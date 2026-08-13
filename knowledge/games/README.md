@@ -1,0 +1,90 @@
+# Game Genomes
+
+Each game file contains a complete evidence-backed decomposition and a typed
+genome. The generated [index](INDEX.md) is the corpus lookup; game records own
+the canonical stored genomes.
+
+## Required contents
+
+- stable `GAME-xxxx` ID and path slug;
+- sources and claim ledger;
+- player actions and automatic behaviours;
+- constraints, information, objectives and time;
+- strategy, replay, failure and adjacent systems;
+- active gene IDs;
+- full-corpus comparison using the
+  [canonical signature rules](../../docs/ARCHITECTURE.md#genome-signature);
+- mathematically selected near matches;
+- combination result and explicit negative findings.
+
+## Path rule
+
+Use one non-semantic slug shard:
+
+- `0-9/`
+- `a-f/`
+- `g-l/`
+- `m-r/`
+- `s-z/`
+
+Do not organise canonical files by puzzle family. Family classifications may
+change; stable paths should not.
+
+## Completed
+
+<!-- BEGIN GENERATED: COMPLETED_GAMES -->
+- [`GAME-0001` — 2048](0-9/2048.md)
+- [`GAME-0002` — Rubik’s Cube](m-r/rubiks-cube.md)
+- [`GAME-0003` — Minesweeper](m-r/minesweeper.md)
+- [`GAME-0004` — Tetris](s-z/tetris.md)
+- [`GAME-0005` — Sudoku](s-z/sudoku.md)
+- [`GAME-0006` — Sokoban](s-z/sokoban.md)
+- [`GAME-0007` — FreeCell](a-f/freecell.md)
+- [`GAME-0008` — Nonogram](m-r/nonogram.md)
+- [`GAME-0009` — Royal Match](m-r/royal-match.md)
+- [`GAME-0010` — Water Sort](s-z/water-sort.md)
+- [`GAME-0011` — Chess](a-f/chess.md)
+- [`GAME-0012` — Flow Free](a-f/flow-free.md)
+- [`GAME-0013` — Baba Is You](a-f/baba-is-you.md)
+- [`GAME-0014` — Into the Breach](g-l/into-the-breach.md)
+- [`GAME-0015` — Threes](s-z/threes.md)
+- [`GAME-0016` — Pipe Mania / Pipe Dream](m-r/pipe-mania.md)
+- [`GAME-0017` — Balatro](a-f/balatro.md)
+- [`GAME-0018` — Mini Metro](m-r/mini-metro.md)
+- [`GAME-0019` — Peg Solitaire](m-r/peg-solitaire.md)
+- [`GAME-0020` — Dorfromantik](a-f/dorfromantik.md)
+- [`GAME-0021` — Cut the Rope](a-f/cut-the-rope.md)
+- [`GAME-0022` — Opus Magnum](m-r/opus-magnum.md)
+- [`GAME-0023` — Return of the Obra Dinn](m-r/return-of-the-obra-dinn.md)
+- [`GAME-0024` — Gorogoa](g-l/gorogoa.md)
+- [`GAME-0025` — Lemmings](g-l/lemmings.md)
+- [`GAME-0026` — World of Goo](s-z/world-of-goo.md)
+- [`GAME-0027` — Bad North: Jotunn Edition](a-f/bad-north.md)
+- [`GAME-0028` — Loop Hero](g-l/loop-hero.md)
+- [`GAME-0029` — HUMANITY](g-l/humanity.md)
+- [`GAME-0030` — Tin Hearts](s-z/tin-hearts.md)
+- [`GAME-0031` — Timelie](s-z/timelie.md)
+- [`GAME-0032` — SpaceChem](s-z/spacechem.md)
+- [`GAME-0033` — Portal](m-r/portal.md)
+- [`GAME-0034` — Braid, Anniversary Edition](a-f/braid.md)
+- [`GAME-0035` — Pikmin 4](m-r/pikmin-4.md)
+- [`GAME-0036` — Patrick’s Parabox](m-r/patricks-parabox.md)
+- [`GAME-0037` — Cosmic Express](a-f/cosmic-express.md)
+- [`GAME-0038` — The Swapper](s-z/the-swapper.md)
+- [`GAME-0039` — The Witness](s-z/the-witness.md)
+- [`GAME-0040` — Carto](a-f/carto.md)
+- [`GAME-0041` — Viewfinder](s-z/viewfinder.md)
+- [`GAME-0042` — Infinifactory](g-l/infinifactory.md)
+- [`GAME-0043` — Stephen’s Sausage Roll](s-z/stephens-sausage-roll.md)
+- [`GAME-0044` — A Good Snowman Is Hard to Build](a-f/a-good-snowman-is-hard-to-build.md)
+- [`GAME-0045` — Snakebird](s-z/snakebird.md)
+- [`GAME-0046` — The Case of the Golden Idol](s-z/the-case-of-the-golden-idol.md)
+- [`GAME-0047` — Fights in Tight Spaces](a-f/fights-in-tight-spaces.md)
+- [`GAME-0048` — Tactical Breach Wizards](s-z/tactical-breach-wizards.md)
+- [`GAME-0049` — Hexcells Infinite](g-l/hexcells-infinite.md)
+- [`GAME-0050` — Shogun Showdown](s-z/shogun-showdown.md)
+<!-- END GENERATED: COMPLETED_GAMES -->
+
+Use the [game-analysis template](../../templates/GAME_ANALYSIS_TEMPLATE.md) and
+follow [CONTRIBUTING.md](../../CONTRIBUTING.md). The
+[research plan](../../docs/RESEARCH_PLAN.md) owns subject selection.
