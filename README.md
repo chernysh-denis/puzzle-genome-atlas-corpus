@@ -3,13 +3,14 @@
 This public repository contains the reviewed, stable-ID research corpus behind
 [Puzzle Genome Atlas](https://atlas.gremlin.monster). The website, generated
 artwork, internal research leads and development tooling live in a separate
-private working repository.
+private working repository. Deterministic `scripts/verify_*.py` controls cited
+by canonical records are included as public research evidence.
 
 ## Corpus snapshot
 
-- 50 reviewed game genomes
-- 321 active typed mechanic genes
-- 50 verified causal combinations
+- 108 reviewed game genomes
+- 533 active typed mechanic genes
+- 108 verified causal combinations
 - reviewed Ukrainian presentation data under `knowledge/locales/uk/`
 
 ## Browse
@@ -19,6 +20,7 @@ private working repository.
 - [Verified combinations](knowledge/combinations/INDEX.md)
 - [Evidence model](docs/EVIDENCE_MODEL.md)
 - [Architecture and stable identifiers](docs/ARCHITECTURE.md)
+- [Executable research controls](scripts/)
 
 Stable IDs are never reused. English records are canonical; reviewed Ukrainian
 translations form a separate presentation layer. Empty regions and single-game

@@ -1,0 +1,870 @@
+{
+  "version": "GENE_SALIENCE_AND_PLAIN_LANGUAGE_EXPANSION_012",
+  "roles": ["defining", "structural", "supporting"],
+  "games": {
+    "GAME-0001": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Directional line compression and collision merges define the 2048 decision loop; spawning, capacity and objectives structure the run around that core.",
+      "noteUk": "Напрямлене ущільнення ліній і злиття під час зіткнення визначають цикл рішень 2048; поява плиток, місткість і цілі структурують гру навколо цього ядра.",
+      "defining": ["SYS-001", "SYS-002", "CON-003"],
+      "structural": ["ACT-001", "SYS-003", "SYS-004", "CON-001", "CON-002", "OBJ-001", "OBJ-003"],
+      "supporting": ["INF-001", "INF-002", "OBJ-002", "TIM-001"]
+    },
+    "GAME-0003": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Minesweeper is defined by acting on a fixed concealed field through exact local aggregate clues; flags, expansion and terminal exposure organise that inference loop.",
+      "noteUk": "Сапер визначається діями над фіксованим прихованим полем через точні локальні числові підказки; прапорці, розкриття областей і небезпечне відкриття організовують цей цикл виведення.",
+      "defining": ["ACT-003", "INF-003", "INF-004"],
+      "structural": ["ACT-004", "SYS-005", "CON-006", "OBJ-005"],
+      "supporting": ["CON-001", "TIM-001"]
+    },
+    "GAME-0005": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Sudoku is defined by completing overlapping all-different units around immutable givens; assignment, capacity, visibility and self-paced sequencing support that constraint problem.",
+      "noteUk": "Судоку визначається завершенням перехресних блоків із різними символами навколо незмінних початкових значень; призначення, місткість, видимість і власний темп підтримують цю задачу обмежень.",
+      "defining": ["CON-009", "CON-010", "OBJ-006"],
+      "structural": ["ACT-007", "CON-001"],
+      "supporting": ["INF-001", "TIM-002"]
+    },
+    "GAME-0013": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Executable spatial syntax and live property rebinding define Baba Is You; movement and pushing become structural because the player uses them to edit and enact those rules.",
+      "noteUk": "Виконуваний просторовий синтаксис і живе переприв’язування властивостей визначають Baba Is You; рух і штовхання є структурними, бо через них гравець редагує та виконує ці правила.",
+      "defining": ["SYS-017", "SYS-018", "INF-008", "OBJ-010"],
+      "structural": ["ACT-009", "ACT-017", "ACT-018", "CON-031", "CON-032", "CON-033"],
+      "supporting": ["CON-001", "INF-001", "TIM-001"]
+    },
+    "GAME-0033": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Player-authored paired apertures and portal-relative momentum define Portal; navigation, rigid objects, surface eligibility and linked fixtures structure chamber solutions.",
+      "noteUk": "Створювані гравцем парні отвори й переорієнтація імпульсу відносно порталу визначають Portal; навігація, тверді об’єкти, допустимі поверхні та пов’язані механізми структурують розв’язання камер.",
+      "defining": ["ACT-047", "SYS-059", "SYS-060"],
+      "structural": ["ACT-008", "ACT-048", "SYS-036", "SYS-061", "CON-078", "CON-079", "INF-019", "OBJ-022"],
+      "supporting": ["INF-001", "TIM-003"]
+    },
+    "GAME-0004": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Tetris is defined by steering a gravity-driven tetromino before it locks and by clearing completed rows; piece supply, top-out, scoring and real-time pressure structure the continuing packing problem.",
+      "noteUk": "Tetris визначається керуванням тетроміно під дією гравітації до його фіксації та очищенням завершених рядів; подача фігур, переповнення, рахунок і часовий тиск структурують безперервну задачу укладання.",
+      "defining": ["ACT-005", "SYS-006", "SYS-007", "SYS-008"],
+      "structural": ["SYS-004", "SYS-009", "CON-001", "CON-007", "CON-008", "INF-005", "OBJ-002", "OBJ-003", "TIM-003"],
+      "supporting": ["ACT-006", "INF-001"]
+    },
+    "GAME-0007": {
+      "reviewed": "2026-08-15",
+      "noteEn": "FreeCell is defined by moving only exposed cards while maintaining alternating descending cascades and same-suit ascending foundations; bounded free cells create the temporary capacity that makes the ordering problem tractable.",
+      "noteUk": "FreeCell визначається переміщенням лише відкритих карт зі збереженням спадних каскадів із чергуванням кольорів та одномастевих основ за зростанням; обмежені вільні комірки дають тимчасову місткість для цієї задачі впорядкування.",
+      "defining": ["ACT-010", "CON-014", "CON-016", "CON-017"],
+      "structural": ["CON-015", "OBJ-004"],
+      "supporting": ["INF-001", "TIM-002"]
+    },
+    "GAME-0012": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Flow Free is defined by tracing routes between fixed matching endpoints while giving every ordinary cell to exactly one pipe and covering the entire board; path continuity and conflict repair structure that assignment.",
+      "noteUk": "Flow Free визначається прокладанням маршрутів між фіксованими парними точками, де кожна звичайна клітинка належить рівно одній трубі й усе поле має бути покрите; суцільність шляхів і виправлення конфліктів структурують це призначення.",
+      "defining": ["ACT-016", "CON-028", "CON-030", "OBJ-006"],
+      "structural": ["SYS-016", "CON-001", "CON-029"],
+      "supporting": ["INF-001", "TIM-002"]
+    },
+    "GAME-0025": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Lemmings is defined by assigning scarce roles to agents that otherwise walk and execute behaviour autonomously, in order to rescue a required share of the population; release timing, hazards and the deadline structure that intervention loop.",
+      "noteUk": "Lemmings визначається призначенням обмежених ролей агентам, які інакше самі рухаються та виконують поведінку, щоб урятувати потрібну частку популяції; випуск, небезпеки й дедлайн структурують цей цикл втручань.",
+      "defining": ["ACT-036", "SYS-045", "SYS-046", "OBJ-019"],
+      "structural": ["ACT-037", "SYS-047", "SYS-048", "CON-067", "CON-068", "TIM-003"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0023": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Return of the Obra Dinn is defined by opening corpse-linked frozen memories, entering structured identity-and-fate hypotheses and receiving confirmation only for a complete correct set; navigation, revisitable evidence and the finite roster support that investigation.",
+      "noteUk": "Return of the Obra Dinn визначається відкриттям пов’язаних із тілами застиглих спогадів, внесенням структурованих гіпотез про особу й долю та підтвердженням лише повного правильного набору; навігація, повторно доступні докази й скінченний список підтримують розслідування.",
+      "defining": ["ACT-031", "SYS-041", "ACT-032", "SYS-042"],
+      "structural": ["ACT-030", "CON-064", "INF-012", "INF-013", "OBJ-017"],
+      "supporting": ["TIM-002"]
+    },
+    "GAME-0014": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Into the Breach is defined by exact enemy-intent previews, a planning phase before committed hostile resolution and displacement that rewrites those outcomes; unit allowances, hazards, emergence and infrastructure survival structure each mission.",
+      "noteUk": "Into the Breach визначається точним показом намірів ворога, фазою планування перед виконанням зафіксованих атак і зміщенням, яке переписує їхні наслідки; ліміти юнітів, небезпеки, поява ворогів і захист інфраструктури структурують місію.",
+      "defining": ["INF-009", "SYS-019", "SYS-020", "TIM-005"],
+      "structural": ["ACT-014", "ACT-019", "SYS-021", "SYS-022", "CON-011", "CON-034", "CON-035", "CON-036", "OBJ-011"],
+      "supporting": ["CON-001", "INF-001"]
+    },
+    "GAME-0034": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Braid's selected World 3 packet is defined by player-controlled rewind, a branchable reversible history and visibly marked green entities that keep evolving forward while the rest of the scene rewinds.",
+      "noteUk": "Вибрана частина світу 3 у Braid визначається керованим гравцем перемотуванням, розгалужуваною оборотною історією та видимо позначеними зеленими сутностями, які продовжують рух уперед, поки решта сцени повертається назад.",
+      "defining": ["ACT-044", "SYS-062", "INF-020", "TIM-007"],
+      "structural": ["ACT-008", "ACT-049", "SYS-037", "SYS-045", "SYS-063", "SYS-064", "SYS-065", "OBJ-018", "TIM-003"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0085": {
+      "reviewed": "2026-08-15",
+      "noteEn": "The Room's opening-safe packet is defined by manipulating physical mechanisms, reconfiguring and applying inventory objects through a persistent prerequisite chain, and using the eyepiece to expose an otherwise hidden visual layer.",
+      "noteUk": "Епізод із відкриттям сейфа в The Room визначається маніпуляцією фізичними механізмами, зміною та застосуванням предметів через стійкий ланцюг передумов і використанням окуляра для відкриття прихованого візуального шару.",
+      "defining": ["ACT-085", "ACT-086", "ACT-087", "CON-136", "INF-035"],
+      "structural": ["ACT-072", "SYS-112", "CON-137", "OBJ-043"],
+      "supporting": ["INF-003", "TIM-002"]
+    },
+    "GAME-0093": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Monument Valley's Prelude is defined by snapping architecture into a pose that rebuilds projected connectivity, then selecting a reachable destination for automatic route traversal; settled-state gating and reachability marks structure that sequence.",
+      "noteUk": "Prelude у Monument Valley визначається фіксацією архітектури в позі, що перебудовує проєкційну зв’язність, а потім вибором досяжної цілі для автоматичного проходження маршруту; вимога стабільного стану й позначки досяжності структурують цю послідовність.",
+      "defining": ["ACT-085", "ACT-096", "SYS-122", "SYS-123"],
+      "structural": ["CON-144", "INF-043", "OBJ-026"],
+      "supporting": ["INF-001", "TIM-002"]
+    },
+    "GAME-0002": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Rubik's Cube is defined by direct face-layer turns within a reachability space constrained by permutation invariants, with the solved colour arrangement as the exact target; reversibility, visibility and self-paced play support that transformation.",
+      "noteUk": "Кубик Рубіка визначається безпосередніми поворотами шарів у просторі станів, обмеженому інваріантами перестановок, із точною зібраною кольоровою конфігурацією як ціллю; оборотність, видимість і власний темп підтримують це перетворення.",
+      "defining": ["ACT-002", "CON-004", "OBJ-004"],
+      "structural": ["CON-005"],
+      "supporting": ["CON-001", "INF-001", "TIM-002"]
+    },
+    "GAME-0006": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Sokoban is defined by push-only crate manipulation, the access geometry needed to stand behind a crate and irreversible deadlocks on the way to the target arrangement; keeper navigation and exclusive occupancy structure those commitments.",
+      "noteUk": "Sokoban визначається маніпуляцією ящиками лише через штовхання, геометрією доступу до позиції позаду ящика та невідновними блокуваннями на шляху до цільового розташування; рух комірника й виняткова зайнятість структурують ці зобов’язання.",
+      "defining": ["ACT-009", "CON-012", "CON-013", "OBJ-004"],
+      "structural": ["ACT-008", "CON-011"],
+      "supporting": ["CON-001", "INF-001", "TIM-002"]
+    },
+    "GAME-0011": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Chess is defined by class-specific movement, the prohibition against leaving one's king attacked, alternating adversarial turns and checkmate as the winning state; ownership, history-sensitive rights and draw rules structure legal play.",
+      "noteUk": "Шахи визначаються рухом за класом фігури, забороною залишати власного короля під атакою, почерговими змагальними ходами та матом як переможною позицією; належність фігур, залежні від історії права й правила нічиєї структурують законну гру.",
+      "defining": ["CON-024", "CON-025", "OBJ-009", "TIM-004"],
+      "structural": ["ACT-014", "ACT-015", "CON-023", "CON-026", "CON-027", "INF-007"],
+      "supporting": ["CON-001", "INF-001", "TIM-002"]
+    },
+    "GAME-0015": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Threes is defined by a coupled one-cell directional shift, collision merges under the special 1-plus-2 and equal-rank compatibility rule, and successor entry from a changed line's opposite edge; scoring and space preservation structure the endless run.",
+      "noteUk": "Threes визначається зв’язаним однокроковим зсувом, злиттям під час зіткнення за особливим правилом 1 + 2 та рівних рангів і появою наступника з протилежного краю зміненої лінії; рахунок і збереження простору структурують нескінченну партію.",
+      "defining": ["SYS-023", "SYS-002", "CON-002", "CON-038"],
+      "structural": ["ACT-001", "SYS-003", "SYS-004", "CON-001", "CON-003", "INF-010", "OBJ-002", "OBJ-003"],
+      "supporting": ["INF-001", "TIM-001"]
+    },
+    "GAME-0016": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Pipe Mania is defined by placing the mandatory queue-head pipe while a real-time flow advances only through reciprocal ports; supply preview, tile locking and open-end failure structure the race to sustain a long enough route.",
+      "noteUk": "Pipe Mania визначається розміщенням обов’язкової першої труби з черги, поки потік у реальному часі просувається лише через взаємно сумісні порти; перегляд запасу, блокування заповнених плиток і програш на відкритому кінці структурують гонитву за достатньо довгим маршрутом.",
+      "defining": ["ACT-020", "SYS-025", "CON-039", "CON-040"],
+      "structural": ["ACT-006", "SYS-004", "SYS-024", "CON-001", "CON-041", "CON-042", "INF-005", "OBJ-002", "OBJ-012", "TIM-003"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0017": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Balatro's scoped Blind is defined by committing a visible card subset, classifying its highest-ranking poker pattern and resolving an ordered Chips-plus-Mult score whose persistent modifiers can be rearranged to change the result.",
+      "noteUk": "Вибраний Blind у Balatro визначається фіксацією видимої підмножини карт, визначенням найстаршої покерної комбінації та впорядкованим обчисленням Chips і Mult, результат якого змінюється через перестановку постійних модифікаторів.",
+      "defining": ["ACT-021", "ACT-022", "SYS-027", "SYS-028", "OBJ-013"],
+      "structural": ["SYS-026", "CON-020", "CON-043", "CON-044", "CON-045", "CON-046", "TIM-001"],
+      "supporting": ["INF-003"]
+    },
+    "GAME-0018": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Mini Metro is defined by editing ordered transit lines around time-driven station and passenger growth, while trains automatically carry type-coded demand and sustained overcrowding ends the run; rolling stock and upgrades structure capacity management.",
+      "noteUk": "Mini Metro визначається редагуванням упорядкованих транспортних ліній навколо появи станцій і пасажирів за часом, автоматичним перевезенням типізованого попиту та завершенням через тривале перевантаження; рухомий склад і поліпшення структурують керування місткістю.",
+      "defining": ["ACT-023", "SYS-029", "SYS-030", "SYS-031", "CON-052"],
+      "structural": ["ACT-024", "ACT-025", "SYS-032", "CON-047", "CON-048", "CON-049", "CON-050", "CON-051", "OBJ-002", "TIM-003"],
+      "supporting": ["ACT-006", "SYS-004", "INF-001", "INF-002"]
+    },
+    "GAME-0020": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Dorfromantik is defined by orienting the mandatory next hex on an adjacent expanding frontier and evaluating typed shared edges and landscape groups after placement; queue visibility, quests, score and earned tiles structure the finite supply.",
+      "noteUk": "Dorfromantik визначається орієнтацією обов’язкової наступної шестикутної плитки на суміжному фронтирі, що розширюється, та оцінюванням типізованих спільних країв і ландшафтних груп після розміщення; видима черга, завдання, рахунок і зароблені плитки структурують скінченний запас.",
+      "defining": ["ACT-026", "SYS-034", "CON-056", "CON-058"],
+      "structural": ["SYS-004", "SYS-024", "SYS-035", "CON-039", "CON-059", "INF-005", "OBJ-002", "OBJ-003", "TIM-001"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0021": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Cut the Rope is defined by irreversibly severing selected supports and letting continuous force-driven candy motion carry the payload to Om Nom; star contact, boundary loss, scoring and real-time timing structure that physical delivery puzzle.",
+      "noteUk": "Cut the Rope визначається незворотним перерізанням вибраних опор і безперервним рухом цукерки під дією сил, що має доставити вантаж до Ам Няма; збирання зірок, втрата за межею, рахунок і час у реальному часі структурують цю фізичну головоломку.",
+      "defining": ["ACT-027", "SYS-036", "CON-060", "OBJ-014"],
+      "structural": ["SYS-037", "CON-061", "OBJ-002", "TIM-003"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0008": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Nonogram is defined by visible ordered run clues and one binary assignment that must satisfy the coupled row and column patterns; grid capacity, full visibility and self-paced marking support that deduction loop.",
+      "noteUk": "Нонограма визначається видимими впорядкованими підказками серій і одним двійковим призначенням, що має одночасно задовольнити пов’язані шаблони рядків і стовпців; місткість сітки, повна видимість і власний темп підтримують цей цикл дедукції.",
+      "defining": ["CON-018", "INF-006", "OBJ-006"],
+      "structural": ["ACT-007", "CON-001", "INF-001"],
+      "supporting": ["TIM-002"]
+    },
+    "GAME-0009": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Royal Match is defined by adjacent swaps that remove qualifying matches, chain automatic cascades and pursue declared targets within a finite move budget; power-ups, collapse, refill and hidden randomness structure the familiar match-3 loop.",
+      "noteUk": "Royal Match визначається обміном сусідніх фішок, автоматичним очищенням збігів і каскадами заради оголошених цілей у межах скінченного бюджету ходів; підсилення, падіння, поповнення та прихована випадковість структурують знайомий цикл match-3.",
+      "defining": ["ACT-011", "SYS-010", "SYS-012", "CON-020", "OBJ-007"],
+      "structural": ["ACT-012", "SYS-003", "SYS-011", "SYS-013", "SYS-014", "CON-019", "TIM-001"],
+      "supporting": ["SYS-004", "CON-001", "INF-001", "INF-002"]
+    },
+    "GAME-0010": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Water Sort is defined by selecting two containers, automatically moving the largest exposed same-colour run that fits, accepting only an empty or matching top and ending with homogeneous tubes; capacity and turn resolution structure those commitments.",
+      "noteUk": "Water Sort визначається вибором двох контейнерів, автоматичним перенесенням найбільшої відкритої одноколірної серії, що вміщується, дозволом лити лише в порожню ціль або на такий самий колір і завершенням однорідними пробірками; місткість і розв’язання ходу структурують ці зобов’язання.",
+      "defining": ["ACT-013", "SYS-015", "CON-022", "OBJ-008"],
+      "structural": ["CON-014", "CON-021", "TIM-001"],
+      "supporting": ["CON-001", "INF-001"]
+    },
+    "GAME-0019": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Peg Solitaire is defined by jumping over one occupied middle position into an empty landing, removing that middle peg and monotonically shrinking the active set; deadlocks, terminal exhaustion and the target arrangement structure the irreversible sequence.",
+      "noteUk": "Кілочковий пасьянс визначається стрибком через одну зайняту середню позицію в порожню ціль, видаленням проміжного кілочка та монотонним скороченням активного набору; блокування, завершення без ходів і цільова конфігурація структурують незворотну послідовність.",
+      "defining": ["SYS-033", "CON-053", "CON-054"],
+      "structural": ["ACT-014", "CON-013", "CON-055", "OBJ-004", "TIM-001"],
+      "supporting": ["CON-001", "INF-001"]
+    },
+    "GAME-0022": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Opus Magnum is defined by laying out a spatial machine, programming each mechanism's cyclic tape and running the synchronous design so geometry transforms inputs into repeated exact products; collision rules, visible schemas and optimisation metrics structure iteration.",
+      "noteUk": "Opus Magnum визначається просторовим компонуванням машини, програмуванням циклічної стрічки кожного механізму та синхронним запуском, у якому геометрія перетворює входи на повторювані точні продукти; зіткнення, видимі схеми й метрики оптимізації структурують ітерації.",
+      "defining": ["ACT-028", "ACT-029", "SYS-038", "SYS-039", "OBJ-015"],
+      "structural": ["SYS-040", "CON-062", "CON-063", "INF-011", "OBJ-016", "TIM-006"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0024": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Gorogoa is defined by navigating, separating and recombining illustrated panels so compatible seams or overlays let represented events continue across frames; the nested scene graph makes those visual relations discoverable.",
+      "noteUk": "Gorogoa визначається навігацією, розділенням і новим поєднанням ілюстрованих панелей, де сумісні шви або накладання продовжують події представленого світу між рамками; вкладений граф сцен робить ці візуальні зв’язки доступними для пошуку.",
+      "defining": ["ACT-035", "SYS-044", "CON-065", "CON-066", "INF-014"],
+      "structural": ["ACT-033", "ACT-034", "SYS-043", "OBJ-018", "TIM-002", "TIM-003"],
+      "supporting": ["CON-001"]
+    },
+    "GAME-0026": {
+      "reviewed": "2026-08-15",
+      "noteEn": "World of Goo is defined by committing live population members as elastic structural nodes in a continuously force-resolved construction, balancing those attachments against the quota that must still reach the exit; traversal and link preview support that trade-off.",
+      "noteUk": "World of Goo визначається використанням живих членів популяції як еластичних вузлів конструкції з безперервним розрахунком сил і балансом між такими витратами та квотою, що ще має дістатися виходу; автономний рух і перегляд зв’язків підтримують цей вибір.",
+      "defining": ["ACT-038", "SYS-036", "SYS-049", "CON-069", "OBJ-019"],
+      "structural": ["SYS-048", "SYS-050", "CON-047", "CON-070", "INF-015", "TIM-003"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0028": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Loop Hero is defined by placing cards onto a fixed cyclic route while the hero walks and fights autonomously, creating recurring danger and deciding when to retreat to secure expedition resources; equipment, card supply and random outcomes structure each loop.",
+      "noteUk": "Loop Hero визначається розміщенням карт на фіксованому циклічному маршруті, поки герой автономно рухається й б’ється, створенням повторюваної небезпеки та рішенням, коли відступити й зберегти ресурси експедиції; спорядження, запас карт і випадкові результати структурують кожне коло.",
+      "defining": ["ACT-039", "ACT-041", "SYS-045", "SYS-053", "CON-073", "OBJ-021"],
+      "structural": ["ACT-040", "SYS-035", "SYS-051", "SYS-054", "CON-072", "CON-074", "TIM-003"],
+      "supporting": ["SYS-004", "CON-001", "INF-001", "INF-002"]
+    },
+    "GAME-0029": {
+      "reviewed": "2026-08-15",
+      "noteEn": "HUMANITY is defined by placing persistent commands locally through the player avatar so a scheduled stream of autonomous people executes them on contact; the authored command field must deliver enough people to the fixed exit.",
+      "noteUk": "HUMANITY визначається локальним розміщенням постійних команд через аватара гравця, щоб запланований потік автономних людей виконував їх при контакті; створене поле команд має доставити достатньо людей до фіксованого виходу.",
+      "defining": ["ACT-042", "SYS-045", "SYS-047", "SYS-055", "CON-075"],
+      "structural": ["ACT-006", "ACT-008", "SYS-048", "OBJ-019", "TIM-003"],
+      "supporting": ["CON-001", "INF-001"]
+    },
+    "GAME-0027": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Bad North's scoped battle is defined by squad-level rather than per-soldier command, autonomous contextual combat and visible carrier-borne landings that form a finite assault to repel; relocation, abilities and real-time simulation structure the defence.",
+      "noteUk": "Досліджена битва Bad North визначається командуванням загонами замість окремих солдатів, автономним контекстним боєм і видимими висадками з носіїв, що утворюють скінченний штурм для відбиття; переміщення, здібності й реальний час структурують оборону.",
+      "defining": ["CON-071", "SYS-051", "SYS-052", "INF-016", "OBJ-020"],
+      "structural": ["ACT-014", "ACT-019", "SYS-020", "SYS-045", "TIM-003"],
+      "supporting": ["CON-001", "INF-001"]
+    },
+    "GAME-0030": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Tin Hearts is defined by repositioning physical routing devices, predicting their effect on autonomous soldiers and rewinding the live simulation to branch into a corrected rescue route; release, force dynamics and finite reusable devices structure that experiment.",
+      "noteUk": "Tin Hearts визначається переставленням фізичних маршрутних пристроїв, прогнозуванням їхнього впливу на автономних солдатиків і перемотуванням живої симуляції для переходу до виправленого маршруту порятунку; випуск, динаміка сил і скінченні багаторазові пристрої структурують цей експеримент.",
+      "defining": ["ACT-043", "ACT-044", "SYS-056", "INF-017", "OBJ-019", "TIM-007"],
+      "structural": ["ACT-006", "SYS-036", "SYS-045", "SYS-047", "SYS-048", "CON-047", "TIM-003"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0031": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Timelie is defined by editing actor commands at arbitrary timestamps, inspecting the exact deterministic future and rewinding to replace a failed branch while coordinating asymmetric actors around hostile perception and shared evacuation.",
+      "noteUk": "Timelie визначається редагуванням команд акторів у довільні моменти, переглядом точного детермінованого майбутнього й перемотуванням для заміни невдалої гілки, поки асиметричні персонажі координуються навколо ворожого сприйняття та спільної евакуації.",
+      "defining": ["ACT-045", "SYS-057", "INF-018", "OBJ-022", "TIM-007", "TIM-008"],
+      "structural": ["ACT-044", "SYS-045", "CON-076", "CON-077"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0032": {
+      "reviewed": "2026-08-15",
+      "noteEn": "SpaceChem is defined by editing spatial controller routes and instructions, then running two synchronous cyclic programs whose explicit geometry-validated commands repeatedly transform inputs into the exact target product.",
+      "noteUk": "SpaceChem визначається редагуванням просторових маршрутів контролерів і команд, а потім запуском двох синхронних циклічних програм, чиї явні перевірені геометрією інструкції повторно перетворюють входи на точний цільовий продукт.",
+      "defining": ["ACT-046", "SYS-038", "SYS-040", "SYS-058", "OBJ-015", "TIM-006"],
+      "structural": ["CON-063", "INF-011", "OBJ-016"],
+      "supporting": ["CON-001", "INF-001"]
+    },
+    "GAME-0035": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Pikmin 4's scoped surface task is defined by assigning typed followers to context-derived work, meeting visible cooperative carrying strength and letting the group deliver designated objects to base under a constrained active roster.",
+      "noteUk": "Досліджене поверхневе завдання Pikmin 4 визначається призначенням типізованих послідовників на роботу за контекстом, досягненням видимого порога спільної сили та автономною доставкою визначених об’єктів до бази в межах обмеженого активного загону.",
+      "defining": ["ACT-050", "SYS-066", "SYS-067", "SYS-068", "CON-080", "INF-021", "OBJ-023"],
+      "structural": ["ACT-008", "ACT-044", "ACT-051", "ACT-052", "SYS-045", "SYS-048", "CON-076", "CON-081", "TIM-003", "TIM-007"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0036": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Patrick's Parabox is defined by centre-aligned transfer across box boundaries and authoritative recursive reparenting of containers while the surrounding parent context remains visible; Sokoban movement and target reconstruction structure those topology changes.",
+      "noteUk": "Patrick’s Parabox визначається центрованим перенесенням через межі коробок та авторитетною рекурсивною зміною батьківства контейнерів зі збереженням видимого контексту зовнішнього простору; рух у стилі Sokoban і відтворення цілі структурують ці топологічні зміни.",
+      "defining": ["SYS-069", "SYS-070", "CON-082", "INF-022"],
+      "structural": ["ACT-008", "ACT-009", "ACT-018", "CON-011", "CON-013", "OBJ-004"],
+      "supporting": ["INF-001", "TIM-002"]
+    },
+    "GAME-0037": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Cosmic Express is defined by tracing one route before a locked traversal, then automatically serving typed passengers in an order constrained by the train's single seat until every passenger and the train reach their destinations.",
+      "noteUk": "Cosmic Express визначається прокладанням одного маршруту перед заблокованим проходженням, а потім автоматичним обслуговуванням типізованих пасажирів у порядку, обмеженому одним місцем у поїзді, доки всі пасажири й сам поїзд не дістануться цілей.",
+      "defining": ["ACT-016", "SYS-031", "CON-050", "CON-051", "OBJ-024", "TIM-009"],
+      "structural": ["CON-029"],
+      "supporting": ["CON-001", "INF-001"]
+    },
+    "GAME-0038": {
+      "reviewed": "2026-08-15",
+      "noteEn": "The Swapper is defined by aimed clone creation, transfer of a unique device-control locus and shared movement whose local physics diverge across bodies, with visibility and coloured fields selectively constraining remote operations.",
+      "noteUk": "The Swapper визначається прицільним створенням клонів, перенесенням єдиного осередку керування пристроєм і спільним рухом із різним локальним фізичним результатом для тіл, тоді як видимість і кольорові поля вибірково обмежують дистанційні операції.",
+      "defining": ["ACT-054", "ACT-052", "SYS-071", "CON-031", "CON-084", "CON-085", "CON-086"],
+      "structural": ["ACT-008", "SYS-036", "SYS-061", "SYS-072", "CON-083", "OBJ-025", "TIM-003"],
+      "supporting": ["SYS-037", "INF-001"]
+    },
+    "GAME-0039": {
+      "reviewed": "2026-08-15",
+      "noteEn": "The Witness panel is defined by tracing a simple start-to-end path that partitions clue cells into monochromatic regions and is jointly validated only on submission; bounded violation feedback supports self-paced revision.",
+      "noteUk": "Панель The Witness визначається прокладанням простого шляху від старту до фінішу, що ділить клітинки з підказками на одноколірні області й перевіряється цілісно лише під час підтвердження; обмежений сигнал порушення підтримує самостійну правку.",
+      "defining": ["ACT-016", "SYS-073", "CON-029", "CON-087", "OBJ-006"],
+      "structural": ["INF-023", "TIM-002"],
+      "supporting": ["CON-001", "INF-001"]
+    },
+    "GAME-0040": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Carto is defined by moving unique persistent map fragments under typed-edge rules so each legal edit becomes the world's authoritative topology, then traversing the new connection to a designated place.",
+      "noteUk": "Carto визначається переміщенням унікальних постійних фрагментів мапи за правилами сумісності країв, коли кожне законне редагування стає авторитетною топологією світу, а новим з’єднанням треба дійти до визначеного місця.",
+      "defining": ["ACT-056", "SYS-074", "CON-058", "CON-088", "OBJ-026"],
+      "structural": ["ACT-008", "TIM-002"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0041": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Viewfinder is defined by positioning and committing one perspective image so it instantiates represented geometry while overwriting the intersected world; branchable rewind makes that destructive spatial edit revisable on the route to the exit.",
+      "noteUk": "Viewfinder визначається розміщенням і фіксацією перспективного зображення, яке втілює намальовану геометрію та перезаписує перетнуту частину світу; розгалужуване перемотування дозволяє виправляти це руйнівне просторове редагування на шляху до виходу.",
+      "defining": ["ACT-044", "ACT-057", "SYS-075", "SYS-076", "CON-089", "OBJ-022", "TIM-007"],
+      "structural": ["ACT-008", "SYS-036", "TIM-003"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0042": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Infinifactory is defined by constructing a spatial conveyor machine against a visible input-output schema, then running recurrent source and sink processing until the exact assembly quota is delivered; optimisation remains a separate structural layer.",
+      "noteUk": "Infinifactory визначається побудовою просторової конвеєрної машини за видимою схемою входу й виходу, а потім повторюваною обробкою джерела та приймача до постачання точної квоти виробів; оптимізація лишається окремим структурним шаром.",
+      "defining": ["ACT-028", "SYS-040", "SYS-077", "INF-011", "OBJ-015", "TIM-006"],
+      "structural": ["CON-062", "OBJ-016"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0043": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Stephen's Sausage Roll is defined by turning a body-attached fork to slide or roll an elongated sausage, tracking exact-once cooking on each face and returning the tool assembly to its start pose without burning or losing the payload.",
+      "noteUk": "Stephen’s Sausage Roll визначається поворотами прикріпленої виделки, що зсувають або перекочують видовжену ковбаску, обліком одноразового приготування кожної грані та поверненням зв’язки героя з інструментом у стартову позу без перепікання чи втрати вантажу.",
+      "defining": ["ACT-058", "SYS-078", "SYS-079", "CON-090", "CON-091", "OBJ-027"],
+      "structural": ["ACT-008", "ACT-009", "CON-011", "CON-013", "CON-061", "TIM-001"],
+      "supporting": ["CON-001", "INF-001"]
+    },
+    "GAME-0044": {
+      "reviewed": "2026-08-15",
+      "noteEn": "A Good Snowman Is Hard to Build is defined by consuming snowy ground to grow movable balls through three sizes, transferring exposed balls under strict stack order and assembling one large-medium-small snowman before the garden deadlocks.",
+      "noteUk": "A Good Snowman Is Hard to Build визначається споживанням засніженої землі для росту рухомих куль через три розміри, перенесенням відкритих куль за суворим порядком укладання та складанням одного сніговика з великої, середньої й малої куль до блокування саду.",
+      "defining": ["SYS-080", "SYS-081", "CON-092", "OBJ-004"],
+      "structural": ["ACT-008", "ACT-009", "CON-013", "TIM-001"],
+      "supporting": ["CON-001", "INF-001"]
+    },
+    "GAME-0045": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Snakebird is defined by head-led body propagation, fruit-driven persistent growth and whole-shape gravity, with the final fruit activating an exit that the resulting articulated body must enter head-first.",
+      "noteUk": "Snakebird визначається рухом тіла слідом за головою, постійним ростом від фруктів і падінням усієї форми, причому останній фрукт активує вихід, куди утворене сегментоване тіло має ввійти головою вперед.",
+      "defining": ["SYS-082", "SYS-083", "SYS-084", "SYS-085", "OBJ-007", "OBJ-022"],
+      "structural": ["ACT-008", "SYS-037", "CON-011", "CON-013", "CON-061", "TIM-001"],
+      "supporting": ["CON-001", "INF-001"]
+    },
+    "GAME-0046": {
+      "reviewed": "2026-08-15",
+      "noteEn": "The Case of the Golden Idol is defined by extracting a finite case vocabulary from immutable evidence, assigning those terms to typed sentence slots and validating the complete structured account without revealing each wrong answer.",
+      "noteUk": "The Case of the Golden Idol визначається вилученням скінченного словника справи з незмінних доказів, призначенням цих термінів у типізовані пропуски речення та перевіркою цілісного структурованого пояснення без розкриття кожної помилкової відповіді.",
+      "defining": ["ACT-059", "ACT-060", "SYS-086", "CON-093", "INF-024", "OBJ-017"],
+      "structural": ["ACT-030", "CON-064", "TIM-002"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0047": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Fights in Tight Spaces is defined by spending shared momentum on spatial action cards while exact hostile intents wait for a committed resolution phase; hand turnover and clearance of the finite encounter make positioning and card economy inseparable.",
+      "noteUk": "Fights in Tight Spaces визначається витрачанням спільного імпульсу на просторові карти дій, поки точні наміри ворогів очікують фази підтвердженого розв’язання; оновлення руки й очищення скінченної сутички роблять позиціонування та економіку карт нероздільними.",
+      "defining": ["ACT-061", "SYS-019", "SYS-087", "CON-094", "INF-009", "OBJ-029", "TIM-005"],
+      "structural": ["SYS-020", "CON-011", "CON-043", "OBJ-030"],
+      "supporting": ["CON-001", "INF-001", "INF-003"]
+    },
+    "GAME-0048": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Tactical Breach Wizards is defined by an editable current-turn draft, independent movement and action allowances and an exact reactive Foresee simulation that can be rewound before committing the room's authored task set.",
+      "noteUk": "Tactical Breach Wizards визначається редагованою чернеткою поточного ходу, незалежними дозволами на рух і дію та точним реактивним прогнозом Foresee, який можна відмотати перед підтвердженням авторського набору завдань кімнати.",
+      "defining": ["ACT-062", "SYS-088", "CON-095", "INF-025", "OBJ-031", "TIM-010"],
+      "structural": ["ACT-014", "ACT-019", "SYS-020", "SYS-047", "CON-011", "OBJ-029"],
+      "supporting": ["CON-001", "INF-001"]
+    },
+    "GAME-0049": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Hexcells Infinite is defined by asserting one pre-existing binary cell class, receiving immediate truth adjudication and combining exact neighbour counts with visible contiguity qualifiers until every concealed hex is classified.",
+      "noteUk": "Hexcells Infinite визначається твердженням про один наперед заданий двійковий клас клітинки, негайною перевіркою істинності та поєднанням точних сусідніх підрахунків із видимими ознаками суміжності, доки всі приховані шестикутники не класифіковано.",
+      "defining": ["ACT-063", "SYS-089", "INF-003", "INF-004", "INF-026", "OBJ-032"],
+      "structural": ["OBJ-002", "TIM-001"],
+      "supporting": ["CON-001"]
+    },
+    "GAME-0050": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Shogun Showdown is defined by editing and activating a bounded attack queue whose tiles execute in order while every ordinary input advances visible hostile steps and tile cooldowns on the same turn clock.",
+      "noteUk": "Shogun Showdown визначається редагуванням і запуском обмеженої черги атак, чиї плитки виконуються по порядку, тоді як кожна звичайна дія просуває видимі кроки ворогів і перезарядження плиток за спільним лічильником ходів.",
+      "defining": ["ACT-065", "ACT-066", "SYS-090", "SYS-091", "CON-096", "CON-097", "INF-027"],
+      "structural": ["ACT-008", "ACT-064", "ACT-067", "CON-011", "OBJ-029", "TIM-001"],
+      "supporting": ["CON-001", "INF-001"]
+    },
+    "GAME-0051": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Mini Motorways is defined by editing a persistent branching road network while random houses, destinations and demand arrive in real time, dispatching only connected same-colour cars and ending the run after sustained overload.",
+      "noteUk": "Mini Motorways визначається редагуванням постійної розгалуженої дорожньої мережі, поки випадкові будинки, пункти призначення й попит з’являються в реальному часі, викликаючи лише з’єднані автомобілі відповідного кольору та завершуючи сесію після тривалого перевантаження.",
+      "defining": ["ACT-068", "SYS-029", "SYS-030", "SYS-092", "CON-052", "CON-098", "TIM-003"],
+      "structural": ["ACT-006", "ACT-025", "SYS-032", "CON-047", "CON-049", "OBJ-002"],
+      "supporting": ["SYS-004", "INF-001", "INF-002"]
+    },
+    "GAME-0052": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Freeways is defined by drawing an elevation-aware directed road graph from disclosed weighted demands, then repeatedly evaluating autonomous traffic, merge congestion and complete connectivity while retaining the design for revision.",
+      "noteUk": "Freeways визначається малюванням орієнтованого дорожнього графа з рівнями висоти за розкритим зваженим попитом, а потім повторним оцінюванням автономного руху, заторів на злиттях і повної зв’язності зі збереженням схеми для правок.",
+      "defining": ["ACT-068", "ACT-069", "SYS-093", "SYS-094", "CON-099", "INF-028", "OBJ-033", "TIM-011"],
+      "structural": ["OBJ-002"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0053": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Can of Wormholes is defined by moving an ordered body from either endpoint, with reverse motion extruding the tail straight rather than replaying head history, until the complete articulated footprint fits its fixed hole.",
+      "noteUk": "Can of Wormholes визначається рухом упорядкованого тіла з будь-якого кінця, причому зворотний рух прямо витягує хвіст замість повторення історії голови, доки вся сегментована форма не заповнить фіксований отвір.",
+      "defining": ["SYS-082", "SYS-095", "OBJ-004"],
+      "structural": ["ACT-008", "CON-011", "CON-061", "TIM-001"],
+      "supporting": ["CON-001", "INF-001"]
+    },
+    "GAME-0054": {
+      "reviewed": "2026-08-15",
+      "noteEn": "A Monster's Expedition is defined by pushing one log from different sides so it tips or rolls maximally, settles as a traversable bridge in water and lets the monster physically reach the newly connected shore.",
+      "noteUk": "A Monster’s Expedition визначається штовханням однієї колоди з різних боків, щоб вона перекидалася або котилася до упору, закріплювалася у воді як прохідний міст і дозволяла монстру фізично дістатися нового берега.",
+      "defining": ["ACT-009", "SYS-096", "SYS-097", "OBJ-026"],
+      "structural": ["ACT-008", "CON-011", "CON-012", "CON-013", "TIM-001"],
+      "supporting": ["CON-001", "INF-001"]
+    },
+    "GAME-0055": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Bonfire Peaks is defined by carrying one rigid belongings crate directly in front of an oriented avatar, satisfying coupled turn and elevation clearance and finally sacrificing the designated payload to the bonfire.",
+      "noteUk": "Bonfire Peaks визначається перенесенням однієї жорсткої скрині з речами безпосередньо перед орієнтованим героєм, дотриманням спільного габариту під час поворотів і підйомів та остаточним спаленням визначеного вантажу у вогнищі.",
+      "defining": ["ACT-048", "SYS-098", "CON-090", "CON-101", "OBJ-014"],
+      "structural": ["ACT-008", "CON-011", "TIM-001"],
+      "supporting": ["CON-001", "INF-001"]
+    },
+    "GAME-0056": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Railbound is defined by configuring a finite rail layout before a locked run in which all carriages move on one shared clock, avoid temporal collisions and couple to the locomotive in declared numerical order.",
+      "noteUk": "Railbound визначається компонуванням скінченної залізничної схеми перед заблокованим запуском, у якому всі вагони рухаються за спільним годинником, уникають часових зіткнень і приєднуються до локомотива в оголошеному числовому порядку.",
+      "defining": ["ACT-028", "SYS-099", "CON-102", "OBJ-035", "TIM-009"],
+      "structural": ["CON-047"],
+      "supporting": ["CON-001", "INF-001"]
+    },
+    "GAME-0057": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Golf Peaks is defined by consuming a finite hand of exact-distance spatial cards whose chosen direction drives deterministic staged ball motion across a heightfield until the designated ball reaches its fixed hole.",
+      "noteUk": "Golf Peaks визначається витрачанням скінченної руки просторових карт із точною дистанцією, чий вибраний напрямок запускає детермінований поетапний рух м’яча рельєфом, доки визначений м’яч не досягне фіксованої лунки.",
+      "defining": ["ACT-061", "SYS-100", "CON-103", "OBJ-014"],
+      "structural": ["CON-011", "TIM-001"],
+      "supporting": ["CON-001", "INF-001"]
+    },
+    "GAME-0058": {
+      "reviewed": "2026-08-15",
+      "noteEn": "inbento is defined by orienting and consuming a finite set of footprint pieces whose later ingredients overwrite earlier cells until the complete visible recipe is reconstructed.",
+      "noteUk": "inbento визначається орієнтуванням і витрачанням скінченного набору фігур, чиї пізніші інгредієнти перекривають попередні клітинки, доки повністю не відтворено видимий рецепт.",
+      "defining": ["ACT-070", "SYS-101", "CON-104", "CON-105", "INF-011", "OBJ-004"],
+      "structural": ["CON-001", "TIM-001"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0059": {
+      "reviewed": "2026-08-15",
+      "noteEn": "KAMI is defined by recolouring one connected component and automatically merging matching neighbours, with success measured both by a uniform field and an optional authored Perfect count.",
+      "noteUk": "KAMI визначається перефарбуванням однієї зв’язної області та автоматичним злиттям сусідніх областей того самого кольору, а успіх оцінюється і суцільним полем, і додатковим авторським лімітом Perfect.",
+      "defining": ["ACT-071", "SYS-102", "OBJ-037", "OBJ-038"],
+      "structural": ["TIM-001"],
+      "supporting": ["CON-001", "INF-001"]
+    },
+    "GAME-0060": {
+      "reviewed": "2026-08-15",
+      "noteEn": "HOOK is defined by triggering linked hook sets whose complete swept paths must be unobstructed; safe activations monotonically remove mechanisms until the visible board is clear.",
+      "noteUk": "HOOK визначається запуском пов’язаних наборів гаків, чиї повні траєкторії мають бути вільними; безпечні натискання незворотно прибирають механізми, доки видиме поле не спорожніє.",
+      "defining": ["ACT-072", "SYS-103", "CON-054", "CON-106", "OBJ-007"],
+      "structural": ["TIM-001"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0061": {
+      "reviewed": "2026-08-15",
+      "noteEn": "LYNE is defined by tracing simple paths between typed endpoint pairs while including every matching waypoint and satisfying the exact shared traversal count of each neutral nexus.",
+      "noteUk": "LYNE визначається проведенням простих шляхів між парами типізованих кінців із включенням усіх відповідних точок та точним виконанням спільної кількості проходів через кожен нейтральний вузол.",
+      "defining": ["ACT-016", "CON-028", "CON-029", "CON-030", "CON-107", "CON-108", "OBJ-006"],
+      "structural": ["CON-001", "TIM-002"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0062": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Hexologic is defined by assigning values 1–3 to intersecting hex lines, using disclosed exact sums and live local satisfaction feedback until every overlapping equation holds.",
+      "noteUk": "Hexologic визначається призначенням значень 1–3 шестикутникам у перехресних лініях, використанням відкритих точних сум і живого локального зворотного зв’язку, доки всі рівняння не виконано.",
+      "defining": ["ACT-007", "CON-109", "INF-029", "INF-030", "OBJ-006"],
+      "structural": ["CON-001", "TIM-002"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0063": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Rush Hour is defined by sliding axis-locked vehicles through collision-free lanes to clear the one boundary opening and extract the designated red car.",
+      "noteUk": "Rush Hour визначається ковзанням автомобілів уздовж незмінних осей без зіткнень, щоб звільнити єдиний крайовий вихід і вивести визначену червону машину.",
+      "defining": ["ACT-014", "CON-007", "CON-024", "OBJ-039"],
+      "structural": ["CON-001", "TIM-002"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0064": {
+      "reviewed": "2026-08-15",
+      "noteEn": "SET is defined by committing exactly three visible cards whose four attributes are each either all equal or all different, thereby identifying one valid relational subset.",
+      "noteUk": "SET визначається вибором рівно трьох видимих карт, у яких кожна з чотирьох ознак або однакова для всіх, або різна для всіх, тобто утворює один валідний сет.",
+      "defining": ["ACT-021", "CON-110", "OBJ-040"],
+      "structural": ["TIM-002"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0065": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Mastermind is defined by submitting complete ordered colour hypotheses and receiving duplicate-aware exact and misplaced match counts until the fixed concealed sequence is identified within ten rows.",
+      "noteUk": "Mastermind визначається поданням повних упорядкованих кольорових гіпотез і отриманням коректних за повторів підрахунків точних та зміщених збігів, доки приховану послідовність не знайдено за десять рядків.",
+      "defining": ["ACT-073", "SYS-104", "CON-020", "INF-031", "OBJ-041"],
+      "structural": ["TIM-002"],
+      "supporting": ["INF-003"]
+    },
+    "GAME-0066": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Black Box is defined by firing perimeter probes through a concealed ball field, accumulating indirect ray outcomes and submitting a five-cell layout accepted when its complete probe mapping is observationally equivalent.",
+      "noteUk": "Black Box визначається запуском крайових променів крізь приховане поле куль, накопиченням непрямих результатів і поданням п’яти клітинок, прийнятих тоді, коли повна карта променів спостережно еквівалентна.",
+      "defining": ["ACT-074", "ACT-075", "SYS-105", "SYS-106", "CON-111", "INF-032", "OBJ-042"],
+      "structural": ["ACT-007", "TIM-002"],
+      "supporting": ["INF-003"]
+    },
+    "GAME-0067": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Simon is defined by transiently presenting an ordered cue sequence, requiring immediate ordinal reproduction, then replaying the retained sequence with one new cue until the first mismatch ends the run.",
+      "noteUk": "Simon визначається тимчасовим показом упорядкованої послідовності, її негайним відтворенням за позиціями та повторним програванням із одним новим сигналом, доки перша помилка не завершить сесію.",
+      "defining": ["ACT-076", "SYS-107", "SYS-108", "INF-033", "TIM-012"],
+      "structural": ["SYS-004", "OBJ-002"],
+      "supporting": ["INF-002"]
+    },
+    "GAME-0068": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Wordle is defined by submitting complete lexicon-valid five-letter hypotheses and receiving duplicate-aware position-addressed feedback until the fixed hidden word is identified.",
+      "noteUk": "Wordle визначається поданням повних п’ятилітерних слів із дозволеного словника та отриманням прив’язаного до позицій зворотного зв’язку з коректною обробкою повторів, доки приховане слово не знайдено.",
+      "defining": ["ACT-073", "SYS-104", "CON-112", "INF-034", "OBJ-041"],
+      "structural": ["CON-020", "TIM-002"],
+      "supporting": ["INF-003"]
+    },
+    "GAME-0069": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Lights Out is defined by pressing one binary cell to toggle its complete orthogonal neighbourhood within fixed reachability invariants until the board matches the all-off target.",
+      "noteUk": "Lights Out визначається натисканням однієї двійкової клітинки, що перемикає все її ортогональне оточення в межах сталих інваріантів досягнення, доки все поле не стане вимкненим.",
+      "defining": ["ACT-077", "SYS-109", "CON-004", "OBJ-004"],
+      "structural": ["CON-005", "TIM-002"],
+      "supporting": ["CON-001", "INF-001"]
+    },
+    "GAME-0070": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Inertia is defined by launching one ball along a committed straight heading, collecting every crossed gem and stopping only at declared conditions while any visible mine contact is terminal.",
+      "noteUk": "Inertia визначається запуском однієї кулі в обраному прямому напрямку, збиранням усіх перетнутих самоцвітів і зупинкою лише за оголошених умов, тоді як контакт із видимою міною є термінальним.",
+      "defining": ["ACT-078", "SYS-037", "SYS-110", "CON-113", "OBJ-007"],
+      "structural": ["TIM-001"],
+      "supporting": ["CON-001", "INF-001"]
+    },
+    "GAME-0071": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Slant is defined by assigning one of two diagonals to every cell while satisfying exact incident degrees at numbered vertices and preventing cycles anywhere in the resulting graph.",
+      "noteUk": "Slant визначається призначенням однієї з двох діагоналей кожній клітинці з одночасним виконанням точних степенів у пронумерованих вершинах і забороною циклів у всьому графі.",
+      "defining": ["ACT-007", "CON-114", "CON-115", "OBJ-006"],
+      "structural": ["CON-001", "TIM-002"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0072": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Tents is defined by assigning tent cells to meet exact row and column quotas, forbid king-neighbour contact and admit a one-to-one orthogonal matching with every fixed tree.",
+      "noteUk": "Tents визначається розміщенням наметів за точними квотами рядків і стовпців, забороною дотику в сусідстві короля та існуванням взаємно однозначного ортогонального парування з усіма деревами.",
+      "defining": ["ACT-007", "CON-109", "CON-117", "CON-118", "OBJ-006"],
+      "structural": ["CON-001", "TIM-002"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0073": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Dominosa is defined by pairing orthogonally adjacent numbered cells into an exact domino cover that uses every unordered value pair from zero through six exactly once.",
+      "noteUk": "Dominosa визначається паруванням ортогонально сусідніх пронумерованих клітинок у точне доміно-покриття, яке рівно один раз використовує кожну невпорядковану пару значень від нуля до шести.",
+      "defining": ["ACT-079", "CON-119", "CON-120", "OBJ-006"],
+      "structural": ["CON-001", "TIM-002"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0074": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Bridges is defined by cycling zero, one or two links between nearest aligned islands until exact island degrees, non-crossing corridors and one connected spanning network hold together.",
+      "noteUk": "Bridges визначається перемиканням нуля, одного або двох зв’язків між найближчими островами на одній осі, доки точні степені островів, неперетинання коридорів і єдина зв’язна мережа не виконуються разом.",
+      "defining": ["ACT-080", "CON-030", "CON-114", "CON-121", "CON-122", "OBJ-006"],
+      "structural": ["CON-001", "TIM-002"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0075": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Light Up is defined by placing bulbs whose wall-bounded rays illuminate every white cell while numbered walls receive exact adjacent counts and no two bulbs see each other.",
+      "noteUk": "Light Up визначається розміщенням ламп, чиї обмежені стінами промені освітлюють усі білі клітинки, тоді як пронумеровані стіни мають точні сусідні кількості й жодні дві лампи не бачать одна одну.",
+      "defining": ["ACT-007", "SYS-111", "CON-123", "CON-124", "CON-125", "OBJ-006"],
+      "structural": ["CON-001", "TIM-002"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0076": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Loopy is defined by independently selecting lattice edges until every numbered face has its exact boundary count and all selected edges form one simple cycle.",
+      "noteUk": "Loopy визначається незалежним вибором ребер ґратки, доки кожна пронумерована грань не має точної кількості меж, а всі вибрані ребра не утворюють один простий цикл.",
+      "defining": ["ACT-081", "CON-126", "CON-127", "OBJ-006"],
+      "structural": ["CON-001", "TIM-002"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0077": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Map is defined by assigning one of four colours to planar regions so every shared-boundary neighbour differs, while immutable seed colours anchor the solution.",
+      "noteUk": "Map визначається призначенням одного з чотирьох кольорів областям планарної карти так, щоб усі сусіди зі спільною межею відрізнялися, а незмінні початкові кольори закріплювали розв’язок.",
+      "defining": ["ACT-007", "CON-128", "OBJ-006"],
+      "structural": ["CON-009", "TIM-002"],
+      "supporting": ["CON-001", "INF-001"]
+    },
+    "GAME-0078": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Galaxies is defined by drawing region boundaries so every connected component contains exactly one centre and is closed under a half-turn around that centre.",
+      "noteUk": "Galaxies визначається проведенням меж областей так, щоб кожна зв’язна компонента містила рівно один центр і була замкнена відносно повороту на 180 градусів навколо нього.",
+      "defining": ["ACT-081", "CON-129", "CON-130", "OBJ-006"],
+      "structural": ["CON-001", "TIM-002"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0079": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Filling is defined by assigning numbers so every maximal orthogonally connected equal-number region has area exactly equal to its label, around immutable given digits.",
+      "noteUk": "Filling визначається призначенням чисел так, щоб площа кожної максимальної ортогонально зв’язної однозначної області точно дорівнювала її мітці навколо незмінних заданих цифр.",
+      "defining": ["ACT-007", "CON-131", "OBJ-006"],
+      "structural": ["CON-009", "TIM-002"],
+      "supporting": ["CON-001", "INF-001"]
+    },
+    "GAME-0080": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Keen is defined by completing a Latin square whose fixed cages must simultaneously evaluate to their displayed arithmetic targets and operations.",
+      "noteUk": "Keen визначається завершенням латинського квадрата, фіксовані клітки якого одночасно мають обчислюватися до показаних арифметичних цілей за вказаними операціями.",
+      "defining": ["ACT-007", "CON-010", "CON-132", "OBJ-006"],
+      "structural": ["CON-001", "TIM-002"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0081": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Pearl is defined by drawing one simple loop whose black pearls are turns flanked by straight cells and whose white pearls are straight cells adjacent to at least one turn.",
+      "noteUk": "Pearl визначається побудовою одного простого циклу, де чорні перлини є поворотами з прямими сусідами, а білі — прямими ділянками, поруч із якими є хоча б один поворот.",
+      "defining": ["ACT-081", "CON-127", "CON-133", "CON-134", "OBJ-006"],
+      "structural": ["CON-001", "TIM-002"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0082": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Signpost is defined by linking each numbered cell to its consecutive successor along the source arrow's ray until all cells form one directed permutation path.",
+      "noteUk": "Signpost визначається зв’язуванням кожної пронумерованої клітинки з наступником уздовж променя її стрілки, доки всі клітинки не утворять один напрямлений шлях-перестановку.",
+      "defining": ["ACT-082", "CON-010", "CON-029", "CON-135", "OBJ-006"],
+      "structural": ["CON-001", "TIM-002"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0083": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Net is defined by rotating fixed-position port tiles until every adjacent port is reciprocal and the complete graph becomes one acyclic spanning network.",
+      "noteUk": "Net визначається обертанням плиток із незмінними позиціями, доки всі сусідні порти не стануть взаємними, а повний граф не утворить одну ациклічну остовну мережу.",
+      "defining": ["ACT-083", "CON-058", "CON-115", "CON-122", "OBJ-006"],
+      "structural": ["CON-001", "TIM-002"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0084": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Netslide is defined by cyclically shifting whole rows or columns within an even-permutation reachability class until reciprocal unbarred ports form one acyclic spanning network.",
+      "noteUk": "Netslide визначається циклічним зсуванням цілих рядків або стовпців у межах класу парних перестановок, доки взаємні не перекриті порти не утворять одну ациклічну остовну мережу.",
+      "defining": ["ACT-084", "CON-004", "CON-058", "CON-115", "CON-122", "OBJ-006"],
+      "structural": ["CON-005", "TIM-002"],
+      "supporting": ["CON-001", "INF-001"]
+    },
+    "GAME-0086": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Machinarium's opening scrapyard is defined by changing Josef's reach, answering a pictorial item request, combining magnet and string into a fixture-compatible tool and restoring both missing limbs before the exit becomes traversable.",
+      "noteUk": "Початкове звалище Machinarium визначається зміною досяжності Джозефа, виконанням піктографічного запиту на предмет, поєднанням магніту й мотузки в сумісний із опорою інструмент та поверненням обох кінцівок перед відкриттям виходу.",
+      "defining": ["ACT-088", "ACT-090", "ACT-091", "SYS-113", "INF-036", "OBJ-044"],
+      "structural": ["ACT-085", "ACT-087", "ACT-089", "SYS-112", "CON-136"],
+      "supporting": ["INF-001", "TIM-002"]
+    },
+    "GAME-0087": {
+      "reviewed": "2026-08-15",
+      "noteEn": "The Longest Journey's subway-key packet is defined by exposing and altering a held item's subpart, assembling a three-part tool through two combinations and applying it before the deliberately leaky duck loses its temporary inflation.",
+      "noteUk": "Епізод із ключем на колії в The Longest Journey визначається відкриттям і зміною частини предмета, складанням трикомпонентного інструмента через два поєднання та його застосуванням до втрати навмисно негерметичною качечкою тимчасового надування.",
+      "defining": ["ACT-090", "ACT-092", "SYS-114", "CON-138", "INF-037", "OBJ-045"],
+      "structural": ["ACT-087", "CON-136", "TIM-003"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0088": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Day of the Tentacle's super-battery commission is defined by an NPC disclosing and persistently accepting one exact three-item set, then automatically constructing the fixed output for separate collection.",
+      "noteUk": "Замовлення супербатареї в Day of the Tentacle визначається тим, що персонаж повідомляє й стійко приймає один точний набір із трьох предметів, а потім автоматично створює фіксований результат для окремого збирання.",
+      "defining": ["ACT-091", "SYS-115", "CON-139", "INF-038", "OBJ-046"],
+      "structural": ["ACT-089", "CON-136"],
+      "supporting": ["INF-001", "TIM-002"]
+    },
+    "GAME-0089": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Stardew Valley's Boiler Room packet is defined by committing typed quantities into persistent fixed-or-alternative bundle slots, completing three nested groups and receiving the aggregate minecart restoration only at the next-day boundary.",
+      "noteUk": "Епізод Boiler Room у Stardew Valley визначається внесенням типізованих кількостей у стійкі фіксовані або альтернативні слоти наборів, завершенням трьох вкладених груп і отриманням сукупного відновлення вагонеток лише на межі наступного дня.",
+      "defining": ["ACT-093", "SYS-116", "SYS-117", "CON-140", "INF-039", "OBJ-047", "TIM-013"],
+      "structural": ["CON-136"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0090": {
+      "reviewed": "2026-08-15",
+      "noteEn": "The Talos Principle's first A1 gate is defined by turning three specifically collected tetromino identities into an all-used, contained, gapless and non-overlapping 4 × 3 exact cover that immediately opens persistent access.",
+      "noteUk": "Перші ворота A1 у The Talos Principle визначаються перетворенням трьох конкретно зібраних тетроміно на повне 4 × 3 покриття без виходу за межі, накладань і прогалин, яке негайно відкриває постійний прохід.",
+      "defining": ["ACT-070", "SYS-118", "SYS-119", "CON-141", "INF-040", "OBJ-048"],
+      "structural": ["SYS-037", "CON-001", "CON-104", "CON-105", "CON-136", "OBJ-025"],
+      "supporting": ["ACT-008", "INF-001", "TIM-002"]
+    },
+    "GAME-0091": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Fez's fireplace packet is defined by quarter-turning among four orthographic views so front-layer collision and avatar depth correction rebuild traversable adjacency over unchanged world geometry.",
+      "noteUk": "Епізод із каміном у Fez визначається поворотами на чверть оберту між чотирма ортографічними видами, через які вибір переднього шару зіткнень і корекція глибини аватара перебудовують прохідну суміжність незмінної геометрії світу.",
+      "defining": ["ACT-094", "SYS-120", "CON-142", "INF-041"],
+      "structural": ["ACT-008", "SYS-036", "OBJ-026", "TIM-003"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0092": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Echochrome is defined by continuously orbiting a fixed maze so screen-space endpoint coincidence and foreground occlusion become temporary authoritative paths for an autonomously walking figure collecting every echo.",
+      "noteUk": "Echochrome визначається безперервним обертанням камери навколо незмінного лабіринту, щоб збіг кінців у проєкції та перекриття розриву передньою геометрією ставали тимчасовими чинними шляхами для автономної фігури, яка збирає всі відлуння.",
+      "defining": ["ACT-095", "SYS-121", "CON-143", "INF-042", "OBJ-049"],
+      "structural": ["ACT-006", "SYS-037", "SYS-045", "TIM-003"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0094": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Superliminal's chess-piece room is defined by carrying one rigid object while perspective-preserving, collision-bounded depth placement changes its physical scale, using the live preview to commit a plate-sized body.",
+      "noteUk": "Кімната з шаховою фігурою в Superliminal визначається перенесенням одного твердого об’єкта, чий фізичний масштаб змінює перспективно сталий і обмежений зіткненнями вибір глибини, а живий попередній перегляд дає змогу покласти тіло розміром із плиту.",
+      "defining": ["ACT-048", "SYS-124", "CON-145", "INF-044"],
+      "structural": ["ACT-008", "SYS-036", "SYS-061", "OBJ-022", "TIM-003"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0095": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Manifold Garden's early packet is defined by selecting one of six surfaces as gravity down, carrying cubes only in their matching gravity frame and crossing a periodic world boundary that returns the falling body from the opposite repeated instance.",
+      "noteUk": "Ранній епізод Manifold Garden визначається вибором однієї з шести поверхонь як напряму вниз, перенесенням кубів лише у відповідному гравітаційному кадрі та перетином періодичної межі світу, що повертає падаюче тіло з протилежного повтореного екземпляра.",
+      "defining": ["ACT-097", "SYS-125", "SYS-126", "CON-146", "INF-045"],
+      "structural": ["ACT-008", "ACT-048", "ACT-049", "SYS-036", "OBJ-022", "TIM-003"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0096": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Maquette's golden-key packet is defined by carrying one object whose pose propagates across simultaneous homologous world instances and whose usable scale is reindexed when a reachable representation crosses an adjacent recursion layer.",
+      "noteUk": "Епізод із золотим ключем у Maquette визначається перенесенням одного об’єкта, поза якого поширюється між одночасними гомологічними екземплярами світу, а придатний масштаб переіндексовується, коли доступне представлення переходить у сусідній рекурсивний шар.",
+      "defining": ["ACT-048", "SYS-127", "SYS-128", "CON-147", "INF-046"],
+      "structural": ["ACT-008", "SYS-036", "OBJ-022", "TIM-003"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0097": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Antichamber's Now You See It lesson is defined by deliberately looking away from an armed doorway so observation-gated authored remapping replaces its concealed remote destination while the local threshold remains unchanged.",
+      "noteUk": "Урок Now You See It в Antichamber визначається навмисним відведенням погляду від активованих дверей, щоб залежне від спостереження авторське перепризначення замінило їхню приховану віддалену ціль за незмінного локального порога.",
+      "defining": ["ACT-098", "SYS-129", "CON-148", "INF-047"],
+      "structural": ["ACT-008", "OBJ-026", "TIM-003"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0098": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Hyperbolica's selected maze is defined by continuous first-person pose integration in constant negative curvature, where order-five square incidence and curved distance and direction cues replace Euclidean route intuition.",
+      "noteUk": "Вибраний лабіринт Hyperbolica визначається безперервним інтегруванням пози від першої особи у просторі сталої від’ємної кривини, де п’ять квадратів навколо вершини та викривлені підказки відстані й напряму замінюють евклідову інтуїцію маршруту.",
+      "defining": ["SYS-130", "CON-149", "INF-048"],
+      "structural": ["ACT-008", "OBJ-026", "TIM-003"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0099": {
+      "reviewed": "2026-08-15",
+      "noteEn": "HyperRogue's standard packet is defined by discrete movement on the bitruncated {7,3} hyperbolic grid, followed by shortest-route hostile responses inside a player-centred finite projection while treasure and survival jointly shape the run.",
+      "noteUk": "Стандартний епізод HyperRogue визначається дискретним рухом бітрункованою гіперболічною сіткою {7,3}, після якого вороги відповідають кроками найкоротшого маршруту в скінченній проєкції навколо гравця, а скарби й виживання разом формують забіг.",
+      "defining": ["SYS-131", "CON-150", "INF-049", "OBJ-002", "OBJ-003"],
+      "structural": ["ACT-008", "TIM-001"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0100": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Keep Talking and Nobody Explodes is defined by translating role-exclusive bomb observations and manual rules into one live module control, whose first applicable ordered procedure is adjudicated under a shared countdown.",
+      "noteUk": "Keep Talking and Nobody Explodes визначається перетворенням розділених між ролями спостережень за бомбою та правил посібника на одну дію з активним модулем, яку оцінює перша застосовна впорядкована процедура під спільним зворотним відліком.",
+      "defining": ["ACT-099", "ACT-100", "SYS-132", "CON-151", "CON-152", "INF-050"],
+      "structural": ["SYS-133", "CON-068", "CON-153", "OBJ-031"],
+      "supporting": ["TIM-003"]
+    },
+    "GAME-0101": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Chants of Sennaar's opening lesson is defined by recording editable contextual glyph hypotheses, matching three stable unknown identities bijectively to illustrated meanings and having the complete page validate and canonicalise the lexicon.",
+      "noteUk": "Початковий урок Chants of Sennaar визначається записом редагованих контекстних гіпотез про гліфи, взаємно однозначним зіставленням трьох сталих невідомих знаків з ілюстрованими значеннями та перевіркою повної сторінки, яка канонізує словник.",
+      "defining": ["ACT-101", "ACT-102", "SYS-134", "CON-154", "INF-051", "INF-052"],
+      "structural": ["ACT-049", "CON-155", "OBJ-026"],
+      "supporting": ["TIM-002"]
+    },
+    "GAME-0102": {
+      "reviewed": "2026-08-15",
+      "noteEn": "The Password Game's Rules 1–9 packet is defined by continuously editing one persistent string while every revealed predicate revalidates live and each all-valid state permanently adds another jointly binding rule.",
+      "noteUk": "Епізод Rules 1–9 у The Password Game визначається безперервним редагуванням одного сталого рядка, коли всі відкриті предикати перевіряються наживо, а кожен сукупно правильний стан назавжди додає ще одне спільно обов’язкове правило.",
+      "defining": ["ACT-103", "SYS-135", "SYS-136", "CON-156", "INF-030"],
+      "structural": ["OBJ-006"],
+      "supporting": ["TIM-002"]
+    },
+    "GAME-0103": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Papers, Please's Day 4 packet is defined by inspecting evidence under a replaceable daily policy, committing one terminal verdict and balancing correct adjudication against a real-time shift whose mistakes are audited only after the case leaves.",
+      "noteUk": "Епізод четвертого дня в Papers, Please визначається перевіркою доказів за змінною щоденною політикою, винесенням одного остаточного вердикту та балансом між правильністю рішень і часом зміни, коли помилку перевіряють лише після завершення справи.",
+      "defining": ["ACT-105", "SYS-137", "SYS-138", "CON-157", "INF-053", "OBJ-050", "TIM-014"],
+      "structural": ["ACT-104"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0104": {
+      "reviewed": "2026-08-15",
+      "noteEn": "TUNIC's patterned-door packet is defined by learning a directional language from a progressively collected diegetic manual, then entering an exact buffered code that the world already accepts even without possessing the explanatory page.",
+      "noteUk": "Епізод із візерунчастими дверима в TUNIC визначається вивченням мови напрямків із поступово зібраного внутрішньоігрового посібника та введенням точної буферизованої комбінації, яку світ приймає навіть без пояснювальної сторінки в інвентарі.",
+      "defining": ["ACT-106", "SYS-139", "CON-158", "INF-054", "TIM-015"],
+      "structural": ["ACT-008", "SYS-037", "OBJ-026"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0105": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Outer Wilds' launch-code packet is defined by a forced world reset that restores physical state but preserves an authored fact, allowing the same learned credential to unlock a reset mechanism without reacquiring it in the new loop.",
+      "noteUk": "Епізод із кодом запуску в Outer Wilds визначається примусовим перезапуском світу, який відновлює фізичний стан, але зберігає здобутий факт, тому в новому циклі той самий вивчений код відкриває відновлений механізм без повторного отримання.",
+      "defining": ["ACT-107", "SYS-140", "SYS-141", "CON-159", "INF-055", "TIM-016"],
+      "structural": ["ACT-008", "ACT-072", "OBJ-026"],
+      "supporting": ["TIM-003"]
+    },
+    "GAME-0106": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Her Story is defined by free-text querying over a fixed transcript archive whose matches return in stable chronology but expose only the earliest five, making semantic query refinement the route to otherwise hidden revisitable evidence.",
+      "noteUk": "Her Story визначається довільними текстовими запитами до фіксованого архіву розшифровок, де збіги мають сталий хронологічний порядок, але видно лише перші п’ять, тому уточнення запитів відкриває приховані повторно доступні докази.",
+      "defining": ["ACT-108", "SYS-142", "CON-160", "INF-012", "OBJ-051"],
+      "structural": ["ACT-109"],
+      "supporting": ["TIM-002"]
+    },
+    "GAME-0107": {
+      "reviewed": "2026-08-15",
+      "noteEn": "The Pedestrian is defined by repositioning intact sign panels and explicitly pairing compatible one-use ports in an edit plane, then directly walking the avatar through the resulting cross-panel route.",
+      "noteUk": "The Pedestrian визначається переставлянням цілих панелей-знаків і явним з’єднанням сумісних одноразових портів у режимі редагування, після чого гравець безпосередньо проводить персонажа створеним міжпанельним маршрутом.",
+      "defining": ["ACT-110", "ACT-111", "SYS-143", "CON-161"],
+      "structural": ["ACT-008", "OBJ-026"],
+      "supporting": ["INF-001", "TIM-002"]
+    },
+    "GAME-0108": {
+      "reviewed": "2026-08-15",
+      "noteEn": "Cocoon's orange-orb packet is defined by one persistent portable object alternating between an externally mounted enterable world and a carried ability source that manifests a route only at a compatible locus.",
+      "noteUk": "Епізод із помаранчевою сферою в Cocoon визначається одним сталим переносним об’єктом, який почергово стає змонтованим ззовні входом до світу та переносним джерелом здатності, що проявляє шлях лише у сумісному місці.",
+      "defining": ["ACT-048", "ACT-112", "SYS-144", "SYS-145", "CON-162", "CON-163"],
+      "structural": ["ACT-008", "OBJ-026"],
+      "supporting": ["INF-001", "TIM-002"]
+    }
+  }
+}

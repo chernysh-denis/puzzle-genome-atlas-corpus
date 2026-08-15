@@ -1,0 +1,364 @@
+---
+game_id: GAME-0060
+slug: hook
+game_title: HOOK
+analysis_status: reviewed
+reviewed: 2026-08-13
+combination_ids:
+  - COMB-0060
+gene_ids:
+  action:
+    - ACT-072
+  system:
+    - SYS-103
+  constraint:
+    - CON-054
+    - CON-106
+  information:
+    - INF-001
+  objective:
+    - OBJ-007
+  time:
+    - TIM-001
+---
+
+# Game: HOOK
+
+## Analysis scope
+
+- Version / ruleset: Maciej Targoni's original released HOOK, restricted to
+  levels 1–7, the complete introductory mechanism set before junction boxes,
+  rotatable line switching, wireless receivers and time-sensitive switching.
+- Included: one fixed abstract board; visible circular triggers; one or several
+  visible lines and hook-ended mechanisms linked to each trigger; pressing one
+  trigger; automatic withdrawal toward that trigger; permanent disappearance
+  after an unobstructed withdrawal; collision when a retracting line or hook
+  meets a still-active mechanism; immediate attempt reset after collision;
+  complete board clearance; self-paced deterministic retries.
+- Excluded: level 8 onward; junction boxes and rotatable routing; wireless
+  transmitter / receiver links; timing a rotation during active retraction;
+  later compound networks; HOOK 2 and Complete Edition additions; achievements,
+  soundtrack, platform features, level numbering beyond the selected boundary
+  and presentation.
+- Direct-play status: not conducted. The creator's product pages establish the
+  remove-all-hooks objective, untimed play and original title. A contemporary
+  design analysis documents the exact level 1–7 progression, one-to-many trigger
+  linkage, obstruction collision and dependency order. Two contemporary hands-
+  on reviews independently corroborate retraction, disappearance, reset and the
+  later-mechanism exclusion boundary.
+
+## Claim ledger
+
+| ID | Claim | Status | Evidence | Confidence | Sources |
+|---|---|---|---|---|---|
+| `HOK-001` | The scoped first seven levels teach the original trigger, retraction, obstruction and one-to-many linkage before later routing devices | Confirmed | Corroborated | High | P1, S1-S3 |
+| `HOK-002` | Every scoped board visibly exposes its current triggers, lines, hooks, crossings and linkages | Observation | Corroborated | High | S1-S3 |
+| `HOK-003` | One action presses one circular trigger rather than dragging a line or hook | Confirmed | Corroborated | High | S1-S3 |
+| `HOK-004` | A pressed trigger automatically retracts every mechanism currently attached to it toward the trigger | Confirmed | Corroborated | High | S1, S2 |
+| `HOK-005` | A mechanism disappears after an unobstructed retraction and cannot return during ordinary forward play | Confirmed | Corroborated | High | S1-S3 |
+| `HOK-006` | A retracting line or hook colliding with a still-present mechanism rejects the chosen order | Confirmed | Corroborated | High | S1-S3 |
+| `HOK-007` | Collision resets the current authored level, restoring removed mechanisms | Confirmed | Corroborated | High | S2, S3 |
+| `HOK-008` | Completion requires every hook-and-line mechanism to be removed from the board | Confirmed | Direct | High | P1, P2, S2 |
+| `HOK-009` | Levels are self-paced, deterministic and have no score or time restriction | Confirmed | Direct | High | P1, P2, S2 |
+| `HOK-010` | Level 7 introduces one trigger controlling multiple wires in the same automatic action | Confirmed | Direct | High | S1 |
+
+## Basic data
+
+- Release / origin: Polish solo developer Maciej Targoni first published the
+  small browser version in October 2014 and released the commercial original on
+  25 January 2015.
+- Platform or physical form: deterministic single-player digital mechanism-
+  ordering puzzle controlled by one-click triggers.
+- Puzzle family: dependency-ordered line-and-hook retraction.
+- Primary sources:
+  - **[P1]** [Rainbow Train — Hook](https://www.rainbowtrain.eu/hook), the
+    creator's current product page, for the original game's identity, remove-
+    all-hooks goal, untimed / unscored design and separation from HOOK 2.
+  - **[P2]** [HOOK on Steam](https://store.steampowered.com/app/367580/), for
+    developer, release, single-player boundary and the same remove-all-hooks,
+    no-time-restriction objective.
+- Contemporary and reproducible corroboration:
+  - **[S1]** Brendan Caldwell,
+    [Learning the Ropes with Hook](https://haywiremag.com/columns/due-diligence-learning-the-ropes-with-hook/),
+    for the exact level 1–7 tutorial sequence, trigger press, retraction,
+    disappearance, collision, one-to-many linkage and partial-order example.
+  - **[S2]** Lory Gil,
+    [Hook review](https://www.idownloadblog.com/2015/01/29/hook-review/), for
+    trigger buttons, automatic reeling, obstruction, restart, clear-board
+    completion, no scoring and later rotatable switchers.
+  - **[S3]** Jason Bouwmeester,
+    [HOOK review](https://techaeris.com/2015/09/25/hook-review-refreshing-change-pace/),
+    for hook-on-line collision, level reset, later switches, wireless links and
+    crossing-depth order.
+- Claim IDs: `HOK-001`–`HOK-010`.
+
+## Mechanical decomposition
+
+### Action Genes
+
+- `ACT-072` — activate addressed mechanism trigger. The player taps one visible
+  circular trigger; the trigger identity supplies the complete linked mechanism
+  set, so the player does not separately choose a line, motion path or target.
+- Parameters: input gesture, trigger position, one-to-many linkage and whether
+  the trigger remains after an unsuccessful withdrawal.
+- Claim IDs: `HOK-003`, `HOK-004`, `HOK-010`.
+
+### System Behaviour Genes
+
+- `SYS-103` — linked hook retraction with swept obstruction adjudication. The
+  system begins every line attached to the selected trigger, retracts each one
+  toward that trigger, removes the completed set if all sweeps remain clear, or
+  produces collision feedback and resets the authored board if any moving hook
+  meets a still-present mechanism.
+- Resolution order: resolve selected trigger's linked set; begin declared
+  withdrawals; test complete moving footprints against active geometry; remove
+  the successful linked set or restore the original level after collision;
+  evaluate whether any target remains; accept the next input only after the
+  transition ends.
+- Parameters: retraction distance, speed, linked-set concurrency, hook shape,
+  crossing depth, collision classes and reset delay.
+- Claim IDs: `HOK-004`–`HOK-007`, `HOK-010`.
+
+### Constraint Genes
+
+- `CON-054` — forward-only monotonic active-set reduction. Each successful
+  trigger removes its non-empty linked set; no ordinary accepted action adds a
+  mechanism or restores one. The registry wording is generalised from an exact
+  one-peg decrement to a non-empty bounded removal, preserving Peg Solitaire's
+  instance while admitting HOOK's one-to-many level 7 trigger.
+- `CON-106` — unobstructed swept withdrawal path. A trigger is useful now only
+  if the full moving footprint of each linked line can reach its trigger without
+  colliding with any still-active line, hook or mechanism.
+- `CON-011` is absent: the constraint concerns an entire swept trajectory, not
+  occupancy of one addressed destination cell.
+- Scarce strategic resource: safe currently available sinks in the visible
+  dependency graph; there is no finite move allowance.
+- Claim IDs: `HOK-004`–`HOK-007`, `HOK-010`.
+
+### Information Genes
+
+- `INF-001` — fully visible current state. Every current trigger, linkage, line,
+  hook, crossing and remaining blocker in the scoped levels is visible before a
+  press. No concealed future event changes the dependency graph.
+- Claim IDs: `HOK-002`, `HOK-006`, `HOK-009`.
+
+### Objective Genes
+
+- `OBJ-007` — clear declared board-element targets. The creator declares every
+  hook as the target set; a level completes only after the final visible linked
+  mechanism disappears. The existing gene already covers every visible member
+  of a declared class and therefore needs only another included example.
+- There is no score, authored move target or time objective in scope.
+- Claim IDs: `HOK-008`, `HOK-009`.
+
+### Time Genes
+
+- `TIM-001` — discrete turn with automatic resolution. One trigger press fully
+  resolves retraction, removal or collision-and-reset before the next trigger
+  can be meaningfully selected.
+- Although the animation occupies real time, the first seven levels do not ask
+  the player to intervene during it; later timing puzzles are excluded.
+- Claim IDs: `HOK-003`–`HOK-010`.
+
+## Reproducible transitions
+
+| Before | Action | Deterministic resolution | What it establishes | Claim ID |
+|---|---|---|---|---|
+| One line joins one circular trigger and its hook path is empty | Press that trigger | The line retracts to the circle, fades and disappears | A press commands automatic removal rather than direct dragging | `HOK-003`–`HOK-005` |
+| Hook A curves around still-present line B | Press A's trigger | A starts withdrawing, strikes B and the authored level is restored | Useful action legality depends on the complete current sweep | `HOK-006`, `HOK-007` |
+| Hook A curves around line B, but B's trigger is pressed first | Press B, then A after B disappears | B withdraws safely; A's formerly blocked sweep is clear and also disappears | Removal changes the dependency graph and creates a new available action | `HOK-005`, `HOK-006` |
+| Level 7 trigger X controls two unblocked wires | Press X | Both linked wires retract and disappear in one resolved action | Trigger identity can fan out to several mechanisms | `HOK-004`, `HOK-010` |
+| Two independent outer lines block a central hook | Remove both outer lines in either order | The central trigger becomes safe only after both predecessors disappear | Solutions are partial orders, not necessarily one total order | `HOK-006`, `HOK-010` |
+| One final mechanism remains and its sweep is clear | Press its trigger | It disappears and the next level is presented | Completion is exhaustive board-element removal | `HOK-008` |
+
+## Strategic and experiential structure
+
+- Local decision: identify which visible trigger's complete linked withdrawal
+  is unobstructed in the current board.
+- Medium-term planning: remove independent blockers without destroying the
+  mental model of which deeper line each one releases.
+- Long-term structure: repeatedly choose a sink of the current obstruction
+  graph until its active node set is empty.
+- Common heuristics: trace each line from circle to hook; check every part of
+  the swept path rather than only the endpoint; remove visually upper or outer
+  blockers first; treat one-to-many triggers as a shared atomic action.
+- Failure attribution: collision follows directly from visible current
+  geometry and the selected trigger; no random event changes the result.
+- Player-trust factors: linkage, crossing depth, moving hook footprint,
+  successful disappearance and reset feedback must remain distinguishable.
+- Claim IDs: `HOK-002`–`HOK-010`.
+
+## Replay and variation
+
+- What changes between scoped levels: number and geometry of lines, hook
+  orientation, crossings, trigger link multiplicity and dependency depth.
+- Randomness or procedural generation: none in the seven authored levels.
+- Multiple viable strategies: independent unblocked mechanisms can be removed
+  in either order; genuine blocker chains still impose precedence.
+- Typical replay motive: recover immediately after a collision or revisit a
+  solved level for its mechanism sequence; no score or move rating demands
+  optimisation.
+- Claim IDs: `HOK-001`, `HOK-006`–`HOK-010`.
+
+## Adjacent systems and history
+
+- Direct successor: HOOK 2 moves the core into a spatial perspective and is a
+  separate ruleset.
+- Later original-game systems: rotatable junction boxes, wireless receivers and
+  timing-sensitive changes expand the trigger-to-mechanism mapping beyond this
+  introductory boundary.
+- Similar systems: prerequisite graphs and topological elimination, expressed
+  here through physical-looking line sweeps rather than explicit arrows.
+- Important difference from Railbound: the player does not construct a network
+  and then run several vehicles; each press immediately removes fixed mechanism
+  material. Difference from Shogun Showdown: there is no editable execution
+  queue. Difference from Peg Solitaire: the selected element removes its linked
+  mechanism set through a swept clearance predicate rather than a local jump.
+- Claim IDs: `HOK-001`–`HOK-010`.
+
+## Normalised genome
+
+| Type | Active gene IDs | Candidate genes or parameters |
+|---|---|---|
+| Action | `ACT-072` | addressed circular trigger and linked-set identity |
+| System Behaviour | `SYS-103` | automatic withdrawal, disappearance or reset |
+| Constraint | `CON-054`, `CON-106` | monotonic active-set reduction and swept clearance |
+| Information | `INF-001` | complete visible mechanism graph |
+| Objective | `OBJ-007` | remove every hook-and-line target |
+| Time | `TIM-001` | one press fully resolves before another decision |
+
+Canonical signature:
+
+`ACT-072; SYS-103; CON-054,CON-106; INF-001; OBJ-007; TIM-001`
+
+## Corpus comparison
+
+- Indexed games scanned: every prior record `GAME-0001`–`GAME-0059`.
+- Exact genome matches: none.
+- Existing combination subsets: none. Every verified `COMB-0001`–`COMB-0059`
+  gene set was tested as a proper subset and rejected.
+- Unique near match: `GAME-0019` — Peg Solitaire at intersection `3`, union
+  `14`, `3 / 14 = 0.214286`. Snakebird and KAMI follow at `3 / 18 =
+  0.166667` and `2 / 12 = 0.166667`; Golf Peaks follows at `2 / 13 =
+  0.153846`.
+- Full numeric scan (`intersection / union = Jaccard`):
+  - `GAME-0001`: `2 / 19 = 0.105263`; `GAME-0002`: `1 / 13 = 0.076923`;
+    `GAME-0003`: `1 / 15 = 0.066667`; `GAME-0004`: `1 / 21 = 0.047619`;
+    `GAME-0005`: `1 / 13 = 0.076923`; `GAME-0006`: `1 / 15 = 0.066667`;
+    `GAME-0007`: `1 / 14 = 0.071429`; `GAME-0008`: `1 / 13 = 0.076923`;
+    `GAME-0009`: `3 / 20 = 0.150000`; `GAME-0010`: `2 / 14 = 0.142857`;
+    `GAME-0011`: `1 / 19 = 0.052632`; `GAME-0012`: `1 / 15 = 0.066667`;
+    `GAME-0013`: `2 / 18 = 0.111111`; `GAME-0014`: `1 / 21 = 0.047619`;
+    `GAME-0015`: `2 / 19 = 0.105263`; `GAME-0016`: `1 / 21 = 0.047619`;
+    `GAME-0017`: `1 / 19 = 0.052632`; `GAME-0018`: `1 / 25 = 0.040000`;
+    `GAME-0019`: `3 / 14 = 0.214286`; `GAME-0020`: `2 / 19 = 0.105263`;
+    `GAME-0021`: `1 / 15 = 0.066667`; `GAME-0022`: `1 / 18 = 0.055556`;
+    `GAME-0023`: `0 / 17 = 0.000000`; `GAME-0024`: `0 / 19 = 0.000000`;
+    `GAME-0025`: `1 / 17 = 0.058824`; `GAME-0026`: `1 / 18 = 0.055556`;
+    `GAME-0027`: `1 / 18 = 0.055556`; `GAME-0028`: `1 / 23 = 0.043478`;
+    `GAME-0029`: `1 / 18 = 0.055556`; `GAME-0030`: `1 / 20 = 0.050000`;
+    `GAME-0031`: `1 / 17 = 0.058824`; `GAME-0032`: `1 / 17 = 0.058824`;
+    `GAME-0033`: `1 / 19 = 0.052632`; `GAME-0034`: `1 / 20 = 0.050000`;
+    `GAME-0035`: `1 / 24 = 0.041667`; `GAME-0036`: `1 / 18 = 0.055556`;
+    `GAME-0037`: `1 / 15 = 0.066667`; `GAME-0038`: `1 / 22 = 0.045455`;
+    `GAME-0039`: `1 / 15 = 0.066667`; `GAME-0040`: `1 / 14 = 0.071429`;
+    `GAME-0041`: `1 / 17 = 0.058824`; `GAME-0042`: `1 / 15 = 0.066667`;
+    `GAME-0043`: `2 / 19 = 0.105263`; `GAME-0044`: `2 / 15 = 0.133333`;
+    `GAME-0045`: `3 / 18 = 0.166667`; `GAME-0046`: `1 / 16 = 0.062500`;
+    `GAME-0047`: `1 / 20 = 0.050000`; `GAME-0048`: `1 / 20 = 0.050000`;
+    `GAME-0049`: `1 / 15 = 0.066667`; `GAME-0050`: `2 / 20 = 0.100000`;
+    `GAME-0051`: `1 / 22 = 0.045455`; `GAME-0052`: `1 / 16 = 0.062500`;
+    `GAME-0053`: `2 / 14 = 0.142857`; `GAME-0054`: `2 / 16 = 0.125000`;
+    `GAME-0055`: `2 / 15 = 0.133333`; `GAME-0056`: `1 / 14 = 0.071429`;
+    `GAME-0057`: `2 / 13 = 0.153846`; `GAME-0058`: `2 / 14 = 0.142857`;
+    `GAME-0059`: `2 / 12 = 0.166667`.
+- Scan date: 2026-08-13.
+
+| Neighbour | Shared genes | Decision-relevant differences | Match result |
+|---|---|---|---|
+| `GAME-0019` — Peg Solitaire | `CON-054`, `INF-001`, `TIM-001` | Peg removes exactly one bounded material instance per jump while preserving a peg-movement topology; HOOK removes a trigger-linked non-empty mechanism set only after its swept path is clear | Nearest only; no combination reuse |
+| `GAME-0045` — Snakebird | `INF-001`, `OBJ-007`, `TIM-001` | Snakebird navigates and grows an articulated body before exiting; HOOK removes a visible mechanism dependency graph through addressed triggers | Secondary near match only |
+| `GAME-0059` — KAMI | `INF-001`, `TIM-001` | KAMI rewrites and coalesces a selected component toward one surviving class; HOOK deletes trigger-linked mechanisms only when complete swept withdrawals are clear | Secondary near match only |
+
+- New genes: `ACT-072`, `SYS-103`, `CON-106`.
+- Generalised gene: `CON-054` from exact one-element material decrement to a
+  non-empty bounded active-set removal per successful action.
+- Classification result: new combination with three new genes and four reused
+  genes.
+- Evidence and reasoning: no prior action commands one addressed trigger's
+  linked mechanism set; no system gene combines withdrawal, swept collision,
+  disappearance and attempt reset; and no constraint captures obstruction over
+  the complete moving withdrawal footprint.
+
+## Taxonomy impact
+
+- Registry changes: add `ACT-072`, `SYS-103`, `CON-106`; generalise `CON-054`
+  representation-neutrally without changing Peg Solitaire's signature.
+- Taxonomy-change record: none. The old instance remains a strict one-element
+  case of the clarified non-empty bounded removal.
+- Candidate terms affected: promote addressed mechanism triggering, linked hook
+  retraction and unobstructed swept withdrawal; map monotonic mechanism removal
+  to `CON-054`.
+
+## Negative results
+
+- `ACT-049` rejected: no locally navigated avatar operates a world switch.
+- `ACT-065` and `ACT-066` rejected: the player neither edits nor releases a
+  prepared command queue.
+- `TIM-006` and `TIM-009` rejected: there is no separately committed machine
+  design followed by a locked multi-cycle run.
+- `CON-102` rejected: collision is between one triggered moving footprint and
+  still-active fixed mechanism geometry, not synchronous vehicle occupancy.
+- `none` as a separate negative-result record; these are local boundary tests.
+
+## Delta summary
+
+## Нові факти
+
+- [Confirmed | Corroborated | High] Рівні 1–7 утворюють відтворюваний вступний
+  блок із тригером, автоматичним втягуванням, зіткненням, скиданням і одним
+  тригером для кількох ліній (`HOK-001`–`HOK-010`).
+
+## Нові гени
+
+- [Observation | Corroborated | High] `ACT-072` — активувати адресований тригер
+  механізму.
+- [Observation | Corroborated | High] `SYS-103` — втягування зв’язаних гаків із
+  перевіркою перешкод на всій траєкторії.
+- [Observation | Corroborated | High] `CON-106` — безперешкодний слід
+  втягування.
+
+## Нові комбінації
+
+- [Confirmed | Corroborated | High] `COMB-0060` — тригерне втягування гаків за
+  видимим порядком залежностей.
+
+## Зміни таксономії
+
+- [Observation | Corroborated | High] `CON-054` узагальнено від вилучення рівно
+  одного елемента до непорожнього скінченного набору за успішну пряму дію;
+  сигнатура Peg Solitaire не змінюється.
+
+## Нові питання
+
+- Чи утворять пізні поворотні вузли окрему дію редагування зв’язку, чи лише
+  параметризують відображення тригер—механізм?
+- Чи потребує реактивне перемикання під час активного втягування окремого гена
+  часу порівняно з іншими системами реального часу?
+
+## Наступна рекомендована гра
+
+- [Hypothesis | Corroborated | High] LYNE.
+- Optimisation criterion: move from destructive dependency ordering to
+  constructive multi-colour path partition while testing current path genes.
+- Expected information gain: determine whether complete-cell coverage,
+  pairwise endpoint connection and exclusive occupancy recur outside Flow Free
+  under a hexagonal / free-angle authored geometry.
+- Backlog impact: retain later HOOK mechanisms and HOOK 2 as separate ruleset
+  expansions rather than blending them into the introductory record.
+
+## Чому саме вона
+
+- [Hypothesis | Corroborated | High] LYNE is mechanically distant from HOOK but
+  deliberately tests recurrence across the Atlas's older disjoint-path family,
+  balancing this Goal's recent singleton growth with a falsifiable reuse case.

@@ -67,18 +67,24 @@
   occupancy with one surviving peg in the centre hole; placing Patrick's
   Parabox boxes and the player onto their respective marked goal classes;
   arranging three A Good Snowman Is Hard to Build balls as one decreasing-size
-  stack at any legal ground location.
+  stack at any legal ground location; fitting the complete ordered Can of
+  Wormholes body into a matching fixed worm-shaped hole; making every final
+  inbento cell equal the ingredient identity in the visible recipe; restoring
+  every button of a Lights Out field to the declared all-off configuration.
 - Excludes: reaching a scalar value; maximising score; merely keeping another
   action available.
-- Parameters: target equivalence, permitted whole-object orientations and
-  alignment tolerance, whether target positions distinguish occupant class and
-  whether the target's ground location is fixed or flexible.
+- Parameters: component count, target equivalence, permitted whole-object
+  orientations and alignment tolerance, whether target positions distinguish
+  occupant class and whether the target's ground location is fixed or flexible.
 - Evidence: [Rubik's Cube decomposition](../games/m-r/rubiks-cube.md) and
   [Sokoban decomposition](../games/s-z/sokoban.md), and
   [FreeCell decomposition](../games/a-f/freecell.md), and
   [Peg Solitaire decomposition](../games/m-r/peg-solitaire.md), and
   [Patrick's Parabox decomposition](../games/m-r/patricks-parabox.md), and
-  [A Good Snowman Is Hard to Build decomposition](../games/a-f/a-good-snowman-is-hard-to-build.md).
+  [A Good Snowman Is Hard to Build decomposition](../games/a-f/a-good-snowman-is-hard-to-build.md), and
+  [Can of Wormholes decomposition](../games/a-f/can-of-wormholes.md), and
+  [inbento decomposition](../games/g-l/inbento.md), and
+  [Lights Out decomposition](../games/g-l/lights-out.md).
 - Novelty: not assessed.
 
 ## OBJ-005 — Reveal every non-hazard position
@@ -111,7 +117,25 @@
   row and column realises its ordered run clues; covering every Flow Free cell
   with non-overlapping paths that connect all matching endpoint pairs; tracing
   a The Witness start-to-end path whose topology and clue-induced regions are
-  all valid.
+  all valid; completing every LYNE family path through all typed markers while
+  satisfying every shared-junction count; assigning every Hexologic cell one
+  to three pips while satisfying every overlapping exact line sum; assigning
+  every Slant cell one diagonal while satisfying vertex degrees and acyclicity;
+  completing a Tents field under exact quotas, non-touching and perfect
+  tree-to-tent matching; pairing every Dominosa cell while using every
+  unordered domino type exactly once; completing a Bridges network whose
+  weighted degrees, crossings, multiplicity bounds and connectivity all pass;
+  completing a Light Up field whose clues, source exclusion and illumination
+  coverage all pass; completing a Loopy edge assignment whose face counts and
+  single-cycle topology both pass; colouring every Map region while preserving
+  immutable givens and separating every boundary-adjacent pair; partitioning a
+  Galaxies field into connected one-centre half-turn-symmetric regions;
+  assigning every Filling cell so each equal-digit component has exact area;
+  assigning every Keen cell so all Latin units and arithmetic cages pass;
+  linking every Signpost cell into one arrow-compatible ordinal path; rotating
+  every Net tile so reciprocal ports form one connected acyclic network;
+  permuting Netslide tiles until their fixed ports form the same accepted
+  spanning-tree structure against stationary barriers.
 - Excludes: reconstructing a separately specified arrangement; revealing
   pre-existing hidden contents; maximising the number of valid partial entries.
 - Parameters: position set, symbol domain, accepted completion test and whether
@@ -119,7 +143,23 @@
 - Evidence: [Sudoku decomposition](../games/s-z/sudoku.md) and
   [Nonogram decomposition](../games/m-r/nonogram.md), and
   [Flow Free decomposition](../games/a-f/flow-free.md), and
-  [The Witness decomposition](../games/s-z/the-witness.md).
+  [The Witness decomposition](../games/s-z/the-witness.md),
+  [LYNE decomposition](../games/g-l/lyne.md), and
+  [Hexologic decomposition](../games/g-l/hexologic.md), and
+  [Slant decomposition](../games/s-z/slant.md), and
+  [Tents decomposition](../games/s-z/tents.md), and
+  [Dominosa decomposition](../games/a-f/dominosa.md), and
+  [Bridges decomposition](../games/a-f/bridges.md), and
+  [Light Up decomposition](../games/g-l/light-up.md), and
+  [Loopy decomposition](../games/g-l/loopy.md), and
+  [Map decomposition](../games/m-r/map.md), and
+  [Galaxies decomposition](../games/g-l/galaxies.md), and
+  [Filling decomposition](../games/a-f/filling.md), and
+  [Keen decomposition](../games/g-l/keen.md), and
+  [Pearl decomposition](../games/m-r/pearl.md), and
+  [Signpost decomposition](../games/s-z/signpost.md), and
+  [Net decomposition](../games/m-r/net.md), and
+  [Netslide decomposition](../games/m-r/netslide.md).
 - Novelty: not assessed.
 
 ## OBJ-007 — Clear declared board-element targets
@@ -132,13 +172,17 @@
   quantity or visible instance of specified target elements from the active
   board.
 - Includes: completing the displayed colour-item collection targets of a Royal
-  Match level; eating every visible fruit in one Snakebird level before exit.
+  Match level; eating every visible fruit in one Snakebird level before exit;
+  removing every visible hook-and-line mechanism in one HOOK level; collecting
+  every displayed gem on one Inertia board.
 - Excludes: maximising score; clearing every non-hazard position; reconstructing
   a specified arrangement; meta-progression rewards after the level.
 - Parameters: target classes, required quantities, credit triggers and whether
   several target conditions are conjunctive.
 - Evidence: [Royal Match decomposition](../games/m-r/royal-match.md) and
-  [Snakebird decomposition](../games/s-z/snakebird.md).
+  [Snakebird decomposition](../games/s-z/snakebird.md), and
+  [HOOK decomposition](../games/g-l/hook.md), and
+  [Inertia decomposition](../games/g-l/inertia.md).
 - Novelty: not assessed.
 
 ## OBJ-008 — Segregate types into homogeneous containers
@@ -242,23 +286,28 @@
 - Evidence: [Balatro decomposition](../games/a-f/balatro.md).
 - Novelty: not assessed.
 
-## OBJ-014 — Deliver indirectly controlled payload to fixed receiver
+## OBJ-014 — Deliver designated payload to fixed receiver
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: complete the attempt by causing one required dynamic payload,
-  whose trajectory is influenced through environmental interventions rather
-  than direct position commands, to contact a fixed receiving object or zone.
-- Includes: feeding Cut the Rope candy to Om Nom by timing rope cuts around
-  gravity and momentum.
-- Excludes: directly navigating the delivered object; overlapping a directly
-  controlled object with a mutable rule-defined goal (`OBJ-010`); transporting
-  repeated demand units for unbounded score.
-- Parameters: payload count, receiver geometry, accepted contact velocity and
-  completion timing.
-- Evidence: [Cut the Rope decomposition](../games/a-f/cut-the-rope.md).
+- Definition: complete a bounded attempt by causing one required portable or
+  dynamic payload to contact, enter or be committed to one fixed receiving
+  object or zone, independently of how the payload's trajectory is controlled.
+- Includes: feeding Cut the Rope candy to Om Nom through rope and physics
+  interventions; carrying the Bonfire Peaks belongings crate into the bonfire;
+  commanding the Golf Peaks ball into the authored hole.
+- Excludes: reaching the receiver with the avatar alone; overlapping a directly
+  controlled object with a mutable rule-defined goal (`OBJ-010`); extracting a
+  full rigid footprint through a boundary opening; transporting repeated demand
+  units for unbounded score.
+- Parameters: payload identity and count, receiver geometry, accepted contact
+  or entry, control pathway, preservation or consumption, overshoot treatment
+  and completion timing.
+- Evidence: [Cut the Rope decomposition](../games/a-f/cut-the-rope.md),
+  [Bonfire Peaks decomposition](../games/a-f/bonfire-peaks.md) and
+  [Golf Peaks decomposition](../games/g-l/golf-peaks.md).
 - Novelty: not assessed.
 
 ## OBJ-015 — Repeatedly produce exact target assembly
@@ -307,22 +356,26 @@
   [Infinifactory decomposition](../games/g-l/infinifactory.md).
 - Novelty: not assessed.
 
-## OBJ-017 — Complete exact identity-and-fate ledger
+## OBJ-017 — Complete exact structured evidence account
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: complete an investigation by assigning every subject in a fixed
-  roster to the accepted identity and compound fate record supported by the
-  evidence.
-- Includes: identifying all Obra Dinn souls and recording each death cause and
-  responsible party, or the required survival / destination fate.
+- Definition: complete an investigation by filling every mandatory slot of one
+  declared structured evidence account with the accepted identities, actions,
+  causes, objects, locations or dependent fates supported by fixed evidence.
+- Includes: assigning every Obra Dinn soul an identity and compound fate;
+  completing The Case of the Golden Idol prologue Scroll with the accepted
+  actors, action, object and location.
 - Excludes: revealing every safe board position; reconstructing one spatial
-  arrangement; understanding a narrative without entering structured answers.
-- Parameters: subject count, fate grammar, required dependent fields, accepted
-  equivalent causes and completion exceptions.
-- Evidence: [Return of the Obra Dinn decomposition](../games/m-r/return-of-the-obra-dinn.md).
+  arrangement; understanding a narrative without entering structured answers;
+  satisfying a board-wide system of non-semantic variables.
+- Parameters: account topology, subject or event count, required semantic
+  fields, dependency grammar, accepted synonyms or equivalent causes,
+  auxiliary-panel requirements and completion exceptions.
+- Evidence: [Return of the Obra Dinn decomposition](../games/m-r/return-of-the-obra-dinn.md)
+  and [The Case of the Golden Idol decomposition](../games/s-z/the-case-of-the-golden-idol.md).
 - Novelty: not assessed.
 
 ## OBJ-018 — Complete finite staged token collection
@@ -419,7 +472,11 @@
 - Includes: coordinating Timelie's girl and cat until both satisfy the scoped
   puzzle's escape endpoints; bringing Portal's sole required test subject
   through the chamber exit; navigating the sole Viewfinder avatar to and
-  activating the fixed level teleporter.
+  activating the fixed level teleporter; walking Superliminal's sole dreamer
+  through the fixed Induction exit after its linked plate opens the door;
+  moving Manifold Garden's sole avatar through periodic space to the blue
+  switch and then through its linked fixed door; unlocking Maquette's spawned
+  house, spanning its approach gap with the key and entering its fixed doorway.
   It also includes moving the sole required Snakebird head-first through the
   activated fixed exit after every fruit is cleared.
 - Excludes: rescuing only a minimum share of a supplied autonomous population;
@@ -429,8 +486,11 @@
   arrival rule, capture failure and whether exited actors remain in simulation.
 - Evidence: [Timelie decomposition](../games/s-z/timelie.md),
   [Portal decomposition](../games/m-r/portal.md), and
-  [Viewfinder decomposition](../games/s-z/viewfinder.md), and
-  [Snakebird decomposition](../games/s-z/snakebird.md).
+  [Viewfinder decomposition](../games/s-z/viewfinder.md),
+  [Snakebird decomposition](../games/s-z/snakebird.md), and
+  [Superliminal decomposition](../games/s-z/superliminal.md), and
+  [Manifold Garden decomposition](../games/m-r/manifold-garden.md), and
+  [Maquette decomposition](../games/m-r/maquette.md).
 - Novelty: not assessed.
 
 ## OBJ-023 — Extract designated world objects to operational base
@@ -481,13 +541,15 @@
   controlled body into contact with its fixed progress token, whose acquisition
   credits that room and contributes to later route access.
 - Includes: reaching and collecting an orb at the end of an ordinary The
-  Swapper puzzle-room arrangement.
+  Swapper puzzle-room arrangement; contacting one already-exposed green sigil
+  after solving its authored The Talos Principle A1 challenge.
 - Excludes: collecting every member of a finite campaign set; optional rating
   collectibles; reaching a fixed exit without acquiring a token; maximising an
   unbounded token score.
 - Parameters: token count per room, eligible collector, credit persistence,
   room-reset behaviour and later gate threshold.
-- Evidence: [The Swapper decomposition](../games/s-z/the-swapper.md).
+- Evidence: [The Swapper decomposition](../games/s-z/the-swapper.md) and
+  [The Talos Principle decomposition](../games/s-z/the-talos-principle.md).
 - Novelty: not assessed.
 
 ## OBJ-026 — Reach designated traversable world location
@@ -500,13 +562,24 @@
   controlled avatar to one designated world location or resident after making
   that target traversably connected.
 - Includes: rearranging Carto map fragments to connect a previously unreachable
-  land region, then walking Carto to its declared person or place.
+  land region, then walking Carto to its declared person or place; settling an
+  A Monster's Expedition log as a bridge and walking the monster to the
+  connected target shore; rotating a fixed Fez room until its hidden rear
+  continuation is traversable, then walking Gomez into that compartment;
+  rotating Monument Valley's Chapter I bridge into a projected connection and
+  sending Ida to the final pedestal; interpreting Chants of Sennaar's first
+  instruction, setting its six valves and passing the newly traversable gate.
 - Excludes: evacuating every controlled actor through fixed exits; delivering
   an indirectly controlled payload; collecting a token on contact; merely
   reconstructing a target map shape with no avatar traversal requirement.
 - Parameters: target identity, arrival radius, required interaction, topology-
   edit requirement, intermediate targets and persistence after arrival.
-- Evidence: [Carto decomposition](../games/a-f/carto.md).
+- Evidence: [Carto decomposition](../games/a-f/carto.md) and
+  [A Monster's Expedition decomposition](../games/a-f/a-monsters-expedition.md),
+  [Fez decomposition](../games/a-f/fez.md), and
+  [Monument Valley decomposition](../games/m-r/monument-valley.md), and
+  [Antichamber decomposition](../games/a-f/antichamber.md), and
+  [Chants of Sennaar decomposition](../games/a-f/chants-of-sennaar.md).
 - Novelty: not assessed.
 
 ## OBJ-027 — Exact-once surface processing plus return pose
@@ -530,7 +603,7 @@
 
 ## OBJ-028 — Complete exact structured event account
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
@@ -545,6 +618,7 @@
 - Parameters: required semantic fields, event count, accepted synonyms,
   auxiliary-panel requirement and completion feedback.
 - Evidence: [The Case of the Golden Idol decomposition](../games/s-z/the-case-of-the-golden-idol.md).
+- Replaced by: `OBJ-017`.
 - Novelty: not assessed.
 
 ## OBJ-029 — Incapacitate finite hostile encounter set
@@ -623,4 +697,371 @@
 - Parameters: class domain, concealed-position set, completion timing and
   treatment of already visible givens.
 - Evidence: [Hexcells Infinite decomposition](../games/g-l/hexcells-infinite.md).
+- Novelty: not assessed.
+
+## OBJ-033 — Establish every declared directed network connection
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: construct a network in which every explicitly required directed
+  origin-destination pair has at least one traversable route before the system
+  accepts the design as functionally complete.
+- Includes: reaching `Network Complete` in Freeways only after every road sign
+  and building can send traffic to each of its declared destinations.
+- Excludes: connecting one undirected pair; maximising throughput after basic
+  connectivity; serving randomly arriving requests until failure.
+- Parameters: endpoint set, directionality, requirement weights, reachability
+  test and whether every endpoint must also receive traffic.
+- Evidence: [Freeways decomposition](../games/a-f/freeways.md).
+- Novelty: not assessed.
+
+## OBJ-034 — Sacrifice designated carried object to fixed receiver
+
+- Lifecycle: `Merged`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete a bounded spatial puzzle by transporting one designated
+  portable object with the avatar and releasing or moving it into a fixed
+  destructive receiver that consumes it.
+- Includes: carrying the belongings crate up the first Bonfire Peaks staircase
+  and putting it into the bonfire.
+- Excludes: indirectly steering a free payload (`OBJ-014`); preserving the
+  delivered object in a target arrangement; reaching the receiver with the
+  avatar alone; destroying any interchangeable object as an optional tactic.
+- Parameters: required object identity, receiver geometry, accepted entry,
+  whether release is explicit and completion timing.
+- Evidence: [Bonfire Peaks decomposition](../games/a-f/bonfire-peaks.md).
+- Replaced by: `OBJ-014`.
+- Novelty: not assessed.
+
+## OBJ-035 — Assemble numbered vehicles at receiver in declared order
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete a bounded routing puzzle by bringing every required
+  independently moving vehicle to one fixed receiver and attaching them in the
+  exact order declared by their visible ordinal labels.
+- Includes: coupling every Railbound carriage behind the locomotive with
+  carriage 1 arriving first, then 2 and each remaining successor.
+- Excludes: delivering typed passengers to distributed destinations; connecting
+  endpoints without moving vehicles; maximising the number of arrivals.
+- Parameters: vehicle set, ordinal domain, receiver approach, attachment timing,
+  invalid-arrival handling and final completion predicate.
+- Evidence: [Railbound decomposition](../games/m-r/railbound.md).
+- Novelty: not assessed.
+
+## OBJ-036 — Deliver directly commanded ball into fixed hole
+
+- Lifecycle: `Merged`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete a bounded spatial puzzle by issuing declared trajectory
+  commands to one required ball until its automatically resolved motion enters
+  one fixed authored hole.
+- Includes: sequencing Golf Peaks cards and directions so the golf ball enters
+  the level's hole exactly.
+- Excludes: steering a payload only through indirect environmental intervention;
+  navigating an avatar to a location; repeated scoring shots; merely passing
+  adjacent to or beyond the receiver.
+- Parameters: ball count, receiver geometry, command grammar, accepted entry,
+  overshoot treatment and completion timing.
+- Evidence: [Golf Peaks decomposition](../games/g-l/golf-peaks.md).
+- Replaced by: `OBJ-014`.
+- Novelty: not assessed.
+
+## OBJ-037 — Make fixed field monochromatic
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: complete a fixed field by making every position carry one common
+  class, while permitting the player to determine which available class
+  survives.
+- Includes: finishing a KAMI puzzle with the complete paper field in any one
+  selected palette colour.
+- Excludes: reconstructing one specified per-position pattern; segregating
+  several classes into separate containers; clearing all elements; matching
+  only adjacent pairs.
+- Parameters: field topology, allowed terminal classes and whether every cell
+  must belong to one connected component or merely share a class.
+- Evidence: [KAMI decomposition](../games/g-l/kami.md).
+- Novelty: not assessed.
+
+## OBJ-038 — Match authored optimal action count
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after satisfying the functional completion predicate, earn the
+  declared optimal result by using no more than one authored target count of
+  chargeable actions.
+- Includes: earning Perfect in KAMI by making the field monochromatic within
+  the displayed target number of recolours.
+- Excludes: a finite allowance whose exhaustion terminates play; reducing two
+  or more independently reported machine metrics; maximising an accumulated
+  score; an unreported theoretical minimum with no authored target.
+- Parameters: counted action classes, equality-versus-upper-bound acceptance,
+  target disclosure and non-optimal completion ratings.
+- Evidence: [KAMI decomposition](../games/g-l/kami.md).
+- Novelty: not assessed.
+
+## OBJ-039 — Extract designated sliding block through fixed boundary gap
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete a bounded sliding-block puzzle by directly relocating
+  one designated persistent rigid block until its complete footprint passes
+  through one fixed opening in the playfield boundary.
+- Includes: clearing the invariant row of the red Rush Hour car and sliding
+  that car through the traffic grid's right-side exit.
+- Excludes: navigating a continuously controlled avatar through a level exit;
+  pushing a crate onto an internal target; reconstructing prescribed final
+  positions for every block; ejecting any non-designated blocker.
+- Parameters: designated block, footprint, movement axis, gap geometry,
+  complete-versus-partial exit test and terminal removal timing.
+- Evidence: [Rush Hour decomposition](../games/m-r/rush-hour.md).
+- Novelty: not assessed.
+
+## OBJ-040 — Identify one valid relational subset
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete a bounded visible-field puzzle by selecting one existing
+  fixed-size subset whose members jointly satisfy a declared relation without
+  changing their values or completing an assignment over the whole field.
+- Includes: finding and retaining one exactly-three SET from a fixed visible
+  12-card solitaire field.
+- Excludes: maximising the number or score of subsets across a session;
+  reconstructing a specified configuration; assigning values to every field
+  position; merely identifying one equal pair.
+- Parameters: subset size, acceptance relation, field size, removal policy and
+  whether more than one accepted subset may exist.
+- Evidence: [SET decomposition](../games/s-z/set.md).
+- Novelty: not assessed.
+
+## OBJ-041 — Identify fixed concealed ordered sequence
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete a bounded deduction attempt by submitting an ordered
+  sequence whose symbol at every position exactly equals one fixed concealed
+  target sequence.
+- Includes: breaking a four-position Mastermind code by receiving four exact-
+  position indicators for one submitted guess; submitting the exact five-letter
+  Wordle answer.
+- Excludes: revealing every concealed cell separately; reconstructing a fully
+  visible target arrangement; identifying an unordered multiset; maximising a
+  similarity score without exact completion.
+- Parameters: sequence length, symbol domain, duplicate policy, attempt limit,
+  success disclosure and whether successful guess count is scored.
+- Evidence: [Mastermind decomposition](../games/m-r/mastermind.md) and
+  [Wordle decomposition](../games/s-z/wordle.md).
+- Novelty: not assessed.
+
+## OBJ-042 — Reconstruct observationally equivalent concealed layout
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete a deduction puzzle by submitting one fixed-cardinality
+  spatial layout whose response to every legal external probe is identical to
+  that of the fixed concealed layout, even if its occupied coordinates are not
+  literally the same.
+- Includes: solving Black Box with any five-ball arrangement that produces the
+  same hits, reflections and paired exits for all perimeter lasers.
+- Excludes: revealing every concealed cell separately; reconstructing a
+  visible target configuration; matching only the probes already fired;
+  identifying an ordered sequence.
+- Parameters: field topology, occupancy count, complete probe domain, outcome
+  equivalence and whether the original layout is revealed after acceptance.
+- Evidence: [Black Box decomposition](../games/a-f/black-box.md).
+- Novelty: not assessed.
+
+## OBJ-043 — Open bounded staged mechanism enclosure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one authored mechanism puzzle by satisfying its finite
+  persistent prerequisite chain, releasing the final enclosure latch and
+  physically opening that enclosure.
+- Includes: acquiring and applying The Room's Chapter 1 tools, matching all
+  three front rings through the eyepiece and opening the unlatched safe door.
+- Excludes: reconstructing an exposed target arrangement without opening an
+  enclosure; reaching a spatial exit; collecting every campaign token; opening
+  one generic lock with a key and no staged dependency chain.
+- Parameters: enclosure identity, prerequisite graph, final latch predicate,
+  required opening action, completion boundary and restart behaviour.
+- Evidence: [The Room decomposition](../games/s-z/the-room.md).
+- Novelty: not assessed.
+
+## OBJ-044 — Restore required avatar components and leave bounded scene
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one bounded authored scene by recovering every missing
+  avatar component required for its declared capabilities and then traversing
+  the newly available exit into the next scene.
+- Includes: restoring Josef's missing leg and arm in Machinarium's scrapyard,
+  using the recovered arm to cross the oil pool and leaving to the right.
+- Excludes: collecting optional avatar upgrades; repairing an inanimate machine;
+  merely reaching a visible exit with the starting capability set; opening a
+  staged enclosure without avatar restoration.
+- Parameters: required component set, enabled capabilities, exit traversal,
+  completion boundary, alternate recovery order and reset behaviour.
+- Evidence: [Machinarium decomposition](../games/m-r/machinarium.md).
+- Novelty: not assessed.
+
+## OBJ-045 — Retrieve inaccessible scene item with constructed reach tool
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one bounded authored inventory puzzle by assembling the
+  required reach tool and applying it to move one otherwise inaccessible
+  addressed scene object into the player's inventory.
+- Includes: using The Longest Journey's clamp, clothesline and inflated-ducky
+  fishing instrument to retrieve the iron key beside the electrified track.
+- Excludes: opening an enclosure with an ordinary key; restoring avatar parts;
+  collecting a reachable item directly; moving a target only for score; using
+  a starting permanent ability rather than a constructed tool.
+- Parameters: target object, access hazard or distance, constituent set,
+  construction sequence, application hotspot, acquisition and completion edge.
+- Evidence: [The Longest Journey decomposition](../games/s-z/the-longest-journey.md).
+- Novelty: not assessed.
+
+## OBJ-046 — Obtain specified device through intermediary construction
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one bounded authored commission by supplying its
+  disclosed exact item set to an addressed intermediary, allowing that
+  recipient to construct one specified device, and acquiring the resulting
+  device into player inventory.
+- Includes: supplying Red Edison with oil, vinegar and gold and collecting Day
+  of the Tentacle's uncharged super-battery from his shelf.
+- Excludes: directly combining held items; buying a pre-existing object with
+  currency; receiving an avatar body component for one hand-in; constructing a
+  world fixture in place; collecting random output.
+- Parameters: intermediary, required input set, output device, construction
+  trigger, output location, acquisition action and completion boundary.
+- Evidence: [Day of the Tentacle decomposition](../games/a-f/day-of-the-tentacle.md).
+- Novelty: not assessed.
+
+## OBJ-047 — Restore persistent world service through collection groups
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete every required persistent collection group in one
+  authored area so the system permanently restores a declared world service
+  rather than granting the completion object into player inventory.
+- Includes: completing Stardew Valley's three standard Boiler Room bundles so
+  the minecart network is repaired and becomes available for fast travel.
+- Excludes: collecting one immediate bundle reward; constructing a held device;
+  paying for the same upgrade through an alternate commercial route; reaching
+  one location with an already available transport service.
+- Parameters: required group set, restored service, activation boundary,
+  persistent access scope, alternate route and completion marker.
+- Evidence: [Stardew Valley decomposition](../games/s-z/stardew-valley.md).
+- Novelty: not assessed.
+
+## OBJ-048 — Unlock persistent traversal gate through collected exact cover
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one bounded progression packet by collecting every
+  gate-addressed rigid piece and arranging those exact footprints into a
+  gapless non-overlapping cover that permanently makes the linked passage
+  traversable.
+- Includes: collecting and arranging The Talos Principle A1's green `L`, `J`
+  and `Z` sigils so the first 4 × 3 tetromino gate opens.
+- Excludes: automatically activating an exit after exhaustive collection;
+  paying a scalar key price; reconstructing a recipe with no world-access
+  consequence; restoring a service at a later calendar boundary.
+- Parameters: gate identity, collectible roster, arranger board, exact-cover
+  predicate, access persistence and completion boundary.
+- Evidence: [The Talos Principle decomposition](../games/s-z/the-talos-principle.md).
+- Novelty: not assessed.
+
+## OBJ-049 — Collect every required target with indirectly guided walker
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: complete one bounded spatial stage by changing the environment
+  or its authoritative interpretation so an autonomous represented walker
+  contacts every member of the stage's fixed required target set.
+- Includes: guiding Echochrome's Walker through perspective-law routes until it
+  collects all echoes in the maze.
+- Excludes: directly navigating an avatar to one token; rescuing only a quota
+  of a population through an exit; collecting optional score items; completing
+  a whole campaign-wide token set across separately bounded stages.
+- Parameters: target count, contact radius, collection order, target motion,
+  persistence after failure, walker count and completion timing.
+- Evidence: [Echochrome decomposition](../games/a-f/echochrome.md).
+- Novelty: not assessed.
+
+## OBJ-050 — Maximise correctly processed cases within a work shift
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during one bounded real-time work interval, correctly classify
+  as many sequential independent cases as possible because each completed
+  correct case contributes to the shift's earned resources while errors incur
+  separate penalties.
+- Includes: processing more Papers, Please entrants before 6pm to earn more
+  credits while avoiding protocol citations.
+- Excludes: maximising an abstract score with no case-correctness gate;
+  completing a fixed case count; transporting demand continuously; solving one
+  case as accurately as possible with no throughput consequence.
+- Parameters: pay per correct case, error allowance and penalties, unpaid
+  scripted minimum, queue availability and end-of-day resource use.
+- Evidence: [Papers, Please decomposition](../games/m-r/papers-please.md).
+- Novelty: not assessed.
+
+## OBJ-051 — Expand reviewed evidence coverage through semantic retrieval
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: progress consists of using inferred semantic keys to surface and
+  inspect additional fixed evidence records that have not yet been reviewed,
+  increasing the player's accessible basis for an interpretation.
+- Includes: refining Her Story transcript queries until a later unseen clip
+  hidden behind a broad result cap can be watched.
+- Excludes: completing a validated structured account; revealing every safe
+  board cell; retrieving one specified physical object; merely replaying an
+  already reviewed record with no new evidence coverage.
+- Parameters: evidence corpus size, watched-state definition, target coverage,
+  completion prompt threshold, optional exhaustive target and revisit policy.
+- Evidence: [Her Story decomposition](../games/g-l/her-story.md).
 - Novelty: not assessed.

@@ -1,0 +1,266 @@
+---
+game_id: GAME-0075
+slug: light-up
+game_title: Light Up
+analysis_status: reviewed
+reviewed: 2026-08-14
+combination_ids:
+  - COMB-0075
+gene_ids:
+  action:
+    - ACT-007
+  system:
+    - SYS-111
+  constraint:
+    - CON-001
+    - CON-123
+    - CON-124
+    - CON-125
+  information:
+    - INF-001
+  objective:
+    - OBJ-006
+  time:
+    - TIM-002
+---
+
+# Game: Light Up
+
+## Analysis scope
+
+- Version / ruleset: Simon Tatham's Portable Puzzle Collection, current default
+  `7 × 7 Easy`, game ID `7x7:e0a21c0w1c2BaBe`, from its fixed field to the
+  accepted unique seven-bulb assignment.
+- Included: toggling bulbs in white cells; orthogonal illumination until a
+  black wall; exact bulb counts next to numbered walls; mutual bulb-visibility
+  exclusion; illumination of every white cell; complete visibility, revision
+  and self-paced solving.
+- Excluded: Tricky and Hard; other dimensions, wall densities and symmetries;
+  right-click non-bulb marks, red error highlights, Solve, Undo, Redo and
+  Restart as interface support; generation during solving and presentation.
+- Direct-play status: the official playable page and manual were inspected.
+  The exact ID was generated from current source with deterministic seed
+  `epsilon`. An independent solver decoded 41 white cells, eight walls and six
+  numbered walls, then proved exactly one valid seven-bulb assignment.
+
+## Claim ledger
+
+| ID | Claim | Status | Evidence | Confidence | Sources |
+|---|---|---|---|---|---|
+| `LUP-001` | The current default is `7 × 7 Easy` with 20% target black-square density and fourfold rotational symmetry | Confirmed | Direct | High | P1, P2, P3 |
+| `LUP-002` | A bulb illuminates its own white cell and visible orthogonal white cells until a black square blocks the ray | Confirmed | Direct | High | P1, P2, P3 |
+| `LUP-003` | Every numbered black square requires exactly that many orthogonally adjacent bulbs | Confirmed | Direct | High | P1, P2 |
+| `LUP-004` | Two bulbs may not illuminate each other | Confirmed | Direct | High | P1, P2 |
+| `LUP-005` | Every non-black square must be illuminated | Confirmed | Direct | High | P1, P2 |
+| `LUP-006` | The recorded control has exactly one complete seven-bulb solution | Observation | Direct | High | P1, P2, P3, local exhaustive control |
+| `LUP-007` | Light Up combines visible ray coverage with exact local cardinality and mutual visibility exclusion | Observation | Corroborated | High | `LUP-002`–`LUP-006` |
+
+## Basic data
+
+- Release / origin: the official manual credits Nikoli; James Harvey
+  contributed this implementation to Simon Tatham's collection.
+- Platform or physical form: open-source desktop and official JavaScript
+  single-player binary-assignment puzzle.
+- Puzzle family: orthogonal illumination cover under exact wall counts and
+  mutual source visibility exclusion.
+- Primary sources:
+  - **[P1] Simon Tatham:** [official Light Up manual](https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/lightup.html),
+    specifying illumination, blocking walls, all-white coverage, mutual
+    exclusion, exact numbered-wall adjacency and controls.
+  - **[P2] Simon Tatham / James Harvey:** [current `lightup.c` implementation](https://git.tartarus.org/?p=simon/puzzles.git;a=blob;f=lightup.c;hb=HEAD),
+    defining the default preset, codec, ray geometry, clue checks and generator.
+  - **[P3] Simon Tatham:** [official playable JavaScript version](https://www.chiark.greenend.org.uk/~sgtatham/puzzles/js/lightup.html),
+    confirming the current visible rules and input.
+- Secondary sources: none required.
+- Reproducible artefact: `scripts/verify_light_up_control.py` decodes the exact
+  field, derives every wall-bounded visibility set and clue neighbourhood,
+  enumerates bulb assignments to a second-solution limit and checks the three
+  independent completion predicates.
+- Claim IDs: `LUP-001`–`LUP-007`.
+
+## Mechanical decomposition
+
+### Action Genes
+
+- `ACT-007` — assign symbol to open position. A white cell receives the binary
+  proposal bulb / no bulb; clicking again removes the bulb.
+- The optional dot is excluded notation, not a required solution symbol.
+- Claim IDs: `LUP-002`, `LUP-006`.
+
+### System Behaviour Genes
+
+- `SYS-111` — wall-bounded orthogonal illumination propagation. Each proposed
+  bulb deterministically lights its own cell and every white cell on four rays
+  until the boundary or first black wall.
+- Claim IDs: `LUP-002`, `LUP-007`.
+
+### Constraint Genes
+
+- `CON-001` — fixed occupancy capacity. The control exposes 49 addressed cells,
+  41 white assignment positions and eight immutable black walls.
+- `CON-123` — exact orthogonal-neighbour assignment cardinality. Each numbered
+  wall requires exactly its displayed count of bulbs in existing cardinally
+  adjacent white cells.
+- `CON-124` — mutual source visibility exclusion. No bulb may occur in the
+  wall-bounded orthogonal visibility set of another bulb.
+- `CON-125` — complete visibility-ray coverage. Every white cell must belong to
+  the illumination set of at least one selected bulb.
+- Claim IDs: `LUP-001`, `LUP-003`–`LUP-005`.
+
+### Information Genes
+
+- `INF-001` — fully visible current state. Walls, clues, bulbs and illumination
+  are visible before every revision.
+- Claim IDs: `LUP-001`–`LUP-006`.
+
+### Objective Genes
+
+- `OBJ-006` — complete constraint-satisfying assignment. Acceptance requires
+  all clue counts, no mutually visible bulb pair and illumination of every
+  white cell simultaneously.
+- Claim IDs: `LUP-003`–`LUP-006`.
+
+### Time Genes
+
+- `TIM-002` — self-paced sequential action. No clock or autonomous step
+  advances between assignments.
+- Claim IDs: `LUP-006`.
+
+## Reproducible transitions
+
+Coordinates name rows `A`–`G` and columns `1`–`7`.
+
+| Before | Action | Deterministic resolution | What it establishes | Claim ID |
+|---|---|---|---|---|
+| Empty control | place bulb at `A1` | `A1` and visible cells through `A5` and down through `G1` light; wall `A6` stops the row ray | illumination propagates orthogonally and walls occlude it | `LUP-002` |
+| Bulb at `A1` | also place bulb at `A5` | the two bulbs see and illuminate each other, invalidating the proposal | light coverage does not override mutual source exclusion | `LUP-004` |
+| Clue-0 wall `A6` | place bulb at adjacent `A5` | its local bulb count becomes one instead of zero | wall clues count orthogonally adjacent bulbs exactly | `LUP-003` |
+| Fixed control | assign bulbs at `A1,B3,C1,D7,E2,F5,G6` | every white cell is lit, no bulb sees another and all six clues are exact | one complete accepted assignment | `LUP-002`–`LUP-006` |
+| Fixed control after first branch | search to second solution or exhaustion | no second satisfying bulb set remains | the recorded control is unique | `LUP-006` |
+
+The verifier independently asserts 41 coverage predicates, every pairwise
+visibility exclusion, six exact clue equations and uniqueness.
+
+## Strategic and experiential structure
+
+- Local deduction: clue zero forbids adjacent bulbs; saturated clues forbid
+  further neighbours; unmet clues can force remaining candidates.
+- Ray deduction: an unlit cell may force the only white position capable of
+  illuminating it, but that source can affect a long row and column.
+- Global coupling: one bulb simultaneously covers several cells, excludes
+  every visible source position and contributes to adjacent wall clues.
+- Failure is legible because darkness, conflicting bulbs and incorrect clue
+  counts identify different predicates.
+- Claim IDs: `LUP-002`–`LUP-007`.
+
+## Replay and variation
+
+- Generated walls, numbered subsets and clues change both visibility segments
+  and local equations.
+- Width, height, black-square percentage, symmetry and difficulty are setup
+  parameters outside the bounded default control.
+- Easy constrains generator solvability technique, not the transition rules.
+- Claim IDs: `LUP-001`, `LUP-006`.
+
+## Adjacent systems and history
+
+- Lights Out also uses lamps and a binary field, but one press flips a local
+  neighbourhood toward a fixed all-off pattern; Light Up assigns stationary
+  sources whose wall-bounded rays define coverage and exclusion.
+- Slant, Sudoku and Nonogram share complete visible assignments under exact
+  constraints but not illumination propagation.
+- Bridges shares orthogonal wall-like occlusion boundaries only superficially:
+  its objects are weighted edges and it seeks graph connectivity.
+- Claim IDs: `LUP-002`–`LUP-007`.
+
+## Normalised genome
+
+| Type | Active gene IDs | Candidate genes or parameters |
+|---|---|---|
+| Action | `ACT-007` | white cell; bulb / no bulb |
+| System Behaviour | `SYS-111` | four rays; first-wall occlusion |
+| Constraint | `CON-001`, `CON-123`, `CON-124`, `CON-125` | 41 white cells; six clues |
+| Information | `INF-001` | visible clues, sources and lit field |
+| Objective | `OBJ-006` | satisfy all three predicates |
+| Time | `TIM-002` | self-paced editing |
+
+Canonical signature:
+
+`ACT-007; SYS-111; CON-001,CON-123,CON-124,CON-125; INF-001; OBJ-006; TIM-002`
+
+## Corpus comparison
+
+- Indexed games and combinations scanned: `GAME-0001`–`GAME-0074` and
+  `COMB-0001`–`COMB-0074`.
+- Exact genome matches: none.
+- Near matches: `GAME-0005` Sudoku, `GAME-0008` Nonogram and
+  `GAME-0071` Slant tie at `5 / 11 = 0.454545`, sharing binary / finite
+  assignment structure, fixed
+  capacity, full visibility, complete satisfaction and self-paced time.
+- Next near games: Hexologic and Tents tie at `5 / 12 = 0.416667`.
+- Supported combination subsets: none before `COMB-0075`.
+
+| Neighbour | Shared genes | Decision-relevant differences | Match result |
+|---|---|---|---|
+| `GAME-0005` — Sudoku | `ACT-007`, `CON-001`, `INF-001`, `OBJ-006`, `TIM-002` | Sudoku assigns digits under all-different units; Light Up assigns ray sources under coverage and visibility predicates | tied nearest, `5 / 11 = 0.454545` |
+| `GAME-0008` — Nonogram | `ACT-007`, `CON-001`, `INF-001`, `OBJ-006`, `TIM-002` | Nonogram reconstructs ordered filled runs; Light Up propagates illumination from sparse sources | tied nearest, `5 / 11 = 0.454545` |
+| `GAME-0071` — Slant | `ACT-007`, `CON-001`, `INF-001`, `OBJ-006`, `TIM-002` | Slant assigns one diagonal per cell and forbids cycles; Light Up permits empty cells and requires visible-ray cover | tied nearest, `5 / 11 = 0.454545` |
+
+- Full numeric scan (`intersection / union = Jaccard`):
+  - `GAME-0001`: `2 / 21 = 0.095238`; `GAME-0002`: `3 / 13 = 0.230769`; `GAME-0003`: `1 / 17 = 0.058824`; `GAME-0004`: `2 / 22 = 0.090909`; `GAME-0005`: `5 / 11 = 0.454545`; `GAME-0006`: `3 / 15 = 0.200000`; `GAME-0007`: `2 / 15 = 0.133333`; `GAME-0008`: `5 / 11 = 0.454545`.
+  - `GAME-0009`: `2 / 23 = 0.086957`; `GAME-0010`: `2 / 16 = 0.125000`; `GAME-0011`: `3 / 19 = 0.157895`; `GAME-0012`: `4 / 14 = 0.285714`; `GAME-0013`: `2 / 20 = 0.100000`; `GAME-0014`: `2 / 22 = 0.090909`; `GAME-0015`: `2 / 21 = 0.095238`; `GAME-0016`: `2 / 22 = 0.090909`.
+  - `GAME-0017`: `0 / 22 = 0.000000`; `GAME-0018`: `1 / 27 = 0.037037`; `GAME-0019`: `2 / 17 = 0.117647`; `GAME-0020`: `1 / 22 = 0.045455`; `GAME-0021`: `1 / 17 = 0.058824`; `GAME-0022`: `1 / 20 = 0.050000`; `GAME-0023`: `1 / 18 = 0.055556`; `GAME-0024`: `2 / 19 = 0.105263`.
+  - `GAME-0025`: `1 / 19 = 0.052632`; `GAME-0026`: `1 / 20 = 0.050000`; `GAME-0027`: `2 / 19 = 0.105263`; `GAME-0028`: `2 / 24 = 0.083333`; `GAME-0029`: `2 / 19 = 0.105263`; `GAME-0030`: `1 / 22 = 0.045455`; `GAME-0031`: `1 / 19 = 0.052632`; `GAME-0032`: `2 / 18 = 0.111111`.
+  - `GAME-0033`: `1 / 21 = 0.047619`; `GAME-0034`: `1 / 22 = 0.045455`; `GAME-0035`: `1 / 26 = 0.038462`; `GAME-0036`: `2 / 19 = 0.105263`; `GAME-0037`: `2 / 16 = 0.125000`; `GAME-0038`: `1 / 24 = 0.041667`; `GAME-0039`: `4 / 14 = 0.285714`; `GAME-0040`: `2 / 15 = 0.133333`.
+  - `GAME-0041`: `1 / 19 = 0.052632`; `GAME-0042`: `1 / 17 = 0.058824`; `GAME-0043`: `2 / 21 = 0.095238`; `GAME-0044`: `2 / 17 = 0.117647`; `GAME-0045`: `2 / 21 = 0.095238`; `GAME-0046`: `2 / 17 = 0.117647`; `GAME-0047`: `2 / 21 = 0.095238`; `GAME-0048`: `2 / 21 = 0.095238`.
+  - `GAME-0049`: `1 / 17 = 0.058824`; `GAME-0050`: `2 / 22 = 0.090909`; `GAME-0051`: `1 / 24 = 0.041667`; `GAME-0052`: `1 / 18 = 0.055556`; `GAME-0053`: `2 / 16 = 0.125000`; `GAME-0054`: `2 / 18 = 0.111111`; `GAME-0055`: `2 / 17 = 0.117647`; `GAME-0056`: `2 / 15 = 0.133333`.
+  - `GAME-0057`: `2 / 15 = 0.133333`; `GAME-0058`: `2 / 16 = 0.125000`; `GAME-0059`: `2 / 14 = 0.142857`; `GAME-0060`: `1 / 15 = 0.066667`; `GAME-0061`: `4 / 15 = 0.266667`; `GAME-0062`: `5 / 12 = 0.416667`; `GAME-0063`: `3 / 13 = 0.230769`; `GAME-0064`: `2 / 12 = 0.166667`.
+  - `GAME-0065`: `1 / 15 = 0.066667`; `GAME-0066`: `2 / 17 = 0.117647`; `GAME-0067`: `0 / 17 = 0.000000`; `GAME-0068`: `1 / 16 = 0.062500`; `GAME-0069`: `3 / 14 = 0.214286`; `GAME-0070`: `2 / 15 = 0.133333`; `GAME-0071`: `5 / 11 = 0.454545`; `GAME-0072`: `5 / 12 = 0.416667`.
+  - `GAME-0073`: `4 / 12 = 0.333333`; `GAME-0074`: `4 / 14 = 0.285714`.
+- Scan date: 2026-08-14.
+
+## Taxonomy impact
+
+- Added `SYS-111`, `CON-123`, `CON-124`, `CON-125` and `COMB-0075`.
+- Extended `ACT-007`, `CON-001`, `INF-001`, `OBJ-006` and `TIM-002`.
+- No existing record required split, merge or deprecation.
+
+## Negative results
+
+- Illumination is not hidden-ray probing: the entire field and deterministic
+  ray result are visible, so `SYS-105` is absent.
+- Mutual visibility exclusion is not ordinary occupancy or route crossing; it
+  forbids sources anywhere on one unobstructed row / column segment.
+- Exact numbered-wall adjacency is not graph incident degree: bulbs occupy
+  cells rather than edges terminating at a vertex.
+- Complete illumination is not graph connectivity and does not require every
+  white cell to contain an object.
+- Optional non-bulb dots and red warnings do not enter the required genome.
+
+## Delta summary
+
+- Added one reviewed game, four active genes and one verified combination.
+- Added one exact-control verifier and one deterministic rule-valid artwork.
+- Corpus size becomes 75 reviewed games, 401 active genes and 75 combinations.
+
+## Нові факти
+
+- Зафіксовано точний стандартний контроль із 41 білою клітиною, вісьмома
+  стінами, шістьма числовими підказками й сімома лампами.
+- Незалежний solver довів єдиність і окремо перевірив покриття, числа та
+  взаємну невидимість ламп.
+
+## Нові гени
+
+- `SYS-111` — ортогональне поширення освітлення до стіни.
+- `CON-123` — точна кількість призначень в ортогональному околі.
+- `CON-124` — взаємне виключення видимих джерел.
+- `CON-125` — повне покриття променями видимості.
+
+## Нові комбінації
+
+- `COMB-0075` — повне освітлення за точними числами й невидимістю джерел.
+
+## Зміни таксономії
+
+- Чотири нові межі активовано без зміни попередніх визначень.

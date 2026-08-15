@@ -28,7 +28,9 @@ Use one non-semantic slug shard:
 - `s-z/`
 
 Do not organise canonical files by puzzle family. Family classifications may
-change; stable paths should not.
+change; stable paths should not. Reusable many-to-many classifications live in
+the controlled [mechanical-family registry](../families/README.md); the Game
+Index's short profile remains a game-specific navigation summary.
 
 ## Completed
 
@@ -83,8 +85,66 @@ change; stable paths should not.
 - [`GAME-0048` — Tactical Breach Wizards](s-z/tactical-breach-wizards.md)
 - [`GAME-0049` — Hexcells Infinite](g-l/hexcells-infinite.md)
 - [`GAME-0050` — Shogun Showdown](s-z/shogun-showdown.md)
+- [`GAME-0051` — Mini Motorways](m-r/mini-motorways.md)
+- [`GAME-0052` — Freeways](a-f/freeways.md)
+- [`GAME-0053` — Can of Wormholes](a-f/can-of-wormholes.md)
+- [`GAME-0054` — A Monster’s Expedition](a-f/a-monsters-expedition.md)
+- [`GAME-0055` — Bonfire Peaks](a-f/bonfire-peaks.md)
+- [`GAME-0056` — Railbound](m-r/railbound.md)
+- [`GAME-0057` — Golf Peaks](g-l/golf-peaks.md)
+- [`GAME-0058` — inbento](g-l/inbento.md)
+- [`GAME-0059` — KAMI](g-l/kami.md)
+- [`GAME-0060` — HOOK](g-l/hook.md)
+- [`GAME-0061` — LYNE](g-l/lyne.md)
+- [`GAME-0062` — Hexologic](g-l/hexologic.md)
+- [`GAME-0063` — Rush Hour](m-r/rush-hour.md)
+- [`GAME-0064` — SET](s-z/set.md)
+- [`GAME-0065` — Mastermind](m-r/mastermind.md)
+- [`GAME-0066` — Black Box](a-f/black-box.md)
+- [`GAME-0067` — Simon](s-z/simon.md)
+- [`GAME-0068` — Wordle](s-z/wordle.md)
+- [`GAME-0069` — Lights Out](g-l/lights-out.md)
+- [`GAME-0070` — Inertia](g-l/inertia.md)
+- [`GAME-0071` — Slant](s-z/slant.md)
+- [`GAME-0072` — Tents](s-z/tents.md)
+- [`GAME-0073` — Dominosa](a-f/dominosa.md)
+- [`GAME-0074` — Bridges](a-f/bridges.md)
+- [`GAME-0075` — Light Up](g-l/light-up.md)
+- [`GAME-0076` — Loopy](g-l/loopy.md)
+- [`GAME-0077` — Map](m-r/map.md)
+- [`GAME-0078` — Galaxies](g-l/galaxies.md)
+- [`GAME-0079` — Filling](a-f/filling.md)
+- [`GAME-0080` — Keen](g-l/keen.md)
+- [`GAME-0081` — Pearl](m-r/pearl.md)
+- [`GAME-0082` — Signpost](s-z/signpost.md)
+- [`GAME-0083` — Net](m-r/net.md)
+- [`GAME-0084` — Netslide](m-r/netslide.md)
+- [`GAME-0085` — The Room](s-z/the-room.md)
+- [`GAME-0086` — Machinarium](m-r/machinarium.md)
+- [`GAME-0087` — The Longest Journey](s-z/the-longest-journey.md)
+- [`GAME-0088` — Day of the Tentacle](a-f/day-of-the-tentacle.md)
+- [`GAME-0089` — Stardew Valley](s-z/stardew-valley.md)
+- [`GAME-0090` — The Talos Principle](s-z/the-talos-principle.md)
+- [`GAME-0091` — Fez](a-f/fez.md)
+- [`GAME-0092` — Echochrome](a-f/echochrome.md)
+- [`GAME-0093` — Monument Valley](m-r/monument-valley.md)
+- [`GAME-0094` — Superliminal](s-z/superliminal.md)
+- [`GAME-0095` — Manifold Garden](m-r/manifold-garden.md)
+- [`GAME-0096` — Maquette](m-r/maquette.md)
+- [`GAME-0097` — Antichamber](a-f/antichamber.md)
+- [`GAME-0098` — Hyperbolica](g-l/hyperbolica.md)
+- [`GAME-0099` — HyperRogue](g-l/hyperrogue.md)
+- [`GAME-0100` — Keep Talking and Nobody Explodes](g-l/keep-talking-and-nobody-explodes.md)
+- [`GAME-0101` — Chants of Sennaar](a-f/chants-of-sennaar.md)
+- [`GAME-0102` — The Password Game](s-z/the-password-game.md)
+- [`GAME-0103` — Papers, Please](m-r/papers-please.md)
+- [`GAME-0104` — TUNIC](s-z/tunic.md)
+- [`GAME-0105` — Outer Wilds](m-r/outer-wilds.md)
+- [`GAME-0106` — Her Story](g-l/her-story.md)
+- [`GAME-0107` — The Pedestrian](s-z/the-pedestrian.md)
+- [`GAME-0108` — Cocoon](a-f/cocoon.md)
 <!-- END GENERATED: COMPLETED_GAMES -->
 
 Use the [game-analysis template](../../templates/GAME_ANALYSIS_TEMPLATE.md) and
-follow [CONTRIBUTING.md](../../CONTRIBUTING.md). The
-[research plan](../../docs/RESEARCH_PLAN.md) owns subject selection.
+the public [evidence model](../../docs/EVIDENCE_MODEL.md). Subject selection remains in
+the private working repository.

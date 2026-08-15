@@ -1,0 +1,288 @@
+---
+game_id: GAME-0103
+slug: papers-please
+game_title: Papers, Please
+analysis_status: reviewed
+reviewed: 2026-08-15
+combination_ids:
+  - COMB-0103
+gene_ids:
+  action:
+    - ACT-104
+    - ACT-105
+  system:
+    - SYS-137
+    - SYS-138
+  constraint:
+    - CON-157
+  information:
+    - INF-001
+    - INF-053
+  objective:
+    - OBJ-050
+  time:
+    - TIM-014
+---
+
+# Game: Papers, Please
+
+## Analysis scope
+
+- Version / ruleset: original desktop story mode, bounded to Day 4
+  (26 November 1982) and its scripted third entrant.
+- Included: the pre-shift bulletin and persistent rulebook; a foreign entrant
+  with a current passport and a same-day entry ticket but no entry permit;
+  visible document fields; inspection mode; selecting the empty permit area
+  and current foreigner rule; discrepancy feedback; interrogation; `APPROVED`
+  and `DENIED` passport stamps; delayed citation adjudication; the 6am-6pm
+  shift clock and minimum-scripted-entrant exception.
+- Excluded: other Day 4 entrants, fingerprint resolution, token decisions,
+  detainment, searches, body scans, forged seals, confiscation, EZIC, family
+  budgeting, later policy layers, endings, endless mode and mobile controls.
+- Direct-play status: not conducted because no licensed executable is present
+  in the workspace. The official product page and Lucas Pope's development
+  logs establish the core inspection, stamping and timed-case loop; the Day 4
+  record independently fixes the entrant and rule change. The executable
+  control models that bounded state rather than the production random fields.
+
+## Claim ledger
+
+| ID | Claim | Status | Evidence | Confidence | Sources |
+|---|---|---|---|---|---|
+| `PPL-001` | The player classifies entrants from their documents and Ministry inspection references | Confirmed | Corroborated | High | P1, P2, S1 |
+| `PPL-002` | Inspect mode relates two exposed facts as matching, discrepant or unrelated and may enable interrogation | Confirmed | Corroborated | High | P2, P3, S2 |
+| `PPL-003` | Day 4 replaces foreign entry tickets with entry permits and requires Arstotzkan identity cards | Confirmed | Corroborated | High | S2, S3 |
+| `PPL-004` | The scripted third Day 4 entrant has an obsolete ticket but lacks the now-required permit and must be denied | Confirmed | Corroborated | High | S2, V1 |
+| `PPL-005` | A committed incorrect verdict produces a delayed citation after the entrant leaves | Confirmed | Corroborated | High | S1, S3 |
+| `PPL-006` | The shift clock gates new paid cases while an open or required scripted case may finish after cutoff | Confirmed | Direct | High | P4, S3, V1 |
+
+## Basic data
+
+- Release / origin: designed and developed by Lucas Pope; published by 3909 on
+  8 August 2013.
+- Platform or physical form: single-player desktop document-inspection game;
+  later official mobile versions adapt the same rule loop.
+- Puzzle family: rule-changing document adjudication under throughput pressure.
+- Primary sources:
+  - **[P1]** [Official Papers, Please site](https://papersplea.se/), for the
+    creator-controlled release, platforms and official product destination.
+  - **[P2]** [Lucas Pope development log: inspect mode and forgeries](https://dukope.com/devlogs/papers-please/tig-01/),
+    for two-fact highlighting, missing-document comparison and document seals.
+  - **[P3]** [Lucas Pope mobile-interface development log](https://dukope.com/devlogs/papers-please/mobile/),
+    for the desktop document desk, stamp bar, inspect-mode sequence, bulletin,
+    transcript and rulebook roles.
+  - **[P4]** [Lucas Pope development log: day quota](https://dukope.com/devlogs/papers-please/tig-03/),
+    for clock expiry, completing the current or minimum scripted entrants and
+    post-cutoff pay behaviour.
+- Secondary sources:
+  - **[S1]** [Official Steam product page](https://store.steampowered.com/app/239030/),
+    for release metadata and the inspect/search/fingerprint decision premise.
+  - **[S2]** [Day 4 rules and scripted entrants](https://papersplease.fandom.com/wiki/Day_4),
+    for the date, policy swap and third entrant's obsolete ticket.
+  - **[S3]** [Gameplay overview](https://en.wikipedia.org/wiki/Papers%2C_Please),
+    for daily rule changes, verdict stamps, citations, limited shift time and pay.
+  - **[V1]** [`verify_papers_please_day4.py`](../../../scripts/verify_papers_please_day4.py),
+    an independent executable control for the bounded packet.
+
+## Mechanical decomposition
+
+### Action Genes
+
+- `ACT-104` — cross-reference two visible case facts. The control selects the
+  empty permit area and the Day 4 foreigner-entry-permit rule.
+- `ACT-105` — stamp one case with a terminal binary verdict. The passport
+  receives exactly one accepting or denying classification for this packet.
+
+### System Behaviour Genes
+
+- `SYS-137` — adjudicate a selected fact pair as matching, discrepant or
+  unrelated. The missing permit comparison exposes a discrepancy and the
+  interrogation affordance.
+- `SYS-138` — audit the committed case verdict against the complete active
+  policy. Approval produces a citation; denial does not.
+- Resolution order: expose documents and statements; accept fact-pair
+  selection; report its relation; accept a stamp; return the case; compare the
+  verdict with the full Day 4 policy; issue any citation; admit the next case
+  if the clock or scripted minimum permits it.
+
+### Constraint Genes
+
+- `CON-157` — current-day policy jointly defines case admissibility. Day 4
+  replaces the Day 3 ticket predicate with a permit predicate for foreigners.
+- The control's other predicates are parameters: passport present and current,
+  entrant not wanted, foreign permit required and Arstotzkan identity card
+  required only for citizens.
+
+### Information Genes
+
+- `INF-001` — fully visible current state. The scoped passport, obsolete ticket,
+  absent permit area, bulletin, rule reference, date and current clock are
+  inspectable before the verdict.
+- `INF-053` — visible current-day policy with persistent reference detail. The
+  bulletin announces the changed document requirements while the rulebook
+  remains available for exact comparisons.
+
+### Objective Genes
+
+- `OBJ-050` — maximise correctly processed cases within a work shift. A correct
+  processed entrant contributes pay; throughput competes with checking effort
+  and protocol errors incur citations.
+
+### Time Genes
+
+- `TIM-014` — real-time shift gates admission of new cases. The clock advances
+  from 6am to 6pm but the current or required scripted case can finish after
+  cutoff rather than failing instantly.
+
+## Reproducible transitions
+
+| Before | Action | Deterministic resolution | What it establishes | Claim ID |
+|---|---|---|---|---|
+| Control foreigner has current passport and same-day ticket | Evaluate under Day 3 rules | No violation; ticket satisfies the foreign-document predicate | day-relative policy | `PPL-003`, `PPL-004` |
+| Same fixed packet on Day 4 has no entry permit | Evaluate the active conjunction | Exactly one violation: missing entry permit | policy replacement, not parameter drift | `PPL-003`, `PPL-004` |
+| Day 4 missing-permit state | Highlight empty permit area plus foreigner-permit rule | `Discrepancy detected`; interrogation becomes available | fact-pair adjudication | `PPL-002`, `PPL-004` |
+| Same state | Highlight passport expiry plus inspection date | `Matching data` | valid fields do not inherit another discrepancy | `PPL-002` |
+| Missing permit remains unresolved | Stamp `DENIED` and return the case | Verdict matches full policy; no citation | complete-case audit | `PPL-005` |
+| Missing permit remains unresolved | Stamp `APPROVED` and return the case | Verdict conflicts with policy; citation follows | errors are delayed beyond pair feedback | `PPL-005` |
+| Clock reaches 6pm with required entrants processed | Attempt to call next entrant | No new ordinary case enters; an already open case may finish | shift gate is not terminal expiry | `PPL-006` |
+
+## Strategic and experiential structure
+
+- Local decision: choose the cheapest reliable comparison that can establish a
+  disqualifying discrepancy, then commit the correct stamp.
+- Medium-term planning: arrange bulletin, rulebook and documents so common
+  fields can be checked quickly without forgetting a newly introduced rule.
+- Long-term structure: policy changes between days expand and replace checks;
+  memorisation saves time but stale memorisation causes citations.
+- Common heuristics: read the bulletin before calling the first entrant; check
+  document presence first; stop after one unresolved disqualifying discrepancy;
+  keep the clock visible; return every document after stamping.
+- Failure attribution: pair feedback identifies a selected discrepancy, while
+  a citation proves the terminal verdict violated some active predicate.
+- Player-trust factors: daily amendments, reference data and citation reasons
+  must apply consistently to the exact policy snapshot used for the verdict.
+
+## Replay and variation
+
+- The scoped third entrant's decisive missing-permit state is scripted, while
+  incidental passport identity fields may vary and remain outside the control.
+- Different inspection orders change elapsed time, not the correct verdict.
+- Across the full story, daily rules, scripted people and procedurally generated
+  entrants change; those later systems are not inferred into this packet.
+
+## Adjacent systems and history
+
+- The Password Game also uses multiple simultaneous predicates, but its rules
+  accumulate during one editable answer. Papers, Please snapshots one day's
+  policy across many terminal cases and can replace a predicate at day change.
+- Hexcells Infinite immediately adjudicates one asserted cell class. Here a
+  highlighted pair only exposes evidence; a separate stamp commits the case,
+  and full-policy audit is delayed until the entrant leaves.
+- The Case of the Golden Idol supports static evidence inspection, but asks for
+  one structured historical reconstruction without a paid shift or changing
+  government policy.
+
+## Normalised genome
+
+| Type | Active gene IDs | Candidate genes or parameters |
+|---|---|---|
+| Action | `ACT-104`, `ACT-105` | fact classes; stamp alignment |
+| System Behaviour | `SYS-137`, `SYS-138` | relation text; citation delay |
+| Constraint | `CON-157` | Day 4 policy conjunction |
+| Information | `INF-001`, `INF-053` | bulletin layout; rulebook tabs |
+| Objective | `OBJ-050` | credits and penalties |
+| Time | `TIM-014` | shift cutoff; scripted minimum |
+
+## Corpus comparison
+
+- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`:
+  `(ACT-104,ACT-105; SYS-137,SYS-138; CON-157; INF-001,INF-053; OBJ-050; TIM-014)`.
+- Indexed games scanned: 103, including this record.
+- Indexed combinations scanned: 103.
+- Exact genome matches: none.
+- Near matches and similarity scores: `GAME-0064` is uniquely nearest at
+  `1 / 13 = 0.076923`; it shares only fully visible current state.
+- Supported combination subsets: `COMB-0103` only.
+- Scan date: 2026-08-15.
+
+### Full prior-game Jaccard scan
+
+- `GAME-0001`: `1 / 22 = 0.045455`; `GAME-0002`: `1 / 15 = 0.066667`; `GAME-0003`: `0 / 18 = 0.000000`; `GAME-0004`: `1 / 23 = 0.043478`.
+- `GAME-0005`: `1 / 15 = 0.066667`; `GAME-0006`: `1 / 17 = 0.058824`; `GAME-0007`: `1 / 16 = 0.062500`; `GAME-0008`: `1 / 15 = 0.066667`.
+- `GAME-0009`: `1 / 24 = 0.041667`; `GAME-0010`: `1 / 17 = 0.058824`; `GAME-0011`: `1 / 21 = 0.047619`; `GAME-0012`: `1 / 17 = 0.058824`.
+- `GAME-0013`: `1 / 21 = 0.047619`; `GAME-0014`: `1 / 23 = 0.043478`; `GAME-0015`: `1 / 22 = 0.045455`; `GAME-0016`: `1 / 23 = 0.043478`.
+- `GAME-0017`: `0 / 22 = 0.000000`; `GAME-0018`: `1 / 27 = 0.037037`; `GAME-0019`: `1 / 18 = 0.055556`; `GAME-0020`: `1 / 22 = 0.045455`.
+- `GAME-0021`: `1 / 17 = 0.058824`; `GAME-0022`: `1 / 20 = 0.050000`; `GAME-0023`: `0 / 19 = 0.000000`; `GAME-0024`: `0 / 21 = 0.000000`.
+- `GAME-0025`: `1 / 19 = 0.052632`; `GAME-0026`: `1 / 20 = 0.050000`; `GAME-0027`: `1 / 20 = 0.050000`; `GAME-0028`: `1 / 25 = 0.040000`.
+- `GAME-0029`: `1 / 20 = 0.050000`; `GAME-0030`: `1 / 22 = 0.045455`; `GAME-0031`: `1 / 19 = 0.052632`; `GAME-0032`: `1 / 19 = 0.052632`.
+- `GAME-0033`: `1 / 21 = 0.047619`; `GAME-0034`: `1 / 22 = 0.045455`; `GAME-0035`: `1 / 26 = 0.038462`; `GAME-0036`: `1 / 20 = 0.050000`.
+- `GAME-0037`: `1 / 17 = 0.058824`; `GAME-0038`: `1 / 24 = 0.041667`; `GAME-0039`: `1 / 17 = 0.058824`; `GAME-0040`: `1 / 16 = 0.062500`.
+- `GAME-0041`: `1 / 19 = 0.052632`; `GAME-0042`: `1 / 17 = 0.058824`; `GAME-0043`: `1 / 22 = 0.045455`; `GAME-0044`: `1 / 18 = 0.055556`.
+- `GAME-0045`: `1 / 22 = 0.045455`; `GAME-0046`: `1 / 18 = 0.055556`; `GAME-0047`: `1 / 22 = 0.045455`; `GAME-0048`: `1 / 22 = 0.045455`.
+- `GAME-0049`: `0 / 18 = 0.000000`; `GAME-0050`: `1 / 23 = 0.043478`; `GAME-0051`: `1 / 24 = 0.041667`; `GAME-0052`: `1 / 18 = 0.055556`.
+- `GAME-0053`: `1 / 17 = 0.058824`; `GAME-0054`: `1 / 19 = 0.052632`; `GAME-0055`: `1 / 18 = 0.055556`; `GAME-0056`: `1 / 16 = 0.062500`.
+- `GAME-0057`: `1 / 16 = 0.062500`; `GAME-0058`: `1 / 17 = 0.058824`; `GAME-0059`: `1 / 15 = 0.066667`; `GAME-0060`: `1 / 15 = 0.066667`.
+- `GAME-0061`: `1 / 18 = 0.055556`; `GAME-0062`: `1 / 16 = 0.062500`; `GAME-0063`: `1 / 15 = 0.066667`; `GAME-0064`: `1 / 13 = 0.076923`.
+- `GAME-0065`: `0 / 16 = 0.000000`; `GAME-0066`: `0 / 19 = 0.000000`; `GAME-0067`: `0 / 17 = 0.000000`; `GAME-0068`: `0 / 17 = 0.000000`.
+- `GAME-0069`: `1 / 16 = 0.062500`; `GAME-0070`: `1 / 16 = 0.062500`; `GAME-0071`: `1 / 15 = 0.066667`; `GAME-0072`: `1 / 16 = 0.062500`.
+- `GAME-0073`: `1 / 15 = 0.066667`; `GAME-0074`: `1 / 17 = 0.058824`; `GAME-0075`: `1 / 17 = 0.058824`; `GAME-0076`: `1 / 15 = 0.066667`.
+- `GAME-0077`: `1 / 15 = 0.066667`; `GAME-0078`: `1 / 15 = 0.066667`; `GAME-0079`: `1 / 15 = 0.066667`; `GAME-0080`: `1 / 15 = 0.066667`.
+- `GAME-0081`: `1 / 16 = 0.062500`; `GAME-0082`: `1 / 16 = 0.062500`; `GAME-0083`: `1 / 16 = 0.062500`; `GAME-0084`: `1 / 18 = 0.055556`.
+- `GAME-0085`: `0 / 20 = 0.000000`; `GAME-0086`: `1 / 21 = 0.047619`; `GAME-0087`: `1 / 18 = 0.055556`; `GAME-0088`: `1 / 17 = 0.058824`.
+- `GAME-0089`: `1 / 17 = 0.058824`; `GAME-0090`: `1 / 23 = 0.043478`; `GAME-0091`: `1 / 17 = 0.058824`; `GAME-0092`: `1 / 18 = 0.055556`.
+- `GAME-0093`: `1 / 17 = 0.058824`; `GAME-0094`: `1 / 18 = 0.055556`; `GAME-0095`: `1 / 20 = 0.050000`; `GAME-0096`: `1 / 18 = 0.055556`.
+- `GAME-0097`: `1 / 16 = 0.062500`; `GAME-0098`: `1 / 15 = 0.066667`; `GAME-0099`: `1 / 16 = 0.062500`; `GAME-0100`: `0 / 20 = 0.000000`.
+- `GAME-0101`: `0 / 19 = 0.000000`; `GAME-0102`: `0 / 16 = 0.000000`.
+
+- New genes: `ACT-104`, `ACT-105`, `SYS-137`, `SYS-138`, `CON-157`,
+  `INF-053`, `OBJ-050`, `TIM-014`.
+- Classification result: `New gene` and `New combination of known and new genes`.
+- Evidence and reasoning: the corpus lacked an explicit two-fact inspection
+  query, a diegetic terminal case stamp, delayed full-policy citation, a
+  replaceable day policy, visible amendments, correct-case throughput and a
+  nonterminal work-shift cutoff. Fully visible current state transfers.
+
+## Taxonomy impact
+
+- Registry changes: eight Active IDs and one transfer to a new game.
+- Taxonomy-change record: none; no earlier boundary is merged or retired.
+- Candidate terms affected: new boundaries recorded in `CANDIDATE_TERMS.md`.
+
+## Negative results
+
+- `SYS-089` rejected: inspection feedback does not immediately classify one
+  concealed cell and a wrong stamp is audited only after case completion.
+- `CON-156` rejected: Day 4 rules govern many separate cases and may replace a
+  Day 3 rule; they do not grow over one mutable answer.
+- `TIM-003` rejected: the current document packet does not mutate in real time;
+  the clock gates future entrants and pay rather than forcing live-state motion.
+- `CON-068` rejected: 6pm does not make the current case a terminal failure.
+
+## Delta summary
+
+## Нові факти
+
+- [Confirmed | Corroborated | High] Одна й та сама foreign-entry packet
+  переходить з допустимого стану Дня 3 у розбіжність Дня 4 через заміну
+  ticket-вимоги на permit-вимогу (`PPL-003`, `PPL-004`).
+
+## Нові гени
+
+- [Observation | Corroborated | High] `ACT-104` — зіставити два видимі факти
+  справи; `ACT-105` — поставити остаточний двійковий штамп.
+- [Observation | Corroborated | High] `SYS-137` — визначити relation вибраної
+  пари; `SYS-138` — перевірити остаточний verdict за повною політикою.
+- [Observation | Corroborated | High] `CON-157` — змінювана денна кон’юнкція
+  admissibility; `INF-053` — видимі денні зміни й сталий rule reference.
+- [Observation | Corroborated | High] `OBJ-050` — правильний case throughput;
+  `TIM-014` — shift cutoff, що блокує нові, але не відкриті справи.
+
+## Нові комбінації
+
+- [Confirmed | Corroborated | High] `COMB-0103` — прочитати змінену політику,
+  довести розбіжність парою фактів і закрити справу правильним штампом до
+  втрати наступної можливості.
+
+## Зміни таксономії
+
+- Не потрібні: нові межі додаються без зміни чинних визначень.

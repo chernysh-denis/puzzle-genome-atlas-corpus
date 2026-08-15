@@ -18,9 +18,8 @@ Each record requires:
 - evidence and confidence.
 
 The [index](INDEX.md) supports corpus-wide subset scanning. Exact and near
-genome matching uses the separate game index. Exploratory combinations remain in
-[`research/combination-leads/`](../../research/combination-leads/) until they
-are supported by a complete analysis.
+genome matching uses the separate game index. Exploratory combinations remain in the private working repository until
+they are supported by a complete analysis.
 
 Every complete game genome that contains a combination as a proper subset must
 be listed reciprocally in the combination record, the game front matter and

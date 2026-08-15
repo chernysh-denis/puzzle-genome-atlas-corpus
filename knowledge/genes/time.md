@@ -25,7 +25,19 @@
   one Hexcells Infinite binary assertion followed by immediate truth
   adjudication, mistake handling and completion checking; one turn-costing
   Shogun Showdown movement, queue edit or queue activation followed by all
-  player and hostile state advancement.
+  player and hostile state advancement; one A Monster's Expedition push
+  followed by the complete log tip or maximal roll, bridge settlement and
+  arrival check; one Bonfire Peaks input followed by the complete carried-
+  footprint movement, fire consumption and completion check; one Golf Peaks
+  card-direction commitment followed by complete staged ball travel, terrain
+  response, settlement and hole-entry evaluation; one inbento placement
+  followed by footprint validation, inventory consumption, covered-cell
+  overwrite and exact-recipe evaluation; one KAMI seed-and-colour commitment
+  followed by complete component recolouring, same-class coalescence, move
+  accounting and whole-field evaluation; one HOOK trigger press followed by
+  complete linked retraction, removal or collision-and-reset adjudication; one
+  Inertia direction followed by the complete straight slide, transit
+  collection, stopping and mine / completion checks.
 - Excludes: real-time input and simultaneous unresolved planning.
 - Evidence: [2048 decomposition](../games/0-9/2048.md) and
   [Minesweeper decomposition](../games/m-r/minesweeper.md), and
@@ -40,7 +52,15 @@
   [A Good Snowman Is Hard to Build decomposition](../games/a-f/a-good-snowman-is-hard-to-build.md),
   [Snakebird decomposition](../games/s-z/snakebird.md), and
   [Hexcells Infinite decomposition](../games/g-l/hexcells-infinite.md), and
-  [Shogun Showdown decomposition](../games/s-z/shogun-showdown.md).
+  [Shogun Showdown decomposition](../games/s-z/shogun-showdown.md), and
+  [Can of Wormholes decomposition](../games/a-f/can-of-wormholes.md), and
+  [A Monster's Expedition decomposition](../games/a-f/a-monsters-expedition.md), and
+  [Bonfire Peaks decomposition](../games/a-f/bonfire-peaks.md), and
+  [Golf Peaks decomposition](../games/g-l/golf-peaks.md), and
+  [inbento decomposition](../games/g-l/inbento.md), and
+  [KAMI decomposition](../games/g-l/kami.md), and
+  [HOOK decomposition](../games/g-l/hook.md), and
+  [Inertia decomposition](../games/g-l/inertia.md).
 - Novelty: not assessed.
 
 ## TIM-002 — Self-paced sequential action
@@ -61,7 +81,32 @@
   an untimed foundational The Witness panel path; rearranging Carto map
   fragments and walking through the resulting world without a forced clock;
   inspecting, extracting terms and revising the event Scroll in The Case of the
-  Golden Idol.
+  Golden Idol; drawing, retracting and redrawing LYNE routes without a forced
+  clock or time-driven board step; assigning and revising Hexologic pip values
+  without a forced clock or automatic world step; inspecting and selecting a
+  valid triple from a fixed SET solitaire field without a deadline; completing
+  Mastermind proposals against one fixed code without a deadline; entering
+  Wordle guesses without a per-row deadline; pressing Lights Out buttons
+  without a forced clock or autonomous board change between presses; assigning
+  and revising Slant diagonals without a deadline; placing and revising Tents
+  occupancy marks without a forced clock; placing and revising Dominosa pairs;
+  cycling and revising Bridges link multiplicities; assigning and revising
+  Light Up bulbs without autonomous change or a deadline; selecting and
+  revising Loopy edges without a forced clock or time-driven board step;
+  assigning and revising Map region colours without autonomous progression;
+  drawing and revising Galaxies region boundaries without a forced clock;
+  assigning and revising Filling digits without a deadline; assigning and
+  revising Keen digits without a deadline; rotating, locking and revising Net
+  tiles without a forced clock or autonomous network change; shifting and
+  revising Netslide lines without automatic progression between moves;
+  inspecting and manipulating The Room's first safe without a forced clock;
+  reassembling Josef in Machinarium's scrapyard without autonomous progression
+  between committed interactions; handing Day of the Tentacle's battery
+  ingredients to Red Edison without partial-set decay or a deadline; rotating
+  Monument Valley's Chapter I bridge and selecting Ida's destination without a
+  deadline or independent world progression between commands; annotating,
+  matching and revising Chants of Sennaar glyph hypotheses while the world
+  waits for the next discrete input.
 - Excludes: competition timing as an external scoring condition; automatic
   post-action resolution; continuous real-time state change.
 - Parameters: action granularity and any externally imposed solve timer.
@@ -72,12 +117,38 @@
   [Nonogram decomposition](../games/m-r/nonogram.md), and
   [Chess decomposition](../games/a-f/chess.md), and
   [Flow Free decomposition](../games/a-f/flow-free.md), and
+  [LYNE decomposition](../games/g-l/lyne.md), and
   [Return of the Obra Dinn decomposition](../games/m-r/return-of-the-obra-dinn.md),
   [Gorogoa decomposition](../games/g-l/gorogoa.md), and
   [Patrick's Parabox decomposition](../games/m-r/patricks-parabox.md), and
   [The Witness decomposition](../games/s-z/the-witness.md),
-  [Carto decomposition](../games/a-f/carto.md), and
-  [The Case of the Golden Idol decomposition](../games/s-z/the-case-of-the-golden-idol.md).
+  [Carto decomposition](../games/a-f/carto.md),
+  [The Case of the Golden Idol decomposition](../games/s-z/the-case-of-the-golden-idol.md), and
+  [Hexologic decomposition](../games/g-l/hexologic.md), and
+  [Rush Hour decomposition](../games/m-r/rush-hour.md), and
+  [SET decomposition](../games/s-z/set.md), and
+  [Mastermind decomposition](../games/m-r/mastermind.md), and
+  [Wordle decomposition](../games/s-z/wordle.md), and
+  [Lights Out decomposition](../games/g-l/lights-out.md), and
+  [Slant decomposition](../games/s-z/slant.md), and
+  [Tents decomposition](../games/s-z/tents.md), and
+  [Bridges decomposition](../games/a-f/bridges.md), and
+  [Light Up decomposition](../games/g-l/light-up.md), and
+  [Loopy decomposition](../games/g-l/loopy.md), and
+  [Map decomposition](../games/m-r/map.md), and
+  [Galaxies decomposition](../games/g-l/galaxies.md), and
+  [Filling decomposition](../games/a-f/filling.md), and
+  [Keen decomposition](../games/g-l/keen.md), and
+  [Pearl decomposition](../games/m-r/pearl.md), and
+  [Signpost decomposition](../games/s-z/signpost.md), and
+  [Net decomposition](../games/m-r/net.md), and
+  [Netslide decomposition](../games/m-r/netslide.md), and
+  [The Room decomposition](../games/s-z/the-room.md), and
+  [Machinarium decomposition](../games/m-r/machinarium.md), and
+  [Day of the Tentacle decomposition](../games/a-f/day-of-the-tentacle.md),
+  [The Talos Principle decomposition](../games/s-z/the-talos-principle.md), and
+  [Monument Valley decomposition](../games/m-r/monument-valley.md), and
+  [Chants of Sennaar decomposition](../games/a-f/chants-of-sennaar.md).
 - Novelty: not assessed.
 
 ## TIM-003 — Real-time input during forced progression
@@ -109,7 +180,13 @@
   surface tasks, transport, combat and the day clock advance; creating and
   swapping The Swapper bodies while slowed gravity and collision continue;
   moving, jumping and stamping images while Viewfinder body physics remains
-  live.
+  live; combining and applying The Longest Journey's fishing instrument while
+  its unpatched inflated ducky continues to lose air toward clamp closure;
+  moving, aiming and releasing a Superliminal chess piece while held-pose
+  updates and released-body gravity remain live; changing Manifold Garden's
+  gravity frame or steering a periodic fall while body physics continues;
+  carrying, dropping and crossing Maquette's recursive key while held pose,
+  collision and avatar motion remain live.
 - Excludes: a discrete input followed by completed automatic resolution;
   self-paced actions with no time-driven state change; an external timer that
   only measures performance.
@@ -130,8 +207,15 @@
   [Portal decomposition](../games/m-r/portal.md), and
   [Braid decomposition](../games/a-f/braid.md), and
   [Pikmin 4 decomposition](../games/m-r/pikmin-4.md),
-  [The Swapper decomposition](../games/s-z/the-swapper.md), and
-  [Viewfinder decomposition](../games/s-z/viewfinder.md).
+  [The Swapper decomposition](../games/s-z/the-swapper.md),
+  [Viewfinder decomposition](../games/s-z/viewfinder.md),
+  [The Longest Journey decomposition](../games/s-z/the-longest-journey.md),
+  [Fez decomposition](../games/a-f/fez.md), and
+  [Echochrome decomposition](../games/a-f/echochrome.md), and
+  [Superliminal decomposition](../games/s-z/superliminal.md), and
+  [Manifold Garden decomposition](../games/m-r/manifold-garden.md), and
+  [Maquette decomposition](../games/m-r/maquette.md), and
+  [Antichamber decomposition](../games/a-f/antichamber.md).
 - Novelty: not assessed.
 
 ## TIM-004 — Alternating adversarial turns
@@ -241,23 +325,27 @@
 - Evidence: [Timelie decomposition](../games/s-z/timelie.md).
 - Novelty: not assessed.
 
-## TIM-009 — Self-paced route design before locked one-shot traversal
+## TIM-009 — Self-paced transport-layout design before locked one-shot traversal
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player authors one complete spatial route without time
-  pressure, then starts one deterministic traversal during which route edits
-  remain unavailable until the vehicle succeeds, fails, stops or is reset.
+- Definition: the player authors one complete spatial transport layout without
+  time pressure, then starts one deterministic traversal during which layout
+  edits remain unavailable until the vehicle set succeeds, fails, stops or is
+  reset.
 - Includes: drawing a Cosmic Express entrance-to-exit track, starting the train
-  and revising the route only after the run finishes or is reset.
+  and revising the route only after the run finishes or is reset; arranging a
+  Railbound rail layout before starting all numbered carriages together.
 - Excludes: editing a network while vehicles continue running; a cyclic machine
   repeatedly executing an instruction schedule; one discrete input followed by
   one immediate automatic response.
-- Parameters: route-completion requirement, start control, execution speed,
-  pause / stop permission, reset state and success / failure boundary.
-- Evidence: [Cosmic Express decomposition](../games/a-f/cosmic-express.md).
+- Parameters: layout-completion requirement, vehicle count, start control,
+  execution speed, pause / stop permission, reset state and success / failure
+  boundary.
+- Evidence: [Cosmic Express decomposition](../games/a-f/cosmic-express.md) and
+  [Railbound decomposition](../games/m-r/railbound.md).
 - Novelty: not assessed.
 
 ## TIM-010 — Editable tactical draft with forecast before commit
@@ -277,4 +365,119 @@
 - Parameters: commands per draft, forecast depth, rewind horizon, commit
   gesture, post-commit hostile movement and allowance refresh.
 - Evidence: [Tactical Breach Wizards decomposition](../games/s-z/tactical-breach-wizards.md).
+- Novelty: not assessed.
+
+## TIM-011 — Editable network with repeatable bounded traffic evaluation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player edits a persistent network without a forced planning
+  deadline, then runs a bounded automatic traffic evaluation; after the result
+  or a jam, the same retained design can be revised and evaluated again.
+- Includes: completing a Freeways network, running its accelerated simulated
+  day, then undoing or adding roads and rerunning the evaluation.
+- Excludes: editing continuously while an endless score simulation advances;
+  a deterministic cyclic production machine locked during its test; one fixed
+  route consumed by a single traversal.
+- Parameters: whether light traffic appears during construction, evaluation
+  horizon, speed control, edit lock during evaluation, reset scope and retained
+  best design.
+- Evidence: [Freeways decomposition](../games/a-f/freeways.md).
+- Novelty: not assessed.
+
+## TIM-012 — Alternating automatic presentation and player reproduction
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: play alternates between an automatic phase that serially presents
+  the complete current target with no player choice and a response phase in
+  which the system stops adding cues and accepts ordered player inputs; exact
+  completion returns control to automatic presentation.
+- Includes: Simon presenting a light sequence, waiting for its reproduction,
+  then presenting the retained sequence plus one new cue.
+- Excludes: simultaneous real-time intervention in an advancing world; an
+  editable planning phase followed by a locked run; one ordinary discrete
+  input with immediate consequence resolution; a required response deadline.
+- Parameters: phase boundary, input gating, cue tempo, transition delay and
+  response-time policy.
+- Evidence: [Simon decomposition](../games/s-z/simon.md).
+- Novelty: not assessed.
+
+## TIM-013 — Completed progression schedules next-day world update
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: satisfying the current progression predicate records completion
+  immediately, but its persistent world-state consequence resolves only across
+  the end-of-day boundary and is available on the following play day.
+- Includes: Stardew Valley marking the Boiler Room complete when its last bundle
+  is filled, showing the Junimo minecart repair overnight and enabling minecart
+  travel the next day.
+- Excludes: an immediate automatic consequence before the next input; a real-
+  time deadline; a fixed number of tactical turns; cosmetic day-night change
+  with no new capability.
+- Parameters: completion instant, scheduled boundary, intervening cutscene,
+  skipped-scene behaviour, activation day and persistence after activation.
+- Evidence: [Stardew Valley decomposition](../games/s-z/stardew-valley.md).
+- Novelty: not assessed.
+
+## TIM-014 — Real-time shift gates admission of new cases
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a work clock advances while the player inspects sequential cases;
+  reaching the shift cutoff normally prevents another case from entering but
+  permits the currently open case, or a required scripted minimum, to finish.
+- Includes: Papers, Please running from 6am to 6pm, allowing the current
+  entrant to be completed after the clock darkens and extending the day when a
+  minimum scripted entrant has not yet been processed.
+- Excludes: a terminal attempt deadline; a live world simulation that mutates
+  the current case; an external speedrun timer; a fixed action count.
+- Parameters: shift duration, clock scale, new-case gate, open-case completion,
+  scripted minimum, paid-after-cutoff policy and pauses.
+- Evidence: [Papers, Please decomposition](../games/m-r/papers-please.md).
+- Novelty: not assessed.
+
+## TIM-015 — Short inactivity terminates buffered code entry without world penalty
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: once a symbolic input sequence has begun, too much real-time
+  inactivity clears its unfinished buffer, but leaves the world target and
+  player state intact so the complete sequence can be attempted again.
+- Includes: pausing too long between Holy Cross directions in TUNIC and then
+  restarting the fountain-door code; Sequence Assist removes this timing demand.
+- Excludes: a terminal attempt countdown; a world that advances while idle; a
+  fixed turn budget; an exact duration claim not established by evidence.
+- Parameters: inactivity threshold, reset feedback, assist override, target
+  scope, buffer-prefix policy and whether wrong symbols also restart the buffer.
+- Evidence: [TUNIC decomposition](../games/s-z/tunic.md).
+- Novelty: not assessed.
+
+## TIM-016 — Fixed real-time world cycle terminates in loop reset
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after the repeating simulation begins, its world continues to
+  evolve while player input remains available until an authored fixed-duration
+  terminal event ends the current iteration and starts the next one.
+- Includes: Outer Wilds' approximately 22-minute post-pairing solar-system cycle
+  ending in the supernova and a new campfire awakening.
+- Excludes: a timer that merely scores performance; a work-shift cutoff that
+  leaves the current case open; a resettable automatic run locked against input.
+- Parameters: cycle start, duration, pause policy, terminal event, alternate
+  early-death trigger and next-iteration delay.
+- Evidence: [Outer Wilds decomposition](../games/m-r/outer-wilds.md).
 - Novelty: not assessed.

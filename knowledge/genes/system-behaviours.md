@@ -504,38 +504,42 @@
 - Evidence: [Balatro decomposition](../games/a-f/balatro.md).
 - Novelty: not assessed.
 
-## SYS-029 — Time-driven station appearance
+## SYS-029 — Time-driven service-node appearance
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: simulation time causes new service nodes to appear at
+- Definition: simulation time causes new supply or destination service nodes to appear at
   system-selected positions, expanding the persistent network problem without
   a placement command from the player.
-- Includes: new shaped stations opening during a Mini Metro Classic session.
+- Includes: new shaped stations opening during a Mini Metro Classic session;
+  new colour-coded houses and destinations appearing in Mini Motorways.
 - Excludes: player-created Creative-mode stations; refilling a fixed board
   cell; revealing a node that existed in concealed current state.
 - Parameters: spawn schedule, spatial distribution, node-type distribution
   and map geography.
-- Evidence: [Mini Metro decomposition](../games/m-r/mini-metro.md).
+- Evidence: [Mini Metro decomposition](../games/m-r/mini-metro.md) and
+  [Mini Motorways decomposition](../games/m-r/mini-motorways.md).
 - Novelty: not assessed.
 
-## SYS-030 — Time-driven destination demand arrival
+## SYS-030 — Time-driven service demand arrival
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: simulation time adds independently generated destination-marked
-  demand units to visible queues at existing service nodes.
+- Definition: simulation time adds independently generated visible demand
+  units to existing service nodes, requiring compatible network service.
 - Includes: shaped Mini Metro passengers appearing beside stations and waiting
-  for transport to a station of the matching shape.
+  for transport to a station of the matching shape; pins appearing at Mini
+  Motorways destinations and requesting a compatible house car.
 - Excludes: a pre-existing concealed queue; demand directly placed by the
   player; the later movement of a waiting passenger.
 - Parameters: arrival rate, origin and destination distributions, bursts and
   map-specific demand rules.
-- Evidence: [Mini Metro decomposition](../games/m-r/mini-metro.md).
+- Evidence: [Mini Metro decomposition](../games/m-r/mini-metro.md) and
+  [Mini Motorways decomposition](../games/m-r/mini-motorways.md).
 - Novelty: not assessed.
 
 ## SYS-031 — Automatic route-based passenger transport
@@ -559,21 +563,23 @@
   [Cosmic Express decomposition](../games/a-f/cosmic-express.md).
 - Novelty: not assessed.
 
-## SYS-032 — Periodic capacity award and upgrade offer
+## SYS-032 — Periodic network-capacity award and upgrade offer
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: at a fixed simulation-time boundary, the system grants a
-  mandatory capacity asset and presents a bounded choice of additional
+- Definition: at a fixed simulation-time boundary, the system grants mandatory
+  network capacity and presents a bounded choice of additional
   infrastructure rewards before ordinary progression resumes.
 - Includes: Mini Metro's end-of-week locomotive award plus a choice such as a
-  line, carriage or tunnels.
+  line, carriage or tunnels; Mini Motorways granting road tiles and a weekly
+  choice between map-eligible infrastructure upgrades.
 - Excludes: continuous income; unscheduled random loot; the player's selection
   from the generated offer.
 - Parameters: cadence, automatic reward, offer count and eligible reward pool.
-- Evidence: [Mini Metro decomposition](../games/m-r/mini-metro.md).
+- Evidence: [Mini Metro decomposition](../games/m-r/mini-metro.md) and
+  [Mini Motorways decomposition](../games/m-r/mini-motorways.md).
 - Novelty: not assessed.
 
 ## SYS-033 — Jump-triggered intervening removal
@@ -653,7 +659,11 @@
   retaining velocity through Portal chambers; The Swapper bodies jumping,
   falling and colliding independently under local room geometry; the
   Viewfinder avatar falling, landing and colliding with original or image-
-  instantiated geometry.
+  instantiated geometry; a released Superliminal chess piece falling and
+  colliding at its committed physical scale; the Manifold Garden avatar and
+  eligible cubes falling, steering, colliding and landing in the selected
+  gravity frame; Maquette's released golden key settling as a collidable bridge
+  while the avatar walks across it.
 - Excludes: grid-stepped gravity; a time-driven path traversal with no force
   integration; one discrete input followed by instantaneous completed motion.
 - Parameters: gravity, mass, damping, constraint solver, collision shapes and
@@ -663,7 +673,11 @@
   [Tin Hearts decomposition](../games/s-z/tin-hearts.md), and
   [Portal decomposition](../games/m-r/portal.md),
   [The Swapper decomposition](../games/s-z/the-swapper.md), and
-  [Viewfinder decomposition](../games/s-z/viewfinder.md).
+  [Viewfinder decomposition](../games/s-z/viewfinder.md),
+  [Fez decomposition](../games/a-f/fez.md), and
+  [Superliminal decomposition](../games/s-z/superliminal.md), and
+  [Manifold Garden decomposition](../games/m-r/manifold-garden.md), and
+  [Maquette decomposition](../games/m-r/maquette.md).
 - Novelty: not assessed.
 
 ## SYS-037 — Contact-triggered collectible acquisition
@@ -678,7 +692,9 @@
 - Includes: candy contact collecting a gold star in Cut the Rope while motion
   continues toward Om Nom; Tim contacting a required Braid puzzle piece; the
   active The Swapper body collecting a room-progress orb; a Snakebird head
-  removing one required fruit before later exit activation.
+  removing one required fruit before later exit activation; Inertia's ball
+  removing every gem crossed without stopping its committed slide; the
+  Echochrome Walker crediting an echo on contact while continuing its route.
 - Excludes: the player directly selecting a collectible; mandatory destination
   contact that itself completes the level; acquiring a carried key whose later
   barrier interaction is the decision-relevant function; clearing a matched
@@ -688,7 +704,10 @@
 - Evidence: [Cut the Rope decomposition](../games/a-f/cut-the-rope.md) and
   [Braid decomposition](../games/a-f/braid.md), and
   [The Swapper decomposition](../games/s-z/the-swapper.md), and
-  [Snakebird decomposition](../games/s-z/snakebird.md).
+  [Snakebird decomposition](../games/s-z/snakebird.md), and
+  [Inertia decomposition](../games/g-l/inertia.md), and
+  [The Talos Principle decomposition](../games/s-z/the-talos-principle.md), and
+  [Echochrome decomposition](../games/a-f/echochrome.md).
 - Novelty: not assessed.
 
 ## SYS-038 — Synchronous cyclic symbolic-program execution
@@ -846,7 +865,8 @@
   Hearts soldiers marching until physical contact redirects them; Timelie
   actors and patrol robots traversing multi-step paths as timeline time
   advances; Braid monstars walking under authored ground-collision rules;
-  tasked Pikmin travelling and carrying across live terrain.
+  tasked Pikmin travelling and carrying across live terrain; Echochrome's
+  Walker advancing and turning without directional movement commands.
 - Excludes: a directly navigated avatar; time-driven motion of one currently
   controlled falling piece; execution of a separately assigned specialist
   role.
@@ -859,7 +879,8 @@
   [Tin Hearts decomposition](../games/s-z/tin-hearts.md), and
   [Timelie decomposition](../games/s-z/timelie.md), and
   [Braid decomposition](../games/a-f/braid.md), and
-  [Pikmin 4 decomposition](../games/m-r/pikmin-4.md).
+  [Pikmin 4 decomposition](../games/m-r/pikmin-4.md), and
+  [Echochrome decomposition](../games/a-f/echochrome.md).
 - Novelty: not assessed.
 
 ## SYS-046 — Assigned-role autonomous execution
@@ -1165,13 +1186,16 @@
   mechanism to its inactive state unless another eligible body remains.
 - Includes: Chell or a Weighted Storage Cube holding a Portal floor button down
   so its linked chamber door stays open; a The Swapper body maintaining a
-  pressure plate while another body moves elsewhere.
+  pressure plate while another body moves elsewhere; Superliminal's dropped
+  Induction chess piece holding its linked exit open only while it remains on
+  the plate.
 - Excludes: a one-shot toggle that remains changed after release; a timed
   pedestal switch; contact that only collects or destroys an object.
 - Parameters: eligible body classes, occupancy threshold, linked mechanisms,
   activation delay, multi-body logic and release behaviour.
-- Evidence: [Portal decomposition](../games/m-r/portal.md) and
-  [The Swapper decomposition](../games/s-z/the-swapper.md).
+- Evidence: [Portal decomposition](../games/m-r/portal.md),
+  [The Swapper decomposition](../games/s-z/the-swapper.md), and
+  [Superliminal decomposition](../games/s-z/superliminal.md).
 - Novelty: not assessed.
 
 ## SYS-062 — Rewind-exempt forward-time evolution
@@ -1563,23 +1587,26 @@
 - Evidence: [A Good Snowman Is Hard to Build decomposition](../games/a-f/a-good-snowman-is-hard-to-build.md).
 - Novelty: not assessed.
 
-## SYS-082 — Head-led ordered body propagation
+## SYS-082 — Endpoint-led ordered body propagation
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: after a legal head displacement, every persistent segment of one
-  articulated controlled body moves into its predecessor's immediately prior
-  position while segment order and connectivity remain fixed.
+- Definition: after a legal displacement of the currently leading endpoint,
+  every persistent segment of one articulated controlled body moves into its
+  predecessor's immediately prior position while segment order and
+  connectivity remain fixed.
 - Includes: one Snakebird cardinal input advancing the head one cell and making
-  the complete tail follow the preceding body path.
+  the complete tail follow the preceding body path; forward movement in Can of
+  Wormholes propagating the ordered worm from the currently leading endpoint.
 - Excludes: translating one rigid multi-cell footprint unchanged; autonomous
   followers pathfinding toward a leader; shifting a contiguous row of
   independently movable objects; continuously integrated flexible-body motion.
-- Parameters: segment order, adjacency topology, head step, tail update order,
-  self-collision rule and behaviour under simultaneous growth.
-- Evidence: [Snakebird decomposition](../games/s-z/snakebird.md).
+- Parameters: segment order, adjacency topology, leading endpoint, endpoint
+  step, follower update order, self-collision rule and behaviour under growth.
+- Evidence: [Snakebird decomposition](../games/s-z/snakebird.md) and
+  [Can of Wormholes decomposition](../games/a-f/can-of-wormholes.md).
 - Novelty: not assessed.
 
 ## SYS-083 — Consumable-contact persistent segment growth
@@ -1753,4 +1780,1090 @@
 - Parameters: responding units, ordering, zero-time player actions, cooldown
   increment, spawn timing and terminal checks.
 - Evidence: [Shogun Showdown decomposition](../games/s-z/shogun-showdown.md).
+- Novelty: not assessed.
+
+## SYS-092 — Automatic compatible house-car round trip
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a demand marker automatically dispatches one available vehicle
+  attached to a compatible origin, after which that vehicle follows the
+  current road graph to the requesting node, clears one demand unit and
+  returns to its own origin.
+- Includes: a Mini Motorways destination pin causing an available same-colour
+  house car to drive to that destination, collect the pin and return home.
+- Excludes: passengers boarding a route vehicle; player steering; assigning a
+  reusable vehicle among routes; instantaneous connectivity evaluation.
+- Parameters: origin choice, route choice, trip reservation, parking capacity,
+  dispatch priority and rerouting after edits.
+- Evidence: [Mini Motorways decomposition](../games/m-r/mini-motorways.md).
+- Novelty: not assessed.
+
+## SYS-093 — Automatic weighted origin-destination road traffic
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the system repeatedly introduces vehicles at authored road
+  endpoints according to declared destination weights, chooses a currently
+  connected directed route and advances each vehicle toward its required exit
+  without direct steering.
+- Includes: Freeways cars entering from a road sign or building, following the
+  player-drawn interchange to one of its declared destinations and leaving the
+  level boundary.
+- Excludes: one demand marker dispatching a car attached to a compatible house;
+  passengers boarding a scheduled route vehicle; directly steered cars.
+- Parameters: demand weights, spawn cadence, route-choice rule, destination
+  representation and handling of unreachable destinations.
+- Evidence: [Freeways decomposition](../games/a-f/freeways.md).
+- Novelty: not assessed.
+
+## SYS-094 — Bounded road-traffic congestion evaluation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during a bounded traffic evaluation, multiple automatic vehicles
+  occupy finite road space, so close following, intersections and merges reduce
+  measured throughput and can form a persistent queue even though the graph
+  remains connected.
+- Includes: traffic backing up at a Freeways merge during the simulated day and
+  reducing the network's speed / efficiency result.
+- Excludes: abstract demand accumulating at an unserved node without vehicles
+  occupying the connecting graph; one vehicle blocked only by a static wall;
+  passenger capacity inside a vehicle.
+- Parameters: evaluation horizon, vehicle footprint, following distance, merge
+  priority, collision handling, lane count, acceleration and jam threshold.
+- Evidence: [Freeways decomposition](../games/a-f/freeways.md).
+- Novelty: not assessed.
+
+## SYS-095 — Tail-directed straight reverse propagation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when the player reverses an ordered articulated body, its tail
+  becomes the advancing endpoint and moves along its current outward direction,
+  after which the remaining segments follow from that end instead of replaying
+  the body's historical path.
+- Includes: reversing a Can of Wormholes worm so the tail extrudes straight
+  from its present orientation and the ordered body follows behind it.
+- Excludes: ordinary forward propagation from a fixed head; reversing one
+  rigid object's facing; scrubbing recorded movement history; translating an
+  unchanged multi-cell footprint.
+- Parameters: reverse-input mapping, current tail orientation, endpoint-role
+  persistence, segment update order and collision handling.
+- Evidence: [Can of Wormholes decomposition](../games/a-f/can-of-wormholes.md).
+- Novelty: not assessed.
+
+## SYS-096 — Direction-conditioned maximal log displacement
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after one adjacent push on an elongated cylindrical object, the
+  system resolves a displacement mode from the contact axis: an end push tips
+  the object by one footprint transition, while a side push rolls it along its
+  perpendicular axis until the first blocker or accepting boundary.
+- Includes: tipping an A Monster's Expedition log from an end and rolling it
+  sideways without another input until a rock, stump or water stops it.
+- Excludes: a one-cell crate push; one-cell lateral rolling that exposes a
+  tracked face; continuously integrated rigid-body physics; direct in-place
+  rotation; automatic transport independent of a player's push.
+- Parameters: rigid footprint, end and side contact regions, tip displacement,
+  rolling axis, stopping objects, accepting boundaries and collision order.
+- Evidence: [A Monster's Expedition decomposition](../games/a-f/a-monsters-expedition.md).
+- Novelty: not assessed.
+
+## SYS-097 — Water-settled object becomes traversable bridge
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when a required movable rigid object enters an eligible water
+  gap in an accepted orientation, the system fixes it in that gap and adds a
+  traversable connection between the previously separated land cells.
+- Includes: an A Monster's Expedition log settling lengthwise across a one-cell
+  water gap so the monster can walk over it to the connected island.
+- Excludes: spending an abstract bridge inventory; drawing a road over water;
+  editing an authoritative map representation; a floating object that remains
+  freely movable; decorative water contact without a new traversal edge.
+- Parameters: water-gap width, accepted object orientation and length,
+  settlement pose, resulting traversal edges and persistence.
+- Evidence: [A Monster's Expedition decomposition](../games/a-f/a-monsters-expedition.md).
+- Novelty: not assessed.
+
+## SYS-098 — Required-object fire contact consumes and completes
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when the designated required object enters a fixed fire receiver,
+  the system irreversibly consumes that object and immediately credits the
+  bounded puzzle rather than preserving it as an ordinary placed object.
+- Includes: the belongings crate entering the bonfire in Bonfire Peaks and
+  completing `Burn Your Belongings` as the crate burns.
+- Excludes: repeatable surface heating; an object destroyed only as failure;
+  delivering an intact payload to a receiver; decorative fire contact.
+- Parameters: designated object class, receiver cells, entry direction,
+  consumption timing, completion timing and treatment of other objects.
+- Evidence: [Bonfire Peaks decomposition](../games/a-f/bonfire-peaks.md).
+- Novelty: not assessed.
+
+## SYS-099 — Synchronous automatic rail-car traversal
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after one explicit run command, every free rail vehicle advances
+  automatically on the configured track under one shared movement clock,
+  follows the currently selected junction continuation and couples when it
+  reaches an eligible receiver approach.
+- Includes: all numbered Railbound carriages starting together, following the
+  authored rail layout and coupling behind the locomotive when eligible.
+- Excludes: recurrent passenger service; individually steered vehicles;
+  continuous traffic sampled for throughput; one vehicle traversing one path.
+- Parameters: movement cadence, junction selection, start offsets, receiver
+  approach, coupling transition and treatment of an already coupled vehicle.
+- Evidence: [Railbound decomposition](../games/m-r/railbound.md).
+- Novelty: not assessed.
+
+## SYS-100 — Card-parametrised staged ball traversal on heightfield
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after one held movement card and a direction are committed, the
+  system advances one ball through the card's declared sequence of grid-step
+  travel stages, applying fixed support, barrier and elevation geometry until
+  the ball settles, leaves the course or enters its receiver.
+- Includes: a Golf Peaks World 1 roll card moving the ball an exact nominal
+  distance while authored walls and slopes reject or redirect its route.
+- Excludes: continuous force-integrated ball motion; freely commanded avatar
+  navigation; a card that only changes a statistic; autonomous rail service.
+- Parameters: stage types and distances, direction domain, elevation bands,
+  wall response, slope continuation, boundary response and receiver priority.
+- Evidence: [Golf Peaks decomposition](../games/g-l/golf-peaks.md).
+- Novelty: not assessed.
+
+## SYS-101 — Later footprint overwrites addressed cell contents
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a legal placement, every non-empty block in the incoming
+  typed footprint simultaneously replaces the current visible content of its
+  corresponding addressed cell, while all cells outside the footprint retain
+  their prior state.
+- Includes: a newly placed inbento food piece flattening and replacing earlier
+  ingredients in every Chapter 1 bento cell it covers.
+- Excludes: rejecting overlap as collision; accumulating two simultaneously
+  active layers; merging compatible values; deleting an entire completed line;
+  placing only into empty cells.
+- Parameters: empty footprint blocks, replacement atomicity, identity domain,
+  treatment of covered empty cells and objective-check timing.
+- Evidence: [inbento decomposition](../games/g-l/inbento.md).
+- Novelty: not assessed.
+
+## SYS-102 — Component-wide class replacement and coalescence
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a seed-and-class command, the system atomically replaces
+  the class of every cell in the seed's maximal connected current-class
+  component, then coalesces it with all adjacent components of the replacement
+  class for future actions.
+- Includes: one KAMI move recolouring a complete orthogonally connected paper
+  region and joining it to every touching region of the selected colour.
+- Excludes: replacement by an incoming shaped footprint; deletion followed by
+  gravity; collision-triggered pair merging; visual recolouring with no change
+  to future component selection.
+- Parameters: neighbourhood topology, component maximality, merge transitivity,
+  replacement atomicity and animation timing.
+- Evidence: [KAMI decomposition](../games/g-l/kami.md).
+- Novelty: not assessed.
+
+## SYS-103 — Linked hook retraction with swept obstruction adjudication
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after a trigger command, the system retracts every currently
+  linked line-and-hook mechanism toward that trigger, removes each one that
+  completes its swept path, and rejects the attempt when any moving hook or
+  line collides with a still-present mechanism.
+- Includes: one HOOK button withdrawing one or several attached lines and
+  hooks, or producing the visible collision-and-reset response when their
+  paths remain obstructed.
+- Excludes: player-dragged line removal; route construction; deletion without
+  swept motion; simultaneous vehicle travel through reusable infrastructure.
+- Parameters: linked set, retraction direction and speed, swept geometry,
+  collision classes, removal timing and failure-reset timing.
+- Evidence: [HOOK decomposition](../games/g-l/hook.md).
+- Novelty: not assessed.
+
+## SYS-104 — Duplicate-aware positional and residual-match scoring
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after a complete ordered-symbol hypothesis is committed, the
+  system first matches equal symbols at equal positions, removes those matched
+  occurrences, then matches equal remaining symbols without position so no
+  target occurrence can be credited more than once; the result may be
+  aggregated or assigned back to hypothesis positions.
+- Includes: Mastermind awarding aggregate exact and misplaced indicators;
+  Wordle assigning exact, present-elsewhere or exhausted feedback to guessed
+  positions after the same duplicate-safe matching pass.
+- Excludes: independent per-position equality without residual occurrence
+  accounting; generic similarity scoring that may double-count one target
+  symbol; unordered identity overlap that does not prioritise exact positions.
+- Parameters: sequence length, symbol multiset, exact-match priority,
+  indicator classes, aggregate versus position-addressed disclosure, ordering
+  of displayed indicators and terminal all-exact result.
+- Evidence: [Mastermind decomposition](../games/m-r/mastermind.md) and
+  [Wordle decomposition](../games/s-z/wordle.md).
+- Novelty: not assessed.
+
+## SYS-105 — Hidden orthogonal ray interaction resolution
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: from one selected perimeter entry, the system advances a hidden
+  ray orthogonally through a fixed concealed occupancy field, giving direct
+  forward contact priority, otherwise turning it ninety degrees away from an
+  occupied forward diagonal, until it is absorbed or leaves the field.
+- Includes: Black Box resolving an immediate or internal hit, pre-entry or
+  returned reflection, deflection, and a paired different-edge exit.
+- Excludes: player-drawn paths; diagonal ray travel; probabilistic scattering;
+  a visible projectile whose continuous trajectory can be steered.
+- Parameters: field size, occupied-neighbourhood stencil, hit priority,
+  deflection direction, boundary handling and outcome notation.
+- Evidence: [Black Box decomposition](../games/a-f/black-box.md).
+- Novelty: not assessed.
+
+## SYS-106 — Observational-equivalence adjudication with counterexample
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when a complete hidden-system hypothesis is submitted, the
+  system compares its predicted outcome for every legal probe with the fixed
+  concealed system, accepts any hypothesis with the same complete outcome
+  mapping, and otherwise exposes one probe on which they differ.
+- Includes: Black Box accepting a five-ball arrangement observationally
+  indistinguishable from the generated arrangement, or firing one omitted
+  distinguishing laser after an incorrect check.
+- Excludes: literal coordinate equality as the only acceptance rule; checking
+  only observations the player already requested; returning a scalar
+  similarity score; revealing the complete concealed layout after one error.
+- Parameters: probe domain, outcome equivalence, counterexample selection,
+  handling of an already visible contradiction and success disclosure.
+- Evidence: [Black Box decomposition](../games/a-f/black-box.md).
+- Novelty: not assessed.
+
+## SYS-107 — Retained-sequence replay with one-cue extension
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after one complete correct reproduction, the system preserves the
+  entire ordered cue sequence, appends exactly one newly selected cue, and
+  serially presents the resulting longer sequence from its beginning.
+- Includes: Simon replaying every prior light in order and adding one random
+  coloured light for the next round.
+- Excludes: replacing the target with an unrelated sequence; revealing only the
+  new suffix; increasing difficulty without extending the target; a player-
+  authored sequence.
+- Parameters: initial length, extension count, cue-selection distribution,
+  replay tempo and presentation channels.
+- Evidence: [Simon decomposition](../games/s-z/simon.md).
+- Novelty: not assessed.
+
+## SYS-108 — Ordered-response first-mismatch adjudication
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the system compares each response input with the cue at the same
+  ordinal position, advances only while they match, recognises a completed
+  exact sequence as one successful round, and terminates the attempt on the
+  first mismatch.
+- Includes: Simon accepting an exact prefix reproduction, increasing the score
+  after its final cue, or sounding failure and ending after one wrong pad.
+- Excludes: aggregate similarity scoring; edit-before-submit hypotheses;
+  accepting a permutation; revealing the remaining answer after an error.
+- Parameters: comparison timing, mismatch feedback, round-completion scoring,
+  termination policy and whether incomplete input times out.
+- Evidence: [Simon decomposition](../games/s-z/simon.md).
+- Novelty: not assessed.
+
+## SYS-109 — Simultaneous closed-neighbourhood binary toggle
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after one addressed-cell press, the system atomically inverts
+  the binary state of the selected cell and every existing position directly
+  adjacent to it in the declared neighbourhood, leaving all other positions
+  unchanged.
+- Includes: a Lights Out button toggling itself plus its orthogonal neighbours,
+  with border and corner presses affecting only neighbours inside the field.
+- Excludes: toggling only the selected cell; recolouring a maximal connected
+  component; activating linked mechanisms that may be spatially remote;
+  revealing concealed contents.
+- Parameters: neighbourhood topology, boundary clipping, state vocabulary,
+  atomicity, no-op policy and resolution feedback.
+- Evidence: [Lights Out decomposition](../games/g-l/lights-out.md).
+- Novelty: not assessed.
+
+## SYS-110 — Straight-line travel until declared stop condition
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a direction is committed, the system advances one
+  designated body through successive cells on that unchanged straight heading
+  until a declared stopping surface is entered or the next cell is blocked.
+- Includes: Inertia's ball continuing through blank, gem and mine cells until
+  it enters a stop square, or settling immediately before a wall or board edge.
+- Excludes: maximum compression of every movable board element; physics-based
+  momentum; pathfinding around obstacles; player steering during travel;
+  movement that stops on every collectible.
+- Parameters: direction set, stop surfaces, blocking surfaces, diagonal-gap
+  policy, traversal speed and intermediate-contact ordering.
+- Evidence: [Inertia decomposition](../games/g-l/inertia.md).
+- Novelty: not assessed.
+
+## SYS-111 — Wall-bounded orthogonal illumination propagation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: each selected source deterministically activates its own cell
+  and every traversable cell on four orthogonal rays up to, but not through,
+  the first blocking cell or field boundary.
+- Includes: a Light Up bulb illuminating its own white square and unobstructed
+  white squares in its row and column until a black square.
+- Excludes: hidden ray probing; diagonal propagation; player-drawn paths;
+  illumination that turns a corner; flood fill through connected cells.
+- Parameters: ray directions, source inclusion, traversable cells, blockers,
+  range and overlap presentation.
+- Evidence: [Light Up decomposition](../games/g-l/light-up.md).
+- Novelty: not assessed.
+
+## SYS-112 — Compatible fixture activation exposes dependent mechanism state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after the player completes an accepted trigger or compatible
+  item–fixture operation, the system persistently opens or reveals its authored
+  downstream compartment, item, mechanism assembly or final latch.
+- Includes: The Room exposing the peculiar key, metal plate, eyepiece lens and
+  front rings after their respective accepted operations, then unlatching the
+  safe after all three rings match the hidden trace; Machinarium exposing the
+  torso and resolving the prepared pole-and-rig operation into arm recovery.
+- Excludes: revealing random loot; opening a barrier only while a pressure plate
+  remains occupied; merely animating a directly dragged component; validating
+  a complete abstract answer with no persistent mechanism state.
+- Parameters: activation predicate, revealed state, persistence, reward item,
+  animation lockout, repeat policy and reset boundary.
+- Evidence: [The Room decomposition](../games/s-z/the-room.md) and
+  [Machinarium decomposition](../games/m-r/machinarium.md).
+- Novelty: not assessed.
+
+## SYS-113 — Requested item hand-in grants capability component
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after the player gives the currently requested compatible item
+  to an addressed character, the system consumes that item and persistently
+  grants or attaches one authored component that enables a new avatar
+  capability.
+- Includes: Machinarium's small scrapyard robot accepting the doll and returning
+  Josef's missing leg, after which Josef can walk through the scene.
+- Excludes: deterministic fixture activation; buying a statistical upgrade with
+  abstract currency; dialogue that changes no mechanical state; random loot
+  after defeating an opponent.
+- Parameters: recipient, accepted request item, consumed input, granted
+  component, enabled capability, persistence and repeat policy.
+- Evidence: [Machinarium decomposition](../games/m-r/machinarium.md).
+- Novelty: not assessed.
+
+## SYS-114 — Transient constituent decay invalidates composite use
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after the player prepares one temporary material state and may
+  incorporate that object into a held composite, the system continuously
+  advances the state toward expiry; expiry removes the composite's required
+  function while leaving a declared retry path.
+- Includes: The Longest Journey's unpatched inflated ducky losing air while it
+  holds the fishing instrument's clamp open, after which the clamp closes and
+  the constituent assembly must be prepared again.
+- Excludes: a permanent held-item configuration; consumption only when a tool
+  is successfully used; a visual animation with no compatibility consequence;
+  a countdown that merely changes score.
+- Parameters: transient state, decay clock, composite propagation, expiry
+  effect, constituent recovery, pause behaviour and retry boundary.
+- Evidence: [The Longest Journey decomposition](../games/s-z/the-longest-journey.md).
+- Novelty: not assessed.
+
+## SYS-115 — Recipient accumulates typed hand-ins and constructs fixed output
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: one addressed recipient persistently retains each accepted
+  distinct item from a disclosed required set and, exactly when that set becomes
+  complete, automatically replaces the accumulated inputs with one authored
+  constructed scene object.
+- Includes: Red Edison accepting oil, vinegar and a gold-plated quill in any
+  order, then building Day of the Tentacle's uncharged super-battery and
+  placing it on the shelf.
+- Excludes: the player directly combining inventory items; one hand-in granting
+  an avatar component; random reward selection; a recipient that only tracks a
+  numeric currency total; incomplete-set progress with no constructed output.
+- Parameters: recipient, accepted typed set, partial persistence, order freedom,
+  duplicate policy, transformation trigger, output identity and output location.
+- Evidence: [Day of the Tentacle decomposition](../games/a-f/day-of-the-tentacle.md).
+- Novelty: not assessed.
+
+## SYS-116 — Persistent typed-slot contribution completes collection group
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: each accepted typed inventory contribution is consumed and
+  retained as a filled requirement; when the collection's declared slot quota
+  is filled, the system persistently marks that group complete and exposes its
+  authored group reward.
+- Includes: Stardew Valley retaining Boiler Room bundle donations across visits
+  and completing the Blacksmith's, Geologist's or Adventurer's Bundle after its
+  respective three, four or two accepted slots.
+- Excludes: one recipient constructing an output from a complete exact set;
+  direct item crafting; a reversible inventory transfer; a score counter whose
+  past increments have no typed slot identity.
+- Parameters: collection identity, slot schema, contribution persistence,
+  completion quota, consumed quantities, group reward and repeat policy.
+- Evidence: [Stardew Valley decomposition](../games/s-z/stardew-valley.md).
+- Novelty: not assessed.
+
+## SYS-117 — Aggregate collection completion schedules world-service restoration
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: once every required subordinate collection group is persistently
+  complete, the system marks their enclosing area complete and schedules one
+  authored persistent world service to become available at the next declared
+  progression boundary.
+- Includes: completing all three standard Stardew Valley Boiler Room bundles,
+  after which Junimos repair the minecarts overnight and enable their four-stop
+  fast-travel service on the following day.
+- Excludes: an immediate inventory-item reward for one group; a directly built
+  held tool; temporary access while an input remains present; purchasing an
+  upgrade with one scalar currency payment.
+- Parameters: subordinate group set, aggregate predicate, completion marker,
+  scheduled boundary, restored service, persistence and alternate route.
+- Evidence: [Stardew Valley decomposition](../games/s-z/stardew-valley.md).
+- Novelty: not assessed.
+
+## SYS-118 — Persistent collectible identity populates addressed arranger
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: contact-crediting one authored collectible persistently records
+  its distinct rigid footprint and makes exactly that identity available in a
+  separately addressed finite arranger whose requirement roster includes it.
+- Includes: The Talos Principle crediting each green A1 `L`, `J` or `Z` sigil,
+  marking its source progress and exposing that exact piece in the first gate's
+  tetromino arranger.
+- Excludes: adding fungible currency; automatically opening an exit on the last
+  collection; contributing an inventory quantity into a fixed semantic slot;
+  generating a random construction piece.
+- Parameters: collectible identity, footprint, colour, source marker, arranger
+  address, persistence, duplicate policy and cross-gate reuse.
+- Evidence: [The Talos Principle decomposition](../games/s-z/the-talos-principle.md).
+- Novelty: not assessed.
+
+## SYS-119 — Gapless arranger completion immediately opens persistent gate
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when every cell of one bounded arranger is occupied by exactly
+  one required footprint and every required piece has been used, the system
+  accepts the arrangement and permanently opens its linked traversal barrier
+  before the next world-navigation decision.
+- Includes: the first The Talos Principle A1 gate opening immediately after the
+  green `L`, `J` and `Z` form a gapless non-overlapping 4 × 3 cover.
+- Excludes: automatic exit activation on collecting the last token; delayed
+  world repair; temporary door state sustained by occupancy; accepting a typed
+  target image whose cells may be overwritten.
+- Parameters: completion predicate, linked barrier, activation timing,
+  persistence, animation interval and behaviour after reopening the arranger.
+- Evidence: [The Talos Principle decomposition](../games/s-z/the-talos-principle.md).
+- Novelty: not assessed.
+
+## SYS-120 — View-relative front-layer collision rewrites traversal adjacency
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a cardinal orthographic view settles, the system resolves
+  collision front-to-back in screen space, keeps the nearest eligible solid
+  layer active and corrects avatar depth onto visible support; the resulting
+  two-dimensional collision slice may connect world positions that were not
+  adjacent in the prior view while their underlying geometry remains fixed.
+- Includes: Fez rebuilding active trile collision after rotation so Gomez can
+  walk across a projection-aligned continuation that another view separates or
+  occludes.
+- Excludes: moving platforms into new world coordinates; creating or deleting
+  geometry from an image; mapping a body through paired portals; cosmetic
+  parallax that never changes legal movement.
+- Parameters: projection axis, frontmost-layer rule, collision type, depth
+  correction, occlusion exceptions, moving-object invalidation and settle time.
+- Evidence: [Fez decomposition](../games/a-f/fez.md).
+- Novelty: not assessed.
+
+## SYS-121 — Live screen projection governs traversal topology
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while the underlying route geometry remains fixed, the system
+  projects it into the current screen frame and treats apparent path contact or
+  an occluded discontinuity as authoritative traversal connectivity for an
+  agent moving through that projection.
+- Includes: Echochrome transferring the Walker between world-separated path
+  endpoints that coincide on screen and allowing it across a gap hidden behind
+  a nearer route element.
+- Excludes: selecting only the nearest solid depth layer; physically moving a
+  platform; creating or deleting geometry; paired portal traversal; visual
+  overlap that never changes collision or route continuation.
+- Parameters: projection model, coincidence tolerance, eligible endpoint
+  classes, occluder depth, discontinuity types, update cadence and invalidation
+  timing while the camera moves.
+- Evidence: [Echochrome decomposition](../games/a-f/echochrome.md).
+- Novelty: not assessed.
+
+## SYS-122 — Snap-state projected-node connectivity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a manipulated architectural component reaches one authored
+  settled pose, the system rebuilds its navigation graph by testing visible
+  projected node relationships, allowing world-depth-separated route points
+  that appear continuous to become connected until the component moves again.
+- Includes: Monument Valley connecting the two ends of its Chapter I rotating
+  bridge to fixed approach and goal-side nodes only in the aligned snap state.
+- Excludes: continuous free-camera topology; four global cardinal collision
+  slices; ordinary physical adjacency alone; image-stamped replacement
+  geometry; cosmetic alignment with no traversal effect.
+- Parameters: component pose set, snap tolerance, projection model, node depth
+  ordering, occlusion rule, eligible node types and graph rebuild timing.
+- Evidence: [Monument Valley decomposition](../games/m-r/monument-valley.md).
+- Novelty: not assessed.
+
+## SYS-123 — Destination-commanded route traversal
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after the player selects a reachable world node, the system
+  computes a route through the current navigation graph and advances the
+  player-controlled avatar along its intervening nodes to the destination
+  without requiring step-by-step direction inputs.
+- Includes: Ida automatically walking across Monument Valley's settled Chapter
+  I bridge and approach path after the player selects the final pedestal.
+- Excludes: continuously autonomous walking with no destination command;
+  teleportation; direct local steering; a vehicle following a player-drawn
+  network; fixed straight-line motion that ignores a route graph.
+- Parameters: pathfinder, route tie-break, traversal speed, interruption,
+  invalidation during geometry motion, arrival trigger and animation timing.
+- Evidence: [Monument Valley decomposition](../games/m-r/monument-valley.md).
+- Novelty: not assessed.
+
+## SYS-124 — Perspective-preserving collision-bounded object rescaling
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while a portable object is held, the system continually places
+  it at the farthest collision-free depth along the current camera sightline
+  and changes its physical world scale in direct proportion to depth so its
+  projected screen extent stays constant; release commits that physical pose
+  and scale to ordinary world simulation.
+- Includes: Superliminal moving a held Induction chess piece toward the
+  opposite background, enlarging it as its camera distance grows, and retaining
+  the enlarged collidable piece after it is dropped.
+- Excludes: camera zoom; scaling only a rendered sprite; image-stamped
+  replacement geometry; a global world-scale change; changing scale through a
+  fixed portal; freely choosing a numeric object size without a sightline.
+- Parameters: pickup projection, camera model, candidate sightline, ray-sample
+  density, collision clearance, scale-to-depth ratio, supported object shapes,
+  minimum and maximum scale, update cadence and release physics.
+- Evidence: [Superliminal decomposition](../games/s-z/superliminal.md).
+- Novelty: not assessed.
+
+## SYS-125 — Selected-surface global gravity-frame reorientation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after the player selects an eligible orthogonal surface, the
+  system snaps the local world's gravity vector to that surface's inward normal
+  and resolves unsupported eligible bodies toward the newly authoritative
+  floor while retaining the same physical architecture.
+- Includes: Manifold Garden changing from blue floor gravity to the red ceiling
+  or a coloured wall gravity so the chosen surface becomes walkable ground.
+- Excludes: rotating only the camera; replacing collision with a screen-space
+  slice; reorienting velocity only at a portal exit; reversing one body's
+  gravity while the world frame stays fixed; visual world rotation with no
+  physical force change.
+- Parameters: direction domain, affected body classes, transition curve,
+  velocity preservation, grounded-state reset, collision recovery and colour
+  state.
+- Evidence: [Manifold Garden decomposition](../games/m-r/manifold-garden.md).
+- Novelty: not assessed.
+
+## SYS-126 — Translationally periodic 3D boundary remapping
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when an eligible dynamic body crosses an authored boundary of a
+  three-dimensional repeating world cell, the system translates it by the
+  corresponding whole-cell period into the opposite copy while preserving its
+  local pose and useful frame-relative trajectory.
+- Includes: a Manifold Garden avatar or cube falling through the bottom of the
+  central world instance and returning from the corresponding top copy, so a
+  lower repeated balcony becomes a reachable landing.
+- Excludes: paired placed apertures; a finite board edge whose adjacency wraps
+  only logical cells; respawning at a checkpoint; reflection or rotation across
+  the seam; visual instancing with no traversable boundary mapping.
+- Parameters: period vectors, eligible bodies, boundary threshold, local-pose
+  mapping, velocity transform, collision recovery, camera smoothing and
+  repeated-instance visibility.
+- Evidence: [Manifold Garden decomposition](../games/m-r/manifold-garden.md).
+- Novelty: not assessed.
+
+## SYS-127 — Recursive homologous-instance state propagation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: one authoritative world-object pose is exposed through multiple
+  scale-transformed representations in recursively nested world instances, and
+  manipulating any reachable representation updates every homologous
+  representation rather than creating an independently mutable copy.
+- Includes: moving Maquette's red block in the central model to clear the
+  corresponding normal courtyard gate, or aligning the golden key in the model
+  so its larger representation spans the surrounding gap.
+- Excludes: visual miniatures with no causal effect; independent clones; a
+  periodic body translated into another same-scale cell; changing a container's
+  parent in a mutable nested graph; mirroring only an animation.
+- Parameters: recursion depth, scale ratio, authoritative identity map, pose
+  transform, propagation latency, collision ownership and representation
+  culling.
+- Evidence: [Maquette decomposition](../games/m-r/maquette.md).
+- Novelty: not assessed.
+
+## SYS-128 — Cross-layer carried-object scale reindexing
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when the player carries one reachable recursive object
+  representation across an adjacent nested-world boundary, the system retains
+  its identity and canonical state but shifts which scale exponent is ordinary
+  relative to the avatar, making the object physically smaller or larger after
+  release.
+- Includes: Maquette turning the same golden key into a giant traversable
+  bridge, a tiny house key and then a bridge again by carrying it between the
+  central model and surrounding courtyard.
+- Excludes: deriving scale from camera depth; global camera zoom; teleporting a
+  fixed-size body through a portal; spawning a separate small copy; changing
+  only visual size while collision stays fixed.
+- Parameters: adjacent-layer rule, scale ratio, identity persistence, held-pose
+  transform, collision handoff, minimum and maximum exponent and release
+  correction.
+- Evidence: [Maquette decomposition](../games/m-r/maquette.md).
+- Novelty: not assessed.
+
+## SYS-129 — Observation-gated authored doorway destination remapping
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after an authored trigger is armed and its affected doorway or
+  connected region is no longer observed, the system replaces that doorway's
+  destination with another fixed room in the authored navigation graph while
+  retaining the same local threshold geometry.
+- Includes: Antichamber's `Now You See It` doorway continuing to its original
+  room while watched, then leading to the changed room after the player takes
+  the blue cube and looks through the glass window.
+- Excludes: traversing a visible paired portal; translating a body across a
+  periodic boundary; propagating one pose across recursive scale instances;
+  rotating fixed geometry into a projected connection; procedural room
+  generation or cosmetic set dressing.
+- Parameters: trigger state, observed region, eligible destination set,
+  replacement timing, threshold identity, persistence and reset behaviour.
+- Evidence: [Antichamber decomposition](../games/a-f/antichamber.md).
+- Novelty: not assessed.
+
+## SYS-130 — Continuous constant-negative-curvature pose integration
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: every locomotion and view update composes the controllable
+  body's pose through isometries of one constant-negative-curvature metric, so
+  path distance, direction and accumulated orientation follow hyperbolic
+  rather than Euclidean translation throughout ordinary traversal.
+- Includes: walking through Hyperbolica's Maze of Apeirogon while local steps
+  remain continuous but surrounding volume grows exponentially and composed
+  translations can produce unexpected orientation.
+- Excludes: teleporting between authored rooms; wrapping one Euclidean cell
+  periodically; changing only camera projection; paired apertures; a discrete
+  hyperbolic adjacency graph with no continuous avatar pose.
+- Parameters: curvature magnitude, internal geometry model, translation step,
+  rotation representation, numerical renormalisation, collision metric,
+  camera coupling and comfort options.
+- Evidence: [Hyperbolica decomposition](../games/g-l/hyperbolica.md).
+- Novelty: not assessed.
+
+## SYS-131 — Shortest-route hostile step after a player turn
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after one turn-costing player command resolves, each eligible
+  hostile automatically takes one cell step chosen to reduce its current
+  shortest-path distance to the player's new cell before the next command.
+- Includes: standard turn-based HyperRogue pursuers responding after an
+  adjacent player move and following a shortest available route.
+- Excludes: hostile intents committed before a planning phase; continuous
+  steering; an opposing human selecting the response; a full multi-cell path
+  resolved at once; mere cooldown advancement.
+- Parameters: hostile order, simultaneous-contact policy, tie breaking,
+  blocked cells, attack substitution, zero-time player actions and terminal
+  check timing.
+- Evidence: [HyperRogue decomposition](../games/g-l/hyperrogue.md).
+- Novelty: not assessed.
+
+## SYS-132 — Rule-conditioned bomb-module adjudication
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a live module control is committed, the system compares it
+  with the unique action selected by the module's current observable state and
+  ordered rule procedure, then either permanently disarms that module or
+  records one strike before accepting further play.
+- Includes: accepting the one correct Wires cut; accepting the Button's
+  required tap or correctly timed held release; striking any other committed
+  control.
+- Excludes: evaluating a complete concealed sequence hypothesis; accepting a
+  freely revisable tentative value; the human communication used to derive the
+  instruction; countdown progression by itself.
+- Parameters: module state, applicable rule branch, accepted gesture, disarm
+  indicator, strike response and post-adjudication input lock.
+- Evidence: [Keep Talking and Nobody Explodes decomposition](../games/g-l/keep-talking-and-nobody-explodes.md).
+- Novelty: not assessed.
+
+## SYS-133 — Strike-triggered countdown acceleration
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: each accepted mistake increments the persistent strike state and
+  immediately increases the rate at which the same terminal countdown loses
+  time, so an error reduces both the remaining strike allowance and the real
+  time available for later decisions.
+- Includes: the Keep Talking and Nobody Explodes timer running faster after a
+  recorded first or second strike.
+- Excludes: subtracting a fixed score; consuming one move without changing
+  clock rate; difficulty increasing only between completed stages; terminal
+  expiry at zero without an error-dependent rate change.
+- Parameters: strike count, rate multiplier per strike, update instant, audio
+  feedback and reset scope.
+- Evidence: [Keep Talking and Nobody Explodes decomposition](../games/g-l/keep-talking-and-nobody-explodes.md).
+- Novelty: not assessed.
+
+## SYS-134 — Validate and canonicalise complete glyph page
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when every illustrated slot on one bounded notebook page has a
+  distinct discovered glyph, the system evaluates the complete mapping as one
+  submission; a correct mapping replaces provisional glosses with persistent
+  canonical meanings, while an incorrect mapping remains revisable.
+- Includes: the forced first three-glyph validation page in Chants of Sennaar.
+- Excludes: validating one typed gloss independently; checking a sentence one
+  token at a time; scoring a partial mapping; human confirmation outside play.
+- Parameters: page size, canonical bijection, submission trigger, incorrect
+  feedback, lock persistence and later-display replacement.
+- Evidence: [Chants of Sennaar decomposition](../games/a-f/chants-of-sennaar.md).
+- Novelty: not assessed.
+
+## SYS-135 — Live revalidation of every revealed answer predicate
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after every edit to one persistent answer, the system
+  immediately reevaluates every predicate revealed so far against the complete
+  current answer, allowing an earlier passing predicate to become failing.
+- Includes: The Password Game continuously rechecking Rules 1-9 after any
+  character insertion or deletion.
+- Excludes: validating only on submission; checking only the most recently
+  revealed rule; preserving a passed rule regardless of later edits; checking
+  independent board cells without a shared answer.
+- Parameters: evaluation order, update debounce, formatting semantics,
+  simultaneous failures and feedback timing.
+- Evidence: [The Password Game decomposition](../games/s-z/the-password-game.md).
+- Novelty: not assessed.
+
+## SYS-136 — All-valid state reveals the next authored rule
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: whenever every rule currently revealed for one answer passes,
+  the system permanently adds the next rule in a fixed authored sequence and
+  evaluates it against that same answer.
+- Includes: The Password Game revealing Rules 2 through 10 one at a time as
+  the current password satisfies the preceding visible set.
+- Excludes: displaying the full rule set before play; choosing a random next
+  rule; replacing the previous rule; unlocking an unrelated level after a
+  submitted answer.
+- Parameters: authored order, initial rule count, terminal rule, reveal
+  animation and whether multiple already-satisfied rules cascade.
+- Evidence: [The Password Game decomposition](../games/s-z/the-password-game.md).
+- Novelty: not assessed.
+
+## SYS-137 — Adjudicate a selected fact pair as matching, discrepant or unrelated
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after two visible case facts are selected, the system resolves
+  their authored semantic relation as matching data, a formal discrepancy or
+  no correlation, and exposes any discrepancy-dependent follow-up action.
+- Includes: Papers, Please inspection mode detecting a missing entry permit
+  from the empty counter plus the current rule and enabling interrogation.
+- Excludes: the player noticing an inconsistency without invoking the check;
+  adjudicating the final case verdict; live validation of every predicate in
+  one answer; numeric similarity scoring.
+- Parameters: relation catalogue, fact typing, asymmetric pairs, feedback,
+  interrogation unlock and discrepancy-clearance policy.
+- Evidence: [Papers, Please decomposition](../games/m-r/papers-please.md).
+- Novelty: not assessed.
+
+## SYS-138 — Audit committed case verdict against the complete active policy
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: once a case leaves after a committed verdict, the system checks
+  that verdict against every currently active admissibility predicate for the
+  complete case and issues delayed error feedback when any required condition
+  was ignored or the valid case was rejected.
+- Includes: Papers, Please issuing a citation after an incorrect approval or
+  denial while accepting a correct Day 4 decision without one.
+- Excludes: checking only the two facts explicitly highlighted; immediate
+  truth feedback for one board cell; player-authored review; punishment for a
+  slow but correct case.
+- Parameters: policy snapshot, case truth, verdict set, feedback delay,
+  citation allowance, monetary penalty and special scripted exceptions.
+- Evidence: [Papers, Please decomposition](../games/m-r/papers-please.md).
+- Novelty: not assessed.
+
+## SYS-139 — Recognise buffered directional code and open addressed seal
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an addressed world seal buffers successive cardinal commands,
+  compares their ordered identity with its authored code and permanently opens
+  only when the complete exact sequence has been recognised.
+- Includes: TUNIC's fountain-area patterned door opening after the six-command
+  Holy Cross code.
+- Excludes: consuming a carried key; validating a freely editable text string;
+  moving a character through the same directions; opening after a partial code.
+- Parameters: authored code, buffer policy, mismatch recovery, persistence,
+  animation and whether the player can know the code before collecting its clue.
+- Evidence: [TUNIC decomposition](../games/s-z/tunic.md).
+- Novelty: not assessed.
+
+## SYS-140 — Reset embodied world state while preserving learned facts
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: at a repeating-loop boundary, the system restores the controlled
+  body and mutable world to one authored origin while transferring the paired
+  player's registered learned facts into the next iteration.
+- Includes: Outer Wilds returning the Hatchling to the Timber Hearth campfire
+  after death or the supernova while retaining the learned launch codes.
+- Excludes: rewinding only recent motion; preserving inventory and opened world
+  mechanisms; restarting from a save with no cross-attempt information state.
+- Parameters: reset trigger, origin state, retained fact classes, cleared state
+  classes, pairing prerequisite and loop counter.
+- Evidence: [Outer Wilds decomposition](../games/m-r/outer-wilds.md).
+- Novelty: not assessed.
+
+## SYS-141 — Authorise mechanism from registered learned fact
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an addressed world mechanism accepts activation when one exact
+  fact is registered as learned for the player, without consuming a carried
+  token or requiring that fact to be reacquired in the current world iteration.
+- Includes: Outer Wilds' launch-tower lift accepting the retained launch codes
+  on a later loop without another visit to Hornfels.
+- Excludes: manually entering a symbol sequence; consuming a physical key;
+  opening from an unrelated story flag; a mechanism available from the start.
+- Parameters: learned-fact identifier, mechanism identity, activation gesture,
+  consumption policy, iteration scope and unavailable feedback.
+- Evidence: [Outer Wilds decomposition](../games/m-r/outer-wilds.md).
+- Novelty: not assessed.
+
+## SYS-142 — Retrieve transcript-matching records in fixed chronological order
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after a text query is committed, the system identifies every
+  fixed evidence record whose indexed transcript satisfies the query and gives
+  those matches the same authored chronological order on every repetition.
+- Includes: Her Story matching submitted words against interview answers and
+  ordering qualifying clips by their fixed recording timestamps.
+- Excludes: semantic web search over changing documents; random result rotation;
+  player-authored sorting; checking whether one persistent answer is valid.
+- Parameters: tokenisation, case handling, phrase semantics, transcript field,
+  timestamp key, tie breaking, total-count disclosure and empty-result feedback.
+- Evidence: [Her Story decomposition](../games/g-l/her-story.md).
+- Novelty: not assessed.
+
+## SYS-143 — Transfer controlled avatar across paired panel ports
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when a directly controlled avatar enters one endpoint of a
+  player-created panel link, the system transfers it to the paired endpoint and
+  resumes local traversal inside that destination panel.
+- Includes: The Pedestrian walking through a linked door or climbing through a
+  linked ladder endpoint to emerge in another public-sign panel.
+- Excludes: automatic pathfinding across the whole graph; visual composition
+  that advances an uncontrolled depicted figure; velocity-transforming portals;
+  moving a world region so its physical boundary becomes adjacent.
+- Parameters: entry gesture, transfer direction, emergence pose, animation,
+  carried-object policy, collision state and link-removal response.
+- Evidence: [The Pedestrian decomposition](../games/s-z/the-pedestrian.md).
+- Novelty: not assessed.
+
+## SYS-144 — Resolve mounted world orb as reversible contained-world entry
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when one world orb is mounted at an eligible jump pedestal, the
+  system exposes that orb's persistent contained world as a local entry surface
+  and transfers the directly controlled avatar between the outer pedestal and
+  the world's fixed arrival point while the orb retains one identity outside.
+- Includes: Cocoon projecting the orange orb's world in the pedestal pool,
+  letting the avatar enter it and returning the avatar to the same mounted orb.
+- Excludes: crossing an aligned edge of a grid container; traversing a freely
+  placed paired aperture; changing a movable container's parent relation;
+  replacing the orb with a newly generated world after every entry.
+- Parameters: orb identity, outer pedestal, inner arrival point, entry gesture,
+  transfer animation, exit mapping, carried-object policy and persistence.
+- Evidence: [Cocoon decomposition](../games/a-f/cocoon.md).
+- Novelty: not assessed.
+
+## SYS-145 — Manifest orb-specific traversal structure from carried ability
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while the avatar carries one unlocked world orb through a
+  compatible authored locus, the system instantiates that orb's declared
+  traversal structure and removes or disables it when the carried ability is no
+  longer available.
+- Includes: Cocoon's unlocked orange orb revealing and supporting an otherwise
+  absent bridge while the avatar carries it near the matching route.
+- Excludes: toggling a permanent switch; constructing a bridge from consumed
+  pieces; displaying a cosmetic highlight; granting the effect while the orb
+  remains mounted or abandoned elsewhere.
+- Parameters: orb identity, unlock flag, receptive-locus class, activation
+  radius, structure geometry, persistence, fade timing and collision handoff.
+- Evidence: [Cocoon decomposition](../games/a-f/cocoon.md).
 - Novelty: not assessed.

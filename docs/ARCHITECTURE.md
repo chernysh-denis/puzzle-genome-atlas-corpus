@@ -23,9 +23,25 @@ These definitions are normative throughout the repository.
   least two types. Its gene set must be a proper subset of every supporting
   game's genome signature. A combination captures a reusable decision
   structure; it is not another name for a game or its full genome.
+- A **mechanical profile** is a short game-specific description used for
+  catalogue scanning. It is not a reusable taxonomic class.
+- A **mechanical family** is a controlled, many-to-many grouping of games that
+  share a broad causal structure. A game may belong to several families, and a
+  family must be supported by at least two independently analysed games. The
+  registry and its boundary rules live in
+  [`knowledge/families/`](../knowledge/families/README.md).
+- **Gene salience** is a reviewed, game-scoped presentation partition of the
+  complete genome into defining, structural and supporting roles. It explains
+  mechanical emphasis but never removes genes, assigns numeric weights or
+  changes the canonical comparison formula. The pilot registry lives in
+  [`knowledge/salience/`](../knowledge/salience/README.md).
+- **Plain-language gene copy** is a reviewed, game-scoped explanation and
+  concrete example shown above the unchanged canonical ID and label. The pilot
+  lives in [`knowledge/plain-language/`](../knowledge/plain-language/README.md)
+  and never changes taxonomy or similarity.
 
-Presentation, theme, platform, family labels and release metadata are outside
-the genome signature.
+Presentation, theme, platform, mechanical profiles, family memberships, gene
+salience, plain-language copy and release metadata are outside the genome signature.
 
 ## Genome signature
 
@@ -141,7 +157,10 @@ duplication.
 
 `scripts/generate_indexes.py` deterministically derives the game index,
 combination index and marked completed-game catalogue blocks from canonical
-records plus the short family-label manifest. Its `--check` mode detects drift.
+records plus the short mechanical-profile manifest. Its `--check` mode detects
+drift. `scripts/validate_repository.py` separately checks the reusable family
+registry, including stable IDs, bilingual definitions, known game references,
+minimum two-game support and complete game coverage.
 [`ADR-002`](architecture-decisions/ADR-002-generated-derived-indexes.md)
 defines ownership and generated-file boundaries.
 

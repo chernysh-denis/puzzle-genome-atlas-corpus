@@ -160,9 +160,11 @@ gene_ids:
   unreachable without undo / restart.
 - `CON-061` — terminal payload boundary escape. Moving the required sausage
   beyond supported terrain into water immediately fails the attempt.
-- `CON-090` — oriented player-tool footprint clearance. The player and attached
+- `CON-090` — oriented agent-plus-body sweep clearance. The player and attached
   fork occupy two ordered adjacent cells; translation preserves facing and a
-  turn is legal only when the whole two-by-two sweep is free.
+  turn is legal only when the whole two-by-two sweep is free. Permanent
+  attachment is a coupling parameter shared with a reversibly carried occupied
+  body, not a separate clearance rule.
 - `CON-091` — exact-once surface heat capacity. Each of four identified sausage
   faces may contact a grill once; a second cook is terminal rather than merely
   inefficient.

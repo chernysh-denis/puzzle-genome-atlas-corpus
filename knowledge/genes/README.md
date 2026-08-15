@@ -63,7 +63,6 @@ not receive a System Behaviour gene merely to make its signature symmetrical.
 - [Information Genes](information.md)
 - [Objective Genes](objectives.md)
 - [Time Genes](time.md)
-- [Candidate terms inherited from the original taxonomy](CANDIDATE_TERMS.md)
 
 ## Lifecycle
 

@@ -10,7 +10,7 @@ gene_ids:
   action:
     - ACT-008
     - ACT-054
-    - ACT-055
+    - ACT-052
   system:
     - SYS-036
     - SYS-037
@@ -115,13 +115,12 @@ gene_ids:
   jumping originate from live player input at the current control locus.
 - `ACT-054` — instantiate body at aimed reachable position. The active body
   aims the device and creates a clone directly at a legal unobstructed point.
-- `ACT-055` — transfer direct-control locus to targeted body. A valid swap
+- `ACT-052` — transfer direct control among persistent bodies. A valid swap
   makes the chosen clone active while leaving the former body in the shared
   synchronized set.
-- `ACT-052` is absent: Pikmin 4 switches follower-command authority among
-  distinct persistent field leaders. The Swapper transfers one exclusive
-  device locus among otherwise identical bodies and changes the old body into
-  an ordinary synchronized member.
+- The clone target, shared-input former-body behaviour and device authority are
+  parameters that distinguish this use from Pikmin 4's leader-and-squad switch;
+  the player command still transfers one persistent direct-control locus.
 - Claim IDs: `SWP-001`–`SWP-006`, `SWP-013`.
 
 ### System Behaviour Genes
@@ -301,7 +300,7 @@ gene_ids:
 
 | Type | Active gene IDs | Candidate genes or parameters |
 |---|---|---|
-| Action | `ACT-008`, `ACT-054`, `ACT-055` | navigation, aimed body creation and locus transfer |
+| Action | `ACT-008`, `ACT-052`, `ACT-054` | navigation, aimed body creation and locus transfer |
 | System Behaviour | `SYS-036`, `SYS-037`, `SYS-061`, `SYS-071`, `SYS-072` | physics, orb contact, plates, local divergence and clone recovery |
 | Constraint | `CON-031`, `CON-083`, `CON-084`, `CON-085`, `CON-086` | shared input, cap, line of sight, fields and active-body authority |
 | Information | `INF-001` | visible deterministic room state |
@@ -310,7 +309,7 @@ gene_ids:
 
 Canonical signature:
 
-`ACT-008,ACT-054,ACT-055; SYS-036,SYS-037,SYS-061,SYS-071,SYS-072; CON-031,CON-083,CON-084,CON-085,CON-086; INF-001; OBJ-025; TIM-003`
+`ACT-008,ACT-052,ACT-054; SYS-036,SYS-037,SYS-061,SYS-071,SYS-072; CON-031,CON-083,CON-084,CON-085,CON-086; INF-001; OBJ-025; TIM-003`
 
 ## Corpus comparison
 
@@ -336,7 +335,7 @@ Canonical signature:
   `GAME-0029` `3 / 25 = 0.120000`; `GAME-0030` `3 / 27 = 0.111111`;
   `GAME-0031` `1 / 26 = 0.038462`; `GAME-0032` `1 / 26 = 0.038462`;
   `GAME-0033` `5 / 24 = 0.208333`; `GAME-0034` `4 / 26 = 0.153846`;
-  `GAME-0035` `3 / 31 = 0.096774`; `GAME-0036` `2 / 26 = 0.076923`;
+  `GAME-0035` `4 / 30 = 0.133333`; `GAME-0036` `2 / 26 = 0.076923`;
   `GAME-0037` `1 / 24 = 0.041667`.
 - Mathematical near match: `GAME-0033` — Portal at
   `5 / 24 = 0.208333`, sharing avatar navigation, continuous physics,
@@ -355,7 +354,9 @@ Canonical signature:
 
 ## Taxonomy impact
 
-- Registry changes: nine stable genes added: `ACT-054`, `ACT-055`, `SYS-071`,
+- Registry changes originally added nine stable genes including `ACT-054` and
+  `ACT-055`; normalisation 004 later merged `ACT-055` into `ACT-052`. The
+  remaining additions are `SYS-071`,
   `SYS-072`, `CON-083`–`CON-086` and `OBJ-025`.
 - Seven genes are reused unchanged in classification: `ACT-008`, `SYS-036`,
   `SYS-037`, `SYS-061`, `CON-031`, `INF-001` and `TIM-003`.
@@ -366,8 +367,8 @@ Canonical signature:
 
 ## Negative results
 
-- `ACT-052` is rejected because this is a transferable unique locus among
-  identical synchronized bodies, not switching persistent typed field leaders.
+- The earlier `ACT-052` rejection was superseded by normalisation 004: body
+  class and follower coupling are parameters of one direct-control transfer.
 - `SYS-045` is rejected because clones do not locomote autonomously.
 - `CON-076` is rejected because permissions follow the active locus and light
   regions rather than persistent actor classes.
@@ -406,7 +407,7 @@ Canonical signature:
 
 ## Нові питання
 
-- Can a later game recur `ACT-055` without clone creation, proving that control-
+- Can a later game recur `ACT-052` without clone creation, further testing control-
   locus transfer is independent of instantiation?
 - Does The Witness now offer more information gain than another physics-heavy
   subject after Portal, Braid and The Swapper?

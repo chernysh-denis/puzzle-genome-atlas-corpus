@@ -20,7 +20,7 @@ gene_ids:
     - INF-001
     - INF-024
   objective:
-    - OBJ-028
+    - OBJ-017
   time:
     - TIM-002
 ---
@@ -169,13 +169,12 @@ gene_ids:
 
 ### Objective Genes
 
-- `OBJ-028` — complete exact structured event account. The case is solved by
+- `OBJ-017` — complete exact structured evidence account. The case is solved by
   filling every mandatory Scroll slot so the accepted phrases identify the
   relevant actors, action and location in one exact causal account.
-- `OBJ-017` is absent: the required output is not one record per member of a
-  fixed identity roster and does not require every person's identity plus a
-  compound fate. Correct optional identity and location panels help reasoning
-  but are not conjunctive completion requirements in the tutorial.
+- Event-statement rather than roster topology is a schema parameter. The
+  tutorial does not require every person's identity and fate, but it does
+  require every mandatory field of its declared structured evidence account.
 - `OBJ-006` is absent: the Scroll does not assign values to every position in a
   puzzle instance under interacting declared constraints; it reconstructs one
   accepted event proposition from evidence.
@@ -267,13 +266,13 @@ gene_ids:
 | System Behaviour | `SYS-086` | section-complete trigger and coarse close-answer signal |
 | Constraint | `CON-064`, `CON-093` | immutable event plus finite typed phrase vocabulary |
 | Information | `INF-001`, `INF-024` | inspectable evidence, persistent word bank and scaffold |
-| Objective | `OBJ-028` | exact actor-action-location event account |
+| Objective | `OBJ-017` | exact actor-action-location event account |
 | Time | `TIM-002` | untimed exploration and revision |
 
 Canonical signature:
 
 `ACT-030,ACT-059,ACT-060; SYS-086; CON-064,CON-093; INF-001,INF-024;
-OBJ-028; TIM-002`
+OBJ-017; TIM-002`
 
 ## Corpus comparison
 
@@ -282,8 +281,8 @@ OBJ-028; TIM-002`
 - Exact genome matches: none.
 - Existing combination subsets: none before registering `COMB-0046`.
 - Mathematical near match: `GAME-0023` — Return of the Obra Dinn at
-  `3 / 17 = 0.176471`. The pair shares `ACT-030`, `CON-064` and `TIM-002`;
-  all phrase extraction, answer grammar and validation genes remain distinct.
+  `4 / 16 = 0.250000`. The pair shares `ACT-030`, `CON-064`, `OBJ-017` and
+  `TIM-002`; phrase extraction, answer grammar and validation remain distinct.
 - Secondary maximum group: Rubik's Cube, Sudoku, Nonogram and Carto each score
   `2 / 15 = 0.133333`; their overlap is generic self-paced information or fixed
   structure, not investigation logic.
@@ -299,7 +298,7 @@ OBJ-028; TIM-002`
   `GAME-0017` `0 / 23 = 0.000000`; `GAME-0018` `1 / 28 = 0.035714`;
   `GAME-0019` `1 / 19 = 0.052632`; `GAME-0020` `1 / 23 = 0.043478`;
   `GAME-0021` `1 / 18 = 0.055556`; `GAME-0022` `1 / 21 = 0.047619`;
-  `GAME-0023` `3 / 17 = 0.176471`; `GAME-0024` `1 / 21 = 0.047619`;
+  `GAME-0023` `4 / 16 = 0.250000`; `GAME-0024` `1 / 21 = 0.047619`;
   `GAME-0025` `1 / 20 = 0.050000`; `GAME-0026` `1 / 21 = 0.047619`;
   `GAME-0027` `1 / 21 = 0.047619`; `GAME-0028` `1 / 26 = 0.038462`;
   `GAME-0029` `1 / 21 = 0.047619`; `GAME-0030` `1 / 23 = 0.043478`;
@@ -323,8 +322,9 @@ OBJ-028; TIM-002`
 
 ## Taxonomy impact
 
-- Registry changes: added `ACT-059`, `ACT-060`, `SYS-086`, `CON-093`,
-  `INF-024` and `OBJ-028`; added Golden Idol evidence to `ACT-030`, `CON-064`,
+- Registry changes originally added `ACT-059`, `ACT-060`, `SYS-086`, `CON-093`,
+  `INF-024` and `OBJ-028`; normalisation 004 later merged `OBJ-028` into
+  generalised `OBJ-017`. Added Golden Idol evidence to `ACT-030`, `CON-064`,
   `INF-001` and `TIM-002`.
 - `ACT-030` and `CON-064` gain representation-neutral wording for pointer-
   accessed two-dimensional tableaux as well as navigable three-dimensional
@@ -336,9 +336,9 @@ OBJ-028; TIM-002`
 
 ## Negative results
 
-- Rejected `ACT-031`, `ACT-032`, `SYS-041`, `SYS-042`, `INF-012`, `INF-013`,
-  `OBJ-006` and `OBJ-017` through explicit transition and completion
-  counterexamples.
+- Rejected `ACT-031`, `ACT-032`, `SYS-041`, `SYS-042`, `INF-012`, `INF-013`
+  and `OBJ-006` through explicit transition and completion counterexamples.
+  Normalisation 004 superseded the earlier narrow `OBJ-017` rejection.
 - `COMB-0023` is not a subset and receives no new supporter. The smaller shared
   inspection interaction is recorded separately as `COMB-0046`.
 - No separate negative-result record is needed because the result narrows a
@@ -356,8 +356,9 @@ OBJ-028; TIM-002`
 
 ## Нові гени
 
-- [Observation | Corroborated | High] Added `ACT-059`, `ACT-060`, `SYS-086`,
-  `CON-093`, `INF-024` and `OBJ-028`; reused four prior genes.
+- [Observation | Corroborated | High] Originally added `ACT-059`, `ACT-060`,
+  `SYS-086`, `CON-093`, `INF-024` and `OBJ-028`; normalisation 004 later
+  replaced `OBJ-028` with reused `OBJ-017`.
 
 ## Нові комбінації
 
@@ -366,8 +367,8 @@ OBJ-028; TIM-002`
 
 ## Зміни таксономії
 
-- [Observation | Corroborated | High] Змін таксономії немає; `ACT-030` and
-  `CON-064` receive representation-neutral examples without a merge or split.
+- [Observation | Corroborated | High] Первинний аналіз не змінював таксономію;
+  normalisation 004 пізніше об'єднала `OBJ-028` із `OBJ-017`.
 
 ## Нові питання
 

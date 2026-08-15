@@ -94,9 +94,9 @@ gene_ids:
 
 ### Action Genes
 
-- `ACT-021` — commit selected held-card subset. The player selects one to five
-  visible cards and chooses either Play for scoring or Discard for replacement
-  without score.
+- `ACT-021` — commit selected visible-card subset. The relevant zone is
+  Balatro's hand: the player selects one to five visible held cards and chooses
+  either Play for scoring or Discard for replacement without score.
 - `ACT-022` — reorder persistent effect sequence. The player may rearrange the
   fixed Joker row before committing a Play so order-sensitive additive and
   multiplicative effects resolve in the intended sequence.
