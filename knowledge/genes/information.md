@@ -1200,3 +1200,20 @@
   boundary, persistence duration and accessibility alternative.
 - Evidence: [Outer Wilds decomposition](../games/m-r/outer-wilds.md).
 - Novelty: not assessed.
+
+## INF-056 — Game-authored clue is visible in an external interface
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a decision-relevant clue is fully observable in a file, desktop
+  layer or mock operating-system surface outside the ordinary game-world view.
+- Includes: the intended external clue channel in OneShot and its World Machine
+  Edition equivalent.
+- Excludes: information hidden in executable code; a normal pause menu; an
+  in-world computer terminal rendered inside the same scene.
+- Parameters: interface surface, file format, persistence, update signal and
+  accessibility equivalent.
+- Evidence: [OneShot decomposition](../games/m-r/oneshot.md).
+- Novelty: not assessed.

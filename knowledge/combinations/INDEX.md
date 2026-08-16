@@ -12,7 +12,7 @@
 | [`COMB-0006`](COMB-0006.md) | `ACT-008 + ACT-009 + CON-011 + CON-012 + CON-013 + OBJ-004 + TIM-002` | `GAME-0006` | Verified |
 | [`COMB-0007`](COMB-0007.md) | `ACT-010 + CON-014 + CON-015 + CON-016 + CON-017 + OBJ-004 + TIM-002` | `GAME-0007` | Verified |
 | [`COMB-0008`](COMB-0008.md) | `ACT-007 + CON-018 + INF-006 + OBJ-006 + TIM-002` | `GAME-0008` | Verified |
-| [`COMB-0009`](COMB-0009.md) | `ACT-011 + SYS-003 + SYS-010 + SYS-011 + SYS-012 + CON-019 + CON-020 + OBJ-007 + TIM-001` | `GAME-0009` | Verified |
+| [`COMB-0009`](COMB-0009.md) | `ACT-011 + SYS-003 + SYS-010 + SYS-011 + SYS-012 + CON-019 + CON-020 + OBJ-007 + TIM-001` | `GAME-0009`, `GAME-0109` | Verified |
 | [`COMB-0010`](COMB-0010.md) | `ACT-013 + SYS-015 + CON-014 + CON-021 + CON-022 + OBJ-008 + TIM-001` | `GAME-0010` | Verified |
 | [`COMB-0011`](COMB-0011.md) | `ACT-014 + CON-023 + CON-024 + CON-025 + OBJ-009 + TIM-004` | `GAME-0011` | Verified |
 | [`COMB-0012`](COMB-0012.md) | `ACT-016 + CON-028 + CON-029 + CON-030 + OBJ-006 + TIM-002` | `GAME-0012`, `GAME-0061` | Verified |
@@ -36,7 +36,7 @@
 | [`COMB-0030`](COMB-0030.md) | `ACT-043 + ACT-044 + SYS-036 + SYS-045 + SYS-047 + SYS-048 + SYS-056 + CON-047 + INF-017 + OBJ-019 + TIM-007` | `GAME-0030` | Verified |
 | [`COMB-0031`](COMB-0031.md) | `ACT-044 + ACT-045 + SYS-045 + SYS-057 + CON-076 + CON-077 + INF-018 + OBJ-022 + TIM-007 + TIM-008` | `GAME-0031` | Verified |
 | [`COMB-0032`](COMB-0032.md) | `SYS-038 + SYS-040 + CON-063 + INF-011 + OBJ-015 + TIM-006` | `GAME-0022`, `GAME-0032` | Recurring |
-| [`COMB-0033`](COMB-0033.md) | `ACT-047 + SYS-036 + SYS-059 + SYS-060 + CON-078 + CON-079 + INF-019 + TIM-003` | `GAME-0033` | Verified |
+| [`COMB-0033`](COMB-0033.md) | `ACT-047 + SYS-036 + SYS-059 + SYS-060 + CON-078 + CON-079 + INF-019 + TIM-003` | `GAME-0033`, `GAME-0113` | Verified |
 | [`COMB-0034`](COMB-0034.md) | `ACT-044 + SYS-045 + INF-001 + TIM-003 + TIM-007` | `GAME-0030`, `GAME-0034`, `GAME-0035` | Recurring |
 | [`COMB-0035`](COMB-0035.md) | `ACT-050 + ACT-051 + SYS-045 + SYS-066 + SYS-067 + CON-080 + INF-021 + OBJ-023 + TIM-003` | `GAME-0035` | Verified |
 | [`COMB-0036`](COMB-0036.md) | `ACT-008 + ACT-009 + CON-011 + CON-013 + INF-001 + OBJ-004 + TIM-002` | `GAME-0006`, `GAME-0036` | Recurring |
@@ -112,6 +112,14 @@
 | [`COMB-0106`](COMB-0106.md) | `ACT-108 + ACT-109 + SYS-142 + CON-160 + INF-012` | `GAME-0106` | Verified |
 | [`COMB-0107`](COMB-0107.md) | `ACT-008 + ACT-110 + ACT-111 + SYS-143 + CON-161 + OBJ-026` | `GAME-0107` | Verified |
 | [`COMB-0108`](COMB-0108.md) | `ACT-048 + ACT-112 + SYS-144 + SYS-145 + CON-162 + CON-163 + OBJ-026` | `GAME-0108` | Verified |
+| [`COMB-0109`](COMB-0109.md) | `ACT-113 + SYS-146 + SYS-147 + CON-164 + OBJ-029` | `GAME-0110` | Verified |
+| [`COMB-0110`](COMB-0110.md) | `ACT-085 + SYS-112 + CON-136 + OBJ-025` | `GAME-0111` | Verified |
+| [`COMB-0111`](COMB-0111.md) | `ACT-114 + SYS-036 + CON-165 + OBJ-026` | `GAME-0112` | Verified |
+| [`COMB-0112`](COMB-0112.md) | `ACT-047 + SYS-059 + SYS-060 + CON-166 + OBJ-022` | `GAME-0113` | Verified |
+| [`COMB-0113`](COMB-0113.md) | `ACT-113 + SYS-146 + CON-164 + OBJ-007` | `GAME-0114` | Verified |
+| [`COMB-0114`](COMB-0114.md) | `ACT-048 + SYS-148 + CON-167 + OBJ-006` | `GAME-0115` | Verified |
+| [`COMB-0115`](COMB-0115.md) | `SYS-149 + CON-168 + OBJ-052` | `GAME-0116` | Verified |
+| [`COMB-0116`](COMB-0116.md) | `ACT-115 + SYS-150 + CON-169 + INF-056` | `GAME-0117` | Verified |
 
 The index records verified proper subsets of supporting game genomes. Absence
 from this file is not evidence of novelty. Exact and near genome comparison

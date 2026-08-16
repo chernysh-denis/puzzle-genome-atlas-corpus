@@ -33,7 +33,7 @@
     "labelUk": "Зіставлення та комбінування",
     "descriptionEn": "Recognise compatible elements and combine, clear, group or reproduce them under explicit matching rules.",
     "descriptionUk": "Розпізнавання сумісних елементів і їх об’єднання, очищення, групування або відтворення за явними правилами.",
-    "gameIds": ["GAME-0001", "GAME-0009", "GAME-0010", "GAME-0015", "GAME-0017", "GAME-0058", "GAME-0059", "GAME-0064", "GAME-0067"]
+    "gameIds": ["GAME-0001", "GAME-0009", "GAME-0010", "GAME-0015", "GAME-0017", "GAME-0058", "GAME-0059", "GAME-0064", "GAME-0067", "GAME-0109"]
   },
   {
     "id": "FAM-005",
@@ -51,7 +51,7 @@
     "labelUk": "Просторове складання та пакування",
     "descriptionEn": "Place finite pieces or regions so their geometry, ordering and occupied space form a required whole.",
     "descriptionUk": "Розміщення скінченних частин або областей так, щоб їх геометрія, порядок і зайнятий простір утворили потрібне ціле.",
-    "gameIds": ["GAME-0004", "GAME-0020", "GAME-0024", "GAME-0026", "GAME-0044", "GAME-0058", "GAME-0073", "GAME-0078", "GAME-0079", "GAME-0090", "GAME-0093"]
+    "gameIds": ["GAME-0004", "GAME-0020", "GAME-0024", "GAME-0026", "GAME-0044", "GAME-0058", "GAME-0073", "GAME-0078", "GAME-0079", "GAME-0090", "GAME-0093", "GAME-0115"]
   },
   {
     "id": "FAM-007",
@@ -60,7 +60,7 @@
     "labelUk": "Фізика та маніпуляція об’єктами",
     "descriptionEn": "Route or transform objects through spatial actions whose result depends on collision, gravity, momentum, scale or support.",
     "descriptionUk": "Маршрутизація або перетворення об’єктів просторовими діями, результат яких залежить від зіткнень, гравітації, імпульсу, масштабу чи опори.",
-    "gameIds": ["GAME-0021", "GAME-0026", "GAME-0030", "GAME-0033", "GAME-0038", "GAME-0041", "GAME-0045", "GAME-0054", "GAME-0055", "GAME-0057", "GAME-0070", "GAME-0094", "GAME-0095", "GAME-0096", "GAME-0108"]
+    "gameIds": ["GAME-0021", "GAME-0026", "GAME-0030", "GAME-0033", "GAME-0038", "GAME-0041", "GAME-0045", "GAME-0054", "GAME-0055", "GAME-0057", "GAME-0070", "GAME-0094", "GAME-0095", "GAME-0096", "GAME-0108", "GAME-0110", "GAME-0112", "GAME-0113", "GAME-0114"]
   },
   {
     "id": "FAM-008",
@@ -96,7 +96,7 @@
     "labelUk": "Повернення часу та збереження між циклами",
     "descriptionEn": "Revisit an earlier state or repeated cycle while selected knowledge, choices or authored differences remain available.",
     "descriptionUk": "Повернення до попереднього стану або повторюваного циклу зі збереженням вибраного знання, рішень чи авторських відмінностей.",
-    "gameIds": ["GAME-0028", "GAME-0031", "GAME-0034", "GAME-0048", "GAME-0105"]
+    "gameIds": ["GAME-0028", "GAME-0031", "GAME-0034", "GAME-0048", "GAME-0105", "GAME-0116"]
   },
   {
     "id": "FAM-012",
@@ -105,7 +105,7 @@
     "labelUk": "Прогрес через знання та докази",
     "descriptionEn": "Advance by finding, interpreting and reusing authored facts rather than only changing physical state.",
     "descriptionUk": "Просування через пошук, тлумачення й повторне використання авторських фактів, а не лише через зміну фізичного стану.",
-    "gameIds": ["GAME-0023", "GAME-0046", "GAME-0085", "GAME-0086", "GAME-0087", "GAME-0088", "GAME-0089", "GAME-0101", "GAME-0103", "GAME-0104", "GAME-0105", "GAME-0106"]
+    "gameIds": ["GAME-0023", "GAME-0046", "GAME-0085", "GAME-0086", "GAME-0087", "GAME-0088", "GAME-0089", "GAME-0101", "GAME-0103", "GAME-0104", "GAME-0105", "GAME-0106", "GAME-0111", "GAME-0117"]
   },
   {
     "id": "FAM-013",
@@ -123,7 +123,7 @@
     "labelUk": "Топологія світу та перспектива",
     "descriptionEn": "Change traversable space by editing adjacency, projection, scale, orientation, containment or world geometry.",
     "descriptionUk": "Зміна прохідного простору через редагування суміжності, проєкції, масштабу, орієнтації, вкладеності або геометрії світу.",
-    "gameIds": ["GAME-0024", "GAME-0033", "GAME-0036", "GAME-0040", "GAME-0041", "GAME-0091", "GAME-0092", "GAME-0093", "GAME-0094", "GAME-0095", "GAME-0096", "GAME-0097", "GAME-0098", "GAME-0099", "GAME-0107", "GAME-0108"]
+    "gameIds": ["GAME-0024", "GAME-0033", "GAME-0036", "GAME-0040", "GAME-0041", "GAME-0091", "GAME-0092", "GAME-0093", "GAME-0094", "GAME-0095", "GAME-0096", "GAME-0097", "GAME-0098", "GAME-0099", "GAME-0107", "GAME-0108", "GAME-0113"]
   },
   {
     "id": "FAM-015",
@@ -132,7 +132,7 @@
     "labelUk": "Маршрутизація та координація агентів",
     "descriptionEn": "Coordinate one or more controlled or autonomous agents through roles, transfers, schedules or shared spatial constraints.",
     "descriptionUk": "Координація одного чи кількох керованих або автономних агентів через ролі, передачі, розклади чи спільні просторові обмеження.",
-    "gameIds": ["GAME-0025", "GAME-0027", "GAME-0029", "GAME-0030", "GAME-0031", "GAME-0035", "GAME-0037", "GAME-0038", "GAME-0056", "GAME-0092", "GAME-0100"]
+    "gameIds": ["GAME-0025", "GAME-0027", "GAME-0029", "GAME-0030", "GAME-0031", "GAME-0035", "GAME-0037", "GAME-0038", "GAME-0056", "GAME-0092", "GAME-0100", "GAME-0113"]
   },
   {
     "id": "FAM-016",
@@ -141,7 +141,7 @@
     "labelUk": "Маніпуляція правилами та інтерфейсом",
     "descriptionEn": "Treat an explicit rule, symbolic interface or validation layer as a manipulable part of the puzzle state.",
     "descriptionUk": "Використання явного правила, символічного інтерфейсу або шару перевірки як змінюваної частини стану головоломки.",
-    "gameIds": ["GAME-0013", "GAME-0101", "GAME-0102", "GAME-0103", "GAME-0104"]
+    "gameIds": ["GAME-0013", "GAME-0101", "GAME-0102", "GAME-0103", "GAME-0104", "GAME-0116", "GAME-0117"]
   },
   {
     "id": "FAM-017",
@@ -150,6 +150,6 @@
     "labelUk": "Упорядкування залежних дій",
     "descriptionEn": "Resolve a dependency graph whose actions, resources or subgoals must occur in a mechanically valid order.",
     "descriptionUk": "Розв’язання графа залежностей, у якому дії, ресурси або підцілі мають виконуватися в механічно допустимому порядку.",
-    "gameIds": ["GAME-0007", "GAME-0017", "GAME-0019", "GAME-0022", "GAME-0032", "GAME-0056", "GAME-0058", "GAME-0060", "GAME-0085", "GAME-0086", "GAME-0087", "GAME-0088", "GAME-0089", "GAME-0090", "GAME-0102", "GAME-0103"]
+    "gameIds": ["GAME-0007", "GAME-0017", "GAME-0019", "GAME-0022", "GAME-0032", "GAME-0056", "GAME-0058", "GAME-0060", "GAME-0085", "GAME-0086", "GAME-0087", "GAME-0088", "GAME-0089", "GAME-0090", "GAME-0102", "GAME-0103", "GAME-0111"]
   }
 ]

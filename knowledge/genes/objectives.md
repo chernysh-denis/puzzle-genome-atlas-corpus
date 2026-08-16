@@ -1065,3 +1065,21 @@
   completion prompt threshold, optional exhaustive target and revisit policy.
 - Evidence: [Her Story decomposition](../games/g-l/her-story.md).
 - Novelty: not assessed.
+
+## OBJ-052 — Reach one authored narrative ending
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one run by traversing a sequence of authored branch
+  states until the application presents that branch's terminal ending and
+  returns or offers return to a replay boundary.
+- Includes: reaching any bounded ending route in The Stanley Parable: Ultra
+  Deluxe.
+- Excludes: completing every ending; merely watching non-terminal dialogue;
+  reaching a spatial exit with no branch-dependent conclusion.
+- Parameters: branch graph, terminal triggers, reset behaviour, retained
+  unlocks and completion presentation.
+- Evidence: [The Stanley Parable: Ultra Deluxe decomposition](../games/s-z/the-stanley-parable-ultra-deluxe.md).
+- Novelty: not assessed.

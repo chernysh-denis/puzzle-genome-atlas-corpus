@@ -2210,3 +2210,57 @@
   port type, polarity, capacity and cross-panel requirement.
 - Evidence: [The Pedestrian decomposition](../games/s-z/the-pedestrian.md).
 - Novelty: not assessed.
+
+## ACT-113 — Aim and release projectile from fixed launcher
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player adjusts the direction and launch strength of one
+  projectile at a fixed launcher, then commits its release into live physics.
+- Includes: pulling and releasing a bird from the Angry Birds slingshot; aiming
+  and firing one Peggle ball from the top launcher.
+- Excludes: steering a projectile after launch; placing a portal endpoint;
+  selecting a discrete destination without a continuous launch trajectory.
+- Parameters: angular range, strength control, aim guide, projectile type and
+  whether a character ability may be triggered after release.
+- Evidence: [Angry Birds Classic decomposition](../games/a-f/angry-birds-classic.md)
+  and [Peggle Deluxe decomposition](../games/m-r/peggle-deluxe.md).
+- Novelty: not assessed.
+
+## ACT-114 — Grip world geometry with independently controlled hands
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player raises and steers each articulated hand independently
+  and holds contact to create a temporary physical grip on reachable geometry.
+- Includes: gripping a ledge with one or both hands in Human: Fall Flat, then
+  pulling the ragdoll body upward or suspending it while repositioning.
+- Excludes: picking up one rigid object into a centred carry pose; attaching an
+  autonomous agent to a structure; an animation-only climb command.
+- Parameters: hand channels, reach, grip strength, release control, body mass
+  and collision response.
+- Evidence: [Human: Fall Flat decomposition](../games/g-l/human-fall-flat.md).
+- Novelty: not assessed.
+
+## ACT-115 — Inspect game-authored external interface artefact
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player leaves or shifts focus from the game world to inspect
+  a file, desktop layer or mock operating-system artefact created by the game
+  and uses its content as puzzle information.
+- Includes: opening the authored document or desktop clue used by OneShot's PC
+  release; inspecting the corresponding mock-OS artefact in World Machine
+  Edition.
+- Excludes: reading an in-world manual; searching an unauthorised walkthrough;
+  opening a purely diagnostic log with no puzzle consequence.
+- Parameters: host interface, artefact path, update trigger, accessibility
+  alternative and whether the game remains visible simultaneously.
+- Evidence: [OneShot decomposition](../games/m-r/oneshot.md).
+- Novelty: not assessed.

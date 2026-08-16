@@ -3192,3 +3192,107 @@
   activation radius, persistence after leaving and multiple-orb priority.
 - Evidence: [Cocoon decomposition](../games/a-f/cocoon.md).
 - Novelty: not assessed.
+
+## CON-164 — Finite launched-body stock per attempt
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: each committed launch irreversibly consumes one member of a
+  visible finite attempt-local projectile stock, and no additional launch is
+  available after the stock is exhausted.
+- Includes: the ordered bird queue in Angry Birds Classic and the remaining
+  ball count in Peggle Deluxe.
+- Excludes: ammunition that regenerates during the same attempt; an unlimited
+  launcher; a move budget where actions do not consume physical projectiles.
+- Parameters: stock size, ordering, free-ball recovery, projectile identity and
+  early-completion rule.
+- Evidence: [Angry Birds Classic decomposition](../games/a-f/angry-birds-classic.md)
+  and [Peggle Deluxe decomposition](../games/m-r/peggle-deluxe.md).
+- Novelty: not assessed.
+
+## CON-165 — Grip requires reachable contact and body leverage
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a hand grip exists only while that hand physically reaches an
+  eligible surface and the player holds its channel; resulting motion remains
+  limited by ragdoll mass, collision and available leverage.
+- Includes: Human: Fall Flat ledge climbing and two-hand object manipulation.
+- Excludes: magnetic attachment at range; scripted mantle animation; carrying
+  an object without articulated contact.
+- Parameters: contact distance, eligible materials, hand count, grip release,
+  joint limits and body weight.
+- Evidence: [Human: Fall Flat decomposition](../games/g-l/human-fall-flat.md).
+- Novelty: not assessed.
+
+## CON-166 — Two agents own four independent portal channels
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: each of two controlled agents owns one replaceable pair of portal
+  channels, and chamber solutions may require traversal through endpoints made
+  by either owner while preserving all four identities.
+- Includes: ATLAS and P-body in Portal 2's cooperative campaign.
+- Excludes: one player controlling a single two-colour pair; two avatars sharing
+  one undifferentiated portal pair; decorative team colours.
+- Parameters: agent count, channels per agent, cross-owner traversal, placement
+  authority and reset behaviour.
+- Evidence: [Portal 2 cooperative decomposition](../games/m-r/portal-2-co-op.md).
+- Novelty: not assessed.
+
+## CON-167 — Household object must fit an accepted room support
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: each unpacked object must occupy non-overlapping space on or in a
+  support whose room and affordance classes accept that object.
+- Includes: storing kitchenware in kitchen storage and clothes in suitable
+  bedroom furniture in Unpacking.
+- Excludes: one exact required coordinate; unrestricted decoration; inventory
+  use on a single fixed mechanism.
+- Parameters: room, support, containment, footprint, stacking and exceptions.
+- Evidence: [Unpacking decomposition](../games/s-z/unpacking.md).
+- Novelty: not assessed.
+
+## CON-168 — Authored route thresholds delimit narrative choices
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a narrative choice is committed by entering one of the currently
+  open authored routes; unavailable branches cannot be invented by free
+  movement and a crossed threshold may close alternatives for that run.
+- Includes: the two-door decision and downstream branch points in The Stanley
+  Parable: Ultra Deluxe.
+- Excludes: unconstrained open-world travel; text choices available regardless
+  of position; merely missing optional scenery.
+- Parameters: open routes, commit threshold, backtracking, branch closure and
+  prior-run unlocks.
+- Evidence: [The Stanley Parable: Ultra Deluxe decomposition](../games/s-z/the-stanley-parable-ultra-deluxe.md).
+- Novelty: not assessed.
+
+## CON-169 — External clue gates an in-world solution
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the information needed to complete an addressed in-world puzzle
+  is intentionally absent from the ordinary world view and must be recovered
+  from the game-authored external interface artefact.
+- Includes: OneShot's host-file or mock-OS clue feeding a later in-game answer.
+- Excludes: optional lore outside the game; an ordinary in-world manual; a clue
+  available from an unauthorised guide.
+- Parameters: clue channel, encoding, in-world receiver, platform equivalent
+  and fallback accessibility channel.
+- Evidence: [OneShot decomposition](../games/m-r/oneshot.md).
+- Novelty: not assessed.

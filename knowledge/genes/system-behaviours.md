@@ -2867,3 +2867,94 @@
   radius, structure geometry, persistence, fade timing and collision handoff.
 - Evidence: [Cocoon decomposition](../games/a-f/cocoon.md).
 - Novelty: not assessed.
+
+## SYS-146 — Resolve launched body through ballistic collisions
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after launcher release, the system advances one body under
+  gravity and collision, transferring momentum through contacted bodies until
+  the projectile leaves play or settles.
+- Includes: bird, block and pig collisions in Angry Birds Classic; ball, peg,
+  wall and bucket collisions in Peggle Deluxe.
+- Excludes: deterministic grid travel; a projectile whose entire result is
+  resolved without intermediate physical contacts; player-steered flight.
+- Parameters: gravity, restitution, friction, collision layers, settle test and
+  out-of-bounds rule.
+- Evidence: [Angry Birds Classic decomposition](../games/a-f/angry-birds-classic.md)
+  and [Peggle Deluxe decomposition](../games/m-r/peggle-deluxe.md).
+- Novelty: not assessed.
+
+## SYS-147 — Damage removes supports and cascades rigid structure collapse
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: collision damage can break a finite structural element; lost
+  support then causes still-intact bodies to fall, collide and produce further
+  damage in the same live resolution.
+- Includes: breaking glass or wood in Angry Birds Classic so blocks above fall
+  onto pigs or other supports.
+- Excludes: deleting a matched tile and vertically refilling a board; moving a
+  rigid structure without damage; purely cosmetic debris.
+- Parameters: material strength, impact threshold, support graph, damage
+  accumulation and debris collision policy.
+- Evidence: [Angry Birds Classic decomposition](../games/a-f/angry-birds-classic.md).
+- Novelty: not assessed.
+
+## SYS-148 — Validate household-object placement against room affordances
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after all boxes are emptied, the system marks each object whose
+  current support, room or containment class is not one of its accepted authored
+  placements and withholds completion until every object is valid.
+- Includes: Unpacking accepting clothes in drawers or wardrobes while rejecting
+  contextually inappropriate room placements.
+- Excludes: free decoration with no validation; exact target-coordinate
+  reconstruction; collision rejection during dragging before release.
+- Parameters: object class, accepted rooms, support classes, containment,
+  overlap, invalid marker and completion timing.
+- Evidence: [Unpacking decomposition](../games/s-z/unpacking.md).
+- Novelty: not assessed.
+
+## SYS-149 — Narrator response follows authored traversal branch
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: crossing an authored route threshold commits a narrative branch
+  whose pre-recorded narrator response and downstream world state depend on the
+  chosen path and prior branch history.
+- Includes: The Stanley Parable narrator acknowledging whether Stanley follows
+  or contradicts the announced left-door instruction.
+- Excludes: non-interactive narration; random dialogue unrelated to player
+  state; a dialogue menu that does not change traversable space.
+- Parameters: trigger volumes, history flags, branch priority, interruption and
+  reset boundary.
+- Evidence: [The Stanley Parable: Ultra Deluxe decomposition](../games/s-z/the-stanley-parable-ultra-deluxe.md).
+- Novelty: not assessed.
+
+## SYS-150 — Publish puzzle clue through external interface state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: reaching a declared in-game state causes the application to
+  create or update a decision-relevant clue outside the ordinary world view,
+  while preserving that clue for independent inspection.
+- Includes: OneShot exposing a clue through the host filesystem or the World
+  Machine Edition mock operating system.
+- Excludes: an in-world notebook; a platform achievement; a crash dump or save
+  file whose contents are not intended as a puzzle channel.
+- Parameters: trigger, external surface, persistence, refresh timing, clue
+  encoding and platform-equivalent presentation.
+- Evidence: [OneShot decomposition](../games/m-r/oneshot.md).
+- Novelty: not assessed.

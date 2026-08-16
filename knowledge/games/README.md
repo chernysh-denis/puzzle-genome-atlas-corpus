@@ -143,6 +143,15 @@ Index's short profile remains a game-specific navigation summary.
 - [`GAME-0106` — Her Story](g-l/her-story.md)
 - [`GAME-0107` — The Pedestrian](s-z/the-pedestrian.md)
 - [`GAME-0108` — Cocoon](a-f/cocoon.md)
+- [`GAME-0109` — Candy Crush Saga](a-f/candy-crush-saga.md)
+- [`GAME-0110` — Angry Birds Classic](a-f/angry-birds-classic.md)
+- [`GAME-0111` — Myst](m-r/myst.md)
+- [`GAME-0112` — Human: Fall Flat](g-l/human-fall-flat.md)
+- [`GAME-0113` — Portal 2 — Cooperative Campaign](m-r/portal-2-co-op.md)
+- [`GAME-0114` — Peggle Deluxe](m-r/peggle-deluxe.md)
+- [`GAME-0115` — Unpacking](s-z/unpacking.md)
+- [`GAME-0116` — The Stanley Parable: Ultra Deluxe](s-z/the-stanley-parable-ultra-deluxe.md)
+- [`GAME-0117` — OneShot](m-r/oneshot.md)
 <!-- END GENERATED: COMPLETED_GAMES -->
 
 Use the [game-analysis template](../../templates/GAME_ANALYSIS_TEMPLATE.md) and

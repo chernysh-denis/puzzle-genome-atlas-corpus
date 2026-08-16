@@ -865,6 +865,185 @@
       "defining": ["ACT-048", "ACT-112", "SYS-144", "SYS-145", "CON-162", "CON-163"],
       "structural": ["ACT-008", "OBJ-026"],
       "supporting": ["INF-001", "TIM-002"]
+    },
+    "GAME-0109": {
+      "reviewed": "2026-08-16",
+      "noteEn": "Candy Crush is defined here by deliberate adjacent swaps that create colour matches, special candies and cascades under an order and move budget.",
+      "noteUk": "Candy Crush тут визначають сусідні обміни, що створюють кольорові збіги, спеціальні цукерки й каскади під обмеженням замовлення та ходів.",
+      "defining": [
+        "ACT-011",
+        "ACT-012",
+        "SYS-010",
+        "SYS-011",
+        "SYS-012",
+        "SYS-013",
+        "SYS-014",
+        "CON-019",
+        "CON-020"
+      ],
+      "structural": [
+        "SYS-003",
+        "SYS-004",
+        "CON-001",
+        "OBJ-007"
+      ],
+      "supporting": [
+        "INF-001",
+        "INF-002",
+        "TIM-001"
+      ]
+    },
+    "GAME-0110": {
+      "reviewed": "2026-08-16",
+      "noteEn": "Angry Birds is defined by spending a finite bird queue on ballistic launches whose damage can remove supports and cascade through a structure.",
+      "noteUk": "Angry Birds визначають витрати скінченної черги пташок на балістичні запуски, чиї удари руйнують опори й каскадно обвалюють конструкцію.",
+      "defining": [
+        "ACT-113",
+        "SYS-146",
+        "SYS-147",
+        "CON-164"
+      ],
+      "structural": [
+        "OBJ-002",
+        "OBJ-029"
+      ],
+      "supporting": [
+        "INF-001",
+        "TIM-003"
+      ]
+    },
+    "GAME-0111": {
+      "reviewed": "2026-08-16",
+      "noteEn": "Myst is defined by carrying visible clues across exploration into a dependency-ordered chain of authored mechanisms.",
+      "noteUk": "Myst визначають перенесення видимих підказок із дослідження до впорядкованого ланцюга взаємозалежних механізмів.",
+      "defining": [
+        "ACT-085",
+        "SYS-112",
+        "CON-136"
+      ],
+      "structural": [
+        "ACT-008",
+        "OBJ-025"
+      ],
+      "supporting": [
+        "INF-001",
+        "TIM-002"
+      ]
+    },
+    "GAME-0112": {
+      "reviewed": "2026-08-16",
+      "noteEn": "Human: Fall Flat is defined by independent physical hand grips constrained by reach, leverage and an articulated body.",
+      "noteUk": "Human: Fall Flat визначають незалежні фізичні хвати руками, обмежені досяжністю, опорою й шарнірним тілом.",
+      "defining": [
+        "ACT-114",
+        "CON-165"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-048",
+        "SYS-036",
+        "OBJ-026"
+      ],
+      "supporting": [
+        "INF-001",
+        "TIM-003"
+      ]
+    },
+    "GAME-0113": {
+      "reviewed": "2026-08-16",
+      "noteEn": "Portal 2 co-op is defined by two agents coordinating four owned portal channels, live aperture traversal and shared chamber state.",
+      "noteUk": "Кооператив Portal 2 визначають два агенти, які узгоджують чотири власні канали порталів, наскрізні проходи та спільний стан камери.",
+      "defining": [
+        "ACT-047",
+        "SYS-059",
+        "SYS-060",
+        "SYS-061",
+        "CON-078",
+        "CON-079",
+        "CON-166",
+        "INF-019"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-048",
+        "SYS-036",
+        "OBJ-022"
+      ],
+      "supporting": [
+        "INF-001",
+        "TIM-003"
+      ]
+    },
+    "GAME-0114": {
+      "reviewed": "2026-08-16",
+      "noteEn": "Peggle is defined by spending a finite ball stock on aimed ballistic ricochets that clear the required orange targets.",
+      "noteUk": "Peggle визначають витрати скінченного запасу кульок на прицільні балістичні рикошети, що очищають потрібні помаранчеві цілі.",
+      "defining": [
+        "ACT-113",
+        "SYS-146",
+        "CON-164"
+      ],
+      "structural": [
+        "OBJ-002",
+        "OBJ-007"
+      ],
+      "supporting": [
+        "INF-001",
+        "TIM-003"
+      ]
+    },
+    "GAME-0115": {
+      "reviewed": "2026-08-16",
+      "noteEn": "Unpacking is defined by placing persistent household objects into non-overlapping supports whose room affordances accept them.",
+      "noteUk": "Unpacking визначають розміщення сталих побутових речей без накладання на опорах, чиє призначення кімнати їх допускає.",
+      "defining": [
+        "ACT-048",
+        "SYS-148",
+        "CON-167"
+      ],
+      "structural": [
+        "OBJ-006"
+      ],
+      "supporting": [
+        "INF-001",
+        "TIM-002"
+      ]
+    },
+    "GAME-0116": {
+      "reviewed": "2026-08-16",
+      "noteEn": "The Stanley Parable is defined by route thresholds that commit narrated authored branches and terminate in one of several endings.",
+      "noteUk": "The Stanley Parable визначають пороги маршруту, що фіксують озвучені авторські гілки й ведуть до одного з кількох фіналів.",
+      "defining": [
+        "SYS-149",
+        "CON-168",
+        "OBJ-052"
+      ],
+      "structural": [
+        "ACT-008"
+      ],
+      "supporting": [
+        "INF-001",
+        "TIM-003"
+      ]
+    },
+    "GAME-0117": {
+      "reviewed": "2026-08-16",
+      "noteEn": "OneShot is defined by a game-authored external artefact whose clue gates the solution of an addressed in-world puzzle.",
+      "noteUk": "OneShot визначає створений грою зовнішній артефакт, підказка з якого відкриває рішення конкретної головоломки у світі.",
+      "defining": [
+        "ACT-115",
+        "SYS-150",
+        "CON-169",
+        "INF-056"
+      ],
+      "structural": [
+        "ACT-008",
+        "OBJ-026"
+      ],
+      "supporting": [
+        "INF-001",
+        "TIM-002"
+      ]
     }
   }
 }
