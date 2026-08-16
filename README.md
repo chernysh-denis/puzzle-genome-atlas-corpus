@@ -1,7 +1,7 @@
 # Puzzle Genome Atlas — Canonical Corpus
 
 This public repository contains the reviewed, stable-ID research corpus behind
-[Puzzle Genome Atlas](https://atlas.gremlin.monster). The website, generated
+[Puzzle Genome Atlas](https://puzzlegenome.org). The website, generated
 artwork, internal research leads and development tooling live in a separate
 private working repository. Deterministic `scripts/verify_*.py` controls cited
 by canonical records are included as public research evidence.
