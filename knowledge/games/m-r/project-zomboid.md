@@ -345,6 +345,13 @@ Near matches use the canonical intersection-over-union formula.
   `CON-303`–`CON-314`, `INF-133`–`INF-136` and `OBJ-076` (31 total).
 - Classification: `New gene` and `New combination of known and new genes`.
 
+### Registry normalisation 006 score corrections
+
+These recomputed values supersede the pre-normalisation fractions above:
+
+- `GAME-0132`: `3 / 99 = 0.030303`
+- Current prior-corpus near match after normalisation 006: `GAME-0141`.
+
 ## Taxonomy impact
 
 - Registry changes: add 31 bounded active genes and `COMB-0140`; extend

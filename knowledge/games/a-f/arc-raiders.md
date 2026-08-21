@@ -12,6 +12,7 @@ gene_ids:
     - ACT-123
     - ACT-161
     - ACT-164
+    - ACT-191
     - ACT-199
     - ACT-200
     - ACT-215
@@ -19,11 +20,11 @@ gene_ids:
     - ACT-217
     - ACT-218
     - ACT-219
-    - ACT-220
     - ACT-221
   system:
     - SYS-215
     - SYS-223
+    - SYS-299
     - SYS-319
     - SYS-328
     - SYS-346
@@ -31,7 +32,6 @@ gene_ids:
     - SYS-348
     - SYS-349
     - SYS-350
-    - SYS-351
     - SYS-352
     - SYS-353
     - SYS-354
@@ -150,11 +150,12 @@ gene_ids:
 
 - Existing genes: `ACT-008`, navigate; `ACT-123`, hand-craft a selected field
   recipe; `ACT-161`, aim and strike; `ACT-164`, select a carried quick item;
-  `ACT-199`, transfer or equip loot; `ACT-200`, use an interruptible restorative.
+  `ACT-191`, spend a persistent build point; `ACT-199`, transfer or equip loot;
+  `ACT-200`, use an interruptible restorative.
 - New genes: `ACT-215`, assemble a retained or Free Loadout; `ACT-216`, search
   a container or disabled machine; `ACT-217`, move an item through Safe Pocket
   protection; `ACT-218`, activate and enter extraction; `ACT-219`, sell or
-  recycle; `ACT-220`, spend a Raider skill point; `ACT-221`, repair or upgrade
+  recycle; `ACT-221`, repair or upgrade
   a retained weapon.
 - Claim IDs: `ARC-002`–`ARC-010`.
 
@@ -162,8 +163,9 @@ gene_ids:
 
 - Existing genes: `SYS-215`, direct real-time hostile combat; `SYS-223`, weapon
   durability loss; `SYS-319`, restorative cast resolution; `SYS-328`, personal
-  Field Crafting queue.
-- New genes: `SYS-346`–`SYS-354`, covering conditioned raid instantiation, ARC
+  Field Crafting queue; `SYS-299`, convert persistent experience into levels
+  and build points.
+- New genes: `SYS-346`–`SYS-350` and `SYS-352`–`SYS-354`, covering conditioned raid instantiation, ARC
   perception and typed attacks, shield-health-DBNO state, raid settlement,
   Safe Pocket retention, persistent XP, cross-raid stash and recipes,
   station-gated Workshop output and danger-conditioned loot.
@@ -288,7 +290,7 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-123,ACT-161,ACT-164,ACT-199,ACT-200,ACT-215,ACT-216,ACT-217,ACT-218,ACT-219,ACT-220,ACT-221; SYS-215,SYS-223,SYS-319,SYS-328,SYS-346,SYS-347,SYS-348,SYS-349,SYS-350,SYS-351,SYS-352,SYS-353,SYS-354; CON-210,CON-284,CON-285,CON-286,CON-290,CON-315,CON-316,CON-317,CON-318,CON-319,CON-320,CON-321,CON-322; INF-075,INF-115,INF-128,INF-132,INF-137,INF-138,INF-139,INF-140; OBJ-021; TIM-003`.
+- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-123,ACT-161,ACT-164,ACT-199,ACT-200,ACT-215,ACT-216,ACT-217,ACT-218,ACT-219,ACT-191,ACT-221; SYS-215,SYS-223,SYS-319,SYS-328,SYS-346,SYS-347,SYS-348,SYS-349,SYS-350,SYS-299,SYS-352,SYS-353,SYS-354; CON-210,CON-284,CON-285,CON-286,CON-290,CON-315,CON-316,CON-317,CON-318,CON-319,CON-320,CON-321,CON-322; INF-075,INF-115,INF-128,INF-132,INF-137,INF-138,INF-139,INF-140; OBJ-021; TIM-003`.
 - Indexed games scanned: all 142 earlier canonical games.
 - Indexed combinations scanned: all 140 earlier verified combinations.
 - Exact genome matches: none.
@@ -345,7 +347,8 @@ Exhaustive prior-game ledger:
 | Rust | movement, direct combat, looting, crafting, durability, capacity, weapon state, partial hostile information and live time | persistent shared world, base authority and wipe versus bounded raids and explicit settlement | near, not exact |
 | Project Zomboid | movement, crafting, direct combat, equipment, loot, durability, health presentation, local hostile information and live time | one embodied permanent life versus repeatable raids with stash and protected loss | near, not exact |
 
-- New genes: `ACT-215`–`ACT-221`, `SYS-346`–`SYS-354`,
+- New genes: `ACT-215`–`ACT-219`, `ACT-221`, `SYS-346`–`SYS-350`,
+  `SYS-352`–`SYS-354`,
   `CON-315`–`CON-322`, `INF-137`–`INF-140`.
 - Classification result: new verified combination of reused and new genes.
 - Evidence and reasoning: the distinctive boundary is not shooting or looting
@@ -353,11 +356,20 @@ Exhaustive prior-game ledger:
   raid into persistent extracted state, forfeited unsecured state and protected
   pocket state, then feeds the retained branch into workshop and skill choices.
 
+### Registry normalisation 006 score corrections
+
+These recomputed values supersede the pre-normalisation fractions above:
+
+- `GAME-0132`: `2 / 98 = 0.020408`
+- `GAME-0138`: `4 / 80 = 0.050000`
+- `GAME-0139`: `10 / 93 = 0.107527`
+- Current prior-corpus near match after normalisation 006: `GAME-0140`.
+
 ## Taxonomy impact
 
-- Registry changes: 28 new bounded genes and `COMB-0141`; no existing gene is
-  redefined, merged or split.
-- Taxonomy-change record: none.
+- Registry changes after normalisation: 26 new bounded genes and `COMB-0141`;
+  `ACT-191` and `SYS-299` are reused.
+- Taxonomy-change record: `TAXONOMY_CHANGE_012` and `TAXONOMY_CHANGE_013`.
 - Candidate terms affected: none.
 
 ## Negative results
@@ -377,7 +389,7 @@ Exhaustive prior-game ledger:
 
 ## Нові гени
 
-- [Observation | Corroborated | High] 28 bounded genes cover loadout staking,
+- [Observation | Corroborated | High] 26 bounded genes cover loadout staking,
   search, extraction, protected loss, conditioned shared raids, ARC behaviour,
   settlement and persistent hub progression.
 

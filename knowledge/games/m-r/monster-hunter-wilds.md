@@ -370,6 +370,13 @@ Exhaustive prior-game ledger:
   routing and two-weapon exchange to localized wound conversion, finite quest
   failure and material-fed equipment preparation.
 
+### Registry normalisation 006 score corrections
+
+These recomputed values supersede the pre-normalisation fractions above:
+
+- `GAME-0132`: `3 / 84 = 0.035714`
+- Current prior-corpus near match after normalisation 006: `GAME-0143`.
+
 ## Combination assessment
 
 - `COMB-0149` is admitted as a verified interaction pattern joining tracked

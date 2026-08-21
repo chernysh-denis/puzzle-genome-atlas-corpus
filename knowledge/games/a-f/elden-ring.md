@@ -27,8 +27,8 @@ gene_ids:
     - SYS-222
     - SYS-251
     - SYS-364
-    - SYS-409
     - SYS-399
+    - SYS-409
     - SYS-411
     - SYS-412
     - SYS-413
@@ -39,9 +39,9 @@ gene_ids:
     - CON-282
     - CON-285
     - CON-286
+    - CON-352
     - CON-359
     - CON-360
-    - CON-352
     - CON-362
     - CON-363
     - CON-364
@@ -55,7 +55,7 @@ gene_ids:
     - INF-161
     - INF-162
   objective:
-    - OBJ-082
+    - OBJ-080
   time:
     - TIM-003
 ---
@@ -190,7 +190,8 @@ gene_ids:
 
 ### Objective Genes
 
-- New gene: `OBJ-082`, defeat Margit and cross the first Stormveil threshold.
+- Existing gene: `OBJ-080`, defeat the mandatory route guardian and cross the
+  newly opened authored progression threshold; here the guardian is Margit.
 - Claim ID: `ER-008`.
 
 ### Time Genes
@@ -247,7 +248,7 @@ opening and makes no claim about the full Souls lineage or later campaign.
 
 ## Normalised genome
 
-The genome contains 45 genes: 22 reused and 23 new. It separates direct inputs,
+The genome contains 45 genes: 23 reused and 22 new. It separates direct inputs,
 live combat, checkpoint reset, rune-risk progression, build legality,
 navigation information and the bounded Margit gate.
 
@@ -442,6 +443,15 @@ is a complete strict subset of this genome.
 |---|---|---|---|
 | Hollow Knight: Silksong (`GAME-0150`) | `ACT-008`, `ACT-130`, `ACT-161`, `ACT-224`, `SYS-215`, `SYS-364`, `SYS-399`, `CON-269`, `CON-352`, `INF-119`, `INF-125`, `TIM-003` | Silksong attaches a Cocoon-linked Silk penalty to Bench recovery and gates authored ascent through movement capabilities; Elden Ring selects Grace or Stake, carries rune-priced attribute preparation and feeds Torrent, Spirit Ash and equipment choices into Margit's gate | nearest, not exact; `12 / 55 = 0.218182` |
 
+### Registry normalisation 006 score corrections
+
+These recomputed values supersede the pre-normalisation fractions above:
+
+- `GAME-0132`: `3 / 93 = 0.032258`
+- `GAME-0137`: `6 / 69 = 0.086957`
+- `GAME-0150`: `13 / 54 = 0.240741`
+- Current prior-corpus near match after normalisation 006: `GAME-0150`.
+
 ## Combination assessment
 
 `COMB-0150` is a strict subset retaining the Grace–rune-risk–build–Margit loop
@@ -475,7 +485,7 @@ rune-priced stats.
 ## Нові гени
 
 - Adds `ACT-247`–`ACT-251`, `SYS-409`, `SYS-411`–`SYS-414`, `CON-359`,
-  `CON-360`, `CON-362`–`CON-365`, `INF-159`–`INF-162` and `OBJ-082`.
+  `CON-360`, `CON-362`–`CON-365` and `INF-159`–`INF-162`.
 
 ## Нові комбінації
 
@@ -484,7 +494,7 @@ rune-priced stats.
 
 ## Зміни таксономії
 
-- Evidence extensions for 22 reused genes, including the generalised
+- Evidence extensions for 23 reused genes, including the generalised
   death-currency mark pair; four existing families gain one membership.
 
 ## Family classification

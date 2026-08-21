@@ -30,16 +30,16 @@ gene_ids:
     - SYS-196
     - SYS-197
     - SYS-215
+    - SYS-216
     - SYS-222
     - SYS-223
+    - SYS-299
     - SYS-307
     - SYS-308
-    - SYS-309
     - SYS-310
     - SYS-311
     - SYS-312
     - SYS-313
-    - SYS-314
     - SYS-315
   constraint:
     - CON-062
@@ -166,12 +166,13 @@ gene_ids:
   locomotion; `SYS-051`, autonomous combat engagement; `SYS-186`, ranked
   errand choice; `SYS-196`, filtered hauling; `SYS-197`, skill-conditioned work
   duration; `SYS-215`, direct real-time combat; `SYS-222`, contact pickup;
-  `SYS-223`, equipment durability loss.
+  `SYS-223`, equipment durability loss; `SYS-299`, experience levels and build
+  points; `SYS-216`, configured defeat loss and same-world respawn.
 - New genes: `SYS-307`, probabilistic capture into storage; `SYS-308`, deployed
-  companion follow/combat; `SYS-309`, persistent player/Pal experience levels;
-  `SYS-310`, work-suitability base dispatch; `SYS-311`, Pal hunger/SAN/condition;
+  companion follow/combat; `SYS-310`, work-suitability base dispatch;
+  `SYS-311`, Pal hunger/SAN/condition;
   `SYS-312`, material-backed crafting/construction workload; `SYS-313`,
-  persistent generated survival world; `SYS-314`, defeat/drop/respawn;
+  persistent generated survival world;
   `SYS-315`, mission progression through tower and raid gates.
 - Resolution order: live movement, work and combat update health, hunger and
   durability; a capture consumes its device before the random checks; successful
@@ -293,7 +294,7 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-087,ACT-122,ACT-123,ACT-134,ACT-145,ACT-148,ACT-161,ACT-164,ACT-165,ACT-194,ACT-195,ACT-196,ACT-197; SYS-004,SYS-045,SYS-051,SYS-186,SYS-196,SYS-197,SYS-215,SYS-222,SYS-223,SYS-307,SYS-308,SYS-309,SYS-310,SYS-311,SYS-312,SYS-313,SYS-314,SYS-315; CON-062,CON-192,CON-193,CON-200,CON-210,CON-276,CON-277,CON-278,CON-279,CON-280,CON-281,CON-282; INF-059,INF-073,INF-075,INF-122,INF-123,INF-124,INF-125,INF-126; OBJ-073; TIM-003`.
+- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-087,ACT-122,ACT-123,ACT-134,ACT-145,ACT-148,ACT-161,ACT-164,ACT-165,ACT-194,ACT-195,ACT-196,ACT-197; SYS-004,SYS-045,SYS-051,SYS-186,SYS-196,SYS-197,SYS-215,SYS-222,SYS-223,SYS-307,SYS-308,SYS-299,SYS-310,SYS-311,SYS-312,SYS-313,SYS-216,SYS-315; CON-062,CON-192,CON-193,CON-200,CON-210,CON-276,CON-277,CON-278,CON-279,CON-280,CON-281,CON-282; INF-059,INF-073,INF-075,INF-122,INF-123,INF-124,INF-125,INF-126; OBJ-073; TIM-003`.
 - Indexed games scanned: 138 (`GAME-0001`–`GAME-0138`).
 - Indexed combinations scanned: 136 (`COMB-0001`–`COMB-0136`).
 - Exact genome matches: none.
@@ -344,7 +345,8 @@ gene_ids:
 |---|---|---|---|
 | RimWorld (`GAME-0127`) | `ACT-008`, `ACT-145`, `ACT-148`, `SYS-045`, `SYS-051`, `SYS-186`, `SYS-196`, `SYS-197`, `CON-192`, `CON-193`, `CON-200`, `INF-059`, `INF-075`, `TIM-003` | direct capture/party combat and embodied survival versus policy-led human colony simulation and ship construction | nearest at `14 / 88 = 0.159091` |
 
-- New genes: `ACT-194`–`ACT-197`, `SYS-307`–`SYS-315`, `CON-276`–`CON-282`,
+- New genes: `ACT-194`–`ACT-197`, `SYS-307`, `SYS-308`, `SYS-310`–`SYS-313`,
+  `SYS-315`, `CON-276`–`CON-282`,
   `INF-122`–`INF-126`, `OBJ-073`.
 - Classification result: `New combination of known and new genes`.
 - Evidence and reasoning: capture, party and base share one persistent Pal
@@ -353,11 +355,21 @@ gene_ids:
   capture. Existing colony, survival and direct-combat genes were reused only
   where their causal definitions remained intact.
 
+### Registry normalisation 006 score corrections
+
+These recomputed values supersede the pre-normalisation fractions above:
+
+- `GAME-0129`: `13 / 76 = 0.171053`
+- `GAME-0132`: `4 / 101 = 0.039604`
+- `GAME-0138`: `5 / 84 = 0.059524`
+- Current prior-corpus near match after normalisation 006: `GAME-0129`.
+
 ## Taxonomy impact
 
-- Registry changes: new stable genes and `COMB-0137`; memberships in existing
+- Registry changes after normalisation: 24 new stable genes and `COMB-0137`;
+  `SYS-216` and `SYS-299` are reused; memberships in existing
   families `FAM-008`, `FAM-010`, `FAM-015` and `FAM-017`.
-- Taxonomy-change record: none; no earlier gene is revised or deprecated.
+- Taxonomy-change record: `TAXONOMY_CHANGE_013`.
 - Candidate terms affected: none.
 
 ## Negative results
@@ -365,8 +377,8 @@ gene_ids:
 - No exact full-genome match and no prior verified combination subset.
 - `SYS-213` is not reused: Palworld's persistent generated open world is not a
   mutable block-addressable voxel world.
-- `SYS-216` is not reused: Palworld's current default Normal loss boundary is
-  world-setting-dependent rather than Minecraft's fixed full-inventory drop.
+- `SYS-216` is reused with Palworld's current Normal loss mode as its configured
+  carried-state-loss parameter; it does not imply Minecraft's full-inventory drop.
 - `ACT-189` is not reused: direct avatar locomotion plus limited Pal target
   direction does not become Dota's general destination/attack-move command model.
 
@@ -381,7 +393,7 @@ gene_ids:
 
 ## Нові гени
 
-- [Observation | Corroborated | High] Added 26 bounded capture, companion,
+- [Observation | Corroborated | High] Added 24 bounded capture, companion,
   base-work, survival, mission, information and ending genes.
 
 ## Нові комбінації
@@ -391,8 +403,8 @@ gene_ids:
 
 ## Зміни таксономії
 
-- [Observation | Corroborated | High] No taxonomy-change record; four existing
-  family memberships are reused.
+- [Observation | Corroborated | High] `TAXONOMY_CHANGE_013` records the two
+  system aliases; four existing family memberships are reused.
 
 ## Нові питання
 

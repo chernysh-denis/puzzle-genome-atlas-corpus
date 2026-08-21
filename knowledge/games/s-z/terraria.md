@@ -10,22 +10,22 @@ gene_ids:
   action:
     - ACT-008
     - ACT-040
+    - ACT-123
     - ACT-130
     - ACT-131
     - ACT-159
     - ACT-161
     - ACT-162
     - ACT-164
-    - ACT-252
   system:
     - SYS-004
     - SYS-212
     - SYS-213
     - SYS-215
+    - SYS-216
     - SYS-217
     - SYS-222
-    - SYS-314
-    - SYS-415
+    - SYS-353
     - SYS-416
     - SYS-417
     - SYS-418
@@ -158,8 +158,8 @@ gene_ids:
   armour or accessories; `ACT-130`, purchase an offered NPC item; `ACT-131`,
   consume a potion or permanent booster; `ACT-159`, target a reachable terrain
   cell to break; `ACT-161`, aim and strike; `ACT-162`, place a carried tile;
-  `ACT-164`, select the active hotbar item.
-- New gene: `ACT-252`, craft one currently offered station recipe.
+  `ACT-164`, select the active hotbar item; `ACT-123`, select a known personal
+  crafting recipe and quantity.
 - Parameters: direction, jump, hotbar slot, item, target tile, tool, placement
   layer, support, recipe, quantity, station, equipment slot and shop price.
 - Claim IDs: `TRR-002`–`TRR-006`, `TRR-008`.
@@ -170,9 +170,10 @@ gene_ids:
   resolve the targeted terrain break and item drop; `SYS-213`, generate the
   seed-determined mutable tile world; `SYS-215`, resolve direct real-time
   hostile combat; `SYS-217`, resolve tile placement and neighbour updates;
-  `SYS-222`, contact-pick up an eligible item; `SYS-314`, apply Classic death
-  loss and respawn while preserving the world.
-- New genes: `SYS-415`, resolve immediate station-gated crafting; `SYS-416`,
+  `SYS-222`, contact-pick up an eligible item; `SYS-216`, apply Classic death
+  loss and respawn while preserving the world; `SYS-353`, consume recipe inputs
+  and emit the known crafted output.
+- New genes: `SYS-416`,
   advance day/night ecology and local spawns; `SYS-417`, apply permanent
   character-capacity boosters; `SYS-418`, validate town housing; `SYS-419`,
   admit eligible NPCs; `SYS-420`, resolve the night-bound two-phase Eye.
@@ -303,7 +304,7 @@ gene_ids:
 
 ## Normalised genome
 
-The genome contains 39 genes: 23 reused and 16 new. It treats dimensionality,
+The genome contains 39 genes: 26 reused and 13 new. It treats dimensionality,
 world size, item counts, room dimensions, health thresholds and night duration
 as parameters while separating direct commands, automatic resolution, legality,
 disclosure, the composed first-boss objective and real-time scheduling.
@@ -507,6 +508,24 @@ strict subset of Terraria's genome.
 |---|---|---|---|
 | Minecraft (\`GAME-0129\`) | \`ACT-008\`, \`ACT-159\`, \`ACT-161\`, \`ACT-162\`, \`ACT-164\`, \`SYS-212\`, \`SYS-213\`, \`SYS-215\`, \`SYS-217\`, \`SYS-222\`, \`CON-206\`, \`CON-208\`, \`CON-210\`, \`INF-073\`, \`TIM-003\` | Minecraft uses 3D chunked terrain, spatial-grid crafting, hunger/durability, complete inventory death drops and End progression; Terraria uses finite layered terrain, offered station recipes, coin-only Classic loss, validated NPC housing, day/night ecology and the Eye-to-Dryad gate | nearest, not exact; \`15 / 59 = 0.254237\` |
 
+### Registry normalisation 006 score corrections
+
+These recomputed values supersede the pre-normalisation fractions above:
+
+- `GAME-0119`: `2 / 60 = 0.033333`
+- `GAME-0128`: `2 / 53 = 0.037736`
+- `GAME-0129`: `16 / 58 = 0.275862`
+- `GAME-0131`: `5 / 80 = 0.062500`
+- `GAME-0132`: `2 / 88 = 0.022727`
+- `GAME-0137`: `8 / 61 = 0.131148`
+- `GAME-0139`: `11 / 82 = 0.134146`
+- `GAME-0141`: `11 / 79 = 0.139241`
+- `GAME-0143`: `10 / 78 = 0.128205`
+- `GAME-0146`: `11 / 92 = 0.119565`
+- `GAME-0151`: `9 / 66 = 0.136364`
+- `GAME-0152`: `11 / 73 = 0.150685`
+- Current prior-corpus near match after normalisation 006: `GAME-0129`.
+
 ## Combination assessment
 
 `COMB-0151` is a 35-gene strict subset that retains mutable terrain,
@@ -548,7 +567,7 @@ generalisation 010.
 
 ## Нові гени
 
-- Adds `ACT-252`, `SYS-415`–`SYS-420`, `CON-366`–`CON-370`, `INF-163`–`INF-165`
+- Adds `SYS-416`–`SYS-420`, `CON-366`–`CON-370`, `INF-163`–`INF-165`
   and `OBJ-083`.
 
 ## Нові комбінації

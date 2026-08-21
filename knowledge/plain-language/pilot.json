@@ -12998,7 +12998,7 @@
           "exampleUk": "Це змінює роботу, ризик або наступний стан колонії.",
           "exampleEn": "This changes work, risk, or the colony’s next state."
         },
-        "SYS-207": {
+        "SYS-194": {
           "labelUk": "Завершувати дослідження працею за столом",
           "labelEn": "Complete staffed research and unlock colony technology",
           "explanationUk": "У RimWorld: Придатні дослідники додають поступ доступній технології та відкривають її після сплати вартості працею.",
@@ -13180,7 +13180,7 @@
           "exampleUk": "Додавання Constructor без нової генерації може вимкнути фабрику.",
           "exampleEn": "Adding a Constructor without new generation can shut down the factory."
         },
-        "OBJ-063": {
+        "OBJ-054": {
           "labelUk": "Запусти Project Assembly",
           "labelEn": "Launch Project Assembly",
           "explanationUk": "У Satisfactory: треба виготовити й доставити деталі всіх фінальних фаз, а потім запустити Project Assembly.",
@@ -13806,7 +13806,7 @@
           "exampleUk": "Наприклад, Рудні та нафтові резерви Factorio.",
           "exampleEn": "For example, Factorio ore tiles losing one unit per ordinary drill or hand-mined ore result and a drill shutting down after its covered patch is exhausted."
         },
-        "SYS-207": {
+        "SYS-194": {
           "labelUk": "Завершувати дослідження працею за столом",
           "labelEn": "Complete staffed research and unlock colony technology",
           "explanationUk": "Придатні дослідники додають поступ доступній технології та відкривають її після сплати вартості працею.",
@@ -14638,7 +14638,7 @@
           "exampleUk": "У межах кампанії Anno 1800 виконання будівельних, delivery, expedition і combat requirements переводить кампанію між послідовними главами та станами світу.",
           "exampleEn": "In the scoped Anno 1800 campaign, completing declared construction, delivery, expedition and combat requirements advances a persistent authored campaign through its chapters, changing available regions, characters and follow-up objectives."
         },
-        "SYS-252": {
+        "SYS-215": {
           "labelUk": "Розв’язувати прямо керований морський бій у реальному часі",
           "labelEn": "Resolve directly commanded real-time naval combat",
           "explanationUk": "Мобільні кораблі маневрують і обмінюються залежною від range, facing, cadence та armour шкодою до відступу або знищення.",
@@ -14844,7 +14844,7 @@
           "exampleUk": "Windmill піднімає battery у вітер, а battery живить mill у штиль.",
           "exampleEn": "A windmill raises the battery in wind, and the battery powers a mill in calm weather."
         },
-        "SYS-261": {
+        "SYS-192": {
           "labelUk": "Signals автоматично керують спорудами",
           "labelEn": "Signals control buildings automatically",
           "explanationUk": "Sensors вимірюють live state, logic перетворює signal, а target змінює operating state.",
@@ -15118,7 +15118,7 @@
           "exampleUk": "У Timberborn Інтерфейс показує current weather, remaining duration і next forecast за доступного warning.",
           "exampleEn": "In Timberborn, the interface identifies the current weather, remaining duration and next forecast when advance warning is available."
         },
-        "INF-093": {
+        "INF-086": {
           "labelUk": "Видимі population, well-being і work allocation",
           "labelEn": "Population, well-being and work allocation are visible",
           "explanationUk": "Панелі показують adults/children, housing, employment, vacancies, needs, effects і priorities.",
@@ -15236,7 +15236,7 @@
           "exampleUk": "У Workers & Resources: Soviet Republic Electricity, heat, water і sewage рухаються compatible networks із capacity, pressure, temperature та outage.",
           "exampleEn": "In Workers & Resources: Soviet Republic, Generated or imported electricity, heat, water and sewage move\n  through compatible networks, with capacity, pressure, temperature, loss and\n  outage changing building operation and citizen welfare."
         },
-        "SYS-272": {
+        "SYS-194": {
           "labelUk": "Перетворювати staffed university workdays на research",
           "labelEn": "Convert staffed university workdays into research unlocks",
           "explanationUk": "Qualified staff накопичує workdays обраного reachable project до unlock.",
@@ -15518,7 +15518,7 @@
           "exampleUk": "У Workers & Resources: Soviet Republic Гравець може побачити стан виробництва, електрики, логістики та причину простою окремих машин.",
           "exampleEn": "In Workers & Resources: Soviet Republic, Inspectable panels and overlays expose current production flow,\n  network satisfaction and spatial externalities so the player can locate a\n  running factory's bottleneck or risk without seeing every future event."
         },
-        "INF-097": {
+        "INF-086": {
           "labelUk": "Видимі citizen welfare, education і labour state",
           "labelEn": "Citizen welfare, education and labour state is visible",
           "explanationUk": "Панелі показують population, age, education, employment, health, happiness, loyalty і needs.",
@@ -15659,7 +15659,7 @@
         "CON-258": {"labelUk":"Law потребує preparation і voting support","labelEn":"Martian law requires preparation, eligibility and voting support","explanationUk":"Eligible prepared option мусить отримати required seat або faction support.","explanationEn":"An eligible prepared option must obtain the required seat or faction support.","exampleUk":"У Surviving Mars negotiated promise може забезпечити votes.","exampleEn":"In Surviving Mars, a negotiated promise can secure votes."},
         "CON-259": {"labelUk":"Assembly transition потребує dome spire","labelEn":"Martian Assembly transition requires a staffed dome spire","explanationUk":"Unlocked Assembly spire і governance choices замінюють Earth Council.","explanationEn":"An unlocked Assembly spire and governance choices replace the Earth Council.","exampleUk":"У Surviving Mars завершення spire створює Martian factions.","exampleEn":"In Surviving Mars, completing the spire creates Martian factions."},
         "CON-260": {"labelUk":"Independence потребує goals, law і payment","labelEn":"Independence requires colony, mission, law and payment gates","explanationUk":"Stability, sponsor/people goals, declaration і remaining price мають бути completed.","explanationEn":"Stability, sponsor and people goals, declaration, and the remaining price must be completed.","exampleUk":"У Surviving Mars declaration alone не робить colony free.","exampleEn":"In Surviving Mars, declaration alone does not make the colony free."},
-        "INF-093": {"labelUk":"Видимі population, well-being і work allocation","labelEn":"Population, well-being and work allocation are visible","explanationUk":"Panels показують age, housing, jobs, needs і welfare modifiers.","explanationEn":"Panels show age, housing, jobs, needs, and welfare modifiers.","exampleUk":"У Surviving Mars Command Center пояснює labour і comfort shortage.","exampleEn":"In Surviving Mars, the Command Center explains labour and comfort shortages."},
+        "INF-086": {"labelUk":"Видимі population, well-being і work allocation","labelEn":"Population, well-being and work allocation are visible","explanationUk":"Panels показують age, housing, jobs, needs і welfare modifiers.","explanationEn":"Panels show age, housing, jobs, needs, and welfare modifiers.","exampleUk":"У Surviving Mars Command Center пояснює labour і comfort shortage.","exampleEn":"In Surviving Mars, the Command Center explains labour and comfort shortages."},
         "INF-109": {"labelUk":"Видимі sectors, deposits і anomaly progress","labelEn":"Mars sectors, deposits and anomaly progress are visible","explanationUk":"Map показує scan progress і revealed contents, але не unscanned identities.","explanationEn":"The map shows scan progress and revealed contents, but not unscanned identities.","exampleUk":"У Surviving Mars Explorer pin показує anomaly analysis progress.","exampleEn":"In Surviving Mars, an Explorer pin shows anomaly-analysis progress."},
         "INF-110": {"labelUk":"Видимі drone areas, errands і resource access","labelEn":"Drone command areas, errands and resource access are visible","explanationUk":"Panels показують coverage, drones, pending work і missing route/resource.","explanationEn":"Panels show coverage, drones, pending work, and a missing route or resource.","exampleUk":"У Surviving Mars player бачить, чому remote repair не стартує.","exampleEn":"In Surviving Mars, the player can see why a remote repair will not start."},
         "INF-111": {"labelUk":"Видимі rocket manifests, flights і landing","labelEn":"Mars rocket manifests, flights and landing state are visible","explanationUk":"Rocket UI показує capacity, cargo, fuel, route, progress і landing state.","explanationEn":"Rocket UI shows capacity, cargo, fuel, route, progress, and landing state.","exampleUk":"У Surviving Mars manifest preview запобігає over-capacity dispatch.","exampleEn":"In Surviving Mars, manifest preview prevents over-capacity dispatch."},
@@ -15704,7 +15704,7 @@
     },
     "GAME-0137": {
       "genes": {
-        "ACT-182": {"labelUk":"Купити round equipment","labelEn":"Buy round equipment","explanationUk":"Money перетворюється на weapon, armour, grenade або kit лише у buy window.","explanationEn":"Money becomes a weapon, armour, grenade, or kit only during the buy window.","exampleUk":"У CS2 player може купити rifle або зберегти balance для next round.","exampleEn":"In CS2, a player can buy a rifle or preserve the balance for the next round."},
+        "ACT-130": {"labelUk":"Купити round equipment","labelEn":"Buy round equipment","explanationUk":"Money перетворюється на weapon, armour, grenade або kit лише у buy window.","explanationEn":"Money becomes a weapon, armour, grenade, or kit only during the buy window.","exampleUk":"У CS2 player може купити rifle або зберегти balance для next round.","exampleEn":"In CS2, a player can buy a rifle or preserve the balance for the next round."},
         "ACT-184": {"labelUk":"Кинути tactical grenade","labelEn":"Throw a tactical grenade","explanationUk":"Player задає trajectory одноразової utility.","explanationEn":"The player sets the trajectory of one single-use utility item.","exampleUk":"У CS2 smoke закриває sightline, а flash карає відкритий погляд.","exampleEn":"In CS2, smoke closes a sightline while a flash punishes an exposed view."},
         "ACT-185": {"labelUk":"Встановити або знешкодити C4","labelEn":"Plant or defuse C4","explanationUk":"Objective interaction має тривати без interruption.","explanationEn":"The objective interaction must continue without interruption.","exampleUk":"У CS2 kit скорочує defuse, але damage або movement перериває channel.","exampleEn":"In CS2, a kit shortens the defuse, but damage or movement can interrupt the channel."},
         "ACT-186": {"labelUk":"Передати equipment через drop","labelEn":"Transfer equipment through a drop","explanationUk":"Carried weapon або C4 стає world item для іншого player.","explanationEn":"A carried weapon or C4 becomes a world item for another player.","exampleUk":"У CS2 заможний teammate купує й drops rifle союзнику.","exampleEn":"In CS2, a richer teammate buys and drops a rifle for an ally."},
@@ -15776,7 +15776,7 @@
         "CON-269": {"labelUk":"Здібність має ціль, дальність і готовність","labelEn":"Abilities need target, range, and readiness","explanationUk":"Cast needs its legal form, target, mana or charges, cooldown and status.","explanationEn":"A cast needs its legal form, target, mana or charges, cooldown, and status.","exampleUk":"У Dota 2 silence or insufficient mana blocks a spell.","exampleEn":"In Dota 2, silence or insufficient mana blocks a spell."},
         "CON-270": {"labelUk":"Збірку обмежують рівні й таланти","labelEn":"Levels and talents bound the build","explanationUk":"Skill points enter only ranks and branches unlocked by current level.","explanationEn":"Skill points enter only ranks and branches unlocked by the current level.","exampleUk":"У Dota 2 a talent cannot be selected before its tier opens.","exampleEn":"In Dota 2, a talent cannot be selected before its tier opens."},
         "INF-119": {"labelUk":"Видимі здоров’я, мана й готовність героя","labelEn":"Hero health, mana, and readiness are visible","explanationUk":"The HUD exposes resources, level, build, effects and cooldowns.","explanationEn":"The HUD exposes resources, level, build, effects, and cooldowns.","exampleUk":"У Dota 2 the ability bar explains why a cast is unavailable.","exampleEn":"In Dota 2, the ability bar explains why a cast is unavailable."},
-        "INF-121": {"labelUk":"Видимі час, рахунок і стан споруд","labelEn":"Time, score, and structure state are visible","explanationUk":"The interface shows match time, team kills, buildings and objective announcements.","explanationEn":"The interface shows match time, team kills, buildings, and objective announcements.","exampleUk":"У Dota 2 the minimap shows which known towers and barracks remain.","exampleEn":"In Dota 2, the minimap shows which known towers and barracks remain."},
+        "INF-116": {"labelUk":"Видимі час, рахунок і стан споруд","labelEn":"Time, score, and structure state are visible","explanationUk":"The interface shows match time, team kills, buildings and objective announcements.","explanationEn":"The interface shows match time, team kills, buildings, and objective announcements.","exampleUk":"У Dota 2 the minimap shows which known towers and barracks remain.","exampleEn":"In Dota 2, the minimap shows which known towers and barracks remain."},
         "TIM-003": {"labelUk":"Усі системи йдуть у реальному часі","labelEn":"All systems progress in real time","explanationUk":"Movement, attacks, cooldowns, waves and respawns continue while players decide.","explanationEn":"Movement, attacks, cooldowns, waves, and respawns continue while players decide.","exampleUk":"У Dota 2 no turn boundary waits for the next command.","exampleEn":"In Dota 2, no turn boundary waits for the next command."}
       },
       "supporting": {
@@ -15791,7 +15791,7 @@
         "ACT-197": {"labelUk":"Активувати партнерську навичку","labelEn":"Activate a Partner Skill","explanationUk":"Eligible Pal дає mount, traversal або active field effect.","explanationEn":"An eligible Pal provides a mount, traversal, or active field effect.","exampleUk":"Потрібний key item може відкрити riding form.","exampleEn":"A required key item can unlock a riding form."},
         "SYS-307": {"labelUk":"Перевірити шанс захоплення","labelEn":"Resolve capture chance","explanationUk":"Target і sphere визначають chance; success stores the Pal.","explanationEn":"The target and sphere determine chance; success stores the Pal.","exampleUk":"Failed check leaves the creature in the world.","exampleEn":"A failed check leaves the creature in the world."},
         "SYS-308": {"labelUk":"Вести й битися автономним Палом","labelEn":"Follow and fight with companion AI","explanationUk":"Deployed Pal follows, targets hostiles і uses ready skills.","explanationEn":"A deployed Pal follows, targets hostiles, and uses ready skills.","exampleUk":"Recall ends its current field behaviour.","exampleEn":"Recall ends its current field behaviour."},
-        "SYS-309": {"labelUk":"Підвищувати рівні гравця й Палів","labelEn":"Raise player and Pal levels","explanationUk":"Capture і combat XP cross persistent level thresholds.","explanationEn":"Capture and combat experience cross persistent level thresholds.","exampleUk":"Capture bonus can advance the player level.","exampleEn":"A capture bonus can advance the player level."},
+        "SYS-299": {"labelUk":"Підвищувати рівні гравця й Палів","labelEn":"Raise player and Pal levels","explanationUk":"Capture і combat XP cross persistent level thresholds.","explanationEn":"Capture and combat experience cross persistent level thresholds.","exampleUk":"Capture bonus can advance the player level.","exampleEn":"A capture bonus can advance the player level."},
         "SYS-310": {"labelUk":"Розподіляти роботу за придатністю","labelEn":"Dispatch work by suitability","explanationUk":"Base Pal chooses reachable work its suitability permits.","explanationEn":"A base Pal chooses reachable work its suitability permits.","exampleUk":"Mining Pal claims mine work, not planting.","exampleEn":"A Mining Pal claims mine work, not planting."},
         "SYS-311": {"labelUk":"Оновлювати голод, SAN і стан","labelEn":"Update hunger, SAN, and condition","explanationUk":"Work and time drain needs; food, rest і care restore them.","explanationEn":"Work and time drain needs; food, rest, and care restore them.","exampleUk":"Low SAN can slow or interrupt base labour.","exampleEn":"Low SAN can slow or interrupt base labour."},
         "SYS-315": {"labelUk":"Просувати основні місії","labelEn":"Advance the main missions","explanationUk":"Completed gate exposes the next authored route or encounter.","explanationEn":"A completed gate exposes the next authored route or encounter.","exampleUk":"Panthalus in party opens the World Tree sequence.","exampleEn":"Panthalus in the party opens the World Tree sequence."},
@@ -15828,7 +15828,7 @@
         "SYS-223": {"labelUk":"Зношувати спорядження","labelEn":"Wear down equipment","explanationUk":"Eligible uses reduce durability toward breakage.","explanationEn":"Eligible uses reduce durability toward breakage.","exampleUk":"Tools and armour need repair or replacement.","exampleEn":"Tools and armour need repair or replacement."},
         "SYS-312": {"labelUk":"Завершувати роботу над рецептом","labelEn":"Complete recipe workload","explanationUk":"Supplied player or Pal work produces the item or structure.","explanationEn":"Supplied player or Pal work produces the item or structure.","exampleUk":"Handiwork completes a queued Sphere.","exampleEn":"Handiwork completes a queued Sphere."},
         "SYS-313": {"labelUk":"Зберігати відкритий світ","labelEn":"Preserve the open world","explanationUk":"Terrain, resources and built bases persist in the save.","explanationEn":"Terrain, resources, and built bases persist in the save.","exampleUk":"A constructed base remains after travel.","exampleEn":"A constructed base remains after travel."},
-        "SYS-314": {"labelUk":"Відроджувати після поразки","labelEn":"Respawn after defeat","explanationUk":"Death applies configured loss and returns the avatar in the same world.","explanationEn":"Death applies configured loss and returns the avatar in the same world.","exampleUk":"Default Normal defeat is recoverable.","exampleEn":"Default Normal defeat is recoverable."},
+        "SYS-216": {"labelUk":"Відроджувати після поразки","labelEn":"Respawn after defeat","explanationUk":"Death applies configured loss and returns the avatar in the same world.","explanationEn":"Death applies configured loss and returns the avatar in the same world.","exampleUk":"Default Normal defeat is recoverable.","exampleEn":"Default Normal defeat is recoverable."},
         "CON-062": {"labelUk":"Споруді потрібне сумісне місце","labelEn":"A structure needs a compatible footprint","explanationUk":"Terrain and overlap can reject placement.","explanationEn":"Terrain and overlap can reject placement.","exampleUk":"A workbench cannot overlap another structure.","exampleEn":"A workbench cannot overlap another structure."},
         "CON-192": {"labelUk":"Працівник має дістатися роботи","labelEn":"A worker must reach the job","explanationUk":"Permission, capability and path gate a task.","explanationEn":"Permission, capability, and path gate a task.","exampleUk":"Blocked access prevents base work.","exampleEn":"Blocked access prevents base work."},
         "CON-193": {"labelUk":"Будівництво потребує матеріалів","labelEn":"Construction needs materials","explanationUk":"Valid plan completes only after supply and work.","explanationEn":"A valid plan completes only after supply and work.","exampleUk":"Missing wood leaves the structure unfinished.","exampleEn":"Missing wood leaves the structure unfinished."},
@@ -16020,12 +16020,12 @@
         "ACT-216": {"labelUk":"Обшукати один закритий ресурс","labelEn":"Search one closed resource","explanationUk":"Timed nearby interaction відкриває contents container або disabled ARC.","explanationEn":"A timed nearby interaction reveals a container or disabled ARC contents.","exampleUk":"Завершений search відкриває items у locker.","exampleEn":"A completed search reveals the items in a locker."},
         "ACT-217": {"labelUk":"Захистити item у Safe Pocket","labelEn":"Protect an item in the Safe Pocket","explanationUk":"Eligible loot переходить у limited slot з окремим knockout rule.","explanationEn":"Eligible loot moves into a limited slot with a separate knockout rule.","exampleUk":"Rare component у Safe Pocket переживає defeat.","exampleEn":"A rare component in the Safe Pocket survives defeat."},
         "ACT-218": {"labelUk":"Запустити й увійти в extraction","labelEn":"Activate and enter extraction","explanationUk":"Raider виконує live exit interaction і заходить у departure zone до closure.","explanationEn":"The Raider completes a live exit interaction and enters its departure zone before closure.","exampleUk":"Викликаний elevator banks carried loot після departure.","exampleEn":"A called elevator banks carried loot after departure."},
-        "ACT-220": {"labelUk":"Вкласти point у Raider skill","labelEn":"Invest a point in a Raider skill","explanationUk":"Earned point permanently ranks one eligible tree node для later raids.","explanationEn":"An earned point permanently ranks one eligible tree node for later raids.","exampleUk":"Point відкриває quieter looting у Survival branch.","exampleEn":"A point unlocks quieter looting in the Survival branch."},
+        "ACT-191": {"labelUk":"Вкласти point у Raider skill","labelEn":"Invest a point in a Raider skill","explanationUk":"Earned point permanently ranks one eligible tree node для later raids.","explanationEn":"An earned point permanently ranks one eligible tree node for later raids.","exampleUk":"Point відкриває quieter looting у Survival branch.","exampleEn":"A point unlocks quieter looting in the Survival branch."},
         "SYS-346": {"labelUk":"Зібрати condition-bound shared raid","labelEn":"Build a condition-bound shared raid","explanationUk":"Matchmaking samples players, insertions, ARC і loot на authored map.","explanationEn":"Matchmaking samples players, insertions, ARC, and loot on an authored map.","exampleUk":"Normal Dam raid отримує нові insertion і loot states.","exampleEn":"A normal Dam raid receives new insertion and loot states."},
         "SYS-347": {"labelUk":"Повести ARC за perception cues","labelEn":"Route ARC from perception cues","explanationUk":"Machine бачить або чує target і переходить у typed movement та attack cycle.","explanationEn":"A machine sees or hears a target and enters its typed movement and attack cycle.","exampleUk":"Wasp реагує на gunfire і telegraphs attack.","exampleEn":"A Wasp reacts to gunfire and telegraphs an attack."},
         "SYS-349": {"labelUk":"Розрахувати extraction або втрату","labelEn":"Settle extraction or loss","explanationUk":"Raid result partitions carried state на returned і forfeited items.","explanationEn":"The raid result partitions carried state into returned and forfeited items.","exampleUk":"Successful exit повертає backpack до Speranza.","exampleEn":"A successful exit returns the backpack to Speranza."},
         "SYS-350": {"labelUk":"Зберегти protected loot після defeat","labelEn":"Retain protected loot after defeat","explanationUk":"Valid Safe Pocket contents bypass ordinary knockout forfeiture.","explanationEn":"Valid Safe Pocket contents bypass ordinary knockout forfeiture.","exampleUk":"Pocketed blueprint returns while unsecured materials disappear.","exampleEn":"A pocketed blueprint returns while unsecured materials disappear."},
-        "SYS-351": {"labelUk":"Перетворити raid actions на levels","labelEn":"Turn raid actions into levels","explanationUk":"Topside XP crosses thresholds і grants persistent levels та skill points.","explanationEn":"Topside XP crosses thresholds and grants persistent levels and skill points.","exampleUk":"Extraction XP pushes the Raider to a new level.","exampleEn":"Extraction XP pushes the Raider to a new level."},
+        "SYS-299": {"labelUk":"Перетворити raid actions на levels","labelEn":"Turn raid actions into levels","explanationUk":"Topside XP crosses thresholds і grants persistent levels та skill points.","explanationEn":"Topside XP crosses thresholds and grants persistent levels and skill points.","exampleUk":"Extraction XP pushes the Raider to a new level.","exampleEn":"Extraction XP pushes the Raider to a new level."},
         "SYS-352": {"labelUk":"Зберігати hub state між raids","labelEn":"Persist hub state between raids","explanationUk":"Extracted items, stations і learned recipes remain available для next loadout.","explanationEn":"Extracted items, stations, and learned recipes remain available for the next loadout.","exampleUk":"Returned components stay in the stash after the session closes.","exampleEn":"Returned components stay in the stash after the session closes."},
         "SYS-353": {"labelUk":"Перетворити inputs на Workshop output","labelEn":"Convert inputs into Workshop output","explanationUk":"Unlocked specialised station consumes retained recipe ingredients.","explanationEn":"An unlocked specialised station consumes retained recipe ingredients.","exampleUk":"Medical Lab converts materials into a bandage.","exampleEn":"The Medical Lab converts materials into a bandage."},
         "SYS-354": {"labelUk":"Підвищити loot разом із danger","labelEn":"Raise loot value with danger","explanationUk":"Riskier regions, access і Map Conditions змінюють possible rarity.","explanationEn":"Riskier regions, access states, and Map Conditions change possible rarity.","exampleUk":"Locked high-risk room rolls better gear than outskirts.","exampleEn":"A locked high-risk room rolls better gear than the outskirts."},
@@ -16257,7 +16257,7 @@
         "CON-340": {"labelUk":"Спочатку capture, потім escort","labelEn":"Capture first, then escort","explanationUk":"Vehicle progression is illegal before opening capture and pauses under opposing contest.","explanationEn":"Vehicle progression is illegal before the opening capture and pauses under opposing contest.","exampleUk":"Kills outside the point do not replace required capture presence.","exampleEn":"Kills outside the point do not replace required capture presence."},
         "CON-341": {"labelUk":"Тримати pressure для overtime","labelEn":"Maintain pressure for overtime","explanationUk":"Expired clock continues only while attackers meet current objective-pressure rules.","explanationEn":"An expired clock continues only while attackers meet the current objective-pressure rules.","exampleUk":"Clearing every attacker from the final vehicle ends overtime.","exampleEn":"Clearing every attacker from the final vehicle ends overtime."},
         "INF-150": {"labelUk":"Читати hero й Team-Up roster","labelEn":"Read the hero and Team-Up roster","explanationUk":"Selection UI exposes roles, kits, allied occupancy and two partner options before commitment.","explanationEn":"The selection interface exposes roles, kits, allied occupancy, and two partner options before commitment.","exampleUk":"Luna is marked Strategist beside her current Team-Up choices.","exampleEn":"Luna is marked as a Strategist beside her current Team-Up choices."},
-        "INF-151": {"labelUk":"Читати live objective HUD","labelEn":"Read the live objective HUD","explanationUk":"HUD shows team health, phase, progress, checkpoint, clock, contest, overtime and respawn.","explanationEn":"The HUD shows team health, phase, progress, checkpoint, clock, contest, overtime, and respawn.","exampleUk":"The route bar shows the latest secured checkpoint before reversal.","exampleEn":"The route bar shows the latest secured checkpoint before reversal."},
+        "INF-116": {"labelUk":"Читати live objective HUD","labelEn":"Read the live objective HUD","explanationUk":"HUD shows team health, phase, progress, checkpoint, clock, contest, overtime and respawn.","explanationEn":"The HUD shows team health, phase, progress, checkpoint, clock, contest, overtime, and respawn.","exampleUk":"The route bar shows the latest secured checkpoint before reversal.","exampleEn":"The route bar shows the latest secured checkpoint before reversal."},
         "OBJ-078": {"labelUk":"Завершити або зупинити Convergence route","labelEn":"Complete or deny the Convergence route","explanationUk":"Attack must capture and escort to the end; defence must deny that result through final overtime.","explanationEn":"Attack must capture and escort to the end; defence must deny that result through final overtime.","exampleUk":"Terminal vehicle arrival immediately awards the attackers.","exampleEn":"Terminal vehicle arrival immediately awards the attackers."}
       },
       "structural": {
@@ -16328,12 +16328,12 @@
     },
     "GAME-0149": {
       "genes": {
-        "ACT-239": {"labelUk":"Зібрати класове спорядження","labelEn":"Build the class loadout","explanationUk":"Клас задає шляхи підготовки й пристрої, а гравець обирає зброю та метальний предмет для наступного висадження.","explanationEn":"The class sets Training Paths and gadgets while the player chooses weapons and a throwable for the next deployment.","exampleUk":"Engineer бере ремонтний інструмент і протитанкову пускову установку перед появою.","exampleEn":"An Engineer takes a Repair Tool and an anti-vehicle launcher before spawning."},
+        "ACT-215": {"labelUk":"Зібрати класове спорядження","labelEn":"Build the class loadout","explanationUk":"Клас задає шляхи підготовки й пристрої, а гравець обирає зброю та метальний предмет для наступного висадження.","explanationEn":"The class sets Training Paths and gadgets while the player chooses weapons and a throwable for the next deployment.","exampleUk":"Engineer бере ремонтний інструмент і протитанкову пускову установку перед появою.","exampleEn":"An Engineer takes a Repair Tool and an anti-vehicle launcher before spawning."},
         "ACT-240": {"labelUk":"Обрати джерело висадження","labelEn":"Choose a deployment source","explanationUk":"Гравець підтверджує появу біля доступного штабу, точки, бійця загону, маяка або місця в техніці.","explanationEn":"The player commits a spawn at a currently legal HQ, point, squadmate, beacon, or vehicle seat.","exampleUk":"Після завершення таймера захоплена точка стає новим місцем входу в бій.","exampleEn":"A held point becomes a new entry position after the respawn timer."},
         "ACT-241": {"labelUk":"Перетягнути й оживити союзника","labelEn":"Drag and revive an ally","explanationUk":"Пораненого бійця можна відтягнути в укриття й повернути до керування до спливу кров’ю.","explanationEn":"A downed teammate can be dragged into cover and returned to live control before bleedout.","exampleUk":"Support завершує оживлення й зберігає одне командне підкріплення.","exampleEn":"Support completes the revive and preserves a team ticket."},
         "SYS-382": {"labelUk":"Повернути бійця після смерті","labelEn":"Return the soldier after death","explanationUk":"Зафіксована смерть блокує керування, а після скінченного очікування відкривається допустиме повторне висадження.","explanationEn":"A committed death blocks control, then a finite wait opens legal redeployment.","exampleUk":"Гравець чекає на мапі висадження, перш ніж обрати захоплену точку.","exampleEn":"The player waits on the deployment map before choosing a held point."},
         "SYS-386": {"labelUk":"Змінити геометрію бою руйнуванням","labelEn":"Change combat geometry through destruction","explanationUk":"Придатні стіни й укриття руйнуються, відкриваючи маршрути або лінії вогню, тоді як цілі лишаються доступними.","explanationEn":"Eligible walls and cover break to open routes or sightlines while objectives remain usable.","exampleUk":"Вибух відкриває новий кут прострілу в зону захоплення.","exampleEn":"An explosive impact opens a new angle into the capture area."},
-        "SYS-393": {"labelUk":"Застосувати ефект класового пристрою","labelEn":"Apply a class gadget effect","explanationUk":"Доступний пристрій лікує, поповнює запаси, ремонтує, виявляє, захищає або створює джерело появи.","explanationEn":"A legal gadget heals, resupplies, repairs, spots, protects, or supplies a spawn source.","exampleUk":"Ремонтний інструмент відновлює пошкоджений союзний танк.","exampleEn":"The Repair Tool restores a damaged allied tank."},
+        "SYS-380": {"labelUk":"Застосувати ефект класового пристрою","labelEn":"Apply a class gadget effect","explanationUk":"Доступний пристрій лікує, поповнює запаси, ремонтує, виявляє, захищає або створює джерело появи.","explanationEn":"A legal gadget heals, resupplies, repairs, spots, protects, or supplies a spawn source.","exampleUk":"Ремонтний інструмент відновлює пошкоджений союзний танк.","exampleEn":"The Repair Tool restores a damaged allied tank."},
         "SYS-394": {"labelUk":"Опрацювати поранення і смерть зі списанням","labelEn":"Resolve downing and ticketed death","explanationUk":"Оживлення скасовує втрату підкріплення; сплив кров’ю або відмова фіксує смерть і одне списання.","explanationEn":"A revive cancels ticket loss; bleedout or give-up commits death and one debit.","exampleUk":"Боєць, якого не оживили, забирає одне підкріплення із запасу команди.","exampleEn":"An unrevived soldier removes one reinforcement from the team pool."},
         "SYS-395": {"labelUk":"Перетворити присутність на володіння точкою","labelEn":"Convert presence into point ownership","explanationUk":"Присутність союзників просуває захоплення, а присутність ворога робить точку спірною.","explanationEn":"Friendly occupancy advances capture while enemy presence makes the point contested.","exampleUk":"Один захисник усередині зони зупиняє поступ нападників.","exampleEn":"One defender inside the area stops the attacking capture bar."},
         "SYS-396": {"labelUk":"Звести смерті й точки до запасу підкріплень","labelEn":"Aggregate deaths and points into tickets","explanationUk":"Смерті без оживлення й утримувані цілі виснажують спільні скінченні запаси підкріплень.","explanationEn":"Unrevived deaths and held objectives drain the shared finite reinforcement pools.","exampleUk":"Кілька союзних точок продовжують списувати ворожі підкріплення між перестрілками.","exampleEn":"Several allied points keep debiting enemy tickets between firefights."},
@@ -16371,7 +16371,7 @@
     },
     "GAME-0150": {
       "genes": {
-        "ACT-242": {"labelUk":"Зібрати Crest-loadout на Bench","labelEn":"Build a Crest loadout at a Bench","explanationUk":"Обраний Crest задає slots, у які ставляться сумісні acquired Tools.","explanationEn":"The selected Crest supplies the slots that accept compatible acquired Tools.","exampleUk":"Reaper Crest приймає Tool лише у відповідний кольоровий slot.","exampleEn":"The Reaper Crest accepts a Tool only in its matching coloured slot."},
+        "ACT-215": {"labelUk":"Зібрати Crest-loadout на Bench","labelEn":"Build a Crest loadout at a Bench","explanationUk":"Обраний Crest задає slots, у які ставляться сумісні acquired Tools.","explanationEn":"The selected Crest supplies the slots that accept compatible acquired Tools.","exampleUk":"Reaper Crest приймає Tool лише у відповідний кольоровий slot.","exampleEn":"The Reaper Crest accepts a Tool only in its matching coloured slot."},
         "SYS-397": {"labelUk":"Наповнювати й витрачати Silk","labelEn":"Build and spend Silk","explanationUk":"Needle hits дають Silk, а Bind і Skills витрачають спільний spool.","explanationEn":"Needle hits grant Silk while Bind and Skills spend the shared spool.","exampleUk":"Full Bind витрачає весь spool і лікує три masks.","exampleEn":"A full Bind spends the whole spool and heals three masks."},
         "SYS-398": {"labelUk":"Назавжди відкрити новий рух","labelEn":"Permanently unlock a new move","explanationUk":"Здобута ability лишається у save та відкриває всі compatible gates.","explanationEn":"An acquired ability stays in the save and opens every compatible gate.","exampleUk":"Swift Step робить dash edge доступним і після смерті.","exampleEn":"Swift Step keeps a dash edge available after death."},
         "SYS-399": {"labelUk":"Повернутися до Bench із Cocoon","labelEn":"Return to the Bench with a Cocoon","explanationUk":"Death залишає Rosaries у Cocoon, повертає Hornet і тимчасово cap-ить Silk.","explanationEn":"Death stores Rosaries in a Cocoon, returns Hornet, and temporarily caps Silk.","exampleUk":"Strike по Cocoon повертає Rosaries і normal spool.","exampleEn":"Striking the Cocoon restores Rosaries and the normal spool."},
@@ -16605,7 +16605,7 @@
             "exampleUk": "Level-up preview показує приріст HP і ціну, а flask menu — новий розподіл charges.",
             "exampleEn": "The level-up preview shows the HP gain and price, while the flask menu shows the new charge split."
           },
-          "OBJ-082": {
+          "OBJ-080": {
             "labelUk": "Перемогти Margit і перейти threshold Stormveil",
             "labelEn": "Defeat Margit and cross the first Stormveil threshold",
             "explanationUk": "Від fresh character дійти до castle approach, перемогти Margit і перейти newly accessible entrance.",
@@ -16813,7 +16813,7 @@
       },
     "GAME-0153": {
       "genes": {
-        "ACT-252": {
+        "ACT-123": {
           "labelUk": "Виготовити один доступний рецепт біля станції",
           "labelEn": "Craft one currently offered station recipe",
           "explanationUk": "Гравець обирає рецепт, доступний через carried або reachable ingredients і nearby stations, та негайно виготовляє заявлену кількість.",
@@ -16821,7 +16821,7 @@
           "exampleUk": "Біля Work Bench гравець обирає Wooden Sword і витрачає сім Wood.",
           "exampleEn": "At a Work Bench, the player selects a Wooden Sword and spends seven Wood."
         },
-        "SYS-415": {
+        "SYS-353": {
           "labelUk": "Розв’язувати негайне station-gated crafting",
           "labelEn": "Resolve immediate station-gated recipe crafting",
           "explanationUk": "Legal craft витрачає потрібні кількості з eligible inventory sources і негайно створює declared output без work queue.",
@@ -17023,7 +17023,7 @@
           "exampleUk": "Розміщений Wood Block витрачається зі stack і з’єднує texture із сусідніми блоками.",
           "exampleEn": "A placed Wood Block is consumed from the stack and connects its texture to neighbouring blocks."
         },
-        "SYS-314": {
+        "SYS-216": {
           "labelUk": "Вирішувати avatar defeat, loss і respawn",
           "labelEn": "Resolve avatar defeat, inventory loss and world respawn",
           "explanationUk": "Lethal damage applies current loss rule and returns avatar at respawn point in same persistent world.",

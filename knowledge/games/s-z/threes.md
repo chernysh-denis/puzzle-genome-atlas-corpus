@@ -16,8 +16,8 @@ gene_ids:
     - SYS-023
   constraint:
     - CON-001
-    - CON-003
     - CON-002
+    - CON-003
     - CON-038
   information:
     - INF-001

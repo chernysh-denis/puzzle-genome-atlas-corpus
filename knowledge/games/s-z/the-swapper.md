@@ -9,8 +9,8 @@ combination_ids:
 gene_ids:
   action:
     - ACT-008
-    - ACT-054
     - ACT-052
+    - ACT-054
   system:
     - SYS-036
     - SYS-037

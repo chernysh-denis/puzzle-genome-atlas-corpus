@@ -392,6 +392,14 @@ Exhaustive prior-game ledger:
   protagonists, then converting specialist planning into a multi-role heist and
   the terminal branch into retained roster state.
 
+### Registry normalisation 006 score corrections
+
+These recomputed values supersede the pre-normalisation fractions above:
+
+- `GAME-0132`: `2 / 97 = 0.020619`
+- `GAME-0137`: `14 / 64 = 0.218750`
+- Current prior-corpus near match after normalisation 006: `GAME-0137`.
+
 ## Taxonomy impact
 
 - Registry changes: 22 new bounded genes and `COMB-0143`; `ACT-130`, `ACT-140`,

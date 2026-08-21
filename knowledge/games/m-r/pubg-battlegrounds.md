@@ -360,6 +360,13 @@ limited to those records; ties are retained.
   while aerial commitment, random match loadout, drive/zone coupling, permanent
   Solo elimination and terrain excavation have distinct operational boundaries.
 
+### Registry normalisation 006 score corrections
+
+These recomputed values supersede the pre-normalisation fractions above:
+
+- `GAME-0132`: `2 / 92 = 0.021739`
+- Current prior-corpus near match after normalisation 006: `GAME-0137`.
+
 ## Taxonomy impact
 
 - Registry changes: add 29 bounded active genes and `COMB-0138`; reuse existing

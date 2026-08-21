@@ -1702,19 +1702,17 @@
 - Evidence: [Dyson Sphere Program decomposition](../games/a-f/dyson-sphere-program.md).
 - Novelty: not assessed.
 
-## INF-086 — Residence needs, population tiers and workforce are visible
+## INF-086 — Settlement population, needs and workforce state are visible
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: residence and island panels expose current basic and luxury need
-  fulfilment, occupancy, happiness, tier and available versus required workforce.
-- Includes: Anno 1800 residence and workforce interfaces.
-- Excludes: hidden future consumption variation; production-chain throughput;
-  island fertility.
-- Parameters: need, supply, occupancy, happiness, tier, workforce and shortage.
-- Evidence: [Anno 1800 decomposition](../games/a-f/anno-1800.md).
+- Definition: inspectable settlement panels expose population groups, housing, needs or well-being, employment, vacancies and available versus required workforce.
+- Includes: Anno 1800 residence/workforce, Timberborn population/well-being, Workers & Resources citizen/labour and Surviving Mars population/work-allocation interfaces.
+- Excludes: hidden future births or exact death time; production throughput without population state; aggregate score alone.
+- Parameters: species or citizen groups, age, tier, housing, need schema, education, health, happiness, loyalty and work priorities.
+- Evidence: [Anno 1800 decomposition](../games/a-f/anno-1800.md), [Timberborn decomposition](../games/s-z/timberborn.md), [Workers & Resources: Soviet Republic decomposition](../games/s-z/workers-resources-soviet-republic.md) and [Surviving Mars: Relaunched decomposition](../games/s-z/surviving-mars.md).
 - Novelty: not assessed.
 
 ## INF-087 — Island storage and trade-route orders are visible
@@ -1811,17 +1809,20 @@
 
 ## INF-093 — Population, well-being and work allocation are visible
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: panels expose adults, children, housing, employment, vacancies,
-  individual needs, well-being effects and work priorities.
-- Includes: Timberborn population, workplace and well-being interfaces.
-- Excludes: hidden future births or exact death time; aggregate score alone.
-- Parameters: age, housing, job, vacancy, need, effect and priority.
+- Definition: historical game-specific duplicate now represented by the
+  parameterised active boundary `INF-086`.
+- Includes: historical references that used `INF-093` before registry
+  normalisation 006.
+- Excludes: new game signatures; use `INF-086` with the scoped parameters and
+  any retained companion Constraints or System behaviours.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Timberborn decomposition](../games/s-z/timberborn.md).
-- Novelty: not assessed.
+- Merged into: `INF-086` by
+  [`TAXONOMY_CHANGE_014`](../../research/taxonomy-changes/TAXONOMY_CHANGE_014.md).
 
 ## INF-094 — Goods, production and power-network state are visible
 
@@ -1867,17 +1868,20 @@
 
 ## INF-097 — Citizen welfare, education and labour state is visible
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: panels expose population, age, education, employment, health,
-  happiness, loyalty and unmet needs at citizen and republic scales.
-- Includes: Workers & Resources citizen and population panels.
-- Excludes: exact future births or hidden personal decisions.
-- Parameters: population group, need, capability, status and trend.
+- Definition: historical game-specific duplicate now represented by the
+  parameterised active boundary `INF-086`.
+- Includes: historical references that used `INF-097` before registry
+  normalisation 006.
+- Excludes: new game signatures; use `INF-086` with the scoped parameters and
+  any retained companion Constraints or System behaviours.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Workers & Resources: Soviet Republic decomposition](../games/s-z/workers-resources-soviet-republic.md).
-- Novelty: not assessed.
+- Merged into: `INF-086` by
+  [`TAXONOMY_CHANGE_014`](../../research/taxonomy-changes/TAXONOMY_CHANGE_014.md).
 
 ## INF-098 — Lines, passengers, vehicles and traffic state are visible
 
@@ -2172,22 +2176,17 @@
   [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md).
 - Novelty: not assessed.
 
-## INF-116 — Team map and status expose shared allied objective state
+## INF-116 — Live team, score and shared-objective state are visible
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the interface combines each player's local state with persistent
-  teammate, score or shared-resource and objective information plus eligible
-  shared sightings on a team-oriented radar or map.
-- Includes: Counter-Strike 2 HUD, team counter, radar, round clock, score and C4
-  state; Battlefield 6 squad/team map, tickets, control ownership and sightings.
-- Excludes: permanent omniscient enemy tracking; post-round replay analysis.
-- Parameters: team, radar or map, sightings, living state, objective state,
-  shared resource, score and clock.
-- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md) and
-  [Battlefield 6 decomposition](../games/a-f/battlefield-6.md).
+- Definition: the live team interface exposes eligible allied status, match clock or score and current shared-objective ownership, progress or phase state.
+- Includes: Counter-Strike 2, Dota 2, Marvel Rivals and Battlefield 6 team HUD, radar or minimap and objective state.
+- Excludes: permanent omniscient enemy tracking; post-match analytics; account rank.
+- Parameters: team frames, allied state, radar or minimap, shared sightings, clock, score, objective schema, phase and respawn notice.
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md), [Dota 2 decomposition](../games/a-f/dota-2.md), [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md) and [Battlefield 6 decomposition](../games/a-f/battlefield-6.md).
 - Novelty: not assessed.
 
 ## INF-117 — Personal economy and purchase state are visible
@@ -2267,17 +2266,20 @@
 
 ## INF-121 — Team clock, score, structures and objectives are visible
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the interface exposes match time, team kills, allied and known
-  enemy building state plus current major-objective and respawn announcements.
-- Includes: Dota 2 top bar, clock, minimap buildings and objective messages.
-- Excludes: hidden enemy movement; post-match analytics.
-- Parameters: clock, team, kills, structure, objective and announcement.
+- Definition: historical game-specific duplicate now represented by the
+  parameterised active boundary `INF-116`.
+- Includes: historical references that used `INF-121` before registry
+  normalisation 006.
+- Excludes: new game signatures; use `INF-116` with the scoped parameters and
+  any retained companion Constraints or System behaviours.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md).
-- Novelty: not assessed.
+- Merged into: `INF-116` by
+  [`TAXONOMY_CHANGE_014`](../../research/taxonomy-changes/TAXONOMY_CHANGE_014.md).
 
 ## INF-122 — Capture probability and attempt state are visible
 
@@ -2788,19 +2790,20 @@
 
 ## INF-151 — Match HUD exposes team, phase and live objective state
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the live interface exposes allied hero and health state, current
-  Convergence phase, capture or route progress, checkpoint, remaining time,
-  contest or overtime status and personal respawn countdown.
-- Includes: Marvel Rivals Quick Match Convergence team frames and objective HUD.
-- Excludes: omniscient enemy positions; post-match analytics; Competitive rank.
-- Parameters: allies, health, role, phase, progress, checkpoint, clock, contest,
-  overtime, respawn and result.
+- Definition: historical game-specific duplicate now represented by the
+  parameterised active boundary `INF-116`.
+- Includes: historical references that used `INF-151` before registry
+  normalisation 006.
+- Excludes: new game signatures; use `INF-116` with the scoped parameters and
+  any retained companion Constraints or System behaviours.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md).
-- Novelty: not assessed.
+- Merged into: `INF-116` by
+  [`TAXONOMY_CHANGE_014`](../../research/taxonomy-changes/TAXONOMY_CHANGE_014.md).
 
 ## INF-152 — Dice interface exposes difficulty, modifiers and reroll state
 

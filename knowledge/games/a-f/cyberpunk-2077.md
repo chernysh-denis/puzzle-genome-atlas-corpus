@@ -379,6 +379,16 @@ Exhaustive prior-game ledger:
 - GAME-0141: 12 / 103 = 0.116505; GAME-0142: 12 / 103 = 0.116505; GAME-0143: 12 / 101 = 0.118812; GAME-0144: 10 / 89 = 0.112360.
 - GAME-0145: 30 / 82 = 0.365854.
 
+### Registry normalisation 006 score corrections
+
+These recomputed values supersede the pre-normalisation fractions above:
+
+- `GAME-0132`: `2 / 113 = 0.017699`
+- `GAME-0137`: `12 / 82 = 0.146341`
+- `GAME-0139`: `10 / 108 = 0.092593`
+- `GAME-0143`: `14 / 99 = 0.141414`
+- Current prior-corpus near match after normalisation 006: `GAME-0145`.
+
 ## Taxonomy impact
 
 - Registry changes: 23 new bounded genes and `COMB-0144`; 41 existing genes

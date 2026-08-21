@@ -1104,23 +1104,17 @@
   and [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
 - Novelty: not assessed.
 
-## OBJ-054 — Research, construct and launch the first rocket
+## OBJ-054 — Complete and launch a constructed terminal production project
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: complete a base freeplay production run by researching the
-  required technologies, manufacturing the dependent components, constructing
-  a rocket silo and launching the first valid rocket payload.
-- Includes: the ordinary first-rocket victory condition in Factorio 2.0 base
-  freeplay, including the option to continue the same save after victory.
-- Excludes: merely unlocking the rocket-silo technology; launching through the
-  Space Age expansion progression; open-ended throughput optimisation without
-  completing the first launch.
-- Parameters: technology prerequisites, silo construction cost, rocket-part
-  recipe, launch payload, production throughput and post-victory continuation.
-- Evidence: [Factorio decomposition](../games/a-f/factorio.md).
+- Definition: finish a finite factory progression by researching and manufacturing the dependent components, constructing or supplying its terminal project and performing the valid launch that marks completion.
+- Includes: Factorio and Captain of Industry first-rocket launches and Satisfactory Project Assembly launch.
+- Excludes: unlocking one prerequisite; completing one intermediate delivery; open-ended throughput optimisation without the terminal launch.
+- Parameters: technology chain, component recipes, delivery phases, terminal structure, payload, launch channel and post-completion continuation.
+- Evidence: [Factorio decomposition](../games/a-f/factorio.md), [Captain of Industry decomposition](../games/a-f/captain-of-industry.md) and [Satisfactory decomposition](../games/s-z/satisfactory.md).
 - Novelty: not assessed.
 
 ## OBJ-055 — Defeat the third-act boss in one continuous climb
@@ -1260,22 +1254,20 @@
 
 ## OBJ-063 — Complete and launch Project Assembly
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: finish the base factory progression by manufacturing and
-  delivering the required Project Assembly parts through its final phase, then
-  perform the final launch that presents the ending.
-- Includes: Satisfactory 1.0 completing Space Elevator Phase 5 and launching
-  Project Assembly.
-- Excludes: launching Factorio's first rocket payload; completing a single
-  intermediate milestone delivery; indefinite factory optimisation after an
-  ending.
-- Parameters: phase count, required product sets and quantities, delivery
-  channel, launch sequence and post-ending continuation.
+- Definition: historical game-specific duplicate now represented by the
+  parameterised active boundary `OBJ-054`.
+- Includes: historical references that used `OBJ-063` before registry
+  normalisation 006.
+- Excludes: new game signatures; use `OBJ-054` with the scoped parameters and
+  any retained companion Constraints or System behaviours.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Satisfactory decomposition](../games/s-z/satisfactory.md).
-- Novelty: not assessed.
+- Merged into: `OBJ-054` by
+  [`TAXONOMY_CHANGE_015`](../../research/taxonomy-changes/TAXONOMY_CHANGE_015.md).
 
 ## OBJ-064 — Defeat the Ender Dragon and enter the exit portal
 
@@ -1544,23 +1536,17 @@
 - Evidence: [Battlefield 6 decomposition](../games/a-f/battlefield-6.md).
 - Novelty: not assessed.
 
-## OBJ-080 — Enter the next act through traversal gates and a route guardian
+## OBJ-080 — Defeat a route guardian and cross the opened progression threshold
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: complete a bounded authored act by acquiring its required route
-  capabilities, activating every required regional gate, applying the retained
-  interaction ability at the act gate and defeating the resulting guardian
-  before crossing into the next act.
-- Includes: Hollow Knight: Silksong Act 1 completion through five Bellshrines,
-  Needolin at the Grand Gate, Last Judge defeat and first Citadel entry.
-- Excludes: reaching the gate with fewer required shrines; defeating an optional
-  boss; completing later acts or every optional wish.
-- Parameters: required capabilities, regional gates, interaction ability, act
-  gate, guardian, victory state and next-act boundary.
-- Evidence: [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md).
+- Definition: complete a bounded authored route by satisfying its required access state, defeating the mandatory guardian and crossing the newly opened threshold into the next declared progression region or act.
+- Includes: Hollow Knight: Silksong Act 1 entry into the Citadel and Elden Ring entry into Stormveil after Margit.
+- Excludes: defeating an optional boss; reaching but not crossing the threshold; bypassing the scoped guardian; full-game completion.
+- Parameters: required capabilities or gates, guardian, victory state, opened threshold, next region and retained progression.
+- Evidence: [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md) and [Elden Ring decomposition](../games/a-f/elden-ring.md).
 - Novelty: not assessed.
 
 ## OBJ-081 — Complete ordered prologue hunts and reach the next region boundary
@@ -1583,17 +1569,20 @@
 
 ## OBJ-082 — Defeat Margit and cross the first Stormveil threshold
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: from a fresh character, reach the castle approach, defeat Margit,
-  the Fell Omen, and enter the newly accessible Stormveil threshold.
-- Includes: Elden Ring base-game opening through the first legacy-dungeon entry.
-- Excludes: bypassing Margit to Liurnia; defeating Godrick; full-game completion.
-- Parameters: fresh save, Margit state, post-boss Grace and threshold crossing.
+- Definition: historical game-specific duplicate now represented by the
+  parameterised active boundary `OBJ-080`.
+- Includes: historical references that used `OBJ-082` before registry
+  normalisation 006.
+- Excludes: new game signatures; use `OBJ-080` with the scoped parameters and
+  any retained companion Constraints or System behaviours.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Elden Ring decomposition](../games/a-f/elden-ring.md).
-- Novelty: not assessed.
+- Merged into: `OBJ-080` by
+  [`TAXONOMY_CHANGE_015`](../../research/taxonomy-changes/TAXONOMY_CHANGE_015.md).
 
 ## OBJ-083 — Defeat the first Eye and house the eligible Dryad
 

@@ -9,9 +9,9 @@ combination_ids:
 gene_ids:
   action:
     - ACT-008
+    - ACT-130
     - ACT-161
     - ACT-164
-    - ACT-182
     - ACT-183
     - ACT-184
     - ACT-185
@@ -109,8 +109,8 @@ gene_ids:
 
 - Existing gene IDs: `ACT-008`, direct first-person traversal; `ACT-161`, aimed
   direct firearm, knife or utility attack; `ACT-164`, select one carried weapon,
-  grenade, knife or C4 as the active hand.
-- New genes: `ACT-182`, buy one round item; `ACT-183`, reload the active
+  grenade, knife or C4 as the active hand; `ACT-130`, buy one offered asset.
+- New genes: `ACT-183`, reload the active
   magazine; `ACT-184`, prime and throw one tactical grenade; `ACT-185`, hold a
   plant/defuse channel; `ACT-186`, drop equipment for redistribution;
   `ACT-187`, communicate a live team cue.
@@ -231,7 +231,7 @@ gene_ids:
 
 | Type | Active gene IDs | Candidate genes or parameters |
 |---|---|---|
-| Action | `ACT-008`, `ACT-161`, `ACT-164`, `ACT-182`–`ACT-187` | aim, stance, throw strength and communication vocabulary are parameters |
+| Action | `ACT-008`, `ACT-161`, `ACT-164`, `ACT-130`–`ACT-187` | aim, stance, throw strength and communication vocabulary are parameters |
 | System Behaviour | `SYS-208`, `SYS-215`, `SYS-222`, `SYS-292`–`SYS-296` | recoil/spread remain attack-resolution parameters |
 | Constraint | `CON-261`–`CON-267` | map geometry, prices and exact timers are parameters |
 | Information | `INF-073`, `INF-115`–`INF-117` | radar scale and sound ranges are parameters |
@@ -240,7 +240,7 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-161,ACT-164,ACT-182,ACT-183,ACT-184,ACT-185,ACT-186,ACT-187; SYS-208,SYS-215,SYS-222,SYS-292,SYS-293,SYS-294,SYS-295,SYS-296; CON-261,CON-262,CON-263,CON-264,CON-265,CON-266,CON-267; INF-073,INF-115,INF-116,INF-117; OBJ-071; TIM-003`.
+- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-161,ACT-164,ACT-130,ACT-183,ACT-184,ACT-185,ACT-186,ACT-187; SYS-208,SYS-215,SYS-222,SYS-292,SYS-293,SYS-294,SYS-295,SYS-296; CON-261,CON-262,CON-263,CON-264,CON-265,CON-266,CON-267; INF-073,INF-115,INF-116,INF-117; OBJ-071; TIM-003`.
 - Indexed games scanned: 136 (`GAME-0001`–`GAME-0136`).
 - Indexed combinations scanned: 134 (`COMB-0001`–`COMB-0134`).
 - Exact genome matches: none.
@@ -290,7 +290,7 @@ gene_ids:
 |---|---|---|---|
 | Minecraft (`GAME-0129`) | `ACT-008`, `ACT-161`, `ACT-164`, `SYS-215`, `SYS-222`, `INF-073`, `TIM-003` | persistent voxel survival/crafting and ordinary respawn versus finite team rounds, economy, partial opponent information and bomb objectives | provisional nearest at `7 / 58 = 0.120690` |
 
-- New genes: `ACT-182`–`ACT-187`, `SYS-292`–`SYS-296`, `CON-261`–`CON-267`,
+- New genes: `ACT-183`–`ACT-187`, `SYS-292`–`SYS-296`, `CON-261`–`CON-267`,
   `INF-115`–`INF-117`, `OBJ-071`.
 - Classification result: `New gene` and new combination of known/new genes.
 - Evidence and reasoning: existing combat/navigation/item genes preserve their
@@ -298,11 +298,21 @@ gene_ids:
   one-life round participation, asymmetric C4 timing and shared partial team
   information rather than promoting weapon statistics into genes.
 
+### Registry normalisation 006 score corrections
+
+These recomputed values supersede the pre-normalisation fractions above:
+
+- `GAME-0120`: `1 / 58 = 0.017241`
+- `GAME-0123`: `1 / 67 = 0.014925`
+- `GAME-0124`: `2 / 75 = 0.026667`
+- `GAME-0132`: `2 / 79 = 0.025316`
+- Current prior-corpus near match after normalisation 006: `GAME-0129`.
+
 ## Taxonomy impact
 
-- Registry changes: 22 bounded active genes and added CS2 evidence for seven
-  reused records.
-- Taxonomy-change record: none.
+- Registry changes after normalisation: 21 bounded active genes and added CS2
+  evidence for eight reused records.
+- Taxonomy-change record: `TAXONOMY_CHANGE_012`.
 - Candidate terms affected: recoil pattern, counter-strafing, wallbang and save
   are parameters or strategies inside admitted genes, not separate genes.
 
@@ -321,7 +331,7 @@ gene_ids:
 
 ## Нові гени
 
-- [Observation | Corroborated | High] Додано 22 genes для buy/reload/utility,
+- [Observation | Corroborated | High] Додано 21 gene для reload/utility,
   plant-defuse control, team cues, round death/economy/adjudication, bomb clocks,
   partial team information і match victory.
 

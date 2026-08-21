@@ -3689,18 +3689,17 @@
 - Evidence: [Oxygen Not Included decomposition](../games/m-r/oxygen-not-included.md).
 - Novelty: not assessed.
 
-## SYS-192 — Propagate automation signal to building state
+## SYS-192 — Propagate automation signals into target operating state
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: sensors and logic evaluate visible state, propagate binary signals
-  through an authored network and control connected buildings without workers.
-- Includes: Oxygen Not Included smart batteries, atmo sensors, pumps and logic gates.
-- Excludes: direct toggles; recipe filters; electric power flow itself.
-- Parameters: sensor, threshold, truth function, topology, signal, delay and controlled port.
-- Evidence: [Oxygen Not Included decomposition](../games/m-r/oxygen-not-included.md).
+- Definition: sensors sample visible simulation values, authored logic propagates or transforms signals, and connected targets adopt the resulting operating state without another player command.
+- Includes: Oxygen Not Included automation networks and Timberborn water, weather and power automation.
+- Excludes: direct toggles; recipe filters without signal evaluation; electric power flow itself; hidden AI decisions.
+- Parameters: sensor, signal domain, logic graph, target, state and update cadence.
+- Evidence: [Oxygen Not Included decomposition](../games/m-r/oxygen-not-included.md) and [Timberborn decomposition](../games/s-z/timberborn.md).
 - Novelty: not assessed.
 
 ## SYS-193 — Refresh bounded Printing Pod offer
@@ -3717,18 +3716,17 @@
 - Evidence: [Oxygen Not Included decomposition](../games/m-r/oxygen-not-included.md).
 - Novelty: not assessed.
 
-## SYS-194 — Complete staffed research from typed points
+## SYS-194 — Complete staffed research into a technology unlock
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: eligible agents operate supplied stations to consume material and
-  power, produce required research-point types and unlock the target when costs are met.
-- Includes: Oxygen Not Included Research Station, Super Computer, Telescope and Virtual Planetarium.
-- Excludes: unstaffed laboratory research; passive experience; ordinary recipes.
-- Parameters: station, skill, material, power, point type, target cost, progress and unlocks.
-- Evidence: [Oxygen Not Included decomposition](../games/m-r/oxygen-not-included.md).
+- Definition: eligible staff operate suitable supplied research facilities to accumulate the selected project's required typed progress and unlock it when its cost is met.
+- Includes: Oxygen Not Included research stations, RimWorld benches, Frostpunk workshops and Workers & Resources staffed universities.
+- Excludes: unstaffed laboratory packs; instant catalogue purchase; passive personal experience; ordinary crafting.
+- Parameters: staff eligibility, facility, supply, progress type, project prerequisites, cost and unlock.
+- Evidence: [Oxygen Not Included decomposition](../games/m-r/oxygen-not-included.md), [RimWorld decomposition](../games/m-r/rimworld.md), [Frostpunk decomposition](../games/a-f/frostpunk.md) and [Workers & Resources: Soviet Republic decomposition](../games/s-z/workers-resources-soviet-republic.md).
 - Novelty: not assessed.
 
 ## SYS-195 — Generate persistent historical world and concealed fortress site
@@ -3914,17 +3912,20 @@
 
 ## SYS-207 — Complete staffed research and unlock colony technology
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: eligible researchers operate suitable benches to add persistent
-  progress to the selected prerequisite-valid project and unlock it at its cost.
-- Includes: RimWorld base-game research from simple and hi-tech benches.
-- Excludes: unstaffed laboratory packs; passive personal experience; ordinary crafting.
-- Parameters: project, prerequisites, bench, facilities, researcher, speed, cost and unlocks.
+- Definition: historical game-specific duplicate now represented by the
+  parameterised active boundary `SYS-194`.
+- Includes: historical references that used `SYS-207` before registry
+  normalisation 006.
+- Excludes: new game signatures; use `SYS-194` with the scoped parameters and
+  any retained companion Constraints or System behaviours.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [RimWorld decomposition](../games/m-r/rimworld.md).
-- Novelty: not assessed.
+- Merged into: `SYS-194` by
+  [`TAXONOMY_CHANGE_013`](../../research/taxonomy-changes/TAXONOMY_CHANGE_013.md).
 
 ## SYS-208 — Resolve drafted ranged attack through cover and body hit
 
@@ -4052,48 +4053,30 @@
 - Evidence: [Minecraft decomposition](../games/m-r/minecraft.md).
 - Novelty: not assessed.
 
-## SYS-215 — Resolve direct real-time hostile combat
+## SYS-215 — Resolve directly commanded real-time hostile combat
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: direct avatar and hostile attacks apply range, cooldown, damage,
-  armour, knockback and defeat effects while the world continues in real time.
-- Includes: Minecraft Survival hostile-mob fights and Ender Dragon attacks;
-  Counter-Strike 2 firefights; Dota 2 hero attacks and ability combat; and
-  Cyberpunk 2077 firearm, melee and offensive quickhack combat; Marvel Rivals
-  simultaneous hero attacks and damaging abilities; Hollow Knight: Silksong
-  needle, Tool and Silk Skill combat against live hostiles.
-- Excludes: autonomous squad engagement; a telegraphed turn queue; a boss with
-  no linked destructible healing condition.
-- Parameters: target, attack, armour, cooldown, projectile, damage, knockback
-  and defeat drop.
-- Evidence: [Minecraft decomposition](../games/m-r/minecraft.md),
-  [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md), and
-  [Dota 2 decomposition](../games/a-f/dota-2.md), and
-  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
-  [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md),
-  [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md), and
-  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
-- Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Definition: directly controlled combatants acquire or receive legal targets and exchange range-, cadence-, damage-, defence- and defeat-dependent effects while the world continues in real time.
+- Includes: embodied avatar combat, team firefights and Anno 1800 directly commanded naval combat.
+- Excludes: autonomous squad engagement; a telegraphed turn queue; non-combat collision damage; harbour fire with no relevant command.
+- Parameters: combatant body, locomotion domain, target command, range, facing, cooldown, damage, armour, knockback and retreat.
+- Evidence: [Minecraft decomposition](../games/m-r/minecraft.md), [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md), [Dota 2 decomposition](../games/a-f/dota-2.md), [Anno 1800 decomposition](../games/a-f/anno-1800.md), [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md), [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md) and [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
 - Novelty: not assessed.
 
-## SYS-216 — Drop carried inventory on death and respawn the avatar
+## SYS-216 — Apply carried-state loss and respawn in the persistent world
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: when ordinary Survival health reaches zero, carried inventory is
-  emitted at the death position and the avatar returns at its active spawn
-  point while the same persistent world continues.
-- Includes: Minecraft Java Survival death, dropped inventory and respawn.
-- Excludes: Hardcore world termination; an encounter restart that restores a
-  checkpoint inventory; damage without death.
-- Parameters: death position, dropped stacks, loaded-item lifetime, spawn point
-  and retained world state.
-- Evidence: [Minecraft decomposition](../games/m-r/minecraft.md).
+- Definition: when ordinary avatar health reaches its defeat threshold, the system applies the scoped loss rule to carried state and returns the avatar at an eligible respawn point while the same persistent world continues.
+- Includes: Minecraft, Rust, Palworld and Terraria ordinary persistent-world defeat and respawn.
+- Excludes: permanent save deletion; one-life round elimination; recoverable single-currency marks; checkpoint reload that restores inventory.
+- Parameters: loss rule, dropped or destroyed state, respawn source, delay, world persistence and recovery opportunity.
+- Evidence: [Minecraft decomposition](../games/m-r/minecraft.md), [Rust decomposition](../games/m-r/rust.md), [Palworld decomposition](../games/m-r/palworld.md) and [Terraria decomposition](../games/s-z/terraria.md).
 - Novelty: not assessed.
 
 ## SYS-217 — Resolve held-tile placement and neighbour updates
@@ -4672,20 +4655,20 @@
 
 ## SYS-252 — Resolve directly commanded real-time naval combat
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: mobile ships acquire commanded targets, move within navigable
-  water and exchange range-, facing-, cadence- and armour-dependent damage until
-  retreat, surrender or destruction.
-- Includes: Anno 1800 warships and command ships in the campaign's final battle.
-- Excludes: land combat; harbour weapons firing without a target command;
-  expedition events resolved as choices.
-- Parameters: ship, target, range, broadside arc, attack speed, damage, armour,
-  hit points, movement, stance and destruction.
+- Definition: historical game-specific duplicate now represented by the
+  parameterised active boundary `SYS-215`.
+- Includes: historical references that used `SYS-252` before registry
+  normalisation 006.
+- Excludes: new game signatures; use `SYS-215` with the scoped parameters and
+  any retained companion Constraints or System behaviours.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Anno 1800 decomposition](../games/a-f/anno-1800.md).
-- Novelty: not assessed.
+- Merged into: `SYS-215` by
+  [`TAXONOMY_CHANGE_013`](../../research/taxonomy-changes/TAXONOMY_CHANGE_013.md).
 
 ## SYS-253 — Advance World’s Fair construction and supplied exhibition
 
@@ -4807,17 +4790,20 @@
 
 ## SYS-261 — Propagate automation signals and apply target state
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: sensors sample simulation values, logic transforms their signals,
-  and connected targets adopt the resulting operating state.
-- Includes: Timberborn water, weather and power automation.
-- Excludes: manual toggles; hidden AI; missing-input recipe stops.
-- Parameters: value, threshold, logic, graph, signal and target response.
+- Definition: historical game-specific duplicate now represented by the
+  parameterised active boundary `SYS-192`.
+- Includes: historical references that used `SYS-261` before registry
+  normalisation 006.
+- Excludes: new game signatures; use `SYS-192` with the scoped parameters and
+  any retained companion Constraints or System behaviours.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Timberborn decomposition](../games/s-z/timberborn.md).
-- Novelty: not assessed.
+- Merged into: `SYS-192` by
+  [`TAXONOMY_CHANGE_013`](../../research/taxonomy-changes/TAXONOMY_CHANGE_013.md).
 
 ## SYS-262 — Accumulate staffed Science Points for map unlocks
 
@@ -4968,17 +4954,20 @@
 
 ## SYS-272 — Convert staffed university workdays into research unlocks
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: qualified university staff accumulate workdays on the selected
-  reachable project until it unlocks its declared capability.
-- Includes: Workers & Resources technical and medical research.
-- Excludes: buying a technology with abstract global points.
-- Parameters: project, prerequisites, faculty, workers, professors, workdays and unlock.
+- Definition: historical game-specific duplicate now represented by the
+  parameterised active boundary `SYS-194`.
+- Includes: historical references that used `SYS-272` before registry
+  normalisation 006.
+- Excludes: new game signatures; use `SYS-194` with the scoped parameters and
+  any retained companion Constraints or System behaviours.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Workers & Resources: Soviet Republic decomposition](../games/s-z/workers-resources-soviet-republic.md).
-- Novelty: not assessed.
+- Merged into: `SYS-194` by
+  [`TAXONOMY_CHANGE_013`](../../research/taxonomy-changes/TAXONOMY_CHANGE_013.md).
 
 ## SYS-273 — Run the nuclear fuel, reactor and waste cycle
 
@@ -5421,24 +5410,17 @@
 - Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md).
 - Novelty: not assessed.
 
-## SYS-299 — Convert experience into character levels and build points
+## SYS-299 — Convert experience thresholds into character progression
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: accumulated character experience crosses level thresholds,
-  updates attributes and grants bounded points for eligible skills or talents.
-- Includes: Dota 2 match hero levels and build points; persistent Clair Obscur:
-  Expedition 33 character levels, Attribute Points and Skill Points; Cyberpunk
-  2077 character levels, Attribute Points and Perk Points.
-- Excludes: account levels; item-derived attributes alone; reward acquisition
-  before experience conversion.
-- Parameters: experience threshold, persistence, level cap, attributes, point
-  types and talent tier.
-- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md) and
-  [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md), and
-  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Definition: eligible activity awards scoped character experience; crossed thresholds raise one or more character levels and expose their declared stats, unlock opportunities or spendable build points.
+- Includes: Dota 2 match hero levels; persistent Clair Obscur, Cyberpunk 2077, Baldur's Gate 3, Palworld and ARC Raiders progression.
+- Excludes: account battle-pass levels; item-derived attributes alone; spending a granted point; reward acquisition with no experience threshold.
+- Parameters: recipient set, experience source, threshold curve, persistence horizon, level cap, stat update and point award.
+- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md), [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md), [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), [Baldur's Gate 3 decomposition](../games/a-f/baldurs-gate-3.md), [Palworld decomposition](../games/m-r/palworld.md) and [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
 - Novelty: not assessed.
 
 ## SYS-300 — Combine compatible carried item components
@@ -5576,19 +5558,20 @@
 
 ## SYS-309 — Award persistent player and companion experience levels
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: eligible capture, combat and world events add persistent
-  experience to the player and qualifying companions; crossed thresholds raise
-  levels and expose their declared stats or unlock opportunities.
-- Includes: Palworld player and party-Pal levelling, including capture bonuses.
-- Excludes: match-local hero levels; account battle-pass progression; spending
-  technology points itself.
-- Parameters: event, recipient, experience, threshold, level, stats and cap.
+- Definition: historical game-specific duplicate now represented by the
+  parameterised active boundary `SYS-299`.
+- Includes: historical references that used `SYS-309` before registry
+  normalisation 006.
+- Excludes: new game signatures; use `SYS-299` with the scoped parameters and
+  any retained companion Constraints or System behaviours.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Palworld decomposition](../games/m-r/palworld.md).
-- Novelty: not assessed.
+- Merged into: `SYS-299` by
+  [`TAXONOMY_CHANGE_013`](../../research/taxonomy-changes/TAXONOMY_CHANGE_013.md).
 
 ## SYS-310 — Dispatch base companions by work suitability and priority
 
@@ -5661,21 +5644,20 @@
 
 ## SYS-314 — Resolve avatar defeat, inventory loss and world respawn
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: lethal damage incapacitates the avatar, applies the current
-  world-setting loss rule to carried state and returns the avatar at an
-  available respawn point while the same world persists.
-- Includes: Palworld Normal single-player defeat and respawn under default
-  version-1.0 world settings.
-- Excludes: permanent save deletion; one-life round elimination; companion
-  incapacitation alone.
-- Parameters: death position, retained and dropped classes, respawn point,
-  world persistence and recovery marker.
+- Definition: historical game-specific duplicate now represented by the
+  parameterised active boundary `SYS-216`.
+- Includes: historical references that used `SYS-314` before registry
+  normalisation 006.
+- Excludes: new game signatures; use `SYS-216` with the scoped parameters and
+  any retained companion Constraints or System behaviours.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Palworld decomposition](../games/m-r/palworld.md).
-- Novelty: not assessed.
+- Merged into: `SYS-216` by
+  [`TAXONOMY_CHANGE_013`](../../research/taxonomy-changes/TAXONOMY_CHANGE_013.md).
 
 ## SYS-315 — Advance authored missions through tower and raid gates
 
@@ -6300,19 +6282,20 @@
 
 ## SYS-351 — Convert raid activity into persistent Raider levels
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: eligible Topside actions and completed objectives award persistent
-  experience; threshold crossings increase Raider level and grant spendable
-  skill points for the current progression.
-- Includes: ARC Raiders raid XP, levels and skill-point awards.
-- Excludes: match-local hero levels; Cred from daily Feats; paid Raider Tokens.
-- Parameters: event, experience award, accumulated XP, threshold, Raider level,
-  skill point and Expedition reset boundary.
+- Definition: historical game-specific duplicate now represented by the
+  parameterised active boundary `SYS-299`.
+- Includes: historical references that used `SYS-351` before registry
+  normalisation 006.
+- Excludes: new game signatures; use `SYS-299` with the scoped parameters and
+  any retained companion Constraints or System behaviours.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
-- Novelty: not assessed.
+- Merged into: `SYS-299` by
+  [`TAXONOMY_CHANGE_013`](../../research/taxonomy-changes/TAXONOMY_CHANGE_013.md).
 
 ## SYS-352 — Persist stash, workshop and learned recipes between raids
 
@@ -6331,22 +6314,17 @@
 - Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
 - Novelty: not assessed.
 
-## SYS-353 — Resolve station-gated workshop conversion
+## SYS-353 — Resolve station-gated retained-input crafting
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: a legal Workshop request consumes retained ingredients at the
-  required unlocked station and emits its known weapon, gear, medical, utility
-  or refined-part output into persistent inventory.
-- Includes: ARC Raiders Gunsmith, Gear Bench, Medical Lab, Utility Station,
-  Explosives Station and Refiner crafting.
-- Excludes: improvised Field Crafting during a raid; Trader purchase; arbitrary
-  combination without a known recipe.
-- Parameters: station, station tier, recipe, blueprint state, ingredients,
-  duration, output and stash capacity.
-- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
+- Definition: a legal personal station recipe consumes retained eligible ingredients and emits its known item or material output into persistent inventory.
+- Includes: ARC Raiders Workshop conversions and Terraria immediate station-gated recipes.
+- Excludes: spatial crafting-grid matching; autonomous continuous production; arbitrary combination without a known recipe; timed personal queues owned by another System gene.
+- Parameters: station set, ingredient sources, recipe, quantity, duration, random modifier and output inventory.
+- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md) and [Terraria decomposition](../games/s-z/terraria.md).
 - Novelty: not assessed.
 
 ## SYS-354 — Distribute loot value by danger and changing map condition
@@ -6808,21 +6786,17 @@
 - Evidence: [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
 - Novelty: not assessed.
 
-## SYS-380 — Resolve a hero ability into its typed live effect
+## SYS-380 — Resolve a selected ability into its typed live effect
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: a legal hero ability applies its authored combination of damage,
-  healing, protection, displacement, movement or control to eligible live targets.
-- Includes: Luna Snow's Season 9.5 attack-healing projectile, Absolute Zero,
-  Share the Stage and Fate of Both Worlds effects in Marvel Rivals.
-- Excludes: primary attack selection itself; passive role labels; match-objective
-  capture from merely standing in a zone.
-- Parameters: hero, ability, target class, projectile or field, effect, duration,
-  cooldown, interruption and stacking.
-- Evidence: [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md).
+- Definition: a legal selected ability or equipped gadget applies its authored combination of damage, healing, supply, repair, spotting, protection, displacement, movement, control or deployment to eligible live targets or space.
+- Includes: Marvel Rivals hero abilities and Battlefield 6 class gadgets.
+- Excludes: ordinary basic attacks; passive identity labels; objective capture caused only by presence.
+- Parameters: source, effect types, target schema, geometry, duration, cooldown, charges and team relation.
+- Evidence: [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md) and [Battlefield 6 decomposition](../games/a-f/battlefield-6.md).
 - Novelty: not assessed.
 
 ## SYS-381 — Convert live contribution into ultimate readiness and spend it
@@ -7045,21 +7019,20 @@
 
 ## SYS-393 — Resolve a class gadget into its typed team effect
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: a legally activated class gadget applies its authored healing,
-  ammunition, repair, spotting, protection, mobility or deployment effect to
-  eligible live targets or space.
-- Includes: Battlefield 6 Supply Bag, Repair Tool, Motion Sensor, Deploy Beacon
-  and other scoped class-gadget effects in Conquest.
-- Excludes: ordinary firearm fire; passive class identity by itself; capturing
-  a point merely by standing inside it.
-- Parameters: class, gadget, target class, placement, radius, charge, cooldown,
-  duration, interruption and effect.
+- Definition: historical game-specific duplicate now represented by the
+  parameterised active boundary `SYS-380`.
+- Includes: historical references that used `SYS-393` before registry
+  normalisation 006.
+- Excludes: new game signatures; use `SYS-380` with the scoped parameters and
+  any retained companion Constraints or System behaviours.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Battlefield 6 decomposition](../games/a-f/battlefield-6.md).
-- Novelty: not assessed.
+- Merged into: `SYS-380` by
+  [`TAXONOMY_CHANGE_013`](../../research/taxonomy-changes/TAXONOMY_CHANGE_013.md).
 
 ## SYS-394 — Resolve downing, revival and ticketed death
 
@@ -7416,21 +7389,20 @@
 
 ## SYS-415 — Resolve immediate station-gated recipe crafting
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: a legal craft consumes the required quantities from eligible
-  inventory sources and immediately emits the declared item, including any
-  permitted random modifier, without advancing a work queue.
-- Includes: Terraria 1.4.5.6 by-hand, Work Bench, Furnace, Anvil and
-  multi-station crafting, including craft-from-nearby-chests.
-- Excludes: Minecraft spatial-grid matching; Rust timed personal queues;
-  autonomous machine processing.
-- Parameters: recipe, inputs, station set, source priority, output, stack and
-  modifier distribution.
+- Definition: historical game-specific duplicate now represented by the
+  parameterised active boundary `SYS-353`.
+- Includes: historical references that used `SYS-415` before registry
+  normalisation 006.
+- Excludes: new game signatures; use `SYS-353` with the scoped parameters and
+  any retained companion Constraints or System behaviours.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
-- Novelty: not assessed.
+- Merged into: `SYS-353` by
+  [`TAXONOMY_CHANGE_013`](../../research/taxonomy-changes/TAXONOMY_CHANGE_013.md).
 
 ## SYS-416 — Advance day-night ecology and local world spawns
 

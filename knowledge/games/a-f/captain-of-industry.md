@@ -323,3 +323,10 @@ gene_ids:
 - GAME-0125: 17 / 73 = 0.232877; GAME-0126: 15 / 76 = 0.197368; GAME-0127: 15 / 81 = 0.185185; GAME-0128: 10 / 54 = 0.185185.
 - GAME-0129: 2 / 81 = 0.024691; GAME-0130: 12 / 89 = 0.134831; GAME-0131: 15 / 79 = 0.189873; GAME-0132: 11 / 88 = 0.125000.
 - GAME-0133: 14 / 79 = 0.177215; GAME-0134: 15 / 84 = 0.178571.
+
+### Registry normalisation 006 score corrections
+
+These recomputed values supersede the pre-normalisation fractions above:
+
+- `GAME-0128`: `11 / 53 = 0.207547`
+- Current prior-corpus near match after normalisation 006: `GAME-0119`.

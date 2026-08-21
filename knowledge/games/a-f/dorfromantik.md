@@ -15,8 +15,8 @@ gene_ids:
     - SYS-034
     - SYS-035
   constraint:
-    - CON-056
     - CON-039
+    - CON-056
     - CON-058
     - CON-059
   information:

@@ -22,6 +22,7 @@ gene_ids:
   system:
     - SYS-156
     - SYS-157
+    - SYS-194
     - SYS-264
     - SYS-265
     - SYS-266
@@ -30,7 +31,6 @@ gene_ids:
     - SYS-269
     - SYS-270
     - SYS-271
-    - SYS-272
     - SYS-273
     - SYS-274
   constraint:
@@ -53,7 +53,7 @@ gene_ids:
     - INF-058
     - INF-059
     - INF-060
-    - INF-097
+    - INF-086
     - INF-098
     - INF-099
     - INF-100
@@ -150,8 +150,9 @@ gene_ids:
 ### System Behaviour Genes
 
 - Reused: `SYS-156` runs production recipes; `SYS-157` transports physical
-  cargo through live logistics.
-- New: `SYS-264`–`SYS-274` cover citizens, transit, vehicle lines, construction
+  cargo through live logistics; `SYS-194` converts staffed research work into
+  a technology unlock.
+- New: `SYS-264`–`SYS-271`, `SYS-273` and `SYS-274` cover citizens, transit, vehicle lines, construction
   and distribution dispatch, responsive trade, utilities, environmental wear,
   research, nuclear operation and campaign scripts.
 - Resolution order: accept edits; update time and environment; route citizens
@@ -169,8 +170,9 @@ gene_ids:
 ### Information Genes
 
 - Reused: `INF-001` exposes the map; `INF-058` the economy ledger; `INF-059`
-  recipes and research dependencies; `INF-060` live production diagnostics.
-- New: `INF-097`–`INF-103` expose citizens, transport, construction, trade,
+  recipes and research dependencies; `INF-060` live production diagnostics;
+  `INF-086` citizen well-being and workforce state.
+- New: `INF-098`–`INF-103` expose transport, construction, trade,
   utilities and environment, nuclear research and campaign progress.
 
 ### Objective and Time Genes
@@ -249,8 +251,8 @@ gene_ids:
 
 ## Нові гени
 
-- Додано `ACT-177`–`ACT-178`, `SYS-264`–`SYS-274`, `CON-236`–`CON-244`,
-  `INF-097`–`INF-103` та `OBJ-069`.
+- Додано `ACT-177`–`ACT-178`, `SYS-264`–`SYS-271`, `SYS-273`, `SYS-274`,
+  `CON-236`–`CON-244`, `INF-098`–`INF-103` та `OBJ-069`.
 
 ## Нові комбінації
 
@@ -268,13 +270,13 @@ gene_ids:
 | Action | `ACT-006`, `ACT-023`, `ACT-068`, `ACT-117`, `ACT-120`, `ACT-139`, `ACT-145`, `ACT-148`, `ACT-149`, `ACT-177`, `ACT-178` | lines, offices, construction, trade, research |
 | System Behaviour | `SYS-156`, `SYS-157`, `SYS-264`–`SYS-274` | citizens, logistics, economy, utilities, nuclear, campaign |
 | Constraint | `CON-062`, `CON-172`, `CON-173`, `CON-184`, `CON-185`, `CON-236`–`CON-244` | access, deliveries, capacity and progression gates |
-| Information | `INF-001`, `INF-058`, `INF-059`, `INF-060`, `INF-097`–`INF-103` | live republic and campaign disclosure |
+| Information | `INF-001`, `INF-058`, `INF-059`, `INF-060`, `INF-086`–`INF-103` | live republic and campaign disclosure |
 | Objective | `OBJ-069` | finish Campaign 2 after Campaign 1 |
 | Time | `TIM-003` | pausable real-time simulation |
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-006,ACT-023,ACT-068,ACT-117,ACT-120,ACT-139,ACT-145,ACT-148,ACT-149,ACT-177,ACT-178; SYS-156,SYS-157,SYS-264,SYS-265,SYS-266,SYS-267,SYS-268,SYS-269,SYS-270,SYS-271,SYS-272,SYS-273,SYS-274; CON-062,CON-172,CON-173,CON-184,CON-185,CON-236,CON-237,CON-238,CON-239,CON-240,CON-241,CON-242,CON-243,CON-244; INF-001,INF-058,INF-059,INF-060,INF-097,INF-098,INF-099,INF-100,INF-101,INF-102,INF-103; OBJ-069; TIM-003`.
+- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-006,ACT-023,ACT-068,ACT-117,ACT-120,ACT-139,ACT-145,ACT-148,ACT-149,ACT-177,ACT-178; SYS-156,SYS-157,SYS-264,SYS-265,SYS-266,SYS-267,SYS-268,SYS-269,SYS-270,SYS-271,SYS-194,SYS-273,SYS-274; CON-062,CON-172,CON-173,CON-184,CON-185,CON-236,CON-237,CON-238,CON-239,CON-240,CON-241,CON-242,CON-243,CON-244; INF-001,INF-058,INF-059,INF-060,INF-086,INF-098,INF-099,INF-100,INF-101,INF-102,INF-103; OBJ-069; TIM-003`.
 - Indexed games scanned: 134, including this record.
 - Indexed combinations scanned: 132.
 - Exact genome matches: none.
@@ -319,3 +321,14 @@ gene_ids:
 - GAME-0125: 12 / 81 = 0.148148; GAME-0126: 10 / 84 = 0.119048; GAME-0127: 11 / 88 = 0.125000; GAME-0128: 10 / 57 = 0.175439.
 - GAME-0129: 2 / 84 = 0.023810; GAME-0130: 14 / 90 = 0.155556; GAME-0131: 10 / 87 = 0.114943; GAME-0132: 14 / 88 = 0.159091.
 - GAME-0133: 15 / 81 = 0.185185.
+
+### Registry normalisation 006 score corrections
+
+These recomputed values supersede the pre-normalisation fractions above:
+
+- `GAME-0125`: `13 / 80 = 0.162500`
+- `GAME-0127`: `12 / 87 = 0.137931`
+- `GAME-0130`: `15 / 89 = 0.168539`
+- `GAME-0132`: `15 / 87 = 0.172414`
+- `GAME-0133`: `16 / 80 = 0.200000`
+- Current prior-corpus near match after normalisation 006: `GAME-0133`.

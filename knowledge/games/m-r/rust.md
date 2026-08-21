@@ -351,6 +351,14 @@ Near matches use the canonical intersection-over-union formula.
   `TIM-017` (33 total).
 - Classification: `New gene` and `New combination of known and new genes`.
 
+### Registry normalisation 006 score corrections
+
+These recomputed values supersede the pre-normalisation fractions above:
+
+- `GAME-0132`: `2 / 100 = 0.020000`
+- `GAME-0139`: `14 / 91 = 0.153846`
+- Current prior-corpus near match after normalisation 006: `GAME-0139`.
+
 ## Taxonomy impact
 
 - Registry changes: add 33 bounded active genes and `COMB-0139`; preserve the

@@ -26,7 +26,7 @@ gene_ids:
     - SYS-123
     - SYS-156
     - SYS-161
-    - SYS-207
+    - SYS-194
     - SYS-224
     - SYS-225
     - SYS-226
@@ -145,7 +145,7 @@ gene_ids:
 ### System Behaviour Genes
 
 - Reused: `SYS-004`, `SYS-045`, `SYS-046`, `SYS-123`, `SYS-156`, `SYS-161`
-  and `SYS-207` cover bounded random outcomes, citizen motion and assigned work,
+  and `SYS-194` cover bounded random outcomes, citizen motion and assigned work,
   scout travel, production, finite extraction and staffed research.
 - New: `SYS-224`–`SYS-235` cover coal burn, heat aggregation, sickness,
   treatment, Overdrive stress, weather, authored arcs, food, Hope/Discontent,
@@ -241,7 +241,7 @@ gene_ids:
 | Type | Active gene IDs | Candidate genes or parameters |
 |---|---|---|
 | Action | `ACT-006`, `ACT-036`, `ACT-068`, `ACT-120`, `ACT-139`, `ACT-140`, `ACT-149`, `ACT-157`, `ACT-166`–`ACT-168` | staffing, plan, law, heat and scout parameters |
-| System Behaviour | `SYS-004`, `SYS-045`, `SYS-046`, `SYS-123`, `SYS-156`, `SYS-161`, `SYS-207`, `SYS-224`–`SYS-235` | production, heat, survival, welfare and scenario parameters |
+| System Behaviour | `SYS-004`, `SYS-045`, `SYS-046`, `SYS-123`, `SYS-156`, `SYS-161`, `SYS-194`, `SYS-224`–`SYS-235` | production, heat, survival, welfare and scenario parameters |
 | Constraint | `CON-062`, `CON-136`, `CON-172`, `CON-173`, `CON-184`, `CON-185`, `CON-211`–`CON-216` | build, staff, law, generator, civic, medical and scout gates |
 | Information | `INF-001`, `INF-002`, `INF-059`, `INF-067`, `INF-071`, `INF-077`–`INF-080` | city, forecast, task, welfare, generator and map disclosure |
 | Objective | `OBJ-065` | Great Storm survival and epilogue |
@@ -249,7 +249,7 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-006,ACT-036,ACT-068,ACT-120,ACT-139,ACT-140,ACT-149,ACT-157,ACT-166,ACT-167,ACT-168; SYS-004,SYS-045,SYS-046,SYS-123,SYS-156,SYS-161,SYS-207,SYS-224,SYS-225,SYS-226,SYS-227,SYS-228,SYS-229,SYS-230,SYS-231,SYS-232,SYS-233,SYS-234,SYS-235; CON-062,CON-136,CON-172,CON-173,CON-184,CON-185,CON-211,CON-212,CON-213,CON-214,CON-215,CON-216; INF-001,INF-002,INF-059,INF-067,INF-071,INF-077,INF-078,INF-079,INF-080; OBJ-065; TIM-003`.
+- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-006,ACT-036,ACT-068,ACT-120,ACT-139,ACT-140,ACT-149,ACT-157,ACT-166,ACT-167,ACT-168; SYS-004,SYS-045,SYS-046,SYS-123,SYS-156,SYS-161,SYS-194,SYS-224,SYS-225,SYS-226,SYS-227,SYS-228,SYS-229,SYS-230,SYS-231,SYS-232,SYS-233,SYS-234,SYS-235; CON-062,CON-136,CON-172,CON-173,CON-184,CON-185,CON-211,CON-212,CON-213,CON-214,CON-215,CON-216; INF-001,INF-002,INF-059,INF-067,INF-071,INF-077,INF-078,INF-079,INF-080; OBJ-065; TIM-003`.
 - Indexed games scanned: 130, including this record.
 - Indexed combinations scanned: 128.
 - Exact genome matches: none.
@@ -293,6 +293,13 @@ gene_ids:
 - GAME-0121: 3 / 73 = 0.041096; GAME-0122: 4 / 64 = 0.062500; GAME-0123: 3 / 88 = 0.034091; GAME-0124: 19 / 81 = 0.234568.
 - GAME-0125: 15 / 80 = 0.187500; GAME-0126: 13 / 83 = 0.156627; GAME-0127: 16 / 85 = 0.188235; GAME-0128: 8 / 61 = 0.131148.
 - GAME-0129: 3 / 85 = 0.035294.
+
+### Registry normalisation 006 score corrections
+
+These recomputed values supersede the pre-normalisation fractions above:
+
+- `GAME-0125`: `16 / 79 = 0.202532`
+- Current prior-corpus near match after normalisation 006: `GAME-0124`.
 
 ## Evidence and unknowns
 

@@ -12,8 +12,8 @@ gene_ids:
     - ACT-130
     - ACT-161
     - ACT-190
+    - ACT-215
     - ACT-224
-    - ACT-242
   system:
     - SYS-215
     - SYS-364
@@ -124,8 +124,8 @@ gene_ids:
 - Existing genes: `ACT-008`, directly navigate Hornet; `ACT-130`, spend
   Rosaries on a priced Bench service; `ACT-161`, aim and strike with the Needle;
   `ACT-190`, activate a learned Silk Skill or Needolin; `ACT-224`, deliberately
-  rest at an activated Bench.
-- New gene: `ACT-242`, select a Crest and configure compatible Tools at a Bench.
+  rest at an activated Bench; `ACT-215`, configure a bounded compatible combat
+  loadout at a preparation point.
 - Parameters: movement capability, Needle reach, Skill, Silk, Bench, price,
   Crest, Tool colour, unlocked slot and replacement.
 - Claim IDs: `HKS-002`–`HKS-008`.
@@ -259,7 +259,7 @@ gene_ids:
 
 | Type | Active gene IDs | Candidate genes or parameters |
 |---|---|---|
-| Action | `ACT-008`, `ACT-130`, `ACT-161`, `ACT-190`, `ACT-224`, `ACT-242` | bindings, exact prices and Tool identities are parameters |
+| Action | `ACT-008`, `ACT-130`, `ACT-161`, `ACT-190`, `ACT-224`, `ACT-215` | bindings, exact prices and Tool identities are parameters |
 | System Behaviour | `SYS-215`, `SYS-364`, `SYS-397`–`SYS-400` | damage, Silk gains and animation durations are parameters |
 | Constraint | `CON-269`, `CON-349`–`CON-352` | exact gate geometry and slot counts are parameters |
 | Information | `INF-073`, `INF-119`, `INF-125` | HUD position and audiovisual style are excluded |
@@ -289,7 +289,7 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-130,ACT-161,ACT-190,ACT-224,ACT-242; SYS-215,SYS-364,SYS-397,SYS-398,SYS-399,SYS-400; CON-269,CON-349,CON-350,CON-351,CON-352; INF-073,INF-119,INF-125; OBJ-080; TIM-003`.
+- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-130,ACT-161,ACT-190,ACT-224,ACT-215; SYS-215,SYS-364,SYS-397,SYS-398,SYS-399,SYS-400; CON-269,CON-349,CON-350,CON-351,CON-352; INF-073,INF-119,INF-125; OBJ-080; TIM-003`.
 - Indexed games scanned: all 149 earlier canonical games.
 - Indexed combinations scanned: all 147 earlier verified combinations.
 - Exact genome matches: none.
@@ -343,12 +343,21 @@ Exhaustive prior-game ledger:
 |---|---|---|---|
 | Marvel Rivals (`GAME-0147`) | `ACT-008`, `ACT-161`, `ACT-190`, `SYS-215`, `CON-269`, `INF-119`, `TIM-003` | reconfigurable team heroes and capture-to-escort pressure versus a persistent solo route with Silk, Crests, Benches, Cocoon and authored act gates | nearest, not exact; `7 / 40 = 0.175000` |
 
-- New genes: `ACT-242`, `SYS-397`–`SYS-400`, `CON-349`–`CON-352`,
-  `OBJ-080`.
+- New genes: `SYS-397`–`SYS-400`, `CON-349`–`CON-352`, `OBJ-080`.
 - Classification result: `New gene` and new combination of known and new genes.
 - Evidence and reasoning: the distinctive boundary is the coupling of a shared
   attack/heal resource, permanent route capabilities, Crest-shaped loadout and
   recoverable death state to one multi-region act gate.
+
+### Registry normalisation 006 score corrections
+
+These recomputed values supersede the pre-normalisation fractions above:
+
+- `GAME-0132`: `2 / 71 = 0.028169`
+- `GAME-0137`: `6 / 46 = 0.130435`
+- `GAME-0143`: `5 / 66 = 0.075758`
+- `GAME-0149`: `9 / 48 = 0.187500`
+- Current prior-corpus near match after normalisation 006: `GAME-0149`.
 
 ## Combination assessment
 
@@ -362,9 +371,9 @@ Exhaustive prior-game ledger:
 
 ## Taxonomy impact
 
-- Registry changes: add ten bounded genes and `COMB-0148`; extend evidence for
-  twelve reused records without changing their causal boundaries.
-- Taxonomy-change record: none.
+- Registry changes after normalisation: add nine bounded genes and `COMB-0148`;
+  extend evidence for thirteen reused records.
+- Taxonomy-change record: `TAXONOMY_CHANGE_012`.
 - Candidate terms affected: exact Silk amounts, Bench prices, named regions,
   Tool identities and movement distances remain parameters.
 
@@ -432,8 +441,8 @@ the Citadel.
 
 ## Research decision
 
-- Decision: admit `GAME-0150`, ten bounded genes and `COMB-0148`; extend
-  evidence on twelve reused records without broadening their definitions.
+- Decision: admit `GAME-0150`, nine bounded genes and `COMB-0148`; extend
+  evidence on thirteen reused records without broadening their definitions.
 - Rejected normalisations: Cocoon is not generic dropped inventory; Crest is
   not a numeric equipment replacement; traversal abilities are not carried
   keys; ordinary death is not a full checkpoint rollback.
@@ -453,7 +462,7 @@ the Citadel.
 
 ## Incremental registry updates
 
-- Registry changes: add ten bounded genes and `COMB-0148`; extend twelve
+- Registry changes: add nine bounded genes and `COMB-0148`; extend thirteen
   existing-gene evidence lists where their definitions already fit.
 - Combination changes: add one strict-subset interaction pattern; do not claim
   independent recurrence.

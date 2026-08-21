@@ -2413,25 +2413,17 @@
 - Evidence: [Factorio decomposition](../games/a-f/factorio.md).
 - Novelty: not assessed.
 
-## ACT-123 — Hand-craft selected inventory recipe
+## ACT-123 — Craft a selected known inventory recipe
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player selects a known hand-craftable recipe and queues one
-  or more copies to consume carried ingredients and produce the declared item
-  after its crafting duration.
-- Includes: manually crafting early Factorio gears, belts, inserters, mining
-  drills and assembling machines from the character inventory; crafting an
-  eligible Cyberpunk 2077 item from known specifications and carried components.
-- Excludes: assigning a recipe to an automatic machine; combining arbitrary
-  inventory objects outside a declared recipe; research that unlocks a recipe.
-- Parameters: recipe, quantity, ingredient availability, queue order, craft
-  time, cancellation refund and machine-only eligibility.
-- Evidence: [Factorio decomposition](../games/a-f/factorio.md) and
-  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
-  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Definition: the player selects one currently known and legal personal recipe and commits one or more copies of its declared output.
+- Includes: Factorio and Cyberpunk 2077 personal crafting, Monster Hunter Wilds field crafting and Terraria inventory or nearby-station crafting.
+- Excludes: assigning a recipe to an autonomous production entity; arbitrary object combination; research selection; system-owned resolution duration.
+- Parameters: recipe, quantity, ingredient source, station context, immediate or queued resolution and output.
+- Evidence: [Factorio decomposition](../games/a-f/factorio.md), [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md) and [Terraria decomposition](../games/s-z/terraria.md).
 - Novelty: not assessed.
 
 ## ACT-124 — Stamp reusable construction or deconstruction plan
@@ -2542,29 +2534,17 @@
 - Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md).
 - Novelty: not assessed.
 
-## ACT-130 — Purchase one offered run asset or service
+## ACT-130 — Purchase one offered scoped asset or service
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player spends a persistent run currency to acquire one
-  currently offered asset or execute one priced service.
-- Includes: buying a Slay the Spire card, relic or potion from a merchant,
-  paying for card removal, buying a Dota 2 match item from an eligible shop,
-  buying Story Mode weapons, ammunition and armour in Grand Theft Auto V, or
-  buying base-game equipment and services in Cyberpunk 2077; buying offered
-  wares or services with Rosaries in Hollow Knight: Silksong.
-- Excludes: accepting a free post-combat reward; paying a recurring operating
-  cost; selecting an unavailable item without enough currency.
-- Parameters: offer identity, price, discount, stock replacement, currency and
-  service eligibility.
-- Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md),
-  [Dota 2 decomposition](../games/a-f/dota-2.md), and
-  [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md), and
-  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
-  [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md).
-- Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Definition: the player spends current scoped currency to acquire one currently offered asset or execute one priced service.
+- Includes: run merchants, Dota 2 match shops, Grand Theft Auto V and Cyberpunk 2077 stores, Hollow Knight: Silksong wares, and Counter-Strike 2 freeze/buy-time equipment purchases.
+- Excludes: a free reward; recurring operating cost; unavailable offer; cosmetic marketplace trade.
+- Parameters: currency, offer, asset or service, purchase window, location, inventory lifetime and persistence horizon.
+- Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md), [Dota 2 decomposition](../games/a-f/dota-2.md), [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md), [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md) and [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
 - Novelty: not assessed.
 
 ## ACT-131 — Consume one held immediate-effect item
@@ -3447,19 +3427,20 @@
 
 ## ACT-182 — Purchase one offered round item
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player spends current match currency during the permitted
-  round window to add one offered weapon, armour, grenade or role-specific tool
-  to the current life inventory.
-- Includes: Counter-Strike 2 Competitive purchases during freeze/buy time.
-- Excludes: persistent account unlocks; cosmetic marketplace trades; looting a
-  dropped world item; a between-node single-player merchant.
-- Parameters: price, role, buy time, location, inventory capacity and refund state.
+- Definition: historical game-specific duplicate now represented by the
+  parameterised active boundary `ACT-130`.
+- Includes: historical references that used `ACT-182` before registry
+  normalisation 006.
+- Excludes: new game signatures; use `ACT-130` with the scoped parameters and
+  any retained companion Constraints or System behaviours.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
-- Novelty: not assessed.
+- Merged into: `ACT-130` by
+  [`TAXONOMY_CHANGE_012`](../../research/taxonomy-changes/TAXONOMY_CHANGE_012.md).
 
 ## ACT-183 — Reload the active magazine-fed weapon
 
@@ -3590,23 +3571,17 @@
   [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md).
 - Novelty: not assessed.
 
-## ACT-191 — Spend one character build point
+## ACT-191 — Spend one character-development point
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player spends one currently available character-development
-  point on an eligible ability rank, attribute bonus or talent branch.
-- Includes: Dota 2 ability levelling and talent choices; Clair Obscur:
-  Expedition 33 attribute and skill-point allocation; Cyberpunk 2077 attribute
-  and perk-point allocation.
-- Excludes: purchasing an item; account-wide progression; pre-run facet selection.
-- Parameters: character level, point type, skill rank, attribute, talent tier,
-  persistence and prerequisite.
-- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md) and
-  [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md),
-  and [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Definition: the player spends one currently available match-local or persistent character-development point on an eligible ability rank, attribute, talent or skill-tree node.
+- Includes: Dota 2 ability and talent choices; Clair Obscur, Cyberpunk 2077 and Baldur's Gate 3 build allocation; ARC Raiders skill-tree allocation.
+- Excludes: purchasing an item; automatic level rewards; account-wide cosmetic progression.
+- Parameters: point source, persistence horizon, tree, prerequisite, node, rank and resulting modifier.
+- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md), [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md), [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), [Baldur's Gate 3 decomposition](../games/a-f/baldurs-gate-3.md) and [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
 - Novelty: not assessed.
 
 ## ACT-192 — Configure a stash or courier delivery
@@ -3722,21 +3697,17 @@
 - Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md).
 - Novelty: not assessed.
 
-## ACT-215 — Assemble a raid loadout from retained or free equipment
+## ACT-215 — Configure one bounded compatible combat loadout
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: before entering a bounded raid, the player fills compatible
-  weapon, augment, ammunition, utility and carried-item slots from retained
-  storage or accepts a declared free randomized kit.
-- Includes: ARC Raiders stash-built and Free Loadout preparation.
-- Excludes: looting after deployment; cosmetic outfit selection; buying an
-  item without equipping it for the raid.
-- Parameters: storage, loadout source, augment, weapons, ammunition, utility,
-  slot capacity, free-kit roll and replacement destination.
-- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
+- Definition: at an eligible preparation state, the player fills or revises bounded equipment and capability slots for the next controlled deployment or live segment.
+- Includes: ARC Raiders raid loadouts, Battlefield 6 class-bound deployment loadouts and Hollow Knight: Silksong Crest-and-Tool Bench loadouts.
+- Excludes: cosmetic-only changes; looting after deployment; changing only the active carried slot; selecting a playable hero identity.
+- Parameters: preparation state, class or chassis, slot schema, capacity, retained or free inventory, persistence horizon and replacement timing.
+- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md), [Battlefield 6 decomposition](../games/a-f/battlefield-6.md) and [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md).
 - Novelty: not assessed.
 
 ## ACT-216 — Search a reachable container or disabled machine
@@ -3811,20 +3782,20 @@
 
 ## ACT-220 — Spend a persistent Raider skill point
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: the player commits one available persistent skill point to an
-  eligible node in the Conditioning, Mobility or Survival tree, permanently
-  adding that node's declared modifier to the current Raider progression.
-- Includes: ARC Raiders Raider skill-tree allocation.
-- Excludes: temporary raid buffs; equipment augments; Expedition departure
-  bonuses awarded without selecting a skill node.
-- Parameters: branch, node, prerequisite, rank, point balance, modifier and
-  current Raider progression.
+- Definition: historical game-specific duplicate now represented by the
+  parameterised active boundary `ACT-191`.
+- Includes: historical references that used `ACT-220` before registry
+  normalisation 006.
+- Excludes: new game signatures; use `ACT-191` with the scoped parameters and
+  any retained companion Constraints or System behaviours.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
-- Novelty: not assessed.
+- Merged into: `ACT-191` by
+  [`TAXONOMY_CHANGE_012`](../../research/taxonomy-changes/TAXONOMY_CHANGE_012.md).
 
 ## ACT-221 — Repair or upgrade one retained weapon
 
@@ -4424,21 +4395,20 @@
 
 ## ACT-239 — Configure one class-bound deployment loadout
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: before deploying into a live team match, the player selects one
-  combat class and commits a compatible set of Training Path, weapons,
-  attachments, gadgets and throwable for the next controlled life.
-- Includes: Battlefield 6 Open Weapons Conquest Assault, Engineer, Support and
-  Recon loadout configuration before or between deployments.
-- Excludes: cosmetic weapon appearance; changing only the active carried slot;
-  a permanent hero draft; configuring an autonomous squad.
-- Parameters: class, Training Path, primary, secondary, attachment budget,
-  gadget slots, throwable, availability and confirmation.
+- Definition: historical game-specific duplicate now represented by the
+  parameterised active boundary `ACT-215`.
+- Includes: historical references that used `ACT-239` before registry
+  normalisation 006.
+- Excludes: new game signatures; use `ACT-215` with the scoped parameters and
+  any retained companion Constraints or System behaviours.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Battlefield 6 decomposition](../games/a-f/battlefield-6.md).
-- Novelty: not assessed.
+- Merged into: `ACT-215` by
+  [`TAXONOMY_CHANGE_012`](../../research/taxonomy-changes/TAXONOMY_CHANGE_012.md).
 
 ## ACT-240 — Select a legal team deployment source and redeploy
 
@@ -4478,21 +4448,20 @@
 
 ## ACT-242 — Configure a Crest-bound tool loadout at a bench
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: while resting at an eligible checkpoint, the player selects one
-  acquired combat Crest and assigns acquired tools only to the coloured slots
-  exposed by that Crest, replacing the previous active attack and tool layout.
-- Includes: Hollow Knight: Silksong Crest selection and red, blue and yellow
-  Tool assignment at a Bench.
-- Excludes: switching the currently active carried item; cosmetic appearance;
-  permanently consuming a tool; changing loadout during ordinary live combat.
-- Parameters: checkpoint, Crest, attack form, coloured slots, tool, replacement,
-  unlocked slot and confirmation.
+- Definition: historical game-specific duplicate now represented by the
+  parameterised active boundary `ACT-215`.
+- Includes: historical references that used `ACT-242` before registry
+  normalisation 006.
+- Excludes: new game signatures; use `ACT-215` with the scoped parameters and
+  any retained companion Constraints or System behaviours.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md).
-- Novelty: not assessed.
+- Merged into: `ACT-215` by
+  [`TAXONOMY_CHANGE_012`](../../research/taxonomy-changes/TAXONOMY_CHANGE_012.md).
 
 ## ACT-243 — Call and ride a target-routed field mount
 
@@ -4634,18 +4603,17 @@
 
 ## ACT-252 — Craft one currently offered station recipe
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player selects one recipe currently exposed by carried or
-  reachable ingredients and nearby crafting stations, then commits one or more
-  immediate copies of its declared output.
-- Includes: Terraria 1.4.5.6 crafting from inventory, an opened or eligible
-  nearby chest and one or more nearby stations.
-- Excludes: arranging ingredients in a spatial grid; queued timed hand-crafting;
-  assigning an autonomous production machine recipe.
-- Parameters: recipe, quantity, eligible inventories, station set, batch input
-  and output cursor or slot.
+- Definition: historical game-specific duplicate now represented by the
+  parameterised active boundary `ACT-123`.
+- Includes: historical references that used `ACT-252` before registry
+  normalisation 006.
+- Excludes: new game signatures; use `ACT-123` with the scoped parameters and
+  any retained companion Constraints or System behaviours.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
-- Novelty: not assessed.
+- Merged into: `ACT-123` by
+  [`TAXONOMY_CHANGE_012`](../../research/taxonomy-changes/TAXONOMY_CHANGE_012.md).

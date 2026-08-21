@@ -16,7 +16,7 @@ gene_ids:
     - ACT-187
     - ACT-190
     - ACT-201
-    - ACT-239
+    - ACT-215
     - ACT-240
     - ACT-241
   system:
@@ -24,9 +24,9 @@ gene_ids:
     - SYS-215
     - SYS-292
     - SYS-320
+    - SYS-380
     - SYS-382
     - SYS-386
-    - SYS-393
     - SYS-394
     - SYS-395
     - SYS-396
@@ -134,9 +134,10 @@ gene_ids:
   melee or launcher attack; `ACT-164`, switch carried weapon or gadget;
   `ACT-183`, reload; `ACT-184`, throw a tactical grenade; `ACT-187`, send a
   live squad/team cue; `ACT-190`, activate a targeted or untargeted gadget;
-  `ACT-201`, enter, drive, fly, fire from and leave a vehicle.
-- New genes: `ACT-239`, configure one class-bound deployment loadout;
-  `ACT-240`, select a legal deployment source and redeploy; `ACT-241`, drag
+  `ACT-201`, enter, drive, fly, fire from and leave a vehicle; `ACT-215`,
+  configure a bounded compatible combat loadout.
+- New genes: `ACT-240`, select a legal deployment source and redeploy;
+  `ACT-241`, drag
   and revive one eligible downed ally.
 - Parameters: class, Training Path, weapon, attachments, gadget, grenade,
   spawn source, seat, revive duration, movement stance and communication channel.
@@ -147,9 +148,9 @@ gene_ids:
 - Existing genes: `SYS-208`, resolve aimed fire through range, cover, armour
   and body hit; `SYS-215`, live hostile combat; `SYS-292`, grenade trajectory
   and typed field; `SYS-320`, occupied vehicle motion and damage; `SYS-382`,
-  timed return after knockout; `SYS-386`, tactical destruction of eligible geometry.
-- New genes: `SYS-393`, resolve class gadgets into healing, resupply, repair,
-  spotting, protection or deployment effects; `SYS-394`, resolve downing,
+  timed return after knockout; `SYS-386`, tactical destruction of eligible
+  geometry; `SYS-380`, resolve a typed live ability or gadget effect.
+- New genes: `SYS-394`, resolve downing,
   revival, bleedout and the resulting ticketed death; `SYS-395`, convert point
   occupancy into neutralisation, contest and ownership; `SYS-396`, aggregate
   unrevived deaths and held-point drain into team tickets and terminal result.
@@ -275,8 +276,8 @@ gene_ids:
 
 | Type | Active gene IDs | Candidate genes or parameters |
 |---|---|---|
-| Action | `ACT-008`, `ACT-161`, `ACT-164`, `ACT-183`, `ACT-184`, `ACT-187`, `ACT-190`, `ACT-201`, `ACT-239`–`ACT-241` | exact bindings, weapon identities and callout vocabulary are parameters |
-| System Behaviour | `SYS-208`, `SYS-215`, `SYS-292`, `SYS-320`, `SYS-382`, `SYS-386`, `SYS-393`–`SYS-396` | numeric damage, repair, capture and drain values are parameters |
+| Action | `ACT-008`, `ACT-161`, `ACT-164`, `ACT-183`, `ACT-184`, `ACT-187`, `ACT-190`, `ACT-201`, `ACT-215`–`ACT-241` | exact bindings, weapon identities and callout vocabulary are parameters |
+| System Behaviour | `SYS-208`, `SYS-215`, `SYS-292`, `SYS-320`, `SYS-382`, `SYS-386`, `SYS-380`–`SYS-396` | numeric damage, repair, capture and drain values are parameters |
 | Constraint | `CON-262`, `CON-269`, `CON-272`, `CON-288`, `CON-346`–`CON-348` | point geometry, ticket count and timers are parameters |
 | Information | `INF-073`, `INF-115`, `INF-116`, `INF-119`, `INF-155` | HUD placement and audiovisual presentation are excluded |
 | Objective | `OBJ-079` | team side and initial ticket value are parameters |
@@ -284,7 +285,7 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-161,ACT-164,ACT-183,ACT-184,ACT-187,ACT-190,ACT-201,ACT-239,ACT-240,ACT-241; SYS-208,SYS-215,SYS-292,SYS-320,SYS-382,SYS-386,SYS-393,SYS-394,SYS-395,SYS-396; CON-262,CON-269,CON-272,CON-288,CON-346,CON-347,CON-348; INF-073,INF-115,INF-116,INF-119,INF-155; OBJ-079; TIM-003`.
+- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-161,ACT-164,ACT-183,ACT-184,ACT-187,ACT-190,ACT-201,ACT-215,ACT-240,ACT-241; SYS-208,SYS-215,SYS-292,SYS-320,SYS-382,SYS-386,SYS-380,SYS-394,SYS-395,SYS-396; CON-262,CON-269,CON-272,CON-288,CON-346,CON-347,CON-348; INF-073,INF-115,INF-116,INF-119,INF-155; OBJ-079; TIM-003`.
 - Indexed games scanned: all 148 earlier canonical games.
 - Indexed combinations scanned: all 146 earlier verified combinations.
 - Exact genome matches: none.
@@ -338,18 +339,28 @@ Exhaustive prior-game ledger:
 |---|---|---|---|
 | Counter-Strike 2 (`GAME-0137`) | `ACT-008`, `ACT-161`, `ACT-164`, `ACT-183`, `ACT-184`, `ACT-187`, `SYS-208`, `SYS-215`, `SYS-292`, `CON-262`, `INF-073`, `INF-115`, `INF-116`, `TIM-003` | one-life economy rounds and an asymmetric bomb deadline versus repeated class/squad redeployment, revival, vehicles and simultaneous point-to-ticket pressure | nearest, not exact; `14 / 51 = 0.274510` |
 
-- New genes: `ACT-239`–`ACT-241`, `SYS-393`–`SYS-396`, `CON-346`–`CON-348`,
+- New genes: `ACT-240`, `ACT-241`, `SYS-394`–`SYS-396`, `CON-346`–`CON-348`,
   `INF-155`, `OBJ-079`.
 - Classification result: `New gene` and new combination of known and new genes.
 - Evidence and reasoning: the distinctive boundary is the repeated conversion
   of class/squad deployment, reversible downing and simultaneous point control
   into one finite shared ticket pool, not firearm statistics or theme.
 
+### Registry normalisation 006 score corrections
+
+These recomputed values supersede the pre-normalisation fractions above:
+
+- `GAME-0132`: `2 / 84 = 0.023810`
+- `GAME-0138`: `8 / 62 = 0.129032`
+- `GAME-0143`: `7 / 77 = 0.090909`
+- `GAME-0147`: `14 / 46 = 0.304348`
+- Current prior-corpus near match after normalisation 006: `GAME-0147`.
+
 ## Taxonomy impact
 
-- Registry changes: add twelve bounded genes and `COMB-0147`; extend evidence
-  for the twenty-three reused records without changing their causal boundaries.
-- Taxonomy-change record: none.
+- Registry changes after normalisation: add ten bounded genes and `COMB-0147`;
+  extend evidence for the twenty-five reused records.
+- Taxonomy-change record: `TAXONOMY_CHANGE_012` and `TAXONOMY_CHANGE_013`.
 - Candidate terms affected: suppression, attachment points, 1,000 tickets,
   four-player squad and exact point geometry remain parameters.
 
@@ -371,8 +382,8 @@ Exhaustive prior-game ledger:
 
 ## Нові гени
 
-- [Observation | Corroborated | High] Twelve bounded genes cover class-loadout
-  configuration, deployment choice, drag-revive, typed class support, downed
+- [Observation | Corroborated | High] Ten bounded genes cover deployment
+  choice, drag-revive, downed
   settlement, point control, ticket aggregation and deployment information.
 
 ## Нові комбінації

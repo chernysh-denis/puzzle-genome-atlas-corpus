@@ -21,6 +21,7 @@ gene_ids:
     - SYS-156
     - SYS-162
     - SYS-186
+    - SYS-192
     - SYS-196
     - SYS-255
     - SYS-256
@@ -28,7 +29,6 @@ gene_ids:
     - SYS-258
     - SYS-259
     - SYS-260
-    - SYS-261
     - SYS-262
     - SYS-263
   constraint:
@@ -48,9 +48,9 @@ gene_ids:
   information:
     - INF-001
     - INF-060
+    - INF-086
     - INF-091
     - INF-092
-    - INF-093
     - INF-094
     - INF-095
     - INF-096
@@ -155,8 +155,9 @@ gene_ids:
 ### System Behaviour Genes
 
 - Reused: `SYS-156` runs staffed recipes; `SYS-162` fulfils supplied build
-  plans; `SYS-186` routes agents to ranked errands; `SYS-196` routes hauling.
-- New: `SYS-255`–`SYS-263` cover terrain water, weather, plant growth,
+  plans; `SYS-186` routes agents to ranked errands; `SYS-192` propagates
+  automation signals; `SYS-196` routes hauling.
+- New: `SYS-255`–`SYS-260`, `SYS-262` and `SYS-263` cover terrain water, weather, plant growth,
   individual needs, Folktail reproduction, shaft power, automation signals,
   Science Points and the Earth Recultivator.
 - Resolution order: accept edits; advance weather and water; update soil and
@@ -176,8 +177,9 @@ gene_ids:
 
 ### Information Genes
 
-- Reused: `INF-001` exposes the map; `INF-060` exposes production bottlenecks.
-- New: `INF-091`–`INF-096` expose weather, water, population and work, goods
+- Reused: `INF-001` exposes the map; `INF-060` exposes production bottlenecks;
+  `INF-086` exposes population, well-being and work allocation.
+- New: `INF-091`, `INF-092`, `INF-094`–`INF-096` expose weather, water, goods
   and power, automation, and wonder progress.
 - Claim IDs: `TIMBER-002`–`TIMBER-012`.
 
@@ -269,8 +271,8 @@ gene_ids:
 
 ## Нові гени
 
-- Додано `ACT-175`–`ACT-176`, `SYS-255`–`SYS-263`, `CON-229`–`CON-235`,
-  `INF-091`–`INF-096` та `OBJ-068`.
+- Додано `ACT-175`–`ACT-176`, `SYS-255`–`SYS-260`, `SYS-262`, `SYS-263`,
+  `CON-229`–`CON-235`, `INF-091`, `INF-092`, `INF-094`–`INF-096` та `OBJ-068`.
 
 ## Нові комбінації
 
@@ -294,7 +296,7 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-006,ACT-068,ACT-120,ACT-139,ACT-144,ACT-145,ACT-148,ACT-175,ACT-176; SYS-156,SYS-162,SYS-186,SYS-196,SYS-255,SYS-256,SYS-257,SYS-258,SYS-259,SYS-260,SYS-261,SYS-262,SYS-263; CON-062,CON-172,CON-173,CON-184,CON-185,CON-193,CON-229,CON-230,CON-231,CON-232,CON-233,CON-234,CON-235; INF-001,INF-060,INF-091,INF-092,INF-093,INF-094,INF-095,INF-096; OBJ-068; TIM-003`.
+- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-006,ACT-068,ACT-120,ACT-139,ACT-144,ACT-145,ACT-148,ACT-175,ACT-176; SYS-156,SYS-162,SYS-186,SYS-196,SYS-255,SYS-256,SYS-257,SYS-258,SYS-259,SYS-260,SYS-192,SYS-262,SYS-263; CON-062,CON-172,CON-173,CON-184,CON-185,CON-193,CON-229,CON-230,CON-231,CON-232,CON-233,CON-234,CON-235; INF-001,INF-060,INF-091,INF-092,INF-086,INF-094,INF-095,INF-096; OBJ-068; TIM-003`.
 - Indexed games scanned: 133, including this record.
 - Indexed combinations scanned: 131.
 - Exact genome matches: none.
@@ -338,3 +340,12 @@ gene_ids:
 - GAME-0121: 3 / 65 = 0.046154; GAME-0122: 5 / 55 = 0.090909; GAME-0123: 0 / 83 = 0.000000; GAME-0124: 10 / 82 = 0.121951.
 - GAME-0125: 12 / 75 = 0.160000; GAME-0126: 14 / 74 = 0.189189; GAME-0127: 13 / 80 = 0.162500; GAME-0128: 8 / 53 = 0.150943.
 - GAME-0129: 2 / 78 = 0.025641; GAME-0130: 12 / 86 = 0.139535; GAME-0131: 9 / 82 = 0.109756; GAME-0132: 12 / 84 = 0.142857.
+
+### Registry normalisation 006 score corrections
+
+These recomputed values supersede the pre-normalisation fractions above:
+
+- `GAME-0125`: `13 / 74 = 0.175676`
+- `GAME-0126`: `15 / 73 = 0.205479`
+- `GAME-0132`: `13 / 83 = 0.156627`
+- Current prior-corpus near match after normalisation 006: `GAME-0126`.

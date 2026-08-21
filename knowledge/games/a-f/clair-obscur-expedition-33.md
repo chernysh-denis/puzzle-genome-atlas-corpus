@@ -341,6 +341,14 @@ Exhaustive prior-game ledger:
   with successful encounters permanently expanding both character builds and
   the reusable Lumina passive library.
 
+### Registry normalisation 006 score corrections
+
+These recomputed values supersede the pre-normalisation fractions above:
+
+- `GAME-0139`: `6 / 83 = 0.072289`
+- `GAME-0143`: `5 / 79 = 0.063291`
+- Current prior-corpus near match after normalisation 006: `GAME-0138`.
+
 ## Taxonomy impact
 
 - Registry changes: 20 new bounded genes and `COMB-0142`; `ACT-191`, `SYS-299`,

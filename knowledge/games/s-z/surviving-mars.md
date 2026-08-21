@@ -61,7 +61,7 @@ gene_ids:
     - INF-059
     - INF-060
     - INF-071
-    - INF-093
+    - INF-086
     - INF-101
     - INF-109
     - INF-110
@@ -180,7 +180,7 @@ gene_ids:
 
 - Reused: `INF-001` current known state; `INF-002` unpreviewed random future;
   `INF-059` technology and recipe dependencies; `INF-060` live production
-  networks; `INF-071` colony-wide survival reports; `INF-093` population,
+  networks; `INF-071` colony-wide survival reports; `INF-086` population,
   well-being and jobs; `INF-101` utility and environmental overlays.
 - New: `INF-109`–`INF-114` expose sectors and anomalies, drone command and
   errands, rocket manifests, dome life support and maintenance, politics and
@@ -257,13 +257,13 @@ gene_ids:
 | Action | `ACT-006`, `ACT-096`, `ACT-120`, `ACT-121`, `ACT-140`, `ACT-145`, `ACT-148`, `ACT-166`, `ACT-180`, `ACT-181` | networks, work, rockets, research and laws |
 | System Behaviour | `SYS-004`, `SYS-045`, `SYS-156`, `SYS-157`, `SYS-158`, `SYS-161`, `SYS-186`, `SYS-196`, `SYS-264`, `SYS-283`–`SYS-291` | colony, hazards, politics and independence |
 | Constraint | `CON-062`, `CON-136`, `CON-172`, `CON-173`, `CON-184`, `CON-185`, `CON-192`, `CON-193`, `CON-240`, `CON-253`–`CON-260` | geometry, supply, access and progression gates |
-| Information | `INF-001`, `INF-002`, `INF-059`, `INF-060`, `INF-071`, `INF-093`, `INF-101`, `INF-109`–`INF-114` | colony, flight, politics and goal state |
+| Information | `INF-001`, `INF-002`, `INF-059`, `INF-060`, `INF-071`, `INF-086`, `INF-101`, `INF-109`–`INF-114` | colony, flight, politics and goal state |
 | Objective | `OBJ-070` | purchased independence |
 | Time | `TIM-003` | pausable real time |
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-006,ACT-096,ACT-120,ACT-121,ACT-140,ACT-145,ACT-148,ACT-166,ACT-180,ACT-181; SYS-004,SYS-045,SYS-156,SYS-157,SYS-158,SYS-161,SYS-186,SYS-196,SYS-264,SYS-283,SYS-284,SYS-285,SYS-286,SYS-287,SYS-288,SYS-289,SYS-290,SYS-291; CON-062,CON-136,CON-172,CON-173,CON-184,CON-185,CON-192,CON-193,CON-240,CON-253,CON-254,CON-255,CON-256,CON-257,CON-258,CON-259,CON-260; INF-001,INF-002,INF-059,INF-060,INF-071,INF-093,INF-101,INF-109,INF-110,INF-111,INF-112,INF-113,INF-114; OBJ-070; TIM-003`.
+- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-006,ACT-096,ACT-120,ACT-121,ACT-140,ACT-145,ACT-148,ACT-166,ACT-180,ACT-181; SYS-004,SYS-045,SYS-156,SYS-157,SYS-158,SYS-161,SYS-186,SYS-196,SYS-264,SYS-283,SYS-284,SYS-285,SYS-286,SYS-287,SYS-288,SYS-289,SYS-290,SYS-291; CON-062,CON-136,CON-172,CON-173,CON-184,CON-185,CON-192,CON-193,CON-240,CON-253,CON-254,CON-255,CON-256,CON-257,CON-258,CON-259,CON-260; INF-001,INF-002,INF-059,INF-060,INF-071,INF-086,INF-101,INF-109,INF-110,INF-111,INF-112,INF-113,INF-114; OBJ-070; TIM-003`.
 - Indexed games scanned: all 135 previously reviewed game signatures.
 - Indexed combinations scanned: all 133 previously verified combinations.
 - Exact genome matches: none.
@@ -322,6 +322,14 @@ gene_ids:
 - Evidence and reasoning: existing colony genes capture construction,
   workforce, production and utilities; the new boundaries are limited to
   mechanisms not represented by prior exact semantics.
+
+### Registry normalisation 006 score corrections
+
+These recomputed values supersede the pre-normalisation fractions above:
+
+- `GAME-0132`: `13 / 98 = 0.132653`
+- `GAME-0134`: `19 / 92 = 0.206522`
+- Current prior-corpus near match after normalisation 006: `GAME-0125`.
 
 ## Taxonomy impact
 

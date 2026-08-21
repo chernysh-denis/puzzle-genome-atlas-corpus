@@ -343,6 +343,15 @@ Exhaustive prior-game ledger:
 - GAME-0141: 6 / 88 = 0.068182; GAME-0142: 6 / 88 = 0.068182; GAME-0143: 6 / 86 = 0.069767; GAME-0144: 16 / 62 = 0.258065.
 - GAME-0145: 10 / 81 = 0.123457; GAME-0146: 22 / 85 = 0.258824; GAME-0147: 6 / 62 = 0.096774.
 
+### Registry normalisation 006 score corrections
+
+These recomputed values supersede the pre-normalisation fractions above:
+
+- `GAME-0137`: `5 / 68 = 0.073529`
+- `GAME-0139`: `7 / 90 = 0.077778`
+- `GAME-0143`: `8 / 84 = 0.095238`
+- Current prior-corpus near match after normalisation 006: `GAME-0146`.
+
 ## Taxonomy impact
 
 - Registry changes: add fourteen bounded records and reuse twenty-nine active

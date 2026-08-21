@@ -40,10 +40,10 @@ gene_ids:
     - CON-274
     - CON-275
   information:
+    - INF-116
     - INF-118
     - INF-119
     - INF-120
-    - INF-121
   objective:
     - OBJ-072
   time:
@@ -160,10 +160,10 @@ gene_ids:
 
 ### Information Genes
 
+- Existing gene: `INF-116`, live team score, clock and shared-objective state.
 - New genes: `INF-118`, team-shared fog-limited world and minimap state;
   `INF-119`, personal hero health, mana, experience, abilities and cooldowns;
-  `INF-120`, gold, shop, inventory, courier and buyback state; `INF-121`, team
-  score, clock, visible structures and objective state.
+  `INF-120`, gold, shop, inventory, courier and buyback state.
 - Claim IDs: `DOTA-002`–`DOTA-006`.
 
 ### Objective Genes
@@ -245,13 +245,13 @@ gene_ids:
 | Action | `ACT-130`, `ACT-187`–`ACT-193` | hero-specific ability shapes are parameters |
 | System Behaviour | `SYS-045`, `SYS-051`, `SYS-215`, `SYS-297`–`SYS-306` | hero, item and neutral rosters are parameters |
 | Constraint | `CON-268`–`CON-275` | exact costs, ranges and cooldowns are parameters |
-| Information | `INF-118`–`INF-121` | HUD placement and cosmetic effects are excluded |
+| Information | `INF-118`–`INF-116` | HUD placement and cosmetic effects are excluded |
 | Objective | `OBJ-072` | team side is a parameter |
 | Time | `TIM-003` | live timers are parameters |
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-130,ACT-187,ACT-188,ACT-189,ACT-190,ACT-191,ACT-192,ACT-193; SYS-045,SYS-051,SYS-215,SYS-297,SYS-298,SYS-299,SYS-300,SYS-301,SYS-302,SYS-303,SYS-304,SYS-305,SYS-306; CON-268,CON-269,CON-270,CON-271,CON-272,CON-273,CON-274,CON-275; INF-118,INF-119,INF-120,INF-121; OBJ-072; TIM-003`.
+- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-130,ACT-187,ACT-188,ACT-189,ACT-190,ACT-191,ACT-192,ACT-193; SYS-045,SYS-051,SYS-215,SYS-297,SYS-298,SYS-299,SYS-300,SYS-301,SYS-302,SYS-303,SYS-304,SYS-305,SYS-306; CON-268,CON-269,CON-270,CON-271,CON-272,CON-273,CON-274,CON-275; INF-118,INF-119,INF-120,INF-116; OBJ-072; TIM-003`.
 - Indexed games scanned: 137 (`GAME-0001`–`GAME-0137`).
 - Indexed combinations scanned: 135 (`COMB-0001`–`COMB-0135`).
 - Exact genome matches: none.
@@ -303,17 +303,25 @@ gene_ids:
 | Bad North: Jotunn Edition (`GAME-0027`) | `SYS-045`, `SYS-051`, `TIM-003` | island-by-island squad landing defence versus persistent hero builds, fog-limited three-lane economy, respawn/buyback and ordered base siege | nearest at `3 / 44 = 0.068182` |
 
 - New genes: `ACT-188`–`ACT-193`, `SYS-297`–`SYS-306`, `CON-268`–`CON-275`,
-  `INF-118`–`INF-121`, `OBJ-072`.
+  `INF-118`–`INF-120`, `OBJ-072`.
 - Classification result: `New gene` and a new combination of reused/new genes.
-- Evidence and reasoning: six existing genes preserve shop purchase, live team
+- Evidence and reasoning: seven existing genes preserve shop purchase, live team
   cue, autonomous movement/engagement, direct combat and real-time boundaries;
   the new records isolate MOBA draft, lane economy, builds, fog, buyback and siege.
 
+### Registry normalisation 006 score corrections
+
+These recomputed values supersede the pre-normalisation fractions above:
+
+- `GAME-0132`: `3 / 83 = 0.036145`
+- `GAME-0137`: `5 / 60 = 0.083333`
+- Current prior-corpus near match after normalisation 006: `GAME-0137`.
+
 ## Taxonomy impact
 
-- Registry changes: 29 bounded active genes and added Dota 2 evidence to five
-  reused records; `TIM-003` needs no wording change.
-- Taxonomy-change record: none.
+- Registry changes after normalisation: 28 bounded active genes and added Dota
+  2 evidence to six reused records; `TIM-003` needs no wording change.
+- Taxonomy-change record: `TAXONOMY_CHANGE_014`.
 - Candidate terms affected: carry/support role, gank, deny, split push, high
   ground and power spike are strategies or parameters, not independent genes.
 
@@ -321,8 +329,9 @@ gene_ids:
 
 - Negative results: `ACT-008` was not reused because Dota movement is a
   destination command with autonomous pathing, not direct local locomotion.
-- `INF-115`/`INF-116` were not reused because first-person audiovisual/radar
-  boundaries do not fit shared top-down fog and ward vision.
+- `INF-115` was not reused because its first-person audiovisual boundary does
+  not fit shared top-down fog and ward vision; `INF-116` is reused only for the
+  live team/clock/objective HUD boundary.
 
 ## Delta summary
 
@@ -335,7 +344,7 @@ gene_ids:
 
 ## Нові гени
 
-- [Observation | Corroborated | High] Додано 29 genes для hero draft/commands,
+- [Observation | Corroborated | High] Додано 28 genes для hero draft/commands,
   abilities/builds, courier/buyback, lane economy, structures, fog і Ancient victory.
 
 ## Нові комбінації

@@ -30,6 +30,7 @@ gene_ids:
     - SYS-158
     - SYS-161
     - SYS-186
+    - SYS-194
     - SYS-196
     - SYS-197
     - SYS-198
@@ -37,7 +38,6 @@ gene_ids:
     - SYS-204
     - SYS-205
     - SYS-206
-    - SYS-207
     - SYS-208
     - SYS-209
   constraint:
@@ -137,9 +137,10 @@ gene_ids:
 ### System Behaviour Genes
 
 - Reused: autonomous movement, combat, production, power, extraction, errand
-  routing, hauling, quality and personal need-memory outcomes.
-- New: `SYS-203`–`SYS-209` cover storyteller pressure, body capacities,
-  relationships, recruitment, staffed research, cover-sensitive wounds and map generation.
+  routing, hauling, quality, personal need-memory outcomes and staffed research.
+- New: `SYS-203`–`SYS-206`, `SYS-208` and `SYS-209` cover storyteller pressure,
+  body capacities, relationships, recruitment, cover-sensitive wounds and map
+  generation.
 - Resolution order: accept policies and plans; broker work; path, haul and
   produce; update bodies, needs, mood and relations; schedule incidents;
   resolve drafted combat and world travel; test ship completion.
@@ -241,7 +242,7 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-006,ACT-120,ACT-144,ACT-145,ACT-147,ACT-148,ACT-149,ACT-150,ACT-151,ACT-152,ACT-155,ACT-156,ACT-157,ACT-158; SYS-004,SYS-045,SYS-051,SYS-156,SYS-158,SYS-161,SYS-186,SYS-196,SYS-197,SYS-198,SYS-203,SYS-204,SYS-205,SYS-206,SYS-207,SYS-208,SYS-209; CON-062,CON-172,CON-192,CON-193,CON-199,CON-200,CON-202,CON-203,CON-204,CON-205; INF-001,INF-002,INF-059,INF-071,INF-072; OBJ-062; TIM-003`.
+- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-006,ACT-120,ACT-144,ACT-145,ACT-147,ACT-148,ACT-149,ACT-150,ACT-151,ACT-152,ACT-155,ACT-156,ACT-157,ACT-158; SYS-004,SYS-045,SYS-051,SYS-156,SYS-158,SYS-161,SYS-186,SYS-196,SYS-197,SYS-198,SYS-203,SYS-204,SYS-205,SYS-206,SYS-194,SYS-208,SYS-209; CON-062,CON-172,CON-192,CON-193,CON-199,CON-200,CON-202,CON-203,CON-204,CON-205; INF-001,INF-002,INF-059,INF-071,INF-072; OBJ-062; TIM-003`.
 - Indexed games scanned: 127, including this record.
 - Indexed combinations scanned: 125.
 - Exact genome matches: none.
@@ -288,6 +289,13 @@ gene_ids:
 - `GAME-0121`: `2 / 69 = 0.028986`; `GAME-0122`: `4 / 59 = 0.067797`; `GAME-0123`: `2 / 84 = 0.023810`; `GAME-0124`: `12 / 83 = 0.144578`.
 - `GAME-0125`: `22 / 68 = 0.323529`; `GAME-0126`: `28 / 63 = 0.444444`.
 
+### Registry normalisation 006 score corrections
+
+These recomputed values supersede the pre-normalisation fractions above:
+
+- `GAME-0125`: `23 / 67 = 0.343284`
+- Current prior-corpus near match after normalisation 006: `GAME-0126`.
+
 ## Evidence and unknowns
 
 - The official product page establishes the base-game premise and major systems;
@@ -309,7 +317,7 @@ assuming that direct-avatar factory building shares autonomous-pawn work.
 
 ## Taxonomy impact
 
-- Added four Action, seven System Behaviour, four Constraint and one Objective
+- Added four Action, six System Behaviour, four Constraint and one Objective
   gene where no active boundary covered RimWorld's exact mechanic.
 - Reused Dwarf Fortress and Oxygen Not Included genes only where their
   operational definitions fit without broadening.
@@ -334,7 +342,8 @@ assuming that direct-avatar factory building shares autonomous-pawn work.
 
 ## Нові гени
 
-- `ACT-155`–`ACT-158`; `SYS-203`–`SYS-209`; `CON-202`–`CON-205`; `OBJ-062`.
+- `ACT-155`–`ACT-158`; `SYS-203`–`SYS-206`, `SYS-208`, `SYS-209`;
+  `CON-202`–`CON-205`; `OBJ-062`.
 
 ## Нові комбінації
 

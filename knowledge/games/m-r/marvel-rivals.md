@@ -31,9 +31,9 @@ gene_ids:
     - CON-341
   information:
     - INF-115
+    - INF-116
     - INF-119
     - INF-150
-    - INF-151
   objective:
     - OBJ-078
   time:
@@ -157,10 +157,11 @@ gene_ids:
 
 - Existing genes: `INF-115`, local sight and sound expose partial opponent
   state; `INF-119`, the personal hero HUD exposes health, status, abilities and
-  ultimate readiness.
-- New genes: `INF-150`, the hero roster exposes roles, kits and Team-Up
-  alternatives; `INF-151`, the match HUD exposes team, phase, clock, progress,
-  checkpoint, contest, overtime and respawn state.
+  ultimate readiness; `INF-116`, the live team interface exposes phase, clock,
+  progress and shared-objective state.
+- New gene: `INF-150`, the hero roster exposes roles, kits and Team-Up
+  alternatives. In this game, `INF-116` also covers checkpoint, contest,
+  overtime and respawn state.
 - Claim IDs: `MRV-001`–`MRV-006`.
 
 ### Objective Genes
@@ -246,13 +247,13 @@ gene_ids:
 | Action | `ACT-008`, `ACT-161`, `ACT-187`, `ACT-190`, `ACT-237` | hero-specific attacks and abilities are parameters |
 | System Behaviour | `SYS-215`, `SYS-380`–`SYS-386` | exact kit effects, route and geometry are parameters |
 | Constraint | `CON-269`, `CON-272`, `CON-338`–`CON-341` | team composition, ranges and timers are parameters |
-| Information | `INF-115`, `INF-119`, `INF-150`, `INF-151` | HUD placement and cosmetic effects are excluded |
+| Information | `INF-115`, `INF-119`, `INF-150`, `INF-116` | HUD placement and cosmetic effects are excluded |
 | Objective | `OBJ-078` | attacker or defender side is a parameter |
 | Time | `TIM-003` | all admitted transitions remain live |
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-161,ACT-187,ACT-190,ACT-237; SYS-215,SYS-380,SYS-381,SYS-382,SYS-383,SYS-384,SYS-385,SYS-386; CON-269,CON-272,CON-338,CON-339,CON-340,CON-341; INF-115,INF-119,INF-150,INF-151; OBJ-078; TIM-003`.
+- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-161,ACT-187,ACT-190,ACT-237; SYS-215,SYS-380,SYS-381,SYS-382,SYS-383,SYS-384,SYS-385,SYS-386; CON-269,CON-272,CON-338,CON-339,CON-340,CON-341; INF-115,INF-119,INF-150,INF-116; OBJ-078; TIM-003`.
 - Indexed games scanned: 146 (`GAME-0001`–`GAME-0146`).
 - Indexed combinations scanned: 144 (`COMB-0001`–`COMB-0144`).
 - Exact genome matches: none.
@@ -306,18 +307,27 @@ Exhaustive prior-game ledger:
 | `GAME-0138` — Dota 2 | `ACT-187`, `ACT-190`, `SYS-215`, `CON-269`, `CON-272`, `INF-119`, `TIM-003` | direct avatar aim, reversible spawn hero/Team-Up selection, no match economy or lanes, capture-to-escort route, overtime and destructible geometry | near match only; no prior combination recurs |
 
 - New genes: `ACT-237`, `SYS-380`–`SYS-386`, `CON-338`–`CON-341`,
-  `INF-150`, `INF-151`, `OBJ-078`.
+  `INF-150`, `OBJ-078`.
 - Classification result: `New gene` and `New combination of known and new genes`.
 - Evidence and reasoning: the exhaustive prior-game scan found only five shared
   genes with Dota 2. No prior record combines spawn-reversible hero/Team-Up
   selection, typed healing/damage abilities, capture-before-escort control,
   vehicle reversal, contested overtime and mutable arena geometry.
 
+### Registry normalisation 006 score corrections
+
+These recomputed values supersede the pre-normalisation fractions above:
+
+- `GAME-0132`: `2 / 74 = 0.027027`
+- `GAME-0137`: `7 / 48 = 0.145833`
+- `GAME-0138`: `8 / 52 = 0.153846`
+- Current prior-corpus near match after normalisation 006: `GAME-0138`.
+
 ## Taxonomy impact
 
-- Registry changes: add fifteen stable records and extend seven existing
-  definitions/evidence links; register `COMB-0145`.
-- Taxonomy-change record: none; boundaries are additive and preserve prior uses.
+- Registry changes after normalisation: add fourteen stable records and extend
+  eight existing definitions/evidence links; register `COMB-0145`.
+- Taxonomy-change record: `TAXONOMY_CHANGE_014`.
 - Candidate terms affected: none.
 
 ## Negative results
@@ -327,8 +337,8 @@ Exhaustive prior-game ledger:
   than permanently committing a draft identity.
 - `SYS-208` is absent because body-region and material-penetration resolution is
   not established as a defining complete-roster rule in this bounded scope.
-- `INF-116` and `INF-121` are absent because their canonical radar/bomb and
-  structure/economy boundaries do not fit the Convergence HUD.
+- `INF-121` is retired into `INF-116`; spatial fog and structure/economy detail
+  remain outside that shared live team/clock/objective HUD boundary.
 
 ## Delta summary
 
@@ -344,7 +354,7 @@ Exhaustive prior-game ledger:
 
 ## Нові гени
 
-- [Observation | Corroborated | High] Fifteen bounded genes cover spawn
+- [Observation | Corroborated | High] Fourteen bounded genes cover spawn
   selection, typed hero effects, ultimate, respawn, Convergence, destruction,
   Team-Up gates, HUD state and terminal objective.
 

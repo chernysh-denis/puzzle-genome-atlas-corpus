@@ -26,7 +26,7 @@ gene_ids:
     - INF-059
     - INF-060
   objective:
-    - OBJ-063
+    - OBJ-054
   time:
     - TIM-003
 ---
@@ -160,7 +160,7 @@ gene_ids:
 
 ### Objective Genes
 
-- `OBJ-063` completes the bounded base-game progression by manufacturing and
+- `OBJ-054` completes the bounded base-game progression by manufacturing and
   delivering the ordered Project Assembly parts through Phase 5, then launching
   Project Assembly.
 - Success, evaluation and failure: the final launch presents the ending;
@@ -236,12 +236,12 @@ gene_ids:
 | System Behaviour | `SYS-156`, `SYS-157`, `SYS-210`, `SYS-211` | rate, power graph, reward and phase parameters |
 | Constraint | `CON-062`, `CON-172`, `CON-173` | footprint, flow and resource-locus compatibility |
 | Information | `INF-001`, `INF-059`, `INF-060` | production, milestone and diagnostic detail |
-| Objective | `OBJ-063` | phase deliveries and final launch |
+| Objective | `OBJ-054` | phase deliveries and final launch |
 | Time | `TIM-003` | real-time live factory tick |
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-119,ACT-120,ACT-122,ACT-123; SYS-156,SYS-157,SYS-210,SYS-211; CON-062,CON-172,CON-173; INF-001,INF-059,INF-060; OBJ-063; TIM-003`.
+- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-119,ACT-120,ACT-122,ACT-123; SYS-156,SYS-157,SYS-210,SYS-211; CON-062,CON-172,CON-173; INF-001,INF-059,INF-060; OBJ-054; TIM-003`.
 - Indexed games scanned: 128, including this record.
 - Indexed combinations scanned: 126.
 - Exact genome matches: none.
@@ -284,6 +284,13 @@ gene_ids:
 - GAME-0121: 1 / 38 = 0.026316; GAME-0122: 7 / 24 = 0.291667; GAME-0123: 0 / 54 = 0.000000; GAME-0124: 8 / 55 = 0.145455.
 - GAME-0125: 8 / 50 = 0.160000; GAME-0126: 6 / 53 = 0.113208; GAME-0127: 7 / 57 = 0.122807.
 
+### Registry normalisation 006 score corrections
+
+These recomputed values supersede the pre-normalisation fractions above:
+
+- `GAME-0119`: `14 / 25 = 0.560000`
+- Current prior-corpus near match after normalisation 006: `GAME-0119`.
+
 ## Evidence and unknowns
 
 - The official product page establishes release and overall form. The official
@@ -307,10 +314,10 @@ an independent causal rule.
 
 ## Taxonomy impact
 
-- New genes: `SYS-210`, `SYS-211`, `OBJ-063`.
+- New genes: `SYS-210`, `SYS-211`.
 - Reused genes: `ACT-119`, `ACT-120`, `ACT-122`, `ACT-123`, `SYS-156`,
   `SYS-157`, `CON-062`, `CON-172`, `CON-173`, `INF-001`, `INF-059`,
-  `INF-060`, `TIM-003`.
+  `INF-060`, `OBJ-054`, `TIM-003`.
 - New family: none; Satisfactory belongs to the existing
   `FAM-008 automation-and-spatial-programming` boundary.
 - `COMB-0118` does not recur exactly because Satisfactory has infinite nodes,
@@ -340,7 +347,7 @@ an independent causal rule.
 
 ## Нові гени
 
-- `SYS-210`, `SYS-211`, `OBJ-063`.
+- `SYS-210`, `SYS-211`; `OBJ-054` is reused for the terminal factory project.
 
 ## Нові комбінації
 
