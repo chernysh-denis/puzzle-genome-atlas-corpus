@@ -759,54 +759,315 @@
     "profile": "Очищення цілей match-3 за обмежену кількість ходів",
     "scope": "Candy Crush Saga обмежено одним звичайним рівнем із цілями-замовленнями: сусідні обміни, збіги кольорів, створення й активація смугастих, загорнутих цукерок і кольорової бомби, очищення, падіння, поповнення та каскади. Виключено бустери до рівня, події, соціальні системи, монетизацію й карту саги.",
     "directPlay": "Пряме проходження не проводилося. Офіційні правила King описують обмін, спеціальні цукерки, замовлення та ліміт ходів; синтетичний контроль перевіряє валідність обміну, утворення збігів, каскад і завершення цілі.",
-    "reviewed": "2026-08-16", "batch": "UK-GAME-0109"
+    "reviewed": "2026-08-16",
+    "batch": "UK-GAME-0109"
   },
   "GAME-0110": {
     "profile": "Руйнування опор скінченними пострілами з рогатки",
     "scope": "Angry Birds Classic обмежено одним рівнем: гравець запускає видиму чергу пташок із нерухомої рогатки, а фізичні зіткнення ламають матеріали, прибирають опори й можуть каскадно знищити всіх свиней. Виключено здібності окремих пташок, бонусні предмети, карту епізодів і підрахунок трьох зірок.",
     "directPlay": "Пряме проходження не проводилося. Офіційний опис Rovio встановлює рогатку, руйнування споруд і скінченні спроби; синтетичний контроль перевіряє запуск, зіткнення, руйнування опори, каскад і умови перемоги або вичерпання пташок.",
-    "reviewed": "2026-08-16", "batch": "UK-GAME-0110"
+    "reviewed": "2026-08-16",
+    "batch": "UK-GAME-0110"
   },
   "GAME-0111": {
     "profile": "Розподілений ланцюг механізмів і підказок до книги-переходу",
     "scope": "Myst обмежено одним раннім ланцюгом на острові: вільне дослідження, огляд видимих підказок, зміна станів кількох механізмів і використання результату для відкриття доступу до книги-переходу. Виключено інші епохи, повний сюжет, фінали й точне відтворення всіх кодів.",
     "directPlay": "Пряме проходження не проводилося. Офіційні матеріали Cyan і архівні описи підтверджують дослідження острова, взаємозалежні механізми та книги-переходи; синтетичний контроль перевіряє порядок спостережень і станів без копіювання оригінальних кодів.",
-    "reviewed": "2026-08-16", "batch": "UK-GAME-0111"
+    "reviewed": "2026-08-16",
+    "batch": "UK-GAME-0111"
   },
   "GAME-0112": {
     "profile": "Фізичне лазіння шарнірним тілом через незалежні хвати",
     "scope": "Human: Fall Flat обмежено одним коротким підйомом: прямий рух шарнірного аватара, окреме керування руками, фізичний контакт із краєм, утримання хвату, перенесення ваги й підтягування на майданчик. Виключено мережеву гру, транспорт, складні механізми й інші рівні.",
     "directPlay": "Пряме проходження не проводилося. Офіційний опис No Brakes Games і матеріал розробника встановлюють незалежне керування руками та фізичну взаємодію; синтетичний контроль перевіряє досяжність, хват, опору й успішний підйом.",
-    "reviewed": "2026-08-16", "batch": "UK-GAME-0112"
+    "reviewed": "2026-08-16",
+    "batch": "UK-GAME-0112"
   },
   "GAME-0113": {
     "profile": "Координація двох агентів і чотирьох порталів",
     "scope": "Portal 2 обмежено однією кооперативною камерою: два агенти пересуваються, несуть один куб, незалежно ставлять по два портали на дозволені поверхні, передають стан один одному і разом відкривають вихід. Виключено одиночну кампанію, гелі, турелі, сюжет і редактор рівнів.",
     "directPlay": "Пряме проходження не проводилося. Офіційна сторінка Valve та дослідження кооперативного діалогу підтверджують двох роботів, чотири портали й спільні рішення; синтетичний контроль перевіряє власність каналів, заміну порталів, прохід куба й одночасні умови виходу.",
-    "reviewed": "2026-08-16", "batch": "UK-GAME-0113"
+    "reviewed": "2026-08-16",
+    "batch": "UK-GAME-0113"
   },
   "GAME-0114": {
     "profile": "Рикошетні постріли для очищення помаранчевих кілочків",
     "scope": "Peggle Deluxe обмежено одним рівнем: гравець спрямовує кульку з верхньої гармати, після запуску вона рикошетить між кілочками, активує влучені цілі й може потрапити в рухоме відро; спроба завершується очищенням усіх помаранчевих цілей або вичерпанням кульок. Виключено сили майстрів, дуелі, пригодницьку карту й бонусний підрахунок.",
     "directPlay": "Пряме проходження не проводилося. Каталог EA та офіційний посібник PopCap описують прицілювання, фізичні рикошети, помаранчеві цілі, кульки й відро; синтетичний контроль перевіряє запуск, зіткнення, очищення та витрату спроб.",
-    "reviewed": "2026-08-16", "batch": "UK-GAME-0114"
+    "reviewed": "2026-08-16",
+    "batch": "UK-GAME-0114"
   },
   "GAME-0115": {
     "profile": "Семантичне розміщення речей у допустимих місцях кімнати",
     "scope": "Unpacking обмежено однією кімнатою: гравець виймає всі речі з коробок, розміщує їх без накладання на полицях, у шухлядах та інших опорах, а система після розпакування позначає предмети в недопустимих місцях. Виключено інші роки, сюжетні висновки, досягнення й декоративні секрети.",
     "directPlay": "Пряме проходження не проводилося. Офіційний сайт і матеріал розробників підтверджують розпакування без таймера та контекстне призначення місць; синтетичний контроль перевіряє місткість, накладання, допустимі опори й завершення кімнати.",
-    "reviewed": "2026-08-16", "batch": "UK-GAME-0115"
+    "reviewed": "2026-08-16",
+    "batch": "UK-GAME-0115"
   },
   "GAME-0116": {
     "profile": "Вибір маршруту як озвучена гілка до авторського фіналу",
     "scope": "The Stanley Parable: Ultra Deluxe обмежено одним проходженням від офісу до одного фіналу: гравець іде доступними коридорами, перетинає авторські пороги, а оповідач реагує на обрані або проігноровані маршрути. Виключено повний каталог фіналів, New Content, колекційні предмети й метакоментар за межами пакета.",
     "directPlay": "Пряме проходження не проводилося. Офіційні матеріали Crows Crows Crows підтверджують вибір маршруту, реактивного оповідача й множинні фінали; синтетичний контроль перевіряє фіксацію гілки, відповідну репліку та термінальний стан.",
-    "reviewed": "2026-08-16", "batch": "UK-GAME-0116"
+    "reviewed": "2026-08-16",
+    "batch": "UK-GAME-0116"
   },
   "GAME-0117": {
     "profile": "Зовнішня підказка як обов'язкова частина внутрішньої головоломки",
     "scope": "OneShot обмежено одним пакетом, де стан усередині гри створює підказку поза звичайним видом світу; гравець переглядає зовнішній артефакт, повертається й застосовує отриману інформацію до адресованої головоломки. Виключено сюжет, усі фінали, точний текст коду й інші метаепізоди.",
     "directPlay": "Пряме проходження не проводилося. Офіційний опис і матеріали розробників підтверджують взаємодію поза вікном гри; синтетичний контроль перевіряє створення артефакту, доступність підказки та блокування рішення без неї.",
-    "reviewed": "2026-08-16", "batch": "UK-GAME-0117"
+    "reviewed": "2026-08-16",
+    "batch": "UK-GAME-0117"
+  },
+  "GAME-0118": {
+    "profile": "Автономна забудова зон під тиском попиту, сервісів і міського бюджету",
+    "scope": "SimCity 4 Deluxe Edition обмежено звичайним режимом мера в одному місті: зонування житлової, комерційної та промислової землі; дороги й транспорт; електрика, вода, відходи та міські служби; попит RCI; автономна забудова; податки, фінансування, бюджет; затори, забруднення й угоди із сусідами. Виключено катастрофи, U-Drive-It, MySim, тераформування до заснування міста, чіти, моди й конкретні сценарії.",
+    "directPlay": "Пряме проходження не проводилося. Офіційний посібник встановлює зонування, попит, транспорт, служби, діагностичні мапи й бюджет; сторінки EA та Aspyr підтверджують межу Deluxe Edition із Rush Hour.",
+    "reviewed": "2026-08-18",
+    "batch": "UK-GAME-0118"
+  },
+  "GAME-0119": {
+    "profile": "Жива автоматизована фабрика від видобутку до першої ракети",
+    "scope": "Factorio обмежено стабільною базовою версією 2.0 та звичайним одиночним freeplay на Nauvis до першого запуску ракети: ручний старт, будівництво й налаштування машин, рецепти, логістика, електрика, наука, скінченні ресурси, креслення, роботи, забруднення, вороги й оборона. Виключено Space Age, якість, інші планети, моди, мультиплеєр, сценарії, редактор, чіти, спідран і мегабазу після перемоги.",
+    "directPlay": "Пряме проходження не проводилося. Офіційний опис гри, документація версії 2.0 та first-party wiki узгоджено встановлюють виробництво, логістику, електрику, дослідження, виснаження ресурсів, креслення, забруднення, ворогів і запуск ракети.",
+    "reviewed": "2026-08-18",
+    "batch": "UK-GAME-0119"
+  },
+  "GAME-0120": {
+    "profile": "Постійно змінювана колода в боях із наперед показаними намірами ворогів",
+    "scope": "Slay the Spire обмежено стандартним одиночним проходженням за Залізного воїна на нульовому рівні сходження: від дару Неов до боса третього акту. Враховано розгалужену мапу, бої, енергію, добір і скидання карт, блок, здоров’я, наміри ворогів, нагороди, крамниці, місця відпочинку, реліквії, зілля та постійну зміну колоди. Виключено четвертий акт, інші персонажі, щоденні й власні режими, нескінченний режим, моди та метапрогрес профілю.",
+    "directPlay": "Пряме проходження не проводилося. Офіційний опис Mega Crit, авторський посібник дизайнера та документація версій 1.0 і 2.0 узгоджено підтверджують процедурний маршрут, вибір карт після бою, енергію, видимі наміри, постійну колоду, реліквії й босів.",
+    "reviewed": "2026-08-18",
+    "batch": "UK-GAME-0120"
+  },
+  "GAME-0121": {
+    "profile": "Зоноване місто з міським бюджетом, локальними політиками та транспортними лініями",
+    "scope": "Cities: Skylines обмежено звичайним новим містом у базовій PC-грі: дороги, зонування, автономна забудова, комунальні й міські служби, податки, бюджети, позики, поїздки й затори, базовий громадський транспорт, райони, політики та відкриття за населенням до Megalopolis. Виключено DLC, моди, Workshop, сценарії, необмежені гроші, розблокування всього, редактори, Remastered і Cities: Skylines II.",
+    "directPlay": "Пряме проходження не проводилося. Офіційний PC-посібник встановлює правила зонування, служб, транспорту, економіки, політик і рубежів населення; офіційні сторінки Steam і Paradox підтверджують продуктову межу.",
+    "reviewed": "2026-08-18",
+    "batch": "UK-GAME-0121"
+  },
+  "GAME-0122": {
+    "profile": "Жива фабрика точних форм із прогресією через квоти Вихору",
+    "scope": "shapez 2 - Factory обмежено версією 1.0, звичайним Classic mode на Regular difficulty від початкової сертифікації до Final Qualification: нескінченні джерела форм, машини перетворення, три шари, конвеєри, рідини, платформи, космічний транспорт, точні квоти Вихору, дослідження, креслення й скінченний ланцюг рубежів. Виключено Hexagonal і Manufacturing, Hard/Insane, sandbox, custom modes, моди, DLC та нескінченний Operator Level.",
+    "directPlay": "Пряме проходження не проводилося. Поточні офіційні сторінки розробника встановлюють живу багатошарову фабрику, перетворення форм, нескінченні ресурси й вільну перебудову; офіційна wiki-посібник підтверджує квоти Вихору, рубежі, дослідження, креслення та Final Qualification.",
+    "reviewed": "2026-08-18",
+    "batch": "UK-GAME-0122"
+  },
+  "GAME-0123": {
+    "profile": "Карткові бої по смугах із жертвами та прогресом через головоломки хатини",
+    "scope": "Inscryption обмежено свіжим проходженням першого акту в хатині Лешого: основна й білчина колоди, кровні жертви, кістки, чотири парні смуги, черга карт суперника, шкала переваги, розгалужена мапа, зміна колоди, предмети, свічки, карти смерті та обов’язковий ланцюг до плівки. Виключено акти II–III, фінал, ARG, Kaycee’s Mod, випробування й післяігрові відкриття.",
+    "directPlay": "Пряме проходження не проводилося. Офіційна сторінка підтверджує поєднання колодобудівного roguelike з escape-room головоломками; спеціалізовані довідники узгоджено встановлюють добір, жертви, смуги, шкалу, мапу, карти смерті й залежність фіналу акту від плівки.",
+    "reviewed": "2026-08-18",
+    "batch": "UK-GAME-0123"
+  },
+  "GAME-0124": {
+    "profile": "Поселення з працівниками під прогнозованим тиском Бурі та двома зустрічними шкалами",
+    "scope": "Against the Storm обмежено базовою PC-грою 1.10.4: звичайними поселеннями, базовими видами мешканців, прихованими галявинами, будівлями й рецептами, сезонами, ворожістю, рішучістю, репутацією, нетерпінням Королеви, наказами, кресленнями, наріжними каменями, подіями галявин, картою світу й поліпшеннями Цитаделі. Виключено DLC, Древні Печаті, Queen’s Hand Trial, Daily і Training Expeditions, моди та мультиплеєр.",
+    "directPlay": "Пряме проходження не проводилося. Офіційна сторінка, документація розробника й офіційна wiki узгоджено встановлюють сезонний цикл, ворожість, рішучість, дві шкали завершення, обмежені пропозиції, події з термінами та метапрогресію.",
+    "reviewed": "2026-08-18",
+    "batch": "UK-GAME-0124"
+  },
+  "GAME-0125": {
+    "profile": "Автономна колонія всередині спроєктованої системи життєзабезпечення",
+    "scope": "Oxygen Not Included обмежено поточною базовою PC-грою та звичайною колонією Survival на одному базовому астероїді: від трьох стартових Дублікантів до проходження базової Temporal Tear. Включено доручення, пріоритети, навички, розклади, потреби, мораль і стрес; гази, рідини, тепло, фазові переходи й мікроби; виробництво, труби, електрику, автоматизацію, Printing Pod, дослідження й ракети. Виключено Spaced Out!, платні набори, Sandbox, Debug, моди, спеціальні випробування та окремий Monument imperative.",
+    "directPlay": "Пряме проходження не проводилося. Офіційний опис Klei встановлює колоніальну систему ресурсів і життєзабезпечення; підтримувані поточні довідники узгоджено підтверджують маршрутизацію доручень, матеріальні клітинки, потреби, теплові переходи, інфраструктуру, дослідження й базовий фінал через Temporal Tear.",
+    "reviewed": "2026-08-18",
+    "batch": "UK-GAME-0125"
+  },
+  "GAME-0126": {
+    "profile": "Автономна фортеця з просторовими дорученнями, історією світу та інституційним ростом",
+    "scope": "Dwarf Fortress обмежено Premium/Steam v53.15 і звичайним Fortress Mode: від генерації світу, вибору місця та семи поселенців до статусу столиці й прибуття монарха. Включено доручення, робочі деталі, склади, майстерні, умовні накази, кімнати, потреби, стрес, дивні настрої, торгівлю, знать, загони й облоги. Виключено Adventure, Legends, Arena, Classic UI, моди, DFHack, мегапроєкти й післямонарший квест Mountainhome.",
+    "directPlay": "Пряме проходження не проводилося. Офіційні сторінки встановлюють поточну версію та межу Fortress Mode; підтримувана довідка 53.15 узгоджено підтверджує автономну працю, матеріальну логістику, особисті стани, світові події й ранги поселення.",
+    "reviewed": "2026-08-18",
+    "batch": "UK-GAME-0126"
+  },
+  "GAME-0127": {
+    "profile": "Автономна колонія з прямим тактичним перехопленням під час криз",
+    "scope": "RimWorld обмежено базовою PC-грою 1.6, звичайним Crashlanded із Cassandra Classic на Strive to Survive: від трьох уцілілих до запуску власноруч побудованого корабля. Включено працю, зони, склади, рахунки, потреби, здоров’я, стосунки, полонених, мобілізацію, оповідача, каравани, дослідження й корабель. Виключено всі DLC, моди, dev mode, власні сценарії, готовий корабель квесту й гру після запуску.",
+    "directPlay": "Пряме проходження не проводилося. Офіційний опис і підтримувана довідка базової версії 1.6 узгоджено встановлюють автономну працю, особисті стани, storyteller-тиск, тактичну мобілізацію, світові каравани й корабельний фінал.",
+    "reviewed": "2026-08-18",
+    "batch": "UK-GAME-0127"
+  },
+  "GAME-0128": {
+    "profile": "Жива фабрика з поставками матеріалів і аварійним вимкненням електромережі",
+    "scope": "Satisfactory обмежено базовою версією 1.0 у звичайному одиночному проходженні: від onboarding до запуску Project Assembly. Включено ручний видобуток і крафт, розміщення та налаштування фабрик, нескінченні ресурсні вузли, конвеєри, трубопроводи, насоси, тверді й рідинні рецепти, електромережі, HUB Milestones, поставки через Space Elevator і фінальний запуск. Виключено мультиплеєр, MAM, альтернативні рецепти, AWESOME Shop, транспорт, бойові й дослідницькі побічні системи, моди та післяігрову оптимізацію.",
+    "directPlay": "Пряме проходження не проводилося. Офіційна сторінка Coffee Stain встановлює released first-person factory форму; офіційна Satisfactory Wiki підтверджує вузли, машини, конвеєри, трубопроводи, head lift, рідинні рецепти, електромережі, рубежі та Project Assembly.",
+    "reviewed": "2026-08-20",
+    "batch": "UK-GAME-0128"
+  },
+  "GAME-0129": {
+    "profile": "Ручне voxel-виживання через точні рецепти, портали та шлях до The End",
+    "scope": "Minecraft Java Edition 26.2 обмежено одиночним Survival на Normal від нового seeded світу до першої перемоги над Ender Dragon, входу у вихідний портал і титрів. Включено окремі дії руйнування, підбору й розміщення блоків, 2×2/3×3 crafting, durability, голод, їжу, здоров’я, звичайну смерть/respawn, прямий бій, Nether, Eyes of Ender, stronghold, End portal і лікування Dragon від кристалів. Виключено Creative, Hardcore, мультиплеєр, Redstone, чари, ферми, моди та post-game End.",
+    "directPlay": "Пряме проходження не проводилося. Офіційний реліз 26.2 та офіційні Minecraft guides підтверджують блоки, crafting, survival state, death/respawn, Nether, Eye/stronghold route, End portal, crystal healing і фінал.",
+    "reviewed": "2026-08-20",
+    "batch": "UK-GAME-0129"
+  },
+  "GAME-0130": {
+    "profile": "Опалюване паливом місто під незворотними законами й фінальною бурею",
+    "scope": "Frostpunk обмежено завершеною базовою PC-грою 1.6.2, сценарієм A New Home на стандартній складності Medium: від прибуття 80 людей до Generator 623 до пережитої Great Storm та епілогу. Включено будівництво і вулиці, працю, ресурси, тепло, хвороби й лікування, дослідження, закони, Hope і Discontent, розвідку, сюжетні арки та підготовку до бурі. Виключено інші складності, Survivor, Endless, інші сценарії, DLC, поселення On The Edge, досягнення, моди, speedrun і гру після перемоги.",
+    "directPlay": "Пряме проходження не проводилося. Офіційні сторінки встановлюють стабільну версію, тепло, будівництво, закони, дослідження та розвідку; підтримувана механічна довідка узгоджено підтверджує відтворювані переходи A New Home, Generator, здоров’я, civic tracks і Great Storm.",
+    "reviewed": "2026-08-20",
+    "batch": "UK-GAME-0130"
+  },
+  "GAME-0131": {
+    "profile": "Скінченна міжзоряна фабрика, що матеріально будує зоряну енергосистему для фінального дослідження",
+    "scope": "Dyson Sphere Program обмежено поточною Early Access PC-версією 0.10.34.28524, звичайною одиночною новою грою зі стандартними ресурсами й Regular Dark Fog: від посадки Icarus у seeded cluster до дослідження Mission Completed!. Включено керований рух, flight і warp, mecha energy, ручний та автоматичний видобуток, spherical-grid construction, blueprints, виробництво, power, research matrices, planetary/interstellar logistics, Dark Fog defence, swarm/sphere plans, sails, rockets, Ray Receivers, Critical Photons, antimatter і Universe Matrix. Виключено змінені параметри, Peace/Sandbox, optional farming, повне знищення Fog, achievements, mods, post-mission scaling і оголошені майбутні vehicles, space stations та comprehensive space combat.",
+    "directPlay": "Пряме проходження не проводилося. Офіційні сторінки встановлюють актуальну версію, Early Access і factory/interstellar/Dark Fog boundary; підтримувані механічні довідники узгоджено підтверджують seeded cluster, construction, finite veins, matrices, logistics, orbital launches, receiver photons та main-mission research.",
+    "reviewed": "2026-08-20",
+    "batch": "UK-GAME-0131"
+  },
+  "GAME-0132": {
+    "profile": "Острівна економіка потреб і робочої сили, з’єднана морськими маршрутами до World’s Fair",
+    "scope": "Anno 1800 обмежено базовою PC-версією Game Update 18.4, одиночною campaign на Normal: від prologue до фінального бою Chapter 4, потім у тому самому save до побудови World’s Fair і завершення першої exhibition. Включено Old/New World, needs і residence tiers, workforce, roads, production, storage, trade routes, fertilities, deposits, budget, influence, newspaper, incidents, expedition, oil/electricity і naval combat. Виключено всі DLC, multiplayer, Sandbox, scenarios, Creative, mods, custom settings, optional conquest, repeated exhibition farming і post-objective optimisation.",
+    "directPlay": "Пряме проходження не проводилося. Офіційні product, update та developer sources встановлюють фінальну версію і базові regional, production, route, electricity, combat та monument systems; підтримувані mechanics references підтверджують campaign endpoint, exact population, workforce, expedition, influence, incident і World’s Fair gates.",
+    "reviewed": "2026-08-20",
+    "batch": "UK-GAME-0132"
+  },
+  "GAME-0133": {
+    "profile": "Сезонна водна інженерія поселення до автоматизованого фракційного дива",
+    "scope": "Timberborn обмежено released PC version 1.0, current main branch після патча 6 травня 2026: свіже поселення Folktails на revised Waterfalls, Normal, до першого запуску Earth Recultivator. Включено 3D water/badwater, droughts і badtides, barriers, irrigation, paths, vertical construction, autonomous work і hauling, needs, well-being, housing-bound reproduction, crops, recipes, Science Points, shaft power, одну sensor-controlled water facility і повний wonder chain. Виключено Iron Teeth, custom settings/maps, Creative, mods, optional bots, ziplines, multi-district transfer, exhaustive terraforming і post-victory optimisation.",
+    "directPlay": "Пряме проходження не проводилося. Офіційні release і development notes встановлюють version boundary, Waterfalls, water, weather, automation та wonder; maintained official wiki підтверджує Normal settings, population, power, science і точні Earth Recultivator gates.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-GAME-0133"
+  },
+  "GAME-0134": {
+    "profile": "Фізична планова економіка до campaign-completing експорту ядерного палива",
+    "scope": "Workers & Resources: Soviet Republic обмежено базовою PC-версією 1.1.1.7 без DLC: від свіжого profile через повне завершення A New Republic is Born до всіх mandatory branches Soviet Revolution. Включено citizens, jobs, needs, transit, road/rail freight, recipes, construction і distribution offices, customs, rubles/dollars, utilities, environment, research, nuclear fuel/power/waste та campaign scripts. Виключено DLC, mods, custom sandbox і post-campaign optimisation.",
+    "directPlay": "Пряме проходження не проводилося. Official release notes встановлюють version boundary; official publisher wiki узгоджено підтверджує campaign, citizen travel, construction, dispatch, trade, utility, research і nuclear gates.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-GAME-0134"
+  },
+  "GAME-0135": {
+    "profile": "Збережене terrain-haulage виробництво до першого запуску ракети",
+    "scope": "Captain of Industry обмежено базовою Windows Update 4.2 без DLC: свіжа стандартна New Haven від занедбаного острова до першого успішного запуску ракети. Включено construction plans і blueprints, mining/dumping, excavators і trucks, storages, conveyors, pipes, power, recipes, research, housing, food, services, Unity, health, pollution, maintenance, world-map exploration, resource sites, quick trade, contracts та повний assembly-to-pad launch chain. Виключено Trains Expansion, Supporter Edition, Sandbox, mods, custom maps/settings, optional exhaustive train/nuclear routes і post-launch space station, asteroids та repeatable research.",
+    "directPlay": "Пряме проходження не проводилося. Official Update 4.2 notes встановлюють version boundary; official game wiki та developer diaries узгоджено підтверджують terrain, mine dispatch, logistics, settlement, maintenance, research, world trade і rocket gates.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-GAME-0135"
+  },
+  "GAME-0136": {
+    "profile": "Керована дронами марсіанська колонія до представницької оплаченої незалежності",
+    "scope": "Surviving Mars: Relaunched обмежено стандартною Windows-версією 1.0.7: свіжа звичайна surface mission від першої посадки до придбаної незалежності від mission sponsor. Включено scanning, deposits/anomalies, drones і commanders, construction, maintenance, power/water/oxygen, recipes, research, Earth resupply, rockets, domes, colonists, needs/work/births, ordinary surface disasters, Earth Council, Martian Assembly, factions, laws і повний declaration-to-payment chain. Виключено Prime Mission, Interplanetary Codex, Feeding the Future, Machine Utopia, mods, Creative/custom rules, mandatory Mystery dependence, exhaustive Underground/asteroid/train/terraforming routes і post-independence goals.",
+    "directPlay": "Пряме проходження не проводилося. Official release, feature diaries та developer patch notes встановлюють version boundary і підтверджують drone, logistics, life-support, research, colonist, politics та independence transitions.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-GAME-0136"
+  },
+  "GAME-0137": {
+    "profile": "Раундова командна перестрілка з економікою та асиметричним таймером бомби",
+    "scope": "Counter-Strike 2 обмежено публічною Windows-версією станом на 2026-08-21 і одним звичайним 5v5 Competitive bomb-defusal match у 24-round MR12 regulation без overtime. Включено movement, weapons, armour, grenades, one life per round, buy/save/drop economy, partial sight/sound/radar information, team communication, plant/defuse/explosion, halftime side swap, 13-round clinch і 12–12 draw. Виключено Premier rating/overtime, інші modes, hostage maps, community servers, cosmetics, trading, Armory та esports administration.",
+    "directPlay": "Повний direct match не проводився. Перевірено extracted live gamemode_competitive.cfg як executable rules data; official Valve product/update material і current competitive rulebook узгоджено підтверджують bounded transitions.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-GAME-0137"
+  },
+  "GAME-0138": {
+    "profile": "Туманна командна економіка трьох ліній до знищення Ancient",
+    "scope": "Dota 2 обмежено public PC gameplay update 7.41e й одним ordinary unranked 5v5 All Pick match на standard map: від hero/facet draft до першого destroyed Ancient. Включено commands, attacks, abilities, talents, gold/XP, items/recipes, stash/courier, lane і neutral creeps, towers, barracks, Roshan, wards, fog/day-night vision, death/respawn/buyback та team communication. Виключено Ranked MMR/roles, Turbo, інші draft modes, custom games, tutorial/bot rules, cosmetics, Dota Plus, compendiums, behaviour/Low Priority, esports і post-match rewards.",
+    "directPlay": "Повний live match не проводився. Official current patch і product material та extracted live game definitions встановлюють version/rules boundary; maintained mechanics references узгоджено підтверджують bounded transition trace.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-GAME-0138"
+  },
+  "GAME-0139": {
+    "profile": "Захоплені істоти між прямим боєм і автономною працею бази",
+    "scope": "Palworld обмежено public Windows v1.0.3: свіжий single-player Normal world із default settings від character spawn до першого завершення World Tree main-story finale. Включено exploration/combat, gathering, inventory, crafting, construction, survival і defeat; probabilistic Pal capture; party deployment, Partner Skills і levels; Palbox storage, base assignment, work suitability, hauling, food/SAN/illness, technology та ordered main missions. Виключено multiplayer/Guild/PvP/Arena, custom settings, servers/mods, cosmetics/add-ons, exhaustive breeding/mutation/Awakening/collection, hard rematches, challenge raids і post-story optimisation.",
+    "directPlay": "Повне fresh-story проходження не проводилося. Official Pocketpair product, v1.0 і v1.0.3 material встановлюють scope; maintained official wiki та current 1.0 route references узгоджено підтверджують mechanics і ending trace.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-GAME-0139"
+  },
+  "GAME-0140": {
+    "profile": "Повітряне висадження в одноразове виживання зі випадковим спорядженням і стисканням безпечної зони",
+    "scope": "PUBG: BATTLEGROUNDS обмежено PC Update 42.3 й одним звичайним Normal Match у Solo TPP на Erangel: від starting aircraft до elimination або Winner Winner Chicken Dinner. Включено up-to-100-player/bot fill, variable flight path, parachute, random world loot, equipment/attachments, direct combat, posture/lean, health/armour/healing/boost, vehicles, care packages, Red Zone, Update 42.1 Blue Zone, destructible Erangel terrain, permanent Solo defeat і last-survivor victory. Виключено Duo/Squad/Recall/DBNO, Ranked, Casual, Arcade, Custom, Training, event modes, інші карти, metaprogression, cosmetics, esports і post-match rating.",
+    "directPlay": "Повний direct match не проводився. Current official overview, Update 42.3 notes, map service і Blue Zone documentation встановлюють live boundary; official catalogues та maintained mechanics references узгоджено підтверджують inventory, consumables, attachments і vehicles.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-GAME-0140"
+  },
+  "GAME-0141": {
+    "profile": "Офлайн-стійка база виживання з upkeep, відновленням, рейдами й запланованим wipe",
+    "scope": "Rust обмежено public PC Power Trip від 2026-08-06 й одним default vanilla procedural monthly-wipe server у solo: від нового beach spawn без припущених non-default blueprints до наступного scheduled wipe. Включено gathering/loot, inventory, food/exposure, crafting, Furnace/Recycler, blueprint research, current Workbench fragment progression, connected building/stability, locks, Tool Cupboard privilege/upkeep, Sleeping Bag respawn, combat/death recovery, offline persistence та explosive raiding. Відтворювана progression-дуга веде через locked TC base і Workbench 3 до першого C4, breach чужої structure та повернення stolen stack у власне secured storage; це milestone, не terminal victory. Виключено teams/clans, Softcore/Creative/custom/modded, Tutorial Island, DLC/cosmetics, vehicles, electricity/industrial automation, farming, ocean systems, exhaustive monuments/events і admin tools.",
+    "directPlay": "Повний wipe-cycle не проходився. Official Facepunch product, current update та wiki material встановлюють live scope, recipes, privilege/upkeep, respawn, raiding і wipe transitions.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-GAME-0141"
+  },
+  "GAME-0142": {
+    "profile": "Локально сприймане тілесне виживання крізь укріплення й календарне виснаження до остаточної смерті",
+    "scope": "Project Zomboid обмежено public PC Stable 42.20.3 й одним свіжим unmodded single-player Apocalypse/Lore Canon життям у Muldraugh: від legal zero-net occupation/trait build до irreversible death цього survivor. Включено movement/stealth/combat, sight/noise, loot/inventory/food/crafting/durability, body-part wounds і treatment, ordinary та Knox infection, moodles, sleep/time rate, skills, barricades/basic shelter, utility shutoff, spoilage, weather/seasons і одну persistent crop. Day-30 secured dwelling/food/water/crop checkpoint є analytical milestone, не victory. Виключено multiplayer/co-op, Custom Sandbox та інші modes/challenges, mods/debug/admin, vehicles, animals/hunting/trapping/fishing, advanced crafting branches і будь-якого later character у retained save.",
+    "directPlay": "Повне проходження від day-30 checkpoint до смерті не проводилося. Current official release, feature, mode й build-history material разом із maintained official PZwiki mechanics встановлюють scoped transitions.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-GAME-0142"
+  },
+  "GAME-0143": {
+    "profile": "Умовно змінна PvPvE-вилазка, де ризик перетворюється на збережений розвиток майстерні",
+    "scope": "ARC Raiders обмежено PC Standard Edition у Live Update 1.42.0: solo matchmaking у звичайну Dam Battlegrounds raid без special Map Condition з Free Loadout. Включено loadout, movement/combat, ARC і Raider threats, sight/sound, shield/health/DBNO, search/loot, Safe Pocket, field craft/recycle, extraction або knockout, stash, sale, Workshop craft/repair, XP/level/skills. Відтворюваний checkpoint порівнює successful extraction із knockout для equivalent unsecured loot та одного pocketed item. Виключено duo/trio, Practice Range, special conditions/events, exhaustive quests, Trials, Feats, Raider Decks, Projects, Expedition reset, Nomadic Envoy vault, paid cosmetics та повний catalogue maps/items.",
+    "directPlay": "Live raid на paid account не проводився. Current official Help Center, product material і versioned patch notes прямо встановлюють scoped transitions; exact numeric balance лишено параметрами.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-GAME-0143"
+  },
+  "GAME-0144": {
+    "profile": "Реактивне виконання ходів, що перетворюється на опановані пасивні збірки загону",
+    "scope": "Clair Obscur: Expedition 33 обмежено PC Standard Edition v1.5.6, fresh single-player save на Expeditioner від Spring Meadows до першої перемоги над Goblu у Flying Waters і наступного rest. Включено authored exploration, visible field encounters/First Strike, ранню партію Gustave/Lune/Maelle, turn order, AP, Attack/Skill/Item/Free Aim, timed offensive inputs, dodge/parry/available jump, weak points, character resources/stances, health/status/Break, defeat/Retry, loot/XP/levels/attributes/skills, weapons, Pictos, four-battle Lumina mastery та refill/enemy respawn on rest. Виключено інші difficulty/automated QTE parameters, later acts/characters, relationships, Gradient Attacks, superbosses, challenge modifiers, anniversary area, NG+, cosmetics/Deluxe і exhaustive content.",
+    "directPlay": "Нова paid-account сесія не проводилася. Current official patch notes і creator material встановлюють version boundary; official platform demonstrations та reproduced early-game descriptions встановлюють scoped transitions. Exact balance лишено параметрами.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-GAME-0144"
+  },
+  "GAME-0145": {
+    "profile": "Дія у світі з трьома героями й розшуком, що переходить у сплановані рольові пограбування",
+    "scope": "Grand Theft Auto V обмежено PC Enhanced Title Update 1.73 і свіжим Story Mode від Prologue до першого завершення The Third Way. Включено критичний сюжетний маршрут, піший і транспортний рух, стрілянину, вибухівку, укриття, трафік і цивільних, wanted pursuit/evasion, GPS, перемикання Michael/Franklin/Trevor, special abilities, activity-developed stats, Story Mode покупки, mission failure/checkpoint retry, major-heist approaches/crew/cuts/payout та terminal option C. Виключено GTA Online, Editor/Director Mode, mods/cheats, optional side content, properties/stock optimisation, 100%, post-story, alternate first ending, replay medals, achievements, cosmetics і exhaustive content.",
+    "directPlay": "Повне нове paid-account проходження не проводилося. Поточні Rockstar 1.73 notes, Enhanced product material, official gameplay і PC controls встановлюють version/control boundary; creator preview та maintained mission, wanted і heist references узгоджено підтверджують scoped route.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-GAME-0145"
+  },
+  "GAME-0146": {
+    "profile": "Обмежена capacity кібернетична збірка й злом, що переходять у збережені сюжетні гілки",
+    "scope": "Cyberpunk 2077 обмежено базовою PC-версією Patch 2.31 і свіжим проходженням на Normal: Nomad із початковим розподілом attributes до першого завершення Where Is My Mind? через завжди доступний Arasaka route. Включено рух, stance, firearms/melee/grenades, stealth/grapple/takedown, scanner/quickhacks/RAM/trace, cyberware slots/capacity/armour/attunement, loot/inventory/vendors/crafting, XP/levels/attributes/perks/skills/Street Cred, vehicles, NCPD Heat, authored main jobs/choices, checkpoints і save restore. Виключено Phantom Liberty/Dogtown/Relic/Tower, side jobs/gigs та optional ending unlocks, alternate first endings, One More Gig, NG+, mods/cheats, achievements, cosmetics, romance, collectibles і exhaustive content.",
+    "directPlay": "Повне нове paid-account проходження не проводилося. Official Patch 2.31, Update 2.0 notes, product material і build planner встановлюють maintained system boundary; maintained route references узгоджено підтверджують bounded critical path.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-GAME-0146"
+  },
+  "GAME-0147": {
+    "profile": "Змінювана геройська команда проходить від захоплення точки до супроводу цілі",
+    "scope": "Marvel Rivals обмежено PC Version 20260820, Season 9.5, й одним завершеним 6v6 Quick Match Convergence на боці атаки в Shin-Shibuya з принаймні одним життям Luna Snow. Включено direct third-person movement/aim, attacks, damage/healing, cooldown abilities, ultimate energy, три hero roles, Season 9 Team-Up loadout і partner enhancement, health/Regenerative Shields, knockout/respawn/hero swap, team cues, capture, mission-vehicle escort/reversal, checkpoints, contest/overtime, destructible geometry та win/loss. Виключено Competitive, інші modes/maps, exhaustive roster/Team-Ups, Battle Pass, store, cosmetics, account progression і tournaments.",
+    "directPlay": "Authenticated live match не проводився. Current official product, patch, hero, role, Team-Up, environment і competition material встановлюють version та mode boundary; maintained Convergence і Team-Up references узгоджено підтверджують operational edge cases.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-GAME-0147"
+  },
+  "GAME-0148": {
+    "profile": "Партійна тактика через кості зі збереженими наслідками кампанії",
+    "scope": "Baldur's Gate 3 обмежено PC Patch 8, Hotfix #35 (`4.1.1.6995620`) і одним свіжим single-player проходженням на Balanced за custom Tav від character creation до першого знищення Netherbrain та epilogue. Включено створення персонажа, exploration, керування party до чотирьох учасників, dialogue й d20 checks, Inspiration, companions/approval, initiative, movement, Action/Bonus Action/Reaction, attacks, spells/slots/concentration, conditions/surfaces/sight, Downed/death saves/revival, loot/inventory/equipment/trade, XP/levels до 12, short/long rest, retained quests і save/load. Виключено Origin/Dark Urge, romances, alternative endings, exhaustive content, інші difficulties, multiplayer/cross-play/split-screen, mods/toolkit, photo mode, cosmetics і achievements.",
+    "directPlay": "Повне нове authenticated проходження не проводилося. Official Patch 8, Hotfix #35, Larian support і Steam material встановлюють version/product boundary; maintained bg3.wiki mechanics references узгоджено підтверджують scoped transitions.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-GAME-0148"
+  },
+  "GAME-0149": {
+    "profile": "Загальновійськові дії загону перетворюють спірну територію на втрату підкріплень",
+    "scope": "Battlefield 6 обмежено версією PC Game Update 1.4.2.0 й одним стандартним офіційним матчем Open Weapons Conquest на Liberation Peak із початковими 1 000 підкріплень на команду. Включено загони з чотирьох бійців, чотири класи та їхнє спорядження і шляхи підготовки, керування піхотою й технікою, стрільбу, перезарядження, гранати, класові пристрої, командні сигнали, зір і звук, поранення, перетягування, оживлення та сплив кров’ю, повторне висадження через штаб, захоплені точки, бійців загону, маяки й техніку, захоплення та оскарження точок, пошкодження і ремонт техніки, тактичне руйнування, втрату підкріплень через смерті й утримання цілей та завершення при нульовому запасі. Виключено Campaign, REDSEC, Portal, власні правила, Casual, Initiation, інші режими й мапи, Closed Weapons, розвиток Career, Hardware і Battle Pass, завдання, косметику, крамницю, античіт, добір гравців і нагороди.",
+    "directPlay": "Автентифікований матч наживо не проводився. Чинна офіційна документація про оновлення, режим, класи, спорядження, загони, техніку й руйнування прямо встановлює переходи в межах обраного зрізу; репозиторний трасувальний сценарій перевіряє їхній причинний порядок.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-GAME-0149"
+  },
+  "GAME-0150": {
+    "profile": "Здібнісно замкнене сходження поєднує Silk, Crest-спорядження та відновлювану втрату після смерті",
+    "scope": "Hollow Knight: Silksong обмежено базовою PC-версією patch 1.0.30000, Normal mode і свіжим збереженням від вступу до першого входу в Act 2 після п’яти Bellshrines та перемоги над Last Judge. Включено прямий рух і needle combat; health, Silk, Bind і Silk Skills; Silkspear, Swift Step, Drifter's Cloak, Cling Grip і Needolin; Rosaries, платні Benches, rest/save/refill/enemy respawn; Hunter і Reaper Crests із кольоровими Tool slots; ordinary death, checkpoint return, один Cocoon і second-death loss; п’ять регіональних Bellshrines, Grand Gate, Last Judge і Citadel entry. Виключено подальші Acts 2–3, Steel Soul, exhaustive content, skips/glitches, achievements/platform features та оголошене, але ще не випущене Sea of Sorrow.",
+    "directPlay": "Автентифіковане свіже проходження не проводилося. Поточні офіційні patch/product матеріали й офіційна platform mechanics стаття встановлюють підтримувану межу; maintained community mechanics pages узгоджено використано лише як secondary evidence для названих route transitions.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-GAME-0150"
+  },
+  "GAME-0151": {
+    "profile": "Відстежуване вершницьке переслідування перетворює локальні рани на спорядження з трофеїв",
+    "scope": "Monster Hunter Wilds обмежено базовою PC-версією Ver.1.042.00.00, offline single-player від створення hunter і Palico до першого завершення Chapter 1-3: To the Forest. Включено direct movement, Seikret call/ride/auto-route і second weapon, scoutflies, early weapon classes як parameters, live attacks, stamina, sharpness/ammo, items і field craft, Focus Mode, wounds, Focus Strikes, part breaks, gathering/carving, Palico, monster pursuit, changing locale conditions, faint/camp return, assignment timer/faint limit, Chatacabra і Quematrice hunts, materials/zenny/smithy та ordered story gate. Виключено online/SOS/Support Hunters, Forest Findings і later chapters, High Rank/endgame/update content, capture-only analysis, exhaustive builds, cosmetic DLC, photo mode, mods, Ascendance й achievements.",
+    "directPlay": "Нова paid-account сесія не проводилася. Current Capcom patch/demo announcements, official platform mechanics guides і public chapter walkthrough traces узгоджено використано для deterministic repository-side transitions; exact balance/drop rates лишено параметрами.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-GAME-0151"
+  },
+  "GAME-0152": {
+    "profile": "Відновлення біля Grace поєднує ризик рун, побудову спорядження та ворота Stormveil",
+    "scope": "Elden Ring обмежено базовою PC-версією App Ver. 1.16 / Regulation Ver. 1.16.1, offline single-player і fresh character від creation та Cave of Knowledge до першої перемоги над Margit, the Fell Omen, і входу в Stormveil. Включено movement/lock-on/combat, HP/FP/stamina/stance/status, Grace rest/reset/flasks, death і one current rune mark, rune levelling, inventory/equipment load/requirements, smithing/Ashes of War, crafting, Limgrave map/guidance/travel, Torrent, one Spirit Ash і Margit gate. Виключено multiplayer, later Stormveil/Godrick/regions, Great Runes/endings/NG+, DLC/Nightreign, exhaustive content, farming, mods та achievements.",
+    "directPlay": "Нова paid-account сесія не проводилася. Current official patch notes, Bandai Namco starter/early-game guides і public Margit route traces узгоджено використано для deterministic repository-side transitions.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-GAME-0152"
+  },
+  "GAME-0153": {
+    "profile": "Змінюваний клітинний світ поєднує crafting, житло NPC й нічну підготовку до першого Eye",
+    "scope": "Terraria обмежено Desktop 1.4.5.6, offline single-player, новим Classic character і новим малим Classic world без special seed: від creation до першої перемоги над Eye of Cthulhu та прибуття Dryad у підготовлене valid house. Включено mutable terrain, gathering, crafting, inventory/equipment/purchases, housing/NPC gates, Life Crystals, healing/Potion Sickness, Classic coin death/respawn, minimap, day-night ecology і first Eye. Виключено Journey/Expert/Master, Mediumcore/Hardcore, multiplayer, special seeds/cross-world transfer, later bosses, Hardmode, exhaustive content, farming, mods та achievements.",
+    "directPlay": "Нова paid-account сесія не проводилася. Current official Terraria Wiki version, world, crafting, housing, health, day-night, spawning, minimap, Eye of Cthulhu та Dryad records узгоджено використано для deterministic repository-side transitions; random spawn і modifier outcomes лишено параметрами.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-GAME-0153"
   }
 }

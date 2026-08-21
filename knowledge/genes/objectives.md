@@ -631,7 +631,8 @@
   required member of its finite hostile set before the controlled combatant is
   defeated.
 - Includes: clearing a Fights in Tight Spaces room after every required enemy
-  is knocked out, killed or removed through a lethal boundary.
+  is knocked out, killed or removed through a lethal boundary; defeating every
+  enemy in one bounded Slay the Spire combat before player health reaches zero.
 - Excludes: surviving a fixed round horizon while hostiles may remain; repelling
   a time-driven multi-wave assault; maximising defeated-enemy score without a
   finite completion set.
@@ -639,7 +640,8 @@
   closure, controlled-actor defeat and simultaneous terminal resolution.
 - Evidence: [Fights in Tight Spaces decomposition](../games/a-f/fights-in-tight-spaces.md)
   and [Tactical Breach Wizards decomposition](../games/s-z/tactical-breach-wizards.md),
-  and [Shogun Showdown decomposition](../games/s-z/shogun-showdown.md).
+  [Shogun Showdown decomposition](../games/s-z/shogun-showdown.md), and
+  [Slay the Spire decomposition](../games/s-z/slay-the-spire.md).
 - Novelty: not assessed.
 
 ## OBJ-030 — Preserve designated vulnerable actor during clearance
@@ -1082,4 +1084,530 @@
 - Parameters: branch graph, terminal triggers, reset behaviour, retained
   unlocks and completion presentation.
 - Evidence: [The Stanley Parable: Ultra Deluxe decomposition](../games/s-z/the-stanley-parable-ultra-deluxe.md).
+- Novelty: not assessed.
+
+## OBJ-053 — Sustain and expand an open-ended simulated city
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: maintain fiscal and infrastructural viability while enabling an
+  open-ended city population and economy to grow rather than reaching one fixed
+  authored terminal solution.
+- Includes: ordinary mayor-mode play in SimCity 4 and ordinary new-game city
+  development in Cities: Skylines.
+- Excludes: completing one disaster mission; maximising a single level score;
+  reproducing a prescribed city layout.
+- Parameters: population, employment, treasury, service level, mayor rating and player-defined horizon.
+- Evidence: [SimCity 4 Deluxe Edition decomposition](../games/s-z/simcity-4-deluxe-edition.md)
+  and [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
+- Novelty: not assessed.
+
+## OBJ-054 — Research, construct and launch the first rocket
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete a base freeplay production run by researching the
+  required technologies, manufacturing the dependent components, constructing
+  a rocket silo and launching the first valid rocket payload.
+- Includes: the ordinary first-rocket victory condition in Factorio 2.0 base
+  freeplay, including the option to continue the same save after victory.
+- Excludes: merely unlocking the rocket-silo technology; launching through the
+  Space Age expansion progression; open-ended throughput optimisation without
+  completing the first launch.
+- Parameters: technology prerequisites, silo construction cost, rocket-part
+  recipe, launch payload, production throughput and post-victory continuation.
+- Evidence: [Factorio decomposition](../games/a-f/factorio.md).
+- Novelty: not assessed.
+
+## OBJ-055 — Defeat the third-act boss in one continuous climb
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one run by traversing three finite acts and defeating
+  each act's terminal boss without the persistent player health reaching its
+  failure threshold.
+- Includes: ordinary Ascension 0 Slay the Spire victory after the Act 3 boss.
+- Excludes: the optional unlocked Act 4; maximising run score; winning only one
+  combat encounter.
+- Parameters: act count, boss identities, unlock-dependent continuation and
+  terminal-health rule.
+- Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md).
+- Novelty: not assessed.
+
+## OBJ-056 — Complete the finite factory qualification milestone chain
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: advance through the ordinary scenario's ordered milestone chain
+  and submit the final exact-shape quota that grants the named qualification.
+- Includes: completing shapez 2 Classic/Regular Final Qualification before the
+  optional infinite Operator Level becomes the main post-game pursuit.
+- Excludes: maximising an endless operator level; completing one intermediate
+  shape quota; launching a rocket in a materially finite-resource factory.
+- Parameters: scenario, milestone order, final shape schema, delivery quantity,
+  difficulty multiplier and post-completion continuation.
+- Evidence: [shapez 2 decomposition](../games/s-z/shapez-2.md).
+- Novelty: not assessed.
+
+## OBJ-057 — Tip relative combat scale by required damage margin
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: win one bounded card encounter by accumulating a declared net
+  direct-damage advantage on a shared two-sided scale before the opponent tips
+  that scale by the same margin.
+- Includes: winning an Act I Inscryption card battle when the scale reaches a
+  five-point advantage on the player's side.
+- Excludes: reducing every enemy's Health to zero; reaching a cumulative score
+  target with no opposing contribution; surviving a fixed turn count.
+- Parameters: winning margin, initial offset, direct-damage contribution,
+  opponent contribution, overkill conversion and boss-phase reset.
+- Evidence: [Inscryption decomposition](../games/g-l/inscryption.md).
+- Novelty: not assessed.
+
+## OBJ-058 — Escape Act I through puzzle-gated final-boss victory
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete a finite multi-run chapter by obtaining one authored
+  environment-puzzle item, reaching and defeating the route's final boss, and
+  applying that retained item at the resulting exit transition.
+- Includes: obtaining the film roll in Leshy's cabin, defeating Leshy and using
+  the camera outcome to expose the New Game card at the end of Inscryption Act I.
+- Excludes: defeating Leshy without the film roll and returning to another Act
+  I run; completing Acts II or III; winning one ordinary card battle.
+- Parameters: required item, puzzle chain, route boss, post-boss interaction,
+  failed-exit outcome and chapter boundary.
+- Evidence: [Inscryption decomposition](../games/g-l/inscryption.md).
+- Novelty: not assessed.
+
+## OBJ-059 — Fill settlement reputation before Queen's Impatience
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: win one bounded settlement by filling its Reputation track before
+  the opposed Queen's Impatience track reaches its terminal maximum.
+- Includes: ordinary Against the Storm settlement victory through Orders, Glade
+  Events and sustained high Resolve.
+- Excludes: completing an Ancient Seal; maximizing score after victory; merely
+  surviving one Storm phase.
+- Parameters: reputation target, impatience maximum, difficulty, reputation
+  sources, impatience sources and post-settlement reward.
+- Evidence: [Against the Storm decomposition](../games/a-f/against-the-storm.md).
+- Novelty: not assessed.
+
+## OBJ-060 — Sustain colony and breach the Temporal Tear
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: keep a base-game colony operational long enough to research,
+  construct and supply a space programme that sends a rocket and Duplicant to
+  the farthest starmap destination, after which the colony may continue.
+- Includes: Oxygen Not Included base-game Great Escape progression through the Temporal Tear.
+- Excludes: the Spaced Out! Temporal Tear Opener; indefinite survival alone;
+  the separate Monument imperative; DLC asteroid colonisation.
+- Parameters: survival, research, discovery, rocket, fuel, crew, destination and continuation.
+- Evidence: [Oxygen Not Included decomposition](../games/m-r/oxygen-not-included.md).
+- Novelty: not assessed.
+
+## OBJ-061 — Sustain and elevate fortress to civilization capital
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: keep an open-ended fortress functioning while population,
+  wealth and institutions grow until it becomes an eligible capital and its
+  civilization's monarch arrives.
+- Includes: ordinary Dwarf Fortress Fortress Mode progression through capital
+  status and monarch arrival.
+- Excludes: the subsequent seven-symbol Mountainhome quest; Adventure Mode;
+  indefinite survival with no institutional growth.
+- Parameters: survival, population, created wealth, exported wealth, rank,
+  noble rooms, monarch eligibility and continuation.
+- Evidence: [Dwarf Fortress decomposition](../games/a-f/dwarf-fortress.md).
+- Novelty: not assessed.
+
+## OBJ-062 — Sustain colony, start reactor and launch constructed ship
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: keep a colony viable while researching and constructing a ship,
+  survive the reactor's hostile startup interval and launch at least one occupant.
+- Includes: RimWorld base-game Crashlanded progression through the constructed-ship credits.
+- Excludes: the journey-offer ship; DLC endings; indefinite colony survival without launch.
+- Parameters: research, ship resources, reactor startup, defence, occupants and continuation.
+- Evidence: [RimWorld decomposition](../games/m-r/rimworld.md).
+- Novelty: not assessed.
+
+## OBJ-063 — Complete and launch Project Assembly
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: finish the base factory progression by manufacturing and
+  delivering the required Project Assembly parts through its final phase, then
+  perform the final launch that presents the ending.
+- Includes: Satisfactory 1.0 completing Space Elevator Phase 5 and launching
+  Project Assembly.
+- Excludes: launching Factorio's first rocket payload; completing a single
+  intermediate milestone delivery; indefinite factory optimisation after an
+  ending.
+- Parameters: phase count, required product sets and quantities, delivery
+  channel, launch sequence and post-ending continuation.
+- Evidence: [Satisfactory decomposition](../games/s-z/satisfactory.md).
+- Novelty: not assessed.
+
+## OBJ-064 — Defeat the Ender Dragon and enter the exit portal
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete the bounded Survival progression by reaching The End,
+  defeating the Ender Dragon and entering the resulting exit portal that
+  presents the End Poem and credits.
+- Includes: ordinary Minecraft Java Survival first Dragon completion.
+- Excludes: merely finding a stronghold; continued post-Dragon exploration;
+  permanent one-life completion in Hardcore mode.
+- Parameters: portal access chain, Dragon health, crystal state, combat route,
+  exit condition and post-credit continuation.
+- Evidence: [Minecraft decomposition](../games/m-r/minecraft.md).
+- Novelty: not assessed.
+
+## OBJ-065 — Sustain New London through the Great Storm
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete A New Home by keeping the city and at least part of its
+  population alive until the final Great Storm ends and the scenario presents
+  its survival and moral-history epilogue.
+- Includes: Frostpunk 1.6.2 A New Home completion on Medium difficulty.
+- Excludes: merely resolving the Londoners; Endless survival; other scenarios,
+  DLC objectives and achievement-specific no-death conditions.
+- Parameters: scenario arcs, population, generator state, storm duration,
+  survival condition, law history and ending presentation.
+- Evidence: [Frostpunk decomposition](../games/a-f/frostpunk.md).
+- Novelty: not assessed.
+
+## OBJ-066 — Research Mission Completed with Universe Matrices
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: finish the bounded main progression by producing the required
+  Universe Matrices from all five coloured matrices and antimatter, then consume
+  the declared quantity to complete the Mission Completed technology.
+- Includes: Dyson Sphere Program Early Access main mission completion with
+  2,000 Universe Matrices.
+- Excludes: filling every planned Dyson shell cell; eliminating all Dark Fog;
+  post-completion infinite research or megabase optimisation.
+- Parameters: prerequisite technologies, matrix recipe, antimatter route,
+  required quantity, hash progress and completion presentation.
+- Evidence: [Dyson Sphere Program decomposition](../games/a-f/dyson-sphere-program.md).
+- Novelty: not assessed.
+
+## OBJ-067 — Complete the campaign and one World’s Fair exhibition
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete the base campaign through its Chapter 4 final naval
+  battle, then continue the same city to construct the World’s Fair and finish
+  its first selected exhibition.
+- Includes: Anno 1800 base-game campaign followed by post-campaign Investor-tier
+  monument and exhibition progression.
+- Excludes: campaign completion alone; DLC regions or monuments; Creative mode;
+  repeating exhibitions indefinitely for a particular reward.
+- Parameters: campaign chapters, final battle, continued save, Investors,
+  monument phases, exhibition preparation and completion presentation.
+- Evidence: [Anno 1800 decomposition](../games/a-f/anno-1800.md).
+- Novelty: not assessed.
+
+## OBJ-068 — Activate the Earth Recultivator for the first map win
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: complete the Folktails map by building, provisioning and
+  activating the Earth Recultivator for the first time.
+- Includes: congratulations, map badge and flexible-start unlock, regardless of
+  optional continued play afterward.
+- Excludes: inactive construction; repeated launches; indefinite survival.
+- Parameters: faction, map, construction, launch goods and first-win flag.
+- Evidence: [Timberborn decomposition](../games/s-z/timberborn.md).
+- Novelty: not assessed.
+
+## OBJ-069 — Complete Soviet Revolution after the introductory campaign
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: complete the first released base campaign, then satisfy every
+  mandatory objective branch of Soviet Revolution through its declared finish.
+- Includes: the campaign's production, import, export and nuclear-fuel route.
+- Excludes: optional sandbox continuation, DLC campaigns or achievements.
+- Parameters: predecessor completion, branch states, measured targets and final flag.
+- Evidence: [Workers & Resources: Soviet Republic decomposition](../games/s-z/workers-resources-soviet-republic.md).
+- Novelty: not assessed.
+
+## OBJ-070 — Purchase Martian independence from the mission sponsor
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete the scoped Surviving Mars: Relaunched run by meeting the
+  colony, people's and sponsor gates, passing the declaration law and paying
+  the remaining price so the colony becomes independent from its sponsor.
+- Includes: the first achieved purchased-independence state in patch 1.0.7.
+- Excludes: declaration without payment; optional post-independence goals and
+  monument; full terraforming, mystery completion or exhaustive tech-tree play.
+- Parameters: stability, population, comfort, laws, mission goals, declaration,
+  contribution, price, payment and independence flag.
+- Evidence: [Surviving Mars: Relaunched decomposition](../games/s-z/surviving-mars.md).
+- Novelty: not assessed.
+
+## OBJ-071 — Win the regulation bomb-defusal match by round score
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: accumulate the clinching majority of regulation-round wins before
+  the opposing team, with a level score after the final permitted round remaining a draw.
+- Includes: Counter-Strike 2 Competitive bomb-defusal match victory at thirteen rounds.
+- Excludes: maximising kill score; winning a tournament series; Premier rating change.
+- Parameters: round wins, clinch threshold, regulation maximum and draw rule.
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
+- Novelty: not assessed.
+
+## OBJ-072 — Destroy the opposing Ancient before yours falls
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the fixed team wins when legal damage first destroys the enemy
+  Ancient while its own Ancient has not already been destroyed.
+- Includes: one standard Dota 2 All Pick match.
+- Excludes: maximising kills/net worth; ranked rating; surrender procedure.
+- Parameters: teams, Ancient health, protection state and terminal winner.
+- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md).
+- Novelty: not assessed.
+
+## OBJ-073 — Complete the World Tree main-story finale
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete the released main story by satisfying the ordered tower,
+  Sunreach, Panthalus and World Tree mission gates and defeating the terminal
+  Sealed Calamity encounter for the first time.
+- Includes: one fresh Palworld 1.0 single-player Normal-world story completion.
+- Excludes: optional hard-mode towers, exhaustive Pal collection, challenge
+  raids, arena ranks and post-story optimisation.
+- Parameters: required missions, tower clears, key item, required companion,
+  final encounter and completion flag.
+- Evidence: [Palworld decomposition](../games/m-r/palworld.md).
+- Novelty: not assessed.
+
+## OBJ-074 — Remain the last living Solo participant
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: win one bounded battle-royale match by remaining alive after every
+  other independently controlled participant has reached terminal defeat.
+- Includes: PUBG Normal Solo `Winner Winner Chicken Dinner`.
+- Excludes: maximising kills or placement points; team survival; extraction from
+  the map; surviving a fixed clock while opponents remain.
+- Parameters: initial participant cap, bot participation, simultaneous defeat
+  ordering, self-recovery state, survivor count and terminal winner.
+- Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md).
+- Novelty: not assessed.
+
+## OBJ-075 — Preserve a recoverable foothold until the world wipe
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: survive one bounded shared-world cycle by retaining or rebuilding
+  access to an embodied respawn path and a secured material foothold until the
+  scheduled wipe replaces the island.
+- Includes: the scoped Rust vanilla monthly-wipe survival objective.
+- Excludes: treating a kill, one raid, Workbench 3 or crafted C4 as terminal
+  victory; permanent ownership beyond wipe; leaderboard rank.
+- Parameters: spawn path, secured storage, recoverable loss, base state, hostile
+  pressure, upkeep and wipe boundary.
+- Evidence: [Rust decomposition](../games/m-r/rust.md).
+- Novelty: not assessed.
+
+## OBJ-076 — Extend one survivor life until irreversible death
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: preserve the current survivor's living controllable body for as
+  much in-world time as possible; no kill, shelter, crop or elapsed-day
+  milestone is a terminal victory, and irreversible character death ends that
+  life with its achieved duration.
+- Includes: the scoped Project Zomboid Apocalypse `How you died` objective.
+- Excludes: respawning the same survivor; treating a thirty-day analytical
+  checkpoint as victory; deleting the retained world as part of completion.
+- Parameters: survivor identity, elapsed calendar, living state, terminal
+  causes, corpse, reanimation and recorded duration.
+- Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md).
+- Novelty: not assessed.
+
+## OBJ-077 — Complete the main story through the chosen terminal branch
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: advance every required authored mission and setup to a declared
+  terminal decision, commit one available branch and complete its resulting
+  final mission so the current campaign records a first ending.
+- Includes: a fresh Grand Theft Auto V Story Mode critical path from Prologue
+  through the first completed The Third Way ending; a fresh Cyberpunk 2077
+  critical path through the first completed `Where Is My Mind?` ending.
+- Excludes: 100% checklist completion; optional side content or collectibles;
+  online progression; replaying an alternate ending after first completion.
+- Parameters: required mission graph, heist branches, final option, terminal
+  mission, surviving protagonists and completion flag.
+- Evidence: [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md) and
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Novelty: not assessed.
+
+## OBJ-078 — Win one Convergence match by completing or denying the route
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the attacking team wins by capturing the opening mission area and
+  escorting its vehicle through the terminal route point before valid time ends;
+  the defending team wins by preventing either required completion through the
+  final eligible overtime state.
+- Includes: one Marvel Rivals Quick Match Convergence result.
+- Excludes: maximising eliminations or healing; Competitive rank change;
+  winning a multi-map tournament series; Convoy or Domination objectives.
+- Parameters: side, capture completion, route checkpoints, terminal point,
+  clock, overtime and match result.
+- Evidence: [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md).
+- Novelty: not assessed.
+
+## OBJ-079 — Deplete the opposing Conquest reinforcement pool first
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the team pursues a match state in which the opposing finite
+  reinforcement pool reaches zero before its own pool does, through unrevived
+  deaths and sustained ownership of control points.
+- Includes: one standard Battlefield 6 Conquest match result.
+- Excludes: personal kill-score maximisation; Rush or Breakthrough attacker
+  tickets; Domination point-limit scoring; Career XP.
+- Parameters: teams, initial tickets, death loss, point ownership, drain,
+  zero threshold and result.
+- Evidence: [Battlefield 6 decomposition](../games/a-f/battlefield-6.md).
+- Novelty: not assessed.
+
+## OBJ-080 — Enter the next act through traversal gates and a route guardian
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete a bounded authored act by acquiring its required route
+  capabilities, activating every required regional gate, applying the retained
+  interaction ability at the act gate and defeating the resulting guardian
+  before crossing into the next act.
+- Includes: Hollow Knight: Silksong Act 1 completion through five Bellshrines,
+  Needolin at the Grand Gate, Last Judge defeat and first Citadel entry.
+- Excludes: reaching the gate with fewer required shrines; defeating an optional
+  boss; completing later acts or every optional wish.
+- Parameters: required capabilities, regional gates, interaction ability, act
+  gate, guardian, victory state and next-act boundary.
+- Evidence: [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md).
+- Novelty: not assessed.
+
+## OBJ-081 — Complete ordered prologue hunts and reach the next region boundary
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete the bounded campaign opening by resolving its ordered
+  mandatory hunts and retained story gates, then reach the declared transition
+  into the next authored region.
+- Includes: Monster Hunter Wilds Chatacabra and Quematrice progression through
+  completion of `To the Forest` at the Scarlet Forest boundary.
+- Excludes: later `Forest Findings`; optional field hunts; High Rank and
+  post-game completion.
+- Parameters: mandatory hunts, predecessor flags, story interactions, final
+  route marker, region boundary and completion flag.
+- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Novelty: not assessed.
+
+## OBJ-082 — Defeat Margit and cross the first Stormveil threshold
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: from a fresh character, reach the castle approach, defeat Margit,
+  the Fell Omen, and enter the newly accessible Stormveil threshold.
+- Includes: Elden Ring base-game opening through the first legacy-dungeon entry.
+- Excludes: bypassing Margit to Liurnia; defeating Godrick; full-game completion.
+- Parameters: fresh save, Margit state, post-boss Grace and threshold crossing.
+- Evidence: [Elden Ring decomposition](../games/a-f/elden-ring.md).
+- Novelty: not assessed.
+
+## OBJ-083 — Defeat the first Eye and house the eligible Dryad
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: from a new Classic character and world, prepare through mutable
+  terrain, equipment, crafting and housing, defeat the world's first Eye of
+  Cthulhu before dawn and keep vacant suitable housing until the eligible Dryad arrives.
+- Includes: Terraria Desktop 1.4.5.6 first-boss-to-Dryad progression boundary.
+- Excludes: stopping after the boss drop without Dryad admission; King Slime or
+  later bosses; Hardmode entry and full-game completion.
+- Parameters: character, world, preparation route, Eye state, dawn, housing
+  vacancy, Dryad eligibility and arrival.
+- Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Novelty: not assessed.

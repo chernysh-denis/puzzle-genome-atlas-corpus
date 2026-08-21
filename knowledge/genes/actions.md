@@ -104,7 +104,9 @@
   [Mini Metro decomposition](../games/m-r/mini-metro.md), and
   [HUMANITY decomposition](../games/g-l/humanity.md), and
   [Tin Hearts decomposition](../games/s-z/tin-hearts.md), and
-  [Echochrome decomposition](../games/a-f/echochrome.md).
+  [Echochrome decomposition](../games/a-f/echochrome.md),
+  [SimCity 4 Deluxe Edition decomposition](../games/s-z/simcity-4-deluxe-edition.md)
+  and [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
 - Novelty: not assessed.
 
 ## ACT-007 — Assign symbol to open position
@@ -164,7 +166,11 @@
   bridge; walking and jumping the Superliminal dreamer through the Induction
   room and its opened exit; walking, jumping and steering a fall through
   Manifold Garden's periodic Part 1 architecture; walking between Maquette's
-  central model, scale-linked courtyards, key bridges and fixed house exit.
+  central model, scale-linked courtyards, key bridges and fixed house exit;
+  walking, sprinting, jumping and crouching V through Night City and authored
+  Cyberpunk 2077 mission spaces; directly moving and jumping a selected Marvel
+  Rivals hero through a live arena; running and jumping Hornet through
+  Pharloom's connected rooms in Hollow Knight: Silksong.
 - Excludes: changing viewpoint; moving an adjacent object; teleporting or
   pathfinding that resolves several steps automatically.
 - Parameters: adjacency or continuous topology, step distance, jump rules and
@@ -188,7 +194,12 @@
   [Superliminal decomposition](../games/s-z/superliminal.md), and
   [Manifold Garden decomposition](../games/m-r/manifold-garden.md), and
   [Maquette decomposition](../games/m-r/maquette.md), and
-  [Antichamber decomposition](../games/a-f/antichamber.md).
+  [Antichamber decomposition](../games/a-f/antichamber.md), and
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
+  [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md),
+  [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md), and
+  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Novelty: not assessed.
 
 ## ACT-009 — Push adjacent movable object
@@ -485,12 +496,14 @@
   persistent named route by editing its ordered sequence of service nodes.
 - Includes: drawing a Mini Metro line through stations, dragging an endpoint
   to a new station, changing an intermediate connection and reclaiming a
-  removed line for reuse.
+  removed line for reuse; drawing and revising a Cities: Skylines public-
+  transport line through its ordered stops.
 - Excludes: tracing a one-use path from a fixed endpoint; placing immutable
   queue-head tiles; commanding a vehicle's next stop directly.
 - Parameters: allowed edit gestures, loop permission, node-revisit rule and
   whether edits may occur while simulation time is paused.
-- Evidence: [Mini Metro decomposition](../games/m-r/mini-metro.md).
+- Evidence: [Mini Metro decomposition](../games/m-r/mini-metro.md) and
+  [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
 - Novelty: not assessed.
 
 ## ACT-024 — Reassign transport capacity
@@ -788,6 +801,7 @@
 - Parameters: card category, target position, replacement rule, adjacency
   requirements and immediate placement effects.
 - Evidence: [Loop Hero decomposition](../games/g-l/loop-hero.md).
+- Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Novelty: not assessed.
 
 ## ACT-040 — Replace equipped item from current loot
@@ -1340,7 +1354,8 @@
   connected segments are used automatically by multiple vehicles.
 - Includes: drawing and redrawing ordinary roads in a Mini Motorways Classic
   city while traffic continues to use the connected network; freehand drawing
-  and revising a Freeways interchange between traffic evaluations.
+  and revising a Freeways interchange between traffic evaluations; constructing
+  and upgrading persistent roads in SimCity 4 and Cities: Skylines.
 - Excludes: editing one named ordered service line; steering an individual
   vehicle; tracing one unbranched route whose geometry is consumed or becomes
   permanently locked after a run begins.
@@ -2114,12 +2129,14 @@
   one exact fact as learned and makes that fact available to later rule-bearing
   interactions, rather than receiving a carried object or a new physical verb.
 - Includes: asking Hornfels for Outer Wilds' launch codes and completing the
-  exchange that records the fixed code as known.
+  exchange that records the fixed code as known; completing Cyberpunk 2077
+  mission conversations that register actionable people, places or access.
 - Excludes: reading optional flavour text; taking a key item; entering the code
   at its target; selecting dialogue whose only consequence is narrative tone.
 - Parameters: speaker, dialogue prerequisite, learned fact identity, exact
   representation, interruption policy and repeat acknowledgement.
-- Evidence: [Outer Wilds decomposition](../games/m-r/outer-wilds.md).
+- Evidence: [Outer Wilds decomposition](../games/m-r/outer-wilds.md) and
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
 - Novelty: not assessed.
 
 ## ACT-108 — Submit free-text term query against evidence archive
@@ -2263,4 +2280,2372 @@
 - Parameters: host interface, artefact path, update trigger, accessibility
   alternative and whether the game remains visible simultaneously.
 - Evidence: [OneShot decomposition](../games/m-r/oneshot.md).
+- Novelty: not assessed.
+
+## ACT-116 — Zone land by use class and density
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player paints bounded land parcels with an allowed urban use
+  and density, authorising rather than directly placing the buildings that may
+  later develop there.
+- Includes: drawing low-, medium- or high-density residential, commercial or
+  industrial zones in SimCity 4; painting residential, commercial, industrial
+  or office zones by available density in Cities: Skylines.
+- Excludes: placing a specific building footprint; changing tax policy; drawing
+  a road or utility line.
+- Parameters: use class, density, parcel depth, frontage, de-zoning and cost.
+- Evidence: [SimCity 4 Deluxe Edition decomposition](../games/s-z/simcity-4-deluxe-edition.md)
+  and [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
+- Novelty: not assessed.
+
+## ACT-117 — Place priced civic or utility infrastructure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player commits a priced facility or drawn distribution
+  segment whose position and operating state alter municipal coverage.
+- Includes: placing power plants, water facilities, schools, hospitals, police,
+  fire and waste facilities, and drawing power or water distribution in
+  SimCity 4 and Cities: Skylines.
+- Excludes: zoning land for autonomous private development; drawing a road;
+  changing a department's funding slider.
+- Parameters: footprint, construction cost, upkeep, capacity, radius, network
+  attachment and demolition refund.
+- Evidence: [SimCity 4 Deluxe Edition decomposition](../games/s-z/simcity-4-deluxe-edition.md)
+  and [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
+- Novelty: not assessed.
+
+## ACT-118 — Adjust municipal tax rate or service funding
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player changes a persistent fiscal parameter that governs a
+  sector's tax burden or a public facility's recurring funding and capacity.
+- Includes: editing SimCity 4 or Cities: Skylines tax rates by zone category
+  and changing the funding of transport, utility or civic services.
+- Excludes: paying a one-time construction cost; accepting a neighbour deal;
+  selecting simulation speed.
+- Parameters: affected category, percentage, effective capacity, upkeep and
+  demand or approval response.
+- Evidence: [SimCity 4 Deluxe Edition decomposition](../games/s-z/simcity-4-deluxe-edition.md)
+  and [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
+- Novelty: not assessed.
+
+## ACT-119 — Place, rotate or deconstruct live factory entity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while a production world continues running, the player places,
+  rotates, removes or replaces a persistent machine, transport, power or
+  defence entity whose footprint immediately joins or alters the live system.
+- Includes: placing and rotating Factorio mining drills, belts, inserters,
+  assemblers, pipes, power poles, rails, chests, walls and turrets, or mining
+  those entities back into inventory while the rest of the factory advances.
+- Excludes: editing a machine only in a separate stopped design phase; zoning
+  land for autonomous development; stamping a non-materialised construction
+  plan without supplying its entities.
+- Parameters: entity catalogue, footprint, orientation, placement reach,
+  inventory cost, fast replacement and deconstruction return.
+- Evidence: [Factorio decomposition](../games/a-f/factorio.md).
+- Novelty: not assessed.
+
+## ACT-120 — Configure local factory-entity operating rule
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player assigns or revises a persistent local rule that tells
+  one placed factory entity what to make, accept, dispatch or do when a visible
+  signal condition is satisfied.
+- Includes: selecting a Factorio assembling-machine recipe; setting inserter,
+  splitter, chest or train filters; editing a train schedule; or connecting a
+  machine to a circuit-network threshold.
+- Excludes: physically placing the entity; selecting a global technology to
+  research; directly moving the item that the rule later handles.
+- Parameters: entity class, recipe, filter, schedule, signal expression,
+  comparison operator and enable/disable state.
+- Evidence: [Factorio decomposition](../games/a-f/factorio.md).
+- Novelty: not assessed.
+
+## ACT-121 — Queue technology research
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects one or more currently reachable technologies
+  and commits their order in a persistent queue whose front entry receives
+  subsequent research progress.
+- Includes: choosing Factorio technologies, queueing their prerequisites and
+  reordering or replacing the current research target.
+- Excludes: producing science packs; choosing a machine recipe; receiving an
+  automatic upgrade with no player-selected research order.
+- Parameters: prerequisite graph, queue length, reorder policy, saved partial
+  progress and unavailable-node feedback.
+- Evidence: [Factorio decomposition](../games/a-f/factorio.md).
+- Novelty: not assessed.
+
+## ACT-122 — Manually extract or dismantle world entity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player holds an extraction command on a reachable resource
+  or removable entity until its progress completes and the resulting material
+  or recoverable entity enters inventory.
+- Includes: hand-mining Factorio ore, rock or tree resources and manually
+  dismantling a placed entity before automated deconstruction is available.
+- Excludes: an operating mining drill producing ore automatically; destroying
+  an enemy with a weapon; instant selection of an item already in storage.
+- Parameters: target class, extraction time, tool or character modifier,
+  yielded items, placement recovery and cancellation progress.
+- Evidence: [Factorio decomposition](../games/a-f/factorio.md).
+- Novelty: not assessed.
+
+## ACT-123 — Hand-craft selected inventory recipe
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects a known hand-craftable recipe and queues one
+  or more copies to consume carried ingredients and produce the declared item
+  after its crafting duration.
+- Includes: manually crafting early Factorio gears, belts, inserters, mining
+  drills and assembling machines from the character inventory; crafting an
+  eligible Cyberpunk 2077 item from known specifications and carried components.
+- Excludes: assigning a recipe to an automatic machine; combining arbitrary
+  inventory objects outside a declared recipe; research that unlocks a recipe.
+- Parameters: recipe, quantity, ingredient availability, queue order, craft
+  time, cancellation refund and machine-only eligibility.
+- Evidence: [Factorio decomposition](../games/a-f/factorio.md) and
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
+  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Novelty: not assessed.
+
+## ACT-124 — Stamp reusable construction or deconstruction plan
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player places a reusable multi-entity plan or marked removal
+  region into the live world, creating persistent ghost requests rather than
+  immediately materialising or removing every affected entity by hand.
+- Includes: stamping, rotating and flipping a Factorio blueprint, placing a
+  copied factory section and marking an area for construction-robot removal.
+- Excludes: direct placement of one supplied entity; a decorative overlay with
+  no fulfilment request; loading an authored level layout.
+- Parameters: blueprint contents, anchor, rotation, mirroring, overlap policy,
+  upgrade planner, deconstruction filters and ghost lifetime.
+- Evidence: [Factorio decomposition](../games/a-f/factorio.md).
+- Novelty: not assessed.
+
+## ACT-125 — Play one held effect card
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects one currently held card, supplies any legal
+  declared target and pays its current cost so the card's immediate and
+  persistent effects resolve.
+- Includes: playing one Slay the Spire Attack, Skill or Power card during the
+  player phase, with an enemy target when the card requires one.
+- Excludes: committing several held cards together for pattern evaluation;
+  placing a card as a persistent world object; playing a card whose defining
+  parameter is a spatial cell, direction or displacement geometry.
+- Parameters: card identity, target requirement, current cost, generated-card
+  status, exhaust or retain keywords and effect text.
+- Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md).
+- Novelty: not assessed.
+
+## ACT-126 — End the current player combat phase
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player explicitly commits the current combat phase, giving
+  up any remaining ordinary card plays so end-of-turn and hostile effects can
+  resolve.
+- Includes: pressing End Turn in Slay the Spire after any number of legal card
+  and potion uses.
+- Excludes: the automatic resolution after every individual command; ending a
+  real-time shift; activating a prepared spatial attack queue.
+- Parameters: remaining-resource treatment, confirmation behaviour, end-turn
+  triggers and whether the command can be reversed before resolution.
+- Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md).
+- Novelty: not assessed.
+
+## ACT-127 — Choose a reachable node on a revealed branching route
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: from the current route position, the player selects one visibly
+  connected successor node whose disclosed category determines the next
+  encounter or service.
+- Includes: choosing a connected Slay the Spire map node marked as combat,
+  elite, unknown, rest site, shop or treasure.
+- Excludes: drawing or editing the route; selecting an arbitrary remote
+  destination; choosing among rewards after the node has resolved.
+- Parameters: route depth, branch degree, node categories, revealed horizon
+  and exceptional reach modifiers.
+- Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md).
+- Novelty: not assessed.
+
+## ACT-128 — Accept or skip one offered persistent-deck card
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after an encounter or event presents a bounded card offer, the
+  player either adds exactly one offered card to the run's persistent deck or
+  declines the complete offer.
+- Includes: choosing one of the ordinary post-combat Slay the Spire card
+  rewards or pressing Skip.
+- Excludes: drawing a temporary combat hand; buying a priced card; replacing a
+  card through transformation; choosing several cards from one offer.
+- Parameters: offer size, eligible pool, rarity, upgrade state, skip reward and
+  mandatory-choice exceptions.
+- Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md).
+- Novelty: not assessed.
+
+## ACT-129 — Apply one persistent modification to a deck card
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects one eligible card already in the persistent
+  run deck and applies a declared lasting upgrade, removal or transformation.
+- Includes: Smithing one Slay the Spire card at a rest site, paying a merchant
+  to remove one card, or accepting an event option that transforms one card.
+- Excludes: adding a reward card; changing a card only for the current combat;
+  sorting or viewing the deck without mutation.
+- Parameters: modification type, eligible card set, price, upgrade ceiling,
+  replacement pool and event restrictions.
+- Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md).
+- Novelty: not assessed.
+
+## ACT-130 — Purchase one offered run asset or service
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player spends a persistent run currency to acquire one
+  currently offered asset or execute one priced service.
+- Includes: buying a Slay the Spire card, relic or potion from a merchant,
+  paying for card removal, buying a Dota 2 match item from an eligible shop,
+  buying Story Mode weapons, ammunition and armour in Grand Theft Auto V, or
+  buying base-game equipment and services in Cyberpunk 2077; buying offered
+  wares or services with Rosaries in Hollow Knight: Silksong.
+- Excludes: accepting a free post-combat reward; paying a recurring operating
+  cost; selecting an unavailable item without enough currency.
+- Parameters: offer identity, price, discount, stock replacement, currency and
+  service eligibility.
+- Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md),
+  [Dota 2 decomposition](../games/a-f/dota-2.md), and
+  [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md), and
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
+  [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md).
+- Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Novelty: not assessed.
+
+## ACT-131 — Consume one held immediate-effect item
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player activates one item from a bounded carried consumable
+  inventory, optionally supplies a legal target and permanently empties that
+  slot after the item's immediate effect resolves.
+- Includes: drinking or throwing a held Slay the Spire potion during a legal
+  combat timing window.
+- Excludes: playing a deck card; equipping a persistent relic; applying a held
+  world object to a spatial fixture.
+- Parameters: item identity, target requirement, use timing, slot count and
+  discard-without-use rule.
+- Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md) and
+  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Novelty: not assessed.
+
+## ACT-132 — Paint administrative district and assign local policy
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player delineates a persistent spatial district and applies,
+  removes or changes a declared policy or land-use specialisation whose
+  mechanical effects are scoped to that boundary.
+- Includes: painting a Cities: Skylines district and assigning a base-game
+  local policy or industrial specialisation to it.
+- Excludes: changing a city-wide tax rate; zoning private land by use and
+  density; placing one civic facility; a decorative district name with no
+  rule effect.
+- Parameters: boundary-edit gesture, policy catalogue, specialisation,
+  eligibility, upkeep, overlap rule and removal behaviour.
+- Evidence: [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
+- Novelty: not assessed.
+
+## ACT-133 — Duplicate a built factory region from a reusable blueprint
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player captures a selected multi-entity factory region as a
+  reusable plan and pastes, rotates or mirrors that plan so its compatible
+  entities immediately become part of the running factory.
+- Includes: shapez 2 blueprints that copy machine, belt, lift, pipe or platform
+  layouts and place another working instance by spending any configured
+  blueprint-point cost.
+- Excludes: a Factorio blueprint that creates unfulfilled ghost requests;
+  manually rebuilding each entity; exporting an image with no world effect.
+- Parameters: captured region, anchor, rotation, mirroring, compatible
+  footprint, blueprint-point cost and unavailable-content handling.
+- Evidence: [shapez 2 decomposition](../games/s-z/shapez-2.md).
+- Novelty: not assessed.
+
+## ACT-134 — Purchase one persistent factory research upgrade
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player spends accumulated research points on one currently
+  eligible shop node, persistently adding its building, mechanic, capacity or
+  throughput modifier to the current save.
+- Includes: buying shapez 2 machine levels, belt or train speed, platform
+  capacity, Vortex inputs, wires or other unlocked shop upgrades.
+- Excludes: automatically receiving a milestone reward; queueing research that
+  laboratories advance over time; changing a machine's local operating rule.
+- Parameters: node, prerequisite milestone, point cost, level, unlocked
+  catalogue and persistent effect.
+- Evidence: [shapez 2 decomposition](../games/s-z/shapez-2.md).
+- Novelty: not assessed.
+
+## ACT-135 — Play held creature card into open combat lane
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects one creature card from the visible hand, pays
+  its current legal cost and places it as a persistent combatant in one chosen
+  unoccupied friendly lane.
+- Includes: placing an Act I Inscryption Beast card into one of the player's
+  four open card spaces after satisfying its Blood, Bone or free cost.
+- Excludes: playing a card whose effects resolve without occupying a lane;
+  transferring an exposed tableau card between storage zones; placing a card
+  as a persistent overworld tile.
+- Parameters: lane count, card identity, cost class, placement timing, occupied-
+  lane rejection and on-play effects.
+- Evidence: [Inscryption decomposition](../games/g-l/inscryption.md).
+- Novelty: not assessed.
+
+## ACT-136 — Sacrifice selected controlled creatures as Blood payment
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while paying one pending creature-card cost, the player selects
+  a sufficient subset of eligible friendly combatants and commits their
+  declared sacrifice value, normally removing them from their lanes.
+- Includes: sacrificing one or more ordinary Act I Inscryption creatures to
+  pay the Blood pips of the creature currently being played.
+- Excludes: removing a persistent deck card at a map event; losing a creature
+  to hostile damage; spending an already accumulated numeric currency.
+- Parameters: pending cost, eligible creatures, sacrifice value, survival
+  exceptions, overpayment and cancellation before placement.
+- Evidence: [Inscryption decomposition](../games/g-l/inscryption.md).
+- Novelty: not assessed.
+
+## ACT-137 — Draw one card from a chosen combat deck
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: at the ordinary draw step, the player selects one of several
+  currently available ordered draw piles and takes its concealed top card into
+  the visible hand.
+- Includes: choosing between the persistent main deck and the Squirrel side
+  deck at the start of an Act I Inscryption player turn.
+- Excludes: selecting a known card from an open catalogue; automatically
+  replacing a complete hand; choosing which card enters a shuffled deck.
+- Parameters: deck identities, availability, known composition, concealed
+  order, forced opening draw and exhaustion behaviour.
+- Evidence: [Inscryption decomposition](../games/g-l/inscryption.md).
+- Novelty: not assessed.
+
+## ACT-138 — Compose future-run card from sampled source traits
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after a failed run, the player makes successive choices from
+  bounded sampled source cards so one new card inherits the selected cost,
+  statistics and ability set for possible appearance in later runs.
+- Includes: choosing the cost, Power and Health, and Sigils of an Act I
+  Inscryption Deathcard from three separately sampled groups, then naming it.
+- Excludes: freely assigning arbitrary card values; upgrading an existing run
+  card; combining duplicate cards during the same run.
+- Parameters: sampled group size, trait order, excluded source cards, inherited
+  fields, naming and future-offer eligibility.
+- Evidence: [Inscryption decomposition](../games/g-l/inscryption.md).
+- Novelty: not assessed.
+
+## ACT-139 — Place, move or demolish staffed settlement building
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player places a settlement building on compatible terrain,
+  may reassign its position where the rules permit, or marks it for demolition,
+  changing the live set of workplaces, housing or services.
+- Includes: constructing, moving or demolishing ordinary buildings in an
+  Against the Storm settlement.
+- Excludes: selecting a recipe inside an already placed building; stamping a
+  reusable multi-entity plan; placing a card into a combat lane.
+- Parameters: footprint, terrain, orientation, construction cost, move cost,
+  refund, building category and maximum copies.
+- Evidence: [Against the Storm decomposition](../games/a-f/against-the-storm.md).
+- Novelty: not assessed.
+
+## ACT-140 — Commit one option from bounded persistent offer
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the system presents a finite set of mutually exclusive options
+  and the player commits one whose selected rule, task or asset persists beyond
+  the choice interface.
+- Includes: choosing one blueprint, cornerstone, Order, newcomer group or glade
+  event resolution in Against the Storm; choosing Grand Theft Auto V's terminal
+  Story Mode option; choosing Cyberpunk 2077's base-game terminal route and
+  final contract response.
+- Excludes: purchasing any number of catalogue items; choosing a temporary
+  dialogue line with no mechanical persistence; selecting a known route node.
+- Parameters: offer type, option count, rerolls, selection count, duration,
+  prerequisite and whether deferral is allowed.
+- Evidence: [Against the Storm decomposition](../games/a-f/against-the-storm.md)
+  [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md), and
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Novelty: not assessed.
+
+## ACT-141 — Favour one population group at others' expense
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player designates one population group to receive a declared
+  asymmetric welfare modifier while the competing groups receive the paired
+  penalty.
+- Includes: favouring one species in Against the Storm, increasing its Resolve
+  while lowering the Resolve of every other species.
+- Excludes: assigning workers to jobs; supplying one need to all eligible
+  residents; selecting a global difficulty modifier.
+- Parameters: favoured group, bonus, non-favoured penalty, duration and
+  cancellation.
+- Evidence: [Against the Storm decomposition](../games/a-f/against-the-storm.md).
+- Novelty: not assessed.
+
+## ACT-142 — Choose reachable metaworld destination and embark package
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: before starting a bounded run, the player selects one currently
+  reachable destination on a persistent world map and commits a limited package
+  of starting people, resources or bonuses.
+- Includes: choosing an embarkation tile and embarkation bonuses before an
+  Against the Storm settlement.
+- Excludes: ordinary movement inside a settlement; choosing a node on a
+  self-contained run map; freely editing the starting inventory.
+- Parameters: range, terrain, modifiers, cost budget, population, goods and
+  persistent foothold used as the origin.
+- Evidence: [Against the Storm decomposition](../games/a-f/against-the-storm.md).
+- Novelty: not assessed.
+
+## ACT-143 — Purchase persistent metaprogression upgrade
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: between bounded runs, the player spends persistent resources on
+  one prerequisite-valid upgrade whose rules or starting benefits apply to
+  later runs.
+- Includes: buying a Citadel upgrade in Against the Storm.
+- Excludes: buying a run-local trader item; unlocking content automatically at
+  a level threshold; selecting a temporary cornerstone.
+- Parameters: resource costs, predecessor level, branch, unlock effect and
+  maximum rank.
+- Evidence: [Against the Storm decomposition](../games/a-f/against-the-storm.md).
+- Novelty: not assessed.
+
+## ACT-144 — Mark spatial colony work order
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player marks world cells or objects for a typed autonomous
+  work errand without directly steering the worker who later claims it.
+- Includes: painting Oxygen Not Included dig, harvest, mop, sweep, disinfect,
+  attack, wrangle, repair or deconstruction orders.
+- Excludes: directly moving a Duplicant; placing a building plan; changing an
+  already generated errand's priority.
+- Parameters: errand type, brush footprint, eligibility, cancellation and default priority.
+- Evidence: [Oxygen Not Included decomposition](../games/m-r/oxygen-not-included.md).
+- Novelty: not assessed.
+
+## ACT-150 — Author conditional fortress production order
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player creates a repeatable production order whose recipe,
+  quantity, frequency and stock conditions persist for autonomous execution.
+- Includes: Dwarf Fortress manager work orders with material, amount, repeat
+  cadence and checked conditions.
+- Excludes: ordering one immediate workshop job; directly crafting an item;
+  configuring transport filters.
+- Parameters: recipe, amount, workshop scope, frequency, conditions, material
+  masks and cancellation.
+- Evidence: [Dwarf Fortress decomposition](../games/a-f/dwarf-fortress.md).
+- Novelty: not assessed.
+
+## ACT-151 — Configure filtered stockpile and supply links
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player declares which item categories a spatial store may
+  accept and optionally directs its giving or taking relationships.
+- Includes: Dwarf Fortress custom stockpile filters and workshop or stockpile links.
+- Excludes: moving one item by hand; choosing a production recipe; drawing a vehicle route.
+- Parameters: footprint, categories, qualities, materials, containers,
+  give-to links, take-from links and priority.
+- Evidence: [Dwarf Fortress decomposition](../games/a-f/dwarf-fortress.md).
+- Novelty: not assessed.
+
+## ACT-152 — Define functional zone or owned room
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player marks a spatial area, selects its institutional
+  function and may assign it to a resident or service.
+- Includes: Dwarf Fortress bedrooms, offices, dining rooms, hospitals,
+  meeting areas, pastures and other zones.
+- Excludes: placing qualifying furniture; selecting a work detail; merely naming an area.
+- Parameters: footprint, function, owner, accepted creatures, service flags
+  and overlapping-zone rules.
+- Evidence: [Dwarf Fortress decomposition](../games/a-f/dwarf-fortress.md).
+- Novelty: not assessed.
+
+## ACT-153 — Configure squad equipment, schedule and order
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player persistently assigns residents to a military group,
+  specifies its equipment and training schedule, then activates a group order.
+- Includes: Dwarf Fortress squads, uniforms, monthly schedules, training,
+  station, patrol, kill and defend orders.
+- Excludes: directly steering one combatant; civilian work details; automatic targeting.
+- Parameters: members, leader, uniform, ammunition, month, minimum attendance,
+  alert and active order.
+- Evidence: [Dwarf Fortress decomposition](../games/a-f/dwarf-fortress.md).
+- Novelty: not assessed.
+
+## ACT-154 — Appoint resident to administrative or noble office
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player assigns an eligible resident to a persistent office
+  that unlocks administrative work or creates declared institutional demands.
+- Includes: appointing a manager, broker, bookkeeper or militia commander in
+  Dwarf Fortress and assigning rooms required by the office.
+- Excludes: assigning one workshop job; hereditary simulation-only appointment;
+  choosing a labour preference.
+- Parameters: office, candidate, requirements, rooms, mandates and replacement.
+- Evidence: [Dwarf Fortress decomposition](../games/a-f/dwarf-fortress.md).
+- Novelty: not assessed.
+
+## ACT-145 — Configure per-agent and per-errand priority
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player persistently changes how one autonomous agent ranks
+  work categories or how the colony ranks one generated errand against peers.
+- Includes: Oxygen Not Included Duplicant priorities, disabled categories,
+  building sub-priorities and yellow-alert escalation.
+- Excludes: selecting a worker for one immediate action; setting a machine
+  recipe; editing the daily schedule.
+- Parameters: agent, category, relative tier, sub-priority, proximity rule and alert state.
+- Evidence: [Oxygen Not Included decomposition](../games/m-r/oxygen-not-included.md).
+- Novelty: not assessed.
+
+## ACT-146 — Train one agent in prerequisite skill
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player spends one earned skill point on an eligible node in
+  one agent's prerequisite tree, persistently granting its permission or bonus
+  while raising that agent's expectation cost.
+- Includes: assigning Oxygen Not Included digging, researching, operating,
+  carrying, farming, ranching or rocketry skills to one Duplicant.
+- Excludes: passive attribute experience; researching colony technology;
+  selecting a starting trait.
+- Parameters: agent, skill point, prerequisite, permission, bonus, interest and morale expectation.
+- Evidence: [Oxygen Not Included decomposition](../games/m-r/oxygen-not-included.md).
+- Novelty: not assessed.
+
+## ACT-147 — Edit agent activity schedule
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player assigns agents to a repeating timetable and edits its
+  blocks so autonomous behaviour switches among work, downtime, hygiene and sleep.
+- Includes: Oxygen Not Included schedules, membership and cycle blocks.
+- Excludes: prioritising one work errand; pausing the whole simulation; a fixed
+  authored day/night change.
+- Parameters: membership, block type, cycle position, duration and emergency override.
+- Evidence: [Oxygen Not Included decomposition](../games/m-r/oxygen-not-included.md).
+- Novelty: not assessed.
+
+## ACT-148 — Place material-backed construction plan
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects a known structure and commits a compatible
+  footprint plus construction material as a plan that autonomous workers must supply and build.
+- Includes: Oxygen Not Included buildings, tiles, wires, pipes, automation
+  wire, ladders and rocket modules.
+- Excludes: instantly materialising an entity from inventory; marking natural
+  terrain for digging; stamping a reusable multi-entity blueprint.
+- Parameters: structure, footprint, orientation, material, mass cost, priority and supply state.
+- Evidence: [Oxygen Not Included decomposition](../games/m-r/oxygen-not-included.md).
+- Novelty: not assessed.
+
+## ACT-149 — Select colony research target
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects one reachable technology as the colony-wide
+  target whose required research-point types will be produced by staffed stations.
+- Includes: choosing an Oxygen Not Included research-tree node after its prerequisites are complete.
+- Excludes: assigning a Duplicant to research work; supplying station material;
+  buying a metaprogression upgrade.
+- Parameters: prerequisite graph, point types, costs, cancellation, partial progress and unlocks.
+- Evidence: [Oxygen Not Included decomposition](../games/m-r/oxygen-not-included.md).
+- Novelty: not assessed.
+
+## ACT-155 — Assign allowed area and personal colony policy
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player persistently assigns one autonomous resident a spatial
+  allowed area and one or more declared consumption, treatment or equipment policies.
+- Includes: RimWorld allowed areas plus food, drug, outfit and medicine policies.
+- Excludes: one immediate movement order; work-category priority; a temporary draft order.
+- Parameters: resident, area, food, drugs, apparel, medicine and emergency override.
+- Evidence: [RimWorld decomposition](../games/m-r/rimworld.md).
+- Novelty: not assessed.
+
+## ACT-156 — Draft resident and issue exact tactical order
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player temporarily suspends one autonomous resident's ordinary
+  work and directly orders exact movement, target or combat actions in live time.
+- Includes: drafting RimWorld colonists, positioning them and ordering attacks,
+  rescue, arrest or field tending.
+- Excludes: persistent work priorities; autonomous nearby engagement; squad policy.
+- Parameters: resident set, destination, queue, target, ability and undraft state.
+- Evidence: [RimWorld decomposition](../games/m-r/rimworld.md).
+- Novelty: not assessed.
+
+## ACT-157 — Form and route loaded world caravan
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects people, animals and cargo for a travelling
+  group, commits its formation, then chooses reachable world-map destinations.
+- Includes: RimWorld caravan membership, supplies, pack animals and route orders.
+- Excludes: a local hauling job; an arriving trader; unrestricted teleportation.
+- Parameters: members, cargo, capacity, supplies, destination, route and split or merge.
+- Evidence: [RimWorld decomposition](../games/m-r/rimworld.md).
+- Novelty: not assessed.
+
+## ACT-158 — Configure prisoner interaction policy
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player assigns a captive's persistent handling goal and care
+  settings so eligible wardens attempt release, resistance reduction or recruitment.
+- Includes: RimWorld prisoner interaction modes and medicine policy.
+- Excludes: one combat arrest; buying a recruit; automatic population growth.
+- Parameters: prisoner, interaction mode, medicine, warden and recruitment threshold.
+- Evidence: [RimWorld decomposition](../games/m-r/rimworld.md).
+- Novelty: not assessed.
+
+## ACT-159 — Target a reachable terrain cell to break it
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player aims at one reachable mutable terrain cell and holds
+  the break command to remove its block, wall or placed object with the current
+  hand or tool.
+- Includes: Minecraft Survival breaking a tree or stone block; Terraria mining
+  a foreground block, breaking a background wall or freeing placed furniture.
+- Excludes: placing a factory entity; moving a free object; painting an
+  abstract board cell with no embodied reach requirement.
+- Parameters: projection, layer, target cell, reach, held tool, break duration
+  and block class.
+- Evidence: [Minecraft decomposition](../games/m-r/minecraft.md) and
+  [Terraria decomposition](../games/s-z/terraria.md).
+- Novelty: not assessed.
+
+## ACT-160 — Arrange inventory materials in a spatial crafting grid
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player places carried material quantities into named cells of
+  an available crafting grid, then collects the recipe result when the full
+  identity, quantity and spatial arrangement match one declared recipe.
+- Includes: Minecraft's 2×2 inventory crafting and 3×3 crafting-table recipes.
+- Excludes: selecting a queued hand-craft recipe; combining two arbitrary held
+  inventory objects; assigning an autonomous machine recipe.
+- Parameters: grid size, cell arrangement, item identity, stack quantity,
+  recipe-book autofill, result and remainder items.
+- Evidence: [Minecraft decomposition](../games/m-r/minecraft.md).
+- Novelty: not assessed.
+
+## ACT-161 — Aim and strike a reachable hostile with the current tool
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player aims an equipped melee or ranged combat tool at one
+  reachable hostile and commits a direct strike or shot rather than assigning
+  an autonomous squad or selecting an abstract card target.
+- Includes: Minecraft Survival attacks against hostile mobs and the Ender Dragon;
+  Counter-Strike 2 aimed firearm, knife and utility attacks; Cyberpunk 2077
+  aimed firearm and melee attacks against reachable hostiles; Marvel Rivals
+  hero primary attacks against visible opponents; Hornet's aimed needle
+  strikes against reachable hostiles in Hollow Knight: Silksong.
+- Excludes: automatic turret fire; a turn-based ability card; a group waypoint
+  that causes agents to acquire targets on their own.
+- Parameters: target, reach, weapon, cooldown, projectile, damage, armour and
+  hit condition.
+- Evidence: [Minecraft decomposition](../games/m-r/minecraft.md) and
+  [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md), and
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
+  [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md),
+  [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md), and
+  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Novelty: not assessed.
+
+## ACT-162 — Place a held tile into a reachable world cell
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player aims at a reachable placement anchor and uses one held
+  block, wall or placed object to request occupation of a compatible tile-world
+  cell or supported footprint.
+- Includes: Minecraft Survival placing blocks for shelter, bridges or stairs;
+  Terraria placing blocks, background walls, platforms, torches or furniture.
+- Excludes: breaking a block; placing a footprint-based factory building;
+  unrestricted Creative editing.
+- Parameters: projection, layer, target, reach, held tile, support, footprint
+  and orientation.
+- Evidence: [Minecraft decomposition](../games/m-r/minecraft.md) and
+  [Terraria decomposition](../games/s-z/terraria.md).
+- Novelty: not assessed.
+
+## ACT-163 — Throw a held locator item to request a world bearing
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player uses one held consumable locator so it leaves the hand
+  and travels in the direction of its current hidden-world target.
+- Includes: Minecraft throwing an Eye of Ender to locate the nearest stronghold.
+- Excludes: reading a static map; firing a damaging projectile; teleporting to
+  the target.
+- Parameters: locator item, origin, target class, bearing and recovery chance.
+- Evidence: [Minecraft decomposition](../games/m-r/minecraft.md).
+- Novelty: not assessed.
+
+## ACT-164 — Select a carried quick-slot item as the active hand
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects one occupied carried quick slot so its item or
+  tool becomes the active hand input for the next compatible world action.
+- Includes: Minecraft selecting a pickaxe, food, block, Eye or flint and steel
+  from the hotbar; Counter-Strike 2 switching among carried weapons, grenades,
+  knife and C4; Cyberpunk 2077 weapon-slot switching.
+- Excludes: rearranging a crafting recipe; assigning an autonomous worker tool.
+- Parameters: slot, item, stack, hand and equipment state.
+- Evidence: [Minecraft decomposition](../games/m-r/minecraft.md) and
+  [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md), and
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Novelty: not assessed.
+
+## ACT-165 — Consume held food to restore hunger
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player holds the use command on eligible carried food to
+  consume one unit and increase the avatar's hunger and saturation state.
+- Includes: Minecraft Survival eating food when sufficiently hungry.
+- Excludes: using a healing potion; automatically feeding an autonomous agent;
+  crafting a food item.
+- Parameters: food, use duration, hunger, saturation and status effects.
+- Evidence: [Minecraft decomposition](../games/m-r/minecraft.md).
+- Novelty: not assessed.
+
+## ACT-166 — Configure a workplace's active shift and unlocked ability
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player changes one staffed facility's enabled state, declared
+  work-shift mode or law- and technology-unlocked operating ability.
+- Includes: Frostpunk turning a workplace on or off, selecting a normal,
+  extended or emergency shift, and toggling its heater or Foreman ability.
+- Excludes: assigning the workers; selecting a production recipe; changing the
+  city-wide simulation speed.
+- Parameters: facility, enabled state, shift length, ability, cooldown, resource
+  cost and welfare consequence.
+- Evidence: [Frostpunk decomposition](../games/a-f/frostpunk.md).
+- Novelty: not assessed.
+
+## ACT-167 — Sign one available irreversible civic law
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player commits one currently available node in a civic law
+  tree, permanently applying its declared rule and branch consequences.
+- Includes: Frostpunk Adaptation laws and the mutually exclusive Order or Faith
+  Purpose paths.
+- Excludes: a reversible district policy; selecting colony research; choosing
+  one temporary event response.
+- Parameters: law tree, node, prerequisite, exclusive alternative, cooldown,
+  immediate modifier, unlocked building or ability and ending judgement.
+- Evidence: [Frostpunk decomposition](../games/a-f/frostpunk.md).
+- Novelty: not assessed.
+
+## ACT-168 — Configure generator and local heat-source operating mode
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player sets the enabled state or output mode of the central
+  generator or one local heat source, including a temporary higher-risk mode.
+- Includes: Frostpunk generator on/off, power and range, Overdrive, Steam Hub
+  schedule and workplace heater controls.
+- Excludes: researching a heat upgrade; placing the facility; assigning staff.
+- Parameters: source, enabled state, heat level, range, schedule, overdrive and
+  transition delay.
+- Evidence: [Frostpunk decomposition](../games/a-f/frostpunk.md).
+- Novelty: not assessed.
+
+## ACT-169 — Edit a star-orbit swarm or megastructure plan
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player creates or revises a persistent orbital construction
+  plan by selecting its star, layer or orbit and placing typed structural
+  elements that later launch systems attempt to fulfil.
+- Includes: Dyson Sphere Program configuring Dyson Swarm orbits and drawing
+  Dyson Sphere layers, nodes, frames and shell regions.
+- Excludes: placing one planetary factory building; launching one supplied
+  rocket; stamping a surface-factory blueprint.
+- Parameters: star, layer radius, orbit inclination and longitude, node, frame,
+  shell region, latitude research and plan deletion.
+- Evidence: [Dyson Sphere Program decomposition](../games/a-f/dyson-sphere-program.md).
+- Novelty: not assessed.
+
+## ACT-170 — Activate mecha flight, sail or warp mode
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player changes the directly controlled mecha from surface
+  movement into an unlocked flight regime, or activates consumable warp while
+  steering through space.
+- Includes: Dyson Sphere Program Icarus takeoff, planetary cruise, interplanetary
+  sail and Space-Warper activation.
+- Excludes: choosing the destination of an autonomous logistics vessel;
+  teleporting between maps; ordinary ground walking.
+- Parameters: movement regime, drive level, heading, throttle, core energy,
+  warper, cruise altitude and landing state.
+- Evidence: [Dyson Sphere Program decomposition](../games/a-f/dyson-sphere-program.md).
+- Novelty: not assessed.
+
+## ACT-171 — Author cyclic ship trade route with per-port cargo orders
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player creates or revises a persistent ordered cycle of island
+  ports for one or more ships and assigns typed load or unload quantities to
+  individual cargo slots at each stop.
+- Includes: Anno 1800 trade routes with ordered stations and slot-specific
+  loading, unloading and minimum-stock-aware collection.
+- Excludes: manually transferring one stack in port; local carts choosing a
+  warehouse; drawing a road; a station pair matched automatically by demand.
+- Parameters: ships, stop order, cargo slot, good, load or unload quantity,
+  minimum stock, wait rule and route activation.
+- Evidence: [Anno 1800 decomposition](../games/a-f/anno-1800.md).
+- Novelty: not assessed.
+
+## ACT-172 — Upgrade eligible residence to next population tier
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects a fully eligible residence and pays its
+  declared construction materials to convert it into the next population tier.
+- Includes: upgrading Anno 1800 Farmers through Workers, Artisans, Engineers
+  and Investors when the residence's basic needs and occupancy allow it.
+- Excludes: automatically growing occupancy within one tier; placing a new
+  house; unlocking the tier's buildings after the population threshold.
+- Parameters: source and destination tier, occupancy, fulfilled needs,
+  materials, workforce change and multi-upgrade selection.
+- Evidence: [Anno 1800 decomposition](../games/a-f/anno-1800.md).
+- Novelty: not assessed.
+
+## ACT-173 — Replace newspaper article with propaganda
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: before publication, the player selects a generated newspaper
+  article and spends influence to replace it with one available propaganda item.
+- Includes: editing an Anno 1800 newspaper issue to change consumption,
+  happiness or income until the following issue.
+- Excludes: choosing a permanent civic law; changing an article after
+  publication; a story dialogue response with no simulation effect.
+- Parameters: article slot, replacement tier, influence cost, effect,
+  publication time and repeated-propaganda consequence.
+- Evidence: [Anno 1800 decomposition](../games/a-f/anno-1800.md).
+- Novelty: not assessed.
+
+## ACT-174 — Provision expedition ship and depart
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player assigns an eligible ship and fills its finite cargo
+  slots with goods or specialists whose skills and supplies will be used during
+  a declared expedition, then commits departure.
+- Includes: preparing Anno 1800's mandatory New World discovery expedition.
+- Excludes: authoring a repeating trade route; manually sailing the ship;
+  resolving a later expedition event choice.
+- Parameters: expedition, ship, cargo slots, item or specialist, skill values,
+  rations, morale contribution and departure gate.
+- Evidence: [Anno 1800 decomposition](../games/a-f/anno-1800.md).
+- Novelty: not assessed.
+
+## ACT-175 — Purchase construction unlock with Science Points
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player spends accumulated settlement Science Points on one
+  eligible catalogue entry, making it persistently available in the current map.
+- Includes: Timberborn buildings and Earth Recultivator unlocks.
+- Excludes: selecting a research target produced afterward; population gates;
+  metaprogression retained across fresh maps.
+- Parameters: construction, point cost, prerequisite, balance and map scope.
+- Evidence: [Timberborn decomposition](../games/s-z/timberborn.md).
+- Novelty: not assessed.
+
+## ACT-176 — Connect and configure local automation signal
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player connects a sensor, logic or relay output to a
+  compatible target and sets persistent thresholds or Boolean rules.
+- Includes: Timberborn sensors controlling pumps, floodgates or valves.
+- Excludes: manual toggling; recipe selection; hidden scripts.
+- Parameters: source, target, threshold, logic, inversion and signal state.
+- Evidence: [Timberborn decomposition](../games/s-z/timberborn.md).
+- Novelty: not assessed.
+
+## ACT-177 — Configure an operating office's transport remit
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player assigns sources, destinations, cargo classes,
+  thresholds, vehicles or work sites to a persistent office that will dispatch
+  eligible vehicles automatically.
+- Includes: Workers & Resources construction-office sources and sites, and
+  distribution-office supply, demand, resource and storage-percentage rules.
+- Excludes: editing one vehicle's ordered line; placing the office; directly
+  driving a delivery.
+- Parameters: office, source, destination, resource, threshold, fleet, radius,
+  priority and assignment mode.
+- Evidence: [Workers & Resources: Soviet Republic decomposition](../games/s-z/workers-resources-soviet-republic.md).
+- Novelty: not assessed.
+
+## ACT-178 — Commit a foreign purchase or border trade rule
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player spends the selected foreign currency on an imported
+  vehicle or configures an eligible connection to buy or sell a declared flow.
+- Includes: purchasing vehicles at Soviet or NATO customs and setting a foreign
+  power connection to import or export electricity.
+- Excludes: a domestic recipe; cargo crossing customs under an already authored
+  vehicle line; an automatic tax settlement.
+- Parameters: market bloc, currency, item or power, quantity or limit, price,
+  connection and delivery state.
+- Evidence: [Workers & Resources: Soviet Republic decomposition](../games/s-z/workers-resources-soviet-republic.md).
+- Novelty: not assessed.
+
+## ACT-179 — Commit an island trade or supply contract
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects a disclosed island offer and commits either
+  one immediate exchange or a persistent export-for-import contract whose
+  later cargo cycles consume the declared institutional resource.
+- Includes: Captain of Industry quick trades and village contracts that spend
+  Unity and use compatible cargo-depot modules and ships for recurring flows.
+- Excludes: domestic production recipes; automatically dispatched island
+  trucks; foreign trade settled by a vehicle crossing a land border.
+- Parameters: village, reputation, exported product, imported product, ratio,
+  establishment cost, recurring Unity cost, module and cargo ship.
+- Evidence: [Captain of Industry decomposition](../games/a-f/captain-of-industry.md).
+- Novelty: not assessed.
+
+## ACT-180 — Configure and dispatch a Mars rocket manifest
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player assigns an eligible rocket a destination and finite
+  payload of resources, prefabs, vehicles or colonists, then commits its launch
+  or landing while the resulting flight resolves autonomously.
+- Includes: Surviving Mars: Relaunched cargo, passenger, Earth-return and
+  planetary-project manifests in patch 1.0.7.
+- Excludes: editing a cyclic trade route; directly steering a spacecraft;
+  launching one fixed-payload factory rocket.
+- Parameters: rocket, origin, destination, cargo capacity, resource, prefab,
+  vehicle, passenger, fuel, landing site and automation mode.
+- Evidence: [Surviving Mars: Relaunched decomposition](../games/s-z/surviving-mars.md).
+- Novelty: not assessed.
+
+## ACT-181 — Prepare, negotiate and vote on a Martian law
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects an eligible law or one of its bounded rule
+  options, prepares it, may exchange disclosed promises for faction support,
+  and calls the vote that accepts or rejects the proposed colony rule.
+- Includes: Surviving Mars: Relaunched Earth Council and Martian Assembly laws,
+  including the declaration of independence.
+- Excludes: permanently signing a no-vote law branch; selecting research;
+  choosing a one-off narrative response.
+- Parameters: chamber, law, option, preparation, faction, promise, seats,
+  support, vote, upkeep, enactment and repeal eligibility.
+- Evidence: [Surviving Mars: Relaunched decomposition](../games/s-z/surviving-mars.md).
+- Novelty: not assessed.
+
+## ACT-182 — Purchase one offered round item
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player spends current match currency during the permitted
+  round window to add one offered weapon, armour, grenade or role-specific tool
+  to the current life inventory.
+- Includes: Counter-Strike 2 Competitive purchases during freeze/buy time.
+- Excludes: persistent account unlocks; cosmetic marketplace trades; looting a
+  dropped world item; a between-node single-player merchant.
+- Parameters: price, role, buy time, location, inventory capacity and refund state.
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
+- Novelty: not assessed.
+
+## ACT-183 — Reload the active magazine-fed weapon
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player commits a timed transfer of reserve ammunition into
+  the active weapon, temporarily giving up fire readiness to restore its magazine.
+- Includes: Counter-Strike 2 and Cyberpunk 2077 manual firearm reloads.
+- Excludes: automatically replenishing ammunition between attempts; changing
+  weapons; firing a chambered shot.
+- Parameters: weapon, magazine, reserve, reload duration and cancellation rule.
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md) and
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Novelty: not assessed.
+
+## ACT-184 — Prime and throw one carried tactical grenade
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects a carried single-use grenade, chooses its
+  release direction and strength, and commits it to a ballistic world path.
+- Includes: Counter-Strike 2 smoke, flashbang, explosive and incendiary throws.
+- Excludes: a fixed launcher shot; placing a persistent trap; ordinary firearm fire.
+- Parameters: grenade type, throw mode, aim, velocity, fuse and retained count.
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
+- Novelty: not assessed.
+
+## ACT-185 — Commit a bomb plant or defuse channel
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an eligible player holds the objective interaction continuously
+  for its declared duration to plant carried explosives or neutralise an active
+  planted device.
+- Includes: Counter-Strike 2 C4 planting by Terrorists and defusing by
+  Counter-Terrorists, with kit-modified defuse duration.
+- Excludes: an instantaneous switch; damaging the device; a scripted cutscene.
+- Parameters: role, device state, site, duration, kit and interruption.
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
+- Novelty: not assessed.
+
+## ACT-186 — Drop one carried round item into the world
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player removes one eligible carried weapon or objective item
+  from personal inventory and emits it at the current world position for
+  possible teammate or opponent pickup.
+- Includes: Counter-Strike 2 weapon and C4 drops used for team redistribution.
+- Excludes: discarding spent magazines; consuming a grenade; selling an item.
+- Parameters: item class, throw impulse, ownership, pickup delay and capacity.
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
+- Novelty: not assessed.
+
+## ACT-187 — Communicate a live tactical cue to teammates
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a player deliberately transmits a current position, observation,
+  warning or plan through the bounded team communication channel while the
+  shared real-time contest continues.
+- Includes: Counter-Strike 2 team voice, text and radio cues, and Dota 2 team
+  chat, pings and drawings about enemies, cooldowns, movement and objectives;
+  Marvel Rivals team voice, text, ping and quick-wheel cues.
+- Excludes: the complementary rule/live-state split of `ACT-099`; communication
+  outside the game with no bounded team channel; automatic system callouts.
+- Parameters: channel, living/dead state, cue form, recipients and delay.
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md)
+  [Dota 2 decomposition](../games/a-f/dota-2.md), and
+  [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md).
+- Novelty: not assessed.
+
+## ACT-188 — Commit one match hero and build option
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during the bounded team draft, the player commits one available
+  match character and its disclosed pre-match build branch to the current slot.
+- Includes: Dota 2 All Pick hero and facet selection.
+- Excludes: cosmetic loadout; changing to another hero during live play.
+- Parameters: roster, team slot, pick phase, hero, facet and conflict rule.
+- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md).
+- Novelty: not assessed.
+
+## ACT-189 — Issue a contextual destination or attack command
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player addresses a controlled agent and commits a world
+  destination, target or attack-move order that autonomous pathing then executes.
+- Includes: Dota 2 hero move, attack, attack-move, stop and hold commands.
+- Excludes: direct per-step avatar locomotion; an ability cast; lane-creep AI.
+- Parameters: selected unit, order, point, target, path and queue modifier.
+- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md).
+- Novelty: not assessed.
+
+## ACT-190 — Cast one hero or item ability
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player activates one learned hero skill or carried item
+  active and supplies its legal unit, point, vector or no-target input.
+- Includes: Dota 2 spells, toggles and active items; Marvel Rivals hero
+  abilities and ultimate activations; Battlefield 6 targeted, placed and
+  no-target class gadgets; Hollow Knight: Silksong Silk Skills and equipped
+  Tools activated with their legal directional or no-target input.
+- Excludes: automatic attack acquisition; passive effects; cosmetic emotes.
+- Parameters: ability, cast form, target, range, mana, cooldown and channel.
+- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md) and
+  [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md), and
+  [Battlefield 6 decomposition](../games/a-f/battlefield-6.md), and
+  [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md).
+- Novelty: not assessed.
+
+## ACT-191 — Spend one character build point
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player spends one currently available character-development
+  point on an eligible ability rank, attribute bonus or talent branch.
+- Includes: Dota 2 ability levelling and talent choices; Clair Obscur:
+  Expedition 33 attribute and skill-point allocation; Cyberpunk 2077 attribute
+  and perk-point allocation.
+- Excludes: purchasing an item; account-wide progression; pre-run facet selection.
+- Parameters: character level, point type, skill rank, attribute, talent tier,
+  persistence and prerequisite.
+- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md) and
+  [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md),
+  and [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Novelty: not assessed.
+
+## ACT-192 — Configure a stash or courier delivery
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player transfers eligible match items among hero, stash and
+  team courier or commands the courier to collect and deliver them.
+- Includes: Dota 2 stash retrieval and courier delivery.
+- Excludes: buying the item; dropping it for ground pickup; direct hero movement.
+- Parameters: item, source, destination, courier, route and capacity.
+- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md).
+- Novelty: not assessed.
+
+## ACT-193 — Purchase immediate hero buyback
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while the controlled hero is dead, the player spends the
+  disclosed match cost to replace the remaining respawn wait with immediate return.
+- Includes: Dota 2 buyback when cost and cooldown gates are satisfied.
+- Excludes: ordinary free respawn; revival by an allied effect; account purchase.
+- Parameters: cost, current gold, cooldown, death state and return location.
+- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md).
+- Novelty: not assessed.
+
+## ACT-194 — Throw a capture device at one weakened world creature
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player aims and spends one carried capture device on an
+  eligible world creature, committing its current probability check rather
+  than dealing an ordinary weapon hit.
+- Includes: throwing a Pal Sphere at a weakened wild Pal in Palworld.
+- Excludes: defeating the creature; a guaranteed scripted recruitment; moving
+  an already captured companion between rosters.
+- Parameters: target, device tier, range, target health, capture power,
+  displayed probability and consumed count.
+- Evidence: [Palworld decomposition](../games/m-r/palworld.md).
+- Novelty: not assessed.
+
+## ACT-195 — Deploy or recall one carried companion
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects one member of the active companion party and
+  throws it into a reachable world position or recalls the currently deployed
+  companion to carried state.
+- Includes: Palworld party-Pal deployment and recall during exploration or combat.
+- Excludes: transferring a Pal into base labour; issuing direct avatar movement;
+  capturing a new creature.
+- Parameters: party slot, world position, active companion, recall state and
+  deployment cooldown.
+- Evidence: [Palworld decomposition](../games/m-r/palworld.md).
+- Novelty: not assessed.
+
+## ACT-196 — Transfer a captured companion among storage, party and base
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: through a persistent management fixture, the player moves one
+  captured companion between reserve storage, the bounded active party and an
+  available autonomous base-worker slot.
+- Includes: Palbox transfers among Pal storage, party and base assignments.
+- Excludes: capturing a wild creature; temporary field deployment; breeding
+  two stored creatures.
+- Parameters: companion, source roster, destination roster, slot capacity and
+  base ownership.
+- Evidence: [Palworld decomposition](../games/m-r/palworld.md).
+- Novelty: not assessed.
+
+## ACT-197 — Activate one companion partner skill
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while the required companion and equipment state are available,
+  the player invokes its declared partner interaction, mount form or active
+  field ability.
+- Includes: riding an eligible Pal, using its traversal form or triggering its
+  active Partner Skill in Palworld.
+- Excludes: the companion's autonomous ordinary attacks; a passive work
+  suitability; direct player weapon use.
+- Parameters: companion, key item, mount state, stamina, cooldown, target and effect.
+- Evidence: [Palworld decomposition](../games/m-r/palworld.md).
+- Novelty: not assessed.
+
+## ACT-198 — Commit aircraft exit and steer aerial insertion
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player chooses when to leave a moving insertion aircraft,
+  steers the avatar through freefall and canopy flight, and thereby commits to
+  one reachable starting region before ordinary ground control begins.
+- Includes: PUBG Normal Match aircraft exit, freefall and parachute steering.
+- Excludes: choosing a static spawn point; jumping during ground locomotion;
+  entering a vehicle after landing.
+- Parameters: aircraft line and speed, exit time, fall vector, canopy opening,
+  glide, steering, collision and landing region.
+- Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md).
+- Novelty: not assessed.
+
+## ACT-215 — Assemble a raid loadout from retained or free equipment
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: before entering a bounded raid, the player fills compatible
+  weapon, augment, ammunition, utility and carried-item slots from retained
+  storage or accepts a declared free randomized kit.
+- Includes: ARC Raiders stash-built and Free Loadout preparation.
+- Excludes: looting after deployment; cosmetic outfit selection; buying an
+  item without equipping it for the raid.
+- Parameters: storage, loadout source, augment, weapons, ammunition, utility,
+  slot capacity, free-kit roll and replacement destination.
+- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
+- Novelty: not assessed.
+
+## ACT-216 — Search a reachable container or disabled machine
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player commits a proximity-bounded search interaction whose
+  completion reveals the eligible contents of one container, wreck or disabled
+  machine for subsequent transfer.
+- Includes: ARC Raiders lockers, drawers, crates, husks and destroyed ARC
+  salvage interactions.
+- Excludes: picking up already visible ground loot; remote map revelation;
+  automatic resource collection after a kill.
+- Parameters: target, reach, interaction duration, interruption, contents,
+  prior search state and concurrent access.
+- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
+- Novelty: not assessed.
+
+## ACT-217 — Move one carried item into or out of a protected pocket
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during a live raid, the player transfers an eligible carried item
+  between ordinary backpack storage and a bounded protected pocket whose
+  contents use a different defeat-retention rule.
+- Includes: ARC Raiders Safe Pocket inventory transfers.
+- Excludes: ordinary backpack reordering; banking at successful extraction;
+  exploit-based transfer of an ineligible weapon or active gadget.
+- Parameters: item, eligibility, source, destination, protected slots, stack,
+  active-use state and displacement.
+- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
+- Novelty: not assessed.
+
+## ACT-218 — Activate and enter a live extraction endpoint
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player reaches an available extraction fixture, starts any
+  required call or unlock interaction and enters its bounded departure zone
+  before the endpoint closes.
+- Includes: ARC Raiders extraction elevators, metro exits and Raider Hatches.
+- Excludes: leaving a match through a menu; dying Topside; completing a quest
+  without returning to Speranza.
+- Parameters: endpoint, availability, key or call, interaction, arrival delay,
+  entry zone, closure and damage immunity boundary.
+- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
+- Novelty: not assessed.
+
+## ACT-219 — Sell or recycle one retained or carried item
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects one owned item and irreversibly converts it
+  through an available sale or recycling operation into the disclosed coin or
+  component return.
+- Includes: ARC Raiders Speranza sales and recycling plus Topside Field
+  Recycling.
+- Excludes: dropping loot for another Raider; consuming a medical item;
+  cancelling a craft for a refund.
+- Parameters: item, quantity, location, sale value, recycle output, durability,
+  confirmation and destination capacity.
+- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
+- Novelty: not assessed.
+
+## ACT-220 — Spend a persistent Raider skill point
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player commits one available persistent skill point to an
+  eligible node in the Conditioning, Mobility or Survival tree, permanently
+  adding that node's declared modifier to the current Raider progression.
+- Includes: ARC Raiders Raider skill-tree allocation.
+- Excludes: temporary raid buffs; equipment augments; Expedition departure
+  bonuses awarded without selecting a skill node.
+- Parameters: branch, node, prerequisite, rank, point balance, modifier and
+  current Raider progression.
+- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
+- Novelty: not assessed.
+
+## ACT-221 — Repair or upgrade one retained weapon
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: in the safe hub, the player selects one retained weapon and pays
+  the declared compatible resources to restore durability or advance its
+  current upgrade state.
+- Includes: ARC Raiders workshop weapon repair and upgrade-with-repair.
+- Excludes: field healing; attaching a weapon mod; replacing a broken weapon
+  with another stored copy.
+- Parameters: weapon, tier, durability, upgrade level, resources, repair amount
+  and resulting state.
+- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md) and
+  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Novelty: not assessed.
+
+## ACT-210 — Configure one survivor's occupation and traits
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: before world entry, the player selects one occupation and a
+  legal set of positive and negative traits whose combined point balance
+  defines the survivor's starting skills and persistent modifiers.
+- Includes: Project Zomboid Build 42 occupation and trait creation.
+- Excludes: gaining skill experience after spawn; cosmetic appearance; changing
+  a world preset.
+- Parameters: occupation, traits, point costs, incompatibilities, starting
+  skills and persistent modifiers.
+- Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md).
+- Novelty: not assessed.
+
+## ACT-211 — Apply or remove treatment on a selected body wound
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects a disclosed wound on one body region and uses
+  a compatible carried medical item to clean, cover, splint, remove an embedded
+  object or otherwise change that wound's treatment state.
+- Includes: Project Zomboid Health-panel bandaging and wound care.
+- Excludes: consuming food; passive recovery; treating an abstract shared
+  health bar with no body location.
+- Parameters: body region, wound, item, treatment, duration, skill, pain,
+  bleeding and resulting state.
+- Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md).
+- Novelty: not assessed.
+
+## ACT-212 — Attach or remove barricade material from an opening
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player targets a reachable door or window and uses compatible
+  tools and carried material to add one defensive layer or recover one legally
+  removable layer from that same opening.
+- Includes: Project Zomboid plank, metal-sheet and metal-bar barricades.
+- Excludes: constructing a free-standing wall; closing an ordinary curtain;
+  damaging an opening in combat.
+- Parameters: opening, side, material, layer count, tools, fasteners, skill,
+  health, visibility and removal return.
+- Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md).
+- Novelty: not assessed.
+
+## ACT-213 — Plant, tend or harvest one world crop
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player targets a compatible world plot and commits a carried
+  seed, water, treatment or harvesting interaction to one persistent crop.
+- Includes: Project Zomboid Build 42 seasonal crop farming.
+- Excludes: autonomous colony farming; gathering wild plants; selecting a
+  recipe whose output is food.
+- Parameters: plot, crop, seed, water, treatment, growth phase, season, skill,
+  yield and harvest state.
+- Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md).
+- Novelty: not assessed.
+
+## ACT-214 — Commit the survivor to sleep
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player uses an eligible resting place to relinquish ordinary
+  direct control while personal fatigue and world time advance until waking or
+  an allowed interruption.
+- Includes: sleeping during a Project Zomboid single-player life.
+- Excludes: placing a respawn fixture; pausing the simulation; cosmetic resting
+  with no time or fatigue consequence.
+- Parameters: resting place, tiredness, safety, sleep duration, time rate,
+  interruption, fatigue recovery and wake state.
+- Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md).
+- Novelty: not assessed.
+
+## ACT-204 — Place, upgrade or repair a connected building block
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player targets a legal socket or existing connected building
+  block and spends the selected material to place its initial form, raise its
+  construction grade or restore lost structural health.
+- Includes: Rust foundations, walls, floors, ceilings and door frames placed
+  with the Building Plan and upgraded or repaired with the Hammer.
+- Excludes: deploying a free-standing item; blueprint planning for autonomous
+  workers; terrain excavation.
+- Parameters: block shape, socket, orientation, grade, material cost, stability,
+  privilege, repair delay and restored health.
+- Evidence: [Rust decomposition](../games/m-r/rust.md).
+- Novelty: not assessed.
+
+## ACT-205 — Configure authority on a claimed world fixture
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player interacts with a reachable ownership fixture or lock
+  to authorise or deauthorise an identity, set or enter an access credential,
+  or clear the fixture's current authority list.
+- Includes: Rust Tool Cupboard authorisation and Code Lock code entry or change.
+- Excludes: opening an already authorised door; transferring stored items;
+  server administrator permissions.
+- Parameters: fixture, identity, authority list, credential, lock state,
+  interaction reach and privilege region.
+- Evidence: [Rust decomposition](../games/m-r/rust.md).
+- Novelty: not assessed.
+
+## ACT-206 — Load and operate a material-processing fixture
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player transfers compatible inputs and any required fuel into
+  a reachable processing fixture, starts or stops it where applicable, and
+  later removes its produced or residual stacks.
+- Includes: loading and lighting a Rust Furnace and transferring components
+  through a monument Recycler.
+- Excludes: hand-crafting; assigning an autonomous industrial recipe; merely
+  storing unchanged items.
+- Parameters: fixture, input slots, fuel, active state, cycle, output slots,
+  capacity and transfer quantity.
+- Evidence: [Rust decomposition](../games/m-r/rust.md).
+- Novelty: not assessed.
+
+## ACT-207 — Spend research currency to learn one item recipe
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player selects an eligible item at a Research Table or an
+  available Workbench tech-tree node and spends the declared research currency
+  to add that recipe to personal blueprint knowledge.
+- Includes: Rust scrap research and Workbench technology-tree unlocks.
+- Excludes: crafting the learned item; discovering a free default recipe;
+  upgrading the Workbench itself.
+- Parameters: item or node, prerequisite path, workbench tier, scrap cost,
+  research item and persistent blueprint state.
+- Evidence: [Rust decomposition](../games/m-r/rust.md).
+- Novelty: not assessed.
+
+## ACT-208 — Place and assign a persistent respawn fixture
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player deploys a legal sleeping fixture in the shared world
+  and assigns its future respawn destination to an eligible identity.
+- Includes: placing and assigning a Rust Sleeping Bag.
+- Excludes: choosing a random beach spawn after death; checkpoint autosave;
+  temporary team revival.
+- Parameters: fixture, placement, assigned identity, ownership, cooldown group
+  and destruction state.
+- Evidence: [Rust decomposition](../games/m-r/rust.md).
+- Novelty: not assessed.
+
+## ACT-209 — Attach a timed explosive to a structure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player throws or places one carried timed charge onto a
+  reachable world surface, committing the charge to its fuse and structural
+  blast rather than retaining direct control.
+- Includes: deploying a Rust Timed Explosive Charge against a door or building
+  block during a raid.
+- Excludes: firearm attack; terrain-only excavation; remote administrative
+  destruction.
+- Parameters: charge, target surface, trajectory, attachment, fuse, blast,
+  structural damage and consumed item.
+- Evidence: [Rust decomposition](../games/m-r/rust.md).
+- Novelty: not assessed.
+
+## ACT-199 — Transfer and equip compatible world loot
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects reachable world loot and transfers it into a
+  compatible carried stack, weapon, attachment, protection or storage slot,
+  optionally replacing the currently equipped item.
+- Includes: PUBG ground-loot interaction and inventory drag/equip actions for
+  firearms, ammunition, attachments, armour, backpacks and consumables;
+  Cyberpunk 2077 world-loot and inventory equipment transfers.
+- Excludes: automatic contact pickup; purchasing a round item; crafting an
+  item; collecting an abstract score token.
+- Parameters: item, reach, stack, slot, compatibility, capacity, replacement
+  disposition and auto-equip setting.
+- Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md)
+  and [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Novelty: not assessed.
+
+## ACT-200 — Use one interruptible restorative consumable
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player begins a timed use of one carried medical or boost
+  item and receives its declared immediate or gradual restorative effect only
+  if no cancelling action interrupts the channel.
+- Includes: PUBG bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers
+  and Adrenaline Syringes.
+- Excludes: instant turn-based potion use; passive regeneration without an item;
+  reviving another participant.
+- Parameters: item, legal health range, cast time, allowed movement, cancelling
+  actions, consumed quantity, immediate health and boost-over-time.
+- Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md).
+- Novelty: not assessed.
+
+## ACT-201 — Enter and directly operate a world vehicle
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player enters an available vehicle seat, directly controls
+  its acceleration and steering when occupying the driver position, may switch
+  seats, and chooses when to exit into the world.
+- Includes: driving or riding Erangel land vehicles in PUBG Normal Match;
+  entering, stealing and operating road, water or air vehicles in Grand Theft
+  Auto V Story Mode; driving owned or available vehicles in Cyberpunk 2077.
+- Excludes: assigning an autonomous transport route; an insertion aircraft the
+  player cannot steer; avatar locomotion on foot.
+- Parameters: vehicle, seat, entry reach, driver authority, steering, throttle,
+  brake, boost, seat change and exit speed.
+- Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md)
+  [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md), and
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Novelty: not assessed.
+
+## ACT-202 — Change direct-combat posture or lean
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player changes the controlled avatar among standing,
+  crouched, prone or lateral-lean states, altering visible body exposure,
+  movement and weapon handling without leaving the current local position.
+- Includes: PUBG stance changes and left/right peeking around cover; Cyberpunk
+  2077 standing and crouched stealth/combat posture.
+- Excludes: ordinary translation through terrain; changing camera perspective;
+  an automatic knockback pose.
+- Parameters: posture, lean side, transition duration, collision clearance,
+  movement rate, exposed hit regions and weapon spread.
+- Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md)
+  and [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Novelty: not assessed.
+
+## ACT-203 — Excavate eligible terrain for tactical cover
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player targets supported world terrain with an eligible tool
+  or explosive and commits an attack intended to remove bounded ground volume
+  and create a traversable depression or cover edge.
+- Includes: PUBG Update 41.1 Erangel pickaxe digging and terrain destruction by
+  grenades, mortar, Panzerfaust, C4 or vehicle explosion.
+- Excludes: damaging a hostile; destroying a building; unlimited voxel mining;
+  cosmetic decals with no collision change.
+- Parameters: map, surface, tool, strike or blast, range, removed volume, depth,
+  collision update and excluded area.
+- Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md).
+- Novelty: not assessed.
+
+## ACT-222 — Execute the prompted timing input during a chosen combat action
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after choosing a turn-based attack, skill, heal or buff, the
+  player presses or sequences the displayed real-time input while its animation
+  is running to modify the declared effect.
+- Includes: Clair Obscur: Expedition 33 timed offensive and support prompts.
+- Excludes: selecting the command or target; reacting to an enemy attack;
+  passive critical-hit probability.
+- Parameters: prompt sequence, timing window, success grade and modified clause.
+- Evidence: [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md).
+- Novelty: not assessed.
+
+## ACT-223 — Choose a timed dodge, parry or jump response
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during a telegraphed enemy attack, the player commits the
+  currently eligible defensive response at a chosen instant inside the live
+  attack sequence.
+- Includes: Clair Obscur: Expedition 33 dodge, parry and unlocked jump inputs.
+- Excludes: selecting a turn command; passive evasion chance; blocking with a
+  persistent armour statistic.
+- Parameters: response type, attack member, timing window, affected character
+  or party and accessibility assist.
+- Evidence: [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md).
+- Novelty: not assessed.
+
+## ACT-224 — Rest at an expedition checkpoint
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player deliberately rests at an activated campaign
+  checkpoint to accept its linked recovery and world-reset consequences.
+- Includes: resting at Clair Obscur: Expedition 33 Expedition Flags; resting at
+  activated Benches in Hollow Knight: Silksong.
+- Excludes: touching a checkpoint without resting; using a combat healing item;
+  sleeping while an open-world simulation continues.
+- Parameters: checkpoint, refill set, revival state, respawn set and save timing.
+- Evidence: [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md)
+  and [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md).
+- Novelty: not assessed.
+
+## ACT-225 — Configure equipped Pictos and active Luminas
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: outside a locked combat resolution, the player assigns acquired
+  Pictos to compatible character slots and activates learned Lumina passives
+  within that character's point capacity.
+- Includes: Clair Obscur: Expedition 33 per-character Picto and Lumina builds.
+- Excludes: equipping a weapon; spending a skill point; the automatic mastery
+  that makes a Picto passive available as Lumina.
+- Parameters: character, Picto slots, passive identity, Lumina cost, capacity
+  and combat-lock state.
+- Evidence: [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md).
+- Novelty: not assessed.
+
+## ACT-226 — Enter or leave contextual combat cover
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player attaches the controlled protagonist to a reachable
+  protective surface, shifts along or around its supported edge and deliberately
+  leaves that cover state while direct combat continues.
+- Includes: Grand Theft Auto V Story Mode wall, vehicle and low-object cover.
+- Excludes: merely crouching in open space; passive armour; cover used only by
+  autonomous allies.
+- Parameters: surface, reach, edge, posture, blind fire, aimed exposure and exit.
+- Evidence: [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md).
+- Novelty: not assessed.
+
+## ACT-227 — Set a personal world-map waypoint
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects one reachable map position or known marker as
+  a personal destination so the navigation interface can calculate and display
+  a road route without moving the protagonist automatically.
+- Includes: Grand Theft Auto V Story Mode and Cyberpunk 2077 map waypoints and
+  calculated road routes.
+- Excludes: directly commanding autonomous traversal; authored mission markers
+  the system fixes without player selection; drawing a transport network.
+- Parameters: map position, marker, route mode, recalculation and removal.
+- Evidence: [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md) and
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Novelty: not assessed.
+
+## ACT-228 — Switch direct control to an available protagonist
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects another currently available authored
+  protagonist and transfers direct movement, combat and interaction authority
+  to that character without beginning a separate save or multiplayer session.
+- Includes: Grand Theft Auto V Story Mode switching among Michael, Franklin and
+  Trevor in free roam and at eligible mission moments.
+- Excludes: changing cosmetic avatars; ordering an autonomous squad member;
+  selecting a turn-based party member's command.
+- Parameters: protagonist, availability, mission permission, transition and
+  current world activity.
+- Evidence: [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md).
+- Novelty: not assessed.
+
+## ACT-229 — Activate the controlled protagonist's special ability
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player deliberately spends the controlled protagonist's
+  ready special meter to enter that character's authored temporary combat or
+  driving modifier.
+- Includes: Michael's shooting focus, Franklin's driving focus and Trevor's
+  rage ability in Grand Theft Auto V Story Mode.
+- Excludes: passive statistics; cheat codes; GTA Online Quickplay actions.
+- Parameters: protagonist, meter, context, duration, drain, cancellation and
+  mechanical modifiers.
+- Evidence: [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md).
+- Novelty: not assessed.
+
+## ACT-230 — Configure a heist approach and specialist crew
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: at an authored planning board, the player selects one available
+  operation approach and assigns eligible specialists to every required crew
+  role before preparation or execution begins.
+- Includes: Grand Theft Auto V Story Mode approach, gunman, driver and hacker
+  choices for its major heists.
+- Excludes: moment-to-moment protagonist switching during execution; an online
+  lobby; cosmetic crew selection.
+- Parameters: heist, approach, required roles, candidate, skill, cut, prior
+  survival and commitment point.
+- Evidence: [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md).
+- Novelty: not assessed.
+
+## ACT-231 — Commit lifepath and initial attribute allocation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: before entering the persistent campaign, the player selects one
+  authored origin and distributes a fixed initial point budget among mechanical
+  character attributes that persist into play.
+- Includes: Cyberpunk 2077's Nomad, Streetkid or Corpo lifepath selection and
+  initial Body, Intelligence, Reflexes, Technical Ability and Cool allocation.
+- Excludes: cosmetic appearance; later attribute-point spending; selecting a
+  temporary dialogue response.
+- Parameters: origin roster, attribute set, base values, point budget, minimum,
+  maximum and confirmation boundary.
+- Evidence: [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Novelty: not assessed.
+
+## ACT-232 — Commit one authored dialogue or quest response
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during an authored conversation or quest decision, the player
+  selects one currently offered response whose declared or concealed result may
+  update information, relationships, mission state or a later branch.
+- Includes: Cyberpunk 2077 dialogue choices, timed responses and the base-game
+  decision to accept Hanako's route during Nocturne Op55N1.
+- Excludes: optional flavour lines with no state change; buying a catalogue
+  item; allocating a character point.
+- Parameters: speaker, option set, timer, prerequisite, response, state change,
+  reversibility and later branch.
+- Evidence: [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Novelty: not assessed.
+
+## ACT-233 — Scan a world target and upload one quickhack
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player holds scanner focus on an eligible person, device or
+  vehicle, selects one available quickhack and commits its timed upload from the
+  installed cyberdeck.
+- Includes: Cyberpunk 2077 base-game combat, covert and device quickhacks.
+- Excludes: firing a weapon; passively revealing a target; selecting a dialogue
+  response; hacking without an installed compatible operating system.
+- Parameters: target, scanner range, cyberdeck, quickhack, RAM cost, upload
+  time, queue position, cooldown and trace exposure.
+- Evidence: [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Novelty: not assessed.
+
+## ACT-234 — Configure installed cyberware at a ripperdoc
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: at an eligible specialist interface, the player buys, installs,
+  removes, replaces or upgrades one implant in a compatible body slot while
+  preserving the resulting capacity-bound loadout.
+- Includes: Cyberpunk 2077 Update 2.0+ ripperdoc cyberware configuration.
+- Excludes: equipping a carried weapon; cosmetic-only wardrobe changes;
+  allocating an attribute or perk point.
+- Parameters: slot, implant, tier, price, components, capacity cost, armour,
+  attunement, replacement and upgrade result.
+- Evidence: [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Novelty: not assessed.
+
+## ACT-235 — Grapple and neutralise an unaware reachable target
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: from valid close range outside active detection, the player grabs
+  one eligible hostile and commits a lethal or non-lethal neutralisation or
+  body movement instead of an ordinary weapon attack.
+- Includes: Cyberpunk 2077 stealth grabs, takedowns and short body carries.
+- Excludes: melee strikes against an alerted enemy; scripted dialogue custody;
+  remotely uploading a quickhack.
+- Parameters: target awareness, reach, relative level, grab state, outcome,
+  body destination and interruption.
+- Evidence: [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Novelty: not assessed.
+
+## ACT-236 — Activate one rechargeable combat-item charge
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player activates one currently ready charge of an equipped
+  health item or grenade, supplying aim where required, without permanently
+  consuming the underlying reusable item.
+- Includes: Cyberpunk 2077 Update 2.0+ health-item and grenade charges.
+- Excludes: consuming a finite inventory stack; firing a weapon; passive health
+  regeneration; using an unavailable recharging charge.
+- Parameters: item, charge count, aim, activation duration, effect, recharge
+  delay and interruption.
+- Evidence: [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Novelty: not assessed.
+
+## ACT-237 — Select a match hero and Team-Up loadout in spawn
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: before leaving an active team spawn room, the player selects one
+  currently available hero and one offered Team-Up partner loadout, transferring
+  direct control and the resulting base ability configuration to that hero.
+- Includes: Marvel Rivals Quick Match hero selection, legal mid-match hero
+  swaps in spawn and Season 9 Team-Up partner selection.
+- Excludes: a draft that permanently commits one hero for the whole match;
+  cosmetic skin selection; copying another hero with an ultimate ability.
+- Parameters: team slot, hero, role, uniqueness, spawn state, partner option,
+  base effect, enhanced effect and confirmation.
+- Evidence: [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md).
+- Novelty: not assessed.
+
+## ACT-238 — Configure a persistent custom campaign character
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: before entering a persistent authored campaign, the player
+  commits one compatible set of lineage, class, background, ability allocation
+  and proficiencies that determines the new character's starting capabilities.
+- Includes: Baldur's Gate 3 custom Tav race or subrace, class, background,
+  27-point ability allocation, skill proficiencies and starting choices.
+- Excludes: cosmetic appearance; selecting a fixed Origin character; later
+  levelling, multiclassing or equipment changes.
+- Parameters: lineage, class, background, ability budget, proficiency, cantrip,
+  spell, compatibility and confirmation boundary.
+- Evidence: [Baldur's Gate 3 decomposition](../games/a-f/baldurs-gate-3.md).
+- Novelty: not assessed.
+
+## ACT-239 — Configure one class-bound deployment loadout
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: before deploying into a live team match, the player selects one
+  combat class and commits a compatible set of Training Path, weapons,
+  attachments, gadgets and throwable for the next controlled life.
+- Includes: Battlefield 6 Open Weapons Conquest Assault, Engineer, Support and
+  Recon loadout configuration before or between deployments.
+- Excludes: cosmetic weapon appearance; changing only the active carried slot;
+  a permanent hero draft; configuring an autonomous squad.
+- Parameters: class, Training Path, primary, secondary, attachment budget,
+  gadget slots, throwable, availability and confirmation.
+- Evidence: [Battlefield 6 decomposition](../games/a-f/battlefield-6.md).
+- Novelty: not assessed.
+
+## ACT-240 — Select a legal team deployment source and redeploy
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while direct combatant control is unavailable, the player
+  selects one currently legal team source on the deployment interface and
+  commits the configured combatant to enter the live match there.
+- Includes: Battlefield 6 Conquest deployment at headquarters, a held point,
+  eligible squadmate, Deploy Beacon or compatible vehicle seat.
+- Excludes: walking from an existing position; automatic checkpoint respawn;
+  placing the spawn source itself.
+- Parameters: source class, ownership, safety, combat state, seat, timer,
+  loadout and entry position.
+- Evidence: [Battlefield 6 decomposition](../games/a-f/battlefield-6.md).
+- Novelty: not assessed.
+
+## ACT-241 — Drag and revive one eligible downed ally
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player addresses one reachable downed ally, may reposition
+  that body while maintaining the interaction and commits the required revival
+  channel or instant tool before the ally's downed opportunity expires.
+- Includes: Battlefield 6 squad revival by every class, Support team revival,
+  drag-to-cover revival and Defibrillator completion.
+- Excludes: self-healing; ordinary post-death redeployment; carrying an
+  objective item; resurrecting a character after a campaign death.
+- Parameters: ally relation, reach, posture, movement, revive authority,
+  duration, interruption, tool and returned health.
+- Evidence: [Battlefield 6 decomposition](../games/a-f/battlefield-6.md).
+- Novelty: not assessed.
+
+## ACT-242 — Configure a Crest-bound tool loadout at a bench
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while resting at an eligible checkpoint, the player selects one
+  acquired combat Crest and assigns acquired tools only to the coloured slots
+  exposed by that Crest, replacing the previous active attack and tool layout.
+- Includes: Hollow Knight: Silksong Crest selection and red, blue and yellow
+  Tool assignment at a Bench.
+- Excludes: switching the currently active carried item; cosmetic appearance;
+  permanently consuming a tool; changing loadout during ordinary live combat.
+- Parameters: checkpoint, Crest, attack form, coloured slots, tool, replacement,
+  unlocked slot and confirmation.
+- Evidence: [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md).
+- Novelty: not assessed.
+
+## ACT-243 — Call and ride a target-routed field mount
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player calls, mounts or dismounts a persistent field mount
+  and may commit one currently tracked destination for its autonomous travel
+  while retaining manual steering.
+- Includes: calling and riding the Monster Hunter Wilds Seikret toward an
+  assignment target, map marker or tracked monster.
+- Excludes: direct hunter locomotion; a non-interactive fast-travel jump; an
+  autonomous companion with no ride state.
+- Parameters: mount, call range, mount state, selected target, automatic route,
+  manual deviation and dismount.
+- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Novelty: not assessed.
+
+## ACT-244 — Exchange active and mount-carried weapons
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while riding the eligible mount, the player swaps the currently
+  active weapon with exactly one secondary weapon assigned to the mount.
+- Includes: Monster Hunter Wilds Seikret weapon switching.
+- Excludes: selecting any weapon from camp storage; reloading ammunition;
+  changing a cosmetic weapon layer.
+- Parameters: active weapon, secondary weapon, mounted state, compatibility,
+  exchange animation and resulting equipment state.
+- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Novelty: not assessed.
+
+## ACT-245 — Gather or carve one reachable material yield
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player interacts with one reachable eligible field source or
+  defeated body to extract one finite material yield into carried inventory.
+- Includes: gathering a Monster Hunter Wilds plant, ore or bone source and
+  carving a defeated large monster during its eligible window.
+- Excludes: automatic contact pickup; quest rewards delivered without a world
+  interaction; destroying terrain for a drop.
+- Parameters: source, body point, reach, remaining yields, result table,
+  inventory capacity and interaction window.
+- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Novelty: not assessed.
+
+## ACT-246 — Aim and commit a weapon-specific Focus Strike
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: in Focus Mode, the player aligns the current weapon with one
+  highlighted compatible body state and commits that weapon's Focus Strike.
+- Includes: Monster Hunter Wilds Focus Strikes aimed at an open wound or
+  compatible breakable monster part.
+- Excludes: ordinary repeated attacks; passive wound highlighting; a Focus
+  Strike that lacks a legal reachable body state.
+- Parameters: weapon, focus state, body part, wound, reach, aim, attack form and
+  animation commitment.
+- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Novelty: not assessed.
+
+## ACT-247 — Call and directly steer a spectral field mount
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player calls an unlocked personal mount, enters or leaves its
+  saddle and directly steers its ground movement, jumps and mounted attacks.
+- Includes: calling and riding Torrent in scoped Elden Ring Limgrave.
+- Excludes: target-routed Seikret travel; autonomous vehicles; fast travel.
+- Parameters: mount availability, call state, direction, jump, attack and health.
+- Evidence: [Elden Ring decomposition](../games/a-f/elden-ring.md).
+- Novelty: not assessed.
+
+## ACT-248 — Purchase one chosen attribute level with runes
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: at an eligible checkpoint the player selects one character
+  attribute and commits the displayed rune price to raise it by one level.
+- Includes: levelling Vigor, Mind or another attribute at Elden Ring Grace.
+- Excludes: automatic experience levelling; perk purchase; weapon upgrading.
+- Parameters: attribute, current value, character level, price and rune stock.
+- Evidence: [Elden Ring decomposition](../games/a-f/elden-ring.md).
+- Novelty: not assessed.
+
+## ACT-249 — Recover the active dropped-rune mark
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player reaches and touches the currently active death mark to
+  transfer its retained rune stock back to the living character.
+- Includes: reclaiming Elden Ring runes before another death replaces the mark.
+- Excludes: ordinary loot pickup; corpse inventory; Cocoon resource recovery.
+- Parameters: mark position, retained runes, current life and replacement state.
+- Evidence: [Elden Ring decomposition](../games/a-f/elden-ring.md).
+- Novelty: not assessed.
+
+## ACT-250 — Summon one equipped Spirit Ash group
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player spends the declared resource in an eligible monument
+  zone to instantiate one equipped autonomous spirit group.
+- Includes: Elden Ring early Spirit Ash use in eligible field and boss areas.
+- Excludes: online allies; NPC summon signs; directly commanded companions.
+- Parameters: ash, FP or HP cost, monument range, concurrent summon and arena.
+- Evidence: [Elden Ring decomposition](../games/a-f/elden-ring.md).
+- Novelty: not assessed.
+
+## ACT-251 — Assign an Ash of War and affinity to an armament
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: from an eligible menu the player selects a compatible acquired
+  Ash of War and one available affinity for a retained armament.
+- Includes: early Elden Ring Whetstone Knife armament configuration.
+- Excludes: executing the skill; upgrading reinforcement level; equipping magic.
+- Parameters: armament class, ash compatibility, affinity unlock and replacement.
+- Evidence: [Elden Ring decomposition](../games/a-f/elden-ring.md).
+- Novelty: not assessed.
+
+## ACT-252 — Craft one currently offered station recipe
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects one recipe currently exposed by carried or
+  reachable ingredients and nearby crafting stations, then commits one or more
+  immediate copies of its declared output.
+- Includes: Terraria 1.4.5.6 crafting from inventory, an opened or eligible
+  nearby chest and one or more nearby stations.
+- Excludes: arranging ingredients in a spatial grid; queued timed hand-crafting;
+  assigning an autonomous production machine recipe.
+- Parameters: recipe, quantity, eligible inventories, station set, batch input
+  and output cursor or slot.
+- Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Novelty: not assessed.

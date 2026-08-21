@@ -869,13 +869,15 @@
   and may commit no more than a smaller declared subset in one play or discard.
 - Includes: Balatro's ordinary hand-size limit and one-to-five-card play or
   discard selection; Fights in Tight Spaces exposing a bounded current hand
-  and committing one held action card per play.
+  and committing one held action card per play; Slay the Spire exposing a
+  bounded combat hand and committing one held card per ordinary play.
 - Excludes: a one-card temporary buffer; hidden hand contents; an unlimited
   subset selected directly from the draw pile.
 - Parameters: hand capacity, minimum and maximum commit size and effects that
   alter either limit.
-- Evidence: [Balatro decomposition](../games/a-f/balatro.md) and
-  [Fights in Tight Spaces decomposition](../games/a-f/fights-in-tight-spaces.md).
+- Evidence: [Balatro decomposition](../games/a-f/balatro.md),
+  [Fights in Tight Spaces decomposition](../games/a-f/fights-in-tight-spaces.md),
+  and [Slay the Spire decomposition](../games/s-z/slay-the-spire.md).
 - Novelty: not assessed.
 
 ## CON-044 — Finite non-terminal redraw allowance
@@ -962,12 +964,14 @@
   by its assigned vehicles and cannot contain a branch with three independent
   continuations.
 - Includes: open Mini Metro lines and permitted closed loops, with transfers
-  formed by multiple named lines sharing a station.
+  formed by multiple named lines sharing a station; circular Cities: Skylines
+  public-transport lines whose stops form one ordered route.
 - Excludes: arbitrary branching rail graphs within one line; simple paths that
   prohibit shared transfer nodes; pipe-port flow networks.
 - Parameters: loop permission, station revisit rule, maximum stops and route
   geometry rendering.
-- Evidence: [Mini Metro decomposition](../games/m-r/mini-metro.md).
+- Evidence: [Mini Metro decomposition](../games/m-r/mini-metro.md) and
+  [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
 - Novelty: not assessed.
 
 ## CON-049 — Geography-gated crossing consumption
@@ -998,12 +1002,14 @@
   exhausted.
 - Includes: Mini Metro locomotive capacity enlarged by assigned carriages; the
   scoped one-seat Cosmic Express carriage leaving another alien waiting until
-  its current passenger alights.
+  its current passenger alights; bounded bus, metro and train vehicle capacity
+  in Cities: Skylines.
 - Excludes: station crowd capacity; total vehicle inventory; route length.
 - Parameters: base capacity, carriage increment, pickup priority and special
   rolling stock.
-- Evidence: [Mini Metro decomposition](../games/m-r/mini-metro.md) and
-  [Cosmic Express decomposition](../games/a-f/cosmic-express.md).
+- Evidence: [Mini Metro decomposition](../games/m-r/mini-metro.md),
+  [Cosmic Express decomposition](../games/a-f/cosmic-express.md) and
+  [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
 - Novelty: not assessed.
 
 ## CON-051 — Type-coded destination completion
@@ -1223,26 +1229,29 @@
   [Can of Wormholes decomposition](../games/a-f/can-of-wormholes.md).
 - Novelty: not assessed.
 
-## CON-062 — Static machine-footprint placement compatibility
+## CON-062 — Static facility-footprint placement compatibility
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: persistent machine components may be committed only when their
-  declared static footprints and exclusive anchor positions do not overlap an
-  incompatible placed component or fixed port.
+- Definition: persistent machine or facility components may be committed only
+  when their declared static footprints and exclusive anchor positions do not
+  overlap an incompatible placed component, terrain locus or fixed port.
 - Includes: Opus Magnum preventing arm bases, glyphs, tracks and reagent or
   product ports from occupying forbidden shared hexes while allowing declared
   exceptions such as a track beneath an arm base; Infinifactory preventing a
   conveyor or support voxel from overlapping an incompatible component, fixed
-  hatch, output device or immutable environment footprint.
+  hatch, output device or immutable environment footprint; Factorio rejecting
+  a live entity whose footprint overlaps an incompatible entity or terrain;
+  Frostpunk rejecting a building that overlaps occupied crater space.
 - Excludes: collisions caused later by moving arms or molecules; finite board
   capacity; adjacency requirements between placed tiles.
 - Parameters: footprint shapes, orientation, component-pair compatibility and
   allowed overlay exceptions.
-- Evidence: [Opus Magnum decomposition](../games/m-r/opus-magnum.md) and
-  [Infinifactory decomposition](../games/g-l/infinifactory.md).
+- Evidence: [Opus Magnum decomposition](../games/m-r/opus-magnum.md),
+  [Infinifactory decomposition](../games/g-l/infinifactory.md), and
+  [Factorio decomposition](../games/a-f/factorio.md).
 - Novelty: not assessed.
 
 ## CON-063 — Kinematic-conflict execution halt
@@ -1838,13 +1847,15 @@
   common numeric resource pool, and the pool restores by a declared amount at
   the next turn boundary rather than being assigned separately to actors.
 - Includes: Fights in Tight Spaces movement, attack, defence and repositioning
-  cards spending shared Momentum before its next-turn restoration.
+  cards spending shared Momentum before its next-turn restoration; Slay the
+  Spire cards spending shared Energy that ordinarily resets each player turn.
 - Excludes: one move and one ability allocated to each controlled unit; a
   finite non-renewing level move count; a card-use predicate based only on
   combo threshold with no shared payment pool.
 - Parameters: starting value, maximum value, refresh amount, card costs,
   modifiers and permitted carry-over.
-- Evidence: [Fights in Tight Spaces decomposition](../games/a-f/fights-in-tight-spaces.md).
+- Evidence: [Fights in Tight Spaces decomposition](../games/a-f/fights-in-tight-spaces.md)
+  and [Slay the Spire decomposition](../games/s-z/slay-the-spire.md).
 - Novelty: not assessed.
 
 ## CON-095 — Per-character independent movement-and-action allowance
@@ -2656,6 +2667,8 @@
   three matched rings before safe-door opening; Machinarium requiring torso
   exposure before assembly, the doll before leg recovery, both tool parts
   before combination and the prepared rig before arm recovery and exit.
+  Cyberpunk 2077 likewise gates later main jobs, interactions and mechanisms
+  behind persistent prior-job, acquisition and retained-choice state.
 - Excludes: an action blocked only by current spatial collision; one fixed
   item–target type match with no earlier state; a purely presentational sequence
   that can be performed in any mechanical order.
@@ -2666,7 +2679,8 @@
   [The Longest Journey decomposition](../games/s-z/the-longest-journey.md), and
   [Day of the Tentacle decomposition](../games/a-f/day-of-the-tentacle.md), and
   [Stardew Valley decomposition](../games/s-z/stardew-valley.md), and
-  [The Talos Principle decomposition](../games/s-z/the-talos-principle.md).
+  [The Talos Principle decomposition](../games/s-z/the-talos-principle.md), and
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
 - Novelty: not assessed.
 
 ## CON-137 — Held-item configuration-to-fixture compatibility
@@ -3295,4 +3309,3316 @@
 - Parameters: clue channel, encoding, in-world receiver, platform equivalent
   and fallback accessibility channel.
 - Evidence: [OneShot decomposition](../games/m-r/oneshot.md).
+- Novelty: not assessed.
+
+## CON-170 — Zoned development requires access and enabling services
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an authorised urban lot can develop only when its parcel has the
+  required transport access and any utility or density prerequisites for that
+  development stage.
+- Includes: SimCity 4 and Cities: Skylines zones needing road frontage and
+  suitable utilities or city conditions for development and upgrading.
+- Excludes: aesthetic preference alone; a player-placed civic facility; a route
+  that merely improves land value without gating the lot.
+- Parameters: frontage, road access, power, water, density, parcel size and abandonment.
+- Evidence: [SimCity 4 Deluxe Edition decomposition](../games/s-z/simcity-4-deluxe-edition.md)
+  and [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
+- Novelty: not assessed.
+
+## CON-171 — Municipal construction and operation require solvency
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: construction requires sufficient treasury and every retained
+  network or service commits recurring expenditure that must fit the municipal
+  budget or suffer cuts and fiscal penalties.
+- Includes: SimCity 4 and Cities: Skylines construction costs, recurring
+  upkeep, service-budget reductions and borrowing.
+- Excludes: an abstract score cost; private development paid directly by the
+  player; a single consumable move budget.
+- Parameters: treasury, build cost, upkeep, borrowing, deficit threshold and funding floor.
+- Evidence: [SimCity 4 Deluxe Edition decomposition](../games/s-z/simcity-4-deluxe-edition.md)
+  and [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
+- Novelty: not assessed.
+
+## CON-172 — Entity operation requires compatible recipe and flow state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a production or transfer entity performs its declared operation
+  only when its entity class accepts that recipe or item, required inputs are
+  present and the destination can accept the resulting output.
+- Includes: Factorio assembling machines accepting only recipes in their
+  crafting category, inserters refusing incompatible or full destinations and
+  furnaces waiting when ingredients, fuel or output capacity are unavailable.
+- Excludes: insufficient electric satisfaction, which changes operation speed;
+  a finite resource patch beneath an extractor; static footprint placement.
+- Parameters: entity category, recipe, ingredient inventory, item filter,
+  input/output capacity, insertion limit and blocked-result behaviour.
+- Evidence: [Factorio decomposition](../games/a-f/factorio.md).
+- Novelty: not assessed.
+
+## CON-173 — Extractor placement requires compatible resource locus
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a persistent extraction entity may be placed or operate only
+  when its declared coverage intersects a compatible world resource locus and
+  any special extraction prerequisites are satisfied.
+- Includes: Factorio mining drills requiring mineable ore beneath their mining
+  area and pumpjacks requiring an oil well under the attachment point.
+- Excludes: ordinary factory footprint clearance; a hand-mining target within
+  reach; running out of a previously valid finite reserve.
+- Parameters: extractor class, resource type, coverage footprint, attachment
+  point, fluid input, mining hardness and exhausted-locus response.
+- Evidence: [Factorio decomposition](../games/a-f/factorio.md).
+- Novelty: not assessed.
+
+## CON-174 — Card play requires current cost and target compatibility
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a held card may be played only when the shared current resource
+  can pay its effective cost and every required target satisfies that card's
+  current eligibility rule.
+- Includes: Slay the Spire cards requiring enough Energy and, for targeted
+  attacks or skills, a living eligible enemy.
+- Excludes: post-play effect resolution; selecting a card reward; a free-form
+  spatial placement constraint.
+- Parameters: effective cost, X-cost treatment, target count, target class,
+  unplayable status and cost-changing effects.
+- Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md).
+- Novelty: not assessed.
+
+## CON-175 — Persistent health depletion terminates the run
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: health lost in one encounter remains lost at later nodes unless
+  explicitly restored, and reaching the terminal health threshold ends the
+  complete multi-node run.
+- Includes: Slay the Spire damage persisting between floors and zero player HP
+  ending the climb.
+- Excludes: encounter-local health restored automatically after every battle;
+  a recoverable life stock; score loss with no terminal survival threshold.
+- Parameters: maximum health, terminal threshold, healing sources, revival
+  exceptions and act-transition treatment.
+- Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md).
+- Novelty: not assessed.
+
+## CON-176 — Successor node must follow a visible route edge
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: ordinary progression may select only a node joined by a visible
+  outgoing edge from the current route position; unconnected nodes on the next
+  floor are inaccessible.
+- Includes: Slay the Spire map traversal between connected successive floors.
+- Excludes: drawing the route; unrestricted fast travel; choosing among
+  outcomes within the current node.
+- Parameters: edge direction, floor monotonicity, starting-node choice,
+  exceptional route-changing modifiers and act boundary.
+- Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md).
+- Novelty: not assessed.
+
+## CON-177 — Bounded carried-consumable slot capacity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: persistent consumable items occupy a fixed number of carried
+  slots, so acquiring another item requires a free slot or explicit disposal.
+- Includes: Slay the Spire potion slots in an ordinary Ascension 0 run.
+- Excludes: an unlimited general inventory; a bounded card hand replenished
+  every turn; persistent passive relics with no shared slot cap.
+- Parameters: slot count, empty-slot rule, replacement, disposal timing and
+  modifiers.
+- Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md).
+- Novelty: not assessed.
+
+## CON-178 — Persistent deck membership defines combat draw supply
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: every ordinary combat begins from the current persistent run
+  deck, and additions, removals, transformations and upgrades made between
+  encounters change the card identities or versions that can be drawn later.
+- Includes: Slay the Spire rebuilding the combat draw pile from the current
+  deck at encounter start.
+- Excludes: a fixed deck restored after every node; temporary generated cards
+  that vanish after combat; drawing from a global collection without first
+  adding cards to the run deck.
+- Parameters: starting deck, persistent mutations, combat-only additions,
+  curses, bottled cards and encounter setup effects.
+- Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md).
+- Novelty: not assessed.
+
+## CON-179 — Municipal tools and land purchases require population milestone
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a declared service, zone, policy, finance option or additional
+  map-area purchase cannot be used until the current city has reached its
+  associated population milestone.
+- Includes: Cities: Skylines withholding higher-tier city services, dense
+  zones, loans, policies and new area purchases before their milestones.
+- Excludes: insufficient treasury after a tool is unlocked; a technology that
+  must consume research resources; an authored scenario flag unrelated to
+  city population.
+- Parameters: threshold schedule, affected catalogue entries, area-purchase
+  count, treasury cost after unlock and permanence after population decline.
+- Evidence: [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
+- Novelty: not assessed.
+
+## CON-180 — Creature-card play requires open lane and declared cost payment
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a held creature may enter combat only if the selected friendly
+  lane is unoccupied and the card's complete current free, Blood or Bone cost
+  has been legally satisfied before placement resolves.
+- Includes: Act I Inscryption rejecting a Beast card when all four friendly
+  lanes are occupied, too few eligible sacrifices exist or the Bone pool is
+  below its printed cost.
+- Excludes: a target predicate for an immediate effect card; card draw; a
+  spatial overworld placement category.
+- Parameters: lane capacity, occupancy, cost class, effective amount, free-card
+  rule, discounts and rejection feedback.
+- Evidence: [Inscryption decomposition](../games/g-l/inscryption.md).
+- Novelty: not assessed.
+
+## CON-181 — Blood payment requires sufficient eligible sacrifice value
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a pending Blood-cost card cannot be placed until the player has
+  committed eligible controlled creatures whose declared sacrifice values meet
+  or exceed every printed Blood pip.
+- Includes: ordinary Act I Inscryption creatures contributing one Blood when
+  sacrificed and Worthy Sacrifice contributing its declared greater value.
+- Excludes: Bone costs paid from an accumulated pool; hostile kills; a map
+  event that permanently removes a deck card for an upgrade.
+- Parameters: required pips, eligible board cards, value modifiers,
+  non-sacrificable cards, survival Sigils and overpayment.
+- Evidence: [Inscryption decomposition](../games/g-l/inscryption.md).
+- Novelty: not assessed.
+
+## CON-182 — Fixed paired combat lanes constrain occupancy and attack relation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: each side has one bounded row of mutually exclusive active card
+  positions paired by index, and ordinary attacks interact only with the card
+  or open scale path in the corresponding opposing lane.
+- Includes: the four player and four Leshy active lanes in Act I Inscryption.
+- Excludes: unrestricted target selection; multiple cards stacked in one active
+  position; adjacency on a free-movement tactical grid.
+- Parameters: lane count, paired index, occupancy, queued back row, movement
+  Sigils, airborne bypass and multi-lane attacks.
+- Evidence: [Inscryption decomposition](../games/g-l/inscryption.md).
+- Novelty: not assessed.
+
+## CON-183 — Finite recoverable life stock gates complete run failure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: losing an encounter consumes one member of a visible finite life
+  stock and permits continuation while any remain; losing with none remaining
+  terminates and resets the complete run, while declared milestones may refill
+  the stock.
+- Includes: Act I Inscryption's two candles, ordinary battle loss extinguishing
+  one candle, a later loss ending the run and boss progression relighting them.
+- Excludes: one persistent health total; an immediate one-error puzzle failure;
+  unlimited encounter retries with no run consequence.
+- Parameters: starting lives, loss predicate, refill events, boss exceptions,
+  tutorial gates and terminal transition.
+- Evidence: [Inscryption decomposition](../games/g-l/inscryption.md).
+- Novelty: not assessed.
+
+## CON-184 — Settlement building requires an owned design and construction materials
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an ordinary settlement building can be committed and completed
+  only when its design is currently owned and every declared construction
+  material cost is paid or delivered under that settlement's build process.
+- Includes: Against the Storm buildings requiring an acquired blueprint and
+  delivered goods, and Frostpunk buildings unlocked by base rules, research or
+  law with wood, steel or Steam Core costs.
+- Excludes: universally available roads and camps; a machine requiring only
+  footprint compatibility; temporary preview ghosts with no material cost.
+- Parameters: blueprint source, material list, delivery, construction labour,
+  refund and universal-building exceptions.
+- Evidence: [Against the Storm decomposition](../games/a-f/against-the-storm.md).
+- Novelty: not assessed.
+
+## CON-185 — Finite reassignable population and staffed job slots
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: autonomous work requires assigning members of a finite population
+  to bounded compatible job slots, and one worker cannot staff two jobs at once.
+- Includes: assigning Against the Storm villagers to camps, production buildings
+  and Glade Events.
+- Excludes: machines operating without workers; cosmetic residents; direct
+  control of one avatar.
+- Parameters: species, worker count, job slots, proficiency, reassignment delay
+  and housing or service capacity.
+- Evidence: [Against the Storm decomposition](../games/a-f/against-the-storm.md).
+- Novelty: not assessed.
+
+## CON-186 — Queen's Impatience threshold terminates settlement
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: if the visible failure track reaches its maximum before the
+  settlement success track is filled, the current settlement ends in failure.
+- Includes: maximum Queen's Impatience ending an Against the Storm settlement.
+- Excludes: population reaching zero through departures; abandoning manually;
+  losing one timed Glade Event.
+- Parameters: maximum, passive growth, event penalties, success reductions and
+  difficulty.
+- Evidence: [Against the Storm decomposition](../games/a-f/against-the-storm.md).
+- Novelty: not assessed.
+
+## CON-187 — Timed event deadline activates declared threat
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after a hazardous event becomes active, its visible countdown
+  continues unless paused by the global time controls, and reaching zero before
+  resolution applies the listed adverse effect.
+- Includes: unresolved dangerous or forbidden Glade Events in Against the Storm.
+- Excludes: a hidden random penalty; a production quota with no failure effect;
+  a global run-loss timer.
+- Parameters: duration, pause, repeatability, threat effect and removal condition.
+- Evidence: [Against the Storm decomposition](../games/a-f/against-the-storm.md).
+- Novelty: not assessed.
+
+## CON-188 — Bounded offer permits one persistent exclusive choice
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a declared offer remains unresolved until the player selects the
+  permitted number of options, after which unselected alternatives are removed
+  and the chosen result persists for its stated scope.
+- Includes: one blueprint or cornerstone selected from an Against the Storm
+  offer, subject to rerolls; one Grand Theft Auto V terminal Story Mode option;
+  one Cyberpunk 2077 terminal alliance and final contract response.
+- Excludes: buying several affordable shop items; reversible settings; viewing
+  options without committing any.
+- Parameters: offer size, selections, rerolls, deferral, duration and duplicate
+  rules.
+- Evidence: [Against the Storm decomposition](../games/a-f/against-the-storm.md)
+  [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md), and
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Novelty: not assessed.
+
+## CON-189 — Event resolution requires compatible goods and staffed work duration
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a selected event resolution cannot complete until its declared
+  goods are supplied and assigned workers perform the required uninterrupted or
+  cumulatively tracked work.
+- Includes: solving an Against the Storm Glade Event with workers and goods.
+- Excludes: paying an instantaneous shop price; recipe production without an
+  event deadline; a task completed solely by reaching a score.
+- Parameters: goods, alternatives, worker slots, duration, interruption and
+  consumption timing.
+- Evidence: [Against the Storm decomposition](../games/a-f/against-the-storm.md).
+- Novelty: not assessed.
+
+## CON-190 — Embark destination must be revealed and within foothold range
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a new bounded run may begin only on a revealed persistent-map tile
+  whose distance is inside the embarkation range of a currently valid origin.
+- Includes: Against the Storm embarkation from the Smoldering City or a completed
+  settlement during one world-map cycle.
+- Excludes: unrestricted fast travel; movement inside the run; hidden route
+  selection that reveals the destination only after commitment.
+- Parameters: origin, range, tile visibility, occupation, cycle and modifiers.
+- Evidence: [Against the Storm decomposition](../games/a-f/against-the-storm.md).
+- Novelty: not assessed.
+
+## CON-191 — Metaprogression upgrade requires resources and predecessor level
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a persistent upgrade cannot be bought until every listed resource
+  cost is affordable and the preceding level or branch prerequisite is owned.
+- Includes: Citadel upgrade levels in Against the Storm.
+- Excludes: level-gated content that unlocks automatically; run-local trader
+  purchases; a technology queue supplied over live time.
+- Parameters: currencies, cost, predecessor, branch, level cap and refund.
+- Evidence: [Against the Storm decomposition](../games/a-f/against-the-storm.md).
+- Novelty: not assessed.
+
+## CON-192 — Errand requires permission, skill and reachable work cell
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an agent may claim a colony errand only if permissions and learned
+  skills allow it and a valid path reaches its interaction cell.
+- Includes: Oxygen Not Included work blocked by traits, skills, door access or reachability.
+- Excludes: relative priority after eligibility; missing recipe inputs; a directly controlled route.
+- Parameters: agent, task, permission, skill, path, interaction cell, door and suit.
+- Evidence: [Oxygen Not Included decomposition](../games/m-r/oxygen-not-included.md).
+- Novelty: not assessed.
+
+## CON-193 — Construction requires compatible cells and delivered material
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a construction plan completes only when its footprint, support
+  and orientation remain compatible and the selected material has been delivered.
+- Includes: Oxygen Not Included buildings, tiles, pipes, wires and rocket modules.
+- Excludes: instant inventory placement; operating recipe inputs; visual-only plans.
+- Parameters: footprint, support, rotation, material, mass, delivery, skill and construction time.
+- Evidence: [Oxygen Not Included decomposition](../games/m-r/oxygen-not-included.md).
+- Novelty: not assessed.
+
+## CON-194 — Conduit and circuit obey capacity and material state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a utility segment transfers only compatible payload within packet
+  or wattage limits; overload, blockage or phase change can damage or halt it.
+- Includes: Oxygen Not Included pipe packet capacity, bridge direction, wire overload and phase damage.
+- Excludes: open-cell fluid movement; recipe storage; unbounded abstract connections.
+- Parameters: network, direction, packet, state, wattage, rating, overload and damage.
+- Evidence: [Oxygen Not Included decomposition](../games/m-r/oxygen-not-included.md).
+- Novelty: not assessed.
+
+## CON-195 — Agent survival requires breathable, fed and thermally viable state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a colony agent remains operational only while oxygen, calories,
+  body temperature and health stay above failure thresholds.
+- Includes: Oxygen Not Included suffocation, starvation, temperature injury and death.
+- Excludes: recoverable stress responses; a colony-wide scripted timer; suit eligibility.
+- Parameters: breath, pressure, calories, temperature, health, incapacitation, rescue and death.
+- Evidence: [Oxygen Not Included decomposition](../games/m-r/oxygen-not-included.md).
+- Novelty: not assessed.
+
+## CON-196 — Trained skills raise individual morale expectation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: every learned skill contributes expectation cost, so training an
+  agent without enough morale creates persistent stress pressure.
+- Includes: Oxygen Not Included skill tiers and interest-adjusted morale requirements.
+- Excludes: research cost; ordinary experience; global difficulty.
+- Parameters: skill, tier, interest, expectation increase, morale and stress rate.
+- Evidence: [Oxygen Not Included decomposition](../games/m-r/oxygen-not-included.md).
+- Novelty: not assessed.
+
+## CON-197 — Building operation requires compatible environment and flows
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a colony building operates only while declared worker, material,
+  power, conduit, temperature and output conditions are satisfied.
+- Includes: Oxygen Not Included pumps, generators, stations, production and life-support buildings.
+- Excludes: construction; personal survival; network-wide capacity damage.
+- Parameters: worker, input, output, power, port, temperature, flooding, storage and automation.
+- Evidence: [Oxygen Not Included decomposition](../games/m-r/oxygen-not-included.md).
+- Novelty: not assessed.
+
+## CON-198 — Embark package shares one finite preparation budget
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: starting skills, items, animals and supplies all spend from one
+  fixed preparation allowance before the site begins.
+- Includes: Dwarf Fortress seven-dwarf embark preparation points.
+- Excludes: free difficulty presets; later caravan purchases; fixed loadouts.
+- Parameters: total points, skill costs, item costs, quantities and remainder.
+- Evidence: [Dwarf Fortress decomposition](../games/a-f/dwarf-fortress.md).
+- Novelty: not assessed.
+
+## CON-199 — Fortress job claim requires labour, path, tool and material
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an autonomous job remains unavailable unless an eligible worker
+  can reach its interaction point and every required tool, workshop and
+  material is compatible and obtainable.
+- Includes: Dwarf Fortress mining, hauling, construction and workshop jobs.
+- Excludes: direct unit commands; machine recipes that need no worker.
+- Parameters: labour, work detail, worker, path, tool, workshop, material and access.
+- Evidence: [Dwarf Fortress decomposition](../games/a-f/dwarf-fortress.md).
+- Novelty: not assessed.
+
+## CON-200 — Stockpile filter, capacity and links constrain hauling
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an item may enter storage only if its category is accepted,
+  usable capacity remains and any declared source or destination link permits it.
+- Includes: Dwarf Fortress stockpile customisation, bins, barrels and links.
+- Excludes: workshop recipe compatibility; unrestricted floor dumping.
+- Parameters: category, material, quality, container, tile capacity and links.
+- Evidence: [Dwarf Fortress decomposition](../games/a-f/dwarf-fortress.md).
+- Novelty: not assessed.
+
+## CON-201 — Fortress institutions require declared office, room and status
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: administrative actions and noble progression remain unavailable
+  or penalised until a qualified officeholder, required room value and
+  settlement threshold are satisfied.
+- Includes: Dwarf Fortress manager validation, broker trading, noble quarters,
+  mandates and monarch eligibility.
+- Excludes: ordinary labour eligibility; cosmetic room labels.
+- Parameters: office, appointee, population, wealth, room type, room value,
+  mandate, deadline and penalty.
+- Evidence: [Dwarf Fortress decomposition](../games/a-f/dwarf-fortress.md).
+- Novelty: not assessed.
+
+## CON-202 — Allowed area and policy bound autonomous interaction
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an autonomous resident may perform ordinary work or consumption
+  only where its allowed area and current personal policy permit the target.
+- Includes: RimWorld allowed areas, forbidden items and food, drug, apparel or medicine policies.
+- Excludes: drafted emergency action; pathfinding geometry itself; work priority.
+- Parameters: area, resident, target, forbidden state, policy filter and exception.
+- Evidence: [RimWorld decomposition](../games/m-r/rimworld.md).
+- Novelty: not assessed.
+
+## CON-203 — Mental break suspends ordinary player control
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: once mood remains below a resident-specific break threshold and a
+  break fires, ordinary work, area and direct orders are unavailable until recovery or interruption.
+- Includes: RimWorld minor, major and extreme mental breaks.
+- Excludes: voluntary idling; combat stun; low morale that leaves control intact.
+- Parameters: mood, threshold, severity, break type, duration and interruption.
+- Evidence: [RimWorld decomposition](../games/m-r/rimworld.md).
+- Novelty: not assessed.
+
+## CON-204 — Caravan load and route require viable travelling group
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a world caravan must include a capable colonist and keep carried
+  mass, food, movement and route conditions viable for formation and travel.
+- Includes: RimWorld caravan membership, carrying capacity, supplies and terrain speed.
+- Excludes: local stockpile hauling; an arriving non-player trader.
+- Parameters: colonist, mass, nutrition, animals, terrain, weather and destination.
+- Evidence: [RimWorld decomposition](../games/m-r/rimworld.md).
+- Novelty: not assessed.
+
+## CON-205 — Ship launch requires connected parts and completed reactor startup
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: launch remains unavailable until required connected ship parts
+  exist, the reactor survives its startup interval and at least one casket is occupied.
+- Includes: the RimWorld base-game constructed-ship ending.
+- Excludes: reaching the prebuilt journey-offer ship; DLC endings; reactor activation alone.
+- Parameters: parts, connectivity, caskets, occupants, startup duration and reactor survival.
+- Evidence: [RimWorld decomposition](../games/m-r/rimworld.md).
+- Novelty: not assessed.
+
+## CON-206 — Terrain breaking requires a reachable mutable target and eligible tool
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a terrain-cell break succeeds only when the targeted block, wall
+  or placed object is reachable and mutable and the held hand or tool satisfies
+  its harvest rule.
+- Includes: Minecraft Survival reach- and tool-dependent mining; Terraria tool
+  range, pickaxe power, axe class and hammer-dependent wall removal.
+- Excludes: unrestricted Creative-mode edits; a factory footprint check; a
+  grid-puzzle placement with no embodied reach.
+- Parameters: projection, layer, reach, line of sight, hardness, tool class,
+  tool tier and protection rule.
+- Evidence: [Minecraft decomposition](../games/m-r/minecraft.md) and
+  [Terraria decomposition](../games/s-z/terraria.md).
+- Novelty: not assessed.
+
+## CON-207 — Crafting result requires exact spatial ingredient arrangement
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a crafting result is available only when a supported grid exposes
+  the recipe's exact item identities, required quantities and required cell
+  arrangement; missing, substituted or wrongly placed ingredients reject it.
+- Includes: Minecraft 2×2 and crafting-table 3×3 recipes.
+- Excludes: a queued recipe using ingredients from one inventory; a generic
+  combination of two held objects; freeform machine configuration.
+- Parameters: grid size, cell pattern, item identity, stack count, recipe-book
+  state, result and remainder.
+- Evidence: [Minecraft decomposition](../games/m-r/minecraft.md).
+- Novelty: not assessed.
+
+## CON-208 — Tile placement requires reachable compatible space and support
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: tile placement is legal only when the addressed cell or footprint
+  is within reach, accepts the held tile state, has any required support and is
+  not occupied by incompatible world or entity geometry.
+- Includes: Minecraft Survival adjacent block placement; Terraria block, wall,
+  torch and support-dependent furniture placement.
+- Excludes: tool-dependent breaking; unrestricted Creative edits; factory footprints.
+- Parameters: projection, layer, reach, anchor, footprint, occupancy, collision,
+  tile state and support.
+- Evidence: [Minecraft decomposition](../games/m-r/minecraft.md) and
+  [Terraria decomposition](../games/s-z/terraria.md).
+- Novelty: not assessed.
+
+## CON-209 — Portal activation requires its complete typed frame condition
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a dimension portal activates only when its frame has the required
+  type, geometry and completion input for that portal class.
+- Includes: Minecraft Nether obsidian-frame ignition and twelve filled End
+  portal frame slots, including any Eyes generated already inserted.
+- Excludes: entering an active portal; a decorative incomplete frame.
+- Parameters: portal class, frame blocks, geometry, filled slots and activator.
+- Evidence: [Minecraft decomposition](../games/m-r/minecraft.md).
+- Novelty: not assessed.
+
+## CON-210 — Inventory transfer is bounded by typed stack and slot capacity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: pickup or transfer accepts only item quantities that fit a
+  compatible partial stack or free carried slot, leaving any excess outside.
+- Includes: Minecraft Survival inventory pickup and carried stack limits.
+- Excludes: an unlimited abstract resource counter; one container's fixed unit cells.
+- Parameters: item type, stack limit, partial stack, free slot and remainder.
+- Evidence: [Minecraft decomposition](../games/m-r/minecraft.md) and
+  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Novelty: not assessed.
+
+## CON-211 — City facility operation requires a street connection to the generator
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a placed city facility can perform its ordinary powered function
+  only while an adjacent street connects it through the street network to the
+  central generator.
+- Includes: Frostpunk workplaces, homes and services requiring street-carried
+  heat and power connectivity.
+- Excludes: footprint placement; carried-goods transport; heat-zone radius.
+- Parameters: facility, adjacent segment, generator root, network continuity
+  and disconnected response.
+- Evidence: [Frostpunk decomposition](../games/a-f/frostpunk.md).
+- Novelty: not assessed.
+
+## CON-212 — Law signing requires cooldown, prerequisite and open branch
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a civic law may be signed only after predecessor conditions are
+  satisfied, the signing cooldown has elapsed and no exclusive alternative has
+  already closed its branch.
+- Includes: Frostpunk Adaptation prerequisites, alternative pairs and exclusive
+  Order-versus-Faith Purpose paths.
+- Excludes: technology research cost; a temporary event choice; repealing a law.
+- Parameters: predecessor, cooldown, branch, exclusive alternative, scenario
+  availability and signed state.
+- Evidence: [Frostpunk decomposition](../games/a-f/frostpunk.md).
+- Novelty: not assessed.
+
+## CON-213 — Critical generator stress permits only its remaining emergency outcome
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: at critical generator stress the run can continue only through a
+  currently available declared emergency sacrifice; otherwise the generator
+  explodes and the city is lost.
+- Includes: Frostpunk's first Steam Core or child repair response and later
+  unrecoverable Overdrive explosion.
+- Excludes: ordinary coal exhaustion; The Fall of Winterhome's faulty generator.
+- Parameters: threshold, rescue count, Steam Core, eligible child, consequence and explosion.
+- Evidence: [Frostpunk decomposition](../games/a-f/frostpunk.md).
+- Novelty: not assessed.
+
+## CON-214 — Unresolved Hope or Discontent crisis terminates captaincy
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after Hope approaches zero or Discontent approaches maximum and
+  starts its final warning, failure to restore the required track within the
+  declared grace period ends the scenario through deposition or banishment.
+- Includes: Frostpunk's two-day low-Hope and high-Discontent final warnings.
+- Excludes: one unpopular law; population death without a civic crisis.
+- Parameters: track, trigger, recovery target, grace period, suppression option
+  and terminal consequence.
+- Evidence: [Frostpunk decomposition](../games/a-f/frostpunk.md).
+- Novelty: not assessed.
+
+## CON-215 — Medical operation requires adequate heat, staff and compatible capacity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: treatment proceeds only while the facility remains warm enough,
+  staffed by eligible workers and has an open bed whose rules accept the
+  patient's illness stage.
+- Includes: Frostpunk Medical Posts, Infirmaries and law-dependent grave care.
+- Excludes: sickness creation; ordinary production; unlimited abstract healing.
+- Parameters: heat threshold, staff type, efficiency, bed count, illness stage,
+  law and interruption.
+- Evidence: [Frostpunk decomposition](../games/a-f/frostpunk.md).
+- Novelty: not assessed.
+
+## CON-216 — Scout formation and travel require Beacon capacity and available people
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a scout team can be formed and sent only when a functioning
+  Beacon exposes free team capacity, the required available population is
+  committed and the destination is currently revealed and reachable.
+- Includes: A New Home five-worker scout teams and known Frostland nodes.
+- Excludes: arriving refugees; city worker assignment; world-map teleportation.
+- Parameters: Beacon, team cap, population cost, team state, destination
+  visibility and route availability.
+- Evidence: [Frostpunk decomposition](../games/a-f/frostpunk.md).
+- Novelty: not assessed.
+
+## CON-217 — Spherical factory placement must fit the current grid band
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a planetary entity or copied layout is legal only when its
+  complete footprint maps to compatible unoccupied cells in the current curved
+  grid band and satisfies any terrain or latitude-specific requirement.
+- Includes: Dyson Sphere Program buildings and blueprints constrained by
+  spherical latitude bands, grid warping and foundation state.
+- Excludes: extractor-to-resource compatibility; orbital sphere-plan geometry;
+  collision-free placement on a uniform flat grid.
+- Parameters: planet, latitude band, footprint, orientation, cell alignment,
+  terrain, foundation, collision and blueprint span.
+- Evidence: [Dyson Sphere Program decomposition](../games/a-f/dyson-sphere-program.md).
+- Novelty: not assessed.
+
+## CON-218 — Mecha warp requires unlocked drive, energy and a Space Warper
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the directly controlled mecha may enter warp only after the
+  required drive technology is unlocked, sufficient core energy is available
+  and one carried Space Warper can be consumed.
+- Includes: Dyson Sphere Program Icarus Drive Engine level four warp activation.
+- Excludes: ordinary interplanetary sailing; a logistics vessel's station
+  dispatch gate; faster ground movement.
+- Parameters: drive level, core energy, warper inventory, activation command
+  and insufficient-input feedback.
+- Evidence: [Dyson Sphere Program decomposition](../games/a-f/dyson-sphere-program.md).
+- Novelty: not assessed.
+
+## CON-219 — Logistics dispatch requires a matched slot and eligible carrier
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a station trip starts only when compatible supply and demand
+  slots exist, an appropriate carrier and minimum cargo are available, the
+  origin can pay its launch energy and the route satisfies range and warper rules.
+- Includes: Dyson Sphere Program planetary drones and interplanetary or
+  interstellar logistics vessels.
+- Excludes: belt movement between adjacent entities; manually withdrawing one
+  stack; choosing the station's slot mode.
+- Parameters: item, local or remote slot, carrier type, load threshold, station
+  charge, route range, warp distance and warper policy.
+- Evidence: [Dyson Sphere Program decomposition](../games/a-f/dyson-sphere-program.md).
+- Novelty: not assessed.
+
+## CON-220 — Solar-sail launch requires a valid orbit and firing window
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an EM-Rail Ejector launches a supplied solar sail only while a
+  configured swarm orbit exists and the ejector's current planetary pose gives
+  a legal firing angle to that orbit.
+- Includes: Dyson Sphere Program ejectors waiting for target-orbit pitch.
+- Excludes: rocket launch toward planned sphere nodes; receiver visibility;
+  manually editing the swarm orbit.
+- Parameters: orbit, ejector latitude and heading, planet rotation, pitch,
+  valid window, sail supply and power.
+- Evidence: [Dyson Sphere Program decomposition](../games/a-f/dyson-sphere-program.md).
+- Novelty: not assessed.
+
+## CON-221 — Carrier-rocket launch requires unfinished planned structure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a supplied Vertical Launching Silo launches a Small Carrier Rocket
+  only while its selected star has an accessible planned node or frame that
+  still requires structural points.
+- Includes: Dyson Sphere Program rockets fulfilling an edited Dyson Sphere plan.
+- Excludes: launching free-orbit solar sails; producing the rocket in an
+  assembler; drawing a new node.
+- Parameters: star, layer, plan element, remaining points, silo power, rocket
+  supply and target assignment.
+- Evidence: [Dyson Sphere Program decomposition](../games/a-f/dyson-sphere-program.md).
+- Novelty: not assessed.
+
+## CON-222 — Ray-receiver mode requires continuous access and its unlock
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a Ray Receiver produces only while it has line-of-sight or an
+  allowed lens-assisted continuous-receiving state to available swarm or sphere
+  output; Critical Photon mode additionally requires its technology unlock.
+- Includes: Dyson Sphere Program receiver power and photon-production gates.
+- Excludes: connected power-grid satisfaction after generation; solar-sail
+  launch visibility; antimatter conversion from stored photons.
+- Parameters: receiver pose, line-of-sight, lens, atmosphere, continuous
+  receiving, available output, mode and technology.
+- Evidence: [Dyson Sphere Program decomposition](../games/a-f/dyson-sphere-program.md).
+- Novelty: not assessed.
+
+## CON-223 — Agricultural production requires island fertility
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a farm can grow a crop only on an island whose declared fertility
+  includes that crop, unless a separately scoped modifier changes the rule.
+- Includes: Anno 1800 Old and New World crop fertilities.
+- Excludes: mines requiring a spatial mineral deposit; insufficient workforce;
+  an input good delivered from another island.
+- Parameters: island, crop, fertility set, farm, field and modifier.
+- Evidence: [Anno 1800 decomposition](../games/a-f/anno-1800.md).
+- Novelty: not assessed.
+
+## CON-224 — Residence upgrade requires needs, occupancy and materials
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a residence may advance to the next population tier only when
+  its required basic needs are fulfilled, its occupancy threshold is met and
+  the declared construction materials can be paid.
+- Includes: Anno 1800 Farmer-to-Worker through Engineer-to-Investor upgrades.
+- Excludes: residents moving into the current tier; population milestone
+  unlocks; upgrading a production building.
+- Parameters: source tier, basic needs, occupancy, destination tier, materials
+  and upgrade availability.
+- Evidence: [Anno 1800 decomposition](../games/a-f/anno-1800.md).
+- Novelty: not assessed.
+
+## CON-225 — Strategic investment requires available influence
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an influence-bearing island claim, ship, defence, propaganda item
+  or other strategic asset cannot be committed when its category cost exceeds
+  currently unallocated influence.
+- Includes: Anno 1800 expansion, military fleet and newspaper influence gates.
+- Excludes: treasury or construction-material costs; workforce shortage;
+  reputation with an AI competitor.
+- Parameters: asset, category, influence cost, available pool, refund and
+  temporary commitment.
+- Evidence: [Anno 1800 decomposition](../games/a-f/anno-1800.md).
+- Novelty: not assessed.
+
+## CON-226 — Trade-route orders require compatible cargo capacity and stock
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a scheduled port instruction transfers only its selected good,
+  cannot exceed the assigned ship slot's capacity or island storage, and loading
+  cannot reduce stock below an enabled minimum reserve.
+- Includes: Anno 1800 slot-specific load and unload orders.
+- Excludes: local cart flow; manual transfer without a schedule; influence cost.
+- Parameters: good, slot, capacity, requested quantity, island stock, storage
+  space, minimum stock and partial transfer.
+- Evidence: [Anno 1800 decomposition](../games/a-f/anno-1800.md).
+- Novelty: not assessed.
+
+## CON-227 — Expedition departure and continuation require finite ship support
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an expedition must use an eligible assigned ship whose finite
+  cargo slots hold the supplies or specialists available to meet events, and
+  reaching zero morale forces the voyage to fail or return.
+- Includes: Anno 1800's New World discovery expedition.
+- Excludes: trade-route cargo orders; direct naval combat; an unlimited skill pool.
+- Parameters: ship eligibility, slots, rations, skill, morale, event loss and return.
+- Evidence: [Anno 1800 decomposition](../games/a-f/anno-1800.md).
+- Novelty: not assessed.
+
+## CON-228 — World’s Fair phases require population, inputs and utilities
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the World’s Fair construction and exhibition progression cannot
+  advance until the relevant Investor threshold, phase materials, workforce,
+  electricity or timed exhibition supplies are present.
+- Includes: Anno 1800's five-stage monument construction and exhibition preparation.
+- Excludes: ordinary residence upgrade; a cosmetic festival; DLC monuments.
+- Parameters: investors, phase, materials, workforce, electricity, preparation
+  window, supplied good and reward threshold.
+- Evidence: [Anno 1800 decomposition](../games/a-f/anno-1800.md).
+- Novelty: not assessed.
+
+## CON-229 — Water infrastructure obeys terrain and fluid geometry
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a barrier, outlet or extractor operates only where terrain
+  support, orientation, depth, intake and opening geometry are compatible.
+- Includes: Timberborn dams, levees, floodgates, pumps and valves.
+- Excludes: ordinary dry-land footprints; pipe throughput alone.
+- Parameters: elevation, support, depth, opening, pressure and direction.
+- Evidence: [Timberborn decomposition](../games/s-z/timberborn.md).
+- Novelty: not assessed.
+
+## CON-230 — Plant viability requires compatible local water state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a plant grows only on compatible soil or water while irrigation
+  or depth is in range and contamination stays below its survival limit.
+- Includes: Timberborn terrestrial and aquatic crops and trees.
+- Excludes: fixed island fertility; cosmetic vegetation.
+- Parameters: plant, soil, irrigation, depth, contamination and viability.
+- Evidence: [Timberborn decomposition](../games/s-z/timberborn.md).
+- Novelty: not assessed.
+
+## CON-231 — Folktail reproduction is bounded by available housing
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: natural population growth proceeds only while eligible adults
+  and unused lodge capacity exist, with maturation and death resolved over time.
+- Includes: controlling Timberborn Folktails by building or pausing lodges.
+- Excludes: instant residents; Iron Teeth breeding pods; abstract occupancy.
+- Parameters: adults, children, beds, free capacity and life-cycle delay.
+- Evidence: [Timberborn decomposition](../games/s-z/timberborn.md).
+- Novelty: not assessed.
+
+## CON-232 — Powered operation requires connected supply and capacity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a mechanical consumer operates only while an enabled shaft path
+  connects enough current generation or stored discharge for its demand.
+- Includes: Timberborn powered workplaces, clutches and Gravity Batteries.
+- Excludes: road-range electricity; isolated burner fuel.
+- Parameters: connection, clutch, generation, discharge, demand and satisfaction.
+- Evidence: [Timberborn decomposition](../games/s-z/timberborn.md).
+- Novelty: not assessed.
+
+## CON-233 — Automation requires a compatible signal path and predicate
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a target follows automation only when source and target are
+  compatible, the signal graph connects them and configured logic is valid.
+- Includes: Timberborn sensors and logic controlling water infrastructure.
+- Excludes: manual toggles; decorative links; recipe input gates.
+- Parameters: source, target, connection, threshold, logic and fallback.
+- Evidence: [Timberborn decomposition](../games/s-z/timberborn.md).
+- Novelty: not assessed.
+
+## CON-234 — Construction unlock requires its Science Point price
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a locked construction cannot be planned until prerequisites hold
+  and the settlement pays its declared Science Point price once.
+- Includes: Timberborn catalogue and Earth Recultivator unlocks.
+- Excludes: build materials after unlock; population milestones; queued research.
+- Parameters: construction, prerequisite, price, balance and unlocked state.
+- Evidence: [Timberborn decomposition](../games/s-z/timberborn.md).
+- Novelty: not assessed.
+
+## CON-235 — Earth Recultivator requires exact build and launch supplies
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the Folktails wonder requires 20,000 science, then 2,000 gears,
+  2,000 treated planks and 1,500 metal blocks, then 500 Extract and 500 Paper.
+- Includes: Timberborn Earth Recultivator first activation.
+- Excludes: ordinary buildings; Iron Teeth's wonder; later launches.
+- Parameters: science, build goods, launch goods, progress and eligibility.
+- Evidence: [Timberborn decomposition](../games/s-z/timberborn.md).
+- Novelty: not assessed.
+
+## CON-236 — Real construction requires phase-specific deliveries and work
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a planned structure or network completes only after each active
+  phase receives its compatible materials, mechanisms and required workdays.
+- Includes: Workers & Resources groundworks and construction phases.
+- Excludes: instant ruble/dollar construction or agent-carried single material.
+- Parameters: phase, materials, mechanism, workers, workdays and access.
+- Evidence: [Workers & Resources: Soviet Republic decomposition](../games/s-z/workers-resources-soviet-republic.md).
+- Novelty: not assessed.
+
+## CON-237 — Vehicle service requires compatible network and facilities
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a vehicle can serve a route only when its mode, connected path,
+  station, cargo capability, fuel and destination are compatible.
+- Includes: Workers & Resources road, rail, ship and aircraft transport.
+- Excludes: citizen walking or abstract teleporting trade.
+- Parameters: mode, path, station, cargo, fuel, depot and reachability.
+- Evidence: [Workers & Resources: Soviet Republic decomposition](../games/s-z/workers-resources-soviet-republic.md).
+- Novelty: not assessed.
+
+## CON-238 — Citizen activity requires reachable eligibility within time limits
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a citizen fulfils work or a need only through a reachable eligible
+  destination, compatible education or passenger type and declared wait and
+  in-vehicle time limits.
+- Includes: the one-hour wait and four-hour single-vehicle limits.
+- Excludes: cosmetic commuters or fixed job assignment without travel.
+- Parameters: purpose, education, capacity, walking reach, wait and ride time.
+- Evidence: [Workers & Resources: Soviet Republic decomposition](../games/s-z/workers-resources-soviet-republic.md).
+- Novelty: not assessed.
+
+## CON-239 — Office dispatch requires configured remit and suitable fleet
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an office may dispatch only for assigned sources, destinations or
+  sites and only with an available vehicle compatible with the task and cargo.
+- Includes: construction and distribution offices.
+- Excludes: vehicle lines whose stops are explicitly ordered.
+- Parameters: remit, threshold, priority, vehicle, cargo and range.
+- Evidence: [Workers & Resources: Soviet Republic decomposition](../games/s-z/workers-resources-soviet-republic.md).
+- Novelty: not assessed.
+
+## CON-240 — Utility service requires connected capacity and operating state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a building receives a utility only through compatible connections
+  with enough generated or imported capacity and acceptable pressure,
+  temperature or voltage state.
+- Includes: power, heating, water and sewage in Workers & Resources.
+- Excludes: isolated machine fuel or decorative coverage.
+- Parameters: connection, capacity, loss, pressure, temperature and outage.
+- Evidence: [Workers & Resources: Soviet Republic decomposition](../games/s-z/workers-resources-soviet-republic.md).
+- Novelty: not assessed.
+
+## CON-241 — Border trade requires compatible gateway and currency state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an import or export settles only at a compatible border gateway
+  for its transport or utility and against the matching ruble or dollar balance.
+- Includes: customs houses and foreign power connections.
+- Excludes: domestic warehouse transfers.
+- Parameters: bloc, gateway, mode, resource, currency, price and throughput.
+- Evidence: [Workers & Resources: Soviet Republic decomposition](../games/s-z/workers-resources-soviet-republic.md).
+- Novelty: not assessed.
+
+## CON-242 — Research requires prerequisites, faculty and staffed workdays
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a project advances only after its prerequisite projects and while
+  the correct university has eligible staff producing its required workdays.
+- Includes: Workers & Resources nuclear research chain.
+- Excludes: a population milestone or instant point purchase.
+- Parameters: prerequisites, faculty, staff, workdays and unlock.
+- Evidence: [Workers & Resources: Soviet Republic decomposition](../games/s-z/workers-resources-soviet-republic.md).
+- Novelty: not assessed.
+
+## CON-243 — Nuclear generation requires staff, fuel, cooling and waste capacity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a reactor generates only with qualified workers, nuclear fuel,
+  operating cooling and free waste handling; failures stop output or create
+  radiation risk.
+- Includes: Workers & Resources single-reactor nuclear power plant.
+- Excludes: ordinary recipe flow or coal generation.
+- Parameters: workers, engineers, fuel, cooling, water, power, waste and radiation.
+- Evidence: [Workers & Resources: Soviet Republic decomposition](../games/s-z/workers-resources-soviet-republic.md).
+- Novelty: not assessed.
+
+## CON-244 — Second campaign completion requires the first and all active branches
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the Soviet Revolution campaign is available after the introductory campaign,
+  and its completion requires satisfying every mandatory objective branch.
+- Includes: sequential completion of the two released base campaigns.
+- Excludes: sandbox survival or optional post-campaign optimisation.
+- Parameters: predecessor, branch, objective state and completion flag.
+- Evidence: [Workers & Resources: Soviet Republic decomposition](../games/s-z/workers-resources-soviet-republic.md).
+- Novelty: not assessed.
+
+## CON-245 — Mine work requires tower coverage and reachable terrain volume
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: excavation or controlled dumping may resolve only inside its
+  mine tower's operation area where the designated height and terrain face are
+  reachable by the assigned compatible vehicles.
+- Includes: Captain of Industry mining and dumping designations, tower areas,
+  slopes and vehicle access.
+- Excludes: placing a fixed extractor over a deposit; unrestricted cosmetic
+  terraforming; storage that does not alter terrain.
+- Parameters: tower, rectangular area, designation type, target height,
+  material filter, slope, vehicle size and route.
+- Evidence: [Captain of Industry decomposition](../games/a-f/captain-of-industry.md).
+- Novelty: not assessed.
+
+## CON-246 — Island vehicle job requires compatible load, route and service state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an island vehicle may accept and complete a logistics job only
+  when its class can carry the product, both endpoints and route are reachable,
+  capacity is reserved and fuel and maintenance permit operation.
+- Includes: Captain of Industry pickups, trucks, haul trucks and assigned mine
+  vehicles serving machines, storages, construction or dumping.
+- Excludes: conveyor or pipe capacity; cargo ships on world routes; a road
+  vehicle line with authored stops.
+- Parameters: vehicle class, product state, capacity, source, destination,
+  terrain clearance, reservation, fuel and maintenance.
+- Evidence: [Captain of Industry decomposition](../games/a-f/captain-of-industry.md).
+- Novelty: not assessed.
+
+## CON-247 — Settlement survival requires housing and essential supply
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: population can remain and grow only within housing capacity and
+  with essential food and waste service, while health determines whether the
+  settlement grows or loses people.
+- Includes: Captain of Industry housing, food demand, waste collection, health
+  and pollution-driven mortality.
+- Excludes: finite job slots alone; optional goods that only improve Unity;
+  manually controlled individual survival needs.
+- Parameters: population, housing capacity, food, waste, health, growth,
+  mortality and beacon arrivals.
+- Evidence: [Captain of Industry decomposition](../games/a-f/captain-of-industry.md).
+- Novelty: not assessed.
+
+## CON-248 — Unity-funded operation requires sufficient recurring balance
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a research lab, world resource, edict, boost or contract remains
+  active only while settlement-generated Unity covers its one-time and
+  recurring charge.
+- Includes: Captain of Industry research, outposts, quick trades, contracts,
+  machine boosts and instant recovery.
+- Excludes: material recipe inputs; electricity capacity; a foreign currency
+  account settled at a border.
+- Parameters: Unity income, establishment charge, monthly charge, action cost,
+  priority, suspension and recovery.
+- Evidence: [Captain of Industry decomposition](../games/a-f/captain-of-industry.md).
+- Novelty: not assessed.
+
+## CON-249 — World-node operation requires ship range, strength and support
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a world-map destination can be reached or exploited only when
+  the ship can pay the route fuel, defeat any blocking enemy and supply the
+  repair, manpower and Unity requirements of the revealed node.
+- Includes: Captain of Industry exploration, ship battles and resource locations.
+- Excludes: home-island pathfinding; village reputation for contracts; rocket launch.
+- Parameters: path, fuel, radar, ship strength, enemy, damage, repair materials,
+  workers, Unity and cargo capacity.
+- Evidence: [Captain of Industry decomposition](../games/a-f/captain-of-industry.md).
+- Novelty: not assessed.
+
+## CON-250 — Island contract requires reputation, depot, ship and Unity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a recurring island trade can begin and cycle only after its
+  village reputation gate is met and a compatible cargo module, dedicated ship,
+  offered export and Unity costs are available.
+- Includes: Captain of Industry product contracts through Cargo Depots.
+- Excludes: immediate Trading Dock exchanges; outpost pickups; domestic storage transfers.
+- Parameters: village, reputation, offer, module type, ship, export stock,
+  import room, establishment Unity and recurring Unity.
+- Evidence: [Captain of Industry decomposition](../games/a-f/captain-of-industry.md).
+- Novelty: not assessed.
+
+## CON-251 — Industrial research requires lab tier and supplied research equipment
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a queued technology advances only after its prerequisites and
+  while a sufficiently advanced staffed lab receives its required equipment,
+  power, computing and Unity.
+- Includes: Captain of Industry Research Labs Basic through IV and their
+  progressively supplied research points.
+- Excludes: staffed university workdays; automatic milestone unlocks; infinite
+  post-endpoint space research.
+- Parameters: technology, prerequisite, lab tier, equipment recipe, workers,
+  electricity, computing, Unity and research points.
+- Evidence: [Captain of Industry decomposition](../games/a-f/captain-of-industry.md).
+- Novelty: not assessed.
+
+## CON-252 — Rocket launch requires level transfer path, propellant and water
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a constructed rocket can launch only if its assembly depot and
+  free launch pad share a traversable level route and the pad receives the
+  rocket's compatible propellant and launch-water quantities.
+- Includes: Captain of Industry Rocket Assembly Depot, specialised transporter
+  and Rocket Launch Pad.
+- Excludes: merely researching rocketry; repeated space-station supplies;
+  launching a rocket assembled wholly inside its silo.
+- Parameters: depot elevation, path roughness, pad state, rocket tier, fuel
+  type, oxidiser, water, payload and launch command.
+- Evidence: [Captain of Industry decomposition](../games/a-f/captain-of-industry.md).
+- Novelty: not assessed.
+
+## CON-253 — Drone errand requires commander coverage and reachable resources
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a drone may claim construction, hauling or maintenance work only
+  while both its interaction site and required resource lie within a compatible
+  commander's service area and a traversable route exists.
+- Includes: Surviving Mars: Relaunched rockets, RC Commanders and Drone Hubs
+  controlling drones inside adjustable ranges.
+- Excludes: a staffed human workplace; globally matched truck delivery;
+  direct step-by-step drone control.
+- Parameters: commander, service area, drone assignment, task, resource,
+  interaction site, route, power and charging state.
+- Evidence: [Surviving Mars: Relaunched decomposition](../games/s-z/surviving-mars.md).
+- Novelty: not assessed.
+
+## CON-254 — Occupied dome requires sealed life support and food
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: colonists can safely occupy a dome only while housing and food
+  are available and connected power, water and oxygen supply or stored reserve
+  cover its current demand.
+- Includes: Surviving Mars: Relaunched occupied surface domes and their life
+  support dependencies.
+- Excludes: optional comfort services; an unoccupied dome under construction;
+  one abstract settlement-health total.
+- Parameters: dome, population, housing, food, power, water, oxygen, storage,
+  leak, outage duration, health and death.
+- Evidence: [Surviving Mars: Relaunched decomposition](../games/s-z/surviving-mars.md).
+- Novelty: not assessed.
+
+## CON-255 — Colonist work requires compatible access, shift and capability
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a staffed building receives productive labour only from an
+  eligible working-age colonist who can reach it during an open shift, with
+  specialization, traits, health and morale modifying performance.
+- Includes: Surviving Mars: Relaunched dome workplaces, outside extractors,
+  passages, shuttles and specialist bonuses or penalties.
+- Excludes: drone errands; one abstract workforce pool; autonomous unstaffed
+  production.
+- Parameters: colonist, age, specialization, trait, health, morale, dome,
+  route, shift, job slot and performance.
+- Evidence: [Surviving Mars: Relaunched decomposition](../games/s-z/surviving-mars.md).
+- Novelty: not assessed.
+
+## CON-256 — Mars rocket operation requires vehicle, manifest, fuel and site
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a rocket flight or landing resolves only when an eligible rocket
+  can carry the selected manifest, the origin supplies required fuel, the
+  destination is currently available and a compatible landing site is reserved.
+- Includes: Surviving Mars: Relaunched patch 1.0.7 Earth, Mars, asteroid-capable
+  and planetary-project universal rocket operations.
+- Excludes: local shuttle flights; a rocket assembled for one terminal launch;
+  direct spacecraft piloting.
+- Parameters: rocket class, capacity, manifest, fuel, destination, project
+  requirements, landing pad, obstruction, automation and return eligibility.
+- Evidence: [Surviving Mars: Relaunched decomposition](../games/s-z/surviving-mars.md).
+- Novelty: not assessed.
+
+## CON-257 — Mars research requires reveal, prerequisites and point cost
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a technology can enter and advance through the queue only after
+  it is revealed and its positional or explicit prerequisites permit access;
+  completion requires its full research-point cost.
+- Includes: Surviving Mars: Relaunched shuffled fields, anomaly reveals,
+  breakthroughs and five-slot queue.
+- Excludes: a construction material delivery; an unrevealed technology guessed
+  by the player; instant catalogue purchase.
+- Parameters: field, shuffled position, reveal source, prerequisite, queue
+  capacity, cost, progress and unlock.
+- Evidence: [Surviving Mars: Relaunched decomposition](../games/s-z/surviving-mars.md).
+- Novelty: not assessed.
+
+## CON-258 — Martian law requires preparation, eligibility and voting support
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a law option can be enacted only after its chamber, preparation
+  and state prerequisites are satisfied and the called vote obtains the
+  required current faction or seat support.
+- Includes: Surviving Mars: Relaunched Council and Assembly laws, negotiated
+  promises, locked options and repealable multi-choice laws.
+- Excludes: Frostpunk's unilateral permanent signing cooldown; research;
+  temporary narrative choices.
+- Parameters: chamber, preparation, prerequisite, option, faction support,
+  seat allocation, promise, vote threshold, upkeep and repeal rule.
+- Evidence: [Surviving Mars: Relaunched decomposition](../games/s-z/surviving-mars.md).
+- Novelty: not assessed.
+
+## CON-259 — Martian Assembly transition requires a staffed dome spire
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the Earth Council gives way to Martian governance only after the
+  unlocked Assembly spire is built in a compatible dome and the new government,
+  representation and opposition rules are selected.
+- Includes: Surviving Mars: Relaunched Martian Assembly formation.
+- Excludes: early Council sessions; one ordinary service building; independence
+  payment after the Assembly exists.
+- Parameters: technology, dome size, spire slot, materials, staff, government,
+  seat rule, Assembly authority and opposition policy.
+- Evidence: [Surviving Mars: Relaunched decomposition](../games/s-z/surviving-mars.md).
+- Novelty: not assessed.
+
+## CON-260 — Independence requires colony, mission, law and payment gates
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: sponsor control ends only after the colony meets its disclosed
+  stability and population conditions, completes required sponsor and people's
+  goals, enacts the declaration law and pays the remaining independence price.
+- Includes: Surviving Mars: Relaunched patch 1.0.7 purchased-independence route.
+- Excludes: declaration alone; optional post-independence goals; military
+  victory or full terraforming.
+- Parameters: stability, population, comfort, enacted laws, sponsor goals,
+  people's goals, declaration, contribution, price and payment.
+- Evidence: [Surviving Mars: Relaunched decomposition](../games/s-z/surviving-mars.md).
+- Novelty: not assessed.
+
+## CON-261 — Round purchase requires time, location and currency
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a match item can be purchased only while its buy window remains,
+  the player is in the permitted spawn area and the current balance covers its price.
+- Includes: Counter-Strike 2 Competitive buy-time purchases.
+- Excludes: picking up a dropped weapon; a persistent metagame store.
+- Parameters: buy time, zone, price, balance, role and refund eligibility.
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
+- Novelty: not assessed.
+
+## CON-262 — Round inventory obeys weapon, grenade and ammunition capacity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a living player may carry only the permitted weapon-slot classes,
+  grenade counts and finite magazine/reserve ammunition for the current life.
+- Includes: Counter-Strike 2 primary/secondary slots, grenade limits and finite ammunition.
+- Excludes: unlimited abstract score resources; a crafting-grid stack limit.
+- Parameters: slots, item class, grenade type/count, magazine and reserve.
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
+- Novelty: not assessed.
+
+## CON-263 — Elimination suspends control until the next round
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a defeated participant cannot move, attack or operate the
+  objective for the remainder of the current round and returns only at the
+  following round boundary.
+- Includes: Counter-Strike 2 Competitive one-life round participation.
+- Excludes: a temporary incapacitation with revival; permanent run death;
+  immediate deathmatch respawn.
+- Parameters: defeat state, spectator channel, round boundary and re-entry.
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
+- Novelty: not assessed.
+
+## CON-264 — Bomb interaction requires role, item, site and uninterrupted time
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: planting requires a living attacker carrying C4 inside a valid
+  bombsite, while defusing requires a living defender at the planted device;
+  either interaction fails to complete when its continuous channel is interrupted.
+- Includes: Counter-Strike 2 bomb plant and kit-sensitive defuse gates.
+- Excludes: damaging the bomb; instant capture-zone occupancy.
+- Parameters: role, C4 holder, site, range, duration, kit and interruption.
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
+- Novelty: not assessed.
+
+## CON-265 — Bomb round uses an asymmetric two-stage deadline
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: expiry of the unplanted round clock awards the defenders, but a
+  completed plant replaces that deadline with a separate live C4 fuse that can
+  be beaten only by a completed defuse.
+- Includes: Counter-Strike 2 Competitive defusal round time and planted C4 timer.
+- Excludes: one symmetric attempt timer; overtime match scheduling.
+- Parameters: round time, plant completion, fuse, defuse duration and winner.
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
+- Novelty: not assessed.
+
+## CON-266 — Fixed team role bounds objective authority and friendly interaction
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: each participant belongs to one current team role that determines
+  spawn, equipment access and objective authority while ordinary collision and
+  friendly-fire rules still apply among teammates.
+- Includes: Counter-Strike 2 Terrorist and Counter-Terrorist Competitive roles.
+- Excludes: hidden traitor roles; individually changing allegiance mid-round.
+- Parameters: team, side, spawn, equipment, objective rights and friendly fire.
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
+- Novelty: not assessed.
+
+## CON-267 — Regulation score has a finite half and match horizon
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: regulation contains at most twenty-four rounds, swaps sides after
+  twelve, ends early when one team reaches thirteen wins and otherwise may end
+  level after the final round.
+- Includes: current Counter-Strike 2 Competitive matchmaking regulation.
+- Excludes: Premier overtime; tournament series formats; one isolated round.
+- Parameters: half length, maximum rounds, clinch score, draw and overtime policy.
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
+- Novelty: not assessed.
+
+## CON-268 — Each fixed team slot commits one match hero
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a standard five-player team assigns exactly one available hero
+  to each player slot for the match, subject to the current draft conflict rule.
+- Includes: Dota 2 All Pick team and hero commitment.
+- Excludes: swapping controlled heroes during live play; cosmetic loadouts.
+- Parameters: team size, slot, hero pool, phase and duplicate/conflict rule.
+- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md).
+- Novelty: not assessed.
+
+## CON-269 — Ability use requires legal target, range, resource and readiness
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a hero or item ability resolves only when its cast form, target,
+  range, mana or charges, cooldown and disabling-state gates are satisfied.
+- Includes: Dota 2 targeted, point, vector, channelled, toggle and no-target
+  casts; Cyberpunk 2077 quickhacks and active cyberware gated by target, RAM,
+  charge or cooldown; Marvel Rivals hero abilities gated by current target,
+  reach, charge, cooldown, control and ultimate-energy state; Battlefield 6
+  class gadgets gated by target, range, charge, cooldown and combat state;
+  Hollow Knight: Silksong Tools, Silk Skills and Bind gated by equipped state,
+  reach, Silk, charge and readiness.
+- Excludes: passive effects; ordinary basic attacks.
+- Parameters: cast form, target class, range, mana, charge, cooldown and disable.
+- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md) and
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
+  [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md), and
+  [Battlefield 6 decomposition](../games/a-f/battlefield-6.md), and
+  [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md).
+- Novelty: not assessed.
+
+## CON-270 — Character build is bounded by level and branch gates
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: character build points can enter only ability ranks or bounded
+  talent and attribute choices currently unlocked by that character's level
+  and prerequisite state.
+- Includes: Dota 2 skill ranks and talent tiers; Clair Obscur: Expedition 33
+  attribute allocation and connected skill trees; Cyberpunk 2077 attribute
+  thresholds and prerequisite-linked perk ranks.
+- Excludes: item purchases; pre-match facet choice; account-wide unlocks.
+- Parameters: persistence, level, available point, rank cap, prerequisite,
+  talent tier and branch.
+- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md) and
+  [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md), and
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Novelty: not assessed.
+
+## CON-271 — Item ownership obeys gold, shop and logistics capacity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: purchasing, carrying and delivering a match item requires its
+  price, eligible shop access and compatible hero, backpack, stash or courier slot.
+- Includes: Dota 2 base/secret shop, inventory, backpack, stash and courier.
+- Excludes: cosmetic inventory; neutral-item roster details.
+- Parameters: gold, shop, stock, item class, slots, stash and courier.
+- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md).
+- Novelty: not assessed.
+
+## CON-272 — Death blocks combatant control until return or eligible buyback
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a dead combatant cannot move, attack or use live abilities until
+  the current return timer and spawn gates are satisfied, unless its rules
+  expose an eligible paid early return.
+- Includes: Dota 2 death, level-sensitive respawn and buyback cooldown; Marvel
+  Rivals knockout and ordinary timed spawn-room return without buyback;
+  Battlefield 6 Conquest death and delayed legal redeployment.
+- Excludes: one-life match removal; allied units that remain controllable.
+- Parameters: death, level, timer, spawn gate, gold, buyback cost, cooldown and
+  return point.
+- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md) and
+  [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md), and
+  [Battlefield 6 decomposition](../games/a-f/battlefield-6.md).
+- Novelty: not assessed.
+
+## CON-273 — Fog and detection gate actionable hostile state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: current hostile position and ordinary direct targeting require
+  allied vision, while invisible entities additionally require eligible detection.
+- Includes: Dota 2 fog of war, elevation/trees, invisibility and true sight.
+- Excludes: remembered last position; globally revealed objective state.
+- Parameters: vision source, occlusion, elevation, invisibility and detection.
+- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md).
+- Novelty: not assessed.
+
+## CON-274 — Base buildings obey ordered protection and backdoor rules
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: inner structures become legally vulnerable only after their
+  current predecessor/protection gates, while unsupported attacks may trigger
+  backdoor resistance and recovery.
+- Includes: Dota 2 tower, barracks and high-ground protection order.
+- Excludes: ordinary hero armour; invulnerability from a hero spell.
+- Parameters: tier, predecessor, lane pressure, backdoor state and recovery.
+- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md).
+- Novelty: not assessed.
+
+## CON-275 — Terminal loss requires a legally exposed Ancient
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the match-ending structure cannot take terminal legal damage
+  until its required base protection is removed; hero or barracks loss alone
+  never substitutes for Ancient destruction.
+- Includes: Dota 2 standard-map Ancient victory gate.
+- Excludes: surrender votes; kill-score thresholds; tournament adjudication.
+- Parameters: protection structures, Ancient health, legal damage and winner.
+- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md).
+- Novelty: not assessed.
+
+## CON-276 — Capture requires an eligible target and available device
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an ordinary capture attempt can resolve only when a carried
+  compatible device reaches a capturable creature, with target health, status
+  and device strength determining rather than guaranteeing its chance.
+- Includes: Palworld wild-Pal capture with Pal Spheres.
+- Excludes: uncapturable trainer bosses; scripted guaranteed quest capture;
+  storage transfers.
+- Parameters: target class, health, status, device tier, capture power,
+  inventory count and probability.
+- Evidence: [Palworld decomposition](../games/m-r/palworld.md).
+- Novelty: not assessed.
+
+## CON-277 — Companion rosters have distinct bounded capacities
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: captured companions occupy typed storage, active-party or base
+  worker slots, and a transfer or new capture must resolve to an available
+  destination under that roster's capacity.
+- Includes: Palworld Palbox storage, five-Pal party and base-Pal capacity.
+- Excludes: carried item stacks; multiplayer Guild membership; cosmetic display slots.
+- Parameters: roster, slot count, occupied slots, overflow rule, base level and transfer.
+- Evidence: [Palworld decomposition](../games/m-r/palworld.md).
+- Novelty: not assessed.
+
+## CON-278 — Technology purchase requires level, predecessor and points
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a technology node can be bought only after its player-level and
+  predecessor gates are met and enough unspent technology points exist.
+- Includes: Palworld ordinary and Ancient Technology unlocks.
+- Excludes: recipes granted directly by a mission; base work suitability;
+  account DLC ownership.
+- Parameters: level, predecessor, point type, cost, known node and unlock.
+- Evidence: [Palworld decomposition](../games/m-r/palworld.md).
+- Novelty: not assessed.
+
+## CON-279 — Base task requires matching suitability and reachable facility
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a base companion may perform a task only when its work
+  suitability includes the task type and it can reach the compatible supplied
+  facility within the base.
+- Includes: Palworld suitability-gated planting, mining, transport and Handiwork.
+- Excludes: party combat skills; player hand crafting; priority among tasks
+  after eligibility is established.
+- Parameters: companion, suitability, task, facility, assignment, path, input and output.
+- Evidence: [Palworld decomposition](../games/m-r/palworld.md).
+- Novelty: not assessed.
+
+## CON-280 — Base labour depends on food, rest and recoverable condition
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an assigned base companion remains productive only while food,
+  rest, sanity and health permit work; starvation, exhaustion, injury or illness
+  interrupts or reduces its task execution until supported.
+- Includes: Palworld food boxes, beds, hot springs, medicine and Pal work state.
+- Excludes: an abstract global workforce count; avatar temperature; cosmetic mood.
+- Parameters: hunger, sanity, health, food access, bed, recovery facility,
+  illness and treatment.
+- Evidence: [Palworld decomposition](../games/m-r/palworld.md).
+- Novelty: not assessed.
+
+## CON-281 — Avatar survival depends on climate-compatible equipment and resources
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the avatar's current health and activity remain viable only while
+  hunger, temperature exposure, stamina, armour and equipment durability stay
+  within recoverable limits for the current region and action.
+- Includes: Palworld food, heat/cold protection, stamina, armour and equipment durability.
+- Excludes: companion SAN; custom world-setting multipliers; one boss timer.
+- Parameters: hunger, temperature, protection, stamina, health, armour,
+  durability, food and recovery.
+- Evidence: [Palworld decomposition](../games/m-r/palworld.md).
+- Novelty: not assessed.
+
+## CON-282 — Main-story encounters require ordered authored gates
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: each required main-story encounter starts and advances only after
+  its authored prior-mission, discovery, switch, key-item, party, location or
+  time-limit conditions are satisfied.
+- Includes: Palworld tower access, Sunreach defence modules, Echoing Flute,
+  Panthalus party gate and World Tree story sequence; Grand Theft Auto V
+  protagonist, setup, location and prior-mission gates on the critical path;
+  Cyberpunk 2077 main jobs and their ordered predecessor and choice gates.
+- Excludes: optional hard-mode tower rematches; free-roaming Alpha Pals;
+  post-story challenge raids.
+- Parameters: mission, predecessor, boss, switches, key item, required actor,
+  location, timer and completion flag.
+- Evidence: [Palworld decomposition](../games/m-r/palworld.md) and
+  [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md), and
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
+  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Novelty: not assessed.
+
+## CON-283 — Aircraft route bounds reachable insertion region
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the participant's initial ground region must be reachable from
+  the sampled aircraft line through the finite altitude, fall speed, steering
+  and parachute glide available after the chosen exit time.
+- Includes: PUBG Normal Match landing choice from the current transport plane.
+- Excludes: selecting any map coordinate as a spawn; later vehicle travel;
+  teammate Recall insertion.
+- Parameters: flight line, exit point, altitude, velocity, canopy, glide range,
+  collision and landing surface.
+- Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md).
+- Novelty: not assessed.
+
+## CON-284 — Backpack capacity and equipment slots bound carried load
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: world-loot transfer succeeds only while its bulk fits current
+  carried capacity and its weapon, attachment, armour or backpack class fits an
+  available compatible equipment slot.
+- Includes: PUBG backpack levels, item capacity values, two primary-weapon
+  slots, sidearm, melee, throwable and protection slots; Cyberpunk 2077 carry
+  weight and weapon/equipment slot compatibility.
+- Excludes: ammunition compatibility inside a weapon; unlimited abstract
+  currency; one fixed-grid crafting inventory.
+- Parameters: backpack tier, bulk, free capacity, slot class, equipment item,
+  replacement and excess quantity.
+- Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md) and
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Novelty: not assessed.
+
+## CON-285 — Weapon operation requires compatible live equipment state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: firing, reloading or attaching equipment is legal only when the
+  current weapon, ammunition, magazine, attachment slot, fire mode and avatar
+  action state satisfy that operation's compatibility rules.
+- Includes: PUBG ammunition classes, loaded and reserve rounds, magazines,
+  scopes, muzzle, grip and stock restrictions; Cyberpunk 2077 ammunition,
+  magazine, weapon-slot and compatible-mod state.
+- Excludes: backpack bulk itself; ballistic hit resolution after a legal shot;
+  cosmetic weapon skins.
+- Parameters: weapon class, ammunition, chamber, magazine, attachment slot,
+  fire mode, posture, vehicle lean and action lock.
+- Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md) and
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
+  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Novelty: not assessed.
+
+## CON-286 — Restorative item requires legal state and uninterrupted cast
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a carried medical or boost item produces its effect only when
+  current health permits use and the player completes its live cast without a
+  cancelling movement, weapon or damage event.
+- Includes: PUBG bandage, First Aid Kit, Med Kit and boost-item restrictions.
+- Excludes: passive healing; instant armour protection; teammate revival.
+- Parameters: item, current health, target cap, cast duration, allowed movement,
+  cancellation event and Blue Zone interaction.
+- Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md).
+- Novelty: not assessed.
+
+## CON-287 — Armour protects only covered regions while durable
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: equipped armour reduces incoming damage only for its declared
+  body region and tier while positive durability remains; other regions or
+  broken equipment receive no such reduction.
+- Includes: PUBG helmets protecting head hits and vests protecting torso hits.
+- Excludes: cover blocking the projectile before impact; health restoration;
+  a permanent character defence statistic.
+- Parameters: armour slot, tier, body region, reduction, penetration, durability
+  loss and break state.
+- Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md).
+- Novelty: not assessed.
+
+## CON-288 — Vehicle operation requires viable seat, fuel and geometry
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: direct vehicle control requires an accessible compatible seat and
+  remaining operating state; terrain, collision, tyres, speed and any exposed
+  fuel reserve bound travel and can make an unsafe moving exit injurious.
+- Includes: PUBG Erangel land vehicles, seats, fuel, damaged tyres and exit
+  risk; Grand Theft Auto V Story Mode road, water and air vehicle operation;
+  Cyberpunk 2077 road vehicles, whose operating state has no exposed fuel gate.
+- Excludes: the uncontrolled transport aircraft; route-scheduled autonomous
+  vehicles; movement on foot.
+- Parameters: seat, entry reach, driver role, fuel, tyre, vehicle health,
+  terrain, clearance, speed and exit threshold.
+- Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md)
+  [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md), and
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Novelty: not assessed.
+
+## CON-289 — Phased safe areas impose escalating live deadlines
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: each revealed safe circle becomes the next viable region on a
+  forced schedule, and remaining outside its contracting Blue boundary incurs
+  health loss that grows with uninterrupted exposure.
+- Includes: PUBG Update 42.1 Normal Match Blue Zone pressure.
+- Excludes: one static arena wall; Red Zone blast risk; a turn-count move limit.
+- Parameters: phase, circle, warning, contraction, travel distance, exposure
+  duration, damage curve, healing and terminal phase.
+- Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md).
+- Novelty: not assessed.
+
+## CON-290 — Solo lethal defeat is permanent for the match
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: once a Solo participant reaches lethal defeat, direct control and
+  objective eligibility cannot return during that match through revival,
+  Recall, respawn or another round.
+- Includes: PUBG Normal Solo elimination.
+- Excludes: Duo or Squad DBNO and Recall; Counter-Strike next-round return;
+  Minecraft world respawn.
+- Parameters: mode, lethal state, self-recovery exception, spectating and match boundary.
+- Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md).
+- Novelty: not assessed.
+
+## CON-291 — Terrain deformation requires supported surface and source
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: ground volume changes only on a map region and surface marked as
+  destructible, when an eligible tool or explosion reaches it, and never beyond
+  the system's maximum range or depth.
+- Includes: PUBG Update 41.1 Erangel terrain affected by pickaxe, Frag Grenade,
+  Mortar, Panzerfaust, C4 or vehicle explosion, with excluded areas.
+- Excludes: building destruction; arbitrary digging on unsupported terrain;
+  cosmetic impact marks.
+- Parameters: map, surface, protected area, source, range, damage, volume and depth.
+- Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md).
+- Novelty: not assessed.
+
+## CON-292 — Building placement requires legal geometry and stability
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a building block may be placed only at a compatible terrain or
+  socket pose with clearance, support and stability and outside protected
+  monument restrictions.
+- Includes: Rust foundation, wall, floor and roof placement previews.
+- Excludes: free inventory rearrangement; deployables; terrain excavation.
+- Parameters: shape, socket, terrain, overlap, orientation, support, stability,
+  monument radius and preview.
+- Evidence: [Rust decomposition](../games/m-r/rust.md).
+- Novelty: not assessed.
+
+## CON-293 — Building grade and repair require material and repair state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a connected block can reach a selected grade or regain health
+  only when the player supplies that grade's material and the block is in a
+  currently repairable, authorised state.
+- Includes: Rust Hammer upgrades and post-damage repairs.
+- Excludes: upkeep payment; raid damage; cosmetic skin.
+- Parameters: current and target grade, material, cost, privilege, health,
+  damage delay and repair amount.
+- Evidence: [Rust decomposition](../games/m-r/rust.md).
+- Novelty: not assessed.
+
+## CON-294 — Building privilege gates protected construction operations
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: within a connected Tool Cupboard's projected region, ordinary
+  building and protected pickup require current authorisation, with only
+  explicitly allowed hostile-placement exceptions.
+- Includes: Rust BUILDING BLOCKED, authorised pickup, twig-floor and ladder exceptions.
+- Excludes: locked-door access; damaging an enemy block; unclaimed terrain.
+- Parameters: region, identity, authority, operation, exceptions and overlap.
+- Evidence: [Rust decomposition](../games/m-r/rust.md).
+- Novelty: not assessed.
+
+## CON-295 — Upkeep protection requires connected TC material coverage
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a building block avoids grade-specific decay only while connected
+  to a Tool Cupboard whose inventory covers that grade's charged upkeep;
+  separate buildings require separate connected coverage.
+- Includes: Rust wood, stone, metal and armoured upkeep shortages.
+- Excludes: direct raid damage; special external-wall coverage; construction cost.
+- Parameters: connection, TC, grade, material, rate, stored quantity and duration.
+- Evidence: [Rust decomposition](../games/m-r/rust.md).
+- Novelty: not assessed.
+
+## CON-296 — Secured fixture operation requires matching authority
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a locked door, container or ownership fixture exposes its
+  protected interaction only to an identity with its current key, code or
+  authority, unless the lock or structure is destroyed.
+- Includes: Rust Key Locks, Code Locks and locked Tool Cupboards.
+- Excludes: building privilege alone; unlocked storage; administrator bypass.
+- Parameters: fixture, lock, identity, key, code, authority and destroyed state.
+- Evidence: [Rust decomposition](../games/m-r/rust.md).
+- Novelty: not assessed.
+
+## CON-297 — Crafting requires ingredients, knowledge and Workbench tier
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a personal craft request is legal only when the avatar owns its
+  ingredients, knows the recipe, is near any required Workbench tier and has
+  queue capacity for the declared output.
+- Includes: Rust hand-crafting, including Workbench-3 C4.
+- Excludes: Furnace smelting; Recycler conversion; recipe research.
+- Parameters: recipe, ingredients, blueprint, tier, proximity, queue and output.
+- Evidence: [Rust decomposition](../games/m-r/rust.md).
+- Novelty: not assessed.
+
+## CON-298 — Workbench progression requires ordered tiers and fragments
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: each higher Workbench may be crafted only from its predecessor
+  plus the current material and blueprint-fragment recipe, so tier-three
+  crafting cannot bypass the ordered workstation chain.
+- Includes: Rust 2026 Workbench Level 2 and Level 3 recipes.
+- Excludes: item research within a tier; module upgrades; custom recipes.
+- Parameters: prior workbench, metal fragments, high-quality metal, basic or
+  advanced blueprint fragments and resulting tier.
+- Evidence: [Rust decomposition](../games/m-r/rust.md).
+- Novelty: not assessed.
+
+## CON-299 — Respawn fixture assignment and cooldown bound return
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a player may return at a placed sleeping fixture only while it
+  exists, remains assigned to that identity and its shared cooldown has
+  expired; otherwise another eligible spawn must be chosen.
+- Includes: Rust Sleeping Bag respawn and long cooldown.
+- Excludes: teammate revival; one-life elimination; server wipe.
+- Parameters: fixture, identity, assignment, cooldown, destruction and alternative spawn.
+- Evidence: [Rust decomposition](../games/m-r/rust.md).
+- Novelty: not assessed.
+
+## CON-300 — Structural breach requires sufficient material-specific damage
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: unauthorised access through a defended route becomes physically
+  possible only after eligible accumulated damage exceeds every intervening
+  door, lock or building block's current material health.
+- Includes: Rust explosive breach through a locked base envelope.
+- Excludes: open-door entry; authorised code use; natural upkeep decay.
+- Parameters: route, layers, material, health, damage, resistance and charge count.
+- Evidence: [Rust decomposition](../games/m-r/rust.md).
+- Novelty: not assessed.
+
+## CON-301 — Disconnected bodies remain vulnerable in the shared world
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: disconnecting does not remove or protect the avatar's sleeping
+  body or owned structures; other participants and server processes may damage,
+  loot or destroy them before reconnection.
+- Includes: Rust offline killing, looting, raiding and decay.
+- Excludes: safe logout; paused private save; spectator mode.
+- Parameters: body, inventory, structure, disconnect, hostile participant,
+  server tick and reconnect state.
+- Evidence: [Rust decomposition](../games/m-r/rust.md).
+- Novelty: not assessed.
+
+## CON-302 — Scheduled wipe bounds all world persistence
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: every acquired world item, built structure and current island
+  position persists for no longer than the server's declared wipe boundary,
+  after which a new world cycle supersedes it.
+- Includes: Rust default monthly first-Thursday force wipe.
+- Excludes: ordinary death; restart without wipe; separately configured account state.
+- Parameters: schedule, timezone, next wipe, world state, blueprint reset policy
+  and replacement cycle.
+- Evidence: [Rust decomposition](../games/m-r/rust.md).
+- Novelty: not assessed.
+
+## CON-303 — Occupation and traits require a legal point balance
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: character creation may continue only when one occupation and all
+  selected traits satisfy their point costs, incompatibilities and required
+  remaining balance.
+- Includes: Project Zomboid Build 42 survivor creation.
+- Excludes: skill experience earned after spawn; custom sandbox settings.
+- Parameters: occupation, trait, cost, refund, incompatibility, balance and
+  confirmation.
+- Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md).
+- Novelty: not assessed.
+
+## CON-304 — Body state constrains movement and action performance
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: carried load, exertion, fatigue, pain, wounds, panic, temperature
+  and related moodles may slow, weaken, prevent or make noisier the survivor's
+  movement, combat and timed work.
+- Includes: Project Zomboid encumbrance, endurance and injury penalties.
+- Excludes: terrain collision by itself; cosmetic status; skill gates unrelated
+  to current body state.
+- Parameters: load, stamina, moodle, body region, severity, action, speed,
+  accuracy, noise and prohibition threshold.
+- Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md).
+- Novelty: not assessed.
+
+## CON-305 — Zombie pursuit requires a perceived cue and reachable route
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a zombie may begin or maintain pursuit only from eligible local
+  sight, sound or recent target memory and can reach the survivor only through
+  a pathable opening or destructible obstruction.
+- Includes: Project Zomboid stealth, alarms, gunshots and barricade pathing.
+- Excludes: omniscient global tracking; hit resolution after adjacency.
+- Parameters: vision, cue volume, occlusion, memory, route, door, window,
+  barricade and path failure.
+- Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md).
+- Novelty: not assessed.
+
+## CON-306 — Weapon use requires viable body, reach and equipment state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a melee strike, shove, firearm shot or reload is legal and
+  effective only when facing, reach, footing, exertion, panic, weapon condition,
+  ammunition and current action state permit it.
+- Includes: Project Zomboid direct combat and Build 42 precise aiming.
+- Excludes: damage adjudication after a legal strike; vehicle collision.
+- Parameters: target, facing, range, stance, stamina, panic, weapon, condition,
+  sharpness, ammunition, jam and action lock.
+- Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md).
+- Novelty: not assessed.
+
+## CON-307 — Wound care requires a compatible item and body region
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a treatment changes a wound only when the selected body region,
+  injury class, carried medical item, accessibility and current treatment state
+  admit that operation.
+- Includes: Project Zomboid bandaging, disinfecting, splinting and foreign-body
+  removal.
+- Excludes: eating; passive healing; curing established Knox Infection.
+- Parameters: region, wound, bleeding, item, treatment, prior treatment, skill,
+  duration and result.
+- Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md).
+- Novelty: not assessed.
+
+## CON-308 — Established Knox Infection has no ordinary cure path
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: once the hidden zombie-transmitted infection state is established
+  under the canonical preset, bandages, disinfectant, food, sleep and ordinary
+  medicine cannot restore that survivor to an uninfected state.
+- Includes: Project Zomboid Apocalypse Knox Infection.
+- Excludes: ordinary wound infection; sandbox transmission changes; preventing
+  exposure before the transmission check.
+- Parameters: transmission state, wound source, symptoms, treatments,
+  mortality and reanimation.
+- Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md).
+- Novelty: not assessed.
+
+## CON-309 — Barricading requires a compatible opening, tools and material
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: one defensive layer may be attached only to an eligible reachable
+  door or window side with matching carried material, fastening tools and legal
+  layer capacity; additional layers may progressively obstruct vision.
+- Includes: Project Zomboid wooden and metal barricades.
+- Excludes: free-standing walls; curtains; furniture placed nearby.
+- Parameters: opening, side, layer capacity, material, tools, fasteners, skill,
+  visibility and removal eligibility.
+- Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md).
+- Novelty: not assessed.
+
+## CON-310 — Crafting and construction require learned reachable inputs
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a recipe or construction request can begin only when its recipe
+  knowledge, skill level, tools, workstation or reachable ingredients and
+  compatible placement state are all satisfied.
+- Includes: Project Zomboid Build 42 crafting, workstations and shelter building.
+- Excludes: barricade layer capacity; skill experience gain; autonomous work.
+- Parameters: recipe, knowledge, skill, tool, workstation, ingredient, reach,
+  placement, duration and output.
+- Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md).
+- Novelty: not assessed.
+
+## CON-311 — Crop viability requires season, water and elapsed growth
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a planted crop reaches harvest only if its species remains within
+  a viable seasonal window and receives enough time, water and health; a crop
+  planted in a doomed month cannot gain ordinary yield merely by waiting.
+- Includes: Project Zomboid Build 42 seasonal farming.
+- Excludes: instant recipe crops; wild foraging; cosmetic garden state.
+- Parameters: species, planting month, viable months, doomed months, water,
+  disease, phase duration, skill and yield.
+- Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md).
+- Novelty: not assessed.
+
+## CON-312 — Sleep and accelerated time remain vulnerable to danger
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: sleeping, waiting or accelerated timed work requires an eligible
+  current state and does not make the survivor safe; detected threat, injury or
+  another interruption returns control under the resulting world state.
+- Includes: Project Zomboid single-player sleep and fast-forward.
+- Excludes: pausing that freezes the world; invulnerable cutscenes; offline
+  server progression.
+- Parameters: tiredness, resting place, selected rate, threat, interruption,
+  wake state and elapsed time.
+- Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md).
+- Novelty: not assessed.
+
+## CON-313 — One survivor life cannot respawn after death
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: lethal bodily state permanently ends direct control of the
+  current survivor; no checkpoint, bed, inventory item or same-character
+  respawn can continue that analytical life.
+- Includes: the scoped Project Zomboid Apocalypse life.
+- Excludes: starting a different survivor in the retained save; temporary
+  unconsciousness; multiplayer revival rules.
+- Parameters: lethal threshold, character identity, corpse, save persistence,
+  later character and statistics boundary.
+- Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md).
+- Novelty: not assessed.
+
+## CON-314 — Long-horizon supplies decay under the canonical calendar
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: inherited water, electricity and perishable food cannot be
+  assumed indefinitely available: preset time windows may end utilities, while
+  elapsed temperature-dependent aging reduces viable stored food.
+- Includes: Project Zomboid Apocalypse utility shutoff and spoilage pressure.
+- Excludes: player-configured sandbox dates; one fixed match clock; crops as a
+  separate growth eligibility rule.
+- Parameters: cutoff window, current service, refrigeration, generator, fuel,
+  food age, temperature, freshness and spoilage.
+- Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md).
+- Novelty: not assessed.
+
+## CON-315 — Raid entry obeys augment-shaped loadout capacity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a prepared raid loadout is legal only when each weapon, shield,
+  ammunition, gadget, utility and carried stack fits slots and capacities
+  exposed by the selected compatible augment, or by the smaller Free Loadout.
+- Includes: ARC Raiders loadout and augment backpack layouts.
+- Excludes: stash capacity outside a raid; cosmetic backpack appearance;
+  world-loot transfer after all carried capacity is already free.
+- Parameters: augment, weapon slots, shield class, quick-use slots, Safe Pocket,
+  backpack capacity, item class and Free Loadout layout.
+- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
+- Novelty: not assessed.
+
+## CON-316 — Protected-pocket transfer requires eligible item and free slot
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an item can receive protected defeat retention only when its
+  current class and use state are eligible for an unoccupied Safe Pocket slot
+  exposed by the equipped augment.
+- Includes: ARC Raiders Safe Pocket transfers and Safekeeper weapon exception.
+- Excludes: ordinary backpack storage; post-raid stash placement; exploit-based
+  pocketing of an active Snaphook or ineligible weapon.
+- Parameters: item class, active state, augment, pocket count, free slot,
+  stack compatibility and exception.
+- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
+- Novelty: not assessed.
+
+## CON-317 — Extraction requires a live reachable endpoint before closure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: successful return requires the Raider to reach an enabled
+  extraction fixture, satisfy its call, key or entry interaction and cross its
+  departure boundary before that endpoint or the raid closes.
+- Includes: ARC Raiders elevators, metro extraction and Raider Hatches.
+- Excludes: menu abandonment; extraction after knockout; reaching an inactive
+  fixture without completing its interaction.
+- Parameters: endpoint, map state, reach, key, call, arrival, entry zone,
+  closure and raid clock.
+- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
+- Novelty: not assessed.
+
+## CON-318 — Knockout forfeits every unsecured raid item
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when a Raider is knocked out before extraction, every entered or
+  scavenged item outside a valid protected pocket leaves persistent ownership,
+  regardless of its prior stash origin.
+- Includes: ARC Raiders ordinary loadout and backpack loss on Topside knockout.
+- Excludes: Safe Pocket contents; automated Fair Play compensation after a
+  confirmed cheater; items already banked in Speranza.
+- Parameters: terminal state, entered item, scavenged item, secured flag,
+  forfeited inventory and compensation exception.
+- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
+- Novelty: not assessed.
+
+## CON-319 — Search requires reach and uninterrupted interaction
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a container, husk or disabled-machine search reveals contents
+  only while the Raider remains within legal reach and completes its hold or
+  continuous interaction without a cancelling equipment or movement change.
+- Includes: ARC Raiders Topside container and ARC-remnant searches.
+- Excludes: visible ground-loot pickup; already-open inventory inspection;
+  remote search through geometry.
+- Parameters: target, reach, duration, posture, equipment change, movement,
+  interruption and reveal state.
+- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
+- Novelty: not assessed.
+
+## CON-320 — Workshop output requires station, recipe and retained ingredients
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a Workshop craft is legal only when its specialised station and
+  required tier are unlocked, the recipe is currently known and all declared
+  ingredients exist in eligible persistent inventory.
+- Includes: ARC Raiders station-specific Speranza crafting and found blueprints.
+- Excludes: Field Crafting recipes that need no Workshop station; Trader stock;
+  cosmetic purchases.
+- Parameters: station, tier, blueprint, recipe, ingredient, quantity, output
+  capacity and Expedition reset state.
+- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
+- Novelty: not assessed.
+
+## CON-321 — Weapon maintenance requires a retained item and repair resources
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a repair or upgrade can change durability only for an owned
+  compatible weapon whose current state permits the operation and whose
+  declared resource cost is available.
+- Includes: ARC Raiders resource-paid repair and upgrade-with-repair.
+- Excludes: repairing an item lost Topside; free passive restoration; attaching
+  a mod without changing durability.
+- Parameters: ownership, weapon, tier, durability, upgrade state, resource,
+  cost, repair cap and resulting durability.
+- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
+- Novelty: not assessed.
+
+## CON-322 — Skill purchase requires a point and predecessor state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a persistent Raider skill node can gain a rank only when an
+  unspent skill point exists and all branch, predecessor and rank-cap
+  requirements for that node are satisfied.
+- Includes: ARC Raiders Conditioning, Mobility and Survival skill trees.
+- Excludes: equipment perks; temporary Map Condition effects; automatic level
+  benefits that require no choice.
+- Parameters: branch, node, predecessor, current rank, cap, point balance and
+  purchased modifier.
+- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
+- Novelty: not assessed.
+
+## CON-323 — Active battle formation is bounded by available expeditioners
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a battle may contain no more than the allowed active party size,
+  and only currently recruited, living and story-available expeditioners may
+  occupy those slots.
+- Includes: the three-member active party in scoped Clair Obscur: Expedition 33.
+- Excludes: switching the visible exploration leader; temporary summons;
+  assigning passive abilities.
+- Parameters: active slots, reserve roster, availability and defeat state.
+- Evidence: [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md).
+- Novelty: not assessed.
+
+## CON-324 — Reactive defence requires the matching live timing window
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: dodge, parry or jump negates an incoming attack member only when
+  that response is currently unlocked and its input lands inside the attack's
+  matching real-time window.
+- Includes: Clair Obscur: Expedition 33 defensive timing gates and the wider
+  dodge than parry window.
+- Excludes: passive evasion chance; an accessibility option that automates a
+  prompt; selecting a skill during the character's turn.
+- Parameters: response type, unlock, cue, window, difficulty and assist mode.
+- Evidence: [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md).
+- Novelty: not assessed.
+
+## CON-325 — Picto slots and Lumina points bound passive build
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: each character may equip only the allowed number of compatible
+  Pictos and may activate only learned Luminas whose combined cost fits that
+  character's current Lumina-point capacity.
+- Includes: Clair Obscur: Expedition 33 Picto and Lumina loadouts.
+- Excludes: weapon compatibility; skill-tree prerequisites; temporary combat AP.
+- Parameters: slots, compatible Picto, learned state, passive cost and capacity.
+- Evidence: [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md).
+- Novelty: not assessed.
+
+## CON-326 — Contextual cover requires reachable protective geometry
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: cover attachment, edge movement and aimed exposure are legal only
+  while the controlled protagonist remains beside a compatible surface with a
+  supported pose and unobstructed transition.
+- Includes: Grand Theft Auto V Story Mode walls, vehicles and low cover.
+- Excludes: visual scenery that cannot accept cover; standing behind an object
+  without entering contextual cover; invulnerable scripted hiding.
+- Parameters: surface, reach, height, edge, posture, clearance and exposure side.
+- Evidence: [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md).
+- Novelty: not assessed.
+
+## CON-327 — Protagonist switching requires current authored availability
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: direct control may transfer only to a currently unlocked, living
+  and mission-permitted protagonist; restricted actions, pursuit or authored
+  separation can temporarily block a switch.
+- Includes: Grand Theft Auto V Story Mode character-wheel locks and scripted
+  multi-protagonist switch windows.
+- Excludes: selecting an unavailable online avatar; party-member turn order;
+  cosmetic character skins.
+- Parameters: unlock, survival, mission state, wanted state, activity, distance
+  and scripted permission.
+- Evidence: [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md).
+- Novelty: not assessed.
+
+## CON-328 — Wanted clearance requires an unseen search interval
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a non-scripted wanted level clears only after the controlled
+  protagonist leaves active police perception and remains undiscovered through
+  the complete star-dependent search interval; renewed sight resets pursuit.
+- Includes: Grand Theft Auto V Story Mode line-of-sight evasion and flashing-star
+  search state.
+- Excludes: GTA Online paid removal; mission scripts that hold a wanted level;
+  defeating a fixed enemy encounter.
+- Parameters: stars, sight source, search radius, concealment, interval,
+  reacquisition and mission override.
+- Evidence: [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md).
+- Novelty: not assessed.
+
+## CON-329 — Heist plan requires a legal approach and complete role roster
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a planned heist can advance only after one available approach is
+  committed, every role it requires has an unlocked eligible specialist and
+  the approach-specific setup conditions are complete.
+- Includes: Grand Theft Auto V Story Mode major-heist planning and setup gates.
+- Excludes: free-roam robberies; GTA Online lobby readiness; crew skill effects
+  after a valid plan begins.
+- Parameters: approach, required roles, candidate availability, setup mission,
+  vehicle, equipment and completion state.
+- Evidence: [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md).
+- Novelty: not assessed.
+
+## CON-330 — Mission-critical actors, assets and area must remain viable
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an active authored mission continues only while its controlled or
+  protected actors remain alive and close enough, required vehicles or objects
+  remain usable and the player does not abandon its permitted operation area.
+- Includes: Grand Theft Auto V Story Mode failure from protagonist or ally death,
+  abandoned targets, destroyed vehicles and leaving the mission action.
+- Excludes: optional medal conditions that do not fail the attempt; free-roam
+  property damage; ordinary hostile defeat.
+- Parameters: actor, health, distance, area, asset, damage state, abandonment
+  timer and checkpoint.
+- Evidence: [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md).
+- Novelty: not assessed.
+
+## CON-331 — Carried weapon classes and ammunition have fixed capacity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the protagonist can retain only the permitted weapon entry per
+  weapon-wheel class and no ammunition type above its current finite cap;
+  firing and reloading require compatible remaining rounds.
+- Includes: Grand Theft Auto V Story Mode weapon wheel, magazines, reserve
+  ammunition and ammunition-capacity statistic.
+- Excludes: PUBG backpack bulk; Counter-Strike round inventory; cosmetic weapon
+  tints with no capacity effect.
+- Parameters: weapon class, owned weapon, ammunition type, magazine, reserve,
+  capacity statistic and pickup excess.
+- Evidence: [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md).
+- Novelty: not assessed.
+
+## CON-332 — Initial build obeys lifepath and attribute-budget limits
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: campaign entry requires exactly one available lifepath and an
+  initial attribute distribution whose values remain within per-attribute
+  bounds and the fixed total point budget.
+- Includes: Cyberpunk 2077 new-character mechanical setup.
+- Excludes: cosmetic appearance; later point spending; difficulty selection.
+- Parameters: lifepath count, attribute set, minimum, maximum, budget and
+  confirmation.
+- Evidence: [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Novelty: not assessed.
+
+## CON-333 — Cyberware loadout obeys slot and capacity limits
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an implant may remain installed only in a compatible unlocked
+  body slot and while the complete loadout's declared cost stays within current
+  cyberware capacity except for an explicitly unlocked over-cap rule.
+- Includes: Cyberpunk 2077 Update 2.0+ cyberware slots, capacity and Edgerunner
+  exception.
+- Excludes: weapon inventory slots; cosmetic wardrobe outfits; RAM spent by a
+  quickhack after installation.
+- Parameters: slot, compatibility, unlock, implant cost, capacity, exception,
+  health trade-off and replacement.
+- Evidence: [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Novelty: not assessed.
+
+## CON-334 — Quickhack requires access, target, RAM and readiness
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a quickhack upload is legal only with a compatible installed
+  cyberdeck and hack, an eligible scanned target within access conditions,
+  sufficient RAM or an unlocked substitute, and satisfied cooldown and queue
+  gates.
+- Includes: Cyberpunk 2077 base-game combat and device quickhacks, including
+  Overclock's health-for-RAM exception when unlocked.
+- Excludes: ordinary scanner information; weapon attacks; scripted story
+  interfaces with no build or resource requirement.
+- Parameters: cyberdeck, quickhack, target class, range, access, RAM, health
+  substitution, cooldown and queue capacity.
+- Evidence: [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Novelty: not assessed.
+
+## CON-335 — Stealth neutralisation requires unaware reachable target
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a grapple or stealth takedown remains available only while one
+  eligible hostile is within the required relative position and has not
+  completed detection or entered a disallowing combat or strength state.
+- Includes: Cyberpunk 2077 lethal and non-lethal stealth takedowns.
+- Excludes: ordinary melee attacks; remote quickhacks; scripted restrained
+  characters.
+- Parameters: awareness, position, reach, target class, relative strength,
+  combat state and interruption.
+- Evidence: [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Novelty: not assessed.
+
+## CON-336 — Retained quest state gates later branch availability
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a later quest, ally, response or terminal route is offered only
+  when its authored prerequisite missions and retained earlier decisions satisfy
+  the current branch predicate; incompatible alternatives remain unavailable.
+- Includes: Cyberpunk 2077 base-game side-job ending unlocks and the always
+  available Arasaka route after the required main jobs.
+- Excludes: choosing among already available options; linear prior-mission
+  order alone; Phantom Liberty's separate ending path.
+- Parameters: prior quest, decision flag, ally state, relationship, offered
+  response, terminal route and incompatibility.
+- Evidence: [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Novelty: not assessed.
+
+## CON-337 — Attribute threshold gates contextual interaction
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an authored dialogue response or physical, technical or network
+  interaction is selectable only when the controlled character's matching
+  current attribute meets the displayed or applied threshold.
+- Includes: Cyberpunk 2077 Body, Intelligence, Technical Ability, Reflexes and
+  Cool contextual checks.
+- Excludes: perk-tree prerequisites; weapon stat requirements; lifepath-only
+  options with no attribute threshold.
+- Parameters: interaction, attribute, threshold, current value, modifier,
+  visibility and alternate route.
+- Evidence: [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Novelty: not assessed.
+
+## CON-338 — Hero and Team-Up changes require a legal spawn state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: one team slot may control only a currently available hero not
+  already occupied by that team, and hero or Team-Up loadout changes take
+  effect only through the permitted spawn-room selection state.
+- Includes: Marvel Rivals Quick Match team hero uniqueness, initial selection,
+  post-knockout swaps and Season 9 Team-Up option changes in spawn.
+- Excludes: role queue or a required 2-2-2 composition; a permanent match-long
+  draft commitment; cosmetic selection.
+- Parameters: team, slot, hero, duplicate state, spawn room, living state,
+  partner option and confirmation.
+- Evidence: [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md).
+- Novelty: not assessed.
+
+## CON-339 — Team-Up enhancement requires the selected allied partner
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a selected Team-Up loadout supplies its hero's base effect, but
+  its declared enhanced effect remains inactive unless the corresponding
+  designated partner is simultaneously present on the allied team.
+- Includes: Marvel Rivals Season 9 two-option Team-Up loadouts and partner-gated
+  enhanced hero effects.
+- Excludes: ordinary role synergy; a passive that never checks team composition;
+  an opponent copying a hero with an ultimate.
+- Parameters: selected option, owner, allied partner, base effect, enhanced
+  effect, partner arrival, partner departure and spawn change.
+- Evidence: [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md).
+- Novelty: not assessed.
+
+## CON-340 — Convergence capture and escort obey ordered control gates
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: attackers may escort only after completing the opening mission-area
+  capture, and either phase progresses only from eligible objective presence
+  without an active opposing contest.
+- Includes: Marvel Rivals Convergence capture-before-escort order, vehicle
+  checkpoints and contested stops.
+- Excludes: free vehicle driving; Domination control percentages; eliminating
+  all opponents as an independent terminal win.
+- Parameters: phase, objective, eligible side, presence, contest, checkpoint and route.
+- Evidence: [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md).
+- Novelty: not assessed.
+
+## CON-341 — Overtime requires continuing legal objective pressure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: clock expiry extends a Convergence phase only while attackers
+  maintain the mode's current capture or escort contest condition; once that
+  pressure clears long enough, defence receives the terminal result.
+- Includes: Marvel Rivals Convergence capture-point and mission-vehicle overtime.
+- Excludes: automatic extra time with no objective presence; competitive
+  tournament tie-break maps; a checkpoint's ordinary time award.
+- Parameters: clock, phase, attacker presence, contest, decay, clearance and result.
+- Evidence: [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md).
+- Novelty: not assessed.
+
+## CON-342 — Custom character creation obeys compatible build budgets
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a custom campaign character can be confirmed only when lineage,
+  class, background, ability point-buy, bonuses and proficiency choices satisfy
+  their current compatibility, minimum, maximum and budget rules.
+- Includes: Baldur's Gate 3 custom Tav character creation.
+- Excludes: cosmetic appearance; later respec services; fixed Origin builds.
+- Parameters: choice set, compatibility, point budget, minimum, maximum,
+  proficiency source, duplicate rule and confirmation.
+- Evidence: [Baldur's Gate 3 decomposition](../games/a-f/baldurs-gate-3.md).
+- Novelty: not assessed.
+
+## CON-343 — Combat turns are bounded by movement and action resources
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during one creature's combat turn, movement distance and each
+  Action, Bonus Action and Reaction may be spent only by a compatible action
+  while that resource remains available, unless a declared feature grants or
+  substitutes an additional resource.
+- Includes: Baldur's Gate 3 ordinary turn action economy.
+- Excludes: initiative ordering; spell-slot cost; real-time exploration input.
+- Parameters: creature, turn, movement, Action, Bonus Action, Reaction,
+  compatible cost, extra resource, substitution and refresh.
+- Evidence: [Baldur's Gate 3 decomposition](../games/a-f/baldurs-gate-3.md).
+- Novelty: not assessed.
+
+## CON-344 — Spell use obeys preparation, slot and concentration gates
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a spell may resolve only when learned or prepared and when its
+  casting, target, slot and class-resource costs are legal; one caster may
+  maintain no more than one concentration spell at a time.
+- Includes: Baldur's Gate 3 prepared and known spells, spell slots, upcasting
+  and concentration replacement.
+- Excludes: weapon attacks; item effects with no spell resource; dialogue checks.
+- Parameters: caster, known state, prepared state, action cost, slot level,
+  target, range, class resource, upcast and concentration occupant.
+- Evidence: [Baldur's Gate 3 decomposition](../games/a-f/baldurs-gate-3.md).
+- Novelty: not assessed.
+
+## CON-345 — Rest requires legal safety, remaining use or camp supplies
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: rest is unavailable in disallowing danger or authored areas; a
+  short rest requires a remaining charge, while a full long rest requires the
+  current difficulty's camp-supply threshold and otherwise resolves only a
+  partial rest.
+- Includes: Baldur's Gate 3 Balanced short-rest charges and 40-supply full rest.
+- Excludes: restoration pods; restorative potions; save loading.
+- Parameters: danger state, area permission, rest type, remaining charge,
+  difficulty, supply threshold, committed supply and partial-rest fallback.
+- Evidence: [Baldur's Gate 3 decomposition](../games/a-f/baldurs-gate-3.md).
+- Novelty: not assessed.
+
+## CON-346 — Deployment loadout must fit its selected class
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a legal combat loadout must select one class and use only the
+  Training Paths, gadget slots, class gadgets, throwable and currently
+  available weapons permitted for that class and playlist.
+- Includes: Battlefield 6 Open Weapons Conquest loadouts with class-bound
+  gadgets, Training Paths and signature equipment.
+- Excludes: cosmetic customisation; switching the active carried weapon;
+  Closed Weapons as the scoped playlist.
+- Parameters: class, playlist, unlock state, Training Path, weapon availability,
+  attachment points, gadget slots and throwable.
+- Evidence: [Battlefield 6 decomposition](../games/a-f/battlefield-6.md).
+- Novelty: not assessed.
+
+## CON-347 — Redeployment requires a ready and legal team source
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: redeployment is legal only after its current delay and at a team
+  headquarters, owned point, eligible non-combat squad source, active beacon
+  or compatible vehicle with a free usable seat.
+- Includes: Battlefield 6 Conquest deployment-map source eligibility.
+- Excludes: revival before death; direct walking; enemy-controlled objectives;
+  a full or unsafe vehicle seat.
+- Parameters: timer, team, source class, ownership, combat state, beacon state,
+  vehicle, seat and entry clearance.
+- Evidence: [Battlefield 6 decomposition](../games/a-f/battlefield-6.md).
+- Novelty: not assessed.
+
+## CON-348 — Control progress requires uncontested eligible presence
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: control-point progress toward one team requires at least one
+  eligible living member of that team inside the authored area and no eligible
+  opposing presence contesting it.
+- Includes: Battlefield 6 Conquest capture and neutralisation on foot or in an
+  eligible vehicle.
+- Excludes: ticket drain after ownership; a ranged kill outside the area;
+  capture-to-escort phase ordering.
+- Parameters: area, team, living state, vehicle eligibility, occupancy,
+  opposing presence, contest and progress direction.
+- Evidence: [Battlefield 6 decomposition](../games/a-f/battlefield-6.md).
+- Novelty: not assessed.
+
+## CON-349 — Authored route edges require their acquired capability
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an authored movement edge or mechanism is usable only after the
+  current save has retained its named traversal or interaction capability and
+  the avatar supplies the compatible input at that locus.
+- Includes: Hollow Knight: Silksong dash, glide or updraft, wall-cling and
+  Needolin gates on the scoped route to the Grand Gate.
+- Excludes: an ordinary jump available from the start; a purely narrative flag;
+  an optional shortcut that needs no acquired capability.
+- Parameters: route edge, mechanism, capability, locus, input and persistence.
+- Evidence: [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md).
+- Novelty: not assessed.
+
+## CON-350 — Equipped tools must fit the selected Crest's coloured slots
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a tool can become active only in an unlocked slot whose colour
+  accepts that tool under the currently selected Crest; changing Crest removes
+  assignments that the replacement layout cannot preserve.
+- Includes: Hollow Knight: Silksong red, blue and yellow Tool slots, Crest
+  layouts and Memory Locket slot unlocks.
+- Excludes: unrestricted carried inventory; cosmetic charms; changing only the
+  currently held weapon.
+- Parameters: Crest, slot colour, unlocked state, tool class, assignment and
+  replacement handling.
+- Evidence: [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md).
+- Novelty: not assessed.
+
+## CON-351 — Bind and Silk Skills require their declared Silk state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the Bind action is legal only when the current Silk spool is full and always
+  consumes that spool, while each Silk Skill requires and consumes its own
+  declared amount from the same bounded resource.
+- Includes: Hollow Knight: Silksong ordinary Bind, Silkspear and Needolin.
+- Excludes: a cooldown-only ability; passive Crest effects; ordinary needle
+  attacks that generate rather than spend Silk.
+- Parameters: current Silk, spool capacity, full predicate, Bind cost, skill
+  cost and disabled state.
+- Evidence: [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md).
+- Novelty: not assessed.
+
+## CON-352 — Only one unrecovered death-currency mark may persist
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the current save may retain only one unrecovered death-currency
+  mark; another ordinary death replaces it and permanently loses the currency
+  still stored in the earlier mark, including when the new stock is empty.
+- Includes: Hollow Knight: Silksong ordinary-mode Cocoon replacement; Elden
+  Ring replacement of the previous rune mark on a later death.
+- Excludes: several simultaneously recoverable item piles; permanent Steel
+  Soul death; currency protected before death in a separate string.
+- Parameters: existing mark, new death, old and new currency stocks,
+  replacement, protected currency and recovery state.
+- Evidence: [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md);
+  [Elden Ring decomposition](../games/a-f/elden-ring.md).
+- Novelty: not assessed.
+
+## CON-353 — Field weapon loadout contains one active and one mount-carried weapon
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: away from camp the hunter may retain exactly one active weapon
+  and one assigned secondary on the Seikret, and may exchange them only through
+  the eligible mounted interaction.
+- Includes: Monster Hunter Wilds two-weapon Seikret loadout.
+- Excludes: unrestricted access to equipment storage; carried consumables;
+  cosmetic weapon layers.
+- Parameters: active slot, secondary slot, camp assignment, mounted state,
+  exchange and weapon compatibility.
+- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Novelty: not assessed.
+
+## CON-354 — Weapon actions require stamina, maintenance and recovery state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a weapon move resolves only when its current stamina, sharpness
+  or ammunition requirement and previous-animation recovery state permit it.
+- Includes: Monster Hunter Wilds melee stamina and sharpness, ranged ammunition
+  and committed weapon animations.
+- Excludes: target-body legality after the move begins; inventory capacity;
+  long-term smithy upgrade requirements.
+- Parameters: weapon, move, stamina, sharpness, ammunition, charge, recovery
+  frame and cancel rule.
+- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Novelty: not assessed.
+
+## CON-355 — Focus Strike requires highlighted reachable body state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a Focus Strike can convert localized body state only when Focus
+  Mode exposes a compatible open wound or breakable part within the current
+  weapon's legal aim and reach.
+- Includes: Monster Hunter Wilds wound and breakable-part Focus Strike gates.
+- Excludes: ordinary attacks against intact body regions; passive highlighting;
+  a missed finisher outside reach.
+- Parameters: focus state, wound, body part, weapon, aim, reach and compatibility.
+- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Novelty: not assessed.
+
+## CON-356 — Hunt must finish before timer or faint allowance failure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an active quest succeeds only if its declared target condition is
+  completed before the quest clock expires or the finite shared faint
+  allowance is exhausted.
+- Includes: Monster Hunter Wilds early assignment success and failure.
+- Excludes: unrestricted expedition play; permanent save deletion; optional
+  performance medals after a successful quest.
+- Parameters: target, completion form, timer, remaining faints, failure event
+  and retry boundary.
+- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Novelty: not assessed.
+
+## CON-357 — Crafting and smithing require recipe inputs and currency
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: creating a carried item or equipment result requires its known
+  recipe, every compatible retained material quantity and any declared zenny
+  or facility prerequisite.
+- Includes: Monster Hunter Wilds field item crafting and smithy equipment
+  creation or upgrades.
+- Excludes: gathering raw material; a free quest reward; cosmetic DLC delivery.
+- Parameters: recipe, ingredient, material category, quantity, zenny, facility,
+  prerequisite and result.
+- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Novelty: not assessed.
+
+## CON-358 — Gathering and carving require an eligible finite source
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a material extraction resolves only when the addressed source is
+  reachable, eligible in the current state and retains at least one yield or
+  carve opportunity within its interaction window.
+- Includes: Monster Hunter Wilds field gathering and post-hunt large-monster
+  carving.
+- Excludes: automatic quest rewards; inventory pickup of an already loose item;
+  an exhausted or expired carcass.
+- Parameters: source, reach, eligibility, remaining yields, carve count,
+  interaction window and result table.
+- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Novelty: not assessed.
+
+## CON-359 — Attribute requirements and equipment load gate combat form
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: effective armament use and dodge form depend on meeting declared
+  attributes and remaining within the current equipment-load tier.
+- Includes: Elden Ring armament requirements and light, medium or heavy load.
+- Excludes: cosmetic weight; temporary slow alone; inventory stack capacity.
+- Parameters: requirements, attributes, weight, capacity, ratio and dodge tier.
+- Evidence: [Elden Ring decomposition](../games/a-f/elden-ring.md).
+- Novelty: not assessed.
+
+## CON-360 — Spirit Ash requires one eligible monument-bounded summon state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: spirit Ash use is legal only with its bell and resource inside an
+  eligible monument area, outside multiplayer and without another active spirit.
+- Includes: Elden Ring early field and boss Spirit Ash restrictions.
+- Excludes: NPC summon signs; online co-op; unrestricted companion deployment.
+- Parameters: bell, cost, area, multiplayer, concurrent spirit and boss state.
+- Evidence: [Elden Ring decomposition](../games/a-f/elden-ring.md).
+- Novelty: not assessed.
+
+## CON-361 — Only the latest unrecovered death rune mark persists
+
+- Lifecycle: `Merged`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: historical Elden Ring object-specific duplicate of the
+  single-unrecovered death-currency-mark constraint represented by `CON-352`.
+- Includes: historical references to replacing an unclaimed Elden Ring rune
+  mark on a later death.
+- Excludes: new game signatures; use `CON-352` with the relevant mark,
+  protected-currency and old/new-stock parameters.
+- Parameters: none; preserved as a lifecycle alias.
+- Evidence: [Elden Ring decomposition](../games/a-f/elden-ring.md).
+- Merged into: `CON-352` by
+  [`TAXONOMY_CHANGE_011`](../../research/taxonomy-changes/TAXONOMY_CHANGE_011.md).
+
+## CON-362 — Attribute levelling requires its unlocked escalating rune price
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: one attribute increase is legal only after levelling unlock and
+  when carried runes meet the displayed price for the next character level.
+- Includes: Elden Ring Grace levelling after Melina's accord.
+- Excludes: free respec; experience thresholds; weapon reinforcement.
+- Parameters: unlock, level, attribute, price curve and carried runes.
+- Evidence: [Elden Ring decomposition](../games/a-f/elden-ring.md).
+- Novelty: not assessed.
+
+## CON-363 — Ash assignment requires compatible armament and affinity unlock
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an Ash of War or affinity may be assigned only to a compatible
+  retained armament and within the affinities enabled by owned whetblades.
+- Includes: Elden Ring early Whetstone Knife configuration.
+- Excludes: using the skill; spell memorisation; reinforcement upgrading.
+- Parameters: ash, armament class, affinity, whetblade and existing skill.
+- Evidence: [Elden Ring decomposition](../games/a-f/elden-ring.md).
+- Novelty: not assessed.
+
+## CON-364 — Live combat and destination state gate map travel
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: map access or fast travel is unavailable during live hostile
+  engagement and travel requires a discovered eligible destination.
+- Includes: Elden Ring map combat lock and discovered-Grace fast travel.
+- Excludes: ordinary walking; scripted transfer; unrestricted teleportation.
+- Parameters: combat state, map state, destination, discovery and dungeon lock.
+- Evidence: [Elden Ring decomposition](../games/a-f/elden-ring.md).
+- Novelty: not assessed.
+
+## CON-365 — Finite flask charges are allocated between HP and FP recovery
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a bounded total charge stock is divided between Crimson and
+  Cerulean flasks, and each use requires one remaining charge of that type.
+- Includes: Elden Ring early sacred-flask allocation and use.
+- Excludes: Wondrous Physick mixture; passive regeneration; unlimited potions.
+- Parameters: total charges, HP charges, FP charges, remaining uses and refill.
+- Evidence: [Elden Ring decomposition](../games/a-f/elden-ring.md).
+- Novelty: not assessed.
+
+## CON-366 — Crafting requires recipe inputs and reachable station context
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a recipe is currently craftable only when every required input
+  quantity is available in an eligible carried, opened or nearby inventory and
+  the player is within range of every required station or environmental source.
+- Includes: Terraria 1.4.5.6 by-hand and station recipes, opened storage and the
+  optional craft-from-nearby-chests context.
+- Excludes: Minecraft spatial ingredient arrangement; recipe discovery itself;
+  an autonomous machine's continuous production state.
+- Parameters: recipe, input, quantity, inventory source, source priority,
+  station set, environment and reach.
+- Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Novelty: not assessed.
+
+## CON-367 — Town housing requires a safe furnished room and valid home tile
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a town NPC may occupy a room only when its frame and safe
+  background walls bound an accepted area, required light, entrance, table and
+  comfort categories exist, one standing home tile is legal, the room is
+  vacant and nearby world evil remains below the invalidation threshold.
+- Includes: Terraria ordinary town-NPC housing validity.
+- Excludes: a bed-only player spawn room; enemy-proof construction as such;
+  biome happiness and price optimisation after admission.
+- Parameters: area, frame, wall holes, safe walls, furniture, home tile,
+  occupancy, edge distance and evil score.
+- Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Novelty: not assessed.
+
+## CON-368 — Town-NPC arrival requires its milestone and vacant valid housing
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a town NPC can arrive or respawn only after its declared world,
+  inventory, currency, health or boss condition persists and at least one
+  unoccupied valid house is available under the current time and visibility rules.
+- Includes: Terraria Merchant, Nurse, Demolitionist and Dryad arrival gates.
+- Excludes: the starting Guide; Traveling Merchant visits; hostile spawn tables.
+- Parameters: NPC, milestone, world flag, player state, vacancy, daytime,
+  offscreen state and arrival delay.
+- Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Novelty: not assessed.
+
+## CON-369 — Eye encounter requires a legal night summon or natural-spawn state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the Eye of Cthulhu may enter only through one consumed Suspicious
+  Looking Eye at night or its unmet-world natural-spawn predicates, cannot be
+  duplicated while a boss is active and must be defeated before dawn escape.
+- Includes: Terraria 1.4.5.6 manual and natural first-Eye conditions.
+- Excludes: later boss summons; keeping the Eye active through daylight;
+  Expert-only encounter behaviour.
+- Parameters: time, summon item, prior defeat, health, defence, town count,
+  active boss, surface presence, countdown and dawn.
+- Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Novelty: not assessed.
+
+## CON-370 — Healing-item use requires missing health and no Potion Sickness
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an immediate healing item may be consumed only while health is
+  below its maximum and the current Potion Sickness timer permits another use;
+  successful use starts the item's declared lockout.
+- Includes: Terraria mushrooms and Lesser Healing Potions before and during the
+  first Eye of Cthulhu fight.
+- Excludes: passive regeneration; mana-only items; a flask refilled at a checkpoint.
+- Parameters: health, maximum, item, healing amount, sickness duration and timer.
+- Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Novelty: not assessed.

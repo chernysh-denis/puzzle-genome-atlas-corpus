@@ -759,48 +759,301 @@
     "label": "Запустити снаряд, зруйнувати опору й обвалити конструкцію",
     "decisionStructure": "Гравець витрачає одну пташку зі скінченної черги, обирає напрям і силу рогатки та підтверджує запуск. Фізичний удар пошкоджує матеріали; втрата опори змушує вцілілі елементи падати й продовжувати каскад, доки всі цілі не знищено або запас не вичерпано.",
     "novelty": "Серед 116 зареєстрованих комбінацій немає точного дубліката набору генів; одноносійна межа очікує незалежного повторення.",
-    "reviewed": "2026-08-16", "batch": "UK-COMB-0109"
+    "reviewed": "2026-08-16",
+    "batch": "UK-COMB-0109"
   },
   "COMB-0110": {
     "label": "Перенести підказки крізь ланцюг взаємозалежних механізмів",
     "decisionStructure": "Гравець досліджує авторський простір, помічає видимий результат одного механізму й використовує його для вибору стану наступного. Лише правильна послідовність залежностей відкриває доступ до книги-переходу.",
     "novelty": "Серед 116 зареєстрованих комбінацій немає точного дубліката набору генів; одноносійна межа очікує незалежного повторення.",
-    "reviewed": "2026-08-16", "batch": "UK-COMB-0110"
+    "reviewed": "2026-08-16",
+    "batch": "UK-COMB-0110"
   },
   "COMB-0111": {
     "label": "Підняти шарнірне тіло почерговими фізичними хватами",
     "decisionStructure": "Гравець підводить кожну руку до досяжної опори, утримує реальний контакт і переносить вагу шарнірного тіла. Чергування хватів і опори ніг дає змогу підтягнути аватара на наступний майданчик.",
     "novelty": "Серед 116 зареєстрованих комбінацій немає точного дубліката набору генів; одноносійна межа очікує незалежного повторення.",
-    "reviewed": "2026-08-16", "batch": "UK-COMB-0111"
+    "reviewed": "2026-08-16",
+    "batch": "UK-COMB-0111"
   },
   "COMB-0112": {
     "label": "Узгодити чотири портали двох агентів для спільного виходу",
     "decisionStructure": "Кожен із двох агентів керує власною парою порталів. Гравці узгоджують чотири канали, переміщення куба, кнопки й власні проходи так, щоб одночасно виконати авторські умови виходу.",
     "novelty": "Серед 116 зареєстрованих комбінацій немає точного дубліката набору генів; одноносійна межа в межах однієї франшизи очікує незалежного носія кооперативних порталів.",
-    "reviewed": "2026-08-16", "batch": "UK-COMB-0112"
+    "reviewed": "2026-08-16",
+    "batch": "UK-COMB-0112"
   },
   "COMB-0113": {
     "label": "Очистити помаранчеві цілі скінченними рикошетними пострілами",
     "decisionStructure": "Гравець прицілює одну кульку й витрачає її запуск. Система проводить кульку через послідовність фізичних рикошетів, активує торкнуті кілочки й іноді повертає кульку рухомим відром; усі помаранчеві цілі треба прибрати до вичерпання запасу.",
     "novelty": "Серед 116 зареєстрованих комбінацій немає точного дубліката набору генів; її балістичне ядро незалежно повторно використовує три гени Angry Birds.",
-    "reviewed": "2026-08-16", "batch": "UK-COMB-0113"
+    "reviewed": "2026-08-16",
+    "batch": "UK-COMB-0113"
   },
   "COMB-0114": {
     "label": "Розпакувати речі й розкласти їх у допустимих місцях кімнати",
     "decisionStructure": "Гравець послідовно виймає сталі речі з коробок і розміщує їх без накладання на видимих опорах. Після спорожнення коробок система позначає предмети, чиї опора, контейнер або кімната не відповідають їхньому призначенню.",
     "novelty": "Серед 116 зареєстрованих комбінацій немає точного дубліката набору генів; одноносійна межа очікує незалежного повторення.",
-    "reviewed": "2026-08-16", "batch": "UK-COMB-0114"
+    "reviewed": "2026-08-16",
+    "batch": "UK-COMB-0114"
   },
   "COMB-0115": {
     "label": "Обрати авторський маршрут і дійти до озвученого фіналу",
     "decisionStructure": "Гравець перетинає поріг одного з доступних маршрутів. Вибір фіксує авторську гілку, змінює реакцію оповідача й подальші простори та веде до одного термінального фіналу.",
     "novelty": "Серед 116 зареєстрованих комбінацій немає точного дубліката набору генів; одноносійна межа очікує незалежного повторення.",
-    "reviewed": "2026-08-16", "batch": "UK-COMB-0115"
+    "reviewed": "2026-08-16",
+    "batch": "UK-COMB-0115"
   },
   "COMB-0116": {
     "label": "Отримати зовнішню підказку й застосувати її всередині світу",
     "decisionStructure": "Визначений стан гри створює потрібну підказку поза звичайним видом світу. Гравець переглядає зовнішній артефакт, повертається до адресованої головоломки й вводить отриману інформацію, якої немає в самій кімнаті.",
     "novelty": "Серед 116 зареєстрованих комбінацій немає точного дубліката набору генів; одноносійна межа очікує незалежного повторення.",
-    "reviewed": "2026-08-16", "batch": "UK-COMB-0116"
+    "reviewed": "2026-08-16",
+    "batch": "UK-COMB-0116"
+  },
+  "COMB-0117": {
+    "label": "Зонувати, обслуговувати й фінансувати місто, що розвивається самостійно",
+    "decisionStructure": "Гравець дозволяє приватне використання землі, будує потрібні служби й налаштовує податки або фінансування. Попит і привабливість визначають автономну забудову, а регулярні доходи й утримання — чи можна її підтримувати.",
+    "novelty": "Незалежне повторення підтверджено в SimCity 4 Deluxe Edition і Cities: Skylines; серед інших 118 зареєстрованих комбінацій немає точного дубліката набору генів.",
+    "reviewed": "2026-08-18",
+    "batch": "UK-COMB-0117"
+  },
+  "COMB-0118": {
+    "label": "Побудувати й забезпечити живу автоматизовану виробничу мережу",
+    "decisionStructure": "Гравець розміщує й налаштовує сумісні машини, подає їм матеріали через логістику та електромережу, розширює видобуток і дослідження, доки жива фабрика не виготовить залежності для першої ракети.",
+    "novelty": "Серед 118 зареєстрованих комбінацій немає точного дубліката набору генів; повторення очікується в наступних іграх фабричної родини.",
+    "reviewed": "2026-08-18",
+    "batch": "UK-COMB-0118"
+  },
+  "COMB-0119": {
+    "label": "Розвивати постійну колоду через бої з наперед показаними намірами",
+    "decisionStructure": "Гравець витрачає відновлювану енергію на карти, читає наміри ворогів і завершує хід. Здоров’я та змінена колода переходять між вузлами, а після боїв можна прийняти або пропустити нову карту, доки третій бос не переможений або здоров’я не вичерпане.",
+    "novelty": "Серед 119 зареєстрованих комбінацій немає точного дубліката; повторення очікується в інших колодобудівних roguelike.",
+    "reviewed": "2026-08-18",
+    "batch": "UK-COMB-0119"
+  },
+  "COMB-0120": {
+    "label": "Перетворювати й доставляти точні форми живою фабрикою",
+    "decisionStructure": "Гравець редагує живу мережу, що нескінченно видобуває форми, транспортує їх через фіксовані геометричні операції та подає точні результати до Вихору. Завершення видимої квоти відкриває наступну операцію або засіб масштабування, доки скінченну кваліфікацію не пройдено.",
+    "novelty": "Серед 120 зареєстрованих комбінацій немає точного дубліката; незалежне повторення очікується в інших чистих фабричних іграх.",
+    "reviewed": "2026-08-18",
+    "batch": "UK-COMB-0120"
+  },
+  "COMB-0121": {
+    "label": "Вести бій у парних смугах, оплачуючи істот жертвами",
+    "decisionStructure": "Гравець обирає основну або білчину колоду, за потреби жертвує дружніх істот за кров, отримує кістки від загибелі й ставить нову істоту у вільну смугу. Після дзвінка дружні карти атакують, показана черга суперника просувається, а відкрита смуга змінює спільну шкалу переваги.",
+    "novelty": "Серед 121 зареєстрованої комбінації немає точного дубліката; одноносійна межа очікує незалежного повторення в іншій грі з картковими смугами.",
+    "reviewed": "2026-08-18",
+    "batch": "UK-COMB-0121"
+  },
+  "COMB-0122": {
+    "label": "Керувати поселенням із працівниками під зростальним тиском Бурі",
+    "decisionStructure": "Гравець розподіляє скінченних працівників, обирає будівлі й готує виробничі ланцюги до наступної Бурі. Розширення підвищує ворожість, потреби визначають рішучість видів, висока рішучість додає репутацію, а час і провали наближають нетерпіння Королеви до поразки.",
+    "novelty": "Серед 121 попередньої зареєстрованої комбінації немає точного дубліката; повторення очікується в інших колоніальних симуляціях із живим тиском.",
+    "reviewed": "2026-08-18",
+    "batch": "UK-COMB-0122"
+  },
+  "COMB-0123": {
+    "label": "Спрямовувати автономну працю колонії всередині спроєктованого життєзабезпечення",
+    "decisionStructure": "Гравець позначає роботу, будівництво й кадрові правила у живому матеріальному світі. Доступні Дубліканти самі ранжують доручення, рухаються до них і виконують роботу, водночас споживаючи кисень, їжу та час. Будівлі, труби, електрика й автоматизація змінюють ті самі потоки газу, рідини й тепла, від яких залежить виживання працівників; навички розширюють доступну роботу, але підвищують очікування моралі та ризик стресу.",
+    "novelty": "Серед 122 попередніх зареєстрованих комбінацій немає точного дубліката; Dwarf Fortress є наступною запланованою перевіркою повторюваності автономної колоніальної праці.",
+    "reviewed": "2026-08-18",
+    "batch": "UK-COMB-0123"
+  },
+  "COMB-0124": {
+    "label": "Автономна робота фортеці через позначення й політику постачання",
+    "decisionStructure": "Гравець позначає просторову роботу, пріоритети, фільтри складів і умовні виробничі накази. Придатні мешканці самі беруть доручення, прокладають маршрут, переносять матеріали й виконують роботу, доки заданий запас не буде відновлено.",
+    "novelty": "Серед 124 перевірених пізніше комбінацій немає точного дубліката; RimWorld не повторив межу скінченних зайнятих робочих місць.",
+    "reviewed": "2026-08-18",
+    "batch": "UK-COMB-0124"
+  },
+  "COMB-0125": {
+    "label": "Автономна праця колонії з прямим тактичним перехопленням",
+    "decisionStructure": "Постійні позначення, пріоритети, рахунки, склади й особисті політики створюють автономну працю. Коли оповідач вводить загрозу, гравець мобілізує конкретних мешканців, тимчасово замінює робочу автономію точними позиціями й цілями, а після кризи повертає їх до тих самих правил колонії.",
+    "novelty": "Серед 124 попередніх зареєстрованих комбінацій немає точного дубліката.",
+    "reviewed": "2026-08-18",
+    "batch": "UK-COMB-0125"
+  },
+  "COMB-0126": {
+    "label": "Вести живу фабрику через поставки матеріалів і аварійне вимкнення мережі",
+    "decisionStructure": "Гравець налаштовує сумісні машини, поєднує безперервну конвеєрну й трубопровідну логістику, керує пропускною здатністю та head lift і тримає спільну електромережу в межах потужності. Нескінченні просторові вузли живлять ланцюг залежностей; кожна повна заявлена поставка відкриває наступні можливості до фінального запуску Project Assembly.",
+    "novelty": "Серед 126 зареєстрованих комбінацій немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-20",
+    "batch": "UK-COMB-0126"
+  },
+  "COMB-0127": {
+    "label": "Ручне voxel-виживання через crafting, портали й The End",
+    "decisionStructure": "Гравець окремо руйнує, підбирає й розміщує voxel-блоки, складає точні рецепти та переживає матеріально втратну смерть. Ресурсний ланцюг відкриває Nether, витратні напрямки Eyes of Ender, stronghold і завершену рамку End portal; у фіналі можна прибрати лікування Dragon від кристалів перед входом у вихідний портал.",
+    "novelty": "Серед 127 зареєстрованих комбінацій немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-20",
+    "batch": "UK-COMB-0127"
+  },
+  "COMB-0128": {
+    "label": "Утримувати опалюване паливом місто під законами й тиском бурі",
+    "decisionStructure": "Гравець з’єднує споруди вулицями, забезпечує їх працівниками й теплом, витрачає вугілля та лікує наслідки холоду. Незворотні закони змінюють виробництво й добробут, Hope та Discontent обмежують владу, а відомий прогноз змушує накопичити ресурси й медичну спроможність до Great Storm.",
+    "novelty": "Серед 128 зареєстрованих комбінацій немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-20",
+    "batch": "UK-COMB-0128"
+  },
+  "COMB-0129": {
+    "label": "Розгорнути міжзоряну фабрику до зоряної енергії й фінального matrix research",
+    "decisionStructure": "Гравець розширює виробництво зі скінченних deposits, з’єднує planetary factories через supply/demand stations і відкриває керований warp. Ejectors і silos перетворюють повторювану продукцію на orbiting sails та planned structure; Ray Receivers дають Critical Photons, antimatter і Universe Matrices для Mission Completed!.",
+    "novelty": "Серед 129 зареєстрованих комбінацій немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-20",
+    "batch": "UK-COMB-0129"
+  },
+  "COMB-0130": {
+    "label": "Перетворити рівневе населення островів на міжрегіональну виставкову економіку",
+    "decisionStructure": "Гравець забезпечує basic needs, підвищує residences і тим самим змінює tiered workforce для нових production chains. Циклічні ship routes перевозять fertility-specific goods між регіонами; видимі needs, storage й throughput ведуть до Investors, electricity, material phases World’s Fair та першої завершеної exhibition.",
+    "novelty": "Серед 130 зареєстрованих комбінацій немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-20",
+    "batch": "UK-COMB-0130"
+  },
+  "COMB-0131": {
+    "label": "Перетворити сезонну водну інженерію на автоматизовану економіку дива",
+    "decisionStructure": "Гравець утримує чисту воду під час drought і відводить badwater, щоб зберегти irrigated crops, food, housing і Folktail workforce. Автономні errands, hauling, shaft power та sensor logic підтримують advanced chains; staffed science відкриває Earth Recultivator, а точні build і activation supplies ведуть до першого запуску.",
+    "novelty": "Серед 131 зареєстрованої комбінації немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-COMB-0131"
+  },
+  "COMB-0132": {
+    "label": "Перетворити фізичну планову економіку на ядерно-паливне завершення кампанії",
+    "decisionStructure": "Citizens фізично дістаються staffed jobs; offices і lines возять будматеріали та cargo; utilities підтримують виробництво; responsive border trade фінансує дефіцити; university work відкриває nuclear chain, а фактичний export fuel завершує measured campaign branch.",
+    "novelty": "Серед 132 зареєстрованих комбінацій немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-COMB-0132"
+  },
+  "COMB-0133": {
+    "label": "Перетворити terrain haulage й island industry на перший запуск ракети",
+    "decisionStructure": "Tower-bounded excavators і trucks переносять скінченний terrain у cargo та нову землю; buffer-driven logistics, settlement Unity і maintenance підтримують research та contracts; world nodes продовжують supply, а assembled rocket мусить пройти рівним corridor до pad із fuel і water, щоб завершити first-launch endpoint.",
+    "novelty": "Серед 133 зареєстрованих комбінацій немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-COMB-0133"
+  },
+  "COMB-0134": {
+    "label": "Перетворити роботизовану марсіанську колонію на придбану незалежність",
+    "decisionStructure": "Commander-bounded drones будують і ремонтують stored life support; universal rockets і shuffled research вирощують individual-colonist settlement крізь Martian hazards; representative law votes формують Assembly, а faction/sponsor gates перетворюють declaration на resource- і funding-backed purchase of independence.",
+    "novelty": "Серед 134 зареєстрованих комбінацій немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-COMB-0134"
+  },
+  "COMB-0135": {
+    "label": "Поєднати раундову економіку з bomb-defusal counterplay",
+    "decisionStructure": "Teams купують і передають equipment, виводять opponent state з local sight/sound, radar і cues та розігрують one-life rounds. Timeout, plant, defuse, explosion і elimination змінюють score/economy, а halftime міняє ролі до finite match result.",
+    "novelty": "Серед 135 зареєстрованих комбінацій немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-COMB-0135"
+  },
+  "COMB-0136": {
+    "label": "Перетворити туманну lane economy на знищення Ancient",
+    "decisionStructure": "Five committed heroes перетворюють last hits і proximity на levels, build points та assembled items, поки lane waves відкривають і contest space. Death, respawn, buyback і courier logistics оцінюють lost fights; vision визначає actionable fights, а ordered building loss веде через barracks pressure до exposed Ancient.",
+    "novelty": "Серед 136 зареєстрованих комбінацій немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-COMB-0136"
+  },
+  "COMB-0137": {
+    "label": "Захопити companion для party combat або base labour",
+    "decisionStructure": "Displayed probabilistic capture створює one persistent owned Pal. Palbox transfer розміщує його в bounded party чи base roster: deployed Pal follows і fights, а base Pal виконує лише suitability-compatible reachable work під priority, food, SAN, health і storage gates.",
+    "novelty": "Серед 136 зареєстрованих комбінацій немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-COMB-0137"
+  },
+  "COMB-0138": {
+    "label": "Перетворити повітряне висадження на одноразове виживання в зоні, що стискається",
+    "decisionStructure": "Випадкова aircraft route обмежує reachable landing; керований descent фіксує opening position, а distributed loot і finite capacity створюють тимчасовий loadout. Vehicles і restorative casts обмінюють noise або exposure на rotation і survival, поки successive safe areas стискаються за live clock. Lethal defeat назавжди зменшує visible survivor count, доки не лишиться один учасник.",
+    "novelty": "Серед 137 раніше зареєстрованих комбінацій немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-COMB-0138"
+  },
+  "COMB-0139": {
+    "label": "Розвинути офлайн-стійку claimed base до explosive breach перед wipe",
+    "decisionStructure": "Harvested і looted stacks проходять через hand-crafting, processors та personal blueprint knowledge у connected building grades. Tool Cupboard поєднує authority з typed upkeep, а locks відділяють permission від physical reach. Sleeping Bags і death drops роблять втрату відновлюваною, але server time лишає sleepers, storage та structure відкритими для offline raid. Ordered Workbench progression веде до explosive breach, а scheduled wipe обмежує весь накопичений стан.",
+    "novelty": "Серед 138 раніше зареєстрованих комбінацій немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-COMB-0139"
+  },
+  "COMB-0140": {
+    "label": "Довести локально сприймане тілесне виживання до остаточної смерті",
+    "decisionStructure": "Balanced occupation/trait build входить у seeded Knox Country. Local sight і emitted noise визначають zombie pursuit, поки vulnerable timed looting, crafting, treatment, sleep, barricading і farming просувають needs, wounds та calendar. Ordinary care не лікує established Knox Infection; barricades лишаються destructible, utilities й food decay, а seasonal crop потребує довгого догляду. Жоден shelter або day milestone не завершує run — irreversible death фіксує результат одного життя.",
+    "novelty": "Серед 139 раніше зареєстрованих комбінацій немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-COMB-0140"
+  },
+  "COMB-0141": {
+    "label": "Перетворити втрату PvPvE-вилазки на збережений розвиток майстерні",
+    "decisionStructure": "Retained або Free Loadout входить у condition-bound shared raid; timed search, local sight/sound, ARC telegraphs і combat роблять loot тимчасовим. Safe Pocket захищає лише eligible bounded items. Extraction banks ordinary carried state, knockout forfeits його, а retained branch живить stash, Workshop, repair і persistent skill choices для наступного loadout.",
+    "novelty": "Серед 140 зареєстрованих комбінацій немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-COMB-0141"
+  },
+  "COMB-0142": {
+    "label": "Перетворити реактивне виконання ходів на опановані пасивні збірки",
+    "decisionStructure": "Visible initiative queue дає одному character self-paced AP plan. Skill або Free Aim переходить у live offensive timing, а enemy turn — у per-hit dodge/parry/jump sequence. Victory awards XP і Picto mastery; levels відкривають bounded build choices, а four-battle mastery перетворює slot-bound passive на reusable Lumina, усе ще обмежену capacity.",
+    "novelty": "Серед 141 зареєстрованої комбінації немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-COMB-0142"
+  },
+  "COMB-0143": {
+    "label": "Перетворити дію трьох героїв у світі з розшуком на сплановане пограбування",
+    "decisionStructure": "Живий населений світ поєднує прямий рух, транспорт і стрілянину зі свідками та police pursuit. GPS і search state спрямовують маршрут, але не виконують його. Три герої зберігають окремий стан; legal switch передає керування, а special meter змінює відповідний контекст. Mission gates і checkpoint retry обмежують спробу. Heist approach та complete specialist roles визначають setups, mistakes і net take, а exclusive terminal choice фіксує останню місію, surviving roster і Story Complete.",
+    "novelty": "Серед 142 раніше зареєстрованих комбінацій немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-COMB-0143"
+  },
+  "COMB-0144": {
+    "label": "Перетворити обмежену кібернетичну збірку й злом на збережені сюжетні гілки",
+    "decisionStructure": "Lifepath і attributes фіксують одного persistent героя та contextual options. Scanner відкриває partial hostile state і legal quickhacks; RAM, access, upload queue і trace поєднують інформацію з live stealth/combat. Cyberware slots і capacity перетворюють build на armour, attunement та abilities. XP, skills, Street Cred і level scaling змінюють подальші можливості, а retained responses та ordered main jobs ведуть до exclusive first ending; saves дозволяють відгалузити інше продовження.",
+    "novelty": "Серед 143 раніше зареєстрованих комбінацій немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-COMB-0144"
+  },
+  "COMB-0145": {
+    "label": "Переналаштовувати геройську команду для захоплення й супроводу",
+    "decisionStructure": "Hero і Team-Up option змінюються лише в spawn, а allied partner вмикає enhanced effect. Direct movement, aim, typed abilities, ultimate energy і timed respawn визначають live fights; objective presence спочатку захоплює mission area, потім рухає або зупиняє vehicle через checkpoints. Destructible geometry змінює cover, а legal pressure підтримує overtime до terminal attack або defence result.",
+    "novelty": "Серед 144 раніше зареєстрованих комбінацій немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-COMB-0145"
+  },
+  "COMB-0146": {
+    "label": "Поєднати d20-вибір із партійною тактикою та наслідками кампанії",
+    "decisionStructure": "Custom build визначає dialogue checks і combat options. Visible d20, modifiers, advantage і Inspiration переводять response у retained quest/approval state. Initiative дає чотиримісній party movement, Action, Bonus Action і Reaction; spells, concentration, sight та surfaces змінюють battlefield, а Downed/death saves створюють recoverable defeat. Short і supply-backed long rests відновлюють різні resources та можуть просунути camp state; XP і retained branches ведуть до першого знищення Netherbrain.",
+    "novelty": "Серед 145 раніше зареєстрованих комбінацій немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-COMB-0146"
+  },
+  "COMB-0147": {
+    "label": "Перетворити загальновійськовий контроль території на втрату підкріплень",
+    "decisionStructure": "Класове спорядження й загін створюють мережу висадження зі штабу, захоплених точок, бійців загону, маяків і місць у техніці. Пристрої лікують, поповнюють запаси, виявляють і ремонтують; техніка та руйновані укриття змінюють доступ до точок. Оживлення повертає пораненого союзника без втрати підкріплення, тоді як сплив кров’ю фіксує смерть і списання. Присутність без протидії передає володіння точкою, після чого кожна утримувана точка раз по раз виснажує ворожі підкріплення до нульового результату.",
+    "novelty": "Серед 146 раніше зареєстрованих комбінацій немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-COMB-0147"
+  },
+  "COMB-0148": {
+    "label": "Поєднати здібнісне сходження з Silk, Crests і відновлюваною смертю",
+    "decisionStructure": "Needle hits наповнюють один Silk spool, який витрачається на full Bind або learned Skills. Bench фіксує respawn і відновлює state ціною повернення ordinary enemies. Death зберігає route acquisitions, але створює один Rosary Cocoon і тимчасову Silk cap; second death до recovery замінює його. Swift Step, Drifter's Cloak, Cling Grip і Needolin відкривають authored edges, а Crest змінює attack geometry, Bind aftermath і legal Tool slots. П'ять shrine flags разом із Needolin відкривають Grand Gate, Last Judge і Act 2 transition.",
+    "novelty": "Серед 147 раніше зареєстрованих комбінацій немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-COMB-0148"
+  },
+  "COMB-0149": {
+    "label": "Поєднати відстежуване вершницьке переслідування, рани й підготовку до полювання",
+    "decisionStructure": "Scoutflies задають target route, яким Seikret рухається автоматично зі збереженням manual deviation і mounted second-weapon swap. Direct attacks змінюють localized body state; Focus Mode відкриває wound, а legal Focus Strike перетворює його на damage, control і material. Monster мігрує між zones, поки Palico й locale conditions діють автономно. Faint витрачає finite allowance і повертає hunter до camp; target defeat відкриває carves, rewards і next story gate, а materials живлять наступне equipment.",
+    "novelty": "Серед 148 раніше зареєстрованих комбінацій немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-COMB-0149"
+  },
+  "COMB-0150": {
+    "label": "Поєднати відновлення біля Grace, ризик рун і ворота Stormveil",
+    "decisionStructure": "Grace відновлює build і повертає field enemies. Runes можна витратити на chosen attribute або ризикувати ними: death створює one recoverable mark, а second death його замінює. Armament requirements, load tier, stamina, FP і flask split визначають legal attacks, evasions та recovery. Torrent розширює preparation routes, один Spirit Ash дає monument-bounded autonomous support, а live stance/health combat із Margit перетворює підготовку на доступ до Stormveil.",
+    "novelty": "Серед 149 раніше зареєстрованих комбінацій немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-COMB-0150"
+  },
+  "COMB-0151": {
+    "label": "Поєднати змінюваний terrain, station crafting, housing і першого Eye",
+    "decisionStructure": "Гравець досліджує seeded клітинний world, руйнує й ставить terrain, переносить bounded inventory та через nearby stations перетворює ресурси на equipment, лікування й summon. Day-night ecology змінює локальні загрози; Life Crystals постійно підвищують health, а housing query відокремлює valid furnished room від декорації. Legal night Eye encounter переходить у швидшу другу фазу й мусить завершитися до dawn; first defeat створює milestone, що разом із vacant valid house допускає Dryad.",
+    "novelty": "Серед 150 раніше зареєстрованих комбінацій немає точного дубліката; незалежне повторення ще не перевірено.",
+    "reviewed": "2026-08-21",
+    "batch": "UK-COMB-0151"
   }
 }

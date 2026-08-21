@@ -186,13 +186,24 @@
   updates and released-body gravity remain live; changing Manifold Garden's
   gravity frame or steering a periodic fall while body physics continues;
   carrying, dropping and crossing Maquette's recursive key while held pose,
-  collision and avatar motion remain live.
+  collision and avatar motion remain live; placing, configuring or removing
+  Factorio factory entities while mining, transport, crafting, research,
+  electricity, pollution and hostile agents continue to advance on the live
+  simulation clock; editing SimCity 4 or Cities: Skylines roads, zones,
+  services and policy while development, traffic and finances continue on the
+  running clock; navigating, aiming, fighting, hacking and driving while
+  Cyberpunk 2077 world agents and combat continue in real time; moving,
+  attacking, healing, casting and contesting while Marvel Rivals combat and
+  objective clocks remain live; navigating, striking, casting, binding and
+  evading while Hollow Knight: Silksong enemies and hazards continue in real
+  time.
 - Excludes: a discrete input followed by completed automatic resolution;
   self-paced actions with no time-driven state change; an external timer that
   only measures performance.
 - Parameters: update frequency, input-repeat timing, pause rule and speed
   progression. A pause command may provide unbounded planning time without
   changing the fact that running simulation time independently mutates state.
+- Evidence: [Factorio decomposition](../games/a-f/factorio.md).
 - Evidence: [Tetris decomposition](../games/s-z/tetris.md),
   [Pipe Mania decomposition](../games/m-r/pipe-mania.md), and
   [Mini Metro decomposition](../games/m-r/mini-metro.md), and
@@ -215,7 +226,14 @@
   [Superliminal decomposition](../games/s-z/superliminal.md), and
   [Manifold Garden decomposition](../games/m-r/manifold-garden.md), and
   [Maquette decomposition](../games/m-r/maquette.md), and
-  [Antichamber decomposition](../games/a-f/antichamber.md).
+  [Antichamber decomposition](../games/a-f/antichamber.md),
+  [SimCity 4 Deluxe Edition decomposition](../games/s-z/simcity-4-deluxe-edition.md)
+  [Cities: Skylines decomposition](../games/a-f/cities-skylines.md), and
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
+  [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md), and
+  [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md), and
+  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Novelty: not assessed.
 
 ## TIM-004 — Alternating adversarial turns
@@ -245,14 +263,17 @@
   committed hostile and scheduled system events resolve before planning again.
 - Includes: the Into the Breach player phase followed by environment and Vek
   attack phases; a Fights in Tight Spaces card-play phase followed by ordered
-  primed hostile attacks and the next hand.
+  primed hostile attacks and the next hand; a Slay the Spire player phase with
+  flexible card and potion use followed by End Turn, hostile intents and the
+  next hand.
 - Excludes: one player input followed immediately by full resolution;
   alternating moves selected by two human decision-makers; simultaneous hidden
   planning.
 - Parameters: commands per phase, intra-phase order, resolution order and undo
   availability.
-- Evidence: [Into the Breach decomposition](../games/g-l/into-the-breach.md)
-  and [Fights in Tight Spaces decomposition](../games/a-f/fights-in-tight-spaces.md).
+- Evidence: [Into the Breach decomposition](../games/g-l/into-the-breach.md),
+  [Fights in Tight Spaces decomposition](../games/a-f/fights-in-tight-spaces.md),
+  and [Slay the Spire decomposition](../games/s-z/slay-the-spire.md).
 - Novelty: not assessed.
 
 ## TIM-006 — Editable design before resettable automatic run
@@ -295,7 +316,8 @@
   with marked entity exceptions as a parameter; restoring a retained Pikmin 4
   autosave from minutes earlier and replaying different task assignments;
   rewinding Viewfinder to before a fall or destructive photograph placement
-  and continuing with a different pose.
+  and continuing with a different pose; restoring a Cyberpunk 2077 manual or
+  autosave and making different combat, dialogue or route choices.
 - Excludes: restarting a level from its initial state; undoing one discrete
   move in a self-paced puzzle; watching a non-interactive replay.
 - Parameters: history horizon, rewind rate, restoration granularity, editable
@@ -304,7 +326,8 @@
   [Timelie decomposition](../games/s-z/timelie.md), and
   [Braid decomposition](../games/a-f/braid.md),
   [Pikmin 4 decomposition](../games/m-r/pikmin-4.md), and
-  [Viewfinder decomposition](../games/s-z/viewfinder.md).
+  [Viewfinder decomposition](../games/s-z/viewfinder.md), and
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
 - Novelty: not assessed.
 
 ## TIM-008 — Random-access editable deterministic action timeline
@@ -480,4 +503,21 @@
 - Parameters: cycle start, duration, pause policy, terminal event, alternate
   early-death trigger and next-iteration delay.
 - Evidence: [Outer Wilds decomposition](../games/m-r/outer-wilds.md).
+- Novelty: not assessed.
+
+## TIM-017 — Advance authoritative time while the player is absent
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the shared world continues under server time while one player is
+  disconnected, so upkeep, decay, sleepers and adversarial actions may change
+  that player's recoverable state before return.
+- Includes: Rust offline persistence and raiding within a wipe cycle.
+- Excludes: a paused single-player world; active real-time choice while logged
+  in; deletion at the scheduled wipe itself.
+- Parameters: disconnect interval, server tick, sleeper, upkeep, decay, hostile
+  action and reconnect state.
+- Evidence: [Rust decomposition](../games/m-r/rust.md).
 - Novelty: not assessed.

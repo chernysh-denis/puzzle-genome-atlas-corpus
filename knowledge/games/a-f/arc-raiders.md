@@ -1,0 +1,412 @@
+---
+game_id: GAME-0143
+slug: arc-raiders
+game_title: ARC Raiders
+analysis_status: reviewed
+reviewed: 2026-08-21
+combination_ids:
+  - COMB-0141
+gene_ids:
+  action:
+    - ACT-008
+    - ACT-123
+    - ACT-161
+    - ACT-164
+    - ACT-199
+    - ACT-200
+    - ACT-215
+    - ACT-216
+    - ACT-217
+    - ACT-218
+    - ACT-219
+    - ACT-220
+    - ACT-221
+  system:
+    - SYS-215
+    - SYS-223
+    - SYS-319
+    - SYS-328
+    - SYS-346
+    - SYS-347
+    - SYS-348
+    - SYS-349
+    - SYS-350
+    - SYS-351
+    - SYS-352
+    - SYS-353
+    - SYS-354
+  constraint:
+    - CON-210
+    - CON-284
+    - CON-285
+    - CON-286
+    - CON-290
+    - CON-315
+    - CON-316
+    - CON-317
+    - CON-318
+    - CON-319
+    - CON-320
+    - CON-321
+    - CON-322
+  information:
+    - INF-075
+    - INF-115
+    - INF-128
+    - INF-132
+    - INF-137
+    - INF-138
+    - INF-139
+    - INF-140
+  objective:
+    - OBJ-021
+  time:
+    - TIM-003
+---
+
+# Game: ARC Raiders
+
+## Analysis scope
+
+- Version / ruleset: PC Standard Edition at public `Live Update 1.42.0`,
+  released 2026-08-18; solo matchmaking into a standard Dam Battlegrounds raid
+  with no special Map Condition, using the offered Free Loadout.
+- Included: pre-raid loadout state; one bounded shared Topside session; direct
+  movement, weapons, health, shield and restorative use; ARC and human threats;
+  sight, sound and machine telegraphs; searching, looting, Safe Pocket, field
+  recycling and crafting; ordinary extraction or knockout; retained stash,
+  sale, Workshop craft, weapon maintenance, XP, level and skill allocation.
+- Reproducible checkpoint: enter Dam Battlegrounds solo with Free Loadout;
+  search at least one ordinary container; transfer one eligible valuable item
+  to the Safe Pocket; collect or produce one unsecured item; then trace both
+  terminal branches from equivalent legal states. Successful extraction banks
+  the unsecured loadout and loot, while knockout forfeits it but retains the
+  pocketed item. In Speranza, use retained state for one legal sale or recycle,
+  one available craft or repair and the first available skill-point purchase.
+- Excluded: duo and trio parties, Practice Range, special Map Conditions,
+  named seasonal events, quests beyond incidental progress, Trials, Feats,
+  Raider Decks, Projects, Expedition departure and reset, Nomadic Envoy vault,
+  paid cosmetics and exhaustive maps, ARC types, weapons or recipes.
+- Direct-play status: no live paid-account raid was conducted. Current official
+  Help Center rules, product material and versioned patch notes directly
+  establish the scoped state transitions; exact numeric balance remains a
+  parameter and is not promoted into the genome.
+
+## Claim ledger
+
+| ID | Claim | Status | Evidence | Confidence | Sources |
+|---|---|---|---|---|---|
+| `ARC-001` | The reviewed public ruleset is PC Live Update 1.42.0 and supports separately tracked solo matchmaking | Confirmed | Corroborated | High | P1, P2, P3 |
+| `ARC-002` | A Free Loadout stakes no retained gear but supplies a smaller randomized kit for one Topside raid | Confirmed | Direct | High | P4 |
+| `ARC-003` | Higher-danger locations and changing conditions alter available loot while search and carry capacity bound acquisition | Observation | Corroborated | High | P2, P4, P5 |
+| `ARC-004` | ARC machines and human Raiders create simultaneous PvE and PvP pressure through local visual and acoustic information | Observation | Corroborated | High | P2, P5, P6 |
+| `ARC-005` | Compatible weapons, ammunition, mods, augments, shields and utilities determine live combat capability and attrition | Observation | Corroborated | High | P2, P7, P8 |
+| `ARC-006` | Search, medical use and extraction are interruptible proximity- or duration-bound interactions in the live session | Observation | Corroborated | High | P6, P8 |
+| `ARC-007` | Successful extraction banks ordinary carried state, while knockout forfeits all unsecured entered and scavenged items | Confirmed | Corroborated | High | P2, P4, P9 |
+| `ARC-008` | Eligible Safe Pocket contents survive the same knockout settlement that removes ordinary carried inventory | Confirmed | Corroborated | High | P4, P9 |
+| `ARC-009` | Retained loot feeds sales, recycling, station-gated Workshop craft, repair and later loadouts | Confirmed | Corroborated | High | P2, P5, P7, P8 |
+| `ARC-010` | Raid activity awards persistent XP, levels and skill points spent across Conditioning, Mobility and Survival | Confirmed | Direct | High | P2, P5 |
+
+## Basic data
+
+- Release / origin: Embark Studios; released 2025-10-30; reviewed at Live
+  Update 1.42.0 on 2026-08-21.
+- Platform or physical form: online third-person PvPvE extraction adventure on
+  PC and current consoles; PC Standard Edition is the analytical platform.
+- Puzzle family: tactical forecast and counterplay; real-time system pressure;
+  inventory and fixture dependencies; ordered dependency sequencing.
+- Primary sources:
+  - **[P1]** [official Live Update 1.42.0](https://arcraiders.com/de/news/live-update-1-42-0),
+    for the current version boundary, regional Map Conditions, ARC behaviour,
+    combat fixes and live-service state.
+  - **[P2]** [official Steam product page](https://store.steampowered.com/app/1808500/ARC_Raiders/),
+    for release, solo or three-player scope, surface-to-Speranza loop, maps,
+    risk, ARC, crafting, recipes, quests, skills, weapons, augments and tools.
+  - **[P3]** [official Live Update 1.36.0](https://arcraiders.com/news/live-update-1-36-0),
+    for separately tracked solo, duo and trio matchmaking state.
+  - **[P4]** [official first-raid guide](https://id.embark.games/arc-raiders/support/faq/135-your-first-raid-1759328782),
+    for scavenging, danger-weighted loot, knockout loss, Safe Pocket and Free
+    Loadout trade-offs.
+  - **[P5]** [official launch systems overview](https://arcraiders.com/fr/news/everything-you-need-to-know),
+    for Topside conditions, XP, skills, Workshop, Traders and risk settlement.
+  - **[P6]** [official Shrouded Sky 1.17.0 notes](https://arcraiders.com/news/shrouded-sky-patch-notes-1-17-0),
+    for proximity searches, cancellation, downed state, hatch extraction,
+    field craft, deployables and readable machine attacks.
+  - **[P7]** [official gearing guide](https://id.embark.games/arc-raiders/support/faq/140-gearing-up),
+    for loadout classes, ammunition, mods, gadgets, augments, durability and
+    resource-paid weapon repair.
+  - **[P8]** [official game-progression guide](https://id.embark.games/arc-raiders/support/faq/139-game-progression-1759329960),
+    for persistent levels, skill branches, recipes and specialised stations.
+  - **[P9]** [official 1.18.0 notes](https://id.embark.games/arc-raiders/support/faq/236-patch-notes-1-18-0),
+    for protected-pocket item eligibility and risk-conditioned blueprint loot.
+  - **[P10]** [official Field Crafting guide](https://id.embark.games/arc-raiders/support/faq/141-field-crafting-1759329975),
+    for carried-material recipes and immediate Field Recycling.
+- Secondary sources: none admitted.
+- Claim IDs: `ARC-001`–`ARC-010`.
+
+## Mechanical decomposition
+
+### Action Genes
+
+- Existing genes: `ACT-008`, navigate; `ACT-123`, hand-craft a selected field
+  recipe; `ACT-161`, aim and strike; `ACT-164`, select a carried quick item;
+  `ACT-199`, transfer or equip loot; `ACT-200`, use an interruptible restorative.
+- New genes: `ACT-215`, assemble a retained or Free Loadout; `ACT-216`, search
+  a container or disabled machine; `ACT-217`, move an item through Safe Pocket
+  protection; `ACT-218`, activate and enter extraction; `ACT-219`, sell or
+  recycle; `ACT-220`, spend a Raider skill point; `ACT-221`, repair or upgrade
+  a retained weapon.
+- Claim IDs: `ARC-002`–`ARC-010`.
+
+### System Behaviour Genes
+
+- Existing genes: `SYS-215`, direct real-time hostile combat; `SYS-223`, weapon
+  durability loss; `SYS-319`, restorative cast resolution; `SYS-328`, personal
+  Field Crafting queue.
+- New genes: `SYS-346`–`SYS-354`, covering conditioned raid instantiation, ARC
+  perception and typed attacks, shield-health-DBNO state, raid settlement,
+  Safe Pocket retention, persistent XP, cross-raid stash and recipes,
+  station-gated Workshop output and danger-conditioned loot.
+- Resolution order: initialise the condition-bound shared raid; accept live
+  movement, search, loot and combat; resolve extraction or knockout; partition
+  carried state; award XP; persist returned inventory and hub progression.
+- Claim IDs: `ARC-001`–`ARC-010`.
+
+### Constraint Genes
+
+- Existing genes: `CON-210`, typed stack capacity; `CON-284`, backpack and
+  equipment slots; `CON-285`, compatible live weapon state; `CON-286`, legal
+  uninterrupted restorative cast; `CON-290`, terminal Solo defeat for one match.
+- New genes: `CON-315`–`CON-322`, covering augment-shaped loadout legality,
+  Safe Pocket eligibility, live extraction, unsecured knockout loss,
+  interruptible search, Workshop prerequisites, weapon-maintenance costs and
+  skill-tree purchase gates.
+- Scarce strategic resources: session time, concealment and sound discipline;
+  ammunition, shield charge and health; loadout, backpack and protected slots;
+  extraction access; weapon durability; retained ingredients and skill points.
+- Claim IDs: `ARC-002`–`ARC-010`.
+
+### Information Genes
+
+- Existing genes: `INF-075`, health, protection and durability; `INF-115`,
+  partial local hostile sight and sound; `INF-128`, loot and inventory
+  compatibility; `INF-132`, crafting dependencies.
+- New genes: `INF-137`, current map, condition, extraction and time; `INF-138`,
+  value, compatibility and defeat protection; `INF-139`, ARC attention,
+  telegraphs and components; `INF-140`, retained/lost items and rewards.
+- Claim IDs: `ARC-003`–`ARC-010`.
+
+### Objective Genes
+
+- Existing gene: `OBJ-021`, secure accumulated expedition resources.
+- Evaluation: extraction is a successful banking decision rather than a fixed
+  loot quota; knockout is a failed unsecured settlement but can still return
+  a deliberately protected item and persistent XP.
+- Claim IDs: `ARC-003`, `ARC-007`, `ARC-008`.
+
+### Time Genes
+
+- Existing gene: `TIM-003`, real-time input during forced progression.
+- Parameters: matchmaking boundary, live raid clock, search and medical
+  durations, ARC telegraphs, extraction arrival and closure, DBNO and knockout.
+- Claim IDs: `ARC-003`–`ARC-008`.
+
+## Reproducible transitions
+
+| Before | Action | Deterministic or bounded resolution | What it establishes | Claim ID |
+|---|---|---|---|---|
+| Solo queue is selected and no retained gear is staked | Accept Free Loadout and ready | A smaller randomized compatible kit becomes the raid inventory | Entry risk and capacity are chosen before matchmaking | `ARC-002` |
+| Closed ordinary container is reachable | Hold search without moving or changing equipment | Completion reveals sampled contents; interruption leaves them unrevealed | Discovery and transfer are separate timed decisions | `ARC-003`, `ARC-006` |
+| Valuable eligible loot is in the backpack and one pocket slot is free | Move it into the Safe Pocket | The item keeps its identity but changes its defeat-retention partition | Protection is positional and capacity-bounded | `ARC-008` |
+| ARC has no current target and the Raider emits a visible or audible cue | Move, fire or cross its perception | The machine may acquire and route toward the Raider, then telegraph its typed attack | PvE pressure follows local information | `ARC-004` |
+| Weapon, ammunition and target are legal | Aim and fire at armour or a vulnerable component | Live combat applies weapon state and hit location while durability declines | Weak-point choice trades ammunition, exposure and salvage | `ARC-005` |
+| Carried materials match a known Field recipe | Queue one item or recycle an owned object | Ingredients become the declared field output, or the item becomes components | Loot can be converted before settlement | `ARC-009` |
+| An enabled extraction is reachable before closure | Call or unlock it and enter its departure zone | Session closes successfully and ordinary carried state returns to Speranza | Extraction converts temporary possession into persistent ownership | `ARC-006`, `ARC-007` |
+| Equivalent inventory exists but the Raider reaches knockout first | Allow health and DBNO recovery to fail | Ordinary loadout and scavenged items are forfeited; valid pocket contents return | Loss and Safe Pocket retention form one partition | `ARC-007`, `ARC-008` |
+| Extracted ingredients and a known station recipe exist | Craft, sell, recycle, repair or upgrade one legal item | Persistent inventory, coins, durability or equipment state changes | Raid yield feeds the next loadout rather than ending at a score | `ARC-009` |
+| Awarded XP crosses a level threshold | Spend the resulting point on an eligible tree node | The chosen persistent modifier applies to later raids | Activity becomes player-directed metaprogression | `ARC-010` |
+
+## Strategic and experiential structure
+
+- Local decision: move quietly or quickly; search under exposure; shoot armour
+  or a weak point; fight, signal neutrality or disengage from another Raider;
+  pocket one item; heal, field-craft or route toward extraction.
+- Medium-term planning: value every slot against likely sale, recipe and quest
+  use; preserve ammunition, shield and durability; approach a live extraction
+  with enough time and alternate cover; decide when expected upside no longer
+  justifies the unsecured stake.
+- Long-term structure: repeated extraction turns volatile Topside possession
+  into stash, recipes, stations, repaired gear and skills that reshape later
+  risk budgets without removing knockout loss.
+- Common heuristics: stake Free Loadout while poor, protect the smallest
+  high-leverage item, search from cover, treat gunfire as information broadcast,
+  leave before every slot is perfect and spend extracted materials on a
+  reproducible next kit rather than hoarding unusable value.
+- Failure attribution: visible loadout, inventory protection, local audio,
+  machine telegraphs and result settlement explain most losses; hidden loot,
+  other Raiders and sampled session state preserve consequential uncertainty.
+- Claim IDs: `ARC-002`–`ARC-010`.
+
+## Replay and variation
+
+- What changes: Free Loadout, insertion, participant behaviour, ARC placement,
+  containers, loot and durability, extraction route, combat, secured item,
+  extracted value and chosen persistent upgrade.
+- Randomness or procedural generation: authored maps receive sampled session
+  population, loot and ARC state under the currently scheduled condition.
+- Multiple viable strategies: stealth scavenging, selective ARC hunting,
+  opportunistic PvP, cooperative signalling, early low-risk extraction or
+  deeper high-value routing.
+- Typical replay motive: convert a different risk profile into useful retained
+  state and test how workshop and skill choices alter the next raid.
+- Claim IDs: `ARC-001`–`ARC-010`.
+
+## Adjacent systems and history
+
+- PUBG: BATTLEGROUNDS is nearest because both combine direct firearm combat,
+  partial local information, sampled loot, constrained loadouts, live healing
+  and terminal Solo defeat. ARC Raiders replaces last-survivor victory and a
+  contracting safe zone with discretionary extraction, Safe Pocket loss
+  partition and persistent Workshop progression.
+- Rust shares retained crafting, durability, looting and adversarial real-time
+  risk, but its persistent shared world, building authority and scheduled wipe
+  replace ARC Raiders' bounded session and explicit extraction settlement.
+- Project Zomboid shares vulnerable looting, crafting, body pressure and local
+  sound, but one irreversible character life replaces repeatable raids that
+  deliberately transfer selected state into a safe persistent hub.
+
+## Normalised genome
+
+| Type | Active gene IDs | Candidate genes or parameters |
+|---|---|---|
+| Action | `ACT-008`, `ACT-123`, `ACT-161`, `ACT-164`, `ACT-199`, `ACT-200`, `ACT-215`–`ACT-221` | bindings, item identities and Free Loadout contents are parameters |
+| System Behaviour | `SYS-215`, `SYS-223`, `SYS-319`, `SYS-328`, `SYS-346`–`SYS-354` | numeric balance and session seed are parameters |
+| Constraint | `CON-210`, `CON-284`–`CON-286`, `CON-290`, `CON-315`–`CON-322` | slot counts, costs and timings are parameters |
+| Information | `INF-075`, `INF-115`, `INF-128`, `INF-132`, `INF-137`–`INF-140` | HUD placement is presentation |
+| Objective | `OBJ-021` | acceptable extracted value is strategic, not a fixed quota |
+| Time | `TIM-003` | exact durations are versioned parameters |
+
+## Corpus comparison
+
+- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-123,ACT-161,ACT-164,ACT-199,ACT-200,ACT-215,ACT-216,ACT-217,ACT-218,ACT-219,ACT-220,ACT-221; SYS-215,SYS-223,SYS-319,SYS-328,SYS-346,SYS-347,SYS-348,SYS-349,SYS-350,SYS-351,SYS-352,SYS-353,SYS-354; CON-210,CON-284,CON-285,CON-286,CON-290,CON-315,CON-316,CON-317,CON-318,CON-319,CON-320,CON-321,CON-322; INF-075,INF-115,INF-128,INF-132,INF-137,INF-138,INF-139,INF-140; OBJ-021; TIM-003`.
+- Indexed games scanned: all 142 earlier canonical games.
+- Indexed combinations scanned: all 140 earlier verified combinations.
+- Exact genome matches: none.
+- Near matches: PUBG: BATTLEGROUNDS (`GAME-0140`),
+  `15 / 77 = 0.194805`; Rust (`GAME-0141`),
+  `14 / 86 = 0.162791`; Project Zomboid (`GAME-0142`),
+  `13 / 87 = 0.149425`.
+- Supported earlier combination subsets: none; new `COMB-0141` is a strict
+  subset of this 49-gene genome.
+- Scan date: 2026-08-21.
+
+Exhaustive prior-game ledger:
+
+- GAME-0001: 0 / 63 = 0.000000; GAME-0002: 0 / 56 = 0.000000; GAME-0003: 0 / 58 = 0.000000; GAME-0004: 1 / 63 = 0.015873.
+- GAME-0005: 0 / 56 = 0.000000; GAME-0006: 1 / 57 = 0.017544; GAME-0007: 0 / 57 = 0.000000; GAME-0008: 0 / 56 = 0.000000.
+- GAME-0009: 0 / 65 = 0.000000; GAME-0010: 0 / 58 = 0.000000; GAME-0011: 0 / 62 = 0.000000; GAME-0012: 0 / 58 = 0.000000.
+- GAME-0013: 0 / 62 = 0.000000; GAME-0014: 0 / 64 = 0.000000; GAME-0015: 0 / 63 = 0.000000; GAME-0016: 1 / 63 = 0.015873.
+- GAME-0017: 0 / 62 = 0.000000; GAME-0018: 1 / 67 = 0.014925; GAME-0019: 0 / 59 = 0.000000; GAME-0020: 0 / 63 = 0.000000.
+- GAME-0021: 1 / 57 = 0.017544; GAME-0022: 0 / 61 = 0.000000; GAME-0023: 0 / 59 = 0.000000; GAME-0024: 1 / 60 = 0.016667.
+- GAME-0025: 1 / 59 = 0.016949; GAME-0026: 1 / 60 = 0.016667; GAME-0027: 1 / 60 = 0.016667; GAME-0028: 2 / 64 = 0.031250.
+- GAME-0029: 2 / 59 = 0.033898; GAME-0030: 1 / 62 = 0.016129; GAME-0031: 0 / 60 = 0.000000; GAME-0032: 0 / 60 = 0.000000.
+- GAME-0033: 2 / 60 = 0.033333; GAME-0034: 2 / 61 = 0.032787; GAME-0035: 2 / 65 = 0.030769; GAME-0036: 1 / 60 = 0.016667.
+- GAME-0037: 0 / 58 = 0.000000; GAME-0038: 2 / 63 = 0.031746; GAME-0039: 0 / 58 = 0.000000; GAME-0040: 1 / 56 = 0.017857.
+- GAME-0041: 2 / 58 = 0.034483; GAME-0042: 0 / 58 = 0.000000; GAME-0043: 1 / 62 = 0.016129; GAME-0044: 1 / 58 = 0.017241.
+- GAME-0045: 1 / 62 = 0.016129; GAME-0046: 0 / 59 = 0.000000; GAME-0047: 0 / 63 = 0.000000; GAME-0048: 0 / 63 = 0.000000.
+- GAME-0049: 0 / 58 = 0.000000; GAME-0050: 1 / 63 = 0.015873; GAME-0051: 1 / 64 = 0.015625; GAME-0052: 0 / 59 = 0.000000.
+- GAME-0053: 1 / 57 = 0.017544; GAME-0054: 1 / 59 = 0.016949; GAME-0055: 1 / 58 = 0.017241; GAME-0056: 0 / 57 = 0.000000.
+- GAME-0057: 0 / 57 = 0.000000; GAME-0058: 0 / 58 = 0.000000; GAME-0059: 0 / 56 = 0.000000; GAME-0060: 0 / 56 = 0.000000.
+- GAME-0061: 0 / 59 = 0.000000; GAME-0062: 0 / 57 = 0.000000; GAME-0063: 0 / 56 = 0.000000; GAME-0064: 0 / 54 = 0.000000.
+- GAME-0065: 0 / 56 = 0.000000; GAME-0066: 0 / 59 = 0.000000; GAME-0067: 0 / 57 = 0.000000; GAME-0068: 0 / 57 = 0.000000.
+- GAME-0069: 0 / 57 = 0.000000; GAME-0070: 0 / 57 = 0.000000; GAME-0071: 0 / 56 = 0.000000; GAME-0072: 0 / 57 = 0.000000.
+- GAME-0073: 0 / 56 = 0.000000; GAME-0074: 0 / 58 = 0.000000; GAME-0075: 0 / 58 = 0.000000; GAME-0076: 0 / 56 = 0.000000.
+- GAME-0077: 0 / 56 = 0.000000; GAME-0078: 0 / 56 = 0.000000; GAME-0079: 0 / 56 = 0.000000; GAME-0080: 0 / 56 = 0.000000.
+- GAME-0081: 0 / 57 = 0.000000; GAME-0082: 0 / 57 = 0.000000; GAME-0083: 0 / 57 = 0.000000; GAME-0084: 0 / 59 = 0.000000.
+- GAME-0085: 0 / 60 = 0.000000; GAME-0086: 0 / 62 = 0.000000; GAME-0087: 1 / 58 = 0.017241; GAME-0088: 0 / 58 = 0.000000.
+- GAME-0089: 0 / 58 = 0.000000; GAME-0090: 1 / 63 = 0.015873; GAME-0091: 2 / 56 = 0.035714; GAME-0092: 1 / 58 = 0.017241.
+- GAME-0093: 0 / 58 = 0.000000; GAME-0094: 2 / 57 = 0.035088; GAME-0095: 2 / 59 = 0.033898; GAME-0096: 2 / 57 = 0.035088.
+- GAME-0097: 2 / 55 = 0.036364; GAME-0098: 2 / 54 = 0.037037; GAME-0099: 1 / 56 = 0.017857; GAME-0100: 1 / 59 = 0.016949.
+- GAME-0101: 0 / 59 = 0.000000; GAME-0102: 0 / 56 = 0.000000; GAME-0103: 0 / 58 = 0.000000; GAME-0104: 1 / 57 = 0.017544.
+- GAME-0105: 2 / 57 = 0.035088; GAME-0106: 0 / 56 = 0.000000; GAME-0107: 1 / 56 = 0.017857; GAME-0108: 1 / 58 = 0.017241.
+- GAME-0109: 0 / 65 = 0.000000; GAME-0110: 1 / 56 = 0.017857; GAME-0111: 1 / 55 = 0.018182; GAME-0112: 2 / 55 = 0.036364.
+- GAME-0113: 2 / 61 = 0.032787; GAME-0114: 1 / 55 = 0.018182; GAME-0115: 0 / 55 = 0.000000; GAME-0116: 2 / 53 = 0.037736.
+- GAME-0117: 1 / 56 = 0.017857; GAME-0118: 1 / 64 = 0.015625; GAME-0119: 2 / 70 = 0.028571; GAME-0120: 0 / 78 = 0.000000.
+- GAME-0121: 1 / 71 = 0.014085; GAME-0122: 1 / 63 = 0.015873; GAME-0123: 0 / 87 = 0.000000; GAME-0124: 1 / 95 = 0.010526.
+- GAME-0125: 1 / 90 = 0.011111; GAME-0126: 1 / 91 = 0.010989; GAME-0127: 1 / 96 = 0.010417; GAME-0128: 2 / 63 = 0.031746.
+- GAME-0129: 8 / 76 = 0.105263; GAME-0130: 1 / 101 = 0.009901; GAME-0131: 5 / 90 = 0.055556; GAME-0132: 1 / 99 = 0.010101.
+- GAME-0133: 1 / 93 = 0.010753; GAME-0134: 1 / 99 = 0.010101; GAME-0135: 1 / 96 = 0.010417; GAME-0136: 1 / 108 = 0.009259.
+- GAME-0137: 6 / 73 = 0.082192; GAME-0138: 2 / 82 = 0.024390; GAME-0139: 9 / 94 = 0.095745; GAME-0140: 15 / 77 = 0.194805.
+- GAME-0141: 14 / 86 = 0.162791; GAME-0142: 13 / 87 = 0.149425.
+
+| Neighbour | Shared genes | Decision-relevant differences | Match result |
+|---|---|---|---|
+| PUBG: BATTLEGROUNDS | direct combat, quick equipment, looting, healing, capacity, weapon legality, Solo defeat, local sight and sound | last-survivor safe-zone match versus discretionary extraction, protected loss and persistent hub | nearest, not exact |
+| Rust | movement, direct combat, looting, crafting, durability, capacity, weapon state, partial hostile information and live time | persistent shared world, base authority and wipe versus bounded raids and explicit settlement | near, not exact |
+| Project Zomboid | movement, crafting, direct combat, equipment, loot, durability, health presentation, local hostile information and live time | one embodied permanent life versus repeatable raids with stash and protected loss | near, not exact |
+
+- New genes: `ACT-215`–`ACT-221`, `SYS-346`–`SYS-354`,
+  `CON-315`–`CON-322`, `INF-137`–`INF-140`.
+- Classification result: new verified combination of reused and new genes.
+- Evidence and reasoning: the distinctive boundary is not shooting or looting
+  alone. It is the explicit terminal partition that converts one live shared
+  raid into persistent extracted state, forfeited unsecured state and protected
+  pocket state, then feeds the retained branch into workshop and skill choices.
+
+## Taxonomy impact
+
+- Registry changes: 28 new bounded genes and `COMB-0141`; no existing gene is
+  redefined, merged or split.
+- Taxonomy-change record: none.
+- Candidate terms affected: none.
+
+## Negative results
+
+- No separate negative-result record. The exhaustive scan found no exact
+  genome and no earlier registered combination that is a proper subset.
+
+## Delta summary
+
+## Нові факти
+
+- [Confirmed | Corroborated | High] Extraction and knockout deterministically
+  partition the same carried state into retained, forfeited and Safe
+  Pocket-protected branches (`ARC-007`, `ARC-008`).
+- [Confirmed | Corroborated | High] Retained raid yield supplies the next
+  loadout, Workshop, repair and persistent skill loop (`ARC-009`, `ARC-010`).
+
+## Нові гени
+
+- [Observation | Corroborated | High] 28 bounded genes cover loadout staking,
+  search, extraction, protected loss, conditioned shared raids, ARC behaviour,
+  settlement and persistent hub progression.
+
+## Нові комбінації
+
+- [Confirmed | Corroborated | High] `COMB-0141` — PvPvE extraction loss into
+  retained workshop progression.
+
+## Зміни таксономії
+
+- [Observation | Direct | High] Змін таксономії немає.
+
+## Нові питання
+
+- How far will future live updates change Safe Pocket eligibility, regional
+  Map Conditions and weapon attrition without changing the extraction-settlement
+  gene boundary?
+
+## Наступна рекомендована гра
+
+- [Hypothesis | Limited | High] `GAME-0144` — Clair Obscur: Expedition 33.
+- Optimisation criterion: continue the recorded demand-led queue while moving
+  from live extraction risk to authored turn-order and timing-action structure.
+- Expected information gain: separate turn scheduling, parry or dodge timing,
+  party builds and story-bounded expedition progression.
+- Backlog impact: completes the first eight-game demand-led completion queue.
+
+## Чому саме вона
+
+- [Hypothesis | Limited | High] Its turn-based party state and timed defensive
+  inputs should be distant from ARC Raiders while reusing tactical forecast,
+  equipment and ordered progression genes under a finite authored campaign.

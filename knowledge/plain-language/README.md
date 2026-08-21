@@ -85,7 +85,10 @@ example to preserve the scoped missing-permit fact. `EXPANSION_103` added TUNIC
 and `EXPANSION_104` added Outer Wilds. `EXPANSION_105` audited and retained Her
 Story's existing complete all-role coverage. `EXPANSION_106` added The
 Pedestrian and `EXPANSION_107` added Cocoon, completing the final sequential
-package and full 108-game all-role coverage.
+package and full 108-game all-role coverage. Reviewed integration subsequently
+extended complete all-role explanations to all 124 games through `GAME-0124`
+Against the Storm. Every admitted gene in the current corpus therefore has a
+game-specific plain-language explanation.
 Explanations are scoped to a game because the same reusable gene can have a
 different clearest example in another game. Expansion requires manual review;
 text must not be generated from the canonical definition at runtime.

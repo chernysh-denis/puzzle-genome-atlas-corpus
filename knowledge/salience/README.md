@@ -23,7 +23,8 @@ The public interface may translate the controlled `structural` role as
 to reduce research jargon. These labels do not change the stored role or its
 boundary.
 
-The reviewed registry lives in [`pilot.json`](pilot.json). The initial five-game
-pilot has been followed by six balanced nine-game expansions, bringing reviewed
-coverage to 59 games. Every later batch still requires a review of the canonical
-game scope and claim ledger, not automatic inference from gene rarity.
+The reviewed registry lives in [`pilot.json`](pilot.json). The initial pilot and
+its sequential expansions now provide a complete reviewed role partition for
+all 124 games through `GAME-0124` Against the Storm. Every later batch still
+requires a review of the canonical game scope and claim ledger, not automatic
+inference from gene rarity.
