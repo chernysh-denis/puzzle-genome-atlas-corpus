@@ -250,54 +250,20 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: every prior record `GAME-0001`–`GAME-0062`.
-- Indexed combinations scanned: every verified record `COMB-0001`–`COMB-0062`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `62` (`GAME-0001`–`GAME-0062`).
 - Exact genome matches: none.
-- Existing combination subsets: none. Every prior combination gene set was
-  tested as a proper subset of the seven-gene signature and rejected.
-- Unique near match: `GAME-0011` — Chess at intersection `5`, union `15`,
-  `5 / 15 = 0.333333`. Sudoku, Nonogram and Rubik's Cube tie next at
-  `3 / 11 = 0.272727`; Hexologic follows at `3 / 12 = 0.250000`.
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `2 / 19 = 0.105263`; `GAME-0002`: `3 / 11 = 0.272727`;
-    `GAME-0003`: `1 / 15 = 0.066667`; `GAME-0004`: `3 / 19 = 0.157895`;
-    `GAME-0005`: `3 / 11 = 0.272727`; `GAME-0006`: `3 / 13 = 0.230769`;
-    `GAME-0007`: `2 / 13 = 0.153846`; `GAME-0008`: `3 / 11 = 0.272727`;
-    `GAME-0009`: `2 / 21 = 0.095238`; `GAME-0010`: `2 / 14 = 0.142857`;
-    `GAME-0011`: `5 / 15 = 0.333333`; `GAME-0012`: `3 / 13 = 0.230769`;
-    `GAME-0013`: `2 / 18 = 0.111111`; `GAME-0014`: `3 / 19 = 0.157895`;
-    `GAME-0015`: `2 / 19 = 0.105263`; `GAME-0016`: `2 / 20 = 0.100000`;
-    `GAME-0017`: `0 / 20 = 0.000000`; `GAME-0018`: `1 / 25 = 0.040000`;
-    `GAME-0019`: `3 / 14 = 0.214286`; `GAME-0020`: `1 / 20 = 0.050000`;
-    `GAME-0021`: `1 / 15 = 0.066667`; `GAME-0022`: `1 / 18 = 0.055556`;
-    `GAME-0023`: `1 / 16 = 0.062500`; `GAME-0024`: `2 / 17 = 0.117647`;
-    `GAME-0025`: `1 / 17 = 0.058824`; `GAME-0026`: `1 / 18 = 0.055556`;
-    `GAME-0027`: `3 / 16 = 0.187500`; `GAME-0028`: `2 / 22 = 0.090909`;
-    `GAME-0029`: `2 / 17 = 0.117647`; `GAME-0030`: `1 / 20 = 0.050000`;
-    `GAME-0031`: `1 / 17 = 0.058824`; `GAME-0032`: `2 / 16 = 0.125000`;
-    `GAME-0033`: `1 / 19 = 0.052632`; `GAME-0034`: `1 / 20 = 0.050000`;
-    `GAME-0035`: `1 / 24 = 0.041667`; `GAME-0036`: `2 / 17 = 0.117647`;
-    `GAME-0037`: `2 / 14 = 0.142857`; `GAME-0038`: `1 / 22 = 0.045455`;
-    `GAME-0039`: `3 / 13 = 0.230769`; `GAME-0040`: `2 / 13 = 0.153846`;
-    `GAME-0041`: `1 / 17 = 0.058824`; `GAME-0042`: `1 / 15 = 0.066667`;
-    `GAME-0043`: `2 / 19 = 0.105263`; `GAME-0044`: `2 / 15 = 0.133333`;
-    `GAME-0045`: `2 / 19 = 0.105263`; `GAME-0046`: `2 / 15 = 0.133333`;
-    `GAME-0047`: `2 / 19 = 0.105263`; `GAME-0048`: `3 / 18 = 0.166667`;
-    `GAME-0049`: `1 / 15 = 0.066667`; `GAME-0050`: `2 / 20 = 0.100000`;
-    `GAME-0051`: `1 / 22 = 0.045455`; `GAME-0052`: `1 / 16 = 0.062500`;
-    `GAME-0053`: `2 / 14 = 0.142857`; `GAME-0054`: `2 / 16 = 0.125000`;
-    `GAME-0055`: `2 / 15 = 0.133333`; `GAME-0056`: `2 / 13 = 0.153846`;
-    `GAME-0057`: `2 / 13 = 0.153846`; `GAME-0058`: `2 / 14 = 0.142857`;
-    `GAME-0059`: `2 / 12 = 0.166667`; `GAME-0060`: `1 / 13 = 0.076923`;
-    `GAME-0061`: `3 / 14 = 0.214286`; `GAME-0062`: `3 / 12 = 0.250000`.
+- Tied near matches: `GAME-0011` — Chess (`5 / 15 = 0.333333`).
+- Supported combination subsets: `COMB-0063`.
 - Scan date: 2026-08-13.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0011` — Chess | `ACT-014`, `CON-001`, `CON-024`, `INF-001`, `TIM-002` | Chess alternates owned single-cell pieces under capture, check and class-specific geometry; Rush Hour controls all rigid vehicles and requires one boundary extraction | Nearest, `0.333333`; no combination recurrence |
-| `GAME-0004` — Tetris | `CON-001`, `CON-007`, `INF-001` | Tetris has one rotating automatically falling active element and lock/clear cycles; Rush Hour directly reselects persistent axis-locked blocks | Structural collision control, `0.157895` |
-| `GAME-0006` — Sokoban | `CON-001`, `INF-001`, `TIM-002` | Sokoban navigates a keeper to push one-cell crates without pulling; Rush Hour directly selects multi-cell vehicles and permits bidirectional axial slides | Negative obstruction control, `0.230769` |
-| `GAME-0052` — Freeways | `INF-001` | Freeways edits roads before autonomous traffic evaluation; Rush Hour has no road graph or automatic vehicles | Negative car-theme control, `0.062500` |
+| `GAME-0011` — Chess | `ACT-014`, `CON-001`, `CON-024`, `INF-001`, `TIM-002` | Chess alternates owned single-cell pieces under capture, check and class-specific geometry; Rush Hour controls all rigid vehicles and requires one boundary extraction | Near, `0.333333` |
+
+### Preserved research notes
 
 - New genes: `OBJ-039`.
 - Generalised genes: `ACT-014` gains a non-capturing physical slider support;

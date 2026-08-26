@@ -234,47 +234,26 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0011`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0011`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `11` (`GAME-0001`–`GAME-0011`).
 - Exact genome matches: none.
-- Shared with `GAME-0001`: `CON-001`, `INF-001`; intersection `2`, union
-  `21`, `2 / 21 = 0.095238`.
-- Shared with `GAME-0002`: `CON-001`, `INF-001`, `TIM-002`; intersection `3`,
-  union `13`, `3 / 13 = 0.230769`.
-- Shared with `GAME-0003`: `CON-001`; intersection `1`, union `17`,
-  `1 / 17 = 0.058824`.
-- Shared with `GAME-0004`: `CON-001`, `INF-001`; intersection `2`, union
-  `22`, `2 / 22 = 0.090909`.
-- Shared with `GAME-0005`: `CON-001`, `INF-001`, `OBJ-006`, `TIM-002`;
-  intersection `4`, union `12`, `4 / 12 = 0.333333`.
-- Shared with `GAME-0006`: `CON-001`, `INF-001`, `TIM-002`; intersection `3`,
-  union `15`, `3 / 15 = 0.200000`.
-- Shared with `GAME-0007`: `INF-001`, `TIM-002`; intersection `2`, union `15`,
-  `2 / 15 = 0.133333`.
-- Shared with `GAME-0008`: `CON-001`, `INF-001`, `OBJ-006`, `TIM-002`;
-  intersection `4`, union `12`, `4 / 12 = 0.333333`.
-- Shared with `GAME-0009`: `CON-001`, `INF-001`; intersection `2`, union
-  `23`, `2 / 23 = 0.086957`.
-- Shared with `GAME-0010`: `CON-001`, `INF-001`; intersection `2`, union
-  `16`, `2 / 16 = 0.125000`.
-- Shared with `GAME-0011`: `CON-001`, `INF-001`, `TIM-002`; intersection `3`,
-  union `19`, `3 / 19 = 0.157895`.
-- Near matches: `GAME-0005` and `GAME-0008`, tied at the positive maximum
-  `0.333333` among non-exact indexed games.
-- Supported existing combination subsets: none. Every indexed combination
-  requires at least one absent action, behaviour, constraint or information
-  gene.
-- New combination: `COMB-0012`, whose six genes are a proper subset of this
-  nine-gene genome.
-- Later corpus update: `COMB-0039` records the five-gene visible self-paced
-  simple-path constraint-completion core shared with The Witness.
+- Tied near matches: `GAME-0005` — Sudoku (`4 / 12 = 0.333333`); `GAME-0008` — Nonogram (`4 / 12 = 0.333333`).
+- Supported combination subsets: `COMB-0012`, `COMB-0039`.
 - Scan date: 2026-08-11.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
 | `GAME-0005` — Sudoku | `CON-001`, `INF-001`, `OBJ-006`, `TIM-002` | Both complete visible fixed-grid assignments; Sudoku selects independent symbols under all-different units, while Flow Free traces ordered paths under global spatial routing | Near, `0.333333` |
 | `GAME-0008` — Nonogram | `CON-001`, `INF-001`, `OBJ-006`, `TIM-002` | Both cover a visible grid under orthogonally coupled constraints; Nonogram satisfies disclosed run sequences, while Flow Free creates paired disjoint paths with no clue layer | Near, `0.333333` |
 
+### Preserved research notes
+
+- New combination: `COMB-0012`, whose six genes are a proper subset of this
+  nine-gene genome.
+- Later corpus update: `COMB-0039` records the five-gene visible self-paced
+  simple-path constraint-completion core shared with The Witness.
 - New genes: `ACT-016`, `SYS-016`, `CON-028`, `CON-029`, `CON-030`.
 - Classification result: `New gene`.
 - Reused genes: `CON-001`, `INF-001`, `OBJ-006`, `TIM-002`.

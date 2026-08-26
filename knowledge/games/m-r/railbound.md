@@ -219,43 +219,19 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: every prior record `GAME-0001`–`GAME-0055`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `55` (`GAME-0001`–`GAME-0055`).
 - Exact genome matches: none.
-- Existing combination subsets: none. Every verified `COMB-0001`–`COMB-0055`
-  gene set was tested as a proper subset and rejected.
-- Unique near match: `GAME-0037` — Cosmic Express at intersection `3`, union
-  `14`, `3 / 14 = 0.214286`. Rubik's Cube, Sudoku and Nonogram follow at
-  `2 / 13 = 0.153846`; all other records score below that boundary.
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `2 / 20 = 0.100000`; `GAME-0002`: `2 / 13 = 0.153846`;
-    `GAME-0003`: `1 / 16 = 0.062500`; `GAME-0004`: `2 / 21 = 0.095238`;
-    `GAME-0005`: `2 / 13 = 0.153846`; `GAME-0006`: `2 / 15 = 0.133333`;
-    `GAME-0007`: `1 / 15 = 0.066667`; `GAME-0008`: `2 / 13 = 0.153846`;
-    `GAME-0009`: `2 / 22 = 0.090909`; `GAME-0010`: `2 / 15 = 0.133333`.
-  - `GAME-0011`: `2 / 19 = 0.105263`; `GAME-0012`: `2 / 15 = 0.133333`;
-    `GAME-0013`: `2 / 19 = 0.105263`; `GAME-0014`: `2 / 21 = 0.095238`;
-    `GAME-0015`: `2 / 20 = 0.100000`; `GAME-0016`: `2 / 21 = 0.095238`;
-    `GAME-0017`: `0 / 21 = 0.000000`; `GAME-0018`: `2 / 25 = 0.080000`;
-    `GAME-0019`: `2 / 16 = 0.125000`; `GAME-0020`: `1 / 21 = 0.047619`.
-  - `GAME-0021`: `1 / 16 = 0.062500`; `GAME-0022`: `2 / 18 = 0.111111`;
-    `GAME-0023`: `0 / 18 = 0.000000`; `GAME-0024`: `1 / 19 = 0.052632`;
-    `GAME-0025`: `1 / 18 = 0.055556`; `GAME-0026`: `2 / 18 = 0.111111`;
-    `GAME-0027`: `2 / 18 = 0.111111`; `GAME-0028`: `2 / 23 = 0.086957`;
-    `GAME-0029`: `2 / 18 = 0.111111`; `GAME-0030`: `2 / 20 = 0.100000`.
-  - `GAME-0031`: `1 / 18 = 0.055556`; `GAME-0032`: `2 / 17 = 0.117647`;
-    `GAME-0033`: `1 / 20 = 0.050000`; `GAME-0034`: `1 / 21 = 0.047619`;
-    `GAME-0035`: `1 / 25 = 0.040000`; `GAME-0036`: `1 / 19 = 0.052632`;
-    `GAME-0037`: `3 / 14 = 0.214286`; `GAME-0038`: `1 / 23 = 0.043478`;
-    `GAME-0039`: `2 / 15 = 0.133333`; `GAME-0040`: `1 / 15 = 0.066667`.
-  - `GAME-0041`: `1 / 18 = 0.055556`; `GAME-0042`: `2 / 15 = 0.133333`;
-    `GAME-0043`: `2 / 20 = 0.100000`; `GAME-0044`: `2 / 16 = 0.125000`;
-    `GAME-0045`: `2 / 20 = 0.100000`; `GAME-0046`: `1 / 17 = 0.058824`;
-    `GAME-0047`: `2 / 20 = 0.100000`; `GAME-0048`: `2 / 20 = 0.100000`;
-    `GAME-0049`: `1 / 16 = 0.062500`; `GAME-0050`: `2 / 21 = 0.095238`.
-  - `GAME-0051`: `2 / 22 = 0.090909`; `GAME-0052`: `1 / 17 = 0.058824`;
-    `GAME-0053`: `2 / 15 = 0.133333`; `GAME-0054`: `2 / 17 = 0.117647`;
-    `GAME-0055`: `2 / 16 = 0.125000`.
+- Tied near matches: `GAME-0037` — Cosmic Express (`3 / 14 = 0.214286`).
+- Supported combination subsets: `COMB-0056`.
 - Scan date: 2026-08-13.
+
+### Selected-neighbour interpretation
+
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0037`.
+
+### Preserved research notes
+
 - New genes: `SYS-099`, `CON-102`, `OBJ-035`.
 - Reused genes: `ACT-028`, `CON-001`, `CON-047`, `INF-001`, `TIM-009`.
 - Classification result: three `New gene` records and one new verified

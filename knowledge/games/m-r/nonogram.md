@@ -229,42 +229,23 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0007`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0007`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `7` (`GAME-0001`–`GAME-0007`).
 - Exact genome matches: none.
-- Shared with `GAME-0001`: `CON-001`, `INF-001`; intersection `2`, union `19`,
-  `2 / 19 = 0.105263`.
-- Shared with `GAME-0002`: `CON-001`, `INF-001`, `TIM-002`; intersection `3`,
-  union `11`, `3 / 11 = 0.272727`.
-- Shared with `GAME-0003`: `CON-001`; intersection `1`, union `15`,
-  `1 / 15 = 0.066667`.
-- Shared with `GAME-0004`: `CON-001`, `INF-001`; intersection `2`, union `20`,
-  `2 / 20 = 0.100000`.
-- Shared with `GAME-0005`: `ACT-007`, `CON-001`, `INF-001`, `OBJ-006`,
-  `TIM-002`; intersection `5`, union `9`, `5 / 9 = 0.555556`.
-- Shared with `GAME-0006`: `CON-001`, `INF-001`, `TIM-002`; intersection `3`,
-  union `13`, `3 / 13 = 0.230769`.
-- Shared with `GAME-0007`: `INF-001`, `TIM-002`; intersection `2`, union `13`,
-  `2 / 13 = 0.153846`.
-- Near match: `GAME-0005`, the unique positive maximum among non-exact indexed
-  games.
-- Supported existing combination subsets: none. `COMB-0005` additionally
-  requires immutable givens and all-different coverage; all other combinations
-  require absent actions, behaviours, constraints or objectives.
-- New combination: `COMB-0008`, whose five genes are a proper subset of this
-  seven-gene genome.
+- Tied near matches: `GAME-0005` — Sudoku (`5 / 9 = 0.555556`).
+- Supported combination subsets: `COMB-0008`.
 - Scan date: 2026-08-11.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0001` — 2048 | `CON-001`, `INF-001` | 2048 globally moves values and spawns a random successor; Nonogram assigns static binary variables from fixed clues | Non-near, `0.105263` |
-| `GAME-0002` — Rubik's Cube | `CON-001`, `INF-001`, `TIM-002` | Cube permutes existing components reversibly; Nonogram completes initially unresolved binary variables | Non-near, `0.272727` |
-| `GAME-0003` — Minesweeper | `CON-001` | Minesweeper reveals concealed hazards through local totals; Nonogram starts with visible global-line descriptions and no hidden current contents | Non-near, `0.066667` |
-| `GAME-0004` — Tetris | `CON-001`, `INF-001` | Tetris changes in real time through falling pieces; Nonogram is a static self-paced assignment problem | Non-near, `0.100000` |
 | `GAME-0005` — Sudoku | `ACT-007`, `CON-001`, `INF-001`, `OBJ-006`, `TIM-002` | Both visibly complete constrained assignments; Sudoku uses immutable givens and all-different symbols, while Nonogram uses ordered binary runs across rows and columns | Near, `0.555556` |
-| `GAME-0006` — Sokoban | `CON-001`, `INF-001`, `TIM-002` | Sokoban transports persistent objects under spatial access; Nonogram assigns static cell values under line descriptions | Non-near, `0.230769` |
-| `GAME-0007` — FreeCell | `INF-001`, `TIM-002` | FreeCell rearranges accessible cards through buffers; Nonogram has no transport or access-order state | Non-near, `0.153846` |
 
+### Preserved research notes
+
+- New combination: `COMB-0008`, whose five genes are a proper subset of this
+  seven-gene genome.
 - New genes: `CON-018`, `INF-006`.
 - Classification result: `New gene`.
 - Evidence and reasoning: visible ordered run descriptions differ from both

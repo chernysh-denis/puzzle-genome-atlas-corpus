@@ -274,63 +274,18 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-019,ACT-040,ACT-131,ACT-161,ACT-191,ACT-222,ACT-223,ACT-224,ACT-225; SYS-299,SYS-355,SYS-356,SYS-357,SYS-358,SYS-359,SYS-360,SYS-361,SYS-362,SYS-363,SYS-364; CON-269,CON-270,CON-282,CON-323,CON-324,CON-325; INF-119,INF-125,INF-141,INF-142,INF-143; OBJ-029; TIM-001,TIM-003`.
-- Indexed games scanned: all 143 earlier canonical games.
-- Indexed combinations scanned: all 141 earlier verified combinations.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `143` (`GAME-0001`–`GAME-0143`).
 - Exact genome matches: none.
-- Mathematical near match: Dota 2 (`GAME-0138`),
-  `6 / 64 = 0.093750`.
-- Comparison context: Shogun Showdown (`GAME-0050`),
-  `3 / 47 = 0.063830`; Palworld (`GAME-0139`),
-  `5 / 84 = 0.059524`.
-- Supported earlier combination subsets: none; new `COMB-0142` is a strict
-  subset of this 35-gene genome.
+- Tied near matches: `GAME-0138` — Dota 2 (`6 / 64 = 0.093750`).
+- Supported combination subsets: `COMB-0142`.
 - Scan date: 2026-08-21.
 
-Exhaustive prior-game ledger:
+### Selected-neighbour interpretation
 
-- GAME-0001: 1 / 48 = 0.020833; GAME-0002: 0 / 42 = 0.000000; GAME-0003: 1 / 43 = 0.023256; GAME-0004: 1 / 49 = 0.020408.
-- GAME-0005: 0 / 42 = 0.000000; GAME-0006: 1 / 43 = 0.023256; GAME-0007: 0 / 43 = 0.000000; GAME-0008: 0 / 42 = 0.000000.
-- GAME-0009: 1 / 50 = 0.020000; GAME-0010: 1 / 43 = 0.023256; GAME-0011: 0 / 48 = 0.000000; GAME-0012: 0 / 44 = 0.000000.
-- GAME-0013: 1 / 47 = 0.021277; GAME-0014: 1 / 49 = 0.020408; GAME-0015: 1 / 48 = 0.020833; GAME-0016: 1 / 49 = 0.020408.
-- GAME-0017: 1 / 47 = 0.021277; GAME-0018: 1 / 53 = 0.018868; GAME-0019: 1 / 44 = 0.022727; GAME-0020: 1 / 48 = 0.020833.
-- GAME-0021: 1 / 43 = 0.023256; GAME-0022: 0 / 47 = 0.000000; GAME-0023: 0 / 45 = 0.000000; GAME-0024: 1 / 46 = 0.021739.
-- GAME-0025: 1 / 45 = 0.022222; GAME-0026: 1 / 46 = 0.021739; GAME-0027: 2 / 45 = 0.044444; GAME-0028: 2 / 50 = 0.040000.
-- GAME-0029: 2 / 45 = 0.044444; GAME-0030: 1 / 48 = 0.020833; GAME-0031: 0 / 46 = 0.000000; GAME-0032: 0 / 46 = 0.000000.
-- GAME-0033: 2 / 46 = 0.043478; GAME-0034: 2 / 47 = 0.042553; GAME-0035: 2 / 51 = 0.039216; GAME-0036: 1 / 46 = 0.021739.
-- GAME-0037: 0 / 44 = 0.000000; GAME-0038: 2 / 49 = 0.040816; GAME-0039: 0 / 44 = 0.000000; GAME-0040: 1 / 42 = 0.023810.
-- GAME-0041: 2 / 44 = 0.045455; GAME-0042: 0 / 44 = 0.000000; GAME-0043: 2 / 47 = 0.042553; GAME-0044: 2 / 43 = 0.046512.
-- GAME-0045: 2 / 47 = 0.042553; GAME-0046: 0 / 45 = 0.000000; GAME-0047: 1 / 48 = 0.020833; GAME-0048: 2 / 47 = 0.042553.
-- GAME-0049: 1 / 43 = 0.023256; GAME-0050: 3 / 47 = 0.063830; GAME-0051: 1 / 50 = 0.020000; GAME-0052: 0 / 45 = 0.000000.
-- GAME-0053: 2 / 42 = 0.047619; GAME-0054: 2 / 44 = 0.045455; GAME-0055: 2 / 43 = 0.046512; GAME-0056: 0 / 43 = 0.000000.
-- GAME-0057: 1 / 42 = 0.023810; GAME-0058: 1 / 43 = 0.023256; GAME-0059: 1 / 41 = 0.024390; GAME-0060: 1 / 41 = 0.024390.
-- GAME-0061: 0 / 45 = 0.000000; GAME-0062: 0 / 43 = 0.000000; GAME-0063: 0 / 42 = 0.000000; GAME-0064: 0 / 40 = 0.000000.
-- GAME-0065: 0 / 42 = 0.000000; GAME-0066: 0 / 45 = 0.000000; GAME-0067: 0 / 43 = 0.000000; GAME-0068: 0 / 43 = 0.000000.
-- GAME-0069: 0 / 43 = 0.000000; GAME-0070: 1 / 42 = 0.023810; GAME-0071: 0 / 42 = 0.000000; GAME-0072: 0 / 43 = 0.000000.
-- GAME-0073: 0 / 42 = 0.000000; GAME-0074: 0 / 44 = 0.000000; GAME-0075: 0 / 44 = 0.000000; GAME-0076: 0 / 42 = 0.000000.
-- GAME-0077: 0 / 42 = 0.000000; GAME-0078: 0 / 42 = 0.000000; GAME-0079: 0 / 42 = 0.000000; GAME-0080: 0 / 42 = 0.000000.
-- GAME-0081: 0 / 43 = 0.000000; GAME-0082: 0 / 43 = 0.000000; GAME-0083: 0 / 43 = 0.000000; GAME-0084: 0 / 45 = 0.000000.
-- GAME-0085: 0 / 46 = 0.000000; GAME-0086: 0 / 48 = 0.000000; GAME-0087: 1 / 44 = 0.022727; GAME-0088: 0 / 44 = 0.000000.
-- GAME-0089: 0 / 44 = 0.000000; GAME-0090: 1 / 49 = 0.020408; GAME-0091: 2 / 42 = 0.047619; GAME-0092: 1 / 44 = 0.022727.
-- GAME-0093: 0 / 44 = 0.000000; GAME-0094: 2 / 43 = 0.046512; GAME-0095: 2 / 45 = 0.044444; GAME-0096: 2 / 43 = 0.046512.
-- GAME-0097: 2 / 41 = 0.048780; GAME-0098: 2 / 40 = 0.050000; GAME-0099: 2 / 41 = 0.048780; GAME-0100: 1 / 45 = 0.022222.
-- GAME-0101: 0 / 45 = 0.000000; GAME-0102: 0 / 42 = 0.000000; GAME-0103: 0 / 44 = 0.000000; GAME-0104: 1 / 43 = 0.023256.
-- GAME-0105: 2 / 43 = 0.046512; GAME-0106: 0 / 42 = 0.000000; GAME-0107: 1 / 42 = 0.023810; GAME-0108: 1 / 44 = 0.022727.
-- GAME-0109: 1 / 50 = 0.020000; GAME-0110: 2 / 41 = 0.048780; GAME-0111: 1 / 41 = 0.024390; GAME-0112: 2 / 41 = 0.048780.
-- GAME-0113: 2 / 47 = 0.042553; GAME-0114: 1 / 41 = 0.024390; GAME-0115: 0 / 41 = 0.000000; GAME-0116: 2 / 39 = 0.051282.
-- GAME-0117: 1 / 42 = 0.023810; GAME-0118: 1 / 50 = 0.020000; GAME-0119: 1 / 57 = 0.017544; GAME-0120: 2 / 62 = 0.032258.
-- GAME-0121: 1 / 57 = 0.017544; GAME-0122: 1 / 49 = 0.020408; GAME-0123: 1 / 72 = 0.013889; GAME-0124: 1 / 81 = 0.012346.
-- GAME-0125: 1 / 76 = 0.013158; GAME-0126: 1 / 77 = 0.012987; GAME-0127: 1 / 82 = 0.012195; GAME-0128: 1 / 50 = 0.020000.
-- GAME-0129: 3 / 67 = 0.044776; GAME-0130: 1 / 87 = 0.011494; GAME-0131: 3 / 78 = 0.038462; GAME-0132: 2 / 84 = 0.023810.
-- GAME-0133: 1 / 79 = 0.012658; GAME-0134: 1 / 85 = 0.011765; GAME-0135: 1 / 82 = 0.012195; GAME-0136: 1 / 94 = 0.010638.
-- GAME-0137: 3 / 62 = 0.048387; GAME-0138: 6 / 64 = 0.093750; GAME-0139: 5 / 84 = 0.059524; GAME-0140: 3 / 75 = 0.040000.
-- GAME-0141: 3 / 83 = 0.036145; GAME-0142: 3 / 83 = 0.036145; GAME-0143: 3 / 81 = 0.037037.
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0138`.
 
-| Neighbour | Shared genes | Decision-relevant differences | Match result |
-|---|---|---|---|
-| Dota 2 | character build point, XP-to-level conversion, ability legality, build gates, visible personal resources and live timing | continuous team match, economy and respawn versus bounded authored party encounters with visible turns and reactive prompts | nearest, not exact |
-| Shogun Showdown | avatar movement, finite hostile clearance and discrete turn resolution | forecasted spatial queue versus party AP, free aim and real-time execution inside turns | comparison context, not near-match tie |
-| Palworld | avatar navigation, aimed hostile strike, authored campaign gates, explored map and live input | autonomous continuous companion combat versus individual turn queue and timed defence | comparison context, not near-match tie |
+### Preserved research notes
 
 - New genes: `ACT-222`–`ACT-225`, `SYS-355`–`SYS-364`, `CON-323`–`CON-325`,
   `INF-141`–`INF-143`.
@@ -340,14 +295,6 @@ Exhaustive prior-game ledger:
   AP-funded turn plan into live prompted execution and enemy-response timing,
   with successful encounters permanently expanding both character builds and
   the reusable Lumina passive library.
-
-### Registry normalisation 006 score corrections
-
-These recomputed values supersede the pre-normalisation fractions above:
-
-- `GAME-0139`: `6 / 83 = 0.072289`
-- `GAME-0143`: `5 / 79 = 0.063291`
-- Current prior-corpus near match after normalisation 006: `GAME-0138`.
 
 ## Taxonomy impact
 

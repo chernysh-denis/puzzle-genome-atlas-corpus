@@ -208,46 +208,18 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`:
-  `ACT-007; none; CON-001,CON-109,CON-117,CON-118; INF-001; OBJ-006; TIM-002`.
-- Indexed games scanned: `GAME-0001`–`GAME-0071`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0071`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `71` (`GAME-0001`–`GAME-0071`).
 - Exact genome matches: none.
-- Unique nearest game: `GAME-0062` Hexologic at `6 / 10 = 0.600000`, sharing
-  assignment, fixed capacity, overlapping exact line aggregates, full
-  visibility, complete constraint satisfaction and self-paced time.
-- Next nearest games: `GAME-0005` Sudoku, `GAME-0008` Nonogram and
-  `GAME-0071` Slant, each at `5 / 10 = 0.500000`.
-- Supported combination subsets: none before `COMB-0072`; its three defining
-  spatial predicates do not occur together in any earlier combination.
+- Tied near matches: `GAME-0062` — Hexologic (`6 / 10 = 0.600000`).
+- Supported combination subsets: `COMB-0072`.
 - Scan date: 2026-08-14.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0005` — Sudoku | `ACT-007`, `CON-001`, `INF-001`, `OBJ-006`, `TIM-002` | Sudoku covers all symbols in all-different units; Tents selects a quota subset with non-touching and perfect matching | tied near match, `5 / 10 = 0.500000` |
-| `GAME-0008` — Nonogram | `ACT-007`, `CON-001`, `INF-001`, `OBJ-006`, `TIM-002` | Nonogram constrains ordered runs; Tents constrains cardinality plus spatial pairing | tied near match, `5 / 10 = 0.500000` |
-| `GAME-0062` — Hexologic | `ACT-007`, `CON-001`, `CON-109`, `INF-001`, `OBJ-006`, `TIM-002` | Hexologic assigns one-to-three pip values and exposes directional sum clues; Tents assigns binary occupancy and adds separation plus tree matching | unique nearest, `6 / 10 = 0.600000` |
-| `GAME-0071` — Slant | `ACT-007`, `CON-001`, `INF-001`, `OBJ-006`, `TIM-002` | Slant assigns graph edges under degree and acyclicity; Tents assigns occupancy under quotas, separation and matching | tied near match, `5 / 10 = 0.500000` |
-
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `2 / 20 = 0.100000`; `GAME-0002`: `3 / 12 = 0.250000`; `GAME-0003`: `1 / 16 = 0.062500`; `GAME-0004`: `2 / 21 = 0.095238`.
-  - `GAME-0005`: `5 / 10 = 0.500000`; `GAME-0006`: `3 / 14 = 0.214286`; `GAME-0007`: `2 / 14 = 0.142857`; `GAME-0008`: `5 / 10 = 0.500000`.
-  - `GAME-0009`: `2 / 22 = 0.090909`; `GAME-0010`: `2 / 15 = 0.133333`; `GAME-0011`: `3 / 18 = 0.166667`; `GAME-0012`: `4 / 13 = 0.307692`.
-  - `GAME-0013`: `2 / 19 = 0.105263`; `GAME-0014`: `2 / 21 = 0.095238`; `GAME-0015`: `2 / 20 = 0.100000`; `GAME-0016`: `2 / 21 = 0.095238`.
-  - `GAME-0017`: `0 / 21 = 0.000000`; `GAME-0018`: `1 / 26 = 0.038462`; `GAME-0019`: `2 / 16 = 0.125000`; `GAME-0020`: `1 / 21 = 0.047619`.
-  - `GAME-0021`: `1 / 16 = 0.062500`; `GAME-0022`: `1 / 19 = 0.052632`; `GAME-0023`: `1 / 17 = 0.058824`; `GAME-0024`: `2 / 18 = 0.111111`.
-  - `GAME-0025`: `1 / 18 = 0.055556`; `GAME-0026`: `1 / 19 = 0.052632`; `GAME-0027`: `2 / 18 = 0.111111`; `GAME-0028`: `2 / 23 = 0.086957`.
-  - `GAME-0029`: `2 / 18 = 0.111111`; `GAME-0030`: `1 / 21 = 0.047619`; `GAME-0031`: `1 / 18 = 0.055556`; `GAME-0032`: `2 / 17 = 0.117647`.
-  - `GAME-0033`: `1 / 20 = 0.050000`; `GAME-0034`: `1 / 21 = 0.047619`; `GAME-0035`: `1 / 25 = 0.040000`; `GAME-0036`: `2 / 18 = 0.111111`.
-  - `GAME-0037`: `2 / 15 = 0.133333`; `GAME-0038`: `1 / 23 = 0.043478`; `GAME-0039`: `4 / 13 = 0.307692`; `GAME-0040`: `2 / 14 = 0.142857`.
-  - `GAME-0041`: `1 / 18 = 0.055556`; `GAME-0042`: `1 / 16 = 0.062500`; `GAME-0043`: `2 / 20 = 0.100000`; `GAME-0044`: `2 / 16 = 0.125000`.
-  - `GAME-0045`: `2 / 20 = 0.100000`; `GAME-0046`: `2 / 16 = 0.125000`; `GAME-0047`: `2 / 20 = 0.100000`; `GAME-0048`: `2 / 20 = 0.100000`.
-  - `GAME-0049`: `1 / 16 = 0.062500`; `GAME-0050`: `2 / 21 = 0.095238`; `GAME-0051`: `1 / 23 = 0.043478`; `GAME-0052`: `1 / 17 = 0.058824`.
-  - `GAME-0053`: `2 / 15 = 0.133333`; `GAME-0054`: `2 / 17 = 0.117647`; `GAME-0055`: `2 / 16 = 0.125000`; `GAME-0056`: `2 / 14 = 0.142857`.
-  - `GAME-0057`: `2 / 14 = 0.142857`; `GAME-0058`: `2 / 15 = 0.133333`; `GAME-0059`: `2 / 13 = 0.153846`; `GAME-0060`: `1 / 14 = 0.071429`.
-  - `GAME-0061`: `4 / 14 = 0.285714`; `GAME-0062`: `6 / 10 = 0.600000`; `GAME-0063`: `3 / 12 = 0.250000`; `GAME-0064`: `2 / 11 = 0.181818`.
-  - `GAME-0065`: `1 / 14 = 0.071429`; `GAME-0066`: `2 / 16 = 0.125000`; `GAME-0067`: `0 / 16 = 0.000000`; `GAME-0068`: `1 / 15 = 0.066667`.
-  - `GAME-0069`: `3 / 13 = 0.230769`; `GAME-0070`: `2 / 14 = 0.142857`; `GAME-0071`: `5 / 10 = 0.500000`.
+| `GAME-0062` — Hexologic | `ACT-007`, `CON-001`, `CON-109`, `INF-001`, `OBJ-006`, `TIM-002` | Hexologic assigns one-to-three pip values and exposes directional sum clues; Tents assigns binary occupancy and adds separation plus tree matching | Near, `0.600000` |
 
 ## Taxonomy impact
 

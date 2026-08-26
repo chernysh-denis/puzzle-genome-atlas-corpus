@@ -307,42 +307,20 @@ CON-001,CON-011,CON-095; INF-001,INF-025; OBJ-029,OBJ-031; TIM-010`
 
 ## Corpus comparison
 
-- Indexed games scanned: all 47 prior records, `GAME-0001`–`GAME-0047`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0047`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `47` (`GAME-0001`–`GAME-0047`).
 - Exact genome matches: none.
-- Existing combination subsets: none.
-- Unique mathematical near match: `GAME-0014` — Into the Breach at
-  `6 / 23 = 0.260870`, sharing `ACT-014`, `ACT-019`, `SYS-020`, `CON-001`,
-  `CON-011` and `INF-001`.
-- Full Jaccard scan (intersection / union = score):
-  `GAME-0001` `2 / 26 = 0.076923`; `GAME-0002` `2 / 19 = 0.105263`;
-  `GAME-0003` `1 / 22 = 0.045455`; `GAME-0004` `2 / 27 = 0.074074`;
-  `GAME-0005` `2 / 19 = 0.105263`; `GAME-0006` `3 / 20 = 0.150000`;
-  `GAME-0007` `1 / 21 = 0.047619`; `GAME-0008` `2 / 19 = 0.105263`;
-  `GAME-0009` `2 / 28 = 0.071429`; `GAME-0010` `2 / 21 = 0.095238`;
-  `GAME-0011` `3 / 24 = 0.125000`; `GAME-0012` `2 / 21 = 0.095238`;
-  `GAME-0013` `2 / 25 = 0.080000`; `GAME-0014` `6 / 23 = 0.260870`;
-  `GAME-0015` `2 / 26 = 0.076923`; `GAME-0016` `2 / 27 = 0.074074`;
-  `GAME-0017` `0 / 27 = 0.000000`; `GAME-0018` `1 / 32 = 0.031250`;
-  `GAME-0019` `3 / 21 = 0.142857`; `GAME-0020` `1 / 27 = 0.037037`;
-  `GAME-0021` `1 / 22 = 0.045455`; `GAME-0022` `1 / 25 = 0.040000`;
-  `GAME-0023` `0 / 24 = 0.000000`; `GAME-0024` `1 / 25 = 0.040000`;
-  `GAME-0025` `2 / 23 = 0.086957`; `GAME-0026` `1 / 25 = 0.040000`;
-  `GAME-0027` `5 / 21 = 0.238095`; `GAME-0028` `2 / 29 = 0.068966`;
-  `GAME-0029` `3 / 23 = 0.130435`; `GAME-0030` `2 / 26 = 0.076923`;
-  `GAME-0031` `1 / 24 = 0.041667`; `GAME-0032` `2 / 23 = 0.086957`;
-  `GAME-0033` `1 / 26 = 0.038462`; `GAME-0034` `1 / 27 = 0.037037`;
-  `GAME-0035` `1 / 31 = 0.032258`; `GAME-0036` `2 / 24 = 0.083333`;
-  `GAME-0037` `2 / 21 = 0.095238`; `GAME-0038` `1 / 29 = 0.034483`;
-  `GAME-0039` `2 / 21 = 0.095238`; `GAME-0040` `1 / 21 = 0.047619`;
-  `GAME-0041` `1 / 24 = 0.041667`; `GAME-0042` `1 / 22 = 0.045455`;
-  `GAME-0043` `3 / 25 = 0.120000`; `GAME-0044` `2 / 22 = 0.090909`;
-  `GAME-0045` `3 / 25 = 0.120000`; `GAME-0046` `1 / 23 = 0.043478`;
-  `GAME-0047` `5 / 23 = 0.217391`.
+- Tied near matches: `GAME-0014` — Into the Breach (`6 / 23 = 0.260870`).
+- Supported combination subsets: `COMB-0048`.
+- Scan date: 2026-08-12.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0014` — Into the Breach | `ACT-014`, `ACT-019`, `SYS-020`, `CON-001`, `CON-011`, `INF-001` | committed attacks, move-before-ability lock and Grid horizon versus reactive forecast, post-ability movement, draft rewind and authored room tasks | Unique near match; rejects both exact-intent combinations |
+| `GAME-0014` — Into the Breach | `ACT-014`, `ACT-019`, `SYS-020`, `CON-001`, `CON-011`, `INF-001` | committed attacks, move-before-ability lock and Grid horizon versus reactive forecast, post-ability movement, draft rewind and authored room tasks | Near, `0.260870` |
+
+### Preserved research notes
 
 - New genes: `ACT-062`, `SYS-088`, `CON-095`, `INF-025`, `OBJ-031`, `TIM-010`.
 - Classification result: `New combination of known and new genes`.

@@ -253,41 +253,21 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0020`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0020`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `20` (`GAME-0001`–`GAME-0020`).
 - Exact genome matches: none.
-- Existing combination subsets: none.
-- Jaccard scores against complete genomes:
-  - `GAME-0001`: shared `INF-001`, `OBJ-002`; `2 / 21 = 0.095238`.
-  - `GAME-0002`: shared `INF-001`; `1 / 15 = 0.066667`.
-  - `GAME-0003`: shared none; `0 / 18 = 0.000000`.
-  - `GAME-0004`: shared `INF-001`, `OBJ-002`, `TIM-003`;
-    `3 / 21 = 0.142857`.
-  - `GAME-0005`: shared `INF-001`; `1 / 15 = 0.066667`.
-  - `GAME-0006`: shared `INF-001`; `1 / 17 = 0.058824`.
-  - `GAME-0007`: shared `INF-001`; `1 / 16 = 0.062500`.
-  - `GAME-0008`: shared `INF-001`; `1 / 15 = 0.066667`.
-  - `GAME-0009`: shared `INF-001`; `1 / 24 = 0.041667`.
-  - `GAME-0010`: shared `INF-001`; `1 / 17 = 0.058824`.
-  - `GAME-0011`: shared `INF-001`; `1 / 21 = 0.047619`.
-  - `GAME-0012`: shared `INF-001`; `1 / 17 = 0.058824`.
-  - `GAME-0013`: shared `INF-001`; `1 / 21 = 0.047619`.
-  - `GAME-0014`: shared `INF-001`; `1 / 23 = 0.043478`.
-  - `GAME-0015`: shared `INF-001`, `OBJ-002`; `2 / 21 = 0.095238`.
-  - `GAME-0016`: shared `INF-001`, `OBJ-002`, `TIM-003`;
-    `3 / 21 = 0.142857`.
-  - `GAME-0017`: shared none; `0 / 22 = 0.000000`.
-  - `GAME-0018`: shared `INF-001`, `OBJ-002`, `TIM-003`;
-    `3 / 25 = 0.120000`.
-  - `GAME-0019`: shared `INF-001`; `1 / 18 = 0.055556`.
-  - `GAME-0020`: shared `INF-001`, `OBJ-002`; `2 / 21 = 0.095238`.
-- Mathematically selected near matches: `GAME-0004` — Tetris and `GAME-0016`
-  — Pipe Mania / Pipe Dream, tied at `3 / 21 = 0.142857`.
+- Tied near matches: `GAME-0004` — Tetris (`3 / 21 = 0.142857`); `GAME-0016` — Pipe Mania / Pipe Dream (`3 / 21 = 0.142857`).
+- Supported combination subsets: `COMB-0021`.
+- Scan date: 2026-08-11.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0004` — Tetris | `INF-001`, `OBJ-002`, `TIM-003` | Tetris directly changes a falling rigid piece's grid pose and resolves lock / line clears; Cut the Rope irreversibly removes support links and predicts continuous constrained-body motion toward a receiver | Near match only |
-| `GAME-0016` — Pipe Mania / Pipe Dream | `INF-001`, `OBJ-002`, `TIM-003` | Pipe Dream places fixed-orientation queue tiles before a directed flow; Cut the Rope has no queue or constructed path and instead times topology removal during force integration | Near match only |
+| `GAME-0004` — Tetris | `INF-001`, `OBJ-002`, `TIM-003` | Tetris directly changes a falling rigid piece's grid pose and resolves lock / line clears; Cut the Rope irreversibly removes support links and predicts continuous constrained-body motion toward a receiver | Near, `0.142857` |
+| `GAME-0016` — Pipe Mania / Pipe Dream | `INF-001`, `OBJ-002`, `TIM-003` | Pipe Dream places fixed-orientation queue tiles before a directed flow; Cut the Rope has no queue or constructed path and instead times topology removal during force integration | Near, `0.142857` |
+
+### Preserved research notes
 
 - New genes: `ACT-027`, `SYS-036`, `SYS-037`, `CON-060`, `CON-061`,
   `OBJ-014`.

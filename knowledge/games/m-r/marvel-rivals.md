@@ -253,58 +253,20 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-161,ACT-187,ACT-190,ACT-237; SYS-215,SYS-380,SYS-381,SYS-382,SYS-383,SYS-384,SYS-385,SYS-386; CON-269,CON-272,CON-338,CON-339,CON-340,CON-341; INF-115,INF-119,INF-150,INF-116; OBJ-078; TIM-003`.
-- Indexed games scanned: 146 (`GAME-0001`–`GAME-0146`).
-- Indexed combinations scanned: 144 (`COMB-0001`–`COMB-0144`).
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `146` (`GAME-0001`–`GAME-0146`).
 - Exact genome matches: none.
-- Near match: Dota 2 (`GAME-0138`) at `7 / 53 = 0.132075`, sharing live
-  hero abilities, team communication, ability gating and real-time progression.
-- Supported prior combination subsets: none.
+- Tied near matches: `GAME-0138` — Dota 2 (`8 / 52 = 0.153846`).
+- Supported combination subsets: `COMB-0145`.
 - Scan date: 2026-08-21.
 
-Exhaustive prior-game ledger:
-
-- GAME-0001: 0 / 39 = 0.000000; GAME-0002: 0 / 32 = 0.000000; GAME-0003: 0 / 34 = 0.000000; GAME-0004: 1 / 39 = 0.025641.
-- GAME-0005: 0 / 32 = 0.000000; GAME-0006: 1 / 33 = 0.030303; GAME-0007: 0 / 33 = 0.000000; GAME-0008: 0 / 32 = 0.000000.
-- GAME-0009: 0 / 41 = 0.000000; GAME-0010: 0 / 34 = 0.000000; GAME-0011: 0 / 38 = 0.000000; GAME-0012: 0 / 34 = 0.000000.
-- GAME-0013: 0 / 38 = 0.000000; GAME-0014: 0 / 40 = 0.000000; GAME-0015: 0 / 39 = 0.000000; GAME-0016: 1 / 39 = 0.025641.
-- GAME-0017: 0 / 38 = 0.000000; GAME-0018: 1 / 43 = 0.023256; GAME-0019: 0 / 35 = 0.000000; GAME-0020: 0 / 39 = 0.000000.
-- GAME-0021: 1 / 33 = 0.030303; GAME-0022: 0 / 37 = 0.000000; GAME-0023: 0 / 35 = 0.000000; GAME-0024: 1 / 36 = 0.027778.
-- GAME-0025: 1 / 35 = 0.028571; GAME-0026: 1 / 36 = 0.027778; GAME-0027: 1 / 36 = 0.027778; GAME-0028: 1 / 41 = 0.024390.
-- GAME-0029: 2 / 35 = 0.057143; GAME-0030: 1 / 38 = 0.026316; GAME-0031: 0 / 36 = 0.000000; GAME-0032: 0 / 36 = 0.000000.
-- GAME-0033: 2 / 36 = 0.055556; GAME-0034: 2 / 37 = 0.054054; GAME-0035: 2 / 41 = 0.048780; GAME-0036: 1 / 36 = 0.027778.
-- GAME-0037: 0 / 34 = 0.000000; GAME-0038: 2 / 39 = 0.051282; GAME-0039: 0 / 34 = 0.000000; GAME-0040: 1 / 32 = 0.031250.
-- GAME-0041: 2 / 34 = 0.058824; GAME-0042: 0 / 34 = 0.000000; GAME-0043: 1 / 38 = 0.026316; GAME-0044: 1 / 34 = 0.029412.
-- GAME-0045: 1 / 38 = 0.026316; GAME-0046: 0 / 35 = 0.000000; GAME-0047: 0 / 39 = 0.000000; GAME-0048: 0 / 39 = 0.000000.
-- GAME-0049: 0 / 34 = 0.000000; GAME-0050: 1 / 39 = 0.025641; GAME-0051: 1 / 40 = 0.025000; GAME-0052: 0 / 35 = 0.000000.
-- GAME-0053: 1 / 33 = 0.030303; GAME-0054: 1 / 35 = 0.028571; GAME-0055: 1 / 34 = 0.029412; GAME-0056: 0 / 33 = 0.000000.
-- GAME-0057: 0 / 33 = 0.000000; GAME-0058: 0 / 34 = 0.000000; GAME-0059: 0 / 32 = 0.000000; GAME-0060: 0 / 32 = 0.000000.
-- GAME-0061: 0 / 35 = 0.000000; GAME-0062: 0 / 33 = 0.000000; GAME-0063: 0 / 32 = 0.000000; GAME-0064: 0 / 30 = 0.000000.
-- GAME-0065: 0 / 32 = 0.000000; GAME-0066: 0 / 35 = 0.000000; GAME-0067: 0 / 33 = 0.000000; GAME-0068: 0 / 33 = 0.000000.
-- GAME-0069: 0 / 33 = 0.000000; GAME-0070: 0 / 33 = 0.000000; GAME-0071: 0 / 32 = 0.000000; GAME-0072: 0 / 33 = 0.000000.
-- GAME-0073: 0 / 32 = 0.000000; GAME-0074: 0 / 34 = 0.000000; GAME-0075: 0 / 34 = 0.000000; GAME-0076: 0 / 32 = 0.000000.
-- GAME-0077: 0 / 32 = 0.000000; GAME-0078: 0 / 32 = 0.000000; GAME-0079: 0 / 32 = 0.000000; GAME-0080: 0 / 32 = 0.000000.
-- GAME-0081: 0 / 33 = 0.000000; GAME-0082: 0 / 33 = 0.000000; GAME-0083: 0 / 33 = 0.000000; GAME-0084: 0 / 35 = 0.000000.
-- GAME-0085: 0 / 36 = 0.000000; GAME-0086: 0 / 38 = 0.000000; GAME-0087: 1 / 34 = 0.029412; GAME-0088: 0 / 34 = 0.000000.
-- GAME-0089: 0 / 34 = 0.000000; GAME-0090: 1 / 39 = 0.025641; GAME-0091: 2 / 32 = 0.062500; GAME-0092: 1 / 34 = 0.029412.
-- GAME-0093: 0 / 34 = 0.000000; GAME-0094: 2 / 33 = 0.060606; GAME-0095: 2 / 35 = 0.057143; GAME-0096: 2 / 33 = 0.060606.
-- GAME-0097: 2 / 31 = 0.064516; GAME-0098: 2 / 30 = 0.066667; GAME-0099: 1 / 32 = 0.031250; GAME-0100: 1 / 35 = 0.028571.
-- GAME-0101: 0 / 35 = 0.000000; GAME-0102: 0 / 32 = 0.000000; GAME-0103: 0 / 34 = 0.000000; GAME-0104: 1 / 33 = 0.030303.
-- GAME-0105: 2 / 33 = 0.060606; GAME-0106: 0 / 32 = 0.000000; GAME-0107: 1 / 32 = 0.031250; GAME-0108: 1 / 34 = 0.029412.
-- GAME-0109: 0 / 41 = 0.000000; GAME-0110: 1 / 32 = 0.031250; GAME-0111: 1 / 31 = 0.032258; GAME-0112: 2 / 31 = 0.064516.
-- GAME-0113: 2 / 37 = 0.054054; GAME-0114: 1 / 31 = 0.032258; GAME-0115: 0 / 31 = 0.000000; GAME-0116: 2 / 29 = 0.068966.
-- GAME-0117: 1 / 32 = 0.031250; GAME-0118: 1 / 40 = 0.025000; GAME-0119: 1 / 47 = 0.021277; GAME-0120: 0 / 54 = 0.000000.
-- GAME-0121: 1 / 47 = 0.021277; GAME-0122: 1 / 39 = 0.025641; GAME-0123: 0 / 63 = 0.000000; GAME-0124: 1 / 71 = 0.014085.
-- GAME-0125: 1 / 66 = 0.015152; GAME-0126: 1 / 67 = 0.014925; GAME-0127: 1 / 72 = 0.013889; GAME-0128: 1 / 40 = 0.025000.
-- GAME-0129: 4 / 56 = 0.071429; GAME-0130: 1 / 77 = 0.012987; GAME-0131: 4 / 67 = 0.059701; GAME-0132: 1 / 75 = 0.013333.
-- GAME-0133: 1 / 69 = 0.014493; GAME-0134: 1 / 75 = 0.013333; GAME-0135: 1 / 72 = 0.013889; GAME-0136: 1 / 84 = 0.011905.
-- GAME-0137: 6 / 49 = 0.122449; GAME-0138: 7 / 53 = 0.132075; GAME-0139: 4 / 75 = 0.053333; GAME-0140: 5 / 63 = 0.079365.
-- GAME-0141: 5 / 71 = 0.070423; GAME-0142: 5 / 71 = 0.070423; GAME-0143: 5 / 69 = 0.072464; GAME-0144: 5 / 55 = 0.090909.
-- GAME-0145: 7 / 66 = 0.106061; GAME-0146: 7 / 82 = 0.085366.
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0138` — Dota 2 | `ACT-187`, `ACT-190`, `SYS-215`, `CON-269`, `CON-272`, `INF-119`, `TIM-003` | direct avatar aim, reversible spawn hero/Team-Up selection, no match economy or lanes, capture-to-escort route, overtime and destructible geometry | near match only; no prior combination recurs |
+| `GAME-0138` — Dota 2 | `ACT-187`, `ACT-190`, `SYS-215`, `CON-269`, `CON-272`, `INF-119`, `TIM-003` | direct avatar aim, reversible spawn hero/Team-Up selection, no match economy or lanes, capture-to-escort route, overtime and destructible geometry | Near, `0.153846` |
+
+### Preserved research notes
 
 - New genes: `ACT-237`, `SYS-380`–`SYS-386`, `CON-338`–`CON-341`,
   `INF-150`, `OBJ-078`.
@@ -313,15 +275,6 @@ Exhaustive prior-game ledger:
   genes with Dota 2. No prior record combines spawn-reversible hero/Team-Up
   selection, typed healing/damage abilities, capture-before-escort control,
   vehicle reversal, contested overtime and mutable arena geometry.
-
-### Registry normalisation 006 score corrections
-
-These recomputed values supersede the pre-normalisation fractions above:
-
-- `GAME-0132`: `2 / 74 = 0.027027`
-- `GAME-0137`: `7 / 48 = 0.145833`
-- `GAME-0138`: `8 / 52 = 0.153846`
-- Current prior-corpus near match after normalisation 006: `GAME-0138`.
 
 ## Taxonomy impact
 

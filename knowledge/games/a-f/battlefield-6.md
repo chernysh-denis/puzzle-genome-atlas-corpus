@@ -285,59 +285,18 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-161,ACT-164,ACT-183,ACT-184,ACT-187,ACT-190,ACT-201,ACT-215,ACT-240,ACT-241; SYS-208,SYS-215,SYS-292,SYS-320,SYS-382,SYS-386,SYS-380,SYS-394,SYS-395,SYS-396; CON-262,CON-269,CON-272,CON-288,CON-346,CON-347,CON-348; INF-073,INF-115,INF-116,INF-119,INF-155; OBJ-079; TIM-003`.
-- Indexed games scanned: all 148 earlier canonical games.
-- Indexed combinations scanned: all 146 earlier verified combinations.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `148` (`GAME-0001`–`GAME-0148`).
 - Exact genome matches: none.
-- Near match: Counter-Strike 2 (`GAME-0137`) at
-  `14 / 51 = 0.274510`.
-- Supported prior combination subsets: none; new
-  `COMB-0147` is a strict subset of this 35-gene genome.
+- Tied near matches: `GAME-0147` — Marvel Rivals (`14 / 46 = 0.304348`).
+- Supported combination subsets: `COMB-0147`.
 - Scan date: 2026-08-21.
 
-Exhaustive prior-game ledger:
+### Selected-neighbour interpretation
 
-- GAME-0001: 0 / 49 = 0.000000; GAME-0002: 0 / 42 = 0.000000; GAME-0003: 0 / 44 = 0.000000; GAME-0004: 1 / 49 = 0.020408.
-- GAME-0005: 0 / 42 = 0.000000; GAME-0006: 1 / 43 = 0.023256; GAME-0007: 0 / 43 = 0.000000; GAME-0008: 0 / 42 = 0.000000.
-- GAME-0009: 0 / 51 = 0.000000; GAME-0010: 0 / 44 = 0.000000; GAME-0011: 0 / 48 = 0.000000; GAME-0012: 0 / 44 = 0.000000.
-- GAME-0013: 0 / 48 = 0.000000; GAME-0014: 0 / 50 = 0.000000; GAME-0015: 0 / 49 = 0.000000; GAME-0016: 1 / 49 = 0.020408.
-- GAME-0017: 0 / 48 = 0.000000; GAME-0018: 1 / 53 = 0.018868; GAME-0019: 0 / 45 = 0.000000; GAME-0020: 0 / 49 = 0.000000.
-- GAME-0021: 1 / 43 = 0.023256; GAME-0022: 0 / 47 = 0.000000; GAME-0023: 0 / 45 = 0.000000; GAME-0024: 1 / 46 = 0.021739.
-- GAME-0025: 1 / 45 = 0.022222; GAME-0026: 1 / 46 = 0.021739; GAME-0027: 1 / 46 = 0.021739; GAME-0028: 1 / 51 = 0.019608.
-- GAME-0029: 2 / 45 = 0.044444; GAME-0030: 1 / 48 = 0.020833; GAME-0031: 0 / 46 = 0.000000; GAME-0032: 0 / 46 = 0.000000.
-- GAME-0033: 2 / 46 = 0.043478; GAME-0034: 2 / 47 = 0.042553; GAME-0035: 2 / 51 = 0.039216; GAME-0036: 1 / 46 = 0.021739.
-- GAME-0037: 0 / 44 = 0.000000; GAME-0038: 2 / 49 = 0.040816; GAME-0039: 0 / 44 = 0.000000; GAME-0040: 1 / 42 = 0.023810.
-- GAME-0041: 2 / 44 = 0.045455; GAME-0042: 0 / 44 = 0.000000; GAME-0043: 1 / 48 = 0.020833; GAME-0044: 1 / 44 = 0.022727.
-- GAME-0045: 1 / 48 = 0.020833; GAME-0046: 0 / 45 = 0.000000; GAME-0047: 0 / 49 = 0.000000; GAME-0048: 0 / 49 = 0.000000.
-- GAME-0049: 0 / 44 = 0.000000; GAME-0050: 1 / 49 = 0.020408; GAME-0051: 1 / 50 = 0.020000; GAME-0052: 0 / 45 = 0.000000.
-- GAME-0053: 1 / 43 = 0.023256; GAME-0054: 1 / 45 = 0.022222; GAME-0055: 1 / 44 = 0.022727; GAME-0056: 0 / 43 = 0.000000.
-- GAME-0057: 0 / 43 = 0.000000; GAME-0058: 0 / 44 = 0.000000; GAME-0059: 0 / 42 = 0.000000; GAME-0060: 0 / 42 = 0.000000.
-- GAME-0061: 0 / 45 = 0.000000; GAME-0062: 0 / 43 = 0.000000; GAME-0063: 0 / 42 = 0.000000; GAME-0064: 0 / 40 = 0.000000.
-- GAME-0065: 0 / 42 = 0.000000; GAME-0066: 0 / 45 = 0.000000; GAME-0067: 0 / 43 = 0.000000; GAME-0068: 0 / 43 = 0.000000.
-- GAME-0069: 0 / 43 = 0.000000; GAME-0070: 0 / 43 = 0.000000; GAME-0071: 0 / 42 = 0.000000; GAME-0072: 0 / 43 = 0.000000.
-- GAME-0073: 0 / 42 = 0.000000; GAME-0074: 0 / 44 = 0.000000; GAME-0075: 0 / 44 = 0.000000; GAME-0076: 0 / 42 = 0.000000.
-- GAME-0077: 0 / 42 = 0.000000; GAME-0078: 0 / 42 = 0.000000; GAME-0079: 0 / 42 = 0.000000; GAME-0080: 0 / 42 = 0.000000.
-- GAME-0081: 0 / 43 = 0.000000; GAME-0082: 0 / 43 = 0.000000; GAME-0083: 0 / 43 = 0.000000; GAME-0084: 0 / 45 = 0.000000.
-- GAME-0085: 0 / 46 = 0.000000; GAME-0086: 0 / 48 = 0.000000; GAME-0087: 1 / 44 = 0.022727; GAME-0088: 0 / 44 = 0.000000.
-- GAME-0089: 0 / 44 = 0.000000; GAME-0090: 1 / 49 = 0.020408; GAME-0091: 2 / 42 = 0.047619; GAME-0092: 1 / 44 = 0.022727.
-- GAME-0093: 0 / 44 = 0.000000; GAME-0094: 2 / 43 = 0.046512; GAME-0095: 2 / 45 = 0.044444; GAME-0096: 2 / 43 = 0.046512.
-- GAME-0097: 2 / 41 = 0.048780; GAME-0098: 2 / 40 = 0.050000; GAME-0099: 1 / 42 = 0.023810; GAME-0100: 1 / 45 = 0.022222.
-- GAME-0101: 0 / 45 = 0.000000; GAME-0102: 0 / 42 = 0.000000; GAME-0103: 0 / 44 = 0.000000; GAME-0104: 1 / 43 = 0.023256.
-- GAME-0105: 2 / 43 = 0.046512; GAME-0106: 0 / 42 = 0.000000; GAME-0107: 1 / 42 = 0.023810; GAME-0108: 1 / 44 = 0.022727.
-- GAME-0109: 0 / 51 = 0.000000; GAME-0110: 1 / 42 = 0.023810; GAME-0111: 1 / 41 = 0.024390; GAME-0112: 2 / 41 = 0.048780.
-- GAME-0113: 2 / 47 = 0.042553; GAME-0114: 1 / 41 = 0.024390; GAME-0115: 0 / 41 = 0.000000; GAME-0116: 2 / 39 = 0.051282.
-- GAME-0117: 1 / 42 = 0.023810; GAME-0118: 1 / 50 = 0.020000; GAME-0119: 1 / 57 = 0.017544; GAME-0120: 0 / 64 = 0.000000.
-- GAME-0121: 1 / 57 = 0.017544; GAME-0122: 1 / 49 = 0.020408; GAME-0123: 0 / 73 = 0.000000; GAME-0124: 1 / 81 = 0.012346.
-- GAME-0125: 1 / 76 = 0.013158; GAME-0126: 1 / 77 = 0.012987; GAME-0127: 2 / 81 = 0.024691; GAME-0128: 1 / 50 = 0.020000.
-- GAME-0129: 6 / 64 = 0.093750; GAME-0130: 1 / 87 = 0.011494; GAME-0131: 4 / 77 = 0.051948; GAME-0132: 1 / 85 = 0.011765.
-- GAME-0133: 1 / 79 = 0.012658; GAME-0134: 1 / 85 = 0.011765; GAME-0135: 1 / 82 = 0.012195; GAME-0136: 1 / 94 = 0.010638.
-- GAME-0137: 14 / 51 = 0.274510; GAME-0138: 7 / 63 = 0.111111; GAME-0139: 6 / 83 = 0.072289; GAME-0140: 15 / 63 = 0.238095.
-- GAME-0141: 8 / 78 = 0.102564; GAME-0142: 8 / 78 = 0.102564; GAME-0143: 6 / 78 = 0.076923; GAME-0144: 5 / 65 = 0.076923.
-- GAME-0145: 16 / 67 = 0.238806; GAME-0146: 15 / 84 = 0.178571; GAME-0147: 12 / 48 = 0.250000; GAME-0148: 7 / 71 = 0.098592.
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0147`.
 
-| Neighbour | Shared genes | Decision-relevant differences | Match result |
-|---|---|---|---|
-| Counter-Strike 2 (`GAME-0137`) | `ACT-008`, `ACT-161`, `ACT-164`, `ACT-183`, `ACT-184`, `ACT-187`, `SYS-208`, `SYS-215`, `SYS-292`, `CON-262`, `INF-073`, `INF-115`, `INF-116`, `TIM-003` | one-life economy rounds and an asymmetric bomb deadline versus repeated class/squad redeployment, revival, vehicles and simultaneous point-to-ticket pressure | nearest, not exact; `14 / 51 = 0.274510` |
+### Preserved research notes
 
 - New genes: `ACT-240`, `ACT-241`, `SYS-394`–`SYS-396`, `CON-346`–`CON-348`,
   `INF-155`, `OBJ-079`.
@@ -345,16 +304,6 @@ Exhaustive prior-game ledger:
 - Evidence and reasoning: the distinctive boundary is the repeated conversion
   of class/squad deployment, reversible downing and simultaneous point control
   into one finite shared ticket pool, not firearm statistics or theme.
-
-### Registry normalisation 006 score corrections
-
-These recomputed values supersede the pre-normalisation fractions above:
-
-- `GAME-0132`: `2 / 84 = 0.023810`
-- `GAME-0138`: `8 / 62 = 0.129032`
-- `GAME-0143`: `7 / 77 = 0.090909`
-- `GAME-0147`: `14 / 46 = 0.304348`
-- Current prior-corpus near match after normalisation 006: `GAME-0147`.
 
 ## Taxonomy impact
 

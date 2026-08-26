@@ -217,36 +217,16 @@ Compact signature:
 
 ## Corpus comparison
 
-The comparison scanned every complete `GAME-0001`–`GAME-0084` signature with
-canonical Jaccard intersection over union.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `84` (`GAME-0001`–`GAME-0084`).
+- Exact genome matches: none.
+- Tied near matches: `GAME-0065` — Mastermind (`2 / 16 = 0.125000`).
+- Supported combination subsets: `COMB-0085`.
+- Scan date: 2026-08-14.
 
-- Near match: `GAME-0065` Mastermind is uniquely nearest at
-  `2 / 16 = 0.125000`.
+### Selected-neighbour interpretation
 
-| Prior game | Shared genes | Boundary | Jaccard |
-|---|---|---|---:|
-| `GAME-0065` — Mastermind | `INF-003`, `TIM-002` | complete ordered queries against a fixed secret; no diegetic tools or staged fixture graph | nearest, `2 / 16 = 0.125000` |
-| `GAME-0068` — Wordle | `INF-003`, `TIM-002` | lexicon-gated complete queries; no object manipulation or instrument layer | next, `2 / 17 = 0.117647` |
-| `GAME-0066` — Black Box | `INF-003`, `TIM-002` | indirect ray probes reconstruct a concealed layout; no inventory dependency chain | next, `2 / 19 = 0.105263` |
-| `GAME-0060` — HOOK | `ACT-072` | triggers retract linked geometry under obstruction ordering; no held objects or hidden optical trace | action cousin, `1 / 17 = 0.058824` |
-
-No prior full signature is exact, no prior combination equals the candidate and
-no prior combination is a supported subset of the complete genome. The low
-scores are informative: concealment and own-pace timing exist in the corpus,
-but the item–fixture–reveal dependency grammar does not.
-
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `0 / 25 = 0.000000`; `GAME-0002`: `1 / 17 = 0.058824`; `GAME-0003`: `1 / 19 = 0.052632`; `GAME-0004`: `0 / 26 = 0.000000`; `GAME-0005`: `1 / 17 = 0.058824`; `GAME-0006`: `1 / 19 = 0.052632`; `GAME-0007`: `1 / 18 = 0.055556`; `GAME-0008`: `1 / 17 = 0.058824`.
-  - `GAME-0009`: `0 / 27 = 0.000000`; `GAME-0010`: `0 / 20 = 0.000000`; `GAME-0011`: `1 / 23 = 0.043478`; `GAME-0012`: `1 / 19 = 0.052632`; `GAME-0013`: `0 / 24 = 0.000000`; `GAME-0014`: `0 / 26 = 0.000000`; `GAME-0015`: `0 / 25 = 0.000000`; `GAME-0016`: `0 / 26 = 0.000000`.
-  - `GAME-0017`: `1 / 23 = 0.043478`; `GAME-0018`: `0 / 30 = 0.000000`; `GAME-0019`: `0 / 21 = 0.000000`; `GAME-0020`: `0 / 25 = 0.000000`; `GAME-0021`: `0 / 20 = 0.000000`; `GAME-0022`: `0 / 23 = 0.000000`; `GAME-0023`: `1 / 20 = 0.050000`; `GAME-0024`: `1 / 22 = 0.045455`.
-  - `GAME-0025`: `0 / 22 = 0.000000`; `GAME-0026`: `0 / 23 = 0.000000`; `GAME-0027`: `0 / 23 = 0.000000`; `GAME-0028`: `0 / 28 = 0.000000`; `GAME-0029`: `0 / 23 = 0.000000`; `GAME-0030`: `0 / 25 = 0.000000`; `GAME-0031`: `0 / 22 = 0.000000`; `GAME-0032`: `0 / 22 = 0.000000`.
-  - `GAME-0033`: `0 / 24 = 0.000000`; `GAME-0034`: `0 / 25 = 0.000000`; `GAME-0035`: `0 / 29 = 0.000000`; `GAME-0036`: `1 / 22 = 0.045455`; `GAME-0037`: `0 / 20 = 0.000000`; `GAME-0038`: `0 / 27 = 0.000000`; `GAME-0039`: `1 / 19 = 0.052632`; `GAME-0040`: `1 / 18 = 0.055556`.
-  - `GAME-0041`: `0 / 22 = 0.000000`; `GAME-0042`: `0 / 20 = 0.000000`; `GAME-0043`: `0 / 25 = 0.000000`; `GAME-0044`: `0 / 21 = 0.000000`; `GAME-0045`: `0 / 25 = 0.000000`; `GAME-0046`: `1 / 20 = 0.050000`; `GAME-0047`: `1 / 24 = 0.041667`; `GAME-0048`: `0 / 25 = 0.000000`.
-  - `GAME-0049`: `1 / 19 = 0.052632`; `GAME-0050`: `0 / 26 = 0.000000`; `GAME-0051`: `0 / 27 = 0.000000`; `GAME-0052`: `0 / 21 = 0.000000`; `GAME-0053`: `0 / 20 = 0.000000`; `GAME-0054`: `0 / 22 = 0.000000`; `GAME-0055`: `0 / 21 = 0.000000`; `GAME-0056`: `0 / 19 = 0.000000`.
-  - `GAME-0057`: `0 / 19 = 0.000000`; `GAME-0058`: `0 / 20 = 0.000000`; `GAME-0059`: `0 / 18 = 0.000000`; `GAME-0060`: `1 / 17 = 0.058824`; `GAME-0061`: `1 / 20 = 0.050000`; `GAME-0062`: `1 / 18 = 0.055556`; `GAME-0063`: `1 / 17 = 0.058824`; `GAME-0064`: `1 / 15 = 0.066667`.
-  - `GAME-0065`: `2 / 16 = 0.125000`; `GAME-0066`: `2 / 19 = 0.105263`; `GAME-0067`: `0 / 19 = 0.000000`; `GAME-0068`: `2 / 17 = 0.117647`; `GAME-0069`: `1 / 18 = 0.055556`; `GAME-0070`: `0 / 19 = 0.000000`; `GAME-0071`: `1 / 17 = 0.058824`; `GAME-0072`: `1 / 18 = 0.055556`.
-  - `GAME-0073`: `1 / 17 = 0.058824`; `GAME-0074`: `1 / 19 = 0.052632`; `GAME-0075`: `1 / 19 = 0.052632`; `GAME-0076`: `1 / 17 = 0.058824`; `GAME-0077`: `1 / 17 = 0.058824`; `GAME-0078`: `1 / 17 = 0.058824`; `GAME-0079`: `1 / 17 = 0.058824`; `GAME-0080`: `1 / 17 = 0.058824`.
-  - `GAME-0081`: `1 / 18 = 0.055556`; `GAME-0082`: `1 / 18 = 0.055556`; `GAME-0083`: `1 / 18 = 0.055556`; `GAME-0084`: `1 / 20 = 0.050000`.
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0065`.
 
 ## Combination candidate
 
@@ -268,7 +248,8 @@ but the item–fixture–reveal dependency grammar does not.
 - Added combination: `COMB-0085`.
 - Evidence gate: passed with two primary product sources, three corroborating
   walkthroughs and one executable dependency verifier.
-- Nearest prior genome: Mastermind at `2 / 16 = 0.125000`.
+- Nearest prior genome: Mastermind; see `Corpus comparison` for the current
+  result.
 - Next falsification target: select a game that can separate generic staged
   inventory dependency from The Room's reconfigurable-tool and optical-layer
   conjunction.
@@ -340,5 +321,5 @@ but the item–fixture–reveal dependency grammar does not.
 пластину застосувати як інструмент, а отриману лінзу — як доступ до прихованого
 фінального візерунка. Лише після цього три кільця можна узгодити й відкрити
 дверцята. Повне порівняння з 84 іграми не знайшло близького геному: Mastermind
-найближчий лише через фіксовану приховану інформацію та власний темп,
-`2 / 16 = 0.125000`.
+найближчий лише через фіксовану приховану інформацію та власний темп;
+актуальний числовий результат наведено в `Corpus comparison`.

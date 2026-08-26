@@ -222,58 +222,23 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: every prior record `GAME-0001`–`GAME-0063`.
-- Indexed combinations scanned: every verified record `COMB-0001`–`COMB-0063`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `63` (`GAME-0001`–`GAME-0063`).
 - Exact genome matches: none.
-- Existing combination subsets: none. Every prior combination gene set was
-  tested as a proper subset of the five-gene signature and rejected.
-- Near match tie: `GAME-0002` Rubik's Cube, `GAME-0005` Sudoku, `GAME-0008`
-  Nonogram and `GAME-0063` Rush Hour each share `INF-001`, `TIM-002` at
-  `2 / 10 = 0.200000`. Hexologic, Carto and FreeCell
-  follow at `2 / 11 = 0.181818`. Balatro shares only generalised `ACT-021` at
-  `1 / 17 = 0.058824` and is retained as the action-boundary control.
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `1 / 18 = 0.055556`; `GAME-0002`: `2 / 10 = 0.200000`;
-    `GAME-0003`: `0 / 14 = 0.000000`; `GAME-0004`: `1 / 19 = 0.052632`;
-    `GAME-0005`: `2 / 10 = 0.200000`; `GAME-0006`: `2 / 12 = 0.166667`;
-    `GAME-0007`: `2 / 11 = 0.181818`; `GAME-0008`: `2 / 10 = 0.200000`;
-    `GAME-0009`: `1 / 20 = 0.050000`; `GAME-0010`: `1 / 13 = 0.076923`;
-    `GAME-0011`: `2 / 16 = 0.125000`; `GAME-0012`: `2 / 12 = 0.166667`;
-    `GAME-0013`: `1 / 17 = 0.058824`; `GAME-0014`: `1 / 19 = 0.052632`;
-    `GAME-0015`: `1 / 18 = 0.055556`; `GAME-0016`: `1 / 19 = 0.052632`;
-    `GAME-0017`: `1 / 17 = 0.058824`; `GAME-0018`: `1 / 23 = 0.043478`;
-    `GAME-0019`: `1 / 14 = 0.071429`; `GAME-0020`: `1 / 18 = 0.055556`;
-    `GAME-0021`: `1 / 13 = 0.076923`; `GAME-0022`: `1 / 16 = 0.062500`;
-    `GAME-0023`: `1 / 14 = 0.071429`; `GAME-0024`: `1 / 16 = 0.062500`;
-    `GAME-0025`: `1 / 15 = 0.066667`; `GAME-0026`: `1 / 16 = 0.062500`;
-    `GAME-0027`: `1 / 16 = 0.062500`; `GAME-0028`: `1 / 21 = 0.047619`;
-    `GAME-0029`: `1 / 16 = 0.062500`; `GAME-0030`: `1 / 18 = 0.055556`;
-    `GAME-0031`: `1 / 15 = 0.066667`; `GAME-0032`: `1 / 15 = 0.066667`;
-    `GAME-0033`: `1 / 17 = 0.058824`; `GAME-0034`: `1 / 18 = 0.055556`;
-    `GAME-0035`: `1 / 22 = 0.045455`; `GAME-0036`: `2 / 15 = 0.133333`;
-    `GAME-0037`: `1 / 13 = 0.076923`; `GAME-0038`: `1 / 20 = 0.050000`;
-    `GAME-0039`: `2 / 12 = 0.166667`; `GAME-0040`: `2 / 11 = 0.181818`;
-    `GAME-0041`: `1 / 15 = 0.066667`; `GAME-0042`: `1 / 13 = 0.076923`;
-    `GAME-0043`: `1 / 18 = 0.055556`; `GAME-0044`: `1 / 14 = 0.071429`;
-    `GAME-0045`: `1 / 18 = 0.055556`; `GAME-0046`: `2 / 13 = 0.153846`;
-    `GAME-0047`: `1 / 18 = 0.055556`; `GAME-0048`: `1 / 18 = 0.055556`;
-    `GAME-0049`: `0 / 14 = 0.000000`; `GAME-0050`: `1 / 19 = 0.052632`;
-    `GAME-0051`: `1 / 20 = 0.050000`; `GAME-0052`: `1 / 14 = 0.071429`;
-    `GAME-0053`: `1 / 13 = 0.076923`; `GAME-0054`: `1 / 15 = 0.066667`;
-    `GAME-0055`: `1 / 14 = 0.071429`; `GAME-0056`: `1 / 12 = 0.083333`;
-    `GAME-0057`: `1 / 12 = 0.083333`; `GAME-0058`: `1 / 13 = 0.076923`;
-    `GAME-0059`: `1 / 11 = 0.090909`; `GAME-0060`: `1 / 11 = 0.090909`;
-    `GAME-0061`: `2 / 13 = 0.153846`; `GAME-0062`: `2 / 11 = 0.181818`;
-    `GAME-0063`: `2 / 10 = 0.200000`.
+- Tied near matches: `GAME-0002` — Rubik’s Cube (`2 / 10 = 0.200000`); `GAME-0005` — Sudoku (`2 / 10 = 0.200000`); `GAME-0008` — Nonogram (`2 / 10 = 0.200000`); `GAME-0063` — Rush Hour (`2 / 10 = 0.200000`).
+- Supported combination subsets: `COMB-0064`.
 - Scan date: 2026-08-13.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0005` — Sudoku | `INF-001`, `TIM-002` | Sudoku creates a complete 81-position assignment under all-different units; SET selects one existing three-card relation | Tied nearest, `0.200000` |
-| `GAME-0008` — Nonogram | `INF-001`, `TIM-002` | Nonogram assigns every cell from ordered run clues; SET changes no attribute values and needs one accepted subset | Tied nearest, `0.200000` |
-| `GAME-0002` — Rubik's Cube | `INF-001`, `TIM-002` | Rubik's Cube transforms a permutation through reversible layer rotations; SET only classifies a visible triple | Tied nearest, `0.200000` |
-| `GAME-0063` — Rush Hour | `INF-001`, `TIM-002` | Rush Hour rearranges persistent rigid blocks to extract one; SET leaves the field unchanged and identifies a relation | Tied nearest, `0.200000` |
-| `GAME-0017` — Balatro | `ACT-021` | Balatro commits up to five held cards into ranked scoring / discard systems under concealed draws and budgets; SET commits exactly three face-up cards to one unranked legality predicate | Action-boundary control, `0.058824` |
+| `GAME-0002` — Rubik's Cube | `INF-001`, `TIM-002` | Rubik's Cube transforms a permutation through reversible layer rotations; SET only classifies a visible triple | Near, `0.200000` |
+| `GAME-0005` — Sudoku | `INF-001`, `TIM-002` | Sudoku creates a complete 81-position assignment under all-different units; SET selects one existing three-card relation | Near, `0.200000` |
+| `GAME-0008` — Nonogram | `INF-001`, `TIM-002` | Nonogram assigns every cell from ordered run clues; SET changes no attribute values and needs one accepted subset | Near, `0.200000` |
+| `GAME-0063` — Rush Hour | `INF-001`, `TIM-002` | Rush Hour rearranges persistent rigid blocks to extract one; SET leaves the field unchanged and identifies a relation | Near, `0.200000` |
+
+### Preserved research notes
 
 - New genes: `CON-110`, `OBJ-040`.
 - Generalised genes: `ACT-021` now covers committing a selected subset from a

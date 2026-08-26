@@ -294,56 +294,18 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-087,ACT-122,ACT-123,ACT-134,ACT-145,ACT-148,ACT-161,ACT-164,ACT-165,ACT-194,ACT-195,ACT-196,ACT-197; SYS-004,SYS-045,SYS-051,SYS-186,SYS-196,SYS-197,SYS-215,SYS-222,SYS-223,SYS-307,SYS-308,SYS-299,SYS-310,SYS-311,SYS-312,SYS-313,SYS-216,SYS-315; CON-062,CON-192,CON-193,CON-200,CON-210,CON-276,CON-277,CON-278,CON-279,CON-280,CON-281,CON-282; INF-059,INF-073,INF-075,INF-122,INF-123,INF-124,INF-125,INF-126; OBJ-073; TIM-003`.
-- Indexed games scanned: 138 (`GAME-0001`–`GAME-0138`).
-- Indexed combinations scanned: 136 (`COMB-0001`–`COMB-0136`).
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `138` (`GAME-0001`–`GAME-0138`).
 - Exact genome matches: none.
-- Near match: RimWorld (`GAME-0127`) at `14 / 88 = 0.159091`, sharing
-  autonomous worker routing, construction, hauling, work condition and live time.
-- Supported prior combination subsets: none.
+- Tied near matches: `GAME-0129` — Minecraft (`13 / 76 = 0.171053`).
+- Supported combination subsets: `COMB-0137`.
 - Scan date: 2026-08-21.
 
-### Exhaustive prior-game similarity scan
+### Selected-neighbour interpretation
 
-- GAME-0001: 1 / 67 = 0.014925; GAME-0002: 0 / 61 = 0.000000; GAME-0003: 0 / 63 = 0.000000; GAME-0004: 2 / 67 = 0.029851.
-- GAME-0005: 0 / 61 = 0.000000; GAME-0006: 1 / 62 = 0.016129; GAME-0007: 0 / 62 = 0.000000; GAME-0008: 0 / 61 = 0.000000.
-- GAME-0009: 1 / 69 = 0.014493; GAME-0010: 0 / 63 = 0.000000; GAME-0011: 0 / 67 = 0.000000; GAME-0012: 0 / 63 = 0.000000.
-- GAME-0013: 0 / 67 = 0.000000; GAME-0014: 0 / 69 = 0.000000; GAME-0015: 1 / 67 = 0.014925; GAME-0016: 2 / 67 = 0.029851.
-- GAME-0017: 0 / 67 = 0.000000; GAME-0018: 2 / 71 = 0.028169; GAME-0019: 0 / 64 = 0.000000; GAME-0020: 1 / 67 = 0.014925.
-- GAME-0021: 1 / 62 = 0.016129; GAME-0022: 1 / 65 = 0.015385; GAME-0023: 0 / 64 = 0.000000; GAME-0024: 1 / 65 = 0.015385.
-- GAME-0025: 2 / 63 = 0.031746; GAME-0026: 1 / 65 = 0.015385; GAME-0027: 3 / 63 = 0.047619; GAME-0028: 4 / 67 = 0.059701.
-- GAME-0029: 3 / 63 = 0.047619; GAME-0030: 2 / 66 = 0.030303; GAME-0031: 1 / 64 = 0.015625; GAME-0032: 0 / 65 = 0.000000.
-- GAME-0033: 2 / 65 = 0.030769; GAME-0034: 3 / 65 = 0.046154; GAME-0035: 3 / 69 = 0.043478; GAME-0036: 1 / 65 = 0.015385.
-- GAME-0037: 0 / 63 = 0.000000; GAME-0038: 2 / 68 = 0.029412; GAME-0039: 0 / 63 = 0.000000; GAME-0040: 1 / 61 = 0.016393.
-- GAME-0041: 2 / 63 = 0.031746; GAME-0042: 1 / 62 = 0.016129; GAME-0043: 1 / 67 = 0.014925; GAME-0044: 1 / 63 = 0.015873.
-- GAME-0045: 1 / 67 = 0.014925; GAME-0046: 0 / 64 = 0.000000; GAME-0047: 0 / 68 = 0.000000; GAME-0048: 0 / 68 = 0.000000.
-- GAME-0049: 0 / 63 = 0.000000; GAME-0050: 1 / 68 = 0.014706; GAME-0051: 2 / 68 = 0.029412; GAME-0052: 0 / 64 = 0.000000.
-- GAME-0053: 1 / 62 = 0.016129; GAME-0054: 1 / 64 = 0.015625; GAME-0055: 1 / 63 = 0.015873; GAME-0056: 0 / 62 = 0.000000.
-- GAME-0057: 0 / 62 = 0.000000; GAME-0058: 0 / 63 = 0.000000; GAME-0059: 0 / 61 = 0.000000; GAME-0060: 0 / 61 = 0.000000.
-- GAME-0061: 0 / 64 = 0.000000; GAME-0062: 0 / 62 = 0.000000; GAME-0063: 0 / 61 = 0.000000; GAME-0064: 0 / 59 = 0.000000.
-- GAME-0065: 0 / 61 = 0.000000; GAME-0066: 0 / 64 = 0.000000; GAME-0067: 1 / 61 = 0.016393; GAME-0068: 0 / 62 = 0.000000.
-- GAME-0069: 0 / 62 = 0.000000; GAME-0070: 0 / 62 = 0.000000; GAME-0071: 0 / 61 = 0.000000; GAME-0072: 0 / 62 = 0.000000.
-- GAME-0073: 0 / 61 = 0.000000; GAME-0074: 0 / 63 = 0.000000; GAME-0075: 0 / 63 = 0.000000; GAME-0076: 0 / 61 = 0.000000.
-- GAME-0077: 0 / 61 = 0.000000; GAME-0078: 0 / 61 = 0.000000; GAME-0079: 0 / 61 = 0.000000; GAME-0080: 0 / 61 = 0.000000.
-- GAME-0081: 0 / 62 = 0.000000; GAME-0082: 0 / 62 = 0.000000; GAME-0083: 0 / 62 = 0.000000; GAME-0084: 0 / 64 = 0.000000.
-- GAME-0085: 1 / 64 = 0.015625; GAME-0086: 1 / 66 = 0.015152; GAME-0087: 2 / 62 = 0.032258; GAME-0088: 0 / 63 = 0.000000.
-- GAME-0089: 0 / 63 = 0.000000; GAME-0090: 1 / 68 = 0.014706; GAME-0091: 2 / 61 = 0.032787; GAME-0092: 2 / 62 = 0.032258.
-- GAME-0093: 0 / 63 = 0.000000; GAME-0094: 2 / 62 = 0.032258; GAME-0095: 2 / 64 = 0.031250; GAME-0096: 2 / 62 = 0.032258.
-- GAME-0097: 2 / 60 = 0.033333; GAME-0098: 2 / 59 = 0.033898; GAME-0099: 1 / 61 = 0.016393; GAME-0100: 1 / 64 = 0.015625.
-- GAME-0101: 0 / 64 = 0.000000; GAME-0102: 0 / 61 = 0.000000; GAME-0103: 0 / 63 = 0.000000; GAME-0104: 1 / 62 = 0.016129.
-- GAME-0105: 2 / 62 = 0.032258; GAME-0106: 0 / 61 = 0.000000; GAME-0107: 1 / 61 = 0.016393; GAME-0108: 1 / 63 = 0.015873.
-- GAME-0109: 1 / 69 = 0.014493; GAME-0110: 1 / 61 = 0.016393; GAME-0111: 1 / 60 = 0.016667; GAME-0112: 2 / 60 = 0.033333.
-- GAME-0113: 2 / 66 = 0.030303; GAME-0114: 1 / 60 = 0.016667; GAME-0115: 0 / 60 = 0.000000; GAME-0116: 2 / 58 = 0.034483.
-- GAME-0117: 1 / 61 = 0.016393; GAME-0118: 1 / 69 = 0.014493; GAME-0119: 7 / 70 = 0.100000; GAME-0120: 1 / 82 = 0.012195.
-- GAME-0121: 1 / 76 = 0.013158; GAME-0122: 3 / 66 = 0.045455; GAME-0123: 2 / 90 = 0.022222; GAME-0124: 5 / 96 = 0.052083.
-- GAME-0125: 10 / 86 = 0.116279; GAME-0126: 12 / 85 = 0.141176; GAME-0127: 14 / 88 = 0.159091; GAME-0128: 5 / 65 = 0.076923.
-- GAME-0129: 12 / 77 = 0.155844; GAME-0130: 5 / 102 = 0.049020; GAME-0131: 9 / 91 = 0.098901; GAME-0132: 3 / 102 = 0.029412.
-- GAME-0133: 7 / 92 = 0.076087; GAME-0134: 5 / 100 = 0.050000; GAME-0135: 6 / 96 = 0.062500; GAME-0136: 11 / 103 = 0.106796.
-- GAME-0137: 7 / 77 = 0.090909; GAME-0138: 4 / 85 = 0.047059.
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0129`.
 
-| Neighbour | Shared genes | Decision-relevant differences | Match result |
-|---|---|---|---|
-| RimWorld (`GAME-0127`) | `ACT-008`, `ACT-145`, `ACT-148`, `SYS-045`, `SYS-051`, `SYS-186`, `SYS-196`, `SYS-197`, `CON-192`, `CON-193`, `CON-200`, `INF-059`, `INF-075`, `TIM-003` | direct capture/party combat and embodied survival versus policy-led human colony simulation and ship construction | nearest at `14 / 88 = 0.159091` |
+### Preserved research notes
 
 - New genes: `ACT-194`–`ACT-197`, `SYS-307`, `SYS-308`, `SYS-310`–`SYS-313`,
   `SYS-315`, `CON-276`–`CON-282`,
@@ -354,15 +316,6 @@ gene_ids:
   no existing gene boundary represented that three-way transfer or probabilistic
   capture. Existing colony, survival and direct-combat genes were reused only
   where their causal definitions remained intact.
-
-### Registry normalisation 006 score corrections
-
-These recomputed values supersede the pre-normalisation fractions above:
-
-- `GAME-0129`: `13 / 76 = 0.171053`
-- `GAME-0132`: `4 / 101 = 0.039604`
-- `GAME-0138`: `5 / 84 = 0.059524`
-- Current prior-corpus near match after normalisation 006: `GAME-0129`.
 
 ## Taxonomy impact
 

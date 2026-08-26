@@ -257,42 +257,20 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0019`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0019`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `19` (`GAME-0001`–`GAME-0019`).
 - Exact genome matches: none.
-- Existing combination subsets: none.
-- Jaccard scores against complete genomes:
-  - `GAME-0001`: shared `SYS-004`, `INF-001`, `OBJ-002`, `OBJ-003`,
-    `TIM-001`; `5 / 23 = 0.217391`.
-  - `GAME-0002`: shared `INF-001`; `1 / 20 = 0.050000`.
-  - `GAME-0003`: shared `TIM-001`; `1 / 22 = 0.045455`.
-  - `GAME-0004`: shared `SYS-004`, `INF-001`, `INF-005`, `OBJ-002`,
-    `OBJ-003`; `5 / 24 = 0.208333`.
-  - `GAME-0005`: shared `INF-001`; `1 / 20 = 0.050000`.
-  - `GAME-0006`: shared `INF-001`; `1 / 22 = 0.045455`.
-  - `GAME-0007`: shared `INF-001`; `1 / 21 = 0.047619`.
-  - `GAME-0008`: shared `INF-001`; `1 / 20 = 0.050000`.
-  - `GAME-0009`: shared `SYS-004`, `INF-001`, `TIM-001`;
-    `3 / 27 = 0.111111`.
-  - `GAME-0010`: shared `INF-001`, `TIM-001`; `2 / 21 = 0.095238`.
-  - `GAME-0011`: shared `INF-001`; `1 / 26 = 0.038462`.
-  - `GAME-0012`: shared `INF-001`; `1 / 22 = 0.045455`.
-  - `GAME-0013`: shared `INF-001`, `TIM-001`; `2 / 25 = 0.080000`.
-  - `GAME-0014`: shared `INF-001`; `1 / 28 = 0.035714`.
-  - `GAME-0015`: shared `SYS-004`, `INF-001`, `OBJ-002`, `OBJ-003`,
-    `TIM-001`; `5 / 23 = 0.217391`.
-  - `GAME-0016`: shared `SYS-004`, `SYS-024`, `CON-039`, `INF-001`,
-    `INF-005`, `OBJ-002`; `6 / 23 = 0.260870`.
-  - `GAME-0017`: shared `TIM-001`; `1 / 26 = 0.038462`.
-  - `GAME-0018`: shared `SYS-004`, `INF-001`, `OBJ-002`;
-    `3 / 30 = 0.100000`.
-  - `GAME-0019`: shared `INF-001`, `TIM-001`; `2 / 22 = 0.090909`.
-- Mathematically selected near match: `GAME-0016` — Pipe Mania / Pipe Dream at
-  `6 / 23 = 0.260870`.
+- Tied near matches: `GAME-0016` — Pipe Mania / Pipe Dream (`6 / 23 = 0.260870`).
+- Supported combination subsets: `COMB-0020`.
+- Scan date: 2026-08-11.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0016` — Pipe Mania / Pipe Dream | `SYS-004`, `SYS-024`, `CON-039`, `INF-001`, `INF-005`, `OBJ-002` | Both consume an exact visible supplied sequence in order; Pipe Dream fixes orientation and builds ahead of live flow, while Dorfromantik permits rotation and grows a scored frontier whose quality can replenish supply | Near match only |
+| `GAME-0016` — Pipe Mania / Pipe Dream | `SYS-004`, `SYS-024`, `CON-039`, `INF-001`, `INF-005`, `OBJ-002` | Both consume an exact visible supplied sequence in order; Pipe Dream fixes orientation and builds ahead of live flow, while Dorfromantik permits rotation and grows a scored frontier whose quality can replenish supply | Near, `0.260870` |
+
+### Preserved research notes
 
 - New genes at original analysis time: `ACT-026`, `SYS-034`, `SYS-035`, `CON-056`, `CON-057`,
   `CON-058`, `CON-059`.

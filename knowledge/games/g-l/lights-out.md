@@ -232,42 +232,16 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0068`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0068`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `68` (`GAME-0001`–`GAME-0068`).
 - Exact genome matches: none.
-- Unique nearest game: `GAME-0002` Rubik's Cube at `6 / 9 = 0.666667`,
-  sharing fixed capacity, invariant reachability, primitive reversibility,
-  complete current visibility, configuration reconstruction and self-paced
-  action.
-- Near match: `GAME-0002` is the sole maximum-score prior genome; no other
-  record ties it.
-- Next matches: `GAME-0006` Sokoban at `4 / 13 = 0.307692`; then Sudoku,
-  Nonogram and Rush Hour at `3 / 12 = 0.250000` each.
-- Supported prior combination subsets: none. `COMB-0002` additionally requires
-  direct layer rotation `ACT-002`, which Lights Out replaces with `ACT-077` and
-  `SYS-109`.
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `2 / 20 = 0.100000`; `GAME-0002`: `6 / 9 = 0.666667`; `GAME-0003`: `1 / 16 = 0.062500`; `GAME-0004`: `2 / 21 = 0.095238`.
-  - `GAME-0005`: `3 / 12 = 0.250000`; `GAME-0006`: `4 / 13 = 0.307692`; `GAME-0007`: `3 / 13 = 0.230769`; `GAME-0008`: `3 / 12 = 0.250000`.
-  - `GAME-0009`: `2 / 22 = 0.090909`; `GAME-0010`: `2 / 15 = 0.133333`; `GAME-0011`: `3 / 18 = 0.166667`; `GAME-0012`: `3 / 14 = 0.214286`.
-  - `GAME-0013`: `2 / 19 = 0.105263`; `GAME-0014`: `2 / 21 = 0.095238`; `GAME-0015`: `2 / 20 = 0.100000`; `GAME-0016`: `2 / 21 = 0.095238`.
-  - `GAME-0017`: `0 / 21 = 0.000000`; `GAME-0018`: `1 / 26 = 0.038462`; `GAME-0019`: `3 / 15 = 0.200000`; `GAME-0020`: `1 / 21 = 0.047619`.
-  - `GAME-0021`: `1 / 16 = 0.062500`; `GAME-0022`: `1 / 19 = 0.052632`; `GAME-0023`: `1 / 17 = 0.058824`; `GAME-0024`: `2 / 18 = 0.111111`.
-  - `GAME-0025`: `1 / 18 = 0.055556`; `GAME-0026`: `1 / 19 = 0.052632`; `GAME-0027`: `2 / 18 = 0.111111`; `GAME-0028`: `2 / 23 = 0.086957`.
-  - `GAME-0029`: `2 / 18 = 0.111111`; `GAME-0030`: `1 / 21 = 0.047619`; `GAME-0031`: `1 / 18 = 0.055556`; `GAME-0032`: `2 / 17 = 0.117647`.
-  - `GAME-0033`: `1 / 20 = 0.050000`; `GAME-0034`: `1 / 21 = 0.047619`; `GAME-0035`: `1 / 25 = 0.040000`; `GAME-0036`: `3 / 17 = 0.176471`.
-  - `GAME-0037`: `2 / 15 = 0.133333`; `GAME-0038`: `1 / 23 = 0.043478`; `GAME-0039`: `3 / 14 = 0.214286`; `GAME-0040`: `2 / 14 = 0.142857`.
-  - `GAME-0041`: `1 / 18 = 0.055556`; `GAME-0042`: `1 / 16 = 0.062500`; `GAME-0043`: `2 / 20 = 0.100000`; `GAME-0044`: `3 / 15 = 0.200000`.
-  - `GAME-0045`: `2 / 20 = 0.100000`; `GAME-0046`: `2 / 16 = 0.125000`; `GAME-0047`: `2 / 20 = 0.100000`; `GAME-0048`: `2 / 20 = 0.100000`.
-  - `GAME-0049`: `1 / 16 = 0.062500`; `GAME-0050`: `2 / 21 = 0.095238`; `GAME-0051`: `1 / 23 = 0.043478`; `GAME-0052`: `1 / 17 = 0.058824`.
-  - `GAME-0053`: `3 / 14 = 0.214286`; `GAME-0054`: `2 / 17 = 0.117647`; `GAME-0055`: `2 / 16 = 0.125000`; `GAME-0056`: `2 / 14 = 0.142857`.
-  - `GAME-0057`: `2 / 14 = 0.142857`; `GAME-0058`: `3 / 14 = 0.214286`; `GAME-0059`: `2 / 13 = 0.153846`; `GAME-0060`: `1 / 14 = 0.071429`.
-  - `GAME-0061`: `3 / 15 = 0.200000`; `GAME-0062`: `3 / 13 = 0.230769`; `GAME-0063`: `3 / 12 = 0.250000`; `GAME-0064`: `2 / 11 = 0.181818`.
-  - `GAME-0065`: `1 / 14 = 0.071429`; `GAME-0066`: `1 / 17 = 0.058824`; `GAME-0067`: `0 / 16 = 0.000000`; `GAME-0068`: `1 / 15 = 0.066667`.
-- Interpretation: Lights Out becomes the second independent carrier of
-  `CON-004` and `CON-005`, validating that reachability invariants and primitive
-  reversibility generalise beyond permutation puzzles while preserving a clear
-  action / system boundary.
+- Tied near matches: `GAME-0002` — Rubik’s Cube (`6 / 9 = 0.666667`).
+- Supported combination subsets: `COMB-0069`.
+- Scan date: 2026-08-14.
+
+### Selected-neighbour interpretation
+
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0002`.
 
 ## Taxonomy impact
 
@@ -300,8 +274,8 @@ Canonical signature:
   `TIM-002`.
 - New combination: `COMB-0069`.
 - New reproducible artefact: `scripts/verify_lights_out_control.py`.
-- Nearest prior genome: Rubik's Cube at `6 / 9 = 0.666667`; no exact match and
-  no earlier supported combination subset.
+- Nearest prior genome: Rubik's Cube; no exact match and no earlier supported
+  combination subset. See `Corpus comparison` for the current result.
 
 ## Нові факти
 

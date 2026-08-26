@@ -300,33 +300,16 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0034`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0034`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `34` (`GAME-0001`–`GAME-0034`).
 - Exact genome matches: none.
-- Existing combination subsets: `COMB-0034`; Pikmin 4 is its third complete
-  supporter after Tin Hearts and Braid.
-- Full Jaccard scan (intersection / union = score):
-  `GAME-0001` `1 / 31 = 0.032258`; `GAME-0002` `1 / 24 = 0.041667`;
-  `GAME-0003` `0 / 27 = 0.000000`; `GAME-0004` `2 / 31 = 0.064516`;
-  `GAME-0005` `1 / 24 = 0.041667`; `GAME-0006` `2 / 25 = 0.080000`;
-  `GAME-0007` `1 / 25 = 0.040000`; `GAME-0008` `1 / 24 = 0.041667`;
-  `GAME-0009` `1 / 33 = 0.030303`; `GAME-0010` `1 / 26 = 0.038462`;
-  `GAME-0011` `1 / 30 = 0.033333`; `GAME-0012` `1 / 26 = 0.038462`;
-  `GAME-0013` `1 / 30 = 0.033333`; `GAME-0014` `1 / 32 = 0.031250`;
-  `GAME-0015` `1 / 31 = 0.032258`; `GAME-0016` `2 / 31 = 0.064516`;
-  `GAME-0017` `0 / 31 = 0.000000`; `GAME-0018` `2 / 35 = 0.057143`;
-  `GAME-0019` `1 / 27 = 0.037037`; `GAME-0020` `1 / 31 = 0.032258`;
-  `GAME-0021` `2 / 25 = 0.080000`; `GAME-0022` `1 / 29 = 0.034483`;
-  `GAME-0023` `0 / 28 = 0.000000`; `GAME-0024` `1 / 29 = 0.034483`;
-  `GAME-0025` `4 / 25 = 0.160000`; `GAME-0026` `3 / 27 = 0.111111`;
-  `GAME-0027` `3 / 27 = 0.111111`; `GAME-0028` `3 / 32 = 0.093750`;
-  `GAME-0029` `5 / 25 = 0.200000`; `GAME-0030` `6 / 26 = 0.230769`;
-  `GAME-0031` `5 / 24 = 0.208333`; `GAME-0032` `1 / 28 = 0.035714`;
-  `GAME-0033` `3 / 28 = 0.107143`; `GAME-0034` `6 / 26 = 0.230769`.
-- Mathematical near matches: `GAME-0030` — Tin Hearts and `GAME-0034` —
-  Braid tie at `0.230769`. Tin Hearts supplies the autonomous-population and
-  accounting overlap; Braid supplies navigation plus rewind overlap. Neither
-  shares Pikmin 4's contextual cooperative extraction core.
+- Tied near matches: `GAME-0030` — Tin Hearts (`6 / 26 = 0.230769`); `GAME-0034` — Braid, Anniversary Edition (`6 / 26 = 0.230769`).
+- Supported combination subsets: `COMB-0034`, `COMB-0035`, `COMB-0041`.
+- Scan date: 2026-08-12.
+
+### Selected-neighbour interpretation
+
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0030`, `GAME-0034`.
 
 ## Combination record
 

@@ -290,62 +290,18 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-123,ACT-161,ACT-164,ACT-199,ACT-200,ACT-215,ACT-216,ACT-217,ACT-218,ACT-219,ACT-191,ACT-221; SYS-215,SYS-223,SYS-319,SYS-328,SYS-346,SYS-347,SYS-348,SYS-349,SYS-350,SYS-299,SYS-352,SYS-353,SYS-354; CON-210,CON-284,CON-285,CON-286,CON-290,CON-315,CON-316,CON-317,CON-318,CON-319,CON-320,CON-321,CON-322; INF-075,INF-115,INF-128,INF-132,INF-137,INF-138,INF-139,INF-140; OBJ-021; TIM-003`.
-- Indexed games scanned: all 142 earlier canonical games.
-- Indexed combinations scanned: all 140 earlier verified combinations.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `142` (`GAME-0001`–`GAME-0142`).
 - Exact genome matches: none.
-- Near matches: PUBG: BATTLEGROUNDS (`GAME-0140`),
-  `15 / 77 = 0.194805`; Rust (`GAME-0141`),
-  `14 / 86 = 0.162791`; Project Zomboid (`GAME-0142`),
-  `13 / 87 = 0.149425`.
-- Supported earlier combination subsets: none; new `COMB-0141` is a strict
-  subset of this 49-gene genome.
+- Tied near matches: `GAME-0140` — PUBG: BATTLEGROUNDS (`15 / 77 = 0.194805`).
+- Supported combination subsets: `COMB-0141`.
 - Scan date: 2026-08-21.
 
-Exhaustive prior-game ledger:
+### Selected-neighbour interpretation
 
-- GAME-0001: 0 / 63 = 0.000000; GAME-0002: 0 / 56 = 0.000000; GAME-0003: 0 / 58 = 0.000000; GAME-0004: 1 / 63 = 0.015873.
-- GAME-0005: 0 / 56 = 0.000000; GAME-0006: 1 / 57 = 0.017544; GAME-0007: 0 / 57 = 0.000000; GAME-0008: 0 / 56 = 0.000000.
-- GAME-0009: 0 / 65 = 0.000000; GAME-0010: 0 / 58 = 0.000000; GAME-0011: 0 / 62 = 0.000000; GAME-0012: 0 / 58 = 0.000000.
-- GAME-0013: 0 / 62 = 0.000000; GAME-0014: 0 / 64 = 0.000000; GAME-0015: 0 / 63 = 0.000000; GAME-0016: 1 / 63 = 0.015873.
-- GAME-0017: 0 / 62 = 0.000000; GAME-0018: 1 / 67 = 0.014925; GAME-0019: 0 / 59 = 0.000000; GAME-0020: 0 / 63 = 0.000000.
-- GAME-0021: 1 / 57 = 0.017544; GAME-0022: 0 / 61 = 0.000000; GAME-0023: 0 / 59 = 0.000000; GAME-0024: 1 / 60 = 0.016667.
-- GAME-0025: 1 / 59 = 0.016949; GAME-0026: 1 / 60 = 0.016667; GAME-0027: 1 / 60 = 0.016667; GAME-0028: 2 / 64 = 0.031250.
-- GAME-0029: 2 / 59 = 0.033898; GAME-0030: 1 / 62 = 0.016129; GAME-0031: 0 / 60 = 0.000000; GAME-0032: 0 / 60 = 0.000000.
-- GAME-0033: 2 / 60 = 0.033333; GAME-0034: 2 / 61 = 0.032787; GAME-0035: 2 / 65 = 0.030769; GAME-0036: 1 / 60 = 0.016667.
-- GAME-0037: 0 / 58 = 0.000000; GAME-0038: 2 / 63 = 0.031746; GAME-0039: 0 / 58 = 0.000000; GAME-0040: 1 / 56 = 0.017857.
-- GAME-0041: 2 / 58 = 0.034483; GAME-0042: 0 / 58 = 0.000000; GAME-0043: 1 / 62 = 0.016129; GAME-0044: 1 / 58 = 0.017241.
-- GAME-0045: 1 / 62 = 0.016129; GAME-0046: 0 / 59 = 0.000000; GAME-0047: 0 / 63 = 0.000000; GAME-0048: 0 / 63 = 0.000000.
-- GAME-0049: 0 / 58 = 0.000000; GAME-0050: 1 / 63 = 0.015873; GAME-0051: 1 / 64 = 0.015625; GAME-0052: 0 / 59 = 0.000000.
-- GAME-0053: 1 / 57 = 0.017544; GAME-0054: 1 / 59 = 0.016949; GAME-0055: 1 / 58 = 0.017241; GAME-0056: 0 / 57 = 0.000000.
-- GAME-0057: 0 / 57 = 0.000000; GAME-0058: 0 / 58 = 0.000000; GAME-0059: 0 / 56 = 0.000000; GAME-0060: 0 / 56 = 0.000000.
-- GAME-0061: 0 / 59 = 0.000000; GAME-0062: 0 / 57 = 0.000000; GAME-0063: 0 / 56 = 0.000000; GAME-0064: 0 / 54 = 0.000000.
-- GAME-0065: 0 / 56 = 0.000000; GAME-0066: 0 / 59 = 0.000000; GAME-0067: 0 / 57 = 0.000000; GAME-0068: 0 / 57 = 0.000000.
-- GAME-0069: 0 / 57 = 0.000000; GAME-0070: 0 / 57 = 0.000000; GAME-0071: 0 / 56 = 0.000000; GAME-0072: 0 / 57 = 0.000000.
-- GAME-0073: 0 / 56 = 0.000000; GAME-0074: 0 / 58 = 0.000000; GAME-0075: 0 / 58 = 0.000000; GAME-0076: 0 / 56 = 0.000000.
-- GAME-0077: 0 / 56 = 0.000000; GAME-0078: 0 / 56 = 0.000000; GAME-0079: 0 / 56 = 0.000000; GAME-0080: 0 / 56 = 0.000000.
-- GAME-0081: 0 / 57 = 0.000000; GAME-0082: 0 / 57 = 0.000000; GAME-0083: 0 / 57 = 0.000000; GAME-0084: 0 / 59 = 0.000000.
-- GAME-0085: 0 / 60 = 0.000000; GAME-0086: 0 / 62 = 0.000000; GAME-0087: 1 / 58 = 0.017241; GAME-0088: 0 / 58 = 0.000000.
-- GAME-0089: 0 / 58 = 0.000000; GAME-0090: 1 / 63 = 0.015873; GAME-0091: 2 / 56 = 0.035714; GAME-0092: 1 / 58 = 0.017241.
-- GAME-0093: 0 / 58 = 0.000000; GAME-0094: 2 / 57 = 0.035088; GAME-0095: 2 / 59 = 0.033898; GAME-0096: 2 / 57 = 0.035088.
-- GAME-0097: 2 / 55 = 0.036364; GAME-0098: 2 / 54 = 0.037037; GAME-0099: 1 / 56 = 0.017857; GAME-0100: 1 / 59 = 0.016949.
-- GAME-0101: 0 / 59 = 0.000000; GAME-0102: 0 / 56 = 0.000000; GAME-0103: 0 / 58 = 0.000000; GAME-0104: 1 / 57 = 0.017544.
-- GAME-0105: 2 / 57 = 0.035088; GAME-0106: 0 / 56 = 0.000000; GAME-0107: 1 / 56 = 0.017857; GAME-0108: 1 / 58 = 0.017241.
-- GAME-0109: 0 / 65 = 0.000000; GAME-0110: 1 / 56 = 0.017857; GAME-0111: 1 / 55 = 0.018182; GAME-0112: 2 / 55 = 0.036364.
-- GAME-0113: 2 / 61 = 0.032787; GAME-0114: 1 / 55 = 0.018182; GAME-0115: 0 / 55 = 0.000000; GAME-0116: 2 / 53 = 0.037736.
-- GAME-0117: 1 / 56 = 0.017857; GAME-0118: 1 / 64 = 0.015625; GAME-0119: 2 / 70 = 0.028571; GAME-0120: 0 / 78 = 0.000000.
-- GAME-0121: 1 / 71 = 0.014085; GAME-0122: 1 / 63 = 0.015873; GAME-0123: 0 / 87 = 0.000000; GAME-0124: 1 / 95 = 0.010526.
-- GAME-0125: 1 / 90 = 0.011111; GAME-0126: 1 / 91 = 0.010989; GAME-0127: 1 / 96 = 0.010417; GAME-0128: 2 / 63 = 0.031746.
-- GAME-0129: 8 / 76 = 0.105263; GAME-0130: 1 / 101 = 0.009901; GAME-0131: 5 / 90 = 0.055556; GAME-0132: 1 / 99 = 0.010101.
-- GAME-0133: 1 / 93 = 0.010753; GAME-0134: 1 / 99 = 0.010101; GAME-0135: 1 / 96 = 0.010417; GAME-0136: 1 / 108 = 0.009259.
-- GAME-0137: 6 / 73 = 0.082192; GAME-0138: 2 / 82 = 0.024390; GAME-0139: 9 / 94 = 0.095745; GAME-0140: 15 / 77 = 0.194805.
-- GAME-0141: 14 / 86 = 0.162791; GAME-0142: 13 / 87 = 0.149425.
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0140`.
 
-| Neighbour | Shared genes | Decision-relevant differences | Match result |
-|---|---|---|---|
-| PUBG: BATTLEGROUNDS | direct combat, quick equipment, looting, healing, capacity, weapon legality, Solo defeat, local sight and sound | last-survivor safe-zone match versus discretionary extraction, protected loss and persistent hub | nearest, not exact |
-| Rust | movement, direct combat, looting, crafting, durability, capacity, weapon state, partial hostile information and live time | persistent shared world, base authority and wipe versus bounded raids and explicit settlement | near, not exact |
-| Project Zomboid | movement, crafting, direct combat, equipment, loot, durability, health presentation, local hostile information and live time | one embodied permanent life versus repeatable raids with stash and protected loss | near, not exact |
+### Preserved research notes
 
 - New genes: `ACT-215`–`ACT-219`, `ACT-221`, `SYS-346`–`SYS-350`,
   `SYS-352`–`SYS-354`,
@@ -355,15 +311,6 @@ Exhaustive prior-game ledger:
   alone. It is the explicit terminal partition that converts one live shared
   raid into persistent extracted state, forfeited unsecured state and protected
   pocket state, then feeds the retained branch into workshop and skill choices.
-
-### Registry normalisation 006 score corrections
-
-These recomputed values supersede the pre-normalisation fractions above:
-
-- `GAME-0132`: `2 / 98 = 0.020408`
-- `GAME-0138`: `4 / 80 = 0.050000`
-- `GAME-0139`: `10 / 93 = 0.107527`
-- Current prior-corpus near match after normalisation 006: `GAME-0140`.
 
 ## Taxonomy impact
 

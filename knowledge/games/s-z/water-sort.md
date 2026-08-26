@@ -232,47 +232,23 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0009`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0009`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `9` (`GAME-0001`–`GAME-0009`).
 - Exact genome matches: none.
-- Shared with `GAME-0001`: `CON-001`, `INF-001`, `TIM-001`; intersection `3`,
-  union `20`, `3 / 20 = 0.150000`.
-- Shared with `GAME-0002`: `CON-001`, `INF-001`; intersection `2`, union `14`,
-  `2 / 14 = 0.142857`.
-- Shared with `GAME-0003`: `CON-001`, `TIM-001`; intersection `2`, union `16`,
-  `2 / 16 = 0.125000`.
-- Shared with `GAME-0004`: `CON-001`, `INF-001`; intersection `2`, union `22`,
-  `2 / 22 = 0.090909`.
-- Shared with `GAME-0005`: `CON-001`, `INF-001`; intersection `2`, union `14`,
-  `2 / 14 = 0.142857`.
-- Shared with `GAME-0006`: `CON-001`, `INF-001`; intersection `2`, union `16`,
-  `2 / 16 = 0.125000`.
-- Shared with `GAME-0007`: `CON-014`, `INF-001`; intersection `2`, union `15`,
-  `2 / 15 = 0.133333`.
-- Shared with `GAME-0008`: `CON-001`, `INF-001`; intersection `2`, union `14`,
-  `2 / 14 = 0.142857`.
-- Shared with `GAME-0009`: `CON-001`, `INF-001`, `TIM-001`; intersection `3`,
-  union `22`, `3 / 22 = 0.136364`.
-- Near match: `GAME-0001`, the unique positive maximum among non-exact indexed
-  games.
-- Supported existing combination subsets: none. Every indexed combination
-  requires at least one absent action, behaviour, constraint or objective.
-- New combination: `COMB-0010`, whose seven genes are a proper subset of this
-  nine-gene genome.
+- Tied near matches: `GAME-0001` — 2048 (`3 / 20 = 0.150000`).
+- Supported combination subsets: `COMB-0010`.
 - Scan date: 2026-08-11.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
 | `GAME-0001` — 2048 | `CON-001`, `INF-001`, `TIM-001` | Both resolve a discrete command on a fixed visible board; 2048 moves every tile, merges and spawns randomly, while Water Sort deterministically transfers one maximal compatible top segment | Near, `0.150000` |
-| `GAME-0002` — Rubik's Cube | `CON-001`, `INF-001` | Cube turns are reversible permutations without containers; Water Sort has LIFO access and capacity-bounded compatibility | Non-near, `0.142857` |
-| `GAME-0003` — Minesweeper | `CON-001`, `TIM-001` | Minesweeper reveals concealed hazards; Water Sort shows all layers and rearranges conserved units | Non-near, `0.125000` |
-| `GAME-0004` — Tetris | `CON-001`, `INF-001` | Tetris advances in real time with random successors; Water Sort waits and resolves deterministic commanded pours | Non-near, `0.090909` |
-| `GAME-0005` — Sudoku | `CON-001`, `INF-001` | Sudoku assigns new symbolic values under global uniqueness; Water Sort transports existing typed units through vessels | Non-near, `0.142857` |
-| `GAME-0006` — Sokoban | `CON-001`, `INF-001` | Sokoban requires agent access behind one object; Water Sort requires top-segment access and destination compatibility | Non-near, `0.125000` |
-| `GAME-0007` — FreeCell | `CON-014`, `INF-001` | Both expose only stack ends and depend on workspace; FreeCell moves one card into ordered zones, while Water Sort automatically moves the maximal compatible segment into multi-unit vessels | Non-near, `0.133333` |
-| `GAME-0008` — Nonogram | `CON-001`, `INF-001` | Nonogram assigns binary states from clues; Water Sort rearranges conserved visible layers | Non-near, `0.142857` |
-| `GAME-0009` — Royal Match | `CON-001`, `INF-001`, `TIM-001` | Royal Match removes, randomly refills and cascades under a move budget; Water Sort conserves every unit and has one deterministic resolution | Non-near, `0.136364` |
 
+### Preserved research notes
+
+- New combination: `COMB-0010`, whose seven genes are a proper subset of this
+  nine-gene genome.
 - New genes: `ACT-013`, `SYS-015`, `CON-021`, `CON-022`, `OBJ-008`.
 - Classification result: `New gene`.
 - Reused genes: `CON-001`, `CON-014`, `INF-001`, `TIM-001`.

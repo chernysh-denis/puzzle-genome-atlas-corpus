@@ -289,75 +289,25 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-122,ACT-123,ACT-161,ACT-164,ACT-165,ACT-199,ACT-204,ACT-205,ACT-206,ACT-207,ACT-208,ACT-209; SYS-208,SYS-215,SYS-216,SYS-223,SYS-326,SYS-327,SYS-328,SYS-329,SYS-330,SYS-331,SYS-332,SYS-333,SYS-334,SYS-335,SYS-336; CON-210,CON-281,CON-292,CON-293,CON-294,CON-295,CON-296,CON-297,CON-298,CON-299,CON-300,CON-301,CON-302; INF-073,INF-075,INF-115,INF-128,INF-130,INF-131,INF-132; OBJ-075; TIM-003,TIM-017`.
-- Indexed games scanned: all 140 earlier canonical games.
-- Indexed combinations scanned: all 138 earlier verified combinations.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `140` (`GAME-0001`–`GAME-0140`).
 - Exact genome matches: none.
-- Near matches: Minecraft (`GAME-0129`), `11 / 75 = 0.146667`;
-  Palworld (`GAME-0139`), `13 / 92 = 0.141304`; PUBG: BATTLEGROUNDS
-  (`GAME-0140`), `11 / 83 = 0.132530`.
-- Supported earlier combination subsets: none; new `COMB-0139` is a strict
-  subset of this 51-gene genome.
+- Tied near matches: `GAME-0139` — Palworld (`14 / 91 = 0.153846`).
+- Supported combination subsets: `COMB-0139`.
 - Scan date: 2026-08-21.
 
-Exhaustive prior-game ledger:
-
-- GAME-0001: 0 / 65 = 0.000000; GAME-0002: 0 / 58 = 0.000000; GAME-0003: 0 / 60 = 0.000000; GAME-0004: 1 / 65 = 0.015385.
-- GAME-0005: 0 / 58 = 0.000000; GAME-0006: 1 / 59 = 0.016949; GAME-0007: 0 / 59 = 0.000000; GAME-0008: 0 / 58 = 0.000000.
-- GAME-0009: 0 / 67 = 0.000000; GAME-0010: 0 / 60 = 0.000000; GAME-0011: 0 / 64 = 0.000000; GAME-0012: 0 / 60 = 0.000000.
-- GAME-0013: 0 / 64 = 0.000000; GAME-0014: 0 / 66 = 0.000000; GAME-0015: 0 / 65 = 0.000000; GAME-0016: 1 / 65 = 0.015385.
-- GAME-0017: 0 / 64 = 0.000000; GAME-0018: 1 / 69 = 0.014493; GAME-0019: 0 / 61 = 0.000000; GAME-0020: 0 / 65 = 0.000000.
-- GAME-0021: 1 / 59 = 0.016949; GAME-0022: 0 / 63 = 0.000000; GAME-0023: 0 / 61 = 0.000000; GAME-0024: 1 / 62 = 0.016129.
-- GAME-0025: 1 / 61 = 0.016393; GAME-0026: 1 / 62 = 0.016129; GAME-0027: 1 / 62 = 0.016129; GAME-0028: 1 / 67 = 0.014925.
-- GAME-0029: 2 / 61 = 0.032787; GAME-0030: 1 / 64 = 0.015625; GAME-0031: 0 / 62 = 0.000000; GAME-0032: 0 / 62 = 0.000000.
-- GAME-0033: 2 / 62 = 0.032258; GAME-0034: 2 / 63 = 0.031746; GAME-0035: 2 / 67 = 0.029851; GAME-0036: 1 / 62 = 0.016129.
-- GAME-0037: 0 / 60 = 0.000000; GAME-0038: 2 / 65 = 0.030769; GAME-0039: 0 / 60 = 0.000000; GAME-0040: 1 / 58 = 0.017241.
-- GAME-0041: 2 / 60 = 0.033333; GAME-0042: 0 / 60 = 0.000000; GAME-0043: 1 / 64 = 0.015625; GAME-0044: 1 / 60 = 0.016667.
-- GAME-0045: 1 / 64 = 0.015625; GAME-0046: 0 / 61 = 0.000000; GAME-0047: 0 / 65 = 0.000000; GAME-0048: 0 / 65 = 0.000000.
-- GAME-0049: 0 / 60 = 0.000000; GAME-0050: 1 / 65 = 0.015385; GAME-0051: 1 / 66 = 0.015152; GAME-0052: 0 / 61 = 0.000000.
-- GAME-0053: 1 / 59 = 0.016949; GAME-0054: 1 / 61 = 0.016393; GAME-0055: 1 / 60 = 0.016667; GAME-0056: 0 / 59 = 0.000000.
-- GAME-0057: 0 / 59 = 0.000000; GAME-0058: 0 / 60 = 0.000000; GAME-0059: 0 / 58 = 0.000000; GAME-0060: 0 / 58 = 0.000000.
-- GAME-0061: 0 / 61 = 0.000000; GAME-0062: 0 / 59 = 0.000000; GAME-0063: 0 / 58 = 0.000000; GAME-0064: 0 / 56 = 0.000000.
-- GAME-0065: 0 / 58 = 0.000000; GAME-0066: 0 / 61 = 0.000000; GAME-0067: 0 / 59 = 0.000000; GAME-0068: 0 / 59 = 0.000000.
-- GAME-0069: 0 / 59 = 0.000000; GAME-0070: 0 / 59 = 0.000000; GAME-0071: 0 / 58 = 0.000000; GAME-0072: 0 / 59 = 0.000000.
-- GAME-0073: 0 / 58 = 0.000000; GAME-0074: 0 / 60 = 0.000000; GAME-0075: 0 / 60 = 0.000000; GAME-0076: 0 / 58 = 0.000000.
-- GAME-0077: 0 / 58 = 0.000000; GAME-0078: 0 / 58 = 0.000000; GAME-0079: 0 / 58 = 0.000000; GAME-0080: 0 / 58 = 0.000000.
-- GAME-0081: 0 / 59 = 0.000000; GAME-0082: 0 / 59 = 0.000000; GAME-0083: 0 / 59 = 0.000000; GAME-0084: 0 / 61 = 0.000000.
-- GAME-0085: 0 / 62 = 0.000000; GAME-0086: 0 / 64 = 0.000000; GAME-0087: 1 / 60 = 0.016667; GAME-0088: 0 / 60 = 0.000000.
-- GAME-0089: 0 / 60 = 0.000000; GAME-0090: 1 / 65 = 0.015385; GAME-0091: 2 / 58 = 0.034483; GAME-0092: 1 / 60 = 0.016667.
-- GAME-0093: 0 / 60 = 0.000000; GAME-0094: 2 / 59 = 0.033898; GAME-0095: 2 / 61 = 0.032787; GAME-0096: 2 / 59 = 0.033898.
-- GAME-0097: 2 / 57 = 0.035088; GAME-0098: 2 / 56 = 0.035714; GAME-0099: 1 / 58 = 0.017241; GAME-0100: 1 / 61 = 0.016393.
-- GAME-0101: 0 / 61 = 0.000000; GAME-0102: 0 / 58 = 0.000000; GAME-0103: 0 / 60 = 0.000000; GAME-0104: 1 / 59 = 0.016949.
-- GAME-0105: 2 / 59 = 0.033898; GAME-0106: 0 / 58 = 0.000000; GAME-0107: 1 / 58 = 0.017241; GAME-0108: 1 / 60 = 0.016667.
-- GAME-0109: 0 / 67 = 0.000000; GAME-0110: 1 / 58 = 0.017241; GAME-0111: 1 / 57 = 0.017544; GAME-0112: 2 / 57 = 0.035088.
-- GAME-0113: 2 / 63 = 0.031746; GAME-0114: 1 / 57 = 0.017544; GAME-0115: 0 / 57 = 0.000000; GAME-0116: 2 / 55 = 0.036364.
-- GAME-0117: 1 / 58 = 0.017241; GAME-0118: 1 / 66 = 0.015152; GAME-0119: 3 / 71 = 0.042254; GAME-0120: 0 / 80 = 0.000000.
-- GAME-0121: 1 / 73 = 0.013699; GAME-0122: 1 / 65 = 0.015385; GAME-0123: 0 / 89 = 0.000000; GAME-0124: 1 / 97 = 0.010309.
-- GAME-0125: 1 / 92 = 0.010870; GAME-0126: 1 / 93 = 0.010753; GAME-0127: 2 / 97 = 0.020619; GAME-0128: 3 / 64 = 0.046875.
-- GAME-0129: 11 / 75 = 0.146667; GAME-0130: 1 / 103 = 0.009709; GAME-0131: 6 / 91 = 0.065934; GAME-0132: 1 / 101 = 0.009901.
-- GAME-0133: 1 / 95 = 0.010526; GAME-0134: 1 / 101 = 0.009901; GAME-0135: 1 / 98 = 0.010204; GAME-0136: 1 / 110 = 0.009091.
-- GAME-0137: 8 / 73 = 0.109589; GAME-0138: 2 / 84 = 0.023810; GAME-0139: 13 / 92 = 0.141304; GAME-0140: 11 / 83 = 0.132530.
-
-Near matches use the canonical intersection-over-union formula.
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| Minecraft (`GAME-0129`) | gathering, hand-crafting, direct combat, tool durability, death-drop respawn, bounded inventory and status information | editable voxel dimensions and authored End objective versus privilege, upkeep, hostile sleepers, locks and scheduled wipe | nearest at `11 / 75 = 0.146667` |
-| Palworld (`GAME-0139`) | direct survival, crafting, navigation, combat, inventory and live time | captured autonomous workers and story finale versus manually built claimed base, typed upkeep and offline raid risk | `13 / 92 = 0.141304` |
-| PUBG: BATTLEGROUNDS (`GAME-0140`) | navigation, combat, quick slots, found loot, partial opponents and live time | one irreversible contracting match versus respawnable persistent construction and monthly wipe | `11 / 83 = 0.132530` |
+| Palworld (`GAME-0139`) | direct survival, crafting, navigation, combat, inventory and live time | captured autonomous workers and story finale versus manually built claimed base, typed upkeep and offline raid risk | Near, `0.153846` |
+
+### Preserved research notes
 
 - New genes: `ACT-204`–`ACT-209`, `SYS-326`–`SYS-336`,
   `CON-292`–`CON-302`, `INF-130`–`INF-132`, `OBJ-075` and
   `TIM-017` (33 total).
 - Classification: `New gene` and `New combination of known and new genes`.
-
-### Registry normalisation 006 score corrections
-
-These recomputed values supersede the pre-normalisation fractions above:
-
-- `GAME-0132`: `2 / 100 = 0.020000`
-- `GAME-0139`: `14 / 91 = 0.153846`
-- Current prior-corpus near match after normalisation 006: `GAME-0139`.
 
 ## Taxonomy impact
 

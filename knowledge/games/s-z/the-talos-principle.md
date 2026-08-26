@@ -227,38 +227,16 @@ Compact signature:
 
 ## Corpus comparison
 
-The comparison scanned every complete `GAME-0001`–`GAME-0089` signature with
-canonical Jaccard intersection over union.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `89` (`GAME-0001`–`GAME-0089`).
+- Exact genome matches: none.
+- Tied near matches: `GAME-0058` — inbento (`5 / 19 = 0.263158`).
+- Supported combination subsets: `COMB-0090`.
+- Scan date: 2026-08-14.
 
-- Near match: `GAME-0058` inbento is uniquely nearest at
-  `5 / 19 = 0.263158`.
+### Selected-neighbour interpretation
 
-| Prior game | Shared genes | Boundary | Jaccard |
-|---|---|---|---:|
-| `GAME-0058` — inbento | `ACT-070`, `CON-001`, `CON-104`, `CON-105`, `INF-001` | overwrite-order reconstruction of a typed recipe; overlap is permitted and no world gate opens | nearest, `5 / 19 = 0.263158` |
-| `GAME-0006` — Sokoban | `ACT-008`, `CON-001`, `INF-001`, `TIM-002` | avatar pushes persistent one-cell crates to goals; no collected footprint inventory or exact-cover gate | second, `4 / 20 = 0.200000` |
-| `GAME-0045` — Snakebird | `ACT-008`, `SYS-037`, `CON-001`, `INF-001` | final fruit automatically activates exit; collected objects never become arrangeable pieces | third, `4 / 25 = 0.160000` |
-| `GAME-0089` — Stardew Valley | `CON-136`, `INF-001` | typed stack contributions complete nested groups and schedule next-day service | boundary control, `2 / 22 = 0.090909` |
-
-No prior full signature is exact, no prior combination equals the candidate and
-no prior combination is a supported subset of the complete genome. The result
-falsifies direct reuse of `COMB-0058`: the common finite footprint grammar
-survives, but overwrite semantics, typed target reconstruction and level-local
-completion do not.
-
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `2 / 27 = 0.074074`; `GAME-0002`: `3 / 19 = 0.157895`; `GAME-0003`: `1 / 23 = 0.043478`; `GAME-0004`: `2 / 28 = 0.071429`; `GAME-0005`: `3 / 19 = 0.157895`; `GAME-0006`: `4 / 20 = 0.200000`; `GAME-0007`: `2 / 21 = 0.095238`; `GAME-0008`: `3 / 19 = 0.157895`.
-  - `GAME-0009`: `2 / 29 = 0.068966`; `GAME-0010`: `2 / 22 = 0.090909`; `GAME-0011`: `3 / 25 = 0.120000`; `GAME-0012`: `3 / 21 = 0.142857`; `GAME-0013`: `2 / 26 = 0.076923`; `GAME-0014`: `2 / 28 = 0.071429`; `GAME-0015`: `2 / 27 = 0.074074`; `GAME-0016`: `2 / 28 = 0.071429`.
-  - `GAME-0017`: `0 / 28 = 0.000000`; `GAME-0018`: `1 / 33 = 0.030303`; `GAME-0019`: `2 / 23 = 0.086957`; `GAME-0020`: `1 / 28 = 0.035714`; `GAME-0021`: `2 / 22 = 0.090909`; `GAME-0022`: `1 / 26 = 0.038462`; `GAME-0023`: `1 / 24 = 0.041667`; `GAME-0024`: `2 / 25 = 0.080000`.
-  - `GAME-0025`: `1 / 25 = 0.040000`; `GAME-0026`: `1 / 26 = 0.038462`; `GAME-0027`: `2 / 25 = 0.080000`; `GAME-0028`: `2 / 30 = 0.066667`; `GAME-0029`: `3 / 24 = 0.125000`; `GAME-0030`: `1 / 28 = 0.035714`; `GAME-0031`: `1 / 25 = 0.040000`; `GAME-0032`: `2 / 24 = 0.083333`.
-  - `GAME-0033`: `2 / 26 = 0.076923`; `GAME-0034`: `3 / 26 = 0.115385`; `GAME-0035`: `2 / 31 = 0.064516`; `GAME-0036`: `3 / 24 = 0.125000`; `GAME-0037`: `2 / 22 = 0.090909`; `GAME-0038`: `4 / 27 = 0.148148`; `GAME-0039`: `3 / 21 = 0.142857`; `GAME-0040`: `3 / 20 = 0.150000`.
-  - `GAME-0041`: `2 / 24 = 0.083333`; `GAME-0042`: `1 / 23 = 0.043478`; `GAME-0043`: `3 / 26 = 0.115385`; `GAME-0044`: `3 / 22 = 0.136364`; `GAME-0045`: `4 / 25 = 0.160000`; `GAME-0046`: `2 / 23 = 0.086957`; `GAME-0047`: `2 / 27 = 0.074074`; `GAME-0048`: `2 / 27 = 0.074074`.
-  - `GAME-0049`: `1 / 23 = 0.043478`; `GAME-0050`: `3 / 27 = 0.111111`; `GAME-0051`: `1 / 30 = 0.033333`; `GAME-0052`: `1 / 24 = 0.041667`; `GAME-0053`: `3 / 21 = 0.142857`; `GAME-0054`: `3 / 23 = 0.130435`; `GAME-0055`: `3 / 22 = 0.136364`; `GAME-0056`: `2 / 21 = 0.095238`.
-  - `GAME-0057`: `2 / 21 = 0.095238`; `GAME-0058`: `5 / 19 = 0.263158`; `GAME-0059`: `2 / 20 = 0.100000`; `GAME-0060`: `1 / 21 = 0.047619`; `GAME-0061`: `3 / 22 = 0.136364`; `GAME-0062`: `3 / 20 = 0.150000`; `GAME-0063`: `3 / 19 = 0.157895`; `GAME-0064`: `2 / 18 = 0.111111`.
-  - `GAME-0065`: `1 / 21 = 0.047619`; `GAME-0066`: `1 / 24 = 0.041667`; `GAME-0067`: `0 / 23 = 0.000000`; `GAME-0068`: `1 / 22 = 0.045455`; `GAME-0069`: `3 / 20 = 0.150000`; `GAME-0070`: `3 / 20 = 0.150000`; `GAME-0071`: `3 / 19 = 0.157895`; `GAME-0072`: `3 / 20 = 0.150000`.
-  - `GAME-0073`: `3 / 19 = 0.157895`; `GAME-0074`: `3 / 21 = 0.142857`; `GAME-0075`: `3 / 21 = 0.142857`; `GAME-0076`: `3 / 19 = 0.157895`; `GAME-0077`: `3 / 19 = 0.157895`; `GAME-0078`: `3 / 19 = 0.157895`; `GAME-0079`: `3 / 19 = 0.157895`; `GAME-0080`: `3 / 19 = 0.157895`.
-  - `GAME-0081`: `3 / 20 = 0.150000`; `GAME-0082`: `3 / 20 = 0.150000`; `GAME-0083`: `3 / 20 = 0.150000`; `GAME-0084`: `3 / 22 = 0.136364`; `GAME-0085`: `2 / 24 = 0.083333`; `GAME-0086`: `3 / 25 = 0.120000`; `GAME-0087`: `2 / 23 = 0.086957`; `GAME-0088`: `3 / 21 = 0.142857`.
-  - `GAME-0089`: `2 / 22 = 0.090909`.
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0058`.
 
 ## Coverage decision
 
@@ -313,7 +291,8 @@ completion do not.
 - Evidence gate: passed with the official product record, official device
   reference, two corpus references, two walkthrough controls and one
   executable verifier.
-- Nearest prior genome: inbento at `5 / 19 = 0.263158`.
+- Nearest prior genome: inbento; see `Corpus comparison` for the current
+  result.
 - Next falsification target: a collected rigid-footprint gate whose target is
   not a blank exact cover, or whose pieces remain reusable across gates.
 
@@ -381,7 +360,7 @@ completion do not.
 закрити кожну клітину рівно один раз. Найближча гра — inbento, бо вона вже має
 скінченні поворотні footprint-п’єси, але там накладання навмисно перезаписує
 рецепт. У Talos накладання заборонено, а правильне покриття одразу відкриває
-прохід: `5 / 19 = 0.263158`.
+прохід; актуальний числовий результат наведено в `Corpus comparison`.
 
 ## Research log
 
@@ -393,4 +372,4 @@ completion do not.
 - Added an executable distinct-roster and exact-cover control.
 - Classified fifteen genes and confirmed `COMB-0090` as a proper subset.
 - Exhaustively compared the full signature with all 89 prior genomes; inbento
-  is uniquely nearest at `5 / 19 = 0.263158`.
+  is uniquely nearest, with the current result owned by `Corpus comparison`.

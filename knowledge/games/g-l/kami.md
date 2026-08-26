@@ -228,55 +228,25 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: every prior record `GAME-0001`-`GAME-0058`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `58` (`GAME-0001`–`GAME-0058`).
 - Exact genome matches: none.
-- Existing combination subsets: none. Every verified `COMB-0001`-`COMB-0058`
-  gene set was tested as a proper subset and rejected.
-- Unique near match: `GAME-0057` - Golf Peaks at intersection `3`, union `12`,
-  `3 / 12 = 0.250000`. Water Sort, Can of Wormholes and inbento tie next at
-  `3 / 13 = 0.230769`.
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `3 / 18 = 0.166667`; `GAME-0002`: `2 / 12 = 0.166667`;
-    `GAME-0003`: `2 / 14 = 0.142857`; `GAME-0004`: `2 / 20 = 0.100000`;
-    `GAME-0005`: `2 / 12 = 0.166667`; `GAME-0006`: `2 / 14 = 0.142857`;
-    `GAME-0007`: `1 / 14 = 0.071429`; `GAME-0008`: `2 / 12 = 0.166667`;
-    `GAME-0009`: `3 / 20 = 0.150000`; `GAME-0010`: `3 / 13 = 0.230769`.
-  - `GAME-0011`: `2 / 18 = 0.111111`; `GAME-0012`: `2 / 14 = 0.142857`;
-    `GAME-0013`: `3 / 17 = 0.176471`; `GAME-0014`: `2 / 20 = 0.100000`;
-    `GAME-0015`: `3 / 18 = 0.166667`; `GAME-0016`: `2 / 20 = 0.100000`;
-    `GAME-0017`: `1 / 19 = 0.052632`; `GAME-0018`: `1 / 25 = 0.040000`;
-    `GAME-0019`: `3 / 14 = 0.214286`; `GAME-0020`: `2 / 19 = 0.105263`.
-  - `GAME-0021`: `1 / 15 = 0.066667`; `GAME-0022`: `1 / 18 = 0.055556`;
-    `GAME-0023`: `0 / 17 = 0.000000`; `GAME-0024`: `1 / 18 = 0.055556`;
-    `GAME-0025`: `1 / 17 = 0.058824`; `GAME-0026`: `1 / 18 = 0.055556`;
-    `GAME-0027`: `2 / 17 = 0.117647`; `GAME-0028`: `2 / 22 = 0.090909`;
-    `GAME-0029`: `2 / 17 = 0.117647`; `GAME-0030`: `1 / 20 = 0.050000`.
-  - `GAME-0031`: `1 / 17 = 0.058824`; `GAME-0032`: `2 / 16 = 0.125000`;
-    `GAME-0033`: `1 / 19 = 0.052632`; `GAME-0034`: `1 / 20 = 0.050000`;
-    `GAME-0035`: `1 / 24 = 0.041667`; `GAME-0036`: `1 / 18 = 0.055556`;
-    `GAME-0037`: `2 / 14 = 0.142857`; `GAME-0038`: `1 / 22 = 0.045455`;
-    `GAME-0039`: `2 / 14 = 0.142857`; `GAME-0040`: `1 / 14 = 0.071429`.
-  - `GAME-0041`: `1 / 17 = 0.058824`; `GAME-0042`: `1 / 15 = 0.066667`;
-    `GAME-0043`: `3 / 18 = 0.166667`; `GAME-0044`: `3 / 14 = 0.214286`;
-    `GAME-0045`: `3 / 18 = 0.166667`; `GAME-0046`: `1 / 16 = 0.062500`;
-    `GAME-0047`: `2 / 19 = 0.105263`; `GAME-0048`: `2 / 19 = 0.105263`;
-    `GAME-0049`: `2 / 14 = 0.142857`; `GAME-0050`: `3 / 19 = 0.157895`.
-  - `GAME-0051`: `1 / 22 = 0.045455`; `GAME-0052`: `1 / 16 = 0.062500`;
-    `GAME-0053`: `3 / 13 = 0.230769`; `GAME-0054`: `3 / 15 = 0.200000`;
-    `GAME-0055`: `3 / 14 = 0.214286`; `GAME-0056`: `2 / 13 = 0.153846`;
-    `GAME-0057`: `3 / 12 = 0.250000`; `GAME-0058`: `3 / 13 = 0.230769`.
+- Tied near matches: `GAME-0057` — Golf Peaks (`3 / 12 = 0.250000`).
+- Supported combination subsets: `COMB-0059`.
 - Scan date: 2026-08-13.
+
+### Selected-neighbour interpretation
+
+| Neighbour | Shared genes | Decision-relevant differences | Match result |
+|---|---|---|---|
+| `GAME-0057` - Golf Peaks | `CON-001`, `INF-001`, `TIM-001` | finite cards route one ball through height geometry versus repeatable region-class rewrite and graph contraction | Near, `0.250000` |
+
+### Preserved research notes
+
 - New genes: `ACT-071`, `SYS-102`, `OBJ-037`, `OBJ-038`.
 - Reused genes: `CON-001`, `INF-001`, `TIM-001`.
 - Classification result: four `New gene` records and one new verified
   interaction; no novelty claim.
-
-| Neighbour | Shared genes | Decision-relevant differences | Match result |
-|---|---|---|---|
-| `GAME-0057` - Golf Peaks | `CON-001`, `INF-001`, `TIM-001` | finite cards route one ball through height geometry versus repeatable region-class rewrite and graph contraction | Unique top near match, `0.250000` |
-| `GAME-0010` - Water Sort | `CON-001`, `INF-001`, `TIM-001` | maximal liquid transfer into bounded stacks versus component-wide colour replacement on a fixed field | Tied next match, `0.230769` |
-| `GAME-0053` - Can of Wormholes | `CON-001`, `INF-001`, `TIM-001` | ordered-body reshaping into one trace versus region-graph contraction into one class | Tied next match, `0.230769` |
-| `GAME-0058` - inbento | `CON-001`, `INF-001`, `TIM-001` | finite footprint overwrite toward an exact recipe versus renewable component recolours toward any uniform class | Tied next match, `0.230769` |
 
 ## Combination record
 

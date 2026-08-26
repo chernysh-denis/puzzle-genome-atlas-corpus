@@ -255,38 +255,16 @@ Compact signature:
 
 ## Corpus comparison
 
-The comparison scanned every complete `GAME-0001`–`GAME-0090` signature with
-canonical Jaccard intersection over union.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `90` (`GAME-0001`–`GAME-0090`).
+- Exact genome matches: none.
+- Tied near matches: `GAME-0041` — Viewfinder (`4 / 16 = 0.250000`).
+- Supported combination subsets: `COMB-0091`.
+- Scan date: 2026-08-14.
 
-- Near match: `GAME-0041` Viewfinder is uniquely nearest at
-  `4 / 16 = 0.250000`.
+### Selected-neighbour interpretation
 
-| Prior game | Shared genes | Boundary | Jaccard |
-|---|---|---|---:|
-| `GAME-0041` — Viewfinder | `ACT-008`, `SYS-036`, `INF-001`, `TIM-003` | commits finite perspective images that instantiate and erase world geometry; no cardinal global collision slice | nearest, `4 / 16 = 0.250000` |
-| `GAME-0033` — Portal | `ACT-008`, `SYS-036`, `INF-001`, `TIM-003` | places paired apertures and preserves continuous momentum through them | second, `4 / 18 = 0.222222` |
-| `GAME-0040` — Carto | `ACT-008`, `INF-001`, `OBJ-026` | relocates persistent map fragments to alter world topology | third, `3 / 14 = 0.214286` |
-| `GAME-0021` — Cut the Rope | `SYS-036`, `INF-001`, `TIM-003` | cuts supports around one continuously simulated payload; no avatar or view-state topology | control, `3 / 15 = 0.200000` |
-
-No prior full signature is exact, no prior combination equals the candidate and
-no prior combination is a supported subset of the complete genome. The result
-falsifies reuse of Viewfinder's perspective-instantiation combination: four
-generic real-time spatial genes survive, but source-image stock, world
-overwrite and rewind do not.
-
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `1 / 22 = 0.045455`; `GAME-0002`: `1 / 15 = 0.066667`; `GAME-0003`: `0 / 18 = 0.000000`; `GAME-0004`: `2 / 22 = 0.090909`; `GAME-0005`: `1 / 15 = 0.066667`; `GAME-0006`: `2 / 16 = 0.125000`; `GAME-0007`: `1 / 16 = 0.062500`; `GAME-0008`: `1 / 15 = 0.066667`.
-  - `GAME-0009`: `1 / 24 = 0.041667`; `GAME-0010`: `1 / 17 = 0.058824`; `GAME-0011`: `1 / 21 = 0.047619`; `GAME-0012`: `1 / 17 = 0.058824`; `GAME-0013`: `1 / 21 = 0.047619`; `GAME-0014`: `1 / 23 = 0.043478`; `GAME-0015`: `1 / 22 = 0.045455`; `GAME-0016`: `2 / 22 = 0.090909`.
-  - `GAME-0017`: `0 / 22 = 0.000000`; `GAME-0018`: `2 / 26 = 0.076923`; `GAME-0019`: `1 / 18 = 0.055556`; `GAME-0020`: `1 / 22 = 0.045455`; `GAME-0021`: `3 / 15 = 0.200000`; `GAME-0022`: `1 / 20 = 0.050000`; `GAME-0023`: `0 / 19 = 0.000000`; `GAME-0024`: `1 / 20 = 0.050000`.
-  - `GAME-0025`: `2 / 18 = 0.111111`; `GAME-0026`: `3 / 18 = 0.166667`; `GAME-0027`: `2 / 19 = 0.105263`; `GAME-0028`: `2 / 24 = 0.083333`; `GAME-0029`: `3 / 18 = 0.166667`; `GAME-0030`: `3 / 20 = 0.150000`; `GAME-0031`: `1 / 19 = 0.052632`; `GAME-0032`: `1 / 19 = 0.052632`.
-  - `GAME-0033`: `4 / 18 = 0.222222`; `GAME-0034`: `3 / 20 = 0.150000`; `GAME-0035`: `3 / 24 = 0.125000`; `GAME-0036`: `2 / 19 = 0.105263`; `GAME-0037`: `1 / 17 = 0.058824`; `GAME-0038`: `4 / 21 = 0.190476`; `GAME-0039`: `1 / 17 = 0.058824`; `GAME-0040`: `3 / 14 = 0.214286`.
-  - `GAME-0041`: `4 / 16 = 0.250000`; `GAME-0042`: `1 / 17 = 0.058824`; `GAME-0043`: `2 / 21 = 0.095238`; `GAME-0044`: `2 / 17 = 0.117647`; `GAME-0045`: `2 / 21 = 0.095238`; `GAME-0046`: `1 / 18 = 0.055556`; `GAME-0047`: `1 / 22 = 0.045455`; `GAME-0048`: `1 / 22 = 0.045455`.
-  - `GAME-0049`: `0 / 18 = 0.000000`; `GAME-0050`: `2 / 22 = 0.090909`; `GAME-0051`: `2 / 23 = 0.086957`; `GAME-0052`: `1 / 18 = 0.055556`; `GAME-0053`: `2 / 16 = 0.125000`; `GAME-0054`: `3 / 17 = 0.176471`; `GAME-0055`: `2 / 17 = 0.117647`; `GAME-0056`: `1 / 16 = 0.062500`.
-  - `GAME-0057`: `1 / 16 = 0.062500`; `GAME-0058`: `1 / 17 = 0.058824`; `GAME-0059`: `1 / 15 = 0.066667`; `GAME-0060`: `1 / 15 = 0.066667`; `GAME-0061`: `1 / 18 = 0.055556`; `GAME-0062`: `1 / 16 = 0.062500`; `GAME-0063`: `1 / 15 = 0.066667`; `GAME-0064`: `1 / 13 = 0.076923`.
-  - `GAME-0065`: `0 / 16 = 0.000000`; `GAME-0066`: `0 / 19 = 0.000000`; `GAME-0067`: `0 / 17 = 0.000000`; `GAME-0068`: `0 / 17 = 0.000000`; `GAME-0069`: `1 / 16 = 0.062500`; `GAME-0070`: `1 / 16 = 0.062500`; `GAME-0071`: `1 / 15 = 0.066667`; `GAME-0072`: `1 / 16 = 0.062500`.
-  - `GAME-0073`: `1 / 15 = 0.066667`; `GAME-0074`: `1 / 17 = 0.058824`; `GAME-0075`: `1 / 17 = 0.058824`; `GAME-0076`: `1 / 15 = 0.066667`; `GAME-0077`: `1 / 15 = 0.066667`; `GAME-0078`: `1 / 15 = 0.066667`; `GAME-0079`: `1 / 15 = 0.066667`; `GAME-0080`: `1 / 15 = 0.066667`.
-  - `GAME-0081`: `1 / 16 = 0.062500`; `GAME-0082`: `1 / 16 = 0.062500`; `GAME-0083`: `1 / 16 = 0.062500`; `GAME-0084`: `1 / 18 = 0.055556`; `GAME-0085`: `0 / 20 = 0.000000`; `GAME-0086`: `1 / 21 = 0.047619`; `GAME-0087`: `2 / 17 = 0.117647`; `GAME-0088`: `1 / 17 = 0.058824`.
-  - `GAME-0089`: `1 / 17 = 0.058824`; `GAME-0090`: `2 / 22 = 0.090909`.
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0041`.
 
 ## Coverage decision
 
@@ -338,7 +316,8 @@ overwrite and rewind do not.
 - Evidence gate: passed with two official product records, two creator
   technical records, two walkthrough controls, one independent formal source
   and one executable verifier.
-- Nearest prior genome: Viewfinder at `4 / 16 = 0.250000`.
+- Nearest prior genome: Viewfinder; see `Corpus comparison` for the current
+  result.
 - Next falsification target: a fixed-world game whose camera rotation changes
   visible alignment but not collision or legal traversal.
 
@@ -403,7 +382,8 @@ Fez не пересуває платформу, щоб побудувати мі
 плоских боків. Після переходу передній видимий шар стає активним для зіткнень,
 а глибина Гомеса коригується до опори. Через це дві точки, розділені в одному
 виді, можуть стати сусідніми в іншому. Найближчий Viewfinder поділяє чотири
-загальні гени, але фізично створює та стирає геометрію: `4 / 16 = 0.250000`.
+загальні гени, але фізично створює та стирає геометрію; актуальний числовий
+результат наведено в `Corpus comparison`.
 
 ## Research log
 
@@ -416,4 +396,4 @@ Fez не пересуває платформу, щоб побудувати мі
 - Added an executable three-support, four-view control with six rejections.
 - Classified nine genes and confirmed `COMB-0091` as a proper subset.
 - Exhaustively compared the signature with all 90 prior genomes; Viewfinder is
-  uniquely nearest at `4 / 16 = 0.250000`.
+  uniquely nearest, with the current result owned by `Corpus comparison`.

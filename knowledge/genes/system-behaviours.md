@@ -6736,7 +6736,7 @@
 
 ## SYS-377 — Convert Street Cred into offered-world unlocks
 
-- Lifecycle: `Active`
+- Lifecycle: `Deprecated`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
@@ -6750,6 +6750,8 @@
   equipment and availability.
 - Evidence: [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
 - Novelty: not assessed.
+- Deprecation: the stable ID is retained for historical compatibility after
+  `TAXONOMY_CHANGE_016`; no reviewed scoped game currently carries it.
 
 ## SYS-378 — Scale enemy, loot and vendor tiers to character level
 

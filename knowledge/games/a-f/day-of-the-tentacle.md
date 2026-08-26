@@ -193,37 +193,16 @@ Compact signature:
 
 ## Corpus comparison
 
-The comparison scanned every complete `GAME-0001`–`GAME-0087` signature with
-canonical Jaccard intersection over union.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `87` (`GAME-0001`–`GAME-0087`).
+- Exact genome matches: none.
+- Tied near matches: `GAME-0086` — Machinarium (`5 / 17 = 0.294118`).
+- Supported combination subsets: `COMB-0088`.
+- Scan date: 2026-08-14.
 
-- Near match: `GAME-0086` Machinarium is uniquely nearest at
-  `5 / 17 = 0.294118`.
+### Selected-neighbour interpretation
 
-| Prior game | Shared genes | Boundary | Jaccard |
-|---|---|---|---:|
-| `GAME-0086` — Machinarium | `ACT-089`, `ACT-091`, `CON-136`, `INF-001`, `TIM-002` | one requested item immediately grants an avatar leg; no exact accumulated set or constructed device | nearest, `5 / 17 = 0.294118` |
-| `GAME-0064` — SET | `INF-001`, `TIM-002` | identifies one relational card triple; no inventory hand-in or intermediary | next, `2 / 12 = 0.166667` |
-| `GAME-0080` — Keen | `INF-001`, `TIM-002` | completes arithmetic cages and a Latin square; no addressed item transfer | background tie, `2 / 14 = 0.142857` |
-| `GAME-0087` — The Longest Journey | `CON-136`, `INF-001` | directly builds a timed composite tool; no recipient accumulation | boundary control, `2 / 17 = 0.117647` |
-
-No prior full signature is exact, no prior combination equals the candidate and
-no prior combination is a supported subset of the complete genome. Machinarium
-therefore validates the action-level continuity while the moderate similarity
-confirms that multi-item accumulation and intermediary fabrication require
-separate system, constraint, information and objective boundaries.
-
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `1 / 22 = 0.045455`; `GAME-0002`: `2 / 14 = 0.142857`; `GAME-0003`: `0 / 18 = 0.000000`; `GAME-0004`: `1 / 23 = 0.043478`; `GAME-0005`: `2 / 14 = 0.142857`; `GAME-0006`: `2 / 16 = 0.125000`; `GAME-0007`: `2 / 15 = 0.133333`; `GAME-0008`: `2 / 14 = 0.142857`.
-  - `GAME-0009`: `1 / 24 = 0.041667`; `GAME-0010`: `1 / 17 = 0.058824`; `GAME-0011`: `2 / 20 = 0.100000`; `GAME-0012`: `2 / 16 = 0.125000`; `GAME-0013`: `1 / 21 = 0.047619`; `GAME-0014`: `1 / 23 = 0.043478`; `GAME-0015`: `1 / 22 = 0.045455`; `GAME-0016`: `1 / 23 = 0.043478`.
-  - `GAME-0017`: `0 / 22 = 0.000000`; `GAME-0018`: `1 / 27 = 0.037037`; `GAME-0019`: `1 / 18 = 0.055556`; `GAME-0020`: `1 / 22 = 0.045455`; `GAME-0021`: `1 / 17 = 0.058824`; `GAME-0022`: `1 / 20 = 0.050000`; `GAME-0023`: `1 / 18 = 0.055556`; `GAME-0024`: `1 / 20 = 0.050000`.
-  - `GAME-0025`: `1 / 19 = 0.052632`; `GAME-0026`: `1 / 20 = 0.050000`; `GAME-0027`: `1 / 20 = 0.050000`; `GAME-0028`: `1 / 25 = 0.040000`; `GAME-0029`: `1 / 20 = 0.050000`; `GAME-0030`: `1 / 22 = 0.045455`; `GAME-0031`: `1 / 19 = 0.052632`; `GAME-0032`: `1 / 19 = 0.052632`.
-  - `GAME-0033`: `1 / 21 = 0.047619`; `GAME-0034`: `1 / 22 = 0.045455`; `GAME-0035`: `1 / 26 = 0.038462`; `GAME-0036`: `2 / 19 = 0.105263`; `GAME-0037`: `1 / 17 = 0.058824`; `GAME-0038`: `1 / 24 = 0.041667`; `GAME-0039`: `2 / 16 = 0.125000`; `GAME-0040`: `2 / 15 = 0.133333`.
-  - `GAME-0041`: `1 / 19 = 0.052632`; `GAME-0042`: `1 / 17 = 0.058824`; `GAME-0043`: `1 / 22 = 0.045455`; `GAME-0044`: `1 / 18 = 0.055556`; `GAME-0045`: `1 / 22 = 0.045455`; `GAME-0046`: `2 / 17 = 0.117647`; `GAME-0047`: `1 / 22 = 0.045455`; `GAME-0048`: `1 / 22 = 0.045455`.
-  - `GAME-0049`: `0 / 18 = 0.000000`; `GAME-0050`: `1 / 23 = 0.043478`; `GAME-0051`: `1 / 24 = 0.041667`; `GAME-0052`: `1 / 18 = 0.055556`; `GAME-0053`: `1 / 17 = 0.058824`; `GAME-0054`: `1 / 19 = 0.052632`; `GAME-0055`: `1 / 18 = 0.055556`; `GAME-0056`: `1 / 16 = 0.062500`.
-  - `GAME-0057`: `1 / 16 = 0.062500`; `GAME-0058`: `1 / 17 = 0.058824`; `GAME-0059`: `1 / 15 = 0.066667`; `GAME-0060`: `1 / 15 = 0.066667`; `GAME-0061`: `2 / 17 = 0.117647`; `GAME-0062`: `2 / 15 = 0.133333`; `GAME-0063`: `2 / 14 = 0.142857`; `GAME-0064`: `2 / 12 = 0.166667`.
-  - `GAME-0065`: `1 / 15 = 0.066667`; `GAME-0066`: `1 / 18 = 0.055556`; `GAME-0067`: `0 / 17 = 0.000000`; `GAME-0068`: `1 / 16 = 0.062500`; `GAME-0069`: `2 / 15 = 0.133333`; `GAME-0070`: `1 / 16 = 0.062500`; `GAME-0071`: `2 / 14 = 0.142857`; `GAME-0072`: `2 / 15 = 0.133333`.
-  - `GAME-0073`: `2 / 14 = 0.142857`; `GAME-0074`: `2 / 16 = 0.125000`; `GAME-0075`: `2 / 16 = 0.125000`; `GAME-0076`: `2 / 14 = 0.142857`; `GAME-0077`: `2 / 14 = 0.142857`; `GAME-0078`: `2 / 14 = 0.142857`; `GAME-0079`: `2 / 14 = 0.142857`; `GAME-0080`: `2 / 14 = 0.142857`.
-  - `GAME-0081`: `2 / 15 = 0.133333`; `GAME-0082`: `2 / 15 = 0.133333`; `GAME-0083`: `2 / 15 = 0.133333`; `GAME-0084`: `2 / 17 = 0.117647`; `GAME-0085`: `2 / 18 = 0.111111`; `GAME-0086`: `5 / 17 = 0.294118`; `GAME-0087`: `2 / 17 = 0.117647`.
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0086`.
 
 ## Combination candidate
 
@@ -242,7 +221,8 @@ separate system, constraint, information and objective boundaries.
 - Added combination: `COMB-0088`.
 - Evidence gate: passed with Double Fine's product record, three independently
   agreeing walkthroughs and one executable commission verifier.
-- Nearest prior genome: Machinarium at `5 / 17 = 0.294118`.
+- Nearest prior genome: Machinarium; see `Corpus comparison` for the current
+  result.
 - Next falsification target: a recipient-accumulated exact item set whose
   completion grants access or status rather than constructing a new object.
 
@@ -312,4 +292,5 @@ separate system, constraint, information and objective boundaries.
 передачі автоматично створює батарею, яку треба окремо забрати з полиці.
 Machinarium закономірно найближчий через спільні передачу предметів, pickup і
 ланцюг передумов, але тут результат — не частина аватара, а створений
-посередником пристрій: `5 / 17 = 0.294118`.
+посередником пристрій; актуальний числовий результат наведено в
+`Corpus comparison`.

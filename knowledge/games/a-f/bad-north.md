@@ -247,45 +247,20 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0026`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0026`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `26` (`GAME-0001`–`GAME-0026`).
 - Exact genome matches: none.
-- Existing combination subsets: none.
-- Jaccard scores against complete genomes:
-  - `GAME-0001`: shared `CON-001`, `INF-001`; `2 / 24 = 0.083333`.
-  - `GAME-0002`: shared `CON-001`, `INF-001`; `2 / 17 = 0.117647`.
-  - `GAME-0003`: shared `CON-001`; `1 / 20 = 0.050000`.
-  - `GAME-0004`: shared `CON-001`, `INF-001`, `TIM-003`; `3 / 24 = 0.125000`.
-  - `GAME-0005`: shared `CON-001`, `INF-001`; `2 / 17 = 0.117647`.
-  - `GAME-0006`: shared `CON-001`, `INF-001`; `2 / 19 = 0.105263`.
-  - `GAME-0007`: shared `INF-001`; `1 / 19 = 0.052632`.
-  - `GAME-0008`: shared `CON-001`, `INF-001`; `2 / 17 = 0.117647`.
-  - `GAME-0009`: shared `CON-001`, `INF-001`; `2 / 26 = 0.076923`.
-  - `GAME-0010`: shared `CON-001`, `INF-001`; `2 / 19 = 0.105263`.
-  - `GAME-0011`: shared `ACT-014`, `CON-001`, `INF-001`; `3 / 22 = 0.136364`.
-  - `GAME-0012`: shared `CON-001`, `INF-001`; `2 / 19 = 0.105263`.
-  - `GAME-0013`: shared `CON-001`, `INF-001`; `2 / 23 = 0.086957`.
-  - `GAME-0014`: shared `ACT-014`, `ACT-019`, `SYS-020`, `CON-001`, `INF-001`; `5 / 22 = 0.227273`.
-  - `GAME-0015`: shared `CON-001`, `INF-001`; `2 / 24 = 0.083333`.
-  - `GAME-0016`: shared `CON-001`, `INF-001`, `TIM-003`; `3 / 24 = 0.125000`.
-  - `GAME-0017`: shared none; `0 / 25 = 0.000000`.
-  - `GAME-0018`: shared `INF-001`, `TIM-003`; `2 / 29 = 0.068966`.
-  - `GAME-0019`: shared `ACT-014`, `CON-001`, `INF-001`; `3 / 19 = 0.157895`.
-  - `GAME-0020`: shared `INF-001`; `1 / 25 = 0.040000`.
-  - `GAME-0021`: shared `INF-001`, `TIM-003`; `2 / 19 = 0.105263`.
-  - `GAME-0022`: shared `INF-001`; `1 / 23 = 0.043478`.
-  - `GAME-0023`: shared none; `0 / 22 = 0.000000`.
-  - `GAME-0024`: shared `CON-001`, `TIM-003`; `2 / 22 = 0.090909`.
-  - `GAME-0025`: shared `SYS-045`, `INF-001`, `TIM-003`; `3 / 20 = 0.150000`.
-  - `GAME-0026`: shared `INF-001`, `TIM-003`; `2 / 22 = 0.090909`.
-- Mathematically selected near match: `GAME-0014` — Into the Breach at
-  `5 / 22 = 0.227273`.
+- Tied near matches: `GAME-0014` — Into the Breach (`5 / 22 = 0.227273`).
+- Supported combination subsets: `COMB-0027`.
+- Scan date: 2026-08-12.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0014` — Into the Breach | `ACT-014`, `ACT-019`, `SYS-020`, `CON-001`, `INF-001` | exact committed intents, rounds, blockable markers and shared infrastructure versus live autonomous squad combat and carrier landings | Near match only |
-| `GAME-0025` — Lemmings | `SYS-045`, `INF-001`, `TIM-003` | individual role assignment and rescue quota versus squad-level destinations, contextual combat and assault repulsion | Required boundary comparison; not formal near match |
-| `GAME-0026` — World of Goo | `INF-001`, `TIM-003` | live elastic route construction and extraction versus fixed-terrain tactical defence | Required boundary comparison; not formal near match |
+| `GAME-0014` — Into the Breach | `ACT-014`, `ACT-019`, `SYS-020`, `CON-001`, `INF-001` | exact committed intents, rounds, blockable markers and shared infrastructure versus live autonomous squad combat and carrier landings | Near, `0.227273` |
+
+### Preserved research notes
 
 - New genes: `SYS-051`, `SYS-052`, `CON-071`, `INF-016`, `OBJ-020`.
 - Classification result: `New gene` and a new verified combination.

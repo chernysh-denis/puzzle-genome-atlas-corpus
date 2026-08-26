@@ -218,34 +218,18 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games and combinations scanned: `GAME-0001`–`GAME-0083` and
-  `COMB-0001`–`COMB-0083`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `83` (`GAME-0001`–`GAME-0083`).
 - Exact genome matches: none.
-- Near match: `GAME-0083` Net is uniquely nearest at
-  `7 / 11 = 0.636364`.
-- Slant and Rubik's Cube tie next at `5 / 12 = 0.416667`; Lights Out follows at
-  `5 / 13 = 0.384615`, then Bridges at `5 / 14 = 0.357143`.
-- Supported combination subsets: none before `COMB-0084`.
+- Tied near matches: `GAME-0083` — Net (`7 / 11 = 0.636364`).
+- Supported combination subsets: `COMB-0084`.
+- Scan date: 2026-08-14.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0083` — Net | `CON-001`, `CON-058`, `CON-115`, `CON-122`, `INF-001`, `OBJ-006`, `TIM-002` | rotates one tile; no permutation-reachability or primitive-inverse genes | nearest, `7 / 11 = 0.636364` |
-| `GAME-0002` — Rubik's Cube | `CON-001`, `CON-004`, `CON-005`, `INF-001`, `TIM-002` | rotates a coupled 3D layer toward an exact sticker arrangement; no port graph | tied next, `5 / 12 = 0.416667` |
-| `GAME-0071` — Slant | `CON-001`, `CON-115`, `INF-001`, `OBJ-006`, `TIM-002` | directly assigns diagonals under degree clues; disconnected forest allowed | tied next, `5 / 12 = 0.416667` |
-| `GAME-0069` — Lights Out | `CON-001`, `CON-004`, `CON-005`, `OBJ-006`, `TIM-002` | toggles binary neighbourhoods; no moving inventory or network target | next invariant match, `5 / 13 = 0.384615` |
-
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `2 / 22 = 0.090909`; `GAME-0002`: `5 / 12 = 0.416667`; `GAME-0003`: `1 / 18 = 0.055556`; `GAME-0004`: `2 / 23 = 0.086957`; `GAME-0005`: `4 / 13 = 0.307692`; `GAME-0006`: `3 / 16 = 0.187500`; `GAME-0007`: `2 / 16 = 0.125000`; `GAME-0008`: `4 / 13 = 0.307692`.
-  - `GAME-0009`: `2 / 24 = 0.083333`; `GAME-0010`: `2 / 17 = 0.117647`; `GAME-0011`: `3 / 20 = 0.150000`; `GAME-0012`: `4 / 15 = 0.266667`; `GAME-0013`: `2 / 21 = 0.095238`; `GAME-0014`: `2 / 23 = 0.086957`; `GAME-0015`: `2 / 22 = 0.090909`; `GAME-0016`: `2 / 23 = 0.086957`.
-  - `GAME-0017`: `0 / 23 = 0.000000`; `GAME-0018`: `1 / 28 = 0.035714`; `GAME-0019`: `2 / 18 = 0.111111`; `GAME-0020`: `2 / 22 = 0.090909`; `GAME-0021`: `1 / 18 = 0.055556`; `GAME-0022`: `1 / 21 = 0.047619`; `GAME-0023`: `1 / 19 = 0.052632`; `GAME-0024`: `2 / 20 = 0.100000`.
-  - `GAME-0025`: `1 / 20 = 0.050000`; `GAME-0026`: `1 / 21 = 0.047619`; `GAME-0027`: `2 / 20 = 0.100000`; `GAME-0028`: `2 / 25 = 0.080000`; `GAME-0029`: `2 / 20 = 0.100000`; `GAME-0030`: `1 / 23 = 0.043478`; `GAME-0031`: `1 / 20 = 0.050000`; `GAME-0032`: `2 / 19 = 0.105263`.
-  - `GAME-0033`: `1 / 22 = 0.045455`; `GAME-0034`: `1 / 23 = 0.043478`; `GAME-0035`: `1 / 27 = 0.037037`; `GAME-0036`: `2 / 20 = 0.100000`; `GAME-0037`: `2 / 17 = 0.117647`; `GAME-0038`: `1 / 25 = 0.040000`; `GAME-0039`: `4 / 15 = 0.266667`; `GAME-0040`: `3 / 15 = 0.200000`.
-  - `GAME-0041`: `1 / 20 = 0.050000`; `GAME-0042`: `1 / 18 = 0.055556`; `GAME-0043`: `2 / 22 = 0.090909`; `GAME-0044`: `2 / 18 = 0.111111`; `GAME-0045`: `2 / 22 = 0.090909`; `GAME-0046`: `2 / 18 = 0.111111`; `GAME-0047`: `2 / 22 = 0.090909`; `GAME-0048`: `2 / 22 = 0.090909`.
-  - `GAME-0049`: `1 / 18 = 0.055556`; `GAME-0050`: `2 / 23 = 0.086957`; `GAME-0051`: `1 / 25 = 0.040000`; `GAME-0052`: `1 / 19 = 0.052632`; `GAME-0053`: `2 / 17 = 0.117647`; `GAME-0054`: `2 / 19 = 0.105263`; `GAME-0055`: `2 / 18 = 0.111111`; `GAME-0056`: `2 / 16 = 0.125000`.
-  - `GAME-0057`: `2 / 16 = 0.125000`; `GAME-0058`: `2 / 17 = 0.117647`; `GAME-0059`: `2 / 15 = 0.133333`; `GAME-0060`: `1 / 16 = 0.062500`; `GAME-0061`: `4 / 16 = 0.250000`; `GAME-0062`: `4 / 14 = 0.285714`; `GAME-0063`: `3 / 14 = 0.214286`; `GAME-0064`: `2 / 13 = 0.153846`.
-  - `GAME-0065`: `1 / 16 = 0.062500`; `GAME-0066`: `1 / 19 = 0.052632`; `GAME-0067`: `0 / 18 = 0.000000`; `GAME-0068`: `1 / 17 = 0.058824`; `GAME-0069`: `5 / 13 = 0.384615`; `GAME-0070`: `2 / 16 = 0.125000`; `GAME-0071`: `5 / 12 = 0.416667`; `GAME-0072`: `4 / 14 = 0.285714`.
-  - `GAME-0073`: `4 / 13 = 0.307692`; `GAME-0074`: `5 / 14 = 0.357143`; `GAME-0075`: `4 / 15 = 0.266667`; `GAME-0076`: `4 / 13 = 0.307692`; `GAME-0077`: `4 / 13 = 0.307692`; `GAME-0078`: `4 / 13 = 0.307692`; `GAME-0079`: `4 / 13 = 0.307692`; `GAME-0080`: `4 / 13 = 0.307692`.
-  - `GAME-0081`: `4 / 14 = 0.285714`; `GAME-0082`: `4 / 14 = 0.285714`; `GAME-0083`: `7 / 11 = 0.636364`.
+| `GAME-0083` — Net | `CON-001`, `CON-058`, `CON-115`, `CON-122`, `INF-001`, `OBJ-006`, `TIM-002` | rotates one tile; no permutation-reachability or primitive-inverse genes | Near, `0.636364` |
 
 ## Combination candidate
 

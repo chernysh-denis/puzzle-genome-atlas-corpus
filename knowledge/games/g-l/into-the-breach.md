@@ -238,29 +238,19 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0013`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0013`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `13` (`GAME-0001`–`GAME-0013`).
 - Exact genome matches: none.
-- Existing combination subsets: none.
-- Jaccard scores against complete genomes:
-  - `GAME-0001`: shared `CON-001`, `INF-001`; `2 / 27 = 0.074074`.
-  - `GAME-0002`: shared `CON-001`, `INF-001`; `2 / 20 = 0.100000`.
-  - `GAME-0003`: shared `CON-001`; `1 / 23 = 0.043478`.
-  - `GAME-0004`: shared `CON-001`, `INF-001`; `2 / 28 = 0.071429`.
-  - `GAME-0005`: shared `CON-001`, `INF-001`; `2 / 20 = 0.100000`.
-  - `GAME-0006`: shared `CON-001`, `CON-011`, `INF-001`; `3 / 21 = 0.142857`.
-  - `GAME-0007`: shared `INF-001`; `1 / 22 = 0.045455`.
-  - `GAME-0008`: shared `CON-001`, `INF-001`; `2 / 20 = 0.100000`.
-  - `GAME-0009`: shared `CON-001`, `INF-001`; `2 / 29 = 0.068966`.
-  - `GAME-0010`: shared `CON-001`, `INF-001`; `2 / 22 = 0.090909`.
-  - `GAME-0011`: shared `ACT-014`, `CON-001`, `INF-001`; `3 / 25 = 0.120000`.
-  - `GAME-0012`: shared `CON-001`, `INF-001`; `2 / 22 = 0.090909`.
-  - `GAME-0013`: shared `CON-001`, `INF-001`; `2 / 26 = 0.076923`.
-- Unique maximum near match: `GAME-0006` — Sokoban at `0.142857`.
-- Long-form near comparison: both games make occupied cells and displacement
-  geometry central. Sokoban directly pushes exactly one adjacent crate and has
-  no automatic opponent; Into the Breach selects ranged abilities whose system
-  effects can move either side before previewed hostile commitments resolve.
+- Tied near matches: `GAME-0006` — Sokoban (`3 / 21 = 0.142857`).
+- Supported combination subsets: `COMB-0014`, `COMB-0047`.
+- Scan date: 2026-08-11.
+
+### Selected-neighbour interpretation
+
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0006`.
+
+### Preserved research notes
+
 - Result: no exact signature or existing combination match. This is a corpus
   comparison only, not a novelty claim.
 

@@ -298,60 +298,20 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-161,ACT-164,ACT-183,ACT-184,ACT-186,ACT-198,ACT-199,ACT-200,ACT-201,ACT-202,ACT-203; SYS-208,SYS-215,SYS-292,SYS-316,SYS-317,SYS-318,SYS-319,SYS-320,SYS-321,SYS-322,SYS-323,SYS-324,SYS-325; CON-262,CON-283,CON-284,CON-285,CON-286,CON-287,CON-288,CON-289,CON-290,CON-291; INF-073,INF-075,INF-115,INF-127,INF-128,INF-129; OBJ-074; TIM-003`.
-- Indexed games scanned: all 139 earlier canonical games.
-- Indexed combinations scanned: all 137 earlier verified combinations.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `139` (`GAME-0001`–`GAME-0139`).
 - Exact genome matches: none.
-- Near matches and similarity scores: Counter-Strike 2 (`GAME-0137`),
-  `13 / 60 = 0.216667`.
-- Supported combination subsets: none among the 137 earlier combinations;
-  new `COMB-0138` is a strict 27-gene subset of this genome.
+- Tied near matches: `GAME-0137` — Counter-Strike 2 (`13 / 60 = 0.216667`).
+- Supported combination subsets: `COMB-0138`.
 - Scan date: 2026-08-21.
 
-Exhaustive prior-game ledger:
-
-- GAME-0001: 0 / 57 = 0.000000; GAME-0002: 0 / 50 = 0.000000; GAME-0003: 0 / 52 = 0.000000; GAME-0004: 1 / 57 = 0.017544.
-- GAME-0005: 0 / 50 = 0.000000; GAME-0006: 1 / 51 = 0.019608; GAME-0007: 0 / 51 = 0.000000; GAME-0008: 0 / 50 = 0.000000.
-- GAME-0009: 0 / 59 = 0.000000; GAME-0010: 0 / 52 = 0.000000; GAME-0011: 0 / 56 = 0.000000; GAME-0012: 0 / 52 = 0.000000.
-- GAME-0013: 0 / 56 = 0.000000; GAME-0014: 0 / 58 = 0.000000; GAME-0015: 0 / 57 = 0.000000; GAME-0016: 1 / 57 = 0.017544.
-- GAME-0017: 0 / 56 = 0.000000; GAME-0018: 1 / 61 = 0.016393; GAME-0019: 0 / 53 = 0.000000; GAME-0020: 0 / 57 = 0.000000.
-- GAME-0021: 1 / 51 = 0.019608; GAME-0022: 0 / 55 = 0.000000; GAME-0023: 0 / 53 = 0.000000; GAME-0024: 1 / 54 = 0.018519.
-- GAME-0025: 1 / 53 = 0.018868; GAME-0026: 1 / 54 = 0.018519; GAME-0027: 1 / 54 = 0.018519; GAME-0028: 1 / 59 = 0.016949.
-- GAME-0029: 2 / 53 = 0.037736; GAME-0030: 1 / 56 = 0.017857; GAME-0031: 0 / 54 = 0.000000; GAME-0032: 0 / 54 = 0.000000.
-- GAME-0033: 2 / 54 = 0.037037; GAME-0034: 2 / 55 = 0.036364; GAME-0035: 2 / 59 = 0.033898; GAME-0036: 1 / 54 = 0.018519.
-- GAME-0037: 0 / 52 = 0.000000; GAME-0038: 2 / 57 = 0.035088; GAME-0039: 0 / 52 = 0.000000; GAME-0040: 1 / 50 = 0.020000.
-- GAME-0041: 2 / 52 = 0.038462; GAME-0042: 0 / 52 = 0.000000; GAME-0043: 1 / 56 = 0.017857; GAME-0044: 1 / 52 = 0.019231.
-- GAME-0045: 1 / 56 = 0.017857; GAME-0046: 0 / 53 = 0.000000; GAME-0047: 0 / 57 = 0.000000; GAME-0048: 0 / 57 = 0.000000.
-- GAME-0049: 0 / 52 = 0.000000; GAME-0050: 1 / 57 = 0.017544; GAME-0051: 1 / 58 = 0.017241; GAME-0052: 0 / 53 = 0.000000.
-- GAME-0053: 1 / 51 = 0.019608; GAME-0054: 1 / 53 = 0.018868; GAME-0055: 1 / 52 = 0.019231; GAME-0056: 0 / 51 = 0.000000.
-- GAME-0057: 0 / 51 = 0.000000; GAME-0058: 0 / 52 = 0.000000; GAME-0059: 0 / 50 = 0.000000; GAME-0060: 0 / 50 = 0.000000.
-- GAME-0061: 0 / 53 = 0.000000; GAME-0062: 0 / 51 = 0.000000; GAME-0063: 0 / 50 = 0.000000; GAME-0064: 0 / 48 = 0.000000.
-- GAME-0065: 0 / 50 = 0.000000; GAME-0066: 0 / 53 = 0.000000; GAME-0067: 0 / 51 = 0.000000; GAME-0068: 0 / 51 = 0.000000.
-- GAME-0069: 0 / 51 = 0.000000; GAME-0070: 0 / 51 = 0.000000; GAME-0071: 0 / 50 = 0.000000; GAME-0072: 0 / 51 = 0.000000.
-- GAME-0073: 0 / 50 = 0.000000; GAME-0074: 0 / 52 = 0.000000; GAME-0075: 0 / 52 = 0.000000; GAME-0076: 0 / 50 = 0.000000.
-- GAME-0077: 0 / 50 = 0.000000; GAME-0078: 0 / 50 = 0.000000; GAME-0079: 0 / 50 = 0.000000; GAME-0080: 0 / 50 = 0.000000.
-- GAME-0081: 0 / 51 = 0.000000; GAME-0082: 0 / 51 = 0.000000; GAME-0083: 0 / 51 = 0.000000; GAME-0084: 0 / 53 = 0.000000.
-- GAME-0085: 0 / 54 = 0.000000; GAME-0086: 0 / 56 = 0.000000; GAME-0087: 1 / 52 = 0.019231; GAME-0088: 0 / 52 = 0.000000.
-- GAME-0089: 0 / 52 = 0.000000; GAME-0090: 1 / 57 = 0.017544; GAME-0091: 2 / 50 = 0.040000; GAME-0092: 1 / 52 = 0.019231.
-- GAME-0093: 0 / 52 = 0.000000; GAME-0094: 2 / 51 = 0.039216; GAME-0095: 2 / 53 = 0.037736; GAME-0096: 2 / 51 = 0.039216.
-- GAME-0097: 2 / 49 = 0.040816; GAME-0098: 2 / 48 = 0.041667; GAME-0099: 1 / 50 = 0.020000; GAME-0100: 1 / 53 = 0.018868.
-- GAME-0101: 0 / 53 = 0.000000; GAME-0102: 0 / 50 = 0.000000; GAME-0103: 0 / 52 = 0.000000; GAME-0104: 1 / 51 = 0.019608.
-- GAME-0105: 2 / 51 = 0.039216; GAME-0106: 0 / 50 = 0.000000; GAME-0107: 1 / 50 = 0.020000; GAME-0108: 1 / 52 = 0.019231.
-- GAME-0109: 0 / 59 = 0.000000; GAME-0110: 1 / 50 = 0.020000; GAME-0111: 1 / 49 = 0.020408; GAME-0112: 2 / 49 = 0.040816.
-- GAME-0113: 2 / 55 = 0.036364; GAME-0114: 1 / 49 = 0.020408; GAME-0115: 0 / 49 = 0.000000; GAME-0116: 2 / 47 = 0.042553.
-- GAME-0117: 1 / 50 = 0.020000; GAME-0118: 1 / 58 = 0.017241; GAME-0119: 1 / 65 = 0.015385; GAME-0120: 0 / 72 = 0.000000.
-- GAME-0121: 1 / 65 = 0.015385; GAME-0122: 1 / 57 = 0.017544; GAME-0123: 0 / 81 = 0.000000; GAME-0124: 1 / 89 = 0.011236.
-- GAME-0125: 1 / 84 = 0.011905; GAME-0126: 1 / 85 = 0.011765; GAME-0127: 2 / 89 = 0.022472; GAME-0128: 1 / 58 = 0.017241.
-- GAME-0129: 7 / 71 = 0.098592; GAME-0130: 1 / 95 = 0.010526; GAME-0131: 4 / 85 = 0.047059; GAME-0132: 1 / 93 = 0.010753.
-- GAME-0133: 1 / 87 = 0.011494; GAME-0134: 1 / 93 = 0.010753; GAME-0135: 1 / 90 = 0.011111; GAME-0136: 1 / 102 = 0.009804.
-- GAME-0137: 13 / 60 = 0.216667; GAME-0138: 2 / 76 = 0.026316; GAME-0139: 7 / 90 = 0.077778.
-
-Near matches are selected by the canonical formula. Detailed comparison is
-limited to those records; ties are retained.
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| Counter-Strike 2 (`GAME-0137`) | `ACT-008`, `ACT-161`, `ACT-164`, `ACT-183`, `ACT-184`, `ACT-186`, `SYS-208`, `SYS-215`, `SYS-292`, `CON-262`, `INF-073`, `INF-115`, `TIM-003` | one stochastic continuous life across landing, loot, vehicles and shrinking terrain versus fixed-team repeated bomb rounds with purchases, economy and role swap | nearest at `13 / 60 = 0.216667` |
+| Counter-Strike 2 (`GAME-0137`) | `ACT-008`, `ACT-161`, `ACT-164`, `ACT-183`, `ACT-184`, `ACT-186`, `SYS-208`, `SYS-215`, `SYS-292`, `CON-262`, `INF-073`, `INF-115`, `TIM-003` | one stochastic continuous life across landing, loot, vehicles and shrinking terrain versus fixed-team repeated bomb rounds with purchases, economy and role swap | Near, `0.216667` |
+
+### Preserved research notes
 
 - New genes: `ACT-198`–`ACT-203`, `SYS-316`–`SYS-325`, `CON-283`–`CON-291`,
   `INF-127`–`INF-129` and `OBJ-074` (29 total).
@@ -359,13 +319,6 @@ limited to those records; ties are retained.
 - Evidence and reasoning: existing direct-combat genes preserve genuine reuse,
   while aerial commitment, random match loadout, drive/zone coupling, permanent
   Solo elimination and terrain excavation have distinct operational boundaries.
-
-### Registry normalisation 006 score corrections
-
-These recomputed values supersede the pre-normalisation fractions above:
-
-- `GAME-0132`: `2 / 92 = 0.021739`
-- Current prior-corpus near match after normalisation 006: `GAME-0137`.
 
 ## Taxonomy impact
 

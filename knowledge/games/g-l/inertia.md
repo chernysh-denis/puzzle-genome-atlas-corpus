@@ -222,43 +222,20 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`:
-  `ACT-078; SYS-037,SYS-110; CON-001,CON-113; INF-001; OBJ-007; TIM-001`.
-- Indexed games scanned: `GAME-0001`–`GAME-0069`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0069`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `69` (`GAME-0001`–`GAME-0069`).
 - Exact genome matches: none.
-- Unique nearest game: `GAME-0045` Snakebird at `5 / 17 = 0.294118`, sharing
-  contact collection, fixed capacity, complete visibility, declared target
-  clearing and discrete automatic resolution.
-- Near match: Snakebird is the sole maximum-score prior genome. KAMI and HOOK
-  follow at `3 / 12 = 0.250000`; Golf Peaks at `3 / 13 = 0.230769`.
-- Supported combination subsets: none before `COMB-0070`; existing contact-
-  collection games add other actions, physics, body growth, exits or objectives.
+- Tied near matches: `GAME-0045` — Snakebird (`5 / 17 = 0.294118`).
+- Supported combination subsets: `COMB-0070`.
 - Scan date: 2026-08-14.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0045` — Snakebird | `SYS-037`, `CON-001`, `INF-001`, `OBJ-007`, `TIM-001` | Snakebird accepts one-cell head steps, grows a retained body, applies gravity and requires a later exit; Inertia commits full straight trajectories for one ball and has visible fatal mines | near match only, `5 / 17 = 0.294118` |
+| `GAME-0045` — Snakebird | `SYS-037`, `CON-001`, `INF-001`, `OBJ-007`, `TIM-001` | Snakebird accepts one-cell head steps, grows a retained body, applies gravity and requires a later exit; Inertia commits full straight trajectories for one ball and has visible fatal mines | Near, `0.294118` |
 
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `3 / 19 = 0.157895`; `GAME-0002`: `2 / 13 = 0.153846`; `GAME-0003`: `2 / 15 = 0.133333`; `GAME-0004`: `2 / 21 = 0.095238`.
-  - `GAME-0005`: `2 / 13 = 0.153846`; `GAME-0006`: `2 / 15 = 0.133333`; `GAME-0007`: `1 / 15 = 0.066667`; `GAME-0008`: `2 / 13 = 0.153846`.
-  - `GAME-0009`: `4 / 20 = 0.200000`; `GAME-0010`: `3 / 14 = 0.214286`; `GAME-0011`: `2 / 19 = 0.105263`; `GAME-0012`: `2 / 15 = 0.133333`.
-  - `GAME-0013`: `3 / 18 = 0.166667`; `GAME-0014`: `2 / 21 = 0.095238`; `GAME-0015`: `3 / 19 = 0.157895`; `GAME-0016`: `2 / 21 = 0.095238`.
-  - `GAME-0017`: `1 / 20 = 0.050000`; `GAME-0018`: `1 / 26 = 0.038462`; `GAME-0019`: `3 / 15 = 0.200000`; `GAME-0020`: `2 / 20 = 0.100000`.
-  - `GAME-0021`: `2 / 15 = 0.133333`; `GAME-0022`: `1 / 19 = 0.052632`; `GAME-0023`: `0 / 18 = 0.000000`; `GAME-0024`: `1 / 19 = 0.052632`.
-  - `GAME-0025`: `1 / 18 = 0.055556`; `GAME-0026`: `1 / 19 = 0.052632`; `GAME-0027`: `2 / 18 = 0.111111`; `GAME-0028`: `2 / 23 = 0.086957`.
-  - `GAME-0029`: `2 / 18 = 0.111111`; `GAME-0030`: `1 / 21 = 0.047619`; `GAME-0031`: `1 / 18 = 0.055556`; `GAME-0032`: `2 / 17 = 0.117647`.
-  - `GAME-0033`: `1 / 20 = 0.050000`; `GAME-0034`: `2 / 20 = 0.100000`; `GAME-0035`: `1 / 25 = 0.040000`; `GAME-0036`: `1 / 19 = 0.052632`.
-  - `GAME-0037`: `2 / 15 = 0.133333`; `GAME-0038`: `2 / 22 = 0.090909`; `GAME-0039`: `2 / 15 = 0.133333`; `GAME-0040`: `1 / 15 = 0.066667`.
-  - `GAME-0041`: `1 / 18 = 0.055556`; `GAME-0042`: `1 / 16 = 0.062500`; `GAME-0043`: `3 / 19 = 0.157895`; `GAME-0044`: `3 / 15 = 0.200000`.
-  - `GAME-0045`: `5 / 17 = 0.294118`; `GAME-0046`: `1 / 17 = 0.058824`; `GAME-0047`: `2 / 20 = 0.100000`; `GAME-0048`: `2 / 20 = 0.100000`.
-  - `GAME-0049`: `2 / 15 = 0.133333`; `GAME-0050`: `3 / 20 = 0.150000`; `GAME-0051`: `1 / 23 = 0.043478`; `GAME-0052`: `1 / 17 = 0.058824`.
-  - `GAME-0053`: `3 / 14 = 0.214286`; `GAME-0054`: `3 / 16 = 0.187500`; `GAME-0055`: `3 / 15 = 0.200000`; `GAME-0056`: `2 / 14 = 0.142857`.
-  - `GAME-0057`: `3 / 13 = 0.230769`; `GAME-0058`: `3 / 14 = 0.214286`; `GAME-0059`: `3 / 12 = 0.250000`; `GAME-0060`: `3 / 12 = 0.250000`.
-  - `GAME-0061`: `2 / 16 = 0.125000`; `GAME-0062`: `2 / 14 = 0.142857`; `GAME-0063`: `2 / 13 = 0.153846`; `GAME-0064`: `1 / 12 = 0.083333`.
-  - `GAME-0065`: `0 / 15 = 0.000000`; `GAME-0066`: `0 / 18 = 0.000000`; `GAME-0067`: `0 / 16 = 0.000000`; `GAME-0068`: `0 / 16 = 0.000000`.
-  - `GAME-0069`: `2 / 14 = 0.142857`.
+### Preserved research notes
 
 - New genes: `ACT-078`, `SYS-110`, `CON-113`.
 - Classification result: `New gene` and new verified combination.

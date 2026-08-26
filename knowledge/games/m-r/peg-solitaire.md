@@ -224,42 +224,26 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0018`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0018`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `18` (`GAME-0001`–`GAME-0018`).
 - Exact genome matches: none.
-- Existing combination subsets: none.
-- Jaccard scores against complete genomes:
-  - `GAME-0001`: shared `CON-001`, `INF-001`, `TIM-001`; `3 / 21 = 0.142857`.
-  - `GAME-0002`: shared `CON-001`, `INF-001`, `OBJ-004`; `3 / 14 = 0.214286`.
-  - `GAME-0003`: shared `CON-001`, `TIM-001`; `2 / 17 = 0.117647`.
-  - `GAME-0004`: shared `CON-001`, `INF-001`; `2 / 23 = 0.086957`.
-  - `GAME-0005`: shared `CON-001`, `INF-001`; `2 / 15 = 0.133333`.
-  - `GAME-0006`: shared `CON-001`, `CON-013`, `INF-001`, `OBJ-004`; `4 / 15 = 0.266667`.
-  - `GAME-0007`: shared `INF-001`, `OBJ-004`; `2 / 16 = 0.125000`.
-  - `GAME-0008`: shared `CON-001`, `INF-001`; `2 / 15 = 0.133333`.
-  - `GAME-0009`: shared `CON-001`, `INF-001`, `TIM-001`; `3 / 23 = 0.130435`.
-  - `GAME-0010`: shared `CON-001`, `INF-001`, `TIM-001`; `3 / 16 = 0.187500`.
-  - `GAME-0011`: shared `ACT-014`, `CON-001`, `INF-001`; `3 / 20 = 0.150000`.
-  - `GAME-0012`: shared `CON-001`, `INF-001`; `2 / 17 = 0.117647`.
-  - `GAME-0013`: shared `CON-001`, `INF-001`, `TIM-001`; `3 / 20 = 0.150000`.
-  - `GAME-0014`: shared `ACT-014`, `CON-001`, `INF-001`; `3 / 22 = 0.136364`.
-  - `GAME-0015`: shared `CON-001`, `INF-001`, `TIM-001`; `3 / 21 = 0.142857`.
-  - `GAME-0016`: shared `CON-001`, `INF-001`; `2 / 23 = 0.086957`.
-  - `GAME-0017`: shared `TIM-001`; `1 / 22 = 0.045455`.
-  - `GAME-0018`: shared `INF-001`; `1 / 28 = 0.035714`.
-- Mathematically selected near match: `GAME-0006` — Sokoban at
-  `4 / 15 = 0.266667`.
+- Tied near matches: `GAME-0006` — Sokoban (`4 / 15 = 0.266667`).
+- Supported combination subsets: `COMB-0019`.
+- Scan date: 2026-08-11.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0006` — Sokoban | `CON-001`, `CON-013`, `INF-001`, `OBJ-004` | Sokoban navigates an agent to push preserved crates on goals and has no automatic resolution; Peg Solitaire directly jumps a peg, automatically removes the middle occupant and strictly decreases material | Near match only |
+| `GAME-0006` — Sokoban | `CON-001`, `CON-013`, `INF-001`, `OBJ-004` | Sokoban navigates an agent to push preserved crates on goals and has no automatic resolution; Peg Solitaire directly jumps a peg, automatically removes the middle occupant and strictly decreases material | Near, `0.266667` |
+
+### Preserved research notes
 
 - New genes: `SYS-033`, `CON-053`, `CON-054`, `CON-055`.
 - Classification result: `New gene` and a new verified combination.
 - Evidence and reasoning: the existing relocation Action covers the command,
   while the intervening capture, local triple predicate, forward-only material
   loss and no-jump termination require independent bounded records.
-- Scan date: 2026-08-11.
 
 ## Taxonomy impact
 

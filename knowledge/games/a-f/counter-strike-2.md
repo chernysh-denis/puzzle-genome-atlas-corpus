@@ -240,55 +240,20 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-161,ACT-164,ACT-130,ACT-183,ACT-184,ACT-185,ACT-186,ACT-187; SYS-208,SYS-215,SYS-222,SYS-292,SYS-293,SYS-294,SYS-295,SYS-296; CON-261,CON-262,CON-263,CON-264,CON-265,CON-266,CON-267; INF-073,INF-115,INF-116,INF-117; OBJ-071; TIM-003`.
-- Indexed games scanned: 136 (`GAME-0001`–`GAME-0136`).
-- Indexed combinations scanned: 134 (`COMB-0001`–`COMB-0134`).
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `136` (`GAME-0001`–`GAME-0136`).
 - Exact genome matches: none.
-- Near matches and similarity scores: Minecraft (`GAME-0129`), provisional
-  pre-generation scan `7 / 58 = 0.120690`; regenerated corpus scan must confirm.
-- Supported combination subsets: none among `COMB-0001`–`COMB-0134`.
+- Tied near matches: `GAME-0129` — Minecraft (`7 / 58 = 0.120690`).
+- Supported combination subsets: `COMB-0135`.
 - Scan date: 2026-08-21.
 
-### Exhaustive prior-game similarity scan
-
-- GAME-0001: 0 / 44 = 0.000000; GAME-0002: 0 / 37 = 0.000000; GAME-0003: 0 / 39 = 0.000000; GAME-0004: 1 / 44 = 0.022727.
-- GAME-0005: 0 / 37 = 0.000000; GAME-0006: 1 / 38 = 0.026316; GAME-0007: 0 / 38 = 0.000000; GAME-0008: 0 / 37 = 0.000000.
-- GAME-0009: 0 / 46 = 0.000000; GAME-0010: 0 / 39 = 0.000000; GAME-0011: 0 / 43 = 0.000000; GAME-0012: 0 / 39 = 0.000000.
-- GAME-0013: 0 / 43 = 0.000000; GAME-0014: 0 / 45 = 0.000000; GAME-0015: 0 / 44 = 0.000000; GAME-0016: 1 / 44 = 0.022727.
-- GAME-0017: 0 / 43 = 0.000000; GAME-0018: 1 / 48 = 0.020833; GAME-0019: 0 / 40 = 0.000000; GAME-0020: 0 / 44 = 0.000000.
-- GAME-0021: 1 / 38 = 0.026316; GAME-0022: 0 / 42 = 0.000000; GAME-0023: 0 / 40 = 0.000000; GAME-0024: 1 / 41 = 0.024390.
-- GAME-0025: 1 / 40 = 0.025000; GAME-0026: 1 / 41 = 0.024390; GAME-0027: 1 / 41 = 0.024390; GAME-0028: 1 / 46 = 0.021739.
-- GAME-0029: 2 / 40 = 0.050000; GAME-0030: 1 / 43 = 0.023256; GAME-0031: 0 / 41 = 0.000000; GAME-0032: 0 / 41 = 0.000000.
-- GAME-0033: 2 / 41 = 0.048780; GAME-0034: 2 / 42 = 0.047619; GAME-0035: 2 / 46 = 0.043478; GAME-0036: 1 / 41 = 0.024390.
-- GAME-0037: 0 / 39 = 0.000000; GAME-0038: 2 / 44 = 0.045455; GAME-0039: 0 / 39 = 0.000000; GAME-0040: 1 / 37 = 0.027027.
-- GAME-0041: 2 / 39 = 0.051282; GAME-0042: 0 / 39 = 0.000000; GAME-0043: 1 / 43 = 0.023256; GAME-0044: 1 / 39 = 0.025641.
-- GAME-0045: 1 / 43 = 0.023256; GAME-0046: 0 / 40 = 0.000000; GAME-0047: 0 / 44 = 0.000000; GAME-0048: 0 / 44 = 0.000000.
-- GAME-0049: 0 / 39 = 0.000000; GAME-0050: 1 / 44 = 0.022727; GAME-0051: 1 / 45 = 0.022222; GAME-0052: 0 / 40 = 0.000000.
-- GAME-0053: 1 / 38 = 0.026316; GAME-0054: 1 / 40 = 0.025000; GAME-0055: 1 / 39 = 0.025641; GAME-0056: 0 / 38 = 0.000000.
-- GAME-0057: 0 / 38 = 0.000000; GAME-0058: 0 / 39 = 0.000000; GAME-0059: 0 / 37 = 0.000000; GAME-0060: 0 / 37 = 0.000000.
-- GAME-0061: 0 / 40 = 0.000000; GAME-0062: 0 / 38 = 0.000000; GAME-0063: 0 / 37 = 0.000000; GAME-0064: 0 / 35 = 0.000000.
-- GAME-0065: 0 / 37 = 0.000000; GAME-0066: 0 / 40 = 0.000000; GAME-0067: 0 / 38 = 0.000000; GAME-0068: 0 / 38 = 0.000000.
-- GAME-0069: 0 / 38 = 0.000000; GAME-0070: 0 / 38 = 0.000000; GAME-0071: 0 / 37 = 0.000000; GAME-0072: 0 / 38 = 0.000000.
-- GAME-0073: 0 / 37 = 0.000000; GAME-0074: 0 / 39 = 0.000000; GAME-0075: 0 / 39 = 0.000000; GAME-0076: 0 / 37 = 0.000000.
-- GAME-0077: 0 / 37 = 0.000000; GAME-0078: 0 / 37 = 0.000000; GAME-0079: 0 / 37 = 0.000000; GAME-0080: 0 / 37 = 0.000000.
-- GAME-0081: 0 / 38 = 0.000000; GAME-0082: 0 / 38 = 0.000000; GAME-0083: 0 / 38 = 0.000000; GAME-0084: 0 / 40 = 0.000000.
-- GAME-0085: 0 / 41 = 0.000000; GAME-0086: 0 / 43 = 0.000000; GAME-0087: 1 / 39 = 0.025641; GAME-0088: 0 / 39 = 0.000000.
-- GAME-0089: 0 / 39 = 0.000000; GAME-0090: 1 / 44 = 0.022727; GAME-0091: 2 / 37 = 0.054054; GAME-0092: 1 / 39 = 0.025641.
-- GAME-0093: 0 / 39 = 0.000000; GAME-0094: 2 / 38 = 0.052632; GAME-0095: 2 / 40 = 0.050000; GAME-0096: 2 / 38 = 0.052632.
-- GAME-0097: 2 / 36 = 0.055556; GAME-0098: 2 / 35 = 0.057143; GAME-0099: 1 / 37 = 0.027027; GAME-0100: 1 / 40 = 0.025000.
-- GAME-0101: 0 / 40 = 0.000000; GAME-0102: 0 / 37 = 0.000000; GAME-0103: 0 / 39 = 0.000000; GAME-0104: 1 / 38 = 0.026316.
-- GAME-0105: 2 / 38 = 0.052632; GAME-0106: 0 / 37 = 0.000000; GAME-0107: 1 / 37 = 0.027027; GAME-0108: 1 / 39 = 0.025641.
-- GAME-0109: 0 / 46 = 0.000000; GAME-0110: 1 / 37 = 0.027027; GAME-0111: 1 / 36 = 0.027778; GAME-0112: 2 / 36 = 0.055556.
-- GAME-0113: 2 / 42 = 0.047619; GAME-0114: 1 / 36 = 0.027778; GAME-0115: 0 / 36 = 0.000000; GAME-0116: 2 / 34 = 0.058824.
-- GAME-0117: 1 / 37 = 0.027027; GAME-0118: 1 / 45 = 0.022222; GAME-0119: 1 / 52 = 0.019231; GAME-0120: 0 / 59 = 0.000000.
-- GAME-0121: 1 / 52 = 0.019231; GAME-0122: 1 / 44 = 0.022727; GAME-0123: 0 / 68 = 0.000000; GAME-0124: 1 / 76 = 0.013158.
-- GAME-0125: 1 / 71 = 0.014085; GAME-0126: 1 / 72 = 0.013889; GAME-0127: 2 / 76 = 0.026316; GAME-0128: 1 / 45 = 0.022222.
-- GAME-0129: 7 / 58 = 0.120690; GAME-0130: 1 / 82 = 0.012195; GAME-0131: 4 / 72 = 0.055556; GAME-0132: 1 / 80 = 0.012500.
-- GAME-0133: 1 / 74 = 0.013514; GAME-0134: 1 / 80 = 0.012500; GAME-0135: 1 / 77 = 0.012987; GAME-0136: 1 / 89 = 0.011236.
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| Minecraft (`GAME-0129`) | `ACT-008`, `ACT-161`, `ACT-164`, `SYS-215`, `SYS-222`, `INF-073`, `TIM-003` | persistent voxel survival/crafting and ordinary respawn versus finite team rounds, economy, partial opponent information and bomb objectives | provisional nearest at `7 / 58 = 0.120690` |
+| Minecraft (`GAME-0129`) | `ACT-008`, `ACT-161`, `ACT-164`, `SYS-215`, `SYS-222`, `INF-073`, `TIM-003` | persistent voxel survival/crafting and ordinary respawn versus finite team rounds, economy, partial opponent information and bomb objectives | Near, `0.120690` |
+
+### Preserved research notes
 
 - New genes: `ACT-183`–`ACT-187`, `SYS-292`–`SYS-296`, `CON-261`–`CON-267`,
   `INF-115`–`INF-117`, `OBJ-071`.
@@ -297,16 +262,6 @@ gene_ids:
   operational boundaries; the new records isolate cross-round economy,
   one-life round participation, asymmetric C4 timing and shared partial team
   information rather than promoting weapon statistics into genes.
-
-### Registry normalisation 006 score corrections
-
-These recomputed values supersede the pre-normalisation fractions above:
-
-- `GAME-0120`: `1 / 58 = 0.017241`
-- `GAME-0123`: `1 / 67 = 0.014925`
-- `GAME-0124`: `2 / 75 = 0.026667`
-- `GAME-0132`: `2 / 79 = 0.025316`
-- Current prior-corpus near match after normalisation 006: `GAME-0129`.
 
 ## Taxonomy impact
 

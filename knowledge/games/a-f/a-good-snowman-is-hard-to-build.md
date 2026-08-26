@@ -238,48 +238,20 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`:
-  `ACT-008,ACT-009; SYS-080,SYS-081; CON-001,CON-013,CON-092; INF-001;
-  OBJ-004; TIM-001`.
-- Indexed games scanned: all 43 prior reviewed records, `GAME-0001`–`GAME-0043`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0043`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `43` (`GAME-0001`–`GAME-0043`).
 - Exact genome matches: none.
-- Near matches and similarity scores: Sokoban is the unique maximum at
-  `6 / 13 = 0.461538`; Stephen's Sausage Roll follows at
-  `6 / 18 = 0.333333`; Patrick's Parabox shares `5 / 18 = 0.277778`; 2048
-  shares `3 / 21 = 0.142857`.
-- Supported combination subsets: new recurring `COMB-0044` only.
+- Tied near matches: `GAME-0006` — Sokoban (`6 / 13 = 0.461538`).
+- Supported combination subsets: `COMB-0044`.
 - Scan date: 2026-08-12.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0006` — Sokoban | `ACT-008`, `ACT-009`, `CON-001`, `CON-013`, `INF-001`, `OBJ-004` | Sokoban uses exclusive cells, strict free-ahead pushes, fixed goals and no automatic terrain / size / stack transition | Unique near match, `0.461538` |
-| `GAME-0043` — Stephen's Sausage Roll | `ACT-008`, `ACT-009`, `CON-001`, `CON-013`, `INF-001`, `TIM-001` | elongated roll and exact-once cooking versus unary growth and ordered stack assembly | Second, `0.333333` |
-| `GAME-0036` — Patrick's Parabox | `ACT-008`, `ACT-009`, `CON-013`, `INF-001`, `OBJ-004` | recursive containment / chains and self-paced transitions versus bounded vertical stack and automatic resolution | Controlled comparison, `0.294118` |
-| `GAME-0001` — 2048 | `CON-001`, `TIM-001` and final-value preparation only conceptually | collision merge, random spawn and line compression do not match snow-driven unary growth | Non-near, `0.142857` |
+| `GAME-0006` — Sokoban | `ACT-008`, `ACT-009`, `CON-001`, `CON-013`, `INF-001`, `OBJ-004` | Sokoban uses exclusive cells, strict free-ahead pushes, fixed goals and no automatic terrain / size / stack transition | Near, `0.461538` |
 
-The complete numeric scan is: `GAME-0001` `3 / 21 = 0.142857`;
-`GAME-0002` `3 / 14 = 0.214286`; `GAME-0003` `2 / 17 = 0.117647`;
-`GAME-0004` `2 / 23 = 0.086957`; `GAME-0005` `2 / 15 = 0.133333`;
-`GAME-0006` `6 / 13 = 0.461538`; `GAME-0007` `2 / 16 = 0.125000`;
-`GAME-0008` `2 / 15 = 0.133333`; `GAME-0009` `3 / 23 = 0.130435`;
-`GAME-0010` `3 / 16 = 0.187500`; `GAME-0011` `2 / 21 = 0.095238`;
-`GAME-0012` `2 / 17 = 0.117647`; `GAME-0013` `4 / 19 = 0.210526`;
-`GAME-0014` `2 / 23 = 0.086957`; `GAME-0015` `3 / 21 = 0.142857`;
-`GAME-0016` `2 / 23 = 0.086957`; `GAME-0017` `1 / 22 = 0.045455`;
-`GAME-0018` `1 / 28 = 0.035714`; `GAME-0019` `5 / 15 = 0.333333`;
-`GAME-0020` `2 / 22 = 0.090909`; `GAME-0021` `1 / 18 = 0.055556`;
-`GAME-0022` `1 / 21 = 0.047619`; `GAME-0023` `0 / 20 = 0.000000`;
-`GAME-0024` `1 / 21 = 0.047619`; `GAME-0025` `1 / 20 = 0.050000`;
-`GAME-0026` `1 / 21 = 0.047619`; `GAME-0027` `2 / 20 = 0.100000`;
-`GAME-0028` `2 / 25 = 0.080000`; `GAME-0029` `3 / 19 = 0.157895`;
-`GAME-0030` `1 / 23 = 0.043478`; `GAME-0031` `1 / 20 = 0.050000`;
-`GAME-0032` `2 / 19 = 0.105263`; `GAME-0033` `2 / 21 = 0.095238`;
-`GAME-0034` `2 / 22 = 0.090909`; `GAME-0035` `2 / 26 = 0.076923`;
-`GAME-0036` `5 / 17 = 0.294118`; `GAME-0037` `2 / 17 = 0.117647`;
-`GAME-0038` `2 / 24 = 0.083333`; `GAME-0039` `2 / 17 = 0.117647`;
-`GAME-0040` `2 / 16 = 0.125000`; `GAME-0041` `2 / 19 = 0.105263`;
-`GAME-0042` `1 / 18 = 0.055556`; `GAME-0043` `6 / 18 = 0.333333`.
+### Preserved research notes
 
 - New genes: `SYS-080`, `SYS-081`, `CON-092`.
 - Classification result: `New gene` and a recurring combination of known genes.

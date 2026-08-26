@@ -258,71 +258,20 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: every prior record `GAME-0001`–`GAME-0049`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `49` (`GAME-0001`–`GAME-0049`).
 - Exact genome matches: none.
-- Unique near match: `GAME-0043` — Stephen's Sausage Roll and `GAME-0045` —
-  Snakebird tie at intersection `5`, union `24`, `5 / 24 = 0.208333` through
-  local navigation, fixed occupancy, exclusive occupancy, visible state and
-  discrete resolution; the overlap does not include queue or intent mechanics.
-- Next: Sokoban at `4 / 20 = 0.200000`, then A Good Snowman Is Hard to Build at
-  `4 / 21 = 0.190476`; Fights in Tight Spaces and Tactical Breach Wizards each
-  share `CON-001`, `CON-011`, `INF-001`, `OBJ-029` at `4 / 25 = 0.160000`.
-- Existing combination subsets: none. `COMB-0014` and `COMB-0047` fail
-  `SYS-019`, `SYS-020`, `INF-009`, `TIM-005`; `COMB-0048` fails all four of its
-  forecast/revision genes. Every other prior proper subset was also tested.
-- New combination: `COMB-0050`, the six-gene prepared attack-queue interaction.
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `3 / 26 = 0.115385`.
-  - `GAME-0002`: `2 / 20 = 0.100000`.
-  - `GAME-0003`: `2 / 22 = 0.090909`.
-  - `GAME-0004`: `2 / 28 = 0.071429`.
-  - `GAME-0005`: `2 / 20 = 0.100000`.
-  - `GAME-0006`: `4 / 20 = 0.200000`.
-  - `GAME-0007`: `1 / 22 = 0.045455`.
-  - `GAME-0008`: `2 / 20 = 0.100000`.
-  - `GAME-0009`: `3 / 28 = 0.107143`.
-  - `GAME-0010`: `3 / 21 = 0.142857`.
-  - `GAME-0011`: `2 / 26 = 0.076923`.
-  - `GAME-0012`: `2 / 22 = 0.090909`.
-  - `GAME-0013`: `3 / 25 = 0.120000`.
-  - `GAME-0014`: `3 / 27 = 0.111111`.
-  - `GAME-0015`: `3 / 26 = 0.115385`.
-  - `GAME-0016`: `2 / 28 = 0.071429`.
-  - `GAME-0017`: `1 / 27 = 0.037037`.
-  - `GAME-0018`: `1 / 33 = 0.030303`.
-  - `GAME-0019`: `3 / 22 = 0.136364`.
-  - `GAME-0020`: `2 / 27 = 0.074074`.
-  - `GAME-0021`: `1 / 23 = 0.043478`.
-  - `GAME-0022`: `1 / 26 = 0.038462`.
-  - `GAME-0023`: `0 / 25 = 0.000000`.
-  - `GAME-0024`: `1 / 26 = 0.038462`.
-  - `GAME-0025`: `1 / 25 = 0.040000`.
-  - `GAME-0026`: `1 / 26 = 0.038462`.
-  - `GAME-0027`: `2 / 25 = 0.080000`.
-  - `GAME-0028`: `2 / 30 = 0.066667`.
-  - `GAME-0029`: `3 / 24 = 0.125000`.
-  - `GAME-0030`: `1 / 28 = 0.035714`.
-  - `GAME-0031`: `1 / 25 = 0.040000`.
-  - `GAME-0032`: `2 / 24 = 0.083333`.
-  - `GAME-0033`: `2 / 26 = 0.076923`.
-  - `GAME-0034`: `2 / 27 = 0.074074`.
-  - `GAME-0035`: `2 / 31 = 0.064516`.
-  - `GAME-0036`: `3 / 24 = 0.125000`.
-  - `GAME-0037`: `2 / 22 = 0.090909`.
-  - `GAME-0038`: `2 / 29 = 0.068966`.
-  - `GAME-0039`: `2 / 22 = 0.090909`.
-  - `GAME-0040`: `2 / 21 = 0.095238`.
-  - `GAME-0041`: `2 / 24 = 0.083333`.
-  - `GAME-0042`: `1 / 23 = 0.043478`.
-  - `GAME-0043`: `5 / 24 = 0.208333`.
-  - `GAME-0044`: `4 / 21 = 0.190476`.
-  - `GAME-0045`: `5 / 24 = 0.208333`.
-  - `GAME-0046`: `1 / 24 = 0.041667`.
-  - `GAME-0047`: `4 / 25 = 0.160000`.
-  - `GAME-0048`: `4 / 25 = 0.160000`.
-  - `GAME-0049`: `2 / 22 = 0.090909`.
+- Tied near matches: `GAME-0043` — Stephen’s Sausage Roll (`5 / 24 = 0.208333`); `GAME-0045` — Snakebird (`5 / 24 = 0.208333`).
+- Supported combination subsets: `COMB-0050`.
 - Scan date: 2026-08-12.
 
+### Selected-neighbour interpretation
+
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0043`, `GAME-0045`.
+
+### Preserved research notes
+
+- New combination: `COMB-0050`, the six-gene prepared attack-queue interaction.
 - New genes: `ACT-064`, `ACT-065`, `ACT-066`, `ACT-067`, `SYS-090`, `SYS-091`,
   `CON-096`, `CON-097`, `INF-027`.
 - Reused genes: `ACT-008`, `CON-001`, `CON-011`, `INF-001`, `OBJ-029`,

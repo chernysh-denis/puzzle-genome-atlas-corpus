@@ -242,51 +242,20 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-006,ACT-036,ACT-120,ACT-130,ACT-139,ACT-140,ACT-141,ACT-142,ACT-143; SYS-004,SYS-045,SYS-046,SYS-156,SYS-157,SYS-161,SYS-166,SYS-175,SYS-176,SYS-177,SYS-178,SYS-179,SYS-180,SYS-181,SYS-182,SYS-183,SYS-184; CON-062,CON-172,CON-184,CON-185,CON-186,CON-187,CON-188,CON-189,CON-190,CON-191; INF-001,INF-002,INF-003,INF-059,INF-064,INF-065,INF-066,INF-067,INF-068; OBJ-059; TIM-003`.
-- Indexed games scanned: 124, including this record.
-- Indexed combinations scanned: 122.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `123` (`GAME-0001`–`GAME-0123`).
 - Exact genome matches: none.
-- Near matches and similarity scores: `GAME-0119` at `10 / 60 = 0.166667`.
+- Tied near matches: `GAME-0119` — Factorio (`10 / 60 = 0.166667`).
 - Supported combination subsets: `COMB-0122`.
 - Scan date: 2026-08-18.
 
+### Selected-neighbour interpretation
+
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0119` Factorio | `ACT-120`, `SYS-045`, `SYS-156`, `SYS-157`, `SYS-161`, `CON-062`, `CON-172`, `INF-001`, `INF-059`, `TIM-003` | Factorio builds a continuous unstaffed factory toward a rocket and turns pollution into attacks; Against the Storm assigns finite workers inside bounded settlements and couples seasonal Hostility, species Resolve, offers and two terminal tracks | near match, not equivalent |
+| `GAME-0119` Factorio | `ACT-120`, `SYS-045`, `SYS-156`, `SYS-157`, `SYS-161`, `CON-062`, `CON-172`, `INF-001`, `INF-059`, `TIM-003` | Factorio builds a continuous unstaffed factory toward a rocket and turns pollution into attacks; Against the Storm assigns finite workers inside bounded settlements and couples seasonal Hostility, species Resolve, offers and two terminal tracks | Near, `0.166667` |
 
-### Full prior-game Jaccard scan
-
-- `GAME-0001`: `3 / 58 = 0.051724`; `GAME-0002`: `1 / 53 = 0.018868`; `GAME-0003`: `1 / 55 = 0.018182`; `GAME-0004`: `4 / 58 = 0.068966`.
-- `GAME-0005`: `1 / 53 = 0.018868`; `GAME-0006`: `1 / 55 = 0.018182`; `GAME-0007`: `1 / 54 = 0.018519`; `GAME-0008`: `1 / 53 = 0.018868`.
-- `GAME-0009`: `3 / 60 = 0.050000`; `GAME-0010`: `1 / 55 = 0.018182`; `GAME-0011`: `1 / 59 = 0.016949`; `GAME-0012`: `1 / 55 = 0.018182`.
-- `GAME-0013`: `1 / 59 = 0.016949`; `GAME-0014`: `1 / 61 = 0.016393`; `GAME-0015`: `2 / 59 = 0.033898`; `GAME-0016`: `4 / 58 = 0.068966`.
-- `GAME-0017`: `1 / 59 = 0.016949`; `GAME-0018`: `5 / 61 = 0.081967`; `GAME-0019`: `1 / 56 = 0.017857`; `GAME-0020`: `2 / 59 = 0.033898`.
-- `GAME-0021`: `2 / 54 = 0.037037`; `GAME-0022`: `2 / 57 = 0.035088`; `GAME-0023`: `0 / 57 = 0.000000`; `GAME-0024`: `1 / 58 = 0.017241`.
-- `GAME-0025`: `5 / 53 = 0.094340`; `GAME-0026`: `2 / 57 = 0.035088`; `GAME-0027`: `3 / 56 = 0.053571`; `GAME-0028`: `5 / 59 = 0.084746`.
-- `GAME-0029`: `4 / 55 = 0.072727`; `GAME-0030`: `4 / 57 = 0.070175`; `GAME-0031`: `2 / 56 = 0.035714`; `GAME-0032`: `1 / 57 = 0.017544`.
-- `GAME-0033`: `2 / 58 = 0.034483`; `GAME-0034`: `3 / 58 = 0.051724`; `GAME-0035`: `3 / 62 = 0.048387`; `GAME-0036`: `1 / 58 = 0.017241`.
-- `GAME-0037`: `1 / 55 = 0.018182`; `GAME-0038`: `2 / 61 = 0.032787`; `GAME-0039`: `1 / 55 = 0.018182`; `GAME-0040`: `1 / 54 = 0.018519`.
-- `GAME-0041`: `2 / 56 = 0.035714`; `GAME-0042`: `2 / 54 = 0.037037`; `GAME-0043`: `1 / 60 = 0.016667`; `GAME-0044`: `1 / 56 = 0.017857`.
-- `GAME-0045`: `1 / 60 = 0.016667`; `GAME-0046`: `1 / 56 = 0.017857`; `GAME-0047`: `2 / 59 = 0.033898`; `GAME-0048`: `1 / 60 = 0.016667`.
-- `GAME-0049`: `1 / 55 = 0.018182`; `GAME-0050`: `1 / 61 = 0.016393`; `GAME-0051`: `5 / 58 = 0.086207`; `GAME-0052`: `1 / 56 = 0.017857`.
-- `GAME-0053`: `1 / 55 = 0.018182`; `GAME-0054`: `1 / 57 = 0.017544`; `GAME-0055`: `1 / 56 = 0.017857`; `GAME-0056`: `1 / 54 = 0.018519`.
-- `GAME-0057`: `1 / 54 = 0.018519`; `GAME-0058`: `1 / 55 = 0.018182`; `GAME-0059`: `1 / 53 = 0.018868`; `GAME-0060`: `1 / 53 = 0.018868`.
-- `GAME-0061`: `1 / 56 = 0.017857`; `GAME-0062`: `1 / 54 = 0.018519`; `GAME-0063`: `1 / 53 = 0.018868`; `GAME-0064`: `1 / 51 = 0.019608`.
-- `GAME-0065`: `1 / 53 = 0.018868`; `GAME-0066`: `1 / 56 = 0.017857`; `GAME-0067`: `2 / 53 = 0.037736`; `GAME-0068`: `1 / 54 = 0.018519`.
-- `GAME-0069`: `1 / 54 = 0.018519`; `GAME-0070`: `1 / 54 = 0.018519`; `GAME-0071`: `1 / 53 = 0.018868`; `GAME-0072`: `1 / 54 = 0.018519`.
-- `GAME-0073`: `1 / 53 = 0.018868`; `GAME-0074`: `1 / 55 = 0.018182`; `GAME-0075`: `1 / 55 = 0.018182`; `GAME-0076`: `1 / 53 = 0.018868`.
-- `GAME-0077`: `1 / 53 = 0.018868`; `GAME-0078`: `1 / 53 = 0.018868`; `GAME-0079`: `1 / 53 = 0.018868`; `GAME-0080`: `1 / 53 = 0.018868`.
-- `GAME-0081`: `1 / 54 = 0.018519`; `GAME-0082`: `1 / 54 = 0.018519`; `GAME-0083`: `1 / 54 = 0.018519`; `GAME-0084`: `1 / 56 = 0.017857`.
-- `GAME-0085`: `1 / 57 = 0.017544`; `GAME-0086`: `1 / 59 = 0.016949`; `GAME-0087`: `2 / 55 = 0.036364`; `GAME-0088`: `1 / 55 = 0.018182`.
-- `GAME-0089`: `1 / 55 = 0.018182`; `GAME-0090`: `1 / 61 = 0.016393`; `GAME-0091`: `2 / 54 = 0.037037`; `GAME-0092`: `4 / 53 = 0.075472`.
-- `GAME-0093`: `1 / 55 = 0.018182`; `GAME-0094`: `2 / 55 = 0.036364`; `GAME-0095`: `2 / 57 = 0.035088`; `GAME-0096`: `2 / 55 = 0.036364`.
-- `GAME-0097`: `2 / 53 = 0.037736`; `GAME-0098`: `2 / 52 = 0.038462`; `GAME-0099`: `1 / 54 = 0.018519`; `GAME-0100`: `1 / 57 = 0.017544`.
-- `GAME-0101`: `0 / 57 = 0.000000`; `GAME-0102`: `0 / 54 = 0.000000`; `GAME-0103`: `1 / 55 = 0.018182`; `GAME-0104`: `1 / 55 = 0.018182`.
-- `GAME-0105`: `1 / 56 = 0.017857`; `GAME-0106`: `0 / 54 = 0.000000`; `GAME-0107`: `1 / 54 = 0.018519`; `GAME-0108`: `1 / 56 = 0.017857`.
-- `GAME-0109`: `3 / 60 = 0.050000`; `GAME-0110`: `2 / 53 = 0.037736`; `GAME-0111`: `1 / 53 = 0.018868`; `GAME-0112`: `2 / 53 = 0.037736`.
-- `GAME-0113`: `2 / 59 = 0.033898`; `GAME-0114`: `2 / 52 = 0.038462`; `GAME-0115`: `1 / 52 = 0.019231`; `GAME-0116`: `2 / 51 = 0.039216`.
-- `GAME-0117`: `1 / 54 = 0.018519`; `GAME-0118`: `2 / 61 = 0.032787`; `GAME-0119`: `10 / 60 = 0.166667`; `GAME-0120`: `5 / 71 = 0.070423`.
-- `GAME-0121`: `2 / 68 = 0.029412`; `GAME-0122`: `5 / 57 = 0.087719`; `GAME-0123`: `6 / 79 = 0.075949`.
+### Preserved research notes
 
 - New genes: `ACT-139`–`ACT-143`, `SYS-176`–`SYS-184`, `CON-184`–`CON-191`, `INF-064`–`INF-068`, `OBJ-059`.
 - Classification result: `New gene` and `New combination of known genes`.

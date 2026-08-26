@@ -250,47 +250,20 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0028`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0028`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `28` (`GAME-0001`–`GAME-0028`).
 - Exact genome matches: none.
-- Existing combination subsets: none.
-- Jaccard scores against complete genomes:
-  - `GAME-0001`: shared `CON-001`, `INF-001`; `2 / 24 = 0.083333`.
-  - `GAME-0002`: shared `CON-001`, `INF-001`; `2 / 17 = 0.117647`.
-  - `GAME-0003`: shared `CON-001`; `1 / 20 = 0.050000`.
-  - `GAME-0004`: shared `ACT-006`, `CON-001`, `INF-001`, `TIM-003`; `4 / 23 = 0.173913`.
-  - `GAME-0005`: shared `CON-001`, `INF-001`; `2 / 17 = 0.117647`.
-  - `GAME-0006`: shared `ACT-008`, `CON-001`, `INF-001`; `3 / 18 = 0.166667`.
-  - `GAME-0007`: shared `INF-001`; `1 / 19 = 0.052632`.
-  - `GAME-0008`: shared `CON-001`, `INF-001`; `2 / 17 = 0.117647`.
-  - `GAME-0009`: shared `CON-001`, `INF-001`; `2 / 26 = 0.076923`.
-  - `GAME-0010`: shared `CON-001`, `INF-001`; `2 / 19 = 0.105263`.
-  - `GAME-0011`: shared `CON-001`, `INF-001`; `2 / 23 = 0.086957`.
-  - `GAME-0012`: shared `CON-001`, `INF-001`; `2 / 19 = 0.105263`.
-  - `GAME-0013`: shared `CON-001`, `INF-001`; `2 / 23 = 0.086957`.
-  - `GAME-0014`: shared `CON-001`, `INF-001`; `2 / 25 = 0.080000`.
-  - `GAME-0015`: shared `CON-001`, `INF-001`; `2 / 24 = 0.083333`.
-  - `GAME-0016`: shared `ACT-006`, `CON-001`, `INF-001`, `TIM-003`; `4 / 23 = 0.173913`.
-  - `GAME-0017`: shared none; `0 / 25 = 0.000000`.
-  - `GAME-0018`: shared `ACT-006`, `INF-001`, `TIM-003`; `3 / 28 = 0.107143`.
-  - `GAME-0019`: shared `CON-001`, `INF-001`; `2 / 20 = 0.100000`.
-  - `GAME-0020`: shared `INF-001`; `1 / 25 = 0.040000`.
-  - `GAME-0021`: shared `INF-001`, `TIM-003`; `2 / 19 = 0.105263`.
-  - `GAME-0022`: shared `INF-001`; `1 / 23 = 0.043478`.
-  - `GAME-0023`: shared none; `0 / 22 = 0.000000`.
-  - `GAME-0024`: shared `CON-001`, `TIM-003`; `2 / 22 = 0.090909`.
-  - `GAME-0025`: shared `SYS-045`, `SYS-047`, `SYS-048`, `INF-001`, `OBJ-019`, `TIM-003`; `6 / 17 = 0.352941`.
-  - `GAME-0026`: shared `SYS-048`, `INF-001`, `OBJ-019`, `TIM-003`; `4 / 20 = 0.200000`.
-  - `GAME-0027`: shared `SYS-045`, `CON-001`, `INF-001`, `TIM-003`; `4 / 20 = 0.200000`.
-  - `GAME-0028`: shared `SYS-045`, `CON-001`, `INF-001`, `TIM-003`; `4 / 25 = 0.160000`.
-- Mathematically selected near match: `GAME-0025` — Lemmings at
-  `6 / 17 = 0.352941`.
+- Tied near matches: `GAME-0025` — Lemmings (`6 / 17 = 0.352941`).
+- Supported combination subsets: `COMB-0029`.
+- Scan date: 2026-08-12.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0025` — Lemmings | `SYS-045`, `SYS-047`, `SYS-048`, `INF-001`, `OBJ-019`, `TIM-003` | finite skill assignment to selected agents versus avatar-local persistent world commands and a recurring population | Near match only; partial motif reuse |
-| `GAME-0026` — World of Goo | `SYS-048`, `INF-001`, `OBJ-019`, `TIM-003` | dual-use force-network population versus reusable grid instructions | Required boundary comparison; not formal near match |
-| `GAME-0028` — Loop Hero | `SYS-045`, `CON-001`, `INF-001`, `TIM-003` | threat-producing cards around one hero versus executable traversal commands for a stream | Negative control; not formal near match |
+| `GAME-0025` — Lemmings | `SYS-045`, `SYS-047`, `SYS-048`, `INF-001`, `OBJ-019`, `TIM-003` | finite skill assignment to selected agents versus avatar-local persistent world commands and a recurring population | Near, `0.352941` |
+
+### Preserved research notes
 
 - New genes: `ACT-042`, `SYS-055`, `CON-075`.
 - Classification result: `New gene` and a new verified combination.

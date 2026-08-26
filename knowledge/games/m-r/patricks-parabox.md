@@ -273,34 +273,16 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0035`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0035`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `35` (`GAME-0001`–`GAME-0035`).
 - Exact genome matches: none.
-- Existing combination subsets: none before registering `COMB-0036`.
-- Full Jaccard scan (intersection / union = score):
-  `GAME-0001` `1 / 25 = 0.040000`; `GAME-0002` `3 / 16 = 0.187500`;
-  `GAME-0003` `0 / 21 = 0.000000`; `GAME-0004` `1 / 26 = 0.038462`;
-  `GAME-0005` `2 / 17 = 0.117647`; `GAME-0006` `7 / 14 = 0.500000`;
-  `GAME-0007` `3 / 17 = 0.176471`; `GAME-0008` `2 / 17 = 0.117647`;
-  `GAME-0009` `1 / 27 = 0.037037`; `GAME-0010` `1 / 20 = 0.050000`;
-  `GAME-0011` `2 / 23 = 0.086957`; `GAME-0012` `2 / 19 = 0.105263`;
-  `GAME-0013` `3 / 22 = 0.136364`; `GAME-0014` `2 / 25 = 0.080000`;
-  `GAME-0015` `1 / 25 = 0.040000`; `GAME-0016` `1 / 26 = 0.038462`;
-  `GAME-0017` `0 / 25 = 0.000000`; `GAME-0018` `1 / 30 = 0.033333`;
-  `GAME-0019` `3 / 19 = 0.157895`; `GAME-0020` `1 / 25 = 0.040000`;
-  `GAME-0021` `1 / 20 = 0.050000`; `GAME-0022` `1 / 23 = 0.043478`;
-  `GAME-0023` `1 / 21 = 0.047619`; `GAME-0024` `1 / 23 = 0.043478`;
-  `GAME-0025` `1 / 22 = 0.045455`; `GAME-0026` `1 / 23 = 0.043478`;
-  `GAME-0027` `1 / 23 = 0.043478`; `GAME-0028` `1 / 28 = 0.035714`;
-  `GAME-0029` `2 / 22 = 0.090909`; `GAME-0030` `1 / 25 = 0.040000`;
-  `GAME-0031` `1 / 22 = 0.045455`; `GAME-0032` `1 / 22 = 0.045455`;
-  `GAME-0033` `2 / 23 = 0.086957`; `GAME-0034` `2 / 24 = 0.083333`;
-  `GAME-0035` `2 / 28 = 0.071429`.
-- Mathematical near match: `GAME-0006` — Sokoban at `7 / 14 = 0.500000`.
-  Both share navigation, ordinary pushing, occupancy, non-terminal deadlock,
-  visible state, arrangement reconstruction and self-paced play. Patrick's
-  Parabox replaces Sokoban's fixed global board and one-box-only access rule
-  with chain pushing and recursive containment.
+- Tied near matches: `GAME-0006` — Sokoban (`7 / 14 = 0.500000`).
+- Supported combination subsets: `COMB-0036`, `COMB-0044`.
+- Scan date: 2026-08-12.
+
+### Selected-neighbour interpretation
+
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0006`.
 
 ## Combination record
 

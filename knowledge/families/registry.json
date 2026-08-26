@@ -3,7 +3,7 @@
     "id": "FAM-001",
     "slug": "constraint-deduction",
     "labelEn": "Constraint deduction",
-    "labelUk": "Дедукція за обмеженнями",
+    "labelUk": "Дедукція з обмежень",
     "descriptionEn": "Complete a finite logical structure by satisfying interacting local and global constraints.",
     "descriptionUk": "Завершення скінченної логічної структури через одночасне виконання локальних і глобальних обмежень.",
     "gameIds": [
@@ -39,9 +39,9 @@
     "id": "FAM-002",
     "slug": "hidden-information-inference",
     "labelEn": "Hidden-state inference",
-    "labelUk": "Пошук прихованого за підказками",
+    "labelUk": "Виведення прихованого стану",
     "descriptionEn": "Infer an authored hidden state from partial observations, tests, feedback or evidence records.",
-    "descriptionUk": "Виведення авторського прихованого стану з часткових спостережень, перевірок, зворотного зв’язку або доказів.",
+    "descriptionUk": "Виведення заданого автором прихованого стану з часткових спостережень, перевірок, зворотного зв’язку або записів доказів.",
     "gameIds": [
       "GAME-0003",
       "GAME-0023",
@@ -60,9 +60,9 @@
     "id": "FAM-003",
     "slug": "state-reconfiguration",
     "labelEn": "State transformation",
-    "labelUk": "Перебудова стану",
+    "labelUk": "Перетворення стану",
     "descriptionEn": "Transform a bounded arrangement through legal local operations until a target configuration becomes reachable.",
-    "descriptionUk": "Перетворення обмеженої конфігурації дозволеними локальними діями до досяжності цільового стану.",
+    "descriptionUk": "Перетворення обмеженої конфігурації дозволеними локальними діями, доки цільова конфігурація не стане досяжною.",
     "gameIds": [
       "GAME-0001",
       "GAME-0002",
@@ -96,7 +96,7 @@
     "labelEn": "Matching and combination",
     "labelUk": "Зіставлення та комбінування",
     "descriptionEn": "Recognise compatible elements and combine, clear, group or reproduce them under explicit matching rules.",
-    "descriptionUk": "Розпізнавання сумісних елементів і їх об’єднання, очищення, групування або відтворення за явними правилами.",
+    "descriptionUk": "Розпізнавання сумісних елементів та їх об’єднання, вилучення, групування або відтворення за явними правилами зіставлення.",
     "gameIds": [
       "GAME-0001",
       "GAME-0009",
@@ -178,7 +178,7 @@
     "labelEn": "Physics and object manipulation",
     "labelUk": "Фізика та маніпуляція об’єктами",
     "descriptionEn": "Route or transform objects through spatial actions whose result depends on collision, gravity, momentum, scale or support.",
-    "descriptionUk": "Маршрутизація або перетворення об’єктів просторовими діями, результат яких залежить від зіткнень, гравітації, імпульсу, масштабу чи опори.",
+    "descriptionUk": "Спрямування або перетворення об’єктів просторовими діями, результат яких залежить від зіткнень, гравітації, імпульсу, масштабу чи опори.",
     "gameIds": [
       "GAME-0021",
       "GAME-0026",
@@ -209,7 +209,7 @@
     "labelEn": "Automation and spatial programming",
     "labelUk": "Автоматизація та просторове програмування",
     "descriptionEn": "Configure reusable instructions, machines or fields, then observe autonomous execution against a target.",
-    "descriptionUk": "Налаштування повторно використовуваних інструкцій, машин або полів із подальшим автономним виконанням щодо цілі.",
+    "descriptionUk": "Налаштування повторно використовуваних інструкцій, машин або полів із подальшим автономним виконанням для досягнення цілі.",
     "gameIds": [
       "GAME-0022",
       "GAME-0025",
@@ -242,7 +242,7 @@
     "labelEn": "Tactical forecast and counterplay",
     "labelUk": "Тактичний прогноз і протидія",
     "descriptionEn": "Commit positional actions against adversarial or previewed responses while preserving future tactical options.",
-    "descriptionUk": "Вибір позиційних дій проти змагальних або попередньо показаних відповідей зі збереженням майбутніх тактичних можливостей.",
+    "descriptionUk": "Виконання зобов’язувальних позиційних дій проти ворожих або попередньо показаних відповідей зі збереженням майбутніх тактичних можливостей.",
     "gameIds": [
       "GAME-0011",
       "GAME-0014",
@@ -274,7 +274,7 @@
     "labelEn": "Real-time system pressure",
     "labelUk": "Тиск системи в реальному часі",
     "descriptionEn": "Intervene in a system that continues changing while delays, arrivals or deadlines constrain available decisions.",
-    "descriptionUk": "Втручання в систему, що продовжує змінюватися, поки затримки, прибуття або дедлайни обмежують доступні рішення.",
+    "descriptionUk": "Втручання в систему, що продовжує змінюватися, поки затримки, прибуття або крайні строки обмежують доступні рішення.",
     "gameIds": [
       "GAME-0004",
       "GAME-0016",
@@ -328,9 +328,9 @@
     "id": "FAM-011",
     "slug": "temporal-revision-and-loop-retention",
     "labelEn": "Time reversal and loop retention",
-    "labelUk": "Повернення часу та збереження між циклами",
+    "labelUk": "Обернення часу та збереження між циклами",
     "descriptionEn": "Revisit an earlier state or repeated cycle while selected knowledge, choices or authored differences remain available.",
-    "descriptionUk": "Повернення до попереднього стану або повторюваного циклу зі збереженням вибраного знання, рішень чи авторських відмінностей.",
+    "descriptionUk": "Повернення до попереднього стану або повторюваного циклу зі збереженням вибраних знань, рішень чи заданих автором відмінностей.",
     "gameIds": [
       "GAME-0028",
       "GAME-0031",
@@ -345,7 +345,7 @@
     "id": "FAM-012",
     "slug": "knowledge-and-evidence-progression",
     "labelEn": "Knowledge and evidence progression",
-    "labelUk": "Прогрес через знання та докази",
+    "labelUk": "Просування через знання та докази",
     "descriptionEn": "Advance by finding, interpreting and reusing authored facts rather than only changing physical state.",
     "descriptionUk": "Просування через пошук, тлумачення й повторне використання авторських фактів, а не лише через зміну фізичного стану.",
     "gameIds": [
@@ -371,9 +371,9 @@
     "id": "FAM-013",
     "slug": "inventory-and-fixture-dependencies",
     "labelEn": "Inventory and fixture dependencies",
-    "labelUk": "Залежності інвентарю та механізмів",
+    "labelUk": "Залежності інвентарю та стаціонарних пристроїв",
     "descriptionEn": "Acquire, combine or deliver typed objects to authored recipients and fixtures that gate later state changes.",
-    "descriptionUk": "Отримання, поєднання або доставлення типізованих об’єктів авторським отримувачам і механізмам, що відкривають подальші зміни стану.",
+    "descriptionUk": "Отримання, поєднання або доставлення типізованих об’єктів заданим автором отримувачам і стаціонарним пристроям, що відкривають подальші зміни стану.",
     "gameIds": [
       "GAME-0055",
       "GAME-0085",
@@ -469,9 +469,9 @@
     "id": "FAM-016",
     "slug": "rule-and-interface-manipulation",
     "labelEn": "Rule and interface manipulation",
-    "labelUk": "Маніпуляція правилами та інтерфейсом",
+    "labelUk": "Маніпулювання правилами та інтерфейсом",
     "descriptionEn": "Treat an explicit rule, symbolic interface or validation layer as a manipulable part of the puzzle state.",
-    "descriptionUk": "Використання явного правила, символічного інтерфейсу або шару перевірки як змінюваної частини стану головоломки.",
+    "descriptionUk": "Трактування явного правила, символічного інтерфейсу або шару перевірки як змінюваної частини стану головоломки.",
     "gameIds": [
       "GAME-0013",
       "GAME-0101",
@@ -486,7 +486,7 @@
     "id": "FAM-017",
     "slug": "ordered-dependency-sequencing",
     "labelEn": "Ordered dependency sequencing",
-    "labelUk": "Упорядкування залежних дій",
+    "labelUk": "Упорядкована послідовність залежностей",
     "descriptionEn": "Resolve a dependency graph whose actions, resources or subgoals must occur in a mechanically valid order.",
     "descriptionUk": "Розв’язання графа залежностей, у якому дії, ресурси або підцілі мають виконуватися в механічно допустимому порядку.",
     "gameIds": [

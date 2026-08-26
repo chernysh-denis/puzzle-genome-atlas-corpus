@@ -235,57 +235,18 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-006,ACT-120,ACT-140,ACT-144,ACT-145,ACT-146,ACT-147,ACT-148,ACT-149; SYS-004,SYS-045,SYS-156,SYS-157,SYS-158,SYS-161,SYS-185,SYS-186,SYS-187,SYS-188,SYS-189,SYS-190,SYS-191,SYS-192,SYS-193,SYS-194; CON-062,CON-172,CON-192,CON-193,CON-194,CON-195,CON-196,CON-197; INF-001,INF-002,INF-003,INF-059,INF-069,INF-070,INF-071; OBJ-060; TIM-003`.
-- Indexed games scanned: 125, including this record.
-- Indexed combinations scanned: 123.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `124` (`GAME-0001`–`GAME-0124`).
 - Exact genome matches: none.
-- Near matches and similarity scores: `GAME-0119` Factorio is nearest at
-  `11 / 54 = 0.203704`; `GAME-0124` Against the Storm follows at
-  `15 / 74 = 0.202703`. The first shares industrial recipes, logistics,
-  power and depletion; the second shares autonomous labour, variable offers
-  and settlement survival. Neither reproduces ONI's coupled cellular mass,
-  metabolism, heat and engineered life support.
+- Tied near matches: `GAME-0119` — Factorio (`11 / 54 = 0.203704`).
 - Supported combination subsets: `COMB-0123`.
 - Scan date: 2026-08-18.
 
+### Selected-neighbour interpretation
+
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0119` Factorio | `ACT-006`, `ACT-120`, `SYS-045`, `SYS-156`, `SYS-157`, `SYS-158`, `SYS-161`, `CON-062`, `CON-172`, `INF-001`, `INF-059`, `TIM-003` | Factorio's machines and logistics primarily optimise item throughput against pollution and enemies; Oxygen Not Included routes need-bearing workers through an open material-cell atmosphere whose heat, pressure and life support can kill them | near match, not equivalent |
-| `GAME-0124` Against the Storm | `ACT-006`, `ACT-120`, `ACT-140`, `SYS-004`, `SYS-045`, `SYS-156`, `SYS-157`, `SYS-161`, `CON-062`, `CON-172`, `INF-001`, `INF-002`, `INF-003`, `INF-059`, `TIM-003` | Against the Storm compresses staffed production into bounded seasonal settlements with coupled Reputation and Impatience; Oxygen Not Included is an open-ended cellular survival simulation with personal metabolism, thermal physics and an engineering endgame | near match, not equivalent |
-
-### Full prior-game Jaccard scan
-
-- `GAME-0001`: `3 / 53 = 0.056604`; `GAME-0002`: `1 / 48 = 0.020833`; `GAME-0003`: `1 / 50 = 0.020000`; `GAME-0004`: `4 / 53 = 0.075472`.
-- `GAME-0005`: `1 / 48 = 0.020833`; `GAME-0006`: `1 / 50 = 0.020000`; `GAME-0007`: `1 / 49 = 0.020408`; `GAME-0008`: `1 / 48 = 0.020833`.
-- `GAME-0009`: `3 / 55 = 0.054545`; `GAME-0010`: `1 / 50 = 0.020000`; `GAME-0011`: `1 / 54 = 0.018519`; `GAME-0012`: `1 / 50 = 0.020000`.
-- `GAME-0013`: `1 / 54 = 0.018519`; `GAME-0014`: `1 / 56 = 0.017857`; `GAME-0015`: `2 / 54 = 0.037037`; `GAME-0016`: `4 / 53 = 0.075472`.
-- `GAME-0017`: `1 / 54 = 0.018519`; `GAME-0018`: `5 / 56 = 0.089286`; `GAME-0019`: `1 / 51 = 0.019608`; `GAME-0020`: `2 / 54 = 0.037037`.
-- `GAME-0021`: `2 / 49 = 0.040816`; `GAME-0022`: `2 / 52 = 0.038462`; `GAME-0023`: `0 / 52 = 0.000000`; `GAME-0024`: `1 / 53 = 0.018868`.
-- `GAME-0025`: `3 / 50 = 0.060000`; `GAME-0026`: `2 / 52 = 0.038462`; `GAME-0027`: `3 / 51 = 0.058824`; `GAME-0028`: `5 / 54 = 0.092593`.
-- `GAME-0029`: `4 / 50 = 0.080000`; `GAME-0030`: `4 / 52 = 0.076923`; `GAME-0031`: `2 / 51 = 0.039216`; `GAME-0032`: `1 / 52 = 0.019231`.
-- `GAME-0033`: `2 / 53 = 0.037736`; `GAME-0034`: `3 / 53 = 0.056604`; `GAME-0035`: `3 / 57 = 0.052632`; `GAME-0036`: `1 / 53 = 0.018868`.
-- `GAME-0037`: `1 / 50 = 0.020000`; `GAME-0038`: `2 / 56 = 0.035714`; `GAME-0039`: `1 / 50 = 0.020000`; `GAME-0040`: `1 / 49 = 0.020408`.
-- `GAME-0041`: `2 / 51 = 0.039216`; `GAME-0042`: `2 / 49 = 0.040816`; `GAME-0043`: `1 / 55 = 0.018182`; `GAME-0044`: `1 / 51 = 0.019608`.
-- `GAME-0045`: `1 / 55 = 0.018182`; `GAME-0046`: `1 / 51 = 0.019608`; `GAME-0047`: `2 / 54 = 0.037037`; `GAME-0048`: `1 / 55 = 0.018182`.
-- `GAME-0049`: `1 / 50 = 0.020000`; `GAME-0050`: `1 / 56 = 0.017857`; `GAME-0051`: `5 / 53 = 0.094340`; `GAME-0052`: `1 / 51 = 0.019608`.
-- `GAME-0053`: `1 / 50 = 0.020000`; `GAME-0054`: `1 / 52 = 0.019231`; `GAME-0055`: `1 / 51 = 0.019608`; `GAME-0056`: `1 / 49 = 0.020408`.
-- `GAME-0057`: `1 / 49 = 0.020408`; `GAME-0058`: `1 / 50 = 0.020000`; `GAME-0059`: `1 / 48 = 0.020833`; `GAME-0060`: `1 / 48 = 0.020833`.
-- `GAME-0061`: `1 / 51 = 0.019608`; `GAME-0062`: `1 / 49 = 0.020408`; `GAME-0063`: `1 / 48 = 0.020833`; `GAME-0064`: `1 / 46 = 0.021739`.
-- `GAME-0065`: `1 / 48 = 0.020833`; `GAME-0066`: `1 / 51 = 0.019608`; `GAME-0067`: `2 / 48 = 0.041667`; `GAME-0068`: `1 / 49 = 0.020408`.
-- `GAME-0069`: `1 / 49 = 0.020408`; `GAME-0070`: `1 / 49 = 0.020408`; `GAME-0071`: `1 / 48 = 0.020833`; `GAME-0072`: `1 / 49 = 0.020408`.
-- `GAME-0073`: `1 / 48 = 0.020833`; `GAME-0074`: `1 / 50 = 0.020000`; `GAME-0075`: `1 / 50 = 0.020000`; `GAME-0076`: `1 / 48 = 0.020833`.
-- `GAME-0077`: `1 / 48 = 0.020833`; `GAME-0078`: `1 / 48 = 0.020833`; `GAME-0079`: `1 / 48 = 0.020833`; `GAME-0080`: `1 / 48 = 0.020833`.
-- `GAME-0081`: `1 / 49 = 0.020408`; `GAME-0082`: `1 / 49 = 0.020408`; `GAME-0083`: `1 / 49 = 0.020408`; `GAME-0084`: `1 / 51 = 0.019608`.
-- `GAME-0085`: `1 / 52 = 0.019231`; `GAME-0086`: `1 / 54 = 0.018519`; `GAME-0087`: `2 / 50 = 0.040000`; `GAME-0088`: `1 / 50 = 0.020000`.
-- `GAME-0089`: `1 / 50 = 0.020000`; `GAME-0090`: `1 / 56 = 0.017857`; `GAME-0091`: `2 / 49 = 0.040816`; `GAME-0092`: `4 / 48 = 0.083333`.
-- `GAME-0093`: `1 / 50 = 0.020000`; `GAME-0094`: `2 / 50 = 0.040000`; `GAME-0095`: `2 / 52 = 0.038462`; `GAME-0096`: `2 / 50 = 0.040000`.
-- `GAME-0097`: `2 / 48 = 0.041667`; `GAME-0098`: `2 / 47 = 0.042553`; `GAME-0099`: `1 / 49 = 0.020408`; `GAME-0100`: `1 / 52 = 0.019231`.
-- `GAME-0101`: `0 / 52 = 0.000000`; `GAME-0102`: `0 / 49 = 0.000000`; `GAME-0103`: `1 / 50 = 0.020000`; `GAME-0104`: `1 / 50 = 0.020000`.
-- `GAME-0105`: `1 / 51 = 0.019608`; `GAME-0106`: `0 / 49 = 0.000000`; `GAME-0107`: `1 / 49 = 0.020408`; `GAME-0108`: `1 / 51 = 0.019608`.
-- `GAME-0109`: `3 / 55 = 0.054545`; `GAME-0110`: `2 / 48 = 0.041667`; `GAME-0111`: `1 / 48 = 0.020833`; `GAME-0112`: `2 / 48 = 0.041667`.
-- `GAME-0113`: `2 / 54 = 0.037037`; `GAME-0114`: `2 / 47 = 0.042553`; `GAME-0115`: `1 / 47 = 0.021277`; `GAME-0116`: `2 / 46 = 0.043478`.
-- `GAME-0117`: `1 / 49 = 0.020408`; `GAME-0118`: `2 / 56 = 0.035714`; `GAME-0119`: `11 / 54 = 0.203704`; `GAME-0120`: `3 / 68 = 0.044118`.
-- `GAME-0121`: `2 / 63 = 0.031746`; `GAME-0122`: `5 / 52 = 0.096154`; `GAME-0123`: `3 / 77 = 0.038961`; `GAME-0124`: `15 / 74 = 0.202703`.
+| `GAME-0119` Factorio | `ACT-006`, `ACT-120`, `SYS-045`, `SYS-156`, `SYS-157`, `SYS-158`, `SYS-161`, `CON-062`, `CON-172`, `INF-001`, `INF-059`, `TIM-003` | Factorio's machines and logistics primarily optimise item throughput against pollution and enemies; Oxygen Not Included routes need-bearing workers through an open material-cell atmosphere whose heat, pressure and life support can kill them | Near, `0.203704` |
 
 ## Evidence and unknowns
 

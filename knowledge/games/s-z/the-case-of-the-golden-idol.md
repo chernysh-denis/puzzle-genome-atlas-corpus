@@ -276,40 +276,16 @@ OBJ-017; TIM-002`
 
 ## Corpus comparison
 
-- Indexed games scanned: all 45 prior records, `GAME-0001`–`GAME-0045`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0045`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `45` (`GAME-0001`–`GAME-0045`).
 - Exact genome matches: none.
-- Existing combination subsets: none before registering `COMB-0046`.
-- Mathematical near match: `GAME-0023` — Return of the Obra Dinn at
-  `4 / 16 = 0.250000`. The pair shares `ACT-030`, `CON-064`, `OBJ-017` and
-  `TIM-002`; phrase extraction, answer grammar and validation remain distinct.
-- Secondary maximum group: Rubik's Cube, Sudoku, Nonogram and Carto each score
-  `2 / 15 = 0.133333`; their overlap is generic self-paced information or fixed
-  structure, not investigation logic.
-- Full Jaccard scan (intersection / union = score):
-  `GAME-0001` `1 / 23 = 0.043478`; `GAME-0002` `2 / 15 = 0.133333`;
-  `GAME-0003` `0 / 19 = 0.000000`; `GAME-0004` `1 / 24 = 0.041667`;
-  `GAME-0005` `2 / 15 = 0.133333`; `GAME-0006` `2 / 17 = 0.117647`;
-  `GAME-0007` `2 / 16 = 0.125000`; `GAME-0008` `2 / 15 = 0.133333`;
-  `GAME-0009` `1 / 25 = 0.040000`; `GAME-0010` `1 / 18 = 0.055556`;
-  `GAME-0011` `2 / 21 = 0.095238`; `GAME-0012` `2 / 17 = 0.117647`;
-  `GAME-0013` `1 / 22 = 0.045455`; `GAME-0014` `1 / 24 = 0.041667`;
-  `GAME-0015` `1 / 23 = 0.043478`; `GAME-0016` `1 / 24 = 0.041667`;
-  `GAME-0017` `0 / 23 = 0.000000`; `GAME-0018` `1 / 28 = 0.035714`;
-  `GAME-0019` `1 / 19 = 0.052632`; `GAME-0020` `1 / 23 = 0.043478`;
-  `GAME-0021` `1 / 18 = 0.055556`; `GAME-0022` `1 / 21 = 0.047619`;
-  `GAME-0023` `4 / 16 = 0.250000`; `GAME-0024` `1 / 21 = 0.047619`;
-  `GAME-0025` `1 / 20 = 0.050000`; `GAME-0026` `1 / 21 = 0.047619`;
-  `GAME-0027` `1 / 21 = 0.047619`; `GAME-0028` `1 / 26 = 0.038462`;
-  `GAME-0029` `1 / 21 = 0.047619`; `GAME-0030` `1 / 23 = 0.043478`;
-  `GAME-0031` `1 / 20 = 0.050000`; `GAME-0032` `1 / 20 = 0.050000`;
-  `GAME-0033` `1 / 22 = 0.045455`; `GAME-0034` `1 / 23 = 0.043478`;
-  `GAME-0035` `1 / 27 = 0.037037`; `GAME-0036` `2 / 20 = 0.100000`;
-  `GAME-0037` `1 / 18 = 0.055556`; `GAME-0038` `1 / 25 = 0.040000`;
-  `GAME-0039` `2 / 17 = 0.117647`; `GAME-0040` `2 / 16 = 0.125000`;
-  `GAME-0041` `1 / 20 = 0.050000`; `GAME-0042` `1 / 18 = 0.055556`;
-  `GAME-0043` `1 / 23 = 0.043478`; `GAME-0044` `1 / 19 = 0.052632`;
-  `GAME-0045` `1 / 23 = 0.043478`.
+- Tied near matches: `GAME-0023` — Return of the Obra Dinn (`4 / 16 = 0.250000`).
+- Supported combination subsets: `COMB-0046`.
+- Scan date: 2026-08-12.
+
+### Selected-neighbour interpretation
+
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0023`.
 
 ## Combination record
 

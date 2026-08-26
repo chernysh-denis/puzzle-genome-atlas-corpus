@@ -283,26 +283,19 @@ least one gene in every set.
 
 ## Corpus comparison
 
-Corpus scanned: all other reviewed games in the index (`GAME-0001`) and all
-previously registered combinations (`COMB-0001`).
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `1` (`GAME-0001`–`GAME-0001`).
+- Exact genome matches: none.
+- Tied near matches: `GAME-0001` — 2048 (`2 / 19 = 0.105263`).
+- Supported combination subsets: `COMB-0002`.
+- Scan date: 2026-07-28.
 
-- Exact matches: none. Equality fails in Action, System Behaviour, Constraint,
-  Information, Objective and Time sets.
-- Shared genes with `GAME-0001`: `CON-001`, `INF-001`.
-- Rubik's Cube-only genes: `ACT-002`, `CON-004`, `CON-005`, `OBJ-004`,
-  `TIM-002`.
-- 2048-only genes: `ACT-001`, `SYS-001`–`SYS-004`, `CON-002`, `CON-003`,
-  `INF-002`, `OBJ-001`–`OBJ-003`, `TIM-001`.
-- Flattened typed-pair intersection size: 2.
-- Union size: 19.
-- Structural Jaccard score: `2 / 19 = 0.105263`.
-- Formal near matches: `GAME-0001`, because it is the only indexed non-exact
-  comparison with a positive score and therefore attains the current maximum.
-  The low score is reported explicitly; “near” is corpus-relative and does not
-  claim perceptual similarity.
-- Existing combination support: `COMB-0001` is not a subset of this genome.
-- New verified combination: `COMB-0002`, whose five-gene set is a proper subset
-  of this seven-gene genome.
+### Selected-neighbour interpretation
+
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0001`.
+
+### Preserved research notes
+
 - Classification: `New gene`.
 
 Mechanically, 2048 has globally coupled agency followed by irreversible,

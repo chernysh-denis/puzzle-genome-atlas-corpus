@@ -251,34 +251,16 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0036`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0036`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `36` (`GAME-0001`–`GAME-0036`).
 - Exact genome matches: none.
-- Existing combination subsets: none before registering `COMB-0037`.
-- Full Jaccard scan (intersection / union = score):
-  `GAME-0001` `2 / 21 = 0.095238`; `GAME-0002` `2 / 14 = 0.142857`;
-  `GAME-0003` `1 / 17 = 0.058824`; `GAME-0004` `2 / 22 = 0.090909`;
-  `GAME-0005` `2 / 14 = 0.142857`; `GAME-0006` `2 / 16 = 0.125000`;
-  `GAME-0007` `1 / 16 = 0.062500`; `GAME-0008` `2 / 14 = 0.142857`;
-  `GAME-0009` `2 / 23 = 0.086957`; `GAME-0010` `2 / 16 = 0.125000`;
-  `GAME-0011` `2 / 20 = 0.100000`; `GAME-0012` `4 / 14 = 0.285714`;
-  `GAME-0013` `2 / 20 = 0.100000`; `GAME-0014` `2 / 22 = 0.090909`;
-  `GAME-0015` `2 / 21 = 0.095238`; `GAME-0016` `2 / 22 = 0.090909`;
-  `GAME-0017` `0 / 22 = 0.000000`; `GAME-0018` `4 / 24 = 0.166667`;
-  `GAME-0019` `2 / 17 = 0.117647`; `GAME-0020` `1 / 22 = 0.045455`;
-  `GAME-0021` `1 / 17 = 0.058824`; `GAME-0022` `1 / 20 = 0.050000`;
-  `GAME-0023` `0 / 19 = 0.000000`; `GAME-0024` `1 / 20 = 0.050000`;
-  `GAME-0025` `1 / 19 = 0.052632`; `GAME-0026` `1 / 20 = 0.050000`;
-  `GAME-0027` `2 / 19 = 0.105263`; `GAME-0028` `2 / 24 = 0.083333`;
-  `GAME-0029` `2 / 19 = 0.105263`; `GAME-0030` `1 / 22 = 0.045455`;
-  `GAME-0031` `1 / 19 = 0.052632`; `GAME-0032` `2 / 18 = 0.111111`;
-  `GAME-0033` `1 / 21 = 0.047619`; `GAME-0034` `1 / 22 = 0.045455`;
-  `GAME-0035` `1 / 26 = 0.038462`; `GAME-0036` `1 / 20 = 0.050000`.
-- Mathematical near match: `GAME-0012` — Flow Free at
-  `4 / 14 = 0.285714`, sharing compound path tracing, fixed cells, simple path
-  topology and visible state. Cosmic Express does not use paired endpoints,
-  multiple disjoint routes or full-board coverage; its route instead drives a
-  capacity-ordered automatic service run.
+- Tied near matches: `GAME-0012` — Flow Free (`4 / 14 = 0.285714`).
+- Supported combination subsets: `COMB-0037`.
+- Scan date: 2026-08-12.
+
+### Selected-neighbour interpretation
+
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0012`.
 
 ## Combination record
 

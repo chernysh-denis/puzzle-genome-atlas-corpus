@@ -299,50 +299,16 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-119,ACT-120,ACT-121,ACT-122,ACT-123,ACT-124,ACT-161,ACT-169,ACT-170; SYS-051,SYS-156,SYS-157,SYS-158,SYS-159,SYS-161,SYS-162,SYS-215,SYS-236,SYS-237,SYS-238,SYS-239,SYS-240,SYS-241,SYS-242,SYS-243; CON-062,CON-136,CON-172,CON-173,CON-217,CON-218,CON-219,CON-220,CON-221,CON-222; INF-001,INF-059,INF-060,INF-081,INF-082,INF-083,INF-084,INF-085; OBJ-066; TIM-003`.
-- Indexed games scanned: 131, including this record.
-- Indexed combinations scanned: 129.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `130` (`GAME-0001`–`GAME-0130`).
 - Exact genome matches: none.
-- Near matches and similarity scores: `GAME-0119` is highest at
-  `20 / 49 = 0.408163`.
+- Tied near matches: `GAME-0119` — Factorio (`20 / 49 = 0.408163`).
 - Supported combination subsets: `COMB-0129`.
 - Scan date: 2026-08-20.
 
-### Full prior-game Jaccard scan
+### Selected-neighbour interpretation
 
-- GAME-0001: 1 / 59 = 0.016949; GAME-0002: 1 / 52 = 0.019231; GAME-0003: 0 / 55 = 0.000000; GAME-0004: 2 / 59 = 0.033898.
-- GAME-0005: 1 / 52 = 0.019231; GAME-0006: 2 / 53 = 0.037736; GAME-0007: 1 / 53 = 0.018868; GAME-0008: 1 / 52 = 0.019231.
-- GAME-0009: 1 / 61 = 0.016393; GAME-0010: 1 / 54 = 0.018519; GAME-0011: 1 / 58 = 0.017241; GAME-0012: 1 / 54 = 0.018519.
-- GAME-0013: 1 / 58 = 0.017241; GAME-0014: 1 / 60 = 0.016667; GAME-0015: 1 / 59 = 0.016949; GAME-0016: 2 / 59 = 0.033898.
-- GAME-0017: 0 / 59 = 0.000000; GAME-0018: 2 / 63 = 0.031746; GAME-0019: 1 / 55 = 0.018182; GAME-0020: 1 / 59 = 0.016949.
-- GAME-0021: 2 / 53 = 0.037736; GAME-0022: 2 / 56 = 0.035714; GAME-0023: 0 / 56 = 0.000000; GAME-0024: 1 / 57 = 0.017544.
-- GAME-0025: 2 / 55 = 0.036364; GAME-0026: 2 / 56 = 0.035714; GAME-0027: 3 / 55 = 0.054545; GAME-0028: 3 / 60 = 0.050000.
-- GAME-0029: 3 / 55 = 0.054545; GAME-0030: 2 / 58 = 0.034483; GAME-0031: 1 / 56 = 0.017857; GAME-0032: 1 / 56 = 0.017857.
-- GAME-0033: 3 / 56 = 0.053571; GAME-0034: 3 / 57 = 0.052632; GAME-0035: 3 / 61 = 0.049180; GAME-0036: 2 / 56 = 0.035714.
-- GAME-0037: 1 / 54 = 0.018519; GAME-0038: 3 / 59 = 0.050847; GAME-0039: 1 / 54 = 0.018519; GAME-0040: 2 / 52 = 0.038462.
-- GAME-0041: 3 / 54 = 0.055556; GAME-0042: 2 / 53 = 0.037736; GAME-0043: 2 / 58 = 0.034483; GAME-0044: 2 / 54 = 0.037037.
-- GAME-0045: 2 / 58 = 0.034483; GAME-0046: 1 / 55 = 0.018182; GAME-0047: 1 / 59 = 0.016949; GAME-0048: 1 / 59 = 0.016949.
-- GAME-0049: 0 / 55 = 0.000000; GAME-0050: 2 / 59 = 0.033898; GAME-0051: 2 / 60 = 0.033333; GAME-0052: 1 / 55 = 0.018182.
-- GAME-0053: 2 / 53 = 0.037736; GAME-0054: 2 / 55 = 0.036364; GAME-0055: 2 / 54 = 0.037037; GAME-0056: 1 / 53 = 0.018868.
-- GAME-0057: 1 / 53 = 0.018868; GAME-0058: 1 / 54 = 0.018519; GAME-0059: 1 / 52 = 0.019231; GAME-0060: 1 / 52 = 0.019231.
-- GAME-0061: 1 / 55 = 0.018182; GAME-0062: 1 / 53 = 0.018868; GAME-0063: 1 / 52 = 0.019231; GAME-0064: 1 / 50 = 0.020000.
-- GAME-0065: 0 / 53 = 0.000000; GAME-0066: 0 / 56 = 0.000000; GAME-0067: 0 / 54 = 0.000000; GAME-0068: 0 / 54 = 0.000000.
-- GAME-0069: 1 / 53 = 0.018868; GAME-0070: 1 / 53 = 0.018868; GAME-0071: 1 / 52 = 0.019231; GAME-0072: 1 / 53 = 0.018868.
-- GAME-0073: 1 / 52 = 0.019231; GAME-0074: 1 / 54 = 0.018519; GAME-0075: 1 / 54 = 0.018519; GAME-0076: 1 / 52 = 0.019231.
-- GAME-0077: 1 / 52 = 0.019231; GAME-0078: 1 / 52 = 0.019231; GAME-0079: 1 / 52 = 0.019231; GAME-0080: 1 / 52 = 0.019231.
-- GAME-0081: 1 / 53 = 0.018868; GAME-0082: 1 / 53 = 0.018868; GAME-0083: 1 / 53 = 0.018868; GAME-0084: 1 / 55 = 0.018182.
-- GAME-0085: 1 / 56 = 0.017857; GAME-0086: 2 / 57 = 0.035088; GAME-0087: 3 / 53 = 0.056604; GAME-0088: 2 / 53 = 0.037736.
-- GAME-0089: 2 / 53 = 0.037736; GAME-0090: 3 / 58 = 0.051724; GAME-0091: 3 / 52 = 0.057692; GAME-0092: 2 / 54 = 0.037037.
-- GAME-0093: 1 / 54 = 0.018519; GAME-0094: 3 / 53 = 0.056604; GAME-0095: 3 / 55 = 0.054545; GAME-0096: 3 / 53 = 0.056604.
-- GAME-0097: 3 / 51 = 0.058824; GAME-0098: 3 / 50 = 0.060000; GAME-0099: 2 / 52 = 0.038462; GAME-0100: 1 / 56 = 0.017857.
-- GAME-0101: 0 / 56 = 0.000000; GAME-0102: 0 / 53 = 0.000000; GAME-0103: 1 / 54 = 0.018519; GAME-0104: 2 / 53 = 0.037736.
-- GAME-0105: 2 / 54 = 0.037037; GAME-0106: 0 / 53 = 0.000000; GAME-0107: 2 / 52 = 0.038462; GAME-0108: 2 / 54 = 0.037037.
-- GAME-0109: 1 / 61 = 0.016393; GAME-0110: 2 / 52 = 0.038462; GAME-0111: 3 / 50 = 0.060000; GAME-0112: 3 / 51 = 0.058824.
-- GAME-0113: 3 / 57 = 0.052632; GAME-0114: 2 / 51 = 0.039216; GAME-0115: 1 / 51 = 0.019608; GAME-0116: 3 / 49 = 0.061224.
-- GAME-0117: 2 / 52 = 0.038462; GAME-0118: 1 / 61 = 0.016393; GAME-0119: 20 / 49 = 0.408163; GAME-0120: 0 / 75 = 0.000000.
-- GAME-0121: 1 / 68 = 0.014706; GAME-0122: 7 / 54 = 0.129630; GAME-0123: 1 / 83 = 0.012048; GAME-0124: 9 / 84 = 0.107143.
-- GAME-0125: 10 / 78 = 0.128205; GAME-0126: 9 / 80 = 0.112500; GAME-0127: 10 / 84 = 0.119048; GAME-0128: 13 / 49 = 0.265306.
-- GAME-0129: 6 / 75 = 0.080000; GAME-0130: 10 / 89 = 0.112360.
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0119`.
 
 ## Evidence and unknowns
 
@@ -363,7 +329,7 @@ gene_ids:
 - [x] Complete scoped rules decompose into atomic canonical genes.
 - [x] Reproducible transitions cover production, travel, logistics, sphere,
   combat and ending.
-- [x] Full prior-game Jaccard scan is recorded.
+- [x] Complete derived prior-game Jaccard scan is validator-backed.
 - [x] `COMB-0129` is a proper subset of the admitted genome.
 - [x] No novelty claim is made.
 - [x] Reviewed Ukrainian and bilingual presentation layers are required in the

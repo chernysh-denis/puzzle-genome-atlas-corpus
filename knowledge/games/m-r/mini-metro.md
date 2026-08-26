@@ -273,35 +273,21 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0017`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0017`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `17` (`GAME-0001`–`GAME-0017`).
 - Exact genome matches: none.
-- Existing combination subsets: none.
-- Jaccard scores against complete genomes:
-  - `GAME-0001`: shared `SYS-004`, `INF-001`, `INF-002`, `OBJ-002`; `4 / 29 = 0.137931`.
-  - `GAME-0002`: shared `INF-001`; `1 / 25 = 0.040000`.
-  - `GAME-0003`: no shared genes; `0 / 28 = 0.000000`.
-  - `GAME-0004`: shared `ACT-006`, `SYS-004`, `INF-001`, `OBJ-002`, `TIM-003`; `5 / 29 = 0.172414`.
-  - `GAME-0005`: shared `INF-001`; `1 / 25 = 0.040000`.
-  - `GAME-0006`: shared `INF-001`; `1 / 27 = 0.037037`.
-  - `GAME-0007`: shared `INF-001`; `1 / 26 = 0.038462`.
-  - `GAME-0008`: shared `INF-001`; `1 / 25 = 0.040000`.
-  - `GAME-0009`: shared `SYS-004`, `INF-001`, `INF-002`; `3 / 32 = 0.093750`.
-  - `GAME-0010`: shared `INF-001`; `1 / 27 = 0.037037`.
-  - `GAME-0011`: shared `INF-001`; `1 / 31 = 0.032258`.
-  - `GAME-0012`: shared `INF-001`; `1 / 27 = 0.037037`.
-  - `GAME-0013`: shared `INF-001`; `1 / 31 = 0.032258`.
-  - `GAME-0014`: shared `INF-001`; `1 / 33 = 0.030303`.
-  - `GAME-0015`: shared `SYS-004`, `INF-001`, `OBJ-002`; `3 / 30 = 0.100000`.
-  - `GAME-0016`: shared `ACT-006`, `SYS-004`, `INF-001`, `OBJ-002`, `TIM-003`; `5 / 29 = 0.172414`.
-  - `GAME-0017`: no shared genes; `0 / 32 = 0.000000`.
-- Mathematically selected near matches: `GAME-0004` — Tetris and `GAME-0016`
-  — Pipe Mania / Pipe Dream, tied at `0.172414`.
+- Tied near matches: `GAME-0004` — Tetris (`5 / 29 = 0.172414`); `GAME-0016` — Pipe Mania / Pipe Dream (`5 / 29 = 0.172414`).
+- Supported combination subsets: `COMB-0018`, `COMB-0037`, `COMB-0051`.
+- Scan date: 2026-08-11.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0004` — Tetris | `ACT-006`, `SYS-004`, `INF-001`, `OBJ-002`, `TIM-003` | Tetris controls one active falling element inside fixed capacity; Mini Metro edits persistent routes and reallocates autonomous multi-vehicle service as nodes and demand grow | Near match only |
-| `GAME-0016` — Pipe Mania / Pipe Dream | `ACT-006`, `SYS-004`, `INF-001`, `OBJ-002`, `TIM-003` | Pipe Dream consumes a forced preview queue to build ahead of one locking flow; Mini Metro has random unpreviewed growth, reversible route edits and cyclic capacity-bounded transport | Near match only |
+| `GAME-0004` — Tetris | `ACT-006`, `SYS-004`, `INF-001`, `OBJ-002`, `TIM-003` | Tetris controls one active falling element inside fixed capacity; Mini Metro edits persistent routes and reallocates autonomous multi-vehicle service as nodes and demand grow | Near, `0.172414` |
+| `GAME-0016` — Pipe Mania / Pipe Dream | `ACT-006`, `SYS-004`, `INF-001`, `OBJ-002`, `TIM-003` | Pipe Dream consumes a forced preview queue to build ahead of one locking flow; Mini Metro has random unpreviewed growth, reversible route edits and cyclic capacity-bounded transport | Near, `0.172414` |
+
+### Preserved research notes
 
 - New genes: `ACT-023`–`ACT-025`, `SYS-029`–`SYS-032`, `CON-047`–`CON-052`.
 - Classification result: `New gene` and a new verified combination.
@@ -310,7 +296,6 @@ Canonical signature:
   boundaries keep route form, inventory, vehicle capacity, destination
   compatibility and terminal overload from collapsing into a generic
   “network” label.
-- Scan date: 2026-08-11.
 
 ## Taxonomy impact
 

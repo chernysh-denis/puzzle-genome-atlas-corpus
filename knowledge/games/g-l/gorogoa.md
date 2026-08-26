@@ -254,43 +254,22 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0023`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0023`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `23` (`GAME-0001`–`GAME-0023`).
 - Exact genome matches: none.
-- Existing combination subsets: none.
-- Jaccard scores against complete genomes:
-  - `GAME-0001`: shared `CON-001`; `1 / 25 = 0.040000`.
-  - `GAME-0002`: shared `CON-001`, `TIM-002`; `2 / 17 = 0.117647`.
-  - `GAME-0003`: shared `CON-001`; `1 / 20 = 0.050000`.
-  - `GAME-0004`: shared `CON-001`, `TIM-003`; `2 / 25 = 0.080000`.
-  - `GAME-0005`: shared `CON-001`, `TIM-002`; `2 / 17 = 0.117647`.
-  - `GAME-0006`: shared `CON-001`, `TIM-002`; `2 / 19 = 0.105263`.
-  - `GAME-0007`: shared `TIM-002`; `1 / 19 = 0.052632`.
-  - `GAME-0008`: shared `CON-001`, `TIM-002`; `2 / 17 = 0.117647`.
-  - `GAME-0009`: shared `CON-001`; `1 / 27 = 0.037037`.
-  - `GAME-0010`: shared `CON-001`; `1 / 20 = 0.050000`.
-  - `GAME-0011`: shared `CON-001`, `TIM-002`; `2 / 23 = 0.086957`.
-  - `GAME-0012`: shared `CON-001`, `TIM-002`; `2 / 19 = 0.105263`.
-  - `GAME-0013`: shared `CON-001`; `1 / 24 = 0.041667`.
-  - `GAME-0014`: shared `CON-001`; `1 / 26 = 0.038462`.
-  - `GAME-0015`: shared `CON-001`; `1 / 25 = 0.040000`.
-  - `GAME-0016`: shared `CON-001`, `TIM-003`; `2 / 25 = 0.080000`.
-  - `GAME-0017`: shared none; `0 / 25 = 0.000000`.
-  - `GAME-0018`: shared `TIM-003`; `1 / 30 = 0.033333`.
-  - `GAME-0019`: shared `CON-001`; `1 / 21 = 0.047619`.
-  - `GAME-0020`: shared none; `0 / 26 = 0.000000`.
-  - `GAME-0021`: shared `TIM-003`; `1 / 20 = 0.050000`.
-  - `GAME-0022`: shared none; `0 / 24 = 0.000000`.
-  - `GAME-0023`: shared `TIM-002`; `1 / 21 = 0.047619`.
-- Mathematically selected near matches: `GAME-0002` — Rubik's Cube,
-  `GAME-0005` — Sudoku and `GAME-0008` — Nonogram, tied at
-  `2 / 17 = 0.117647`.
+- Tied near matches: `GAME-0002` — Rubik’s Cube (`2 / 17 = 0.117647`); `GAME-0005` — Sudoku (`2 / 17 = 0.117647`); `GAME-0008` — Nonogram (`2 / 17 = 0.117647`).
+- Supported combination subsets: `COMB-0024`.
+- Scan date: 2026-08-12.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0002` — Rubik's Cube | `CON-001`, `TIM-002` | Rubik's Cube reversibly permutes one fixed physical object under global invariants; Gorogoa searches nested views and composes separate image layers into causal continuity | Near match only |
-| `GAME-0005` — Sudoku | `CON-001`, `TIM-002` | Sudoku assigns numbers to fixed cells under simultaneous constraints; Gorogoa moves panel containers and viewpoints until authored visual relations trigger world transitions | Near match only |
-| `GAME-0008` — Nonogram | `CON-001`, `TIM-002` | Nonogram reconstructs one binary image from line clues; Gorogoa treats images themselves as layered, navigable operands and includes one real-time exception | Near match only |
+| `GAME-0002` — Rubik's Cube | `CON-001`, `TIM-002` | Rubik's Cube reversibly permutes one fixed physical object under global invariants; Gorogoa searches nested views and composes separate image layers into causal continuity | Near, `0.117647` |
+| `GAME-0005` — Sudoku | `CON-001`, `TIM-002` | Sudoku assigns numbers to fixed cells under simultaneous constraints; Gorogoa moves panel containers and viewpoints until authored visual relations trigger world transitions | Near, `0.117647` |
+| `GAME-0008` — Nonogram | `CON-001`, `TIM-002` | Nonogram reconstructs one binary image from line clues; Gorogoa treats images themselves as layered, navigable operands and includes one real-time exception | Near, `0.117647` |
+
+### Preserved research notes
 
 - New genes: `ACT-033`, `ACT-034`, `ACT-035`, `SYS-043`, `SYS-044`,
   `CON-065`, `CON-066`, `INF-014`, `OBJ-018`.

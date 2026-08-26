@@ -247,70 +247,19 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: every prior record `GAME-0001`–`GAME-0053`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `53` (`GAME-0001`–`GAME-0053`).
 - Exact genome matches: none.
-- Existing combination subsets: `COMB-0044` only. Every other verified proper
-  subset was exhaustively tested and rejected.
-- Unique near match: `GAME-0006` — Sokoban at intersection `7`, union `13`,
-  `7 / 13 = 0.538462`. A Good Snowman Is Hard to Build follows at
-  `6 / 15 = 0.400000`; Stephen's Sausage Roll at `7 / 18 = 0.388889`; Can of
-  Wormholes at `5 / 15 = 0.333333`; Snakebird at `6 / 19 = 0.315789`; Patrick's
-  Parabox at `5 / 18 = 0.277778`.
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `3 / 22 = 0.136364`.
-  - `GAME-0002`: `2 / 16 = 0.125000`.
-  - `GAME-0003`: `2 / 18 = 0.111111`.
-  - `GAME-0004`: `2 / 24 = 0.083333`.
-  - `GAME-0005`: `2 / 16 = 0.125000`.
-  - `GAME-0006`: `7 / 13 = 0.538462`.
-  - `GAME-0007`: `1 / 18 = 0.055556`.
-  - `GAME-0008`: `2 / 16 = 0.125000`.
-  - `GAME-0009`: `3 / 24 = 0.125000`.
-  - `GAME-0010`: `3 / 17 = 0.176471`.
-  - `GAME-0011`: `2 / 22 = 0.090909`.
-  - `GAME-0012`: `2 / 18 = 0.111111`.
-  - `GAME-0013`: `4 / 20 = 0.200000`.
-  - `GAME-0014`: `3 / 23 = 0.130435`.
-  - `GAME-0015`: `3 / 22 = 0.136364`.
-  - `GAME-0016`: `2 / 24 = 0.083333`.
-  - `GAME-0017`: `1 / 23 = 0.043478`.
-  - `GAME-0018`: `1 / 29 = 0.034483`.
-  - `GAME-0019`: `4 / 17 = 0.235294`.
-  - `GAME-0020`: `2 / 23 = 0.086957`.
-  - `GAME-0021`: `1 / 19 = 0.052632`.
-  - `GAME-0022`: `1 / 22 = 0.045455`.
-  - `GAME-0023`: `0 / 21 = 0.000000`.
-  - `GAME-0024`: `1 / 22 = 0.045455`.
-  - `GAME-0025`: `1 / 21 = 0.047619`.
-  - `GAME-0026`: `1 / 22 = 0.045455`.
-  - `GAME-0027`: `2 / 21 = 0.095238`.
-  - `GAME-0028`: `2 / 26 = 0.076923`.
-  - `GAME-0029`: `3 / 20 = 0.150000`.
-  - `GAME-0030`: `1 / 24 = 0.041667`.
-  - `GAME-0031`: `1 / 21 = 0.047619`.
-  - `GAME-0032`: `2 / 20 = 0.100000`.
-  - `GAME-0033`: `2 / 22 = 0.090909`.
-  - `GAME-0034`: `2 / 23 = 0.086957`.
-  - `GAME-0035`: `2 / 27 = 0.074074`.
-  - `GAME-0036`: `5 / 18 = 0.277778`.
-  - `GAME-0037`: `2 / 18 = 0.111111`.
-  - `GAME-0038`: `2 / 25 = 0.080000`.
-  - `GAME-0039`: `2 / 18 = 0.111111`.
-  - `GAME-0040`: `3 / 16 = 0.187500`.
-  - `GAME-0041`: `2 / 20 = 0.100000`.
-  - `GAME-0042`: `1 / 19 = 0.052632`.
-  - `GAME-0043`: `7 / 18 = 0.388889`.
-  - `GAME-0044`: `6 / 15 = 0.400000`.
-  - `GAME-0045`: `6 / 19 = 0.315789`.
-  - `GAME-0046`: `1 / 20 = 0.050000`.
-  - `GAME-0047`: `3 / 22 = 0.136364`.
-  - `GAME-0048`: `3 / 22 = 0.136364`.
-  - `GAME-0049`: `2 / 18 = 0.111111`.
-  - `GAME-0050`: `5 / 21 = 0.238095`.
-  - `GAME-0051`: `1 / 26 = 0.038462`.
-  - `GAME-0052`: `1 / 20 = 0.050000`.
-  - `GAME-0053`: `5 / 15 = 0.333333`.
+- Tied near matches: `GAME-0006` — Sokoban (`7 / 13 = 0.538462`).
+- Supported combination subsets: `COMB-0044`, `COMB-0054`.
 - Scan date: 2026-08-13.
+
+### Selected-neighbour interpretation
+
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0006`.
+
+### Preserved research notes
+
 - New genes: `SYS-096`, `SYS-097`.
 - Reused genes: `ACT-008`, `ACT-009`, `CON-001`, `CON-011`, `CON-012`,
   `CON-013`, `INF-001`, `OBJ-026`, `TIM-001`.

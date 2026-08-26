@@ -267,50 +267,20 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0033`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0033`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `33` (`GAME-0001`–`GAME-0033`).
 - Exact genome matches: none.
-- Existing combination subsets: none.
-- Jaccard scores against complete genomes:
-  - `GAME-0001`: shared `INF-001`; `1 / 27 = 0.037037`.
-  - `GAME-0002`: shared `INF-001`; `1 / 20 = 0.050000`.
-  - `GAME-0003`: shared none; `0 / 23 = 0.000000`.
-  - `GAME-0004`: shared `INF-001`, `TIM-003`; `2 / 27 = 0.074074`.
-  - `GAME-0005`: shared `INF-001`; `1 / 20 = 0.050000`.
-  - `GAME-0006`: shared `ACT-008`, `INF-001`; `2 / 21 = 0.095238`.
-  - `GAME-0007`: shared `INF-001`; `1 / 21 = 0.047619`.
-  - `GAME-0008`: shared `INF-001`; `1 / 20 = 0.050000`.
-  - `GAME-0009`: shared `INF-001`; `1 / 29 = 0.034483`.
-  - `GAME-0010`: shared `INF-001`; `1 / 22 = 0.045455`.
-  - `GAME-0011`: shared `INF-001`; `1 / 26 = 0.038462`.
-  - `GAME-0012`: shared `INF-001`; `1 / 22 = 0.045455`.
-  - `GAME-0013`: shared `INF-001`; `1 / 26 = 0.038462`.
-  - `GAME-0014`: shared `INF-001`; `1 / 28 = 0.035714`.
-  - `GAME-0015`: shared `INF-001`; `1 / 27 = 0.037037`.
-  - `GAME-0016`: shared `INF-001`, `TIM-003`; `2 / 27 = 0.074074`.
-  - `GAME-0017`: shared none; `0 / 27 = 0.000000`.
-  - `GAME-0018`: shared `INF-001`, `TIM-003`; `2 / 31 = 0.064516`.
-  - `GAME-0019`: shared `INF-001`; `1 / 23 = 0.043478`.
-  - `GAME-0020`: shared `INF-001`; `1 / 27 = 0.037037`.
-  - `GAME-0021`: shared `SYS-037`, `INF-001`, `TIM-003`; `3 / 20 = 0.150000`.
-  - `GAME-0022`: shared `INF-001`; `1 / 25 = 0.040000`.
-  - `GAME-0023`: shared none; `0 / 24 = 0.000000`.
-  - `GAME-0024`: shared `OBJ-018`, `TIM-003`; `2 / 24 = 0.083333`.
-  - `GAME-0025`: shared `SYS-045`, `INF-001`, `TIM-003`; `3 / 22 = 0.136364`.
-  - `GAME-0026`: shared `INF-001`, `TIM-003`; `2 / 24 = 0.083333`.
-  - `GAME-0027`: shared `SYS-045`, `INF-001`, `TIM-003`; `3 / 23 = 0.130435`.
-  - `GAME-0028`: shared `SYS-045`, `INF-001`, `TIM-003`; `3 / 28 = 0.107143`.
-  - `GAME-0029`: shared `ACT-008`, `SYS-045`, `INF-001`, `TIM-003`; `4 / 22 = 0.181818`.
-  - `GAME-0030`: shared `ACT-044`, `SYS-045`, `INF-001`, `TIM-003`, `TIM-007`; `5 / 23 = 0.217391`.
-  - `GAME-0031`: shared `ACT-044`, `SYS-045`, `INF-001`, `TIM-007`; `4 / 21 = 0.190476`.
-  - `GAME-0032`: shared `INF-001`; `1 / 24 = 0.041667`.
-  - `GAME-0033`: shared `ACT-008`, `INF-001`, `TIM-003`; `3 / 24 = 0.125000`.
-- Mathematically selected near match: `GAME-0030` — Tin Hearts at
-  `5 / 23 = 0.217391`.
+- Tied near matches: `GAME-0030` — Tin Hearts (`5 / 23 = 0.217391`).
+- Supported combination subsets: `COMB-0034`, `COMB-0041`.
+- Scan date: 2026-08-12.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0030` — Tin Hearts | `ACT-044`, `SYS-045`, `INF-001`, `TIM-003`, `TIM-007` | directly navigated platform avatar, green forward-time exceptions and token collection versus finite population routing by moved physical devices with path projection | Near match; supports new recurring `COMB-0034`, not either full combination |
+| `GAME-0030` — Tin Hearts | `ACT-044`, `SYS-045`, `INF-001`, `TIM-003`, `TIM-007` | directly navigated platform avatar, green forward-time exceptions and token collection versus finite population routing by moved physical devices with path projection | Near, `0.217391` |
+
+### Preserved research notes
 
 - New genes: `ACT-049`, `SYS-062`, `SYS-063`, `SYS-064`, `SYS-065`,
   `INF-020`.

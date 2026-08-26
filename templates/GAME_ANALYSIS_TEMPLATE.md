@@ -23,8 +23,11 @@ instances but do not enter the signature.
 ## Analysis scope
 
 - Version / ruleset:
+- Primary decision loop:
+- Entry and exit:
 - Included:
 - Excluded:
+- Potential scoped modules:
 - Direct-play status:
 
 ## Claim ledger
@@ -135,20 +138,24 @@ Record edge cases that distinguish the rules from nearby systems.
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`:
-- Indexed games scanned:
-- Indexed combinations scanned:
-- Exact genome matches:
-- Near matches and similarity scores:
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned:
+- Exact genome matches: every exact prior match, with stable ID and title.
+- Tied near matches: every positive non-exact maximum, with stable ID, title
+  and exact `intersection / union = score` fraction.
 - Supported combination subsets:
-- Scan date:
+- Scan date: use the deterministic review date from front matter.
 
-Near matches are selected by the canonical formula. Detailed comparison is
-limited to those records; ties are retained.
+The validator recomputes the complete prior-game scan from canonical genome
+signatures. Do not narrate or paste the full score ledger. Detailed comparison
+is limited to exact and tied near matches; ties are retained using exact integer
+fractions rather than rounded decimals.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| | | | |
+| | | | Exact / tied near only |
 
 - New genes: `none` / evidenced candidates requiring registry updates.
 - Classification result: `New gene` / `New combination of known genes` /

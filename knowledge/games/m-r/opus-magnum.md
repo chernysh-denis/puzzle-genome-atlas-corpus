@@ -268,41 +268,22 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0021`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0021`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `21` (`GAME-0001`–`GAME-0021`).
 - Exact genome matches: none.
-- Existing combination subsets: none.
-- Jaccard scores against complete genomes:
-  - `GAME-0001`: shared `INF-001`; `1 / 25 = 0.040000`.
-  - `GAME-0002`: shared `INF-001`; `1 / 18 = 0.055556`.
-  - `GAME-0003`: shared none; `0 / 21 = 0.000000`.
-  - `GAME-0004`: shared `INF-001`; `1 / 26 = 0.038462`.
-  - `GAME-0005`: shared `INF-001`; `1 / 18 = 0.055556`.
-  - `GAME-0006`: shared `INF-001`; `1 / 20 = 0.050000`.
-  - `GAME-0007`: shared `INF-001`; `1 / 19 = 0.052632`.
-  - `GAME-0008`: shared `INF-001`; `1 / 18 = 0.055556`.
-  - `GAME-0009`: shared `INF-001`; `1 / 27 = 0.037037`.
-  - `GAME-0010`: shared `INF-001`; `1 / 20 = 0.050000`.
-  - `GAME-0011`: shared `INF-001`; `1 / 24 = 0.041667`.
-  - `GAME-0012`: shared `INF-001`; `1 / 20 = 0.050000`.
-  - `GAME-0013`: shared `INF-001`; `1 / 24 = 0.041667`.
-  - `GAME-0014`: shared `INF-001`; `1 / 26 = 0.038462`.
-  - `GAME-0015`: shared `INF-001`; `1 / 25 = 0.040000`.
-  - `GAME-0016`: shared `INF-001`; `1 / 26 = 0.038462`.
-  - `GAME-0017`: shared none; `0 / 25 = 0.000000`.
-  - `GAME-0018`: shared `INF-001`; `1 / 30 = 0.033333`.
-  - `GAME-0019`: shared `INF-001`; `1 / 21 = 0.047619`.
-  - `GAME-0020`: shared `INF-001`; `1 / 25 = 0.040000`.
-  - `GAME-0021`: shared `INF-001`; `1 / 20 = 0.050000`.
-- Mathematically selected near matches: `GAME-0002` — Rubik's Cube,
-  `GAME-0005` — Sudoku and `GAME-0008` — Nonogram, tied at
-  `1 / 18 = 0.055556`.
+- Tied near matches: `GAME-0002` — Rubik’s Cube (`1 / 18 = 0.055556`); `GAME-0005` — Sudoku (`1 / 18 = 0.055556`); `GAME-0008` — Nonogram (`1 / 18 = 0.055556`).
+- Supported combination subsets: `COMB-0022`, `COMB-0032`, `COMB-0042`.
+- Scan date: 2026-08-11.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0002` — Rubik's Cube | `INF-001` | Rubik's Cube applies reversible physical permutations toward one static configuration; Opus Magnum authors a spatial program that must repeatedly manufacture outputs | Near match only |
-| `GAME-0005` — Sudoku | `INF-001` | Sudoku assigns symbols under static global constraints with no automatic transition; Opus Magnum alternates editor state with synchronized execution and collision faults | Near match only |
-| `GAME-0008` — Nonogram | `INF-001` | Nonogram reconstructs a binary assignment from run clues; Opus Magnum exposes exact schemas and searches over executable component geometry and timing | Near match only |
+| `GAME-0002` — Rubik's Cube | `INF-001` | Rubik's Cube applies reversible physical permutations toward one static configuration; Opus Magnum authors a spatial program that must repeatedly manufacture outputs | Near, `0.055556` |
+| `GAME-0005` — Sudoku | `INF-001` | Sudoku assigns symbols under static global constraints with no automatic transition; Opus Magnum alternates editor state with synchronized execution and collision faults | Near, `0.055556` |
+| `GAME-0008` — Nonogram | `INF-001` | Nonogram reconstructs a binary assignment from run clues; Opus Magnum exposes exact schemas and searches over executable component geometry and timing | Near, `0.055556` |
+
+### Preserved research notes
 
 - New genes: `ACT-028`, `ACT-029`, `SYS-038`, `SYS-039`, `SYS-040`,
   `CON-062`, `CON-063`, `INF-011`, `OBJ-015`, `OBJ-016`, `TIM-006`.

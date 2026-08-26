@@ -266,57 +266,22 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0065`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0065`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `65` (`GAME-0001`–`GAME-0065`).
 - Exact genome matches: none.
-- Near match tie: `GAME-0005` Sudoku, `GAME-0008` Nonogram and `GAME-0065`
-  Mastermind each score `2 / 15 = 0.133333`; `GAME-0062` Hexologic follows at
-  `2 / 16 = 0.125000`. All other similarities are lower.
-- Supported prior combination subsets: none.
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `0 / 24 = 0.000000`; `GAME-0002`: `1 / 16 = 0.062500`;
-    `GAME-0003`: `1 / 18 = 0.055556`; `GAME-0004`: `0 / 25 = 0.000000`;
-    `GAME-0005`: `2 / 15 = 0.133333`; `GAME-0006`: `1 / 18 = 0.055556`;
-    `GAME-0007`: `1 / 17 = 0.058824`; `GAME-0008`: `2 / 15 = 0.133333`;
-    `GAME-0009`: `0 / 26 = 0.000000`; `GAME-0010`: `0 / 19 = 0.000000`;
-    `GAME-0011`: `1 / 22 = 0.045455`; `GAME-0012`: `1 / 18 = 0.055556`;
-    `GAME-0013`: `0 / 23 = 0.000000`; `GAME-0014`: `0 / 25 = 0.000000`;
-    `GAME-0015`: `0 / 24 = 0.000000`; `GAME-0016`: `0 / 25 = 0.000000`;
-    `GAME-0017`: `1 / 22 = 0.045455`; `GAME-0018`: `0 / 29 = 0.000000`;
-    `GAME-0019`: `0 / 20 = 0.000000`; `GAME-0020`: `0 / 24 = 0.000000`;
-    `GAME-0021`: `0 / 19 = 0.000000`; `GAME-0022`: `0 / 22 = 0.000000`;
-    `GAME-0023`: `1 / 19 = 0.052632`; `GAME-0024`: `1 / 21 = 0.047619`;
-    `GAME-0025`: `0 / 21 = 0.000000`; `GAME-0026`: `0 / 22 = 0.000000`;
-    `GAME-0027`: `0 / 22 = 0.000000`; `GAME-0028`: `0 / 27 = 0.000000`;
-    `GAME-0029`: `0 / 22 = 0.000000`; `GAME-0030`: `0 / 24 = 0.000000`;
-    `GAME-0031`: `0 / 21 = 0.000000`; `GAME-0032`: `0 / 21 = 0.000000`;
-    `GAME-0033`: `0 / 23 = 0.000000`; `GAME-0034`: `0 / 24 = 0.000000`;
-    `GAME-0035`: `0 / 28 = 0.000000`; `GAME-0036`: `1 / 21 = 0.047619`;
-    `GAME-0037`: `0 / 19 = 0.000000`; `GAME-0038`: `0 / 26 = 0.000000`;
-    `GAME-0039`: `1 / 18 = 0.055556`; `GAME-0040`: `1 / 17 = 0.058824`;
-    `GAME-0041`: `0 / 21 = 0.000000`; `GAME-0042`: `0 / 19 = 0.000000`;
-    `GAME-0043`: `0 / 24 = 0.000000`; `GAME-0044`: `0 / 20 = 0.000000`;
-    `GAME-0045`: `0 / 24 = 0.000000`; `GAME-0046`: `1 / 19 = 0.052632`;
-    `GAME-0047`: `1 / 23 = 0.043478`; `GAME-0048`: `0 / 24 = 0.000000`;
-    `GAME-0049`: `1 / 18 = 0.055556`; `GAME-0050`: `0 / 25 = 0.000000`;
-    `GAME-0051`: `0 / 26 = 0.000000`; `GAME-0052`: `0 / 20 = 0.000000`;
-    `GAME-0053`: `0 / 19 = 0.000000`; `GAME-0054`: `0 / 21 = 0.000000`;
-    `GAME-0055`: `0 / 20 = 0.000000`; `GAME-0056`: `0 / 18 = 0.000000`;
-    `GAME-0057`: `0 / 18 = 0.000000`; `GAME-0058`: `0 / 19 = 0.000000`;
-    `GAME-0059`: `0 / 17 = 0.000000`; `GAME-0060`: `0 / 17 = 0.000000`;
-    `GAME-0061`: `1 / 19 = 0.052632`; `GAME-0062`: `2 / 16 = 0.125000`;
-    `GAME-0063`: `1 / 16 = 0.062500`; `GAME-0064`: `1 / 14 = 0.071429`;
-    `GAME-0065`: `2 / 15 = 0.133333`.
+- Tied near matches: `GAME-0005` — Sudoku (`2 / 15 = 0.133333`); `GAME-0008` — Nonogram (`2 / 15 = 0.133333`); `GAME-0065` — Mastermind (`2 / 15 = 0.133333`).
+- Supported combination subsets: `COMB-0066`.
 - Scan date: 2026-08-14.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0005` — Sudoku | `ACT-007`, `TIM-002` | fully visible givens and all-different assignment versus hidden propagation probes and behavioural equivalence | tied nearest, `0.133333` |
-| `GAME-0008` — Nonogram | `ACT-007`, `TIM-002` | visible ordered run clues and complete cell classification versus indirect ray outcomes | tied nearest, `0.133333` |
-| `GAME-0065` — Mastermind | `INF-003`, `TIM-002` | complete sequence queries and partitioned match counts versus perimeter experiments and spatial equivalence | tied nearest, `2 / 15 = 0.133333` |
-| `GAME-0062` — Hexologic | `ACT-007`, `TIM-002` | visible exact line sums with live local satisfaction versus concealed ray paths and explicit Check | controlled comparison, `0.125000` |
-| `GAME-0003` — Minesweeper | `INF-003` | destructive reveal and local adjacency counts versus non-destructive boundary probes | negative control, `0.055556` |
-| `GAME-0049` — Hexcells Infinite | `INF-003` | truth-adjudicated cell claims and visible count / contiguity clues versus complete-layout equivalence | negative control, `0.055556` |
+| `GAME-0005` — Sudoku | `ACT-007`, `TIM-002` | fully visible givens and all-different assignment versus hidden propagation probes and behavioural equivalence | Near, `0.133333` |
+| `GAME-0008` — Nonogram | `ACT-007`, `TIM-002` | visible ordered run clues and complete cell classification versus indirect ray outcomes | Near, `0.133333` |
+| `GAME-0065` — Mastermind | `INF-003`, `TIM-002` | complete sequence queries and partitioned match counts versus perimeter experiments and spatial equivalence | Near, `0.133333` |
+
+### Preserved research notes
 
 - New genes: `ACT-074`, `ACT-075`, `SYS-105`, `SYS-106`, `CON-111`,
   `INF-032`, `OBJ-042`.

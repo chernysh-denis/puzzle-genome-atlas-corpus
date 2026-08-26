@@ -248,48 +248,20 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0029`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0029`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `29` (`GAME-0001`–`GAME-0029`).
 - Exact genome matches: none.
-- Existing combination subsets: none.
-- Jaccard scores against complete genomes:
-  - `GAME-0001`: shared `INF-001`; `1 / 27 = 0.037037`.
-  - `GAME-0002`: shared `INF-001`; `1 / 20 = 0.050000`.
-  - `GAME-0003`: shared none; `0 / 23 = 0.000000`.
-  - `GAME-0004`: shared `ACT-006`, `INF-001`, `TIM-003`; `3 / 26 = 0.115385`.
-  - `GAME-0005`: shared `INF-001`; `1 / 20 = 0.050000`.
-  - `GAME-0006`: shared `INF-001`; `1 / 22 = 0.045455`.
-  - `GAME-0007`: shared `INF-001`; `1 / 21 = 0.047619`.
-  - `GAME-0008`: shared `INF-001`; `1 / 20 = 0.050000`.
-  - `GAME-0009`: shared `INF-001`; `1 / 29 = 0.034483`.
-  - `GAME-0010`: shared `INF-001`; `1 / 22 = 0.045455`.
-  - `GAME-0011`: shared `INF-001`; `1 / 26 = 0.038462`.
-  - `GAME-0012`: shared `INF-001`; `1 / 22 = 0.045455`.
-  - `GAME-0013`: shared `INF-001`; `1 / 26 = 0.038462`.
-  - `GAME-0014`: shared `INF-001`; `1 / 28 = 0.035714`.
-  - `GAME-0015`: shared `INF-001`; `1 / 27 = 0.037037`.
-  - `GAME-0016`: shared `ACT-006`, `INF-001`, `TIM-003`; `3 / 26 = 0.115385`.
-  - `GAME-0017`: shared none; `0 / 27 = 0.000000`.
-  - `GAME-0018`: shared `ACT-006`, `CON-047`, `INF-001`, `TIM-003`; `4 / 29 = 0.137931`.
-  - `GAME-0019`: shared `INF-001`; `1 / 23 = 0.043478`.
-  - `GAME-0020`: shared `INF-001`; `1 / 27 = 0.037037`.
-  - `GAME-0021`: shared `SYS-036`, `INF-001`, `TIM-003`; `3 / 20 = 0.150000`.
-  - `GAME-0022`: shared `INF-001`; `1 / 25 = 0.040000`.
-  - `GAME-0023`: shared none; `0 / 24 = 0.000000`.
-  - `GAME-0024`: shared `TIM-003`; `1 / 25 = 0.040000`.
-  - `GAME-0025`: shared `SYS-045`, `SYS-047`, `SYS-048`, `INF-001`, `OBJ-019`, `TIM-003`; `6 / 19 = 0.315789`.
-  - `GAME-0026`: shared `SYS-036`, `SYS-048`, `CON-047`, `INF-001`, `OBJ-019`, `TIM-003`; `6 / 20 = 0.300000`.
-  - `GAME-0027`: shared `SYS-045`, `INF-001`, `TIM-003`; `3 / 23 = 0.130435`.
-  - `GAME-0028`: shared `SYS-045`, `INF-001`, `TIM-003`; `3 / 28 = 0.107143`.
-  - `GAME-0029`: shared `ACT-006`, `SYS-045`, `SYS-047`, `SYS-048`, `INF-001`, `OBJ-019`, `TIM-003`; `7 / 19 = 0.368421`.
-- Mathematically selected near match: `GAME-0029` — HUMANITY at
-  `7 / 19 = 0.368421`.
+- Tied near matches: `GAME-0029` — HUMANITY (`7 / 19 = 0.368421`).
+- Supported combination subsets: `COMB-0030`, `COMB-0034`.
+- Scan date: 2026-08-12.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0029` — HUMANITY | `ACT-006`, `SYS-045`, `SYS-047`, `SYS-048`, `INF-001`, `OBJ-019`, `TIM-003` | persistent symbolic world commands and recurring people versus rigid physical routing objects, finite troop and rewind | Near match only |
-| `GAME-0025` — Lemmings | `SYS-045`, `SYS-047`, `SYS-048`, `INF-001`, `OBJ-019`, `TIM-003` | per-agent consumable roles and deadline versus device geometry, physical preview and reversible history | Required boundary comparison; not formal near match |
-| `GAME-0026` — World of Goo | `SYS-036`, `SYS-048`, `CON-047`, `INF-001`, `OBJ-019`, `TIM-003` | rescue population becomes live elastic structure versus separate rigid routing inventory | Required boundary comparison; not formal near match |
+| `GAME-0029` — HUMANITY | `ACT-006`, `SYS-045`, `SYS-047`, `SYS-048`, `INF-001`, `OBJ-019`, `TIM-003` | persistent symbolic world commands and recurring people versus rigid physical routing objects, finite troop and rewind | Near, `0.368421` |
+
+### Preserved research notes
 
 - New genes: `ACT-043`, `ACT-044`, `SYS-056`, `INF-017`, `TIM-007`.
 - Classification result: `New gene` and a new verified combination.

@@ -190,34 +190,18 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games and combinations scanned: `GAME-0001`–`GAME-0079` and
-  `COMB-0001`–`COMB-0079`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `79` (`GAME-0001`–`GAME-0079`).
 - Exact genome matches: none.
-- Near matches: `GAME-0005` Sudoku is the positive maximum at
-  `6 / 8 = 0.750000`.
-- Nearest prior game: `GAME-0005` Sudoku at `6 / 8 = 0.750000`.
-- Next near games: Nonogram, Slant, Map and Filling tie at
-  `5 / 9 = 0.555556`; Hexologic and Tents tie at `5 / 10 = 0.500000`.
-- Supported combination subsets: none before `COMB-0080`.
+- Tied near matches: `GAME-0005` — Sudoku (`6 / 8 = 0.750000`).
+- Supported combination subsets: `COMB-0080`.
+- Scan date: 2026-08-14.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0005` — Sudoku | `ACT-007`, `CON-001`, `CON-010`, `INF-001`, `OBJ-006`, `TIM-002` | immutable givens and 3 × 3 all-different boxes replace arithmetic cages | unique nearest, `6 / 8 = 0.750000` |
-| `GAME-0062` — Hexologic | `ACT-007`, `CON-001`, `INF-001`, `OBJ-006`, `TIM-002` | overlapping exact sums over 1–3 replace fixed multi-operation cages and Latin units | `5 / 10 = 0.500000` |
-| `GAME-0079` — Filling | `ACT-007`, `CON-001`, `INF-001`, `OBJ-006`, `TIM-002` | induced equal-digit regions with self-sized areas replace fixed cages and Latin coverage | tied next, `5 / 9 = 0.555556` |
-
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `2 / 19 = 0.105263`; `GAME-0002`: `3 / 11 = 0.272727`; `GAME-0003`: `1 / 15 = 0.066667`; `GAME-0004`: `2 / 20 = 0.100000`; `GAME-0005`: `6 / 8 = 0.750000`; `GAME-0006`: `3 / 13 = 0.230769`; `GAME-0007`: `2 / 13 = 0.153846`; `GAME-0008`: `5 / 9 = 0.555556`.
-  - `GAME-0009`: `2 / 21 = 0.095238`; `GAME-0010`: `2 / 14 = 0.142857`; `GAME-0011`: `3 / 17 = 0.176471`; `GAME-0012`: `4 / 12 = 0.333333`; `GAME-0013`: `2 / 18 = 0.111111`; `GAME-0014`: `2 / 20 = 0.100000`; `GAME-0015`: `2 / 19 = 0.105263`; `GAME-0016`: `2 / 20 = 0.100000`.
-  - `GAME-0017`: `0 / 20 = 0.000000`; `GAME-0018`: `1 / 25 = 0.040000`; `GAME-0019`: `2 / 15 = 0.133333`; `GAME-0020`: `1 / 20 = 0.050000`; `GAME-0021`: `1 / 15 = 0.066667`; `GAME-0022`: `1 / 18 = 0.055556`; `GAME-0023`: `1 / 16 = 0.062500`; `GAME-0024`: `2 / 17 = 0.117647`.
-  - `GAME-0025`: `1 / 17 = 0.058824`; `GAME-0026`: `1 / 18 = 0.055556`; `GAME-0027`: `2 / 17 = 0.117647`; `GAME-0028`: `2 / 22 = 0.090909`; `GAME-0029`: `2 / 17 = 0.117647`; `GAME-0030`: `1 / 20 = 0.050000`; `GAME-0031`: `1 / 17 = 0.058824`; `GAME-0032`: `2 / 16 = 0.125000`.
-  - `GAME-0033`: `1 / 19 = 0.052632`; `GAME-0034`: `1 / 20 = 0.050000`; `GAME-0035`: `1 / 24 = 0.041667`; `GAME-0036`: `2 / 17 = 0.117647`; `GAME-0037`: `2 / 14 = 0.142857`; `GAME-0038`: `1 / 22 = 0.045455`; `GAME-0039`: `4 / 12 = 0.333333`; `GAME-0040`: `2 / 13 = 0.153846`.
-  - `GAME-0041`: `1 / 17 = 0.058824`; `GAME-0042`: `1 / 15 = 0.066667`; `GAME-0043`: `2 / 19 = 0.105263`; `GAME-0044`: `2 / 15 = 0.133333`; `GAME-0045`: `2 / 19 = 0.105263`; `GAME-0046`: `2 / 15 = 0.133333`; `GAME-0047`: `2 / 19 = 0.105263`; `GAME-0048`: `2 / 19 = 0.105263`.
-  - `GAME-0049`: `1 / 15 = 0.066667`; `GAME-0050`: `2 / 20 = 0.100000`; `GAME-0051`: `1 / 22 = 0.045455`; `GAME-0052`: `1 / 16 = 0.062500`; `GAME-0053`: `2 / 14 = 0.142857`; `GAME-0054`: `2 / 16 = 0.125000`; `GAME-0055`: `2 / 15 = 0.133333`; `GAME-0056`: `2 / 13 = 0.153846`.
-  - `GAME-0057`: `2 / 13 = 0.153846`; `GAME-0058`: `2 / 14 = 0.142857`; `GAME-0059`: `2 / 12 = 0.166667`; `GAME-0060`: `1 / 13 = 0.076923`; `GAME-0061`: `4 / 13 = 0.307692`; `GAME-0062`: `5 / 10 = 0.500000`; `GAME-0063`: `3 / 11 = 0.272727`; `GAME-0064`: `2 / 10 = 0.200000`.
-  - `GAME-0065`: `1 / 13 = 0.076923`; `GAME-0066`: `2 / 15 = 0.133333`; `GAME-0067`: `0 / 15 = 0.000000`; `GAME-0068`: `1 / 14 = 0.071429`; `GAME-0069`: `3 / 12 = 0.250000`; `GAME-0070`: `2 / 13 = 0.153846`; `GAME-0071`: `5 / 9 = 0.555556`; `GAME-0072`: `5 / 10 = 0.500000`.
-  - `GAME-0073`: `4 / 10 = 0.400000`; `GAME-0074`: `4 / 12 = 0.333333`; `GAME-0075`: `5 / 11 = 0.454545`; `GAME-0076`: `4 / 10 = 0.400000`; `GAME-0077`: `5 / 9 = 0.555556`; `GAME-0078`: `4 / 10 = 0.400000`; `GAME-0079`: `5 / 9 = 0.555556`.
-- Scan date: 2026-08-14.
+| `GAME-0005` — Sudoku | `ACT-007`, `CON-001`, `CON-010`, `INF-001`, `OBJ-006`, `TIM-002` | immutable givens and 3 × 3 all-different boxes replace arithmetic cages | Near, `0.750000` |
 
 ## Taxonomy impact
 

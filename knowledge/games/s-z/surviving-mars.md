@@ -263,73 +263,26 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-006,ACT-096,ACT-120,ACT-121,ACT-140,ACT-145,ACT-148,ACT-166,ACT-180,ACT-181; SYS-004,SYS-045,SYS-156,SYS-157,SYS-158,SYS-161,SYS-186,SYS-196,SYS-264,SYS-283,SYS-284,SYS-285,SYS-286,SYS-287,SYS-288,SYS-289,SYS-290,SYS-291; CON-062,CON-136,CON-172,CON-173,CON-184,CON-185,CON-192,CON-193,CON-240,CON-253,CON-254,CON-255,CON-256,CON-257,CON-258,CON-259,CON-260; INF-001,INF-002,INF-059,INF-060,INF-071,INF-086,INF-101,INF-109,INF-110,INF-111,INF-112,INF-113,INF-114; OBJ-070; TIM-003`.
-- Indexed games scanned: all 135 previously reviewed game signatures.
-- Indexed combinations scanned: all 133 previously verified combinations.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `135` (`GAME-0001`–`GAME-0135`).
 - Exact genome matches: none.
-- Near match: `GAME-0125` Oxygen Not Included at
-  `21 / 81 = 0.259259`; Captain of Industry and RimWorld tie next at
-  `20 / 88 = 0.227273`.
-- Supported combination subsets: `COMB-0134` only.
+- Tied near matches: `GAME-0125` — Oxygen Not Included (`21 / 81 = 0.259259`).
+- Supported combination subsets: `COMB-0134`.
 - Scan date: 2026-08-21.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0125` Oxygen Not Included | 21 | shares autonomous errands, construction, production, utilities and individual survival, but not sealed domes, rockets, representative laws or independence | `21 / 81 = 0.259259` |
-| `GAME-0135` Captain of Industry | 20 | shares live industry, logistics, population pressure and world supply, but uses terrain haulage, pooled maintenance and first-rocket completion | `20 / 88 = 0.227273` |
-| `GAME-0127` RimWorld | 20 | shares autonomous colony work and individual residents, but substitutes tactical storyteller crises and constructed-ship escape for life-support politics | `20 / 88 = 0.227273` |
-| `GAME-0126` Dwarf Fortress | 19 | shares autonomous jobs, hauling and resident state, but not Mars utilities, rockets, shuffled research or sponsor separation | `19 / 84 = 0.226190` |
+| `GAME-0125` Oxygen Not Included | 21 | shares autonomous errands, construction, production, utilities and individual survival, but not sealed domes, rockets, representative laws or independence | Near, `0.259259` |
 
-### Exhaustive prior-game similarity scan
-
-- GAME-0001: 3 / 71 = 0.042254; GAME-0002: 1 / 66 = 0.015152; GAME-0003: 0 / 69 = 0.000000; GAME-0004: 4 / 71 = 0.056338.
-- GAME-0005: 1 / 66 = 0.015152; GAME-0006: 1 / 68 = 0.014706; GAME-0007: 1 / 67 = 0.014925; GAME-0008: 1 / 66 = 0.015152.
-- GAME-0009: 3 / 73 = 0.041096; GAME-0010: 1 / 68 = 0.014706; GAME-0011: 1 / 72 = 0.013889; GAME-0012: 1 / 68 = 0.014706.
-- GAME-0013: 1 / 72 = 0.013889; GAME-0014: 1 / 74 = 0.013514; GAME-0015: 2 / 72 = 0.027778; GAME-0016: 4 / 71 = 0.056338.
-- GAME-0017: 0 / 73 = 0.000000; GAME-0018: 5 / 74 = 0.067568; GAME-0019: 1 / 69 = 0.014493; GAME-0020: 2 / 72 = 0.027778.
-- GAME-0021: 2 / 67 = 0.029851; GAME-0022: 2 / 70 = 0.028571; GAME-0023: 0 / 70 = 0.000000; GAME-0024: 1 / 71 = 0.014085.
-- GAME-0025: 3 / 68 = 0.044118; GAME-0026: 2 / 70 = 0.028571; GAME-0027: 3 / 69 = 0.043478; GAME-0028: 5 / 72 = 0.069444.
-- GAME-0029: 4 / 68 = 0.058824; GAME-0030: 4 / 70 = 0.057143; GAME-0031: 2 / 69 = 0.028986; GAME-0032: 1 / 70 = 0.014286.
-- GAME-0033: 2 / 71 = 0.028169; GAME-0034: 3 / 71 = 0.042254; GAME-0035: 3 / 75 = 0.040000; GAME-0036: 1 / 71 = 0.014085.
-- GAME-0037: 1 / 68 = 0.014706; GAME-0038: 2 / 74 = 0.027027; GAME-0039: 1 / 68 = 0.014706; GAME-0040: 1 / 67 = 0.014925.
-- GAME-0041: 2 / 69 = 0.028986; GAME-0042: 2 / 67 = 0.029851; GAME-0043: 1 / 73 = 0.013699; GAME-0044: 1 / 69 = 0.014493.
-- GAME-0045: 1 / 73 = 0.013699; GAME-0046: 1 / 69 = 0.014493; GAME-0047: 1 / 73 = 0.013699; GAME-0048: 1 / 73 = 0.013699.
-- GAME-0049: 0 / 69 = 0.000000; GAME-0050: 1 / 74 = 0.013514; GAME-0051: 5 / 71 = 0.070423; GAME-0052: 1 / 69 = 0.014493.
-- GAME-0053: 1 / 68 = 0.014706; GAME-0054: 1 / 70 = 0.014286; GAME-0055: 1 / 69 = 0.014493; GAME-0056: 1 / 67 = 0.014925.
-- GAME-0057: 1 / 67 = 0.014925; GAME-0058: 1 / 68 = 0.014706; GAME-0059: 1 / 66 = 0.015152; GAME-0060: 1 / 66 = 0.015152.
-- GAME-0061: 1 / 69 = 0.014493; GAME-0062: 1 / 67 = 0.014925; GAME-0063: 1 / 66 = 0.015152; GAME-0064: 1 / 64 = 0.015625.
-- GAME-0065: 0 / 67 = 0.000000; GAME-0066: 0 / 70 = 0.000000; GAME-0067: 2 / 66 = 0.030303; GAME-0068: 0 / 68 = 0.000000.
-- GAME-0069: 1 / 67 = 0.014925; GAME-0070: 1 / 67 = 0.014925; GAME-0071: 1 / 66 = 0.015152; GAME-0072: 1 / 67 = 0.014925.
-- GAME-0073: 1 / 66 = 0.015152; GAME-0074: 1 / 68 = 0.014706; GAME-0075: 1 / 68 = 0.014706; GAME-0076: 1 / 66 = 0.015152.
-- GAME-0077: 1 / 66 = 0.015152; GAME-0078: 1 / 66 = 0.015152; GAME-0079: 1 / 66 = 0.015152; GAME-0080: 1 / 66 = 0.015152.
-- GAME-0081: 1 / 67 = 0.014925; GAME-0082: 1 / 67 = 0.014925; GAME-0083: 1 / 67 = 0.014925; GAME-0084: 1 / 69 = 0.014493.
-- GAME-0085: 1 / 70 = 0.014286; GAME-0086: 2 / 71 = 0.028169; GAME-0087: 3 / 67 = 0.044776; GAME-0088: 2 / 67 = 0.029851.
-- GAME-0089: 2 / 67 = 0.029851; GAME-0090: 2 / 73 = 0.027397; GAME-0091: 2 / 67 = 0.029851; GAME-0092: 4 / 66 = 0.060606.
-- GAME-0093: 2 / 67 = 0.029851; GAME-0094: 2 / 68 = 0.029412; GAME-0095: 2 / 70 = 0.028571; GAME-0096: 2 / 68 = 0.029412.
-- GAME-0097: 2 / 66 = 0.030303; GAME-0098: 2 / 65 = 0.030769; GAME-0099: 1 / 67 = 0.014925; GAME-0100: 1 / 70 = 0.014286.
-- GAME-0101: 0 / 70 = 0.000000; GAME-0102: 0 / 67 = 0.000000; GAME-0103: 1 / 68 = 0.014706; GAME-0104: 1 / 68 = 0.014706.
-- GAME-0105: 1 / 69 = 0.014493; GAME-0106: 0 / 67 = 0.000000; GAME-0107: 1 / 67 = 0.014925; GAME-0108: 1 / 69 = 0.014493.
-- GAME-0109: 3 / 73 = 0.041096; GAME-0110: 2 / 66 = 0.030303; GAME-0111: 2 / 65 = 0.030769; GAME-0112: 2 / 66 = 0.030303.
-- GAME-0113: 2 / 72 = 0.027778; GAME-0114: 2 / 65 = 0.030769; GAME-0115: 1 / 65 = 0.015385; GAME-0116: 2 / 64 = 0.031250.
-- GAME-0117: 1 / 67 = 0.014925; GAME-0118: 2 / 74 = 0.027027; GAME-0119: 14 / 69 = 0.202899; GAME-0120: 2 / 87 = 0.022989.
-- GAME-0121: 2 / 81 = 0.024691; GAME-0122: 6 / 69 = 0.086957; GAME-0123: 3 / 95 = 0.031579; GAME-0124: 16 / 91 = 0.175824.
-- GAME-0125: 21 / 81 = 0.259259; GAME-0126: 19 / 84 = 0.226190; GAME-0127: 20 / 88 = 0.227273; GAME-0128: 10 / 66 = 0.151515.
-- GAME-0129: 3 / 92 = 0.032609; GAME-0130: 19 / 94 = 0.202128; GAME-0131: 14 / 92 = 0.152174; GAME-0132: 12 / 99 = 0.121212.
-- GAME-0133: 17 / 88 = 0.193182; GAME-0134: 18 / 93 = 0.193548; GAME-0135: 20 / 88 = 0.227273.
+### Preserved research notes
 
 - New genes: `ACT-180`–`ACT-181`, `SYS-283`–`SYS-291`, `CON-253`–`CON-260`, `INF-109`–`INF-114`, `OBJ-070`.
 - Classification result: `New combination of known and new genes`.
 - Evidence and reasoning: existing colony genes capture construction,
   workforce, production and utilities; the new boundaries are limited to
   mechanisms not represented by prior exact semantics.
-
-### Registry normalisation 006 score corrections
-
-These recomputed values supersede the pre-normalisation fractions above:
-
-- `GAME-0132`: `13 / 98 = 0.132653`
-- `GAME-0134`: `19 / 92 = 0.206522`
-- Current prior-corpus near match after normalisation 006: `GAME-0125`.
 
 ## Taxonomy impact
 

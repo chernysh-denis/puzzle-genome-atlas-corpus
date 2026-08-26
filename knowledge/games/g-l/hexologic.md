@@ -236,53 +236,21 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: every prior record `GAME-0001`–`GAME-0061`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `61` (`GAME-0001`–`GAME-0061`).
 - Exact genome matches: none.
-- Existing combination subsets: none; every verified `COMB-0001`–`COMB-0061`
-  gene set was tested as a proper subset and rejected.
-- Near matches: `GAME-0005` — Sudoku and `GAME-0008` — Nonogram tie
-  at intersection `5`, union `10`, `5 / 10 = 0.500000`. The Witness and Flow
-  Free tie next at `4 / 13 = 0.307692`; LYNE follows at `4 / 14 = 0.285714`.
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `2 / 20 = 0.100000`; `GAME-0002`: `3 / 12 = 0.250000`;
-    `GAME-0003`: `1 / 16 = 0.062500`; `GAME-0004`: `2 / 21 = 0.095238`;
-    `GAME-0005`: `5 / 10 = 0.500000`; `GAME-0006`: `3 / 14 = 0.214286`;
-    `GAME-0007`: `2 / 14 = 0.142857`; `GAME-0008`: `5 / 10 = 0.500000`;
-    `GAME-0009`: `2 / 22 = 0.090909`; `GAME-0010`: `2 / 15 = 0.133333`;
-    `GAME-0011`: `3 / 18 = 0.166667`; `GAME-0012`: `4 / 13 = 0.307692`;
-    `GAME-0013`: `2 / 19 = 0.105263`; `GAME-0014`: `2 / 21 = 0.095238`;
-    `GAME-0015`: `2 / 20 = 0.100000`; `GAME-0016`: `2 / 21 = 0.095238`;
-    `GAME-0017`: `0 / 21 = 0.000000`; `GAME-0018`: `1 / 26 = 0.038462`;
-    `GAME-0019`: `2 / 16 = 0.125000`; `GAME-0020`: `1 / 21 = 0.047619`;
-    `GAME-0021`: `1 / 16 = 0.062500`; `GAME-0022`: `1 / 19 = 0.052632`;
-    `GAME-0023`: `1 / 17 = 0.058824`; `GAME-0024`: `2 / 18 = 0.111111`;
-    `GAME-0025`: `1 / 18 = 0.055556`; `GAME-0026`: `1 / 19 = 0.052632`;
-    `GAME-0027`: `2 / 18 = 0.111111`; `GAME-0028`: `2 / 23 = 0.086957`;
-    `GAME-0029`: `2 / 18 = 0.111111`; `GAME-0030`: `1 / 21 = 0.047619`;
-    `GAME-0031`: `1 / 18 = 0.055556`; `GAME-0032`: `2 / 17 = 0.117647`;
-    `GAME-0033`: `1 / 20 = 0.050000`; `GAME-0034`: `1 / 21 = 0.047619`;
-    `GAME-0035`: `1 / 25 = 0.040000`; `GAME-0036`: `2 / 18 = 0.111111`;
-    `GAME-0037`: `2 / 15 = 0.133333`; `GAME-0038`: `1 / 23 = 0.043478`;
-    `GAME-0039`: `4 / 13 = 0.307692`; `GAME-0040`: `2 / 14 = 0.142857`;
-    `GAME-0041`: `1 / 18 = 0.055556`; `GAME-0042`: `1 / 16 = 0.062500`;
-    `GAME-0043`: `2 / 20 = 0.100000`; `GAME-0044`: `2 / 16 = 0.125000`;
-    `GAME-0045`: `2 / 20 = 0.100000`; `GAME-0046`: `2 / 16 = 0.125000`;
-    `GAME-0047`: `2 / 20 = 0.100000`; `GAME-0048`: `2 / 20 = 0.100000`;
-    `GAME-0049`: `1 / 16 = 0.062500`; `GAME-0050`: `2 / 21 = 0.095238`;
-    `GAME-0051`: `1 / 23 = 0.043478`; `GAME-0052`: `1 / 17 = 0.058824`;
-    `GAME-0053`: `2 / 15 = 0.133333`; `GAME-0054`: `2 / 17 = 0.117647`;
-    `GAME-0055`: `2 / 16 = 0.125000`; `GAME-0056`: `2 / 14 = 0.142857`;
-    `GAME-0057`: `2 / 14 = 0.142857`; `GAME-0058`: `2 / 15 = 0.133333`;
-    `GAME-0059`: `2 / 13 = 0.153846`; `GAME-0060`: `1 / 14 = 0.071429`;
-    `GAME-0061`: `4 / 14 = 0.285714`.
+- Tied near matches: `GAME-0005` — Sudoku (`5 / 10 = 0.500000`); `GAME-0008` — Nonogram (`5 / 10 = 0.500000`).
+- Supported combination subsets: `COMB-0062`.
 - Scan date: 2026-08-13.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0005` — Sudoku | `ACT-007`, `CON-001`, `INF-001`, `OBJ-006`, `TIM-002` | Sudoku preserves immutable givens and all-different coverage; Hexologic permits repeated values and satisfies exact arithmetic lines with live local feedback | Tied nearest, `0.500000`; no combination recurrence |
-| `GAME-0008` — Nonogram | `ACT-007`, `CON-001`, `INF-001`, `OBJ-006`, `TIM-002` | Nonogram assigns binary cell classes from ordered orthogonal run clues; Hexologic assigns 1–3 and couples three-axis lines by exact totals | Tied nearest, `0.500000`; no combination recurrence |
-| `GAME-0003` — Minesweeper | none of the arithmetic assignment core | Minesweeper reveals concealed hazards and counts a local target class; Hexologic directly proposes visible positive values on whole lines | Negative control despite numeric clues |
-| `GAME-0049` — Hexcells Infinite | none of the arithmetic assignment core | Hexcells asserts concealed binary classes under neighbour / contiguity clues; Hexologic uses visible replaceable values and exact line equations | Negative control despite hex presentation |
+| `GAME-0005` — Sudoku | `ACT-007`, `CON-001`, `INF-001`, `OBJ-006`, `TIM-002` | Sudoku preserves immutable givens and all-different coverage; Hexologic permits repeated values and satisfies exact arithmetic lines with live local feedback | Near, `0.500000` |
+| `GAME-0008` — Nonogram | `ACT-007`, `CON-001`, `INF-001`, `OBJ-006`, `TIM-002` | Nonogram assigns binary cell classes from ordered orthogonal run clues; Hexologic assigns 1–3 and couples three-axis lines by exact totals | Near, `0.500000` |
+
+### Preserved research notes
 
 - New genes: `CON-109`, `INF-029`, `INF-030`.
 - Generalised genes: `ACT-007`, `CON-001`, `INF-001`, `OBJ-006` and

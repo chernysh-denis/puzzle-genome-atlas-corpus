@@ -266,42 +266,22 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0022`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0022`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `22` (`GAME-0001`–`GAME-0022`).
 - Exact genome matches: none.
-- Existing combination subsets: none.
-- Jaccard scores against complete genomes:
-  - `GAME-0001`: shared none; `0 / 24 = 0.000000`.
-  - `GAME-0002`: shared `TIM-002`; `1 / 16 = 0.062500`.
-  - `GAME-0003`: shared none; `0 / 19 = 0.000000`.
-  - `GAME-0004`: shared none; `0 / 25 = 0.000000`.
-  - `GAME-0005`: shared `TIM-002`; `1 / 16 = 0.062500`.
-  - `GAME-0006`: shared `TIM-002`; `1 / 18 = 0.055556`.
-  - `GAME-0007`: shared `TIM-002`; `1 / 17 = 0.058824`.
-  - `GAME-0008`: shared `TIM-002`; `1 / 16 = 0.062500`.
-  - `GAME-0009`: shared none; `0 / 26 = 0.000000`.
-  - `GAME-0010`: shared none; `0 / 19 = 0.000000`.
-  - `GAME-0011`: shared `TIM-002`; `1 / 22 = 0.045455`.
-  - `GAME-0012`: shared `TIM-002`; `1 / 18 = 0.055556`.
-  - `GAME-0013`: shared none; `0 / 23 = 0.000000`.
-  - `GAME-0014`: shared none; `0 / 25 = 0.000000`.
-  - `GAME-0015`: shared none; `0 / 24 = 0.000000`.
-  - `GAME-0016`: shared none; `0 / 25 = 0.000000`.
-  - `GAME-0017`: shared none; `0 / 23 = 0.000000`.
-  - `GAME-0018`: shared none; `0 / 29 = 0.000000`.
-  - `GAME-0019`: shared none; `0 / 20 = 0.000000`.
-  - `GAME-0020`: shared none; `0 / 24 = 0.000000`.
-  - `GAME-0021`: shared none; `0 / 19 = 0.000000`.
-  - `GAME-0022`: shared none; `0 / 22 = 0.000000`.
-- Mathematically selected near matches: `GAME-0002` — Rubik's Cube,
-  `GAME-0005` — Sudoku and `GAME-0008` — Nonogram, tied at
-  `1 / 16 = 0.062500`.
+- Tied near matches: `GAME-0002` — Rubik’s Cube (`1 / 16 = 0.062500`); `GAME-0005` — Sudoku (`1 / 16 = 0.062500`); `GAME-0008` — Nonogram (`1 / 16 = 0.062500`).
+- Supported combination subsets: `COMB-0023`, `COMB-0046`.
+- Scan date: 2026-08-11.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0002` — Rubik's Cube | `TIM-002` | Rubik's Cube exposes one current permutation and changes it through reversible moves; Obra Dinn preserves distributed past evidence and edits a compound ledger | Near match only |
-| `GAME-0005` — Sudoku | `TIM-002` | Sudoku exposes all givens and checks one simultaneous number assignment; Obra Dinn requires cross-scene observation and delays correctness feedback across subject records | Near match only |
-| `GAME-0008` — Nonogram | `TIM-002` | Nonogram gives complete line clues and edits a binary grid; Obra Dinn maps a metadata roster to faces and structured fates using indexed scenes | Near match only |
+| `GAME-0002` — Rubik's Cube | `TIM-002` | Rubik's Cube exposes one current permutation and changes it through reversible moves; Obra Dinn preserves distributed past evidence and edits a compound ledger | Near, `0.062500` |
+| `GAME-0005` — Sudoku | `TIM-002` | Sudoku exposes all givens and checks one simultaneous number assignment; Obra Dinn requires cross-scene observation and delays correctness feedback across subject records | Near, `0.062500` |
+| `GAME-0008` — Nonogram | `TIM-002` | Nonogram gives complete line clues and edits a binary grid; Obra Dinn maps a metadata roster to faces and structured fates using indexed scenes | Near, `0.062500` |
+
+### Preserved research notes
 
 - New genes: `ACT-030`, `ACT-031`, `ACT-032`, `SYS-041`, `SYS-042`,
   `CON-064`, `INF-012`, `INF-013`, `OBJ-017`.

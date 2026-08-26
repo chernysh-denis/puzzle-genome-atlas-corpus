@@ -198,45 +198,20 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`:
-  `ACT-079; none; CON-001,CON-119,CON-120; INF-001; OBJ-006; TIM-002`.
-- Indexed games scanned: `GAME-0001`–`GAME-0072`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0072`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `72` (`GAME-0001`–`GAME-0072`).
 - Exact genome matches: none.
-- Tied nearest games: `GAME-0005` Sudoku, `GAME-0008` Nonogram and
-  `GAME-0071` Slant, each at `4 / 10 = 0.400000`, sharing fixed capacity,
-  full visibility, complete constraint satisfaction and self-paced time.
-- Next near matches: `GAME-0062` Hexologic and `GAME-0072` Tents, each at
-  `4 / 11 = 0.363636`.
-- Supported combination subsets: none before `COMB-0073`; exact cell cover and
-  exact unordered pair-type usage do not occur together earlier.
+- Tied near matches: `GAME-0005` — Sudoku (`4 / 10 = 0.400000`); `GAME-0008` — Nonogram (`4 / 10 = 0.400000`); `GAME-0071` — Slant (`4 / 10 = 0.400000`).
+- Supported combination subsets: `COMB-0073`.
 - Scan date: 2026-08-14.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0005` — Sudoku | `CON-001`, `INF-001`, `OBJ-006`, `TIM-002` | Sudoku assigns symbols in intersecting all-different units; Dominosa selects adjacent pairs with a global type inventory | tied near match, `4 / 10 = 0.400000` |
-| `GAME-0008` — Nonogram | `CON-001`, `INF-001`, `OBJ-006`, `TIM-002` | Nonogram satisfies ordered line runs; Dominosa satisfies cell and pair-type exact cover | tied near match, `4 / 10 = 0.400000` |
-| `GAME-0071` — Slant | `CON-001`, `INF-001`, `OBJ-006`, `TIM-002` | Slant selects diagonals under degrees and acyclicity; Dominosa selects dominoes under two exact-once universes | tied near match, `4 / 10 = 0.400000` |
-
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `2 / 19 = 0.105263`; `GAME-0002`: `3 / 11 = 0.272727`; `GAME-0003`: `1 / 15 = 0.066667`; `GAME-0004`: `2 / 20 = 0.100000`.
-  - `GAME-0005`: `4 / 10 = 0.400000`; `GAME-0006`: `3 / 13 = 0.230769`; `GAME-0007`: `2 / 13 = 0.153846`; `GAME-0008`: `4 / 10 = 0.400000`.
-  - `GAME-0009`: `2 / 21 = 0.095238`; `GAME-0010`: `2 / 14 = 0.142857`; `GAME-0011`: `3 / 17 = 0.176471`; `GAME-0012`: `4 / 12 = 0.333333`.
-  - `GAME-0013`: `2 / 18 = 0.111111`; `GAME-0014`: `2 / 20 = 0.100000`; `GAME-0015`: `2 / 19 = 0.105263`; `GAME-0016`: `2 / 20 = 0.100000`.
-  - `GAME-0017`: `0 / 20 = 0.000000`; `GAME-0018`: `1 / 25 = 0.040000`; `GAME-0019`: `2 / 15 = 0.133333`; `GAME-0020`: `1 / 20 = 0.050000`.
-  - `GAME-0021`: `1 / 15 = 0.066667`; `GAME-0022`: `1 / 18 = 0.055556`; `GAME-0023`: `1 / 16 = 0.062500`; `GAME-0024`: `2 / 17 = 0.117647`.
-  - `GAME-0025`: `1 / 17 = 0.058824`; `GAME-0026`: `1 / 18 = 0.055556`; `GAME-0027`: `2 / 17 = 0.117647`; `GAME-0028`: `2 / 22 = 0.090909`.
-  - `GAME-0029`: `2 / 17 = 0.117647`; `GAME-0030`: `1 / 20 = 0.050000`; `GAME-0031`: `1 / 17 = 0.058824`; `GAME-0032`: `2 / 16 = 0.125000`.
-  - `GAME-0033`: `1 / 19 = 0.052632`; `GAME-0034`: `1 / 20 = 0.050000`; `GAME-0035`: `1 / 24 = 0.041667`; `GAME-0036`: `2 / 17 = 0.117647`.
-  - `GAME-0037`: `2 / 14 = 0.142857`; `GAME-0038`: `1 / 22 = 0.045455`; `GAME-0039`: `4 / 12 = 0.333333`; `GAME-0040`: `2 / 13 = 0.153846`.
-  - `GAME-0041`: `1 / 17 = 0.058824`; `GAME-0042`: `1 / 15 = 0.066667`; `GAME-0043`: `2 / 19 = 0.105263`; `GAME-0044`: `2 / 15 = 0.133333`.
-  - `GAME-0045`: `2 / 19 = 0.105263`; `GAME-0046`: `2 / 15 = 0.133333`; `GAME-0047`: `2 / 19 = 0.105263`; `GAME-0048`: `2 / 19 = 0.105263`.
-  - `GAME-0049`: `1 / 15 = 0.066667`; `GAME-0050`: `2 / 20 = 0.100000`; `GAME-0051`: `1 / 22 = 0.045455`; `GAME-0052`: `1 / 16 = 0.062500`.
-  - `GAME-0053`: `2 / 14 = 0.142857`; `GAME-0054`: `2 / 16 = 0.125000`; `GAME-0055`: `2 / 15 = 0.133333`; `GAME-0056`: `2 / 13 = 0.153846`.
-  - `GAME-0057`: `2 / 13 = 0.153846`; `GAME-0058`: `2 / 14 = 0.142857`; `GAME-0059`: `2 / 12 = 0.166667`; `GAME-0060`: `1 / 13 = 0.076923`.
-  - `GAME-0061`: `4 / 13 = 0.307692`; `GAME-0062`: `4 / 11 = 0.363636`; `GAME-0063`: `3 / 11 = 0.272727`; `GAME-0064`: `2 / 10 = 0.200000`.
-  - `GAME-0065`: `1 / 13 = 0.076923`; `GAME-0066`: `1 / 16 = 0.062500`; `GAME-0067`: `0 / 15 = 0.000000`; `GAME-0068`: `1 / 14 = 0.071429`.
-  - `GAME-0069`: `3 / 12 = 0.250000`; `GAME-0070`: `2 / 13 = 0.153846`; `GAME-0071`: `4 / 10 = 0.400000`; `GAME-0072`: `4 / 11 = 0.363636`.
+| `GAME-0005` — Sudoku | `CON-001`, `INF-001`, `OBJ-006`, `TIM-002` | Sudoku assigns symbols in intersecting all-different units; Dominosa selects adjacent pairs with a global type inventory | Near, `0.400000` |
+| `GAME-0008` — Nonogram | `CON-001`, `INF-001`, `OBJ-006`, `TIM-002` | Nonogram satisfies ordered line runs; Dominosa satisfies cell and pair-type exact cover | Near, `0.400000` |
+| `GAME-0071` — Slant | `CON-001`, `INF-001`, `OBJ-006`, `TIM-002` | Slant selects diagonals under degrees and acyclicity; Dominosa selects dominoes under two exact-once universes | Near, `0.400000` |
 
 ## Taxonomy impact
 

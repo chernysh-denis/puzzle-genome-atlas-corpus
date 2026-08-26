@@ -245,80 +245,24 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: every prior record `GAME-0001`–`GAME-0048`.
-- Indexed combinations scanned: every prior record `COMB-0001`–`COMB-0048`,
-  with `COMB-0003`, `COMB-0005`, `COMB-0008`, `COMB-0039` and all proper
-  subsets explicitly rechecked as required by selection 008.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `48` (`GAME-0001`–`GAME-0048`).
 - Exact genome matches: none.
-- Unique near match: `GAME-0003` — Minesweeper, sharing `CON-001`, `INF-003`,
-  `INF-004`, `TIM-001`; intersection `4`, union `14`, `4 / 14 = 0.285714`.
-- Next similarity tier: 2048 and Threes each share `OBJ-002`, `CON-001`,
-  `TIM-001`; `3 / 20 = 0.150000`.
-- Existing combination subsets: none. In particular, `COMB-0003` fails because
-  `ACT-003`, `SYS-005`, `CON-006` and `OBJ-005` are absent; `COMB-0005`,
-  `COMB-0008` and `COMB-0039` fail their assignment / clue / submission genes.
-- New recurring combination: `COMB-0049`, the four-gene shared proper subset
-  `CON-001`, `INF-003`, `INF-004`, `TIM-001`, supported exactly by Minesweeper
-  and Hexcells Infinite in the 49-game corpus.
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `3 / 20 = 0.150000`.
-  - `GAME-0002`: `1 / 15 = 0.066667`.
-  - `GAME-0003`: `4 / 14 = 0.285714`.
-  - `GAME-0004`: `2 / 22 = 0.090909`.
-  - `GAME-0005`: `1 / 15 = 0.066667`.
-  - `GAME-0006`: `1 / 17 = 0.058824`.
-  - `GAME-0007`: `0 / 17 = 0.000000`.
-  - `GAME-0008`: `1 / 15 = 0.066667`.
-  - `GAME-0009`: `2 / 23 = 0.086957`.
-  - `GAME-0010`: `2 / 16 = 0.125000`.
-  - `GAME-0011`: `1 / 21 = 0.047619`.
-  - `GAME-0012`: `1 / 17 = 0.058824`.
-  - `GAME-0013`: `2 / 20 = 0.100000`.
-  - `GAME-0014`: `1 / 23 = 0.043478`.
-  - `GAME-0015`: `3 / 20 = 0.150000`.
-  - `GAME-0016`: `2 / 22 = 0.090909`.
-  - `GAME-0017`: `2 / 20 = 0.100000`.
-  - `GAME-0018`: `1 / 27 = 0.037037`.
-  - `GAME-0019`: `2 / 17 = 0.117647`.
-  - `GAME-0020`: `2 / 21 = 0.095238`.
-  - `GAME-0021`: `1 / 17 = 0.058824`.
-  - `GAME-0022`: `0 / 21 = 0.000000`.
-  - `GAME-0023`: `0 / 19 = 0.000000`.
-  - `GAME-0024`: `1 / 20 = 0.050000`.
-  - `GAME-0025`: `0 / 20 = 0.000000`.
-  - `GAME-0026`: `0 / 21 = 0.000000`.
-  - `GAME-0027`: `1 / 20 = 0.050000`.
-  - `GAME-0028`: `1 / 25 = 0.040000`.
-  - `GAME-0029`: `1 / 20 = 0.050000`.
-  - `GAME-0030`: `0 / 23 = 0.000000`.
-  - `GAME-0031`: `0 / 20 = 0.000000`.
-  - `GAME-0032`: `1 / 19 = 0.052632`.
-  - `GAME-0033`: `0 / 22 = 0.000000`.
-  - `GAME-0034`: `0 / 23 = 0.000000`.
-  - `GAME-0035`: `0 / 27 = 0.000000`.
-  - `GAME-0036`: `0 / 21 = 0.000000`.
-  - `GAME-0037`: `1 / 17 = 0.058824`.
-  - `GAME-0038`: `0 / 25 = 0.000000`.
-  - `GAME-0039`: `1 / 17 = 0.058824`.
-  - `GAME-0040`: `0 / 17 = 0.000000`.
-  - `GAME-0041`: `0 / 20 = 0.000000`.
-  - `GAME-0042`: `0 / 18 = 0.000000`.
-  - `GAME-0043`: `2 / 21 = 0.095238`.
-  - `GAME-0044`: `2 / 17 = 0.117647`.
-  - `GAME-0045`: `2 / 21 = 0.095238`.
-  - `GAME-0046`: `0 / 19 = 0.000000`.
-  - `GAME-0047`: `2 / 21 = 0.095238`.
-  - `GAME-0048`: `1 / 22 = 0.045455`.
-
+- Tied near matches: `GAME-0003` — Minesweeper (`4 / 14 = 0.285714`).
+- Supported combination subsets: `COMB-0049`.
 - Scan date: 2026-08-12.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0003` — Minesweeper | `CON-001`, `INF-003`, `INF-004`, `TIM-001` | reveal plus optional flag; zero expansion; terminal hazard; safe-only objective versus asserted binary truth, non-terminal rejection and all-cell classification | Unique near, `0.285714` |
-| `GAME-0005` — Sudoku | `CON-001` | editable constructed digits under row/column/block constraints versus fixed hidden binary truth checked per input | Boundary control, `0.066667` |
-| `GAME-0008` — Nonogram | `CON-001` | editable filled/empty assignment and whole-line run descriptions versus local cyclic contiguity and immediate truth feedback | Boundary control, `0.066667` |
-| `GAME-0039` — The Witness | `CON-001` | complete path submission and post-commit clue feedback versus per-cell class assertion | Boundary control, `0.058824` |
+| `GAME-0003` — Minesweeper | `CON-001`, `INF-003`, `INF-004`, `TIM-001` | reveal plus optional flag; zero expansion; terminal hazard; safe-only objective versus asserted binary truth, non-terminal rejection and all-cell classification | Near, `0.285714` |
 
+### Preserved research notes
+
+- New recurring combination: `COMB-0049`, the four-gene shared proper subset
+  `CON-001`, `INF-003`, `INF-004`, `TIM-001`, supported exactly by Minesweeper
+  and Hexcells Infinite in the 49-game corpus.
 - New genes: `ACT-063`, `SYS-089`, `INF-026`, `OBJ-032`.
 - Reused genes: `CON-001`, `INF-003`, `INF-004`, `OBJ-002`, `TIM-001`.
 - Classification result: `New gene` plus recurring combination. New records are

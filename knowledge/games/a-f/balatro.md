@@ -241,34 +241,19 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0016`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0016`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `16` (`GAME-0001`–`GAME-0016`).
 - Exact genome matches: none.
-- Existing combination subsets: none.
-- Jaccard scores against complete genomes:
-  - `GAME-0001`: shared `TIM-001`; `1 / 26 = 0.038462`.
-  - `GAME-0002`: no shared genes; `0 / 20 = 0.000000`.
-  - `GAME-0003`: shared `INF-003`, `TIM-001`; `2 / 20 = 0.100000`.
-  - `GAME-0004`: no shared genes; `0 / 28 = 0.000000`.
-  - `GAME-0005`: no shared genes; `0 / 20 = 0.000000`.
-  - `GAME-0006`: no shared genes; `0 / 22 = 0.000000`.
-  - `GAME-0007`: no shared genes; `0 / 21 = 0.000000`.
-  - `GAME-0008`: no shared genes; `0 / 20 = 0.000000`.
-  - `GAME-0009`: shared `CON-020`, `TIM-001`; `2 / 27 = 0.074074`.
-  - `GAME-0010`: shared `TIM-001`; `1 / 21 = 0.047619`.
-  - `GAME-0011`: no shared genes; `0 / 26 = 0.000000`.
-  - `GAME-0012`: no shared genes; `0 / 22 = 0.000000`.
-  - `GAME-0013`: shared `TIM-001`; `1 / 25 = 0.040000`.
-  - `GAME-0014`: no shared genes; `0 / 28 = 0.000000`.
-  - `GAME-0015`: shared `TIM-001`; `1 / 26 = 0.038462`.
-  - `GAME-0016`: no shared genes; `0 / 28 = 0.000000`.
-- Unique near match: `GAME-0003` — Minesweeper at `0.100000`.
-- Long-form near comparison: both games expose player-selected actions against
-  fixed concealed current state and resolve each command discretely. In
-  Minesweeper the hidden state is a spatial hazard field constrained by local
-  clues; in Balatro it is an ordered draw pile with a visible remaining
-  multiset, revealed through automatic hand refill and evaluated through
-  score-producing subsets.
+- Tied near matches: `GAME-0003` — Minesweeper (`2 / 20 = 0.100000`).
+- Supported combination subsets: `COMB-0017`.
+- Scan date: 2026-08-11.
+
+### Selected-neighbour interpretation
+
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0003`.
+
+### Preserved research notes
+
 - Result: no exact signature or existing combination match. The low near score
   confirms mechanical distance and is not a novelty claim.
 

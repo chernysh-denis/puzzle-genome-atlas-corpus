@@ -3,6 +3,12 @@
 - Status: Accepted
 - Date: 2026-08-12
 
+Transition note (2026-08-26): ADR-009 supersedes the direct-Markdown and
+no-corpus-API clauses for the accepted backend-first target. This ADR still
+describes current production until an explicitly authorised cutover and parity
+window complete; its static HTML, bounded-browser-data and no-second-editor
+constraints remain accepted.
+
 ## Context
 
 The validated Atlas corpus is useful as research, but its Markdown-first form

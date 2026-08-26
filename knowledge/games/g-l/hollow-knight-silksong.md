@@ -289,75 +289,24 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-130,ACT-161,ACT-190,ACT-224,ACT-215; SYS-215,SYS-364,SYS-397,SYS-398,SYS-399,SYS-400; CON-269,CON-349,CON-350,CON-351,CON-352; INF-073,INF-119,INF-125; OBJ-080; TIM-003`.
-- Indexed games scanned: all 149 earlier canonical games.
-- Indexed combinations scanned: all 147 earlier verified combinations.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `149` (`GAME-0001`–`GAME-0149`).
 - Exact genome matches: none.
-- Near match: Marvel Rivals (`GAME-0147`) at `7 / 40 = 0.175000`.
-- Supported prior combination subsets: none; new `COMB-0148` is a strict
-  subset of this 22-gene genome.
+- Tied near matches: `GAME-0149` — Battlefield 6 (`9 / 48 = 0.187500`).
+- Supported combination subsets: `COMB-0148`.
 - Scan date: 2026-08-21.
 
-Exhaustive prior-game ledger:
+### Selected-neighbour interpretation
 
-- GAME-0001: 0 / 36 = 0.000000; GAME-0002: 0 / 29 = 0.000000; GAME-0003: 0 / 31 = 0.000000; GAME-0004: 1 / 36 = 0.027778.
-- GAME-0005: 0 / 29 = 0.000000; GAME-0006: 1 / 30 = 0.033333; GAME-0007: 0 / 30 = 0.000000; GAME-0008: 0 / 29 = 0.000000.
-- GAME-0009: 0 / 38 = 0.000000; GAME-0010: 0 / 31 = 0.000000; GAME-0011: 0 / 35 = 0.000000; GAME-0012: 0 / 31 = 0.000000.
-- GAME-0013: 0 / 35 = 0.000000; GAME-0014: 0 / 37 = 0.000000; GAME-0015: 0 / 36 = 0.000000; GAME-0016: 1 / 36 = 0.027778.
-- GAME-0017: 0 / 35 = 0.000000; GAME-0018: 1 / 40 = 0.025000; GAME-0019: 0 / 32 = 0.000000; GAME-0020: 0 / 36 = 0.000000.
-- GAME-0021: 1 / 30 = 0.033333; GAME-0022: 0 / 34 = 0.000000; GAME-0023: 0 / 32 = 0.000000; GAME-0024: 1 / 33 = 0.030303.
-- GAME-0025: 1 / 32 = 0.031250; GAME-0026: 1 / 33 = 0.030303; GAME-0027: 1 / 33 = 0.030303; GAME-0028: 1 / 38 = 0.026316.
-- GAME-0029: 2 / 32 = 0.062500; GAME-0030: 1 / 35 = 0.028571; GAME-0031: 0 / 33 = 0.000000; GAME-0032: 0 / 33 = 0.000000.
-- GAME-0033: 2 / 33 = 0.060606; GAME-0034: 2 / 34 = 0.058824; GAME-0035: 2 / 38 = 0.052632; GAME-0036: 1 / 33 = 0.030303.
-- GAME-0037: 0 / 31 = 0.000000; GAME-0038: 2 / 36 = 0.055556; GAME-0039: 0 / 31 = 0.000000; GAME-0040: 1 / 29 = 0.034483.
-- GAME-0041: 2 / 31 = 0.064516; GAME-0042: 0 / 31 = 0.000000; GAME-0043: 1 / 35 = 0.028571; GAME-0044: 1 / 31 = 0.032258.
-- GAME-0045: 1 / 35 = 0.028571; GAME-0046: 0 / 32 = 0.000000; GAME-0047: 0 / 36 = 0.000000; GAME-0048: 0 / 36 = 0.000000.
-- GAME-0049: 0 / 31 = 0.000000; GAME-0050: 1 / 36 = 0.027778; GAME-0051: 1 / 37 = 0.027027; GAME-0052: 0 / 32 = 0.000000.
-- GAME-0053: 1 / 30 = 0.033333; GAME-0054: 1 / 32 = 0.031250; GAME-0055: 1 / 31 = 0.032258; GAME-0056: 0 / 30 = 0.000000.
-- GAME-0057: 0 / 30 = 0.000000; GAME-0058: 0 / 31 = 0.000000; GAME-0059: 0 / 29 = 0.000000; GAME-0060: 0 / 29 = 0.000000.
-- GAME-0061: 0 / 32 = 0.000000; GAME-0062: 0 / 30 = 0.000000; GAME-0063: 0 / 29 = 0.000000; GAME-0064: 0 / 27 = 0.000000.
-- GAME-0065: 0 / 29 = 0.000000; GAME-0066: 0 / 32 = 0.000000; GAME-0067: 0 / 30 = 0.000000; GAME-0068: 0 / 30 = 0.000000.
-- GAME-0069: 0 / 30 = 0.000000; GAME-0070: 0 / 30 = 0.000000; GAME-0071: 0 / 29 = 0.000000; GAME-0072: 0 / 30 = 0.000000.
-- GAME-0073: 0 / 29 = 0.000000; GAME-0074: 0 / 31 = 0.000000; GAME-0075: 0 / 31 = 0.000000; GAME-0076: 0 / 29 = 0.000000.
-- GAME-0077: 0 / 29 = 0.000000; GAME-0078: 0 / 29 = 0.000000; GAME-0079: 0 / 29 = 0.000000; GAME-0080: 0 / 29 = 0.000000.
-- GAME-0081: 0 / 30 = 0.000000; GAME-0082: 0 / 30 = 0.000000; GAME-0083: 0 / 30 = 0.000000; GAME-0084: 0 / 32 = 0.000000.
-- GAME-0085: 0 / 33 = 0.000000; GAME-0086: 0 / 35 = 0.000000; GAME-0087: 1 / 31 = 0.032258; GAME-0088: 0 / 31 = 0.000000.
-- GAME-0089: 0 / 31 = 0.000000; GAME-0090: 1 / 36 = 0.027778; GAME-0091: 2 / 29 = 0.068966; GAME-0092: 1 / 31 = 0.032258.
-- GAME-0093: 0 / 31 = 0.000000; GAME-0094: 2 / 30 = 0.066667; GAME-0095: 2 / 32 = 0.062500; GAME-0096: 2 / 30 = 0.066667.
-- GAME-0097: 2 / 28 = 0.071429; GAME-0098: 2 / 27 = 0.074074; GAME-0099: 1 / 29 = 0.034483; GAME-0100: 1 / 32 = 0.031250.
-- GAME-0101: 0 / 32 = 0.000000; GAME-0102: 0 / 29 = 0.000000; GAME-0103: 0 / 31 = 0.000000; GAME-0104: 1 / 30 = 0.033333.
-- GAME-0105: 2 / 30 = 0.066667; GAME-0106: 0 / 29 = 0.000000; GAME-0107: 1 / 29 = 0.034483; GAME-0108: 1 / 31 = 0.032258.
-- GAME-0109: 0 / 38 = 0.000000; GAME-0110: 1 / 29 = 0.034483; GAME-0111: 1 / 28 = 0.035714; GAME-0112: 2 / 28 = 0.071429.
-- GAME-0113: 2 / 34 = 0.058824; GAME-0114: 1 / 28 = 0.035714; GAME-0115: 0 / 28 = 0.000000; GAME-0116: 2 / 26 = 0.076923.
-- GAME-0117: 1 / 29 = 0.034483; GAME-0118: 1 / 37 = 0.027027; GAME-0119: 1 / 44 = 0.022727; GAME-0120: 1 / 50 = 0.020000.
-- GAME-0121: 1 / 44 = 0.022727; GAME-0122: 1 / 36 = 0.027778; GAME-0123: 1 / 59 = 0.016949; GAME-0124: 2 / 67 = 0.029851.
-- GAME-0125: 1 / 63 = 0.015873; GAME-0126: 1 / 64 = 0.015625; GAME-0127: 1 / 69 = 0.014493; GAME-0128: 1 / 37 = 0.027027.
-- GAME-0129: 5 / 52 = 0.096154; GAME-0130: 1 / 74 = 0.013514; GAME-0131: 4 / 64 = 0.062500; GAME-0132: 1 / 72 = 0.013889.
-- GAME-0133: 1 / 66 = 0.015152; GAME-0134: 1 / 72 = 0.013889; GAME-0135: 1 / 69 = 0.014493; GAME-0136: 1 / 81 = 0.012346.
-- GAME-0137: 5 / 47 = 0.106383; GAME-0138: 6 / 51 = 0.117647; GAME-0139: 6 / 70 = 0.085714; GAME-0140: 5 / 60 = 0.083333.
-- GAME-0141: 5 / 68 = 0.073529; GAME-0142: 5 / 68 = 0.073529; GAME-0143: 4 / 67 = 0.059701; GAME-0144: 8 / 49 = 0.163265.
-- GAME-0145: 9 / 61 = 0.147541; GAME-0146: 9 / 77 = 0.116883; GAME-0147: 7 / 40 = 0.175000; GAME-0148: 9 / 56 = 0.160714.
-- GAME-0149: 8 / 49 = 0.163265.
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0149`.
 
-| Neighbour | Shared genes | Decision-relevant differences | Match result |
-|---|---|---|---|
-| Marvel Rivals (`GAME-0147`) | `ACT-008`, `ACT-161`, `ACT-190`, `SYS-215`, `CON-269`, `INF-119`, `TIM-003` | reconfigurable team heroes and capture-to-escort pressure versus a persistent solo route with Silk, Crests, Benches, Cocoon and authored act gates | nearest, not exact; `7 / 40 = 0.175000` |
+### Preserved research notes
 
 - New genes: `SYS-397`–`SYS-400`, `CON-349`–`CON-352`, `OBJ-080`.
 - Classification result: `New gene` and new combination of known and new genes.
 - Evidence and reasoning: the distinctive boundary is the coupling of a shared
   attack/heal resource, permanent route capabilities, Crest-shaped loadout and
   recoverable death state to one multi-region act gate.
-
-### Registry normalisation 006 score corrections
-
-These recomputed values supersede the pre-normalisation fractions above:
-
-- `GAME-0132`: `2 / 71 = 0.028169`
-- `GAME-0137`: `6 / 46 = 0.130435`
-- `GAME-0143`: `5 / 66 = 0.075758`
-- `GAME-0149`: `9 / 48 = 0.187500`
-- Current prior-corpus near match after normalisation 006: `GAME-0149`.
 
 ## Combination assessment
 

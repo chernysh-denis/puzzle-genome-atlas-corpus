@@ -248,49 +248,20 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0031`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0031`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `31` (`GAME-0001`–`GAME-0031`).
 - Exact genome matches: none.
-- Existing combination subsets: none; `COMB-0022` is rejected because
-  `ACT-028` and `ACT-029` are absent.
-- Jaccard scores against complete genomes:
-  - `GAME-0001`: shared `CON-001`, `INF-001`; `2 / 23 = 0.086957`.
-  - `GAME-0002`: shared `CON-001`, `INF-001`; `2 / 16 = 0.125000`.
-  - `GAME-0003`: shared `CON-001`; `1 / 19 = 0.052632`.
-  - `GAME-0004`: shared `CON-001`, `INF-001`; `2 / 24 = 0.083333`.
-  - `GAME-0005`: shared `CON-001`, `INF-001`; `2 / 16 = 0.125000`.
-  - `GAME-0006`: shared `CON-001`, `INF-001`; `2 / 18 = 0.111111`.
-  - `GAME-0007`: shared `INF-001`; `1 / 18 = 0.055556`.
-  - `GAME-0008`: shared `CON-001`, `INF-001`; `2 / 16 = 0.125000`.
-  - `GAME-0009`: shared `CON-001`, `INF-001`; `2 / 25 = 0.080000`.
-  - `GAME-0010`: shared `CON-001`, `INF-001`; `2 / 18 = 0.111111`.
-  - `GAME-0011`: shared `CON-001`, `INF-001`; `2 / 22 = 0.090909`.
-  - `GAME-0012`: shared `CON-001`, `INF-001`; `2 / 18 = 0.111111`.
-  - `GAME-0013`: shared `CON-001`, `INF-001`; `2 / 22 = 0.090909`.
-  - `GAME-0014`: shared `CON-001`, `INF-001`; `2 / 24 = 0.083333`.
-  - `GAME-0015`: shared `CON-001`, `INF-001`; `2 / 23 = 0.086957`.
-  - `GAME-0016`: shared `CON-001`, `INF-001`; `2 / 24 = 0.083333`.
-  - `GAME-0017`: shared none; `0 / 24 = 0.000000`.
-  - `GAME-0018`: shared `INF-001`; `1 / 29 = 0.034483`.
-  - `GAME-0019`: shared `CON-001`, `INF-001`; `2 / 19 = 0.105263`.
-  - `GAME-0020`: shared `INF-001`; `1 / 24 = 0.041667`.
-  - `GAME-0021`: shared `INF-001`; `1 / 19 = 0.052632`.
-  - `GAME-0022`: shared `SYS-038`, `SYS-040`, `CON-063`, `INF-001`, `INF-011`, `OBJ-015`, `OBJ-016`, `TIM-006`; `8 / 15 = 0.533333`.
-  - `GAME-0023`: shared none; `0 / 21 = 0.000000`.
-  - `GAME-0024`: shared `CON-001`; `1 / 22 = 0.045455`.
-  - `GAME-0025`: shared `INF-001`; `1 / 21 = 0.047619`.
-  - `GAME-0026`: shared `INF-001`; `1 / 22 = 0.045455`.
-  - `GAME-0027`: shared `CON-001`, `INF-001`; `2 / 21 = 0.095238`.
-  - `GAME-0028`: shared `CON-001`, `INF-001`; `2 / 26 = 0.076923`.
-  - `GAME-0029`: shared `CON-001`, `INF-001`; `2 / 21 = 0.095238`.
-  - `GAME-0030`: shared `INF-001`; `1 / 24 = 0.041667`.
-  - `GAME-0031`: shared `INF-001`; `1 / 21 = 0.047619`.
-- Mathematically selected near match: `GAME-0022` — Opus Magnum at
-  `8 / 15 = 0.533333`.
+- Tied near matches: `GAME-0022` — Opus Magnum (`8 / 15 = 0.533333`).
+- Supported combination subsets: `COMB-0032`.
+- Scan date: 2026-08-12.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0022` — Opus Magnum | `SYS-038`, `SYS-040`, `CON-063`, `INF-001`, `INF-011`, `OBJ-015`, `OBJ-016`, `TIM-006` | spatial route-program and explicit bond commands on a finite grid versus placed mechanisms, separate temporal tapes and passive transformation glyphs | Near match; supports new shared execution combination, not `COMB-0022` |
+| `GAME-0022` — Opus Magnum | `SYS-038`, `SYS-040`, `CON-063`, `INF-001`, `INF-011`, `OBJ-015`, `OBJ-016`, `TIM-006` | spatial route-program and explicit bond commands on a finite grid versus placed mechanisms, separate temporal tapes and passive transformation glyphs | Near, `0.533333` |
+
+### Preserved research notes
 
 - New genes: `ACT-046`, `SYS-058`.
 - Classification result: `New gene` and the first cross-game verified

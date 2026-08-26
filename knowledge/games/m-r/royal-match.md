@@ -264,45 +264,23 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0008`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0008`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `8` (`GAME-0001`–`GAME-0008`).
 - Exact genome matches: none.
-- Shared with `GAME-0001`: `SYS-003`, `SYS-004`, `CON-001`, `INF-001`,
-  `INF-002`, `TIM-001`; intersection `6`, union `24`,
-  `6 / 24 = 0.250000`.
-- Shared with `GAME-0002`: `CON-001`, `INF-001`; intersection `2`, union `21`,
-  `2 / 21 = 0.095238`.
-- Shared with `GAME-0003`: `CON-001`, `TIM-001`; intersection `2`, union `23`,
-  `2 / 23 = 0.086957`.
-- Shared with `GAME-0004`: `SYS-004`, `CON-001`, `INF-001`; intersection `3`,
-  union `28`, `3 / 28 = 0.107143`.
-- Shared with `GAME-0005`: `CON-001`, `INF-001`; intersection `2`, union `21`,
-  `2 / 21 = 0.095238`.
-- Shared with `GAME-0006`: `CON-001`, `INF-001`; intersection `2`, union `23`,
-  `2 / 23 = 0.086957`.
-- Shared with `GAME-0007`: `INF-001`; intersection `1`, union `23`,
-  `1 / 23 = 0.043478`.
-- Shared with `GAME-0008`: `CON-001`, `INF-001`; intersection `2`, union `21`,
-  `2 / 21 = 0.095238`.
-- Near match: `GAME-0001`, the unique positive maximum among non-exact indexed
-  games.
-- Supported existing combination subsets: none. Every indexed combination
-  requires at least one absent action, behaviour, constraint or objective.
-- New combination: `COMB-0009`, whose nine genes are a proper subset of this
-  sixteen-gene genome.
+- Tied near matches: `GAME-0001` — 2048 (`6 / 24 = 0.250000`).
+- Supported combination subsets: `COMB-0009`.
 - Scan date: 2026-08-11.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
 | `GAME-0001` — 2048 | `SYS-003`, `SYS-004`, `CON-001`, `INF-001`, `INF-002`, `TIM-001` | Both resolve random insertion after discrete inputs; 2048 globally slides and merges values, while Royal Match validates local swaps then iterates clear-collapse-refill cascades under a move budget | Near, `0.250000` |
-| `GAME-0002` — Rubik's Cube | `CON-001`, `INF-001` | Cube uses reversible self-paced permutations with no random successor; Royal Match spends bounded moves into automatic random resolution | Non-near, `0.095238` |
-| `GAME-0003` — Minesweeper | `CON-001`, `TIM-001` | Minesweeper reveals fixed concealed hazards; Royal Match displays current items and creates unpreviewed future refill outcomes | Non-near, `0.086957` |
-| `GAME-0004` — Tetris | `SYS-004`, `CON-001`, `INF-001` | Tetris accepts real-time input during forced descent; Royal Match freezes input while a discrete cascade resolves | Non-near, `0.107143` |
-| `GAME-0005` — Sudoku | `CON-001`, `INF-001` | Sudoku assigns symbols under static constraints; Royal Match exchanges existing items and resolves random cascades | Non-near, `0.095238` |
-| `GAME-0006` — Sokoban | `CON-001`, `INF-001` | Sokoban directly navigates and pushes persistent objects; Royal Match triggers broad automatic removal and refill | Non-near, `0.086957` |
-| `GAME-0007` — FreeCell | `INF-001` | FreeCell transports known cards through buffers without randomness; Royal Match depends on unpreviewed refill and automatic effects | Non-near, `0.043478` |
-| `GAME-0008` — Nonogram | `CON-001`, `INF-001` | Nonogram completes a static binary assignment; Royal Match repeatedly mutates board occupancy under a finite move budget | Non-near, `0.095238` |
 
+### Preserved research notes
+
+- New combination: `COMB-0009`, whose nine genes are a proper subset of this
+  sixteen-gene genome.
 - New genes: `ACT-011`, `ACT-012`, `SYS-010`, `SYS-011`, `SYS-012`, `SYS-013`,
   `SYS-014`, `CON-019`, `CON-020`, `OBJ-007`.
 - Classification result: `New gene`.

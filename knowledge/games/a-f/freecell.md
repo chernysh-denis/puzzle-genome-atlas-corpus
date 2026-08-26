@@ -240,38 +240,23 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0006`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0006`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `6` (`GAME-0001`–`GAME-0006`).
 - Exact genome matches: none.
-- Shared with `GAME-0001`: `INF-001`; intersection `1`, union `21`,
-  `1 / 21 = 0.047619`.
-- Shared with `GAME-0002`: `INF-001`, `OBJ-004`, `TIM-002`; intersection `3`,
-  union `12`, `3 / 12 = 0.250000`.
-- Shared with `GAME-0003`: none; intersection `0`, union `17`,
-  `0 / 17 = 0.000000`.
-- Shared with `GAME-0004`: `INF-001`; intersection `1`, union `22`,
-  `1 / 22 = 0.045455`.
-- Shared with `GAME-0005`: `INF-001`, `TIM-002`; intersection `2`, union `13`,
-  `2 / 13 = 0.153846`.
-- Shared with `GAME-0006`: `INF-001`, `OBJ-004`, `TIM-002`; intersection `3`,
-  union `14`, `3 / 14 = 0.214286`.
-- Near match: `GAME-0002`, the unique positive maximum among non-exact indexed
-  games.
-- Supported existing combination subsets: none. Each indexed combination
-  requires an absent action, constraint or objective.
-- New combination: `COMB-0007`, whose seven genes are a proper subset of this
-  eight-gene genome.
+- Tied near matches: `GAME-0002` — Rubik’s Cube (`3 / 12 = 0.250000`).
+- Supported combination subsets: `COMB-0007`.
 - Scan date: 2026-08-11.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0001` — 2048 | `INF-001` | 2048 moves the whole board then spawns a random tile; FreeCell transfers one exposed known card without automatic resolution | Non-near, `0.047619` |
 | `GAME-0002` — Rubik's Cube | `INF-001`, `OBJ-004`, `TIM-002` | Both self-pacedly reconstruct visible components; Cube turns are primitive reversible permutations, while FreeCell access depends on ordered stacks and temporary storage | Near, `0.250000` |
-| `GAME-0003` — Minesweeper | none | Minesweeper reveals fixed concealed hazards; FreeCell begins fully visible and changes access rather than knowledge | Non-near, `0.000000` |
-| `GAME-0004` — Tetris | `INF-001` | Tetris advances and locks pieces in real time; FreeCell waits indefinitely between deterministic transfers | Non-near, `0.045455` |
-| `GAME-0005` — Sudoku | `INF-001`, `TIM-002` | Sudoku assigns values under global all-different constraints; FreeCell transports existing identities through ordered zones | Non-near, `0.153846` |
-| `GAME-0006` — Sokoban | `INF-001`, `OBJ-004`, `TIM-002` | Both plan visible transport to target zones; Sokoban requires agent position behind a crate, while FreeCell requires exposure and buffer capacity | Non-near, `0.214286` |
 
+### Preserved research notes
+
+- New combination: `COMB-0007`, whose seven genes are a proper subset of this
+  eight-gene genome.
 - New genes: `ACT-010`, `CON-014`, `CON-015`, `CON-016`, `CON-017`.
 - Classification result: `New gene`.
 - Evidence and reasoning: direct card transfer, stack-end access, single-card

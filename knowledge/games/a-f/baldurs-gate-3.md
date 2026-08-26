@@ -293,64 +293,18 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-019,ACT-040,ACT-107,ACT-130,ACT-131,ACT-161,ACT-190,ACT-191,ACT-199,ACT-232,ACT-238; SYS-299,SYS-379,SYS-387,SYS-388,SYS-389,SYS-390,SYS-391,SYS-392; CON-269,CON-270,CON-282,CON-284,CON-323,CON-336,CON-342,CON-343,CON-344,CON-345; INF-073,INF-119,INF-125,INF-128,INF-141,INF-148,INF-152,INF-153,INF-154; OBJ-077; TIM-001,TIM-003,TIM-007`.
-- Indexed games scanned: 147 (`GAME-0001`–`GAME-0147`).
-- Indexed combinations scanned: 145 (`COMB-0001`–`COMB-0145`).
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `147` (`GAME-0001`–`GAME-0147`).
 - Exact genome matches: none.
-- Near match: Cyberpunk 2077 (`GAME-0146`) at `22 / 85 = 0.258824`, sharing
-  authored dialogue and quest memory, direct movement and combat, character
-  progression, loot, inventory, map state, save history and a first ending.
-- Supported prior combination subsets: none.
+- Tied near matches: `GAME-0146` — Cyberpunk 2077 (`21 / 74 = 0.283784`).
+- Supported combination subsets: `COMB-0146`.
 - Scan date: 2026-08-21.
 
-Exhaustive prior-game ledger:
+### Selected-neighbour interpretation
 
-- GAME-0001: 1 / 56 = 0.017857; GAME-0002: 0 / 50 = 0.000000; GAME-0003: 1 / 51 = 0.019608; GAME-0004: 1 / 57 = 0.017544.
-- GAME-0005: 0 / 50 = 0.000000; GAME-0006: 1 / 51 = 0.019608; GAME-0007: 0 / 51 = 0.000000; GAME-0008: 0 / 50 = 0.000000.
-- GAME-0009: 1 / 58 = 0.017241; GAME-0010: 1 / 51 = 0.019608; GAME-0011: 0 / 56 = 0.000000; GAME-0012: 0 / 52 = 0.000000.
-- GAME-0013: 1 / 55 = 0.018182; GAME-0014: 1 / 57 = 0.017544; GAME-0015: 1 / 56 = 0.017857; GAME-0016: 1 / 57 = 0.017544.
-- GAME-0017: 1 / 55 = 0.018182; GAME-0018: 1 / 61 = 0.016393; GAME-0019: 1 / 52 = 0.019231; GAME-0020: 1 / 56 = 0.017857.
-- GAME-0021: 1 / 51 = 0.019608; GAME-0022: 0 / 55 = 0.000000; GAME-0023: 0 / 53 = 0.000000; GAME-0024: 1 / 54 = 0.018519.
-- GAME-0025: 1 / 53 = 0.018868; GAME-0026: 1 / 54 = 0.018519; GAME-0027: 2 / 53 = 0.037736; GAME-0028: 2 / 58 = 0.034483.
-- GAME-0029: 2 / 53 = 0.037736; GAME-0030: 2 / 55 = 0.036364; GAME-0031: 1 / 53 = 0.018868; GAME-0032: 0 / 54 = 0.000000.
-- GAME-0033: 2 / 54 = 0.037037; GAME-0034: 3 / 54 = 0.055556; GAME-0035: 3 / 58 = 0.051724; GAME-0036: 1 / 54 = 0.018519.
-- GAME-0037: 0 / 52 = 0.000000; GAME-0038: 2 / 57 = 0.035088; GAME-0039: 0 / 52 = 0.000000; GAME-0040: 1 / 50 = 0.020000.
-- GAME-0041: 3 / 51 = 0.058824; GAME-0042: 0 / 52 = 0.000000; GAME-0043: 2 / 55 = 0.036364; GAME-0044: 2 / 51 = 0.039216.
-- GAME-0045: 2 / 55 = 0.036364; GAME-0046: 0 / 53 = 0.000000; GAME-0047: 0 / 57 = 0.000000; GAME-0048: 1 / 56 = 0.017857.
-- GAME-0049: 1 / 51 = 0.019608; GAME-0050: 2 / 56 = 0.035714; GAME-0051: 1 / 58 = 0.017241; GAME-0052: 0 / 53 = 0.000000.
-- GAME-0053: 2 / 50 = 0.040000; GAME-0054: 2 / 52 = 0.038462; GAME-0055: 2 / 51 = 0.039216; GAME-0056: 0 / 51 = 0.000000.
-- GAME-0057: 1 / 50 = 0.020000; GAME-0058: 1 / 51 = 0.019608; GAME-0059: 1 / 49 = 0.020408; GAME-0060: 1 / 49 = 0.020408.
-- GAME-0061: 0 / 53 = 0.000000; GAME-0062: 0 / 51 = 0.000000; GAME-0063: 0 / 50 = 0.000000; GAME-0064: 0 / 48 = 0.000000.
-- GAME-0065: 0 / 50 = 0.000000; GAME-0066: 0 / 53 = 0.000000; GAME-0067: 0 / 51 = 0.000000; GAME-0068: 0 / 51 = 0.000000.
-- GAME-0069: 0 / 51 = 0.000000; GAME-0070: 1 / 50 = 0.020000; GAME-0071: 0 / 50 = 0.000000; GAME-0072: 0 / 51 = 0.000000.
-- GAME-0073: 0 / 50 = 0.000000; GAME-0074: 0 / 52 = 0.000000; GAME-0075: 0 / 52 = 0.000000; GAME-0076: 0 / 50 = 0.000000.
-- GAME-0077: 0 / 50 = 0.000000; GAME-0078: 0 / 50 = 0.000000; GAME-0079: 0 / 50 = 0.000000; GAME-0080: 0 / 50 = 0.000000.
-- GAME-0081: 0 / 51 = 0.000000; GAME-0082: 0 / 51 = 0.000000; GAME-0083: 0 / 51 = 0.000000; GAME-0084: 0 / 53 = 0.000000.
-- GAME-0085: 0 / 54 = 0.000000; GAME-0086: 0 / 56 = 0.000000; GAME-0087: 1 / 52 = 0.019231; GAME-0088: 0 / 52 = 0.000000.
-- GAME-0089: 0 / 52 = 0.000000; GAME-0090: 1 / 57 = 0.017544; GAME-0091: 2 / 50 = 0.040000; GAME-0092: 1 / 52 = 0.019231.
-- GAME-0093: 0 / 52 = 0.000000; GAME-0094: 2 / 51 = 0.039216; GAME-0095: 2 / 53 = 0.037736; GAME-0096: 2 / 51 = 0.039216.
-- GAME-0097: 2 / 49 = 0.040816; GAME-0098: 2 / 48 = 0.041667; GAME-0099: 2 / 49 = 0.040816; GAME-0100: 1 / 53 = 0.018868.
-- GAME-0101: 0 / 53 = 0.000000; GAME-0102: 0 / 50 = 0.000000; GAME-0103: 0 / 52 = 0.000000; GAME-0104: 1 / 51 = 0.019608.
-- GAME-0105: 3 / 50 = 0.060000; GAME-0106: 0 / 50 = 0.000000; GAME-0107: 1 / 50 = 0.020000; GAME-0108: 1 / 52 = 0.019231.
-- GAME-0109: 1 / 58 = 0.017241; GAME-0110: 1 / 50 = 0.020000; GAME-0111: 1 / 49 = 0.020408; GAME-0112: 2 / 49 = 0.040816.
-- GAME-0113: 2 / 55 = 0.036364; GAME-0114: 1 / 49 = 0.020408; GAME-0115: 0 / 49 = 0.000000; GAME-0116: 2 / 47 = 0.042553.
-- GAME-0117: 1 / 50 = 0.020000; GAME-0118: 1 / 58 = 0.017241; GAME-0119: 1 / 65 = 0.015385; GAME-0120: 2 / 70 = 0.028571.
-- GAME-0121: 1 / 65 = 0.015385; GAME-0122: 1 / 57 = 0.017544; GAME-0123: 2 / 79 = 0.025316; GAME-0124: 2 / 88 = 0.022727.
-- GAME-0125: 1 / 84 = 0.011905; GAME-0126: 1 / 85 = 0.011765; GAME-0127: 1 / 90 = 0.011111; GAME-0128: 1 / 58 = 0.017241.
-- GAME-0129: 4 / 74 = 0.054054; GAME-0130: 1 / 95 = 0.010526; GAME-0131: 3 / 86 = 0.034884; GAME-0132: 2 / 92 = 0.021739.
-- GAME-0133: 1 / 87 = 0.011494; GAME-0134: 1 / 93 = 0.010753; GAME-0135: 1 / 90 = 0.011111; GAME-0136: 1 / 102 = 0.009804.
-- GAME-0137: 4 / 69 = 0.057971; GAME-0138: 8 / 70 = 0.114286; GAME-0139: 6 / 91 = 0.065934; GAME-0140: 7 / 79 = 0.088608.
-- GAME-0141: 6 / 88 = 0.068182; GAME-0142: 6 / 88 = 0.068182; GAME-0143: 6 / 86 = 0.069767; GAME-0144: 16 / 62 = 0.258065.
-- GAME-0145: 10 / 81 = 0.123457; GAME-0146: 22 / 85 = 0.258824; GAME-0147: 6 / 62 = 0.096774.
-
-### Registry normalisation 006 score corrections
-
-These recomputed values supersede the pre-normalisation fractions above:
-
-- `GAME-0137`: `5 / 68 = 0.073529`
-- `GAME-0139`: `7 / 90 = 0.077778`
-- `GAME-0143`: `8 / 84 = 0.095238`
-- Current prior-corpus near match after normalisation 006: `GAME-0146`.
+| Neighbour | Shared genes | Decision-relevant differences | Match result |
+|---|---|---|---|
+| `GAME-0146` — Cyberpunk 2077 | `ACT-008`, `ACT-107`, `ACT-161`, `ACT-191`, `ACT-199`, `ACT-232`, `SYS-299`, `SYS-379`, `CON-269`, `CON-270`, `CON-282`, `CON-284`, `CON-336`, `INF-073`, `INF-119`, `INF-125`, `INF-128`, `INF-148`, `OBJ-077`, `TIM-003`, `TIM-007` | Both packets retain an authored branching campaign, persistent build and inventory choices, dialogue state and save restoration. Baldur's Gate 3 resolves those choices through a four-character initiative order, d20 checks, action economy and camp recovery, while Cyberpunk uses one real-time avatar with scanner, quickhacks and capacity-bound cyberware. | Near, `0.283784` |
 
 ## Taxonomy impact
 

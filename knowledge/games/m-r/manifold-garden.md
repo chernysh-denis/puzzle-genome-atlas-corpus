@@ -266,40 +266,16 @@ Full signature:
 
 ## Corpus comparison
 
-The comparison scans every complete prior signature (`GAME-0001` through
-`GAME-0094`) with canonical Jaccard intersection over union.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `94` (`GAME-0001`–`GAME-0094`).
+- Exact genome matches: none.
+- Tied near matches: `GAME-0094` — Superliminal (`6 / 16 = 0.375000`).
+- Supported combination subsets: `COMB-0095`.
+- Scan date: 2026-08-14.
 
-- Near match: `GAME-0094` Superliminal is uniquely nearest at
-  `6 / 16 = 0.375000`.
+### Selected-neighbour interpretation
 
-| Prior game | Shared genes | Boundary | Result |
-|---|---|---|---|
-| `GAME-0094` — Superliminal | `ACT-008`, `ACT-048`, `SYS-036`, `INF-001`, `OBJ-022`, `TIM-003` | both carry a body through a visible first-person physics room, but only Manifold Garden changes global gravity and wraps space | uniquely nearest, `6 / 16 = 0.375000` |
-| `GAME-0033` — Portal | `ACT-008`, `ACT-048`, `SYS-036`, `INF-001`, `OBJ-022`, `TIM-003` | paired apertures and exit-relative momentum versus global periodic translation and selected down | second, `6 / 19 = 0.315789` |
-| `GAME-0041` — Viewfinder | `ACT-008`, `SYS-036`, `INF-001`, `OBJ-022`, `TIM-003` | image-instantiated geometry versus unchanged repeating architecture | third, `5 / 18 = 0.277778` |
-| `GAME-0091` — Fez | `ACT-008`, `SYS-036`, `INF-001`, `TIM-003` | four camera projections versus six physical gravity frames | fourth, `4 / 17 = 0.235294` |
-| `GAME-0034` — Braid | `ACT-008`, `ACT-049`, `INF-001`, `TIM-003` | ordinary live platforming plus rewind versus periodic gravity traversal | fifth, `4 / 22 = 0.181818` |
-
-- All other prior games score at or below `3 / 18 = 0.166667`, except The
-  Swapper, which also scores `4 / 24 = 0.166667`.
-- The six-gene candidate `ACT-008, ACT-097, SYS-125, SYS-126, INF-045,
-  OBJ-022` is a proper subset of the 12-gene full signature.
-- Exhaustive comparison against `COMB-0001` through `COMB-0094` finds no
-  existing combination equal to, contained by or containing that candidate.
-
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `1 / 25 = 0.040000`; `GAME-0002`: `1 / 18 = 0.055556`; `GAME-0003`: `0 / 21 = 0.000000`; `GAME-0004`: `2 / 25 = 0.080000`; `GAME-0005`: `1 / 18 = 0.055556`; `GAME-0006`: `2 / 19 = 0.105263`; `GAME-0007`: `1 / 19 = 0.052632`; `GAME-0008`: `1 / 18 = 0.055556`.
-  - `GAME-0009`: `1 / 27 = 0.037037`; `GAME-0010`: `1 / 20 = 0.050000`; `GAME-0011`: `1 / 24 = 0.041667`; `GAME-0012`: `1 / 20 = 0.050000`; `GAME-0013`: `1 / 24 = 0.041667`; `GAME-0014`: `1 / 26 = 0.038462`; `GAME-0015`: `1 / 25 = 0.040000`; `GAME-0016`: `2 / 25 = 0.080000`.
-  - `GAME-0017`: `0 / 25 = 0.000000`; `GAME-0018`: `2 / 29 = 0.068966`; `GAME-0019`: `1 / 21 = 0.047619`; `GAME-0020`: `1 / 25 = 0.040000`; `GAME-0021`: `3 / 18 = 0.166667`; `GAME-0022`: `1 / 23 = 0.043478`; `GAME-0023`: `0 / 22 = 0.000000`; `GAME-0024`: `1 / 23 = 0.043478`.
-  - `GAME-0025`: `2 / 21 = 0.095238`; `GAME-0026`: `3 / 21 = 0.142857`; `GAME-0027`: `2 / 22 = 0.090909`; `GAME-0028`: `2 / 27 = 0.074074`; `GAME-0029`: `3 / 21 = 0.142857`; `GAME-0030`: `3 / 23 = 0.130435`; `GAME-0031`: `2 / 21 = 0.095238`; `GAME-0032`: `1 / 22 = 0.045455`.
-  - `GAME-0033`: `6 / 19 = 0.315789`; `GAME-0034`: `4 / 22 = 0.181818`; `GAME-0035`: `3 / 27 = 0.111111`; `GAME-0036`: `2 / 22 = 0.090909`; `GAME-0037`: `1 / 20 = 0.050000`; `GAME-0038`: `4 / 24 = 0.166667`; `GAME-0039`: `1 / 20 = 0.050000`; `GAME-0040`: `2 / 18 = 0.111111`.
-  - `GAME-0041`: `5 / 18 = 0.277778`; `GAME-0042`: `1 / 20 = 0.050000`; `GAME-0043`: `2 / 24 = 0.083333`; `GAME-0044`: `2 / 20 = 0.100000`; `GAME-0045`: `3 / 23 = 0.130435`; `GAME-0046`: `1 / 21 = 0.047619`; `GAME-0047`: `1 / 25 = 0.040000`; `GAME-0048`: `1 / 25 = 0.040000`.
-  - `GAME-0049`: `0 / 21 = 0.000000`; `GAME-0050`: `2 / 25 = 0.080000`; `GAME-0051`: `2 / 26 = 0.076923`; `GAME-0052`: `1 / 21 = 0.047619`; `GAME-0053`: `2 / 19 = 0.105263`; `GAME-0054`: `2 / 21 = 0.095238`; `GAME-0055`: `3 / 19 = 0.157895`; `GAME-0056`: `1 / 19 = 0.052632`.
-  - `GAME-0057`: `1 / 19 = 0.052632`; `GAME-0058`: `1 / 20 = 0.050000`; `GAME-0059`: `1 / 18 = 0.055556`; `GAME-0060`: `1 / 18 = 0.055556`; `GAME-0061`: `1 / 21 = 0.047619`; `GAME-0062`: `1 / 19 = 0.052632`; `GAME-0063`: `1 / 18 = 0.055556`; `GAME-0064`: `1 / 16 = 0.062500`.
-  - `GAME-0065`: `0 / 19 = 0.000000`; `GAME-0066`: `0 / 22 = 0.000000`; `GAME-0067`: `0 / 20 = 0.000000`; `GAME-0068`: `0 / 20 = 0.000000`; `GAME-0069`: `1 / 19 = 0.052632`; `GAME-0070`: `1 / 19 = 0.052632`; `GAME-0071`: `1 / 18 = 0.055556`; `GAME-0072`: `1 / 19 = 0.052632`.
-  - `GAME-0073`: `1 / 18 = 0.055556`; `GAME-0074`: `1 / 20 = 0.050000`; `GAME-0075`: `1 / 20 = 0.050000`; `GAME-0076`: `1 / 18 = 0.055556`; `GAME-0077`: `1 / 18 = 0.055556`; `GAME-0078`: `1 / 18 = 0.055556`; `GAME-0079`: `1 / 18 = 0.055556`; `GAME-0080`: `1 / 18 = 0.055556`.
-  - `GAME-0081`: `1 / 19 = 0.052632`; `GAME-0082`: `1 / 19 = 0.052632`; `GAME-0083`: `1 / 19 = 0.052632`; `GAME-0084`: `1 / 21 = 0.047619`; `GAME-0085`: `0 / 23 = 0.000000`; `GAME-0086`: `1 / 24 = 0.041667`; `GAME-0087`: `2 / 20 = 0.100000`; `GAME-0088`: `1 / 20 = 0.050000`.
-  - `GAME-0089`: `1 / 20 = 0.050000`; `GAME-0090`: `2 / 25 = 0.080000`; `GAME-0091`: `4 / 17 = 0.235294`; `GAME-0092`: `2 / 20 = 0.100000`; `GAME-0093`: `1 / 20 = 0.050000`; `GAME-0094`: `6 / 16 = 0.375000`.
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0094`.
 
 ## Coverage decision
 
@@ -355,7 +331,8 @@ The comparison scans every complete prior signature (`GAME-0001` through
 - Evidence gate: passed with two official product records, three creator or
   studio technical accounts, the official walkthrough, one independent rules
   summary and one executable verifier.
-- Nearest prior genome: Superliminal at `6 / 16 = 0.375000`.
+- Nearest prior genome: Superliminal; see `Corpus comparison` for the current
+  result.
 - Next falsification target: Maquette, to distinguish recursive cross-scale
   state propagation from both periodic translation and camera-derived scale.
 

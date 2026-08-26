@@ -202,73 +202,20 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`:
-  `ACT-099,ACT-100; SYS-132,SYS-133; CON-068,CON-151,CON-152,CON-153; INF-050; OBJ-031; TIM-003`.
-- Indexed games scanned: 99.
-- Indexed combinations scanned: 99.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `99` (`GAME-0001`–`GAME-0099`).
 - Exact genome matches: none.
-- Supported combination subset: `COMB-0100`.
+- Tied near matches: `GAME-0025` — Lemmings (`2 / 20 = 0.100000`).
+- Supported combination subsets: `COMB-0100`.
 - Scan date: 2026-08-15.
 
-### Full prior-game Jaccard scan
-
-- `GAME-0001`: `0 / 25 = 0.000000`; `GAME-0002`: `0 / 18 = 0.000000`.
-- `GAME-0003`: `0 / 20 = 0.000000`; `GAME-0004`: `1 / 25 = 0.040000`.
-- `GAME-0005`: `0 / 18 = 0.000000`; `GAME-0006`: `0 / 20 = 0.000000`.
-- `GAME-0007`: `0 / 19 = 0.000000`; `GAME-0008`: `0 / 18 = 0.000000`.
-- `GAME-0009`: `0 / 27 = 0.000000`; `GAME-0010`: `0 / 20 = 0.000000`.
-- `GAME-0011`: `0 / 24 = 0.000000`; `GAME-0012`: `0 / 20 = 0.000000`.
-- `GAME-0013`: `0 / 24 = 0.000000`; `GAME-0014`: `0 / 26 = 0.000000`.
-- `GAME-0015`: `0 / 25 = 0.000000`; `GAME-0016`: `1 / 25 = 0.040000`.
-- `GAME-0017`: `0 / 24 = 0.000000`; `GAME-0018`: `1 / 29 = 0.034483`.
-- `GAME-0019`: `0 / 21 = 0.000000`; `GAME-0020`: `0 / 25 = 0.000000`.
-- `GAME-0021`: `1 / 19 = 0.052632`; `GAME-0022`: `0 / 23 = 0.000000`.
-- `GAME-0023`: `0 / 21 = 0.000000`; `GAME-0024`: `1 / 22 = 0.045455`.
-- `GAME-0025`: `2 / 20 = 0.100000`; `GAME-0026`: `1 / 22 = 0.045455`.
-- `GAME-0027`: `1 / 22 = 0.045455`; `GAME-0028`: `1 / 27 = 0.037037`.
-- `GAME-0029`: `1 / 22 = 0.045455`; `GAME-0030`: `1 / 24 = 0.041667`.
-- `GAME-0031`: `0 / 22 = 0.000000`; `GAME-0032`: `0 / 22 = 0.000000`.
-- `GAME-0033`: `1 / 23 = 0.043478`; `GAME-0034`: `1 / 24 = 0.041667`.
-- `GAME-0035`: `1 / 28 = 0.035714`; `GAME-0036`: `0 / 23 = 0.000000`.
-- `GAME-0037`: `0 / 20 = 0.000000`; `GAME-0038`: `1 / 26 = 0.038462`.
-- `GAME-0039`: `0 / 20 = 0.000000`; `GAME-0040`: `0 / 19 = 0.000000`.
-- `GAME-0041`: `1 / 21 = 0.047619`; `GAME-0042`: `0 / 20 = 0.000000`.
-- `GAME-0043`: `0 / 25 = 0.000000`; `GAME-0044`: `0 / 21 = 0.000000`.
-- `GAME-0045`: `0 / 25 = 0.000000`; `GAME-0046`: `0 / 21 = 0.000000`.
-- `GAME-0047`: `0 / 25 = 0.000000`; `GAME-0048`: `1 / 24 = 0.041667`.
-- `GAME-0049`: `0 / 20 = 0.000000`; `GAME-0050`: `0 / 26 = 0.000000`.
-- `GAME-0051`: `1 / 26 = 0.038462`; `GAME-0052`: `0 / 21 = 0.000000`.
-- `GAME-0053`: `0 / 20 = 0.000000`; `GAME-0054`: `0 / 22 = 0.000000`.
-- `GAME-0055`: `0 / 21 = 0.000000`; `GAME-0056`: `0 / 19 = 0.000000`.
-- `GAME-0057`: `0 / 19 = 0.000000`; `GAME-0058`: `0 / 20 = 0.000000`.
-- `GAME-0059`: `0 / 18 = 0.000000`; `GAME-0060`: `0 / 18 = 0.000000`.
-- `GAME-0061`: `0 / 21 = 0.000000`; `GAME-0062`: `0 / 19 = 0.000000`.
-- `GAME-0063`: `0 / 18 = 0.000000`; `GAME-0064`: `0 / 16 = 0.000000`.
-- `GAME-0065`: `0 / 18 = 0.000000`; `GAME-0066`: `0 / 21 = 0.000000`.
-- `GAME-0067`: `0 / 19 = 0.000000`; `GAME-0068`: `0 / 19 = 0.000000`.
-- `GAME-0069`: `0 / 19 = 0.000000`; `GAME-0070`: `0 / 19 = 0.000000`.
-- `GAME-0071`: `0 / 18 = 0.000000`; `GAME-0072`: `0 / 19 = 0.000000`.
-- `GAME-0073`: `0 / 18 = 0.000000`; `GAME-0074`: `0 / 20 = 0.000000`.
-- `GAME-0075`: `0 / 20 = 0.000000`; `GAME-0076`: `0 / 18 = 0.000000`.
-- `GAME-0077`: `0 / 18 = 0.000000`; `GAME-0078`: `0 / 18 = 0.000000`.
-- `GAME-0079`: `0 / 18 = 0.000000`; `GAME-0080`: `0 / 18 = 0.000000`.
-- `GAME-0081`: `0 / 19 = 0.000000`; `GAME-0082`: `0 / 19 = 0.000000`.
-- `GAME-0083`: `0 / 19 = 0.000000`; `GAME-0084`: `0 / 21 = 0.000000`.
-- `GAME-0085`: `0 / 22 = 0.000000`; `GAME-0086`: `0 / 24 = 0.000000`.
-- `GAME-0087`: `1 / 20 = 0.050000`; `GAME-0088`: `0 / 20 = 0.000000`.
-- `GAME-0089`: `0 / 20 = 0.000000`; `GAME-0090`: `0 / 26 = 0.000000`.
-- `GAME-0091`: `1 / 19 = 0.052632`; `GAME-0092`: `1 / 20 = 0.050000`.
-- `GAME-0093`: `0 / 20 = 0.000000`; `GAME-0094`: `1 / 20 = 0.050000`.
-- `GAME-0095`: `1 / 22 = 0.045455`; `GAME-0096`: `1 / 20 = 0.050000`.
-- `GAME-0097`: `1 / 18 = 0.055556`; `GAME-0098`: `1 / 17 = 0.058824`.
-- `GAME-0099`: `0 / 19 = 0.000000`.
-
-- Near match: `GAME-0025` — Lemmings at `2 / 20 = 0.100000`.
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| Lemmings (`GAME-0025`) | `CON-068`, `TIM-003` | one operator assigns finite skills to visible autonomous agents; Keep Talking partitions state, procedure and control between communicating humans and couples mistakes to timer rate | nearest at `2 / 20 = 0.100000` |
-| Tactical Breach Wizards (`GAME-0048`) | `OBJ-031` | visible self-paced tactical task conjunction versus live distributed procedural defusal | objective boundary control at `1 / 24 = 0.041667` |
+| Lemmings (`GAME-0025`) | `CON-068`, `TIM-003` | one operator assigns finite skills to visible autonomous agents; Keep Talking partitions state, procedure and control between communicating humans and couples mistakes to timer rate | Near, `0.100000` |
+
+### Preserved research notes
 
 - New genes: `ACT-099`, `ACT-100`, `SYS-132`, `SYS-133`, `CON-151`,
   `CON-152`, `CON-153`, `INF-050`.

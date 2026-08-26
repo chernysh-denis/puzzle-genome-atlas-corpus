@@ -291,39 +291,20 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0042`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0042`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `42` (`GAME-0001`–`GAME-0042`).
 - Exact genome matches: none.
-- Existing combination subsets: none; `COMB-0036` is rejected because
-  `OBJ-004` and `TIM-002` are absent.
-- Mathematical near match: `GAME-0006` — Sokoban at
-  `6 / 17 = 0.352941`.
-- Full Jaccard scan (intersection / union = score):
-  `GAME-0001` `3 / 25 = 0.120000`; `GAME-0002` `2 / 19 = 0.105263`;
-  `GAME-0003` `2 / 21 = 0.095238`; `GAME-0004` `2 / 27 = 0.074074`;
-  `GAME-0005` `2 / 19 = 0.105263`; `GAME-0006` `6 / 17 = 0.352941`;
-  `GAME-0007` `1 / 21 = 0.047619`; `GAME-0008` `2 / 19 = 0.105263`;
-  `GAME-0009` `3 / 27 = 0.111111`; `GAME-0010` `3 / 20 = 0.150000`;
-  `GAME-0011` `2 / 25 = 0.080000`; `GAME-0012` `2 / 21 = 0.095238`;
-  `GAME-0013` `4 / 23 = 0.173913`; `GAME-0014` `3 / 26 = 0.115385`;
-  `GAME-0015` `3 / 25 = 0.120000`; `GAME-0016` `2 / 27 = 0.074074`;
-  `GAME-0017` `1 / 26 = 0.038462`; `GAME-0018` `1 / 32 = 0.031250`;
-  `GAME-0019` `4 / 20 = 0.200000`; `GAME-0020` `2 / 26 = 0.076923`;
-  `GAME-0021` `2 / 21 = 0.095238`; `GAME-0022` `1 / 25 = 0.040000`;
-  `GAME-0023` `0 / 24 = 0.000000`; `GAME-0024` `1 / 25 = 0.040000`;
-  `GAME-0025` `1 / 24 = 0.041667`; `GAME-0026` `1 / 25 = 0.040000`;
-  `GAME-0027` `2 / 24 = 0.083333`; `GAME-0028` `2 / 29 = 0.068966`;
-  `GAME-0029` `3 / 23 = 0.130435`; `GAME-0030` `1 / 27 = 0.037037`;
-  `GAME-0031` `1 / 24 = 0.041667`; `GAME-0032` `2 / 23 = 0.086957`;
-  `GAME-0033` `2 / 25 = 0.080000`; `GAME-0034` `2 / 26 = 0.076923`;
-  `GAME-0035` `2 / 30 = 0.066667`; `GAME-0036` `5 / 21 = 0.238095`;
-  `GAME-0037` `2 / 21 = 0.095238`; `GAME-0038` `2 / 28 = 0.071429`;
-  `GAME-0039` `2 / 21 = 0.095238`; `GAME-0040` `2 / 20 = 0.100000`;
-  `GAME-0041` `2 / 23 = 0.086957`; `GAME-0042` `1 / 22 = 0.045455`.
+- Tied near matches: `GAME-0006` — Sokoban (`6 / 17 = 0.352941`).
+- Supported combination subsets: `COMB-0043`, `COMB-0044`.
+- Scan date: 2026-08-12.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0006` — Sokoban | `ACT-008`, `ACT-009`, `CON-001`, `CON-011`, `CON-013`, `INF-001` | Sokoban translates one-cell crates toward goal occupancy under self-paced actions; Maiden's Walk rotates a player-fork footprint, slides or rolls a two-cell body, records per-face heat and resolves exact-once burn / return conditions after every input | Near match; no exact genome or existing-combination match |
+| `GAME-0006` — Sokoban | `ACT-008`, `ACT-009`, `CON-001`, `CON-011`, `CON-013`, `INF-001` | Sokoban translates one-cell crates toward goal occupancy under self-paced actions; Maiden's Walk rotates a player-fork footprint, slides or rolls a two-cell body, records per-face heat and resolves exact-once burn / return conditions after every input | Near, `0.352941` |
+
+### Preserved research notes
 
 - New genes: `ACT-058`, `SYS-078`, `SYS-079`, `CON-090`, `CON-091` and
   `OBJ-027`.

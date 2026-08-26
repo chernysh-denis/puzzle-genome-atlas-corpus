@@ -300,32 +300,27 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`, `GAME-0002`.
-- Indexed combinations scanned: `COMB-0001`, `COMB-0002`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `2` (`GAME-0001`–`GAME-0002`).
 - Exact genome matches: none.
-- Shared with `GAME-0001`: `CON-001`, `TIM-001`.
-- Structural similarity to `GAME-0001`: intersection `2`, union `21`,
-  `2 / 21 = 0.095238`.
-- Shared with `GAME-0002`: `CON-001`.
-- Structural similarity to `GAME-0002`: intersection `1`, union `15`,
-  `1 / 15 = 0.066667`.
-- Near match: `GAME-0001`, the unique positive maximum among non-exact indexed
-  games.
-- Supported existing combination subsets: none. Neither `COMB-0001` nor
-  `COMB-0002` is a subset of this genome.
+- Tied near matches: `GAME-0001` — 2048 (`2 / 21 = 0.095238`).
+- Supported combination subsets: `COMB-0003`, `COMB-0049`.
+- Scan date: 2026-07-28.
+
+### Selected-neighbour interpretation
+
+| Neighbour | Shared genes | Decision-relevant differences | Match result |
+|---|---|---|---|
+| `GAME-0001` — 2048 | `CON-001`, `TIM-001` | 2048 shows current state and selects a new random outcome after each move; Minesweeper fixes hidden state at setup and reveals exact local evidence about it | Near, `0.095238` |
+
+### Preserved research notes
+
 - New combination: `COMB-0003`, whose six genes are a proper subset of this
   nine-gene genome.
 - Later recurrence: `COMB-0049` uses the shared proper subset `CON-001`,
   `INF-003`, `INF-004`, `TIM-001` to connect this fixed concealed local-count
   deduction substrate with Hexcells Infinite while preserving their different
   commands, failure rules and objectives.
-- Scan date: 2026-07-28.
-
-| Neighbour | Shared genes | Decision-relevant differences | Match result |
-|---|---|---|---|
-| `GAME-0001` — 2048 | `CON-001`, `TIM-001` | 2048 shows current state and selects a new random outcome after each move; Minesweeper fixes hidden state at setup and reveals exact local evidence about it | Near, `0.095238` |
-| `GAME-0002` — Rubik's Cube | `CON-001` | Rubik's Cube is fully inspectable and structurally reversible; Minesweeper is partially observable and one hazard reveal is terminal | Non-near, `0.066667` |
-
 - New genes: `ACT-003`, `ACT-004`, `SYS-005`, `CON-006`, `INF-003`,
   `INF-004`, `OBJ-005`.
 - Classification result: `New gene`.

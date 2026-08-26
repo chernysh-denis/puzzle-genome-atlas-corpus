@@ -286,34 +286,23 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`, `GAME-0002`, `GAME-0003`.
-- Indexed combinations scanned: `COMB-0001`, `COMB-0002`, `COMB-0003`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `3` (`GAME-0001`–`GAME-0003`).
 - Exact genome matches: none.
-- Shared with `GAME-0001`: `SYS-004`, `CON-001`, `INF-001`, `OBJ-002`,
-  `OBJ-003`.
-- Structural similarity to `GAME-0001`: intersection `5`, union `25`,
-  `5 / 24 = 0.208333`.
-- Shared with `GAME-0002`: `CON-001`, `INF-001`.
-- Structural similarity to `GAME-0002`: intersection `2`, union `20`,
-  `2 / 20 = 0.100000`.
-- Shared with `GAME-0003`: `CON-001`.
-- Structural similarity to `GAME-0003`: intersection `1`, union `23`,
-  `1 / 23 = 0.043478`.
-- Near match: `GAME-0001`, the unique positive maximum among non-exact indexed
-  games.
-- Supported existing combination subsets: none. `COMB-0001` requires global
-  slide and merge resolution; `COMB-0002` requires reversible invariant-bound
-  layer rotation; `COMB-0003` requires fixed hidden hazards and exact clues.
-- New combination: `COMB-0004`, whose eight genes are a proper subset of this
-  fifteen-gene genome.
+- Tied near matches: `GAME-0001` — 2048 (`5 / 24 = 0.208333`).
+- Supported combination subsets: `COMB-0004`.
 - Scan date: 2026-08-11.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0001` — 2048 | `SYS-004`, `CON-001`, `INF-001`, `OBJ-002`, `OBJ-003` | 2048 resolves one global turn before another input; Tetris accepts pose inputs while gravity advances one temporary active piece | Near, `0.200000` |
-| `GAME-0002` — Rubik's Cube | `CON-001`, `INF-001` | Cube turns are self-paced and reversible; Tetris placement is time-limited, stochastic and becomes fixed | Non-near, `0.100000` |
-| `GAME-0003` — Minesweeper | `CON-001` | Minesweeper infers fixed concealed hazards; Tetris exposes the board and previews the exact next piece | Non-near, `0.043478` |
+| `GAME-0001` — 2048 | `SYS-004`, `CON-001`, `INF-001`, `OBJ-002`, `OBJ-003` | 2048 resolves one global turn before another input; Tetris accepts pose inputs while gravity advances one temporary active piece | Near, `0.208333` |
 
+### Preserved research notes
+
+- New combination: `COMB-0004`, whose eight genes are a proper subset of this
+  fifteen-gene genome.
 - New genes: `ACT-005`, `ACT-006`, `SYS-006`, `SYS-007`, `SYS-008`,
   `SYS-009`, `CON-007`, `CON-008`, `INF-005`, `TIM-003`.
 - Classification result: `New gene`.

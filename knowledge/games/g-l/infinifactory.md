@@ -266,39 +266,20 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0041`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0041`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `41` (`GAME-0001`–`GAME-0041`).
 - Exact genome matches: none.
-- Existing combination subsets: none before registering `COMB-0042`;
-  `COMB-0032` is rejected because `SYS-038` and `CON-063` are absent.
-- Full Jaccard scan (intersection / union = score):
-  `GAME-0001` `1 / 22 = 0.045455`; `GAME-0002` `1 / 15 = 0.066667`;
-  `GAME-0003` `0 / 18 = 0.000000`; `GAME-0004` `1 / 23 = 0.043478`;
-  `GAME-0005` `1 / 15 = 0.066667`; `GAME-0006` `1 / 17 = 0.058824`;
-  `GAME-0007` `1 / 16 = 0.062500`; `GAME-0008` `1 / 15 = 0.066667`;
-  `GAME-0009` `1 / 24 = 0.041667`; `GAME-0010` `1 / 17 = 0.058824`;
-  `GAME-0011` `1 / 21 = 0.047619`; `GAME-0012` `1 / 17 = 0.058824`;
-  `GAME-0013` `1 / 21 = 0.047619`; `GAME-0014` `1 / 23 = 0.043478`;
-  `GAME-0015` `1 / 22 = 0.045455`; `GAME-0016` `1 / 23 = 0.043478`;
-  `GAME-0017` `0 / 22 = 0.000000`; `GAME-0018` `1 / 27 = 0.037037`;
-  `GAME-0019` `1 / 18 = 0.055556`; `GAME-0020` `1 / 22 = 0.045455`;
-  `GAME-0021` `1 / 17 = 0.058824`; `GAME-0022` `8 / 13 = 0.615385`;
-  `GAME-0023` `0 / 19 = 0.000000`; `GAME-0024` `0 / 21 = 0.000000`;
-  `GAME-0025` `1 / 19 = 0.052632`; `GAME-0026` `1 / 20 = 0.050000`;
-  `GAME-0027` `1 / 20 = 0.050000`; `GAME-0028` `1 / 25 = 0.040000`;
-  `GAME-0029` `1 / 20 = 0.050000`; `GAME-0030` `1 / 22 = 0.045455`;
-  `GAME-0031` `1 / 19 = 0.052632`; `GAME-0032` `6 / 14 = 0.428571`;
-  `GAME-0033` `1 / 21 = 0.047619`; `GAME-0034` `1 / 22 = 0.045455`;
-  `GAME-0035` `1 / 26 = 0.038462`; `GAME-0036` `1 / 20 = 0.050000`;
-  `GAME-0037` `1 / 17 = 0.058824`; `GAME-0038` `1 / 24 = 0.041667`;
-  `GAME-0039` `1 / 17 = 0.058824`; `GAME-0040` `1 / 16 = 0.062500`;
-  `GAME-0041` `1 / 19 = 0.052632`.
-- Mathematical near match: `GAME-0022` — Opus Magnum at
-  `8 / 13 = 0.615385`.
+- Tied near matches: `GAME-0022` — Opus Magnum (`8 / 13 = 0.615385`).
+- Supported combination subsets: `COMB-0042`.
+- Scan date: 2026-08-12.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0022` — Opus Magnum | `ACT-028`, `SYS-040`, `CON-062`, `INF-001`, `INF-011`, `OBJ-015`, `OBJ-016`, `TIM-006` | Infinifactory's passive 3D conveyor field has no separate symbolic tapes, molecular transformation glyphs or kinematic program-fault halt; it adds discrete contact-driven assembly transport | Near match; supports `COMB-0042`, not full-genome or `COMB-0032` match |
+| `GAME-0022` — Opus Magnum | `ACT-028`, `SYS-040`, `CON-062`, `INF-001`, `INF-011`, `OBJ-015`, `OBJ-016`, `TIM-006` | Infinifactory's passive 3D conveyor field has no separate symbolic tapes, molecular transformation glyphs or kinematic program-fault halt; it adds discrete contact-driven assembly transport | Near, `0.615385` |
+
+### Preserved research notes
 
 - New genes: `SYS-077`.
 - Classification result: `New gene` and a new recurring combination of known

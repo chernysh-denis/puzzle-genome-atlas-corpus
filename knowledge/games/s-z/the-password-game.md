@@ -163,48 +163,20 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`:
-  `(ACT-103; SYS-135,SYS-136; CON-156; INF-030; OBJ-006; TIM-002)`.
-- Indexed games scanned: 102, including this record.
-- Indexed combinations scanned: 102.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `101` (`GAME-0001`–`GAME-0101`).
 - Exact genome matches: none.
-- Near match: `GAME-0062` — Hexologic at `3 / 12 = 0.250000`.
-- Supported combination subsets: `COMB-0102` only.
+- Tied near matches: `GAME-0062` — Hexologic (`3 / 12 = 0.250000`).
+- Supported combination subsets: `COMB-0102`.
 - Scan date: 2026-08-15.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| Hexologic (`GAME-0062`) | `INF-030`, `OBJ-006`, `TIM-002` | fixed visible line constraints over many cells versus an authored growing rule stack over one string | nearest at `3 / 12 = 0.250000` |
-| Sudoku (`GAME-0005`) | `OBJ-006`, `TIM-002` | fixed grid domains and units versus unrestricted string editing and sequential revelation | background at `2 / 12 = 0.166667` |
+| Hexologic (`GAME-0062`) | `INF-030`, `OBJ-006`, `TIM-002` | fixed visible line constraints over many cells versus an authored growing rule stack over one string | Near, `0.250000` |
 
-### Full prior-game Jaccard scan
-
-- `GAME-0001`: `0 / 21 = 0.000000`; `GAME-0002`: `1 / 13 = 0.076923`; `GAME-0003`: `0 / 16 = 0.000000`; `GAME-0004`: `0 / 22 = 0.000000`.
-- `GAME-0005`: `2 / 12 = 0.166667`; `GAME-0006`: `1 / 15 = 0.066667`; `GAME-0007`: `1 / 14 = 0.071429`; `GAME-0008`: `2 / 12 = 0.166667`.
-- `GAME-0009`: `0 / 23 = 0.000000`; `GAME-0010`: `0 / 16 = 0.000000`; `GAME-0011`: `1 / 19 = 0.052632`; `GAME-0012`: `2 / 14 = 0.142857`.
-- `GAME-0013`: `0 / 20 = 0.000000`; `GAME-0014`: `0 / 22 = 0.000000`; `GAME-0015`: `0 / 21 = 0.000000`; `GAME-0016`: `0 / 22 = 0.000000`.
-- `GAME-0017`: `0 / 20 = 0.000000`; `GAME-0018`: `0 / 26 = 0.000000`; `GAME-0019`: `0 / 17 = 0.000000`; `GAME-0020`: `0 / 21 = 0.000000`.
-- `GAME-0021`: `0 / 16 = 0.000000`; `GAME-0022`: `0 / 19 = 0.000000`; `GAME-0023`: `1 / 16 = 0.062500`; `GAME-0024`: `1 / 18 = 0.055556`.
-- `GAME-0025`: `0 / 18 = 0.000000`; `GAME-0026`: `0 / 19 = 0.000000`; `GAME-0027`: `0 / 19 = 0.000000`; `GAME-0028`: `0 / 24 = 0.000000`.
-- `GAME-0029`: `0 / 19 = 0.000000`; `GAME-0030`: `0 / 21 = 0.000000`; `GAME-0031`: `0 / 18 = 0.000000`; `GAME-0032`: `0 / 18 = 0.000000`.
-- `GAME-0033`: `0 / 20 = 0.000000`; `GAME-0034`: `0 / 21 = 0.000000`; `GAME-0035`: `0 / 25 = 0.000000`; `GAME-0036`: `1 / 18 = 0.055556`.
-- `GAME-0037`: `0 / 16 = 0.000000`; `GAME-0038`: `0 / 23 = 0.000000`; `GAME-0039`: `2 / 14 = 0.142857`; `GAME-0040`: `1 / 14 = 0.071429`.
-- `GAME-0041`: `0 / 18 = 0.000000`; `GAME-0042`: `0 / 16 = 0.000000`; `GAME-0043`: `0 / 21 = 0.000000`; `GAME-0044`: `0 / 17 = 0.000000`.
-- `GAME-0045`: `0 / 21 = 0.000000`; `GAME-0046`: `1 / 16 = 0.062500`; `GAME-0047`: `0 / 21 = 0.000000`; `GAME-0048`: `0 / 21 = 0.000000`.
-- `GAME-0049`: `0 / 16 = 0.000000`; `GAME-0050`: `0 / 22 = 0.000000`; `GAME-0051`: `0 / 23 = 0.000000`; `GAME-0052`: `0 / 17 = 0.000000`.
-- `GAME-0053`: `0 / 16 = 0.000000`; `GAME-0054`: `0 / 18 = 0.000000`; `GAME-0055`: `0 / 17 = 0.000000`; `GAME-0056`: `0 / 15 = 0.000000`.
-- `GAME-0057`: `0 / 15 = 0.000000`; `GAME-0058`: `0 / 16 = 0.000000`; `GAME-0059`: `0 / 14 = 0.000000`; `GAME-0060`: `0 / 14 = 0.000000`.
-- `GAME-0061`: `2 / 15 = 0.133333`; `GAME-0062`: `3 / 12 = 0.250000`; `GAME-0063`: `1 / 13 = 0.076923`; `GAME-0064`: `1 / 11 = 0.090909`.
-- `GAME-0065`: `1 / 13 = 0.076923`; `GAME-0066`: `1 / 16 = 0.062500`; `GAME-0067`: `0 / 15 = 0.000000`; `GAME-0068`: `1 / 14 = 0.071429`.
-- `GAME-0069`: `1 / 14 = 0.071429`; `GAME-0070`: `0 / 15 = 0.000000`; `GAME-0071`: `2 / 12 = 0.166667`; `GAME-0072`: `2 / 13 = 0.153846`.
-- `GAME-0073`: `2 / 12 = 0.166667`; `GAME-0074`: `2 / 14 = 0.142857`; `GAME-0075`: `2 / 14 = 0.142857`; `GAME-0076`: `2 / 12 = 0.166667`.
-- `GAME-0077`: `2 / 12 = 0.166667`; `GAME-0078`: `2 / 12 = 0.166667`; `GAME-0079`: `2 / 12 = 0.166667`; `GAME-0080`: `2 / 12 = 0.166667`.
-- `GAME-0081`: `2 / 13 = 0.153846`; `GAME-0082`: `2 / 13 = 0.153846`; `GAME-0083`: `2 / 13 = 0.153846`; `GAME-0084`: `2 / 15 = 0.133333`.
-- `GAME-0085`: `1 / 17 = 0.058824`; `GAME-0086`: `1 / 19 = 0.052632`; `GAME-0087`: `0 / 17 = 0.000000`; `GAME-0088`: `1 / 15 = 0.066667`.
-- `GAME-0089`: `0 / 16 = 0.000000`; `GAME-0090`: `1 / 21 = 0.047619`; `GAME-0091`: `0 / 16 = 0.000000`; `GAME-0092`: `0 / 17 = 0.000000`.
-- `GAME-0093`: `1 / 15 = 0.066667`; `GAME-0094`: `0 / 17 = 0.000000`; `GAME-0095`: `0 / 19 = 0.000000`; `GAME-0096`: `0 / 17 = 0.000000`.
-- `GAME-0097`: `0 / 15 = 0.000000`; `GAME-0098`: `0 / 14 = 0.000000`; `GAME-0099`: `0 / 15 = 0.000000`; `GAME-0100`: `0 / 18 = 0.000000`.
-- `GAME-0101`: `1 / 16 = 0.062500`.
+### Preserved research notes
 
 - New genes: `ACT-103`, `SYS-135`, `SYS-136`, `CON-156`.
 - Classification result: `New gene` and `New combination of known and new genes`.

@@ -309,59 +309,20 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-123,ACT-131,ACT-161,ACT-221,ACT-243,ACT-244,ACT-245,ACT-246; SYS-215,SYS-251,SYS-401,SYS-402,SYS-403,SYS-404,SYS-405,SYS-406,SYS-407,SYS-408; CON-210,CON-282,CON-285,CON-353,CON-354,CON-355,CON-356,CON-357,CON-358; INF-119,INF-125,INF-128,INF-156,INF-157,INF-158; OBJ-081; TIM-003`.
-- Indexed games scanned: all 150 earlier canonical games.
-- Indexed combinations scanned: all 148 earlier verified combinations.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `150` (`GAME-0001`–`GAME-0150`).
 - Exact genome matches: none.
-- Near match: ARC Raiders (`GAME-0143`) at `9 / 76 = 0.118421`.
-- Supported prior combination subsets: none; new
-  `COMB-0149` is a strict subset of this 36-gene genome.
+- Tied near matches: `GAME-0143` — ARC Raiders (`9 / 76 = 0.118421`).
+- Supported combination subsets: `COMB-0149`.
 - Scan date: 2026-08-21.
 
-Exhaustive prior-game ledger:
-
-- GAME-0001: 0 / 50 = 0.000000; GAME-0002: 0 / 43 = 0.000000; GAME-0003: 0 / 45 = 0.000000; GAME-0004: 1 / 50 = 0.020000.
-- GAME-0005: 0 / 43 = 0.000000; GAME-0006: 1 / 44 = 0.022727; GAME-0007: 0 / 44 = 0.000000; GAME-0008: 0 / 43 = 0.000000.
-- GAME-0009: 0 / 52 = 0.000000; GAME-0010: 0 / 45 = 0.000000; GAME-0011: 0 / 49 = 0.000000; GAME-0012: 0 / 45 = 0.000000.
-- GAME-0013: 0 / 49 = 0.000000; GAME-0014: 0 / 51 = 0.000000; GAME-0015: 0 / 50 = 0.000000; GAME-0016: 1 / 50 = 0.020000.
-- GAME-0017: 0 / 49 = 0.000000; GAME-0018: 1 / 54 = 0.018519; GAME-0019: 0 / 46 = 0.000000; GAME-0020: 0 / 50 = 0.000000.
-- GAME-0021: 1 / 44 = 0.022727; GAME-0022: 0 / 48 = 0.000000; GAME-0023: 0 / 46 = 0.000000; GAME-0024: 1 / 47 = 0.021277.
-- GAME-0025: 1 / 46 = 0.021739; GAME-0026: 1 / 47 = 0.021277; GAME-0027: 1 / 47 = 0.021277; GAME-0028: 1 / 52 = 0.019231.
-- GAME-0029: 2 / 46 = 0.043478; GAME-0030: 1 / 49 = 0.020408; GAME-0031: 0 / 47 = 0.000000; GAME-0032: 0 / 47 = 0.000000.
-- GAME-0033: 2 / 47 = 0.042553; GAME-0034: 2 / 48 = 0.041667; GAME-0035: 2 / 52 = 0.038462; GAME-0036: 1 / 47 = 0.021277.
-- GAME-0037: 0 / 45 = 0.000000; GAME-0038: 2 / 50 = 0.040000; GAME-0039: 0 / 45 = 0.000000; GAME-0040: 1 / 43 = 0.023256.
-- GAME-0041: 2 / 45 = 0.044444; GAME-0042: 0 / 45 = 0.000000; GAME-0043: 1 / 49 = 0.020408; GAME-0044: 1 / 45 = 0.022222.
-- GAME-0045: 1 / 49 = 0.020408; GAME-0046: 0 / 46 = 0.000000; GAME-0047: 0 / 50 = 0.000000; GAME-0048: 0 / 50 = 0.000000.
-- GAME-0049: 0 / 45 = 0.000000; GAME-0050: 1 / 50 = 0.020000; GAME-0051: 1 / 51 = 0.019608; GAME-0052: 0 / 46 = 0.000000.
-- GAME-0053: 1 / 44 = 0.022727; GAME-0054: 1 / 46 = 0.021739; GAME-0055: 1 / 45 = 0.022222; GAME-0056: 0 / 44 = 0.000000.
-- GAME-0057: 0 / 44 = 0.000000; GAME-0058: 0 / 45 = 0.000000; GAME-0059: 0 / 43 = 0.000000; GAME-0060: 0 / 43 = 0.000000.
-- GAME-0061: 0 / 46 = 0.000000; GAME-0062: 0 / 44 = 0.000000; GAME-0063: 0 / 43 = 0.000000; GAME-0064: 0 / 41 = 0.000000.
-- GAME-0065: 0 / 43 = 0.000000; GAME-0066: 0 / 46 = 0.000000; GAME-0067: 0 / 44 = 0.000000; GAME-0068: 0 / 44 = 0.000000.
-- GAME-0069: 0 / 44 = 0.000000; GAME-0070: 0 / 44 = 0.000000; GAME-0071: 0 / 43 = 0.000000; GAME-0072: 0 / 44 = 0.000000.
-- GAME-0073: 0 / 43 = 0.000000; GAME-0074: 0 / 45 = 0.000000; GAME-0075: 0 / 45 = 0.000000; GAME-0076: 0 / 43 = 0.000000.
-- GAME-0077: 0 / 43 = 0.000000; GAME-0078: 0 / 43 = 0.000000; GAME-0079: 0 / 43 = 0.000000; GAME-0080: 0 / 43 = 0.000000.
-- GAME-0081: 0 / 44 = 0.000000; GAME-0082: 0 / 44 = 0.000000; GAME-0083: 0 / 44 = 0.000000; GAME-0084: 0 / 46 = 0.000000.
-- GAME-0085: 0 / 47 = 0.000000; GAME-0086: 0 / 49 = 0.000000; GAME-0087: 1 / 45 = 0.022222; GAME-0088: 0 / 45 = 0.000000.
-- GAME-0089: 0 / 45 = 0.000000; GAME-0090: 1 / 50 = 0.020000; GAME-0091: 2 / 43 = 0.046512; GAME-0092: 1 / 45 = 0.022222.
-- GAME-0093: 0 / 45 = 0.000000; GAME-0094: 2 / 44 = 0.045455; GAME-0095: 2 / 46 = 0.043478; GAME-0096: 2 / 44 = 0.045455.
-- GAME-0097: 2 / 42 = 0.047619; GAME-0098: 2 / 41 = 0.048780; GAME-0099: 1 / 43 = 0.023256; GAME-0100: 1 / 46 = 0.021739.
-- GAME-0101: 0 / 46 = 0.000000; GAME-0102: 0 / 43 = 0.000000; GAME-0103: 0 / 45 = 0.000000; GAME-0104: 1 / 44 = 0.022727.
-- GAME-0105: 2 / 44 = 0.045455; GAME-0106: 0 / 43 = 0.000000; GAME-0107: 1 / 43 = 0.023256; GAME-0108: 1 / 45 = 0.022222.
-- GAME-0109: 0 / 52 = 0.000000; GAME-0110: 1 / 43 = 0.023256; GAME-0111: 1 / 42 = 0.023810; GAME-0112: 2 / 42 = 0.047619.
-- GAME-0113: 2 / 48 = 0.041667; GAME-0114: 1 / 42 = 0.023810; GAME-0115: 0 / 42 = 0.000000; GAME-0116: 2 / 40 = 0.050000.
-- GAME-0117: 1 / 43 = 0.023256; GAME-0118: 1 / 51 = 0.019608; GAME-0119: 2 / 57 = 0.035088; GAME-0120: 1 / 64 = 0.015625.
-- GAME-0121: 1 / 58 = 0.017241; GAME-0122: 1 / 50 = 0.020000; GAME-0123: 1 / 73 = 0.013699; GAME-0124: 1 / 82 = 0.012195.
-- GAME-0125: 1 / 77 = 0.012987; GAME-0126: 1 / 78 = 0.012821; GAME-0127: 1 / 83 = 0.012048; GAME-0128: 2 / 50 = 0.040000.
-- GAME-0129: 5 / 66 = 0.075758; GAME-0130: 1 / 88 = 0.011364; GAME-0131: 5 / 77 = 0.064935; GAME-0132: 2 / 85 = 0.023529.
-- GAME-0133: 1 / 80 = 0.012500; GAME-0134: 1 / 86 = 0.011628; GAME-0135: 1 / 83 = 0.012048; GAME-0136: 1 / 95 = 0.010526.
-- GAME-0137: 4 / 62 = 0.064516; GAME-0138: 3 / 68 = 0.044118; GAME-0139: 8 / 82 = 0.097561; GAME-0140: 6 / 73 = 0.082192.
-- GAME-0141: 7 / 80 = 0.087500; GAME-0142: 7 / 80 = 0.087500; GAME-0143: 9 / 76 = 0.118421; GAME-0144: 7 / 64 = 0.109375.
-- GAME-0145: 8 / 76 = 0.105263; GAME-0146: 10 / 90 = 0.111111; GAME-0147: 5 / 56 = 0.089286; GAME-0148: 8 / 71 = 0.112676.
-- GAME-0149: 5 / 66 = 0.075758; GAME-0150: 6 / 52 = 0.115385.
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| ARC Raiders (`GAME-0143`) | `ACT-008`, `ACT-123`, `ACT-161`, `ACT-221`, `SYS-215`, `CON-210`, `CON-285`, `INF-128`, `TIM-003` | extraction raids risk retained equipment for hub upgrades; Wilds keeps equipment through finite faints and converts localized hunt outcomes into materials and authored progression | nearest, not exact; `9 / 76 = 0.118421` |
+| ARC Raiders (`GAME-0143`) | `ACT-008`, `ACT-123`, `ACT-161`, `ACT-221`, `SYS-215`, `CON-210`, `CON-285`, `INF-128`, `TIM-003` | extraction raids risk retained equipment for hub upgrades; Wilds keeps equipment through finite faints and converts localized hunt outcomes into materials and authored progression | Near, `0.118421` |
+
+### Preserved research notes
 
 - New genes: `ACT-243`–`ACT-246`, `SYS-401`–`SYS-408`, `CON-353`–`CON-358`,
   `INF-156`–`INF-158`, `OBJ-081`.
@@ -369,13 +330,6 @@ Exhaustive prior-game ledger:
 - Evidence and reasoning: the distinctive boundary is the coupling of Seikret
   routing and two-weapon exchange to localized wound conversion, finite quest
   failure and material-fed equipment preparation.
-
-### Registry normalisation 006 score corrections
-
-These recomputed values supersede the pre-normalisation fractions above:
-
-- `GAME-0132`: `3 / 84 = 0.035714`
-- Current prior-corpus near match after normalisation 006: `GAME-0143`.
 
 ## Combination assessment
 

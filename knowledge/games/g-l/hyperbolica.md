@@ -223,37 +223,21 @@ Full signature:
 
 ## Corpus comparison
 
-The comparison scans every complete prior signature (`GAME-0001` through
-`GAME-0097`) with canonical Jaccard intersection over union.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `97` (`GAME-0001`–`GAME-0097`).
+- Exact genome matches: none.
+- Tied near matches: `GAME-0097` — Antichamber (`4 / 11 = 0.363636`).
+- Supported combination subsets: `COMB-0098`.
+- Scan date: 2026-08-14.
 
-- Near match: `GAME-0097` Antichamber is uniquely nearest at
-  `4 / 11 = 0.363636`, sharing direct navigation, current local visibility,
-  designated-location arrival and real time.
-- `GAME-0091` Fez follows at `4 / 12 = 0.333333` on the same four reusable
-  traversal genes. Carto follows at `3 / 12 = 0.250000`, while Superliminal
-  and Maquette each score `3 / 14 = 0.214286`.
-- Manifold Garden scores `3 / 16 = 0.187500` and Portal scores
-  `3 / 17 = 0.176471`; neither shares curved-metric integration, order-five
-  incidence or curvature-rendered cues.
-- The five-gene candidate `ACT-008, SYS-130, CON-149, INF-048, OBJ-026` is a
-  proper subset of the seven-gene full signature.
+### Selected-neighbour interpretation
+
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0097`.
+
+### Preserved research notes
+
 - Exhaustive combination comparison finds no prior combination equal to,
   contained by or containing the candidate.
-
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `1 / 20 = 0.050000`; `GAME-0002`: `1 / 13 = 0.076923`; `GAME-0003`: `0 / 16 = 0.000000`; `GAME-0004`: `2 / 20 = 0.100000`; `GAME-0005`: `1 / 13 = 0.076923`; `GAME-0006`: `2 / 14 = 0.142857`; `GAME-0007`: `1 / 14 = 0.071429`; `GAME-0008`: `1 / 13 = 0.076923`.
-  - `GAME-0009`: `1 / 22 = 0.045455`; `GAME-0010`: `1 / 15 = 0.066667`; `GAME-0011`: `1 / 19 = 0.052632`; `GAME-0012`: `1 / 15 = 0.066667`; `GAME-0013`: `1 / 19 = 0.052632`; `GAME-0014`: `1 / 21 = 0.047619`; `GAME-0015`: `1 / 20 = 0.050000`; `GAME-0016`: `2 / 20 = 0.100000`.
-  - `GAME-0017`: `0 / 20 = 0.000000`; `GAME-0018`: `2 / 24 = 0.083333`; `GAME-0019`: `1 / 16 = 0.062500`; `GAME-0020`: `1 / 20 = 0.050000`; `GAME-0021`: `2 / 14 = 0.142857`; `GAME-0022`: `1 / 18 = 0.055556`; `GAME-0023`: `0 / 17 = 0.000000`; `GAME-0024`: `1 / 18 = 0.055556`.
-  - `GAME-0025`: `2 / 16 = 0.125000`; `GAME-0026`: `2 / 17 = 0.117647`; `GAME-0027`: `2 / 17 = 0.117647`; `GAME-0028`: `2 / 22 = 0.090909`; `GAME-0029`: `3 / 16 = 0.187500`; `GAME-0030`: `2 / 19 = 0.105263`; `GAME-0031`: `1 / 17 = 0.058824`; `GAME-0032`: `1 / 17 = 0.058824`.
-  - `GAME-0033`: `3 / 17 = 0.176471`; `GAME-0034`: `3 / 18 = 0.166667`; `GAME-0035`: `3 / 22 = 0.136364`; `GAME-0036`: `2 / 17 = 0.117647`; `GAME-0037`: `1 / 15 = 0.066667`; `GAME-0038`: `3 / 20 = 0.150000`; `GAME-0039`: `1 / 15 = 0.066667`; `GAME-0040`: `3 / 12 = 0.250000`.
-  - `GAME-0041`: `3 / 15 = 0.200000`; `GAME-0042`: `1 / 15 = 0.066667`; `GAME-0043`: `2 / 19 = 0.105263`; `GAME-0044`: `2 / 15 = 0.133333`; `GAME-0045`: `2 / 19 = 0.105263`; `GAME-0046`: `1 / 16 = 0.062500`; `GAME-0047`: `1 / 20 = 0.050000`; `GAME-0048`: `1 / 20 = 0.050000`.
-  - `GAME-0049`: `0 / 16 = 0.000000`; `GAME-0050`: `2 / 20 = 0.100000`; `GAME-0051`: `2 / 21 = 0.095238`; `GAME-0052`: `1 / 16 = 0.062500`; `GAME-0053`: `2 / 14 = 0.142857`; `GAME-0054`: `3 / 15 = 0.200000`; `GAME-0055`: `2 / 15 = 0.133333`; `GAME-0056`: `1 / 14 = 0.071429`.
-  - `GAME-0057`: `1 / 14 = 0.071429`; `GAME-0058`: `1 / 15 = 0.066667`; `GAME-0059`: `1 / 13 = 0.076923`; `GAME-0060`: `1 / 13 = 0.076923`; `GAME-0061`: `1 / 16 = 0.062500`; `GAME-0062`: `1 / 14 = 0.071429`; `GAME-0063`: `1 / 13 = 0.076923`; `GAME-0064`: `1 / 11 = 0.090909`.
-  - `GAME-0065`: `0 / 14 = 0.000000`; `GAME-0066`: `0 / 17 = 0.000000`; `GAME-0067`: `0 / 15 = 0.000000`; `GAME-0068`: `0 / 15 = 0.000000`; `GAME-0069`: `1 / 14 = 0.071429`; `GAME-0070`: `1 / 14 = 0.071429`; `GAME-0071`: `1 / 13 = 0.076923`; `GAME-0072`: `1 / 14 = 0.071429`.
-  - `GAME-0073`: `1 / 13 = 0.076923`; `GAME-0074`: `1 / 15 = 0.066667`; `GAME-0075`: `1 / 15 = 0.066667`; `GAME-0076`: `1 / 13 = 0.076923`; `GAME-0077`: `1 / 13 = 0.076923`; `GAME-0078`: `1 / 13 = 0.076923`; `GAME-0079`: `1 / 13 = 0.076923`; `GAME-0080`: `1 / 13 = 0.076923`.
-  - `GAME-0081`: `1 / 14 = 0.071429`; `GAME-0082`: `1 / 14 = 0.071429`; `GAME-0083`: `1 / 14 = 0.071429`; `GAME-0084`: `1 / 16 = 0.062500`; `GAME-0085`: `0 / 18 = 0.000000`; `GAME-0086`: `1 / 19 = 0.052632`; `GAME-0087`: `2 / 15 = 0.133333`; `GAME-0088`: `1 / 15 = 0.066667`.
-  - `GAME-0089`: `1 / 15 = 0.066667`; `GAME-0090`: `2 / 20 = 0.100000`; `GAME-0091`: `4 / 12 = 0.333333`; `GAME-0092`: `2 / 15 = 0.133333`; `GAME-0093`: `2 / 14 = 0.142857`; `GAME-0094`: `3 / 14 = 0.214286`; `GAME-0095`: `3 / 16 = 0.187500`; `GAME-0096`: `3 / 14 = 0.214286`.
-  - `GAME-0097`: `4 / 11 = 0.363636`.
 
 ## Coverage decision
 
@@ -304,7 +288,8 @@ The comparison scans every complete prior signature (`GAME-0001` through
 - Evidence gate: passed with one official product record, one creator technical
   devlog, one maintained route, one community location record, one independent
   mathematical reference and one executable verifier.
-- Nearest prior genome: Antichamber at `4 / 11 = 0.363636`.
+- Nearest prior genome: Antichamber; see `Corpus comparison` for the current
+  result.
 - Next falsification target: HyperRogue, to test discrete hyperbolic adjacency
   against Hyperbolica's continuous curved pose.
 

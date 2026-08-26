@@ -313,36 +313,16 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0037`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0037`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `37` (`GAME-0001`–`GAME-0037`).
 - Exact genome matches: none.
-- Existing combination subsets: none before registering `COMB-0038`.
-- Full Jaccard scan (intersection / union = score):
-  `GAME-0001` `1 / 29 = 0.034483`; `GAME-0002` `1 / 22 = 0.045455`;
-  `GAME-0003` `0 / 25 = 0.000000`; `GAME-0004` `2 / 29 = 0.068966`;
-  `GAME-0005` `1 / 22 = 0.045455`; `GAME-0006` `2 / 23 = 0.086957`;
-  `GAME-0007` `1 / 23 = 0.043478`; `GAME-0008` `1 / 22 = 0.045455`;
-  `GAME-0009` `1 / 31 = 0.032258`; `GAME-0010` `1 / 24 = 0.041667`;
-  `GAME-0011` `1 / 28 = 0.035714`; `GAME-0012` `1 / 24 = 0.041667`;
-  `GAME-0013` `2 / 27 = 0.074074`; `GAME-0014` `1 / 30 = 0.033333`;
-  `GAME-0015` `1 / 29 = 0.034483`; `GAME-0016` `2 / 29 = 0.068966`;
-  `GAME-0017` `0 / 29 = 0.000000`; `GAME-0018` `2 / 33 = 0.060606`;
-  `GAME-0019` `1 / 25 = 0.040000`; `GAME-0020` `1 / 29 = 0.034483`;
-  `GAME-0021` `4 / 21 = 0.190476`; `GAME-0022` `1 / 27 = 0.037037`;
-  `GAME-0023` `0 / 26 = 0.000000`; `GAME-0024` `1 / 27 = 0.037037`;
-  `GAME-0025` `2 / 25 = 0.080000`; `GAME-0026` `3 / 25 = 0.120000`;
-  `GAME-0027` `2 / 26 = 0.076923`; `GAME-0028` `2 / 31 = 0.064516`;
-  `GAME-0029` `3 / 25 = 0.120000`; `GAME-0030` `3 / 27 = 0.111111`;
-  `GAME-0031` `1 / 26 = 0.038462`; `GAME-0032` `1 / 26 = 0.038462`;
-  `GAME-0033` `5 / 24 = 0.208333`; `GAME-0034` `4 / 26 = 0.153846`;
-  `GAME-0035` `4 / 30 = 0.133333`; `GAME-0036` `2 / 26 = 0.076923`;
-  `GAME-0037` `1 / 24 = 0.041667`.
-- Mathematical near match: `GAME-0033` — Portal at
-  `5 / 24 = 0.208333`, sharing avatar navigation, continuous physics,
-  occupancy-held mechanisms, visible room state and live input. Portal's
-  replaceable paired apertures transform body position and velocity; The
-  Swapper instead creates a bounded synchronized body set and moves the unique
-  control locus between its members.
+- Tied near matches: `GAME-0033` — Portal (`5 / 24 = 0.208333`).
+- Supported combination subsets: `COMB-0038`.
+- Scan date: 2026-08-12.
+
+### Selected-neighbour interpretation
+
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0033`.
 
 ## Combination record
 

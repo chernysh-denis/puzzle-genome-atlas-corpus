@@ -261,41 +261,23 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`, `GAME-0002`, `GAME-0003`, `GAME-0004`,
-  `GAME-0005`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0005`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `5` (`GAME-0001`–`GAME-0005`).
 - Exact genome matches: none.
-- Shared with `GAME-0001`: `CON-001`, `INF-001`.
-- Structural similarity to `GAME-0001`: intersection `2`, union `21`,
-  `2 / 21 = 0.095238`.
-- Shared with `GAME-0002`: `CON-001`, `INF-001`, `OBJ-004`, `TIM-002`.
-- Structural similarity to `GAME-0002`: intersection `4`, union `12`,
-  `4 / 12 = 0.333333`.
-- Shared with `GAME-0003`: `CON-001`.
-- Structural similarity to `GAME-0003`: intersection `1`, union `17`,
-  `1 / 17 = 0.058824`.
-- Shared with `GAME-0004`: `CON-001`, `INF-001`.
-- Structural similarity to `GAME-0004`: intersection `2`, union `22`,
-  `2 / 22 = 0.090909`.
-- Shared with `GAME-0005`: `CON-001`, `INF-001`, `TIM-002`.
-- Structural similarity to `GAME-0005`: intersection `3`, union `13`,
-  `3 / 13 = 0.230769`.
-- Near match: `GAME-0002`, the unique positive maximum among non-exact indexed
-  games.
-- Supported existing combination subsets: none. Each indexed combination
-  requires an absent action, constraint or objective.
-- New combination: `COMB-0006`, whose seven genes are a proper subset of this
-  nine-gene genome.
+- Tied near matches: `GAME-0002` — Rubik’s Cube (`4 / 12 = 0.333333`).
+- Supported combination subsets: `COMB-0006`, `COMB-0036`, `COMB-0044`.
 - Scan date: 2026-08-11.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0001` — 2048 | `CON-001`, `INF-001` | 2048 globally slides all movable tiles and resolves random spawning; Sokoban navigates one agent and commits individual push-only object moves | Non-near, `0.095238` |
 | `GAME-0002` — Rubik's Cube | `CON-001`, `INF-001`, `OBJ-004`, `TIM-002` | Both reconstruct a visible state self-pacedly; every Cube turn has an inverse, while a Sokoban push may destroy objective reachability | Near, `0.333333` |
-| `GAME-0003` — Minesweeper | `CON-001` | Minesweeper reveals fixed hidden hazards with terminal risk; Sokoban is fully visible and may become unsolvable without terminating | Non-near, `0.058824` |
-| `GAME-0004` — Tetris | `CON-001`, `INF-001` | Tetris has time-driven gravity and locking; Sokoban changes only through self-paced commands and has no random successor | Non-near, `0.090909` |
-| `GAME-0005` — Sudoku | `CON-001`, `INF-001`, `TIM-002` | Sudoku assigns symbols under global unit constraints; Sokoban moves an agent and crates through access-dependent spatial geometry | Non-near, `0.230769` |
 
+### Preserved research notes
+
+- New combination: `COMB-0006`, whose seven genes are a proper subset of this
+  nine-gene genome.
 - New genes: `ACT-008`, `ACT-009`, `CON-011`, `CON-012`, `CON-013`.
 - Classification result: `New gene`.
 - Evidence and reasoning: navigation, body-mediated pushing, exclusive

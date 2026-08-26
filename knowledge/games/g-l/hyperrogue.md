@@ -192,75 +192,22 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`:
-  `ACT-008; SYS-131; CON-150; INF-001,INF-049; OBJ-002,OBJ-003; TIM-001`.
-- Indexed games scanned: 98.
-- Indexed combinations scanned: 98.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `98` (`GAME-0001`–`GAME-0098`).
 - Exact genome matches: none.
-- Supported combination subset: `COMB-0099`.
+- Tied near matches: `GAME-0001` — 2048 (`4 / 18 = 0.222222`); `GAME-0015` — Threes (`4 / 18 = 0.222222`); `GAME-0020` — Dorfromantik (`4 / 18 = 0.222222`).
+- Supported combination subsets: `COMB-0099`.
 - Scan date: 2026-08-14.
 
-### Full prior-game Jaccard scan
-
-- `GAME-0001`: `4 / 18 = 0.222222`; `GAME-0002`: `1 / 14 = 0.071429`.
-- `GAME-0003`: `1 / 16 = 0.062500`; `GAME-0004`: `3 / 20 = 0.150000`.
-- `GAME-0005`: `1 / 14 = 0.071429`; `GAME-0006`: `2 / 15 = 0.133333`.
-- `GAME-0007`: `1 / 15 = 0.066667`; `GAME-0008`: `1 / 14 = 0.071429`.
-- `GAME-0009`: `2 / 22 = 0.090909`; `GAME-0010`: `2 / 15 = 0.133333`.
-- `GAME-0011`: `1 / 20 = 0.050000`; `GAME-0012`: `1 / 16 = 0.062500`.
-- `GAME-0013`: `2 / 19 = 0.105263`; `GAME-0014`: `1 / 22 = 0.045455`.
-- `GAME-0015`: `4 / 18 = 0.222222`; `GAME-0016`: `2 / 21 = 0.095238`.
-- `GAME-0017`: `1 / 20 = 0.050000`; `GAME-0018`: `2 / 25 = 0.080000`.
-- `GAME-0019`: `2 / 16 = 0.125000`; `GAME-0020`: `4 / 18 = 0.222222`.
-- `GAME-0021`: `2 / 15 = 0.133333`; `GAME-0022`: `1 / 19 = 0.052632`.
-- `GAME-0023`: `0 / 18 = 0.000000`; `GAME-0024`: `0 / 20 = 0.000000`.
-- `GAME-0025`: `1 / 18 = 0.055556`; `GAME-0026`: `1 / 19 = 0.052632`.
-- `GAME-0027`: `1 / 19 = 0.052632`; `GAME-0028`: `1 / 24 = 0.041667`.
-- `GAME-0029`: `2 / 18 = 0.111111`; `GAME-0030`: `1 / 21 = 0.047619`.
-- `GAME-0031`: `1 / 18 = 0.055556`; `GAME-0032`: `1 / 18 = 0.055556`.
-- `GAME-0033`: `2 / 19 = 0.105263`; `GAME-0034`: `2 / 20 = 0.100000`.
-- `GAME-0035`: `2 / 24 = 0.083333`; `GAME-0036`: `2 / 18 = 0.111111`.
-- `GAME-0037`: `1 / 16 = 0.062500`; `GAME-0038`: `2 / 22 = 0.090909`.
-- `GAME-0039`: `1 / 16 = 0.062500`; `GAME-0040`: `2 / 14 = 0.142857`.
-- `GAME-0041`: `2 / 17 = 0.117647`; `GAME-0042`: `1 / 16 = 0.062500`.
-- `GAME-0043`: `3 / 19 = 0.157895`; `GAME-0044`: `3 / 15 = 0.200000`.
-- `GAME-0045`: `3 / 19 = 0.157895`; `GAME-0046`: `1 / 17 = 0.058824`.
-- `GAME-0047`: `1 / 21 = 0.047619`; `GAME-0048`: `1 / 21 = 0.047619`.
-- `GAME-0049`: `2 / 15 = 0.133333`; `GAME-0050`: `3 / 20 = 0.150000`.
-- `GAME-0051`: `2 / 22 = 0.090909`; `GAME-0052`: `2 / 16 = 0.125000`.
-- `GAME-0053`: `3 / 14 = 0.214286`; `GAME-0054`: `3 / 16 = 0.187500`.
-- `GAME-0055`: `3 / 15 = 0.200000`; `GAME-0056`: `1 / 15 = 0.066667`.
-- `GAME-0057`: `2 / 14 = 0.142857`; `GAME-0058`: `2 / 15 = 0.133333`.
-- `GAME-0059`: `2 / 13 = 0.153846`; `GAME-0060`: `2 / 13 = 0.153846`.
-- `GAME-0061`: `1 / 17 = 0.058824`; `GAME-0062`: `1 / 15 = 0.066667`.
-- `GAME-0063`: `1 / 14 = 0.071429`; `GAME-0064`: `1 / 12 = 0.083333`.
-- `GAME-0065`: `0 / 15 = 0.000000`; `GAME-0066`: `0 / 18 = 0.000000`.
-- `GAME-0067`: `1 / 15 = 0.066667`; `GAME-0068`: `0 / 16 = 0.000000`.
-- `GAME-0069`: `1 / 15 = 0.066667`; `GAME-0070`: `2 / 14 = 0.142857`.
-- `GAME-0071`: `1 / 14 = 0.071429`; `GAME-0072`: `1 / 15 = 0.066667`.
-- `GAME-0073`: `1 / 14 = 0.071429`; `GAME-0074`: `1 / 16 = 0.062500`.
-- `GAME-0075`: `1 / 16 = 0.062500`; `GAME-0076`: `1 / 14 = 0.071429`.
-- `GAME-0077`: `1 / 14 = 0.071429`; `GAME-0078`: `1 / 14 = 0.071429`.
-- `GAME-0079`: `1 / 14 = 0.071429`; `GAME-0080`: `1 / 14 = 0.071429`.
-- `GAME-0081`: `1 / 15 = 0.066667`; `GAME-0082`: `1 / 15 = 0.066667`.
-- `GAME-0083`: `1 / 15 = 0.066667`; `GAME-0084`: `1 / 17 = 0.058824`.
-- `GAME-0085`: `0 / 19 = 0.000000`; `GAME-0086`: `1 / 20 = 0.050000`.
-- `GAME-0087`: `1 / 17 = 0.058824`; `GAME-0088`: `1 / 16 = 0.062500`.
-- `GAME-0089`: `1 / 16 = 0.062500`; `GAME-0090`: `2 / 21 = 0.095238`.
-- `GAME-0091`: `2 / 15 = 0.133333`; `GAME-0092`: `1 / 17 = 0.058824`.
-- `GAME-0093`: `1 / 16 = 0.062500`; `GAME-0094`: `2 / 16 = 0.125000`.
-- `GAME-0095`: `2 / 18 = 0.111111`; `GAME-0096`: `2 / 16 = 0.125000`.
-- `GAME-0097`: `2 / 14 = 0.142857`; `GAME-0098`: `2 / 13 = 0.153846`.
-
-- Near matches: `GAME-0001`, `GAME-0015` and `GAME-0020`, tied at
-  `4 / 18 = 0.222222`.
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| 2048 (`GAME-0001`) | `INF-001`, `OBJ-002`, `OBJ-003`, `TIM-001` | value merges on a finite square board versus avatar pursuit on an expanding hyperbolic graph | tied nearest at `4 / 18 = 0.222222` |
-| Threes (`GAME-0015`) | `INF-001`, `OBJ-002`, `OBJ-003`, `TIM-001` | one-step number merging versus hostile response on hyperbolic adjacency | tied nearest at `4 / 18 = 0.222222` |
-| Dorfromantik (`GAME-0020`) | `INF-001`, `OBJ-002`, `OBJ-003`, `TIM-001` | landscape placement versus player-centred pursuit routing | tied nearest at `4 / 18 = 0.222222` |
-| Hyperbolica (`GAME-0098`) | `ACT-008`, `INF-001` | continuous `{4,5}` metric and real time versus discrete bitruncated `{7,3}` turns and hostile response | thematic boundary control at `2 / 13 = 0.153846` |
+| 2048 (`GAME-0001`) | `INF-001`, `OBJ-002`, `OBJ-003`, `TIM-001` | value merges on a finite square board versus avatar pursuit on an expanding hyperbolic graph | Near, `0.222222` |
+| Threes (`GAME-0015`) | `INF-001`, `OBJ-002`, `OBJ-003`, `TIM-001` | one-step number merging versus hostile response on hyperbolic adjacency | Near, `0.222222` |
+| Dorfromantik (`GAME-0020`) | `INF-001`, `OBJ-002`, `OBJ-003`, `TIM-001` | landscape placement versus player-centred pursuit routing | Near, `0.222222` |
+
+### Preserved research notes
 
 - New genes: `SYS-131`, `CON-150`, `INF-049`.
 - Classification result: `New gene` and `New combination of known and new genes`.

@@ -232,37 +232,19 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0015`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0015`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `15` (`GAME-0001`–`GAME-0015`).
 - Exact genome matches: none.
-- Existing combination subsets: none.
-- Jaccard scores against complete genomes:
-  - `GAME-0001`: shared `SYS-004`, `CON-001`, `INF-001`, `OBJ-002`;
-    `4 / 25 = 0.160000`.
-  - `GAME-0002`: shared `CON-001`, `INF-001`; `2 / 20 = 0.100000`.
-  - `GAME-0003`: shared `CON-001`; `1 / 23 = 0.043478`.
-  - `GAME-0004`: shared `ACT-006`, `SYS-004`, `CON-001`, `INF-001`,
-    `INF-005`, `OBJ-002`, `TIM-003`; `7 / 23 = 0.304348`.
-  - `GAME-0005`: shared `CON-001`, `INF-001`; `2 / 20 = 0.100000`.
-  - `GAME-0006`: shared `CON-001`, `INF-001`; `2 / 22 = 0.090909`.
-  - `GAME-0007`: shared `INF-001`; `1 / 22 = 0.045455`.
-  - `GAME-0008`: shared `CON-001`, `INF-001`; `2 / 20 = 0.100000`.
-  - `GAME-0009`: shared `SYS-004`, `CON-001`, `INF-001`;
-    `3 / 28 = 0.107143`.
-  - `GAME-0010`: shared `CON-001`, `INF-001`; `2 / 22 = 0.090909`.
-  - `GAME-0011`: shared `CON-001`, `INF-001`; `2 / 26 = 0.076923`.
-  - `GAME-0012`: shared `CON-001`, `INF-001`; `2 / 22 = 0.090909`.
-  - `GAME-0013`: shared `CON-001`, `INF-001`; `2 / 26 = 0.076923`.
-  - `GAME-0014`: shared `CON-001`, `INF-001`; `2 / 28 = 0.071429`.
-  - `GAME-0015`: shared `SYS-004`, `CON-001`, `INF-001`, `OBJ-002`;
-    `4 / 25 = 0.160000`.
-- Unique near match: `GAME-0004` — Tetris at `0.304348`.
-- Long-form near comparison: both games expose an exact successor horizon,
-  accept player inputs while a system process advances, allow the player to
-  accelerate that process and score continued success. Tetris transforms one
-  active falling piece under collision and gravity; Pipe Dream consumes a
-  fixed-orientation queue into persistent cells while a separate flow turns
-  placed history immutable.
+- Tied near matches: `GAME-0004` — Tetris (`7 / 23 = 0.304348`).
+- Supported combination subsets: `COMB-0016`.
+- Scan date: 2026-08-11.
+
+### Selected-neighbour interpretation
+
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0004`.
+
+### Preserved research notes
+
 - Result: no exact signature or existing combination match. Similarity is a
   scheduling and preview relation, not a claim of genre identity or novelty.
 

@@ -19,3 +19,8 @@ Translation review checks semantic equivalence against the canonical registry,
 consistent terminology across gene types and preservation of examples and
 negative boundaries. The web application uses the English record as fallback
 until a reviewed Ukrainian entry exists.
+
+All reviews follow the repository-wide
+[Ukrainian localisation policy](../../../docs/UKRAINIAN_LOCALISATION_POLICY.md).
+In particular, a reviewed entry must be a complete translation rather than an
+English shorthand or a shortened Ukrainian paraphrase.

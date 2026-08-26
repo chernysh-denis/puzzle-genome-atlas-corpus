@@ -246,36 +246,14 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0010`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0010`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `10` (`GAME-0001`–`GAME-0010`).
 - Exact genome matches: none.
-- Shared with `GAME-0001`: `CON-001`, `INF-001`; intersection `2`, union
-  `25`, `2 / 25 = 0.080000`.
-- Shared with `GAME-0002`: `CON-001`, `INF-001`, `TIM-002`; intersection `3`,
-  union `17`, `3 / 17 = 0.176471`.
-- Shared with `GAME-0003`: `CON-001`; intersection `1`, union `21`,
-  `1 / 21 = 0.047619`.
-- Shared with `GAME-0004`: `CON-001`, `INF-001`; intersection `2`, union
-  `26`, `2 / 26 = 0.076923`.
-- Shared with `GAME-0005`: `CON-001`, `INF-001`, `TIM-002`; intersection `3`,
-  union `17`, `3 / 17 = 0.176471`.
-- Shared with `GAME-0006`: `CON-001`, `INF-001`, `TIM-002`; intersection `3`,
-  union `19`, `3 / 19 = 0.157895`.
-- Shared with `GAME-0007`: `INF-001`, `TIM-002`; intersection `2`, union `19`,
-  `2 / 19 = 0.105263`.
-- Shared with `GAME-0008`: `CON-001`, `INF-001`, `TIM-002`; intersection `3`,
-  union `17`, `3 / 17 = 0.176471`.
-- Shared with `GAME-0009`: `CON-001`, `INF-001`; intersection `2`, union
-  `27`, `2 / 27 = 0.074074`.
-- Shared with `GAME-0010`: `CON-001`, `INF-001`; intersection `2`, union
-  `20`, `2 / 20 = 0.100000`.
-- Near matches: `GAME-0002`, `GAME-0005` and `GAME-0008`, tied at the unique
-  positive maximum `0.176471` among non-exact indexed games.
-- Supported existing combination subsets: none. Every indexed combination
-  requires at least one absent action, behaviour, constraint or objective.
-- New combination: `COMB-0011`, whose six genes are a proper subset of this
-  thirteen-gene genome.
+- Tied near matches: `GAME-0002` — Rubik’s Cube (`3 / 17 = 0.176471`); `GAME-0005` — Sudoku (`3 / 17 = 0.176471`); `GAME-0008` — Nonogram (`3 / 17 = 0.176471`).
+- Supported combination subsets: `COMB-0011`.
 - Scan date: 2026-08-11.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
@@ -283,6 +261,10 @@ Canonical signature:
 | `GAME-0005` — Sudoku | `CON-001`, `INF-001`, `TIM-002` | Sudoku assigns symbols against static all-different constraints; Chess relocates conserved and capturable pieces against an adapting opponent | Near, `0.176471` |
 | `GAME-0008` — Nonogram | `CON-001`, `INF-001`, `TIM-002` | Nonogram resolves visible clues into one binary assignment; Chess's public history and opponent choices continually change the legal and useful move set | Near, `0.176471` |
 
+### Preserved research notes
+
+- New combination: `COMB-0011`, whose six genes are a proper subset of this
+  thirteen-gene genome.
 - New genes: `ACT-014`, `ACT-015`, `CON-023`, `CON-024`, `CON-025`,
   `CON-026`, `CON-027`, `INF-007`, `OBJ-009`, `TIM-004`.
 - Classification result: `New gene`.

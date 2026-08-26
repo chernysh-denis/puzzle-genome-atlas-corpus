@@ -3,24 +3,20 @@ game_id: GAME-0146
 slug: cyberpunk-2077
 game_title: Cyberpunk 2077
 analysis_status: reviewed
-reviewed: 2026-08-21
+reviewed: 2026-08-22
 combination_ids:
   - COMB-0144
 gene_ids:
   action:
     - ACT-008
     - ACT-107
-    - ACT-123
-    - ACT-130
     - ACT-140
     - ACT-161
     - ACT-164
     - ACT-183
     - ACT-191
     - ACT-199
-    - ACT-201
     - ACT-202
-    - ACT-227
     - ACT-231
     - ACT-232
     - ACT-233
@@ -32,17 +28,13 @@ gene_ids:
     - SYS-215
     - SYS-292
     - SYS-299
-    - SYS-320
     - SYS-342
-    - SYS-365
-    - SYS-366
     - SYS-369
     - SYS-372
     - SYS-373
     - SYS-374
     - SYS-375
     - SYS-376
-    - SYS-377
     - SYS-378
     - SYS-379
   constraint:
@@ -53,7 +45,6 @@ gene_ids:
     - CON-282
     - CON-284
     - CON-285
-    - CON-288
     - CON-332
     - CON-333
     - CON-334
@@ -63,12 +54,9 @@ gene_ids:
   information:
     - INF-073
     - INF-115
-    - INF-117
     - INF-119
     - INF-125
     - INF-128
-    - INF-132
-    - INF-144
     - INF-147
     - INF-148
     - INF-149
@@ -84,32 +72,43 @@ gene_ids:
 ## Analysis scope
 
 - Version / ruleset: base game on PC at public Patch `2.31`, reviewed
-  2026-08-21; one fresh single-player save on `Normal`, from a selected Nomad
+  2026-08-22; one fresh single-player save on `Normal`, from a selected Nomad
   lifepath and initial attribute allocation through the first completion of
   `Where Is My Mind?` via the always-available Arasaka route.
-- Included: direct first-person movement, stance, combat and vehicles; firearm,
-  melee, grenade, stealth, grapple and takedown play; scanning, quickhacks, RAM,
-  upload queue and hostile tracing; loot, inventory, vendors and crafting;
-  character XP, levels, attributes, perks, activity skills and Street Cred;
-  cyberware slots, capacity, armour and attunement; authored main jobs,
-  lifepath/contextual dialogue and retained choices; NCPD Heat, checkpoints,
-  manual/autosave restoration and the first Devil ending.
+- Primary decision loop: prepare and express one persistent V build through
+  critical-path traversal, stealth or combat encounters and retained quest
+  choices until the first Arasaka ending.
+- Entry condition: commit the Nomad lifepath and legal initial attribute budget
+  on a fresh `Normal` save.
+- Exit condition: complete `Where Is My Mind?` for the first time after choosing
+  Hanako's offer at `Nocturne OP55N1`.
+- Included: direct first-person traversal and stance; firearm, melee, grenade,
+  stealth, grapple and takedown play; scanning, quickhacks, RAM, upload queue and
+  hostile tracing; loot and inventory; character XP, levels, attributes, perks
+  and activity skills; cyberware slots, capacity, armour and attunement;
+  authored main jobs, lifepath/contextual dialogue and retained choices;
+  checkpoints, manual/autosave restoration and the first Devil ending.
 - Reproducible checkpoint: create a Nomad V, record the starting attribute
   budget and one lifepath-marked response, then advance the critical path. In a
   repeatable hostile area scan one target, upload a legal quickhack, observe RAM
   and any trace, break sight, crouch behind cover and neutralise an unaware
   reachable target. Fire and reload one weapon, spend and observe a health-item
   or grenade charge, install capacity-legal cyberware at a ripperdoc, allocate a
-  legal perk, craft one known item, purchase one offer, drive to a personal
-  waypoint, trigger and clear low NCPD Heat, and restore a save or checkpoint.
+  legal perk, pick up and equip compatible loot, and restore a save or
+  checkpoint.
   Continue the required jobs, choose Hanako's offer at `Nocturne OP55N1`, finish
   `Last Caress`, `Totalimmortal` and `Where Is My Mind?`, and record the first
   completed ending response.
-- Excluded: Phantom Liberty, Dogtown, the Relic tree and Tower ending; optional
-  side jobs, gigs and ending-unlock questlines; alternate endings as the first
-  terminal branch; post-credits `One More Gig`, New Game Plus, mods, cheats,
-  achievements, cosmetics, romance, collectibles and exhaustive weapons,
-  vehicles, cyberware, dialogue or open-world activities.
+- Excluded: hand-crafting and ordinary vendor-shopping loops; direct vehicle,
+  personal-waypoint and traffic simulation; deliberate NCPD Heat play; Street
+  Cred offer progression; Phantom Liberty, Dogtown, the Relic tree and Tower
+  ending; optional side jobs, gigs and ending-unlock questlines; alternate
+  endings as the first terminal branch; post-credits `One More Gig`, New Game
+  Plus, mods, cheats, achievements, cosmetics, romance, collectibles and
+  exhaustive weapons, vehicles, cyberware, dialogue or open-world activities.
+- Potential scoped modules: crafting/vendor economy, vehicle/navigation,
+  open-world law pressure and Street Cred offer progression remain established
+  product systems but require separate bounded packets before re-admission.
 - Direct-play status: no complete fresh paid-account campaign was conducted.
   Official current patch, 2.0 system notes, product material and build planner
   establish the maintained mechanical baseline; official and maintained route
@@ -126,15 +125,16 @@ gene_ids:
 | `CP-004` | Scanning reveals targets and quickhacks; legal uploads consume RAM, may queue and may trigger hostile tracing | Confirmed | Direct | High | P2, P5 |
 | `CP-005` | Suspicion escalates through detection into combat, while crouch, cover, grapple and takedown permit stealth resolution | Observation | Corroborated | High | P2, P4, S1 |
 | `CP-006` | Installed cyberware is bounded by slots and capacity and supplies armour, abilities and attribute attunement | Confirmed | Direct | High | P2, P5 |
-| `CP-007` | XP, levels, attributes, perks, skills and Street Cred form distinct persistent progression channels | Confirmed | Direct | High | P2, P4 |
-| `CP-008` | Character level scales enemies, loot and vendor tiers while Street Cred unlocks additional offered-world content | Confirmed | Direct | High | P2 |
+| `CP-007` | XP, levels, attributes, perks and activity skills form persistent progression channels inside the selected route | Confirmed | Direct | High | P2, P4 |
+| `CP-008` | Character level scales enemies and loot encountered along the selected route | Confirmed | Direct | High | P2 |
 | `CP-009` | Main jobs advance through authored prerequisites and retained responses; failure can restore bounded checkpoint state | Observation | Corroborated | High | P4, S1, S2 |
 | `CP-010` | The Arasaka choice at Nocturne OP55N1 leads through Last Caress and Totalimmortal to Where Is My Mind? without optional ending unlocks | Confirmed | Corroborated | High | S2, S3, S4 |
+| `CP-011` | Crafting/vendor, vehicle/navigation, NCPD Heat and Street Cred offer progression are separately described product systems and are not required transitions of the selected Arasaka route | Confirmed | Corroborated | High | P2, P4, S2 |
 
 ## Basic data
 
 - Release / origin: CD PROJEKT RED; original release 2020, Update 2.0 in 2023
-  and reviewed at Patch 2.31 on 2026-08-21.
+  and reviewed at Patch 2.31 on 2026-08-22.
 - Platform or physical form: authored single-player first-person open-world
   action RPG; current PC base game is scoped.
 - Puzzle family: tactical forecast and counterplay; real-time system pressure;
@@ -164,46 +164,41 @@ gene_ids:
     for base-game terminal routes and the Devil outcome boundary.
   - **[S4]** [PowerPyx endings guide](https://www.powerpyx.com/cyberpunk-2077-endings-guide-all-endings/),
     for independent route corroboration.
-- Claim IDs: `CP-001`–`CP-010`.
+- Claim IDs: `CP-001`–`CP-011`.
 
 ## Mechanical decomposition
 
 ### Action Genes
 
-- Existing genes: `ACT-008`, direct navigation; `ACT-107`, acquire an
-  operational fact in dialogue; `ACT-123`, hand-craft a known item; `ACT-130`,
-  buy a vendor offer; `ACT-140`, commit the terminal route and final response;
-  `ACT-161`, aim and strike; `ACT-164`, select an active weapon; `ACT-183`,
-  reload; `ACT-191`, spend an attribute or perk point; `ACT-199`, transfer and
-  equip loot; `ACT-201`, enter and operate a vehicle; `ACT-202`, change stance;
-  `ACT-227`, set a personal waypoint.
+- Existing genes: `ACT-008`, direct traversal; `ACT-107`, acquire an
+  operational fact in dialogue; `ACT-140`, commit the terminal route and final
+  response; `ACT-161`, aim and strike; `ACT-164`, select an active weapon;
+  `ACT-183`, reload; `ACT-191`, spend an attribute or perk point; `ACT-199`,
+  transfer and equip loot; `ACT-202`, change stance.
 - New genes: `ACT-231`, commit lifepath and initial attributes; `ACT-232`,
   commit an authored dialogue or quest response; `ACT-233`, scan and upload a
   quickhack; `ACT-234`, configure installed cyberware; `ACT-235`, grapple and
   neutralise an unaware target; `ACT-236`, activate a rechargeable combat item.
-- Claim IDs: `CP-002`–`CP-010`.
+- Claim IDs: `CP-002`–`CP-011`.
 
 ### System Behaviour Genes
 
 - Existing genes: `SYS-208`, resolve ranged attacks through cover and body;
   `SYS-215`, resolve live combat; `SYS-292`, resolve grenade flight and effect;
-  `SYS-299`, convert XP into levels and build points; `SYS-320`, simulate
-  vehicle motion and damage; `SYS-342`, accumulate activity skill progress;
-  `SYS-365`, simulate traffic and civilians; `SYS-366`, escalate and clear
-  wanted pursuit; `SYS-369`, restore an authored mission checkpoint.
+  `SYS-299`, convert XP into levels and build points; `SYS-342`, accumulate
+  activity skill progress; `SYS-369`, restore an authored mission checkpoint.
 - New genes: `SYS-372`, apply lifepath to contextual content; `SYS-373`,
   escalate suspicion into detection and combat; `SYS-374`, resolve quickhack
   upload, queue and trace; `SYS-375`, derive protection and abilities from
-  cyberware; `SYS-376`, recharge spent combat-item charges; `SYS-377`, convert
-  Street Cred into offered-world unlocks; `SYS-378`, scale enemies, loot and
-  vendor tiers to character level; `SYS-379`, advance authored quest state from
-  retained choices.
+  cyberware; `SYS-376`, recharge spent combat-item charges; `SYS-378`, scale
+  enemies and loot to character level; `SYS-379`, advance authored quest state
+  from retained choices.
 - Resolution order: retained build and quest state gate the current interface;
   scanning and perception expose legal targets; stealth, hacking or weapon
-  input resolves in live time; resources, detection and Heat update; rewards
-  update level, skills and Street Cred; jobs retain choices and unlock their
-  successors; failure can restore a prior bounded state.
-- Claim IDs: `CP-002`–`CP-010`.
+  input resolves in live time; resources and detection update; rewards update
+  level and skills; jobs retain choices and unlock their successors; failure
+  can restore a prior bounded state.
+- Claim IDs: `CP-002`–`CP-011`.
 
 ### Constraint Genes
 
@@ -212,8 +207,7 @@ gene_ids:
   abilities require target, resource and readiness; `CON-270`, build choices
   obey level and branch gates; `CON-282`, main jobs require authored order;
   `CON-284`, carry weight and slots bound loot; `CON-285`, weapon operation
-  requires compatible live state; `CON-288`, vehicle operation requires a
-  viable seat, operating state and geometry.
+  requires compatible live state.
 - New genes: `CON-332`, initial build obeys lifepath and attribute budget;
   `CON-333`, cyberware obeys slot and capacity limits; `CON-334`, quickhack
   requires access, target, RAM and readiness; `CON-335`, stealth neutralisation
@@ -221,21 +215,19 @@ gene_ids:
   later branches; `CON-337`, contextual interaction requires its attribute
   threshold.
 - Scarce strategic resources: health, stamina, ammunition, RAM, item charges,
-  cyberware capacity, carry weight, money, attribute and perk points, stealth
-  time before detection, Street Cred and retained branch availability.
-- Claim IDs: `CP-002`–`CP-010`.
+  cyberware capacity, carry weight, attribute and perk points, stealth time
+  before detection and retained branch availability.
+- Claim IDs: `CP-002`–`CP-011`.
 
 ### Information Genes
 
 - Existing genes: `INF-073`, weapon and ammunition state; `INF-115`, partial
-  hostile perception; `INF-117`, money, price and purchase state; `INF-119`,
-  health, RAM, level and build state; `INF-125`, map and job gates; `INF-128`,
-  loot and inventory compatibility; `INF-132`, crafting dependencies;
-  `INF-144`, GPS and wanted-search state.
+  hostile perception; `INF-119`, health, RAM, level and build state; `INF-125`,
+  map and job gates; `INF-128`, loot and inventory compatibility.
 - New genes: `INF-147`, scanner target state and available quickhacks;
   `INF-148`, contextual response gates in dialogue; `INF-149`, cyberware
   capacity and implant effects.
-- Claim IDs: `CP-002`–`CP-010`.
+- Claim IDs: `CP-002`–`CP-011`.
 
 ### Objective Genes
 
@@ -246,10 +238,10 @@ gene_ids:
 
 ### Time Genes
 
-- Existing genes: `TIM-003`, movement, detection, combat, hacking, traffic and
-  pursuit advance in real time; `TIM-007`, manual saves, autosaves and mission
+- Existing genes: `TIM-003`, movement, detection, combat and hacking advance in
+  real time; `TIM-007`, manual saves, autosaves and mission
   checkpoints can restore prior state and permit a different continuation.
-- Claim IDs: `CP-003`–`CP-010`.
+- Claim IDs: `CP-003`–`CP-011`.
 
 ## Reproducible transitions
 
@@ -260,7 +252,6 @@ gene_ids:
 | Hostile has not detected V and is reachable from behind | Crouch, approach, grapple and choose a neutralisation | Target is restrained and resolved without ordinary open fire | Stealth depends on perception and geometry | `CP-005` |
 | Ripperdoc interface exposes a legal implant and enough capacity | Install or replace the implant | Capacity, armour, attunement and granted abilities update together | Cyberware is a configured build system | `CP-006` |
 | XP crosses a level and one perk is currently legal | Spend the resulting point | The selected bounded build node changes future actions or modifiers | Progression becomes committed capability | `CP-007` |
-| V commits an observed crime without current Heat | Evade responding NCPD and remain unseen | Pressure escalates, changes to search and clears after evasion | Law pressure is perception- and time-dependent | `CP-003`, `CP-008` |
 | A manual save predates a dialogue or combat choice | Restore it and choose differently | Earlier retained state returns and subsequent state diverges | Campaign history is player-branchable | `CP-009` |
 | Nocturne OP55N1 exposes Hanako's offer | Accept it and complete the resulting three jobs | The Arasaka route reaches Where Is My Mind? and records the first ending | Optional ending unlocks are not required | `CP-010` |
 
@@ -270,8 +261,8 @@ gene_ids:
   firearm, melee, grenade or retreat; decide whether to spend RAM, ammunition,
   charge readiness or expose V to trace and detection.
 - Medium-term planning: specialise attributes and perks, fit cyberware within
-  slots and capacity, preserve money and components, improve relevant skills
-  and Street Cred, and sequence main jobs while retaining useful responses.
+  slots and capacity, preserve compatible equipment, improve relevant skills
+  and sequence main jobs while retaining useful responses.
 - Long-term structure: the fixed authored world and job graph convert early
   origin/build choices, acquired equipment and retained quest state into
   available approaches and a final terminal branch.
@@ -283,26 +274,27 @@ gene_ids:
   cyberware capacity, journal prerequisites and checkpoint restore explain most
   immediate failure, while enemy movement and authored consequences preserve
   bounded uncertainty.
-- Claim IDs: `CP-002`–`CP-010`.
+- Claim IDs: `CP-002`–`CP-011`.
 
 ## Replay and variation
 
 - What changes between sessions: lifepath, initial and later build, dialogue,
-  stealth/combat route, quickhack deck, cyberware, equipment, vehicle and final
+  stealth/combat route, quickhack deck, cyberware, equipment and final
   branch; this scope records only one first ending.
 - Randomness or procedural generation: Night City and the required job graph
-  are authored; traffic, civilians, loot details, enemy activity and combat
-  execution vary without regenerating the campaign world.
+  are authored; loot details, enemy activity and combat execution vary without
+  regenerating the campaign world.
 - Multiple viable strategies: stealth takedown, netrunning, direct firearms or
-  melee; specialised or hybrid build; bought, looted or crafted equipment.
+  melee; specialised or hybrid build; different looted equipment.
 - Typical replay motive: compare lifepaths, builds, quest responses and excluded
   terminal routes without treating every variant as part of one genome.
 
 ## Adjacent systems and history
 
-- Grand Theft Auto V is the structural near neighbour through direct urban
-  traversal, combat, vehicles, traffic, wanted pursuit, authored mission gates,
-  checkpoints, vendors, GPS and a terminal choice. Cyberpunk replaces the
+- Grand Theft Auto V remains a structural near neighbour through direct
+  traversal, combat, authored mission gates, checkpoints and a terminal choice.
+  The separately excluded vehicle, wanted-state and economy loops explain the
+  reduced overlap. Cyberpunk replaces the
   concurrent trio and crew-planned heists with one configurable protagonist,
   cyberware, quickhacks, stealth perception and retained dialogue state.
 - Fallout 4 should be compared later for authored open-world RPG quests,
@@ -315,136 +307,89 @@ gene_ids:
 
 | Type | Active gene IDs | Candidate genes or parameters |
 |---|---|---|
-| Action | `ACT-008`, `ACT-107`, `ACT-123`, `ACT-130`, `ACT-140`, `ACT-161`, `ACT-164`, `ACT-183`, `ACT-191`, `ACT-199`, `ACT-201`, `ACT-202`, `ACT-227`, `ACT-231`–`ACT-236` | content identities, controls and balance are parameters |
-| System Behaviour | `SYS-208`, `SYS-215`, `SYS-292`, `SYS-299`, `SYS-320`, `SYS-342`, `SYS-365`, `SYS-366`, `SYS-369`, `SYS-372`–`SYS-379` | exact damage, progression and timing are parameters |
-| Constraint | `CON-136`, `CON-188`, `CON-269`, `CON-270`, `CON-282`, `CON-284`, `CON-285`, `CON-288`, `CON-332`–`CON-337` | numeric caps and thresholds are parameters |
-| Information | `INF-073`, `INF-115`, `INF-117`, `INF-119`, `INF-125`, `INF-128`, `INF-132`, `INF-144`, `INF-147`–`INF-149` | HUD styling is presentation |
+| Action | `ACT-008`, `ACT-107`, `ACT-140`, `ACT-161`, `ACT-164`, `ACT-183`, `ACT-191`, `ACT-199`, `ACT-202`, `ACT-231`–`ACT-236` | content identities, controls and balance are parameters |
+| System Behaviour | `SYS-208`, `SYS-215`, `SYS-292`, `SYS-299`, `SYS-342`, `SYS-369`, `SYS-372`–`SYS-376`, `SYS-378`, `SYS-379` | exact damage, progression and timing are parameters |
+| Constraint | `CON-136`, `CON-188`, `CON-269`, `CON-270`, `CON-282`, `CON-284`, `CON-285`, `CON-332`–`CON-337` | numeric caps and thresholds are parameters |
+| Information | `INF-073`, `INF-115`, `INF-119`, `INF-125`, `INF-128`, `INF-147`–`INF-149` | HUD styling is presentation |
 | Objective | `OBJ-077` | selected first ending is the scoped parameter |
 | Time | `TIM-003`, `TIM-007` | save availability and live timing are parameters |
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-107,ACT-123,ACT-130,ACT-140,ACT-161,ACT-164,ACT-183,ACT-191,ACT-199,ACT-201,ACT-202,ACT-227,ACT-231,ACT-232,ACT-233,ACT-234,ACT-235,ACT-236; SYS-208,SYS-215,SYS-292,SYS-299,SYS-320,SYS-342,SYS-365,SYS-366,SYS-369,SYS-372,SYS-373,SYS-374,SYS-375,SYS-376,SYS-377,SYS-378,SYS-379; CON-136,CON-188,CON-269,CON-270,CON-282,CON-284,CON-285,CON-288,CON-332,CON-333,CON-334,CON-335,CON-336,CON-337; INF-073,INF-115,INF-117,INF-119,INF-125,INF-128,INF-132,INF-144,INF-147,INF-148,INF-149; OBJ-077; TIM-003,TIM-007`.
-- Indexed games scanned: all 145 earlier canonical games.
-- Indexed combinations scanned: all 143 earlier verified combinations.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `145` (`GAME-0001`–`GAME-0145`).
 - Exact genome matches: none.
-- Mathematical near match: Grand Theft Auto V (`GAME-0145`),
-  `30 / 82 = 0.365854`.
-- Comparison context: PUBG: BATTLEGROUNDS (`GAME-0140`),
-  `18 / 89 = 0.202247`; Counter-Strike 2 (`GAME-0137`),
-  `11 / 83 = 0.132530`.
-- Supported earlier combination subsets: none; new
-  `COMB-0144` is a strict subset of this 64-gene genome.
-- Scan date: 2026-08-21.
+- Tied near matches: `GAME-0145` — Grand Theft Auto V (`21 / 79 = 0.265823`).
+- Supported combination subsets: `COMB-0144`.
+- Scan date: 2026-08-22.
 
-Exhaustive prior-game ledger:
+### Selected-neighbour interpretation
 
-<!-- EXHAUSTIVE_LEDGER -->
-
-- GAME-0001: 0 / 78 = 0.000000; GAME-0002: 0 / 71 = 0.000000; GAME-0003: 0 / 73 = 0.000000; GAME-0004: 1 / 78 = 0.012821.
-- GAME-0005: 0 / 71 = 0.000000; GAME-0006: 1 / 72 = 0.013889; GAME-0007: 0 / 72 = 0.000000; GAME-0008: 0 / 71 = 0.000000.
-- GAME-0009: 0 / 80 = 0.000000; GAME-0010: 0 / 73 = 0.000000; GAME-0011: 0 / 77 = 0.000000; GAME-0012: 0 / 73 = 0.000000.
-- GAME-0013: 0 / 77 = 0.000000; GAME-0014: 0 / 79 = 0.000000; GAME-0015: 0 / 78 = 0.000000; GAME-0016: 1 / 78 = 0.012821.
-- GAME-0017: 0 / 77 = 0.000000; GAME-0018: 1 / 82 = 0.012195; GAME-0019: 0 / 74 = 0.000000; GAME-0020: 0 / 78 = 0.000000.
-- GAME-0021: 1 / 72 = 0.013889; GAME-0022: 0 / 76 = 0.000000; GAME-0023: 0 / 74 = 0.000000; GAME-0024: 1 / 75 = 0.013333.
-- GAME-0025: 1 / 74 = 0.013514; GAME-0026: 1 / 75 = 0.013333; GAME-0027: 1 / 75 = 0.013333; GAME-0028: 1 / 80 = 0.012500.
-- GAME-0029: 2 / 74 = 0.027027; GAME-0030: 2 / 76 = 0.026316; GAME-0031: 1 / 74 = 0.013514; GAME-0032: 0 / 75 = 0.000000.
-- GAME-0033: 2 / 75 = 0.026667; GAME-0034: 3 / 75 = 0.040000; GAME-0035: 3 / 79 = 0.037975; GAME-0036: 1 / 75 = 0.013333.
-- GAME-0037: 0 / 73 = 0.000000; GAME-0038: 2 / 78 = 0.025641; GAME-0039: 0 / 73 = 0.000000; GAME-0040: 1 / 71 = 0.014085.
-- GAME-0041: 3 / 72 = 0.041667; GAME-0042: 0 / 73 = 0.000000; GAME-0043: 1 / 77 = 0.012987; GAME-0044: 1 / 73 = 0.013699.
-- GAME-0045: 1 / 77 = 0.012987; GAME-0046: 0 / 74 = 0.000000; GAME-0047: 0 / 78 = 0.000000; GAME-0048: 0 / 78 = 0.000000.
-- GAME-0049: 0 / 73 = 0.000000; GAME-0050: 1 / 78 = 0.012821; GAME-0051: 1 / 79 = 0.012658; GAME-0052: 0 / 74 = 0.000000.
-- GAME-0053: 1 / 72 = 0.013889; GAME-0054: 1 / 74 = 0.013514; GAME-0055: 1 / 73 = 0.013699; GAME-0056: 0 / 72 = 0.000000.
-- GAME-0057: 0 / 72 = 0.000000; GAME-0058: 0 / 73 = 0.000000; GAME-0059: 0 / 71 = 0.000000; GAME-0060: 0 / 71 = 0.000000.
-- GAME-0061: 0 / 74 = 0.000000; GAME-0062: 0 / 72 = 0.000000; GAME-0063: 0 / 71 = 0.000000; GAME-0064: 0 / 69 = 0.000000.
-- GAME-0065: 0 / 71 = 0.000000; GAME-0066: 0 / 74 = 0.000000; GAME-0067: 0 / 72 = 0.000000; GAME-0068: 0 / 72 = 0.000000.
-- GAME-0069: 0 / 72 = 0.000000; GAME-0070: 0 / 72 = 0.000000; GAME-0071: 0 / 71 = 0.000000; GAME-0072: 0 / 72 = 0.000000.
-- GAME-0073: 0 / 71 = 0.000000; GAME-0074: 0 / 73 = 0.000000; GAME-0075: 0 / 73 = 0.000000; GAME-0076: 0 / 71 = 0.000000.
-- GAME-0077: 0 / 71 = 0.000000; GAME-0078: 0 / 71 = 0.000000; GAME-0079: 0 / 71 = 0.000000; GAME-0080: 0 / 71 = 0.000000.
-- GAME-0081: 0 / 72 = 0.000000; GAME-0082: 0 / 72 = 0.000000; GAME-0083: 0 / 72 = 0.000000; GAME-0084: 0 / 74 = 0.000000.
-- GAME-0085: 1 / 74 = 0.013514; GAME-0086: 1 / 76 = 0.013158; GAME-0087: 2 / 72 = 0.027778; GAME-0088: 1 / 72 = 0.013889.
-- GAME-0089: 1 / 72 = 0.013889; GAME-0090: 2 / 77 = 0.025974; GAME-0091: 2 / 71 = 0.028169; GAME-0092: 1 / 73 = 0.013699.
-- GAME-0093: 0 / 73 = 0.000000; GAME-0094: 2 / 72 = 0.027778; GAME-0095: 2 / 74 = 0.027027; GAME-0096: 2 / 72 = 0.027778.
-- GAME-0097: 2 / 70 = 0.028571; GAME-0098: 2 / 69 = 0.028986; GAME-0099: 1 / 71 = 0.014085; GAME-0100: 1 / 74 = 0.013514.
-- GAME-0101: 0 / 74 = 0.000000; GAME-0102: 0 / 71 = 0.000000; GAME-0103: 0 / 73 = 0.000000; GAME-0104: 1 / 72 = 0.013889.
-- GAME-0105: 3 / 71 = 0.042254; GAME-0106: 0 / 71 = 0.000000; GAME-0107: 1 / 71 = 0.014085; GAME-0108: 1 / 73 = 0.013699.
-- GAME-0109: 0 / 80 = 0.000000; GAME-0110: 1 / 71 = 0.014085; GAME-0111: 2 / 69 = 0.028986; GAME-0112: 2 / 70 = 0.028571.
-- GAME-0113: 2 / 76 = 0.026316; GAME-0114: 1 / 70 = 0.014286; GAME-0115: 0 / 70 = 0.000000; GAME-0116: 2 / 68 = 0.029412.
-- GAME-0117: 1 / 71 = 0.014085; GAME-0118: 1 / 79 = 0.012658; GAME-0119: 2 / 85 = 0.023529; GAME-0120: 1 / 92 = 0.010870.
-- GAME-0121: 1 / 86 = 0.011628; GAME-0122: 1 / 78 = 0.012821; GAME-0123: 2 / 100 = 0.020000; GAME-0124: 4 / 107 = 0.037383.
-- GAME-0125: 2 / 104 = 0.019231; GAME-0126: 1 / 106 = 0.009434; GAME-0127: 2 / 110 = 0.018182; GAME-0128: 2 / 78 = 0.025641.
-- GAME-0129: 7 / 92 = 0.076087; GAME-0130: 3 / 114 = 0.026316; GAME-0131: 6 / 104 = 0.057692; GAME-0132: 1 / 114 = 0.008772.
-- GAME-0133: 1 / 108 = 0.009259; GAME-0134: 1 / 114 = 0.008772; GAME-0135: 1 / 111 = 0.009009; GAME-0136: 3 / 121 = 0.024793.
-- GAME-0137: 11 / 83 = 0.132530; GAME-0138: 8 / 91 = 0.087912; GAME-0139: 9 / 109 = 0.082569; GAME-0140: 18 / 89 = 0.202247.
-- GAME-0141: 12 / 103 = 0.116505; GAME-0142: 12 / 103 = 0.116505; GAME-0143: 12 / 101 = 0.118812; GAME-0144: 10 / 89 = 0.112360.
-- GAME-0145: 30 / 82 = 0.365854.
-
-### Registry normalisation 006 score corrections
-
-These recomputed values supersede the pre-normalisation fractions above:
-
-- `GAME-0132`: `2 / 113 = 0.017699`
-- `GAME-0137`: `12 / 82 = 0.146341`
-- `GAME-0139`: `10 / 108 = 0.092593`
-- `GAME-0143`: `14 / 99 = 0.141414`
-- Current prior-corpus near match after normalisation 006: `GAME-0145`.
+| Neighbour | Shared genes | Decision-relevant differences | Match result |
+|---|---|---|---|
+| `GAME-0145` — Grand Theft Auto V | `ACT-008`, `ACT-140`, `ACT-161`, `ACT-164`, `ACT-183`, `SYS-208`, `SYS-215`, `SYS-292`, `SYS-342`, `SYS-369`, `CON-136`, `CON-188`, `CON-269`, `CON-282`, `CON-285`, `INF-073`, `INF-115`, `INF-119`, `INF-125`, `OBJ-077`, `TIM-003` | Both packets retain direct traversal, real-time combat, authored mission gates, checkpoint restoration and a terminal choice. The bounded Cyberpunk packet excludes the vehicle, wanted-state and ordinary economy loops that remain central to GTA V, and instead centres one persistent cyberware/quickhack character build with retained dialogue state. | Near, `0.265823` |
 
 ## Taxonomy impact
 
-- Registry changes: 23 new bounded genes and `COMB-0144`; 41 existing genes
-  gain an independently sourced open-world action-RPG example without changing
-  their lifecycle or causal boundary.
+- Registry changes: the reviewed scope migration removes 12 genes from this
+  carrier. Eleven keep their active lifecycle and other carriers; orphaned
+  `SYS-377` becomes `Deprecated` under `TAXONOMY_CHANGE_016` without a boundary
+  rewrite. `COMB-0144` contracts from 49 to 47 genes.
 - New family: none; existing `FAM-009`, `FAM-010`, `FAM-012`, `FAM-013` and
-  `FAM-017` fit.
-- Taxonomy-change record: none.
+  `FAM-017` remain justified by the retained tactical, real-time, progression,
+  inventory and ordered-dependency mechanics.
+- Taxonomy-change records: `GAME_SIGNATURE_MIGRATION_001` and
+  `TAXONOMY_CHANGE_016`.
 
 ## Negative results
 
 - Phantom Liberty and every optional ending-unlock path were tested as scope
   candidates and excluded because they are not required for the reproducible
   first Arasaka ending.
+- Crafting/vendor, vehicle/navigation, NCPD Heat and Street Cred offer loops
+  were re-audited against the selected Arasaka route. They remain valid product
+  systems but do not change a required or recurrent transition inside this
+  bounded packet.
 
 ## Delta summary
 
 ## Нові факти
 
-- [Confirmed | Direct | High] Scanner access, RAM, upload queue and hostile
-  trace form one coupled offensive-information system (`CP-004`).
-- [Confirmed | Direct | High] Cyberware slots and capacity jointly bound armour,
-  active abilities and attribute attunement (`CP-006`).
+- [Confirmed | Corroborated | High] The selected critical-path packet is
+  reproducible without the four separable open-world loops (`CP-011`).
+- [Confirmed | Direct | High] Scanner/quickhack, cyberware/build and retained
+  quest state continue to change decisions within that packet (`CP-004`,
+  `CP-006`, `CP-009`).
 
 ## Нові гени
 
-- [Observation | Corroborated | High] 23 bounded genes cover initial origin,
-  authored responses, scanning/quickhacks, cyberware, stealth neutralisation,
-  rechargeable combat items, detection, Street Cred, level scaling and quest
-  retention.
+- [Observation | Corroborated | High] No genes are added. `ACT-123`, `ACT-130`,
+  `ACT-201`, `ACT-227`, `SYS-320`, `SYS-365`, `SYS-366`, `SYS-377`, `CON-288`,
+  `INF-117`, `INF-132` and `INF-144` leave this signature only.
 
 ## Нові комбінації
 
-- [Confirmed | Corroborated | High] `COMB-0144` — capacity-bound cybernetic
-  build and hacking into retained quest branches.
+- [Confirmed | Corroborated | High] `COMB-0144` remains a strict subset after
+  removal of `SYS-377` and `INF-117`, contracting from 49 to 47 genes.
 
 ## Зміни таксономії
 
-- [Observation | Corroborated | High] Five existing families absorb the game;
-  no new family or lifecycle change is needed.
+- [Observation | Corroborated | High] Five existing family memberships remain;
+  no new family or canonical boundary rewrite is needed. The orphaned stable ID
+  `SYS-377` is deprecated.
 
 ## Нові питання
 
 - Should a later expansion distinguish enemy-network trace propagation from a
   generic hostile trace when another netrunning game supplies a second example?
 
-## Наступна рекомендована гра
+## Наступна рекомендована дія
 
-- [Hypothesis | Limited | High] `GAME-0147` — Marvel Rivals.
-- Optimisation criterion: continue the recorded demand-led tranche in order.
-- Expected information gain: hero swapping, destructible team arenas, role
-  synergies and round/objective structure against the current combat corpus.
-- Backlog impact: advances the 17-game Goal without skipping.
+- [Hypothesis | Limited | High] Run one focused independent audit of the atomic
+  GAME-0146 migration before reopening corpus expansion.
 
 ## Чому саме вона
 
-- [Hypothesis | Limited | High] It preserves live hero combat for comparison
-  while replacing persistent open-world build and quests with team composition,
-  objective rounds and environment destruction.
+- [Hypothesis | Limited | High] Signature, combination, salience, comparisons,
+  localisation and presentation changed together; the narrow audit can verify
+  the completed envelope without reopening the accepted product boundary.

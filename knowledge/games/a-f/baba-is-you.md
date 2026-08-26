@@ -253,47 +253,24 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0012`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0012`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `12` (`GAME-0001`–`GAME-0012`).
 - Exact genome matches: none.
-- Shared with `GAME-0001`: `CON-001`, `INF-001`, `TIM-001`; intersection `3`,
-  union `24`, `3 / 24 = 0.125000`.
-- Shared with `GAME-0002`: `CON-001`, `INF-001`; intersection `2`, union `18`,
-  `2 / 18 = 0.111111`.
-- Shared with `GAME-0003`: `CON-001`, `TIM-001`; intersection `2`, union `20`,
-  `2 / 20 = 0.100000`.
-- Shared with `GAME-0004`: `CON-001`, `INF-001`; intersection `2`, union `26`,
-  `2 / 26 = 0.076923`.
-- Shared with `GAME-0005`: `CON-001`, `INF-001`; intersection `2`, union `18`,
-  `2 / 18 = 0.111111`.
-- Shared with `GAME-0006`: `ACT-009`, `CON-001`, `INF-001`; intersection `3`,
-  union `19`, `3 / 19 = 0.157895`.
-- Shared with `GAME-0007`: `INF-001`; intersection `1`, union `20`,
-  `1 / 20 = 0.050000`.
-- Shared with `GAME-0008`: `CON-001`, `INF-001`; intersection `2`, union `18`,
-  `2 / 18 = 0.111111`.
-- Shared with `GAME-0009`: `CON-001`, `INF-001`, `TIM-001`; intersection `3`,
-  union `26`, `3 / 26 = 0.115385`.
-- Shared with `GAME-0010`: `CON-001`, `INF-001`, `TIM-001`; intersection `3`,
-  union `19`, `3 / 19 = 0.157895`.
-- Shared with `GAME-0011`: `CON-001`, `INF-001`; intersection `2`, union `24`,
-  `2 / 24 = 0.083333`.
-- Shared with `GAME-0012`: `CON-001`, `INF-001`; intersection `2`, union `20`,
-  `2 / 20 = 0.100000`.
-- Near matches: `GAME-0006` and `GAME-0010`, tied at the positive maximum
-  `0.157895` among non-exact indexed games.
-- Supported existing combination subsets: none. Every indexed combination
-  requires at least one absent action, behaviour, constraint, information or
-  objective gene.
-- New combination: `COMB-0013`, whose eight genes are a proper subset of this
-  thirteen-gene genome.
+- Tied near matches: `GAME-0006` — Sokoban (`3 / 19 = 0.157895`); `GAME-0010` — Water Sort (`3 / 19 = 0.157895`).
+- Supported combination subsets: `COMB-0013`.
 - Scan date: 2026-08-11.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
 | `GAME-0006` — Sokoban | `ACT-009`, `CON-001`, `INF-001` | Both use visible body-mediated pushing on a fixed grid; Sokoban has one persistent agent and static walls / goals, while Baba dynamically reassigns control, collision and victory through text | Near, `0.157895` |
 | `GAME-0010` — Water Sort | `CON-001`, `INF-001`, `TIM-001` | Both resolve deterministic commands on visible fixed capacity; Water Sort has stable pour rules, while Baba reparses player-moved syntax and changes the mechanics themselves | Near, `0.157895` |
 
+### Preserved research notes
+
+- New combination: `COMB-0013`, whose eight genes are a proper subset of this
+  thirteen-gene genome.
 - New genes: `ACT-017`, `ACT-018`, `SYS-017`, `SYS-018`, `CON-031`,
   `CON-032`, `CON-033`, `INF-008`, `OBJ-010`.
 - Classification result: `New gene`.

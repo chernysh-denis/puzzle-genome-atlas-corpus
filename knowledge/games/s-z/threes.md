@@ -233,39 +233,19 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0014`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0014`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `14` (`GAME-0001`–`GAME-0014`).
 - Exact genome matches: none.
-- Existing combination subsets: none. `COMB-0001` does not match because
-  `SYS-001` and `INF-002` are absent.
-- Jaccard scores against complete genomes:
-  - `GAME-0001`: shared `ACT-001`, `SYS-002`, `SYS-003`, `SYS-004`, `CON-001`,
-    `CON-002`, `CON-003`, `INF-001`, `OBJ-002`, `OBJ-003`, `TIM-001`;
-    `11 / 17 = 0.647059`.
-  - `GAME-0002`: shared `CON-001`, `INF-001`; `2 / 19 = 0.105263`.
-  - `GAME-0003`: shared `CON-001`, `TIM-001`; `2 / 21 = 0.095238`.
-  - `GAME-0004`: shared `SYS-004`, `CON-001`, `INF-001`, `OBJ-002`,
-    `OBJ-003`; `5 / 24 = 0.208333`.
-  - `GAME-0005`: shared `CON-001`, `INF-001`; `2 / 19 = 0.105263`.
-  - `GAME-0006`: shared `CON-001`, `INF-001`; `2 / 21 = 0.095238`.
-  - `GAME-0007`: shared `INF-001`; `1 / 21 = 0.047619`.
-  - `GAME-0008`: shared `CON-001`, `INF-001`; `2 / 19 = 0.105263`.
-  - `GAME-0009`: shared `SYS-003`, `SYS-004`, `CON-001`, `INF-001`,
-    `TIM-001`; `5 / 25 = 0.200000`.
-  - `GAME-0010`: shared `CON-001`, `INF-001`, `TIM-001`;
-    `3 / 20 = 0.150000`.
-  - `GAME-0011`: shared `CON-001`, `INF-001`; `2 / 25 = 0.080000`.
-  - `GAME-0012`: shared `CON-001`, `INF-001`; `2 / 21 = 0.095238`.
-  - `GAME-0013`: shared `CON-001`, `INF-001`, `TIM-001`;
-    `3 / 24 = 0.125000`.
-  - `GAME-0014`: shared `CON-001`, `INF-001`; `2 / 27 = 0.074074`.
-- Unique near match: `GAME-0001` — 2048 at `0.647059`.
-- Long-form near comparison: the games share ten genes and the same global
-  slide-and-random-insertion pressure. Threes replaces maximal compression with
-  one-step movement, parameterises the shared pairwise compatibility relation
-  with a complementary base pair, restricts spawn to changed-line edges and
-  replaces absent preview with a category preview. It also lacks a named
-  target-value milestone.
+- Tied near matches: `GAME-0001` — 2048 (`11 / 17 = 0.647059`).
+- Supported combination subsets: `COMB-0015`.
+- Scan date: 2026-08-11.
+
+### Selected-neighbour interpretation
+
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0001`.
+
+### Preserved research notes
+
 - Result: no exact signature or existing combination match. The close score is
   a successful reuse test, not a novelty claim.
 

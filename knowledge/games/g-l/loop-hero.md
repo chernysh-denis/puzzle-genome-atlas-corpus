@@ -261,46 +261,20 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0027`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0027`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `27` (`GAME-0001`–`GAME-0027`).
 - Exact genome matches: none.
-- Existing combination subsets: none.
-- Jaccard scores against complete genomes:
-  - `GAME-0001`: shared `SYS-004`, `CON-001`, `INF-001`, `INF-002`; `4 / 27 = 0.148148`.
-  - `GAME-0002`: shared `CON-001`, `INF-001`; `2 / 22 = 0.090909`.
-  - `GAME-0003`: shared `CON-001`; `1 / 25 = 0.040000`.
-  - `GAME-0004`: shared `SYS-004`, `CON-001`, `INF-001`, `TIM-003`; `4 / 28 = 0.142857`.
-  - `GAME-0005`: shared `CON-001`, `INF-001`; `2 / 22 = 0.090909`.
-  - `GAME-0006`: shared `CON-001`, `INF-001`; `2 / 24 = 0.083333`.
-  - `GAME-0007`: shared `INF-001`; `1 / 24 = 0.041667`.
-  - `GAME-0008`: shared `CON-001`, `INF-001`; `2 / 22 = 0.090909`.
-  - `GAME-0009`: shared `SYS-004`, `CON-001`, `INF-001`, `INF-002`; `4 / 29 = 0.137931`.
-  - `GAME-0010`: shared `CON-001`, `INF-001`; `2 / 24 = 0.083333`.
-  - `GAME-0011`: shared `CON-001`, `INF-001`; `2 / 28 = 0.071429`.
-  - `GAME-0012`: shared `CON-001`, `INF-001`; `2 / 24 = 0.083333`.
-  - `GAME-0013`: shared `CON-001`, `INF-001`; `2 / 28 = 0.071429`.
-  - `GAME-0014`: shared `CON-001`, `INF-001`; `2 / 30 = 0.066667`.
-  - `GAME-0015`: shared `SYS-004`, `CON-001`, `INF-001`; `3 / 28 = 0.107143`.
-  - `GAME-0016`: shared `SYS-004`, `CON-001`, `INF-001`, `TIM-003`; `4 / 28 = 0.142857`.
-  - `GAME-0017`: shared none; `0 / 30 = 0.000000`.
-  - `GAME-0018`: shared `SYS-004`, `INF-001`, `INF-002`, `TIM-003`; `4 / 32 = 0.125000`.
-  - `GAME-0019`: shared `CON-001`, `INF-001`; `2 / 25 = 0.080000`.
-  - `GAME-0020`: shared `SYS-004`, `SYS-035`, `INF-001`; `3 / 28 = 0.107143`.
-  - `GAME-0021`: shared `INF-001`, `TIM-003`; `2 / 24 = 0.083333`.
-  - `GAME-0022`: shared `INF-001`; `1 / 28 = 0.035714`.
-  - `GAME-0023`: shared none; `0 / 27 = 0.000000`.
-  - `GAME-0024`: shared `CON-001`, `TIM-003`; `2 / 27 = 0.074074`.
-  - `GAME-0025`: shared `SYS-045`, `INF-001`, `TIM-003`; `3 / 25 = 0.120000`.
-  - `GAME-0026`: shared `INF-001`, `TIM-003`; `2 / 27 = 0.074074`.
-  - `GAME-0027`: shared `SYS-045`, `SYS-051`, `CON-001`, `INF-001`, `TIM-003`; `5 / 24 = 0.208333`.
-- Mathematically selected near match: `GAME-0027` — Bad North at
-  `5 / 24 = 0.208333`.
+- Tied near matches: `GAME-0027` — Bad North: Jotunn Edition (`5 / 24 = 0.208333`).
+- Supported combination subsets: `COMB-0028`.
+- Scan date: 2026-08-12.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0027` — Bad North | `SYS-045`, `SYS-051`, `CON-001`, `INF-001`, `TIM-003` | squad destinations and carrier defence versus no hero destination control, world-card encounter authorship and retreat banking | Near match only |
-| `GAME-0025` — Lemmings | `SYS-045`, `INF-001`, `TIM-003` | individual skill assignment, population release and rescue quota versus persistent world placement around one cyclic hero | Required boundary comparison; not formal near match |
-| `GAME-0026` — World of Goo | `INF-001`, `TIM-003` | live force-network construction and population extraction versus fixed-cycle encounter authorship | Required boundary comparison; not formal near match |
+| `GAME-0027` — Bad North | `SYS-045`, `SYS-051`, `CON-001`, `INF-001`, `TIM-003` | squad destinations and carrier defence versus no hero destination control, world-card encounter authorship and retreat banking | Near, `0.208333` |
+
+### Preserved research notes
 
 - New genes: `ACT-039`, `ACT-040`, `ACT-041`, `SYS-053`, `SYS-054`,
   `CON-072`, `CON-073`, `CON-074`, `OBJ-021`.

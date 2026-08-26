@@ -287,36 +287,18 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0040`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0040`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `40` (`GAME-0001`–`GAME-0040`).
 - Exact genome matches: none.
-- Existing combination subsets: none before registering `COMB-0041`.
-- Full Jaccard scan (intersection / union = score):
-  `GAME-0001` `1 / 24 = 0.041667`; `GAME-0002` `1 / 17 = 0.058824`;
-  `GAME-0003` `0 / 20 = 0.000000`; `GAME-0004` `2 / 24 = 0.083333`;
-  `GAME-0005` `1 / 17 = 0.058824`; `GAME-0006` `2 / 18 = 0.111111`;
-  `GAME-0007` `1 / 18 = 0.055556`; `GAME-0008` `1 / 17 = 0.058824`;
-  `GAME-0009` `1 / 26 = 0.038462`; `GAME-0010` `1 / 19 = 0.052632`;
-  `GAME-0011` `1 / 23 = 0.043478`; `GAME-0012` `1 / 19 = 0.052632`;
-  `GAME-0013` `1 / 23 = 0.043478`; `GAME-0014` `1 / 25 = 0.040000`;
-  `GAME-0015` `1 / 24 = 0.041667`; `GAME-0016` `2 / 24 = 0.083333`;
-  `GAME-0017` `0 / 24 = 0.000000`; `GAME-0018` `2 / 28 = 0.071429`;
-  `GAME-0019` `1 / 20 = 0.050000`; `GAME-0020` `1 / 24 = 0.041667`;
-  `GAME-0021` `3 / 17 = 0.176471`; `GAME-0022` `1 / 22 = 0.045455`;
-  `GAME-0023` `0 / 21 = 0.000000`; `GAME-0024` `1 / 22 = 0.045455`;
-  `GAME-0025` `2 / 20 = 0.100000`; `GAME-0026` `3 / 20 = 0.150000`;
-  `GAME-0027` `2 / 21 = 0.095238`; `GAME-0028` `2 / 26 = 0.076923`;
-  `GAME-0029` `3 / 20 = 0.150000`; `GAME-0030` `5 / 20 = 0.250000`;
-  `GAME-0031` `4 / 18 = 0.222222`; `GAME-0032` `1 / 21 = 0.047619`;
-  `GAME-0033` `5 / 19 = 0.263158`; `GAME-0034` `5 / 20 = 0.250000`;
-  `GAME-0035` `5 / 24 = 0.208333`; `GAME-0036` `2 / 21 = 0.095238`;
-  `GAME-0037` `1 / 19 = 0.052632`; `GAME-0038` `4 / 23 = 0.173913`;
-  `GAME-0039` `1 / 19 = 0.052632`; `GAME-0040` `2 / 17 = 0.117647`.
-- Mathematical near match: `GAME-0033` — Portal at `5 / 19 = 0.263158`.
+- Tied near matches: `GAME-0033` — Portal (`5 / 19 = 0.263158`).
+- Supported combination subsets: `COMB-0041`.
+- Scan date: 2026-08-12.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0033` — Portal | `ACT-008`, `SYS-036`, `INF-001`, `OBJ-022`, `TIM-003` | Portal places two replaceable endpoints on eligible surfaces, preserves chamber geometry, remaps crossing bodies and velocity, supports portable cubes and has no rewind. Viewfinder poses one consumable image, instantiates its contents, destructively replaces a projection volume and branches history. | Near only; no exact genome or inherited combination match |
+| `GAME-0033` — Portal | `ACT-008`, `SYS-036`, `INF-001`, `OBJ-022`, `TIM-003` | Portal places two replaceable endpoints on eligible surfaces, preserves chamber geometry, remaps crossing bodies and velocity, supports portable cubes and has no rewind. Viewfinder poses one consumable image, instantiates its contents, destructively replaces a projection volume and branches history. | Near, `0.263158` |
 
 ## Combination record
 

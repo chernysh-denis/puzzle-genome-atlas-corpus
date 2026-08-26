@@ -324,56 +324,18 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-085,ACT-087,ACT-126,ACT-127,ACT-128,ACT-129,ACT-130,ACT-131,ACT-135,ACT-136,ACT-137,ACT-138; SYS-004,SYS-112,SYS-166,SYS-167,SYS-168,SYS-172,SYS-173,SYS-174,SYS-175; CON-043,CON-136,CON-176,CON-177,CON-178,CON-180,CON-181,CON-182,CON-183; INF-002,INF-003,INF-009,INF-062; OBJ-057,OBJ-058; TIM-002,TIM-005`.
-- Indexed games scanned: 123, including this record.
-- Indexed combinations scanned: 121.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `122` (`GAME-0001`–`GAME-0122`).
 - Exact genome matches: none.
-- Near matches and similarity scores: `GAME-0120` — Slay the Spire at
-  `18 / 49 = 0.367347`.
+- Tied near matches: `GAME-0120` — Slay the Spire (`18 / 49 = 0.367347`).
 - Supported combination subsets: `COMB-0121`.
 - Scan date: 2026-08-18.
 
-### Full prior-game Jaccard scan
-
-- `GAME-0001`: `2 / 50 = 0.040000`; `GAME-0002`: `1 / 44 = 0.022727`; `GAME-0003`: `1 / 46 = 0.021739`; `GAME-0004`: `1 / 52 = 0.019231`.
-- `GAME-0005`: `1 / 44 = 0.022727`; `GAME-0006`: `1 / 46 = 0.021739`; `GAME-0007`: `1 / 45 = 0.022222`; `GAME-0008`: `1 / 44 = 0.022727`.
-- `GAME-0009`: `2 / 52 = 0.038462`; `GAME-0010`: `0 / 47 = 0.000000`; `GAME-0011`: `1 / 50 = 0.020000`; `GAME-0012`: `1 / 46 = 0.021739`.
-- `GAME-0013`: `0 / 51 = 0.000000`; `GAME-0014`: `2 / 51 = 0.039216`; `GAME-0015`: `1 / 51 = 0.019608`; `GAME-0016`: `1 / 52 = 0.019231`.
-- `GAME-0017`: `2 / 49 = 0.040816`; `GAME-0018`: `2 / 55 = 0.036364`; `GAME-0019`: `0 / 48 = 0.000000`; `GAME-0020`: `1 / 51 = 0.019608`.
-- `GAME-0021`: `0 / 47 = 0.000000`; `GAME-0022`: `0 / 50 = 0.000000`; `GAME-0023`: `1 / 47 = 0.021277`; `GAME-0024`: `1 / 49 = 0.020408`.
-- `GAME-0025`: `0 / 49 = 0.000000`; `GAME-0026`: `0 / 50 = 0.000000`; `GAME-0027`: `0 / 50 = 0.000000`; `GAME-0028`: `2 / 53 = 0.037736`.
-- `GAME-0029`: `0 / 50 = 0.000000`; `GAME-0030`: `0 / 52 = 0.000000`; `GAME-0031`: `0 / 49 = 0.000000`; `GAME-0032`: `0 / 49 = 0.000000`.
-- `GAME-0033`: `0 / 51 = 0.000000`; `GAME-0034`: `0 / 52 = 0.000000`; `GAME-0035`: `0 / 56 = 0.000000`; `GAME-0036`: `1 / 49 = 0.020408`.
-- `GAME-0037`: `0 / 47 = 0.000000`; `GAME-0038`: `0 / 54 = 0.000000`; `GAME-0039`: `1 / 46 = 0.021739`; `GAME-0040`: `1 / 45 = 0.022222`.
-- `GAME-0041`: `0 / 49 = 0.000000`; `GAME-0042`: `0 / 47 = 0.000000`; `GAME-0043`: `0 / 52 = 0.000000`; `GAME-0044`: `0 / 48 = 0.000000`.
-- `GAME-0045`: `0 / 52 = 0.000000`; `GAME-0046`: `1 / 47 = 0.021277`; `GAME-0047`: `4 / 48 = 0.083333`; `GAME-0048`: `0 / 52 = 0.000000`.
-- `GAME-0049`: `1 / 46 = 0.021739`; `GAME-0050`: `0 / 53 = 0.000000`; `GAME-0051`: `2 / 52 = 0.038462`; `GAME-0052`: `0 / 48 = 0.000000`.
-- `GAME-0053`: `0 / 47 = 0.000000`; `GAME-0054`: `0 / 49 = 0.000000`; `GAME-0055`: `0 / 48 = 0.000000`; `GAME-0056`: `0 / 46 = 0.000000`.
-- `GAME-0057`: `0 / 46 = 0.000000`; `GAME-0058`: `0 / 47 = 0.000000`; `GAME-0059`: `0 / 45 = 0.000000`; `GAME-0060`: `0 / 45 = 0.000000`.
-- `GAME-0061`: `1 / 47 = 0.021277`; `GAME-0062`: `1 / 45 = 0.022222`; `GAME-0063`: `1 / 44 = 0.022727`; `GAME-0064`: `1 / 42 = 0.023810`.
-- `GAME-0065`: `2 / 43 = 0.046512`; `GAME-0066`: `2 / 46 = 0.043478`; `GAME-0067`: `2 / 44 = 0.045455`; `GAME-0068`: `2 / 44 = 0.045455`.
-- `GAME-0069`: `1 / 45 = 0.022222`; `GAME-0070`: `0 / 46 = 0.000000`; `GAME-0071`: `1 / 44 = 0.022727`; `GAME-0072`: `1 / 45 = 0.022222`.
-- `GAME-0073`: `1 / 44 = 0.022727`; `GAME-0074`: `1 / 46 = 0.021739`; `GAME-0075`: `1 / 46 = 0.021739`; `GAME-0076`: `1 / 44 = 0.022727`.
-- `GAME-0077`: `1 / 44 = 0.022727`; `GAME-0078`: `1 / 44 = 0.022727`; `GAME-0079`: `1 / 44 = 0.022727`; `GAME-0080`: `1 / 44 = 0.022727`.
-- `GAME-0081`: `1 / 45 = 0.022222`; `GAME-0082`: `1 / 45 = 0.022222`; `GAME-0083`: `1 / 45 = 0.022222`; `GAME-0084`: `1 / 47 = 0.021277`.
-- `GAME-0085`: `6 / 43 = 0.139535`; `GAME-0086`: `5 / 46 = 0.108696`; `GAME-0087`: `2 / 46 = 0.043478`; `GAME-0088`: `2 / 45 = 0.044444`.
-- `GAME-0089`: `1 / 46 = 0.021739`; `GAME-0090`: `2 / 51 = 0.039216`; `GAME-0091`: `0 / 47 = 0.000000`; `GAME-0092`: `0 / 48 = 0.000000`.
-- `GAME-0093`: `2 / 45 = 0.044444`; `GAME-0094`: `0 / 48 = 0.000000`; `GAME-0095`: `0 / 50 = 0.000000`; `GAME-0096`: `0 / 48 = 0.000000`.
-- `GAME-0097`: `0 / 46 = 0.000000`; `GAME-0098`: `0 / 45 = 0.000000`; `GAME-0099`: `0 / 46 = 0.000000`; `GAME-0100`: `0 / 49 = 0.000000`.
-- `GAME-0101`: `1 / 47 = 0.021277`; `GAME-0102`: `1 / 44 = 0.022727`; `GAME-0103`: `0 / 47 = 0.000000`; `GAME-0104`: `0 / 47 = 0.000000`.
-- `GAME-0105`: `0 / 48 = 0.000000`; `GAME-0106`: `1 / 44 = 0.022727`; `GAME-0107`: `1 / 45 = 0.022222`; `GAME-0108`: `1 / 47 = 0.021277`.
-- `GAME-0109`: `2 / 52 = 0.038462`; `GAME-0110`: `0 / 46 = 0.000000`; `GAME-0111`: `4 / 41 = 0.097561`; `GAME-0112`: `0 / 46 = 0.000000`.
-- `GAME-0113`: `0 / 52 = 0.000000`; `GAME-0114`: `0 / 45 = 0.000000`; `GAME-0115`: `1 / 43 = 0.023256`; `GAME-0116`: `0 / 44 = 0.000000`.
-- `GAME-0117`: `1 / 45 = 0.022222`; `GAME-0118`: `0 / 54 = 0.000000`; `GAME-0119`: `0 / 61 = 0.000000`; `GAME-0120`: `18 / 49 = 0.367347`.
-- `GAME-0121`: `0 / 61 = 0.000000`; `GAME-0122`: `0 / 53 = 0.000000`.
-
-Near matches are selected by the canonical positive-maximum rule. Slay the
-Spire is the unique maximum; the lower-scoring adventure-puzzle records share
-only the authored cabin-fixture substrate rather than the combat loop.
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0120` — Slay the Spire | `ACT-126`–`ACT-131`, `SYS-004`, `SYS-166`–`SYS-168`, `CON-043`, `CON-176`–`CON-178`, `INF-002`, `INF-003`, `INF-062`, `TIM-005` | Slay the Spire pays renewable Energy for immediate card effects against intent-previewed enemies; Inscryption pays Blood by removing friendly lane creatures, accrues Bones from death, resolves paired-lane entities against a relative scale and gates Act I through candles plus cabin mechanisms | Unique near match |
+| `GAME-0120` — Slay the Spire | `ACT-126`–`ACT-131`, `SYS-004`, `SYS-166`–`SYS-168`, `CON-043`, `CON-176`–`CON-178`, `INF-002`, `INF-003`, `INF-062`, `TIM-005` | Slay the Spire pays renewable Energy for immediate card effects against intent-previewed enemies; Inscryption pays Blood by removing friendly lane creatures, accrues Bones from death, resolves paired-lane entities against a relative scale and gates Act I through candles plus cabin mechanisms | Near, `0.367347` |
 
 ## Combination record
 

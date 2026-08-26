@@ -261,37 +261,23 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`, `GAME-0002`, `GAME-0003`, `GAME-0004`.
-- Indexed combinations scanned: `COMB-0001`, `COMB-0002`, `COMB-0003`,
-  `COMB-0004`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `4` (`GAME-0001`–`GAME-0004`).
 - Exact genome matches: none.
-- Shared with `GAME-0001`: `CON-001`, `INF-001`.
-- Structural similarity to `GAME-0001`: intersection `2`, union `19`,
-  `2 / 19 = 0.105263`.
-- Shared with `GAME-0002`: `CON-001`, `INF-001`, `TIM-002`.
-- Structural similarity to `GAME-0002`: intersection `3`, union `11`,
-  `3 / 11 = 0.272727`.
-- Shared with `GAME-0003`: `CON-001`.
-- Structural similarity to `GAME-0003`: intersection `1`, union `15`,
-  `1 / 15 = 0.066667`.
-- Shared with `GAME-0004`: `CON-001`, `INF-001`.
-- Structural similarity to `GAME-0004`: intersection `2`, union `20`,
-  `2 / 20 = 0.100000`.
-- Near match: `GAME-0002`, the unique positive maximum among non-exact indexed
-  games.
-- Supported existing combination subsets: none. Each indexed combination
-  requires an absent action or automatic behaviour.
-- New combination: `COMB-0005`, whose five genes are a proper subset of this
-  seven-gene genome.
+- Tied near matches: `GAME-0002` — Rubik’s Cube (`3 / 11 = 0.272727`).
+- Supported combination subsets: `COMB-0005`.
 - Scan date: 2026-08-11.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0001` — 2048 | `CON-001`, `INF-001` | 2048 globally moves visible elements and resolves merging plus random spawn; Sudoku assigns one symbolic value under static constraints | Non-near, `0.105263` |
 | `GAME-0002` — Rubik's Cube | `CON-001`, `INF-001`, `TIM-002` | Both are self-paced and fully inspectable; Cube permutes a complete persistent state through reversible turns, while Sudoku completes initially unassigned variables | Near, `0.272727` |
-| `GAME-0003` — Minesweeper | `CON-001` | Minesweeper reveals a fixed hidden field and risks terminal hazards; Sudoku has visible givens and no concealed cell contents | Non-near, `0.066667` |
-| `GAME-0004` — Tetris | `CON-001`, `INF-001` | Tetris has forced real-time motion, locking and random successors; Sudoku has no automatic system transition or in-play randomness | Non-near, `0.100000` |
 
+### Preserved research notes
+
+- New combination: `COMB-0005`, whose five genes are a proper subset of this
+  seven-gene genome.
 - New genes: `ACT-007`, `CON-009`, `CON-010`, `OBJ-006`.
 - Classification result: `New gene`.
 - Evidence and reasoning: direct symbolic assignment, immutable givens,

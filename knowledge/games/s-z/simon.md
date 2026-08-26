@@ -253,51 +253,16 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0066`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0066`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `66` (`GAME-0001`–`GAME-0066`).
 - Exact genome matches: none.
-- Unique near match: `GAME-0001` 2048 at `3 / 19 = 0.157895`,
-  sharing random outcome selection, an unpreviewed random future event and
-  score maximisation. `GAME-0051` Mini Motorways follows at `3 / 21 =
-  0.142857`; `GAME-0018` Mini Metro at `3 / 24 = 0.125000`.
-- Supported prior combination subsets: none.
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `3 / 19 = 0.157895`; `GAME-0002`: `0 / 15 = 0.000000`;
-    `GAME-0003`: `0 / 17 = 0.000000`; `GAME-0004`: `2 / 21 = 0.095238`;
-    `GAME-0005`: `0 / 15 = 0.000000`; `GAME-0006`: `0 / 17 = 0.000000`;
-    `GAME-0007`: `0 / 16 = 0.000000`; `GAME-0008`: `0 / 15 = 0.000000`;
-    `GAME-0009`: `2 / 22 = 0.090909`; `GAME-0010`: `0 / 17 = 0.000000`;
-    `GAME-0011`: `0 / 21 = 0.000000`; `GAME-0012`: `0 / 17 = 0.000000`;
-    `GAME-0013`: `0 / 21 = 0.000000`; `GAME-0014`: `0 / 23 = 0.000000`;
-    `GAME-0015`: `2 / 20 = 0.100000`; `GAME-0016`: `2 / 21 = 0.095238`;
-    `GAME-0017`: `0 / 21 = 0.000000`; `GAME-0018`: `3 / 24 = 0.125000`;
-    `GAME-0019`: `0 / 18 = 0.000000`; `GAME-0020`: `2 / 20 = 0.100000`;
-    `GAME-0021`: `1 / 16 = 0.062500`; `GAME-0022`: `0 / 20 = 0.000000`;
-    `GAME-0023`: `0 / 18 = 0.000000`; `GAME-0024`: `0 / 20 = 0.000000`;
-    `GAME-0025`: `0 / 19 = 0.000000`; `GAME-0026`: `0 / 20 = 0.000000`;
-    `GAME-0027`: `0 / 20 = 0.000000`; `GAME-0028`: `2 / 23 = 0.086957`;
-    `GAME-0029`: `0 / 20 = 0.000000`; `GAME-0030`: `0 / 22 = 0.000000`;
-    `GAME-0031`: `0 / 19 = 0.000000`; `GAME-0032`: `0 / 19 = 0.000000`;
-    `GAME-0033`: `0 / 21 = 0.000000`; `GAME-0034`: `0 / 22 = 0.000000`;
-    `GAME-0035`: `0 / 26 = 0.000000`; `GAME-0036`: `0 / 20 = 0.000000`;
-    `GAME-0037`: `0 / 17 = 0.000000`; `GAME-0038`: `0 / 24 = 0.000000`;
-    `GAME-0039`: `0 / 17 = 0.000000`; `GAME-0040`: `0 / 16 = 0.000000`;
-    `GAME-0041`: `0 / 19 = 0.000000`; `GAME-0042`: `0 / 17 = 0.000000`;
-    `GAME-0043`: `0 / 22 = 0.000000`; `GAME-0044`: `0 / 18 = 0.000000`;
-    `GAME-0045`: `0 / 22 = 0.000000`; `GAME-0046`: `0 / 18 = 0.000000`;
-    `GAME-0047`: `0 / 22 = 0.000000`; `GAME-0048`: `0 / 22 = 0.000000`;
-    `GAME-0049`: `1 / 16 = 0.062500`; `GAME-0050`: `0 / 23 = 0.000000`;
-    `GAME-0051`: `3 / 21 = 0.142857`; `GAME-0052`: `1 / 17 = 0.058824`;
-    `GAME-0053`: `0 / 17 = 0.000000`; `GAME-0054`: `0 / 19 = 0.000000`;
-    `GAME-0055`: `0 / 18 = 0.000000`; `GAME-0056`: `0 / 16 = 0.000000`;
-    `GAME-0057`: `0 / 16 = 0.000000`; `GAME-0058`: `0 / 17 = 0.000000`;
-    `GAME-0059`: `0 / 15 = 0.000000`; `GAME-0060`: `0 / 15 = 0.000000`;
-    `GAME-0061`: `0 / 18 = 0.000000`; `GAME-0062`: `0 / 16 = 0.000000`;
-    `GAME-0063`: `0 / 15 = 0.000000`; `GAME-0064`: `0 / 13 = 0.000000`;
-    `GAME-0065`: `0 / 15 = 0.000000`; `GAME-0066`: `0 / 18 = 0.000000`.
-- Interpretation: the numeric neighbour is driven only by the general random /
-  score shell. Simon's action, retained extension, mismatch resolver, transient
-  target and phase alternation are absent from every prior genome.
+- Tied near matches: `GAME-0001` — 2048 (`3 / 19 = 0.157895`).
+- Supported combination subsets: `COMB-0067`.
+- Scan date: 2026-08-14.
+
+### Selected-neighbour interpretation
+
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0001`.
 
 ## Taxonomy impact
 
@@ -328,8 +293,8 @@ Canonical signature:
 - Reused genes: `SYS-004`, `INF-002`, `OBJ-002`.
 - New combination: `COMB-0067`.
 - New reproducible artefact: `scripts/verify_simon_control.py`.
-- Nearest prior genome: 2048 at `3 / 19 = 0.157895`; no exact match and no
-  earlier supported combination subset.
+- Nearest prior genome: 2048; no exact match and no earlier supported
+  combination subset. See `Corpus comparison` for the current result.
 
 ## Нові факти
 

@@ -232,72 +232,21 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: every prior record `GAME-0001`–`GAME-0050`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `50` (`GAME-0001`–`GAME-0050`).
 - Exact genome matches: none.
-- Unique near match: `GAME-0018` — Mini Metro at intersection `13`, union
-  `22`, `13 / 22 = 0.590909`. The nine differing genes preserve the line / road,
-  train / house-car, passenger / destination-pin and capacity boundaries.
-- Next nearest: NES Tetris and Pipe Mania tie at `5 / 26 = 0.192308`; their
-  overlap is generic live progression, randomness and visibility rather than
-  transport lineage.
-- Existing combination subsets: none. `COMB-0018` fails `ACT-023`, `ACT-024`,
-  `SYS-031`, `CON-048`, `CON-050` and `CON-051`; `COMB-0037` fails its transport
-  and capacity core. Every other prior proper subset was tested.
-- New recurring combination: `COMB-0051`, the shared finite live-network,
-  generated-demand, score and sustained-overload interaction.
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `4 / 26 = 0.153846`.
-  - `GAME-0002`: `1 / 22 = 0.045455`.
-  - `GAME-0003`: `0 / 25 = 0.000000`.
-  - `GAME-0004`: `5 / 26 = 0.192308`.
-  - `GAME-0005`: `1 / 22 = 0.045455`.
-  - `GAME-0006`: `1 / 24 = 0.041667`.
-  - `GAME-0007`: `1 / 23 = 0.043478`.
-  - `GAME-0008`: `1 / 22 = 0.045455`.
-  - `GAME-0009`: `3 / 29 = 0.103448`.
-  - `GAME-0010`: `1 / 24 = 0.041667`.
-  - `GAME-0011`: `1 / 28 = 0.035714`.
-  - `GAME-0012`: `1 / 24 = 0.041667`.
-  - `GAME-0013`: `1 / 28 = 0.035714`.
-  - `GAME-0014`: `1 / 30 = 0.033333`.
-  - `GAME-0015`: `3 / 27 = 0.111111`.
-  - `GAME-0016`: `5 / 26 = 0.192308`.
-  - `GAME-0017`: `0 / 29 = 0.000000`.
-  - `GAME-0018`: `13 / 22 = 0.590909`.
-  - `GAME-0019`: `1 / 25 = 0.040000`.
-  - `GAME-0020`: `3 / 27 = 0.111111`.
-  - `GAME-0021`: `3 / 22 = 0.136364`.
-  - `GAME-0022`: `1 / 27 = 0.037037`.
-  - `GAME-0023`: `0 / 26 = 0.000000`.
-  - `GAME-0024`: `1 / 27 = 0.037037`.
-  - `GAME-0025`: `2 / 25 = 0.080000`.
-  - `GAME-0026`: `3 / 25 = 0.120000`.
-  - `GAME-0027`: `2 / 26 = 0.076923`.
-  - `GAME-0028`: `4 / 29 = 0.137931`.
-  - `GAME-0029`: `3 / 25 = 0.120000`.
-  - `GAME-0030`: `4 / 26 = 0.153846`.
-  - `GAME-0031`: `1 / 26 = 0.038462`.
-  - `GAME-0032`: `1 / 26 = 0.038462`.
-  - `GAME-0033`: `2 / 27 = 0.074074`.
-  - `GAME-0034`: `2 / 28 = 0.071429`.
-  - `GAME-0035`: `2 / 32 = 0.062500`.
-  - `GAME-0036`: `1 / 27 = 0.037037`.
-  - `GAME-0037`: `1 / 24 = 0.041667`.
-  - `GAME-0038`: `2 / 30 = 0.066667`.
-  - `GAME-0039`: `1 / 24 = 0.041667`.
-  - `GAME-0040`: `1 / 23 = 0.043478`.
-  - `GAME-0041`: `2 / 25 = 0.080000`.
-  - `GAME-0042`: `1 / 24 = 0.041667`.
-  - `GAME-0043`: `1 / 29 = 0.034483`.
-  - `GAME-0044`: `1 / 25 = 0.040000`.
-  - `GAME-0045`: `1 / 29 = 0.034483`.
-  - `GAME-0046`: `1 / 25 = 0.040000`.
-  - `GAME-0047`: `1 / 29 = 0.034483`.
-  - `GAME-0048`: `1 / 29 = 0.034483`.
-  - `GAME-0049`: `1 / 24 = 0.041667`.
-  - `GAME-0050`: `1 / 30 = 0.033333`.
+- Tied near matches: `GAME-0018` — Mini Metro (`13 / 22 = 0.590909`).
+- Supported combination subsets: `COMB-0051`.
 - Scan date: 2026-08-13.
 
+### Selected-neighbour interpretation
+
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0018`.
+
+### Preserved research notes
+
+- New recurring combination: `COMB-0051`, the shared finite live-network,
+  generated-demand, score and sustained-overload interaction.
 - New genes: `ACT-068`, `SYS-092`, `CON-098`.
 - Reused genes: `ACT-006`, `ACT-025`, `SYS-004`, `SYS-029`, `SYS-030`,
   `SYS-032`, `CON-047`, `CON-049`, `CON-052`, `INF-001`, `INF-002`, `OBJ-002`,

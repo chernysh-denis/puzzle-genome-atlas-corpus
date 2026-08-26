@@ -17,6 +17,14 @@ These definitions are normative throughout the repository.
 - A **genome** is the complete set of active gene IDs assigned to one scoped
   game or ruleset, partitioned into the six gene types. Parameters and source
   notes belong to the analysis but not to the signature defined below.
+- An **analysis scope** is one explicitly bounded ruleset or primary decision
+  loop. Every new or materially revised analysis must name that loop, its
+  reproducible entry and exit, causally included systems, exclusions and
+  potential scoped modules.
+  An exhaustive union of mechanically separate product subsystems is not
+  automatically a comparable genome. The accepted boundary and rollout are
+  recorded in
+  [`ADR-007`](architecture-decisions/ADR-007-bounded-game-analysis-scope.md).
 - A **genome signature** is the canonical, parameter-free representation of a
   genome used for corpus comparison.
 - A **combination** is a verified interaction among two or more genes from at
@@ -109,6 +117,9 @@ docs/        Method, governance, evidence model and research plan
 knowledge/   Canonical genes, game genomes and verified combinations
 research/    Leads, taxonomy proposals, candidates and negative results
 templates/   Required contribution formats
+backend/     PostgreSQL migrations, import/parity tools and versioned Go API
+web/         Thin Astro presentation and bounded browser artifacts
+ops/         Atlas-only service, proxy and release templates
 scripts/     Repository-integrity validation
 ```
 
@@ -143,15 +154,25 @@ Every new genome is still checked against the full corpus, but the result is
 not copied as hundreds of prose rows into the new analysis.
 
 1. Compare the complete game signatures in the game index using the rules
-   above.
+   above. For a subject game, the scan domain is every reviewed game with a
+   lower numeric stable ID, so every unordered pair is owned once.
 2. Test whether each verified combination's gene set is a subset of the new
    signature.
 3. Record every exact match and every mathematically selected near match.
-4. Describe only those near matches in detailed prose.
+4. Keep any detailed comparison prose limited to those selected records; the
+   concise exact and tied-near fields are always required.
 5. Put shared combination knowledge in one `COMB-xxxx` record.
 
 This preserves exhaustive matching while avoiding quadratic narrative
 duplication.
+
+[`ADR-006`](architecture-decisions/ADR-006-derived-comparison-results.md)
+defines pair scores as derived data: the complete scan is recomputed from
+canonical signatures, while records retain exact matches, all tied near
+matches, supported combinations and scan metadata. Its accepted migration is
+implemented by `scripts/migrate_comparisons.py`; `--check` proves that all game
+sections match the deterministic `genome-jaccard-v1` renderer. The complete
+matrix and per-game scan digests are not stored.
 
 ## Integrity checks
 
@@ -167,8 +188,10 @@ defines ownership and generated-file boundaries.
 `scripts/validate_repository.py` verifies local Markdown links, stable-ID
 uniqueness, controlled metadata values, gene boundaries, game front matter,
 type-correct gene references, path shards, combination subsets, index
-signature equality and byte-for-byte generated-output freshness. Continuous
-integration also runs Markdown lint.
+signature equality, recomputed exact and tied-near comparison selections and
+byte-for-byte generated-output freshness. It rejects legacy full-score ledgers
+and non-selected narrated pair scores. Continuous validation also runs
+Markdown lint.
 
 TODO: automatic claim-to-prose coverage is intentionally deferred. Determining
 whether arbitrary prose contains a substantive claim requires human judgement;
@@ -180,6 +203,47 @@ TODO: parameter schemas and a separate multi-maintainer governance document
 remain deferred because the corpus has not exposed their trigger conditions.
 Generated indexes are implemented by `INDEX_AUTOMATION_001`; extend generation
 only when another repeated structured view demonstrates comparable drift.
+
+## Build and authoring scaling
+
+ADR-009 establishes the accepted backend-first owner path: reviewed Git input
+is deterministically imported into one immutable PostgreSQL revision; the
+versioned Go API exposes that revision; Astro consumes one revision-pinned API
+contract and emits static pages plus bounded browser assets. Production pages
+remain independently serveable when the API or database is unavailable.
+
+During the pre-cutover parity window, the direct Astro corpus parser remains a
+memoised comparison oracle and rollback path behind `ATLAS_CORPUS_SOURCE`. It
+is not a second published authority. The fail-closed retirement evidence lives
+in `docs/migrations/production-parity-window.json`; until that record passes,
+CI requires the parser and the legacy default to remain present.
+
+Markdown and reviewed JSON in private Git remain the human authoring/evidence
+boundary until a separately accepted editor exists. Published runtime corpus
+authority is an immutable DB revision, and the public Git corpus is its exact
+append-only export rather than an independently editable mirror.
+
+Dependency-free derived Python tools share the readers in
+`scripts/generate_indexes.py`. The repository validator keeps an independent
+parse so it can detect disagreement with generated output rather than repeat
+the generator's assumptions. New tooling must reuse the appropriate existing
+boundary instead of adding another Markdown parser.
+
+The historical parsing and payload measurements remain in the
+[`Scaling implementation report`](SCALING_IMPLEMENTATION_REPORT.md). ADR-009
+supersedes its performance-trigger condition for selecting a production
+database because the maintainer changed the required ownership/release model,
+not because parsing crossed a latency threshold. Incremental or sharded site
+builds remain deferred until a complete local build exceeds ten minutes or CI
+exceeds twenty minutes. A future Studio remains a separate authoring decision
+and may not silently become another corpus authority.
+
+[`ADR-008`](architecture-decisions/ADR-008-concept-lab-static-product-boundary.md)
+continues to govern Concept Lab as a bounded static derived surface. In API
+mode its versioned shards are built from the same pinned corpus revision as the
+pages; visitor-authored state remains ephemeral and client-side. Authenticated
+writes, server persistence, non-rebuildable data, runtime Lab state or a
+runtime LLM still require a new decision.
 
 ## Architecture change policy
 

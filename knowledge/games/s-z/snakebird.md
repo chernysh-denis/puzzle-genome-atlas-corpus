@@ -276,52 +276,20 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`:
-  `ACT-008; SYS-037,SYS-082,SYS-083,SYS-084,SYS-085;
-  CON-001,CON-011,CON-013,CON-061; INF-001; OBJ-007,OBJ-022; TIM-001`.
-- Indexed games scanned: all 44 prior records, `GAME-0001`–`GAME-0044`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0044`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `44` (`GAME-0001`–`GAME-0044`).
 - Exact genome matches: none.
-- Near matches and similarity scores: Stephen's Sausage Roll is the unique
-  maximum at `7 / 21 = 0.333333`; Sokoban follows at
-  `5 / 18 = 0.277778`; A Good Snowman is `5 / 19 = 0.263158`; Peg Solitaire
-  is `4 / 20 = 0.200000`; Cut the Rope is `3 / 20 = 0.150000`; Portal is
-  `3 / 24 = 0.125000`.
-- Supported combination subsets: new `COMB-0045` only.
+- Tied near matches: `GAME-0043` — Stephen’s Sausage Roll (`7 / 21 = 0.333333`).
+- Supported combination subsets: `COMB-0045`.
 - Scan date: 2026-08-12.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0043` — Stephen's Sausage Roll | `ACT-008`, `CON-001`, `CON-011`, `CON-013`, `CON-061`, `INF-001`, `TIM-001` | one-cell fork agent and elongated cooking object versus one growing articulated controlled body under gravity | Unique near match, `0.333333` |
-| `GAME-0006` — Sokoban | `ACT-008`, `CON-001`, `CON-011`, `CON-013`, `INF-001` | independent crate push and fixed goals versus self-body propagation, growth, gravity and fruit gate | Second, `0.277778` |
-| `GAME-0044` — A Good Snowman Is Hard to Build | `ACT-008`, `CON-001`, `CON-013`, `INF-001`, `TIM-001` | bounded ball-size transform / stack assembly versus segment addition / exit gate | Controlled growth comparison, `0.263158` |
-| `GAME-0019` — Peg Solitaire | `CON-001`, `CON-013`, `INF-001`, `TIM-001` | monotonic removal and exact final occupancy versus articulated growth and evacuation | Deterministic deadlock control, `0.200000` |
-| `GAME-0021` — Cut the Rope | `SYS-037`, `CON-061`, `INF-001` | continuous candy dynamics and optional stars versus discrete body gravity and mandatory fruit | Physics / collection control, `0.150000` |
-| `GAME-0033` — Portal | `ACT-008`, `INF-001`, `OBJ-022` | live portal placement and force-preserving traversal versus fixed collection-gated exit | Exit control, `0.125000` |
+| `GAME-0043` — Stephen's Sausage Roll | `ACT-008`, `CON-001`, `CON-011`, `CON-013`, `CON-061`, `INF-001`, `TIM-001` | one-cell fork agent and elongated cooking object versus one growing articulated controlled body under gravity | Near, `0.333333` |
 
-The complete numeric scan is: `GAME-0001` `3 / 25 = 0.120000`;
-`GAME-0002` `2 / 19 = 0.105263`; `GAME-0003` `2 / 21 = 0.095238`;
-`GAME-0004` `2 / 27 = 0.074074`; `GAME-0005` `2 / 19 = 0.105263`;
-`GAME-0006` `5 / 18 = 0.277778`; `GAME-0007` `1 / 21 = 0.047619`;
-`GAME-0008` `2 / 19 = 0.105263`; `GAME-0009` `4 / 26 = 0.153846`;
-`GAME-0010` `3 / 20 = 0.150000`; `GAME-0011` `2 / 25 = 0.080000`;
-`GAME-0012` `2 / 21 = 0.095238`; `GAME-0013` `3 / 24 = 0.125000`;
-`GAME-0014` `3 / 26 = 0.115385`; `GAME-0015` `3 / 25 = 0.120000`;
-`GAME-0016` `2 / 27 = 0.074074`; `GAME-0017` `1 / 26 = 0.038462`;
-`GAME-0018` `1 / 32 = 0.031250`; `GAME-0019` `4 / 20 = 0.200000`;
-`GAME-0020` `2 / 26 = 0.076923`; `GAME-0021` `3 / 20 = 0.150000`;
-`GAME-0022` `1 / 25 = 0.040000`; `GAME-0023` `0 / 24 = 0.000000`;
-`GAME-0024` `1 / 25 = 0.040000`; `GAME-0025` `1 / 24 = 0.041667`;
-`GAME-0026` `1 / 25 = 0.040000`; `GAME-0027` `2 / 24 = 0.083333`;
-`GAME-0028` `2 / 29 = 0.068966`; `GAME-0029` `3 / 23 = 0.130435`;
-`GAME-0030` `1 / 27 = 0.037037`; `GAME-0031` `2 / 23 = 0.086957`;
-`GAME-0032` `2 / 23 = 0.086957`; `GAME-0033` `3 / 24 = 0.125000`;
-`GAME-0034` `3 / 25 = 0.120000`; `GAME-0035` `2 / 30 = 0.066667`;
-`GAME-0036` `4 / 22 = 0.181818`; `GAME-0037` `2 / 21 = 0.095238`;
-`GAME-0038` `3 / 27 = 0.111111`; `GAME-0039` `2 / 21 = 0.095238`;
-`GAME-0040` `2 / 20 = 0.100000`; `GAME-0041` `3 / 22 = 0.136364`;
-`GAME-0042` `1 / 22 = 0.045455`; `GAME-0043` `7 / 21 = 0.333333`;
-`GAME-0044` `5 / 19 = 0.263158`.
+### Preserved research notes
 
 - New genes: `SYS-082`, `SYS-083`, `SYS-084`, `SYS-085`.
 - Classification result: `New gene` and a new verified combination.

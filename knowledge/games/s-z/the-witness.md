@@ -243,36 +243,16 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0038`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0038`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `38` (`GAME-0001`–`GAME-0038`).
 - Exact genome matches: none.
-- Existing combination subsets: none before registering `COMB-0039`.
-- Full Jaccard scan (intersection / union = score):
-  `GAME-0001` `2 / 21 = 0.095238`; `GAME-0002` `3 / 13 = 0.230769`;
-  `GAME-0003` `1 / 17 = 0.058824`; `GAME-0004` `2 / 22 = 0.090909`;
-  `GAME-0005` `4 / 12 = 0.333333`; `GAME-0006` `3 / 15 = 0.200000`;
-  `GAME-0007` `2 / 15 = 0.133333`; `GAME-0008` `4 / 12 = 0.333333`;
-  `GAME-0009` `2 / 23 = 0.086957`; `GAME-0010` `2 / 16 = 0.125000`;
-  `GAME-0011` `3 / 19 = 0.157895`; `GAME-0012` `6 / 12 = 0.500000`;
-  `GAME-0013` `2 / 20 = 0.100000`; `GAME-0014` `2 / 22 = 0.090909`;
-  `GAME-0015` `2 / 21 = 0.095238`; `GAME-0016` `2 / 22 = 0.090909`;
-  `GAME-0017` `0 / 22 = 0.000000`; `GAME-0018` `1 / 27 = 0.037037`;
-  `GAME-0019` `2 / 17 = 0.117647`; `GAME-0020` `1 / 22 = 0.045455`;
-  `GAME-0021` `1 / 17 = 0.058824`; `GAME-0022` `1 / 20 = 0.050000`;
-  `GAME-0023` `1 / 18 = 0.055556`; `GAME-0024` `2 / 19 = 0.105263`;
-  `GAME-0025` `1 / 19 = 0.052632`; `GAME-0026` `1 / 20 = 0.050000`;
-  `GAME-0027` `2 / 19 = 0.105263`; `GAME-0028` `2 / 24 = 0.083333`;
-  `GAME-0029` `2 / 19 = 0.105263`; `GAME-0030` `1 / 22 = 0.045455`;
-  `GAME-0031` `1 / 19 = 0.052632`; `GAME-0032` `2 / 18 = 0.111111`;
-  `GAME-0033` `1 / 21 = 0.047619`; `GAME-0034` `1 / 22 = 0.045455`;
-  `GAME-0035` `1 / 26 = 0.038462`; `GAME-0036` `2 / 19 = 0.105263`;
-  `GAME-0037` `4 / 14 = 0.285714`; `GAME-0038` `1 / 24 = 0.041667`.
-- Mathematical near match: `GAME-0012` — Flow Free at
-  `6 / 12 = 0.500000`, sharing fixed-endpoint compound tracing, fixed visible
-  geometry, simple-path topology, constraint completion and self-paced play.
-  Flow Free adds multiple paired colours, mutually exclusive routes and total
-  cell coverage; The Witness instead evaluates one path-induced region
-  partition and localises violated clues after submission.
+- Tied near matches: `GAME-0012` — Flow Free (`6 / 12 = 0.500000`).
+- Supported combination subsets: `COMB-0039`.
+- Scan date: 2026-08-12.
+
+### Selected-neighbour interpretation
+
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0012`.
 
 ## Combination record
 

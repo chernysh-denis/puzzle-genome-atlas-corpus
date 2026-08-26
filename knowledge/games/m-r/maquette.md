@@ -259,40 +259,16 @@ Full signature:
 
 ## Corpus comparison
 
-The comparison scans every complete prior signature (`GAME-0001` through
-`GAME-0095`) with canonical Jaccard intersection over union.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `95` (`GAME-0001`–`GAME-0095`).
+- Exact genome matches: none.
+- Tied near matches: `GAME-0094` — Superliminal (`6 / 14 = 0.428571`).
+- Supported combination subsets: `COMB-0096`.
+- Scan date: 2026-08-14.
 
-- Near match: `GAME-0094` Superliminal is uniquely nearest at
-  `6 / 14 = 0.428571`.
+### Selected-neighbour interpretation
 
-| Prior game | Shared genes | Boundary | Result |
-|---|---|---|---|
-| `GAME-0094` — Superliminal | `ACT-008`, `ACT-048`, `SYS-036`, `INF-001`, `OBJ-022`, `TIM-003` | camera depth continuously resizes one held body; no recursive homologues | uniquely nearest, `6 / 14 = 0.428571` |
-| `GAME-0095` — Manifold Garden | `ACT-008`, `ACT-048`, `SYS-036`, `INF-001`, `OBJ-022`, `TIM-003` | periodic translation preserves scale; no linked scale instances | second, `6 / 16 = 0.375000` |
-| `GAME-0033` — Portal | `ACT-008`, `ACT-048`, `SYS-036`, `INF-001`, `OBJ-022`, `TIM-003` | paired apertures map bodies while retaining fixed size | third, `6 / 17 = 0.352941` |
-| `GAME-0041` — Viewfinder | `ACT-008`, `SYS-036`, `INF-001`, `OBJ-022`, `TIM-003` | a held image instantiates replacement geometry | fourth, `5 / 16 = 0.312500` |
-| `GAME-0091` — Fez | `ACT-008`, `SYS-036`, `INF-001`, `TIM-003` | cardinal projection changes collision adjacency, not object scale | fifth, `4 / 15 = 0.266667` |
-| `GAME-0036` — Patrick's Parabox | `ACT-008`, `INF-001` | nested containers are reparented on discrete grids; instances do not share a pose | recursion falsification control, `2 / 20 = 0.100000` |
-
-- Every other prior game scores at or below `3 / 16 = 0.187500`.
-- The six-gene candidate `ACT-048, SYS-127, SYS-128, CON-147, INF-046,
-  OBJ-022` is a proper subset of the ten-gene full signature.
-- Exhaustive comparison against `COMB-0001` through `COMB-0095` finds no
-  existing combination equal to, contained by or containing that candidate.
-
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `1 / 23 = 0.043478`; `GAME-0002`: `1 / 16 = 0.062500`; `GAME-0003`: `0 / 19 = 0.000000`; `GAME-0004`: `2 / 23 = 0.086957`; `GAME-0005`: `1 / 16 = 0.062500`; `GAME-0006`: `2 / 17 = 0.117647`; `GAME-0007`: `1 / 17 = 0.058824`; `GAME-0008`: `1 / 16 = 0.062500`.
-  - `GAME-0009`: `1 / 25 = 0.040000`; `GAME-0010`: `1 / 18 = 0.055556`; `GAME-0011`: `1 / 22 = 0.045455`; `GAME-0012`: `1 / 18 = 0.055556`; `GAME-0013`: `1 / 22 = 0.045455`; `GAME-0014`: `1 / 24 = 0.041667`; `GAME-0015`: `1 / 23 = 0.043478`; `GAME-0016`: `2 / 23 = 0.086957`.
-  - `GAME-0017`: `0 / 23 = 0.000000`; `GAME-0018`: `2 / 27 = 0.074074`; `GAME-0019`: `1 / 19 = 0.052632`; `GAME-0020`: `1 / 23 = 0.043478`; `GAME-0021`: `3 / 16 = 0.187500`; `GAME-0022`: `1 / 21 = 0.047619`; `GAME-0023`: `0 / 20 = 0.000000`; `GAME-0024`: `1 / 21 = 0.047619`.
-  - `GAME-0025`: `2 / 19 = 0.105263`; `GAME-0026`: `3 / 19 = 0.157895`; `GAME-0027`: `2 / 20 = 0.100000`; `GAME-0028`: `2 / 25 = 0.080000`; `GAME-0029`: `3 / 19 = 0.157895`; `GAME-0030`: `3 / 21 = 0.142857`; `GAME-0031`: `2 / 19 = 0.105263`; `GAME-0032`: `1 / 20 = 0.050000`.
-  - `GAME-0033`: `6 / 17 = 0.352941`; `GAME-0034`: `3 / 21 = 0.142857`; `GAME-0035`: `3 / 25 = 0.120000`; `GAME-0036`: `2 / 20 = 0.100000`; `GAME-0037`: `1 / 18 = 0.055556`; `GAME-0038`: `4 / 22 = 0.181818`; `GAME-0039`: `1 / 18 = 0.055556`; `GAME-0040`: `2 / 16 = 0.125000`.
-  - `GAME-0041`: `5 / 16 = 0.312500`; `GAME-0042`: `1 / 18 = 0.055556`; `GAME-0043`: `2 / 22 = 0.090909`; `GAME-0044`: `2 / 18 = 0.111111`; `GAME-0045`: `3 / 21 = 0.142857`; `GAME-0046`: `1 / 19 = 0.052632`; `GAME-0047`: `1 / 23 = 0.043478`; `GAME-0048`: `1 / 23 = 0.043478`.
-  - `GAME-0049`: `0 / 19 = 0.000000`; `GAME-0050`: `2 / 23 = 0.086957`; `GAME-0051`: `2 / 24 = 0.083333`; `GAME-0052`: `1 / 19 = 0.052632`; `GAME-0053`: `2 / 17 = 0.117647`; `GAME-0054`: `2 / 19 = 0.105263`; `GAME-0055`: `3 / 17 = 0.176471`; `GAME-0056`: `1 / 17 = 0.058824`.
-  - `GAME-0057`: `1 / 17 = 0.058824`; `GAME-0058`: `1 / 18 = 0.055556`; `GAME-0059`: `1 / 16 = 0.062500`; `GAME-0060`: `1 / 16 = 0.062500`; `GAME-0061`: `1 / 19 = 0.052632`; `GAME-0062`: `1 / 17 = 0.058824`; `GAME-0063`: `1 / 16 = 0.062500`; `GAME-0064`: `1 / 14 = 0.071429`.
-  - `GAME-0065`: `0 / 17 = 0.000000`; `GAME-0066`: `0 / 20 = 0.000000`; `GAME-0067`: `0 / 18 = 0.000000`; `GAME-0068`: `0 / 18 = 0.000000`; `GAME-0069`: `1 / 17 = 0.058824`; `GAME-0070`: `1 / 17 = 0.058824`; `GAME-0071`: `1 / 16 = 0.062500`; `GAME-0072`: `1 / 17 = 0.058824`.
-  - `GAME-0073`: `1 / 16 = 0.062500`; `GAME-0074`: `1 / 18 = 0.055556`; `GAME-0075`: `1 / 18 = 0.055556`; `GAME-0076`: `1 / 16 = 0.062500`; `GAME-0077`: `1 / 16 = 0.062500`; `GAME-0078`: `1 / 16 = 0.062500`; `GAME-0079`: `1 / 16 = 0.062500`; `GAME-0080`: `1 / 16 = 0.062500`.
-  - `GAME-0081`: `1 / 17 = 0.058824`; `GAME-0082`: `1 / 17 = 0.058824`; `GAME-0083`: `1 / 17 = 0.058824`; `GAME-0084`: `1 / 19 = 0.052632`; `GAME-0085`: `0 / 21 = 0.000000`; `GAME-0086`: `1 / 22 = 0.045455`; `GAME-0087`: `2 / 18 = 0.111111`; `GAME-0088`: `1 / 18 = 0.055556`.
-  - `GAME-0089`: `1 / 18 = 0.055556`; `GAME-0090`: `2 / 23 = 0.086957`; `GAME-0091`: `4 / 15 = 0.266667`; `GAME-0092`: `2 / 18 = 0.111111`; `GAME-0093`: `1 / 18 = 0.055556`; `GAME-0094`: `6 / 14 = 0.428571`; `GAME-0095`: `6 / 16 = 0.375000`.
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0094`.
 
 ## Coverage decision
 
@@ -347,7 +323,8 @@ The comparison scans every complete prior signature (`GAME-0001` through
 - Evidence gate: passed with two official product / creator records, two direct
   creator interviews, one reproducible chapter walkthrough, one development
   interview and one executable verifier.
-- Nearest prior genome: Superliminal at `6 / 14 = 0.428571`.
+- Nearest prior genome: Superliminal; see `Corpus comparison` for the current
+  result.
 - Next falsification target: Antichamber, to distinguish authored
   discontinuous spatial transitions from recursive, periodic and
   perspective-derived mappings.

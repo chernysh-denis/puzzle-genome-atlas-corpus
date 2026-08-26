@@ -233,52 +233,20 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: every prior record `GAME-0001`–`GAME-0059`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `59` (`GAME-0001`–`GAME-0059`).
 - Exact genome matches: none.
-- Existing combination subsets: none. Every verified `COMB-0001`–`COMB-0059`
-  gene set was tested as a proper subset and rejected.
-- Unique near match: `GAME-0019` — Peg Solitaire at intersection `3`, union
-  `14`, `3 / 14 = 0.214286`. Snakebird and KAMI follow at `3 / 18 =
-  0.166667` and `2 / 12 = 0.166667`; Golf Peaks follows at `2 / 13 =
-  0.153846`.
-- Full numeric scan (`intersection / union = Jaccard`):
-  - `GAME-0001`: `2 / 19 = 0.105263`; `GAME-0002`: `1 / 13 = 0.076923`;
-    `GAME-0003`: `1 / 15 = 0.066667`; `GAME-0004`: `1 / 21 = 0.047619`;
-    `GAME-0005`: `1 / 13 = 0.076923`; `GAME-0006`: `1 / 15 = 0.066667`;
-    `GAME-0007`: `1 / 14 = 0.071429`; `GAME-0008`: `1 / 13 = 0.076923`;
-    `GAME-0009`: `3 / 20 = 0.150000`; `GAME-0010`: `2 / 14 = 0.142857`;
-    `GAME-0011`: `1 / 19 = 0.052632`; `GAME-0012`: `1 / 15 = 0.066667`;
-    `GAME-0013`: `2 / 18 = 0.111111`; `GAME-0014`: `1 / 21 = 0.047619`;
-    `GAME-0015`: `2 / 19 = 0.105263`; `GAME-0016`: `1 / 21 = 0.047619`;
-    `GAME-0017`: `1 / 19 = 0.052632`; `GAME-0018`: `1 / 25 = 0.040000`;
-    `GAME-0019`: `3 / 14 = 0.214286`; `GAME-0020`: `2 / 19 = 0.105263`;
-    `GAME-0021`: `1 / 15 = 0.066667`; `GAME-0022`: `1 / 18 = 0.055556`;
-    `GAME-0023`: `0 / 17 = 0.000000`; `GAME-0024`: `0 / 19 = 0.000000`;
-    `GAME-0025`: `1 / 17 = 0.058824`; `GAME-0026`: `1 / 18 = 0.055556`;
-    `GAME-0027`: `1 / 18 = 0.055556`; `GAME-0028`: `1 / 23 = 0.043478`;
-    `GAME-0029`: `1 / 18 = 0.055556`; `GAME-0030`: `1 / 20 = 0.050000`;
-    `GAME-0031`: `1 / 17 = 0.058824`; `GAME-0032`: `1 / 17 = 0.058824`;
-    `GAME-0033`: `1 / 19 = 0.052632`; `GAME-0034`: `1 / 20 = 0.050000`;
-    `GAME-0035`: `1 / 24 = 0.041667`; `GAME-0036`: `1 / 18 = 0.055556`;
-    `GAME-0037`: `1 / 15 = 0.066667`; `GAME-0038`: `1 / 22 = 0.045455`;
-    `GAME-0039`: `1 / 15 = 0.066667`; `GAME-0040`: `1 / 14 = 0.071429`;
-    `GAME-0041`: `1 / 17 = 0.058824`; `GAME-0042`: `1 / 15 = 0.066667`;
-    `GAME-0043`: `2 / 19 = 0.105263`; `GAME-0044`: `2 / 15 = 0.133333`;
-    `GAME-0045`: `3 / 18 = 0.166667`; `GAME-0046`: `1 / 16 = 0.062500`;
-    `GAME-0047`: `1 / 20 = 0.050000`; `GAME-0048`: `1 / 20 = 0.050000`;
-    `GAME-0049`: `1 / 15 = 0.066667`; `GAME-0050`: `2 / 20 = 0.100000`;
-    `GAME-0051`: `1 / 22 = 0.045455`; `GAME-0052`: `1 / 16 = 0.062500`;
-    `GAME-0053`: `2 / 14 = 0.142857`; `GAME-0054`: `2 / 16 = 0.125000`;
-    `GAME-0055`: `2 / 15 = 0.133333`; `GAME-0056`: `1 / 14 = 0.071429`;
-    `GAME-0057`: `2 / 13 = 0.153846`; `GAME-0058`: `2 / 14 = 0.142857`;
-    `GAME-0059`: `2 / 12 = 0.166667`.
+- Tied near matches: `GAME-0019` — Peg Solitaire (`3 / 14 = 0.214286`).
+- Supported combination subsets: `COMB-0060`.
 - Scan date: 2026-08-13.
+
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0019` — Peg Solitaire | `CON-054`, `INF-001`, `TIM-001` | Peg removes exactly one bounded material instance per jump while preserving a peg-movement topology; HOOK removes a trigger-linked non-empty mechanism set only after its swept path is clear | Nearest only; no combination reuse |
-| `GAME-0045` — Snakebird | `INF-001`, `OBJ-007`, `TIM-001` | Snakebird navigates and grows an articulated body before exiting; HOOK removes a visible mechanism dependency graph through addressed triggers | Secondary near match only |
-| `GAME-0059` — KAMI | `INF-001`, `TIM-001` | KAMI rewrites and coalesces a selected component toward one surviving class; HOOK deletes trigger-linked mechanisms only when complete swept withdrawals are clear | Secondary near match only |
+| `GAME-0019` — Peg Solitaire | `CON-054`, `INF-001`, `TIM-001` | Peg removes exactly one bounded material instance per jump while preserving a peg-movement topology; HOOK removes a trigger-linked non-empty mechanism set only after its swept path is clear | Near, `0.214286` |
+
+### Preserved research notes
 
 - New genes: `ACT-072`, `SYS-103`, `CON-106`.
 - Generalised gene: `CON-054` from exact one-element material decrement to a

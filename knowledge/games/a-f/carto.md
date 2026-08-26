@@ -248,37 +248,16 @@ Canonical signature:
 
 ## Corpus comparison
 
-- Indexed games scanned: `GAME-0001`–`GAME-0039`.
-- Indexed combinations scanned: `COMB-0001`–`COMB-0039`.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `39` (`GAME-0001`–`GAME-0039`).
 - Exact genome matches: none.
-- Existing combination subsets: none before registering `COMB-0040`.
-- Full Jaccard scan (intersection / union = score):
-  `GAME-0001` `1 / 21 = 0.047619`; `GAME-0002` `2 / 13 = 0.153846`;
-  `GAME-0003` `0 / 17 = 0.000000`; `GAME-0004` `1 / 22 = 0.045455`;
-  `GAME-0005` `2 / 13 = 0.153846`; `GAME-0006` `3 / 14 = 0.214286`;
-  `GAME-0007` `2 / 14 = 0.142857`; `GAME-0008` `2 / 13 = 0.153846`;
-  `GAME-0009` `1 / 23 = 0.043478`; `GAME-0010` `1 / 16 = 0.062500`;
-  `GAME-0011` `2 / 19 = 0.105263`; `GAME-0012` `2 / 15 = 0.133333`;
-  `GAME-0013` `1 / 20 = 0.050000`; `GAME-0014` `1 / 22 = 0.045455`;
-  `GAME-0015` `1 / 21 = 0.047619`; `GAME-0016` `1 / 22 = 0.045455`;
-  `GAME-0017` `0 / 21 = 0.000000`; `GAME-0018` `1 / 26 = 0.038462`;
-  `GAME-0019` `1 / 17 = 0.058824`; `GAME-0020` `2 / 20 = 0.100000`;
-  `GAME-0021` `1 / 16 = 0.062500`; `GAME-0022` `1 / 19 = 0.052632`;
-  `GAME-0023` `1 / 17 = 0.058824`; `GAME-0024` `1 / 19 = 0.052632`;
-  `GAME-0025` `1 / 18 = 0.055556`; `GAME-0026` `1 / 19 = 0.052632`;
-  `GAME-0027` `1 / 19 = 0.052632`; `GAME-0028` `1 / 24 = 0.041667`;
-  `GAME-0029` `2 / 18 = 0.111111`; `GAME-0030` `1 / 21 = 0.047619`;
-  `GAME-0031` `1 / 18 = 0.055556`; `GAME-0032` `1 / 18 = 0.055556`;
-  `GAME-0033` `2 / 19 = 0.105263`; `GAME-0034` `2 / 20 = 0.100000`;
-  `GAME-0035` `2 / 24 = 0.083333`; `GAME-0036` `3 / 17 = 0.176471`;
-  `GAME-0037` `1 / 16 = 0.062500`; `GAME-0038` `2 / 22 = 0.090909`;
-  `GAME-0039` `2 / 15 = 0.133333`.
-- Mathematical near match: `GAME-0006` — Sokoban at
-  `3 / 14 = 0.214286`, sharing direct avatar navigation, visible state and
-  self-paced spatial planning. Sokoban moves crates inside one immutable floor
-  plan toward fixed goals; Carto moves the world-region graph itself and then
-  traverses the new adjacency. Patrick's Parabox follows at `3 / 17 =
-  0.176471` through the same generic overlap and a different recursive topology.
+- Tied near matches: `GAME-0006` — Sokoban (`3 / 14 = 0.214286`).
+- Supported combination subsets: `COMB-0040`.
+- Scan date: 2026-08-12.
+
+### Selected-neighbour interpretation
+
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0006`.
 
 ## Combination record
 

@@ -219,52 +219,20 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`:
-  `ACT-006,ACT-023,ACT-068,ACT-116,ACT-117,ACT-118,ACT-132; SYS-031,SYS-151,SYS-152,SYS-153,SYS-154,SYS-155,SYS-169; CON-048,CON-050,CON-170,CON-171,CON-179; INF-057,INF-058; OBJ-053; TIM-003`.
-- Indexed games scanned: 121, including this record.
-- Indexed combinations scanned: 119.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `120` (`GAME-0001`–`GAME-0120`).
 - Exact genome matches: none.
-- Near matches and similarity scores: `GAME-0118` — SimCity 4 Deluxe Edition
-  at `16 / 23 = 0.695652`.
+- Tied near matches: `GAME-0118` — SimCity 4 Deluxe Edition (`16 / 23 = 0.695652`).
 - Supported combination subsets: `COMB-0117`.
 - Scan date: 2026-08-18.
 
-### Full prior-game Jaccard scan
-
-- `GAME-0001`: `0 / 37 = 0.000000`; `GAME-0002`: `0 / 30 = 0.000000`; `GAME-0003`: `0 / 32 = 0.000000`; `GAME-0004`: `2 / 36 = 0.055556`.
-- `GAME-0005`: `0 / 30 = 0.000000`; `GAME-0006`: `0 / 32 = 0.000000`; `GAME-0007`: `0 / 31 = 0.000000`; `GAME-0008`: `0 / 30 = 0.000000`.
-- `GAME-0009`: `0 / 39 = 0.000000`; `GAME-0010`: `0 / 32 = 0.000000`; `GAME-0011`: `0 / 36 = 0.000000`; `GAME-0012`: `0 / 32 = 0.000000`.
-- `GAME-0013`: `0 / 36 = 0.000000`; `GAME-0014`: `0 / 38 = 0.000000`; `GAME-0015`: `0 / 37 = 0.000000`; `GAME-0016`: `2 / 36 = 0.055556`.
-- `GAME-0017`: `0 / 36 = 0.000000`; `GAME-0018`: `6 / 36 = 0.166667`; `GAME-0019`: `0 / 33 = 0.000000`; `GAME-0020`: `0 / 37 = 0.000000`.
-- `GAME-0021`: `1 / 31 = 0.032258`; `GAME-0022`: `0 / 35 = 0.000000`; `GAME-0023`: `0 / 33 = 0.000000`; `GAME-0024`: `1 / 34 = 0.029412`.
-- `GAME-0025`: `1 / 33 = 0.030303`; `GAME-0026`: `1 / 34 = 0.029412`; `GAME-0027`: `1 / 34 = 0.029412`; `GAME-0028`: `1 / 39 = 0.025641`.
-- `GAME-0029`: `2 / 33 = 0.060606`; `GAME-0030`: `2 / 35 = 0.057143`; `GAME-0031`: `0 / 34 = 0.000000`; `GAME-0032`: `0 / 34 = 0.000000`.
-- `GAME-0033`: `1 / 35 = 0.028571`; `GAME-0034`: `1 / 36 = 0.027778`; `GAME-0035`: `1 / 40 = 0.025000`; `GAME-0036`: `0 / 35 = 0.000000`.
-- `GAME-0037`: `2 / 30 = 0.066667`; `GAME-0038`: `1 / 38 = 0.026316`; `GAME-0039`: `0 / 32 = 0.000000`; `GAME-0040`: `0 / 31 = 0.000000`.
-- `GAME-0041`: `1 / 33 = 0.030303`; `GAME-0042`: `0 / 32 = 0.000000`; `GAME-0043`: `0 / 37 = 0.000000`; `GAME-0044`: `0 / 33 = 0.000000`.
-- `GAME-0045`: `0 / 37 = 0.000000`; `GAME-0046`: `0 / 33 = 0.000000`; `GAME-0047`: `0 / 37 = 0.000000`; `GAME-0048`: `0 / 37 = 0.000000`.
-- `GAME-0049`: `0 / 32 = 0.000000`; `GAME-0050`: `0 / 38 = 0.000000`; `GAME-0051`: `3 / 36 = 0.083333`; `GAME-0052`: `1 / 32 = 0.031250`.
-- `GAME-0053`: `0 / 32 = 0.000000`; `GAME-0054`: `0 / 34 = 0.000000`; `GAME-0055`: `0 / 33 = 0.000000`; `GAME-0056`: `0 / 31 = 0.000000`.
-- `GAME-0057`: `0 / 31 = 0.000000`; `GAME-0058`: `0 / 32 = 0.000000`; `GAME-0059`: `0 / 30 = 0.000000`; `GAME-0060`: `0 / 30 = 0.000000`.
-- `GAME-0061`: `0 / 33 = 0.000000`; `GAME-0062`: `0 / 31 = 0.000000`; `GAME-0063`: `0 / 30 = 0.000000`; `GAME-0064`: `0 / 28 = 0.000000`.
-- `GAME-0065`: `0 / 30 = 0.000000`; `GAME-0066`: `0 / 33 = 0.000000`; `GAME-0067`: `0 / 31 = 0.000000`; `GAME-0068`: `0 / 31 = 0.000000`.
-- `GAME-0069`: `0 / 31 = 0.000000`; `GAME-0070`: `0 / 31 = 0.000000`; `GAME-0071`: `0 / 30 = 0.000000`; `GAME-0072`: `0 / 31 = 0.000000`.
-- `GAME-0073`: `0 / 30 = 0.000000`; `GAME-0074`: `0 / 32 = 0.000000`; `GAME-0075`: `0 / 32 = 0.000000`; `GAME-0076`: `0 / 30 = 0.000000`.
-- `GAME-0077`: `0 / 30 = 0.000000`; `GAME-0078`: `0 / 30 = 0.000000`; `GAME-0079`: `0 / 30 = 0.000000`; `GAME-0080`: `0 / 30 = 0.000000`.
-- `GAME-0081`: `0 / 31 = 0.000000`; `GAME-0082`: `0 / 31 = 0.000000`; `GAME-0083`: `0 / 31 = 0.000000`; `GAME-0084`: `0 / 33 = 0.000000`.
-- `GAME-0085`: `0 / 34 = 0.000000`; `GAME-0086`: `0 / 36 = 0.000000`; `GAME-0087`: `1 / 32 = 0.031250`; `GAME-0088`: `0 / 32 = 0.000000`.
-- `GAME-0089`: `0 / 32 = 0.000000`; `GAME-0090`: `0 / 38 = 0.000000`; `GAME-0091`: `1 / 31 = 0.032258`; `GAME-0092`: `2 / 31 = 0.064516`.
-- `GAME-0093`: `0 / 32 = 0.000000`; `GAME-0094`: `1 / 32 = 0.031250`; `GAME-0095`: `1 / 34 = 0.029412`; `GAME-0096`: `1 / 32 = 0.031250`.
-- `GAME-0097`: `1 / 30 = 0.033333`; `GAME-0098`: `1 / 29 = 0.034483`; `GAME-0099`: `0 / 31 = 0.000000`; `GAME-0100`: `1 / 33 = 0.030303`.
-- `GAME-0101`: `0 / 33 = 0.000000`; `GAME-0102`: `0 / 30 = 0.000000`; `GAME-0103`: `0 / 32 = 0.000000`; `GAME-0104`: `0 / 32 = 0.000000`.
-- `GAME-0105`: `1 / 32 = 0.031250`; `GAME-0106`: `0 / 30 = 0.000000`; `GAME-0107`: `0 / 31 = 0.000000`; `GAME-0108`: `0 / 33 = 0.000000`.
-- `GAME-0109`: `0 / 39 = 0.000000`; `GAME-0110`: `1 / 30 = 0.033333`; `GAME-0111`: `0 / 30 = 0.000000`; `GAME-0112`: `1 / 30 = 0.033333`.
-- `GAME-0113`: `1 / 36 = 0.027778`; `GAME-0114`: `1 / 29 = 0.034483`; `GAME-0115`: `0 / 29 = 0.000000`; `GAME-0116`: `1 / 28 = 0.035714`.
-- `GAME-0117`: `0 / 31 = 0.000000`; `GAME-0118`: `16 / 23 = 0.695652`; `GAME-0119`: `1 / 45 = 0.022222`; `GAME-0120`: `0 / 52 = 0.000000`.
+### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0118` — SimCity 4 Deluxe Edition | `ACT-006`, `ACT-068`, `ACT-116`, `ACT-117`, `ACT-118`, `SYS-151`, `SYS-152`, `SYS-153`, `SYS-154`, `SYS-155`, `CON-170`, `CON-171`, `INF-057`, `INF-058`, `OBJ-053`, `TIM-003` | Cities: Skylines additionally represents ordered public-transport lines and bounded vehicles, spatially local district policy and population-milestone gating | unique near match at `69.57%` |
+| `GAME-0118` — SimCity 4 Deluxe Edition | `ACT-006`, `ACT-068`, `ACT-116`, `ACT-117`, `ACT-118`, `SYS-151`, `SYS-152`, `SYS-153`, `SYS-154`, `SYS-155`, `CON-170`, `CON-171`, `INF-057`, `INF-058`, `OBJ-053`, `TIM-003` | Cities: Skylines additionally represents ordered public-transport lines and bounded vehicles, spatially local district policy and population-milestone gating | Near, `0.695652` |
+
+### Preserved research notes
 
 - New genes: `ACT-132`, `SYS-169`, `CON-179`.
 - Classification result: recurring known combination with three new bounded genes.

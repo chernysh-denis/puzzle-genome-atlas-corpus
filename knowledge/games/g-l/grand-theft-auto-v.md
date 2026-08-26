@@ -326,63 +326,18 @@ gene_ids:
 
 ## Corpus comparison
 
-- Genome signature `(ACT; SYS; CON; INF; OBJ; TIM)`: `ACT-008,ACT-130,ACT-140,ACT-161,ACT-164,ACT-183,ACT-184,ACT-201,ACT-226,ACT-227,ACT-228,ACT-229,ACT-230; SYS-208,SYS-215,SYS-222,SYS-292,SYS-320,SYS-342,SYS-365,SYS-366,SYS-367,SYS-368,SYS-369,SYS-370,SYS-371; CON-136,CON-188,CON-269,CON-282,CON-285,CON-288,CON-326,CON-327,CON-328,CON-329,CON-330,CON-331; INF-073,INF-115,INF-117,INF-119,INF-125,INF-144,INF-145,INF-146; OBJ-077; TIM-003`.
-- Indexed games scanned: all 144 earlier canonical games.
-- Indexed combinations scanned: all 142 earlier verified combinations.
+- Comparison algorithm: `genome-jaccard-v1`.
+- Prior game signatures scanned: `144` (`GAME-0001`–`GAME-0144`).
 - Exact genome matches: none.
-- Mathematical near match: Counter-Strike 2 (`GAME-0137`),
-  `13 / 65 = 0.200000`.
-- Comparison context: PUBG: BATTLEGROUNDS (`GAME-0140`),
-  `15 / 76 = 0.197368`; Minecraft (`GAME-0129`),
-  `8 / 75 = 0.106667`.
-- Supported earlier combination subsets: none; new `COMB-0143` is a strict
-  subset of this 48-gene genome.
+- Tied near matches: `GAME-0137` — Counter-Strike 2 (`14 / 64 = 0.218750`).
+- Supported combination subsets: `COMB-0143`.
 - Scan date: 2026-08-21.
 
-Exhaustive prior-game ledger:
+### Selected-neighbour interpretation
 
-- GAME-0001: 0 / 62 = 0.000000; GAME-0002: 0 / 55 = 0.000000; GAME-0003: 0 / 57 = 0.000000; GAME-0004: 1 / 62 = 0.016129.
-- GAME-0005: 0 / 55 = 0.000000; GAME-0006: 1 / 56 = 0.017857; GAME-0007: 0 / 56 = 0.000000; GAME-0008: 0 / 55 = 0.000000.
-- GAME-0009: 0 / 64 = 0.000000; GAME-0010: 0 / 57 = 0.000000; GAME-0011: 0 / 61 = 0.000000; GAME-0012: 0 / 57 = 0.000000.
-- GAME-0013: 0 / 61 = 0.000000; GAME-0014: 0 / 63 = 0.000000; GAME-0015: 0 / 62 = 0.000000; GAME-0016: 1 / 62 = 0.016129.
-- GAME-0017: 0 / 61 = 0.000000; GAME-0018: 1 / 66 = 0.015152; GAME-0019: 0 / 58 = 0.000000; GAME-0020: 0 / 62 = 0.000000.
-- GAME-0021: 1 / 56 = 0.017857; GAME-0022: 0 / 60 = 0.000000; GAME-0023: 0 / 58 = 0.000000; GAME-0024: 1 / 59 = 0.016949.
-- GAME-0025: 1 / 58 = 0.017241; GAME-0026: 1 / 59 = 0.016949; GAME-0027: 1 / 59 = 0.016949; GAME-0028: 1 / 64 = 0.015625.
-- GAME-0029: 2 / 58 = 0.034483; GAME-0030: 1 / 61 = 0.016393; GAME-0031: 0 / 59 = 0.000000; GAME-0032: 0 / 59 = 0.000000.
-- GAME-0033: 2 / 59 = 0.033898; GAME-0034: 2 / 60 = 0.033333; GAME-0035: 2 / 64 = 0.031250; GAME-0036: 1 / 59 = 0.016949.
-- GAME-0037: 0 / 57 = 0.000000; GAME-0038: 2 / 62 = 0.032258; GAME-0039: 0 / 57 = 0.000000; GAME-0040: 1 / 55 = 0.018182.
-- GAME-0041: 2 / 57 = 0.035088; GAME-0042: 0 / 57 = 0.000000; GAME-0043: 1 / 61 = 0.016393; GAME-0044: 1 / 57 = 0.017544.
-- GAME-0045: 1 / 61 = 0.016393; GAME-0046: 0 / 58 = 0.000000; GAME-0047: 0 / 62 = 0.000000; GAME-0048: 0 / 62 = 0.000000.
-- GAME-0049: 0 / 57 = 0.000000; GAME-0050: 1 / 62 = 0.016129; GAME-0051: 1 / 63 = 0.015873; GAME-0052: 0 / 58 = 0.000000.
-- GAME-0053: 1 / 56 = 0.017857; GAME-0054: 1 / 58 = 0.017241; GAME-0055: 1 / 57 = 0.017544; GAME-0056: 0 / 56 = 0.000000.
-- GAME-0057: 0 / 56 = 0.000000; GAME-0058: 0 / 57 = 0.000000; GAME-0059: 0 / 55 = 0.000000; GAME-0060: 0 / 55 = 0.000000.
-- GAME-0061: 0 / 58 = 0.000000; GAME-0062: 0 / 56 = 0.000000; GAME-0063: 0 / 55 = 0.000000; GAME-0064: 0 / 53 = 0.000000.
-- GAME-0065: 0 / 55 = 0.000000; GAME-0066: 0 / 58 = 0.000000; GAME-0067: 0 / 56 = 0.000000; GAME-0068: 0 / 56 = 0.000000.
-- GAME-0069: 0 / 56 = 0.000000; GAME-0070: 0 / 56 = 0.000000; GAME-0071: 0 / 55 = 0.000000; GAME-0072: 0 / 56 = 0.000000.
-- GAME-0073: 0 / 55 = 0.000000; GAME-0074: 0 / 57 = 0.000000; GAME-0075: 0 / 57 = 0.000000; GAME-0076: 0 / 55 = 0.000000.
-- GAME-0077: 0 / 55 = 0.000000; GAME-0078: 0 / 55 = 0.000000; GAME-0079: 0 / 55 = 0.000000; GAME-0080: 0 / 55 = 0.000000.
-- GAME-0081: 0 / 56 = 0.000000; GAME-0082: 0 / 56 = 0.000000; GAME-0083: 0 / 56 = 0.000000; GAME-0084: 0 / 58 = 0.000000.
-- GAME-0085: 1 / 58 = 0.017241; GAME-0086: 1 / 60 = 0.016667; GAME-0087: 2 / 56 = 0.035714; GAME-0088: 1 / 56 = 0.017857.
-- GAME-0089: 1 / 56 = 0.017857; GAME-0090: 2 / 61 = 0.032787; GAME-0091: 2 / 55 = 0.036364; GAME-0092: 1 / 57 = 0.017544.
-- GAME-0093: 0 / 57 = 0.000000; GAME-0094: 2 / 56 = 0.035714; GAME-0095: 2 / 58 = 0.034483; GAME-0096: 2 / 56 = 0.035714.
-- GAME-0097: 2 / 54 = 0.037037; GAME-0098: 2 / 53 = 0.037736; GAME-0099: 1 / 55 = 0.018182; GAME-0100: 1 / 58 = 0.017241.
-- GAME-0101: 0 / 58 = 0.000000; GAME-0102: 0 / 55 = 0.000000; GAME-0103: 0 / 57 = 0.000000; GAME-0104: 1 / 56 = 0.017857.
-- GAME-0105: 2 / 56 = 0.035714; GAME-0106: 0 / 55 = 0.000000; GAME-0107: 1 / 55 = 0.018182; GAME-0108: 1 / 57 = 0.017544.
-- GAME-0109: 0 / 64 = 0.000000; GAME-0110: 1 / 55 = 0.018182; GAME-0111: 2 / 53 = 0.037736; GAME-0112: 2 / 54 = 0.037037.
-- GAME-0113: 2 / 60 = 0.033333; GAME-0114: 1 / 54 = 0.018519; GAME-0115: 0 / 54 = 0.000000; GAME-0116: 2 / 52 = 0.038462.
-- GAME-0117: 1 / 55 = 0.018182; GAME-0118: 1 / 63 = 0.015873; GAME-0119: 1 / 70 = 0.014286; GAME-0120: 1 / 76 = 0.013158.
-- GAME-0121: 1 / 70 = 0.014286; GAME-0122: 1 / 62 = 0.016129; GAME-0123: 2 / 84 = 0.023810; GAME-0124: 4 / 91 = 0.043956.
-- GAME-0125: 2 / 88 = 0.022727; GAME-0126: 1 / 90 = 0.011111; GAME-0127: 2 / 94 = 0.021277; GAME-0128: 1 / 63 = 0.015873.
-- GAME-0129: 8 / 75 = 0.106667; GAME-0130: 3 / 98 = 0.030612; GAME-0131: 5 / 89 = 0.056180; GAME-0132: 1 / 98 = 0.010204.
-- GAME-0133: 1 / 92 = 0.010870; GAME-0134: 1 / 98 = 0.010204; GAME-0135: 1 / 95 = 0.010526; GAME-0136: 3 / 105 = 0.028571.
-- GAME-0137: 13 / 65 = 0.200000; GAME-0138: 5 / 78 = 0.064103; GAME-0139: 9 / 93 = 0.096774; GAME-0140: 15 / 76 = 0.197368.
-- GAME-0141: 8 / 91 = 0.087912; GAME-0142: 9 / 90 = 0.100000; GAME-0143: 7 / 90 = 0.077778; GAME-0144: 7 / 76 = 0.092105.
+No pre-migration reviewed selected-neighbour table row exists for: `GAME-0137`.
 
-| Neighbour | Shared genes | Decision-relevant differences | Match result |
-|---|---|---|---|
-| Counter-Strike 2 | navigation, aimed fire, active weapon, reload, grenade, cover/body-hit resolution, live combat, equipment pickup, weapon and ammunition gates, partial hostile state, personal shop state and real-time input | one-life team rounds and bomb economy versus persistent authored world, vehicles, wanted pursuit, three protagonists, checkpoints and heists | nearest, not exact |
-| PUBG: BATTLEGROUNDS | navigation, aimed combat, weapon selection, reload, grenade, vehicle control, world pickup, live combat, partial threats and real-time input | stochastic shrinking one-life arena versus authored mission graph and retained characters | comparison context, not near-match tie |
-| Minecraft | navigation, aimed combat, active item, contact pickup, persistent prerequisite gates, visible equipment and real-time input | generated crafting-survival world versus authored urban campaign and heist planning | comparison context, not near-match tie |
+### Preserved research notes
 
 - New genes: `ACT-226`–`ACT-230`, `SYS-365`–`SYS-371`,
   `CON-326`–`CON-331`, `INF-144`–`INF-146`, `OBJ-077`.
@@ -391,14 +346,6 @@ Exhaustive prior-game ledger:
   open-world action and police evasion to three persistent authored
   protagonists, then converting specialist planning into a multi-role heist and
   the terminal branch into retained roster state.
-
-### Registry normalisation 006 score corrections
-
-These recomputed values supersede the pre-normalisation fractions above:
-
-- `GAME-0132`: `2 / 97 = 0.020619`
-- `GAME-0137`: `14 / 64 = 0.218750`
-- Current prior-corpus near match after normalisation 006: `GAME-0137`.
 
 ## Taxonomy impact
 
