@@ -167,10 +167,14 @@
   room and its opened exit; walking, jumping and steering a fall through
   Manifold Garden's periodic Part 1 architecture; walking between Maquette's
   central model, scale-linked courtyards, key bridges and fixed house exit;
+  running, jogging and dribbling the currently controlled footballer across an
+  EA SPORTS FC 26 pitch;
   walking, sprinting, jumping and crouching V through Night City and authored
   Cyberpunk 2077 mission spaces; directly moving and jumping a selected Marvel
   Rivals hero through a live arena; running and jumping Hornet through
-  Pharloom's connected rooms in Hollow Knight: Silksong.
+  Pharloom's connected rooms in Hollow Knight: Silksong; running, jumping,
+  dashing, swimming and grappling Mio or Zoe through Split Fiction's Rader
+  Publishing chapter.
 - Excludes: changing viewpoint; moving an adjacent object; teleporting or
   pathfinding that resolves several steps automatically.
 - Parameters: adjacency or continuous topology, step distance, jump rules and
@@ -194,12 +198,17 @@
   [Superliminal decomposition](../games/s-z/superliminal.md), and
   [Manifold Garden decomposition](../games/m-r/manifold-garden.md), and
   [Maquette decomposition](../games/m-r/maquette.md), and
+  [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md), and
   [Antichamber decomposition](../games/a-f/antichamber.md), and
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
   [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md),
   [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md), and
-  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md), and
+  [Split Fiction decomposition](../games/s-z/split-fiction.md), and
+  [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md).
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Additional support: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md),
+  for direct room navigation.
 - Novelty: not assessed.
 
 ## ACT-009 — Push adjacent movable object
@@ -425,8 +434,9 @@
 - Parameters: unit and ability classes, target geometry, range, damage and
   secondary effects.
 - Evidence: [Into the Breach decomposition](../games/g-l/into-the-breach.md)
-  and [Bad North decomposition](../games/a-f/bad-north.md), and
-  [Tactical Breach Wizards decomposition](../games/s-z/tactical-breach-wizards.md).
+  and [Bad North decomposition](../games/a-f/bad-north.md),
+  [Tactical Breach Wizards decomposition](../games/s-z/tactical-breach-wizards.md)
+  and [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
 - Novelty: not assessed.
 
 ## ACT-020 — Place queue-head tile at selected board position
@@ -998,14 +1008,17 @@
 - Includes: operating a Braid lever to start or reverse its linked platform;
   pressing Manifold Garden's reachable blue switch after the periodic gap
   crossing to open its linked door; setting each reachable valve in Chants of
-  Sennaar's first water instruction to its commanded open or closed state.
+  Sennaar's first water instruction to its commanded open or closed state;
+  activating reachable Split Fiction Chapter 1 consoles that change a linked
+  barrier or platform independently of paired co-op gates.
 - Excludes: sustaining a pressure plate by occupancy; editing a remote
   timestamped interaction; placing a reusable instruction marker.
 - Parameters: reach, activation gesture, binary or multi-state switch,
   retrigger delay, linked mechanism set and whether avatar motion pauses.
 - Evidence: [Braid decomposition](../games/a-f/braid.md),
   [Manifold Garden decomposition](../games/m-r/manifold-garden.md), and
-  [Chants of Sennaar decomposition](../games/a-f/chants-of-sennaar.md).
+  [Chants of Sennaar decomposition](../games/a-f/chants-of-sennaar.md), and
+  [Split Fiction decomposition](../games/s-z/split-fiction.md).
 - Novelty: not assessed.
 
 ## ACT-050 — Commit selected follower to contextual target task
@@ -1057,7 +1070,9 @@
   body present under its declared non-locus rules.
 - Includes: switching from the Rescue Officer to Oatchi after separating their
   Pikmin groups in Pikmin 4; swapping consciousness from the current The
-  Swapper body into a visible existing clone while the former body remains.
+  Swapper body into a visible existing clone while the former body remains;
+  switching direct control to an eligible teammate while the former footballer
+  remains on the pitch under team AI in EA SPORTS FC 26.
 - Excludes: selecting an actor only to schedule a remote destination; creating
   a new body without transferring control; teleporting one unchanged body;
   alternating adversarial turns.
@@ -1065,7 +1080,8 @@
   requirement, retained follower groups, former-body behaviour, transfer delay,
   unavailable states and camera transfer.
 - Evidence: [Pikmin 4 decomposition](../games/m-r/pikmin-4.md) and
-  [The Swapper decomposition](../games/s-z/the-swapper.md).
+  [The Swapper decomposition](../games/s-z/the-swapper.md), and
+  [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
 - Novelty: not assessed.
 
 ## ACT-053 — Push contiguous movable-object chain
@@ -1924,7 +1940,8 @@
   autonomous population; teleporting immediately to the selected point.
 - Parameters: selection tolerance, eligible surface, reachability gate, route
   recomputation, command buffering, cancellation and arrival radius.
-- Evidence: [Monument Valley decomposition](../games/m-r/monument-valley.md).
+- Evidence: [Monument Valley decomposition](../games/m-r/monument-valley.md)
+  and [The Sims 4 decomposition](../games/s-z/the-sims-4.md).
 - Novelty: not assessed.
 
 ## ACT-097 — Select orthogonal surface as gravity down
@@ -2107,16 +2124,19 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: while addressing one receptive world object, the player enters a
+- Definition: while addressing one receptive world object or command
+  interface, the player enters a
   finite ordered sequence of cardinal directions as symbolic commands rather
   than moving the controlled character through those directions.
 - Includes: entering `Down, Right, Up, Left, Up, Right` at TUNIC's patterned
-  door near the Overworld fountain.
+  door near the Overworld fountain; entering a selected Helldivers 2
+  stratagem's directional command sequence.
 - Excludes: walking an avatar along a route; tracing a continuous pointer path;
   choosing a dialogue direction; editing a complete code before submission.
 - Parameters: direction alphabet, target-address condition, input device,
   sequence length, movement suppression and feedback per symbol.
-- Evidence: [TUNIC decomposition](../games/s-z/tunic.md).
+- Evidence: [TUNIC decomposition](../games/s-z/tunic.md) and
+  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md).
 - Novelty: not assessed.
 
 ## ACT-107 — Acquire operational fact through authored dialogue
@@ -2544,7 +2564,7 @@
 - Includes: run merchants, Dota 2 match shops, Grand Theft Auto V and Cyberpunk 2077 stores, Hollow Knight: Silksong wares, and Counter-Strike 2 freeze/buy-time equipment purchases.
 - Excludes: a free reward; recurring operating cost; unavailable offer; cosmetic marketplace trade.
 - Parameters: currency, offer, asset or service, purchase window, location, inventory lifetime and persistence horizon.
-- Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md), [Dota 2 decomposition](../games/a-f/dota-2.md), [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md), [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md) and [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
+- Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md), [Dota 2 decomposition](../games/a-f/dota-2.md), [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md), [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md), [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md) and [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
 - Novelty: not assessed.
 
 ## ACT-131 — Consume one held immediate-effect item
@@ -2562,9 +2582,12 @@
   world object to a spatial fixture.
 - Parameters: item identity, target requirement, use timing, slot count and
   discard-without-use rule.
-- Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md) and
-  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md),
+  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md)
+  and [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Additional support: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md),
+  for one held card, rune or pill consumed into an immediate effect.
 - Novelty: not assessed.
 
 ## ACT-132 — Paint administrative district and assign local policy
@@ -2733,7 +2756,8 @@
   prerequisite and whether deferral is allowed.
 - Evidence: [Against the Storm decomposition](../games/a-f/against-the-storm.md)
   [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md), and
-  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md) and
+  [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
 - Novelty: not assessed.
 
 ## ACT-141 — Favour one population group at others' expense
@@ -3070,7 +3094,8 @@
   Counter-Strike 2 aimed firearm, knife and utility attacks; Cyberpunk 2077
   aimed firearm and melee attacks against reachable hostiles; Marvel Rivals
   hero primary attacks against visible opponents; Hornet's aimed needle
-  strikes against reachable hostiles in Hollow Knight: Silksong.
+  strikes against reachable hostiles in Hollow Knight: Silksong; Split Fiction
+  Chapter 1 gunner shots and direct attacks against authored hostiles.
 - Excludes: automatic turret fire; a turn-based ability card; a group waypoint
   that causes agents to acquire targets on their own.
 - Parameters: target, reach, weapon, cooldown, projectile, damage, armour and
@@ -3080,8 +3105,11 @@
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
   [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md),
   [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md), and
-  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md), and
+  [Split Fiction decomposition](../games/s-z/split-fiction.md).
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Additional support: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md),
+  for directly aimed tear shots.
 - Novelty: not assessed.
 
 ## ACT-162 — Place a held tile into a reachable world cell
@@ -3529,12 +3557,16 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: during the bounded team draft, the player commits one available
-  match character and its disclosed pre-match build branch to the current slot.
-- Includes: Dota 2 All Pick hero and facet selection.
+- Definition: during bounded team selection, the player commits one available
+  match character and any disclosed pre-match or later gated build branch to
+  the current slot.
+- Includes: Dota 2 All Pick hero and facet selection; Apex Legends Legend
+  selection followed by match-local perk choices.
 - Excludes: cosmetic loadout; changing to another hero during live play.
-- Parameters: roster, team slot, pick phase, hero, facet and conflict rule.
-- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md).
+- Parameters: roster, team slot, pick phase, character, build branch, timing and
+  conflict rule.
+- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md) and
+  [Apex Legends decomposition](../games/a-f/apex-legends.md).
 - Novelty: not assessed.
 
 ## ACT-189 — Issue a contextual destination or attack command
@@ -3562,13 +3594,16 @@
 - Includes: Dota 2 spells, toggles and active items; Marvel Rivals hero
   abilities and ultimate activations; Battlefield 6 targeted, placed and
   no-target class gadgets; Hollow Knight: Silksong Silk Skills and equipped
-  Tools activated with their legal directional or no-target input.
+  Tools activated with their legal directional or no-target input; throwing a
+  keyed Helldivers 2 stratagem beacon at its legal world target.
 - Excludes: automatic attack acquisition; passive effects; cosmetic emotes.
 - Parameters: ability, cast form, target, range, mana, cooldown and channel.
 - Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md) and
   [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md), and
   [Battlefield 6 decomposition](../games/a-f/battlefield-6.md), and
-  [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md).
+  [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md), and
+  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md), and
+  [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
 - Novelty: not assessed.
 
 ## ACT-191 — Spend one character-development point
@@ -3612,7 +3647,7 @@
 - Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md).
 - Novelty: not assessed.
 
-## ACT-194 — Throw a capture device at one weakened world creature
+## ACT-194 — Throw a capture device at one eligible world creature
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
@@ -3621,12 +3656,15 @@
 - Definition: the player aims and spends one carried capture device on an
   eligible world creature, committing its current probability check rather
   than dealing an ordinary weapon hit.
-- Includes: throwing a Pal Sphere at a weakened wild Pal in Palworld.
+- Includes: throwing a Pal Sphere at a weakened wild Pal in Palworld; throwing
+  a Poké Ball directly or after weakening an eligible wild Pokémon in Pokémon
+  Legends: Z-A.
 - Excludes: defeating the creature; a guaranteed scripted recruitment; moving
   an already captured companion between rosters.
 - Parameters: target, device tier, range, target health, capture power,
   displayed probability and consumed count.
-- Evidence: [Palworld decomposition](../games/m-r/palworld.md).
+- Evidence: [Palworld decomposition](../games/m-r/palworld.md) and
+  [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
 - Novelty: not assessed.
 
 ## ACT-195 — Deploy or recall one carried companion
@@ -3638,29 +3676,34 @@
 - Definition: the player selects one member of the active companion party and
   throws it into a reachable world position or recalls the currently deployed
   companion to carried state.
-- Includes: Palworld party-Pal deployment and recall during exploration or combat.
+- Includes: Palworld party-Pal deployment and recall during exploration or
+  combat; selecting and deploying the current party partner in Pokémon
+  Legends: Z-A.
 - Excludes: transferring a Pal into base labour; issuing direct avatar movement;
   capturing a new creature.
 - Parameters: party slot, world position, active companion, recall state and
   deployment cooldown.
-- Evidence: [Palworld decomposition](../games/m-r/palworld.md).
+- Evidence: [Palworld decomposition](../games/m-r/palworld.md) and
+  [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
 - Novelty: not assessed.
 
-## ACT-196 — Transfer a captured companion among storage, party and base
+## ACT-196 — Transfer a captured companion among bounded rosters
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: through a persistent management fixture, the player moves one
-  captured companion between reserve storage, the bounded active party and an
-  available autonomous base-worker slot.
-- Includes: Palbox transfers among Pal storage, party and base assignments.
+  captured companion between reserve storage, the bounded active party and
+  any available ruleset-specific assignment roster.
+- Includes: Palbox transfers among Pal storage, party and base assignments;
+  Pokémon Legends: Z-A transfers between Boxes and the six-member party.
 - Excludes: capturing a wild creature; temporary field deployment; breeding
   two stored creatures.
 - Parameters: companion, source roster, destination roster, slot capacity and
   base ownership.
-- Evidence: [Palworld decomposition](../games/m-r/palworld.md).
+- Evidence: [Palworld decomposition](../games/m-r/palworld.md) and
+  [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
 - Novelty: not assessed.
 
 ## ACT-197 — Activate one companion partner skill
@@ -3704,10 +3747,16 @@
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: at an eligible preparation state, the player fills or revises bounded equipment and capability slots for the next controlled deployment or live segment.
-- Includes: ARC Raiders raid loadouts, Battlefield 6 class-bound deployment loadouts and Hollow Knight: Silksong Crest-and-Tool Bench loadouts.
+- Includes: ARC Raiders raid loadouts, Battlefield 6 class-bound deployment
+  loadouts, Hollow Knight: Silksong Crest-and-Tool Bench loadouts and
+  Helldivers 2 weapon, armour, booster and four-stratagem deployment choices.
 - Excludes: cosmetic-only changes; looting after deployment; changing only the active carried slot; selecting a playable hero identity.
 - Parameters: preparation state, class or chassis, slot schema, capacity, retained or free inventory, persistence horizon and replacement timing.
-- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md), [Battlefield 6 decomposition](../games/a-f/battlefield-6.md) and [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md).
+- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md),
+  [Battlefield 6 decomposition](../games/a-f/battlefield-6.md),
+  [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md) and
+  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md) and
+  [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
 - Novelty: not assessed.
 
 ## ACT-216 — Search a reachable container or disabled machine
@@ -3754,12 +3803,14 @@
 - Definition: the player reaches an available extraction fixture, starts any
   required call or unlock interaction and enters its bounded departure zone
   before the endpoint closes.
-- Includes: ARC Raiders extraction elevators, metro exits and Raider Hatches.
+- Includes: ARC Raiders extraction elevators, metro exits and Raider Hatches;
+  Helldivers 2 extraction-terminal call and entry into the landed Pelican.
 - Excludes: leaving a match through a menu; dying Topside; completing a quest
   without returning to Speranza.
 - Parameters: endpoint, availability, key or call, interaction, arrival delay,
   entry zone, closure and damage immunity boundary.
-- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
+- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md) and
+  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md).
 - Novelty: not assessed.
 
 ## ACT-219 — Sell or recycle one retained or carried item
@@ -4052,14 +4103,17 @@
   seats, and chooses when to exit into the world.
 - Includes: driving or riding Erangel land vehicles in PUBG Normal Match;
   entering, stealing and operating road, water or air vehicles in Grand Theft
-  Auto V Story Mode; driving owned or available vehicles in Cyberpunk 2077.
+  Auto V Story Mode; driving owned or available vehicles in Cyberpunk 2077;
+  directly piloting Split Fiction's Chapter 1 escape vehicle while the partner
+  occupies the separate turret role.
 - Excludes: assigning an autonomous transport route; an insertion aircraft the
   player cannot steer; avatar locomotion on foot.
 - Parameters: vehicle, seat, entry reach, driver authority, steering, throttle,
   brake, boost, seat change and exit speed.
 - Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md)
   [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md), and
-  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
+  [Split Fiction decomposition](../games/s-z/split-fiction.md).
 - Novelty: not assessed.
 
 ## ACT-202 — Change direct-combat posture or lean
@@ -4428,22 +4482,23 @@
 - Evidence: [Battlefield 6 decomposition](../games/a-f/battlefield-6.md).
 - Novelty: not assessed.
 
-## ACT-241 — Drag and revive one eligible downed ally
+## ACT-241 — Revive or reposition one eligible downed ally
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player addresses one reachable downed ally, may reposition
-  that body while maintaining the interaction and commits the required revival
-  channel or instant tool before the ally's downed opportunity expires.
-- Includes: Battlefield 6 squad revival by every class, Support team revival,
-  drag-to-cover revival and Defibrillator completion.
+- Definition: the player addresses one reachable downed ally, optionally
+  repositions that body where the rules allow it and commits the required
+  revival channel or instant tool before the downed opportunity expires.
+- Includes: Battlefield 6 squad revival, drag-to-cover and Defibrillator
+  completion; Apex Legends teammate revival from knocked state.
 - Excludes: self-healing; ordinary post-death redeployment; carrying an
   objective item; resurrecting a character after a campaign death.
 - Parameters: ally relation, reach, posture, movement, revive authority,
   duration, interruption, tool and returned health.
-- Evidence: [Battlefield 6 decomposition](../games/a-f/battlefield-6.md).
+- Evidence: [Battlefield 6 decomposition](../games/a-f/battlefield-6.md) and
+  [Apex Legends decomposition](../games/a-f/apex-legends.md).
 - Novelty: not assessed.
 
 ## ACT-242 — Configure a Crest-bound tool loadout at a bench
@@ -4617,3 +4672,755 @@
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Merged into: `ACT-123` by
   [`TAXONOMY_CHANGE_012`](../../research/taxonomy-changes/TAXONOMY_CHANGE_012.md).
+
+## ACT-253 — Commit a surviving squadmate to one teammate-return source
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while at least one squadmate remains active, the player commits
+  an eligible dead teammate's current recovery object or state to one legal
+  return source that can restore that teammate to the live match.
+- Includes: using an Apex Legends deathbox return or carrying or crafting a
+  Legend Banner and activating an eligible Respawn Beacon; a surviving
+  Helldivers 2 squadmate keying and throwing Reinforce for a dead teammate.
+- Excludes: reviving a merely downed ally; automatic round respawn; selecting a
+  fresh class after ordinary death; account-level resurrection.
+- Parameters: teammate state, recovery object, carrier, source, reach, channel,
+  interruption, lockout and returned equipment state.
+- Evidence: [Apex Legends decomposition](../games/a-f/apex-legends.md) and
+  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md).
+- Novelty: not assessed.
+
+## ACT-254 — Choose one mandatory Ancient boon at act entry
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: before an act route begins, the player selects exactly one item
+  from the current Ancient's bounded offered set, committing its persistent
+  run effect before progression may continue.
+- Includes: choosing one of three offered Ancient Relics at the beginning of a
+  Slay the Spire 2 act.
+- Excludes: optional post-combat card rewards; buying a priced item; a passive
+  automatic milestone unlock; the random selection of which Ancient appears.
+- Parameters: act, Ancient, unlocked pool, offered items, eligibility, selected
+  boon, skip permission and persistent effect.
+- Evidence: [Slay the Spire 2 decomposition](../games/s-z/slay-the-spire-2.md).
+- Novelty: not assessed.
+
+## ACT-255 — Trace and submit an adjacent letter-cell word
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player begins on any eligible letter cell, traces one
+  variable-length ordered sequence through successively adjacent distinct
+  letter cells and submits the resulting word as one compound proposal.
+- Includes: tracing and submitting a Strands theme word, spangram or eligible
+  non-theme word through horizontal, vertical or diagonal neighbours.
+- Excludes: typing a word without selecting its spatial route; tracing from a
+  fixed endpoint; selecting disconnected letters; merely highlighting a
+  system-revealed route.
+- Parameters: adjacency topology, minimum length, gesture sampling, direction
+  changes, backtracking, submission trigger and already-claimed-cell policy.
+- Evidence: [Strands decomposition](../games/s-z/strands.md).
+- Novelty: not assessed.
+
+## ACT-256 — Commit one half of a paired cooperative interaction
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: one human-controlled actor commits its locally eligible input to
+  a world interaction whose progress depends on a separately controlled
+  partner committing the complementary input rather than on one actor
+  repeating both steps.
+- Includes: one Split Fiction player operating one side of a simultaneous
+  console, paired handle, dual plate or joint door interaction while the other
+  player supplies the other required input.
+- Excludes: one avatar toggling an ordinary switch; an autonomous follower
+  satisfying the second input; two players independently attacking one target;
+  holding a mechanism that has already opened a solo route.
+- Parameters: actor identities, input prompts, simultaneity tolerance,
+  eligibility, persistence before the second input and cancellation rule.
+- Evidence: [Split Fiction decomposition](../games/s-z/split-fiction.md).
+- Novelty: not assessed.
+
+## ACT-257 — Direct an active resident to a contextual interaction
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects an active persistent resident, addresses an
+  eligible resident, object or ground context and commits one offered social,
+  self-care or world interaction for autonomous execution.
+- Includes: directing Farrah Nouvel to introduce herself, chat, invite a Sim,
+  use a household object or perform another offered base-game interaction in
+  The Sims 4.
+- Excludes: directly steering every locomotion step; setting a colony-wide job
+  priority; choosing an authored dialogue line with no simulated actor state.
+- Parameters: active resident, target, interaction category, queue position,
+  cancellation, autonomy rule and execution prerequisites.
+- Evidence: [The Sims 4 decomposition](../games/s-z/the-sims-4.md).
+- Novelty: not assessed.
+
+## ACT-258 — Switch the active battle companion from the bounded party
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during live battle, the player selects one other eligible living
+  party member so it replaces the current sole commanded companion while both
+  retain their own persistent health, status, level and learned moves.
+- Includes: voluntary or knockout-forced partner replacement in Pokémon
+  Legends: Z-A.
+- Excludes: moving a companion between storage and party; recalling without a
+  replacement; switching direct control between human protagonists.
+- Parameters: party slots, current and replacement companion, health, status,
+  switch delay and voluntary or forced trigger.
+- Evidence: [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
+- Novelty: not assessed.
+
+## ACT-259 — Choose one persistent starting companion
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: at campaign entry, the player accepts exactly one member of a
+  bounded offered roster so that identity and its initial kit become a
+  persistent owned party member.
+- Includes: choosing Chikorita, Tepig or Totodile as the first partner in
+  Pokémon Legends: Z-A.
+- Excludes: selecting a match-only hero; choosing a cosmetic; capturing a later
+  world creature.
+- Parameters: offered roster, selected identity, initial level, initial moves,
+  ownership persistence and decline permission.
+- Evidence: [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
+- Novelty: not assessed.
+
+## ACT-260 — Commit one reachable Survivor interaction channel
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a directly controlled Survivor holds one contextual interaction
+  against a reachable objective or teammate so progress accumulates only while
+  the actor remains eligible and the channel continues.
+- Includes: Dead by Daylight Generator repair, altruistic healing, Dying-state
+  recovery by another Survivor, teammate unhooking and powered Exit Gate switch
+  work in the scoped blank-loadout Trial.
+- Excludes: walking or vaulting; one instantaneous switch press; the Killer's
+  pickup, carry or damage interactions; an autonomous worker order.
+- Parameters: target class, reach, actor state, duration, saved or reset
+  progress, co-worker count, interruption and completion effect.
+- Evidence: [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md).
+- Novelty: not assessed.
+
+## ACT-261 — Execute one prompted skilful timing input
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during an eligible continuing world interaction, the player
+  commits one response while a moving pointer overlaps a disclosed success
+  interval, producing a graded timing result without selecting a new target.
+- Includes: Dead by Daylight Good, Great and failed Skill Check responses during
+  Generator repair or altruistic healing.
+- Excludes: timed defence inside a chosen combat action; rhythm sequences whose
+  notes are the complete objective; passive random resolution with no input.
+- Parameters: trigger chance, warning, pointer direction and speed, zone
+  position, good and great intervals, response input and missed-input rule.
+- Evidence: [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md).
+- Novelty: not assessed.
+
+## ACT-262 — Drop one upright chase pallet
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a directly controlled fleeing actor commits one reachable
+  upright Pallet into its dropped state, creating a persistent local obstacle
+  and an impact interval rather than merely vaulting existing geometry.
+- Includes: a Survivor dropping an upright Pallet during a Dead by Daylight
+  chase, with or without stunning the Killer.
+- Excludes: vaulting a dropped Pallet; the Killer breaking it; placing a carried
+  construction piece; toggling a reusable door switch.
+- Parameters: pallet, reach, facing, drop animation, impact volume, stun target,
+  resulting collision and later destruction.
+- Evidence: [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md).
+- Novelty: not assessed.
+
+## ACT-263 — Engrave one Uncut Gem into a selected skill or support
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player commits one carried Uncut Gem to one eligible offered
+  active Skill or Support identity, consuming the uncut item and creating the
+  selected usable Gem.
+- Includes: Path of Exile 2 Uncut Skill Gem and Uncut Support Gem engraving.
+- Excludes: socketing an already created Support; random item identification;
+  learning a skill automatically at level-up.
+- Parameters: uncut kind and level, offered catalogue, selected identity,
+  requirement preview, created Gem and cancellation.
+- Evidence: [Path of Exile 2 decomposition](../games/m-r/path-of-exile-2.md).
+- Novelty: not assessed.
+
+## ACT-264 — Socket or remove one compatible support from an active skill
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player transfers one carried Support Gem into a free legal
+  socket of one selected active Skill, or removes it, changing that Skill's
+  composed behaviour while preserving both Gem identities.
+- Includes: Path of Exile 2 Skill-panel Support socket management.
+- Excludes: engraving the Support; equipping armour; permanently upgrading a
+  skill node.
+- Parameters: Skill, Support, socket, compatibility, category, attributes,
+  insertion, removal and resulting cost/effect.
+- Evidence: [Path of Exile 2 decomposition](../games/m-r/path-of-exile-2.md).
+- Novelty: not assessed.
+
+## ACT-265 — Apply one crafting currency item to an eligible item
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects one carried crafting currency and commits it
+  to one eligible target item, consuming the currency to request its declared
+  rarity, affix or socket transformation.
+- Includes: one ordinary Path of Exile 2 currency-item craft.
+- Excludes: vendor purchase; equipment swapping; a multi-step external crafting
+  calculator.
+- Parameters: currency class, target item and state, eligibility preview,
+  consumption, mutation class and resulting item.
+- Evidence: [Path of Exile 2 decomposition](../games/m-r/path-of-exile-2.md).
+- Novelty: not assessed.
+
+## ACT-266 — Activate one charged recovery flask
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during eligible direct control, the player activates an equipped
+  Life or Mana Flask, immediately consuming its declared charges and beginning
+  the recovery effect without consuming the flask item itself.
+- Includes: Path of Exile 2 Life and Mana Flask use in campaign combat.
+- Excludes: an interruptible carried-food channel; passive regeneration; a
+  single-use potion removed from inventory.
+- Parameters: flask slot, resource class, charges, recovery amount and duration,
+  modifiers and use restrictions.
+- Evidence: [Path of Exile 2 decomposition](../games/m-r/path-of-exile-2.md).
+- Novelty: not assessed.
+
+## ACT-267 — Direct a ball delivery toward an eligible teammate
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while directly controlling the current ball carrier, the player
+  commits a grounded, lofted or crossed delivery whose intended receiver and
+  trajectory are resolved from directional, power and contextual input.
+- Includes: short and driven passes, through balls, lofted passes and crosses
+  in an EA SPORTS FC 26 association-football match.
+- Excludes: striking primarily at the opponent's goal; an AI teammate's
+  uncommanded clearance; selecting a remote movement destination.
+- Parameters: delivery family, direction, power, assistance, intended receiver,
+  body orientation, dominant foot and contextual animation.
+- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
+- Novelty: first isolated for `GAME-0163`; no earlier active action boundary
+  expresses teammate-targeted transfer of one live shared ball.
+
+## ACT-268 — Direct an attempt at the opponent's goal
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while controlling an eligible attacker, the player commits a
+  shot intended to send the live ball across the opponent's goal line.
+- Includes: ordinary, finesse, chipped and headed attempts in the scoped EA
+  SPORTS FC 26 match.
+- Excludes: teammate-targeted passing; a penalty shoot-out selection; an
+  autonomous goalkeeper clearance.
+- Parameters: direction, power, shot family, assistance, body orientation,
+  contact type and player attributes.
+- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
+- Novelty: first isolated for `GAME-0163`.
+
+## ACT-269 — Commit a legal possession challenge
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while directly controlling an eligible defender, the player
+  commits a standing, shoulder or sliding challenge intended to dislodge or
+  intercept the opponent's live ball without first taking direct control of it.
+- Includes: timing a standing tackle or slide against the current ball carrier
+  in EA SPORTS FC 26.
+- Excludes: automatic off-ball marking; simply running into space; hostile
+  combat whose outcome is health depletion.
+- Parameters: challenge family, direction, timing, contact geometry, defender
+  attributes and foul risk.
+- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
+- Novelty: first isolated for `GAME-0163`.
+
+## ACT-270 — Place one carried bomb with a timed fuse
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player spends one bomb from the current run supply and places
+  a live explosive at Isaac's position, starting its fuse before blast resolution.
+- Includes: placing a standard bomb for hostile damage, rock destruction or an
+  eligible secret-room wall in base The Binding of Isaac: Rebirth.
+- Excludes: throwing a tactical grenade; firing an explosive projectile; an
+  automatic item-triggered explosion that spends no carried bomb.
+- Parameters: carried count, placement point, fuse, kick or displacement,
+  blast radius and modifiers.
+- Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
+- Novelty: first isolated for `GAME-0164`; no earlier action boundary couples
+  finite carried supply to a freely placed room-scale timed blast.
+
+## ACT-271 — Call, mount and directly ride a persistent horse
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player calls an owned horse, mounts or dismounts it and
+  directly controls its pace, steering, jump and stop while the same horse
+  retains its condition and carried saddle state.
+- Includes: calling and riding Arthur Morgan's current saddled horse during the
+  scoped Red Dead Redemption 2 Chapter 2 route.
+- Excludes: steering a road vehicle; target-routed automatic mount travel; a
+  spectral mount freely resummoned after defeat; fast travel.
+- Parameters: horse identity, call range, saddle, gait, direction, jump,
+  dismount, health, stamina and temporary-horse state.
+- Evidence: [Red Dead Redemption 2 decomposition](../games/m-r/red-dead-redemption-2.md).
+- Novelty: first isolated for `GAME-0165`; earlier mount actions either route
+  automatically or concern a resummonable supernatural steed.
+
+## ACT-272 — Clean one owned firearm with gun oil
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player inspects one owned firearm and consumes one available
+  unit of gun oil to restore its current condition before returning it to use.
+- Includes: field-cleaning a dirty Chapter 2 firearm from the Red Dead
+  Redemption 2 weapon interface.
+- Excludes: reloading ammunition; buying a gunsmith cleaning service; repairing
+  a retained weapon at a safe-hub workbench; attaching a cosmetic component.
+- Parameters: weapon, current condition, oil count, cleaning duration,
+  interruption and restored condition.
+- Evidence: [Red Dead Redemption 2 decomposition](../games/m-r/red-dead-redemption-2.md).
+- Novelty: first isolated for `GAME-0165`; `ACT-221` is a hub repair or upgrade,
+  not carried-consumable maintenance in the field.
+
+## ACT-273 — Donate eligible value to the shared gang camp
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects personal money or an eligible carried valuable,
+  provision or carcass and commits it to the gang camp's shared funds or supply
+  state, permanently removing the donated value from personal possession.
+- Includes: the Horseshoe Overlook donation box and eligible meat or carcasses
+  given to Pearson during Chapter 2.
+- Excludes: purchasing a ledger upgrade from shared funds; selling to a merchant
+  for personal cash; a cosmetic gift with no camp state change.
+- Parameters: recipient, item or money class, amount, personal source, shared
+  destination, camp supply category and honour effect.
+- Evidence: [Red Dead Redemption 2 decomposition](../games/m-r/red-dead-redemption-2.md).
+- Novelty: first isolated for `GAME-0165`; earlier contribution genes fill
+  fixed authored collection slots rather than an open operating reserve.
+
+## ACT-274 — Choose one contextual ambient social response
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while focused on a live nearby person, the player chooses one
+  currently offered contextual response such as greet, antagonise, calm,
+  threaten or surrender, allowing that person's state to determine the reply.
+- Includes: greeting or antagonising civilians, trying to stop a witness and
+  surrendering to lawmen in scoped Red Dead Redemption 2 Story Mode.
+- Excludes: selecting a fixed authored quest branch; attacking with the current
+  weapon; passive dialogue heard without a player response.
+- Parameters: target, awareness, distance, role, response set, repetition,
+  weapon posture and resulting disposition.
+- Evidence: [Red Dead Redemption 2 decomposition](../games/m-r/red-dead-redemption-2.md).
+- Novelty: first isolated for `GAME-0165`; earlier dialogue actions commit
+  authored narrative options rather than a live systemic social verb.
+
+## ACT-275 — Choose one city's production target
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player selects one currently legal unit, building, district,
+  wonder or project as the single target that a city will advance with its
+  accumulated production until completion or replacement.
+- Includes: choosing a Settler, Campus or Spaceport project in the scoped
+  Civilization VI game.
+- Excludes: buying the target immediately with Gold; assigning a worked tile;
+  an unrestricted multi-item automation queue.
+- Parameters: city, target class, cost, progress, prerequisites, replacement
+  and completion effect.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`; earlier construction actions place
+  footprints or order work but do not select a city's one accumulating output.
+
+## ACT-276 — Choose the active civic research target
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player chooses one unlocked Civic as the current destination
+  for empire Culture, replacing or continuing the prior target while retaining
+  its stored progress.
+- Includes: selecting Political Philosophy or Space Race in base Civilization VI.
+- Excludes: selecting a Technology funded by Science; equipping a policy card;
+  accepting a narrative dialogue branch.
+- Parameters: civic, prerequisites, stored progress, culture cost, boost and unlocks.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`; it is the Culture-funded parallel
+  dependency choice beside existing Technology selection.
+
+## ACT-277 — Assign one citizen to a worked tile or specialist slot
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player moves one available city citizen between eligible
+  worked territory, a district specialist slot or unemployment, changing which
+  yields that finite population member contributes.
+- Includes: prioritising a farm, mine or Campus specialist in Civilization VI.
+- Excludes: placing a district; moving a military unit; changing a whole city's
+  cosmetic population model.
+- Parameters: city, citizen, source, destination, ownership, work eligibility
+  and resulting yields.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`; earlier worker allocation concerns
+  abstract jobs rather than individually reassigned map tiles and specialists.
+
+## ACT-278 — Select a government and fill its policy slots
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player adopts an unlocked government and assigns compatible
+  policy cards to its typed military, economic, diplomatic and wildcard slots.
+- Includes: adopting Classical Republic and configuring available base-game cards.
+- Excludes: choosing the active Civic; appointing an expansion Governor;
+  setting a purely cosmetic national label.
+- Parameters: government, unlocked cards, slot types, assignments, change cost
+  and active effects.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`; earlier loadouts do not combine a
+  regime-defined typed slot frame with swappable empire rules.
+
+## ACT-279 — Establish a trade route to an eligible destination
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player assigns an available trader to one eligible origin and
+  destination, committing the unit to the displayed route and per-turn yields.
+- Includes: a domestic route between the two scoped Roman cities or an
+  international route to a contacted rival.
+- Excludes: a one-off diplomatic resource deal; manually steering a unit one
+  hex at a time; passively receiving city income.
+- Parameters: trader, origin, destination, capacity, reach, duration, yields,
+  road and trading-post effects.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`; existing logistics actions route
+  cargo directly rather than commit an autonomous yield-and-road mission.
+
+## ACT-280 — Commit a civilization-level diplomatic action
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after contact, the player proposes, accepts, rejects or counters
+  an eligible deal, relationship, declaration of war or peace agreement with
+  one civilization.
+- Includes: exchanging Gold/resources, declaring war and negotiating peace in
+  the scoped Civilization VI game.
+- Excludes: tactical unit attack; a city-state envoy; fixed campaign dialogue.
+- Parameters: counterpart, contact, action, terms, duration, relationship,
+  treaty gate and acceptance.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`; it binds negotiated bilateral terms
+  and formal war state at sovereign-player scale.
+
+## ACT-281 — End the current civilization's multi-command turn
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player commits the current civilization turn after any legal
+  subset of available commands, allowing settlement and the next rival's turn
+  to begin while unspent optional unit authority expires for that turn.
+- Includes: the End Turn control in single-player Civilization VI.
+- Excludes: spending one unit action; pausing real time; submitting one
+  simultaneous hidden order.
+- Parameters: civilization, turn number, mandatory-choice checks, unresolved
+  alerts, unspent movement and next participant.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`; earlier commit actions close one
+  order or simultaneous phase rather than a whole empire's multi-command turn.
+
+## ACT-282 — Modulate one context-sensitive vertical control
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while horizontal travel remains automatic, the player presses,
+  holds or releases one control whose current avatar mode determines the
+  requested vertical response without supplying a horizontal direction.
+- Includes: pressing or holding to jump as the Stereo Madness cube and holding
+  or releasing the same control to raise or lower the ship's flight path.
+- Excludes: steering freely in two axes; selecting a destination; changing
+  avatar mode directly; a decorative input with no collision consequence.
+- Parameters: input device, press, hold, release, current mode, buffering and
+  requested vertical response.
+- Evidence: [Geometry Dash decomposition](../games/g-l/geometry-dash.md).
+- Novelty: first isolated for `GAME-0167`; earlier locomotion actions directly
+  steer an avatar or issue separate abilities rather than reuse one vertical
+  control across an automatically advancing mode sequence.
+
+## ACT-283 — Install or remove one compatible equipment Mod
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: in equipment configuration, place one owned compatible Mod into
+  an eligible slot or remove it before returning to live play.
+- Includes: configuring the chosen Warframe or starter weapon in the Arsenal
+  during Awakening and Vor's Prize.
+- Excludes: acquiring a Mod drop; levelling equipment; changing a weapon in the
+  broader loadout; using an ability during a mission.
+- Parameters: equipment, Mod, ownership, compatibility, slot, rank, drain,
+  polarity and resulting configuration.
+- Evidence: [Warframe decomposition](../games/s-z/warframe.md).
+- Novelty: first isolated for `GAME-0168`; earlier loadout genes select whole
+  equipment pieces rather than socketing one capacity-bearing modifier.
+
+## ACT-284 — Rotate terminal nodes into a connected cipher
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while a terminal timer runs, rotate the displayed nodes until
+  their paths form the accepted connected pattern, then submit or let the
+  terminal validate it.
+- Includes: the Grineer-style terminal hacking taught in Warframe's opening
+  route.
+- Excludes: entering a remembered password; consuming a Cipher item to bypass
+  the puzzle; arbitrary movement or combat around the console.
+- Parameters: node set, orientations, required connectivity, timer, retries,
+  input device and validation state.
+- Evidence: [Warframe decomposition](../games/s-z/warframe.md).
+- Novelty: first isolated for `GAME-0168`; existing rotation actions transform
+  world pieces rather than solve a timed terminal network.
+
+## ACT-285 — Accept one employer-supplied cargo job
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: from a current job market, the player accepts one offer that fixes
+  its cargo, origin, destination, deadline and payment and supplies the declared
+  loaded vehicle for the duration of that job.
+- Includes: accepting the scoped Euro Truck Simulator 2 Quick Job.
+- Excludes: collecting freight with an owned truck; buying a vehicle; assigning
+  a job to an autonomous employee; merely previewing an offer.
+- Parameters: offer set, cargo, origin, destination, deadline, income, supplied
+  truck, trailer and replacement policy.
+- Evidence: [Euro Truck Simulator 2 decomposition](../games/a-f/euro-truck-simulator-2.md).
+- Novelty: first isolated for `GAME-0169`; prior contracts dispatch autonomous
+  carriers or retain player-owned equipment rather than instantiate one loaded
+  employer vehicle for direct operation.
+
+## ACT-286 — Choose a duration of rest at an eligible stop
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while stopped in an eligible rest location, the player selects a
+  permitted sleep duration and commits the live job and world clock to advance
+  through that interval while driver-rest state is restored.
+- Includes: choosing when to wake under Euro Truck Simulator 2 update 1.60.
+- Excludes: pausing simulation time; sleeping for a fixed system-chosen period;
+  resting at a checkpoint that respawns enemies or heals combat resources.
+- Parameters: location, current rest state, chosen duration, minimum break,
+  world time, job deadline and wake time.
+- Evidence: [Euro Truck Simulator 2 decomposition](../games/a-f/euro-truck-simulator-2.md).
+- Novelty: first isolated for `GAME-0169`; earlier rest genes use a fixed
+  checkpoint or survival sleep transition rather than schedule a player-sized
+  break against an active delivery deadline.
+
+## ACT-287 — Choose one delivery drop-off treatment
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: at the cargo destination, the player chooses one currently
+  offered trailer treatment whose bay geometry or skip rule determines the
+  required parking manoeuvre and eligible experience credit.
+- Includes: selecting a standard or easier Euro Truck Simulator 2 trailer bay,
+  or accepting the available automatic-parking/skip treatment.
+- Excludes: steering and reversing the vehicle itself; accepting the cargo job;
+  choosing an arbitrary world parking space with no delivery consequence.
+- Parameters: offered treatments, bay, difficulty, skip, validation pose,
+  detachment and experience credit.
+- Evidence: [Euro Truck Simulator 2 decomposition](../games/a-f/euro-truck-simulator-2.md).
+- Novelty: first isolated for `GAME-0169`; prior spatial actions do not select a
+  contract-closing parking obligation with difficulty-sensitive experience.
+
+## ACT-288 — Throw a bolt to probe an anomaly path
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player throws one carried bolt into a reachable direction to
+  trigger an anomaly and observe whether a short traversal window opens.
+- Includes: testing and crossing Lesser Zone anomalies after the prologue in
+  S.T.A.L.K.E.R. 2.
+- Excludes: damaging an enemy with a grenade; permanently disabling a hazard;
+  revealing an artifact with a detector.
+- Parameters: bolt, trajectory, anomaly class, trigger radius, discharge window,
+  recovery time and observed route.
+- Evidence: [S.T.A.L.K.E.R. 2 decomposition](../games/s-z/stalker-2-heart-of-chornobyl.md).
+- Novelty: first isolated for `GAME-0170`; earlier thrown probes reveal a remote
+  bearing or deal damage rather than briefly cycle a local environmental hazard.
+
+## ACT-289 — Sweep with a detector and collect a manifested artifact
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player equips an artifact detector, follows its changing
+  signal inside an anomalous field and takes the artifact after proximity makes
+  it visible and reachable.
+- Includes: the prologue artifact and the Mold artifact in `Piece of Cake`.
+- Excludes: seeing ordinary ground loot; reading an external map; equipping an
+  already owned artifact in a suit container.
+- Parameters: detector, signal cadence, bearing, critical range, field, artifact,
+  manifestation position and pickup reach.
+- Evidence: [S.T.A.L.K.E.R. 2 decomposition](../games/s-z/stalker-2-heart-of-chornobyl.md).
+- Novelty: first isolated for `GAME-0170`; ordinary loot is visible before
+  transfer, while this action actively localises an initially invisible object.
+
+## ACT-290 — Directly control a dedicated driving vehicle
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while assigned to one driving vehicle, the player directly
+  controls steering, throttle, braking, gear selection and any declared
+  handbrake without first entering or later leaving an embodied seat.
+- Includes: controlling each assigned road, dirt, cross-country and Time Attack
+  car in the scoped Forza Horizon 6 opening.
+- Excludes: entering and exiting a persistent world vehicle; assigning an
+  autonomous transport route; selecting which owned car will become active.
+- Parameters: vehicle, steering, throttle, brake, handbrake, transmission,
+  camera, input device and control assistance.
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Novelty: first isolated for `GAME-0171`; `ACT-201` requires an embodied
+  enter/seat/exit loop that a dedicated racing-car assignment does not expose.
+
+## ACT-291 — Select the active vehicle from an eligible collection
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: outside a locked event, the player chooses one currently owned
+  and eligible vehicle so it becomes the active directly controlled car.
+- Includes: choosing one of the three Forza Horizon 6 starter cars and later
+  switching among owned cars through Car Collection before an event.
+- Excludes: purchasing a vehicle; accepting a supplied cargo job; changing cars
+  after an event has locked its grid.
+- Parameters: owned collection, current vehicle, eligibility, location,
+  delivery transition and event lock.
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Novelty: first isolated for `GAME-0171`; inventory-equipment actions do not
+  replace a complete directly driven world vehicle from an owned garage.
+
+## ACT-292 — Configure driving assists and opponent difficulty
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player commits a compatible driving-assistance and opponent-
+  difficulty profile that changes how direct inputs, guidance and autonomous
+  rivals resolve during eligible driving events.
+- Includes: Forza Horizon 6 steering, braking, transmission, traction,
+  stability, driving-line, Rewind and Drivatar difficulty settings.
+- Excludes: changing only rendering quality; tuning a car's mechanical parts;
+  selecting a different event or owned vehicle.
+- Parameters: steering, braking, transmission, traction, stability, driving
+  line, Rewind, damage, game speed and opponent difficulty.
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Novelty: first isolated for `GAME-0171`; earlier difficulty parameters do not
+  expose one coupled driving-control, guidance and autonomous-rival profile.
+
+## ACT-293 — Commit one available mapped driving event
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player selects one currently unlocked driving-event marker
+  and commits to its authored route, vehicle eligibility and result rules.
+- Includes: entering the scoped Trail, Circuit, Cross Country, Time Attack and
+  Horizon Invitational events in Forza Horizon 6.
+- Excludes: placing a navigation waypoint without starting the event; creating
+  a custom route; selecting a multiplayer playlist.
+- Parameters: marker, event type, route, eligibility, solo field, result rule,
+  reward and first-completion state.
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Novelty: first isolated for `GAME-0171`; earlier world-node selections launch
+  expeditions or narrative tasks rather than one bounded driving ruleset.

@@ -1078,12 +1078,14 @@
   states until the application presents that branch's terminal ending and
   returns or offers return to a replay boundary.
 - Includes: reaching any bounded ending route in The Stanley Parable: Ultra
-  Deluxe.
+  Deluxe; reaching the first branch-labelled New In Town completion in The
+  Sims 4.
 - Excludes: completing every ending; merely watching non-terminal dialogue;
   reaching a spatial exit with no branch-dependent conclusion.
 - Parameters: branch graph, terminal triggers, reset behaviour, retained
   unlocks and completion presentation.
-- Evidence: [The Stanley Parable: Ultra Deluxe decomposition](../games/s-z/the-stanley-parable-ultra-deluxe.md).
+- Evidence: [The Stanley Parable: Ultra Deluxe decomposition](../games/s-z/the-stanley-parable-ultra-deluxe.md)
+  and [The Sims 4 decomposition](../games/s-z/the-sims-4.md).
 - Novelty: not assessed.
 
 ## OBJ-053 — Sustain and expand an open-ended simulated city
@@ -1600,3 +1602,278 @@
   vacancy, Dryad eligibility and arrival.
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Novelty: not assessed.
+
+## OBJ-084 — Remain the last participating squad in Core Battle Royale
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: preserve at least one participating member and eliminate or
+  outlast every opposing squad until the match adjudicates this squad as the
+  sole remaining participant.
+- Includes: Apex Legends Core Unranked Trios Champion objective.
+- Excludes: Ranked Point optimisation; individual kill totals; a solo
+  last-person objective; winning a round-score or territory match.
+- Parameters: squad, active members, recoverable members, opposing squads,
+  elimination state and Champion result.
+- Evidence: [Apex Legends decomposition](../games/a-f/apex-legends.md).
+- Novelty: not assessed.
+
+## OBJ-085 — Reveal the complete hidden word-path partition
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one bounded letter-grid puzzle by identifying every
+  authored answer as its exact adjacent-cell path until the accepted disjoint
+  paths cover every grid cell exactly once.
+- Includes: finding all Strands theme words and the spangram so every letter in
+  the daily grid belongs to one accepted answer path.
+- Excludes: finding an arbitrary number of valid words; identifying one fixed
+  concealed sequence; constructing a freely chosen full-grid path assignment;
+  maximising score while unresolved cells remain.
+- Parameters: grid size, answer-path count, coverage predicate, designated
+  spanning answer, accepted alternate paths and completion feedback.
+- Evidence: [Strands decomposition](../games/s-z/strands.md).
+- Novelty: not assessed.
+
+## OBJ-086 — Complete a bounded authored cooperative chapter together
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: carry both separately human-controlled protagonists through
+  every mandatory segment of one finite authored chapter until their shared
+  progression crosses its declared next-chapter boundary.
+- Includes: completing Split Fiction's Freedom Fighters and Brave Knights
+  opening stories with Mio and Zoe and entering Neon Revenge.
+- Excludes: finishing the whole campaign; one actor reaching a room exit while
+  the other remains behind; completing optional Side Stories or collectibles;
+  maximising a chapter score.
+- Parameters: chapter entry, mandatory segment list, required actors, optional
+  branches, checkpoint retention and terminal transition.
+- Evidence: [Split Fiction decomposition](../games/s-z/split-fiction.md).
+- Novelty: not assessed.
+
+## OBJ-087 — Complete the mission objective, then preserve extraction assets
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: before a finite mission horizon, satisfy the one required main
+  objective that owns mission success, then pursue a separable departure result
+  by extracting surviving participants and the shared assets they carry.
+- Includes: disabling or destroying the Helldivers 2 illegal broadcast before
+  Super Destroyer withdrawal, then extracting Helldivers and carried samples.
+- Excludes: extraction as a prerequisite for mission success; optional outpost
+  clearance; maximising every reward; winning the complete shared campaign.
+- Parameters: main objective, completion predicate, horizon, extraction
+  endpoint, survivor, carried asset, post-objective wipe and success retention.
+- Evidence: [Helldivers 2 decomposition](../games/g-l/helldivers-2.md).
+- Novelty: not assessed.
+
+## OBJ-088 — Earn the first Z-A Royale promotion
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: prepare a legal party, earn the current Challenger's Ticket and
+  defeat its designated opponent so the persistent tournament state advances
+  from Rank Z to Rank Y.
+- Includes: completing Pokémon Legends: Z-A Main Mission 04 by defeating Zach.
+- Excludes: later Rank X-to-A progression; exhaustive Pokédex completion; Mega
+  Evolution or the base-game finale.
+- Parameters: entry rank, party, ticket threshold, designated opponent, victory
+  predicate, exit rank and mission completion.
+- Evidence: [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
+- Novelty: not assessed.
+
+## OBJ-089 — Escape one standard Trial as a Survivor
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: bring the currently controlled Survivor across one legal powered
+  Exit Gate or eligible last-Survivor Hatch boundary before terminal removal.
+- Includes: personal escape from the scoped blank-loadout Dead by Daylight 1v4
+  Trial, whether or not other Survivors also escape.
+- Excludes: merely completing five Generators; maximising Bloodpoints; the
+  Killer's sacrifice objective; team-wide all-Survivor evacuation requirement.
+- Parameters: controlled Survivor, gate state, Hatch state, boundary crossing,
+  terminal removal and individual result.
+- Evidence: [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md).
+- Novelty: not assessed.
+
+## OBJ-090 — Finish regulation with more goals than the opponent
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: maximise the team's valid goal total relative to one opponent
+  until the end of regulation, producing a win when ahead and an accepted draw
+  when level under the scoped fixture rules.
+- Includes: one EA SPORTS FC 26 Kick Off Classic Match without extra time or a
+  penalty shoot-out.
+- Excludes: accumulating an unopposed high score; winning a season table;
+  completing Ultimate Team objectives.
+- Parameters: goals for, goals against, regulation horizon, draw policy and
+  selected side.
+- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
+- Novelty: first isolated for `GAME-0163`.
+
+## OBJ-091 — Defeat Mom and reach the first clean-save Epilogue
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: carry one ordinary Normal Mode run from clean-save Basement I
+  through the boss-gated floor sequence and defeat Mom in Depths II before
+  final health depletion so the first Epilogue settles.
+- Includes: the first solo Isaac Mom victory in base The Binding of Isaac: Rebirth.
+- Excludes: stopping after an earlier floor boss; Mom's Heart, Boss Rush or
+  later endings; a manually seeded no-unlock run.
+- Parameters: character, difficulty, starting save state, floor sequence, Mom
+  defeat, health terminal, Epilogue and unlock eligibility.
+- Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
+- Novelty: first isolated for `GAME-0164`; no earlier objective combines this
+  generated six-floor run with first-Mom ending and unlock credit.
+
+## OBJ-092 — Complete Horseshoe Overlook and establish the next camp
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete the required Chapter 2 Story Mode mission graph, finish
+  `A Strange Kindness` and establish the gang at Clemens Point without leaving
+  a required mission in failure state.
+- Includes: one clean PC Story Mode route from first free control at Horseshoe
+  Overlook after `Eastward Bound` through the Chapter 3 camp transition.
+- Excludes: every optional stranger chain, exhaustive Chapter 2 completion,
+  later story chapters, either epilogue and Red Dead Online.
+- Parameters: required mission set, legal order, optional deferrals, final
+  mission, camp transition and checkpoint failure policy.
+- Evidence: [Red Dead Redemption 2 decomposition](../games/m-r/red-dead-redemption-2.md).
+- Novelty: first isolated for `GAME-0165`; earlier campaign objectives end at
+  a complete story, boss or region gate rather than this authored camp era.
+
+## OBJ-093 — Establish the base-game Mars colony before every rival
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: found and develop the selected civilization, construct a
+  Spaceport, complete the Satellite and Moon Landing, then launch the Mars
+  Reactor, Hydroponics and Habitation modules before another civilization wins.
+- Includes: Trajan/Rome under the fixed base-game Science-only setup.
+- Excludes: Gathering Storm's Exoplanet Expedition; winning by Religion,
+  Culture, Domination or Score; merely researching the required technologies.
+- Parameters: civilization, rivals, enabled terminal, Spaceport, five launch
+  projects, rival victory state and elimination state.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`; no earlier objective uses this
+  ordered base-Civilization-VI Earth-orbit-to-three-Mars-module terminal.
+
+## OBJ-094 — Complete one checkpointless authored auto-run level
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: carry one automatically advancing icon from the authored level
+  origin to its finish in a single Normal Mode attempt without terminal contact,
+  regardless of how many optional collectibles are credited.
+- Includes: first 100% Normal Mode completion of Stereo Madness.
+- Excludes: Practice Mode completion; stopping at a best partial percentage;
+  completing every official or user-created level; requiring all Secret Coins.
+- Parameters: level, mode, origin, finish, attempt validity, optional
+  collectibles, reward and prior completion state.
+- Evidence: [Geometry Dash decomposition](../games/g-l/geometry-dash.md).
+- Novelty: first isolated for `GAME-0167`; earlier spatial exits are reached by
+  directly steered or command-routed actors rather than a checkpointless
+  one-control auto-run.
+
+## OBJ-095 — Complete Awakening and Vor's Prize and defeat Captain Vor
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: from the first starter selection, complete every mandatory
+  Awakening and Vor's Prize step, restore the required Orbiter functions and
+  defeat Captain Vor so the opening quest records completion.
+- Includes: one fresh-account Solo route using the selected starter Warframe and
+  weapons through the final Vor confrontation.
+- Excludes: completing the full Star Chart; later quests, Junctions or open
+  worlds; collecting every Warframe; multiplayer progression or monetisation.
+- Parameters: starter selections, mandatory step set, restored segments, boss
+  state, quest completion and retained equipment state.
+- Evidence: [Warframe decomposition](../games/s-z/warframe.md).
+- Novelty: first isolated for `GAME-0168`; earlier campaign terminals do not end
+  at this tutorial-hub restoration and first named-boss boundary.
+
+## OBJ-096 — Complete and settle one employer-supplied cargo delivery
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: accept one supplied loaded vehicle, transport its declared cargo
+  from origin to destination under the active job terms and validate drop-off so
+  the delivery-results transition closes that contract.
+- Includes: one scoped Euro Truck Simulator 2 Quick Job.
+- Excludes: accumulating company wealth across multiple jobs; reaching the
+  destination without the cargo; an autonomous scheduled transport service.
+- Parameters: contract, supplied vehicle, cargo, origin, destination, deadline,
+  condition, drop-off, settlement and abandonment.
+- Evidence: [Euro Truck Simulator 2 decomposition](../games/a-f/euro-truck-simulator-2.md).
+- Novelty: first isolated for `GAME-0169`; earlier delivery objectives terminate
+  a passenger route, factory quota or campaign milestone rather than one paid
+  directly driven employer load.
+
+## OBJ-097 — Resolve the first Ward Sensors investigation for one recipient
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete the opening and Lesser Zone investigation, obtain the
+  Ward Sensors from Squint and hand them to one eligible recipient so `A Needle
+  in a Haystack` records its selected terminal branch.
+- Includes: the fixed Richter route after exchanging the Mold artifact with
+  Squint in S.T.A.L.K.E.R. 2.
+- Excludes: completing the whole campaign; handing the sensors to both Richter
+  and Zotov; keeping the artifact instead of finishing the declared route.
+- Parameters: opening state, investigation route, Squint outcome, artifact
+  exchange, sensor possession, recipient, reward and retained quest state.
+- Evidence: [S.T.A.L.K.E.R. 2 decomposition](../games/s-z/stalker-2-heart-of-chornobyl.md).
+- Novelty: first isolated for `GAME-0170`; the bounded objective closes an
+  investigation through a mutually exclusive item hand-in rather than an ending.
+
+## OBJ-098 — Qualify for the Horizon Festival and earn the first Wristband
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: complete the tourist opening, accumulate enough Horizon Festival
+  Points through the declared Qualifier route and then complete the Horizon
+  Invitational so the first Wristband records Festival membership.
+- Includes: the fixed fresh-save Forza Horizon 6 Solo route through the first
+  Yellow Wristband and its three granted cars.
+- Excludes: becoming a Horizon Legend; obtaining all seven Wristbands or any
+  Discover Japan Stamp; multiplayer and Festival Playlist progress.
+- Parameters: opening state, Qualifier event set, point threshold,
+  Invitational, valid completion, Wristband and retained rewards.
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Novelty: first isolated for `GAME-0171`; the terminal couples alternative
+  driving-event progress to one mandatory qualification race and membership gate.

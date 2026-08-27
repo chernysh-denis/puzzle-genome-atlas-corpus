@@ -196,7 +196,13 @@
   attacking, healing, casting and contesting while Marvel Rivals combat and
   objective clocks remain live; navigating, striking, casting, binding and
   evading while Hollow Knight: Silksong enemies and hazards continue in real
-  time.
+  time; moving, grappling, operating switches, piloting and firing while Split
+  Fiction Chapter 1 hazards, vehicles and hostiles continue in real time;
+  directing Farrah while motives, mood, autonomy and social activity continue
+  in The Sims 4 Live Mode; moving, passing, shooting, switching and tackling
+  while the EA SPORTS FC 26 ball, players, referee and match clock continue;
+  pressing or holding Geometry Dash's one vertical control while Stereo
+  Madness continues its automatic travel, physics and authored level clock.
 - Excludes: a discrete input followed by completed automatic resolution;
   self-paced actions with no time-driven state change; an external timer that
   only measures performance.
@@ -232,7 +238,14 @@
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
   [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md), and
   [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md), and
-  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md), and
+  [Split Fiction decomposition](../games/s-z/split-fiction.md),
+  [The Sims 4 decomposition](../games/s-z/the-sims-4.md) and
+  [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md), and
+  [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md), and
+  [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md), and
+  [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md), and
+  [Geometry Dash decomposition](../games/g-l/geometry-dash.md).
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Novelty: not assessed.
 
@@ -521,3 +534,22 @@
   action and reconnect state.
 - Evidence: [Rust decomposition](../games/m-r/rust.md).
 - Novelty: not assessed.
+
+## TIM-018 — Alternate sequential multi-command civilization turns
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: one civilization at a time receives an open decision interval in
+  which it may issue any legal subset of unit, city, economy, research and
+  diplomacy commands; End Turn commits settlement and passes authority to the
+  next civilization in sequence.
+- Includes: Rome followed by the three fixed AI rivals in scoped Civilization VI.
+- Excludes: one-action alternating turns; simultaneous hidden orders; a live
+  world that advances while the player deliberates.
+- Parameters: participant order, turn number, command set, optional omissions,
+  settlement, refresh and next participant.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`; earlier turn genes bound one action,
+  one phase or simultaneous commitment rather than a whole empire command set.

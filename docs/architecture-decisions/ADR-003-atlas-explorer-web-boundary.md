@@ -3,11 +3,10 @@
 - Status: Accepted
 - Date: 2026-08-12
 
-Transition note (2026-08-26): ADR-009 supersedes the direct-Markdown and
-no-corpus-API clauses for the accepted backend-first target. This ADR still
-describes current production until an explicitly authorised cutover and parity
-window complete; its static HTML, bounded-browser-data and no-second-editor
-constraints remain accepted.
+Transition note (2026-08-27): the ADR-009 production cutover completed on
+2026-08-26. ADR-010 now supersedes permanent PostgreSQL authority while
+retaining a versioned Go API over an immutable artifact. This ADR's static
+HTML, bounded-browser-data and no-second-editor constraints remain accepted.
 
 ## Context
 

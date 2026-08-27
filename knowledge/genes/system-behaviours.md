@@ -70,8 +70,12 @@
   [Threes decomposition](../games/s-z/threes.md), and
   [Mini Metro decomposition](../games/m-r/mini-metro.md),
   [Loop Hero decomposition](../games/g-l/loop-hero.md), and
-  [Slay the Spire decomposition](../games/s-z/slay-the-spire.md).
+  [Slay the Spire decomposition](../games/s-z/slay-the-spire.md) and
+  [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md) and
+  [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md).
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Additional support: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md),
+  for seed- and pool-bounded room, enemy, pickup and item selection.
 - Novelty: not assessed; this is part of the baseline genome.
 
 ## SYS-005 — Zero-clue region expansion
@@ -668,7 +672,10 @@
   colliding at its committed physical scale; the Manifold Garden avatar and
   eligible cubes falling, steering, colliding and landing in the selected
   gravity frame; Maquette's released golden key settling as a collidable bridge
-  while the avatar walks across it.
+  while the avatar walks across it; Split Fiction's Mio and Zoe falling,
+  jumping, grappling and colliding with live Chapter 1 geometry and hazards;
+  Geometry Dash's cube and ship following gravity, impulses and continuous
+  collision geometry while Stereo Madness advances.
 - Excludes: grid-stepped gravity; a time-driven path traversal with no force
   integration; one discrete input followed by instantaneous completed motion.
 - Parameters: gravity, mass, damping, constraint solver, collision shapes and
@@ -682,7 +689,9 @@
   [Fez decomposition](../games/a-f/fez.md), and
   [Superliminal decomposition](../games/s-z/superliminal.md), and
   [Manifold Garden decomposition](../games/m-r/manifold-garden.md), and
-  [Maquette decomposition](../games/m-r/maquette.md).
+  [Maquette decomposition](../games/m-r/maquette.md), and
+  [Split Fiction decomposition](../games/s-z/split-fiction.md), and
+  [Geometry Dash decomposition](../games/g-l/geometry-dash.md).
 - Novelty: not assessed.
 
 ## SYS-037 — Contact-triggered collectible acquisition
@@ -699,7 +708,9 @@
   active The Swapper body collecting a room-progress orb; a Snakebird head
   removing one required fruit before later exit activation; Inertia's ball
   removing every gem crossed without stopping its committed slide; the
-  Echochrome Walker crediting an echo on contact while continuing its route.
+  Echochrome Walker crediting an echo on contact while continuing its route;
+  the Stereo Madness icon marking an optional Secret Coin collected while the
+  attempt continues toward the level finish.
 - Excludes: the player directly selecting a collectible; mandatory destination
   contact that itself completes the level; acquiring a carried key whose later
   barrier interaction is the decision-relevant function; clearing a matched
@@ -712,7 +723,8 @@
   [Snakebird decomposition](../games/s-z/snakebird.md), and
   [Inertia decomposition](../games/g-l/inertia.md), and
   [The Talos Principle decomposition](../games/s-z/the-talos-principle.md), and
-  [Echochrome decomposition](../games/a-f/echochrome.md).
+  [Echochrome decomposition](../games/a-f/echochrome.md), and
+  [Geometry Dash decomposition](../games/g-l/geometry-dash.md).
 - Novelty: not assessed.
 
 ## SYS-038 — Synchronous cyclic symbolic-program execution
@@ -873,10 +885,12 @@
   tasked Pikmin travelling and carrying across live terrain; Echochrome's
   Walker advancing and turning without directional movement commands; Factorio
   attack groups pathing from their rally point toward a pollution source; and
-  Dota 2 lane creeps and courier following live paths.
-- Excludes: a directly navigated avatar; time-driven motion of one currently
-  controlled falling piece; execution of a separately assigned specialist
-  role.
+  Dota 2 lane creeps and courier following live paths; the Geometry Dash icon
+  advancing horizontally through Stereo Madness while the player controls only
+  its vertical response.
+- Excludes: horizontal locomotion supplied directly by the player; time-driven
+  motion of one currently controlled falling piece; execution of a separately
+  assigned specialist role.
 - Parameters: speed, turning predicate, fall rule, collision priority and
   simultaneous-agent ordering.
 - Evidence: [Lemmings decomposition](../games/g-l/lemmings.md) and
@@ -889,7 +903,8 @@
   [Braid decomposition](../games/a-f/braid.md), and
   [Pikmin 4 decomposition](../games/m-r/pikmin-4.md),
   [Echochrome decomposition](../games/a-f/echochrome.md), and
-  [Factorio decomposition](../games/a-f/factorio.md).
+  [Factorio decomposition](../games/a-f/factorio.md), and
+  [Geometry Dash decomposition](../games/g-l/geometry-dash.md).
 - Novelty: not assessed.
 
 ## SYS-046 — Assigned-role autonomous execution
@@ -1226,7 +1241,8 @@
   active puzzle world.
 - Parameters: immune entity classes, continued-motion rule, interaction with
   rewinding bodies, boundary collisions and state retained across room reset.
-- Evidence: [Braid decomposition](../games/a-f/braid.md).
+- Evidence: [Braid decomposition](../games/a-f/braid.md) and
+  [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
 - Novelty: not assessed.
 
 ## SYS-063 — Carried-key barrier consumption
@@ -1277,12 +1293,14 @@
   trajectory while world time advances, with an activated switch starting,
   stopping or reversing its current traversal state.
 - Includes: Braid levers directing moving platforms that carry Tim or enemies
-  to otherwise unreachable geometry.
+  to otherwise unreachable geometry; Split Fiction Chapter 1 switches holding
+  or directing authored moving platforms and passage mechanisms.
 - Excludes: a platform moved directly by the avatar; autonomous pathfinding;
   a pressure plate that only changes a door state while occupied.
 - Parameters: trajectory, speed, switch-state mapping, endpoint behaviour,
   rider attachment, collision and rewind affinity.
-- Evidence: [Braid decomposition](../games/a-f/braid.md).
+- Evidence: [Braid decomposition](../games/a-f/braid.md), and
+  [Split Fiction decomposition](../games/s-z/split-fiction.md).
 - Novelty: not assessed.
 
 ## SYS-066 — Context-derived follower task execution
@@ -3890,10 +3908,12 @@
 - Confidence: `High`
 - Definition: proximity, traits, kinship, social interactions and remembered
   events update directed opinions and may create or end persistent relationships.
-- Includes: RimWorld friendships, rivalries, romances, marriages, breakups and social fights.
+- Includes: RimWorld friendships, rivalries, romances, marriages, breakups and
+  social fights; The Sims 4 friendship and romance relationship transitions.
 - Excludes: one global happiness value; a fixed biography with no causal effect.
 - Parameters: pair, compatibility, interaction, memory, opinion and relationship transition.
-- Evidence: [RimWorld decomposition](../games/m-r/rimworld.md).
+- Evidence: [RimWorld decomposition](../games/m-r/rimworld.md) and
+  [The Sims 4 decomposition](../games/s-z/the-sims-4.md).
 - Novelty: not assessed.
 
 ## SYS-206 — Reduce prisoner resistance and resolve recruitment
@@ -3937,12 +3957,14 @@
   armour and hit location into a miss or a wound on a specific body part.
 - Includes: RimWorld drafted firearm combat and cover-dependent injury;
   Counter-Strike 2 firearm resolution through range, material, armour and hit
-  group; Cyberpunk 2077 ranged attacks through cover, armour and body regions.
+  group; Cyberpunk 2077 ranged attacks through cover, armour and body regions;
+  Helldivers 2 aimed firearm hits against armoured body regions.
 - Excludes: abstract card damage; automatic engagement with no tactical target order.
 - Parameters: shooter, weapon, range, cover, accuracy, armour, body part and damage.
 - Evidence: [RimWorld decomposition](../games/m-r/rimworld.md) and
   [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md), and
-  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
+  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md).
 - Novelty: not assessed.
 
 ## SYS-209 — Generate seeded planet and landing map
@@ -4063,7 +4085,18 @@
 - Includes: embodied avatar combat, team firefights and Anno 1800 directly commanded naval combat.
 - Excludes: autonomous squad engagement; a telegraphed turn queue; non-combat collision damage; harbour fire with no relevant command.
 - Parameters: combatant body, locomotion domain, target command, range, facing, cooldown, damage, armour, knockback and retreat.
-- Evidence: [Minecraft decomposition](../games/m-r/minecraft.md), [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md), [Dota 2 decomposition](../games/a-f/dota-2.md), [Anno 1800 decomposition](../games/a-f/anno-1800.md), [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md), [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md) and [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Evidence: [Minecraft decomposition](../games/m-r/minecraft.md),
+  [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md),
+  [Dota 2 decomposition](../games/a-f/dota-2.md),
+  [Anno 1800 decomposition](../games/a-f/anno-1800.md),
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md),
+  [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md),
+  [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md),
+  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md),
+  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md) and
+  [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md) and
+  [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md), and
+  [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
 - Novelty: not assessed.
 
 ## SYS-216 — Apply carried-state loss and respawn in the persistent world
@@ -4171,6 +4204,8 @@
 - Evidence: [Minecraft decomposition](../games/m-r/minecraft.md) and
   [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Additional support: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md),
+  for contact pickup of eligible run resources and pocket items.
 - Novelty: not assessed.
 
 ## SYS-223 — Reduce tool durability on eligible use and remove it at exhaustion
@@ -5313,12 +5348,14 @@
   affected space.
 - Includes: Counter-Strike 2 HE damage, line-sensitive flash, volumetric smoke
   and spreading incendiary fire, including smoke/fire interaction; Cyberpunk
-  2077 thrown grenade trajectories and typed explosions or fields.
+  2077 thrown grenade trajectories and typed explosions or fields; Helldivers
+  2 frag, incendiary, smoke and other carried grenade trajectories and fields.
 - Excludes: ordinary firearm shots; decorative particles; a permanent terrain edit.
 - Parameters: type, trajectory, bounce, fuse, line of sight, radius, duration
   and interaction rules.
 - Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md) and
-  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
+  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md).
 - Novelty: not assessed.
 
 ## SYS-293 — Remove a defeated player for the round and drop equipment
@@ -5420,7 +5457,7 @@
 - Includes: Dota 2 match hero levels; persistent Clair Obscur, Cyberpunk 2077, Baldur's Gate 3, Palworld and ARC Raiders progression.
 - Excludes: account battle-pass levels; item-derived attributes alone; spending a granted point; reward acquisition with no experience threshold.
 - Parameters: recipient set, experience source, threshold curve, persistence horizon, level cap, stat update and point award.
-- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md), [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md), [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), [Baldur's Gate 3 decomposition](../games/a-f/baldurs-gate-3.md), [Palworld decomposition](../games/m-r/palworld.md) and [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
+- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md), [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md), [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), [Baldur's Gate 3 decomposition](../games/a-f/baldurs-gate-3.md), [Palworld decomposition](../games/m-r/palworld.md), [ARC Raiders decomposition](../games/a-f/arc-raiders.md) and [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
 - Novelty: not assessed.
 
 ## SYS-300 — Combine compatible carried item components
@@ -5530,12 +5567,14 @@
 - Definition: an eligible capture-device hit computes the current target and
   device probability, performs the disclosed capture checks and on success
   removes the wild creature into the player's owned companion storage.
-- Includes: ordinary Pal Sphere capture of wild Pals in Palworld.
+- Includes: ordinary Pal Sphere capture of wild Pals in Palworld and eligible
+  Poké Ball capture in Pokémon Legends: Z-A.
 - Excludes: a guaranteed quest capture after a boss is reduced to one health;
   defeating the target; hatching an egg.
 - Parameters: target health, status, level, capture power, probability, checks,
   success, experience award and storage destination.
-- Evidence: [Palworld decomposition](../games/m-r/palworld.md).
+- Evidence: [Palworld decomposition](../games/m-r/palworld.md) and
+  [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Novelty: not assessed.
 
@@ -6228,21 +6267,23 @@
 - Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
 - Novelty: not assessed.
 
-## SYS-348 — Resolve shield, health and downed Raider state
+## SYS-348 — Resolve layered shield, health and downed combatant state
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: incoming damage is applied through the compatible equipped shield
-  and health state, may trigger injury or downed-but-not-out state, and reaches
-  knockout when recovery or revival no longer prevents terminal raid defeat.
-- Includes: ARC Raiders shield damage, health, DBNO, revival and knockout.
+- Definition: incoming damage is applied through compatible shield and health
+  layers, may trigger injury or downed-but-not-out state, and reaches knockout
+  when recovery or revival no longer prevents terminal combatant defeat.
+- Includes: ARC Raiders shield damage, health, DBNO, revival and knockout; Apex
+  Legends Legend Armor, health, knockdown shield, knocked state and revival.
 - Excludes: weapon durability loss; successful extraction; post-raid inventory
   settlement itself.
 - Parameters: damage, shield capacity, shield charge, health, augment effect,
   downed state, bleedout, revive, self-recovery and knockout.
-- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
+- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md) and
+  [Apex Legends decomposition](../games/a-f/apex-legends.md).
 - Novelty: not assessed.
 
 ## SYS-349 — Settle a raid into extracted or forfeited inventory
@@ -6673,12 +6714,14 @@
   effects fills a local suspicion state; completed detection alerts eligible
   nearby actors and changes them from search to active combat until they lose or
   neutralise the protagonist.
-- Includes: Cyberpunk 2077 base-game guarded-area stealth and combat alerts.
+- Includes: Cyberpunk 2077 base-game guarded-area stealth and combat alerts;
+  Pokémon Legends: Z-A Trainer awareness and battle-opening state.
 - Excludes: NCPD wanted escalation after a public crime; a permanently
   omniscient enemy; scripted combat that begins without perception.
 - Parameters: observer, sight, sound, suspicion, detection threshold, shared
   alert, search, reacquisition and combat exit.
-- Evidence: [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Evidence: [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md) and
+  [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
 - Novelty: not assessed.
 
 ## SYS-374 — Resolve quickhack upload, queue and hostile trace
@@ -6795,10 +6838,13 @@
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: a legal selected ability or equipped gadget applies its authored combination of damage, healing, supply, repair, spotting, protection, displacement, movement, control or deployment to eligible live targets or space.
-- Includes: Marvel Rivals hero abilities and Battlefield 6 class gadgets.
+- Includes: Marvel Rivals hero abilities, Battlefield 6 class gadgets and
+  Helldivers 2 orbital, Eagle, support-weapon, emplacement and supply stratagems.
 - Excludes: ordinary basic attacks; passive identity labels; objective capture caused only by presence.
 - Parameters: source, effect types, target schema, geometry, duration, cooldown, charges and team relation.
-- Evidence: [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md) and [Battlefield 6 decomposition](../games/a-f/battlefield-6.md).
+- Evidence: [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md),
+  [Battlefield 6 decomposition](../games/a-f/battlefield-6.md) and
+  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md).
 - Novelty: not assessed.
 
 ## SYS-381 — Convert live contribution into ultimate readiness and spend it
@@ -7492,3 +7538,1801 @@
   dawn, escape and drops.
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Novelty: not assessed.
+
+## SYS-421 — Resolve Core teammate return through a legal recovery source
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: after a Core squad member dies, the system preserves the current
+  recovery state and, when a surviving teammate completes a legal deathbox or
+  Banner-and-Beacon process, restores that member to live play under the
+  source's current equipment, timing and lockout rules.
+- Includes: Apex Legends Core deathbox return and Legend Banner return through
+  a Replicator and Respawn Beacon where required by the current source.
+- Excludes: revival before death; the conflicting automatic pre-Ring-4 claim;
+  Wildcard and other mode-specific automatic return rules.
+- Parameters: deathbox, Banner, crafting state, Beacon, channel, interruption,
+  lockout, return position, equipment retention and squad state.
+- Evidence: [Apex Legends decomposition](../games/a-f/apex-legends.md).
+- Novelty: not assessed.
+
+## SYS-422 — Advance one locked hop-up on its current weapon object
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: eligible weapon activity or an eligible upgrade source adds
+  progress to the locked hop-up bound to that weapon object; crossing the
+  threshold activates its declared effect and the progress follows the weapon
+  when ownership changes.
+- Includes: Apex Legends Marked locked hop-ups advanced by damage and eligible
+  upgrade sources on the attached weapon.
+- Excludes: character-wide experience; ordinary attachment pickup; permanent
+  account weapon mastery and cosmetic unlocks.
+- Parameters: weapon object, hop-up, progress source, threshold, active state,
+  owner transfer and effect.
+- Evidence: [Apex Legends decomposition](../games/a-f/apex-legends.md).
+- Novelty: not assessed.
+
+## SYS-423 — Adjudicate squad elimination and last-squad victory
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the match continuously evaluates every squad's active, downed,
+  dead and legally recoverable members, removes a squad when no member can
+  preserve its participation and awards victory when exactly one squad remains.
+- Includes: Apex Legends Core Trios squad elimination and Champion result.
+- Excludes: individual kill credit; Ranked Point settlement; round-score or
+  ticket victory; solo permanent-defeat adjudication.
+- Parameters: squad roster, member state, recovery eligibility, remaining
+  squads, elimination event and winning squad.
+- Evidence: [Apex Legends decomposition](../games/a-f/apex-legends.md).
+- Novelty: not assessed.
+
+## SYS-424 — Resolve a card-commanded combat proxy's health and attacks
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a separate combat proxy tracks its own current and maximum
+  health, intercepts eligible damage that would reach the player and executes
+  attacks only when a resolving card commands it while the proxy is alive.
+- Includes: Osty absorbing otherwise unblocked attack damage and performing
+  Necrobinder card-commanded attacks in Slay the Spire 2.
+- Excludes: ordinary temporary Block; an autonomous follower choosing actions;
+  a lane creature that attacks every round; a second human-controlled player.
+- Parameters: proxy, current and maximum health, eligible damage class,
+  overflow, alive state, summon amount, commanding card and attack effect.
+- Evidence: [Slay the Spire 2 decomposition](../games/s-z/slay-the-spire-2.md).
+- Novelty: not assessed.
+
+## SYS-425 — Settle a persistent Quest card into its deferred route reward
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while a declared Quest card remains in the persistent deck, the
+  system watches its later route predicate and, when satisfied, resolves the
+  specified reward or event and removes that Quest card from the deck.
+- Includes: Slay the Spire 2 Byrdonis Egg, Lantern Key, Dowsing and Spoils Map
+  resolving at their declared later act, room or encounter state.
+- Excludes: an immediately playable objective card; a journal-only quest with
+  no deck membership; a card reward chosen after the same combat.
+- Parameters: Quest card, predicate, route horizon, marked node or event,
+  reward, duplicate handling and removal timing.
+- Evidence: [Slay the Spire 2 decomposition](../games/s-z/slay-the-spire-2.md).
+- Novelty: not assessed.
+
+## SYS-426 — Reveal milestone Epoch and expand future-run content pools
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after run settlement, the system compares retained profile
+  milestones with concealed or visible Epoch predicates, reveals each newly
+  satisfied Epoch and adds its declared cards, relics, potions, character,
+  Ancient, act or mode to eligible future-run pools.
+- Includes: the Slay the Spire 2 Timeline revealing `Spireborn` after a
+  Necrobinder Act 3 victory and unlocking three Necrobinder potions.
+- Excludes: temporary run-local relic acquisition; purchasing a metaprogression
+  upgrade; cosmetic-only account levels; a future mode merely announced.
+- Parameters: profile, milestone, Epoch, reveal graph, story panel, unlocked
+  content class, future pool and settlement order.
+- Evidence: [Slay the Spire 2 decomposition](../games/s-z/slay-the-spire-2.md).
+- Novelty: not assessed.
+
+## SYS-427 — Classify a submitted word path against the authored answer set
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after one eligible letter-cell path is submitted, the system
+  compares its ordered word and addressed cells with the fixed authored answer
+  set, permanently claims a matching theme path, marks the designated spanning
+  answer distinctly, or credits an accepted non-answer word toward assistance.
+- Includes: Strands accepting theme words and its spangram into the solved
+  partition while counting valid non-theme words toward the Hint meter.
+- Excludes: scoring a fixed-position hypothesis by per-letter similarity;
+  accepting any geometrically valid path into the final partition; generating
+  the authored answers during play; the later assistance reveal itself.
+- Parameters: answer set, lexicon, duplicate handling, claimed-cell state,
+  spangram identity, non-answer credit and feedback rendering.
+- Evidence: [Strands decomposition](../games/s-z/strands.md).
+- Novelty: not assessed.
+
+## SYS-428 — Convert non-answer words into staged answer-path hints
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: accepted distinct non-answer words accumulate toward a fixed
+  threshold; reaching it grants one assistance use that first identifies the
+  cells of an unresolved answer and, when invoked again for that same answer,
+  discloses their traversal order.
+- Includes: Strands granting a Hint after three non-theme words, highlighting
+  one theme word's letters and allowing a following Hint to show their order.
+- Excludes: revealing a complete answer without earned progress; a static
+  visible clue; counting rejected strings; changing the concealed partition.
+- Parameters: threshold, duplicate policy, stored credit, target selection,
+  first-stage cell reveal, second-stage ordering reveal and consumption timing.
+- Evidence: [Strands decomposition](../games/s-z/strands.md).
+- Novelty: not assessed.
+
+## SYS-429 — Return one failed partner while the cooperative segment stays live
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when exactly one member of a required human-controlled pair
+  fails, the surviving partner keeps the current real-time segment active and
+  the system restores the failed actor into that continuing segment after its
+  declared return condition.
+- Includes: Split Fiction returning Mio or Zoe after a brief recovery input or
+  delay while the other remains alive in the current traversal, chase or
+  encounter.
+- Excludes: a teammate manually reviving a downed body; a fixed team-spawn
+  wave; restoring the whole encounter immediately after any one death; joining
+  a persistent world from a remote spawn fixture.
+- Parameters: pair size, failed-state trigger, survivor requirement, return
+  input or delay, re-entry position, invulnerability and segment continuity.
+- Evidence: [Split Fiction decomposition](../games/s-z/split-fiction.md).
+- Novelty: not assessed.
+
+## SYS-430 — Restore an authored segment after simultaneous partner failure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the current cooperative attempt continues through individual
+  actor failures but restores the latest authored segment checkpoint when no
+  member of the required pair remains active.
+- Includes: Split Fiction resetting the current Chapter 1 segment when Mio and
+  Zoe fail together while preserving later chapter progression outside the
+  failed transient attempt.
+- Excludes: restoring after every individual death; ending a finite-life run;
+  round elimination with a later team spawn; freely selecting an earlier
+  checkpoint as an accessibility skip.
+- Parameters: required active count, simultaneous or overlapping failure
+  window, checkpoint granularity, transient state reset and retained progress.
+- Evidence: [Split Fiction decomposition](../games/s-z/split-fiction.md).
+- Novelty: not assessed.
+
+## SYS-431 — Advance personal motives into mood and interaction pressure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: each resident's bodily and social motive values change with
+  simulation time and activity; their current balance contributes to a visible
+  emotional state that modifies available or effective interactions.
+- Includes: The Sims 4 base-game hunger, energy, bladder, hygiene, fun and
+  social motives, their replenishing activities and mood-dependent socials.
+- Excludes: one settlement-wide happiness total; lethal survival metabolism;
+  cosmetic facial expression with no interaction consequence.
+- Parameters: motive set, decay rate, activity effect, emotion contributors,
+  dominant mood, interaction modifier and extreme threshold.
+- Evidence: [The Sims 4 decomposition](../games/s-z/the-sims-4.md).
+- Novelty: not assessed.
+
+## SYS-432 — Execute directed actions beside resident autonomy
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a resident paths to and executes queued player-directed
+  interactions while the autonomy system may select eligible activity when no
+  blocking direction owns the actor; cancellation or changed context can
+  interrupt either activity.
+- Includes: Farrah autonomously moving between household activities and
+  executing queued social, travel-preparation and self-care commands in The
+  Sims 4 Live Mode.
+- Excludes: an agent following only one assigned profession; direct avatar
+  locomotion; a pre-authored non-interactive cutscene.
+- Parameters: queue length, priority, pathing, autonomy level, interruption,
+  cancellation, target reservation and failure feedback.
+- Evidence: [The Sims 4 decomposition](../games/s-z/the-sims-4.md).
+- Novelty: not assessed.
+
+## SYS-433 — Advance staged scenario goals into a branch reward
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: completing the currently exposed required predicates advances an
+  authored scenario to its next stage, retains route-dependent choices and,
+  after the terminal predicate, assigns one branch ending and its declared
+  persistent rewards.
+- Includes: New In Town advancing from introductions and socialising through a
+  venue visit, friendship gates and a house or dinner party, then awarding an
+  ending, Inspired Explorer, a bonus trait and satisfaction points.
+- Excludes: one independent quest reward; an endless aspiration checklist;
+  selecting every branch ending at once.
+- Parameters: stage graph, required and optional predicates, branch memory,
+  terminal trigger, ending label, trait reward and satisfaction award.
+- Evidence: [The Sims 4 decomposition](../games/s-z/the-sims-4.md).
+- Novelty: not assessed.
+
+## SYS-434 — Escalate patrol detection into faction reinforcement
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a roaming hostile group that detects eligible player activity
+  enters alert state and can issue a faction-specific alarm that introduces
+  additional hostile units into the same continuous encounter.
+- Includes: Helldivers 2 patrol aggro followed by a Terminid breach or Automaton
+  reinforcement call in the scoped Easy mission.
+- Excludes: authored enemies already occupying the objective; a scheduled wave
+  unrelated to detection; an opposing player respawn.
+- Parameters: patrol composition, vision, sound, alert delay, caller, interrupt,
+  reinforcement type, arrival locus and escalation cap.
+- Evidence: [Helldivers 2 decomposition](../games/g-l/helldivers-2.md).
+- Novelty: not assessed.
+
+## SYS-435 — Spend shared reinforcement stock and return a squadmate by drop pod
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a valid teammate-return signal consumes one use from a squad-wide
+  stock and instantiates an eligible dead participant above the addressed area
+  in a steerable descent body that restores live control on landing.
+- Includes: Helldivers 2 Reinforce returning one dead Helldiver in a Hellpod
+  from the squad's twenty-use four-player stock.
+- Excludes: reviving an injured body in place; private per-player lives;
+  automatic round respawn; returning without a living caller.
+- Parameters: dead teammate, caller, shared stock, signal target, drop altitude,
+  steering, pod collision, landing, equipment and depleted-stock recharge.
+- Evidence: [Helldivers 2 decomposition](../games/g-l/helldivers-2.md).
+- Novelty: not assessed.
+
+## SYS-436 — Settle main-objective success separately from extraction assets
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after the required mission predicate resolves, the system retains
+  mission success independently while later departure resolves each controlled
+  survivor and the shared retention of assets carried aboard.
+- Includes: Helldivers 2 mission success after the main objective, with
+  Pelican boarding separately determining extracted Helldivers and samples.
+- Excludes: extraction as the only success predicate; loot retained on death;
+  a score bonus that cannot lose a carried asset.
+- Parameters: main objective, completion time, survivor, departure endpoint,
+  boarded state, carried assets, shared retention and post-objective wipe.
+- Evidence: [Helldivers 2 decomposition](../games/g-l/helldivers-2.md).
+- Novelty: not assessed.
+
+## SYS-437 — Convert successful operation settlement into shared war impact
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the system converts a completed local mission sequence and its
+  operation bonus into an aggregate contribution that changes the selected
+  planet's shared campaign progress for the broader player population.
+- Includes: one successful Helldivers 2 Easy mission completing its one-mission
+  operation and contributing Galactic War impact.
+- Excludes: private experience or currency awards; a campaign ending caused by
+  one run alone; live tactical control of the planet map.
+- Parameters: mission result, operation length, difficulty, operation bonus,
+  planet, liberation or defence state, aggregation and server settlement.
+- Evidence: [Helldivers 2 decomposition](../games/g-l/helldivers-2.md).
+- Novelty: not assessed.
+
+## SYS-438 — Alternate wild preparation with nighttime battle-zone competition
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the persistent world advances between a daytime preparation
+  phase and a night phase that additionally instantiates eligible Battle Zone
+  opponents and competition without ending the current save.
+- Includes: daytime catching, training and shopping followed by nighttime Z-A
+  Royale Battle Zones in Pokémon Legends: Z-A.
+- Excludes: a hard match reset; claiming that Wild Zones cease to exist at
+  night; a cosmetic lighting cycle with no eligibility change.
+- Parameters: phase, transition schedule, preparation activities, Battle Zone,
+  opponent availability and retained world state.
+- Evidence: [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
+- Novelty: not assessed.
+
+## SYS-439 — Convert Trainer victories into a Challenger's Ticket
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: eligible Battle Zone Trainer victories add their declared Ticket
+  Points, and reaching the current rank threshold issues the corresponding
+  Challenger's Ticket.
+- Includes: accumulating 1,000 points at Rank Z for the first ticket in Pokémon
+  Legends: Z-A.
+- Excludes: ordinary battle experience; direct promotion without the ticket;
+  a leaderboard score with no qualification object.
+- Parameters: current rank, eligible victory, point award, threshold, ticket
+  identity and duplicate-award rule.
+- Evidence: [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
+- Novelty: not assessed.
+
+## SYS-440 — Settle a designated promotion battle into the next rank
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: defeating the current ticket's designated opponent and complete
+  party records the declared persistent next rank and unlocks the next authored
+  stage, while a loss leaves promotion unsatisfied.
+- Includes: defeating Zach to move from Rank Z to Rank Y in Pokémon Legends:
+  Z-A.
+- Excludes: earning the ticket itself; an ordinary Trainer victory; account
+  matchmaking rating with no designated opponent.
+- Parameters: ticket, opponent, opposing party, victory predicate, old rank,
+  new rank and unlocked stage.
+- Evidence: [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
+- Novelty: not assessed.
+
+## SYS-441 — Instantiate one fixed-role asymmetric Trial
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a match start assigns one Killer and four Survivor slots, samples
+  one eligible Trial Ground plus its match-local prop layout, and grants each
+  participant the state and authority of the committed role.
+- Includes: standard Dead by Daylight 1v4 Trial initialisation with sampled
+  spawns, Generators, Hooks, Pallets, windows, Exit Gates and concealed Hatch.
+- Excludes: 2v8; a persistent generated survival world; character-specific
+  Killer Power resolution after the Trial begins.
+- Parameters: role counts, map pool, spawn loci, prop budgets, layout rules,
+  loadouts, random seed and network participants.
+- Evidence: [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md).
+- Novelty: not assessed.
+
+## SYS-442 — Accumulate and regress shared Generator work into gate power
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: eligible Survivor repair channels add persistent progress to one
+  Generator with concurrent-worker efficiency, while Killer damage can enter
+  bounded regression; reaching the Trial quota completes remaining Generator
+  work and powers both Exit Gates.
+- Includes: Dead by Daylight's seven standard Generators, five completions,
+  saved partial repair, cooperative efficiency penalty, Killer kick regression
+  and powered gates.
+- Excludes: a fuel-powered world generator; instant switch activation; score
+  accumulation that does not unlock an escape mechanism.
+- Parameters: generator count, quota, capacity, repair rate, worker count,
+  efficiency, saved progress, damage, regression rate and event cap.
+- Evidence: [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md).
+- Novelty: not assessed.
+
+## SYS-443 — Convert Skill Check timing into progress and noise
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the system samples an eligible Skill Check during continuing
+  skilful work, classifies the player's response against graded zones and
+  applies the declared progress bonus, continuation or failure penalty plus
+  any opposing-role notification.
+- Includes: Good, Great and failed Generator or healing Skill Checks in Dead by
+  Daylight, including failed-repair explosion and Loud Noise Notification.
+- Excludes: a telegraphed attack parry; ordinary hit accuracy; a fully authored
+  rhythm chart.
+- Parameters: interaction, trigger chance, zone, response time, grade, progress
+  delta, pause and notification recipient.
+- Evidence: [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md).
+- Novelty: not assessed.
+
+## SYS-444 — Advance and restore Survivor health states
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: compatible damage advances one Survivor through Healthy, Injured
+  and Dying states, while completed recovery or healing restores only the
+  eligible next state and Dying bleed-out can reach terminal death.
+- Includes: ordinary Dead by Daylight Survivor damage, altruistic healing,
+  Dying recovery completion and cumulative bleed-out.
+- Excludes: Hook-stage advancement; layered armour or shield depletion;
+  checkpoint respawn; a persistent body-part wound simulation.
+- Parameters: health state, damage class, invulnerability window, healing
+  charges, recovery cap, bleed-out duration and terminal threshold.
+- Evidence: [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md).
+- Novelty: not assessed.
+
+## SYS-445 — Emit and decay role-exclusive Survivor tracks
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: eligible Survivor movement or injury emits transient spatial
+  evidence along the recent route that is hidden from ordinary Survivors but
+  available to the Killer until it decays.
+- Includes: running-created Scratch Marks and injury-created Pools of Blood in
+  Dead by Daylight's blank-loadout Trial.
+- Excludes: audible footsteps visible to both roles; exact aura revelation;
+  an NPC automatically changing its route after sight.
+- Parameters: source state, movement threshold, spawn surface, visibility role,
+  brightness, blood interval, duration and decay.
+- Evidence: [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md).
+- Novelty: not assessed.
+
+## SYS-446 — Resolve asymmetric vault and Pallet chase geometry
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a window or Pallet interaction resolves role, approach speed,
+  collision and current obstacle state into a slow or rushed vault, a Pallet
+  block or stun, or Killer destruction that permanently reopens the route.
+- Includes: ordinary Survivor window/Pallet vaults, Killer window vault,
+  Survivor Pallet drop, Killer stun and Killer destruction in Dead by Daylight.
+- Excludes: character-specific Powers that vault or break differently;
+  arbitrary destructible buildings; ordinary unobstructed movement.
+- Parameters: role, obstacle, state, approach vector, vault class, duration,
+  noise, impact volume, stun and break time.
+- Evidence: [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md).
+- Novelty: not assessed.
+
+## SYS-447 — Advance carry and Hook state into rescue or sacrifice
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a Killer pickup converts an eligible Dying Survivor into carried
+  state, a completed Hook placement begins or advances the persistent Hook
+  Stage, and elapsed stage progress or another Hook reaches sacrifice unless a
+  teammate completes the eligible rescue first.
+- Includes: Dead by Daylight pickup, carry, Hook Stages, teammate unhook and
+  terminal sacrifice in the scoped Trial.
+- Excludes: self-unhook exceptions; anti-camp mechanics; campaign imprisonment;
+  an immediate revive from ordinary downed state.
+- Parameters: pickup eligibility, carry, wiggle exception, Hook reach, current
+  stage, stage duration, rescue, returned health and sacrifice trigger.
+- Evidence: [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md).
+- Novelty: not assessed.
+
+## SYS-448 — Resolve gates, Hatch and Collapse into terminal Trial state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: powered Exit Gate work can open a fixed escape boundary; one
+  remaining Survivor exposes an alternate Hatch; opening a gate or closing
+  that Hatch starts a bounded Collapse whose expiry sacrifices every remaining
+  Survivor, while crossing a legal boundary records individual escape.
+- Includes: Dead by Daylight Exit Gates, last-Survivor Hatch, Killer Hatch
+  closure, Endgame Collapse and independent Survivor escape/death settlement.
+- Excludes: Key reopening, Perk exceptions, post-match score and account
+  progression; extraction with retained inventory stakes.
+- Parameters: gate power, switch progress, gate state, living Survivor count,
+  Hatch state, Collapse trigger, timer rate, incapacitated slowdown and exit.
+- Evidence: [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md).
+- Novelty: not assessed.
+
+## SYS-449 — Instantiate an authored campaign area with sampled local contents
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: entering one authored campaign-area identity creates a traversable
+  local instance by sampling compatible layout, encounter and interactable
+  placements while preserving its declared exits and quest gates.
+- Includes: Path of Exile 2 Act 1 area instances.
+- Excludes: a fixed authored room; a match-only arena; generating a persistent
+  editable survival world.
+- Parameters: area identity and level, layout grammar, exits, checkpoints,
+  encounter tables, seed, reset and persistence.
+- Evidence: [Path of Exile 2 decomposition](../games/m-r/path-of-exile-2.md).
+- Novelty: not assessed.
+
+## SYS-450 — Sample eligible item bases, rarity and affixes from a source
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a defeated source or opened container samples eligible item
+  bases and then applies allowed rarity, item level, socket and affix outcomes
+  before placing the resulting items in the world.
+- Includes: Path of Exile 2 campaign equipment and currency drops.
+- Excludes: deterministic quest rewards; player-authored currency crafting;
+  post-match score rewards.
+- Parameters: source, area/item level, base table, rarity, affix pool and count,
+  sockets, quantity and ground placement.
+- Evidence: [Path of Exile 2 decomposition](../games/m-r/path-of-exile-2.md).
+- Novelty: not assessed.
+
+## SYS-451 — Compose an active skill from its Gem and socketed Supports
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an active Skill Gem grants its declared action and every legal
+  socketed Support modifies that action's cost, damage, timing, targets or
+  secondary behaviour as one composed usable skill.
+- Includes: Path of Exile 2 active Skill and Support Gem composition.
+- Excludes: passive-tree statistics with no active skill; equipment affixes;
+  an independently triggered second hotbar action.
+- Parameters: active Gem, level and quality, sockets, Supports, tags, cost,
+  timing and composed effect.
+- Evidence: [Path of Exile 2 decomposition](../games/m-r/path-of-exile-2.md).
+- Novelty: not assessed.
+
+## SYS-452 — Transform an item under one crafting currency rule
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: applying an eligible crafting currency consumes it and resolves
+  the currency's declared operation against the target item's current rarity,
+  affix and socket state, producing a legal new item state.
+- Includes: ordinary Path of Exile 2 currency crafting.
+- Excludes: random loot generation before pickup; vendor exchange; external
+  player trade.
+- Parameters: currency, target, precondition, protected state, mutation pool,
+  deterministic or sampled result and corruption.
+- Evidence: [Path of Exile 2 decomposition](../games/m-r/path-of-exile-2.md).
+- Novelty: not assessed.
+
+## SYS-453 — Derive usable combat state from equipment, attributes and passives
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the system combines equipped item properties, current attributes,
+  allocated passives and Gem requirements to derive legal skills and current
+  offensive, defensive and resource statistics.
+- Includes: Path of Exile 2 requirement-sensitive Warrior builds.
+- Excludes: temporary attack resolution; one isolated equipment comparison;
+  cosmetic loadout changes.
+- Parameters: equipment, attributes, passive modifiers, Gems, requirements,
+  derived statistics and disabled effects.
+- Evidence: [Path of Exile 2 decomposition](../games/m-r/path-of-exile-2.md).
+- Novelty: not assessed.
+
+## SYS-454 — Consume and replenish flask charges
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: each Flask activation removes its use cost from a persistent
+  charge pool, while eligible monster deaths, wells or checkpoint activation
+  add charges up to capacity without replacing the equipped flask.
+- Includes: Path of Exile 2 campaign Life and Mana Flask economy.
+- Excludes: single-use inventory potions; unconditional cooldown refresh;
+  healing that consumes Mana instead of flask charges.
+- Parameters: flask, capacity, use cost, recovery effect, monster gain, well or
+  checkpoint refill and modifiers.
+- Evidence: [Path of Exile 2 decomposition](../games/m-r/path-of-exile-2.md).
+- Novelty: not assessed.
+
+## SYS-455 — Reset a campaign area and boss after Softcore death
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: softcore campaign death returns the character to town or an
+  activated checkpoint while rebuilding the current area's ordinary monsters,
+  removing its ground items and restoring the current boss to its initial state.
+- Includes: Path of Exile 2 campaign death before the Act 1 boundary.
+- Excludes: Hardcore character transfer; a recoverable currency marker; an
+  unchanged world with only player health restored.
+- Parameters: respawn choice, checkpoint, retained character state, area seed,
+  monsters, ground items, boss state and experience penalty.
+- Evidence: [Path of Exile 2 decomposition](../games/m-r/path-of-exile-2.md).
+- Novelty: not assessed.
+
+## SYS-456 — Resolve directional dodge start against attack overlap
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: starting a directional dodge moves the character, cancels
+  compatible current actions and ignores eligible attack overlap during its
+  protected opening interval, while later overlap and blocking geometry still
+  resolve normally.
+- Includes: Path of Exile 2 dodge roll and its hold-to-sprint continuation.
+- Excludes: a universal invulnerable teleport; passive evasion rolls; an
+  authored quick-time event.
+- Parameters: direction, distance, opening protection, collision, cancellation,
+  recovery, repeated hold and sprint transition.
+- Evidence: [Path of Exile 2 decomposition](../games/m-r/path-of-exile-2.md).
+- Novelty: not assessed.
+
+## SYS-457 — Resolve one live football through contact and free motion
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the system continuously resolves one shared ball through player
+  contact, momentum, spin, deflection, collision and free motion without
+  replacing it by a turn-owned token.
+- Includes: dribbles, ricochets, loose balls, posts, blocks and deflections in
+  an EA SPORTS FC 26 Classic Match.
+- Excludes: inventory ownership; a projectile destroyed on impact; abstract
+  possession without a spatial ball.
+- Parameters: contact point, velocity, spin, friction, restitution, surface,
+  player animation and assistance.
+- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
+- Novelty: first isolated for `GAME-0163`.
+
+## SYS-458 — Resolve assisted football targeting and contact
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the system combines the player's directional, power and action
+  choice with eligible receivers, goal geometry, body pose and attributes to
+  select a contact animation and resulting ball trajectory.
+- Includes: default-assisted passes, crosses and shots in EA SPORTS FC 26.
+- Excludes: a fully authored cinematic result; automatic team positioning;
+  the referee's legality decision.
+- Parameters: assistance setting, input vector, power, eligible targets,
+  pressure, body orientation, attributes and contact animation.
+- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
+- Novelty: first isolated for `GAME-0163`.
+
+## SYS-459 — Coordinate off-ball football roles under team AI
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the system continuously positions and moves non-controlled
+  teammates and opponents according to formation, role, possession, ball
+  location, marking and available space.
+- Includes: support runs, defensive shape, midfield positioning, marking and
+  CPU-team decisions in EA SPORTS FC 26 Authentic Gameplay.
+- Excludes: the currently controlled player's direct movement; a scripted set
+  of fixed routes; account-level squad construction.
+- Parameters: formation, role, tactical instruction, possession, pressure,
+  score state, fatigue and difficulty.
+- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
+- Novelty: first isolated for `GAME-0163`.
+
+## SYS-460 — Adjudicate football offences and select the restart
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the system evaluates ball boundaries, last touch, offside and
+  player contact, stops or continues play, applies any sanction and places the
+  ball into the corresponding restart state.
+- Includes: throw-ins, goal kicks, corners, kick-offs, free kicks, advantage,
+  cautions, dismissals and penalties in the scoped match.
+- Excludes: manual tactical menus; post-match disciplinary progression; a
+  shoot-out after a tied knockout fixture.
+- Parameters: boundary crossed, last touch, attacker positions, contact,
+  advantage, sanction, restart point and defending distance.
+- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
+- Novelty: first isolated for `GAME-0163`.
+
+## SYS-461 — Resolve autonomous goalkeeper intervention
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an eligible goalkeeper autonomously positions, catches, parries
+  or blocks the live ball according to goal threat, handling privileges and
+  assistance settings while remaining a field participant.
+- Includes: assisted saves and claims by either goalkeeper in EA SPORTS FC 26.
+- Excludes: an outfield player's commanded tackle; a penalty shoot-out minigame;
+  guaranteed prevention of a valid goal.
+- Parameters: shot trajectory, positioning, reaction, reach, handling area,
+  assistance and goalkeeper attributes.
+- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
+- Novelty: first isolated for `GAME-0163`.
+
+## SYS-462 — Register a valid goal and update the match score
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when the whole legal ball crosses the defended goal line between
+  the posts and under the crossbar without an overriding offence, the system
+  increments the scoring team and resets play to the opponent's kick-off.
+- Includes: ordinary goals and own goals in the scoped EA SPORTS FC 26 match.
+- Excludes: shots that touch the line without wholly crossing it; offside or
+  foul-invalidated finishes; shoot-out tallies.
+- Parameters: line-crossing geometry, scoring team, prior offence, score and
+  kick-off side.
+- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
+- Novelty: first isolated for `GAME-0163`.
+
+## SYS-463 — Advance football halves and settle regulation result
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the match clock advances during live play, permits bounded added
+  time, transitions through half-time and ends after the second half by
+  comparing the regulation score while allowing a draw.
+- Includes: two default three-minute halves, half-time side continuation and a
+  win, loss or draw result in EA SPORTS FC 26 Kick Off Classic Match.
+- Excludes: extra time, penalty shoot-outs, tournament tables and career-season
+  progression.
+- Parameters: half length, clock rate, stoppage allowance, score and draw policy.
+- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
+- Novelty: first isolated for `GAME-0163`.
+
+## SYS-464 — Generate a seed-determined floor graph from authored rooms
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: at floor entry, the system uses the run seed and current depth to
+  assemble a connected graph from compatible authored room layouts, assign its
+  mandatory and eligible special-room roles and populate concealed contents.
+- Includes: Basement, Caves and Depths floor generation in base The Binding of
+  Isaac: Rebirth.
+- Excludes: a disclosed branching node map; a persistent open world; one fixed
+  authored room sequence.
+- Parameters: seed, floor depth, room count, dead ends, layout pool, room role,
+  difficulty, adjacency and concealed contents.
+- Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
+- Novelty: first isolated for `GAME-0164`; earlier generators do not create a
+  locally explored spatial graph from authored combat-room layouts and roles.
+
+## SYS-465 — Settle combat-room clearance and sample its award
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when the final required hostile in the current combat room is
+  defeated, the system changes the room to cleared, opens its ordinary exits
+  and samples any eligible room-clear pickup or charge award.
+- Includes: ordinary hostile-room settlement in base The Binding of Isaac: Rebirth.
+- Excludes: defeating only one member of a remaining wave; boss-floor descent;
+  a score-only kill reward that leaves exits locked.
+- Parameters: required hostile set, reinforcement closure, clear trigger, door
+  state, award eligibility, pool and active-item charge gain.
+- Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
+- Novelty: first isolated for `GAME-0164`.
+
+## SYS-505 — Instantiate an accepted employer-supplied vehicle job
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: accepting one eligible contract creates its active job state and
+  places the player in the declared employer-provided vehicle with cargo already
+  loaded, retaining its destination, deadline and advertised income until the
+  job settles or is abandoned.
+- Includes: the scoped Euro Truck Simulator 2 Quick Job.
+- Excludes: spawning a free-roam vehicle with no contract; loading cargo into an
+  owned truck; dispatching an autonomous employee.
+- Parameters: offer, truck, trailer, cargo, origin, destination, deadline,
+  income, active-job slot and abandonment result.
+- Evidence: [Euro Truck Simulator 2 decomposition](../games/a-f/euro-truck-simulator-2.md).
+- Novelty: first isolated for `GAME-0169`; prior mission instantiation does not
+  bind a supplied loaded commercial vehicle to one direct paid delivery.
+
+## SYS-506 — Resolve articulated trailer tracking and cargo damage
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the system constrains a coupled trailer through its hitch behind
+  the directly operated tractor, lets cargo mass affect the moving combination
+  and updates separate trailer and cargo damage from eligible contacts.
+- Includes: Euro Truck Simulator 2 single-trailer hauling, reversing and depot
+  parking in the scoped Quick Job.
+- Excludes: one rigid road vehicle; an autonomously routed cargo carrier; a
+  trailer represented only as cosmetic geometry.
+- Parameters: tractor, hitch, trailer, articulation angle, cargo mass, wheel
+  contact, collision, trailer damage, cargo damage and detachment.
+- Evidence: [Euro Truck Simulator 2 decomposition](../games/a-f/euro-truck-simulator-2.md).
+- Novelty: first isolated for `GAME-0169`; generic occupied-vehicle damage does
+  not preserve a separately damaged articulated load across the haul.
+
+## SYS-507 — Detect regulated-road violations and debit fines
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while the vehicle remains physically controllable, the system
+  compares observed movement with the current road direction, signal, posted
+  limit and driver-hours rule and immediately debits the configured fine for a
+  detected eligible violation.
+- Includes: Euro Truck Simulator 2 speeding, red-light, wrong-way and exceeded
+  mandatory-break offences under enabled traffic offences.
+- Excludes: an impassable road barrier; police wanted pursuit; a post-match
+  referee sanction; collision repair cost.
+- Parameters: jurisdiction, offence, observation, tolerance, signal, limit,
+  driving hours, fine, notification and account balance.
+- Evidence: [Euro Truck Simulator 2 decomposition](../games/a-f/euro-truck-simulator-2.md).
+- Novelty: first isolated for `GAME-0169`; earlier crime systems escalate
+  pursuit, whereas this rule leaves the delivery live and applies a tariff.
+
+## SYS-508 — Advance driver rest and mandatory-break clocks
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: driving depletes a comfort-like Rest State and a separate legal
+  driving allowance; exhausted Rest State produces warnings and microsleep
+  pressure, while a sufficiently long consecutive rest restores state and
+  resets the mandatory-break allowance.
+- Includes: Euro Truck Simulator 2 update 1.60 Rest State and ten-hour driving
+  limit cleared by nine consecutive rest hours.
+- Excludes: one undifferentiated survival-fatigue meter; fixed checkpoint rest;
+  a timer that fails immediately without a recoverable rest action.
+- Parameters: rest state, depletion, exhaustion, microsleep, driving allowance,
+  warning threshold, violation, rest rate, consecutive minimum and reset.
+- Evidence: [Euro Truck Simulator 2 decomposition](../games/a-f/euro-truck-simulator-2.md).
+- Novelty: first isolated for `GAME-0169`; it preserves separate physiological
+  and legal clocks whose recovery rates and terminal consequences differ.
+
+## SYS-509 — Settle delivery time, damage and parking into job rewards
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: after a valid cargo drop-off, the system compares completion time
+  and retained vehicle/cargo condition with the job terms, applies eligible
+  adjustments to advertised income and awards experience including the selected
+  parking treatment before closing the active contract.
+- Includes: the Euro Truck Simulator 2 delivery-results settlement for the
+  scoped Quick Job.
+- Excludes: a traffic fine applied during travel; recurring company income;
+  merely arriving near the destination without validating delivery.
+- Parameters: advertised income, completion time, deadline, truck damage,
+  trailer damage, cargo damage, parking difficulty, adjustments, experience,
+  evaluation and contract closure.
+- Evidence: [Euro Truck Simulator 2 decomposition](../games/a-f/euro-truck-simulator-2.md).
+- Novelty: first isolated for `GAME-0169`; earlier settlements do not price one
+  directly driven articulated haul through time, retained cargo and parking.
+
+## SYS-510 — Recalculate a waypoint-constrained road route
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the navigation system calculates a traversable road route from
+  the controlled vehicle through the ordered active waypoints to the job
+  destination and updates route geometry, ETA, travel time and distance when
+  position or waypoint state changes.
+- Includes: Euro Truck Simulator 2 map route customisation and update 1.60 GPS.
+- Excludes: automatically steering the vehicle; authoring the road network;
+  showing one fixed compass bearing without a road path.
+- Parameters: road graph, vehicle position, destination, waypoint order, route
+  preference, recalculation, ETA, travel time and distance.
+- Evidence: [Euro Truck Simulator 2 decomposition](../games/a-f/euro-truck-simulator-2.md).
+- Novelty: first isolated for `GAME-0169`; earlier GPS information exposes a
+  route but does not isolate multi-waypoint recalculation and delivery ETA.
+
+## SYS-511 — Cycle an anomaly through trigger and recovery
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an eligible nearby body or thrown probe activates the anomaly's
+  typed effect, after which the hazard may remain discharged briefly before
+  recovering its trigger state.
+- Includes: bolt-probed anomalous hazards in the S.T.A.L.K.E.R. 2 opening route.
+- Excludes: permanent environmental destruction; ordinary projectile damage;
+  an artifact's equipped passive effect.
+- Parameters: anomaly class, trigger volume, activator, effect, damage or force,
+  discharge duration and recovery.
+- Evidence: [S.T.A.L.K.E.R. 2 decomposition](../games/s-z/stalker-2-heart-of-chornobyl.md).
+- Novelty: first isolated for `GAME-0170`; it creates a repeatable temporary
+  safe interval in a persistent field hazard.
+
+## SYS-512 — Manifest an artifact from detector proximity
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an artifact remains visually absent while the detector converts
+  decreasing distance into a stronger signal, then materialises the artifact
+  once the player reaches its critical range.
+- Includes: Echo Detector searches in the prologue and `Piece of Cake` cave.
+- Excludes: revealing ordinary loot labels; generating a future random reward;
+  equipping an artifact after collection.
+- Parameters: artifact, field, detector model, distance, signal cadence,
+  critical range, manifestation and reachability.
+- Evidence: [S.T.A.L.K.E.R. 2 decomposition](../games/s-z/stalker-2-heart-of-chornobyl.md).
+- Novelty: first isolated for `GAME-0170`; prior locators disclose bearings but
+  do not turn proximity into the hidden object's in-world manifestation.
+
+## SYS-513 — Integrate survival statuses into live capacity
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: damage, bleeding, radiation, hunger, stamina and carried weight
+  update continuously and modify the avatar's movement, recovery or survival
+  until the responsible state is treated, reduced or becomes lethal.
+- Includes: Skif's scoped Lesser Zone health, bleed, radiation, hunger, stamina
+  and overload loop.
+- Excludes: a decorative status icon; long-term character attributes; vehicle
+  fatigue or damage.
+- Parameters: health, bleeding, radiation, hunger, stamina, load, thresholds,
+  treatment, recovery and lethal state.
+- Evidence: [S.T.A.L.K.E.R. 2 decomposition](../games/s-z/stalker-2-heart-of-chornobyl.md).
+- Novelty: first isolated for `GAME-0170`; existing survival systems cover
+  subsets, while this boundary couples radiation and carried overload to the
+  same live first-person action capacity.
+
+## SYS-514 — Compose equipped artifact effects and radiation
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: every artifact placed in an eligible armour container contributes
+  its declared beneficial effects and radiation burden to the current body
+  state while it remains equipped.
+- Includes: artifacts found and optionally equipped during the scoped opening.
+- Excludes: selling an artifact; detector manifestation; armour protection that
+  does not come from an artifact slot.
+- Parameters: artifact, container slot, positive effects, radiation, protection,
+  stacking order and unequip transition.
+- Evidence: [S.T.A.L.K.E.R. 2 decomposition](../games/s-z/stalker-2-heart-of-chornobyl.md).
+- Novelty: first isolated for `GAME-0170`; it binds an equippable benefit and a
+  continuous harmful output inside one slot-limited object.
+
+## SYS-500 — Assemble a mission route from authored tile-set pieces
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: at mission creation, connect reusable authored rooms into one
+  traversable route containing an entry, the required objective region and a
+  legal extraction region, with optional branches and dead ends.
+- Includes: Earth and Grineer mission interiors traversed during Awakening and
+  Vor's Prize.
+- Excludes: one fixed authored level; an overworld road network; player-built
+  room placement.
+- Parameters: tile set, seed, entry, objective tiles, extraction tile, doors,
+  branches, dead ends and traversal legality.
+- Evidence: [Warframe decomposition](../games/s-z/warframe.md).
+- Novelty: first isolated for `GAME-0168`; existing procedural maps do not bind
+  reusable action rooms to Warframe's entry-objective-extraction mission route.
+
+## SYS-501 — Apply equipped Mods through capacity and polarity
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: recompute an equipment item's live statistics and effects from
+  every installed compatible Mod whose rank-adjusted drain fits capacity, with
+  slot polarity modifying that drain.
+- Includes: starter Warframe and weapon Mod configuration during Vor's Prize.
+- Excludes: the player's placement action; equipment rank gain; cosmetic
+  attachments; an effect granted without an installed Mod.
+- Parameters: base item, rank, capacity, slot polarity, Mod polarity, drain,
+  Mod rank, effect and resulting statistics.
+- Evidence: [Warframe decomposition](../games/s-z/warframe.md).
+- Novelty: first isolated for `GAME-0168`; earlier build systems do not couple
+  socket polarity to a shared per-item modifier budget.
+
+## SYS-502 — Distribute Affinity into separate equipment ranks
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: eligible mission actions award Affinity to the used Warframe and
+  weapons under the current distribution rule, and each recipient converts its
+  accumulated share into its own rank and Mod capacity.
+- Includes: starter Warframe, primary, secondary and melee progression during
+  Awakening and Vor's Prize.
+- Excludes: account Mastery Rank tests; Mod fusion; mission reward inventory;
+  one undifferentiated character level.
+- Parameters: Affinity source, eligible recipients, distribution, prior
+  Affinity, threshold, rank, capacity and rank cap.
+- Evidence: [Warframe decomposition](../games/s-z/warframe.md).
+- Novelty: first isolated for `GAME-0168`; earlier experience genes advance a
+  character rather than several equipped progression tracks in parallel.
+
+## SYS-503 — Settle extraction into retained mission progress
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: valid extraction closes the current mission and commits eligible
+  pickups, rewards, Affinity and rank changes to persistent account and Arsenal
+  state before the Orbiter view resumes.
+- Includes: successfully extracted Vor's Prize missions and their retained
+  resources, Mods and equipment progress.
+- Excludes: temporary ammunition or Energy; aborting before settlement;
+  retaining the generated tile route itself.
+- Parameters: objective state, extraction state, pickups, rewards, Affinity,
+  ranks, inventory capacity, prior account state and next Orbiter state.
+- Evidence: [Warframe decomposition](../games/s-z/warframe.md).
+- Novelty: first isolated for `GAME-0168`; earlier extraction systems either
+  forfeit carried gear or settle one run rather than persistent equipment growth.
+
+## SYS-504 — Restore Orbiter segments through the opening quest chain
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: completing each mandatory opening quest step restores its
+  declared Orbiter segment or function and unlocks the next legal Vor's Prize
+  mission until Captain Vor is defeated and the quest closes.
+- Includes: Arsenal, Foundry, Mod Station and Navigation restoration in the
+  official opening route.
+- Excludes: later Junctions and quests; optional market purchases; arbitrary
+  access to every Orbiter function at the first mission.
+- Parameters: quest step, completion, segment, installed state, newly available
+  function, next mission and terminal boss state.
+- Evidence: [Warframe decomposition](../games/s-z/warframe.md).
+- Novelty: first isolated for `GAME-0168`; it binds tutorial mission settlement
+  to progressive restoration of the player's persistent operations hub.
+
+## SYS-471 — Integrate persistent horse traversal, condition and saddle cargo
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while the current horse is called or mounted, the system resolves
+  gait, terrain, collision, health, stamina, fear and rider input while keeping
+  saddle-borne weapons, outfits and carcass cargo attached to that horse.
+- Includes: Arthur's current saddled horse during the scoped Red Dead Redemption
+  2 Chapter 2 route.
+- Excludes: motor-vehicle physics; target autopilot; a mount with no persistent
+  care or cargo state; stable menus outside the active route.
+- Parameters: horse, saddle, gait, acceleration, terrain, jump, collision,
+  health, stamina, fear, cargo and separation distance.
+- Evidence: [Red Dead Redemption 2 decomposition](../games/m-r/red-dead-redemption-2.md).
+- Novelty: first isolated for `GAME-0165`; earlier mount behaviours omit the
+  jointly retained animal condition and saddle cargo boundary.
+
+## SYS-472 — Convert horse care and shared travel into bonding levels
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: eligible riding, feeding, grooming, calming and leading add bond
+  progress to the current owned horse, and reached levels improve declared
+  handling, resource and response capabilities for that horse.
+- Includes: Chapter 2 horse bonding in Red Dead Redemption 2 Story Mode.
+- Excludes: ordinary vehicle skill; cosmetic affection with no mechanical
+  state; account-wide mount unlocks.
+- Parameters: horse, care event, bond progress, level, handling, health,
+  stamina, whistle range and unlocked manoeuvre.
+- Evidence: [Red Dead Redemption 2 decomposition](../games/m-r/red-dead-redemption-2.md).
+- Novelty: first isolated for `GAME-0165`.
+
+## SYS-473 — Couple character and horse cores to recoverable outer meters
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: health, stamina and Dead Eye, plus horse health and stamina, each
+  use a recoverable outer meter whose refill and performance depend on its
+  slower-draining core; exertion, damage, time, food, rest and tonics update the
+  paired states.
+- Includes: Arthur and horse core-and-bar resources during Chapter 2.
+- Excludes: one ordinary health bar; a temporary armour layer; hunger with no
+  linked action meter.
+- Parameters: resource, core value, outer value, drain, refill rate, exertion,
+  damage, consumable, rest and depleted-core penalty.
+- Evidence: [Red Dead Redemption 2 decomposition](../games/m-r/red-dead-redemption-2.md).
+- Novelty: first isolated for `GAME-0165`; no earlier active system couples five
+  visible core reservoirs to their corresponding action meters.
+
+## SYS-474 — Degrade firearm condition and scale its live performance
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: firing and eligible environmental exposure reduce an owned
+  firearm's retained condition, which lowers declared weapon performance until
+  cleaning restores the condition state.
+- Includes: soot, water, mud and cleaning effects on scoped Chapter 2 firearms.
+- Excludes: consuming magazine ammunition; permanent item destruction at zero
+  durability; cosmetic wear with no mechanical consequence.
+- Parameters: weapon, use, environment, condition loss, damage, range, fire
+  rate, reload or accuracy modifier and cleaning restoration.
+- Evidence: [Red Dead Redemption 2 decomposition](../games/m-r/red-dead-redemption-2.md).
+- Novelty: first isolated for `GAME-0165`; existing durability genes do not
+  represent degradable firearm performance plus carried field oil.
+
+## SYS-475 — Resolve a witnessed offence before its law report
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an eligible observed offence creates one or more live witnesses
+  who attempt to reach reporting state; escape, intimidation, calming or
+  further violence can prevent, redirect or multiply the report before law
+  enforcement receives it.
+- Includes: the Story Mode witness phase in scoped Red Dead Redemption 2.
+- Excludes: an immediately scripted wanted level; police search after a report;
+  an invisible reputation penalty with no reporting agent.
+- Parameters: offence, observer, identification, route, report delay, response,
+  success chance, additional witnesses and transmitted crime.
+- Evidence: [Red Dead Redemption 2 decomposition](../games/m-r/red-dead-redemption-2.md).
+- Novelty: first isolated for `GAME-0165`; `SYS-366` does not model a
+  preventable reporting agent before escalation.
+
+## SYS-476 — Preserve and settle jurisdictional bounty after active pursuit
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: once identified, eligible crimes add money to a
+  jurisdiction-specific bounty that persists after immediate wanted search
+  clears, changes later pressure and is removed by payment or surrender.
+- Includes: New Hanover and West Elizabeth bounty state reached during the
+  scoped Chapter 2 route.
+- Excludes: the active search timer itself; a one-mission scripted price with
+  no persistent jurisdiction; multiplayer wanted removal.
+- Parameters: jurisdiction, identity, offence, added value, pursuit state,
+  hunter pressure, payment, arrest, gang rescue and cleared amount.
+- Evidence: [Red Dead Redemption 2 decomposition](../games/m-r/red-dead-redemption-2.md).
+- Novelty: first isolated for `GAME-0165`; earlier wanted systems retain no
+  separately payable regional debt after active search.
+
+## SYS-477 — Aggregate contextual conduct into persistent honour consequences
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: eligible helpful, restrained, exploitative or violent actions
+  change one persistent honour value whose current band modifies disclosed
+  prices, ambient responses and authored presentation without replacing wanted.
+- Includes: Chapter 2 greetings, mercy, camp donations, theft and violence in
+  Red Dead Redemption 2 Story Mode.
+- Excludes: immediate witness reporting; one fixed narrative choice; hidden
+  affinity with a single companion.
+- Parameters: conduct event, signed change, cap, band, price modifier, ambient
+  response and authored presentation consequence.
+- Evidence: [Red Dead Redemption 2 decomposition](../games/m-r/red-dead-redemption-2.md).
+- Novelty: first isolated for `GAME-0165`.
+
+## SYS-478 — Convert shared camp value into supplies and ledger upgrades
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: accepted donations increase shared camp value or provisions;
+  ledger spending consumes shared funds to restock medicine, ammunition or food
+  and to persist eligible camp upgrades and services.
+- Includes: the unlocked Horseshoe Overlook donation box, supply wagons and
+  ledger during Chapter 2.
+- Excludes: Arthur's personal shop purchase; flavour-only camp dialogue; Red
+  Dead Online camp businesses.
+- Parameters: donation class, fund balance, supply category, stock level,
+  upgrade, price, prerequisite and persistent camp effect.
+- Evidence: [Red Dead Redemption 2 decomposition](../games/m-r/red-dead-redemption-2.md).
+- Novelty: first isolated for `GAME-0165`; earlier pooled-resource genes do not
+  join voluntary personal transfer to a shared authored camp service ledger.
+
+## SYS-479 — Slow live action and resolve Dead Eye target marks
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: activating available Dead Eye slows surrounding live action,
+  allows the current Chapter 2 targeting tier to place eligible marks, then
+  resolves committed shots against those marks while spending the Dead Eye bar.
+- Includes: automatic early marking and the manual-mark upgrade unlocked during
+  `Pouring Forth Oil IV` in the scoped route.
+- Excludes: pausing for menu planning; ordinary free aim; a turn-based attack
+  queue whose enemies wait by rule.
+- Parameters: tier, time scale, meter drain, target, mark order, weapon,
+  ammunition, exit condition and shot resolution.
+- Evidence: [Red Dead Redemption 2 decomposition](../games/m-r/red-dead-redemption-2.md).
+- Novelty: first isolated for `GAME-0165`.
+
+## SYS-480 — Settle an animal kill into a harvestable carcass state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: animal species, prior quality, weapon and hit outcome resolve a
+  defeated animal into a carcass whose remaining meat, pelt and whole-carcass
+  yields can be harvested, carried, sold or donated.
+- Includes: rabbit skinning and ordinary Chapter 2 hunting around Horseshoe
+  Overlook in Red Dead Redemption 2 Story Mode.
+- Excludes: a monster quest's fixed reward screen; defeating a human hostile;
+  cosmetic wildlife with no recoverable yield.
+- Parameters: species, quality, weapon, hit region, damage, carcass size,
+  spoilage horizon, meat, pelt and carry state.
+- Evidence: [Red Dead Redemption 2 decomposition](../games/m-r/red-dead-redemption-2.md).
+- Novelty: first isolated for `GAME-0165`; earlier carving genes do not preserve
+  a portable whole carcass with weapon-sensitive yield quality.
+
+## SYS-481 — Convert a Settler into a founded city and initial territory
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a legal Found City command consumes the Settler, creates a City
+  Center and ownership state on that hex, claims the declared initial territory
+  and applies eligible civilization/leader founding effects.
+- Includes: founding Rome under Trajan in the scoped Civilization VI setup.
+- Excludes: capturing an existing city; placing a district; expansion loyalty.
+- Parameters: Settler, hex, owner, city name, initial tiles, population,
+  buildings and civilization effects.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`.
+
+## SYS-482 — Aggregate worked-tile and specialist yields into city totals
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: each worked tile, specialist, building and applicable modifier
+  contributes its declared Food, Production, Gold, Science, Culture or Faith to
+  the owning city's next settlement and empire totals.
+- Includes: farm Food, mine Production and Campus Science in Civilization VI.
+- Excludes: hidden rival yields; one immediate Gold purchase; combat damage.
+- Parameters: source, yield type, base value, modifier, city and settlement turn.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`; it joins spatial citizen assignment
+  to the multi-currency 4X settlement ledger.
+
+## SYS-483 — Resolve city growth through food, Housing and Amenities
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: net Food accumulates toward population growth while current
+  Housing and Amenities apply disclosed growth and yield modifiers, starvation
+  or discontent consequences to that city.
+- Includes: base-game Roman city growth in Civilization VI.
+- Excludes: expansion Loyalty; a fixed scripted population increase; unit health.
+- Parameters: food income, consumption, stored food, population, Housing,
+  Amenities, thresholds, modifiers and starvation.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`.
+
+## SYS-484 — Accumulate city production and complete its current target
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a city's net Production advances its single selected target each
+  settlement; reaching cost creates the unit, building, district, wonder or
+  project result and returns the city to a new production choice.
+- Includes: completing a Campus, Settler or Mars project in Civilization VI.
+- Excludes: immediate Gold purchase; builder improvement charges; research.
+- Parameters: city, target, cost, stored production, modifiers, completion and overflow.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`.
+
+## SYS-485 — Expand city borders through accumulated culture
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: local Culture progress periodically claims an eligible adjacent
+  hex for a city, expanding owned work and placement space without moving the
+  City Center.
+- Includes: ordinary base-game border growth in Civilization VI.
+- Excludes: purchasing a specific tile with Gold; capturing territory in war;
+  expansion Loyalty pressure.
+- Parameters: city, culture, threshold, candidate hexes, selection and ownership.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`.
+
+## SYS-486 — Advance parallel Technology and Civic trees with boosts
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: empire Science and Culture separately advance their active
+  prerequisite-valid targets; a satisfied Eureka or Inspiration adds its
+  declared progress, and completion unlocks dependent content.
+- Includes: the base-game Technology and Civic trees in Civilization VI.
+- Excludes: unit experience trees; random research discovery; future-tech loops.
+- Parameters: tree, target, cost, income, boost trigger, boost value,
+  prerequisites, completion and unlocks.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`; prior research genes do not pair two
+  concurrent currencies with action-triggered partial completion.
+
+## SYS-487 — Resolve district geometry, adjacency and building yields
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a completed district reserves its separate city hex, calculates
+  bonuses from neighbouring terrain and structures, and hosts only its eligible
+  buildings and specialists for later yields.
+- Includes: a Campus beside mountains and an Industrial Zone beside mines.
+- Excludes: the City Center sharing the same hex; arbitrary building placement;
+  one cosmetic neighbourhood model.
+- Parameters: district, city, hex, neighbours, adjacency rules, buildings,
+  specialists and yields.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`.
+
+## SYS-488 — Convert improvements and connected resources into empire effects
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a legal builder improvement changes tile yields and, when it
+  connects a strategic or luxury resource, grants the declared unit-production
+  access or distributed Amenity effect to the empire.
+- Includes: farms, mines, Iron access and luxury Amenities in Civilization VI.
+- Excludes: constructing a district; merely revealing a resource; city-state gifts.
+- Parameters: improvement, tile, resource, yields, connection, strategic access
+  and Amenity distribution.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`.
+
+## SYS-489 — Apply government and slotted policy effects
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the adopted government supplies typed slots and inherent effects;
+  every valid slotted policy contributes its declared modifiers until the next
+  legal reconfiguration.
+- Includes: military, economic, diplomatic and wildcard cards in base Civilization VI.
+- Excludes: expansion Governors; unit equipment; one temporary event bonus.
+- Parameters: government, slot frame, cards, compatibility, modifiers and replacement.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`.
+
+## SYS-490 — Settle trade-route yields, roads and trading posts
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an active trader repeatedly grants its declared origin yields,
+  creates a road along traversed land and leaves eligible trading-post state at
+  a completed destination.
+- Includes: domestic and international base-game routes in Civilization VI.
+- Excludes: a one-time diplomatic resource exchange; manually laid railways;
+  city-state quest rewards.
+- Parameters: origin, destination, path, duration, yields, road state,
+  trading post and interruption.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`.
+
+## SYS-491 — Resolve civilization relationships, deals, war and peace
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: contact, declared conduct and negotiated terms change persistent
+  relationship, agreement, war, peace and warmonger state, which in turn alters
+  later offers, access and hostility.
+- Includes: base-game civilization diplomacy in the scoped four-rival game.
+- Excludes: city-state envoy influence; multiplayer chat; scripted quest affinity.
+- Parameters: civilizations, contact, relationship, agenda response, deal,
+  duration, war cause, peace gate and warmonger value.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`.
+
+## SYS-492 — Resolve unit and city combat, promotion and capture
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: attacker and defender strength, health, terrain, support and
+  ranged or melee mode settle reciprocal damage; threshold outcomes defeat or
+  promote units and allow eligible melee capture of a city.
+- Includes: base-game land combat and Roman conquest during the scoped route.
+- Excludes: theological combat; automated battle simulation outside the map;
+  expansion loyalty after capture.
+- Parameters: attacker, defender, strength, health, terrain, support, range,
+  damage, promotion, defeat and ownership.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`; it preserves 4X unit and city
+  ownership consequences rather than only actor health depletion.
+
+## SYS-493 — Advance the ordered launch chain and settle Science Victory
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: completed Spaceport projects advance the base-game Science track
+  from Satellite to Moon Landing and then the Mars Reactor, Hydroponics and
+  Habitation modules; launching all three Mars modules first settles victory.
+- Includes: the official launch-rule Science Victory sequence in Civilization VI.
+- Excludes: Gathering Storm's Exoplanet Expedition; score comparison; domination.
+- Parameters: Spaceport, technology gates, project costs, completed milestones,
+  three Mars modules, rival progress and terminal result.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`.
+
+## SYS-494 — Transform avatar mode at an authored portal
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: crossing one fixed authored mode portal replaces the active
+  avatar form, control interpretation and collision envelope while preserving
+  the same attempt, forward progress and level clock.
+- Includes: Stereo Madness changing cube to ship at 29%, back to cube after the
+  first flight, and into ship again for the final section.
+- Excludes: player-selected character loadouts; teleporting to a remote scene;
+  gravity-only portals; cosmetic icon changes with unchanged control rules.
+- Parameters: portal position, source mode, destination mode, carried velocity,
+  collision envelope, control mapping and transition feedback.
+- Evidence: [Geometry Dash decomposition](../games/g-l/geometry-dash.md).
+- Novelty: first isolated for `GAME-0167`; earlier portals relocate bodies or
+  rotate velocity rather than replace the same auto-runner's control regime.
+
+## SYS-495 — Resolve the single control under the current movement mode
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the current avatar mode maps the one vertical-control stream to
+  its declared force response: an eligible cube press starts a jump arc, while
+  ship hold and release respectively bias flight upward and downward.
+- Includes: the cube and ship sections of Stereo Madness under default classic
+  gameplay options.
+- Excludes: the player's input gesture itself; automatic horizontal travel;
+  mode transition; click-between/on-steps precision as a separate mechanic.
+- Parameters: mode, support state, press buffering, impulse, hold duration,
+  vertical acceleration, release and update step.
+- Evidence: [Geometry Dash decomposition](../games/g-l/geometry-dash.md).
+- Novelty: first isolated for `GAME-0167`; it binds one input stream to two
+  authored force laws without granting horizontal steering.
+
+## SYS-496 — Advance obstacles and soundtrack on one authored level clock
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: starting the level advances its fixed obstacle sequence,
+  background pulses and soundtrack from one authored time origin so the same
+  route features recur at the same progress positions on every clean attempt.
+- Includes: Stereo Madness geometry, transitions and ForeverBound soundtrack
+  progressing together from 0% toward 100%.
+- Excludes: procedural obstacle generation; tempo selected by player input;
+  music that is decorative and unsynchronised with the level sequence.
+- Parameters: level clock, song offset, obstacle positions, visual events,
+  progress mapping, pause policy and restart origin.
+- Evidence: [Geometry Dash decomposition](../games/g-l/geometry-dash.md).
+- Novelty: first isolated for `GAME-0167`; earlier live clocks advance dynamic
+  systems but do not replay one authored audiovisual obstacle timeline.
+
+## SYS-497 — Restart a failed classic attempt from its fixed origin
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: lethal contact ends the current classic Normal Mode attempt,
+  clears its transient position, mode and uncredited collectible state and
+  immediately creates a fresh attempt at the level's authored 0% origin.
+- Includes: crashing the Stereo Madness cube or ship and returning to its
+  opening cube state without an in-level checkpoint.
+- Excludes: Practice Mode checkpoint respawn; loading an authored campaign save;
+  preserving failed-attempt position; deleting persistent prior completions.
+- Parameters: lethal trigger, restart delay, origin state, cleared attempt
+  fields, retained best progress and prior persistent rewards.
+- Evidence: [Geometry Dash decomposition](../games/g-l/geometry-dash.md).
+- Novelty: first isolated for `GAME-0167`; earlier reset genes restore a
+  checkpoint, persistent world or metaprogression-bearing generated route.
+
+## SYS-498 — Retain best progress across repeated level attempts
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after each failed classic attempt, the level record preserves the
+  farthest reached percentage while the next attempt restarts at 0%, allowing
+  repeated execution to expose improvement without preserving world position.
+- Includes: Stereo Madness Normal Mode best-percentage feedback across retries.
+- Excludes: Practice checkpoint placement; an external speedrun timer; carrying
+  the avatar's transient mode or location into the next attempt.
+- Parameters: attempt number, reached percentage, previous best, update rule,
+  persistent display and completion value.
+- Evidence: [Geometry Dash decomposition](../games/g-l/geometry-dash.md).
+- Novelty: first isolated for `GAME-0167`; it separates persistent performance
+  feedback from the otherwise clean full-level restart.
+
+## SYS-499 — Settle level completion and contacted Secret Coins
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: reaching the authored finish without prior lethal contact records
+  100% Normal Mode completion, grants the level reward and persistently credits
+  each optional Secret Coin contacted during that successful attempt.
+- Includes: first Stereo Madness completion with zero through three coins.
+- Excludes: awarding a contacted coin after dying before the finish; Practice
+  Mode completion; requiring all three coins for ordinary level completion.
+- Parameters: finish boundary, attempt validity, pending coin set, star/orb
+  reward, prior completion, persistent coin set and completion presentation.
+- Evidence: [Geometry Dash decomposition](../games/g-l/geometry-dash.md).
+- Novelty: first isolated for `GAME-0167`; earlier completion systems do not
+  settle a checkpointless auto-run and optional route coins together.
+
+## SYS-466 — Apply damage and healing through ordered heart layers
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: valid damage removes health from the eligible outer heart layer
+  in declared order, while a heart pickup restores only compatible missing
+  capacity or adds its allowed temporary layer.
+- Includes: red, soul and black hearts encountered by clean-save Isaac in base
+  The Binding of Isaac: Rebirth.
+- Excludes: one undifferentiated health bar; armour that regenerates after a
+  firefight; healing another party member.
+- Parameters: heart type, order, half-heart value, container capacity, damage,
+  invulnerability interval, pickup type and legal restoration.
+- Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
+- Novelty: first isolated for `GAME-0164`; earlier health systems do not use
+  Isaac's ordered coexisting heart layers and pickup compatibility.
+
+## SYS-467 — Compose collected item effects into the current run build
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: accepting a pedestal collectible adds its passive effect or
+  replaces the active slot, and the system composes all retained compatible
+  effects into movement, tears, bombs, health, pickups and triggered behaviour
+  until the run terminates.
+- Includes: cumulative base-Rebirth collectible effects and tear transformations.
+- Excludes: permanent account equipment; a card consumed for one immediate
+  effect; external mod descriptions.
+- Parameters: item identity, passive or active class, replacement, statistics,
+  tear form, trigger, interaction order and run lifetime.
+- Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
+- Novelty: first isolated for `GAME-0164`; it preserves cumulative rule-changing
+  item interactions inside one disposable live-action run.
+
+## SYS-468 — Advance a boss-gated floor sequence toward the scoped ending
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: clearing the current floor boss opens its legal descent, and
+  entering that transition advances the same run build to the next generated
+  floor until the scoped final boss settles the ending.
+- Includes: Basement I through Depths II and first Mom defeat in base Rebirth.
+- Excludes: choosing a visible Slay the Spire node edge; a checkpoint inside
+  one persistent area; optional post-Mom chapters outside the clean-save route.
+- Parameters: floor, boss, clear state, descent, next depth, retained run state,
+  final boss and ending.
+- Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
+- Novelty: first isolated for `GAME-0164`.
+
+## SYS-469 — Clear terminal run state while retaining eligible save unlocks
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: death or the scoped ending closes the current run and removes its
+  floor graph, pickups, health and item build from the next run, while any
+  already earned eligible secret, ending or unlock remains in the save file.
+- Includes: clean-save base Rebirth death reset and first-Mom Epilogue unlock.
+- Excludes: Softcore checkpoint return with the same character build; complete
+  save deletion; a manually seeded run that cannot award ordinary unlocks.
+- Parameters: terminal cause, transient run state, prior save state, unlock
+  condition, achievement eligibility and next-run pool.
+- Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
+- Novelty: first isolated for `GAME-0164`; earlier reset genes retain a world or
+  character build rather than discarding the whole transient build around save unlocks.
+
+## SYS-470 — Resolve one timed bomb blast against room state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when a placed bomb's fuse expires, the system applies one bounded
+  blast to overlapping actors, destructible rocks and eligible secret-room
+  walls, then removes the bomb object.
+- Includes: ordinary bomb damage, rock destruction and secret-room opening in
+  base The Binding of Isaac: Rebirth.
+- Excludes: a grenade field persisting after detonation; terrain mining by a
+  reusable tool; an item effect with no placed fuse.
+- Parameters: fuse, centre, radius, damage, knockback, rock class, wall
+  eligibility and item modifiers.
+- Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
+- Novelty: first isolated for `GAME-0164`.
+
+## SYS-515 — Run a difficulty-scaled autonomous racing field
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after an authored race starts, the system continuously drives the
+  eligible rival field along the same course and scales its pace and behaviour
+  through the selected opponent-difficulty profile.
+- Includes: Solo Forza Horizon 6 Festival races against Drivatars.
+- Excludes: ambient open-world traffic; a human multiplayer field; one fixed
+  scripted convoy with no competitive result.
+- Parameters: field size, car theme, difficulty, aggression, course, start grid,
+  contact and finish state.
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Novelty: first isolated for `GAME-0171`; earlier autonomous agents pursue
+  combat, logistics or team roles rather than a shared-course race ranking.
+
+## SYS-516 — Validate ordered race progress and finish result
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the system accepts course progress only through the event's
+  ordered checkpoints and required laps, then settles elapsed time and, when a
+  rival field exists, the complete finish order.
+- Includes: Forza Horizon 6 Trail, Circuit, Cross Country, Time Attack and
+  Horizon Invitational course completion.
+- Excludes: free driving through unvalidated map space; a speed trap with no
+  ordered course; points awarded after the validated result.
+- Parameters: checkpoint sequence, checkpoint width, lap count, elapsed time,
+  participant order, missed-checkpoint recovery and finish line.
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Novelty: first isolated for `GAME-0171`; no prior system jointly validates
+  directly driven course order, lap progress and race finish classification.
+
+## SYS-517 — Convert driving-event results into Festival progress
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a first eligible event result or rated driving activity adds its
+  declared Horizon Festival Points to retained campaign progress, which can
+  cross the threshold for the next Wristband Event.
+- Includes: the fixed Horizon Qualifier route that unlocks the first Horizon
+  Invitational in Forza Horizon 6.
+- Excludes: Discover Japan Stamp progress; live Festival Playlist points;
+  credits or experience that do not advance the Wristband meter.
+- Parameters: event, first-completion state, rating, points, prior total,
+  threshold and overflow.
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Novelty: first isolated for `GAME-0171`; earlier score systems do not convert
+  heterogeneous driving-event results into a persistent festival gate.
+
+## SYS-518 — Advance the tourist opening through festival unlock gates
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: completing each mandatory opening gate retains its campaign state
+  and exposes the next authored feature set: the Tokyo introduction opens the
+  map and Qualifiers, the points threshold exposes the Invitational, and its
+  completion grants the first Wristband and Festival access.
+- Includes: the scoped Forza Horizon 6 fresh-save opening through first
+  Wristband settlement.
+- Excludes: later Wristbands, Gold status and Legend Island; Discover Japan
+  Stamps; multiplayer progression.
+- Parameters: prologue completion, introductory race, qualifier state, point
+  threshold, Invitational state, Wristband and feature unlocks.
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Novelty: first isolated for `GAME-0171`; prior authored quest chains do not
+  stage one open-world driving campaign through a points-gated race invitation.
+
+## SYS-519 — Settle a completed driving event into retained rewards
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a valid driving-event result, the system records its first
+  completion and transfers the declared credits, experience, cars or feature
+  unlocks into the persistent campaign and garage.
+- Includes: qualifier results and the three cars granted with the first Forza
+  Horizon 6 Wristband.
+- Excludes: temporary race position; live Festival Playlist rewards outside the
+  scoped opening; buying an Aftermarket Car.
+- Parameters: event, completion, position, time, credits, experience, vehicle,
+  unlock and retained save state.
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Novelty: first isolated for `GAME-0171`; delivery and combat settlements do
+  not retain a curated driving-event result into garage and festival state.

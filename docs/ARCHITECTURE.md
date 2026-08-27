@@ -206,22 +206,31 @@ only when another repeated structured view demonstrates comparable drift.
 
 ## Build and authoring scaling
 
-ADR-009 establishes the accepted backend-first owner path: reviewed Git input
-is deterministically imported into one immutable PostgreSQL revision; the
-versioned Go API exposes that revision; Astro consumes one revision-pinned API
-contract and emits static pages plus bounded browser assets. Production pages
-remain independently serveable when the API or database is unavailable.
+ADR-010 establishes the accepted artifact-first target: reviewed Git input is
+deterministically serialized into one immutable corpus artifact; the versioned
+Go API exposes that revision; Astro consumes one revision-pinned API contract
+and emits static pages plus bounded browser assets. Production pages remain
+independently serveable when the API is unavailable.
 
-During the pre-cutover parity window, the direct Astro corpus parser remains a
-memoised comparison oracle and rollback path behind `ATLAS_CORPUS_SOURCE`. It
-is not a second published authority. The fail-closed retirement evidence lives
-in `docs/migrations/production-parity-window.json`; until that record passes,
-CI requires the parser and the legacy default to remain present.
+Production `r000001` remains PostgreSQL-backed during the artifact-first
+migration. The direct Astro corpus parser remains a memoised comparison oracle
+and rollback path behind `ATLAS_CORPUS_SOURCE`; it is not a second published
+authority. The fail-closed retirement evidence lives in
+`docs/migrations/production-parity-window.json`. Until that record and the
+artifact-first release gates pass, CI requires the parser, PostgreSQL path and
+legacy rollback assets to remain present.
+
+Ordinary local and pull-request validation no longer materializes PostgreSQL:
+it regenerates the immutable artifact, verifies DB-free public projection,
+runs the API from the pinned artifact and builds/tests Astro only through that
+API. PostgreSQL parity is an explicit weekly/manual historical job until the
+retirement decision; it is not a runtime or contributor-path authority.
 
 Markdown and reviewed JSON in private Git remain the human authoring/evidence
-boundary until a separately accepted editor exists. Published runtime corpus
-authority is an immutable DB revision, and the public Git corpus is its exact
-append-only export rather than an independently editable mirror.
+authority until a separately accepted editor exists. The accepted target
+publishes one immutable content-addressed artifact as runtime authority. The
+public Git corpus remains an exact append-only projection rather than an
+independently editable mirror.
 
 Dependency-free derived Python tools share the readers in
 `scripts/generate_indexes.py`. The repository validator keeps an independent
@@ -231,12 +240,14 @@ boundary instead of adding another Markdown parser.
 
 The historical parsing and payload measurements remain in the
 [`Scaling implementation report`](SCALING_IMPLEMENTATION_REPORT.md). ADR-009
-supersedes its performance-trigger condition for selecting a production
-database because the maintainer changed the required ownership/release model,
-not because parsing crossed a latency threshold. Incremental or sharded site
-builds remain deferred until a complete local build exceeds ten minutes or CI
-exceeds twenty minutes. A future Studio remains a separate authoring decision
-and may not silently become another corpus authority.
+selected PostgreSQL for ownership/release governance rather than a crossed
+parsing threshold. The later implementation and independent audit showed that
+an immutable artifact can retain those release identities without storing the
+complete corpus and public export bytes in PostgreSQL; ADR-010 therefore
+supersedes the permanent database authority. Incremental or sharded site builds
+remain deferred until a complete local build exceeds ten minutes or CI exceeds
+twenty minutes. A future Studio remains a separate authoring decision and may
+not silently become another corpus authority.
 
 [`ADR-008`](architecture-decisions/ADR-008-concept-lab-static-product-boundary.md)
 continues to govern Concept Lab as a bounded static derived surface. In API

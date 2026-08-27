@@ -69,7 +69,8 @@
   position, fixed route surfaces, rotating bridge pose and final pedestal;
   Maquette's current model, corresponding courtyards, key pose, gaps, doors and
   house state; Factorio's explored terrain, placed entities, inventories,
-  moving items, active recipes, power state and visible hostile units.
+  moving items, active recipes, power state and visible hostile units; each
+  Split Fiction player's local Chapter 1 geometry, hazards and prompts.
 - Excludes: knowledge of future random events.
 - Parameters: simultaneous display versus sequential inspection.
 - Evidence: [2048 decomposition](../games/0-9/2048.md) and
@@ -146,7 +147,8 @@
   [Manifold Garden decomposition](../games/m-r/manifold-garden.md), and
   [Maquette decomposition](../games/m-r/maquette.md),
   [Antichamber decomposition](../games/a-f/antichamber.md), and
-  [Factorio decomposition](../games/a-f/factorio.md).
+  [Factorio decomposition](../games/a-f/factorio.md), and
+  [Split Fiction decomposition](../games/s-z/split-fiction.md).
 - Novelty: not assessed.
 
 ## INF-002 — Unpreviewed random future event
@@ -168,7 +170,8 @@
   [Royal Match decomposition](../games/m-r/royal-match.md), and
   [Mini Metro decomposition](../games/m-r/mini-metro.md),
   [Loop Hero decomposition](../games/g-l/loop-hero.md), and
-  [Slay the Spire decomposition](../games/s-z/slay-the-spire.md).
+  [Slay the Spire decomposition](../games/s-z/slay-the-spire.md), and
+  [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
 - Novelty: not assessed; this is part of the baseline genome.
 
 ## INF-003 — Fixed concealed current state
@@ -197,7 +200,8 @@
   [Balatro decomposition](../games/a-f/balatro.md), and
   [Fights in Tight Spaces decomposition](../games/a-f/fights-in-tight-spaces.md),
   [The Room decomposition](../games/s-z/the-room.md), and
-  [Slay the Spire decomposition](../games/s-z/slay-the-spire.md).
+  [Slay the Spire decomposition](../games/s-z/slay-the-spire.md), and
+  [Strands decomposition](../games/s-z/strands.md).
 - Novelty: not assessed.
 
 ## INF-004 — Exact local aggregate clue
@@ -1409,11 +1413,13 @@
 - Definition: before or during commitment, the interface discloses a task's
   required state or payment, remaining time where applicable, promised reward
   and declared failure or threat consequence.
-- Includes: Against the Storm Orders and Glade Event resolution panels.
+- Includes: Against the Storm Orders and Glade Event resolution panels; The
+  Sims 4 scenario stage checklist and declared branch rewards.
 - Excludes: hidden quest requirements; a generic recipe with no task reward; a
   surprise failure effect disclosed only after expiry.
 - Parameters: requirements, alternatives, deadline, progress, reward and threat.
-- Evidence: [Against the Storm decomposition](../games/a-f/against-the-storm.md).
+- Evidence: [Against the Storm decomposition](../games/a-f/against-the-storm.md)
+  and [The Sims 4 decomposition](../games/s-z/the-sims-4.md).
 - Novelty: not assessed.
 
 ## INF-068 — Visible world-map range, biome and modifier state
@@ -1483,11 +1489,13 @@
 - Definition: the interface exposes one autonomous resident's current job,
   skills, labour permissions, bodily needs, recent thoughts, relationships and
   stress state for causal inspection.
-- Includes: Dwarf Fortress creature, labour, thoughts and preferences panels.
+- Includes: Dwarf Fortress creature, labour, thoughts and preferences panels;
+  The Sims 4 active-Sim needs, skills, work and relationship panels.
 - Excludes: hidden future events; one aggregate settlement happiness number.
 - Parameters: resident, job, skills, work details, needs, thoughts, memories,
   relationships, stress and health.
-- Evidence: [Dwarf Fortress decomposition](../games/a-f/dwarf-fortress.md).
+- Evidence: [Dwarf Fortress decomposition](../games/a-f/dwarf-fortress.md) and
+  [The Sims 4 decomposition](../games/s-z/the-sims-4.md).
 - Novelty: not assessed.
 
 ## INF-073 — Carried hotbar and active equipment state are visible
@@ -1501,15 +1509,20 @@
 - Includes: Minecraft Survival hotbar and selected held item; Counter-Strike 2
   carried weapon/utility icons, active item and ammunition state; Cyberpunk
   2077 weapon slots, active weapon and ammunition HUD; Hollow Knight: Silksong
-  equipped Crest, Tool slots and Tool charge state.
+  equipped Crest, Tool slots and Tool charge state; Helldivers 2 current
+  firearm, magazine/reserve ammunition, grenade and support-weapon state.
 - Excludes: a complete future terrain map; a hidden recipe discovered only by
   external knowledge; a colony-wide production report.
 - Parameters: slots, stacks, selected item, hand and equipment state.
 - Evidence: [Minecraft decomposition](../games/m-r/minecraft.md) and
   [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md), and
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
-  [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md).
+  [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md), and
+  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md) and
+  [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Additional support: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md),
+  for the visible active, trinket and pocket slots plus pickup counters.
 - Novelty: not assessed.
 
 ## INF-074 — Crafting grid and available recipe state are visible
@@ -2167,13 +2180,18 @@
 - Includes: Counter-Strike 2 sightlines, footsteps, shots, reloads, utility and
   bomb interaction audio; Cyberpunk 2077 local sight, footsteps, speech,
   gunfire and scanner-assisted currently exposed hostile state; Marvel Rivals
-  third-person sightlines, effects, silhouettes and spatial combat audio.
+  third-person sightlines, effects, silhouettes and spatial combat audio;
+  Helldivers 2 local patrol silhouettes, movement, calls, shots and effects.
 - Excludes: omniscient enemy positions; an authored hidden solution inferred
   from static clues; teammate-transmitted knowledge itself.
 - Parameters: view, occlusion, distance, material, sound event and effect state.
 - Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md) and
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
-  [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md).
+  [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md), and
+  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md) and
+  [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md) and
+  [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md), and
+  [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
 - Novelty: not assessed.
 
 ## INF-116 — Live team, score and shared-objective state are visible
@@ -2183,10 +2201,19 @@
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: the live team interface exposes eligible allied status, match clock or score and current shared-objective ownership, progress or phase state.
-- Includes: Counter-Strike 2, Dota 2, Marvel Rivals and Battlefield 6 team HUD, radar or minimap and objective state.
+- Includes: Counter-Strike 2, Dota 2, Marvel Rivals, Battlefield 6 and
+  Helldivers 2 team HUD, radar or minimap and objective state, including
+  Reinforce stock and mission time where applicable; EA SPORTS FC 26 match
+  score, clock, side identity and restart state.
 - Excludes: permanent omniscient enemy tracking; post-match analytics; account rank.
 - Parameters: team frames, allied state, radar or minimap, shared sightings, clock, score, objective schema, phase and respawn notice.
-- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md), [Dota 2 decomposition](../games/a-f/dota-2.md), [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md) and [Battlefield 6 decomposition](../games/a-f/battlefield-6.md).
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md),
+  [Dota 2 decomposition](../games/a-f/dota-2.md),
+  [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md),
+  [Battlefield 6 decomposition](../games/a-f/battlefield-6.md) and
+  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md) and
+  [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md), and
+  [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
 - Novelty: not assessed.
 
 ## INF-117 — Personal economy and purchase state are visible
@@ -2237,6 +2264,8 @@
   level, attributes, perks, skills and cooldown displays; Marvel Rivals hero
   health, ultimate meter, ability readiness, status and selected Team-Up state;
   Hollow Knight: Silksong health, Silk, equipped Crest and Tool state.
+  Helldivers 2 health, injury/status and selected stratagem charge or cooldown
+  state.
 - Excludes: hidden enemy cooldowns; account statistics; exact future turn order.
 - Parameters: health, resource, experience, level, attributes, skill, status,
   cooldown and persistence.
@@ -2248,6 +2277,9 @@
   [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md), and
   [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Evidence: [Helldivers 2 decomposition](../games/g-l/helldivers-2.md) and
+  [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md) and
+  [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md).
 - Novelty: not assessed.
 
 ## INF-120 — Match economy, item logistics and buyback are visible
@@ -2290,28 +2322,32 @@
 - Definition: before and during an eligible capture, the interface exposes the
   target and device's current success estimate plus the progress or failure of
   the committed checks.
-- Includes: Palworld capture percentage and Sphere attempt feedback.
+- Includes: Palworld capture percentage and Sphere attempt feedback; Pokémon
+  Legends: Z-A capture arrows and committed throw feedback.
 - Excludes: a guaranteed hidden recruitment roll; exact future random sample;
   creature combat damage alone.
 - Parameters: target, device, estimated chance, check progress, success and failure.
-- Evidence: [Palworld decomposition](../games/m-r/palworld.md).
+- Evidence: [Palworld decomposition](../games/m-r/palworld.md) and
+  [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
 - Novelty: not assessed.
 
-## INF-123 — Companion profile exposes combat and work capabilities
+## INF-123 — Companion profile exposes combat and assignment capabilities
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: the player can inspect a captured companion's level, stats,
-  element, active skills, partner skill, passives and work-suitability types
-  before assigning it to party or base.
-- Includes: Palworld Pal detail and Palbox management panels.
+  type or element, active skills, passives and ruleset-specific assignment
+  capabilities before assigning it to a bounded roster.
+- Includes: Palworld Pal detail and Palbox management panels; Pokémon Legends:
+  Z-A Pokémon summaries exposing level, stats, type and learned moves.
 - Excludes: undiscovered wild-creature identity; cosmetic-only appearance;
   hidden random future mutation.
-- Parameters: identity, level, stats, element, skills, passives, partner skill
-  and suitability.
-- Evidence: [Palworld decomposition](../games/m-r/palworld.md).
+- Parameters: identity, level, stats, type or element, skills, passives,
+  partner interaction and assignment capability.
+- Evidence: [Palworld decomposition](../games/m-r/palworld.md) and
+  [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
 - Novelty: not assessed.
 
 ## INF-124 — Avatar and active-party survival state are visible
@@ -2349,7 +2385,8 @@
   [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md), and
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
   [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md), and
-  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md) and
+  [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Novelty: not assessed.
 
@@ -2554,15 +2591,17 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the raid interface identifies the authored map and active Map
-  Condition, shows known points of interest and eligible extraction fixtures,
-  and exposes the remaining session or departure timing needed to route risk.
-- Includes: ARC Raiders Topside map, regional condition and extraction state.
+- Definition: the mission or raid interface identifies the current map and
+  condition, shows known objectives, points of interest and eligible extraction
+  fixtures, and exposes remaining session or departure timing needed to route risk.
+- Includes: ARC Raiders Topside map, regional condition and extraction state;
+  Helldivers 2 mission map, main objective, extraction location and mission time.
 - Excludes: exact hidden loot rolls; omniscient Raider positions; future Map
   Condition schedules outside the current raid.
 - Parameters: map, condition, point of interest, endpoint, endpoint state,
   Raider position, route marker and clock.
-- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
+- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md) and
+  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md).
 - Novelty: not assessed.
 
 ## INF-138 — Inventory marks value, compatibility and defeat protection
@@ -2771,21 +2810,23 @@
 - Evidence: [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
 - Novelty: not assessed.
 
-## INF-150 — Hero roster exposes roles, kits and Team-Up alternatives
+## INF-150 — Character roster exposes roles, kits and composition alternatives
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the spawn selection interface exposes currently available heroes,
-  their Vanguard, Duelist or Strategist role, ability kit, allied occupancy and
-  offered Team-Up partner alternatives before confirmation.
-- Includes: Marvel Rivals Season 9.5 hero and Team-Up selection state.
+- Definition: the match selection interface exposes currently available
+  characters, their role or class, ability kit, allied occupancy and any
+  offered composition alternatives before confirmation.
+- Includes: Marvel Rivals Season 9.5 hero and Team-Up selection state; Apex
+  Legends Legend classes, kits and current squad occupancy.
 - Excludes: hidden opponent selection before disclosure; cosmetic skin details;
   external tier-list recommendations.
-- Parameters: hero, role, team occupancy, ability, partner option, base effect,
-  enhanced effect and selection state.
-- Evidence: [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md).
+- Parameters: character, role or class, team occupancy, ability, composition
+  option, base effect, enhanced effect and selection state.
+- Evidence: [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md) and
+  [Apex Legends decomposition](../games/a-f/apex-legends.md).
 - Novelty: not assessed.
 
 ## INF-151 — Match HUD exposes team, phase and live objective state
@@ -3025,3 +3066,758 @@
 - Parameters: phase of day, warning, boss health, phase cue, target icon and dawn.
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Novelty: not assessed.
+
+## INF-166 — Progressive themed-path discovery and earned route disclosure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the interface begins with one broad semantic clue and a visible
+  letter field, retains every accepted answer as an addressed path, reports
+  assistance progress, and can progressively disclose an unresolved answer's
+  cell set and then its traversal order after earned requests.
+- Includes: Strands' Today's Theme clue, retained theme-word and spangram paths,
+  Hint meter, highlighted answer letters and subsequent ordered-letter hint.
+- Excludes: exposing the complete hidden answer partition at entry; feedback
+  about only positional similarity to a guessed word; an unearned walkthrough;
+  a clue whose text itself is the answer.
+- Parameters: clue specificity, path colours or labels, retained word list,
+  progress display, hinted target choice, cell highlight and order notation.
+- Evidence: [Strands decomposition](../games/s-z/strands.md).
+- Novelty: not assessed.
+
+## INF-167 — Concurrent partner viewport exposes live cooperative state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while each human controls one actor, the interface concurrently
+  renders the partner's live viewpoint alongside the local viewpoint so that
+  both positions, hazards, prompts and interaction progress can inform current
+  coordination without changing control ownership.
+- Includes: Split Fiction's persistent split-screen presentation in local and
+  online cooperative play.
+- Excludes: a minimap icon without the partner's view; switching a single
+  camera between actors; an external streamed screen; hidden role-exclusive
+  information that must be communicated verbally.
+- Parameters: pane count, layout, local-player emphasis, online rendering,
+  shared overlays, prompt duplication and cutscene behaviour.
+- Evidence: [Split Fiction decomposition](../games/s-z/split-fiction.md).
+- Novelty: not assessed.
+
+## INF-168 — Active-resident panel exposes motives, mood and action queue
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the live interface exposes the active resident's current motive
+  levels, dominant emotion and ordered or executing interactions so the player
+  can attribute behaviour and revise near-term direction.
+- Includes: The Sims 4 Live Mode needs panel, emotional state and visible
+  interaction queue for Farrah Nouvel.
+- Excludes: a colony aggregate; a biography-only profile; hidden exact future
+  autonomy choices or relationship outcomes.
+- Parameters: motive categories, value resolution, mood label, contributing
+  modifiers, queue order, cancellation affordance and failed-action feedback.
+- Evidence: [The Sims 4 decomposition](../games/s-z/the-sims-4.md).
+- Novelty: not assessed.
+
+## INF-169 — Debrief separates mission, extraction and shared-war results
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the post-mission presentation separately exposes whether the
+  required objective succeeded, which participants and carried shared assets
+  departed, and what operation-level contribution entered the shared campaign.
+- Includes: Helldivers 2 mission debrief separating objective success,
+  extracted Helldivers, recovered samples and Galactic War impact.
+- Excludes: a single undifferentiated score; live tactical HUD; private account
+  experience without any operation or shared-campaign result.
+- Parameters: mission result, survivor count, asset types/counts, operation
+  status, contribution components, planet and campaign progress.
+- Evidence: [Helldivers 2 decomposition](../games/g-l/helldivers-2.md).
+- Novelty: not assessed.
+
+## INF-170 — Battle HUD exposes partner, target, health, moves and cooldowns
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the live battle interface identifies the sole active companion
+  and current target while exposing health plus the bounded assigned move set
+  and each move's current readiness.
+- Includes: Pokémon Legends: Z-A partner/target health and four move-button
+  cooldown displays.
+- Excludes: a storage-only profile; hidden opponent future decisions; an
+  unlabelled animation with no readiness feedback.
+- Parameters: active partner, target, health, move slots, input mapping,
+  cooldown, range feedback and status.
+- Evidence: [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
+- Novelty: not assessed.
+
+## INF-171 — Royale interface exposes rank, points, ticket and promotion target
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the progression interface exposes the current tournament rank,
+  accumulated qualification points and threshold, ticket possession and the
+  designated opponent for the next promotion.
+- Includes: Rank Z, 1,000 Ticket Point threshold, Challenger's Ticket and Zach
+  promotion state in Pokémon Legends: Z-A.
+- Excludes: hidden matchmaking rating; battle experience; a generic quest title
+  without qualification state.
+- Parameters: rank, points, threshold, ticket, opponent and promotion status.
+- Evidence: [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
+- Novelty: not assessed.
+
+## INF-172 — Terror Radius encodes approximate Killer proximity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: survivor audio layers intensify as the Killer enters nearer bands
+  and change for an active chase, communicating approximate threat proximity
+  without revealing the Killer's exact coordinate or route.
+- Includes: Dead by Daylight heartbeat, Terror Radius music and chase layer in
+  the blank-loadout standard Trial.
+- Excludes: Killer-specific Undetectable or Lullaby exceptions; exact aura
+  reading; ordinary spatial footsteps already covered by local sound.
+- Parameters: source, radius, proximity bands, audio layers, chase state,
+  listener role and suppression exceptions.
+- Evidence: [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md).
+- Novelty: not assessed.
+
+## INF-173 — Killer-only transient tracks expose recent Survivor routes
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: recent running and injury leave spatial track cues visible to the
+  Killer role but ordinarily hidden from Survivors, disclosing a fading route
+  rather than the tracked Survivor's current exact position.
+- Includes: Dead by Daylight Scratch Marks and Pools of Blood.
+- Excludes: audible footsteps; public teammate HUD state; exact temporary aura
+  revelation from a Perk.
+- Parameters: cue class, source state, location, direction quality, role
+  visibility, intensity, duration and decay.
+- Evidence: [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md).
+- Novelty: not assessed.
+
+## INF-174 — Work progress and Skill Check window are visible
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while a Survivor performs eligible work, the interface exposes
+  current progress and, when sampled, a moving timing pointer with graded
+  response zones plus immediate success or failure feedback.
+- Includes: Dead by Daylight repair, healing, recovery, unhook and gate progress
+  bars together with Good/Great Skill Check intervals.
+- Excludes: hidden future prompt location; post-match score events; attack-
+  timing cues without a continuing work bar.
+- Parameters: interaction, progress, efficiency colour, pointer, success zones,
+  warning, response grade and failure feedback.
+- Evidence: [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md).
+- Novelty: not assessed.
+
+## INF-175 — Item panels expose rarity, affixes, requirements and comparison
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: inspecting ground, carried or equipped gear exposes its base and
+  rarity, explicit modifiers, sockets and unmet requirements, with the relevant
+  equipped alternative available for comparison.
+- Includes: Path of Exile 2 equipment tooltips and comparison panels.
+- Excludes: hidden future affix rolls; external trade valuation; an unlabelled
+  item model with no statistics.
+- Parameters: item identity, rarity, modifiers, sockets, requirements,
+  comparison slot, deltas and unusable warning.
+- Evidence: [Path of Exile 2 decomposition](../games/m-r/path-of-exile-2.md).
+- Novelty: not assessed.
+
+## INF-176 — Skill panels expose sockets, compatibility, cost and effect
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the Skills interface exposes each active Skill's assigned input,
+  Support sockets and occupants, compatibility feedback, resource cost and the
+  effect produced by the current composed Gem state.
+- Includes: Path of Exile 2 active Skill and Support management.
+- Excludes: hidden exact future damage outcomes; passive-tree topology; item
+  affixes unrelated to the selected Skill.
+- Parameters: Skill, input, sockets, Supports, tags, cost, damage or utility
+  summary, warnings and resulting changes.
+- Evidence: [Path of Exile 2 decomposition](../games/m-r/path-of-exile-2.md).
+- Novelty: not assessed.
+
+## INF-177 — Passive tree exposes connections, effects and available points
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the character-development view exposes current allocated nodes,
+  adjacent reachable nodes, each inspected node's effect, unspent points and
+  the declared refund cost so the next connected allocation is attributable.
+- Includes: Path of Exile 2 Passive Skill Tree in the scoped campaign.
+- Excludes: hidden optimal builds; the active Skill socket panel; account-wide
+  Atlas progression.
+- Parameters: root, allocated and adjacent nodes, effect text, point count,
+  refund currency and confirmation.
+- Evidence: [Path of Exile 2 decomposition](../games/m-r/path-of-exile-2.md).
+- Novelty: not assessed.
+
+## INF-178 — Broadcast view identifies ball, control and local team shape
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the live match view exposes the shared ball, nearby players,
+  pitch markings, the current direct-control marker and context for the next
+  eligible control or ball action.
+- Includes: broadcast camera, player indicator and local formation shape in EA
+  SPORTS FC 26.
+- Excludes: permanent omniscient player attributes; post-match heat maps; a
+  manager-only tactical board.
+- Parameters: camera, zoom, indicator, radar availability, player labels,
+  pitch markings and suggested-switch cue.
+- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
+- Novelty: first isolated for `GAME-0163`.
+
+## INF-179 — Current room exposes threats, trajectories, pickups and exits
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the room camera simultaneously exposes Isaac, visible enemies,
+  projectiles, hazards, obstacles, pickups and door states needed to choose the
+  next movement, attack or resource action.
+- Includes: ordinary base-Rebirth room play and boss encounters.
+- Excludes: concealed adjacent-room contents; exact hidden drop rolls; an
+  external item-description overlay.
+- Parameters: room bounds, actor, projectile, hazard, obstacle, pickup, door,
+  boss bar and visual effect.
+- Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
+- Novelty: first isolated for `GAME-0164`; existing partial-opponent sight genes
+  do not expose a complete bounded room's shared projectile field and exits.
+
+## INF-180 — Explored map retains room graph and disclosed room roles
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the minimap retains every discovered room cell and connection on
+  the current floor and marks the identity of eligible disclosed special rooms
+  without revealing all unexplored contents.
+- Includes: base-Rebirth explored ordinary, Treasure, Shop and boss room map state.
+- Excludes: a fully revealed future floor; a non-spatial branching act-node
+  chart; secret rooms not yet disclosed by an eligible effect or entry.
+- Parameters: cell, adjacency, explored state, current room, room-role icon,
+  concealment and map-reveal effect.
+- Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
+- Novelty: first isolated for `GAME-0164`.
+
+## INF-181 — Horse interface exposes bond, condition and saddle cargo
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: horse HUD, wheel and management views expose the current horse's
+  identity, health, stamina, bond, active saddle and accessible weapon, outfit
+  or carcass cargo before a riding or transfer decision.
+- Includes: Arthur's current horse during the scoped Chapter 2 route.
+- Excludes: hidden wild-horse traits before inspection; motor-vehicle state;
+  cosmetic horse appearance with no mechanical value.
+- Parameters: horse, health, stamina, core, bond, saddle, cargo slot, carried
+  weapon, outfit and call state.
+- Evidence: [Red Dead Redemption 2 decomposition](../games/m-r/red-dead-redemption-2.md).
+- Novelty: first isolated for `GAME-0165`.
+
+## INF-182 — Legal and honour interface exposes report and consequence state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: contextual prompts, minimap marks and status displays disclose
+  an active witness and identification state, reported crime, law search,
+  regional bounty and current honour movement or band before the next response.
+- Includes: scoped Chapter 2 witness, wanted, bounty and honour feedback.
+- Excludes: exact hidden future witness compliance; undisclosed law spawns;
+  companion-specific affinity.
+- Parameters: witness marker, identity, report phase, search area, bounty,
+  jurisdiction, honour change, band and contextual prompt.
+- Evidence: [Red Dead Redemption 2 decomposition](../games/m-r/red-dead-redemption-2.md).
+- Novelty: first isolated for `GAME-0165`.
+
+## INF-183 — Camp ledger exposes shared funds, supplies and upgrades
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the donation ledger and camp status icons expose recent
+  contributions, shared balance, medicine, ammunition and food supply state,
+  offered restocks, upgrade prerequisites, prices and purchased effects.
+- Includes: the unlocked Horseshoe Overlook camp ledger during Chapter 2.
+- Excludes: Arthur's private wallet alone; hidden future gang donations;
+  flavour-only camp decoration with no registered effect.
+- Parameters: contribution, balance, category, stock band, offer, predecessor,
+  price, purchase and service effect.
+- Evidence: [Red Dead Redemption 2 decomposition](../games/m-r/red-dead-redemption-2.md).
+- Novelty: first isolated for `GAME-0165`.
+
+## INF-184 — Explored hex map retains terrain, resources and borders
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the world view retains every explored hex's known terrain,
+  features, disclosed resources, improvements, districts, roads and borders
+  while distinguishing current visibility from remembered fog.
+- Includes: the scoped seeded Pangaea map in Civilization VI.
+- Excludes: exact contents of never-seen fog; hidden rival orders; a room minimap.
+- Parameters: hex, exploration, visibility, terrain, feature, resource,
+  improvement, road, district and owner.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`.
+
+## INF-198 — Quick-job market exposes supplied contract terms
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: before acceptance, the market exposes each current offer's cargo,
+  origin, destination, route distance, deadline, advertised income and supplied
+  vehicle needed to compare one employer job with another.
+- Includes: Euro Truck Simulator 2 Quick Jobs.
+- Excludes: owned-truck Freight Market costs; undisclosed future offers; an
+  autonomous employee's completed-job log.
+- Parameters: offer, cargo, weight, origin, destination, distance, deadline,
+  income, truck, trailer and expiration.
+- Evidence: [Euro Truck Simulator 2 decomposition](../games/a-f/euro-truck-simulator-2.md).
+- Novelty: first isolated for `GAME-0169`; earlier job displays do not expose a
+  complete supplied direct-drive cargo contract.
+
+## INF-199 — Driving widgets expose vehicle, damage and rest state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the live driving interface exposes current speed, selected gear,
+  fuel, Rest State, time until Mandatory Break and separate truck, trailer and
+  cargo damage needed to decide whether and how to continue the haul.
+- Includes: Euro Truck Simulator 2 update 1.60 widgets and Quick Info.
+- Excludes: exact future traffic; hidden internal component values below the
+  interface boundary; post-delivery reward settlement.
+- Parameters: speed, gear, fuel, rest state, break time, truck damage, trailer
+  damage, cargo damage, malfunction and widget visibility.
+- Evidence: [Euro Truck Simulator 2 decomposition](../games/a-f/euro-truck-simulator-2.md).
+- Novelty: first isolated for `GAME-0169`; earlier vehicle HUD genes do not join
+  articulated cargo condition to separate physiological and legal rest clocks.
+
+## INF-200 — Job and GPS widgets expose delivery progress
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during an active delivery, the interface exposes cargo type and
+  weight, destination, advertised income, remaining completion time, estimated
+  arrival, remaining travel time and route distance.
+- Includes: Euro Truck Simulator 2 update 1.60 Job Details and GPS widgets.
+- Excludes: exact future traffic delay; a job-market offer not yet accepted;
+  final deductions and experience after delivery.
+- Parameters: cargo, weight, destination, income, deadline remainder, arrival
+  day and time, travel time, distance and route recalculation.
+- Evidence: [Euro Truck Simulator 2 decomposition](../games/a-f/euro-truck-simulator-2.md).
+- Novelty: first isolated for `GAME-0169`; earlier route views do not combine a
+  live cargo contract's economic terms with ETA and deadline slack.
+
+## INF-201 — Delivery results expose one-job settlement
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: after delivery, the results interface exposes the completed job's
+  evaluation, settled income, eligible time or damage adjustments, parking
+  experience and resulting profile credit.
+- Includes: Euro Truck Simulator 2 Quick Job result screen.
+- Excludes: live GPS state before drop-off; recurring company profit; a traffic
+  fine notification already applied on the road.
+- Parameters: evaluation, base income, adjustments, paid income, base
+  experience, parking experience and profile totals.
+- Evidence: [Euro Truck Simulator 2 decomposition](../games/a-f/euro-truck-simulator-2.md).
+- Novelty: first isolated for `GAME-0169`; earlier summaries do not expose the
+  economic and experience settlement of one directly driven cargo contract.
+
+## INF-202 — HUD exposes survival pressure and quick-use state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the live interface exposes health, stamina, bleeding, hunger,
+  overload and radiation pressure together with selected weapon ammunition and
+  four assigned quick-use slots.
+- Includes: the scoped S.T.A.L.K.E.R. 2 HUD and inventory weight indication.
+- Excludes: hidden future damage; undiscovered loot; all downstream consequences
+  of a dialogue choice.
+- Parameters: health, stamina, effect icon, radiation meter, load colour,
+  quick slot, weapon, magazine, reserve and fire mode.
+- Evidence: [S.T.A.L.K.E.R. 2 decomposition](../games/s-z/stalker-2-heart-of-chornobyl.md).
+- Novelty: first isolated for `GAME-0170`; it joins radiation and overload with
+  the immediate first-person treatment and ammunition interface.
+
+## INF-203 — Detector signal exposes artifact proximity
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an active detector communicates changing direction or distance to
+  a nearby hidden artifact and marks the critical range at which it can appear.
+- Includes: Echo Detector signal cadence during both scoped artifact searches.
+- Excludes: revealing the artifact's future sampled identity; showing ordinary
+  ground loot; an external walkthrough coordinate.
+- Parameters: detector model, direction, distance, signal cadence, critical
+  range, artifact class and manifestation state.
+- Evidence: [S.T.A.L.K.E.R. 2 decomposition](../games/s-z/stalker-2-heart-of-chornobyl.md).
+- Novelty: first isolated for `GAME-0170`; the signal is a continuous local
+  measurement that precedes visual access to its target.
+
+## INF-195 — Expose the partial mission route through map and markers
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the live HUD shows the locally revealed portion of the assembled
+  mission map, the player, nearby contacts and the current objective or
+  extraction marker without revealing every unopened branch.
+- Includes: minimap and white/yellow objective guidance in Awakening and Vor's
+  Prize.
+- Excludes: the full future tile graph; Navigation's planetary node selection;
+  an external walkthrough route.
+- Parameters: revealed tiles, player position, contacts, objective, extraction,
+  marker colour, distance and occlusion.
+- Evidence: [Warframe decomposition](../games/s-z/warframe.md).
+- Novelty: first isolated for `GAME-0168`; existing maps do not expose a
+  progressively revealed generated route plus its current mission endpoint.
+
+## INF-196 — Expose equipment ranks, Mod slots and resulting statistics
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the Arsenal and upgrade interface show selected equipment,
+  separate ranks, compatible Mod slots, capacity, polarities, drain and the
+  resulting statistic changes before live play resumes.
+- Includes: starter Warframe and weapon configuration in Vor's Prize.
+- Excludes: hidden damage formulas; unidentified future drops; cosmetic-only
+  appearance editing.
+- Parameters: item, rank, statistics, slots, compatibility, capacity, polarity,
+  drain, preview and validation feedback.
+- Evidence: [Warframe decomposition](../games/s-z/warframe.md).
+- Novelty: first isolated for `GAME-0168`; earlier equipment views do not expose
+  this capacity-and-polarity modifier calculation.
+
+## INF-197 — Expose mission rewards, Affinity changes and next quest state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: mission completion and the returning Orbiter state show retained
+  rewards, equipment Affinity/rank changes, restored functions and the next
+  available opening-quest step.
+- Includes: the Vor's Prize settlement loop from extraction back to Navigation,
+  Arsenal, Foundry or Mod Station.
+- Excludes: temporary ammunition; later quest spoilers; undisclosed random
+  reward outcomes before extraction.
+- Parameters: mission, pickups, reward, Affinity, ranks, segment, quest step,
+  next mission and presentation timing.
+- Evidence: [Warframe decomposition](../games/s-z/warframe.md).
+- Novelty: first isolated for `GAME-0168`; earlier result screens do not combine
+  retained equipment growth with restoration of a persistent tutorial hub.
+
+## INF-192 — Side-scrolling viewport exposes local obstacle lookahead
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the running side view exposes the icon, current support and a
+  bounded forward slice of blocks, gaps, spikes, portals and optional routes,
+  while later authored geometry remains outside the viewport.
+- Includes: the moving Stereo Madness playfield in cube and ship sections.
+- Excludes: simultaneous disclosure of the full level; editor view; hidden
+  collision objects; a minimap that reveals the entire future route.
+- Parameters: camera anchor, forward margin, viewport width, scroll speed,
+  object classes, occlusion and visual-effect contrast.
+- Evidence: [Geometry Dash decomposition](../games/g-l/geometry-dash.md).
+- Novelty: first isolated for `GAME-0167`; `INF-001` requires every
+  decision-relevant current-board element to be inspectable, whereas this
+  auto-run deliberately reveals only a live local horizon.
+
+## INF-193 — Attempt, progress and Secret Coin state are visible
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the level interface identifies the current attempt, exposes
+  proportional route progress and reports contacted or persistently credited
+  Secret Coins and completion feedback without revealing future geometry.
+- Includes: Stereo Madness attempt counter, progress percentage/bar, coin
+  feedback and 100% completion presentation under the scoped UI settings.
+- Excludes: an external speedrun overlay; user-level leaderboards; exact future
+  obstacle timing; account-wide achievement statistics.
+- Parameters: attempt number, percentage precision, bar visibility, coin slots,
+  pending versus credited state and completion banner.
+- Evidence: [Geometry Dash decomposition](../games/g-l/geometry-dash.md).
+- Novelty: first isolated for `GAME-0167`; earlier progress interfaces report
+  work, mission or tournament state rather than clean-retry route execution.
+
+## INF-194 — Soundtrack and pulses cue the authored obstacle cadence
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the fixed soundtrack and synchronised visual pulses provide
+  recurring temporal cues for the authored obstacle sequence, letting learned
+  input timing be aligned before the corresponding geometry reaches the icon.
+- Includes: Stereo Madness's fixed music, colour pulses and repeated route timing.
+- Excludes: a song selected independently of level geometry; metronome scoring
+  that grades presses against beats; music muted as a parameter.
+- Parameters: song, offset, cue events, obstacle positions, audio latency,
+  visual pulse, mute state and learned timing.
+- Evidence: [Geometry Dash decomposition](../games/g-l/geometry-dash.md).
+- Novelty: first isolated for `GAME-0167`; earlier audio-timing genes telegraph
+  hostile attacks rather than one replayed platform route.
+
+## INF-185 — City panel exposes yields, growth, production and citizens
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the city interface shows population, worked tiles and specialists,
+  Food and growth, Housing, Amenities, current Production target/progress and
+  the city's other yield contributions before reassignment.
+- Includes: each Roman city in the scoped Civilization VI route.
+- Excludes: hidden rival city values; empire diplomacy; district placement preview.
+- Parameters: city, population, assignments, yields, food, growth, Housing,
+  Amenities, production target and progress.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`.
+
+## INF-186 — District lens exposes legal hexes and adjacency preview
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: before placement, the map marks district-eligible and ineligible
+  city hexes and exposes the adjacency yield predicted for each legal choice.
+- Includes: Campus, Industrial Zone and Spaceport placement in Civilization VI.
+- Excludes: hidden future resource spawns; citizen tile assignment; wonder animation.
+- Parameters: city, district, hex, legality, terrain, occupancy, neighbours and adjacency.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`.
+
+## INF-187 — Government view exposes typed slots and policy effects
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the government interface exposes available governments, their
+  inherent effects and typed slot frames, plus unlocked policy cards, card
+  effects, current assignments and incompatibility feedback.
+- Includes: base-game policy configuration in Civilization VI.
+- Excludes: hidden AI policies; expansion Governor promotions; civic-tree progress.
+- Parameters: government, effects, slot types, cards, assignments, unlocks and warnings.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`.
+
+## INF-188 — Diplomacy view exposes relationships, agreements and war state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: contacted-civilization views expose current relationship cues,
+  available deal terms, active agreements, war/peace state, treaty gates and
+  disclosed warmonger consequences before a diplomatic action.
+- Includes: Greece, Egypt and Germany in the scoped game.
+- Excludes: exact hidden future acceptance calculations; city-state envoy state;
+  multiplayer chat.
+- Parameters: rival, relationship, agenda feedback, deal terms, agreement,
+  war, peace, timer and warmonger value.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`.
+
+## INF-189 — Trade view exposes capacity, destinations and route yields
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: trader selection shows used and available route capacity,
+  eligible origin/destination pairs, predicted yields, duration and route state
+  before the player commits a destination.
+- Includes: domestic and international base-game trade routes.
+- Excludes: diplomatic lump-sum trades; hidden hostile routes; manual road planning.
+- Parameters: capacity, trader, origin, destination, path, yields, duration and trading post.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`.
+
+## INF-190 — Unit interface exposes movement, actions and combat forecast
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: selecting a unit exposes remaining movement, health, strength,
+  available commands, reachable hexes and the declared forecast for an eligible
+  attack before commitment.
+- Includes: Roman civilian, melee and ranged units in Civilization VI.
+- Excludes: exact hidden random damage; city production choices; rival future orders.
+- Parameters: unit, movement, health, strength, commands, range, target and forecast.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`.
+
+## INF-191 — Victory view exposes science milestones and rival progress
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the victory interface shows Rome's completed and outstanding
+  Science milestones and disclosed progress by each rival toward the enabled
+  terminal, allowing the remaining launch race to be compared.
+- Includes: Satellite, Moon Landing and three Mars modules in the scoped route.
+- Excludes: disabled victory conditions; exact future completion turns;
+  Gathering Storm exoplanet speed.
+- Parameters: civilization, enabled victory, milestone, completion, rival
+  comparison and terminal state.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
+- Novelty: first isolated for `GAME-0166`.
+
+## INF-204 — Driving HUD exposes speed, gear and route guidance
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the live driving view exposes current speed and gear together
+  with the authored or waypoint route cues needed to judge braking and steering.
+- Includes: Forza Horizon 6 speedometer, gear, minimap/GPS and configurable
+  driving line in the scoped opening.
+- Excludes: event eligibility before entry; hidden future traffic; post-event
+  settlement.
+- Parameters: speed, gear, route, minimap, driving line, braking cue, waypoint
+  and camera.
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Novelty: first isolated for `GAME-0171`; cargo-driving widgets join speed to
+  fuel, rest and damage rather than a race-oriented guidance layer.
+
+## INF-205 — Race HUD exposes position, course progress and nearby rivals
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during a driving event, the interface exposes current place or
+  timed target, lap/checkpoint progress, elapsed or remaining time and locally
+  sensed rival vehicles needed to revise the racing line.
+- Includes: Forza Horizon 6 Festival races and Time Attack in the scoped route,
+  including configurable Proximity Radar.
+- Excludes: omniscient future rival paths; free-roam traffic with no event
+  result; the final reward panel.
+- Parameters: position, participant count, lap, checkpoint, time, split,
+  proximity direction, distance and audio cue.
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Novelty: first isolated for `GAME-0171`; prior opponent HUD genes do not join
+  course progress to vehicle proximity and race position.
+
+## INF-206 — Map and event card expose driving-event terms
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the world map and selected event panel disclose its location,
+  type, route form, current unlock, vehicle eligibility and available reward or
+  campaign contribution before entry.
+- Includes: the six exposed Horizon Qualifiers and first Horizon Invitational.
+- Excludes: undiscovered optional content; live race position; post-completion
+  Race Customizer options unavailable on first play.
+- Parameters: marker, location, event type, route, car theme, class, unlock,
+  progress value and reward.
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Novelty: first isolated for `GAME-0171`; generic mission maps do not expose
+  one driving event's course and car-entry contract.
+
+## INF-207 — Festival meter exposes progress and the next Wristband gate
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the campaign interface shows retained Horizon Festival Points,
+  the required next threshold and whether the corresponding Wristband Event is
+  still locked or available.
+- Includes: the upper-right Qualifier meter and first Invitational status in
+  Forza Horizon 6.
+- Excludes: Discover Japan Stamp progress; live Festival Playlist points;
+  hidden future reward rolls.
+- Parameters: current points, threshold, remaining points, gate, invitation and
+  Wristband identity.
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Novelty: first isolated for `GAME-0171`; earlier progression interfaces do
+  not expose a heterogeneous driving-activity total and its terminal event gate.
+
+## INF-208 — Driving-event results expose performance and retained rewards
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after a valid finish, the results transition exposes place, time
+  or rating, earned Festival progress and any credits, experience, vehicles or
+  campaign unlocks retained from that event.
+- Includes: Forza Horizon 6 Qualifier and first-Wristband settlement panels.
+- Excludes: live HUD values before the finish; an unclaimed Playlist reward;
+  hidden future Wheelspin outcomes.
+- Parameters: event, position, time, stars, points, credits, experience, vehicle
+  and unlock.
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Novelty: first isolated for `GAME-0171`; delivery results expose contract
+  damage and pay, not competitive driving performance and festival progress.
