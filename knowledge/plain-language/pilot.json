@@ -26793,6 +26793,1958 @@
           "exampleEn": "The results panel adds Qualifier points to the meter."
         }
       }
+    },
+    "GAME-0172": {
+      "genes": {
+        "ACT-295": {
+          "labelUk": "Введи команду атаки",
+          "labelEn": "Enter an attack command",
+          "explanationUk": "Напрямки й кнопка вибирають одну допустиму атаку поточного бійця.",
+          "explanationEn": "Directions and a button select one legal attack owned by the current fighter.",
+          "exampleUk": "Ryu вводить Hadoken, щоб перевірити Luke на відстані.",
+          "exampleEn": "Ryu enters Hadoken to test Luke at range."
+        },
+        "ACT-296": {
+          "labelUk": "Тримай напрямлений блок",
+          "labelEn": "Hold directional guard",
+          "explanationUk": "Напрямок від суперника запитує стоячий або присілий блок.",
+          "explanationEn": "Holding away from the opponent requests standing or crouching guard.",
+          "exampleUk": "Ryu відступає напрямком назад і блокує удар Luke.",
+          "exampleEn": "Ryu holds back and blocks Luke's strike."
+        },
+        "ACT-297": {
+          "labelUk": "Кинь або вирвися з кидка",
+          "labelEn": "Throw or escape a throw",
+          "explanationUk": "Та сама близька команда захоплює суперника або в належне вікно скасовує його кидок.",
+          "explanationEn": "The same close input seizes the opponent or escapes their throw in its window.",
+          "exampleUk": "Одночасний Throw Escape розриває спробу захоплення.",
+          "exampleEn": "A timely Throw Escape breaks the grab attempt."
+        },
+        "ACT-298": {
+          "labelUk": "Витрать Drive на техніку",
+          "labelEn": "Spend Drive on a technique",
+          "explanationUk": "Один спільний запас оплачує Impact, Parry, Rush, Reversal і Overdrive.",
+          "explanationEn": "One shared reserve funds Impact, Parry, Rush, Reversal and Overdrive.",
+          "exampleUk": "Drive Parry витрачає доступний Drive заради захисної відповіді.",
+          "exampleEn": "Drive Parry uses available Drive for a defensive response."
+        },
+        "SYS-520": {
+          "labelUk": "Оновлюй Drive і Burnout",
+          "labelEn": "Update Drive and Burnout",
+          "explanationUk": "Шкала витрачається й відновлюється, а її вичерпання тимчасово змінює правила захисту.",
+          "explanationEn": "The gauge spends and recovers, while exhaustion temporarily changes defensive rules.",
+          "exampleUk": "Порожній Drive Gauge переводить Ryu в Burnout.",
+          "exampleEn": "An empty Drive Gauge puts Ryu into Burnout."
+        },
+        "SYS-522": {
+          "labelUk": "Зарахуй і скинь раунд",
+          "labelEn": "Award and reset a round",
+          "explanationUk": "KO або завершення часу дає позначку й готує наступний раунд до другої перемоги.",
+          "explanationEn": "KO or time expiry grants a marker and prepares the next round until the second win.",
+          "exampleUk": "Після першого KO життєва сила скидається, а рахунок стає 1:0.",
+          "exampleEn": "After the first KO, vitality resets and the score becomes 1–0."
+        },
+        "CON-443": {
+          "labelUk": "Тримай дистанцію в межах арени",
+          "labelEn": "Keep spacing inside the arena",
+          "explanationUk": "Краї сцени й тіла бійців визначають кут, перехід сторін і доступну відстань.",
+          "explanationEn": "Stage edges and fighter bodies determine corners, side switches and available distance.",
+          "exampleUk": "Luke не може відступити далі після входу в кут.",
+          "exampleEn": "Luke cannot retreat farther after entering the corner."
+        },
+        "CON-444": {
+          "labelUk": "Май запас і не будь у Burnout",
+          "labelEn": "Have stock and avoid Burnout",
+          "explanationUk": "Техніка Drive потребує своєї вартості й недоступна після повного виснаження шкали.",
+          "explanationEn": "A Drive technique needs its cost and is unavailable after complete gauge exhaustion.",
+          "exampleUk": "У Burnout Ryu не може виконати Drive Impact.",
+          "exampleEn": "In Burnout, Ryu cannot perform Drive Impact."
+        },
+        "OBJ-099": {
+          "labelUk": "Виграй два раунди",
+          "labelEn": "Win two rounds",
+          "explanationUk": "Матч завершується, коли один із фіксованих бійців першим отримує дві позначки.",
+          "explanationEn": "The match ends when one fixed fighter earns two round markers first.",
+          "exampleUk": "Другий KO Luke відкриває екран перемоги Ryu.",
+          "exampleEn": "A second KO of Luke opens Ryu's victory result."
+        }
+      },
+      "structural": {
+        "ACT-008": {
+          "labelUk": "Змінюй дистанцію рухом",
+          "labelEn": "Change spacing by moving",
+          "explanationUk": "Ходьба, присідання, стрибок і ривок ставлять бійця на нову дистанцію.",
+          "explanationEn": "Walking, crouching, jumping and dashing place the fighter at a new range.",
+          "exampleUk": "Ryu крокує вперед до дистанції кидка.",
+          "exampleEn": "Ryu walks forward into throw range."
+        },
+        "ACT-294": {
+          "labelUk": "Признач бійців і керування",
+          "labelEn": "Assign fighters and controls",
+          "explanationUk": "Підготовка фіксує Ryu, Luke, сторони та Classic controls до раунду.",
+          "explanationEn": "Setup fixes Ryu, Luke, sides and Classic controls before the round.",
+          "exampleUk": "P1 отримує бійця Ryu, а роль CPU отримує бійця Luke.",
+          "exampleEn": "P1 receives Ryu and the CPU receives Luke."
+        },
+        "SYS-215": {
+          "labelUk": "Розв’язуй живий бойовий контакт",
+          "labelEn": "Resolve live combat contact",
+          "explanationUk": "Дистанція, атака, захист і стан тіла визначають удар, блок або промах.",
+          "explanationEn": "Range, attack, defence and body state determine a hit, block or miss.",
+          "exampleUk": "Hadoken завдає шкоди лише після допустимого контакту з Luke.",
+          "exampleEn": "Hadoken damages Luke only after legal contact."
+        },
+        "SYS-521": {
+          "labelUk": "Накопичуй і перенось Super",
+          "labelEn": "Build and carry Super",
+          "explanationUk": "Бойові події наповнюють три поділки, а невитрачений запас переходить між раундами.",
+          "explanationEn": "Combat events fill three stocks, and unspent stock carries between rounds.",
+          "exampleUk": "Одна збережена поділка лишається після першого KO.",
+          "exampleEn": "One saved stock remains after the first KO."
+        },
+        "CON-442": {
+          "labelUk": "Дочекайся діяльного стану",
+          "labelEn": "Wait for an actionable state",
+          "explanationUk": "Відновлення, поза й схема команди визначають, чи може наступний рух початися.",
+          "explanationEn": "Recovery, pose and command mapping determine whether the next move can begin.",
+          "exampleUk": "Ryu не починає Hadoken посеред власного нокдауну.",
+          "exampleEn": "Ryu cannot start Hadoken during his own knockdown."
+        },
+        "CON-445": {
+          "labelUk": "Сплати рівень Super Art",
+          "labelEn": "Pay the Super Art level",
+          "explanationUk": "Прийом рівня 1, 2 або 3 потребує не менше відповідної кількості поділок.",
+          "explanationEn": "A level 1, 2 or 3 art needs at least the matching number of stocks.",
+          "exampleUk": "Level 3 недоступний із двома поділками.",
+          "exampleEn": "Level 3 is unavailable with two stocks."
+        },
+        "CON-446": {
+          "labelUk": "Дотримуйся меж раунду й матчу",
+          "labelEn": "Obey round and match limits",
+          "explanationUk": "Життєва сила, 99 секунд і дві перемоги задають скінченний горизонт.",
+          "explanationEn": "Vitality, 99 seconds and two wins define the finite horizon.",
+          "exampleUk": "Після нуля на таймері раунд порівнює залишок життєвої сили.",
+          "exampleEn": "At zero on the timer, the round compares remaining vitality."
+        },
+        "INF-209": {
+          "labelUk": "Читай позу й дистанцію",
+          "labelEn": "Read pose and spacing",
+          "explanationUk": "Спільний бічний огляд показує обох бійців і поточний стан контакту.",
+          "explanationEn": "The shared side view shows both fighters and their current contact state.",
+          "exampleUk": "Нокдаун Luke видно до початку його підйому.",
+          "exampleEn": "Luke's knockdown is visible before his wake-up begins."
+        },
+        "INF-210": {
+          "labelUk": "Читай парний бойовий HUD",
+          "labelEn": "Read the paired fight HUD",
+          "explanationUk": "HUD разом показує vitality, Drive, Super, таймер і позначки раундів.",
+          "explanationEn": "The HUD shows vitality, Drive, Super, timer and round markers together.",
+          "exampleUk": "Шість синіх поділок показують повний Drive Luke.",
+          "exampleEn": "Six blue stocks show Luke's full Drive."
+        },
+        "TIM-003": {
+          "labelUk": "Дій у реальному часі, поки бій триває",
+          "labelEn": "Act while the fight advances",
+          "explanationUk": "Обидва бійці, снаряди, відновлення й таймер змінюються без черг.",
+          "explanationEn": "Both fighters, projectiles, recovery and the timer change without turns.",
+          "exampleUk": "Luke може відповісти, поки Hadoken летить через арену.",
+          "exampleEn": "Luke can respond while Hadoken crosses the arena."
+        }
+      },
+      "supporting": {
+        "INF-142": {
+          "labelUk": "Розпізнавай бойові підказки",
+          "labelEn": "Recognise combat cues",
+          "explanationUk": "Рух, звук, ефект контакту й повідомлення допомагають оцінити мить відповіді.",
+          "explanationEn": "Motion, sound, contact effects and notices help judge response timing.",
+          "exampleUk": "Напис Throw Escape підтверджує вчасну відповідь на кидок.",
+          "exampleEn": "The Throw Escape notice confirms a timely response."
+        }
+      }
+    },
+    "GAME-0173": {
+      "genes": {
+        "ACT-299": {
+          "labelUk": "Вибери одну з трьох кімнат",
+          "labelEn": "Choose one of three rooms",
+          "explanationUk": "За невідчиненими дверима один показаний план стає наступною кімнатою.",
+          "explanationEn": "At an unopened door, one displayed plan becomes the next room.",
+          "exampleUk": "Гравець обирає Hallway замість двох інших планів.",
+          "exampleEn": "The player chooses the Hallway over the other two plans."
+        },
+        "SYS-523": {
+          "labelUk": "Добери три придатні плани",
+          "labelEn": "Sample three eligible plans",
+          "explanationUk": "Позиція й стан маєтку визначають, які авторські кімнати потраплять у пропозицію.",
+          "explanationEn": "Manor position and state determine which authored rooms enter the offer.",
+          "exampleUk": "За дверима з’являються три плани, допустимі для цієї ділянки.",
+          "exampleEn": "The door reveals three plans eligible for that location."
+        },
+        "SYS-524": {
+          "labelUk": "Приєднай вибрану кімнату",
+          "labelEn": "Attach the drafted room",
+          "explanationUk": "Вибір займає клітину, додає двері до графа й застосовує ефект кімнати.",
+          "explanationEn": "The choice occupies a cell, adds doors to the graph and applies the room effect.",
+          "exampleUk": "Hallway створює нове продовження на північ.",
+          "exampleEn": "The Hallway creates a new continuation to the north."
+        },
+        "SYS-526": {
+          "labelUk": "Перебудуй маєток наступного ранку",
+          "labelEn": "Rebuild the manor next morning",
+          "explanationUk": "Кімнати й щоденні ресурси зникають, а явно постійний прогрес лишається.",
+          "explanationEn": "Rooms and daily resources disappear while declared permanent progress remains.",
+          "exampleUk": "Новий день починає інше креслення зі збереженою підказкою.",
+          "exampleEn": "A new day starts another layout with a retained clue."
+        },
+        "CON-447": {
+          "labelUk": "Умісти кімнату у вільній клітині",
+          "labelEn": "Fit the room into a vacant cell",
+          "explanationUk": "План має лежати в межах сітки та з’єднатися потрібними вхідними дверима.",
+          "explanationEn": "A plan must stay inside the grid and connect through the required entry door.",
+          "exampleUk": "Кімната не розміщується за краєм плану 5 × 9.",
+          "exampleEn": "A room cannot be placed beyond the 5 × 9 plan."
+        },
+        "CON-448": {
+          "labelUk": "Май крок для переходу",
+          "labelEn": "Have a step for traversal",
+          "explanationUk": "Кожен перехід між сусідніми кімнатами потребує й забирає щоденний крок.",
+          "explanationEn": "Each move between adjacent rooms requires and spends a daily step.",
+          "exampleUk": "Перехід до Hallway зменшує 26 кроків до 25.",
+          "exampleEn": "Entering the Hallway reduces 26 steps to 25."
+        },
+        "INF-211": {
+          "labelUk": "Прочитай план кімнати до вибору",
+          "labelEn": "Read the room plan before choosing",
+          "explanationUk": "Картка показує двері, тип, вартість і заявлений ефект кандидата.",
+          "explanationEn": "The card shows a candidate's doors, type, cost and declared effect.",
+          "exampleUk": "Середня картка показує два виходи й ціну в один самоцвіт.",
+          "exampleEn": "The middle card shows two exits and a one-gem cost."
+        },
+        "OBJ-026": {
+          "labelUk": "Дістанься Room 46",
+          "labelEn": "Reach Room 46",
+          "explanationUk": "Побудуй зв’язний шлях і вперше перейди у приховану цільову кімнату.",
+          "explanationEn": "Build a connected path and enter the hidden target room for the first time.",
+          "exampleUk": "Останні двері відкривають перший перехід у Room 46.",
+          "exampleEn": "The final doorway opens the first transition into Room 46."
+        }
+      },
+      "structural": {
+        "ACT-008": {
+          "labelUk": "Переходь з кімнати в кімнату",
+          "labelEn": "Move from room to room",
+          "explanationUk": "Гравець безпосередньо проходить крізь відкриті двері з’єднаного маєтку.",
+          "explanationEn": "The player directly walks through open doors in the connected manor.",
+          "exampleUk": "Із Entrance Hall гравець переходить у створену кімнату.",
+          "exampleEn": "The player leaves the Entrance Hall for a drafted room."
+        },
+        "ACT-300": {
+          "labelUk": "Заверши поточний день",
+          "labelEn": "End the current day",
+          "explanationUk": "Call it a Day свідомо відкидає поточний маршрут заради нового ранку.",
+          "explanationEn": "Call it a Day deliberately abandons the current route for a new morning.",
+          "exampleUk": "Заблокований план спонукає завершити день.",
+          "exampleEn": "A blocked layout prompts the player to end the day."
+        },
+        "SYS-525": {
+          "labelUk": "Оновлюй щоденні запаси",
+          "labelEn": "Update daily supplies",
+          "explanationUk": "Переходи й взаємодії змінюють кроки, ключі, самоцвіти, монети та предмети.",
+          "explanationEn": "Traversal and interactions change steps, keys, gems, coins and items.",
+          "exampleUk": "Ключ зникає після відкриття замкненої скрині.",
+          "exampleEn": "A key disappears after opening a locked trunk."
+        },
+        "CON-188": {
+          "labelUk": "Зафіксуй лише один план",
+          "labelEn": "Commit only one plan",
+          "explanationUk": "Після вибору дві інші кімнати з цієї пропозиції зникають.",
+          "explanationEn": "After selection, the other two rooms in that offer disappear.",
+          "exampleUk": "Hallway займає клітину, а Parlor і Bedroom відхиляються.",
+          "exampleEn": "The Hallway occupies the cell while the Parlor and Bedroom are rejected."
+        },
+        "CON-403": {
+          "labelUk": "Сплати потрібним типом ресурсу",
+          "labelEn": "Pay with the required resource type",
+          "explanationUk": "Ключі, самоцвіти й монети діють лише на сумісні замки, плани та крамниці.",
+          "explanationEn": "Keys, gems and coins apply only to compatible locks, plans and shops.",
+          "exampleUk": "Монети не замінюють самоцвіт у вартості рідкісної кімнати.",
+          "exampleEn": "Coins cannot replace a gem in a rare room cost."
+        },
+        "INF-180": {
+          "labelUk": "Читай відкритий граф кімнат",
+          "labelEn": "Read the explored room graph",
+          "explanationUk": "Карта зберігає зайняті клітини, зв’язки, поточну позицію й відомі ролі.",
+          "explanationEn": "The map retains occupied cells, connections, current position and known roles.",
+          "exampleUk": "На плані видно незайняту клітину на північ від Hallway.",
+          "exampleEn": "The plan shows a vacant cell north of the Hallway."
+        },
+        "INF-212": {
+          "labelUk": "Читай ресурси на HUD",
+          "labelEn": "Read resources on the HUD",
+          "explanationUk": "Інтерфейс разом показує кроки, ключі, самоцвіти, монети й предмети.",
+          "explanationEn": "The interface shows steps, keys, gems, coins and items together.",
+          "exampleUk": "HUD показує 26 кроків, 2 ключі, 1 самоцвіт і 4 монети.",
+          "exampleEn": "The HUD shows 26 steps, 2 keys, 1 gem and 4 coins."
+        },
+        "TIM-002": {
+          "labelUk": "Обмірковуй без годинника",
+          "labelEn": "Think without a clock",
+          "explanationUk": "Кімната не змінюється сама, поки гравець читає план або підказку.",
+          "explanationEn": "The room does not advance by itself while the player reads a plan or clue.",
+          "exampleUk": "Три картки можна порівнювати без втрати кроків.",
+          "exampleEn": "The three cards can be compared without losing steps."
+        }
+      },
+      "supporting": {
+        "ACT-087": {
+          "labelUk": "Застосуй предмет до сумісного об’єкта",
+          "labelEn": "Apply an item to a compatible fixture",
+          "explanationUk": "Належний ключ або інструмент змінює адресований об’єкт кімнати.",
+          "explanationEn": "The matching key or tool changes an addressed room fixture.",
+          "exampleUk": "Ключ відкриває конкретну замкнену скриню.",
+          "exampleEn": "A key opens a specific locked trunk."
+        },
+        "ACT-089": {
+          "labelUk": "Візьми предмет із кімнати",
+          "labelEn": "Take an item from the room",
+          "explanationUk": "Досяжна знахідка зникає зі сцени й переходить до інвентарю.",
+          "explanationEn": "A reachable find leaves the scene and enters inventory.",
+          "exampleUk": "Гравець підбирає ключ зі столу.",
+          "exampleEn": "The player takes a key from the table."
+        },
+        "ACT-130": {
+          "labelUk": "Купи запропонований товар",
+          "labelEn": "Buy an offered good",
+          "explanationUk": "Доступна крамниця обмінює оголошену кількість монет на один товар.",
+          "explanationEn": "An available shop exchanges the listed coin amount for one good.",
+          "exampleUk": "Чотири монети оплачують корисний предмет.",
+          "exampleEn": "Four coins pay for a useful item."
+        },
+        "ACT-131": {
+          "labelUk": "Споживи предмет негайної дії",
+          "labelEn": "Consume an immediate-effect item",
+          "explanationUk": "Один утримуваний предмет зникає після миттєвого ефекту.",
+          "explanationEn": "One held item disappears after its immediate effect.",
+          "exampleUk": "Фрукт зникає й додає кроки.",
+          "exampleEn": "A fruit disappears and adds steps."
+        },
+        "INF-012": {
+          "labelUk": "Повертайся до адресованих підказок",
+          "labelEn": "Revisit addressed clues",
+          "explanationUk": "Розподілені факти прив’язані до конкретних кімнат і можуть зіставлятися.",
+          "explanationEn": "Distributed facts are tied to specific rooms and can be cross-referenced.",
+          "exampleUk": "Напис у кімнаті пояснює символ, побачений раніше.",
+          "exampleEn": "A room inscription explains a symbol seen earlier."
+        },
+        "INF-213": {
+          "labelUk": "Оглянь поточну кімнату",
+          "labelEn": "Inspect the current room",
+          "explanationUk": "Сцена показує виходи, замки, предмети, товари, ефекти й підказки.",
+          "explanationEn": "The scene exposes exits, locks, items, goods, effects and clues.",
+          "exampleUk": "У Hallway видно північні двері та предмет на полиці.",
+          "exampleEn": "The Hallway shows a north door and an item on a shelf."
+        }
+      }
+    },
+    "GAME-0174": {
+      "genes": {
+        "ACT-188": {
+          "labelUk": "Закріпити одного персонажа й варіант розвитку за місцем у команді",
+          "labelEn": "Commit one match hero and build option",
+          "explanationUk": "Під час обмеженого командного вибору гравець закріплює за своїм місцем одного доступного персонажа та показаний перед матчем або відкритий пізніше варіант його розвитку.",
+          "explanationEn": "during bounded team selection, the player commits one available match character and any disclosed pre-match or later gated build branch to the current slot.",
+          "exampleUk": "П’ятий гравець обирає ще не зайнятого нападника.",
+          "exampleEn": "The fifth player commits an unoccupied attacker."
+        },
+        "ACT-212": {
+          "labelUk": "Додати або зняти один шар барикади",
+          "labelEn": "Attach or remove defensive material from an opening or surface",
+          "explanationUk": "Гравець обирає доступний бік дверей чи вікна й за допомогою відповідних інструментів додає один шар дощок або металу. Так само можна зняти вже встановлений шар, якщо до нього є доступ і потрібні інструменти.",
+          "explanationEn": "the player targets a reachable eligible opening or surface and uses compatible material to add one defensive layer or remove one legally removable layer from that same target.",
+          "exampleUk": "Захисник підсилює м’яку стіну між двома кімнатами.",
+          "exampleEn": "A defender reinforces a soft wall between two rooms."
+        },
+        "ACT-301": {
+          "labelUk": "Заборонити одного оператора протилежної ролі",
+          "labelEn": "Ban one eligible opposing-role operator",
+          "explanationUk": "Під час запланованої фази командою додати допустимого оператора протилежної ролі до спільного списку недоступних.",
+          "explanationEn": "during a scheduled roster-denial phase, one team commits an eligible operator from the opposing role to the shared unavailable pool.",
+          "exampleUk": "Команда забороняє одного доступного нападника.",
+          "exampleEn": "The team bans one eligible attacker."
+        },
+        "ACT-302": {
+          "labelUk": "Керувати активним пристроєм спостереження або його каналом",
+          "labelEn": "Direct one live observation device or feed",
+          "explanationUk": "Увійти до каналу справного віддаленого пристрою та, якщо можливо, рухати чи повертати його, сканувати або ставити позначку.",
+          "explanationEn": "the player enters one surviving remote observation feed and, where supported, moves or rotates its device and requests a scan or ping.",
+          "exampleUk": "Гравець повертає камеру й позначає видимий рух.",
+          "exampleEn": "The player rotates a camera and pings visible movement."
+        },
+        "ACT-303": {
+          "labelUk": "Проламати допустиму поверхню",
+          "labelEn": "Breach one eligible constructed surface",
+          "explanationUk": "Застосувати сумісний удар, вибухівку або hard-breach засіб до стіни, підлоги, стелі, дверей чи вікна, щоб створити прохід або лінію огляду.",
+          "explanationEn": "the player targets an eligible wall, floor, ceiling, door or window and commits a compatible impact, explosive or hard-breach tool to open or enlarge traversable, visible or penetrable geometry.",
+          "exampleUk": "Hard-breach заряд відкриває підсилену стіну.",
+          "exampleEn": "A hard-breach charge opens a reinforced wall."
+        },
+        "SYS-294": {
+          "labelUk": "Визначати результат асиметричного раунду з установленням і знешкодженням бомби",
+          "labelEn": "Adjudicate an asymmetric bomb-defusal round",
+          "explanationUk": "Система присуджує перемогу в раунді за визначеним порядком між загибеллю команди, завершенням часу без установленої бомби, установленням C4, знешкодженням і вибухом. Уже встановлена бомба лишається активною після загибелі терористів або завершення початкового відліку.",
+          "explanationEn": "the system awards one round from the ordered interaction among team elimination, unplanted round timeout, device planting, neutralisation and planted-device completion, preserving the live objective beyond relevant elimination or the original clock.",
+          "exampleUk": "Після встановлення деф’юзера його таймер має пріоритет над старим годинником.",
+          "exampleEn": "After the plant, the defuser timer supersedes the old clock."
+        },
+        "SYS-527": {
+          "labelUk": "Обробляти рух, канал, сканування й втрату пристрою спостереження",
+          "labelEn": "Resolve observation-device movement, feed, scan and loss",
+          "explanationUk": "Перетворювати положення та поле справного віддаленого пристрою на командне зображення чи позначку й забирати доступ після знищення.",
+          "explanationEn": "a surviving remote device resolves its supported movement, orientation and local field into a live team feed or marked observation, and removes that access when the device is disabled or destroyed.",
+          "exampleUk": "Знищення дрона одразу прибирає його канал.",
+          "exampleEn": "Destroying a drone immediately removes its feed."
+        },
+        "SYS-528": {
+          "labelUk": "Накладати захисні шари на допустимі поверхні",
+          "labelEn": "Apply defensive fortification layers to eligible surfaces",
+          "explanationUk": "Перетворювати допустимий отвір або м’яку поверхню на барикадований чи підсилений стан зі зміненими правилами доступу й пролому.",
+          "explanationEn": "a legal defender placement converts an eligible opening or soft surface into its declared barricaded or reinforced layer, changing access, penetration, sight and compatible breach requirements.",
+          "exampleUk": "Підсилення змінює м’яку стіну на hard-breach ціль.",
+          "exampleEn": "A reinforcement turns a soft wall into a hard-breach target."
+        },
+        "SYS-529": {
+          "labelUk": "Обробляти поранення, відновлення союзником і остаточне вибуття",
+          "labelEn": "Resolve injury, team revival and final round elimination",
+          "explanationUk": "Переводити допустиму шкоду у тимчасове поранення, повертати гравця після законного відновлення або остаточно вилучати його до кінця раунду.",
+          "explanationEn": "qualifying damage may place a living participant into a bounded injured state; a legal ally revival returns control with configured health, while further or disqualifying damage finalises removal for the round.",
+          "exampleUk": "Завершене відновлення повертає пораненого союзника з налаштованим здоров’ям.",
+          "exampleEn": "A completed revive returns the injured ally with configured health."
+        },
+        "SYS-530": {
+          "labelUk": "Відновлювати й обертати локальний стан облоги між раундами",
+          "labelEn": "Rebuild and rotate round-local siege state",
+          "explanationUk": "Після раунду відновити операторів і мапу, прибрати руйнування та пристрої, зберегти рахунок і застосувати наступні ролі, майданчик та бани.",
+          "explanationEn": "after a settled round, the system restores operators and the authored map, clears round-local destruction, construction, devices and injuries, retains the match score and applies the next site, role and ban schedule state.",
+          "exampleUk": "Новий раунд відновлює стіни, пристрої та операторів, але не рахунок.",
+          "exampleEn": "The next round restores walls, devices and operators, but not score."
+        },
+        "CON-449": {
+          "labelUk": "Розділяти рольові дії фазами підготовки та дії",
+          "labelEn": "Preparation and action phases gate role-specific control",
+          "explanationUk": "До фази дії обмежувати нападників спостереженням, дозволяти захисникам фортифікацію, а потім відкривати живий бій і ціль.",
+          "explanationEn": "before the action phase, attackers are restricted to supported observation control while defenders may move, fortify and deploy; action unlocks attacker bodies and the live combat/objective rules for both roles.",
+          "exampleUk": "У Preparation нападник керує дроном, але не тілом.",
+          "exampleEn": "During Preparation, an attacker controls a drone rather than the body."
+        },
+        "CON-450": {
+          "labelUk": "Вимагати сумісну поверхню й запас для фортифікації та gadget-а",
+          "labelEn": "Fortification and gadget deployment require eligible surface and stock",
+          "explanationUk": "Дозволяти захисний шар або gadget лише на досяжній сумісній поверхні за наявності особистого чи командного запасу.",
+          "explanationEn": "a defensive layer or gadget can be deployed only on a compatible, reachable and currently available surface while the responsible personal or team stock remains.",
+          "exampleUk": "Підсилення потребує вільної м’якої стіни та командного запасу.",
+          "exampleEn": "A reinforcement needs a free soft wall and team stock."
+        },
+        "CON-451": {
+          "labelUk": "Вимагати справний канал спостереження й лишати тіло вразливим",
+          "labelEn": "Observation control requires a live feed and exposes the body",
+          "explanationUk": "Дозволяти віддалене спостереження лише через доступний живий пристрій, поки тіло оператора лишається у світі та може бути атаковане.",
+          "explanationEn": "remote observation is available only through a surviving, accessible device feed; while attention controls that feed, the operator's body remains in the live world and can be attacked.",
+          "exampleUk": "Поки гравець дивиться камеру, його тіло можна атакувати.",
+          "exampleEn": "While a player watches a camera, their body can be attacked."
+        },
+        "INF-214": {
+          "labelUk": "Показувати команді інформацію в межах пристрою спостереження",
+          "labelEn": "Observation network exposes device-bounded team intelligence",
+          "explanationUk": "Показувати поле, рух і позначки кожного справного пристрою допустимим союзникам разом зі станом доступності каналу.",
+          "explanationEn": "each surviving observation device exposes only its current field, motion and supported markings to eligible teammates, with feed availability and loss visible before an information decision.",
+          "exampleUk": "Жива камера показує команді лише власне поле огляду.",
+          "exampleEn": "A live camera exposes only its own field to the team."
+        },
+        "INF-215": {
+          "labelUk": "Показувати матеріал, фортифікацію й пролом локальної поверхні",
+          "labelEn": "Local surfaces expose material, fortification and breach state",
+          "explanationUk": "Візуально й звуком розрізняти м’які, барикадовані, підсилені, пошкоджені та відкриті стани для вибору сумісної дії.",
+          "explanationEn": "visible geometry and feedback distinguish relevant soft, barricaded, reinforced, damaged and opened states sufficiently to choose a compatible line of fire, fortification or breach action.",
+          "exampleUk": "Вигляд стіни відрізняє м’який, підсилений і пробитий стан.",
+          "exampleEn": "The wall view distinguishes soft, reinforced and breached states."
+        },
+        "OBJ-071": {
+          "labelUk": "Першим виграти тринадцять раундів матчу з бомбою",
+          "labelEn": "Win the regulation bomb-defusal match by round score",
+          "explanationUk": "Команда має раніше за суперника набрати тринадцять перемог у раундах основного часу; рівний рахунок після двадцять четвертого дозволеного раунду завершує матч нічиєю.",
+          "explanationEn": "accumulate the clinching bomb-round score before the opposing team under the declared finite regulation and draw or overtime policy.",
+          "exampleUk": "Команда завершує мапу, досягнувши потрібного рахунку раундів.",
+          "exampleEn": "A team wins the map by reaching the required round score."
+        }
+      },
+      "structural": {
+        "ACT-008": {
+          "labelUk": "Безпосередньо пересувати керованого персонажа",
+          "labelEn": "Navigate controllable agent",
+          "explanationUk": "Гравець сам керує рухом одного персонажа крізь прохідну частину рівня, подаючи команди для ходьби, бігу чи стрибка, а не вибираючи віддалене місце для автоматичного пошуку шляху.",
+          "explanationEn": "the player directly advances one persistent controllable agent through traversable level geometry according to local movement inputs rather than selecting a remote destination for automatic pathfinding.",
+          "exampleUk": "Оператор переходить коридором до Bomb A.",
+          "exampleEn": "An operator crosses the corridor toward Bomb A."
+        },
+        "ACT-161": {
+          "labelUk": "Прицілитися й атакувати досяжного ворога поточною зброєю",
+          "labelEn": "Aim and strike a reachable hostile with the current tool",
+          "explanationUk": "Гравець наводить споряджену зброю ближнього або дальнього бою на досяжного ворога й сам завдає удару чи виконує постріл, а не віддає наказ автономному загону й не вибирає абстрактну ціль картки.",
+          "explanationEn": "the player aims an equipped melee or ranged combat tool at one reachable hostile and commits a direct strike or shot rather than assigning an autonomous squad or selecting an abstract card target.",
+          "exampleUk": "Нападник веде прицільний вогонь крізь відкритий пролом.",
+          "exampleEn": "An attacker aims through the opened breach."
+        },
+        "ACT-185": {
+          "labelUk": "Безперервно встановлювати або знешкоджувати бомбу",
+          "labelEn": "Commit a planted round-device activation or neutralisation channel",
+          "explanationUk": "Гравець, який виконав потрібні умови, утримує взаємодію з ціллю протягом визначеного часу без переривання, щоб установити вибухівку зі спорядження або знешкодити вже активний пристрій.",
+          "explanationEn": "an eligible player holds the objective interaction continuously for its declared duration to activate a carried round device at a valid site or neutralise the active planted device.",
+          "exampleUk": "Носій сім секунд безперервно встановлює деф’юзер.",
+          "exampleEn": "The carrier plants the defuser for seven uninterrupted seconds."
+        },
+        "ACT-187": {
+          "labelUk": "Передати союзникам поточне спостереження, попередження або план",
+          "labelEn": "Communicate a live tactical cue to teammates",
+          "explanationUk": "Поки спільна гра триває в реальному часі, гравець навмисно повідомляє команді про позицію, побачену подію, небезпеку чи задум через доступний голосовий, текстовий, радіоканал або позначку.",
+          "explanationEn": "a player deliberately transmits a current position, observation, warning or plan through the bounded team communication channel while the shared real-time contest continues.",
+          "exampleUk": "Дрон-оператор повідомляє про захисника біля Bomb B.",
+          "exampleEn": "The drone operator calls a defender near Bomb B."
+        },
+        "ACT-190": {
+          "labelUk": "Застосувати здібність героя або активну дію предмета",
+          "labelEn": "Cast one hero or item ability",
+          "explanationUk": "Гравець активує вивчену здібність героя або активну властивість предмета й указує потрібну істоту, точку, вектор, напрям або застосовує її без окремої цілі.",
+          "explanationEn": "the player activates one learned hero skill or carried item active and supplies its legal unit, point, vector or no-target input.",
+          "exampleUk": "Оператор активує свій gadget на допустимій цілі.",
+          "exampleEn": "An operator activates their gadget on a legal target."
+        },
+        "ACT-215": {
+          "labelUk": "Підготувати обмежений комплект спорядження",
+          "labelEn": "Configure one bounded compatible combat loadout",
+          "explanationUk": "Перед вилазкою або бойовим відрізком гравець заповнює обмежену кількість місць зброєю, захистом, пристроями та іншими можливостями, що відповідають вибраній схемі спорядження.",
+          "explanationEn": "at an eligible preparation state, the player fills or revises bounded equipment and capability slots for the next controlled deployment or live segment.",
+          "exampleUk": "Перед раундом оператор обирає зброю й secondary gadget.",
+          "exampleEn": "Before the round, the operator chooses a weapon and secondary gadget."
+        },
+        "ACT-241": {
+          "labelUk": "Оживити або перемістити пораненого союзника",
+          "labelEn": "Revive or reposition one eligible downed ally",
+          "explanationUk": "Гравець взаємодіє з досяжним пораненим союзником, за наявності такого правила може перемістити його й завершує оживлення або застосовує миттєвий засіб до завершення відведеного часу.",
+          "explanationEn": "the player addresses one reachable downed ally, optionally repositions that body where the rules allow it and commits the required revival channel or instant tool before the downed opportunity expires.",
+          "exampleUk": "Союзник завершує відновлення пораненого захисника.",
+          "exampleEn": "A teammate completes the injured defender’s revival."
+        },
+        "SYS-208": {
+          "labelUk": "Розрахувати влучання дистанційної атаки з урахуванням укриття й частини тіла",
+          "labelEn": "Resolve drafted ranged attack through cover and body hit",
+          "explanationUk": "Під час дистанційної атаки прицілювання, відстань, укриття, броня й місце влучання визначають промах або шкоду конкретній частині тіла.",
+          "explanationEn": "a commanded ranged attack resolves aim, range, intervening cover, armour and hit location into a miss or a wound on a specific body part.",
+          "exampleUk": "Постріл проходить крізь м’який матеріал і влучає в оператора.",
+          "exampleEn": "A shot penetrates soft material and hits an operator."
+        },
+        "SYS-215": {
+          "labelUk": "Проводити безпосередньо керований бій у реальному часі",
+          "labelEn": "Resolve directly commanded real-time hostile combat",
+          "explanationUk": "Учасники бою рухаються, вибирають досяжні цілі, атакують і зазнають шкоди одночасно. Результати залежать від відстані, темпу атак, сили ударів, захисту та умов поразки.",
+          "explanationEn": "directly controlled combatants acquire or receive legal targets and exchange range-, cadence-, damage-, defence- and defeat-dependent effects while the world continues in real time.",
+          "exampleUk": "Обидві команди рухаються й стріляють одночасно.",
+          "exampleEn": "Both teams move and fire at the same time."
+        },
+        "SYS-296": {
+          "labelUk": "Після першої половини міняти команди сторонами й скидати їхні гроші",
+          "labelEn": "Swap team roles under retained match score",
+          "explanationUk": "Після дванадцяти раундів ті самі команди міняються ролями терористів і контртерористів та починають другу половину з початковою сумою грошей, але зберігають здобутий рахунок раундів.",
+          "explanationEn": "at the declared match boundary, the two fixed teams exchange attacker and defender roles, retain the round score and apply the next role-local starting-state policy.",
+          "exampleUk": "Після шести раундів команди міняються ролями зі збереженим рахунком.",
+          "exampleEn": "After six rounds, teams swap roles with score retained."
+        },
+        "SYS-380": {
+          "labelUk": "Застосувати бойовий ефект здібності або пристрою",
+          "labelEn": "Resolve a selected ability into its typed live effect",
+          "explanationUk": "Коли гравець застосовує готову здібність або споряджений пристрій до відповідної цілі чи ділянки, гра виконує передбачену дію: завдає шкоди, лікує, поповнює запаси, ремонтує, виявляє, захищає, переміщує, обмежує рух або створює місце висадження.",
+          "explanationEn": "a legal selected ability or equipped gadget applies its authored combination of damage, healing, supply, repair, spotting, protection, displacement, movement, control or deployment to eligible live targets or space.",
+          "exampleUk": "Gadget застосовує свій типізований ефект до цілі.",
+          "exampleEn": "A gadget applies its typed effect to the target."
+        },
+        "SYS-386": {
+          "labelUk": "Руйнувати частини арени, не зачіпаючи основу маршруту",
+          "labelEn": "Destroy eligible arena geometry while preserving route anchors",
+          "explanationUk": "Достатньо сильні атаки ламають або прибирають окремі частини мапи, змінюючи лінії огляду, укриття й шляхи. Основні елементи цілі та пересування залишаються неруйнівними.",
+          "explanationEn": "sufficient attack impact removes or fractures map elements marked destructible, changing local sightlines, cover or paths while essential objective and traversal anchors remain indestructible.",
+          "exampleUk": "Зруйнована м’яка стіна відкриває нову лінію огляду.",
+          "exampleEn": "A destroyed soft wall opens a new sightline."
+        },
+        "CON-263": {
+          "labelUk": "Загибель блокує керування до початку наступного раунду",
+          "labelEn": "Elimination suspends control until the next round",
+          "explanationUk": "Загиблий учасник не може рухатися, атакувати або взаємодіяти з ціллю до кінця поточного раунду й повертається лише на початку наступного.",
+          "explanationEn": "a defeated participant cannot move, attack or operate the objective for the remainder of the current round and returns only at the following round boundary.",
+          "exampleUk": "Після остаточного вибуття керування повернеться лише наступного раунду.",
+          "exampleEn": "After final elimination, body control returns only next round."
+        },
+        "CON-264": {
+          "labelUk": "Установлення й знешкодження бомби потребують правильної сторони, місця та безперервної дії",
+          "labelEn": "Planted round-device interaction requires role, site and uninterrupted time",
+          "explanationUk": "Для встановлення потрібен живий терорист із C4 у зоні закладання, а для знешкодження — живий контртерорист біля встановленого пристрою; переривання скасовує незавершену дію.",
+          "explanationEn": "planting requires an eligible living attacker with the round device inside a valid site, while neutralisation requires an eligible living defender at the planted device; interruption prevents channel completion.",
+          "exampleUk": "Деф’юзер можна встановити лише живим носієм біля Bomb A або B.",
+          "exampleEn": "Only a living carrier near Bomb A or B can plant the defuser."
+        },
+        "CON-265": {
+          "labelUk": "Раунд із бомбою має два послідовні відліки часу",
+          "labelEn": "Planted round-device objective uses an asymmetric two-stage deadline",
+          "explanationUk": "Якщо час раунду завершується до встановлення C4, перемагають контртерористи. Завершене встановлення натомість запускає окремий відлік до вибуху, який можна зупинити лише повним знешкодженням.",
+          "explanationEn": "expiry of the unplanted round clock awards the defenders, but a completed plant replaces that deadline with a separate live device timer that can be beaten only by a completed neutralisation.",
+          "exampleUk": "Успішне встановлення замінює action timer окремим defuser timer.",
+          "exampleEn": "A successful plant replaces the action timer with a separate defuser timer."
+        },
+        "CON-266": {
+          "labelUk": "Сторона команди визначає місце появи, закупівлі, дії з ціллю та взаємодію із союзниками",
+          "labelEn": "Fixed team role bounds objective authority and friendly interaction",
+          "explanationUk": "Кожен учасник у поточній половині належить до терористів або контртерористів. Сторона визначає місце появи, доступне спорядження й дії з бомбою, а між союзниками діють правила зіткнення та вогню по своїх.",
+          "explanationEn": "each participant belongs to one current team role that determines spawn, equipment access and objective authority while ordinary collision and friendly-fire rules still apply among teammates.",
+          "exampleUk": "Лише нападники встановлюють, а захисники знешкоджують деф’юзер.",
+          "exampleEn": "Only attackers plant and defenders disable the defuser."
+        },
+        "CON-267": {
+          "labelUk": "Регламент MR12 обмежує тривалість половини й усього матчу",
+          "labelEn": "Bomb-match score has a bounded regulation and overtime policy",
+          "explanationUk": "Матч має щонайбільше двадцять чотири раунди, команди міняються сторонами після дванадцяти, тринадцята перемога достроково завершує гру, а рівний рахунок після останнього раунду дає нічию.",
+          "explanationEn": "the match declares finite regulation halves, a role-swap boundary, an early clinch threshold and an explicit draw or bounded-overtime policy.",
+          "exampleUk": "Мапа має скінченні regulation та overtime межі.",
+          "exampleEn": "The map has finite regulation and overtime boundaries."
+        },
+        "CON-268": {
+          "labelUk": "За кожним місцем фіксованої команди закріплюється один персонаж",
+          "labelEn": "Each fixed team slot commits one match hero",
+          "explanationUk": "Команда фіксованого розміру призначає кожному місцю рівно одного доступного персонажа на матч з урахуванням поточного правила повторення або конфлікту вибору.",
+          "explanationEn": "a fixed-size team assigns exactly one available match character to each player slot, subject to the current roster conflict rule.",
+          "exampleUk": "Двоє союзників не можуть обрати одного оператора в раунді.",
+          "exampleEn": "Two teammates cannot select the same operator for one round."
+        },
+        "CON-269": {
+          "labelUk": "Здібність потребує відповідної цілі, ресурсу й готовності",
+          "labelEn": "Ability use requires legal target, range, resource and readiness",
+          "explanationUk": "Здібність можна застосувати лише тоді, коли вибрана ціль і відстань відповідають її правилам, потрібного ресурсу чи заряду вистачає, а час відновлення або стан персонажа не блокує дію.",
+          "explanationEn": "a combatant or item ability resolves only when its cast form, target, range, mana or charges, cooldown and disabling-state gates are satisfied.",
+          "exampleUk": "Gadget не працює без допустимої цілі та заряду.",
+          "exampleEn": "A gadget cannot resolve without a legal target and charge."
+        },
+        "INF-115": {
+          "labelUk": "Зір і просторовий звук відкривають лише частину стану суперника",
+          "labelEn": "Local sight and sound expose partial opponent state",
+          "explanationUk": "Гравець безпосередньо дізнається про суперників і їхні дії лише тоді, коли бачить їх зі своєї позиції, чує просторовий звук або помічає наслідок, що проходить крізь перешкоду.",
+          "explanationEn": "a player directly learns opponents and their actions only through current avatar-centred visibility, spatial sound or effects that penetrate the local occlusion state.",
+          "exampleUk": "Кроки за стіною чутно, але самого суперника не видно.",
+          "exampleEn": "Footsteps are audible through a wall while the opponent remains unseen."
+        },
+        "INF-116": {
+          "labelUk": "Поточний стан команди, рахунку й спільної цілі видно під час гри",
+          "labelEn": "Live team, score and shared-objective state are visible",
+          "explanationUk": "Командний інтерфейс під час гри показує доступний стан союзників, час або рахунок матчу, а також поточного власника спільної цілі, перебіг її виконання чи поточну фазу.",
+          "explanationEn": "the live team interface exposes eligible allied status, match clock or score and current shared-objective ownership, progress or phase state.",
+          "exampleUk": "HUD показує рахунок, фазовий таймер, союзників і деф’юзер.",
+          "exampleEn": "The HUD shows score, phase timer, allies and defuser state."
+        },
+        "INF-150": {
+          "labelUk": "Екран вибору показує ролі, здібності й варіанти складу",
+          "labelEn": "Character roster exposes roles, kits and composition alternatives",
+          "explanationUk": "До підтвердження екран вибору показує доступних персонажів, їхні ролі або класи, набори здібностей, зайняті союзниками місця та запропоновані варіанти складу.",
+          "explanationEn": "the match selection interface exposes currently available characters, their role or class, ability kit, allied occupancy and any offered composition alternatives before confirmation.",
+          "exampleUk": "Екран вибору показує ролі, gadget-и, зайняті місця й бани.",
+          "exampleEn": "Selection shows roles, gadgets, occupied slots and bans."
+        },
+        "TIM-003": {
+          "labelUk": "Давати команди, поки світ змінюється в реальному часі",
+          "labelEn": "Real-time input during forced progression",
+          "explanationUk": "Світ, персонажі й активні процеси продовжують змінюватися з плином реального часу, а гравець може рухатися, прицілюватися та подавати інші команди без черги ходів.",
+          "explanationEn": "the system advances the decision state on a real-time schedule while accepting player inputs during the bounded interval before the current state becomes fixed.",
+          "exampleUk": "Під час встановлення суперники й 45-секундний device timer продовжують діяти.",
+          "exampleEn": "During planting, opponents and the 45-second device timer remain live."
+        }
+      },
+      "supporting": {
+        "ACT-164": {
+          "labelUk": "Вибрати активний предмет, зброю або пристрій",
+          "labelEn": "Select a carried quick-slot item as the active hand",
+          "explanationUk": "Гравець вибирає зайняте місце швидкого доступу, і предмет, інструмент, зброя чи пристрій із нього стає готовим до наступної відповідної дії у світі.",
+          "explanationEn": "the player selects one occupied carried quick slot so its item or tool becomes the active hand input for the next compatible world action.",
+          "exampleUk": "Гравець перемикається зі зброї на gadget.",
+          "exampleEn": "The player switches from a firearm to a gadget."
+        },
+        "ACT-183": {
+          "labelUk": "Перезарядити активну магазинну зброю з резерву набоїв",
+          "labelEn": "Reload the active magazine-fed weapon",
+          "explanationUk": "Гравець витрачає час, щоб перенести набої з резерву до активної зброї та наповнити її магазин; під час цієї дії зброя тимчасово не готова стріляти.",
+          "explanationEn": "the player commits a timed transfer of reserve ammunition into the active weapon, temporarily giving up fire readiness to restore its magazine.",
+          "exampleUk": "Оператор перезаряджається за укриттям.",
+          "exampleEn": "An operator reloads behind cover."
+        },
+        "ACT-184": {
+          "labelUk": "Підготувати й кинути тактичну гранату зі спорядження",
+          "labelEn": "Prime and throw one carried tactical grenade",
+          "explanationUk": "Гравець обирає наявну одноразову гранату, визначає напрям і силу кидка та запускає її по дузі крізь ігровий світ.",
+          "explanationEn": "the player selects a carried single-use grenade, chooses its release direction and strength, and commits it to a ballistic world path.",
+          "exampleUk": "Нападник готує й кидає гранату в Bomb-кімнату.",
+          "exampleEn": "An attacker primes and throws a grenade into the bomb room."
+        },
+        "ACT-186": {
+          "labelUk": "Викидати зброю або предмет цілі для передавання іншому гравцеві",
+          "labelEn": "Drop one carried round item into the world",
+          "explanationUk": "Гравець вилучає дозволену зброю чи предмет цілі зі свого спорядження й залишає його в поточному місці світу, де предмет може підібрати союзник або суперник.",
+          "explanationEn": "the player removes one eligible carried weapon or objective item from personal inventory and emits it at the current world position for possible teammate or opponent pickup.",
+          "exampleUk": "Носій залишає деф’юзер союзникові.",
+          "exampleEn": "The carrier drops the defuser for a teammate."
+        },
+        "ACT-202": {
+          "labelUk": "Змінити положення тіла чи визирнути з-за укриття",
+          "labelEn": "Change direct-combat posture or lean",
+          "explanationUk": "Гравець переводить персонажа між стоянням, присіданням і лежанням або нахиляє його вбік, змінюючи помітність тіла, швидкість руху й поводження зі зброєю без переходу до іншої ділянки місцевості.",
+          "explanationEn": "the player changes the controlled avatar among standing, crouched, prone or lateral-lean states, altering visible body exposure, movement and weapon handling without leaving the current local position.",
+          "exampleUk": "Оператор присідає, щоб зменшити профіль у проломі.",
+          "exampleEn": "An operator crouches to reduce exposure at a breach."
+        },
+        "SYS-292": {
+          "labelUk": "Розрахувати політ гранати та її дію",
+          "labelEn": "Resolve tactical grenade flight and field effect",
+          "explanationUk": "Кинута граната стикається з поверхнями й відраховує час до спрацювання, а потім створює в ураженій ділянці тимчасовий вибух, засліплення, дим або займання залежно від свого виду.",
+          "explanationEn": "a thrown tactical grenade follows world collision and timing, then creates its typed transient blast, flash, smoke or fire effect over the affected space.",
+          "exampleUk": "Кинута граната відскакує й створює свій тип ефекту.",
+          "exampleEn": "A thrown grenade bounces and creates its typed effect."
+        },
+        "SYS-293": {
+          "labelUk": "Після загибелі усувати гравця до наступного раунду й залишати його спорядження",
+          "labelEn": "Remove a defeated player for the round and drop equipment",
+          "explanationUk": "Смертельна шкода припиняє керування до кінця поточного раунду, залишає дозволене спорядження на місці загибелі та повертає гравця зі стартовим набором його сторони лише на початку наступного раунду.",
+          "explanationEn": "lethal damage ends the player's control for the current round, emits eligible carried equipment at the death position and restores a fresh role loadout only when the next round begins.",
+          "exampleUk": "Остаточно вибулий оператор лишається поза раундом.",
+          "exampleEn": "A finally eliminated operator remains out for the round."
+        },
+        "CON-262": {
+          "labelUk": "Спорядження обмежує зброю, гранати й запас набоїв",
+          "labelEn": "Round inventory obeys weapon, grenade and ammunition capacity",
+          "explanationUk": "У межах одного життя гравець може нести лише дозволену основну й додаткову зброю, обмежену кількість пристроїв і гранат та визначений запас набоїв у магазинах і резерві.",
+          "explanationEn": "a living player may carry only the permitted weapon-slot classes, grenade counts and finite magazine/reserve ammunition for the current life.",
+          "exampleUk": "Оператор несе лише дозволені зброю, боєприпаси й заряди.",
+          "exampleEn": "An operator carries only the permitted weapons, ammunition and charges."
+        },
+        "INF-073": {
+          "labelUk": "Панель швидкого доступу й стан активного спорядження видимі",
+          "labelEn": "Carried hotbar and active equipment state are visible",
+          "explanationUk": "Інтерфейс показує місця швидкого доступу, кількість предметів у них і предмет, зброю чи пристрій, що зараз перебуває в руці або споряджений, ще до локальної дії у світі.",
+          "explanationEn": "the interface exposes carried quick slots, their stack contents and the currently active hand or equipped item before a local world action.",
+          "exampleUk": "HUD показує активну зброю, магазин і запас.",
+          "exampleEn": "The HUD shows the active weapon, magazine and reserve."
+        },
+        "INF-075": {
+          "labelUk": "Показники здоров’я, потреб, захисту й міцності видимі",
+          "labelEn": "Health, hunger, armour and durability state are visible",
+          "explanationUk": "Інтерфейс показує поточні здоров’я, тілесні потреби та зношування спорядження настільки докладно, щоб оцінити потребу в їжі чи воді, готовність до бою та необхідність заміни предмета.",
+          "explanationEn": "the interface exposes the avatar's current survival meters and carried tool wear sufficiently to judge food, combat and replacement needs.",
+          "exampleUk": "Індикатор показує здоров’я та поранений стан.",
+          "exampleEn": "The indicator shows health and injured state."
+        }
+      }
+    },
+    "GAME-0175": {
+      "genes": {
+        "ACT-006": {
+          "labelUk": "Прискорити незмінний перебіг матчу",
+          "labelEn": "Speed up unchanged automatic match progression",
+          "explanationUk": "Менеджер змінює швидкість показу, але не напрям подій, правила чи поточний тактичний план.",
+          "explanationEn": "The manager changes presentation speed without changing event direction, rules or the current tactical plan.",
+          "exampleUk": "Менеджер прискорює спокійний відрізок автономного матчу.",
+          "exampleEn": "The manager speeds through a quiet autonomous spell."
+        },
+        "ACT-304": {
+          "labelUk": "Обрати склад і дві тактичні форми",
+          "labelEn": "Choose the lineup and two tactical shapes",
+          "explanationUk": "Менеджер призначає допустимих футболістів і окремо задає вигляд команди у володінні та без м’яча.",
+          "explanationEn": "The manager assigns eligible footballers and separately defines the team's shapes with and without the ball.",
+          "exampleUk": "Крайній захисник має одну позицію в обороні й іншу під час атаки.",
+          "exampleEn": "A full-back has one defensive position and another in attack."
+        },
+        "ACT-305": {
+          "labelUk": "Підтвердити заміну або зміну плану",
+          "labelEn": "Confirm a substitution or plan change",
+          "explanationUk": "Під час матчу менеджер може замінити футболіста або змінити роль, форму чи вказівку.",
+          "explanationEn": "During the match, the manager may replace a player or revise a role, shape or instruction.",
+          "exampleUk": "Втомленого вінгера замінює заявлений резервіст.",
+          "exampleEn": "A named substitute replaces the tired winger."
+        }
+      },
+      "structural": {
+        "SYS-457": {
+          "labelUk": "Розігрувати один живий футбольний м’яч",
+          "labelEn": "Resolve one live football",
+          "explanationUk": "Удари, дотики, рикошети, рух і зіткнення безперервно змінюють положення одного м’яча.",
+          "explanationEn": "Kicks, touches, rebounds, motion and collisions continuously change one ball's state.",
+          "exampleUk": "Заблокований удар відскакує до іншого футболіста.",
+          "exampleEn": "A blocked shot rebounds to another footballer."
+        },
+        "SYS-459": {
+          "labelUk": "Розставляти футболістів без м’яча за ролями",
+          "labelEn": "Position off-ball footballers by role",
+          "explanationUk": "Автономні партнери й суперники рухаються за формою, роллю, м’ячем, опікою та вільним простором.",
+          "explanationEn": "Autonomous teammates and opponents move from formation, role, ball, marking and available space.",
+          "exampleUk": "Півзахисник закриває вільний коридор під час втрати м’яча.",
+          "exampleEn": "A midfielder closes an open channel after possession is lost."
+        },
+        "SYS-460": {
+          "labelUk": "Визначати порушення й поновлення гри",
+          "labelEn": "Adjudicate offences and restarts",
+          "explanationUk": "Система розпізнає вихід м’яча, офсайд і фоли та призначає відповідне поновлення й санкцію.",
+          "explanationEn": "The system recognises ball boundaries, offside and fouls and assigns the matching restart and sanction.",
+          "exampleUk": "Фол біля штрафного дає суперникові штрафний удар.",
+          "exampleEn": "A foul near the area awards the opponent a free kick."
+        },
+        "SYS-461": {
+          "labelUk": "Автономно діяти воротарем",
+          "labelEn": "Act autonomously as goalkeeper",
+          "explanationUk": "Воротар сам обирає позицію, вихід, ловіння чи відбиття відповідно до загрози й власних якостей.",
+          "explanationEn": "The goalkeeper chooses position, claim, catch or parry from the threat and personal attributes.",
+          "exampleUk": "Воротар відбиває небезпечний удар убік.",
+          "exampleEn": "The goalkeeper parries a dangerous shot wide."
+        },
+        "SYS-462": {
+          "labelUk": "Зарахувати допустимий гол",
+          "labelEn": "Register a valid goal",
+          "explanationUk": "Коли весь м’яч законно перетинає лінію воріт, рахунок зростає, а гра поновлюється з центра.",
+          "explanationEn": "When the whole ball legally crosses the goal line, the score rises and play restarts from the centre.",
+          "exampleUk": "Гол без попереднього порушення змінює рахунок на 1:0.",
+          "exampleEn": "A goal with no prior offence changes the score to 1–0."
+        },
+        "SYS-463": {
+          "labelUk": "Провести два тайми й зафіксувати результат",
+          "labelEn": "Advance two halves and settle the result",
+          "explanationUk": "Годинник проходить перший і другий тайми з доданим часом, після чого рахунок дає перемогу, поразку або нічию.",
+          "explanationEn": "The clock runs through both halves and added time, then the score yields a win, loss or draw.",
+          "exampleUk": "Після фінального свистка нічия стає остаточною.",
+          "exampleEn": "At the final whistle, a draw becomes final."
+        },
+        "SYS-531": {
+          "labelUk": "Обирати дії футболістів із плану й живого стану",
+          "labelEn": "Choose football actions from plan and live state",
+          "explanationUk": "Match engine сам визначає рух і дію кожного футболіста за атрибутами, роллю, тактикою та ситуацією.",
+          "explanationEn": "The match engine chooses each footballer's movement and action from attributes, role, tactics and situation.",
+          "exampleUk": "Нападник вирішує відкритися за спину захисту за своєю роллю.",
+          "exampleEn": "A forward decides to run behind the defence from the assigned role."
+        },
+        "SYS-532": {
+          "labelUk": "Змінювати кондицію, оцінку й травму під час гри",
+          "labelEn": "Update condition, rating and injury during play",
+          "explanationUk": "Хвилини, навантаження та епізоди змінюють готовність і оцінку футболіста для наступного рішення менеджера.",
+          "explanationEn": "Minutes, workload and incidents change a footballer's readiness and rating for the manager's next decision.",
+          "exampleUk": "Втома знижує кондицію вінгера й робить заміну доречнішою.",
+          "exampleEn": "Fatigue lowers a winger's condition and makes a substitution more attractive."
+        },
+        "SYS-533": {
+          "labelUk": "Записати результат у таблицю ліги",
+          "labelEn": "Record the result in the league table",
+          "explanationUk": "Після фінального свистка кар’єра зберігає рахунок і змінює зіграні матчі, очки та місця команд.",
+          "explanationEn": "After the final whistle, the career saves the score and updates played matches, points and positions.",
+          "exampleUk": "Перемога додає Liverpool три очки в таблиці.",
+          "exampleEn": "A win adds three points to Liverpool's table row."
+        },
+        "CON-399": {
+          "labelUk": "Обмежувати гру розміткою поля й воріт",
+          "labelEn": "Bound play by field and goal geometry",
+          "explanationUk": "Лінії поля визначають, коли м’яч лишається в грі, виходить за межі або повністю перетинає ворота.",
+          "explanationEn": "Field lines determine whether the ball remains live, leaves play or wholly crosses the goal.",
+          "exampleUk": "М’яч за боковою лінією дає вкидання.",
+          "exampleEn": "A ball beyond the touchline awards a throw-in."
+        },
+        "CON-400": {
+          "labelUk": "Забороняти активну участь з офсайду",
+          "labelEn": "Forbid active involvement from offside",
+          "explanationUk": "Нападник у положенні поза грою під час пасу не може законно втрутитися до скидання фази.",
+          "explanationEn": "An attacker in an offside position when the pass is made cannot legally become involved before the phase resets.",
+          "exampleUk": "Гол після активного офсайду не зараховують.",
+          "exampleEn": "A goal following active offside is disallowed."
+        },
+        "CON-401": {
+          "labelUk": "Обмежувати контакт правилами фолу",
+          "labelEn": "Bound contact by foul rules",
+          "explanationUk": "Відбір допустимий лише за законного контакту; порушення може дати штрафний, пенальті або картку.",
+          "explanationEn": "A challenge is legal only with permitted contact; an offence may yield a free kick, penalty or card.",
+          "exampleUk": "Небезпечний підкат у штрафному може дати пенальті.",
+          "exampleEn": "A dangerous tackle in the area may award a penalty."
+        },
+        "CON-452": {
+          "labelUk": "Ставити в склад лише доступних футболістів",
+          "labelEn": "Assign only eligible available footballers",
+          "explanationUk": "Стартове місце або лаву може зайняти лише зареєстрований доступний футболіст, і він не може бути у двох місцях.",
+          "explanationEn": "Only a registered available footballer may occupy a starting or bench slot, and no player may occupy two slots.",
+          "exampleUk": "Травмованого недоступного гравця не можна підтвердити в старті.",
+          "exampleEn": "An unavailable injured player cannot be confirmed in the eleven."
+        },
+        "CON-453": {
+          "labelUk": "Не дозволяти менеджеру керувати тілом або м’ячем",
+          "labelEn": "Prevent the manager from steering bodies or ball",
+          "explanationUk": "Менеджер змінює тільки склад, ролі, форму й вказівки, а конкретні футбольні дії лишає рушію.",
+          "explanationEn": "The manager changes only lineup, roles, shape and instructions, leaving individual football actions to the engine.",
+          "exampleUk": "Менеджер може наказати пресингувати, але не натиснути кнопку підкату за гравця.",
+          "exampleEn": "The manager may request pressing but cannot press a tackle button for a player."
+        },
+        "CON-454": {
+          "labelUk": "Дотримуватися лави й квоти замін",
+          "labelEn": "Obey bench and substitution limits",
+          "explanationUk": "Увійти може лише заявлений резервіст, а всі заміни мають уміститися в п’ять гравців і три можливості плюс перерву.",
+          "explanationEn": "Only a named substitute may enter, and replacements must fit five players and three opportunities plus half-time.",
+          "exampleUk": "Після трьох використаних вікон нову заміну в живій грі зробити не можна.",
+          "exampleEn": "After three used windows, another live-play substitution is unavailable."
+        },
+        "INF-116": {
+          "labelUk": "Показувати рахунок, час і стан команди",
+          "labelEn": "Show score, time and team state",
+          "explanationUk": "Живий інтерфейс показує команди, рахунок, хвилину та доступні фазові відомості.",
+          "explanationEn": "The live interface exposes teams, score, minute and available phase state.",
+          "exampleUk": "На 67-й хвилині видно рахунок 1:1 і кондицію складу.",
+          "exampleEn": "At 67 minutes, the interface shows 1–1 and squad condition."
+        },
+        "INF-216": {
+          "labelUk": "Показувати готовність і придатність футболістів",
+          "labelEn": "Show player readiness and role suitability",
+          "explanationUk": "До вибору склад показує доступність, кондицію, атрибути й оцінку кожної позиції або ролі.",
+          "explanationEn": "Before selection, the squad view shows availability, condition, attributes and each position or role rating.",
+          "exampleUk": "Картка показує, що футболіст здоровий, але слабше відповідає ролі вінгера.",
+          "exampleEn": "A card shows a player is fit but less suitable as a winger."
+        },
+        "INF-217": {
+          "labelUk": "Показувати дві форми й активні вказівки",
+          "labelEn": "Show both shapes and active instructions",
+          "explanationUk": "Tactics visualizer показує, де команда має стояти з м’ячем і без нього та які ролі й правила діють.",
+          "explanationEn": "The tactics visualizer shows where the team should stand with and without the ball and which roles and rules apply.",
+          "exampleUk": "Попередній перегляд показує перехід із 4-3-3 у 4-4-2 без м’яча.",
+          "exampleEn": "The preview shows a 4-3-3 becoming a 4-4-2 without the ball."
+        },
+        "INF-218": {
+          "labelUk": "Показувати живу аналітику й поради",
+          "labelEn": "Show live analysis and advice",
+          "explanationUk": "Match Overview поєднує рахунок, кондицію, оцінки, події, xG і думки персоналу перед рішенням.",
+          "explanationEn": "Match Overview combines score, condition, ratings, events, xG and staff suggestions before a decision.",
+          "exampleUk": "Низька оцінка й втома підказують замінити крайнього захисника.",
+          "exampleEn": "A low rating and fatigue suggest replacing the full-back."
+        },
+        "INF-219": {
+          "labelUk": "Показувати остаточний результат і таблицю",
+          "labelEn": "Show the final result and table",
+          "explanationUk": "Після матчу інтерфейс показує збережений рахунок і наслідок для очок та місця в турнірі.",
+          "explanationEn": "After the match, the interface shows the saved score and its effect on points and competition position.",
+          "exampleUk": "Екран результату показує 2:1 і оновлений рядок Liverpool.",
+          "exampleEn": "The result screen shows 2–1 and Liverpool's updated row."
+        }
+      },
+      "supporting": {
+        "OBJ-090": {
+          "labelUk": "Завершити матч із більшою кількістю голів",
+          "labelEn": "Finish the match with more goals",
+          "explanationUk": "Команда прагне мати більше законних голів після другого тайму, хоча рівний рахунок є допустимою нічиєю.",
+          "explanationEn": "The team aims to have more valid goals after the second half, while a level score remains an accepted draw.",
+          "exampleUk": "Рахунок 2:1 після фінального свистка означає перемогу.",
+          "exampleEn": "A 2–1 score at the final whistle means victory."
+        },
+        "TIM-003": {
+          "labelUk": "Втручатися, поки автономний матч триває",
+          "labelEn": "Intervene while the autonomous match continues",
+          "explanationUk": "Коли матч не на паузі, час, футболісти, м’яч і події змінюються незалежно від того, чи відкрив менеджер меню.",
+          "explanationEn": "While unpaused, time, players, ball and events continue changing whether or not the manager is inspecting a menu.",
+          "exampleUk": "Під час живого відрізка менеджер читає xG і готує заміну, поки годинник іде.",
+          "exampleEn": "During a live spell, the manager reads xG and prepares a change while the clock runs."
+        }
+      }
+    },
+    "GAME-0176": {
+      "genes": {
+        "ACT-306": {
+          "labelUk": "Поставити бійця на Overwatch",
+          "labelEn": "Put a soldier on Overwatch",
+          "explanationUk": "Боєць віддає решту ходу за шанс автоматично вистрілити, коли видимий ворог рухатиметься у своїй фазі.",
+          "explanationEn": "The soldier gives up the rest of the turn for a chance to fire automatically when a visible enemy moves in its phase.",
+          "exampleUk": "Боєць чекає за укриттям і стріляє по ADVENT, що перебігає.",
+          "exampleEn": "A soldier waits in cover and fires as an ADVENT unit runs."
+        },
+        "ACT-307": {
+          "labelUk": "Встановити X4 біля монумента",
+          "labelEn": "Plant X4 beside the monument",
+          "explanationUk": "Боєць має стати поруч із потрібним об’єктом і витратити дію на окрему команду місії.",
+          "explanationEn": "A soldier must stand beside the required fixture and spend an action on the mission-specific command.",
+          "exampleUk": "Новобранець біля монумента обирає Plant X4.",
+          "exampleEn": "The rookie beside the monument selects Plant X4."
+        },
+        "SYS-535": {
+          "labelUk": "Активувати ворогів після викриття загону",
+          "labelEn": "Activate enemies when the squad is revealed",
+          "explanationUk": "Виявлення або постріл знімає прихованість, а щойно помічена група ворогів переходить до бойової поведінки.",
+          "explanationEn": "Detection or firing removes concealment and a newly seen enemy group switches into combat behaviour.",
+          "exampleUk": "Перетин червоної клітинки викриває загін і ADVENT розбігаються до укриття.",
+          "exampleEn": "Crossing a red tile reveals the squad and ADVENT scatter into cover."
+        },
+        "SYS-536": {
+          "labelUk": "Запустити Overwatch на русі ворога",
+          "labelEn": "Trigger Overwatch on enemy movement",
+          "explanationUk": "Коли допустимий ворог рухається у видимості, система перериває рух одним підготовленим пострілом.",
+          "explanationEn": "When an eligible enemy moves in sight, the system interrupts that movement with one prepared shot.",
+          "exampleUk": "Постріл Overwatch спрацьовує посеред ворожої перебіжки.",
+          "exampleEn": "The Overwatch shot triggers midway through the enemy's run."
+        }
+      },
+      "structural": {
+        "ACT-014": {
+          "labelUk": "Перемістити вибраного бійця",
+          "labelEn": "Move the selected soldier",
+          "explanationUk": "Гравець обирає одного новобранця й допустиму клітинку в його показаній межі руху.",
+          "explanationEn": "The player chooses one rookie and a legal tile inside the displayed movement band.",
+          "exampleUk": "Боєць переходить у повне укриття за монументом.",
+          "exampleEn": "The soldier moves into full cover behind the monument."
+        },
+        "ACT-019": {
+          "labelUk": "Обрати здібність і ціль бійця",
+          "labelEn": "Choose a soldier ability and target",
+          "explanationUk": "Після вибору бійця гравець задає постріл, гранату чи іншу доступну дію та її ціль.",
+          "explanationEn": "After selecting a soldier, the player chooses a shot, grenade or other available action and its target.",
+          "exampleUk": "Гравець обирає Fire і видимого Sectoid.",
+          "exampleEn": "The player selects Fire and a visible Sectoid."
+        },
+        "ACT-126": {
+          "labelUk": "Завершити фазу загону",
+          "labelEn": "End the squad phase",
+          "explanationUk": "Гравець відмовляється від решти доступних наказів і передає розв’язання ворогам.",
+          "explanationEn": "The player gives up any remaining commands and hands resolution to the enemies.",
+          "exampleUk": "Після підготовки двох Overwatch гравець натискає End Turn.",
+          "exampleEn": "After preparing two Overwatch shots, the player presses End Turn."
+        },
+        "SYS-208": {
+          "labelUk": "Розв’язати постріл з укриттям і шансом влучання",
+          "labelEn": "Resolve a shot through cover and hit chance",
+          "explanationUk": "Дистанція, приціл і укриття формують показаний шанс, після чого випадковий результат дає промах або шкоду.",
+          "explanationEn": "Range, aim and cover form the shown chance, then a random result yields a miss or damage.",
+          "exampleUk": "Постріл із 65% може влучити у ворога за половинним укриттям.",
+          "exampleEn": "A 65% shot may hit an enemy in half cover."
+        },
+        "SYS-386": {
+          "labelUk": "Руйнувати допустиме укриття",
+          "labelEn": "Destroy eligible cover",
+          "explanationUk": "Вибух або достатня шкода прибирає частину геометрії й змінює подальші маршрути та захист.",
+          "explanationEn": "An explosion or enough damage removes geometry and changes later routes and protection.",
+          "exampleUk": "Граната знищує стіну, що прикривала ADVENT.",
+          "exampleEn": "A grenade destroys the wall shielding an ADVENT unit."
+        },
+        "SYS-534": {
+          "labelUk": "Витрачати дві особисті дії кожного бійця",
+          "labelEn": "Spend each soldier's two personal actions",
+          "explanationUk": "Кожен боєць окремо отримує дві дії, а загін може чергувати їх у довільному законному порядку.",
+          "explanationEn": "Each soldier separately receives two actions, and the squad may interleave them in any legal order.",
+          "exampleUk": "Перший боєць рухається, другий стріляє, потім перший ставить Overwatch.",
+          "exampleEn": "One soldier moves, another fires, then the first enters Overwatch."
+        },
+        "SYS-537": {
+          "labelUk": "Розіграти автономну фазу ворогів",
+          "labelEn": "Resolve the autonomous enemy phase",
+          "explanationUk": "Активні вороги самі обирають допустимі переміщення, укриття й атаки після завершення фази гравця.",
+          "explanationEn": "Active enemies choose legal movement, cover and attacks after the player phase ends.",
+          "exampleUk": "Sectoid відходить у захист і застосовує доступну дію.",
+          "exampleEn": "A Sectoid moves into protection and uses an available action."
+        },
+        "SYS-538": {
+          "labelUk": "Зберегти поранення або постійну смерть",
+          "labelEn": "Carry wounds or permanent death forward",
+          "explanationUk": "Після місії вцілілий може потребувати відновлення, а загиблий більше не повертається до складу.",
+          "explanationEn": "After the mission, a survivor may need recovery while a dead soldier never returns to the roster.",
+          "exampleUk": "Новобранець із залишком здоров’я повертається пораненим.",
+          "exampleEn": "A rookie with reduced health returns wounded."
+        },
+        "CON-001": {
+          "labelUk": "Обмежувати місткість клітинки",
+          "labelEn": "Limit tile occupancy",
+          "explanationUk": "Клітинка має визначену місткість і не приймає довільну кількість тіл.",
+          "explanationEn": "A tile has fixed capacity and cannot hold an arbitrary number of bodies.",
+          "exampleUk": "Двоє бійців не завершують рух в одній клітинці.",
+          "exampleEn": "Two soldiers cannot finish movement on the same tile."
+        },
+        "CON-011": {
+          "labelUk": "Не проходити крізь зайняті клітинки й бар’єри",
+          "labelEn": "Respect occupied tiles and barriers",
+          "explanationUk": "Маршрут мусить обходити непрохідні об’єкти та допустимо враховувати зайнятий простір.",
+          "explanationEn": "A route must avoid impassable objects and account for occupied space.",
+          "exampleUk": "Стіна змушує бійця обійти кут будівлі.",
+          "exampleEn": "A wall forces the soldier around the building corner."
+        },
+        "CON-269": {
+          "labelUk": "Вимагати допустиму ціль і готову дію",
+          "labelEn": "Require a legal target and ready action",
+          "explanationUk": "Атака чи здібність доступна лише за потрібної дальності, цілі, ресурсу й готовності.",
+          "explanationEn": "An attack or ability is available only with the required range, target, resource and readiness.",
+          "exampleUk": "Ворог поза лінією вогню не є допустимою ціллю пострілу.",
+          "exampleEn": "An enemy outside the firing line is not a legal shot target."
+        },
+        "CON-273": {
+          "labelUk": "Обмежувати накази туманом і виявленням",
+          "labelEn": "Gate commands by fog and detection",
+          "explanationUk": "Невидимого ворога не можна прицільно атакувати, а вхід у показану межу детектора знімає прихованість.",
+          "explanationEn": "An unseen enemy cannot be directly targeted, and entering a shown detector boundary removes concealment.",
+          "exampleUk": "Червоною позначена клітинка, що викриє новобранця.",
+          "exampleEn": "A red tile marks where the rookie will be revealed."
+        },
+        "CON-455": {
+          "labelUk": "Дотримуватися очок дій і завершальних команд",
+          "labelEn": "Obey Action Points and terminal commands",
+          "explanationUk": "Наказ потребує достатнього залишку дій, а постріл чи Overwatch може закрити решту ходу бійця.",
+          "explanationEn": "A command needs enough remaining actions, and firing or Overwatch may close the soldier's remaining turn.",
+          "exampleUk": "Після жовтого руху боєць уже не може стріляти.",
+          "exampleEn": "After a yellow move, the soldier can no longer fire."
+        },
+        "INF-220": {
+          "labelUk": "Показувати рух, укриття й прогноз атаки",
+          "labelEn": "Show movement, cover and attack forecast",
+          "explanationUk": "HUD відкриває межі дій бійця та очікуваний шанс, шкоду й критичний удар до підтвердження атаки.",
+          "explanationEn": "The HUD exposes the soldier's action bands and expected hit, damage and critical information before attack commitment.",
+          "exampleUk": "Перед пострілом видно 70% влучання й захисне укриття цілі.",
+          "exampleEn": "Before firing, the player sees a 70% hit chance and the target's cover."
+        },
+        "INF-221": {
+          "labelUk": "Показувати ризик викриття й умови місії",
+          "labelEn": "Show reveal risk and mission conditions",
+          "explanationUk": "Інтерфейс позначає прихованість, відомі зони виявлення, монумент і стан X4 та очищення.",
+          "explanationEn": "The interface marks concealment, known detection zones, the monument and X4 and clearance state.",
+          "exampleUk": "Панель ще показує Plant X4 і Neutralize all enemies.",
+          "exampleEn": "The panel still shows Plant X4 and Neutralize all enemies."
+        },
+        "OBJ-029": {
+          "labelUk": "Усунути всіх ворогів місії",
+          "labelEn": "Eliminate every mission hostile",
+          "explanationUk": "Скінченна група ворогів має перестати бути бойовою загрозою до успішного завершення.",
+          "explanationEn": "The finite enemy group must cease being a combat threat before successful settlement.",
+          "exampleUk": "Останній Sectoid гине, і умова очищення виконується.",
+          "exampleEn": "The final Sectoid dies and the clearance condition completes."
+        },
+        "OBJ-100": {
+          "labelUk": "Встановити X4 на монументі",
+          "labelEn": "Plant X4 at the monument",
+          "explanationUk": "Місія вимагає окремо виконати диверсійну взаємодію, а не лише перемогти ворогів.",
+          "explanationEn": "The mission separately requires the sabotage interaction, not only defeating enemies.",
+          "exampleUk": "Боєць поруч із монументом встановлює заряд.",
+          "exampleEn": "A soldier beside the monument plants the charge."
+        },
+        "TIM-005": {
+          "labelUk": "Планувати загоном перед фазою ворога",
+          "labelEn": "Plan with the squad before the enemy phase",
+          "explanationUk": "Гравець може чергувати кілька наказів, але після завершення фази спершу розв’язуються реакції й вороги.",
+          "explanationEn": "The player may interleave several commands, but reactions and enemies resolve after the phase is committed.",
+          "exampleUk": "Чотири бійці завершують накази, потім починається ADVENT Activity.",
+          "exampleEn": "Four soldiers finish their commands, then ADVENT Activity begins."
+        }
+      },
+      "supporting": {
+        "ACT-183": {
+          "labelUk": "Перезарядити активну зброю",
+          "labelEn": "Reload the active weapon",
+          "explanationUk": "Боєць витрачає дію, щоб перенести запасні набої до магазина й знову мати змогу стріляти.",
+          "explanationEn": "The soldier spends an action to refill the magazine from reserve and regain firing capacity.",
+          "exampleUk": "Порожня гвинтівка отримує новий магазин перед Overwatch.",
+          "exampleEn": "An empty rifle gets a new magazine before Overwatch."
+        },
+        "SYS-004": {
+          "labelUk": "Використовувати випадкову мапу й результати пострілів",
+          "labelEn": "Use random map and shot outcomes",
+          "explanationUk": "Геометрія спроби та результати ймовірнісних атак можуть відрізнятися за тих самих загальних правил.",
+          "explanationEn": "Attempt geometry and probabilistic attack results may differ under the same general rules.",
+          "exampleUk": "Нова кампанія розміщує інше укриття, а 65% постріл інколи промахується.",
+          "exampleEn": "A new campaign places different cover, and a 65% shot sometimes misses."
+        },
+        "CON-262": {
+          "labelUk": "Обмежувати магазини й гранати",
+          "labelEn": "Limit magazines and grenades",
+          "explanationUk": "Зброя має скінченний магазин, а одноразова граната зникає після застосування.",
+          "explanationEn": "A weapon has a finite magazine and a single-use grenade is gone after use.",
+          "exampleUk": "Після кількох пострілів гвинтівка потребує перезаряджання.",
+          "exampleEn": "After several shots, the rifle needs reloading."
+        }
+      }
+    },
+    "GAME-0177": {
+      "genes": {
+        "ACT-309": {
+          "labelUk": "Витратити boost на тягу",
+          "labelEn": "Spend boost for thrust",
+          "explanationUk": "Авто витрачає скінченний запас, щоб швидше рухатися саме в напрямку свого носа.",
+          "explanationEn": "The car spends a finite reserve to accelerate along the direction its nose faces.",
+          "exampleUk": "Підняте носом авто витрачає boost, щоб дістатися м’яча в повітрі.",
+          "exampleEn": "A nose-up car spends boost to reach the ball in the air."
+        },
+        "SYS-540": {
+          "labelUk": "Поповнювати boost на pad-ах",
+          "labelEn": "Refill boost from pads",
+          "explanationUk": "Готовий pad передає заряд авто, зникає на час recharge, а отриманий запас можна одразу витрачати.",
+          "explanationEn": "A ready pad transfers charge to the car, disappears during recharge and makes that reserve available to spend.",
+          "exampleUk": "Авто бере великий кутовий pad, а його індикатор починає десятисекундне відновлення.",
+          "exampleEn": "The car collects a large corner pad and its indicator begins a ten-second refill."
+        },
+        "SYS-542": {
+          "labelUk": "Перейти від 0:00 до sudden death",
+          "labelEn": "Carry 0:00 into sudden death",
+          "explanationUk": "На нульовій секунді м’яч ще можна тримати в повітрі; за нічиєї після завершення цього розіграшу перший гол overtime виграє матч.",
+          "explanationEn": "At zero seconds the ball can stay airborne; after that play ends tied, the first overtime goal wins the match.",
+          "exampleUk": "М’яч не торкається підлоги на 0:00, а потім за нічиєї починається +0:00 overtime.",
+          "exampleEn": "The ball avoids the floor at 0:00, then a tied score starts +0:00 overtime."
+        },
+        "CON-458": {
+          "labelUk": "Зберігати або відновити aerial dodge",
+          "labelEn": "Retain or reset the aerial dodge",
+          "explanationUk": "Авто не може нескінченно повторювати dodge в повітрі, але правильний контакт колесами може повернути цю дію.",
+          "explanationEn": "A car cannot repeat aerial dodges indefinitely, but a legal wheel contact can restore that action.",
+          "exampleUk": "Три колеса торкаються м’яча, і авто знову отримує directional flip.",
+          "exampleEn": "Three wheels touch the ball and the car regains a directional flip."
+        }
+      },
+      "structural": {
+        "ACT-290": {
+          "labelUk": "Керувати своїм авто",
+          "labelEn": "Drive the assigned car",
+          "explanationUk": "Гравець безпосередньо задає steering, throttle, reverse, brake і powerslide одного авто.",
+          "explanationEn": "The player directly controls steering, throttle, reverse, brake and powerslide for one car.",
+          "exampleUk": "Авто гальмує перед кутом і розвертається powerslide до власних воріт.",
+          "exampleEn": "The car brakes before the corner and powerslides back toward its own goal."
+        },
+        "ACT-308": {
+          "labelUk": "Стрибнути, виконати dodge або повернутися в повітрі",
+          "labelEn": "Jump, dodge or rotate in the air",
+          "explanationUk": "Окрема повітряна дія змінює висоту, напрям або орієнтацію авто поза звичайним steering.",
+          "explanationEn": "A separate aerial action changes the car's height, direction or orientation beyond ordinary steering.",
+          "exampleUk": "Авто стрибає й робить forward dodge для сильнішого контакту.",
+          "exampleEn": "The car jumps and forward-dodges into a stronger contact."
+        },
+        "SYS-457": {
+          "labelUk": "Рухати один живий м’яч через контакти",
+          "labelEn": "Move one live ball through contact",
+          "explanationUk": "М’яч зберігає швидкість і spin, відскакує від авто та арени й не належить абстрактно жодній команді.",
+          "explanationEn": "The ball retains velocity and spin, rebounds from cars and arena surfaces and is not abstractly owned by either team.",
+          "exampleUk": "Бічний удар авто спрямовує м’яч від стіни до центру.",
+          "exampleEn": "An angled car hit sends the ball from the wall toward centre."
+        },
+        "SYS-462": {
+          "labelUk": "Зарахувати гол і перебудувати kickoff",
+          "labelEn": "Count a goal and rebuild kickoff",
+          "explanationUk": "Повний перетин goal plane додає команді очко, після чого м’яч і авто повертаються на kickoff.",
+          "explanationEn": "A complete goal-plane crossing adds one team point, then ball and cars return to kickoff.",
+          "exampleUk": "М’яч повністю входить у помаранчеві ворота, і сині ведуть 1–0.",
+          "exampleEn": "The ball fully enters the orange goal and blue leads 1–0."
+        },
+        "SYS-539": {
+          "labelUk": "Розв’язувати рух авто підлогою, стінами й повітрям",
+          "labelEn": "Resolve car motion on ground, walls and air",
+          "explanationUk": "Система поєднує inputs, gravity, traction, orientation і collisions у безперервну траєкторію авто.",
+          "explanationEn": "The system combines input, gravity, traction, orientation and collisions into continuous car motion.",
+          "exampleUk": "Авто виїжджає по кривій стіні, відривається й падає колесами на поле.",
+          "exampleEn": "The car drives up the curved wall, leaves it and lands wheels-down on the field."
+        },
+        "SYS-541": {
+          "labelUk": "Розв’язати bump або demolition",
+          "labelEn": "Resolve a bump or demolition",
+          "explanationUk": "Звичайне зіткнення штовхає авто, а достатньо швидкий допустимий удар тимчасово прибирає суперника.",
+          "explanationEn": "Ordinary contact bumps a car, while a sufficiently fast legal hit temporarily removes the opponent.",
+          "exampleUk": "Supersonic car demolishes defender, який повертається через коротку затримку.",
+          "exampleEn": "A supersonic car demolishes a defender who returns after a short delay."
+        },
+        "CON-456": {
+          "labelUk": "Тримати м’яч живим у замкненій арені",
+          "labelEn": "Keep the ball live inside the enclosed arena",
+          "explanationUk": "Стіни, кути й стеля повертають м’яч у гру замість throw-in або corner restart.",
+          "explanationEn": "Walls, corners and ceiling return the ball to play instead of causing a throw-in or corner restart.",
+          "exampleUk": "М’яч відскакує від бічної стіни й залишається доступним обом командам.",
+          "exampleEn": "The ball rebounds from the side wall and remains available to both teams."
+        },
+        "CON-457": {
+          "labelUk": "Не boost-ити без запасу або готового pad-а",
+          "labelEn": "Require reserve or a ready pad for boost",
+          "explanationUk": "Reserve має cap, спорожнюється під тягою, а вже забраний pad не дає заряд до recharge.",
+          "explanationEn": "The reserve has a cap, drains under thrust and a collected pad gives no charge until recharge.",
+          "exampleUk": "За 0 boost авто мусить доїхати до іншого готового pad-а звичайним throttle.",
+          "exampleEn": "At 0 boost the car must reach another ready pad using ordinary throttle."
+        },
+        "CON-459": {
+          "labelUk": "Не завершувати регламент з airborne ball",
+          "labelEn": "Do not end regulation with an airborne ball",
+          "explanationUk": "Самого 0:00 недостатньо: лише goal або допустиме торкання підлоги відкриває settlement.",
+          "explanationEn": "The clock alone is insufficient at 0:00: only a goal or legal floor contact opens settlement.",
+          "exampleUk": "Команда підбиває м’яч угору й продовжує останню атаку після нуля.",
+          "exampleEn": "A team pops the ball upward and continues its final attack after zero."
+        },
+        "INF-222": {
+          "labelUk": "Бачити м’яч, авто, boost і aerial state",
+          "labelEn": "See the ball, car, boost and aerial state",
+          "explanationUk": "Camera й HUD показують потрібну геометрію та ресурс для наступного challenge, recovery або shot contact.",
+          "explanationEn": "Camera and HUD expose the geometry and resource needed for the next challenge, recovery or shot contact.",
+          "exampleUk": "Ball Cam тримає м’яч у кадрі, а boost meter показує 34.",
+          "exampleEn": "Ball Cam keeps the ball in view while the boost meter shows 34."
+        },
+        "OBJ-101": {
+          "labelUk": "Завершити матч із вирішальною перевагою голів",
+          "labelEn": "Finish with a decisive goal advantage",
+          "explanationUk": "Перемагає команда, що лишається попереду після регламенту або першою забиває в overtime.",
+          "explanationEn": "The winner is the team ahead after regulation or the first to score in overtime.",
+          "exampleUk": "За 2–2 перший гол overtime негайно завершує матч.",
+          "exampleEn": "At 2–2 the first overtime goal immediately ends the match."
+        },
+        "TIM-003": {
+          "labelUk": "Діяти, поки весь матч рухається",
+          "labelEn": "Act while the whole match moves",
+          "explanationUk": "М’яч, усі авто, pad-и й годинник продовжують змінюватися, поки гравець керує.",
+          "explanationEn": "The ball, every car, pad availability and clock keep changing while the player acts.",
+          "exampleUk": "Поки один гравець розвертається, суперники й м’яч уже зміщуються полем.",
+          "exampleEn": "While one player turns, opponents and ball are already moving across the field."
+        }
+      },
+      "supporting": {
+        "ACT-310": {
+          "labelUk": "Обрати бік respawn",
+          "labelEn": "Choose a respawn side",
+          "explanationUk": "Після demolition короткий input вирішує, на якій доступній позиції біля власних воріт повернеться авто.",
+          "explanationEn": "After demolition, a brief input chooses which available position near the own goal returns the car.",
+          "exampleUk": "Гравець обирає лівий spawn, щоб швидше закрити дальню стійку.",
+          "exampleEn": "The player chooses the left spawn to cover the far post sooner."
+        },
+        "INF-116": {
+          "labelUk": "Бачити команди, рахунок і час",
+          "labelEn": "See teams, score and time",
+          "explanationUk": "HUD лишає видимими належність авто, рахунок, regulation clock і overtime phase.",
+          "explanationEn": "The HUD keeps car affiliation, score, regulation clock and overtime phase visible.",
+          "exampleUk": "На табло видно 1–0 і 0:42 до кінця регламенту.",
+          "exampleEn": "The scoreboard shows 1–0 with 0:42 left in regulation."
+        }
+      }
+    },
+    "GAME-0178": {
+      "genes": {
+        "SYS-543": {
+          "labelUk": "Витрачати кисень між джерелами повітря",
+          "labelEn": "Spend oxygen between air sources",
+          "explanationUk": "Під водою запас кисню невпинно зменшується, а поверхня, живлена база чи Seamoth знову його наповнюють.",
+          "explanationEn": "Underwater oxygen continually falls, while the surface, a powered base or the Seamoth refills it.",
+          "exampleUk": "Після попередження персонаж спливає й відновлює весь запас.",
+          "exampleEn": "After the warning, the survivor surfaces and restores the full reserve."
+        },
+        "SYS-544": {
+          "labelUk": "Складати креслення зі сканів уламків",
+          "labelEn": "Assemble blueprints from fragment scans",
+          "explanationUk": "Завершений скан додає один уламок до потрібного креслення, а останній потрібний уламок відкриває рецепт назавжди.",
+          "explanationEn": "A completed scan adds one fragment to its blueprint, and the final required fragment permanently unlocks the recipe.",
+          "exampleUk": "Третій уламок Mobile Vehicle Bay переводить креслення в стан 3/3.",
+          "exampleEn": "The third Mobile Vehicle Bay fragment changes the blueprint to 3/3."
+        },
+        "SYS-546": {
+          "labelUk": "Ділити міцність між модулями бази",
+          "labelEn": "Share hull integrity across base modules",
+          "explanationUk": "Кожен з’єднаний підводний модуль змінює спільну міцність; за нуля з’являються пробоїни й вода.",
+          "explanationEn": "Every connected underwater module changes shared integrity; at zero, breaches form and water enters.",
+          "exampleUk": "Невеликий I-відсік із люком лишається сухим за додатного показника.",
+          "exampleEn": "A small I Compartment with a Hatch remains dry while integrity is positive."
+        },
+        "SYS-547": {
+          "labelUk": "Перетворювати сонце на енергію й повітря",
+          "labelEn": "Turn sunlight into power and air",
+          "explanationUk": "Сонячна панель заряджає з’єднану базу, а доступна енергія підтримує її сухий кисневий простір.",
+          "explanationEn": "A Solar Panel charges the connected base, and available power sustains its dry oxygenated interior.",
+          "exampleUk": "На мілководді панель накопичує заряд, і після входу кисень зростає.",
+          "exampleEn": "In shallow water the panel stores charge, and oxygen rises after entry."
+        },
+        "SYS-548": {
+          "labelUk": "Витрачати заряд і витримувати тиск у Seamoth",
+          "labelEn": "Spend charge and withstand pressure in the Seamoth",
+          "explanationUk": "Рух Seamoth споживає Power Cell, а зіткнення чи перебування нижче допустимої глибини шкодять корпусу.",
+          "explanationEn": "Seamoth movement consumes its Power Cell, while collisions or travel below safe depth damage the hull.",
+          "exampleUk": "Немодифікований Seamoth попереджає про 200 м і за глибшого спуску починає ламатися.",
+          "exampleEn": "An unmodified Seamoth warns at 200 m and begins breaking below it."
+        },
+        "CON-460": {
+          "labelUk": "Залишати час на повернення до повітря",
+          "labelEn": "Leave enough oxygen to reach air",
+          "explanationUk": "Дістатися цілі недостатньо: залишок кисню має покривати шлях до поверхні, бази або транспорту.",
+          "explanationEn": "Reaching the target is not enough: remaining oxygen must cover the route to the surface, base or vehicle.",
+          "exampleUk": "За 30 одиниць кисню персонаж розвертається від уламка до поверхні.",
+          "exampleEn": "At 30 oxygen, the survivor turns away from a fragment toward the surface."
+        },
+        "CON-461": {
+          "labelUk": "Не відкривати креслення до останнього уламка",
+          "labelEn": "Keep the blueprint locked until the last fragment",
+          "explanationUk": "Кожна технологія має власний лічильник, і неповний набір не дозволяє її виготовити.",
+          "explanationEn": "Each technology has its own counter, and an incomplete set cannot be fabricated.",
+          "exampleUk": "Два зі сканованих трьох уламків Seamoth ще не дають рецепт.",
+          "exampleEn": "Two of three scanned Seamoth fragments still do not provide the recipe."
+        },
+        "CON-465": {
+          "labelUk": "Тримати Seamoth у межах заряду й 200 м",
+          "labelEn": "Keep the Seamoth within charge and 200 m",
+          "explanationUk": "Без заряду субмарина не рухається й не підтримує повітря, а за межею глибини тиск руйнує її.",
+          "explanationEn": "Without charge the submersible cannot move or sustain air, while pressure damages it beyond the depth limit.",
+          "exampleUk": "Пілот підіймається вище 200 м, перш ніж продовжити шлях до бази.",
+          "exampleEn": "The pilot rises above 200 m before continuing toward the base."
+        }
+      },
+      "structural": {
+        "ACT-008": {
+          "labelUk": "Плавати між капсулою, ресурсами й базою",
+          "labelEn": "Swim among pod, resources and base",
+          "explanationUk": "Гравець безпосередньо задає напрям, глибину й швидкість руху персонажа у воді та всередині бази.",
+          "explanationEn": "The player directly controls the survivor's direction, depth and speed in water and inside the base.",
+          "exampleUk": "Персонаж пірнає від Lifepod 5 до вапнякового виходу й повертається нагору.",
+          "exampleEn": "The survivor dives from Lifepod 5 to a limestone outcrop and returns upward."
+        },
+        "ACT-123": {
+          "labelUk": "Обрати відомий рецепт",
+          "labelEn": "Choose a known recipe",
+          "explanationUk": "У потрібній виробничій станції гравець підтверджує один відкритий рецепт із доступними складниками.",
+          "explanationEn": "At the required fabrication station, the player confirms one unlocked recipe with available ingredients.",
+          "exampleUk": "У Fabricator обирають Scanner після підготовки батареї й титану.",
+          "exampleEn": "The player selects Scanner at the Fabricator after preparing a Battery and Titanium."
+        },
+        "ACT-201": {
+          "labelUk": "Увійти в Seamoth і керувати ним",
+          "labelEn": "Enter and pilot the Seamoth",
+          "explanationUk": "Персонаж сідає в одномісну субмарину, безпосередньо задає її рух і виходить у вибраному місці.",
+          "explanationEn": "The survivor enters the one-seat submersible, directly controls its movement and exits at a chosen place.",
+          "exampleUk": "Пілот веде перший Seamoth від плавучої верфі до мілководної бази.",
+          "exampleEn": "The pilot drives the first Seamoth from the floating bay to the shallow base."
+        },
+        "ACT-245": {
+          "labelUk": "Зібрати доступну порцію сировини",
+          "labelEn": "Gather one reachable material yield",
+          "explanationUk": "Взаємодія з доступним джерелом переносить його скінченний матеріал до наплічника.",
+          "explanationEn": "Interacting with a reachable source transfers its finite material yield into inventory.",
+          "exampleUk": "Персонаж ламає вапняковий вихід і забирає мідь або титан.",
+          "exampleEn": "The survivor breaks a limestone outcrop and takes Copper or Titanium."
+        },
+        "ACT-312": {
+          "labelUk": "Спіймати малу рибу рукою",
+          "labelEn": "Catch a small fish by hand",
+          "explanationUk": "Рухливу істоту треба наздогнати й узяти, доки вона залишається в межах руки та в наплічнику є місце.",
+          "explanationEn": "The moving creature must be reached and taken while it remains within hand range and inventory has room.",
+          "exampleUk": "Гравець ловить рибу-міхур для фільтрованої води.",
+          "exampleEn": "The player catches a Bladderfish for Filtered Water."
+        },
+        "ACT-313": {
+          "labelUk": "Утримувати Scanner на уламку",
+          "labelEn": "Hold the Scanner on a fragment",
+          "explanationUk": "Сканер має бути зарядженим, спрямованим на ціль і достатньо близьким, доки коло поступу не заповниться.",
+          "explanationEn": "The Scanner must stay charged, aimed and close enough until the progress ring fills.",
+          "exampleUk": "Гравець не відводить прилад від уламка Seamoth до завершення скану.",
+          "exampleEn": "The player keeps the device on a Seamoth fragment until the scan completes."
+        },
+        "ACT-314": {
+          "labelUk": "Будувати або розбирати герметичний модуль",
+          "labelEn": "Build or remove a sealed module",
+          "explanationUk": "Habitat Builder поступово вкладає матеріали в допустиму проєкцію або повертає їх під час розбирання.",
+          "explanationEn": "The Habitat Builder gradually commits materials into a legal projection or returns them during deconstruction.",
+          "exampleUk": "Гравець завершує люк на готовому I-відсіку.",
+          "exampleEn": "The player completes a Hatch on the finished I Compartment."
+        },
+        "ACT-315": {
+          "labelUk": "Розгорнути плавучу Mobile Vehicle Bay",
+          "labelEn": "Deploy the floating Mobile Vehicle Bay",
+          "explanationUk": "Великий предмет залишає наплічник, спливає й розкладається у платформу для виготовлення транспорту.",
+          "explanationEn": "The large carried item leaves inventory, rises and unfolds into a vehicle-fabrication platform.",
+          "exampleUk": "Після випуску у воду платформа спливає й відкриває меню Seamoth.",
+          "exampleEn": "After release into the water, the platform surfaces and exposes the Seamoth menu."
+        },
+        "SYS-320": {
+          "labelUk": "Розв’язувати рух і зіткнення Seamoth",
+          "labelEn": "Resolve Seamoth motion and collisions",
+          "explanationUk": "Система перетворює керування, напрям і контакт із довкіллям на траєкторію та пошкодження субмарини.",
+          "explanationEn": "The system turns controls, orientation and environmental contact into submersible trajectory and damage.",
+          "exampleUk": "Різкий удар об скелю зупиняє Seamoth і зменшує міцність.",
+          "exampleEn": "A hard rock collision stops the Seamoth and reduces its health."
+        },
+        "SYS-327": {
+          "labelUk": "Зменшувати ситість і запас води",
+          "labelEn": "Advance hunger and hydration",
+          "explanationUk": "У Survival ситість і запас води спадають у реальному часі, їжа й напої їх відновлюють, а нуль шкодить здоров’ю.",
+          "explanationEn": "In Survival, food and water fall in real time, consumables restore them and zero begins damaging health.",
+          "exampleUk": "Низький запас води змушує виготовити й випити фільтровану воду.",
+          "exampleEn": "Low hydration forces the survivor to fabricate and drink Filtered Water."
+        },
+        "SYS-545": {
+          "labelUk": "Перетворювати складники на один результат",
+          "labelEn": "Convert ingredients into one output",
+          "explanationUk": "Фабрикатор забирає потрібні складники, завершує коротке виробництво й утримує готовий предмет для підбору.",
+          "explanationEn": "The fabricator consumes required ingredients, finishes a short process and holds the output for collection.",
+          "exampleUk": "Mobile Vehicle Bay споживає матеріали й збирає готовий Seamoth.",
+          "exampleEn": "The Mobile Vehicle Bay consumes materials and assembles the finished Seamoth."
+        },
+        "CON-394": {
+          "labelUk": "Уміщувати предмети в прямокутну сітку",
+          "labelEn": "Fit items into the rectangular inventory",
+          "explanationUk": "Предмет входить до наплічника, лише якщо його прямокутний розмір уміщується у вільні клітинки.",
+          "explanationEn": "An item enters inventory only when its rectangular size fits available cells.",
+          "exampleUk": "Mobile Vehicle Bay займає блок 3×3 і потребує дев’ять вільних клітинок.",
+          "exampleEn": "The Mobile Vehicle Bay occupies a 3×3 block and needs nine free cells."
+        },
+        "CON-462": {
+          "labelUk": "Поєднати креслення, матеріали й правильну станцію",
+          "labelEn": "Combine blueprint, materials and the right station",
+          "explanationUk": "Навіть повний набір матеріалів не працює без відкритого рецепта, сумісного фабрикатора й місця для результату.",
+          "explanationEn": "Even complete materials are insufficient without an unlocked recipe, compatible fabricator and room for the output.",
+          "exampleUk": "Seamoth можна замовити лише на розгорнутій Mobile Vehicle Bay після 3/3 сканів.",
+          "exampleEn": "The Seamoth can be ordered only at a deployed Mobile Vehicle Bay after 3/3 scans."
+        },
+        "CON-463": {
+          "labelUk": "Розміщувати базу без колізій і втрати міцності",
+          "labelEn": "Place the base without overlap or integrity failure",
+          "explanationUk": "Проєкція модуля мусить бути вільною, забезпеченою матеріалами й не звести спільну міцність до небезпечного стану.",
+          "explanationEn": "A module projection must be clear, funded by materials and not drive shared integrity into danger.",
+          "exampleUk": "Мілководні I-відсік і люк залишають спільну міцність вище нуля.",
+          "exampleEn": "A shallow I Compartment and Hatch leave shared integrity above zero."
+        },
+        "CON-464": {
+          "labelUk": "Не мати кисню бази без живлення",
+          "labelEn": "Require power for base oxygen",
+          "explanationUk": "Суха оболонка сама не створює повітря: сонячна панель або інше джерело має дати доступну енергію.",
+          "explanationEn": "A dry shell does not create air by itself: a Solar Panel or other source must provide available energy.",
+          "exampleUk": "Після заходу сонця порожній запас енергії вимикає виробництво кисню.",
+          "exampleEn": "After sunset, an empty energy reserve disables oxygen production."
+        },
+        "INF-132": {
+          "labelUk": "Бачити креслення, уламки й вартість рецепта",
+          "labelEn": "See blueprints, fragments and recipe costs",
+          "explanationUk": "PDA і фабрикатори показують, що вже відкрито, скільки уламків бракує та які складники потрібні.",
+          "explanationEn": "The PDA and fabricators show what is unlocked, how many fragments are missing and which ingredients are required.",
+          "exampleUk": "PDA показує Seamoth 2/3 і затемнений рецепт до третього скану.",
+          "exampleEn": "The PDA shows Seamoth 2/3 and a locked recipe until the third scan."
+        },
+        "INF-223": {
+          "labelUk": "Читати скан, корпус, енергію й глибину",
+          "labelEn": "Read scan, hull, energy and depth",
+          "explanationUk": "Контекстний HUD з’єднує поступ дослідження з безпекою бази й транспортного маршруту.",
+          "explanationEn": "Contextual HUDs connect research progress to base and vehicle-route safety.",
+          "exampleUk": "У Seamoth видно заряд, міцність, поточну глибину й попередження про 200 м.",
+          "exampleEn": "Inside the Seamoth, charge, health, depth and the 200 m warning are visible."
+        },
+        "OBJ-102": {
+          "labelUk": "Повернути перший Seamoth до живленої бази",
+          "labelEn": "Return the first Seamoth to a powered base",
+          "explanationUk": "Маршрут успішний, коли нова субмарина лишається справною зовні, а персонаж живим входить у суху базу з киснем.",
+          "explanationEn": "The route succeeds when the new submersible remains operable outside and the survivor enters a dry oxygenated base alive.",
+          "exampleUk": "Пілот зупиняє Seamoth, виходить і проходить через люк I-відсіку.",
+          "exampleEn": "The pilot stops the Seamoth, exits and passes through the I Compartment Hatch."
+        },
+        "TIM-003": {
+          "labelUk": "Діяти, поки виживання триває",
+          "labelEn": "Act while survival keeps advancing",
+          "explanationUk": "Кисень, ситість, запас води, істоти, енергія й рух не зупиняються, поки гравець приймає рішення.",
+          "explanationEn": "Oxygen, food, water, creatures, energy and movement continue changing while the player decides.",
+          "exampleUk": "Під час сканування уламка кисень далі зменшується, а риби рухаються поруч.",
+          "exampleEn": "While a fragment is scanned, oxygen keeps falling and fish continue moving nearby."
+        }
+      },
+      "supporting": {
+        "ACT-164": {
+          "labelUk": "Вибрати інструмент у швидкій комірці",
+          "labelEn": "Select a quick-slot tool",
+          "explanationUk": "Заповнена швидка комірка робить Scanner, Habitat Builder чи інший предмет активним у руці.",
+          "explanationEn": "An occupied quick slot makes the Scanner, Habitat Builder or another item active in hand.",
+          "exampleUk": "Перед уламком гравець перемикається з Builder-а на Scanner.",
+          "exampleEn": "At a fragment, the player switches from the Builder to the Scanner."
+        },
+        "ACT-165": {
+          "labelUk": "З’їсти переносну їжу",
+          "labelEn": "Eat carried food",
+          "explanationUk": "Вибрана їжа зникає з наплічника й збільшує ситість персонажа.",
+          "explanationEn": "Selected food leaves inventory and increases the survivor's food reserve.",
+          "exampleUk": "Приготований піпер відновлює ситість перед довшим зануренням.",
+          "exampleEn": "A Cooked Peeper restores food before a longer dive."
+        },
+        "ACT-311": {
+          "labelUk": "Випити переносну воду",
+          "labelEn": "Drink carried water",
+          "explanationUk": "Вибраний напій споживається окремо від їжі й відновлює запас води.",
+          "explanationEn": "The selected drink is consumed separately from food and restores hydration.",
+          "exampleUk": "Фільтрована вода з риби-міхура підвищує синій показник.",
+          "exampleEn": "Filtered Water made from a Bladderfish raises the blue meter."
+        },
+        "SYS-216": {
+          "labelUk": "Відродитися в останньому захищеному прихистку",
+          "labelEn": "Respawn at the last secured refuge",
+          "explanationUk": "Після звичайної смерті світ лишається, персонаж повертається в останнє безпечне житло й втрачає лише визначену частину незахищених речей.",
+          "explanationEn": "After ordinary death the world remains, the survivor returns to the last secured habitat and loses only scoped unsecured items.",
+          "exampleUk": "Після задухи персонаж з’являється в останній базі, а частину недавньої сировини можна повернути з місця смерті.",
+          "exampleEn": "After drowning, the survivor respawns at the last base and may recover some recent materials from the death site."
+        },
+        "INF-073": {
+          "labelUk": "Бачити швидкі комірки й активний предмет",
+          "labelEn": "See quick slots and the active item",
+          "explanationUk": "Інтерфейс показує призначені інструменти, їхній заряд і те, що зараз у руці.",
+          "explanationEn": "The interface shows assigned tools, their charge and which one is currently in hand.",
+          "exampleUk": "Піктограма Scanner виділена, а його батарея показує залишок заряду.",
+          "exampleEn": "The Scanner icon is selected and its battery shows remaining charge."
+        },
+        "INF-075": {
+          "labelUk": "Бачити здоров’я, кисень, ситість і воду",
+          "labelEn": "See health, oxygen, food and water",
+          "explanationUk": "HUD лишає чотири поточні запаси видимими, щоб оцінити наступне занурення або споживання.",
+          "explanationEn": "The HUD keeps four current reserves visible for judging the next dive or consumable.",
+          "exampleUk": "Низькі кисень і вода одночасно змушують спливти, а потім випити.",
+          "exampleEn": "Low oxygen and water together force the survivor to surface, then drink."
+        }
+      }
+    },
+    "GAME-0179": {
+      "genes": {
+        "ACT-318": {
+          "labelUk": "Наказати селянам працювати в конкретному місці",
+          "labelEn": "Assign Villagers to a world task",
+          "explanationUk": "Вибрані селяни самі йдуть до вказаного ресурсу, фундаменту або пошкодженої споруди й виконують цю роботу в реальному часі.",
+          "explanationEn": "Selected Villagers travel to the addressed resource, foundation or damaged structure and perform that work in real time.",
+          "exampleUk": "Троє селян ідуть до ягід, а четвертий будує House.",
+          "exampleEn": "Three Villagers go to berries while a fourth builds a House."
+        },
+        "SYS-549": {
+          "labelUk": "Носити ресурс від джерела до пункту здачі",
+          "labelEn": "Carry resources from source to drop-off",
+          "explanationUk": "Працівник бере обмежений вантаж, повертається до сумісної будівлі й лише тоді додає його до спільного запасу.",
+          "explanationEn": "A worker takes a limited load, returns to a compatible building and only then adds it to the shared stockpile.",
+          "exampleUk": "Лісоруб не додає деревину, доки не донесе її до Lumber Camp.",
+          "exampleEn": "A woodcutter adds no wood until the load reaches a Lumber Camp."
+        },
+        "SYS-551": {
+          "labelUk": "Вести окрему живу чергу в кожній будівлі",
+          "labelEn": "Run a live queue in each building",
+          "explanationUk": "Кожна виробнича споруда окремо відраховує час першого оплаченого замовлення й потім переходить до наступного.",
+          "explanationEn": "Each production building independently advances its first paid order and then moves to the next.",
+          "exampleUk": "Town Center готує Villager, поки Archery Range паралельно готує Archer.",
+          "exampleEn": "The Town Center trains a Villager while an Archery Range trains an Archer in parallel."
+        },
+        "SYS-553": {
+          "labelUk": "Будувати місця для майбутнього населення",
+          "labelEn": "Construct room for future population",
+          "explanationUk": "Юніти займають населення, а завершені Houses, Town Centers і Castles розширюють межу лише до максимуму матчу.",
+          "explanationEn": "Units occupy population, while completed Houses, Town Centers and Castles raise the cap only to the match maximum.",
+          "exampleUk": "За 15/15 готовий Archer чекає, доки новий House підніме межу.",
+          "exampleEn": "At 15/15, a finished Archer waits until a new House raises capacity."
+        },
+        "CON-468": {
+          "labelUk": "Підкріплювати нову епоху ресурсами й будівлями",
+          "labelEn": "Fund each new Age with resources and buildings",
+          "explanationUk": "Одного запасу харчів і золота недостатньо: перед переходом мають стояти потрібні будівлі поточної епохи.",
+          "explanationEn": "Food and gold alone are insufficient: the required current-Age buildings must also be complete before advancement.",
+          "exampleUk": "Castle Age не з’являється в черзі без двох завершених Feudal Age buildings.",
+          "exampleEn": "Castle Age does not become available without two completed Feudal Age buildings."
+        },
+        "OBJ-103": {
+          "labelUk": "Позбавити суперника здатності відбудувати цивілізацію",
+          "labelEn": "Remove the opponent's ability to rebuild",
+          "explanationUk": "Conquest вимагає капітуляції або знищення значущих селян, військ і виробничих будівель, а не просто виграної сутички.",
+          "explanationEn": "Conquest requires resignation or removal of relevant Villagers, military and production buildings, not merely one won fight.",
+          "exampleUk": "Після падіння армії треба знайти вцілілих селян і виробництво Franks.",
+          "exampleEn": "After the army falls, surviving Frank Villagers and production must still be found."
+        }
+      },
+      "structural": {
+        "ACT-121": {
+          "labelUk": "Поставити технологію або епоху в чергу",
+          "labelEn": "Queue a technology or Age",
+          "explanationUk": "Гравець вибирає доступне дослідження в придатній будівлі й визначає, що вона робитиме далі.",
+          "explanationEn": "The player selects an available research order at an eligible building and commits what it will do next.",
+          "exampleUk": "У Town Center запускають Feudal Age після виконання умов.",
+          "exampleEn": "Feudal Age is started at the Town Center after its requirements are met."
+        },
+        "ACT-139": {
+          "labelUk": "Поставити або знести будівлю",
+          "labelEn": "Place or demolish a building",
+          "explanationUk": "Гравець вибирає споруду й допустимий контур у світі або прибирає власну споруду, змінюючи економічну мережу.",
+          "explanationEn": "The player chooses a building and legal world footprint or removes an owned structure, changing the economic network.",
+          "exampleUk": "Lumber Camp ставлять біля лісу, щоб скоротити шлях здачі.",
+          "exampleEn": "A Lumber Camp is placed near the forest to shorten the drop-off route."
+        },
+        "ACT-189": {
+          "labelUk": "Дати наказ рухатися або атакувати",
+          "labelEn": "Issue a move or attack order",
+          "explanationUk": "Вибраний юніт чи група отримує точку, видиму ціль або attack-move, а далі система виконує шлях і контакт.",
+          "explanationEn": "A selected unit or group receives a point, visible target or attack-move order, after which the system executes path and contact.",
+          "exampleUk": "Longbowmen отримують attack-move до видимої окраїни бази.",
+          "exampleEn": "Longbowmen receive an attack-move toward the visible edge of the base."
+        },
+        "ACT-316": {
+          "labelUk": "Замовити юніта в конкретній будівлі",
+          "labelEn": "Order a unit at one building",
+          "explanationUk": "Вибір типу юніта додає оплачене замовлення до скінченної черги саме цієї споруди.",
+          "explanationEn": "Selecting a unit type appends a paid order to that specific building's finite queue.",
+          "exampleUk": "У Castle додають Longbowman після вже замовленого юніта.",
+          "exampleEn": "A Longbowman is appended behind the unit already queued at the Castle."
+        },
+        "ACT-317": {
+          "labelUk": "Вибрати стрій і поведінку групи",
+          "labelEn": "Choose group formation and behaviour",
+          "explanationUk": "Формація визначає взаємне розташування, а стійка — коли група переслідує, тримає позицію чи не атакує.",
+          "explanationEn": "Formation controls relative placement, while stance controls whether the group pursues, holds or refuses targets.",
+          "exampleUk": "Лучники стають у line formation зі stand ground біля trebuchet.",
+          "exampleEn": "Archers take line formation with stand ground beside the trebuchet."
+        },
+        "SYS-161": {
+          "labelUk": "Вичерпувати конкретне джерело ресурсу",
+          "labelEn": "Deplete each resource source",
+          "explanationUk": "Кожна зібрана порція зменшує залишок дерева, золота, каменю або їжі, доки робота в цій точці не припиниться.",
+          "explanationEn": "Every gathered yield reduces the remaining wood, gold, stone or food until work at that source stops.",
+          "exampleUk": "Після вирубування дерева лісорубові потрібна нова ціль.",
+          "exampleEn": "After a tree is exhausted, the woodcutter needs another target."
+        },
+        "SYS-215": {
+          "labelUk": "Розв’язувати бій без зупинки часу",
+          "labelEn": "Resolve combat without stopping time",
+          "explanationUk": "Юніти рухаються, захоплюють цілі й обмінюються ударами за дальністю, швидкістю атаки, шкодою та захистом у живому світі.",
+          "explanationEn": "Units move, acquire targets and exchange attacks by range, cadence, damage and defence in a live world.",
+          "exampleUk": "Longbowmen стріляють, поки Frank cavalry скорочує дистанцію.",
+          "exampleEn": "Longbowmen fire while Frank cavalry closes the distance."
+        },
+        "SYS-297": {
+          "labelUk": "Прокладати шлях і захоплювати наказану ціль",
+          "labelEn": "Path toward and acquire the ordered target",
+          "explanationUk": "Юніт обходить непрохідне, наближається до допустимої дальності й повторює звичайну атаку за темпом.",
+          "explanationEn": "A unit routes around blocked space, reaches legal range and repeats its ordinary attack at its cadence.",
+          "exampleUk": "Піхота обходить будівлю, перш ніж ударити облогову машину.",
+          "exampleEn": "Infantry routes around a building before striking the siege engine."
+        },
+        "SYS-550": {
+          "labelUk": "Перетворювати час селян на споруду або ремонт",
+          "labelEn": "Turn Villager time into construction or repair",
+          "explanationUk": "Призначені селяни поступово завершують фундамент або повертають міцність готовій власній цілі.",
+          "explanationEn": "Assigned Villagers gradually complete a foundation or restore health to an eligible owned target.",
+          "exampleUk": "Двоє селян швидше добудовують Archery Range, але обидва не збирають ресурси.",
+          "exampleEn": "Two Villagers finish an Archery Range sooner, but neither gathers resources during the work."
+        },
+        "SYS-552": {
+          "labelUk": "Застосувати результат дослідження після живого таймера",
+          "labelEn": "Apply research after its live timer",
+          "explanationUk": "Дослідження займає будівлю, а завершення назавжди відкриває або змінює належні цивілізації можливості.",
+          "explanationEn": "Research occupies its building, then permanently unlocks or changes the owning civilization's capabilities when complete.",
+          "exampleUk": "Завершення Castle Age відкриває Castle і нові військові технології.",
+          "exampleEn": "Completing Castle Age unlocks the Castle and later military technologies."
+        },
+        "SYS-554": {
+          "labelUk": "Зберігати топологію групи під час руху",
+          "labelEn": "Preserve group topology while moving",
+          "explanationUk": "Система розподіляє учасників по місцях формації, вирівнює їхній рух і застосовує стійку при появі цілей.",
+          "explanationEn": "The system assigns members to formation slots, coordinates their movement and applies stance when targets appear.",
+          "exampleUk": "Повільніший trebuchet змушує ескорт перегрупуватися навколо нього.",
+          "exampleEn": "A slower trebuchet makes its escort regroup around it."
+        },
+        "SYS-555": {
+          "labelUk": "Завершити матч за Conquest або капітуляцією",
+          "labelEn": "End the match through Conquest or resignation",
+          "explanationUk": "Система перевіряє спроможність усієї цивілізації продовжувати й показує остаточну перемогу або поразку.",
+          "explanationEn": "The system evaluates the whole civilization's ability to continue and reports final victory or defeat.",
+          "exampleUk": "Після втрати останніх потрібних підрозділів і споруд Franks зараховується перемога.",
+          "exampleEn": "Victory is awarded after the Franks lose their last required units and structures."
+        },
+        "CON-466": {
+          "labelUk": "Знайти місце, ресурси й будівельника",
+          "labelEn": "Provide footprint, resources and a builder",
+          "explanationUk": "Фундамент потребує відкритої епохою споруди, вільного контуру, оплати й доступного власного селянина.",
+          "explanationEn": "A foundation requires an Age-unlocked building, clear footprint, payment and a reachable owned Villager.",
+          "exampleUk": "Castle не можна поставити поверх лісу або без 650 stone.",
+          "exampleEn": "A Castle cannot be placed over forest or without 650 stone."
+        },
+        "CON-467": {
+          "labelUk": "Виконати умови перед додаванням у чергу",
+          "labelEn": "Meet requirements before queueing",
+          "explanationUk": "Замовлення відхиляється без правильної будівлі, епохи, передумов, ресурсів, місця в черзі чи населення.",
+          "explanationEn": "An order is rejected without the correct building, Age, prerequisites, resources, queue room or population headroom.",
+          "exampleUk": "Longbowman недоступний без Castle і потрібної епохи.",
+          "exampleEn": "A Longbowman is unavailable without a Castle and the required Age."
+        },
+        "CON-469": {
+          "labelUk": "Зберігати шлях до джерела й місця здачі",
+          "labelEn": "Maintain a route to source and drop-off",
+          "explanationUk": "Робота триває лише коли селянин може дістатися невичерпаного джерела й повернутися до сумісної власної будівлі.",
+          "explanationEn": "Work continues only while a Villager can reach an unexhausted source and return to a compatible owned building.",
+          "exampleUk": "Gold Miner не здає золото в Lumber Camp, а шукає Mining Camp або Town Center.",
+          "exampleEn": "A Gold Miner cannot deposit at a Lumber Camp and needs a Mining Camp or Town Center."
+        },
+        "CON-470": {
+          "labelUk": "Умістити групу й зброю в реальний простір",
+          "labelEn": "Fit the group and weapons into real space",
+          "explanationUk": "Прохідність, місце формації, видимість, дальність і мінімальна дальність окремо обмежують наказ кожного юніта.",
+          "explanationEn": "Passability, formation space, visibility, range and minimum range constrain each member's order.",
+          "exampleUk": "Trebuchet мусить розгорнутися на доступній позиції, а лучники — бачити ціль у своїй дальності.",
+          "exampleEn": "A trebuchet must deploy on a reachable position while archers need a visible target in range."
+        },
+        "INF-224": {
+          "labelUk": "Читати ресурси, населення й живі черги",
+          "labelEn": "Read resources, population and live queues",
+          "explanationUk": "HUD одночасно показує запаси, епоху, місткість, вибрані об’єкти, їхню міцність, накази та поступ виробництва.",
+          "explanationEn": "The HUD simultaneously shows stockpiles, Age, capacity, selections, health, commands and production progress.",
+          "exampleUk": "Перед Archer видно вартість, 27/30 population і зайняту чергу Range.",
+          "exampleEn": "Before ordering an Archer, the player can see its cost, 27/30 population and the Range queue."
+        },
+        "INF-225": {
+          "labelUk": "Пам’ятати землю, але не поточну армію ворога",
+          "labelEn": "Remember terrain but not the current enemy army",
+          "explanationUk": "Розвідана географія лишається на мапі, проте рухомий ворог зникає, коли виходить із союзного огляду.",
+          "explanationEn": "Explored geography remains mapped, but mobile enemies disappear when they leave allied sight.",
+          "exampleUk": "Відомий gold pile лишається на мінімапі, а Frank cavalry за туманом уже не відстежується.",
+          "exampleEn": "A known gold pile remains on the minimap while Frank cavalry beyond fog is no longer tracked."
+        },
+        "TIM-003": {
+          "labelUk": "Керувати економікою й війною без зупинки",
+          "labelEn": "Manage economy and war without stopping",
+          "explanationUk": "Праця, черги, розвідка, суперник і бій продовжуються, поки гравець вибирає наступний наказ.",
+          "explanationEn": "Work, queues, scouting, the opponent and combat continue while the player chooses the next order.",
+          "exampleUk": "Поки гравець мікрокерує лучників, селяни збирають, а AI атакує іншу ділянку.",
+          "exampleEn": "While the player micro-manages archers, Villagers gather and the AI attacks elsewhere."
+        }
+      },
+      "supporting": {
+        "SYS-004": {
+          "labelUk": "Створити Random Map із зафіксованого зерна",
+          "labelEn": "Generate the Random Map from a fixed seed",
+          "explanationUk": "Те саме зерно й налаштування дають той самий вхід генерації рельєфу та ресурсів для повторної перевірки.",
+          "explanationEn": "The same seed and settings provide the same terrain-and-resource generation input for a repeat check.",
+          "exampleUk": "Зерно 20260828179 повторно створює scoped Tiny Arabia за тієї самої збірки.",
+          "exampleEn": "Seed 20260828179 recreates the scoped Tiny Arabia under the same build."
+        },
+        "SYS-305": {
+          "labelUk": "Оновлювати поточну союзну видимість",
+          "labelEn": "Update current allied vision",
+          "explanationUk": "Кожен союзний юніт і будівля відкриває навколишню область, а вихід джерела огляду повертає поточний туман.",
+          "explanationEn": "Each allied unit and building reveals nearby space, and moving the vision source away restores current fog.",
+          "exampleUk": "Scout на мить відкриває Frank Villager, але той зникає після відступу розвідника.",
+          "exampleEn": "A Scout briefly reveals a Frank Villager, who disappears after the Scout retreats."
+        },
+        "CON-273": {
+          "labelUk": "Не атакувати те, чого союзники зараз не бачать",
+          "labelEn": "Do not target what allies cannot currently see",
+          "explanationUk": "Пам’ять про місце не дає актуальної позиції рухомої ворожої цілі й не замінює поточну зону огляду.",
+          "explanationEn": "Remembering a location does not provide the current position of a moving hostile target or replace live vision.",
+          "exampleUk": "Лучники не можуть напряму вибрати cavalry, що сховалася в тумані.",
+          "exampleEn": "Archers cannot directly select cavalry that has disappeared into fog."
+        },
+        "INF-059": {
+          "labelUk": "Бачити дерево відкриттів і вартість наперед",
+          "labelEn": "See unlock dependencies and costs in advance",
+          "explanationUk": "Інтерфейс показує, яка епоха, будівля, технологія, ресурси й населення потрібні перед замовленням.",
+          "explanationEn": "The interface shows which Age, building, technology, resources and population are required before an order.",
+          "exampleUk": "Tech tree пояснює, що Longbowman належить Britons і потребує Castle.",
+          "exampleEn": "The tech tree shows that the Longbowman belongs to the Britons and requires a Castle."
+        }
+      }
+    },
+    "GAME-0180": {
+      "genes": {
+        "ACT-321": {
+          "labelUk": "Пілотувати літак вручну",
+          "labelEn": "Fly the aircraft by hand",
+          "explanationUk": "Yoke, rudder, throttle і brakes безпосередньо змінюють рух літака на землі та в повітрі.",
+          "explanationEn": "Yoke, rudder, throttle and brakes directly change aircraft motion on the ground and in the air.",
+          "exampleUk": "Пілот тримає centerline на розбігу, а потім задає climb attitude.",
+          "exampleEn": "The pilot holds the centreline during the takeoff roll, then establishes a climb attitude."
+        },
+        "SYS-556": {
+          "labelUk": "Перетворювати керування на реальний політ",
+          "labelEn": "Turn control inputs into flight",
+          "explanationUk": "Lift, drag, thrust, gravity, wind і ground contact разом визначають attitude, speed, altitude та trajectory.",
+          "explanationEn": "Lift, drag, thrust, gravity, wind and ground contact jointly determine attitude, speed, altitude and trajectory.",
+          "exampleUk": "Замала airspeed на steep climb зменшує запас до stall.",
+          "exampleEn": "Too little airspeed in a steep climb reduces the margin above stall."
+        },
+        "SYS-557": {
+          "labelUk": "Живити двигун і cockpit через пов’язані системи",
+          "labelEn": "Power the engine and cockpit through connected systems",
+          "explanationUk": "Fuel path, ignition, battery, alternator, buses і circuits визначають доступні propulsion та instruments.",
+          "explanationEn": "Fuel path, ignition, battery, alternator, buses and circuits determine available propulsion and instruments.",
+          "exampleUk": "Без battery та avionics bus екрани G1000 не дають route state.",
+          "exampleEn": "Without battery and avionics-bus power, the G1000 screens provide no route state."
+        },
+        "CON-472": {
+          "labelUk": "Лишатися в envelope літака й runway",
+          "labelEn": "Stay inside the aircraft and runway envelope",
+          "explanationUk": "Speed, attitude, configuration, terrain clearance, alignment і runway distance обмежують безпечний перехід.",
+          "explanationEn": "Speed, attitude, configuration, terrain clearance, alignment and runway distance bound each safe transition.",
+          "exampleUk": "Завелика descent rate або бокове зміщення роблять final approach нестабільним.",
+          "exampleEn": "Excessive descent rate or lateral error makes final approach unstable."
+        },
+        "CON-473": {
+          "labelUk": "Довести політ до стоянки й shutdown",
+          "labelEn": "Carry the flight through parking and shutdown",
+          "explanationUk": "Destination overflight або touchdown не достатні: літак має зупинитися на стоянці й вимкнутися без shortcut.",
+          "explanationEn": "A destination overflight or touchdown is insufficient: the aircraft must park and shut down without a shortcut.",
+          "exampleUk": "Після landing пілот taxi до parking, ставить brake й вимикає engine та avionics.",
+          "exampleEn": "After landing, the pilot taxis to parking, sets the brake and shuts down the engine and avionics."
+        },
+        "OBJ-104": {
+          "labelUk": "Записати повний політ між стоянками",
+          "labelEn": "Record a complete parking-to-parking flight",
+          "explanationUk": "Одна спроба охоплює cold start, takeoff, route, landing, parking, shutdown і новий Free Flight logbook entry.",
+          "explanationEn": "One attempt spans cold start, takeoff, route, landing, parking, shutdown and a new Free Flight logbook entry.",
+          "exampleUk": "Маршрут KBFI–KTIW завершується лише після logbook notification.",
+          "exampleEn": "The KBFI-to-KTIW route ends only after the logbook notification."
+        }
+      },
+      "structural": {
+        "ACT-319": {
+          "labelUk": "Зафіксувати літак, маршрут і умови",
+          "labelEn": "Fix the aircraft, route and conditions",
+          "explanationUk": "Free Flight setup створює одну відтворювану спробу до появи cockpit control.",
+          "explanationEn": "Free Flight setup creates one reproducible attempt before cockpit control begins.",
+          "exampleUk": "Вибрано C172, parking KBFI, parking KTIW, VFR direct і Clear Skies.",
+          "exampleEn": "The C172, KBFI parking, KTIW parking, VFR direct and Clear Skies are selected."
+        },
+        "ACT-320": {
+          "labelUk": "Перемикати cockpit systems",
+          "labelEn": "Operate cockpit systems",
+          "explanationUk": "Fuel, battery, avionics, ignition, mixture, lights, trim і flaps змінюють готовність та конфігурацію літака.",
+          "explanationEn": "Fuel, battery, avionics, ignition, mixture, lights, trim and flaps change aircraft readiness and configuration.",
+          "exampleUk": "Mixture rich і magnetos start запускають piston engine після подачі fuel та power.",
+          "exampleEn": "Mixture rich and magnetos start run the piston engine after fuel and power are established."
+        },
+        "SYS-558": {
+          "labelUk": "Оновлювати план у G1000 та EFB",
+          "labelEn": "Advance the plan in the G1000 and EFB",
+          "explanationUk": "Position, active leg, track, deviation і distance змінюються разом із ручним рухом літака.",
+          "explanationEn": "Position, active leg, track, deviation and distance update as the manually flown aircraft moves.",
+          "exampleUk": "Cross-track deviation зменшується після виправлення heading до active leg.",
+          "exampleEn": "Cross-track deviation shrinks after heading is corrected toward the active leg."
+        },
+        "SYS-559": {
+          "labelUk": "Додати завершений політ до logbook",
+          "labelEn": "Add the completed flight to the logbook",
+          "explanationUk": "Допустимий destination ground terminal створює persistent entry і показує notification.",
+          "explanationEn": "An eligible destination ground terminal creates a persistent entry and displays a notification.",
+          "exampleUk": "Після parking shutdown Sim Update 6 повідомляє про новий Free Flight entry.",
+          "exampleEn": "After parking shutdown, Sim Update 6 reports a new Free Flight entry."
+        },
+        "CON-471": {
+          "labelUk": "Зберігати придатні fuel та electrical paths",
+          "labelEn": "Maintain viable fuel and electrical paths",
+          "explanationUk": "Неправильний selector, ignition або bus позбавляє відповідний engine чи cockpit function.",
+          "explanationEn": "An invalid selector, ignition state or bus removes the corresponding engine or cockpit function.",
+          "exampleUk": "Avionics лишаються темними, доки їхній bus не отримує power.",
+          "exampleEn": "Avionics remain dark until their bus receives power."
+        },
+        "INF-227": {
+          "labelUk": "Читати маршрут і його відхилення",
+          "labelEn": "Read the route and its deviation",
+          "explanationUk": "Avionics та EFB показують plan, aircraft position, active waypoint, track і distance без autopilot authority.",
+          "explanationEn": "Avionics and the EFB expose the plan, aircraft position, active waypoint, track and distance without autopilot authority.",
+          "exampleUk": "MFD показує літак ліворуч від direct leg до KTIW.",
+          "exampleEn": "The MFD shows the aircraft left of the direct leg to KTIW."
+        },
+        "TIM-003": {
+          "labelUk": "Пілотувати в безперервному часі",
+          "labelEn": "Pilot in continuous time",
+          "explanationUk": "Fuel, engine, position, airspeed та altitude продовжують змінюватися, поки гравець читає й коригує.",
+          "explanationEn": "Fuel, engine, position, airspeed and altitude keep changing while the player reads and corrects.",
+          "exampleUk": "Під час перевірки route літак продовжує drift за wind.",
+          "exampleEn": "While the route is checked, the aircraft continues drifting in the wind."
+        }
+      },
+      "supporting": {
+        "INF-226": {
+          "labelUk": "Читати flight та engine instruments",
+          "labelEn": "Read flight and engine instruments",
+          "explanationUk": "Cockpit показує attitude, speed, altitude, heading, vertical speed, RPM, fuel і warnings.",
+          "explanationEn": "The cockpit exposes attitude, speed, altitude, heading, vertical speed, RPM, fuel and warnings.",
+          "exampleUk": "PFD показує низьку airspeed і додатну vertical speed під час climb.",
+          "exampleEn": "The PFD shows low airspeed and positive vertical speed during climb."
+        }
+      }
     }
   }
 }

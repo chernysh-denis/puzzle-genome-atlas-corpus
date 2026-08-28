@@ -579,7 +579,8 @@
   [Fez decomposition](../games/a-f/fez.md), and
   [Monument Valley decomposition](../games/m-r/monument-valley.md), and
   [Antichamber decomposition](../games/a-f/antichamber.md), and
-  [Chants of Sennaar decomposition](../games/a-f/chants-of-sennaar.md).
+  [Chants of Sennaar decomposition](../games/a-f/chants-of-sennaar.md), and
+  [Blue Prince decomposition](../games/a-f/blue-prince.md).
 - Novelty: not assessed.
 
 ## OBJ-027 — Exact-once surface processing plus return pose
@@ -1393,12 +1394,14 @@
 - Claim status: `Observation`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: accumulate the clinching majority of regulation-round wins before
-  the opposing team, with a level score after the final permitted round remaining a draw.
-- Includes: Counter-Strike 2 Competitive bomb-defusal match victory at thirteen rounds.
+- Definition: accumulate the clinching bomb-round score before the opposing
+  team under the declared finite regulation and draw or overtime policy.
+- Includes: Counter-Strike 2 Competitive victory at thirteen regulation rounds
+  and Rainbow Six Siege Pro League regulation/finite-overtime map victory.
 - Excludes: maximising kill score; winning a tournament series; Premier rating change.
-- Parameters: round wins, clinch threshold, regulation maximum and draw rule.
-- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
+- Parameters: round wins, clinch threshold, regulation maximum, draw and overtime policy.
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md)
+  and [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
 - Novelty: not assessed.
 
 ## OBJ-072 — Destroy the opposing Ancient before yours falls
@@ -1719,13 +1722,14 @@
 - Definition: maximise the team's valid goal total relative to one opponent
   until the end of regulation, producing a win when ahead and an accepted draw
   when level under the scoped fixture rules.
-- Includes: one EA SPORTS FC 26 Kick Off Classic Match without extra time or a
-  penalty shoot-out.
+- Includes: one EA SPORTS FC 26 Kick Off Classic Match and one managed Football
+  Manager 26 league fixture without extra time or a penalty shoot-out.
 - Excludes: accumulating an unopposed high score; winning a season table;
   completing Ultimate Team objectives.
 - Parameters: goals for, goals against, regulation horizon, draw policy and
   selected side.
-- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
+- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md)
+  and [Football Manager 26 decomposition](../games/a-f/football-manager-26.md).
 - Novelty: first isolated for `GAME-0163`.
 
 ## OBJ-091 — Defeat Mom and reach the first clean-save Epilogue
@@ -1877,3 +1881,103 @@
 - Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
 - Novelty: first isolated for `GAME-0171`; the terminal couples alternative
   driving-event progress to one mandatory qualification race and membership gate.
+
+## OBJ-099 — Win two rounds against one fixed opposing fighter
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: in one fixed One on One match, earn the required two round wins
+  through KO or favourable time-over before the opposing fighter does.
+- Includes: the scoped Ryu-versus-Luke Street Fighter 6 Versus match.
+- Excludes: winning a tournament set of several matches; maximising score or
+  rank; eliminating a team; merely winning one round.
+- Parameters: selected side, opponent, round terminal, required wins, opponent
+  wins and final result.
+- Evidence: [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
+- Novelty: first isolated for `GAME-0172`; earlier match objectives use team
+  objectives, round economies, ball score or last-survivor state rather than
+  repeated duel rounds for the same fighter pair.
+
+## OBJ-100 — Plant the declared sabotage charge at its mission fixture
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: move an eligible surviving soldier adjacent to the declared
+  mission fixture and complete its sabotage interaction so the planted-charge
+  condition is recorded before mission settlement.
+- Includes: planting X4 at the ADVENT monument in XCOM 2 Operation Gatecrasher.
+- Excludes: detonating a carried combat grenade; destroying arbitrary scenery;
+  extracting without completing the sabotage interaction.
+- Parameters: fixture, eligible soldier, adjacency, interaction, planted flag
+  and conjunction with other mission requirements.
+- Evidence: [XCOM 2 decomposition](../games/s-z/xcom-2.md).
+- Novelty: first isolated for `GAME-0176`; earlier device objectives focus on
+  timed competitive activation or neutralisation rather than a squad mission's
+  persistent sabotage flag combined with hostile clearance.
+
+## OBJ-101 — Win one Soccar match by decisive goal score
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: finish the bounded match with more valid goals than the opposing
+  team, either by retaining a regulation lead through its legal terminal or by
+  scoring the first goal of sudden-death overtime after a tie.
+- Includes: one default five-minute Rocket League `3v3` Private Match result.
+- Excludes: an accepted regulation draw; rank or tournament-series victory;
+  maximising personal points, shots or demolitions.
+- Parameters: selected team, goals for, goals against, regulation terminal,
+  overtime state, deciding goal and final winner.
+- Evidence: [Rocket League decomposition](../games/m-r/rocket-league.md).
+- Novelty: first isolated for `GAME-0177`; `OBJ-090` accepts a draw, while this
+  objective requires a goal-decided terminal after conditional overtime.
+
+## OBJ-102 — Fabricate the first submersible and return to powered refuge
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: convert a fresh breath-limited survival start into one operable player-built submersible, pilot it within its safe envelope to a player-built powered habitat and finish alive inside the dry breathable refuge.
+- Includes: Subnautica's scoped first-Seamoth route from Lifepod 5 to a shallow I Compartment, Hatch and Solar Panel habitat.
+- Excludes: Moonpool docking; vehicle upgrades; curing infection; launching the Neptune rocket or completing the campaign.
+- Parameters: entry save, blueprint, vehicle, safe depth, destination habitat, power, integrity, survivor state and terminal entry.
+- Evidence: [Subnautica decomposition](../games/s-z/subnautica.md).
+- Novelty: first isolated for `GAME-0178`; the analytical terminal requires knowledge, production, mobile life support and a verified refuge return.
+
+## OBJ-103 — Defeat the opposing civilization under Conquest
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: make the sole opposing civilization resign or remove its Conquest-relevant villagers, military and production buildings before the player's civilization suffers the same terminal state.
+- Includes: the scoped Britons-versus-Franks Conquest skirmish in Age of Empires II: Definitive Edition.
+- Excludes: Wonder, Relic, Score and campaign victory; winning one battle while the opponent can still rebuild.
+- Parameters: player civilization, opponent, alliance, remaining unit and building set, resignation and terminal result.
+- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
+- Novelty: first isolated for `GAME-0179`; success evaluates the opponent's recoverable civilization-wide economy and army rather than one fixed target.
+
+## OBJ-104 — Complete one planned parking-to-parking logged flight
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: manually take the selected powered-down aircraft from departure
+  parking through takeoff and the declared route to a safe destination landing,
+  parking stop, shutdown and persistent Free Flight logbook entry.
+- Includes: the scoped Microsoft Flight Simulator 2024 Cessna 172 G1000 flight
+  from `KBFI` parking to `KTIW` parking.
+- Excludes: merely becoming airborne; a touch-and-go; Career score or payment;
+  destination overflight; autopilot or teleport completion.
+- Parameters: aircraft, origin, destination, route, takeoff, landing, parking,
+  shutdown, logbook entry and invalid shortcut.
+- Evidence: [Microsoft Flight Simulator 2024 decomposition](../games/m-r/microsoft-flight-simulator-2024.md).
+- Novelty: first isolated for `GAME-0180`; the terminal validates a complete
+  manual aviation systems cycle through an explicit non-competitive record.

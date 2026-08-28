@@ -8,6 +8,10 @@ Transition note (2026-08-27): the ADR-009 production cutover completed on
 retaining a versioned Go API over an immutable artifact. This ADR's static
 HTML, bounded-browser-data and no-second-editor constraints remain accepted.
 
+Transition note (2026-08-28): ADR-011 restores the direct build-time corpus
+adapter and removes the corpus API while retaining immutable revision and
+public-release provenance.
+
 ## Context
 
 The validated Atlas corpus is useful as research, but its Markdown-first form

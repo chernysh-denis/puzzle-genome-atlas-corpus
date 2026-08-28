@@ -3654,14 +3654,16 @@
   and the chosen result persists for its stated scope.
 - Includes: one blueprint or cornerstone selected from an Against the Storm
   offer, subject to rerolls; one Grand Theft Auto V terminal Story Mode option;
-  one Cyberpunk 2077 terminal alliance and final contract response.
+  one Cyberpunk 2077 terminal alliance and final contract response; one of
+  three room plans committed behind a Blue Prince doorway.
 - Excludes: buying several affordable shop items; reversible settings; viewing
   options without committing any.
 - Parameters: offer size, selections, rerolls, deferral, duration and duplicate
   rules.
 - Evidence: [Against the Storm decomposition](../games/a-f/against-the-storm.md)
   [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md), and
-  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
+  [Blue Prince decomposition](../games/a-f/blue-prince.md).
 - Novelty: not assessed.
 
 ## CON-189 — Event resolution requires compatible goods and staffed work duration
@@ -4829,11 +4831,13 @@
   grenade counts and finite magazine/reserve ammunition for the current life.
 - Includes: Counter-Strike 2 primary/secondary slots, grenade limits and finite
   ammunition; Helldivers 2 primary, secondary and support weapons, carried
-  grenade limit and finite magazine/reserve ammunition.
+  grenade limit and finite magazine/reserve ammunition; Rainbow Six Siege
+  operator weapon, secondary-gadget and finite ammunition/charge capacity.
 - Excludes: unlimited abstract score resources; a crafting-grid stack limit.
 - Parameters: slots, item class, grenade type/count, magazine and reserve.
 - Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md) and
-  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md).
+  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md) and
+  [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
 - Novelty: not assessed.
 
 ## CON-263 — Elimination suspends control until the next round
@@ -4845,41 +4849,47 @@
 - Definition: a defeated participant cannot move, attack or operate the
   objective for the remainder of the current round and returns only at the
   following round boundary.
-- Includes: Counter-Strike 2 Competitive one-life round participation.
-- Excludes: a temporary incapacitation with revival; permanent run death;
+- Includes: Counter-Strike 2 Competitive one-life round participation and
+  Rainbow Six Siege final elimination after any eligible injury/revival window.
+- Excludes: the temporary incapacitation before final elimination; permanent run death;
   immediate deathmatch respawn.
 - Parameters: defeat state, spectator channel, round boundary and re-entry.
-- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md)
+  and [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
 - Novelty: not assessed.
 
-## CON-264 — Bomb interaction requires role, item, site and uninterrupted time
+## CON-264 — Planted round-device interaction requires role, site and uninterrupted time
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: planting requires a living attacker carrying C4 inside a valid
-  bombsite, while defusing requires a living defender at the planted device;
-  either interaction fails to complete when its continuous channel is interrupted.
-- Includes: Counter-Strike 2 bomb plant and kit-sensitive defuse gates.
+- Definition: planting requires an eligible living attacker with the round
+  device inside a valid site, while neutralisation requires an eligible living
+  defender at the planted device; interruption prevents channel completion.
+- Includes: Counter-Strike 2 C4 plant and kit-sensitive defuse gates; Rainbow
+  Six Siege defuser plant and disable gates.
 - Excludes: damaging the bomb; instant capture-zone occupancy.
-- Parameters: role, C4 holder, site, range, duration, kit and interruption.
-- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
+- Parameters: role, device holder, site, range, duration, kit and interruption.
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md)
+  and [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
 - Novelty: not assessed.
 
-## CON-265 — Bomb round uses an asymmetric two-stage deadline
+## CON-265 — Planted round-device objective uses an asymmetric two-stage deadline
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: expiry of the unplanted round clock awards the defenders, but a
-  completed plant replaces that deadline with a separate live C4 fuse that can
-  be beaten only by a completed defuse.
-- Includes: Counter-Strike 2 Competitive defusal round time and planted C4 timer.
+  completed plant replaces that deadline with a separate live device timer that
+  can be beaten only by a completed neutralisation.
+- Includes: Counter-Strike 2 Competitive round/C4 timers and Rainbow Six Siege
+  action-phase/defuser timers.
 - Excludes: one symmetric attempt timer; overtime match scheduling.
-- Parameters: round time, plant completion, fuse, defuse duration and winner.
-- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
+- Parameters: round time, plant completion, device timer, neutralisation duration and winner.
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md)
+  and [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
 - Novelty: not assessed.
 
 ## CON-266 — Fixed team role bounds objective authority and friendly interaction
@@ -4891,25 +4901,29 @@
 - Definition: each participant belongs to one current team role that determines
   spawn, equipment access and objective authority while ordinary collision and
   friendly-fire rules still apply among teammates.
-- Includes: Counter-Strike 2 Terrorist and Counter-Terrorist Competitive roles.
+- Includes: Counter-Strike 2 Terrorist/Counter-Terrorist roles and Rainbow Six
+  Siege attacker/defender roles with configured friendly fire.
 - Excludes: hidden traitor roles; individually changing allegiance mid-round.
 - Parameters: team, side, spawn, equipment, objective rights and friendly fire.
-- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md)
+  and [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
 - Novelty: not assessed.
 
-## CON-267 — Regulation score has a finite half and match horizon
+## CON-267 — Bomb-match score has a bounded regulation and overtime policy
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: regulation contains at most twenty-four rounds, swaps sides after
-  twelve, ends early when one team reaches thirteen wins and otherwise may end
-  level after the final round.
-- Includes: current Counter-Strike 2 Competitive matchmaking regulation.
-- Excludes: Premier overtime; tournament series formats; one isolated round.
-- Parameters: half length, maximum rounds, clinch score, draw and overtime policy.
-- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
+- Definition: the match declares finite regulation halves, a role-swap boundary,
+  an early clinch threshold and an explicit draw or bounded-overtime policy.
+- Includes: Counter-Strike 2 Competitive MR12 regulation and Rainbow Six Siege
+  Pro League twelve-round regulation with finite three-round overtime.
+- Excludes: tournament series formats; one isolated round; unbounded scheduling.
+- Parameters: half length, maximum rounds, clinch score, role swap, draw,
+  overtime rounds and score difference.
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md)
+  and [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
 - Novelty: not assessed.
 
 ## CON-268 — Each fixed team slot commits one match hero
@@ -4921,11 +4935,13 @@
 - Definition: a fixed-size team assigns exactly one available match character
   to each player slot, subject to the current roster conflict rule.
 - Includes: Dota 2 five-player All Pick commitment; Apex Legends three-player
-  non-duplicate Legend commitment.
+  non-duplicate Legend commitment; Rainbow Six Siege five-player non-duplicate
+  operator commitment subject to current bans.
 - Excludes: swapping controlled heroes during live play; cosmetic loadouts.
 - Parameters: team size, slot, hero pool, phase and duplicate/conflict rule.
-- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md) and
-  [Apex Legends decomposition](../games/a-f/apex-legends.md).
+- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md),
+  [Apex Legends decomposition](../games/a-f/apex-legends.md) and
+  [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
 - Novelty: not assessed.
 
 ## CON-269 — Ability use requires legal target, range, resource and readiness
@@ -4943,7 +4959,9 @@
   class gadgets gated by target, range, charge, cooldown and combat state;
   Hollow Knight: Silksong Tools, Silk Skills and Bind gated by equipped state,
   reach, Silk, charge and readiness; Helldivers 2 stratagems gated by selected
-  loadout, valid target, charges, cooldown, signal state and destroyer support.
+  loadout, valid target, charges, cooldown, signal state and destroyer support;
+  Rainbow Six Siege gadgets gated by operator loadout, target/surface, charges
+  and current disabling state.
 - Excludes: passive effects; ordinary basic attacks.
 - Parameters: cast form, target class, range, mana, charge, cooldown and disable.
 - Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md) and
@@ -4951,8 +4969,9 @@
   [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md), and
   [Battlefield 6 decomposition](../games/a-f/battlefield-6.md), and
   [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md), and
-  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md) and
-  [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
+  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md),
+  [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md) and
+  [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
 - Novelty: not assessed.
 
 ## CON-270 — Character build is bounded by level and branch gates
@@ -5022,7 +5041,8 @@
 - Includes: Dota 2 fog of war, elevation/trees, invisibility and true sight.
 - Excludes: remembered last position; globally revealed objective state.
 - Parameters: vision source, occlusion, elevation, invisibility and detection.
-- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md).
+- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md) and
+  [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
 - Novelty: not assessed.
 
 ## CON-274 — Base buildings obey ordered protection and backdoor rules
@@ -7160,12 +7180,13 @@
   crossing of a touchline or goal line stops that phase and determines the
   legal throw-in, goal-kick, corner or goal outcome from crossing location and
   last touch.
-- Includes: the scoped EA SPORTS FC 26 stadium field.
+- Includes: scoped EA SPORTS FC 26 and Football Manager 26 stadium fields.
 - Excludes: a ball merely touching a line; an invisible arena wall that keeps
   every ball live; Rush-specific field geometry.
 - Parameters: field dimensions, line, crossing point, last touch, goal frame
   and restart placement.
-- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
+- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md)
+  and [Football Manager 26 decomposition](../games/a-f/football-manager-26.md).
 - Novelty: first isolated for `GAME-0163`.
 
 ## CON-400 — Offside restricts eligible attacking involvement
@@ -7181,7 +7202,8 @@
   goal kick, throw-in or corner; tactical formation preference.
 - Parameters: ball position, second-last opponent, body parts, pass instant,
   active involvement and restart exception.
-- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
+- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md)
+  and [Football Manager 26 decomposition](../games/a-f/football-manager-26.md).
 - Novelty: first isolated for `GAME-0163`.
 
 ## CON-401 — Player contact is bounded by football offence rules
@@ -7199,7 +7221,8 @@
   contact; post-match suspensions outside the scope.
 - Parameters: contact, force, ball timing, location, advantage, sanction and
   handball setting.
-- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
+- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md)
+  and [Football Manager 26 decomposition](../games/a-f/football-manager-26.md).
 - Novelty: first isolated for `GAME-0163`.
 
 ## CON-402 — Combat-room exits require finite hostile clearance
@@ -7772,15 +7795,18 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: a key, bomb or coin interaction is legal only when the current
+- Definition: a typed key, bomb, gem, coin or comparable finite pickup
+  interaction is legal only when the current
   run owns enough of that exact pickup type, and successful use subtracts the
   declared amount for locked access, a placed blast or a priced offer.
-- Includes: Rebirth locked doors and chests, bomb placement and Shop purchases.
+- Includes: Rebirth locked doors and chests, bomb placement and Shop purchases;
+  Blue Prince locks, gem-priced room plans and coin-priced shop offers.
 - Excludes: one interchangeable universal currency; health payment; an active
   item charge that replenishes through room clears.
 - Parameters: pickup type, current count, interaction class, cost, eligibility
   and remaining count.
-- Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
+- Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md)
+  and [Blue Prince decomposition](../games/a-f/blue-prince.md).
 - Novelty: first isolated for `GAME-0164`; it couples several non-substitutable
   run resources to distinct room-level decisions.
 
@@ -7891,3 +7917,537 @@
 - Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
 - Novelty: first isolated for `GAME-0171`; accumulated qualification progress
   and terminal event completion remain two distinct gates.
+
+## CON-442 — Fighting commands require an actionable compatible state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a requested movement, guard, throw or attack can begin only when
+  the assigned fighter, control mapping, current pose, recovery and declared
+  command prerequisites permit it.
+- Includes: Classic-control Ryu commands in the scoped Street Fighter 6 duel.
+- Excludes: resource costs handled by Drive or Super constraints; the resulting
+  contact; a persistent character-build prerequisite.
+- Parameters: fighter, control type, facing, ground/air state, recovery, input
+  buffer, command sequence, cancel window and target relation.
+- Evidence: [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
+- Novelty: first isolated for `GAME-0172`; it binds a character-owned fighting
+  command vocabulary to transient live pose and recovery state.
+
+## CON-443 — Shared stage bounds and bodies constrain duel spacing
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: both fighters occupy one bounded side-view arena; horizontal
+  stage edges, body push contact, airborne crossing and resulting facing limit
+  and transform their relative spacing.
+- Includes: the fixed Genbu Temple fight plane in Street Fighter 6 Versus.
+- Excludes: free three-dimensional arena traversal; ring-out victory; static
+  grid occupancy; a projectile's own collision rule.
+- Parameters: stage width, body bounds, push interaction, jump arc, corner,
+  crossover and facing update.
+- Evidence: [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
+- Novelty: first isolated for `GAME-0172`; earlier arenas permit broad spatial
+  navigation or objective zones rather than a two-body fighting plane whose
+  edges create corner pressure without ring-out.
+
+## CON-444 — Drive techniques require stock and non-Burnout state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a Drive technique is legal only when the fighter is outside
+  Burnout, its current Drive stock can satisfy the technique's cost and its
+  combat-state prerequisites permit activation.
+- Includes: Drive Impact, Drive Parry, Drive Rush, Drive Reversal and Overdrive
+  attacks in Street Fighter 6.
+- Excludes: passive Drive recovery; Super Art costs; ordinary guard or movement.
+- Parameters: stock, cost, Burnout, fighter state, cancel source and technique.
+- Evidence: [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
+- Novelty: first isolated for `GAME-0172`; a single resource gates five shared
+  offence, defence and mobility families and becomes wholly unavailable when
+  exhausted.
+
+## CON-445 — Super Art level requires sufficient current stock
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a requested Super Art may activate only when the current fighter
+  has at least the stock required by that art's level and satisfies its normal
+  command-state prerequisites.
+- Includes: Level 1, 2 and 3 Super Arts against the three-stock Street Fighter 6
+  Super Art Gauge.
+- Excludes: Drive costs; passive meter gain; character progression; a cooldown-
+  based ultimate with no spendable tiered reserve.
+- Parameters: current stock, art level, cost, fighter state, command and spend.
+- Evidence: [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
+- Novelty: first isolated for `GAME-0172`; the explicit stock tier selects
+  progressively priced finishers and persists across ordinary round resets.
+
+## CON-446 — Vitality, timer and round wins bound one fighting match
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: each round stops when a fighter reaches zero vitality or the
+  declared timer expires and is adjudicated; the match ends only when one side
+  accumulates the required round-win count.
+- Includes: default `99`-second, first-to-two Street Fighter 6 One on One.
+- Excludes: tournament games beyond one in-game match; an elimination-respawn
+  objective; infinite Training Mode vitality or timer.
+- Parameters: starting vitality, timer, KO, time-over comparison, draw policy,
+  round markers and required wins.
+- Evidence: [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
+- Novelty: first isolated for `GAME-0172`; previous finite-round constraints
+  bind team bomb, halftime or score rules rather than repeated resets of one
+  fixed fighter pair.
+
+## CON-447 — Drafted room must fit its vacant manor cell and entry edge
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a selected room plan is legal only when its target cell is inside
+  the finite manor plan, remains unoccupied and exposes the doorway connection
+  required by the addressed entry edge.
+- Includes: ordinary Blue Prince room placement on the `5 × 9` manor plan.
+- Excludes: judging whether the room is strategically useful; a free-form map
+  canvas; movement through an already connected doorway.
+- Parameters: grid bounds, target cell, occupancy, entry edge, plan doors,
+  position restrictions and eligibility.
+- Evidence: [Blue Prince decomposition](../games/a-f/blue-prince.md).
+- Novelty: first isolated for `GAME-0173`; prior tile placement genes do not
+  constrain a sampled room offer by both vacant cell and addressed doorway.
+
+## CON-448 — Remaining daily steps gate room-to-room traversal
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: traversing from the current room into one connected adjacent room
+  is legal only while the player has the required positive daily step amount,
+  which the successful traversal reduces.
+- Includes: Blue Prince's `50`-step morning and room-transition cost.
+- Excludes: real-time movement stamina inside a room; a turn counter that
+  advances on every interaction; room-plan gem cost.
+- Parameters: current steps, traversal cost, adjacency, current room, target
+  room, modifiers and resulting steps.
+- Evidence: [Blue Prince decomposition](../games/a-f/blue-prince.md).
+- Novelty: first isolated for `GAME-0173`; the resource counts transitions
+  across a player-drafted room graph while room inspection remains untimed.
+
+## CON-449 — Preparation and action phases gate role-specific control
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: before the action phase, attackers are restricted to supported
+  observation control while defenders may move, fortify and deploy; action
+  unlocks attacker bodies and the live combat/objective rules for both roles.
+- Includes: Rainbow Six Siege Bomb preparation and action phases.
+- Excludes: an ordinary pre-round countdown with no asymmetric actions; a
+  cosmetic loading screen.
+- Parameters: phase, role, body control, observation authority, deployment,
+  timer and transition.
+- Evidence: [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
+- Novelty: first isolated for `GAME-0174`; one timed phase grants different
+  simultaneous control vocabularies to the two opposing roles.
+
+## CON-450 — Fortification and gadget deployment require eligible surface and stock
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a defensive layer or gadget can be deployed only on a compatible,
+  reachable and currently available surface while the responsible personal or
+  team stock remains.
+- Includes: Rainbow Six Siege reinforcements, barricades and surface-bound
+  operator gadgets.
+- Excludes: free placement through solid geometry; unlimited decorative props;
+  selecting the gadget without deploying it.
+- Parameters: role, item, stock, surface, reach, occupancy, orientation,
+  placement time and conflict.
+- Evidence: [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
+- Novelty: first isolated for `GAME-0174`; a shared round fortification reserve
+  and personal gadget stock jointly constrain mutable tactical geometry.
+
+## CON-451 — Observation control requires a live feed and exposes the body
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: remote observation is available only through a surviving,
+  accessible device feed; while attention controls that feed, the operator's
+  body remains in the live world and can be attacked.
+- Includes: Rainbow Six Siege drone and camera observation during live rounds.
+- Excludes: pausing the world to inspect a map; omniscient spectator mode;
+  direct avatar-centred sight.
+- Parameters: device life, ownership, access, feed, body state, world time,
+  interruption and exit.
+- Evidence: [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
+- Novelty: first isolated for `GAME-0174`; information gain explicitly trades
+  embodied attention and safety for a destructible remote viewpoint.
+
+## CON-452 — Lineup, bench and roles require eligible available squad members
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a match assignment is legal only when the selected footballer is
+  registered and available, occupies one permitted lineup or bench place and
+  is not simultaneously assigned to another slot.
+- Includes: Football Manager 26 starting eleven, bench and positional roles.
+- Excludes: whether a legal choice is tactically strong; transfers; cosmetic
+  squad numbers.
+- Parameters: competition registration, availability, injury, suspension,
+  lineup capacity, bench capacity, position and duplicate assignment.
+- Evidence: [Football Manager 26 decomposition](../games/a-f/football-manager-26.md).
+- Novelty: first isolated for `GAME-0175`; it constrains a manager-authored
+  autonomous match roster rather than direct-control participants.
+
+## CON-453 — Manager influence is limited to declared plans and interventions
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during the fixture the player may alter only the supported
+  lineup, role, shape and instruction interfaces; footballers and the ball
+  remain under the match engine without direct embodied control.
+- Includes: Football Manager 26 match management.
+- Excludes: EA SPORTS FC direct player switching; scripted cinematics; a coach
+  mode that still permits steering a footballer.
+- Parameters: permitted interface, confirmation boundary, autonomous agents,
+  direct-control locus and match phase.
+- Evidence: [Football Manager 26 decomposition](../games/a-f/football-manager-26.md).
+- Novelty: first isolated for `GAME-0175`; absence of body control is the
+  operational authority boundary that makes observed football a management
+  problem rather than a dexterity problem.
+
+## CON-454 — Live substitutions obey bench, availability and competition limits
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a live substitution may use only an eligible named substitute
+  and must remain within the competition's replacement and opportunity limits.
+- Includes: the 2025/26 Premier League five-substitute, three-opportunity rule
+  with half-time excluded from the opportunity count.
+- Excludes: tactical role changes without personnel replacement; emergency
+  rules outside the scoped fixture; transfer registration.
+- Parameters: named bench, eligibility, substitutions used, opportunities
+  used, half-time, outgoing player and incoming player.
+- Evidence: [Football Manager 26 decomposition](../games/a-f/football-manager-26.md).
+- Novelty: first isolated for `GAME-0175`; it binds a manager's live personnel
+  interventions to both roster membership and a separate opportunity budget.
+
+## CON-455 — Soldier commands require Action Points and obey terminal-action closure
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a soldier command is legal only if its movement, target, range,
+  ammunition and Action Point requirements are satisfied; a declared
+  turn-ending command forfeits that soldier's remaining ordinary authority.
+- Includes: XCOM 2 movement bands, firing, reloading, grenades, Overwatch and
+  objective interaction in Operation Gatecrasher.
+- Excludes: whether a legal shot will hit; shared squad resources; commands
+  available only in later classes or campaign systems.
+- Parameters: soldier, remaining Action Points, command cost, terminal flag,
+  reachable cells, target, range, ammunition and ability readiness.
+- Evidence: [XCOM 2 decomposition](../games/s-z/xcom-2.md).
+- Novelty: first isolated for `GAME-0176`; it joins per-soldier authority to
+  spatial and equipment legality inside one interleavable squad phase.
+
+## CON-456 — Enclosed Soccar geometry keeps ordinary contact live
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the standard arena's floor, curved walls, ceiling, goal frames
+  and goal planes bound car and ball motion; ordinary wall or corner contact
+  remains live rather than creating a football out-of-bounds restart.
+- Includes: Rocket League DFH Stadium standard Soccar geometry.
+- Excludes: touchline throw-ins, corners and goal kicks; leaving an open-world
+  road; an alternate Dropshot or Hoops arena.
+- Parameters: floor, wall, curve, ceiling, goal frame, goal plane, collision
+  surface and legal play volume.
+- Evidence: [Rocket League decomposition](../games/m-r/rocket-league.md).
+- Novelty: first isolated for `GAME-0177`; it is the explicit inverse of
+  `CON-399`'s whole-ball boundary stoppage.
+
+## CON-457 — Capped reserve and ready pads gate vehicle boost
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: directed boost thrust is legal only while the controlled car has
+  positive stored boost, the reserve cannot exceed its cap and a depleted pad
+  cannot replenish another car until recharge completes.
+- Includes: Rocket League default finite boost and arena pad availability.
+- Excludes: unlimited boost mutators; ordinary throttle; a one-use inventory
+  item with no spatial refill source.
+- Parameters: reserve, cap, spend rate, pad ready state, pickup amount, recharge
+  and crossing eligibility.
+- Evidence: [Rocket League decomposition](../games/m-r/rocket-league.md).
+- Novelty: first isolated for `GAME-0177`; it couples one personal acceleration
+  reserve to contested reusable field locations.
+
+## CON-458 — Airborne dodge requires current reset eligibility
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a second jump or directional dodge is available only while the
+  car retains the default airborne eligibility or regains it through a legal
+  multi-wheel surface or ball contact; later aerial orientation and boost do
+  not themselves restore that action.
+- Includes: Rocket League default double-jump/dodge window and flip reset from
+  touching the ball with at least three wheels.
+- Excludes: unlimited-jump or unlimited-dodge mutators; passive mid-air recharge;
+  ordinary ground steering.
+- Parameters: jump count, elapsed window, wheel contacts, supporting surface,
+  ball contact, reset flag and dodge input.
+- Evidence: [Rocket League decomposition](../games/m-r/rocket-league.md).
+- Novelty: first isolated for `GAME-0177`; a physical contact condition restores
+  a vehicle action token during continuous aerial motion.
+
+## CON-459 — Zero-second ball state gates regulation settlement
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: reaching `0:00` does not settle regulation while the live ball
+  remains legally airborne; a qualifying ground contact or goal first closes
+  that continuation, then score difference ends the match or a tie starts
+  sudden-death overtime.
+- Includes: Rocket League default Soccar zero-second play.
+- Excludes: immediate clock expiry regardless of object state; added-time
+  discretion; a fixed overtime duration.
+- Parameters: clock, ball height/contact, goal crossing, score, settlement and
+  overtime transition.
+- Evidence: [Rocket League decomposition](../games/m-r/rocket-league.md).
+- Novelty: first isolated for `GAME-0177`; terminal eligibility depends on the
+  current physical ball state rather than the clock alone.
+
+## CON-460 — Underwater action is bounded by oxygen and reachable air
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the survivor can continue an underwater excursion only while oxygen remains or a surface, powered habitat or powered vehicle is reachable before suffocation becomes lethal.
+- Includes: Subnautica early dives from Lifepod 5 and the return to a powered first habitat.
+- Excludes: food and water thresholds; vehicle crush depth; an unlimited breathing mode.
+- Parameters: oxygen, capacity, consumption, depth, route distance, air source, travel speed and lethal grace.
+- Evidence: [Subnautica decomposition](../games/s-z/subnautica.md).
+- Novelty: first isolated for `GAME-0178`; vertical route feasibility depends on a replenishable embodied air budget.
+
+## CON-461 — Blueprint requires its fragment scan threshold
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a fragment-derived recipe remains unavailable until completed scans of its technology class reach the declared required count.
+- Includes: three Mobile Vehicle Bay fragments and three Seamoth fragments in Subnautica.
+- Excludes: default-known recipes; one data-box unlock; possession of the final item without blueprint knowledge.
+- Parameters: blueprint, fragment class, completed scans, required count and unlocked state.
+- Evidence: [Subnautica decomposition](../games/s-z/subnautica.md).
+- Novelty: first isolated for `GAME-0178`; a recipe gate counts repeated physical observations of matching world technology.
+
+## CON-462 — Crafting requires recipe, ingredients, capacity and station
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: fabrication may begin only when the recipe is known, every required ingredient is available, the compatible station can operate and its output can be collected into eligible carried state.
+- Includes: Subnautica Fabricator items and Mobile Vehicle Bay Seamoth fabrication.
+- Excludes: Habitat Builder placement; a hidden recipe discovered by attempting arbitrary combinations; output from an autonomous industry line.
+- Parameters: recipe state, ingredients, station class, power, output footprint, carried capacity and blocked feedback.
+- Evidence: [Subnautica decomposition](../games/s-z/subnautica.md).
+- Novelty: first isolated for `GAME-0178`; one legality boundary joins blueprint knowledge, material supply, powered station class and rectangular output fit.
+
+## CON-463 — Habitat placement and use require legal pressure integrity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an underwater module can complete only at a clear supported pose with required materials, and the connected habitat remains safely usable only while its hull integrity is positive or recoverably repaired.
+- Includes: placing a Subnautica I Compartment, Hatch and Solar Panel in shallow water with a positive shared hull value.
+- Excludes: free-floating deployables; vehicle crush depth; cosmetic interior decoration.
+- Parameters: preview, clearance, support, orientation, depth, material, connected base, integrity and breach state.
+- Evidence: [Subnautica decomposition](../games/s-z/subnautica.md).
+- Novelty: first isolated for `GAME-0178`; legal construction simultaneously respects geometry and a shared underwater pressure budget.
+
+## CON-464 — Habitat oxygen requires connected available power
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a dry habitat supplies breathable oxygen and runs power-dependent fixtures only while connected generation or stored energy remains available.
+- Includes: a shallow Solar Panel powering a Subnautica Seabase oxygen supply.
+- Excludes: permanent oxygen in Lifepod 5; Seamoth Power Cell; an unpowered decorative module.
+- Parameters: connection, generation, stored energy, load, dry state, oxygen and outage behaviour.
+- Evidence: [Subnautica decomposition](../games/s-z/subnautica.md).
+- Novelty: first isolated for `GAME-0178`; electrical availability is also a life-support legality condition for the interior.
+
+## CON-465 — Seamoth operation obeys energy and current crush depth
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the submersible can provide controlled motion and oxygen only with usable installed energy, and sustained travel below its current maximum depth incurs pressure damage until it returns or is destroyed.
+- Includes: an unmodified Subnautica Seamoth with a Power Cell and 200 m crush depth.
+- Excludes: the avatar's standalone oxygen tank; an installed depth upgrade; water depth with no vehicle consequence.
+- Parameters: charge, enabled systems, oxygen, current depth, crush depth, warning, damage and destruction.
+- Evidence: [Subnautica decomposition](../games/s-z/subnautica.md).
+- Novelty: first isolated for `GAME-0178`; one vehicle constraint couples stored energy to a vertically bounded breathable operating envelope.
+
+## CON-466 — Building work requires a legal foundation and assigned villager
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a building foundation may be placed and advanced only when its civilization and Age unlock it, its full footprint is legal, its resource cost is available and at least one owned villager can reach and work it.
+- Includes: ordinary Age of Empires II economic, military and defensive building construction.
+- Excludes: instant editor placement; city-district adjacency; repair of an already completed structure.
+- Parameters: building, Age, prerequisite, footprint, terrain, obstruction, stockpile, villager path and ownership.
+- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
+- Novelty: first isolated for `GAME-0179`; legal placement, prepaid materials and reachable live-builder work are all mandatory.
+
+## CON-467 — Unit and research queues require site, unlock and stockpile
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a unit or technology order can enter only an eligible completed owned building when its civilization/Age prerequisites, resource cost and any population or queue-capacity gates are satisfied.
+- Includes: Age of Empires II Town Center, military-building and research orders.
+- Excludes: immediate shop purchases; a city's single turn-based production; free scenario reinforcements.
+- Parameters: building class, order, civilization, Age, prerequisite, cost, population headroom, queue length and busy state.
+- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
+- Novelty: first isolated for `GAME-0179`; multiple building-local live queues share one resource and constructed-capacity economy.
+
+## CON-468 — Age advancement requires resources and current-Age buildings
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the next Age can be researched at a Town Center only after the civilization owns the required stockpile and the required count of completed non-economic buildings from its current Age, including the Castle exception.
+- Includes: Feudal, Castle and Imperial Age advancement in Age of Empires II: Definitive Edition.
+- Excludes: a character level threshold; one technology prerequisite edge; starting directly in a later Age.
+- Parameters: current Age, next Age, food, gold, required buildings, Castle exception, Town Center and research availability.
+- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
+- Novelty: first isolated for `GAME-0179`; spatial construction and shared stockpiles jointly gate the ordered global era transition.
+
+## CON-469 — Resource work requires source access and compatible drop-off
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a villager can continue a resource task only while a compatible source remains reachable and a valid owned drop-off building can accept the carried quantity.
+- Includes: food, wood, gold and stone gathering in Age of Empires II: Definitive Edition.
+- Excludes: passive global income; inventory pickup with no return journey; trade-cart gold.
+- Parameters: villager, source, remaining reserve, reachability, carry amount, drop-off class, ownership and route.
+- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
+- Novelty: first isolated for `GAME-0179`; extraction legality includes both the outbound worker path and an economic return endpoint.
+
+## CON-470 — Group commands obey terrain, range and formation reachability
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: ordered group movement or combat may resolve only through terrain each member can traverse, with legal formation space, target visibility, attack range and minimum-range conditions applied per unit.
+- Includes: infantry, archer, cavalry and siege movement and combat in Age of Empires II: Definitive Edition.
+- Excludes: hidden opponent strategy; production prerequisites; one direct avatar collision envelope.
+- Parameters: terrain, footprint, path, formation, unit class, target, vision, attack range, minimum range and obstruction.
+- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
+- Novelty: first isolated for `GAME-0179`; heterogeneous group topology and unit-specific firing geometry jointly gate one live command.
+
+## CON-471 — Aircraft operation requires viable powered systems
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: usable propulsion and dependent cockpit functions require a
+  compatible fuel path, engine configuration and energised electrical circuits;
+  invalid or depleted state removes the corresponding power or information.
+- Includes: the scoped Microsoft Flight Simulator 2024 Cessna 172 fuel,
+  mixture, magneto/starter, battery, alternator, avionics and shutdown gates.
+- Excludes: a road vehicle's generic fuel reserve; cosmetic switch animation;
+  Career maintenance or externally injected component failure.
+- Parameters: fuel quantity, selector, mixture, ignition, engine state, battery,
+  alternator, bus, circuit, load and dependent instrument.
+- Evidence: [Microsoft Flight Simulator 2024 decomposition](../games/m-r/microsoft-flight-simulator-2024.md).
+- Novelty: first isolated for `GAME-0180`; the aircraft's direct-control and
+  information surfaces depend on a player-operated fuel/electrical chain.
+
+## CON-472 — Flight and runway operations obey the aerodynamic envelope
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: taxi, takeoff, stable flight, approach and landing remain viable
+  only while speed, attitude, lift, load, configuration, terrain clearance,
+  runway alignment and remaining distance permit the intended transition.
+- Includes: the scoped Microsoft Flight Simulator 2024 Cessna 172 takeoff,
+  hand-flown route, approach, flare, touchdown and rollout.
+- Excludes: a road-only collision envelope; a scripted aircraft animation;
+  weather variation that does not affect the aircraft state.
+- Parameters: airspeed, angle of attack, attitude, load, flap, trim, wind,
+  altitude, terrain, runway heading, lateral error, descent rate and distance.
+- Evidence: [Microsoft Flight Simulator 2024 decomposition](../games/m-r/microsoft-flight-simulator-2024.md).
+- Novelty: first isolated for `GAME-0180`; airborne energy and runway geometry
+  jointly gate a reversible ground-to-flight-to-ground chain.
+
+## CON-473 — Logged flight completion requires arrival, parking and shutdown
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the bounded Free Flight terminal is eligible only after the
+  selected aircraft reaches the destination on the ground, stops at parking
+  and shuts down its propulsion and powered cockpit state without a crash,
+  restart or shortcut.
+- Includes: the scoped Microsoft Flight Simulator 2024 `KTIW` taxi-in,
+  parking-brake stop and engine/electrical/avionics shutdown before logbook
+  notification.
+- Excludes: a touch-and-go, destination overflight, menu exit, Back on Track,
+  teleport, Career mission score or unrelated profile persistence.
+- Parameters: selected destination, on-ground state, parking region, speed,
+  brake, engine, avionics, electrical power, crash state and entry eligibility.
+- Evidence: [Microsoft Flight Simulator 2024 decomposition](../games/m-r/microsoft-flight-simulator-2024.md).
+- Novelty: first isolated for `GAME-0180`; a non-competitive simulation terminal
+  is made explicit by a complete destination systems reversal and durable record.

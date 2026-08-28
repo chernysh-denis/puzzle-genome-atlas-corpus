@@ -117,9 +117,8 @@ docs/        Method, governance, evidence model and research plan
 knowledge/   Canonical genes, game genomes and verified combinations
 research/    Leads, taxonomy proposals, candidates and negative results
 templates/   Required contribution formats
-backend/     Immutable artifact builder and versioned read-only Go API
-web/         Thin Astro presentation and bounded browser artifacts
-ops/         Atlas-only service, proxy and release templates
+web/         Thin Astro presentation and bounded static browser artifacts
+ops/         Atlas-only feedback proxy and static release templates
 scripts/     Repository-integrity validation
 ```
 
@@ -206,28 +205,20 @@ only when another repeated structured view demonstrates comparable drift.
 
 ## Build and authoring scaling
 
-ADR-010 establishes the accepted artifact-first target: reviewed Git input is
-deterministically serialized into one immutable corpus artifact; the versioned
-Go API exposes that revision; Astro consumes one revision-pinned API contract
-and emits static pages plus bounded browser assets. Production pages remain
-independently serveable when the API is unavailable.
+ADR-011 establishes the static-first target: reviewed Git is projected
+deterministically in-process; Astro emits immutable HTML and bounded static
+JSON; Caddy serves those files. There is no corpus API or database runtime.
 
-Production `r000002` uses the same immutable artifact for the read-only Go API
-and the revision-pinned Astro build. Astro has no legacy corpus fallback: every
-page is generated only from API responses. The direct corpus parser remains an
-authoring-side input to deterministic artifact generation and parity tests; it
-is not a presentation or runtime data source.
-
-Local and pull-request validation regenerates the immutable artifact, verifies
-the DB-free public projection, runs the API from the pinned artifact and
-builds/tests Astro only through that API. PostgreSQL is not a dependency of
-the contributor path, CI, publication, site build or production runtime.
+Local and pull-request validation generates the normalized direct projection
+twice, verifies its content identity, runs one pinned Astro build and tests the
+already-built output. Publication creates a separate allowlisted public Git
+projection. PostgreSQL and Go are not dependencies of contribution, CI,
+publication, site build or production runtime.
 
 Markdown and reviewed JSON in private Git remain the human authoring/evidence
 authority until a separately accepted editor exists. The accepted target
-publishes one immutable content-addressed artifact as runtime authority. The
-public Git corpus remains an exact append-only projection rather than an
-independently editable mirror.
+publishes one immutable static website release. The public Git corpus remains
+an exact append-only projection rather than an independently editable mirror.
 
 Dependency-free derived Python tools share the readers in
 `scripts/generate_indexes.py`. The repository validator keeps an independent

@@ -206,6 +206,15 @@ Index's short profile remains a game-specific navigation summary.
 - [`GAME-0169` — Euro Truck Simulator 2](a-f/euro-truck-simulator-2.md)
 - [`GAME-0170` — S.T.A.L.K.E.R. 2: Heart of Chornobyl](s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0171` — Forza Horizon 6](a-f/forza-horizon-6.md)
+- [`GAME-0172` — Street Fighter 6](s-z/street-fighter-6.md)
+- [`GAME-0173` — Blue Prince](a-f/blue-prince.md)
+- [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](s-z/tom-clancys-rainbow-six-siege.md)
+- [`GAME-0175` — Football Manager 26](a-f/football-manager-26.md)
+- [`GAME-0176` — XCOM 2](s-z/xcom-2.md)
+- [`GAME-0177` — Rocket League](m-r/rocket-league.md)
+- [`GAME-0178` — Subnautica](s-z/subnautica.md)
+- [`GAME-0179` — Age of Empires II: Definitive Edition](a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0180` — Microsoft Flight Simulator 2024](m-r/microsoft-flight-simulator-2024.md)
 <!-- END GENERATED: COMPLETED_GAMES -->
 
 Use the [game-analysis template](../../templates/GAME_ANALYSIS_TEMPLATE.md) and

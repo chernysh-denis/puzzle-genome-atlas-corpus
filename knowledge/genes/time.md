@@ -80,6 +80,8 @@
   Parabox movement, pushes and containment transitions; tracing and revising
   an untimed foundational The Witness panel path; rearranging Carto map
   fragments and walking through the resulting world without a forced clock;
+  drafting, inspecting and traversing Blue Prince rooms without a real-time
+  deadline inside the room;
   inspecting, extracting terms and revising the event Scroll in The Case of the
   Golden Idol; drawing, retracting and redrawing LYNE routes without a forced
   clock or time-driven board step; assigning and revising Hexologic pip values
@@ -202,7 +204,15 @@
   in The Sims 4 Live Mode; moving, passing, shooting, switching and tackling
   while the EA SPORTS FC 26 ball, players, referee and match clock continue;
   pressing or holding Geometry Dash's one vertical control while Stereo
-  Madness continues its automatic travel, physics and authored level clock.
+  Madness continues its automatic travel, physics and authored level clock;
+  moving, attacking, guarding, throwing or spending Drive while both Street
+  Fighter 6 combatants, projectiles, recovery states and the round clock remain
+  live; moving, observing, breaching, shooting, using gadgets and planting or
+  disabling the defuser while Rainbow Six Siege phase clocks and opponents
+  advance; revising Football Manager 26 roles, instructions and substitutions
+  while the autonomous match, player condition and clock continue; steering,
+  jumping, boosting and contacting the ball while all Rocket League cars, ball
+  physics, pad opportunities and the match clock continue.
 - Excludes: a discrete input followed by completed automatic resolution;
   self-paced actions with no time-driven state change; an external timer that
   only measures performance.
@@ -245,7 +255,12 @@
   [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md), and
   [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md), and
   [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md), and
-  [Geometry Dash decomposition](../games/g-l/geometry-dash.md).
+  [Geometry Dash decomposition](../games/g-l/geometry-dash.md), and
+  [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md), and
+  [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md),
+  [Football Manager 26 decomposition](../games/a-f/football-manager-26.md), and
+  [Rocket League decomposition](../games/m-r/rocket-league.md), and
+  [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Novelty: not assessed.
 

@@ -5064,6 +5064,340 @@
         "SYS-365",
         "INF-208"
       ]
+    },
+    "GAME-0172": {
+      "reviewed": "2026-08-28",
+      "noteEn": "Character-owned attack, directional guard, throw contest, shared Drive decisions, fixed duel spacing and first-to-two round settlement define the match; fighter setup, general live combat, Super carry-over, visible state and the real-time clock structure it.",
+      "noteUk": "Власні команди атаки персонажа, напрямлений блок, змагання кидків, спільні рішення Drive, фіксована дистанція дуелі та завершення після двох раундів визначають матч; налаштування бійців, загальний бій у реальному часі, перенесення Super, видимий стан і годинник його структурують.",
+      "defining": [
+        "ACT-295",
+        "ACT-296",
+        "ACT-297",
+        "ACT-298",
+        "SYS-520",
+        "SYS-522",
+        "CON-443",
+        "CON-444",
+        "OBJ-099"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-294",
+        "SYS-215",
+        "SYS-521",
+        "CON-442",
+        "CON-445",
+        "CON-446",
+        "INF-209",
+        "INF-210",
+        "TIM-003"
+      ],
+      "supporting": [
+        "INF-142"
+      ]
+    },
+    "GAME-0173": {
+      "reviewed": "2026-08-28",
+      "noteEn": "Three-plan room drafting, authored offer sampling, room-graph instantiation, daily reset, finite-cell placement, step-gated traversal, readable plan cards and first Room 46 entry define the route; navigation, resources, typed gates, map/HUD state and self-paced sequencing structure it.",
+      "noteUk": "Вибір одного з трьох планів, авторський добір, створення графа кімнат, щоденне скидання, розміщення у скінченних клітинах, переходи за кроки, читані картки та перший вхід у Room 46 визначають маршрут; навігація, ресурси, типізовані перепони, карта, HUD і послідовність його структурують.",
+      "defining": [
+        "ACT-299",
+        "SYS-523",
+        "SYS-524",
+        "SYS-526",
+        "CON-447",
+        "CON-448",
+        "INF-211",
+        "OBJ-026"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-300",
+        "SYS-525",
+        "CON-188",
+        "CON-403",
+        "INF-180",
+        "INF-212",
+        "TIM-002"
+      ],
+      "supporting": [
+        "ACT-087",
+        "ACT-089",
+        "ACT-130",
+        "ACT-131",
+        "INF-012",
+        "INF-213"
+      ]
+    },
+    "GAME-0174": {
+      "reviewed": "2026-08-28",
+      "noteEn": "Operator denial, unique role kits, remote observation, fortification, breach, injury and staged Bomb adjudication define the map; direct combat, role swap, gadget rules, partial information and real-time phases structure it.",
+      "noteUk": "Бани операторів, унікальні рольові комплекти, віддалене спостереження, фортифікація, пролом, поранення й поетапне вирішення Bomb визначають мапу; прямий бій, зміна ролей, gadget-и, часткова інформація та реальний час її структурують.",
+      "defining": [
+        "ACT-188",
+        "ACT-212",
+        "ACT-301",
+        "ACT-302",
+        "ACT-303",
+        "SYS-294",
+        "SYS-527",
+        "SYS-528",
+        "SYS-529",
+        "SYS-530",
+        "CON-449",
+        "CON-450",
+        "CON-451",
+        "INF-214",
+        "INF-215",
+        "OBJ-071"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-185",
+        "ACT-187",
+        "ACT-190",
+        "ACT-215",
+        "ACT-241",
+        "SYS-208",
+        "SYS-215",
+        "SYS-296",
+        "SYS-380",
+        "SYS-386",
+        "CON-263",
+        "CON-264",
+        "CON-265",
+        "CON-266",
+        "CON-267",
+        "CON-268",
+        "CON-269",
+        "INF-115",
+        "INF-116",
+        "INF-150",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-164",
+        "ACT-183",
+        "ACT-184",
+        "ACT-186",
+        "ACT-202",
+        "SYS-292",
+        "SYS-293",
+        "CON-262",
+        "INF-073",
+        "INF-075"
+      ]
+    },
+    "GAME-0175": {
+      "reviewed": "2026-08-28",
+      "noteEn": "Eligible squad assignment, dual possession-phase tactics, manager-only live interventions, autonomous choice and persistent result recording define the fixture; football laws, real-time settlement and match state structure it.",
+      "noteUk": "Допустимий склад, дві тактичні фази, лише менеджерські живі втручання, автономні рішення й запис результату визначають fixture; футбольні закони, реальний час і стан матчу її структурують.",
+      "defining": [
+        "ACT-006",
+        "ACT-304",
+        "ACT-305"
+      ],
+      "structural": [
+        "SYS-457",
+        "SYS-459",
+        "SYS-460",
+        "SYS-461",
+        "SYS-462",
+        "SYS-463",
+        "SYS-531",
+        "SYS-532",
+        "SYS-533",
+        "CON-399",
+        "CON-400",
+        "CON-401",
+        "CON-452",
+        "CON-453",
+        "CON-454",
+        "INF-116",
+        "INF-216",
+        "INF-217",
+        "INF-218",
+        "INF-219"
+      ],
+      "supporting": [
+        "OBJ-090",
+        "TIM-003"
+      ]
+    },
+    "GAME-0176": {
+      "reviewed": "2026-08-28",
+      "noteEn": "Per-soldier action authority, concealment activation, cross-phase reaction fire and the sabotage interaction define the mission; grid, combat, resources and hostile clearance structure it.",
+      "noteUk": "Особисті дії бійців, активація після викриття, реактивний вогонь між фазами й диверсійна взаємодія визначають місію; клітинка, бій, ресурси та очищення її структурують.",
+      "defining": [
+        "ACT-306",
+        "ACT-307",
+        "SYS-535",
+        "SYS-536"
+      ],
+      "structural": [
+        "ACT-014",
+        "ACT-019",
+        "ACT-126",
+        "SYS-208",
+        "SYS-386",
+        "SYS-534",
+        "SYS-537",
+        "SYS-538",
+        "CON-001",
+        "CON-011",
+        "CON-269",
+        "CON-273",
+        "CON-455",
+        "INF-220",
+        "INF-221",
+        "OBJ-029",
+        "OBJ-100",
+        "TIM-005"
+      ],
+      "supporting": [
+        "ACT-183",
+        "SYS-004",
+        "CON-262"
+      ]
+    },
+    "GAME-0177": {
+      "reviewed": "2026-08-28",
+      "noteEn": "Spatial boost, resettable aerial vehicle authority and zero-second sudden death define Soccar; dedicated car and shared-ball physics, enclosure, demolition and goal score structure it.",
+      "noteUk": "Просторовий boost, скидне повітряне керування авто й sudden death після нульової секунди визначають Soccar; пряме авто, живий м’яч, замкненість, demolition і рахунок його структурують.",
+      "defining": [
+        "ACT-309",
+        "SYS-540",
+        "SYS-542",
+        "CON-458"
+      ],
+      "structural": [
+        "ACT-290",
+        "ACT-308",
+        "SYS-457",
+        "SYS-462",
+        "SYS-539",
+        "SYS-541",
+        "CON-456",
+        "CON-457",
+        "CON-459",
+        "INF-222",
+        "OBJ-101",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-310",
+        "INF-116"
+      ]
+    },
+    "GAME-0178": {
+      "reviewed": "2026-08-28",
+      "noteEn": "Breath-limited sorties, counted fragment scans, powered pressure-safe refuge and a crush-limited submersible define the route; survival, fabrication, inventory and respawn structure it.",
+      "noteUk": "Киснево обмежені виходи, лічені скани уламків, живлений стійкий до тиску прихисток і субмарина з граничною глибиною визначають маршрут; виживання, виробництво, наплічник і відродження його структурують.",
+      "defining": [
+        "SYS-543",
+        "SYS-544",
+        "SYS-546",
+        "SYS-547",
+        "SYS-548",
+        "CON-460",
+        "CON-461",
+        "CON-465"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-123",
+        "ACT-201",
+        "ACT-245",
+        "ACT-312",
+        "ACT-313",
+        "ACT-314",
+        "ACT-315",
+        "SYS-320",
+        "SYS-327",
+        "SYS-545",
+        "CON-394",
+        "CON-462",
+        "CON-463",
+        "CON-464",
+        "INF-132",
+        "INF-223",
+        "OBJ-102",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-164",
+        "ACT-165",
+        "ACT-311",
+        "SYS-216",
+        "INF-073",
+        "INF-075"
+      ]
+    },
+    "GAME-0179": {
+      "reviewed": "2026-08-28",
+      "noteEn": "Selected worker return loops, constructed population, concurrent building-local queues, ordered Ages and civilization-wide Conquest define the match; seed, fog, combat and the RTS HUD structure it.",
+      "noteUk": "Вибрані робочі маршрути зі здачею ресурсів, споруджене населення, паралельні локальні черги, впорядковані епохи й Conquest усієї цивілізації визначають матч; зерно, туман, бій і HUD RTS його структурують.",
+      "defining": [
+        "ACT-318",
+        "SYS-549",
+        "SYS-551",
+        "SYS-553",
+        "CON-468",
+        "OBJ-103"
+      ],
+      "structural": [
+        "ACT-121",
+        "ACT-139",
+        "ACT-189",
+        "ACT-316",
+        "ACT-317",
+        "SYS-161",
+        "SYS-215",
+        "SYS-297",
+        "SYS-550",
+        "SYS-552",
+        "SYS-554",
+        "SYS-555",
+        "CON-466",
+        "CON-467",
+        "CON-469",
+        "CON-470",
+        "INF-224",
+        "INF-225",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-004",
+        "SYS-305",
+        "CON-273",
+        "INF-059"
+      ]
+    },
+    "GAME-0180": {
+      "reviewed": "2026-08-28",
+      "noteEn": "Manual fixed-wing control, causal piston/electrical systems, the aerodynamic runway envelope and logged destination shutdown define the flight; setup, plan state, instruments and continuous time structure it.",
+      "noteUk": "Ручне керування нерухомим крилом, причинні поршневі й електричні системи, аеродинамічний runway envelope та записаний shutdown у пункті призначення визначають політ; setup, plan state, instruments і безперервний час його структурують.",
+      "defining": [
+        "ACT-321",
+        "SYS-556",
+        "SYS-557",
+        "CON-472",
+        "CON-473",
+        "OBJ-104"
+      ],
+      "structural": [
+        "ACT-319",
+        "ACT-320",
+        "SYS-558",
+        "SYS-559",
+        "CON-471",
+        "INF-227",
+        "TIM-003"
+      ],
+      "supporting": [
+        "INF-226"
+      ]
     }
   }
 }

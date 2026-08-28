@@ -376,7 +376,8 @@
   current scene.
 - Parameters: scene-discovery order, indexing metadata, transcript availability,
   bookmarks and revisit path.
-- Evidence: [Return of the Obra Dinn decomposition](../games/m-r/return-of-the-obra-dinn.md).
+- Evidence: [Return of the Obra Dinn decomposition](../games/m-r/return-of-the-obra-dinn.md)
+  and [Blue Prince decomposition](../games/a-f/blue-prince.md).
 - Novelty: not assessed.
 
 ## INF-013 — Finite identity roster with disclosed role metadata
@@ -1277,7 +1278,8 @@
   count; a static external manual with no in-game reference.
 - Parameters: known recipe set, ingredient quantities, machine category,
   technology prerequisites, science costs, queue state and search filters.
-- Evidence: [Factorio decomposition](../games/a-f/factorio.md).
+- Evidence: [Factorio decomposition](../games/a-f/factorio.md) and
+  [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
 - Novelty: not assessed.
 
 ## INF-060 — Live factory-network diagnostics are visible
@@ -1510,7 +1512,8 @@
   carried weapon/utility icons, active item and ammunition state; Cyberpunk
   2077 weapon slots, active weapon and ammunition HUD; Hollow Knight: Silksong
   equipped Crest, Tool slots and Tool charge state; Helldivers 2 current
-  firearm, magazine/reserve ammunition, grenade and support-weapon state.
+  firearm, magazine/reserve ammunition, grenade and support-weapon state;
+  Rainbow Six Siege operator weapons, gadgets, ammunition and charges.
 - Excludes: a complete future terrain map; a hidden recipe discovered only by
   external knowledge; a colony-wide production report.
 - Parameters: slots, stacks, selected item, hand and equipment state.
@@ -1518,8 +1521,9 @@
   [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md), and
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
   [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md), and
-  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md) and
-  [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
+  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md),
+  [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md) and
+  [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Additional support: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md),
   for the visible active, trinket and pocket slots plus pickup counters.
@@ -1547,10 +1551,12 @@
 - Confidence: `High`
 - Definition: the interface exposes the avatar's current survival meters and
   carried tool wear sufficiently to judge food, combat and replacement needs.
-- Includes: Minecraft hearts, hunger drumsticks, armour icons and durability bars.
+- Includes: Minecraft hearts, hunger drumsticks, armour icons and durability
+  bars; Rainbow Six Siege health and eligible injured state.
 - Excludes: exact hidden saturation; a predicted future damage outcome.
 - Parameters: health, hunger, armour, breath, status and durability.
-- Evidence: [Minecraft decomposition](../games/m-r/minecraft.md).
+- Evidence: [Minecraft decomposition](../games/m-r/minecraft.md) and
+  [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
 - Novelty: not assessed.
 
 ## INF-076 — A thrown locator reveals a temporary bearing to a hidden target
@@ -2181,7 +2187,8 @@
   bomb interaction audio; Cyberpunk 2077 local sight, footsteps, speech,
   gunfire and scanner-assisted currently exposed hostile state; Marvel Rivals
   third-person sightlines, effects, silhouettes and spatial combat audio;
-  Helldivers 2 local patrol silhouettes, movement, calls, shots and effects.
+  Helldivers 2 local patrol silhouettes, movement, calls, shots and effects;
+  Rainbow Six Siege avatar sightlines, penetrable occlusion and spatial action audio.
 - Excludes: omniscient enemy positions; an authored hidden solution inferred
   from static clues; teammate-transmitted knowledge itself.
 - Parameters: view, occlusion, distance, material, sound event and effect state.
@@ -2191,7 +2198,8 @@
   [Helldivers 2 decomposition](../games/g-l/helldivers-2.md) and
   [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md) and
   [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md), and
-  [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
+  [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md), and
+  [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
 - Novelty: not assessed.
 
 ## INF-116 — Live team, score and shared-objective state are visible
@@ -2204,7 +2212,10 @@
 - Includes: Counter-Strike 2, Dota 2, Marvel Rivals, Battlefield 6 and
   Helldivers 2 team HUD, radar or minimap and objective state, including
   Reinforce stock and mission time where applicable; EA SPORTS FC 26 match
-  score, clock, side identity and restart state.
+  score, clock, side identity and restart state; Rainbow Six Siege team health,
+  score, phase clock, bomb sites and defuser state; Football Manager 26 score,
+  clock, team condition and live match phase; Rocket League team labels, score,
+  regulation clock and overtime state.
 - Excludes: permanent omniscient enemy tracking; post-match analytics; account rank.
 - Parameters: team frames, allied state, radar or minimap, shared sightings, clock, score, objective schema, phase and respawn notice.
 - Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md),
@@ -2213,7 +2224,10 @@
   [Battlefield 6 decomposition](../games/a-f/battlefield-6.md) and
   [Helldivers 2 decomposition](../games/g-l/helldivers-2.md) and
   [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md), and
-  [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
+  [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md) and
+  [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md),
+  [Football Manager 26 decomposition](../games/a-f/football-manager-26.md), and
+  [Rocket League decomposition](../games/m-r/rocket-league.md).
 - Novelty: not assessed.
 
 ## INF-117 — Personal economy and purchase state are visible
@@ -2682,11 +2696,14 @@
 - Definition: animation, sound and optional prompt elements disclose enough of
   an executing attack's rhythm for the player to time its offensive or
   defensive real-time input without revealing the exact timing numerically.
-- Includes: Clair Obscur: Expedition 33 skill prompts and Nevron attack cues.
+- Includes: Clair Obscur: Expedition 33 skill prompts and Nevron attack cues;
+  Street Fighter 6 attack animation, contact effects, sound and Counter Hit,
+  Throw Escape or Reversal notices.
 - Excludes: a static turn-order preview; hidden untelegraphed damage; a
   persistent countdown that reveals an exact future event time.
 - Parameters: cue channel, attack member, rhythm, prompt visibility and assist.
-- Evidence: [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md).
+- Evidence: [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md)
+  and [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
 - Novelty: not assessed.
 
 ## INF-143 — Build interface exposes Picto mastery and Lumina cost
@@ -2820,13 +2837,15 @@
   characters, their role or class, ability kit, allied occupancy and any
   offered composition alternatives before confirmation.
 - Includes: Marvel Rivals Season 9.5 hero and Team-Up selection state; Apex
-  Legends Legend classes, kits and current squad occupancy.
+  Legends Legend classes, kits and current squad occupancy; Rainbow Six Siege
+  attacker/defender operator kits, team occupancy and current bans.
 - Excludes: hidden opponent selection before disclosure; cosmetic skin details;
   external tier-list recommendations.
 - Parameters: character, role or class, team occupancy, ability, composition
   option, base effect, enhanced effect and selection state.
-- Evidence: [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md) and
-  [Apex Legends decomposition](../games/a-f/apex-legends.md).
+- Evidence: [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md),
+  [Apex Legends decomposition](../games/a-f/apex-legends.md) and
+  [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
 - Novelty: not assessed.
 
 ## INF-151 — Match HUD exposes team, phase and live objective state
@@ -3327,12 +3346,14 @@
 - Definition: the minimap retains every discovered room cell and connection on
   the current floor and marks the identity of eligible disclosed special rooms
   without revealing all unexplored contents.
-- Includes: base-Rebirth explored ordinary, Treasure, Shop and boss room map state.
+- Includes: base-Rebirth explored ordinary, Treasure, Shop and boss room map
+  state; Blue Prince's current drafted manor rooms and doorway graph.
 - Excludes: a fully revealed future floor; a non-spatial branching act-node
   chart; secret rooms not yet disclosed by an eligible effect or entry.
 - Parameters: cell, adjacency, explored state, current room, room-role icon,
   concealment and map-reveal effect.
-- Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
+- Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md)
+  and [Blue Prince decomposition](../games/a-f/blue-prince.md).
 - Novelty: first isolated for `GAME-0164`.
 
 ## INF-181 — Horse interface exposes bond, condition and saddle cargo
@@ -3821,3 +3842,337 @@
 - Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
 - Novelty: first isolated for `GAME-0171`; delivery results expose contract
   damage and pay, not competitive driving performance and festival progress.
+
+## INF-209 — Side-view fighters expose spacing and live combat state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the shared side view keeps both combatant bodies, their relative
+  distance, facing, pose and current hit, guard, armour, airborne, knockdown or
+  wake-up state perceptible during the live exchange.
+- Includes: Ryu and Luke in the scoped Street Fighter 6 Versus arena.
+- Excludes: exact hidden frame numbers; an off-screen opponent; only a roster
+  portrait or post-round result; a team minimap.
+- Parameters: camera framing, body pose, facing, distance, contact effect,
+  airborne state, knockdown and wake-up animation.
+- Evidence: [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
+- Novelty: first isolated for `GAME-0172`; existing combat information genes
+  expose party panels, target resources or telegraphs without making the whole
+  fixed-opponent spacing state continuously visible in one shared plane.
+
+## INF-210 — Duel HUD exposes paired meters, clock and round score
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: one live fighting HUD simultaneously exposes each participant's
+  vitality, Drive state and Super Art stock together with the shared round
+  timer and accumulated round markers.
+- Includes: the ordinary Street Fighter 6 Fighting Ground HUD.
+- Excludes: hidden frame data; ranked points; a team-objective scoreboard;
+  post-match progression or Battle Hub profile information.
+- Parameters: participants, vitality, Drive stocks/Burnout, Super stocks, timer,
+  round markers, hit notices and current control-type icon.
+- Evidence: [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
+- Novelty: first isolated for `GAME-0172`; earlier match HUD genes aggregate
+  teams and shared objectives rather than two opposed fighter resources and
+  short-round progress.
+
+## INF-211 — Room draft exposes topology, type, cost and effect
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: before one room-plan commitment, every offered card discloses
+  enough of its doorway topology, room identity or type, current cost and
+  declared effect for the player to compare the alternatives.
+- Includes: Blue Prince's three-plan doorway offer.
+- Excludes: hidden future room contents not stated by the card; the explored
+  manor map; a shop item offer unrelated to topology.
+- Parameters: offer member, room name/type, doorway diagram, cost, rarity,
+  effect text and placement warning.
+- Evidence: [Blue Prince decomposition](../games/a-f/blue-prince.md).
+- Novelty: first isolated for `GAME-0173`; one interface jointly previews a
+  candidate's graph shape and rule/economy effect before spatial instantiation.
+
+## INF-212 — Manor HUD exposes daily resources and held items
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the persistent exploration interface exposes current remaining
+  steps, keys, gems, coins and eligible held-item state before a route, draft,
+  purchase or fixture decision.
+- Includes: the scoped Blue Prince manor HUD.
+- Excludes: permanent clues visible only in their rooms; undisclosed future
+  offers; a generic health-only HUD.
+- Parameters: steps, keys, gems, coins, item slots, modifiers and day.
+- Evidence: [Blue Prince decomposition](../games/a-f/blue-prince.md).
+- Novelty: first isolated for `GAME-0173`; it exposes the coupled route and
+  room-draft economy in one daily-state panel.
+
+## INF-213 — Current drafted room exposes doors, interactables and clues
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the current instantiated room makes its available exits,
+  addressed fixtures, collectible or purchasable items, room effects and
+  discoverable clue surfaces perceptible before interaction.
+- Includes: ordinary explored rooms in Blue Prince.
+- Excludes: every hidden manor secret; future room offers; only the abstract map
+  icon without the room scene.
+- Parameters: room, doors, lock state, fixture, item, shop offer, clue surface,
+  effect and inspection state.
+- Evidence: [Blue Prince decomposition](../games/a-f/blue-prince.md).
+- Novelty: first isolated for `GAME-0173`; the scene view connects one drafted
+  graph node to its local route, economy and evidence affordances.
+
+## INF-214 — Observation network exposes device-bounded team intelligence
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: each surviving observation device exposes only its current field,
+  motion and supported markings to eligible teammates, with feed availability
+  and loss visible before an information decision.
+- Includes: Rainbow Six Siege attacker drone and defender camera feeds, scans
+  and pings.
+- Excludes: omniscient enemy positions; direct avatar sight; post-match replay.
+- Parameters: device, field, movement, observed entity, scan, ping, recipients,
+  signal and destruction state.
+- Evidence: [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
+- Novelty: first isolated for `GAME-0174`; the shared information boundary is
+  indexed by a controllable, destructible network node.
+
+## INF-215 — Local surfaces expose material, fortification and breach state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: visible geometry and feedback distinguish relevant soft,
+  barricaded, reinforced, damaged and opened states sufficiently to choose a
+  compatible line of fire, fortification or breach action.
+- Includes: Rainbow Six Siege walls, hatches, doors, windows and their current
+  reinforcement or opening state.
+- Excludes: a complete hidden structural map; cosmetic damage that cannot alter
+  sight, cover, penetration or access.
+- Parameters: surface, material, layer, damage, opening, penetration, side,
+  sound and compatible tool cue.
+- Evidence: [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
+- Novelty: first isolated for `GAME-0174`; mutable material state is itself a
+  decision-visible tactical information surface.
+
+## INF-216 — Squad view exposes availability, condition, attributes and role suitability
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: before lineup confirmation, the squad interface exposes each
+  candidate's availability, current condition, relevant attributes and
+  assessed suitability for positions and roles.
+- Includes: Football Manager 26 squad selection and role star ratings.
+- Excludes: hidden future development; scouting an unowned player; live match
+  analytics after kick-off.
+- Parameters: player, registration, injury, suspension, condition, attributes,
+  position, role and suitability rating.
+- Evidence: [Football Manager 26 decomposition](../games/a-f/football-manager-26.md).
+- Novelty: first isolated for `GAME-0175`; it is the pre-commit evidence surface
+  for assigning autonomous football agents.
+
+## INF-217 — Tactical visualizer exposes possession shapes, roles and instructions
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the tactics interface previews the team's distinct in-possession
+  and out-of-possession formations, assigned roles and active instructions
+  before the manager confirms them.
+- Includes: Football Manager 26 dual-formation tactics visualizer.
+- Excludes: a single decorative lineup image; hidden match-engine weights;
+  direct player movement.
+- Parameters: phase, formation, player positions, roles, duties, instructions,
+  warnings and confirmation state.
+- Evidence: [Football Manager 26 decomposition](../games/a-f/football-manager-26.md).
+- Novelty: first isolated for `GAME-0175`; one planning surface exposes two
+  coupled autonomous team states rather than one static formation.
+
+## INF-218 — Manager match overview exposes live performance, analytics and advice
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while the fixture runs, the management interface exposes score,
+  clock, player condition and performance, event or spatial analytics and
+  contextual staff recommendations before an intervention.
+- Includes: Football Manager 26 Match Overview, xG and staff advice.
+- Excludes: omniscient future events; direct avatar sight as the only evidence;
+  post-season statistics.
+- Parameters: score, clock, rating, condition, events, xG, spatial view,
+  recommendation, urgency and match phase.
+- Evidence: [Football Manager 26 decomposition](../games/a-f/football-manager-26.md).
+- Novelty: first isolated for `GAME-0175`; it joins autonomous simulation
+  evidence to a bounded live policy-revision interface.
+
+## INF-219 — Fixture and competition table expose the recorded result
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after settlement, the career interface exposes the fixture's
+  final score and outcome together with the resulting competition-table state.
+- Includes: Football Manager 26 match result and Premier League table.
+- Excludes: an in-match provisional score; predicted standings; hidden future
+  fixtures.
+- Parameters: fixture, score, result, points, played, goal difference, rank and
+  saved competition state.
+- Evidence: [Football Manager 26 decomposition](../games/a-f/football-manager-26.md).
+- Novelty: first isolated for `GAME-0175`; the information confirms that one
+  autonomous match has entered a persistent competition ledger.
+
+## INF-220 — Tactical HUD exposes soldier authority, cover and attack odds
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: for the selected soldier the tactical interface exposes health,
+  remaining action authority, reachable movement bands, cover relationships,
+  available commands and the displayed hit, damage and critical information
+  for an eligible attack before commitment.
+- Includes: XCOM 2 tactical soldier HUD and attack preview.
+- Excludes: the hidden future random result; exact hostile policy weights;
+  campaign-management panels.
+- Parameters: selected soldier, health, Action Points, cells, cover, commands,
+  target, hit chance, damage range and critical chance.
+- Evidence: [XCOM 2 decomposition](../games/s-z/xcom-2.md).
+- Novelty: first isolated for `GAME-0176`; one preview joins spatial defence,
+  personal action budget and probabilistic attack consequence.
+
+## INF-221 — Concealment and mission view expose detection risk and objective state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the tactical view marks squad concealment, currently observable
+  hostile and detection information, the mission fixture and whether the
+  sabotage and hostile-clearance requirements remain incomplete.
+- Includes: XCOM 2 concealment indicators, detection tiles and Gatecrasher
+  objective display.
+- Excludes: hidden enemies outside current information; exact future pod path;
+  strategy-layer objectives.
+- Parameters: concealment, detection boundary, visible hostiles, objective
+  marker, charge state, clearance state and mission result.
+- Evidence: [XCOM 2 decomposition](../games/s-z/xcom-2.md).
+- Novelty: first isolated for `GAME-0176`; it combines approach risk with a
+  conjunctive mission terminal rather than exposing either alone.
+
+## INF-222 — Car view exposes ball, field, boost and aerial state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the live vehicle view exposes the controlled car, shared ball,
+  nearby cars, arena markings, goal direction, current boost reserve and
+  eligible aerial-state feedback sufficiently to choose the next movement or
+  contact attempt.
+- Includes: Rocket League car/ball camera, boost meter, teammate nameplates,
+  ball indicator, field markings and optional flip-reset indicator.
+- Excludes: hidden opponent inputs; guaranteed future ball trajectory;
+  post-match replay analysis.
+- Parameters: camera mode, car, ball, nameplate, goal direction, boost meter,
+  velocity display, reset indicator and visible arena region.
+- Evidence: [Rocket League decomposition](../games/m-r/rocket-league.md).
+- Novelty: first isolated for `GAME-0177`; one view joins free ball geometry to
+  vehicle orientation, finite thrust and resettable aerial authority.
+
+## INF-223 — Interfaces expose scan, habitat and submersible safety state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: contextual interfaces expose held scan progress and fragment count, current depth, habitat power and integrity, and occupied submersible energy, health and crush-depth warning before continued commitment.
+- Includes: Subnautica Scanner ring and blueprint counter, Builder integrity feedback, Seabase power display and Seamoth HUD.
+- Excludes: undiscovered fragment locations; exact future solar yield; hidden fauna paths.
+- Parameters: target, scan progress, fragment count, depth, integrity, power, vehicle energy, vehicle health and crush warning.
+- Evidence: [Subnautica decomposition](../games/s-z/subnautica.md).
+- Novelty: first isolated for `GAME-0178`; observation, refuge and vehicle interfaces expose one continuous underwater safety chain.
+
+## INF-224 — RTS command view exposes economy, population and queue state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the live interface exposes the owner's four resource stockpiles, used and available population, current Age, selected entities, their commands, health and active production or research queues before the next order.
+- Includes: the Age of Empires II: Definitive Edition command panel and HUD.
+- Excludes: hidden enemy stockpiles and queues; post-match statistics; a city turn's aggregate yield panel.
+- Parameters: resource totals, population, Age, selection, hit points, command, queue item, progress and availability state.
+- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
+- Novelty: first isolated for `GAME-0179`; it joins multi-selection command authority to concurrent economy and building-local queues.
+
+## INF-225 — Explored RTS terrain persists under current fog of war
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: explored terrain and last-known static geography remain visible on the world view and minimap, while current enemy units and changed hostile state are disclosed only inside active allied line of sight.
+- Includes: normal reveal-map and fog-of-war state in Age of Empires II: Definitive Edition.
+- Excludes: unexplored black map; omniscient spectator vision; invisibility detection layers; a hex-only turn-based map.
+- Parameters: explored area, current visibility, terrain, resource memory, structure memory, enemy unit, vision source and minimap.
+- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
+- Novelty: first isolated for `GAME-0179`; remembered generated terrain is separated from live enemy occupancy in a command-scale RTS view.
+
+## INF-226 — Cockpit instruments expose flight and engine state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: powered cockpit instruments expose current attitude, airspeed,
+  altitude, heading, vertical speed, power, engine, fuel and warning state
+  before the next manual control or configuration change.
+- Includes: the scoped Microsoft Flight Simulator 2024 Cessna 172 G1000 PFD,
+  engine display and cockpit annunciations.
+- Excludes: exact future trajectory; external cinematic camera alone; route
+  planning that omits current aircraft and engine state.
+- Parameters: attitude, airspeed, altitude, heading, vertical speed, RPM,
+  fuel, electrical status, flap/trim state, warning and update cadence.
+- Evidence: [Microsoft Flight Simulator 2024 decomposition](../games/m-r/microsoft-flight-simulator-2024.md).
+- Novelty: first isolated for `GAME-0180`; one powered cockpit surface joins
+  aerodynamic energy, orientation and propulsion health for live correction.
+
+## INF-227 — Avionics and EFB expose plan progress and conditions
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: compatible avionics and the electronic flight bag expose the
+  selected aeronautical route, present aircraft position, active waypoint or
+  leg, desired track, deviation, distance and declared flight conditions.
+- Includes: the scoped Microsoft Flight Simulator 2024 Free Flight plan shared
+  with the Cessna 172 G1000 and EFB.
+- Excludes: automatic flight-control output; hidden future weather; a road-only
+  GPS path or authored objective arrow without a flight plan.
+- Parameters: origin, destination, waypoint, active leg, map, position, track,
+  deviation, distance, weather, time and airport information.
+- Evidence: [Microsoft Flight Simulator 2024 decomposition](../games/m-r/microsoft-flight-simulator-2024.md).
+- Novelty: first isolated for `GAME-0180`; planning and cockpit navigation share
+  a route state that informs but does not execute the manual flight.

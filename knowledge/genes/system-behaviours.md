@@ -76,6 +76,8 @@
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Additional support: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md),
   for seed- and pool-bounded room, enemy, pickup and item selection.
+- Additional support: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md),
+  for declared-seed Random Map generation.
 - Novelty: not assessed; this is part of the baseline genome.
 
 ## SYS-005 — Zero-clue region expansion
@@ -3190,7 +3192,8 @@
   depletion represented only by a global level counter.
 - Parameters: reserve per tile, extraction result, resource drain probability,
   productivity bonus, mixed-resource coverage and exhaustion signal.
-- Evidence: [Factorio decomposition](../games/a-f/factorio.md).
+- Evidence: [Factorio decomposition](../games/a-f/factorio.md) and
+  [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
 - Novelty: not assessed.
 
 ## SYS-162 — Construction agents fulfil supplied world-placement requests
@@ -3958,13 +3961,15 @@
 - Includes: RimWorld drafted firearm combat and cover-dependent injury;
   Counter-Strike 2 firearm resolution through range, material, armour and hit
   group; Cyberpunk 2077 ranged attacks through cover, armour and body regions;
-  Helldivers 2 aimed firearm hits against armoured body regions.
+  Helldivers 2 aimed firearm hits against armoured body regions; Rainbow Six
+  Siege firearm resolution through penetrable materials and operator bodies.
 - Excludes: abstract card damage; automatic engagement with no tactical target order.
 - Parameters: shooter, weapon, range, cover, accuracy, armour, body part and damage.
 - Evidence: [RimWorld decomposition](../games/m-r/rimworld.md) and
   [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md), and
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
-  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md).
+  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md) and
+  [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
 - Novelty: not assessed.
 
 ## SYS-209 — Generate seeded planet and landing map
@@ -4082,7 +4087,8 @@
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: directly controlled combatants acquire or receive legal targets and exchange range-, cadence-, damage-, defence- and defeat-dependent effects while the world continues in real time.
-- Includes: embodied avatar combat, team firefights and Anno 1800 directly commanded naval combat.
+- Includes: embodied avatar combat, team firefights, Anno 1800 directly
+  commanded naval combat and the fixed-opponent Street Fighter 6 Versus duel.
 - Excludes: autonomous squad engagement; a telegraphed turn queue; non-combat collision damage; harbour fire with no relevant command.
 - Parameters: combatant body, locomotion domain, target command, range, facing, cooldown, damage, armour, knockback and retreat.
 - Evidence: [Minecraft decomposition](../games/m-r/minecraft.md),
@@ -4096,7 +4102,9 @@
   [Helldivers 2 decomposition](../games/g-l/helldivers-2.md) and
   [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md) and
   [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md), and
-  [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
+  [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md) and
+  [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md), and
+  [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
 - Novelty: not assessed.
 
 ## SYS-216 — Apply carried-state loss and respawn in the persistent world
@@ -5367,10 +5375,13 @@
 - Definition: lethal damage ends the player's control for the current round,
   emits eligible carried equipment at the death position and restores a fresh
   role loadout only when the next round begins.
-- Includes: Counter-Strike 2 Competitive death, dropped weapon/C4 and next-round spawn.
+- Includes: Counter-Strike 2 Competitive death and eligible dropped weapon/C4;
+  Rainbow Six Siege final elimination and eligible dropped defuser, each with
+  next-round return.
 - Excludes: immediate same-round respawn; permanent campaign death; a reversible stun.
 - Parameters: lethal threshold, drops, spectator access, round boundary and spawn state.
-- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md)
+  and [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
 - Novelty: not assessed.
 
 ## SYS-294 — Adjudicate an asymmetric bomb-defusal round
@@ -5380,12 +5391,16 @@
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: the system awards one round from the ordered interaction among
-  team elimination, unplanted round timeout, C4 planting, defusal and explosion,
-  preserving an already planted bomb beyond elimination or the original clock.
-- Includes: Counter-Strike 2 Competitive bomb-defusal round resolution.
+  team elimination, unplanted round timeout, device planting, neutralisation
+  and planted-device completion, preserving the live objective beyond relevant
+  elimination or the original clock.
+- Includes: Counter-Strike 2 Competitive C4 resolution and Rainbow Six Siege
+  Bomb defuser plant/disable resolution.
 - Excludes: score-only deathmatch; hostage rescue; a symmetric last-player-standing round.
-- Parameters: roles, living players, clock, plant state, fuse, defuse and winner.
-- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
+- Parameters: roles, living players, clock, device, plant state, fuse,
+  neutralisation and winner.
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md)
+  and [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
 - Novelty: not assessed.
 
 ## SYS-295 — Award and carry round economy
@@ -5404,19 +5419,21 @@
 - Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
 - Novelty: not assessed.
 
-## SYS-296 — Swap team sides and reset half economy
+## SYS-296 — Swap team roles under retained match score
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: after the declared regulation half, the two fixed teams exchange
-  attacker and defender roles and begin the second half from the configured
-  starting economy while retaining the match round score.
-- Includes: Counter-Strike 2 Competitive halftime after twelve rounds.
+- Definition: at the declared match boundary, the two fixed teams exchange
+  attacker and defender roles, retain the round score and apply the next
+  role-local starting-state policy.
+- Includes: Counter-Strike 2 Competitive halftime with starting economy and
+  Rainbow Six Siege role swap with rebuilt round state and retained bans.
 - Excludes: changing teams by choice; shuffling players; overtime side changes.
-- Parameters: half length, roles, retained score and restart money.
-- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
+- Parameters: boundary, roles, retained score, economy, bans and round state.
+- Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md)
+  and [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
 - Novelty: not assessed.
 
 ## SYS-297 — Resolve commanded pathing and attack acquisition
@@ -5430,7 +5447,8 @@
 - Includes: Dota 2 hero move, attack and attack-move execution.
 - Excludes: autonomous lane-creep routing; player-selected spell resolution.
 - Parameters: path, collision, target, range, turn rate and attack interval.
-- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md).
+- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md) and
+  [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
 - Novelty: not assessed.
 
 ## SYS-298 — Award match gold and experience from live events
@@ -5541,7 +5559,8 @@
 - Includes: Dota 2 shared vision, fog of war, wards and true sight.
 - Excludes: post-match replay omniscience; voluntary teammate messages.
 - Parameters: source, radius, elevation, time of day, invisibility and detection.
-- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md).
+- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md) and
+  [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
 - Novelty: not assessed.
 
 ## SYS-306 — Respawn neutral camps and award Roshan control
@@ -6839,12 +6858,14 @@
 - Confidence: `High`
 - Definition: a legal selected ability or equipped gadget applies its authored combination of damage, healing, supply, repair, spotting, protection, displacement, movement, control or deployment to eligible live targets or space.
 - Includes: Marvel Rivals hero abilities, Battlefield 6 class gadgets and
-  Helldivers 2 orbital, Eagle, support-weapon, emplacement and supply stratagems.
+  Helldivers 2 orbital, Eagle, support-weapon, emplacement and supply stratagems;
+  Rainbow Six Siege operator gadgets.
 - Excludes: ordinary basic attacks; passive identity labels; objective capture caused only by presence.
 - Parameters: source, effect types, target schema, geometry, duration, cooldown, charges and team relation.
 - Evidence: [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md),
   [Battlefield 6 decomposition](../games/a-f/battlefield-6.md) and
-  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md).
+  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md) and
+  [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
 - Novelty: not assessed.
 
 ## SYS-381 — Convert live contribution into ultimate readiness and spend it
@@ -6948,13 +6969,15 @@
   objective and traversal anchors remain indestructible.
 - Includes: Marvel Rivals destructible walls, floors and cover with protected
   core route geometry and themed reconstruction effects; Battlefield 6
-  tactical destruction that changes cover, routes and sightlines.
+  tactical destruction that changes cover, routes and sightlines; Rainbow Six
+  Siege soft-wall, floor, hatch, barricade and cover destruction.
 - Excludes: voxel harvesting into inventory; cosmetic debris with no changed
   traversal or cover; fully deleting the mission route.
 - Parameters: element, durability, impact, fracture, debris, path, cover,
   essential flag and reconstruction.
-- Evidence: [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md) and
-  [Battlefield 6 decomposition](../games/a-f/battlefield-6.md).
+- Evidence: [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md),
+  [Battlefield 6 decomposition](../games/a-f/battlefield-6.md) and
+  [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
 - Novelty: not assessed.
 
 ## SYS-387 — Resolve a visible d20 check against authored difficulty
@@ -8209,12 +8232,15 @@
   contact, momentum, spin, deflection, collision and free motion without
   replacing it by a turn-owned token.
 - Includes: dribbles, ricochets, loose balls, posts, blocks and deflections in
-  an EA SPORTS FC 26 Classic Match.
+  EA SPORTS FC 26 and Football Manager 26 matches; Rocket League car contacts,
+  arena rebounds and free ball motion.
 - Excludes: inventory ownership; a projectile destroyed on impact; abstract
   possession without a spatial ball.
 - Parameters: contact point, velocity, spin, friction, restitution, surface,
   player animation and assistance.
-- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
+- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md),
+  [Football Manager 26 decomposition](../games/a-f/football-manager-26.md) and
+  [Rocket League decomposition](../games/m-r/rocket-league.md).
 - Novelty: first isolated for `GAME-0163`.
 
 ## SYS-458 — Resolve assisted football targeting and contact
@@ -8244,12 +8270,13 @@
   teammates and opponents according to formation, role, possession, ball
   location, marking and available space.
 - Includes: support runs, defensive shape, midfield positioning, marking and
-  CPU-team decisions in EA SPORTS FC 26 Authentic Gameplay.
+  autonomous team decisions in EA SPORTS FC 26 and Football Manager 26.
 - Excludes: the currently controlled player's direct movement; a scripted set
   of fixed routes; account-level squad construction.
 - Parameters: formation, role, tactical instruction, possession, pressure,
   score state, fatigue and difficulty.
-- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
+- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md)
+  and [Football Manager 26 decomposition](../games/a-f/football-manager-26.md).
 - Novelty: first isolated for `GAME-0163`.
 
 ## SYS-460 — Adjudicate football offences and select the restart
@@ -8267,7 +8294,8 @@
   shoot-out after a tied knockout fixture.
 - Parameters: boundary crossed, last touch, attacker positions, contact,
   advantage, sanction, restart point and defending distance.
-- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
+- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md)
+  and [Football Manager 26 decomposition](../games/a-f/football-manager-26.md).
 - Novelty: first isolated for `GAME-0163`.
 
 ## SYS-461 — Resolve autonomous goalkeeper intervention
@@ -8279,12 +8307,14 @@
 - Definition: an eligible goalkeeper autonomously positions, catches, parries
   or blocks the live ball according to goal threat, handling privileges and
   assistance settings while remaining a field participant.
-- Includes: assisted saves and claims by either goalkeeper in EA SPORTS FC 26.
+- Includes: autonomous or assisted saves and claims in EA SPORTS FC 26 and
+  Football Manager 26.
 - Excludes: an outfield player's commanded tackle; a penalty shoot-out minigame;
   guaranteed prevention of a valid goal.
 - Parameters: shot trajectory, positioning, reaction, reach, handling area,
   assistance and goalkeeper attributes.
-- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
+- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md)
+  and [Football Manager 26 decomposition](../games/a-f/football-manager-26.md).
 - Novelty: first isolated for `GAME-0163`.
 
 ## SYS-462 — Register a valid goal and update the match score
@@ -8296,12 +8326,15 @@
 - Definition: when the whole legal ball crosses the defended goal line between
   the posts and under the crossbar without an overriding offence, the system
   increments the scoring team and resets play to the opponent's kick-off.
-- Includes: ordinary goals and own goals in the scoped EA SPORTS FC 26 match.
+- Includes: ordinary goals and own goals in scoped EA SPORTS FC 26, Football
+  Manager 26 and Rocket League matches.
 - Excludes: shots that touch the line without wholly crossing it; offside or
   foul-invalidated finishes; shoot-out tallies.
 - Parameters: line-crossing geometry, scoring team, prior offence, score and
   kick-off side.
-- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
+- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md),
+  [Football Manager 26 decomposition](../games/a-f/football-manager-26.md) and
+  [Rocket League decomposition](../games/m-r/rocket-league.md).
 - Novelty: first isolated for `GAME-0163`.
 
 ## SYS-463 — Advance football halves and settle regulation result
@@ -8313,12 +8346,13 @@
 - Definition: the match clock advances during live play, permits bounded added
   time, transitions through half-time and ends after the second half by
   comparing the regulation score while allowing a draw.
-- Includes: two default three-minute halves, half-time side continuation and a
-  win, loss or draw result in EA SPORTS FC 26 Kick Off Classic Match.
+- Includes: two regulation halves, half-time continuation and a win, loss or
+  draw in EA SPORTS FC 26 and Football Manager 26.
 - Excludes: extra time, penalty shoot-outs, tournament tables and career-season
   progression.
 - Parameters: half length, clock rate, stoppage allowance, score and draw policy.
-- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
+- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md)
+  and [Football Manager 26 decomposition](../games/a-f/football-manager-26.md).
 - Novelty: first isolated for `GAME-0163`.
 
 ## SYS-464 — Generate a seed-determined floor graph from authored rooms
@@ -9336,3 +9370,674 @@
 - Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
 - Novelty: first isolated for `GAME-0171`; delivery and combat settlements do
   not retain a curated driving-event result into garage and festival state.
+
+## SYS-520 — Update Drive stock, Burnout and corner Stun
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: drive techniques spend a shared six-stock reserve while eligible
+  defence and elapsed live combat can change it; exhaustion enters Burnout,
+  recovery eventually restores access, and an eligible corner Drive Impact in
+  Burnout can produce Stun.
+- Includes: the ordinary Street Fighter 6 Drive Gauge lifecycle.
+- Excludes: Super Art stock; one move cooldown; ordinary vitality damage; a
+  guard-only stamina break with no offensive uses.
+- Parameters: six-stock capacity, technique costs, passive recovery, block and
+  punish loss, Burnout entry/recovery, corner state and Stun.
+- Evidence: [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
+- Novelty: first isolated for `GAME-0172`; the same reserve changes offence,
+  defence, mobility and the rules of vulnerability when exhausted.
+
+## SYS-521 — Earn, carry and spend tiered Super Art stock
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: eligible live combat activity increases a bounded three-stock
+  meter; a legal tiered Super Art consumes its declared level cost, while
+  unspent stock persists across an ordinary round reset.
+- Includes: Street Fighter 6's three-level Super Art Gauge in Fighting Ground.
+- Excludes: Drive stocks; one-round economy; permanent character experience;
+  an ability that merely recovers on a cooldown.
+- Parameters: capacity, gain sources, carried amount, Super level, cost,
+  activation and round carry-over.
+- Evidence: [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
+- Novelty: first isolated for `GAME-0172`; earlier live combat resources do not
+  combine tiered attack costs with explicit inter-round retention.
+
+## SYS-522 — Adjudicate and reset finite fighting rounds
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: vitality depletion or expiry of the declared round timer
+  determines one round result; the system records its marker, resets eligible
+  fighter state and begins another round until one side reaches the required
+  win count and the match settles.
+- Includes: default `99`-second, first-to-two One on One rounds in Street Fighter
+  6 Versus.
+- Excludes: a team-elimination round with equipment economy; respawning during
+  one continuous objective phase; tournament games beyond the in-game match.
+- Parameters: vitality comparison, timer, KO, draw policy, round markers, reset
+  state, carried resources, required wins and result screen.
+- Evidence: [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
+- Novelty: first isolated for `GAME-0172`; Counter-Strike's round gene binds
+  asymmetric bomb and team-elimination rules, while this boundary resets one
+  fixed fighting pair and carries eligible Super stock.
+
+## SYS-523 — Sample a position-conditioned room offer from an authored pool
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when an eligible unopened door is addressed, the system filters
+  an authored room pool by current position and estate state, then exposes a
+  bounded offer of three candidate plans.
+- Includes: ordinary Blue Prince room-plan offers.
+- Excludes: unconstrained procedural geometry; drawing one hidden random room;
+  a shop inventory unrelated to spatial construction.
+- Parameters: day, cell, edge, authored pool, rarity, eligibility, weights,
+  offer size and candidate plans.
+- Evidence: [Blue Prince decomposition](../games/a-f/blue-prince.md).
+- Novelty: first isolated for `GAME-0173`; the sampled alternatives directly
+  determine the next room in a player-built traversal graph.
+
+## SYS-524 — Instantiate a drafted room and propagate its graph effects
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after a legal plan choice, the system occupies the target manor
+  cell, joins compatible doorway edges and applies the room's declared local or
+  manor-wide effects.
+- Includes: placing one selected Blue Prince room behind the addressed door.
+- Excludes: previewing an offer; moving a previously placed tile; rendering a
+  cosmetic room with no topology or rule state.
+- Parameters: cell, room, orientation, entry edge, exits, role, effect,
+  occupancy and graph update.
+- Evidence: [Blue Prince decomposition](../games/a-f/blue-prince.md).
+- Novelty: first isolated for `GAME-0173`; it couples offer resolution to a
+  persistent within-day room graph and authored room effects.
+
+## SYS-525 — Update day-local manor resources and held items
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: traversal, room entry, pickup, purchase, consumption and fixture
+  use add or subtract the current day's steps, keys, gems, coins and eligible
+  held items according to their typed rules.
+- Includes: Blue Prince's ordinary daily resource economy.
+- Excludes: permanent estate upgrades; knowledge retained by the player; a
+  single universal score with no typed uses.
+- Parameters: event, resource type, prior amount, delta, capacity, item,
+  persistence horizon and resulting amount.
+- Evidence: [Blue Prince decomposition](../games/a-f/blue-prince.md).
+- Novelty: first isolated for `GAME-0173`; it binds several typed resources to
+  a changing drafted route and explicit daily reset boundary.
+
+## SYS-526 — Rebuild daily manor state while retaining declared progress
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: on a declared day end, the system discards the current drafted
+  layout and day-local economy, begins a fresh manor morning and restores only
+  explicitly persistent estate changes, records and knowledge state.
+- Includes: ordinary between-day Blue Prince rebuilding.
+- Excludes: deleting the whole profile; preserving every drafted room; an
+  automatic fixed-duration time loop.
+- Parameters: day, layout, daily resources, retained upgrades, retained clues,
+  next seed, starting room and starting steps.
+- Evidence: [Blue Prince decomposition](../games/a-f/blue-prince.md).
+- Novelty: first isolated for `GAME-0173`; it separates a drafted spatial graph
+  from declared persistent estate progress under a player-called reset.
+
+## SYS-527 — Resolve observation-device movement, feed, scan and loss
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a surviving remote device resolves its supported movement,
+  orientation and local field into a live team feed or marked observation, and
+  removes that access when the device is disabled or destroyed.
+- Includes: Rainbow Six Siege attacker drones, defender cameras and compatible
+  observation tools.
+- Excludes: direct avatar sight; permanent omniscient tracking; a post-match
+  replay camera.
+- Parameters: device, owner, position, orientation, field, visibility, scan,
+  ping, recipients, health and loss.
+- Evidence: [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
+- Novelty: first isolated for `GAME-0174`; information is produced by a
+  destructible, controllable spatial node rather than a fixed HUD sensor.
+
+## SYS-528 — Apply defensive fortification layers to eligible surfaces
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a legal defender placement converts an eligible opening or soft
+  surface into its declared barricaded or reinforced layer, changing access,
+  penetration, sight and compatible breach requirements.
+- Includes: Rainbow Six Siege door/window barricades and team-stock wall or
+  hatch reinforcements.
+- Excludes: indestructible authored geometry; a purely cosmetic skin; damage
+  that removes the layer.
+- Parameters: surface, material, side, placement duration, team stock, layer,
+  durability, access and compatible counters.
+- Evidence: [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
+- Novelty: first isolated for `GAME-0174`; it resolves a replenished round-local
+  defensive construction layer that explicitly changes opposing breach rules.
+
+## SYS-529 — Resolve injury, team revival and final round elimination
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: qualifying damage may place a living participant into a bounded
+  injured state; a legal ally revival returns control with configured health,
+  while further or disqualifying damage finalises removal for the round.
+- Includes: Rainbow Six Siege down-but-not-out injury, ally revival and final
+  elimination.
+- Excludes: guaranteed injury from every lethal hit; immediate same-round
+  respawn; permanent campaign resurrection.
+- Parameters: damage, injury eligibility, bleed state, crawl, revive authority,
+  duration, returned health, final damage and round boundary.
+- Evidence: [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
+- Novelty: first isolated for `GAME-0174`; it joins one-life round removal to a
+  conditional, interruptible teammate recovery window.
+
+## SYS-530 — Rebuild and rotate round-local siege state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a settled round, the system restores operators and the
+  authored map, clears round-local destruction, construction, devices and
+  injuries, retains the match score and applies the next site, role and ban
+  schedule state.
+- Includes: Rainbow Six Siege Pro League round reset, role swap after six
+  regulation rounds and scheduled ban-pool changes.
+- Excludes: restoring a saved mid-round position; retaining breached geometry;
+  resetting the whole match score.
+- Parameters: round, score, role, site, operator pool, bans, geometry, devices,
+  health, loadout and overtime state.
+- Evidence: [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
+- Novelty: first isolated for `GAME-0174`; it rebuilds player-modified tactical
+  geometry and devices while rotating declared role and roster state.
+
+## SYS-531 — Resolve autonomous football choices from player state and tactical plan
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: each footballer autonomously selects movement, positioning and
+  ball actions from the live match state, attributes, assigned role and the
+  manager's current in-possession or out-of-possession plan.
+- Includes: Football Manager 26 match-engine player and team decisions.
+- Excludes: direct avatar control; a fixed authored highlight; formation
+  editing before confirmation.
+- Parameters: player attributes, condition, role, possession phase, formation,
+  instruction, teammates, opponents, ball, score and match time.
+- Evidence: [Football Manager 26 decomposition](../games/a-f/football-manager-26.md).
+- Novelty: first isolated for `GAME-0175`; it makes the declared managerial
+  policy, rather than moment-to-moment body input, the source of team action.
+
+## SYS-532 — Update player condition, performance and injury through the fixture
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: live participation and incidents update each footballer's
+  condition, performance assessment and injury availability, changing the
+  evidence and legal options for later managerial interventions.
+- Includes: Football Manager 26 match condition, ratings and injuries.
+- Excludes: long-term training development; contract morale; cosmetic sweat.
+- Parameters: minutes, workload, fatigue, incident, injury, rating, position,
+  role and substitution status.
+- Evidence: [Football Manager 26 decomposition](../games/a-f/football-manager-26.md).
+- Novelty: first isolated for `GAME-0175`; it binds evolving per-agent
+  performance evidence to a manager-only substitution decision loop.
+
+## SYS-533 — Record a managed fixture result in persistent competition state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after regulation settles, the career records the fixture score
+  and outcome and applies the declared competition consequences to its results
+  and table state.
+- Includes: a Football Manager 26 Premier League result and updated table.
+- Excludes: a temporary Kick Off score; an unplayed fixture prediction; an
+  entire season's final classification.
+- Parameters: fixture, score, outcome, points policy, table rows, played count,
+  goals and career save.
+- Evidence: [Football Manager 26 decomposition](../games/a-f/football-manager-26.md).
+- Novelty: first isolated for `GAME-0175`; earlier match settlement terminates
+  one play session without committing its result to a persistent league state.
+
+## SYS-534 — Refresh and spend per-soldier Action Points inside a squad phase
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: at the player phase boundary each available soldier receives a
+  small personal Action Point allowance; legal commands spend that allowance,
+  with declared terminal actions consuming all remaining authority.
+- Includes: XCOM 2's two-action soldier turns, blue first move and yellow final
+  move in Operation Gatecrasher.
+- Excludes: one shared team energy pool; initiative-ordered individual turns;
+  real-time cooldowns.
+- Parameters: soldier, refreshed points, command cost, movement band, terminal
+  action, free action and remaining authority.
+- Evidence: [XCOM 2 decomposition](../games/s-z/xcom-2.md).
+- Novelty: first isolated for `GAME-0176`; unlike a single-character turn
+  economy, several soldiers retain independently spendable authority inside
+  one freely interleaved squad phase.
+
+## SYS-535 — Break squad concealment and activate a revealed hostile pod
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: detection or a concealment-breaking action reveals the squad,
+  while newly exposed inactive hostiles enter alerted tactical behaviour and
+  take their activation movement before later phase decisions.
+- Includes: XCOM 2 concealment, detection tiles and ADVENT pod activation.
+- Excludes: ordinary fog-of-war reveal without behavioural activation;
+  permanent invisibility; a scripted cutscene with no tactical consequence.
+- Parameters: concealed side, detector, detection radius, sight, breaking
+  action, pod membership, activation movement and alert state.
+- Evidence: [XCOM 2 decomposition](../games/s-z/xcom-2.md).
+- Novelty: first isolated for `GAME-0176`; it couples information exposure to
+  a coordinated hostile-state transition rather than revealing units alone.
+
+## SYS-536 — Resolve prepared reaction fire on eligible hostile movement
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when a hostile moves through the legal sight and weapon state of
+  a soldier with prepared reaction fire, the system interrupts movement to
+  resolve one modified ranged attack and consumes the preparation.
+- Includes: XCOM 2 Overwatch fire during the enemy phase.
+- Excludes: an immediate selected shot; unlimited automatic turret fire;
+  reaction against a target that never moved through eligible sight.
+- Parameters: prepared soldier, hostile movement segment, sight, ammunition,
+  trigger, accuracy modifier, attack result and consumption.
+- Evidence: [XCOM 2 decomposition](../games/s-z/xcom-2.md).
+- Novelty: first isolated for `GAME-0176`; the resolution crosses a faction
+  phase boundary and is conditional on a later opponent movement event.
+
+## SYS-537 — Select and resolve hostile commands during the enemy squad phase
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after the player commits the squad phase, each surviving alerted
+  hostile selects legal movement, cover and attack behaviour from the visible
+  tactical state and the system resolves those commands before player refresh.
+- Includes: XCOM 2 ADVENT and Sectoid behaviour in Operation Gatecrasher.
+- Excludes: a human-controlled opponent; pre-disclosed deterministic intent;
+  simultaneous real-time combat.
+- Parameters: hostile, alert state, reachable cells, targets, cover, ability,
+  attack probability, resolution order and surviving state.
+- Evidence: [XCOM 2 decomposition](../games/s-z/xcom-2.md).
+- Novelty: first isolated for `GAME-0176`; it is an autonomous faction phase
+  operating against a freely interleaved multi-soldier player phase.
+
+## SYS-538 — Settle soldier health into recovery, wounds or permanent loss
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: tactical damage updates a soldier's health and death state; at
+  mission settlement a survivor returns for immediate use or wound recovery,
+  while a killed soldier is permanently absent from the campaign roster.
+- Includes: XCOM 2 mission health, wounds and permanent soldier death.
+- Excludes: same-turn respawn; cosmetic injury; guaranteed recovery of a killed
+  soldier.
+- Parameters: health, damage, lethal threshold, survival, wound severity,
+  recovery duration and roster state.
+- Evidence: [XCOM 2 decomposition](../games/s-z/xcom-2.md).
+- Novelty: first isolated for `GAME-0176`; it connects bounded tactical health
+  to persistent post-mission availability without modelling the full campaign.
+
+## SYS-539 — Integrate rocket-car motion across surfaces and air
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the system continuously integrates one dedicated car's steering,
+  throttle, braking, powerslide, jump, dodge, aerial orientation, gravity and
+  collision into ground, wall, ceiling and airborne motion.
+- Includes: Rocket League standard-arena car movement and recovery.
+- Excludes: occupant health or vehicle-part damage; an autonomous racing line;
+  entering and leaving a world vehicle.
+- Parameters: hitbox, mass, velocity, angular velocity, traction, surface,
+  gravity, steering, jump, dodge, orientation and contact impulse.
+- Evidence: [Rocket League decomposition](../games/m-r/rocket-league.md).
+- Novelty: first isolated for `GAME-0177`; `SYS-320` joins vehicle motion to
+  damage and occupants, while this boundary centres surface-to-air car control.
+
+## SYS-540 — Refill and spend spatial vehicle boost
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: crossing a ready arena boost pad transfers its declared amount
+  into the vehicle's capped reserve and makes that pad unavailable until its
+  recharge completes; active boost then consumes reserve as directed thrust.
+- Includes: Rocket League small and large boost pads, the ten-second large-pad
+  recharge and ground or aerial boost use.
+- Excludes: passive throttle; a carried consumable; unlimited boost mutators.
+- Parameters: pad class, position, ready state, recharge, pickup amount,
+  reserve cap, current reserve, thrust and spend rate.
+- Evidence: [Rocket League decomposition](../games/m-r/rocket-league.md).
+- Novelty: first isolated for `GAME-0177`; the same spatial nodes repeatedly
+  replenish a shared movement resource during continuous competitive play.
+
+## SYS-541 — Resolve vehicle bump, demolition and timed respawn
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: car-car contact transfers a physical bump unless a legal
+  demolition-speed contact temporarily removes the struck car; after the
+  declared delay, an eligible own-side spawn restores that car to live play.
+- Includes: Rocket League bumps, supersonic demolitions and same-match respawn.
+- Excludes: persistent vehicle damage; round-long elimination; scoring a point
+  merely for demolition under default mutators.
+- Parameters: attacker velocity, contact direction, demolition eligibility,
+  removed car, delay, offered spawn, fallback selection and returned state.
+- Evidence: [Rocket League decomposition](../games/m-r/rocket-league.md).
+- Novelty: first isolated for `GAME-0177`; removal is a short positional cost
+  inside uninterrupted team play, not health depletion or round elimination.
+
+## SYS-542 — Advance zero-second regulation into sudden-death overtime
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the five-minute match clock counts down during live Soccar; at
+  zero the current ball remains live until a valid grounding or goal, after
+  which a tied score starts unlimited sudden-death overtime and the first legal
+  goal settles the winner.
+- Includes: Rocket League default Soccar regulation and overtime settlement.
+- Excludes: a draw accepted at regulation; fixed extra-time periods; penalty
+  shoot-outs; account rank updates.
+- Parameters: regulation length, score, zero-second ball state, grounding,
+  overtime state, deciding goal and winner.
+- Evidence: [Rocket League decomposition](../games/m-r/rocket-league.md).
+- Novelty: first isolated for `GAME-0177`; clock expiry is conditionally delayed
+  by live-ball state before a goal-only sudden-death phase.
+
+## SYS-543 — Deplete and replenish the survivor oxygen reserve
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while the avatar lacks a breathable source the system reduces carried oxygen over real time, warns at low reserve and applies suffocation at exhaustion, while a surface or powered breathable interior refills it.
+- Includes: Subnautica diving, surface breathing, Lifepod, powered Seabase and powered Seamoth oxygen.
+- Excludes: calories or hydration; a one-shot air consumable without a live reserve; vehicle crush damage.
+- Parameters: capacity, depletion rate, warning thresholds, breathable source, refill rate, exhaustion grace and lethal damage.
+- Evidence: [Subnautica decomposition](../games/s-z/subnautica.md).
+- Novelty: first isolated for `GAME-0178`; reachable spatial air nodes govern a continuously depleting excursion reserve.
+
+## SYS-544 — Accumulate scan progress and unlock fragment blueprint
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: valid held scanning accumulates resumable target progress; a completed technology fragment increments its blueprint counter and the required count turns that recipe into persistent known state.
+- Includes: Subnautica Mobile Vehicle Bay and Seamoth fragment scanning.
+- Excludes: consuming research currency; opening a single data box; merely reading an already known recipe.
+- Parameters: target, progress, range, interruption, fragment class, current count, required count, duplicate conversion and blueprint state.
+- Evidence: [Subnautica decomposition](../games/s-z/subnautica.md).
+- Novelty: first isolated for `GAME-0178`; physical observations are counted toward a class-specific fabrication unlock.
+
+## SYS-545 — Resolve one powered fabricator recipe
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an available powered fabricator accepts one legal known recipe, consumes its declared ingredients and energy where applicable, runs its fabrication interval and presents the output for inventory transfer.
+- Includes: Subnautica Lifepod or Seabase Fabricator conversion and Mobile Vehicle Bay Seamoth fabrication.
+- Excludes: a persistent multi-item personal crafting queue; autonomous factory production; Habitat Builder module placement.
+- Parameters: station, power source, recipe, ingredients, energy cost, duration, output and uncollected-output blocking.
+- Evidence: [Subnautica decomposition](../games/s-z/subnautica.md).
+- Novelty: first isolated for `GAME-0178`; one powered station transformation owns its output until the player can collect it.
+
+## SYS-546 — Resolve connected habitat integrity, breaches and flooding
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: completed modules join a connected underwater habitat and change its depth-sensitive hull integrity; non-positive integrity creates breaches and propagating water until integrity and leaks are repaired.
+- Includes: a Subnautica I Compartment and Hatch retaining positive integrity, or an overextended Seabase flooding after integrity reaches zero.
+- Excludes: vehicle crush damage; visual water outside a sealed base; ordinary building health without a shared pressure-hull value.
+- Parameters: connected module, base integrity, module modifier, depth, breach, flooded volume, compartment boundary, repair and dry state.
+- Evidence: [Subnautica decomposition](../games/s-z/subnautica.md).
+- Novelty: first isolated for `GAME-0178`; connected construction shares one pressure budget whose failure changes the interior medium.
+
+## SYS-547 — Generate and distribute habitat power and oxygen
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an eligible generator converts its environmental input into stored habitat energy, connected systems consume that reserve, and a powered dry habitat maintains breathable interior oxygen.
+- Includes: a shallow Subnautica Solar Panel charging a connected Seabase and enabling its oxygen supply.
+- Excludes: vehicle Power Cell discharge; daylight as visual ambience only; oxygen inside an unpowered flooded module.
+- Parameters: generator, light or fuel input, generation rate, storage cap, connected load, power priority, dry state and oxygen availability.
+- Evidence: [Subnautica decomposition](../games/s-z/subnautica.md).
+- Novelty: first isolated for `GAME-0178`; one stored network resource gates both habitat fixtures and the breathable interior state.
+
+## SYS-548 — Consume submersible energy and apply collision or crush damage
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: operating a piloted submersible consumes installed energy while contact damage and time below its current crush depth reduce vehicle health, potentially destroying it while the world continues.
+- Includes: an unmodified Subnautica Seamoth using its Power Cell, taking collision damage and becoming unsafe below 200 m.
+- Excludes: avatar oxygen depletion; land-vehicle fuel only; a depth marker with no damage consequence.
+- Parameters: Power Cell charge, movement load, lights, health, collision, depth, crush threshold, warning, damage cadence and destruction.
+- Evidence: [Subnautica decomposition](../games/s-z/subnautica.md).
+- Novelty: first isolated for `GAME-0178`; vehicle range and vertical operating envelope share energy, health and pressure limits.
+
+## SYS-549 — Gather and deposit a finite map resource
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an assigned worker repeatedly extracts a carried quantity from its reachable world source, returns it to a compatible drop-off building and adds it to the owner's shared stockpile until interrupted or exhausted.
+- Includes: Age of Empires II villagers gathering Food, Wood, Gold or Stone.
+- Excludes: instantaneous hand collection into personal inventory; city-turn yield aggregation; automated mining with no worker return route.
+- Parameters: worker, resource class, source reserve, carry capacity, gather rate, drop-off class, path and stockpile.
+- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
+- Novelty: first isolated for `GAME-0179`; it couples finite spatial extraction, worker carrying and a required return trip into one live economy loop.
+
+## SYS-550 — Advance villager construction and repair work
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: each eligible assigned villager contributes timed work to an owned foundation or damaged entity, completing construction or restoring hit points while the task and target remain legal.
+- Includes: Age of Empires II building construction and villager repair.
+- Excludes: instant player placement; autonomous construction robots supplied from a logistics network; passive regeneration.
+- Parameters: target, builder count, build or repair time, work-rate scaling, resource cost, cancellation, hit points and completion state.
+- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
+- Novelty: first isolated for `GAME-0179`; the live selected workers themselves supply construction or repair progress.
+
+## SYS-551 — Advance a building-local unit training queue
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an owned production building advances the front paid unit order over real time, creates the unit when training completes and then advances the next queued order if its release remains legal.
+- Includes: Villager and military production queues in Age of Empires II: Definitive Edition.
+- Excludes: a city's per-turn production target; scheduled free wave spawning; an item recipe that repeatedly runs without discrete queued orders.
+- Parameters: building, queue, unit, training time, owner, completion, spawn cell, rally point and blocked release.
+- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
+- Novelty: first isolated for `GAME-0179`; it preserves simultaneous finite queues across multiple player-built RTS production structures.
+
+## SYS-552 — Complete building-bound technology or Age research
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a paid research order occupies its eligible building for a declared live duration, then persistently applies the technology, unit, building or next-Age unlocks to the owning civilization.
+- Includes: economic and military technologies and Feudal, Castle and Imperial Age advancement in Age of Empires II: Definitive Edition.
+- Excludes: science-point accumulation across laboratories; turn-settled technology income; character experience levels.
+- Parameters: building, research, cost, duration, prerequisites, current Age, civilization tree, completion and unlocked effects.
+- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
+- Novelty: first isolated for `GAME-0179`; progress is a paid building-local real-time order, not a global research currency stream.
+
+## SYS-553 — Apply housing capacity to live unit production
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: completed capacity-providing buildings raise the owner's current population ceiling up to the match maximum, while unit creation occupies population space and stalls when no legal headroom remains.
+- Includes: Houses, Town Centers and Castles supporting Age of Empires II unit production under the scoped population-200 limit.
+- Excludes: residential happiness; abstract labour slots; a fixed team roster with no constructed capacity.
+- Parameters: used population, current capacity, match maximum, provider, unit cost, destruction and blocked queue.
+- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
+- Novelty: first isolated for `GAME-0179`; constructed world buildings directly gate release from concurrent military and economic queues.
+
+## SYS-554 — Resolve ordered group movement through formation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a selected group maps its members into the active formation, paths toward the ordered destination at a group-compatible pace and then applies its stance while acquiring or refusing eligible targets.
+- Includes: formation movement and stance-governed engagement in Age of Empires II: Definitive Edition.
+- Excludes: one unit's ordinary path; a manager's abstract team shape; a scripted autonomous lane wave.
+- Parameters: group, member classes, formation slots, path, speed, facing, stance, regroup and target acquisition.
+- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
+- Novelty: first isolated for `GAME-0179`; group topology and engagement policy remain coupled throughout command execution.
+
+## SYS-555 — Settle Conquest elimination or resignation
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the match awards victory when every opposing civilization has resigned or lost the unit and production-building set required by Conquest, and applies defeat symmetrically to the player's civilization.
+- Includes: one-versus-one Conquest victory or resignation in Age of Empires II: Definitive Edition.
+- Excludes: Wonder and Relic countdowns; score-at-time-limit victory; campaign triggers; destruction of one designated Ancient.
+- Parameters: civilizations, alliance, surviving villagers, military units, production buildings, resignation and terminal result.
+- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
+- Novelty: first isolated for `GAME-0179`; the terminal evaluates an entire civilization's recoverable production capacity rather than one structure.
+
+## SYS-556 — Integrate fixed-wing aerodynamics and ground contact
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the system continuously combines aircraft configuration, control
+  deflection, propulsion, atmosphere, gravity and surface contact into attitude,
+  airspeed, altitude, trajectory, taxi motion, takeoff, landing and unsafe
+  envelope consequences.
+- Includes: the scoped Microsoft Flight Simulator 2024 Cessna 172 G1000 ground
+  run, climb, cruise, descent, flare, touchdown and rollout.
+- Excludes: generic occupied road-vehicle traction; autonomous scripted flight;
+  purely cosmetic turbulence or scenery streaming.
+- Parameters: mass, centre of gravity, lift, drag, thrust, control surface,
+  flap, trim, wind, density, attitude, speed, terrain, runway and contact force.
+- Evidence: [Microsoft Flight Simulator 2024 decomposition](../games/m-r/microsoft-flight-simulator-2024.md).
+- Novelty: first isolated for `GAME-0180`; runway contact and airborne energy
+  remain one causally continuous manually controlled fixed-wing model.
+
+## SYS-557 — Resolve piston-engine, fuel and electrical state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: connected fuel and electrical components determine whether the
+  piston engine can start and continue producing power and whether dependent
+  avionics, instruments, lights and circuits remain energised.
+- Includes: the scoped Microsoft Flight Simulator 2024 Cessna 172 cold start,
+  fuel consumption, powered flight and destination shutdown.
+- Excludes: abstract vehicle fuel with no operable system graph; unlimited
+  arcade boost; aircraft selection before the flight loads.
+- Parameters: tank, selector, line, valve, mixture, magneto, starter, engine,
+  RPM, battery, alternator, bus, circuit, load, fuel quantity and shutdown.
+- Evidence: [Microsoft Flight Simulator 2024 decomposition](../games/m-r/microsoft-flight-simulator-2024.md).
+- Novelty: first isolated for `GAME-0180`; propulsion and cockpit availability
+  share an operable component dependency chain that the player starts and stops.
+
+## SYS-558 — Load and advance an active avionics flight plan
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the system loads the declared aeronautical plan into compatible
+  navigation surfaces and updates aircraft position, active leg, track,
+  deviation, distance and waypoint progression as the manual flight moves.
+- Includes: the scoped VFR direct plan shared by Microsoft Flight Simulator
+  2024 Free Flight, EFB and Cessna 172 G1000 avionics.
+- Excludes: road-route recalculation; autopilot control; ATC clearance authority;
+  an authored mission marker with no player-selected plan.
+- Parameters: origin, destination, procedure, waypoint, leg, aircraft position,
+  desired track, cross-track deviation, distance, activation and completion.
+- Evidence: [Microsoft Flight Simulator 2024 decomposition](../games/m-r/microsoft-flight-simulator-2024.md).
+- Novelty: first isolated for `GAME-0180`; an aeronautical route persists across
+  planning and cockpit surfaces while remaining advisory to direct control.
+
+## SYS-559 — Record a completed Free Flight in the logbook
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after the bounded Free Flight reaches an eligible destination
+  ground terminal, the system adds the flight to the persistent logbook and
+  emits the current in-flight entry notification.
+- Includes: Sim Update 6 Microsoft Flight Simulator 2024 Free Flight logbook
+  settlement after the scoped destination parking and shutdown.
+- Excludes: Career reward scoring; an unrecorded touch-and-go; a user-authored
+  note; exiting before the flight qualifies for a logbook entry.
+- Parameters: flight identity, origin, destination, departure, arrival, duration,
+  ground state, shutdown state, entry identifier and notification.
+- Evidence: [Microsoft Flight Simulator 2024 decomposition](../games/m-r/microsoft-flight-simulator-2024.md).
+- Novelty: first isolated for `GAME-0180`; the terminal converts one continuous
+  manual simulation into an explicit persistent non-career flight record.
