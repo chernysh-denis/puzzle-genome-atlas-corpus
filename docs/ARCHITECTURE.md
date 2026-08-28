@@ -117,7 +117,7 @@ docs/        Method, governance, evidence model and research plan
 knowledge/   Canonical genes, game genomes and verified combinations
 research/    Leads, taxonomy proposals, candidates and negative results
 templates/   Required contribution formats
-backend/     PostgreSQL migrations, import/parity tools and versioned Go API
+backend/     Immutable artifact builder and versioned read-only Go API
 web/         Thin Astro presentation and bounded browser artifacts
 ops/         Atlas-only service, proxy and release templates
 scripts/     Repository-integrity validation
@@ -212,19 +212,16 @@ Go API exposes that revision; Astro consumes one revision-pinned API contract
 and emits static pages plus bounded browser assets. Production pages remain
 independently serveable when the API is unavailable.
 
-Production `r000001` remains PostgreSQL-backed during the artifact-first
-migration. The direct Astro corpus parser remains a memoised comparison oracle
-and rollback path behind `ATLAS_CORPUS_SOURCE`; it is not a second published
-authority. The fail-closed retirement evidence lives in
-`docs/migrations/production-parity-window.json`. Until that record and the
-artifact-first release gates pass, CI requires the parser, PostgreSQL path and
-legacy rollback assets to remain present.
+Production `r000002` uses the same immutable artifact for the read-only Go API
+and the revision-pinned Astro build. Astro has no legacy corpus fallback: every
+page is generated only from API responses. The direct corpus parser remains an
+authoring-side input to deterministic artifact generation and parity tests; it
+is not a presentation or runtime data source.
 
-Ordinary local and pull-request validation no longer materializes PostgreSQL:
-it regenerates the immutable artifact, verifies DB-free public projection,
-runs the API from the pinned artifact and builds/tests Astro only through that
-API. PostgreSQL parity is an explicit weekly/manual historical job until the
-retirement decision; it is not a runtime or contributor-path authority.
+Local and pull-request validation regenerates the immutable artifact, verifies
+the DB-free public projection, runs the API from the pinned artifact and
+builds/tests Astro only through that API. PostgreSQL is not a dependency of
+the contributor path, CI, publication, site build or production runtime.
 
 Markdown and reviewed JSON in private Git remain the human authoring/evidence
 authority until a separately accepted editor exists. The accepted target
@@ -238,7 +235,9 @@ parse so it can detect disagreement with generated output rather than repeat
 the generator's assumptions. New tooling must reuse the appropriate existing
 boundary instead of adding another Markdown parser.
 
-The historical parsing and payload measurements remain in the
+The historical PostgreSQL implementation and SQL migrations remain in Git
+history and `docs/migrations/archive/postgresql/`; they are audit evidence, not
+executable architecture. The historical parsing and payload measurements remain in the
 [`Scaling implementation report`](SCALING_IMPLEMENTATION_REPORT.md). ADR-009
 selected PostgreSQL for ownership/release governance rather than a crossed
 parsing threshold. The later implementation and independent audit showed that

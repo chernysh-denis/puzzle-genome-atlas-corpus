@@ -1,21 +1,21 @@
 {
   "schemaVersion": "atlas-public-export-v2",
-  "corpusRevision": "r000002",
-  "contentSha256": "ad928fad82cb79fc3f0feab60dea91eb6d6cb318db64d81d643cf0279ba94afe",
-  "payloadSha256": "8db2dffe9f543f54c66a6bf9ed568b6dfe6402db298cab2ea03aa9e4c1f87d61",
+  "corpusRevision": "r000003",
+  "contentSha256": "9eade4c1fe9bfbc33d3e3ff4ec6d1b2df99217b2c7a87476e313969e9a2e225d",
+  "payloadSha256": "0c20c7df9046e4e93c77191f57e618ee4cd70087554a9e2286f0bf3eab99d6fe",
   "corpusSchemaVersion": "atlas-schema-v1",
   "apiVersion": "v1",
-  "generatedAt": "2026-08-27T14:55:49Z",
+  "generatedAt": "2026-08-28T07:20:13Z",
   "repositoryUrl": "https://github.com/chernysh-denis/puzzle-genome-atlas-corpus",
-  "releaseTag": "corpus-r000002",
+  "releaseTag": "corpus-r000003",
   "artifact": {
     "schemaVersion": "atlas-corpus-artifact-v1",
-    "sha256": "9064f277033c7e0ee3b44b285f453ad80f13c4a8fc0fdac93143487f284970e3",
-    "sizeBytes": 14550746
+    "sha256": "1782f6b867e611a97ea5ee2f5b8dc15672c5399775ec63b8736e501a7d0b2cc7",
+    "sizeBytes": 14812020
   },
   "sourceProvenance": {
-    "privateCommit": "46dfc375507f512c03e8e914994a3220fb6d5b6a",
-    "projectionCommit": "0bc93fe326cf131511584ea7c144dcb6b19c73c2",
+    "privateCommit": "502825060ab71866f532a5bed8b8c8a9ed1191e9",
+    "projectionCommit": "502825060ab71866f532a5bed8b8c8a9ed1191e9",
     "projectorVersion": "public-source-projection-v1"
   },
   "counts": {
@@ -42,8 +42,8 @@
     {
       "path": "docs/ARCHITECTURE.md",
       "mode": 420,
-      "sizeBytes": 12580,
-      "contentSha256": "965cef1322506f4c09ac0c78a572c4c9b3f52730acd66d0450713c6d8a095699"
+      "sizeBytes": 12555,
+      "contentSha256": "869163e382985a06b0133005cb5d13d63c8eeafcaf05293aa08ae03366e51d92"
     },
     {
       "path": "docs/EVIDENCE_MODEL.md",
@@ -2214,20 +2214,20 @@
     {
       "path": "knowledge/locales/uk/combinations.json",
       "mode": 420,
-      "sizeBytes": 210809,
-      "contentSha256": "6a33a9ca8d4a699c817207d98dfeda492534129704e349b6307b3d206729e6c4"
+      "sizeBytes": 215452,
+      "contentSha256": "0e25d1d6ee6aa02183ce6c6df5f7ab02ccea983ea3bf2ac8273b893597273997"
     },
     {
       "path": "knowledge/locales/uk/games.json",
       "mode": 420,
-      "sizeBytes": 424964,
-      "contentSha256": "455b12cabb8e728f76fe28d3b0ae11418301357323ddc61dcc0f2e680b1af015"
+      "sizeBytes": 460272,
+      "contentSha256": "ccf05519bfbda061da41bd986de791c1473a3987f56c0e659e66a9af03851d63"
     },
     {
       "path": "knowledge/locales/uk/genes.json",
       "mode": 420,
-      "sizeBytes": 1553220,
-      "contentSha256": "f90d90d9d171a81a0715e3bdd8009cf8278ef109950b47cb3ed16de1f2b80db9"
+      "sizeBytes": 1633224,
+      "contentSha256": "60808ea51de03549df5fc0c53fbdaacc1da9b91c2378bd3ff71c1531fc4d1383"
     },
     {
       "path": "knowledge/plain-language/README.md",
@@ -2238,8 +2238,8 @@
     {
       "path": "knowledge/plain-language/pilot.json",
       "mode": 420,
-      "sizeBytes": 2955673,
-      "contentSha256": "60565c82763b285e8def27c804f06539313c7ce39454e478520ac415c11efa8b"
+      "sizeBytes": 3093078,
+      "contentSha256": "9ea0df6b7e5f3d1120f0a718494dc8d268b2e4b4ad79d0266b294b4a12d15590"
     },
     {
       "path": "knowledge/presentation/README.md",
@@ -2250,8 +2250,8 @@
     {
       "path": "knowledge/presentation/games.json",
       "mode": 420,
-      "sizeBytes": 441131,
-      "contentSha256": "a506098dc0e9f78863d4dbf2e3c91c47ea347d1c04e0f4c4a924d58514e67489"
+      "sizeBytes": 446546,
+      "contentSha256": "2eab7755bfb376023998b17da5ad8f137297659f61acb54dd1a43926e990e8c3"
     },
     {
       "path": "knowledge/salience/README.md",
@@ -2262,8 +2262,8 @@
     {
       "path": "knowledge/salience/pilot.json",
       "mode": 420,
-      "sizeBytes": 187931,
-      "contentSha256": "b6b35dbc56c3da9a84e73650d40722a0696d4c75944e4829c97c629f394e489a"
+      "sizeBytes": 200774,
+      "contentSha256": "50d93134fcc8118864fee16b92b191a95d19dc38b64a4b0731c4866de5663fb7"
     },
     {
       "path": "research/negative-results/NEGATIVE_RESULT_002.md",
