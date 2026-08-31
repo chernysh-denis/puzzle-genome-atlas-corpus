@@ -201,7 +201,8 @@
   [Fights in Tight Spaces decomposition](../games/a-f/fights-in-tight-spaces.md),
   [The Room decomposition](../games/s-z/the-room.md), and
   [Slay the Spire decomposition](../games/s-z/slay-the-spire.md), and
-  [Strands decomposition](../games/s-z/strands.md).
+  [Strands decomposition](../games/s-z/strands.md), and
+  [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
 - Novelty: not assessed.
 
 ## INF-004 — Exact local aggregate clue
@@ -1525,8 +1526,16 @@
   [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md) and
   [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Additional support: [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md),
+  for visible carried stacks and equipped hand/body items.
 - Additional support: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md),
   for the visible active, trinket and pocket slots plus pickup counters.
+- Additional support: [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md),
+  for visible active stock weapon and ammunition state.
+- Additional support: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md),
+  for current weapon, ammunition and typed support-item slots.
+- Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
+  for current weapon-slot and ammunition HUD state.
 - Novelty: not assessed.
 
 ## INF-074 — Crafting grid and available recipe state are visible
@@ -1543,20 +1552,26 @@
 - Evidence: [Minecraft decomposition](../games/m-r/minecraft.md).
 - Novelty: not assessed.
 
-## INF-075 — Health, hunger, armour and durability state are visible
+## INF-075 — Personal survival capacity and equipment wear are visible
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the interface exposes the avatar's current survival meters and
-  carried tool wear sufficiently to judge food, combat and replacement needs.
+- Definition: the interface exposes the avatar's current survival meters,
+  temporary capacity modifiers and carried tool wear sufficiently to judge
+  food, combat, recovery and replacement needs.
 - Includes: Minecraft hearts, hunger drumsticks, armour icons and durability
   bars; Rainbow Six Siege health and eligible injured state.
-- Excludes: exact hidden saturation; a predicted future damage outcome.
-- Parameters: health, hunger, armour, breath, status and durability.
+- Includes: Valheim health, stamina, active-food durations/status and durability.
+- Excludes: exact hidden saturation; a predicted future damage outcome; remote
+  world state unrelated to personal survival.
+- Parameters: health, hunger, stamina, active food, duration, armour, breath,
+  recovery status and durability.
 - Evidence: [Minecraft decomposition](../games/m-r/minecraft.md) and
-  [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
+  [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md), and
+  [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md),
+  and [Valheim decomposition](../games/s-z/valheim.md).
 - Novelty: not assessed.
 
 ## INF-076 — A thrown locator reveals a temporary bearing to a hidden target
@@ -2199,7 +2214,13 @@
   [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md) and
   [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md), and
   [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md), and
-  [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
+  [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md), and
+  [War Thunder decomposition](../games/s-z/war-thunder.md), and
+  [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md).
+- Additional support: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md),
+  for local Infected silhouettes, vocalisations, movement and attack sounds.
+- Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
+  for local hostile sight, spatial audio and combat effects.
 - Novelty: not assessed.
 
 ## INF-116 — Live team, score and shared-objective state are visible
@@ -2227,7 +2248,13 @@
   [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md) and
   [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md),
   [Football Manager 26 decomposition](../games/a-f/football-manager-26.md), and
-  [Rocket League decomposition](../games/m-r/rocket-league.md).
+  [Rocket League decomposition](../games/m-r/rocket-league.md), and
+  [War Thunder decomposition](../games/s-z/war-thunder.md), and
+  [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md).
+- Additional support: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md),
+  for Survivor health/status frames and shared checkpoint state.
+- Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
+  for live activity score and objective/phase state.
 - Novelty: not assessed.
 
 ## INF-117 — Personal economy and purchase state are visible
@@ -2293,7 +2320,12 @@
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Evidence: [Helldivers 2 decomposition](../games/g-l/helldivers-2.md) and
   [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md) and
-  [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md).
+  [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md), and
+  [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md).
+- Additional support: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md),
+  for controlled-Survivor health, temporary health and status feedback.
+- Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
+  for Titan shield/health, fixed build and ability readiness.
 - Novelty: not assessed.
 
 ## INF-120 — Match economy, item logistics and buyback are visible
@@ -2455,22 +2487,25 @@
 - Evidence: [Rust decomposition](../games/m-r/rust.md).
 - Novelty: not assessed.
 
-## INF-131 — Building interface exposes legality, privilege and upkeep
+## INF-131 — Building interface exposes placement legality and operation state
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: placement previews and building HUD expose whether the current
-  operation is geometrically legal and authorised, while connected Tool
-  Cupboard inspection exposes charged materials and protected decay duration.
+- Definition: placement previews and building feedback expose whether the
+  current operation is geometrically legal, supported and authorised, while
+  relevant fixture feedback exposes the local conditions governing building or
+  station operation.
 - Includes: Rust placement colour, BUILDING PRIVILEGE/BLOCKED, stability and
-  TC cost per 24 hours.
+  TC cost per 24 hours; Valheim support colour, shelter/cover and covered-
+  Workbench operation feedback.
 - Excludes: hidden enemy TC inventory; future raid damage; exact remote base
   layout.
-- Parameters: preview, socket, stability, privilege, blocked reason, upkeep,
-  stored material and protected duration.
-- Evidence: [Rust decomposition](../games/m-r/rust.md).
+- Parameters: preview, socket, stability/support, shelter/cover, privilege,
+  blocked reason, station state, upkeep, stored material and protected duration.
+- Evidence: [Rust decomposition](../games/m-r/rust.md) and
+  [Valheim decomposition](../games/s-z/valheim.md).
 - Novelty: not assessed.
 
 ## INF-132 — Research and crafting dependencies are visible
@@ -2491,6 +2526,8 @@
 - Evidence: [Rust decomposition](../games/m-r/rust.md) and
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Additional support: [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md),
+  for visible crafting ingredients, prototype state and required science tier.
 - Novelty: not assessed.
 
 ## INF-128 — Ground loot and inventory compatibility are visible
@@ -2511,7 +2548,8 @@
   state, replacement and reach.
 - Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md) and
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
-  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md), and
+  [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
 - Novelty: not assessed.
 
 ## INF-129 — Survivor count and elimination feed are visible
@@ -2596,7 +2634,8 @@
   forecast of all future seasons.
 - Parameters: date, time, weather, service state, container, reserve, item age,
   crop phase, water and disease.
-- Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md).
+- Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md) and
+  [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
 - Novelty: not assessed.
 
 ## INF-137 — Raid map exposes condition, extraction and remaining time
@@ -2704,6 +2743,9 @@
 - Parameters: cue channel, attack member, rhythm, prompt visibility and assist.
 - Evidence: [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md)
   and [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
+- Additional support: [Brawlhalla decomposition](../games/a-f/brawlhalla.md),
+  for attack motion, impact effects and recovery poses that cue live dodge and
+  counterattack timing.
 - Novelty: not assessed.
 
 ## INF-143 — Build interface exposes Picto mastery and Lumina cost
@@ -2845,7 +2887,8 @@
   option, base effect, enhanced effect and selection state.
 - Evidence: [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md),
   [Apex Legends decomposition](../games/a-f/apex-legends.md) and
-  [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
+  [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md), and
+  [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md).
 - Novelty: not assessed.
 
 ## INF-151 — Match HUD exposes team, phase and live objective state
@@ -3858,6 +3901,9 @@
 - Parameters: camera framing, body pose, facing, distance, contact effect,
   airborne state, knockdown and wake-up animation.
 - Evidence: [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
+- Additional support: [Brawlhalla decomposition](../games/a-f/brawlhalla.md),
+  for two continuously framed fighters, their spacing, pose, facing, airborne
+  state and live contact trajectory.
 - Novelty: first isolated for `GAME-0172`; existing combat information genes
   expose party panels, target resources or telegraphs without making the whole
   fixed-opponent spacing state continuously visible in one shared plane.
@@ -4176,3 +4222,510 @@
 - Evidence: [Microsoft Flight Simulator 2024 decomposition](../games/m-r/microsoft-flight-simulator-2024.md).
 - Novelty: first isolated for `GAME-0180`; planning and cockpit navigation share
   a route state that informs but does not execute the manual flight.
+
+## INF-228 — Map ballot exposes candidates, modes and vote state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the pre-match interface exposes three candidate maps with their
+  game modes, the Random Map alternative and the player's current selectable
+  vote before ballot settlement.
+- Includes: current Overwatch Quick Play map-voting screen and Control label.
+- Excludes: the hidden exact random roll; future ballot candidates; external
+  map guides; hero-selection information.
+- Parameters: map, mode, new/reworked tag, side icon, random option, own vote
+  and ballot deadline.
+- Evidence: [Overwatch decomposition](../games/m-r/overwatch.md).
+- Novelty: first isolated for `GAME-0181`; the arena's mode is readable before
+  a collective, partially probabilistic commitment.
+
+## INF-229 — National focus, research and resource state are visible
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the national interface exposes the active focus, occupied and free
+  research slots, progress, prerequisite access and top-level manpower,
+  factories, fuel and political-resource state before time advances.
+- Includes: the Italian national overview during the Hearts of Iron IV tutorial.
+- Excludes: detailed equipment flow; map-local army state; hidden AI priorities.
+- Parameters: focus, slot, technology, progress, manpower, factory counts, fuel,
+  political resource, alert and tooltip.
+- Evidence: [Hearts of Iron IV decomposition](../games/g-l/hearts-of-iron-iv.md).
+- Novelty: first isolated for `GAME-0182`; several parallel national commitments
+  share one visible strategic readiness layer.
+
+## INF-230 — Construction, production and equipment flow are visible
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: inspectable industry panels expose construction priority and
+  progress, production-line allocation, resource satisfaction, efficiency,
+  output and national equipment surplus or deficit.
+- Includes: Italian civilian construction, military production and logistics
+  equipment views in the tutorial.
+- Excludes: rail/hub supply reach; one division's combat bubble; external build
+  guides.
+- Parameters: project, factories, progress, line, equipment, resource, shortage,
+  efficiency, daily output, stockpile and deficit.
+- Evidence: [Hearts of Iron IV decomposition](../games/g-l/hearts-of-iron-iv.md).
+- Novelty: first isolated for `GAME-0182`; national projects and portfolio lines
+  expose both capacity assignment and downstream readiness consequences.
+
+## INF-231 — Strategic map exposes armies, fronts and combat state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the strategic map and army interface expose selected divisions,
+  commanders, front and offensive lines, plan assignment/readiness, province
+  control and current combat indicators.
+- Includes: northern and southern Italian armies in the Ethiopian war.
+- Excludes: current supply-network detail; exact concealed enemy composition;
+  post-war map history.
+- Parameters: division, army, commander, front, offensive line, assignment,
+  planning, execution, province control, combat bubble and tooltip.
+- Evidence: [Hearts of Iron IV decomposition](../games/g-l/hearts-of-iron-iv.md).
+- Novelty: first isolated for `GAME-0182`; hierarchical agents and player-drawn
+  persistent instruction geometry are readable in one live territorial view.
+
+## INF-232 — Supply map exposes routes, reach and deficits
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the logistics map exposes supply-capital routes, railway levels,
+  hubs, motorisation, local reach, bottlenecks, demand and undersupplied fielded
+  units before the player revises the theatre.
+- Includes: Italian East African supply diagnosis in the tutorial war.
+- Excludes: equipment production-line efficiency; hidden future sabotage;
+  ordinary terrain vision alone.
+- Parameters: capital, rail segment, level, hub, connection, motorisation,
+  transport, reach, demand, delivered amount, bottleneck and deficit.
+- Evidence: [Hearts of Iron IV decomposition](../games/g-l/hearts-of-iron-iv.md).
+- Novelty: first isolated for `GAME-0182`; a multi-stage strategic delivery
+  network is inspectable from national origin to local field penalty.
+
+## INF-233 — Air-region interface exposes coverage and mission state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the air interface exposes wing composition, base, assigned region,
+  range/coverage, enabled missions, efficiency, fuel-relevant readiness and
+  current regional air result.
+- Includes: Italian fighters and close air support assigned over Ethiopia.
+- Excludes: directly piloted cockpit instruments; aircraft production output;
+  hidden future enemy transfers.
+- Parameters: wing, aircraft, base, region, range, coverage, mission, efficiency,
+  fuel state, opposition and result.
+- Evidence: [Hearts of Iron IV decomposition](../games/g-l/hearts-of-iron-iv.md).
+- Novelty: first isolated for `GAME-0182`; a scheduled regional agent pool shows
+  spatial eligibility and cross-system contribution without individual routing.
+
+## INF-234 — War interface exposes surrender and settlement progress
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: map and war interfaces expose controlled victory points, country
+  surrender progress, capitulation state and the immediate settlement that
+  determines whether the bounded war has concluded.
+- Includes: Ethiopian surrender and war conclusion in the official tutorial.
+- Excludes: occupation resistance after annexation; hidden AI willingness;
+  platform achievements.
+- Parameters: participant, control, victory point, surrender limit, progress,
+  capitulation, war status, settlement and outcome.
+- Evidence: [Hearts of Iron IV decomposition](../games/g-l/hearts-of-iron-iv.md).
+- Novelty: first isolated for `GAME-0182`; distributed territorial state is
+  visibly aggregated into a country-level terminal meter and settlement.
+
+## INF-235 — Live stage view exposes nearby threats, pickups and weapon effects
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the playfield exposes the avatar, currently rendered enemies,
+  boss chests, experience gems, stage items and active weapon effects within the
+  camera region so movement can respond to local openings and hazards.
+- Includes: normal Mad Forest play in Vampire Survivors.
+- Excludes: exact off-screen enemy count; a complete future wave schedule;
+  account collection menus.
+- Parameters: camera region, avatar, enemy, pickup, chest, stage item, effect,
+  damage feedback and occlusion.
+- Evidence: [Vampire Survivors decomposition](../games/s-z/vampire-survivors.md).
+- Novelty: first isolated for `GAME-0183`; local spatial legibility is central
+  even though attacks execute without aim or fire commands.
+
+## INF-236 — Survival HUD exposes clock, level and run-build progression
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the stage interface exposes the current survival clock, kill
+  count, level and experience progress together with the retained weapon and
+  passive-item build and any item levels available for inspection.
+- Includes: the Vampire Survivors Mad Forest HUD and paused level-up/build views.
+- Excludes: exact future level-up offers; concealed later waves; persistent
+  collection unlocks outside the current run.
+- Parameters: clock, kills, level, experience bar, health, weapon, passive,
+  item level, pause screen and result.
+- Evidence: [Vampire Survivors decomposition](../games/s-z/vampire-survivors.md).
+- Novelty: first isolated for `GAME-0183`; one compact display joins fixed-time
+  survival progress with a repeatedly drafted automatic-combat build.
+
+## INF-237 — Arcade markers and aim aid expose a provisional firing solution
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the Ground Arcade interface marks currently spotted enemy
+  vehicles on the world view and minimap with identity and distance, predicts
+  the shot's approximate impact point and colours the aimed armour location by
+  estimated penetration chance without revealing a guaranteed outcome.
+- Includes: visible ground-target markers and red, yellow or green penetration
+  assistance in the scoped War Thunder match.
+- Excludes: omniscient tracking of every enemy; the Realistic or Simulator
+  interface; exact future dispersion, ricochet or internal damage.
+- Parameters: spotting source, target, marker, minimap, identity, distance,
+  predicted impact, armour point, penetration colour and uncertainty.
+- Evidence: [War Thunder decomposition](../games/s-z/war-thunder.md).
+- Novelty: first isolated for `GAME-0184`; shared detection and a local armour
+  forecast jointly inform a shot while the true ballistic resolution remains
+  partly hidden.
+
+## INF-238 — Vehicle HUD exposes ammunition, reload and internal damage state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the live ground-vehicle interface exposes the selected weapon and
+  ammunition, current reload readiness and a damage panel for the active crew
+  and functional modules so the player can adapt movement and firing authority.
+- Includes: current ammunition/reload and crew, engine, gun or aiming damage in
+  the scoped War Thunder Ground Arcade vehicle.
+- Excludes: hidden opponent internals before a hit; hangar modification research;
+  post-match economy and repair cost.
+- Parameters: weapon, ammunition type, remaining rounds, reload, crew roles,
+  module states, impairment, repair state and vehicle-loss warning.
+- Evidence: [War Thunder decomposition](../games/s-z/war-thunder.md).
+- Novelty: first isolated for `GAME-0184`; one directly controlled vehicle's
+  combat authority is legible as several independently damaged internal parts
+  rather than a single health meter.
+
+## INF-239 — Card interface exposes hand, public zones and current rule objects
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the interface exposes the player's hand, both life totals,
+  battlefield permanents, graveyards, current phase, priority prompts and the
+  ordered stack, while card inspection reveals the full current rules text of
+  visible objects and Arena highlights currently legal interactions.
+- Includes: the scoped MTG Arena Arcane Aerialists match, including visible mana
+  sources, attackers, blockers, targets and response stops.
+- Excludes: opponent hand identities; concealed library order; unpublished
+  matchmaking or opening-hand probabilities; collection and rank panels.
+- Parameters: hand, life, battlefield, graveyard, exile, stack, phase, priority,
+  card text, legal highlight and mana preview.
+- Evidence: [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
+- Novelty: first isolated for `GAME-0185`; one digital rules interface exposes
+  both public card zones and the currently unresolved rule queue without
+  revealing the opponent's private resources.
+
+## INF-240 — Survival HUD exposes sanity, thermal, light and partner danger
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the live interface and world feedback expose personal health, hunger and sanity, current clock and season, thermal and darkness warnings, carried survival state and the nearby partner's embodied, injured or ghost condition.
+- Includes: status icons, gain/loss arrows, screen and audio distortion, freezing warning, clock segments and visible partner ghost in scoped Don't Starve Together.
+- Excludes: exact future weather or spawn outcomes; remote omniscient partner inventory; hidden world-generation seed.
+- Parameters: health, hunger, sanity, temperature warning, light warning, clock, season, inventory, partner position, partner life state and ghost aura.
+- Evidence: [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
+- Novelty: first isolated for `GAME-0186`; personal survival pressures and asymmetric cooperative life state are exposed together while future ecology remains uncertain.
+
+## INF-241 — Personal explored map retains discovered procedural geography
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: each survivor's map records only geography, biomes, paths and marked fixtures discovered through that survivor's exploration and retains those observations for later route and rendezvous decisions.
+- Includes: locating the Florid Postern, resources and the shared camp in the scoped generated Forest world.
+- Excludes: revealing undiscovered terrain; a shared omniscient team map; caves or remote shards; exact future resource return.
+- Parameters: survivor, explored region, terrain, biome, road, icon, fixture, camp, map view and retained observation.
+- Evidence: [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
+- Novelty: first isolated for `GAME-0186`; cooperative routing begins from separately accumulated partial maps of one shared generated world.
+
+## INF-242 — Duty HUD exposes party, enmity, casts and local danger
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the live duty interface exposes party members and their health or
+  statuses, the controlled player's relative enmity, selected-target health and
+  cast progress, and authored local cues for imminent affected ground.
+- Includes: the Sastasha Duty Support party list, enmity indicators, target cast
+  bar, visible boss windups and affected-ground markers.
+- Excludes: exact hidden enemy controller state; undisclosed future reward
+  rolls; a complete walkthrough shown in the HUD; offscreen optional rooms.
+- Parameters: party member, role, health, status, enmity rank, target, target
+  health, cast, progress, ground region, cue channel and resolution time.
+- Evidence: [FINAL FANTASY XIV Online decomposition](../games/a-f/final-fantasy-xiv-online.md).
+- Novelty: first isolated for `GAME-0188`; one party-combat display connects
+  ally survival, threat authority and spatially avoidable hostile timing.
+
+## INF-243 — Lock motion and resistance expose angular proximity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during a lock attempt, pick pose, cylinder travel, resistance and
+  break feedback disclose whether the current angle is nearer the concealed
+  opening interval without revealing its exact value in advance.
+- Includes: visual, motion and sound feedback from the scoped novice Helgen
+  prison-cell lock in Skyrim Special Edition.
+- Excludes: displaying the exact sweet-spot angle; a carried key label; a binary
+  success/failure result with no intermediate feedback.
+- Parameters: pick pose, cylinder travel, resistance, sound, vibration,
+  break event, inferred direction and hidden interval.
+- Evidence: [The Elder Scrolls V: Skyrim Special Edition decomposition](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md).
+- Novelty: first isolated for `GAME-0190`; a consumable analog probe reveals
+  graded proximity through the same motion that risks destroying it.
+
+## INF-244 — Campaign view exposes army, settlement and quest state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the strategic interface exposes the selected army's route and
+  remaining movement, known terrain and settlements, treasury, owned building
+  slots and timers, current mission instruction and the next revealed marker.
+- Includes: the Kislev Refuge-to-Beacon segment of Total War: WARHAMMER III's
+  scoped The Lost God prologue.
+- Excludes: exact hidden hostile positions beyond current vision; battle-unit
+  morale; an external walkthrough.
+- Parameters: army, route, movement, map, fog, settlement, building, timer,
+  treasury, mission, marker and known encounter.
+- Evidence: [Total War: WARHAMMER III decomposition](../games/s-z/total-war-warhammer-iii.md).
+- Novelty: first isolated for `GAME-0191`; one strategic display joins a
+  persistent army allowance, slot-bound settlement queue and authored tutorial
+  route before the battle instance exists.
+
+## INF-245 — Battle view exposes formations, combat and morale
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the battle interface and world cues expose controlled unit
+  positions, facing and formation, health or model loss, current orders,
+  engagement, leadership and routing state, plus visible terrain and hostiles.
+- Includes: deployment and live combat information in the first scoped Beacon
+  battle of Total War: WARHAMMER III.
+- Excludes: hidden enemy reserves; exact future damage; campaign treasury or
+  construction state; post-battle statistics alone.
+- Parameters: unit card, formation, facing, health, model count, order, target,
+  terrain, leadership, routing, visibility and battle result.
+- Evidence: [Total War: WARHAMMER III decomposition](../games/s-z/total-war-warhammer-iii.md).
+- Novelty: first isolated for `GAME-0191`; regiment geometry and loss-sensitive
+  morale remain decision-visible within one live command layer.
+
+## INF-246 — Cooperative cues expose teammate danger and imminent pressure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: teammate outlines, automatic character vocalisations and
+  distinctive hostile or adaptive music cues disclose current separation,
+  incapacitation, capture, nearby threat identity and short-term encounter
+  pressure without revealing the exact future population or route sample.
+- Includes: Left 4 Dead 2 Survivor silhouettes and calls for Special Infected,
+  incoming mobs, friendly fire and short-term route goals, plus distinctive
+  Special/Boss or panic music in the scoped Hotel chapter.
+- Excludes: omniscient enemy positions; a complete next-wave roster; manual
+  human voice chat; a static external walkthrough.
+- Parameters: teammate, outline state, vocalisation, hostile cue, music layer,
+  event class, direction, urgency, visibility exception and hidden future.
+- Evidence: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md).
+- Novelty: first isolated for `GAME-0192`; multiple diegetic and overlay channels
+  jointly reveal cooperative rescue urgency while the Director's next exact
+  population remains concealed.
+
+## INF-247 — Ops interfaces expose projected and settled reward grade
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the activity interface exposes selected difficulty and projected
+  grade before launch, then reports completion score, eligible time
+  contribution, final grade, mapped reward tier and chest admission after the
+  terminal objective.
+- Includes: the scoped Normal Devil's Lair Fireteam Op projecting and settling
+  `B` / Tier 1 under current Update 9.7 rules.
+- Excludes: hidden future reward item identity; account Power progression; a
+  live objective marker without post-activity evaluation; external telemetry.
+- Parameters: activity, difficulty, modifiers, projected grade, score, time
+  contribution, final grade, reward tier, chest and display timing.
+- Evidence: [Destiny 2 decomposition](../games/a-f/destiny-2.md).
+- Novelty: first isolated for `GAME-0193`; one interface carries a selectable
+  Ops difficulty through a score calculation into a grade-labelled reward
+  terminal rather than merely showing a live score or generic results screen.
+
+## INF-248 — Campaign interface exposes persistent party readiness
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the campaign map, party and settlement interfaces expose the
+  party's route or position, movement speed, denars, food, recruit offers,
+  roster, wounded health, carried equipment and current tutorial objective
+  before the player commits travel, time, hiring or purchase.
+- Includes: Tevea, the three marked raiders and Radagos-hideout preparation in
+  scoped Mount & Blade II: Bannerlord Campaign.
+- Excludes: exact hidden enemy composition; future loot; kingdom-wide economy;
+  battle formation state after an encounter loads.
+- Parameters: party, position, route, speed, denars, food, recruit offer,
+  roster, health, inventory, settlement and quest objective.
+- Evidence: [Mount & Blade II: Bannerlord decomposition](../games/m-r/mount-and-blade-ii-bannerlord.md).
+- Novelty: first isolated for `GAME-0194`; one campaign surface joins a mobile
+  recruit roster and provisions to authored contact readiness.
+
+## INF-249 — Battle interface exposes avatar and troop-command state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the live battle interface and world cues expose avatar health and
+  equipment, selected troop group, formation, issued order, living/casualty
+  state, visible hostiles and incoming attack direction before the next direct
+  or group command.
+- Includes: the three tutorial raider battles and Radagos hideout in scoped
+  Mount & Blade II: Bannerlord Campaign.
+- Excludes: campaign denars and food; concealed hostiles without an eligible
+  cue; post-battle loot identity; exact future AI decisions.
+- Parameters: avatar, health, equipment, mount state, troop group, formation,
+  order, living count, casualty, hostile, attack cue and direction.
+- Evidence: [Mount & Blade II: Bannerlord decomposition](../games/m-r/mount-and-blade-ii-bannerlord.md).
+- Novelty: first isolated for `GAME-0194`; one player simultaneously reads an
+  embodied fighter and a recruited formation under the same live authority.
+
+## INF-250 — Vehicle form and response expose distributed physical damage
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: visible body deformation, broken or detached parts, tyre state
+  and changed steering, suspension or traction response expose the current
+  distributed condition of a soft-body vehicle during live control.
+- Includes: damage feedback from contact in scoped BeamNG.drive Road Master.
+- Excludes: one abstract vehicle-health bar; purely decorative dirt; hidden
+  future beam failure; a post-combat internal-module diagram.
+- Parameters: visible shape, part attachment, tyre, suspension, steering pull,
+  traction response, contact history and camera.
+- Evidence: [BeamNG.drive decomposition](../games/a-f/beamng-drive.md).
+- Novelty: first isolated for `GAME-0195`; earlier vehicle information exposes
+  aggregate damage widgets or combat modules rather than world-visible
+  distributed form plus the resulting control response.
+
+## INF-251 — Time Trial result exposes elapsed time and retained entry
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a valid Time Trial finish, the end transition exposes the
+  completed elapsed time and its place in the mission's retained result or
+  high-score state separately from the live checkpoint HUD.
+- Includes: the scoped BeamNG.drive Road Master completed-time result.
+- Excludes: live elapsed time before finish; Festival progress and reward
+  inventory; hidden online ranking; an unfinished attempt.
+- Parameters: mission, elapsed time, retained entry, comparison value, display
+  timing and retry/continue choice.
+- Evidence: [BeamNG.drive decomposition](../games/a-f/beamng-drive.md).
+- Novelty: first isolated for `GAME-0195`; existing driving result information
+  is coupled to Festival rewards, while this record is a standalone retained
+  timed evaluation.
+
+## INF-252 — Field and machine views expose productive treatment state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: context, map and vehicle interfaces expose the current field
+  owner, crop and growth, fertilized/treatment state, coupled tool controls,
+  remaining compatible fill and working-width cues needed to plan productive
+  passes.
+- Includes: the scoped Farming Simulator 25 field-information, soil-composition
+  map layer, Help Window, attachable-object and fill-level displays.
+- Excludes: concealed future growth; exact untreated cells below the exposed
+  layer; post-contract money settlement; a generic quest checklist with no
+  machine or surface state.
+- Parameters: owner, crop, growth, treatment percentage, yield state, map layer,
+  vehicle, implement, attachment, activation, fill and working width.
+- Evidence: [Farming Simulator 25 decomposition](../games/a-f/farming-simulator-25.md).
+- Novelty: first isolated for `GAME-0196`; one interface boundary joins a
+  persistent productive surface to the moving powered tool that can change it.
+
+## INF-253 — Contract views expose borrowed field-job progress and settlement
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: before acceptance and through completion, contract interfaces
+  expose the selected task, farmer, assigned field, promised reward,
+  borrowed-item choice or deduction, accepted progress and final collectable
+  state needed to decide whether and when to settle.
+- Includes: the scoped Farming Simulator 25 Fertilizing offer and completed
+  contract state.
+- Excludes: generic farm balance without task attribution; undisclosed future
+  offers; field treatment visible only in the world; post-settlement spending.
+- Parameters: task, farmer, field, reward, borrowing fee, supplied items,
+  progress, threshold, completed state, collect action and net result.
+- Evidence: [Farming Simulator 25 decomposition](../games/a-f/farming-simulator-25.md).
+- Novelty: first isolated for `GAME-0196`; one view carries a temporary machine
+  fleet and surface-coverage contract through explicit net-money collection.
+
+## INF-254 — Platform-duel HUD exposes damage, stocks, weapon and clock
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: one live platform-fighter interface exposes each participant's
+  damage colour and remaining stock together with current weapon/unarmed cues,
+  off-screen direction when applicable and the shared match clock.
+- Includes: the scoped Brawlhalla Bödvar mirror Stock HUD and world cues.
+- Excludes: hidden exact frame values; ranked rating; account experience and
+  missions; a vitality/Drive/Super round HUD; post-match cosmetic rewards.
+- Parameters: participants, damage colour, stocks, weapon/unarmed state,
+  off-screen indicator, clock, knockout notice and result transition.
+- Evidence: [Brawlhalla decomposition](../games/a-f/brawlhalla.md).
+- Novelty: first isolated for `GAME-0198`; damage is visible as launch risk
+  rather than remaining health and is paired directly with recoverable stock.

@@ -1981,3 +1981,334 @@
 - Evidence: [Microsoft Flight Simulator 2024 decomposition](../games/m-r/microsoft-flight-simulator-2024.md).
 - Novelty: first isolated for `GAME-0180`; the terminal validates a complete
   manual aviation systems cycle through an explicit non-competitive record.
+
+## OBJ-105 — Win two Control rounds before the opposing team
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: in one ordinary Quick Play Control match, earn two round wins by
+  taking and holding each active neutral point to its legal percentage terminal
+  before the opposing team earns two rounds.
+- Includes: the scoped Overwatch 5v5 Role Queue Control result on Busan.
+- Excludes: maximising eliminations, damage or healing; Competitive rating;
+  winning one submap; Escort, Hybrid, Push, Flashpoint or Clash.
+- Parameters: teams, submaps, point ownership, round percentages, overtime,
+  round wins, clinch threshold and match result.
+- Evidence: [Overwatch decomposition](../games/m-r/overwatch.md).
+- Novelty: first isolated for `GAME-0181`; two retained round wins are built
+  from separate symmetric point-percentage races.
+
+## OBJ-106 — Conclude the Ethiopian war through capitulation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: as tutorial Italy, coordinate national preparation and the live
+  land-air campaign until Ethiopian territorial loss crosses its surrender
+  threshold and the immediate war settlement concludes the bounded conflict.
+- Includes: the official Hearts of Iron IV Italy tutorial from its first
+  controllable 1936 frame through Ethiopian capitulation.
+- Excludes: continuing the Italian save after settlement; world conquest;
+  winning one battle without country surrender.
+- Parameters: country, opponent, tutorial start, national preparation, fronts,
+  victory-point control, surrender threshold, capitulation and settlement.
+- Evidence: [Hearts of Iron IV decomposition](../games/g-l/hearts-of-iron-iv.md).
+- Novelty: first isolated for `GAME-0182`; a country terminal emerges from
+  coupled national allocation, logistics and distributed territorial control.
+
+## OBJ-107 — Survive normal Mad Forest until its thirty-minute completion
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: keep the selected character alive through the normal Mad Forest
+  wave schedule until the stage clock reaches `30:00` and completion is awarded,
+  regardless of the expected Reaper death that settles the completed run.
+- Includes: fresh-save solo Antonio in base-game normal Mad Forest.
+- Excludes: killing the Reaper; Endless mode; maximising gold, kills or level;
+  completing later unlock chains or Adventures.
+- Parameters: character, stage, mode, entry clock, health, time limit,
+  completion flag, Reaper and settlement.
+- Evidence: [Vampire Survivors decomposition](../games/s-z/vampire-survivors.md).
+- Novelty: first isolated for `GAME-0183`; the authored success boundary is
+  followed by a deliberate lethal system response rather than replacing it.
+
+## OBJ-108 — Exhaust the opposing Ground Domination team first
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: in one ordinary Ground Arcade Domination match, make the opposing
+  team's ticket pool reach zero or leave it with no players able to spawn ground
+  vehicles before either terminal applies to the allied team.
+- Includes: the scoped War Thunder three-point Domination result.
+- Excludes: personal kill or capture score; research and Silver Lion rewards;
+  Conquest, Battle, Air, Naval, Realistic or Simulator results.
+- Parameters: teams, tickets, three point owners, destroyed vehicles, spawnable
+  players, zero threshold, exhaustion and result.
+- Evidence: [War Thunder decomposition](../games/s-z/war-thunder.md).
+- Novelty: first isolated for `GAME-0184`; either a shared ticket resource or
+  the remaining distributed vehicle-spawn capacity can establish the same team
+  terminal.
+
+## OBJ-109 — Cause the opposing player to lose the single game first
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: win one two-player card game by making the opposing player meet a
+  legal loss condition before the controlled player does.
+- Includes: reducing the opponent to zero life, making them draw from an empty
+  library, accepting their concession or resolving an applicable card-defined
+  result in the scoped Starter Deck Duel game.
+- Excludes: winning a best-of-three match; ranked-season progress; event rewards;
+  maximising damage, creatures or collection value.
+- Parameters: players, life, library, concession, card-defined terminal,
+  simultaneous loss, draw and Arena result overlay.
+- Evidence: [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
+- Novelty: first isolated for `GAME-0185`; multiple rules-level loss predicates
+  converge on one adversarial single-game result rather than a score threshold.
+
+## OBJ-110 — Survive the first cooperative winter and enter spring together
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: keep both scoped survivors alive and controllable through default Autumn and the complete first Winter, then reach the first transition into Spring beside a viable shared warm base.
+- Includes: both Wilson survivors beside a lit Fire Pit at a shared base containing an Alchemy Engine, Crock Pot and Chest when the world clock leaves Winter after day 35.
+- Excludes: a game-authored victory claim; defeating a seasonal boss; surviving indefinitely; completing Spring, Summer, caves or a quest arc.
+- Parameters: survivors, life state, default season lengths, transition clock, Fire Pit, fuel, warm item, Alchemy Engine, Crock Pot, Chest and shared-base position.
+- Evidence: [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
+- Novelty: first isolated for `GAME-0186`; an explicit analytical terminal closes one complete cooperative preparation-and-climate cycle in an otherwise open-ended world.
+
+## OBJ-111 — Complete or deny one authored Payload route
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: resolve one asymmetric route match when attackers deliver their
+  objective cart through the terminal marker before legal time ends, or
+  defenders clear the last eligible overtime pressure before that delivery.
+- Includes: one Team Fortress 2 Casual Upward round, where BLU wins by pushing
+  the cart into checkpoint D's pit and RED wins by denying that result through
+  the final legal overtime state.
+- Excludes: personal score or eliminations as a terminal; Payload Race; an
+  escort ruleset whose vehicle first requires a separate opening-area capture;
+  post-match XP or rematch voting.
+- Parameters: attacking team, defending team, route, checkpoints, terminal,
+  clock, overtime pressure and declared result.
+- Evidence: [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md).
+- Novelty: first isolated for `GAME-0187`; the route begins with an active
+  attacker cart and closes through delivery-or-denial without an opening
+  capture phase.
+
+## OBJ-112 — Complete one Sastasha Duty Support route
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: satisfy every required authored Sastasha route gate and defeat
+  Denn the Orcatoothed before the instance limit so the game issues the
+  ordinary duty-complete result.
+- Includes: one level-synced Gladiator tank run with the preset Duty Support
+  healer and two DPS NPCs.
+- Excludes: clearing one intermediate boss; opening every optional coffer or
+  side room; Mapping the Realm; levelling or gearing after the duty; Sastasha
+  (Hard).
+- Parameters: duty, required objectives, switches, keys, bosses, final boss,
+  time limit, completion flag and unsuccessful closure.
+- Evidence: [FINAL FANTASY XIV Online decomposition](../games/a-f/final-fantasy-xiv-online.md).
+- Novelty: first isolated for `GAME-0188`; a fixed autonomous-role party must
+  convert clue, key and combat dependencies into one instanced MMO terminal.
+
+## OBJ-113 — Escape one authored captivity tutorial into retained open-world control
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete the mandatory character gate, survive the scripted
+  disaster and satisfy one declared escort branch's equipment, combat,
+  interaction and traversal gates until the opening quest completes and the
+  persistent character first gains controllable exterior-world state.
+- Includes: one fresh Skyrim Special Edition `Unbound` (`MQ101`) escape through
+  the Hadvar branch to first retained control outside the Helgen cave with
+  `Before the Storm` active.
+- Excludes: merely entering Helgen Keep; defeating one interior hostile; reaching
+  Riverwood; completing a later main quest or the open-world campaign.
+- Parameters: character confirmation, disaster, escort branch, required gates,
+  opening quest, cave exit, successor quest and retained exterior control.
+- Evidence: [The Elder Scrolls V: Skyrim Special Edition decomposition](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md).
+- Novelty: first isolated for `GAME-0190`; mandatory identity, one exclusive
+  escort path and a tutorial dungeon settle directly into an open-world save.
+
+## OBJ-114 — Complete the first Beacon rescue and regain campaign control
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: follow the declared early prologue campaign gates to the Beacon,
+  manually win its first required battle and allow the Rescue mission to settle
+  into the first retained campaign-control or recruitment instruction state.
+- Includes: one fresh The Lost God run as Prince Yuri's Kislev Expedition in
+  the scoped Total War: WARHAMMER III ruleset.
+- Excludes: completing the whole prologue; later Dervingard or Chaos-realm
+  missions; one custom battle; autoresolve; continuing recruitment after the
+  first returned campaign state.
+- Parameters: campaign entry, refuge, building instruction, route, Beacon,
+  battle, enemy rout, mission completion and retained return state.
+- Evidence: [Total War: WARHAMMER III decomposition](../games/s-z/total-war-warhammer-iii.md).
+- Novelty: first isolated for `GAME-0191`; an authored tutorial terminal
+  requires a turn-based strategic prelude, a manually resolved live battle and
+  the resulting return to persistent campaign authority.
+
+## OBJ-115 — Seal The Hotel exit checkpoint with every living Survivor
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: traverse the authored Hotel chapter and bring every currently
+  living Survivor into its ground-floor exit checkpoint, then close the door so
+  the game issues the ordinary chapter-complete transition.
+- Includes: one Normal Single Player Dead Center / The Hotel run controlling
+  Coach with Rochelle, Ellis and Nick stock bots.
+- Excludes: reaching the elevator; surviving one mob; entering the safe room
+  alone; completing the remaining Dead Center campaign; a finale evacuation.
+- Parameters: chapter, controlled Survivor, living roster, route gates, panic
+  event, checkpoint, occupancy, door closure, completion and next chapter.
+- Evidence: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md).
+- Novelty: first isolated for `GAME-0192`; a variable Director-populated route
+  closes through collective living occupancy and a physical seal rather than a
+  kill quota or extraction vehicle.
+
+## OBJ-116 — Complete one solo Normal Devil's Lair Fireteam Op
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: clear the authored mesh-defence and Walker gates, defeat Sepiks
+  Prime and reach ordinary activity-complete plus end-chest state in one
+  direct-launched solo Normal Fireteam Op.
+- Includes: current Destiny 2 `The Devil's Lair: Customize`, one player, Normal,
+  no player-selected modifiers and the fixed Titan/loadout packet.
+- Excludes: stopping after the mesh or Walker; maximising grade; matchmaking;
+  completing another Op; repeating the chest for account progression.
+- Parameters: activity hash, participant count, difficulty, modifier set,
+  loadout, ordered gates, final boss, completion flag, grade and chest.
+- Evidence: [Destiny 2 decomposition](../games/a-f/destiny-2.md).
+- Novelty: first isolated for `GAME-0193`; one live-service shooter terminal
+  joins a fixed legacy strike route to current Ops scoring and reward state
+  without extraction, campaign completion or human-party dependence.
+
+## OBJ-117 — Defeat Radagos and establish the first campaign clan identity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: satisfy the opening Campaign tutorial's recruitment, raider and
+  hideout gates, defeat Radagos through the declared troops-assisted choice,
+  confirm family name, banner and colours and regain retained campaign-map
+  authority with the tutorial closed.
+- Includes: one fresh stable v1.4.8 Mount & Blade II: Bannerlord Campaign from
+  character packet through the first Radagos hideout and clan identity gate.
+- Excludes: merely finding the hideout; the optional solo duel; Rebuild Your
+  Clan, Rescue Your Family or any later kingdom/campaign objective; Sandbox.
+- Parameters: character packet, recruits, grain, raider parties, hideout,
+  Radagos response, victory state, family name, banner, colours and returned
+  campaign control.
+- Evidence: [Mount & Blade II: Bannerlord decomposition](../games/m-r/mount-and-blade-ii-bannerlord.md).
+- Novelty: first isolated for `GAME-0194`; repeated campaign contacts and one
+  commanded hideout battle settle through a clan-identity gate rather than at
+  the battle result alone.
+
+## OBJ-118 — Complete Road Master and retain one valid elapsed time
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: drive the supplied Ardente 310M through every authored Road
+  Master checkpoint in order, cross the valid final gate and reach the mission
+  result with one retained elapsed Time Trial entry.
+- Includes: one current v0.39.4 unmodded stock Road Master completion.
+- Excludes: merely reaching a later gate after missing its predecessor;
+  completing another Time Trial; maximising leaderboard rank; Free Roam,
+  Career or repeated time optimisation.
+- Parameters: mission, supplied vehicle, route, checkpoint order, final gate,
+  elapsed time, retained entry and non-completion/retry boundary.
+- Evidence: [BeamNG.drive decomposition](../games/a-f/beamng-drive.md).
+- Novelty: first isolated for `GAME-0195`; the bounded positive terminal is a
+  standalone supplied-car soft-body route evaluation rather than a rival win,
+  delivery settlement, logged flight or campaign unlock.
+
+## OBJ-119 — Complete and collect one borrowed-equipment field contract
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: accept one field-work offer with employer machinery, manually
+  transform enough of its assigned field into the required accepted state and
+  collect the completed contract so its net payment closes the job.
+- Includes: one scoped Farming Simulator 25 Riverbend Springs Fertilizing
+  contract using `Borrow Items`.
+- Excludes: operating an open-ended farm; finishing only one strip; maximising
+  yield across a crop season; a cargo delivery; repeating contracts or spending
+  the resulting balance.
+- Parameters: contract type, field, supplied fleet, required treatment,
+  coverage threshold, gross reward, borrowing deduction, collection and net
+  account credit.
+- Evidence: [Farming Simulator 25 decomposition](../games/a-f/farming-simulator-25.md).
+- Novelty: first isolated for `GAME-0196`; one temporary productive vehicle-tool
+  system must change a persistent surface before explicit economic settlement.
+
+## OBJ-120 — Mount Eikthyr's trophy and unlock the first Forsaken Power
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: reveal and reach Eikthyr's altar, summon and defeat Eikthyr,
+  recover its guaranteed trophy and mount it on the matching Sacrificial Stone
+  so the first Forsaken Power becomes available.
+- Includes: one current Valheim 0.221.12 solo Normal seed from spawn control to
+  mounted Eikthyr Trophy and available power.
+- Excludes: boss defeat without mounting; merely collecting Hard Antlers;
+  activating the power after unlock; Black Forest or later Forsaken progress.
+- Parameters: world seed, wayfinder, altar, offering, boss, guaranteed trophy,
+  sacrificial stone, mounted state and power availability.
+- Evidence: [Valheim decomposition](../games/s-z/valheim.md).
+- Novelty: first isolated for `GAME-0197`; the boss result remains incomplete
+  until its carried trophy settles at a separate matching progression fixture.
+
+## OBJ-121 — Be the last fixed participant with a remaining stock
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: in one fixed two-participant Stock match, cause the opposing
+  fighter to lose every personal stock before the selected side does and reach
+  the resulting winner/loser state.
+- Includes: the human Bödvar objective against the Easy CPU Bödvar in the
+  scoped Brawlhalla match.
+- Excludes: first-to-two health-bar rounds; maximising timed score; team-shared
+  lives; winning a tournament set, rank or account reward.
+- Parameters: selected side, opponent, starting stocks, knockout condition,
+  remaining stocks, clock boundary, winner and result state.
+- Evidence: [Brawlhalla decomposition](../games/a-f/brawlhalla.md).
+- Novelty: first isolated for `GAME-0198`; repeated same-arena returns consume
+  the exact resource whose final exhaustion directly settles the duel.

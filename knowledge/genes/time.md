@@ -260,8 +260,19 @@
   [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md),
   [Football Manager 26 decomposition](../games/a-f/football-manager-26.md), and
   [Rocket League decomposition](../games/m-r/rocket-league.md), and
-  [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
+  [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md), and
+  [War Thunder decomposition](../games/s-z/war-thunder.md).
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Additional support: [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md),
+  for simultaneous two-player input while survival, fuel, clock and ecology advance.
+- Additional support: [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md),
+  for simultaneous team input while combat, cart, respawn waves and clock advance.
+- Additional support: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md),
+  for simultaneous Survivor, bot, Infected, channel and Director evolution.
+- Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
+  for simultaneous Guardian, hostile, projectile, objective and readiness evolution.
+- Additional support: [Brawlhalla decomposition](../games/a-f/brawlhalla.md),
+  for simultaneous fighter, weapon, damage, recovery and match-clock evolution.
 - Novelty: not assessed.
 
 ## TIM-004 — Alternating adversarial turns
@@ -568,3 +579,22 @@
 - Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
 - Novelty: first isolated for `GAME-0166`; earlier turn genes bound one action,
   one phase or simultaneous commitment rather than a whole empire command set.
+
+## TIM-019 — Alternate active turns with nested priority windows
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: players alternate which one owns the active turn, but both may
+  act inside that turn whenever the rules grant them priority; consecutive
+  passes resolve one stack object or advance the current phase or step.
+- Includes: the scoped two-player MTG Arena game with main-phase actions,
+  combat declarations and instant-speed responses on either player's turn.
+- Excludes: one-action alternating turns; simultaneous hidden orders; one
+  player planning before an autonomous hostile phase; unrestricted real time.
+- Parameters: active player, turn order, phase, step, priority holder, response
+  window, consecutive passes, stack settlement and next turn.
+- Evidence: [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
+- Novelty: first isolated for `GAME-0185`; turn ownership and immediate action
+  authority are separate clocks joined by repeated response windows.

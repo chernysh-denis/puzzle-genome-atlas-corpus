@@ -212,6 +212,16 @@
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Additional support: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md),
   for direct room navigation.
+- Additional support: [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md),
+  for direct survivor movement through the generated Forest world.
+- Additional support: [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md),
+  for direct class movement through the authored Upward combat route.
+- Additional support: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md),
+  for direct Survivor traversal through the authored Hotel route.
+- Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
+  for direct Titan traversal through the authored Devil's Lair route.
+- Additional support: [Brawlhalla decomposition](../games/a-f/brawlhalla.md),
+  for ground, air and wall movement through one bounded fighting arena.
 - Novelty: not assessed.
 
 ## ACT-009 — Push adjacent movable object
@@ -1762,7 +1772,8 @@
 - Evidence: [The Room decomposition](../games/s-z/the-room.md),
   [Machinarium decomposition](../games/m-r/machinarium.md), and
   [The Longest Journey decomposition](../games/s-z/the-longest-journey.md), and
-  [Blue Prince decomposition](../games/a-f/blue-prince.md).
+  [Blue Prince decomposition](../games/a-f/blue-prince.md), and
+  [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
 - Novelty: not assessed.
 
 ## ACT-088 — Reconfigure articulated avatar reach
@@ -2380,7 +2391,8 @@
   plan without supplying its entities.
 - Parameters: entity catalogue, footprint, orientation, placement reach,
   inventory cost, fast replacement and deconstruction return.
-- Evidence: [Factorio decomposition](../games/a-f/factorio.md).
+- Evidence: [Factorio decomposition](../games/a-f/factorio.md) and
+  [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
 - Novelty: not assessed.
 
 ## ACT-120 — Configure local factory-entity operating rule
@@ -2449,7 +2461,7 @@
 - Includes: Factorio and Cyberpunk 2077 personal crafting, Monster Hunter Wilds field crafting and Terraria inventory or nearby-station crafting.
 - Excludes: assigning a recipe to an autonomous production entity; arbitrary object combination; research selection; system-owned resolution duration.
 - Parameters: recipe, quantity, ingredient source, station context, immediate or queued resolution and output.
-- Evidence: [Factorio decomposition](../games/a-f/factorio.md), [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md) and [Terraria decomposition](../games/s-z/terraria.md).
+- Evidence: [Factorio decomposition](../games/a-f/factorio.md), [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md), [Terraria decomposition](../games/s-z/terraria.md) and [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
 - Novelty: not assessed.
 
 ## ACT-124 — Stamp reusable construction or deconstruction plan
@@ -3119,6 +3131,16 @@
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Additional support: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md),
   for directly aimed tear shots.
+- Additional support: [War Thunder decomposition](../games/s-z/war-thunder.md),
+  for direct ground-vehicle gun aiming and fire.
+- Additional support: [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md),
+  for directly commanded melee attacks against Forest hostiles.
+- Additional support: [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md),
+  for directly aimed stock-weapon attacks against opposing classes.
+- Additional support: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md),
+  for aimed firearm/melee attacks and the close-range shove.
+- Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
+  for directly aimed firearm, melee and boss attacks.
 - Novelty: not assessed.
 
 ## ACT-162 — Place a held tile into a reachable world cell
@@ -3172,6 +3194,14 @@
   [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md), and
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Additional support: [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md),
+  for selecting carried tools, food and fuel from inventory slots.
+- Additional support: [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md),
+  for switching among the selected class's carried stock weapon slots.
+- Additional support: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md),
+  for switching among weapon, throwable and medical slots.
+- Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
+  for switching among the first, second and Power weapon slots.
 - Novelty: not assessed.
 
 ## ACT-165 — Consume held food to restore hunger
@@ -3186,7 +3216,8 @@
 - Excludes: using a healing potion; automatically feeding an autonomous agent;
   crafting a food item.
 - Parameters: food, use duration, hunger, saturation and status effects.
-- Evidence: [Minecraft decomposition](../games/m-r/minecraft.md).
+- Evidence: [Minecraft decomposition](../games/m-r/minecraft.md) and
+  [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
 - Novelty: not assessed.
 
 ## ACT-166 — Configure a workplace's active shift and unlocked ability
@@ -3492,7 +3523,12 @@
   weapons; firing a chambered shot.
 - Parameters: weapon, magazine, reserve, reload duration and cancellation rule.
 - Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md) and
-  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
+  [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md).
+- Additional support: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md),
+  for reloading carried firearms during the Hotel route.
+- Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
+  for reloading magazine-fed weapons during the Fireteam Op.
 - Novelty: not assessed.
 
 ## ACT-184 — Prime and throw one carried tactical grenade
@@ -3507,6 +3543,8 @@
 - Excludes: a fixed launcher shot; placing a persistent trap; ordinary firearm fire.
 - Parameters: grenade type, throw mode, aim, velocity, fuse and retained count.
 - Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
+- Additional support: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md),
+  for throwing an eligible pipe bomb, Molotov or bile jar.
 - Novelty: not assessed.
 
 ## ACT-185 — Commit a planted round-device activation or neutralisation channel
@@ -3558,7 +3596,8 @@
 - Parameters: channel, living/dead state, cue form, recipients and delay.
 - Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md)
   [Dota 2 decomposition](../games/a-f/dota-2.md), and
-  [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md).
+  [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md), and
+  [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md).
 - Novelty: not assessed.
 
 ## ACT-188 — Commit one match hero and build option
@@ -3616,7 +3655,10 @@
   [Battlefield 6 decomposition](../games/a-f/battlefield-6.md), and
   [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md), and
   [Helldivers 2 decomposition](../games/g-l/helldivers-2.md), and
-  [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
+  [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md), and
+  [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md).
+- Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
+  for fixed Titan grenade, melee, class and Super ability activations.
 - Novelty: not assessed.
 
 ## ACT-191 — Spend one character-development point
@@ -3626,10 +3668,10 @@
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: the player spends one currently available match-local or persistent character-development point on an eligible ability rank, attribute, talent or skill-tree node.
-- Includes: Dota 2 ability and talent choices; Clair Obscur, Cyberpunk 2077 and Baldur's Gate 3 build allocation; ARC Raiders skill-tree allocation.
+- Includes: Dota 2 ability and talent choices; Clair Obscur, Cyberpunk 2077 and Baldur's Gate 3 build allocation; ARC Raiders skill-tree allocation; Black Myth: Wukong Spark allocation.
 - Excludes: purchasing an item; automatic level rewards; account-wide cosmetic progression.
 - Parameters: point source, persistence horizon, tree, prerequisite, node, rank and resulting modifier.
-- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md), [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md), [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), [Baldur's Gate 3 decomposition](../games/a-f/baldurs-gate-3.md) and [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
+- Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md), [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md), [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), [Baldur's Gate 3 decomposition](../games/a-f/baldurs-gate-3.md), [ARC Raiders decomposition](../games/a-f/arc-raiders.md) and [Black Myth: Wukong decomposition](../games/a-f/black-myth-wukong.md).
 - Novelty: not assessed.
 
 ## ACT-192 — Configure a stash or courier delivery
@@ -3772,6 +3814,8 @@
   [Helldivers 2 decomposition](../games/g-l/helldivers-2.md),
   [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md) and
   [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
+- Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
+  for the bounded Titan, subclass and three-weapon activity loadout.
 - Novelty: not assessed.
 
 ## ACT-216 — Search a reachable container or disabled machine
@@ -4088,7 +4132,10 @@
 - Parameters: item, reach, stack, slot, compatibility, capacity, replacement
   disposition and auto-equip setting.
 - Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md)
-  and [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+  and [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
+  [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
+- Additional support: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md),
+  for collecting or replacing compatible weapons, ammunition and support items.
 - Novelty: not assessed.
 
 ## ACT-200 — Use one interruptible restorative consumable
@@ -4101,12 +4148,15 @@
   item and receives its declared immediate or gradual restorative effect only
   if no cancelling action interrupts the channel.
 - Includes: PUBG bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers
-  and Adrenaline Syringes.
+  and Adrenaline Syringes; Black Myth: Wukong finite Gourd sips.
 - Excludes: instant turn-based potion use; passive regeneration without an item;
   reviving another participant.
 - Parameters: item, legal health range, cast time, allowed movement, cancelling
   actions, consumed quantity, immediate health and boost-over-time.
-- Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md).
+- Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md)
+  and [Black Myth: Wukong decomposition](../games/a-f/black-myth-wukong.md).
+- Additional support: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md),
+  for self-administering first aid and temporary-health items.
 - Novelty: not assessed.
 
 ## ACT-201 — Enter and directly operate a world vehicle
@@ -4195,12 +4245,14 @@
 - Definition: during a telegraphed enemy attack, the player commits the
   currently eligible defensive response at a chosen instant inside the live
   attack sequence.
-- Includes: Clair Obscur: Expedition 33 dodge, parry and unlocked jump inputs.
+- Includes: Clair Obscur: Expedition 33 dodge, parry and unlocked jump inputs;
+  Black Myth: Wukong ordinary and Perfect Dodge timing.
 - Excludes: selecting a turn command; passive evasion chance; blocking with a
   persistent armour statistic.
 - Parameters: response type, attack member, timing window, affected character
   or party and accessibility assist.
-- Evidence: [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md).
+- Evidence: [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md)
+  and [Black Myth: Wukong decomposition](../games/a-f/black-myth-wukong.md).
 - Novelty: not assessed.
 
 ## ACT-224 — Rest at an expedition checkpoint
@@ -4212,12 +4264,14 @@
 - Definition: the player deliberately rests at an activated campaign
   checkpoint to accept its linked recovery and world-reset consequences.
 - Includes: resting at Clair Obscur: Expedition 33 Expedition Flags; resting at
-  activated Benches in Hollow Knight: Silksong.
+  activated Benches in Hollow Knight: Silksong; resting at an activated Keeper's
+  Shrine in Black Myth: Wukong.
 - Excludes: touching a checkpoint without resting; using a combat healing item;
   sleeping while an open-world simulation continues.
 - Parameters: checkpoint, refill set, revival state, respawn set and save timing.
-- Evidence: [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md)
-  and [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md).
+- Evidence: [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md),
+  [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md) and
+  [Black Myth: Wukong decomposition](../games/a-f/black-myth-wukong.md).
 - Novelty: not assessed.
 
 ## ACT-225 — Configure equipped Pictos and active Luminas
@@ -4295,15 +4349,17 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player deliberately spends the controlled protagonist's
-  ready special meter to enter that character's authored temporary combat or
-  driving modifier.
+- Definition: the player deliberately commits the controlled protagonist's
+  ready special resource to enter that character's authored temporary combat
+  form or driving modifier.
 - Includes: Michael's shooting focus, Franklin's driving focus and Trevor's
-  rage ability in Grand Theft Auto V Story Mode.
+  rage ability in Grand Theft Auto V Story Mode; the acquired Red Tides
+  transformation in Black Myth: Wukong.
 - Excludes: passive statistics; cheat codes; GTA Online Quickplay actions.
-- Parameters: protagonist, meter, context, duration, drain, cancellation and
-  mechanical modifiers.
-- Evidence: [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md).
+- Parameters: protagonist, resource or readiness, context, form, duration,
+  drain, cancellation, moveset and mechanical modifiers.
+- Evidence: [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md)
+  and [Black Myth: Wukong decomposition](../games/a-f/black-myth-wukong.md).
 - Novelty: not assessed.
 
 ## ACT-230 — Configure a heist approach and specialist crew
@@ -4518,6 +4574,8 @@
 - Evidence: [Battlefield 6 decomposition](../games/a-f/battlefield-6.md),
   [Apex Legends decomposition](../games/a-f/apex-legends.md) and
   [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
+- Additional support: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md),
+  for reviving a reachable incapacitated Survivor before bleed-out.
 - Novelty: not assessed.
 
 ## ACT-242 — Configure a Crest-bound tool loadout at a bench
@@ -4842,6 +4900,8 @@
 - Parameters: target class, reach, actor state, duration, saved or reset
   progress, co-worker count, interruption and completion effect.
 - Evidence: [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md).
+- Additional support: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md),
+  for channelled first-aid-kit use on a living teammate.
 - Novelty: not assessed.
 
 ## ACT-261 — Execute one prompted skilful timing input
@@ -5387,7 +5447,8 @@
 - Parameters: vehicle, steering, throttle, brake, handbrake, transmission,
   camera, input device and control assistance.
 - Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md) and
-  [Rocket League decomposition](../games/m-r/rocket-league.md).
+  [Rocket League decomposition](../games/m-r/rocket-league.md), and
+  [War Thunder decomposition](../games/s-z/war-thunder.md).
 - Novelty: first isolated for `GAME-0171`; `ACT-201` requires an embodied
   enter/seat/exit loop that a dedicated racing-car assignment does not expose.
 
@@ -5462,6 +5523,9 @@
 - Parameters: roster, participant, side, human or CPU authority, control type,
   costume, stage and Advantage setting.
 - Evidence: [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
+- Additional support: [Brawlhalla decomposition](../games/a-f/brawlhalla.md),
+  for assigning one fixed human fighter and one fixed CPU mirror before an
+  offline Stock duel.
 - Novelty: first isolated for `GAME-0172`; earlier hero selections bind team
   compositions, deployment kits or persistent builds rather than two sides of
   one short offline duel.
@@ -5482,6 +5546,8 @@
 - Parameters: fighter, control mapping, directional sequence, button, strength,
   attack member, cancel source, buffer, resource and facing.
 - Evidence: [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
+- Additional support: [Brawlhalla decomposition](../games/a-f/brawlhalla.md),
+  for unarmed and selected-Legend weapon commands in a platform-fighter duel.
 - Novelty: first isolated for `GAME-0172`; the corpus previously addressed
   equipped tools, cooldown abilities and queued attacks rather than a
   character-owned fighting command vocabulary.
@@ -5926,3 +5992,626 @@
 - Evidence: [Microsoft Flight Simulator 2024 decomposition](../games/m-r/microsoft-flight-simulator-2024.md).
 - Novelty: first isolated for `GAME-0180`; the same direct control authority
   spans runway contact and a continuously integrated aerodynamic flight regime.
+
+## ACT-322 — Commit one role-queue slot before matchmaking
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: before matchmaking, the player commits one offered combat role,
+  reserving only that role's team slot and character roster for the resulting
+  match.
+- Includes: ordinary Overwatch 5v5 Role Queue selection of Tank, Damage or
+  Support before entering Quick Play matchmaking.
+- Excludes: selecting a hero after the lobby forms; an open-queue preference;
+  an autonomous party role; account profile labels.
+- Parameters: queue, role, team composition, reserved slot, eligible roster and
+  cancellation boundary.
+- Evidence: [Overwatch decomposition](../games/m-r/overwatch.md).
+- Novelty: first isolated for `GAME-0181`; role authority is committed before
+  the match exists rather than assigned by a later hero pick.
+
+## ACT-323 — Vote for one offered map or random alternative
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during the pre-match ballot, the player commits one vote to an
+  exposed map candidate or the explicit random-map alternative before the
+  ruleset settles the lobby's arena.
+- Includes: Overwatch Quick Play's three visible map choices and fourth Random
+  Map option.
+- Excludes: selecting a map with unilateral authority; banning a character;
+  external survey voting; a hidden matchmaking preference.
+- Parameters: lobby, offered maps, modes, random option, vote, pass, deadline
+  and side marker.
+- Evidence: [Overwatch decomposition](../games/m-r/overwatch.md).
+- Novelty: first isolated for `GAME-0181`; the player's input changes selection
+  weight but usually does not determine the arena alone.
+
+## ACT-324 — Select one eligible National Focus
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player commits one currently eligible national-development
+  branch as the country's active focus so subsequent calendar progress accrues
+  toward its declared persistent effects.
+- Includes: choosing one base-game Italian National Focus during the scoped
+  Hearts of Iron IV tutorial war.
+- Excludes: selecting a technology in a research slot; changing a law; receiving
+  an automatic national event.
+- Parameters: country, focus tree, target, prerequisite, exclusion, duration,
+  progress, cancellation rule and completion effects.
+- Evidence: [Hearts of Iron IV decomposition](../games/g-l/hearts-of-iron-iv.md).
+- Novelty: first isolated for `GAME-0182`; one country-level authored branch
+  occupies an exclusive continuous-progress channel.
+
+## ACT-325 — Prioritise national state construction
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player places a legal state building or infrastructure target
+  into the national construction queue and sets its priority for shared civilian
+  factory work.
+- Includes: queueing or reprioritising base-game Italian construction in an
+  eligible state during the tutorial.
+- Excludes: placing an independently simulated worker; configuring an equipment
+  production line; instantly buying a finished structure.
+- Parameters: country, state, building, level, slot, queue position, priority,
+  civilian-factory allocation and cancellation.
+- Evidence: [Hearts of Iron IV decomposition](../games/g-l/hearts-of-iron-iv.md).
+- Novelty: first isolated for `GAME-0182`; national capacity is allocated through
+  one ordered cross-state work list rather than a city-local build choice.
+
+## ACT-326 — Configure a national equipment production line
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player creates or edits an unlocked equipment line and assigns
+  a chosen number of national military factories to its continuing output.
+- Includes: allocating Italian military factories to infantry equipment,
+  artillery or support aircraft in the scoped Hearts of Iron IV rules.
+- Excludes: selecting a construction project; manually crafting one item;
+  changing a division template outside the tutorial packet.
+- Parameters: equipment type, variant, factory count, priority, resources,
+  efficiency, output, retention and line replacement.
+- Evidence: [Hearts of Iron IV decomposition](../games/g-l/hearts-of-iron-iv.md).
+- Novelty: first isolated for `GAME-0182`; national factories share a persistent
+  equipment portfolio whose allocation and retained efficiency are causal.
+
+## ACT-327 — Organise divisions under an army commander
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player assigns selected divisions to one army and selects or
+  changes the commander who provides that formation's shared command authority.
+- Includes: grouping the tutorial's Italian divisions into northern and southern
+  armies under eligible generals.
+- Excludes: drawing the army's spatial plan; directly moving one division;
+  changing a division's equipment template.
+- Parameters: division set, army, theatre, commander, command limit, traits,
+  reassignment and removal.
+- Evidence: [Hearts of Iron IV decomposition](../games/g-l/hearts-of-iron-iv.md).
+- Novelty: first isolated for `GAME-0182`; many persistent strategic units are
+  explicitly collected beneath a shared command object before plan execution.
+
+## ACT-328 — Draw and execute an army front plan
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player draws a legal frontline and destination-oriented
+  offensive line for an army, then activates, pauses or deletes the resulting
+  persistent multi-division plan.
+- Includes: defining and executing Italian fronts from Eritrea or Somaliland
+  into Ethiopia.
+- Excludes: issuing one division a manual destination; selecting a commander;
+  choosing a diplomatic war goal.
+- Parameters: army, frontline geometry, opposing border, offensive line,
+  assignment, execution state, aggressiveness, planning progress and deletion.
+- Evidence: [Hearts of Iron IV decomposition](../games/g-l/hearts-of-iron-iv.md).
+- Novelty: first isolated for `GAME-0182`; player-authored geographic fields
+  persist as autonomous instructions for a selected strategic formation.
+
+## ACT-329 — Assign an air wing to a region and mission
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player commits one available air wing to an eligible air
+  region and enables or disables one of its currently supported missions.
+- Includes: assigning fighters or close air support to the East African theatre
+  and enabling air superiority or close-air-support work.
+- Excludes: directly piloting an aircraft; configuring its production line;
+  ordering a naval task force.
+- Parameters: wing, aircraft type, base, region, mission, day/night operation,
+  intensity, range, fuel and reassignment.
+- Evidence: [Hearts of Iron IV decomposition](../games/g-l/hearts-of-iron-iv.md).
+- Novelty: first isolated for `GAME-0182`; aircraft are scheduled as a regional
+  operational pool rather than directly routed as individual combat agents.
+
+## ACT-330 — Select one spawnable lineup vehicle for the next ground sortie
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: at a pre-spawn or post-loss selection state, the player chooses
+  one currently eligible vehicle from the match-locked lineup and commits it as
+  the next directly controlled ground vehicle.
+- Includes: choosing the M2A4, LVT(A)(1) or M2A2 for one of the scoped War
+  Thunder Ground Arcade spawns while backups are disabled.
+- Excludes: buying or researching a vehicle; switching an owned car outside a
+  match; entering an already present world vehicle; temporary aircraft sorties.
+- Parameters: lineup, crew slot, vehicle, eligibility, prior use, backup,
+  remaining ground spawns, spawn point and commitment.
+- Evidence: [War Thunder decomposition](../games/s-z/war-thunder.md).
+- Novelty: first isolated for `GAME-0184`; the chosen member of a fixed
+  pre-match vehicle roster becomes the next expendable combat body after each
+  loss rather than replacing one persistent world vehicle.
+
+## ACT-331 — Keep or mulligan the presented opening hand
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: before the first turn, the player either accepts the currently presented opening hand or requests a replacement hand and later returns the required number of cards to the bottom of the library.
+- Includes: keeping or taking a London mulligan in the scoped MTG Arena Starter Deck Duel game.
+- Excludes: discarding during a live turn; selecting cards while constructing a deck; redrawing a complete hand as a repeatable combat action.
+- Parameters: starting hand size, mulligan count, replacement draw, cards put on bottom, ordering and final keep.
+- Evidence: [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
+- Novelty: first isolated for `GAME-0185`; opening-hand replacement is a pre-turn commitment whose retained size falls with each repeated request.
+
+## ACT-332 — Play one land from hand
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during an eligible main phase, the active player places one land card from their hand onto the battlefield without casting it as a spell.
+- Includes: playing a Plains, Island, Tranquil Cove or Temple of Enlightenment from Arcane Aerialists.
+- Excludes: casting a permanent spell; activating a land's mana ability; putting a land onto the battlefield because another card instructs it.
+- Parameters: land, controller, turn allowance, main phase, stack state, replacement effects and battlefield entry state.
+- Evidence: [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
+- Novelty: first isolated for `GAME-0185`; the primary renewable resource source enters through a special once-per-turn action rather than the stack.
+
+## ACT-333 — Cast one spell from a visible hand
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player selects one castable card in their visible hand, declares any required modes, targets and variable values, then commits its payable cost so the resulting spell enters the stack.
+- Includes: casting an Arcane Aerialists creature, instant, sorcery, artifact or enchantment under its current timing and target rules.
+- Excludes: playing a land; activating text on a permanent already on the battlefield; resolving the spell immediately without priority.
+- Parameters: card, spell type, timing, modes, targets, division, additional or alternative costs, mana payment and stack object.
+- Evidence: [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
+- Novelty: first isolated for `GAME-0185`; a held card becomes an interruptible stack object before its type-specific destination is known.
+
+## ACT-334 — Activate one card ability
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player chooses one activated ability on a card they control, declares required choices and targets and pays its activation cost so the ability enters the stack unless it is a mana ability.
+- Includes: activating Goldvein Pick or another legal activated ability present in the scoped supplied-deck match.
+- Excludes: casting the source card; automatic triggered abilities; ordinary land play; system resolution of the activated text.
+- Parameters: source, ability, priority, target, tap or mana cost, timing restriction, mana-ability exception and stack placement.
+- Evidence: [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
+- Novelty: first isolated for `GAME-0185`; an already present card can create a separate stack object by paying its own declared activation cost.
+
+## ACT-335 — Pass priority without adding an object
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player who currently has priority declines to cast, activate or take another special action and transfers the response opportunity to the opponent.
+- Includes: Arena's explicit or automated pass while a spell, ability, phase or step awaits both players.
+- Excludes: ending the whole turn unilaterally; conceding; resolving an object before the opponent receives a response window.
+- Parameters: priority holder, stack state, stop settings, consecutive passes, next player and phase or object awaiting settlement.
+- Evidence: [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
+- Novelty: first isolated for `GAME-0185`; choosing not to act is itself the handoff that permits stack resolution or phase advancement.
+
+## ACT-336 — Declare an eligible attacking creature set
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: at the declare-attackers step, the active player chooses any legal subset of controlled creatures and commits each chosen creature as an attacker against the opponent or another legal defender.
+- Includes: attacking with untapped Arcane Aerialists creatures that have been controlled since the turn began or have haste.
+- Excludes: dealing combat damage; choosing blockers; casting a spell during a combat priority window.
+- Parameters: creature subset, defender, tapped state, control duration, haste, attack restrictions, requirements and attack costs.
+- Evidence: [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
+- Novelty: first isolated for `GAME-0185`; one simultaneous legal subset begins combat before the opponent assigns any blockers.
+
+## ACT-337 — Declare legal creature blockers
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: at the declare-blockers step, the defending player assigns any legal untapped controlled creatures to attacking creatures under current evasion, restriction and requirement rules.
+- Includes: assigning eligible Arcane Aerialists creatures to block, including flying creatures blocking attackers with flying.
+- Excludes: selecting attackers; assigning combat damage; casting an instant after blockers have been declared.
+- Parameters: blocker, attacker, multiplicity, tapped state, flying or other evasion, restrictions, requirements and block costs.
+- Evidence: [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
+- Novelty: first isolated for `GAME-0185`; the defender constructs a legal many-to-one interception relation after seeing the attacking set.
+
+## ACT-338 — Place one crafted survival fixture
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player positions one already crafted deployable fixture on compatible clear world ground and commits it as a persistent usable structure.
+- Includes: placing a Campfire, Fire Pit, Science Machine, Alchemy Engine, Crock Pot or Chest in the scoped Don't Starve Together Forest world.
+- Excludes: crafting the fixture item; feeding fuel to an existing fire; constructing a multi-part blueprint; dropping an ordinary carried item.
+- Parameters: fixture, carried deployment state, position, footprint, clear ground, collision, orientation and resulting structure.
+- Evidence: [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
+- Novelty: first isolated for `GAME-0186`; a personally crafted survival output becomes an addressed persistent world service through a separate spatial commitment.
+
+## ACT-339 — Give a crafted revival item to a ghost partner
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: one living player targets a nearby dead partner's ghost with a carried revival item and commits that item to return the partner to embodied play.
+- Includes: giving a Telltale Heart to the other scoped Wilson survivor's ghost.
+- Excludes: a ghost reviving itself; touching the Florid Postern in Endless mode; automatic respawn; healing a living partner.
+- Parameters: living giver, ghost target, revival item, reach, item consumption, restored health, maximum-health penalty and revived position.
+- Evidence: [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
+- Novelty: first isolated for `GAME-0186`; cooperative recovery requires asymmetric authority between an embodied giver and a non-corporeal partner state.
+
+## ACT-340 — Select or change one playable class in team spawn
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while the player's team-spawn selection state is legal, the
+  player chooses one playable class and transfers the current or next-life
+  controlled body and its base stock kit to that class.
+- Includes: selecting or changing among the nine ordinary Team Fortress 2
+  classes in a Casual Payload team spawn, with teammate duplicates permitted.
+- Excludes: a match-long hero draft; a role-queue commitment; selecting a
+  Team-Up partner; configuring alternate weapons; cosmetic appearance.
+- Parameters: team, spawn state, living state, class roster, selected class,
+  stock kit, duplicate policy and effect timing.
+- Evidence: [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md).
+- Novelty: first isolated for `GAME-0187`; the live selection changes embodied
+  class function through spawn without either uniqueness or a permanent draft.
+
+## ACT-341 — Commit one contextual dungeon interaction
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player addresses one reachable authored dungeon object and
+  commits its currently legal read, activate, collect, unlock or open
+  interaction, changing local objective, inventory or route state.
+- Includes: reading Sastasha's Bloody Memo, activating the matching coral and
+  revealed switch, collecting and using the Captain's Quarters and Waverider
+  Gate keys, opening their gates and opening an admitted treasure coffer.
+- Excludes: an ordinary weapon attack; free-form crafting; dialogue choice;
+  interacting with optional Sastasha side rooms outside the scoped main route.
+- Parameters: actor, object, reach, interaction, prerequisite, carried key,
+  consumed or retained item, resulting flag, route state and reward source.
+- Evidence: [FINAL FANTASY XIV Online decomposition](../games/a-f/final-fantasy-xiv-online.md).
+- Additional support: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md),
+  for opening authored route doors and activating the Hotel elevator control.
+- Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
+  for activating the mesh terminal and opening the admitted end chest.
+- Novelty: first isolated for `GAME-0188`; one generic command boundary joins
+  readable clues, stateful switches, typed route keys and optional dungeon
+  reward objects without treating their different resolutions as one system.
+
+## ACT-342 — Reclaim allocated character-development points at a checkpoint
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: at an eligible campaign checkpoint, the player selects one or
+  more previously allocated character-development nodes and commits their
+  permitted reclamation so those points return to the unspent pool.
+- Includes: Black Myth: Wukong Reignite the Sparks for one node, a branch or
+  all currently allocated Sparks at a Keeper's Shrine without a Will fee.
+- Excludes: spending an available point; purchasing a paid attribute reset;
+  refunding an item or account-wide progression.
+- Parameters: checkpoint, allocation set, branch, current rank, reclaimed
+  points, fee, retained unlock and resulting unspent pool.
+- Evidence: [Black Myth: Wukong decomposition](../games/a-f/black-myth-wukong.md).
+- Novelty: first isolated for `GAME-0189`; a campaign checkpoint exposes
+  granular cost-free recovery of already committed build authority.
+
+## ACT-343 — Confirm one persistent ancestry and bodily presentation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: at a mandatory new-character gate, the player selects one
+  available ancestry and commits the permitted body, face, sex and name values
+  as the persistent identity that enters the authored campaign.
+- Includes: choosing a Nord and confirming the body, face and name at Helgen in
+  the scoped Skyrim Special Edition fresh start.
+- Excludes: choosing a class, background or point-buy build; changing equipment;
+  a cosmetic editor that has no campaign-entry authority.
+- Parameters: ancestry, body preset, sex, appearance controls, name, confirmation
+  gate, starting traits and persistent identity.
+- Evidence: [The Elder Scrolls V: Skyrim Special Edition decomposition](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md).
+- Novelty: first isolated for `GAME-0190`; mandatory ancestry and presentation
+  are committed without a class, occupation, background or build-point budget.
+
+## ACT-344 — Probe and turn one keyed lock with a fragile pick
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while a keyed lock is addressed, the player changes the angular
+  position of one consumable pick and applies rotational torque to test whether
+  the current offset can turn the cylinder far enough to unlock it.
+- Includes: opening one declared novice prison-cell lock during Skyrim Special
+  Edition's scoped Hadvar route through Helgen Keep.
+- Excludes: using the correct carried key; entering a numeric code; automatically
+  resolving a skill check; forcing a door with an attack.
+- Parameters: lock, difficulty, hidden sweet spot, pick angle, torque, cylinder
+  rotation, resistance feedback, pick durability and unlocked state.
+- Evidence: [The Elder Scrolls V: Skyrim Special Edition decomposition](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md).
+- Novelty: first isolated for `GAME-0190`; continuous angular probing consumes
+  a fragile tool while progressively exposing one hidden opening interval.
+
+## ACT-345 — Commission one building in an owned settlement slot
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects one currently legal building or chain upgrade
+  for a vacant or compatible slot in an owned settlement and commits its stated
+  treasury cost and turn duration to the campaign queue.
+- Includes: upgrading Kislev Refuge and commissioning its declared Store House
+  during the scoped Total War: WARHAMMER III prologue route.
+- Excludes: placing a freely positioned real-time building; choosing a city's
+  yield-funded production target; recruiting a unit; instant scripted scenery.
+- Parameters: settlement, slot, building chain, tier, prerequisite, treasury
+  cost, build duration, cancellation and completed effect.
+- Evidence: [Total War: WARHAMMER III decomposition](../games/s-z/total-war-warhammer-iii.md).
+- Novelty: first isolated for `GAME-0191`; a fixed settlement slot accepts a
+  prepaid chain entry whose effect arrives after campaign-turn settlement.
+
+## ACT-346 — Arrange units inside a pre-battle deployment zone
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: before a real-time battle begins, the player selects controlled
+  units and commits their positions, facing, width and grouping within the
+  side's currently legal deployment region.
+- Includes: arranging the Kislev Expedition's admitted formations before the
+  first Beacon battle in the scoped Total War: WARHAMMER III prologue.
+- Excludes: issuing movement after battle starts; choosing a reinforcement
+  spawn; placing units outside the deployment boundary; cosmetic army display.
+- Parameters: unit set, deployment region, position, facing, frontage, depth,
+  group, overlap, terrain and battle-start commitment.
+- Evidence: [Total War: WARHAMMER III decomposition](../games/s-z/total-war-warhammer-iii.md).
+- Novelty: first isolated for `GAME-0191`; the editable formation is spatially
+  legal only before the live battle clock and becomes its initial combat state.
+
+## ACT-347 — Hire available settlement recruits into a persistent party
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: at an entered settlement the player selects one or more currently
+  offered recruit bodies and pays their displayed hiring cost so they leave the
+  local offer and occupy available slots in the player's persistent campaign
+  party.
+- Includes: hiring the maximum offered tutorial troops at Tevea in scoped Mount
+  & Blade II: Bannerlord Campaign.
+- Excludes: training a queued RTS unit; persuading a prisoner over time;
+  recruiting a named companion through a quest; automatic population growth.
+- Parameters: settlement, offer source, troop type, available count, cost,
+  denars, party capacity, selected quantity and resulting roster.
+- Evidence: [Mount & Blade II: Bannerlord decomposition](../games/m-r/mount-and-blade-ii-bannerlord.md).
+- Novelty: first isolated for `GAME-0194`; immediate paid transfer from a local
+  recruit offer into a mobile persistent party is absent from lower-ID actions.
+
+## ACT-348 — Mount and directly ride an available battle horse
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player approaches an eligible horse in a live battle, mounts
+  or dismounts it and directly controls its pace, steering and jump while
+  retaining personal weapon and attack authority.
+- Includes: using the fixed starting horse in scoped Mount & Blade II:
+  Bannerlord tutorial field battles.
+- Excludes: calling a persistent bonded horse with saddle cargo; target-routed
+  automatic mount travel; a resummonable spectral steed; campaign-map movement.
+- Parameters: horse, reach, rider, mount state, pace, direction, jump, weapon,
+  mounted attack and dismount.
+- Evidence: [Mount & Blade II: Bannerlord decomposition](../games/m-r/mount-and-blade-ii-bannerlord.md).
+- Novelty: first isolated for `GAME-0194`; the horse is an embodied available
+  battle agent without the identity, bond, cargo or summon rules of prior mounts.
+
+## ACT-349 — Hold a weapon block toward one incoming attack direction
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during live melee the player aims and holds the equipped weapon or
+  shield guard toward one current attack direction, or releases it, so the
+  chosen guard geometry can oppose the incoming strike.
+- Includes: directional weapon and shield blocking in scoped Mount & Blade II:
+  Bannerlord tutorial combat.
+- Excludes: Street Fighter opponent-relative high/low guard; a timed parry
+  prompt with no chosen direction; passive armour; turn-based Defend.
+- Parameters: equipment, attack direction, block direction, aim mapping, hold,
+  release, contact instant and recovery.
+- Evidence: [Mount & Blade II: Bannerlord decomposition](../games/m-r/mount-and-blade-ii-bannerlord.md).
+- Novelty: first isolated for `GAME-0194`; an aimed spatial guard must match a
+  weapon strike direction rather than only height, timing or armour value.
+
+## ACT-350 — Request mission-authorised recovery of an assigned vehicle
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while directly controlling a mission-assigned vehicle, the
+  player requests the current ruleset's recover/repair or recovery-position
+  transition so a damaged, spun or stranded vehicle can resume the attempt
+  without the input itself granting omitted route progress.
+- Includes: ordinary Recover Vehicle use during scoped BeamNG.drive Road
+  Master; its clean current-mission restart remains the declared retry boundary.
+- Excludes: player-scrubbed branchable rewind; loading a campaign save; free
+  camera teleport; manually saving and loading an arbitrary home position.
+- Parameters: vehicle, mission, recovery command, authorised recovery state,
+  repair/rewind behaviour, retained checkpoint, elapsed-time treatment and
+  full-restart alternative.
+- Evidence: [BeamNG.drive decomposition](../games/a-f/beamng-drive.md).
+- Novelty: first isolated for `GAME-0195`; prior recovery actions restore an
+  avatar, checkpoint or editable history rather than one assigned soft-body
+  vehicle under a still-unfinished driving mission.
+
+## ACT-351 — Accept one field-work contract with borrowed machinery
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: from a current field-contract list, the player accepts one offer
+  that fixes its task, assigned field, displayed reward and progress boundary,
+  while electing to pay the declared deduction for employer-supplied compatible
+  machines during that contract.
+- Includes: accepting the scoped Farming Simulator 25 Fertilizing contract with
+  `Borrow Items`.
+- Excludes: accepting a preloaded road-cargo job; leasing a machine for general
+  farm use; buying equipment; assigning an autonomous worker; previewing an
+  offer without commitment.
+- Parameters: offer set, task type, field, owner, reward, borrowing deduction,
+  supplied fleet, active-contract slot, cancellation and settlement.
+- Evidence: [Farming Simulator 25 decomposition](../games/a-f/farming-simulator-25.md).
+- Novelty: first isolated for `GAME-0196`; the temporary supplied asset set is
+  a compatible field-working fleet that must still be coupled and operated,
+  not one already loaded delivery vehicle.
+
+## ACT-352 — Couple and operate a powered vehicle implement
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player aligns a directly operated vehicle with a compatible
+  implement, attaches or detaches its declared hitch and controls the coupled
+  tool's raised/lowered and active/inactive working state while moving.
+- Includes: coupling, lowering and activating the borrowed fertilizer spreader
+  behind the supplied tractor in scoped Farming Simulator 25.
+- Excludes: a permanently articulated cargo trailer; equipping a carried hand
+  tool; attaching a weapon modification; cosmetic vehicle customisation;
+  assigning an AI helper to operate the machinery.
+- Parameters: vehicle, implement, hitch class, alignment, attachment state,
+  power requirement, raise/lower state, activation, working width and input.
+- Evidence: [Farming Simulator 25 decomposition](../games/a-f/farming-simulator-25.md).
+- Novelty: first isolated for `GAME-0196`; attachment grants a controllable
+  productive footprint whose state changes the traversed field rather than
+  only making a trailer follow the tractor.
+
+## ACT-353 — Consume a distinct food into a timed survival slot
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: consume one carried food whose type is distinct from the current
+  active set, placing or refreshing its timed contribution in an eligible food
+  slot so it can modify personal survival bounds.
+- Includes: one scoped Valheim Meadows food entering one of three active slots.
+- Excludes: eating to prevent starvation; drinking a healing potion; passive
+  nutrition from inventory; replacing a food before digestion permits it.
+- Parameters: food, slot, distinctness, remaining duration, replacement state,
+  health, stamina and regeneration contribution.
+- Evidence: [Valheim decomposition](../games/s-z/valheim.md).
+- Novelty: first isolated for `GAME-0197`; unlike generic hunger restoration,
+  the chosen set is a temporary three-part personal stat configuration.
+
+## ACT-354 — Read a world wayfinder to reveal a boss altar
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: interact with an addressed world wayfinder so its registered
+  boss class reveals the nearest matching generated altar on the personal map.
+- Includes: the scoped spawn-stone Eikthyr Vegvisir interaction in Valheim.
+- Excludes: following an existing map marker; throwing a consumable bearing
+  locator; discovering a landmark only by entering its local radius.
+- Parameters: wayfinder, boss class, world seed, candidate altars, nearest
+  eligible altar, player map and retained marker.
+- Evidence: [Valheim decomposition](../games/s-z/valheim.md).
+- Novelty: first isolated for `GAME-0197`; an authored fixed interaction maps
+  one semantic target onto the nearest seed-generated destination.
+
+## ACT-355 — Claim, throw or discard a spawned arena weapon
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during a live arena match, the player interacts with a reachable
+  neutral weapon pickup to make it the fighter's active weapon, or commits a
+  throw/drop input that returns the fighter to the unarmed command state.
+- Includes: claiming and throwing Bödvar's spawned Sword or Hammer in the
+  scoped Brawlhalla Stock match.
+- Excludes: selecting a carried quickbar slot; looting a persistent inventory
+  item; firing a throwable gadget; cosmetic weapon skins.
+- Parameters: fighter, pickup, reach, compatible weapon, prior weapon, claim,
+  throw direction, collision, expiry and resulting unarmed/armed state.
+- Evidence: [Brawlhalla decomposition](../games/a-f/brawlhalla.md).
+- Novelty: first isolated for `GAME-0198`; the arena object changes a
+  character-owned fighting vocabulary but is not retained as inventory or a
+  multi-slot loadout.
+
+## ACT-356 — Commit a spot or directional fighting dodge
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while the live fighter is eligible, the player commits the dodge
+  input in place or with one direction to request its protected movement and
+  accept the resulting cooldown/reset state.
+- Includes: grounded spot dodge and aerial spot/directional dodge in the scoped
+  Brawlhalla Stock match.
+- Excludes: passive evasion chance; holding opponent-relative guard; a
+  prompted turn-based defence; a vehicle flip without invulnerability.
+- Parameters: fighter, ground/air state, direction, startup, protection,
+  displacement, cooldown, reset contact and follow-up action.
+- Evidence: [Brawlhalla decomposition](../games/a-f/brawlhalla.md).
+- Novelty: first isolated for `GAME-0198`; unlike a telegraphed prompt response,
+  the dodge is a freely timed neutral, pressure or recovery commitment in a
+  continuously repositionable duel.

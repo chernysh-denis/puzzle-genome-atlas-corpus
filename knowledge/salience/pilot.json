@@ -1,5 +1,5 @@
 {
-  "version": "GENE_SALIENCE_AND_PLAIN_LANGUAGE_EXPANSION_023",
+  "version": "GENE_SALIENCE_AND_PLAIN_LANGUAGE_EXPANSION_025",
   "roles": [
     "defining",
     "structural",
@@ -5375,9 +5375,9 @@
       ]
     },
     "GAME-0180": {
-      "reviewed": "2026-08-28",
+      "reviewed": "2026-08-30",
       "noteEn": "Manual fixed-wing control, causal piston/electrical systems, the aerodynamic runway envelope and logged destination shutdown define the flight; setup, plan state, instruments and continuous time structure it.",
-      "noteUk": "Ручне керування нерухомим крилом, причинні поршневі й електричні системи, аеродинамічний runway envelope та записаний shutdown у пункті призначення визначають політ; setup, plan state, instruments і безперервний час його структурують.",
+      "noteUk": "Ручне керування літаком із фіксованим крилом, причинно пов’язані поршнева й електрична системи, аеродинамічні обмеження та вимкнення систем у пункті призначення із записом у журналі визначають політ; його структурують налаштування, стан плану, прилади й безперервний час.",
       "defining": [
         "ACT-321",
         "SYS-556",
@@ -5398,6 +5398,675 @@
       "supporting": [
         "INF-226"
       ]
+    },
+    "GAME-0181": {
+      "reviewed": "2026-08-31",
+      "noteEn": "Role commitment, collective map influence, perk progression and first-to-two Control percentage define the match; direct hero combat, respawn and objective information structure it.",
+      "noteUk": "Фіксація ролі, спільний вплив на вибір мапи, розвиток поліпшень і дві перемоги за відсотками Control визначають матч; безпосередній бій героїв, відродження та відомості про ціль формують його структуру.",
+      "defining": [
+        "ACT-322",
+        "ACT-323",
+        "SYS-560",
+        "SYS-561",
+        "SYS-562",
+        "CON-474",
+        "CON-475",
+        "CON-476",
+        "OBJ-105"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-164",
+        "ACT-183",
+        "ACT-188",
+        "ACT-190",
+        "ACT-191",
+        "SYS-208",
+        "SYS-215",
+        "SYS-299",
+        "SYS-380",
+        "SYS-381",
+        "SYS-382",
+        "SYS-395",
+        "CON-269",
+        "CON-272",
+        "CON-348",
+        "INF-116",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-187",
+        "INF-115",
+        "INF-119",
+        "INF-150",
+        "INF-228"
+      ]
+    },
+    "GAME-0182": {
+      "reviewed": "2026-08-31",
+      "noteEn": "National focus, factory portfolios, battle plans, theatre supply and country capitulation define the tutorial war; research, reinforcement, air support, fog and strategic displays structure it.",
+      "noteUk": "Національний фокус, розподіл фабрик, плани армій, постачання театру бойових дій і капітуляція країни визначають навчальну війну; дослідження, поповнення, авіапідтримка, туман війни та стратегічні панелі надають їй структури.",
+      "defining": [
+        "ACT-324",
+        "ACT-325",
+        "ACT-326",
+        "ACT-327",
+        "ACT-328",
+        "ACT-329",
+        "SYS-566",
+        "SYS-568",
+        "SYS-569",
+        "SYS-571",
+        "OBJ-106"
+      ],
+      "structural": [
+        "ACT-006",
+        "ACT-121",
+        "ACT-189",
+        "SYS-297",
+        "SYS-563",
+        "SYS-564",
+        "SYS-565",
+        "SYS-567",
+        "SYS-570",
+        "CON-477",
+        "CON-478",
+        "CON-479",
+        "CON-480",
+        "CON-481",
+        "CON-482",
+        "CON-483",
+        "CON-484",
+        "INF-230",
+        "INF-231",
+        "INF-232",
+        "INF-234",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-305",
+        "CON-273",
+        "INF-059",
+        "INF-229",
+        "INF-233"
+      ]
+    },
+    "GAME-0183": {
+      "reviewed": "2026-08-31",
+      "noteEn": "Automatic weapon cadence, spatial experience collection, interrupted build drafts and the thirty-minute survival terminal define the run; random/reset, offer and visibility genes support it.",
+      "noteUk": "Автоматичний ритм зброї, збирання досвіду на полі, вибори поліпшень під час пауз і виживання до тридцятої хвилини визначають забіг; випадковість, скидання стану, пропозиції та видимість його підтримують.",
+      "defining": [
+        "SYS-573",
+        "SYS-574",
+        "SYS-575",
+        "SYS-576",
+        "OBJ-107"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-140",
+        "SYS-299",
+        "SYS-572",
+        "SYS-577",
+        "SYS-578",
+        "SYS-579",
+        "CON-485",
+        "CON-486",
+        "CON-487",
+        "INF-235",
+        "INF-236",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-004",
+        "SYS-469",
+        "CON-188",
+        "INF-002",
+        "INF-119"
+      ]
+    },
+    "GAME-0184": {
+      "reviewed": "2026-08-31",
+      "noteEn": "Armour-directed fire, spatial internal damage, bounded lineup replacement and three-point ticket pressure define the match; vehicle motion, ammunition and shared visibility structure it.",
+      "noteUk": "Вогонь із вибором ділянки броні, просторові внутрішні пошкодження, обмежений склад машин і тиск трьох точок на командні очки визначають матч; рух машин, боєприпаси та спільна видимість надають йому структури.",
+      "defining": [
+        "ACT-330",
+        "SYS-580",
+        "SYS-581",
+        "SYS-582",
+        "SYS-583",
+        "INF-237",
+        "OBJ-108"
+      ],
+      "structural": [
+        "ACT-161",
+        "ACT-290",
+        "SYS-320",
+        "SYS-395",
+        "CON-348",
+        "CON-488",
+        "CON-489",
+        "INF-116",
+        "INF-238",
+        "TIM-003"
+      ],
+      "supporting": [
+        "CON-262",
+        "INF-115"
+      ]
+    },
+    "GAME-0185": {
+      "reviewed": "2026-08-31",
+      "noteEn": "Typed land mana, nested priority, LIFO stack resolution and declared creature combat define the duel; supplied-deck entry, hidden draws and cleanup limits support that core.",
+      "noteUk": "Типізована мана земель, вкладені вікна пріоритету, виконання найновішого об’єкта стосу першим і оголошений бій істот визначають двобій; готова колода, прихований добір і очищення наприкінці ходу підтримують це ядро.",
+      "defining": [
+        "SYS-585",
+        "SYS-587",
+        "SYS-589",
+        "SYS-590",
+        "OBJ-109",
+        "TIM-019"
+      ],
+      "structural": [
+        "ACT-332",
+        "ACT-333",
+        "ACT-334",
+        "ACT-335",
+        "ACT-336",
+        "ACT-337",
+        "SYS-586",
+        "SYS-588",
+        "CON-174",
+        "CON-491",
+        "CON-492",
+        "CON-493",
+        "CON-494",
+        "INF-239"
+      ],
+      "supporting": [
+        "ACT-331",
+        "SYS-004",
+        "SYS-584",
+        "CON-490",
+        "CON-495",
+        "INF-003"
+      ]
+    },
+    "GAME-0186": {
+      "reviewed": "2026-08-31",
+      "noteEn": "Sanity-made threats, fuelled local safety, personal science, seasons and ghost recovery define the packet; generic movement, inventory and combat support that cooperative survival core.",
+      "noteUk": "Загрози, що тілеснішають через низький рівень розуму, безпечна зона довкола паливного вогню, особисті наукові відкриття, сезони й відродження привида визначають пакет; звичайні рух, інвентар і бій підтримують це кооперативне ядро виживання.",
+      "defining": [
+        "SYS-592",
+        "SYS-593",
+        "SYS-594",
+        "SYS-595",
+        "SYS-596",
+        "OBJ-110"
+      ],
+      "structural": [
+        "ACT-122",
+        "ACT-123",
+        "ACT-165",
+        "ACT-338",
+        "ACT-339",
+        "SYS-327",
+        "SYS-329",
+        "SYS-353",
+        "SYS-591",
+        "SYS-597",
+        "CON-281",
+        "CON-366",
+        "CON-496",
+        "CON-497",
+        "CON-498",
+        "CON-499",
+        "CON-500",
+        "CON-501",
+        "INF-132",
+        "INF-136",
+        "INF-240",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-087",
+        "ACT-161",
+        "ACT-164",
+        "ACT-199",
+        "SYS-215",
+        "SYS-223",
+        "SYS-326",
+        "SYS-416",
+        "CON-210",
+        "INF-073",
+        "INF-075",
+        "INF-128",
+        "INF-241"
+      ]
+    },
+    "GAME-0187": {
+      "reviewed": "2026-08-31",
+      "noteEn": "Checkpoint transformation, shared respawn waves, moving cart supply and the delivery-or-denial terminal define the packet; generic weapon combat and HUD state support that class-adaptive escort core.",
+      "noteUk": "Зміна стану контрольних точок, спільні хвилі відродження, рухоме постачання від візка й завершення через доставку чи блокування визначають пакет; звичайний бій та інтерфейс підтримують це ядро супроводу зі зміною класів.",
+      "defining": [
+        "SYS-384",
+        "SYS-385",
+        "SYS-598",
+        "SYS-599",
+        "SYS-600",
+        "OBJ-111"
+      ],
+      "structural": [
+        "ACT-161",
+        "ACT-187",
+        "ACT-190",
+        "ACT-340",
+        "SYS-215",
+        "SYS-380",
+        "SYS-382",
+        "CON-272",
+        "CON-341",
+        "CON-346",
+        "CON-502",
+        "INF-116",
+        "INF-150",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-164",
+        "ACT-183",
+        "SYS-004",
+        "SYS-208",
+        "CON-262",
+        "CON-269",
+        "INF-073",
+        "INF-115",
+        "INF-119"
+      ]
+    },
+    "GAME-0188": {
+      "reviewed": "2026-08-31",
+      "noteEn": "Level sync, autonomous role completion, enmity, dual recast layers, ordered gates and Willful retries define the Sastasha packet; generic movement, combat, rewards and HUD state support it.",
+      "noteUk": "Синхронізація рівня, автономне заповнення ролей, ворожа увага, два шари відновлення, послідовні брами й повторні спроби з Willful визначають структуру Sastasha; звичайні рух, бій, нагороди та інтерфейс її підтримують.",
+      "defining": [
+        "SYS-601",
+        "SYS-602",
+        "SYS-603",
+        "SYS-604",
+        "SYS-605",
+        "SYS-606"
+      ],
+      "structural": [
+        "CON-269",
+        "CON-282",
+        "CON-503",
+        "CON-504",
+        "CON-505",
+        "INF-119",
+        "INF-125",
+        "INF-150",
+        "INF-242",
+        "OBJ-112",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-190",
+        "ACT-341",
+        "SYS-215",
+        "SYS-362",
+        "SYS-380"
+      ]
+    },
+    "GAME-0189": {
+      "reviewed": "2026-08-31",
+      "noteEn": "Focus conversion, a temporary replacement body, freely reclaimable Sparks, lossless Shrine death and retained chapter settlement define the packet; generic movement, staff combat, spells, healing, route information and real time support it.",
+      "noteUk": "Накопичення й витрата Focus, тимчасове бойове тіло, безкоштовне повернення Sparks, смерть біля Keeper's Shrine без втрат і збережений перехід між розділами визначають структуру; звичайні рух, бій посохом, закляття, лікування, відомості про маршрут і реальний час її підтримують.",
+      "defining": [
+        "ACT-342",
+        "SYS-607",
+        "SYS-608",
+        "SYS-609",
+        "SYS-610",
+        "SYS-611",
+        "CON-506",
+        "CON-507"
+      ],
+      "structural": [
+        "ACT-190",
+        "ACT-191",
+        "ACT-200",
+        "ACT-223",
+        "ACT-224",
+        "ACT-229",
+        "CON-269",
+        "CON-270",
+        "CON-282",
+        "CON-286",
+        "CON-324",
+        "CON-354",
+        "INF-119",
+        "OBJ-080"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-161",
+        "SYS-215",
+        "SYS-251",
+        "SYS-364",
+        "INF-125",
+        "TIM-003"
+      ]
+    },
+    "GAME-0190": {
+      "reviewed": "2026-08-31",
+      "noteEn": "An ancestry-only entry, one exclusive escort, fragile analog lockpicking and the completed tutorial-to-open-world transition define the packet; ordinary movement, combat, skill use, equipment, route information and save restoration support it.",
+      "noteUk": "Вступ із вибором лише походження, один супровідник, ламке кутове відмикання й завершений перехід від навчання до відкритого світу визначають структуру; звичайні рух, бій, розвиток навичок, спорядження, відомості про маршрут і відновлення збереження її підтримують.",
+      "defining": [
+        "ACT-343",
+        "ACT-344",
+        "SYS-612",
+        "SYS-613",
+        "CON-508",
+        "INF-243",
+        "OBJ-113"
+      ],
+      "structural": [
+        "ACT-131",
+        "ACT-190",
+        "ACT-199",
+        "ACT-202",
+        "SYS-373",
+        "SYS-379",
+        "CON-188",
+        "CON-269",
+        "CON-282",
+        "INF-115",
+        "INF-119"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-161",
+        "SYS-215",
+        "SYS-342",
+        "INF-073",
+        "INF-125",
+        "INF-128",
+        "TIM-003",
+        "TIM-007"
+      ]
+    },
+    "GAME-0191": {
+      "reviewed": "2026-08-31",
+      "noteEn": "Allowance-bound campaign movement, prepaid turn construction, legal deployment, morale routing and persistent battle return define the packet; ordinary formation command, combat, fog, equipment, character allocation and quest state support it.",
+      "noteUk": "Рух армії в кампанії, обмежений запасом, передплачене будівництво за ходами, законне розгортання, втеча через бойовий дух і стале повернення з бою визначають цю структуру; звичайні накази формаціям, бій, туман війни, спорядження, розвиток персонажа й стан завдання її підтримують.",
+      "defining": [
+        "ACT-345",
+        "ACT-346",
+        "SYS-614",
+        "SYS-615",
+        "SYS-616",
+        "SYS-617",
+        "CON-509",
+        "CON-510",
+        "CON-511",
+        "INF-244",
+        "INF-245",
+        "OBJ-114"
+      ],
+      "structural": [
+        "ACT-014",
+        "ACT-189",
+        "ACT-281",
+        "ACT-317",
+        "SYS-215",
+        "SYS-297",
+        "SYS-554",
+        "CON-470",
+        "TIM-003",
+        "TIM-018"
+      ],
+      "supporting": [
+        "ACT-191",
+        "ACT-199",
+        "SYS-305",
+        "SYS-379",
+        "CON-273"
+      ]
+    },
+    "GAME-0192": {
+      "reviewed": "2026-08-31",
+      "noteEn": "Same-role Survivor bots, intensity-modulated population, hostile-held rescue dependence, an authored panic and all-living safe-room closure define the packet; direct combat, finite equipment, health channels, friendly fire and local cues support it.",
+      "noteUk": "Боти в тій самій ролі уцілілого, залежне від напруження наповнення ворогами, порятунок захопленого союзника, задана тривожна подія й замикання безпечної кімнати всіма живими визначають структуру; прямий бій, обмежене спорядження, лікування, вогонь по своїх і локальні сигнали її підтримують.",
+      "defining": [
+        "SYS-618",
+        "SYS-619",
+        "SYS-620",
+        "SYS-621",
+        "SYS-622",
+        "CON-512",
+        "CON-513",
+        "INF-246",
+        "OBJ-115"
+      ],
+      "structural": [
+        "ACT-200",
+        "ACT-241",
+        "ACT-260",
+        "ACT-341",
+        "SYS-348",
+        "CON-390",
+        "INF-116"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-164",
+        "ACT-183",
+        "ACT-184",
+        "ACT-199",
+        "SYS-208",
+        "SYS-215",
+        "SYS-292",
+        "CON-262",
+        "CON-381",
+        "INF-073",
+        "INF-115",
+        "INF-119",
+        "TIM-003"
+      ]
+    },
+    "GAME-0193": {
+      "reviewed": "2026-08-31",
+      "noteEn": "Boss-to-grade/chest settlement, solo Restricted Zone restoration, current Ops result disclosure and the exact Devil's Lair terminal define the packet; prepared firearms, Void abilities, authored gates and live HUD state support it.",
+      "noteUk": "Перетворення перемоги над босом на оцінку й скриню, відновлення одиночної спроби в Restricted Zone, відображення поточного результату Fireteam Ops і точне завершення The Devil's Lair визначають пакет; підготовлена вогнепальна зброя, уміння Void, задані брами й поточний стан на HUD його підтримують.",
+      "defining": [
+        "SYS-623",
+        "SYS-624",
+        "INF-247",
+        "OBJ-116"
+      ],
+      "structural": [
+        "ACT-215",
+        "ACT-341",
+        "SYS-348",
+        "SYS-380",
+        "SYS-605",
+        "INF-116",
+        "INF-119"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-164",
+        "ACT-183",
+        "ACT-190",
+        "SYS-208",
+        "SYS-215",
+        "SYS-222",
+        "CON-262",
+        "CON-269",
+        "INF-073",
+        "INF-115",
+        "TIM-003"
+      ]
+    },
+    "GAME-0194": {
+      "reviewed": "2026-08-31",
+      "noteEn": "Paid settlement recruitment, available battle-horse control, opposed directional defence, campaign provisions/recovery, dual avatar-and-formation information and the Radagos/clan terminal define the packet; character setup, direct combat, group pathing, loot and authored gates support it.",
+      "noteUk": "Платний найм у поселенні, доступний бойовий кінь, протиставлення напрямків захисту, припаси й відновлення кампанії, спільна інформація про героя та формацію і завершальна брама Radagos та клану визначають пакет; налаштування персонажа, безпосередній бій, рух загону, здобич і сюжетні брами його підтримують.",
+      "defining": [
+        "ACT-347",
+        "ACT-348",
+        "ACT-349",
+        "SYS-625",
+        "SYS-626",
+        "CON-514",
+        "INF-248",
+        "INF-249",
+        "OBJ-117"
+      ],
+      "structural": [
+        "ACT-189",
+        "ACT-317",
+        "SYS-297",
+        "SYS-362",
+        "SYS-379",
+        "SYS-554",
+        "SYS-616",
+        "CON-282",
+        "CON-470",
+        "INF-125",
+        "INF-128"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-199",
+        "ACT-232",
+        "ACT-238",
+        "SYS-215",
+        "SYS-342",
+        "CON-269",
+        "CON-284",
+        "INF-119",
+        "TIM-003"
+      ]
+    },
+    "GAME-0195": {
+      "reviewed": "2026-08-31",
+      "noteEn": "Mission-authorised recovery, distributed node-beam/pressure-tyre response, physical damage feedback, retained standalone timing and the exact Road Master terminal define the packet; generic assigned-car control, ordered race validation and route/time information structure it.",
+      "noteUk": "Дозволене місією відновлення, розподілена вузлово-балкова реакція кузова й пневматичних шин, фізичний зворотний зв’язок пошкодження, окреме збереження часу та точна завершальна умова Road Master визначають пакет; загальне керування виданою машиною, впорядкована перевірка маршруту й інформація про шлях і час його структурують.",
+      "defining": [
+        "ACT-350",
+        "SYS-627",
+        "SYS-628",
+        "INF-250",
+        "INF-251",
+        "OBJ-118"
+      ],
+      "structural": [
+        "SYS-516",
+        "CON-438",
+        "INF-205"
+      ],
+      "supporting": [
+        "ACT-290",
+        "SYS-320",
+        "INF-204",
+        "TIM-003"
+      ]
+    },
+    "GAME-0196": {
+      "reviewed": "2026-08-31",
+      "noteEn": "Borrowed field-contract acceptance, powered implement coupling, material-consuming surface coverage, target-field validity, contract progress and explicit net settlement define the packet; generic vehicle motion, viability, rewarded-task disclosure and live time support it.",
+      "noteUk": "Прийняття польового контракту з позиченою технікою, зчеплення приводного агрегата, нанесення добрива робочою смугою з витратою матеріалу, придатність цільового поля, прогрес і явний розрахунок чистої виплати визначають пакет; загальний рух і справність машини, показ умов винагороди та безперервний час його підтримують.",
+      "defining": [
+        "ACT-351",
+        "ACT-352",
+        "SYS-630",
+        "SYS-631",
+        "INF-253",
+        "OBJ-119"
+      ],
+      "structural": [
+        "SYS-629",
+        "CON-515",
+        "CON-516",
+        "INF-252"
+      ],
+      "supporting": [
+        "ACT-201",
+        "SYS-320",
+        "CON-288",
+        "INF-067",
+        "TIM-003"
+      ]
+    },
+    "GAME-0197": {
+      "reviewed": "2026-08-31",
+      "noteEn": "Vegvisir-to-generated-altar guidance, the three-food capacity build, shelter/rest conversion, exact trophy offering, guaranteed Eikthyr drop and matching-stone power settlement define the packet; survival production, live counterplay, recoverable death and persistent geography structure it.",
+      "noteUk": "Цю межу визначають Вегвізир, що вказує на згенерований вівтар, добір трьох страв, перетворення укриття на відпочинок, точне підношення трофеїв, гарантована здобич після перемоги над Ейктюром і відкриття сили на відповідному камені. Її структуру підтримують виробництво заради виживання, бій із можливістю відповідати на атаки, відновлення після смерті та стала географія світу.",
+      "defining": [
+        "ACT-353",
+        "ACT-354",
+        "SYS-632",
+        "SYS-634",
+        "SYS-635",
+        "SYS-636",
+        "CON-517",
+        "CON-518",
+        "OBJ-120"
+      ],
+      "structural": [
+        "ACT-087",
+        "ACT-122",
+        "ACT-123",
+        "ACT-161",
+        "ACT-204",
+        "ACT-223",
+        "SYS-215",
+        "SYS-216",
+        "SYS-326",
+        "SYS-633",
+        "CON-136",
+        "CON-297",
+        "CON-354",
+        "INF-142",
+        "INF-241"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-164",
+        "ACT-199",
+        "SYS-222",
+        "SYS-223",
+        "SYS-330",
+        "SYS-342",
+        "SYS-353",
+        "SYS-416",
+        "SYS-591",
+        "CON-210",
+        "CON-292",
+        "INF-073",
+        "INF-075",
+        "INF-128",
+        "INF-131",
+        "INF-132",
+        "TIM-003"
+      ]
+    },
+    "GAME-0198": {
+      "reviewed": "2026-08-31",
+      "noteEn": "Accumulated-damage launch scaling, blast-zone stock settlement, arena-spawned paired weapons, bounded aerial recovery and the exact Stock result define the packet; direct fighting, committed dodges, arena bounds and readable combat state structure it.",
+      "noteUk": "Цю межу визначають залежність сили відкидання від накопиченої шкоди, втрата життя за виліт із зони арени, поява двох сумісних типів зброї, обмежений запас дій для повернення в повітрі та точний результат режиму Stock. Її структуру підтримують прямий бій, ухилення з обов’язковим завершенням, межі арени й доступний для читання бойовий стан.",
+      "defining": ["ACT-355", "SYS-637", "SYS-638", "SYS-639", "SYS-640", "CON-520", "CON-522", "OBJ-121"],
+      "structural": ["ACT-294", "ACT-295", "ACT-356", "SYS-456", "CON-442", "CON-519", "CON-521", "INF-254"],
+      "supporting": ["ACT-008", "SYS-215", "INF-142", "INF-209", "TIM-003"]
     }
   }
 }

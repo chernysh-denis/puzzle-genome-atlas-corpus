@@ -3410,7 +3410,8 @@
 - Parameters: effective cost, X-cost treatment, target count, target class,
   unplayable status and cost-changing effects.
 - Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md) and
-  [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
+  [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md),
+  and [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
 - Novelty: not assessed.
 
 ## CON-175 — Persistent health depletion terminates the run
@@ -3998,6 +3999,8 @@
   [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md)
   and [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Additional support: [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md),
+  for carried stacks and finite inventory slots.
 - Novelty: not assessed.
 
 ## CON-211 — City facility operation requires a street connection to the generator
@@ -4837,7 +4840,13 @@
 - Parameters: slots, item class, grenade type/count, magazine and reserve.
 - Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md) and
   [Helldivers 2 decomposition](../games/g-l/helldivers-2.md) and
-  [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
+  [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md), and
+  [War Thunder decomposition](../games/s-z/war-thunder.md), and
+  [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md).
+- Additional support: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md),
+  for typed weapon/support slots and finite magazine/reserve ammunition.
+- Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
+  for three typed weapon slots and finite magazine/reserve ammunition.
 - Novelty: not assessed.
 
 ## CON-263 — Elimination suspends control until the next round
@@ -4971,7 +4980,10 @@
   [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md), and
   [Helldivers 2 decomposition](../games/g-l/helldivers-2.md),
   [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md) and
-  [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md).
+  [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md), and
+  [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md).
+- Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
+  for Titan grenade, melee, barricade and Super readiness gates.
 - Novelty: not assessed.
 
 ## CON-270 — Character build is bounded by level and branch gates
@@ -5027,7 +5039,8 @@
 - Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md) and
   [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md), and
   [Battlefield 6 decomposition](../games/a-f/battlefield-6.md), and
-  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md).
+  [Helldivers 2 decomposition](../games/g-l/helldivers-2.md), and
+  [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md).
 - Novelty: not assessed.
 
 ## CON-273 — Fog and detection gate actionable hostile state
@@ -5171,7 +5184,8 @@
 - Excludes: companion SAN; custom world-setting multipliers; one boss timer.
 - Parameters: hunger, temperature, protection, stamina, health, armour,
   durability, food and recovery.
-- Evidence: [Palworld decomposition](../games/m-r/palworld.md).
+- Evidence: [Palworld decomposition](../games/m-r/palworld.md) and
+  [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
 - Novelty: not assessed.
 
 ## CON-282 — Main-story encounters require ordered authored gates
@@ -5435,19 +5449,22 @@
 - Evidence: [Rust decomposition](../games/m-r/rust.md).
 - Novelty: not assessed.
 
-## CON-297 — Crafting requires ingredients, knowledge and Workbench tier
+## CON-297 — Crafting requires ingredients, knowledge and station context
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: a personal craft request is legal only when the avatar owns its
-  ingredients, knows the recipe, is near any required Workbench tier and has
-  queue capacity for the declared output.
-- Includes: Rust hand-crafting, including Workbench-3 C4.
+  ingredients, knows the recipe, satisfies any required station tier, proximity
+  and operating conditions and has capacity for the declared output.
+- Includes: Rust hand-crafting, including Workbench-3 C4; Valheim recipes at an
+  eligible covered Workbench.
 - Excludes: Furnace smelting; Recycler conversion; recipe research.
-- Parameters: recipe, ingredients, blueprint, tier, proximity, queue and output.
-- Evidence: [Rust decomposition](../games/m-r/rust.md).
+- Parameters: recipe, ingredients, blueprint/knowledge, station, tier,
+  proximity, cover/operating state, queue and output.
+- Evidence: [Rust decomposition](../games/m-r/rust.md) and
+  [Valheim decomposition](../games/s-z/valheim.md).
 - Novelty: not assessed.
 
 ## CON-298 — Workbench progression requires ordered tiers and fragments
@@ -5888,11 +5905,12 @@
   that response is currently unlocked and its input lands inside the attack's
   matching real-time window.
 - Includes: Clair Obscur: Expedition 33 defensive timing gates and the wider
-  dodge than parry window.
+  dodge than parry window; Black Myth: Wukong Perfect Dodge timing.
 - Excludes: passive evasion chance; an accessibility option that automates a
   prompt; selecting a skill during the character's turn.
 - Parameters: response type, unlock, cue, window, difficulty and assist mode.
-- Evidence: [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md).
+- Evidence: [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md)
+  and [Black Myth: Wukong decomposition](../games/a-f/black-myth-wukong.md).
 - Novelty: not assessed.
 
 ## CON-325 — Picto slots and Lumina points bound passive build
@@ -6180,14 +6198,16 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: clock expiry extends a Convergence phase only while attackers
-  maintain the mode's current capture or escort contest condition; once that
-  pressure clears long enough, defence receives the terminal result.
-- Includes: Marvel Rivals Convergence capture-point and mission-vehicle overtime.
+- Definition: clock expiry extends an asymmetric objective phase only while
+  attackers maintain that ruleset's current capture, escort or touch-renewal
+  condition; once legal pressure clears, defence receives the terminal result.
+- Includes: Marvel Rivals Convergence capture-point and mission-vehicle
+  overtime; Team Fortress 2 Payload pressure and its five-second renewal window.
 - Excludes: automatic extra time with no objective presence; competitive
   tournament tie-break maps; a checkpoint's ordinary time award.
 - Parameters: clock, phase, attacker presence, contest, decay, clearance and result.
-- Evidence: [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md).
+- Evidence: [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md) and
+  [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md).
 - Novelty: not assessed.
 
 ## CON-342 — Custom character creation obeys compatible build budgets
@@ -6264,15 +6284,17 @@
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: a legal combat loadout must select one class and use only the
-  Training Paths, gadget slots, class gadgets, throwable and currently
-  available weapons permitted for that class and playlist.
+  weapons, capability paths, gadget slots, class tools and throwables permitted
+  for that class and playlist.
 - Includes: Battlefield 6 Open Weapons Conquest loadouts with class-bound
-  gadgets, Training Paths and signature equipment.
+  gadgets, Training Paths and signature equipment; the controlled Team
+  Fortress 2 class's always-available stock weapon set in Casual Payload.
 - Excludes: cosmetic customisation; switching the active carried weapon;
   Closed Weapons as the scoped playlist.
 - Parameters: class, playlist, unlock state, Training Path, weapon availability,
   attachment points, gadget slots and throwable.
-- Evidence: [Battlefield 6 decomposition](../games/a-f/battlefield-6.md).
+- Evidence: [Battlefield 6 decomposition](../games/a-f/battlefield-6.md) and
+  [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md).
 - Novelty: not assessed.
 
 ## CON-347 — Redeployment requires a ready and legal team source
@@ -6307,7 +6329,8 @@
   capture-to-escort phase ordering.
 - Parameters: area, team, living state, vehicle eligibility, occupancy,
   opposing presence, contest and progress direction.
-- Evidence: [Battlefield 6 decomposition](../games/a-f/battlefield-6.md).
+- Evidence: [Battlefield 6 decomposition](../games/a-f/battlefield-6.md) and
+  [War Thunder decomposition](../games/s-z/war-thunder.md).
 - Novelty: not assessed.
 
 ## CON-349 — Authored route edges require their acquired capability
@@ -6407,12 +6430,14 @@
 - Definition: a weapon move resolves only when its current stamina, sharpness
   or ammunition requirement and previous-animation recovery state permit it.
 - Includes: Monster Hunter Wilds melee stamina and sharpness, ranged ammunition
-  and committed weapon animations.
+  and committed weapon animations; Black Myth: Wukong staff, dodge and sprint
+  stamina plus committed recovery state.
 - Excludes: target-body legality after the move begins; inventory capacity;
   long-term smithy upgrade requirements.
 - Parameters: weapon, move, stamina, sharpness, ammunition, charge, recovery
   frame and cancel rule.
-- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md)
+  and [Black Myth: Wukong decomposition](../games/a-f/black-myth-wukong.md).
 - Novelty: not assessed.
 
 ## CON-355 — Focus Strike requires highlighted reachable body state
@@ -6599,7 +6624,8 @@
   an autonomous machine's continuous production state.
 - Parameters: recipe, input, quantity, inventory source, source priority,
   station set, environment and reach.
-- Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Evidence: [Terraria decomposition](../games/s-z/terraria.md) and
+  [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
 - Novelty: not assessed.
 
 ## CON-367 — Town housing requires a safe furnished room and valid home tile
@@ -6869,6 +6895,8 @@
 - Parameters: source, allied relation, damage type, area geometry, collision,
   mitigation, self-damage and lethal threshold.
 - Evidence: [Helldivers 2 decomposition](../games/g-l/helldivers-2.md).
+- Additional support: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md),
+  for Normal Campaign friendly-fire damage among Survivors.
 - Novelty: not assessed.
 
 ## CON-382 — Teammate return requires a live signal and shared stock
@@ -7027,6 +7055,8 @@
 - Parameters: actor state, target class and state, reach, duration, movement,
   interruption, co-worker capacity and saved-progress rule.
 - Evidence: [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md).
+- Additional support: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md),
+  for interruptible first-aid and incapacitated-teammate revival channels.
 - Novelty: not assessed.
 
 ## CON-391 — Health and Hook state bound Survivor control
@@ -7933,6 +7963,9 @@
 - Parameters: fighter, control type, facing, ground/air state, recovery, input
   buffer, command sequence, cancel window and target relation.
 - Evidence: [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
+- Additional support: [Brawlhalla decomposition](../games/a-f/brawlhalla.md),
+  for ground/air, weapon, recovery and dodge state gating one platform-fighter
+  command vocabulary.
 - Novelty: first isolated for `GAME-0172`; it binds a character-owned fighting
   command vocabulary to transient live pose and recovery state.
 
@@ -8451,3 +8484,902 @@
 - Evidence: [Microsoft Flight Simulator 2024 decomposition](../games/m-r/microsoft-flight-simulator-2024.md).
 - Novelty: first isolated for `GAME-0180`; a non-competitive simulation terminal
   is made explicit by a complete destination systems reversal and durable record.
+
+## CON-474 — Role Queue fixes a one-two-two team composition
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: each five-player team contains exactly one Tank slot, two Damage
+  slots and two Support slots, and a matched player may occupy only the role
+  committed before matchmaking.
+- Includes: ordinary Overwatch 5v5 Role Queue in Quick Play.
+- Excludes: Open Queue; temporary 6v6 Flex or Dynamic Queue; selecting a
+  different hero inside the already committed role.
+- Parameters: team size, roles, slot counts, player commitment and queue type.
+- Evidence: [Overwatch decomposition](../games/m-r/overwatch.md).
+- Novelty: first isolated for `GAME-0181`; the exact team topology is enforced
+  by pre-match queue authority rather than emergent composition.
+
+## CON-475 — Hero selection requires role, uniqueness and spawn authority
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a player may select or swap only to a hero inside the committed
+  role, not currently occupied by an ally, and only while the team's legal
+  spawn selection state permits the change.
+- Includes: Overwatch Role Queue opening selection and same-role counter-swap
+  after a team-spawn return.
+- Excludes: Marvel Rivals Team-Up partner requirements; open-role switching;
+  cosmetic skin selection.
+- Parameters: role, hero, allied occupancy, spawn state, current life and
+  effective selection time.
+- Evidence: [Overwatch decomposition](../games/m-r/overwatch.md).
+- Novelty: first isolated for `GAME-0181`; team uniqueness and reversible hero
+  identity remain inside a pre-committed role boundary.
+
+## CON-476 — Control terminal progress requires legal objective pressure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: percentage advances only for the current point owner, and a
+  nominal terminal cannot end the round while an eligible opposing hero
+  maintains the declared contest or takeover pressure at the active point.
+- Includes: ordinary Overwatch Control scoring and overtime contest.
+- Excludes: eliminations outside the point; Convergence escort proximity;
+  bomb-device overtime or a fixed extension without objective presence.
+- Parameters: ownership, percentage, point occupancy, opposing presence,
+  contest, takeover, terminal threshold and overtime decay.
+- Evidence: [Overwatch decomposition](../games/m-r/overwatch.md).
+- Novelty: first isolated for `GAME-0181`; a symmetric ownership score and its
+  terminal are both gated by the same live neutral-point pressure.
+
+## CON-477 — One active National Focus obeys its branch gates
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a country may progress only one selected National Focus at a time,
+  and the target must satisfy every declared prerequisite, branch exclusion and
+  current-country condition.
+- Includes: the base-game Italian focus choice in the tutorial.
+- Excludes: parallel research slots; a law gated only by political cost; a
+  completed focus's passive effect.
+- Parameters: focus, active slot, prerequisite set, mutual exclusion, condition,
+  cancellation and completion state.
+- Evidence: [Hearts of Iron IV decomposition](../games/g-l/hearts-of-iron-iv.md).
+- Novelty: first isolated for `GAME-0182`; one national branch channel combines
+  graph reachability with exclusive ongoing commitment.
+
+## CON-478 — Research requires a free slot and reachable technology
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a technology can receive national research progress only in an
+  available slot after its mandatory prerequisites are complete, with declared
+  date and bonus rules modifying rather than bypassing the work.
+- Includes: Italian industrial, electronic, land and air research in the scoped
+  1936 tutorial.
+- Excludes: National Focus selection; building-local research; a technology
+  granted outright by an event.
+- Parameters: slot, technology, prerequisite, year, ahead-of-time modifier,
+  bonus, progress and completion.
+- Evidence: [Hearts of Iron IV decomposition](../games/g-l/hearts-of-iron-iv.md).
+- Novelty: first isolated for `GAME-0182`; parallel national slots and historical
+  timing qualify a persistent technology graph.
+
+## CON-479 — State capacity and civilian factories gate construction
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a national construction entry is legal only in a state with the
+  required ownership, building capacity and target-specific conditions, and it
+  advances only from currently assignable civilian factory work.
+- Includes: infrastructure and factory construction in eligible Italian states.
+- Excludes: equipment production; instant event-built structures; worker-based
+  foundation construction.
+- Parameters: state, ownership, slot or level cap, target, factories, queue,
+  modifier, repair and legal progress.
+- Evidence: [Hearts of Iron IV decomposition](../games/g-l/hearts-of-iron-iv.md).
+- Novelty: first isolated for `GAME-0182`; national mobile work capacity is
+  jointly gated by a persistent spatial state container.
+
+## CON-480 — Equipment production requires unlocks, factories and resources
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a military production line can output only an unlocked equipment
+  type with assigned operational factories, while missing strategic resources
+  reduce its legal effective output.
+- Includes: Italian infantry equipment, artillery and aircraft production.
+- Excludes: construction of civilian buildings; equipment distribution;
+  resources that affect only trade outside the scoped loop.
+- Parameters: equipment, technology, factory, assignment cap, resource need,
+  satisfaction, efficiency and output penalty.
+- Evidence: [Hearts of Iron IV decomposition](../games/g-l/hearts-of-iron-iv.md).
+- Novelty: first isolated for `GAME-0182`; portfolio legality, shared factory
+  capacity and input shortage jointly bound continuing national output.
+
+## CON-481 — Army plans require legal formation and geography
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a battle plan or manual army order can govern only assigned
+  divisions under valid command and must reference reachable provinces, a legal
+  hostile border or destination and the current movement/combat state.
+- Includes: Italian fronts and offensive lines against Ethiopia.
+- Excludes: changing factory allocation; aircraft-region assignment; a purely
+  decorative map annotation.
+- Parameters: army, commander, division assignment, command limit, frontline,
+  destination, adjacency, access, path, control and execution state.
+- Evidence: [Hearts of Iron IV decomposition](../games/g-l/hearts-of-iron-iv.md).
+- Novelty: first isolated for `GAME-0182`; hierarchical ownership and live
+  political geography gate persistent multi-agent instruction fields.
+
+## CON-482 — Rail, hub and local capacity bound division supply
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a division can receive no more supply than the connected capital-
+  to-hub route, hub throughput, available transport and local delivery state can
+  legally provide against concurrent demand.
+- Includes: undersupplied or motorised Italian divisions in East Africa.
+- Excludes: equipment stockpile quantity alone; an inventory slot cap; a unit's
+  direct movement path.
+- Parameters: connected route, bottleneck rail, train, hub, truck, motorisation,
+  terrain, weather, demand, delivered supply and penalty.
+- Evidence: [Hearts of Iron IV decomposition](../games/g-l/hearts-of-iron-iv.md).
+- Novelty: first isolated for `GAME-0182`; nested network and last-mile limits
+  directly bound the effectiveness of fielded strategic agents.
+
+## CON-483 — Air missions require viable aircraft, base, range and fuel
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: an air wing can perform a selected mission only with compatible
+  operational aircraft at a viable base whose range reaches the region and
+  while required fuel and mission conditions remain available.
+- Includes: Italian fighter and close-air-support missions over Ethiopia.
+- Excludes: aircraft factory output; direct piloting; non-operational stored
+  aircraft.
+- Parameters: wing, aircraft class, strength, base capacity, region, range,
+  coverage, fuel, weather, mission compatibility and efficiency.
+- Evidence: [Hearts of Iron IV decomposition](../games/g-l/hearts-of-iron-iv.md).
+- Novelty: first isolated for `GAME-0182`; regional agent scheduling is jointly
+  bounded by a spatial origin, operational stock and consumable support.
+
+## CON-484 — Surrender threshold gates country capitulation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: ordinary territorial losses do not capitulate a country until
+  weighted controlled victory points and modifiers cross its current surrender
+  threshold and the war has a legal terminal settlement state.
+- Includes: Ethiopian capitulation in the scoped tutorial war.
+- Excludes: winning one land battle; occupying an unweighted border province;
+  post-war resistance.
+- Parameters: country, victory points, controlled share, surrender limit,
+  modifiers, progress, remaining belligerents and settlement eligibility.
+- Evidence: [Hearts of Iron IV decomposition](../games/g-l/hearts-of-iron-iv.md).
+- Novelty: first isolated for `GAME-0182`; spatially distributed losses must
+  aggregate past a country-specific threshold before the opponent leaves war.
+
+## CON-485 — Weapon and passive offers obey separate run slot caps
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an ordinary level-up may offer a new item only while its weapon
+  or passive class has capacity, and may offer an owned item only below its
+  declared maximum level; each offer contains no duplicate option.
+- Includes: Vampire Survivors' ordinary six weapon and six passive-item level-up
+  capacities under the scoped clean-save run.
+- Excludes: stage items that may exceed normal level-up capacity; DLC-specific
+  slot exceptions; permanent PowerUp purchases.
+- Parameters: weapon slots, passive slots, owned set, item class, item maximum,
+  offer uniqueness, eligibility pool and exception.
+- Evidence: [Vampire Survivors decomposition](../games/s-z/vampire-survivors.md).
+- Novelty: first isolated for `GAME-0183`; two parallel capped build classes
+  jointly constrain repeated random drafts during a live survival stage.
+
+## CON-486 — Weapon evolution requires mature base, counterpart and chest
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an ordinary base weapon can evolve only when it has reached its
+  required level, its specified passive counterpart is held and the collected
+  chest is authorised to award evolutions for the current stage and time.
+- Includes: maximum-level Whip plus Hollow Heart and an eligible Mad Forest
+  chest producing Bloody Tear.
+- Excludes: ordinary weapon levelling; DLC unions and gifts; character-specific
+  automatic evolution or all-chest exceptions.
+- Parameters: base weapon, required level, passive counterpart, counterpart
+  level, chest, stage, minute, eligibility exception and evolved result.
+- Evidence: [Vampire Survivors decomposition](../games/s-z/vampire-survivors.md).
+- Novelty: first isolated for `GAME-0183`; build maturity and a typed world-drop
+  opportunity jointly gate replacement of an automatic weapon.
+
+## CON-487 — Run remains viable only above zero health before the time limit
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the normal survival attempt continues only while the avatar has
+  positive health or an eligible revival; reaching zero before the authored
+  stage limit fails the attempt, while reaching the limit first satisfies stage
+  completion before the terminal Reaper cleanup.
+- Includes: a fresh-save Antonio normal Mad Forest run without revival PowerUps.
+- Excludes: Endless mode; a multi-node health resource between separate rooms;
+  Reaper defeat as a mandatory success condition.
+- Parameters: current health, revival count, stage time, time limit, early death,
+  completion order and Reaper transition.
+- Evidence: [Vampire Survivors decomposition](../games/s-z/vampire-survivors.md).
+- Novelty: first isolated for `GAME-0183`; the same health threshold changes
+  meaning according to whether the authored survival clock has completed.
+
+## CON-488 — Ground-vehicle fire requires a loaded legal ballistic solution
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a ground-vehicle weapon can release its selected ammunition only
+  while ammunition remains, reload has completed and the current gun traverse,
+  elevation and line permit that shot; a predicted penetration colour is
+  advisory and does not waive the physical impact test.
+- Includes: the M2A4 and LVT(A)(1) 37 mm guns and M2A2 heavy machine gun in the
+  scoped War Thunder Ground Arcade match.
+- Excludes: temporary aircraft weapons; unlimited abstract attacks; treating a
+  green aim indicator as guaranteed penetration.
+- Parameters: weapon, ammunition, loaded state, reload time, traverse,
+  elevation, line of fire, dispersion, impact prediction and penetration test.
+- Evidence: [War Thunder decomposition](../games/s-z/war-thunder.md).
+- Novelty: first isolated for `GAME-0184`; visible aim assistance predicts a
+  later physical armour test while finite ammunition and mechanism state still
+  gate release.
+
+## CON-489 — Ground Arcade permits at most three scoped lineup spawns
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player may commit no more than three ground-vehicle spawns in
+  one Arcade battle and, with backups excluded, a vehicle already spawned from
+  the fixed lineup is not eligible for another scoped spawn.
+- Includes: at most one sortie each from M2A4, LVT(A)(1) and M2A2 in the scoped
+  USA Rank I lineup.
+- Excludes: temporary aircraft events; universal backups; Ground Assault's
+  repeated same-vehicle spawns; Realistic spawn-point economy.
+- Parameters: ground spawn cap, lineup, prior use, backup ownership, compatible
+  vehicle, remaining selections and exhaustion.
+- Evidence: [War Thunder decomposition](../games/s-z/war-thunder.md).
+- Novelty: first isolated for `GAME-0184`; the tactical life budget is a short
+  sequence of distinct preselected vehicles rather than identical respawns or
+  one team's freely addressable deployment network.
+
+## CON-490 — Starter Deck Duel admits only one supplied deck
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: entry to the match requires choosing one unedited deck from the
+  event's supplied starter set; the game has no construction or sideboard
+  revision boundary.
+- Includes: selecting the official 60-card Arcane Aerialists list for the
+  scoped MTG Arena Starter Deck Duel match.
+- Excludes: Standard deck construction; collection ownership or crafting;
+  sideboarding between games; every other event or format.
+- Parameters: event, supplied deck set, chosen list, card count, edit lock,
+  sideboard availability and match count.
+- Evidence: [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
+- Novelty: first isolated for `GAME-0185`; a live player-versus-player card
+  match begins from one immutable event-supplied deck rather than a run-built
+  or collection-built list.
+
+## CON-491 — Ordinary land play requires the active main phase
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the active player may ordinarily play at most one land during
+  their own turn, only in a main phase while the stack is empty and they have
+  priority.
+- Includes: one ordinary Plains, Island, Tranquil Cove or Temple of
+  Enlightenment play per Arcane Aerialists turn.
+- Excludes: mana abilities; effects that put lands onto the battlefield;
+  casting a spell card; additional land plays created by card text.
+- Parameters: active player, turn, land-play count, main phase, stack state,
+  priority and rule-modifying effects.
+- Evidence: [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
+- Novelty: first isolated for `GAME-0185`; the resource base grows through a
+  once-per-turn special action with stricter timing than its later mana use.
+
+## CON-492 — Spell and ability timing follows priority and object type
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a spell or activated ability may be committed only while its
+  controller has priority and its card type, current phase, stack state,
+  targets and any text-specific timing restrictions permit that action.
+- Includes: Arcane Aerialists instants responding in priority windows and
+  ordinary creature or sorcery spells requiring the controller's main phase
+  and an empty stack.
+- Excludes: whether available mana can pay the cost; post-cast effect
+  resolution; mana abilities whose activation can occur during payment.
+- Parameters: priority, active player, card type, phase, step, stack state,
+  target, timing text and exception.
+- Evidence: [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
+- Novelty: first isolated for `GAME-0185`; the same held resource can be legal
+  in one nested response window and illegal in the adjacent one.
+
+## CON-493 — Attacker declaration obeys readiness and attack restrictions
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an attacking creature must be controlled by the active player,
+  be untapped, obey every attack restriction and ordinarily have been under
+  that player's control continuously since the turn began unless it has haste.
+- Includes: selecting ready Arcane Aerialists creatures during the declare-
+  attackers step and tapping the declared attackers.
+- Excludes: defender block legality; spell targeting; combat-damage assignment.
+- Parameters: controller, active player, tapped state, control duration, haste,
+  restriction, requirement, cost and defender.
+- Evidence: [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
+- Novelty: first isolated for `GAME-0185`; persistent creature readiness and
+  control history jointly bound a simultaneous offensive subset.
+
+## CON-494 — Block assignment obeys readiness and evasion relations
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a blocking creature must be controlled by the defender and
+  untapped, and each attacker-blocker relation must satisfy all current evasion,
+  restriction, requirement and cost rules.
+- Includes: Arcane Aerialists flying creatures blocking attackers with flying,
+  while ordinary ground creatures cannot block a flying attacker.
+- Excludes: declaring attackers; later damage assignment; destroying a blocker
+  after it has legally blocked.
+- Parameters: blocker, attacker, controller, tapped state, flying, reach,
+  restrictions, requirements, multiplicity and costs.
+- Evidence: [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
+- Novelty: first isolated for `GAME-0185`; defensive assignment is a typed
+  relation whose legality depends on both endpoints and current keyword state.
+
+## CON-495 — Cleanup reduces the active hand to its maximum size
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during cleanup, the active player whose hand exceeds the current
+  maximum must choose and discard enough cards to reach that limit, normally
+  seven.
+- Includes: discarding an eighth or later Arcane Aerialists card at the scoped
+  turn's cleanup step.
+- Excludes: a hard hand capacity that prevents earlier draws; mulligan bottoming;
+  discarding as a spell cost.
+- Parameters: current hand count, maximum hand size, excess count, chosen cards,
+  graveyard destination and modifying effects.
+- Evidence: [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
+- Novelty: first isolated for `GAME-0185`; temporary over-capacity is legal
+  until a fixed phase boundary forces a player-selected reduction.
+
+## CON-496 — Harvesting requires compatible reach, target and tool state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a world resource can be harvested only when the survivor is within interaction reach and its current source class accepts the chosen bare-hand action or an equipped compatible tool with remaining durability.
+- Includes: picking grass or twigs by hand and chopping trees, mining boulders or digging stumps with the corresponding tool in scoped Don't Starve Together.
+- Excludes: whether the source has regrown after depletion; combat-target reach; recipe ingredient requirements.
+- Parameters: survivor, target, target state, reach, action class, required tool, equipped tool and durability.
+- Evidence: [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
+- Novelty: first isolated for `GAME-0186`; spatial reach, source state and typed tool authority jointly gate the recurrent input economy.
+
+## CON-497 — Darkness survival requires a live local light source
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during complete darkness a survivor must remain inside an active compatible illumination field or create one in time; otherwise ordinary interaction is suppressed and the darkness attacker can strike.
+- Includes: maintaining a Campfire, Fire Pit, Torch or other ordinary scoped light through night.
+- Excludes: winter warmth when ambient light remains; Sanity threshold effects; character-specific night vision.
+- Parameters: survivor, world phase, ambient light, source, light radius, fuel state, interaction authority, warning and darkness attack.
+- Evidence: [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
+- Novelty: first isolated for `GAME-0186`; continuous local illumination is a hard embodied-action precondition rather than only a visibility aid.
+
+## CON-498 — Science-tier recipes require proximity until personally prototyped
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a survivor may craft a science-tier recipe only while near a station that exposes the required tier, unless that same survivor has already completed its first prototype and retained the recipe knowledge.
+- Includes: Science Machine and Alchemy Engine recipe access for each scoped Wilson survivor.
+- Excludes: ingredient availability; station placement legality; account-level unlocks; recipes that require no science tier.
+- Parameters: survivor, recipe, required tier, nearby station, station state, personal prototype flag and knowledge retention.
+- Evidence: [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
+- Novelty: first isolated for `GAME-0186`; a station gate changes permanently for one actor after successful local use while remaining closed for an uninitiated partner.
+
+## CON-499 — Survival-fixture placement requires compatible clear ground
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a crafted deployable fixture can be committed only when its footprint is positioned on compatible world terrain without a blocking structure, entity or forbidden overlap.
+- Includes: finding legal Forest ground for a Fire Pit, Science Machine, Alchemy Engine, Crock Pot or Chest.
+- Excludes: paying the recipe ingredients; moving an already placed fixture; arbitrary base-layout optimisation.
+- Parameters: fixture, footprint, terrain, obstruction, overlap, range, preview validity and placement position.
+- Evidence: [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
+- Novelty: first isolated for `GAME-0186`; a crafted output remains unusable until its persistent service footprint passes a world-space compatibility test.
+
+## CON-500 — Telltale revival requires a living giver and compatible ghost target
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: revival with a Telltale Heart requires a living survivor who has paid its material and health cost, carries the completed heart and gives it within reach to another player's ghost, which cannot use it on itself.
+- Includes: one scoped Wilson crafting a Telltale Heart from Cut Grass and a Spider Gland at a 40-health cost and reviving the partner ghost with the declared maximum-health penalty.
+- Excludes: self-revival; Endless-mode portal revival; Touch Stones or other revival items outside the transition trace.
+- Parameters: giver life state, crafting materials, health cost, carried heart, ghost identity, reach, item consumption and revival penalty.
+- Evidence: [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
+- Novelty: first isolated for `GAME-0186`; the recovery resource is craftable without science but remains unusable unless cooperation spans two different life states.
+
+## CON-501 — Sanity threshold gates hostile shadow physicality
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a shadow creature may become a physically attacking target for a survivor only after that survivor's sanity falls below the applicable threshold, with full aggression below the lowest threshold.
+- Includes: shadow-creature visual stages and hostility below fifteen percent sanity in the scoped Forest world.
+- Excludes: ordinary hostile creatures; whether darkness changes sanity; visual distortion with no current mechanical target.
+- Parameters: survivor, sanity maximum, current percentage, visibility threshold, physicality threshold, aggression threshold and shadow creature.
+- Evidence: [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
+- Novelty: first isolated for `GAME-0186`; one actor's internal meter determines whether the same perceived entity can enter embodied combat with that actor.
+
+## CON-502 — Class changes require legal team-spawn authority
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: selecting another playable class may change the player's
+  controlled body and base kit only through an eligible team-spawn or next-life
+  state; the ruleset permits teammates to select duplicate classes.
+- Includes: initial and mid-match Team Fortress 2 class selection through the
+  current team spawn, including a choice applied on the next legal life.
+- Excludes: changing class in open combat; a unique-hero team gate; a required
+  role composition; cosmetic or alternate-weapon selection.
+- Parameters: player, team, spawn state, living state, current class, next
+  class, effect timing and duplicate policy.
+- Evidence: [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md).
+- Novelty: first isolated for `GAME-0187`; flexible duplicate composition is
+  legal, but embodied class replacement remains bound to spawn authority.
+
+## CON-503 — Duty Support fixes a role-complete preset light party
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: one ordinary Duty Support entry must form a four-member light
+  party with exactly one Tank, one Healer and two DPS, while A Realm Reborn
+  supplies preset NPCs for every role not occupied by the player.
+- Includes: a Gladiator tank entering Sastasha with Eager Conjurer healer,
+  Eager Thaumaturge DPS and Eager Lancer DPS.
+- Excludes: human Duty Finder composition; Overwatch's one/two/two Role Queue;
+  replacing the preset NPCs; an undersized or unrestricted-party run.
+- Parameters: party size, player role, required roles, role counts, preset NPCs,
+  replacement authority and registration eligibility.
+- Evidence: [FINAL FANTASY XIV Online decomposition](../games/a-f/final-fantasy-xiv-online.md).
+- Novelty: first isolated for `GAME-0188`; a private instance completes its
+  exact cooperative role topology with immutable autonomous participants.
+
+## CON-504 — Duty entry and actions obey minimum level and sync cap
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: registration for Sastasha requires a legal combat class at or above
+  the duty minimum, and inside the instance only actions and effective state at
+  or below the level-18 sync boundary remain available.
+- Includes: a Gladiator at level 18 or above entering Sastasha and using the
+  declared level-18-or-lower class and Tank-role kit.
+- Excludes: Paladin actions learned at level 30 or above; unrestricted entry;
+  permanent removal of learned actions after the instance.
+- Parameters: class, actual level, minimum level, sync level, action learn level,
+  effective state, admitted action and suppressed action.
+- Evidence: [FINAL FANTASY XIV Online decomposition](../games/a-f/final-fantasy-xiv-online.md).
+- Novelty: first isolated for `GAME-0188`; entry qualification and temporary
+  action legality share a level boundary without rewriting the retained build.
+
+## CON-505 — Sastasha completion must precede the duty limit
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the required final-boss completion can settle the ordinary duty
+  successfully only while the instantiated Sastasha 90-minute time allowance
+  remains; expiry closes the instance without that completion.
+- Includes: one ordinary synced Sastasha Duty Support run.
+- Excludes: an individual boss enrage not present in this scope; a survival
+  objective satisfied merely by reaching the clock; matchmaking wait time.
+- Parameters: instance start, time allowance, remaining time, expiry, final
+  objective state, abandon state and duty result.
+- Evidence: [FINAL FANTASY XIV Online decomposition](../games/a-f/final-fantasy-xiv-online.md).
+- Novelty: first isolated for `GAME-0188`; a generous shared instance horizon
+  bounds a recoverable multi-encounter route without itself being the success
+  target.
+
+## CON-506 — Focus attacks require accumulated compatible staff state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a Focus-enhanced staff attack resolves only when the current
+  stance/input can consume the held point or charge and the attack has not been
+  invalidated by insufficient resource, interruption or recovery state.
+- Includes: Black Myth: Wukong Chapter 1 Smash-stance heavy and varied attacks
+  consuming accumulated Focus.
+- Excludes: ordinary light attacks with no Focus cost; spell Mana; hidden enemy
+  stagger; experience spent on a skill node.
+- Parameters: stance, attack form, Focus stock, point threshold, charge,
+  stamina, recovery, interruption and consumed amount.
+- Evidence: [Black Myth: Wukong decomposition](../games/a-f/black-myth-wukong.md).
+- Novelty: first isolated for `GAME-0189`; a discrete combat meter becomes legal
+  only through the matching staff commitment rather than any generic ability.
+
+## CON-507 — Temporary transformation requires acquired ready form state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a temporary replacement combat body may be activated only after
+  its form has been acquired, its transformation readiness has recovered and
+  the current avatar state permits the transfer.
+- Includes: Black Myth: Wukong Red Tides after Guangzhi, subject to its current
+  transformation readiness and legal live state.
+- Excludes: cosmetic skin selection; an always-available protagonist switch;
+  autonomous Spirit use; remaining in the form after its duration expires.
+- Parameters: acquisition flag, form, readiness, current body, disabled state,
+  duration or Might and return state.
+- Evidence: [Black Myth: Wukong decomposition](../games/a-f/black-myth-wukong.md).
+- Novelty: first isolated for `GAME-0189`; an earned temporary body is gated by
+  both persistent acquisition and renewable live-form readiness.
+
+## CON-508 — Lock torque is bounded by angle tolerance and pick durability
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a lock can advance only while the current pick angle lies within
+  the lock's concealed tolerance; torque outside that interval is resisted and
+  destroys the finite pick after enough strain.
+- Includes: the declared novice prison-cell lock and finite lockpicks in Skyrim
+  Special Edition's scoped Helgen escape.
+- Excludes: guaranteed opening with a matching key; an unlimited reusable probe;
+  a single opaque probability check with no angular input.
+- Parameters: lock difficulty, sweet-spot interval, pick angle, allowed travel,
+  torque, strain, durability, remaining picks and unlock threshold.
+- Evidence: [The Elder Scrolls V: Skyrim Special Edition decomposition](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md).
+- Novelty: first isolated for `GAME-0190`; one hidden geometric tolerance binds
+  both partial mechanical feedback and destruction of the probing resource.
+
+## CON-509 — Campaign army routes require movement allowance and reachability
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a campaign army may commit or finish a route only through
+  traversable strategic terrain and within its current movement allowance,
+  subject to blocking armies, settlement contact and stance restrictions.
+- Includes: the Kislev Expedition's scoped movement between Kislev Refuge and
+  the Beacon in Total War: WARHAMMER III.
+- Excludes: battle-unit pathfinding; unrestricted map teleportation; one fixed
+  board step with no replenishing allowance.
+- Parameters: army, terrain, route, allowance, stance, obstruction, destination,
+  settlement, encounter radius and remaining movement.
+- Evidence: [Total War: WARHAMMER III decomposition](../games/s-z/total-war-warhammer-iii.md).
+- Novelty: first isolated for `GAME-0191`; strategic reach is paid by a
+  per-turn army allowance rather than by per-piece discrete move rules.
+
+## CON-510 — Settlement construction requires a legal chain slot and treasury
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a settlement building may be commissioned only when the
+  settlement is owned, a compatible slot and chain tier are available, all
+  prerequisites hold and the treasury can pay the declared cost.
+- Includes: the Kislev Refuge upgrade and Store House in the scoped Total War:
+  WARHAMMER III prologue.
+- Excludes: real-time worker access and foundation geometry; city-yield
+  production; scripted free upgrades.
+- Parameters: owner, settlement tier, slot, chain, prerequisite, treasury,
+  cost, queue occupancy and permitted replacement.
+- Evidence: [Total War: WARHAMMER III decomposition](../games/s-z/total-war-warhammer-iii.md).
+- Novelty: first isolated for `GAME-0191`; a prepaid building-chain choice is
+  gated by fixed settlement capacity rather than free spatial placement.
+
+## CON-511 — Pre-battle placement must remain inside the assigned zone
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: before battle starts, each controlled unit formation must fit
+  entirely within the side's deployment region, on terrain the unit can occupy
+  and without illegal overlap with another committed formation.
+- Includes: the Kislev Expedition's deployment in the first scoped Beacon
+  battle of Total War: WARHAMMER III.
+- Excludes: movement orders after battle starts; off-map reinforcements;
+  cosmetic formation diagrams.
+- Parameters: side, deployment polygon, unit footprint, terrain, overlap,
+  facing, formation width, hidden deployment and start commitment.
+- Evidence: [Total War: WARHAMMER III decomposition](../games/s-z/total-war-warhammer-iii.md).
+- Novelty: first isolated for `GAME-0191`; a temporary side-owned polygon gates
+  the initial geometry of a later real-time battle.
+
+## CON-512 — Disabled Survivors depend on a legal teammate intervention
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an incapacitated, ledge-hanging or hostile-held Survivor cannot
+  restore ordinary movement and combat authority by standard self-input; a
+  living reachable teammate must complete the compatible revive, pull-up or
+  captor-release interaction before bleed-out, continuing harm or separation
+  reaches defeat.
+- Includes: incapacitation and Special Infected holds in Left 4 Dead 2's scoped
+  Single Player Hotel chapter, with stock bots or Coach providing the legal
+  intervention.
+- Excludes: self-revival from a finite stock; ordinary low health with retained
+  movement; a stun that expires automatically; post-death rescue closets.
+- Parameters: Survivor state, captor, reach, living rescuer, interaction type,
+  duration, interruption, bleed-out, continuing damage and defeat threshold.
+- Evidence: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md).
+- Novelty: first isolated for `GAME-0192`; both health-zero helplessness and an
+  enemy-maintained hold impose the same asymmetric teammate authority without
+  sharing one resolution rule.
+
+## CON-513 — Chapter transition requires all living Survivors and a closed door
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an ordinary cooperative map transition remains illegal while any
+  living Survivor is outside the exit checkpoint or while its terminal door is
+  open; only collective occupancy followed by closure can settle the chapter.
+- Includes: The Hotel's ground-floor safe room in the scoped Left 4 Dead 2
+  Single Player Campaign.
+- Excludes: dead Survivors as required occupants; a finale vehicle that may
+  depart with fewer survivors; one-player extraction; merely touching the
+  checkpoint boundary.
+- Parameters: living roster, checkpoint region, per-member occupancy, door
+  state, closure authority, completion predicate and next chapter.
+- Evidence: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md).
+- Novelty: first isolated for `GAME-0192`; a positive map terminal is gated by
+  the conjunction of every surviving body and a player-controlled physical seal.
+
+## CON-514 — Recruitment requires an available offer, denars and party space
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a settlement recruit can join the player's party only while that
+  body remains in the current offer, the party has free capacity and the
+  player's denars cover the displayed hiring price.
+- Includes: hiring Tevea's offered tutorial troops in scoped Mount & Blade II:
+  Bannerlord Campaign.
+- Excludes: production-queue resources and population headroom; prisoner
+  resistance; a scripted free companion; reinforcement after battle start.
+- Parameters: settlement, recruit, offer quantity, denars, price, party limit,
+  current roster, selected quantity and rejection reason.
+- Evidence: [Mount & Blade II: Bannerlord decomposition](../games/m-r/mount-and-blade-ii-bannerlord.md).
+- Novelty: first isolated for `GAME-0194`; local offer stock, money and mobile
+  party capacity jointly gate immediate recruitment.
+
+## CON-515 — Field treatment requires compatible machine, fill and state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a powered field implement can produce accepted treatment only
+  when its vehicle supplies sufficient power and a compatible hitch, the tool
+  is attached and active with remaining admissible material, and the current
+  field/crop state permits that treatment.
+- Includes: the tractor and solid-fertilizer spreader used on the assigned
+  scoped Farming Simulator 25 field.
+- Excludes: merely driving over a field; a hand tool with no coupled vehicle;
+  cosmetic attachment; applying the wrong material; an autonomous abstract
+  production recipe.
+- Parameters: vehicle power, hitch, implement, attachment, activation, fill
+  type, fill amount, field, crop/growth state and treatment eligibility.
+- Evidence: [Farming Simulator 25 decomposition](../games/a-f/farming-simulator-25.md).
+- Novelty: first isolated for `GAME-0196`; productive legality joins vehicle,
+  powered attachment, consumable and persistent surface state.
+
+## CON-516 — Field contract requires accepted target coverage
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a field-work contract may become collectable only when its
+  accepted treated area reaches the ruleset's threshold on the assigned field;
+  passes outside that field, inactive motion and already-counted overlap cannot
+  replace the remaining eligible coverage.
+- Includes: completion of the scoped Farming Simulator 25 Fertilizing contract.
+- Excludes: a fixed route checkpoint order; cargo delivered to a depot; visual
+  full coverage without accepted task progress; an owned-field yield bonus with
+  no contract.
+- Parameters: assigned field mask, eligible area, treated area, overlap policy,
+  progress value, completion threshold and collectable state.
+- Evidence: [Farming Simulator 25 decomposition](../games/a-f/farming-simulator-25.md).
+- Novelty: first isolated for `GAME-0196`; one contract closes through accepted
+  continuous surface coverage rather than object count, route or kill quota.
+
+## CON-517 — Active food slots require distinct foods and eligible digestion state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a food can enter the active survival set only if an available
+  slot or replaceable digestion state exists and no currently active food has
+  the same type; refresh/replacement remains gated by the current food timer.
+- Includes: the scoped Valheim three active food slots.
+- Excludes: inventory stack capacity; eating any quantity into one hunger bar;
+  potion cooldown; choosing an equipment slot.
+- Parameters: slot count, food identity, active set, remaining duration,
+  flashing/replaceable threshold and refresh rule.
+- Evidence: [Valheim decomposition](../games/s-z/valheim.md).
+- Novelty: first isolated for `GAME-0197`; capacity and type uniqueness govern
+  a temporary stat loadout rather than carried storage.
+
+## CON-518 — Forsaken fixtures require matching trophy state and count
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a Forsaken altar or sacrificial stone accepts an interaction only
+  when the carried trophy type, required quantity, addressed boss identity and
+  current summon/mount progression state match that fixture.
+- Includes: two Deer Trophies at Eikthyr's altar and one Eikthyr Trophy at
+  Eikthyr's Sacrificial Stone in the scoped Valheim route.
+- Excludes: displaying a trophy at an ordinary item stand; generic held-item
+  compatibility without boss/count/progression state; collecting boss loot.
+- Parameters: fixture, Forsaken identity, trophy type, quantity, carried state,
+  current boss state, mounted state and mismatch feedback.
+- Evidence: [Valheim decomposition](../games/s-z/valheim.md).
+- Novelty: first isolated for `GAME-0197`; the same trophy vocabulary gates
+  both encounter entry and post-defeat power settlement at different fixtures.
+
+## CON-519 — Aerial actions require current recovery eligibility
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an aerial jump, Recovery, Exhausted Recovery or dodge can begin
+  only while the fighter retains the corresponding count or cooldown state,
+  and only the declared ground, wall, hit or elapsed-time transition can
+  restore that eligibility.
+- Includes: the scoped Brawlhalla off-stage jump, Recovery and dodge gates.
+- Excludes: Rocket League vehicle flip reset; passive flight fuel; ordinary
+  grounded walking; an attack's hitbox legality after it begins.
+- Parameters: action type, current count, cooldown, ground/wall/hit contact,
+  elapsed time, wall-slip state, restored flag and attempted input.
+- Evidence: [Brawlhalla decomposition](../games/a-f/brawlhalla.md).
+- Novelty: first isolated for `GAME-0198`; several human-scale aerial actions
+  use distinct but interacting eligibility gates inside one recoverable
+  platform-fighter trajectory.
+
+## CON-520 — Platform and blast zones bound stock survival space
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: fighters may leave and return to the solid platform while inside
+  the playable surrounding space, but crossing any declared blast-zone
+  boundary converts the current trajectory into a knockout regardless of
+  remaining damage tolerance.
+- Includes: Small Brawlhaven's platform, walls and surrounding blast zones in
+  the scoped Brawlhalla duel.
+- Excludes: hard fighting-game corners with no ring-out; a bottomless platform
+  hazard that resets one checkpoint; static grid boundaries.
+- Parameters: platform geometry, soft/solid surface, wall, playable extent,
+  blast zone, fighter position, trajectory and knockout transition.
+- Evidence: [Brawlhalla decomposition](../games/a-f/brawlhalla.md).
+- Novelty: first isolated for `GAME-0198`; legal off-stage traversal and
+  terminal spatial boundaries coexist around the same combat platform.
+
+## CON-521 — Active weapon must belong to the selected Legend's pair
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a fighter may hold at most one active arena weapon, and a claimed
+  neutral pickup can resolve only to one of the two weapon classes assigned to
+  that fighter's selected Legend; otherwise the fighter remains unarmed.
+- Includes: Bödvar's Sword/Hammer pair in the scoped Brawlhalla match.
+- Excludes: cosmetic skins; persistent inventory capacity; two simultaneous
+  hands; gadgets; selecting one slot from a carried quickbar.
+- Parameters: Legend, compatible pair, previous weapon, active weapon, unarmed
+  state, pickup alternation, throw/disarm and replacement.
+- Evidence: [Brawlhalla decomposition](../games/a-f/brawlhalla.md).
+- Novelty: first isolated for `GAME-0198`; shared generic pickups are typed by
+  the claimant's fighter identity and produce one active command vocabulary.
+
+## CON-522 — Stocks and clock bound one platform-fighter match
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: each participant begins with the declared finite personal stock,
+  each blast-zone knockout removes exactly one, and the match must settle at
+  stock exhaustion or the configured clock boundary under the current Stock
+  rules.
+- Includes: three stocks and an eight-minute clock in the scoped Brawlhalla
+  Bödvar mirror; the accepted research trace requires final-stock settlement
+  before time-over.
+- Excludes: health-zero rounds; team-shared reinforcement stock; an unbounded
+  Training session; tournament sets beyond one in-game match.
+- Parameters: participants, starting stocks, remaining stocks, knockout,
+  match clock, time-over adjudication, accepted terminal and restart rule.
+- Evidence: [Brawlhalla decomposition](../games/a-f/brawlhalla.md).
+- Novelty: first isolated for `GAME-0198`; the same recoverable elimination
+  counter both permits repeated returns and becomes the direct duel terminal.
