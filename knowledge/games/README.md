@@ -242,6 +242,15 @@ Index's short profile remains a game-specific navigation summary.
 - [`GAME-0205` — The Witcher 3: Wild Hunt](s-z/the-witcher-3-wild-hunt.md)
 - [`GAME-0206` — Yu-Gi-Oh! Master Duel](s-z/yu-gi-oh-master-duel.md)
 - [`GAME-0207` — Monster Hunter: World](m-r/monster-hunter-world.md)
+- [`GAME-0208` — Need for Speed Payback](m-r/need-for-speed-payback.md)
+- [`GAME-0209` — Cossacks 3](a-f/cossacks-3.md)
+- [`GAME-0210` — DayZ](a-f/dayz.md)
+- [`GAME-0211` — World of Tanks](s-z/world-of-tanks.md)
+- [`GAME-0212` — Half-Life 2](g-l/half-life-2.md)
+- [`GAME-0213` — STAR WARS Jedi: Fallen Order](s-z/star-wars-jedi-fallen-order.md)
+- [`GAME-0214` — Mafia (2002)](m-r/mafia-2002.md)
+- [`GAME-0215` — It Takes Two](g-l/it-takes-two.md)
+- [`GAME-0216` — Trackmania](s-z/trackmania.md)
 <!-- END GENERATED: COMPLETED_GAMES -->
 
 Use the [game-analysis template](../../templates/GAME_ANALYSIS_TEMPLATE.md) and

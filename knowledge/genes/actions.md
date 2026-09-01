@@ -5446,14 +5446,19 @@
 - Includes: controlling each assigned road, dirt, cross-country and Time Attack
   car in the scoped Forza Horizon 6 opening; steering, accelerating, reversing,
   braking and powersliding one dedicated Rocket League car; driving the fixed
-  Story starter through Need for Speed Unbound's `Shopping Spree` packet.
+  Story starter through Need for Speed Unbound's `Shopping Spree` packet; and
+  driving the fixed Mustang then authored Regera handoff through Need for Speed
+  Payback's `The Highway Heist`; and steering, accelerating and braking the
+  dedicated CarSport vehicle on Trackmania `Summer 2026 - 01`.
 - Excludes: entering and exiting a persistent world vehicle; assigning an
   autonomous transport route; selecting which owned car will become active.
 - Parameters: vehicle, steering, throttle, brake, handbrake, transmission,
   camera, input device and control assistance.
 - Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md) and
   [Rocket League decomposition](../games/m-r/rocket-league.md), and
-  [War Thunder decomposition](../games/s-z/war-thunder.md).
+  [War Thunder decomposition](../games/s-z/war-thunder.md), and
+  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md),
+  and [Trackmania decomposition](../games/s-z/trackmania.md).
 - Novelty: first isolated for `GAME-0171`; `ACT-201` requires an embodied
   enter/seat/exit loop that a dedicated racing-car assignment does not expose.
 
@@ -5486,12 +5491,14 @@
   rivals resolve during eligible driving events.
 - Includes: Forza Horizon 6 steering, braking, transmission, traction,
   stability, driving-line, Rewind and Drivatar difficulty settings; Need for
-  Speed Unbound's Relaxed Story rival/police profile and automatic gearbox.
+  Speed Unbound's Relaxed Story rival/police profile and automatic gearbox;
+  Need for Speed Payback's Easy opponent profile and automatic gearbox.
 - Excludes: changing only rendering quality; tuning a car's mechanical parts;
   selecting a different event or owned vehicle.
 - Parameters: steering, braking, transmission, traction, stability, driving
   line, Rewind, damage, game speed and opponent difficulty.
-- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md) and
+  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
 - Novelty: first isolated for `GAME-0171`; earlier difficulty parameters do not
   expose one coupled driving-control, guidance and autonomous-rival profile.
 
@@ -5505,12 +5512,14 @@
   and commits to its authored route, vehicle eligibility and result rules.
 - Includes: entering the scoped Trail, Circuit, Cross Country, Time Attack and
   Horizon Invitational events in Forza Horizon 6; committing Need for Speed
-  Unbound's available Story `Shopping Spree` marker.
+  Unbound's available Story `Shopping Spree` marker; committing Need for Speed
+  Payback's available `The Highway Heist` Story marker.
 - Excludes: placing a navigation waypoint without starting the event; creating
   a custom route; selecting a multiplayer playlist.
 - Parameters: marker, event type, route, eligibility, solo field, result rule,
   reward and first-completion state.
-- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md) and
+  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
 - Novelty: first isolated for `GAME-0171`; earlier world-node selections launch
   expeditions or narrative tasks rather than one bounded driving ruleset.
 
@@ -5810,12 +5819,14 @@
   vehicle, consuming its current finite reserve to add thrust along the
   vehicle's facing in ground or aerial motion.
 - Includes: Rocket League ground acceleration, aerial ascent and recovery using
-  stored boost.
+  stored boost; Need for Speed Payback conventional nitrous acceleration during
+  the scoped carrier chase.
 - Excludes: passive engine throttle; a permanent unlimited speed modifier;
   consuming a carried medical booster.
 - Parameters: vehicle, reserve, input duration, thrust, facing, velocity,
   supersonic state and release.
-- Evidence: [Rocket League decomposition](../games/m-r/rocket-league.md).
+- Evidence: [Rocket League decomposition](../games/m-r/rocket-league.md) and
+  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
 - Novelty: first isolated for `GAME-0177`; the finite, spatially replenished
   reserve converts current vehicle orientation into optional directed thrust.
 
@@ -7027,3 +7038,167 @@
 - Novelty: first isolated for `GAME-0207`; field maintenance restores a
   repeatedly degraded combat resource through a live interruptible commitment
   without consuming the maintenance tool.
+
+## ACT-379 — Ram one reachable hostile vehicle
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while directly driving, the player commits the controlled
+  vehicle's trajectory into one reachable hostile vehicle to request a
+  damaging contact and accept the resulting loss of speed, position and
+  vehicle condition.
+- Includes: ramming a House Enforcer during the scoped Need for Speed Payback
+  `The Highway Heist` wreck stages.
+- Excludes: accidental traffic contact; firing a mounted weapon; a Rocket
+  League bump whose target returns after a timed demolition respawn; a
+  cinematic crash with no player-authored approach.
+- Parameters: controlled vehicle, hostile target, relative speed, contact
+  angle, road edge, damage, knockback, recovery line and objective credit.
+- Evidence: [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
+- Novelty: first isolated for `GAME-0208`; direct vehicle control becomes a
+  deliberate contact attack whose positional cost competes with a moving
+  mission target.
+
+## ACT-380 — Load or unload selected units through a transport
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects eligible ground units and commits them to
+  enter one reachable transport, or selects the occupied transport and orders
+  its retained passengers to return to traversable ground at an eligible
+  destination.
+- Includes: loading Swedish peasants and soldiers into the ferry and unloading
+  them on the opposite river shore in Cossacks 3 `War Ruse — Peace`.
+- Excludes: moving the ferry itself; an automatic reinforcement landing; a
+  vehicle entered by one directly controlled avatar; units teleported between
+  fixed endpoints.
+- Parameters: selected units, transport, shore, ramp, reachability, capacity,
+  embark interval, passenger state, destination and unload interval.
+- Evidence: [Cossacks 3 decomposition](../games/a-f/cossacks-3.md).
+- Novelty: first isolated for `GAME-0209`; one command moves a selected RTS
+  group between ground authority and retained transport containment.
+
+## ACT-381 — Apply one contextual held-item operation to another item
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player selects one carried item in hands and one compatible
+  inventory or world item, chooses an exposed contextual operation and commits
+  their combination, division, loading, repair or simple crafting action.
+- Includes: DayZ inventory `Combine`, split, load-ammunition, repair and
+  two-item hand-crafting interactions within one fresh-spawn Chernarus life.
+- Excludes: selecting an abstract recipe from a detached crafting queue;
+  equipping unchanged loot; consuming an item directly; automatic contact
+  pickup; arbitrary combinations the current item pair does not expose.
+- Parameters: item in hands, second item, operation, quantity, compatibility,
+  duration, interruption, consumption, condition and output.
+- Evidence: [DayZ decomposition](../games/a-f/dayz.md).
+- Novelty: first isolated for `GAME-0210`; DayZ makes the currently held item
+  and a second concrete item define the available transformation before the
+  system resolves its result.
+
+## ACT-382 — Address nearby survivors through local voice or gesture
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player deliberately emits speech through the current
+  proximity channel or performs a visible body gesture toward nearby human
+  survivors while shared-world control continues.
+- Includes: DayZ proximity voice and emotes used to greet, warn, negotiate,
+  surrender or misdirect a locally perceived stranger.
+- Excludes: a bounded teammate-only tactical channel; an external voice
+  service; automatic pain or illness vocalisation; communication that
+  guarantees truth, alliance or response.
+- Parameters: voice level, spatial range, occlusion, gesture, body state,
+  visible hands, recipients, delay and response.
+- Evidence: [DayZ decomposition](../games/a-f/dayz.md).
+- Novelty: first isolated for `GAME-0210`; communication is a local embodied
+  signal to potentially hostile strangers rather than a trusted team channel.
+
+## ACT-383 — Hold or release a sustained melee guard
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during live melee, the player holds the equipped weapon in a
+  persistent guard or releases that request, accepting continuing guard-meter
+  loss and a possible exposed state when incoming strikes exhaust it.
+- Includes: holding and releasing Cal Kestis's lightsaber block during the
+  scoped Bogano visit in STAR WARS Jedi: Fallen Order.
+- Excludes: an opponent-relative high/low fighting-game guard; choosing an
+  attack direction for a directional block; a single timed parry input; passive
+  armour or a turn-based Defend command.
+- Parameters: weapon, hold, release, incoming strike, guard meter, depletion,
+  exposed state and difficulty.
+- Evidence: [STAR WARS Jedi: Fallen Order decomposition](../games/s-z/star-wars-jedi-fallen-order.md).
+- Novelty: first isolated for `GAME-0213`; an undirected sustained weapon guard
+  remains a player-held request whose finite stability can fail, rather than a
+  direction-matching block or a single reactive timing window.
+
+## ACT-384 — Toggle a vehicle speed limiter
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while directly operating a road vehicle, the player toggles a
+  bounded maximum-speed controller that limits further acceleration above its
+  configured cap without taking away steering, braking or route choice.
+- Includes: toggling the `F5` speed limiter in the scoped Mafia (2002) Chapter
+  2 taxi packet to reduce observed speeding risk.
+- Excludes: autonomous route following; a permanent engine upgrade; an event
+  difficulty setting; ordinary braking; a cruise-control target that actively
+  maintains an arbitrary selected speed.
+- Parameters: controlled vehicle, limiter state, configured cap, current speed,
+  throttle request, road limit, transmission and control binding.
+- Evidence: [Mafia (2002) decomposition](../games/m-r/mafia-2002.md).
+- Novelty: first isolated for `GAME-0214`; the player accepts a reversible
+  acceleration ceiling as a live compliance tool while retaining complete
+  spatial control of the taxi.
+
+## ACT-385 — Throw or recall one role-bound reusable nail
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the assigned player aims one currently available reusable nail
+  at a reachable compatible world target and throws it, or commands one already
+  deployed nail to detach and return to the available hand-held set.
+- Includes: Cody throwing and instantly recalling his bounded nail set during
+  the hammer-and-nails packet of It Takes Two's `The Shed`.
+- Excludes: firing expendable ammunition at a hostile; placing an inventory
+  building part; recalling an autonomous companion; picking up generic loot.
+- Parameters: role, nail identity, available set, aim, target, travel, hit,
+  deployed state, recall input, return delay and rejection.
+- Evidence: [It Takes Two decomposition](../games/g-l/it-takes-two.md).
+- Novelty: first isolated for `GAME-0215`; one direct input reversibly moves a
+  named reusable tool between hand availability and several persistent world
+  roles.
+
+## ACT-386 — Strike a reachable fixture with a role-bound hammer
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the assigned player commits a close hammer swing against one
+  compatible reachable world fixture to request its local impact operation.
+- Includes: May striking marked buttons, route locks, Toolbox locks and the
+  authored launch fixture in It Takes Two's bounded `The Shed` packet.
+- Excludes: an aimed attack against a hostile body; ordinary unarmed
+  interaction; construction repair; a cosmetic swing with no fixture response.
+- Parameters: role, hammer, reach, fixture class, swing timing, contact,
+  impulse, accepted operation and rejection.
+- Evidence: [It Takes Two decomposition](../games/g-l/it-takes-two.md).
+- Novelty: first isolated for `GAME-0215`; a permanent role tool owns typed
+  traversal and boss-fixture impacts without becoming general melee combat.

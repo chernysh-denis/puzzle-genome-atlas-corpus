@@ -1,5 +1,5 @@
 {
-  "version": "GENE_SALIENCE_AND_PLAIN_LANGUAGE_EXPANSION_027",
+  "version": "GENE_SALIENCE_AND_PLAIN_LANGUAGE_EXPANSION_031",
   "roles": [
     "defining",
     "structural",
@@ -6139,6 +6139,78 @@
       "defining": ["ACT-161", "ACT-378", "SYS-215", "SYS-403", "SYS-404", "SYS-405", "SYS-407", "SYS-687", "SYS-688", "CON-354", "CON-356", "INF-157", "INF-158", "OBJ-128", "TIM-003"],
       "structural": ["ACT-008", "ACT-131", "ACT-245", "CON-282", "CON-358", "INF-075", "INF-125"],
       "supporting": ["CON-210", "INF-073"]
+    },
+    "GAME-0208": {
+      "reviewed": "2026-09-01",
+      "noteEn": "Direct vehicle control, deliberate ramming, counted hostile wrecks, moving-carrier stage gates, authored vehicle handoff and retained delivery define the packet; difficulty, event commitment, traffic, checkpoints, entry eligibility and result presentation structure it.",
+      "noteUk": "Цю межу визначають безпосереднє керування автомобілем, навмисний таран, зараховані аварії ворогів, етапи відносно рухомого автовоза, задана передача керування й збережена доставка. Її структуру підтримують складність, вхід до події, потік, контрольні точки, допустимість автомобіля та показ підсумку.",
+      "defining": ["ACT-290", "ACT-379", "SYS-320", "SYS-689", "SYS-690", "SYS-691", "CON-550", "INF-267", "OBJ-129", "TIM-003"],
+      "structural": ["ACT-309", "SYS-365", "SYS-369", "SYS-519", "INF-204", "INF-208"],
+      "supporting": ["ACT-292", "ACT-293", "CON-437", "CON-439", "INF-206"]
+    },
+    "GAME-0209": {
+      "reviewed": "2026-09-01",
+      "noteEn": "Ferry containment, guarded economic ownership, mercenary wage rebellion, live building fire, population famine, a composition-checked regiment and the retained Peace tutorial terminal define the packet; selected workers, construction, queues, formations, combat and the RTS HUD structure it.",
+      "noteUk": "Цю межу визначають перевезення всередині порома, охорона захоплюваної економічної власності, бунт найманців без платні, пожежа будівель у реальному часі, голод населення, полк із перевіреним складом і збережене завершення навчання Peace. Її структуру підтримують вибрані працівники, будівництво, черги, строї, бій та панель RTS.",
+      "defining": ["ACT-380", "SYS-692", "SYS-693", "SYS-694", "SYS-695", "SYS-696", "CON-551", "CON-552", "INF-268", "OBJ-130"],
+      "structural": ["ACT-139", "ACT-189", "ACT-316", "ACT-317", "ACT-318", "SYS-051", "SYS-161", "SYS-215", "SYS-297", "SYS-549", "SYS-550", "SYS-551", "SYS-552", "SYS-553", "SYS-554", "CON-466", "CON-467", "CON-469", "CON-470", "INF-224", "TIM-003"],
+      "supporting": ["ACT-121"]
+    },
+    "GAME-0210": {
+      "reviewed": "2026-09-01",
+      "noteEn": "One fresh identity in a shared Central Economy, contextual held-item transformation, local untrusted communication, blood/shock unconsciousness, treatable pathogens and permanent death define the packet; direct survival, combat, inventory, climate, perception and real-time pressure structure it.",
+      "noteUk": "Цю межу визначають одна нова особа у спільній центральній економіці, контекстне перетворення предметів у руках, місцеве ненадійне спілкування, непритомність через кров і шок, виліковні збудники та незворотна смерть. Її структуру підтримують безпосереднє виживання, бій, спорядження, клімат, сприйняття й тиск реального часу.",
+      "defining": ["ACT-381", "ACT-382", "SYS-345", "SYS-697", "SYS-698", "SYS-699", "SYS-700", "CON-553", "CON-554", "INF-269", "OBJ-076"],
+      "structural": ["ACT-008", "ACT-161", "ACT-165", "ACT-199", "ACT-200", "ACT-311", "SYS-215", "SYS-327", "SYS-339", "SYS-416", "CON-281", "CON-284", "CON-286", "CON-304", "CON-305", "CON-313", "INF-075", "INF-115", "INF-128", "TIM-003"],
+      "supporting": ["ACT-164", "ACT-183", "SYS-208", "SYS-223", "CON-210", "CON-285", "CON-306", "INF-073"]
+    },
+    "GAME-0211": {
+      "reviewed": "2026-09-01",
+      "noteEn": "Aggregate-plus-component armour damage, radio-relayed spotting, damage-reset base capture, one non-returning tank and the destruction/capture/time result define the packet; direct vehicle control, finite fire and live team state structure it.",
+      "noteUk": "Цю межу визначають суміщення загальної міцності з пошкодженнями вузлів, передане радіо виявлення, скидання захоплення після шкоди, один неповоротний танк і підсумок через знищення, базу або час. Їх структурують безпосереднє керування, скінченні постріли й поточний стан команди.",
+      "defining": ["SYS-701", "SYS-702", "SYS-703", "SYS-704", "CON-555", "INF-270", "OBJ-131"],
+      "structural": ["ACT-161", "ACT-290", "CON-262", "CON-488", "INF-116", "TIM-003"],
+      "supporting": ["SYS-320", "INF-115"]
+    },
+    "GAME-0212": {
+      "reviewed": "2026-09-01",
+      "noteEn": "Remote rigid-prop manipulation, collision-bounded holding, attributed prop impact and the authored Ravenholm transition define the packet; first-person movement, combat, local zombie pressure and real-time physics structure it.",
+      "noteUk": "Цю межу визначають дистанційна маніпуляція твердим предметом, обмежене зіткненнями утримання, зарахований удар предметом і авторський перехід із Рейвенгольма. Її структурують рух від першої особи, бій, місцевий тиск зомбі та фізика в реальному часі.",
+      "defining": ["ACT-048", "SYS-705", "SYS-706", "CON-556", "INF-271", "OBJ-026"],
+      "structural": ["ACT-008", "ACT-161", "SYS-146", "SYS-215", "SYS-339", "CON-305", "INF-115", "TIM-003"],
+      "supporting": ["ACT-164", "ACT-183", "ACT-199", "ACT-341", "SYS-348", "SYS-369", "CON-262", "CON-285", "INF-073", "INF-119"]
+    },
+    "GAME-0213": {
+      "reviewed": "2026-09-01",
+      "noteEn": "Sustained breakable guard, attack-restored Force, Meditation trade-offs, retained Wall Run and Holomap reachability colours define the packet; direct combat, authored objectives and real-time traversal structure it.",
+      "noteUk": "Цю межу визначають тривалий вичерпний блок, відновлення Сили атаками, наслідки медитації, збережене вміння Wall Run і кольори доступності голомапи. Її структурують безпосередній бій, авторські цілі й рух у реальному часі.",
+      "defining": ["ACT-383", "SYS-707", "INF-272", "SYS-398", "SYS-364", "OBJ-026"],
+      "structural": ["ACT-008", "ACT-161", "ACT-190", "ACT-200", "ACT-223", "ACT-224", "SYS-215", "SYS-409", "SYS-610", "CON-269", "CON-286", "CON-324", "CON-349", "CON-354", "INF-125", "TIM-003"],
+      "supporting": ["ACT-191", "ACT-341", "SYS-251", "CON-270", "CON-282", "INF-119"]
+    },
+    "GAME-0214": {
+      "reviewed": "2026-09-01",
+      "noteEn": "Five authored passenger fares, live speed compliance, citation-to-arrest escalation and the forced unarmed safehouse escape define the packet; direct vehicle/on-foot control, traffic, wanted search and Story retry structure it.",
+      "noteUk": "Цю межу визначають п’ять заданих пасажирських поїздок, керування швидкістю в русі, посилення покарання від штрафу до арешту й вимушена беззбройна втеча до безпечного місця. Її структурують безпосереднє керування таксі й Томмі, потік, поліцейський пошук і повтор сюжету.",
+      "defining": ["ACT-384", "SYS-708", "SYS-709", "CON-557", "INF-273", "OBJ-132"],
+      "structural": ["ACT-008", "ACT-201", "SYS-215", "SYS-320", "SYS-365", "SYS-366", "CON-288", "CON-328", "CON-429", "INF-125", "INF-204", "TIM-003"],
+      "supporting": ["SYS-369", "CON-282", "CON-330", "INF-119"]
+    },
+    "GAME-0215": {
+      "reviewed": "2026-09-01",
+      "noteEn": "Role-bound hammer input, recallable nail assignment and nail-derived pin, switch or swing state define the packet; mandatory two-human split view, live platform physics and partner recovery structure it.",
+      "noteUk": "Цю межу визначають закріплений за роллю молоток, перепризначення багаторазових цвяхів і похідні від них стани фіксатора, перемикача чи точки для гойдання. Її структурують обов’язкові дві людини, одночасні половини екрана, жива фізика платформ і повернення напарника.",
+      "defining": ["ACT-385", "ACT-386", "SYS-710", "CON-558"],
+      "structural": ["ACT-008", "SYS-036", "SYS-065", "CON-047", "CON-076", "CON-378", "INF-167", "OBJ-086", "TIM-003"],
+      "supporting": ["ACT-049", "SYS-215", "SYS-429", "SYS-430", "INF-001"]
+    },
+    "GAME-0216": {
+      "reviewed": "2026-09-01",
+      "noteEn": "Fixed map-local medal thresholds and the one-track evaluated terminal define the packet; direct car control, live vehicle motion, ordered waypoint validity, timing and retained-result information structure it.",
+      "noteUk": "Цю межу визначають фіксовані медальні пороги конкретної траси й завершення одного оціненого заїзду. Її структурують безпосереднє керування автомобілем, безперервний рух, заданий порядок контрольних точок, відлік часу та збережений результат.",
+      "defining": ["SYS-711", "OBJ-133"],
+      "structural": ["ACT-290", "SYS-320", "SYS-516", "SYS-628", "CON-438", "INF-205", "INF-251", "TIM-003"],
+      "supporting": ["INF-204"]
     }
   }
 }

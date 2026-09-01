@@ -1484,6 +1484,8 @@
 - Parameters: survivor identity, elapsed calendar, living state, terminal
   causes, corpse, reanimation and recorded duration.
 - Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md).
+- Additional support: [DayZ decomposition](../games/a-f/dayz.md), for a
+  fresh-spawn official-server life with no positive terminal before death.
 - Novelty: not assessed.
 
 ## OBJ-077 — Complete the main story through the chosen terminal branch
@@ -2446,3 +2448,104 @@
 - Novelty: first isolated for `GAME-0207`; one evidence-led migrating hunt
   closes only after its discrete result economy and authored assignment flag
   persist at hub control.
+
+## OBJ-129 — Complete and retain The Highway Heist delivery
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete the ordered carrier catch-up, House Enforcer wreck and
+  approach stages, take fixed direct control of the stolen Regera, deliver it
+  to Airfield 73 and reach retained mission and Chapter 2 success.
+- Includes: the fixed Easy, automatic, `LV180` Story replay of `The Highway
+  Heist` in Need for Speed Payback.
+- Excludes: reaching the truck alone; entering the Regera without delivery;
+  another Race or police event; all-campaign completion; Online results.
+- Parameters: mission, entry car, carrier, wreck stages, approach gates,
+  target vehicle, destination, failure, completion, chapter flag and return.
+- Evidence: [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
+- Novelty: first isolated for `GAME-0208`; counted vehicle combat and authored
+  control handoff remain intermediate to a later retained stolen-car delivery.
+
+## OBJ-130 — Complete War Ruse — Peace and return to the campaign
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: satisfy the ordered Peace instructions for settlement economy,
+  regiment, repair, ferry colony, guarded ownership, mercenary breach, Academy
+  and final Town Hall interaction, then reach mission-complete settlement and
+  retained return to the campaign screen.
+- Includes: Cossacks 3 Tutorial campaign mission `War Ruse — Peace` on Normal.
+- Excludes: destroying the enemy barracks without the final instruction; the
+  combat-only `War` tutorial; a historical campaign mission; Random Map victory.
+- Parameters: build, difficulty, mission, objective flags, settlement state,
+  regiment, ferry, capture lesson, barracks, Academy, Town Hall and return state.
+- Evidence: [Cossacks 3 decomposition](../games/a-f/cossacks-3.md).
+- Novelty: first isolated for `GAME-0209`; one authored RTS tutorial requires
+  economy, transport and breach lessons to settle before campaign return.
+
+## OBJ-131 — Win one Standard Battle for the allied tank team
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: make the allied team complete enemy-base capture or destroy every
+  opposing vehicle before the enemy team does either and before the battle
+  limit settles a draw.
+- Includes: one ordinary World of Tanks Standard Battle in the scoped MS-1.
+- Excludes: personal damage, kills, experience or credits; surviving one's own
+  tank as a mandatory condition; other Random Battle types or event modes.
+- Parameters: teams, bases, capture, surviving vehicles, battle limit, victory,
+  defeat and draw.
+- Evidence: [World of Tanks decomposition](../games/s-z/world-of-tanks.md).
+- Novelty: first isolated for `GAME-0211`; the same symmetric tank-team contest
+  admits either full vehicle elimination or opposing-base capture, with a
+  non-winning timed draw as the third result.
+
+## OBJ-132 — Complete five taxi fares and survive the resulting escape
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: settle every fare in the fixed five-passenger Story chain, then
+  survive the authored vehicle-to-foot attack and enter the designated safe
+  location so the mission-complete transition persists.
+- Includes: Mafia (2002) Chapter 2 `The Running Man` through entry into
+  Salieri's Bar and Story advancement.
+- Excludes: one successful fare; Free Ride taxi income; reaching the final
+  street without entering the bar; defeating the attackers; completing the
+  whole campaign.
+- Parameters: fare set, settlement count, transition, attackers, escape route,
+  protagonist health, safe location, mission completion and retained Story flag.
+- Evidence: [Mafia (2002) decomposition](../games/m-r/mafia-2002.md).
+- Novelty: first isolated for `GAME-0214`; a finite service sequence is a
+  prerequisite for a compulsory real-time survival phase whose safe-location
+  settlement supplies the only positive terminal.
+
+## OBJ-133 — Finish one official track and retain its timed medal evaluation
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: drive the dedicated car through every required waypoint of one
+  identified official track in order, cross its valid finish and reach one
+  retained elapsed result with the corresponding fixed medal evaluation.
+- Includes: the first valid Starter Access Solo finish of Trackmania official
+  `Summer 2026 - 01`, UID `buNzfsVlp2NF2oWtHM3729dEylg`.
+- Excludes: merely crossing one checkpoint; earning a particular medal as a
+  mandatory completion gate; maximising leaderboard rank; repeating the track
+  to optimise a personal best; completing the full seasonal campaign.
+- Parameters: official track identity, vehicle, ordered waypoints, valid
+  finish, elapsed result, fixed medal thresholds, retained evaluation and
+  first-result boundary.
+- Evidence: [Trackmania decomposition](../games/s-z/trackmania.md).
+- Novelty: first isolated for `GAME-0216`; unlike Road Master's soft-body
+  mission terminal, this exact positive boundary ends at one official map's
+  retained result plus a fixed medal class while a no-medal valid finish still
+  counts as completion.

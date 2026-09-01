@@ -3808,12 +3808,16 @@
   with the authored or waypoint route cues needed to judge braking and steering.
 - Includes: Forza Horizon 6 speedometer, gear, minimap/GPS and configurable
   driving line in the scoped opening; Need for Speed Unbound speed, gear and
-  `Shopping Spree` route cues.
+  `Shopping Spree` route cues; Need for Speed Payback speed, gear, minimap and
+  Highway Heist route cues; Trackmania `Summer 2026 - 01` speed, gear and
+  authored road/waypoint guidance.
 - Excludes: event eligibility before entry; hidden future traffic; post-event
   settlement.
 - Parameters: speed, gear, route, minimap, driving line, braking cue, waypoint
   and camera.
-- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md) and
+  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md),
+  and [Trackmania decomposition](../games/s-z/trackmania.md).
 - Novelty: first isolated for `GAME-0171`; cargo-driving widgets join speed to
   fuel, rest and damage rather than a race-oriented guidance layer.
 
@@ -3828,12 +3832,14 @@
   sensed rival vehicles needed to revise the racing line.
 - Includes: Forza Horizon 6 Festival races and Time Attack in the scoped route,
   including configurable Proximity Radar; Need for Speed Unbound place,
-  progress and seven-rival race surface.
+  progress and seven-rival race surface; Trackmania `Summer 2026 - 01`
+  checkpoint/course progress, running time and fixed timed target without rivals.
 - Excludes: omniscient future rival paths; free-roam traffic with no event
   result; the final reward panel.
 - Parameters: position, participant count, lap, checkpoint, time, split,
   proximity direction, distance and audio cue.
-- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md)
+  and [Trackmania decomposition](../games/s-z/trackmania.md).
 - Novelty: first isolated for `GAME-0171`; prior opponent HUD genes do not join
   course progress to vehicle proximity and race position.
 
@@ -3848,12 +3854,14 @@
   campaign contribution before entry.
 - Includes: the six exposed Horizon Qualifiers and first Horizon Invitational;
   Need for Speed Unbound's A+ `Shopping Spree` class, `$0` buy-in, payout table,
-  displayed reward and Heat gain.
+  displayed reward and Heat gain; Need for Speed Payback's Story mission, Race
+  class and displayed `LV180` entry terms.
 - Excludes: undiscovered optional content; live race position; post-completion
   Race Customizer options unavailable on first play.
 - Parameters: marker, location, event type, route, car theme, class, unlock,
   progress value and reward.
-- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md) and
+  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
 - Novelty: first isolated for `GAME-0171`; generic mission maps do not expose
   one driving event's course and car-entry contract.
 
@@ -3886,12 +3894,14 @@
   results transition exposes place, time or rating, earned progress and any
   credits, experience, vehicles or campaign unlocks retained from that event.
 - Includes: Forza Horizon 6 Qualifier and first-Wristband settlement panels;
-  Need for Speed Unbound's classified finish and post-pursuit garage result.
+  Need for Speed Unbound's classified finish and post-pursuit garage result;
+  Need for Speed Payback's retained mission and Chapter 2 completion result.
 - Excludes: live HUD values before the finish; an unclaimed Playlist reward;
   hidden future Wheelspin outcomes.
 - Parameters: event, position, time, stars, points, credits, experience, vehicle
   and unlock.
-- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md) and
+  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
 - Novelty: first isolated for `GAME-0171`; delivery results expose contract
   damage and pay, not competitive driving performance and festival progress.
 
@@ -4670,12 +4680,14 @@
 - Definition: after a valid Time Trial finish, the end transition exposes the
   completed elapsed time and its place in the mission's retained result or
   high-score state separately from the live checkpoint HUD.
-- Includes: the scoped BeamNG.drive Road Master completed-time result.
+- Includes: the scoped BeamNG.drive Road Master completed-time result; the
+  Trackmania `Summer 2026 - 01` retained time and fixed medal result.
 - Excludes: live elapsed time before finish; Festival progress and reward
   inventory; hidden online ranking; an unfinished attempt.
 - Parameters: mission, elapsed time, retained entry, comparison value, display
   timing and retry/continue choice.
-- Evidence: [BeamNG.drive decomposition](../games/a-f/beamng-drive.md).
+- Evidence: [BeamNG.drive decomposition](../games/a-f/beamng-drive.md) and
+  [Trackmania decomposition](../games/s-z/trackmania.md).
 - Novelty: first isolated for `GAME-0195`; existing driving result information
   is coupled to Festival rewards, while this record is a standalone retained
   timed evaluation.
@@ -4959,3 +4971,147 @@
 - Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
 - Novelty: first isolated for `GAME-0206`; one digital surface joins positional
   card state and a whole numbered response chain without revealing fixed secrets.
+
+## INF-267 — Heist HUD exposes carrier relation and active wreck stage
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the live driving view exposes the current carrier-relative
+  instruction, eligible hostile markers, accepted wreck count and immediate
+  catch-up or delivery pressure without revealing future waves or exact AI
+  trajectories.
+- Includes: truck target, `2`/`4` House Enforcer quotas, rear/side prompts and
+  Airfield 73 route in Need for Speed Payback's `The Highway Heist`.
+- Excludes: generic speed/gear display; pre-event car eligibility; police Heat;
+  post-result unlocks; an external walkthrough.
+- Parameters: objective text, target marker, target distance, wreck quota,
+  current count, approach cue, route update, failure warning and destination.
+- Evidence: [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
+- Novelty: first isolated for `GAME-0208`; one HUD surface couples hostile
+  contact progress to a moving carrier's changing spatial gate.
+
+## INF-268 — Tutorial adviser exposes the current authored instruction
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the tutorial surface states the current authored objective,
+  explains the relevant legal action or risk and reports completion before
+  advancing to the next instruction, without disclosing the full future chain.
+- Includes: adviser dialogue and current task text throughout Cossacks 3
+  `War Ruse — Peace`.
+- Excludes: the ordinary RTS resource HUD; an external walkthrough; a complete
+  campaign list; dialogue with no mechanically testable instruction.
+- Parameters: objective step, instruction, highlighted actor or command,
+  completion predicate, warning, acknowledgement and next-step reveal.
+- Evidence: [Cossacks 3 decomposition](../games/a-f/cossacks-3.md).
+- Novelty: first isolated for `GAME-0209`; a staged teaching surface reveals
+  one causal RTS dependency and its completion transition at a time.
+
+## INF-269 — Status icons expose categorical body trends, not exact causes
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the survival HUD exposes categorical current health, blood,
+  temperature, energy, hydration, bleeding and sickness state plus eligible
+  directional trends while withholding exact internal values, pathogen
+  identity and future bodily outcome.
+- Includes: the DayZ first-person status area during the scoped official
+  Chernarus life.
+- Excludes: the complete inventory panel; exact debug-monitor statistics;
+  external diagnostic tools; a named disease diagnosis before the rules reveal
+  enough evidence; remote survivor status.
+- Parameters: category, icon, grade, trend, bleeding count, symptom, threshold,
+  hidden value, hidden agent and update interval.
+- Evidence: [DayZ decomposition](../games/a-f/dayz.md).
+- Novelty: first isolated for `GAME-0210`; the interface supports survival
+  diagnosis through categorical direction without disclosing the full body model.
+
+## INF-270 — Tank HUD exposes aim uncertainty, durability and component state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the active-tank interface exposes ammunition and reload readiness,
+  a movement-sensitive aiming circle, vehicle hit points and known crew or
+  module impairment without guaranteeing the next shell's exact impact or
+  penetration result.
+- Includes: Arcade and Sniper aiming views, ammunition, reload, hit points and
+  damage indicators for the scoped World of Tanks MS-1.
+- Excludes: hidden opponent modules before an observed hit; exact future shell
+  dispersion; garage research, economy and service cost.
+- Parameters: ammunition, reload, reticle, dispersion, aim time, hit points,
+  crew, module, impairment, repair and uncertainty.
+- Evidence: [World of Tanks decomposition](../games/s-z/world-of-tanks.md).
+- Novelty: first isolated for `GAME-0211`; one combat display couples a
+  settling accuracy envelope and aggregate tank durability with distinct
+  internal functional warnings.
+
+## INF-271 — Gravity Gun response exposes target and held-object state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the first-person tool effect and visible prop response disclose
+  whether the aimed object is reacting to a pull, attached in the held pose,
+  released, launched or rejected, while leaving its future collision path and
+  damage unresolved.
+- Includes: ordinary Gravity Gun targeting, pull, hold, drop, launch and deny
+  response during the scoped Half-Life 2 Ravenholm chapter.
+- Excludes: exact future impact preview; the general active-weapon/ammunition
+  HUD; hidden object mass as a numeric label; supercharged Gravity Gun state;
+  audio alone as the only evidence channel.
+- Parameters: aimed target, beam/effect state, object motion, held pose, weapon
+  elements, deny response, release state and prediction boundary.
+- Evidence: [Half-Life 2 decomposition](../games/g-l/half-life-2.md).
+- Novelty: first isolated for `GAME-0212`; the manipulation tool exposes the
+  current physical relation before the launched body's open-ended collision
+  result, rather than previewing an exact trajectory or damage value.
+
+## INF-272 — Holographic map colours expose route-edge reachability
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an inspectable three-dimensional map distinguishes unexplored
+  connections, currently openable passages and passages blocked by a missing
+  capability through stable colours, without revealing undiscovered contents
+  or solving the route automatically.
+- Includes: BD-1's Bogano Holomap showing unexplored orange paths, openable
+  green gates and unavailable red gates in STAR WARS Jedi: Fallen Order.
+- Excludes: an external walkthrough; a flat objective marker with no edge
+  state; hidden future collectibles; a guaranteed route chosen by the system.
+- Parameters: discovered volume, edge, colour, unexplored state, current
+  capability, openable gate, blocked gate and objective marker.
+- Evidence: [STAR WARS Jedi: Fallen Order decomposition](../games/s-z/star-wars-jedi-fallen-order.md).
+- Novelty: first isolated for `GAME-0213`; the navigational display classifies
+  each known connection by present reachability rather than only retaining
+  explored geometry or one suggested destination.
+
+## INF-273 — Road HUD exposes offence severity and police pursuit state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the live road interface identifies nearby civilian, police and
+  pursuing vehicles and distinguishes a payable citation, active arrest demand
+  and continuing police search without revealing future patrol paths.
+- Includes: Mafia (2002) radar colours, ticket and handcuff icons, wanted bar,
+  objective cues and the transition from observed offence to pursuit/search.
+- Excludes: a calculated GPS road route; exact hidden police spawn positions;
+  an already-debited traffic-fine toast; post-mission statistics.
+- Parameters: radar contact, contact class, offence icon, citation, arrest,
+  wanted bar, police perception, search state and objective cue.
+- Evidence: [Mafia (2002) decomposition](../games/m-r/mafia-2002.md).
+- Novelty: first isolated for `GAME-0214`; the same visible law surface tells
+  the player whether stopping can still settle the offence or whether evasion
+  has become a terminal arrest risk.

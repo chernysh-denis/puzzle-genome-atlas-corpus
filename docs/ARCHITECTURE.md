@@ -98,6 +98,17 @@ Define Jaccard similarity over the complete typed gene sets:
 sim(a, b) = |U(a) ∩ U(b)| / |U(a) ∪ U(b)|
 ```
 
+Presentation surfaces may also show **smaller-genome coverage** as an
+explanatory containment measure:
+
+```text
+coverage(a, b) = |U(a) ∩ U(b)| / min(|U(a)|, |U(b)|)
+```
+
+Coverage answers how much of the more compact signature is present in the
+shared core. It must be labelled separately and must not replace Jaccard for
+ranking, near-match selection or canonical comparison records.
+
 Every valid genome contains at least one gene, so the denominator is non-zero.
 This formula does not award similarity for two games merely lacking the same
 gene type and introduces no untested type weights.

@@ -212,7 +212,11 @@
   advance; revising Football Manager 26 roles, instructions and substitutions
   while the autonomous match, player condition and clock continue; steering,
   jumping, boosting and contacting the ball while all Rocket League cars, ball
-  physics, pad opportunities and the match clock continue.
+  physics, pad opportunities and the match clock continue; steering, braking,
+  boosting and ramming during Need for Speed Payback while the carrier,
+  Enforcers, traffic, damage and mission pressure continue; steering, braking
+  and crossing waypoints in Trackmania while car motion and the attempt clock
+  continue.
 - Excludes: a discrete input followed by completed automatic resolution;
   self-paced actions with no time-driven state change; an external timer that
   only measures performance.
@@ -261,7 +265,9 @@
   [Football Manager 26 decomposition](../games/a-f/football-manager-26.md), and
   [Rocket League decomposition](../games/m-r/rocket-league.md), and
   [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md), and
-  [War Thunder decomposition](../games/s-z/war-thunder.md).
+  [War Thunder decomposition](../games/s-z/war-thunder.md), and
+  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md),
+  and [Trackmania decomposition](../games/s-z/trackmania.md).
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Additional support: [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md),
   for simultaneous two-player input while survival, fuel, clock and ecology advance.

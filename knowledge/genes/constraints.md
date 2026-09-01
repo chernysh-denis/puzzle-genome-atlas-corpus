@@ -5727,6 +5727,8 @@
 - Parameters: lethal threshold, character identity, corpse, save persistence,
   later character and statistics boundary.
 - Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md).
+- Additional support: [DayZ decomposition](../games/a-f/dayz.md), where the
+  scoped official-server identity cannot continue through the respawn command.
 - Novelty: not assessed.
 
 ## CON-314 — Long-horizon supplies decay under the canonical calendar
@@ -7873,12 +7875,14 @@
   by its current theme, type and performance-class restriction.
 - Includes: Forza Horizon 6 opening Festival events limited to C-class cars
   until the first Wristband; Need for Speed Unbound `Shopping Spree` accepting
-  the fixed A+ Story starter packet.
+  the fixed A+ Story starter packet; Need for Speed Payback `The Highway Heist`
+  accepting an eligible Race car at the displayed `LV180` boundary.
 - Excludes: unrestricted free driving; post-completion Race Customizer rules;
   an event whose fixed vehicle is supplied automatically.
 - Parameters: event, car theme, vehicle type, performance class, PI range,
   ownership and override state.
-- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md) and
+  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
 - Novelty: first isolated for `GAME-0171`; earlier vehicle constraints gate
   seats, fuel, cargo or roads rather than race entry by car theme and class.
 
@@ -7892,12 +7896,14 @@
   crosses every required checkpoint in sequence and completes the declared lap
   count before the finish line is accepted.
 - Includes: Forza Horizon 6 Trail, Circuit, Cross Country, Time Attack and
-  Invitational routes; Need for Speed Unbound `Shopping Spree`.
+  Invitational routes; Need for Speed Unbound `Shopping Spree`; Trackmania
+  `Summer 2026 - 01` ordered checkpoints and valid Finish trigger.
 - Excludes: open-world navigation; a single speed-zone measurement; decorative
   gates with no progress authority.
 - Parameters: checkpoint order, gate width, direction, lap count, reset policy
   and finish eligibility.
-- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md)
+  and [Trackmania decomposition](../games/s-z/trackmania.md).
 - Novelty: first isolated for `GAME-0171`; earlier route constraints govern
   networks or escort anchors rather than one directly driven race traversal.
 
@@ -7911,12 +7917,14 @@
   has exposed its marker and any required prior introduction, progress band or
   invitation has been retained.
 - Includes: Horizon Qualifiers after the Tokyo introduction and the Horizon
-  Invitational only after enough Festival Points are earned.
+  Invitational only after enough Festival Points are earned; Need for Speed
+  Payback's Chapter 2 finale after both required predecessor questlines.
 - Excludes: choosing among already unlocked events; later Race Customizer
   settings; a hidden future Playlist event.
 - Parameters: event, marker, prior gate, progress band, invitation, completion
   and replay state.
-- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md) and
+  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
 - Novelty: first isolated for `GAME-0171`; generic mission gates do not bind a
   map-visible driving-event catalogue to festival campaign state.
 
@@ -8759,12 +8767,15 @@
   elevation and line permit that shot; a predicted penetration colour is
   advisory and does not waive the physical impact test.
 - Includes: the M2A4 and LVT(A)(1) 37 mm guns and M2A2 heavy machine gun in the
-  scoped War Thunder Ground Arcade match.
+  scoped War Thunder Ground Arcade match; the stock MS-1's finite loaded AP
+  fire, gun geometry and uncertain aiming circle in one World of Tanks Standard
+  Battle.
 - Excludes: temporary aircraft weapons; unlimited abstract attacks; treating a
   green aim indicator as guaranteed penetration.
 - Parameters: weapon, ammunition, loaded state, reload time, traverse,
   elevation, line of fire, dispersion, impact prediction and penetration test.
-- Evidence: [War Thunder decomposition](../games/s-z/war-thunder.md).
+- Evidence: [War Thunder decomposition](../games/s-z/war-thunder.md) and
+  [World of Tanks decomposition](../games/s-z/world-of-tanks.md).
 - Novelty: first isolated for `GAME-0184`; visible aim assistance predicts a
   later physical armour test while finite ammunition and mechanism state still
   gate release.
@@ -9872,3 +9883,184 @@
 - Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
 - Novelty: first isolated for `GAME-0206`; per-monster attack history and
   current opposing occupancy gate each sequential combat commitment.
+
+## CON-550 — Complete the current carrier-heist predicate before advancing
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an authored vehicle-heist stage advances only after its current
+  wreck quota, carrier catch-up, rear/side approach or delivery predicate is
+  satisfied; unrecovered carrier separation or vehicle loss fails the attempt.
+- Includes: the ordered two-Enforcer, rear approach, four-Enforcer, before-city
+  catch, side approach and airfield-delivery gates in `The Highway Heist`.
+- Excludes: race checkpoints that merely validate course order; an optional
+  side bet; a player-selected waypoint; decorative camera positioning.
+- Parameters: stage, target, quota, accepted wreck, carrier distance, approach
+  region, recovery bound, delivery region, failure and next-stage authority.
+- Evidence: [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
+- Novelty: first isolated for `GAME-0208`; heterogeneous contact and spatial
+  predicates gate one continuously moving vehicle set-piece sequence.
+
+## CON-551 — Use an eligible shore and capacity for ferry transfer
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: selected units can enter or leave a ferry only when the vessel
+  and passengers can reach a compatible shoreline or ramp, the passenger set
+  fits remaining capacity and the destination ground can accept the unload.
+- Includes: the river crossing in Cossacks 3 `War Ruse — Peace`.
+- Excludes: the ferry's water path; naval attack range; automatic spawn aboard
+  a transport; an abstract global transfer with no shoreline.
+- Parameters: ferry, unit class, passenger count, remaining capacity, shore,
+  ramp, path, destination footprint and obstruction.
+- Evidence: [Cossacks 3 decomposition](../games/a-f/cossacks-3.md).
+- Novelty: first isolated for `GAME-0209`; transport containment is legal only
+  at a shared land-water interface with finite passenger room.
+
+## CON-552 — Assemble the taught infantry regiment from its required members
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the instructed infantry formation becomes available only when
+  the selected same-type soldiers meet its declared count and a compatible
+  officer and drummer are present and reachable in the group.
+- Includes: the 36-pikeman regiment with officer and drummer in Cossacks 3
+  `War Ruse — Peace`.
+- Excludes: arbitrary multi-type selection; formation movement after assembly;
+  a visual group with no membership predicate; every formation count outside
+  the taught packet.
+- Parameters: infantry type, required count, officer, drummer, proximity,
+  ownership, selection and unlocked formation class.
+- Evidence: [Cossacks 3 decomposition](../games/a-f/cossacks-3.md).
+- Novelty: first isolated for `GAME-0209`; exact rank-and-support composition
+  gates conversion of loose RTS units into the instructed regiment.
+
+## CON-553 — Match consumption or treatment to item condition and body state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an intended nutritional, hydration, wound-care or medicinal
+  effect is legal and reliable only when the selected item's type, quantity,
+  condition, contamination and target body state admit that use; incompatible
+  or unsafe inputs may fail or introduce a different harmful state.
+- Includes: DayZ clean food and water, disinfected bandages or rags and
+  condition-specific medicine during the scoped fresh-spawn life.
+- Excludes: generic inventory capacity; an uninterrupted-use duration already
+  covered by `CON-286`; exact hidden pathogen progression; blood transfusion
+  excluded from the scope.
+- Parameters: item, quantity, condition, contamination, target state, wound,
+  agent, dose, compatibility, intended effect and harmful alternative.
+- Evidence: [DayZ decomposition](../games/a-f/dayz.md).
+- Novelty: first isolated for `GAME-0210`; the same apparent resource class can
+  help or harm according to retained item safety and the survivor's condition.
+
+## CON-554 — Suspend control while unconscious and exposed
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while the current survivor is unconscious, ordinary movement,
+  inventory, communication and combat actions are unavailable, but the body
+  remains present and vulnerable in the live world; control returns only if
+  shock recovery completes before lethal death.
+- Includes: DayZ shock-based unconsciousness on the declared official server.
+- Excludes: permanent death; a paused cutscene; voluntary sleep; a protected
+  downed state that requires teammate revival; selecting respawn as the same
+  analytical identity.
+- Parameters: consciousness, shock, recovery rate, body presence, bleeding,
+  incoming damage, action prohibition, recovery and death.
+- Evidence: [DayZ decomposition](../games/a-f/dayz.md).
+- Novelty: first isolated for `GAME-0210`; the player temporarily loses all
+  ordinary authority without removing the body from shared hostile resolution.
+
+## CON-555 — One destroyed tank cannot re-enter the current battle
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after the player's single assigned tank is destroyed, that tank
+  cannot return during the current battle; direct control ends and only the
+  eligible postmortem or spectator view remains until the team result settles.
+- Includes: one stock MS-1 life in the scoped World of Tanks Standard Battle.
+- Excludes: War Thunder lineup replacement; Battlefield redeployment; a garage
+  repair after the battle; leaving before the shared result.
+- Parameters: assigned tank, destroyed state, re-entry, spectator access,
+  remaining allied vehicles and match boundary.
+- Evidence: [World of Tanks decomposition](../games/s-z/world-of-tanks.md).
+- Novelty: first isolated for `GAME-0211`; personal combat ends irreversibly
+  inside a still-running team match without either a later round return or a
+  replacement vehicle.
+
+## CON-556 — Gravity Gun manipulation requires an eligible physics target
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the ordinary Gravity Gun may pull, attach or punt only a target
+  accepted by its current trace, distance, movable VPhysics, mass, flesh,
+  forbidden-flag, player-support and clearance rules; a rejected target remains
+  in world state and no held relation is created.
+- Includes: ordinary movable Ravenholm props accepted or rejected by the base
+  Half-Life 2 Gravity Gun.
+- Excludes: the supercharged Gravity Gun's NPC and mass permissions; Portal
+  cube carrying with no physcannon trace; recursive relative-scale eligibility;
+  whether an already launched prop later damages a hostile.
+- Parameters: trace length, line or hull hit, distance, physics object, maximum
+  mass, flesh state, spawn flags, world support, player ground entity,
+  attachment clearance and rejection feedback.
+- Evidence: [Half-Life 2 decomposition](../games/g-l/half-life-2.md).
+- Novelty: first isolated for `GAME-0212`; one remote manipulation attempt is
+  jointly gated by physical type, mass, spatial acquisition and explicit
+  authoring permissions rather than generic reach or inventory capacity.
+
+## CON-557 — Taxi-fare credit requires the assigned passenger and destination
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the current taxi fare can settle only while its assigned
+  passenger and service vehicle remain mission-valid and that vehicle reaches
+  the fare's named destination arrival area; another location or passenger
+  cannot advance the authored chain.
+- Includes: each of the five scoped Mafia (2002) `The Running Man` passenger
+  deliveries.
+- Excludes: type-compatible passengers choosing any matching network stop;
+  cargo accepted at a generic depot; reaching a destination after abandoning
+  the required vehicle; an unbounded taxi score.
+- Parameters: fare index, assigned passenger, taxi, viability, destination,
+  arrival area, stop state and settlement flag.
+- Evidence: [Mafia (2002) decomposition](../games/m-r/mafia-2002.md).
+- Novelty: first isolated for `GAME-0214`; identity, vehicle continuity and one
+  authored destination jointly gate each service-stage transition.
+
+## CON-558 — Nail deployment requires available stock and a marked target
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a reusable nail may attach only when that named nail is not
+  already deployed and its aimed hit reaches a compatible marked surface,
+  switch or mechanism; unmarked geometry and exhausted available stock reject
+  the request until a deployed nail is recalled.
+- Includes: Cody's yellow-target and bounded-nail eligibility during It Takes
+  Two's hammer-and-nails packet.
+- Excludes: ordinary firearm ammunition; unrestricted building placement;
+  inventory capacity with no world-target predicate; May's hammer fixtures.
+- Parameters: nail identity, available set, deployed set, mark class, reach,
+  line of travel, compatible target, rejection and recall.
+- Evidence: [It Takes Two decomposition](../games/g-l/it-takes-two.md).
+- Novelty: first isolated for `GAME-0215`; a finite reusable tool is gated by
+  both current world assignment and an authored visual-surface predicate.

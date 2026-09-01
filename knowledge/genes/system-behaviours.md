@@ -5842,14 +5842,20 @@
   the fixed Need for Speed Unbound Story starter's road/off-road motion,
   collision and health response.
   Cyberpunk 2077 road vehicles likewise resolve steering, traction, collision
-  and combat damage without exposing a player-managed fuel reserve.
+  and combat damage without exposing a player-managed fuel reserve. Need for
+  Speed Payback resolves the fixed Mustang and Regera motion, traffic contact,
+  collision and aggregate damage through the Highway Heist. Trackmania
+  `Summer 2026 - 01` resolves the dedicated CarSport vehicle's steering,
+  speed, traction, road contact and collision without damage or fuel parameters.
 - Excludes: autonomous route service; the starting aircraft; movement on foot.
 - Parameters: vehicle, seat, speed, traction, terrain, fuel, tyre, health,
   damage region, collision, explosion delay and occupant exposure.
 - Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md)
   and [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md), and
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
-  [War Thunder decomposition](../games/s-z/war-thunder.md).
+  [War Thunder decomposition](../games/s-z/war-thunder.md), and
+  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md),
+  and [Trackmania decomposition](../games/s-z/trackmania.md).
 - Novelty: not assessed.
 
 ## SYS-321 — Contract phased safe area and apply Blue Zone exposure
@@ -5971,6 +5977,8 @@
   protection, activity and recovery.
 - Evidence: [Rust decomposition](../games/m-r/rust.md) and
   [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
+- Additional support: [DayZ decomposition](../games/a-f/dayz.md), for the
+  current survivor's water, energy, temperature, wetness and health exposure.
 - Novelty: not assessed.
 
 ## SYS-328 — Resolve the personal crafting queue
@@ -6169,6 +6177,8 @@
 - Parameters: cue source, volume, occlusion, sight, range, memory, path,
   grouping, loss of contact and investigation state.
 - Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md).
+- Additional support: [DayZ decomposition](../games/a-f/dayz.md), for infected
+  pursuit from local visual and acoustic cues on official Chernarus.
 - Novelty: not assessed.
 
 ## SYS-340 — Resolve interruptible embodied timed actions
@@ -6280,6 +6290,8 @@
 - Parameters: lethal condition, death instant, corpse, reanimation, retained
   world, later-character option and life statistics.
 - Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md).
+- Additional support: [DayZ decomposition](../games/a-f/dayz.md), where the
+  explicit death state ends one Survivor identity and respawn creates another.
 - Novelty: not assessed.
 
 ## SYS-346 — Instantiate a condition-bound shared extraction raid
@@ -6623,13 +6635,15 @@
 - Includes: Grand Theft Auto V Story Mode traffic, pedestrians, witnesses and
   ordinary world reactions in Los Santos and Blaine County; Cyberpunk 2077
   traffic and civilian reactions across Night City; live Lakeshore road
-  traffic during Need for Speed Unbound racing and pursuit.
+  traffic during Need for Speed Unbound racing and pursuit; authored highway
+  traffic during Need for Speed Payback's carrier chase.
 - Excludes: authored mission allies; police wanted escalation after dispatch;
   decorative crowds with no collision or response state.
 - Parameters: population density, route, signal, collision, witness radius,
   reaction, vehicle availability and despawn horizon.
-- Evidence: [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md) and
-  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Evidence: [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md),
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
+  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
 - Novelty: not assessed.
 
 ## SYS-366 — Escalate crime into wanted pursuit and timed search
@@ -6702,13 +6716,15 @@
   the failed world's transient damage and positions.
 - Includes: Grand Theft Auto V Story Mode mission `Wasted`, `Busted`, abandoned
   target, destroyed asset and restart-from-checkpoint outcomes; Cyberpunk 2077
-  critical-job death or failure followed by retry from an authored checkpoint.
+  critical-job death or failure followed by retry from an authored checkpoint;
+  Need for Speed Payback Highway Heist critical-stage failure and retry.
 - Excludes: free-roam hospital recovery outside the scoped mission route;
   permanent save deletion; replaying a completed mission for a medal.
 - Parameters: failure reason, checkpoint, restored actors, vehicles, inventory,
   mission variables and retry choice.
-- Evidence: [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md) and
-  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Evidence: [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md),
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
+  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
 - Novelty: not assessed.
 
 ## SYS-370 — Resolve heist plan and crew proficiency into take
@@ -9368,12 +9384,14 @@
   rival field exists, the complete finish order.
 - Includes: Forza Horizon 6 Trail, Circuit, Cross Country, Time Attack and
   Horizon Invitational course completion; Need for Speed Unbound's ordered
-  `Shopping Spree` route and eight-place result.
+  `Shopping Spree` route and eight-place result; Trackmania `Summer 2026 - 01`
+  Start/Checkpoint/Finish validation and elapsed result.
 - Excludes: free driving through unvalidated map space; a speed trap with no
   ordered course; points awarded after the validated result.
 - Parameters: checkpoint sequence, checkpoint width, lap count, elapsed time,
   participant order, missed-checkpoint recovery and finish line.
-- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md)
+  and [Trackmania decomposition](../games/s-z/trackmania.md).
 - Novelty: first isolated for `GAME-0171`; no prior system jointly validates
   directly driven course order, lap progress and race finish classification.
 
@@ -9428,12 +9446,14 @@
   garage state.
 - Includes: qualifier results and the three cars granted with the first Forza
   Horizon 6 Wristband; the scoped Need for Speed Unbound result and cash after
-  pursuit clearance plus Rydell's Rydes entry.
+  pursuit clearance plus Rydell's Rydes entry; Need for Speed Payback's retained
+  Highway Heist mission and Chapter 2 settlement after airfield delivery.
 - Excludes: temporary race position; live Festival Playlist rewards outside the
   scoped opening; buying an Aftermarket Car.
 - Parameters: event, completion, position, time, credits, experience, vehicle,
   unlock and retained save state.
-- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md) and
+  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
 - Novelty: first isolated for `GAME-0171`; delivery and combat settlements do
   not retain a curated driving-event result into garage and festival state.
 
@@ -10990,7 +11010,7 @@
 - Novelty: first isolated for `GAME-0189`; earned persistent build authority is
   both granularly applied and freely recoverable at the same checkpoint layer.
 
-## SYS-610 — Return death to a Shrine without dropping retained resources
+## SYS-610 — Return death to a checkpoint without dropping retained resources
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
@@ -11001,12 +11021,15 @@
   development points, inventory and completed authored progress and creating
   no recoverable death-world mark.
 - Includes: Black Myth: Wukong return to the latest eligible Keeper's Shrine
-  with Will, experience, Sparks, items, spells and boss flags retained.
+  with Will, experience, Sparks, items, spells and boss flags retained; STAR
+  WARS Jedi: Fallen Order return to the latest Meditation Circle with skill
+  progress, inventory and authored progress retained and no recovery mark.
 - Excludes: one recoverable rune/Cocoon mark; quest faint allowance; loading a
   manually selected older save; permanent one-life deletion.
 - Parameters: lethal state, checkpoint, retained sets, ordinary-enemy reset,
   boss state, mark absence and resumed control.
-- Evidence: [Black Myth: Wukong decomposition](../games/a-f/black-myth-wukong.md).
+- Evidence: [Black Myth: Wukong decomposition](../games/a-f/black-myth-wukong.md);
+  [STAR WARS Jedi: Fallen Order decomposition](../games/s-z/star-wars-jedi-fallen-order.md).
 - Novelty: first isolated for `GAME-0189`; checkpoint return preserves both
   spendable progression and authored victories without a corpse-recovery debt.
 
@@ -11380,13 +11403,14 @@
   attempt clock and records its elapsed result in that mission's retained
   high-score state; an unfinished or restarted attempt creates no completion.
 - Includes: the first valid scoped BeamNG.drive Road Master finish and saved
-  mission time.
+  mission time; the first valid Trackmania `Summer 2026 - 01` elapsed result.
 - Excludes: live checkpoint timing before the finish; Festival points, credits
   or unlock rewards; external online leaderboard submission; an arbitrary
   free-driving stop.
 - Parameters: mission, ordered-finish validity, elapsed time, prior entries,
   insertion rule, retained record and retry state.
-- Evidence: [BeamNG.drive decomposition](../games/a-f/beamng-drive.md).
+- Evidence: [BeamNG.drive decomposition](../games/a-f/beamng-drive.md) and
+  [Trackmania decomposition](../games/s-z/trackmania.md).
 - Novelty: first isolated for `GAME-0195`; prior driving settlement combines
   finish data with campaign rewards, while this standalone mission retains the
   timed evaluation itself.
@@ -12527,3 +12551,482 @@
 - Evidence: [Monster Hunter: World decomposition](../games/m-r/monster-hunter-world.md).
 - Novelty: first isolated for `GAME-0207`; one retained weapon cycles between
   attack-driven degradation and live field restoration inside the same hunt.
+
+## SYS-689 — Resolve hostile-vehicle contact into a counted wreck
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when the directly controlled car contacts an eligible hostile
+  vehicle, the system converts relative speed, angle, road geometry and prior
+  damage into displacement and damage; an accepted terminal loss of hostile
+  control removes that target and increments the active wreck quota.
+- Includes: House Enforcer takedowns in Need for Speed Payback's scoped
+  `The Highway Heist` stages.
+- Excludes: cosmetic crash cameras; incidental traffic collision; police Heat
+  escalation; temporary Rocket League demolition followed by timed respawn.
+- Parameters: attacker, target, impulse, angle, prior damage, environment,
+  displacement, terminal wreck, removal and quota credit.
+- Evidence: [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
+- Novelty: first isolated for `GAME-0208`; persistent hostile loss and authored
+  mission credit emerge from player-shaped vehicle contact without weapons.
+
+## SYS-690 — Advance a vehicle-heist stage and transfer driving authority
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after the current authored wreck, catch-up or approach predicate
+  is satisfied, the mission advances its fixed stage, may run a set piece and
+  transfers camera plus direct driving authority into the declared next
+  vehicle before returning live control.
+- Includes: rear/side carrier gates and the fixed Mustang-to-Regera handoff in
+  Need for Speed Payback's `The Highway Heist`.
+- Excludes: player-selected switching among persistent protagonists; entering
+  any nearby vehicle; a cutscene that returns control to the unchanged car;
+  completing the final mission result.
+- Parameters: stage, predicate, prior vehicle, scripted actors, transition,
+  next driver, next vehicle, camera, restored controls and failure override.
+- Evidence: [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
+- Novelty: first isolated for `GAME-0208`; spatial mission predicates
+  automatically rebind the unique driving locus across authored vehicles.
+
+## SYS-691 — Convert an ordinary nitrous gauge into vehicle acceleration
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while a directly driven vehicle has ordinary nitrous available,
+  activation debits the current gauge and applies its bounded acceleration
+  effect until release or available charge ends.
+- Includes: conventional nitrous use by the fixed Mustang and stolen Regera in
+  the scoped Need for Speed Payback mission.
+- Excludes: Need for Speed Unbound technique-earned Burst; spatial Rocket
+  League boost pads; permanent performance tuning; cosmetic nitrous colour.
+- Parameters: vehicle, current gauge, activation, spend rate, acceleration,
+  duration, release, depletion and fitted-performance modifier.
+- Evidence: [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
+- Novelty: first isolated for `GAME-0208`; an ordinary car-bound gauge drives
+  a finite acceleration choice without technique earning or spatial refill.
+
+## SYS-692 — Carry retained passengers through a ferry crossing
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: completed embarkation removes eligible ground units from
+  ordinary terrain orders, retains their identity and ownership inside one
+  ferry while it moves, then restores those passengers to ground control when
+  a legal unloading interval completes.
+- Includes: the required Swedish soldier-and-peasant river crossing in
+  Cossacks 3 `War Ruse — Peace`.
+- Excludes: autonomous hostile landing; teleportation; naval combat; a cargo
+  resource that is not an independently controlled unit after unloading.
+- Parameters: ferry, passengers, capacity, contained state, water path, shore,
+  embark completion, unload completion, ownership and formation reset.
+- Evidence: [Cossacks 3 decomposition](../games/a-f/cossacks-3.md).
+- Novelty: first isolated for `GAME-0209`; a selected RTS group temporarily
+  loses ground presence but persists as recoverable transport-contained agents.
+
+## SYS-693 — Capture an exposed economic target and let guards prevent it
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when an eligible hostile unit reaches an unprotected capturable
+  peasant, mine or mill, the system transfers that target's control; nearby
+  assigned guards instead acquire and fight the would-be captor before the
+  transfer can complete.
+- Includes: the capture-and-guard teaching step in Cossacks 3 `War Ruse — Peace`.
+- Excludes: destroying a building; purchasing neutral property; converting a
+  combat unit through an ability; capture points filled by team presence.
+- Parameters: captor, target class, ownership, approach, guard assignment,
+  guard radius, engagement, transfer timing and interrupted capture.
+- Evidence: [Cossacks 3 decomposition](../games/a-f/cossacks-3.md).
+- Novelty: first isolated for `GAME-0209`; protection is a spatial military
+  relation that preserves ownership of otherwise transferable economy actors.
+
+## SYS-694 — Debit mercenary wages and trigger rebellion at exhausted gold
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: retained hired units periodically debit their declared gold
+  wages from the owner's shared stockpile; if the required debit cannot settle,
+  affected mercenaries stop obeying and become hostile to the former employer.
+- Includes: mercenary bowmen hired from the Diplomatic Center in Cossacks 3
+  `War Ruse — Peace`.
+- Excludes: the escalating one-time hire price; ordinary population food
+  consumption; morale desertion without wages; temporary scripted allies.
+- Parameters: mercenary set, owner, wage, interval, gold reserve, failed debit,
+  allegiance transition, hostility and recovery policy.
+- Evidence: [Cossacks 3 decomposition](../games/a-f/cossacks-3.md).
+- Novelty: first isolated for `GAME-0209`; a recurring shared-resource debit
+  directly preserves or reverses control of a hired combat force.
+
+## SYS-695 — Advance ignition, fire damage, repair and building destruction
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an eligible ignition places a building into a visible burning
+  state whose live damage can be opposed by assigned repair work; if damage
+  reaches destruction first, the structure is removed and its destruction can
+  harm nearby units.
+- Includes: repairing the scripted blacksmith fire and burning the hostile
+  barracks with mercenary bowmen in Cossacks 3 `War Ruse — Peace`.
+- Excludes: ordinary unit health damage; artillery mechanics; decorative fire;
+  instant demolition with no burning interval.
+- Parameters: building, ignition source, fire state, damage rate, repair rate,
+  health, destruction, blast radius, nearby units and objective credit.
+- Evidence: [Cossacks 3 decomposition](../games/a-f/cossacks-3.md).
+- Novelty: first isolated for `GAME-0209`; live repair and delayed destructive
+  fire compete on one RTS building and expose nearby agents to the terminal.
+
+## SYS-696 — Consume shared food and apply population starvation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the living population continuously debits a shared raw-food
+  stockpile according to its current size; once the required food is absent,
+  famine advances and eligible owned units die until supply is restored or the
+  population is exhausted.
+- Includes: the food and starvation lesson in Cossacks 3 `War Ruse — Peace`.
+- Excludes: prepared daily rations for individual Frostpunk citizens; one
+  directly controlled avatar eating; unit production cost; mercenary gold wages.
+- Parameters: population, food reserve, consumption rate, debit interval,
+  famine state, death cadence, affected unit classes and recovery threshold.
+- Evidence: [Cossacks 3 decomposition](../games/a-f/cossacks-3.md).
+- Novelty: first isolated for `GAME-0209`; raw global food upkeep scales with a
+  mass RTS population and converts stockpile exhaustion into continuing deaths.
+
+## SYS-697 — Maintain a shared Central Economy of world entities
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the server maintains configured nominal and minimum populations
+  of eligible loot, infected, animals and dynamic events, persists admitted
+  entities, samples legal spawn points and removes abandoned, ruined or dead
+  entities after their configured lifetime and player-distance conditions.
+- Includes: the vanilla DayZ Chernarus+ Central Economy during the scoped
+  official-server life.
+- Excludes: generating the authored terrain; a fresh bounded battle-royale
+  match; player-built base rules; community-server economy overrides;
+  deterministic placement of a requested item for one player.
+- Parameters: entity type, nominal/minimum count, region/tier tags, spawn
+  points, event, persistence, lifetime, cleanup avoidance, active players and
+  server storage.
+- Evidence: [DayZ decomposition](../games/a-f/dayz.md).
+- Novelty: first isolated for `GAME-0210`; one persistent multiplayer world
+  replenishes and retires shared survival entities independently of any
+  participant's attempt boundary.
+
+## SYS-698 — Couple health, blood, shock and bleeding to consciousness
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: bodily damage can reduce health, blood and shock and create
+  active bleeding sources; current values and recovery rules determine whether
+  the survivor remains conscious, enters a vulnerable unconscious state,
+  regains control or reaches lethal death.
+- Includes: DayZ ordinary injury, blood loss, shock knockout, passive shock
+  refill, bandaged bleeding and lethal bodily settlement.
+- Excludes: a single undifferentiated health bar; scripted cutscene knockout;
+  armour shield recharge; permanent death itself; disease-agent progression.
+- Parameters: health, blood, shock, hit zone, bleeding sources, blood loss,
+  damage type, unconscious threshold, refill, treatment and lethal threshold.
+- Evidence: [DayZ decomposition](../games/a-f/dayz.md).
+- Novelty: first isolated for `GAME-0210`; recoverable loss of control emerges
+  from a blood/shock trauma relation while lethal health remains distinct.
+
+## SYS-699 — Transmit and advance treatable survival pathogens
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an eligible exposure adds a typed biological or wound agent to
+  the survivor; agent count, immunity and condition modifiers advance hidden
+  incubation, symptoms, resource loss and recovery, while compatible medicine
+  or body state can suppress or remove that agent.
+- Includes: DayZ cholera, salmonella, influenza and ordinary wound infection
+  acquired through contaminated water, food, hands, environment or injury.
+- Excludes: Project Zomboid's incurable Knox Infection; immediate poison damage
+  with no retained agent; contaminated zones excluded from this scope;
+  cosmetic coughing without a causal illness state.
+- Parameters: agent, source, dose, count, immunity, incubation, modifier,
+  symptom, resource drain, medicine, recovery and reinfection.
+- Evidence: [DayZ decomposition](../games/a-f/dayz.md).
+- Novelty: first isolated for `GAME-0210`; multiple ordinary pathogens retain
+  concealed typed progression yet admit prevention and condition-specific cure.
+
+## SYS-700 — Resolve contextual held-item transformation
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a legal contextual held-item action completes, the system
+  consumes or partitions declared quantities, changes item condition or
+  contents and places the resulting repaired, loaded, split or crafted item in
+  the permitted hands, inventory or world destination.
+- Includes: DayZ combining stacks, splitting portions, loading ammunition,
+  applying a repair item and completing simple two-item crafts.
+- Excludes: an autonomous production fixture; a personal recipe queue;
+  unchanged equipment transfer; a transformation whose output cannot fit any
+  legal destination.
+- Parameters: input items, recipe/operation, quantity, duration, interruption,
+  condition change, output, destination capacity and remainder.
+- Evidence: [DayZ decomposition](../games/a-f/dayz.md).
+- Novelty: first isolated for `GAME-0210`; the result is resolved from the
+  concrete item pair and retained conditions rather than an abstract queue.
+
+## SYS-701 — Resolve an armoured-vehicle hit through durability and components
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a shell reaches an armoured vehicle, the system tests its
+  impact angle and penetration, subtracts eligible aggregate vehicle durability
+  and separately damages contacted modules or crew roles whose impairment can
+  reduce mobility, observation or fire authority before destruction.
+- Includes: standard armour-piercing hits among Tier I vehicles in the scoped
+  World of Tanks Standard Battle.
+- Excludes: War Thunder's continuing spatial post-penetration path without an
+  aggregate vehicle hit-point pool; one character health bar; garage repairs.
+- Parameters: shell, distance, impact angle, effective armour, penetration,
+  ricochet, hit points, module, crew role, damage state and destruction.
+- Evidence: [World of Tanks decomposition](../games/s-z/world-of-tanks.md).
+- Novelty: first isolated for `GAME-0211`; one penetrating shot can change both
+  a shared vehicle-durability pool and separately repairable or injured
+  functions rather than choosing only one of those damage models.
+
+## SYS-702 — Share range-and-concealment vehicle spotting
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the server repeatedly compares each observer's effective view
+  range with an opponent vehicle's distance and concealment, establishes
+  proximity detection where applicable and relays an acquired enemy marker to
+  allied vehicles that can receive the observation through the radio network.
+- Includes: proximity, direct and radio-shared spotting in the scoped World of
+  Tanks Standard Battle.
+- Excludes: omniscient enemy markers; voluntary chat; camouflage as a purely
+  cosmetic skin; a fixed hidden-object reveal.
+- Parameters: observer, target, distance, view range, concealment, foliage,
+  movement, firing, proximity radius, radio range, ally and marker lifetime.
+- Evidence: [World of Tanks decomposition](../games/s-z/world-of-tanks.md).
+- Novelty: first isolated for `GAME-0211`; detection is both a range-versus-
+  concealment test and a bounded team relay rather than local sight alone.
+
+## SYS-703 — Accumulate and interrupt enemy-base capture
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: eligible surviving vehicles inside the opposing base add capture
+  progress up to the declared contributing-vehicle limit, while departure,
+  destruction or eligible damage removes that vehicle's contribution according
+  to the Standard Battle reset rule.
+- Includes: capture of either base in one ordinary World of Tanks Standard
+  Battle.
+- Excludes: Battlefield or War Thunder control-point ownership; passive ticket
+  drain; a device plant; entering one's own base merely to contest it.
+- Parameters: base, capturing team, eligible vehicle, contributor count,
+  capture points, rate, departure, damage, destruction, reset and completion.
+- Evidence: [World of Tanks decomposition](../games/s-z/world-of-tanks.md).
+- Novelty: first isolated for `GAME-0211`; progress belongs to individual
+  surviving attackers and can be removed by damaging them, rather than halting
+  solely because an opponent occupies the same area.
+
+## SYS-704 — Settle Standard Battle by destruction, capture or time
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the match awards victory when one team destroys every opposing
+  vehicle or completes capture of the opposing base, and otherwise records a
+  draw when the fifteen-minute battle limit expires without either terminal.
+- Includes: one ordinary World of Tanks Standard Battle and its post-battle
+  result screen.
+- Excludes: personal experience or credit totals; Encounter, Assault,
+  Frontline or clan rules; ticket depletion; an individual tank's destruction.
+- Parameters: teams, surviving vehicles, bases, capture completion, time limit,
+  simultaneous terminal ordering, victory, defeat and draw.
+- Evidence: [World of Tanks decomposition](../games/s-z/world-of-tanks.md).
+- Novelty: first isolated for `GAME-0211`; symmetric base capture and complete
+  team-vehicle destruction share one terminal while regulation expiry accepts
+  a draw without a round series.
+
+## SYS-705 — Resolve Gravity Gun pull and collision-bounded hold
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after the ordinary Gravity Gun acquires an eligible physics
+  target, the system pulls a distant target toward attachment, binds an
+  attachable target to a view-relative pose whose extent remains outside solid
+  geometry, and returns it to ordinary world physics when the relation is
+  dropped, launched or invalidated.
+- Includes: pulling, attaching, carrying and dropping a compatible Ravenholm
+  prop with the ordinary Gravity Gun in the scoped Half-Life 2 chapter.
+- Excludes: teleporting an object to the hand; a fixed inventory slot; Portal's
+  avatar-adjacent cube carry without remote pull; the supercharged Gravity Gun;
+  launching and impact damage after detachment.
+- Parameters: trace, pull force, attachment range, target pose, object radius,
+  collision trace, view angle, error threshold, detach reason and restored
+  physical state.
+- Evidence: [Half-Life 2 decomposition](../games/g-l/half-life-2.md).
+- Novelty: first isolated for `GAME-0212`; the same remote tool first changes a
+  free rigid body's velocity, then maintains a collision-bounded relative pose
+  without removing that body from the live physical world.
+
+## SYS-706 — Convert a launched physics prop into attributed impact damage
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when a player-launched physics prop returns to live simulation,
+  its force, mass and first eligible collision produce breakable or hostile
+  impact consequences attributed to the launching player, after which any
+  surviving prop continues as ordinary world state.
+- Includes: launching a saw blade, radiator, barrel or other eligible prop into
+  a Ravenholm zombie with Half-Life 2's ordinary Gravity Gun.
+- Excludes: direct firearm ray damage; an explosion with no preceding physical
+  prop relation; ballistic collision that never changes a damageable target;
+  the launch input or held-object eligibility itself.
+- Parameters: prop, launch force, mass, velocity, collision partner, impact
+  energy, damage table, first-collision multiplier, attacker attribution,
+  breakage and surviving state.
+- Evidence: [Half-Life 2 decomposition](../games/g-l/half-life-2.md).
+- Novelty: first isolated for `GAME-0212`; a formerly neutral manipulable world
+  body becomes an attributed combat attack through its ordinary collision and
+  remains a physical object rather than resolving as a separate abstract shot.
+
+## SYS-707 — Refill Force energy through successful attacks
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: committing an eligible Force ability consumes a finite Force
+  meter, while successful ordinary attacks on hostile targets restore that
+  meter and thereby reopen later Force-action choices.
+- Includes: spending Force on Slow and rebuilding the meter by striking Bogano
+  creatures in the scoped STAR WARS Jedi: Fallen Order packet.
+- Excludes: passive time-only regeneration; experience toward a skill point;
+  a healing charge restored only at rest; a resource earned by taking damage.
+- Parameters: ability, cost, current meter, successful attack, restored amount,
+  maximum, target and difficulty.
+- Evidence: [STAR WARS Jedi: Fallen Order decomposition](../games/s-z/star-wars-jedi-fallen-order.md).
+- Novelty: first isolated for `GAME-0213`; direct weapon contact replenishes
+  the same bounded authority spent on world and combat Force actions.
+
+## SYS-708 — Advance an authored player-driven passenger-fare chain
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the system boards the current authored passenger into the
+  directly driven service vehicle, assigns that passenger's destination,
+  settles successful arrival and exposes the next fixed fare until the declared
+  finite chain is complete.
+- Includes: the five ordered taxi fares before the coffee transition in Mafia
+  (2002) Chapter 2 `The Running Man`.
+- Excludes: autonomous passengers riding a scheduled network; an unbounded
+  score taxi mode; cargo with no passenger state; choosing among simultaneous
+  commercial contracts.
+- Parameters: fare index, passenger, pickup, destination, controlled vehicle,
+  boarding, arrival area, settlement and next-stage trigger.
+- Evidence: [Mafia (2002) decomposition](../games/m-r/mafia-2002.md).
+- Novelty: first isolated for `GAME-0214`; every passenger is carried by one
+  directly steered vehicle and the fixed sequence itself gates a later authored
+  phase rather than operating as a reusable transport economy.
+
+## SYS-709 — Escalate an observed road offence from citation to arrest
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: police observation classifies a road offence by severity and
+  history: a minor offence first creates a stoppable citation that can be
+  settled, while serious, repeated or evaded offences escalate to arrest
+  pressure whose successful arrest ends the current attempt.
+- Includes: Mafia (2002) speeding, red-light and collision citations, the
+  stop-and-exit fine response, escalation after flight or repeated offences,
+  handcuff state and arrest GAME OVER.
+- Excludes: an immediately debited simulation fine with no police interaction;
+  wanted stars without a payable citation branch; a fixed scripted chase; a
+  post-event score penalty.
+- Parameters: observing officer, offence, severity, succession count, citation,
+  stop/exit compliance, fine, evasion, arrest state, pursuit and failure.
+- Evidence: [Mafia (2002) decomposition](../games/m-r/mafia-2002.md).
+- Novelty: first isolated for `GAME-0214`; a recoverable roadside settlement
+  and terminal arrest are two causally linked responses to the player's next
+  compliance decision rather than one immediate tariff or uniform wanted tier.
+
+## SYS-710 — Resolve a placed nail as pin, switch contact or swing anchor
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an accepted reusable nail impact attaches to its compatible
+  marked target and derives a persistent local function from that target: hold
+  a mechanism at its current authored position, maintain switch contact or
+  provide a live swing anchor; recall removes that function and returns the
+  same nail to available stock.
+- Includes: Cody pinning moving platforms, activating red switches and placing
+  wall anchors for May during It Takes Two's hammer-and-nails packet.
+- Excludes: generic projectile damage; a permanent constructed fastener;
+  disposable ammunition; a pre-authored anchor that needs no player placement.
+- Parameters: nail identity, target class, impact, attachment, pinned state,
+  switch state, anchor geometry, attached body, recall and restored availability.
+- Evidence: [It Takes Two decomposition](../games/g-l/it-takes-two.md).
+- Novelty: first isolated for `GAME-0215`; one recallable object derives three
+  route functions from authored target type while preserving individual stock
+  identity.
+
+## SYS-711 — Classify a valid elapsed result against fixed medal thresholds
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after one valid ordered timed finish, the system compares its
+  retained elapsed result with a map-local ordered set of fixed thresholds and
+  assigns the highest reached medal class; a slower valid result remains
+  completion without awarding a new medal.
+- Includes: Trackmania `Summer 2026 - 01` Author `00:23.144`, Gold `00:25.000`,
+  Silver `00:28.000` and Bronze `00:35.000` evaluation.
+- Excludes: a live running-time target before finish; volatile world-record or
+  leaderboard placement; campaign points; an achievement unlocked by a
+  cumulative count; a binary win/loss grade with no fixed elapsed thresholds.
+- Parameters: map, valid finish, elapsed result, ordered thresholds, Author,
+  Gold, Silver, Bronze, prior medal, awarded class and no-medal outcome.
+- Evidence: [Trackmania decomposition](../games/s-z/trackmania.md).
+- Novelty: first isolated for `GAME-0216`; earlier timed terminals retain a
+  result or rank rivals, while this boundary deterministically maps the same
+  valid elapsed time into one of four published map-specific medal tiers.
