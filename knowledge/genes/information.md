@@ -202,7 +202,8 @@
   [The Room decomposition](../games/s-z/the-room.md), and
   [Slay the Spire decomposition](../games/s-z/slay-the-spire.md), and
   [Strands decomposition](../games/s-z/strands.md), and
-  [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
+  [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md),
+  and [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
 - Novelty: not assessed.
 
 ## INF-004 — Exact local aggregate clue
@@ -2774,7 +2775,8 @@
   needed to choose travel and evasion paths.
 - Includes: Grand Theft Auto V Story Mode GPS line, waypoint, wanted stars,
   police markers and search cones; Cyberpunk 2077 route guidance, waypoint,
-  minimap and NCPD Heat/search state.
+  minimap and NCPD Heat/search state; Need for Speed Unbound LPD pursuit and
+  garage-route guidance.
 - Excludes: undiscovered optional content; exact future traffic positions;
   omniscient hostile tracking outside the wanted search.
 - Parameters: protagonist, destination, route, recalculation, stars, police
@@ -3005,7 +3007,8 @@
 - Excludes: exact internal health values; future drop rolls; external overlays.
 - Parameters: target, timer, faint allowance, engagement, condition, zone and
   completion state.
-- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md)
+  and [Monster Hunter: World decomposition](../games/m-r/monster-hunter-world.md).
 - Novelty: not assessed.
 
 ## INF-158 — Scoutflies expose a selected target route or last known position
@@ -3022,7 +3025,8 @@
   an external map guide.
 - Parameters: selected target, evidence, current position, last known position,
   route segment, update and lost state.
-- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md)
+  and [Monster Hunter: World decomposition](../games/m-r/monster-hunter-world.md).
 - Novelty: not assessed.
 
 ## INF-159 — Combat HUD exposes resources, equipment and carried runes
@@ -3803,7 +3807,8 @@
 - Definition: the live driving view exposes current speed and gear together
   with the authored or waypoint route cues needed to judge braking and steering.
 - Includes: Forza Horizon 6 speedometer, gear, minimap/GPS and configurable
-  driving line in the scoped opening.
+  driving line in the scoped opening; Need for Speed Unbound speed, gear and
+  `Shopping Spree` route cues.
 - Excludes: event eligibility before entry; hidden future traffic; post-event
   settlement.
 - Parameters: speed, gear, route, minimap, driving line, braking cue, waypoint
@@ -3822,7 +3827,8 @@
   timed target, lap/checkpoint progress, elapsed or remaining time and locally
   sensed rival vehicles needed to revise the racing line.
 - Includes: Forza Horizon 6 Festival races and Time Attack in the scoped route,
-  including configurable Proximity Radar.
+  including configurable Proximity Radar; Need for Speed Unbound place,
+  progress and seven-rival race surface.
 - Excludes: omniscient future rival paths; free-roam traffic with no event
   result; the final reward panel.
 - Parameters: position, participant count, lap, checkpoint, time, split,
@@ -3840,7 +3846,9 @@
 - Definition: the world map and selected event panel disclose its location,
   type, route form, current unlock, vehicle eligibility and available reward or
   campaign contribution before entry.
-- Includes: the six exposed Horizon Qualifiers and first Horizon Invitational.
+- Includes: the six exposed Horizon Qualifiers and first Horizon Invitational;
+  Need for Speed Unbound's A+ `Shopping Spree` class, `$0` buy-in, payout table,
+  displayed reward and Heat gain.
 - Excludes: undiscovered optional content; live race position; post-completion
   Race Customizer options unavailable on first play.
 - Parameters: marker, location, event type, route, car theme, class, unlock,
@@ -3874,10 +3882,11 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: after a valid finish, the results transition exposes place, time
-  or rating, earned Festival progress and any credits, experience, vehicles or
-  campaign unlocks retained from that event.
-- Includes: Forza Horizon 6 Qualifier and first-Wristband settlement panels.
+- Definition: after a valid finish and any declared post-result settlement, the
+  results transition exposes place, time or rating, earned progress and any
+  credits, experience, vehicles or campaign unlocks retained from that event.
+- Includes: Forza Horizon 6 Qualifier and first-Wristband settlement panels;
+  Need for Speed Unbound's classified finish and post-pursuit garage result.
 - Excludes: live HUD values before the finish; an unclaimed Playlist reward;
   hidden future Wheelspin outcomes.
 - Parameters: event, position, time, stars, points, credits, experience, vehicle
@@ -4729,3 +4738,224 @@
 - Evidence: [Brawlhalla decomposition](../games/a-f/brawlhalla.md).
 - Novelty: first isolated for `GAME-0198`; damage is visible as launch risk
   rather than remaining health and is paired directly with recoverable stock.
+
+## INF-255 — Driving HUD exposes burst, Heat and exposed earnings
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the live driving interface jointly exposes the vehicle's
+  temporary burst reserve, current police Heat/perception state and earnings
+  that remain exposed before garage settlement.
+- Includes: Need for Speed Unbound Burst Nitrous, Heat, police pursuit/search
+  and cash state through the scoped race-to-garage trace.
+- Excludes: event terms shown only before entry; final retained account balance;
+  hidden police routes; cosmetic tachometer effects.
+- Parameters: burst reserve, gain cue, activation cue, Heat, police perception,
+  search state, exposed cash, bust risk and garage route.
+- Evidence: [Need for Speed Unbound decomposition](../games/m-r/need-for-speed-unbound.md).
+- Novelty: first isolated for `GAME-0199`; one live risk surface ties the
+  earned acceleration resource to the pursuit that delays durable payout.
+
+## INF-256 — Heist cues expose concealment, objective and response phase
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the live heist view exposes casing or masked state, local
+  detection progress, alarm and police-assault phase, current objective text,
+  drill state, hostage and secured-loot consequences and escape availability
+  without revealing future layout samples or exact enemy arrivals.
+- Includes: PAYDAY 2 Bank Heist detection bars, objective/drill prompts, Police
+  Assault banner, custody/hostage cues, bag credit and escape marker.
+- Excludes: omniscient guard paths; exact future jam time; account progression
+  menus; post-heist payout arithmetic.
+- Parameters: casing, detection, alarm, response phase, objective, drill timer,
+  jam, hostage, secured count, escape marker and hidden future state.
+- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md).
+- Novelty: first isolated for `GAME-0201`; one mission interface spans the
+  irreversible stealth boundary, interruptible machine work and transported
+  objective terminal.
+
+## INF-257 — Heist result exposes secured value and retained payout
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the terminal result identifies contract success and discloses
+  the credited contract and secured-loot value together with the retained
+  payout partitions produced by that completed heist.
+- Includes: the PAYDAY 2 Bank Heist success and payout sequence after escape.
+- Excludes: live objective hints; future Crime.net offers; skill, Infamy or
+  account-build optimisation beyond the declared result boundary.
+- Parameters: success, contract value, secured bags, loot value, spending cash,
+  offshore value, experience display and retained timestamp.
+- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md).
+- Novelty: first isolated for `GAME-0201`; the terminal separates transported
+  value from the economic partitions retained after the mission closes.
+
+## INF-258 — Body and terrain feedback expose climbing affordance and risk
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: visible surface geometry, hand/body pose, attachment response,
+  motion, local hazard effects and landing feedback reveal current reach,
+  climbability, rest opportunities and fall risk without exposing a solved route.
+- Includes: PEAK free-surface climbing and biome traversal feedback.
+- Excludes: a complete route overlay; hidden loot contents; stamina values
+  already represented by personal survival information.
+- Parameters: surface, reach, pose, grip, motion, hazard cue, rest, fall and injury.
+- Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Novelty: first isolated for `GAME-0203`; the physical avatar itself is the
+  main instrument for reading an unmarked generated climbing route.
+
+## INF-259 — Biome and rescue feedback expose expedition progress
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: biome titles, campfire/gate state, entry into PEAK, Flare response,
+  helicopter countdown and Scouting Report disclose ordered run progress and
+  whether the positive terminal has settled.
+- Includes: the scoped PEAK solo expedition.
+- Excludes: achievement hunting; a complete daily route map; hidden future
+  luggage; post-result account cosmetics.
+- Parameters: biome, campfire, gate, PEAK region, signal, helicopter, countdown,
+  report and completed result.
+- Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Novelty: first isolated for `GAME-0203`; sparse world-state milestones make a
+  continuous vertical survival route and its explicit rescue closure auditable.
+
+## INF-260 — Character view exposes qualities and relationships
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: character panels and tooltips expose identity, traits, skills,
+  lifestyle, directed opinions, family and political relationships plus the
+  explained modifiers relevant to current interactions.
+- Includes: Murchad, marriage candidates, councillors, vassals and commanders
+  in the scoped Crusader Kings III tutorial.
+- Excludes: hidden future events; an external biography; title geography
+  without character state.
+- Parameters: character, trait, skill, lifestyle, opinion, relation, modifier,
+  tooltip and eligible interaction.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; one inspectable actor sheet explains
+  social, administrative and military consequences across several systems.
+
+## INF-261 — Title view exposes realm, domain, vassals and claims
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: map modes, title panels and relation tooltips expose direct
+  holdings, realm inclusion, de jure hierarchy, holders, lieges, vassals,
+  obligations and available title claims or casus belli.
+- Includes: Thomond, Ormond, Munster and Desmond in Murchad's tutorial.
+- Excludes: exact hidden hostile plans; succession after the tutorial; terrain
+  combat detail already shown by army information.
+- Parameters: title, rank, holder, de jure relation, domain, realm, liege,
+  vassal, obligation, claim and casus belli.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; nested legal geography simultaneously
+  explains ownership, obligations and a possible war.
+
+## INF-262 — Interaction views expose candidates and expected effects
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: marriage and council interfaces expose eligible people, their
+  relevant qualities, acceptance or appointment constraints, predicted
+  relationship effects, available tasks, targets and current task progress.
+- Includes: the ordinary marriage and council steps in Murchad's tutorial.
+- Excludes: hidden AI deliberation; future children; undisclosed random events;
+  external candidate rankings.
+- Parameters: candidate, office, skill, acceptance, alliance, task, target,
+  progress, expected effect and rejection reason.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; person selection and office operation
+  are made comparable through predicted relational and timed consequences.
+
+## INF-263 — Military view exposes muster, movement, battle and siege
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: military panels and map feedback expose available levies and
+  men-at-arms, rally and gathering state, army composition, commander, route,
+  supply, battle balance, casualties, retreat and siege progress.
+- Includes: Murchad's raised army and the Desmond war route.
+- Excludes: direct soldier-level controls; exact future combat rolls; title
+  claims and enforce-demand effects.
+- Parameters: contribution, rally, gathering, army, commander, route, supply,
+  advantage, casualties, retreat, fort and siege progress.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; distributed realm capacity and one
+  high-level army's battle/siege states remain visible on the same map.
+
+## INF-264 — War and guidance views expose legal progress and completion
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: declaration, war and tutorial interfaces expose the selected
+  casus belli, target and objective, score components, settlement eligibility,
+  declared effects, current guidance and explicit tutorial completion state.
+- Includes: the instructed Desmond war and Murchad tutorial terminal.
+- Excludes: forming Ireland; an arbitrary player checklist; post-tutorial
+  achievements; exact hidden opponent plans.
+- Parameters: casus belli, target, objective, battle score, occupation score,
+  prisoner score, total, demand, effect, guidance stage and completion.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; one display connects pre-war legal
+  authority, live military evaluation, enforceable outcome and authored stop.
+
+## INF-265 — Sensory evidence and learned monster preparation are visible
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an investigative focus and retained journal expose reachable
+  highlighted evidence, a locally followable trace and learned target or
+  preparation facts while leaving unexamined future clues undisclosed.
+- Includes: Witcher Senses highlights and the quest/journal/bestiary information
+  used in The Beast of White Orchard.
+- Excludes: a complete external walkthrough; omniscient enemy tracking; ordinary
+  combat sight and sound without clue interpretation.
+- Parameters: search area, highlight, trace, clue state, journal fact, target
+  class, vulnerability, preparation and undiscovered state.
+- Evidence: [The Witcher 3: Wild Hunt decomposition](../games/s-z/the-witcher-3-wild-hunt.md).
+- Novelty: first isolated for `GAME-0205`; transient local highlighting and
+  retained monster knowledge disclose two stages of the same investigation.
+
+## INF-266 — Duel interface exposes public card-rule state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the interface exposes the player's hand, both Life Point totals,
+  public zones and cards, current phase, battle positions, inspected rules
+  text, legal prompts and the numbered Chain while concealing the opponent's
+  hand, Deck order and face-down identities.
+- Includes: the scoped Master Duel Tutorial chapter `10003` interface.
+- Excludes: personal collection panels, external deck trackers, CPU intent or
+  disclosure of unrevealed cards.
+- Parameters: hand, LP, zones, phase, position, card text, prompt, Chain and concealed state.
+- Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
+- Novelty: first isolated for `GAME-0206`; one digital surface joins positional
+  card state and a whole numbered response chain without revealing fixed secrets.

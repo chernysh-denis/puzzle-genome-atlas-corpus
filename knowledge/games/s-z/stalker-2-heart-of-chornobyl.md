@@ -99,11 +99,14 @@ gene instances but do not enter the signature.
   edition bonuses; mods, console commands, alternate difficulty modes and
   multiplayer; Captain Zotov as the terminal sensor recipient; killing Squint
   or retaining Mold; later regions and main missions; exhaustive A-Life,
-  faction war, reputation, emissions, upgrades, trading, stashes, artifacts,
-  weapons, armour, mutants, endings and the full Zone.
+  faction war, reputation, emissions, upgrades, trading, world stashes, coded
+  safes and their clue trails, artifacts, weapons, armour, mutants, endings and
+  the full Zone.
 - Potential scoped modules: Zotov's mutually exclusive early branch; one
   emission-and-shelter packet; one later faction-territory response; a complete
-  equipment upgrade/economy loop; or one expansion route after separate review.
+  equipment upgrade/economy loop; one reproducible coded-safe route with its
+  locally acquired numeric clues and stash transfer; or one expansion route
+  after separate review.
 - Direct-play status: no fresh paid-account run was conducted. GSC Game World's
   current patch archive and official support articles directly establish the
   maintained survival, anomaly, artifact, HUD, inventory, hub and interaction

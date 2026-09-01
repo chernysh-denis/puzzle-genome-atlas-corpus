@@ -4144,19 +4144,22 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player begins a timed use of one carried medical or boost
-  item and receives its declared immediate or gradual restorative effect only
+- Definition: the player begins a timed use of one carried restorative or
+  repair item and receives its declared immediate or gradual effect only
   if no cancelling action interrupts the channel.
 - Includes: PUBG bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers
-  and Adrenaline Syringes; Black Myth: Wukong finite Gourd sips.
+  and Adrenaline Syringes; Black Myth: Wukong finite Gourd sips; NARAKA:
+  BLADEPOINT Vitalia, Armor Powder and Weapon Repair Kits.
 - Excludes: instant turn-based potion use; passive regeneration without an item;
   reviving another participant.
-- Parameters: item, legal health range, cast time, allowed movement, cancelling
-  actions, consumed quantity, immediate health and boost-over-time.
+- Parameters: item, eligible meter or equipment, legal target range, cast time,
+  allowed movement, cancelling actions, consumed quantity and effect.
 - Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md)
   and [Black Myth: Wukong decomposition](../games/a-f/black-myth-wukong.md).
 - Additional support: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md),
-  for self-administering first aid and temporary-health items.
+  for self-administering first aid and temporary-health items, and
+  [NARAKA: BLADEPOINT decomposition](../games/m-r/naraka-bladepoint.md), for
+  interruptible Health, armour and weapon-Durability recovery.
 - Novelty: not assessed.
 
 ## ACT-201 — Enter and directly operate a world vehicle
@@ -4643,7 +4646,8 @@
   interaction; destroying terrain for a drop.
 - Parameters: source, body point, reach, remaining yields, result table,
   inventory capacity and interaction window.
-- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md)
+  and [Monster Hunter: World decomposition](../games/m-r/monster-hunter-world.md).
 - Novelty: not assessed.
 
 ## ACT-246 — Aim and commit a weapon-specific Focus Strike
@@ -5441,7 +5445,8 @@
   handbrake without first entering or later leaving an embodied seat.
 - Includes: controlling each assigned road, dirt, cross-country and Time Attack
   car in the scoped Forza Horizon 6 opening; steering, accelerating, reversing,
-  braking and powersliding one dedicated Rocket League car.
+  braking and powersliding one dedicated Rocket League car; driving the fixed
+  Story starter through Need for Speed Unbound's `Shopping Spree` packet.
 - Excludes: entering and exiting a persistent world vehicle; assigning an
   autonomous transport route; selecting which owned car will become active.
 - Parameters: vehicle, steering, throttle, brake, handbrake, transmission,
@@ -5480,7 +5485,8 @@
   difficulty profile that changes how direct inputs, guidance and autonomous
   rivals resolve during eligible driving events.
 - Includes: Forza Horizon 6 steering, braking, transmission, traction,
-  stability, driving-line, Rewind and Drivatar difficulty settings.
+  stability, driving-line, Rewind and Drivatar difficulty settings; Need for
+  Speed Unbound's Relaxed Story rival/police profile and automatic gearbox.
 - Excludes: changing only rendering quality; tuning a car's mechanical parts;
   selecting a different event or owned vehicle.
 - Parameters: steering, braking, transmission, traction, stability, driving
@@ -5498,7 +5504,8 @@
 - Definition: the player selects one currently unlocked driving-event marker
   and commits to its authored route, vehicle eligibility and result rules.
 - Includes: entering the scoped Trail, Circuit, Cross Country, Time Attack and
-  Horizon Invitational events in Forza Horizon 6.
+  Horizon Invitational events in Forza Horizon 6; committing Need for Speed
+  Unbound's available Story `Shopping Spree` marker.
 - Excludes: placing a navigation waypoint without starting the event; creating
   a custom route; selecting a multiplayer playlist.
 - Parameters: marker, event type, route, eligibility, solo field, result rule,
@@ -6298,20 +6305,21 @@
 - Novelty: first isolated for `GAME-0187`; the live selection changes embodied
   class function through spawn without either uniqueness or a permanent draft.
 
-## ACT-341 — Commit one contextual dungeon interaction
+## ACT-341 — Commit one contextual authored-object interaction
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player addresses one reachable authored dungeon object and
-  commits its currently legal read, activate, collect, unlock or open
-  interaction, changing local objective, inventory or route state.
+- Definition: the player addresses one reachable authored world object and
+  commits its currently legal read, activate, collect, install, repair, unlock
+  or open interaction, changing local objective, fixture, inventory or route
+  state.
 - Includes: reading Sastasha's Bloody Memo, activating the matching coral and
   revealed switch, collecting and using the Captain's Quarters and Waverider
   Gate keys, opening their gates and opening an admitted treasure coffer.
 - Excludes: an ordinary weapon attack; free-form crafting; dialogue choice;
-  interacting with optional Sastasha side rooms outside the scoped main route.
+  an interaction outside the current bounded route or objective.
 - Parameters: actor, object, reach, interaction, prerequisite, carried key,
   consumed or retained item, resulting flag, route state and reward source.
 - Evidence: [FINAL FANTASY XIV Online decomposition](../games/a-f/final-fantasy-xiv-online.md).
@@ -6319,6 +6327,8 @@
   for opening authored route doors and activating the Hotel elevator control.
 - Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
   for activating the mesh terminal and opening the admitted end chest.
+- Additional support: [PAYDAY 2 decomposition](../games/m-r/payday-2.md), for
+  installing, assembling and repairing the authored Bank Heist thermal drill.
 - Novelty: first isolated for `GAME-0188`; one generic command boundary joins
   readable clues, stateful switches, typed route keys and optional dungeon
   reward objects without treating their different resolutions as one system.
@@ -6615,3 +6625,405 @@
 - Novelty: first isolated for `GAME-0198`; unlike a telegraphed prompt response,
   the dodge is a freely timed neutral, pressure or recovery commitment in a
   continuously repositionable duel.
+
+## ACT-357 — Spend an earned driving burst
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while a directly controlled vehicle has accumulated an eligible
+  temporary burst reserve, the player activates some or all of it to request a
+  short tactical acceleration increase.
+- Includes: spending Burst Nitrous during the scoped Need for Speed Unbound
+  race or mandatory pursuit.
+- Excludes: collecting a spatial boost pad; passive top-speed tuning; a fixed
+  launch-control start; cosmetic exhaust effects.
+- Parameters: vehicle, reserve, activation, consumed amount, acceleration,
+  duration, grip/drift state and cancellation.
+- Evidence: [Need for Speed Unbound decomposition](../games/m-r/need-for-speed-unbound.md).
+- Novelty: first isolated for `GAME-0199`; the reserve is earned by live
+  driving technique rather than collected as a fixed world object.
+
+## ACT-358 — Intimidate, restrain or reposition one reachable civilian
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player addresses one reachable civilian with the currently
+  legal heist command, ordering compliance, applying one finite restraint or
+  directing an already compliant hostage to follow or stop.
+- Includes: shouting a PAYDAY 2 Bank Heist civilian to the floor, tying that
+  civilian with a cable tie and issuing follow or stay commands.
+- Excludes: shooting a hostile; communicating a plan to a human teammate;
+  automatic civilian panic; trading a hostage after custody.
+- Parameters: civilian, distance, visibility, command, compliance, cable-tie
+  stock, restraint, follow state and interruption.
+- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md).
+- Novelty: first isolated for `GAME-0201`; one contextual authority channel
+  changes a neutral witness into a spatially managed, finitely restrained
+  hostage whose later state affects the police-response loop.
+
+## ACT-359 — Lift, carry, throw or secure one heavy loot bag
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player takes one eligible bagged objective payload into the
+  dedicated carry state, moves or throws it through the world and deposits it
+  inside a compatible secure region.
+- Includes: bagging a PAYDAY 2 Bank Heist cash bundle, carrying or throwing its
+  money bag and loading it into the escape van.
+- Excludes: collecting loose instant cash; equipping a weapon; moving an
+  unconstrained physics prop; the later payout calculation.
+- Parameters: loot source, bag identity, carrier, carry state, movement
+  modifier, throw impulse, world position, secure region and credited state.
+- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md).
+- Novelty: first isolated for `GAME-0201`; an objective object alternates
+  between exclusive embodied carriage and recoverable world trajectory before
+  a spatial deposit makes its value count.
+
+## ACT-360 — Commit one legal pre-match spawn region
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during a bounded match-preparation phase, the player selects one
+  currently legal map region as the controlled participant's initial live
+  position and accepts that commitment when the preparation countdown ends.
+- Includes: Viper Ning's spawn-point selection before the scoped Wanchu Solo
+  BOT Mode match.
+- Excludes: exiting an aircraft in motion; choosing a later respawn; random
+  insertion with no player selection; an account-level home location.
+- Parameters: map, selectable region, current occupancy, selection, revision
+  window, countdown and instantiated position.
+- Evidence: [NARAKA: BLADEPOINT decomposition](../games/m-r/naraka-bladepoint.md).
+- Novelty: first isolated for `GAME-0202`; an explicit preparation choice owns
+  the first live position without an intervening flight or route traversal.
+
+## ACT-361 — Fire one consumable grappling hook
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player aims one carried grappling charge at eligible terrain
+  or a live combatant and fires it to request a tethered approach toward the
+  selected target.
+- Includes: NARAKA: BLADEPOINT Grappling Hook traversal, pursuit and escape.
+- Excludes: a permanent unlimited grappling ability; pulling an object toward
+  the player; grappling and silently neutralising an unaware target.
+- Parameters: carried stock, aim mode, target, anchor, range, hit, pull,
+  collision, cancellation and consumed charge.
+- Evidence: [NARAKA: BLADEPOINT decomposition](../games/m-r/naraka-bladepoint.md).
+- Novelty: first isolated for `GAME-0202`; a finite loot item creates a direct
+  terrain- or opponent-targeted movement commitment inside the same match.
+
+## ACT-362 — Engage or release one reachable climbing grip
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while a directly controlled body can reach compatible world
+  surface and has usable stamina, the player holds the grip input to request
+  continued attachment and aimed body movement, or releases it to detach.
+- Includes: PEAK surface grabbing, climbing, ledge transfer and deliberate release.
+- Excludes: ordinary walking; an animation-only ladder; unlimited automatic
+  wall climbing; independently mapping two hands to separate buttons.
+- Parameters: body, hand reach, surface, contact, aim, hold, stamina, pose,
+  attachment, movement and release.
+- Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Novelty: first isolated for `GAME-0203`; freely targeted geometry becomes a
+  continuously stamina-priced attachment rather than a fixed traversal link.
+
+## ACT-363 — Deploy one carried climbing aid onto terrain
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects one finite carried climbing aid and commits it
+  against compatible reachable terrain to request a persistent anchor, line or
+  rest point in the current expedition.
+- Includes: placing a PEAK Rope Spool line or Piton for later climbing support.
+- Excludes: firing a grappling hook that moves the user immediately; permanent
+  construction; dropping an inert item; a pre-authored ladder.
+- Parameters: item, carried stock, target surface, reach, placement, anchor,
+  line, support, persistence and rejection.
+- Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Novelty: first isolated for `GAME-0203`; a disposable inventory object edits
+  the current physics route without becoming a general building system.
+
+## ACT-364 — Ignite a carried signal flare in an eligible region
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while carrying an ignitable signal item inside its declared
+  activation region, the player lights it to request the associated rescue or
+  terminal response and consumes its ordinary future use.
+- Includes: lighting a PEAK Flare inside the PEAK region to call the helicopter.
+- Excludes: firing a combat flare; entering an already open exit; a purely
+  cosmetic emote; rescue triggered automatically by arrival.
+- Parameters: item, carried state, region, ignition legality, signal, response,
+  consumption and terminal eligibility.
+- Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Novelty: first isolated for `GAME-0203`; the run's retained signal supply is
+  also the explicit final command that asks the rescue system to settle.
+
+## ACT-365 — Select one eligible lifestyle focus
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player chooses one currently available focus inside the
+  controlled character's lifestyle, replacing its focus-level passive effects
+  while preserving the broader character state.
+- Includes: selecting one Diplomacy focus for Petty King Murchad in the scoped
+  Crusader Kings III tutorial.
+- Excludes: spending a perk point; changing culture; choosing a game mode.
+- Parameters: character, lifestyle, available focus, current focus, passive
+  effects and switch condition.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; a character-owned development track
+  exposes one replaceable passive stance before campaign time advances.
+
+## ACT-366 — Propose one eligible political marriage
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects two eligible characters and submits one
+  ordinary marriage arrangement whose disclosed acceptance and relationship
+  rules determine whether it can settle.
+- Includes: arranging Murchad's prompted base-game tutorial marriage.
+- Excludes: Grand Weddings; automatic romance; births or succession; cosmetic
+  partner selection.
+- Parameters: proposer, candidates, marriage type, doctrine, kinship,
+  acceptance, alliance expectation and confirmation.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; a roster comparison directly submits
+  a persistent family-and-diplomacy state transition.
+
+## ACT-367 — Appoint a councillor and assign a council task
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player fills one legal council office with an eligible
+  character or selects one task and target that the appointed office can pursue.
+- Includes: the base-game offices and instructed tasks exposed in Murchad's
+  tutorial.
+- Excludes: changing a feudal contract; hiring a court position from DLC;
+  directly resolving the task's effect.
+- Parameters: office, candidate, skill, appointment, task, target and current
+  assignment.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; one person is bound to a typed realm
+  office and a separately chosen time-driven operation.
+
+## ACT-368 — Declare war with an available casus belli
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects one legal target and available casus belli,
+  reviews its objective, costs and settlement effects, then commits both realms
+  to the resulting war.
+- Includes: declaring the instructed Desmond war in the Crusader Kings III
+  Murchad tutorial.
+- Excludes: an unbounded attack with no legal cause; choosing battle tactics;
+  enforcing demands after the war is won.
+- Parameters: attacker, defender, casus belli, target title, objective, cost,
+  truce, allies and declared effects.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; a title relation and explicit legal
+  predicate configure the later military contest and its possible transfer.
+
+## ACT-369 — Raise or disband realm troops at a rally point
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player orders currently available levies and men-at-arms to
+  gather at a legal rally point, or releases an eligible raised army back into
+  its realm contributions.
+- Includes: raising Murchad's available tutorial army for the Desmond war.
+- Excludes: recruiting a new regiment; moving the gathered army; a fixed
+  scenario army that exists without realm obligations.
+- Parameters: realm, contribution, troop class, rally point, gathering time,
+  raised army, maintenance and disband eligibility.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; dispersed feudal obligations become
+  one temporary controllable map formation through a player-selected muster.
+
+## ACT-370 — Focus a sensory mode and inspect highlighted evidence
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player sustains a character-centred investigative sense,
+  follows its locally exposed trace and inspects one reachable highlighted clue
+  to submit that evidence to the current authored investigation.
+- Includes: using Witcher Senses to inspect the attacked camp, footprints,
+  griffin nest and corpse evidence in The Beast of White Orchard.
+- Excludes: automatically revealing every future clue; reading an external
+  walkthrough; a detector whose signal identifies only physical proximity.
+- Parameters: sense state, search area, highlight, clue, trace, reach,
+  inspection, retained fact and next objective.
+- Evidence: [The Witcher 3: Wild Hunt decomposition](../games/s-z/the-witcher-3-wild-hunt.md).
+- Novelty: first isolated for `GAME-0205`; an embodied focus exposes an
+  authored evidence trail whose individual inspections advance a quest.
+
+## ACT-371 — Normal Summon or Normal Set one monster
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during an eligible own Main Phase, the player places one legal
+  monster from hand face-up in Attack Position as a Normal Summon or face-down
+  in Defense Position as a Normal Set and spends the shared turn allowance.
+- Includes: an ordinary Level 4 or lower monster in Tutorial chapter `10003`.
+- Excludes: a Special, Flip or effect-directed Summon; resolving an attack.
+- Parameters: card, level, Tribute, zone, position, turn allowance and effect.
+- Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
+- Novelty: first isolated for `GAME-0206`; two distinct visible/concealed field
+  entries compete for one recurrent own-turn placement allowance.
+
+## ACT-372 — Commit one procedure-based Special Summon
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player declares one currently legal Special Summon procedure,
+  selects every required material or source and commits those objects so the
+  matching monster can enter its legal field zone and position.
+- Includes: reachable Synchro, Xyz or Link Summons from the chapter `10003`
+  five-card Extra Deck.
+- Excludes: a Normal/Tribute Summon; an automatic card-effect Summon with no
+  player-selected procedure; deck construction.
+- Parameters: procedure, monster, materials, levels, ratings, source, zone and position.
+- Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
+- Novelty: first isolated for `GAME-0206`; public field objects are consumed
+  under a typed relation to admit one matching Extra Deck object.
+
+## ACT-373 — Set one Spell or Trap from hand
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during an eligible Main Phase, the player places one Spell or
+  Trap from hand face-down into an open compatible zone without resolving its
+  text.
+- Includes: setting `Ballista Squad`, `Call of the Haunted` or `Skill Successor`
+  in the fixed Tutorial packet.
+- Excludes: activating a card; Normal Setting a monster; placing a public
+  continuous object directly face-up.
+- Parameters: card type, zone, concealed state, set turn and later eligibility.
+- Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
+- Novelty: first isolated for `GAME-0206`; one visible hand card becomes
+  concealed board occupancy whose response authority is deliberately delayed.
+
+## ACT-374 — Activate one eligible card or effect
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player declares one currently activatable Spell, Trap or
+  monster effect, pays its stated costs and selects required targets so the
+  activation becomes the first unresolved Chain Link.
+- Includes: activating a fixed-packet Normal Spell, a previously Set Trap or an
+  eligible monster effect.
+- Excludes: resolving the text immediately; responding as a later Chain Link;
+  passive continuous text without an activation.
+- Parameters: source, effect, timing, cost, target, Spell Speed and Chain Link.
+- Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
+- Novelty: first isolated for `GAME-0206`; activation commits card-specific
+  predicates before either side knows the completed response chain.
+
+## ACT-375 — Add one eligible response as the next Chain Link
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after another effect is activated, the responding player chooses
+  one legal equal-or-faster response, pays its costs and appends it as the next
+  numbered Chain Link before any linked effect resolves.
+- Includes: chaining an eligible Trap, Quick-Play Spell or Quick Effect in the
+  scoped Duel.
+- Excludes: activating Spell Speed 1 in response; adding a link while a
+  completed Chain is resolving; an MTG priority pass.
+- Parameters: responder, prior link, response, speed, cost, target and link number.
+- Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
+- Novelty: first isolated for `GAME-0206`; response legality depends on the
+  immediately preceding link's typed speed before whole-chain settlement.
+
+## ACT-376 — Declare one eligible monster attack
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during a legal Battle Phase, the player selects one eligible
+  face-up Attack Position monster and commits its ordinary attack against one
+  legal opposing monster or directly when the field permits.
+- Includes: each separate chapter `10003` attack declaration.
+- Excludes: selecting a simultaneous attacker subset; choosing a blocker;
+  resolving battle damage.
+- Parameters: attacker, used-attack flag, target, direct eligibility, phase and responses.
+- Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
+- Novelty: first isolated for `GAME-0206`; combat begins as one sequential
+  attacker-target commitment rather than a simultaneous army declaration.
+
+## ACT-377 — Change one eligible monster's battle position
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during an eligible own Main Phase, the player changes one monster
+  between face-up Attack and Defense Position or Flip Summons an eligible
+  face-down Defense Position monster.
+- Includes: a legal manual position change or Flip Summon in chapter `10003`.
+- Excludes: a position change caused by card text; Normal Setting from hand;
+  declaring an attack.
+- Parameters: monster, current position, destination, set turn, attack history and prior change.
+- Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
+- Novelty: first isolated for `GAME-0206`; one retained field object changes
+  its offence/defence and disclosure role under per-turn history rules.
+
+## ACT-378 — Sharpen the equipped close-range weapon
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player commits an exposed whetstone interaction on the
+  equipped close-range weapon so a completed maintenance animation restores
+  its current sharpness gauge while live combat and quest time continue.
+- Includes: sharpening `Hunter's Knife I` during the scoped Monster Hunter:
+  World Great Jagras assignment.
+- Excludes: consuming a finite healing item; smithy upgrading; automatically
+  restoring sharpness after combat; repairing a weapon's persistent durability.
+- Parameters: weapon, whetstone, current sharpness, restored sharpness,
+  animation, interruption, combat state and quest clock.
+- Evidence: [Monster Hunter: World decomposition](../games/m-r/monster-hunter-world.md).
+- Novelty: first isolated for `GAME-0207`; field maintenance restores a
+  repeatedly degraded combat resource through a live interruptible commitment
+  without consuming the maintenance tool.

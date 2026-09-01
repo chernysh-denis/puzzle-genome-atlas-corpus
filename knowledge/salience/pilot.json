@@ -1,5 +1,5 @@
 {
-  "version": "GENE_SALIENCE_AND_PLAIN_LANGUAGE_EXPANSION_025",
+  "version": "GENE_SALIENCE_AND_PLAIN_LANGUAGE_EXPANSION_027",
   "roles": [
     "defining",
     "structural",
@@ -6067,6 +6067,78 @@
       "defining": ["ACT-355", "SYS-637", "SYS-638", "SYS-639", "SYS-640", "CON-520", "CON-522", "OBJ-121"],
       "structural": ["ACT-294", "ACT-295", "ACT-356", "SYS-456", "CON-442", "CON-519", "CON-521", "INF-254"],
       "supporting": ["ACT-008", "SYS-215", "INF-142", "INF-209", "TIM-003"]
+    },
+    "GAME-0199": {
+      "reviewed": "2026-08-31",
+      "noteEn": "Technique-earned Burst, exposed race cash, event-built Heat, unseen escape and garage-only retention define the packet; fixed event commitment, ordered classification, rival pressure and live risk information structure it.",
+      "noteUk": "Цю межу визначають прискорення, зароблене технікою водіння, незбережені призові, підвищена подією увага поліції, втеча після прихованого пошуку та збереження лише в гаражі. Її структуру підтримують наперед визначена подія, впорядкована класифікація, тиск суперників і доступна інформація про ризик.",
+      "defining": ["ACT-357", "SYS-641", "SYS-642", "CON-523", "INF-255", "OBJ-122"],
+      "structural": ["ACT-293", "SYS-366", "SYS-515", "SYS-516", "CON-328", "CON-437", "CON-438", "INF-144", "INF-205", "INF-206", "INF-208"],
+      "supporting": ["ACT-290", "ACT-292", "SYS-320", "SYS-365", "SYS-519", "INF-204", "TIM-003"]
+    },
+    "GAME-0200": {
+      "reviewed": "2026-08-31",
+      "noteEn": "Ordered sector closure, an attacker-only replenishable troop-force pool, active-front legality and the defender ticket terminal define the packet; Luna's role loadout, squad deployment/revival and contested combined-arms combat structure it.",
+      "noteUk": "Цю межу визначають послідовне завершення секторів, обмежений і поповнюваний лише для нападу запас підкріплень, допустима активна лінія фронту та перемога оборони після виснаження цього запасу. Її структуру підтримують рольове спорядження Luna, повернення й підняття бійців загону та загальновійськова боротьба за оспорювані цілі.",
+      "defining": ["SYS-643", "SYS-644", "CON-524", "OBJ-123"],
+      "structural": ["ACT-190", "ACT-240", "ACT-241", "SYS-380", "SYS-394", "SYS-395", "CON-346", "CON-347", "CON-348", "INF-116", "INF-150", "INF-155"],
+      "supporting": ["ACT-008", "ACT-161", "ACT-164", "ACT-183", "ACT-184", "ACT-187", "ACT-201", "ACT-215", "SYS-208", "SYS-215", "SYS-292", "SYS-320", "SYS-382", "CON-262", "CON-269", "CON-272", "CON-288", "INF-073", "INF-115", "INF-119", "TIM-003"]
+    },
+    "GAME-0201": {
+      "reviewed": "2026-08-31",
+      "noteEn": "Irreversible alarm, hostage state, interruptible drill, cyclical police response, custody trade, heavy-bag credit and payout escape define the packet; stock bots, live combat and bounded information structure it.",
+      "noteUk": "Цю межу визначають незворотна тривога, стан заручника, бур із ремонтованими зупинками, повторні фази поліції, повернення з арешту, зарахування важкої сумки та втеча з виплатою. Її структуру підтримують штатні боти, бій у реальному часі й обмежена інформація.",
+      "defining": ["SYS-645", "SYS-646", "SYS-647", "SYS-648", "SYS-649", "SYS-650", "SYS-651", "CON-525", "CON-526", "CON-527", "CON-528", "CON-529", "INF-256", "INF-257", "OBJ-124"],
+      "structural": ["ACT-358", "ACT-359", "ACT-241", "ACT-341", "SYS-348", "SYS-373", "SYS-618", "INF-116", "INF-246"],
+      "supporting": ["ACT-008", "ACT-161", "ACT-164", "ACT-183", "ACT-190", "ACT-199", "SYS-208", "SYS-215", "CON-262", "CON-269", "INF-073", "INF-115", "INF-119", "TIM-003"]
+    },
+    "GAME-0202": {
+      "reviewed": "2026-08-31",
+      "noteEn": "Committed ground spawn, consumable hook approach, Focus/Counter relations, repairable Durability, contracting safety and one pre-cutoff Rebirth define the packet; loot, hero abilities and live information structure it.",
+      "noteUk": "Цю межу визначають вибрана наземна точка появи, витратний гак, співвідношення Focus/Counter, ремонтована міцність, звуження безпеки та один Rebirth до межі фази. Її структуру підтримують здобич, здібності героїні та інформація в реальному часі.",
+      "defining": ["ACT-360", "ACT-361", "SYS-652", "SYS-653", "SYS-654", "SYS-655", "SYS-656", "SYS-657", "SYS-658", "SYS-659", "CON-530", "CON-531", "CON-532", "CON-533", "OBJ-074"],
+      "structural": ["ACT-190", "ACT-199", "ACT-223", "ACT-356", "SYS-380", "SYS-381", "CON-269", "CON-284", "INF-119", "INF-127", "INF-128", "INF-129", "INF-142"],
+      "supporting": ["ACT-008", "ACT-161", "ACT-164", "ACT-183", "ACT-186", "ACT-200", "SYS-208", "SYS-215", "CON-262", "CON-285", "CON-286", "INF-073", "INF-115", "TIM-003"]
+    },
+    "GAME-0203": {
+      "reviewed": "2026-08-31",
+      "noteEn": "A civil-time daily island, stamina-priced free grip, status/weight obstruction, persistent climbing aids, ordered biome pressure and Flare-owned helicopter settlement define the packet; physics, supplies, inventory and live feedback structure it.",
+      "noteUk": "Цю межу визначають щоденний острів за календарною датою й часом, довільний хват із витратою витривалості, блокування спроможності станами й вагою, сталі альпіністські опори, послідовний тиск біомів і гелікоптерне завершення після сигнальної ракети. Її структуру підтримують фізика, припаси, спорядження та інформація в реальному часі.",
+      "defining": ["ACT-362", "ACT-363", "ACT-364", "SYS-660", "SYS-661", "SYS-662", "SYS-663", "SYS-664", "SYS-665", "SYS-666", "SYS-667", "SYS-668", "SYS-669", "CON-534", "CON-535", "CON-536", "CON-537", "INF-258", "INF-259", "OBJ-125"],
+      "structural": ["ACT-165", "ACT-199", "ACT-200", "SYS-036", "SYS-326", "CON-210", "CON-286", "INF-075", "INF-128"],
+      "supporting": ["ACT-008", "ACT-048", "ACT-164", "ACT-186", "INF-073", "TIM-003"]
+    },
+    "GAME-0204": {
+      "reviewed": "2026-08-31",
+      "noteEn": "Character qualities, marriage, council work, title hierarchy, claim authority, feudal muster, war score and tutorial settlement define the packet; contextual army orders and evolving opinions structure it, while speed control supports planning.",
+      "noteUk": "Цю межу визначають якості персонажів, шлюб, робота ради, ієрархія титулів, законна підстава війни, феодальний збір, воєнний рахунок і завершення навчання. Її структуру підтримують накази війську та зміни ставлення, а керування швидкістю допомагає планувати.",
+      "defining": ["ACT-365", "ACT-366", "ACT-367", "ACT-368", "ACT-369", "SYS-670", "SYS-671", "SYS-672", "SYS-673", "SYS-674", "SYS-675", "SYS-676", "SYS-677", "SYS-678", "SYS-679", "CON-538", "CON-539", "CON-540", "CON-541", "CON-542", "CON-543", "INF-260", "INF-261", "INF-262", "INF-263", "INF-264", "OBJ-126"],
+      "structural": ["ACT-189", "SYS-205", "SYS-297", "TIM-003"],
+      "supporting": ["ACT-006"]
+    },
+    "GAME-0205": {
+      "reviewed": "2026-08-31",
+      "noteEn": "Sensory clue inspection, authored investigation progress, monster preparation and trophy-backed quest completion define the packet; dialogue, crafting, combat and ordered gates structure it, while navigation, equipment and live information support execution.",
+      "noteUk": "Цю межу визначають огляд доказів за допомогою чуття, авторський поступ розслідування, підготовка до чудовиська й завершення завдання після здавання трофея. Її структуру підтримують розмови, виготовлення, бій і послідовні умови, а виконанню допомагають рух, спорядження та поточна інформація.",
+      "defining": ["ACT-370", "SYS-680", "INF-265", "OBJ-127"],
+      "structural": ["ACT-107", "ACT-123", "ACT-131", "ACT-161", "ACT-190", "ACT-223", "ACT-232", "ACT-245", "SYS-215", "SYS-379", "SYS-405", "CON-269", "CON-282", "CON-357", "CON-358", "INF-119", "INF-125", "INF-148"],
+      "supporting": ["ACT-008", "ACT-199", "CON-284", "INF-073", "INF-115", "INF-128", "TIM-003"]
+    },
+    "GAME-0206": {
+      "reviewed": "2026-09-01",
+      "noteEn": "The fixed Solo fixture, Normal Summon/Set allowance, delayed Set interaction, Spell-Speed Chain, positional attacks and chapter-clear result define the packet; fixed concealed cards and the opponent-loss objective structure it.",
+      "noteUk": "Цю межу визначають незмінний пакет Solo, спільне право на звичайний виклик або встановлення, відкладена дія встановлених карт, ланцюг за швидкістю, позиційні атаки й зарахування розділу. Її структуру підтримують сталі приховані карти та мета першою спричинити поразку суперника.",
+      "defining": ["ACT-371", "ACT-372", "ACT-373", "ACT-374", "ACT-375", "ACT-376", "ACT-377", "SYS-681", "SYS-682", "SYS-683", "SYS-684", "SYS-685", "SYS-686", "CON-544", "CON-545", "CON-546", "CON-547", "CON-548", "CON-549", "INF-266", "TIM-020"],
+      "structural": ["OBJ-109"],
+      "supporting": ["INF-003"]
+    },
+    "GAME-0207": {
+      "reviewed": "2026-09-01",
+      "noteEn": "Trace-fed reacquisition, one degrading and sharpened weapon, monster exhaustion and feeding, Palico pressure, finite faints and the retained assignment result define the packet; movement, supplies, carving, predecessor gating and visible resources structure it.",
+      "noteUk": "Цю межу визначають повторне знаходження цілі за слідами, одна зброя зі зменшенням і відновленням гостроти, виснаження та живлення чудовиська, тиск Palico, скінченні непритомності й збережений підсумок призначеного завдання. Її структуру підтримують рух, припаси, вирізання матеріалів, попереднє завдання та видимі ресурси.",
+      "defining": ["ACT-161", "ACT-378", "SYS-215", "SYS-403", "SYS-404", "SYS-405", "SYS-407", "SYS-687", "SYS-688", "CON-354", "CON-356", "INF-157", "INF-158", "OBJ-128", "TIM-003"],
+      "structural": ["ACT-008", "ACT-131", "ACT-245", "CON-282", "CON-358", "INF-075", "INF-125"],
+      "supporting": ["CON-210", "INF-073"]
     }
   }
 }

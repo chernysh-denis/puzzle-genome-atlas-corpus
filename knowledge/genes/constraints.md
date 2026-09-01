@@ -5275,14 +5275,17 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: a carried medical or boost item produces its effect only when
-  current health permits use and the player completes its live cast without a
-  cancelling movement, weapon or damage event.
-- Includes: PUBG bandage, First Aid Kit, Med Kit and boost-item restrictions.
+- Definition: a carried restorative or repair item produces its effect only
+  when the matching Health, armour or equipment meter permits use and the
+  player completes its live cast without a cancelling movement, weapon or
+  damage event.
+- Includes: PUBG bandage, First Aid Kit, Med Kit and boost-item restrictions;
+  NARAKA: BLADEPOINT Vitalia, Armor Powder and Weapon Repair Kit restrictions.
 - Excludes: passive healing; instant armour protection; teammate revival.
-- Parameters: item, current health, target cap, cast duration, allowed movement,
-  cancellation event and Blue Zone interaction.
-- Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md).
+- Parameters: item, target meter or equipment, current value, target cap, cast
+  duration, allowed movement, cancellation event and environmental interaction.
+- Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md)
+  and [NARAKA: BLADEPOINT decomposition](../games/m-r/naraka-bladepoint.md).
 - Novelty: not assessed.
 
 ## CON-287 — Armour protects only covered regions while durable
@@ -5972,7 +5975,7 @@
   protagonist leaves active police perception and remains undiscovered through
   the complete star-dependent search interval; renewed sight resets pursuit.
 - Includes: Grand Theft Auto V Story Mode line-of-sight evasion and flashing-star
-  search state.
+  search state; Need for Speed Unbound LPD pursuit-to-search clearance.
 - Excludes: GTA Online paid removal; mission scripts that hold a wanted level;
   defeating a fixed enemy encounter.
 - Parameters: stars, sight source, search radius, concealment, interval,
@@ -6436,7 +6439,8 @@
   long-term smithy upgrade requirements.
 - Parameters: weapon, move, stamina, sharpness, ammunition, charge, recovery
   frame and cancel rule.
-- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md)
+- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md),
+  [Monster Hunter: World decomposition](../games/m-r/monster-hunter-world.md)
   and [Black Myth: Wukong decomposition](../games/a-f/black-myth-wukong.md).
 - Novelty: not assessed.
 
@@ -6470,7 +6474,8 @@
   performance medals after a successful quest.
 - Parameters: target, completion form, timer, remaining faints, failure event
   and retry boundary.
-- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md)
+  and [Monster Hunter: World decomposition](../games/m-r/monster-hunter-world.md).
 - Novelty: not assessed.
 
 ## CON-357 — Crafting and smithing require recipe inputs and currency
@@ -6505,7 +6510,8 @@
   an exhausted or expired carcass.
 - Parameters: source, reach, eligibility, remaining yields, carve count,
   interaction window and result table.
-- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md)
+  and [Monster Hunter: World decomposition](../games/m-r/monster-hunter-world.md).
 - Novelty: not assessed.
 
 ## CON-359 — Attribute requirements and equipment load gate combat form
@@ -7857,16 +7863,17 @@
 - Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
 - Novelty: first isolated for `GAME-0164`.
 
-## CON-437 — Festival event entry requires an eligible car theme and class
+## CON-437 — Driving-event entry requires an eligible vehicle and class
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: an official Festival event may begin only with a vehicle admitted
+- Definition: a configured driving event may begin only with a vehicle admitted
   by its current theme, type and performance-class restriction.
 - Includes: Forza Horizon 6 opening Festival events limited to C-class cars
-  until the first Wristband is earned.
+  until the first Wristband; Need for Speed Unbound `Shopping Spree` accepting
+  the fixed A+ Story starter packet.
 - Excludes: unrestricted free driving; post-completion Race Customizer rules;
   an event whose fixed vehicle is supplied automatically.
 - Parameters: event, car theme, vehicle type, performance class, PI range,
@@ -7885,7 +7892,7 @@
   crosses every required checkpoint in sequence and completes the declared lap
   count before the finish line is accepted.
 - Includes: Forza Horizon 6 Trail, Circuit, Cross Country, Time Attack and
-  Invitational routes.
+  Invitational routes; Need for Speed Unbound `Shopping Spree`.
 - Excludes: open-world navigation; a single speed-zone measurement; decorative
   gates with no progress authority.
 - Parameters: checkpoint order, gate width, direction, lap count, reset policy
@@ -9383,3 +9390,485 @@
 - Evidence: [Brawlhalla decomposition](../games/a-f/brawlhalla.md).
 - Novelty: first isolated for `GAME-0198`; the same recoverable elimination
   counter both permits repeated returns and becomes the direct duel terminal.
+
+## CON-523 — Garage settlement requires cleared police pursuit
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: exposed street-event earnings cannot become retained while
+  police pursuit or search remains active; only escape followed by an eligible
+  garage entry permits banking.
+- Includes: the mandatory post-`Shopping Spree` LPD escape and Rydell's Rydes
+  entry in Need for Speed Unbound.
+- Excludes: free garage access with no pursuit; immediate race-result credits;
+  paying to remove a wanted level; a loot-extraction zone.
+- Parameters: exposed cash, pursuit state, perception, search interval, escape,
+  garage, entry eligibility, banked result and bust.
+- Evidence: [Need for Speed Unbound decomposition](../games/m-r/need-for-speed-unbound.md).
+- Novelty: first isolated for `GAME-0199`; a completed race remains
+  economically unsettled until a separate live law-enforcement state is clear.
+
+## CON-524 — Capture and deployment remain inside the active A/D front
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: only objectives and team deployment sources belonging to the
+  currently active Attack and Defend sector are legal; completing a sector
+  closes its former combat space and requires defenders to fall back before the
+  next sector becomes contestable.
+- Includes: Coliseum sector objectives, deployment sources and fallback bounds
+  in the scoped Delta Force match.
+- Excludes: an open Conquest map where every point remains contestable; a
+  shrinking survival ring; a payload route with no team redeployment network.
+- Parameters: side, active sector, objective, source, legal combat area,
+  fallback warning, closed sector and next-sector activation.
+- Evidence: [Delta Force decomposition](../games/a-f/delta-force.md).
+- Novelty: first isolated for `GAME-0200`; front legality advances only after a
+  whole local objective set is secured.
+
+## CON-525 — Casing and mask state gate overt heist actions
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: casing permits observation and ordinary movement but withholds
+  weapons, restraints and criminal fixtures until the player commits the mask;
+  completed detection or an overt action then commits the alarm boundary.
+- Includes: inspecting the scoped PAYDAY 2 bank in casing, masking up and firing
+  the declared unsuppressed AMCAR to force loud play.
+- Excludes: unrestricted stealth attacks before a stance change; a cosmetic
+  mask; concealment that automatically returns after combat.
+- Parameters: casing state, mask state, available actions, concealment,
+  forbidden input, overt stimulus and alarm commitment.
+- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md).
+- Novelty: first isolated for `GAME-0201`; a one-way embodied commitment
+  expands the action surface while exposing the remaining contract to alarm.
+
+## CON-526 — Hostage control requires a compliant body and finite restraint
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a civilian can be restrained or redirected only while alive,
+  reachable and compliant, each restraint consumes one available cable tie and
+  police access can invalidate continued hostage control through rescue.
+- Includes: tying and relocating one compliant Bank Heist civilian.
+- Excludes: unlimited abstract hostage tokens; restraining an active hostile by
+  ordinary civilian input; controlling a body through walls.
+- Parameters: body state, compliance, reach, cable-tie stock, restraint,
+  follow eligibility, police access and rescued state.
+- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md).
+- Novelty: first isolated for `GAME-0201`; coercive control is jointly bounded
+  by consumable restraint and the continuing spatial state of a vulnerable NPC.
+
+## CON-527 — Drill work requires the matching vault fixture and live reach
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: placement, assembly and repair resolve only for a live,
+  non-custody heister within interaction reach of the matching vault drill
+  anchor; interruption prevents the current interaction channel from completing.
+- Includes: placing, starting and repairing the Bank Heist thermal drill.
+- Excludes: remote repair; a drill on an arbitrary wall; progress while the
+  drill remains jammed; opening by a separately excluded preplanning key.
+- Parameters: actor state, fixture, anchor, reach, interaction duration,
+  interruption, jam state and opened state.
+- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md).
+- Novelty: first isolated for `GAME-0201`; a persistent autonomous objective
+  process depends on repeated embodied access to one authored machine anchor.
+
+## CON-528 — Heavy loot has exclusive carriage and spatial deposit rules
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: one heavy loot bag may have at most one carrier, modifies that
+  carrier's movement while held, becomes a recoverable world object when thrown
+  and counts only after crossing a compatible secure-region boundary.
+- Includes: the required Bank Heist: Cash money bag and escape van.
+- Excludes: weightless inventory stacks; loose cash; credit from merely opening
+  the vault; two simultaneous carriers of one bag.
+- Parameters: bag, carrier, exclusive state, movement modifier, throw, collision,
+  world recovery, secure region and credit.
+- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md).
+- Novelty: first isolated for `GAME-0201`; a valuable objective alternates
+  between constrained personal movement and shared spatial routing before credit.
+
+## CON-529 — Mandatory secured loot gates the active heist escape
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the declared escape cannot settle before the contract-specific
+  minimum secured-loot count holds, and success requires eligible crew presence
+  in the currently active escape region rather than mere objective discovery.
+- Includes: one secured money bag followed by escape-zone occupancy in Normal
+  Bank Heist: Cash.
+- Excludes: optional additional-loot maximisation; aborting from the menu;
+  career progression after payout; a cash bundle still carried outside the van.
+- Parameters: contract variant, required bag count, secured count, escape
+  region, living roster, custody state, occupancy and success.
+- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md).
+- Novelty: first isolated for `GAME-0201`; transported objective value and
+  embodied departure are conjunctive terminal predicates.
+
+## CON-530 — Preparation spawn must use a legal selectable region
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the controlled hero's first live position must belong to a region
+  exposed as selectable on the current map during preparation and satisfy its
+  current occupancy or conflict rules before the countdown commits it.
+- Includes: Viper Ning's selected Wanchu spawn in Solo BOT Mode.
+- Excludes: an aircraft-reachable landing envelope; random respawn after death;
+  teleporting during live play.
+- Parameters: map, selectable region, occupied state, conflict rule, countdown,
+  final selection and first live position.
+- Evidence: [NARAKA: BLADEPOINT decomposition](../games/m-r/naraka-bladepoint.md).
+- Novelty: first isolated for `GAME-0202`; the map interface directly bounds
+  the initial ground position before the live Survival loop begins.
+
+## CON-531 — Melee relation requires compatible timing and weapon state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: common attack, Focus Strike, Clash and Counter outcomes occur
+  only when the current weapon, charge class, action recovery and relative
+  input windows form one of their declared legal relations.
+- Includes: NARAKA: BLADEPOINT Blue Focus, Quick Counter, Clash, disarm and
+  Counterstrike eligibility.
+- Excludes: passive evasion; arbitrary Counter against an ordinary attack;
+  ranged weapon reload; hero ability cooldown.
+- Parameters: weapon, attack class, charge, recovery, opponent action, timing
+  window, relation, disarm and follow-up authority.
+- Evidence: [NARAKA: BLADEPOINT decomposition](../games/m-r/naraka-bladepoint.md).
+- Novelty: first isolated for `GAME-0202`; the legal response depends on the
+  opponent's live attack class and can change weapon ownership.
+
+## CON-532 — Solo Rebirth requires its one available pre-cutoff allowance
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an eliminated Solo participant may return to live control only
+  while the match's single Rebirth remains unused and the current phase has not
+  crossed the declared Rebirth cutoff; consumption removes later eligibility.
+- Includes: the one Rebirth available in NARAKA: BLADEPOINT Solo BOT Mode.
+- Excludes: ally revival; indefinite checkpoint return; a fresh later match;
+  final spectating after the allowance is unavailable.
+- Parameters: mode, eliminated state, available stock, cutoff, consumption,
+  return state and later finality.
+- Evidence: [NARAKA: BLADEPOINT decomposition](../games/m-r/naraka-bladepoint.md).
+- Novelty: first isolated for `GAME-0202`; a one-use Solo return is also bounded
+  by the progressing battle-royale phase.
+
+## CON-533 — Grappling requires carried stock and a valid anchor
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: firing a Grappling Hook can start a pull only while one carried hook
+  remains and the aimed terrain or combatant is within the current target,
+  range, line and action-state rules.
+- Includes: NARAKA: BLADEPOINT terrain traversal, pursuit and disengagement by
+  Grappling Hook.
+- Excludes: unlimited ability charges; grappling through blocked geometry;
+  pulling a remote object into inventory.
+- Parameters: hook stock, aim mode, target class, range, line, action lock,
+  attachment, consumption and rejection feedback.
+- Evidence: [NARAKA: BLADEPOINT decomposition](../games/m-r/naraka-bladepoint.md).
+- Novelty: first isolated for `GAME-0202`; the same finite item gates both
+  traversal anchoring and combatant-targeted approach.
+
+## CON-534 — Climbing grip requires reach, surface and usable stamina
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: continued climbing attachment is legal only while the hand can
+  reach compatible surface, body state permits grip and positive usable stamina
+  remains to pay the live action cost.
+- Includes: PEAK surface grip and ledge transfers.
+- Excludes: walkable ground contact; fixed ladder traversal; unlimited wall
+  climbing; a rope not within reach.
+- Parameters: hand, reach, surface tag, body state, usable stamina, cost,
+  attachment and release.
+- Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Novelty: first isolated for `GAME-0203`; geometry and a composite survival
+  meter jointly gate every free-surface attachment.
+
+## CON-535 — Load and obstruction must leave sufficient climbing capacity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: carried weight increases activity burden and typed afflictions
+  reserve portions of the main stamina bar, so a planned grip sequence is legal
+  only within the remaining usable and bonus capacity.
+- Includes: PEAK inventory weight, hunger, injury and biome-status obstruction.
+- Excludes: a hard inventory slot cap alone; cosmetic encumbrance; fixed health
+  damage with no effect on climb capacity.
+- Parameters: weight, base stamina, obstruction, bonus stamina, action cost,
+  recovery and required route segment.
+- Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Novelty: first isolated for `GAME-0203`; what the Scout carries and what has
+  harmed them jointly determine whether the next physical route is affordable.
+
+## CON-536 — Climbing-aid deployment requires stock and compatible terrain
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a rope or piton can create support only when its carried use
+  remains, the target is reachable and the terrain accepts the aid's attachment
+  and clearance rules.
+- Includes: PEAK Rope Spool and Piton placement.
+- Excludes: arbitrary mid-air creation; deployment through rock; unlimited
+  reusable construction; merely dropping the item.
+- Parameters: aid, stock, reach, target surface, clearance, attachment,
+  consumption and rejection feedback.
+- Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Novelty: first isolated for `GAME-0203`; scarce route-editing inventory is
+  bounded by the same immediate physical surface problem it is meant to solve.
+
+## CON-537 — Summit rescue requires living presence and an ignitable Flare
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: ordinary rescue settlement may begin only while the controlled
+  Scout is alive inside the PEAK region and a Flare can be ignited there after
+  traversing the expedition's ordered route.
+- Includes: the standard Peak solo helicopter terminal.
+- Excludes: reaching the Peak Badge boundary without signalling; Ascent 8's
+  Nadir ending; a Flare lit in an earlier biome; a dead Scout's result.
+- Parameters: life state, region membership, route progress, Flare possession,
+  ignition, signal and rescue eligibility.
+- Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Novelty: first isolated for `GAME-0203`; survival, place and a retained
+  single-use signal are conjunctive predicates for the run's positive terminal.
+
+## CON-538 — Lifestyle focus must be currently available
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a character can activate only a focus exposed within their
+  current lifestyle under the rules governing focus selection or switching.
+- Includes: Murchad's available Diplomacy focuses in the Crusader Kings III
+  tutorial.
+- Excludes: spending a perk point; selecting an unavailable lifestyle branch;
+  temporary event modifiers.
+- Parameters: character, lifestyle, focus roster, current focus and switch
+  eligibility.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; a person-owned development category
+  gates one replaceable persistent stance.
+
+## CON-539 — Political marriage requires eligible partners and acceptance
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an ordinary marriage may settle only when both selected
+  characters satisfy current kinship, doctrine, existing-relationship and
+  availability rules and the receiving side accepts the disclosed arrangement.
+- Includes: Murchad's prompted base-game tutorial marriage.
+- Excludes: Grand Wedding requirements; childbirth; romance progress;
+  succession after a spouse dies.
+- Parameters: candidates, age, kinship, doctrine, current partner, marriage
+  type, acceptance score and rejection reason.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; a social proposal is jointly gated
+  by two character states and a predicted political acceptance result.
+
+## CON-540 — Council office and task require typed eligibility
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a council appointment requires a character eligible for the
+  selected office, and its active task must be one that office can perform on a
+  legal target.
+- Includes: the council and tasks exposed in Murchad's tutorial.
+- Excludes: generic court employment; a passive ruler skill; a task outside the
+  appointed office's authority.
+- Parameters: office, candidate, eligibility, task roster, target, current
+  assignment and invalid reason.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; person, office, operation and target
+  form a typed four-part assignment gate.
+
+## CON-541 — War declaration requires a valid casus belli
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: war can be declared only against a legal target through an
+  available casus belli whose title, claimant, costs, truce and other displayed
+  preconditions remain satisfied.
+- Includes: the tutorial's Desmond title relation and declaration.
+- Excludes: hostile raiding; an army moving without declared war; a fabricated
+  claim not admitted by the scoped route.
+- Parameters: attacker, defender, casus belli, title, claimant, cost, truce,
+  participants and invalid reason.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; military authority begins with an
+  inspectable legal relationship rather than spatial reach alone.
+
+## CON-542 — Troop muster and command require available legal state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: troops can gather only from available contributions at a legal
+  rally point, and a raised army can accept only reachable map orders permitted
+  by current war, terrain, movement and control state.
+- Includes: Murchad's levy and men-at-arms muster and Desmond orders.
+- Excludes: creating free soldiers; commanding disbanded contributions; direct
+  control of individual combatants.
+- Parameters: contribution, availability, rally point, gathering, army,
+  ownership, war relation, route, terrain and rejection.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; a distributed obligation must first
+  become a legal spatial formation before it can receive a hostile route.
+
+## CON-543 — Enforce demands requires a valid war-score settlement
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the declared demand may be enforced only while the war remains
+  active, the selected settlement is still valid and total war score meets its
+  required threshold.
+- Includes: enforcing Murchad's won Desmond tutorial war.
+- Excludes: white peace at another threshold; surrender by the losing side;
+  applying a title transfer without an active war.
+- Parameters: active war, war score, required threshold, demand, validity,
+  target title and unavailable reason.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; heterogeneous war progress becomes
+  authority to apply one predeclared legal state transition.
+
+## CON-544 — Admit only the fixed Tutorial loaner packet
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: entry to the named Solo chapter supplies and locks both declared
+  card packets; no personal, edited or collection-owned deck can replace them.
+- Includes: Master Duel Tutorial chapter `10003` with fixed player and CPU lists.
+- Excludes: Starter Deck choice, later Solo loaners, Ranked construction or Side Decks.
+- Parameters: chapter, loaner list, opponent list, edit lock, card counts and Extra Decks.
+- Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
+- Novelty: first isolated for `GAME-0206`; one specific authored opponent pair,
+  rather than a chosen event deck, is the only legal Duel entry.
+
+## CON-545 — Enforce summon allowance, Tributes and materials
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: one ordinary own-turn allowance is shared by Normal Summon and
+  Normal Set; high-Level monsters require their Tributes, while each Special
+  Summon procedure requires all declared source and material relations.
+- Includes: ordinary, Tribute, Synchro, Xyz and Link procedures reachable in
+  chapter `10003`.
+- Excludes: card text that explicitly grants an exception; deck construction.
+- Parameters: allowance, level, Tribute count, procedure, materials, ratings and source.
+- Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
+- Novelty: first isolated for `GAME-0206`; one recurring placement allowance
+  coexists with unbounded but relation-gated procedure summons.
+
+## CON-546 — Require a compatible open zone and battle position
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a monster, Spell or Trap may enter the field only in a compatible
+  open zone and in a face-up/face-down Attack/Defense state legal for that
+  action and card type.
+- Includes: Monster and Spell/Trap Zones plus legal Summon, Set and Extra Deck placement.
+- Excludes: whether the card's effect may activate; later combat comparison.
+- Parameters: card type, source, zone class, occupancy, face, position and procedure.
+- Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
+- Novelty: first isolated for `GAME-0206`; typed finite occupancy and
+  orientation jointly determine whether a card can become public field state.
+
+## CON-547 — Require activation timing, predicate, cost and targets
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a Spell, Trap or monster effect can activate only in its legal
+  phase/window when every stated predicate, cost and target is valid; an
+  ordinary Trap remains unavailable during the turn it was Set.
+- Includes: fixed-packet Spells, Set Traps and monster effects.
+- Excludes: response Spell-Speed compatibility; effect resolution after activation.
+- Parameters: effect, phase, event, set turn, predicate, cost, target and availability.
+- Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
+- Novelty: first isolated for `GAME-0206`; an event-sensitive activation joins
+  card text to deliberately delayed concealed field state.
+
+## CON-548 — Require compatible Spell Speed for each Chain response
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a response may become the next Chain Link only at Spell Speed 2
+  or higher and never below the immediately preceding link's speed; no new
+  response enters once backward resolution begins.
+- Includes: Normal/Continuous Traps, Quick-Play Spells, Quick Effects and Counter Traps.
+- Excludes: a first Spell Speed 1 activation; MTG priority; simultaneous combat damage.
+- Parameters: prior speed, response speed, link, player, window and resolution state.
+- Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
+- Novelty: first isolated for `GAME-0206`; typed response speed constrains a
+  growing sequence that later closes completely before new authority returns.
+
+## CON-549 — Require an eligible Battle Phase attack and target
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an ordinary attack requires a legal Battle Phase, a face-up
+  Attack Position monster whose attack remains unused and a legal opposing
+  monster target unless direct attack is permitted; the first player cannot
+  conduct a first-turn Battle Phase.
+- Includes: each separate chapter `10003` attack.
+- Excludes: effect damage, blocker declaration or a simultaneous attacker set.
+- Parameters: phase, first-turn rule, attacker, position, attack count, target and direct state.
+- Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
+- Novelty: first isolated for `GAME-0206`; per-monster attack history and
+  current opposing occupancy gate each sequential combat commitment.

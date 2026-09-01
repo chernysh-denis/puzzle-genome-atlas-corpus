@@ -233,6 +233,15 @@ Index's short profile remains a game-specific navigation summary.
 - [`GAME-0196` — Farming Simulator 25](a-f/farming-simulator-25.md)
 - [`GAME-0197` — Valheim](s-z/valheim.md)
 - [`GAME-0198` — Brawlhalla](a-f/brawlhalla.md)
+- [`GAME-0199` — Need for Speed Unbound](m-r/need-for-speed-unbound.md)
+- [`GAME-0200` — Delta Force](a-f/delta-force.md)
+- [`GAME-0201` — PAYDAY 2](m-r/payday-2.md)
+- [`GAME-0202` — NARAKA: BLADEPOINT](m-r/naraka-bladepoint.md)
+- [`GAME-0203` — PEAK](m-r/peak.md)
+- [`GAME-0204` — Crusader Kings III](a-f/crusader-kings-iii.md)
+- [`GAME-0205` — The Witcher 3: Wild Hunt](s-z/the-witcher-3-wild-hunt.md)
+- [`GAME-0206` — Yu-Gi-Oh! Master Duel](s-z/yu-gi-oh-master-duel.md)
+- [`GAME-0207` — Monster Hunter: World](m-r/monster-hunter-world.md)
 <!-- END GENERATED: COMPLETED_GAMES -->
 
 Use the [game-analysis template](../../templates/GAME_ANALYSIS_TEMPLATE.md) and

@@ -56,7 +56,9 @@
       "GAME-0103",
       "GAME-0106",
       "GAME-0156",
-      "GAME-0185"
+      "GAME-0185",
+      "GAME-0205",
+      "GAME-0206"
     ]
   },
   {
@@ -217,7 +219,10 @@
       "GAME-0184",
       "GAME-0195",
       "GAME-0196",
-      "GAME-0198"
+      "GAME-0198",
+      "GAME-0199",
+      "GAME-0200",
+      "GAME-0203"
     ]
   },
   {
@@ -254,7 +259,7 @@
     ]
   },
   {
-    "id": "FAM-009",
+  "id": "FAM-009",
     "slug": "tactical-forecast-and-counterplay",
     "labelEn": "Tactical forecast and counterplay",
     "labelUk": "Тактичний прогноз і протидія",
@@ -314,11 +319,18 @@
       "GAME-0193",
       "GAME-0194",
       "GAME-0195",
-      "GAME-0198"
+      "GAME-0198",
+      "GAME-0199",
+      "GAME-0200",
+      "GAME-0202",
+      "GAME-0204",
+      "GAME-0205",
+      "GAME-0206",
+      "GAME-0207"
     ]
   },
   {
-    "id": "FAM-010",
+  "id": "FAM-010",
     "slug": "real-time-system-pressure",
     "labelEn": "Real-time system pressure",
     "labelUk": "Тиск системи в реальному часі",
@@ -408,7 +420,15 @@
       "GAME-0195",
       "GAME-0196",
       "GAME-0197",
-      "GAME-0198"
+      "GAME-0198",
+      "GAME-0199",
+      "GAME-0200",
+      "GAME-0201",
+      "GAME-0202",
+      "GAME-0203",
+      "GAME-0204",
+      "GAME-0205",
+      "GAME-0207"
     ]
   },
   {
@@ -431,7 +451,7 @@
     ]
   },
   {
-    "id": "FAM-012",
+  "id": "FAM-012",
     "slug": "knowledge-and-evidence-progression",
     "labelEn": "Knowledge and evidence progression",
     "labelUk": "Просування через знання та докази",
@@ -456,11 +476,12 @@
       "GAME-0148",
       "GAME-0170",
       "GAME-0173",
-      "GAME-0178"
+    "GAME-0178",
+    "GAME-0205"
     ]
   },
   {
-    "id": "FAM-013",
+  "id": "FAM-013",
     "slug": "inventory-and-fixture-dependencies",
     "labelEn": "Inventory and fixture dependencies",
     "labelUk": "Залежності інвентарю та стаціонарних пристроїв",
@@ -494,11 +515,16 @@
       "GAME-0188",
       "GAME-0190",
       "GAME-0194",
-      "GAME-0197"
+      "GAME-0197",
+      "GAME-0201",
+      "GAME-0202",
+      "GAME-0203",
+      "GAME-0205",
+      "GAME-0207"
     ]
   },
   {
-    "id": "FAM-014",
+  "id": "FAM-014",
     "slug": "world-topology-and-perspective",
     "labelEn": "World topology and perspective",
     "labelUk": "Топологія світу та перспектива",
@@ -531,7 +557,8 @@
       "GAME-0173",
       "GAME-0174",
       "GAME-0178",
-      "GAME-0197"
+      "GAME-0197",
+    "GAME-0203"
     ]
   },
   {
@@ -592,7 +619,10 @@
       "GAME-0188",
       "GAME-0191",
       "GAME-0192",
-      "GAME-0194"
+      "GAME-0194",
+      "GAME-0200",
+      "GAME-0201",
+      "GAME-0204"
     ]
   },
   {
@@ -613,7 +643,7 @@
     ]
   },
   {
-    "id": "FAM-017",
+  "id": "FAM-017",
     "slug": "ordered-dependency-sequencing",
     "labelEn": "Ordered dependency sequencing",
     "labelUk": "Упорядкована послідовність залежностей",
@@ -695,7 +725,14 @@
       "GAME-0194",
       "GAME-0195",
       "GAME-0196",
-      "GAME-0197"
+      "GAME-0197",
+      "GAME-0199",
+      "GAME-0201",
+      "GAME-0203",
+      "GAME-0204",
+      "GAME-0205",
+      "GAME-0206",
+      "GAME-0207"
     ]
   }
 ]

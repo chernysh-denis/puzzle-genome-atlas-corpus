@@ -2071,7 +2071,8 @@
   maximising damage, creatures or collection value.
 - Parameters: players, life, library, concession, card-defined terminal,
   simultaneous loss, draw and Arena result overlay.
-- Evidence: [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
+- Evidence: [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md)
+  and [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
 - Novelty: first isolated for `GAME-0185`; multiple rules-level loss predicates
   converge on one adversarial single-game result rather than a score threshold.
 
@@ -2312,3 +2313,136 @@
 - Evidence: [Brawlhalla decomposition](../games/a-f/brawlhalla.md).
 - Novelty: first isolated for `GAME-0198`; repeated same-arena returns consume
   the exact resource whose final exhaustion directly settles the duel.
+
+## OBJ-122 — Classify the street race, escape and retain its result
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one fixed street race through its ordered finish, evade
+  the mandatory resulting police pursuit and enter the declared garage so the
+  classified event result and earnings become retained.
+- Includes: `Shopping Spree`, LPD escape and Rydell's Rydes settlement in the
+  scoped Need for Speed Unbound Story prologue.
+- Excludes: winning The Grand; merely crossing the race finish; being busted;
+  completing a later paid event; Online rank or campaign-wide cash goals.
+- Parameters: event, route, classified place, payout, Heat, pursuit, search,
+  escape, garage entry, retained result and bust/failure state.
+- Evidence: [Need for Speed Unbound decomposition](../games/m-r/need-for-speed-unbound.md).
+- Novelty: first isolated for `GAME-0199`; the classified finish is a necessary
+  midpoint and only escape plus garage entry closes the bounded objective.
+
+## OBJ-123 — Defend the A/D front until attacker troop force is exhausted
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: as the defending team, prevent the attackers from completing
+  every ordered sector until their finite troop-force pool reaches zero and the
+  match declares defender victory.
+- Includes: the defender-side Luna trace on Coliseum in the scoped Delta Force
+  Attack and Defend match.
+- Excludes: winning by symmetric Conquest tickets; capturing the final sector as
+  attackers; personal kill-score maximisation; post-match rank or rewards.
+- Parameters: side, ordered sectors, active objectives, attacker troop force,
+  completed sectors, zero-ticket terminal and declared result.
+- Evidence: [Delta Force decomposition](../games/a-f/delta-force.md).
+- Novelty: first isolated for `GAME-0200`; success is asymmetric attrition
+  against a replenishable attacker pool across an advancing objective front.
+
+## OBJ-124 — Open the vault, secure required cash and escape
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one bounded bank contract by opening the declared vault,
+  converting at least the contract minimum into secured cash and occupying the
+  available escape so the success and payout result settle.
+- Includes: one Normal Offline PAYDAY 2 Bank Heist: Cash requiring one secured
+  money bag before escape.
+- Excludes: securing every optional bag; maximising experience; a stealth-only
+  requirement; later Crime.net, skill or Infamy progression.
+- Parameters: contract, vault fixture, opening state, loot class, minimum count,
+  secured count, escape region, crew state, success and payout.
+- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md).
+- Novelty: first isolated for `GAME-0201`; an interruptible access process,
+  embodied value transport and spatial departure form one conjunctive terminal.
+
+## OBJ-125 — Ascend one dated island and complete summit rescue
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: in one fixed daily-island expedition, traverse the ordered biomes,
+  reach the PEAK alive and ignite an eligible Flare so helicopter rescue and the
+  completed expedition result settle.
+- Includes: standard Peak solo on the scoped 2026-08-30 daily island interval.
+- Excludes: merely reaching the summit; earning Peak Badge without result
+  settlement; Nadir; cooperative resurrection; starting another expedition.
+- Parameters: daily identity, difficulty, biome progress, life state, summit
+  region, Flare, rescue sequence, report and success result.
+- Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Novelty: first isolated for `GAME-0203`; a generated vertical route must
+  preserve one explicit signal action beyond arrival to turn survival into rescue.
+
+## OBJ-126 — Win and settle Murchad's guided Desmond war
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: follow the fixed Murchad teaching sequence far enough to declare,
+  win and enforce the instructed Desmond war, then reach the explicit tutorial
+  completion state with retained campaign control.
+- Includes: the current base-game Learning the Game tutorial through its
+  Desmond settlement.
+- Excludes: creating the Kingdom of Ireland; surviving until Murchad dies;
+  succession; later generations; any player-declared calendar checkpoint.
+- Parameters: tutorial, ruler, target title, declared war, war score, enforced
+  demand, completion state and retained control.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; an open-ended dynasty simulation
+  supplies one system-authored completion immediately after a legal title war.
+
+## OBJ-127 — Complete the White Orchard griffin investigation and hand-in
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: satisfy the required informant, clue and material gates of The
+  Beast of White Orchard, defeat the royal griffin, loot and hand in its trophy,
+  settle the declared reward response and reach retained quest-complete control.
+- Includes: the fresh base-game quest through `Take the coin` and resumed Lilac
+  and Gooseberries control.
+- Excludes: stopping at the kill; leaving the trophy unreported; the White
+  Orchard tavern incident, Vizima, expansions or the broader search for Ciri.
+- Parameters: quest, clue gates, Buckthorn, preparation, target, defeat,
+  trophy, captain, response, reward, completion flag and retained control.
+- Evidence: [The Witcher 3: Wild Hunt decomposition](../games/s-z/the-witcher-3-wild-hunt.md).
+- Novelty: first isolated for `GAME-0205`; forensic preparation and a boss
+  defeat remain incomplete until a physical proof is handed to an author.
+
+## OBJ-128 — Complete and retain the first Great Jagras assignment
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: post assigned quest `00103`, satisfy its Great Jagras hunt
+  condition before time or faint failure, accept the quest result and rewards,
+  and regain Astera control with the completion flag retained.
+- Includes: the fixed no-capture `The Great Jagras Hunt` slay route in Monster
+  Hunter: World through result-screen settlement and hub return.
+- Excludes: the lethal hit alone; optional smithy spending; another weapon or
+  capture packet; later assigned quests; an expedition defeat with no quest.
+- Parameters: predecessor, quest, target, completion form, clock, faints,
+  result, materials, zenny, completion flag and returned control.
+- Evidence: [Monster Hunter: World decomposition](../games/m-r/monster-hunter-world.md).
+- Novelty: first isolated for `GAME-0207`; one evidence-led migrating hunt
+  closes only after its discrete result economy and authored assignment flag
+  persist at hub control.

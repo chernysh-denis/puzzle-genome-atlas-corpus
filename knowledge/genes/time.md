@@ -598,3 +598,21 @@
 - Evidence: [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
 - Novelty: first isolated for `GAME-0185`; turn ownership and immediate action
   authority are separate clocks joined by repeated response windows.
+
+## TIM-020 — Alternate phased turns with closed Chain windows
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: players alternate active turns through fixed phases, while an
+  eligible activation temporarily alternates response authority until a closed
+  Chain resolves every link backward and returns control to the current phase.
+- Includes: the scoped Master Duel Tutorial duel.
+- Excludes: MTG priority and one-object stack settlement; simultaneous hidden
+  orders; one planning phase followed by an autonomous hostile phase.
+- Parameters: active player, turn, phase, activation, responder, Chain closure,
+  reverse resolution and phase continuation.
+- Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
+- Novelty: first isolated for `GAME-0206`; short alternating response windows
+  suspend one active phase until their complete rule queue settles backward.

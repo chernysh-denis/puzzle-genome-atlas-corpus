@@ -5838,7 +5838,9 @@
   may additionally constrain vehicles whose rules expose one.
 - Includes: PUBG Erangel land-vehicle rotation, fuel, tyre damage, collision
   injury, delayed explosion and speed-sensitive passenger fire; Grand Theft
-  Auto V Story Mode road, water and air vehicle handling, deformation and loss.
+  Auto V Story Mode road, water and air vehicle handling, deformation and loss;
+  the fixed Need for Speed Unbound Story starter's road/off-road motion,
+  collision and health response.
   Cyberpunk 2077 road vehicles likewise resolve steering, traction, collision
   and combat damage without exposing a player-managed fuel reserve.
 - Excludes: autonomous route service; the starting aircraft; movement on foot.
@@ -6620,7 +6622,8 @@
   flee, resist or report eligible danger while the player travels or fights.
 - Includes: Grand Theft Auto V Story Mode traffic, pedestrians, witnesses and
   ordinary world reactions in Los Santos and Blaine County; Cyberpunk 2077
-  traffic and civilian reactions across Night City.
+  traffic and civilian reactions across Night City; live Lakeshore road
+  traffic during Need for Speed Unbound racing and pursuit.
 - Excludes: authored mission allies; police wanted escalation after dispatch;
   decorative crowds with no collision or response state.
 - Parameters: population density, route, signal, collision, witness radius,
@@ -6635,13 +6638,14 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: reported or observed crimes raise a bounded wanted level, spawn
-  and coordinate matching law-enforcement pressure, then replace direct pursuit
-  with a timed spatial search that clears only while the protagonist stays
-  outside police perception.
+- Definition: eligible reported/observed danger or event-built Heat raises a
+  bounded wanted level, spawns and coordinates matching law-enforcement
+  pressure, then replaces direct pursuit with a timed spatial search that
+  clears only while the protagonist stays outside police perception.
 - Includes: Grand Theft Auto V Story Mode one-to-five-star wanted escalation,
   patrol pursuit, search cones and eventual clearance; Cyberpunk 2077 NCPD
-  Heat escalation, pursuit and loss after evasion.
+  Heat escalation; Need for Speed Unbound event Heat, LPD pursuit and loss
+  after evasion.
 - Excludes: fixed mission enemies with no wanted state; GTA Online paid removal;
   a scripted chase whose pressure cannot clear through evasion.
 - Parameters: crime, witness, stars, unit set, search radius, line of sight,
@@ -7332,7 +7336,8 @@
   the quest; random enemy spawning with no retained target identity.
 - Parameters: monster, zone graph, retreat trigger, route, target identity,
   current position and tracking confidence.
-- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md)
+  and [Monster Hunter: World decomposition](../games/m-r/monster-hunter-world.md).
 - Novelty: not assessed.
 
 ## SYS-404 — Convert hunter defeat into camp return and a consumed faint
@@ -7349,7 +7354,8 @@
   that restores all transient monster state.
 - Parameters: lethal state, camp, faint allowance, reward penalty, retained
   equipment, monster continuity and failure threshold.
-- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md)
+  and [Monster Hunter: World decomposition](../games/m-r/monster-hunter-world.md).
 - Novelty: not assessed.
 
 ## SYS-405 — Settle a completed hunt into rewards and authored unlocks
@@ -7367,7 +7373,8 @@
   account achievements.
 - Parameters: target, completion method, reward table, zenny, material,
   completion flag, unlocked quest and facility.
-- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md)
+  and [Monster Hunter: World decomposition](../games/m-r/monster-hunter-world.md).
 - Novelty: not assessed.
 
 ## SYS-406 — Forge or upgrade equipment from retained hunt materials
@@ -7401,7 +7408,8 @@
   a cosmetic follower with no causal actions.
 - Parameters: companion, follow range, target selection, support action,
   cooldown, incapacitation and return.
-- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md)
+  and [Monster Hunter: World decomposition](../games/m-r/monster-hunter-world.md).
 - Novelty: not assessed.
 
 ## SYS-408 — Change locale conditions and active ecology in real time
@@ -9339,7 +9347,8 @@
 - Definition: after an authored race starts, the system continuously drives the
   eligible rival field along the same course and scales its pace and behaviour
   through the selected opponent-difficulty profile.
-- Includes: Solo Forza Horizon 6 Festival races against Drivatars.
+- Includes: Solo Forza Horizon 6 Festival races against Drivatars; the seven
+  Relaxed AI rivals in Need for Speed Unbound `Shopping Spree`.
 - Excludes: ambient open-world traffic; a human multiplayer field; one fixed
   scripted convoy with no competitive result.
 - Parameters: field size, car theme, difficulty, aggression, course, start grid,
@@ -9358,7 +9367,8 @@
   ordered checkpoints and required laps, then settles elapsed time and, when a
   rival field exists, the complete finish order.
 - Includes: Forza Horizon 6 Trail, Circuit, Cross Country, Time Attack and
-  Horizon Invitational course completion.
+  Horizon Invitational course completion; Need for Speed Unbound's ordered
+  `Shopping Spree` route and eight-place result.
 - Excludes: free driving through unvalidated map space; a speed trap with no
   ordered course; points awarded after the validated result.
 - Parameters: checkpoint sequence, checkpoint width, lap count, elapsed time,
@@ -9412,11 +9422,13 @@
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: after a valid driving-event result, the system records its first
-  completion and transfers the declared credits, experience, cars or feature
-  unlocks into the persistent campaign and garage.
+- Definition: after a valid driving-event result and any declared post-result
+  settlement gate, the system records completion and transfers the declared
+  credits, experience, cars or feature unlocks into persistent campaign or
+  garage state.
 - Includes: qualifier results and the three cars granted with the first Forza
-  Horizon 6 Wristband.
+  Horizon 6 Wristband; the scoped Need for Speed Unbound result and cash after
+  pursuit clearance plus Rydell's Rydes entry.
 - Excludes: temporary race position; live Festival Playlist rewards outside the
   scoped opening; buying an Aftermarket Car.
 - Parameters: event, completion, position, time, credits, experience, vehicle,
@@ -11137,19 +11149,19 @@
 - Novelty: first isolated for `GAME-0191`; a formation may become temporarily
   uncontrollable and flee while individual models remain alive.
 
-## SYS-618 — Run stock autonomous teammates around one controlled Survivor
+## SYS-618 — Run stock autonomous teammates around one controlled cooperator
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: vacant members of a fixed cooperative Survivor party are filled
-  by stock agents that autonomously follow the controlled member, acquire and
-  attack local hostiles, collect compatible supplies and perform eligible
-  healing, release or revival support without receiving individual action
-  commands.
+- Definition: vacant members of a fixed cooperative party are filled by stock
+  agents that autonomously follow the controlled member, acquire and attack
+  local hostiles, collect compatible supplies and perform eligible healing,
+  release or revival support without receiving individual action commands.
 - Includes: Rochelle, Ellis and Nick bots accompanying a controlled Coach
-  through Left 4 Dead 2's scoped Single Player Hotel chapter.
+  through Left 4 Dead 2's scoped Single Player Hotel chapter; three stock AI
+  heisters supporting Dallas in the scoped PAYDAY 2 Offline Bank Heist.
 - Excludes: directly commanded party members; human matchmaking; one role-
   complete Tank/Healer/DPS Duty Support roster; an ambient escort NPC whose
   survival is not part of the shared checkpoint state.
@@ -11157,9 +11169,12 @@
   target acquisition, carried item, support priority, release, revival, pathing
   and living state.
 - Evidence: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md).
+- Additional support: [PAYDAY 2 decomposition](../games/m-r/payday-2.md), for
+  the fixed Offline heister slots, follow/combat support and legal bot revival
+  or hostage-trade behaviour around Dallas.
 - Novelty: first isolated for `GAME-0192`; same-authority cooperative slots are
   substituted by autonomous partners whose combat and rescue keep the shared
-  route viable around one directly controlled Survivor.
+  route viable around one directly controlled cooperator.
 
 ## SYS-619 — Modulate encounter population from Survivor intensity
 
@@ -11613,3 +11628,902 @@
 - Novelty: first isolated for `GAME-0198`; several substitutable movement and
   attack forms share one contact-resettable survival budget during a live
   off-stage trajectory.
+
+## SYS-641 — Accumulate and resolve technique-earned driving burst
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: eligible live driving events add to a temporary acceleration
+  reserve, and player activation consumes that reserve into a bounded burst of
+  increased vehicle acceleration.
+- Includes: Need for Speed Unbound grip/drift driving and drafting that fill
+  Burst Nitrous, followed by tactical Burst activation.
+- Excludes: ordinary refillable nitrous not tied to driving technique; spatial
+  arena boost pads; permanent engine upgrades; cinematic acceleration.
+- Parameters: eligible event, gain, reserve cap, current reserve, activation,
+  consumption, acceleration, duration and reset.
+- Evidence: [Need for Speed Unbound decomposition](../games/m-r/need-for-speed-unbound.md).
+- Novelty: first isolated for `GAME-0199`; manoeuvre quality becomes a
+  spendable near-term acceleration resource inside the same race or pursuit.
+
+## SYS-642 — Keep race earnings exposed until pursuit settlement
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a classified street-race payout enters an exposed cash state
+  that persists through required police pressure; eligible garage entry banks
+  it, while a completed bust removes it before durable settlement.
+- Includes: `Shopping Spree` earnings carried through its mandatory LPD pursuit
+  to Rydell's Rydes in the scoped Need for Speed Unbound trace.
+- Excludes: credits retained immediately at a race result; paid event entry;
+  side bets; inventory loot extraction; account purchases after banking.
+- Parameters: event, classified place, payout, exposed cash, Heat, pursuit,
+  escape, garage eligibility, banked amount and bust loss.
+- Evidence: [Need for Speed Unbound decomposition](../games/m-r/need-for-speed-unbound.md).
+- Novelty: first isolated for `GAME-0199`; the race result creates value but a
+  distinct live pursuit must be survived before that value becomes durable.
+
+## SYS-643 — Advance an attack-and-defend front by completed sectors
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when the attacking team owns every required objective in the
+  currently active sector, the system locks that sector as completed, moves the
+  legal combat front to the next authored sector and exposes its objective set.
+- Includes: the ordered sector progression of the scoped Delta Force Coliseum
+  Attack and Defend match.
+- Excludes: simultaneous control of every point on an open Conquest map; a
+  single Control point that resets between rounds; payload checkpoints.
+- Parameters: map, active sector, objective set, capture state, completed
+  sector, retreat boundary, next sector and final sector.
+- Evidence: [Delta Force decomposition](../games/a-f/delta-force.md).
+- Novelty: first isolated for `GAME-0200`; objective ownership changes the
+  playable front itself instead of only contributing continuous score or
+  ticket pressure.
+
+## SYS-644 — Resolve asymmetric attacker tickets and sector replenishment
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: committed attacker deaths debit one finite shared troop-force
+  pool while defenders may redeploy without debiting an equivalent pool;
+  completed sectors replenish the attacking pool, attacker exhaustion settles
+  defender victory and completion of the final sector settles attacker victory.
+- Includes: the scoped Delta Force Coliseum Attack and Defend ticket loop and
+  its defender Victory result after attacker troop-force exhaustion.
+- Excludes: symmetric Conquest reinforcement pools; personal Stock lives; a
+  shared cooperative reinforcement reserve; score-only eliminations.
+- Parameters: side, attacker troop force, defender redeploy authority, downed
+  state, revive, committed death, sector replenishment, zero-ticket terminal,
+  final-sector terminal and result.
+- Evidence: [Delta Force decomposition](../games/a-f/delta-force.md).
+- Novelty: first isolated for `GAME-0200`; the same front progression that
+  rewards the attacking team also refreshes the only finite team-life pool.
+
+## SYS-645 — Commit heist detection into an irreversible loud response
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: completed guard, camera or civilian detection, a panic trigger or
+  an overt criminal action commits the current heist from casing or stealth to
+  a shared alarm state, starts law-enforcement response and prevents return to
+  the unalerted route.
+- Includes: intentionally firing the unsuppressed AMCAR after masking in the
+  scoped PAYDAY 2 Bank Heist and thereby forcing the loud branch.
+- Excludes: local suspicion that clears before detection; a scripted combat
+  encounter with no prior concealment; losing police sight during a chase.
+- Parameters: entry phase, observer, stimulus, detection threshold, panic
+  trigger, alarm flag, response delay, shared alert and reversibility.
+- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md).
+- Novelty: first isolated for `GAME-0201`; a local perception or deliberate
+  reveal permanently changes the remaining objective's global response rules.
+
+## SYS-646 — Maintain compliant civilians as hostages
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: intimidation, restraint, criminal proximity and police rescue
+  pressure update each civilian between unalerted, panicked, compliant,
+  restrained, following, escaped and rescued states; eligible restrained or
+  dominated bodies count as hostages for the heist response.
+- Includes: controlling and tying a Bank Heist civilian, moving that hostage
+  away from police access and retaining the hostage through control and assault
+  phases.
+- Excludes: decorative crowds; a friendly escort with no coercion state;
+  hostage trade settlement after a player has entered custody.
+- Parameters: civilian, awareness, intimidation, compliance, restraint,
+  criminal proximity, follow target, police rescuer, escape and hostage count.
+- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md).
+- Novelty: first isolated for `GAME-0201`; a neutral autonomous body becomes a
+  reversible controlled resource whose physical rescue state changes pressure.
+
+## SYS-647 — Advance a placed objective drill through jams and repair
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: once assembled on its compatible vault fixture, the drill
+  advances a visible opening timer while operating, may enter a stopped jammed
+  state and resumes only after a legal player repair until the vault gate opens.
+- Includes: the ordinary thermal drill on the scoped PAYDAY 2 Bank Heist vault.
+- Excludes: an instantaneous key unlock; passive crafting; mining terrain for
+  resources; a drill whose breakdown has no player response.
+- Parameters: fixture, placement, assembly, duration, operating state, jam
+  sample, repair reach, repair channel, progress retention and opened gate.
+- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md).
+- Novelty: first isolated for `GAME-0201`; a long objective channel retains
+  progress across stochastic stoppages that demand renewed spatial attention.
+
+## SYS-648 — Cycle police response through control and assault pressure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after alarm, law enforcement alternates bounded control,
+  anticipation, build, sustain and fade intervals, changing reinforcement
+  density and aggression while surviving hostages and difficulty modify
+  eligible timing without ending the objective clock.
+- Includes: repeated Normal-difficulty police assault waves during the scoped
+  PAYDAY 2 Bank Heist drill and cash transfer.
+- Excludes: one authored panic population; intensity-adaptive Director pacing;
+  a fixed wave-survival terminal that requires killing a finite enemy set.
+- Parameters: difficulty, response phase, phase duration, hostage modifier,
+  spawn and active limits, enemy classes, aggression, fade condition and cycle.
+- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md).
+- Novelty: first isolated for `GAME-0201`; an irreversible alarm starts a
+  repeating multi-phase pressure schedule whose low-pressure intervals remain
+  tactically usable rather than ending combat permanently.
+
+## SYS-649 — Convert repeated incapacitation into custody and hostage return
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: health loss can down and bleed out a heister, teammate revival
+  restores control while eligibility remains, and exhausting the declared down
+  allowance transfers the human heister to custody until an eligible hostage
+  trade or stock-AI trade restores that slot.
+- Includes: Normal Offline PAYDAY 2 downing, bot revival, custody and a stock-AI
+  hostage trade when a living bot and hostage make return legal.
+- Excludes: immediate one-life elimination; ticketed battlefield respawn;
+  self-revival with no teammate or hostage state.
+- Parameters: health, down count, bleed-out, rescuer, revival, custody timer,
+  hostage, assault phase, trader and returned state.
+- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md).
+- Novelty: first isolated for `GAME-0201`; repeated recoverable failure crosses
+  into loss of player authority that can be reversed by exchanging a separately
+  controlled civilian resource.
+
+## SYS-650 — Convert vault cash into spatially secured loot credit
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an eligible vault cash source becomes one bagged payload; pickup
+  binds it to one carrier, a throw restores it as a recoverable world object and
+  entry into the declared secure region permanently increments secured loot.
+- Includes: one required Bank Heist: Cash money bag deposited in the escape van.
+- Excludes: loose cash credited on contact; an inventory item retained merely
+  by surviving; final contract and spending-cash settlement.
+- Parameters: source, bagging, carrier, carry modifier, throw trajectory,
+  recoverability, secure region, required count and secured value.
+- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md).
+- Novelty: first isolated for `GAME-0201`; value becomes objective credit only
+  after a reversible carrier/world-state object crosses a fixed deposit border.
+
+## SYS-651 — Settle a heist escape into retained payout
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: once the contract's mandatory secured-loot predicate holds,
+  eligible crew occupancy of the active escape region closes the heist,
+  combines contract and secured-loot value into the disclosed payout and
+  retains the result beyond the session.
+- Includes: escaping the scoped Normal Bank Heist: Cash after securing at least
+  one money bag and reaching its success/payout screen.
+- Excludes: career-level optimisation after the result; optional additional
+  bags; a failed restart; extraction that does not retain objective value.
+- Parameters: secured requirement, escape availability, living or custody
+  roster, occupancy, success flag, contract value, loot value, payout partitions
+  and retained result.
+- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md).
+- Novelty: first isolated for `GAME-0201`; a spatial departure gate settles a
+  preceding transported-value chain into a persistent economic result.
+
+## SYS-652 — Initialise a spawn-selected bot survival match
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after hero, map, difficulty and mode are fixed, the system fills
+  one bounded Survival session with the controlled participant and AI opponents,
+  samples its Easy modifier and match-local loot, then instantiates each side at
+  a legal committed or system-assigned spawn.
+- Includes: Easy Solo BOT Mode on single-selected Wanchu with Viper Ning.
+- Excludes: a persistent survival server; human Ranked matchmaking; combining
+  several maps or difficulties; account progression after settlement.
+- Parameters: hero, mode, difficulty, map, participants, AI policy, modifier,
+  spawn regions, loot tables, seed and countdown.
+- Evidence: [NARAKA: BLADEPOINT decomposition](../games/m-r/naraka-bladepoint.md).
+- Novelty: first isolated for `GAME-0202`; a player-selected ground spawn is
+  resolved inside a fully bot-filled last-survivor session.
+
+## SYS-653 — Resolve grappling-hook attachment and approach
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a fired grappling charge tests its aimed terrain or combatant,
+  consumes the item and, on a legal hit, moves the user along the tether toward
+  that target until arrival, collision, release or another cancelling state.
+- Includes: NARAKA: BLADEPOINT Grappling Hook climb, gap close and escape.
+- Excludes: ordinary jumping or wall running; a permanent cooldown-only hook;
+  dragging the target back to a stationary user.
+- Parameters: projectile, anchor class, hit, tether, pull path, velocity,
+  collision, impact response, release and charge consumption.
+- Evidence: [NARAKA: BLADEPOINT decomposition](../games/m-r/naraka-bladepoint.md).
+- Novelty: first isolated for `GAME-0202`; the same finite carried charge
+  resolves against both authored geometry and an independently moving opponent.
+
+## SYS-654 — Resolve common, Focus, Clash and Counter relations
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: simultaneous or reactive melee inputs are classified as common
+  attacks, charged Focus Strikes, compatible Clashes or Counters, then resolve
+  their priority, stagger, disarm and eligible Counterstrike consequences.
+- Includes: NARAKA: BLADEPOINT ordinary melee, Blue Focus, Clash, Quick Counter,
+  weapon drop and Counterstrike Combo outcomes.
+- Excludes: passive armour reduction; a turn-based parry prompt; ranged
+  projectile collision; hero-specific control abilities.
+- Parameters: attack class, charge, Focus colour, timing window, collision,
+  priority, Clash, Counter, disarm, stagger and follow-up.
+- Evidence: [NARAKA: BLADEPOINT decomposition](../games/m-r/naraka-bladepoint.md).
+- Novelty: first isolated for `GAME-0202`; the live relation can defeat an
+  attack, force its weapon into world state and grant a distinct riposte.
+
+## SYS-655 — Apply damage through armour before Health
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: eligible incoming damage first depletes the controlled hero's
+  current match armour capacity, then crosses into Health once that protection
+  is exhausted, while restoration may refill either layer separately.
+- Includes: NARAKA: BLADEPOINT Survival armour, Health, Armor Powder and Healing
+  Berries.
+- Excludes: body-region-specific helmets and vests; a downed teammate state;
+  passive damage immunity; weapon Durability.
+- Parameters: damage, armour quality, armour capacity, penetration, Health,
+  restoration, zero state and elimination threshold.
+- Evidence: [NARAKA: BLADEPOINT decomposition](../games/m-r/naraka-bladepoint.md).
+- Novelty: first isolated for `GAME-0202`; a replaceable match-loot armour layer
+  and its dedicated consumable precede one Solo Health pool without DBNO.
+
+## SYS-656 — Consume, zero and restore weapon Durability
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: eligible weapon use or combat interaction subtracts from the
+  active weapon's match-local Durability; zero changes its declared combat
+  effectiveness without deleting the weapon, and a completed Weapon Repair Kit
+  restores Durability up to the allowed maximum.
+- Includes: NARAKA: BLADEPOINT melee/ranged Durability, zero-Durability Rage
+  consequence and Weapon Repair Kit use.
+- Excludes: weapon rarity; armour capacity; a tool that disappears at zero;
+  permanent account equipment wear.
+- Parameters: weapon, use or interaction, cost, current and maximum Durability,
+  zero-state modifier, repair cast and restored amount.
+- Evidence: [NARAKA: BLADEPOINT decomposition](../games/m-r/naraka-bladepoint.md).
+- Novelty: first isolated for `GAME-0202`; exhaustion changes a live combat
+  feedback economy while preserving the repairable weapon object.
+
+## SYS-657 — Resolve interruptible survival-item recovery
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a legal uninterrupted recovery-item cast consumes its carried
+  item and restores the matching Health, armour or weapon-Durability meter;
+  sprint, attack, damage or another declared cancelling state prevents the
+  current cast from completing.
+- Includes: NARAKA: BLADEPOINT Healing Berries, Armor Powder and Weapon Repair
+  Kit use in the scoped Survival match.
+- Excludes: passive regeneration; instant armour from looting; teammate healing;
+  out-of-match item storage.
+- Parameters: item, target meter, missing capacity, cast, allowed movement,
+  cancellation, consumption and restored amount.
+- Evidence: [NARAKA: BLADEPOINT decomposition](../games/m-r/naraka-bladepoint.md).
+- Novelty: first isolated for `GAME-0202`; one interruptible item grammar
+  repairs three independently pressured survival/equipment meters.
+
+## SYS-658 — Contract Shadow Corruption and damage exposed participants
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: successive match phases disclose a smaller safe region, contract
+  Shadow Corruption toward it on the live schedule and apply damage to
+  participants who remain beyond the safe boundary.
+- Includes: Shadow Corruption in the scoped NARAKA: BLADEPOINT Solo BOT match.
+- Excludes: PUBG's exposure-duration-specific Blue Zone model; one static lethal
+  wall; a random bombardment area; a cosmetic map tint.
+- Parameters: phase, safe region, boundary, warning, contraction, schedule,
+  damage, recovery and final region.
+- Evidence: [NARAKA: BLADEPOINT decomposition](../games/m-r/naraka-bladepoint.md).
+- Novelty: first isolated for `GAME-0202`; it preserves the NARAKA phase and
+  damage contract without importing PUBG-specific exposure escalation.
+
+## SYS-659 — Route Solo elimination through Rebirth or final settlement
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when the Solo hero is eliminated, the system consumes one legal
+  Rebirth and returns control if that allowance remains before its cutoff;
+  otherwise it finalises removal, updates survivor count and placement, and
+  awards the complete Victory result when one participant remains.
+- Includes: one Rebirth, later final elimination, placement and first-place
+  Victory in the scoped NARAKA: BLADEPOINT Solo BOT match.
+- Excludes: teammate revival; unlimited respawn; PUBG's terminal first death;
+  post-match rank, quest or account-reward progression.
+- Parameters: elimination, Rebirth stock, cutoff, return location and state,
+  survivor count, placement, final participant and result.
+- Evidence: [NARAKA: BLADEPOINT decomposition](../games/m-r/naraka-bladepoint.md).
+- Novelty: first isolated for `GAME-0202`; one recoverable Solo elimination
+  precedes the same placement-owning last-survivor settlement.
+
+## SYS-660 — Initialise one dated daily-island expedition
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after date interval, difficulty and participant mode are fixed,
+  the system selects the matching generated island from the current map batch,
+  samples expedition-local supplies and instantiates control at the Crash Site.
+- Includes: standard Peak solo on the island interval beginning 2026-08-30
+  17:00 UTC under patch 2.03.a.
+- Excludes: joining several daily maps; selecting a user-authored seed; a
+  persistent survival server; account state after the expedition.
+- Parameters: build, patch, interval, map batch, biome sequence, difficulty,
+  player count, loot sample, crash transition and control point.
+- Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Novelty: first isolated for `GAME-0203`; civil time identifies a disposable
+  shared generated route while supplies are still sampled per expedition.
+
+## SYS-661 — Resolve stamina-bounded surface grip and climb
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: reachable hand contact, aimed body motion, gravity, surface
+  geometry and current usable stamina continuously determine attachment,
+  upward progress, sliding, resting or release into a fall.
+- Includes: PEAK free-surface climbing and ledge transfer.
+- Excludes: a fixed ladder animation; unlimited parkour; a grappling projectile;
+  stamina use that does not affect attachment.
+- Parameters: hand, reach, surface, friction, body pose, input, gravity,
+  stamina drain/recovery, attachment and fall.
+- Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Novelty: first isolated for `GAME-0203`; arbitrary visible geometry is a
+  real-time grip field whose continuity is paid from survival capacity.
+
+## SYS-662 — Convert falls and hazards into ragdoll injury
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: lost support, gravity, velocity, collision and local hazard type
+  resolve the body's ragdoll trajectory and apply the resulting injury or other
+  affliction that obstructs later survival capacity.
+- Includes: PEAK missed grips, damaging landings, rolling falls and biome contact hazards.
+- Excludes: authored cutscene falls; direct hostile combat; a stock lost only
+  by leaving a fixed arena; cosmetic stumble.
+- Parameters: support, height, velocity, collision, ragdoll, hazard, protection,
+  injury, status and final rest position.
+- Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Novelty: first isolated for `GAME-0203`; physical route error persists as
+  obstruction of the same capacity required to recover the climb.
+
+## SYS-663 — Compose hunger, afflictions and weight into climbing capacity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: current hunger, injury and typed biome afflictions obstruct the
+  main stamina bar while carried weight changes activity cost and active food
+  may add temporary bonus stamina, yielding the capacity available to climb.
+- Includes: PEAK hunger, injury, poison/cold/heat/drowsy-style obstruction,
+  item weight and food-derived bonus stamina.
+- Excludes: one ordinary health bar; equipment-only durability; a permanent
+  character upgrade; team-shared stamina.
+- Parameters: base stamina, obstruction types/amounts, weight, activity cost,
+  food bonus, recovery and usable capacity.
+- Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Novelty: first isolated for `GAME-0203`; heterogeneous harm and inventory
+  load are normalised into the exact resource that sustains physical grip.
+
+## SYS-664 — Resolve typed expedition supply effects
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: completed use of one compatible carried food, medical item or
+  hazard remedy consumes or advances that item and changes only its declared
+  hunger, injury, affliction, bonus-stamina or protection state.
+- Includes: PEAK food, Bandages and biome-specific remedies in the scoped ascent.
+- Excludes: passive campfire morale; a climbing aid; account inventory;
+  untyped generic healing that clears every status.
+- Parameters: item, uses, channel, compatibility, target status, amount,
+  duration, protection, consumption and cancellation.
+- Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Novelty: first isolated for `GAME-0203`; supplies repair distinct portions
+  of one composite climbing-capacity problem rather than a single health meter.
+
+## SYS-665 — Resolve persistent rope and piton support
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a legal climbing-aid deployment consumes its carried item,
+  attaches it to compatible terrain and exposes a persistent physical line or
+  support that later body movement and grip may use.
+- Includes: PEAK Rope Spool and Piton route support.
+- Excludes: immediate grappling-hook pull; a permanent crafted building;
+  ordinary surface grip with no placed item.
+- Parameters: aid, target, attachment, line/support geometry, collision, use,
+  persistence, detachment and consumed stock.
+- Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Novelty: first isolated for `GAME-0203`; finite expedition loot leaves a
+  persistent reusable affordance in an otherwise fixed daily surface field.
+
+## SYS-666 — Advance ordered biome hazards and rising pressure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the active biome and standard Peak clock advance their declared
+  weather, creatures, traps, fog or rising hazard, applying typed afflictions
+  and removing safe lower space until the Scout moves or counters them.
+- Includes: the scoped island's rain/wind or cold/heat sample, Gloom hazards,
+  Citadel traps/rising pressure and standard Peak fog pressure.
+- Excludes: combining mutually exclusive biomes; higher-Ascent-only modifiers;
+  random enemies unrelated to traversal; cosmetic weather.
+- Parameters: biome, hazard set, clock, trigger, affected region, affliction,
+  obstacle, rise, avoidance and reset.
+- Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Novelty: first isolated for `GAME-0203`; successive traversal ecologies share
+  one ascent clock and attack the capacity needed to stay attached.
+
+## SYS-667 — Settle a lit campfire into biome passage and morale
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: lighting the reached biome campfire records the local passage,
+  grants its eligible morale/resource response and clears or opens the authored
+  gate into the next ordered region where that gate exists.
+- Includes: PEAK biome campfires and the Gloom entrance fire that opens The Citadel.
+- Excludes: arbitrary player-built fires; sleeping to skip time; a checkpoint
+  respawn not selected in scope; summit Flare ignition.
+- Parameters: biome, campfire, reach, lit state, morale, gate, next region and persistence.
+- Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Novelty: first isolated for `GAME-0203`; one world fixture both marks ascent
+  progress and changes the capacity or topology of the continuing run.
+
+## SYS-668 — Advance zero usable stamina to unconsciousness and solo death
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when obstruction removes all usable stamina, the Scout becomes
+  unconscious and a recovery/death interval advances; without restored capacity
+  or an eligible external rescue, expiration produces death and ends solo control.
+- Includes: unrecovered unconsciousness and terminal death in scoped PEAK solo.
+- Excludes: cooperative item revival; Ancient Statue resurrection; checkpoint
+  respawn; immediate elimination with no unconscious interval.
+- Parameters: usable stamina, unconscious state, temporary-status decay,
+  recovery source, timer, external rescuer, death and control terminal.
+- Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Novelty: first isolated for `GAME-0203`; the same composite capacity that
+  sustains grip also controls a timed, potentially recoverable loss-of-control state.
+
+## SYS-669 — Convert summit Flare into helicopter rescue settlement
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an ignited Flare inside the PEAK region calls the rescue
+  helicopter, advances its arrival and boarding countdown, then emits the
+  rescue sequence, Scouting Report and completed expedition result.
+- Includes: the standard Peak solo positive terminal.
+- Excludes: reaching the summit without signalling; Nadir's alternate ending;
+  touching the helicopter rope as a separate requirement; post-result replay.
+- Parameters: living Scout, region, Flare, signal, helicopter, arrival,
+  countdown, rescue sequence, report and result.
+- Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Novelty: first isolated for `GAME-0203`; a supply preserved across the full
+  route becomes the explicit system request for a bounded rescue settlement.
+
+## SYS-670 — Instantiate a fixed historical character tutorial
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: starting the declared tutorial creates one authored historical
+  date, controlled ruler, character network, title graph, realm state and
+  ordered guidance layer before returning retained control.
+- Includes: Petty King Murchad of Munster in Crusader Kings III's 1066 Learning
+  the Game tutorial.
+- Excludes: a custom ruler; another bookmark; a later DLC tutorial; post-
+  terminal campaign generation.
+- Parameters: date, ruler, characters, titles, realm, rules, guidance stage and
+  initial control state.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; a live grand-strategy state remains
+  historical and persistent while an authored teaching sequence bounds it.
+
+## SYS-671 — Derive effects from character qualities and opinion
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a character's skills, traits, relationships and directed opinion
+  modify eligibility, acceptance, task effectiveness and other disclosed realm
+  or interaction outcomes.
+- Includes: Murchad, marriage candidates, councillors, vassals and commanders
+  in the scoped Crusader Kings III tutorial.
+- Excludes: one cosmetic biography; a unit class with no person-specific state;
+  hidden narrative flavour with no rule effect.
+- Parameters: character, skill, trait, relation, opinion, modifier, eligibility,
+  acceptance and derived effect.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; the same named actor modifies social,
+  administrative and military decisions through inspectable qualities.
+
+## SYS-672 — Settle an accepted political marriage
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an accepted eligible proposal creates the declared spouse and
+  family relation, moves characters where rules require and creates any
+  resulting alliance or opinion effects.
+- Includes: the ordinary marriage taught in Murchad's base-game tutorial.
+- Excludes: Grand Wedding activities; childbirth; inheritance after death;
+  romance without a submitted marriage.
+- Parameters: spouses, marriage type, courts, houses, alliance, opinion and
+  settled relationship.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; one accepted social arrangement can
+  change both personal and inter-realm network edges.
+
+## SYS-673 — Advance an assigned council task
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while campaign time runs, an appointed councillor applies their
+  office, skill and selected target to progress or periodically resolve the
+  declared realm task.
+- Includes: council work exposed by the scoped Crusader Kings III tutorial.
+- Excludes: instant player-authored construction; an unassigned passive trait;
+  a court position outside the council.
+- Parameters: office, councillor, skill, task, target, progress, periodic effect
+  and completion.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; office placement and a separate task
+  turn character skill into a persistent time-driven operation.
+
+## SYS-674 — Propagate title hierarchy and vassal obligations
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: direct title ownership, de jure hierarchy, liege-vassal relations
+  and current obligations determine realm/domain membership and the taxes and
+  levies contributed upward.
+- Includes: Murchad's Thomond domain, Ormond vassal relation and Munster realm.
+- Excludes: free unit generation unrelated to holdings; post-terminal
+  succession; a flat national income with no title graph.
+- Parameters: title, rank, holder, de jure parent, domain, liege, vassal,
+  obligation, tax and levy contribution.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; nested legal ownership continuously
+  produces both administrative scope and military capacity.
+
+## SYS-675 — Instantiate a claim-bounded war and objective
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an accepted declaration binds attacker, defender, legal cause,
+  target title, war objective, eligible participants and enforceable outcomes
+  into one active war state.
+- Includes: the instructed Desmond war in Murchad's tutorial.
+- Excludes: hostile combat without a war; choosing the casus belli itself;
+  applying the final demand before the score gate.
+- Parameters: attacker, defender, casus belli, target title, objective,
+  participants, score components and settlement effects.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; a legal title predicate authors the
+  contest's geography, score logic and possible ownership result.
+
+## SYS-676 — Gather feudal contributions into a raised army
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a valid muster draws available direct and vassal levies plus
+  eligible men-at-arms toward the selected rally point over time, forming a
+  controllable army and applying raised maintenance.
+- Includes: Murchad's tutorial muster for Desmond.
+- Excludes: buying mercenaries; recruiting new men-at-arms; movement after
+  gathering; an army permanently present at scenario start.
+- Parameters: contribution source, available levy, regiment, rally point,
+  distance, gathering interval, army and maintenance.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; a social ownership graph is sampled
+  into temporary spatial command capacity.
+
+## SYS-677 — Resolve commander-led battle, retreat and siege
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: raised armies path on the strategic map; contact resolves
+  commander, troop, terrain and phase effects into casualties and retreat,
+  while an eligible stationary hostile holding advances siege to occupation.
+- Includes: Murchad's army, the Desmond field encounter and capital siege.
+- Excludes: direct control of individual soldiers; a separate tactical battle
+  scene; naval warfare; merely selecting the army destination.
+- Parameters: army, commander, route, terrain, supply, advantage, troop class,
+  casualty, retreat, fort, besieger count, siege progress and occupation.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; one high-level formation alternates
+  between live pursuit/combat and strength-gated fort occupation.
+
+## SYS-678 — Convert war events into war score
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: relevant battles, occupied holdings, captured important
+  characters and control of the declared objective update bounded war-score
+  components whose total determines available settlements.
+- Includes: the Desmond tutorial war score.
+- Excludes: generic prestige; campaign score across several wars; title
+  transfer before a demand is accepted.
+- Parameters: battle result, occupation, prisoner, objective control, ticking
+  component, cap, total score and settlement threshold.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; heterogeneous political and military
+  events accumulate toward one legally constrained negotiation gate.
+
+## SYS-679 — Enforce war demands and settle tutorial completion
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when the active war permits enforcement, the selected demand
+  applies its declared title, vassal, prestige and peace effects, closes the
+  war and advances the authored tutorial to its explicit completion state.
+- Includes: enforcing the won Desmond war and completing Murchad's guided
+  tutorial.
+- Excludes: forming Ireland; post-tutorial campaign play; succession after
+  Murchad's death; a player-declared analytical stop.
+- Parameters: score, demand, target title, holder, liege relation, prestige,
+  truce, closed war, tutorial stage and retained control.
+- Evidence: [Crusader Kings III decomposition](../games/a-f/crusader-kings-iii.md).
+- Novelty: first isolated for `GAME-0204`; a legal war settlement is also the
+  system-authored boundary between guided instruction and an open campaign.
+
+## SYS-680 — Convert examined evidence into authored investigation progress
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the system records the ordered inspection of eligible local
+  clues, derives the corresponding fact or trail and advances the current
+  search area, journal knowledge, preparation information or quest objective.
+- Includes: the camp, footprint, nest and corpse evidence that identifies and
+  prepares the royal-griffin route in The Beast of White Orchard.
+- Excludes: free-form player notes; automatic omniscient target revelation;
+  proximity detection without authored interpretation.
+- Parameters: investigation, prerequisite fact, clue, order, trace, inference,
+  journal entry, bestiary information, objective and completion flag.
+- Evidence: [The Witcher 3: Wild Hunt decomposition](../games/s-z/the-witcher-3-wild-hunt.md).
+- Novelty: first isolated for `GAME-0205`; several embodied inspections become
+  retained authored knowledge that changes the legal quest route.
+
+## SYS-681 — Instantiate one fixed loaner duel packet
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the system loads two immutable Main Deck lists, declared Extra
+  Decks, fixed concealed order and opening hands, Life Points and empty public
+  zones for one named loaner-versus-CPU chapter.
+- Includes: Master Duel Tutorial chapter `10003` with two 40-card Main Decks,
+  player Extra Deck of five, five-card hands and 4,000 LP each.
+- Excludes: personal deck selection, shuffling, matchmaking or collection state.
+- Parameters: chapter, decks, order, hands, Extra Decks, LP, CPU and zones.
+- Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
+- Novelty: first isolated for `GAME-0206`; one authored duel fixture preserves
+  hidden information without randomising or accepting player-built contents.
+
+## SYS-682 — Advance ordered duel phases and active turns
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the system advances Draw, Standby, Main 1, optional Battle,
+  optional Main 2 and End phases, performs phase-bound actions, refreshes turn
+  allowances and transfers the active turn to the opponent.
+- Includes: the chapter `10003` alternating duel, including first-turn draw and
+  Battle restrictions.
+- Excludes: response ordering inside a Chain; battle calculation; unrestricted
+  real-time progression.
+- Parameters: active player, turn, phase, draw, allowances, optional phases and next player.
+- Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
+- Novelty: first isolated for `GAME-0206`; one active turn has fixed subphases
+  but can repeatedly yield short card-response windows to either player.
+
+## SYS-683 — Build and resolve a Spell-Speed Chain backward
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the system alternates legal response opportunities, numbers each
+  appended Chain Link and, once neither side adds another, resolves every link
+  from newest to oldest without accepting a new link during that resolution.
+- Includes: Spell, Trap and effect Chains in the scoped Tutorial duel.
+- Excludes: MTG priority where only one top stack object resolves before a new
+  priority round; simultaneous effect selection outside this packet.
+- Parameters: links, players, Spell Speeds, response window, closure, reverse order and negation.
+- Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
+- Novelty: first isolated for `GAME-0206`; the entire closed response sequence
+  settles backward as one uninterrupted resolution interval.
+
+## SYS-684 — Apply card text and route cards among duel zones
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a resolving card or effect applies its clauses in rules order and
+  moves affected cards among hand, Deck, field, Graveyard, banished state and
+  Extra Deck while retaining current face and position state.
+- Includes: fixed-packet draw, destruction, revival, stat change and material movement.
+- Excludes: choosing the activation or target; Chain scheduling; collection mutation.
+- Parameters: effect, target, clauses, origin, destination, face, position and retained modifier.
+- Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
+- Novelty: first isolated for `GAME-0206`; one digital card rule can jointly
+  change typed zones, disclosure and battle state inside a fixed Duel.
+
+## SYS-685 — Resolve one attack through position and ATK/DEF
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after attack responses settle, the system compares the attacker's
+  ATK with the target's position-appropriate ATK or DEF, destroys the required
+  monster and applies the corresponding battle damage, or debits a direct
+  attack from opposing Life Points.
+- Includes: ordinary chapter `10003` Attack- and Defense-Position battles.
+- Excludes: declaring the attack; non-battle effect damage; blocker assignment.
+- Parameters: attacker, target, positions, ATK, DEF, destruction, damage and LP.
+- Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
+- Novelty: first isolated for `GAME-0206`; one target's orientation switches
+  both the comparison statistic and which player can receive battle damage.
+
+## SYS-686 — Settle the Duel result and Solo clear state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when a legal player-loss predicate occurs, the system stops the
+  Duel, presents Victory or Defeat and, on the required victory, records the
+  chapter and gate clear before returning retained Solo control.
+- Includes: opponent zero LP, failed draw or applicable card-defined loss in
+  Tutorial chapter `10003`, and controlled-player loss or surrender.
+- Excludes: starter-deck selection, Gem rewards, mission progress or a PvP match series.
+- Parameters: losing player, predicate, result, chapter clear, gate clear and return state.
+- Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
+- Novelty: first isolated for `GAME-0206`; a rules-level card-game terminal also
+  closes one authored Solo gate without admitting its reward economy.
+
+## SYS-687 — Update monster exhaustion and feeding recovery
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: eligible combat actions spend a large monster's stamina until
+  observable exhaustion changes its attack pressure; the monster may then
+  attempt to feed, and completed feeding restores stamina while a timely
+  interruption prevents that recovery.
+- Includes: Great Jagras exhaustion, prey swallowing and visible swollen-belly
+  state during the scoped Monster Hunter: World assignment.
+- Excludes: the hunter's stamina gauge; an arbitrary rage phase; health
+  regeneration with no feeding action; exact hidden stamina values.
+- Parameters: monster, stamina, spend event, exhaustion cue, attack modifier,
+  food source, feeding interval, interruption, recovery and visible body state.
+- Evidence: [Monster Hunter: World decomposition](../games/m-r/monster-hunter-world.md).
+- Novelty: first isolated for `GAME-0207`; an autonomous hostile's live
+  resource becomes observable through behaviour and recoverable through an
+  interruptible world interaction.
+
+## SYS-688 — Degrade and restore close-range sharpness
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: repeated eligible close-range attacks reduce the equipped
+  weapon's sharpness and increase deflection exposure; completing the legal
+  whetstone action restores the gauge without replacing or upgrading the
+  weapon.
+- Includes: `Hunter's Knife I` sharpness loss and whetstone restoration in the
+  scoped Monster Hunter: World assignment.
+- Excludes: ammunition consumption; permanent weapon durability; smithy
+  improvement; a cosmetic blade-colour change.
+- Parameters: weapon, attack, sharpness tier, decrement, deflection, whetstone,
+  maintenance completion and restored gauge.
+- Evidence: [Monster Hunter: World decomposition](../games/m-r/monster-hunter-world.md).
+- Novelty: first isolated for `GAME-0207`; one retained weapon cycles between
+  attack-driven degradation and live field restoration inside the same hunt.
