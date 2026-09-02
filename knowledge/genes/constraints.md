@@ -7897,13 +7897,16 @@
   count before the finish line is accepted.
 - Includes: Forza Horizon 6 Trail, Circuit, Cross Country, Time Attack and
   Invitational routes; Need for Speed Unbound `Shopping Spree`; Trackmania
-  `Summer 2026 - 01` ordered checkpoints and valid Finish trigger.
+  `Summer 2026 - 01` ordered checkpoints and valid Finish trigger; Need for
+  Speed Underground's two authored Olympic Square laps before its opening
+  Circuit finish settles.
 - Excludes: open-world navigation; a single speed-zone measurement; decorative
   gates with no progress authority.
 - Parameters: checkpoint order, gate width, direction, lap count, reset policy
   and finish eligibility.
-- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md)
-  and [Trackmania decomposition](../games/s-z/trackmania.md).
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md),
+  [Trackmania decomposition](../games/s-z/trackmania.md), and
+  [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
 - Novelty: first isolated for `GAME-0171`; earlier route constraints govern
   networks or escort anchors rather than one directly driven race traversal.
 
@@ -10064,3 +10067,140 @@
 - Evidence: [It Takes Two decomposition](../games/g-l/it-takes-two.md).
 - Novelty: first isolated for `GAME-0215`; a finite reusable tool is gated by
   both current world assignment and an authored visual-surface predicate.
+
+## CON-559 — First transfer requires level, quest and class compatibility
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a first class transfer is available only when the persistent
+  character has the declared starting class/race eligibility, reaches the
+  required level, completes the class-transfer quest and selects one compatible
+  offered destination.
+- Includes: a non-Ertheia Lineage II Live Human Fighter reaching level 20,
+  completing `Path of Destiny - Beginning` and selecting Warrior.
+- Excludes: level alone; quest completion below threshold; incompatible class;
+  skill-point prerequisites; later paid class changes.
+- Parameters: race, starting class, level, quest, completion flag, offered
+  destinations, selected destination and rejection reason.
+- Evidence: [Lineage II decomposition](../games/g-l/lineage-ii.md).
+- Novelty: first isolated for `GAME-0219`; persistent level and one authored
+  class quest jointly gate an exclusive identity transition.
+
+## CON-560 — Fortification work requires an authored outline and valid channel
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: battlefield construction or repair is legal only at a currently
+  exposed compatible authored outline, within tool reach and while the player
+  sustains the required interaction without an interrupting state.
+- Includes: Battlefield V toolbox work on Arras trenches, barriers and supply
+  stations at their fixed Fortification positions.
+- Excludes: placing a structure at arbitrary terrain; spending a finite Siege
+  reinforcement panel; repairing a tank; merely seeing the outline.
+- Parameters: outline, type, team, reach, tool, posture, progress, interruption,
+  existing damage and completion.
+- Evidence: [Battlefield V decomposition](../games/a-f/battlefield-v.md).
+- Novelty: first isolated for `GAME-0220`; placement is not inventory-bounded
+  but still constrained by an authored live-world affordance and channel.
+
+## CON-561 — Reinforcement calls require leader authority, points and target
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a squad Reinforcement can be confirmed only by the current squad
+  leader when the shared pool covers its cost, the option is currently
+  available and every required target satisfies its spatial and state rules.
+- Includes: Battlefield V leader-authorised supply, smoke or strike calls after
+  the squad earns sufficient points.
+- Excludes: any squad member spending the pool; personal gadget charges; a
+  targetless request for a spatial call; spending team tickets.
+- Parameters: leader identity, squad, points, cost, option, availability,
+  target class, range, obstruction, confirmation and rejection.
+- Evidence: [Battlefield V decomposition](../games/a-f/battlefield-v.md).
+- Novelty: first isolated for `GAME-0220`; a shared resource remains
+  deliberately unusable without one role's current authority and a legal call
+  geometry.
+
+## CON-562 — Tutorial-dungeon entry requires quest gate and a supported roster
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the required tutorial dungeon becomes a valid continuation only
+  after its authored main-chain gate and admits one to five eligible players,
+  with the client supplying autonomous followers for missing combat functions
+  rather than allowing an empty or unrelated roster.
+- Includes: a solo Alliance Human Warrior entering Darkmaul Citadel after
+  `To Darkmaul Citadel` on the full Exile's Reach route.
+- Excludes: the Housing Skip; a later free-form dungeon group; FFXIV's exact
+  four-member 1/1/2 Duty Support composition; human participants above the
+  tutorial limit; entering before the required quest state.
+- Parameters: quest flag, player count, character eligibility, dungeon,
+  follower requirement, admitted roster, rejection and instance lifetime.
+- Evidence: [World of Warcraft decomposition](../games/s-z/world-of-warcraft.md).
+- Novelty: first isolated for `GAME-0221`; one authored tutorial gate combines
+  variable human occupancy with automatic functional completion of the roster.
+
+## CON-563 — Tutorial admission is faction-gated and closes after one exit
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the bounded tutorial can be entered only by an eligible fresh
+  character through the City Guard of its faction's major city; selecting the
+  Daeva of Time exit permanently removes that character's re-entry permission,
+  whether or not every objective and reward was completed.
+- Includes: an Elyos Aion Classic character entering `Boundary of Light and
+  Darkness` through Sanctum and losing re-entry after leaving.
+- Excludes: a repeatable dungeon lockout; a daily entry counter; a quest-gated
+  party roster; an exit that can be undone by loading a checkpoint.
+- Parameters: character, freshness flag, faction, City Guard, instance,
+  completion state, exit confirmation and retained closed flag.
+- Evidence: [Aion Classic decomposition](../games/a-f/aion-classic.md).
+- Novelty: first isolated for `GAME-0223`; the same warned exit closes both
+  successful completion and every incomplete route for that character.
+
+## CON-564 — Gate new-character tutorial admission by account history
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a newly created character is routed directly into the current
+  tutorial unless the same account already has a declared non-beginner
+  character, in which case the client may offer an authorised skip branch.
+- Includes: fixing a fresh Once Human account with no non-beginner character so
+  its new Meta-Human must enter the revamped new-player experience.
+- Excludes: a per-character one-use exit; a quest level gate; a server queue;
+  choosing to skip on a fresh account; inherited inventory or paid access.
+- Parameters: account, existing-character history, non-beginner predicate, new
+  character, direct admission, skip authority and selected branch.
+- Evidence: [Once Human decomposition](../games/m-r/once-human.md).
+- Novelty: first isolated for `GAME-0224`; onboarding legality depends on prior
+  account-level character history before any scenario or server is selected.
+
+## CON-565 — Share one finite starfighter power budget
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: engines, laser weapons and shields must share one bounded live
+  power budget, so emphasizing any channel necessarily withholds some available
+  allocation from at least one other channel until the player reallocates it.
+- Includes: the fixed T-65B X-wing in `Form the Vanguard`.
+- Excludes: three independent cooldown bars; permanent component points;
+  front/rear shield-charge transfer; ammunition shared by two weapons.
+- Parameters: total budget, engine allocation, laser allocation, shield
+  allocation, balanced distribution, emphasized channel and reallocation.
+- Evidence: [STAR WARS: Squadrons decomposition](../games/s-z/star-wars-squadrons.md).
+- Novelty: first isolated for `GAME-0225`; three simultaneously active cockpit
+  subsystems compete through a reversible zero-sum performance allocation.

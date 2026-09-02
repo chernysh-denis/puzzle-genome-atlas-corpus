@@ -5846,7 +5846,9 @@
   Speed Payback resolves the fixed Mustang and Regera motion, traffic contact,
   collision and aggregate damage through the Highway Heist. Trackmania
   `Summer 2026 - 01` resolves the dedicated CarSport vehicle's steering,
-  speed, traction, road contact and collision without damage or fuel parameters.
+  speed, traction, road contact and collision without damage or fuel
+  parameters. Need for Speed Underground likewise resolves the fixed stock
+  starter's arcade motion, road contact and collision in its opening Circuit.
 - Excludes: autonomous route service; the starting aircraft; movement on foot.
 - Parameters: vehicle, seat, speed, traction, terrain, fuel, tyre, health,
   damage region, collision, explosion delay and occupant exposure.
@@ -5855,7 +5857,8 @@
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
   [War Thunder decomposition](../games/s-z/war-thunder.md), and
   [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md),
-  and [Trackmania decomposition](../games/s-z/trackmania.md).
+  [Trackmania decomposition](../games/s-z/trackmania.md), and
+  [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
 - Novelty: not assessed.
 
 ## SYS-321 — Contract phased safe area and apply Blue Zone exposure
@@ -9364,12 +9367,14 @@
   eligible rival field along the same course and scales its pace and behaviour
   through the selected opponent-difficulty profile.
 - Includes: Solo Forza Horizon 6 Festival races against Drivatars; the seven
-  Relaxed AI rivals in Need for Speed Unbound `Shopping Spree`.
+  Relaxed AI rivals in Need for Speed Unbound `Shopping Spree`; and the three
+  Easy rivals in Need for Speed Underground's opening Circuit.
 - Excludes: ambient open-world traffic; a human multiplayer field; one fixed
   scripted convoy with no competitive result.
 - Parameters: field size, car theme, difficulty, aggression, course, start grid,
   contact and finish state.
-- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md)
+  and [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
 - Novelty: first isolated for `GAME-0171`; earlier autonomous agents pursue
   combat, logistics or team roles rather than a shared-course race ranking.
 
@@ -9385,13 +9390,15 @@
 - Includes: Forza Horizon 6 Trail, Circuit, Cross Country, Time Attack and
   Horizon Invitational course completion; Need for Speed Unbound's ordered
   `Shopping Spree` route and eight-place result; Trackmania `Summer 2026 - 01`
-  Start/Checkpoint/Finish validation and elapsed result.
+  Start/Checkpoint/Finish validation and elapsed result; Need for Speed
+  Underground's ordered two-lap Olympic Square Circuit and finish place.
 - Excludes: free driving through unvalidated map space; a speed trap with no
   ordered course; points awarded after the validated result.
 - Parameters: checkpoint sequence, checkpoint width, lap count, elapsed time,
   participant order, missed-checkpoint recovery and finish line.
-- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md)
-  and [Trackmania decomposition](../games/s-z/trackmania.md).
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md),
+  [Trackmania decomposition](../games/s-z/trackmania.md), and
+  [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
 - Novelty: first isolated for `GAME-0171`; no prior system jointly validates
   directly driven course order, lap progress and race finish classification.
 
@@ -9447,13 +9454,16 @@
 - Includes: qualifier results and the three cars granted with the first Forza
   Horizon 6 Wristband; the scoped Need for Speed Unbound result and cash after
   pursuit clearance plus Rydell's Rydes entry; Need for Speed Payback's retained
-  Highway Heist mission and Chapter 2 settlement after airfield delivery.
+  Highway Heist mission and Chapter 2 settlement after airfield delivery; Need
+  for Speed Underground's retained `375` Bank and Race 1 completion after the
+  opening Circuit win.
 - Excludes: temporary race position; live Festival Playlist rewards outside the
   scoped opening; buying an Aftermarket Car.
 - Parameters: event, completion, position, time, credits, experience, vehicle,
   unlock and retained save state.
-- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md) and
-  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md),
+  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md),
+  and [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
 - Novelty: first isolated for `GAME-0171`; delivery and combat settlements do
   not retain a curated driving-event result into garage and festival state.
 
@@ -13030,3 +13040,340 @@
 - Novelty: first isolated for `GAME-0216`; earlier timed terminals retain a
   result or rank rivals, while this boundary deterministically maps the same
   valid elapsed time into one of four published map-specific medal tiers.
+
+## SYS-712 — Apply a retained first class transfer
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: confirming an eligible first class transfer replaces the
+  persistent character's starting class with the chosen compatible class,
+  updates class-bound skill availability and retains the same character,
+  server, level, completed quest, inventory and equipment state.
+- Includes: Lineage II Live replacing Human Fighter with Warrior after `Path of
+  Destiny - Beginning` at level 20.
+- Excludes: temporary level sync; changing a team-spawn loadout; creating a new
+  character; a later paid class change that deletes or refunds learned skills.
+- Parameters: character, server, source class, destination class, retained
+  state, removed availability, added availability and completion flag.
+- Evidence: [Lineage II decomposition](../games/g-l/lineage-ii.md).
+- Novelty: first isolated for `GAME-0219`; one quest-earned class commitment
+  transforms the same persistent character without resetting other progress.
+
+## SYS-713 — Resolve an authored Fortification into cover, route or supply state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: accepted toolbox progress advances a fixed battlefield outline
+  through building to its declared completed structure, which changes local
+  cover, passage, vehicle access or replenishment until compatible damage or
+  repair changes it again.
+- Includes: Battlefield V Arras trenches, sandbags, barriers, tank stoppers and
+  health or ammunition stations built at authored Fortification outlines.
+- Excludes: free-form voxel construction; Siege's stock-limited surface layer;
+  cosmetic debris; passive authored cover that cannot be rebuilt.
+- Parameters: outline, progress, structure, collision, cover, route, supply
+  function, damage, destruction and repair.
+- Evidence: [Battlefield V decomposition](../games/a-f/battlefield-v.md).
+- Novelty: first isolated for `GAME-0220`; one fixed battlefield locus cycles
+  between absent, useful, damaged and repaired tactical infrastructure during
+  a live symmetric objective match.
+
+## SYS-714 — Resolve partial-health and ammunition attrition with typed resupply
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: damage and firing reduce separately bounded health, carried
+  bandage, magazine and reserve-ammunition state; passive recovery stops at its
+  partial cap, while only a compatible Medic, Support, station or field source
+  replenishes the corresponding missing resource.
+- Includes: Battlefield V one-bandage infantry sustain, incomplete passive
+  health recovery, finite ammunition and typed health/ammunition resupply.
+- Excludes: full automatic health regeneration; unlimited ammunition; a
+  Payload cart's continuous attacker-only field; account-level stock.
+- Parameters: health, recovery cap, bandage, magazine, reserve, source type,
+  team/class eligibility, amount, cooldown and resulting stock.
+- Evidence: [Battlefield V decomposition](../games/a-f/battlefield-v.md).
+- Novelty: first isolated for `GAME-0220`; local combat exposure leaves two
+  distinct shortages whose recovery depends on class or constructed spatial
+  support rather than waiting alone.
+
+## SYS-715 — Accumulate and settle shared squad Reinforcement points
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: eligible cooperative squad actions add to one shared live point
+  pool; an authorised call atomically subtracts its cost, schedules the chosen
+  delivery and resolves the typed supply, concealment, vehicle or strike effect.
+- Includes: Battlefield V squad Reinforcement points earned together and spent
+  by the squad leader on available calls.
+- Excludes: personal ability cooldowns; match-shop currency; team tickets;
+  automatic killstreak rewards with no leader choice.
+- Parameters: squad, contributing event, award, shared total, leader, option,
+  cost, target, delay, delivery, effect and cancellation.
+- Evidence: [Battlefield V decomposition](../games/a-f/battlefield-v.md).
+- Novelty: first isolated for `GAME-0220`; contribution and spending authority
+  are split across the squad while the purchased effect resolves inside the
+  same live objective state.
+
+## SYS-716 — Fill missing tutorial-dungeon functions with autonomous followers
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when an eligible player roster enters the bounded tutorial
+  dungeon, the system supplies autonomous followers for missing combat
+  functions; those followers navigate, acquire targets, tank, heal or deal
+  damage around each directly controlled participant until the instance ends.
+- Includes: a solo Alliance Human Warrior entering Exile's Reach Darkmaul
+  Citadel and receiving role-capable NPC support through both required bosses.
+- Excludes: FFXIV Duty Support's fixed named 1/1/2 light party; directly
+  commanding every follower action; human matchmaking; a cosmetic companion;
+  followers outside the tutorial instance.
+- Parameters: admitted human count, missing function, follower roster, follow
+  state, target, tanking, healing, damage, pathing, boss gate and instance exit.
+- Evidence: [World of Warcraft decomposition](../games/s-z/world-of-warcraft.md).
+- Novelty: first isolated for `GAME-0221`; a one-to-five-player onboarding
+  instance dynamically supplies the missing functional support instead of
+  fixing one immutable player role and exact NPC party.
+
+## SYS-717 — Extend rapid-kill combo and multiply experience
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: each eligible hostile defeat inside the live continuation window
+  increments one temporary combo multiplier and applies it to the current
+  experience award; letting the window expire resets the chain before a later
+  kill begins again.
+- Includes: Story-mode rapid-kill combo and experience awards in the scoped
+  first `Call of Juarez: Gunslinger` episode.
+- Excludes: a team killstreak that grants equipment; a permanent score total;
+  Arcade star evaluation; a fixed multi-hit attack combo.
+- Parameters: eligible defeat, base award, continuation window, count,
+  multiplier, modified experience, expiry and reset.
+- Evidence: [Call of Juarez: Gunslinger decomposition](../games/a-f/call-of-juarez-gunslinger.md).
+- Novelty: first isolated for `GAME-0222`; an expiring live kill chain changes
+  persistent character-growth rate without itself being the episode objective.
+
+## SYS-718 — Resolve duel focus, readiness and draw order into one shot window
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a fixed-opponent firearm duel continuously derives independent
+  focus and draw-speed values from maintained player inputs; committed draw
+  order classifies the attempt, speed bounds weapon access and focus bounds the
+  post-draw aiming opportunity before shots settle the apparent result.
+- Includes: Silas versus Pat Garrett in the first scoped Story duel.
+- Excludes: ordinary firearm fire; a side-view vitality round; a single
+  reaction prompt with no preparation state; Duel Challenge's multi-opponent
+  life structure.
+- Parameters: focus, speed, opponent motion, first draw, honour class, access
+  delay, aim spread, dodge, shot, hit and apparent result.
+- Evidence: [Call of Juarez: Gunslinger decomposition](../games/a-f/call-of-juarez-gunslinger.md).
+- Novelty: first isolated for `GAME-0222`; two pre-shot continuous controls and
+  one observed reaction order jointly determine a short live firearm result.
+
+## SYS-719 — Replace played scene state after an authored narrator correction
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after a declared apparent outcome, a non-player narrator's fixed
+  correction invalidates that version, restores an authored earlier route state
+  and substitutes corrected objective or world content before play resumes.
+- Includes: the first Gunslinger episode rejecting the Garrett duel, returning
+  Silas to the stable approach and issuing `Get the horses... this time for
+  real`.
+- Excludes: player-controlled branchable rewind; checkpoint restore after
+  failure; a narrator reacting to a chosen route; non-interactive flashback.
+- Parameters: apparent outcome, correction trigger, restored locus, retained
+  state, discarded state, replacement objective, world substitution and resume.
+- Evidence: [Call of Juarez: Gunslinger decomposition](../games/a-f/call-of-juarez-gunslinger.md).
+- Novelty: first isolated for `GAME-0222`; authored narration, not player input
+  or failure, replaces already resolved playable state with a corrected account.
+
+## SYS-720 — Randomly reset every skill cooldown after an eligible attack
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while one declared transformation buff is active, each resolved
+  attack performs an independent probability check that either resets every
+  current skill cooldown together or leaves all readiness timers unchanged.
+- Includes: Aion Classic's `Class Transformation` buff and its 30% per-attack
+  chance to reset all skills in `Boundary of Light and Darkness`.
+- Excludes: one skill resetting itself; deterministic cooldown completion;
+  cooldown reduction from an attribute; refreshing abilities between fights.
+- Parameters: buff, eligible attack, probability, current cooldown vector,
+  success, simultaneous reset and unchanged failure state.
+- Evidence: [Aion Classic decomposition](../games/a-f/aion-classic.md).
+- Novelty: first isolated for `GAME-0223`; one live attack can restore the
+  entire active skill vocabulary through a shared random event.
+
+## SYS-721 — Convert reward-object strikes into level-sensitive equipment
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: accepted attacks against a spawned non-hostile reward object can
+  probabilistically raise its discrete level up to a fixed cap; the later claim
+  interaction consumes that prepared state and selects equipment whose possible
+  enhancement quality improves with the reached level.
+- Includes: Aion Classic Mystic Cubes rising up to level five and granting
+  equipment enhanced up to +15 in `Boundary of Light and Darkness`.
+- Excludes: ordinary random chest contents with no preparatory attacks; enemy
+  loot quality based only on difficulty; deterministic crafting enhancement;
+  damaging a container until it breaks.
+- Parameters: object, current level, hit, upgrade probability, cap, claim,
+  reward table, equipment and enhancement level.
+- Evidence: [Aion Classic decomposition](../games/a-f/aion-classic.md).
+- Novelty: first isolated for `GAME-0223`; reward quality is prepared by direct
+  combat-shaped input on the source before a distinct interaction settles it.
+
+## SYS-722 — Settle a pre-scenario tutorial into grant and ruleset choice
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: completing the current universal new-player tutorial records its
+  completion, awards the declared retained grant and replaces guided play with
+  authority to choose one of the product's separate scenario/server rulesets.
+- Includes: Once Human's revamped new-player experience granting `Distant
+  Memory` and exposing scenario selection before wilderness entry.
+- Excludes: entering the chosen scenario; an ordinary tutorial that resumes one
+  fixed campaign; a veteran's mailed grant; a cosmetic purchase; unlocking a
+  difficulty inside the same ruleset.
+- Parameters: character, tutorial completion, grant, selection surface,
+  scenario choices, server choices, wilderness entry and retained state.
+- Evidence: [Once Human decomposition](../games/m-r/once-human.md).
+- Novelty: first isolated for `GAME-0224`; onboarding settlement grants both a
+  retained item and authority to choose the next world ruleset without yet
+  entering any of them.
+
+## SYS-723 — Integrate direct starfighter motion and collision damage
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: continuously integrate throttle and rotational inputs into a
+  starfighter's three-dimensional motion, while solid obstacles can interrupt
+  the route and convert excessive contact into shield or hull damage.
+- Includes: X-wing flight among structures and capital ships in Mission 1.
+- Excludes: node-to-node travel; a fixed rail camera; cosmetic cockpit shake;
+  ground-vehicle traction; non-damaging boundary teleport.
+- Parameters: thrust, velocity, orientation, obstacle, contact, relative speed,
+  shield damage, hull damage and destruction state.
+- Evidence: [STAR WARS: Squadrons decomposition](../games/s-z/star-wars-squadrons.md).
+- Novelty: first isolated for `GAME-0225`; six-degree cockpit navigation and
+  damaging solid-space contact are resolved by one continuous flight system.
+
+## SYS-724 — Convert cockpit power allocation into subsystem performance
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: resolve the current split of a finite starfighter power budget
+  into engine, laser and shield performance, including subsystem overcharge
+  benefits when one channel receives sustained emphasis.
+- Includes: faster engines, weapon charge and shield recharge/overcharge in the
+  fixed shielded X-wing used by Mission 1.
+- Excludes: permanent component statistics; currency upgrades; directional
+  shield focusing; one scripted speed boost unrelated to allocation.
+- Parameters: total power, three allocations, baseline output, emphasis,
+  overcharge threshold, stored excess and performance effects.
+- Evidence: [STAR WARS: Squadrons decomposition](../games/s-z/star-wars-squadrons.md).
+- Novelty: first isolated for `GAME-0225`; the same live budget changes mobility,
+  offence and defence and can create temporary subsystem-specific surplus.
+
+## SYS-725 — Resolve directional deflectors before starfighter hull
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: route an incoming hit to the struck front or rear deflector
+  reserve of a shielded starfighter before applying any unabsorbed damage to
+  its hull, with player-directed charge transfer altering the two reserves.
+- Includes: the T-65B X-wing's front/rear shield management in Mission 1.
+- Excludes: one undirected health bar; infantry armour plates; passive cover;
+  reactor-power allocation that does not itself choose a facing.
+- Parameters: hit direction, damage, front charge, rear charge, transfer,
+  absorbed amount, overflow, hull and destruction.
+- Evidence: [STAR WARS: Squadrons decomposition](../games/s-z/star-wars-squadrons.md).
+- Novelty: first isolated for `GAME-0225`; two spatial defensive reserves are
+  player-rebalanced yet separately intercept directional attacks before hull.
+
+## SYS-726 — Resolve cockpit targeting, guided missiles and countermeasures
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: maintain a selected cockpit target, calculate missile-lock
+  progress and guided pursuit, signal hostile incoming locks, and let a timely
+  finite countermeasure attempt to defeat the incoming missile.
+- Includes: targeting TIEs, locking Concussion Missiles and deploying Seeker
+  Warheads in `Form the Vanguard`.
+- Excludes: unguided laser hits alone; external tactical-map targeting;
+  automatic invulnerability; a countermeasure chosen only in menus.
+- Parameters: target, range, aim relation, lock progress, missile, pursuit,
+  warning, countermeasure, timing and hit/intercept result.
+- Evidence: [STAR WARS: Squadrons decomposition](../games/s-z/star-wars-squadrons.md).
+- Novelty: first isolated for `GAME-0225`; one cockpit chain couples target
+  selection, guided offence, incoming-threat warning and finite active defence.
+
+## SYS-727 — Resolve AI-wingmate repair and resupply
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when the single-player support request is legal, route the
+  designated AI wingmate to the player's moving craft and apply the delivered
+  payload to damaged hull and depleted fixed-loadout ordnance.
+- Includes: Gunny's U-wing supporting the player's X-wing in Mission 1.
+- Excludes: passive regeneration; returning to a hangar; human support play;
+  changing components; a narrative delivery with no mechanical restoration.
+- Parameters: request, eligibility, wingmate, route, arrival, payload, hull,
+  ordnance, restored amounts, cooldown and feedback.
+- Evidence: [STAR WARS: Squadrons decomposition](../games/s-z/star-wars-squadrons.md).
+- Novelty: first isolated for `GAME-0225`; an AI-controlled mobile ally closes
+  a player-requested logistics loop inside continuous direct combat.
+
+## SYS-728 — Settle one ordered starfighter mission into retained medals
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: advance the fixed story mission only after its current authored
+  objective predicate is satisfied, then settle the final required formation
+  into a debrief and retained `Mission Complete` medal while optional
+  performance medals remain independent.
+- Includes: completing `Form the Vanguard` after destroying its required final
+  Imperial formation.
+- Excludes: completing the campaign; multiplayer match settlement; earning all
+  optional medals; free-flight score; merely reaching the final encounter.
+- Parameters: ordered objective, completion predicate, next objective, final
+  formation, mission-complete flag, debrief, medal and optional medal predicates.
+- Evidence: [STAR WARS: Squadrons decomposition](../games/s-z/star-wars-squadrons.md).
+- Novelty: first isolated for `GAME-0225`; an ordered cockpit tutorial-combat
+  chain settles into one unconditional retained medal distinct from performance.

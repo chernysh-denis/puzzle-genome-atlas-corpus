@@ -216,7 +216,8 @@
   boosting and ramming during Need for Speed Payback while the carrier,
   Enforcers, traffic, damage and mission pressure continue; steering, braking
   and crossing waypoints in Trackmania while car motion and the attempt clock
-  continue.
+  continue; steering and braking in Need for Speed Underground while the three
+  rivals, collision state and opening Circuit clock continue.
 - Excludes: a discrete input followed by completed automatic resolution;
   self-paced actions with no time-driven state change; an external timer that
   only measures performance.
@@ -267,7 +268,8 @@
   [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md), and
   [War Thunder decomposition](../games/s-z/war-thunder.md), and
   [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md),
-  and [Trackmania decomposition](../games/s-z/trackmania.md).
+  [Trackmania decomposition](../games/s-z/trackmania.md), and
+  [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Additional support: [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md),
   for simultaneous two-player input while survival, fuel, clock and ecology advance.

@@ -1,16 +1,16 @@
 {
   "schemaVersion": "atlas-public-export-v3",
-  "corpusRevision": "r000007",
-  "contentSha256": "eab936b6c5a2dd9bfc70efefba2f535ffcc7dc0cc762bff0039bba2530cfbbf7",
-  "generatedAt": "2026-09-01T19:46:18+03:00",
+  "corpusRevision": "r000008",
+  "contentSha256": "e2ea977ffcbb888383f5a9b91970a9785e4ddf50905226e8aedb0baff8390884",
+  "generatedAt": "2026-09-02T15:12:44+03:00",
   "counts": {
-    "games": 216,
-    "genes": 2049,
-    "combinations": 214
+    "games": 225,
+    "genes": 2095,
+    "combinations": 223
   },
   "sourceProvenance": {
-    "privateCommit": "aada6ac80dd5b3c5e435b9b40a0ed31c6fcfe0e2",
-    "projectionCommit": "3fdb2d53982601746351d7ab40f76ed467949854"
+    "privateCommit": "50fafdb7e69fd6a2754c478fc51b4c12d7746877",
+    "projectionCommit": "50fafdb7e69fd6a2754c478fc51b4c12d7746877"
   },
   "files": [
     {
@@ -20,7 +20,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "197d305f9b707d26f96f55365b6211eb3504d88315b80bf44c0e3488aa437851",
+      "sha256": "cc102b622d3e6fb088cc856cc90648be1f023d8471567495ad5122927f3aba42",
       "bytes": 1178
     },
     {
@@ -785,8 +785,8 @@
     },
     {
       "path": "knowledge/combinations/COMB-0147.md",
-      "sha256": "978d883997b207864b7e1a4eecad6dac0c4b78cd8f459241599228b25e3469a1",
-      "bytes": 2332
+      "sha256": "1fef760cf19af12c833deaea0e9cade0f208906d61bce71769c1c834f136f935",
+      "bytes": 2623
     },
     {
       "path": "knowledge/combinations/COMB-0148.md",
@@ -1124,9 +1124,54 @@
       "bytes": 2379
     },
     {
+      "path": "knowledge/combinations/COMB-0215.md",
+      "sha256": "6fd5b4f037bf02bee0c28918c2d412e06dabeaf6c5fb6b7e8134b53a4edf6921",
+      "bytes": 2675
+    },
+    {
+      "path": "knowledge/combinations/COMB-0216.md",
+      "sha256": "60b24a823ae58787f2d36a241db2b5fa1176e5a5105dbdb5976cea3afa02d9ff",
+      "bytes": 2588
+    },
+    {
+      "path": "knowledge/combinations/COMB-0217.md",
+      "sha256": "1e43c9a1aea3c58ca2c1270ed41830770f94468d536bac2d3e92670fd61dc8b7",
+      "bytes": 2246
+    },
+    {
+      "path": "knowledge/combinations/COMB-0218.md",
+      "sha256": "e162795e2accffa69a6a1f218e5cbbc0d0cad52a5129fa3f424ef229697f1c06",
+      "bytes": 2645
+    },
+    {
+      "path": "knowledge/combinations/COMB-0219.md",
+      "sha256": "cd6705d10ac2d7829d4c70c813692a0eb2792144c57391b74955090f924a7c3f",
+      "bytes": 2524
+    },
+    {
+      "path": "knowledge/combinations/COMB-0220.md",
+      "sha256": "463fe8ed9eb0da469e374bcc7fac33d5cebd26c90b07062a0e2d9e69aa326ad8",
+      "bytes": 2462
+    },
+    {
+      "path": "knowledge/combinations/COMB-0221.md",
+      "sha256": "0b64cf7ae36cd81694d047b797a6054536e61a33dd03c0c0ec7f67e0f91b1eb5",
+      "bytes": 2392
+    },
+    {
+      "path": "knowledge/combinations/COMB-0222.md",
+      "sha256": "b8016e52876cb296cb3b7475f85fe6a0a59a1d20f917a0eb4d79e8a08cc694ee",
+      "bytes": 2315
+    },
+    {
+      "path": "knowledge/combinations/COMB-0223.md",
+      "sha256": "53f232c5d6048474d0dfec1c33093e484a97cbe253ecdd996ebaf96963e71a7b",
+      "bytes": 2476
+    },
+    {
       "path": "knowledge/combinations/INDEX.md",
-      "sha256": "d8d4e79fae1fb4a95fb7c43937fd3a70f5bdecca83f657fcaed19062f91b2a2a",
-      "bytes": 43737
+      "sha256": "0ede643d24634831a63970f263c08f5abec50108cc00215ceff2197ee53e9ab4",
+      "bytes": 45711
     },
     {
       "path": "knowledge/combinations/README.md",
@@ -1140,8 +1185,8 @@
     },
     {
       "path": "knowledge/families/registry.json",
-      "sha256": "a272a2c58a4e9e26553e9428b6551e1913adbd08fd17acd742ac4524e44d4d63",
-      "bytes": 21723
+      "sha256": "c5ace7ee57114fa3eed45c8c8b3682c8ae3804461afcb8053cb1eb56b776ba63",
+      "bytes": 22361
     },
     {
       "path": "knowledge/games/0-9/2048.md",
@@ -1150,13 +1195,13 @@
     },
     {
       "path": "knowledge/games/INDEX.md",
-      "sha256": "f9ff45d4778300e56ca609ff5c4c52faf2791759d414b8c9bcbf4c743eac12de",
-      "bytes": 82115
+      "sha256": "478905008c04d30965c7b6f523ddaa547c6b40eaa95f5dacc676bfb2127c4640",
+      "bytes": 86251
     },
     {
       "path": "knowledge/games/README.md",
-      "sha256": "1b2b794c49194b38b4431e2057f32b4607434b8243306aa7a3a41468bdfb0a4e",
-      "bytes": 13632
+      "sha256": "7fff0d4e97ef7780e42f0f9ae7fc42ccfe4317ecbfe20b51afe157538f8369d0",
+      "bytes": 14196
     },
     {
       "path": "knowledge/games/a-f/a-good-snowman-is-hard-to-build.md",
@@ -1177,6 +1222,11 @@
       "path": "knowledge/games/a-f/age-of-empires-ii-definitive-edition.md",
       "sha256": "7d1a0918db3fa6e7e02fe3afe2c3186fadf16241c877c5452cb5d4b6513513e8",
       "bytes": 26374
+    },
+    {
+      "path": "knowledge/games/a-f/aion-classic.md",
+      "sha256": "f41e7b49256ca9831a24a9646b1b66134777725f19b14016203961eff27163e5",
+      "bytes": 21391
     },
     {
       "path": "knowledge/games/a-f/angry-birds-classic.md",
@@ -1229,6 +1279,11 @@
       "bytes": 20483
     },
     {
+      "path": "knowledge/games/a-f/battlefield-v.md",
+      "sha256": "9ccb064743fdade23ab06cfb48fa0ad87c49ad1a6db20fcfabf304db05ca864e",
+      "bytes": 25009
+    },
+    {
       "path": "knowledge/games/a-f/beamng-drive.md",
       "sha256": "2affef28ad0ca986cb9663dd9b56459ebf5b8acfdfbc7df280bb877015485a22",
       "bytes": 25289
@@ -1267,6 +1322,11 @@
       "path": "knowledge/games/a-f/bridges.md",
       "sha256": "b239401241b6dacda70e95abdf5ec7115716ce1b31da90f5e2719cbe6135435c",
       "bytes": 14688
+    },
+    {
+      "path": "knowledge/games/a-f/call-of-juarez-gunslinger.md",
+      "sha256": "a20553d3643670d9a642b29c565e1ed67f481e1f09add80736b22555a5d44674",
+      "bytes": 27117
     },
     {
       "path": "knowledge/games/a-f/can-of-wormholes.md",
@@ -1327,6 +1387,11 @@
       "path": "knowledge/games/a-f/counter-strike-2.md",
       "sha256": "0a3e0425d92bc86f7f45760dcac1944a3a2071e0a589f820a101cc4bb51a7d5a",
       "bytes": 16924
+    },
+    {
+      "path": "knowledge/games/a-f/counter-strike.md",
+      "sha256": "04860ef67017cd98e697de2a270f02a6f030c5167f8a31b7088b3d7dada8a24c",
+      "bytes": 21780
     },
     {
       "path": "knowledge/games/a-f/crusader-kings-iii.md",
@@ -1629,6 +1694,11 @@
       "bytes": 15660
     },
     {
+      "path": "knowledge/games/g-l/lineage-ii.md",
+      "sha256": "b919e8411a3dd187db6fb67f21830ec6167bef1bf8d007d83f5b214539377f8c",
+      "bytes": 20262
+    },
+    {
       "path": "knowledge/games/g-l/loop-hero.md",
       "sha256": "119a3ba5138a5650d2b1fd3c24b2938d3931045434208d974de91e66c5de3f1c",
       "bytes": 20772
@@ -1645,8 +1715,8 @@
     },
     {
       "path": "knowledge/games/index-metadata.json",
-      "sha256": "53c96aba441d2a3d538c23ad13636587d1c333f376e9d8372b5181fe8f6be7e8",
-      "bytes": 18876
+      "sha256": "e8c33e70c50a0e1815a41fbb50710377027295ffa39ab6759200a65e8589dee1",
+      "bytes": 20050
     },
     {
       "path": "knowledge/games/m-r/machinarium.md",
@@ -1754,6 +1824,11 @@
       "bytes": 23249
     },
     {
+      "path": "knowledge/games/m-r/need-for-speed-underground.md",
+      "sha256": "dc478681fc7cca738a59eb712108e475fba62eb7c89aa91f6e71a9201e619b2c",
+      "bytes": 22387
+    },
+    {
       "path": "knowledge/games/m-r/net.md",
       "sha256": "89ed13b7f88d93a1be404bdd83358c95b1d3ef0ad27b3527c2fe459377d238cb",
       "bytes": 15472
@@ -1767,6 +1842,11 @@
       "path": "knowledge/games/m-r/nonogram.md",
       "sha256": "5ee247a4868fc06a59db920e28842da7d6a73de5ba7856661ba2b6736a478def",
       "bytes": 16077
+    },
+    {
+      "path": "knowledge/games/m-r/once-human.md",
+      "sha256": "ea8a533b3b932499de47f9c819a75852ed455a39f28cc46e01da159e9ce6c1ba",
+      "bytes": 20346
     },
     {
       "path": "knowledge/games/m-r/oneshot.md",
@@ -2004,6 +2084,11 @@
       "bytes": 23722
     },
     {
+      "path": "knowledge/games/s-z/star-wars-squadrons.md",
+      "sha256": "7a48d05d155656304c719763a01d00128d937a0b78bcb35932d415bb6c52a5cc",
+      "bytes": 22747
+    },
+    {
       "path": "knowledge/games/s-z/stardew-valley.md",
       "sha256": "d1919647f240e5b9dc5723b6c63d2d585732b6bc67c1e7622df679bd645c507f",
       "bytes": 19841
@@ -2229,6 +2314,11 @@
       "bytes": 25800
     },
     {
+      "path": "knowledge/games/s-z/world-of-warcraft.md",
+      "sha256": "f528ac6525884ab6369b9886494d7e21de6af1431cd0054f95b46cb898962853",
+      "bytes": 23551
+    },
+    {
       "path": "knowledge/games/s-z/xcom-2.md",
       "sha256": "4ee1d7d3833408bdde7e4c102855794671291e7825254c3150e417d448d52e36",
       "bytes": 18239
@@ -2245,33 +2335,33 @@
     },
     {
       "path": "knowledge/genes/actions.md",
-      "sha256": "9d18afef4cdb8c324959ed5e34d685e08c081d752daab8e39bb3ef6b7d1472ce",
-      "bytes": 366917
+      "sha256": "1be4879af45325abc888a82046899edf8858cab15c01c5c07c267725023c54fc",
+      "bytes": 377461
     },
     {
       "path": "knowledge/genes/constraints.md",
-      "sha256": "9fcf9d420137667defb3de842171a72371667e88be975c21b5c5524806c7bb1e",
-      "bytes": 504096
+      "sha256": "0c817a5db3aa3d2a0d1c32f7e5eea33a7fe5a470f19d7533a4175656c79b001d",
+      "bytes": 511777
     },
     {
       "path": "knowledge/genes/information.md",
-      "sha256": "4f7ed6bbce6659850acbedb2d20fbb9c03418b2d6dda43616574dc917c9c02cf",
-      "bytes": 262460
+      "sha256": "e010296ea91e1dd4200f2e62972ef294fcaff0f8b5bc65419eea91d854344b70",
+      "bytes": 267353
     },
     {
       "path": "knowledge/genes/objectives.md",
-      "sha256": "333c88afe850e157a871cb01f5ba9152e77f17b3ff3e2213a5076e34d52be29f",
-      "bytes": 132130
+      "sha256": "cbf91a68ecfbd238be04506481d890f1c81ff8e8768fadc4ef11ad237c8715df",
+      "bytes": 140796
     },
     {
       "path": "knowledge/genes/system-behaviours.md",
-      "sha256": "6ae45bcfc7075be76542f51f206fdd8ae8761619c80f61ca8bac5213acc5eb27",
-      "bytes": 672140
+      "sha256": "3f48a6875e90bc19d475cc25afd8292c80aa94607a3dbfa90e0c68da3cab73bd",
+      "bytes": 691423
     },
     {
       "path": "knowledge/genes/time.md",
-      "sha256": "ba6a8dd731280a244fcc498238b19eac0d04c31b75c87cb5486bf5a1d93e8043",
-      "bytes": 36522
+      "sha256": "3acdf03d7fe320075132286fed21b64bff2846f4e768b94c63b5a9ea44fc09ac",
+      "bytes": 36741
     },
     {
       "path": "knowledge/locales/uk/GAMES.md",
@@ -2285,18 +2375,18 @@
     },
     {
       "path": "knowledge/locales/uk/combinations.json",
-      "sha256": "e0f7b50f8962a935d4bec4aa9976b479f410989e1fbefb636db1a797cd82ee84",
-      "bytes": 289850
+      "sha256": "38821eae3cb10241372dbafb22c2eb8f2e0f2d41a34b748f2ddf08ba943a5a24",
+      "bytes": 302908
     },
     {
       "path": "knowledge/locales/uk/games.json",
-      "sha256": "d7ac493cda2d6b8e4f6e31dac72fa4645a8f1c4228fd431985cb35530521512a",
-      "bytes": 686904
+      "sha256": "a58c18c0f738230e3f7c78bba74e084cf7021a64a4e5c1ba62f652d07901eff6",
+      "bytes": 722871
     },
     {
       "path": "knowledge/locales/uk/genes.json",
-      "sha256": "8cdbcc968c1c7d2e63a0048759be2175549ac8b97a4254ac5bd5c18dec57aa35",
-      "bytes": 2065668
+      "sha256": "83143392336df88f87bead5923ab4ef355da06937291f736017cdb813e381648",
+      "bytes": 2105422
     },
     {
       "path": "knowledge/plain-language/README.md",
@@ -2305,8 +2395,8 @@
     },
     {
       "path": "knowledge/plain-language/pilot.json",
-      "sha256": "c789851b861e3a6fafc74831274c1f8c89c15a6a457f074075b82b948271f520",
-      "bytes": 3885532
+      "sha256": "5810b66bf994fdaa73d51fdb5bf4c0f087f6386659b546e622303072d73806e7",
+      "bytes": 4025395
     },
     {
       "path": "knowledge/presentation/README.md",
@@ -2315,8 +2405,8 @@
     },
     {
       "path": "knowledge/presentation/games.json",
-      "sha256": "823b586ddb9c93106ee99a44299d708567660eacac38c033c82b323fec4a6830",
-      "bytes": 572754
+      "sha256": "a2d58ec54cfededd72b58b34a1554707b38b4d4ed899b98d8aff3c3c517ff131",
+      "bytes": 600053
     },
     {
       "path": "knowledge/salience/README.md",
@@ -2325,8 +2415,8 @@
     },
     {
       "path": "knowledge/salience/pilot.json",
-      "sha256": "cb3f6d92cf00e187c3649ad71d16cc8e49375633225f4324eceda3da2203d81f",
-      "bytes": 259879
+      "sha256": "8a32bdbb8cb59e54626419932bb4255cd000b725172a79419d8a331d1a537ea8",
+      "bytes": 270308
     },
     {
       "path": "research/negative-results/NEGATIVE_RESULT_002.md",
@@ -2649,5 +2739,5 @@
       "bytes": 1195
     }
   ],
-  "payloadSha256": "de308f5d1551326f5caff0ae597c224d63dadf86222ef966909b2c183df205e7"
+  "payloadSha256": "384b03dddb4e9b3f72fae3a104c56c6267b2b9e3277b4341e9be4972df1f4c3c"
 }

@@ -2549,3 +2549,162 @@
   mission terminal, this exact positive boundary ends at one official map's
   retained result plus a fixed medal class while a no-medal valid finish still
   counts as completion.
+
+## OBJ-134 — Win and retain the opening Underground Circuit
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete both ordered laps of the opening `Jose's Got Your Back`
+  Circuit, cross the valid finish in first place, receive the selected Easy
+  Bank reward and reach retained Race 1 completion in Underground Mode.
+- Includes: the stock Honda Civic Si packet for Need for Speed Underground
+  Race 1 at Olympic Square, Easy, automatic transmission and `375` Bank.
+- Excludes: merely finishing below first; winning the introductory loan-car
+  race; earning style points; buying an upgrade; another event or the full
+  career; an Underground 2 result.
+- Parameters: event, route, lap count, rivals, finish place, difficulty,
+  reward, completion flag, career state and returned control.
+- Evidence: [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
+- Novelty: first isolated for `GAME-0217`; the exact terminal is one ordinary
+  opening street-Circuit victory whose disclosed Bank reward and first career
+  completion persist without a later pursuit, garage gate or Festival chain.
+
+## OBJ-135 — Reach stock map-time settlement with the team-round score
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: complete the ordinary server packet when its shipped finite map
+  time invokes the map-cycle boundary and evaluate the retained team-round
+  score as one side's lead or a tie.
+- Includes: Counter-Strike 1.6 on stock `de_dust2` with the shipped dedicated
+  `mp_timelimit 20`, no win/max-round limit and its final T/CT round score.
+- Excludes: winning a fixed regulation match by a clinching round threshold;
+  personal kill score; an invented tournament configuration; an unbounded
+  community server session; a tie-breaking overtime not present in the packet.
+- Parameters: map, time limit, teams, round scores, cycle trigger, lead/tie
+  classification and result visibility.
+- Evidence: [Counter-Strike decomposition](../games/a-f/counter-strike.md).
+- Novelty: first isolated for `GAME-0218`; unlike `OBJ-071`, this terminal is
+  the current package's time-driven map cycle, not a fixed round regulation,
+  halftime, clinch or overtime policy.
+
+## OBJ-136 — Complete the first class quest and retain Warrior
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete `Path of Destiny - Beginning`, reach level 20, confirm
+  Warrior and regain control with the quest and first class transfer retained
+  on the same fixed Lineage II Live server character.
+- Includes: the fresh Human Fighter-to-Warrior Chronos packet.
+- Excludes: reaching level 20 without transfer; another destination class; a
+  later transfer; completing all levelling or the whole MMO history.
+- Parameters: server, character, quest, level threshold, selected first class,
+  completion flag and returned controllable state.
+- Evidence: [Lineage II decomposition](../games/g-l/lineage-ii.md).
+- Novelty: first isolated for `GAME-0219`; the terminal requires both authored
+  quest settlement and the resulting retained class identity.
+
+## OBJ-137 — Complete Exile's Reach and retain the Dragon Isles hand-in
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete the full current Alliance Exile's Reach main chain and
+  Darkmaul Citadel, reach the Dragon Isles docks and hand `An End to Beginnings`
+  to Kalecgos with the same fresh Human Warrior's level, abilities, quest state
+  and equipment retained.
+- Includes: the current US Retail `12.1.0.69587` full-tutorial packet without
+  Housing Skip.
+- Excludes: reaching level 10 alone; skipping the island; defeating only the
+  first dungeon boss; arriving at the docks without hand-in; subsequent
+  Dragonflight quests or the complete live service.
+- Parameters: branch, faction, race, class, required quests, dungeon bosses,
+  destination, final quest, recipient, completion flag and retained state.
+- Evidence: [World of Warcraft decomposition](../games/s-z/world-of-warcraft.md).
+- Novelty: first isolated for `GAME-0221`; an assisted fresh-character
+  tutorial dungeon is only the penultimate gate before a current cross-region
+  quest hand-in writes the persistent terminal.
+
+## OBJ-138 — Complete the corrected first Gunslinger episode
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: survive the ordered first Story episode, resolve its apparent
+  stable duel, continue through the compulsory narrator correction and enter
+  the stable again so the corrected recognition scene settles episode
+  completion.
+- Includes: `Once Upon a Time in Stinking Springs` on Normal from clean Story
+  entry through the second stable entry after `Get the horses... this time for
+  real`.
+- Excludes: the first apparent duel win; farmhouse clearance; a combo target;
+  every later episode; whole-Story completion; Arcade or Duel mode result.
+- Parameters: episode, difficulty, ordered gates, apparent outcome, correction,
+  replacement objective, repeated stable entry and completion transition.
+- Evidence: [Call of Juarez: Gunslinger decomposition](../games/a-f/call-of-juarez-gunslinger.md).
+- Novelty: first isolated for `GAME-0222`; success explicitly requires playing
+  beyond a revoked outcome into the narrator's mechanically corrected account.
+
+## OBJ-139 — Clear, claim and close one Aion Classic tutorial
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: in the character's only admitted tutorial run, complete all three
+  typed defeat counts, claim every spawned Mystic Cube and both objective reward
+  boxes, then leave through the Daeva of Time and retain the rewards outside.
+- Includes: 20 Invading Balaurs, five Special Forces, Fiery Rantak, Roaring
+  Dahakar and Abyssal Karmatan in `Boundary of Light and Darkness`.
+- Excludes: leaving early; one complete counter; an unclaimed cube or reward
+  box; later open-world progression; repeating on another character.
+- Parameters: three target classes, required counts, three cubes, two reward
+  boxes, exit actor, retained items and closed tutorial flag.
+- Evidence: [Aion Classic decomposition](../games/a-f/aion-classic.md).
+- Novelty: first isolated for `GAME-0223`; success joins typed combat quotas and
+  a complete reward envelope before an irreversible personal exit.
+
+## OBJ-140 — Complete onboarding and stop at scenario selection
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: complete the current mandatory new-player experience on the
+  fixed fresh account, retain its `Distant Memory` grant and regain control at
+  the scenario/server selection surface without entering a scenario.
+- Includes: one new Once Human Meta-Human completing the Version `3.0.4`
+  pre-scenario tutorial packet.
+- Excludes: partial instruction completion; veteran skip; the veteran mail
+  route; selecting Manibus; wilderness entry; one Monolith; full service play.
+- Parameters: account branch, character, tutorial predicates, completion flag,
+  retained grant, selection surface and excluded scenario entry.
+- Evidence: [Once Human decomposition](../games/m-r/once-human.md).
+- Novelty: first isolated for `GAME-0224`; the exact success state is authority
+  to choose a later world ruleset, not entry into or completion of that world.
+
+## OBJ-141 — Complete Form the Vanguard and retain its mission medal
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: satisfy every required authored objective in the fixed first
+  Rebel story mission, destroy its final required Imperial formation, reach the
+  debrief and retain the unconditional `Mission Complete` medal.
+- Includes: one Pilot-difficulty run of `Form the Vanguard` in the fixed X-wing.
+- Excludes: optional performance medals; Mission 2; campaign completion;
+  multiplayer victory; replay optimisation; cosmetic or rank rewards.
+- Parameters: mission, ordered objectives, final formation, completion state,
+  debrief, mission-complete medal, retained record and optional medals.
+- Evidence: [STAR WARS: Squadrons decomposition](../games/s-z/star-wars-squadrons.md).
+- Novelty: first isolated for `GAME-0225`; success is one bounded authored
+  cockpit mission and its guaranteed retained medal, not the wider campaign.

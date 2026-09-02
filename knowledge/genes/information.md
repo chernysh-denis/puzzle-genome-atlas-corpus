@@ -3810,14 +3810,16 @@
   driving line in the scoped opening; Need for Speed Unbound speed, gear and
   `Shopping Spree` route cues; Need for Speed Payback speed, gear, minimap and
   Highway Heist route cues; Trackmania `Summer 2026 - 01` speed, gear and
-  authored road/waypoint guidance.
+  authored road/waypoint guidance; Need for Speed Underground's opening
+  Circuit speed, gear, road shape and route arrows.
 - Excludes: event eligibility before entry; hidden future traffic; post-event
   settlement.
 - Parameters: speed, gear, route, minimap, driving line, braking cue, waypoint
   and camera.
 - Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md) and
   [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md),
-  and [Trackmania decomposition](../games/s-z/trackmania.md).
+  [Trackmania decomposition](../games/s-z/trackmania.md), and
+  [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
 - Novelty: first isolated for `GAME-0171`; cargo-driving widgets join speed to
   fuel, rest and damage rather than a race-oriented guidance layer.
 
@@ -3833,13 +3835,16 @@
 - Includes: Forza Horizon 6 Festival races and Time Attack in the scoped route,
   including configurable Proximity Radar; Need for Speed Unbound place,
   progress and seven-rival race surface; Trackmania `Summer 2026 - 01`
-  checkpoint/course progress, running time and fixed timed target without rivals.
+  checkpoint/course progress, running time and fixed timed target without
+  rivals; Need for Speed Underground's place, four-car field, lap, elapsed
+  time and nearby rivals in the opening Circuit.
 - Excludes: omniscient future rival paths; free-roam traffic with no event
   result; the final reward panel.
 - Parameters: position, participant count, lap, checkpoint, time, split,
   proximity direction, distance and audio cue.
-- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md)
-  and [Trackmania decomposition](../games/s-z/trackmania.md).
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md),
+  [Trackmania decomposition](../games/s-z/trackmania.md), and
+  [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
 - Novelty: first isolated for `GAME-0171`; prior opponent HUD genes do not join
   course progress to vehicle proximity and race position.
 
@@ -3855,13 +3860,15 @@
 - Includes: the six exposed Horizon Qualifiers and first Horizon Invitational;
   Need for Speed Unbound's A+ `Shopping Spree` class, `$0` buy-in, payout table,
   displayed reward and Heat gain; Need for Speed Payback's Story mission, Race
-  class and displayed `LV180` entry terms.
+  class and displayed `LV180` entry terms; Need for Speed Underground's Race 1
+  Circuit, Olympic Square, two-lap, difficulty and Bank terms.
 - Excludes: undiscovered optional content; live race position; post-completion
   Race Customizer options unavailable on first play.
 - Parameters: marker, location, event type, route, car theme, class, unlock,
   progress value and reward.
-- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md) and
-  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md),
+  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md),
+  and [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
 - Novelty: first isolated for `GAME-0171`; generic mission maps do not expose
   one driving event's course and car-entry contract.
 
@@ -3895,13 +3902,16 @@
   credits, experience, vehicles or campaign unlocks retained from that event.
 - Includes: Forza Horizon 6 Qualifier and first-Wristband settlement panels;
   Need for Speed Unbound's classified finish and post-pursuit garage result;
-  Need for Speed Payback's retained mission and Chapter 2 completion result.
+  Need for Speed Payback's retained mission and Chapter 2 completion result;
+  Need for Speed Underground's first-place result, credited Bank and retained
+  Race 1 completion.
 - Excludes: live HUD values before the finish; an unclaimed Playlist reward;
   hidden future Wheelspin outcomes.
 - Parameters: event, position, time, stars, points, credits, experience, vehicle
   and unlock.
-- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md) and
-  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md),
+  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md),
+  and [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
 - Novelty: first isolated for `GAME-0171`; delivery results expose contract
   damage and pay, not competitive driving performance and festival progress.
 
@@ -5115,3 +5125,79 @@
 - Novelty: first isolated for `GAME-0214`; the same visible law surface tells
   the player whether stopping can still settle the offence or whether evasion
   has become a terminal arrest risk.
+
+## INF-274 — Fortification outlines expose build and damage state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: local world outlines, geometry and progress feedback distinguish
+  an available authored Fortification locus from its building, completed,
+  damaged and destroyed states before the next toolbox or route decision.
+- Includes: Battlefield V Arras trench, sandbag, barrier and resupply-station
+  Fortification feedback.
+- Excludes: a complete remote structural map; cosmetic rubble; arbitrary
+  terrain with no build authority; hidden future damage.
+- Parameters: outline, type, progress, completion, material, damage, function,
+  tool prompt and local visibility.
+- Evidence: [Battlefield V decomposition](../games/a-f/battlefield-v.md).
+- Novelty: first isolated for `GAME-0220`; the missing structure's authored
+  silhouette itself discloses a live tactical construction opportunity.
+
+## INF-275 — Squad interface exposes Reinforcement budget and call state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the live squad surface exposes the shared Reinforcement-point
+  total, current leader, available typed calls, their costs and any selected
+  target or pending delivery sufficiently to choose an authorised spend.
+- Includes: Battlefield V squad Reinforcement menu and delivery feedback.
+- Excludes: private account currency; hidden enemy squad budget; future points
+  not yet earned; an automatic effect with no call decision.
+- Parameters: squad, leader, points, option, cost, availability, target,
+  confirmation, delivery state and recipients.
+- Evidence: [Battlefield V decomposition](../games/a-f/battlefield-v.md).
+- Novelty: first isolated for `GAME-0220`; one display separates collective
+  earning from role-gated spending and previews the currently legal live effect.
+
+## INF-276 — Gunslinger HUD exposes combo, special and duel preparation state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the first-person interface exposes the current rapid-kill combo
+  and experience feedback, Concentration readiness, and—during a duel—the
+  opponent-focus and draw-hand-speed values plus visible opponent draw cue,
+  without guaranteeing the next shot's hit.
+- Includes: the scoped first `Call of Juarez: Gunslinger` Story episode and its
+  Pat Garrett duel.
+- Excludes: hidden future enemy positions; an external walkthrough; audio as
+  the only draw evidence; Arcade leaderboard and Duel Challenge lives.
+- Parameters: combo count, continuation cue, award, experience, Concentration,
+  focus, speed, opponent hand, draw cue, aim state and result feedback.
+- Evidence: [Call of Juarez: Gunslinger decomposition](../games/a-f/call-of-juarez-gunslinger.md).
+- Novelty: first isolated for `GAME-0222`; one visible action-game surface joins
+  expiring reward pressure with the two independent preparations for a draw.
+
+## INF-277 — Cockpit exposes systems, target and incoming threats
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the first-person cockpit and enabled Standard instruments expose
+  current power distribution, shield facings, hull, auxiliary and
+  countermeasure readiness, selected-target state, lock progress, objective
+  direction and incoming-missile warning without revealing hidden future spawns.
+- Includes: the non-VR Standard-instruments presentation in Mission 1.
+- Excludes: an external walkthrough; hidden enemy plans; VR head position;
+  multiplayer squad telemetry; purely cinematic information.
+- Parameters: power channels, shields, hull, auxiliaries, countermeasure,
+  selected target, lock, objective marker, threat warning and result feedback.
+- Evidence: [STAR WARS: Squadrons decomposition](../games/s-z/star-wars-squadrons.md).
+- Novelty: first isolated for `GAME-0225`; one diegetic cockpit surface joins
+  flight resources, target solution and time-critical defence warnings.

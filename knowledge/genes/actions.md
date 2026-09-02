@@ -5449,7 +5449,9 @@
   Story starter through Need for Speed Unbound's `Shopping Spree` packet; and
   driving the fixed Mustang then authored Regera handoff through Need for Speed
   Payback's `The Highway Heist`; and steering, accelerating and braking the
-  dedicated CarSport vehicle on Trackmania `Summer 2026 - 01`.
+  dedicated CarSport vehicle on Trackmania `Summer 2026 - 01`; and steering,
+  accelerating, braking and handbraking the fixed stock starter through Need
+  for Speed Underground's opening Circuit.
 - Excludes: entering and exiting a persistent world vehicle; assigning an
   autonomous transport route; selecting which owned car will become active.
 - Parameters: vehicle, steering, throttle, brake, handbrake, transmission,
@@ -5458,7 +5460,8 @@
   [Rocket League decomposition](../games/m-r/rocket-league.md), and
   [War Thunder decomposition](../games/s-z/war-thunder.md), and
   [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md),
-  and [Trackmania decomposition](../games/s-z/trackmania.md).
+  [Trackmania decomposition](../games/s-z/trackmania.md), and
+  [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
 - Novelty: first isolated for `GAME-0171`; `ACT-201` requires an embodied
   enter/seat/exit loop that a dedicated racing-car assignment does not expose.
 
@@ -5492,13 +5495,15 @@
 - Includes: Forza Horizon 6 steering, braking, transmission, traction,
   stability, driving-line, Rewind and Drivatar difficulty settings; Need for
   Speed Unbound's Relaxed Story rival/police profile and automatic gearbox;
-  Need for Speed Payback's Easy opponent profile and automatic gearbox.
+  Need for Speed Payback's Easy opponent profile and automatic gearbox; Need
+  for Speed Underground's per-event Easy rivals and automatic transmission.
 - Excludes: changing only rendering quality; tuning a car's mechanical parts;
   selecting a different event or owned vehicle.
 - Parameters: steering, braking, transmission, traction, stability, driving
   line, Rewind, damage, game speed and opponent difficulty.
-- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md) and
-  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md),
+  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md),
+  and [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
 - Novelty: first isolated for `GAME-0171`; earlier difficulty parameters do not
   expose one coupled driving-control, guidance and autonomous-rival profile.
 
@@ -5513,13 +5518,15 @@
 - Includes: entering the scoped Trail, Circuit, Cross Country, Time Attack and
   Horizon Invitational events in Forza Horizon 6; committing Need for Speed
   Unbound's available Story `Shopping Spree` marker; committing Need for Speed
-  Payback's available `The Highway Heist` Story marker.
+  Payback's available `The Highway Heist` Story marker; committing Need for
+  Speed Underground's first available `Jose's Got Your Back` event.
 - Excludes: placing a navigation waypoint without starting the event; creating
   a custom route; selecting a multiplayer playlist.
 - Parameters: marker, event type, route, eligibility, solo field, result rule,
   reward and first-completion state.
-- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md) and
-  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md),
+  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md),
+  and [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
 - Novelty: first isolated for `GAME-0171`; earlier world-node selections launch
   expeditions or narrative tasks rather than one bounded driving ruleset.
 
@@ -7202,3 +7209,188 @@
 - Evidence: [It Takes Two decomposition](../games/g-l/it-takes-two.md).
 - Novelty: first isolated for `GAME-0215`; a permanent role tool owns typed
   traversal and boss-fixture impacts without becoming general melee combat.
+
+## ACT-387 — Confirm one eligible persistent first class transfer
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after a persistent character satisfies the declared first-class
+  prerequisites, the player selects one compatible destination class and
+  confirms the exclusive transfer for that character.
+- Includes: a level-20 Lineage II Live Human Fighter with completed `Path of
+  Destiny - Beginning` confirming Warrior on Chronos.
+- Excludes: choosing the starting race/class at creation; changing a temporary
+  team-spawn role; allocating a skill point; later paid class change.
+- Parameters: character, current class, level, quest flag, offered classes,
+  selected class, confirmation and reversibility.
+- Evidence: [Lineage II decomposition](../games/g-l/lineage-ii.md).
+- Novelty: first isolated for `GAME-0219`; an earned quest-and-level-gated
+  choice permanently replaces the starting class rather than configuring it.
+
+## ACT-388 — Build or repair one authored battlefield Fortification
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player addresses one visible authored construction outline,
+  equips the compatible field tool and sustains the build or repair interaction
+  until the outline becomes its declared usable defensive or supply structure.
+- Includes: a Battlefield V soldier using the toolbox to build or repair an
+  Arras trench, sandbag, barrier, tank stopper or resupply station.
+- Excludes: unrestricted free-form building; Siege wall reinforcement from
+  finite team stock; repairing a vehicle; destroying existing geometry.
+- Parameters: outline, structure type, tool, reach, progress, interruption,
+  repair state, completion and resulting world entity.
+- Evidence: [Battlefield V decomposition](../games/a-f/battlefield-v.md).
+- Novelty: first isolated for `GAME-0220`; a live combatant converts an
+  authored empty silhouette into route, cover or sustain state without
+  spending a carried construction inventory.
+
+## ACT-389 — Spend squad authority on one typed Reinforcement call
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the current squad leader selects one available Reinforcement,
+  chooses its required battlefield target and confirms expenditure of the
+  squad's shared earned points to request its delivery.
+- Includes: Battlefield V squad-leader calls for a supply drop, smoke barrage
+  or eligible strike after the squad earns sufficient requisition points.
+- Excludes: throwing a carried grenade; using an equipped personal gadget;
+  spending private account currency; an automatic scripted air strike.
+- Parameters: squad, leader, shared points, option, cost, target, confirmation,
+  delivery request and rejection.
+- Evidence: [Battlefield V decomposition](../games/a-f/battlefield-v.md).
+- Novelty: first isolated for `GAME-0220`; several players earn one live
+  tactical budget but only their current leader may commit its typed spend.
+
+## ACT-390 — Prepare focus and draw hand, then commit one duel draw
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: before a fixed-opponent firearm duel, the player concurrently
+  keeps one focus reticle on the opponent and one represented hand near the
+  holstered weapon, then commits the draw either before or in response to the
+  opponent's visible draw.
+- Includes: Silas preparing focus and hand speed against Pat Garrett in the
+  first `Call of Juarez: Gunslinger` Story duel.
+- Excludes: ordinary free aim with an already drawn weapon; selecting a fighter
+  before a versus match; one-button quick-time prompt; automatic cutscene draw.
+- Parameters: opponent, focus reticle, hand position, focus value, speed value,
+  opponent cue, draw input, draw order and post-draw control.
+- Evidence: [Call of Juarez: Gunslinger decomposition](../games/a-f/call-of-juarez-gunslinger.md).
+- Novelty: first isolated for `GAME-0222`; one live preparation state requires
+  two independently maintained pointing relations before a reaction-timed draw.
+
+## ACT-391 — Strike an upgradeable reward object before claiming it
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a bounded encounter spawns a non-hostile reward object, the
+  player aims ordinary attacks at that object to request changes to its reward
+  level before committing the separate interaction that claims it.
+- Includes: striking a Mystic Cube of Light and Darkness in Aion Classic before
+  interacting to receive its enhanced-equipment reward.
+- Excludes: attacking a hostile; opening an unchanged chest; damaging a fixture
+  to clear a route; spending currency on a deterministic upgrade.
+- Parameters: spawned object, attack, hit, current level, cap, interaction
+  readiness, claim and resulting reward.
+- Evidence: [Aion Classic decomposition](../games/a-f/aion-classic.md).
+- Novelty: first isolated for `GAME-0223`; the combat input prepares a
+  non-hostile reward source rather than dealing damage or opening it directly.
+
+## ACT-392 — Directly pilot a cockpit starfighter
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: continuously command a first-person starfighter's throttle,
+  pitch, yaw and roll to change its position and orientation through open
+  three-dimensional space while retaining direct cockpit control.
+- Includes: flying the fixed T-65B X-wing during `Form the Vanguard`.
+- Excludes: choosing a destination on a map; commanding an autonomous squad;
+  runway take-off; third-person ground driving; a non-interactive flight scene.
+- Parameters: craft, throttle, pitch, yaw, roll, position, orientation,
+  velocity, collision and control state.
+- Evidence: [STAR WARS: Squadrons decomposition](../games/s-z/star-wars-squadrons.md).
+- Novelty: first isolated for `GAME-0225`; continuous cockpit input directly
+  composes four flight controls in unrestricted three-dimensional space.
+
+## ACT-393 — Allocate starfighter power among three systems
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while flying, redirect one shared starfighter power allocation
+  among engines, laser weapons and shields, or restore the balanced allocation.
+- Includes: the X-wing power controls taught in `Form the Vanguard`.
+- Excludes: spending upgrade currency; selecting a permanent component;
+  transferring shield charge between facings; activating one cooldown ability.
+- Parameters: power budget, engines, lasers, shields, selected emphasis,
+  balanced state, overcharge state and resulting subsystem performance.
+- Evidence: [STAR WARS: Squadrons decomposition](../games/s-z/star-wars-squadrons.md).
+- Novelty: first isolated for `GAME-0225`; one reversible live allocation
+  changes three simultaneously relevant flight-combat subsystems.
+
+## ACT-394 — Focus charged shields toward one starfighter facing
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: transfer existing deflector charge toward the front or rear
+  facing of a shielded starfighter, or rebalance it, during direct flight.
+- Includes: focusing the X-wing's shields front or rear in `Form the Vanguard`.
+- Excludes: allocating reactor power to shields; rotating the craft to face an
+  attack; repairing hull; raising a single undirected temporary barrier.
+- Parameters: front charge, rear charge, total charge, selected facing,
+  balance command, transfer rate and incoming hit direction.
+- Evidence: [STAR WARS: Squadrons decomposition](../games/s-z/star-wars-squadrons.md).
+- Novelty: first isolated for `GAME-0225`; the player redistributes one live
+  defensive reserve between two spatially opposed damage interceptors.
+
+## ACT-395 — Deploy one ready starfighter countermeasure
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: respond to an incoming guided-missile warning by releasing one
+  available countermeasure charge at a chosen time to attempt to break the
+  threat's lock or interception path.
+- Includes: using Seeker Warheads from the fixed Mission 1 X-wing loadout.
+- Excludes: dodging by steering alone; firing a missile at a target; a passive
+  shield interception; changing the equipped countermeasure outside the mission.
+- Parameters: warning, incoming missile, timing window, countermeasure type,
+  ready state, finite charge, release and interception result.
+- Evidence: [STAR WARS: Squadrons decomposition](../games/s-z/star-wars-squadrons.md).
+- Novelty: first isolated for `GAME-0225`; a finite defensive projectile is
+  committed against a specifically signalled homing threat during direct flight.
+
+## ACT-396 — Request repair and resupply from an AI wingmate
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: issue the contextual single-player support request that directs
+  an AI wingmate to deliver a repair-and-resupply payload to the player's
+  current starfighter during the mission.
+- Includes: requesting support from Gunny's U-wing in `Form the Vanguard`.
+- Excludes: docking at a station; consuming a carried repair kit; a human
+  teammate choosing support independently; automatic regeneration.
+- Parameters: player craft, AI wingmate, request availability, delivery route,
+  payload, hull restoration, ordnance replenishment and completion feedback.
+- Evidence: [STAR WARS: Squadrons decomposition](../games/s-z/star-wars-squadrons.md).
+- Novelty: first isolated for `GAME-0225`; a direct contextual command invokes
+  mobile AI logistics without leaving the active starfighter encounter.

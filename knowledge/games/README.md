@@ -251,6 +251,15 @@ Index's short profile remains a game-specific navigation summary.
 - [`GAME-0214` — Mafia (2002)](m-r/mafia-2002.md)
 - [`GAME-0215` — It Takes Two](g-l/it-takes-two.md)
 - [`GAME-0216` — Trackmania](s-z/trackmania.md)
+- [`GAME-0217` — Need for Speed Underground](m-r/need-for-speed-underground.md)
+- [`GAME-0218` — Counter-Strike](a-f/counter-strike.md)
+- [`GAME-0219` — Lineage II](g-l/lineage-ii.md)
+- [`GAME-0220` — Battlefield V](a-f/battlefield-v.md)
+- [`GAME-0221` — World of Warcraft](s-z/world-of-warcraft.md)
+- [`GAME-0222` — Call of Juarez: Gunslinger](a-f/call-of-juarez-gunslinger.md)
+- [`GAME-0223` — Aion Classic](a-f/aion-classic.md)
+- [`GAME-0224` — Once Human](m-r/once-human.md)
+- [`GAME-0225` — STAR WARS: Squadrons](s-z/star-wars-squadrons.md)
 <!-- END GENERATED: COMPLETED_GAMES -->
 
 Use the [game-analysis template](../../templates/GAME_ANALYSIS_TEMPLATE.md) and

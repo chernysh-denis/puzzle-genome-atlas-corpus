@@ -156,7 +156,8 @@
       "GAME-0136",
       "GAME-0156",
       "GAME-0166",
-      "GAME-0173"
+      "GAME-0173",
+      "GAME-0220"
     ]
   },
   {
@@ -228,7 +229,10 @@
       "GAME-0211",
       "GAME-0212",
       "GAME-0215",
-      "GAME-0216"
+      "GAME-0216",
+      "GAME-0217",
+      "GAME-0220",
+      "GAME-0225"
     ]
   },
   {
@@ -340,11 +344,18 @@
       "GAME-0212",
       "GAME-0213",
       "GAME-0214",
-      "GAME-0216"
+      "GAME-0216",
+      "GAME-0217",
+      "GAME-0218",
+      "GAME-0220",
+      "GAME-0222",
+      "GAME-0223",
+      "GAME-0224",
+      "GAME-0225"
     ]
   },
   {
-  "id": "FAM-010",
+    "id": "FAM-010",
     "slug": "real-time-system-pressure",
     "labelEn": "Real-time system pressure",
     "labelUk": "Тиск системи в реальному часі",
@@ -451,7 +462,16 @@
       "GAME-0213",
       "GAME-0214",
       "GAME-0215",
-      "GAME-0216"
+      "GAME-0216",
+    "GAME-0217",
+    "GAME-0218",
+    "GAME-0219",
+    "GAME-0220",
+    "GAME-0221",
+    "GAME-0222",
+    "GAME-0223",
+    "GAME-0224",
+    "GAME-0225"
     ]
   },
   {
@@ -469,8 +489,9 @@
       "GAME-0105",
       "GAME-0116",
       "GAME-0123",
-    "GAME-0171",
-    "GAME-0173"
+      "GAME-0171",
+      "GAME-0173",
+      "GAME-0222"
     ]
   },
   {
@@ -504,7 +525,7 @@
     ]
   },
   {
-  "id": "FAM-013",
+    "id": "FAM-013",
     "slug": "inventory-and-fixture-dependencies",
     "labelEn": "Inventory and fixture dependencies",
     "labelUk": "Залежності інвентарю та стаціонарних пристроїв",
@@ -543,7 +564,10 @@
       "GAME-0202",
       "GAME-0203",
       "GAME-0205",
-      "GAME-0207"
+      "GAME-0207",
+      "GAME-0219",
+      "GAME-0221",
+      "GAME-0223"
     ]
   },
   {
@@ -584,7 +608,8 @@
       "GAME-0203",
       "GAME-0213",
       "GAME-0214",
-      "GAME-0215"
+      "GAME-0215",
+      "GAME-0220"
     ]
   },
   {
@@ -651,7 +676,10 @@
       "GAME-0204",
       "GAME-0209",
       "GAME-0211",
-      "GAME-0215"
+      "GAME-0215",
+      "GAME-0218",
+      "GAME-0220",
+      "GAME-0221"
     ]
   },
   {
@@ -672,7 +700,7 @@
     ]
   },
   {
-  "id": "FAM-017",
+    "id": "FAM-017",
     "slug": "ordered-dependency-sequencing",
     "labelEn": "Ordered dependency sequencing",
     "labelUk": "Упорядкована послідовність залежностей",
@@ -767,7 +795,13 @@
       "GAME-0212",
       "GAME-0213",
       "GAME-0214",
-      "GAME-0216"
+      "GAME-0216",
+      "GAME-0217",
+      "GAME-0221",
+      "GAME-0222",
+      "GAME-0223",
+      "GAME-0224",
+      "GAME-0225"
     ]
   }
 ]

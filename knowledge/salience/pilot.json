@@ -1,5 +1,5 @@
 {
-  "version": "GENE_SALIENCE_AND_PLAIN_LANGUAGE_EXPANSION_031",
+  "version": "GENE_SALIENCE_AND_PLAIN_LANGUAGE_EXPANSION_035",
   "roles": [
     "defining",
     "structural",
@@ -6211,6 +6211,78 @@
       "defining": ["SYS-711", "OBJ-133"],
       "structural": ["ACT-290", "SYS-320", "SYS-516", "SYS-628", "CON-438", "INF-205", "INF-251", "TIM-003"],
       "supporting": ["INF-204"]
+    },
+    "GAME-0217": {
+      "reviewed": "2026-09-01",
+      "noteEn": "The mandatory first-place opening-Circuit terminal defines the packet; event commitment, direct car control, rival competition, two ordered laps and retained Bank/career settlement structure it.",
+      "noteUk": "Цю межу визначає обов’язкова перемога в першому Circuit. Її структурують вибір події, безпосереднє керування автомобілем, змагання із суперниками, два впорядковані кола та збереження Bank і стану кар’єри.",
+      "defining": ["OBJ-134"],
+      "structural": ["ACT-290", "ACT-293", "SYS-320", "SYS-515", "SYS-516", "SYS-519", "CON-438", "INF-205", "INF-206", "INF-208", "TIM-003"],
+      "supporting": ["ACT-292", "INF-204"]
+    },
+    "GAME-0218": {
+      "reviewed": "2026-09-01",
+      "noteEn": "One-life bomb rounds, purchasable and transferable equipment, carried economy, partial team information and the stock map-time score terminal define this Counter-Strike packet; direct live combat and visible loadout state structure it.",
+      "noteUk": "Цю одиницю Counter-Strike визначають раунди з одним життям і бомбою, придбання та передавання спорядження, економіка між раундами, неповна командна інформація й штатний підсумок рахунку після завершення часу мапи. Її структурують безпосередній бій у реальному часі та видимий стан спорядження.",
+      "defining": ["ACT-130", "ACT-184", "ACT-185", "ACT-186", "ACT-187", "SYS-208", "SYS-292", "SYS-293", "SYS-294", "SYS-295", "CON-261", "CON-262", "CON-263", "CON-264", "CON-265", "CON-266", "INF-115", "INF-116", "INF-117", "OBJ-135"],
+      "structural": ["ACT-008", "ACT-161", "ACT-164", "ACT-183", "SYS-215", "SYS-222", "TIM-003"],
+      "supporting": ["INF-073"]
+    },
+    "GAME-0219": {
+      "reviewed": "2026-09-01",
+      "noteEn": "The quest-and-level gate, exclusive first class commitment, retained class transformation and exact Warrior terminal define the packet; direct combat, experience, quest order and visible character state structure it, while NPC dialogue, rewards and equipment information support execution.",
+      "noteUk": "Цю одиницю визначають спільна умова квесту й рівня, виключний вибір першого класу, збережене перетворення класу та точний фінал із Warrior. Її структурують безпосередній бій, досвід, порядок квесту й видимий стан персонажа, а виконанню допомагають розмови, нагороди та відомості про спорядження.",
+      "defining": ["ACT-387", "SYS-712", "CON-559", "OBJ-136"],
+      "structural": ["ACT-008", "ACT-161", "ACT-190", "SYS-215", "SYS-299", "SYS-379", "SYS-380", "CON-269", "CON-282", "INF-119", "INF-125", "TIM-003"],
+      "supporting": ["ACT-107", "ACT-199", "SYS-362", "CON-395", "INF-073", "INF-115", "INF-128"]
+    },
+    "GAME-0220": {
+      "reviewed": "2026-09-01",
+      "noteEn": "Authored Fortifications, partial-health and ammunition scarcity, shared squad points and leader-authorised Reinforcement calls define the packet; revival, deployment, point ownership and symmetric ticket attrition provide its Conquest structure, while ordinary combat, vehicles and destruction support execution.",
+      "noteUk": "Цю одиницю визначають задані укріплення, дефіцит здоров’я й набоїв, спільні очки загону та командирські виклики підкріплень. Її структурують оживлення, повторне розгортання, контроль точок і симетричне виснаження квитків, а звичайний бій, техніка та руйнування допомагають виконанню.",
+      "defining": ["ACT-388", "ACT-389", "SYS-713", "SYS-714", "SYS-715", "CON-560", "CON-561", "INF-274", "INF-275"],
+      "structural": ["ACT-008", "ACT-161", "ACT-183", "ACT-187", "ACT-190", "ACT-200", "ACT-240", "ACT-241", "SYS-215", "SYS-394", "SYS-395", "SYS-396", "CON-262", "CON-272", "CON-347", "CON-348", "INF-116", "INF-155", "OBJ-079", "TIM-003"],
+      "supporting": ["ACT-164", "ACT-184", "ACT-199", "ACT-201", "ACT-215", "SYS-208", "SYS-292", "SYS-320", "SYS-380", "SYS-382", "SYS-386", "CON-269", "CON-286", "CON-288", "CON-346", "INF-073", "INF-115", "INF-119"]
+    },
+    "GAME-0221": {
+      "reviewed": "2026-09-01",
+      "noteEn": "Variable-roster follower fill and the retained Dragon Isles hand-in define the packet; guided quest order, character growth, equipment and live combat provide its structural learning chain, while local and party information support execution.",
+      "noteUk": "Цю одиницю визначають автоматичне доповнення змінної групи супутниками та збережене здавання в Dragon Isles. Її навчальний ланцюг структурують порядок завдань, розвиток персонажа, спорядження й живий бій, а місцева та групова інформація допомагає виконанню.",
+      "defining": ["SYS-716", "CON-562", "OBJ-137"],
+      "structural": ["ACT-008", "ACT-107", "ACT-161", "ACT-190", "ACT-199", "ACT-341", "SYS-215", "SYS-299", "SYS-362", "SYS-379", "SYS-380", "CON-269", "CON-282", "CON-395", "INF-119", "INF-125", "INF-268", "TIM-003"],
+      "supporting": ["INF-073", "INF-115", "INF-128", "INF-153"]
+    },
+    "GAME-0222": {
+      "reviewed": "2026-09-02",
+      "noteEn": "Two-channel draw preparation, duel settlement, combo-scaled growth and compulsory narrator-authored state replacement define the packet; direct weapon combat, finite ammunition, checkpoints and ordered objectives structure it.",
+      "noteUk": "Цю одиницю визначають двоканальна підготовка вихоплення, розв'язання дуелі, розвиток від множника серії та обов'язкова заміна стану оповідачем. Її структурують безпосередній бій зі зброєю, скінченні набої, контрольні точки й заданий порядок цілей.",
+      "defining": ["ACT-390", "SYS-717", "SYS-718", "SYS-719", "INF-276", "OBJ-138"],
+      "structural": ["ACT-008", "ACT-161", "ACT-191", "ACT-229", "SYS-215", "SYS-299", "SYS-368", "CON-270", "CON-282", "INF-115", "INF-125", "TIM-003"],
+      "supporting": ["ACT-164", "ACT-183", "ACT-199", "SYS-348", "SYS-369", "CON-262", "CON-285", "INF-073", "INF-119"]
+    },
+    "GAME-0223": {
+      "reviewed": "2026-09-02",
+      "noteEn": "Attack-prepared Mystic Cubes, random all-skill cooldown resets and one-use exit define the packet; directed live combat, typed objectives and tutorial information structure it, while contextual claims and reward/equipment information support execution.",
+      "noteUk": "Цю одиницю визначають Mystic Cube, підготовлені ударами, випадкове скидання відновлення всіх умінь і одноразовий вихід. Її структурують керований живий бій, типізовані цілі й навчальна інформація, а контекстне отримання та відомості про нагороди й спорядження допомагають виконанню.",
+      "defining": ["ACT-391", "SYS-720", "SYS-721", "CON-563", "OBJ-139"],
+      "structural": ["ACT-008", "ACT-161", "ACT-190", "SYS-215", "SYS-380", "CON-269", "CON-282", "INF-115", "INF-119", "INF-125", "INF-268", "TIM-003"],
+      "supporting": ["ACT-341", "SYS-362", "INF-073", "INF-128"]
+    },
+    "GAME-0224": {
+      "reviewed": "2026-09-02",
+      "noteEn": "Account-history admission, tutorial-to-ruleset settlement and the exact scenario-selection terminal define the packet; staged movement, interaction, combat and tutorial information structure it, while the visible completion grant supports terminal verification.",
+      "noteUk": "Цю одиницю визначають допуск за історією акаунта, перехід від навчання до вибору правил і точний термінал на екрані сценаріїв. Її структурують поетапні рух, взаємодія, бій і навчальна інформація, а видима нагорода допомагає перевірити завершення.",
+      "defining": ["SYS-722", "CON-564", "OBJ-140"],
+      "structural": ["ACT-008", "ACT-161", "ACT-341", "SYS-215", "CON-282", "INF-115", "INF-119", "INF-125", "INF-268", "TIM-003"],
+      "supporting": ["INF-128"]
+    },
+    "GAME-0225": {
+      "reviewed": "2026-09-02",
+      "noteEn": "Direct cockpit flight, three-channel power allocation, directional shields, guided-threat counterplay, AI resupply and the retained Mission 1 medal define the packet; direct combat, authored gates and cockpit information structure it.",
+      "noteUk": "Цю одиницю визначають прямий політ із кабіни, розподіл енергії між трьома каналами, напрямлені щити, протидія керованим загрозам, поповнення від ШІ й збережена медаль першої місії. Її структурують безпосередній бій, задані етапи та відомості кабіни.",
+      "defining": ["ACT-392", "ACT-393", "ACT-394", "ACT-395", "ACT-396", "SYS-723", "SYS-724", "SYS-725", "SYS-726", "SYS-727", "SYS-728", "CON-565", "INF-277", "OBJ-141"],
+      "structural": ["SYS-215", "CON-269", "CON-282", "INF-125", "INF-268", "TIM-003"],
+      "supporting": ["ACT-161", "INF-115"]
     }
   }
 }
