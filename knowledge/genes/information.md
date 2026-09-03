@@ -4780,23 +4780,27 @@
 - Novelty: first isolated for `GAME-0199`; one live risk surface ties the
   earned acceleration resource to the pursuit that delays durable payout.
 
-## INF-256 — Heist cues expose concealment, objective and response phase
+## INF-256 — Heist cues expose objective, concealment and response phase
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the live heist view exposes casing or masked state, local
-  detection progress, alarm and police-assault phase, current objective text,
-  drill state, hostage and secured-loot consequences and escape availability
-  without revealing future layout samples or exact enemy arrivals.
+- Definition: the live heist view exposes current objective text and relevant
+  timers, casing or masked state when present, local detection or loud-response
+  phase, fixture and escort state, hostage and secured-loot consequences and
+  escape availability without revealing future layout samples or exact enemies.
 - Includes: PAYDAY 2 Bank Heist detection bars, objective/drill prompts, Police
-  Assault banner, custody/hostage cues, bag credit and escape marker.
+  Assault banner, custody/hostage cues, bag credit and escape marker; PAYDAY 3
+  Road Rage EMP deadline, route prompts, escort circle, drill, bag percentage
+  and escape marker.
 - Excludes: omniscient guard paths; exact future jam time; account progression
   menus; post-heist payout arithmetic.
-- Parameters: casing, detection, alarm, response phase, objective, drill timer,
-  jam, hostage, secured count, escape marker and hidden future state.
-- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md).
+- Parameters: objective, timer, casing, detection, alarm, response phase,
+  fixture, escort region, route stop, drill, hostage, secured count, escape
+  marker and hidden future state.
+- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md) and
+  [PAYDAY 3 decomposition](../games/m-r/payday-3.md).
 - Novelty: first isolated for `GAME-0201`; one mission interface spans the
   irreversible stealth boundary, interruptible machine work and transported
   objective terminal.
@@ -4816,6 +4820,8 @@
 - Parameters: success, contract value, secured bags, loot value, spending cash,
   offshore value, experience display and retained timestamp.
 - Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md).
+- Additional support: [PAYDAY 3 decomposition](../games/m-r/payday-3.md), for
+  successful Heist Results, secured rare-earth value and retained payout.
 - Novelty: first isolated for `GAME-0201`; the terminal separates transported
   value from the economic partitions retained after the mission closes.
 
@@ -5201,3 +5207,308 @@
 - Evidence: [STAR WARS: Squadrons decomposition](../games/s-z/star-wars-squadrons.md).
 - Novelty: first isolated for `GAME-0225`; one diegetic cockpit surface joins
   flight resources, target solution and time-critical defence warnings.
+
+## INF-278 — Shared-rule claim exposes modifier and claimant consequence
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: live match feedback identifies a claimed shared-rule modifier
+  and exposes the claimant's identity or location according to that modifier's
+  declared scope, without revealing every other participant.
+- Includes: Fortnite `v42.00` claimant name around an Override Console and map
+  broadcast for a claimed squad-scoped Override; in Solo, that squad is one
+  participant.
+- Excludes: an external code list; hidden future console effects; omniscient
+  opponent tracking; account profile statistics after the match.
+- Parameters: modifier, scope, claimant, name display, map marker, recipients,
+  duration, visibility range and removal.
+- Evidence: [Fortnite decomposition](../games/a-f/fortnite.md).
+- Novelty: first isolated for `GAME-0227`; changing a shared live rule creates
+  an explicit information cost tied to the participant who obtained authority.
+
+## INF-279 — Local survey exposes resource identity, bearing and distance
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a local survey interface exposes which eligible nearby resource
+  was revealed, its relative bearing and an approximate distance before the
+  player chooses a traversal line.
+- Includes: No Man's Sky Scanner markers inspected through the Analysis Visor
+  during the scoped Awakenings route.
+- Excludes: undiscovered planetary geography; an external resource map;
+  catalogue completion; one tracked authored mission destination.
+- Parameters: resource class, marker, bearing, approximate distance, survey
+  origin, visible duration and current visor state.
+- Evidence: [No Man's Sky decomposition](../games/m-r/no-mans-sky.md).
+- Novelty: first isolated for `GAME-0229`; temporary pulse-produced resource
+  bearings guide collection without exposing the wider generated world.
+
+## INF-280 — Weapon heat and active-cooling timing are visible
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the combat interface exposes the active weapon's current heat,
+  overheat state and authored active-cooling timing band before the player
+  decides whether to fire, wait or commit the timed input.
+- Includes: reticle heat gauge, overheat lock and active-cooling window in the
+  scoped STAR WARS Battlefront II (2017) campaign prologue.
+- Excludes: hidden thermal simulation; carried ammunition count; an ability
+  cooldown; external weapon statistics with no current readiness state.
+- Parameters: heat gauge, capacity, overheat cue, cooling cursor, success band,
+  penalty band, ready feedback and selected weapon.
+- Evidence: [STAR WARS Battlefront II (2017) decomposition](../games/s-z/star-wars-battlefront-ii-2017.md).
+- Novelty: first isolated for `GAME-0230`; the same live display supports burst
+  pacing and a timed alternative to passive recovery.
+
+## INF-281 — Initial attribute values and remaining budget are visible
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: before character confirmation, the creation interface exposes
+  every current named attribute value and the still-unspent portion of their
+  shared distributable point pool.
+- Includes: Fallout 4's S.P.E.C.I.A.L. allocation panel showing seven current
+  values and remaining points.
+- Excludes: hidden derived formulas; later perk charts; cosmetic sliders;
+  external build planners; a class list with no shared numeric budget.
+- Parameters: attribute labels, current values, minimum, maximum, total pool,
+  remaining points, invalid-state feedback and confirmation availability.
+- Evidence: [Fallout 4 decomposition](../games/a-f/fallout-4.md).
+- Novelty: first isolated for `GAME-0231`; the interface reveals the coupled
+  cross-attribute budget before campaign entry.
+
+## INF-282 — Challenge ledger exposes progress, claims and group readiness
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a tracked-challenge surface exposes each current requirement and
+  count, its incomplete, completed or redeemed state, the individual reward and
+  whether the encompassing group reward can now be claimed.
+- Includes: the current 7 Days to Die `Basics of Survival` challenge window.
+- Excludes: an external walkthrough; a one-at-a-time instruction that conceals
+  future requirements; hidden reward rolls; the later trader-job catalogue.
+- Parameters: group, entry, requirement, current count, target count,
+  completion state, redeem state, individual reward and group readiness.
+- Evidence: [7 Days to Die decomposition](../games/0-9/7-days-to-die.md).
+- Novelty: first isolated for `GAME-0233`; the player can distinguish completed
+  work from unclaimed value and inspect the remaining group-wide claim gate.
+
+## INF-283 — Live attachment surface exposes categories and current choices
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during live control, a bounded weapon surface reveals the
+  attachment categories supported by the held weapon, the current option and
+  the alternatives presently available before replacement is committed.
+- Includes: the Battlefield 2042 Plus Menu for sight, barrel, ammunition and
+  underbarrel choices.
+- Excludes: an external weapon guide; hidden future unlocks; armour durability;
+  the complete pre-deployment loadout.
+- Parameters: weapon, categories, current options, alternatives,
+  compatibility, selection focus and commit feedback.
+- Evidence: [Battlefield 2042 decomposition](../games/a-f/battlefield-2042.md).
+- Novelty: first isolated for `GAME-0234`; the immediate weapon mutation is
+  previewed without leaving the live combat state.
+
+## INF-284 — Support call surface exposes vehicle availability and placement legality
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a live support surface reveals the currently requestable vehicle
+  classes, availability or shared-capacity rejection, requester cooldown and
+  whether the selected world position can accept delivery.
+- Includes: the ordinary Battlefield 2042 call-in tablet and delivery target
+  feedback.
+- Excludes: the deployment map's existing vehicle seats; account unlock
+  progress; an external vehicle list; hidden enemy vehicle capacity.
+- Parameters: options, availability, shared capacity, cooldown, target cursor,
+  surface legality, confirmation and rejection.
+- Evidence: [Battlefield 2042 decomposition](../games/a-f/battlefield-2042.md).
+- Novelty: first isolated for `GAME-0234`; one interface joins shared asset
+  availability with a local spatial delivery check.
+
+## INF-285 — Objective display exposes point-to-sector control and ticket pressure
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the match interface exposes each relevant control point inside
+  its sector, local capture or contest state, complete sector ownership, both
+  reinforcement pools and the current majority-driven pressure before the
+  next strategic choice.
+- Includes: Battlefield 2042 Conquest point, sector and ticket feedback.
+- Excludes: omniscient enemy positions; personal score as the terminal state;
+  an external map; ordered Breakthrough-sector progress.
+- Parameters: point, sector, owner, contest, capture progress, majority,
+  reinforcement pools, drain state and result feedback.
+- Evidence: [Battlefield 2042 decomposition](../games/a-f/battlefield-2042.md).
+- Novelty: first isolated for `GAME-0234`; the display makes the two-level
+  territorial aggregation and its shared-resource consequence readable.
+
+## INF-286 — Campaign HUD exposes recovery stock and cumulative route rank
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during and between linked driving events, the interface exposes
+  the remaining checkpoint-recovery stock together with the current cumulative
+  route rank or pass target, making both local recovery risk and stage progress
+  readable before final settlement.
+- Includes: Checkpoint Resets, race objective and 211th-to-195th progress in the
+  scoped Need for Speed: The Run Stage 1 packet.
+- Excludes: speed and gear alone; a one-race live place without cumulative
+  progress; hidden recovery stock; external friend rankings or leaderboards.
+- Parameters: remaining recovery units, final-unit warning, current rank,
+  event pass target, stage target, progress update and settlement display.
+- Evidence: [Need for Speed: The Run decomposition](../games/m-r/need-for-speed-the-run.md).
+- Novelty: first isolated for `GAME-0235`; one surface connects a finite local
+  rollback budget to rank progress carried across several race results.
+
+## INF-287 — Recon view exposes actor marks and directional detection progress
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the live reconnaissance and combat interface distinguishes
+  deliberately marked living actors, their retained world or map positions and
+  the direction and progress of nearby hostile perception before or as full
+  detection occurs.
+- Includes: Far Cry 3 camera target markers, map symbols and directional
+  detection indicators in the scoped first-outpost mission.
+- Excludes: current sight alone; a complete omniscient enemy roster; a static
+  objective waypoint; hidden suspicion with no player-readable feedback.
+- Parameters: marked actor, type cue, world marker, map marker, observer
+  direction, suspicion progress, detected state, colour and display lifetime.
+- Evidence: [Far Cry 3 decomposition](../games/a-f/far-cry-3.md).
+- Novelty: first isolated for `GAME-0236`; acquired persistent target knowledge
+  and incoming local perception risk share one actionable tactical surface.
+
+## INF-288 — Manual-recipe surface exposes apparatus and process state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an embodied recipe surface exposes the known operation sequence,
+  staged inputs, current batch transformations, apparatus state and visible
+  timing instrument needed to choose the next manual step.
+- Includes: Kingdom Come: Deliverance II's recipe page, alchemy bench,
+  ingredients, grinder, heated cauldron, sandglass and output vessel.
+- Excludes: a technology graph; fixed crafting grid; external walkthrough;
+  hidden tolerances or future recipes.
+- Parameters: recipe, instruction, input, batch, preparation, apparatus, heat,
+  timer, vessel, output preview and feedback.
+- Evidence: [Kingdom Come: Deliverance II decomposition](../games/g-l/kingdom-come-deliverance-ii.md).
+- Novelty: first isolated for `GAME-0240`; recipe knowledge and live apparatus
+  state remain jointly visible during stepwise execution.
+
+## INF-289 — Broadcast court view identifies ball, control and local team shape
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a live broadcast-style court view keeps the shared ball, current
+  direct-control marker, baskets, relevant boundaries and nearby offensive and
+  defensive team shape readable before the next movement or ball action.
+- Includes: NBA 2K26's scoped Play Now court, players, ball and control marker.
+- Excludes: an external tactical board; omniscient future routes; broadcast
+  decoration alone; football-pitch presentation; hidden player attributes.
+- Parameters: camera, court region, ball, controlled actor, marker, teammates,
+  opponents, baskets, boundaries and occlusion.
+- Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
+- Novelty: first isolated for `GAME-0241`; readable team shape surrounds a ball
+  that alternates between carried and free states on a two-basket court.
+
+## INF-290 — Possession HUD exposes score, game clock and shot clock
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during live play, the interface jointly exposes both team scores,
+  current period, remaining match time, remaining possession time and current
+  adjudication feedback needed to choose pace, attempt and defensive risk.
+- Includes: NBA 2K26 scorebug, quarter/game clock, shot clock and foul or
+  violation feedback in the scoped exhibition.
+- Excludes: season standings; hidden opponent ratings; a score-only display;
+  an external stopwatch; currency or progression notices.
+- Parameters: sides, scores, period, game clock, shot clock, possession,
+  offence notice, free-throw state and update cadence.
+- Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
+- Novelty: first isolated for `GAME-0241`; shared match time and per-possession
+  time pressure remain simultaneously visible.
+
+## INF-291 — Final match surface exposes score and box-score settlement
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after one head-to-head match settles, a terminal surface exposes
+  the unequal final score, winning and losing sides and accumulated box-score
+  categories sufficient to verify that the contest is complete.
+- Includes: NBA 2K26's final Play Now result and team/player box score.
+- Excludes: an in-progress scoreboard; season standings; currency rewards;
+  account progression; a replay clip without result state.
+- Parameters: sides, final score, winner, loser, period totals, team statistics,
+  player statistics, completion state and dismissal.
+- Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
+- Novelty: first isolated for `GAME-0241`; the terminal joins result identity
+  with the accumulated event ledger of one disposable exhibition.
+
+## INF-292 — Assisted-driving view exposes live manoeuvre prompts and nitro
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during forced vehicle progression, the driving view identifies
+  the currently available assisted-path or manoeuvre choices together with the
+  current ordinary nitro state needed to select and time the next intervention.
+- Includes: TouchDrive route/manoeuvre offers and nitro gauge during the scoped
+  Asphalt Legends Career race.
+- Excludes: static route planning; a manual-steering direction indicator;
+  hidden future branches; post-race rewards; a boost gauge with no choices.
+- Parameters: vehicle, current path, offered options, availability interval,
+  selected state, nitro amount, timing cue and update cadence.
+- Evidence: [Asphalt Legends decomposition](../games/a-f/asphalt-legends.md).
+- Novelty: first isolated for `GAME-0242`; live discrete path authority is
+  readable alongside the resource that changes the assisted trajectory's pace.
+
+## INF-293 — Investigation interfaces expose classified targets and evaluated progress
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: scanner, mission and settlement surfaces expose acquired target
+  classifications, analysed evidence, custody outcomes, current investigative
+  score or rank and retained episode progress without revealing unexamined
+  future targets.
+- Includes: Battlefield Hardline scanner colours, evidence and warrant records,
+  Expert Score/Rank and Episode progress.
+- Excludes: an omniscient suspect roster; generic enemy health; an external
+  walkthrough; account rank unrelated to the bounded investigation.
+- Parameters: target, classification, evidence state, warrant state, custody
+  outcome, score, rank, episode progress, successor and display timing.
+- Evidence: [Battlefield Hardline decomposition](../games/a-f/battlefield-hardline.md).
+- Novelty: first isolated for `GAME-0243`; live forensic classification and
+  post-action custody/evidence evaluation share one bounded progress surface.

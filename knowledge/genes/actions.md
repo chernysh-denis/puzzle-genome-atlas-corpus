@@ -4115,15 +4115,15 @@
 - Evidence: [Rust decomposition](../games/m-r/rust.md).
 - Novelty: not assessed.
 
-## ACT-199 — Transfer and equip compatible world loot
+## ACT-199 — Transfer and equip one compatible carried item
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player selects reachable world loot and transfers it into a
-  compatible carried stack, weapon, attachment, protection or storage slot,
-  optionally replacing the currently equipped item.
+- Definition: the player selects one reachable or already carried item and
+  transfers it into a compatible stack, weapon, attachment, protection or
+  storage slot, optionally replacing the currently equipped item.
 - Includes: PUBG ground-loot interaction and inventory drag/equip actions for
   firearms, ammunition, attachments, armour, backpacks and consumables;
   Cyberpunk 2077 world-loot and inventory equipment transfers.
@@ -4136,6 +4136,8 @@
   [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
 - Additional support: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md),
   for collecting or replacing compatible weapons, ammunition and support items.
+- Additional support: [7 Days to Die decomposition](../games/0-9/7-days-to-die.md),
+  for equipping the personally crafted Primitive Outfit during onboarding.
 - Novelty: not assessed.
 
 ## ACT-200 — Use one interruptible restorative consumable
@@ -6693,12 +6695,14 @@
   dedicated carry state, moves or throws it through the world and deposits it
   inside a compatible secure region.
 - Includes: bagging a PAYDAY 2 Bank Heist cash bundle, carrying or throwing its
-  money bag and loading it into the escape van.
+  money bag and loading it into the escape van; bagging, relaying and securing
+  rare-earth payloads during PAYDAY 3 Road Rage.
 - Excludes: collecting loose instant cash; equipping a weapon; moving an
   unconstrained physics prop; the later payout calculation.
 - Parameters: loot source, bag identity, carrier, carry state, movement
   modifier, throw impulse, world position, secure region and credited state.
-- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md).
+- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md) and
+  [PAYDAY 3 decomposition](../games/m-r/payday-3.md).
 - Novelty: first isolated for `GAME-0201`; an objective object alternates
   between exclusive embodied carriage and recoverable world trajectory before
   a spatial deposit makes its value count.
@@ -7394,3 +7398,415 @@
 - Evidence: [STAR WARS: Squadrons decomposition](../games/s-z/star-wars-squadrons.md).
 - Novelty: first isolated for `GAME-0225`; a direct contextual command invokes
   mobile AI logistics without leaving the active starfighter encounter.
+
+## ACT-397 — Activate one reachable shared-rule console
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: interact with one reachable live-match console to claim the
+  currently exposed typed modifier for its declared participant scope.
+- Includes: claiming an Override Console in Fortnite `v42.00` Zero Build Solo.
+- Excludes: entering a Lobby Hack before matchmaking; configuring private
+  server rules; collecting a passive item; purchasing an account upgrade.
+- Parameters: console, reach, availability, modifier, claimant, interaction
+  duration, participant scope and completion.
+- Evidence: [Fortnite decomposition](../games/a-f/fortnite.md).
+- Novelty: first isolated for `GAME-0227`; one contested world fixture grants
+  authority to change the continuing shared match rather than only local
+  inventory, route or objective state.
+
+## ACT-398 — Pass one carried cooperative tool to a reachable partner
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the current carrier commits a direct handoff of one carried
+  objective tool to an eligible independently controlled partner within the
+  authored transfer relation.
+- Includes: Leo passing the Cell Breach chisel to Vincent after completing his
+  own opening in A Way Out.
+- Excludes: dropping generic loot for anyone; duplicating an item; remotely
+  changing another inventory; recalling a personally owned reusable tool.
+- Parameters: tool, current carrier, receiver, reach or adjacency relation,
+  acceptance input, transfer animation and resulting ownership.
+- Evidence: [A Way Out decomposition](../games/a-f/a-way-out.md).
+- Novelty: first isolated for `GAME-0228`; an explicit partner-to-partner pass
+  reassigns one unique objective tool between two persistent human-owned roles.
+
+## ACT-399 — Supply one addressed technology slot with a compatible input
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects one damaged or chargeable technology slot and
+  supplies a compatible carried material or component to advance its repair or
+  usable charge state.
+- Includes: filling a taught Scanner, Analysis Visor, Mining Beam, Pulse Engine,
+  Launch Thruster, hazard-protection or life-support requirement in the scoped
+  No Man's Sky opening.
+- Excludes: crafting the supplied item; repairing a building block; applying a
+  consumable to avatar health; installing an optional undamaged upgrade.
+- Parameters: technology, slot, damaged state, charge state, compatible input,
+  required quantity, supplied quantity and resulting progress.
+- Evidence: [No Man's Sky decomposition](../games/m-r/no-mans-sky.md).
+- Novelty: first isolated for `GAME-0229`; repair and recharge are addressed
+  inventory commitments to one technology state rather than generic item use.
+
+## ACT-400 — Trigger one rechargeable local survey pulse
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player activates a functional local survey device to emit one
+  bounded pulse that requests disclosure of eligible nearby world resources.
+- Includes: triggering the repaired Exosuit Scanner during the scoped No Man's
+  Sky tutorial.
+- Excludes: holding an analysis tool on one target; uploading a quickhack;
+  selecting a map sector for remote scanning; passive always-visible markers.
+- Parameters: device, input, origin, radius, eligible target classes, recharge
+  interval and disclosed duration.
+- Evidence: [No Man's Sky decomposition](../games/m-r/no-mans-sky.md).
+- Novelty: first isolated for `GAME-0229`; one cooldown-gated pulse changes the
+  local information set without selecting an individual target.
+
+## ACT-401 — Allocate a fixed initial character-attribute budget
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: before campaign entry, change values across named mechanical
+  character attributes and commit a profile whose increases draw from one
+  fixed distributable point pool.
+- Includes: allocating Fallout 4's initial S.P.E.C.I.A.L. points and confirming
+  the resulting starting character profile.
+- Excludes: cosmetic appearance; selecting a lifepath, ancestry, class or
+  background; spending a later level or perk point; equipment assignment.
+- Parameters: attribute set, base values, distributable pool, selected values,
+  remaining points, confirmation and reset availability.
+- Evidence: [Fallout 4 decomposition](../games/a-f/fallout-4.md).
+- Novelty: first isolated for `GAME-0231`; one shared numeric pool is committed
+  across starting attributes without requiring class or narrative identity.
+
+## ACT-402 — Redeem one completed tracked challenge reward
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after a visible tracked challenge has recorded its completion,
+  the player selects that completed entry and commits a separate claim action
+  that credits its declared reward and marks the entry redeemed.
+- Includes: redeeming each green `Basics of Survival` entry during the scoped
+  7 Days to Die onboarding packet.
+- Excludes: satisfying the challenge predicate itself; automatic quest payout;
+  choosing among several mutually exclusive reward items; claiming an
+  achievement outside the current world.
+- Parameters: challenge, completion flag, selected entry, redeem action,
+  reward, credited state and redeemed flag.
+- Evidence: [7 Days to Die decomposition](../games/0-9/7-days-to-die.md).
+- Novelty: first isolated for `GAME-0233`; task completion and reward receipt
+  are two independently visible and player-committed state transitions.
+
+## ACT-403 — Swap one available compatible weapon attachment during live control
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while retaining control of the current combatant, the player
+  opens a bounded attachment surface, selects one available option for one
+  compatible category on the held weapon and commits the replacement without
+  returning to a deployment or preparation state.
+- Includes: a Battlefield 2042 Plus Menu swap among an available sight,
+  barrel, ammunition or underbarrel option on the current weapon.
+- Excludes: configuring the next-life loadout; switching the held weapon;
+  looting an attachment from the world; a cosmetic weapon skin.
+- Parameters: weapon, category, current option, available options,
+  compatibility, input, commit timing and resulting attachment.
+- Evidence: [Battlefield 2042 decomposition](../games/a-f/battlefield-2042.md).
+- Novelty: first isolated for `GAME-0234`; the equipment mutation occurs
+  inside uninterrupted live control rather than at a loadout boundary.
+
+## ACT-404 — Request one available support vehicle at a legal world position
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during live control, the player selects one currently available
+  support vehicle from a shared call surface, chooses a legal delivery
+  position in the world and confirms the request.
+- Includes: a Battlefield 2042 ground-vehicle request through the call-in
+  tablet at a valid nearby delivery position.
+- Excludes: spawning directly into a vehicle from the deployment map; earning
+  or spending account currency; a squad-leader strike; entering the delivered
+  vehicle after it arrives.
+- Parameters: support class, vehicle, availability, requester, target pose,
+  shared capacity, confirmation and rejection.
+- Evidence: [Battlefield 2042 decomposition](../games/a-f/battlefield-2042.md).
+- Novelty: first isolated for `GAME-0234`; any eligible live combatant can
+  place a shared-capacity vehicle delivery without a private purchase or
+  squad-leader point spend.
+
+## ACT-405 — Mark one visible actor through an optical device
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while using an optical observation device, the player holds its
+  focus on one visible eligible living actor long enough to request a retained
+  tactical mark bound to that actor.
+- Includes: tagging one pirate or guard dog with the camera during Far Cry 3's
+  scoped first-outpost mission.
+- Excludes: merely seeing an actor; placing a free map pin; an automatic team
+  spot; scanning terrain resources rather than one living actor.
+- Parameters: device, observer, target class, visibility, focus duration,
+  accepted mark and invalidation state.
+- Evidence: [Far Cry 3 decomposition](../games/a-f/far-cry-3.md).
+- Novelty: first isolated for `GAME-0236`; deliberate optical observation
+  creates persistent actor-bound tactical information before engagement.
+
+## ACT-406 — Throw one inert diversion toward a reachable world point
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player chooses a reachable world direction or landing point
+  and throws one non-damaging object whose intended rule effect is to create a
+  perceivable stimulus rather than to injure a target.
+- Includes: throwing a rock to redirect an eligible pirate during Far Cry 3's
+  scoped first-outpost mission.
+- Excludes: throwing a damaging grenade; firing a weapon; placing a map marker;
+  a scripted sound that the player does not position.
+- Parameters: object, origin, aim, trajectory, landing point, stimulus radius,
+  eligible observer and reuse rule.
+- Evidence: [Far Cry 3 decomposition](../games/a-f/far-cry-3.md).
+- Novelty: first isolated for `GAME-0236`; the committed spatial object is an
+  explicit non-damaging input to hostile perception and route choice.
+
+## ACT-407 — Consume a carried restorative without suspending live control
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while the controlled combatant remains in live movement and
+  attack state, the player consumes one unit from a bounded carried
+  restorative stock to request its delayed recovery rather than entering an
+  interruptible treatment channel.
+- Includes: using one painkiller during Max Payne (2001)'s scoped Roscoe Street
+  Station chapter while movement, aiming and hostile action remain available.
+- Excludes: an uninterrupted timed bandage or syringe cast; passive health
+  regeneration; a turn-based item whose full effect resolves atomically; using
+  a restorative on another actor.
+- Parameters: item, carried stock, target health state, input, immediate action
+  availability, recovery request and consumed quantity.
+- Evidence: [Max Payne (2001) decomposition](../games/m-r/max-payne-2001.md).
+- Novelty: first isolated for `GAME-0238`; the item is committed instantly
+  without pausing embodied combat, while its health effect remains a separate
+  time-extended system transition.
+
+## ACT-408 — Toggle a reachable allied actor between follow and wait
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player addresses one reachable eligible allied world actor
+  and commits a contextual command that changes that actor from local waiting
+  to following the controlled avatar, or from following back to waiting.
+- Includes: using a scientist or security guard to begin or stop following
+  during Half-Life (1998)'s scoped `Unforeseen Consequences` chapter.
+- Excludes: deploying an owned companion from inventory; issuing a destination
+  or attack-move order; selecting a dialogue response; directly steering the
+  allied body; a scripted escort that cannot be toggled.
+- Parameters: actor, disposition, reach, current relation, accepted command,
+  follow target, wait state, refusal and feedback.
+- Evidence: [Half-Life (1998) decomposition](../games/g-l/half-life-1998.md).
+- Novelty: first isolated for `GAME-0239`; a contextual world-actor command
+  reversibly changes only the follow relation without a roster, deployment or
+  explicit destination.
+
+## ACT-409 — Toggle a personal portable illumination device
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during embodied control, the player toggles one carried personal
+  illumination device between an active local light field and an inactive
+  state without replacing ordinary movement or weapon authority.
+- Includes: switching the HEV flashlight on and off during Half-Life (1998)'s
+  scoped `Unforeseen Consequences` route.
+- Excludes: placing a world torch; fuelling a campfire; selecting a cosmetic
+  lighting option; firing a weapon-mounted flash; night vision with no local
+  illumination field; a disposable flare throw.
+- Parameters: device, current toggle state, input, personal carrier, light
+  field, concurrent action authority and rejection state.
+- Evidence: [Half-Life (1998) decomposition](../games/g-l/half-life-1998.md).
+- Novelty: first isolated for `GAME-0239`; portable illumination is a reversible
+  live command distinct from placing or fuelling a persistent world light.
+
+## ACT-410 — Perform one embodied manual-recipe workstation step
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: at a reachable manual workstation, the player selects and
+  directly operates one compatible recipe component or control, changing the
+  retained in-progress batch rather than committing the whole recipe at once.
+- Includes: adding a base or ingredient, controlling heat, operating a visible
+  timer, grinding an ingredient and transferring a batch into an output vessel
+  during Kingdom Come: Deliverance II's scoped brew.
+- Excludes: selecting one known recipe for immediate or queued resolution;
+  arranging a crafting grid; autonomous production; decorative interaction.
+- Parameters: workstation, batch, component, control, ingredient, preparation,
+  order, heat state, interval, vessel, operation result and reversibility.
+- Evidence: [Kingdom Come: Deliverance II decomposition](../games/g-l/kingdom-come-deliverance-ii.md).
+- Novelty: first isolated for `GAME-0240`; every embodied apparatus operation
+  writes a separately inspectable recipe history before evaluation.
+
+## ACT-411 — Commit one head-to-head team and match configuration
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: before one bounded contest begins, the player commits one
+  eligible controlled side, opposing side and exposed match parameters as the
+  configuration that will govern the resulting head-to-head attempt.
+- Includes: choosing the Oklahoma City Thunder, New York Knicks, local-versus-
+  CPU relation, Pro difficulty and five-minute quarters for the scoped NBA
+  2K26 Play Now exhibition.
+- Excludes: constructing a persistent roster; matchmaking; drafting; selecting
+  a whole season; changing rules during live play; treating exact team names or
+  numeric values as genes.
+- Parameters: controlled side, opposing side, local relation, difficulty,
+  period length, options, confirmation and rejection state.
+- Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
+- Novelty: first isolated for `GAME-0241`; the committed configuration creates
+  one disposable contest rather than a retained roster or campaign.
+
+## ACT-412 — Direct a hand-carried ball pass to an eligible teammate
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while an eligible controlled player possesses a hand-carried
+  shared ball, the player commits a target, direction and pass family that
+  releases the ball toward one eligible teammate.
+- Includes: direct, bounce, lob and lead passes during the scoped NBA 2K26
+  exhibition.
+- Excludes: a foot-propelled delivery; an untargeted discard; a shot at the
+  scoring target; an autonomous teammate pass; selecting a menu recipient.
+- Parameters: carrier, target, direction, pass family, input duration,
+  assistance, release point, interception risk and accepted delivery.
+- Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
+- Novelty: first isolated for `GAME-0241`; possession begins in a controlled
+  hand state and the release explicitly addresses an eligible teammate.
+
+## ACT-413 — Commit a release-timed attempt at a scored basket
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player begins and releases one eligible attempt toward a
+  basket, committing aim, attempt family and release timing for immediate
+  evaluation against spatial and defensive context.
+- Includes: button or stick jump shots and contextual layup or dunk attempts in
+  the scoped NBA 2K26 exhibition.
+- Excludes: kicking a ball at a goal; a free throw initiated only by referee
+  sequence; selecting an automatic simulation result; a pass near the basket.
+- Parameters: shooter, basket, attempt family, aim, start, release timing,
+  distance, coverage and accepted attempt.
+- Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
+- Novelty: first isolated for `GAME-0241`; the player controls a distinct
+  release-time sample whose quality joins coverage and range at resolution.
+
+## ACT-414 — Commit one steal, block or shot-contest attempt
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while defending one live possession, the player commits one
+  typed intervention against the carrier, pass lane or basket attempt, trading
+  position and contact risk for a possible deflection, turnover or miss.
+- Includes: on-ball steals, pass-lane steals, blocks and hands-up or jumping
+  contests during the scoped NBA 2K26 exhibition.
+- Excludes: passive proximity alone; a football tackle; selecting a defensive
+  scheme in a menu; an automatic teammate intervention; deliberate fouling as
+  its own requested strategy.
+- Parameters: defender, intervention family, target, direction, timing, reach,
+  position, contact risk and resolution.
+- Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
+- Novelty: first isolated for `GAME-0241`; several defensive commitments share
+  the same live trade between ball disruption and foul or positional exposure.
+
+## ACT-415 — Call one teammate screen for the current ball carrier
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while controlling the current ball carrier, the player requests
+  an eligible teammate to approach and establish a temporary legal screen,
+  then chooses whether and how to use the resulting route split.
+- Includes: calling and using a pick for a drive, pass or shot during the scoped
+  NBA 2K26 exhibition.
+- Excludes: placing a permanent obstacle; commanding a full tactical playbook;
+  an autonomous screen the player did not call; illegal moving contact.
+- Parameters: carrier, screener, request, approach, screen side, contact state,
+  defender response, route choice and cancellation.
+- Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
+- Novelty: first isolated for `GAME-0241`; a request recruits one teammate to
+  create a transient collision-and-routing choice around the carrier.
+
+## ACT-416 — Commit one prompted manoeuvre under assisted vehicle steering
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while a vehicle is continuously propelled and steered by an
+  assistance system, the player commits one currently offered route, drift or
+  airborne manoeuvre so the assisted path can resolve through that choice.
+- Includes: selecting a TouchDrive branch or prompted manoeuvre and initiating
+  an eligible drift during the scoped Asphalt Legends Career race.
+- Excludes: unrestricted analogue steering; choosing a route on a paused map;
+  passive automatic lane following with no live player choice; spending nitro.
+- Parameters: vehicle, current path, offered options, selected option, input,
+  drift or stunt family, commitment timing and resulting assisted path.
+- Evidence: [Asphalt Legends decomposition](../games/a-f/asphalt-legends.md).
+- Novelty: first isolated for `GAME-0242`; the player commits discrete live
+  route/manoeuvre choices while continuous steering remains system-owned.
+
+## ACT-417 — Command and arrest one eligible hostile alive
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while presenting legal authority and sufficient aimed threat, the
+  player orders one or more eligible hostiles to comply, then completes living
+  custody on one controlled reachable target before that compliance is lost.
+- Includes: issuing `Freeze` and arresting a compliant suspect in Battlefield
+  Hardline's scoped first campaign episode.
+- Excludes: scripted dialogue custody; intimidating a neutral civilian;
+  defeating a hostile lethally; automatic arrest after health depletion.
+- Parameters: authority state, weapon posture, target set, eligibility,
+  compliance, coverage, reach, custody interaction and interruption.
+- Evidence: [Battlefield Hardline decomposition](../games/a-f/battlefield-hardline.md).
+- Novelty: first isolated for `GAME-0243`; a direct authority command creates a
+  fragile living-custody opportunity against active hostile actors.

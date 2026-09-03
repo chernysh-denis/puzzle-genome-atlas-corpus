@@ -1,5 +1,5 @@
 {
-  "version": "GENE_SALIENCE_AND_PLAIN_LANGUAGE_EXPANSION_035",
+  "version": "GENE_SALIENCE_AND_PLAIN_LANGUAGE_EXPANSION_040",
   "roles": [
     "defining",
     "structural",
@@ -6283,6 +6283,199 @@
       "defining": ["ACT-392", "ACT-393", "ACT-394", "ACT-395", "ACT-396", "SYS-723", "SYS-724", "SYS-725", "SYS-726", "SYS-727", "SYS-728", "CON-565", "INF-277", "OBJ-141"],
       "structural": ["SYS-215", "CON-269", "CON-282", "INF-125", "INF-268", "TIM-003"],
       "supporting": ["ACT-161", "INF-115"]
+    },
+    "GAME-0226": {
+      "reviewed": "2026-09-02",
+      "noteEn": "The authored breakdown, replacement-car reset and forced-loss checkpoint objective define the packet; direct rival driving, separately managed nitrous and Speedbreaker, ordered story gates and race information structure it, while profile commitment and generic route guidance support execution.",
+      "noteUk": "Цю одиницю визначають задана поломка, перезапуск із автомобілем на заміну та ціль із неминучою поразкою й контрольною точкою. Її структурують безпосередня гонка із суперником, окреме керування нітро та Speedbreaker, заданий порядок сюжету й відомості гонки, а налаштування профілю та загальні підказки маршруту допомагають виконанню.",
+      "defining": ["SYS-729", "OBJ-142"],
+      "structural": ["ACT-130", "ACT-229", "ACT-290", "ACT-309", "SYS-320", "SYS-368", "SYS-515", "SYS-691", "CON-282", "INF-119", "INF-205", "TIM-003"],
+      "supporting": ["ACT-292", "INF-204"]
+    },
+    "GAME-0227": {
+      "reviewed": "2026-09-02",
+      "noteEn": "Recharging Overshield, contested shared-rule authority, acquired extra-life settlement and its public information cost define the packet; aerial insertion, found loot, live combat, Storm pressure and last-Solo survival structure it.",
+      "noteUk": "Цю одиницю визначають відновлюваний Overshield, боротьба за право змінити спільні правила, підсумок з отриманим додатковим життям та інформаційна ціна цього права. Її структурують повітряна висадка, знайдене спорядження, живий бій, тиск Бурі й виживання останнього учасника Solo.",
+      "defining": ["ACT-397", "SYS-730", "SYS-731", "SYS-732", "CON-566", "INF-278"],
+      "structural": ["ACT-008", "ACT-161", "ACT-198", "ACT-199", "SYS-215", "SYS-317", "SYS-321", "CON-283", "CON-289", "INF-127", "INF-129", "OBJ-074", "TIM-003"],
+      "supporting": ["ACT-164", "ACT-183", "ACT-186", "SYS-208", "SYS-316", "CON-262", "CON-284", "CON-285", "INF-073", "INF-075", "INF-128"]
+    },
+    "GAME-0228": {
+      "reviewed": "2026-09-02",
+      "noteEn": "The direct handoff, retained staged fixtures, exclusive carrier and inspection-time concealment define the packet; contextual work, guard movement, two-human split view, checkpoint failure and joint completion structure it.",
+      "noteUk": "Цю одиницю визначають безпосередня передача, збережені етапи пристроїв, єдиний носій і приховування роботи до перевірки. Її структурують контекстна робота, рух охоронців, дві людини з поділом екрана, повернення контрольної точки й спільне завершення.",
+      "defining": ["ACT-398", "SYS-733", "CON-567", "CON-568"],
+      "structural": ["ACT-341", "SYS-045", "SYS-369", "CON-077", "CON-378", "INF-167", "OBJ-086", "TIM-003"],
+      "supporting": ["ACT-008", "INF-001"]
+    },
+    "GAME-0229": {
+      "reviewed": "2026-09-02",
+      "noteEn": "Slot-addressed technology restoration, rechargeable local survey, taught-predicate progression and the retained first guided destination define the packet; finite extraction, two production forms, live exposure and direct repaired transport structure it.",
+      "noteUk": "Цю одиницю визначають адресне відновлення технологій, локальний огляд із відновленням, виконання поетапних навчальних умов і збережене перше вказане місце. Її структурують скінченний видобуток, два способи виробництва, живий тиск середовища й пряме керування відремонтованим транспортом.",
+      "defining": ["ACT-399", "ACT-400", "SYS-734", "SYS-735", "SYS-736", "CON-569", "CON-570", "INF-279", "OBJ-143"],
+      "structural": ["ACT-122", "ACT-123", "ACT-201", "ACT-206", "ACT-338", "SYS-161", "SYS-327", "SYS-329", "CON-281", "CON-297", "CON-499", "INF-075", "INF-132", "INF-268", "TIM-003"],
+      "supporting": ["ACT-008", "SYS-320", "SYS-326", "INF-125"]
+    },
+    "GAME-0230": {
+      "reviewed": "2026-09-02",
+      "noteEn": "Delayed personal regeneration, weapon heat and active cooling, the remote-body-to-companion handoff and retained purge-to-successor objective define the packet; direct combat, typed droid actions, ordered gates and checkpoint recovery structure it.",
+      "noteUk": "Цю одиницю визначають відкладене відновлення особистого здоров’я, нагрівання й активне охолодження зброї, перехід від дистанційно керованого тіла до здатності супутника та збережена ціль від видалення даних до наступної місії. Її структурують прямий бій, типізовані дії дроїда, задані етапи й повернення контрольної точки.",
+      "defining": ["SYS-737", "SYS-738", "SYS-739", "CON-571", "INF-280", "OBJ-144"],
+      "structural": ["ACT-161", "ACT-199", "ACT-341", "SYS-208", "SYS-215", "SYS-369", "SYS-380", "SYS-736", "CON-269", "CON-282", "CON-330", "INF-119", "INF-125", "INF-268", "TIM-003"],
+      "supporting": ["ACT-008", "ACT-202", "INF-115"]
+    },
+    "GAME-0231": {
+      "reviewed": "2026-09-03",
+      "noteEn": "Fixed initial attribute allocation, its persistent statistical profile and retained captivity-to-exterior objective define the packet; required dialogue, fixtures, equipped live combat, staged objectives and save restoration structure it.",
+      "noteUk": "Цю одиницю визначають фіксований розподіл початкових характеристик, сталий статистичний профіль і збережена ціль від полону до керування назовні. Її структурують потрібні діалоги, пристрої, живий бій зі спорядженням, поетапні цілі й відновлення збереження.",
+      "defining": ["ACT-401", "SYS-740", "CON-572", "INF-281", "OBJ-113"],
+      "structural": ["ACT-161", "ACT-199", "ACT-232", "ACT-341", "SYS-215", "SYS-369", "SYS-736", "CON-282", "CON-285", "INF-119", "INF-125", "INF-128", "INF-268", "TIM-007"],
+      "supporting": ["ACT-008", "INF-115", "TIM-003"]
+    },
+    "GAME-0232": {
+      "reviewed": "2026-09-03",
+      "noteEn": "Human-only proximity escort, prepared route gates and the five-bag heist settlement define the packet; civilian control, an interruptible breach, police phases, Crew AI and heavy-bag routing structure it.",
+      "noteUk": "Цю одиницю визначають супровід лише людською присутністю, підготовлені умови маршруту й завершення пограбування після п’яти сумок. Її структурують контроль цивільних, переривний пролом, фази поліції, Crew AI та передавання важких сумок.",
+      "defining": ["SYS-384", "SYS-650", "SYS-651", "CON-529", "INF-256", "OBJ-124"],
+      "structural": ["ACT-341", "ACT-358", "ACT-359", "SYS-348", "SYS-618", "SYS-646", "SYS-647", "SYS-648", "CON-526", "CON-527", "CON-528", "INF-116", "INF-119", "INF-246", "INF-257", "TIM-003"],
+      "supporting": ["ACT-008", "ACT-161", "ACT-164", "ACT-183", "ACT-190", "ACT-199", "ACT-241", "SYS-208", "SYS-215", "CON-262", "CON-269", "INF-073", "INF-115"]
+    },
+    "GAME-0233": {
+      "reviewed": "2026-09-03",
+      "noteEn": "Separate challenge claims, all-row route issuance and retained service reward define the packet; harvesting, personal crafting, equipment, capacity, survival pressure, local risk and live traversal structure it.",
+      "noteUk": "Цю одиницю визначають окреме отримання нагород за виконані випробування, видача маршруту за всі забрані рядки й збережена нагорода сервісного вузла. Її структурують збирання, особисте виготовлення, спорядження, місткість, тиск виживання, місцевий ризик і живе переміщення.",
+      "defining": ["ACT-402", "SYS-741", "CON-573", "INF-282", "OBJ-145"],
+      "structural": ["ACT-122", "ACT-123", "ACT-199", "SYS-161", "SYS-223", "SYS-327", "SYS-328", "CON-210", "CON-281", "CON-297", "CON-496", "INF-073", "INF-075", "INF-125", "INF-128", "INF-132", "TIM-003"],
+      "supporting": ["ACT-008", "ACT-161", "ACT-164", "SYS-208", "SYS-215", "INF-115"]
+    },
+    "GAME-0234": {
+      "reviewed": "2026-09-03",
+      "noteEn": "Point-to-sector aggregation, majority ticket pressure, live attachment replacement and player-positioned shared vehicle delivery define the packet; squad combat, revival, redeployment and combined arms structure the zero-ticket match.",
+      "noteUk": "Цю одиницю визначають об’єднання точок у сектори, тиск більшості на підкріплення, жива заміна модулів і доставлення спільної машини до вибраної позиції. Її структурують загоновий бій, оживлення, повторне розгортання й загальновійськова боротьба до нульового запасу.",
+      "defining": [
+        "ACT-403",
+        "ACT-404",
+        "SYS-742",
+        "SYS-743",
+        "SYS-744",
+        "SYS-745",
+        "CON-574",
+        "CON-575",
+        "CON-576",
+        "INF-283",
+        "INF-284",
+        "INF-285",
+        "OBJ-079"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-187",
+        "ACT-190",
+        "ACT-201",
+        "ACT-215",
+        "ACT-240",
+        "ACT-241",
+        "SYS-215",
+        "SYS-320",
+        "SYS-380",
+        "SYS-382",
+        "SYS-394",
+        "SYS-395",
+        "CON-269",
+        "CON-272",
+        "CON-288",
+        "CON-346",
+        "CON-347",
+        "CON-348",
+        "INF-115",
+        "INF-116",
+        "INF-119",
+        "INF-155",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-164",
+        "ACT-183",
+        "ACT-184",
+        "SYS-208",
+        "SYS-292",
+        "SYS-386",
+        "CON-262",
+        "INF-073"
+      ]
+    },
+    "GAME-0235": {
+      "reviewed": "2026-09-03",
+      "noteEn": "Finite last-checkpoint recovery, its final-unit failure rule, joint reset/rank feedback and the retained multi-event route-rank objective define the packet; direct rival racing, ordered results and campaign settlement structure it.",
+      "noteUk": "Цю одиницю визначають скінченне повернення до останньої контрольної точки, поразка на останній витраті, спільне відображення запасу й позиції та збережена багатоподійна ціль маршруту. Її структурують прямі перегони із суперниками, впорядковані результати й завершення етапу кампанії.",
+      "defining": ["SYS-746", "CON-577", "INF-286", "OBJ-146"],
+      "structural": ["ACT-290", "ACT-350", "SYS-515", "SYS-516", "SYS-519", "CON-282", "CON-438", "INF-204", "INF-205", "INF-208", "TIM-003"],
+      "supporting": ["ACT-291", "ACT-292", "ACT-309", "SYS-320", "SYS-365", "SYS-691"]
+    },
+    "GAME-0236": {
+      "reviewed": "2026-09-03",
+      "noteEn": "Deliberate optical actor marks, inert spatial diversion, persistent tag tracking and hostile-site conversion define the packet; crouched stealth, recoverable alert escalation, live combat, actor viability and retained mission gates structure it.",
+      "noteUk": "Цю одиницю визначають навмисні оптичні мітки учасників, інертне просторове відволікання, стале супроводження міток і перетворення ворожого місця. Її структурують рух навприсядки, відновлюваний перехід до тривоги, живий бій, життєздатність критичних учасників і збережені етапи місії.",
+      "defining": ["ACT-405", "ACT-406", "SYS-747", "SYS-748", "INF-287", "OBJ-147"],
+      "structural": ["ACT-008", "ACT-161", "ACT-202", "ACT-235", "SYS-057", "SYS-208", "SYS-215", "SYS-369", "SYS-373", "CON-282", "CON-330", "CON-335", "INF-115", "INF-125", "TIM-003"],
+      "supporting": ["ACT-164", "ACT-183", "ACT-200", "SYS-319", "CON-262", "CON-285", "CON-286", "INF-073", "INF-119"]
+    },
+    "GAME-0237": {
+      "reviewed": "2026-09-03",
+      "noteEn": "Authored finite hostile releases, a full-clearance gate and typed finite ammunition define the packet; direct movement, firing, weapon choice, live combat and the fixed successor route structure it.",
+      "noteUk": "Цю одиницю визначають авторські випуски скінченних ворожих груп, шлюз повного очищення й типізовані скінченні боєприпаси. Її структурують прямий рух, стрільба, вибір зброї, живий бій і маршрут до фіксованого наступника.",
+      "defining": ["SYS-749", "CON-402", "CON-578", "OBJ-026"],
+      "structural": ["ACT-008", "ACT-161", "ACT-164", "SYS-215", "TIM-003"],
+      "supporting": ["SYS-222", "INF-073", "INF-115", "INF-119"]
+    },
+    "GAME-0238": {
+      "reviewed": "2026-09-03",
+      "noteEn": "Finite controlled slow time, live consumable use with delayed recovery and adaptive opposition define the packet; direct combat, operated route fixtures, retained state replacement and a fixed chapter successor structure it.",
+      "noteUk": "Цю одиницю визначають скінченне кероване сповільнення часу, живе використання відновлювального засобу з відкладеним ефектом і пристосовувана протидія. Її структурують прямий бій, керовані пристрої маршруту, заміна стану зі збереження та фіксований наступник глави.",
+      "defining": ["ACT-229", "ACT-407", "SYS-368", "SYS-750", "SYS-751", "CON-579"],
+      "structural": ["ACT-008", "ACT-161", "ACT-183", "ACT-341", "CON-282", "OBJ-026", "TIM-003"],
+      "supporting": ["ACT-164", "ACT-199", "SYS-215", "SYS-348", "SYS-369", "CON-262", "CON-269", "CON-285", "INF-073", "INF-115", "INF-119", "INF-125"]
+    },
+    "GAME-0239": {
+      "reviewed": "2026-09-03",
+      "noteEn": "Reversible world-ally command, role-specific assistance, finite held-use restoration, rechargeable personal illumination and damage-opened topology define the packet; direct combat, local pursuit, authored order and a retained chapter successor structure it.",
+      "noteUk": "Цю одиницю визначають зворотна команда союзникові світу, рольова допомога, скінченне відновлення через утримувану взаємодію, персональне світло з повторним заряджанням і відкриття топології шкодою. Її структурують прямий бій, місцеве переслідування, авторський порядок і збережений наступник глави.",
+      "defining": ["ACT-408", "ACT-409", "SYS-752", "SYS-753", "SYS-754", "SYS-755", "CON-580"],
+      "structural": ["ACT-008", "ACT-161", "ACT-341", "SYS-215", "SYS-339", "SYS-348", "CON-282", "CON-305", "OBJ-026", "TIM-003"],
+      "supporting": ["ACT-164", "ACT-183", "ACT-199", "SYS-369", "CON-262", "CON-285", "INF-073", "INF-115", "INF-119", "INF-125"]
+    },
+    "GAME-0240": {
+      "reviewed": "2026-09-03",
+      "noteEn": "Stepwise manual recipe execution, retained process evaluation and its legality/information boundary define the packet; bodily risk, authored dialogue, gathering and a saved successor structure it.",
+      "noteUk": "Цю одиницю визначають покрокове ручне виконання рецепта, збережене оцінювання процесу та межа його допустимості й інформації. Її структурують тілесний ризик, авторський діалог, збирання і збережений наступник.",
+      "defining": ["ACT-410", "SYS-756", "CON-581", "INF-288", "OBJ-148"],
+      "structural": ["ACT-008", "ACT-091", "ACT-131", "ACT-232", "ACT-245", "SYS-348", "SYS-379", "CON-282", "CON-297", "CON-336", "INF-075", "INF-125", "INF-148", "TIM-003"],
+      "supporting": ["ACT-048", "ACT-165", "ACT-199", "ACT-341", "SYS-369", "INF-073"]
+    },
+    "GAME-0241": {
+      "reviewed": "2026-09-03",
+      "noteEn": "Held/free shared-ball state, nested possession time, five-player control, contested weighted scoring and mandatory tie-breaking define the packet; direct movement, switching, team state and real-time pressure structure it.",
+      "noteUk": "Цю одиницю визначають спільний м’яч в утримуваному й вільному станах, вкладений час володіння, керування п’ятіркою, захищений зважений рахунок і обов’язкове усунення нічиєї. Її структурують прямий рух, перемикання, стан команд і тиск реального часу.",
+      "defining": ["ACT-412", "ACT-413", "ACT-414", "ACT-415", "SYS-757", "SYS-758", "SYS-759", "SYS-760", "SYS-761", "SYS-762", "SYS-763", "CON-582", "CON-583", "CON-584", "CON-585", "CON-586", "INF-289", "INF-290", "OBJ-149"],
+      "structural": ["ACT-008", "ACT-052", "INF-116", "TIM-003"],
+      "supporting": ["ACT-411", "INF-291"]
+    },
+    "GAME-0242": {
+      "reviewed": "2026-09-03",
+      "noteEn": "System-owned steering, live prompted manoeuvres, technique-filled ordinary nitro and a disclosed retained place threshold define the packet; arcade motion, rival state and real-time pressure structure it.",
+      "noteUk": "Цю одиницю визначають системне кермування, живі підказані маневри, звичайне нітро з маневрів і оголошений збережений поріг місця. Її структурують аркадний рух, стан суперників і тиск реального часу.",
+      "defining": ["ACT-416", "SYS-515", "SYS-516", "SYS-691", "SYS-764", "SYS-765", "CON-438", "INF-292", "OBJ-150"],
+      "structural": ["ACT-309", "SYS-320", "INF-205", "TIM-003"],
+      "supporting": ["ACT-293", "SYS-519", "INF-204", "INF-206", "INF-208"]
+    },
+    "GAME-0243": {
+      "reviewed": "2026-09-03",
+      "noteEn": "Scanner analysis, retained actor marks, threat-maintained hostile compliance, living custody and evaluated investigation progress define the packet; direct stealth/combat, authored gates and checkpoint recovery structure it.",
+      "noteUk": "Цю одиницю визначають аналіз сканером, збережені позначки акторів, підтримувана загрозою покора противників, жива варта й оцінений поступ розслідування. Її структурують прямі приховані дії та бій, авторські шлюзи й відновлення контрольної точки.",
+      "defining": ["ACT-417", "SYS-680", "SYS-747", "SYS-766", "CON-587", "INF-287", "INF-293", "OBJ-151"],
+      "structural": ["ACT-008", "ACT-161", "SYS-373", "TIM-003"],
+      "supporting": ["ACT-313", "ACT-405", "ACT-406", "ACT-235", "ACT-164", "ACT-183", "ACT-202", "SYS-057", "SYS-208", "SYS-215", "SYS-299", "SYS-369", "SYS-379", "CON-262", "CON-282", "CON-285", "CON-330", "CON-335", "INF-073", "INF-115", "INF-119", "INF-125"]
     }
   }
 }

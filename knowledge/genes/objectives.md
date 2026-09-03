@@ -2140,17 +2140,20 @@
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: complete the mandatory character gate, survive the scripted
-  disaster and satisfy one declared escort branch's equipment, combat,
+  disaster and satisfy the declared opening route's equipment, combat,
   interaction and traversal gates until the opening quest completes and the
   persistent character first gains controllable exterior-world state.
 - Includes: one fresh Skyrim Special Edition `Unbound` (`MQ101`) escape through
   the Hadvar branch to first retained control outside the Helgen cave with
-  `Before the Storm` active.
+  `Before the Storm` active; one fresh Fallout 4 base-game escape through Vault
+  111 to retained Commonwealth control with `Out of Time` active.
 - Excludes: merely entering Helgen Keep; defeating one interior hostile; reaching
   Riverwood; completing a later main quest or the open-world campaign.
-- Parameters: character confirmation, disaster, escort branch, required gates,
+- Parameters: character confirmation, disaster, optional escort branch, required gates,
   opening quest, cave exit, successor quest and retained exterior control.
 - Evidence: [The Elder Scrolls V: Skyrim Special Edition decomposition](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md).
+- Additional support: [Fallout 4 decomposition](../games/a-f/fallout-4.md), for
+  the attribute-budget gate, Vault 111 route and reloaded exterior state.
 - Novelty: first isolated for `GAME-0190`; mandatory identity, one exclusive
   escort path and a tutorial dungeon settle directly into an open-world save.
 
@@ -2354,22 +2357,25 @@
 - Novelty: first isolated for `GAME-0200`; success is asymmetric attrition
   against a replenishable attacker pool across an advancing objective front.
 
-## OBJ-124 — Open the vault, secure required cash and escape
+## OBJ-124 — Breach secured storage, secure required valuables and escape
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: complete one bounded bank contract by opening the declared vault,
-  converting at least the contract minimum into secured cash and occupying the
-  available escape so the success and payout result settle.
+- Definition: complete one bounded heist contract by breaching the declared
+  secured storage, converting at least the contract minimum into spatially
+  secured valuables and occupying the available escape so success and payout
+  settle.
 - Includes: one Normal Offline PAYDAY 2 Bank Heist: Cash requiring one secured
-  money bag before escape.
+  money bag before escape; one Normal Solo PAYDAY 3 Road Rage requiring five
+  secured rare-earth bags before escape.
 - Excludes: securing every optional bag; maximising experience; a stealth-only
   requirement; later Crime.net, skill or Infamy progression.
-- Parameters: contract, vault fixture, opening state, loot class, minimum count,
-  secured count, escape region, crew state, success and payout.
-- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md).
+- Parameters: contract, secured-storage fixture, breach state, loot class,
+  minimum count, secured count, escape region, crew state, success and payout.
+- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md) and
+  [PAYDAY 3 decomposition](../games/m-r/payday-3.md).
 - Novelty: first isolated for `GAME-0201`; an interruptible access process,
   embodied value transport and spatial departure form one conjunctive terminal.
 
@@ -2550,26 +2556,29 @@
   retained result plus a fixed medal class while a no-medal valid finish still
   counts as completion.
 
-## OBJ-134 — Win and retain the opening Underground Circuit
+## OBJ-134 — Win one rival race and retain its reward
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: complete both ordered laps of the opening `Jose's Got Your Back`
-  Circuit, cross the valid finish in first place, receive the selected Easy
-  Bank reward and reach retained Race 1 completion in Underground Mode.
+- Definition: complete the required ordered course of one finite race against
+  autonomous rivals, cross its valid finish in first place and reach a
+  persistent event result with the disclosed completion reward retained.
 - Includes: the stock Honda Civic Si packet for Need for Speed Underground
   Race 1 at Olympic Square, Easy, automatic transmission and `375` Bank.
-- Excludes: merely finishing below first; winning the introductory loan-car
-  race; earning style points; buying an upgrade; another event or the full
-  career; an Underground 2 result.
+- Excludes: a valid solo time-trial finish without a rival-victory predicate;
+  a race where any classified place satisfies the packet; a championship or
+  multi-event progression gate; a race whose result remains unsettled until a
+  later pursuit, escape or garage gate; a delivery mission that merely uses a
+  car; the full career.
 - Parameters: event, route, lap count, rivals, finish place, difficulty,
   reward, completion flag, career state and returned control.
 - Evidence: [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
-- Novelty: first isolated for `GAME-0217`; the exact terminal is one ordinary
-  opening street-Circuit victory whose disclosed Bank reward and first career
-  completion persist without a later pursuit, garage gate or Festival chain.
+- Novelty: first isolated for `GAME-0217` and generalised under
+  `TAXONOMY_CHANGE_017`; the reusable boundary is the finite rival-race win
+  plus retained result/reward, while event identity, vehicle, laps,
+  difficulty and reward amount remain parameters.
 
 ## OBJ-135 — Reach stock map-time settlement with the team-round score
 
@@ -2708,3 +2717,201 @@
 - Evidence: [STAR WARS: Squadrons decomposition](../games/s-z/star-wars-squadrons.md).
 - Novelty: first isolated for `GAME-0225`; success is one bounded authored
   cockpit mission and its guaranteed retained medal, not the wider campaign.
+
+## OBJ-142 — Complete a forced-loss driving prologue into retained campaign control
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: enter one authored rival-driving event, allow its unavoidable
+  mechanical failure and loss to settle, acquire the declared replacement
+  vehicle and reach the first retained ordinary campaign-control checkpoint.
+- Includes: Need for Speed: Most Wanted (2005)'s Razor prologue from the fixed
+  story-race start through Lexus IS300 purchase and safe-house autosave.
+- Excludes: beating the rival; stopping at the breakdown or arrest; an ordinary
+  lower-place finish; later Blacklist progress; the complete campaign.
+- Parameters: event, rival, failure trigger, removed vehicle, cash grant,
+  replacement vehicle, destination, autosave and retained campaign state.
+- Evidence: [Need for Speed: Most Wanted (2005) decomposition](../games/m-r/need-for-speed-most-wanted-2005.md).
+- Novelty: first isolated for `GAME-0226`; the accepted terminal lies beyond a
+  mandatory competitive loss and requires a replacement-vehicle checkpoint.
+
+## OBJ-143 — Repair disabled transport and retain the first guided destination
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: satisfy taught survival, gathering, production and technology
+  dependencies that restore disabled personal transport, directly travel to
+  the first newly guided destination, complete its required interaction and
+  retain progress through an explicit save/reload boundary.
+- Includes: No Man's Sky Awakenings from fresh Normal start through repaired
+  starter-starship flight, first abandoned-building terminal and verified
+  post-terminal ship-exit save.
+- Excludes: stopping at repair, launch or arrival; an arbitrary sandbox save;
+  base construction; later main-story progress; completing an open world.
+- Parameters: tutorial, survival requirements, transport, repair chain,
+  destination, interaction, save trigger, reload and successor mission state.
+- Evidence: [No Man's Sky decomposition](../games/m-r/no-mans-sky.md).
+- Novelty: first isolated for `GAME-0229`; restored transport changes traversal
+  scale, but completion requires a remote interaction and verified retention.
+
+## OBJ-144 — Purge mission-critical data and escape into a retained successor
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: satisfy an ordered infiltration's access gates, delete the
+  required hostile data, survive the authored escape and retain access to the
+  named successor mission after a clean exit and relaunch.
+- Includes: The Cleaner from directly controlled ID10 through Iden's message
+  purge and airlock escape to retained The Battle of Endor access.
+- Excludes: reaching the data terminal without deleting its target; one
+  transient checkpoint; later campaign completion; multiplayer match victory.
+- Parameters: infiltration, access gates, data target, purge interaction,
+  escape route, completion transition, successor, save state and relaunch check.
+- Evidence: [STAR WARS Battlefront II (2017) decomposition](../games/s-z/star-wars-battlefront-ii-2017.md).
+- Novelty: first isolated for `GAME-0230`; a role-changing infiltration closes
+  only when purge and escape become retained authority for the next mission.
+
+## OBJ-145 — Redeem survival onboarding and retain its service-route reward
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: satisfy and redeem every requirement in one bounded survival
+  onboarding group, follow the destination quest created by its group reward,
+  settle the marked service location and retain the explicit route reward.
+- Includes: the current 7 Days to Die `Basics of Survival` group through
+  `Journey to Settlement`, Stone Shovel credit and verification reload.
+- Excludes: green but unredeemed rows; stopping when the trader marker appears;
+  trading or accepting a first job; surviving an arbitrary number of days;
+  completing the wider open world.
+- Parameters: challenge group, mandatory rows, row claims, issued route,
+  service destination, spatial objective, credited reward, save and reload.
+- Evidence: [7 Days to Die decomposition](../games/0-9/7-days-to-die.md).
+- Novelty: first isolated for `GAME-0233`; a claimed tutorial checklist creates
+  a world-space service route whose own reward supplies the positive terminal.
+
+## OBJ-146 — Complete one multi-event driving stage into retained route rank
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: satisfy every required rival-passing and ordered-route result in
+  one authored driving stage, retain the resulting cumulative route rank and
+  expose its named successor stage after a persistence check.
+- Includes: Need for Speed: The Run Stage 1 West Coast from rank 211 through
+  three required events to retained rank 195 and Stage 2 access.
+- Excludes: winning the complete cross-country campaign; one isolated race
+  victory; stopping after a checkpoint or intermediate event; leaderboard rank;
+  a later replay for improved stage time.
+- Parameters: stage, ordered event set, event targets, initial rank, passed
+  rivals, terminal rank, settlement, successor unlock and retained state.
+- Evidence: [Need for Speed: The Run decomposition](../games/m-r/need-for-speed-the-run.md).
+- Novelty: first isolated for `GAME-0235`; several driving-event results reduce
+  one campaign rank before a stage-level successor becomes the terminal.
+
+## OBJ-147 — Clear one occupied site and retain its converted local services
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: defeat every member of one closed required hostile set, complete
+  the site's immediate authored terminal and preserve its converted allied
+  ownership plus declared local services or successor access after relaunch.
+- Includes: clearing Far Cry 3's scoped first outpost, entering its main
+  building and retaining Rakyat control, fast travel, vendor access and the
+  next story mission.
+- Excludes: one kill while hostiles remain; clearing a room with no persistent
+  world change; temporary match-zone control; optional loot collection; winning
+  every site or completing the whole campaign.
+- Parameters: site, hostile set, required local interaction, owner, service set,
+  successor, persistence check and failure state.
+- Evidence: [Far Cry 3 decomposition](../games/a-f/far-cry-3.md).
+- Novelty: first isolated for `GAME-0236`; the positive terminal combines
+  closed hostile clearance with retained local ownership and operational access.
+
+## OBJ-148 — Complete one recovery quest and retain its successor
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: restore required actors' immediate condition, complete one
+  bounded authored recovery quest's field, dialogue and production sequence,
+  and retain its named successor objective after a persistence check.
+- Includes: Kingdom Come: Deliverance II's scoped `Fortuna` route through
+  treatment, herb collection, manual brew, hand-in, sleep and load-verified
+  `Laboratores` successor.
+- Excludes: treating one condition without quest settlement; arbitrary open-
+  world survival; whole-campaign completion; a transient successor cutscene.
+- Parameters: actors, condition, quest, sequence, product, hand-in, completion,
+  successor, save and verification load.
+- Evidence: [Kingdom Come: Deliverance II decomposition](../games/g-l/kingdom-come-deliverance-ii.md).
+- Novelty: first isolated for `GAME-0240`; recovery and a manually produced
+  quest item jointly close one packet into retained successor authority.
+
+## OBJ-149 — Finish one exhibition with more points than the opponent
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete every required period of one bounded head-to-head
+  exhibition and finish its final unequal score with the controlled side
+  holding more legally awarded points than the opposing side.
+- Includes: winning the scoped NBA 2K26 Play Now match after regulation or any
+  required overtime.
+- Excludes: winning a season or series; accumulating account rewards; ending
+  regulation tied; stopping after one possession or quarter; a named matchup or
+  exact score as a gene.
+- Parameters: controlled side, opponent, periods, points, regulation terminal,
+  overtime predicate, final score, win and loss.
+- Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
+- Novelty: first isolated for `GAME-0241`; multiple point values accumulate
+  across four periods and a tie obligatorily extends the same exhibition.
+
+## OBJ-150 — Meet one disclosed race-place threshold and retain progression
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one finite ordered race against autonomous rivals,
+  finish within its disclosed accepted set of places and reach a persistent
+  result with the event's progression marker and disclosed rewards retained.
+- Includes: finishing third or better in the scoped Asphalt Legends Career
+  Classic race and retaining its Career Flag and displayed rewards.
+- Excludes: a first-place-only race; a solo medal time; finishing outside the
+  accepted set; a result not retained until a later escape; the full Career.
+- Parameters: event, route, rivals, disclosed place threshold, final place,
+  progression marker, rewards, completion state and returned control.
+- Evidence: [Asphalt Legends decomposition](../games/a-f/asphalt-legends.md).
+- Novelty: first isolated for `GAME-0242`; success is an explicitly disclosed
+  set of classified places rather than only overall victory or mere finish.
+
+## OBJ-151 — Complete one investigative episode into retained successor access
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: satisfy one authored investigative episode's required evidence,
+  custody or combat and protected-actor gates, reach its discrete evaluated
+  settlement and retain both recorded progress and successor access.
+- Includes: completing Battlefield Hardline Episode 1 after its mandatory
+  evidence, suspect, school and partner-defence sequence.
+- Excludes: stopping at one arrest or clue; maximising every optional record;
+  finishing the entire campaign; a multiplayer result without episode state.
+- Parameters: episode, ordered gates, evidence, custody outcome, combat,
+  protected actor, evaluation, completion flag, successor and retention.
+- Evidence: [Battlefield Hardline decomposition](../games/a-f/battlefield-hardline.md).
+- Novelty: first isolated for `GAME-0243`; investigative evaluation and living
+  custody remain part of the required authored episode before successor access.

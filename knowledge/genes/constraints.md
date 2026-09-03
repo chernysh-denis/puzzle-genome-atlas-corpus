@@ -10204,3 +10204,432 @@
 - Evidence: [STAR WARS: Squadrons decomposition](../games/s-z/star-wars-squadrons.md).
 - Novelty: first isolated for `GAME-0225`; three simultaneously active cockpit
   subsystems compete through a reversible zero-sum performance allocation.
+
+## CON-566 — Solo return requires an acquired unused extra life
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a lethal Solo defeat may return to live participation only when
+  the participant owns an applicable match-local extra-life source whose one
+  allowance remains unused; consuming or lacking that source makes a later
+  otherwise identical defeat terminal.
+- Includes: Fortnite `v42.00` `1-Up Token` and `Extra Life` Match Override.
+- Excludes: teammate revival; ordinary Overshield recharge; a mode-granted
+  Rebirth with a phase cutoff; beginning another match after placement.
+- Parameters: participant, lethal state, source, ownership, applicability,
+  remaining allowance, consumption, return state and terminal fallback.
+- Evidence: [Fortnite decomposition](../games/a-f/fortnite.md).
+- Novelty: first isolated for `GAME-0227`; Solo continuation depends on a
+  previously acquired optional rule state rather than inherent mode stock or
+  another participant's rescue authority.
+
+## CON-567 — Keep one cooperative tool with one eligible carrier
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: one cooperative objective tool may have at most one current
+  carrier, and reassignment succeeds only through its authored handoff to an
+  eligible reachable partner.
+- Includes: the single Cell Breach chisel belonging first to Leo and then to
+  Vincent after their adjacent-cell handoff in A Way Out.
+- Excludes: duplicate role-bound tools; shared abstract currency; unrestricted
+  item drops; remote reassignment without partner eligibility.
+- Parameters: tool identity, carrier count, partner eligibility, reach or
+  adjacency, handoff state and rejection feedback.
+- Evidence: [A Way Out decomposition](../games/a-f/a-way-out.md).
+- Novelty: first isolated for `GAME-0228`; a unique cooperative tool is both a
+  spatial handoff object and the exclusive permission for the next partner's
+  work.
+
+## CON-568 — Conceal interruptible work before hostile inspection
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an actor may continue a forbidden contextual work channel only
+  outside the inspecting hostile's current observation window; the actor must
+  cancel and conceal the exposed operation before inspection or fail the
+  current attempt.
+- Includes: stopping Cell Breach chisel work and replacing the visible fixture
+  state before either prison guard inspects Leo's or Vincent's cell in A Way
+  Out.
+- Excludes: ordinary cover from weapon fire; a suspicion meter that may decay
+  after completed detection; an uninterrupted crafting action with no hostile
+  observer; global failure unrelated to the active work state.
+- Parameters: work channel, exposure state, observer, inspection route,
+  warning window, cancellation duration, concealed state and failure trigger.
+- Evidence: [A Way Out decomposition](../games/a-f/a-way-out.md).
+- Novelty: first isolated for `GAME-0228`; the legal continuation of a staged
+  task depends on interrupting and hiding that task before a moving observer's
+  inspection, not merely moving the actor outside a vision cone.
+
+## CON-569 — Technology use requires restored slots and usable charge
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a technology cannot provide its declared function while a
+  required damaged slot is incomplete, and a charge-consuming function also
+  requires a compatible positive operating reserve.
+- Includes: the scoped No Man's Sky Scanner, Analysis Visor, Mining Beam,
+  hazard protection, life support, Pulse Engine and Launch Thruster gates.
+- Excludes: optional upgrades; a character skill cooldown; building durability;
+  a vehicle seat unavailable for ownership reasons.
+- Parameters: technology, repair slots, components, damaged state, fuel,
+  charge, activation threshold and disabled feedback.
+- Evidence: [No Man's Sky decomposition](../games/m-r/no-mans-sky.md).
+- Novelty: first isolated for `GAME-0229`; diagnosed repair completion and
+  compatible operating charge jointly bound one technology function.
+
+## CON-570 — Survey pulse requires functional scanner and recharge readiness
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: another local survey pulse is legal only while its scanner is
+  repaired, enabled and outside the post-activation recharge interval.
+- Includes: the Exosuit Scanner repair and cooldown boundary in the scoped No
+  Man's Sky opening.
+- Excludes: continuous Analysis Visor focus; weapon reload; passive proximity
+  markers; a global map reveal with no device readiness state.
+- Parameters: scanner, repaired state, enabled state, cooldown duration,
+  elapsed recharge, ready feedback and activation request.
+- Evidence: [No Man's Sky decomposition](../games/m-r/no-mans-sky.md).
+- Novelty: first isolated for `GAME-0229`; the player restores and then paces a
+  discrete information-producing device rather than scanning continuously.
+
+## CON-571 — Weapon fire requires heat capacity or completed cooling
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: another weapon discharge is legal only below the heat limit; an
+  overheated weapon rejects fire until passive cooling or the declared active-
+  cooling resolution returns it to an eligible state.
+- Includes: blaster firing and cooling legality in the scoped STAR WARS
+  Battlefront II (2017) campaign prologue.
+- Excludes: empty magazines; missing reserve ammunition; broken durability;
+  ability cooldowns that do not gate the current weapon.
+- Parameters: current heat, heat capacity, overheat state, passive threshold,
+  active-cooling result, lock duration and fire request.
+- Evidence: [STAR WARS Battlefront II (2017) decomposition](../games/s-z/star-wars-battlefront-ii-2017.md).
+- Novelty: first isolated for `GAME-0230`; firing permission is restored by a
+  thermal state transition rather than inventory transfer.
+
+## CON-572 — Keep initial attribute allocation within one fixed pool and bounds
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: character creation accepts confirmation only when every named
+  attribute lies within its allowed range and their increases consume no more
+  than the single fixed distributable point total.
+- Includes: Fallout 4's seven initial S.P.E.C.I.A.L. attributes, each bounded
+  from 1 to 10, with twenty-one points distributed above their base values.
+- Excludes: later perk points; class-exclusive ability choice; equipment
+  capacity; cosmetic sliders; uncapped point-buy systems.
+- Parameters: attributes, minimum, maximum, base total, distributable total,
+  selected total, remaining points and confirmation predicate.
+- Evidence: [Fallout 4 decomposition](../games/a-f/fallout-4.md).
+- Novelty: first isolated for `GAME-0231`; one validation boundary couples all
+  starting attributes through a shared finite pool.
+
+## CON-573 — Gate row and group rewards by recorded challenge claims
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an individual tracked reward can be redeemed only after its own
+  predicate is recorded complete, and the group reward remains unavailable
+  until every mandatory row has been separately redeemed.
+- Includes: 7 Days to Die `Basics of Survival` row rewards and the Trader Quest
+  group completion reward.
+- Excludes: recipe ingredient requirements; an automatically paid quest; an
+  optional achievement list; mutually exclusive reward selection after a
+  completed contract.
+- Parameters: row, predicate, completion flag, redeem flag, mandatory set,
+  group readiness, reward and rejected claim.
+- Evidence: [7 Days to Die decomposition](../games/0-9/7-days-to-die.md).
+- Novelty: first isolated for `GAME-0233`; group eligibility depends on claimed
+  member rewards, not only on latent completion of their underlying actions.
+
+## CON-574 — Live attachment swaps require an available compatible category option
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a weapon attachment can be replaced during live control only by
+  an option currently exposed for the held weapon and matching the selected
+  sight, barrel, ammunition or underbarrel category.
+- Includes: legal Battlefield 2042 Plus Menu choices on the current weapon.
+- Excludes: an unavailable attachment; a category the weapon does not support;
+  changing the weapon itself; a preparation-only loadout edit.
+- Parameters: weapon, available set, category, compatibility, current option,
+  selected option and rejection feedback.
+- Evidence: [Battlefield 2042 decomposition](../games/a-f/battlefield-2042.md).
+- Novelty: first isolated for `GAME-0234`; it gates immediate live replacement
+  independently of inventory loot or pre-deployment capacity.
+
+## CON-575 — Support-vehicle delivery requires shared availability and legal placement
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a live vehicle request is accepted only when the current map and
+  mode admit that option, the team's shared vehicle capacity has room, the
+  requester is off cooldown and the selected delivery position is legal.
+- Includes: ordinary Battlefield 2042 Conquest call-in requests for available
+  ground vehicles.
+- Excludes: deployment-screen aircraft; an unavailable or over-capacity
+  vehicle; a target outside the supported delivery surface; Portal modifiers.
+- Parameters: map, mode, team capacity, option availability, requester
+  cooldown, target surface, clearance, accepted request and rejection.
+- Evidence: [Battlefield 2042 decomposition](../games/a-f/battlefield-2042.md).
+- Novelty: first isolated for `GAME-0234`; shared fleet capacity and local
+  placement jointly gate a live support request.
+
+## CON-576 — Sector ownership requires every included control point
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: one team owns a grouped sector only while it owns all control
+  points assigned to that sector; owning fewer points may preserve footholds
+  but cannot satisfy complete sector control.
+- Includes: multi-flag Battlefield 2042 Conquest sector ownership.
+- Excludes: individual point capture legality; a flat majority of all points;
+  ordered Breakthrough sectors; partial credit as complete ownership.
+- Parameters: sector, required points, current owners, complete set,
+  foothold-only state, ownership gain and ownership loss.
+- Evidence: [Battlefield 2042 decomposition](../games/a-f/battlefield-2042.md).
+- Novelty: first isolated for `GAME-0234`; the strategic region has a strict
+  all-member predicate above independently contested point state.
+
+## CON-577 — Checkpoint recovery is bounded by a per-event finite allowance
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an unfinished driving event can restore its assigned vehicle
+  only while its difficulty-fixed checkpoint-recovery stock permits another
+  nonterminal debit; the final available debit ends the event in failure.
+- Includes: five Checkpoint Resets per race on Normal in the scoped Need for
+  Speed: The Run Stage 1 packet.
+- Excludes: unlimited reset; a free full-event restart after failure; arbitrary
+  campaign save loading; a rewind meter that refills during the same attempt.
+- Parameters: difficulty, initial stock, current stock, reset request, wreck,
+  final-unit predicate, restoration permission and event failure.
+- Evidence: [Need for Speed: The Run decomposition](../games/m-r/need-for-speed-the-run.md).
+- Novelty: first isolated for `GAME-0235`; the last nominal recovery unit is a
+  disclosed terminal boundary rather than one more permitted restoration.
+
+## CON-578 — Ammunition-consuming weapons require compatible finite reserves
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an owned ammunition-consuming weapon may fire only while its
+  compatible typed reserve can pay the shot, and an eligible world pickup may
+  refill that reserve only to its fixed cap.
+- Includes: finite shotgun shells beside the unlimited default revolvers in
+  Serious Sam HD: The First Encounter's scoped Sand Canyon level.
+- Excludes: a magazine-and-reload cycle; round-buy inventory; replacing one
+  weapon inside a class slot; weapon heat; an unlimited weapon as though it
+  consumed ammunition; abstract score.
+- Parameters: weapon, ammunition type, cost per shot, current reserve, cap,
+  pickup quantity, accepted refill and empty-fire rejection.
+- Evidence: [Serious Sam HD: The First Encounter decomposition](../games/s-z/serious-sam-hd-the-first-encounter.md).
+- Novelty: first isolated for `GAME-0237`; typed reserve scarcity is separated
+  from magazines, reload windows, round inventory and weapon-class replacement.
+
+## CON-579 — Restorative use requires missing health and carried stock
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a live self-restorative request is legal only while the controlled
+  character has eligible missing health and at least one compatible unit in a
+  finite carried stock; acceptance consumes one unit and cannot restore beyond
+  the health cap.
+- Includes: using one of Max Payne (2001)'s carried painkillers while the pain
+  bar contains recoverable loss, with the stock capped at eight.
+- Excludes: an uninterrupted cast requirement; a cooldown-only health charge;
+  passive regeneration; a restorative applied to another actor; item identity,
+  cap value or restored amount as separate genes.
+- Parameters: item, current stock, stock cap, current health, maximum health,
+  eligible missing portion, accepted use, consumed quantity and recovery cap.
+- Evidence: [Max Payne (2001) decomposition](../games/m-r/max-payne-2001.md).
+- Novelty: first isolated for `GAME-0238`; it captures the portable legality
+  boundary for immediate live item commitment without importing a cast time,
+  status cooldown or game-specific medicine name.
+
+## CON-580 — Continuous fixture transfer requires live reach and available capacity
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a fixed fixture may transfer its personal-resource output only
+  while the compatible actor remains within use reach holding the interaction,
+  the target meter has missing capacity and the fixture retains transferable
+  reservoir stock.
+- Includes: continued wall-health-station transfer in Half-Life (1998) while
+  the player has missing health and the station still contains charge.
+- Excludes: carried-item stock; an instantaneous touch pickup; passive
+  regeneration; recipe ingredients; a one-press fixture whose whole effect is
+  atomic; the exact reservoir size or transfer rate as separate genes.
+- Parameters: actor, fixture, compatibility, reach, held-use state, current and
+  maximum personal meter, reservoir, accepted interval and deny response.
+- Evidence: [Half-Life (1998) decomposition](../games/g-l/half-life-1998.md).
+- Novelty: first isolated for `GAME-0239`; spatial reach, sustained input,
+  personal deficit and finite world stock jointly gate each transfer interval.
+
+## CON-581 — Manual recipe grade requires compatible process history
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a target manual-recipe grade is legal only when retained
+  workstation history contains its required base, ingredient identities and
+  quantities, preparations, addition order, heat intervals and output vessel.
+- Includes: Kingdom Come: Deliverance II's scoped strong-brew process.
+- Excludes: station reach and recipe knowledge alone; crafting grids;
+  autonomous throughput; concrete names, quantities or durations as genes.
+- Parameters: recipe, base, ingredients, preparation, sequence, interval
+  tolerance, vessel, accepted grade and invalid-process response.
+- Evidence: [Kingdom Come: Deliverance II decomposition](../games/g-l/kingdom-come-deliverance-ii.md).
+- Novelty: first isolated for `GAME-0240`; legality spans the complete enacted
+  apparatus history rather than only available inputs.
+
+## CON-582 — One direct-control locus governs a five-player on-court side
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: one human authority directly governs at most one eligible active
+  member of its five-player court side at a time, while switching transfers the
+  same unique control locus rather than creating simultaneous direct control.
+- Includes: one local human switching among the five on-court players in the
+  scoped NBA 2K26 exhibition.
+- Excludes: an eleven-player football side; controlling every unit through
+  simultaneous orders; two local humans sharing a side; bench-roster size as a
+  gene; non-controlled team AI itself.
+- Parameters: side, active five, eligible member, current locus, switch input,
+  target, transfer and rejection.
+- Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
+- Novelty: first isolated for `GAME-0241`; the control boundary is the active
+  five-player basketball unit, not the persistent roster.
+
+## CON-583 — Marked court, basket and boundary geometry constrain live play
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: legal live positions, release values, boundary outcomes and
+  scoring crossings are evaluated against one marked court, its two baskets,
+  boundary lines and scoring regions.
+- Includes: NBA court boundaries, baskets, two-point region and three-point arc
+  represented in the scoped NBA 2K26 exhibition.
+- Excludes: exact arena art; football field geometry; an unbounded playground;
+  cosmetic floor markings; treating one named court as taxonomy.
+- Parameters: court, boundary, basket, rim, backboard, release point, scoring
+  region, crossing and out-of-bounds predicate.
+- Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
+- Novelty: first isolated for `GAME-0241`; the same basket crossing receives
+  different field-goal value from the marked release region.
+
+## CON-584 — Ball-carrier movement requires legal dribble and court progression
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a possessing player may change position only while respecting
+  legal dribble, gathering, pivot and progression predicates; incompatible
+  carrying or returning the ball across the declared court division is a
+  violation.
+- Includes: travelling, double-dribble and backcourt bounds during the scoped
+  NBA 2K26 exhibition.
+- Excludes: physical collision resolution alone; football dribbling; stamina;
+  exact animation names; a violation after possession has already ended.
+- Parameters: carrier, possession, dribble state, gather, pivot, steps, court
+  division, prior progression, new position and violation.
+- Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
+- Novelty: first isolated for `GAME-0241`; legal embodied movement is coupled
+  to a retained hand-dribble and court-progression state.
+
+## CON-585 — Shot-clock expiry requires a released rim-touching attempt
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: before the possession clock expires, the attacking side must
+  release an eligible basket attempt and that attempt must subsequently touch
+  the rim or score; otherwise possession ends in a clock violation.
+- Includes: the configured NBA 2K26 possession's 24-second shot-clock boundary.
+- Excludes: the game clock; a generic turn timer; an attempt held through
+  expiry; a released ball that misses the rim and basket; exact seconds as the
+  transferable gene identity.
+- Parameters: possession, clock duration, remaining time, release time,
+  eligible attempt, rim contact, score and violation.
+- Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
+- Novelty: first isolated for `GAME-0241`; timely release alone is insufficient
+  unless the live trajectory reaches the required scoring apparatus.
+
+## CON-586 — Contact and ball handling obey basketball foul and violation law
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: attempts to move, screen, defend, possess and contest remain
+  legal only while their contact, positioning and ball-handling state satisfies
+  the current basketball rules and prescribed exception predicates.
+- Includes: legal guarding and screens versus personal, shooting, offensive,
+  travelling, out-of-bounds and backcourt offences in the scoped exhibition.
+- Excludes: football fouls and offside; cosmetic collision; league discipline
+  outside one match; exact foul threshold as a gene; controller assistance.
+- Parameters: actor, opponent, possession, position, contact, screen state,
+  handling state, offence class, exception and remedy.
+- Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
+- Novelty: first isolated for `GAME-0241`; the legality boundary unifies held-
+  ball movement, screening and vertical defensive contact within one sport.
+
+## CON-587 — Living arrest requires eligible custody state and continuing coverage
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a hostile can enter living custody only while alive, eligible and
+  reachable in a legal unaware or compliant state, and a commanded compliant
+  target remains arrestable only under sufficient continuing threat coverage.
+- Includes: rear arrest or `Freeze`-to-arrest legality in Battlefield Hardline's
+  scoped campaign episode.
+- Excludes: arresting a dead or actively attacking target; civilian cable-tie
+  stock; abstract post-combat capture; custody through walls or beyond reach.
+- Parameters: target class, life state, awareness, compliance, reach, player
+  coverage, allied coverage, interruption and custody completion.
+- Evidence: [Battlefield Hardline decomposition](../games/a-f/battlefield-hardline.md).
+- Novelty: first isolated for `GAME-0243`; legal custody couples target state,
+  embodied reach and a continuously maintained coercive relation.

@@ -92,7 +92,8 @@
       "GAME-0083",
       "GAME-0084",
       "GAME-0090",
-      "GAME-0107"
+      "GAME-0107",
+      "GAME-0240"
     ]
   },
   {
@@ -157,7 +158,8 @@
       "GAME-0156",
       "GAME-0166",
       "GAME-0173",
-      "GAME-0220"
+      "GAME-0220",
+      "GAME-0232"
     ]
   },
   {
@@ -232,7 +234,15 @@
       "GAME-0216",
       "GAME-0217",
       "GAME-0220",
-      "GAME-0225"
+      "GAME-0225",
+      "GAME-0226",
+      "GAME-0227",
+      "GAME-0228",
+      "GAME-0234",
+      "GAME-0235",
+      "GAME-0241",
+      "GAME-0242",
+      "GAME-0243"
     ]
   },
   {
@@ -351,7 +361,19 @@
       "GAME-0222",
       "GAME-0223",
       "GAME-0224",
-      "GAME-0225"
+      "GAME-0225",
+      "GAME-0226",
+      "GAME-0227",
+      "GAME-0228",
+      "GAME-0234",
+      "GAME-0235",
+      "GAME-0236",
+      "GAME-0237",
+      "GAME-0238",
+      "GAME-0239",
+      "GAME-0241",
+      "GAME-0242",
+      "GAME-0243"
     ]
   },
   {
@@ -463,15 +485,33 @@
       "GAME-0214",
       "GAME-0215",
       "GAME-0216",
-    "GAME-0217",
-    "GAME-0218",
-    "GAME-0219",
-    "GAME-0220",
-    "GAME-0221",
-    "GAME-0222",
-    "GAME-0223",
-    "GAME-0224",
-    "GAME-0225"
+      "GAME-0217",
+      "GAME-0218",
+      "GAME-0219",
+      "GAME-0220",
+      "GAME-0221",
+      "GAME-0222",
+      "GAME-0223",
+      "GAME-0224",
+      "GAME-0225",
+      "GAME-0226",
+      "GAME-0227",
+      "GAME-0228",
+      "GAME-0229",
+      "GAME-0230",
+      "GAME-0231",
+      "GAME-0232",
+      "GAME-0233",
+      "GAME-0234",
+      "GAME-0235",
+      "GAME-0236",
+      "GAME-0237",
+      "GAME-0238",
+      "GAME-0239",
+      "GAME-0240",
+      "GAME-0241",
+      "GAME-0242",
+      "GAME-0243"
     ]
   },
   {
@@ -495,7 +535,7 @@
     ]
   },
   {
-  "id": "FAM-012",
+    "id": "FAM-012",
     "slug": "knowledge-and-evidence-progression",
     "labelEn": "Knowledge and evidence progression",
     "labelUk": "Просування через знання та докази",
@@ -520,8 +560,11 @@
       "GAME-0148",
       "GAME-0170",
       "GAME-0173",
-    "GAME-0178",
-    "GAME-0205"
+      "GAME-0178",
+      "GAME-0205",
+      "GAME-0229",
+      "GAME-0240",
+      "GAME-0243"
     ]
   },
   {
@@ -567,7 +610,15 @@
       "GAME-0207",
       "GAME-0219",
       "GAME-0221",
-      "GAME-0223"
+      "GAME-0223",
+      "GAME-0227",
+      "GAME-0228",
+      "GAME-0229",
+      "GAME-0230",
+      "GAME-0231",
+      "GAME-0232",
+      "GAME-0233",
+      "GAME-0240"
     ]
   },
   {
@@ -609,7 +660,13 @@
       "GAME-0213",
       "GAME-0214",
       "GAME-0215",
-      "GAME-0220"
+      "GAME-0220",
+      "GAME-0227",
+      "GAME-0229",
+      "GAME-0234",
+      "GAME-0237",
+      "GAME-0238",
+      "GAME-0239"
     ]
   },
   {
@@ -679,7 +736,12 @@
       "GAME-0215",
       "GAME-0218",
       "GAME-0220",
-      "GAME-0221"
+      "GAME-0221",
+      "GAME-0228",
+      "GAME-0230",
+      "GAME-0232",
+      "GAME-0234",
+      "GAME-0241"
     ]
   },
   {
@@ -801,7 +863,22 @@
       "GAME-0222",
       "GAME-0223",
       "GAME-0224",
-      "GAME-0225"
+      "GAME-0225",
+      "GAME-0226",
+      "GAME-0228",
+      "GAME-0229",
+      "GAME-0230",
+      "GAME-0231",
+      "GAME-0232",
+      "GAME-0233",
+      "GAME-0235",
+      "GAME-0236",
+      "GAME-0237",
+      "GAME-0238",
+      "GAME-0239",
+      "GAME-0240",
+      "GAME-0242",
+      "GAME-0243"
     ]
   }
 ]

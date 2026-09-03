@@ -6989,26 +6989,29 @@
 - Evidence: [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md).
 - Novelty: not assessed.
 
-## SYS-384 — Advance or reverse an objective vehicle from team proximity
+## SYS-384 — Advance or reverse an objective vehicle from eligible proximity
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: an active objective vehicle advances along its fixed route while
-  eligible attackers accompany it without defender contest, stops when
-  contested and may reverse toward the latest secured checkpoint under its
-  ruleset's unattended or defender-control condition.
+  eligible participants remain nearby and its route predicates hold; it stops
+  when proximity, contest or route conditions fail and may reverse toward a
+  retained checkpoint when the declared ruleset permits.
 - Includes: Marvel Rivals Convergence escort, up-to-three-attacker speed
   increase, checkpoint locking and defender reversal; Team Fortress 2 Payload
   attacker proximity, defender blocking, capped pusher speed and unattended
-  rollback to the latest secured checkpoint.
+  rollback to the latest secured checkpoint; PAYDAY 3 Road Rage human-only
+  escort proximity, authored route obstacles and reactivation after a stop.
 - Excludes: a player-driven transport; a fixed receiver that accepts one
   independently moved payload; Convoy's omitted opening boundary.
-- Parameters: route, checkpoint, nearby attackers, nearby defenders, contest,
-  forward speed, reverse speed and locked minimum.
+- Parameters: route, checkpoint, eligible nearby participants, ineligible bots,
+  route predicate, nearby opponents, contest, forward speed, stop, reactivation,
+  reverse speed and locked minimum.
 - Evidence: [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md) and
-  [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md).
+  [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md), and
+  [PAYDAY 3 decomposition](../games/m-r/payday-3.md).
 - Novelty: not assessed.
 
 ## SYS-385 — Extend contested objective time and adjudicate its route
@@ -11843,21 +11846,24 @@
   into loss of player authority that can be reversed by exchanging a separately
   controlled civilian resource.
 
-## SYS-650 — Convert vault cash into spatially secured loot credit
+## SYS-650 — Convert bagged valuables into spatially secured loot credit
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: an eligible vault cash source becomes one bagged payload; pickup
+- Definition: an eligible valuable source becomes one bagged payload; pickup
   binds it to one carrier, a throw restores it as a recoverable world object and
   entry into the declared secure region permanently increments secured loot.
-- Includes: one required Bank Heist: Cash money bag deposited in the escape van.
+- Includes: one required PAYDAY 2 Bank Heist: Cash money bag deposited in the
+  escape van; each required PAYDAY 3 Road Rage rare-earth bag secured to the
+  helicopter.
 - Excludes: loose cash credited on contact; an inventory item retained merely
   by surviving; final contract and spending-cash settlement.
 - Parameters: source, bagging, carrier, carry modifier, throw trajectory,
   recoverability, secure region, required count and secured value.
-- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md).
+- Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md) and
+  [PAYDAY 3 decomposition](../games/m-r/payday-3.md).
 - Novelty: first isolated for `GAME-0201`; value becomes objective credit only
   after a reversible carrier/world-state object crosses a fixed deposit border.
 
@@ -11879,6 +11885,8 @@
   roster, occupancy, success flag, contract value, loot value, payout partitions
   and retained result.
 - Evidence: [PAYDAY 2 decomposition](../games/m-r/payday-2.md).
+- Additional support: [PAYDAY 3 decomposition](../games/m-r/payday-3.md), for
+  settling the five-bag Road Rage escape into Heist Results and retained payout.
 - Novelty: first isolated for `GAME-0201`; a spatial departure gate settles a
   preceding transported-value chain into a persistent economic result.
 
@@ -13377,3 +13385,776 @@
 - Evidence: [STAR WARS: Squadrons decomposition](../games/s-z/star-wars-squadrons.md).
 - Novelty: first isolated for `GAME-0225`; an ordered cockpit tutorial-combat
   chain settles into one unconditional retained medal distinct from performance.
+
+## SYS-729 — Convert a scripted vehicle breakdown into a retained campaign reset
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: at a fixed authored driving-event trigger, override ordinary
+  finish evaluation with a vehicle breakdown and forced loss, remove the
+  assigned vehicle, then advance replacement acquisition and checkpoint
+  settlement into a retained early-campaign state.
+- Includes: the oil-leak/engine-failure loss, Lexus IS300 acquisition and first
+  safe-house autosave in Need for Speed: Most Wanted (2005)'s Razor prologue.
+- Excludes: losing an ordinary race by place; collision damage that can be
+  driven through; a player-selected vehicle sale; a later police impound; the
+  complete campaign.
+- Parameters: event, trigger, failure state, removed vehicle, cash grant,
+  replacement offer, selected replacement, destination, save condition and
+  retained campaign state.
+- Evidence: [Need for Speed: Most Wanted (2005) decomposition](../games/m-r/need-for-speed-most-wanted-2005.md).
+- Novelty: first isolated for `GAME-0226`; a live rival event is deliberately
+  denied normal finish authority and settles only through a replacement-asset
+  checkpoint.
+
+## SYS-730 — Recharge a separate first-hit defensive layer
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: apply incoming compatible damage to one dedicated outer defence
+  before ordinary shield and health, then restore that outer reserve over time
+  after its declared no-damage or depletion condition becomes legal.
+- Includes: Fortnite Zero Build Overshield above Shield and Health.
+- Excludes: consumable shield restoration; armour durability; a downed-state
+  barrier; full automatic health regeneration; protection supplied by building.
+- Parameters: damage, outer capacity, remaining charge, inner shield, health,
+  recharge condition, delay, rate, interruption and restored amount.
+- Evidence: [Fortnite decomposition](../games/a-f/fortnite.md).
+- Novelty: first isolated for `GAME-0227`; a mode-owned renewable protection
+  layer exists specifically before two non-regenerating survival layers.
+
+## SYS-731 — Apply a claimed modifier across a live match scope
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after an eligible shared-rule fixture is claimed, activate its
+  typed live modifier for the declared whole-match or claimant-group scope and
+  retain that rule state until its own expiry or match settlement.
+- Includes: Fortnite `v42.00` Match Overrides affecting the whole server or the
+  first eligible claimant squad; in Solo, squad-only scope resolves to the
+  claimant.
+- Excludes: a private ruleset selected before play; an ordinary carried buff;
+  permanent account progression; a local switch that opens only one door.
+- Parameters: fixture, modifier pool, claimant, global or group scope, affected
+  participants, activation, effect, duration, replacement and settlement.
+- Evidence: [Fortnite decomposition](../games/a-f/fortnite.md).
+- Novelty: first isolated for `GAME-0227`; authority acquired inside contested
+  play mutates the continuing rules for participants beyond the interacting
+  avatar.
+
+## SYS-732 — Route Solo defeat through acquired extra life or settlement
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when one Solo participant reaches lethal defeat, consume an
+  applicable acquired match-local extra-life allowance and return that
+  participant under the source's declared state; otherwise finalise removal,
+  update survivor count and placement, and award the last survivor's result.
+- Includes: Fortnite `v42.00` `1-Up Token` full-inventory return, `Extra Life`
+  Match Override and final placement or Victory Royale settlement.
+- Excludes: teammate revival; a mode-owned phase-cutoff Rebirth; unlimited
+  checkpoint respawn; post-match XP, quests, ranks or Ready Up.
+- Parameters: lethal defeat, source, allowance, consumption, return position,
+  retained inventory, protection state, survivors, placement and winner.
+- Evidence: [Fortnite decomposition](../games/a-f/fortnite.md).
+- Novelty: first isolated for `GAME-0227`; an optional acquired match object or
+  modifier can suspend the same Solo elimination that otherwise owns placement
+  and last-survivor adjudication.
+
+## SYS-733 — Advance staged fixtures across an exclusive cooperative-tool handoff
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: accepted operations with one exclusively carried cooperative
+  tool advance and retain an authored sequence of local fixture states; a legal
+  partner handoff preserves completed states, transfers the tool and enables
+  the receiver's separate compatible sequence.
+- Includes: retaining Leo's removed toilet, released panel and cut bars when he
+  passes the Cell Breach chisel to Vincent, who then performs the corresponding
+  sequence at his own cell fixture in A Way Out.
+- Excludes: both partners owning duplicate tools; resetting the first fixture
+  on handoff; free inventory trading; a tool that changes function by target
+  without changing carrier.
+- Parameters: tool, carrier, fixture owner, ordered stages, retained stage,
+  handoff gate, receiver, enabled sequence and completion predicate.
+- Evidence: [A Way Out decomposition](../games/a-f/a-way-out.md).
+- Novelty: first isolated for `GAME-0228`; one retained authored work sequence
+  crosses an exclusive tool transfer before a second human-owned fixture can
+  advance.
+
+## SYS-734 — Restore technology function from repair or charge inputs
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: accepted compatible inputs are consumed into one addressed
+  technology state; completing its damage requirements restores function,
+  while a recharge raises its usable operating reserve.
+- Includes: restoring or charging scoped No Man's Sky Exosuit, Multi-Tool and
+  starter-starship technologies from their declared materials.
+- Excludes: building durability; crafting the input; repairing an autonomous
+  ally; installing an undamaged optional upgrade.
+- Parameters: technology, damage slots, components, charge material, conversion
+  rate, restored function, partial progress and usable reserve.
+- Evidence: [No Man's Sky decomposition](../games/m-r/no-mans-sky.md).
+- Novelty: first isolated for `GAME-0229`; component-slot completion and
+  compatible recharge govern the same addressed technology function.
+
+## SYS-735 — Reveal nearby resources from a local survey pulse
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a valid survey pulse samples eligible targets around its origin
+  and temporarily adds their resource identities and relative bearings to the
+  local observable state.
+- Includes: Scanner-discovered resources that the Analysis Visor identifies and
+  distances during the scoped No Man's Sky opening.
+- Excludes: persistent catalogue credit; a complete future map; held analysis of
+  one preselected target; hostile radar.
+- Parameters: origin, radius, target filter, identity, bearing, approximate
+  distance, marker lifetime and occlusion rule.
+- Evidence: [No Man's Sky decomposition](../games/m-r/no-mans-sky.md).
+- Novelty: first isolated for `GAME-0229`; active local sampling creates
+  temporary resource-route evidence rather than a discovery result.
+
+## SYS-736 — Advance staged tutorial guidance on completed predicates
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the tutorial retains its current stage until the taught action or
+  state predicate is satisfied, records completion and exposes the next
+  authored instruction or destination.
+- Includes: No Man's Sky Awakenings advancing through survival recharge,
+  Scanner repair, ship discovery, production, launch, signal travel and the
+  first building-terminal interaction.
+- Excludes: a complete quest graph visible in advance; unstructured sandbox
+  activity; a tutorial settled only by time; optional hints with no gate.
+- Parameters: tutorial, stage, taught action, required state, completion flag,
+  next instruction, destination marker and retained progress.
+- Evidence: [No Man's Sky decomposition](../games/m-r/no-mans-sky.md).
+- Novelty: first isolated for `GAME-0229`; one instruction at a time is both an
+  information surface and an authoritative progression predicate.
+
+## SYS-737 — Apply damage and regenerate personal health after a quiet interval
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: eligible incoming attacks reduce one personal health pool;
+  reaching zero defeats the controlled body, while remaining free of new damage
+  for the required interval begins automatic restoration toward its allowed cap.
+- Includes: Iden's health loss, death and delayed full health regeneration in
+  the scoped STAR WARS Battlefront II (2017) campaign prologue.
+- Excludes: a shield preceding health; consumable healing; teammate revival;
+  partial passive recovery that needs a supply source for the remaining health.
+- Parameters: maximum health, current health, incoming damage, quiet interval,
+  regeneration rate, recovery cap, interruption and defeat threshold.
+- Evidence: [STAR WARS Battlefront II (2017) decomposition](../games/s-z/star-wars-battlefront-ii-2017.md).
+- Novelty: first isolated for `GAME-0230`; temporary withdrawal from damage is
+  sufficient to restore the same live-combat health pool without an item.
+
+## SYS-738 — Accumulate weapon heat and resolve passive or timed active cooling
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: firing adds heat to the active weapon; pausing fire lowers heat
+  over time, while a correctly timed input inside the authored cooling window
+  may accelerate or improve the return to a fire-ready state.
+- Includes: blaster heat, overheat, passive cooldown and active cooling in the
+  scoped STAR WARS Battlefront II (2017) campaign prologue.
+- Excludes: consuming magazine ammunition; reloading a carried reserve;
+  weapon durability; a character ability cooldown unrelated to weapon fire.
+- Parameters: heat per shot, heat capacity, passive cooling rate, active window,
+  input timing, success band, penalty and ready state.
+- Evidence: [STAR WARS Battlefront II (2017) decomposition](../games/s-z/star-wars-battlefront-ii-2017.md).
+- Novelty: first isolated for `GAME-0230`; one firing budget supports both
+  waiting and a timing-sensitive intervention rather than a finite reload.
+
+## SYS-739 — Rebind a persistent support unit from remote body to companion ability
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an authored mission gate transfers direct control away from one
+  persistent support unit to another protagonist while preserving the support
+  unit and exposing its legal actions thereafter as command-driven abilities.
+- Includes: the scoped transition from directly controlled ID10 to Iden, with
+  ID10 retained as her shock, scan and slice support in The Cleaner.
+- Excludes: a player-selected character swap; changing vehicle seats; summoning
+  a newly created companion; commanding a unit that was never directly controlled.
+- Parameters: support unit, initial controller, handoff gate, new protagonist,
+  preserved state, rebound actions, command target and readiness.
+- Evidence: [STAR WARS Battlefront II (2017) decomposition](../games/s-z/star-wars-battlefront-ii-2017.md).
+- Novelty: first isolated for `GAME-0230`; the same authored unit crosses from
+  embodied control locus to subordinate ability without player-selected switching.
+
+## SYS-740 — Apply committed initial attributes to persistent character statistics
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: confirmation retains the chosen initial attribute values as the
+  character's starting statistical profile and applies each value to its
+  declared capabilities, resources or later eligibility.
+- Includes: Fallout 4 retaining seven committed S.P.E.C.I.A.L. values as the
+  fresh character's starting statistics and perk prerequisites.
+- Excludes: cosmetic body preset; temporary buff; equipment modifiers; later
+  level-up or perk spending; narrative lifepath flag.
+- Parameters: character, attributes, committed values, derived effects,
+  eligibility, persistence and later modification boundary.
+- Evidence: [Fallout 4 decomposition](../games/a-f/fallout-4.md).
+- Novelty: first isolated for `GAME-0231`; numeric creation choices become one
+  retained profile before later advancement systems are available.
+
+## SYS-741 — Settle redeemed challenge rows into a guided destination quest
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: record independently satisfied tracked predicates, settle each
+  separately claimed row reward and, after every required row is redeemed,
+  issue one new world-destination quest with its marker and terminal reward.
+- Includes: the 7 Days to Die `Basics of Survival` group issuing `Journey to
+  Settlement`, which marks the nearest White River Outpost and credits its
+  Stone Shovel reward when the trader-radius objective is reached.
+- Excludes: a strictly hidden one-step-at-a-time tutorial; a checklist whose
+  group completion has no mechanical result; trader jobs accepted after
+  arrival; a reward granted merely by elapsed time.
+- Parameters: predicate set, completion flags, row claims, required rows, group
+  readiness, issued quest, destination selection, marker, spatial terminal and
+  terminal reward.
+- Evidence: [7 Days to Die decomposition](../games/0-9/7-days-to-die.md).
+- Novelty: first isolated for `GAME-0233`; independently redeemed tutorial rows
+  compose into a new spatial service route rather than ending at the checklist.
+
+## SYS-742 — Aggregate control-point ownership into complete sector control
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the system groups authored control points into sectors, preserves
+  each point's independent ownership and spawn utility, and grants full sector
+  control to one team only while that team owns every included point.
+- Includes: Battlefield 2042 Conquest sectors whose several flags can supply a
+  foothold before the complete sector changes owner.
+- Excludes: a flat list in which every point independently drains tickets; an
+  ordered attacker-only sector advance; a zone captured by one touch.
+- Parameters: sector, included points, point owners, contested points,
+  foothold state, complete owner and ownership loss.
+- Evidence: [Battlefield 2042 decomposition](../games/a-f/battlefield-2042.md).
+- Novelty: first isolated for `GAME-0234`; local points retain tactical value
+  while only their all-owned aggregate establishes the strategic unit.
+
+## SYS-743 — Convert committed defeats and sector majority into reinforcement loss
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the system debits a finite team reinforcement pool when a
+  combatant's defeat is committed and repeatedly debits the opposing pool
+  while one side controls a majority of the map's sectors, ending the match
+  when either pool reaches zero.
+- Includes: Battlefield 2042 Conquest ticket loss from settled combatant
+  defeats plus the continuing bleed created by majority sector control.
+- Excludes: drain from every individually owned point; an attacker-only pool;
+  personal score as the match objective; account experience after settlement.
+- Parameters: team pools, committed defeat, sector count, majority predicate,
+  drain cadence, zero threshold, simultaneous update and match result.
+- Evidence: [Battlefield 2042 decomposition](../games/a-f/battlefield-2042.md).
+- Novelty: first isolated for `GAME-0234`; point ownership is first aggregated
+  into sectors and only sector majority creates the continuing team-resource
+  pressure.
+
+## SYS-744 — Apply a live attachment selection to current weapon behaviour
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a compatible live attachment choice is committed, the
+  system replaces the current option in that category and immediately applies
+  its declared sight, barrel, ammunition or underbarrel effects to the held
+  weapon.
+- Includes: Battlefield 2042 Plus Menu changes that adapt the current firearm
+  during an ongoing life.
+- Excludes: regional armour durability; acquiring an attachment; choosing the
+  next deployment's weapon; a permanent weapon-level upgrade.
+- Parameters: weapon, category, previous option, selected option, handling,
+  sight picture, ammunition state, modifier and activation timing.
+- Evidence: [Battlefield 2042 decomposition](../games/a-f/battlefield-2042.md).
+- Novelty: first isolated for `GAME-0234`; it separates live weapon-state
+  adaptation from PUBG's coupled attachment-and-armour resolution.
+
+## SYS-745 — Deliver a confirmed support vehicle into live world state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an accepted live support request reserves the selected shared
+  vehicle capacity, schedules its spatial delivery and makes the vehicle an
+  operable world entity at the confirmed legal position.
+- Includes: Battlefield 2042's air-dropped ground vehicles requested through
+  the ordinary call-in system.
+- Excludes: entering the vehicle; a vehicle already present on the map;
+  deployment-screen aircraft entry; a scripted mission arrival.
+- Parameters: vehicle, team capacity, reservation, delivery delay, carrier,
+  target pose, arrival state, cancellation and requester cooldown.
+- Evidence: [Battlefield 2042 decomposition](../games/a-f/battlefield-2042.md).
+- Novelty: first isolated for `GAME-0234`; a shared match asset becomes a
+  player-positioned operable entity through a bounded delivery transition.
+
+## SYS-746 — Spend race-recovery stock to restore the last passed checkpoint
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when a live driving event accepts a manual recovery request or a
+  qualifying wreck, the system debits one dedicated recovery unit and restores
+  the assigned vehicle to the last passed course checkpoint; consuming the
+  final available unit fails the event instead of restoring another attempt.
+- Includes: Checkpoint Resets during the scoped Normal Stage 1 of Need for
+  Speed: The Run.
+- Excludes: a cost-free mission retry after failure; player-scrubbed continuous
+  rewind; loading a campaign save; repairing damage without changing position;
+  starting the whole event again.
+- Parameters: event, vehicle, trigger, last passed checkpoint, stock before,
+  debit, restored pose, retained progress, final-unit rule and failure state.
+- Evidence: [Need for Speed: The Run decomposition](../games/m-r/need-for-speed-the-run.md).
+- Novelty: first isolated for `GAME-0235`; recovery is a live event resource
+  whose last spend converts the same request from restoration into failure.
+
+## SYS-747 — Preserve an actor-bound tactical mark through occlusion
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after an eligible observation completes, the system binds a
+  tactical marker to that living actor and keeps its current world or map
+  position available through ordinary visual occlusion until target state,
+  distance, encounter closure or another declared invalidation removes it.
+- Includes: Far Cry 3 camera tags that retain marked pirates and animals in the
+  world view and on the map while they move behind ordinary cover.
+- Excludes: current line-of-sight highlighting only; an omniscient marker never
+  acquired by observation; a fixed objective location; team-shared vehicle
+  spotting governed by radio range.
+- Parameters: observer, actor, acquisition state, world marker, map marker,
+  position update, occlusion, lifetime and invalidation.
+- Evidence: [Far Cry 3 decomposition](../games/a-f/far-cry-3.md).
+- Novelty: first isolated for `GAME-0236`; a player-acquired mark follows a
+  particular live actor after ordinary sight is lost.
+
+## SYS-748 — Convert a cleared hostile site into a retained allied service node
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when the closed required hostile set at one occupied world site
+  is cleared, the system changes local ownership to the allied state and
+  retains the site's declared travel, service or successor affordances.
+- Includes: Far Cry 3's scoped first outpost changing to Rakyat control and
+  retaining its fast-travel point, vendor access and next-story availability.
+- Excludes: temporary match-zone capture; clearing an ordinary room whose doors
+  reopen without persistent ownership; defeating ambient enemies at a location
+  that can repopulate; an account-level unlock unrelated to site clearance.
+- Parameters: site, hostile closure, prior owner, new owner, travel point,
+  service set, successor gate, save state and relaunch persistence.
+- Evidence: [Far Cry 3 decomposition](../games/a-f/far-cry-3.md).
+- Novelty: first isolated for `GAME-0236`; finite local combat permanently
+  rewrites both territorial ownership and the site's operational affordances.
+
+## SYS-749 — Release a finite hostile group from a settled authored world trigger
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when a declared traversal threshold, target defeat or world-item
+  collection settles, the system instantiates its fixed finite hostile group at
+  authored regions and routes that group into the current live encounter.
+- Includes: the first charging target's defeat releasing a larger rush and the
+  mandatory hall threshold releasing Marsh-Hoppers in Serious Sam HD: The First
+  Encounter's scoped Sand Canyon level.
+- Excludes: an adaptive population selected from current intensity; a
+  clock-indexed survival wave; an interaction-only panic request whose route
+  transition continues independently; a player-built spawner; endlessly
+  repeatable farming from the same trigger.
+- Parameters: trigger class, prerequisite state, authored region, hostile
+  roster, finite closure, navigation target, one-shot policy and active group.
+- Evidence: [Serious Sam HD: The First Encounter decomposition](../games/s-z/serious-sam-hd-the-first-encounter.md).
+- Novelty: first isolated for `GAME-0237`; the same portable resolver admits
+  traversal, defeat and collection predicates while keeping each released
+  population authored, finite and attributable to one settled world state.
+
+## SYS-750 — Apply delayed restorative recovery against continuing damage
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a live restorative request is accepted, the system marks
+  its recoverable health portion and converts that portion into restored health
+  over time while later incoming damage is still applied on top of the pending
+  recovery state.
+- Includes: Max Payne (2001)'s painkiller recovery, whose faded pending portion
+  takes several seconds to settle while new damage remains additive.
+- Excludes: an interruptible use channel that grants nothing when cancelled;
+  full passive regeneration after avoiding damage; an instantaneous atomic
+  heal; temporary health that decays without becoming restored health.
+- Parameters: accepted item, missing health, recoverable portion, pending-health
+  marker, recovery rate, incoming damage, cap, interruption policy and settled
+  health.
+- Evidence: [Max Payne (2001) decomposition](../games/m-r/max-payne-2001.md).
+- Novelty: first isolated for `GAME-0238`; recovery and new damage coexist in
+  one readable transition instead of the item use blocking combat or settling
+  the full health change at input time.
+
+## SYS-751 — Adapt hostile performance to recent player effectiveness
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during one declared ruleset, the system evaluates recent player
+  effectiveness and adjusts eligible hostile behaviour or combat performance
+  toward an easier or harder response without requiring a new difficulty
+  selection.
+- Includes: Max Payne (2001)'s default Fugitive mode, where enemy behaviour and
+  performance adjust in the player's favour during difficulty and rise when
+  the player is succeeding easily.
+- Excludes: choosing a fixed difficulty before play; scaling only from character
+  level; a racing field whose strength follows one selected difficulty value;
+  sampling an encounter population from a pacing director.
+- Parameters: performance sample, evaluation window, lower and upper response,
+  eligible hostile properties, adjustment cadence, bounds and reset scope.
+- Evidence: [Max Payne (2001) decomposition](../games/m-r/max-payne-2001.md).
+- Novelty: first isolated for `GAME-0238`; one fixed campaign mode changes the
+  opposing combat response from observed play rather than from an explicit
+  pre-run setting or authored encounter identity.
+
+## SYS-752 — Execute commanded local ally follow and role-specific assistance
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after an eligible allied world actor accepts a follow relation,
+  the system routes that living actor toward the controlled avatar and executes
+  the actor's available local role-specific help until wait, refusal, defeat or
+  route separation ends the relation.
+- Includes: a Half-Life (1998) scientist following and using an admitted access
+  fixture or healing, and a security guard following and autonomously firing at
+  an eligible local hostile.
+- Excludes: an owned companion deployed from inventory; a permanently equipped
+  party member; a human-controlled partner; an untoggleable scripted escort;
+  direct player control of the allied actor.
+- Parameters: actor, follow target, path, separation, local target, role
+  capability, fixture, heal, attack, wait, refusal, health and defeat.
+- Evidence: [Half-Life (1998) decomposition](../games/g-l/half-life-1998.md).
+- Novelty: first isolated for `GAME-0239`; one transient world relation routes
+  the actor and exposes capability-specific assistance without persistent
+  ownership, deployment or a companion build.
+
+## SYS-753 — Transfer a finite fixture reservoir into a compatible personal meter
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while a legal continuous interaction remains held, the system
+  repeatedly moves units from one fixed world fixture's finite reservoir into a
+  compatible missing personal meter, retaining the reduced fixture stock and
+  stopping at user capacity, depletion or interaction loss.
+- Includes: a wall health station restoring missing health during Half-Life
+  (1998)'s scoped `Unforeseen Consequences` route.
+- Excludes: consuming a carried restorative; an instantaneous pickup; passive
+  regeneration; a station with unlimited output; a refill that replaces the
+  actor's equipment rather than changing a personal meter.
+- Parameters: fixture, reservoir, actor, target meter, transfer quantum,
+  cadence, capacity, held interaction, transferred amount and stop reason.
+- Evidence: [Half-Life (1998) decomposition](../games/g-l/half-life-1998.md).
+- Novelty: first isolated for `GAME-0239`; personal recovery and world-fixture
+  depletion remain coupled across a continuous player-maintained relation.
+
+## SYS-754 — Drain and automatically recharge toggled portable illumination
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an active personal illumination device emits its bounded local
+  light field while draining a separate reserve; an inactive device removes
+  that field and automatically restores the same reserve toward its cap.
+- Includes: HEV flashlight energy drain and automatic recharge in Half-Life
+  (1998)'s scoped `Unforeseen Consequences` route.
+- Excludes: fuel consumed by a placed torch or campfire; a light with no
+  resource state; passive darkness survival; a combat shield sharing the same
+  reserve; disposable illumination with no recharge.
+- Parameters: device, active state, light field, reserve, drain rate, recharge
+  rate, cap, empty response and update interval.
+- Evidence: [Half-Life (1998) decomposition](../games/g-l/half-life-1998.md).
+- Novelty: first isolated for `GAME-0239`; one personal information field trades
+  immediate visibility against a reserve that recovers automatically only
+  outside the active state.
+
+## SYS-755 — Resolve damage-threshold destruction of an eligible world object
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: accepted damage or a declared trigger reduces an eligible world
+  object's retained durability and, when its break threshold is reached,
+  removes its solid body while resolving declared debris, linked targets or
+  contained output.
+- Includes: crowbar or other eligible damage breaking route glass and other
+  admitted breakable objects in Half-Life (1998)'s scoped chapter.
+- Excludes: defeating a living combatant; mining a terrain cell for resources;
+  scripted destruction with no eligible damage/trigger relation; moving an
+  intact rigid prop; cosmetic decals that leave collision unchanged.
+- Parameters: object, material, durability, accepted damage type, trigger,
+  threshold, solid state, debris, linked target, contents and attribution.
+- Evidence: [Half-Life (1998) decomposition](../games/g-l/half-life-1998.md).
+- Novelty: first isolated for `GAME-0239`; ordinary world-object damage can
+  deterministically remove collision and propagate optional authored outputs
+  without being classified as combatant defeat or terrain harvesting.
+
+## SYS-756 — Evaluate retained manual-recipe process into graded output
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: retain a manual workstation batch's base, ingredients,
+  preparation, operation order, heat intervals and vessel history, then
+  evaluate that history into its target grade, lesser result or failure.
+- Includes: resolving Kingdom Come: Deliverance II's scoped manually operated
+  brew after wine, chamomile, timed heat, ground sage and phial operations.
+- Excludes: one-click crafting; autonomous production; crafting-grid matching;
+  a binary ingredient check that ignores processing order and timing.
+- Parameters: batch, base, ingredients, preparations, order, intervals, vessel,
+  target recipe, grade and failure output.
+- Evidence: [Kingdom Come: Deliverance II decomposition](../games/g-l/kingdom-come-deliverance-ii.md).
+- Novelty: first isolated for `GAME-0240`; player-authored visible process
+  history, not one craft request, determines product grade.
+
+## SYS-757 — Resolve one shared basketball between controlled possession and free motion
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: resolve one live shared ball across held control, legal dribble,
+  pass, shot, deflection, collision and free-flight states while preserving one
+  attributable possession or loose-ball contest.
+- Includes: the ball moving among controlled dribble, passes, shots, rebounds
+  and steals during the scoped NBA 2K26 exhibition.
+- Excludes: a continuously foot-propelled football; one ball per actor; a menu
+  token; an abstract possession with no spatial ball; a scripted animation
+  whose result is fixed before the live state.
+- Parameters: ball, possessor, hand state, dribble, trajectory, collision,
+  deflection, loose state, control acquisition and possession attribution.
+- Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
+- Novelty: first isolated for `GAME-0241`; the same object alternates between
+  hand-governed possession and physically contestable free motion.
+
+## SYS-758 — Resolve release timing and defensive coverage into a basket attempt
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: combine an accepted basket attempt's release timing, aim,
+  distance, shooter capabilities, movement and defensive coverage to determine
+  its trajectory and made, missed or blocked outcome.
+- Includes: NBA 2K26 jump-shot, layup and dunk resolution under its current
+  timing and interior-defence systems.
+- Excludes: deterministic geometry alone; an uncontested menu probability; a
+  football goal attempt; score registration after the ball already enters.
+- Parameters: attempt, timing sample, aim, distance, movement, attributes,
+  coverage, contact, trajectory and outcome.
+- Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
+- Novelty: first isolated for `GAME-0241`; user-controlled release quality and
+  live coverage jointly resolve the spatial scoring attempt.
+
+## SYS-759 — Coordinate non-controlled basketball roles under team AI
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: continuously position and route non-controlled teammates and the
+  opposing side according to possession, court role, spacing, marking,
+  screening, transition and automatic rotation state.
+- Includes: off-ball cuts, spacing, help defence, transition lanes and automatic
+  line-up rotation during the scoped NBA 2K26 exhibition.
+- Excludes: direct control of the current player; a precomputed sports result;
+  persistent roster construction; a human-controlled second side; scripted
+  actors that ignore live possession.
+- Parameters: side, role, possession, assignment, spacing, route, help state,
+  transition, fatigue, rotation and difficulty.
+- Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
+- Novelty: first isolated for `GAME-0241`; five-player court roles continuously
+  reorganise around held and free-ball phases rather than football formations.
+
+## SYS-760 — Resolve missed basket attempts into rebounds and new possession
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after an eligible basket attempt fails to score, resolve rim or
+  backboard contact, nearby position, timing and contest into a rebound, loose
+  ball or boundary result that assigns the next possession state.
+- Includes: offensive and defensive rebounds after missed NBA 2K26 attempts.
+- Excludes: retrieving a scored ball for a prescribed restart; goalkeeper save;
+  a guaranteed inventory pickup; a miss that instantly grants possession
+  without spatial contest.
+- Parameters: miss trajectory, surface contact, eligible players, position,
+  timing, attributes, contest, rebound, loose ball and possession.
+- Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
+- Novelty: first isolated for `GAME-0241`; a failed scoring attempt creates a
+  live spatial contest that can extend or reverse the same possession phase.
+
+## SYS-761 — Adjudicate basketball fouls and violations into dead-ball remedies
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: evaluate live contact, ball handling, position, boundaries and
+  clock predicates, stop play on an offence and select the prescribed turnover,
+  inbound, free throw or continuation remedy.
+- Includes: personal fouls, shooting fouls, travelling, backcourt, out-of-bounds
+  and shot-clock violations during the scoped NBA 2K26 exhibition.
+- Excludes: a football referee; a cosmetic whistle; player-created house rules;
+  sanctions outside the admitted match; score weighting itself.
+- Parameters: actor, act, contact, position, possession, clock, offence,
+  advantage or continuation, remedy, inbound and free throws.
+- Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
+- Novelty: first isolated for `GAME-0241`; basketball-specific live predicates
+  branch into possession changes and one-or-more uncontested scoring attempts.
+
+## SYS-762 — Convert legal baskets and free throws into weighted team score
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when the live ball legally passes through a basket or an awarded
+  free throw scores, credit the responsible side by the point value determined
+  by attempt type and release location, then enter the prescribed continuation.
+- Includes: one-point free throws, two-point field goals and three-point field
+  goals in the scoped NBA 2K26 exhibition.
+- Excludes: total goals where every score has one value; style points; player
+  progression currency; an invalid attempt; displaying a score without
+  changing it.
+- Parameters: side, scorer, attempt type, release location, basket crossing,
+  legality, point value, team score and continuation.
+- Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
+- Novelty: first isolated for `GAME-0241`; one scoring target produces discrete
+  weighted values from both location and awarded attempt class.
+
+## SYS-763 — Advance four periods and required overtime into final score
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: advance one configured head-to-head match through four regulation
+  periods, period breaks and any required overtime, then classify the final
+  unequal score as a win and loss and expose the settled result.
+- Includes: four five-minute configured quarters and repeated overtime if the
+  NBA 2K26 Play Now score remains tied.
+- Excludes: a regulation draw; season standings; a best-of series; simulating
+  the match from a menu; an arbitrary mid-match stopping point.
+- Parameters: period count, configured duration, game clock, break, regulation
+  score, tie predicate, overtime duration, final score and result.
+- Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
+- Novelty: first isolated for `GAME-0241`; four-period expiry cannot settle a
+  tie and instead extends the same contest until an unequal terminal score.
+
+## SYS-764 — Resolve assisted vehicle motion through selected live path prompts
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: continuously propel and steer an assigned vehicle along its
+  current legal course path, then resolve each accepted live route or manoeuvre
+  prompt into the next assisted trajectory without granting unrestricted
+  steering authority to the player.
+- Includes: TouchDrive propulsion, steering and committed branch/manoeuvre
+  resolution in the scoped Asphalt Legends Career race.
+- Excludes: a fully directly steered car; a fixed rail with no live choices;
+  route planning on a static map; autonomous rival behaviour.
+- Parameters: vehicle, course, current path, speed, offered options, accepted
+  option, assisted steering, propulsion, transition and cancellation.
+- Evidence: [Asphalt Legends decomposition](../games/a-f/asphalt-legends.md).
+- Novelty: first isolated for `GAME-0242`; continuous path authority is split
+  from the player's discrete control over currently offered transitions.
+
+## SYS-765 — Convert eligible driving manoeuvres into ordinary nitro charge
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: detect eligible live vehicle manoeuvres and add their resolved
+  contribution to the same bounded ordinary nitro gauge that can later be
+  spent on vehicle acceleration.
+- Includes: drift and airborne stunt contribution to nitro during the scoped
+  Asphalt Legends Career race.
+- Excludes: a separately capped technique burst; collecting a fixed boost pad;
+  passive recharge independent of driving state; permanent engine upgrades.
+- Parameters: vehicle, manoeuvre family, eligibility, duration or completion,
+  gain, gauge before, gauge cap, gauge after and reset.
+- Evidence: [Asphalt Legends decomposition](../games/a-f/asphalt-legends.md).
+- Novelty: first isolated for `GAME-0242`; multiple resolved vehicle
+  manoeuvres refill an ordinary spendable acceleration gauge in the same race.
+
+## SYS-766 — Maintain threat-backed hostile compliance until custody or control loss
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an accepted authority command moves eligible hostiles into a
+  compliant state that persists only while sufficient player or allied threat
+  coverage remains, then resolves each target into living custody, renewed
+  hostility or another legal invalidation.
+- Includes: Battlefield Hardline campaign `Freeze`, continuing aimed coverage,
+  partner coverage and subsequent living arrest.
+- Excludes: permanent surrender after one dialogue choice; civilian panic;
+  a stun with fixed duration; ordinary morale routing after army combat.
+- Parameters: hostile set, authority, aim coverage, allied coverage, compliance,
+  capacity, arrest, loss trigger, renewed attack and invalidation.
+- Evidence: [Battlefield Hardline decomposition](../games/a-f/battlefield-hardline.md).
+- Novelty: first isolated for `GAME-0243`; surrender remains a live maintained
+  control relation rather than an instantaneous or permanently settled state.

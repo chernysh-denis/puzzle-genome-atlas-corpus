@@ -3,7 +3,7 @@ game_id: GAME-0217
 slug: need-for-speed-underground
 game_title: "Need for Speed Underground"
 analysis_status: reviewed
-reviewed: 2026-09-01
+reviewed: 2026-09-02
 combination_ids:
   - COMB-0215
 gene_ids:
@@ -191,8 +191,9 @@ gene instances but do not enter the signature.
 
 ### Objective Genes
 
-- New `OBJ-134`: win the opening `Jose's Got Your Back` Circuit, receive its
-  Easy Bank reward and retain Race 1 completion in Underground Mode.
+- Revised `OBJ-134`: win one bounded rival race and retain its disclosed
+  result/reward. In this packet the parameters are the opening `Jose's Got
+  Your Back` Circuit, Easy, `375` Bank and Race 1 completion.
 - Success, evaluation and failure: a first-place valid two-lap finish settles
   the positive terminal. Lower place, quit or restart does not. A shortcut is
   legal only insofar as the resulting course traversal still produces a valid
@@ -283,7 +284,7 @@ gene instances but do not enter the signature.
 - Exact genome matches: none.
 - Tied near matches: `GAME-0199` — Need for Speed Unbound (`13 / 25 = 0.520000`).
 - Supported combination subsets: `COMB-0215`.
-- Scan date: 2026-09-01.
+- Scan date: 2026-09-02.
 
 ### Selected-neighbour interpretation
 
@@ -293,7 +294,6 @@ gene instances but do not enter the signature.
 
 ### Preserved research notes
 
-- New genes: `OBJ-134`.
 - Reused genes: `ACT-290`, `ACT-292`, `ACT-293`, `SYS-320`, `SYS-515`,
   `SYS-516`, `SYS-519`, `CON-438`, `INF-204`, `INF-205`, `INF-206`,
   `INF-208` and `TIM-003`.
@@ -316,8 +316,10 @@ gene instances but do not enter the signature.
 
 - Registry changes: `OBJ-134`, `COMB-0215` and relevant existing family
   memberships; reused gene records gain Need for Speed Underground evidence.
-- Taxonomy-change record: none; no previous reviewed-game signature, gene
-  definition boundary or lifecycle changes.
+- Taxonomy-change record:
+  [`TAXONOMY_CHANGE_017`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_017.md)
+  generalises `OBJ-134` after a full racing-objective transfer scan. No game
+  signature, combination set or lifecycle changes.
 - Candidate terms affected: `Jose's Got Your Back`, Olympic Square, first
   Underground Circuit, Easy Bank reward and lawful legacy artefact boundary.
 
@@ -346,8 +348,9 @@ gene instances but do not enter the signature.
 
 ## Нові гени
 
-- [Observation | Corroborated | High] `OBJ-134` ізолює перемогу та збереження
-  результату першого Circuit у режимі Underground.
+- [Observation | Corroborated | High] Узагальнений `OBJ-134` ізолює перемогу в
+  скінченному заїзді проти суперників і збереження результату та винагороди;
+  перший Circuit у режимі Underground є параметризованим прикладом.
 
 ## Нові комбінації
 
