@@ -16,6 +16,7 @@ by canonical records are included as public research evidence.
 ## Browse
 
 - [Game genomes](knowledge/games/INDEX.md)
+- [Ukrainian research overviews](knowledge/locales/uk/research/README.md)
 - [Gene registry](knowledge/genes/README.md)
 - [Verified combinations](knowledge/combinations/INDEX.md)
 - [Evidence model](docs/EVIDENCE_MODEL.md)

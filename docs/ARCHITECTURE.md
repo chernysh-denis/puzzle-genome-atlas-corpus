@@ -231,6 +231,14 @@ authority until a separately accepted editor exists. The accepted target
 publishes one immutable static website release. The public Git corpus remains
 an exact append-only projection rather than an independently editable mirror.
 
+Public research navigation is locale-separated under
+[`ADR-012`](architecture-decisions/ADR-012-locale-separated-public-research.md).
+English site pages link to English canonical Markdown. Ukrainian site pages
+link to deterministic Ukrainian research overviews generated from reviewed
+localisation records under `knowledge/locales/uk/research/`. A missing
+localised record fails publication; it never falls back across the language
+boundary.
+
 Dependency-free derived Python tools share the readers in
 `scripts/generate_indexes.py`. The repository validator keeps an independent
 parse so it can detect disagreement with generated output rather than repeat

@@ -1,26 +1,24 @@
-# Ukrainian localisation layer
+# Український шар локалізації
 
-This directory contains reviewed Ukrainian presentation translations of the
-canonical English research corpus. Translation records never replace gene IDs,
-English definitions, evidence fields or taxonomy boundaries.
+Цей каталог містить перевірені українські переклади представлення канонічного
+англійського дослідницького корпусу. Переклади ніколи не замінюють ID генів,
+англійські визначення, поля доказів або межі таксономії.
 
-`genes.json` is organised by stable gene ID. Every record must contain a
-Ukrainian label, operational definition, inclusion boundary, exclusion
-boundary, review date and the game batch that introduced it. A batch covers the
-union of genes used by up to five consecutive games; shared genes are translated
-once and reused by later batches.
+`genes.json` упорядковано за стабільними ID генів. Кожен запис має містити
+українську назву, операційне визначення, межу включення, межу виключення, дату
+перегляду та batch, у якому його додано. Спільний ген перекладається один раз і
+повторно використовується в наступних batch.
 
-`games.json` and `combinations.json` contain reviewed presentation layers keyed
-by stable corpus ID. Combination records translate the canonical label,
-decision structure and novelty-assessment boundary one combination at a time.
-Original game titles and all canonical English research records remain intact.
+`games.json` і `combinations.json` містять перевірені шари представлення,
+прив’язані до стабільних ID корпусу. Записи комбінацій перекладають канонічну
+назву, структуру рішення та межу оцінювання новизни. Оригінальні назви ігор та
+всі канонічні англійські дослідницькі записи залишаються незмінними.
 
-Translation review checks semantic equivalence against the canonical registry,
-consistent terminology across gene types and preservation of examples and
-negative boundaries. The web application uses the English record as fallback
-until a reviewed Ukrainian entry exists.
+Під час публікації з цих перевірених даних детерміновано створюються українські
+дослідницькі огляди в `research/`. Український сайт посилається лише на них, а
+англійський — лише на канонічні англійські записи.
 
-All reviews follow the repository-wide
-[Ukrainian localisation policy](../../../docs/UKRAINIAN_LOCALISATION_POLICY.md).
-In particular, a reviewed entry must be a complete translation rather than an
-English shorthand or a shortened Ukrainian paraphrase.
+Перевірка локалізації контролює семантичну відповідність канонічному реєстру,
+узгодженість термінів між типами генів, а також збереження прикладів і
+негативних меж. Усі перевірки виконуються за
+[політикою української локалізації](../../../docs/UKRAINIAN_LOCALISATION_POLICY.md).

@@ -283,26 +283,3 @@ autonomous-colony boundary without assuming either game is a clone.
   ONI's complete conserved cell-mass and phase-transition boundary.
 - `ACT-146` was rejected: DF skills chiefly grow through work rather than a
   player-spent prerequisite point with morale expectation.
-
-## Delta summary
-
-## Нові факти
-
-- Просторові позначення, фільтри й політики створюють роботу, яку автономно
-  розбирають мешканці з власними навичками, потребами та пам’яттю.
-- Фортеця є частиною згенерованого історичного світу, а не ізольованою мапою.
-- Прибуття монарха дає перевірювану межу аналізу перед новим квестом Mountainhome.
-
-## Нові гени
-
-- `ACT-150`–`ACT-154`; `SYS-195`–`SYS-202`; `CON-198`–`CON-201`; `INF-072`; `OBJ-061`.
-
-## Нові комбінації
-
-- `COMB-0124` — автономна робота фортеці через просторові позначення,
-  фільтроване постачання й умовне виробництво.
-
-## Зміни таксономії
-
-- Нових родин не створено. Гра включена до `FAM-008`, `FAM-010`, `FAM-015`
-  і `FAM-017`.

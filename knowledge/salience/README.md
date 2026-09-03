@@ -18,10 +18,9 @@ partition of its complete active genome. Roles are ordinal categories, not
 numeric weights. They do not alter Jaccard similarity, gene admission,
 combination support or novelty claims.
 
-The public interface may translate the controlled `structural` role as
-"Core loop" / "Основний цикл" and `supporting` as "Supporting" / "Підтримка"
-to reduce research jargon. These labels do not change the stored role or its
-boundary.
+The public interface may translate the controlled `structural` and `supporting`
+role labels inside its locale-specific presentation layer to reduce research
+jargon. Those labels do not change the stored role or its boundary.
 
 The reviewed registry lives in [`pilot.json`](pilot.json). The initial pilot and
 its sequential expansions now provide a complete reviewed role partition for

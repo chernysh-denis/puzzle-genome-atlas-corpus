@@ -319,8 +319,8 @@ No pre-migration reviewed selected-neighbour table row exists for: `GAME-0119`.
 
 - `shapez 2 - Factory` is the current official store title; the stable slug
   remains `shapez-2` so title changes do not break URLs.
-- The Ukrainian display keeps the brand and adds the explanatory translation
-  `Форми 2 — Фабрика` in parentheses.
+- The Ukrainian display keeps the brand and adds an explanatory translated
+  title in parentheses.
 - Official wiki pages are treated as first-party product documentation because
   the Steam listing exposes them through its “View the manual” link and the
   wiki identifies itself as the Official Shapez 2 Wiki.
@@ -339,38 +339,3 @@ No pre-migration reviewed selected-neighbour table row exists for: `GAME-0119`.
 - `ACT-124` and `SYS-162` are absent: pasted blueprints immediately place free
   compatible entities instead of creating inventory-backed robot requests.
 - `TIM-006` is absent because editing and execution are simultaneous.
-
-## Delta summary
-
-- Added one reviewed game, `GAME-0122`, and one verified proper-subset
-  interaction, `COMB-0120`.
-- Added six Active genes: `ACT-133`, `ACT-134`, `SYS-170`, `SYS-171`,
-  `INF-063` and `OBJ-056`; reused nine existing genes.
-- Added bilingual game presentation, all-role plain-language explanations,
-  salience roles and four existing family memberships.
-- No prior gene boundary or game signature was rewritten.
-
-## Нові факти
-
-- Версія 1.0 вийшла 23 квітня 2026 року; звичайна Regular-прогресія має
-  скінченну Final Qualification, після якої починаються необов'язкові
-  нескінченні Operator-цілі.
-- Форми надходять із невичерпних джерел, перетворюються живими машинами й
-  зараховуються Вихором лише за відповідною структурою та квотою.
-- Безкоштовні будівлі, відсутність електрики, ворогів і таймера роблять
-  пропускну здатність та геометрію мережі основними обмеженнями.
-
-## Нові гени
-
-- `ACT-133`, `ACT-134`, `SYS-170`, `SYS-171`, `INF-063`, `OBJ-056`.
-
-## Нові комбінації
-
-- `COMB-0120` — жива фабрика повторно перетворює структуровані форми й
-  доставляє точні квоти, що відкривають наступні можливості до фінальної
-  кваліфікації.
-
-## Зміни таксономії
-
-- Нової родини не потрібно. `GAME-0122` безпосередньо входить до `FAM-005`,
-  `FAM-008`, `FAM-010` і `FAM-017`.

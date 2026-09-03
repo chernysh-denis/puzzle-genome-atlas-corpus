@@ -1,9 +1,10 @@
-# Ukrainian game localisation layer
+# Український шар локалізації ігор
 
-`games.json` contains reviewed Ukrainian presentation translations keyed by
-stable game ID. Original game titles, canonical English research files and
-their evidence remain unchanged.
+`games.json` містить перевірені українські переклади представлення, прив’язані
+до стабільних ID ігор. Оригінальні назви ігор, канонічні англійські
+дослідницькі файли та їхні докази залишаються незмінними.
 
-Each record translates the scoped mechanical family, analysis boundary and
-direct-play status. Work proceeds one game at a time; untranslated records use
-the canonical English text until their reviewed entry is added.
+Кожен запис перекладає механічний профіль, межу аналізу та статус
+безпосереднього проходження. Робота виконується по одній грі; запис без
+перевіреного перекладу не може отримати український публічний дослідницький
+огляд.

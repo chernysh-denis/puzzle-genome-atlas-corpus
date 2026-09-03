@@ -294,25 +294,3 @@ No pre-migration reviewed selected-neighbour table row exists for: `GAME-0006`.
 - Next evidence need: audit the enlarged registry before selecting
   `GAME-0015`, especially the single-game system behaviours and the boundary
   between phase scheduling and automatic resolution.
-
-## Delta summary
-
-## Нові факти
-
-- Previewed hostile intents become manipulable commitments because player
-  displacement occurs before a separate automatic execution phase.
-- Mission success is horizon-and-Grid based; killing every remaining enemy is
-  not required.
-
-## Нові гени
-
-- Added `ACT-019`, `SYS-019`–`SYS-022`, `CON-034`–`CON-036`, `INF-009`,
-  `OBJ-011` and `TIM-005`; four earlier genes are reused.
-
-## Нові комбінації
-
-- Registered `COMB-0014`; no earlier combination is a subset of this genome.
-
-## Зміни таксономії
-
-- None. All distinctions fit the existing six-type model.

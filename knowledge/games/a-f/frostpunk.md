@@ -291,24 +291,3 @@ No pre-migration reviewed selected-neighbour table row exists for: `GAME-0124`.
   pressure-scaled storyteller incident scheduler.
 - `OBJ-053` rejected: A New Home has a fixed terminal storm and epilogue rather
   than an open-ended city-growth horizon.
-
-## Delta summary
-
-## Нові факти
-
-- Bounded original Frostpunk to the stable 1.6.2 A New Home Medium campaign and
-  decomposed the complete city-to-storm dependency route.
-
-## Нові гени
-
-- Added twenty-six atomic boundaries for heat, survival, laws, civic pressure,
-  scouting and authored storm progression; reused twenty-seven existing genes.
-
-## Нові комбінації
-
-- Added `COMB-0128` for a staffed fuel-heated city under irreversible law and
-  terminal storm pressure.
-
-## Зміни таксономії
-
-- Added Frostpunk to four existing causal families; no one-game family added.

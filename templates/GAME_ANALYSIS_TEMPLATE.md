@@ -174,38 +174,40 @@ fractions rather than rounded decimals.
 
 ## Delta summary
 
-The Ukrainian headings below are the compact public delta ledger used by the
-maintainer. Do not repeat the analysis; list only changes to the corpus.
+The headings below are the compact canonical delta ledger. Keep this source
+record in English; reviewed Ukrainian research views are generated from the
+separate localisation layer. Do not repeat the analysis; list only changes to
+the corpus.
 
-## Нові факти
+## New facts
 
 - [Status | Evidence | Confidence] Claim and claim ID.
 
-## Нові гени
+## New genes
 
-- [Observation | Evidence | Confidence] `Нових генів немає` / supported gene.
+- [Observation | Evidence | Confidence] `No new genes` / supported gene.
 
-## Нові комбінації
+## New combinations
 
-- [Observation | Evidence | Confidence] `Нових комбінацій немає` /
+- [Observation | Evidence | Confidence] `No new combinations` /
   supported combination.
 
-## Зміни таксономії
+## Taxonomy changes
 
-- [Observation | Evidence | Confidence] `Змін таксономії немає` /
+- [Observation | Evidence | Confidence] `No taxonomy changes` /
   `TAXONOMY_CHANGE_xxx`.
 
-## Нові питання
+## New questions
 
 -
 
-## Наступна рекомендована гра
+## Next recommended game
 
 - [Hypothesis | Limited | Confidence] GAME_TITLE
 - Optimisation criterion:
 - Expected information gain:
 - Backlog impact:
 
-## Чому саме вона
+## Why this game
 
 - [Hypothesis | Limited | Confidence] Expected genome distance and coverage gain.

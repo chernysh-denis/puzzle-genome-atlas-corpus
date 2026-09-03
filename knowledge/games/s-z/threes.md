@@ -288,24 +288,3 @@ No pre-migration reviewed selected-neighbour table row exists for: `GAME-0001`.
   support without broadening their definitions.
 - Next subject should return to mechanical distance while still targeting
   singleton System Behaviour or combination reuse.
-
-## Delta summary
-
-## Нові факти
-
-- Threes combines one-cell global movement, asymmetric base-value merging and
-  edge-limited insertion with a category preview.
-
-## Нові гени
-
-- Added `SYS-023`, historical `CON-037`, `CON-038` and `INF-010`; after
-  Taxonomy Change 004, `CON-037` is merged into shared `CON-002`.
-
-## Нові комбінації
-
-- Registered `COMB-0015`; the superficially close `COMB-0001` is not reused.
-
-## Зміни таксономії
-
-- Taxonomy Change 004 later merged `CON-037` into parameterised `CON-002`;
-  movement, spawn and preview distinctions remain unchanged.

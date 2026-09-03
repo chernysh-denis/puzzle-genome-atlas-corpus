@@ -299,24 +299,3 @@ No pre-migration reviewed selected-neighbour table row exists for: `GAME-0003`.
   ordered scoring and modifier structure.
 - Next selection should test spatial placement or real-time network demand,
   avoiding a second consecutive deck / hand system.
-
-## Delta summary
-
-## Нові факти
-
-- Hands and Discards are separate finite resources: only Hands directly score
-  and determine failure when exhausted below the target.
-
-## Нові гени
-
-- Added `ACT-021`, `ACT-022`, `SYS-026`–`SYS-028`, `CON-043`–`CON-046` and
-  `OBJ-013`; three genes are reused.
-
-## Нові комбінації
-
-- Registered `COMB-0017`; no earlier combination is a subset of this genome.
-
-## Зміни таксономії
-
-- None. The scoped distinctions fit the existing action, system, constraint,
-  information, objective and time types.

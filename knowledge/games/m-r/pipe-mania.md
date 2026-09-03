@@ -286,23 +286,3 @@ No pre-migration reviewed selected-neighbour table row exists for: `GAME-0004`.
   admitted. `ACT-006`, `INF-005` and `TIM-003` gain a second supporting game.
 - Next selection should test either persistent-network demand or hand / deck
   information without immediately adding another path puzzle.
-
-## Delta summary
-
-## Нові факти
-
-- A forced queue is placed ahead of an independently advancing flow that turns
-  spatial history into an immutable prefix.
-
-## Нові гени
-
-- Added `ACT-020`, `SYS-024`, `SYS-025`, `CON-039`–`CON-042` and `OBJ-012`;
-  seven genes are reused.
-
-## Нові комбінації
-
-- Registered `COMB-0016`; no earlier combination is a subset of this genome.
-
-## Зміни таксономії
-
-- None. The `INF-005` wording was clarified without changing its identity.
