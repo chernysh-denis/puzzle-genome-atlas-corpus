@@ -2915,3 +2915,134 @@
 - Evidence: [Battlefield Hardline decomposition](../games/a-f/battlefield-hardline.md).
 - Novelty: first isolated for `GAME-0243`; investigative evaluation and living
   custody remain part of the required authored episode before successor access.
+
+## OBJ-152 — Classify a night race and voluntarily bank its session reputation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one fixed night race through its valid classified
+  finish and reach an eligible refuge with its session reputation retained,
+  avoiding or resolving any acquired pursuit before voluntary settlement.
+- Includes: the first Hard Stop sprint in Make a Name followed by successful
+  safe-house banking in the scoped Need for Speed Heat packet.
+- Excludes: requiring first place; requiring a pursuit that did not occur;
+  stopping at the finish; capture or wreck as a positive terminal; another race
+  or full-career reputation goal.
+- Parameters: event, route, classified place, session reputation, notoriety,
+  conditional pursuit, evasion, payment, refuge, retained progress and failure.
+- Evidence: [Need for Speed Heat decomposition](../games/m-r/need-for-speed-heat.md).
+- Novelty: first isolated for `GAME-0244`; a valid race result requires a later
+  voluntary reputation settlement without imposing a mandatory chase.
+
+## OBJ-153 — Resolve one authored target and retain post-mission successor control
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete the required information objective and resolve one
+  designated mission target through an admitted lethal or non-lethal method,
+  return to the mission exit, accept its finite settlement and retain ordinary
+  control in the authored successor state.
+- Includes: resolving Campbell non-lethally, obtaining the required journal,
+  returning to Samuel, accepting Stats and retaining Hound Pits control in
+  Dishonored's scoped mission.
+- Excludes: reaching the target without resolving it; stopping immediately
+  after one target interaction; an optional side objective; completing the
+  entire campaign; requiring one branded method in the portable gene boundary.
+- Parameters: mission, designated target, admitted methods, required
+  information objective, exit, settlement, successor state and persistence.
+- Evidence: [Dishonored (2012) decomposition](../games/a-f/dishonored-2012.md).
+- Novelty: first isolated for `GAME-0247`; target disposition and required
+  information must survive a separate return and evaluated mission boundary
+  before the positive terminal is reached.
+
+## OBJ-154 — Resolve a closed target set and retain scored mission settlement
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: resolve every member of one declared finite designated-target
+  set through admitted mission methods, use an enabled exit and retain a
+  terminal report that exposes completion and the attempt's aggregate score or
+  rating before another attempt begins.
+- Includes: resolving both targets, exiting Paris and accepting Debriefing in
+  HITMAN World of Assassination's scoped story mission.
+- Excludes: resolving one target while another remains; optional hostile
+  clearance; maximising every challenge; an unscored successor transition;
+  completing an entire campaign or rotating target series.
+- Parameters: mission, target set, accepted resolution methods, member states,
+  exit, completion, score, rating, report and retained result.
+- Evidence: [HITMAN World of Assassination decomposition](../games/g-l/hitman-world-of-assassination.md).
+- Novelty: first isolated for `GAME-0248`; a finite conjunctive target roster
+  gates the exit that produces one explicit scored mission terminal.
+
+## OBJ-155 — Complete one authored survival-action segment into retained successor control
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: survive and satisfy the ordered mandatory interactions of one
+  bounded authored action chapter or mission, accept its explicit completion
+  and save boundary and retain ordinary control in the immediate successor
+  segment.
+- Includes: completing Chapter 1 and retaining first Chapter 2 control in a
+  fresh Standard game of Resident Evil 4; completing Mission 5 and restoring
+  first Mission 6 control in Alien: Isolation's scoped Story Mode packet.
+- Excludes: stopping at an intermediate autosave; clearing every optional
+  hostile or collectible; requiring a particular combat route; completing the
+  whole campaign; replaying the chapter for rank.
+- Parameters: chapter, ordered mandatory interactions, survival state, final
+  interaction, completion display, save boundary, successor and retention.
+- Evidence: [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md)
+  and [Alien: Isolation decomposition](../games/a-f/alien-isolation.md).
+- Novelty: first isolated for `GAME-0249`; the positive terminal requires an
+  authored chapter boundary and retained successor control without importing a
+  boss sequence, mission-conduct score or full-campaign ending.
+
+## OBJ-156 — Escape a boss-gated region chain before terminal health loss
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: carry one continuous multi-region attempt through its mandatory
+  guardians and final escape settlement before persistent health reaches its
+  terminal threshold, then accept the rules-defined return to the persistent hub.
+- Includes: one first-save Hades escape attempt, with first retained House
+  control after the surface visit as success and retained House control after
+  ordinary death as the bounded failure settlement.
+- Excludes: clearing one chamber or regional guardian; stopping at an autosave;
+  repeated attempts; completing the full story; arbitrary survival duration.
+- Parameters: attempt entry, region sequence, guardians, health threshold,
+  revival state, final escape, success transition, failure transition and hub.
+- Evidence: [Hades decomposition](../games/g-l/hades.md).
+- Novelty: first isolated for `GAME-0251`; prior run objectives end at a named
+  boss, clock or voluntary retreat rather than sharing one progression-retaining
+  hub locus after both final escape and terminal defeat.
+
+## OBJ-157 — Resolve one investigated live incident into a retained branch endpoint
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: investigate one bounded authored incident, commit its admitted
+  live responses or interventions, reach a discrete endpoint for the protected
+  and controlled actors and retain the traversed result for later inspection.
+- Includes: resolving Detroit: Become Human's opening hostage incident and
+  retaining its completed flowchart endpoint; the reproducible positive trace
+  releases the protected actor and preserves the negotiator.
+- Excludes: collecting every branch; completing a whole campaign; stopping at
+  rooftop entry; a generic dialogue scene with no protected-actor result;
+  replaying the chapter until every endpoint is visible.
+- Parameters: incident, evidence threshold, controlled actor, protected actor,
+  response path, intervention, endpoint, success predicate and retained record.
+- Evidence: [Detroit: Become Human decomposition](../games/a-f/detroit-become-human.md).
+- Novelty: first isolated for `GAME-0252`; the objective binds authored
+  investigation and live negotiation to one retained branch result without
+  extending to the complete narrative.

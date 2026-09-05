@@ -58,7 +58,8 @@
       "GAME-0156",
       "GAME-0185",
       "GAME-0205",
-      "GAME-0206"
+    "GAME-0206",
+    "GAME-0258"
     ]
   },
   {
@@ -191,7 +192,7 @@
     "labelUk": "Фізика та маніпуляція об’єктами",
     "descriptionEn": "Route or transform objects through spatial actions whose result depends on collision, gravity, momentum, scale or support.",
     "descriptionUk": "Спрямування або перетворення об’єктів просторовими діями, результат яких залежить від зіткнень, гравітації, імпульсу, масштабу чи опори.",
-    "gameIds": [
+"gameIds": [
       "GAME-0021",
       "GAME-0026",
       "GAME-0030",
@@ -242,7 +243,9 @@
       "GAME-0235",
       "GAME-0241",
       "GAME-0242",
-      "GAME-0243"
+      "GAME-0243",
+      "GAME-0244",
+      "GAME-0254"
     ]
   },
   {
@@ -285,7 +288,7 @@
     "labelUk": "Тактичний прогноз і протидія",
     "descriptionEn": "Commit positional actions against adversarial or previewed responses while preserving future tactical options.",
     "descriptionUk": "Виконання зобов’язувальних позиційних дій проти ворожих або попередньо показаних відповідей зі збереженням майбутніх тактичних можливостей.",
-    "gameIds": [
+"gameIds": [
       "GAME-0011",
       "GAME-0014",
       "GAME-0027",
@@ -373,7 +376,25 @@
       "GAME-0239",
       "GAME-0241",
       "GAME-0242",
-      "GAME-0243"
+      "GAME-0243",
+      "GAME-0244",
+      "GAME-0245",
+      "GAME-0246",
+      "GAME-0247",
+      "GAME-0248",
+      "GAME-0249",
+      "GAME-0250",
+      "GAME-0251",
+      "GAME-0252",
+      "GAME-0253",
+      "GAME-0254",
+      "GAME-0255",
+      "GAME-0256",
+    "GAME-0257",
+    "GAME-0258",
+    "GAME-0259",
+    "GAME-0260",
+    "GAME-0261"
     ]
   },
   {
@@ -383,7 +404,7 @@
     "labelUk": "Тиск системи в реальному часі",
     "descriptionEn": "Intervene in a system that continues changing while delays, arrivals or deadlines constrain available decisions.",
     "descriptionUk": "Втручання в систему, що продовжує змінюватися, поки затримки, прибуття або крайні строки обмежують доступні рішення.",
-    "gameIds": [
+"gameIds": [
       "GAME-0004",
       "GAME-0016",
       "GAME-0018",
@@ -511,7 +532,25 @@
       "GAME-0240",
       "GAME-0241",
       "GAME-0242",
-      "GAME-0243"
+      "GAME-0243",
+      "GAME-0244",
+      "GAME-0245",
+      "GAME-0246",
+      "GAME-0247",
+      "GAME-0248",
+      "GAME-0249",
+      "GAME-0250",
+      "GAME-0251",
+      "GAME-0252",
+      "GAME-0253",
+      "GAME-0254",
+      "GAME-0255",
+      "GAME-0256",
+    "GAME-0257",
+    "GAME-0258",
+    "GAME-0259",
+    "GAME-0260",
+    "GAME-0261"
     ]
   },
   {
@@ -564,7 +603,9 @@
       "GAME-0205",
       "GAME-0229",
       "GAME-0240",
-      "GAME-0243"
+      "GAME-0243",
+      "GAME-0252",
+      "GAME-0255"
     ]
   },
   {
@@ -618,7 +659,15 @@
       "GAME-0231",
       "GAME-0232",
       "GAME-0233",
-      "GAME-0240"
+      "GAME-0240",
+      "GAME-0249",
+      "GAME-0253",
+      "GAME-0256",
+    "GAME-0257",
+    "GAME-0258",
+    "GAME-0259",
+      "GAME-0260",
+      "GAME-0261"
     ]
   },
   {
@@ -666,7 +715,13 @@
       "GAME-0234",
       "GAME-0237",
       "GAME-0238",
-      "GAME-0239"
+      "GAME-0239",
+      "GAME-0245",
+      "GAME-0250",
+      "GAME-0251",
+      "GAME-0254",
+      "GAME-0255",
+      "GAME-0256"
     ]
   },
   {
@@ -741,7 +796,9 @@
       "GAME-0230",
       "GAME-0232",
       "GAME-0234",
-      "GAME-0241"
+      "GAME-0241",
+    "GAME-0253",
+    "GAME-0257"
     ]
   },
   {
@@ -768,7 +825,7 @@
     "labelUk": "Упорядкована послідовність залежностей",
     "descriptionEn": "Resolve a dependency graph whose actions, resources or subgoals must occur in a mechanically valid order.",
     "descriptionUk": "Розв’язання графа залежностей, у якому дії, ресурси або підцілі мають виконуватися в механічно допустимому порядку.",
-    "gameIds": [
+"gameIds": [
       "GAME-0007",
       "GAME-0017",
       "GAME-0019",
@@ -878,7 +935,25 @@
       "GAME-0239",
       "GAME-0240",
       "GAME-0242",
-      "GAME-0243"
+      "GAME-0243",
+      "GAME-0244",
+      "GAME-0245",
+      "GAME-0246",
+      "GAME-0247",
+      "GAME-0248",
+      "GAME-0249",
+      "GAME-0250",
+      "GAME-0251",
+      "GAME-0252",
+      "GAME-0253",
+      "GAME-0254",
+      "GAME-0255",
+    "GAME-0256",
+    "GAME-0257",
+    "GAME-0258",
+    "GAME-0259",
+    "GAME-0260",
+    "GAME-0261"
     ]
   }
 ]

@@ -1726,6 +1726,7 @@ Gorogoa забороняє безпосередньо крутити руків�
 ### Ігри-носії
 
 - [`GAME-0228` — A Way Out](../games/a-f/a-way-out.md)
+- [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0031` — Timelie](../games/s-z/timelie.md)
 
 ## CON-078
@@ -2938,6 +2939,7 @@ The Room вимагає пластину перед викручуванням �
 
 ### Ігри-носії
 
+- [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0088` — Day of the Tentacle](../games/a-f/day-of-the-tentacle.md)
 - [`GAME-0131` — Dyson Sphere Program](../games/a-f/dyson-sphere-program.md)
@@ -3798,6 +3800,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 
 ### Ігри-носії
 
+- [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0155` — Slay the Spire 2](../games/s-z/slay-the-spire-2.md)
 - [`GAME-0120` — Slay the Spire](../games/s-z/slay-the-spire.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
@@ -4096,6 +4099,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0173` — Blue Prince](../games/a-f/blue-prince.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
+- [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0183` — Vampire Survivors](../games/s-z/vampire-survivors.md)
 
@@ -4576,16 +4580,20 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 ### Ігри-носії
 
 - [`GAME-0233` — 7 Days to Die](../games/0-9/7-days-to-die.md)
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
 - [`GAME-0203` — "PEAK"](../games/m-r/peak.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
+- [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
@@ -5692,21 +5700,30 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0222` — "Call of Juarez: Gunslinger"](../games/a-f/call-of-juarez-gunslinger.md)
 - [`GAME-0137` — Counter-Strike 2](../games/a-f/counter-strike-2.md)
 - [`GAME-0218` — Counter-Strike](../games/a-f/counter-strike.md)
+- [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
+- [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
+- [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
+- [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 - [`GAME-0184` — War Thunder](../games/s-z/war-thunder.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
 - [`GAME-0211` — World of Tanks](../games/s-z/world-of-tanks.md)
@@ -5874,15 +5891,20 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0234` — Battlefield 2042](../games/a-f/battlefield-2042.md)
 - [`GAME-0149` — Battlefield 6](../games/a-f/battlefield-6.md)
 - [`GAME-0220` — Battlefield V](../games/a-f/battlefield-v.md)
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
+- [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
+- [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
+- [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
@@ -5902,6 +5924,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
+- [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
@@ -6209,22 +6232,33 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 ### Ігри-носії
 
 - [`GAME-0223` — Aion Classic](../games/a-f/aion-classic.md)
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
+- [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
 - [`GAME-0222` — "Call of Juarez: Gunslinger"](../games/a-f/call-of-juarez-gunslinger.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
+- [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
+- [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
+- [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
+- [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
+- [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
@@ -6233,12 +6267,17 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0224` — Once Human](../games/m-r/once-human.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
+- [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 - [`GAME-0225` — "STAR WARS: Squadrons"](../games/s-z/star-wars-squadrons.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
+- [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
+- [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
 
 ## CON-283
@@ -6317,9 +6356,13 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0154` — Apex Legends](../games/a-f/apex-legends.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0222` — "Call of Juarez: Gunslinger"](../games/a-f/call-of-juarez-gunslinger.md)
+- [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
+- [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
@@ -6327,12 +6370,19 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
+- [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
+- [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 
 ## CON-286
 
@@ -6365,6 +6415,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 
 ## CON-287
 
@@ -6587,20 +6638,22 @@ Key Lock, Code Lock і замкнений Tool Cupboard у Rust.
 
 ### Ігри-носії
 
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
+- [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 
 ## CON-297
 
-- Назва: Мати складники, вивчений рецепт і потрібне робоче місце
-- Переглянуто: `2026-08-24`
+- Назва: Мати складники, відомий рецепт і всі потрібні умови робочого місця
+- Переглянуто: `2026-09-05`
 
 ### Операційне визначення
 
-Особистий запит на виготовлення приймається лише тоді, коли є всі складники, рецепт відомий, потрібний рівень робочого місця доступний поруч, а черга може прийняти результат.
+Особистий запит на виготовлення приймається лише тоді, коли персонаж має всі складники, знає рецепт, виконує кожну потрібну для нього умову рівня, близькості чи роботи станції та має місце для результату; рецепт може не вимагати станції.
 
 ### Включає
 
-Особисте виготовлення в Rust, зокрема C4 біля Workbench Level 3.
+Особисте виготовлення в Rust, зокрема C4 біля Workbench Level 3; рецепти Valheim біля придатного накритого Workbench; виготовлення Noisemaker без станції з відомого кресленика й сумісних складників у визначеній місії Alien: Isolation.
 
 ### Виключає
 
@@ -6609,9 +6662,11 @@ Key Lock, Code Lock і замкнений Tool Cupboard у Rust.
 ### Ігри-носії
 
 - [`GAME-0233` — 7 Days to Die](../games/0-9/7-days-to-die.md)
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0229` — "No Man’s Sky"](../games/m-r/no-mans-sky.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 
 ## CON-298
@@ -7232,6 +7287,7 @@ Knox Infection у режимі Apocalypse Project Zomboid.
 ### Ігри-носії
 
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
+- [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 
 ## CON-327
 
@@ -7429,9 +7485,16 @@ Knox Infection у режимі Apocalypse Project Zomboid.
 
 ### Ігри-носії
 
+- [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
+- [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 
 ## CON-336
 
@@ -7917,6 +7980,7 @@ Focus Strike діє лише на відкриту рану або відпов�
 ### Ігри-носії
 
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 
 ## CON-358
@@ -8681,6 +8745,7 @@ Reinforce у Helldivers 2 з живим викликувачем і одиниц
 ### Ігри-носії
 
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
 
 ## CON-395
@@ -8838,15 +8903,15 @@ Reinforce у Helldivers 2 з живим викликувачем і одиниц
 ## CON-402
 
 - Назва: Вимагати скінченного очищення від ворогів для виходів бойової кімнати
-- Переглянуто: `2026-08-27`
+- Переглянуто: `2026-09-04`
 
 ### Операційне визначення
 
-Після входу Ісаака до неочищеної звичайної бойової кімнати її звичайні виходи лишаються закритими, доки не переможено всіх поточних обов’язкових ворогів і заявлені підкріплення.
+Після входу до авторської бойової зони або її навмисного запуску визначені виходи маршруту лишаються закритими, доки не переможено всіх поточних обов’язкових ворогів і скінченні підкріплення.
 
 ### Включає
 
-Звичайне замикання дверей бойових кімнат у базовій The Binding of Isaac: Rebirth.
+Звичайне замикання дверей бойових кімнат у базовій The Binding of Isaac: Rebirth; обов’язкову залу Marsh-Hopper у Serious Sam HD: The First Encounter; перше блокування Gore Nest у DOOM (2016).
 
 ### Виключає
 
@@ -8854,6 +8919,11 @@ Reinforce у Helldivers 2 з живим викликувачем і одиниц
 
 ### Ігри-носії
 
+- [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
+- [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
+- [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
+- [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 
@@ -9598,26 +9668,27 @@ Echo Detector і Mold.
 
 ## CON-438
 
-- Назва: Вимагати послідовні контрольні точки й кола для фінішу
-- Переглянуто: `2026-08-27`
+- Назва: Вимагати послідовного проходження контрольних точок і кіл для фінішу
+- Переглянуто: `2026-09-04`
 
 ### Операційне визначення
 
-Визнавати фініш лише після проходження всіх потрібних контрольних точок у правильному порядку та завершення заявленої кількості кіл.
+Фініш транспортної події допустимий лише після того, як кероване авто послідовно перетне кожну потрібну контрольну точку й завершить визначену кількість кіл до зарахування фінішної лінії.
 
 ### Включає
 
-Усі досліджені форми гонок і Time Attack; усі обов’язкові контрольні точки перед чинним фінішем траси «Літо 2026 — 01» у Trackmania.
+Маршрути Trail, Circuit, Cross Country, Time Attack та Invitational у Forza Horizon 6; Shopping Spree в Need for Speed Unbound; впорядковані контрольні точки й допустимий фініш на Summer 2026 - 01 у Trackmania; два задані автором кола Olympic Square у Need for Speed Underground перед зарахуванням вступного Circuit.
 
 ### Виключає
 
-Скорочення траси з пропущеною контрольною точкою або прибуття у вільному світі.
+Навігацію відкритим світом; одне вимірювання в зоні швидкості; декоративні ворота, що не визначають поступ.
 
 ### Ігри-носії
 
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
 - [`GAME-0195` — BeamNG.drive](../games/a-f/beamng-drive.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
+- [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 - [`GAME-0217` — "Need for Speed Underground"](../games/m-r/need-for-speed-underground.md)
@@ -11417,6 +11488,7 @@ Red Tides після Guangzhi за відновленої готовності �
 
 ### Ігри-носії
 
+- [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 
 ## CON-524
@@ -12097,23 +12169,24 @@ Normal і Continuous Trap, Quick-Play Spell, Quick Effect та Counter Trap.
 
 ## CON-556
 
-- Назва: Вимагати допустиму фізичну ціль для гравітаційної гармати
-- Переглянуто: `2026-09-01`
+- Назва: Вимагати допустиму ціль для дистанційної маніпуляції фізичним предметом
+- Переглянуто: `2026-09-05`
 
 ### Операційне визначення
 
-Звичайна гравітаційна гармата може підтягнути, прикріпити або штовхнути лише ціль, яку приймають її дальність, трасування, рухома фізика, маса, тип тіла, авторські заборони, опора гравця та вільне місце; відхилений предмет не змінює стану.
+Дистанційний інструмент або здібність може підтягнути, прикріпити, утримати чи запустити лише ціль, яку приймають дальність, трасування, рухома фізика, маса, тип тіла, авторські дозволи, опора гравця та вільне місце; відхилений предмет не змінює стану.
 
 ### Включає
 
-Прийняття або відхилення рухомих предметів Рейвенгольма звичайною гравітаційною гарматою Half-Life 2.
+Прийняття або відхилення рухомих предметів звичайною гравітаційною гарматою Half-Life 2; перевірку вільних предметів для здобутої телекінетичної здібності в обмеженій місії CONTROL.
 
 ### Виключає
 
-Дозволи посиленої гармати; перенесення кубів Portal; рекурсивну перевірку масштабу; шкоду вже запущеного предмета.
+Дозволи посиленої гармати; перенесення кубів Portal; рекурсивну перевірку масштабу; шкоду вже запущеного предмета; готовність Energy, яку окремо представляє CON-269.
 
 ### Ігри-носії
 
+- [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
 
 ## CON-557
@@ -12576,28 +12649,34 @@ Scanner, Analysis Visor, Mining Beam, захист від середовища, 
 
 ### Ігри-носії
 
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
+- [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 
 ## CON-579
 
-- Назва: Вимагати втрату здоров’я та переносний запас для відновлення
-- Переглянуто: `2026-09-03`
+- Назва: Вимагати сумісний неповний показник і особистий запас для відновлення
+- Переглянуто: `2026-09-05`
 
 ### Операційне визначення
 
-Запит на живе самовідновлення допустимий лише тоді, коли керований персонаж має придатну втрату здоров’я та щонайменше одну сумісну одиницю в скінченному переносному запасі; прийняття витрачає одиницю й не перевищує межі здоров’я.
+Запит на живе самовідновлення приймається лише тоді, коли сумісний показник здоров’я чи активної здібності керованого персонажа нижчий від межі, а в обмеженому запасі при персонажі лишається щонайменше одна відповідна одиниця; прийняття витрачає одиницю й не перевищує межі показника.
 
 ### Включає
 
-Використання одного з переносних painkillers у Max Payne (2001), коли індикатор містить придатну до відновлення втрату, а запас обмежений вісьмома.
+Використання одного з painkillers при персонажі в Max Payne (2001), коли частину здоров’я можна відновити; використання First Aid Kit для неповного Health або EVE Hypo для неповного EVE у BioShock™ Remastered.
 
 ### Виключає
 
-Вимогу безперервного лікувального процесу; заряд лише з cooldown; пасивне відновлення; лікування іншого учасника; назву предмета, межу запасу або обсяг відновлення як окремі гени.
+Вимогу безперервного лікувального процесу; заряд лише з cooldown; пасивне відновлення; відновлення іншого учасника; назву предмета, межу запасу або обсяг відновлення як окремі гени.
 
 ### Ігри-носії
 
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 
 ## CON-580
 
@@ -12766,3 +12845,340 @@ Scanner, Analysis Visor, Mining Beam, захист від середовища, 
 ### Ігри-носії
 
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
+
+## CON-588
+
+- Назва: Дозволяти придорожнє відновлення лише за залишку спільного запасу сесії
+- Переглянуто: `2026-09-04`
+
+### Операційне визначення
+
+Незнищений автомобіль може отримати придорожнє відновлення стану лише в допустимій зоні обслуговування, доки не вичерпано спільний запас поточної сесії; поїздка до іншого місця не обходить вичерпаний ліміт.
+
+### Включає
+
+Спільне обмеження трьома ремонтами на всіх заправках протягом однієї ночі Heat до її завершення в гаражі.
+
+### Виключає
+
+Окремий запас у кожному об’єкті; платне обслуговування в гаражі; переносні ремонтні набори; відновлення авто після його остаточного знищення.
+
+### Ігри-носії
+
+- [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
+
+## CON-589
+
+- Назва: Дозволяти контекстне добивання лише у чинному досяжному вікні приголомшення
+- Переглянуто: `2026-09-04`
+
+### Операційне визначення
+
+Контекстне близьке добивання допустиме лише тоді, коли жива ціль перебуває у визначеному тимчасовому стані приголомшення й у межах досяжності; дистанція, відновлення або звичайна поразка усувають можливість.
+
+### Включає
+
+Коротке видиме вікно Glory Kill на приголомшених ворогах зблизька у DOOM (2016).
+
+### Виключає
+
+Усунення необізнаної цілі; завжди доступний удар ближнього бою; постріл здалеку в приголомшену ціль; підказку добивання мертвої цілі.
+
+### Ігри-носії
+
+- [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
+- [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
+
+## CON-590
+
+- Назва: Вимагати сумісну дію та спільний запас для ефектів посиленого режиму
+- Переглянуто: `2026-09-04`
+
+### Операційне визначення
+
+Вибрана посилена спроможність діє лише тоді, коли поточна дія актора сумісна, а спільний запас може забезпечити відповідне списання; вичерпання або визначена несумісна дія негайно завершує чи змінює ефект.
+
+### Включає
+
+Вартість посиленого бігу Speed і стрибка Strength, поглинання Armor за наявності енергії, швидшу витрату Cloak під час руху та постріл, який вичерпує енергію й скасовує Cloak у Crysis Remastered.
+
+### Виключає
+
+Достатню кількість набоїв для звичайного пострілу; передумови постійної навички; кілька незалежних затримок готовності; декоративну назву режиму без обмеження дії чи ресурсу; окремий запас нічного бачення.
+
+### Ігри-носії
+
+- [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
+
+## CON-591
+
+- Назва: Вимагати процедуру, життєздатну ціль і об’єкт для авторської нелетальної долі
+- Переглянуто: `2026-09-04`
+
+### Операційне визначення
+
+Особлива нелетальна доля цілі місії доступна лише після вивчення відповідної робочої процедури, доки визначена жива ціль стримана біля сумісного авторського об’єкта світу, а потрібний предмет або послуга доступні.
+
+### Включає
+
+Застосування здобутого Heretic's Brand до живого непритомного Campbell в кріслі для допитів після вивчення процедури у визначеній місії Dishonored.
+
+### Виключає
+
+Звичайне задушення необізнаної цілі; убивство; помилування лише в діалозі; застосування предмета до будь-якого тіла незалежно від стану; знання тільки із зовнішнього проходження.
+
+### Ігри-носії
+
+- [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
+
+## CON-592
+
+- Назва: Вимагати дозволену представлену роль у обмеженому контексті
+- Переглянуто: `2026-09-04`
+
+### Операційне визначення
+
+Вхід до обмеженої зони або доречна дія з видимим предметом лишаються соціально допустимими лише тоді, коли представлена роль дозволяє цей контекст і жоден чинний виняток розпізнавання спостерігача його не відхиляє.
+
+### Включає
+
+Залежні від маскування умови порушення меж, підозрілих дій і незаконних предметів у визначеній місії Paris.
+
+### Виключає
+
+Ключ до фізичного замка; сумісність набоїв; косметичний дрескод; глобальний ранг угруповання; невидиму сценарну перешкоду.
+
+### Ігри-носії
+
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
+
+## CON-593
+
+- Назва: Вимагати всю замкнену множину визначених цілей для виходу з місії
+- Переглянуто: `2026-09-04`
+
+### Операційне визначення
+
+Звичайний вихід може завершити місію лише після того, як кожен член оголошеної скінченної множини цілей набув прийнятого стану; невиконана ціль зберігає живе завдання й відхиляє завершення.
+
+### Включає
+
+Відкриття звичайних виходів лише після усунення обох визначених цілей у сюжетній місії Paris.
+
+### Виключає
+
+Вихід після однієї іменованої цілі; додаткових ворогів; повне очищення всіх ворожих акторів; вихід із відкритого світу без підсумку місії.
+
+### Ігри-носії
+
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
+
+## CON-594
+
+- Назва: Вимагати придатну ближню зброю й допустиму атаку для парирування
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Реактивне парирування може спрацювати лише тоді, коли керований актор має наведену ближню зброю вище її непридатного стану міцності, а допустима атака, що надходить, входить у прийняте часове вікно.
+
+### Включає
+
+Допустимість парирування ножем до його поломки в межах визначеної першої глави Resident Evil 4.
+
+### Виключає
+
+Ремонт зламаної зброї; пасивний обладунок; атаки, які не можна парирувати; тривалий захист без удару, що надходить; точні значення міцності як окремі гени.
+
+### Ігри-носії
+
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+
+## CON-595
+
+- Назва: Вимагати досяжного приголомшеного ворога для контекстної ближньої атаки
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Контекстна ближня атака допустима лише тоді, коли її ціль є живим відповідним ворогом у чинному тимчасовому стані приголомшення й лишається на потрібній відстані; відновлення, віддалення чи поразка прибирає дію.
+
+### Включає
+
+Показані ближні атаки після допустимого приголомшення в межах визначеної першої глави Resident Evil 4.
+
+### Виключає
+
+Гарантоване добивання; непомітну атаку по необізнаній цілі; звичайний ближній удар; дальній постріл у той самий стан приголомшення.
+
+### Ігри-носії
+
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+
+## CON-596
+
+- Назва: Вимагати сумісні передумови й слоти для пропозиції тимчасових модифікаторів
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Варіант може з’явитися або бути прийнятим у пропозиції тимчасового модифікатора лише тоді, коли його ланцюг передумов виконано, а взаємовиключний слот здібності може допустимо прийняти чи замінити цей модифікатор.
+
+### Включає
+
+Boon першої спроби Hades, обмежені передумовами й взаємовиключними основними слотами Attack, Special, Cast, Dash та Call.
+
+### Виключає
+
+Постійні дерева навичок облікового запису; необмежену випадкову характеристику; каталог, обмежений лише ціною; права на обмін із пізніших спроб, відсутні в дослідженій першій спробі.
+
+### Ігри-носії
+
+- [`GAME-0251` — Hades](../games/g-l/hades.md)
+
+## CON-597
+
+- Назва: Закривати можливості живого інциденту після завершення їхнього авторського інтервалу
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Поки триває обмежений авторський інцидент, можливість дослідження, відповіді чи втручання можна вибрати лише до завершення тиску сцени або показаного інтервалу рішення; сплив часу просуває чи завершує інцидент і забороняє повернутися до цього вибору в тому самому шляху.
+
+### Включає
+
+Тиск розслідування й обмежені в часі відповіді на даху у вступному інциденті Detroit: Become Human.
+
+### Виключає
+
+Зовнішній таймер результативності без впливу на стан; призупинене меню; фіксований запас ходів; необов’язковий вміст, що лишається доступним безстроково; перезапуск або повтор усієї глави після спливу часу.
+
+### Ігри-носії
+
+- [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
+
+## CON-598
+
+- Назва: Вимагати відновлення та операторського з’єднання для входу до союзної бойової платформи
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Безпосередній вхід і керування законні лише тоді, коли обрана союзна бойова платформа досягла потрібного порога відновлення живлення, завершила сумісне операторське з’єднання й відкрила доступний стан входу; будь-яка невиконана вимога відхиляє передачу.
+
+### Включає
+
+Шлюзи відновлення, нейронного з’єднання та входу перед безпосереднім керуванням союзною платформою в обмеженій главі BT-7274 гри Titanfall 2.
+
+### Виключає
+
+Звичайну доступність водійського місця; витрати пального після початку руху; виклик нової платформи; віддалений наказ незайнятому союзнику; сюжетну посадку без керування гравця.
+
+### Ігри-носії
+
+- [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
+
+## CON-599
+
+- Назва: Вимагати допустиму точку й вільний шлях для переміщення гаком
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Переміщення тіла гаком законне лише тоді, коли обрана точка світу позначена як сумісна висотна опора, перебуває в чинному відношенні вибору й допускає вільні шляхи кріплення та тіла; звичайна декорація чи перешкода відхиляє команду.
+
+### Включає
+
+Позначені верхні виступи й спостережні точки хижацької зали в обмеженому вступному маршруті Story Mode гри Batman: Arkham Asylum Game of the Year Edition.
+
+### Виключає
+
+Вільне зачеплення мотузкою за будь-яку поверхню; захоплення ворога; витрачання встановленого пристрою для лазіння; миттєве перенесення на довільну підлогу; сюжетний підйом без перевірки законності.
+
+### Ігри-носії
+
+- [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
+
+## CON-600
+
+- Назва: Дозволяти зброю або активну здібність лише в поточному каналі команди
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Коли одна основна команда спільна для каналу готової зброї та каналу активної особистої здібності, її може виконати лише поточний канал; неактивний канал зберігає свій вибраний елемент, але не діє до перемикання.
+
+### Включає
+
+Застосування Pistol або Wrench у Weapon Mode та Electro Bolt у Plasmid Mode в обмеженому вступному маршруті BioShock™ Remastered.
+
+### Виключає
+
+Незалежні одночасні команди зброї та здібності; вибір іншого елемента всередині каналу; нестачу боєприпасів чи запасу здібності; налаштування спорядження лише в меню.
+
+### Ігри-носії
+
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
+
+## CON-601
+
+- Назва: Вимагати заряд і скінченний запас батарейок для переносного світла
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Персональний переносний освітлювальний пристрій утворює місцеве світло лише за позитивного внутрішнього заряду, а ручне поповнення допустиме лише тоді, коли при персонажі лишилася щонайменше одна сумісна батарейка й заряд нижчий від межі.
+
+### Включає
+
+Ліхтарик і переносний запас батарейок у визначеній місії Alien: Isolation.
+
+### Виключає
+
+Автоматичне відновлення в неактивному стані; необмежене освітлення; світло від інфраструктури світу; місткість боєприпасів; батарейку лише як складник виготовлення.
+
+### Ігри-носії
+
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
+
+## CON-602
+
+- Назва: Вимагати живу вразливу взаємодію й готовність станції збереження
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Авторське ручне збереження завершується лише тоді, коли керований актор лишається біля визначеної готової станції протягом живого проміжку взаємодії; та сама станція не приймає наступне збереження, доки її період неготовності не мине, а звичайний тиск світу триває.
+
+### Включає
+
+Визначені станції збереження в обмеженій місії Story Mode гри Alien: Isolation.
+
+### Виключає
+
+Збереження будь-де через меню; автоматичні контрольні точки; зупинку часу світу під час збереження; відпочинок із відновленням ресурсів або появою ворогів; станцію без проміжку готовності.
+
+### Ігри-носії
+
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
+
+## CON-603
+
+- Назва: Вимагати надягненого спорядження й позитивного часу фільтра в небезпечному повітрі
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Безпечна дія у визначеному токсичному або опроміненому повітрі потребує, щоб сумісне дихальне спорядження лишалося надягненим із позитивною тривалістю встановленого фільтра; заміна додатково потребує одного сумісного переносного картриджа, а брак будь-якої умови наражає актора на шкоду середовища.
+
+### Включає
+
+Перебування на поверхні й підказану заміну фільтра в обмеженому розділі Moscow гри Metro Exodus.
+
+### Виключає
+
+Звичайну слабку видимість; дихання під водою без спорядження; захист лише постійною характеристикою броні; виготовлення фільтра; повітря без ігрового наслідку.
+
+### Ігри-носії
+
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)

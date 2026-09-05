@@ -120,15 +120,15 @@
 ## TIM-003
 
 - Назва: Давати команди, поки світ змінюється в реальному часі
-- Переглянуто: `2026-08-24`
+- Переглянуто: `2026-09-04`
 
 ### Операційне визначення
 
-Світ, персонажі й активні процеси продовжують змінюватися з плином реального часу, а гравець може рухатися, прицілюватися та подавати інші команди без черги ходів.
+Система змінює стан, у якому приймаються рішення, за розкладом реального часу й водночас приймає команди гравця протягом обмеженого проміжку до остаточної фіксації поточного стану.
 
 ### Включає
 
-Переміщення, обертання або прискорення тетроміно NES Tetris, поки гравітація продовжує планувати падіння й остаточну фіксацію; розміщення елементів Pipe Dream, поки Flooz просувається побудованим трубопроводом; редагування мережі Mini Metro, поки станції, попит і транспорт змінюються за активним годинником симуляції; перерізання опор у Cut the Rope, поки цукерка продовжує гойдатися, падати й стикатися під дією живої фізики; компонування панелі Gorogoa під час єдиної рухомої задачі на точний момент, визначеної розробником; приєднання вузлів World of Goo, поки тривають гравітація, пружність, плавучість і рух вільних кульок; віддавання наказів загонам Bad North, поки просуваються транспортні судна, солдати й бій, зі сповільненням під час вибору як параметром; розміщення карт Loop Hero та заміна спорядження, поки просуваються герой, добовий цикл і сутички, з паузою як засобом планування; навігація й редагування випробування HUMANITY, поки ворота випускають людей і натовп рухається, із зупиненням часу та прискоренням; зміна положення маршрутних пристроїв Tin Hearts, поки солдатики йдуть і стикаються, з паузою та прискоренням як засобами зміни швидкості; рух і постріли порталами, поки триває фізика тіла в Portal; біг, стрибки або керування перемикачами, поки вороги й платформи Braid рухаються; відправлення й відкликання Pikmin, поки просуваються поверхневі роботи, перенесення, бій і добовий цикл; створення й обмін тілами The Swapper, поки тривають сповільнені гравітація та зіткнення; рух, стрибки й накладання зображень, поки фізика тіла Viewfinder лишається активною; складання й застосування рибальського пристрою The Longest Journey, поки його невиправлене надуте каченя продовжує втрачати повітря до замикання затискача; переміщення, прицілювання й відпускання шахової фігури Superliminal, поки лишаються активними оновлення положення предмета в руках та гравітація відпущеного тіла; зміна системи відліку гравітації Manifold Garden або керування періодичним падінням, поки триває фізика тіла; перенесення, опускання й перехід із рекурсивним ключем Maquette, поки лишаються активними положення ключа в руках, зіткнення й рух персонажа; розміщення, налаштування чи вилучення фабричних об’єктів Factorio, поки за активним годинником симуляції тривають видобування, перевезення, виробництво, дослідження, електропостачання, забруднення та дії ворогів; редагування доріг, зон, служб і політик SimCity 4 або Cities: Skylines, поки за активним годинником тривають забудова, рух і фінанси; навігація, прицілювання, бій, зламування й водіння в Cyberpunk 2077, поки персонажі світу й бій просуваються в реальному часі; рух, атаки, лікування, застосування здібностей і боротьба за ціль в Marvel Rivals, поки бій і годинники цілі лишаються активними; навігація, удари, застосування здібностей, зв’язування й ухилення в Hollow Knight: Silksong, поки вороги та небезпеки рухаються в реальному часі; кермування, гальмування й проходження контрольних точок у Trackmania, поки автомобіль рухається, а годинник заїзду не зупиняється.
+Переміщення, обертання або прискорення тетроміно NES Tetris, поки гравітація продовжує планувати падіння й остаточну фіксацію; розміщення елементів Pipe Dream, поки Flooz просувається побудованим трубопроводом; редагування мережі Mini Metro, поки станції, попит і транспорт змінюються за активним годинником симуляції; перерізання опор у Cut the Rope, поки цукерка продовжує гойдатися, падати й стикатися під дією живої фізики; компонування панелі Gorogoa під час єдиної рухомої задачі на точний момент, визначеної розробником; приєднання вузлів World of Goo, поки тривають гравітація, пружність, плавучість і рух вільних кульок; віддавання наказів загонам Bad North, поки просуваються транспортні судна, солдати й бій, зі сповільненням під час вибору як параметром; розміщення карт Loop Hero та заміна спорядження, поки просуваються герой, добовий цикл і сутички, з паузою як засобом планування; навігація й редагування випробування HUMANITY, поки ворота випускають людей і натовп рухається, із зупиненням часу та прискоренням; зміна положення маршрутних пристроїв Tin Hearts, поки солдатики йдуть і стикаються, з паузою та прискоренням як засобами зміни швидкості; рух і постріли порталами, поки триває фізика тіла в Portal; біг, стрибки або керування перемикачами, поки вороги й платформи Braid рухаються; відправлення й відкликання Pikmin, поки просуваються поверхневі роботи, перенесення, бій і добовий цикл; створення й обмін тілами The Swapper, поки тривають сповільнені гравітація та зіткнення; рух, стрибки й накладання зображень, поки фізика тіла Viewfinder лишається активною; складання й застосування рибальського пристрою The Longest Journey, поки його невиправлене надуте каченя продовжує втрачати повітря до замикання затискача; переміщення, прицілювання й відпускання шахової фігури Superliminal, поки лишаються активними оновлення положення предмета в руках та гравітація відпущеного тіла; зміна системи відліку гравітації Manifold Garden або керування періодичним падінням, поки триває фізика тіла; перенесення, опускання й перехід із рекурсивним ключем Maquette, поки лишаються активними положення ключа в руках, зіткнення й рух персонажа; розміщення, налаштування чи вилучення фабричних об’єктів Factorio, поки за активним годинником симуляції тривають видобування, перевезення, виробництво, дослідження, електропостачання, забруднення та дії ворогів; редагування доріг, зон, служб і політик SimCity 4 або Cities: Skylines, поки за активним годинником тривають забудова, рух і фінанси; навігація, прицілювання, бій, зламування й водіння в Cyberpunk 2077, поки персонажі світу й бій просуваються в реальному часі; рух, атаки, лікування, застосування здібностей і боротьба за ціль в Marvel Rivals, поки бій і годинники цілі лишаються активними; навігація, удари, застосування здібностей, зв’язування й ухилення в Hollow Knight: Silksong, поки вороги та небезпеки рухаються в реальному часі; пересування, застосування гака, керування перемикачами, пілотування й стрільба в Chapter 1 Split Fiction, поки небезпеки, транспорт і противники продовжують діяти в реальному часі; керування Farrah, поки потреби, настрій, автономні дії та спілкування тривають у режимі життя The Sims 4; рух, передачі, удари, перемикання й відбирання в EA SPORTS FC 26, поки м’яч, гравці, арбітр і годинник матчу продовжують діяти; коротке або тривале натискання єдиної вертикальної команди Geometry Dash, поки Stereo Madness продовжує автоматичний рух, фізику та заданий автором відлік рівня; рух, атаки, захист, кидки або витрачання Drive у Street Fighter 6, поки обидва бійці, снаряди, стани відновлення й годинник раунду лишаються активними; рух, спостереження, прорив, стрільба, застосування пристроїв, установлення чи вимкнення деактиватора в Rainbow Six Siege, поки відліки фаз й противники продовжують діяти; перегляд ролей, вказівок і замін Football Manager 26, поки автономний матч, стан гравців і годинник змінюються; кермування, стрибки, прискорення й контакт із м’ячем Rocket League, поки всі авто, фізика м’яча, можливості майданчиків і годинник матчу лишаються активними; кермування, гальмування, прискорення й тарани Need for Speed Payback, поки автовоз, Enforcers, дорожній рух, пошкодження й тиск місії продовжують діяти; кермування, гальмування й проходження контрольних точок у Trackmania, поки автомобіль рухається, а годинник заїзду не зупиняється; кермування й гальмування Need for Speed Underground, поки троє суперників, стан зіткнень і годинник вступного Circuit продовжують діяти.
 
 ### Виключає
 
@@ -141,6 +141,7 @@
 - [`GAME-0124` — Against the Storm](../games/a-f/against-the-storm.md)
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
 - [`GAME-0223` — Aion Classic](../games/a-f/aion-classic.md)
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0110` — Angry Birds Classic](../games/a-f/angry-birds-classic.md)
 - [`GAME-0132` — Anno 1800](../games/a-f/anno-1800.md)
 - [`GAME-0097` — Antichamber](../games/a-f/antichamber.md)
@@ -149,11 +150,13 @@
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
 - [`GAME-0027` — Bad North: Jotunn Edition](../games/a-f/bad-north.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
+- [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0234` — Battlefield 2042](../games/a-f/battlefield-2042.md)
 - [`GAME-0149` — Battlefield 6](../games/a-f/battlefield-6.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0220` — Battlefield V](../games/a-f/battlefield-v.md)
 - [`GAME-0195` — BeamNG.drive](../games/a-f/beamng-drive.md)
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
 - [`GAME-0034` — Braid, Anniversary Edition](../games/a-f/braid.md)
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
@@ -161,17 +164,23 @@
 - [`GAME-0135` — "Captain of Industry"](../games/a-f/captain-of-industry.md)
 - [`GAME-0121` — "Cities: Skylines"](../games/a-f/cities-skylines.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
+- [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
 - [`GAME-0137` — Counter-Strike 2](../games/a-f/counter-strike-2.md)
 - [`GAME-0218` — Counter-Strike](../games/a-f/counter-strike.md)
 - [`GAME-0204` — "Crusader Kings III"](../games/a-f/crusader-kings-iii.md)
+- [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0021` — Cut the Rope](../games/a-f/cut-the-rope.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
 - [`GAME-0161` — Dead by Daylight](../games/a-f/dead-by-daylight.md)
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
+- [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
+- [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
+- [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
 - [`GAME-0131` — Dyson Sphere Program](../games/a-f/dyson-sphere-program.md)
@@ -192,10 +201,12 @@
 - [`GAME-0167` — Geometry Dash](../games/g-l/geometry-dash.md)
 - [`GAME-0024` — Gorogoa](../games/g-l/gorogoa.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
+- [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
 - [`GAME-0182` — Hearts of Iron IV](../games/g-l/hearts-of-iron-iv.md)
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0112` — Human: Fall Flat](../games/g-l/human-fall-flat.md)
 - [`GAME-0029` — HUMANITY](../games/g-l/humanity.md)
@@ -212,6 +223,7 @@
 - [`GAME-0096` — Maquette](../games/m-r/maquette.md)
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0180` — Microsoft Flight Simulator 2024](../games/m-r/microsoft-flight-simulator-2024.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0018` — Mini Metro](../games/m-r/mini-metro.md)
@@ -221,6 +233,7 @@
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0241` — NBA 2K26](../games/m-r/nba-2k26.md)
+- [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
@@ -242,9 +255,11 @@
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
 - [`GAME-0113` — Portal 2 — Cooperative Campaign](../games/m-r/portal-2-co-op.md)
 - [`GAME-0033` — Portal](../games/m-r/portal.md)
+- [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0127` — RimWorld](../games/m-r/rimworld.md)
 - [`GAME-0177` — Rocket League](../games/m-r/rocket-league.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
@@ -266,6 +281,7 @@
 - [`GAME-0004` — Tetris](../games/s-z/tetris.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0087` — The Longest Journey](../games/s-z/the-longest-journey.md)
 - [`GAME-0158` — The Sims 4](../games/s-z/the-sims-4.md)
 - [`GAME-0116` — The Stanley Parable: Ultra Deluxe](../games/s-z/the-stanley-parable-ultra-deluxe.md)
@@ -273,7 +289,9 @@
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 - [`GAME-0133` — Timberborn](../games/s-z/timberborn.md)
 - [`GAME-0030` — Tin Hearts](../games/s-z/tin-hearts.md)
+- [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
+- [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 - [`GAME-0191` — "Total War: WARHAMMER III"](../games/s-z/total-war-warhammer-iii.md)
 - [`GAME-0216` — Trackmania](../games/s-z/trackmania.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
@@ -375,12 +393,18 @@
 
 ### Ігри-носії
 
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0034` — Braid, Anniversary Edition](../games/a-f/braid.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0035` — Pikmin 4](../games/m-r/pikmin-4.md)
+- [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0031` — Timelie](../games/s-z/timelie.md)
 - [`GAME-0030` — Tin Hearts](../games/s-z/tin-hearts.md)
 - [`GAME-0041` — Viewfinder](../games/s-z/viewfinder.md)

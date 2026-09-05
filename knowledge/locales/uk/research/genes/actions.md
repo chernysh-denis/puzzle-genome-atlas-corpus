@@ -203,14 +203,17 @@
 - [`GAME-0054` — A Monster’s Expedition](../games/a-f/a-monsters-expedition.md)
 - [`GAME-0228` — A Way Out](../games/a-f/a-way-out.md)
 - [`GAME-0223` — Aion Classic](../games/a-f/aion-classic.md)
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0097` — Antichamber](../games/a-f/antichamber.md)
 - [`GAME-0154` — Apex Legends](../games/a-f/apex-legends.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
+- [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0234` — Battlefield 2042](../games/a-f/battlefield-2042.md)
 - [`GAME-0149` — Battlefield 6](../games/a-f/battlefield-6.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0220` — Battlefield V](../games/a-f/battlefield-v.md)
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
 - [`GAME-0173` — Blue Prince](../games/a-f/blue-prince.md)
 - [`GAME-0055` — Bonfire Peaks](../games/a-f/bonfire-peaks.md)
@@ -221,14 +224,20 @@
 - [`GAME-0040` — Carto](../games/a-f/carto.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
 - [`GAME-0108` — Cocoon](../games/a-f/cocoon.md)
+- [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0137` — Counter-Strike 2](../games/a-f/counter-strike-2.md)
 - [`GAME-0218` — Counter-Strike](../games/a-f/counter-strike.md)
+- [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
 - [`GAME-0161` — Dead by Daylight](../games/a-f/dead-by-daylight.md)
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
+- [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
+- [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
+- [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0131` — Dyson Sphere Program](../games/a-f/dyson-sphere-program.md)
 - [`GAME-0163` — EA SPORTS FC 26](../games/a-f/ea-sports-fc-26.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
@@ -238,9 +247,11 @@
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
+- [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0112` — Human: Fall Flat](../games/g-l/human-fall-flat.md)
 - [`GAME-0029` — HUMANITY](../games/g-l/humanity.md)
@@ -255,6 +266,7 @@
 - [`GAME-0096` — Maquette](../games/m-r/maquette.md)
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
@@ -277,9 +289,11 @@
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
 - [`GAME-0113` — Portal 2 — Cooperative Campaign](../games/m-r/portal-2-co-op.md)
 - [`GAME-0033` — Portal](../games/m-r/portal.md)
+- [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 - [`GAME-0050` — Shogun Showdown](../games/s-z/shogun-showdown.md)
@@ -297,12 +311,15 @@
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0107` — The Pedestrian](../games/s-z/the-pedestrian.md)
 - [`GAME-0116` — The Stanley Parable: Ultra Deluxe](../games/s-z/the-stanley-parable-ultra-deluxe.md)
 - [`GAME-0038` — The Swapper](../games/s-z/the-swapper.md)
 - [`GAME-0090` — The Talos Principle](../games/s-z/the-talos-principle.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
+- [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
+- [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 - [`GAME-0104` — TUNIC](../games/s-z/tunic.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 - [`GAME-0183` — Vampire Survivors](../games/s-z/vampire-survivors.md)
@@ -1194,6 +1211,7 @@
 
 - [`GAME-0055` — Bonfire Peaks](../games/a-f/bonfire-peaks.md)
 - [`GAME-0108` — Cocoon](../games/a-f/cocoon.md)
+- [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
 - [`GAME-0112` — Human: Fall Flat](../games/g-l/human-fall-flat.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
@@ -1203,6 +1221,7 @@
 - [`GAME-0113` — Portal 2 — Cooperative Campaign](../games/m-r/portal-2-co-op.md)
 - [`GAME-0033` — Portal](../games/m-r/portal.md)
 - [`GAME-0094` — Superliminal](../games/s-z/superliminal.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0115` — Unpacking](../games/s-z/unpacking.md)
 
 ## ACT-049
@@ -2006,6 +2025,7 @@
 ### Ігри-носії
 
 - [`GAME-0173` — Blue Prince](../games/a-f/blue-prince.md)
+- [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0123` — Inscryption](../games/g-l/inscryption.md)
 - [`GAME-0086` — Machinarium](../games/m-r/machinarium.md)
@@ -2823,6 +2843,7 @@
 ### Ігри-носії
 
 - [`GAME-0233` — 7 Days to Die](../games/0-9/7-days-to-die.md)
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0131` — Dyson Sphere Program](../games/a-f/dyson-sphere-program.md)
@@ -2832,10 +2853,12 @@
 - [`GAME-0229` — "No Man’s Sky"](../games/m-r/no-mans-sky.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0128` — Satisfactory](../games/s-z/satisfactory.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 
@@ -3004,6 +3027,7 @@
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
+- [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0123` — Inscryption](../games/g-l/inscryption.md)
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
@@ -3016,33 +3040,37 @@
 
 ## ACT-131
 
-- Назва: Використати витратний предмет із негайним ефектом
-- Переглянуто: `2026-08-24`
+- Назва: Використати витратний предмет із особистого запасу для негайного ефекту
+- Переглянуто: `2026-09-05`
 
 ### Операційне визначення
 
-Гравець витрачає один предмет зі свого обмеженого запасу, за потреби вибирає ціль і після завершення застосування отримує його лікувальний, захисний чи інший негайний ефект.
+Гравець активує один предмет з обмеженого запасу при персонажі, за потреби вказує ціль, яку можна обрати, і остаточно витрачає предмет після його негайного результату.
 
 ### Включає
 
-Використання зілля в Slay the Spire; Healing Tint у Clair Obscur: Expedition 33; зілля, сувої та метальні предмети в Baldur’s Gate 3; зілля, раціони та інші витратні предмети в Monster Hunter Wilds; метання Fire Pot та використання інших витратних предметів в Elden Ring; лікувальні зілля та постійні Life Crystals у Terraria.
+Використання зілля в Slay the Spire; Healing Tint у Clair Obscur: Expedition 33; зілля, сувої та метальні предмети в Baldur’s Gate 3; зілля, раціони та інші витратні предмети в Monster Hunter Wilds; метання Fire Pot та використання інших витратних предметів в Elden Ring; лікувальні зілля та постійні Life Crystals у Terraria; окремі запаси First Aid Kits і EVE Hypos при персонажі у BioShock™ Remastered.
 
 ### Виключає
 
-Розіграш карти; спорядження постійного предмета; застосування об’єкта світу до певного місця.
+Розіграш карти; спорядження постійного предмета; застосування об’єкта світу до певного місця; відкладене відновлення чи переривний лікувальний процес.
 
 ### Ігри-носії
 
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0173` — Blue Prince](../games/a-f/blue-prince.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0123` — Inscryption](../games/g-l/inscryption.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0155` — Slay the Spire 2](../games/s-z/slay-the-spire-2.md)
 - [`GAME-0120` — Slay the Spire](../games/s-z/slay-the-spire.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
@@ -3249,6 +3277,7 @@
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0130` — Frostpunk](../games/a-f/frostpunk.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
+- [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0125` — Oxygen Not Included](../games/m-r/oxygen-not-included.md)
 - [`GAME-0136` — "Surviving Mars: Relaunched"](../games/s-z/surviving-mars.md)
 - [`GAME-0183` — Vampire Survivors](../games/s-z/vampire-survivors.md)
@@ -3725,20 +3754,27 @@
 - [`GAME-0154` — Apex Legends](../games/a-f/apex-legends.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
+- [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0234` — Battlefield 2042](../games/a-f/battlefield-2042.md)
 - [`GAME-0149` — Battlefield 6](../games/a-f/battlefield-6.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0220` — Battlefield V](../games/a-f/battlefield-v.md)
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
 - [`GAME-0222` — "Call of Juarez: Gunslinger"](../games/a-f/call-of-juarez-gunslinger.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
+- [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0137` — Counter-Strike 2](../games/a-f/counter-strike-2.md)
 - [`GAME-0218` — Counter-Strike](../games/a-f/counter-strike.md)
+- [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
+- [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
+- [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0131` — Dyson Sphere Program](../games/a-f/dyson-sphere-program.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
@@ -3746,14 +3782,17 @@
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
+- [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
@@ -3765,9 +3804,11 @@
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
+- [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 - [`GAME-0157` — Split Fiction](../games/s-z/split-fiction.md)
@@ -3779,8 +3820,11 @@
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
+- [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
+- [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 - [`GAME-0184` — War Thunder](../games/s-z/war-thunder.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
@@ -3850,28 +3894,36 @@
 ### Ігри-носії
 
 - [`GAME-0233` — 7 Days to Die](../games/0-9/7-days-to-die.md)
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0154` — Apex Legends](../games/a-f/apex-legends.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0234` — Battlefield 2042](../games/a-f/battlefield-2042.md)
 - [`GAME-0149` — Battlefield 6](../games/a-f/battlefield-6.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0220` — Battlefield V](../games/a-f/battlefield-v.md)
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0222` — "Call of Juarez: Gunslinger"](../games/a-f/call-of-juarez-gunslinger.md)
 - [`GAME-0137` — Counter-Strike 2](../games/a-f/counter-strike-2.md)
 - [`GAME-0218` — Counter-Strike](../games/a-f/counter-strike.md)
+- [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
+- [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
+- [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0181` — Overwatch](../games/m-r/overwatch.md)
@@ -3880,16 +3932,21 @@
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
 - [`GAME-0203` — "PEAK"](../games/m-r/peak.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
+- [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
+- [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
 
@@ -4284,11 +4341,14 @@
 - [`GAME-0149` — Battlefield 6](../games/a-f/battlefield-6.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0220` — Battlefield V](../games/a-f/battlefield-v.md)
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0222` — "Call of Juarez: Gunslinger"](../games/a-f/call-of-juarez-gunslinger.md)
 - [`GAME-0137` — Counter-Strike 2](../games/a-f/counter-strike-2.md)
 - [`GAME-0218` — Counter-Strike](../games/a-f/counter-strike.md)
+- [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
@@ -4297,17 +4357,24 @@
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0181` — Overwatch](../games/m-r/overwatch.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
+- [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
+- [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
 - [`GAME-0176` — XCOM 2](../games/s-z/xcom-2.md)
 
@@ -4341,6 +4408,7 @@
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
+- [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
 
 ## ACT-185
@@ -4504,10 +4572,13 @@
 - [`GAME-0149` — Battlefield 6](../games/a-f/battlefield-6.md)
 - [`GAME-0220` — Battlefield V](../games/a-f/battlefield-v.md)
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
+- [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
+- [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
@@ -4521,6 +4592,7 @@
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
+- [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
@@ -4729,13 +4801,16 @@
 ### Ігри-носії
 
 - [`GAME-0233` — 7 Days to Die](../games/0-9/7-days-to-die.md)
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0154` — Apex Legends](../games/a-f/apex-legends.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
 - [`GAME-0220` — Battlefield V](../games/a-f/battlefield-v.md)
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0222` — "Call of Juarez: Gunslinger"](../games/a-f/call-of-juarez-gunslinger.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
@@ -4745,19 +4820,23 @@
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
 - [`GAME-0203` — "PEAK"](../games/m-r/peak.md)
+- [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
+- [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 - [`GAME-0191` — "Total War: WARHAMMER III"](../games/s-z/total-war-warhammer-iii.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
@@ -4794,6 +4873,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 
 ## ACT-201
 
@@ -4848,11 +4928,17 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 ### Ігри-носії
 
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
+- [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
+- [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
 
 ## ACT-203
@@ -5366,6 +5452,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 
 ## ACT-227
 
@@ -5501,6 +5588,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
+- [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
@@ -5568,9 +5656,16 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Ігри-носії
 
+- [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
+- [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 
 ## ACT-236
 
@@ -6666,24 +6761,25 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 ## ACT-290
 
 - Назва: Безпосередньо керувати призначеним автомобілем
-- Переглянуто: `2026-08-27`
+- Переглянуто: `2026-09-04`
 
 ### Операційне визначення
 
-Керувати напрямком, газом, гальмом, передачею та заявленим ручним гальмом одного призначеного автомобіля без окремої посадки чи виходу.
+Поки гравцеві призначено один автомобіль, він безпосередньо керує напрямком, газом, гальмуванням, вибором передачі та передбаченим ручним гальмом без попередньої посадки на місце водія або подальшого виходу з нього.
 
 ### Включає
 
-Автомобілі для дорожніх, ґрунтових, пересічених і Time Attack заїздів у вступі Forza Horizon 6; безпосереднє керування призначеним спортивним автомобілем на трасі «Літо 2026 — 01» у Trackmania.
+Керування кожним призначеним дорожнім, ґрунтовим, позашляховим автомобілем і авто для Time Attack у визначеному вступі Forza Horizon 6; кермування, прискорення, задній хід, гальмування й керовані заноси одного призначеного авто Rocket League; керування фіксованим початковим авто Story у Shopping Spree в Need for Speed Unbound; керування фіксованим Mustang із подальшою заданою передачею Regera у The Highway Heist в Need for Speed Payback; кермування, прискорення й гальмування призначеного CarSport на Summer 2026 - 01 у Trackmania; кермування, прискорення, гальмування й ручне гальмо фіксованого початкового авто без змін у вступному Circuit Need for Speed Underground.
 
 ### Виключає
 
-Пересування пішки, автономне керування або вибір іншого автомобіля.
+Посадку й вихід із постійного транспорту світу; призначення автономного транспортного маршруту; вибір власного авто, яке стане активним.
 
 ### Ігри-носії
 
 - [`GAME-0195` — BeamNG.drive](../games/a-f/beamng-drive.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
+- [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
@@ -6719,23 +6815,24 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 ## ACT-292
 
 - Назва: Налаштувати допомогу з водінням і складність суперників
-- Переглянуто: `2026-08-27`
+- Переглянуто: `2026-09-04`
 
 ### Операційне визначення
 
-Зафіксувати сумісний профіль допомоги з водінням та складності суперників, який змінює пряме керування, підказки й автономних учасників гонки.
+Гравець фіксує сумісний профіль допомоги з водінням і складності суперників, який змінює опрацювання прямого керування, підказок та автономних суперників у допустимих транспортних подіях.
 
 ### Включає
 
-Допомогу з кермуванням і гальмуванням, коробку передач, контроль тяги та стійкості, траєкторію руху, Rewind і складність Drivatar.
+Налаштування кермування, гальмування, коробки передач, тяги, стійкості, траєкторії, Rewind і складності Drivatar у Forza Horizon 6; профіль суперників і поліції Relaxed у Story та автоматичну коробку передач Need for Speed Unbound; суперників Easy й автоматичну коробку передач Need for Speed Payback; суперників Easy для окремої події й автоматичну коробку передач Need for Speed Underground.
 
 ### Виключає
 
-Налаштування характеристик автомобіля, вибір маршруту або пошук багатокористувацького матчу.
+Зміну лише якості зображення; налаштування механічних деталей авто; вибір іншої події або власного автомобіля.
 
 ### Ігри-носії
 
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
+- [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
@@ -6744,25 +6841,26 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ## ACT-293
 
-- Назва: Почати одну доступну подію водіння на мапі
-- Переглянуто: `2026-08-27`
+- Назва: Почати одну доступну транспортну подію на мапі
+- Переглянуто: `2026-09-04`
 
 ### Операційне визначення
 
-Обрати позначку відкритої події водіння й прийняти її авторський маршрут, вимоги до автомобіля та правила результату.
+Гравець обирає позначку поточної відкритої транспортної події та приймає її заданий автором маршрут, вимоги до авто й правила результату.
 
 ### Включає
 
-Trail, Circuit, Cross Country, Time Attack і Horizon Invitational у Forza Horizon 6; старт, контрольні точки, фініш і підсумковий час траси «Літо 2026 — 01» у Trackmania.
+Вхід у визначені Trail, Circuit, Cross Country, Time Attack і Horizon Invitational у Forza Horizon 6; підтвердження доступної позначки Shopping Spree у Story Need for Speed Unbound; підтвердження доступної сюжетної позначки The Highway Heist у Need for Speed Payback; підтвердження першої доступної події Jose's Got Your Back у Need for Speed Underground.
 
 ### Виключає
 
-Проміжну точку без старту, створення події або повтор уже завершеної події.
+Розміщення навігаційної точки без початку події; створення власного маршруту; вибір добірки багатокористувацьких подій.
 
 ### Ігри-носії
 
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
+- [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 - [`GAME-0217` — "Need for Speed Underground"](../games/m-r/need-for-speed-underground.md)
@@ -7771,37 +7869,53 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 ## ACT-341
 
 - Назва: Виконати контекстну взаємодію із заданим об’єктом
-- Переглянуто: `2026-08-31`
+- Переглянуто: `2026-09-04`
 
 ### Операційне визначення
 
-Гравець звертається до досяжного заданого об’єкта світу й читає, активує, забирає, встановлює, ремонтує, відмикає або відкриває його за поточними правилами, змінюючи стан завдання, пристрою, запасів чи маршруту.
+Гравець звертається до одного досяжного заданого об’єкта світу й підтверджує його поточну допустиму взаємодію: читання, активацію, збирання, встановлення, ремонт, відмикання або відкриття. Це змінює місцевий стан цілі, пристрою, інвентарю чи маршруту.
 
 ### Включає
 
-Записки, перемикачі, ключі, брами й скрині у Sastasha; двері та ліфт у The Hotel; термінал і скриню у Fireteam Ops; установлення та ремонт термічного бура в Bank Heist.
+Читання Bloody Memo у Sastasha, активацію відповідного корала й відкритого перемикача, збирання та використання ключів Captain's Quarters і Waverider Gate, відкриття їхніх брам і включеної до дослідження скрині.
 
 ### Виключає
 
-Звичайний удар зброєю; вільне ремесло; вибір репліки; взаємодію поза поточним обмеженим маршрутом або завданням.
+Звичайну атаку зброєю; довільне виготовлення предметів; вибір репліки; взаємодію поза поточним обмеженим маршрутом або ціллю.
 
 ### Ігри-носії
 
 - [`GAME-0228` — A Way Out](../games/a-f/a-way-out.md)
 - [`GAME-0223` — Aion Classic](../games/a-f/aion-classic.md)
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
+- [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
+- [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
+- [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
+- [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
+- [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0224` — Once Human](../games/m-r/once-human.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
+- [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
+- [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
 
 ## ACT-342
@@ -8119,6 +8233,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 ### Ігри-носії
 
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
+- [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 
 ## ACT-357
@@ -8415,6 +8530,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Ігри-носії
 
+- [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 
 ## ACT-371
@@ -9109,6 +9225,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 ### Ігри-носії
 
 - [`GAME-0234` — Battlefield 2042](../games/a-f/battlefield-2042.md)
+- [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 
 ## ACT-404
 
@@ -9151,6 +9268,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 ### Ігри-носії
 
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
+- [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 
 ## ACT-406
@@ -9172,8 +9290,12 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Ігри-носії
 
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 
 ## ACT-407
 
@@ -9220,15 +9342,15 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 ## ACT-409
 
 - Назва: Перемикати персональний переносний освітлювальний пристрій
-- Переглянуто: `2026-09-03`
+- Переглянуто: `2026-09-05`
 
 ### Операційне визначення
 
-Під час безпосереднього керування гравець перемикає один переносний персональний освітлювальний пристрій між активним місцевим світловим полем і неактивним станом, не втрачаючи звичайних повноважень руху чи зброї.
+Під час безпосереднього керування гравець перемикає один переносний персональний освітлювальний пристрій між активним місцевим світловим полем і неактивним станом, не втрачаючи звичайних повноважень руху чи зброї; запас і спосіб поповнення визначає окрема системна умова.
 
 ### Включає
 
-Увімкнення й вимкнення ліхтарика HEV у межах Unforeseen Consequences у Half-Life (1998).
+Увімкнення й вимкнення ліхтарика HEV у межах Unforeseen Consequences у Half-Life (1998) та ліхтарика зі скінченними батарейками у визначеній лікарняній місії Alien: Isolation.
 
 ### Виключає
 
@@ -9236,7 +9358,10 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Ігри-носії
 
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 
 ## ACT-410
 
@@ -9405,3 +9530,384 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 ### Ігри-носії
 
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
+
+## ACT-418
+
+- Назва: Прийняти запропоновану плату за негайне припинення переслідування
+- Переглянуто: `2026-09-04`
+
+### Операційне визначення
+
+Під час придатної поточної сутички гравець приймає чинну й посильну пропозицію заплатити за негайне припинення переслідування противником, не втрачаючи накопиченого множника нагороди сесії.
+
+### Включає
+
+Прийняття поліцейського хабаря за низького HEAT у визначеній першій ночі Heat.
+
+### Виключає
+
+Штраф після затримання; купівлю спорядження; сплату постійної винагороди за розшук після сутички; необмежене платне зняття переслідування без чинного вікна пропозиції.
+
+### Ігри-носії
+
+- [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
+
+## ACT-419
+
+- Назва: Виконати підказане близьке добивання приголомшеного ворога
+- Переглянуто: `2026-09-04`
+
+### Операційне визначення
+
+Гравець виконує коротке контекстне добивання одного досяжного живого ворога, доки чинна його тимчасова можливість після приголомшення.
+
+### Включає
+
+Glory Kill приголомшеного ворога зблизька у визначеній першій місії Campaign DOOM (2016).
+
+### Виключає
+
+Звичайний удар ближнього бою; усунення необізнаної цілі; постріл по приголомшеному ворогу здалеку; автоматичну анімацію поразки без другої команди гравця.
+
+### Ігри-носії
+
+- [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
+- [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
+
+## ACT-420
+
+- Назва: Вибрати один посилений режим особистої спроможності під час живого керування
+- Переглянуто: `2026-09-04`
+
+### Операційне визначення
+
+Під час безпосереднього керування гравець вибирає один доступний режим із взаємовиключної множини особистих спроможностей, замінюючи чинний режим до наступної сумісної дії руху, захисту або маскування.
+
+### Включає
+
+Вибір Speed, Strength, Armor або Cloak через Classic Nanosuit menu у визначеній першій місії Crysis Remastered.
+
+### Виключає
+
+Вибір переносної зброї; одночасне накладання кількох незалежних перемикачів; безперервний розподіл потужності між одночасними системами транспорту; придбання постійної навички; автоматично запущений пасивний ефект.
+
+### Ігри-носії
+
+- [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
+
+## ACT-421
+
+- Назва: Націлити й виконати коротке переміщення у світі
+- Переглянуто: `2026-09-04`
+
+### Операційне визначення
+
+Під час безпосереднього керування у світі гравець націлює точку в межах обмеженої здатності переміщення й одразу переносить кероване тіло до прийнятої точки, не проходячи кожну проміжну позицію.
+
+### Включає
+
+Прицілювання та виконання Blink I до допустимої точки підлоги, даху чи уступу у визначеній місії Dishonored.
+
+### Виключає
+
+Звичайну безперервну ходьбу чи стрибок; переміщення вибраної фігури на полі; перенесення керування в інше тіло; телепортацію до контрольної точки; перехід у сцені без попереднього показу.
+
+### Ігри-носії
+
+- [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
+
+## ACT-422
+
+- Назва: Одягнути здобуте вбрання з рольовою ознакою під час проникнення
+- Переглянуто: `2026-09-04`
+
+### Операційне визначення
+
+Після нейтралізації допустимого актора світу гравець забирає й одягає доступне вбрання, замінюючи поточну представлену соціальну роль керованого актора в тій самій живій місії.
+
+### Включає
+
+Забрати й одягнути одне сумісне маскування у визначеній сюжетній місії Paris у HITMAN World of Assassination.
+
+### Виключає
+
+Косметичний гардероб; вибір бойового класу під час появи; обладунок лише для характеристик; вселення в іншого актора; постійну зміну особи поза місією.
+
+### Ігри-носії
+
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
+
+## ACT-423
+
+- Назва: Викликати місцевий огляд ситуації під час живого керування
+- Переглянуто: `2026-09-04`
+
+### Операційне визначення
+
+Під час безпосереднього керування втіленим актором гравець утримує введення огляду, замінює звичайний вигляд обмеженим показом близьких акторів, цілей та об’єктів, а після відпускання повертається до незміненої живої ролі.
+
+### Включає
+
+Утримувати Instinct для огляду близьких цілей, акторів та інтерактивних об’єктів у визначеній місії Paris.
+
+### Виключає
+
+Постійно позначати актора оптичним пристроєм; призупиняти гру на повній тактичній мапі; вмикати нічне бачення; звертатися до зовнішнього проходження; записувати сканований ресурс у постійні знання.
+
+### Ігри-носії
+
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
+
+## ACT-424
+
+- Назва: Пересувати й обертати предмети в обмеженій переносній сітці
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+У поданні переносного спорядження гравець вибирає збережений предмет, змінює його позицію або дозволену орієнтацію й підтверджує розміщення лише тоді, коли отриманий контур уміщується у вільних клітинках.
+
+### Включає
+
+Пересування й обертання зброї або припасів у кейсі в межах визначеної першої глави Resident Evil 4.
+
+### Виключає
+
+Розкладання складників у сітці рецепта; вибір незміненого предмета швидкого доступу; пересування об’єкта у світі; сортування необмеженого списку; зміну загальних розмірів спорядження.
+
+### Ігри-носії
+
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+
+## ACT-425
+
+- Назва: Вчасно парирувати ближньою зброєю атаку, що надходить
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Під час живого ближнього бою гравець виконує одну реактивну захисну дію придатною ближньою зброєю, щоб її момент міг протидіяти допустимій атаці, що надходить, замість утримування безперервного блоку.
+
+### Включає
+
+Парирування ножем допустимої атаки в межах визначеної першої глави Resident Evil 4.
+
+### Виключає
+
+Утримування постійного захисту; узгодження спрямованого блоку; покрокову дію захисту; пасивний обладунок; атаку до появи удару, що надходить.
+
+### Ігри-носії
+
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+
+## ACT-426
+
+- Назва: Виконати показану ближню атаку по приголомшеному ворогу
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Поки живий ворог перебуває в тимчасовому стані приголомшення й лишається досяжним, гравець виконує показану контекстну ближню атаку як продовження замість ще одного звичайного прицільного удару.
+
+### Включає
+
+Виконання показаної ближньої атаки по приголомшеному ворогу в межах визначеної першої глави Resident Evil 4.
+
+### Виключає
+
+Гарантоване добивання, що завжди перемагає ціль; непомітну нейтралізацію необізнаного ворога; звичайний удар ножем; постріл у приголомшену ціль здалеку.
+
+### Ігри-носії
+
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+
+## ACT-427
+
+- Назва: Прокручувати фіксовану реконструкцію події до причинного моменту
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+У заданій автором реконструкції вже сталої минулої події гравець переміщує часовий вказівник у межах її скінченного інтервалу й підтверджує огляд у допустимий причинний момент, щоб зареєструвати пов’язаний доказ, не змінюючи представлену подію чи історію живого світу.
+
+### Включає
+
+Прокручування реконструкції тіла або місця події у вступному інциденті Detroit: Become Human для знаходження траєкторії зброї, послідовності нападу чи іншого авторського причинного моменту.
+
+### Виключає
+
+Повернення живої симуляції назад; редагування команд на часовій шкалі; відтворення аудіовізуального доказу без придатного до огляду причинного моменту; вільне вигадування минулого; вибір деталі в одному застиглому tableau.
+
+### Ігри-носії
+
+- [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
+
+## ACT-428
+
+- Назва: Увійти до пов’язаної союзної бойової платформи для безпосереднього керування
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Піший оператор входить до однієї доступної відновленої союзної бойової платформи й підтверджує заміну особистих команд руху, атаки та здібностей на безпосереднє керування цією платформою, лишаючись її пасажиром.
+
+### Включає
+
+Вхід до відновленої союзної платформи після операторського з’єднання в обмеженій главі BT-7274 гри Titanfall 2.
+
+### Виключає
+
+Зайняття звичайного водійського місця дорожнього транспорту; зовнішнє командування автономним союзником; вільне перемикання між незалежними постійними тілами; декоративну посадку без передачі керування.
+
+### Ігри-носії
+
+- [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
+
+## ACT-429
+
+- Назва: Виконати підказану контратаку проти одного ближнього удару
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+У живому ближньому бою гравець виконує одну реактивну контратаку після того, як видима підказка повідомляє про допустимий удар супротивника, щоб перервати або відвести його до контакту, а не тримати постійний захист.
+
+### Включає
+
+Контратаку проти позначеного удару в’язня в обмеженому вступному маршруті Story Mode гри Batman: Arkham Asylum Game of the Year Edition.
+
+### Виключає
+
+Утримування постійного блоку; парирування обов’язковою спорядженою зброєю; атаку до появи ворожого удару; покроковий захист; пасивну броню чи автоматичне ухилення.
+
+### Ігри-носії
+
+- [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
+
+## ACT-430
+
+- Назва: Переміститися гаком до допустимої висотної точки
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Під час безпосереднього керування тілом гравець обирає одну наразі допустиму висотну точку світу й підтверджує переміщення гаком від поточної позиції до неї.
+
+### Включає
+
+Переміщення гаком до позначеного верхнього виступу чи спостережної точки в обмеженому вступному маршруті Story Mode гри Batman: Arkham Asylum Game of the Year Edition.
+
+### Виключає
+
+Підтягування віддаленого предмета; захоплення близького ворога; миттєве перенесення без проходження проміжного шляху; встановлення скінченного пристрою для лазіння; сюжетний перехід без обраної точки.
+
+### Ігри-носії
+
+- [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
+
+## ACT-431
+
+- Назва: Перемикати канали готової зброї та активної здібності
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Під час безпосереднього живого керування гравець перемикає основну команду застосування між поточною вибраною переносною зброєю та поточною вибраною активною особистою здібністю, зберігаючи вибір усередині кожного каналу.
+
+### Включає
+
+Перемикання між поточним Pistol або Wrench і поточним Plasmid Electro Bolt в обмеженому вступному маршруті BioShock™ Remastered.
+
+### Виключає
+
+Вибір іншої зброї всередині запасу; вибір іншого елемента набору здібностей; одночасне застосування зброї та здібності окремими командами; зміну спорядження перед початком.
+
+### Ігри-носії
+
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
+
+## ACT-432
+
+- Назва: Піднімати або опускати переносний детектор місцевого руху
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Під час безпосереднього керування тілом гравець піднімає переносний детектор руху в активне поле спостереження або знову опускає його, зберігаючи звичайні повноваження руху.
+
+### Включає
+
+Піднімання й опускання детектора руху у визначеній лікарняній місії Alien: Isolation.
+
+### Виключає
+
+Встановлення постійного датчика у світі; позначення одного видимого актора; відкриття всезнаючої мапи; сканування нерухомого ресурсу чи доказу; пасивне попередження без команди детектора.
+
+### Ігри-носії
+
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
+
+## ACT-433
+
+- Назва: Входити до авторської схованки або виходити з неї
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Гравець переводить безпосередньо кероване тіло в одну досяжну авторську позицію маскування, прив’язану до геометрії світу, лишається в цьому обмеженому стані й навмисно виходить, щоб відновити вільний рух.
+
+### Включає
+
+Вхід, очікування й вихід із шафки, шафи або допустимої схованки під меблями у визначеній лікарняній місії Alien: Isolation.
+
+### Виключає
+
+Звичайне присідання за непрозорою перешкодою; прив’язування до бойового укриття; невидимість від активної здібності; сюжетну сцену ховання; маскування лише автономного актора.
+
+### Ігри-носії
+
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
+
+## ACT-434
+
+- Назва: Переорієнтовувати лінійний рисунок пострілу готового інструмента
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Поки один сумісний інструмент лишається готовим, гравець повертає або перемикає його видовжений рисунок пострілу між визначеними просторовими орієнтаціями перед наступним прицільним пострілом.
+
+### Включає
+
+Перемикання трьох променів Plasma Cutter між горизонтальною та вертикальною орієнтаціями в обмеженому вступному розділі Dead Space (2023).
+
+### Виключає
+
+Повертання предмета в інвентарі; поворот керованого тіла чи камери; зміну типу боєприпасів; вибір іншої зброї; випадкову віддачу після пострілу.
+
+### Ігри-носії
+
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
+
+## ACT-435
+
+- Назва: Замінити скінченний фільтр в особистому дихальному спорядженні
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Поки сумісне особисте дихальне спорядження доступне у визначеному стані заміни, гравець виконує обмін фільтра: відкидає поточний картридж і переносить один сумісний картридж із власного запасу до спорядження, відновлюючи тривалість придатного захисту без зміни навколишнього повітря.
+
+### Включає
+
+Заміну фільтра протигаза в обмеженому розділі Moscow гри Metro Exodus.
+
+### Виключає
+
+Надягання або знімання всього протигаза; наповнення кисневого балона; полагодження пошкодженого скла; уживання ліків; виготовлення нового картриджа; автоматичну зміну фільтра без команди гравця.
+
+### Ігри-носії
+
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)

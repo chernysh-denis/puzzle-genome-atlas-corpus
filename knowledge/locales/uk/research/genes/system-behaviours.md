@@ -94,6 +94,7 @@
 - [`GAME-0020` — Dorfromantik](../games/a-f/dorfromantik.md)
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
 - [`GAME-0130` — Frostpunk](../games/a-f/frostpunk.md)
+- [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0123` — Inscryption](../games/g-l/inscryption.md)
 - [`GAME-0028` — Loop Hero](../games/g-l/loop-hero.md)
 - [`GAME-0185` — "Magic: The Gathering Arena"](../games/m-r/magic-the-gathering-arena.md)
@@ -1292,16 +1293,16 @@ World of Goo утворює попередньо показані нитки н�
 
 ## SYS-057
 
-- Назва: Переслідування або відволікання ворога за сприйняттям
-- Переглянуто: `2026-08-24`
+- Назва: Переслідування або відволікання автономного ворога за сприйняттям
+- Переглянуто: `2026-09-05`
 
 ### Операційне визначення
 
-Ворожий патруль автоматично замінює свій поточний маршрут, коли сприймає придатного актора або явний стимул-приманку, переслідує сприйняту ціль і, де це застосовно, захоплює її при контакті.
+Автономний ворог автоматично замінює свій поточний маршрут патрулювання чи пошуку, коли сприймає придатного актора або явний стимул-приманку, переслідує чи досліджує сприйняту ціль і, де це застосовно, виконує наслідок контакту.
 
 ### Включає
 
-Робот Timelie переслідує побачену дівчину або кота, а придатний робот відволікається в напрямку навмисно запланованого котячого нявкання.
+Робот Timelie переслідує побачену дівчину або кота чи відволікається на навмисно заплановане котяче нявкання; мисливець у визначеній місії Alien: Isolation реагує на видимий рух, місцевий звук або кинутий Noisemaker.
 
 ### Виключає
 
@@ -1309,8 +1310,12 @@ World of Goo утворює попередньо показані нитки н�
 
 ### Ігри-носії
 
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0031` — Timelie](../games/s-z/timelie.md)
 
 ## SYS-058
@@ -2478,9 +2483,15 @@ The Room відкриває особливий ключ, металеву пла
 
 ### Ігри-носії
 
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
+- [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
+- [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0123` — Inscryption](../games/g-l/inscryption.md)
 - [`GAME-0086` — Machinarium](../games/m-r/machinarium.md)
 - [`GAME-0111` — Myst](../games/m-r/myst.md)
+- [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0085` — The Room](../games/s-z/the-room.md)
 
 ## SYS-113
@@ -3198,6 +3209,7 @@ Papers, Please видає цитату про порушення після не
 ### Ігри-носії
 
 - [`GAME-0110` — Angry Birds Classic](../games/a-f/angry-birds-classic.md)
+- [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
 - [`GAME-0114` — Peggle Deluxe](../games/m-r/peggle-deluxe.md)
 
@@ -3674,6 +3686,7 @@ Papers, Please видає цитату про порушення після не
 ### Ігри-носії
 
 - [`GAME-0124` — Against the Storm](../games/a-f/against-the-storm.md)
+- [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0123` — Inscryption](../games/g-l/inscryption.md)
 - [`GAME-0155` — Slay the Spire 2](../games/s-z/slay-the-spire-2.md)
 - [`GAME-0120` — Slay the Spire](../games/s-z/slay-the-spire.md)
@@ -3697,6 +3710,7 @@ Papers, Please видає цитату про порушення після не
 
 ### Ігри-носії
 
+- [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0123` — Inscryption](../games/g-l/inscryption.md)
 - [`GAME-0155` — Slay the Spire 2](../games/s-z/slay-the-spire-2.md)
 - [`GAME-0120` — Slay the Spire](../games/s-z/slay-the-spire.md)
@@ -4569,17 +4583,22 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0149` — Battlefield 6](../games/a-f/battlefield-6.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0220` — Battlefield V](../games/a-f/battlefield-v.md)
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0137` — Counter-Strike 2](../games/a-f/counter-strike-2.md)
 - [`GAME-0218` — Counter-Strike](../games/a-f/counter-strike.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
+- [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0181` — Overwatch](../games/m-r/overwatch.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
@@ -4587,11 +4606,14 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0127` — RimWorld](../games/m-r/rimworld.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
+- [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 - [`GAME-0176` — XCOM 2](../games/s-z/xcom-2.md)
 
 ## SYS-209
@@ -4748,22 +4770,29 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0132` — Anno 1800](../games/a-f/anno-1800.md)
 - [`GAME-0154` — Apex Legends](../games/a-f/apex-legends.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
+- [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0234` — Battlefield 2042](../games/a-f/battlefield-2042.md)
 - [`GAME-0149` — Battlefield 6](../games/a-f/battlefield-6.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0220` — Battlefield V](../games/a-f/battlefield-v.md)
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
 - [`GAME-0222` — "Call of Juarez: Gunslinger"](../games/a-f/call-of-juarez-gunslinger.md)
+- [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
 - [`GAME-0137` — Counter-Strike 2](../games/a-f/counter-strike-2.md)
 - [`GAME-0218` — Counter-Strike](../games/a-f/counter-strike.md)
+- [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
 - [`GAME-0161` — Dead by Daylight](../games/a-f/dead-by-daylight.md)
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
+- [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
+- [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
 - [`GAME-0131` — Dyson Sphere Program](../games/a-f/dyson-sphere-program.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
@@ -4772,9 +4801,11 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
+- [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0215` — It Takes Two](../games/g-l/it-takes-two.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
@@ -4782,6 +4813,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
@@ -4794,9 +4826,11 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
+- [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
@@ -4808,8 +4842,11 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
+- [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
+- [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 - [`GAME-0191` — "Total War: WARHAMMER III"](../games/s-z/total-war-warhammer-iii.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
@@ -4834,6 +4871,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 
 ### Ігри-носії
 
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
@@ -4966,17 +5004,23 @@ Hostility в Against the Storm, що зростає від років, насе�
 
 ### Ігри-носії
 
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0137` — Counter-Strike 2](../games/a-f/counter-strike-2.md)
 - [`GAME-0218` — Counter-Strike](../games/a-f/counter-strike.md)
+- [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
+- [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
+- [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
+- [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
 
@@ -6583,6 +6627,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
+- [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0181` — Overwatch](../games/m-r/overwatch.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
@@ -6610,6 +6655,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 ### Ігри-носії
 
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 
 ## SYS-301
 
@@ -6982,20 +7028,20 @@ Hostility в Against the Storm, що зростає від років, насе�
 
 ## SYS-320
 
-- Назва: Розрахувати рух і пошкодження зайнятої техніки
-- Переглянуто: `2026-08-24`
+- Назва: Моделювати рух і пошкодження керованої техніки
+- Переглянуто: `2026-09-04`
 
 ### Операційне визначення
 
-Система враховує керування, прискорення й контакт техніки з місцевістю, а також шкоду її частинам і пасажирам від зіткнень, снарядів та вибухів; якщо транспорт використовує пальне, його показаний запас додатково обмежує подорож.
+Система поєднує кермування, прискорення й контакт безпосередньо керованої техніки з місцевістю та опрацьовує шкоду її частинам і пасажирам від зіткнень, снарядів і вибухів. Робочий запас пального може додатково обмежувати техніку, правила якої його передбачають.
 
 ### Включає
 
-Рух наземного транспорту Erangel, пальне, пошкодження шин, травми від зіткнень, відкладений вибух і стрільбу пасажира залежно від швидкості в PUBG; керування дорожнім, водним і повітряним транспортом, деформацію й утрату в Story Mode Grand Theft Auto V; керування, зчеплення, зіткнення й бойову шкоду дорожнього транспорту Cyberpunk 2077; рух, бойову шкоду, пошкодження окремих частин і ремонт техніки в Battlefield 6; швидкість, зчеплення, дорожній контакт і зіткнення спортивного автомобіля на трасі «Літо 2026 — 01» у Trackmania без параметрів пошкодження та пального.
+Повороти наземної техніки Erangel, пальне, пошкодження шин, травми від зіткнень, відкладений вибух і залежну від швидкості стрільбу пасажира в PUBG; керування дорожнім, водним і повітряним транспортом, деформацію й втрату в Story Mode Grand Theft Auto V; рух дорогою й бездоріжжям, зіткнення та зміну здоров’я фіксованого початкового авто Story у Need for Speed Unbound. Дорожня техніка Cyberpunk 2077 так само опрацьовує кермування, зчеплення, зіткнення й бойову шкоду без керованого гравцем запасу пального. Need for Speed Payback опрацьовує рух фіксованих Mustang і Regera, контакт із потоком, зіткнення й сумарну шкоду протягом Highway Heist. Trackmania Summer 2026 - 01 опрацьовує кермування, швидкість, зчеплення, дорожній контакт і зіткнення призначеного CarSport без параметрів шкоди чи пального. Need for Speed Underground так само опрацьовує аркадний рух, дорожній контакт і зіткнення фіксованого початкового авто без змін у вступному Circuit.
 
 ### Виключає
 
-Автономний транспортний маршрут; початковий літак; пересування пішки.
+Автономне маршрутне обслуговування; початковий літак; пересування пішки.
 
 ### Ігри-носії
 
@@ -7010,6 +7056,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
+- [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
@@ -7925,6 +7972,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0223` — Aion Classic](../games/a-f/aion-classic.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
+- [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
@@ -7978,19 +8026,19 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 ## SYS-365
 
 - Назва: Підтримувати дорожній рух і реакції цивільних
-- Переглянуто: `2026-08-24`
+- Переглянуто: `2026-09-04`
 
 ### Операційне визначення
 
-Населений світ безперервно рухає транспорт і пішоходів, опрацьовує зіткнення та змушує людей поблизу тікати, чинити опір або повідомляти про небезпеку.
+Населений заданий автором світ безперервно спрямовує цивільні автомобілі й пішоходів, опрацьовує їхні зіткнення та змушує близьких учасників тікати, чинити опір або повідомляти про передбачену правилами небезпеку, поки гравець подорожує чи б’ється.
 
 ### Включає
 
-Трафік, пішоходів, свідків і звичайні реакції світу в Los Santos та Blaine County у Story Mode Grand Theft Auto V, а також трафік і реакції цивільних у Найт-Сіті в Cyberpunk 2077.
+Дорожній рух, пішоходів, свідків і звичайні реакції світу Los Santos та Blaine County у Story Mode Grand Theft Auto V; дорожній рух і реакції цивільних Night City у Cyberpunk 2077; живий дорожній рух Lakeshore під час гонки й погоні Need for Speed Unbound; заданий автором потік на шосе під час переслідування автовоза в Need for Speed Payback.
 
 ### Виключає
 
-Союзників, поведінку яких визначає місія; поліцейське переслідування після отриманого виклику; декоративні натовпи без зіткнень і реакцій.
+Заданих місією союзників; посилення поліцейського розшуку після виклику; декоративні натовпи без стану зіткнення чи реакції.
 
 ### Ігри-носії
 
@@ -7998,31 +8046,33 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
+- [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 
 ## SYS-366
 
-- Назва: Перетворювати злочин на розшук, погоню та пошук
-- Переглянуто: `2026-08-24`
+- Назва: Перетворювати небезпеку на розшук, погоню й пошук із часовою умовою
+- Переглянуто: `2026-09-04`
 
 ### Операційне визначення
 
-Помічений або зареєстрований злочин підвищує кількість зірок розшуку й викликає поліцію. Коли герой зникає з поля зору, погоня переходить у пошук, а повторне виявлення відновлює переслідування.
+Порушення, про яке повідомили або яке помітили, чи накопичений подією Heat підвищує обмежений рівень розшуку, викликає й координує відповідний поліцейський тиск, а потім замінює пряму погоню просторовим пошуком із часовою умовою, який припиняється лише поки герой лишається поза сприйняттям поліції.
 
 ### Включає
 
-Розшук від однієї до п’яти зірок, погоню патрулів, конуси пошуку й остаточне зняття розшуку в Story Mode Grand Theft Auto V; зростання NCPD Heat, погоню та втрату переслідування після втечі в Cyberpunk 2077.
+Посилення розшуку від однієї до п’яти зірок, погоню патрулів, конуси пошуку й остаточне припинення в Story Mode Grand Theft Auto V; зростання NCPD Heat у Cyberpunk 2077; накопичений подією Heat, погоню LPD та її припинення після втечі в Need for Speed Unbound.
 
 ### Виключає
 
-Ворогів місії без розшуку; платне зняття розшуку в GTA Online; погоню, яку за правилами місії неможливо припинити втечею.
+Фіксованих ворогів місії без стану розшуку; платне скасування в GTA Online; постановочну погоню, тиск якої неможливо припинити втечею.
 
 ### Ігри-носії
 
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
+- [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 
@@ -8091,21 +8141,35 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 ### Ігри-носії
 
 - [`GAME-0228` — A Way Out](../games/a-f/a-way-out.md)
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
+- [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0222` — "Call of Juarez: Gunslinger"](../games/a-f/call-of-juarez-gunslinger.md)
+- [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
+- [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
+- [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
+- [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
+- [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
+- [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 
 ## SYS-370
 
@@ -8189,13 +8253,21 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 
 ### Ігри-носії
 
+- [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
+- [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
+- [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 
 ## SYS-374
 
@@ -8303,6 +8375,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
+- [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
@@ -8336,16 +8409,22 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0234` — Battlefield 2042](../games/a-f/battlefield-2042.md)
 - [`GAME-0149` — Battlefield 6](../games/a-f/battlefield-6.md)
 - [`GAME-0220` — Battlefield V](../games/a-f/battlefield-v.md)
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
+- [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
+- [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0181` — Overwatch](../games/m-r/overwatch.md)
+- [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
+- [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
@@ -8730,6 +8809,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 
 ### Ігри-носії
 
+- [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 
@@ -8908,25 +8988,26 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 
 ## SYS-407
 
-- Назва: Дозволити Palico самостійно допомагати керованому мисливцю
-- Переглянуто: `2026-08-24`
+- Назва: Дозволити постійному автономному супутнику допомагати поруч із прямим керуванням
+- Переглянуто: `2026-09-05`
 
 ### Операційне визначення
 
-Постійний союзний супутник слідує за мисливцем і сам обирає, коли рухатися, атакувати чи виконати дію підтримки відповідно до найближчої ситуації.
+Постійний союзний супутник слідує за безпосередньо керованим персонажем і сам обирає доступні переміщення, атаки чи дії підтримки відповідно до найближчої ситуації.
 
 ### Включає
 
-Допомогу Palico під час дослідження й полювання в Monster Hunter Wilds.
+Допомогу Palico під час дослідження й полювання в Monster Hunter Wilds; сюжетну допомогу напарників у межах дослідженого розділу The Last of Us Part I.
 
 ### Виключає
 
-Другого мисливця під керуванням людини; загін, якому гравець безпосередньо наказує кожну дію; суто декоративного супутника.
+Другого персонажа під керуванням людини; загін, якому гравець безпосередньо наказує кожну дію; одноразову фіксовану анімацію без постійної поведінки; суто декоративного супутника.
 
 ### Ігри-носії
 
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 
 ## SYS-408
 
@@ -9920,6 +10001,7 @@ Byrdonis Egg, Lantern Key, Dowsing і Spoils Map у Slay the Spire 2.
 ### Ігри-носії
 
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
+- [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 
 ## SYS-457
@@ -10142,16 +10224,16 @@ Byrdonis Egg, Lantern Key, Dowsing і Spoils Map у Slay the Spire 2.
 
 ## SYS-467
 
-- Назва: Поєднувати властивості зібраних предметів у поточну збірку
-- Переглянуто: `2026-08-27`
+- Назва: Поєднувати властивості зібраних поліпшень у поточну збірку
+- Переглянуто: `2026-09-05`
 
 ### Операційне визначення
 
-Узятий із постаменту предмет додає пасивну властивість або замінює вміст місця для активного предмета, а система поєднує всі збережені сумісні властивості руху, сліз, бомб, здоров’я, знахідок і спричинених подій до завершення проходження.
+Прийняте допустиме тимчасове поліпшення додає пасивний або подієвий ефект, заповнює чи замінює сумісний типізований слот, а система поєднує всі збережені сумісні властивості руху, атак, здібностей, здоров’я, нагород і спричинених подій до завершення проходження.
 
 ### Включає
 
-Накопичувані властивості предметів і перетворення сліз у базовій Rebirth.
+Накопичувані властивості предметів і перетворення сліз у базовій Rebirth; Boon та сумісні поліпшення Hades, які змінюють Attack, Special, Cast, Dash, здоров’я, нагороди й подієві ефекти в межах однієї спроби.
 
 ### Виключає
 
@@ -10159,6 +10241,7 @@ Byrdonis Egg, Lantern Key, Dowsing і Spoils Map у Slay the Spire 2.
 
 ### Ігри-носії
 
+- [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 
 ## SYS-468
@@ -11151,25 +11234,26 @@ Echo Detector у пролозі та Piece of Cake.
 
 ## SYS-515
 
-- Назва: Проводити автономне поле гонки за вибраною складністю
-- Переглянуто: `2026-08-27`
+- Назва: Керувати автономними суперниками гонки відповідно до складності
+- Переглянуто: `2026-09-04`
 
 ### Операційне визначення
 
-Після старту гонки безперервно вести придатних суперників тією самою трасою та змінювати їхній темп і поведінку відповідно до вибраної складності.
+Після початку заданої автором гонки система безперервно веде допустимий склад суперників тією самою трасою та змінює їхній темп і поведінку відповідно до обраного профілю складності.
 
 ### Включає
 
-Однокористувацькі фестивальні гонки проти Drivatars.
+Одиночні фестивальні гонки Forza Horizon 6 проти Drivatars; сімох суперників під керуванням ШІ на Relaxed у Shopping Spree Need for Speed Unbound; трьох суперників на Easy у вступному Circuit Need for Speed Underground.
 
 ### Виключає
 
-Навколишній дорожній рух, людей у багатокористувацькій грі або незмінну постановочну погоню.
+Навколишній дорожній рух відкритого світу; склад із людей у багатокористувацькій грі; один фіксований постановочний конвой без змагального результату.
 
 ### Ігри-носії
 
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
+- [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
@@ -11178,25 +11262,26 @@ Echo Detector у пролозі та Piece of Cake.
 ## SYS-516
 
 - Назва: Перевіряти послідовне проходження траси й результат гонки
-- Переглянуто: `2026-08-27`
+- Переглянуто: `2026-09-04`
 
 ### Операційне визначення
 
-Зараховувати поступ трасою лише через послідовні контрольні точки й потрібні кола, а потім визначати час та повний порядок фінішу.
+Система зараховує поступ трасою лише через впорядковані контрольні точки події й потрібні кола, а тоді підбиває минулий час і, за наявності суперників, повний порядок фінішу.
 
 ### Включає
 
-Trail, Circuit, Cross Country, Time Attack і Horizon Invitational.
+Завершення трас Trail, Circuit, Cross Country, Time Attack і Horizon Invitational у Forza Horizon 6; послідовний маршрут Shopping Spree й результат із вісьмома місцями у Need for Speed Unbound; перевірку початку, контрольних точок і фінішу та підсумкового часу Summer 2026 - 01 у Trackmania; впорядкований двоколовий Olympic Square Circuit і фінішне місце Need for Speed Underground.
 
 ### Виключає
 
-Вільне водіння, пропущену контрольну точку або просте прибуття до місця призначення.
+Вільне водіння неперевірюваним простором мапи; вимірювання швидкості без послідовної траси; очки, нараховані після перевіреного результату.
 
 ### Ігри-носії
 
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
 - [`GAME-0195` — BeamNG.drive](../games/a-f/beamng-drive.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
+- [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 - [`GAME-0217` — "Need for Speed Underground"](../games/m-r/need-for-speed-underground.md)
@@ -11246,25 +11331,26 @@ Trail, Circuit, Cross Country, Time Attack і Horizon Invitational.
 
 ## SYS-519
 
-- Назва: Зберігати завершену подію водіння у винагородах
-- Переглянуто: `2026-08-27`
+- Назва: Зараховувати завершену транспортну подію в збережені нагороди
+- Переглянуто: `2026-09-04`
 
 ### Операційне визначення
 
-Після допустимого результату записувати перше завершення й переносити кредити, досвід, автомобілі або відкриті можливості до постійного стану кампанії та гаража.
+Після допустимого результату транспортної події та всіх визначених подальших умов підсумку система записує завершення й переносить визначені кредити, досвід, авто або відкриті можливості в постійний стан кампанії чи гаража.
 
 ### Включає
 
-Підбиття підсумків Horizon Qualifiers і три автомобілі за перший браслет.
+Результати кваліфікації й три авто, надані з першим Wristband у Forza Horizon 6; визначені результат і гроші Need for Speed Unbound після припинення погоні й в’їзду до Rydell's Rydes; збережені місію Highway Heist і підсумок Chapter 2 у Need for Speed Payback після доставки на летовище; збережені 375 Bank і завершення Race 1 у Need for Speed Underground після перемоги у вступному Circuit.
 
 ### Виключає
 
-Незавершену спробу, тимчасово позичений автомобіль або неотриману винагороду поточної серії.
+Тимчасове місце в гонці; нагороди поточної Festival Playlist поза визначеним вступом; купівлю Aftermarket Car.
 
 ### Ігри-носії
 
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
+- [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
@@ -12515,6 +12601,16 @@ Wonder, Relic, Score, часову перемогу, кампанійний тр
 
 ### Ігри-носії
 
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
+- [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
+- [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
+- [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
+- [`GAME-0251` — Hades](../games/g-l/hades.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0183` — Vampire Survivors](../games/s-z/vampire-survivors.md)
 
 ## SYS-579
@@ -14144,6 +14240,7 @@ Easy Solo BOT Mode на вибраній Wanchu з Viper Ning.
 
 ### Ігри-носії
 
+- [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 
 ## SYS-656
@@ -14669,7 +14766,9 @@ Shadow Corruption у визначеному Solo BOT Mode NARAKA: BLADEPOINT.
 
 ### Ігри-носії
 
+- [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
+- [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 
 ## SYS-681
@@ -15181,23 +15280,24 @@ Shadow Corruption у визначеному Solo BOT Mode NARAKA: BLADEPOINT.
 
 ## SYS-705
 
-- Назва: Підтягувати й утримувати предмет гравітаційною гарматою
-- Переглянуто: `2026-09-01`
+- Назва: Дистанційно підтягувати й утримувати фізичний предмет із урахуванням зіткнень
+- Переглянуто: `2026-09-05`
 
 ### Операційне визначення
 
-Після захоплення допустимої фізичної цілі гравітаційна гармата підтягує віддалений предмет, прикріплює його до положення перед поглядом без проходження крізь тверді перешкоди й повертає до звичайної фізики після відпускання, запуску або втрати допустимого зв’язку.
+Після захоплення допустимої фізичної цілі дистанційний інструмент або здібність підтягує предмет, прикріплює його до положення перед поглядом без проходження крізь тверді перешкоди й повертає до звичайної фізики після відпускання, запуску або втрати допустимого зв’язку.
 
 ### Включає
 
-Підтягування, утримання й відпускання сумісного предмета в Рейвенгольмі звичайною гравітаційною гарматою Half-Life 2.
+Підтягування, утримання й відпускання сумісного предмета звичайною гравітаційною гарматою Half-Life 2; телекінетичне підтягування, видиме утримання й запуск вільного предмета в обмеженій місії CONTROL.
 
 ### Виключає
 
-Телепортування предмета до рук; комірку спорядження; перенесення куба Portal без дистанційного підтягування; посилену гравітаційну гармату; шкоду після запуску.
+Телепортування предмета до рук; комірку спорядження; перенесення куба Portal без дистанційного підтягування; створення нового снаряда без сталої тотожності предмета; шкоду після запуску.
 
 ### Ігри-носії
 
+- [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
 
 ## SYS-706
@@ -15219,6 +15319,7 @@ Shadow Corruption у визначеному Solo BOT Mode NARAKA: BLADEPOINT.
 
 ### Ігри-носії
 
+- [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
 
 ## SYS-707
@@ -15872,7 +15973,9 @@ Match Override у Fortnite v42.00 для всього сервера або пе
 
 ### Ігри-носії
 
+- [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
+- [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 
 ## SYS-738
 
@@ -16083,6 +16186,7 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 ### Ігри-носії
 
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
+- [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 
 ## SYS-748
@@ -16104,6 +16208,7 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 
 ### Ігри-носії
 
+- [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 
 ## SYS-749
@@ -16125,6 +16230,9 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 
 ### Ігри-носії
 
+- [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
+- [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 
 ## SYS-750
@@ -16251,7 +16359,11 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 
 ### Ігри-носії
 
+- [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+- [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 
 ## SYS-756
 
@@ -16483,3 +16595,661 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 ### Ігри-носії
 
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
+
+## SYS-767
+
+- Назва: Зберігати розголос сесії й нараховувати помножену репутацію в укритті
+- Переглянуто: `2026-09-04`
+
+### Операційне визначення
+
+Допустимі дії протягом сесії накопичують репутацію та множник розголосу, який зберігається після завершення окремих сутичок. Добровільне завершення в укритті застосовує його до збереженої репутації та скидає; затримання натомість скидає множник і накладає визначений грошовий штраф.
+
+### Включає
+
+Нічні REP і HEAT після втечі від переслідування, під час збереження в укритті та підсумку Busted у визначеній одиниці Need for Speed Heat.
+
+### Виключає
+
+Гроші, вже збережені на фініші; повну втрату незбережених грошей як єдине правило; винагороду за розшук у певній юрисдикції; тимчасову бойову комбінацію.
+
+### Ігри-носії
+
+- [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
+
+## SYS-768
+
+- Назва: Відновлювати стан авто зі спільного для сесії запасу обслуговувань
+- Переглянуто: `2026-09-04`
+
+### Операційне визначення
+
+Перетин допустимої придорожньої зони обслуговування відновлює стан незнищеного авто й витрачає одне доступне використання із запасу, спільного для всіх таких місць протягом поточної сесії.
+
+### Включає
+
+Ремонт під час проїзду через заправки протягом однієї ночі Heat.
+
+### Виключає
+
+Платні поліпшення в майстерні; пасивне відновлення; переносний ремонтний предмет; незалежно вичерпувані запаси окремих місць обслуговування; автоматичне повернення до контрольної точки.
+
+### Ігри-носії
+
+- [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
+
+## SYS-769
+
+- Назва: Зберігати накопичений ризик сесії після оплати припинення переслідування
+- Переглянуто: `2026-09-04`
+
+### Операційне визначення
+
+Допустиме прийняття плати під час сутички списує наявні гроші й припиняє активний тиск противника, зберігаючи накопичений розголос і множник нагороди сесії для подальшого зарахування.
+
+### Включає
+
+Прийнятий посильний хабар за низького HEAT у Need for Speed Heat.
+
+### Виключає
+
+Списання після затримання зі скиданням множника; знищення противників; пасивний вихід із поля зору; пізнішу сплату постійної регіональної винагороди за розшук.
+
+### Ігри-носії
+
+- [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
+
+## SYS-770
+
+- Назва: Перетворити контекстне добивання на сумісні ресурси відновлення
+- Переглянуто: `2026-09-04`
+
+### Операційне визначення
+
+Завершення допустимого контекстного добивання усуває приголомшену ціль і створює у світі обмежені предмети, які після підбирання відновлюють сумісні втрачені бойові ресурси.
+
+### Включає
+
+Здоров’я та боєприпаси, що випадають після Glory Kill у DOOM (2016).
+
+### Виключає
+
+Звичайну поразку від пострілу без перетворення добиванням; гарантовану постійну нагороду спорядженням; окремий обмін Chainsaw лише на боєприпаси в пізнішій місії; автоматичне лікування без предметів у світі.
+
+### Ігри-носії
+
+- [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
+
+## SYS-771
+
+- Назва: Перетворювати вибраний посилений режим і спільний запас на тимчасову спроможність
+- Переглянуто: `2026-09-04`
+
+### Операційне визначення
+
+Система перетворює один вибраний особистий режим на визначений тимчасовий модифікатор руху, сили, захисту або маскування, безперервно списує той самий спільний запас із залежною від режиму та дії швидкістю й автоматично поповнює його після завершення допустимих умов витрати.
+
+### Включає
+
+Посилений біг Speed, стрибок або прицілювання Strength, поглинання шкоди Armor та рухомий або нерухомий Cloak зі спільною шкалою енергії Nanosuit у Crysis Remastered.
+
+### Виключає
+
+Постійні характеристики персонажа; окремі затримки готовності кожної здібності; одну особливу здібність героя без заміни режимів; паливну енергію машини; незалежне живлення нічного бачення.
+
+### Ігри-носії
+
+- [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
+
+## SYS-772
+
+- Назва: Опрацьовувати прицільне переміщення одразу в допустимій точці
+- Переглянуто: `2026-09-04`
+
+### Операційне визначення
+
+Після підтвердження допустимого короткого переміщення система списує його поточний ресурс і розміщує кероване тіло в прийнятій точці світу без звичайного руху крізь проміжний простір.
+
+### Включає
+
+Переміщення Blink I до попередньо показаної допустимої точки підлоги, даху чи уступу у визначеній місії Dishonored.
+
+### Виключає
+
+Безперервний біг чи стрибок; повернення до контрольної точки; захоплення керування іншим актором; авторський перехід між місіями із завантаженням.
+
+### Ігри-носії
+
+- [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
+
+## SYS-773
+
+- Назва: Зводити поведінку в межах місії до загальної оцінки
+- Переглянуто: `2026-09-04`
+
+### Операційне визначення
+
+Після завершення скінченної місії система класифікує записані категорії поведінки, виводить загальний стан оцінки місії й показує обидва до відновлення гри в наступнику.
+
+### Включає
+
+Категорії Stats і показаний стан Chaos наприкінці визначеної цільової місії Dishonored.
+
+### Виключає
+
+Поточний бойовий рахунок без межі місії; прихований розрахунок фіналу всієї кампанії; рейтинг облікового запису; нагороди, не пов’язані із записаною поведінкою.
+
+### Ігри-носії
+
+- [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
+
+## SYS-774
+
+- Назва: Застосовувати представлену соціальну роль до доречної допустимості
+- Переглянуто: `2026-09-04`
+
+### Операційне визначення
+
+Коли керований актор представляє здобуту роль, система змінює, які авторські зони, дії та видимі переносні предмети в кожному місцевому контексті вважаються звичайними, підозрілими або забороненими.
+
+### Включає
+
+Залежні від маскування доступ до зон, підозрілі дії та видимі незаконні предмети у визначеній місії Paris.
+
+### Виключає
+
+Косметичний одяг; універсальний ключ до одного замка; характеристики обладунку; загальний розшук незалежно від ролі; сценарний доступ без місцевих спостерігачів.
+
+### Ігри-носії
+
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
+
+## SYS-775
+
+- Назва: Опрацьовувати розпізнавання представленої ролі окремими спостерігачами
+- Переглянуто: `2026-09-04`
+
+### Операційне визначення
+
+Кожен допустимий спостерігач порівнює представлену роль і засвідчену історію керованого актора з власним винятком розпізнавання, тому те саме маскування можуть приймати звичайні актори, але викривати чи вважати скомпрометованим інші.
+
+### Включає
+
+Спостерігачі, які розпізнають маскування, і свідки скомпрометованого вбрання у визначеній місії Paris.
+
+### Виключає
+
+Глобально всезнаючих ворогів; звичайне виявлення зором без ролі; спільну для всіх репутацію угруповання; одноразову діалогову перевірку особи без живого сприйняття.
+
+### Ігри-носії
+
+- [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
+
+## SYS-776
+
+- Назва: Перетворювати тривале прицілювання на перевагу зосередженого пострілу
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Поки зброя лишається наведеною без іншого визначеного переривання, система звужує чинний приціл до зосередженого стану, а прийнятий у ньому постріл має вищу ймовірність приголомшення або критичного наслідку.
+
+### Включає
+
+Утримування вогнепальної зброї наведеною до зосередження прицілу перед пострілом у визначеній першій главі Resident Evil 4.
+
+### Виключає
+
+Лише оптичне збільшення; гарантоване влучання; автоматичний вибір цілі; пасивну точність зброї без утримуваного прицілювання; заряджений снаряд.
+
+### Ігри-носії
+
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+
+## SYS-777
+
+- Назва: Опрацьовувати вчасне парирування як захист із витратою міцності
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Коли придатна ближня зброя зустрічає допустиму атаку у прийнятому реактивному вікні, система запобігає звичайній шкоді від цієї атаки, зменшує міцність зброї та за точнішого моменту сильніше приголомшує нападника.
+
+### Включає
+
+Звичайне й точне парирування ножем із втратою міцності в межах визначеної першої глави Resident Evil 4.
+
+### Виключає
+
+Вичерпання шкали тривалого блоку; порівняння напрямків захисту; пасивне зменшення шкоди; ремонт чи поліпшення зброї після бою; атаки, які чинні правила не дозволяють парирувати.
+
+### Ігри-носії
+
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+
+## SYS-778
+
+- Назва: Перетворювати приголомшення ворога на коротку нагоду для ближньої атаки
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Допустиме прицільне влучання або точно виконаний захист може перевести живого ворога в тимчасовий стан приголомшення, який відкриває досяжну контекстну ближню атаку, доки відстань, відновлення чи поразка не закриє її.
+
+### Включає
+
+Нагоди для ближньої атаки після вогнепального влучання або точного парирування в межах визначеної першої глави Resident Evil 4.
+
+### Виключає
+
+Гарантований стан добивання; допустимість непомітної атаки по необізнаній цілі; постійне оглушення; звичайну шкоду без нової дії; здобич після поразки.
+
+### Ігри-носії
+
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+
+## SYS-779
+
+- Назва: Завершувати авторський напад після умови виживання
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Поки триває авторський напад ворожої групи, система відстежує оголошену умову виживання або результативності й, після її виконання живим керованим актором, відводить чи звільняє решту загрози та повертає можливість рухатися далі без вимоги повного очищення.
+
+### Включає
+
+Завершення нападу на сільській площі, коли подія з дзвоном відкликає решту нападників у межах визначеної першої глави Resident Evil 4.
+
+### Виключає
+
+Перемогу над усіма ворогами в замкненій кімнаті; нескінченні процедурні хвилі; втечу гравця, що оминає умову; сцену без попереднього живого стану виживання.
+
+### Ігри-носії
+
+- [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+
+## SYS-780
+
+- Назва: Завершувати авторський сегмент зі збереженим керуванням у наступнику
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Після останньої потрібної взаємодії обмеженої авторської глави чи місії система закриває її поточні завдання, показує завершення сегмента, створює або приймає збережений стан і відкриває звичайне керування в названому наступному сегменті.
+
+### Включає
+
+Завершення Chapter 1, збереження результату й перше збережене керування в Chapter 2 у визначеній свіжій грі Resident Evil 4; завершення Mission 5 і відновлення початку Mission 6 у визначеному Story Mode гри Alien: Isolation.
+
+### Виключає
+
+Завершення всієї кампанії; зупинку на проміжній контрольній точці; незбережену сцену; повтор завершеної глави заради рангу; перехід через послідовність босів із додатковими правилами розвитку.
+
+### Ігри-носії
+
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+- [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
+
+## SYS-781
+
+- Назва: Просувати послідовність регіонів з охоронцями до визначеної втечі
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Перемога над обов’язковим охоронцем обмеженого регіону спроби відкриває наступний регіон і переносить те саме тимчасове здоров’я, ресурси та збірку, доки останній охоронець не відкриє визначене завершення втечі.
+
+### Включає
+
+Перенесення першої спроби Hades від Tartarus крізь наступні регіони й останнього охоронця до переходу на поверхню.
+
+### Виключає
+
+Окремо скинутий рівень після кожного боса; вибір показаного вузла однієї мапи; авторську контрольну точку кампанії, що зберігає постійну збірку персонажа після звичайної смерті.
+
+### Ігри-носії
+
+- [`GAME-0251` — Hades](../games/g-l/hades.md)
+
+## SYS-782
+
+- Назва: Очищувати завершену спробу зі збереженням допустимого метапоступу
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Смерть або визначений успіх закриває поточну багатовузлову спробу, прибирає її створений маршрут, здоров’я, валюту спроби й тимчасову збірку та повертає керування до постійного осередку, зберігаючи допустимі зібрані ресурси метапоступу й записаний стан спроби або сюжету.
+
+### Включає
+
+Повернення Zagreus до збереженого керування в House of Hades після смерті або завершення першої втечі.
+
+### Виключає
+
+Повтор із контрольної точки з тією самою постійною збіркою; збереження лише двійкового відкриття без здобутих метаресурсів; повне видалення збереження; відмову від спроби через Give Up без її завершення.
+
+### Ігри-носії
+
+- [`GAME-0251` — Hades](../games/g-l/hades.md)
+
+## SYS-783
+
+- Назва: Перетворювати зареєстровані докази на переговорні варіанти й перевагу
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Система поєднує авторські факти, зареєстровані поточним розслідуванням, зі станом живої взаємодії, щоб відкривати або посилювати контекстні відповіді та оновлювати поточну переговорну перевагу.
+
+### Включає
+
+Допуск сильніших відповідей і стану успіху на даху завдяки доказам Detroit: Become Human про інцидент, особу учасника, причину та зброю.
+
+### Виключає
+
+Діалоговий варіант, доступний незалежно від доказів; саме лише володіння предметом; знання із зовнішнього довідника, не зареєстроване грою; сталий факт, що не змінює живу взаємодію.
+
+### Ігри-носії
+
+- [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
+
+## SYS-784
+
+- Назва: Розв’язувати накопичені авторські рішення в одну гілку інциденту
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Після отримання обмеженим живим інцидентом допустимих доказів, відповідей у часі та завершального втручання система оцінює їхній збережений стан і фіксує одну авторську кінцеву вершину з відповідними наслідками для учасників.
+
+### Включає
+
+Розв’язання вступного інциденту із заручницею в Detroit: Become Human до вершини, що фіксує виживання або смерть переговорника, захищеної особи й протилежного учасника.
+
+### Виключає
+
+Безпосередній вибір фіналу з меню; випадкову бойову сутичку без стану авторських рішень; просування цілі завдання без окремої вершини інциденту; завершення всієї розгалуженої кампанії.
+
+### Ігри-носії
+
+- [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
+
+## SYS-785
+
+- Назва: Зберігати пройдені вершини глави у доступній для повторного огляду мапі гілок
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Після завершення авторської глави система зберігає вершини й кінець фактично пройденого шляху, показує їх у доступній пізніше мапі гілок і лишає непройдені альтернативи замкненими або неназваними.
+
+### Включає
+
+Післяглавну блок-схему Detroit: Become Human і пізніший огляд завершеної вступної глави з поверхні вибору глав.
+
+### Виключає
+
+Повну мапу шляхів до початку гри; лінійну позначку завершення без запису шляху; глобальні відсотки гравців; повторне проходження чи перезапис глави; розкриття всіх прихованих наслідків без їх проходження.
+
+### Ігри-носії
+
+- [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
+
+## SYS-786
+
+- Назва: Просувати поетапне відновлення союзної платформи встановленими модулями живлення
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Установлення прийнятого сумісного модуля живлення у вимкнену союзну бойову платформу витрачає цей модуль і переводить ту саму платформу на наступний авторський етап відновлення; досягнення останнього потрібного етапу відкриває операторське з’єднання та шлюз безпосереднього керування.
+
+### Включає
+
+Установлення двох заряджених модулів, які послідовно відновлюють союзну платформу в обмеженій главі BT-7274 гри Titanfall 2.
+
+### Виключає
+
+Заправлення вже справного транспорту; лікування автономного союзника витратним предметом; побудову нової платформи з довільних деталей; збирання модуля без установлення.
+
+### Ігри-носії
+
+- [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
+
+## SYS-787
+
+- Назва: Перепризначати втілене бойове керування зайнятій союзній платформі
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Після законного входу до пов’язаної союзної бойової платформи система зберігає оператора як її пасажира й перепризначає безпосередні рух, атаку, типізовані здібності та показники з пішого тіла на живий бойовий стан платформи.
+
+### Включає
+
+Передачу безпосереднього керування рухом, зброєю, захисними, наступальними та основними здібностями союзній платформі в обмеженій главі BT-7274 гри Titanfall 2.
+
+### Виключає
+
+Вхід до дорожнього транспорту, де місце додає лише кермування; призначення автономної поведінки супроводу чи охорони; перемикання на незалежний віддалений дрон; косметичну зміну камери.
+
+### Ігри-носії
+
+- [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
+
+## SYS-788
+
+- Назва: Незалежно поповнювати неактивні запаси зброї та здібності
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Коли скінченна місткість зброї або запас Energy здібності нижчий за межу, а відповідну витратну дію припинено, система відновлює цей канал за власною затримкою та швидкістю без світового предмета чи ручного перезаряджання; повторне використання перериває або витрачає лише сумісний запас.
+
+### Включає
+
+Самоперезаряджання початкової Service Weapon і відновлення Energy здібності Launch у звичайних правилах CONTROL з усіма функціями Assist Mode вимкненими.
+
+### Виключає
+
+Перенесення набоїв зі скінченного запасу до магазина; відновлення Energy лише успішними атаками; єдиний спільний запас режимів; пасивне лікування; необмежену атаку без видимої місткості.
+
+### Ігри-носії
+
+- [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
+
+## SYS-789
+
+- Назва: Продовжувати безперервний бойовий ланцюг і нараховувати досвід за сутичку
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Кожна прийнята атака, контратака, оглушення чи нейтралізація в одній живій ближній послідовності продовжує її поточний безперервний ланцюг, а розрив обнуляє живий множник; після завершення скінченної сутички система нараховує досвід за підсумковий ланцюг і різноманітність дій.
+
+### Включає
+
+Множник FreeFlow і досвід за різноманітність наприкінці бою в обмеженому вступному маршруті Story Mode гри Batman: Arkham Asylum Game of the Year Edition.
+
+### Виключає
+
+Постійний лічильник комбінацій акаунта; оцінювання ритмічної схеми лише після пісні; досвід тільки за здавання завдання; ланцюг без впливу на підсумок сутички; названий прийом або точне число винагороди як канонічну межу.
+
+### Ігри-носії
+
+- [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
+
+## SYS-790
+
+- Назва: Поширювати випущений ефект через сумісне середовище
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Коли випущений ефект певного виду досягає однієї сполученої сумісної області середовища, система поширює ефект цією областю та застосовує визначений результат до кожного актора чи механізму, який саме контактує з нею та реагує на цей ефект.
+
+### Включає
+
+Поширення електричного ефекту Electro Bolt сполученою водоймою на всіх учасників у контакті з нею в обмеженому вступному маршруті BioShock™ Remastered.
+
+### Виключає
+
+Застосування здібності лише до прямо приціленої цілі; відкривання одного механізму сумісним влучанням; пасивну шкоду від постійно небезпечної поверхні; необмежене поширення вогню між окремими об’єктами.
+
+### Ігри-носії
+
+- [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
+
+## SYS-791
+
+- Назва: Витрачати заряд переносного світла й поповнювати його зі скінченного запасу батарейок
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Поки персональний освітлювальний пристрій активний, система перетворює його позитивний внутрішній заряд на місцеве світлове поле й зменшує заряд; допустиме поповнення витрачає одну одиницю сумісного скінченного запасу батарейок при персонажі та підвищує заряд до межі.
+
+### Включає
+
+Витрачання заряду ліхтарика й ручне поповнення батарейкою у визначеній місії Alien: Isolation.
+
+### Виключає
+
+Автоматичне відновлення того самого запасу в неактивному стані; нерухомий світильник; перезарядження зброї; освітлення без обмеження заряду; батарейку лише як складник іншого предмета.
+
+### Ігри-носії
+
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
+
+## SYS-792
+
+- Назва: Перетворювати близький допустимий рух на показники напрямку й відстані
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Активний переносний детектор перевіряє допустимих рухомих акторів у межах свого радіуса, обирає найближчий поточний рух і перетворює його відносне положення на сектор напрямку та відстань, прибираючи показник, коли допустимий рух зупиняється або виходить за межі.
+
+### Включає
+
+Передній сектор, бічні й задні чверті та відстань до найближчого рухомого актора на детекторі в Alien: Isolation.
+
+### Виключає
+
+Показ особи актора чи точного шляху; виявлення нерухомого актора; сталу позначку крізь перешкоди; датчик лише нерухомих ресурсів; передбачення майбутньої позиції.
+
+### Ігри-носії
+
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
+
+## SYS-793
+
+- Назва: Чергувати копію буденного предмета й відкриту форму автономного ворога
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Автономний ворог замінює видиме рухоме тіло зовнішністю допустимого близького буденного предмета, зберігає ворожу ідентичність у прихованому стані й може повернутися до відкритої рухомої бойової форми, коли змінюється умова ховання, виявлення, перевірки або атаки.
+
+### Включає
+
+Mimic, який копіює буденний предмет станції, а потім відкривається для руху й бою в обмеженому маршруті Prey (2017).
+
+### Виключає
+
+Косметичну подобу гравця; нерухому пастку, що ніколи не була автономним актором; ілюзію без збереженої ворожої ідентичності; звичайне маскування без заміни видимої форми; сюжетне перевтілення.
+
+### Ігри-носії
+
+- [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
+
+## SYS-794
+
+- Назва: Перетворювати пошкодження ділянки тіла на відсікання й втрату функції
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Пошкодження накопичується на допустимій приєднаній ділянці тіла, руйнує збережені шари й після досягнення порога відділяє цю ділянку, забираючи в решти живого тіла пов’язану з нею функцію руху, атаки чи опори.
+
+### Включає
+
+Відсікання ноги ворога для обмеження руху або атакувальної кінцівки для скорочення досяжності в обмеженому Chapter 1 гри Dead Space (2023).
+
+### Виключає
+
+Пошкодження за місцем влучання без відділення; декоративні уламки; сюжетне розчленування після поразки; сукупну втрату здоров’я без зміни набору функцій; знос предмета.
+
+### Ігри-носії
+
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
+
+## SYS-795
+
+- Назва: Перерозподіляти фіксовану потужність локального кола між гілками механізмів
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Прийнятий вибір на локальному щитку переносить фіксований запас живлення між названими гілками механізмів, вмикає вибраний сумісний набір і вимикає конкурентну гілку, коли одночасний попит перевищив би місткість щитка.
+
+### Включає
+
+Живлення двох із трьох гілок — офісу Maintenance Bay, ліфта та освітлення — в обмеженому вступному розділі Dead Space (2023).
+
+### Виключає
+
+Безперервне налаштування продуктивності систем транспорту; балансування економічної енергомережі; незалежний перемикач із необмеженим живленням; одноразову батарею в одному приймачі.
+
+### Ігри-носії
+
+- [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
+
+## SYS-796
+
+- Назва: Витрачати час дії дихального фільтра до шкоди від небезпечного повітря
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Поки актор перебуває у визначеному небезпечному повітрі, сумісне надягнене дихальне спорядження в живому часі витрачає тривалість поточного фільтра; позитивний запас захищає від прямої шкоди середовища, а відсутній, знятий або вичерпаний фільтр дозволяє впливу зменшувати життєздатність, доки актор не вийде, не відновить захист або не зазнає поразки.
+
+### Включає
+
+Вичерпання фільтра протигаза та вплив токсичної або опроміненої поверхні в обмеженому розділі Moscow гри Metro Exodus.
+
+### Виключає
+
+Кисень під водою без змінного фільтра; випромінювання, що лише збільшує абстрактний показник крізь характеристики броні; шкоду від ворожого газу, яка ігнорує спорядження; постановочне задушення без живого стану ресурсу.
+
+### Ігри-носії
+
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+
+## SYS-797
+
+- Назва: Перетворювати місцеву освітленість на тиск ворожого сприйняття
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Система поєднує поточну місцеву освітленість керованого актора з геометрією огляду та рухом, змінюючи швидкість, з якою допустимий ворог виявляє або втрачає цього актора; гасіння доступного світла чи вимкнення переносного освітлення може зменшити зорове виявлення, не роблячи актора невидимим.
+
+### Включає
+
+Вимкнення місцевих ламп і відмова від особистого ліхтарика під час проходження контрольованих Hanza приміщень в обмеженому розділі Moscow гри Metro Exodus.
+
+### Виключає
+
+Двійкову силу невидимості; темряву, що безпосередньо атакує гравця; світло лише для відтворення зображення; покроковий модифікатор видимості; позначку актора, що зберігається після втрати огляду.
+
+### Ігри-носії
+
+- [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)

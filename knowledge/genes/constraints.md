@@ -5459,15 +5459,18 @@
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: a personal craft request is legal only when the avatar owns its
-  ingredients, knows the recipe, satisfies any required station tier, proximity
-  and operating conditions and has capacity for the declared output.
+  ingredients, knows the recipe, satisfies every station tier, proximity or
+  operating condition required by that recipe and has capacity for the
+  declared output; a recipe may declare no station requirement.
 - Includes: Rust hand-crafting, including Workbench-3 C4; Valheim recipes at an
-  eligible covered Workbench.
+  eligible covered Workbench; Alien: Isolation's stationless personal
+  Noisemaker craft from a known blueprint and compatible carried components.
 - Excludes: Furnace smelting; Recycler conversion; recipe research.
 - Parameters: recipe, ingredients, blueprint/knowledge, station, tier,
   proximity, cover/operating state, queue and output.
-- Evidence: [Rust decomposition](../games/m-r/rust.md) and
-  [Valheim decomposition](../games/s-z/valheim.md).
+- Evidence: [Rust decomposition](../games/m-r/rust.md),
+  [Valheim decomposition](../games/s-z/valheim.md) and
+  [Alien: Isolation decomposition](../games/a-f/alien-isolation.md).
 - Novelty: not assessed.
 
 ## CON-298 — Workbench progression requires ordered tiers and fragments
@@ -7269,15 +7272,19 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: after Isaac enters an uncleared ordinary combat room, its normal
-  exits remain closed until every required current hostile and declared
-  reinforcement is defeated.
-- Includes: ordinary combat-room door locks in base The Binding of Isaac: Rebirth.
+- Definition: after an authored combat area is entered or deliberately
+  triggered, its declared route exits remain closed until every required
+  current hostile and finite reinforcement is defeated.
+- Includes: ordinary combat-room door locks in base The Binding of Isaac:
+  Rebirth; the mandatory Marsh-Hopper hall in Serious Sam HD: The First
+  Encounter; the first Gore Nest lockdown in DOOM (2016).
 - Excludes: permanently locked key doors; leaving an already cleared room;
   survival against an endless spawn stream.
 - Parameters: room, required set, reinforcement closure, door set, clear state
   and escape exceptions.
 - Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
+- Additional support: [Serious Sam HD: The First Encounter decomposition](../games/s-z/serious-sam-hd-the-first-encounter.md)
+  and [DOOM (2016) decomposition](../games/a-f/doom-2016.md).
 - Novelty: first isolated for `GAME-0164`.
 
 ## CON-428 — Only one current supplied contract may be active
@@ -10004,25 +10011,29 @@
   inside a still-running team match without either a later round return or a
   replacement vehicle.
 
-## CON-556 — Gravity Gun manipulation requires an eligible physics target
+## CON-556 — Remote physics-object manipulation requires an eligible target
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: the ordinary Gravity Gun may pull, attach or punt only a target
-  accepted by its current trace, distance, movable VPhysics, mass, flesh,
-  forbidden-flag, player-support and clearance rules; a rejected target remains
-  in world state and no held relation is created.
+- Definition: a remote object-manipulation tool or ability may pull, attach,
+  hold or launch only a target accepted by its current trace, distance, movable
+  physics state, mass, body class, authored flags, player support and clearance
+  rules; a rejected target remains in world state and no held relation is
+  created.
 - Includes: ordinary movable Ravenholm props accepted or rejected by the base
-  Half-Life 2 Gravity Gun.
+  Half-Life 2 Gravity Gun; loose world props accepted or rejected by the
+  acquired telekinetic ability in CONTROL's scoped mission.
 - Excludes: the supercharged Gravity Gun's NPC and mass permissions; Portal
   cube carrying with no physcannon trace; recursive relative-scale eligibility;
-  whether an already launched prop later damages a hostile.
-- Parameters: trace length, line or hull hit, distance, physics object, maximum
-  mass, flesh state, spawn flags, world support, player ground entity,
-  attachment clearance and rejection feedback.
-- Evidence: [Half-Life 2 decomposition](../games/g-l/half-life-2.md).
+  whether an already launched prop later damages a hostile; ability-resource
+  readiness already represented by `CON-269`.
+- Parameters: tool or ability, trace length, line or hull hit, distance,
+  physics object, maximum mass, body class, authored flags, world support,
+  player ground entity, attachment clearance and rejection feedback.
+- Evidence: [Half-Life 2 decomposition](../games/g-l/half-life-2.md) and
+  [CONTROL Ultimate Edition decomposition](../games/a-f/control-ultimate-edition.md).
 - Novelty: first isolated for `GAME-0212`; one remote manipulation attempt is
   jointly gated by physical type, mass, spatial acquisition and explicit
   authoring permissions rather than generic reach or inventory capacity.
@@ -10457,24 +10468,28 @@
 - Novelty: first isolated for `GAME-0237`; typed reserve scarcity is separated
   from magazines, reload windows, round inventory and weapon-class replacement.
 
-## CON-579 — Restorative use requires missing health and carried stock
+## CON-579 — Restorative use requires a compatible missing meter and carried stock
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
-- Evidence quality: `Direct`
+- Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: a live self-restorative request is legal only while the controlled
-  character has eligible missing health and at least one compatible unit in a
-  finite carried stock; acceptance consumes one unit and cannot restore beyond
-  the health cap.
+- Definition: a live self-restorative request is legal only while the
+  controlled character's compatible health or ability meter is below its cap
+  and at least one matching unit remains in finite carried stock; acceptance
+  consumes one unit and cannot restore beyond that meter's cap.
 - Includes: using one of Max Payne (2001)'s carried painkillers while the pain
   bar contains recoverable loss, with the stock capped at eight.
 - Excludes: an uninterrupted cast requirement; a cooldown-only health charge;
   passive regeneration; a restorative applied to another actor; item identity,
   cap value or restored amount as separate genes.
-- Parameters: item, current stock, stock cap, current health, maximum health,
-  eligible missing portion, accepted use, consumed quantity and recovery cap.
+- Parameters: item, target meter, current stock, stock cap, current value,
+  maximum value, eligible missing portion, accepted use, consumed quantity and
+  recovery cap.
 - Evidence: [Max Payne (2001) decomposition](../games/m-r/max-payne-2001.md).
+- Additional support: [BioShock Remastered decomposition](../games/a-f/bioshock-remastered.md),
+  for First Aid Kit use against missing Health and EVE Hypo use against missing
+  EVE from separate finite carried stocks.
 - Novelty: first isolated for `GAME-0238`; it captures the portable legality
   boundary for immediate live item commitment without importing a cast time,
   status cooldown or game-specific medicine name.
@@ -10633,3 +10648,345 @@
 - Evidence: [Battlefield Hardline decomposition](../games/a-f/battlefield-hardline.md).
 - Novelty: first isolated for `GAME-0243`; legal custody couples target state,
   embodied reach and a continuously maintained coercive relation.
+
+## CON-588 — Roadside restoration requires remaining shared session allowance
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a live vehicle may receive roadside condition restoration only
+  at an eligible service trigger while the current session's shared allowance
+  remains; visiting another location cannot evade an exhausted allowance.
+- Includes: the shared three-repair limit across gas stations during one Heat
+  night, before its garage settlement.
+- Excludes: a separate stock at each fixture; paid garage maintenance; carried
+  repair kits; restoring a vehicle after its terminal wreck.
+- Parameters: live vehicle, service trigger, session, allowance, used count,
+  remaining count and reset boundary.
+- Evidence: [Need for Speed Heat decomposition](../games/m-r/need-for-speed-heat.md).
+- Novelty: first isolated for `GAME-0244`; geography offers alternative service
+  routes but does not multiply the available recovery budget.
+
+## CON-589 — Contextual finisher requires a live reachable stagger window
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a contextual close finisher is legal only while its living target
+  remains in the declared temporary stagger state and within reachable range;
+  distance, recovery or ordinary defeat removes the opportunity.
+- Includes: the short visible Glory Kill window on staggered close hostiles in
+  DOOM (2016).
+- Excludes: an unaware-target takedown; an always-available melee attack; a
+  ranged shot into a staggered target; a finisher prompt on a dead target.
+- Parameters: target, life state, stagger source, visible opportunity, duration,
+  reach, approach context, recovery and competing defeat.
+- Evidence: [DOOM (2016) decomposition](../games/a-f/doom-2016.md).
+- Novelty: first isolated for `GAME-0245`; the same damaged target can be
+  finished from range or entered as a short-lived positional recovery option.
+
+## CON-590 — Powered mode effects require compatible action and shared reserve
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the selected powered capability may apply only while its declared
+  actor action is compatible and the common reserve can support the resulting
+  debit; exhaustion or a declared disqualifying action ends or changes the
+  effect immediately.
+- Includes: Crysis Remastered Speed sprint and Strength jump costs, Armor
+  interception while energy remains, faster Cloak drain during movement and
+  weapon fire exhausting energy and breaking Cloak.
+- Excludes: sufficient ammunition for an ordinary shot; permanent skill
+  prerequisites; several independent cooldowns; a cosmetic mode label with no
+  action/resource gate; night vision's separate reserve.
+- Parameters: selected mode, actor action, compatibility, reserve before,
+  required debit, ongoing rate, exhaustion, disqualifying action and resulting
+  capability state.
+- Evidence: [Crysis Remastered decomposition](../games/a-f/crysis-remastered.md).
+- Novelty: first isolated for `GAME-0246`; current action and one shared reserve
+  jointly decide whether a selected movement, protection or concealment effect
+  remains legal.
+
+## CON-591 — Authored non-lethal disposition requires procedure, viable target and fixture
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a mission-specific non-lethal disposition is legal only after its
+  operational procedure is learned and while the designated living target is
+  restrained at the compatible authored world fixture with the required item
+  or service available.
+- Includes: applying the acquired Heretic's Brand to living unconscious
+  Campbell at the interrogation chair after learning the procedure in
+  Dishonored's scoped mission.
+- Excludes: an ordinary unaware choke; killing the target; a dialogue-only
+  pardon; applying an item to any body regardless of state; importing knowledge
+  from an external walkthrough without registering the authored procedure.
+- Parameters: mission, learned procedure, target identity, living state,
+  restraint, fixture, required item or service, reach and resolved disposition.
+- Evidence: [Dishonored (2012) decomposition](../games/a-f/dishonored-2012.md).
+- Novelty: first isolated for `GAME-0247`; the alternative target resolution
+  joins acquired operational knowledge, preserved living state, restraint and
+  one authored fixture rather than accepting generic incapacitation alone.
+
+## CON-592 — Restricted context requires a permitted presented role
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: entering a restricted area or performing a context-sensitive
+  action with a visible item remains socially legal only while the currently
+  presented role grants that context and no applicable observer recognition
+  exception rejects it.
+- Includes: disguise-conditioned trespass, suspicious-action and illegal-item
+  gates in HITMAN World of Assassination's scoped Paris mission.
+- Excludes: a carried key for a physical lock; ammunition compatibility; a
+  cosmetic dress code; a global faction rank; an invisible scripted barrier.
+- Parameters: presented role, area, action, item visibility, permission,
+  observer exception, trespass state and rejected transition.
+- Evidence: [HITMAN World of Assassination decomposition](../games/g-l/hitman-world-of-assassination.md).
+- Novelty: first isolated for `GAME-0248`; area, conduct and visible equipment
+  share one role-conditioned legality boundary with local observer exceptions.
+
+## CON-593 — Mission exit requires the closed designated-target set
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an ordinary mission exit can settle only after every member of
+  the declared finite target set has entered an accepted resolved state; any
+  remaining member preserves the live objective and rejects settlement.
+- Includes: enabling ordinary exits only after both designated targets are
+  resolved in HITMAN World of Assassination's scoped Paris story mission.
+- Excludes: an exit gated by one named target; optional bonus enemies; clearing
+  every hostile in an area; leaving an open world without mission settlement.
+- Parameters: mission, closed target set, member state, accepted resolution,
+  remaining count, exit, rejection and settlement enablement.
+- Evidence: [HITMAN World of Assassination decomposition](../games/g-l/hitman-world-of-assassination.md).
+- Novelty: first isolated for `GAME-0248`; a conjunctive finite target roster,
+  rather than one target or generic hostile clearance, controls mission exit.
+
+## CON-594 — Reactive parry requires a usable close weapon and eligible attack
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a reactive parry may resolve only while the controlled actor has
+  a readied close weapon above its disabled durability state and an eligible
+  incoming attack reaches the accepted timing window.
+- Includes: knife-parry legality before the knife breaks in Resident Evil 4's
+  bounded first chapter.
+- Excludes: repairing a broken weapon; passive armour; attacks the rules mark
+  as unparryable; sustained guard without an incoming strike; exact durability
+  values as separate genes.
+- Parameters: actor, close weapon, equipped state, durability, disabled state,
+  incoming attack, eligibility, timing window and rejected input.
+- Evidence: [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md).
+- Novelty: first isolated for `GAME-0249`; attack timing and remaining tool
+  function jointly gate one reactive defence rather than a held block.
+
+## CON-595 — Contextual close follow-up requires a reachable staggered hostile
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a contextual close follow-up is legal only while its target is a
+  living eligible hostile in the current temporary stagger state and remains
+  within the required positional reach; recovery, distance or defeat removes
+  the command.
+- Includes: prompted melee attacks after an eligible stagger in Resident Evil
+  4's bounded first chapter.
+- Excludes: a guaranteed defeating finisher; an unaware-target takedown;
+  ordinary close attacks; a ranged shot into the same stagger state.
+- Parameters: target, life state, stagger state, reach, prompt, recovery,
+  competing defeat and rejected command.
+- Evidence: [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md).
+- Novelty: first isolated for `GAME-0249`; the transient state gates a
+  non-guaranteed contextual attack rather than the execution boundary of
+  `CON-589`.
+
+## CON-596 — Run-modifier offer requires compatible prerequisites and slots
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an option may appear in or be accepted from a run-local modifier
+  offer only when its declared prerequisite chain is satisfied and any
+  exclusive capability slot can legally receive or replace that modifier.
+- Includes: first-attempt Hades Boons constrained by prerequisite state and the
+  exclusive Attack, Special, Cast, Dash and Call core slots.
+- Excludes: permanent account skill trees; an unconstrained random stat reward;
+  catalogue purchases limited only by price; later-run exchange permissions
+  absent from the scoped first attempt.
+- Parameters: modifier, prerequisite set, current build, capability, slot,
+  occupied state, replacement permission, rarity, level and rejection.
+- Evidence: [Hades decomposition](../games/g-l/hades.md).
+- Novelty: first isolated for `GAME-0251`; `CON-188` limits how many offer
+  options may be chosen, while this constraint determines which build options
+  may legally be offered or installed at all.
+
+## CON-597 — Live incident opportunities close when their authored interval expires
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while a bounded authored incident remains active, an evidence,
+  response or intervention opportunity is selectable only before its scene
+  pressure or displayed decision interval closes; expiry advances or settles
+  the incident and prevents retroactive selection in the same path.
+- Includes: investigation pressure and timed rooftop responses in Detroit:
+  Become Human's opening incident.
+- Excludes: an external performance timer with no state effect; a paused menu;
+  a fixed turn budget; optional content that remains available indefinitely;
+  restarting or replaying the complete chapter after expiry.
+- Parameters: incident, opportunity, opening trigger, interval, visible timer,
+  expiry, default or successor state, pause rule and replay boundary.
+- Evidence: [Detroit: Become Human decomposition](../games/a-f/detroit-become-human.md).
+- Novelty: first isolated for `GAME-0252`; the same authored incident can close
+  investigative and dialogue affordances through live pressure before its
+  retained branch endpoint is chosen.
+
+## CON-598 — Allied combat-platform entry requires restoration and operator link
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: direct entry and operation are legal only while the addressed
+  allied combat platform has reached its declared power-restoration threshold,
+  completed a compatible operator link and exposes a reachable entry state;
+  any incomplete requirement rejects the transfer.
+- Includes: the restoration, neural-link and embark gates before direct control
+  of the allied platform in Titanfall 2's bounded `BT-7274` chapter.
+- Excludes: generic road-vehicle seat availability; fuel consumption after
+  operation begins; summoning a new platform; remotely ordering an unoccupied
+  ally; a cutscene boarding with no player control.
+- Parameters: platform, restoration threshold, installed modules, compatible
+  operator, link state, entry reach, hatch state, accepted transfer and
+  rejection reason.
+- Evidence: [Titanfall 2 decomposition](../games/s-z/titanfall-2.md).
+- Novelty: first isolated for `GAME-0253`; power restoration, identity link and
+  physical entry jointly gate a complete embodied-control transfer.
+
+## CON-599 — Grapnel traversal requires an eligible anchor and clear body route
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: grapnel-assisted body traversal is legal only when the addressed
+  world point is designated as a compatible elevated anchor, lies within the
+  current selection relation and admits a clear attachment and body path;
+  ordinary scenery or an obstructed route rejects the command.
+- Includes: icon-marked higher ledges and predator-room vantage points in
+  Batman: Arkham Asylum Game of the Year Edition's bounded opening Story Mode
+  route.
+- Excludes: a free-form rope attachment to any surface; grabbing a hostile;
+  consuming a placed climbing aid; an instantaneous relocation to arbitrary
+  floor; a cinematic ascent with no legality check.
+- Parameters: anchor class, visibility, range, attachment path, body clearance,
+  obstruction, arrival volume, accepted command and rejection feedback.
+- Evidence: [Batman: Arkham Asylum Game of the Year Edition
+  decomposition](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md).
+- Novelty: first isolated for `GAME-0255`; route legality belongs to authored
+  elevated anchor geometry rather than a resource-gated supernatural endpoint
+  or a finite deployed traversal object.
+
+## CON-600 — Current input channel gates weapon and powered ability use
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when one primary input is shared by a readied weapon channel and
+  a powered personal-ability channel, only the currently active channel may
+  resolve that input; the inactive channel retains its selected member but
+  cannot act until a toggle changes ownership.
+- Includes: BioShock Remastered accepting the primary input as Pistol or Wrench
+  use in Weapon Mode and as Electro Bolt use in Plasmid Mode during the bounded
+  opening route.
+- Excludes: independent simultaneous weapon and ability buttons; selecting a
+  different member within one channel; insufficient ammunition or ability
+  reserve; a menu-only preparation loadout.
+- Parameters: shared input, active channel, inactive channel, retained members,
+  accepted operation, rejected operation and toggle boundary.
+- Evidence: [BioShock Remastered decomposition](../games/a-f/bioshock-remastered.md).
+- Novelty: first isolated for `GAME-0256`; mutually exclusive live input
+  ownership is separated from member selection and from the resource legality
+  of either retained member.
+
+## CON-601 — Portable illumination requires charge and finite refill stock
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a personal portable illumination device can emit its local light
+  only while internal charge is positive, and a manual refill is legal only
+  while at least one compatible carried battery unit remains and charge is
+  below its cap.
+- Includes: Alien: Isolation's scoped flashlight and carried battery stock.
+- Excludes: automatic recharge while inactive; unlimited illumination; a world
+  light controlled by electrical infrastructure; weapon-ammunition capacity;
+  a battery used only as a crafting component.
+- Parameters: device, internal charge, active threshold, battery identity,
+  carried stock, refill eligibility, cap and rejection feedback.
+- Evidence: [Alien: Isolation decomposition](../games/a-f/alien-isolation.md).
+- Novelty: first isolated for `GAME-0257`; the light's current reserve and the
+  separate disposable stock that restores it jointly bound visibility.
+
+## CON-602 — Save-fixture use requires live exposure and readiness
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an authored manual save can complete only while the controlled
+  actor remains at a designated ready world fixture through its live
+  interaction interval; the same fixture rejects another save until its
+  cooldown or readiness rule clears while ordinary world pressure continues.
+- Includes: designated save stations in Alien: Isolation's scoped Story Mode
+  mission.
+- Excludes: save-anywhere menu commands; automatic checkpoints; pausing world
+  time while saving; resting at a checkpoint that also restores resources or
+  respawns enemies; a reusable fixture with no readiness interval.
+- Parameters: fixture, reach, interaction duration, interruption, world-time
+  policy, hostile exposure, cooldown, ready state and saved snapshot.
+- Evidence: [Alien: Isolation decomposition](../games/a-f/alien-isolation.md).
+- Novelty: first isolated for `GAME-0257`; persistence itself occupies a live
+  vulnerable interaction window and has a local reuse gate rather than being
+  an instantaneous menu operation or automatic checkpoint.
+
+## CON-603 — Hazardous atmosphere requires worn equipment and positive filter time
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: continued safe action inside a declared toxic or irradiated
+  atmosphere requires compatible breathing equipment to remain worn with
+  positive installed filter duration; replacement additionally requires one
+  compatible carried cartridge, and any missing requirement exposes the actor
+  to the atmosphere's harm.
+- Includes: surface travel and prompted filter replacement during Metro
+  Exodus's bounded `Moscow` chapter.
+- Excludes: ordinary low visibility; underwater breath with no equipment;
+  protection supplied only by a permanent armour statistic; crafting a filter;
+  an atmosphere that causes no gameplay consequence.
+- Parameters: region, atmosphere, equipment compatibility, worn state,
+  installed duration, carried cartridge, replacement legality and exposed
+  consequence.
+- Evidence: [Metro Exodus decomposition](../games/m-r/metro-exodus.md).
+- Novelty: first isolated for `GAME-0260`; safe environmental occupancy depends
+  jointly on a worn protective state and a replaceable positive time reserve.

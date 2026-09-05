@@ -1,5 +1,5 @@
 {
-  "version": "GENE_SALIENCE_AND_PLAIN_LANGUAGE_EXPANSION_040",
+  "version": "GENE_SALIENCE_AND_PLAIN_LANGUAGE_EXPANSION_041",
   "roles": [
     "defining",
     "structural",
@@ -6476,6 +6476,750 @@
       "defining": ["ACT-417", "SYS-680", "SYS-747", "SYS-766", "CON-587", "INF-287", "INF-293", "OBJ-151"],
       "structural": ["ACT-008", "ACT-161", "SYS-373", "TIM-003"],
       "supporting": ["ACT-313", "ACT-405", "ACT-406", "ACT-235", "ACT-164", "ACT-183", "ACT-202", "SYS-057", "SYS-208", "SYS-215", "SYS-299", "SYS-369", "SYS-379", "CON-262", "CON-282", "CON-285", "CON-330", "CON-335", "INF-073", "INF-115", "INF-119", "INF-125"]
+    },
+    "GAME-0244": {
+      "reviewed": "2026-09-04",
+      "noteEn": "Direct driving, persistent night notoriety, multiplied reputation and quota-limited roadside recovery define the race-to-refuge packet. Rivals, route gates, conditional pursuit and optional paid disengagement structure it; settings, generic navigation and retained progression support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Цю одиницю від гонки до укриття визначають безпосереднє кермування, збережений протягом ночі розголос, помножена репутація й обмежене придорожнє відновлення. Суперники, контрольні точки, можлива погоня та необов’язкова плата за її припинення формують послідовність рішень; налаштування, звичайна навігація й збережений поступ її підтримують. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
+      "defining": [
+        "ACT-290",
+        "SYS-767",
+        "SYS-768",
+        "CON-588",
+        "INF-294",
+        "OBJ-152"
+      ],
+      "structural": [
+        "ACT-293",
+        "ACT-341",
+        "ACT-418",
+        "SYS-320",
+        "SYS-365",
+        "SYS-366",
+        "SYS-515",
+        "SYS-516",
+        "SYS-769",
+        "CON-438",
+        "CON-523",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-292",
+        "SYS-299",
+        "SYS-519",
+        "INF-144",
+        "INF-204",
+        "INF-205",
+        "INF-206",
+        "INF-208"
+      ]
+    },
+    "GAME-0245": {
+      "reviewed": "2026-09-04",
+      "noteEn": "The temporary close-finisher opportunity and its recovery drops define this triggered-lockdown route. Direct movement, aimed combat, authored interaction, finite release and full-clearance gating structure it; weapon/resource visibility, pickups, damage layers, ordered story gates and checkpoint restoration support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Цей маршрут із запущеним блокуванням визначають тимчасова можливість близького добивання та створені ним ресурси відновлення. Безпосередній рух, прицільний бій, авторська взаємодія, випуск скінченної групи й вимога повного очищення формують його; видимість зброї та ресурсів, підбирання, шари шкоди, впорядковані сюжетні шлюзи й відновлення контрольної точки підтримують одиницю. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
+      "defining": [
+        "ACT-419",
+        "SYS-770",
+        "CON-589",
+        "INF-295"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-341",
+        "SYS-215",
+        "SYS-749",
+        "CON-402",
+        "CON-578",
+        "OBJ-026",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-164",
+        "SYS-222",
+        "SYS-369",
+        "SYS-578",
+        "SYS-655",
+        "CON-282",
+        "INF-073",
+        "INF-115",
+        "INF-119",
+        "INF-125"
+      ]
+    },
+    "GAME-0246": {
+      "reviewed": "2026-09-04",
+      "noteEn": "Selecting one of four powered personal modes and converting one shared rechargeable reserve into action-qualified traversal, protection or concealment define this marked authored route. Direct movement, posture, optical marking, local detection and live combat structure it; weapon handling, health recovery, checkpoint replacement and mission information support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Цей позначений авторський маршрут визначають вибір одного з чотирьох посилених особистих режимів і перетворення спільного відновлюваного запасу на залежні від дії рух, захист або маскування. Безпосередній рух, положення тіла, оптичне позначення, місцеве виявлення й живий бій формують його; робота зі зброєю, відновлення здоров’я, заміна стану контрольною точкою та відомості місії підтримують одиницю. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
+      "defining": [
+        "ACT-420",
+        "SYS-771",
+        "CON-590",
+        "INF-296"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-403",
+        "ACT-405",
+        "SYS-215",
+        "SYS-373",
+        "SYS-747",
+        "INF-287",
+        "OBJ-026",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-164",
+        "ACT-183",
+        "ACT-202",
+        "SYS-222",
+        "SYS-369",
+        "SYS-737",
+        "CON-262",
+        "CON-282",
+        "CON-285",
+        "INF-073",
+        "INF-115",
+        "INF-119",
+        "INF-125"
+      ]
+    },
+    "GAME-0247": {
+      "reviewed": "2026-09-04",
+      "noteEn": "Previewing and committing non-traversed relocation, preserving the target for a learned non-lethal procedure and settling recorded conduct into a visible mission evaluation define this infiltration. Direct movement, authored object use, unaware neutralisation, local awareness and ability legality structure it; weapons, inventory, checkpoint replacement and broader HUD state support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Це проникнення визначають попередній показ і виконання переміщення без проходження проміжку, збереження цілі для вивченої нелетальної процедури та зведення записаної поведінки до видимої оцінки місії. Безпосередній рух, робота з авторськими об’єктами, нейтралізація необізнаної цілі, місцева настороженість і допустимість сили формують одиницю; зброя, спорядження, заміна стану контрольною точкою та ширші відомості інтерфейсу її підтримують. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
+      "defining": [
+        "ACT-421",
+        "SYS-772",
+        "SYS-773",
+        "CON-591",
+        "INF-297",
+        "INF-298",
+        "INF-299",
+        "OBJ-153"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-087",
+        "ACT-235",
+        "ACT-341",
+        "SYS-373",
+        "CON-269",
+        "CON-335",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-161",
+        "ACT-164",
+        "ACT-202",
+        "SYS-208",
+        "SYS-215",
+        "SYS-369",
+        "CON-262",
+        "CON-282",
+        "CON-285",
+        "INF-073",
+        "INF-115",
+        "INF-119",
+        "INF-125"
+      ]
+    },
+    "GAME-0248": {
+      "reviewed": "2026-09-04",
+      "noteEn": "Acquiring and presenting a social role, testing its contextual permissions against observer-specific recognition, inspecting the bounded local scene and resolving the whole target set into a scored debrief define this infiltration. Direct movement, diversion, unaware neutralisation, local awareness and the target-set exit gate structure it; weapons, inventory, authored interactions, checkpoint replacement and broader HUD state support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Це проникнення визначають здобуття й представлення соціальної ролі, перевірка її контекстних дозволів проти розпізнавання окремими спостерігачами, огляд обмеженої місцевої сцени та перетворення всієї множини цілей на оцінений підсумок. Безпосередній рух, відволікання, непомітна нейтралізація, місцева настороженість і шлюз виходу за множиною цілей формують одиницю; зброя, спорядження, авторські взаємодії, заміна стану контрольною точкою та ширші відомості інтерфейсу її підтримують. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
+      "defining": [
+        "ACT-422",
+        "ACT-423",
+        "SYS-773",
+        "SYS-774",
+        "SYS-775",
+        "CON-592",
+        "CON-593",
+        "INF-299",
+        "INF-300",
+        "INF-301",
+        "OBJ-154"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-235",
+        "ACT-406",
+        "SYS-057",
+        "SYS-373",
+        "CON-335",
+        "INF-298",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-161",
+        "ACT-164",
+        "ACT-183",
+        "ACT-202",
+        "ACT-341",
+        "SYS-208",
+        "SYS-215",
+        "SYS-369",
+        "CON-262",
+        "CON-282",
+        "CON-285",
+        "INF-073",
+        "INF-115",
+        "INF-119",
+        "INF-125"
+      ]
+    },
+    "GAME-0249": {
+      "reviewed": "2026-09-05",
+      "noteEn": "Rectangular carried-space management, focused shots, durability-spending reactive parries, temporary stagger follow-ups, survival-threshold encounter settlement and a retained chapter handoff define this packet. Direct traversal, live combat, authored gates, finite healing, crafting, map state and checkpoint replacement structure it; quick selection, crouch, stealth neutralisation, body-hit detail, herb combination and its awareness prerequisite support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Цю одиницю визначають керування прямокутним переносним місцем, зосереджені постріли, реактивне парирування з витратою міцності, короткі ближні атаки після приголомшення, завершення нападу за умовою виживання та збережений перехід глави. Безпосередній рух, живий бій, авторські шлюзи, скінченне лікування, створення предметів, мапа й заміна стану контрольною точкою формують одиницю; швидкий вибір, присідання, непомітна нейтралізація, докладне влучання в тіло, поєднання трав і умова необізнаності її підтримують. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
+      "defining": [
+        "ACT-123",
+        "ACT-424",
+        "ACT-425",
+        "ACT-426",
+        "SYS-776",
+        "SYS-777",
+        "SYS-778",
+        "SYS-779",
+        "SYS-780",
+        "CON-394",
+        "CON-594",
+        "CON-595",
+        "INF-302",
+        "INF-303",
+        "INF-304",
+        "OBJ-155"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-131",
+        "ACT-161",
+        "ACT-183",
+        "ACT-341",
+        "SYS-215",
+        "SYS-369",
+        "SYS-373",
+        "SYS-755",
+        "CON-282",
+        "CON-285",
+        "CON-357",
+        "CON-579",
+        "INF-073",
+        "INF-075",
+        "INF-115",
+        "INF-125",
+        "INF-128",
+        "INF-132",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-164",
+        "ACT-202",
+        "ACT-235",
+        "SYS-208",
+        "SYS-300",
+        "CON-335"
+      ]
+    },
+    "GAME-0250": {
+      "reviewed": "2026-09-05",
+      "noteEn": "Seamless contextual cover, bounded Survival Instinct, awareness-sensitive stealth, destructible environmental gates and retained successor-area traversal define this packet. Direct movement, live combat, authored interactions, checkpoint replacement, weapon compatibility and map/objective state structure it; selection, pickup, body-hit detail, ammunition capacity and unaware-target eligibility support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Цю одиницю визначають безшовне контекстне укриття, обмежений Survival Instinct, залежна від настороженості скритність, руйновані екологічні шлюзи й перехід до збереженої наступної зони. Безпосередній рух, живий бій, авторські взаємодії, заміна стану контрольною точкою, сумісність зброї та мапа із ціллю формують одиницю; вибір, підбирання, докладне влучання в тіло, місткість набоїв і умова необізнаної цілі її підтримують. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
+      "defining": [
+        "ACT-226",
+        "ACT-235",
+        "ACT-423",
+        "SYS-373",
+        "SYS-755",
+        "CON-326",
+        "INF-300",
+        "OBJ-026"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-183",
+        "ACT-341",
+        "SYS-215",
+        "SYS-369",
+        "CON-282",
+        "CON-285",
+        "INF-073",
+        "INF-115",
+        "INF-125",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-164",
+        "ACT-199",
+        "SYS-208",
+        "CON-262",
+        "CON-335"
+      ]
+    },
+    "GAME-0251": {
+      "reviewed": "2026-09-05",
+      "noteEn": "Reward-labelled successor doors, compatibility-bound Boon choices, boss-gated region continuity and a common progression-retaining hub return define this attempt. Direct combat, protected Dash, carried health/build, finite room closure and visible room/build state structure it; shops, typed abilities, random sampling, pickups and reward settlement support it. Roles are reviewed over the complete first-attempt signature, not inferred from rarity.",
+      "noteUk": "Цю спробу визначають двері з наперед показаними нагородами, обмежені сумісністю вибори Boon, неперервність регіонів через обов’язкових охоронців і спільне повернення до осередку зі збереженим поступом. Безпосередній бій, захищений ривок, перенесення здоров’я та збірки, скінченне очищення кімнат і видимий стан кімнати й збірки формують її; магазини, типізовані здібності, випадкова вибірка, підбирання та видача нагород підтримують. Ролі перевірено для повної сигнатури першої спроби, а не виведено з рідкісності генів.",
+      "defining": [
+        "SYS-781",
+        "SYS-782",
+        "CON-596",
+        "INF-305",
+        "INF-306",
+        "OBJ-156"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-140",
+        "ACT-161",
+        "ACT-356",
+        "SYS-167",
+        "SYS-215",
+        "SYS-456",
+        "SYS-467",
+        "CON-175",
+        "CON-188",
+        "CON-402",
+        "INF-119",
+        "INF-179",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-130",
+        "ACT-190",
+        "SYS-004",
+        "SYS-166",
+        "SYS-222",
+        "SYS-362",
+        "SYS-380",
+        "SYS-578",
+        "CON-269",
+        "INF-002"
+      ]
+    },
+    "GAME-0252": {
+      "reviewed": "2026-09-05",
+      "noteEn": "Fixed-event reconstruction, evidence-conditioned negotiation, authored incident settlement, retained path persistence, expiring opportunities, visible success estimate, traversed-versus-locked branch disclosure and the retained incident objective define this chapter. Direct navigation, authored responses, contextual evidence interaction, investigation progress, dialogue presentation and real-time pressure structure it; wider quest-state carry, ordered gates and current-objective presentation support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Цю главу визначають реконструкція фіксованої події, зумовлені доказами переговори, розв’язання авторського інциденту, збереження пройденого шляху, закриття можливостей у часі, видима оцінка успіху, показ пройдених і замкнених гілок та ціль зі збереженим результатом інциденту. Безпосередній рух, авторські відповіді, взаємодія з доказами, поступ розслідування, показ діалогу й тиск реального часу формують її; ширше перенесення стану завдання, впорядковані шлюзи й показ поточної цілі підтримують. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
+      "defining": [
+        "ACT-427",
+        "SYS-783",
+        "SYS-784",
+        "SYS-785",
+        "CON-597",
+        "INF-307",
+        "INF-308",
+        "OBJ-157"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-232",
+        "ACT-341",
+        "SYS-680",
+        "INF-148",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-379",
+        "CON-282",
+        "INF-125"
+      ]
+    },
+    "GAME-0253": {
+      "reviewed": "2026-09-05",
+      "noteEn": "High-mobility traversal, staged allied-platform restoration, link-gated entry and embodied combat-control transfer define this chapter. Direct combat, typed abilities, contextual installation, authored order, platform HUD/tutorial state and retained chapter settlement structure it; weapon handling, pickups, checkpoint recovery, quiet-interval health regeneration and local equipment/visibility state support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Цю главу визначають швидкісне просторове пересування, поетапне відновлення союзної платформи, вхід через шлюз з’єднання та передача втіленого бойового керування. Безпосередній бій, типізовані здібності, контекстне встановлення, авторський порядок, показники й навчання платформи та збережене завершення глави формують її; робота зі зброєю, підбирання, відновлення контрольної точки, здоров’я після паузи в ушкодженнях і місцеві відомості про спорядження та загрози підтримують. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
+      "defining": [
+        "ACT-008",
+        "ACT-428",
+        "SYS-786",
+        "SYS-787",
+        "CON-598"
+      ],
+      "structural": [
+        "ACT-161",
+        "ACT-190",
+        "ACT-341",
+        "SYS-215",
+        "SYS-380",
+        "SYS-780",
+        "CON-269",
+        "CON-282",
+        "INF-119",
+        "INF-125",
+        "INF-268",
+        "OBJ-155",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-164",
+        "ACT-183",
+        "ACT-184",
+        "SYS-222",
+        "SYS-369",
+        "SYS-737",
+        "CON-262",
+        "CON-285",
+        "INF-073",
+        "INF-115"
+      ]
+    },
+    "GAME-0254": {
+      "reviewed": "2026-09-05",
+      "noteEn": "Remote physical-object acquisition, retained telekinetic authority, attributed prop impact and independent weapon/ability recovery define this mission. Direct traversal/combat, typed effects, cleansed service nodes, authored dependencies, object eligibility and visible objective/manipulation state structure it; health, checkpoints, breakage, clearance and general weapon/local/tutorial information support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Цю місію визначають дистанційне захоплення фізичних предметів, збережена телекінетична влада, зарахована шкода від їхнього удару та незалежне відновлення зброї й здібності. Безпосередні рух і бій, типізовані ефекти, очищені сервісні вузли, авторські залежності, допустимість предметів і видимі цілі та стан маніпуляції формують її; здоров’я, контрольні точки, руйнування, повне очищення й загальні відомості про зброю, місцеві загрози та навчання підтримують. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
+      "defining": [
+        "ACT-048",
+        "SYS-398",
+        "SYS-705",
+        "SYS-706",
+        "SYS-788"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-190",
+        "ACT-341",
+        "SYS-112",
+        "SYS-146",
+        "SYS-215",
+        "SYS-380",
+        "SYS-748",
+        "CON-136",
+        "CON-269",
+        "CON-282",
+        "CON-556",
+        "INF-119",
+        "INF-125",
+        "INF-271",
+        "OBJ-026",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-369",
+        "SYS-578",
+        "SYS-755",
+        "CON-402",
+        "INF-073",
+        "INF-115",
+        "INF-268"
+      ]
+    },
+    "GAME-0255": {
+      "reviewed": "2026-09-05",
+      "noteEn": "Prompted unarmed counters, grapnel-anchor traversal, encounter-settled action chains and focused occluded-threat classification define this opening. Direct movement/combat, stealth reach, forensic progress, pressure survival, directed perception, authored gates, clearance, awareness and the retained exterior objective structure it; authored interaction, ground finishers, health, checkpoints, reinforcement and general personal/tutorial/finisher information support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Цей вступ визначають підказані беззбройні контратаки, пересування гаком між допустимими точками, ланцюги дій з оцінюванням після сутички та сфокусована класифікація прихованих загроз. Безпосередні рух і бій, досяжність тихої нейтралізації, просування за доказом, виживання під тиском, напрямлене сприйняття, авторські шлюзи, повне очищення, настороженість і збережена зовнішня ціль формують його; авторські взаємодії, добивання, здоров’я, контрольні точки, підкріплення й загальні відомості про стан персонажа, навчання та добивання підтримують. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
+      "defining": [
+        "ACT-429",
+        "ACT-430",
+        "SYS-789",
+        "CON-599",
+        "INF-309",
+        "INF-310"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-235",
+        "ACT-370",
+        "SYS-112",
+        "SYS-215",
+        "SYS-373",
+        "SYS-680",
+        "SYS-779",
+        "CON-077",
+        "CON-282",
+        "CON-335",
+        "CON-402",
+        "INF-115",
+        "INF-125",
+        "INF-298",
+        "OBJ-026",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-341",
+        "ACT-419",
+        "SYS-369",
+        "SYS-578",
+        "SYS-749",
+        "CON-589",
+        "INF-119",
+        "INF-268",
+        "INF-295"
+      ]
+    },
+    "GAME-0256": {
+      "reviewed": "2026-09-05",
+      "noteEn": "The shared-input weapon/ability toggle, its exclusive current-channel gate and typed-effect propagation through connected media define this opening. Direct traversal and attack, instant carried restoration, weapon choice, dependent fixture activation, live combat, persistent-area revival, direct powered effects, Health/resource pressure, finite release and clearance, authored order, ability and ammunition legality, local/resource/goal information, the retained location and live/save time structure it. Reload, item transfer, contextual interaction, ranged-hit resolution, contact pickup, weapon-state legality, equipment state and adaptive help support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Цей вступ визначають перемикання спільної команди між каналами зброї та здібності, його умова винятково поточного каналу й поширення типізованого ефекту через сполучене середовище. Безпосередні рух та атака, негайне переносне відновлення, вибір зброї, активація залежного механізму, живий бій, відродження в сталій області, прямі активні ефекти, тиск Health і ресурсів, скінченні випуск та очищення, авторський порядок, законність здібності й боєприпасів, місцеві відомості, показники й ціль, збережена локація та жива/збережена часова структура формують його. Перезарядження, перенесення предметів, контекстні взаємодії, розв’язання дальнього влучання, підбирання, стан зброї, показ спорядження й адаптивна допомога підтримують. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
+      "defining": [
+        "ACT-431",
+        "SYS-790",
+        "CON-600"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-131",
+        "ACT-161",
+        "ACT-164",
+        "SYS-112",
+        "SYS-215",
+        "SYS-216",
+        "SYS-380",
+        "SYS-578",
+        "SYS-749",
+        "CON-269",
+        "CON-282",
+        "CON-402",
+        "CON-578",
+        "CON-579",
+        "INF-115",
+        "INF-119",
+        "INF-125",
+        "OBJ-026",
+        "TIM-003",
+        "TIM-007"
+      ],
+      "supporting": [
+        "ACT-183",
+        "ACT-199",
+        "ACT-341",
+        "SYS-208",
+        "SYS-222",
+        "CON-285",
+        "INF-073",
+        "INF-268"
+      ]
+    },
+    "GAME-0257": {
+      "reviewed": "2026-09-05",
+      "noteEn": "Player-raised motion sensing, attached hiding, reactive autonomous pursuit, finite-battery illumination, exposed save fixtures and their moving-only information define this mission. Direct route control, personal crafting, item selection, authored interactions, thrown diversion, dependent fixtures, checkpoint restoration, Health, authored segment settlement, ordered access/crafting/light gates, local/resource/goal information and live/save time structure it. Item transfer, contact pickup, general stack capacity and loot compatibility support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Цю місію визначають піднятий гравцем детектор руху, прив’язана схованка, реактивне автономне переслідування, переносне світло зі скінченними батарейками, вразливі станції збереження та відомості лише про рух. Безпосереднє проходження, особисте виготовлення, вибір предмета, авторські взаємодії, кинута приманка, залежні механізми, відновлення контрольної точки, Health, завершення авторського сегмента, впорядковані умови доступу, виготовлення й світла, місцеві відомості, ресурси, ціль та живий/збережений час формують його. Перенесення предметів, підбирання, загальна місткість стосів і показ сумісності знахідок підтримують. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
+      "defining": [
+        "ACT-432",
+        "ACT-433",
+        "SYS-057",
+        "SYS-791",
+        "SYS-792",
+        "CON-602",
+        "INF-311"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-123",
+        "ACT-164",
+        "ACT-341",
+        "ACT-406",
+        "ACT-409",
+        "SYS-112",
+        "SYS-369",
+        "SYS-578",
+        "SYS-780",
+        "CON-282",
+        "CON-296",
+        "CON-297",
+        "CON-601",
+        "INF-115",
+        "INF-119",
+        "INF-125",
+        "INF-132",
+        "OBJ-155",
+        "TIM-003",
+        "TIM-007"
+      ],
+      "supporting": [
+        "ACT-199",
+        "SYS-222",
+        "CON-210",
+        "INF-128"
+      ]
+    },
+    "GAME-0258": {
+      "reviewed": "2026-09-05",
+      "noteEn": "Copied-object hostile form and the resulting ordinary-appearance identity uncertainty define this route. Direct traversal, selected Wrench/GLOO use, reload, authored interactions, combat, dependent fixtures, checkpoint restoration, typed live control, Health, weapon/inventory/access gates, equipment/local/resource/objective information and live/save time structure it. Item transfer, general stack capacity and loot compatibility support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Цей маршрут визначають копіювання буденного предмета ворогом і спричинена цим непевність ідентичності за звичайною зовнішністю. Безпосереднє проходження, вибір і застосування Wrench/GLOO, перезарядження, авторські взаємодії, бій, залежні механізми, відновлення збереження, типізований живий контроль, Health, умови зброї, інвентарю й доступу, відомості про спорядження, місцевий стан, ресурси та ціль, а також живий і збережений час формують його. Перенесення предметів, загальна місткість стосів і показ сумісності знахідок підтримують. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
+      "defining": [
+        "SYS-793",
+        "INF-312"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-164",
+        "ACT-183",
+        "ACT-341",
+        "SYS-112",
+        "SYS-215",
+        "SYS-369",
+        "SYS-380",
+        "SYS-578",
+        "CON-262",
+        "CON-282",
+        "CON-285",
+        "CON-296",
+        "INF-073",
+        "INF-115",
+        "INF-119",
+        "INF-125",
+        "OBJ-026",
+        "TIM-003",
+        "TIM-007"
+      ],
+      "supporting": [
+        "ACT-199",
+        "CON-210",
+        "INF-128"
+      ]
+    },
+    "GAME-0259": {
+      "reviewed": "2026-09-05",
+      "noteEn": "Readied line orientation, capability-changing regional severance, visible body-layer progress and fixed local circuit allocation define this chapter. Direct traversal/combat, selected equipment, reload, Stasis, authored fixtures, hit-location resolution, checkpoint/Health/object destruction, chapter settlement, equipment/ability/order gates, local/resource/objective information and live/save time structure it. Med-pack use, item transfer, general stack capacity, restorative legality and loot compatibility support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Цей розділ визначають орієнтація лінії готового інструмента, відсікання ділянки зі втратою функції, видимий поступ пошкодження шарів тіла та розподіл фіксованого локального живлення. Безпосередній рух і бій, вибір спорядження, перезарядження, Stasis, авторські механізми, розв’язання влучань за ділянками, відновлення контрольної точки, Health, руйнування об’єктів, завершення розділу, умови спорядження, здібності й порядку, місцеві відомості, ресурси, ціль та живий/збережений час формують його. Лікування, перенесення предметів, загальна місткість стосів, умови відновлення й показ сумісності знахідок підтримують. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
+      "defining": [
+        "ACT-434",
+        "SYS-794",
+        "SYS-795",
+        "INF-313",
+        "INF-314"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-164",
+        "ACT-183",
+        "ACT-190",
+        "ACT-341",
+        "SYS-112",
+        "SYS-208",
+        "SYS-215",
+        "SYS-369",
+        "SYS-380",
+        "SYS-578",
+        "SYS-755",
+        "SYS-780",
+        "CON-262",
+        "CON-269",
+        "CON-282",
+        "CON-285",
+        "INF-073",
+        "INF-115",
+        "INF-119",
+        "INF-125",
+        "OBJ-155",
+        "TIM-003",
+        "TIM-007"
+      ],
+      "supporting": [
+        "ACT-131",
+        "ACT-199",
+        "CON-210",
+        "CON-579",
+        "INF-128"
+      ]
+    },
+    "GAME-0260": {
+      "reviewed": "2026-09-05",
+      "noteEn": "Deliberate filter exchange, live protection-time drain, illumination-sensitive acquisition, mandatory breathing protection, protected-breath feedback and personal illumination feedback define this chapter. Direct traversal/combat, posture, weapon operation, diversion, stealth neutralisation, light control, perception, Health/checkpoint/chapter settlement, inventory/equipment/order gates, local/resource/objective information and live/save time structure it. Medkit use, item transfer, general stack capacity, restorative legality and pickup compatibility support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Цей розділ визначають навмисна заміна фільтра, витрачання часу живого захисту, залежне від освітлення виявлення, обов’язковий захист дихання, показ часу захищеного дихання та особистої освітленості. Безпосередній рух і бій, постава, робота зі зброєю, відволікання, прихована нейтралізація, керування світлом, сприйняття, Health, контрольні точки, завершення розділу, умови інвентарю, спорядження й порядку, місцеві відомості, ресурси, ціль та живий/збережений час формують його. Лікування, перенесення предметів, загальна місткість стосів, умови відновлення й показ сумісності знахідок підтримують. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
+      "defining": [
+        "ACT-435",
+        "SYS-796",
+        "SYS-797",
+        "CON-603",
+        "INF-315",
+        "INF-316"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-164",
+        "ACT-183",
+        "ACT-202",
+        "ACT-235",
+        "ACT-341",
+        "ACT-406",
+        "ACT-409",
+        "SYS-057",
+        "SYS-208",
+        "SYS-215",
+        "SYS-369",
+        "SYS-373",
+        "SYS-578",
+        "SYS-780",
+        "CON-262",
+        "CON-282",
+        "CON-285",
+        "CON-335",
+        "INF-073",
+        "INF-115",
+        "INF-119",
+        "INF-125",
+        "OBJ-155",
+        "TIM-003",
+        "TIM-007"
+      ],
+      "supporting": [
+        "ACT-131",
+        "ACT-199",
+        "CON-210",
+        "CON-579",
+        "INF-128"
+      ]
+    },
+    "GAME-0261": {
+      "reviewed": "2026-09-05",
+      "noteEn": "The known stationless craft, held situational overlay, autonomous persistent companion, crafting legality and occlusion-crossing actor information define this packet. Traversal, combat, posture, weapon operation, treatment, contextual fixtures, diversion, stealth neutralisation, hostile perception, Health/checkpoint/chapter settlement, equipment/order/treatment gates, local/resource/tutorial information and live/save time structure it. Portable route objects, general pickup transfer, health-kit commitment and pickup compatibility support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Цей пакет визначають відоме особисте виготовлення без станції, утримуване ситуаційне спостереження, постійна автономна напарниця, умови виготовлення та відомості про акторів крізь перешкоди. Рух, бій, постава, робота зі зброєю, лікування, контекстні пристрої, відволікання, прихована нейтралізація, сприйняття ворогів, Health, контрольні точки, завершення розділу, умови спорядження, порядку й лікування, місцеві відомості, ресурси, навчання та живий/збережений час формують його. Переносні маршрутні предмети, загальне перенесення знахідок, застосування аптечки й показ сумісності знахідок підтримують. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
+      "defining": [
+        "ACT-123",
+        "ACT-423",
+        "SYS-407",
+        "CON-297",
+        "INF-300"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-164",
+        "ACT-183",
+        "ACT-200",
+        "ACT-202",
+        "ACT-235",
+        "ACT-341",
+        "ACT-406",
+        "ACT-409",
+        "SYS-057",
+        "SYS-208",
+        "SYS-215",
+        "SYS-369",
+        "SYS-373",
+        "SYS-578",
+        "SYS-780",
+        "CON-262",
+        "CON-282",
+        "CON-285",
+        "CON-286",
+        "CON-335",
+        "INF-073",
+        "INF-115",
+        "INF-119",
+        "INF-125",
+        "INF-132",
+        "INF-268",
+        "OBJ-155",
+        "TIM-003",
+        "TIM-007"
+      ],
+      "supporting": [
+        "ACT-048",
+        "ACT-199",
+        "INF-128"
+      ]
     }
   }
 }

@@ -2585,15 +2585,15 @@
 - Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md), [Dota 2 decomposition](../games/a-f/dota-2.md), [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md), [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md), [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md), [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md) and [Blue Prince decomposition](../games/a-f/blue-prince.md).
 - Novelty: not assessed.
 
-## ACT-131 — Consume one held immediate-effect item
+## ACT-131 — Consume one carried immediate-effect item
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player activates one item from a bounded carried consumable
-  inventory, optionally supplies a legal target and permanently empties that
-  slot after the item's immediate effect resolves.
+- Definition: the player activates one unit from a bounded carried consumable
+  stock, optionally supplies a legal target and permanently spends that unit
+  after the item's immediate effect resolves.
 - Includes: drinking or throwing a held Slay the Spire potion during a legal
   combat timing window.
 - Excludes: playing a deck card; equipping a persistent relic; applying a held
@@ -2608,6 +2608,9 @@
   for one held card, rune or pill consumed into an immediate effect; and
   [Blue Prince decomposition](../games/a-f/blue-prince.md), for one held
   immediate-effect manor item.
+- Additional support: [BioShock Remastered decomposition](../games/a-f/bioshock-remastered.md),
+  for dedicated carried First Aid Kit and EVE Hypo stocks consumed into
+  immediate health or ability-reserve restoration.
 - Novelty: not assessed.
 
 ## ACT-132 — Paint administrative district and assign local policy
@@ -7643,15 +7646,18 @@
 - Confidence: `High`
 - Definition: during embodied control, the player toggles one carried personal
   illumination device between an active local light field and an inactive
-  state without replacing ordinary movement or weapon authority.
+  state without replacing ordinary movement or weapon authority; its charge
+  and refill rule remain separate system parameters.
 - Includes: switching the HEV flashlight on and off during Half-Life (1998)'s
-  scoped `Unforeseen Consequences` route.
+  scoped `Unforeseen Consequences` route and the finite-battery flashlight
+  during Alien: Isolation's scoped hospital mission.
 - Excludes: placing a world torch; fuelling a campfire; selecting a cosmetic
   lighting option; firing a weapon-mounted flash; night vision with no local
   illumination field; a disposable flare throw.
 - Parameters: device, current toggle state, input, personal carrier, light
   field, concurrent action authority and rejection state.
-- Evidence: [Half-Life (1998) decomposition](../games/g-l/half-life-1998.md).
+- Evidence: [Half-Life (1998) decomposition](../games/g-l/half-life-1998.md)
+  and [Alien: Isolation decomposition](../games/a-f/alien-isolation.md).
 - Novelty: first isolated for `GAME-0239`; portable illumination is a reversible
   live command distinct from placing or fuelling a persistent world light.
 
@@ -7810,3 +7816,386 @@
 - Evidence: [Battlefield Hardline decomposition](../games/a-f/battlefield-hardline.md).
 - Novelty: first isolated for `GAME-0243`; a direct authority command creates a
   fragile living-custody opportunity against active hostile actors.
+
+## ACT-418 — Accept an offered payment for immediate disengagement
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during an eligible live encounter, the player accepts a currently
+  offered and affordable payment to request immediate adversary disengagement
+  without surrendering the accumulated session reward modifier.
+- Includes: accepting a low-HEAT police bribe during Heat's bounded first night.
+- Excludes: a capture penalty; buying equipment; paying a persistent bounty
+  after the encounter; unrestricted paid removal without a live offer window.
+- Parameters: encounter, offer, currency, cost, balance, eligibility window,
+  threat threshold, acceptance and retained modifier.
+- Evidence: [Need for Speed Heat decomposition](../games/m-r/need-for-speed-heat.md).
+- Novelty: first isolated for `GAME-0244`; one optional live payment preserves
+  accumulated exposure while replacing the current evasion requirement.
+
+## ACT-419 — Perform a prompted close finisher on a staggered hostile
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player commits a short contextual finisher on one reachable
+  living hostile while its temporary stagger opportunity remains active.
+- Includes: a Glory Kill on a staggered close hostile in DOOM (2016)'s bounded
+  first Campaign mission.
+- Excludes: an ordinary melee strike; an unaware-target takedown; shooting the
+  staggered target from range; an automatic defeat animation without a second
+  player command.
+- Parameters: hostile, stagger state, reach, opportunity duration, approach
+  direction, context and committed finisher.
+- Evidence: [DOOM (2016) decomposition](../games/a-f/doom-2016.md).
+- Novelty: first isolated for `GAME-0245`; temporary damage state creates one
+  optional embodied execution command before ordinary combat resumes.
+
+## ACT-420 — Select one powered personal capability mode during live control
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during direct control, the player selects one currently available
+  mode from a mutually exclusive personal-capability set, replacing the active
+  mode before the next compatible movement, protection or concealment action.
+- Includes: choosing Speed, Strength, Armor or Cloak through the Classic
+  Nanosuit menu in Crysis Remastered's bounded first mission.
+- Excludes: selecting a carried weapon; stacking several independent toggles;
+  allocating power continuously among simultaneous vehicle subsystems;
+  purchasing a permanent skill; an automatically triggered passive effect.
+- Parameters: actor, mode set, selected mode, prior mode, selection surface,
+  availability, replacement timing and affected capability.
+- Evidence: [Crysis Remastered decomposition](../games/a-f/crysis-remastered.md).
+- Novelty: first isolated for `GAME-0246`; one live command substitutes among
+  several temporary personal capabilities drawing on the same later-resolved
+  resource rather than activating or upgrading one fixed ability.
+
+## ACT-421 — Aim and commit a short-range world relocation
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during direct world control, the player aims a destination within
+  one bounded relocation capability and commits the controlled body directly
+  to the currently accepted point without traversing every intermediate
+  position.
+- Includes: aiming and committing Blink I to a legal floor, roof or ledge point
+  in Dishonored's scoped mission.
+- Excludes: ordinary continuous walking or jumping; moving a selected board
+  piece; transferring control into another body; a checkpoint teleport; an
+  unpreviewed cutscene relocation.
+- Parameters: controlled body, origin, aimed point, accepted endpoint, range,
+  resource, commitment, arrival pose and intermediate-space treatment.
+- Evidence: [Dishonored (2012) decomposition](../games/a-f/dishonored-2012.md).
+- Novelty: first isolated for `GAME-0247`; an aimed endpoint is committed as
+  the body's next world position while the intervening route is not occupied.
+
+## ACT-422 — Wear one acquired role-bearing outfit during infiltration
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after neutralising an eligible world actor, the player takes and
+  wears its available outfit to replace the controlled actor's currently
+  presented social role during the same live infiltration.
+- Includes: taking and wearing one compatible disguise in HITMAN World of
+  Assassination's scoped Paris story mission.
+- Excludes: cosmetic wardrobe selection; choosing a combat class at spawn;
+  equipping armour for statistics alone; possessing another actor; changing a
+  persistent identity outside the current mission.
+- Parameters: source actor, eligibility, outfit, prior role, presented role,
+  transfer time, interruption, body state and replacement result.
+- Evidence: [HITMAN World of Assassination decomposition](../games/g-l/hitman-world-of-assassination.md).
+- Novelty: first isolated for `GAME-0248`; the acquired world outfit changes
+  live social presentation rather than combat statistics or roster identity.
+
+## ACT-423 — Invoke a local situational-awareness overlay during live control
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while directly controlling an embodied actor, the player holds
+  one inspection input to replace the ordinary view with a bounded overlay of
+  nearby actor, objective and interactable state, then releases it to resume
+  the unchanged live role.
+- Includes: holding Instinct to inspect nearby targets, actors and interactable
+  objects in HITMAN World of Assassination's scoped Paris mission.
+- Excludes: permanently marking an actor through an optical device; pausing on
+  a complete tactical map; activating night vision; querying an external
+  walkthrough; scanning a resource into retained inventory knowledge.
+- Parameters: controlled actor, held input, perception radius, eligible
+  classes, occlusion, update timing, live-world continuity and release.
+- Evidence: [HITMAN World of Assassination decomposition](../games/g-l/hitman-world-of-assassination.md).
+- Novelty: first isolated for `GAME-0248`; a held embodied view reveals bounded
+  current state without acquiring persistent actor marks or pausing simulation.
+
+## ACT-424 — Reposition and rotate items within a bounded carried grid
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: inside a carried-inventory surface, the player selects one
+  retained item, changes its position or permitted orientation and commits it
+  only where the resulting footprint fits the currently unoccupied cells.
+- Includes: moving and rotating weapons or supplies inside the attaché case in
+  Resident Evil 4's bounded first chapter.
+- Excludes: arranging ingredients in a recipe grid; equipping an unchanged
+  quick-slot item; moving a world object; sorting an unlimited list; changing
+  the inventory's total dimensions.
+- Parameters: inventory grid, selected item, footprint, origin cells,
+  destination cells, orientation, occupied cells and accepted placement.
+- Evidence: [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md).
+- Novelty: first isolated for `GAME-0249`; the manipulation changes only a
+  retained item's rectangular occupancy inside carried capacity rather than a
+  recipe, world position or equipment effect.
+
+## ACT-425 — Commit a timed close-weapon parry against an incoming attack
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during live close combat, the player commits one reactive guard
+  input with the currently usable close weapon so its timing can oppose one
+  eligible incoming attack rather than sustain a continuous block.
+- Includes: using a knife to parry an eligible incoming attack in Resident
+  Evil 4's bounded first chapter.
+- Excludes: holding a persistent guard; matching an aimed block direction; a
+  turn-based Defend choice; passive armour; attacking before an incoming
+  strike exists.
+- Parameters: close weapon, incoming attack, contact time, input time, ordinary
+  window, precise window, reach and committed parry.
+- Evidence: [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md).
+- Novelty: first isolated for `GAME-0249`; one undirected reactive input is
+  evaluated against a live contact window instead of maintaining or aiming a
+  guard state.
+
+## ACT-426 — Perform a prompted close follow-up on a staggered hostile
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while one living hostile remains in a temporary stagger state
+  and within reach, the player commits the exposed contextual close attack as
+  a follow-up rather than another ordinary aimed strike.
+- Includes: performing a prompted melee follow-up on a staggered hostile in
+  Resident Evil 4's bounded first chapter.
+- Excludes: a guaranteed execution that always defeats the target; an
+  unaware-target stealth takedown; an ordinary knife slash; shooting a
+  staggered target from range.
+- Parameters: hostile, stagger source, reachable relation, prompt, follow-up
+  attack, affected nearby actors, damage, knockback and recovery.
+- Evidence: [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md).
+- Novelty: first isolated for `GAME-0249`; the contextual command converts a
+  temporary stagger into a close area-affecting attack without requiring the
+  target's immediate defeat.
+
+## ACT-427 — Scrub one fixed reconstructed event to its causal point
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: inside an authored reconstruction of an already fixed past
+  event, the player moves a time cursor through its bounded interval and
+  commits inspection at one accepted causal instant to register the associated
+  evidence without altering the represented event or live world history.
+- Includes: scrubbing a body or scene reconstruction in Detroit: Become
+  Human's opening incident to locate the firearm trajectory, attack sequence or
+  other authored causal point.
+- Excludes: rewinding live simulation state; editing commands at timestamps;
+  replaying audiovisual evidence without an inspectable causal point; freely
+  inventing an account of the past; selecting one frozen tableau detail.
+- Parameters: reconstruction, interval, cursor precision, causal point,
+  observation, accepted window, registered fact and exit state.
+- Evidence: [Detroit: Become Human decomposition](../games/a-f/detroit-become-human.md).
+- Novelty: first isolated for `GAME-0252`; the cursor changes only the observed
+  instant of a fixed authored reconstruction rather than restoring, editing or
+  branching the live simulation.
+
+## ACT-428 — Enter a linked allied combat platform for direct control
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the on-foot operator enters one reachable restored allied combat
+  platform and commits replacement of personal locomotion, attack and ability
+  inputs with direct control of that platform while remaining its occupant.
+- Includes: entering the restored allied platform after its operator link in
+  Titanfall 2's bounded `BT-7274` chapter.
+- Excludes: taking an ordinary road-vehicle driver seat; commanding an
+  autonomous ally from outside; switching freely among unrelated persistent
+  bodies; cosmetic boarding with no control transfer.
+- Parameters: operator, allied platform, restoration state, link, entry reach,
+  hatch, transferred control set, occupant state and exit availability.
+- Evidence: [Titanfall 2 decomposition](../games/s-z/titanfall-2.md).
+- Novelty: first isolated for `GAME-0253`; one linked allied body replaces the
+  complete on-foot combat-control surface rather than adding a steering seat.
+
+## ACT-429 — Commit a prompted counter against one incoming close attack
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during live close combat, the player commits one reactive
+  counter input after a visible cue announces an eligible incoming attack, so
+  the response can interrupt or redirect that attack before contact rather
+  than sustain a continuous guard.
+- Includes: countering a cued inmate strike during Batman: Arkham Asylum Game
+  of the Year Edition's bounded opening Story Mode route.
+- Excludes: holding a persistent block; parrying with a required equipped
+  weapon; attacking before an incoming strike exists; a turn-based defend
+  choice; passive armour or automatic evasion.
+- Parameters: attacker, incoming attack, cue, input time, response window,
+  reach, interruption, redirection and failed timing.
+- Evidence: [Batman: Arkham Asylum Game of the Year Edition
+  decomposition](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md).
+- Novelty: first isolated for `GAME-0255`; a visually announced unarmed
+  counter opportunity creates one reactive command without the usable-weapon
+  and durability boundary of `ACT-425`.
+
+## ACT-430 — Commit grapnel traversal to an eligible elevated anchor
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while directly controlling an embodied agent, the player
+  addresses one currently eligible elevated world anchor and commits a
+  grapnel-assisted body traversal from the current position to that anchor.
+- Includes: grappling to an icon-marked higher ledge or predator-room vantage
+  point in Batman: Arkham Asylum Game of the Year Edition's bounded opening
+  Story Mode route.
+- Excludes: pulling a remote object toward the player; grabbing a nearby
+  hostile; an instantaneous endpoint relocation that skips the intervening
+  route; deploying a finite climbing aid; a scripted transition with no
+  addressed anchor.
+- Parameters: controlled body, origin, anchor, eligibility cue, sightline,
+  route clearance, grapnel attachment, traversal path and arrival pose.
+- Evidence: [Batman: Arkham Asylum Game of the Year Edition
+  decomposition](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md).
+- Novelty: first isolated for `GAME-0255`; a permanent traversal tool moves the
+  controlled body along an anchor-bound route rather than directly placing it
+  at an aimed endpoint or consuming a carried climbing object.
+
+## ACT-431 — Toggle between readied weapon and powered ability channels
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during direct live control, the player toggles the primary-use
+  input between the currently selected carried weapon and the currently
+  selected powered personal ability while retaining the selection inside each
+  channel.
+- Includes: switching between the current Pistol or Wrench and the current
+  Electro Bolt Plasmid during BioShock Remastered's bounded opening route.
+- Excludes: selecting another weapon within a weapon inventory; selecting
+  another member of an ability set; using independently bound weapon and
+  ability inputs at the same time; changing a preparation loadout.
+- Parameters: actor, input, active channel, selected weapon, selected ability,
+  retained selections, toggle timing and rejected simultaneous use.
+- Evidence: [BioShock Remastered decomposition](../games/a-f/bioshock-remastered.md).
+- Novelty: first isolated for `GAME-0256`; one live toggle changes which of two
+  retained equipment channels owns the same immediate attack input without
+  replacing the selected member inside either channel.
+
+## ACT-432 — Raise or lower a portable local-motion sensor
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during direct embodied control, the player raises one carried
+  short-range motion sensor into its active observation view or lowers it again
+  while retaining ordinary locomotion authority.
+- Includes: raising and lowering the motion tracker during Alien: Isolation's
+  scoped hospital mission.
+- Excludes: placing a persistent world sensor; marking one visible actor;
+  opening an omniscient map; scanning a static resource or clue; merely hearing
+  a passive proximity warning that needs no sensor command.
+- Parameters: operator, device, raised state, input, locomotion compatibility,
+  observation window, lowering condition and interruption.
+- Evidence: [Alien: Isolation decomposition](../games/a-f/alien-isolation.md).
+- Novelty: first isolated for `GAME-0257`; one player-controlled portable view
+  samples local motion without installing a world fixture, retaining an actor
+  mark or replacing embodied route control.
+
+## ACT-433 — Enter or leave an authored hiding place
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player commits a directly controlled body into one reachable
+  authored concealment position attached to nearby world geometry, remains in
+  that restricted hiding state and deliberately leaves it to resume free
+  locomotion.
+- Includes: entering, waiting inside and leaving a locker, cabinet or supported
+  under-furniture hiding position during Alien: Isolation's scoped hospital
+  mission.
+- Excludes: merely crouching behind opaque geometry; attaching to combat cover;
+  becoming invisible through a powered ability; a scripted hiding cinematic;
+  concealment owned only by an autonomous actor.
+- Parameters: body, hiding place, reach, entry pose, attached state, permitted
+  observation or breath response, exit clearance and resumed position.
+- Evidence: [Alien: Isolation decomposition](../games/a-f/alien-isolation.md).
+- Novelty: first isolated for `GAME-0257`; contextual world geometry temporarily
+  replaces free traversal with a player-maintained hiding state rather than
+  ordinary crouch, combat cover or automatic invisibility.
+
+## ACT-434 — Reorient a readied linear firing pattern
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while one compatible tool remains readied, the player rotates or
+  toggles its elongated firing pattern between declared spatial orientations
+  before committing the next aimed shot.
+- Includes: changing the Plasma Cutter's three-beam line between horizontal and
+  vertical orientations in Dead Space (2023)'s bounded opening chapter.
+- Excludes: rotating an inventory item; turning the controlled body or camera;
+  changing ammunition type; selecting another weapon; random recoil after fire.
+- Parameters: tool, firing pattern, orientation set, toggle input, ready state,
+  aim relation and next-shot persistence.
+- Evidence: [Dead Space (2023 remake) decomposition](../games/a-f/dead-space-2023.md).
+- Novelty: first isolated for `GAME-0259`; the player changes the spatial plane
+  of one still-readied attack rather than selecting another tool or merely
+  rotating view direction.
+
+## ACT-435 — Replace a finite filter in personal breathing equipment
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while compatible personal breathing equipment is available in
+  its declared replacement state, the player commits a filter exchange that
+  discards the current cartridge and transfers one carried compatible
+  cartridge into the equipment, restoring its usable exposure duration
+  without changing the surrounding atmosphere.
+- Includes: replacing the gas-mask filter during Metro Exodus's bounded
+  `Moscow` chapter.
+- Excludes: equipping or removing the whole mask; refilling an oxygen tank;
+  repairing a damaged visor; consuming medicine; crafting a new cartridge;
+  automatically switching filters without player input.
+- Parameters: equipment, worn or removed replacement state, current cartridge,
+  carried stock, replacement input, restored duration, discarded remainder and
+  action time.
+- Evidence: [Metro Exodus decomposition](../games/m-r/metro-exodus.md).
+- Novelty: first isolated for `GAME-0260`; a carried cartridge is irreversibly
+  exchanged inside still-worn protective equipment rather than used as a
+  general restorative or weapon reload.

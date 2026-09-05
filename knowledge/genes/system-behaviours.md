@@ -1133,23 +1133,27 @@
 - Evidence: [Tin Hearts decomposition](../games/s-z/tin-hearts.md).
 - Novelty: not assessed.
 
-## SYS-057 — Perception-triggered hostile pursuit or diversion
+## SYS-057 — Perception-triggered autonomous hostile pursuit or diversion
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: a hostile patrol automatically replaces its current route when
-  it perceives an eligible actor or explicit decoy stimulus, pursuing the
-  perceived target and applying capture on contact where applicable.
+- Definition: an autonomous hostile automatically replaces its current patrol
+  or search route when it perceives an eligible actor or explicit decoy
+  stimulus, pursuing or investigating the perceived target and applying its
+  contact consequence where applicable.
 - Includes: a Timelie robot chasing a seen girl or cat and an eligible robot
-  diverting toward a deliberately scheduled cat meow.
+  diverting toward a deliberately scheduled cat meow; Alien: Isolation's
+  scoped hunter responding to visible movement, local sound or one deliberately
+  thrown Noisemaker.
 - Excludes: resolving an already committed attack vector; selecting combat
   targets solely from proximity; scripted route change with no perception
   event.
 - Parameters: stimulus classes, sight geometry, pursuit pathfinding, memory,
   distraction priority, abandonment rule and contact consequence.
-- Evidence: [Timelie decomposition](../games/s-z/timelie.md).
+- Evidence: [Timelie decomposition](../games/s-z/timelie.md) and
+  [Alien: Isolation decomposition](../games/a-f/alien-isolation.md).
 - Novelty: not assessed.
 
 ## SYS-058 — Instruction-triggered geometry-validated molecular transformation
@@ -7416,16 +7420,19 @@
 - Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
 - Novelty: not assessed.
 
-## SYS-407 — Run an autonomous Palico beside direct hunter control
+## SYS-407 — Run an autonomous persistent companion beside direct control
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: a persistent allied companion follows the directly controlled
-  hunter and independently selects legal movement, attack or support actions
+  avatar and independently selects legal movement, attack or support actions
   against current local state.
 - Includes: Monster Hunter Wilds Palico field and hunt assistance.
+- Additional support: [The Last of Us Part I decomposition](../games/s-z/the-last-of-us-part-i.md),
+  for authored ally follow, traversal and combat assistance beside one directly
+  controlled protagonist.
 - Excludes: a second human-controlled hunter; a directly queued tactical squad;
   a cosmetic follower with no causal actions.
 - Parameters: companion, follow range, target selection, support action,
@@ -9294,16 +9301,19 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: accepting a pedestal collectible adds its passive effect or
-  replaces the active slot, and the system composes all retained compatible
-  effects into movement, tears, bombs, health, pickups and triggered behaviour
-  until the run terminates.
-- Includes: cumulative base-Rebirth collectible effects and tear transformations.
+- Definition: accepting an eligible run-local upgrade adds its passive or
+  triggered effect, fills or replaces any compatible typed slot, and composes
+  all retained compatible effects into the current movement, attacks,
+  abilities, health, rewards and triggered behaviour until the run terminates.
+- Includes: cumulative base-Rebirth collectible effects and tear
+  transformations; Hades Boons and compatible upgrades composing Attack,
+  Special, Cast, Dash, health, reward and triggered effects for one attempt.
 - Excludes: permanent account equipment; a card consumed for one immediate
   effect; external mod descriptions.
 - Parameters: item identity, passive or active class, replacement, statistics,
   tear form, trigger, interaction order and run lifetime.
-- Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
+- Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md)
+  and [Hades decomposition](../games/g-l/hades.md).
 - Novelty: first isolated for `GAME-0164`; it preserves cumulative rule-changing
   item interactions inside one disposable live-action run.
 
@@ -12894,26 +12904,30 @@
   team-vehicle destruction share one terminal while regulation expiry accepts
   a draw without a round series.
 
-## SYS-705 — Resolve Gravity Gun pull and collision-bounded hold
+## SYS-705 — Resolve remote physics-object pull and collision-bounded hold
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: after the ordinary Gravity Gun acquires an eligible physics
-  target, the system pulls a distant target toward attachment, binds an
+- Definition: after a remote manipulation tool or ability acquires an eligible
+  physics target, the system pulls a distant target toward attachment, binds an
   attachable target to a view-relative pose whose extent remains outside solid
   geometry, and returns it to ordinary world physics when the relation is
   dropped, launched or invalidated.
 - Includes: pulling, attaching, carrying and dropping a compatible Ravenholm
-  prop with the ordinary Gravity Gun in the scoped Half-Life 2 chapter.
+  prop with the ordinary Gravity Gun in the scoped Half-Life 2 chapter;
+  remotely pulling, visibly holding and releasing one compatible loose prop
+  with the acquired telekinetic ability in CONTROL's scoped base-game mission.
 - Excludes: teleporting an object to the hand; a fixed inventory slot; Portal's
   avatar-adjacent cube carry without remote pull; the supercharged Gravity Gun;
-  launching and impact damage after detachment.
-- Parameters: trace, pull force, attachment range, target pose, object radius,
-  collision trace, view angle, error threshold, detach reason and restored
-  physical state.
-- Evidence: [Half-Life 2 decomposition](../games/g-l/half-life-2.md).
+  launching and impact damage after detachment; creating a new projectile with
+  no persistent world-object identity.
+- Parameters: tool or ability, trace, pull force, attachment range, target
+  pose, object radius, collision trace, view angle, error threshold, detach
+  reason and restored physical state.
+- Evidence: [Half-Life 2 decomposition](../games/g-l/half-life-2.md) and
+  [CONTROL Ultimate Edition decomposition](../games/a-f/control-ultimate-edition.md).
 - Novelty: first isolated for `GAME-0212`; the same remote tool first changes a
   free rigid body's velocity, then maintains a collision-bounded relative pose
   without removing that body from the live physical world.
@@ -14158,3 +14172,683 @@
 - Evidence: [Battlefield Hardline decomposition](../games/a-f/battlefield-hardline.md).
 - Novelty: first isolated for `GAME-0243`; surrender remains a live maintained
   control relation rather than an instantaneous or permanently settled state.
+
+## SYS-767 — Retain session notoriety and settle multiplied reputation at refuge
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: eligible session activity accumulates reputation and a notoriety
+  modifier that survives individual encounter clearance; voluntary refuge
+  settlement applies the modifier to retained reputation and resets it, while
+  capture resets it and applies the declared currency penalty.
+- Includes: night REP and HEAT through pursuit escape, safe-house banking and
+  Busted settlement in the scoped Need for Speed Heat packet.
+- Excludes: cash already retained at a finish; complete forfeiture of exposed
+  cash as the sole rule; a jurisdictional bounty; a temporary combat combo.
+- Parameters: session, activity, reputation, notoriety, multiplier, edition
+  bonus, refuge, capture, currency penalty and reset.
+- Evidence: [Need for Speed Heat decomposition](../games/m-r/need-for-speed-heat.md).
+- Novelty: first isolated for `GAME-0244`; encounter clearance does not erase
+  the session variable that multiplies reputation at the retained terminal.
+
+## SYS-768 — Restore vehicle condition through a shared session service allowance
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: crossing an eligible roadside service trigger restores a live
+  vehicle's condition and consumes one available use from an allowance shared
+  across all such service locations for the current session.
+- Includes: drive-through gas-station repairs across one Heat night.
+- Excludes: paid workshop upgrades; passive regeneration; a carried repair
+  item; independently depleted service reservoirs; automatic checkpoint rewind.
+- Parameters: vehicle, condition, trigger, restored amount, shared allowance,
+  used count, session and reset boundary.
+- Evidence: [Need for Speed Heat decomposition](../games/m-r/need-for-speed-heat.md).
+- Novelty: first isolated for `GAME-0244`; changing the service location does
+  not supply another local reservoir or bypass the shared restoration budget.
+
+## SYS-769 — Exchange a live disengagement payment for preserved session exposure
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a legally accepted encounter payment debits available currency
+  and releases active adversary pressure while preserving the session's
+  accumulated notoriety and reward modifier for later settlement.
+- Includes: an accepted affordable low-HEAT bribe in Need for Speed Heat.
+- Excludes: a capture debit that resets the modifier; eliminating adversaries;
+  passive loss of perception; settling a persistent regional bounty later.
+- Parameters: encounter, accepted offer, balance, debit, pressure, release,
+  notoriety, reward modifier and later settlement.
+- Evidence: [Need for Speed Heat decomposition](../games/m-r/need-for-speed-heat.md).
+- Novelty: first isolated for `GAME-0244`; spending currency clears only the
+  encounter while leaving economically useful session exposure intact.
+
+## SYS-770 — Convert a contextual finisher into compatible recovery drops
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: completing a legal contextual finisher defeats its staggered
+  target and instantiates bounded world drops that restore compatible missing
+  combat resources when collected.
+- Includes: health and ammunition released by Glory Kills in DOOM (2016).
+- Excludes: an ordinary ranged defeat with no finisher conversion; a guaranteed
+  persistent equipment reward; the later Chainsaw's distinct ammunition-only
+  exchange; automatic healing with no collectable world state.
+- Parameters: target, finisher, defeat, drop types, quantities, world positions,
+  collection, compatibility, missing capacity and caps.
+- Evidence: [DOOM (2016) decomposition](../games/a-f/doom-2016.md).
+- Novelty: first isolated for `GAME-0245`; an optional short-range execution
+  converts combat risk into spatially collectable sustain.
+
+## SYS-771 — Convert a selected powered mode and shared reserve into temporary capability
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the system converts one selected personal mode into its declared
+  temporary movement, force, protection or concealment modifier, continuously
+  debits the same shared reserve at its mode-and-action rate, and automatically
+  replenishes that reserve after eligible drain conditions end.
+- Includes: Crysis Remastered Speed sprint, Strength jump/aim, Armor damage
+  interception and moving or stationary Cloak using one Nanosuit energy meter.
+- Excludes: permanent character statistics; separate per-ability cooldowns;
+  one protagonist-specific special with no mode substitution; fuel-driven
+  machine energy; night vision's independent power supply.
+- Parameters: actor, selected mode, compatible action, base capability,
+  modifier, shared capacity, current reserve, drain rate, recharge delay/rate,
+  interruption and exhaustion.
+- Evidence: [Crysis Remastered decomposition](../games/a-f/crysis-remastered.md).
+- Novelty: first isolated for `GAME-0246`; traversal, force, protection and
+  concealment are alternative temporary outputs of one selected mode and one
+  regenerating reserve rather than independent meters or simultaneous channels.
+
+## SYS-772 — Resolve an aimed relocation directly at its legal endpoint
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a valid short-range relocation is committed, the system
+  debits its current resource and places the controlled body at the accepted
+  world endpoint without integrating ordinary movement through the intervening
+  space.
+- Includes: Blink I relocation to a previewed legal floor, roof or ledge point
+  in Dishonored's scoped mission.
+- Excludes: continuous running or jumping; rewinding to a checkpoint; taking
+  control of another actor; an authored loading transition between missions.
+- Parameters: origin, endpoint, range, resource before, debit, resource after,
+  collision validation, arrival and intervening-space treatment.
+- Evidence: [Dishonored (2012) decomposition](../games/a-f/dishonored-2012.md).
+- Novelty: first isolated for `GAME-0247`; a player-addressed world point is
+  resolved as immediate embodied arrival rather than a traversed path.
+
+## SYS-773 — Settle bounded mission conduct into aggregate evaluation
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when one finite mission closes, the system classifies recorded
+  conduct categories, derives the mission's aggregate evaluation state and
+  exposes both before successor play resumes.
+- Includes: Dishonored's end-mission Stats categories and displayed Chaos state
+  after the scoped target mission.
+- Excludes: a live combat score with no mission boundary; a hidden whole-
+  campaign ending calculation; an account leaderboard; rewards whose categories
+  are unrelated to recorded conduct.
+- Parameters: mission, recorded events, category rules, category values,
+  aggregate rule, evaluation state, report timing and successor handoff.
+- Evidence: [Dishonored (2012) decomposition](../games/a-f/dishonored-2012.md).
+- Novelty: first isolated for `GAME-0247`; the terminal converts several kinds
+  of player conduct into one disclosed mission-level evaluation before the
+  next playable state.
+
+## SYS-774 — Apply a presented social role to contextual legality
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when the controlled actor presents one acquired role, the system
+  changes which authored areas, actions and visibly carried items are treated
+  as ordinary, suspicious or forbidden in each local context.
+- Includes: disguise-conditioned area access, suspicious actions and visible
+  illegal-item handling in HITMAN World of Assassination's scoped Paris
+  mission.
+- Excludes: cosmetic clothing; a universal key that only opens one lock;
+  armour statistics; one global wanted level independent of presented role;
+  scripted access that ignores local observers.
+- Parameters: presented role, area, action, visible item, permission table,
+  current context, ordinary state, suspicious state and forbidden state.
+- Evidence: [HITMAN World of Assassination decomposition](../games/g-l/hitman-world-of-assassination.md).
+- Novelty: first isolated for `GAME-0248`; one live social presentation changes
+  several kinds of contextual legality rather than only collision or combat.
+
+## SYS-775 — Resolve observer-specific recognition against a presented role
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: each eligible observer compares the controlled actor's presented
+  role and witnessed history with its own recognition exception, so the same
+  disguise may be accepted by ordinary observers but exposed or compromised by
+  another observer in the same area.
+- Includes: disguise-aware exceptional observers and witnesses recognising a
+  compromised disguise in HITMAN World of Assassination's scoped Paris
+  mission.
+- Excludes: globally omniscient enemies; ordinary line-of-sight detection that
+  ignores identity; one faction reputation shared by every observer; a fixed
+  dialogue identity check with no live perception.
+- Parameters: observer, presented role, exception relation, witnessed event,
+  compromise state, sight, recognition progress, shared alert and replacement
+  role.
+- Evidence: [HITMAN World of Assassination decomposition](../games/g-l/hitman-world-of-assassination.md).
+- Novelty: first isolated for `GAME-0248`; permission and recognition remain
+  observer-relative even when the same role is nominally valid in the area.
+
+## SYS-776 — Convert sustained weapon aim into focused-shot advantage
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while an aimed weapon remains readied without another declared
+  interruption, the system tightens its current reticle toward a focused state
+  whose accepted shot has increased stagger or critical-result likelihood.
+- Includes: holding a firearm ready to focus the reticle before shooting in
+  Resident Evil 4's bounded first chapter.
+- Excludes: scoped magnification alone; a guaranteed hit; aim assist choosing a
+  target; passive weapon accuracy unrelated to held aim; a charged projectile.
+- Parameters: weapon, ready state, focus duration, interruption, reticle state,
+  accuracy relation, stagger modifier and critical modifier.
+- Evidence: [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md).
+- Novelty: first isolated for `GAME-0249`; delaying a still-valid shot changes
+  its disclosed hit consequences without charging a separate attack or
+  spending another resource.
+
+## SYS-777 — Resolve timed close-weapon parry into protection and wear
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when a usable close weapon meets an eligible incoming attack
+  inside the accepted reactive window, the system prevents that attack's
+  ordinary damage, subtracts weapon durability and, for a stricter timing
+  window, applies a stronger stagger consequence to the attacker.
+- Includes: ordinary and perfect knife parries with durability loss in Resident
+  Evil 4's bounded first chapter.
+- Excludes: sustained guard-meter depletion; directional block comparison;
+  passive damage reduction; repairing or upgrading the weapon after combat;
+  attacks that the current rules declare unparryable.
+- Parameters: close weapon, durability, incoming attack, ordinary window,
+  precise window, prevented damage, wear debit, attacker stagger and break.
+- Evidence: [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md).
+- Novelty: first isolated for `GAME-0249`; defensive timing simultaneously
+  trades a persistent tool reserve for damage prevention and an optional
+  stronger counter-opportunity.
+
+## SYS-778 — Convert hostile stagger into a temporary close-follow-up opportunity
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an eligible aimed hit or precisely timed defence can place one
+  living hostile into a temporary stagger state that exposes a reachable
+  contextual close follow-up until distance, recovery or defeat removes it.
+- Includes: firearm- or perfect-parry-created melee opportunities in Resident
+  Evil 4's bounded first chapter.
+- Excludes: a guaranteed finishing state; unaware-target stealth eligibility;
+  permanent stun; ordinary damage with no changed command; post-defeat loot.
+- Parameters: hostile, trigger, stagger threshold, duration, reach, exposed
+  command, recovery, defeat and follow-up result.
+- Evidence: [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md).
+- Novelty: first isolated for `GAME-0249`; ranged pressure or reactive defence
+  can open the same temporary close attack without making that attack an
+  execution or resource-drop guarantee.
+
+## SYS-779 — Settle an authored pressure encounter after a survival threshold
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while an authored hostile pressure encounter is active, the
+  system tracks its declared survival or performance threshold and, once met
+  with the controlled actor alive, withdraws or releases the remaining threat
+  and restores onward route authority without requiring total clearance.
+- Includes: the village-square assault ending when its authored bell event
+  calls away remaining attackers in Resident Evil 4's bounded first chapter.
+- Excludes: clearing every hostile in a locked room; endless procedural waves;
+  a player-triggered escape that ignores the threshold; a cinematic with no
+  preceding live survival state.
+- Parameters: encounter, active hostile pressure, threshold inputs, surviving
+  actor, remaining hostiles, settlement event, withdrawal and reopened route.
+- Evidence: [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md).
+- Novelty: first isolated for `GAME-0249`; encounter completion can preserve
+  living enemies yet still produce an authored safe continuation after a
+  bounded live-pressure requirement.
+
+## SYS-780 — Settle one authored segment into retained successor control
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after the final required interaction of one bounded authored
+  chapter or mission, the system closes its current objective set, exposes segment
+  completion, creates or accepts retained save state and admits ordinary
+  control in the named successor segment.
+- Includes: completing Chapter 1, saving its result and reaching retained first
+  Chapter 2 control in Resident Evil 4's scoped fresh game; completing Mission
+  5 and restoring the beginning of Mission 6 in Alien: Isolation's scoped
+  Story Mode packet.
+- Excludes: finishing the complete campaign; stopping at an intermediate
+  checkpoint; an unretained cutscene; replaying a completed chapter for rank;
+  a boss-chain settlement with additional persistent progression rules.
+- Parameters: chapter, final interaction, objective closure, completion
+  display, save state, successor chapter, resumed control and retention test.
+- Evidence: [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md)
+  and [Alien: Isolation decomposition](../games/a-f/alien-isolation.md).
+- Novelty: first isolated for `GAME-0249`; a general authored survival-action
+  route receives an explicit retained chapter handoff without importing a
+  boss roster, scored debrief or campaign finale.
+
+## SYS-781 — Advance a boss-gated region sequence toward scoped escape
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: clearing the mandatory guardian of a bounded run region admits
+  the next region while carrying the same transient health, resources and build,
+  until the final guardian opens the declared escape settlement.
+- Includes: carrying one first-save Hades attempt from Tartarus through its
+  later Underworld regions and final guardian toward the surface transition.
+- Excludes: a separately reset level after each boss; choosing a disclosed
+  node on one current map; an authored campaign checkpoint that retains a
+  permanent character build after ordinary death.
+- Parameters: region, guardian, clear condition, transition, next region,
+  carried attempt state, final guardian and escape settlement.
+- Evidence: [Hades decomposition](../games/g-l/hades.md).
+- Novelty: first isolated for `GAME-0251`; earlier floor and authored-dungeon
+  genes do not carry a temporary offered build through generated forward
+  chamber regions into a common success-or-death hub return.
+
+## SYS-782 — Clear terminal attempt state while retaining eligible metaprogression
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: death or scoped success closes the current multi-node attempt,
+  removes its generated route, health, run currency and temporary build, and
+  returns control to a persistent hub while preserving eligible collected
+  metaprogression resources plus recorded attempt or story state.
+- Includes: a first-save Hades death or first-clear surface closure returning
+  Zagreus to retained House of Hades control.
+- Excludes: checkpoint retry with the same permanent character build; retaining
+  only a binary unlock while discarding earned meta resources; complete save
+  deletion; abandoning an attempt through a non-settling Give Up operation.
+- Parameters: terminal cause, transient fields, retained resources, attempt
+  record, story flags, hub, return transition and next-attempt availability.
+- Evidence: [Hades decomposition](../games/g-l/hades.md).
+- Novelty: first isolated for `GAME-0251`; `SYS-469` retains eligible unlocks
+  around a disposable Isaac run, whereas this transition explicitly preserves
+  collected metaprogression currency and remembered attempt/story state at a hub.
+
+## SYS-783 — Convert registered evidence into negotiation options and advantage
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the system combines authored facts registered by the current
+  investigation with the live interaction state to unlock or strengthen
+  context-specific responses and update the current negotiation advantage.
+- Includes: Detroit: Become Human evidence about the incident, actor identity,
+  cause and weapon admitting stronger rooftop responses and success state.
+- Excludes: a dialogue option available regardless of evidence; inventory
+  possession alone; an external walkthrough supplying unregistered knowledge;
+  a static fact that never changes the live interaction.
+- Parameters: registered fact, interaction, response, prerequisite, advantage,
+  trust delta, availability and concealed downstream consequence.
+- Evidence: [Detroit: Become Human decomposition](../games/a-f/detroit-become-human.md).
+- Novelty: first isolated for `GAME-0252`; investigation state changes the
+  legal or effective negotiation vocabulary rather than only advancing a
+  journal, search area or objective.
+
+## SYS-784 — Resolve accumulated authored choices into one incident branch
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after a bounded live incident receives its admitted evidence,
+  timed responses and final intervention, the system evaluates their retained
+  state and commits one authored endpoint with the corresponding actor outcomes.
+- Includes: resolving Detroit: Become Human's opening hostage incident into an
+  endpoint that records the surviving or dead state of the negotiator,
+  protected actor and opposing actor.
+- Excludes: selecting an ending directly from a menu; resolving a random combat
+  encounter with no authored choice state; advancing a quest objective without
+  a discrete incident endpoint; completing an entire branching campaign.
+- Parameters: incident, evidence flags, response history, intervention,
+  advantage, actor states, endpoint, transition and failure classification.
+- Evidence: [Detroit: Become Human decomposition](../games/a-f/detroit-become-human.md).
+- Novelty: first isolated for `GAME-0252`; several live investigative and
+  dialogue commitments settle one protected-actor incident before the wider
+  story continues.
+
+## SYS-785 — Persist traversed chapter nodes into a revisitable branch map
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when one authored chapter settles, the system stores the nodes
+  and endpoint actually traversed by that play path, exposes them in a later
+  revisitable branch map and keeps untraversed alternatives locked or unnamed.
+- Includes: Detroit: Become Human's post-chapter flowchart and later inspection
+  of the completed opening chapter from the chapter surface.
+- Excludes: a complete route map visible before play; a linear chapter-complete
+  label with no path record; global player percentages; replaying or overwriting
+  the chapter; exposing every hidden consequence without traversing it.
+- Parameters: chapter, node, edge, endpoint, traversed state, locked state,
+  retention boundary, reinspection path and replay policy.
+- Evidence: [Detroit: Become Human decomposition](../games/a-f/detroit-become-human.md).
+- Novelty: first isolated for `GAME-0252`; the retained representation records
+  the actual authored decision path while preserving undiscovered alternatives.
+
+## SYS-786 — Advance staged allied-platform restoration from installed power modules
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: installing an accepted compatible power module into one disabled
+  allied combat platform consumes that module and advances the same platform
+  through an authored restoration stage; reaching the required final stage
+  enables its operator-link and direct-operation gate.
+- Includes: installing the two charged modules that progressively restore the
+  allied platform in Titanfall 2's bounded `BT-7274` chapter.
+- Excludes: refuelling an already operable vehicle; healing an autonomous ally
+  with a consumable; building a new platform from free-form parts; collecting a
+  module without installing it.
+- Parameters: platform, compatible module, carried state, installation point,
+  current stage, required threshold, consumed module, resulting functions and
+  enabled link gate.
+- Evidence: [Titanfall 2 decomposition](../games/s-z/titanfall-2.md).
+- Novelty: first isolated for `GAME-0253`; repeated compatible installations
+  change one disabled ally's operability in ordered stages before control can
+  transfer.
+
+## SYS-787 — Rebind embodied combat control to an occupied allied platform
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after legal entry into a linked allied combat platform, the
+  system preserves the operator as its occupant and rebinds direct locomotion,
+  attack, typed ability and HUD state from the on-foot body to the platform's
+  live combat state.
+- Includes: transferring direct movement, weapon, defensive, offensive and
+  Core controls to the allied platform during Titanfall 2's bounded
+  `BT-7274` chapter.
+- Excludes: entering a road vehicle whose seat adds only steering; assigning
+  autonomous follow or guard behaviour; swapping to an independent remote
+  drone; changing cosmetic camera presentation.
+- Parameters: operator, platform, occupant relation, prior control surface,
+  platform control surface, health, weapon, abilities, HUD and return rule.
+- Evidence: [Titanfall 2 decomposition](../games/s-z/titanfall-2.md).
+- Novelty: first isolated for `GAME-0253`; the linked ally becomes the
+  operator's direct combat embodiment instead of an independently selected
+  character or ordinary world vehicle.
+
+## SYS-788 — Independently refill inactive weapon and ability reserves
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while a finite weapon capacity or ability-energy reserve is
+  below its cap and the corresponding spending action has ceased, the system
+  restores that channel by its own delay and rate without consuming a world
+  pickup or requiring a manual reload; using either channel again pauses or
+  spends only its compatible reserve.
+- Includes: CONTROL's initial Service Weapon capacity reloading itself and
+  Launch Energy regenerating under ordinary rules with every Assist Mode
+  feature disabled.
+- Excludes: transferring rounds from finite carried reserve into a magazine;
+  restoring ability energy only through successful attacks; one shared reserve
+  continuously drained by a selected mode; passive health regeneration; an
+  unlimited attack with no visible capacity state.
+- Parameters: weapon capacity, ability energy, separate caps, spend action,
+  recovery delay, recovery rate, resumed-use interruption, Assist modifier and
+  current value.
+- Evidence: [CONTROL Ultimate Edition decomposition](../games/a-f/control-ultimate-edition.md).
+- Novelty: first isolated for `GAME-0254`; two distinct live combat authorities
+  recover automatically on independent rules, so the player can alternate
+  gunfire and world-object manipulation without an ammunition pickup, attack-
+  fed refill or manual magazine transfer.
+
+## SYS-789 — Extend an uninterrupted combat chain and settle encounter experience
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: each accepted attack, counter, stun or takedown in one live close-
+  combat sequence extends its current uninterrupted chain, while a broken
+  sequence resets that live multiplier; finite encounter closure then awards
+  experience from the settled chain and performed combat variety.
+- Includes: the FreeFlow multiplier and end-fight combat-variation experience
+  in Batman: Arkham Asylum Game of the Year Edition's bounded opening Story
+  Mode route.
+- Excludes: a persistent account combo total; a rhythm chart scored only after
+  a song; experience awarded solely for quest hand-in; a chain whose value does
+  not affect encounter settlement; a named move or exact reward value as a
+  canonical boundary.
+- Parameters: eligible actions, sequence continuity, multiplier, break
+  conditions, encounter closure, variation categories, experience award and
+  health-restoration side effect.
+- Evidence: [Batman: Arkham Asylum Game of the Year Edition
+  decomposition](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md).
+- Novelty: first isolated for `GAME-0255`; one real-time close-combat chain is
+  evaluated only when its finite encounter settles, coupling reactive action
+  variety to character experience without importing challenge-map scoring.
+
+## SYS-790 — Propagate an emitted effect through a compatible environmental medium
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when an emitted typed effect reaches one connected compatible
+  environmental region, the system propagates that effect through the region
+  and applies its authored result to every eligible actor or fixture currently
+  in contact with it.
+- Includes: Electro Bolt entering a connected pool of water and applying its
+  electrical result to eligible occupants during BioShock Remastered's bounded
+  opening route.
+- Excludes: applying the ability only to its directly aimed target; opening one
+  fixture after a compatible hit; passive damage from an always-hazardous
+  surface; unconstrained fire spread between independent objects.
+- Parameters: source effect, medium class, connected region, contact set,
+  eligible actor or fixture, propagated result, duration and dissipation.
+- Evidence: [BioShock Remastered decomposition](../games/a-f/bioshock-remastered.md)
+  and the publisher-linked remastered manual's electrical-effect rules,
+  corroborated by two static written opening routes.
+- Novelty: first isolated for `GAME-0256`; the environment becomes a bounded
+  multi-target carrier of an emitted effect rather than a direct target or a
+  permanently damaging terrain label.
+
+## SYS-791 — Drain portable illumination and refill it from finite battery stock
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while a personal illumination device is active, the system
+  converts its positive internal charge into a local light field and decreases
+  that charge; an accepted refill consumes one unit from compatible finite
+  carried battery stock and raises the device charge toward its cap.
+- Includes: Alien: Isolation's scoped flashlight drain and manual battery
+  refill.
+- Excludes: automatically recharging the same reserve while inactive; a fixed
+  world lamp; weapon-ammunition reload; illumination with unlimited charge;
+  consuming a battery to craft another item.
+- Parameters: device, active state, light field, internal charge, drain rate,
+  battery stock, refill input, restored amount and cap.
+- Evidence: [Alien: Isolation decomposition](../games/a-f/alien-isolation.md).
+- Novelty: first isolated for `GAME-0257`; light timing consumes an internal
+  meter whose recovery irreversibly spends a separate carried unit instead of
+  waiting for automatic recharge.
+
+## SYS-792 — Translate nearby eligible movement into directional proximity readings
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an active portable sensor samples eligible moving actors inside
+  its bounded range, selects the nearest current movement and converts its
+  relative position into direction-sector and distance feedback, removing the
+  reading when eligible motion ceases or leaves range.
+- Includes: Alien: Isolation's scoped motion tracker showing front and
+  side/rear direction sectors plus nearest-moving-actor distance.
+- Excludes: exposing an actor's identity or exact path; detecting a stationary
+  actor; retaining an actor-bound mark through occlusion; a sensor that only
+  locates static resources; future-position prediction.
+- Parameters: sensor, range, eligible actor, movement predicate, nearest-target
+  rule, relative bearing, direction sectors, distance precision, refresh and
+  loss condition.
+- Evidence: [Alien: Isolation decomposition](../games/a-f/alien-isolation.md).
+- Novelty: first isolated for `GAME-0257`; local motion is transformed into an
+  anonymous directional-distance reading rather than a world coordinate,
+  persistent mark or general visual reveal.
+
+## SYS-793 — Alternate an autonomous hostile between copied-object and revealed forms
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an autonomous hostile replaces its visible mobile body with the
+  outward appearance of an eligible nearby ordinary object, retains its hostile
+  identity while concealed and can return to a revealed mobile combat form
+  when its hide, detection, test or attack condition changes.
+- Includes: a scoped Prey (2017) Mimic copying an ordinary station prop before
+  revealing itself for movement and combat.
+- Excludes: a player cosmetic skin; a static trap that was never an autonomous
+  actor; an illusion with no retained hostile identity; ordinary camouflage
+  that does not replace the actor's visible form; narrative impersonation.
+- Parameters: hostile, eligible source object, copied appearance, concealed
+  state, reveal trigger, mobile form, combat state and return condition.
+- Evidence: [Prey (2017) decomposition](../games/m-r/prey-2017.md), supported by
+  Bethesda's static product and QuakeCon articles.
+- Novelty: first isolated for `GAME-0258`; one autonomous hostile persists
+  across an ordinary-object copy and its revealed actor state instead of being
+  merely occluded, disguised by clothing or spawned from a destroyed fixture.
+
+## SYS-794 — Convert regional body damage into severance and capability loss
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: damage accumulates on an eligible attached body region, degrades
+  its retained layers, and at the accepted threshold detaches that region while
+  removing the locomotion, attack or support capability carried by it from the
+  remaining living body.
+- Includes: cutting a hostile leg into reduced locomotion or an attack limb
+  into reduced reach before defeat in Dead Space (2023)'s bounded Chapter 1.
+- Excludes: hit-location damage with no detachment; cosmetic debris; scripted
+  post-defeat dismemberment; aggregate health loss that leaves the same
+  capability set; item durability.
+- Parameters: actor, attached region, layer state, accepted damage, threshold,
+  detached body, carried capability, remaining capability set and defeat rule.
+- Evidence: [Dead Space (2023 remake) decomposition](../games/a-f/dead-space-2023.md).
+- Novelty: first isolated for `GAME-0259`; retained regional damage crosses an
+  anatomical boundary and changes what the still-active hostile body can do.
+
+## SYS-795 — Reassign fixed circuit capacity among local fixture branches
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an accepted local control-panel selection moves a fixed supply
+  among named fixture branches, powering the selected compatible set and
+  deactivating a competing branch whenever concurrent demand would exceed the
+  panel's capacity.
+- Includes: powering two of the Maintenance Bay office, elevator and lights
+  branches in Dead Space (2023)'s bounded opening chapter.
+- Excludes: continuous performance tuning across vehicle subsystems; balancing
+  an economic production grid; an independent switch with unlimited supply;
+  a one-shot battery inserted into one receiver.
+- Parameters: panel, supply capacity, branch set, branch demand, prior state,
+  selected state, displaced branch and powered fixture consequence.
+- Evidence: [Dead Space (2023 remake) decomposition](../games/a-f/dead-space-2023.md).
+- Novelty: first isolated for `GAME-0259`; one authored local panel makes
+  mutually competing fixture reach and visibility states directly reassignable.
+
+## SYS-796 — Spend breathing-filter duration before hazardous-air harm
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while an actor occupies a declared hazardous atmosphere, worn
+  compatible breathing equipment consumes its current filter duration over
+  live time; positive protected duration prevents the atmosphere's direct
+  harm, while an absent, unworn or exhausted filter allows exposure to reduce
+  viable health until the actor leaves, restores protection or is defeated.
+- Includes: gas-mask filter depletion and toxic or irradiated surface exposure
+  during Metro Exodus's bounded `Moscow` chapter.
+- Excludes: underwater oxygen with no replaceable filter; ambient radiation
+  merely increasing an abstract meter through armour statistics; hostile gas
+  damage that ignores equipment; a scripted suffocation cutscene with no live
+  resource state.
+- Parameters: atmosphere, actor, equipment, worn state, filter duration, drain
+  rate, protected state, unprotected harm, exit condition and defeat threshold.
+- Evidence: [Metro Exodus decomposition](../games/m-r/metro-exodus.md).
+- Novelty: first isolated for `GAME-0260`; live environmental protection first
+  consumes an installed time reserve, then exposes the same embodied attempt
+  to harm when that replaceable reserve is absent.
+
+## SYS-797 — Resolve local illumination into hostile perception pressure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the system combines the controlled actor's current local light
+  exposure with sight geometry and movement to modify how quickly an eligible
+  hostile acquires or loses that actor; extinguishing reachable lights or
+  disabling carried illumination can reduce visual detection without making
+  the actor intrinsically invisible.
+- Includes: switching off local lamps and withholding the personal flashlight
+  to cross Hanza-controlled spaces during Metro Exodus's bounded `Moscow`
+  chapter.
+- Excludes: a binary invisibility power; darkness that directly attacks the
+  player; lighting used only for rendering; a turn-based visibility modifier;
+  actor marking that remains after sight is lost.
+- Parameters: observer, actor, ambient source, carried source, light exposure,
+  sightline, movement, acquisition rate, loss rule and alert consequence.
+- Evidence: [Metro Exodus decomposition](../games/m-r/metro-exodus.md).
+- Novelty: first isolated for `GAME-0260`; player-controlled world and carried
+  light states continuously change hostile visual acquisition rather than only
+  revealing scenery to the player.

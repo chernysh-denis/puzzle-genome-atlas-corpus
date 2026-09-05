@@ -5069,24 +5069,27 @@
   settling accuracy envelope and aggregate tank durability with distinct
   internal functional warnings.
 
-## INF-271 — Gravity Gun response exposes target and held-object state
+## INF-271 — Remote manipulation response exposes target and held-object state
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the first-person tool effect and visible prop response disclose
-  whether the aimed object is reacting to a pull, attached in the held pose,
-  released, launched or rejected, while leaving its future collision path and
-  damage unresolved.
+- Definition: a remote-manipulation reticle or effect and the visible prop
+  response disclose whether the aimed object is reacting to a pull, attached
+  in the held pose, released, launched or rejected, while leaving its future
+  collision path and damage unresolved.
 - Includes: ordinary Gravity Gun targeting, pull, hold, drop, launch and deny
-  response during the scoped Half-Life 2 Ravenholm chapter.
+  response during the scoped Half-Life 2 Ravenholm chapter; reticle,
+  telekinetic effect and loose-prop response during CONTROL's scoped mission.
 - Excludes: exact future impact preview; the general active-weapon/ammunition
   HUD; hidden object mass as a numeric label; supercharged Gravity Gun state;
   audio alone as the only evidence channel.
-- Parameters: aimed target, beam/effect state, object motion, held pose, weapon
-  elements, deny response, release state and prediction boundary.
-- Evidence: [Half-Life 2 decomposition](../games/g-l/half-life-2.md).
+- Parameters: perspective, aimed target, reticle or effect state, object
+  motion, held pose, tool or ability elements, deny response, release state and
+  prediction boundary.
+- Evidence: [Half-Life 2 decomposition](../games/g-l/half-life-2.md) and
+  [CONTROL Ultimate Edition decomposition](../games/a-f/control-ultimate-edition.md).
 - Novelty: first isolated for `GAME-0212`; the manipulation tool exposes the
   current physical relation before the launched body's open-ended collision
   result, rather than previewing an exact trajectory or damage value.
@@ -5512,3 +5515,479 @@
 - Evidence: [Battlefield Hardline decomposition](../games/a-f/battlefield-hardline.md).
 - Novelty: first isolated for `GAME-0243`; live forensic classification and
   post-action custody/evidence evaluation share one bounded progress surface.
+
+## INF-294 — Expose vehicle condition beside session notoriety and unbanked reputation
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: driving and service/encounter interfaces disclose vehicle
+  condition, session notoriety, reputation awaiting settlement and available
+  recovery or payment feedback so the player can judge return risk.
+- Includes: Heat's first-night health, HEAT, REP and contextual repair/bribe
+  feedback before safe-house settlement.
+- Excludes: Unbound's distinct Burst gauge; hidden future patrol routes; an
+  external walkthrough; final retained rewards without live exposure state.
+- Parameters: condition, notoriety, reputation, multiplier, service feedback,
+  payment offer, currency and update timing.
+- Evidence: [Need for Speed Heat decomposition](../games/m-r/need-for-speed-heat.md).
+- Novelty: first isolated for `GAME-0244`; current survivability is readable
+  alongside the reputation modifier that remains exposed until the night ends.
+
+## INF-295 — Expose a temporary contextual-finisher opportunity on a hostile
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: local visual feedback distinguishes a living hostile's temporary
+  finisher-eligible state and reachable contextual opportunity from ordinary
+  damage, recovery and final defeat.
+- Includes: the visible stagger/Glory Kill opportunity in DOOM (2016).
+- Excludes: a persistent enemy-health bar alone; an unaware-target indicator;
+  external walkthrough knowledge; a finisher whose legality is never disclosed.
+- Parameters: hostile, stagger state, visual treatment, reach, context,
+  opportunity duration, recovery and defeat.
+- Evidence: [DOOM (2016) decomposition](../games/a-f/doom-2016.md).
+- Novelty: first isolated for `GAME-0245`; brief visual state tells the player
+  when closing distance changes the available combat command and reward.
+
+## INF-296 — Active capability mode and shared reserve are visible
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the live personal-capability interface identifies the currently
+  selected mode and common finite reserve, including visible depletion and
+  replenishment, before the player chooses another mode or qualified action.
+- Includes: Crysis Remastered Nanosuit mode icon/menu and suit-energy meter
+  during Speed, Strength, Armor and Cloak use.
+- Excludes: health alone; a permanent skill tree; a hidden cooldown; separate
+  weapon ammunition; a vehicle power-allocation diagram; night-vision power.
+- Parameters: actor, available modes, selected mode, reserve, capacity,
+  depletion, recharge, readiness, icon and display timing.
+- Evidence: [Crysis Remastered decomposition](../games/a-f/crysis-remastered.md).
+- Novelty: first isolated for `GAME-0246`; one surface joins the selected member
+  of an alternative capability set to the shared resource all members consume.
+
+## INF-297 — Aimed relocation preview exposes the accepted world endpoint
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while a short-range world relocation is aimed, the interface
+  distinguishes its current accepted destination from an invalid point before
+  the player commits the move.
+- Includes: Dishonored's Blink targeting icon and valid floor or ledge preview
+  in the scoped mission.
+- Excludes: a route marker with no relocation legality; a post-action arrival
+  effect; a hidden teleport destination; an ordinary aiming reticle that only
+  selects an attack target.
+- Parameters: origin, aimed point, range, collision state, accepted endpoint,
+  invalid feedback, resource readiness and update timing.
+- Evidence: [Dishonored (2012) decomposition](../games/a-f/dishonored-2012.md).
+- Novelty: first isolated for `GAME-0247`; the player can inspect the exact
+  non-traversed arrival relation before making it irreversible.
+
+## INF-298 — Local awareness cues expose incoming detection and alert state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: avatar-centred visual cues disclose the direction and current
+  escalation of nearby hostile perception while leaving unobserved actors and
+  future patrol states unknown.
+- Includes: Dishonored's local awareness indicators from suspicion through
+  detection during the scoped mission.
+- Excludes: an acquired persistent mark on each actor; omniscient enemy
+  locations; a binary combat banner with no incoming direction or progression;
+  knowledge supplied only by an external walkthrough.
+- Parameters: perceiver, direction, suspicion progress, search state, detected
+  state, cue timing, occlusion and decay feedback.
+- Evidence: [Dishonored (2012) decomposition](../games/a-f/dishonored-2012.md).
+- Novelty: first isolated for `GAME-0247`; local perception pressure is exposed
+  without requiring the actor-bound reconnaissance marks bundled by
+  `INF-287`.
+
+## INF-299 — Mission report exposes conduct categories and aggregate evaluation
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after one bounded mission settles, a terminal report exposes
+  recorded conduct categories and the resulting aggregate evaluation state
+  sufficient to verify how the attempt was classified.
+- Includes: Dishonored's end-mission kills, detections, found-body or related
+  Stats categories and displayed Chaos state for the scoped mission.
+- Excludes: live health or ammunition; hidden later narrative consequences; an
+  external achievement tracker; a score screen that omits conduct categories.
+- Parameters: mission, category labels, category values, aggregate label,
+  evaluation state, completion state, display timing and dismissal.
+- Evidence: [Dishonored (2012) decomposition](../games/a-f/dishonored-2012.md).
+- Novelty: first isolated for `GAME-0247`; detailed conduct and its aggregate
+  classification are jointly readable at the same finite mission terminal.
+
+## INF-300 — Situational overlay exposes nearby actors and interactables through occlusion
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while the player invokes a bounded situational overlay, the view
+  distinguishes eligible nearby designated targets, other actors and
+  interactable objects through ordinary occlusion while leaving actors beyond
+  its coverage and future state unknown.
+- Includes: Instinct silhouettes and interactable highlights in HITMAN World
+  of Assassination's scoped Paris mission.
+- Excludes: persistent acquired marks; a fully revealed tactical map; external
+  walkthrough knowledge; ordinary unobstructed sight; decorative colour
+  grading without decision state.
+- Parameters: observer, coverage, target class, actor class, interactable class,
+  occlusion, distinction, update timing and unknown remainder.
+- Evidence: [HITMAN World of Assassination decomposition](../games/g-l/hitman-world-of-assassination.md).
+- Novelty: first isolated for `GAME-0248`; several local decision classes are
+  temporarily revealed through occlusion without being permanently marked.
+
+## INF-301 — Interface exposes presented role and current social legality
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the live interface identifies the controlled actor's currently
+  presented role and exposes whether its present area, action or visible item
+  is ordinary, suspicious, trespassing or otherwise illegal enough to revise
+  the route before completed detection.
+- Includes: disguise identity, trespass, suspicious-action and illegal-item
+  feedback in HITMAN World of Assassination's scoped Paris mission.
+- Excludes: a cosmetic outfit preview; hidden legality learned only after
+  failure; a global wanted level; a static mission briefing with no live
+  context update.
+- Parameters: presented role, area, action, visible item, legality class, live
+  label or icon, transition timing and detection relation.
+- Evidence: [HITMAN World of Assassination decomposition](../games/g-l/hitman-world-of-assassination.md).
+- Novelty: first isolated for `GAME-0248`; one view joins social presentation
+  with the legality of current place, behaviour and exposed equipment.
+
+## INF-302 — Carried grid exposes item footprints, orientation and free cells
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a carried-inventory surface exposes each retained item's current
+  rectangular footprint and orientation together with occupied and unoccupied
+  cells, so a legal reposition or pickup fit can be judged before commitment.
+- Includes: the attaché-case item layout and reorientation surface in Resident
+  Evil 4's bounded first chapter.
+- Excludes: weight-only capacity; an unlimited item list; a spatial crafting
+  recipe; hidden remote loot; cosmetic case decoration with no occupancy
+  effect.
+- Parameters: grid dimensions, item, footprint, orientation, occupied cells,
+  free cells, proposed placement and compatibility feedback.
+- Evidence: [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md).
+- Novelty: first isolated for `GAME-0249`; the inventory explains exact spatial
+  fit and item reorientation rather than only category, weight or slot count.
+
+## INF-303 — Weapon reticle exposes current aim-focus state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while a weapon is readied, the live reticle visibly
+  distinguishes its current unfocused or focused aim state before the player
+  commits a shot whose stagger or critical-result relation depends on it.
+- Includes: default and focused firearm reticles in Resident Evil 4's bounded
+  first chapter.
+- Excludes: a decorative crosshair with no state change; scope zoom alone;
+  hidden accuracy values; an externally calculated hit probability.
+- Parameters: weapon, ready state, focus progress, reticle treatment, focused
+  state, shot timing and consequence relation.
+- Evidence: [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md).
+- Novelty: first isolated for `GAME-0249`; the aiming surface reveals when
+  continued readiness changes shot consequences before firing.
+
+## INF-304 — Expose a temporary contextual close-follow-up opportunity
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: local visual feedback distinguishes a living hostile's temporary
+  stagger and currently reachable contextual close-follow-up command from
+  ordinary damage, recovery and final defeat.
+- Includes: the prompted melee opportunity on a staggered hostile in Resident
+  Evil 4's bounded first chapter.
+- Excludes: an unaware-target stealth prompt; a guaranteed execution state;
+  enemy health alone; external walkthrough knowledge; a prompt after the
+  target is already defeated.
+- Parameters: hostile, stagger state, visible prompt, reach, context, duration,
+  recovery, defeat and follow-up relation.
+- Evidence: [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md).
+- Novelty: first isolated for `GAME-0249`; a temporary visible opportunity
+  invites a non-guaranteed close attack, unlike the defeating finisher boundary
+  of `INF-295`.
+
+## INF-305 — Successor exits preview reward class and elevated risk
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: before the player commits to one available successor exit, its
+  visible marker discloses the class of reward admitted by that branch and any
+  declared elevated encounter-risk category without exposing complete future
+  contents.
+- Includes: Hades chamber doors showing their next reward symbol and skull
+  risk marker before Zagreus enters one available branch.
+- Excludes: a complete generated route map; a marker shown only after entry;
+  exact future enemy composition; external guide knowledge; a cosmetic door.
+- Parameters: exit, reward class, risk category, availability, alternatives,
+  preview marker, hidden contents and commitment transition.
+- Evidence: [Hades decomposition](../games/g-l/hades.md).
+- Novelty: first isolated for `GAME-0251`; prior route views either reveal a
+  larger node graph or expose local door state without binding each immediate
+  exit to a forecast reward and encounter-risk class.
+
+## INF-306 — Run-upgrade offer exposes effect and capability consequence
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a bounded run-upgrade offer exposes every current option's
+  declared effect, rarity or level, affected capability and any replacement
+  consequence before the player commits the exclusive choice.
+- Includes: Hades Boon offers describing each eligible blessing and the
+  Attack, Special, Cast, Dash or other current-build relation it changes.
+- Excludes: hidden optimal-build advice; a reward icon with no option text;
+  permanent account-upgrade trees; exact future synergy probability.
+- Parameters: option, effect text, rarity, level, capability, current modifier,
+  replacement, prerequisite feedback and selection count.
+- Evidence: [Hades decomposition](../games/g-l/hades.md).
+- Novelty: first isolated for `GAME-0251`; the interface explains one
+  temporary capability-build commitment rather than only its reward class or
+  the already-equipped build state.
+
+## INF-307 — Negotiation interface exposes current estimated success
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during one live authored negotiation, the interface displays a
+  current estimate of successful resolution and updates it after registered
+  evidence, responses or interventions without revealing the exact remaining
+  branch sequence or guaranteeing the predicted endpoint.
+- Includes: the changing success percentage during Detroit: Become Human's
+  opening rooftop negotiation.
+- Excludes: exact hit probability for one attack; a hidden relationship value;
+  a post-result score; a complete future-state preview; external advice about
+  the optimal response.
+- Parameters: negotiation, estimate scale, display timing, update trigger,
+  evidence, response, intervention, hidden factors and terminal treatment.
+- Evidence: [Detroit: Become Human decomposition](../games/a-f/detroit-become-human.md).
+- Novelty: first isolated for `GAME-0252`; the forecast summarises accumulated
+  authored interaction state while the actual branch remains unresolved.
+
+## INF-308 — Chapter branch map distinguishes traversed and locked paths
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after an authored chapter settles, its branch-map interface marks
+  the nodes and endpoint reached by the current retained path while preserving
+  untraversed alternatives as locked, concealed or incomplete.
+- Includes: the post-chapter and later revisitable flowchart for Detroit:
+  Become Human's opening incident.
+- Excludes: a linear objective list; a route map shown before decisions; a
+  complete spoiler graph; global player percentages; an external walkthrough;
+  branch state that disappears when the result surface closes.
+- Parameters: chapter, traversed node, edge, endpoint, locked alternative,
+  disclosure depth, completion marker and revisit surface.
+- Evidence: [Detroit: Become Human decomposition](../games/a-f/detroit-become-human.md).
+- Novelty: first isolated for `GAME-0252`; one retained result surface explains
+  the path taken and the existence, but not necessarily identity, of missed
+  authored alternatives.
+
+## INF-309 — Focused tactical vision exposes occluded actors and threat classes
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while a player-controlled tactical vision mode is active, the
+  interface classifies nearby actors and relevant evidence through ordinary
+  visual occlusion, including the equipment or condition that determines
+  immediate threat, without permanently marking them after the mode ends.
+- Includes: Detective Mode distinguishing nearby armed and unarmed inmates,
+  guards and highlighted evidence during Batman: Arkham Asylum Game of the
+  Year Edition's bounded opening Story Mode route.
+- Excludes: avatar-centred ordinary sight and sound; an acquired persistent
+  mark that survives after scanning; a complete future patrol route; an
+  external walkthrough; a cosmetic colour filter with no state disclosure.
+- Parameters: mode state, actor, occlusion, classification, equipment, threat
+  state, evidence highlight, range, update timing and mode exit.
+- Evidence: [Batman: Arkham Asylum Game of the Year Edition
+  decomposition](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md).
+- Novelty: first isolated for `GAME-0255`; a reversible focused overlay reveals
+  current occluded actor and threat categories rather than storing individual
+  reconnaissance marks or merely intensifying local visible clues.
+
+## INF-310 — Incoming close-attack cue exposes a counter opportunity
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a local visual cue identifies which nearby hostile has committed
+  an eligible close attack and exposes the short opportunity for a reactive
+  counter without guaranteeing that the response will be timed successfully.
+- Includes: the counter icon above an attacking inmate during Batman: Arkham
+  Asylum Game of the Year Edition's bounded opening Story Mode route.
+- Excludes: a general hostile outline; a permanent enemy mark; an exact future
+  attack timeline; a finisher cue on an already staggered target; a tutorial
+  sentence that is not tied to the current incoming attack.
+- Parameters: attacker, attack class, cue shape, cue onset, response interval,
+  reach, overlap, expiry and failed-response feedback.
+- Evidence: [Batman: Arkham Asylum Game of the Year Edition
+  decomposition](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md).
+- Novelty: first isolated for `GAME-0255`; the interface discloses one current
+  reactive combat window rather than an enemy's general alert state or a
+  staggered-finisher opportunity.
+
+## INF-311 — Portable motion sensor exposes bounded direction and distance
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while a portable local-motion sensor is raised, its interface
+  exposes the direction sector and approximate distance of the nearest eligible
+  moving actor, while withholding identity, stationary actors, exact world
+  coordinate, route and future motion.
+- Includes: Alien: Isolation's scoped motion tracker front cone, side/rear
+  quarters and nearest-moving-actor distance display.
+- Excludes: direct local sight; exact actor-bound marking; an omniscient minimap;
+  stationary-resource survey; a passive threat-radius layer with no directional
+  distance reading; player inference from external media.
+- Parameters: observer, sensor, active view, range, eligible movement, nearest
+  reading, sector resolution, distance resolution, refresh and concealed state.
+- Evidence: [Alien: Isolation decomposition](../games/a-f/alien-isolation.md).
+- Novelty: first isolated for `GAME-0257`; partial local movement becomes a
+  device-bounded anonymous direction/distance channel without persistent actor
+  identity or exact position.
+
+## INF-312 — Ordinary object appearance can conceal current hostile identity
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: local sight can show an actor's current appearance as an ordinary
+  eligible object without disclosing that the observed form retains hostile
+  identity, so safety remains unresolved until movement, attack, testing or
+  reveal provides additional current evidence.
+- Includes: uncertainty over which apparently duplicated station prop is a
+  concealed Mimic in Prey (2017)'s bounded lobby route.
+- Excludes: ordinary line-of-sight occlusion; a known hostile behind cover; a
+  purely decorative object; external walkthrough knowledge; a persistent scan
+  that already labels the concealed actor; future disguise prediction.
+- Parameters: observer, visible appearance, eligible object class, copied
+  instance, hidden identity, comparison set, test, reveal event and expiry.
+- Evidence: [Prey (2017) decomposition](../games/m-r/prey-2017.md), supported by
+  Bethesda's static description of object mimicry and hidden threats.
+- Novelty: first isolated for `GAME-0258`; the uncertainty is not where an
+  already known hostile is but whether a currently ordinary-looking local
+  object is itself the hostile actor.
+
+## INF-313 — Layered body damage exposes regional severance progress
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the live body itself exposes each eligible region's intact,
+  peeled, structurally weakened or detached state and its remaining functional
+  contribution, so the player can choose another regional attack without a
+  conventional aggregate enemy health bar.
+- Includes: visible skin, flesh, bone and intact-limb state during Dead Space
+  (2023)'s bounded Chapter 1 combat.
+- Excludes: a generic blood effect; a single health bar; hidden internal hit
+  points; an external bestiary; a target marker unrelated to regional damage.
+- Parameters: actor, region, layer set, degradation state, attachment,
+  capability cue, threshold proximity and display persistence.
+- Evidence: [Dead Space (2023 remake) decomposition](../games/a-f/dead-space-2023.md).
+- Novelty: first isolated for `GAME-0259`; the body's visible layers disclose
+  local progress toward a capability-changing detachment rather than aggregate
+  survival alone.
+
+## INF-314 — Local circuit panel exposes capacity and branch state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: one authored control panel reveals its fixed available power,
+  the identity and demand of each local fixture branch, and which branches are
+  currently powered or unpowered before the next allocation choice.
+- Includes: the Maintenance Bay breaker showing office, elevator and lights
+  branches and their two-branch capacity in Dead Space (2023) Chapter 1.
+- Excludes: a colony-wide economic power report; hidden wiring inferred from an
+  external guide; vehicle performance gauges; a binary switch with no competing
+  branch; future power demand beyond the panel.
+- Parameters: panel, capacity, branch, demand, current state, available state,
+  selected relation and rejection feedback.
+- Evidence: [Dead Space (2023 remake) decomposition](../games/a-f/dead-space-2023.md).
+- Novelty: first isolated for `GAME-0259`; a bounded local supply and every
+  competing route/visibility branch are jointly legible at the choice surface.
+
+## INF-315 — Worn equipment exposes remaining protected-breath duration
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while environmental breathing equipment is relevant, its worn
+  state and current filter reserve expose the remaining protected duration and
+  replacement warning before exhaustion, without revealing future atmosphere
+  boundaries or automatically selecting the next cartridge.
+- Includes: the gas mask, wristwatch filter-time reading and replacement prompt
+  during Metro Exodus's bounded `Moscow` chapter.
+- Excludes: health alone; a hidden oxygen counter; weapon ammunition; an
+  external walkthrough estimate; a map that reveals every future toxic region.
+- Parameters: equipment, worn state, installed duration, display precision,
+  warning threshold, carried replacement availability and update timing.
+- Evidence: [Metro Exodus decomposition](../games/m-r/metro-exodus.md).
+- Novelty: first isolated for `GAME-0260`; the interface predicts the remaining
+  live protection interval of installed breathing equipment rather than only
+  reporting accumulated environmental damage.
+
+## INF-316 — Personal indicator exposes current visual illumination
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an embodied personal indicator exposes whether the controlled
+  actor's current position and illumination state place them in a locally
+  visible or shadowed category before hostile detection necessarily completes,
+  without identifying every observer or predicting future sightlines.
+- Includes: the wristwatch visibility light during Metro Exodus's bounded
+  `Moscow` infiltration.
+- Excludes: an exact directional suspicion meter; a permanent actor mark;
+  automatic hostile outlines; an external brightness setting; an indicator
+  that reports only whether the player's flashlight is switched on.
+- Parameters: actor, position, ambient illumination, carried light, visible or
+  shadowed category, indicator state, observer independence and update timing.
+- Evidence: [Metro Exodus decomposition](../games/m-r/metro-exodus.md).
+- Novelty: first isolated for `GAME-0260`; a body-carried signal reports the
+  actor's present light exposure before any particular hostile finishes
+  perception, rather than reporting detection progress or lamp state alone.
