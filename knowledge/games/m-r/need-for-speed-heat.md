@@ -335,7 +335,7 @@ Exact trajectories and amounts vary; the conditional resolution is the test.
   level itself clears after search, `CON-437`, whose class restriction is hard,
   `SYS-642`, whose exposed cash crosses mandatory pursuit, and `OBJ-122`,
   whose chase is mandatory. Reject `OBJ-134`/`OBJ-150` as place-threshold goals,
-  and `ACT-357`/`SYS-641`/`INF-255` as Unbound Burst mechanics. `SYS-753` uses
+  and `SYS-641`/`INF-255` as Unbound Burst-accumulation mechanics. `SYS-753` uses
   a finite fixture reservoir, unlike a global session allowance. `SYS-476`
   preserves a jurisdictional bounty, not an extraction multiplier. No prior
   signature or definition is broadened to force these reuses.

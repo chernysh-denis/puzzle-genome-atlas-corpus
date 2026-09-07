@@ -41,12 +41,12 @@ gene_ids:
     - CON-285
     - CON-286
     - CON-290
+    - CON-297
     - CON-315
     - CON-316
     - CON-317
     - CON-318
     - CON-319
-    - CON-320
     - CON-321
     - CON-322
   information:
@@ -178,10 +178,16 @@ gene_ids:
 
 - Existing genes: `CON-210`, typed stack capacity; `CON-284`, backpack and
   equipment slots; `CON-285`, compatible live weapon state; `CON-286`, legal
-  uninterrupted restorative cast; `CON-290`, terminal Solo defeat for one match.
-- New genes: `CON-315`–`CON-322`, covering augment-shaped loadout legality,
-  Safe Pocket eligibility, live extraction, unsecured knockout loss,
-  interruptible search, Workshop prerequisites, weapon-maintenance costs and
+  uninterrupted restorative cast; `CON-290`, terminal Solo defeat for one match;
+  `CON-297`, the Workshop craft prerequisites — a known blueprint, the declared
+  ingredients in retained persistent inventory and the unlocked station and tier
+  the recipe names. The persistent ingredient source and the unlocked station
+  tier are parameters of that same legality boundary, which
+  [`TAXONOMY_CHANGE_025`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_025.md)
+  established.
+- New genes: `CON-315`–`CON-319`, `CON-321` and `CON-322`, covering
+  augment-shaped loadout legality, Safe Pocket eligibility, live extraction,
+  unsecured knockout loss, interruptible search, weapon-maintenance costs and
   skill-tree purchase gates.
 - Scarce strategic resources: session time, concealment and sound discipline;
   ammunition, shield charge and health; loadout, backpack and protected slots;
@@ -283,7 +289,7 @@ gene_ids:
 |---|---|---|
 | Action | `ACT-008`, `ACT-123`, `ACT-161`, `ACT-164`, `ACT-199`, `ACT-200`, `ACT-215`–`ACT-221` | bindings, item identities and Free Loadout contents are parameters |
 | System Behaviour | `SYS-215`, `SYS-223`, `SYS-319`, `SYS-328`, `SYS-346`–`SYS-354` | numeric balance and session seed are parameters |
-| Constraint | `CON-210`, `CON-284`–`CON-286`, `CON-290`, `CON-315`–`CON-322` | slot counts, costs and timings are parameters |
+| Constraint | `CON-210`, `CON-284`–`CON-286`, `CON-290`, `CON-297`, `CON-315`–`CON-319`, `CON-321`, `CON-322` | slot counts, costs and timings are parameters |
 | Information | `INF-075`, `INF-115`, `INF-128`, `INF-132`, `INF-137`–`INF-140` | HUD placement is presentation |
 | Objective | `OBJ-021` | acceptable extracted value is strategic, not a fixed quota |
 | Time | `TIM-003` | exact durations are versioned parameters |
@@ -304,8 +310,12 @@ No pre-migration reviewed selected-neighbour table row exists for: `GAME-0140`.
 ### Preserved research notes
 
 - New genes: `ACT-215`–`ACT-219`, `ACT-221`, `SYS-346`–`SYS-350`,
-  `SYS-352`–`SYS-354`,
-  `CON-315`–`CON-322`, `INF-137`–`INF-140`.
+  `SYS-352`–`SYS-354`, `CON-315`–`CON-319`, `CON-321`, `CON-322`,
+  `INF-137`–`INF-140`.
+- Reused genes now include `CON-297`. `CON-320` was merged into it by
+  [`TAXONOMY_CHANGE_025`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_025.md),
+  which subsumed three product-specific crafting-legality records into the
+  parameterised boundary without changing any other carrier's signature.
 - Classification result: new verified combination of reused and new genes.
 - Evidence and reasoning: the distinctive boundary is not shooting or looting
   alone. It is the explicit terminal partition that converts one live shared
@@ -314,9 +324,11 @@ No pre-migration reviewed selected-neighbour table row exists for: `GAME-0140`.
 
 ## Taxonomy impact
 
-- Registry changes after normalisation: 26 new bounded genes and `COMB-0141`;
-  `ACT-191` and `SYS-299` are reused.
-- Taxonomy-change record: `TAXONOMY_CHANGE_012` and `TAXONOMY_CHANGE_013`.
+- Registry changes after normalisation: 25 new bounded genes and `COMB-0141`;
+  `ACT-191`, `SYS-299` and `CON-297` are reused.
+- Taxonomy-change record: `TAXONOMY_CHANGE_012`, `TAXONOMY_CHANGE_013` and
+  [`TAXONOMY_CHANGE_025`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_025.md),
+  which merged this record's former `CON-320` into `CON-297`.
 - Candidate terms affected: none.
 
 ## Negative results

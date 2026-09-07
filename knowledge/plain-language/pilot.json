@@ -18748,7 +18748,7 @@
           "exampleUk": "Гвинтівка зі сховища губиться разом зі здобиччю з наплічника.",
           "exampleEn": "A stash rifle is lost together with the loot in the backpack."
         },
-        "CON-320": {
+        "CON-297": {
           "labelUk": "Для виготовлення потрібні станція, рецепт і матеріали",
           "labelEn": "Crafting needs a station, recipe, and materials",
           "explanationUk": "Річ можна виготовити в Workshop лише на відкритій станції потрібного рівня, за відомим рецептом і з усіма потрібними складниками у сховищі.",
@@ -21876,7 +21876,7 @@
           "exampleUk": "Після переходу в другу фазу Eye of Cthulhu відкриває пащу й починає частіше кидатися на персонажа.",
           "exampleEn": "At low health, the Eye of Cthulhu transforms and begins rapid repeated charges."
         },
-        "CON-366": {
+        "CON-297": {
           "labelUk": "Виготовлення потребує всіх складників і близького робочого місця",
           "labelEn": "Crafting requires recipe inputs and reachable station context",
           "explanationUk": "Рецепт з’являється у переліку лише тоді, коли всі складники є при персонажі, у відкритій або дозволеній сусідній скрині, а кожне потрібне робоче місце чи природне джерело перебуває поруч.",
@@ -22892,7 +22892,7 @@
           "exampleUk": "Літера, вже зайнята знайденим словом, не належить іншій відповіді.",
           "exampleEn": "A letter claimed by a found word does not belong to another answer."
         },
-        "CON-376": {
+        "CON-112": {
           "labelUk": "Надсилай розпізнане слово достатньої довжини",
           "labelEn": "Submit a long-enough recognised word",
           "explanationUk": "Шлях переходить до перевірки відповіді лише тоді, коли утворює розпізнане слово щонайменше з чотирьох літер.",
@@ -28278,7 +28278,7 @@
           "exampleUk": "Mobile Vehicle Bay займає блок 3×3 і потребує дев’ять вільних клітинок.",
           "exampleEn": "The Mobile Vehicle Bay occupies a 3×3 block and needs nine free cells."
         },
-        "CON-462": {
+        "CON-297": {
           "labelUk": "Поєднати креслення, матеріали й правильну станцію",
           "labelEn": "Combine blueprint, materials and the right station",
           "explanationUk": "Навіть повний набір матеріалів не працює без відкритого рецепта, сумісного фабрикатора й місця для результату.",
@@ -30038,7 +30038,7 @@
           "exampleUk": "Thermal Stone дає більше часу між зимовими джерелами тепла.",
           "exampleEn": "A Thermal Stone grants more time between winter heat sources."
         },
-        "CON-366": {
+        "CON-297": {
           "labelUk": "Мати складники й потрібний контекст",
           "labelEn": "Have ingredients and the required context",
           "explanationUk": "Рецепт активний лише з усіма матеріалами та потрібною досяжною станцією.",
@@ -31998,7 +31998,7 @@
     },
     "GAME-0199": {
       "genes": {
-        "ACT-357": {"labelUk":"Витратити зароблене прискорення","labelEn":"Spend an earned driving burst","explanationUk":"Активувати накопичений Burst Nitrous для короткого посилення розгону.","explanationEn":"Activate accumulated Burst Nitrous for a short acceleration increase.","exampleUk":"Запас витрачається на виході з повороту, щоб обігнати суперника.","exampleEn":"The reserve is spent on corner exit to pass a rival."},
+        "ACT-309": {"labelUk":"Витратити накопичений запас на прискорення","labelEn":"Spend the accumulated reserve for acceleration","explanationUk":"Увімкнути накопичений Burst Nitrous і витратити його на коротке посилення розгону машини.","explanationEn":"Activate the accumulated Burst Nitrous and spend it on a short increase in the car's acceleration.","exampleUk":"Запас витрачається на виході з повороту, щоб обігнати суперника.","exampleEn":"The reserve is spent on corner exit to pass a rival."},
         "SYS-641": {"labelUk":"Заробляти прискорення технікою водіння","labelEn":"Earn burst through driving technique","explanationUk":"Точне проходження поворотів, ковзання та рух у повітряному потоці наповнюють запас прискорення.","explanationEn":"Grip/drift driving and drafting fill the acceleration reserve.","exampleUk":"Тривалий рух за суперником додає Burst Nitrous.","exampleEn":"Sustained drafting behind a rival adds Burst Nitrous."},
         "SYS-642": {"labelUk":"Тримати призові під ризиком","labelEn":"Keep race earnings at risk","explanationUk":"Гроші з фінішу лишаються незбереженими до втечі та входу в гараж.","explanationEn":"Finish earnings remain exposed until escape and garage entry.","exampleUk":"Затримання після фінішу забирає ще не збережену виплату.","exampleEn":"A post-finish bust removes the still-exposed payout."},
         "CON-523": {"labelUk":"Зберігати гроші лише після втечі","labelEn":"Bank cash only after escape","explanationUk":"Активна погоня або пошук не дозволяє завершити збереження в гаражі.","explanationEn":"Active pursuit or search blocks garage settlement.","exampleUk":"Rydell's Rydes приймає результат лише після зникнення поліції.","exampleEn":"Rydell's Rydes accepts the result only after police clearance."},
@@ -32298,10 +32298,10 @@
         "ACT-375": {"labelUk":"Додати відповідь до ланцюга","labelEn":"Add a Chain response","explanationUk":"Законна швидша відповідь додається новою ланкою до розв’язання попередніх.","explanationEn":"A legal equal-or-faster response becomes a new link before earlier effects resolve.","exampleUk":"Установлена Trap відповідає на активацію.","exampleEn":"A Set Trap responds to an activation."},
         "ACT-376": {"labelUk":"Оголосити одну атаку","labelEn":"Declare one attack","explanationUk":"Один готовий монстр обирає законну ціль або атакує безпосередньо.","explanationEn":"One ready monster chooses a legal target or attacks directly.","exampleUk":"Порожнє поле суперника відкриває пряму атаку.","exampleEn":"An empty opposing field permits a direct attack."},
         "ACT-377": {"labelUk":"Змінити бойову позицію","labelEn":"Change battle position","explanationUk":"Придатний монстр переходить між атакою й захистом або відкривається переворотним викликом.","explanationEn":"An eligible monster switches between attack and defence or flips face-up.","exampleUk":"Прихований захисник відкривається переворотним викликом.","exampleEn":"A concealed defender becomes face-up through a Flip Summon."},
+        "SYS-586": {"labelUk":"Просувати фази й ходи","labelEn":"Advance phases and turns","explanationUk":"Фази йдуть у сталому порядку, після End активний хід переходить суперникові.","explanationEn":"Phases follow a fixed order and End passes the active turn to the opponent.","exampleUk":"Battle лежить між Main 1 і Main 2.","exampleEn":"Battle lies between Main 1 and Main 2."},
+        "SYS-588": {"labelUk":"Виконати текст і перемістити карти","labelEn":"Apply text and move cards","explanationUk":"Ефект змінює показники та переносить карти між правилами визначеними зонами.","explanationEn":"An effect changes values and routes cards among rule-defined zones.","exampleUk":"Знищена карта переходить до кладовища.","exampleEn":"A destroyed card moves to the Graveyard."},
         "SYS-681": {"labelUk":"Завантажити незмінний навчальний пакет","labelEn":"Load the fixed tutorial packet","explanationUk":"Розділ задає обидві колоди, сталі руки, очки життя й порожнє поле.","explanationEn":"The chapter fixes both decks, opening hands, Life Points and empty field.","exampleUk":"Кожна сторона починає з п’ятьма картами й 4000 очок життя.","exampleEn":"Each side begins with five cards and 4,000 Life Points."},
-        "SYS-682": {"labelUk":"Просувати фази й ходи","labelEn":"Advance phases and turns","explanationUk":"Фази йдуть у сталому порядку, після End активний хід переходить суперникові.","explanationEn":"Phases follow a fixed order and End passes the active turn to the opponent.","exampleUk":"Battle лежить між Main 1 і Main 2.","exampleEn":"Battle lies between Main 1 and Main 2."},
         "SYS-683": {"labelUk":"Розв’язати завершений ланцюг назад","labelEn":"Resolve a closed Chain backward","explanationUk":"Коли відповідей більше немає, усі ланки виконуються від останньої до першої.","explanationEn":"When responses stop, every link resolves from newest to oldest.","exampleUk":"Ланка 3 виконується перед ланками 2 і 1.","exampleEn":"Chain Link 3 resolves before Links 2 and 1."},
-        "SYS-684": {"labelUk":"Виконати текст і перемістити карти","labelEn":"Apply text and move cards","explanationUk":"Ефект змінює показники та переносить карти між правилами визначеними зонами.","explanationEn":"An effect changes values and routes cards among rule-defined zones.","exampleUk":"Знищена карта переходить до кладовища.","exampleEn":"A destroyed card moves to the Graveyard."},
         "SYS-685": {"labelUk":"Порахувати позиційний бій","labelEn":"Resolve position-based battle","explanationUk":"Позиція цілі визначає порівняння з ATK або DEF і подальшу шкоду.","explanationEn":"The target's position selects ATK or DEF comparison and resulting damage.","exampleUk":"Пряма атака віднімає ATK від очок життя.","exampleEn":"A direct attack subtracts ATK from Life Points."},
         "SYS-686": {"labelUk":"Зарахувати результат і виконання розділу","labelEn":"Settle the result and chapter clear","explanationUk":"Законна поразка зупиняє двобій, показує результат і після перемоги зараховує Tutorial.","explanationEn":"A legal loss stops the Duel, shows its result and clears the Tutorial after victory.","exampleUk":"Нуль очок життя суперника відкриває Victory.","exampleEn":"Zero opposing Life Points opens Victory."},
         "CON-544": {"labelUk":"Використовувати лише позичені колоди","labelEn":"Use only the loaner decks","explanationUk":"Розділ не приймає особисту або змінену колоду.","explanationEn":"The chapter accepts no personal or edited deck.","exampleUk":"Обидва списки карт задані розділом 10003.","exampleEn":"Chapter 10003 fixes both card lists."},
@@ -33206,6 +33206,14 @@
           "exampleUk": "Falck замовляє транспорт на вільну дорогу біля плацдарму.",
           "exampleEn": "Falck requests a transport onto a clear road near the foothold."
         },
+        "SYS-396": {
+          "labelUk": "Виснажувати підкріплення поразками й більшістю секторів",
+          "labelEn": "Drain tickets through defeats and sector majority",
+          "explanationUk": "Зарахована поразка зменшує запас своєї команди, а більшість повних секторів раз по раз зменшує запас суперника до нуля.",
+          "explanationEn": "A committed defeat debits its team, while majority sector control repeatedly debits the opponent to zero.",
+          "exampleUk": "Утримувана більшість секторів продовжує зменшувати ворожий запас між боями.",
+          "exampleEn": "A held sector majority keeps reducing enemy reinforcements between fights."
+        },
         "SYS-742": {
           "labelUk": "Скласти окремі точки в повний сектор",
           "labelEn": "Aggregate points into a complete sector",
@@ -33213,14 +33221,6 @@
           "explanationEn": "Each point retains ownership and foothold value, but the sector transfers only when one team holds them all.",
           "exampleUk": "Союзна перша точка дає появу, проте друга ворожа точка лишає сектор неповним.",
           "exampleEn": "The first allied point enables a foothold while an enemy second point keeps the sector incomplete."
-        },
-        "SYS-743": {
-          "labelUk": "Виснажувати підкріплення поразками й більшістю секторів",
-          "labelEn": "Drain tickets through defeats and sector majority",
-          "explanationUk": "Зарахована поразка зменшує запас своєї команди, а більшість повних секторів раз по раз зменшує запас суперника до нуля.",
-          "explanationEn": "A committed defeat debits its team, while majority sector control repeatedly debits the opponent to zero.",
-          "exampleUk": "Утримувана більшість секторів продовжує зменшувати ворожий запас між боями.",
-          "exampleEn": "A held sector majority keeps reducing enemy reinforcements between fights."
         },
         "SYS-744": {
           "labelUk": "Одразу застосувати властивості нового модуля",
@@ -34214,12 +34214,12 @@
           "SYS-761": {"labelUk":"Призначати наслідок фолу чи порушення","labelEn":"Assign a foul or violation remedy","explanationUk":"Суддівство зупиняє гру й обирає втрату, вкидання або штрафні.","explanationEn":"Adjudication stops play and selects a turnover, inbound, or free throws.","exampleUk":"Пробіжка віддає м’яч суперникові.","exampleEn":"Travelling awards possession to the opponent."},
           "SYS-762": {"labelUk":"Нараховувати очки різної вартості","labelEn":"Register weighted basket scores","explanationUk":"Тип і місце спроби визначають одно-, дво- або триочкову зміну.","explanationEn":"Attempt class and location determine a one-, two-, or three-point change.","exampleUk":"Кидок з-за дуги додає три очки.","exampleEn":"A shot released beyond the arc adds three points."},
           "SYS-763": {"labelUk":"Довести чверті й овертайм до фіналу","labelEn":"Advance quarters and overtime to settlement","explanationUk":"Нічия не завершує матч, а запускає додатковий період.","explanationEn":"A tie cannot settle the match and starts an extra period.","exampleUk":"Рівний рахунок після четвертої чверті веде до овертайму.","exampleEn":"A tied fourth-quarter score proceeds to overtime."},
-          "CON-582": {"labelUk":"Керувати одним учасником п’ятірки","labelEn":"Control one member of the active five","explanationUk":"Перемикання переносить єдиний осередок керування між партнерами.","explanationEn":"Switching transfers one control locus among teammates.","exampleUk":"У захисті керування переходить до ближчого захисника.","exampleEn":"On defence, control moves to the nearer defender."},
+          "CON-398": {"labelUk":"Керувати одним учасником п’ятірки","labelEn":"Control one member of the active five","explanationUk":"Перемикання переносить єдиний осередок керування між партнерами.","explanationEn":"Switching transfers one control locus among teammates.","exampleUk":"У захисті керування переходить до ближчого захисника.","exampleEn":"On defence, control moves to the nearer defender."},
           "CON-583": {"labelUk":"Дотримуватися геометрії майданчика й кошика","labelEn":"Obey court and basket geometry","explanationUk":"Межі й місце випуску визначають допустимість і вартість кидка.","explanationEn":"Boundaries and release position determine legality and shot value.","exampleUk":"Випуск за дугою може коштувати три очки.","exampleEn":"A release beyond the arc can be worth three points."},
           "CON-584": {"labelUk":"Вести й просувати м’яч законно","labelEn":"Move the carried ball legally","explanationUk":"Кроки, ведення й повернення через центр обмежують носія.","explanationEn":"Steps, dribble state, and backcourt progression constrain the carrier.","exampleUk":"Подвійне ведення завершує володіння порушенням.","exampleEn":"A double dribble ends possession with a violation."},
           "CON-585": {"labelUk":"Встигнути кинути до завершення атаки","labelEn":"Release a qualifying shot before expiry","explanationUk":"М’яч треба випустити вчасно, а потім він має влучити або торкнутися кільця.","explanationEn":"The ball must be released in time and then score or touch the rim.","exampleUk":"Кидок після сигналу не рятує володіння.","exampleEn":"A release after expiry cannot save the possession."},
           "CON-586": {"labelUk":"Дотримуватися правил контакту й м’яча","labelEn":"Obey contact and ball-handling law","explanationUk":"Опіка, заслони, ведення й протидія мають залишатися законними.","explanationEn":"Guarding, screens, dribbling, and contests must remain legal.","exampleUk":"Рухомий заслін може перетворити атаку на втрату.","exampleEn":"A moving screen can turn offence into a turnover."},
-          "INF-289": {"labelUk":"Бачити м’яч, керування й форму команд","labelEn":"See ball, control, and team shape","explanationUk":"Ракурс показує простір для наступного пасу, руху чи протидії.","explanationEn":"The view exposes space for the next pass, move, or contest.","exampleUk":"Позначка вирізняє поточного керованого захисника.","exampleEn":"A marker identifies the currently controlled defender."},
+          "INF-178": {"labelUk":"Бачити м’яч, керування й форму команд","labelEn":"See ball, control, and team shape","explanationUk":"Ракурс показує простір для наступного пасу, руху чи протидії.","explanationEn":"The view exposes space for the next pass, move, or contest.","exampleUk":"Позначка вирізняє поточного керованого захисника.","exampleEn":"A marker identifies the currently controlled defender."},
           "INF-290": {"labelUk":"Бачити обидва ігрові таймери","labelEn":"See both match clocks","explanationUk":"Рахунок, час чверті й час атаки разом визначають нагальність.","explanationEn":"Score, period time, and possession time jointly expose urgency.","exampleUk":"Малий залишок атаки підштовхує до швидкого кидка.","exampleEn":"Little shot-clock time forces a quick attempt."},
           "OBJ-149": {"labelUk":"Завершити матч попереду за очками","labelEn":"Finish the match ahead on points","explanationUk":"Перемога потребує більшого фінального рахунку після всіх потрібних періодів.","explanationEn":"Victory requires the higher final score after every required period.","exampleUk":"Нічия основного часу ще не виконує ціль.","exampleEn":"A regulation tie does not yet satisfy the objective."}
       },
@@ -36008,7 +36008,7 @@
     },
     "GAME-0251": {
       "genes": {
-        "SYS-781": {
+        "SYS-468": {
           "labelUk": "Проводити одну спробу крізь регіони з охоронцями",
           "labelEn": "Carry one attempt through guardian-gated regions",
           "explanationUk": "Перемога над обов’язковим охоронцем відкриває наступний регіон, не скидаючи поточне здоров’я, ресурси та тимчасову збірку.",
@@ -38812,6 +38812,1358 @@
           "exampleUk": "Перевірити, чи можна забрати потрібний складник.",
           "exampleEn": "Check whether the needed component can be collected."
         }
+      }
+    },
+    "GAME-0262": {
+      "genes": {
+        "ACT-436": {
+          "labelUk": "Виконати перекид за рахунок запасу сил",
+          "labelEn": "Roll using the shared reserve",
+          "explanationUk": "Гравець ухиляється спрямованим перекидом, ціну якого беруть із того самого запасу, що й удари.",
+          "explanationEn": "The player evades with a directional roll paid from the same reserve as attacks.",
+          "exampleUk": "Перекотитися крізь замах ворога, витративши частину смуги витривалості.",
+          "exampleEn": "Roll through an enemy swing and spend part of the stamina bar."
+        },
+        "ACT-437": {
+          "labelUk": "Тримати щит у бік погляду",
+          "labelEn": "Hold the shield toward the facing",
+          "explanationUk": "Утримуваний щит приймає удар на запас сил замість здоров’я, доки гравець його не опустить.",
+          "explanationEn": "A held shield absorbs a strike against the reserve instead of health until the player lowers it.",
+          "exampleUk": "Зустріти удар піднятим щитом і витратити витривалість замість здоров’я.",
+          "exampleEn": "Meet a strike with the shield raised and spend stamina instead of health."
+        },
+        "SYS-798": {
+          "labelUk": "Витрачати спільний запас сил",
+          "labelEn": "Spend one shared stamina reserve",
+          "explanationUk": "Один запас оплачує удари, перекиди, біг і блок та сам поповнюється, коли його не витрачають.",
+          "explanationEn": "One reserve pays for strikes, rolls, sprints and guarding and refills while it is not spent.",
+          "exampleUk": "Зупинитися після серії ударів, щоб смуга витривалості відновилася.",
+          "exampleEn": "Pause after a series of strikes so the stamina bar recovers."
+        },
+        "SYS-799": {
+          "labelUk": "Перетворювати стража на другу форму",
+          "labelEn": "Turn the guardian into a second form",
+          "explanationUk": "Коли здоров’я стража падає нижче порога, він змінює набір атак у тій самій сутичці.",
+          "explanationEn": "When the guardian's health falls below a threshold it changes attack set inside the same fight.",
+          "exampleUk": "Побачити другу форму стража, коли його смуга здоров’я опускається.",
+          "exampleEn": "See the guardian's second form as its health bar drops."
+        },
+        "CON-604": {
+          "labelUk": "Ухилення й блок потребують запасу сил",
+          "labelEn": "Evasion and guard need remaining stamina",
+          "explanationUk": "Без достатнього залишку сил перекид, біг і блок недоступні, доки запас не відновиться.",
+          "explanationEn": "Without enough reserve left, rolling, sprinting and guarding are unavailable until it recovers.",
+          "exampleUk": "Витратити всю витривалість на удари й на мить залишитися без перекиду.",
+          "exampleEn": "Spend all stamina on strikes and be left briefly unable to roll."
+        }
+      },
+      "structural": {
+        "ACT-008": {
+          "labelUk": "Вести персонажа світом",
+          "labelEn": "Move the character through the world",
+          "explanationUk": "Гравець сам веде одного постійного персонажа наявним простором.",
+          "explanationEn": "The player directly moves one persistent character through the available space.",
+          "exampleUk": "Пройти кладовищем до наступного проходу.",
+          "exampleEn": "Walk through the graveyard to the next passage."
+        },
+        "ACT-161": {
+          "labelUk": "Вдарити досяжного ворога",
+          "labelEn": "Strike a reachable enemy",
+          "explanationUk": "Гравець наводить наявну зброю на досяжного ворога й виконує прямий удар.",
+          "explanationEn": "The player aims the current weapon at a reachable enemy and commits a direct strike.",
+          "exampleUk": "Завдати легкого або важкого удару мечем.",
+          "exampleEn": "Land a light or strong sword strike."
+        },
+        "ACT-224": {
+          "labelUk": "Відпочити біля контрольної точки",
+          "labelEn": "Rest at the checkpoint",
+          "explanationUk": "Гравець свідомо відпочиває біля активованої точки й приймає її наслідки для світу.",
+          "explanationEn": "The player deliberately rests at an activated point and accepts its world consequences.",
+          "exampleUk": "Відпочити біля вогнища перед боєм зі стражем.",
+          "exampleEn": "Rest at the bonfire before the guardian fight."
+        },
+        "ACT-249": {
+          "labelUk": "Забрати валюту з місця смерті",
+          "labelEn": "Reclaim currency from the death spot",
+          "explanationUk": "Гравець доходить до єдиної позначки загибелі й повертає залишену там валюту.",
+          "explanationEn": "The player reaches the single death mark and takes back the currency left there.",
+          "exampleUk": "Торкнутися кривавої плями й повернути душі.",
+          "exampleEn": "Touch the bloodstain and take the souls back."
+        },
+        "ACT-438": {
+          "labelUk": "Прив’язати огляд до однієї цілі",
+          "labelEn": "Bind the view to one target",
+          "explanationUk": "Гравець обирає одного ворога, і персонаж лишається поверненим до нього під час руху.",
+          "explanationEn": "The player selects one enemy and the character keeps facing it while moving.",
+          "exampleUk": "Увімкнути прив’язку до стража, а тоді зняти її.",
+          "exampleEn": "Lock on to the guardian, then release it."
+        },
+        "SYS-215": {
+          "labelUk": "Вести бій у реальному часі",
+          "labelEn": "Resolve combat in real time",
+          "explanationUk": "Керовані бійці обмінюються ударами, поки світ триває без пауз.",
+          "explanationEn": "Directly controlled fighters exchange blows while the world continues without pausing.",
+          "exampleUk": "Битися з Grave Warden без зупинки часу.",
+          "exampleEn": "Fight a Grave Warden with no pause in time."
+        },
+        "SYS-364": {
+          "labelUk": "Відновити ресурси й повернути ворогів",
+          "labelEn": "Restore resources and return enemies",
+          "explanationUk": "Відпочинок поповнює здоров’я та заряди, але повертає вже переможених звичайних ворогів.",
+          "explanationEn": "Resting refills health and charges but returns already defeated ordinary enemies.",
+          "exampleUk": "Отримати повну флягу ціною повторного шляху.",
+          "exampleEn": "Gain a full flask at the cost of walking the route again."
+        },
+        "SYS-399": {
+          "labelUk": "Повернути до точки й лишити позначку",
+          "labelEn": "Return to the point and leave a mark",
+          "explanationUk": "Смерть повертає персонажа до контрольної точки й зберігає валюту в позначці на місці загибелі.",
+          "explanationEn": "Death returns the character to the checkpoint and stores the currency in a mark where they fell.",
+          "exampleUk": "Загинути й побачити пляму там, де впав персонаж.",
+          "exampleEn": "Die and see the mark where the character fell."
+        },
+        "SYS-578": {
+          "labelUk": "Змінювати єдиний запас здоров’я",
+          "labelEn": "Change one health pool",
+          "explanationUk": "Удари зменшують один запас здоров’я, лікування його відновлює, а нуль завершує спробу.",
+          "explanationEn": "Strikes reduce one health pool, healing restores it and zero ends the attempt.",
+          "exampleUk": "Втратити здоров’я від удару й відновити його флягою.",
+          "exampleEn": "Lose health to a strike and restore it with the flask."
+        },
+        "CON-282": {
+          "labelUk": "Проходи відкриваються по черзі",
+          "labelEn": "Passages open in order",
+          "explanationUk": "Наступна ділянка стає доступною лише після виконання попередньої авторської умови.",
+          "explanationEn": "The next section becomes available only after its authored prior condition is satisfied.",
+          "exampleUk": "Пройти до святині лише після перемоги над стражем.",
+          "exampleEn": "Reach the shrine only after defeating the guardian."
+        },
+        "CON-352": {
+          "labelUk": "Позначка смерті існує лише одна",
+          "labelEn": "Only one death mark exists",
+          "explanationUk": "Нова смерть замінює попередню позначку й назавжди знищує залишену там валюту.",
+          "explanationEn": "A new death replaces the previous mark and permanently destroys the currency left there.",
+          "exampleUk": "Загинути двічі поспіль і втратити накопичені душі.",
+          "exampleEn": "Die twice in a row and lose the accumulated souls."
+        },
+        "CON-354": {
+          "labelUk": "Удар потребує сил і завершеної анімації",
+          "labelEn": "A strike needs stamina and a finished animation",
+          "explanationUk": "Рух зброї починається лише тоді, коли вистачає запасу сил і завершилася попередня дія.",
+          "explanationEn": "A weapon move starts only when enough reserve remains and the previous action has finished.",
+          "exampleUk": "Не змогти вдарити одразу після важкого замаху.",
+          "exampleEn": "Be unable to strike right after a heavy swing."
+        },
+        "INF-119": {
+          "labelUk": "Бачити власні ресурси",
+          "labelEn": "See your own resources",
+          "explanationUk": "Інтерфейс постійно показує здоров’я, запас сил і накопичену валюту персонажа.",
+          "explanationEn": "The interface continuously shows the character's health, reserve and accumulated currency.",
+          "exampleUk": "Перевірити смугу витривалості перед наступним ударом.",
+          "exampleEn": "Check the stamina bar before the next strike."
+        },
+        "INF-318": {
+          "labelUk": "Бачити залишкове здоров’я стража",
+          "labelEn": "See the guardian's remaining health",
+          "explanationUk": "Замкнена сутичка називає стража й показує, скільки його здоров’я залишилося.",
+          "explanationEn": "The sealed fight names the guardian and shows how much of its health remains.",
+          "exampleUk": "Стежити за смугою стража, щоб передбачити його зміну.",
+          "exampleEn": "Watch the guardian's bar to anticipate its change."
+        },
+        "OBJ-080": {
+          "labelUk": "Перемогти стража й перетнути рубіж",
+          "labelEn": "Defeat the guardian and cross the threshold",
+          "explanationUk": "Маршрут завершено лише тоді, коли обов’язкового стража переможено й відкритий рубіж перетнуто.",
+          "explanationEn": "The route is complete only when the mandatory guardian falls and the opened threshold is crossed.",
+          "exampleUk": "Запалити вогнище святині після перемоги.",
+          "exampleEn": "Light the shrine bonfire after the victory."
+        },
+        "TIM-003": {
+          "labelUk": "Діяти в реальному часі",
+          "labelEn": "Act in real time",
+          "explanationUk": "Рух, удари, відновлення сил і лікування тривають безперервно, поки гравець вводить команди.",
+          "explanationEn": "Movement, strikes, reserve recovery and healing all continue while the player keeps inputting.",
+          "exampleUk": "Пити флягу, поки ворог продовжує наступ.",
+          "exampleEn": "Drink the flask while the enemy keeps attacking."
+        }
+      },
+      "supporting": {
+        "ACT-199": {
+          "labelUk": "Підібрати й вдягнути предмет",
+          "labelEn": "Pick up and equip an item",
+          "explanationUk": "Гравець забирає доступний предмет і ставить його у відповідний слот.",
+          "explanationEn": "The player takes an available item and places it in a compatible slot.",
+          "exampleUk": "Підібрати другу флягу біля зруйнованого джерела.",
+          "exampleEn": "Pick up the second flask by the broken fountain."
+        },
+        "ACT-200": {
+          "labelUk": "Випити відновлювальний засіб",
+          "labelEn": "Drink a restorative",
+          "explanationUk": "Гравець починає лікування, яке спрацьовує лише за завершеної анімації.",
+          "explanationEn": "The player begins a treatment that works only if its animation completes.",
+          "exampleUk": "Випити Estus у безпечний момент.",
+          "exampleEn": "Drink Estus at a safe moment."
+        },
+        "CON-286": {
+          "labelUk": "Лікування потребує потрібного стану",
+          "labelEn": "Healing needs the right state",
+          "explanationUk": "Фляга діє лише за браку здоров’я та неперерваної анімації.",
+          "explanationEn": "The flask works only with missing health and an uninterrupted animation.",
+          "exampleUk": "Втратити ефект, якщо удар перервав ковток.",
+          "exampleEn": "Lose the effect when a strike interrupts the drink."
+        },
+        "INF-128": {
+          "labelUk": "Бачити знахідки й сумісність",
+          "labelEn": "See items and compatibility",
+          "explanationUk": "Доступні предмети та інвентар показують, що це, скільки й куди підходить.",
+          "explanationEn": "Available items and the inventory show identity, quantity and where each fits.",
+          "exampleUk": "Побачити, що знайдений предмет — це фляга.",
+          "exampleEn": "See that the found item is a flask."
+        },
+        "INF-317": {
+          "labelUk": "Читати написи на землі",
+          "labelEn": "Read the messages on the ground",
+          "explanationUk": "Незмінні написи розробника пояснюють команду керування саме там, де вона потрібна.",
+          "explanationEn": "Fixed developer messages explain a control exactly where it is needed.",
+          "exampleUk": "Прочитати напис про перекид перед першим ворогом.",
+          "exampleEn": "Read the roll message before the first enemy."
+        }
+      }
+    },
+    "GAME-0263": {
+      "genes": {
+        "ACT-385": {
+          "labelUk": "Кинути й відкликати інструмент",
+          "labelEn": "Throw and recall the tool",
+          "explanationUk": "Гравець кидає багаторазовий інструмент у ціль або наказує йому повернутися до руки.",
+          "explanationEn": "The player throws a reusable tool at a target or commands it back to hand.",
+          "exampleUk": "Кинути сокиру в перешкоду, а тоді відкликати її.",
+          "exampleEn": "Throw the axe at an obstacle, then recall it."
+        },
+        "SYS-800": {
+          "labelUk": "Розрахувати політ і повернення",
+          "labelEn": "Resolve the flight and the return",
+          "explanationUk": "Кинутий інструмент вражає все на шляху, лишається на місці й вражає знову, повертаючись.",
+          "explanationEn": "A thrown tool hits everything on its way, stays where it stopped and hits again on its return.",
+          "exampleUk": "Стати так, щоб сокира на зворотному шляху зачепила ще одного ворога.",
+          "exampleEn": "Stand so the returning axe also catches a second enemy."
+        },
+        "CON-605": {
+          "labelUk": "Без інструмента діє інший набір",
+          "labelEn": "A different set applies without the tool",
+          "explanationUk": "Поки інструмент лежить осторонь, його атаки недоступні, а бій ведуть іншим способом.",
+          "explanationEn": "While the tool rests away, its attacks are unavailable and combat continues another way.",
+          "exampleUk": "Битися кулаками й щитом, поки сокира лишилася у ворозі.",
+          "exampleEn": "Fight with fists and shield while the axe stays in an enemy."
+        },
+        "INF-319": {
+          "labelUk": "Підказка показує потрібну відповідь",
+          "labelEn": "The cue shows the required answer",
+          "explanationUk": "Позначка на ворожій атаці показує, чи можна її парирувати, чи треба ухилятися.",
+          "explanationEn": "A marker on an incoming attack shows whether it can be parried or must be evaded.",
+          "exampleUk": "Побачити позначку без можливості блоку й відступити.",
+          "exampleEn": "See the unblockable marker and step away."
+        }
+      },
+      "structural": {
+        "ACT-008": {
+          "labelUk": "Вести персонажа світом",
+          "labelEn": "Move the character through the world",
+          "explanationUk": "Гравець сам веде одного постійного персонажа наявним простором.",
+          "explanationEn": "The player directly moves one persistent character through the available space.",
+          "exampleUk": "Пройти лісовим маршрутом за поточною ціллю.",
+          "exampleEn": "Walk the forest route toward the current objective."
+        },
+        "ACT-161": {
+          "labelUk": "Вдарити досяжного ворога",
+          "labelEn": "Strike a reachable enemy",
+          "explanationUk": "Гравець наводить наявну зброю на досяжного ворога й виконує прямий удар.",
+          "explanationEn": "The player aims the current weapon at a reachable enemy and commits a direct strike.",
+          "exampleUk": "Завдати легкого або важкого удару сокирою.",
+          "exampleEn": "Land a light or heavy axe strike."
+        },
+        "ACT-197": {
+          "labelUk": "Наказати напарнику застосувати вміння",
+          "labelEn": "Order the companion to use an ability",
+          "explanationUk": "Гравець викликає заявлену дію напарника, поки її наявність це дозволяє.",
+          "explanationEn": "The player invokes the companion's declared action while its availability permits.",
+          "exampleUk": "Наказати напарнику випустити стріли у ворога.",
+          "exampleEn": "Order the companion to loose arrows at an enemy."
+        },
+        "ACT-223": {
+          "labelUk": "Вибрати вчасну захисну відповідь",
+          "labelEn": "Choose a timed defensive answer",
+          "explanationUk": "Під час позначеної ворожої атаки гравець виконує допустиму відповідь у вибрану мить.",
+          "explanationEn": "During a telegraphed attack the player commits the eligible response at a chosen instant.",
+          "exampleUk": "Парирувати щитом останньої миті перед ударом.",
+          "exampleEn": "Parry with the shield at the last moment."
+        },
+        "ACT-419": {
+          "labelUk": "Виконати підказане добивання",
+          "labelEn": "Perform the prompted finish",
+          "explanationUk": "Поки ворог лишається в тимчасовому вразливому стані, гравець виконує показане ближнє добивання.",
+          "explanationEn": "While an enemy stays in its temporary vulnerable state, the player commits the shown close finish.",
+          "exampleUk": "Схопити приголомшеного ворога, поки підказка не зникла.",
+          "exampleEn": "Grab a staggered enemy before the prompt disappears."
+        },
+        "ACT-437": {
+          "labelUk": "Тримати щит без витрати запасу",
+          "labelEn": "Hold the shield without spending a reserve",
+          "explanationUk": "Гравець утримує щит у бік повороту персонажа, і цей захист не витрачає жодного запасу.",
+          "explanationEn": "The player holds the shield toward the character's facing, and the guard spends no reserve.",
+          "exampleUk": "Тримати щит проти серії ударів, а тоді опустити його.",
+          "exampleEn": "Hold the shield against a series of blows, then lower it."
+        },
+        "SYS-215": {
+          "labelUk": "Вести бій у реальному часі",
+          "labelEn": "Resolve combat in real time",
+          "explanationUk": "Керовані бійці обмінюються ударами, поки світ триває без пауз.",
+          "explanationEn": "Directly controlled fighters exchange blows while the world continues without pausing.",
+          "exampleUk": "Битися з групою ворогів без зупинки часу.",
+          "exampleEn": "Fight a group of enemies with no pause in time."
+        },
+        "SYS-407": {
+          "labelUk": "Отримувати самостійну допомогу напарника",
+          "labelEn": "Receive autonomous companion help",
+          "explanationUk": "Союзний напарник сам іде за персонажем і обирає доступні дії за місцевим станом.",
+          "explanationEn": "An allied companion follows on its own and chooses available actions from local state.",
+          "exampleUk": "Побачити, як напарник сам відволікає ворога поруч.",
+          "exampleEn": "See the companion distract a nearby enemy on its own."
+        },
+        "SYS-409": {
+          "labelUk": "Перетворювати накопичену стійкість на відкриття",
+          "labelEn": "Turn accumulated stability into an opening",
+          "explanationUk": "Влучні удари змінюють показник стійкості ворога, а його поріг відкриває коротку можливість.",
+          "explanationEn": "Qualifying hits change an enemy's stability value, and its threshold opens a short window.",
+          "exampleUk": "Довести стійкість ворога до порога перед добиванням.",
+          "exampleEn": "Drive an enemy's stability to its threshold before finishing."
+        },
+        "SYS-578": {
+          "labelUk": "Змінювати єдиний запас здоров’я",
+          "labelEn": "Change one health pool",
+          "explanationUk": "Удари зменшують один запас здоров’я, а нуль завершує поточну спробу.",
+          "explanationEn": "Strikes reduce one health pool and zero ends the current attempt.",
+          "exampleUk": "Втратити здоров’я від пропущеного удару стража.",
+          "exampleEn": "Lose health to an unanswered guardian blow."
+        },
+        "SYS-780": {
+          "labelUk": "Завершити відрізок і зберегти наступний стан",
+          "labelEn": "Settle the segment into the next state",
+          "explanationUk": "Остання потрібна дія закриває поточний набір цілей і дає звичайне керування в наступному відрізку.",
+          "explanationEn": "The final required action closes the current objective set and admits control in the next segment.",
+          "exampleUk": "Прийняти перехід до наступної цілі після перемоги.",
+          "exampleEn": "Accept the move to the next objective after the victory."
+        },
+        "CON-269": {
+          "labelUk": "Вміння потребує цілі, запасу й готовності",
+          "labelEn": "An ability needs a target, stock and readiness",
+          "explanationUk": "Дія напарника спрацьовує лише за допустимої цілі, відстані та наявного запасу.",
+          "explanationEn": "The companion's action resolves only with a legal target, range and available stock.",
+          "exampleUk": "Почекати, поки запас стріл напарника відновиться.",
+          "exampleEn": "Wait for the companion's arrow stock to recover."
+        },
+        "CON-324": {
+          "labelUk": "Відповідь має влучити у вікно часу",
+          "labelEn": "The answer must land in its time window",
+          "explanationUk": "Ухилення або парирування спрацьовує лише всередині відповідного вікна атаки.",
+          "explanationEn": "A dodge or parry works only inside the matching window of the attack.",
+          "exampleUk": "Натиснути захист надто рано й пропустити удар.",
+          "exampleEn": "Press the guard too early and take the hit."
+        },
+        "INF-142": {
+          "labelUk": "Рух і звук підказують мить відповіді",
+          "labelEn": "Motion and sound cue the moment",
+          "explanationUk": "Анімація, звук і підказки показують ритм атаки, не називаючи точних чисел.",
+          "explanationEn": "Animation, sound and prompts show the attack's rhythm without stating exact numbers.",
+          "exampleUk": "Прочитати замах стража перед відповіддю.",
+          "exampleEn": "Read the guardian's windup before answering."
+        },
+        "INF-295": {
+          "labelUk": "Бачити можливість добивання",
+          "labelEn": "See the finisher opportunity",
+          "explanationUk": "Місцевий показ відрізняє тимчасовий вразливий стан ворога від звичайної шкоди.",
+          "explanationEn": "Local feedback separates an enemy's temporary vulnerable state from ordinary damage.",
+          "exampleUk": "Помітити позначку добивання над ворогом.",
+          "exampleEn": "Notice the finisher marker over an enemy."
+        },
+        "OBJ-155": {
+          "labelUk": "Завершити відрізок і втримати наступне керування",
+          "labelEn": "Finish the segment and hold the next control",
+          "explanationUk": "Відрізок завершено лише тоді, коли виконано його обов’язкові дії й збережено керування в наступному.",
+          "explanationEn": "The segment is done only when its mandatory actions are met and control in the next one is retained.",
+          "exampleUk": "Зберегтися на наступній цілі й перевірити завантаженням.",
+          "exampleEn": "Save at the next objective and verify it by loading."
+        },
+        "TIM-003": {
+          "labelUk": "Діяти в реальному часі",
+          "labelEn": "Act in real time",
+          "explanationUk": "Рух, удари, політ сокири й вікна відповіді тривають безперервно, поки гравець вводить команди.",
+          "explanationEn": "Movement, strikes, axe flight and response windows continue while the player keeps inputting.",
+          "exampleUk": "Відкликати сокиру, поки ворог ще наступає.",
+          "exampleEn": "Recall the axe while an enemy is still advancing."
+        }
+      },
+      "supporting": {
+        "SYS-369": {
+          "labelUk": "Відновити контрольну точку після невдачі",
+          "labelEn": "Restore the checkpoint after failure",
+          "explanationUk": "Після загибелі повтор повертає останню авторську контрольну точку замість невдалого стану.",
+          "explanationEn": "After death a retry restores the latest authored checkpoint instead of the failed state.",
+          "exampleUk": "Повторити сутичку зі стража з контрольної точки.",
+          "exampleEn": "Retry the guardian encounter from the checkpoint."
+        },
+        "CON-282": {
+          "labelUk": "Цілі відкриваються по черзі",
+          "labelEn": "Objectives open in order",
+          "explanationUk": "Наступна ціль стає доступною лише після виконання попередньої авторської умови.",
+          "explanationEn": "The next objective becomes available only after its authored predecessor is satisfied.",
+          "exampleUk": "Дійти до стража лише після завершення полювання.",
+          "exampleEn": "Reach the guardian only after the hunt is finished."
+        },
+        "INF-119": {
+          "labelUk": "Бачити власні ресурси",
+          "labelEn": "See your own resources",
+          "explanationUk": "Інтерфейс постійно показує здоров’я та поточний бойовий стан персонажа.",
+          "explanationEn": "The interface continuously shows the character's health and current combat state.",
+          "exampleUk": "Перевірити здоров’я перед наступним зближенням.",
+          "exampleEn": "Check health before closing in again."
+        },
+        "INF-125": {
+          "labelUk": "Бачити поточну ціль",
+          "labelEn": "See the current objective",
+          "explanationUk": "Поточна ціль і її позначка показують наступний авторський крок маршруту.",
+          "explanationEn": "The current objective and its marker show the next authored step of the route.",
+          "exampleUk": "Стежити за позначкою цілі в лісі.",
+          "exampleEn": "Follow the objective marker through the woods."
+        }
+      }
+    },
+    "GAME-0264": {
+      "genes": {
+        "ACT-440": {
+          "labelUk": "Прийняти перевірку з показаними шансами",
+          "labelEn": "Accept a check with shown odds",
+          "explanationUk": "Гравець обирає варіант із перевіркою здібності, прочитавши, які в нього шанси на успіх.",
+          "explanationEn": "The player picks an option carrying a check after reading its stated chance of success.",
+          "exampleUk": "Погодитися на перевірку з шансом 62 відсотки.",
+          "exampleEn": "Accept a check with a 62 percent chance."
+        },
+        "SYS-801": {
+          "labelUk": "Скласти значення, доданки й дві кістки",
+          "labelEn": "Add the value, modifiers and two dice",
+          "explanationUk": "Розрахунок додає здібність, її доданки та дві кістки й порівнює підсумок зі складністю.",
+          "explanationEn": "The resolution adds the skill, its modifiers and two dice, then compares the total with the difficulty.",
+          "exampleUk": "Отримати автоматичну невдачу на найменшому кидку двох кісток.",
+          "exampleEn": "Take an automatic failure on the lowest possible roll of two dice."
+        },
+        "SYS-802": {
+          "labelUk": "Владнати невдачу як повторювану або остаточну",
+          "labelEn": "Settle failure as retryable or final",
+          "explanationUk": "Одні невдачі можна спробувати ще раз після зміни у світі, інші закриваються назавжди.",
+          "explanationEn": "Some failures can be tried again after a change in the world; others close permanently.",
+          "exampleUk": "Втратити варіант назавжди після невдалої червоної перевірки.",
+          "exampleEn": "Lose an option permanently after a failed red check."
+        },
+        "INF-320": {
+          "labelUk": "Бачити шанси й доданки до вибору",
+          "labelEn": "See the odds and modifiers first",
+          "explanationUk": "Варіант показує складність, обчислені шанси та кожен доданок, що їх утворює.",
+          "explanationEn": "The option shows its difficulty, computed odds and every term that produces them.",
+          "exampleUk": "Побачити, що куртка дає плюс один до перевірки.",
+          "exampleEn": "See that the jacket gives plus one to the check."
+        },
+        "INF-321": {
+          "labelUk": "Бачити, яка здібність це сказала",
+          "labelEn": "See which faculty said it",
+          "explanationUk": "Кожен внутрішній коментар підписано назвою здібності, що його подала.",
+          "explanationEn": "Every internal comment is labelled with the faculty that produced it.",
+          "exampleUk": "Прочитати репліку, підписану назвою навички.",
+          "exampleEn": "Read a line labelled with a skill's name."
+        }
+      },
+      "structural": {
+        "SYS-803": {
+          "labelUk": "Отримувати коментарі від невибраних перевірок",
+          "labelEn": "Receive comments from unchosen checks",
+          "explanationUk": "Система сама розраховує перевірки, яких гравець не обирав, і показує лише їхні успіхи.",
+          "explanationEn": "The system resolves checks the player did not choose and shows only their successes.",
+          "exampleUk": "Не дізнатися, що якась навичка змовчала через невдачу.",
+          "exampleEn": "Never learn that a skill stayed silent because it failed."
+        },
+        "SYS-804": {
+          "labelUk": "Витрачати час лише на взаємодії",
+          "labelEn": "Spend time only on interactions",
+          "explanationUk": "Годинник іде від кожного обміну репліками чи огляду, але не від ходьби.",
+          "explanationEn": "The clock advances on each exchange or examination but not while walking.",
+          "exampleUk": "Обійти кімнату без витрати часу.",
+          "exampleEn": "Walk around the room without spending time."
+        },
+        "SYS-805": {
+          "labelUk": "Мати два незалежні запаси",
+          "labelEn": "Carry two independent pools",
+          "explanationUk": "Тілесна й душевна шкода йдуть окремо, і вичерпання будь-якого запасу завершує спробу.",
+          "explanationEn": "Bodily and moral harm run separately, and emptying either pool ends the attempt.",
+          "exampleUk": "Завершити спробу через розмову, не отримавши поранень.",
+          "exampleEn": "End the attempt through conversation with no injury at all."
+        },
+        "CON-606": {
+          "labelUk": "Повторити можна лише перевірку свого класу",
+          "labelEn": "Only the right class can be retried",
+          "explanationUk": "Повторна спроба потрібна зміна у світі, а закрита перевірка не допускає її взагалі.",
+          "explanationEn": "A retry needs a change in the world, and a closed check admits none at all.",
+          "exampleUk": "Повернутися до білої перевірки після підвищення навички.",
+          "exampleEn": "Return to a white check after raising the skill."
+        },
+        "CON-607": {
+          "labelUk": "Вдягнене змінює значення здібностей",
+          "labelEn": "What is worn changes the values",
+          "explanationUk": "Поки річ на персонажі, вона додає або віднімає від здібностей, за якими рахують перевірки.",
+          "explanationEn": "While worn, an item adds to or subtracts from the skills used to resolve checks.",
+          "exampleUk": "Перевдягтися, щоб шанси перевірки зросли.",
+          "exampleEn": "Change clothes so the check's odds improve."
+        },
+        "ACT-232": {
+          "labelUk": "Вибрати авторську відповідь",
+          "labelEn": "Choose an authored response",
+          "explanationUk": "Гравець обирає одну із запропонованих реплік, і її наслідок змінює стан розмови чи світу.",
+          "explanationEn": "The player picks one offered line, and its result changes the conversation or world state.",
+          "exampleUk": "Відповісти співрозмовнику однією з наявних реплік.",
+          "exampleEn": "Answer the other person with one of the offered lines."
+        },
+        "OBJ-158": {
+          "labelUk": "Завершити епізод розмовою, а не боєм",
+          "labelEn": "Finish the episode by talking, not fighting",
+          "explanationUk": "Епізод завершено, коли виконано його взаємодії й збережено доступ до наступного стану.",
+          "explanationEn": "The episode is done when its interactions are met and access to the next state is retained.",
+          "exampleUk": "Дійти до першої розмови з напарником і зберегтися.",
+          "exampleEn": "Reach the first conversation with the partner and save."
+        },
+        "TIM-002": {
+          "labelUk": "Діяти у власному темпі",
+          "labelEn": "Act at your own pace",
+          "explanationUk": "Між діями можна спинятися скільки завгодно, бо система сама не робить кроку.",
+          "explanationEn": "You may pause between actions as long as you like, because the system takes no step of its own.",
+          "exampleUk": "Обдумувати перевірку без жодного поспіху.",
+          "exampleEn": "Think about a check with no time pressure at all."
+        },
+        "SYS-680": {
+          "labelUk": "Перетворювати оглянуте на записаний поступ",
+          "labelEn": "Turn what you examined into recorded progress",
+          "explanationUk": "Оглянуті докази й завершені розмови заносять факти й завдання до записника.",
+          "explanationEn": "Examined evidence and finished conversations enter facts and tasks into the notebook.",
+          "exampleUk": "Побачити нове завдання після огляду вікна.",
+          "exampleEn": "See a new task appear after examining the window."
+        }
+      },
+      "supporting": {
+        "ACT-107": {
+          "labelUk": "Дізнатися точний факт із розмови",
+          "labelEn": "Learn an exact fact from a conversation",
+          "explanationUk": "Завершена розмова записує один точний факт, доступний для подальших дій.",
+          "explanationEn": "A finished conversation records one exact fact that later actions can use.",
+          "exampleUk": "Дізнатися, куди подівся другий черевик.",
+          "exampleEn": "Learn where the second shoe went."
+        },
+        "ACT-189": {
+          "labelUk": "Указати, куди йти",
+          "labelEn": "Point where to walk",
+          "explanationUk": "Гравець клацає досяжну точку, і персонаж сам туди доходить.",
+          "explanationEn": "The player clicks a reachable point and the character walks there on its own.",
+          "exampleUk": "Клацнути двері, щоб персонаж підійшов до них.",
+          "exampleEn": "Click the door so the character walks to it."
+        },
+        "ACT-199": {
+          "labelUk": "Підібрати й вдягнути річ",
+          "labelEn": "Pick up and wear an item",
+          "explanationUk": "Гравець забирає знайдену річ і ставить її у відповідний слот.",
+          "explanationEn": "The player takes a found item and places it in a compatible slot.",
+          "exampleUk": "Вдягнути знайдену куртку.",
+          "exampleEn": "Put on the jacket that was found."
+        },
+        "ACT-341": {
+          "labelUk": "Оглянути предмет або скористатися ним",
+          "labelEn": "Examine an object or use it",
+          "explanationUk": "Гравець звертається до підсвіченого предмета й виконує його доступну дію.",
+          "explanationEn": "The player addresses a highlighted object and commits its available action.",
+          "exampleUk": "Оглянути дзеркало в номері.",
+          "exampleEn": "Examine the mirror in the room."
+        },
+        "CON-282": {
+          "labelUk": "Шлюзи відкриваються по черзі",
+          "labelEn": "Gates open in order",
+          "explanationUk": "Наступний крок стає доступним лише після виконання попередньої авторської умови.",
+          "explanationEn": "The next step becomes available only after its authored predecessor is satisfied.",
+          "exampleUk": "Вийти з номера лише після того, як знайдено ключ.",
+          "exampleEn": "Leave the room only after the key has been found."
+        },
+        "INF-119": {
+          "labelUk": "Бачити власний стан",
+          "labelEn": "See your own state",
+          "explanationUk": "Інтерфейс постійно показує обидва запаси та поточний стан персонажа.",
+          "explanationEn": "The interface continuously shows both pools and the character's current state.",
+          "exampleUk": "Перевірити душевний запас перед складною розмовою.",
+          "exampleEn": "Check the moral pool before a difficult conversation."
+        }
+      }
+    },
+    "GAME-0265": {
+      "genes": {
+        "ACT-441": {
+          "labelUk": "Поставити захисника на відомий маршрут",
+          "labelEn": "Place a defender on a known route",
+          "explanationUk": "Гравець купує захисника й назавжди ставить його на обране місце біля незмінної траси.",
+          "explanationEn": "The player buys a defender and fixes it for the attempt beside the unchanging track.",
+          "exampleUk": "Поставити мавпу так, щоб її коло накрило поворот траси.",
+          "exampleEn": "Place a monkey so its circle covers a bend in the track."
+        },
+        "SYS-808": {
+          "labelUk": "Поповнювати спільний бюджет знищеними шарами",
+          "labelEn": "Fund the shared budget from destroyed layers",
+          "explanationUk": "Кожен знятий шар ворога одразу додає грошей до спільного бюджету, з якого купують захист.",
+          "explanationEn": "Every removed enemy layer immediately adds money to the shared budget the defence is bought from.",
+          "exampleUk": "Оплатити нову вежу грошима з попереднього раунду.",
+          "exampleEn": "Pay for a new tower with money from the previous round."
+        },
+        "SYS-809": {
+          "labelUk": "Випускати раунди за номерами",
+          "labelEn": "Release rounds by number",
+          "explanationUk": "Авторський розклад по черзі випускає на ту саму трасу склад ворогів кожного раунду.",
+          "explanationEn": "An authored schedule releases each round's enemies onto the same track in turn.",
+          "exampleUk": "Побачити, як після чистої траси починається наступний раунд.",
+          "exampleEn": "See the next round begin once the track is clear."
+        },
+        "CON-608": {
+          "labelUk": "Гілки поліпшень мають нерівні межі",
+          "labelEn": "Upgrade paths have uneven caps",
+          "explanationUk": "Лише одну гілку можна підняти високо, другу — до середини, а третю купувати не можна.",
+          "explanationEn": "Only one path can go high, a second reaches the middle, and the third stays unbought.",
+          "exampleUk": "Втратити доступ до третьої гілки після високої покупки.",
+          "exampleEn": "Lose access to the third path after one high purchase."
+        },
+        "OBJ-159": {
+          "labelUk": "Пережити весь розклад із запасом",
+          "labelEn": "Outlast the whole schedule with stock left",
+          "explanationUk": "Спробу завершено, коли запас доносять до останнього раунду розкладу.",
+          "explanationEn": "The attempt is done when the stock reaches the schedule's final round.",
+          "exampleUk": "Дійти до сорокового раунду з рештою життів.",
+          "exampleEn": "Reach the fortieth round with lives left."
+        }
+      },
+      "structural": {
+        "ACT-442": {
+          "labelUk": "Задати правило вибору цілі",
+          "labelEn": "Set the target-selection rule",
+          "explanationUk": "Гравець обирає, кого захисник атакуватиме першим, але не наказує жодного пострілу.",
+          "explanationEn": "The player chooses whom a defender shoots first but commands no individual shot.",
+          "exampleUk": "Перемкнути вежу на найсильнішу ціль.",
+          "exampleEn": "Switch a tower to the strongest target."
+        },
+        "SYS-051": {
+          "labelUk": "Атакувати самостійно в межах досяжності",
+          "labelEn": "Attack on their own within reach",
+          "explanationUk": "Поставлені захисники самі знаходять допустимих ворогів поруч і б’ють у своєму темпі.",
+          "explanationEn": "Placed defenders find eligible nearby enemies themselves and strike at their own pace.",
+          "exampleUk": "Дивитися, як вежа стріляє без жодної команди.",
+          "exampleEn": "Watch a tower fire without any command."
+        },
+        "SYS-806": {
+          "labelUk": "Знімати шар і випускати дітей",
+          "labelEn": "Remove a layer and release its children",
+          "explanationUk": "Влучання знімає зовнішній шар ворога, і на тому самому місці з’являються менші вороги.",
+          "explanationEn": "A hit removes the enemy's outer layer, and smaller enemies appear in the same place.",
+          "exampleUk": "Побачити, як одна куля розпадається на дві менші.",
+          "exampleEn": "See one bloon break into two smaller ones."
+        },
+        "SYS-807": {
+          "labelUk": "Платити за втечу кількістю шарів",
+          "labelEn": "Pay for an escape in layers",
+          "explanationUk": "Ворог, що дійшов до виходу, знімає стільки запасу, скільки шарів у ньому лишилося.",
+          "explanationEn": "An enemy reaching the exit removes as much stock as the layers it still carried.",
+          "exampleUk": "Втратити менше життів через частково пробиту кулю.",
+          "exampleEn": "Lose fewer lives to a partly popped bloon."
+        },
+        "INF-322": {
+          "labelUk": "Бачити зону дії до підтвердження",
+          "labelEn": "See the reach before committing",
+          "explanationUk": "Під час наведення видно точне коло, у якому захисник зможе працювати.",
+          "explanationEn": "While positioning, the exact circle the defender could work in is visible.",
+          "exampleUk": "Посунути вежу, щоб коло торкнулося траси.",
+          "exampleEn": "Nudge a tower so its circle touches the track."
+        },
+        "INF-323": {
+          "labelUk": "Бачити гроші, запас і раунд разом",
+          "labelEn": "See money, stock and round together",
+          "explanationUk": "Інтерфейс одночасно показує бюджет, залишок життів і номер поточного раунду.",
+          "explanationEn": "The interface shows the budget, the remaining lives and the current round at once.",
+          "exampleUk": "Відкласти покупку, бо попереду ще багато раундів.",
+          "exampleEn": "Delay a purchase because many rounds still remain."
+        },
+        "TIM-003": {
+          "labelUk": "Діяти в реальному часі",
+          "labelEn": "Act in real time",
+          "explanationUk": "Вороги йдуть, а захисники б’ють безперервно, поки гравець далі щось ставить чи купує.",
+          "explanationEn": "Enemies advance and defenders strike continuously while the player keeps placing or buying.",
+          "exampleUk": "Купити поліпшення посеред раунду.",
+          "exampleEn": "Buy an upgrade in the middle of a round."
+        }
+      },
+      "supporting": {
+        "ACT-130": {
+          "labelUk": "Купити запропоноване поліпшення",
+          "labelEn": "Buy an offered upgrade",
+          "explanationUk": "Гравець витрачає поточні гроші на один із доступних рівнів поліпшення.",
+          "explanationEn": "The player spends the current money on one of the available upgrade tiers.",
+          "exampleUk": "Купити перший рівень верхньої гілки.",
+          "exampleEn": "Buy the first tier of the top path."
+        },
+        "CON-062": {
+          "labelUk": "Контур має вміститися без накладань",
+          "labelEn": "The footprint must fit without overlap",
+          "explanationUk": "Захисника можна поставити лише там, де його контур не перекриває трасу, перешкоду чи іншого захисника.",
+          "explanationEn": "A defender fits only where its footprint does not overlap the track, an obstacle or another defender.",
+          "exampleUk": "Не змогти поставити вежу просто на трасі.",
+          "exampleEn": "Be unable to place a tower on the track itself."
+        },
+        "INF-131": {
+          "labelUk": "Бачити, чи місце допустиме",
+          "labelEn": "See whether the spot is allowed",
+          "explanationUk": "Попередній перегляд показує, чи можна поставити захисника саме тут, ще до підтвердження.",
+          "explanationEn": "The preview shows whether the defender may be placed right here before committing.",
+          "exampleUk": "Побачити відмову під час наведення на камінь.",
+          "exampleEn": "See the refusal while hovering over a rock."
+        }
+      }
+    },
+    "GAME-0266": {
+      "genes": {
+        "ACT-443": {
+          "labelUk": "Прорізати породу й забрати видобуток",
+          "labelEn": "Carve the rock and take the yield",
+          "explanationUk": "Гравець вирізає суцільний прохід у породі, а якщо там було родовище — та сама дія забирає матеріал.",
+          "explanationEn": "The player cuts a solid passage through rock, and if a deposit was there the same action takes it.",
+          "exampleUk": "Прокопати навпростець до жили, а не обходити печерою.",
+          "exampleEn": "Dig straight to a vein instead of walking around the cave."
+        },
+        "SYS-810": {
+          "labelUk": "Замовити припаси коштом зданого запасу",
+          "labelEn": "Order supplies from the deposited pool",
+          "explanationUk": "Виклик знімає частину того самого зданого запасу й садить капсулу з кількома окремими стійками.",
+          "explanationEn": "The call debits the same deposited pool and lands a pod with several separate racks.",
+          "exampleUk": "Взяти одну стійку й відновити боєприпаси та здоров’я.",
+          "exampleEn": "Take one rack and restore ammunition and health."
+        },
+        "CON-609": {
+          "labelUk": "Продовження залежить від піднять дрона",
+          "labelEn": "Continuing depends on the drone's charges",
+          "explanationUk": "Кожне підняття витрачає один заряд дрона, а падіння без зарядів одразу завершує спробу.",
+          "explanationEn": "Each revive spends one drone charge, and going down with none ends the attempt at once.",
+          "exampleUk": "Ризикувати менше, коли лишилося одне підняття.",
+          "exampleEn": "Take fewer risks when only one revive is left."
+        },
+        "OBJ-160": {
+          "labelUk": "Заповнити норму, а тоді вилетіти",
+          "labelEn": "Fill the quota, then fly out",
+          "explanationUk": "Норму треба не лише зібрати, а й винести: без підйому на транспорт спроба невдала.",
+          "explanationEn": "The quota must be carried out, not just gathered: without boarding, the attempt fails.",
+          "exampleUk": "Кинути зайвий видобуток і встигнути на капсулу.",
+          "exampleEn": "Drop the extra haul and make it to the pod in time."
+        }
+      },
+      "structural": {
+        "ACT-050": {
+          "labelUk": "Показати дрону, що робити",
+          "labelEn": "Point the drone at a task",
+          "explanationUk": "Гравець наводить вказівник на ціль, і клас цієї цілі визначає, за що дрон візьметься.",
+          "explanationEn": "The player points at a target, and that target's class decides what the drone starts doing.",
+          "exampleUk": "Показати на жилу під стелею, щоб дрон її добув.",
+          "exampleEn": "Point at a vein in the ceiling so the drone mines it."
+        },
+        "ACT-093": {
+          "labelUk": "Здати видобуте в приймач",
+          "labelEn": "Deposit the haul into the receptacle",
+          "explanationUk": "Перенесений матеріал безповоротно віддають у видиму вимогу, і норма зростає саме на цю кількість.",
+          "explanationEn": "Carried material is irreversibly given to a visible requirement, and the quota grows by that amount.",
+          "exampleUk": "Донести повні руки до приймача й здати все.",
+          "exampleEn": "Carry full hands to the receptacle and hand it all over."
+        },
+        "ACT-218": {
+          "labelUk": "Викликати транспорт і зайти в нього",
+          "labelEn": "Call the transport and step inside",
+          "explanationUk": "Гравець запускає виклик евакуації й заходить у зону посадки, доки та не закрилася.",
+          "explanationEn": "The player starts the extraction call and enters the boarding zone before it closes.",
+          "exampleUk": "Натиснути виклик і бігти до капсули.",
+          "exampleEn": "Press the call and run for the pod."
+        },
+        "SYS-116": {
+          "labelUk": "Зараховувати здане до завершення норми",
+          "labelEn": "Count deposits until the quota completes",
+          "explanationUk": "Кожне прийняте здавання лишається зарахованим, а заповнення норми позначає збір завершеним.",
+          "explanationEn": "Each accepted deposit stays counted, and filling the quota marks the collection complete.",
+          "exampleUk": "Побачити, як остання партія закриває норму.",
+          "exampleEn": "See the last batch close the quota."
+        },
+        "SYS-348": {
+          "labelUk": "Проводити шкоду крізь щит, здоров’я і падіння",
+          "labelEn": "Run damage through shield, health and downing",
+          "explanationUk": "Шкода спершу йде на щит, потім на здоров’я, а нуль кладе гнома в стан падіння до підняття.",
+          "explanationEn": "Damage hits the shield first, then health, and zero puts the dwarf down until a revive.",
+          "exampleUk": "Впасти від рою й чекати на підняття.",
+          "exampleEn": "Go down to a swarm and wait for a revive."
+        },
+        "SYS-407": {
+          "labelUk": "Мати самостійного супутника поруч",
+          "labelEn": "Have an autonomous companion nearby",
+          "explanationUk": "Дрон сам летить за гравцем і обирає доступні дії за місцевим станом.",
+          "explanationEn": "The drone follows on its own and picks available actions from the local state.",
+          "exampleUk": "Побачити, як дрон сам відстрілює ворога поруч.",
+          "exampleEn": "See the drone shoot a nearby enemy by itself."
+        },
+        "CON-140": {
+          "labelUk": "Норма називає тип і кількість",
+          "labelEn": "The quota names the type and amount",
+          "explanationUk": "Збір заявляє, який саме матеріал приймають і скільки його потрібно для завершення.",
+          "explanationEn": "The collection declares which material is accepted and how much of it completes it.",
+          "exampleUk": "Прочитати, що потрібно рівно стільки-то Morkite.",
+          "exampleEn": "Read that exactly so much Morkite is required."
+        },
+        "ACT-130": {
+          "labelUk": "Купити запропоновану послугу",
+          "labelEn": "Buy an offered service",
+          "explanationUk": "Гравець витрачає поточний запас, щоб отримати одну запропоновану послугу чи предмет.",
+          "explanationEn": "The player spends the current balance to obtain one offered service or asset.",
+          "exampleUk": "Замовити постачання, коли запасу вистачає.",
+          "exampleEn": "Order a resupply once the balance covers it."
+        }
+      },
+      "supporting": {
+        "ACT-008": {
+          "labelUk": "Вести персонажа світом",
+          "labelEn": "Move the character through the world",
+          "explanationUk": "Гравець сам веде одного постійного персонажа наявним простором.",
+          "explanationEn": "The player directly moves one persistent character through the available space.",
+          "exampleUk": "Спуститися прокопаним тунелем углиб печери.",
+          "exampleEn": "Descend a dug tunnel deeper into the cave."
+        },
+        "ACT-161": {
+          "labelUk": "Вдарити досяжного ворога",
+          "labelEn": "Strike a reachable enemy",
+          "explanationUk": "Гравець наводить наявну зброю на досяжного ворога й виконує прямий удар чи постріл.",
+          "explanationEn": "The player aims the current weapon at a reachable enemy and commits a direct strike or shot.",
+          "exampleUk": "Відстрілятися від рою на вузькому проході.",
+          "exampleEn": "Shoot off a swarm in a narrow passage."
+        },
+        "ACT-341": {
+          "labelUk": "Скористатися предметом світу",
+          "labelEn": "Use a world object",
+          "explanationUk": "Гравець звертається до досяжного авторського предмета й виконує його доступну дію.",
+          "explanationEn": "The player addresses a reachable authored object and commits its available action.",
+          "exampleUk": "Натиснути кнопку евакуації на приймачі.",
+          "exampleEn": "Press the extraction button on the receptacle."
+        },
+        "SYS-215": {
+          "labelUk": "Вести бій у реальному часі",
+          "labelEn": "Resolve combat in real time",
+          "explanationUk": "Керований гном і вороги обмінюються ударами, поки світ триває без пауз.",
+          "explanationEn": "The controlled dwarf and the enemies exchange blows while the world continues without pausing.",
+          "exampleUk": "Битися, поки дрон прикриває збоку.",
+          "exampleEn": "Fight while the drone covers one side."
+        },
+        "INF-119": {
+          "labelUk": "Бачити власні ресурси",
+          "labelEn": "See your own resources",
+          "explanationUk": "Інтерфейс постійно показує здоров’я, щит, боєприпаси й перенесені мінерали.",
+          "explanationEn": "The interface continuously shows health, shield, ammunition and carried minerals.",
+          "exampleUk": "Перевірити боєприпаси перед глибшим проходом.",
+          "exampleEn": "Check ammunition before going deeper."
+        },
+        "TIM-003": {
+          "labelUk": "Діяти в реальному часі",
+          "labelEn": "Act in real time",
+          "explanationUk": "Прорізання, бій, дії дрона й відлік транспорту тривають безперервно, поки гравець діє.",
+          "explanationEn": "Carving, combat, drone actions and the transport's countdown all continue while the player acts.",
+          "exampleUk": "Копати шлях назад, поки триває відлік.",
+          "exampleEn": "Dig the way back while the countdown runs."
+        }
+      }
+    },
+    "GAME-0267": {
+      "genes": {
+        "ACT-444": {
+          "labelUk": "Скласти список запусків і просувати його",
+          "labelEn": "Set the launch order and step through it",
+          "explanationUk": "Гравець розподіляє частини по кроках, а в польоті одна команда просуває список рівно на один крок.",
+          "explanationEn": "The player spreads parts across steps, and in flight one command advances the list exactly one step.",
+          "exampleUk": "Відділити порожній бак і запалити наступний двигун одним натисканням.",
+          "exampleEn": "Drop an empty tank and light the next engine with one press."
+        },
+        "SYS-811": {
+          "labelUk": "Брати пальне за з’єднаннями й легшати",
+          "labelEn": "Draw fuel along the joins and get lighter",
+          "explanationUk": "Двигун живиться лише з тих баків, які гравець до нього приєднав, а витрачене пальне зменшує масу.",
+          "explanationEn": "An engine feeds only from the tanks the player joined to it, and spent fuel lowers the mass.",
+          "exampleUk": "Відчути сильніше прискорення, коли баки майже порожні.",
+          "exampleEn": "Feel stronger acceleration once the tanks are nearly empty."
+        },
+        "SYS-812": {
+          "labelUk": "Показувати шлях без двигунів",
+          "labelEn": "Show the path without engines",
+          "explanationUk": "Система рахує, якою кривою полетів би апарат, якби більше не вмикав тягу.",
+          "explanationEn": "The system computes the curve the craft would follow if it never thrust again.",
+          "exampleUk": "Побачити, що поточний рух повертає корабель до поверхні.",
+          "exampleEn": "See that the current motion brings the craft back down."
+        },
+        "CON-610": {
+          "labelUk": "Орбіта має бути вище атмосфери",
+          "labelEn": "The orbit must clear the atmosphere",
+          "explanationUk": "Якщо найнижча точка шляху лишається в атмосфері, орбіта згасає й не повторюється.",
+          "explanationEn": "If the path's lowest point stays inside the atmosphere, the orbit decays instead of repeating.",
+          "exampleUk": "Підняти найнижчу точку вище оголошеної товщини повітря.",
+          "exampleEn": "Raise the lowest point above the declared air depth."
+        },
+        "OBJ-161": {
+          "labelUk": "Замкнути орбіту й зберегти її",
+          "labelEn": "Close the orbit and keep it",
+          "explanationUk": "Спробу завершено, коли шлях замикається в повторювану орбіту й переживає повторне завантаження.",
+          "explanationEn": "The attempt is done when the path closes into a repeating orbit and survives a reload.",
+          "exampleUk": "Зберегтися на орбіті й переконатися, що вона лишилася.",
+          "exampleEn": "Save while in orbit and confirm it is still there."
+        }
+      },
+      "structural": {
+        "ACT-028": {
+          "labelUk": "Складати апарат із частин",
+          "labelEn": "Build the craft from parts",
+          "explanationUk": "Гравець без поспіху ставить і повертає частини, і ця геометрія визначає, що зможе політ.",
+          "explanationEn": "The player places and rotates parts without hurry, and that geometry decides what the flight can do.",
+          "exampleUk": "Поставити бак між двигуном і кабіною.",
+          "exampleEn": "Put a tank between the engine and the cabin."
+        },
+        "ACT-392": {
+          "labelUk": "Керувати тягою й поворотом",
+          "labelEn": "Command thrust and turning",
+          "explanationUk": "Гравець безперервно задає тягу та три осі повороту апарата у відкритому просторі.",
+          "explanationEn": "The player continuously sets the craft's thrust and its three turning axes in open space.",
+          "exampleUk": "Нахилити ракету на схід під час підйому.",
+          "exampleEn": "Tip the rocket eastward during the climb."
+        },
+        "SYS-036": {
+          "labelUk": "Рухати тіло під дією сил",
+          "labelEn": "Move the body under forces",
+          "explanationUk": "Поки час іде, апарат безперервно змінює положення та швидкість під тягою, тяжінням і опором.",
+          "explanationEn": "While time runs, the craft continuously changes position and speed under thrust, gravity and drag.",
+          "exampleUk": "Летіти за інерцією після вимкнення двигуна.",
+          "exampleEn": "Coast on momentum after the engine cuts out."
+        },
+        "INF-324": {
+          "labelUk": "Бачити крайні точки шляху",
+          "labelEn": "See the path's extreme points",
+          "explanationUk": "Мапний вигляд підписує найвищу та найнижчу точки шляху, яким апарат летів би далі.",
+          "explanationEn": "The map view labels the highest and lowest points of the path the craft would follow next.",
+          "exampleUk": "Порівняти найнижчу точку з межею атмосфери.",
+          "exampleEn": "Compare the lowest point with the atmosphere boundary."
+        },
+        "TIM-003": {
+          "labelUk": "Діяти в реальному часі",
+          "labelEn": "Act in real time",
+          "explanationUk": "Після запуску час іде безперервно, поки гравець задає тягу, поворот і кроки списку.",
+          "explanationEn": "After launch, time runs continuously while the player sets thrust, turning and list steps.",
+          "exampleUk": "Встигнути відділити ступінь під час підйому.",
+          "exampleEn": "Stage in time during the climb."
+        }
+      },
+      "supporting": {
+        "TIM-002": {
+          "labelUk": "Складати у власному темпі",
+          "labelEn": "Assemble at your own pace",
+          "explanationUk": "У складальному ангарі можна спинятися скільки завгодно, бо система сама не робить кроку.",
+          "explanationEn": "In the assembly building you may pause as long as you like, because the system takes no step.",
+          "exampleUk": "Довго переставляти частини перед запуском.",
+          "exampleEn": "Rearrange the parts at length before launching."
+        }
+      }
+    },
+    "GAME-0268": {
+      "genes": {
+        "SYS-813": {
+          "labelUk": "Суворо чергувати фазу команд і фазу ухилення",
+          "labelEn": "Strictly alternate the command phase and the evasion phase",
+          "explanationUk": "Сутичка складається з двох фаз із різним плином часу, і жодна з них не приймає введення іншої.",
+          "explanationEn": "The encounter is made of two phases with different flows of time, and neither accepts the other's inputs.",
+          "exampleUk": "Після вибраної команди меню зникає й починається фаза снарядів.",
+          "exampleEn": "After the chosen command the menu goes away and the projectile phase begins."
+        },
+        "SYS-814": {
+          "labelUk": "Накопичувати правильні взаємодії до права відпустити",
+          "labelEn": "Accumulate the right interactions into the right to release",
+          "explanationUk": "Кожне чудовисько має власні взаємодії без шкоди й власну приховану умову; правильні з них поступово роблять його придатним до відпускання.",
+          "explanationEn": "Every monster has its own non-damaging interactions and its own hidden condition; the right ones gradually make it eligible for release.",
+          "exampleUk": "Скористатися саме тією взаємодією, якої це чудовисько потребує.",
+          "exampleEn": "Use exactly the interaction this monster requires."
+        },
+        "SYS-815": {
+          "labelUk": "Закрити сутичку відпусканням без нагород за перемогу",
+          "labelEn": "Close the encounter by a release that pays no defeat rewards",
+          "explanationUk": "Відпускання завершує сутичку так само, як завершила б перемога, але не дає ані її поступу, ані запису про переможеного.",
+          "explanationEn": "A release ends the encounter exactly as a defeat would, but grants neither its progress nor a record of anything defeated.",
+          "exampleUk": "Сутичка закінчується, а лічильник переможених лишається на нулі.",
+          "exampleEn": "The encounter ends and the defeat count stays at zero."
+        },
+        "CON-611": {
+          "labelUk": "Відпустити можна лише вже позначеного супротивника",
+          "labelEn": "Only an already marked opponent may be released",
+          "explanationUk": "Команда відпускання спрацьовує лише проти чудовиська, яке система вже позначила придатним; проти інших вона просто витрачає фазу.",
+          "explanationEn": "The release command works only against a monster the system has already marked eligible; against others it merely spends the phase.",
+          "exampleUk": "Раннє відпускання минає марно, і чудовисько лишається в сутичці.",
+          "exampleEn": "An early release passes for nothing and the monster stays in the encounter."
+        },
+        "OBJ-162": {
+          "labelUk": "Закрити сутичку, нікого не перемігши, і зберегти це",
+          "labelEn": "Close the encounter defeating nobody and keep it that way",
+          "explanationUk": "Успіх — довести одну сутичку до кінця самими взаємодіями та відпусканням, а тоді підтвердити збереженням, що переможених досі немає.",
+          "explanationEn": "Success is bringing one encounter to its close through interactions and a release alone, then confirming through a save that nothing has been defeated.",
+          "exampleUk": "Завантажити запис і побачити лічильник переможених на нулі.",
+          "exampleEn": "Load the record and see the defeat count at zero."
+        }
+      },
+      "structural": {
+        "ACT-019": {
+          "labelUk": "Вибрати один із чотирьох варіантів проти чудовиська",
+          "labelEn": "Choose one of the four options against the monster",
+          "explanationUk": "У фазі команд гравець бере один оголошений варіант і спрямовує його на поточне чудовисько, зокрема через власні підваріанти взаємодії.",
+          "explanationEn": "In the command phase the player takes one declared option and directs it at the current monster, including the interaction sub-options it exposes.",
+          "exampleUk": "Вибрати взаємодію, яку це чудовисько оголошує, замість удару.",
+          "exampleEn": "Pick the interaction this monster declares instead of attacking."
+        },
+        "ACT-445": {
+          "labelUk": "Вести фішку полем, уникаючи чужих фігур",
+          "labelEn": "Steer the token through the field, avoiding incoming shapes",
+          "explanationUk": "Поки діє чудовисько, єдине, що приймає гра, — це безперервне ведення малої фішки всередині рамки, яку вона не може покинути.",
+          "explanationEn": "While the monster acts, the only thing the game accepts is continuously steering a small token inside a frame it may not leave.",
+          "exampleUk": "Провести фішку-серце між снарядами, не торкнувшись жодного.",
+          "exampleEn": "Guide the heart-shaped token between the projectiles without touching one."
+        },
+        "INF-325": {
+          "labelUk": "Позначати, кого вже можна відпустити",
+          "labelEn": "Mark who may already be released",
+          "explanationUk": "Інтерфейс інакше показує варіант відпускання або ім’я чудовиська, щойно умову виконано, але не каже, якою саме була ця умова.",
+          "explanationEn": "The interface shows the release option or the monster's name differently once the condition is met, but does not say what that condition was.",
+          "exampleUk": "Ім’я чудовиська змінює колір, і відпускання стає можливим.",
+          "exampleEn": "The monster's name changes colour and release becomes possible."
+        },
+        "TIM-001": {
+          "labelUk": "Віддавати команди по одній і чекати на розв’язання",
+          "labelEn": "Give commands one at a time and wait for resolution",
+          "explanationUk": "У фазі команд гра приймає рівно одне введення й повністю доводить його наслідки, перш ніж прийняти наступне.",
+          "explanationEn": "In the command phase the game accepts exactly one input and completes its consequences before accepting another.",
+          "exampleUk": "Вибрана взаємодія завершується повністю, і лише тоді триває сутичка.",
+          "exampleEn": "The chosen interaction finishes fully, and only then does the encounter go on."
+        },
+        "TIM-003": {
+          "labelUk": "Діяти, поки фаза супротивника йде в реальному часі",
+          "labelEn": "Act while the opponent's phase runs in real time",
+          "explanationUk": "У фазі супротивника час не спиняється: снаряди рухаються далі, і ведення фішки лишається прийнятним увесь цей час.",
+          "explanationEn": "In the opponent's phase time does not stop: the projectiles keep moving and steering the token stays accepted throughout.",
+          "exampleUk": "Снаряди перетинають поле, навіть якщо гравець нічого не робить.",
+          "exampleEn": "The projectiles cross the field even if the player does nothing."
+        }
+      },
+      "supporting": {
+        "ACT-008": {
+          "labelUk": "Вести героя навчальною місцевістю",
+          "labelEn": "Move the protagonist through the tutorial area",
+          "explanationUk": "Між сутичками гравець просто веде героя кімнатами місцевості, доки не відкриється наступна сутичка.",
+          "explanationEn": "Between encounters the player simply walks the protagonist through the area's rooms until the next encounter opens.",
+          "exampleUk": "Пройти з кімнати із золотими квітами далі, доки не з’явиться чудовисько.",
+          "exampleEn": "Walk on from the golden-flower room until a monster appears."
+        },
+        "ACT-131": {
+          "labelUk": "Витратити один предмет заради негайної дії",
+          "labelEn": "Consume one item for its immediate effect",
+          "explanationUk": "Варіант предмета бере одну річ із наявних і одразу застосовує її, після чого цієї речі більше немає.",
+          "explanationEn": "The item option takes one carried thing and applies it at once, after which that thing is gone.",
+          "exampleUk": "З’їсти цукерку, щоб повернути здоров’я перед наступною фазою.",
+          "exampleEn": "Eat a sweet to restore health before the next phase."
+        },
+        "ACT-341": {
+          "labelUk": "Звернутися до точки збереження й записати прохід",
+          "labelEn": "Address the save point and record the run",
+          "explanationUk": "Точка збереження є досяжним авторським об’єктом: підійти до неї та підтвердити взаємодію означає записати поточний стан.",
+          "explanationEn": "The save point is a reachable authored object: stepping up to it and confirming the interaction records the current state.",
+          "exampleUk": "Стати біля точки збереження в першій кімнаті й записати прохід.",
+          "exampleEn": "Stand at the save point in the first room and record the run."
+        },
+        "SYS-369": {
+          "labelUk": "Повертати невдалу спробу до останнього запису",
+          "labelEn": "Return a failed attempt to the last record",
+          "explanationUk": "Коли спроба провалюється, гра не зберігає її проміжний стан, а повертає гравця до останньої записаної точки збереження.",
+          "explanationEn": "When an attempt fails, the game does not keep its in-between state but returns the player to the last recorded save point.",
+          "exampleUk": "Після втрати всього здоров’я прохід продовжується від точки збереження.",
+          "exampleEn": "After losing all health the run resumes from the save point."
+        },
+        "SYS-578": {
+          "labelUk": "Вести один запас здоров’я до нуля",
+          "labelEn": "Run one health pool down to zero",
+          "explanationUk": "Усі влучання зменшують той самий видимий запас здоров’я, лікувальний предмет його повертає, а нуль завершує поточну спробу.",
+          "explanationEn": "Every hit reduces the same visible health pool, a healing item restores it, and zero ends the current attempt.",
+          "exampleUk": "Дотик до снаряда забирає частину того самого запасу здоров’я.",
+          "exampleEn": "Touching a projectile takes part of that same health pool."
+        },
+        "CON-269": {
+          "labelUk": "Варіант спрацьовує лише за придатної цілі та стану",
+          "labelEn": "An option resolves only with a valid target and state",
+          "explanationUk": "Вибраний варіант виконується тільки тоді, коли його ціль, доступність і поточний стан це дозволяють.",
+          "explanationEn": "A chosen option carries out only when its target, availability and current state permit it.",
+          "exampleUk": "Варіант предмета нічого не дає, коли жодного предмета немає.",
+          "exampleEn": "The item option does nothing when no item is carried."
+        },
+        "INF-119": {
+          "labelUk": "Показувати рівень і здоров’я героя",
+          "labelEn": "Show the protagonist's level and health",
+          "explanationUk": "Інтерфейс сутички весь час тримає на видноті власний стан героя, тож рішення ухвалюють за відомими числами.",
+          "explanationEn": "The encounter interface keeps the protagonist's own state visible throughout, so decisions are made against known numbers.",
+          "exampleUk": "Побачити, що здоров’я вистачить іще на одну фазу супротивника.",
+          "exampleEn": "See that health is enough for one more opponent phase."
+        }
+      }
+    },
+    "GAME-0269": {
+      "genes": {
+        "SYS-597": {
+          "labelUk": "Улов псується, поки йде годинник",
+          "labelEn": "The catch spoils while the clock runs",
+          "explanationUk": "Кожна взята риба з часом переходить зі свіжої в лежалу, а тоді в зіпсовану, і щоразу коштує помітно менше.",
+          "explanationEn": "Every fish taken passes from fresh to stale and then to rotting, and each step is worth noticeably less.",
+          "exampleUk": "Риба, взята першою, продається дешевше за взяту останньою.",
+          "exampleEn": "The fish taken first sells for less than the one taken last."
+        },
+        "SYS-816": {
+          "labelUk": "Годинник іде лише тоді, коли гравець діє",
+          "labelEn": "The clock moves only when the player acts",
+          "explanationUk": "Час минає рівно настільки, наскільки гравець проплив або скільки коштувала його дія; стоянка не коштує нічого.",
+          "explanationEn": "Time passes exactly as far as the player sailed or as much as their action cost; standing still costs nothing.",
+          "exampleUk": "Стояти й обдумувати трюм можна скільки завгодно, і день не мине.",
+          "exampleEn": "Sit and think about the hold as long as you like, and the day will not move."
+        },
+        "CON-612": {
+          "labelUk": "Обладнання лягає лише на клітини свого класу",
+          "labelEn": "Hardware goes only on cells of its own class",
+          "explanationUk": "Клітини двигуна, вудок і ліхтарів приймають лише своє обладнання, а вантаж може лягти на будь-яку вільну клітину.",
+          "explanationEn": "Engine, rod and light cells accept only their own hardware, while cargo may go on any free cell.",
+          "exampleUk": "Рибу кладуть на порожню клітину ліхтаря, доки ліхтаря там немає.",
+          "exampleEn": "A fish goes on an empty light cell while no light is fitted there."
+        },
+        "INF-326": {
+          "labelUk": "Годинник, вільне місце й стан улову видно разом",
+          "labelEn": "Clock, free space and catch condition are shown together",
+          "explanationUk": "Інтерфейс показує годину, вільні клітини трюму та свіжість кожної риби одночасно, тож наступне взяття можна оцінити.",
+          "explanationEn": "The interface shows the hour, the hold's free cells and each fish's freshness at once, so the next catch can be judged.",
+          "exampleUk": "Побачити, що на ще одну пляму часу вистачить, а місця вже ні.",
+          "exampleEn": "See that there is time for one more spot but no longer any space."
+        },
+        "OBJ-163": {
+          "labelUk": "Замкнути коло до настання ночі",
+          "labelEn": "Close the circuit before night falls",
+          "explanationUk": "Успіх — узяти рибу, скласти її, повернутися до покупця й продати незіпсованою, встигнувши до оголошеної години.",
+          "explanationEn": "Success is taking fish, stowing them, returning to the buyer and selling them undegraded, all before the declared hour.",
+          "exampleUk": "Продати свіжий улов і зійти на причал раніше за 18:00.",
+          "exampleEn": "Sell the fresh catch and be at the dock before 18:00."
+        }
+      },
+      "structural": {
+        "ACT-219": {
+          "labelUk": "Продати улов за оголошену вартість",
+          "labelEn": "Sell the catch for its disclosed value",
+          "explanationUk": "Гравець обирає власну рибу та безповоротно обертає її на гроші через продаж у покупця.",
+          "explanationEn": "The player selects an owned fish and irreversibly turns it into money through the buyer's sale.",
+          "exampleUk": "Віддати весь трюм Fishmonger і побачити суму.",
+          "exampleEn": "Hand the whole hold to the Fishmonger and see the sum."
+        },
+        "ACT-245": {
+          "labelUk": "Взяти одну здобич із досяжного джерела",
+          "labelEn": "Take one yield from a reachable source",
+          "explanationUk": "Гравець звертається до однієї плями збуреної води й дістає з неї одну кінцеву здобич до себе на борт.",
+          "explanationEn": "The player addresses one patch of disturbed water and draws one finite yield from it into carried space.",
+          "exampleUk": "Підійти до плями й витягти з неї одну рибу.",
+          "exampleEn": "Pull up to a patch and draw one fish out of it."
+        },
+        "ACT-261": {
+          "labelUk": "Підтвердити введення в оголошену мить",
+          "labelEn": "Commit the input at the disclosed moment",
+          "explanationUk": "Поки показник іде смугою, гравець підтверджує введення саме в оголошеній зоні, і влучність вирішує, наскільки добрим буде здобуток.",
+          "explanationEn": "While an indicator runs along a track, the player commits the input inside the disclosed zone, and the accuracy decides how good the yield is.",
+          "exampleUk": "Влучити в золоту смугу й отримати більший примірник.",
+          "exampleEn": "Hit the golden band and get a larger specimen."
+        },
+        "ACT-424": {
+          "labelUk": "Посунути й повернути улов у трюмі",
+          "labelEn": "Move and rotate the catch inside the hold",
+          "explanationUk": "Гравець бере вже взяту рибу, змінює її місце чи поворот і кладе лише туди, де її слід лягає на вільні клітини.",
+          "explanationEn": "The player takes a fish already held, changes its place or rotation and sets it only where its footprint lies on free cells.",
+          "exampleUk": "Повернути довгу рибу вздовж борту, щоб звільнити куток.",
+          "exampleEn": "Turn a long fish along the side to free up a corner."
+        },
+        "CON-394": {
+          "labelUk": "Улов входить лише туди, де вміщується його слід",
+          "labelEn": "A catch enters only where its footprint fits",
+          "explanationUk": "Рибу можна взяти на борт лише тоді, коли її слід повністю лягає на клітини, які сітка лишає вільними.",
+          "explanationEn": "A fish can be taken aboard only when its footprint lies entirely on cells the grid leaves free.",
+          "exampleUk": "Велика риба не входить, доки не звільнити два сусідні квадрати.",
+          "exampleEn": "A big fish will not go in until two neighbouring squares are cleared."
+        },
+        "TIM-002": {
+          "labelUk": "Поки човен стоїть, світ чекає",
+          "labelEn": "While the boat is still, the world waits",
+          "explanationUk": "На стоянці немає жодного кроку системи за часом: трюм можна перекладати й обмірковувати скільки завгодно.",
+          "explanationEn": "At a standstill there is no time-driven system step: the hold can be rearranged and thought over indefinitely.",
+          "exampleUk": "Перекласти весь трюм, і жодна година не мине.",
+          "exampleEn": "Rearrange the whole hold and not one hour passes."
+        }
+      },
+      "supporting": {
+        "ACT-008": {
+          "labelUk": "Вести човен морем",
+          "labelEn": "Steer the boat across the sea",
+          "explanationUk": "Гравець прямо веде один сталий керований човен прохідною водою за власними вказівками напрямку.",
+          "explanationEn": "The player directly advances one persistent controllable boat through traversable water by their own directional inputs.",
+          "exampleUk": "Вийти з причалу й повернути до найближчої плями.",
+          "exampleEn": "Leave the dock and turn toward the nearest patch."
+        },
+        "ACT-341": {
+          "labelUk": "Звернутися до особи на причалі",
+          "labelEn": "Address a person on the dock",
+          "explanationUk": "Гравець підходить до заданої автором особи й підтверджує ту взаємодію, яка зараз дозволена.",
+          "explanationEn": "The player approaches an authored person and commits whichever interaction is currently legal.",
+          "exampleUk": "Звернутися до Shipwright, щоб закрити доручення.",
+          "exampleEn": "Address the Shipwright to close the commission."
+        },
+        "INF-117": {
+          "labelUk": "Гроші й ціни видно до продажу",
+          "labelEn": "Money and prices are visible before selling",
+          "explanationUk": "Перед підтвердженням гравець бачить поточні гроші й ціну, яку дає покупець за кожну рибу.",
+          "explanationEn": "Before confirming, the player sees the current money and the price the buyer offers for each fish.",
+          "exampleUk": "Побачити, скільки дасть Fishmonger, перш ніж погодитися.",
+          "exampleEn": "See what the Fishmonger will pay before agreeing."
+        },
+        "TIM-003": {
+          "labelUk": "Час іде, поки човен рухається чи триває вилов",
+          "labelEn": "Time runs while the boat moves or a catch is under way",
+          "explanationUk": "У русі та в міні-грі вилову стан іде далі за розкладом реального часу, а введення лишається прийнятним.",
+          "explanationEn": "Under way and inside the catch minigame the state advances on a real-time schedule while input stays accepted.",
+          "exampleUk": "Показник іде смугою далі, навіть якщо нічого не натиснути.",
+          "exampleEn": "The indicator keeps running along the track even if nothing is pressed."
+        }
+      }
+    },
+    "GAME-0270": {
+      "genes": {
+        "SYS-817": {
+          "labelUk": "Світ сильнішає вже від витраченого часу",
+          "labelEn": "The world grows stronger from elapsed time alone",
+          "explanationUk": "Одна величина росте щосекунди проходу й додатково стрибає за кожну пройдену місцевість, піднімаючи рівень і кількість супротивників, ціну кожної скрині та нагороду за перемогу.",
+          "explanationEn": "One value rises every second of the run and steps up again with each environment cleared, raising the level and the number of hostiles, the price of every chest and the reward a defeat pays.",
+          "exampleUk": "Пошукати ще п’ять хвилин — і ті самі вороги вже сильніші, а наступна скриня дорожча.",
+          "exampleEn": "Search five minutes longer and the same enemies are already stronger, and the next chest costs more."
+        },
+        "SYS-818": {
+          "labelUk": "Вихід відкриває заряджання, поки стоїш у колі",
+          "labelEn": "The exit opens by charging while you stand in the circle",
+          "explanationUk": "Пристрій виходу заряджається лише тоді, коли персонаж усередині показаного кола, і весь цей час навколо тримається ворожий тиск із проводирем.",
+          "explanationEn": "The exit fixture charges only while the character is inside the shown circle, and hostile pressure with a leader is sustained the whole time.",
+          "exampleUk": "Вийти з кола — і смуга заряду спиняється, а вороги ні.",
+          "exampleEn": "Step out of the circle and the charge bar stops, but the enemies do not."
+        },
+        "INF-327": {
+          "labelUk": "Щабель складності названо поряд із годинником",
+          "labelEn": "The difficulty tier is named beside the clock",
+          "explanationUk": "Інтерфейс показує поточне нарощування як названий щабель, тож видно, наскільки світ уже посилено, але не саме число.",
+          "explanationEn": "The interface shows the current escalation as a named tier, so it is clear how far the world has been strengthened, but not the number itself.",
+          "exampleUk": "Побачити, що щабель змінився, поки тривав обшук місцевості.",
+          "exampleEn": "See the tier change while the environment was still being searched."
+        },
+        "OBJ-164": {
+          "labelUk": "Пройти подію виходу й опинитися далі",
+          "labelEn": "Clear the exit event and end up further on",
+          "explanationUk": "Успіх — відкрити вихід із місцевості та перейти в наступну з усім, що прохід уже набув і накопичив.",
+          "explanationEn": "Success is opening the region's exit and moving to the next with everything the run has gained and accumulated.",
+          "exampleUk": "Дійти до другої місцевості зі своїми предметами й зрослим щаблем.",
+          "exampleEn": "Reach the second environment with your items and a risen tier."
+        }
+      },
+      "structural": {
+        "ACT-130": {
+          "labelUk": "Заплатити за те, що пропонує місцевість",
+          "labelEn": "Pay for what the environment offers",
+          "explanationUk": "Гравець витрачає зібрану валюту на предметі обстановки й отримує підсилювач, який той тримає.",
+          "explanationEn": "The player spends collected currency at a piece of the environment and receives the modifier it holds.",
+          "exampleUk": "Відкрити скриню за оголошену ціну й забрати предмет.",
+          "exampleEn": "Open a chest at its stated price and take the item."
+        },
+        "SYS-166": {
+          "labelUk": "Узяті підсилювачі спрацьовують самі",
+          "labelEn": "Taken modifiers apply themselves",
+          "explanationUk": "Кожен узятий за прохід підсилювач лишається до кінця й застосовується щоразу, коли настає його подія, без окремої команди.",
+          "explanationEn": "Every modifier taken during the run stays to the end and applies whenever its event occurs, with no separate command.",
+          "exampleUk": "Влучення само дає додаткову дію, бо предмет уже взято.",
+          "exampleEn": "A hit gives an extra effect on its own, because the item is already held."
+        },
+        "TIM-003": {
+          "labelUk": "Час не спиняється ні на мить",
+          "labelEn": "Time never stops for a moment",
+          "explanationUk": "Стан просувається за розкладом реального часу, і жодної паузи, у якій нарощування спинилося б, немає.",
+          "explanationEn": "The state advances on a real-time schedule, and there is no pause in which the escalation would stop.",
+          "exampleUk": "Навіть стоячи без діла, гравець платить тим самим годинником.",
+          "exampleEn": "Even standing idle, the player is paying with the same clock."
+        }
+      },
+      "supporting": {
+        "ACT-008": {
+          "labelUk": "Вести персонажа місцевістю",
+          "labelEn": "Move the character through the environment",
+          "explanationUk": "Гравець прямо веде одного сталого керованого персонажа прохідною геометрією місцевості.",
+          "explanationEn": "The player directly advances one persistent controllable character through the environment's traversable geometry.",
+          "exampleUk": "Обійти скелю, щоб вороги не оточили одразу.",
+          "exampleEn": "Go around a rock so the enemies cannot surround you at once."
+        },
+        "ACT-190": {
+          "labelUk": "Застосувати одне з оголошених умінь",
+          "labelEn": "Use one of the declared skills",
+          "explanationUk": "Гравець запускає одне з умінь свого персонажа й задає, куди воно спрямоване.",
+          "explanationEn": "The player triggers one of their character's skills and supplies where it is aimed.",
+          "exampleUk": "Спрямувати вміння на групу ворогів, що наближається.",
+          "exampleEn": "Aim a skill at the group of enemies closing in."
+        },
+        "ACT-341": {
+          "labelUk": "Звернутися до пристрою виходу",
+          "labelEn": "Address the exit fixture",
+          "explanationUk": "Гравець підходить до заданого автором пристрою й підтверджує ту взаємодію, яка зараз дозволена.",
+          "explanationEn": "The player approaches an authored fixture and commits whichever interaction is currently legal.",
+          "exampleUk": "Привести телепорт у дію, а згодом скористатися ним.",
+          "exampleEn": "Activate the teleporter, and later take it."
+        },
+        "SYS-215": {
+          "labelUk": "Бій розв’язується в реальному часі",
+          "labelEn": "Combat resolves in real time",
+          "explanationUk": "Керований персонаж і супротивники обмінюються влучаннями за відстанню, темпом і захистом, поки світ не спиняється.",
+          "explanationEn": "The controlled character and the hostiles exchange hits by range, cadence and defence while the world does not stop.",
+          "exampleUk": "Постріл влучає тоді, коли ворог справді був на лінії.",
+          "exampleEn": "A shot lands when the enemy was actually on the line."
+        },
+        "SYS-578": {
+          "labelUk": "Один запас здоров’я до нуля",
+          "labelEn": "One health pool down to zero",
+          "explanationUk": "Усі влучання зменшують той самий запас здоров’я, а нуль завершує прохід.",
+          "explanationEn": "Every hit reduces the same health pool, and zero ends the run.",
+          "exampleUk": "Один необережний підхід забирає більшу частину запасу.",
+          "exampleEn": "One careless approach takes most of the pool."
+        },
+        "CON-269": {
+          "labelUk": "Уміння спрацьовує лише за готовності",
+          "labelEn": "A skill works only when it is ready",
+          "explanationUk": "Уміння виконується тільки тоді, коли його ціль, відстань, заряди та час відновлення це дозволяють.",
+          "explanationEn": "A skill carries out only when its target, range, charges and recovery permit it.",
+          "exampleUk": "Друге вміння лишається недоступним, доки не мине відновлення.",
+          "exampleEn": "The second skill stays unavailable until its recovery has passed."
+          }
       }
     }
   }

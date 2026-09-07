@@ -272,8 +272,10 @@ Canonical signature:
 
 ### Preserved research notes
 
-- New genes at original analysis time: `ACT-026`, `SYS-034`, `SYS-035`, `CON-056`, `CON-057`,
-  `CON-058`, `CON-059`.
+- New genes at original analysis time: `ACT-026`, `SYS-034`, `SYS-035`,
+  `CON-056`, `CON-057`, `CON-058`, `CON-059`. Of those, `CON-057` was later
+  merged into `CON-039` by `TAXONOMY_CHANGE_002`; the rest keep their active
+  lifecycle.
 - Classification result: `New gene` and a new verified combination.
 - Evidence and reasoning: existing randomness, visible queue advance, current
   visibility, exact preview, score, move preservation and discrete resolution

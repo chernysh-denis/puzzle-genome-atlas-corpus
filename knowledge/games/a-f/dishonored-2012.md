@@ -377,8 +377,10 @@ gene instances but do not enter the signature.
   generic awareness cues, post-mission conduct settlement and the full
   target-return-successor objective. Concrete character, mission, power, item,
   fixture and statistic names remain parameters.
-- Lower-ID scan: reject `ACT-055` because Blink does not transfer control to a
-  targeted body; reject `ACT-014` because the player does not relocate a
+- Lower-ID scan: reject `ACT-052` because Blink relocates one unchanged body to
+  a previewed destination rather than transferring the unique direct-control
+  locus among persistent bodies that all remain in the same world state; reject
+  `ACT-014` because the player does not relocate a
   selected board piece; reject `SYS-398` because Blink I is already admitted
   at entry rather than acquired persistently; reject `INF-287` because no
   optical actor-mark acquisition is part of this packet; reject `INF-221`

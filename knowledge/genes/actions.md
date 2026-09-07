@@ -3772,9 +3772,12 @@
 - Confidence: `High`
 - Definition: while the required companion and equipment state are available,
   the player invokes its declared partner interaction, mount form or active
-  field ability.
+  ability.
 - Includes: riding an eligible Pal, using its traversal form or triggering its
   active Partner Skill in Palworld.
+- Additional support: [God of War decomposition](../games/g-l/god-of-war.md),
+  for commanding the persistent companion's arrow ability against the current
+  target while its availability permits.
 - Excludes: the companion's autonomous ordinary attacks; a passive work
   suitability; direct player weapon use.
 - Parameters: companion, key item, mount state, stamina, cooldown, target and effect.
@@ -4700,17 +4703,21 @@
 - Evidence: [Elden Ring decomposition](../games/a-f/elden-ring.md).
 - Novelty: not assessed.
 
-## ACT-249 — Recover the active dropped-rune mark
+## ACT-249 — Recover the active dropped death-currency mark
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
 - Definition: the player reaches and touches the currently active death mark to
-  transfer its retained rune stock back to the living character.
+  transfer its retained spendable-currency stock back to the living character.
 - Includes: reclaiming Elden Ring runes before another death replaces the mark.
+- Additional support: [DARK SOULS III decomposition](../games/a-f/dark-souls-iii.md),
+  for touching the bloodstain left at the death position to reclaim its stored
+  souls.
 - Excludes: ordinary loot pickup; corpse inventory; Cocoon resource recovery.
-- Parameters: mark position, retained runes, current life and replacement state.
+- Parameters: mark position, retained currency, current life and replacement
+  state.
 - Evidence: [Elden Ring decomposition](../games/a-f/elden-ring.md).
 - Novelty: not assessed.
 
@@ -4924,6 +4931,9 @@
   interval, producing a graded timing result without selecting a new target.
 - Includes: Dead by Daylight Good, Great and failed Skill Check responses during
   Generator repair or altruistic healing.
+- Additional support: [DREDGE decomposition](../games/a-f/dredge.md), for the
+  catch input committed while the moving indicator overlaps its disclosed
+  interval.
 - Excludes: timed defence inside a chosen combat action; rhythm sequences whose
   notes are the complete objective; passive random resolution with no input.
 - Parameters: trigger chance, warning, pointer direction and speed, zone
@@ -5821,26 +5831,36 @@
 - Novelty: first isolated for `GAME-0177`; earlier avatar jumps and racing-car
   steering do not expose a dedicated vehicle's resettable aerial dodge budget.
 
-## ACT-309 — Spend stored boost for directed vehicle thrust
+## ACT-309 — Spend a finite vehicle reserve for directed acceleration
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player holds or releases boost while directly controlling a
-  vehicle, consuming its current finite reserve to add thrust along the
-  vehicle's facing in ground or aerial motion.
+- Definition: while directly controlling a vehicle, the player activates, holds
+  or releases its finite acceleration reserve, consuming some or all of the
+  current amount to add directed thrust along the vehicle's facing in ground or
+  aerial motion; the command does not own the rule by which that reserve is
+  filled, capped or recovered.
 - Includes: Rocket League ground acceleration, aerial ascent and recovery using
   stored boost; Need for Speed Payback conventional nitrous acceleration during
-  the scoped carrier chase.
+  the scoped carrier chase; Need for Speed Unbound Burst Nitrous activation
+  during the scoped race or mandatory pursuit.
 - Excludes: passive engine throttle; a permanent unlimited speed modifier;
-  consuming a carried medical booster.
-- Parameters: vehicle, reserve, input duration, thrust, facing, velocity,
-  supersonic state and release.
+  consuming a carried medical booster; a protagonist's special combat or
+  driving form; the System Behaviour that fills, caps or recovers the reserve.
+- Parameters: vehicle, reserve identity and cap, the acquisition rule that
+  fills it, activation or input duration, consumed amount, thrust, facing,
+  velocity, supersonic state, burst duration and release or cancellation.
 - Evidence: [Rocket League decomposition](../games/m-r/rocket-league.md) and
   [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
-- Novelty: first isolated for `GAME-0177`; the finite, spatially replenished
-  reserve converts current vehicle orientation into optional directed thrust.
+- Additional support: [Need for Speed Unbound decomposition](../games/m-r/need-for-speed-unbound.md),
+  for activating an accumulated Burst reserve during a race or pursuit.
+- Novelty: first isolated for `GAME-0177`; generalised by
+  [`TAXONOMY_CHANGE_018`](../../research/taxonomy-changes/TAXONOMY_CHANGE_018.md)
+  — the transferable command is spending a finite acceleration reserve, while a
+  spatially collected, gauge-based or technique-earned filling rule belongs to
+  separate System Behaviour genes.
 
 ## ACT-310 — Choose a side-relative post-demolition respawn
 
@@ -6651,22 +6671,20 @@
 
 ## ACT-357 — Spend an earned driving burst
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: while a directly controlled vehicle has accumulated an eligible
-  temporary burst reserve, the player activates some or all of it to request a
-  short tactical acceleration increase.
-- Includes: spending Burst Nitrous during the scoped Need for Speed Unbound
-  race or mandatory pursuit.
-- Excludes: collecting a spatial boost pad; passive top-speed tuning; a fixed
-  launch-control start; cosmetic exhaust effects.
-- Parameters: vehicle, reserve, activation, consumed amount, acceleration,
-  duration, grip/drift state and cancellation.
+- Definition: historical game-specific duplicate now represented by the
+  parameterised active boundary `ACT-309`.
+- Includes: historical references that used `ACT-357` before taxonomy change
+  018.
+- Excludes: new game signatures; use `ACT-309` with the scoped parameters and
+  any retained companion Constraints or System behaviours.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Need for Speed Unbound decomposition](../games/m-r/need-for-speed-unbound.md).
-- Novelty: first isolated for `GAME-0199`; the reserve is earned by live
-  driving technique rather than collected as a fixed world object.
+- Merged into: `ACT-309` by
+  [`TAXONOMY_CHANGE_018`](../../research/taxonomy-changes/TAXONOMY_CHANGE_018.md).
 
 ## ACT-358 — Intimidate, restrain or reposition one reachable civilian
 
@@ -7179,25 +7197,28 @@
   acceleration ceiling as a live compliance tool while retaining complete
   spatial control of the taxi.
 
-## ACT-385 — Throw or recall one role-bound reusable nail
+## ACT-385 — Throw or recall one reusable hand tool
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the assigned player aims one currently available reusable nail
-  at a reachable compatible world target and throws it, or commands one already
-  deployed nail to detach and return to the available hand-held set.
+- Definition: the player aims one currently available reusable hand tool at a
+  reachable compatible world target and throws it, or commands the already
+  deployed tool to detach and return to the available hand-held state.
 - Includes: Cody throwing and instantly recalling his bounded nail set during
   the hammer-and-nails packet of It Takes Two's `The Shed`.
+- Additional support: [God of War decomposition](../games/g-l/god-of-war.md),
+  for aiming, throwing and recalling the Leviathan Axe within the bounded
+  opening route.
 - Excludes: firing expendable ammunition at a hostile; placing an inventory
   building part; recalling an autonomous companion; picking up generic loot.
-- Parameters: role, nail identity, available set, aim, target, travel, hit,
-  deployed state, recall input, return delay and rejection.
+- Parameters: tool identity, available set, aim, target, travel, hit, deployed
+  state, recall input, return delay and rejection.
 - Evidence: [It Takes Two decomposition](../games/g-l/it-takes-two.md).
 - Novelty: first isolated for `GAME-0215`; one direct input reversibly moves a
-  named reusable tool between hand availability and several persistent world
-  roles.
+  named reusable tool between hand availability and one or more persistent
+  world positions.
 
 ## ACT-386 — Strike a reachable fixture with a role-bound hammer
 
@@ -7314,23 +7335,28 @@
 - Novelty: first isolated for `GAME-0223`; the combat input prepares a
   non-hostile reward source rather than dealing damage or opening it directly.
 
-## ACT-392 — Directly pilot a cockpit starfighter
+## ACT-392 — Directly command a craft's throttle and three-axis attitude
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: continuously command a first-person starfighter's throttle,
-  pitch, yaw and roll to change its position and orientation through open
-  three-dimensional space while retaining direct cockpit control.
+- Definition: continuously command one craft's throttle, pitch, yaw and roll to
+  change its position and orientation through open three-dimensional space
+  while retaining direct control of that craft.
 - Includes: flying the fixed T-65B X-wing during `Form the Vanguard`.
+- Additional support: [Kerbal Space Program decomposition](../games/g-l/kerbal-space-program.md),
+  for commanding the assembled launch vehicle's throttle and three rotational
+  axes from the pad into orbital flight.
 - Excludes: choosing a destination on a map; commanding an autonomous squad;
-  runway take-off; third-person ground driving; a non-interactive flight scene.
-- Parameters: craft, throttle, pitch, yaw, roll, position, orientation,
-  velocity, collision and control state.
+  fixed-wing aerodynamic flight resolved through runway take-off, control
+  surfaces and wheel braking; third-person ground driving; a non-interactive
+  flight scene.
+- Parameters: craft, view mode, throttle, pitch, yaw, roll, position,
+  orientation, velocity, collision and control state.
 - Evidence: [STAR WARS: Squadrons decomposition](../games/s-z/star-wars-squadrons.md).
-- Novelty: first isolated for `GAME-0225`; continuous cockpit input directly
-  composes four flight controls in unrestricted three-dimensional space.
+- Novelty: first isolated for `GAME-0225`; continuous input directly composes
+  four flight controls in unrestricted three-dimensional space.
 
 ## ACT-393 — Allocate starfighter power among three systems
 
@@ -8199,3 +8225,238 @@
 - Novelty: first isolated for `GAME-0260`; a carried cartridge is irreversibly
   exchanged inside still-worn protective equipment rather than used as a
   general restorative or weapon reload.
+
+## ACT-436 — Commit one exertion-priced evasive roll
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: from ordinary live movement the player commits one directional
+  evasive displacement whose price is drawn from a shared depletable exertion
+  reserve rather than a per-action cooldown, accepting the fixed recovery
+  interval that follows it.
+- Includes: the directional roll used to cross an incoming attack during DARK
+  SOULS III's bounded `Cemetery of Ash` route.
+- Excludes: ordinary translation through terrain; a dodge whose only price is
+  its own cooldown or reset state; a blocking or parrying guard; a jump that
+  only changes elevation; an automatic scripted evasion.
+- Parameters: input direction, displacement distance, exertion price, protected
+  interval, recovery interval and carried load tier.
+- Evidence: [DARK SOULS III decomposition](../games/a-f/dark-souls-iii.md).
+- Novelty: first isolated for `GAME-0262`; the evasion is bought from the same
+  finite reserve that also pays for attacking and guarding, so committing it
+  directly reduces the player's immediate offensive and defensive capacity.
+
+## ACT-437 — Hold and release an undirected facing-relative guard
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during live combat the player raises and holds equipped
+  protective equipment toward the character's current facing so that eligible
+  incoming attacks are reduced or absorbed rather than falling wholly on
+  health, and releases it to resume ordinary action; the command does not own
+  whether or how that absorption is priced.
+- Includes: holding the shield guard against Grave Warden and guardian attacks
+  during DARK SOULS III's bounded `Cemetery of Ash` route; holding the Guardian
+  Shield during God of War's bounded opening route.
+- Excludes: aiming a guard toward one selected incoming attack direction; an
+  opponent-relative high or low fighting guard requested by a movement
+  direction; a sustained weapon guard whose own dedicated meter can be
+  exhausted into an exposed state; a timed parry or deflection window; a
+  temporary damage-absorbing pool applied before health; static armour
+  reduction that requires no held input.
+- Parameters: equipment, facing arc, reduced or negated attack classes, whether
+  absorption is priced against a shared reserve and at what rate, held-state
+  movement penalty and release timing.
+- Evidence: [DARK SOULS III decomposition](../games/a-f/dark-souls-iii.md).
+- Additional support: [God of War decomposition](../games/g-l/god-of-war.md),
+  for the same held guard with no depleting reserve behind it.
+- Novelty: first isolated for `GAME-0262`; generalised by
+  [`TAXONOMY_CHANGE_020`](../../research/taxonomy-changes/TAXONOMY_CHANGE_020.md)
+  — the transferable command is the held facing-relative guard itself, while
+  whether its absorption is priced against a recovering reserve belongs to
+  `SYS-798` and `CON-604` in the rulesets that have one.
+
+## ACT-438 — Bind view and attack facing to one selected hostile
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects one currently eligible nearby hostile and
+  binds the camera and the character's attack facing to it, so subsequent
+  movement becomes relative to that actor until the player releases the bind or
+  the target stops being eligible.
+- Includes: locking on to a Grave Warden or the route guardian during DARK
+  SOULS III's bounded `Cemetery of Ash` route.
+- Excludes: a retained tactical mark that survives occlusion or the encounter;
+  an automatic aim assist that the player never selects; selecting an abstract
+  card or menu target; commanding another actor to attack the target.
+- Parameters: eligibility range, selected actor, switching input, camera
+  behaviour, relative movement form and release condition.
+- Evidence: [DARK SOULS III decomposition](../games/a-f/dark-souls-iii.md).
+- Novelty: first isolated for `GAME-0262`; a reversible player-selected bind
+  reorganises movement and attack geometry around one actor without marking,
+  revealing or committing an attack against it.
+
+## ACT-439 — Hold or release an undirected guard with no depleting reserve
+
+- Lifecycle: `Merged`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: historical reserve-specific duplicate now represented by the
+  parameterised active boundary `ACT-437`.
+- Includes: historical references that used `ACT-439` before taxonomy change
+  020.
+- Excludes: new game signatures; use `ACT-437` with the scoped absorption
+  parameters and any retained companion System or Constraint records.
+- Parameters: none; preserved as a lifecycle alias.
+- Evidence: [God of War decomposition](../games/g-l/god-of-war.md).
+- Merged into: `ACT-437` by
+  [`TAXONOMY_CHANGE_020`](../../research/taxonomy-changes/TAXONOMY_CHANGE_020.md).
+
+## ACT-440 — Commit one disclosed-odds attribute check on an offered option
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects one currently offered option that carries an
+  attribute check, reads its disclosed success odds and contributing modifiers,
+  and commits it knowing the outcome will be decided by a random resolution
+  rather than by input execution.
+- Includes: committing an active white or red check on a dialogue or object
+  option during Disco Elysium - The Final Cut's bounded opening episode.
+- Excludes: an ordinary authored response whose result is fixed; a timing input
+  whose success depends on when it lands; an ability gated only by a resource
+  or cooldown; a hidden check the player never chooses to attempt.
+- Parameters: option, tested attribute, difficulty class, disclosed odds,
+  contributing modifiers, retry class and the state the outcome changes.
+- Evidence: [Disco Elysium - The Final Cut decomposition](../games/a-f/disco-elysium-the-final-cut.md).
+- Novelty: first isolated for `GAME-0264`; the player's decision is whether to
+  accept a stated probability, so competence is expressed by preparing the
+  odds beforehand rather than by executing the action well.
+
+## ACT-441 — Place a priced persistent defender to cover a fixed hostile route
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects one type from a priced catalogue and commits it
+  to a chosen legal position on a map whose hostile route is fixed and known in
+  advance, so the chosen position determines which stretch of that route the
+  new persistent defender can act on for the rest of the attempt.
+- Includes: placing a purchased monkey on a beginner map's land during Bloons
+  TD 6's bounded Easy standard route.
+- Excludes: placing a facility whose position alters service coverage of a
+  settlement; placing or rotating an entity into a running production layout;
+  buying an asset without choosing a world position; deploying a unit that
+  afterwards moves or is directly commanded.
+- Parameters: catalogue, price, footprint, chosen position, effective radius,
+  route geometry and the defender's persistence for the attempt.
+- Evidence: [Bloons TD 6 decomposition](../games/a-f/bloons-td-6.md).
+- Novelty: first isolated for `GAME-0265`; the whole decision is spatial and
+  irreversible against a route the player already knows, so the position is
+  committed before the threat it must answer arrives.
+
+## ACT-442 — Set one placed defender's target-selection rule
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: for one already placed autonomous defender, the player selects
+  among the declared rules that decide which eligible hostile inside its reach
+  it will engage next, changing that defender's future automatic choices
+  without commanding any individual engagement.
+- Includes: switching a placed monkey between the declared first, last, close
+  and strong target priorities during Bloons TD 6's bounded Easy standard
+  route.
+- Excludes: assigning a formation and stance to a directly commanded unit
+  group; selecting an ability and its target; aiming a strike; a stance that
+  changes whether the actor moves or holds position.
+- Parameters: rule set, selected rule, eligibility test, reach and the moment
+  the rule is re-evaluated.
+- Evidence: [Bloons TD 6 decomposition](../games/a-f/bloons-td-6.md).
+- Novelty: first isolated for `GAME-0265`; the player edits an autonomous
+  actor's selection policy rather than its actions, so one setting decides
+  every later engagement that actor makes.
+
+## ACT-443 — Carve reachable terrain volume and take its contained yield
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player aims a carving tool at reachable solid terrain and
+  removes a continuous volume of it, permanently opening that volume as
+  traversable space; when the removed volume contained a deposit, its declared
+  material is transferred into carried inventory by the same action.
+- Includes: swinging the shared pickaxe or the Driller's power drills through
+  cave rock and through mineral deposits during Deep Rock Galactic's bounded
+  solo Mining Expedition.
+- Excludes: breaking one discrete world cell, block or wall; removing bounded
+  ground volume only to create a firing depression or cover edge; holding an
+  extraction command on a discrete resource entity that is not terrain;
+  gathering from a field source or a defeated body; destroying terrain purely
+  to make a separate drop appear.
+- Parameters: tool, carve rate and shape, terrain hardness class, deposit
+  class, yielded material, carried capacity and the persistence of the opened
+  volume.
+- Evidence: [Deep Rock Galactic decomposition](../games/a-f/deep-rock-galactic.md).
+- Novelty: first isolated for `GAME-0266`; excavation is the ordinary means of
+  travel rather than an exception to it, so the same input simultaneously
+  authors the route and collects the objective material.
+
+## ACT-444 — Assign parts to an ordered activation sequence and advance it
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: during assembly the player distributes the constructed craft's
+  parts across an ordered list of activation steps and may reorder that list
+  freely; during operation a single repeated input advances the list by exactly
+  one step, irreversibly igniting or releasing every part that step holds.
+- Includes: arranging the staging list in the assembly building and advancing
+  it one step at a time in flight during Kerbal Space Program's bounded Sandbox
+  orbit task.
+- Excludes: placing or orienting a component; editing a per-entity operating
+  rule or a spatial instruction field; selecting one ability and its target;
+  a cooldown that restores a used action; an activation the system performs on
+  its own schedule.
+- Parameters: step count, per-step membership, reordering freedom, advance
+  input, irreversibility and any automatic grouping the editor proposes.
+- Evidence: [Kerbal Space Program decomposition](../games/g-l/kerbal-space-program.md).
+- Novelty: first isolated for `GAME-0267`; the same ordered list is authored at
+  rest and consumed under pressure, so a mistake made calmly during assembly can
+  only be discovered once it is no longer correctable.
+
+## ACT-445 — Steer a controlled token inside a bounded field to avoid incoming shapes
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: while the opponent acts, the player continuously steers one small
+  controlled token through a bounded field it may not leave, so that the token
+  avoids contact with the shapes the opponent releases into that same field;
+  the steering is the only defensive input and no attack, block or timed
+  response is offered during it.
+- Includes: moving the heart-shaped token inside the enclosed board while a
+  monster's projectiles cross it during Undertale's bounded opening route.
+- Excludes: committing one timed dodge, parry or jump at a chosen instant; a
+  protected interval bought from a shared reserve; holding a guard; navigating
+  a persistent agent through level geometry; aiming a weapon at an attacker.
+- Parameters: field bounds, token speed and size, shape patterns and density,
+  contact consequence and any temporary change of the token's own movement
+  rules.
+- Evidence: [Undertale decomposition](../games/s-z/undertale.md).
+- Novelty: first isolated for `GAME-0268`; defence becomes a continuous spatial
+  problem inside a frame the opponent controls, so surviving a turn is a
+  question of where the token is rather than of when a button is pressed.

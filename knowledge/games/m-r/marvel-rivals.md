@@ -290,5 +290,6 @@ gene_ids:
   than permanently committing a draft identity.
 - `SYS-208` is absent because body-region and material-penetration resolution is
   not established as a defining complete-roster rule in this bounded scope.
-- `INF-121` is retired into `INF-116`; spatial fog and structure/economy detail
-  remain outside that shared live team/clock/objective HUD boundary.
+- `INF-121` was merged into `INF-116` by `TAXONOMY_CHANGE_014`; spatial fog and
+  structure/economy detail remain outside that shared live
+  team/clock/objective HUD boundary.

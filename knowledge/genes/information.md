@@ -2501,6 +2501,9 @@
 - Includes: Rust placement colour, BUILDING PRIVILEGE/BLOCKED, stability and
   TC cost per 24 hours; Valheim support colour, shelter/cover and covered-
   Workbench operation feedback.
+- Additional support: [Bloons TD 6 decomposition](../games/a-f/bloons-td-6.md),
+  for the placement preview that reports whether the candidate position is
+  geometrically legal before a defender is committed.
 - Excludes: hidden enemy TC inventory; future raid damage; exact remote base
   layout.
 - Parameters: preview, socket, stability/support, shelter/cover, privilege,
@@ -3348,23 +3351,33 @@
 - Evidence: [Path of Exile 2 decomposition](../games/m-r/path-of-exile-2.md).
 - Novelty: not assessed.
 
-## INF-178 — Broadcast view identifies ball, control and local team shape
+## INF-178 — Broadcast play view identifies ball, control and local team shape
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the live match view exposes the shared ball, nearby players,
-  pitch markings, the current direct-control marker and context for the next
-  eligible control or ball action.
+- Definition: the live broadcast-style play view keeps the shared ball, the
+  current direct-control marker, the nearby members of both sides, the playing
+  surface's decision-relevant markings and fixtures, and the context for the
+  next eligible control or ball action readable before that action is taken.
 - Includes: broadcast camera, player indicator and local formation shape in EA
-  SPORTS FC 26.
-- Excludes: permanent omniscient player attributes; post-match heat maps; a
-  manager-only tactical board.
-- Parameters: camera, zoom, indicator, radar availability, player labels,
-  pitch markings and suggested-switch cue.
+  SPORTS FC 26; NBA 2K26's scoped Play Now court, players, ball, baskets,
+  boundaries and control marker.
+- Excludes: permanent omniscient member attributes; a manager-only or external
+  tactical board; post-match heat maps; omniscient future routes; broadcast
+  decoration that carries no state.
+- Parameters: sport and playing surface, camera and zoom, region, markings,
+  scoring fixtures, boundaries, ball state, controlled actor and marker,
+  teammates and opponents, radar availability, labels, occlusion and any
+  suggested-switch cue.
 - Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
-- Novelty: first isolated for `GAME-0163`.
+- Additional support: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md), for a
+  two-basket court whose ball alternates between carried and free states.
+- Novelty: first isolated for `GAME-0163`; generalised by
+  [`TAXONOMY_CHANGE_019`](../../research/taxonomy-changes/TAXONOMY_CHANGE_019.md)
+  — the disclosure is the live readable relation between ball, control locus
+  and local team shape, and the playing surface is a parameter.
 
 ## INF-179 — Current room exposes threats, trajectories, pickups and exits
 
@@ -5424,21 +5437,20 @@
 
 ## INF-289 — Broadcast court view identifies ball, control and local team shape
 
-- Lifecycle: `Active`
-- Claim status: `Confirmed`
-- Evidence quality: `Direct`
+- Lifecycle: `Merged`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: a live broadcast-style court view keeps the shared ball, current
-  direct-control marker, baskets, relevant boundaries and nearby offensive and
-  defensive team shape readable before the next movement or ball action.
-- Includes: NBA 2K26's scoped Play Now court, players, ball and control marker.
-- Excludes: an external tactical board; omniscient future routes; broadcast
-  decoration alone; football-pitch presentation; hidden player attributes.
-- Parameters: camera, court region, ball, controlled actor, marker, teammates,
-  opponents, baskets, boundaries and occlusion.
+- Definition: historical sport-specific duplicate now represented by the
+  parameterised active boundary `INF-178`.
+- Includes: historical references that used `INF-289` before taxonomy change
+  019.
+- Excludes: new game signatures; use `INF-178` with the scoped playing-surface
+  parameters.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
-- Novelty: first isolated for `GAME-0241`; readable team shape surrounds a ball
-  that alternates between carried and free states on a two-basket court.
+- Merged into: `INF-178` by
+  [`TAXONOMY_CHANGE_019`](../../research/taxonomy-changes/TAXONOMY_CHANGE_019.md).
 
 ## INF-290 — Possession HUD exposes score, game clock and shot clock
 
@@ -5991,3 +6003,251 @@
 - Novelty: first isolated for `GAME-0260`; a body-carried signal reports the
   actor's present light exposure before any particular hostile finishes
   perception, rather than reporting detection progress or lamp state alone.
+
+## INF-317 — Authored placed instructions expose current control affordances
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: instructions authored by the developer and placed at fixed world
+  positions disclose the control or risk relevant to that position when the
+  player stands on them, without tracking progress, reporting completion or
+  advancing an instruction chain.
+- Includes: the fixed developer messages read from the ground during DARK
+  SOULS III's bounded `Cemetery of Ash` route.
+- Excludes: a tutorial adviser that states the current objective and reports
+  its completion; a persistent objective or route marker; a message authored by
+  another player; an ordinary resource or combat HUD.
+- Parameters: placement, trigger radius, disclosed control or hazard, wording
+  and whether the message persists after being read.
+- Evidence: [DARK SOULS III decomposition](../games/a-f/dark-souls-iii.md).
+- Novelty: first isolated for `GAME-0262`; instruction is delivered by world
+  position alone, so the player learns a control only by reaching the place
+  where it matters and never receives a completion signal.
+
+## INF-318 — Sealed encounter exposes the guardian's remaining health
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while a sealed mandatory encounter is live, a dedicated surface
+  names the guardian and continuously exposes its remaining share of health, so
+  the player can judge accumulated progress and approaching thresholds without
+  seeing its attack selection.
+- Includes: the named guardian bar shown during DARK SOULS III's bounded
+  `Cemetery of Ash` encounter.
+- Excludes: ordinary field-enemy health; a hunt interface that withholds exact
+  monster health; a preview of the opponent's next committed action; the
+  player's own resource display.
+- Parameters: guardian name, bar granularity, threshold visibility, appearance
+  and dismissal conditions.
+- Evidence: [DARK SOULS III decomposition](../games/a-f/dark-souls-iii.md).
+- Novelty: first isolated for `GAME-0262`; the disclosure is bounded to one
+  sealed encounter and reports only accumulated damage, leaving the guardian's
+  behaviour change to be inferred from that share alone.
+
+## INF-319 — Attack cues distinguish which defensive response is legal
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a visible cue attached to an incoming attack sorts it into
+  declared categories that differ in which defensive response can succeed, so
+  the player reads the required response type before choosing when to commit
+  it.
+- Includes: the distinct cue colours separating a parryable attack from an
+  unblockable attack during God of War's bounded opening route.
+- Excludes: a cue that only exposes an attack's timing or rhythm; a cue that
+  only identifies which hostile is attacking; an exact numeric window; a
+  post-hit report of what would have worked.
+- Parameters: cue form, category set, mapped legal responses, visibility range
+  and lead time before contact.
+- Evidence: [God of War decomposition](../games/g-l/god-of-war.md).
+- Novelty: first isolated for `GAME-0263`; the disclosure selects the response
+  type rather than its instant, so reading it wrong fails even with perfect
+  timing.
+
+## INF-320 — The offered check discloses its odds and contributing modifiers
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: before commitment, an option carrying an attribute check exposes
+  its declared difficulty, its computed success odds and the individual terms
+  that currently raise or lower them, so the player can see what would have to
+  change to improve the attempt.
+- Includes: the odds and modifier breakdown shown on an active check during
+  Disco Elysium - The Final Cut's bounded opening episode.
+- Excludes: a post-resolution report of what happened; a bare difficulty label
+  with no odds; a hidden probability; a forecast of an already committed
+  hostile action.
+- Parameters: difficulty label, numeric odds, listed modifier terms, retry
+  class indicator and the display's update on state change.
+- Evidence: [Disco Elysium - The Final Cut decomposition](../games/a-f/disco-elysium-the-final-cut.md).
+- Novelty: first isolated for `GAME-0264`; the interface exposes the
+  arithmetic of its own uncertainty, turning preparation into a legible plan
+  rather than a guess.
+
+## INF-321 — Commentary is attributed to the named faculty that produced it
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: each line of internally generated commentary is labelled with the
+  specific named attribute that generated it, so the player can weigh a
+  disclosure against that attribute's known reliability instead of receiving
+  one undifferentiated authorial voice.
+- Includes: the named skill voices that speak during dialogue and examination
+  in Disco Elysium - The Final Cut's bounded opening episode.
+- Excludes: an unattributed narrator; a tutorial adviser; subtitles for a
+  companion who exists in the world; a log that records events without
+  interpreting them.
+- Parameters: faculty names, attribution form, reliability implied by the
+  attribute's value and whether the disclosure can be contradicted.
+- Evidence: [Disco Elysium - The Final Cut decomposition](../games/a-f/disco-elysium-the-final-cut.md).
+- Novelty: first isolated for `GAME-0264`; information carries the identity of
+  its source inside the character, so the same sentence is trusted differently
+  depending on which faculty said it.
+
+## INF-322 — Placement preview exposes the defender's effective coverage
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while a defender is being positioned, the interface draws the
+  exact reach it would have at the current candidate position, so the player
+  can see which part of the fixed hostile route the placement would cover
+  before committing to it.
+- Includes: the reach indicator drawn around a monkey while it is being placed
+  and when it is later selected, during Bloons TD 6's bounded Easy standard
+  route.
+- Excludes: a preview that only reports whether the position is legal; a fog or
+  vision overlay derived from allied units; a minimap; a marker showing where a
+  hostile currently is.
+- Parameters: reach shape and size, candidate position, route overlap, upgrade
+  effect on reach and whether the indicator persists after placement.
+- Evidence: [Bloons TD 6 decomposition](../games/a-f/bloons-td-6.md).
+- Novelty: first isolated for `GAME-0265`; the disclosure is geometric and
+  prospective, so the placement decision is made against a drawn intersection
+  rather than against an inferred one.
+
+## INF-323 — Defence interface exposes budget, stock and schedule position
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the interface exposes the current spendable budget, the remaining
+  shared defence stock and the current index within a finite authored schedule
+  at the same time, so any purchase can be priced against both the damage
+  already absorbed and the number of scheduled waves still to come.
+- Includes: the simultaneous cash, lives and round display during Bloons TD 6's
+  bounded Easy standard route.
+- Excludes: a controlled character's personal health and resources; an itemised
+  recurring budget ledger; a preview of the next wave's exact composition; a
+  post-attempt score summary.
+- Parameters: budget value, stock value, current and final schedule index and
+  the update moment of each.
+- Evidence: [Bloons TD 6 decomposition](../games/a-f/bloons-td-6.md).
+- Novelty: first isolated for `GAME-0265`; this is the disclosure surface the
+  packet's single pricing decision is taken against — the interface exposes the
+  balance a commitment must fit, the damage the defence has already absorbed and
+  how much of the finite schedule is left to survive, which is what makes a
+  purchase, a conceded leak and a deferred upgrade comparable at all.
+
+## INF-324 — The projected path exposes its extreme altitudes before commitment
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: a dedicated view draws the path the craft would follow under its
+  current motion alone and labels that path's highest and lowest points, so the
+  player can compare both against a declared threshold and decide when and how
+  hard to act before the motion carries them past the useful moment.
+- Includes: the map view's projected trajectory with its labelled apoapsis and
+  periapsis during Kerbal Space Program's bounded Sandbox orbit task.
+- Excludes: cockpit instruments reporting only present attitude, speed and
+  altitude; a placement preview showing a static reach; a marker showing where
+  a hostile currently is; a post-manoeuvre report of what happened.
+- Parameters: projection basis, drawn path, labelled extremes, threshold
+  comparison, update rate and whether a planned manoeuvre can be previewed.
+- Evidence: [Kerbal Space Program decomposition](../games/g-l/kerbal-space-program.md).
+- Novelty: first isolated for `GAME-0267`; the disclosure is a prediction of
+  the player's own uncorrected future rather than a description of the present,
+  so acting on it is what prevents it from coming true.
+
+## INF-325 — The interface marks which opponents may currently be released
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: the encounter interface distinguishes, before the player commits,
+  which opponents have satisfied their release condition and which have not,
+  by marking the release option or the opponent's own entry differently while
+  leaving the condition that produced the change undisclosed.
+- Includes: the coloured release option and monster name that signal
+  eligibility during Undertale's bounded opening route.
+- Excludes: a numeric success chance shown before an attempt; a health bar; an
+  exposed stagger or finisher opportunity; a post-attempt report of why an
+  option failed.
+- Parameters: marker form, what it distinguishes, when it updates and how much
+  of the underlying condition it leaves hidden.
+- Evidence: [Undertale decomposition](../games/s-z/undertale.md).
+- Novelty: first isolated for `GAME-0268`; the disclosure states that mercy is
+  now possible without stating why, so the player is told the result of their
+  experimentation but not the rule behind it.
+
+## INF-326 — The voyage interface prices another catch against the remaining day
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the interface exposes the current position on the world clock, the
+  space the carried grid still has free and the condition of what is already
+  carried at the same time, so the player can judge whether one more acquisition
+  fits, whether it can be reached and returned before the declared boundary, and
+  what the delay costs the cargo already held.
+- Includes: the time-dial's day and hour shown beside the hold's free cells and
+  each fish's freshness state during DREDGE's bounded first-day route.
+- Excludes: a personal health, stamina or sanity readout by itself; a shop's
+  prices and current money; a match clock and score; an itemised recurring
+  budget; a projected path's extreme values.
+- Parameters: clock display, declared boundary, free-space measure, carried
+  condition states and the update moment of each.
+- Evidence: [DREDGE decomposition](../games/a-f/dredge.md).
+- Novelty: first isolated for `GAME-0269`; this is the disclosure surface the
+  packet's single gathering decision is taken against — the interface exposes
+  how much of the bounded day is left, how much room the hold still has and what
+  the delay has already cost the cargo, which is what makes one more acquisition,
+  an earlier return and a deferred sale comparable at all.
+
+## INF-327 — The interface names the run's current escalation tier
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the live interface exposes the run's current escalation as a named
+  ordered tier alongside the elapsed run clock, so the player can read how far
+  the world has already been strengthened, and see it change, without being told
+  the value or the formula behind it.
+- Includes: the named ordered difficulty bar shown beside the run timer in Risk
+  of Rain 2's bounded first-environment route.
+- Excludes: a difficulty setting chosen before the attempt; a numeric enemy level
+  on one hostile; a match clock and score; a wave or round index; a post-attempt
+  result summary.
+- Parameters: tier names, ordering, the value bands they cover, update moment and
+  how much of the underlying value the display withholds.
+- Evidence: [Risk of Rain 2 decomposition](../games/m-r/risk-of-rain-2.md).
+- Novelty: first isolated for `GAME-0270`; the disclosure turns a continuously
+  rising hidden value into a small number of readable states, so the decision to
+  linger is informed without being calculable.

@@ -1251,6 +1251,8 @@
   hatch, output device or immutable environment footprint; Factorio rejecting
   a live entity whose footprint overlaps an incompatible entity or terrain;
   Frostpunk rejecting a building that overlaps occupied crater space.
+- Additional support: [Bloons TD 6 decomposition](../games/a-f/bloons-td-6.md),
+  for a defender refused on the route itself and on unplaceable terrain.
 - Excludes: collisions caused later by moving arms or molecules; finite board
   capacity; adjacency requirements between placed tiles.
 - Parameters: footprint shapes, orientation, component-pair compatibility and
@@ -2199,24 +2201,36 @@
 - Evidence: [Black Box decomposition](../games/a-f/black-box.md).
 - Novelty: not assessed.
 
-## CON-112 — Fixed-length lexicon membership gate
+## CON-112 — Declared-length lexicon membership gate
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: a complete ordered-symbol proposal becomes an eligible query
-  only when it has the declared exact length and belongs to the system's
-  accepted lexicon; rejected strings do not consume the query allowance.
+- Definition: an ordered-symbol proposal becomes an eligible query, answer or
+  credit only when it satisfies the ruleset's declared length predicate and
+  belongs to the system's accepted lexicon; a proposal that fails either test is
+  rejected without consuming the attempt or assistance allowance.
 - Includes: Wordle accepting a recognised five-letter word as a scored guess
-  while rejecting incomplete or unrecognised entries without spending a row.
+  while rejecting incomplete or unrecognised entries without spending a row;
+  Strands accepting recognised traced words of at least four letters while
+  rejecting shorter or unrecognised paths from theme and Hint accounting.
 - Excludes: unrestricted sequences over a finite symbol vocabulary; typed
   semantic slots with separately visible admissible tokens; a clue-reuse rule
-  imposed on otherwise recognised words; answer frequency as a strategy.
-- Parameters: sequence length, language, accepted-guess lexicon, answer-pool
-  relation, normalisation, proper-name policy and rejection feedback.
+  imposed on otherwise recognised words; whether an eligible word belongs to an
+  authored theme answer set; answer frequency as a strategy.
+- Parameters: the length predicate and its form, exact or minimum bound,
+  language, accepted lexicon, answer-pool relation, normalisation, inflection
+  policy, proper-name policy, duplicate handling, the allowance a rejection does
+  not consume and rejection feedback.
 - Evidence: [Wordle decomposition](../games/s-z/wordle.md).
-- Novelty: not assessed.
+- Additional support: [Strands decomposition](../games/s-z/strands.md), for a
+  minimum-length predicate over traced paths.
+- Novelty: first isolated for `GAME-0068`; generalised by
+  [`TAXONOMY_CHANGE_021`](../../research/taxonomy-changes/TAXONOMY_CHANGE_021.md)
+  — the gate is the conjunction of a declared length predicate and lexicon
+  membership, and whether that predicate fixes an exact length or a minimum is a
+  parameter both records already listed as their own.
 
 ## CON-113 — Visible trajectory hazard contact is terminal
 
@@ -5452,26 +5466,58 @@
 - Evidence: [Rust decomposition](../games/m-r/rust.md).
 - Novelty: not assessed.
 
-## CON-297 — Crafting requires ingredients, knowledge and station context
+## CON-297 — Crafting requires a known recipe, sourced ingredients, station context and output capacity
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: a personal craft request is legal only when the avatar owns its
-  ingredients, knows the recipe, satisfies every station tier, proximity or
-  operating condition required by that recipe and has capacity for the
-  declared output; a recipe may declare no station requirement.
+- Definition: a personal craft request is legal only when the requester knows
+  the recipe, the required ingredient quantities are available from the sources
+  that ruleset admits, every station class, tier, proximity, power or operating
+  condition the recipe declares is satisfied, and the declared output can be
+  received into eligible carried or placed state; a recipe may declare no
+  station requirement.
 - Includes: Rust hand-crafting, including Workbench-3 C4; Valheim recipes at an
-  eligible covered Workbench; Alien: Isolation's stationless personal
-  Noisemaker craft from a known blueprint and compatible carried components.
-- Excludes: Furnace smelting; Recycler conversion; recipe research.
-- Parameters: recipe, ingredients, blueprint/knowledge, station, tier,
-  proximity, cover/operating state, queue and output.
+  eligible covered Workbench; Alien: Isolation's stationless personal Noisemaker
+  craft from a known blueprint and compatible carried components; ARC Raiders
+  station-tier Speranza crafting from found blueprints and retained persistent
+  inventory; Terraria and Don't Starve Together by-hand and station recipes
+  drawing on carried, opened and nearby inventories within reach of every
+  required station or environmental source; Subnautica Fabricator and Mobile
+  Vehicle Bay fabrication requiring a powered operable station and a collectable
+  output.
+- Excludes: a spatial arrangement of ingredients that is itself the recipe
+  (`CON-207`); recipe research or discovery, including a hidden recipe found by
+  arbitrary combination; an autonomous machine's or industry line's continuous
+  production state (`CON-172`); Furnace smelting; Recycler conversion; Habitat
+  Builder placement; Trader stock and cosmetic purchase; a request that
+  additionally requires a character skill level, a specific tool and a
+  compatible construction placement state (`CON-310`); a station proximity
+  requirement that lapses once that survivor has personally prototyped the
+  recipe (`CON-498`); an output grade determined by retained process history
+  (`CON-581`).
+- Parameters: recipe, blueprint or knowledge state, ingredients and quantities,
+  the admitted ingredient sources and their priority — carried, opened, nearby
+  or persistent — station class, tier, proximity or reach, environmental source,
+  power and operating state, whether the recipe declares a station at all,
+  queue, output, output capacity or footprint, and blocked feedback.
 - Evidence: [Rust decomposition](../games/m-r/rust.md),
   [Valheim decomposition](../games/s-z/valheim.md) and
   [Alien: Isolation decomposition](../games/a-f/alien-isolation.md).
-- Novelty: not assessed.
+- Additional support: [ARC Raiders decomposition](../games/a-f/arc-raiders.md),
+  for a persistent-inventory source and an unlocked station tier;
+  [Terraria decomposition](../games/s-z/terraria.md) and
+  [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md),
+  for opened and nearby inventories and an environmental source; and
+  [Subnautica decomposition](../games/s-z/subnautica.md), for a powered station
+  class and a rectangular output footprint.
+- Novelty: generalised by
+  [`TAXONOMY_CHANGE_025`](../../research/taxonomy-changes/TAXONOMY_CHANGE_025.md)
+  — one legality boundary joins recipe knowledge, ingredient supply, station
+  context and output capacity, while where the ingredients may come from, what
+  class or tier of station is required, whether it needs power, reach or an
+  operating state, and whether a station is required at all are parameters.
 
 ## CON-298 — Workbench progression requires ordered tiers and fragments
 
@@ -5838,20 +5884,19 @@
 
 ## CON-320 — Workshop output requires station, recipe and retained ingredients
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
-- Evidence quality: `Direct`
+- Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: a Workshop craft is legal only when its specialised station and
-  required tier are unlocked, the recipe is currently known and all declared
-  ingredients exist in eligible persistent inventory.
-- Includes: ARC Raiders station-specific Speranza crafting and found blueprints.
-- Excludes: Field Crafting recipes that need no Workshop station; Trader stock;
-  cosmetic purchases.
-- Parameters: station, tier, blueprint, recipe, ingredient, quantity, output
-  capacity and Expedition reset state.
+- Definition: historical product-specific narrowing of the same crafting legality rule now represented by the parameterised active
+  boundary `CON-297`.
+- Includes: historical references that used `CON-320` before taxonomy change 025.
+- Excludes: new game signatures; use `CON-297` with the scoped ingredient-source,
+  station-class and output-capacity parameters.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
-- Novelty: not assessed.
+- Merged into: `CON-297` by
+  [`TAXONOMY_CHANGE_025`](../../research/taxonomy-changes/TAXONOMY_CHANGE_025.md).
 
 ## CON-321 — Weapon maintenance requires a retained item and repair resources
 
@@ -6622,22 +6667,20 @@
 
 ## CON-366 — Crafting requires recipe inputs and reachable station context
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: a recipe is currently craftable only when every required input
-  quantity is available in an eligible carried, opened or nearby inventory and
-  the player is within range of every required station or environmental source.
-- Includes: Terraria 1.4.5.6 by-hand and station recipes, opened storage and the
-  optional craft-from-nearby-chests context.
-- Excludes: Minecraft spatial ingredient arrangement; recipe discovery itself;
-  an autonomous machine's continuous production state.
-- Parameters: recipe, input, quantity, inventory source, source priority,
-  station set, environment and reach.
+- Definition: historical product-specific narrowing of the same crafting legality rule now represented by the parameterised active
+  boundary `CON-297`.
+- Includes: historical references that used `CON-366` before taxonomy change 025.
+- Excludes: new game signatures; use `CON-297` with the scoped ingredient-source,
+  station-class and output-capacity parameters.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md) and
   [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
-- Novelty: not assessed.
+- Merged into: `CON-297` by
+  [`TAXONOMY_CHANGE_025`](../../research/taxonomy-changes/TAXONOMY_CHANGE_025.md).
 
 ## CON-367 — Town housing requires a safe furnished room and valid home tile
 
@@ -6799,21 +6842,20 @@
 
 ## CON-376 — Variable-length lexicon membership gate
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: a traced ordered-letter proposal is eligible for answer
-  classification or assistance credit only when it meets the declared minimum
-  length and belongs to the accepted lexicon.
-- Includes: Strands accepting recognised words of at least four letters while
-  rejecting shorter or unrecognised paths from theme and Hint accounting.
-- Excludes: a fixed-length word query; arbitrary symbol paths with no lexical
-  gate; whether an eligible word belongs to the authored theme answer set.
-- Parameters: minimum length, language, lexicon, inflection policy, proper-name
-  policy, duplicate handling and rejection feedback.
+- Definition: historical threshold-specific duplicate now represented by the
+  parameterised active boundary `CON-112`.
+- Includes: historical references that used `CON-376` before taxonomy change
+  021.
+- Excludes: new game signatures; use `CON-112` with the scoped length-predicate
+  and lexicon parameters.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Strands decomposition](../games/s-z/strands.md).
-- Novelty: not assessed.
+- Merged into: `CON-112` by
+  [`TAXONOMY_CHANGE_021`](../../research/taxonomy-changes/TAXONOMY_CHANGE_021.md).
 
 ## CON-377 — Spanning answer connects opposite grid boundaries
 
@@ -7193,23 +7235,34 @@
 - Evidence: [Path of Exile 2 decomposition](../games/m-r/path-of-exile-2.md).
 - Novelty: not assessed.
 
-## CON-398 — One direct-control locus governs an eleven-player side
+## CON-398 — One direct-control locus governs a multi-member side
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: each side fields eleven role-bearing players, but one local human
-  has at most one direct-control locus and may transfer it only to an eligible
-  teammate while the remaining players stay under team AI.
-- Includes: one human-controlled home side against a CPU away side in EA SPORTS
-  FC 26 Kick Off.
-- Excludes: eleven simultaneous local control loci; Clubs avatars; roster and
-  transfer-market construction.
-- Parameters: roster, formation, active player, switching eligibility, keeper
-  state and control side.
+- Definition: a side fields a declared number of role-bearing members, but one
+  local human authority holds at most one direct-control locus at a time and
+  may only transfer that same unique locus to an eligible member; every
+  remaining member stays under team AI, and no input creates a second
+  simultaneous locus.
+- Includes: one human-controlled home side against a CPU away side across the
+  eleven-player pitch in EA SPORTS FC 26 Kick Off; one local human switching
+  among the five on-court players in NBA 2K26's scoped exhibition.
+- Excludes: simultaneous direct control of every member; two local humans
+  sharing one side; commanding a squad through indirect orders; bench or
+  persistent roster size as a gene; avatar-only club modes; roster and
+  transfer-market construction; the non-controlled team AI itself.
+- Parameters: side size and sport, roster, formation or on-court unit, active
+  member, switching eligibility and input, transfer target, rejection, keeper
+  or specialist state and control side.
 - Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
-- Novelty: first isolated for `GAME-0163`.
+- Additional support: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md), for a
+  five-player on-court side sharing the same unique control locus.
+- Novelty: first isolated for `GAME-0163`; generalised by
+  [`TAXONOMY_CHANGE_019`](../../research/taxonomy-changes/TAXONOMY_CHANGE_019.md)
+  — the boundary is the uniqueness and transfer of one control locus over a
+  multi-member side, and the side's size is a parameter.
 
 ## CON-399 — Football play is bounded by field, goal and restart geometry
 
@@ -8336,16 +8389,19 @@
 
 ## CON-462 — Crafting requires recipe, ingredients, capacity and station
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: fabrication may begin only when the recipe is known, every required ingredient is available, the compatible station can operate and its output can be collected into eligible carried state.
-- Includes: Subnautica Fabricator items and Mobile Vehicle Bay Seamoth fabrication.
-- Excludes: Habitat Builder placement; a hidden recipe discovered by attempting arbitrary combinations; output from an autonomous industry line.
-- Parameters: recipe state, ingredients, station class, power, output footprint, carried capacity and blocked feedback.
+- Definition: historical product-specific narrowing of the same crafting legality rule now represented by the parameterised active
+  boundary `CON-297`.
+- Includes: historical references that used `CON-462` before taxonomy change 025.
+- Excludes: new game signatures; use `CON-297` with the scoped ingredient-source,
+  station-class and output-capacity parameters.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Subnautica decomposition](../games/s-z/subnautica.md).
-- Novelty: first isolated for `GAME-0178`; one legality boundary joins blueprint knowledge, material supply, powered station class and rectangular output fit.
+- Merged into: `CON-297` by
+  [`TAXONOMY_CHANGE_025`](../../research/taxonomy-changes/TAXONOMY_CHANGE_025.md).
 
 ## CON-463 — Habitat placement and use require legal pressure integrity
 
@@ -10535,23 +10591,20 @@
 
 ## CON-582 — One direct-control locus governs a five-player on-court side
 
-- Lifecycle: `Active`
-- Claim status: `Confirmed`
+- Lifecycle: `Merged`
+- Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: one human authority directly governs at most one eligible active
-  member of its five-player court side at a time, while switching transfers the
-  same unique control locus rather than creating simultaneous direct control.
-- Includes: one local human switching among the five on-court players in the
-  scoped NBA 2K26 exhibition.
-- Excludes: an eleven-player football side; controlling every unit through
-  simultaneous orders; two local humans sharing a side; bench-roster size as a
-  gene; non-controlled team AI itself.
-- Parameters: side, active five, eligible member, current locus, switch input,
-  target, transfer and rejection.
+- Definition: historical sport-specific duplicate now represented by the
+  parameterised active boundary `CON-398`.
+- Includes: historical references that used `CON-582` before taxonomy change
+  019.
+- Excludes: new game signatures; use `CON-398` with the scoped side-size and
+  switching parameters.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
-- Novelty: first isolated for `GAME-0241`; the control boundary is the active
-  five-player basketball unit, not the persistent roster.
+- Merged into: `CON-398` by
+  [`TAXONOMY_CHANGE_019`](../../research/taxonomy-changes/TAXONOMY_CHANGE_019.md).
 
 ## CON-583 — Marked court, basket and boundary geometry constrain live play
 
@@ -10990,3 +11043,241 @@
 - Evidence: [Metro Exodus decomposition](../games/m-r/metro-exodus.md).
 - Novelty: first isolated for `GAME-0260`; safe environmental occupancy depends
   jointly on a worn protective state and a replaceable positive time reserve.
+
+## CON-604 — Evasion and guard require remaining exertion
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an evasive displacement, sprint or held guard can begin or
+  continue only while the shared exertion reserve retains a sufficient positive
+  balance, and exhausting it withdraws those defensive options until the
+  reserve recovers.
+- Includes: rolls, sprints and shield guards blocked by an emptied stamina bar
+  during DARK SOULS III's bounded `Cemetery of Ash` route.
+- Excludes: a weapon move gated by its own stamina, sharpness, ammunition or
+  animation-recovery requirement; a cooldown; an equipment-load requirement
+  that changes form rather than legality; a survival threshold that restricts
+  ordinary locomotion.
+- Parameters: minimum balance per action class, overdraw allowance, recovery
+  rate, load tier and the actions withdrawn while the reserve is exhausted.
+- Evidence: [DARK SOULS III decomposition](../games/a-f/dark-souls-iii.md).
+- Novelty: first isolated for `GAME-0262`; defensive legality, not only
+  offensive legality, is bound to the same recovering reserve, so overspending
+  on attacks removes the ability to defend.
+
+## CON-605 — Close options depend on whether the thrown tool is in hand
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while the reusable tool is away from the character, its own
+  attacks and throws are unavailable and a different unarmed or secondary
+  action set applies until the tool is recalled or retrieved.
+- Includes: the substitution of bare-handed and shield attacks while the
+  Leviathan Axe rests away from Kratos during God of War's bounded opening
+  route.
+- Excludes: reload or ammunition compatibility for a retained weapon; swapping
+  between two carried weapons that both remain in inventory; a cooldown on one
+  ability of an otherwise available weapon; equipment-load tiers.
+- Parameters: tool, away state, substituted action set, recall latency,
+  retrieval by contact and the actions withdrawn while away.
+- Evidence: [God of War decomposition](../games/g-l/god-of-war.md).
+- Novelty: first isolated for `GAME-0263`; committing the tool to a position in
+  the world is simultaneously an attack and a temporary change of the
+  character's entire close-combat vocabulary.
+
+## CON-606 — Reattempting a settled check requires its declared retry class
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an already resolved check may be attempted again only if it
+  belongs to the reattemptable class and a qualifying state change has since
+  occurred; a check in the closed class admits no further attempt at all.
+- Includes: the requirement that a failed white check wait for a raised
+  attribute or another qualifying change, while a failed red check stays
+  closed, during Disco Elysium - The Final Cut's bounded opening episode.
+- Excludes: an ability cooldown; a resource requirement; a difficulty gate that
+  simply exceeds the current value; restoring an earlier save.
+- Parameters: retry class, qualifying change set, elapsed state and the
+  permanence of the closed outcome.
+- Evidence: [Disco Elysium - The Final Cut decomposition](../games/a-f/disco-elysium-the-final-cut.md).
+- Novelty: first isolated for `GAME-0264`; legality to try again depends on
+  what the world has become since the failure, not on time, resources or a
+  refreshed readiness state.
+
+## CON-607 — Worn equipment continuously modifies the tested attribute values
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: currently worn equipment adds and subtracts from the attribute
+  values used to resolve checks for as long as it is worn, so the same option
+  can be legal, favourable or hopeless purely as a function of what the
+  character is wearing at the moment of commitment.
+- Includes: clothing that raises one tested attribute while lowering another
+  during Disco Elysium - The Final Cut's bounded opening episode.
+- Excludes: equipment that changes damage, defence or carrying capacity;
+  a consumable with a timed effect; a permanent attribute purchase; equipment
+  requirements that gate whether an item may be worn at all.
+- Parameters: equipment slots, per-item attribute deltas, stacking rules and
+  the moment at which the worn set is read.
+- Evidence: [Disco Elysium - The Final Cut decomposition](../games/a-f/disco-elysium-the-final-cut.md).
+- Novelty: first isolated for `GAME-0264`; dressing is a pre-commitment tool
+  for a probability rather than a combat or capacity decision, so the player
+  changes clothes to change the odds of a sentence.
+
+## CON-608 — Parallel upgrade paths carry asymmetric tier caps
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: one placed entity exposes several parallel upgrade paths bought
+  tier by tier, but the paths are not interchangeable: at most one path may be
+  raised past a declared middle tier, a second is capped at that middle tier
+  and the rest must remain unbought, so committing a high tier permanently
+  forecloses the other paths for that entity.
+- Includes: the three monkey upgrade paths whose declared caps allow one path
+  to its highest tier, a second only to its middle tier and none on the third,
+  during Bloons TD 6's bounded Easy standard route.
+- Excludes: a skill tree whose branches can all be filled given enough points;
+  a linear upgrade ladder with one path; equipment slots that hold one item
+  each; a cost that merely rises with each purchase.
+- Parameters: path count, tier count per path, the cap on the second path, the
+  purchase order and the irreversibility of a committed tier.
+- Evidence: [Bloons TD 6 decomposition](../games/a-f/bloons-td-6.md).
+- Novelty: first isolated for `GAME-0265`; the cap turns each entity into a
+  mutually exclusive specialisation choice made under incomplete knowledge of
+  the threats the remaining schedule will bring.
+
+## CON-609 — Finite companion revive charges gate continuation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when no other player can perform a revival, the sole autonomous
+  companion holds a finite, visible stock of revive charges; each recovery from
+  the downed state consumes one charge, and going down with none remaining
+  ends the attempt immediately.
+- Includes: the drone's displayed revive charges and the resulting solo mission
+  failure during Deep Rock Galactic's bounded solo Mining Expedition.
+- Excludes: a shared team reinforcement or ticket pool debited by deaths; a
+  bleed-out timer that another player may interrupt; a finite life stock spent
+  one per failed encounter; a consumable revival item carried in inventory.
+- Parameters: charge count, charge display, restored health fraction, recharge
+  policy and the failure that follows exhaustion.
+- Evidence: [Deep Rock Galactic decomposition](../games/a-f/deep-rock-galactic.md).
+- Novelty: first isolated for `GAME-0266`; the attempt's survivability is a
+  small countable property of an autonomous helper rather than of the player,
+  so risk is budgeted against a companion's remaining charges.
+
+## CON-610 — A closed orbit requires clearing the atmospheric boundary
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: the attracting body declares a finite altitude below which its
+  atmosphere applies drag; a trajectory whose lowest point stays inside that
+  altitude decays instead of repeating, so a stable closed orbit is legal only
+  when the projected lowest point lies above the declared boundary.
+- Includes: the requirement that the projected lowest point clear the declared
+  atmospheric depth of the home body during Kerbal Space Program's bounded
+  Sandbox orbit task.
+- Excludes: a hard ceiling that simply stops upward movement; an out-of-bounds
+  region that fails the attempt on entry; a fuel requirement for a manoeuvre; a
+  breathable-atmosphere or life-support requirement.
+- Parameters: body, declared atmospheric depth, drag model, lowest projected
+  point and the decay that follows a boundary violation.
+- Evidence: [Kerbal Space Program decomposition](../games/g-l/kerbal-space-program.md).
+- Novelty: first isolated for `GAME-0267`; the success condition is a
+  geometric inequality against a published altitude rather than reaching a
+  place, so the player aims at a number the interface already shows them.
+
+## CON-611 — Release requires the opponent's declared eligibility condition
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: the release command resolves only against an opponent the system
+  has already marked eligible; issuing it against an ineligible opponent
+  consumes the phase without removing anything, so the eligibility condition
+  must be satisfied through that opponent's own interactions first.
+- Includes: the requirement that a monster be marked eligible before the mercy
+  option removes it during Undertale's bounded opening route.
+- Excludes: a probability that a capture attempt succeeds; an ability gated by
+  a resource or cooldown; a target that must be unaware or within reach; an
+  escape gated by distance.
+- Parameters: eligibility marker, per-opponent condition, phase cost of a
+  refused attempt and whether eligibility persists across turns.
+- Evidence: [Undertale decomposition](../games/s-z/undertale.md).
+- Novelty: first isolated for `GAME-0268`; mercy is a legality question rather
+  than a chance, so the player must earn the right to end an encounter
+  peacefully before the option means anything.
+
+## CON-612 — Hardware occupies only its typed cells of the shared cargo grid
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: one grid serves both installed hardware and carried cargo; its
+  cells are typed by hardware class and some cells are permanently unusable, so
+  a hardware item may be installed only on free cells of its own declared type,
+  while cargo may occupy any free cell including the typed cells no hardware
+  currently uses.
+- Includes: the boat grid's engine cells at the bottom, fishing-equipment cells
+  at the sides, light cells at the top and blank corner cells, with fish free to
+  sit on any unused attachment cell, in DREDGE's bounded first-day route.
+- Excludes: an equipment slot held separately from the carried grid; a footprint
+  that merely has to fit unoccupied cells; a weight or bulk allowance; a
+  crafting grid whose cells encode a recipe; a container whose capacity is one
+  number.
+- Parameters: grid dimensions, unusable cells, hardware classes and their cell
+  regions, hardware footprints, cargo footprints and rotation permission.
+- Evidence: [DREDGE decomposition](../games/a-f/dredge.md).
+- Novelty: first isolated for `GAME-0269`; capability and payload compete for
+  one surface, so fitting a better engine is paid for in the space that would
+  have carried the trip's profit.
+
+## CON-613 — A purchase requires covering a price set by the run's escalation value
+
+- Lifecycle: `Deprecated`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: committing a world interactable's purchase is legal only when the
+  player's current balance covers a price the ruleset derives from the run's
+  live escalation value rather than from a fixed catalogue, so what any given
+  purchase requires is not knowable in advance from the item alone and rises for
+  as long as the attempt continues.
+- Includes: chest and shrine commitments in Risk of Rain 2's bounded
+  first-environment route being refused unless the carried gold covers the cost
+  the current difficulty coefficient sets for them.
+- Excludes: a fixed catalogue price; a price that rises only with the buyer's own
+  level or reputation; an escalating cost paid for repeated purchases of the same
+  thing; a currency that decays; the automatic computation of the price and of
+  the reward multiplier themselves, which is a system response carried by
+  `SYS-817`.
+- Parameters: base cost, escalation exponent, currency identity, which
+  interactable classes the rule covers and the refusal feedback.
+- Evidence: [Risk of Rain 2 decomposition](../games/m-r/risk-of-rain-2.md).
+- Novelty: first isolated for `GAME-0270`; retyped in substance by
+  [`TAXONOMY_CHANGE_028`](../../research/taxonomy-changes/TAXONOMY_CHANGE_028.md)
+  and then deprecated by
+  [`TAXONOMY_CHANGE_030`](../../research/taxonomy-changes/TAXONOMY_CHANGE_030.md).
+- Deprecation: the stable ID is retained for historical compatibility after
+  [`TAXONOMY_CHANGE_030`](../../research/taxonomy-changes/TAXONOMY_CHANGE_030.md)
+  moved the coefficient-to-price and coefficient-to-reward computation into
+  `SYS-817`, where it belongs by type. What remained was a bare affordability
+  gate that `GAME-0270`'s claim ledger never evidenced: no claim and no
+  transition row establishes that a purchase is ever refused for want of gold.
+  No reviewed scoped game currently carries it, and no ID is retyped or reused.

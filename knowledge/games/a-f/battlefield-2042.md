@@ -5,6 +5,7 @@ game_title: Battlefield 2042
 analysis_status: reviewed
 reviewed: 2026-09-03
 combination_ids:
+  - COMB-0147
   - COMB-0232
 gene_ids:
   action:
@@ -31,8 +32,8 @@ gene_ids:
     - SYS-386
     - SYS-394
     - SYS-395
+    - SYS-396
     - SYS-742
-    - SYS-743
     - SYS-744
     - SYS-745
   constraint:
@@ -221,10 +222,15 @@ gene instances but do not enter the signature.
   destruction of eligible cover; `SYS-394`, downing, revival and committed
   ticketed death; `SYS-395`, point occupancy, contest and ownership.
 - New `SYS-742`: group points into complete sector ownership while preserving
-  point footholds. New `SYS-743`: combine committed defeats and majority-sector
-  pressure into shared ticket loss and zero-ticket settlement. New `SYS-744`:
-  apply the chosen live attachment to current weapon behaviour. New `SYS-745`:
-  reserve shared vehicle capacity and deliver the requested operable entity.
+  point footholds. Existing `SYS-396`: combine committed defeats and the held
+  map-control condition into shared ticket loss and zero-ticket settlement.
+  Whether that condition is every currently owned control point or majority
+  ownership of the aggregated sectors is a parameter of the same boundary, which
+  [`TAXONOMY_CHANGE_023`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_023.md)
+  established; `SYS-742` remains the separate rule that defines what a sector is.
+  New `SYS-744`: apply the chosen live attachment to current weapon behaviour.
+  New `SYS-745`: reserve shared vehicle capacity and deliver the requested
+  operable entity.
 - Resolution order: sample live input; resolve movement, combat, gadget,
   vehicle or attachment state; update downing and revival; commit unresolved
   defeats; convert eligible point occupancy into ownership; aggregate every
@@ -353,7 +359,7 @@ gene instances but do not enter the signature.
 | Type | Active gene IDs | Candidate genes or parameters |
 |---|---|---|
 | Action | `ACT-008`, `ACT-161`, `ACT-164`, `ACT-183`, `ACT-184`, `ACT-187`, `ACT-190`, `ACT-201`, `ACT-215`, `ACT-240`, `ACT-241`, `ACT-403`, `ACT-404` | soldier, squad, loadout, attachment and call-in commands |
-| System Behaviour | `SYS-208`, `SYS-215`, `SYS-292`, `SYS-320`, `SYS-380`, `SYS-382`, `SYS-386`, `SYS-394`, `SYS-395`, `SYS-742`, `SYS-743`, `SYS-744`, `SYS-745` | combat, vehicles, point/sector/ticket aggregation and live deliveries |
+| System Behaviour | `SYS-208`, `SYS-215`, `SYS-292`, `SYS-320`, `SYS-380`, `SYS-382`, `SYS-386`, `SYS-394`, `SYS-395`, `SYS-396`, `SYS-742`, `SYS-744`, `SYS-745` | combat, vehicles, point/sector/ticket aggregation and live deliveries |
 | Constraint | `CON-262`, `CON-269`, `CON-272`, `CON-288`, `CON-346`, `CON-347`, `CON-348`, `CON-574`, `CON-575`, `CON-576` | equipment, redeployment, capture, attachment, delivery and sector gates |
 | Information | `INF-073`, `INF-115`, `INF-116`, `INF-119`, `INF-155`, `INF-283`, `INF-284`, `INF-285` | local combat, deployment, Plus, call-in, sector and ticket state |
 | Objective | `OBJ-079` | opposing reinforcement pool reaches zero first |
@@ -364,24 +370,24 @@ gene instances but do not enter the signature.
 - Comparison algorithm: `genome-jaccard-v1`.
 - Prior game signatures scanned: `233` (`GAME-0001`–`GAME-0233`).
 - Exact genome matches: none.
-- Tied near matches: `GAME-0149` — Battlefield 6 (`34 / 47 = 0.723404`).
-- Supported combination subsets: `COMB-0232`.
+- Tied near matches: `GAME-0149` — Battlefield 6 (`35 / 46 = 0.760870`).
+- Supported combination subsets: `COMB-0147`, `COMB-0232`.
 - Scan date: 2026-09-03.
 
 ### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0149` — Battlefield 6 | `ACT-008`, `ACT-161`, `ACT-164`, `ACT-183`, `ACT-184`, `ACT-187`, `ACT-190`, `ACT-201`, `ACT-215`, `ACT-240`, `ACT-241`, `SYS-208`, `SYS-215`, `SYS-292`, `SYS-320`, `SYS-380`, `SYS-382`, `SYS-386`, `SYS-394`, `SYS-395`, `CON-262`, `CON-269`, `CON-272`, `CON-288`, `CON-346`, `CON-347`, `CON-348`, `INF-073`, `INF-115`, `INF-116`, `INF-119`, `INF-155`, `OBJ-079`, `TIM-003` | Both combine squad infantry/vehicle combat, class-bound support, point capture, revival, redeployment and finite team reinforcements. Battlefield 6 drains through each held point and fixes a different class/Training Path, deployment and destruction packet. Battlefield 2042 instead aggregates every point into all-owned sectors, drains through sector majority, changes current attachments through Plus and creates player-positioned vehicle deliveries from shared team capacity. | Near, `0.723404` |
+| `GAME-0149` — Battlefield 6 | `ACT-008`, `ACT-161`, `ACT-164`, `ACT-183`, `ACT-184`, `ACT-187`, `ACT-190`, `ACT-201`, `ACT-215`, `ACT-240`, `ACT-241`, `SYS-208`, `SYS-215`, `SYS-292`, `SYS-320`, `SYS-380`, `SYS-382`, `SYS-386`, `SYS-394`, `SYS-395`, `SYS-396`, `CON-262`, `CON-269`, `CON-272`, `CON-288`, `CON-346`, `CON-347`, `CON-348`, `INF-073`, `INF-115`, `INF-116`, `INF-119`, `INF-155`, `OBJ-079`, `TIM-003` | Both combine squad infantry/vehicle combat, class-bound support, point capture, revival, redeployment and finite team reinforcements, and since `TAXONOMY_CHANGE_023` both carry the same committed-defeat and held-map-control ticket rule. Battlefield 6 sustains its bleed through each held point and fixes a different class/Training Path, deployment and destruction packet. Battlefield 2042 instead aggregates every point into all-owned sectors, sustains the same bleed through sector majority, changes current attachments through Plus and creates player-positioned vehicle deliveries from shared team capacity. | Near, `0.760870` |
 
 ### Preserved research notes
 
-- New genes: `ACT-403`, `ACT-404`, `SYS-742`, `SYS-743`, `SYS-744`,
-  `SYS-745`, `CON-574`, `CON-575`, `CON-576`, `INF-283`, `INF-284`, `INF-285`.
+- New genes: `ACT-403`, `ACT-404`, `SYS-742`, `SYS-744`, `SYS-745`, `CON-574`,
+  `CON-575`, `CON-576`, `INF-283`, `INF-284`, `INF-285`.
 - Reused genes: `ACT-008`, `ACT-161`, `ACT-164`, `ACT-183`, `ACT-184`,
   `ACT-187`, `ACT-190`, `ACT-201`, `ACT-215`, `ACT-240`, `ACT-241`,
   `SYS-208`, `SYS-215`, `SYS-292`, `SYS-320`, `SYS-380`, `SYS-382`,
-  `SYS-386`, `SYS-394`, `SYS-395`, `CON-262`, `CON-269`, `CON-272`,
+  `SYS-386`, `SYS-394`, `SYS-395`, `SYS-396`, `CON-262`, `CON-269`, `CON-272`,
   `CON-288`, `CON-346`, `CON-347`, `CON-348`, `INF-073`, `INF-115`,
   `INF-116`, `INF-119`, `INF-155`, `OBJ-079` and `TIM-003`.
 - Classification result: `New gene` and new verified interaction combination.
@@ -399,15 +405,27 @@ gene instances but do not enter the signature.
   point/sector, capacity or information transition. Orbital, Falck, concrete
   vehicles, attachment names, player count, key bindings and ticket values
   remain game-scoped parameters.
-- Taxonomy-change record: none.
+- Taxonomy-change record:
+  [`TAXONOMY_CHANGE_023`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_023.md)
+  merged `SYS-743` into `SYS-396` and restated the survivor so the shape of the
+  map-control predicate that sustains the bleed is a parameter. The `GAME-0149`
+  and `GAME-0220` signatures are unchanged; this signature substitutes the
+  survivor and, as a consequence, now contains `COMB-0147` as well.
 - Candidate terms affected: live attachment swap, grouped sector, sector
   majority, vehicle call-in, shared vehicle capacity and delivery position.
 
 ## Negative results
 
-- Existing `SYS-396` is rejected: it encodes continuous drain for each held
-  control point, whereas this packet first resolves all-point sectors and then
-  checks sector majority.
+- `SYS-396` is reused rather than rejected. Its earlier per-point reading was a
+  parameter of the same bleed rule, and `TAXONOMY_CHANGE_023` restated the
+  boundary as a committed-defeat debit plus a declared map-control predicate.
+  This packet still resolves all-point sectors first and then checks sector
+  majority, but that aggregation is `SYS-742`, not the ticket rule.
+- `SYS-583`, `SYS-643` and `SYS-644` remain rejected and are named in the
+  survivor's `Excludes`: the first debits destroyed vehicles rather than
+  committed personnel defeats and adds a no-spawnable-vehicle terminal, the
+  second moves the legal combat front, and the third replenishes an
+  attacker-only pool at sector boundaries.
 - Existing `SYS-318` is rejected: it couples attachments with regional armour
   durability and does not describe a live replacement action.
 - Battlefield V `ACT-389`, `SYS-715`, `CON-561` and `INF-275` are rejected:

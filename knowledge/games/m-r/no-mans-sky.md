@@ -320,7 +320,7 @@ gene instances but do not enter the signature.
 - Comparison algorithm: `genome-jaccard-v1`.
 - Prior game signatures scanned: `228` (`GAME-0001`–`GAME-0228`).
 - Exact genome matches: none.
-- Tied near matches: `GAME-0186` — Don’t Starve Together (`12 / 58 = 0.206897`).
+- Tied near matches: `GAME-0186` — Don’t Starve Together (`13 / 57 = 0.228070`).
 - Supported combination subsets: `COMB-0227`.
 - Scan date: 2026-09-02.
 
@@ -328,7 +328,7 @@ gene instances but do not enter the signature.
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0186` — Don’t Starve Together | `ACT-008`, `ACT-122`, `ACT-123`, `ACT-338`, `SYS-326`, `SYS-327`, `SYS-329`, `CON-281`, `CON-499`, `INF-075`, `INF-132`, `TIM-003` | Both begin in generated survival terrain, couple live personal pressure to local extraction, personal recipes and one placed material processor, and expose recipe and survival state. Don't Starve Together instead requires two humans, seasonal hunger/sanity/thermal coordination, science prototyping, ghost revival and a Fuelweaver checkpoint. No Man's Sky uses a solo staged tutorial, slot-addressed technology repair, a rechargeable resource-survey pulse, repaired starship flight, a building terminal and verified ship-exit retention. | Near, `0.206897` |
+| `GAME-0186` — Don’t Starve Together | `ACT-008`, `ACT-122`, `ACT-123`, `ACT-338`, `SYS-326`, `SYS-327`, `SYS-329`, `CON-281`, `CON-297`, `CON-499`, `INF-075`, `INF-132`, `TIM-003` | Both begin in generated survival terrain, couple live personal pressure to local extraction, personal recipes and one placed material processor, expose recipe and survival state, and since `TAXONOMY_CHANGE_025` share the crafting-legality rule itself. Don't Starve Together instead requires two humans, seasonal hunger/sanity/thermal coordination, science prototyping, ghost revival and a Fuelweaver checkpoint. No Man's Sky uses a solo staged tutorial, slot-addressed technology repair, a rechargeable resource-survey pulse, repaired starship flight, a building terminal and verified ship-exit retention. | Near, `0.228070` |
 
 ### Preserved research notes
 
@@ -359,7 +359,13 @@ gene instances but do not enter the signature.
 - `SYS-216` is rejected: Normal respawn exists, but death rejects this packet.
 - `ACT-313`, `SYS-544` and `CON-461` are rejected: the early Scanner emits a
   pulse; it does not require a held target scan or fragment threshold.
-- `SYS-545` and `CON-462` are rejected: the Portable Refiner is a loaded,
-  fuelled processing fixture, not a powered fabricator boundary.
+- `SYS-545` is rejected: the Portable Refiner is a loaded, fuelled processing
+  fixture that continues on its own once charged, not a powered fabricator that
+  resolves one requested recipe and holds its output.
+- `CON-297` is reused for personal crafting from a known recipe and carried
+  ingredients, and it is deliberately not extended to the Portable Refiner:
+  loading and fuelling a placed processor is not a craft request, so its
+  legality is `CON-499` placement plus fuel state rather than this crafting
+  gate.
 - Bases, discovery completion, combat, economy, later vehicles, multiplayer and
   the complete Artemis/Atlas story are excluded rather than unioned.

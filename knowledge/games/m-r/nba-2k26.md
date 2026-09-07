@@ -24,14 +24,14 @@ gene_ids:
     - SYS-762
     - SYS-763
   constraint:
-    - CON-582
+    - CON-398
     - CON-583
     - CON-584
     - CON-585
     - CON-586
   information:
     - INF-116
-    - INF-289
+    - INF-178
     - INF-290
     - INF-291
   objective:
@@ -186,8 +186,10 @@ gene instances but do not enter the signature.
 
 ### Constraint Genes
 
-- New `CON-582`: one direct-control locus governs an on-court five; `CON-583`:
-  court, basket and boundary geometry; `CON-584`: dribble, gather and progression
+- Existing `CON-398`: one direct-control locus governs the on-court five, and
+  switching transfers that same unique locus. Side size is a parameter of the
+  boundary, not a separate gene. New `CON-583`: court, basket and boundary
+  geometry; `CON-584`: dribble, gather and progression
   legality; `CON-585`: release and rim-contact shot-clock requirement;
   `CON-586`: basketball contact and handling law.
 - Scarce strategic resources: possession time, match time, court space, passing
@@ -197,8 +199,10 @@ gene instances but do not enter the signature.
 ### Information Genes
 
 - Existing `INF-116`: expose live sides, score, time and phase state.
-- New `INF-289`: expose the ball, control locus, court and local team shape;
-  `INF-290`: jointly expose score, game clock, shot clock and adjudication;
+- Existing `INF-178`: expose the ball, control locus, court, baskets,
+  boundaries and local team shape in the live broadcast view; the playing
+  surface is a parameter. New `INF-290`: jointly expose score, game clock, shot
+  clock and adjudication;
   `INF-291`: expose final score and box-score settlement.
 - Claims: `NBA26-010`, `NBA26-011`.
 
@@ -275,8 +279,8 @@ gene instances but do not enter the signature.
 |---|---|---|
 | Action | `ACT-008`, `ACT-052`, `ACT-411`, `ACT-412`, `ACT-413`, `ACT-414`, `ACT-415` | teams, controls, pass/shot/defence family |
 | System | `SYS-757`, `SYS-758`, `SYS-759`, `SYS-760`, `SYS-761`, `SYS-762`, `SYS-763` | ball, AI, scoring, adjudication, periods |
-| Constraint | `CON-582`, `CON-583`, `CON-584`, `CON-585`, `CON-586` | five, court, handling, clocks, law |
-| Information | `INF-116`, `INF-289`, `INF-290`, `INF-291` | camera, markers, scorebug, box score |
+| Constraint | `CON-398`, `CON-583`, `CON-584`, `CON-585`, `CON-586` | five, court, handling, clocks, law |
+| Information | `INF-116`, `INF-178`, `INF-290`, `INF-291` | camera, markers, scorebug, box score |
 | Objective | `OBJ-149` | sides, final points, result |
 | Time | `TIM-003` | game and possession cadence |
 
@@ -285,7 +289,7 @@ gene instances but do not enter the signature.
 - Comparison algorithm: `genome-jaccard-v1`.
 - Prior game signatures scanned: `240` (`GAME-0001`–`GAME-0240`).
 - Exact genome matches: none.
-- Tied near matches: `GAME-0163` — EA SPORTS FC 26 (`4 / 41 = 0.097561`).
+- Tied near matches: `GAME-0163` — EA SPORTS FC 26 (`6 / 39 = 0.153846`).
 - Supported combination subsets: `COMB-0239`.
 - Scan date: 2026-09-03.
 
@@ -293,13 +297,17 @@ gene instances but do not enter the signature.
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0163` — EA SPORTS FC 26 | `ACT-008`, `ACT-052`, `INF-116`, `TIM-003` | FC 26 uses a free football, eleven-player side, offside, single-value goals and a valid draw. NBA 2K26 instead adds held/dribbled possession, five-player court geometry, a shot clock, release timing, rebounds, basketball remedies, weighted points and required overtime. | Near, `0.097561` |
+| `GAME-0163` — EA SPORTS FC 26 | `ACT-008`, `ACT-052`, `CON-398`, `INF-116`, `INF-178`, `TIM-003` | both move one directly controlled member of a multi-member side through a live broadcast view, hold exactly one transferable control locus over that side, read ball, control marker and local team shape from the same view, expose live side, score, time and phase state, and resolve in real time. FC 26 uses a free football, an eleven-player side, offside, single-value goals and a valid draw. NBA 2K26 instead adds held and dribbled possession, five-player court geometry, a shot clock, release timing, rebounds, basketball remedies, weighted points and required overtime. `TAXONOMY_CHANGE_019` raised the shared core from four genes to six by merging the sport-specific control and view duplicates. | Near, `0.153846` |
 
 ### Preserved research notes
 
-- New genes: `ACT-411`–`ACT-415`, `SYS-757`–`SYS-763`, `CON-582`–`CON-586`,
-  `INF-289`–`INF-291`, `OBJ-149`.
-- Reused genes: `ACT-008`, `ACT-052`, `INF-116`, `TIM-003`.
+- New genes: `ACT-411`–`ACT-415`, `SYS-757`–`SYS-763`, `CON-583`–`CON-586`,
+  `INF-290`, `INF-291`, `OBJ-149`.
+- Reused genes: `ACT-008`, `ACT-052`, `CON-398`, `INF-116`, `INF-178`,
+  `TIM-003`. `CON-582` and `INF-289` were merged into `CON-398` and `INF-178`
+  by
+  [`TAXONOMY_CHANGE_019`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_019.md),
+  which established that a side's size and its playing surface are parameters.
 - Result: `New gene` and `New combination of known and new genes`. Product,
   teams, settings, controls and numeric values remain parameters.
 
@@ -310,9 +318,12 @@ gene instances but do not enter the signature.
 
 ## Negative results
 
-- Football-specific `ACT-267`–`ACT-269`, `SYS-457`–`SYS-463`, `CON-398`–
-  `CON-401`, `INF-178` and `OBJ-090` are rejected: their boundary is a free
-  football, eleven-player side, offside, goalkeeping and/or valid draw.
+- Football-specific `ACT-267`–`ACT-269`, `SYS-457`–`SYS-463`, `CON-399`–
+  `CON-401` and `OBJ-090` are rejected: their boundary is a free football,
+  eleven-player side, offside, goalkeeping and/or valid draw. `CON-398` and
+  `INF-178` are no longer among them: `TAXONOMY_CHANGE_019` merged their
+  sport-specific duplicates into them and restated both as sport-neutral
+  boundaries, so this packet reuses rather than rejects them.
 - `ACT-411` does not encode either team or five-minute value. `SYS-762` does not
   encode the point amounts in its label. The fixed matchup and numbers remain
   game parameters. Persistent rosters, economy, coaching and other modes are

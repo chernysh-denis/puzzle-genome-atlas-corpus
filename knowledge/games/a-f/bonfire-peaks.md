@@ -133,8 +133,9 @@ gene_ids:
   climbed only through approaches that provide valid destinations and
   clearance for both avatar and front-held crate; carrying makes climbing
   stricter than walking alone.
-- `CON-100` is the merged historical alias for this Bonfire Peaks-specific
-  carried form; no canonical signature uses it after normalisation 005.
+- `CON-100` is the historical Bonfire Peaks-specific alias of that carried
+  form, and normalisation 005 merged `CON-100` into `CON-090` through
+  `TAXONOMY_CHANGE_009`; no canonical signature has used it since.
 - Claim IDs: `BFP-002`, `BFP-005`, `BFP-006`, `BFP-009`.
 
 ### Information Genes
@@ -270,7 +271,8 @@ No pre-migration reviewed selected-neighbour table row exists for: `GAME-0053`.
   game signature.
 - Initially kept detachable carried-object clearance (`CON-100`) distinct from
   permanent tool clearance (`CON-090`). Normalisation 005 later showed that
-  attachment lifetime is a coupling parameter and merged the two constraints.
+  attachment lifetime is a coupling parameter and merged `CON-100` into
+  `CON-090`.
 
 ## Negative results
 

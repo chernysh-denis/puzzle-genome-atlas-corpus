@@ -24,8 +24,8 @@ gene_ids:
     - SYS-380
     - SYS-456
     - SYS-467
+    - SYS-468
     - SYS-578
-    - SYS-781
     - SYS-782
   constraint:
     - CON-175
@@ -239,8 +239,12 @@ gene instances but do not enter the signature.
   `SYS-166`: trigger retained Boon effects at their declared combat, damage,
   reward, movement or chamber events; `SYS-467`: compose accepted Boons and
   compatible upgrades into the current disposable attempt build.
-- New `SYS-781`: advance the same attempt through boss-gated regions toward
-  the scoped escape; `SYS-782`: at death or first-clear closure, discard the
+- Existing `SYS-468`: advance the same attempt through guardian-gated regions
+  toward the scoped escape. Whether the bounded area is called a floor or a
+  region and whether the settlement is called an ending or an escape are
+  authored names of the same boundary, which
+  [`TAXONOMY_CHANGE_024`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_024.md)
+  established. New `SYS-782`: at death or first-clear closure, discard the
   transient chamber/build state and return control to the persistent hub while
   retaining eligible metaprogression and attempt/story state.
 - Resolution order: sample current chamber state; expose local hazards and
@@ -376,7 +380,7 @@ gene instances but do not enter the signature.
 | Type | Active gene IDs | Candidate genes or parameters |
 |---|---|---|
 | Action | `ACT-008`, `ACT-130`, `ACT-140`, `ACT-161`, `ACT-190`, `ACT-356` | controls, target, Boon, route, purchase and Dash values |
-| System Behaviour | `SYS-004`, `SYS-166`, `SYS-167`, `SYS-215`, `SYS-222`, `SYS-362`, `SYS-380`, `SYS-456`, `SYS-467`, `SYS-578`, `SYS-781`, `SYS-782` | seed, combat, reward, build, health, region and terminal values |
+| System Behaviour | `SYS-004`, `SYS-166`, `SYS-167`, `SYS-215`, `SYS-222`, `SYS-362`, `SYS-380`, `SYS-456`, `SYS-467`, `SYS-468`, `SYS-578`, `SYS-782` | seed, combat, reward, build, health, region and terminal values |
 | Constraint | `CON-175`, `CON-188`, `CON-269`, `CON-402`, `CON-596` | Life, ability, wave, offer, prerequisite and slot values |
 | Information | `INF-002`, `INF-119`, `INF-179`, `INF-305`, `INF-306` | room, HUD, door-preview and Boon-offer presentation |
 | Objective | `OBJ-156` | attempt entry, guardians, escape, death and House return |
@@ -387,7 +391,7 @@ gene instances but do not enter the signature.
 - Comparison algorithm: `genome-jaccard-v1`.
 - Prior game signatures scanned: `250` (`GAME-0001`–`GAME-0250`).
 - Exact genome matches: none.
-- Tied near matches: `GAME-0164` — The Binding of Isaac: Rebirth (`14 / 44 = 0.318182`).
+- Tied near matches: `GAME-0164` — The Binding of Isaac: Rebirth (`15 / 43 = 0.348837`).
 - Supported combination subsets: `COMB-0249`.
 - Scan date: 2026-09-05.
 
@@ -395,15 +399,14 @@ gene instances but do not enter the signature.
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0164` — The Binding of Isaac: Rebirth | `ACT-008`, `ACT-130`, `ACT-161`, `ACT-190`, `SYS-004`, `SYS-215`, `SYS-222`, `SYS-467`, `CON-175`, `CON-402`, `INF-002`, `INF-119`, `INF-179`, `TIM-003` | Both directly navigate and attack through locked random rooms, carry finite health and a disposable build, spend run currency and conceal later content. Isaac exposes an explored floor graph and prices access with keys/bombs while cumulative pedestal items lead to the first Mom ending; Hades adds protected directional Dash, typed abilities, reward-labelled successor doors, compatible one-of-many Boon offers, boss-gated regions and a common House return retaining meta resources/story state after either death or escape. | Near, `0.318182` |
+| `GAME-0164` — The Binding of Isaac: Rebirth | `ACT-008`, `ACT-130`, `ACT-161`, `ACT-190`, `SYS-004`, `SYS-215`, `SYS-222`, `SYS-467`, `SYS-468`, `CON-175`, `CON-402`, `INF-002`, `INF-119`, `INF-179`, `TIM-003` | Both directly navigate and attack through locked random rooms, carry finite health and a disposable build, spend run currency, conceal later content and, since `TAXONOMY_CHANGE_024`, advance the same carried run through guardian-gated bounded areas to a final settlement. Isaac exposes an explored floor graph and prices access with keys/bombs while cumulative pedestal items lead to the first Mom ending; Hades adds protected directional Dash, typed abilities, reward-labelled successor doors, compatible one-of-many Boon offers, and a common House return retaining meta resources/story state after either death or escape. | Near, `0.348837` |
 
 ### Preserved research notes
 
-- New genes: `SYS-781`, `SYS-782`, `CON-596`, `INF-305`, `INF-306` and
-  `OBJ-156`.
+- New genes: `SYS-782`, `CON-596`, `INF-305`, `INF-306` and `OBJ-156`.
 - Reused genes: `ACT-008`, `ACT-130`, `ACT-140`, `ACT-161`, `ACT-190`,
   `ACT-356`, `SYS-004`, `SYS-166`, `SYS-167`, `SYS-215`, `SYS-222`,
-  `SYS-362`, `SYS-380`, `SYS-456`, `SYS-467`, `SYS-578`, `CON-175`,
+  `SYS-362`, `SYS-380`, `SYS-456`, `SYS-467`, `SYS-468`, `SYS-578`, `CON-175`,
   `CON-188`, `CON-269`, `CON-402`, `INF-002`, `INF-119`, `INF-179` and
   `TIM-003`.
 - Classification result: `New combination of known and new genes`.
@@ -415,8 +418,10 @@ gene instances but do not enter the signature.
 - Lower-ID scan: reject `SYS-464`, because Hades samples a forward chamber
   chain rather than an explorable floor graph; reject `SYS-465`, because the
   chamber reward is previewed before entry rather than first sampled at
-  clearance; reject `SYS-468`, because its reviewed floor/trapdoor ending does
-  not cover a four-region escape and House return; reject `SYS-469`, because
+  clearance; `SYS-468` is now reused rather than rejected — its earlier
+  floor-and-trapdoor wording was the Isaac naming of the same guardian-gated
+  sequence, and the House return it did not cover belongs to `SYS-782`, not to
+  the progression rule; reject `SYS-469`, because
   Hades retains collected metaprogression currency and attempt/story state, not
   only eligible save unlocks; reject `SYS-575`/`SYS-576`, because a Boon offer
   is reward-triggered and capability-slot-compatible rather than caused by an
@@ -428,11 +433,14 @@ gene instances but do not enter the signature.
 
 ## Taxonomy impact
 
-- Registry changes: six new Active genes; one reused definition (`SYS-467`) is
+- Registry changes: five new Active genes; one reused definition (`SYS-467`) is
   broadened from a pedestal-only instance to its already portable run-build
-  label and now cites both supporting games. No lifecycle state or earlier
-  reviewed signature changes.
-- Taxonomy-change record: none; this is additive game-unit taxonomy work.
+  label and now cites both supporting games. The `GAME-0164` signature is
+  unchanged.
+- Taxonomy-change record:
+  [`TAXONOMY_CHANGE_024`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_024.md)
+  merged `SYS-781` into `SYS-468` and restated the survivor so the area and
+  terminal names are parameters; this signature substitutes the survivor.
 - Candidate terms affected: recorded in `CANDIDATE_TERMS.md`; Hades, Zagreus,
   Tartarus, House of Hades, Pool of Styx, Charon, Mirror of Night, Infernal
   Arms, God Mode, Hell Mode, Pact of Punishment, Heat, Boon, Obol and named
@@ -444,8 +452,10 @@ gene instances but do not enter the signature.
 - No direct-play, local-entitlement, screenshot, video or audio claim.
 - No later attempt, Mirror, weapon, Keepsake, relationship, House economy,
   Pact/Heat, God/Hell, whole-story, Hades II, platform or live-history union.
-- No earlier reviewed signature or lifecycle state changes. The generic
-  `SYS-467` wording correction preserves every earlier carrier's meaning.
+- No earlier reviewed game signature changes. The generic `SYS-467` wording
+  correction preserves every earlier carrier's meaning, and
+  `TAXONOMY_CHANGE_024`'s restatement of `SYS-468` likewise leaves the
+  `GAME-0164` signature and interpretation intact.
 
 ## Combination subset scan
 
@@ -470,10 +480,10 @@ gene instances but do not enter the signature.
 
 ## New genes
 
-- [Observation | Corroborated | High] `SYS-781` advances one carried build
-  through boss-gated regions; `SYS-782` separates discarded attempt state from
-  retained hub metaprogression; `CON-596` gates offered run modifiers by
-  prerequisites and exclusive capability slots.
+- [Observation | Corroborated | High] `SYS-782` separates discarded attempt
+  state from retained hub metaprogression; `CON-596` gates offered run modifiers
+  by prerequisites and exclusive capability slots. Advancing one carried build
+  through guardian-gated areas reuses `SYS-468`.
 - [Observation | Corroborated | High] `INF-305` previews reward/risk on
   successor exits; `INF-306` exposes complete build-choice consequences;
   `OBJ-156` fixes the multi-region escape-versus-health attempt objective.
@@ -490,6 +500,9 @@ gene instances but do not enter the signature.
 - [Observation | Corroborated | High] `SYS-467` now states the portable
   run-local upgrade meaning already implied by its label; no prior signature or
   carrier interpretation changes.
+- [Observation | Corroborated | High] `TAXONOMY_CHANGE_024` merged `SYS-781`
+  into `SYS-468` and restated the survivor so the area and terminal names are
+  parameters; no earlier reviewed game signature changed.
 
 ## New questions
 

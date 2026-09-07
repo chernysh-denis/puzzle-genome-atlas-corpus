@@ -16,7 +16,7 @@ gene_ids:
     - CON-001
     - CON-029
     - CON-030
-    - CON-376
+    - CON-112
     - CON-377
   information:
     - INF-003
@@ -140,9 +140,12 @@ gene_ids:
   branch, disconnect or revisit a cell.
 - `CON-030` — exclusive path-cell occupancy. Accepted answer paths cannot share
   a letter cell in the final solution partition.
-- `CON-376` — variable-length lexicon membership gate. At least four traced
+- `CON-112` — declared-length lexicon membership gate. At least four traced
   letters must form a recognised word before answer classification or Hint
-  credit; unlike Wordle, no single exact word length defines every proposal.
+  credit. The minimum-length form of the predicate is a parameter of the same
+  gate that Wordle instantiates with an exact length, which
+  [`TAXONOMY_CHANGE_021`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_021.md)
+  established.
 - `CON-377` — spanning answer connects opposite grid boundaries. Exactly one
   designated spangram path must reach top-to-bottom or left-to-right and
   describe the commonality among the other answers.
@@ -263,14 +266,14 @@ or archived NYT answer board.
 |---|---|---|
 | Action | `ACT-255` | touch or mouse sampling and submission gesture |
 | System Behaviour | `SYS-427`, `SYS-428` | answer set, Hint threshold and target selection |
-| Constraint | `CON-001`, `CON-029`, `CON-030`, `CON-376`, `CON-377` | 6 × 8 size, eight-neighbour topology and spangram side pair |
+| Constraint | `CON-001`, `CON-029`, `CON-030`, `CON-112`, `CON-377` | 6 × 8 size, eight-neighbour topology and spangram side pair |
 | Information | `INF-003`, `INF-166` | theme wording, retained colours and hint presentation |
 | Objective | `OBJ-085` | answer count and exact 48-cell coverage |
 | Time | `TIM-002` | self-paced within the daily attempt |
 
 Canonical signature:
 
-`ACT-255; SYS-427,SYS-428; CON-001,CON-029,CON-030,CON-376,CON-377; INF-003,INF-166; OBJ-085; TIM-002`
+`ACT-255; SYS-427,SYS-428; CON-001,CON-029,CON-030,CON-112,CON-377; INF-003,INF-166; OBJ-085; TIM-002`
 
 ## Corpus comparison
 
@@ -291,9 +294,11 @@ Canonical signature:
 
 - New combination: `COMB-0154`, whose ten-gene themed hidden-path core is a
   proper subset of this twelve-gene genome.
-- New genes: `ACT-255`, `SYS-427`, `SYS-428`, `CON-376`, `CON-377`, `INF-166`
-  and `OBJ-085`.
-- Reused genes: `CON-001`, `CON-029`, `CON-030`, `INF-003` and `TIM-002`.
+- New genes: `ACT-255`, `SYS-427`, `SYS-428`, `CON-377`, `INF-166` and
+  `OBJ-085`.
+- Reused genes: `CON-001`, `CON-029`, `CON-030`, `CON-112`, `INF-003` and
+  `TIM-002`. `CON-376` was merged into `CON-112` by
+  [`TAXONOMY_CHANGE_021`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_021.md).
 - Classification result: `New gene`.
 - Evidence and reasoning: the spatial word proposal has no fixed endpoint;
   answer-set classification and earned staged assistance are automatic
@@ -319,8 +324,10 @@ Canonical signature:
   particular answer word as a gene; each is authored instance content.
 - `ACT-016` is too narrow because it requires a fixed start and declared
   terminal; broadening it would erase a stable decision boundary.
-- `CON-112` is rejected because Strands accepts variable lengths above a
-  minimum rather than one declared exact length.
+- `CON-112` is reused rather than rejected. Its earlier exact-length reading was
+  a parameter of the same gate, and `TAXONOMY_CHANGE_021` restated the boundary
+  as a declared length predicate whose exact or minimum form is scoped per
+  ruleset.
 - `SYS-104`, `INF-034` and `OBJ-041` are rejected because there is no one-word
   positional similarity query or exact-sequence terminal predicate.
 - `OBJ-006` is rejected because its definition excludes revealing pre-existing
@@ -382,7 +389,7 @@ Canonical signature:
   co-op campaign scope can preserve repeated partner-recovery rules while
   treating each authored genre shift as parameterised content.
 - [Hypothesis | Limited | Medium] Future word-path games may recur with
-  `ACT-255`, `CON-029` and `CON-376` but omit the hidden exact-cover objective,
+  `ACT-255`, `CON-029` and `CON-112` but omit the hidden exact-cover objective,
   testing whether `COMB-0154` should remain Strands-specific.
 - [Hypothesis | Limited | Medium] A future official interface review may refine
   Hint presentation parameters without changing the canonical signature.

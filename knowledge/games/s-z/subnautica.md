@@ -30,10 +30,10 @@ gene_ids:
     - SYS-547
     - SYS-548
   constraint:
+    - CON-297
     - CON-394
     - CON-460
     - CON-461
-    - CON-462
     - CON-463
     - CON-464
     - CON-465
@@ -191,12 +191,17 @@ gene instances but do not enter the signature.
 
 ### Constraint Genes
 
-- Existing gene: `CON-394`, carried items require compatible rectangular
-  inventory cells or equipment slots.
+- Existing genes: `CON-394`, carried items require compatible rectangular
+  inventory cells or equipment slots; `CON-297`, fabrication requires the known
+  recipe, every required ingredient, a compatible station that can operate and
+  an output that fits eligible carried state. The station class, its power
+  requirement and the rectangular output footprint are parameters of that same
+  legality boundary, which
+  [`TAXONOMY_CHANGE_025`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_025.md)
+  established; Habitat Builder placement stays outside it in `CON-463`.
 - New genes: `CON-460`, underwater action is bounded by remaining oxygen and a
   reachable air source; `CON-461`, each fragment blueprint requires its own
-  scan count; `CON-462`, crafting requires known recipe, ingredients, capacity
-  and the correct available fabricator; `CON-463`, habitat construction requires
+  scan count; `CON-463`, habitat construction requires
   legal placement, material and positive recoverable hull integrity; `CON-464`,
   habitat oxygen and powered functions require connected generation and stored
   energy; `CON-465`, Seamoth motion requires energy and remains safe only within
@@ -312,7 +317,7 @@ gene instances but do not enter the signature.
 |---|---|---|
 | Action | `ACT-008`, `ACT-123`, `ACT-164`, `ACT-165`, `ACT-201`, `ACT-245`, `ACT-311`–`ACT-315` | dive route, collection, scan, fabrication, building and vehicle input |
 | System Behaviour | `SYS-216`, `SYS-320`, `SYS-327`, `SYS-543`–`SYS-548` | oxygen, blueprint progress, conversion, hull, power and crush damage |
-| Constraint | `CON-394`, `CON-460`–`CON-465` | carried cells, air, fragments, recipe, placement, power and depth |
+| Constraint | `CON-297`, `CON-394`, `CON-460`, `CON-461`, `CON-463`–`CON-465` | carried cells, air, fragments, recipe, placement, power and depth |
 | Information | `INF-073`, `INF-075`, `INF-132`, `INF-223` | HUD, PDA, scan, base and vehicle state |
 | Objective | `OBJ-102` | first Seamoth and safe powered-habitat return |
 | Time | `TIM-003` | real-time Survival and exploration |
@@ -322,7 +327,7 @@ gene instances but do not enter the signature.
 - Comparison algorithm: `genome-jaccard-v1`.
 - Prior game signatures scanned: `177` (`GAME-0001`–`GAME-0177`).
 - Exact genome matches: none.
-- Tied near matches: `GAME-0141` — Rust (`10 / 74 = 0.135135`).
+- Tied near matches: `GAME-0141` — Rust (`11 / 73 = 0.150685`).
 - Supported combination subsets: `COMB-0176`.
 - Scan date: 2026-08-28.
 
@@ -330,15 +335,20 @@ gene instances but do not enter the signature.
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0141` — Rust | `ACT-008`, `ACT-123`, `ACT-164`, `ACT-165`, `SYS-216`, `SYS-327`, `INF-073`, `INF-075`, `INF-132`, `TIM-003` | Both couple embodied real-time survival, carried tools, food, crafting knowledge and persistent-world respawn. Subnautica replaces a procedural shared island, combat raiding, building privilege, upkeep, Workbench research and scheduled wipes with oxygen-limited vertical sorties, counted fragment scanning, pressure-hull flooding, power-generated interior air and a crush-limited submersible | Near, `0.135135` |
+| `GAME-0141` — Rust | `ACT-008`, `ACT-123`, `ACT-164`, `ACT-165`, `SYS-216`, `SYS-327`, `CON-297`, `INF-073`, `INF-075`, `INF-132`, `TIM-003` | Both couple embodied real-time survival, carried tools, food, crafting knowledge and persistent-world respawn, and since `TAXONOMY_CHANGE_025` both carry the same crafting-legality rule, whose station class, power requirement and output footprint are parameters. Subnautica replaces a procedural shared island, combat raiding, building privilege, upkeep, Workbench research and scheduled wipes with oxygen-limited vertical sorties, counted fragment scanning, pressure-hull flooding, power-generated interior air and a crush-limited submersible | Near, `0.150685` |
 
 ### Preserved research notes
 
-- New genes: `ACT-311`–`ACT-315`, `SYS-543`–`SYS-548`, `CON-460`–`CON-465`,
-  `INF-223` and `OBJ-102`.
+- New genes: `ACT-311`–`ACT-315`, `SYS-543`–`SYS-548`, `CON-460`, `CON-461`,
+  `CON-463`–`CON-465`, `INF-223` and `OBJ-102`.
+- Reused genes now include `CON-297`. `CON-462` was merged into it by
+  [`TAXONOMY_CHANGE_025`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_025.md),
+  which subsumed three product-specific crafting-legality records into the
+  parameterised boundary without changing this genome's size or any other
+  carrier's signature.
 - Classification result: `New gene` and new verified interaction combination.
-- Evidence and reasoning: fourteen established boundaries fit without change;
-  nineteen new records isolate hydration, fauna capture, fragment analysis,
+- Evidence and reasoning: fifteen established boundaries fit without change;
+  eighteen new records isolate hydration, fauna capture, fragment analysis,
   underwater construction, oxygen, powered fabrication, pressure integrity,
   life-support power, crush depth and the safe-return terminal.
 
@@ -350,10 +360,13 @@ gene instances but do not enter the signature.
 
 ## Taxonomy impact
 
-- Registry changes: nineteen new Active genes, links on fourteen reused genes,
+- Registry changes: eighteen new Active genes, links on fifteen reused genes,
   `COMB-0176` and five existing family memberships.
-- Taxonomy-change record: none; no prior lifecycle, definition or signature
-  changes.
+- Taxonomy-change record:
+  [`TAXONOMY_CHANGE_025`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_025.md)
+  merged `CON-462` into `CON-297` and restated the survivor so the station
+  class, power requirement and output footprint are parameters; this signature
+  substitutes the survivor and no other reviewed game signature changed.
 - Candidate terms affected: hydration consumption, moving-fauna capture,
   fragment scan, habitat construction, floating vehicle bay, oxygen reserve,
   blueprint count, powered fabrication, pressure hull, life support and crush

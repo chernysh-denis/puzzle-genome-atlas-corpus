@@ -366,7 +366,7 @@ gene instances but do not enter the signature.
 - Comparison algorithm: `genome-jaccard-v1`.
 - Prior game signatures scanned: `196` (`GAME-0001`–`GAME-0196`).
 - Exact genome matches: none.
-- Tied near matches: `GAME-0186` — Don’t Starve Together (`20 / 64 = 0.312500`).
+- Tied near matches: `GAME-0186` — Don’t Starve Together (`21 / 63 = 0.333333`).
 - Supported combination subsets: `COMB-0195`.
 - Scan date: 2026-08-30.
 
@@ -374,7 +374,7 @@ gene instances but do not enter the signature.
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0186` — Don’t Starve Together | navigate, harvest, craft, fight, equip and build in a procedural survival world with bounded inventory, durability, station-gated production, day/night ecology, direct combat, recoverable death and continuously changing personal state | Valheim is a solo Normal seed whose three distinct foods configure health/stamina, shelter and fire yield Rested/covered-Workbench operation, one Vegvisir selects the nearest generated altar, two trophies summon Eikthyr and a guaranteed boss trophy must settle at a separate stone; the scoped DST packet instead coordinates two players through hunger/sanity/temperature, seasons, science prototyping, ghosts and an Ancient Fuelweaver checkpoint | Near, `0.312500` |
+| `GAME-0186` — Don’t Starve Together | navigate, harvest, craft, fight, equip and build in a procedural survival world with bounded inventory, durability, one shared station-gated crafting-legality rule since `TAXONOMY_CHANGE_025`, day/night ecology, direct combat, recoverable death and continuously changing personal state | Valheim is a solo Normal seed whose three distinct foods configure health/stamina, shelter and fire yield Rested/covered-Workbench operation, one Vegvisir selects the nearest generated altar, two trophies summon Eikthyr and a guaranteed boss trophy must settle at a separate stone; the scoped DST packet instead coordinates two players through hunger/sanity/temperature, seasons, science prototyping, ghosts and an Ancient Fuelweaver checkpoint | Near, `0.333333` |
 
 ### Preserved research notes
 

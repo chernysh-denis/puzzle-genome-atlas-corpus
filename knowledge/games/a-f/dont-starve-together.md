@@ -36,7 +36,7 @@ gene_ids:
   constraint:
     - CON-210
     - CON-281
-    - CON-366
+    - CON-297
     - CON-496
     - CON-497
     - CON-498
@@ -241,8 +241,13 @@ gene instances but do not enter the signature.
   capacity.
 - Existing `CON-281`: survival requires recoverable hunger, temperature, health,
   protection and durable equipment state.
-- Existing `CON-366`: each craft requires all ingredients and any reachable
-  station context.
+- Existing `CON-297`: each craft requires the known recipe, all ingredient
+  quantities from an admitted inventory source and reach of any station or
+  environmental context the recipe declares. The admitted sources and the
+  station's form are parameters of that same legality boundary, which
+  [`TAXONOMY_CHANGE_025`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_025.md)
+  established; `CON-498`'s science-tier proximity rule, which lapses after a
+  personal prototype, stays a separate constraint.
 - New `CON-496`: harvesting requires compatible source, reach, action and tool
   state.
 - New `CON-497`: complete darkness requires a live local light source.
@@ -379,7 +384,7 @@ gene instances but do not enter the signature.
 |---|---|---|
 | Action | `ACT-008`, `ACT-087`, `ACT-122`, `ACT-123`, `ACT-161`, `ACT-164`, `ACT-165`, `ACT-199`, `ACT-338`, `ACT-339` | move, fuel, harvest, craft, fight, select, eat, transfer, place and revive parameters |
 | System Behaviour | `SYS-215`, `SYS-223`, `SYS-326`, `SYS-327`, `SYS-329`, `SYS-353`, `SYS-416`, `SYS-591`–`SYS-597` | combat, wear, world, survival, cooking, craft, clock, resources, sanity, light, science, season, death and perishability |
-| Constraint | `CON-210`, `CON-281`, `CON-366`, `CON-496`–`CON-501` | slots, survival, recipes, harvest, darkness, science, placement, revival and sanity parameters |
+| Constraint | `CON-210`, `CON-281`, `CON-297`, `CON-496`–`CON-501` | slots, survival, recipes, harvest, darkness, science, placement, revival and sanity parameters |
 | Information | `INF-073`, `INF-075`, `INF-128`, `INF-132`, `INF-136`, `INF-240`, `INF-241` | inventory, meters, loot, recipe, calendar, danger and map observations |
 | Objective | `OBJ-110` | two living survivors, warm shared base and Spring transition |
 | Time | `TIM-003` | concurrent players and continuously advancing survival world |
@@ -389,7 +394,7 @@ gene instances but do not enter the signature.
 - Comparison algorithm: `genome-jaccard-v1`.
 - Prior game signatures scanned: `185` (`GAME-0001`–`GAME-0185`).
 - Exact genome matches: none.
-- Tied near matches: `GAME-0141` — Rust (`19 / 74 = 0.256757`).
+- Tied near matches: `GAME-0141` — Rust (`20 / 73 = 0.273973`).
 - Supported combination subsets: `COMB-0184`.
 - Scan date: 2026-08-29.
 
@@ -397,12 +402,17 @@ gene instances but do not enter the signature.
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0141` — Rust | `ACT-008`, `ACT-122`, `ACT-123`, `ACT-161`, `ACT-164`, `ACT-165`, `ACT-199`, `SYS-215`, `SYS-223`, `SYS-326`, `SYS-327`, `SYS-329`, `CON-210`, `CON-281`, `INF-073`, `INF-075`, `INF-128`, `INF-132`, `TIM-003` | both generate a real-time survival world whose embodied player gathers, crafts, fights and maintains metabolism through finite inventory and durable tools, but DST adds cooperative personal science, sanity-made threats, depleting local darkness protection, perishable food, a fixed seasonal checkpoint and living-to-ghost recovery instead of Rust's ordinary respawn, workbench queue, building territory and PvP persistence | Near, `0.256757` |
+| `GAME-0141` — Rust | `ACT-008`, `ACT-122`, `ACT-123`, `ACT-161`, `ACT-164`, `ACT-165`, `ACT-199`, `SYS-215`, `SYS-223`, `SYS-326`, `SYS-327`, `SYS-329`, `CON-210`, `CON-281`, `CON-297`, `INF-073`, `INF-075`, `INF-128`, `INF-132`, `TIM-003` | both generate a real-time survival world whose embodied player gathers, crafts, fights and maintains metabolism through finite inventory and durable tools, and since `TAXONOMY_CHANGE_025` both carry the same crafting-legality rule, whose admitted ingredient sources and station context are parameters; but DST adds cooperative personal science, sanity-made threats, depleting local darkness protection, perishable food, a fixed seasonal checkpoint and living-to-ghost recovery instead of Rust's ordinary respawn, workbench queue, building territory and PvP persistence | Near, `0.273973` |
 
 ### Preserved research notes
 
 - New genes: `ACT-338`–`ACT-339`, `SYS-591`–`SYS-597`, `CON-496`–`CON-501`,
   `INF-240`–`INF-241` and `OBJ-110`.
+- Reused genes now include `CON-297`. `CON-366` was merged into it by
+  [`TAXONOMY_CHANGE_025`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_025.md),
+  which subsumed three product-specific crafting-legality records into the
+  parameterised boundary without changing this genome's size or any other
+  carrier's signature.
 - Classification result: `New gene` and new verified interaction combination.
 - Evidence and reasoning: embodied movement, inventory, gathering, crafting,
   combat, procedural generation and real-time survival reuse safely; sanity
@@ -421,8 +431,11 @@ gene instances but do not enter the signature.
 
 - Registry changes: eighteen new Active genes, links on twenty-four reused
   genes, `COMB-0184` and four existing family memberships.
-- Taxonomy-change record: none; no prior lifecycle, definition or reviewed game
-  signature changes.
+- Taxonomy-change record:
+  [`TAXONOMY_CHANGE_025`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_025.md)
+  merged `CON-366` into `CON-297` and restated the survivor so the ingredient
+  source and station context are parameters; this signature substitutes the
+  survivor and no other reviewed game signature changed.
 - Candidate terms affected: survival fixture placement, ghost-item recovery,
   renewable harvesting, sanity manifestation, fuelled darkness protection,
   personal science prototypes, seasonal ecology, ghost/reset state, food

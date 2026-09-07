@@ -11,7 +11,7 @@ gene_ids:
     - ACT-290
     - ACT-292
     - ACT-293
-    - ACT-357
+    - ACT-309
   system:
     - SYS-320
     - SYS-365
@@ -150,8 +150,10 @@ gene instances but do not enter the signature.
   gearbox profile before event entry.
 - Existing `ACT-293`: commit the available `Shopping Spree` marker and its
   route, class, `$0` buy-in, field and result rules.
-- New `ACT-357`: spend the currently accumulated Burst Nitrous reserve for a
-  tactical acceleration burst during race or pursuit.
+- Existing `ACT-309`: spend the currently accumulated Burst Nitrous reserve for
+  a tactical acceleration burst during race or pursuit. The command is the
+  spend of a finite vehicle acceleration reserve; how that reserve is filled is
+  a parameter carried separately by `SYS-641`.
 - Parameters: starter, controls, gearbox, difficulty, route, throttle, brake,
   steering, drift/grip line, Burst amount and activation timing.
 - Claim IDs: `NFSU-002`–`NFSU-006`.
@@ -298,7 +300,7 @@ gene instances but do not enter the signature.
 
 | Type | Active gene IDs | Candidate genes or parameters |
 |---|---|---|
-| Action | `ACT-290`, `ACT-292`, `ACT-293`, `ACT-357` | fixed direct drive, difficulty/event commitment and Burst spending |
+| Action | `ACT-290`, `ACT-292`, `ACT-293`, `ACT-309` | fixed direct drive, difficulty/event commitment and Burst spending |
 | System Behaviour | `SYS-320`, `SYS-365`, `SYS-366`, `SYS-515`, `SYS-516`, `SYS-519`, `SYS-641`, `SYS-642` | car/traffic/rivals, route, Heat pursuit, Burst and at-risk cash |
 | Constraint | `CON-328`, `CON-437`, `CON-438`, `CON-523` | unseen escape, A+ eligibility, ordered route and garage gate |
 | Information | `INF-144`, `INF-204`–`INF-206`, `INF-208`, `INF-255` | route/race/event/result plus Burst, Heat and cash state |
@@ -322,28 +324,38 @@ gene instances but do not enter the signature.
 
 ### Preserved research notes
 
-- New genes: `ACT-357`, `SYS-641`, `SYS-642`, `CON-523`, `INF-255`,
-  `OBJ-122`.
+- New genes: `SYS-641`, `SYS-642`, `CON-523`, `INF-255`, `OBJ-122`.
+- Reused genes include `ACT-309` for the Burst spend command; `ACT-357` was
+  merged into it by
+  [`TAXONOMY_CHANGE_018`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_018.md).
 - Classification result: `New combination of known and new genes`.
 - Evidence and reasoning: existing driving, race-result, traffic, pursuit and
   campaign-settlement records cover the reusable corridor. New records isolate
-  only Unbound's earned Burst activation, at-risk earnings through forced
-  pursuit, the garage-after-escape gate, joint risk HUD and exact terminal.
+  only Unbound's Burst accumulation from driving technique, at-risk earnings
+  through forced pursuit, the garage-after-escape gate, joint risk HUD and
+  exact terminal. The Burst *activation* command itself is `ACT-309`, whose
+  boundary does not own the reserve's filling rule.
 
 ## Taxonomy impact
 
-- Registry changes: six new Active definitions; new Unbound support for
-  eighteen existing records. Generic driving-event, Heat and result wording is
+- Registry changes: five new Active definitions; new Unbound support for
+  nineteen existing records, including `ACT-309`. Generic driving-event, Heat and result wording is
   widened without changing any earlier reviewed signature.
-- Taxonomy-change record: none; no prior game signature changes.
+- Taxonomy-change record:
+  [`TAXONOMY_CHANGE_018`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_018.md)
+  merged this record's former `ACT-357` into `ACT-309`. No other game signature
+  changes.
 - Candidate terms affected: Burst Nitrous, grip/drift gain, drafting, street
   race, buy-in, payout table, Heat, pursuit, search, bust, exposed cash and
   garage banking.
 
 ## Negative results
 
-- Rocket League's `ACT-309` and boost-pad system genes are rejected because
-  Unbound earns Burst through driving events rather than spatial pad pickup.
+- Rocket League's boost-pad system genes are rejected because Unbound fills
+  Burst through driving events rather than spatial pad pickup. `ACT-309` itself
+  is *not* rejected: `TAXONOMY_CHANGE_018` established that the spend command
+  does not own the reserve's acquisition rule, so this packet reuses `ACT-309`
+  and keeps the technique-earned filling in `SYS-641`.
 - Forza campaign-point and Wristband genes are rejected because this one event
   ends before any Qualifier gate and admits no campaign threshold.
 - BeamNG soft-body and mission-recovery genes are rejected because Unbound uses

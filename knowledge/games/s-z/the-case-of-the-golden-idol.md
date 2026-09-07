@@ -127,7 +127,7 @@ gene_ids:
   wrong; this is a feedback-granularity parameter of the same whole-section
   evaluation, not independent per-slot validation.
 - Correct evaluation of the mandatory Scroll accepts the case and makes later
-  cases available. Unlocking is a progression consequence of `OBJ-028`, not a
+  cases available. Unlocking is a progression consequence of `OBJ-017`, not a
   second reusable transition in this one-case scope.
 - `SYS-041` is absent because no death-memory audio or reconstructed scene is
   instantiated after a corpse action. `SYS-042` is absent because one complete

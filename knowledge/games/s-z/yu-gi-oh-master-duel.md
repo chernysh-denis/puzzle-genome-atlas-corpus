@@ -16,10 +16,10 @@ gene_ids:
     - ACT-376
     - ACT-377
   system:
+    - SYS-586
+    - SYS-588
     - SYS-681
-    - SYS-682
     - SYS-683
-    - SYS-684
     - SYS-685
     - SYS-686
   constraint:
@@ -165,14 +165,23 @@ gene_ids:
 
 ### System Behaviour Genes
 
+- Existing `SYS-586`: advance the ordered named turn phases — Draw, Standby,
+  Main 1, optional Battle, optional Main 2 and End — perform the legal Draw and
+  the other phase-bound actions, refresh the shared Normal Summon/Set allowance
+  and transfer the active turn. The phase names, which phases are optional and
+  which allowance each phase restores are parameters of the same boundary that
+  Magic: The Gathering Arena instantiates with untap, upkeep and cleanup, which
+  [`TAXONOMY_CHANGE_022`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_022.md)
+  established.
+- Existing `SYS-588`: apply resolving card text in rules order and route the
+  affected cards among hand, Deck, field, Graveyard, banished state and Extra
+  Deck while retaining current face and position state. The zone names and the
+  state a moved card retains are parameters of the same boundary, established
+  by the same taxonomy change.
 - New `SYS-681`: instantiate the fixed loaner/opponent packets, fixed concealed
   order, five-card hands, LP totals and public zones for chapter `10003`.
-- New `SYS-682`: advance the ordered turn phases, perform the legal Draw and
-  phase-bound actions, refresh turn allowances and transfer the active turn.
 - New `SYS-683`: alternate legal response opportunities, append numbered Chain
   Links and resolve the completed Chain from newest effect to oldest.
-- New `SYS-684`: apply resolving card text and move cards among hand, Deck,
-  field, Graveyard, banished and Extra Deck states.
 - New `SYS-685`: resolve one declared attack from positions and ATK/DEF into
   destruction, battle damage, direct LP damage or no LP change.
 - New `SYS-686`: monitor legal Duel-loss predicates, settle Victory/Defeat and
@@ -316,7 +325,7 @@ gene_ids:
 | Type | Active gene IDs | Candidate genes or parameters |
 |---|---|---|
 | Action | `ACT-371`–`ACT-377` | summon, set, activate, respond, attack and position parameters |
-| System Behaviour | `SYS-681`–`SYS-686` | fixture, phases, Chain, card text, battle and result parameters |
+| System Behaviour | `SYS-586`, `SYS-588`, `SYS-681`, `SYS-683`, `SYS-685`, `SYS-686` | phases, card text, fixture, Chain, battle and result parameters |
 | Constraint | `CON-544`–`CON-549` | loaner, summon, zone, timing, Spell Speed and attack parameters |
 | Information | `INF-003`, `INF-266` | concealed packet and public duel interface parameters |
 | Objective | `OBJ-109` | opponent loss and chapter-clear result parameters |
@@ -327,7 +336,7 @@ gene_ids:
 - Comparison algorithm: `genome-jaccard-v1`.
 - Prior game signatures scanned: `205` (`GAME-0001`–`GAME-0205`).
 - Exact genome matches: none.
-- Tied near matches: `GAME-0185` — Magic: The Gathering Arena (`2 / 47 = 0.042553`).
+- Tied near matches: `GAME-0185` — Magic: The Gathering Arena (`4 / 45 = 0.088889`).
 - Supported combination subsets: `COMB-0204`.
 - Scan date: 2026-09-01.
 
@@ -335,13 +344,16 @@ gene_ids:
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0185` — Magic: The Gathering Arena | `INF-003`, `OBJ-109` | both conceal fixed card information and end one adversarial game at a legal player-loss result; Master Duel replaces land/mana, mulligan, blockers, MTG priority and one-object stack settlement with loaner-only fixed order, one Normal Summon/Set allowance, positions, single attacks and whole-Chain reverse resolution | Near, `0.042553` |
+| `GAME-0185` — Magic: The Gathering Arena | `SYS-586`, `SYS-588`, `INF-003`, `OBJ-109` | both conceal fixed card information, divide an alternating turn into an ordered list of named phases that perform their own automatic actions and refresh their own allowances, resolve card text in rules order into type-defined destination zones, and end one adversarial game at a legal player-loss result; Master Duel replaces land/mana, mulligan, blockers, MTG priority and one-object stack settlement with loaner-only fixed order, one Normal Summon/Set allowance, positions, single attacks and whole-Chain reverse resolution. `TAXONOMY_CHANGE_022` raised the shared core from two genes to four by merging the product-specific phase and card-text duplicates. | Near, `0.088889` |
 
 ### Preserved research notes
 
-- New genes: `ACT-371`–`ACT-377`, `SYS-681`–`SYS-686`, `CON-544`–`CON-549`,
-  `INF-266` and `TIM-020`.
-- Reused genes: `INF-003` and `OBJ-109`; no earlier reviewed signature changed.
+- New genes: `ACT-371`–`ACT-377`, `SYS-681`, `SYS-683`, `SYS-685`, `SYS-686`,
+  `CON-544`–`CON-549`, `INF-266` and `TIM-020`.
+- Reused genes: `SYS-586`, `SYS-588`, `INF-003` and `OBJ-109`. `SYS-682` and
+  `SYS-684` were merged into `SYS-586` and `SYS-588` by
+  [`TAXONOMY_CHANGE_022`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_022.md),
+  which generalised both survivors without changing the `GAME-0185` signature.
 - Classification result: `New gene` and `New combination of known and new genes`.
 - Evidence and reasoning: only fixed concealed current information and the
   single-game opponent-loss objective fit earlier boundaries. The Tutorial
@@ -350,10 +362,13 @@ gene_ids:
 
 ## Taxonomy impact
 
-- Registry changes: twenty-one new Active genes, links on `INF-003` and
-  `OBJ-109`, `COMB-0204` and three existing family memberships.
-- Taxonomy-change record: none; no existing lifecycle, definition or reviewed
-  game signature changes.
+- Registry changes: nineteen new Active genes, links on `SYS-586`, `SYS-588`,
+  `INF-003` and `OBJ-109`, `COMB-0204` and three existing family memberships.
+- Taxonomy-change record:
+  [`TAXONOMY_CHANGE_022`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_022.md)
+  merged `SYS-682` into `SYS-586` and `SYS-684` into `SYS-588` and restated both
+  survivors as ruleset-neutral boundaries. The `GAME-0185` signature is
+  unchanged; this signature substitutes the two survivors.
 - Candidate terms affected: fixed Solo loaner, Normal Summon/Set, procedure
   Special Summon, Spell/Trap Set, activation, Chain Link, Spell Speed, battle
   position, individual attack, reverse Chain resolution, public duel
@@ -361,13 +376,19 @@ gene_ids:
 
 ## Negative results
 
-- `ACT-333`–`ACT-337`, `SYS-585`–`SYS-590`, `CON-490`–`CON-495`, `INF-239`
-  and `TIM-019` are not reused: their definitions depend on MTG casting,
-  land/mana, priority, blockers, stack-object settlement, state-based actions
-  or the Arcane Aerialists event.
+- `ACT-333`–`ACT-337`, `SYS-585`, `SYS-587`, `SYS-589`, `SYS-590`,
+  `CON-490`–`CON-495`, `INF-239` and `TIM-019` are not reused: their
+  definitions depend on MTG casting, land/mana, priority, blockers,
+  stack-object settlement, state-based actions or the Arcane Aerialists event.
+  `SYS-586` and `SYS-588` are no longer among them: `TAXONOMY_CHANGE_022`
+  removed the MTG vocabulary from both boundaries, so this packet reuses rather
+  than rejects them, while priority and Chain timing stay separate in `TIM-019`
+  and `TIM-020`.
 - `ACT-125`, `SYS-163`, `SYS-164`, `CON-043` and `TIM-005` are not reused:
   Slay the Spire's energy-priced solitary planning hand and hostile phase do
-  not model alternating duel control or Chains.
+  not model alternating duel control or Chains. `SYS-163` remains distinct from
+  the generalised `SYS-588` because it resolves one played card inside a
+  single-sided run deck with no opposing controller's zones.
 - `ACT-135`, `SYS-172`, `CON-180`, `CON-182` and `OBJ-057` are not reused:
   Inscryption's four paired lanes, Blood cost and five-point relative scale are
   absent.

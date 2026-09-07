@@ -334,7 +334,7 @@ gene instances but do not enter the signature.
 - Comparison algorithm: `genome-jaccard-v1`.
 - Prior game signatures scanned: `232` (`GAME-0001`–`GAME-0232`).
 - Exact genome matches: none.
-- Tied near matches: `GAME-0141` — Rust (`20 / 59 = 0.338983`).
+- Tied near matches: `GAME-0186` — Don’t Starve Together (`18 / 52 = 0.346154`).
 - Supported combination subsets: `COMB-0231`.
 - Scan date: 2026-09-03.
 
@@ -342,7 +342,7 @@ gene instances but do not enter the signature.
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0141` — Rust | `ACT-008`, `ACT-122`, `ACT-123`, `ACT-161`, `ACT-164`, `ACT-199`, `SYS-208`, `SYS-215`, `SYS-223`, `SYS-327`, `SYS-328`, `CON-210`, `CON-281`, `CON-297`, `INF-073`, `INF-075`, `INF-115`, `INF-128`, `INF-132`, `TIM-003` | Both join direct survival, resource extraction, personal crafting, equipment, durability, finite inventory, local combat information and live world pressure. Rust instead creates a procedural shared server world with respawn, construction privilege, research, upkeep, offline raiding and a scheduled wipe. This packet fixes shipped Navezgane, rejects respawn and stops when separately redeemed onboarding rows create and settle one retained trader route. | Near, `0.338983` |
+| `GAME-0186` — Don’t Starve Together | `ACT-008`, `ACT-122`, `ACT-123`, `ACT-161`, `ACT-164`, `ACT-199`, `SYS-215`, `SYS-223`, `SYS-327`, `CON-210`, `CON-281`, `CON-297`, `CON-496`, `INF-073`, `INF-075`, `INF-128`, `INF-132`, `TIM-003` | Both join direct survival, harvesting from compatible sources with the right tool, personal crafting under one legality rule, equipment durability, finite inventory and live world pressure that the player must read from local state. Don’t Starve Together instead coordinates two players through hunger, sanity and temperature, gates recipes behind personal science prototypes, makes darkness itself lethal without a fuelled light, turns a dead survivor into a recoverable ghost and settles on a seasonal checkpoint. This packet is single-player on shipped Navezgane, rejects respawn, prices exposure through one irreversible body, and stops when separately redeemed onboarding rows create and settle one retained trader route. It replaced Rust as the selected neighbour when `TAXONOMY_CHANGE_025` gave Don’t Starve Together the shared crafting-legality rule. | Near, `0.346154` |
 
 ### Preserved research notes
 

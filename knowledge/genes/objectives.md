@@ -3046,3 +3046,163 @@
 - Novelty: first isolated for `GAME-0252`; the objective binds authored
   investigation and live negotiation to one retained branch result without
   extending to the complete narrative.
+
+## OBJ-158 — Settle one authored dialogue-gated episode into retained successor access
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete the required interactions of one bounded authored
+  episode whose gates are satisfied through conversation, examination and
+  attribute checks rather than through physical resolution, then retain its
+  recorded progress and successor access across a persistence check.
+- Includes: completing the opening episode and reaching the first retained
+  partner encounter in Disco Elysium - The Final Cut.
+- Excludes: defeating a mandatory guardian; clearing a designated target set;
+  reaching an authored narrative ending; filling every slot of a structured
+  evidence account.
+- Parameters: episode boundary, required interactions, gate types, recorded
+  progress and the successor state that must survive reloading.
+- Evidence: [Disco Elysium - The Final Cut decomposition](../games/a-f/disco-elysium-the-final-cut.md).
+- Novelty: first isolated for `GAME-0264`; the settlement is produced entirely
+  by talking, looking and rolling, so no physical resolution appears anywhere
+  in the completion condition.
+
+## OBJ-159 — Survive a fixed wave schedule with the defence stock above zero
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete the attempt by carrying a shared defence stock through
+  every round of a finite authored wave schedule to its declared final round;
+  hostiles that escape debit that stock without ending the attempt, and the
+  attempt fails only when the stock is exhausted before the schedule ends.
+- Includes: clearing the declared final round of the Easy standard schedule on
+  a beginner map with lives remaining in Bloons TD 6.
+- Excludes: neutralising every member of a finite assault force as the
+  completion predicate; surviving until a clock reaches a stated time; escaping
+  a chain of regions before health is lost; defeating a mandatory guardian.
+- Parameters: schedule length, final round index, starting stock, per-escape
+  debit and the stock value that ends the attempt.
+- Evidence: [Bloons TD 6 decomposition](../games/a-f/bloons-td-6.md).
+- Novelty: first isolated for `GAME-0265`; completion is measured by outlasting
+  a known finite schedule rather than by destroying everything, so a
+  deliberately conceded escape can be a legitimate cost of surviving it.
+
+## OBJ-160 — Fill the declared quota, then board the departing transport
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete the attempt by filling the mission's declared collection
+  quota, which alone enables the departure call, and then reaching and boarding
+  the arriving transport before its declared waiting interval expires; failing
+  to board leaves the attempt unsuccessful even though the quota was filled.
+- Includes: depositing the required Morkite, pressing the extraction button and
+  boarding the drop pod before it departs in Deep Rock Galactic's bounded solo
+  Mining Expedition.
+- Excludes: a mission whose success is owned by the main objective alone, with
+  extraction only a separable departure bonus; surviving a fixed wave schedule;
+  clearing a designated target set; reaching an authored narrative ending.
+- Parameters: quota identity and size, departure trigger, transport arrival,
+  waiting interval, boarding zone and the survivors required for success.
+- Evidence: [Deep Rock Galactic decomposition](../games/a-f/deep-rock-galactic.md).
+- Novelty: first isolated for `GAME-0266`; the collected objective is worthless
+  unless it is physically carried out, so the run's last decision is when to
+  stop gathering and start leaving.
+
+## OBJ-161 — Reach and retain a closed orbit about the declared body
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: complete the attempt by manoeuvring a craft the player assembled
+  until its projected path closes into a repeating orbit about the declared
+  attracting body with its lowest point above that body's atmospheric
+  boundary, then retain that state through a persistence check.
+- Includes: reaching a stable closed orbit about the home body and confirming
+  it survives a save and reload during Kerbal Space Program's bounded Sandbox
+  orbit task.
+- Excludes: reaching a named location on a surface; completing a delivery
+  quota; surviving a wave schedule; defeating a mandatory guardian; landing on
+  a runway.
+- Parameters: body, atmospheric boundary, closure test, lowest-point margin and
+  the state that must survive the persistence check.
+- Evidence: [Kerbal Space Program decomposition](../games/g-l/kerbal-space-program.md).
+- Novelty: first isolated for `GAME-0267`; success is a property of a
+  trajectory rather than of a place or an opponent, so the attempt ends when
+  the craft's own motion has been made self-sustaining.
+
+## OBJ-162 — Settle one encounter without defeating anyone and retain it
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: complete the attempt by bringing one bounded encounter to its
+  close entirely through non-damaging interactions and a release, with no
+  opponent defeated at any point in the run, then retain that state through a
+  persistence check that shows the defeat count still at zero.
+- Includes: closing one ordinary monster encounter through interaction and
+  release, then saving and reloading with nothing defeated, in Undertale's
+  bounded opening route.
+- Excludes: incapacitating every member of a finite hostile set; resolving a
+  designated target through an admitted lethal or non-lethal method; surviving
+  a wave schedule; reaching an authored narrative ending.
+- Parameters: encounter identity, permitted interactions, release condition,
+  the count that must stay at zero and the state that must survive the check.
+- Evidence: [Undertale decomposition](../games/s-z/undertale.md).
+- Novelty: first isolated for `GAME-0268`; success is defined by a
+  capability deliberately not used, so the objective is satisfied by what the
+  run's record does not contain.
+
+## OBJ-163 — Return a voyage's catch to market before the day's night boundary
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete the attempt by taking material from the field, stowing it
+  legally in the carried grid, bringing it back to the fixed buyer and selling it
+  in its undegraded condition, with the whole round trip finished before the
+  world clock crosses its declared night boundary; the objective is the
+  round trip rather than the quantity taken.
+- Includes: catching, stowing and selling a fresh catch at Greater Marrow and
+  meeting the declared dockside characters before nightfall in DREDGE's bounded
+  first-day route.
+- Excludes: filling a declared delivery quota; reaching a named location;
+  surviving a wave schedule; maximising an accumulated score; completing one
+  employer-supplied cargo contract.
+- Parameters: field material, buyer, condition bands, the declared boundary hour
+  and the characters the commission names.
+- Evidence: [DREDGE decomposition](../games/a-f/dredge.md).
+- Novelty: first isolated for `GAME-0269`; success is a completed circuit rather
+  than an amount, so the run's decisive moment is choosing when to stop taking.
+
+## OBJ-164 — Clear one region's exit event and carry the run into the next
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete the attempt by opening the current region's gated exit,
+  taking it, and arriving in the next region with the run's accumulated
+  modifiers, health state and escalation carried forward; the objective is the
+  transition itself rather than any amount collected, defeated or survived
+  before it.
+- Includes: charging the Teleporter, defeating its boss and taking the opened
+  exit into the second environment with the run's item set and rising
+  coefficient retained, in Risk of Rain 2's bounded first-environment route.
+- Excludes: surviving a declared duration; clearing every hostile in the region;
+  reaching a named location that needs no event; completing a delivery quota;
+  reaching an authored narrative ending.
+- Parameters: region, exit event, the state that must carry forward and the
+  escalation the transition itself applies.
+- Evidence: [Risk of Rain 2 decomposition](../games/m-r/risk-of-rain-2.md).
+- Novelty: first isolated for `GAME-0270`; leaving is the goal and staying is the
+  temptation, so the objective is defined against the enrichment the player wants
+  to keep doing.

@@ -7222,23 +7222,41 @@
   [War Thunder decomposition](../games/s-z/war-thunder.md).
 - Novelty: not assessed.
 
-## SYS-396 — Aggregate Conquest pressure into reinforcement tickets
+## SYS-396 — Convert committed defeats and held map control into reinforcement loss
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: the system debits a team's finite reinforcement pool for each
-  committed unrevived death and repeatedly debits the opposing pool for every
-  currently owned control point, ending the match when either pool reaches zero.
-- Includes: Battlefield 6 standard Conquest death loss, point-driven ticket
-  bleed and zero-ticket victory or defeat.
+  committed unrevived defeat and repeatedly debits the opposing pool for as long
+  as that team satisfies the ruleset's declared map-control condition, ending
+  the match when either pool reaches zero.
+- Includes: Battlefield 6 and Battlefield V standard Conquest, whose continuing
+  bleed is driven by every currently owned control point; Battlefield 2042
+  Conquest, whose continuing bleed is driven by majority ownership of the map's
+  aggregated sectors; in every case one-ticket committed unrevived deaths and
+  zero-ticket victory or defeat.
 - Excludes: personal kill score as the terminal objective; a round win counter;
-  an attacker-only ticket pool that resets after sectors.
-- Parameters: initial tickets, death debit, owned points, drain cadence,
-  simultaneous updates, zero threshold and result.
+  an attacker-only pool that replenishes at sector boundaries (`SYS-644`); a
+  percentage round win derived from a single resettable Control point
+  (`SYS-561`); a pool debited for destroyed vehicles rather than committed
+  personnel defeats and settled additionally by the absence of spawnable
+  vehicles (`SYS-583`); grouping control points into sectors, which is a
+  separate ownership rule (`SYS-742`); moving the legal combat front from one
+  sector to the next (`SYS-643`).
+- Parameters: teams, initial tickets, death debit, the map-control predicate and
+  its form — each owned point, sector majority or another declared condition —
+  drain cadence, drain magnitude, simultaneous updates, zero threshold and
+  result.
 - Evidence: [Battlefield 6 decomposition](../games/a-f/battlefield-6.md).
-- Novelty: not assessed.
+- Additional support: [Battlefield 2042 decomposition](../games/a-f/battlefield-2042.md),
+  for a sector-majority form of the same bleed predicate.
+- Novelty: first isolated for `GAME-0149`; generalised by
+  [`TAXONOMY_CHANGE_023`](../../research/taxonomy-changes/TAXONOMY_CHANGE_023.md)
+  — the committed-defeat debit, the finite pool and the zero-pool settlement are
+  the boundary, and the shape of the map-control predicate that sustains the
+  bleed is a parameter.
 
 ## SYS-397 — Convert needle strikes into Silk-funded Bind and skills
 
@@ -9317,22 +9335,42 @@
 - Novelty: first isolated for `GAME-0164`; it preserves cumulative rule-changing
   item interactions inside one disposable live-action run.
 
-## SYS-468 — Advance a boss-gated floor sequence toward the scoped ending
+## SYS-468 — Advance a guardian-gated area sequence toward the scoped run terminal
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: clearing the current floor boss opens its legal descent, and
-  entering that transition advances the same run build to the next generated
-  floor until the scoped final boss settles the ending.
-- Includes: Basement I through Depths II and first Mom defeat in base Rebirth.
-- Excludes: choosing a visible Slay the Spire node edge; a checkpoint inside
-  one persistent area; optional post-Mom chapters outside the clean-save route.
-- Parameters: floor, boss, clear state, descent, next depth, retained run state,
-  final boss and ending.
+- Definition: clearing the mandatory guardian of the current bounded area opens
+  its legal transition, and taking that transition advances the same run's
+  carried health, resources and build into the next area, until the final
+  guardian settles the run's declared terminal.
+- Includes: Basement I through Depths II and the first Mom defeat in base
+  Rebirth, whose areas are floors reached by a descent and whose terminal is an
+  ending; one first-save Hades attempt from Tartarus through its later
+  Underworld regions and final guardian, whose areas are regions and whose
+  terminal is the declared escape.
+- Excludes: choosing a visible Slay the Spire node edge; a checkpoint inside one
+  persistent area; optional post-Mom chapters outside the clean-save route; a
+  separately reset level after each boss; an authored campaign checkpoint that
+  retains a permanent character build after ordinary death; what the terminal
+  then discards or retains (`SYS-469`, `SYS-782`); persisting each boss's own
+  reward and route flags across an authored chapter (`SYS-611`); generating the
+  area layout itself (`SYS-464`).
+- Parameters: the area and its authored name, guardian, clear condition,
+  transition and its authored name, next area, retained run state, final
+  guardian and the name of the terminal it settles.
 - Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
-- Novelty: first isolated for `GAME-0164`.
+- Additional support: [Hades decomposition](../games/g-l/hades.md), for a
+  region-and-escape naming of the same guardian-gated sequence.
+- Novelty: first isolated for `GAME-0164`; generalised by
+  [`TAXONOMY_CHANGE_024`](../../research/taxonomy-changes/TAXONOMY_CHANGE_024.md)
+  — the guardian-gated transition, the carried transient run state and the
+  final settlement are the boundary, while whether the bounded area is called a
+  floor or a region and whether the settlement is called an ending or an escape
+  are authored names, which
+  [`TAXONOMY_CHANGE_015`](../../research/taxonomy-changes/TAXONOMY_CHANGE_015.md)
+  established are not progression boundaries.
 
 ## SYS-469 — Clear terminal run state while retaining eligible save unlocks
 
@@ -10638,18 +10676,38 @@
 - Evidence: [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
 - Novelty: first isolated for `GAME-0185`; renewable sources generate typed step-local payment units rather than one undifferentiated turn allowance.
 
-## SYS-586 — Advance the ordered turn phases and refresh permanents
+## SYS-586 — Advance the ordered named turn phases and refresh their allowances
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: the system advances each turn through beginning, precombat main, combat, postcombat main and ending phases, performing untap, upkeep, draw and cleanup actions at their declared steps before passing the next turn.
-- Includes: alternating turns in the scoped two-player Arcane Aerialists game.
-- Excludes: priority decisions within a step; stack-object resolution; a planning phase followed by one autonomous enemy phase.
-- Parameters: active player, phase, step, untap, upkeep triggers, draw, combat, cleanup, maximum hand and next active player.
+- Definition: the system advances the active turn through the ruleset's ordered
+  list of named phases and steps, performs each phase's declared automatic
+  actions, refreshes the per-turn allowances that phase restores and then
+  transfers the active turn to the opponent.
+- Includes: alternating turns in the scoped two-player Arcane Aerialists game,
+  whose beginning, precombat main, combat, postcombat main and ending phases
+  carry untap, upkeep, draw and cleanup; the chapter `10003` alternating duel,
+  whose Draw, Standby, Main 1, optional Battle, optional Main 2 and End phases
+  carry the first-turn draw and Battle restrictions and refresh the shared
+  Normal Summon/Set allowance.
+- Excludes: priority or response decisions taken within a phase; stack-object
+  or Chain resolution; battle calculation; a stat-ordered initiative queue
+  (`SYS-356`); a planning phase followed by one autonomous enemy phase;
+  unrestricted real-time progression.
+- Parameters: active player, phase and step names, which phases are optional,
+  phase-bound automatic actions, untap, upkeep triggers, draw, cleanup, the
+  allowances each phase refreshes, maximum hand and next active player.
 - Evidence: [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
-- Novelty: first isolated for `GAME-0185`; an alternating player turn contains several fixed subphases in which both players may still receive priority.
+- Additional support: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md),
+  for a differently named phase list with optional phases and a Summon/Set
+  allowance.
+- Novelty: first isolated for `GAME-0185`; generalised by
+  [`TAXONOMY_CHANGE_022`](../../research/taxonomy-changes/TAXONOMY_CHANGE_022.md)
+  — an alternating turn is divided into a fixed ordered list of named phases
+  that perform their own automatic actions and restore their own allowances,
+  while which phases exist and what they refresh are parameters.
 
 ## SYS-587 — Resolve the top stack object after consecutive passes
 
@@ -10664,18 +10722,38 @@
 - Evidence: [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
 - Novelty: first isolated for `GAME-0185`; response opportunities build a LIFO rule queue whose newest unresolved effect settles first.
 
-## SYS-588 — Apply card text and route the object between zones
+## SYS-588 — Apply resolving card text and route cards among rule-defined zones
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: when a spell or ability resolves, the system performs its card text in rules order and places the represented card in its type- and effect-defined destination while creating any resulting triggers.
-- Includes: creatures, artifacts and enchantments entering the battlefield; resolved instants and sorceries entering the graveyard; Arcane Aerialists draw, removal, life-gain and token effects.
-- Excludes: choosing the spell or target; LIFO stack scheduling; construction or collection changes outside the game.
-- Parameters: object, controller, text clauses, targets, replacement effects, destination zone, created object and trigger event.
+- Definition: when a spell, card or ability resolves, the system performs its
+  text clauses in rules order, moves each affected represented card to its
+  type- and effect-defined destination zone together with whatever face,
+  position or modifier state the rules retain, and creates any resulting
+  triggers.
+- Includes: creatures, artifacts and enchantments entering the battlefield;
+  resolved instants and sorceries entering the graveyard; Arcane Aerialists
+  draw, removal, life-gain and token effects; Master Duel fixed-packet draw,
+  destruction, revival, stat change and material movement among hand, Deck,
+  field, Graveyard, banished state and Extra Deck.
+- Excludes: choosing the spell, activation or target; LIFO stack scheduling
+  (`SYS-587`) or Chain scheduling (`SYS-683`); battle calculation (`SYS-685`);
+  resolving one played card inside a solitary run deck with no opposing
+  controller's zones (`SYS-163`); construction or collection changes outside
+  the game.
+- Parameters: object, controller, text clauses, targets, replacement effects,
+  origin and destination zones, retained face, position and modifier state,
+  created object and trigger event.
 - Evidence: [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
-- Novelty: first isolated for `GAME-0185`; one resolved rule object can update several public and private zones and enqueue further abilities.
+- Additional support: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md),
+  for typed duel zones and retained face and battle position.
+- Novelty: first isolated for `GAME-0185`; generalised by
+  [`TAXONOMY_CHANGE_022`](../../research/taxonomy-changes/TAXONOMY_CHANGE_022.md)
+  — one resolved rule object performs its clauses in rules order and updates
+  several typed public and private zones, while the zone names and the state a
+  moved card retains are parameters.
 
 ## SYS-589 — Resolve declared combat through blockers and damage
 
@@ -12456,21 +12534,20 @@
 
 ## SYS-682 — Advance ordered duel phases and active turns
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: the system advances Draw, Standby, Main 1, optional Battle,
-  optional Main 2 and End phases, performs phase-bound actions, refreshes turn
-  allowances and transfers the active turn to the opponent.
-- Includes: the chapter `10003` alternating duel, including first-turn draw and
-  Battle restrictions.
-- Excludes: response ordering inside a Chain; battle calculation; unrestricted
-  real-time progression.
-- Parameters: active player, turn, phase, draw, allowances, optional phases and next player.
+- Definition: historical product-specific duplicate now represented by the
+  parameterised active boundary `SYS-586`.
+- Includes: historical references that used `SYS-682` before taxonomy change
+  022.
+- Excludes: new game signatures; use `SYS-586` with the scoped phase-name,
+  optional-phase and refreshed-allowance parameters.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
-- Novelty: first isolated for `GAME-0206`; one active turn has fixed subphases
-  but can repeatedly yield short card-response windows to either player.
+- Merged into: `SYS-586` by
+  [`TAXONOMY_CHANGE_022`](../../research/taxonomy-changes/TAXONOMY_CHANGE_022.md).
 
 ## SYS-683 — Build and resolve a Spell-Speed Chain backward
 
@@ -12491,19 +12568,20 @@
 
 ## SYS-684 — Apply card text and route cards among duel zones
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: a resolving card or effect applies its clauses in rules order and
-  moves affected cards among hand, Deck, field, Graveyard, banished state and
-  Extra Deck while retaining current face and position state.
-- Includes: fixed-packet draw, destruction, revival, stat change and material movement.
-- Excludes: choosing the activation or target; Chain scheduling; collection mutation.
-- Parameters: effect, target, clauses, origin, destination, face, position and retained modifier.
+- Definition: historical product-specific duplicate now represented by the
+  parameterised active boundary `SYS-588`.
+- Includes: historical references that used `SYS-684` before taxonomy change
+  022.
+- Excludes: new game signatures; use `SYS-588` with the scoped zone-name and
+  retained-state parameters.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
-- Novelty: first isolated for `GAME-0206`; one digital card rule can jointly
-  change typed zones, disclosure and battle state inside a fixed Duel.
+- Merged into: `SYS-588` by
+  [`TAXONOMY_CHANGE_022`](../../research/taxonomy-changes/TAXONOMY_CHANGE_022.md).
 
 ## SYS-685 — Resolve one attack through position and ATK/DEF
 
@@ -13683,24 +13761,20 @@
 
 ## SYS-743 — Convert committed defeats and sector majority into reinforcement loss
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Confirmed`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the system debits a finite team reinforcement pool when a
-  combatant's defeat is committed and repeatedly debits the opposing pool
-  while one side controls a majority of the map's sectors, ending the match
-  when either pool reaches zero.
-- Includes: Battlefield 2042 Conquest ticket loss from settled combatant
-  defeats plus the continuing bleed created by majority sector control.
-- Excludes: drain from every individually owned point; an attacker-only pool;
-  personal score as the match objective; account experience after settlement.
-- Parameters: team pools, committed defeat, sector count, majority predicate,
-  drain cadence, zero threshold, simultaneous update and match result.
+- Definition: historical bleed-predicate-specific duplicate now represented by
+  the parameterised active boundary `SYS-396`.
+- Includes: historical references that used `SYS-743` before taxonomy change
+  023.
+- Excludes: new game signatures; use `SYS-396` with the scoped map-control
+  predicate and drain parameters.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Battlefield 2042 decomposition](../games/a-f/battlefield-2042.md).
-- Novelty: first isolated for `GAME-0234`; point ownership is first aggregated
-  into sectors and only sector majority creates the continuing team-resource
-  pressure.
+- Merged into: `SYS-396` by
+  [`TAXONOMY_CHANGE_023`](../../research/taxonomy-changes/TAXONOMY_CHANGE_023.md).
 
 ## SYS-744 — Apply a live attachment selection to current weapon behaviour
 
@@ -14467,24 +14541,20 @@
 
 ## SYS-781 — Advance a boss-gated region sequence toward scoped escape
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: clearing the mandatory guardian of a bounded run region admits
-  the next region while carrying the same transient health, resources and build,
-  until the final guardian opens the declared escape settlement.
-- Includes: carrying one first-save Hades attempt from Tartarus through its
-  later Underworld regions and final guardian toward the surface transition.
-- Excludes: a separately reset level after each boss; choosing a disclosed
-  node on one current map; an authored campaign checkpoint that retains a
-  permanent character build after ordinary death.
-- Parameters: region, guardian, clear condition, transition, next region,
-  carried attempt state, final guardian and escape settlement.
+- Definition: historical vocabulary-specific duplicate now represented by the
+  parameterised active boundary `SYS-468`.
+- Includes: historical references that used `SYS-781` before taxonomy change
+  024.
+- Excludes: new game signatures; use `SYS-468` with the scoped area, transition
+  and terminal names.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Hades decomposition](../games/g-l/hades.md).
-- Novelty: first isolated for `GAME-0251`; earlier floor and authored-dungeon
-  genes do not carry a temporary offered build through generated forward
-  chamber regions into a common success-or-death hub return.
+- Merged into: `SYS-468` by
+  [`TAXONOMY_CHANGE_024`](../../research/taxonomy-changes/TAXONOMY_CHANGE_024.md).
 
 ## SYS-782 — Clear terminal attempt state while retaining eligible metaprogression
 
@@ -14852,3 +14922,522 @@
 - Novelty: first isolated for `GAME-0260`; player-controlled world and carried
   light states continuously change hostile visual acquisition rather than only
   revealing scenery to the player.
+
+## SYS-798 — Deplete and regenerate one shared exertion reserve
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: attacking, evading, sprinting and guarding all draw from one
+  continuous personal exertion reserve that refills automatically over time
+  while the actor is not spending it, and whose current level determines
+  whether the next such action can begin.
+- Includes: the stamina bar shared by attacks, rolls, sprints and guarding in
+  DARK SOULS III's bounded `Cemetery of Ash` route.
+- Excludes: a per-ability cooldown; a resource restored only by a consumable or
+  checkpoint; a hunger, temperature or fatigue meter that models survival
+  rather than immediate action budget; a meter that only modifies damage.
+- Parameters: capacity, spend per action class, regeneration rate, penalty
+  while guarding or overloaded, and the behaviour of the reserve at or below
+  zero.
+- Evidence: [DARK SOULS III decomposition](../games/a-f/dark-souls-iii.md).
+- Novelty: first isolated for `GAME-0262`; one automatically recovering reserve
+  simultaneously prices offence, evasion and defence, so every exchange is a
+  budget allocation rather than a set of independent cooldowns.
+
+## SYS-799 — Transform a sealed guardian into a further attack phase
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when a sealed encounter's mandatory guardian falls below a
+  declared remaining-health threshold, the system converts it into a further
+  form with a different attack set while the same encounter, arena seal and
+  accumulated damage continue.
+- Includes: the second form the route guardian assumes at its health threshold
+  during DARK SOULS III's bounded `Cemetery of Ash` encounter.
+- Excludes: a health-only stagger or guard break; a new separate encounter
+  after the first is settled; a scripted cutscene that changes no attack set;
+  a difficulty scaling that applies to ordinary field enemies.
+- Parameters: threshold, transformation animation, replaced or extended attack
+  set, retained damage and any changed defence or movement.
+- Evidence: [DARK SOULS III decomposition](../games/a-f/dark-souls-iii.md).
+- Novelty: first isolated for `GAME-0262`; the same guardian and the same
+  accumulated progress continue across a mid-encounter behaviour replacement,
+  so learned counterplay is invalidated without resetting the encounter.
+
+## SYS-800 — Resolve a thrown tool's outbound and returning path
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a thrown reusable tool resolves its effects against everything it
+  meets on the way to its target, remains at the position where it stopped, and
+  on recall resolves a second pass along the return line back to the thrower's
+  hand.
+- Includes: the Leviathan Axe's outbound flight, embedded rest state and
+  damaging recall during God of War's bounded opening route.
+- Excludes: expendable ammunition that is not recovered; a projectile that
+  disappears on contact; a returning autonomous companion; a boomerang path
+  that the player cannot interrupt or reposition.
+- Parameters: tool, aim, travel, intervening bodies, stop position, embedded
+  state, recall input, return line and second-pass effects.
+- Evidence: [God of War decomposition](../games/g-l/god-of-war.md).
+- Novelty: first isolated for `GAME-0263`; the same throw is resolved twice
+  along two different player-chosen lines, so where the thrower stands when the
+  tool is recalled is itself an offensive decision.
+
+## SYS-801 — Resolve an attribute check as value plus modifiers plus dice
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a committed check sums the tested attribute's current value, its
+  accumulated modifiers and a fixed roll of two dice, compares that total with
+  the option's declared difficulty number, and additionally treats the lowest
+  and highest possible rolls as automatic failure and automatic success
+  regardless of the total.
+- Includes: the two-six-sided-dice resolution against the declared difficulty
+  tiers during Disco Elysium - The Final Cut's bounded opening episode.
+- Excludes: a deterministic authored result; a timing window; a single hidden
+  probability with no exposed contributing terms; a damage roll inside an
+  already resolved attack.
+- Parameters: attribute value, modifier set, dice count and faces, difficulty
+  number, automatic-failure roll and automatic-success roll.
+- Evidence: [Disco Elysium - The Final Cut decomposition](../games/a-f/disco-elysium-the-final-cut.md).
+- Novelty: first isolated for `GAME-0264`; the automatic extremes mean no
+  preparation guarantees a check and no shortfall forbids one, so the player
+  invests in shifting a distribution rather than in reaching a threshold.
+
+## SYS-802 — Settle a failed check as reattemptable or permanently closed
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: every check belongs to a declared retry class; a failure in the
+  reattemptable class leaves the option open once a qualifying state change has
+  occurred, while a failure in the closed class permanently settles that
+  option's outcome and the state it would have produced.
+- Includes: the separation of retryable white checks from single-attempt red
+  checks during Disco Elysium - The Final Cut's bounded opening episode.
+- Excludes: reloading an earlier save; a cooldown that restores an ability
+  unchanged; a difficulty that merely rises after failure; a quest that fails
+  on a timer.
+- Parameters: retry class, qualifying state change, closed outcome, lost state
+  and whether the option remains visible after closing.
+- Evidence: [Disco Elysium - The Final Cut decomposition](../games/a-f/disco-elysium-the-final-cut.md).
+- Novelty: first isolated for `GAME-0264`; failure is a durable branch of the
+  world rather than a repetition prompt, so the player decides in advance which
+  attempts are worth risking irreversibly.
+
+## SYS-803 — Resolve unrequested checks into attributed internal commentary
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the system continuously resolves checks the player did not
+  select, using the same attribute values, and surfaces their successes as
+  additional commentary attributed to the named faculty that produced it, while
+  their failures are simply absent.
+- Includes: passive skill lines that appear during dialogue and examination in
+  Disco Elysium - The Final Cut's bounded opening episode.
+- Excludes: a hint system the player activates; a tutorial adviser; an
+  omniscient narrator with no per-source attribution; a companion character who
+  speaks as a separate actor in the world.
+- Parameters: attribute set, resolution frequency, difficulty, attribution
+  label, surfaced text and the silence produced by failure.
+- Evidence: [Disco Elysium - The Final Cut decomposition](../games/a-f/disco-elysium-the-final-cut.md).
+- Novelty: first isolated for `GAME-0264`; the player never learns which
+  disclosures were withheld, so raising an attribute changes what the world
+  appears to contain rather than only what can be done in it.
+
+## SYS-804 — Advance the world clock only on qualifying interactions
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the world clock advances by a declared increment when the player
+  commits a qualifying interaction such as a conversation exchange or object
+  examination, and does not advance while the player moves, inspects an
+  interface or remains idle.
+- Includes: the clock that progresses on interaction but not on movement or
+  item pickup in Disco Elysium - The Final Cut's bounded opening episode.
+- Excludes: a real-time clock that runs continuously; a turn counter incremented
+  by every input including movement; a clock advanced continuously in proportion
+  to how far the player travels, which `SYS-816` covers; a clock advanced only by
+  sleeping or fast travel; an untimed world.
+- Parameters: qualifying interaction set, increment per interaction, excluded
+  actions and the world states the clock gates.
+- Evidence: [Disco Elysium - The Final Cut decomposition](../games/a-f/disco-elysium-the-final-cut.md).
+- Novelty: first isolated for `GAME-0264`; time is spent by paying attention
+  rather than by existing, so exploring without engaging costs nothing while
+  every conversation is a scheduling decision.
+
+## SYS-805 — Apply typed damage to two independent personal pools
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: two separate personal pools receive damage from different
+  declared sources, are restored by different means, and exhausting either one
+  ends the current attempt independently of the other's remaining value.
+- Includes: the separation of bodily harm from morale harm during Disco
+  Elysium - The Final Cut's bounded opening episode, where conversation can end
+  the attempt without any physical injury.
+- Excludes: one health pool with a temporary shield or armour layer above it; a
+  status effect that only modifies one health pool; a resource spent to use
+  abilities; a morale value that only changes behaviour without a terminal.
+- Parameters: pool identities, typed damage sources, restoration means, caps
+  and each pool's terminal condition.
+- Evidence: [Disco Elysium - The Final Cut decomposition](../games/a-f/disco-elysium-the-final-cut.md).
+- Novelty: first isolated for `GAME-0264`; a purely verbal exchange can be
+  lethal on its own track, so the player must budget composure and body as two
+  unrelated survival problems.
+
+## SYS-806 — Shed one layer per damage and release the layer's declared children
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: each hostile carries an ordered stack of typed layers; damage
+  removes the current outermost layer and immediately releases that layer's
+  declared child hostiles at the same position, so destroying one hostile means
+  destroying every layer its stack contains.
+- Includes: a bloon shedding its layer and releasing its declared children on
+  the track during Bloons TD 6's bounded Easy standard route.
+- Excludes: a single health pool reduced by variable damage; a boss that
+  changes attack set at a health threshold; splitting caused by a specific
+  weapon effect rather than by the target's own composition; an enemy that
+  spawns reinforcements from elsewhere.
+- Parameters: layer order, per-layer child set and count, release position,
+  inherited motion and the damage required per layer.
+- Evidence: [Bloons TD 6 decomposition](../games/a-f/bloons-td-6.md).
+- Novelty: first isolated for `GAME-0265`; one hostile is a nested population
+  rather than a single body, so the total work it demands is a property of its
+  composition and is only partly visible from its outermost layer.
+
+## SYS-807 — Debit the defence stock by a leaked hostile's remaining layers
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a hostile that reaches the route's end is removed without ending
+  the attempt and debits the shared defence stock by the total number of layers
+  it still carried, so a partly destroyed hostile costs proportionally less
+  than an untouched one.
+- Includes: a leaked bloon removing lives equal to its remaining layer total
+  during Bloons TD 6's bounded Easy standard route.
+- Excludes: a fixed one-per-failure life stock; damage applied to a controlled
+  avatar's health; an escape that immediately fails the current attempt; a
+  score penalty with no terminal consequence.
+- Parameters: stock size, per-layer debit, fortification multipliers, leak
+  position and the stock value that ends the attempt.
+- Evidence: [Bloons TD 6 decomposition](../games/a-f/bloons-td-6.md).
+- Novelty: first isolated for `GAME-0265`; partial work is preserved as a
+  reduced penalty rather than discarded, so damage that fails to destroy a
+  hostile still changes what its escape costs.
+
+## SYS-808 — Credit the shared defence budget from every destroyed hostile layer
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: every destroyed hostile layer immediately credits a shared
+  spendable budget from which the defence is bought, so the same hostiles that
+  threaten the defence stock are also what pays for the defence answering them.
+- Includes: cash credited per popped bloon layer and spent on monkeys and their
+  upgrades during Bloons TD 6's bounded Easy standard route.
+- Excludes: a post-encounter reward settled after the encounter ends; recurring
+  timed income from owned territory or structures; currency dropped as a
+  collectible the player must reach; experience converted into levels. This
+  boundary is the destruction-to-budget conversion itself; it does not assert
+  that the ruleset offers no other credit path, and a ruleset that also settles
+  a flat credit at the end of each scheduled wave still carries it. It also
+  states no legality: whether any particular commitment is refused for want of
+  balance is a Constraint question this gene does not answer.
+- Parameters: per-layer credit, starting balance, difficulty price multiplier,
+  crediting moment, the commitments the balance may fund and any further credit
+  paths the ruleset settles outside this transition.
+- Evidence: [Bloons TD 6 decomposition](../games/a-f/bloons-td-6.md).
+- Novelty: first isolated for `GAME-0265`; narrowed by
+  [`TAXONOMY_CHANGE_026`](../../research/taxonomy-changes/TAXONOMY_CHANGE_026.md)
+  and narrowed again by
+  [`TAXONOMY_CHANGE_029`](../../research/taxonomy-changes/TAXONOMY_CHANGE_029.md),
+  which removed the affordability legality this System gene also stated —
+  destroying a hostile is what pays for the defence that destroys it, so
+  clearing more of a wave both lowers its penalty and raises the budget
+  available before the next scheduled wave arrives.
+
+## SYS-809 — Release the round-indexed wave onto the fixed route
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an authored finite schedule indexes waves by round number; each
+  round releases its declared hostile composition onto the same fixed route at
+  its declared spacing, and the schedule advances to the next indexed round
+  once the current one has left the route.
+- Includes: the numbered round schedule releasing its declared bloon
+  composition onto a beginner map's single track during Bloons TD 6's bounded
+  Easy standard route.
+- Excludes: waves indexed by elapsed clock time around a moving avatar; lane
+  creeps periodically created for both sides of a symmetric match; hostiles
+  produced by a player-placed tile; reinforcements triggered by detection.
+- Parameters: round index, per-round composition, spacing, release point,
+  route geometry and the final round of the schedule.
+- Evidence: [Bloons TD 6 decomposition](../games/a-f/bloons-td-6.md).
+- Novelty: first isolated for `GAME-0265`; the complete threat sequence is
+  authored and ordered by round rather than by time or player action, so every
+  purchase is priced against a known remaining schedule.
+
+## SYS-810 — Convert a deposited shared resource into a placed finite supply drop
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an authorised call debits a declared quantity from the same
+  shared deposited pool that the objective draws on and lands a physical supply
+  object at the requested position; that object exposes a fixed number of
+  separate charges, and taking one restores a declared fraction of the taker's
+  ammunition and health before the charge is consumed.
+- Includes: ordering a resupply pod against the deposited Nitra balance and
+  taking one of its racks during Deep Rock Galactic's bounded solo Mining
+  Expedition.
+- Excludes: a squad point pool whose contribution and spending authority are
+  split between members; an ability cooldown; a continuous supply field emitted
+  by a moving objective (`SYS-600`); a reserve that refills itself after the
+  spending action stops; a checkpoint that restores resources on rest; a
+  delivery whose delivered entity is a general-purpose asset whose later use is
+  a separate capability (`SYS-745`); a personal charge pool the character
+  carries and a checkpoint or cooldown refills (`SYS-454`, `SYS-376`); attrition
+  answered by class-eligible or station sources beside a partial passive
+  recovery cap (`SYS-714`); a session service allowance triggered by crossing a
+  location (`SYS-768`).
+- Parameters: pooled resource, call cost, landing legality, charge count,
+  per-charge ammunition and health fractions, call delay and spacing rules.
+- Evidence: [Deep Rock Galactic decomposition](../games/a-f/deep-rock-galactic.md).
+- Novelty: first isolated for `GAME-0266`; resupply competes directly with the
+  objective for the same deposited material, so restocking is paid for out of
+  progress rather than out of a separate combat economy.
+
+## SYS-811 — Draw propellant through the assembled topology and reduce craft mass
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: an operating engine draws its propellant from the connected
+  reservoirs the player's own assembly made reachable, following the
+  connectivity of the attachment points rather than a global pool; consumed
+  propellant leaves the craft, so its total mass falls continuously while the
+  engine runs.
+- Includes: engines feeding from crossfeed-enabled attachment nodes and the
+  resulting mass loss during Kerbal Space Program's bounded Sandbox orbit task.
+- Excludes: a shared network that pools generation and throttles consumers; a
+  reserve refilled by a consumable or a checkpoint; ammunition drawn from an
+  abstract inventory count; fuel consumed by a vehicle whose mass the rules
+  treat as constant.
+- Parameters: reservoir set, connectivity rules per attachment point, flow
+  priority, consumption rate, dry and wet mass and the effect of mass on
+  acceleration.
+- Evidence: [Kerbal Space Program decomposition](../games/g-l/kerbal-space-program.md).
+- Novelty: first isolated for `GAME-0267`; the craft's performance changes
+  continuously as a direct consequence of how the player connected it, so
+  assembly topology and flight behaviour are the same decision seen twice.
+
+## SYS-812 — Resolve the current motion into conic orbital elements
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: the system continuously converts the craft's present position and
+  velocity relative to the dominant attracting body into the conic path it
+  would follow if no further force were applied, and exposes that path's
+  extreme altitudes so the player can judge whether the current motion closes
+  into a repeating orbit or returns to the surface.
+- Includes: the projected trajectory with its highest and lowest points shown
+  in map view during Kerbal Space Program's bounded Sandbox orbit task.
+- Excludes: a predicted landing marker for a thrown object; a forecast of an
+  already committed hostile action; a minimap showing current position only; a
+  waypoint route calculated by navigation.
+- Parameters: dominant body, position, velocity, resulting conic, extreme
+  altitudes, update rate and the boundary at which the dominant body changes.
+- Evidence: [Kerbal Space Program decomposition](../games/g-l/kerbal-space-program.md).
+- Novelty: first isolated for `GAME-0267`; the projection turns a continuous
+  physical state into two comparable numbers, so an orbital decision becomes a
+  readable target rather than an intuition about speed and height.
+
+## SYS-813 — Alternate a discrete command phase with a real-time evasion phase
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: an encounter alternates strictly between a phase in which the
+  player commits one discrete command and the system resolves it before
+  accepting another, and a phase in which the opponent's response plays out in
+  continuous time while the player's only input is continuous evasion; neither
+  phase accepts the other's inputs.
+- Includes: the alternation between the command menu and the projectile phase
+  during Undertale's bounded opening route.
+- Excludes: a turn queue ordered by initiative among many combatants; a timed
+  defensive input committed inside an otherwise discrete turn; seamless
+  real-time combat with no command phase; a planning phase followed by an
+  automatic resolution the player only watches.
+- Parameters: phase order, command set, resolution rules, evasion duration,
+  input lockout at each boundary and what carries between phases.
+- Evidence: [Undertale decomposition](../games/s-z/undertale.md).
+- Novelty: first isolated for `GAME-0268`; the same encounter demands two
+  different kinds of competence in strict alternation, so a player strong at
+  one half cannot substitute it for the other.
+
+## SYS-814 — Accumulate opponent-specific interactions into spare eligibility
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: each opponent declares its own set of non-damaging interactions
+  and a private condition over them; performing the right interactions changes
+  that opponent's internal state until the condition is satisfied, at which
+  point the system marks the opponent as eligible to be released without being
+  defeated.
+- Includes: the per-monster interaction options whose correct use turns the
+  monster eligible for release during Undertale's bounded opening route.
+- Excludes: reducing an opponent's health until it is defeated; a reputation or
+  approval value carried between encounters; a capture chance computed from
+  health and equipment; a persuasion check resolved by a dice roll.
+- Parameters: per-opponent interaction set, private condition, state changes,
+  eligibility marker and whether damage resets the accumulated state.
+- Evidence: [Undertale decomposition](../games/s-z/undertale.md).
+- Novelty: first isolated for `GAME-0268`; progress toward ending an encounter
+  is made by learning one specific opponent rather than by applying a general
+  combat capability to it.
+
+## SYS-815 — Settle a released opponent out of the encounter without its defeat rewards
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: releasing an eligible opponent removes it from the encounter and
+  ends that encounter exactly as a defeat would, while withholding the progress
+  rewards a defeat pays and leaving the opponent's defeat count unincremented.
+- Includes: sparing an eligible monster to close the encounter without gaining
+  the progress a kill would grant during Undertale's bounded opening route.
+- Excludes: fleeing an encounter that remains unresolved; a defeat that simply
+  pays no reward; capturing an opponent into owned storage; a non-lethal
+  takedown that still removes the target as a defeated body.
+- Parameters: eligibility, withheld reward classes, retained rewards, count
+  effects and whether the released opponent can reappear.
+- Evidence: [Undertale decomposition](../games/s-z/undertale.md).
+- Novelty: first isolated for `GAME-0268`; the two ways of ending an encounter
+  are mechanically equivalent in outcome but not in what they pay, so refusing
+  the reward is itself the decision the system records.
+
+## SYS-816 — Advance the world clock only through the player's own travel and actions
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: one shared world clock governs the day and its declared night
+  boundary, but it advances only in proportion to the player's own movement and
+  to the specific actions that declare a time cost; while the player is
+  stationary and issuing no such action the clock does not move, so elapsed time
+  is a resource the player spends rather than a schedule imposed on them.
+- Includes: the time-dial advancing while the boat is under way, while a catch
+  is being reeled in and while equipment is installed, and standing still
+  costing nothing, during DREDGE's bounded first-day route.
+- Excludes: a countdown that runs regardless of what the player does; a turn
+  clock advanced one step per action irrespective of the action's size; a clock
+  advanced by a declared increment per qualifying interaction while movement
+  itself is free, which `SYS-804` covers; a real-time session or shift deadline;
+  an authored schedule of waves or rounds; pausing a running clock through a
+  menu.
+- Parameters: clock granularity, travel-to-time rate, per-action costs, the
+  hours at which day and night are declared, and which actions are free.
+- Evidence: [DREDGE decomposition](../games/a-f/dredge.md).
+- Novelty: first isolated for `GAME-0269`; the deadline is self-inflicted,
+  because every metre sailed and every fish reeled in is paid for out of the
+  same daylight the player needs to get home.
+
+## SYS-817 — Escalate run threat, prices and rewards continuously with elapsed time, stepping up per region cleared
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the run maintains one escalation value that rises continuously with
+  elapsed run time and additionally steps up by a declared factor each time a
+  region is cleared; that single value simultaneously raises the level, health
+  and damage of every hostile the system creates, the budget it spends creating
+  them, the price the world's priced fixtures ask and the reward a defeated
+  hostile pays, so remaining in one place makes the world stronger and
+  everything in it dearer without the player having advanced through any of it.
+- Includes: the difficulty coefficient rising every second and by a further
+  declared proportion per completed environment, raising monster level, director
+  spawn credits, interactable prices and the gold a defeated monster pays
+  together, in Risk of Rain 2's bounded first-environment route.
+- Excludes: escalation driven only by a completed circuit, cleared room or
+  progression tier; a fixed authored wave schedule indexed to stage minutes;
+  scaling to the character's own level; a selected difficulty setting that does
+  not move during the attempt; a catalogue price, or a price or reward moved by
+  the buyer's own level, reputation or purchase history rather than by the same
+  value that arms the opposition; the legality of any individual purchase, which
+  is a Constraint question this transition does not answer.
+- Parameters: rate per unit time, per-region factor, participant count, chosen
+  difficulty setting, level formula, per-level health and damage growth, the
+  spawn budget the value funds, the price formula it drives and the reward
+  multiplier it applies.
+- Evidence: [Risk of Rain 2 decomposition](../games/m-r/risk-of-rain-2.md).
+- Novelty: first isolated for `GAME-0270`; its label was corrected on
+  2026-09-07 because "rather than from progress" contradicted the definition's
+  own per-region step — the distinction is that elapsed time alone already
+  escalates the value, not that progress never does — and it was expanded by
+  [`TAXONOMY_CHANGE_030`](../../research/taxonomy-changes/TAXONOMY_CHANGE_030.md)
+  to carry the price and reward outputs its own evidence always established —
+  the run's clock is the antagonist, so every minute spent enriching the
+  character is paid for in a world that has grown stronger, and dearer, while
+  the player was enriching it.
+
+## SYS-818 — Gate the region exit behind a stationary charge under sustained pressure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the only exit from the current region is opened by an activated
+  fixture that must be charged over a declared minimum duration; the charge
+  advances only while the controlled character remains inside the fixture's
+  disclosed radius and stalls when it leaves, and for that whole duration the
+  system sustains hostile pressure around the fixture including a designated
+  boss whose defeat is also required.
+- Includes: activating the Teleporter, holding its disclosed radius for its
+  declared minimum charge and defeating the Teleporter Boss to open the exit in
+  Risk of Rain 2's bounded first-environment route.
+- Excludes: an exit opened by collecting a finite target set; a capture region
+  whose progress an opposing side can reverse (`SYS-703`, `SYS-561`); an escort
+  objective that advances along a route (`SYS-383`); a timed defence with no exit
+  consequence; a door unlocked by a carried key; shared repair progress that
+  several participants add to one fixture and that regresses when they stop
+  (`SYS-442`).
+- Parameters: fixture, radius, minimum duration, stall rule, boss composition,
+  concurrent hostile pressure and the reward the completed event pays.
+- Evidence: [Risk of Rain 2 decomposition](../games/m-r/risk-of-rain-2.md).
+- Novelty: first isolated for `GAME-0270`; progress requires standing still,
+  which is the one thing the run's own escalation punishes.

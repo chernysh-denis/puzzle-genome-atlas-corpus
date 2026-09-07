@@ -229,15 +229,18 @@
 - [`GAME-0218` — Counter-Strike](../games/a-f/counter-strike.md)
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
+- [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
 - [`GAME-0161` — Dead by Daylight](../games/a-f/dead-by-daylight.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
+- [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
 - [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
+- [`GAME-0269` — DREDGE](../games/a-f/dredge.md)
 - [`GAME-0131` — Dyson Sphere Program](../games/a-f/dyson-sphere-program.md)
 - [`GAME-0163` — EA SPORTS FC 26](../games/a-f/ea-sports-fc-26.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
@@ -246,6 +249,7 @@
 - [`GAME-0091` — Fez](../games/a-f/fez.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
+- [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
@@ -294,6 +298,7 @@
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+- [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 - [`GAME-0050` — Shogun Showdown](../games/s-z/shogun-showdown.md)
@@ -321,6 +326,7 @@
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 - [`GAME-0104` — TUNIC](../games/s-z/tunic.md)
+- [`GAME-0268` — Undertale](../games/s-z/undertale.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 - [`GAME-0183` — Vampire Survivors](../games/s-z/vampire-survivors.md)
 - [`GAME-0041` — Viewfinder](../games/s-z/viewfinder.md)
@@ -582,6 +588,7 @@
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
 - [`GAME-0166` — Sid Meier’s Civilization VI](../games/s-z/sid-meiers-civilization-vi.md)
 - [`GAME-0048` — Tactical Breach Wizards](../games/s-z/tactical-breach-wizards.md)
+- [`GAME-0268` — Undertale](../games/s-z/undertale.md)
 - [`GAME-0176` — XCOM 2](../games/s-z/xcom-2.md)
 
 ## ACT-020
@@ -776,6 +783,7 @@
 ### Ігри-носії
 
 - [`GAME-0042` — Infinifactory](../games/g-l/infinifactory.md)
+- [`GAME-0267` — Kerbal Space Program](../games/g-l/kerbal-space-program.md)
 - [`GAME-0022` — Opus Magnum](../games/m-r/opus-magnum.md)
 - [`GAME-0056` — Railbound](../games/m-r/railbound.md)
 
@@ -1268,6 +1276,7 @@
 
 ### Ігри-носії
 
+- [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
 - [`GAME-0035` — Pikmin 4](../games/m-r/pikmin-4.md)
 
 ## ACT-051
@@ -2164,6 +2173,7 @@
 
 ### Ігри-носії
 
+- [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0089` — Stardew Valley](../games/s-z/stardew-valley.md)
 
@@ -2467,6 +2477,7 @@
 
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
+- [`GAME-0264` — Disco Elysium - The Final Cut](../games/a-f/disco-elysium-the-final-cut.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0105` — Outer Wilds](../games/m-r/outer-wilds.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
@@ -3021,9 +3032,11 @@
 
 - [`GAME-0124` — Against the Storm](../games/a-f/against-the-storm.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
+- [`GAME-0265` — Bloons TD 6](../games/a-f/bloons-td-6.md)
 - [`GAME-0173` — Blue Prince](../games/a-f/blue-prince.md)
 - [`GAME-0137` — Counter-Strike 2](../games/a-f/counter-strike-2.md)
 - [`GAME-0218` — Counter-Strike](../games/a-f/counter-strike.md)
+- [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
@@ -3032,6 +3045,7 @@
 - [`GAME-0123` — Inscryption](../games/g-l/inscryption.md)
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
 - [`GAME-0166` — Sid Meier’s Civilization VI](../games/s-z/sid-meiers-civilization-vi.md)
 - [`GAME-0155` — Slay the Spire 2](../games/s-z/slay-the-spire-2.md)
 - [`GAME-0120` — Slay the Spire](../games/s-z/slay-the-spire.md)
@@ -3077,6 +3091,7 @@
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
+- [`GAME-0268` — Undertale](../games/s-z/undertale.md)
 
 ## ACT-132
 
@@ -3768,8 +3783,10 @@
 - [`GAME-0218` — Counter-Strike](../games/a-f/counter-strike.md)
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
+- [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
+- [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
@@ -3781,6 +3798,7 @@
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
+- [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
@@ -4541,6 +4559,7 @@
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
 - [`GAME-0204` — "Crusader Kings III"](../games/a-f/crusader-kings-iii.md)
+- [`GAME-0264` — Disco Elysium - The Final Cut](../games/a-f/disco-elysium-the-final-cut.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
 - [`GAME-0182` — Hearts of Iron IV](../games/g-l/hearts-of-iron-iv.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
@@ -4587,6 +4606,7 @@
 - [`GAME-0181` — Overwatch](../games/m-r/overwatch.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
+- [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
@@ -4739,23 +4759,24 @@
 
 ## ACT-197
 
-- Назва: Застосувати одну партнерську здібність пала
-- Переглянуто: `2026-08-24`
+- Назва: Застосувати оголошену активну здібність напарника
+- Переглянуто: `2026-09-06`
 
 ### Операційне визначення
 
-Коли потрібні пал і спорядження доступні, гравець запускає передбачену для нього взаємодію: осідлує пала, використовує його для пересування або застосовує особливу дію у світі.
+Коли потрібний напарник і стан спорядження це дозволяють, гравець запускає оголошену для нього партнерську взаємодію, форму для пересування верхи або активну здібність.
 
 ### Включає
 
-Їзду на придатному палі, використання його для пересування або застосування активної Partner Skill у Palworld.
+Їзду на придатному палі, використання його для пересування або застосування активної Partner Skill у Palworld; наказ напарникові випустити стріли в поточну ціль у визначеному початковому розділі God of War.
 
 ### Виключає
 
-Самостійні звичайні атаки пала; пасивну робочу здібність; безпосереднє використання зброї гравцем.
+Самостійні звичайні дії напарника поруч із прямим керуванням; пасивну робочу придатність; безпосереднє використання зброї самим гравцем.
 
 ### Ігри-носії
 
+- [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
 
 ## ACT-198
@@ -4809,8 +4830,10 @@
 - [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0222` — "Call of Juarez: Gunslinger"](../games/a-f/call-of-juarez-gunslinger.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
+- [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
+- [`GAME-0264` — Disco Elysium - The Final Cut](../games/a-f/disco-elysium-the-final-cut.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
@@ -4864,6 +4887,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0220` — Battlefield V](../games/a-f/battlefield-v.md)
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
+- [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
@@ -5289,6 +5313,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 ### Ігри-носії
 
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
+- [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
 
@@ -5312,6 +5337,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 ### Ігри-носії
 
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
+- [`GAME-0269` — DREDGE](../games/a-f/dredge.md)
 
 ## ACT-221
 
@@ -5379,6 +5405,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
+- [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
@@ -5406,6 +5433,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
+- [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
@@ -5589,6 +5617,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
+- [`GAME-0264` — Disco Elysium - The Final Cut](../games/a-f/disco-elysium-the-final-cut.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
@@ -5845,6 +5874,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Ігри-носії
 
+- [`GAME-0269` — DREDGE](../games/a-f/dredge.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
@@ -5917,16 +5947,16 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ## ACT-249
 
-- Назва: Повернути руни з місця попередньої смерті
-- Переглянуто: `2026-08-24`
+- Назва: Повернути валюту з місця попередньої смерті
+- Переглянуто: `2026-09-05`
 
 ### Операційне визначення
 
-Гравець дістається єдиного поточного місця загибелі й торкається світного сліду, щоб знову додати залишені там руни до запасу персонажа.
+Гравець дістається єдиного поточного місця загибелі й торкається світного сліду, щоб знову додати залишений там запас витратної валюти до запасу персонажа.
 
 ### Включає
 
-Повернення втрачених рун в Elden Ring до наступної смерті персонажа.
+Повернення втрачених рун в Elden Ring до наступної смерті персонажа; дотик до кривавої плями в дослідженому маршруті DARK SOULS III, щоб забрати залишені там душі.
 
 ### Виключає
 
@@ -5934,6 +5964,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Ігри-носії
 
+- [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 
 ## ACT-250
@@ -6150,24 +6181,25 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ## ACT-261
 
-- Назва: Вчасно натиснути за підказкою перевірки навички
-- Переглянуто: `2026-08-27`
+- Назва: Вчасно натиснути, поки рухомий покажчик у показаному проміжку успіху
+- Переглянуто: `2026-09-06`
 
 ### Операційне визначення
 
-Під час тривалої взаємодії гравець один раз натискає, коли рухомий покажчик перетинає видимий проміжок успіху, й отримує один із градуйованих результатів без вибору нової цілі.
+Під час тривалої взаємодії гравець один раз натискає, коли рухомий покажчик перетинає показаний проміжок успіху, й отримує один із градуйованих результатів, не обираючи нової цілі.
 
 ### Включає
 
-Добру, відмінну й невдалу перевірку навички під час ремонту або лікування в Dead by Daylight.
+Добру, відмінну й невдалу перевірку навички під час ремонту або лікування в Dead by Daylight; підсічку в мить, коли рухома позначка перетинає показаний проміжок, у визначеному першому дні DREDGE.
 
 ### Виключає
 
-Парирування атаки; повну ритмічну послідовність; пасивну випадкову перевірку без введення гравця.
+Парирування атаки всередині обраної бойової дії; повну ритмічну послідовність, ноти якої і є метою; пасивну випадкову перевірку без введення гравця.
 
 ### Ігри-носії
 
 - [`GAME-0161` — Dead by Daylight](../games/a-f/dead-by-daylight.md)
+- [`GAME-0269` — DREDGE](../games/a-f/dredge.md)
 
 ## ACT-262
 
@@ -7184,20 +7216,20 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 
 ## ACT-309
 
-- Назва: Витрачати boost на спрямовану тягу авто
-- Переглянуто: `2026-08-31`
+- Назва: Витрачати скінченний запас машини на спрямоване прискорення
+- Переглянуто: `2026-09-06`
 
 ### Операційне визначення
 
-Утримувати або відпускати boost під час прямого керування, витрачаючи скінченний запас на тягу вздовж поточної орієнтації авто.
+Під час прямого керування машиною гравець вмикає, утримує або відпускає її скінченний запас прискорення, витрачаючи весь поточний обсяг або його частину, щоб додати спрямовану тягу вздовж поточної орієнтації машини в наземному чи повітряному русі; сама команда не володіє правилом, за яким той запас поповнюють, обмежують або відновлюють.
 
 ### Включає
 
-Наземне прискорення, повітряний набір висоти й повернення через boost у Rocket League.
+Наземне прискорення, повітряний набір висоти й повернення через накопичений запас у Rocket League; звичайне нітро Need for Speed Payback у дослідженій погоні за перевізником; увімкнення Burst Nitrous у дослідженому заїзді або обов’язковій погоні Need for Speed Unbound.
 
 ### Виключає
 
-Пасивний throttle, нескінченний speed modifier або медичний booster.
+Пасивну тягу двигуна; постійний необмежений приріст швидкості; витрату носимого лікувального підсилювача; особливу бойову чи водійську форму героя; системну поведінку, що поповнює, обмежує або відновлює цей запас.
 
 ### Ігри-носії
 
@@ -7205,6 +7237,7 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
+- [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 - [`GAME-0177` — Rocket League](../games/m-r/rocket-league.md)
 
 ## ACT-310
@@ -7892,10 +7925,13 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 - [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
+- [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
 - [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
+- [`GAME-0264` — Disco Elysium - The Final Cut](../games/a-f/disco-elysium-the-final-cut.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
+- [`GAME-0269` — DREDGE](../games/a-f/dredge.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
@@ -7911,11 +7947,13 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+- [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
+- [`GAME-0268` — Undertale](../games/s-z/undertale.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
 
 ## ACT-342
@@ -8235,27 +8273,6 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
-
-## ACT-357
-
-- Назва: Витрачати зароблене прискорення
-- Переглянуто: `2026-08-31`
-
-### Операційне визначення
-
-Коли керована машина має накопичений тимчасовий запас прискорення, гравець активує його повністю або частково й отримує коротке збільшення розгону.
-
-### Включає
-
-Витрачання Burst Nitrous під час визначеного заїзду або обов’язкової погоні Need for Speed Unbound.
-
-### Виключає
-
-Підбирання прискорення у визначеній точці; постійний тюнінг; стартовий контроль; суто візуальний ефект вихлопу.
-
-### Ігри-носії
-
-- [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 
 ## ACT-358
 
@@ -8829,16 +8846,16 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ## ACT-385
 
-- Назва: Кидати або відкликати багаторазовий цвях своєї ролі
-- Переглянуто: `2026-09-01`
+- Назва: Кидати або відкликати багаторазовий ручний інструмент
+- Переглянуто: `2026-09-05`
 
 ### Операційне визначення
 
-Закріплений за роллю гравець наводить один доступний багаторазовий цвях на сумісну досяжну ціль і кидає його або відкликає вже встановлений цвях назад до доступного набору.
+Гравець наводить один доступний багаторазовий ручний інструмент на сумісну досяжну ціль і кидає його або відкликає вже встановлений інструмент назад до стану, придатного для тримання в руці.
 
 ### Включає
 
-Кидання й миттєве відкликання обмеженого набору цвяхів Коді у відрізку The Shed гри It Takes Two.
+Кидання й миттєве відкликання обмеженого набору цвяхів Коді у відрізку The Shed гри It Takes Two; наведення, кидок і відкликання Leviathan Axe у дослідженому початковому маршруті God of War.
 
 ### Виключає
 
@@ -8846,6 +8863,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Ігри-носії
 
+- [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
 - [`GAME-0215` — It Takes Two](../games/g-l/it-takes-two.md)
 
 ## ACT-386
@@ -8976,23 +8994,24 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ## ACT-392
 
-- Назва: Безпосередньо пілотувати винищувач із кабіни
-- Переглянуто: `2026-09-02`
+- Назва: Керувати тягою й трьома осями повороту апарата
+- Переглянуто: `2026-09-06`
 
 ### Операційне визначення
 
-Безперервно керувати тягою, тангажем, рисканням і креном винищувача від першої особи, змінюючи положення й орієнтацію у тривимірному просторі.
+Безперервно задавати тягу, тангаж, рискання й крен одного апарата, щоб змінювати його положення та орієнтацію у відкритому тривимірному просторі, зберігаючи пряме керування цим апаратом.
 
 ### Включає
 
-Політ на фіксованому T-65B X-wing у Form the Vanguard.
+Політ на закріпленому винищувачі T-65B X-wing у місії Form the Vanguard; керування тягою та трьома осями зібраної ракети-носія від стартового столу до орбітального польоту в дослідженому завданні Kerbal Space Program.
 
 ### Виключає
 
-Вибір пункту на мапі; автономний загін; наземне водіння; некеровану сцену польоту.
+Вибір цілі на мапі; наказ автономному загону; аеродинамічний політ літака з розбігом по смузі, кермовими поверхнями й гальмуванням коліс; наземне водіння від третьої особи; неінтерактивну сцену польоту.
 
 ### Ігри-носії
 
+- [`GAME-0267` — Kerbal Space Program](../games/g-l/kerbal-space-program.md)
 - [`GAME-0225` — "STAR WARS: Squadrons"](../games/s-z/star-wars-squadrons.md)
 
 ## ACT-393
@@ -9573,6 +9592,7 @@ Glory Kill приголомшеного ворога зблизька у виз�
 
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
+- [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
 
 ## ACT-420
 
@@ -9679,6 +9699,7 @@ Glory Kill приголомшеного ворога зблизька у виз�
 
 ### Ігри-носії
 
+- [`GAME-0269` — DREDGE](../games/a-f/dredge.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 
 ## ACT-425
@@ -9911,3 +9932,193 @@ Glory Kill приголомшеного ворога зблизька у виз�
 ### Ігри-носії
 
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+
+## ACT-436
+
+- Назва: Виконати ухильний перекид за рахунок спільного запасу
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Зі звичайного живого руху гравець виконує одне спрямоване ухильне переміщення, ціну якого беруть зі спільного вичерпного запасу зусиль, а не з окремого часу відновлення дії, і приймає визначений проміжок відновлення після нього.
+
+### Включає
+
+Спрямований перекид, яким перетинають ворожий удар у дослідженому маршруті Cemetery of Ash гри DARK SOULS III.
+
+### Виключає
+
+Звичайне переміщення рельєфом; ухилення, ціна якого — лише власний час відновлення чи скидання стану; блок або парирування; стрибок, що лише змінює висоту; автоматичне сюжетне ухилення.
+
+### Ігри-носії
+
+- [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
+
+## ACT-437
+
+- Назва: Утримувати й відпускати ненаправлений захист у бік погляду
+- Переглянуто: `2026-09-06`
+
+### Операційне визначення
+
+Під час живого бою гравець піднімає й утримує вдягнене захисне спорядження в бік поточного повороту персонажа, щоб допустимі зустрічні атаки послаблювались або поглинались замість того, щоб повністю лягати на здоров’я, і відпускає його, щоб повернутися до звичайних дій; сама команда не володіє тим, чи і як саме те поглинання оплачується.
+
+### Включає
+
+Утримування щита проти ударів Grave Warden і стражів у дослідженому маршруті Cemetery of Ash гри DARK SOULS III; утримування щита Guardian Shield у дослідженому початковому маршруті God of War.
+
+### Виключає
+
+Наведення захисту в бік однієї вибраної атаки; захист бійцівської гри вгору чи вниз, який запитують напрямком руху; тривалий захист зброєю, власна шкала якого може вичерпатися до відкритого стану; вікно вчасного парирування чи відбиття; тимчасовий запас поглинання перед здоров’ям; сталий захист обладунка, що не потребує утримування.
+
+### Ігри-носії
+
+- [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
+- [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
+
+## ACT-438
+
+- Назва: Прив’язати огляд і поворот атак до однієї обраної цілі
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Гравець обирає одну поточно допустиму сусідню ворожу ціль і прив’язує до неї камеру та напрямок атак персонажа, тож подальший рух стає відносним до цього актора, доки гравець не зніме прив’язку або ціль не втратить допустимість.
+
+### Включає
+
+Прив’язку до Grave Warden або до стража маршруту в дослідженому маршруті DARK SOULS III.
+
+### Виключає
+
+Збережену тактичну позначку, що переживає перешкоди чи сутичку; автоматичну допомогу з наведенням, яку гравець не обирає; вибір абстрактної картки чи пункту меню; наказ іншому актору атакувати ціль.
+
+### Ігри-носії
+
+- [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
+
+## ACT-440
+
+- Назва: Прийняти перевірку здібності з показаними шансами
+- Переглянуто: `2026-09-05`
+
+### Операційне визначення
+
+Гравець вибирає запропонований варіант із перевіркою здібності, читає показані шанси на успіх і доданки, що їх утворюють, і підтверджує його, знаючи, що результат вирішить випадковий розрахунок, а не якість виконання команди.
+
+### Включає
+
+Підтвердження активної білої або червоної перевірки на репліці чи предметі в дослідженому початковому епізоді Disco Elysium - The Final Cut.
+
+### Виключає
+
+Звичайну авторську відповідь із наперед визначеним наслідком; вчасне натискання, успіх якого залежить від миті; здібність, обмежену лише ресурсом чи часом відновлення; приховану перевірку, яку гравець не обирає.
+
+### Ігри-носії
+
+- [`GAME-0264` — Disco Elysium - The Final Cut](../games/a-f/disco-elysium-the-final-cut.md)
+
+## ACT-441
+
+- Назва: Поставити платного постійного захисника на відомий маршрут
+- Переглянуто: `2026-09-06`
+
+### Операційне визначення
+
+Гравець вибирає один тип із платного каталогу й ставить його на обрану допустиму позицію на мапі, де маршрут ворогів незмінний і відомий заздалегідь, тож обрана позиція визначає, яку ділянку цього маршруту новий постійний захисник зможе опрацьовувати до кінця спроби.
+
+### Включає
+
+Розміщення купленої мавпи на суходолі початкової мапи в дослідженому легкому стандартному маршруті Bloons TD 6.
+
+### Виключає
+
+Розміщення споруди, чия позиція змінює покриття міських послуг; розміщення чи поворот об’єкта в робочому виробничому плануванні; купівлю активу без вибору позиції у світі; висадку загону, який потім рухається або отримує прямі накази.
+
+### Ігри-носії
+
+- [`GAME-0265` — Bloons TD 6](../games/a-f/bloons-td-6.md)
+
+## ACT-442
+
+- Назва: Задати поставленому захисникові правило вибору цілі
+- Переглянуто: `2026-09-06`
+
+### Операційне визначення
+
+Для одного вже поставленого автономного захисника гравець вибирає серед оголошених правил те, яке вирішуватиме, кого з допустимих ворогів у межах досяжності він атакуватиме наступним, змінюючи майбутні автоматичні вибори цього захисника й не наказуючи жодної окремої сутички.
+
+### Включає
+
+Перемикання поставленої мавпи між оголошеними правилами «перший», «останній», «найближчий» і «найсильніший» у дослідженому маршруті Bloons TD 6.
+
+### Виключає
+
+Призначення шикування та бойової постави загону під прямим керуванням; вибір здібності та її цілі; наведення удару; поставу, що змінює, рухається актор чи тримає позицію.
+
+### Ігри-носії
+
+- [`GAME-0265` — Bloons TD 6](../games/a-f/bloons-td-6.md)
+
+## ACT-443
+
+- Назва: Прорізати породу й забрати вміщений у ній видобуток
+- Переглянуто: `2026-09-06`
+
+### Операційне визначення
+
+Гравець наводить різальний інструмент на досяжну тверду породу й усуває її суцільний об’єм, назавжди відкриваючи цей об’єм як прохідний простір; якщо в усунутому об’ємі було родовище, та сама дія переносить його заявлений матеріал до перенесеного запасу.
+
+### Включає
+
+Удари спільним кайлом або свердлами класу Driller крізь печерну породу й крізь родовища мінералів у дослідженій одиночній експедиції Deep Rock Galactic.
+
+### Виключає
+
+Руйнування однієї окремої комірки, брили чи стіни світу; усунення обмеженого об’єму ґрунту лише заради заглиблення чи укриття; утримування команди видобутку на окремому ресурсному об’єкті, який не є породою; збирання з польового джерела чи з переможеного тіла; руйнування породи винятково заради появи окремої здобичі.
+
+### Ігри-носії
+
+- [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
+
+## ACT-444
+
+- Назва: Розподілити частини по впорядкованому списку запусків і просувати його
+- Переглянуто: `2026-09-06`
+
+### Операційне визначення
+
+Під час складання гравець розподіляє частини побудованого апарата по впорядкованому списку кроків запуску й може вільно міняти порядок цього списку; під час роботи одна повторювана команда просуває список рівно на один крок, безповоротно запалюючи або відділяючи кожну частину цього кроку.
+
+### Включає
+
+Укладання списку запусків у складальному ангарі та його просування по одному кроку в польоті в дослідженому завданні Sandbox гри Kerbal Space Program.
+
+### Виключає
+
+Розміщення чи орієнтування складника; редагування місцевого правила роботи окремого об’єкта або просторового поля команд; вибір однієї здібності та її цілі; час відновлення, що повертає використану дію; активацію, яку система виконує за власним розкладом.
+
+### Ігри-носії
+
+- [`GAME-0267` — Kerbal Space Program](../games/g-l/kerbal-space-program.md)
+
+## ACT-445
+
+- Назва: Вести підвладну фішку обмеженим полем, уникаючи чужих фігур
+- Переглянуто: `2026-09-06`
+
+### Операційне визначення
+
+Поки діє супротивник, гравець безперервно веде одну малу підвладну фішку обмеженим полем, яке вона не може покинути, так щоб фішка уникала дотику до фігур, що супротивник випускає в те саме поле; це ведення є єдиним захисним введенням, і жодного удару, блоку чи вчасної відповіді при цьому не пропонують.
+
+### Включає
+
+Рух фішки-серця всередині замкненої рамки, поки її перетинають снаряди чудовиська, у дослідженому початковому маршруті Undertale.
+
+### Виключає
+
+Одне вчасне ухилення, парирування чи стрибок у вибрану мить; захищений проміжок, куплений зі спільного запасу; утримування блоку; проведення сталого персонажа геометрією рівня; наведення зброї на нападника.
+
+### Ігри-носії
+
+- [`GAME-0268` — Undertale](../games/s-z/undertale.md)

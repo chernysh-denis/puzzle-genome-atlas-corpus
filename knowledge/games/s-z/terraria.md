@@ -35,7 +35,7 @@ gene_ids:
     - CON-206
     - CON-208
     - CON-210
-    - CON-366
+    - CON-297
     - CON-367
     - CON-368
     - CON-369
@@ -191,9 +191,15 @@ gene_ids:
 
 - Existing genes: `CON-206`, terrain breaking needs reach, mutability and a
   compatible tool; `CON-208`, placement needs compatible reachable space and
-  support; `CON-210`, stacks and slots bound inventory transfer.
-- New genes: `CON-366`, crafting needs all inputs and station context;
-  `CON-367`, town housing needs a safe furnished room and home tile;
+  support; `CON-210`, stacks and slots bound inventory transfer; `CON-297`,
+  crafting needs every input quantity from a carried, opened or nearby inventory
+  and reach of every required station or environmental source. Which inventories
+  count as a source, their priority and whether the station is a placed object
+  or an environmental feature are parameters of that same legality boundary,
+  which
+  [`TAXONOMY_CHANGE_025`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_025.md)
+  established.
+- New genes: `CON-367`, town housing needs a safe furnished room and home tile;
   `CON-368`, NPC arrival needs its milestone and vacant valid housing;
   `CON-369`, Eye entry and completion need a legal night state; `CON-370`,
   healing-item use needs missing health and no Potion Sickness.
@@ -304,7 +310,7 @@ gene_ids:
 
 ## Normalised genome
 
-The genome contains 39 genes: 26 reused and 13 new. It treats dimensionality,
+The genome contains 39 genes: 27 reused and 12 new. It treats dimensionality,
 world size, item counts, room dimensions, health thresholds and night duration
 as parameters while separating direct commands, automatic resolution, legality,
 disclosure, the composed first-boss objective and real-time scheduling.
@@ -358,9 +364,13 @@ loot comparison.
 `TAXONOMY_CHANGE_010` generalises seven Minecraft-derived mutable-world genes
 from implementation-specific voxel wording to embodied tile-world cells. It
 does not change Minecraft's signature or create dimension-specific duplicates.
-The unit adds sixteen bounded records for immediate station crafting, day/night
-ecology, permanent resource boosters, validated NPC housing/admission, first-Eye
-resolution, housing/map/boss disclosure and the composed objective.
+The unit adds fifteen bounded records for day/night ecology, permanent resource
+boosters, validated NPC housing/admission, first-Eye resolution, housing/map/boss
+disclosure and the composed objective. Immediate station-crafting legality was
+originally recorded here as `CON-366`, which
+[`TAXONOMY_CHANGE_025`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_025.md)
+later subsumed into `CON-297`, whose parameters carry the ingredient source and
+station context, without changing any other carrier's signature.
 
 ## Negative results
 
