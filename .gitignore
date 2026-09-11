@@ -1,0 +1,14 @@
+
+# Артефакти роботи з ШІ-агентами: промти, хендофи, звіти агентів.
+# Ніколи не потрапляють у коміти — ні в публічному, ні в приватному репозиторії.
+*_HANDOFF.md
+*_HANDOFF_*.md
+*PROMPT*.md
+CLAUDE_*.md
+CODEX_*.md
+GPT_*.md
+GEMINI_*.md
+docs/CLAUDE_*
+docs/CODEX_*
+*_RESULT_V[0-9]*.md
+*_REVIEW_V[0-9]*.md
