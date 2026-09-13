@@ -82,6 +82,10 @@
   for shuffled library order inside one supplied-deck duel.
 - Additional support: [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md),
   for eligible stock-weapon random critical-hit selection.
+- Additional support: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md),
+  for weighted curio outcome tables and light-modified loot draws.
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for blueprint rarity rolls, drop rolls and layout randomness.
 - Novelty: not assessed; this is part of the baseline genome.
 
 ## SYS-005 — Zero-clue region expansion
@@ -543,17 +547,26 @@
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: simulation time adds independently generated visible demand
-  units to existing service nodes, requiring compatible network service.
+  units to an operating service surface, where each unit waits for compatible
+  fulfilment by the configured service rather than being placed by the player.
 - Includes: shaped Mini Metro passengers appearing beside stations and waiting
   for transport to a station of the matching shape; pins appearing at Mini
-  Motorways destinations and requesting a compatible house car.
+  Motorways destinations and requesting a compatible house car; customers
+  arriving during DAVE THE DIVER's bounded first restaurant service and placing
+  visible dish or drink requests.
 - Excludes: a pre-existing concealed queue; demand directly placed by the
-  player; the later movement of a waiting passenger.
-- Parameters: arrival rate, origin and destination distributions, bursts and
-  map-specific demand rules.
+  player; the later movement or fulfilment of a waiting unit; an authored
+  hostile wave whose members do not request a service.
+- Parameters: arrival rate, service surface, request distribution, origin and
+  destination distributions, bursts and session-specific demand rules.
 - Evidence: [Mini Metro decomposition](../games/m-r/mini-metro.md) and
-  [Mini Motorways decomposition](../games/m-r/mini-motorways.md).
+  [Mini Motorways decomposition](../games/m-r/mini-motorways.md), and
+  [DAVE THE DIVER decomposition](../games/a-f/dave-the-diver.md).
 - Novelty: not assessed.
+- Change note: wording generalised by
+  [`TAXONOMY_CHANGE_038`](../../research/taxonomy-changes/TAXONOMY_CHANGE_038.md)
+  from network-only demand to visible demand awaiting compatible fulfilment on
+  any operating service surface; arrival remains time-driven and system-owned.
 
 ## SYS-031 — Automatic route-based passenger transport
 
@@ -635,26 +648,34 @@
 - Evidence: [Dorfromantik decomposition](../games/a-f/dorfromantik.md).
 - Novelty: not assessed.
 
-## SYS-035 — Earned action-supply replenishment
+## SYS-035 — Replenish future-action supply through in-session performance
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: satisfying a declared in-session performance condition
-  automatically adds one or more future action-enabling elements to the current
-  bounded supply from which ordinary actions consume.
+  automatically adds one or more units, or progress toward one unit, to the
+  current bounded supply that enables a later eligible player action.
 - Includes: Dorfromantik adding tiles to the stack for completed quests and
   perfect placements; Loop Hero enemies yielding playable world cards to the
-  current hand.
+  current hand; Sekiro hostile defeats adding power toward another in-place
+  self-recovery charge.
 - Excludes: refilling a preview queue while total supply strictly decreases;
+  restoring a fixed base charge at checkpoint rest (`SYS-364`); clearing a
+  separate post-use lock without adding charge (`SYS-853`); time-only recharge;
   awarding reusable infrastructure at a fixed calendar boundary; an unlimited
   creative-mode supply.
-- Parameters: reward triggers, awarded quantity, insertion position and
-  simultaneous-reward handling.
+- Parameters: performance trigger, supply, awarded unit or progress, amount,
+  cap, later action, readiness timing and simultaneous-reward handling.
 - Evidence: [Dorfromantik decomposition](../games/a-f/dorfromantik.md) and
-  [Loop Hero decomposition](../games/g-l/loop-hero.md).
+  [Loop Hero decomposition](../games/g-l/loop-hero.md), and
+  [Sekiro decomposition](../games/s-z/sekiro-shadows-die-twice.md).
 - Novelty: not assessed.
+- Change note: wording and carrier scope were generalised by
+  [`TAXONOMY_CHANGE_067`](../../research/taxonomy-changes/TAXONOMY_CHANGE_067.md)
+  after Sekiro's combat-earned recovery power passed the three-carrier transfer
+  test independently of its post-use lock.
 
 ## SYS-036 — Continuous force-constrained body dynamics
 
@@ -1154,6 +1175,8 @@
   distraction priority, abandonment rule and contact consequence.
 - Evidence: [Timelie decomposition](../games/s-z/timelie.md) and
   [Alien: Isolation decomposition](../games/a-f/alien-isolation.md).
+- Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  for zombies that perceive Leon leaving their positions and pursuing him between rooms with a grab on contact.
 - Novelty: not assessed.
 
 ## SYS-058 — Instruction-triggered geometry-validated molecular transformation
@@ -3017,6 +3040,9 @@
 - Parameters: demand sector, stage, density, wealth, occupancy, abandonment and redevelopment.
 - Evidence: [SimCity 4 Deluxe Edition decomposition](../games/s-z/simcity-4-deluxe-edition.md)
   and [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
+- Additional support: [Cities: Skylines II decomposition](../games/a-f/cities-skylines-ii.md),
+  for private buildings constructed automatically on authorised zones wherever
+  demand and road access allow.
 - Novelty: not assessed.
 
 ## SYS-152 — Recompute sector demand from population and policy
@@ -3036,6 +3062,9 @@
   contribution and update cadence.
 - Evidence: [SimCity 4 Deluxe Edition decomposition](../games/s-z/simcity-4-deluxe-edition.md)
   and [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
+- Additional support: [Cities: Skylines II decomposition](../games/a-f/cities-skylines-ii.md),
+  for the residential, commercial and industrial demand the scoped new city
+  must show before an authorised zone develops.
 - Novelty: not assessed.
 
 ## SYS-153 — Propagate utility and civic-service coverage
@@ -3054,25 +3083,33 @@
 - Parameters: capacity, radius or network, funding, distance decay, demand and outage.
 - Evidence: [SimCity 4 Deluxe Edition decomposition](../games/s-z/simcity-4-deluxe-edition.md)
   and [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
+- Additional support: [Cities: Skylines II decomposition](../games/a-f/cities-skylines-ii.md),
+  for electricity, water and sewage carried to the zoned lots by the cables and
+  pipes built into the roads the player has drawn.
 - Novelty: not assessed.
 
-## SYS-154 — Settle recurring municipal budget
+## SYS-154 — Settle a recurring managed-domain budget
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: at recurring simulation intervals, the system credits taxes and
-  deals, debits maintenance and service expenditure, and updates the treasury
-  and solvency state.
+- Definition: at recurring simulation intervals, the system credits declared
+  income, debits declared upkeep or expenditure and updates the managed
+  polity's stockpiles, treasury or solvency state.
 - Includes: recurring income and expenditure settlement in SimCity 4 and
   Cities: Skylines.
+- Additional support: settling Stellaris empire income and upkeep into the
+  corresponding resource stockpiles each month.
 - Excludes: a one-time purchase only; score awarded at a level ending; a
-  household budget outside the managed city.
-- Parameters: interval, revenue categories, maintenance, deals, debt and deficit response.
+  household budget outside the managed domain.
+- Parameters: managed domain, interval, resource or currency, income
+  categories, upkeep, deals, treasury, debt and deficit response.
 - Evidence: [SimCity 4 Deluxe Edition decomposition](../games/s-z/simcity-4-deluxe-edition.md)
   and [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
-- Novelty: not assessed.
+- Additional evidence: [Stellaris decomposition](../games/s-z/stellaris.md).
+- Novelty: not assessed; `TAXONOMY_CHANGE_055` replaced the city-bound carrier
+  noun with the transferable recurring-budget boundary.
 
 ## SYS-155 — Generate trips and congestion from urban activity
 
@@ -3131,23 +3168,26 @@
 - Evidence: [Factorio decomposition](../games/a-f/factorio.md).
 - Novelty: not assessed.
 
-## SYS-158 — Distribute network power and throttle consumers
+## SYS-158 — Balance bounded power supply against live consumers
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: each connected power network continuously pools current
-  generation and storage, distributes available energy among active consumers
-  and slows or stops them when demand exceeds supply.
-- Includes: Factorio pole-connected generators, accumulators, assembling
-  machines, inserters, mining drills and laser turrets sharing electricity.
+- Definition: each owner or network power domain continuously pools current
+  generation and any storage, distributes available energy among active
+  consumers and slows, stops or degrades dependent behaviour when demand
+  exceeds supply.
+- Includes: Factorio pole-connected generators, accumulators and consumers;
+  Command & Conquer owner-wide building generation and demand.
 - Excludes: binary service-radius coverage with no energy flow; fuel consumed
   independently inside an unconnected burner; a fixed level power switch.
-- Parameters: network membership, production priorities, storage charge,
-  satisfaction ratio, consumer drain and outage behaviour.
-- Evidence: [Factorio decomposition](../games/a-f/factorio.md).
-- Novelty: not assessed.
+- Parameters: domain membership, topology if any, production priorities,
+  storage charge, satisfaction ratio, consumer drain and deficit behaviour.
+- Evidence: [Factorio decomposition](../games/a-f/factorio.md) and
+  [Command & Conquer Remastered Collection decomposition](../games/a-f/command-and-conquer-remastered-collection.md).
+- Novelty: generalised by `TAXONOMY_CHANGE_036`; whether the power domain is a
+  connected graph or an owner-wide pool is a carrier parameter.
 
 ## SYS-159 — Consume science toward queued technology unlock
 
@@ -3312,6 +3352,8 @@
 - Parameters: retained fields, healing, node reward timing, act transition and
   terminal reset.
 - Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md).
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for gold, cells, stats, health and loadout carried from the Prisoners' Quarters through the Passage into the Promenade.
 - Novelty: not assessed.
 
 ## SYS-168 — Generate a finite branching act route from a run seed
@@ -3331,25 +3373,39 @@
 - Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md).
 - Novelty: not assessed.
 
-## SYS-169 — Unlock municipal capabilities at population milestones
+## SYS-169 — Unlock municipal capabilities at a settlement progression milestone
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: when the current city population first crosses a declared
-  threshold, the simulation persistently adds its associated municipal tools,
-  services, zones, policies, finance options or purchasable land areas to the
-  available action catalogue.
+- Definition: when the settlement's declared progression measure first
+  reaches a declared threshold, the simulation persistently adds that
+  milestone's associated municipal tools, services, zones, policies, finance
+  options or purchasable land areas to the available action catalogue and pays
+  any declared one-time award.
 - Includes: Cities: Skylines population milestones unlocking services,
-  buildings, zones, loans, policies and additional map areas.
+  buildings, zones, loans, policies and additional map areas; Anno 1800
+  population-tier milestones unlocking their buildings; a Cities: Skylines II
+  milestone releasing the capabilities it carries once the city's accumulated
+  progression total reaches it.
 - Excludes: spending produced science on a queued technology; receiving a
   random weekly upgrade; a purely cosmetic achievement with no available
-  action change.
-- Parameters: population thresholds, unlock bundle, cash award, notification,
-  map scaling and whether population decline can revoke access.
+  action change; crediting the measure itself (`SYS-517`); the legality
+  predicate that keeps the released capability unavailable beforehand
+  (`CON-179`, `CON-440`).
+- Parameters: the compared measure, its threshold schedule, unlock bundle,
+  one-time award, notification, map scaling and whether a fall in the measure
+  can revoke access.
 - Evidence: [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
-- Novelty: not assessed.
+- Additional support: [Anno 1800 decomposition](../games/a-f/anno-1800.md),
+  for population-tier milestones adding their buildings to the catalogue.
+- Additional support: [Cities: Skylines II decomposition](../games/a-f/cities-skylines-ii.md),
+  for a milestone crossing that permanently adds the capabilities it releases
+  to the buildable catalogue and pays its declared one-time award.
+- Novelty: not assessed; generalised from a population threshold to any
+  declared settlement progression measure by
+  [`TAXONOMY_CHANGE_048`](../../research/taxonomy-changes/TAXONOMY_CHANGE_048.md).
 
 ## SYS-170 — Continuously apply fixed geometric-shape machine operation
 
@@ -3983,6 +4039,8 @@
   for firearm aim, obstruction and body-hit resolution against Infected.
 - Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
   for firearm aim, defence and hostile hit-region resolution.
+- Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  for handgun shots whose leg hits slow and head hits can stun a zombie.
 - Novelty: not assessed.
 
 ## SYS-209 — Generate seeded planet and landing map
@@ -4122,10 +4180,22 @@
   [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md).
 - Additional support: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md),
   for continuous directly controlled Survivor combat against Infected.
+- Additional support: [Command & Conquer Remastered Collection decomposition](../games/a-f/command-and-conquer-remastered-collection.md),
+  for continuously resolved combat between directly commanded unit groups and
+  the mission's finite hostile set.
 - Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
   for continuous directly controlled Titan combat through one Fireteam Op.
 - Additional support: [Brawlhalla decomposition](../games/a-f/brawlhalla.md),
   for simultaneous two-fighter contact, damage, force and knockout resolution.
+- Additional support: [Cuphead decomposition](../games/a-f/cuphead.md),
+  for continuous direct movement, shooting, hazard contact, damage and defeat
+  across one sealed encounter.
+- Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  for continuous zombie approach, grab, bite and defeat resolution during the opening.
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for real-time combat with Zombies, Undead Archers, Shieldbearers and Grenadiers, including breach stun and frontal immunity.
+- Additional support: [TEKKEN 8 decomposition](../games/s-z/tekken-8.md),
+  for two-fighter contact resolved by hit level against posture, tracking against lateral displacement, counter hit, armour, launch, juggle, wall splat and the knockdown state whose no-input branch is staying down.
 - Novelty: not assessed.
 
 ## SYS-216 — Apply carried-state loss and respawn in the persistent world
@@ -4237,6 +4307,8 @@
   for contact pickup of eligible run resources and pocket items.
 - Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
   for contact pickup of compatible ammunition bricks.
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for gold and cells that fly to the Beheaded within pickup range.
 - Novelty: not assessed.
 
 ## SYS-223 — Reduce tool durability on eligible use and remove it at exhaustion
@@ -5475,6 +5547,8 @@
 - Parameters: path, collision, target, range, turn rate and attack interval.
 - Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md) and
   [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
+- Additional support: [Command & Conquer Remastered Collection decomposition](../games/a-f/command-and-conquer-remastered-collection.md),
+  for autonomous path and target acquisition under committed group orders.
 - Novelty: not assessed.
 
 ## SYS-298 — Award match gold and experience from live events
@@ -5587,6 +5661,8 @@
 - Parameters: source, radius, elevation, time of day, invisibility and detection.
 - Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md) and
   [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
+- Additional support: [Command & Conquer Remastered Collection decomposition](../games/a-f/command-and-conquer-remastered-collection.md),
+  for unit- and building-projected current sight under mission fog.
 - Novelty: not assessed.
 
 ## SYS-306 — Respawn neutral camps and award Roshan control
@@ -5863,6 +5939,8 @@
   [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md),
   [Trackmania decomposition](../games/s-z/trackmania.md), and
   [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
+- Additional support: [Forza Horizon 5 decomposition](../games/a-f/forza-horizon-5.md),
+  for stock-car steering, traction, road contact, collision and cosmetic damage.
 - Novelty: not assessed.
 
 ## SYS-321 — Contract phased safe area and apply Blue Zone exposure
@@ -5976,17 +6054,22 @@
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: the system continuously updates health, calories, hydration,
-  temperature and radiation from activity, consumed resources, equipment and
-  the avatar's current environment.
-- Includes: Rust hunger, thirst, wetness, heat, cold and radiation survival.
+  temperature, fatigue and radiation from activity, rest, consumed resources,
+  equipment and the avatar's current environment.
+- Includes: Rust hunger, thirst, wetness, heat, cold and radiation survival;
+  The Long Dark's Warmth, Fatigue, Thirst, Hunger and Condition loop.
 - Excludes: building decay; equipment durability; direct hostile damage.
-- Parameters: health, calories, hydration, temperature, wetness, radiation,
-  protection, activity and recovery.
+- Parameters: health, calories, hydration, temperature, fatigue, wetness,
+  radiation, protection, activity, rest and recovery.
 - Evidence: [Rust decomposition](../games/m-r/rust.md) and
   [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
 - Additional support: [DayZ decomposition](../games/a-f/dayz.md), for the
   current survivor's water, energy, temperature, wetness and health exposure.
-- Novelty: not assessed.
+- Additional support: [The Long Dark decomposition](../games/s-z/the-long-dark.md),
+  for a distinct Fatigue need that activity and sleep decrease or restore while
+  the same environment updates the other survival state.
+- Novelty: not assessed. The fatigue-and-rest generalisation was accepted in
+  [`TAXONOMY_CHANGE_053`](../../research/taxonomy-changes/TAXONOMY_CHANGE_053.md).
 
 ## SYS-328 — Resolve the personal crafting queue
 
@@ -6584,13 +6667,17 @@
   encounter-progress credit before play returns to traversal.
 - Includes: Clair Obscur: Expedition 33 post-battle rewards and Picto progress;
   Sastasha boss rewards and admitted treasure coffers entering the controlled
-  player's inventory during the scoped Duty Support run.
+  player's inventory during the scoped Duty Support run; the retained key item
+  dropped by Hollow Knight's declared guardian.
 - Excludes: converting accumulated experience into a level; unauthorised random
   world pickup; hidden collection or market progression after the bounded unit.
 - Parameters: encounter or source, reward table, sampled item, quantities,
   recipients, experience, currency and bounded progress credit.
 - Evidence: [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md)
-  and [FINAL FANTASY XIV Online decomposition](../games/a-f/final-fantasy-xiv-online.md).
+  and [FINAL FANTASY XIV Online decomposition](../games/a-f/final-fantasy-xiv-online.md),
+  and [Hollow Knight decomposition](../games/g-l/hollow-knight.md).
+- Additional support: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md),
+  for the post-battle loot window, the 5,000 gold Old Road reward, loot conversion at the debrief and the 2 resolve experience.
 - Novelty: not assessed.
 
 ## SYS-363 — Convert mastered Picto passive into reusable Lumina
@@ -6621,13 +6708,15 @@
   applicable and repopulates defeated ordinary field encounters in the linked area.
 - Includes: Clair Obscur: Expedition 33 Expedition Flag and campsite rest;
   Hollow Knight: Silksong Bench recovery and ordinary-enemy reset; Black Myth:
-  Wukong Keeper's Shrine recovery, Gourd refill and ordinary-enemy reset.
+  Wukong Keeper's Shrine recovery, Gourd refill and ordinary-enemy reset;
+  Hollow Knight Bench recovery and ordinary-enemy reset.
 - Excludes: a combat heal; a full new-game reset; enemies returning merely
   because real time elapsed.
 - Parameters: recovery set, item maxima, respawn scope and checkpoint state.
 - Evidence: [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md),
   [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md) and
-  [Black Myth: Wukong decomposition](../games/a-f/black-myth-wukong.md).
+  [Black Myth: Wukong decomposition](../games/a-f/black-myth-wukong.md), and
+  [Hollow Knight decomposition](../games/g-l/hollow-knight.md).
 - Novelty: not assessed.
 
 ## SYS-365 — Simulate ambient traffic and reactive civilians
@@ -6732,6 +6821,8 @@
 - Evidence: [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md),
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
   [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
+- Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  for `Continue` after game over restoring the most recent auto or manual save data.
 - Novelty: not assessed.
 
 ## SYS-370 — Resolve heist plan and crew proficiency into take
@@ -7085,16 +7176,26 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: entering combat rolls and orders initiative, activates one legal
-  participant or tied allied group at a time and refreshes that creature's
-  ordinary movement, Action, Bonus Action and Reaction resources on schedule.
-- Includes: Baldur's Gate 3 single-player combat initiative and turn cycling.
+- Definition: entering combat, and again at each round boundary where the
+  ruleset re-rolls, rolls and orders initiative from each participant's
+  initiative attribute plus a random component, activates one legal
+  participant or tied allied group at a time and refreshes that participant's
+  declared per-turn action resources on schedule.
+- Includes: Baldur's Gate 3 single-player combat initiative and turn cycling;
+  Darkest Dungeon round initiative, re-rolled every round as speed plus a
+  hidden 1–8 roll with heroes winning ties and each unit taking one action, in
+  the scoped Old Road tutorial.
 - Excludes: continuous real-time combat; pre-authored enemy intent queues;
-  selecting the action or resolving its effect.
-- Parameters: participant, initiative die, modifier, tie group, round, active
-  turn, movement, Action, Bonus Action, Reaction and refresh.
-- Evidence: [Baldur's Gate 3 decomposition](../games/a-f/baldurs-gate-3.md).
-- Novelty: not assessed.
+  selecting the action or resolving its effect; the battle-start surprise
+  check that precedes ordering (`SYS-828`).
+- Parameters: participant, initiative attribute and die, modifier, tie rule,
+  re-roll cadence, roll visibility, round, active turn, per-turn resources
+  such as movement, Action, Bonus Action and Reaction, and refresh.
+- Evidence: [Baldur's Gate 3 decomposition](../games/a-f/baldurs-gate-3.md) and
+  [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md).
+- Novelty: not assessed; generalised by
+  [`TAXONOMY_CHANGE_041`](../../research/taxonomy-changes/TAXONOMY_CHANGE_041.md)
+  so the re-roll cadence and resource names are parameters.
 
 ## SYS-389 — Resolve typed attacks, spells and environmental interaction
 
@@ -7258,23 +7359,28 @@
   the boundary, and the shape of the map-control predicate that sustains the
   bleed is a parameter.
 
-## SYS-397 — Convert needle strikes into Silk-funded Bind and skills
+## SYS-397 — Convert direct strikes into a reserve spent by active effects
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: eligible direct strikes add Silk to a bounded spool, while Bind
-  consumes a full spool for immediate healing and learned Silk Skills consume
-  their declared Silk cost for an authored effect.
+- Definition: eligible direct strikes add to one bounded personal reserve,
+  while player-triggered recovery or learned active abilities consume their
+  declared amount from that same reserve for an authored effect.
 - Includes: Hollow Knight: Silksong needle-generated Silk, full-spool Bind and
-  Silk-powered Silkspear or Needolin use.
+  Silk-powered Silkspear or Needolin use; Hollow Knight Nail-generated SOUL and
+  Focus recovery.
 - Excludes: passive health regeneration; an unrelated mana pool; healing from a
   finite carried consumable; a resource that resets after every enemy.
-- Parameters: strike, Silk gain, spool capacity, Bind cost, healing, skill cost
-  and skill effect.
-- Evidence: [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md).
+- Parameters: strike, gain, reserve capacity, recovery cost and effect, ability
+  cost and ability effect.
+- Evidence: [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md)
+  and [Hollow Knight decomposition](../games/g-l/hollow-knight.md).
 - Novelty: not assessed.
+- Change note: product nouns were generalised by
+  [`TAXONOMY_CHANGE_034`](../../research/taxonomy-changes/TAXONOMY_CHANGE_034.md)
+  after the predecessor supplied a second mechanically independent carrier.
 
 ## SYS-398 — Retain an acquired traversal or world-interaction capability
 
@@ -7305,12 +7411,14 @@
   region; game-specific parameters may select the return point or attach a
   reversible capacity penalty until recovery.
 - Includes: Hollow Knight: Silksong Bench return, Rosary Cocoon and temporary
-  nine-Silk cap; Elden Ring Grace-or-Stake return and recoverable rune mark.
+  nine-Silk cap; Hollow Knight Bench return, Shade-held Geo and temporary SOUL
+  cap; Elden Ring Grace-or-Stake return and recoverable rune mark.
 - Excludes: dropping every carried inventory item; permanent one-life defeat;
   reloading a snapshot that erases the intervening world state.
 - Parameters: death position, checkpoint options, currency, mark object,
   optional capacity penalty, recovery interaction and retained world state.
 - Evidence: [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md);
+  [Hollow Knight decomposition](../games/g-l/hollow-knight.md);
   [Elden Ring decomposition](../games/a-f/elden-ring.md).
 - Novelty: not assessed.
 
@@ -7476,18 +7584,23 @@
 - Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
 - Novelty: not assessed.
 
-## SYS-409 — Convert guard or stance depletion into a critical opening
+## SYS-409 — Convert stability-threshold crossing into a critical opening
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: qualifying attacks reduce a hidden or guarded stability state;
-  crossing its threshold interrupts the target and exposes a critical window.
-- Includes: Elden Ring guard breaks, stance breaks and critical follow-ups.
+- Definition: qualifying attacks move a hidden or displayed guard, stance or
+  posture state toward its break threshold; crossing the threshold interrupts
+  the target and exposes a critical window, whether the presentation fills or
+  depletes a meter.
+- Includes: Elden Ring guard and stance breaks; Sekiro posture breaks and their
+  Deathblow openings.
 - Excludes: health-only stagger; scripted boss phase change; turn-based Break.
-- Parameters: attack, stance damage, guard stamina, threshold and critical window.
-- Evidence: [Elden Ring decomposition](../games/a-f/elden-ring.md).
+- Parameters: attack, stability direction, recovery, threshold and critical
+  window.
+- Evidence: [Elden Ring decomposition](../games/a-f/elden-ring.md) and
+  [Sekiro decomposition](../games/s-z/sekiro-shadows-die-twice.md).
 - Novelty: not assessed.
 
 ## SYS-410 — Replace death with checkpoint return and one rune mark
@@ -8224,6 +8337,8 @@
 - Parameters: source, area/item level, base table, rarity, affix pool and count,
   sockets, quantity and ground placement.
 - Evidence: [Path of Exile 2 decomposition](../games/m-r/path-of-exile-2.md).
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for enemy, chest and shop items sampled from the unlocked pool at the biome's gear level with quality and affix rules.
 - Novelty: not assessed.
 
 ## SYS-451 — Compose an active skill from its Gem and socketed Supports
@@ -8329,6 +8444,8 @@
   recovery, repeated hold and sprint transition.
 - Evidence: [Path of Exile 2 decomposition](../games/m-r/path-of-exile-2.md)
   and [Brawlhalla decomposition](../games/a-f/brawlhalla.md).
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for the roll's protected opening interval against attack overlap.
 - Novelty: not assessed.
 
 ## SYS-457 — Resolve one live football through contact and free motion
@@ -8369,24 +8486,32 @@
 - Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
 - Novelty: first isolated for `GAME-0163`.
 
-## SYS-459 — Coordinate off-ball football roles under team AI
+## SYS-459 — Coordinate non-controlled team roles under live AI
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: the system continuously positions and moves non-controlled
-  teammates and opponents according to formation, role, possession, ball
-  location, marking and available space.
-- Includes: support runs, defensive shape, midfield positioning, marking and
-  autonomous team decisions in EA SPORTS FC 26 and Football Manager 26.
-- Excludes: the currently controlled player's direct movement; a scripted set
-  of fixed routes; account-level squad construction.
-- Parameters: formation, role, tactical instruction, possession, pressure,
-  score state, fatigue and difficulty.
-- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md)
-  and [Football Manager 26 decomposition](../games/a-f/football-manager-26.md).
-- Novelty: first isolated for `GAME-0163`.
+- Definition: the system continuously positions and routes non-controlled
+  members of both sides according to formation or role, possession, shared-
+  object location, marking, available space, tactical policy and current local
+  interaction state.
+- Includes: football support runs, defensive shape and marking in EA SPORTS FC
+  26 and Football Manager 26; basketball off-ball cuts, spacing, help defence,
+  screen navigation and transition lanes in NBA 2K26.
+- Excludes: the currently controlled participant's direct movement; transfer
+  of the direct-control locus; manual or automatic roster replacement; a
+  scripted set of fixed routes; persistent squad construction.
+- Parameters: sport and ruleset, side size, playing surface, formation or role,
+  possession, shared-object location, marking, spacing, screening, tactical
+  instruction, pressure, score state, fatigue and difficulty.
+- Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md),
+  [Football Manager 26 decomposition](../games/a-f/football-manager-26.md) and
+  [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
+- Novelty: first isolated for `GAME-0163`; generalised by
+  [`TAXONOMY_CHANGE_057`](../../research/taxonomy-changes/TAXONOMY_CHANGE_057.md)
+  after the basketball-specific duplicate was separated from automatic roster
+  replacement.
 
 ## SYS-460 — Adjudicate football offences and select the restart
 
@@ -8480,6 +8605,8 @@
 - Parameters: seed, floor depth, room count, dead ends, layout pool, room role,
   difficulty, adjacency and concealed contents.
 - Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for the Prisoners' Quarters assembled at entry from authored chunks with its shop, chest, scroll, trap and exit placements.
 - Novelty: first isolated for `GAME-0164`; earlier generators do not create a
   locally explored spatial graph from authored combat-room layouts and roles.
 
@@ -9332,6 +9459,8 @@
   tear form, trigger, interaction order and run lifetime.
 - Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md)
   and [Hades decomposition](../games/g-l/hades.md).
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for stat points and the chosen mutation composing into damage scaling, maximum health and the run build.
 - Novelty: first isolated for `GAME-0164`; it preserves cumulative rule-changing
   item interactions inside one disposable live-action run.
 
@@ -9387,6 +9516,8 @@
 - Parameters: terminal cause, transient run state, prior save state, unlock
   condition, achievement eligibility and next-run pool.
 - Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for death clearing the run's layout, loadout, gold, cells and undelivered blueprints while unlocks remain.
 - Novelty: first isolated for `GAME-0164`; earlier reset genes retain a world or
   character build rather than discarding the whole transient build around save unlocks.
 
@@ -9426,6 +9557,8 @@
   contact and finish state.
 - Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md)
   and [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
+- Additional support: [Forza Horizon 5 decomposition](../games/a-f/forza-horizon-5.md),
+  for a Solo Drivatar field running the same circuit at fixed difficulty.
 - Novelty: first isolated for `GAME-0171`; earlier autonomous agents pursue
   combat, logistics or team roles rather than a shared-course race ranking.
 
@@ -9450,27 +9583,48 @@
 - Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md),
   [Trackmania decomposition](../games/s-z/trackmania.md), and
   [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
+- Additional support: [Forza Horizon 5 decomposition](../games/a-f/forza-horizon-5.md),
+  for three-lap ordered-checkpoint validation and classified finish settlement.
 - Novelty: first isolated for `GAME-0171`; no prior system jointly validates
   directly driven course order, lap progress and race finish classification.
 
-## SYS-517 — Convert driving-event results into Festival progress
+## SYS-517 — Credit one retained progression measure from every declared qualifying result
 
 - Lifecycle: `Active`
-- Claim status: `Confirmed`
-- Evidence quality: `Direct`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: a first eligible event result or rated driving activity adds its
-  declared Horizon Festival Points to retained campaign progress, which can
-  cross the threshold for the next Wristband Event.
-- Includes: the fixed Horizon Qualifier route that unlocks the first Horizon
-  Invitational in Forza Horizon 6.
-- Excludes: Discover Japan Stamp progress; live Festival Playlist points;
-  credits or experience that do not advance the Wristband meter.
-- Parameters: event, first-completion state, rating, points, prior total,
-  threshold and overflow.
-- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
-- Novelty: first isolated for `GAME-0171`; earlier score systems do not convert
-  heterogeneous driving-event results into a persistent festival gate.
+- Definition: every result that a bounded ruleset declares eligible — a
+  completed activity, or a declared change in a quantity the ruleset already
+  tracks — adds its configured amount to one retained progression measure, so
+  different qualifying sources can substitute for one another on the way to a
+  later gate.
+- Includes: Horizon Qualifier results and rated driving activities adding
+  Festival Points toward the first Horizon Invitational in Forza Horizon 6;
+  captive rescues, hostile-structure destruction, radio missions and occupied-
+  site clearances all adding Resistance Points toward liberation of the scoped
+  tutorial island in Far Cry 5; each placed road and service building crediting
+  its own configured amount, and the periodic award crediting recorded
+  increases in population and satisfaction, toward the next milestone in
+  Cities: Skylines II.
+- Excludes: a score that changes no retained gate; an ordered mission chain with
+  no shared measure; a personal experience pool spent on upgrades; a quota that
+  accepts only one declared delivery shape; rules that merely disclose a
+  measure without crediting it.
+- Parameters: eligible activity classes, first-completion or repeat rules,
+  configured contribution, prior total, threshold, overflow, region or campaign
+  scope and the measure's presentation name.
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md)
+  and [Far Cry 5 decomposition](../games/a-f/far-cry-5.md).
+- Additional support: [Cities: Skylines II decomposition](../games/a-f/cities-skylines-ii.md),
+  for each placed road and service building crediting its own configured
+  amount, and for the periodic award that credits recorded increases in the
+  city's population and satisfaction, to one accumulating milestone measure.
+- Novelty: first isolated for `GAME-0171`; generalised to any declared
+  qualifying result, including a tracked-state change, under
+  [`TAXONOMY_CHANGE_033`](../../research/taxonomy-changes/TAXONOMY_CHANGE_033.md)
+  and
+  [`TAXONOMY_CHANGE_050`](../../research/taxonomy-changes/TAXONOMY_CHANGE_050.md).
 
 ## SYS-518 — Advance the tourist opening through festival unlock gates
 
@@ -9515,6 +9669,8 @@
 - Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md),
   [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md),
   and [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
+- Additional support: [Forza Horizon 5 decomposition](../games/a-f/forza-horizon-5.md),
+  for retaining an ordinary Solo race's completion, credits and experience.
 - Novelty: first isolated for `GAME-0171`; delivery and combat settlements do
   not retain a curated driving-event result into garage and festival state.
 
@@ -9572,6 +9728,10 @@
 - Parameters: vitality comparison, timer, KO, draw policy, round markers, reset
   state, carried resources, required wins and result screen.
 - Evidence: [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
+- Additional support: [TEKKEN 8 decomposition](../games/s-z/tekken-8.md),
+  for 60-second rounds settled by KO or the health comparison at time-over,
+  with health, Heat availability, Rage and recoverable gauge reset until the
+  third round win.
 - Novelty: first isolated for `GAME-0172`; Counter-Strike's round gene binds
   asymmetric bomb and team-elimination rules, while this boundary resets one
   fixed fighting pair and carries eligible Super stock.
@@ -9867,6 +10027,8 @@
 - Parameters: health, damage, lethal threshold, survival, wound severity,
   recovery duration and roster state.
 - Evidence: [XCOM 2 decomposition](../games/s-z/xcom-2.md).
+- Additional support: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md),
+  for permanent hero death at a failed deathblow and the return of surviving heroes at full health after the Old Road debrief.
 - Novelty: first isolated for `GAME-0176`; it connects bounded tactical health
   to persistent post-mission availability without modelling the full campaign.
 
@@ -10047,18 +10209,27 @@
 - Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
 - Novelty: first isolated for `GAME-0179`; the live selected workers themselves supply construction or repair progress.
 
-## SYS-551 — Advance a building-local unit training queue
+## SYS-551 — Advance a site-bound production queue
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: an owned production building advances the front paid unit order over real time, creates the unit when training completes and then advances the next queued order if its release remains legal.
-- Includes: Villager and military production queues in Age of Empires II: Definitive Edition.
+- Definition: an owned production site or channel advances the front paid unit
+  or structure order over real time, releases the finished unit or makes the
+  finished structure ready for placement, and then advances the next order if
+  completion remains legal.
+- Includes: Villager and military production queues in Age of Empires II:
+  Definitive Edition; infantry and ready-for-placement structure production in
+  Command & Conquer Remastered Collection.
 - Excludes: a city's per-turn production target; scheduled free wave spawning; an item recipe that repeatedly runs without discrete queued orders.
-- Parameters: building, queue, unit, training time, owner, completion, spawn cell, rally point and blocked release.
-- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
-- Novelty: first isolated for `GAME-0179`; it preserves simultaneous finite queues across multiple player-built RTS production structures.
+- Parameters: site, channel, queue, product, production time, owner, completion,
+  release or placement state, spawn cell, rally point and blocked completion.
+- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+  and [Command & Conquer Remastered Collection decomposition](../games/a-f/command-and-conquer-remastered-collection.md).
+- Novelty: first isolated for `GAME-0179` and generalised by
+  `TAXONOMY_CHANGE_036`; a finished structure awaiting placement and a finished
+  unit awaiting release are parameterised completion states of the same queue.
 
 ## SYS-552 — Complete building-bound technology or Age research
 
@@ -10263,24 +10434,27 @@
 - Novelty: first isolated for `GAME-0182`; country development occupies a single
   selected calendar-progress channel distinct from parallel technology work.
 
-## SYS-564 — Advance parallel national research slots
+## SYS-564 — Advance parallel strategic research channels
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: each occupied national research slot independently accumulates
-  calendar progress toward its selected reachable technology and applies that
-  technology's unlocks or modifiers on completion.
+- Definition: each occupied strategic research channel independently
+  accumulates time-driven progress toward its selected reachable technology
+  and applies that technology's unlocks or modifiers on completion.
 - Includes: simultaneous industrial, electronic, land or air research in the
   scoped Italian tutorial.
 - Excludes: a building-local research queue; National Focus progress; hidden
   automatic invention.
-- Parameters: slot count, target, prerequisite, base duration, ahead-of-time
-  modifier, research bonus, completion and effects.
-- Evidence: [Hearts of Iron IV decomposition](../games/g-l/hearts-of-iron-iv.md).
+- Additional support: the three simultaneous Stellaris research fields.
+- Parameters: channel count, target, prerequisite, progress rate, base
+  duration, modifier, research bonus, completion and effects.
+- Evidence: [Hearts of Iron IV decomposition](../games/g-l/hearts-of-iron-iv.md)
+  and [Stellaris decomposition](../games/s-z/stellaris.md).
 - Novelty: first isolated for `GAME-0182`; several national calendar channels
-  progress independently without belonging to physical production sites.
+  progress independently without belonging to physical production sites;
+  `TAXONOMY_CHANGE_055` later made the national carrier a parameter.
 
 ## SYS-565 — Distribute civilian factories through the construction queue
 
@@ -10538,12 +10712,18 @@
   health pool, compatible effects restore missing health, and reaching zero
   closes the current run unless a scoped revival prevents the terminal.
 - Includes: Antonio's ordinary Max Health, enemy damage, Floor Chicken healing
-  and Bloody Tear critical-hit healing in normal Mad Forest.
+  and Bloody Tear critical-hit healing in normal Mad Forest; Hollow Knight
+  Masks reduced by hostile attacks and restored by Focus.
 - Excludes: ordered coexisting heart layers; a shield/downed/revive stack;
   health restored automatically between separate encounters.
 - Parameters: maximum health, current health, armour, incoming damage, recovery,
   healing cap, invulnerability interval, revival and death.
-- Evidence: [Vampire Survivors decomposition](../games/s-z/vampire-survivors.md).
+- Evidence: [Vampire Survivors decomposition](../games/s-z/vampire-survivors.md)
+  and [Hollow Knight decomposition](../games/g-l/hollow-knight.md).
+- Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  for one graded health condition that a bite lowers only when an evasion fails, that the spray restores only in the damaged outcome branch, and whose zero value is the documented failure boundary.
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for the single health pool reduced by hits and traps, refilled at the fountain and ended at zero.
 - Novelty: first isolated for `GAME-0183`; one uninterrupted survival field
   couples contact avoidance, optional healing and the disposable run terminal.
 
@@ -11537,27 +11717,34 @@
 - Novelty: first isolated for `GAME-0196`; the contract supplies a multi-part
   productive fleet whose coupling and field operation remain player work.
 
-## SYS-630 — Convert implement coverage into persistent field treatment
+## SYS-630 — Convert applicator coverage into persistent surface treatment
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: while a compatible filled vehicle implement is active, the
-  system intersects its moving working-width footprint with eligible field
-  state, consumes the declared material and persists newly accepted treatment
-  into both the field layer and current task progress.
+- Definition: while a compatible directed applicator is active, the system
+  intersects its moving footprint or stream with eligible surface state and
+  persists newly accepted treatment into that surface and the current task's
+  progress; already accepted overlap adds no equivalent new progress.
 - Includes: solid-fertilizer application and Fertilized-state progress during
-  the scoped Farming Simulator 25 contract.
+  the scoped Farming Simulator 25 contract; dirt removal and accepted
+  per-surface progress during PowerWash Simulator's first Career job.
 - Excludes: harvesting a discrete world crop by hand; autonomous factory
-  conversion; cosmetic tyre tracks; movement of an inactive or empty tool;
-  treatment outside the assigned field counting toward contract completion.
-- Parameters: implement, footprint, application rate, fill type, fill amount,
-  field, crop/growth state, eligible cells, prior treatment, overlap, resulting
-  treatment and progress.
-- Evidence: [Farming Simulator 25 decomposition](../games/a-f/farming-simulator-25.md).
+  conversion; cosmetic traces with no retained state; movement of an inactive
+  tool; treatment outside the assigned target counting toward completion;
+  damage that resolves only at one object-health threshold.
+- Parameters: applicator, carrier, footprint or stream, application rate,
+  optional consumed material, target geometry, eligible state, prior treatment,
+  overlap, resulting treatment and progress resolution.
+- Evidence: [Farming Simulator 25 decomposition](../games/a-f/farming-simulator-25.md)
+  and [PowerWash Simulator decomposition](../games/m-r/powerwash-simulator.md).
 - Novelty: first isolated for `GAME-0196`; a continuously swept powered
   footprint consumes material and writes a persistent productive surface layer.
+- Change note: wording generalised by
+  [`TAXONOMY_CHANGE_039`](../../research/taxonomy-changes/TAXONOMY_CHANGE_039.md)
+  after PowerWash Simulator showed that carrier, target geometry and material
+  consumption are independent parameters of the same coverage-to-state rule.
 
 ## SYS-631 — Settle a completed borrowed-equipment field contract
 
@@ -11756,22 +11943,22 @@
 
 ## SYS-641 — Accumulate and resolve technique-earned driving burst
 
-- Lifecycle: `Active`
+- Lifecycle: `Split`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: eligible live driving events add to a temporary acceleration
-  reserve, and player activation consumes that reserve into a bounded burst of
-  increased vehicle acceleration.
-- Includes: Need for Speed Unbound grip/drift driving and drafting that fill
-  Burst Nitrous, followed by tactical Burst activation.
-- Excludes: ordinary refillable nitrous not tied to driving technique; spatial
-  arena boost pads; permanent engine upgrades; cinematic acceleration.
-- Parameters: eligible event, gain, reserve cap, current reserve, activation,
-  consumption, acceleration, duration and reset.
+- Definition: historical compound record that joined two independent System
+  transitions: eligible driving manoeuvres adding to a bounded acceleration
+  reserve, and later activation consuming that reserve into vehicle
+  acceleration.
+- Includes: historical references to Need for Speed Unbound Burst Nitrous.
+- Excludes: new game signatures; use `SYS-765` for manoeuvre-earned reserve
+  accumulation and `SYS-691` for reserve-to-acceleration settlement.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Need for Speed Unbound decomposition](../games/m-r/need-for-speed-unbound.md).
-- Novelty: first isolated for `GAME-0199`; manoeuvre quality becomes a
-  spendable near-term acceleration resource inside the same race or pursuit.
+- Split by
+  [`TAXONOMY_CHANGE_058`](../../research/taxonomy-changes/TAXONOMY_CHANGE_058.md)
+  into `SYS-765` and `SYS-691`.
 
 ## SYS-642 — Keep race earnings exposed until pursuit settlement
 
@@ -11997,21 +12184,25 @@
 - Novelty: first isolated for `GAME-0202`; a player-selected ground spawn is
   resolved inside a fully bot-filled last-survivor session.
 
-## SYS-653 — Resolve grappling-hook attachment and approach
+## SYS-653 — Resolve grappling-line attachment and approach
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: a fired grappling charge tests its aimed terrain or combatant,
-  consumes the item and, on a legal hit, moves the user along the tether toward
-  that target until arrival, collision, release or another cancelling state.
-- Includes: NARAKA: BLADEPOINT Grappling Hook climb, gap close and escape.
-- Excludes: ordinary jumping or wall running; a permanent cooldown-only hook;
-  dragging the target back to a stationary user.
-- Parameters: projectile, anchor class, hit, tether, pull path, velocity,
-  collision, impact response, release and charge consumption.
-- Evidence: [NARAKA: BLADEPOINT decomposition](../games/m-r/naraka-bladepoint.md).
+- Definition: a grappling request tests its selected terrain or combatant
+  anchor and, on a legal attachment, moves the user along the tether toward
+  that target until arrival, collision, release or another cancelling state;
+  availability and item consumption remain separate predicates and parameters.
+- Includes: NARAKA: BLADEPOINT Grappling Hook climb, gap close and escape;
+  Sekiro movement to marked terrain anchors.
+- Excludes: ordinary jumping or wall running; dragging the target back to a
+  stationary user; a teleport with no traversed tether path.
+- Parameters: ability or projectile, anchor class, hit, tether, pull path,
+  velocity, collision, impact response, release and any separately governed
+  charge consumption.
+- Evidence: [NARAKA: BLADEPOINT decomposition](../games/m-r/naraka-bladepoint.md)
+  and [Sekiro decomposition](../games/s-z/sekiro-shadows-die-twice.md).
 - Novelty: first isolated for `GAME-0202`; the same finite carried charge
   resolves against both authored geometry and an independently moving opponent.
 
@@ -12295,23 +12486,28 @@
 - Novelty: first isolated for `GAME-0203`; the same composite capacity that
   sustains grip also controls a timed, potentially recoverable loss-of-control state.
 
-## SYS-669 — Convert summit Flare into helicopter rescue settlement
+## SYS-669 — Convert an eligible signal into bounded route settlement
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: an ignited Flare inside the PEAK region calls the rescue
-  helicopter, advances its arrival and boarding countdown, then emits the
-  rescue sequence, Scouting Report and completed expedition result.
-- Includes: the standard Peak solo positive terminal.
-- Excludes: reaching the summit without signalling; Nadir's alternate ending;
-  touching the helicopter rope as a separate requirement; post-result replay.
-- Parameters: living Scout, region, Flare, signal, helicopter, arrival,
-  countdown, rescue sequence, report and result.
-- Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Definition: after the required bounded route has been traversed, an eligible
+  signal activated by a living controlled agent inside the declared terminal
+  region triggers its authored response and records the completed route result.
+- Includes: the standard PEAK solo Flare, helicopter, Scouting Report and
+  completed expedition; The Long Dark's loaded Lighthouse Distress Pistol and
+  `Hopeless Rescue` completion.
+- Excludes: reaching the terminal region without signalling; a combat-only
+  projectile; an alternate ending with a different predicate; post-result replay.
+- Parameters: living agent, route progress, region, signal item, activation,
+  authored response, intermediate countdown or sequence, report and result.
+- Evidence: [PEAK decomposition](../games/m-r/peak.md) and
+  [The Long Dark decomposition](../games/s-z/the-long-dark.md).
 - Novelty: first isolated for `GAME-0203`; a supply preserved across the full
   route becomes the explicit system request for a bounded rescue settlement.
+  The portable route-result generalisation was accepted in
+  [`TAXONOMY_CHANGE_051`](../../research/taxonomy-changes/TAXONOMY_CHANGE_051.md).
 
 ## SYS-670 — Instantiate a fixed historical character tutorial
 
@@ -12699,24 +12895,33 @@
 - Novelty: first isolated for `GAME-0208`; spatial mission predicates
   automatically rebind the unique driving locus across authored vehicles.
 
-## SYS-691 — Convert an ordinary nitrous gauge into vehicle acceleration
+## SYS-691 — Convert a bounded driving reserve into vehicle acceleration
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: while a directly driven vehicle has ordinary nitrous available,
-  activation debits the current gauge and applies its bounded acceleration
-  effect until release or available charge ends.
-- Includes: conventional nitrous use by the fixed Mustang and stolen Regera in
-  the scoped Need for Speed Payback mission.
-- Excludes: Need for Speed Unbound technique-earned Burst; spatial Rocket
-  League boost pads; permanent performance tuning; cosmetic nitrous colour.
-- Parameters: vehicle, current gauge, activation, spend rate, acceleration,
-  duration, release, depletion and fitted-performance modifier.
-- Evidence: [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
-- Novelty: first isolated for `GAME-0208`; an ordinary car-bound gauge drives
-  a finite acceleration choice without technique earning or spatial refill.
+- Definition: while a directly driven vehicle has charge in a bounded
+  acceleration reserve, activation debits that reserve and applies its
+  acceleration effect until release, depletion or the bounded effect ends.
+- Includes: ordinary nitrous in Need for Speed Payback, Need for Speed: Most
+  Wanted (2005), Need for Speed: The Run and Asphalt Legends; technique-earned
+  Burst Nitrous in Need for Speed Unbound.
+- Excludes: the transition that earns or replenishes the reserve; the coupled
+  spatial-pad pickup, pad-recharge and directed-thrust loop of `SYS-540`;
+  permanent performance tuning; cosmetic exhaust or nitrous colour.
+- Parameters: vehicle, reserve identity, current charge, cap, activation,
+  spend rate, acceleration, duration, release, depletion, bounded-effect
+  cutoff and fitted-performance modifier.
+- Evidence: [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md),
+  [Need for Speed: Most Wanted (2005) decomposition](../games/m-r/need-for-speed-most-wanted-2005.md),
+  [Need for Speed: The Run decomposition](../games/m-r/need-for-speed-the-run.md),
+  [Asphalt Legends decomposition](../games/a-f/asphalt-legends.md) and
+  [Need for Speed Unbound decomposition](../games/m-r/need-for-speed-unbound.md).
+- Novelty: first isolated for `GAME-0208`; generalised by
+  [`TAXONOMY_CHANGE_058`](../../research/taxonomy-changes/TAXONOMY_CHANGE_058.md)
+  after the resolution half of compound `SYS-641` passed the all-carrier
+  transfer test.
 
 ## SYS-692 — Carry retained passengers through a ferry crossing
 
@@ -13990,26 +14195,30 @@
 - Novelty: first isolated for `GAME-0239`; personal recovery and world-fixture
   depletion remain coupled across a continuous player-maintained relation.
 
-## SYS-754 — Drain and automatically recharge toggled portable illumination
+## SYS-754 — Convert bounded device charge into portable illumination
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: an active personal illumination device emits its bounded local
-  light field while draining a separate reserve; an inactive device removes
-  that field and automatically restores the same reserve toward its cap.
-- Includes: HEV flashlight energy drain and automatic recharge in Half-Life
-  (1998)'s scoped `Unforeseen Consequences` route.
-- Excludes: fuel consumed by a placed torch or campfire; a light with no
-  resource state; passive darkness survival; a combat shield sharing the same
-  reserve; disposable illumination with no recharge.
-- Parameters: device, active state, light field, reserve, drain rate, recharge
-  rate, cap, empty response and update interval.
-- Evidence: [Half-Life (1998) decomposition](../games/g-l/half-life-1998.md).
-- Novelty: first isolated for `GAME-0239`; one personal information field trades
-  immediate visibility against a reserve that recovers automatically only
-  outside the active state.
+- Definition: while a personal portable illumination device is active with
+  positive internal charge, the system emits its bounded local light field and
+  decreases that charge until the device is inactive or the charge is empty.
+- Includes: HEV flashlight charge drain in Half-Life (1998)'s scoped
+  `Unforeseen Consequences` route and flashlight charge drain in Alien:
+  Isolation's scoped hospital mission.
+- Excludes: automatic charge recovery while inactive (`SYS-851`); settlement
+  of a manual refill from finite carried stock (`SYS-791`); fuel consumed by a
+  placed torch or campfire; a light with no resource state; passive darkness
+  survival; a combat shield sharing the same reserve.
+- Parameters: device, active state, light field, internal charge, drain rate,
+  cap, empty response and update interval.
+- Evidence: [Half-Life (1998) decomposition](../games/g-l/half-life-1998.md)
+  and [Alien: Isolation decomposition](../games/a-f/alien-isolation.md).
+- Novelty: first isolated for `GAME-0239`; generalised by
+  [`TAXONOMY_CHANGE_062`](../../research/taxonomy-changes/TAXONOMY_CHANGE_062.md)
+  after the shared drain-to-light transition passed its two-carrier transfer
+  test independently of either recovery rule.
 
 ## SYS-755 — Resolve damage-threshold destruction of an eligible world object
 
@@ -14029,6 +14238,8 @@
 - Parameters: object, material, durability, accepted damage type, trigger,
   threshold, solid state, debris, linked target, contents and attribution.
 - Evidence: [Half-Life (1998) decomposition](../games/g-l/half-life-1998.md).
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for weapon hits reducing the barred Collector's room door until it breaks and its solid body is removed, so carried cells can be taken onward; hit count and material are unrecorded parameters.
 - Novelty: first isolated for `GAME-0239`; ordinary world-object damage can
   deterministically remove collision and propagate optional authored outputs
   without being classified as combatant defeat or terrain harvesting.
@@ -14093,23 +14304,21 @@
 
 ## SYS-759 — Coordinate non-controlled basketball roles under team AI
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: continuously position and route non-controlled teammates and the
-  opposing side according to possession, court role, spacing, marking,
-  screening, transition and automatic rotation state.
-- Includes: off-ball cuts, spacing, help defence, transition lanes and automatic
-  line-up rotation during the scoped NBA 2K26 exhibition.
-- Excludes: direct control of the current player; a precomputed sports result;
-  persistent roster construction; a human-controlled second side; scripted
-  actors that ignore live possession.
-- Parameters: side, role, possession, assignment, spacing, route, help state,
-  transition, fatigue, rotation and difficulty.
+- Definition: historical basketball-specific duplicate of continuous live team
+  coordination, now represented by sport-neutral `SYS-459`; its former
+  automatic line-up-rotation clause is represented separately by `SYS-850`.
+- Includes: historical references to NBA 2K26 off-ball cuts, spacing, help
+  defence, screen navigation and transition lanes.
+- Excludes: new game signatures; use `SYS-459` for live non-controlled role
+  coordination and `SYS-850` when automatic coaching changes active personnel.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md).
-- Novelty: first isolated for `GAME-0241`; five-player court roles continuously
-  reorganise around held and free-ball phases rather than football formations.
+- Merged into: `SYS-459` by
+  [`TAXONOMY_CHANGE_057`](../../research/taxonomy-changes/TAXONOMY_CHANGE_057.md).
 
 ## SYS-760 — Resolve missed basket attempts into rebounds and new possession
 
@@ -14208,24 +14417,30 @@
 - Novelty: first isolated for `GAME-0242`; continuous path authority is split
   from the player's discrete control over currently offered transitions.
 
-## SYS-765 — Convert eligible driving manoeuvres into ordinary nitro charge
+## SYS-765 — Convert eligible driving manoeuvres into acceleration-reserve charge
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: detect eligible live vehicle manoeuvres and add their resolved
-  contribution to the same bounded ordinary nitro gauge that can later be
-  spent on vehicle acceleration.
-- Includes: drift and airborne stunt contribution to nitro during the scoped
-  Asphalt Legends Career race.
-- Excludes: a separately capped technique burst; collecting a fixed boost pad;
-  passive recharge independent of driving state; permanent engine upgrades.
-- Parameters: vehicle, manoeuvre family, eligibility, duration or completion,
-  gain, gauge before, gauge cap, gauge after and reset.
-- Evidence: [Asphalt Legends decomposition](../games/a-f/asphalt-legends.md).
-- Novelty: first isolated for `GAME-0242`; multiple resolved vehicle
-  manoeuvres refill an ordinary spendable acceleration gauge in the same race.
+- Definition: detect eligible live driving manoeuvres and add their resolved
+  contribution to a bounded reserve that can later be spent on vehicle
+  acceleration.
+- Includes: drift and airborne-stunt contribution to nitro during the scoped
+  Asphalt Legends Career race; grip/drift driving and drafting contribution to
+  Burst Nitrous during the scoped Need for Speed Unbound event.
+- Excludes: collecting a fixed spatial boost pickup; passive recharge
+  independent of driving state; the later reserve-spend settlement; permanent
+  engine upgrades.
+- Parameters: vehicle, reserve identity, manoeuvre family, eligibility,
+  duration or completion, gain, reserve before, cap, reserve after, persistence
+  horizon and reset.
+- Evidence: [Asphalt Legends decomposition](../games/a-f/asphalt-legends.md) and
+  [Need for Speed Unbound decomposition](../games/m-r/need-for-speed-unbound.md).
+- Novelty: first isolated for `GAME-0242`; generalised by
+  [`TAXONOMY_CHANGE_058`](../../research/taxonomy-changes/TAXONOMY_CHANGE_058.md)
+  after the accumulation half of compound `SYS-641` passed the two-way
+  transfer test.
 
 ## SYS-766 — Maintain threat-backed hostile compliance until custody or control loss
 
@@ -14303,24 +14518,31 @@
 - Novelty: first isolated for `GAME-0244`; spending currency clears only the
   encounter while leaving economically useful session exposure intact.
 
-## SYS-770 — Convert a contextual finisher into compatible recovery drops
+## SYS-770 — Convert a contextual defeating action into compatible recovery drops
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: completing a legal contextual finisher defeats its staggered
-  target and instantiates bounded world drops that restore compatible missing
-  combat resources when collected.
-- Includes: health and ammunition released by Glory Kills in DOOM (2016).
-- Excludes: an ordinary ranged defeat with no finisher conversion; a guaranteed
-  persistent equipment reward; the later Chainsaw's distinct ammunition-only
-  exchange; automatic healing with no collectable world state.
-- Parameters: target, finisher, defeat, drop types, quantities, world positions,
-  collection, compatibility, missing capacity and caps.
+- Definition: completing a legal contextual action that defeats its living
+  target instantiates bounded world drops that restore the action's declared
+  compatible missing combat resources when collected.
+- Includes: health and ammunition released by Glory Kills in DOOM (2016);
+  health from Glory Kills and ammunition from Chainsaw executions in DOOM
+  Eternal's bounded first Campaign mission.
+- Excludes: an ordinary ranged defeat with no contextual conversion; merging
+  the source action's stagger, reach, target or fuel legality into this result;
+  a guaranteed persistent equipment reward; automatic healing with no
+  collectable world state.
+- Parameters: target, contextual action, defeat, drop class, quantity, world
+  position, collection, compatibility, missing capacity and cap.
 - Evidence: [DOOM (2016) decomposition](../games/a-f/doom-2016.md).
 - Novelty: first isolated for `GAME-0245`; an optional short-range execution
   converts combat risk into spatially collectable sustain.
+- Change note: wording generalised by
+  [`TAXONOMY_CHANGE_054`](../../research/taxonomy-changes/TAXONOMY_CHANGE_054.md)
+  so the shared contextual defeat-to-recovery result may be supplied by
+  distinct action and legality genes without duplicating the System boundary.
 
 ## SYS-771 — Convert a selected powered mode and shared reserve into temporary capability
 
@@ -14438,17 +14660,28 @@
 - Confidence: `High`
 - Definition: while an aimed weapon remains readied without another declared
   interruption, the system tightens its current reticle toward a focused state
-  whose accepted shot has increased stagger or critical-result likelihood.
+  whose accepted shot gains its declared advantage in precision, damage,
+  stagger or critical-result likelihood, and a declared reset input returns
+  the reticle to its open state.
 - Includes: holding a firearm ready to focus the reticle before shooting in
-  Resident Evil 4's bounded first chapter.
+  Resident Evil 4's bounded first chapter; holding the handgun readied so the
+  reticle shrinks to its minimum, where shots are more precise and stronger,
+  in Resident Evil 2 (2019 remake)'s scoped Leon opening, with movement or
+  firing resetting it.
 - Excludes: scoped magnification alone; a guaranteed hit; aim assist choosing a
   target; passive weapon accuracy unrelated to held aim; a charged projectile.
-- Parameters: weapon, ready state, focus duration, interruption, reticle state,
-  accuracy relation, stagger modifier and critical modifier.
-- Evidence: [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md).
+- Parameters: weapon, ready state, focus duration, interruption, reset input,
+  reticle state, precision relation, damage relation, stagger modifier and
+  critical modifier.
+- Evidence: [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md)
+  and [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md).
 - Novelty: first isolated for `GAME-0249`; delaying a still-valid shot changes
   its disclosed hit consequences without charging a separate attack or
   spending another resource.
+- Change note: wording generalised by
+  [`TAXONOMY_CHANGE_040`](../../research/taxonomy-changes/TAXONOMY_CHANGE_040.md)
+  so the focused shot's declared advantage may be precision or damage as well
+  as stagger or critical likelihood; the exact advantage is a parameter.
 
 ## SYS-777 — Resolve timed close-weapon parry into protection and wear
 
@@ -14514,30 +14747,32 @@
   living enemies yet still produce an authored safe continuation after a
   bounded live-pressure requirement.
 
-## SYS-780 — Settle one authored segment into retained successor control
+## SYS-780 — Carry settled authored-segment state into successor control
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: after the final required interaction of one bounded authored
-  chapter or mission, the system closes its current objective set, exposes segment
-  completion, creates or accepts retained save state and admits ordinary
-  control in the named successor segment.
-- Includes: completing Chapter 1, saving its result and reaching retained first
-  Chapter 2 control in Resident Evil 4's scoped fresh game; completing Mission
-  5 and restoring the beginning of Mission 6 in Alien: Isolation's scoped
-  Story Mode packet.
+- Definition: when one bounded authored chapter or mission has settled, the
+  system writes or accepts its resulting state across the retention boundary
+  and instantiates ordinary controllable state in the named successor segment;
+  that successor state remains recoverable by the declared retention check.
+- Includes: retaining the settled Chapter 1 result and restoring saved first
+  Chapter 2 control in Resident Evil 4's scoped fresh game; retaining the
+  settled Mission 5 result and restoring the beginning of Mission 6 in Alien:
+  Isolation's scoped Story Mode packet.
 - Excludes: finishing the complete campaign; stopping at an intermediate
-  checkpoint; an unretained cutscene; replaying a completed chapter for rank;
-  a boss-chain settlement with additional persistent progression rules.
-- Parameters: chapter, final interaction, objective closure, completion
-  display, save state, successor chapter, resumed control and retention test.
+  checkpoint; pursuing or satisfying a segment objective without a retained
+  successor-state transition; a completion display without persisted state;
+  an unretained cutscene; replaying a completed chapter for rank; a boss-chain
+  settlement with additional persistent progression rules.
+- Parameters: segment, settled result, retained fields, retention boundary,
+  successor segment, restored control and retention test.
 - Evidence: [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md)
   and [Alien: Isolation decomposition](../games/a-f/alien-isolation.md).
-- Novelty: first isolated for `GAME-0249`; a general authored survival-action
-  route receives an explicit retained chapter handoff without importing a
-  boss roster, scored debrief or campaign finale.
+- Novelty: first isolated for `GAME-0249`; `TAXONOMY_CHANGE_060` keeps this
+  System boundary on retained state transfer and restored control while the
+  pursued terminal and its disclosure remain with their typed owners.
 
 ## SYS-781 — Advance a boss-gated region sequence toward scoped escape
 
@@ -14621,25 +14856,28 @@
   dialogue commitments settle one protected-actor incident before the wider
   story continues.
 
-## SYS-785 — Persist traversed chapter nodes into a revisitable branch map
+## SYS-785 — Persist traversed chapter-node state across settlement
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: when one authored chapter settles, the system stores the nodes
-  and endpoint actually traversed by that play path, exposes them in a later
-  revisitable branch map and keeps untraversed alternatives locked or unnamed.
-- Includes: Detroit: Become Human's post-chapter flowchart and later inspection
-  of the completed opening chapter from the chapter surface.
-- Excludes: a complete route map visible before play; a linear chapter-complete
-  label with no path record; global player percentages; replaying or overwriting
-  the chapter; exposing every hidden consequence without traversing it.
-- Parameters: chapter, node, edge, endpoint, traversed state, locked state,
-  retention boundary, reinspection path and replay policy.
+- Definition: when one authored chapter settles, the system stores the node,
+  edge and endpoint states actually reached by that play path across the
+  chapter boundary and preserves which alternatives remain untraversed for
+  later retrieval.
+- Includes: the retained traversed-node, edge and endpoint state behind
+  Detroit: Become Human's completed opening chapter flowchart.
+- Excludes: a transient post-chapter display with no retained route state; a
+  linear chapter-complete flag with no path record; global player percentages;
+  replaying or overwriting the chapter; unlocking every hidden alternative
+  without traversing it.
+- Parameters: chapter, node, edge, endpoint, traversed state, untraversed state,
+  retention boundary, stored path and overwrite policy.
 - Evidence: [Detroit: Become Human decomposition](../games/a-f/detroit-become-human.md).
-- Novelty: first isolated for `GAME-0252`; the retained representation records
-  the actual authored decision path while preserving undiscovered alternatives.
+- Novelty: first isolated for `GAME-0252`; `TAXONOMY_CHANGE_060` limits this
+  System boundary to retained path state, while `INF-308` owns how a later
+  branch-map surface discloses traversed and unavailable alternatives.
 
 ## SYS-786 — Advance staged allied-platform restoration from installed power modules
 
@@ -14765,27 +15003,28 @@
   multi-target carrier of an emitted effect rather than a direct target or a
   permanently damaging terrain label.
 
-## SYS-791 — Drain portable illumination and refill it from finite battery stock
+## SYS-791 — Refill portable illumination from finite carried battery stock
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: while a personal illumination device is active, the system
-  converts its positive internal charge into a local light field and decreases
-  that charge; an accepted refill consumes one unit from compatible finite
-  carried battery stock and raises the device charge toward its cap.
-- Includes: Alien: Isolation's scoped flashlight drain and manual battery
-  refill.
-- Excludes: automatically recharging the same reserve while inactive; a fixed
-  world lamp; weapon-ammunition reload; illumination with unlimited charge;
-  consuming a battery to craft another item.
-- Parameters: device, active state, light field, internal charge, drain rate,
-  battery stock, refill input, restored amount and cap.
+- Definition: after an accepted manual refill command, the system consumes one
+  compatible unit from finite carried battery stock and raises the portable
+  illumination device's internal charge toward its cap.
+- Includes: settlement of a manual flashlight-battery refill during Alien:
+  Isolation's scoped hospital mission.
+- Excludes: the player command that initiates refill (`ACT-453`); charge-to-light
+  drain while active (`SYS-754`); automatic recovery while inactive
+  (`SYS-851`); a fixed world lamp; weapon-ammunition reload; consuming a battery
+  only to craft another item.
+- Parameters: device, charge before, battery identity, carried stock before,
+  consumed quantity, restored amount, charge cap and resulting states.
 - Evidence: [Alien: Isolation decomposition](../games/a-f/alien-isolation.md).
-- Novelty: first isolated for `GAME-0257`; light timing consumes an internal
-  meter whose recovery irreversibly spends a separate carried unit instead of
-  waiting for automatic recharge.
+- Novelty: first isolated for `GAME-0257`; narrowed by
+  [`TAXONOMY_CHANGE_062`](../../research/taxonomy-changes/TAXONOMY_CHANGE_062.md)
+  to the finite-stock refill settlement after its shared illumination-drain
+  half moved to `SYS-754` and its command moved to `ACT-453`.
 
 ## SYS-792 — Translate nearby eligible movement into directional proximity readings
 
@@ -14833,26 +15072,35 @@
   across an ordinary-object copy and its revealed actor state instead of being
   merely occluded, disguised by clothing or spawned from a destroyed fixture.
 
-## SYS-794 — Convert regional body damage into severance and capability loss
+## SYS-794 — Destroy an attached spatial component and remove its capability
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: damage accumulates on an eligible attached body region, degrades
-  its retained layers, and at the accepted threshold detaches that region while
-  removing the locomotion, attack or support capability carried by it from the
-  remaining living body.
-- Includes: cutting a hostile leg into reduced locomotion or an attack limb
-  into reduced reach before defeat in Dead Space (2023)'s bounded Chapter 1.
-- Excludes: hit-location damage with no detachment; cosmetic debris; scripted
-  post-defeat dismemberment; aggregate health loss that leaves the same
-  capability set; item durability.
-- Parameters: actor, attached region, layer state, accepted damage, threshold,
-  detached body, carried capability, remaining capability set and defeat rule.
-- Evidence: [Dead Space (2023 remake) decomposition](../games/a-f/dead-space-2023.md).
-- Novelty: first isolated for `GAME-0259`; retained regional damage crosses an
-  anatomical boundary and changes what the still-active hostile body can do.
+- Definition: compatible damage accumulates on an eligible spatially located
+  component attached to a living actor; reaching its accepted threshold
+  destroys or detaches that component and removes or disables the locomotion,
+  attack or support capability carried by it while the actor remains alive and
+  continues with a reduced capability set until separately defeated.
+- Includes: cutting a hostile leg to reduce locomotion or an attack limb to
+  reduce reach before defeat in Dead Space (2023)'s bounded Chapter 1, and
+  destroying an Arachnotron's mounted turret to disable its long-range attack
+  during DOOM Eternal's bounded first Campaign mission.
+- Excludes: hit-location damage with no component destruction or functional
+  loss; cosmetic debris; scripted post-defeat dismemberment; aggregate health
+  loss that leaves the same capability set; breaking an inanimate route object;
+  penetrating vehicle armour and resolving crew or module damage; a temporary
+  status effect that leaves the component intact; item durability.
+- Parameters: actor, anatomical or mechanical component, attachment and layer
+  state, compatible damage, threshold, destroyed or detached state, carried
+  capability, remaining capability set and separate defeat rule.
+- Evidence: [Dead Space (2023 remake) decomposition](../games/a-f/dead-space-2023.md)
+  and [DOOM Eternal decomposition](../games/a-f/doom-eternal.md).
+- Novelty: first isolated for `GAME-0259`; generalised by
+  [`TAXONOMY_CHANGE_064`](../../research/taxonomy-changes/TAXONOMY_CHANGE_064.md)
+  after limb anatomy, visible tissue layers and mounted-weapon identity failed
+  as System discriminators in the two-carrier transfer test.
 
 ## SYS-795 — Reassign fixed circuit capacity among local fixture branches
 
@@ -14946,27 +15194,43 @@
   simultaneously prices offence, evasion and defence, so every exchange is a
   budget allocation rather than a set of independent cooldowns.
 
-## SYS-799 — Transform a sealed guardian into a further attack phase
+## SYS-799 — Advance a sealed encounter into a health-gated attack phase
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: when a sealed encounter's mandatory guardian falls below a
-  declared remaining-health threshold, the system converts it into a further
-  form with a different attack set while the same encounter, arena seal and
-  accumulated damage continue.
+- Definition: when the current occupant of a sealed encounter crosses an
+  authored remaining-health or stagger threshold, or is defeated as the
+  required member of a sequential guardian set, the system advances the same
+  encounter into a further phase with a changed attack set while its arena seal
+  and prior phase completion continue; transformation of the same body is
+  optional.
 - Includes: the second form the route guardian assumes at its health threshold
-  during DARK SOULS III's bounded `Cemetery of Ash` encounter.
-- Excludes: a health-only stagger or guard break; a new separate encounter
-  after the first is settled; a scripted cutscene that changes no attack set;
-  a difficulty scaling that applies to ordinary field enemies.
-- Parameters: threshold, transformation animation, replaced or extended attack
-  set, retained damage and any changed defence or movement.
-- Evidence: [DARK SOULS III decomposition](../games/a-f/dark-souls-iii.md).
-- Novelty: first isolated for `GAME-0262`; the same guardian and the same
-  accumulated progress continue across a mid-encounter behaviour replacement,
-  so learned counterplay is invalidated without resetting the encounter.
+  during DARK SOULS III's bounded `Cemetery of Ash` encounter; False Knight's
+  later health-gated phases adding falling hazards in Hollow Knight; each
+  defeated Root Pack member handing the same Cuphead encounter to the next
+  member and attack set.
+- Excludes: a stagger or guard break that changes no later attack set; a new
+  separate encounter after the first is settled; a scripted cutscene that
+  changes no attack set; difficulty scaling applied to ordinary field enemies.
+- Parameters: threshold, phase occupant, sequential guardian set, optional
+  transformation or replacement, changed attack set, retained encounter
+  progress and any changed defence, movement or arena hazards.
+- Evidence: [DARK SOULS III decomposition](../games/a-f/dark-souls-iii.md)
+  and [Hollow Knight decomposition](../games/g-l/hollow-knight.md), and
+  [Cuphead decomposition](../games/a-f/cuphead.md).
+- Novelty: first isolated for `GAME-0262`; retained progress continues across a
+  mid-encounter behaviour replacement, so learned counterplay is invalidated
+  without resetting or settling the encounter.
+- Change note: wording generalised by
+  [`TAXONOMY_CHANGE_035`](../../research/taxonomy-changes/TAXONOMY_CHANGE_035.md)
+  so an attack-set phase change does not require a cosmetic body
+  transformation.
+- Change note: wording generalised by
+  [`TAXONOMY_CHANGE_037`](../../research/taxonomy-changes/TAXONOMY_CHANGE_037.md)
+  so the next health-gated phase may replace the current occupant with the next
+  required member of a declared encounter set.
 
 ## SYS-800 — Resolve a thrown tool's outbound and returning path
 
@@ -15441,3 +15705,887 @@
 - Evidence: [Risk of Rain 2 decomposition](../games/m-r/risk-of-rain-2.md).
 - Novelty: first isolated for `GAME-0270`; progress requires standing still,
   which is the one thing the run's own escalation punishes.
+
+## SYS-819 — Credit one regional progress measure from any qualifying activity
+
+- Lifecycle: `Merged`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: historical parameter-specific duplicate now represented by the
+  generalised active boundary `SYS-517`.
+- Includes: historical references that used `SYS-819` during the Batch 016
+  candidate pass.
+- Excludes: current signatures and new analysis; use `SYS-517`.
+- Parameters: none; retained as an auditable alias.
+- Evidence: [Far Cry 5 decomposition](../games/a-f/far-cry-5.md) and
+  [`TAXONOMY_CHANGE_033`](../../research/taxonomy-changes/TAXONOMY_CHANGE_033.md).
+- Merged into: `SYS-517` by
+  [`TAXONOMY_CHANGE_033`](../../research/taxonomy-changes/TAXONOMY_CHANGE_033.md).
+
+## SYS-820 — Suspend a lethal blow into a stock-paid last-chance window
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when incoming damage would end the attempt while the controlled
+  combatant still carries a declared restorative stock, the system suspends
+  terminal defeat into a bounded last-chance state. If the player satisfies the
+  declared counter-condition against the responsible threat before expiry, one
+  stock unit is consumed, eligible health is restored and the attempt
+  continues; otherwise defeat settles.
+- Includes: the last-chance state entered in Max Payne 3's bounded first chapter
+  when a fatal shot lands while a painkiller is carried; killing the shooter in
+  time consumes one painkiller, restores a small amount of health and resumes
+  play.
+- Excludes: a downed state that a companion or timer revives; an automatic extra
+  life or continue; passive damage reduction; a restorative consumed by choice
+  before the blow; a checkpoint restore after the attempt has already ended.
+- Parameters: which stock pays, how many units, the window's duration and time
+  scale, the required counter-condition and the state the survivor is left in.
+- Evidence: [Max Payne 3 decomposition](../games/m-r/max-payne-3.md).
+- Novelty: first isolated for `GAME-0273`; the same carried stock is both the
+  healing budget and eligibility for a bounded counter-window, so spending it
+  early disarms the safety net.
+
+## SYS-821 — Deliver an authored friendly force at a declared mission event
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: at declared events inside one bounded mission, the ruleset places
+  an authored friendly group under the player's command without a request, a
+  cost or a production step, so the force available to the player changes on the
+  mission's schedule rather than on the player's spending.
+- Includes: the ground units and mobile construction vehicle delivered during
+  the opening GDI mission of Command & Conquer Remastered Collection before the
+  player can produce those assets.
+- Excludes: a reinforcement the player calls and pays for; a unit created by a
+  production queue; a respawn of the player's own avatar; a hostile group
+  released by a trigger; a persistent ally recruited outside the mission.
+- Parameters: the triggering events, group composition and size, arrival
+  positions and whether arrivals are announced in advance.
+- Evidence: [Command & Conquer Remastered Collection decomposition](../games/a-f/command-and-conquer-remastered-collection.md).
+- Novelty: first isolated for `GAME-0275`; the authored schedule changes the
+  controlled force independently of the player's production decisions.
+
+## SYS-822 — Settle a bounded activity into a graded performance evaluation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: when a bounded activity settles, the system evaluates declared
+  properties of *how* it was completed — such as elapsed time, damage suffered,
+  defensive responses, service quality or a resource spent — and records an
+  aggregate grade alongside the activity result, so two completed sessions can
+  settle differently.
+- Includes: the time, remaining-HP, parry, Super Meter and skill-level
+  evaluation produced after Cuphead's bounded `Botanic Panic!` Regular win; the
+  service-performance grade produced when DAVE THE DIVER's bounded first
+  restaurant session closes.
+- Excludes: a completion flag with no evaluation; a score that only ranks
+  players against each other; a reward tier mapped from an activity score; a
+  difficulty selected before the encounter; a post-run summary that reports
+  numbers without grading them.
+- Parameters: activity, completion or closure condition, which properties are
+  evaluated, their weights, grade scale, retention and whether the grade changes
+  any later legality.
+- Evidence: [Cuphead decomposition](../games/a-f/cuphead.md) and
+  [DAVE THE DIVER decomposition](../games/a-f/dave-the-diver.md).
+- Novelty: first isolated for `GAME-0277`; the encounter records not just that
+  it was won but how, which makes two successful attempts different outcomes of
+  the same fight without requiring a reward tier or chest.
+- Change note: wording generalised by
+  [`TAXONOMY_CHANGE_038`](../../research/taxonomy-changes/TAXONOMY_CHANGE_038.md)
+  from a won encounter to any completed bounded activity with a graded result;
+  activity type and evaluated categories are parameters.
+
+## SYS-823 — Convert a previous activity's stock into a bounded service session
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: a bounded service session draws its selectable menu capacity from
+  stock produced by an earlier, different activity; preparing and fulfilling
+  selected requests consumes that capacity, converts accepted deliveries into
+  revenue and settles the session when its own declared closing condition is
+  reached, so the earlier activity's take limits what this one can offer.
+- Includes: DAVE THE DIVER's bounded first restaurant session, whose menu and
+  serving capacity derive from fish supplied by the immediately preceding
+  required dive.
+- Excludes: selling gathered items to a merchant at a disclosed price; a
+  production queue that consumes stored inputs continuously; a crafting recipe
+  executed on demand; a shop whose stock is replenished by the ruleset rather
+  than by the player's own previous activity; demand arrival or requester
+  impatience considered without the cross-activity stock conversion.
+- Parameters: source activity, stock, recipe-to-serving conversion, menu
+  capacity, request fulfilment, revenue mapping, unused-stock treatment and
+  service closing condition.
+- Evidence: [DAVE THE DIVER decomposition](../games/a-f/dave-the-diver.md).
+- Novelty: first isolated for `GAME-0278`; it is what turns the limits of one
+  activity into the income ceiling of another.
+
+## SYS-824 — Convert applicator contact into permanent surface state and progress
+
+- Lifecycle: `Merged`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: historical parameter-specific duplicate now represented by the
+  generalised active coverage boundary `SYS-630`.
+- Includes: historical references that used `SYS-824` during the Batch 016
+  candidate pass.
+- Excludes: current signatures and new analysis; use `SYS-630`.
+- Parameters: none; retained as an auditable stable ID.
+- Evidence: [PowerWash Simulator decomposition](../games/m-r/powerwash-simulator.md).
+- Novelty: first isolated for `GAME-0279` during the candidate pass and merged
+  before that draft was promoted to reviewed.
+- Merged into: `SYS-630` by
+  [`TAXONOMY_CHANGE_039`](../../research/taxonomy-changes/TAXONOMY_CHANGE_039.md).
+
+## SYS-825 — Resolve a committed skill through hit roll, protection-scaled damage, critical and resisted status effects
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: after a legal skill is committed, the system rolls the hit as
+  the skill's accuracy minus the target's dodge, samples damage from the
+  skill's range reduced by the target's protection percentage, applies a
+  critical multiplier on a separate critical roll, then tests each declared
+  status effect (stun, damage over time, movement, debuff or mark) against the
+  target's matching resistance; applied damage over time then ticks at each of
+  the target's round starts and each corridor step until it expires.
+- Includes: Darkest Dungeon accuracy, dodge, protection, damage, critical,
+  stun, bleed, blight, knockback and debuff resolution, with a hidden +5
+  accuracy bonus, a 95-or-above guaranteed hit and criticals dealing 150% of
+  maximum damage, in the scoped Old Road tutorial.
+- Excludes: an attack roll against an armour class with saving throws,
+  concentration and surfaces (`SYS-389`); cover- and body-part-dependent
+  ranged resolution (`SYS-208`); temporary block absorbed before health
+  (`SYS-165`); displacement that resolves collision or terrain consequences
+  (`SYS-020`); the choice of the skill or target.
+- Parameters: accuracy and dodge values, hidden bonuses, guaranteed-hit
+  cutoff, damage range, protection cap, critical multiplier and side effects,
+  effect chances, resistances, duration, tick timing and stun-resistance
+  rebound.
+- Evidence: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md).
+- Novelty: first isolated for `GAME-0281`; one pipeline joins a subtractive
+  hit roll, percentage protection, a separate critical roll and
+  resistance-tested status application.
+
+## SYS-826 — Select each hostile's rank-legal skill by weighted chance and rule-based targeting
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: on a hostile unit's turn the system chooses one of the skills
+  legal from that unit's current rank according to its declared selection
+  weights, applies the skill's targeting rule over the ranks it can reach, and
+  resolves the chosen skill without disclosing the choice beforehand.
+- Includes: the Brigand Cutthroat's equal-chance Apprentice skill selection,
+  the Brigand Bloodletter's rank-1-only Point Blank Shot and the Brigand
+  Fusilier's Blanket Fire from ranks 2–4 or Rushed Shot from rank 1, with
+  their targeting rules, in the scoped Old Road tutorial.
+- Excludes: hostile intents telegraphed before the player acts (`SYS-164`);
+  hostile commands chosen during a separate enemy phase from visible cover
+  state (`SYS-537`); a human opponent's choice; autonomous engagement in
+  continuous time (`SYS-051`).
+- Parameters: skill set, rank legality per skill, selection weights per turn
+  index and difficulty, targeting preferences, repeat restrictions and
+  difficulty variants.
+- Evidence: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md).
+- Novelty: first isolated for `GAME-0281`; the hostile policy is a weighted
+  draw over rank-legal skills inside an interleaved initiative order.
+
+## SYS-827 — Leave a slain enemy's corpse occupying its ranks until decay or destruction
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: when an enemy dies from direct damage that is not a critical hit
+  or damage over time, the system replaces it with a corpse that keeps the
+  enemy's rank occupancy and size, takes no turns, holds a fraction of the
+  enemy's health without protection or dodge, and is removed only when that
+  health is destroyed, a declared clearing effect resolves or a declared
+  number of rounds has passed.
+- Includes: Darkest Dungeon corpses, including the size-two Brigand
+  Bloodletter corpse that keeps the Brigand Fusilier in rank 3 until it is
+  cleared or four rounds pass, in the scoped Old Road tutorial.
+- Excludes: an enemy removed on death; a corpse that acts or revives; a
+  lootable death container (`SYS-325`); cosmetic remains that occupy no
+  position.
+- Parameters: corpse health fraction, exclusion on critical or
+  damage-over-time kills, decay rounds, clearing skills, resistances and
+  effect on random targeting.
+- Evidence: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md).
+- Novelty: first isolated for `GAME-0281`; the remains are a
+  formation-preserving obstacle, not loot or a revive target.
+
+## SYS-828 — Roll a light- and scouting-modified surprise check at battle start
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: when a battle begins, the system rolls whether either side is
+  surprised from a base chance modified by the current light band, scouting
+  state and declared modifiers; a surprised party has its formation shuffled
+  and cannot retreat during the first round, while surprised hostiles act last
+  in the first round.
+- Includes: the Darkest Dungeon surprise check at each Old Road battle, where
+  radiant light removes the party's surprise chance and raises the chance of
+  surprising the brigands.
+- Excludes: a pre-emptive strike the player initiates by contacting a field
+  enemy (`SYS-355`); a fixed scripted ambush; the ordinary initiative roll
+  that follows the check (`SYS-388`).
+- Parameters: base chances, light-band modifiers, scouting modifier, trinket
+  and camping modifiers, cap, shuffle rule, retreat lock and forced-surprise
+  encounters.
+- Evidence: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md).
+- Novelty: first isolated for `GAME-0281`; a random two-sided check at battle
+  start couples the expedition's light and scouting state to first-round order
+  and formation.
+
+## SYS-829 — Deplete a shared expedition light meter and scale danger and loot by its band
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the expedition holds one shared light meter that starts full and
+  falls by a declared amount for each corridor segment or room entered, and
+  the meter's current band continuously modifies incoming stress, party dodge,
+  scouting and surprise chances, hostile accuracy, damage and critical chance,
+  hero critical chance and the chance of extra loot draws from battles and
+  curios.
+- Includes: the Darkest Dungeon light meter's five bands from Radiant Light to
+  Black as Pitch, decaying six points per newly explored segment and one per
+  re-explored segment, in the scoped Old Road tutorial.
+- Excludes: a personal light source with a local illumination field
+  (`SYS-593`, `SYS-754`, `SYS-791`, `SYS-851`); a light that only gates hostile
+  perception (`SYS-797`); a fixed authored lighting state; the player's manual
+  snuff command (`ACT-449`); raising the meter with a carried light item,
+  outside the scoped packet.
+- Parameters: starting value, decay per new and explored segment, band
+  thresholds, per-band modifiers by difficulty, camping reset, ambush
+  replacement at zero light and curio or skill effects on the meter.
+- Evidence: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md).
+- Novelty: first isolated for `GAME-0281`; one shared meter trades safety for
+  reward across every travel, battle and loot rule of the expedition.
+
+## SYS-830 — Accumulate per-hero stress from combat and travel and carry it past the expedition
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: each hero holds a stress value that rises from declared hostile
+  skills, from critical hits received, from probabilistic travel events and
+  from other declared sources, scaled by the current light band, and falls from that
+  hero's own kills and critical hits; the value is retained when the
+  expedition ends rather than restored with health, subject to a declared cap,
+  and its declared threshold responses remain reachable in later play.
+- Includes: Darkest Dungeon stress on Reynauld and Dismas from Brigand
+  Bloodletter whip attacks, enemy critical hits, occasional travel-stress
+  events while walking the corridor and the extra stress of walking backward,
+  healed by their own critical hits and kills and capped at 100 on return to
+  the Hamlet, in the scoped Old Road tutorial.
+- Excludes: a colony-wide mood or morale score (`SYS-190`, `SYS-198`);
+  continuously drifting personal sanity that manifests hostile creatures
+  (`SYS-592`); need meters converted into graded moodles (`SYS-338`); a mental
+  break that suspends control (`CON-203`); health damage itself.
+- Parameters: per-source amounts, critical-hit stress and party spillover
+  chances, light modifiers, kill and critical relief, resolve-test threshold
+  and its affliction or virtue outcomes, heart-attack threshold, return cap
+  and idle recovery.
+- Evidence: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md).
+- Novelty: first isolated for `GAME-0281`; stress is an event-driven per-hero
+  meter whose value survives the expedition boundary that resets health.
+
+## SYS-831 — Hold a zero-health hero at Death's Door and roll a deathblow on each further hit
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when a hero's health reaches zero, the hero remains active with
+  declared penalties instead of dying or being removed; each further damage
+  instance rolls against the hero's deathblow resistance and a failed roll
+  kills the hero permanently, while any healing above zero ends the state and
+  leaves a declared recovery debuff until the expedition ends.
+- Includes: Darkest Dungeon Death's Door with its -10 ACC, -25% DMG, -5 SPD
+  and +33% stress penalties, 67% base deathblow resistance capped at 87% and
+  the recovery debuff, reachable when Old Road brigand damage exceeds
+  Reynauld's or Dismas's health.
+- Excludes: a downed state that cannot act and rolls timed death saves
+  (`SYS-390`); a last-chance window paid from a restorative stock (`SYS-820`);
+  a layered shield and knockout stack (`SYS-348`); a defeat that respawns the
+  avatar (`SYS-216`).
+- Parameters: penalty set, base deathblow resistance, cap, modifiers, healing
+  exit, recovery debuff duration and heart-attack entry.
+- Evidence: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md).
+- Novelty: first isolated for `GAME-0281`; the zero-health hero keeps acting
+  while every further hit becomes a survival roll.
+
+## SYS-832 — Bank eligible health loss as recoverable health and regain it by attacking
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when an actor loses health through a declared eligible damage
+  class, the system banks a declared portion of that loss as recoverable
+  health; while that bank remains positive, eligible outgoing attacks by the
+  actor restore health from it in declared amounts, without exceeding the
+  banked loss or the health cap.
+- Includes: Dead Cells recovery in the scoped first Prisoners' Quarters run,
+  where 80% of a loss becomes recoverable and landed hits restore a fraction
+  of damage dealt; and TEKKEN 8's Recoverable Gauge in the scoped offline
+  Versus match, created by aerial, downed and qualifying blocked damage and
+  regained by hitting the opponent or making the opponent block.
+- Excludes: timed drain or replacement of the bank (`SYS-852`); erosion or
+  erasure of the bank by later incoming attacks (`SYS-836`); passive
+  regeneration on a quiet interval (`SYS-737`); pending restorative recovery
+  from an item (`SYS-750`); a core-and-outer meter pair (`SYS-473`); a
+  temporary shield or block pool (`SYS-165`); an attack-earned reserve later
+  spent by command (`SYS-397`); a last-chance window after a lethal hit
+  (`SYS-833`, `SYS-820`).
+- Parameters: eligible damage classes, recoverable share, bank cap, eligible
+  outgoing contacts, recovery amount or fraction, per-contact cap, health cap
+  and modifiers that reduce recovery.
+- Evidence: [Dead Cells decomposition](../games/a-f/dead-cells.md) and
+  [TEKKEN 8 decomposition](../games/s-z/tekken-8.md).
+- Novelty: first isolated for `GAME-0282`; generalised by
+  [`TAXONOMY_CHANGE_065`](../../research/taxonomy-changes/TAXONOMY_CHANGE_065.md)
+  after the shared damage-to-bank and attack-to-health transitions passed a
+  two-carrier transfer test independently of their incompatible erosion rules.
+
+## SYS-833 — Downgrade one lethal hit taken above a health fraction to a single point on a cooldown
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: when a hit would reduce the avatar's health to zero while its
+  current health is above a declared fraction of the maximum, the system
+  sets health to one point instead of ending the attempt, applies a declared
+  side effect to nearby hostiles, and then disables the protection until a
+  declared cooldown elapses or a declared full-heal event resets it.
+- Includes: Dead Cells one-hit protection in the scoped first Prisoners'
+  Quarters run, which leaves 1 HP from above 25% health, stuns nearby
+  enemies and recharges for 45 seconds or on a full heal.
+- Excludes: a last-chance window paid from a restorative stock (`SYS-820`);
+  a revival item, mutation or extra life; invulnerability during a dodge
+  (`SYS-456`); a recoverable portion of ordinary damage (`SYS-832`); a
+  downed state that a companion revives.
+- Parameters: health-fraction threshold, surviving value, hostile side
+  effect, cooldown, reset events and disabling options.
+- Evidence: [Dead Cells decomposition](../games/a-f/dead-cells.md).
+- Novelty: first isolated for `GAME-0282`; the safety net is free,
+  threshold-gated and cooldown-limited, so it shapes when a player may trade
+  hits rather than what stock they carry.
+
+## SYS-834 — Bank carried unlock blueprints into the profile ledger automatically at the transition
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: entering the transition between areas automatically delivers
+  every unlock blueprint carried during the run into the profile's permanent
+  purchasable ledger without a player command, while a blueprint still
+  carried when the run ends is lost with the run.
+- Includes: automatic blueprint delivery to the Collector in the Passage
+  after the scoped first Prisoners' Quarters run of Dead Cells, such as the
+  Blood Sword blueprint dropped by the first Zombie killed.
+- Excludes: retaining the run currency itself at death (`SYS-782`); the
+  paid investment that unlocks a delivered entry (`SYS-835`); revealing
+  milestone content pools after settlement (`SYS-426`); a delivery command
+  to an addressed requester (`ACT-091`); a delivery objective (`OBJ-014`).
+- Parameters: delivery trigger, ledger, per-area drop limit, losses on death
+  and delivery exceptions.
+- Evidence: [Dead Cells decomposition](../games/a-f/dead-cells.md).
+- Novelty: first isolated for `GAME-0282`; the token is banked by arrival
+  alone, and only the run's end before arrival can lose it.
+
+## SYS-835 — Invest run currency into a profile-ledger unlock with partial progress retained
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: at the transition, the player pays run currency toward one
+  available ledger entry; the paid amount persists on the profile as
+  progress toward that entry even when the run later ends, a completed total
+  converts the entry into permanent content that enters the drop, shop and
+  offer pools of later runs, and currency never invested stays run-local.
+- Includes: cell investment at the Collector in the Passage after the scoped
+  first Prisoners' Quarters run of Dead Cells, beginning with the compulsory
+  first entry Health Flask I at 5 cells, whether paid in full or in part.
+- Excludes: retaining the currency itself at death (`SYS-782`); automatic
+  blueprint delivery (`SYS-834`); a run-local upgrade that ends with the run
+  (`SYS-467`); spending a persistent resource between runs (`ACT-143`); a
+  typed item contribution to a collection slot (`SYS-116`); research
+  consumed over time (`SYS-159`); a material delivery completed into a
+  capability unlock (`SYS-210`); milestone pools (`SYS-426`).
+- Parameters: currency, entry ladder with its compulsory first entry and
+  prerequisites, price, partial-progress display, pools entered and any
+  immediate grant of the unlocked item.
+- Evidence: [Dead Cells decomposition](../games/a-f/dead-cells.md).
+- Novelty: first isolated for `GAME-0282`; persistence is earned unit by
+  unit through a mid-run conversion of a run-local currency, so an
+  unaffordable entry still advances.
+
+## SYS-836 — Erode or erase recoverable health through later incoming attacks
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: while an actor has positive recoverable health, a later
+  qualifying attack against that actor reduces the recoverable bank by a
+  declared amount, and a declared finishing attack may erase the opponent's
+  remaining bank entirely without itself owning creation or recovery of the
+  bank.
+- Includes: ordinary standing hits reducing TEKKEN 8's Recoverable Gauge by an
+  amount equivalent to a declared share of their damage and a landed Rage Art
+  erasing the opponent's remaining Recoverable Gauge in the scoped offline
+  Versus match.
+- Excludes: creation of recoverable health and restoration through outgoing
+  attacks (`SYS-832`); passive timed drain or replacement damage (`SYS-852`);
+  round adjudication and state reset (`SYS-522`); pending restorative recovery
+  from an item (`SYS-750`); a core-and-outer meter pair (`SYS-473`); temporary
+  Block consumed before health (`SYS-165`); permanent damage and KO themselves
+  (`SYS-215`).
+- Parameters: qualifying incoming attacks, erosion amount or fraction, bank
+  floor, erasing attack and its contact requirement.
+- Evidence: [TEKKEN 8 decomposition](../games/s-z/tekken-8.md); the publisher's
+  battle-system page directly establishes Rage Art erasure, while the ordinary
+  hit-erosion amount rests on the community wiki alone.
+- Novelty: first isolated for `GAME-0283`; narrowed by
+  [`TAXONOMY_CHANGE_065`](../../research/taxonomy-changes/TAXONOMY_CHANGE_065.md)
+  after its shared bank-creation and attack-recovery clauses moved to
+  `SYS-832` and round reset remained with `SYS-522`.
+
+## SYS-837 — Enter a once-per-round timed powered state and spend its remainder through declared commands
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: a universal activation command or a declared class of the
+  fighter's attacks landing on the opponent enters the fighter into a powered
+  state for a declared duration, available once per round; while it lasts
+  the fighter's declared moves gain properties and blocked attacks inflict
+  recoverable chip, the timer pauses while the opponent is in hit or downed
+  state, declared commands spend the remaining duration, and the
+  state ends at expiry or consumption without recharging before the next
+  round.
+- Includes: Heat in TEKKEN 8's scoped offline Versus match, entered by Heat
+  Burst for 10 seconds or by a Heat Engager for 15 seconds and consumed by
+  Heat Smash or Heat Dash.
+- Excludes: an automatic low-health state (`SYS-838`); a multi-stock reserve
+  spent per technique with an exhaustion penalty (`SYS-520`); tiered stock
+  carried across rounds (`SYS-521`); a character-chosen combat resource or
+  stance (`SYS-360`); a single ability cooldown; a temporary buff bought from
+  an item.
+- Parameters: activation command, engager attack class, duration per
+  activation method, pause rule, enhanced move properties, chip on block,
+  consuming commands, rush and advantage on engager and the per-round
+  limit.
+- Evidence: [TEKKEN 8 decomposition](../games/s-z/tekken-8.md); every
+  clause of the definition is the publisher's own statement, and only the
+  frame counts and advantage values are community-wiki parameters.
+- Novelty: first isolated for `GAME-0283`; the state is a single timed
+  window per round rather than a spendable stock, and it can be opened
+  either by a universal command or by landing a declared attack.
+
+## SYS-838 — Enter an automatic low-health powered state that boosts damage and unlocks a one-use finisher which ends it
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: when a fighter's health falls to or below a declared threshold
+  the system automatically enters that fighter into a powered state for the
+  rest of the round that raises its damage by a declared factor and reduces
+  the chip damage it takes, and unlocks one declared finishing technique whose
+  armour absorbs an incoming attack and whose damage rises as the user's
+  remaining health falls; using the finisher ends the state, and the state
+  resets at the round boundary.
+- Includes: Rage and the Rage Art in TEKKEN 8's scoped offline Versus match,
+  entered at 45 health or below under `Ver.3.02.01`.
+- Excludes: the timed command-activated powered state (`SYS-837`); a lethal
+  hit downgraded to one point on a cooldown (`SYS-833`); a stock-paid
+  last-chance window (`SYS-820`); an enemy's health-gated attack phase
+  (`SYS-799`); a character resource or stance (`SYS-360`); a passive
+  low-health damage bonus with no finisher.
+- Parameters: threshold and whether equality enters the state, damage
+  factor, chip reduction, finisher input, armour, damage scaling, effects on
+  the opponent's recoverable health, whether use ends the state and the
+  round reset.
+- Evidence: [TEKKEN 8 decomposition](../games/s-z/tekken-8.md); the
+  automatic entry, the passive modifiers and the Rage Art's absorb, scaling
+  and erasing effects are the publisher's own statements, while the exact
+  threshold and the clause that using the finisher ends the state rest on
+  the community wiki alone, so the compound gene carries the weakest
+  material clause.
+- Novelty: first isolated for `GAME-0283`; the comeback state is entered by
+  the fighter's own health loss rather than by a command, resource or enemy
+  phase, and it couples a passive bonus to one state-ending finisher.
+
+## SYS-839 — Accumulate a settlement progression measure from periodic prosperity and each qualifying construction
+
+- Lifecycle: `Deprecated`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: the settlement holds one accumulating progression measure fed by
+  two independent producers — a periodic award granted a declared number of
+  times per simulated day in proportion to increases in the settlement's
+  population and satisfaction, and an immediate award granted at the moment the
+  player commits a declared class of construction.
+- Includes: nothing; no reviewed scoped game carries this ID.
+- Excludes: crediting one retained progression measure from any declared
+  qualifying result, which the Active lower-ID `SYS-517` owns.
+- Parameters: retained only so that the identifier is never reused.
+- Evidence: proposed during the `GAME-0284` initial pass and withdrawn before
+  any commit; the same mechanism is carried by `SYS-517`.
+- Novelty: withdrawn; no novelty is claimed.
+- Deprecation: the stable ID is retained for historical compatibility after
+  [`TAXONOMY_CHANGE_050`](../../research/taxonomy-changes/TAXONOMY_CHANGE_050.md),
+  which found that the boundary belongs to the generalised `SYS-517` because
+  two producers of one measure are parameters rather than an independently
+  transferable rule; no reviewed scoped game carries it.
+
+## SYS-840 — Delete resumable attempt state at one-life death
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when death closes a one-life attempt, the system removes that
+  attempt's resumable save state so the same route and survivor cannot continue,
+  while independently retained profile records may remain.
+- Includes: death before the terminal signal in The Long Dark's scoped
+  `Hopeless Rescue` Challenge.
+- Excludes: checkpoint retry; retaining the failed world for a different
+  character; clearing a temporary run into a persistent hub; voluntarily
+  abandoning a still-viable attempt.
+- Parameters: lethal cause, survivor identity, attempt state, save deletion,
+  retained profile fields, result screen and new-attempt entry.
+- Evidence: [The Long Dark decomposition](../games/s-z/the-long-dark.md).
+- Novelty: first isolated for `GAME-0285`; lower-ID permanent-death boundaries
+  either preserve a world for another character or explicitly exclude complete
+  attempt-save deletion.
+
+## SYS-841 — Replenish a finite reserve automatically only to a guaranteed floor
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after a segmented finite reserve falls below its declared
+  baseline, the system automatically restores it toward that guaranteed floor
+  but stops there, while raising it above the floor toward its larger cap
+  requires compatible finite external stock.
+- Includes: DOOM Eternal Chainsaw fuel automatically returning only to one of
+  three segments, with fuel cans required for the second and third segments in
+  the bounded first Campaign mission.
+- Excludes: fully recharging every spent item charge; regenerating health;
+  reloading weapon ammunition from carried reserve; a resource with no capacity
+  above its automatic floor; finite pickup recovery with no automatic baseline.
+- Parameters: reserve, segment size, current value, guaranteed floor, automatic
+  recovery delay/rate, external stock, accepted gain and cap.
+- Evidence: [DOOM Eternal decomposition](../games/a-f/doom-eternal.md), using
+  the official platform-holder first-hours account and two independent static
+  first-mission routes.
+- Novelty: first isolated for `GAME-0286`; automatic recovery guarantees one
+  repeatable minimal use while surplus capacity remains a finite spatial
+  resource.
+
+## SYS-842 — Destroy a hostile component and disable its attached capability
+
+- Lifecycle: `Merged`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: historical game-specific duplicate now represented by the
+  parameterised active boundary `SYS-794`.
+- Includes: historical references that used `SYS-842` before taxonomy change
+  064.
+- Excludes: new game signatures; use `SYS-794` with the scoped component and
+  capability parameters.
+- Parameters: none; preserved as a lifecycle alias.
+- Evidence: [DOOM Eternal decomposition](../games/a-f/doom-eternal.md),
+  corroborated by two independent static first-mission routes.
+- Merged into: `SYS-794` by
+  [`TAXONOMY_CHANGE_064`](../../research/taxonomy-changes/TAXONOMY_CHANGE_064.md).
+
+## SYS-843 — Resolve a ship survey into persistent system knowledge
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an eligible survey vessel visits the required bodies of a
+  discovered system over simulation time and, when the survey completes,
+  replaces their unknown state with persistent inspectable properties and
+  resource observations for the owning polity.
+- Includes: a Stellaris science ship surveying one connected stellar system
+  before territorial construction begins.
+- Excludes: merely discovering the route into a system; revealing one object
+  instantly with a scan pulse; prospecting an already owned deposit; providing
+  omniscient knowledge before the survey finishes.
+- Parameters: vessel, system, bodies, order, travel and survey duration,
+  interruption, revealed properties, resources and knowledge owner.
+- Evidence: [Stellaris decomposition](../games/s-z/stellaris.md), using Paradox
+  descriptions of science-ship exploration and surveying with current route
+  details bounded by corroborating written material.
+- Novelty: first isolated for `GAME-0287`; knowledge is the retained result of
+  a task-bearing mobile survey over a whole stellar system rather than an
+  instantaneous local reveal.
+
+## SYS-844 — Complete an outpost into territorial system ownership
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an eligible construction vessel performs a paid time-bearing
+  outpost project at an unowned surveyed system and, on completion, creates a
+  persistent owned station whose territorial state assigns that system to the
+  commissioning polity.
+- Includes: constructing the first Stellaris outpost in a fully surveyed
+  connected system chosen for the bounded colony route.
+- Excludes: founding a settlement inside territory already owned; capturing a
+  hostile station in combat; placing a temporary extraction fixture; merely
+  revealing the system.
+- Parameters: polity, constructor, target system, station, project duration,
+  material and influence costs, distance modifier, cancellation and resulting
+  ownership.
+- Evidence: [Stellaris decomposition](../games/s-z/stellaris.md), with official
+  construction-ship scope and corroborated current outpost predicates.
+- Novelty: first isolated for `GAME-0287`; a mobile construction project turns
+  surveyed neutral stellar space into owned territory without also creating
+  the later colony.
+
+## SYS-845 — Develop a committed colony transport into an established settlement
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after a legal colony transport is committed to an eligible owned
+  habitat, the system consumes that transport into a time-bearing colonisation
+  state, accumulates its declared founding measure and converts it into an
+  established persistent settlement when the threshold is reached.
+- Includes: Stellaris colonisation progressing until the first off-origin
+  colony reaches its establishment threshold.
+- Excludes: constructing the colony transport; claiming the surrounding
+  territory; post-establishment planetary development; instantly founding a
+  city that simultaneously claims adjacent territory.
+- Parameters: polity, transport, founding population, habitat, colonisation
+  duration, founding measure, threshold, modifiers, cancellation and
+  established successor.
+- Evidence: [Stellaris decomposition](../games/s-z/stellaris.md), including the
+  official colonisation update's distinction between development and the
+  established successor.
+- Novelty: first isolated for `GAME-0287`; a finite transport is converted over
+  time into the first continuing settlement inside already owned territory.
+
+## SYS-846 — Couple lower health to slower stability recovery
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: as an actor's current health falls through declared bands, its
+  separately accumulated combat-stability state recovers more slowly between
+  qualifying contacts, so health damage changes how long a later break remains
+  reachable without itself being the break meter.
+- Includes: Vitality lowering Posture recovery speed for the player and enemies
+  in Sekiro.
+- Excludes: health directly serving as the stability meter; a fixed recovery
+  rate; health changing only attack damage; a scripted phase threshold.
+- Parameters: actor, health bands, stability state, base recovery, slowed rates,
+  guard modifier and contact that pauses recovery.
+- Evidence: [Sekiro decomposition](../games/s-z/sekiro-shadows-die-twice.md),
+  using the official PC manual's Vitality and Posture relation.
+- Novelty: first isolated for `GAME-0288`; one continuous damage pool modulates
+  the recovery rate of a distinct breakable combat state.
+
+## SYS-847 — Require sequential critical executions to defeat a protected hostile
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: each successful critical execution consumes one of a hostile's
+  declared remaining execution requirements, returns the surviving hostile to
+  live combat and withholds final defeat until the last requirement is consumed.
+- Includes: Sekiro strong enemies whose displayed Deathblow markers must each be
+  removed before defeat, including the bounded route guardian.
+- Excludes: an ordinary health bar; a health-threshold phase change; armour
+  layers removed automatically by damage; several unrelated enemies.
+- Parameters: hostile, required marker count, execution trigger, state retained
+  between executions, reset rules and final defeat.
+- Evidence: [Sekiro decomposition](../games/s-z/sekiro-shadows-die-twice.md),
+  using the official PC manual's Deathblow-marker rule.
+- Novelty: first isolated for `GAME-0288`; repeated critical openings consume a
+  discrete defeat requirement instead of merely accelerating one health pool.
+
+## SYS-848 — Resolve charged in-place self-recovery after lethal defeat
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after the player confirms self-recovery before true death
+  settles, the system consumes one ready charge, restores the declared health,
+  returns control to the same body in place and continues the same live
+  encounter.
+- Includes: settlement of Sekiro Resurrection in the bounded opening route.
+- Excludes: the player command (`ACT-452`); charge-and-lock legality
+  (`CON-628`); checkpoint-rest replenishment (`SYS-364`); combat-earned charge
+  replenishment (`SYS-035`); applying or clearing a consecutive-use lock
+  (`SYS-853`); automatic extra lives; ally revival; checkpoint return after
+  true death (`SYS-849`).
+- Parameters: charge identity, consumed amount, restored health, position,
+  encounter continuity, animation and return-of-control timing.
+- Evidence: [Sekiro decomposition](../games/s-z/sekiro-shadows-die-twice.md),
+  using the official PC manual's resurrection lifecycle.
+- Novelty: first isolated for `GAME-0288`; narrowed by
+  [`TAXONOMY_CHANGE_067`](../../research/taxonomy-changes/TAXONOMY_CHANGE_067.md)
+  to the charge-paid same-position settlement after its replenishment and lock
+  transitions proved independent.
+
+## SYS-849 — Return true death to a checkpoint with fractional unbanked loss
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when lethal defeat settles without a legal in-place recovery, the
+  system returns the controlled body to its last eligible checkpoint and
+  permanently removes a declared fraction of current unbanked progression and
+  currency unless a separately sampled protection condition preserves them.
+- Includes: Sekiro true death returning to the last communed Sculptor's Idol,
+  losing half of current Sen and Skill Experience unless Unseen Aid triggers.
+- Excludes: placing the full stock in a recoverable world mark; retaining all
+  resources; permanent character deletion; an in-place charged resurrection.
+- Parameters: checkpoint, affected unbanked measures, loss fraction, rounding,
+  protection probability or condition and excluded retained state.
+- Evidence: [Sekiro decomposition](../games/s-z/sekiro-shadows-die-twice.md),
+  using the official PC manual's death-penalty rules.
+- Novelty: first isolated for `GAME-0288`; checkpoint return destroys a fraction
+  immediately and may conditionally waive it, rather than creating a later
+  recovery task.
+
+## SYS-850 — Replace an active team member through automatic coaching
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: at an eligible match stoppage, automatic coaching selects one
+  eligible reserve participant and replaces one current active participant
+  according to the configured substitution policy while preserving the side's
+  required active-member capacity.
+- Includes: NBA 2K26 Quick Play automatic substitutions under its retained
+  default coaching boundary, including rotation logic informed by playing time
+  and fatigue.
+- Excludes: player-confirmed live substitution; pre-match line-up selection;
+  transfer of direct control among current participants; continuous off-ball
+  positioning under `SYS-459`; persistent roster construction.
+- Parameters: side, outgoing and entering participant, reserve eligibility,
+  active-member capacity, legal stoppage, fatigue, planned minutes,
+  substitution method and coaching policy.
+- Evidence: [NBA 2K26 decomposition](../games/m-r/nba-2k26.md), using the
+  current written Coach Settings trace and official substitution law.
+- Novelty: first isolated for `GAME-0241` by
+  [`TAXONOMY_CHANGE_057`](../../research/taxonomy-changes/TAXONOMY_CHANGE_057.md);
+  personnel replacement is a discrete roster transition rather than a sport-
+  specific parameter of continuous team positioning.
+
+## SYS-851 — Automatically recharge inactive portable illumination
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while a personal portable illumination device is inactive and
+  its bounded internal charge is below cap, the system restores that charge
+  automatically without consuming a carried replacement unit; activating the
+  device suspends this recovery.
+- Includes: automatic off-state recharge of HEV flashlight energy in Half-Life
+  (1998)'s scoped `Unforeseen Consequences` route.
+- Excludes: charge-to-light drain while active (`SYS-754`); a manual refill from
+  finite carried battery stock (`SYS-791`); replenishing a reusable combat-item
+  charge; a fixed world light; unlimited illumination with no charge state.
+- Parameters: device, inactive state, internal charge, cap, recharge rate,
+  carried-stock independence, suspension condition and update interval.
+- Evidence: [Half-Life (1998) decomposition](../games/g-l/half-life-1998.md),
+  using Valve's SDK and preserved original manual rules.
+- Novelty: extracted from former compound `SYS-754` by
+  [`TAXONOMY_CHANGE_062`](../../research/taxonomy-changes/TAXONOMY_CHANGE_062.md);
+  automatic recovery remains independent of the shared active drain.
+
+## SYS-852 — Expire recoverable health through time or replacement damage
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: after recoverable health is banked, the system waits a declared
+  delay and then continuously reduces the remaining bank toward zero; if a
+  later damaging hit arrives while the earlier bank remains, the system
+  discards that earlier bank before creating the new hit's recoverable portion.
+- Includes: Dead Cells recovery in the scoped first Prisoners' Quarters run,
+  where the orange bank begins draining after its delay and a later hit replaces
+  the prior bank with the recoverable share of the new loss.
+- Excludes: creation of the bank and restoration through outgoing attacks
+  (`SYS-832`); erosion or erasure through declared incoming attacks
+  (`SYS-836`); quiet-interval regeneration (`SYS-737`); pending restorative
+  recovery from an item (`SYS-750`); ordinary permanent health loss
+  (`SYS-578`).
+- Parameters: delay, drain rate, update interval, bank floor, replacement
+  trigger and order of discarding and creating the next recoverable portion.
+- Evidence: [Dead Cells decomposition](../games/a-f/dead-cells.md).
+- Novelty: extracted from former compound `SYS-832` by
+  [`TAXONOMY_CHANGE_065`](../../research/taxonomy-changes/TAXONOMY_CHANGE_065.md);
+  the expiring-bank rule stays independent of attack-driven recovery.
+
+## SYS-853 — Apply and clear a consecutive-use self-recovery lock
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after one charged in-place self-recovery resolves, the system
+  places another such recovery behind a separate temporary lock even when a
+  charge remains, then clears that lock when the actor completes declared
+  hostile defeats or critical executions during continuing play.
+- Includes: Sekiro applying the crossed-out post-Resurrection state and
+  clearing it through eligible enemy defeat or Deathblow progress in the
+  bounded opening route.
+- Excludes: consuming the recovery charge and restoring the body (`SYS-848`);
+  adding charge through combat performance (`SYS-035`); restoring a base charge
+  at checkpoint rest (`SYS-364`); testing whether charge and lock jointly allow
+  the command (`CON-628`); a time-only cooldown; true-death checkpoint return.
+- Parameters: recovery event, locked state, remaining charge, qualifying
+  hostile event, required progress, clearance timing and reset boundary.
+- Evidence: [Sekiro decomposition](../games/s-z/sekiro-shadows-die-twice.md),
+  using the official PC manual's temporary post-recovery prohibition and
+  combat-earned reopening rule.
+- Novelty: extracted from compound `SYS-848` by
+  [`TAXONOMY_CHANGE_067`](../../research/taxonomy-changes/TAXONOMY_CHANGE_067.md);
+  the lock can remain closed while charge exists and can clear without adding
+  charge, so it is independent of both settlement and replenishment.

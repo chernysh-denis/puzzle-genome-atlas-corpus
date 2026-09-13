@@ -3,7 +3,7 @@ game_id: GAME-0241
 slug: nba-2k26
 game_title: NBA 2K26
 analysis_status: reviewed
-reviewed: 2026-09-03
+reviewed: 2026-09-10
 combination_ids:
   - COMB-0239
 gene_ids:
@@ -16,13 +16,14 @@ gene_ids:
     - ACT-414
     - ACT-415
   system:
+    - SYS-459
     - SYS-757
     - SYS-758
-    - SYS-759
     - SYS-760
     - SYS-761
     - SYS-762
     - SYS-763
+    - SYS-850
   constraint:
     - CON-398
     - CON-583
@@ -76,7 +77,7 @@ gene instances but do not enter the signature.
 - Included: team/match commitment; one ball; two five-player court sides; one
   transferable direct-control locus; locomotion and legal dribble; passes;
   called screens; timed shots, layups and dunks; steals, blocks and contests;
-  off-ball team AI and automatic rotation; loose balls, misses and rebounds;
+  off-ball team AI and automatic substitutions; loose balls, misses and rebounds;
   court/basket geometry; weighted one-, two- and three-point scoring; game and
   shot clocks; fouls, violations, inbounds and free throws; four quarters,
   required overtime, final score and box score.
@@ -111,6 +112,7 @@ gene instances but do not enter the signature.
 | `NBA26-009` | Contact, handling and boundary offences select dead-ball remedies, turnovers, inbounds or free throws | Confirmed | Direct | High | P6, P8–P11 |
 | `NBA26-010` | The broadcast view and HUD expose the ball, control, team shape, scores, period, game clock, shot clock and result | Observation | Corroborated | High | P4, P5, S2 |
 | `NBA26-011` | One complete fixed exhibition can be bounded from team/settings confirmation to final result without importing persistent modes | Confirmed | Corroborated | High | P1–P11, S1, S2, V1 |
+| `NBA26-012` | With automatic substitutions retained, coaching replaces an active player with an eligible reserve at a legal stoppage according to the configured method | Observation | Corroborated | High | P12, S3 |
 
 ## Basic data
 
@@ -132,9 +134,9 @@ gene instances but do not enter the signature.
     for Play Now Quick Play team selection, local play and match parameters and
     for separating NBA Today, Eras Quick Play and Blacktop; it corroborates mode
     rules but does not redefine the scoped Windows platform.
-  - **[P5]** [2K gameplay report](https://newsroom.2k.com/news/nbar-2k26-debuts-new-gen-9-gameplay-improvements-including-an-all-new-dynamic-motion-engine-powered-by-proplay),
+  - **[P5]** [2K gameplay Courtside Report](https://nba.2k.com/2k26/courtside-report/gameplay/),
     for Windows Gen 9, movement, timing, shooting, layups, defence, collisions,
-    rebounds, passing, screens and game-speed control.
+    rebounds, passing, screens, off-ball positioning and team-AI adaptation.
   - **[P6]** [NBA official rulebook](https://official.nba.com/rulebook/), for
     the contemporary basketball rules represented by the simulation.
   - **[P7]** [NBA Rule 5 — scoring and timing](https://official.nba.com/rule-no-5-scoring-and-timing/),
@@ -147,16 +149,23 @@ gene instances but do not enter the signature.
     for handling, travelling, boundary and backcourt predicates.
   - **[P11]** [NBA Rule 12 — fouls](https://official.nba.com/rule-no-12-fouls-and-penalties/),
     for contact, screening, shooting-foul and penalty remedies.
+  - **[P12]** [NBA Rule 3 — players, substitutes and coaches](https://official.nba.com/rule-no-3-players-substitutes-and-coaches/),
+    for five active players, eligible substitutes, outgoing-player replacement
+    and the live/dead-ball states in which substitution is legal.
 - Secondary textual sources:
   - **[S1]** [SteamDB depots](https://steamdb.info/app/3472040/depots/), observed
     2026-09-03, for public Build ID `24237529` and timestamps.
   - **[S2]** [NBA2KW controls guide](https://nba2kw.com/nba-2k26-controls-guide-playstation-xbox),
     for an independent written control map; it corroborates inputs but is not
     used for product, edition, build or official rules.
+  - **[S3]** [NBA 2K26 Coach Settings guide](https://www.magicgameworld.com/nba-2k26-how-to-change-substitution-settings-automatic-manual-sub-method-guide/),
+    accessed 2026-09-10, for the current written `Automatic`/`Manual`
+    substitution setting and `ACE`/`Rotation` methods; it corroborates the
+    game-specific automation boundary but does not define official NBA law.
 - Reproducible control: **[V1]** repository transition trace under fixed
   product, build, platform, mode, teams and settings; no direct-play or
   audiovisual claim.
-- Claim IDs: `NBA26-001`–`NBA26-011`.
+- Claim IDs: `NBA26-001`–`NBA26-012`.
 
 ## Mechanical decomposition
 
@@ -173,16 +182,20 @@ gene instances but do not enter the signature.
 
 ### System Behaviour Genes
 
+- Existing `SYS-459`: continuously coordinate non-controlled team roles around
+  possession and local interaction state. `TAXONOMY_CHANGE_057` generalises its
+  football wording and merges the duplicate `SYS-759` into it.
 - New `SYS-757`: resolve one shared ball between held/dribbled and free states;
   `SYS-758`: combine release timing and coverage into attempt outcome;
-  `SYS-759`: coordinate non-controlled roles; `SYS-760`: resolve misses and
-  rebounds; `SYS-761`: adjudicate fouls/violations; `SYS-762`: register weighted
-  scoring; `SYS-763`: advance four periods and required overtime to settlement.
+  `SYS-760`: resolve misses and rebounds; `SYS-761`: adjudicate
+  fouls/violations; `SYS-762`: register weighted scoring; `SYS-763`: advance
+  four periods and required overtime to settlement; `SYS-850`: replace an
+  active team member through automatic coaching at an eligible stoppage.
 - Resolution order: clocks advance; direct input and team AI update positions;
   ball action releases or retains possession; collision, attempt or boundary
   resolves; adjudication chooses continuation; legal basket updates weighted
   score; period expiry advances or adds overtime; unequal final score settles.
-- Claims: `NBA26-004`–`NBA26-011`.
+- Claims: `NBA26-004`–`NBA26-012`.
 
 ### Constraint Genes
 
@@ -234,6 +247,7 @@ gene instances but do not enter the signature.
 | Opponent possesses | Move/switch, then contest, block or steal | Defence may force miss/turnover or incur foul/exposure | defensive trade-off | `NBA26-004`, `009` |
 | Possession clock nears zero | Release eligible attempt | Rim touch/score preserves legal attempt; otherwise violation transfers possession | shot-clock terminal | `NBA26-008` |
 | Offence or boundary predicate settles | Await dead-ball ruling | Play stops and selects inbound, turnover, free throws or continuation | adjudication | `NBA26-009` |
+| Automatic coaching selects a legal change at a stoppage | Await continuation | One eligible reserve replaces one active player while the on-court side remains five | automatic personnel replacement | `NBA26-012` |
 | Regulation expires tied | Continue | Required overtime starts with same accumulated score | nonterminal tie | `NBA26-007` |
 | Required time expires with unequal score | Advance to result/box score | Winner, loser, final score and accumulated statistics are exposed | positive/negative terminal | `NBA26-007`, `010`, `011` |
 
@@ -242,7 +256,7 @@ gene instances but do not enter the signature.
 - Local decisions balance pass lane, screen angle, rim pressure, release timing,
   rebound position and defensive intervention against the possession clock.
 - Medium-term planning manages score margin, remaining match time, player
-  spacing and foul exposure while automatic rotations vary the live five.
+  spacing and foul exposure while automatic substitutions vary the live five.
 - Long-term structure accumulates differently weighted scoring events across
   four periods and extends a tied match rather than accepting a draw.
 - Failure attribution is visible through the control marker, court state,
@@ -255,7 +269,7 @@ gene instances but do not enter the signature.
 - Variable: possession sequence, control switches, passes, screens, attempts,
   rebounds, fouls, score, overtime and final result.
 - Fixed: product/build observation, mode, local-versus-CPU relation, teams,
-  Pro difficulty, period length, speed and automatic coaching boundary.
+  Pro difficulty, period length, speed and automatic substitution boundary.
 - Other Play Now variants and persistent modes are explicitly separate packets.
 
 ## Adjacent systems and history
@@ -278,7 +292,7 @@ gene instances but do not enter the signature.
 | Type | Active gene IDs | Parameters |
 |---|---|---|
 | Action | `ACT-008`, `ACT-052`, `ACT-411`, `ACT-412`, `ACT-413`, `ACT-414`, `ACT-415` | teams, controls, pass/shot/defence family |
-| System | `SYS-757`, `SYS-758`, `SYS-759`, `SYS-760`, `SYS-761`, `SYS-762`, `SYS-763` | ball, AI, scoring, adjudication, periods |
+| System | `SYS-459`, `SYS-757`, `SYS-758`, `SYS-760`, `SYS-761`, `SYS-762`, `SYS-763`, `SYS-850` | team AI, ball, substitutions, scoring, adjudication, periods |
 | Constraint | `CON-398`, `CON-583`, `CON-584`, `CON-585`, `CON-586` | five, court, handling, clocks, law |
 | Information | `INF-116`, `INF-178`, `INF-290`, `INF-291` | camera, markers, scorebug, box score |
 | Objective | `OBJ-149` | sides, final points, result |
@@ -289,41 +303,47 @@ gene instances but do not enter the signature.
 - Comparison algorithm: `genome-jaccard-v1`.
 - Prior game signatures scanned: `240` (`GAME-0001`–`GAME-0240`).
 - Exact genome matches: none.
-- Tied near matches: `GAME-0163` — EA SPORTS FC 26 (`6 / 39 = 0.153846`).
+- Tied near matches: `GAME-0163` — EA SPORTS FC 26 (`7 / 39 = 0.179487`).
 - Supported combination subsets: `COMB-0239`.
-- Scan date: 2026-09-03.
+- Scan date: 2026-09-10.
 
 ### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0163` — EA SPORTS FC 26 | `ACT-008`, `ACT-052`, `CON-398`, `INF-116`, `INF-178`, `TIM-003` | both move one directly controlled member of a multi-member side through a live broadcast view, hold exactly one transferable control locus over that side, read ball, control marker and local team shape from the same view, expose live side, score, time and phase state, and resolve in real time. FC 26 uses a free football, an eleven-player side, offside, single-value goals and a valid draw. NBA 2K26 instead adds held and dribbled possession, five-player court geometry, a shot clock, release timing, rebounds, basketball remedies, weighted points and required overtime. `TAXONOMY_CHANGE_019` raised the shared core from four genes to six by merging the sport-specific control and view duplicates. | Near, `0.153846` |
+| `GAME-0163` — EA SPORTS FC 26 | `ACT-008`, `ACT-052`, `SYS-459`, `CON-398`, `INF-116`, `INF-178`, `TIM-003` | both move one directly controlled member of a multi-member side through a live broadcast view, retain one transferable control locus, continuously coordinate non-controlled roles around a shared ball, expose live side, score, time and phase state, and resolve in real time. FC 26 uses a free football, an eleven-player side, offside, single-value goals and a valid draw. NBA 2K26 instead adds held and dribbled possession, five-player court geometry, automatic substitutions, a shot clock, release timing, rebounds, basketball remedies, weighted points and required overtime. `TAXONOMY_CHANGE_019` merged the sport-specific control and view duplicates; `TAXONOMY_CHANGE_057` adds the shared team-AI boundary without changing the earlier football signature. | Near, `0.179487` |
 
 ### Preserved research notes
 
-- New genes: `ACT-411`–`ACT-415`, `SYS-757`–`SYS-763`, `CON-583`–`CON-586`,
-  `INF-290`, `INF-291`, `OBJ-149`.
-- Reused genes: `ACT-008`, `ACT-052`, `CON-398`, `INF-116`, `INF-178`,
-  `TIM-003`. `CON-582` and `INF-289` were merged into `CON-398` and `INF-178`
+- Reused genes: `ACT-008`, `ACT-052`, `SYS-459`, `CON-398`, `INF-116`,
+  `INF-178`, `TIM-003`. `CON-582` and `INF-289` were merged into `CON-398` and `INF-178`
   by
   [`TAXONOMY_CHANGE_019`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_019.md),
   which established that a side's size and its playing surface are parameters.
+  `SYS-759` was merged into sport-neutral `SYS-459` by
+  [`TAXONOMY_CHANGE_057`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_057.md);
+  the discrete automatic-substitution clause was extracted as `SYS-850`.
 - Result: `New gene` and `New combination of known and new genes`. Product,
   teams, settings, controls and numeric values remain parameters.
 
 ## Taxonomy impact
 
-- Twenty-one new Active portable genes; no prior definition, lifecycle or
-  reviewed signature changes. No taxonomy-change record.
+- `TAXONOMY_CHANGE_057` merges basketball-specific `SYS-759` into `SYS-459`,
+  generalises the survivor and extracts the former automatic-rotation clause as
+  `SYS-850`. The current 26-gene signature contains nineteen game-introduced
+  Active genes and seven reused genes; no other reviewed game signature changes.
 
 ## Negative results
 
-- Football-specific `ACT-267`–`ACT-269`, `SYS-457`–`SYS-463`, `CON-399`–
+- Football-specific `ACT-267`–`ACT-269`, `SYS-457`, `SYS-458`, `SYS-460`–
+  `SYS-463`, `CON-399`–
   `CON-401` and `OBJ-090` are rejected: their boundary is a free football,
   eleven-player side, offside, goalkeeping and/or valid draw. `CON-398` and
   `INF-178` are no longer among them: `TAXONOMY_CHANGE_019` merged their
   sport-specific duplicates into them and restated both as sport-neutral
-  boundaries, so this packet reuses rather than rejects them.
+  boundaries, so this packet reuses rather than rejects them. `SYS-459` is also
+  reused after `TAXONOMY_CHANGE_057`; football side size, shape and surface are
+  parameters, not a reason to duplicate live team coordination.
 - `ACT-411` does not encode either team or five-minute value. `SYS-762` does not
   encode the point amounts in its label. The fixed matchup and numbers remain
   game parameters. Persistent rosters, economy, coaching and other modes are
@@ -331,6 +351,6 @@ gene instances but do not enter the signature.
 
 ## Combination subset scan
 
-- All 238 pre-unit combinations were tested; none is a proper subset of this
-  25-gene signature. `COMB-0239` reserves only the live five-player possession,
-  adjudication, weighted-score and whole-match core. Scan date: 2026-09-03.
+- All 274 current combinations were tested. `COMB-0239` remains the only
+  registered proper subset and reserves only the live five-player possession,
+  adjudication, weighted-score and whole-match core. Scan date: 2026-09-10.

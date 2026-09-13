@@ -6,6 +6,7 @@ analysis_status: reviewed
 reviewed: 2026-08-31
 combination_ids:
   - COMB-0201
+  - COMB-0272
 gene_ids:
   action:
     - ACT-008
@@ -300,7 +301,7 @@ gene_ids:
 - Prior game signatures scanned: `202` (`GAME-0001`–`GAME-0202`).
 - Exact genome matches: none.
 - Tied near matches: `GAME-0170` — S.T.A.L.K.E.R. 2: Heart of Chornobyl (`10 / 65 = 0.153846`).
-- Supported combination subsets: `COMB-0201`.
+- Supported combination subsets: `COMB-0201`, `COMB-0272`.
 - Scan date: 2026-08-31.
 
 ### Selected-neighbour interpretation

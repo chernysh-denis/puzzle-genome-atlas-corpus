@@ -313,7 +313,7 @@ Exact trajectories and amounts vary; the conditional resolution is the test.
 - Comparison algorithm: `genome-jaccard-v1`.
 - Prior game signatures scanned: `243` (`GAME-0001`–`GAME-0243`).
 - Exact genome matches: none.
-- Tied near matches: `GAME-0199` — Need for Speed Unbound (`17 / 33 = 0.515152`).
+- Tied near matches: `GAME-0199` — Need for Speed Unbound (`17 / 34 = 0.500000`).
 - Supported combination subsets: `COMB-0242`.
 - Scan date: 2026-09-04.
 
@@ -321,7 +321,7 @@ Exact trajectories and amounts vary; the conditional resolution is the test.
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0199` — Need for Speed Unbound | `ACT-290`, `ACT-292`, `ACT-293`, `SYS-320`, `SYS-365`, `SYS-366`, `SYS-515`, `SYS-516`, `SYS-519`, `CON-438`, `CON-523`, `INF-144`, `INF-204`, `INF-205`, `INF-206`, `INF-208`, `TIM-003` | Unbound forces a pursuit and Burst-driven exposed-cash return; Heat allows detection avoidance, retains session REP/HEAT and admits quota-limited repair or bribe before banking | Near, `0.515152` |
+| `GAME-0199` — Need for Speed Unbound | `ACT-290`, `ACT-292`, `ACT-293`, `SYS-320`, `SYS-365`, `SYS-366`, `SYS-515`, `SYS-516`, `SYS-519`, `CON-438`, `CON-523`, `INF-144`, `INF-204`, `INF-205`, `INF-206`, `INF-208`, `TIM-003` | Unbound forces a pursuit and Burst-driven exposed-cash return; Heat allows detection avoidance, retains session REP/HEAT and admits quota-limited repair or bribe before banking | Near, `0.500000` |
 
 ### Preserved research notes
 
@@ -335,8 +335,11 @@ Exact trajectories and amounts vary; the conditional resolution is the test.
   level itself clears after search, `CON-437`, whose class restriction is hard,
   `SYS-642`, whose exposed cash crosses mandatory pursuit, and `OBJ-122`,
   whose chase is mandatory. Reject `OBJ-134`/`OBJ-150` as place-threshold goals,
-  and `SYS-641`/`INF-255` as Unbound Burst-accumulation mechanics. `SYS-753` uses
-  a finite fixture reservoir, unlike a global session allowance. `SYS-476`
+  and `SYS-765`/`INF-255` because this bounded Heat route does not establish
+  Unbound-style manoeuvre-earned reserve accumulation or the joint Burst/risk
+  display. Historical compound `SYS-641` was split by
+  `TAXONOMY_CHANGE_058`. `SYS-753` uses a finite fixture reservoir, unlike a
+  global session allowance. `SYS-476`
   preserves a jurisdictional bounty, not an extraction multiplier. No prior
   signature or definition is broadened to force these reuses.
 

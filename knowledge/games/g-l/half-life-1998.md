@@ -3,7 +3,7 @@ game_id: GAME-0239
 slug: half-life-1998
 game_title: Half-Life (1998)
 analysis_status: reviewed
-reviewed: 2026-09-03
+reviewed: 2026-09-10
 combination_ids:
   - COMB-0237
 gene_ids:
@@ -25,6 +25,7 @@ gene_ids:
     - SYS-753
     - SYS-754
     - SYS-755
+    - SYS-851
   constraint:
     - CON-262
     - CON-282
@@ -222,9 +223,10 @@ gene instances but do not enter the signature.
 - New `SYS-753`: while legal use is held, transfer units from a finite fixed
   station reservoir into the matching missing personal meter, stop at either
   capacity or depletion, and retain the reduced station state.
-- New `SYS-754`: while personal illumination is active, emit its local visible
-  field and drain the separate reserve; while inactive, remove the field and
-  automatically restore reserve toward its cap.
+- New `SYS-754`: while personal illumination is active with positive charge,
+  emit its local visible field and drain that bounded charge.
+- New `SYS-851`: while the same device is inactive below cap, restore charge
+  automatically without consuming a carried replacement unit.
 - New `SYS-755`: apply eligible damage or a declared trigger to a breakable
   world object's retained durability and, at its threshold, remove its blocking
   body while resolving declared debris, target or contents state.
@@ -370,7 +372,7 @@ gene instances but do not enter the signature.
 | Type | Active gene IDs | Candidate genes or parameters |
 |---|---|---|
 | Action | `ACT-008`, `ACT-161`, `ACT-164`, `ACT-183`, `ACT-199`, `ACT-341`, `ACT-408`, `ACT-409` | scientist, guard, scanner, flashlight, crowbar and weapon names are parameters |
-| System Behaviour | `SYS-215`, `SYS-339`, `SYS-348`, `SYS-369`, `SYS-752`, `SYS-753`, `SYS-754`, `SYS-755` | actor roles, rates, reserves, material and damage values are parameters |
+| System Behaviour | `SYS-215`, `SYS-339`, `SYS-348`, `SYS-369`, `SYS-752`, `SYS-753`, `SYS-754`, `SYS-755`, `SYS-851` | actor roles, rates, reserves, material and damage values are parameters |
 | Constraint | `CON-262`, `CON-282`, `CON-285`, `CON-305`, `CON-580` | map order, reach, capacities and exact fixture predicates are parameters |
 | Information | `INF-073`, `INF-115`, `INF-119`, `INF-125` | HUD art, colour, labels and positions are presentation |
 | Objective | `OBJ-026` | chapter and successor names are parameters |
@@ -381,20 +383,22 @@ gene instances but do not enter the signature.
 - Comparison algorithm: `genome-jaccard-v1`.
 - Prior game signatures scanned: `238` (`GAME-0001`–`GAME-0238`).
 - Exact genome matches: none.
-- Tied near matches: `GAME-0212` — Half-Life 2 (`18 / 33 = 0.545455`).
+- Tied near matches: `GAME-0212` — Half-Life 2 (`18 / 34 = 0.529412`).
 - Supported combination subsets: `COMB-0237`.
-- Scan date: 2026-09-03.
+- Scan date: 2026-09-10.
 
 ### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0212` — Half-Life 2 | `ACT-008`, `ACT-161`, `ACT-164`, `ACT-183`, `ACT-199`, `ACT-341`, `SYS-215`, `SYS-339`, `SYS-348`, `SYS-369`, `CON-262`, `CON-285`, `CON-305`, `INF-073`, `INF-115`, `INF-119`, `OBJ-026`, `TIM-003` | Half-Life 2's Ravenholm unit adds remote rigid-prop pull, collision-bounded hold and attributed launch damage. Half-Life (1998) instead adds a reversible transient ally command whose role opens the route, finite held-use station transfer, separate toggled light drain/recharge, damage-threshold world-object removal and explicit authored-order cues. | Near, `0.545455` |
+| `GAME-0212` — Half-Life 2 | `ACT-008`, `ACT-161`, `ACT-164`, `ACT-183`, `ACT-199`, `ACT-341`, `SYS-215`, `SYS-339`, `SYS-348`, `SYS-369`, `CON-262`, `CON-285`, `CON-305`, `INF-073`, `INF-115`, `INF-119`, `OBJ-026`, `TIM-003` | Half-Life 2's Ravenholm unit adds remote rigid-prop pull, collision-bounded hold and attributed launch damage. Half-Life (1998) instead adds a reversible transient ally command whose role opens the route, finite held-use station transfer, separately represented toggled-light drain and off-state recharge, damage-threshold world-object removal and explicit authored-order cues. | Near, `0.529412` |
 
 ### Preserved research notes
 
 - New genes: `ACT-408`, `ACT-409`, `SYS-752`, `SYS-753`, `SYS-754`,
-  `SYS-755`, `CON-580`.
+  `SYS-755`, `SYS-851`, `CON-580`. `SYS-851` was extracted from the former
+  compound `SYS-754` boundary by
+  [`TAXONOMY_CHANGE_062`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_062.md).
 - Reused genes: `ACT-008`, `ACT-161`, `ACT-164`, `ACT-183`, `ACT-199`,
   `ACT-341`, `SYS-215`, `SYS-339`, `SYS-348`, `SYS-369`, `CON-262`,
   `CON-282`, `CON-285`, `CON-305`, `INF-073`, `INF-115`, `INF-119`,
@@ -409,9 +413,12 @@ gene instances but do not enter the signature.
 
 ## Taxonomy impact
 
-- Registry changes: seven new Active genes with portable names and game-scoped
-  examples; no prior definition, lifecycle or reviewed signature changes.
-- Taxonomy-change record: none.
+- Registry changes: eight game-introduced Active genes with portable names and
+  game-scoped examples. `TAXONOMY_CHANGE_062` generalises `SYS-754` to the
+  shared drain-to-light transition and extracts automatic recovery as
+  `SYS-851`; the Half-Life signature gains the independent recovery owner.
+- Taxonomy-change record:
+  [`TAXONOMY_CHANGE_062`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_062.md).
 - Candidate terms affected: transient ally follow/wait, role-specific local
   assistance, held finite station transfer, portable light drain/recharge and
   damage-threshold world-object removal are accepted. Scientist, guard, HEV,
@@ -427,8 +434,8 @@ gene instances but do not enter the signature.
   move order. `ACT-408` changes only the ally's follow relation.
 - `ACT-236` and `SYS-593` are rejected: the flashlight is neither a discrete
   rechargeable combat-item charge nor a fuelled light/heat field with darkness
-  survival authority. `ACT-409` / `SYS-754` retain only toggle, local light,
-  drain and automatic recharge.
+  survival authority. `ACT-409`, `SYS-754` and `SYS-851` retain only toggle,
+  local-light drain and automatic off-state recovery.
 - `ACT-407`, `SYS-750` and `CON-579` are rejected for the wall station: no
   carried restorative is consumed and recovery is continuous only while held
   use and station stock remain legal.
@@ -443,6 +450,6 @@ gene instances but do not enter the signature.
 - Every verified pre-unit combination was tested as a proper subset of the
   complete 27-gene signature; none qualified.
 - `COMB-0237` is reserved for the strict transient-ally / finite-station /
-  rechargeable-light / breakable-route chapter core and excludes ordinary
-  equipment and presentation support.
+  drain-plus-automatic-recovery light / breakable-route chapter core and
+  excludes ordinary equipment and presentation support.
 - Comparison and subset scan date: 2026-09-03.

@@ -3,7 +3,7 @@ game_id: GAME-0249
 slug: resident-evil-4-2023
 game_title: Resident Evil 4 (2023 remake)
 analysis_status: reviewed
-reviewed: 2026-09-05
+reviewed: 2026-09-10
 combination_ids:
   - COMB-0247
 gene_ids:
@@ -17,9 +17,9 @@ gene_ids:
     - ACT-202
     - ACT-235
     - ACT-341
+    - ACT-419
     - ACT-424
     - ACT-425
-    - ACT-426
   system:
     - SYS-208
     - SYS-215
@@ -39,8 +39,8 @@ gene_ids:
     - CON-357
     - CON-394
     - CON-579
+    - CON-589
     - CON-594
-    - CON-595
   information:
     - INF-073
     - INF-075
@@ -48,9 +48,9 @@ gene_ids:
     - INF-125
     - INF-128
     - INF-132
+    - INF-295
     - INF-302
     - INF-303
-    - INF-304
   objective:
     - OBJ-155
   time:
@@ -219,8 +219,9 @@ gene instances but do not enter the signature.
   hostile when the route exposes that state.
 - New `ACT-424`: reposition or rotate a retained item inside the attaché-case
   grid. New `ACT-425`: commit one timed knife parry against an eligible incoming
-  attack. New `ACT-426`: perform the prompted close attack while an eligible
-  staggered hostile remains reachable.
+  attack. Existing `ACT-419`: perform the prompted contextual close attack
+  while an eligible staggered hostile remains reachable; its damage and
+  non-guaranteed defeat are System results, not a different player command.
 - Character, weapon, item, recipe, area and objective names are parameters.
   Merchant repair, upgrades, purchases and later escort commands are outside
   the action set. Claims: `RE4R-003`–`RE4R-010`.
@@ -260,8 +261,9 @@ gene instances but do not enter the signature.
   item must fit unoccupied rectangular cells or compatible capacity;
   `CON-579`: an immediate restorative requires missing health and finite stock.
 - New `CON-594`: reactive parry requires a usable equipped knife, an eligible
-  incoming attack and accepted timing. New `CON-595`: the prompted close
-  follow-up requires a living staggered hostile still within reach.
+  incoming attack and accepted timing. Existing `CON-589`: the prompted close
+  action requires a living staggered hostile still within reach; whether the
+  accepted attack defeats it does not change that legality predicate.
 - Scarce strategic resources: health, ammunition, knife durability, healing
   stock, recipe inputs, case cells, safe distance and authored checkpoint
   progress. Exact dimensions, quantities, damage, timing and drops are
@@ -277,8 +279,9 @@ gene instances but do not enter the signature.
   visible; `INF-132`: known recipe inputs and output are inspectable.
 - New `INF-302`: the attaché case exposes item footprints, orientation,
   occupied cells and free cells. New `INF-303`: the reticle distinguishes
-  default and focused aim state. New `INF-304`: local feedback exposes the
-  temporary reachable close-follow-up prompt on a staggered hostile.
+  default and focused aim state. Existing `INF-295`: local feedback exposes
+  the temporary reachable contextual close-action prompt on a staggered
+  hostile without promising that the attack will defeat it.
 - Exact icons, colours, grid dimensions, labels, item art and screen positions
   are presentation parameters. Claims: `RE4R-004`–`RE4R-012`.
 
@@ -386,10 +389,10 @@ gene instances but do not enter the signature.
 
 | Type | Active gene IDs | Candidate genes or parameters |
 |---|---|---|
-| Action | `ACT-008`, `ACT-123`, `ACT-131`, `ACT-161`, `ACT-164`, `ACT-183`, `ACT-202`, `ACT-235`, `ACT-341`, `ACT-424`, `ACT-425`, `ACT-426` | item, recipe, weapon, route and timing values |
+| Action | `ACT-008`, `ACT-123`, `ACT-131`, `ACT-161`, `ACT-164`, `ACT-183`, `ACT-202`, `ACT-235`, `ACT-341`, `ACT-419`, `ACT-424`, `ACT-425` | item, recipe, weapon, route and timing values |
 | System Behaviour | `SYS-208`, `SYS-215`, `SYS-300`, `SYS-369`, `SYS-373`, `SYS-755`, `SYS-776`, `SYS-777`, `SYS-778`, `SYS-779`, `SYS-780` | focus, damage, durability, stagger, pressure and save values |
-| Constraint | `CON-282`, `CON-285`, `CON-335`, `CON-357`, `CON-394`, `CON-579`, `CON-594`, `CON-595` | inputs, case cells, health, weapon, attack and reach |
-| Information | `INF-073`, `INF-075`, `INF-115`, `INF-125`, `INF-128`, `INF-132`, `INF-302`, `INF-303`, `INF-304` | icons, labels, grid, reticle, prompt and objective |
+| Constraint | `CON-282`, `CON-285`, `CON-335`, `CON-357`, `CON-394`, `CON-579`, `CON-589`, `CON-594` | inputs, case cells, health, weapon, attack and reach |
+| Information | `INF-073`, `INF-075`, `INF-115`, `INF-125`, `INF-128`, `INF-132`, `INF-295`, `INF-302`, `INF-303` | icons, labels, grid, reticle, prompt and objective |
 | Objective | `OBJ-155` | chapter, final interaction, save, successor and retention |
 | Time | `TIM-003` | continuous unpaused simulation |
 
@@ -400,7 +403,7 @@ gene instances but do not enter the signature.
 - Exact genome matches: none.
 - Tied near matches: `GAME-0247` — Dishonored (2012) (`17 / 54 = 0.314815`).
 - Supported combination subsets: `COMB-0247`.
-- Scan date: 2026-09-05.
+- Scan date: 2026-09-10.
 
 ### Selected-neighbour interpretation
 
@@ -410,38 +413,40 @@ gene instances but do not enter the signature.
 
 ### Preserved research notes
 
-- New genes: `ACT-424`, `ACT-425`, `ACT-426`, `SYS-776`, `SYS-777`,
-  `SYS-778`, `SYS-779`, `SYS-780`, `CON-594`, `CON-595`, `INF-302`,
-  `INF-303`, `INF-304` and `OBJ-155`.
 - Reused genes: `ACT-008`, `ACT-123`, `ACT-131`, `ACT-161`, `ACT-164`,
-  `ACT-183`, `ACT-202`, `ACT-235`, `ACT-341`, `SYS-208`, `SYS-215`,
-  `SYS-300`, `SYS-369`, `SYS-373`, `SYS-755`, `CON-282`, `CON-285`,
-  `CON-335`, `CON-357`, `CON-394`, `CON-579`, `INF-073`, `INF-075`,
-  `INF-115`, `INF-125`, `INF-128`, `INF-132` and `TIM-003`.
+  `ACT-183`, `ACT-202`, `ACT-235`, `ACT-341`, `ACT-419`, `SYS-208`,
+  `SYS-215`, `SYS-300`, `SYS-369`, `SYS-373`, `SYS-755`, `CON-282`,
+  `CON-285`, `CON-335`, `CON-357`, `CON-394`, `CON-579`, `CON-589`,
+  `INF-073`, `INF-075`, `INF-115`, `INF-125`, `INF-128`, `INF-132`,
+  `INF-295` and `TIM-003`.
 - Classification result: `New gene` and `New combination of known and new genes`.
 - Evidence and reasoning: existing movement, attack, reload, healing, crafting,
   authored interaction, stealth, perception, rectangular capacity, checkpoint
   and route boundaries fit without revision. New labels isolate case
-  manipulation, focused aim, durability-backed reactive parry, non-guaranteed
-  stagger follow-up, non-clearance pressure settlement and a generic retained
+  manipulation, focused aim, durability-backed reactive parry, stagger-created
+  close opportunity, non-clearance pressure settlement and a generic retained
   chapter handoff. Character, weapon, item, recipe, location, chapter and
   numeric values remain parameters.
 - Lower-ID scan: reject `ACT-349` and `SYS-625`, because the parry is an
   undirected reactive timing input rather than an aimed directional guard;
   reject `ACT-383`, because no sustained guard state is admitted; reject
-  `ACT-419`, `SYS-770`, `CON-589` and `INF-295`, because the prompted Resident
-  Evil 4 melee is not a guaranteed defeating finisher or recovery-drop
-  exchange; reject `SYS-656`, because the selected chapter admits durability
+  reuse `ACT-419`, `CON-589` and `INF-295` after
+  [`TAXONOMY_CHANGE_059`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_059.md)
+  removed outcome language from their Action, Constraint and Information
+  boundaries; keep `SYS-770` rejected because the prompted Resident Evil 4
+  melee is not a guaranteed defeating recovery-drop exchange; reject
+  `SYS-656`, because the selected chapter admits durability
   loss and break but excludes the later repair loop; reject `SYS-611`, because
   no required boss set or chapter guardian defines this transition; reject
   `SYS-622`, because a closed cooperative safe room is not the terminal.
 
 ## Taxonomy impact
 
-- Registry changes: fourteen new Active genes use portable mechanical language
-  and game-scoped examples; no existing definition, lifecycle or reviewed
-  signature changes.
-- Taxonomy-change record: none.
+- Registry changes: eleven game-introduced Active genes remain; three
+  result-specific duplicates are historical aliases and this signature now
+  reuses the three lower-ID boundaries without changing its forty-two slots.
+- Taxonomy-change record:
+  [`TAXONOMY_CHANGE_059`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_059.md).
 - Candidate terms affected: recorded in `CANDIDATE_TERMS.md`; Resident Evil 4,
   Leon, Chapter 1, Standard, attaché case, Combat Knife, Perfect Parry,
   Village, Farm, Lakeside Settlement, typewriter and Merchant remain parameters
@@ -452,7 +457,8 @@ gene instances but do not enter the signature.
 - No direct-play, local-entitlement, screenshot, video or audio claim.
 - No original-game, Gold/Deluxe, DLC, Merchant, escort, later-chapter, rank,
   challenge, speedrun, platform or mode union.
-- No earlier reviewed signature, definition or lifecycle state changes.
+- No signature other than this direct duplicate owner changes; the five
+  earlier carriers keep their existing IDs and game-scoped descriptions.
 
 ## Combination subset scan
 
@@ -461,7 +467,7 @@ gene instances but do not enter the signature.
   added as the strict inventory-grid, focused-shot, reactive-parry,
   stagger-follow-up, pressure-settlement and retained-chapter core; it omits
   general traversal, health, firearm resolution, checkpoints and map state.
-- Comparison and subset scan date: 2026-09-05.
+- Comparison and subset scan date: 2026-09-10.
 
 ## Delta summary
 
@@ -475,8 +481,8 @@ gene instances but do not enter the signature.
 
 ## New genes
 
-- [Confirmed | Corroborated | High] `ACT-424`–`ACT-426`, `SYS-776`–`SYS-780`,
-  `CON-594`, `CON-595`, `INF-302`–`INF-304` and `OBJ-155` isolate transferable
+- [Confirmed | Corroborated | High] `ACT-424`, `ACT-425`, `SYS-776`–`SYS-780`,
+  `CON-594`, `INF-302`, `INF-303` and `OBJ-155` isolate transferable
   carried-grid, focused-shot, reactive-defence, stagger, pressure-settlement
   and retained-chapter boundaries.
 
@@ -488,8 +494,9 @@ gene instances but do not enter the signature.
 
 ## Taxonomy changes
 
-- [Observation | Corroborated | High] None; no prior signature, definition or
-  lifecycle state changes.
+- [Confirmed | Direct | High] `TAXONOMY_CHANGE_059` merges historical
+  `ACT-426`, `CON-595` and `INF-304` into the portable lower-ID command,
+  legality and disclosure boundaries; settlement remains in System behaviour.
 
 ## New questions
 

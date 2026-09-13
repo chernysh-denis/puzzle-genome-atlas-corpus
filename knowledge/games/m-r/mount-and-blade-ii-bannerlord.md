@@ -3,7 +3,7 @@ game_id: GAME-0194
 slug: mount-and-blade-ii-bannerlord
 game_title: "Mount & Blade II: Bannerlord"
 analysis_status: reviewed
-reviewed: 2026-08-29
+reviewed: 2026-09-10
 combination_ids:
   - COMB-0192
 gene_ids:
@@ -180,10 +180,11 @@ gene instances but do not enter the signature.
   `ACT-232`, commit the headman and Radagos quest responses; `ACT-238`, confirm
   the fixed culture/background capability packet; `ACT-317`, set the selected
   troop group's formation and stance.
-- New genes: `ACT-347`, hire available settlement recruits into the persistent
-  party; `ACT-348`, mount, directly steer and dismount an available battle
-  horse; `ACT-349`, hold a weapon or shield block toward one incoming attack
-  direction.
+- New genes at first review: `ACT-347`, hire available settlement recruits into
+  the persistent party; `ACT-348`, mount, directly steer and dismount an
+  available horse; `ACT-349`, hold a weapon or shield block toward one incoming
+  attack direction. `TAXONOMY_CHANGE_063` later generalises `ACT-348` across
+  Bannerlord and Red Dead Redemption 2 without changing this signature.
 - Parameters: character packet, campaign route, settlement, recruit, denars,
   party capacity, troop group, order, formation, horse, weapon, attack target,
   attack direction, block direction, dialogue response, loot and equipment.
@@ -353,13 +354,13 @@ gene instances but do not enter the signature.
 - Exact genome matches: none.
 - Tied near matches: `GAME-0190` — The Elder Scrolls V: Skyrim Special Edition (`12 / 46 = 0.260870`).
 - Supported combination subsets: `COMB-0192`.
-- Scan date: 2026-08-29.
+- Scan date: 2026-09-10.
 
 ### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0190` — The Elder Scrolls V: Skyrim Special Edition | `ACT-008`, `ACT-161`, `ACT-199`, `SYS-215`, `SYS-342`, `SYS-379`, `CON-269`, `CON-282`, `INF-119`, `INF-125`, `INF-128`, `TIM-003` | both begin with a configured persistent character and carry direct movement, equipment, live combat, skill use and ordered quest gates into retained campaign control; Skyrim fixes one authored escort through perception, magic, lock and save/reload dependencies, while Bannerlord buys a provisioned troop roster, rides an available battle horse, combines aimed directional defence with live formation orders, transfers casualties and loot through repeated campaign contacts and stops only after the Radagos victory plus clan-identity gate | Near, `0.260870` |
+| `GAME-0190` — The Elder Scrolls V: Skyrim Special Edition | `ACT-008`, `ACT-161`, `ACT-199`, `SYS-215`, `SYS-342`, `SYS-379`, `CON-269`, `CON-282`, `INF-119`, `INF-125`, `INF-128`, `TIM-003` | both begin with a configured persistent character and carry direct movement, equipment, live combat, skill use and ordered quest gates into retained campaign control; Skyrim fixes one authored escort through perception, magic, lock and save/reload dependencies, while Bannerlord buys a provisioned troop roster, directly rides an available mount, combines aimed directional defence with live formation orders, transfers casualties and loot through repeated campaign contacts and stops only after the Radagos victory plus clan-identity gate | Near, `0.260870` |
 
 ### Preserved research notes
 
@@ -368,10 +369,10 @@ gene instances but do not enter the signature.
 - Classification result: `New gene`, supported reuse and a new verified
   interaction combination.
 - Evidence and reasoning: campaign travel, direct combat, group pathing,
-  formations, inventory, quest progress, skill use and battle/campaign transfer
-  reuse lower-ID boundaries. Instant settlement recruitment, non-persistent
-  battle-horse control, opposed directional block, party provision/recovery,
-  combined party/command information and the Radagos-clan terminal do not.
+  formations, inventory, quest progress, skill use, available-mount control and
+  battle/campaign transfer reuse lower-ID boundaries. Instant settlement
+  recruitment, opposed directional block, party provision/recovery, combined
+  party/command information and the Radagos-clan terminal do not.
 
 ## Combination status
 
@@ -383,18 +384,23 @@ gene instances but do not enter the signature.
 
 ## Taxonomy impact
 
-- Registry changes: nine new Active genes, `COMB-0192` and five existing family
-  memberships.
-- Taxonomy-change record: none; no prior lifecycle or reviewed-game signature
-  changes. Reused definitions retain their prior boundaries.
+- Registry changes: eight originally isolated Active genes, the generalised
+  `ACT-348`, `COMB-0192` and five existing family memberships remain.
+  `TAXONOMY_CHANGE_063` reclassifies `ACT-348` as reuse after persistence,
+  saddle cargo, battle context and weapon access fail as Action discriminators.
+- Taxonomy-change record:
+  [`TAXONOMY_CHANGE_063`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_063.md).
 - Candidate terms affected: recruit, grain, charge, hideout, Radagos and clan
   banner are game-specific parameters inside the isolated genes.
 
 ## Negative results
 
-- `ACT-271`, `SYS-471`–`SYS-473` and `INF-181` are not reused: Bannerlord's
-  scoped battle horse is an available mount rather than Red Dead Redemption 2's
-  called persistent individual with saddle cargo, bond and core meters.
+- `ACT-271` is not reused because Bannerlord exposes no separate remote call to
+  a persistent owned mount. `ACT-348` is reused across the two games because
+  reachable mounting, direct riding and dismounting remain the same Action;
+  Red Dead Redemption 2's saddle cargo, bond and core meters stay in
+  `SYS-471`–`SYS-473`, `CON-405`–`CON-407` and `INF-181` rather than splitting
+  that command.
 - `SYS-614` and `CON-509` are not reused: Bannerlord's party traverses a
   continuous pausable campaign map rather than spending a faction-turn movement
   allowance.

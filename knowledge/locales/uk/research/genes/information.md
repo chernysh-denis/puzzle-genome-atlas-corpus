@@ -162,6 +162,8 @@
 - [`GAME-0001` — "2048"](../games/0-9/2048.md)
 - [`GAME-0124` — Against the Storm](../games/a-f/against-the-storm.md)
 - [`GAME-0109` — Candy Crush Saga](../games/a-f/candy-crush-saga.md)
+- [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
+- [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
 - [`GAME-0130` — Frostpunk](../games/a-f/frostpunk.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
@@ -201,6 +203,7 @@
 - [`GAME-0124` — Against the Storm](../games/a-f/against-the-storm.md)
 - [`GAME-0017` — Balatro](../games/a-f/balatro.md)
 - [`GAME-0066` — Black Box](../games/a-f/black-box.md)
+- [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
 - [`GAME-0047` — Fights in Tight Spaces](../games/a-f/fights-in-tight-spaces.md)
 - [`GAME-0049` — Hexcells Infinite](../games/g-l/hexcells-infinite.md)
@@ -1050,15 +1053,15 @@ Echochrome показує, коли віддалені кінці доріжки
 ## INF-043
 
 - Назва: Поточні досяжні цілі позначені візуально
-- Переглянуто: `2026-08-23`
+- Переглянуто: `2026-09-10`
 
 ### Операційне визначення
 
-Поточний усталений навігаційний стан візуально відрізняє вузли або поверхні, здатні прийняти команду цілі, а позначення досяжності змінюється разом зі зв’язністю архітектури.
+Поточний навігаційний стан візуально відрізняє вузли або поверхні, здатні прийняти команду руху чи зачеплення, а позначення оновлюється щоразу, коли змінюється локальна досяжність.
 
 ### Включає
 
-Monument Valley підсвічує вузли, яких Іда може досягти в поточній зафіксованій конфігурації, і змінює ці підсвічування після руху геометрії.
+Підсвічування досяжних вузлів після руху геометрії в Monument Valley; зелене позначення досяжних опор гака в Sekiro.
 
 ### Виключає
 
@@ -1067,6 +1070,7 @@ Monument Valley підсвічує вузли, яких Іда може дося
 ### Ігри-носії
 
 - [`GAME-0093` — Monument Valley](../games/m-r/monument-valley.md)
+- [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 
 ## INF-044
 
@@ -1360,6 +1364,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 
 ### Ігри-носії
 
+- [`GAME-0284` — "Cities: Skylines II"](../games/a-f/cities-skylines-ii.md)
 - [`GAME-0121` — "Cities: Skylines"](../games/a-f/cities-skylines.md)
 - [`GAME-0118` — SimCity 4 Deluxe Edition](../games/s-z/simcity-4-deluxe-edition.md)
 
@@ -1603,6 +1608,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0132` — Anno 1800](../games/a-f/anno-1800.md)
 - [`GAME-0196` — Farming Simulator 25](../games/a-f/farming-simulator-25.md)
 - [`GAME-0130` — Frostpunk](../games/a-f/frostpunk.md)
+- [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 - [`GAME-0158` — The Sims 4](../games/s-z/the-sims-4.md)
 
 ## INF-068
@@ -1758,6 +1764,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
+- [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
@@ -1770,6 +1777,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
+- [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
@@ -1783,8 +1791,10 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
@@ -1793,6 +1803,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
@@ -1844,6 +1855,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0233` — 7 Days to Die](../games/0-9/7-days-to-die.md)
 - [`GAME-0154` — Apex Legends](../games/a-f/apex-legends.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
+- [`GAME-0278` — DAVE THE DIVER](../games/a-f/dave-the-diver.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
@@ -1855,10 +1867,12 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0203` — "PEAK"](../games/m-r/peak.md)
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
+- [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
+- [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 
@@ -1987,6 +2001,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 ### Ігри-носії
 
 - [`GAME-0131` — Dyson Sphere Program](../games/a-f/dyson-sphere-program.md)
+- [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
 
 ## INF-082
 
@@ -2679,6 +2694,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0137` — Counter-Strike 2](../games/a-f/counter-strike-2.md)
 - [`GAME-0218` — Counter-Strike](../games/a-f/counter-strike.md)
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
+- [`GAME-0277` — Cuphead](../games/a-f/cuphead.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
 - [`GAME-0161` — Dead by Daylight](../games/a-f/dead-by-daylight.md)
@@ -2687,8 +2703,10 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
+- [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
+- [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
@@ -2698,6 +2716,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
+- [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0224` — Once Human](../games/m-r/once-human.md)
@@ -2710,8 +2729,10 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
@@ -2774,25 +2795,27 @@ Outer Wilds і далі показує позначки кодів запуск�
 
 ## INF-117
 
-- Назва: Власні гроші, ціни, спорядження й доступність покупки видимі
-- Переглянуто: `2026-08-24`
+- Назва: Власні гроші й пропозиції угод видимі
+- Переглянуто: `2026-09-08`
 
 ### Операційне визначення
 
-Перш ніж купувати або заощаджувати, гравець може переглянути свої гроші, запропоновані ціни, уже наявне спорядження та причини недоступності покупки.
+Перед купівлею, продажем або розподілом запасу в меню обслуговування гравець може переглянути власні гроші, запропоновані ціни, дотичний наявний запас і доступність або вартість угоди.
 
 ### Включає
 
-Показ грошей і меню закупівлі в змагальному режимі Counter-Strike 2; кошти персонажів і пропозиції крамниць у сюжетному режимі Grand Theft Auto V; баланс євродоларів, ціни продавців та умови покупки в Cyberpunk 2077.
+Показ грошей і меню закупівлі в змагальному режимі Counter-Strike 2; кошти персонажів і пропозиції крамниць у сюжетному режимі Grand Theft Auto V; баланс євродоларів, ціни продавців та умови покупки в Cyberpunk 2077; запропоновані ціни улову в DREDGE; видимі ціни страв, забезпечені порції та збережений баланс перед дослідженим першим обслуговуванням у DAVE THE DIVER.
 
 ### Виключає
 
-Точні приховані суми грошей у суперників; ціни на косметичному ринку.
+Точні приховані суми грошей у суперників; ціни на косметичному ринку; прихований майбутній розподіл попиту; підсумок, який показує виручку лише після завершення всіх рішень щодо угод.
 
 ### Ігри-носії
 
 - [`GAME-0137` — Counter-Strike 2](../games/a-f/counter-strike-2.md)
 - [`GAME-0218` — Counter-Strike](../games/a-f/counter-strike.md)
+- [`GAME-0278` — DAVE THE DIVER](../games/a-f/dave-the-diver.md)
+- [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0269` — DREDGE](../games/a-f/dredge.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
@@ -2821,7 +2844,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 ## INF-119
 
 - Назва: Особисті ресурси й розвиток персонажа видимі
-- Переглянуто: `2026-08-24`
+- Переглянуто: `2026-09-07`
 
 ### Операційне визначення
 
@@ -2829,7 +2852,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 
 ### Включає
 
-Інтерфейс героя та панелі здібностей і талантів Dota 2; меню персонажів і бойові ресурси Clair Obscur: Expedition 33; здоров’я, броню, особливу шкалу й панелі характеристик Story Mode Grand Theft Auto V; здоров’я, RAM, рівень, характеристики, здібності, навички й час відновлення в Cyberpunk 2077; здоров’я героя, ультимативну шкалу, готовність здібностей, стани й вибраний Team-Up у Marvel Rivals; здоров’я, Silk, споряджений Crest і стан Tools у Hollow Knight: Silksong; здоров’я, витривалість, стани, активну зброю й предмети мисливця в Monster Hunter Wilds; здоров’я, комірки заклять, ресурси дій, досвід і характеристики в Baldur’s Gate 3; здоров’я, клас, боєприпаси, гранати, заряди пристроїв і час відновлення в Battlefield 6; здоров’я, ману, захист, броню, аксесуари й активні ефекти в Terraria.
+Інтерфейс героя та панелі здібностей і талантів Dota 2; меню персонажів і бойові ресурси Clair Obscur: Expedition 33; здоров’я, броню, особливу шкалу й панелі характеристик Story Mode Grand Theft Auto V; здоров’я, RAM, рівень, характеристики, здібності, навички й час відновлення в Cyberpunk 2077; здоров’я героя, ультимативну шкалу, готовність здібностей, стани й вибраний Team-Up у Marvel Rivals; здоров’я, Silk, споряджений Crest і стан Tools у Hollow Knight: Silksong; маски здоров’я й запас SOUL у Hollow Knight; здоров’я, витривалість, стани, активну зброю й предмети мисливця в Monster Hunter Wilds; здоров’я, комірки заклять, ресурси дій, досвід і характеристики в Baldur’s Gate 3; здоров’я, клас, боєприпаси, гранати, заряди пристроїв і час відновлення в Battlefield 6; здоров’я, ману, захист, броню, аксесуари й активні ефекти в Terraria.
 
 ### Виключає
 
@@ -2852,9 +2875,12 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
+- [`GAME-0277` — Cuphead](../games/a-f/cuphead.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
+- [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
 - [`GAME-0161` — Dead by Daylight](../games/a-f/dead-by-daylight.md)
+- [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
@@ -2862,10 +2888,12 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0264` — Disco Elysium - The Final Cut](../games/a-f/disco-elysium-the-final-cut.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
+- [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
+- [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
@@ -2875,11 +2903,13 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
+- [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
+- [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
@@ -2893,6 +2923,8 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
+- [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
@@ -3030,9 +3062,11 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
+- [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
+- [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
@@ -3055,6 +3089,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
@@ -3140,6 +3175,7 @@ Palbox, Monitoring Stand, сховища й екрани стану бази в 
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
+- [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
@@ -3157,12 +3193,14 @@ Palbox, Monitoring Stand, сховища й екрани стану бази в 
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
+- [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
@@ -3215,7 +3253,7 @@ Palbox, Monitoring Stand, сховища й екрани стану бази в 
 ## INF-131
 
 - Назва: Показувати законність розміщення та стан роботи споруди
-- Переглянуто: `2026-09-06`
+- Переглянуто: `2026-09-07`
 
 ### Операційне визначення
 
@@ -3223,7 +3261,7 @@ Palbox, Monitoring Stand, сховища й екрани стану бази в 
 
 ### Включає
 
-Колір попереднього вигляду, BUILDING PRIVILEGE, BUILDING BLOCKED, стійкість і вартість Tool Cupboard за 24 години в Rust; колір опори, укриття та роботу накритого Workbench у Valheim; позначення законної й незаконної позиції захисника до його встановлення в Bloons TD 6.
+Колір попереднього вигляду, BUILDING PRIVILEGE, BUILDING BLOCKED, стійкість і вартість Tool Cupboard за 24 години в Rust; колір опори, укриття та роботу накритого Workbench у Valheim; позначення законної й незаконної позиції захисника до його встановлення в Bloons TD 6; відгук про законність розгортання мобільної будівельної машини й розміщення завершеної споруди в Command & Conquer Remastered Collection.
 
 ### Виключає
 
@@ -3232,6 +3270,7 @@ Palbox, Monitoring Stand, сховища й екрани стану бази в 
 ### Ігри-носії
 
 - [`GAME-0265` — Bloons TD 6](../games/a-f/bloons-td-6.md)
+- [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 
@@ -3479,10 +3518,13 @@ Research Table, дерева технологій, Workbench і чергу ви�
 
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
+- [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
+- [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
+- [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 
 ## INF-143
@@ -4286,6 +4328,7 @@ Rank Z, 1 000 Ticket Points, Challenger's Ticket і Zach у Pokémon Legends: Z-
 ### Ігри-носії
 
 - [`GAME-0173` — Blue Prince](../games/a-f/blue-prince.md)
+- [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 
 ## INF-181
@@ -4792,6 +4835,7 @@ Echo Detector у двох досліджених пошуках.
 
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
 - [`GAME-0195` — BeamNG.drive](../games/a-f/beamng-drive.md)
+- [`GAME-0276` — Forza Horizon 5](../games/a-f/forza-horizon-5.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
@@ -4823,6 +4867,7 @@ Echo Detector у двох досліджених пошуках.
 
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
 - [`GAME-0195` — BeamNG.drive](../games/a-f/beamng-drive.md)
+- [`GAME-0276` — Forza Horizon 5](../games/a-f/forza-horizon-5.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
@@ -4859,23 +4904,25 @@ Echo Detector у двох досліджених пошуках.
 
 ## INF-207
 
-- Назва: Показувати поступ у Horizon Festival і поріг наступного браслета
-- Переглянуто: `2026-08-27`
+- Назва: Показувати збережений поступ і наступний етап за його порогом
+- Переглянуто: `2026-09-07`
 
 ### Операційне визначення
 
-Показувати збережені Festival Points, потрібний поріг і заблокований або доступний стан відповідної події за браслет.
+Ще до наступного рішення інтерфейс показує одну збережену величину поступу, потрібний поріг і те, чи відповідний заданий автором наступний етап досі замкнений або вже доступний.
 
 ### Включає
 
-Лічильник Horizon Qualifiers і стан першого Horizon Invitational.
+Лічильник Horizon Qualifiers і стан першого Horizon Invitational у Forza Horizon 6; лічильник Resistance Points і стан наступних місцевостей у дослідженому маршруті початкового острова Far Cry 5.
 
 ### Виключає
 
-Приховані пізні винагороди, поточне місце в гонці або кредити.
+Смугу особистого досвіду; перелік завдань без спільної величини; рахунок, показаний лише після підсумку; прихований поріг; випадкові винагороди, стан відкриття яких не показано.
 
 ### Ігри-носії
 
+- [`GAME-0284` — "Cities: Skylines II"](../games/a-f/cities-skylines-ii.md)
+- [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 
 ## INF-208
@@ -4898,6 +4945,7 @@ Echo Detector у двох досліджених пошуках.
 ### Ігри-носії
 
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
+- [`GAME-0276` — Forza Horizon 5](../games/a-f/forza-horizon-5.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
@@ -4926,27 +4974,29 @@ Ryu і Luke на арені дослідженого Versus.
 
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
+- [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 
 ## INF-210
 
-- Назва: Показувати парні шкали, таймер і рахунок раундів
-- Переглянуто: `2026-08-31`
+- Назва: Показувати парні життєві сили, стан спільних ресурсів, таймер і рахунок раундів
+- Переглянуто: `2026-09-09`
 
 ### Операційне визначення
 
-Одночасно показувати життєву силу, Drive і Super Art обох учасників разом зі спільним таймером і накопиченими позначками раундів.
+Один бойовий інтерфейс одночасно показує життєву силу кожного учасника разом з оголошеною відновлюваною або тимчасовою частиною, стан кожного спільного бойового ресурсу, спільний таймер раунду та накопичені позначки раундів.
 
 ### Включає
 
-Звичайний HUD Fighting Ground.
+Звичайний HUD Fighting Ground у Street Fighter 6 із життєвою силою, Drive і Super Art; бойовий екран TEKKEN 8 зі шкалами здоров'я та їхніми відновлюваними частинами, шкалами й таймерами Heat, позначенням Rage, обмеженням часу та позначками виграних раундів.
 
 ### Виключає
 
-Frame data, ranked points, командну ціль або розвиток після матчу.
+Приховані frame data, ranked points, командну ціль або розвиток і профіль лобі після матчу.
 
 ### Ігри-носії
 
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
+- [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 
 ## INF-211
 
@@ -5223,16 +5273,16 @@ Car/ball camera, boost meter, nameplates, ball indicator і flip-reset feedback 
 
 ## INF-224
 
-- Назва: Показувати економіку, населення й черги у командному огляді RTS
-- Переглянуто: `2026-08-31`
+- Назва: Показувати економіку, вибір і виробництво в стратегічному огляді
+- Переглянуто: `2026-09-10`
 
 ### Операційне визначення
 
-Живий інтерфейс до наступного наказу показує чотири запаси ресурсів, зайняте й доступне населення, поточну епоху, вибрані об’єкти, їхні накази, міцність і активні черги виробництва чи дослідження.
+Живий інтерфейс до наступного наказу показує потрібні запаси власника, місткість або рівень технологій там, де вони є, вибрані об’єкти, їхні накази, міцність і поступ активного виробництва чи дослідження.
 
 ### Включає
 
-Панель команд і HUD Age of Empires II: Definitive Edition.
+Панель команд і HUD Age of Empires II: Definitive Edition; кредити, живлення, вибір, міцність і стан виробництва у Command & Conquer Remastered Collection; запаси держави, вибрані кораблі, накази, дослідження й виробництво у Stellaris.
 
 ### Виключає
 
@@ -5241,7 +5291,9 @@ Car/ball camera, boost meter, nameplates, ball indicator і flip-reset feedback 
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
+- [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
 
 ## INF-225
 
@@ -5263,6 +5315,7 @@ Normal reveal та fog of war в Age of Empires II: Definitive Edition.
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 
 ## INF-226
 
@@ -6177,6 +6230,7 @@ Burst Nitrous, рівень уваги, погоня, пошук і стан г�
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
+- [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0229` — "No Man’s Sky"](../games/m-r/no-mans-sky.md)
 - [`GAME-0224` — Once Human](../games/m-r/once-human.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
@@ -6715,26 +6769,29 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 
 ## INF-295
 
-- Назва: Показувати тимчасову можливість контекстного добивання ворога
-- Переглянуто: `2026-09-04`
+- Назва: Показувати тимчасову можливість контекстної ближньої дії
+- Переглянуто: `2026-09-10`
 
 ### Операційне визначення
 
-Місцевий візуальний зворотний зв’язок відрізняє тимчасовий стан живого ворога, придатний для добивання, і досяжну контекстну можливість від звичайної шкоди, відновлення та остаточної поразки.
+Місцевий візуальний зворотний зв’язок відрізняє тимчасове приголомшення живого ворога й чинну досяжну контекстну ближню дію від звичайної шкоди, відновлення та остаточної поразки, не обіцяючи перемоги від цієї дії.
 
 ### Включає
 
-Видиму можливість приголомшення та Glory Kill у DOOM (2016).
+Видимі ближні можливості у DOOM (2016), DOOM Eternal, Batman: Arkham Asylum, God of War, Resident Evil 4 (2023 remake) і Sekiro.
 
 ### Виключає
 
-Лише постійну шкалу здоров’я ворога; індикатор необізнаної цілі; знання із зовнішнього проходження; добивання, допустимість якого ніколи не показано.
+Лише постійну шкалу здоров’я ворога; індикатор необізнаної цілі; знання із зовнішнього проходження; ближню дію, чинну допустимість якої не показано; обіцяний результат поразки, якого сигнал не подає.
 
 ### Ігри-носії
 
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
+- [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
+- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+- [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 
 ## INF-296
 
@@ -6803,23 +6860,25 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 
 ## INF-299
 
-- Назва: Показувати у звіті місії категорії поведінки й загальну оцінку
-- Переглянуто: `2026-09-04`
+- Назва: Показувати в підсумку категорії та загальну оцінку
+- Переглянуто: `2026-09-08`
 
 ### Операційне визначення
 
-Після завершення обмеженої місії підсумковий звіт показує записані категорії поведінки та отриману загальну оцінку, достатні для перевірки класифікації спроби.
+Після завершення обмеженої місії, рівня чи сутички підсумковий звіт показує записані категорії поведінки або виконання та отриману загальну оцінку, достатні для перевірки того, як класифіковано спробу.
 
 ### Включає
 
-Категорії вбивств, виявлень, знайдених тіл або пов’язані Stats і показаний Chaos для визначеної місії Dishonored.
+Категорії вбивств, виявлень, знайдених тіл і показаний Chaos у визначеній місії Dishonored; час, залишок здоров’я, кількість парирувань, витрати Super Meter, рівень складності та загальну оцінку пройденого рівня Cuphead; категорії продажів першого обслуговування та його загальну оцінку виконання в DAVE THE DIVER.
 
 ### Виключає
 
-Поточне здоров’я чи набої; приховані пізніші сюжетні наслідки; зовнішній перелік досягнень; екран рахунку без категорій поведінки.
+Поточне здоров’я чи набої; приховані пізніші сюжетні наслідки; зовнішній перелік досягнень; екран результату без окремих категорій.
 
 ### Ігри-носії
 
+- [`GAME-0277` — Cuphead](../games/a-f/cuphead.md)
+- [`GAME-0278` — DAVE THE DIVER](../games/a-f/dave-the-diver.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 
@@ -6891,15 +6950,15 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 ## INF-303
 
 - Назва: Показувати чинний стан зосередження прицілу зброї
-- Переглянуто: `2026-09-05`
+- Переглянуто: `2026-09-08`
 
 ### Операційне визначення
 
-Поки зброя наведена, живий приціл візуально відрізняє звичайний і зосереджений стани до пострілу, наслідок якого для приголомшення або критичного результату залежить від цього стану.
+Поки зброя наведена, живий приціл візуально відрізняє звичайний і зосереджений стани до пострілу, чиї оголошені точність, шкода, приголомшення або критичний наслідок залежать від цього стану.
 
 ### Включає
 
-Звичайний і зосереджений приціли в межах визначеної першої глави Resident Evil 4.
+Звичайний і зосереджений приціли в межах визначеної першої глави Resident Evil 4; приціл пістолета, що стискається до мінімуму, поки утримується прицілювання, у визначеному відкритті сценарію Leon у Resident Evil 2 (2019 remake).
 
 ### Виключає
 
@@ -6907,27 +6966,7 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 
 ### Ігри-носії
 
-- [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
-
-## INF-304
-
-- Назва: Показувати коротку нагоду для контекстної ближньої атаки
-- Переглянуто: `2026-09-05`
-
-### Операційне визначення
-
-Місцевий візуальний сигнал відрізняє тимчасове приголомшення живого ворога й чинну досяжну контекстну ближню атаку від звичайної шкоди, відновлення та остаточної поразки.
-
-### Включає
-
-Підказку ближньої атаки по приголомшеному ворогу в межах визначеної першої глави Resident Evil 4.
-
-### Виключає
-
-Підказку непомітної атаки по необізнаній цілі; гарантований стан добивання; лише здоров’я ворога; знання із зовнішнього проходження; підказку після остаточної поразки цілі.
-
-### Ігри-носії
-
+- [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 
 ## INF-305
@@ -6970,6 +7009,7 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 
 ### Ігри-носії
 
+- [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 
 ## INF-307
@@ -7185,7 +7225,7 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 ## INF-317
 
 - Назва: Авторські написи на місці показують поточні можливості керування
-- Переглянуто: `2026-09-05`
+- Переглянуто: `2026-09-07`
 
 ### Операційне визначення
 
@@ -7193,7 +7233,7 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 
 ### Включає
 
-Незмінні написи розробника, які читають із землі в дослідженому маршруті Cemetery of Ash гри DARK SOULS III.
+Незмінні написи розробника, які читають із землі в дослідженому маршруті Cemetery of Ash гри DARK SOULS III; розміщені на початковому маршруті Hollow Knight написи про керування й Focus.
 
 ### Виключає
 
@@ -7202,6 +7242,7 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 ### Ігри-носії
 
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
+- [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
 
 ## INF-318
 
@@ -7244,6 +7285,7 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 ### Ігри-носії
 
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
+- [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 
 ## INF-320
 
@@ -7412,3 +7454,150 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 ### Ігри-носії
 
 - [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
+
+## INF-329
+
+- Назва: Показувати загальне завершення й поступ кожної цілі
+- Переглянуто: `2026-09-08`
+
+### Операційне визначення
+
+Інтерфейс показує загальну міру завершення обмеженого завдання й прийнятий стан завершення його названих складових цілей, тож гравець може визначити, яка ціль іще не дає зарахувати завдання.
+
+### Включає
+
+Загальний відсоток завдання PowerWash Simulator, перелік частин авто в Details і відсоток завершення кожної частини під час першого завдання кар’єри.
+
+### Виключає
+
+Очки лише після зарахування; перелік без виміряного стану цілей; мінімапу дослідженого простору; оцінку якості; викликане накладання, що просторово показує залишковий стан у світі.
+
+### Ігри-носії
+
+- [`GAME-0279` — PowerWash Simulator](../games/m-r/powerwash-simulator.md)
+
+## INF-330
+
+- Назва: Живе обслуговування показує запити й тиск очікування
+- Переглянуто: `2026-09-08`
+
+### Операційне визначення
+
+Під час живої сесії обслуговування інтерфейс називає кожен поточний запит і показує зміну його стану очікування разом із достатнім зворотним зв’язком про приготування чи готовність, щоб вирішити, яку сумісну доставку виконати наступною.
+
+### Включає
+
+Замовлення страв або напоїв над відвідувачами, видимий поступ нетерпіння й поточний стан готової страви під час дослідженого першого обслуговування в DAVE THE DIVER.
+
+### Виключає
+
+Одне статичне зображення запитаного предмета без паралельної черги чи часового тиску; прихований майбутній розклад попиту; звіт про продажі після сесії; загальний годинник зміни, який не розрізняє окремих запитів.
+
+### Ігри-носії
+
+- [`GAME-0278` — DAVE THE DIVER](../games/a-f/dave-the-diver.md)
+
+## INF-331
+
+- Назва: На запит показувати місце залишкового стану цілі
+- Переглянуто: `2026-09-08`
+
+### Операційне визначення
+
+На запит інтерфейс позначає залишковий придатний стан в активному світі або просторово виділяє вибрану незавершену складову цілком, даючи змогу обстежити її геометрію без зміни самої цілі.
+
+### Включає
+
+Спалах Dirt Highlight для решти бруду в PowerWash Simulator і вибір незавершеної частини в Details, після якого ця частина спалахує цілком.
+
+### Виключає
+
+Загальні чи поцільові відсотки без просторового місця; постійний покажчик цілі; виділення допустимої бойової цілі; підказку, що змінює або розв’язує стан цілі.
+
+### Ігри-носії
+
+- [`GAME-0279` — PowerWash Simulator](../games/m-r/powerwash-simulator.md)
+
+## INF-332
+
+- Назва: Спільна шкала світла експедиції та її пороговий діапазон видимі
+- Переглянуто: `2026-09-08`
+
+### Операційне визначення
+
+Упродовж усієї експедиції постійний елемент інтерфейсу показує спільну шкалу світла загону як її поточне значення та названий пороговий діапазон, до якого це значення належить, разом зі значками оголошених ефектів цього діапазону, тож гравець може прочитати поточний режим небезпеки й винагороди перед рухом, боєм, розподілом здобичі та будь-якою ручною зміною шкали.
+
+### Включає
+
+Шкалу смолоскипа в Darkest Dungeon угорі екрана з діапазоном від Radiant Light до Black as Pitch і значками ефектів, яку читають перед кожним кроком коридором і перед гасінням, протягом визначеного навчального маршруту Old Road.
+
+### Виключає
+
+Особистий показник світла чи видимості (INF-316); рівень ескалації проходження, який приховує своє значення (INF-327); лічильники щоденних витратних ресурсів без діапазону модифікаторів (INF-212); власні ресурси керованого героя (INF-119); сам спад шкали та ефекти її діапазонів (SYS-829); команду гасіння (ACT-449).
+
+### Ігри-носії
+
+- [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
+
+## INF-333
+
+- Назва: Біля кожного юніта видно, чи він ще має дію в раунді, але не порядок ходів
+- Переглянуто: `2026-09-08`
+
+### Операційне визначення
+
+Під час бойового раунду біля кожного союзного й ворожого юніта стоїть позначка, яка показує, що він ще має дію в поточному раунді, і зникає, щойно юніт діє, тоді як порядок, у якому діятимуть решта юнітів, не розкривають.
+
+### Включає
+
+Золоті позначки біля смуги здоров'я кожного героя й розбійника в Darkest Dungeon, підказка до яких повідомляє про дії, що лишилися, протягом визначеного навчального маршруту Old Road.
+
+### Виключає
+
+Показаний порядок наступних учасників бою (INF-141); наперед показаний намір ворога (INF-061); лише власний запас дій обраного юніта (INF-220, INF-190); сам прихований кидок ініціативи (INF-002).
+
+### Ігри-носії
+
+- [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
+
+## INF-334
+
+- Назва: Показувати стан стійкості залученого ворога, яку можна зламати
+- Переглянуто: `2026-09-10`
+
+### Операційне визначення
+
+Під час живої сутички інтерфейс окремо від здоров’я показує поточний стан стійкості вибраного чи залученого ворога, зокрема її наближення до порога зламу або відновлення від нього, щоб гравець міг вирішити, чи підтримувати тиск, перш ніж вона відновиться.
+
+### Включає
+
+Смугу Posture ворога в обмеженому початковому маршруті Sekiro.
+
+### Виключає
+
+Кількість критичних страт, що лишилися (INF-335); смугу здоров’я без окремої стійкості (INF-318); коротку нагоду для критичної страти (INF-295); видиме пошкодження окремих частин тіла (INF-313); саме перетворення зламу на нагоду (SYS-409); післябойовий звіт.
+
+### Ігри-носії
+
+- [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
+
+## INF-335
+
+- Назва: Показувати кількість критичних страт, що лишилися до поразки захищеного ворога
+- Переглянуто: `2026-09-10`
+
+### Операційне визначення
+
+Під час живої сутички інтерфейс показує окрему кількість критичних страт, які ще потрібні для остаточної поразки одного захищеного ворога; кожна прийнята страта прибирає одну показану вимогу, тож гравець відрізняє проміжну страту від завершальної.
+
+### Включає
+
+Маркери Deathblow над смугою здоров’я сильного ворога в обмеженому початковому маршруті Sekiro, зокрема два маркери, які послідовно прибирають для перемоги над обов’язковим охоронцем.
+
+### Виключає
+
+Зламну стійкість ворога (INF-334); коротку нагоду для критичної страти (INF-295); здобуті раунди (INF-210); решту життів учасника (INF-254); кількість живих учасників (INF-129); саме здоров’я охоронця (INF-318); поступ складників завдання (INF-329); приховані фази сутички; саме правило послідовних страт (SYS-847).
+
+### Ігри-носії
+
+- [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)

@@ -80,6 +80,8 @@
   [Net decomposition](../games/m-r/net.md), and
   [Netslide decomposition](../games/m-r/netslide.md), and
   [The Talos Principle decomposition](../games/s-z/the-talos-principle.md).
+- Additional support: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md),
+  for the two opposed ordered rank lines of four addressable positions that heroes, brigands and corpses occupy.
 - Novelty: not assessed.
 
 ## CON-002 — Declared pairwise merge compatibility
@@ -1363,16 +1365,20 @@
 - Claim status: `Observation`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: a declared real-time allowance decreases while the attempt runs,
-  and reaching zero terminates the attempt unsuccessfully unless its completion
-  objective has already been satisfied.
-- Includes: the remaining-time limit of an original Lemmings level.
+- Definition: a declared authoritative time allowance decreases while the
+  attempt advances, and reaching zero terminates the attempt unsuccessfully
+  unless its completion objective has already been satisfied.
+- Includes: the remaining real-time limit of an original Lemmings level; The
+  Long Dark's seven in-game-day `Hopeless Rescue` allowance, including time
+  advanced by sleep.
 - Excludes: an elapsed timer used only for performance scoring; a finite number
   of player actions; a deadline that merely changes rewards while play continues.
-- Parameters: initial duration, pause rule, completion-check order and any time
-  additions.
-- Evidence: [Lemmings decomposition](../games/g-l/lemmings.md).
-- Novelty: not assessed.
+- Parameters: initial duration, authoritative clock, time-rate changes, pause
+  rule, completion-check order and any time additions.
+- Evidence: [Lemmings decomposition](../games/g-l/lemmings.md) and
+  [The Long Dark decomposition](../games/s-z/the-long-dark.md).
+- Novelty: not assessed. The authoritative-clock generalisation was accepted in
+  [`TAXONOMY_CHANGE_052`](../../research/taxonomy-changes/TAXONOMY_CHANGE_052.md).
 
 ## CON-069 — Finite construction-or-extraction population
 
@@ -3351,6 +3357,11 @@
 - Parameters: frontage, road access, power, water, density, parcel size and abandonment.
 - Evidence: [SimCity 4 Deluxe Edition decomposition](../games/s-z/simcity-4-deluxe-edition.md)
   and [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
+- Additional support: [Cities: Skylines II decomposition](../games/a-f/cities-skylines-ii.md),
+  for development that requires road frontage on the drawn road graph, which
+  is the frontage clause the located sources establish; utility shortage is a
+  downstream penalty rather than an asserted universal development
+  prerequisite.
 - Novelty: not assessed.
 
 ## CON-171 — Municipal construction and operation require solvency
@@ -3369,6 +3380,10 @@
 - Parameters: treasury, build cost, upkeep, borrowing, deficit threshold and funding floor.
 - Evidence: [SimCity 4 Deluxe Edition decomposition](../games/s-z/simcity-4-deluxe-edition.md)
   and [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
+- Additional support: [Cities: Skylines II decomposition](../games/a-f/cities-skylines-ii.md),
+  for road and facility construction paid once from the treasury and for the
+  monthly upkeep each retained facility then charges against a treasury that no
+  government subsidy replenishes.
 - Novelty: not assessed.
 
 ## CON-172 — Entity operation requires compatible recipe and flow state
@@ -3444,6 +3459,8 @@
 - Parameters: maximum health, terminal threshold, healing sources, revival
   exceptions and act-transition treatment.
 - Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md).
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for health that stays lost between rooms until the Passage fountain and ends the run at zero.
 - Novelty: not assessed.
 
 ## CON-176 — Successor node must follow a visible route edge
@@ -4015,6 +4032,10 @@
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Additional support: [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md),
   for carried stacks and finite inventory slots.
+- Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  for pickups that require a free inventory slot or a compatible typed ammunition stack.
+- Additional support: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md),
+  for the sixteen expedition inventory slots and typed stack limits that bound loot pickup.
 - Novelty: not assessed.
 
 ## CON-211 — City facility operation requires a street connection to the generator
@@ -5070,6 +5091,8 @@
 - Parameters: vision source, occlusion, elevation, invisibility and detection.
 - Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md) and
   [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
+- Additional support: [Command & Conquer Remastered Collection decomposition](../games/a-f/command-and-conquer-remastered-collection.md),
+  for ordinary hostile targeting gated by current allied sight.
 - Novelty: not assessed.
 
 ## CON-274 — Base buildings obey ordered protection and backdoor rules
@@ -5192,15 +5215,22 @@
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: the avatar's current health and activity remain viable only while
-  hunger, temperature exposure, stamina, armour and equipment durability stay
-  within recoverable limits for the current region and action.
-- Includes: Palworld food, heat/cold protection, stamina, armour and equipment durability.
+  the relevant hunger, hydration, temperature exposure, fatigue, stamina,
+  carried load, protection and equipment state stay within recoverable limits
+  for the current region and action.
+- Includes: Palworld food, heat/cold protection, stamina, armour and equipment
+  durability; The Long Dark's calories, hydration, Warmth, Fatigue, Stamina,
+  carried load, clothing protection and Condition during its timed route.
 - Excludes: companion SAN; custom world-setting multipliers; one boss timer.
-- Parameters: hunger, temperature, protection, stamina, health, armour,
-  durability, food and recovery.
+- Parameters: hunger, hydration, temperature, fatigue, protection, stamina,
+  carried load, health, armour, durability, food, drink, rest and recovery.
 - Evidence: [Palworld decomposition](../games/m-r/palworld.md) and
   [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
-- Novelty: not assessed.
+- Additional support: [The Long Dark decomposition](../games/s-z/the-long-dark.md),
+  where the same survival state governs long traversal and fixed-rope legality.
+- Novelty: not assessed. The hydration, fatigue and load generalisation was
+  accepted in
+  [`TAXONOMY_CHANGE_053`](../../research/taxonomy-changes/TAXONOMY_CHANGE_053.md).
 
 ## CON-282 — Main-story encounters require ordered authored gates
 
@@ -5223,6 +5253,8 @@
   [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md), and
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
   [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  for the ordered store, corridor, key, exit, crash, street and station chain.
 - Novelty: not assessed.
 
 ## CON-283 — Aircraft route bounds reachable insertion region
@@ -5281,6 +5313,8 @@
 - Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md) and
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
   [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+- Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  for firing that requires a readied weapon with loaded rounds and reloading that requires reserve.
 - Novelty: not assessed.
 
 ## CON-286 — Restorative item requires legal state and uninterrupted cast
@@ -5389,21 +5423,24 @@
 - Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md).
 - Novelty: not assessed.
 
-## CON-292 — Building placement requires legal geometry and stability
+## CON-292 — Building deployment requires a legal clear footprint
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: a building block may be placed only at a compatible terrain or
-  socket pose with clearance, support and stability and outside protected
-  monument restrictions.
-- Includes: Rust foundation, wall, floor and roof placement previews.
+- Definition: a fixed building or mobile-to-building deployment is legal only
+  on compatible allowed terrain or a compatible socket, with its full footprint
+  clear and any applicable support, stability or protected-area rule satisfied.
+- Includes: Rust foundation, wall, floor and roof placement; Command & Conquer
+  mobile construction vehicle deployment and completed-building placement.
 - Excludes: free inventory rearrangement; deployables; terrain excavation.
 - Parameters: shape, socket, terrain, overlap, orientation, support, stability,
-  monument radius and preview.
-- Evidence: [Rust decomposition](../games/m-r/rust.md).
-- Novelty: not assessed.
+  protected radius, deployment form and preview.
+- Evidence: [Rust decomposition](../games/m-r/rust.md) and
+  [Command & Conquer Remastered Collection decomposition](../games/a-f/command-and-conquer-remastered-collection.md).
+- Novelty: generalised by `TAXONOMY_CHANGE_036`; modular construction and
+  mobile-to-building deployment differ in product form, not footprint legality.
 
 ## CON-293 — Building grade and repair require material and repair state
 
@@ -5464,6 +5501,8 @@
 - Excludes: building privilege alone; unlocked storage; administrator bypass.
 - Parameters: fixture, lock, identity, key, code, authority and destroyed state.
 - Evidence: [Rust decomposition](../games/m-r/rust.md).
+- Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  for the gas-station storeroom door that opens only with the Gas Station Key.
 - Novelty: not assessed.
 
 ## CON-297 — Crafting requires a known recipe, sourced ingredients, station context and output capacity
@@ -5964,6 +6003,8 @@
 - Parameters: response type, unlock, cue, window, difficulty and assist mode.
 - Evidence: [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md)
   and [Black Myth: Wukong decomposition](../games/a-f/black-myth-wukong.md).
+- Additional support: [Cuphead decomposition](../games/a-f/cuphead.md),
+  for the second jump input that must meet a pink hazard's live contact window.
 - Novelty: not assessed.
 
 ## CON-325 — Picto slots and Lumina points bound passive build
@@ -6145,15 +6186,17 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: a grapple or stealth takedown remains available only while one
+- Definition: a close stealth neutralisation remains available only while one
   eligible hostile is within the required relative position and has not
   completed detection or entered a disallowing combat or strength state.
-- Includes: Cyberpunk 2077 lethal and non-lethal stealth takedowns.
+- Includes: Cyberpunk 2077 lethal and non-lethal stealth takedowns; Sekiro
+  stealth Deathblows from eligible unseen positions.
 - Excludes: ordinary melee attacks; remote quickhacks; scripted restrained
   characters.
 - Parameters: awareness, position, reach, target class, relative strength,
   combat state and interruption.
-- Evidence: [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Evidence: [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md) and
+  [Sekiro decomposition](../games/s-z/sekiro-shadows-die-twice.md).
 - Novelty: not assessed.
 
 ## CON-336 — Retained quest state gates later branch availability
@@ -6421,22 +6464,27 @@
 - Evidence: [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md).
 - Novelty: not assessed.
 
-## CON-351 — Bind and Silk Skills require their declared Silk state
+## CON-351 — Reserve-spending active effects require their declared resource state
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the Bind action is legal only when the current Silk spool is full and always
-  consumes that spool, while each Silk Skill requires and consumes its own
-  declared amount from the same bounded resource.
-- Includes: Hollow Knight: Silksong ordinary Bind, Silkspear and Needolin.
-- Excludes: a cooldown-only ability; passive Crest effects; ordinary needle
-  attacks that generate rather than spend Silk.
-- Parameters: current Silk, spool capacity, full predicate, Bind cost, skill
-  cost and disabled state.
-- Evidence: [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md).
+- Definition: each active recovery or learned ability funded by one bounded
+  personal reserve is legal only when its declared resource predicate holds and
+  consumes the declared amount when its effect is accepted.
+- Includes: Hollow Knight: Silksong full-spool Bind, Silkspear and Needolin;
+  Hollow Knight Focus requiring enough SOUL for its recovery result.
+- Excludes: a cooldown-only ability; passive loadout effects; ordinary attacks
+  that generate rather than spend the reserve.
+- Parameters: current reserve, capacity, threshold predicate, recovery cost,
+  ability cost, consumption point and disabled state.
+- Evidence: [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md)
+  and [Hollow Knight decomposition](../games/g-l/hollow-knight.md).
 - Novelty: not assessed.
+- Change note: wording generalised by
+  [`TAXONOMY_CHANGE_034`](../../research/taxonomy-changes/TAXONOMY_CHANGE_034.md)
+  from sequel-specific resource and action names to the portable legality rule.
 
 ## CON-352 — Only one unrecovered death-currency mark may persist
 
@@ -6447,13 +6495,15 @@
 - Definition: the current save may retain only one unrecovered death-currency
   mark; another ordinary death replaces it and permanently loses the currency
   still stored in the earlier mark, including when the new stock is empty.
-- Includes: Hollow Knight: Silksong ordinary-mode Cocoon replacement; Elden
-  Ring replacement of the previous rune mark on a later death.
+- Includes: Hollow Knight: Silksong ordinary-mode Cocoon replacement; Hollow
+  Knight Shade replacement; Elden Ring replacement of the previous rune mark
+  on a later death.
 - Excludes: several simultaneously recoverable item piles; permanent Steel
   Soul death; currency protected before death in a separate string.
 - Parameters: existing mark, new death, old and new currency stocks,
   replacement, protected currency and recovery state.
 - Evidence: [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md);
+  [Hollow Knight decomposition](../games/g-l/hollow-knight.md);
   [Elden Ring decomposition](../games/a-f/elden-ring.md).
 - Novelty: not assessed.
 
@@ -7760,15 +7810,18 @@
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: a city may produce or buy a target only if its required
-  Technology/Civic, district/building, strategic resource, population or
-  instance capacity and relevant cost are satisfied.
-- Includes: producing resource-gated units and Spaceport projects.
+- Definition: an owned production site may produce or buy a target only when
+  the required technology, facility, resource, population or instance
+  capacity and relevant cost are satisfied.
+- Includes: producing resource-gated units and Spaceport projects in a city;
+  commissioning a colony ship from an eligible owned starbase shipyard.
 - Excludes: selecting the next Technology; working a tile; free founding effects.
-- Parameters: city, target, unlock, district, building, resource, capacity,
-  currency, production cost and purchase price.
-- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
-- Novelty: first isolated for `GAME-0166`.
+- Parameters: owner, production site, target, unlock, facility, resource,
+  capacity, currency, production cost and purchase price.
+- Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md)
+  and [Stellaris decomposition](../games/s-z/stellaris.md).
+- Novelty: first isolated for `GAME-0166`; `TAXONOMY_CHANGE_055` later made the
+  city a production-site parameter without changing the predicate.
 
 ## CON-418 — Policy cards must fit compatible government slots
 
@@ -7914,16 +7967,24 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the current character can normally carry at most one active item,
-  one trinket and one pocket card, rune or pill; accepting another member of a
+- Definition: the current character carries at most a declared small count of
+  items in each typed special-item slot class; accepting another member of a
   full typed slot requires leaving or replacing the prior occupant.
-- Includes: clean-save Isaac's base-Rebirth special-item slots.
+- Includes: clean-save Isaac's base-Rebirth special-item slots of one active
+  item, one trinket and one pocket card, rune or pill; the two weapon slots
+  of the scoped first Prisoners' Quarters run of Dead Cells, where a third
+  weapon can be taken only by replacing one held weapon.
 - Excludes: unlimited passive collectibles; coin, bomb and key counters; DLC
-  items that add or transform slot capacity.
-- Parameters: slot type, capacity, occupant, replacement, drop eligibility and
-  character modifiers.
+  items that add or transform slot capacity; bulk or weight capacity beside
+  the slots (`CON-284`); a storage upgrade bought after the scoped run.
+- Parameters: slot type, capacity, occupant, replacement, drop eligibility
+  and character modifiers.
 - Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
-- Novelty: first isolated for `GAME-0164`.
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for the weapon-class pair of slots holding the Rusty Sword and the optional starter bow or shield, where a sampled third weapon forces a keep-or-drop choice; the skill and amulet slot counts are recorded parameters that the packet does not exercise.
+- Novelty: first isolated for `GAME-0164`; generalised by
+  [`TAXONOMY_CHANGE_042`](../../research/taxonomy-changes/TAXONOMY_CHANGE_042.md)
+  so that slot counts and item classes are parameters of the boundary.
 
 ## CON-437 — Driving-event entry requires an eligible vehicle and class
 
@@ -7967,6 +8028,8 @@
 - Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md),
   [Trackmania decomposition](../games/s-z/trackmania.md), and
   [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
+- Additional support: [Forza Horizon 5 decomposition](../games/a-f/forza-horizon-5.md),
+  for the required ordered gates and three laps of Horizon Mexico Circuit.
 - Novelty: first isolated for `GAME-0171`; earlier route constraints govern
   networks or escort anchors rather than one directly driven race traversal.
 
@@ -7991,22 +8054,38 @@
 - Novelty: first isolated for `GAME-0171`; generic mission gates do not bind a
   map-visible driving-event catalogue to festival campaign state.
 
-## CON-440 — Horizon Invitational requires the Qualifier progress threshold
+## CON-440 — A successor gate requires its accumulated progression threshold
 
 - Lifecycle: `Active`
-- Claim status: `Confirmed`
-- Evidence quality: `Direct`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the first Wristband Event remains unavailable until completed
-  Qualifier events have accumulated the declared Horizon Festival Point total.
-- Includes: the scoped four-event path into the first Horizon Invitational.
-- Excludes: later Wristband thresholds; Discover Japan Stamp progression;
-  replacing the threshold with one mandatory race win.
-- Parameters: eligible events, point values, current total, threshold and
-  invitation transition.
-- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
-- Novelty: first isolated for `GAME-0171`; the gate aggregates alternatives
-  before opening one mandatory terminal driving event.
+- Definition: an authored successor remains unavailable until qualifying
+  results have accumulated the declared total in one retained progression
+  measure; reaching the threshold makes that successor legal without requiring
+  one designated payer to provide the whole amount.
+- Includes: the first Horizon Invitational remaining unavailable until the
+  required Festival Point total is retained in Forza Horizon 6; the successor
+  regions remaining unavailable until the tutorial island's Resistance Point
+  threshold is reached in Far Cry 5; the capabilities a Cities: Skylines II
+  milestone releases remaining unavailable until the city's accumulated
+  progression total reaches that milestone's declared amount.
+- Excludes: a successor gated on one named mission, boss, key item or mandatory
+  win; a personal-level threshold; a timed gate; a price paid from a spendable
+  balance; the later condition that may still be required after access opens.
+- Parameters: qualifying activities, contribution values, current total,
+  threshold, successor identity and the number of successors opened.
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md)
+  and [Far Cry 5 decomposition](../games/a-f/far-cry-5.md).
+- Additional support: [Cities: Skylines II decomposition](../games/a-f/cities-skylines-ii.md),
+  for the capabilities a milestone releases staying unavailable until the
+  city's accumulated progression total reaches that milestone's declared
+  amount.
+- Novelty: first isolated for `GAME-0171`; generalised to any declared
+  qualifying result, including a tracked-state change, under
+  [`TAXONOMY_CHANGE_033`](../../research/taxonomy-changes/TAXONOMY_CHANGE_033.md)
+  and
+  [`TAXONOMY_CHANGE_050`](../../research/taxonomy-changes/TAXONOMY_CHANGE_050.md).
 
 ## CON-441 — First Wristband requires Horizon Invitational completion
 
@@ -8044,6 +8123,9 @@
 - Additional support: [Brawlhalla decomposition](../games/a-f/brawlhalla.md),
   for ground/air, weapon, recovery and dodge state gating one platform-fighter
   command vocabulary.
+- Additional support: [TEKKEN 8 decomposition](../games/s-z/tekken-8.md),
+  for Arcade Style mapping, pose, recovery, airborne, grounded and downed
+  state gating the chosen fighter's commands.
 - Novelty: first isolated for `GAME-0172`; it binds a character-owned fighting
   command vocabulary to transient live pose and recovery state.
 
@@ -8117,6 +8199,9 @@
 - Parameters: starting vitality, timer, KO, time-over comparison, draw policy,
   round markers and required wins.
 - Evidence: [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
+- Additional support: [TEKKEN 8 decomposition](../games/s-z/tekken-8.md),
+  for 60-second rounds stopped at zero health or time-over and a match that
+  ends only at the third round win.
 - Novelty: first isolated for `GAME-0172`; previous finite-round constraints
   bind team bomb, halftime or score rules rather than repeated resets of one
   fixed fighter pair.
@@ -8455,18 +8540,25 @@
 - Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
 - Novelty: first isolated for `GAME-0179`; legal placement, prepaid materials and reachable live-builder work are all mandatory.
 
-## CON-467 — Unit and research queues require site, unlock and stockpile
+## CON-467 — Production and research orders require site, unlock and stockpile
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: a unit or technology order can enter only an eligible completed owned building when its civilization/Age prerequisites, resource cost and any population or queue-capacity gates are satisfied.
-- Includes: Age of Empires II Town Center, military-building and research orders.
+- Definition: a unit, structure or technology order can enter only an eligible
+  completed owned production site or channel when its prerequisite, resource
+  cost and any capacity or busy-state gates are satisfied.
+- Includes: Age of Empires II Town Center, military-building and research
+  orders; Command & Conquer structure and infantry orders.
 - Excludes: immediate shop purchases; a city's single turn-based production; free scenario reinforcements.
-- Parameters: building class, order, civilization, Age, prerequisite, cost, population headroom, queue length and busy state.
-- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
-- Novelty: first isolated for `GAME-0179`; multiple building-local live queues share one resource and constructed-capacity economy.
+- Parameters: site class, production class, order, faction, technology tier,
+  prerequisite, cost, population headroom if any, queue length and busy state.
+- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+  and [Command & Conquer Remastered Collection decomposition](../games/a-f/command-and-conquer-remastered-collection.md).
+- Novelty: first isolated for `GAME-0179` and generalised by
+  `TAXONOMY_CHANGE_036`; a produced structure is an order type, not a separate
+  legality mechanism.
 
 ## CON-468 — Age advancement requires resources and current-Age buildings
 
@@ -9332,25 +9424,33 @@
 - Novelty: first isolated for `GAME-0196`; productive legality joins vehicle,
   powered attachment, consumable and persistent surface state.
 
-## CON-516 — Field contract requires accepted target coverage
+## CON-516 — Task settlement requires accepted target coverage
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: a field-work contract may become collectable only when its
-  accepted treated area reaches the ruleset's threshold on the assigned field;
-  passes outside that field, inactive motion and already-counted overlap cannot
+- Definition: a bounded surface-treatment task may settle only when its
+  accepted treated area reaches the ruleset's threshold on the assigned target;
+  passes outside that target, inactive motion and already-counted overlap cannot
   replace the remaining eligible coverage.
-- Includes: completion of the scoped Farming Simulator 25 Fertilizing contract.
+- Includes: completion of the scoped Farming Simulator 25 Fertilizing contract;
+  settlement of PowerWash Simulator's first Career job after every eligible
+  vehicle part reaches its accepted clean threshold.
 - Excludes: a fixed route checkpoint order; cargo delivered to a depot; visual
-  full coverage without accepted task progress; an owned-field yield bonus with
-  no contract.
-- Parameters: assigned field mask, eligible area, treated area, overlap policy,
-  progress value, completion threshold and collectable state.
-- Evidence: [Farming Simulator 25 decomposition](../games/a-f/farming-simulator-25.md).
+  full coverage without accepted task progress; an open-ended treatment with
+  no bounded task settlement.
+- Parameters: assigned target and geometry, eligible area, treated area,
+  overlap policy, progress value, partial or total completion threshold and
+  automatic or collectable settlement.
+- Evidence: [Farming Simulator 25 decomposition](../games/a-f/farming-simulator-25.md)
+  and [PowerWash Simulator decomposition](../games/m-r/powerwash-simulator.md).
 - Novelty: first isolated for `GAME-0196`; one contract closes through accepted
   continuous surface coverage rather than object count, route or kill quota.
+- Change note: wording generalised by
+  [`TAXONOMY_CHANGE_039`](../../research/taxonomy-changes/TAXONOMY_CHANGE_039.md)
+  so field versus object geometry, partial versus total threshold and explicit
+  collection versus automatic settlement remain parameters.
 
 ## CON-517 — Active food slots require distinct foods and eligible digestion state
 
@@ -9405,6 +9505,8 @@
 - Parameters: action type, current count, cooldown, ground/wall/hit contact,
   elapsed time, wall-slip state, restored flag and attempted input.
 - Evidence: [Brawlhalla decomposition](../games/a-f/brawlhalla.md).
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for the second jump that is spent in the air and returns on landing.
 - Novelty: first isolated for `GAME-0198`; several human-scale aerial actions
   use distinct but interacting eligibility gates inside one recoverable
   platform-fighter trajectory.
@@ -9727,23 +9829,27 @@
 - Novelty: first isolated for `GAME-0203`; scarce route-editing inventory is
   bounded by the same immediate physical surface problem it is meant to solve.
 
-## CON-537 — Summit rescue requires living presence and an ignitable Flare
+## CON-537 — Route settlement requires life, terminal presence and a usable signal
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: ordinary rescue settlement may begin only while the controlled
-  Scout is alive inside the PEAK region and a Flare can be ignited there after
-  traversing the expedition's ordered route.
-- Includes: the standard Peak solo helicopter terminal.
-- Excludes: reaching the Peak Badge boundary without signalling; Ascent 8's
-  Nadir ending; a Flare lit in an earlier biome; a dead Scout's result.
-- Parameters: life state, region membership, route progress, Flare possession,
-  ignition, signal and rescue eligibility.
-- Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Definition: positive route settlement may begin only while the controlled
+  agent is alive inside the declared terminal region, the required route
+  progress is complete and a compatible carried signal item is usable there.
+- Includes: the standard PEAK solo helicopter terminal; The Long Dark's
+  `Hopeless Rescue` Lighthouse terminal after summit Distress Pistol recovery.
+- Excludes: arrival without signalling; signalling in an earlier region;
+  missing required route progress; a dead agent's result; a combat-only shot.
+- Parameters: life state, terminal-region membership, route progress, signal
+  possession, load or ignition state, activation and settlement eligibility.
+- Evidence: [PEAK decomposition](../games/m-r/peak.md) and
+  [The Long Dark decomposition](../games/s-z/the-long-dark.md).
 - Novelty: first isolated for `GAME-0203`; survival, place and a retained
   single-use signal are conjunctive predicates for the run's positive terminal.
+  The route-neutral generalisation was accepted in
+  [`TAXONOMY_CHANGE_051`](../../research/taxonomy-changes/TAXONOMY_CHANGE_051.md).
 
 ## CON-538 — Lifestyle focus must be currently available
 
@@ -10546,6 +10652,8 @@
 - Additional support: [BioShock Remastered decomposition](../games/a-f/bioshock-remastered.md),
   for First Aid Kit use against missing Health and EVE Hypo use against missing
   EVE from separate finite carried stocks.
+- Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  for the spray usable only below full health from finite carried stock, which confines its use to the damaged outcome branch.
 - Novelty: first isolated for `GAME-0238`; it captures the portable legality
   boundary for immediate live item commitment without importing a cast time,
   status cooldown or game-specific medicine name.
@@ -10721,24 +10829,28 @@
 - Novelty: first isolated for `GAME-0244`; geography offers alternative service
   routes but does not multiply the available recovery budget.
 
-## CON-589 — Contextual finisher requires a live reachable stagger window
+## CON-589 — Prompted close action requires a live reachable stagger window
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: a contextual close finisher is legal only while its living target
-  remains in the declared temporary stagger state and within reachable range;
-  distance, recovery or ordinary defeat removes the opportunity.
-- Includes: the short visible Glory Kill window on staggered close hostiles in
-  DOOM (2016).
+- Definition: a prompted contextual close action is legal only while its living
+  target remains in the declared temporary stagger state and within reachable
+  range; distance, recovery or defeat removes the opportunity, independently
+  of whether the accepted action itself defeats the target.
+- Includes: the short Glory Kill windows in DOOM (2016) and DOOM Eternal;
+  ground-finisher or execution windows in Batman: Arkham Asylum and Sekiro;
+  and the prompted melee window in Resident Evil 4 (2023 remake).
 - Excludes: an unaware-target takedown; an always-available melee attack; a
-  ranged shot into a staggered target; a finisher prompt on a dead target.
+  ranged shot into a staggered target; a prompt on a defeated target; any
+  guarantee about the accepted action's settlement.
 - Parameters: target, life state, stagger source, visible opportunity, duration,
-  reach, approach context, recovery and competing defeat.
-- Evidence: [DOOM (2016) decomposition](../games/a-f/doom-2016.md).
-- Novelty: first isolated for `GAME-0245`; the same damaged target can be
-  finished from range or entered as a short-lived positional recovery option.
+  reach, approach context, recovery and competing prior defeat.
+- Evidence: [DOOM (2016) decomposition](../games/a-f/doom-2016.md) and
+  [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md).
+- Novelty: first isolated for `GAME-0245`; `TAXONOMY_CHANGE_059` removes the
+  settlement-specific duplicate while retaining this temporary legality.
 
 ## CON-590 — Powered mode effects require compatible action and shared reserve
 
@@ -10848,24 +10960,20 @@
 
 ## CON-595 — Contextual close follow-up requires a reachable staggered hostile
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: a contextual close follow-up is legal only while its target is a
-  living eligible hostile in the current temporary stagger state and remains
-  within the required positional reach; recovery, distance or defeat removes
-  the command.
-- Includes: prompted melee attacks after an eligible stagger in Resident Evil
-  4's bounded first chapter.
-- Excludes: a guaranteed defeating finisher; an unaware-target takedown;
-  ordinary close attacks; a ranged shot into the same stagger state.
-- Parameters: target, life state, stagger state, reach, prompt, recovery,
-  competing defeat and rejected command.
+- Definition: historical result-specific duplicate now represented by the
+  parameterised active boundary `CON-589`.
+- Includes: historical references that used `CON-595` before taxonomy change
+  059.
+- Excludes: current signatures and new analysis; use `CON-589` and represent
+  the accepted action's result in the System layer.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md).
-- Novelty: first isolated for `GAME-0249`; the transient state gates a
-  non-guaranteed contextual attack rather than the execution boundary of
-  `CON-589`.
+- Merged into: `CON-589` by
+  [`TAXONOMY_CHANGE_059`](../../research/taxonomy-changes/TAXONOMY_CHANGE_059.md).
 
 ## CON-596 — Run-modifier offer requires compatible prerequisites and slots
 
@@ -10884,6 +10992,8 @@
 - Parameters: modifier, prerequisite set, current build, capability, slot,
   occupied state, replacement permission, rarity, level and rejection.
 - Evidence: [Hades decomposition](../games/g-l/hades.md).
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for the one mutation slot granted per cleared biome and the no-duplicate rule at Guillain.
 - Novelty: first isolated for `GAME-0251`; `CON-188` limits how many offer
   options may be chosen, while this constraint determines which build options
   may legally be offered or installed at all.
@@ -11281,3 +11391,314 @@
   gate that `GAME-0270`'s claim ledger never evidenced: no claim and no
   transition row establishes that a purchase is ever refused for want of gold.
   No reviewed scoped game currently carries it, and no ID is retyped or reused.
+
+## CON-614 — Region succession requires its accumulated progress threshold
+
+- Lifecycle: `Merged`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: historical parameter-specific duplicate now represented by the
+  generalised active boundary `CON-440`.
+- Includes: historical references that used `CON-614` during the Batch 016
+  candidate pass.
+- Excludes: current signatures and new analysis; use `CON-440`.
+- Parameters: none; retained as an auditable alias.
+- Evidence: [Far Cry 5 decomposition](../games/a-f/far-cry-5.md) and
+  [`TAXONOMY_CHANGE_033`](../../research/taxonomy-changes/TAXONOMY_CHANGE_033.md).
+- Merged into: `CON-440` by
+  [`TAXONOMY_CHANGE_033`](../../research/taxonomy-changes/TAXONOMY_CHANGE_033.md).
+
+## CON-617 — A parry is legal only against a declared parryable hazard class
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: the defensive parry response resolves only against incoming
+  hazards the ruleset marks as belonging to a declared parryable class; every
+  other hazard must be avoided instead, so the legality is a property of the
+  incoming object rather than of the defender's equipment or timing alone.
+- Includes: only pink worms or tears being parryable in Cuphead's bounded
+  `Botanic Panic!` Regular encounter, with ordinary dirt or tears from the same
+  sequences having to be dodged.
+- Excludes: a parry gated on a usable close weapon; a universal block that
+  reduces any damage; a dodge with invulnerability frames; a counter that
+  requires a specific attack animation rather than a marked object class.
+- Parameters: how the class is marked, which hazards belong to it, what a
+  successful parry yields and whether a failed attempt is punished.
+- Evidence: [Cuphead decomposition](../games/a-f/cuphead.md).
+- Novelty: first isolated for `GAME-0277`; target-class eligibility is
+  independent of both the input's temporal window and a defender's equipped
+  weapon state.
+
+## CON-618 — One excursion's take is bounded by a declared carry capacity
+
+- Lifecycle: `Deprecated`
+- Claim status: `Observation`
+- Evidence quality: `Conflicting`
+- Confidence: `High`
+- Definition: historical Batch 016 candidate for a scalar carry threshold that
+  was incorrectly asserted to end DAVE THE DIVER's scoped excursion
+  independently of its oxygen reserve.
+- Includes: historical references to `CON-618` in the Batch 016 candidate pass.
+- Excludes: current signatures and new analysis; the game's displayed normal
+  carrying threshold first imposes movement slowdown, while an additional
+  upper pickup cutoff was neither reached nor needed by the corrected seven-fish
+  route.
+- Parameters: none; retained as an auditable stable ID.
+- Evidence: [DAVE THE DIVER decomposition](../games/a-f/dave-the-diver.md).
+- Novelty: first isolated for `GAME-0278` during the candidate pass and
+  deprecated before that draft was promoted to reviewed.
+- Deprecation: retained for historical compatibility after
+  [`TAXONOMY_CHANGE_038`](../../research/taxonomy-changes/TAXONOMY_CHANGE_038.md)
+  established that the asserted hard excursion terminal was false and the
+  corrected bounded route neither crosses nor tests the later pickup cutoff.
+
+## CON-619 — Settlement requires the declared state on every eligible surface
+
+- Lifecycle: `Merged`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: historical total-threshold duplicate now represented by the
+  generalised active coverage-settlement boundary `CON-516`.
+- Includes: historical references that used `CON-619` during the Batch 016
+  candidate pass.
+- Excludes: current signatures and new analysis; use `CON-516`.
+- Parameters: none; retained as an auditable stable ID.
+- Evidence: [PowerWash Simulator decomposition](../games/m-r/powerwash-simulator.md).
+- Novelty: first isolated for `GAME-0279` during the candidate pass and merged
+  before that draft was promoted to reviewed.
+- Merged into: `CON-516` by
+  [`TAXONOMY_CHANGE_039`](../../research/taxonomy-changes/TAXONOMY_CHANGE_039.md).
+
+## CON-620 — A service request expires at its individual wait limit
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: each visible request in a live service session remains eligible
+  for fulfilment only while its own waiting allowance remains; if that allowance
+  expires first, the requester leaves and the missed request can no longer pay
+  or contribute its positive evaluation, without ending the entire session.
+- Includes: customers in DAVE THE DIVER's bounded first restaurant service
+  leaving when their individual wait state expires before the requested dish or
+  drink is delivered.
+- Excludes: a shared overload countdown that terminates the whole session; a
+  fixed global shift deadline; a request that waits indefinitely; failure caused
+  by supplying the wrong item rather than by time.
+- Parameters: requester, request, wait duration, visible warning bands,
+  fulfilment event, expiry consequence and effect on payment or evaluation.
+- Evidence: [DAVE THE DIVER decomposition](../games/a-f/dave-the-diver.md).
+- Novelty: first isolated for `GAME-0278`; service failure is local to one
+  expiring request, so prioritisation changes the settlement without making one
+  missed customer a terminal loss.
+
+## CON-621 — Manual save requires a ready designated fixture with no hostile nearby
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a manual save is legal only while the controlled actor interacts
+  with a ready designated save fixture and no hostile is currently within
+  that fixture's declared proximity; an accepted save writes a chosen retained
+  slot from a paused interface, and the fixture itself imposes no exposure
+  interval or cooldown.
+- Includes: the reception-desk typewriter in Resident Evil 2 (2019 remake)'s
+  scoped Leon opening, which refuses use while enemies are nearby and, on
+  `Standard`, consumes nothing.
+- Excludes: save-anywhere menu commands; automatic checkpoints; a fixture whose
+  save consumes live exposed time or rejects reuse until a cooldown clears;
+  rest fixtures that also restore resources or respawn enemies; a hostile
+  merely present elsewhere in the level.
+- Parameters: fixture, reach, hostile-proximity predicate, slot count, slot
+  sharing across modes, optional per-save consumable, pause behaviour and the
+  written state.
+- Evidence: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md).
+- Novelty: first isolated for `GAME-0280`; persistence is fixture-bound and
+  hostile-gated yet paused and cooldown-free, so it is neither the exposed
+  station of `CON-602` nor a free menu save.
+
+## CON-622 — Skill legality depends on the actor's formation rank and the target's rank
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: a combat skill may be committed only while the acting unit
+  occupies one of that skill's declared launch ranks in its side's ordered
+  formation, and only against targets whose current ranks lie in the skill's
+  declared target ranks; a unit occupying several ranks is a legal target at
+  any of them, and a corpse or displaced unit changes which skills remain
+  legal.
+- Includes: Reynauld's Smite and Stunning Blow from ranks 1–2 against ranks
+  1–2, Dismas's Pistol Shot from ranks 2–4 against ranks 2–4 and Grapeshot
+  Blast from ranks 2–3, and the Brigand Fusilier reachable only behind the
+  size-two Bloodletter, in the scoped Old Road tutorial.
+- Excludes: ability gates of target, range, resource and readiness without a
+  formation-slot condition (`CON-269`); paired card lanes (`CON-182`); a grid
+  cell's exclusive occupancy (`CON-011`); a fixed occupancy topology by itself
+  (`CON-001`).
+- Parameters: launch ranks and target ranks per skill, formation length,
+  multi-rank units, corpse occupancy, equipped-skill count and move ranges.
+- Evidence: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md).
+- Novelty: first isolated for `GAME-0281`; legality is a joint predicate over
+  the actor's own slot and the target's slot in two opposed lines.
+
+## CON-623 — Transition reward door opens only if the run's declared performance measure satisfies that door's comparison predicate
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a reward door in the transition between areas is open on
+  arrival only if the one performance measure declared for that door
+  satisfies that door's declared comparison predicate — a value at or below
+  an upper limit, or a count at or above a lower threshold, with comparator
+  direction and equality declared per door — as measured during the area
+  just left; otherwise the door is locked for the rest of the run, and the
+  door's contents are a declared reward class. Each door instance tests
+  exactly one measure; several doors may stand in one transition.
+- Includes: the elapsed-time door that opens when the run arrived at or
+  below 2:00 (equality opens it) and the separate streak door that opens
+  when at least 30 consecutive damage-free kills were reached, in the
+  Passage after the scoped first Prisoners' Quarters run of Dead Cells,
+  each holding gems, cells and a three-choice altar.
+- Excludes: a deadline that ends the attempt (`CON-068`, `CON-187`); an
+  elapsed result classified into medals (`SYS-711`, `OBJ-118`); a
+  checkpoint allowance (`CON-577`); a door opened by clearance (`CON-402`)
+  or by a key; a single door whose predicate joins two measures; a no-hit
+  door tied to a boss result.
+- Parameters: measure type, comparator direction, whether equality
+  satisfies the predicate, threshold value, what pauses or resets the
+  measure, door count per transition, reward class and lock behaviour.
+- Evidence: [Dead Cells decomposition](../games/a-f/dead-cells.md).
+- Novelty: first isolated for `GAME-0282`; the gate rewards how the area
+  was played without ever ending or failing the attempt, and an upper-bound
+  time and a lower-bound streak are two parameter values of one predicate
+  form, not two clauses.
+
+## CON-624 — Settlement-room exit stays barred while unspent unlock currency is carried, unless the barrier is removed
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the exit of the room where run currency is converted into
+  permanent unlocks stays closed while the avatar still carries unspent
+  unlock currency, so leaving ordinarily requires paying or investing every
+  carried unit; the only other legal exit is the removal of the barrier
+  itself, which the ruleset permits and which carries the currency onward.
+- Includes: the Collector's room door in the Passage after the scoped first
+  Prisoners' Quarters run of Dead Cells, which holds while any cell is
+  carried and stops holding once the door has been broken.
+- Excludes: an exit gated by hostile clearance (`CON-402`); an exit that
+  needs a key or a purchased pass; a purchase gate requiring the listed cost
+  to be affordable (`CON-191`); a deadline that ends the attempt
+  (`CON-068`); a barrier that confiscates or refunds the currency; the
+  damage, durability and removal of the barrier, which belong to `SYS-755`.
+- Parameters: currency, what counts as spent, whether barrier removal is
+  legal, any penalty attached to it and later uses of retained currency.
+- Evidence: [Dead Cells decomposition](../games/a-f/dead-cells.md).
+- Novelty: first isolated for `GAME-0282`; the constraint nudges spending
+  with a removable barrier rather than a hard gate, so keeping the currency
+  is an exceptional but legal branch.
+
+## CON-625 — Walled floor plane with lateral displacement and automatic realignment bounds duel spacing
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: both fighters occupy one bounded floor plane enclosed by walls;
+  movement realigns each fighter toward the opponent along the current axis,
+  lateral steps and walks are legal displacements off that axis which can
+  take the fighter out of the path of an otherwise intersecting linear
+  attack, an attack's tracking property changes how it follows that lateral
+  displacement without guaranteeing contact, and a wall stops further
+  displacement; whether any attack then connects, splats or opens a
+  follow-up is resolved by the combat system.
+- Includes: the Arena floor in TEKKEN 8's scoped offline Versus match, with
+  sidestep and sidewalk against linear and homing attacks and its
+  unbreakable walls.
+- Excludes: a side-view line with corners and no lateral axis (`CON-443`);
+  a platform surrounded by blast zones (`CON-520`); free traversal with no
+  fixed opponent axis; the contact, wall-splat and follow-up resolution
+  (`SYS-215`); breakable walls, floors, balconies and stage transitions,
+  which are parameters of other stages.
+- Parameters: floor shape and size, wall geometry, step and walk distance,
+  attack tracking classes, realignment rule, wall stop and breakable
+  elements.
+- Evidence: [TEKKEN 8 decomposition](../games/s-z/tekken-8.md); the walled
+  floor and the linear-versus-homing displacement rules rest on the
+  community wiki, and the realignment on one press guide, so the gene
+  carries the weakest material clause; the publisher's stage list proves
+  only that Arena exists.
+- Novelty: first isolated for `GAME-0283`; lateral displacement makes
+  evasion a positional choice rather than a timed protected interval, and
+  walls on every side replace the corner of a side-view line.
+
+## CON-626 — Territorial construction requires a surveyed unowned system and eligible constructor
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a territorial outpost project is legal only when its target
+  stellar system is fully surveyed and not already owned, an eligible
+  construction vessel can receive the order and all required costs are
+  payable; route distance may modify cost without being a universal adjacency
+  prohibition.
+- Includes: ordering the first Stellaris outpost in a fully surveyed connected
+  system while the construction ship and required resources are available.
+- Excludes: surveying the system; the project's ownership result; claiming
+  territory by founding a city; asserting that every legal target must be
+  directly adjacent when longer-range construction is merely more expensive.
+- Parameters: polity, target system, survey state, ownership state, constructor,
+  reachability, route distance, cost, resource availability and modifiers.
+- Evidence: [Stellaris decomposition](../games/s-z/stellaris.md), with the
+  precise legal predicates bounded by current corroborating written material.
+- Novelty: first isolated for `GAME-0287`; full-system knowledge and neutral
+  ownership jointly gate a paid mobile territorial project.
+
+## CON-627 — Colonisation requires an eligible owned habitat and founding transport
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: colonisation may begin only at an uncolonised habitat inside an
+  owned system when a compatible founding population and available colony
+  transport can satisfy the habitat, reachability and commitment predicates.
+- Includes: sending one Stellaris colony ship to a suitable habitable planet in
+  the newly claimed system of the bounded first-colony route.
+- Excludes: surveying or claiming the system; constructing the transport;
+  terraforming an ineligible planet; development after establishment.
+- Parameters: polity, system ownership, habitat, colonised state, habitability,
+  founding species or population, transport, route and commitment cost.
+- Evidence: [Stellaris decomposition](../games/s-z/stellaris.md), using official
+  colonisation-state material and corroborating written eligibility rules.
+- Novelty: first isolated for `GAME-0287`; ownership, habitat suitability and a
+  consumable founding carrier meet at one settlement-entry predicate.
+
+## CON-628 — In-place resurrection requires a ready charge and cleared lock
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the post-defeat command that restores the controlled body in
+  place is legal only while at least one self-recovery charge is ready and the
+  temporary prohibition created by the previous use has been cleared.
+- Includes: Sekiro Resurrection availability after lethal defeat.
+- Excludes: ally revival; checkpoint respawn; automatic extra-life settlement;
+  a charge that is full but still barred by the consecutive-use lock.
+- Parameters: lethal state, charge count, ready state, post-use lock, clearing
+  event, confirmation window and encounter restrictions.
+- Evidence: [Sekiro decomposition](../games/s-z/sekiro-shadows-die-twice.md),
+  using the official PC manual's charge and post-use prohibition.
+- Novelty: first isolated for `GAME-0288`; charge presence and a second live
+  lock jointly govern the same optional continuation.

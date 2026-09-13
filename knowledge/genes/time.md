@@ -61,6 +61,8 @@
   [KAMI decomposition](../games/g-l/kami.md), and
   [HOOK decomposition](../games/g-l/hook.md), and
   [Inertia decomposition](../games/g-l/inertia.md).
+- Additional support: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md),
+  for one committed skill, shift or pass input per hero turn followed by automatic resolution and interleaved hostile turns until the next hero input.
 - Novelty: not assessed.
 
 ## TIM-002 — Self-paced sequential action
@@ -281,6 +283,23 @@
   for simultaneous Guardian, hostile, projectile, objective and readiness evolution.
 - Additional support: [Brawlhalla decomposition](../games/a-f/brawlhalla.md),
   for simultaneous fighter, weapon, damage, recovery and match-clock evolution.
+- Additional support: [Command & Conquer Remastered Collection decomposition](../games/a-f/command-and-conquer-remastered-collection.md),
+  for simultaneous production, power, movement, combat and trigger evaluation
+  while further commands remain available.
+- Additional support: [Forza Horizon 5 decomposition](../games/a-f/forza-horizon-5.md),
+  for simultaneous car input, Drivatar motion and race-state progression.
+- Additional support: [Cuphead decomposition](../games/a-f/cuphead.md),
+  for simultaneous movement, firing, parry input, projectiles and phase combat.
+- Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  for zombie approach, focus, reload and damage advancing while input remains available.
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for enemies, projectiles, traps, the recovery drain, the protection cooldown and the run timer advancing while inputs are accepted.
+- Additional support: [TEKKEN 8 decomposition](../games/s-z/tekken-8.md),
+  for both fighters, attacks, recovery states, the Heat timer, Rage and the round clock advancing while inputs are accepted.
+- Additional support: [Cities: Skylines II decomposition](../games/a-f/cities-skylines-ii.md),
+  for road, zoning, facility and speed commands accepted while construction,
+  occupancy, demand, utility flow, the monthly upkeep charge and the
+  periodic progression tick advance on the live clock.
 - Novelty: not assessed.
 
 ## TIM-004 — Alternating adversarial turns
@@ -375,6 +394,8 @@
   [Pikmin 4 decomposition](../games/m-r/pikmin-4.md), and
   [Viewfinder decomposition](../games/s-z/viewfinder.md), and
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  for twenty manual slots and one auto slot that restore prior states for a different continuation.
 - Novelty: not assessed.
 
 ## TIM-008 — Random-access editable deterministic action timeline
@@ -624,3 +645,29 @@
 - Evidence: [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
 - Novelty: first isolated for `GAME-0206`; short alternating response windows
   suspend one active phase until their complete rule queue settles backward.
+
+## TIM-021 — Autosave-only campaign persistence with no reloadable earlier state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the game writes the campaign's current state automatically at
+  declared transitions, exposes no manual save and no load of an earlier
+  state, and resumes the single retained history when the campaign profile is
+  reopened, so a committed loss or death cannot be undone by reloading.
+- Includes: the Darkest Dungeon campaign profile that autosaves the Old Road
+  tutorial and the first Hamlet arrival, documented by the publisher's notes
+  and the product premise as resuming the retained state when the profile is
+  reopened; the exact save moments are parameters, not part of the boundary.
+- Excludes: branchable player-reversible history through manual or automatic
+  saves (`TIM-007`); a run that restarts from an initial state on defeat; an
+  optional ironman toggle inside a game that otherwise permits reloads; a
+  checkpoint restore after failure (`SYS-369`); a claim that a write follows
+  every individual input.
+- Parameters: save triggers, quit-save behaviour, profile slots, cloud sync
+  and any save-deletion failure condition.
+- Evidence: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md).
+- Novelty: first isolated for `GAME-0281`; the persistence structure is the
+  negation of `TIM-007`'s reversible branching, evidenced as documented rules
+  rather than an executed reload.

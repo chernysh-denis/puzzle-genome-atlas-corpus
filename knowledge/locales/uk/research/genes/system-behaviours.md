@@ -90,7 +90,9 @@
 - [`GAME-0124` — Against the Storm](../games/a-f/against-the-storm.md)
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
 - [`GAME-0109` — Candy Crush Saga](../games/a-f/candy-crush-saga.md)
+- [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
 - [`GAME-0161` — Dead by Daylight](../games/a-f/dead-by-daylight.md)
+- [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0020` — Dorfromantik](../games/a-f/dorfromantik.md)
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
 - [`GAME-0130` — Frostpunk](../games/a-f/frostpunk.md)
@@ -110,6 +112,7 @@
 - [`GAME-0067` — Simon](../games/s-z/simon.md)
 - [`GAME-0155` — Slay the Spire 2](../games/s-z/slay-the-spire-2.md)
 - [`GAME-0120` — Slay the Spire](../games/s-z/slay-the-spire.md)
+- [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
 - [`GAME-0136` — "Surviving Mars: Relaunched"](../games/s-z/surviving-mars.md)
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
@@ -658,22 +661,23 @@ Flooz у Pipe Dream виходить зі стартової деталі, за�
 ## SYS-030
 
 - Назва: Надходження попиту на обслуговування з плином часу
-- Переглянуто: `2026-08-24`
+- Переглянуто: `2026-09-08`
 
 ### Операційне визначення
 
-З плином часу симуляції до наявних вузлів обслуговування додаються незалежно створені видимі одиниці попиту, що потребують сумісного мережевого обслуговування.
+З плином часу симуляції на чинній поверхні обслуговування з’являються незалежно створені видимі одиниці попиту, кожна з яких очікує сумісного виконання налаштованою послугою, а не розміщується гравцем.
 
 ### Включає
 
-Поява пасажирів різної форми біля станцій Mini Metro, де вони очікують перевезення до станції відповідної форми; поява позначок у пунктах призначення Mini Motorways із запитом на автомобіль від сумісного будинку.
+Появу пасажирів різної форми біля станцій Mini Metro, де вони очікують перевезення до станції відповідної форми; появу позначок у пунктах призначення Mini Motorways із запитом на автомобіль від сумісного будинку; прихід відвідувачів під час дослідженого першого обслуговування в DAVE THE DIVER із видимими замовленнями страв або напоїв.
 
 ### Виключає
 
-Уже наявну приховану чергу; попит, безпосередньо розміщений гравцем; подальший рух пасажира, що очікує.
+Уже наявну приховану чергу; попит, безпосередньо розміщений гравцем; подальший рух або виконання запиту одиниці, що очікує; авторську хвилю ворогів, учасники якої не запитують послуги.
 
 ### Ігри-носії
 
+- [`GAME-0278` — DAVE THE DIVER](../games/a-f/dave-the-diver.md)
 - [`GAME-0018` — Mini Metro](../games/m-r/mini-metro.md)
 - [`GAME-0051` — Mini Motorways](../games/m-r/mini-motorways.md)
 
@@ -766,25 +770,26 @@ Dorfromantik зіставляє суміжні краї ландшафту, об
 
 ## SYS-035
 
-- Назва: Зароблене поновлення запасу дій
-- Переглянуто: `2026-08-24`
+- Назва: Поповнювати запас майбутніх дій за результативність у межах сесії
+- Переглянуто: `2026-09-13`
 
 ### Операційне визначення
 
-Виконання оголошеної умови результативності в межах сесії автоматично додає один або кілька майбутніх елементів, що уможливлюють дії, до поточного обмеженого запасу, з якого витрачаються звичайні дії.
+Виконання визначеної умови результативності в межах поточної сесії автоматично додає одну чи кілька одиниць або поступ до однієї одиниці в обмежений запас, який уможливлює подальшу відповідну дію гравця.
 
 ### Включає
 
-Dorfromantik додає плитки до стосу за завершені квести й ідеальні розміщення; вороги Loop Hero дають придатні для розіграшу карти світу до поточної руки.
+Dorfromantik додає плитки до стосу за завершені завдання й ідеальні розміщення; вороги Loop Hero дають придатні для розіграшу карти світу до поточної руки; перемоги над ворогами в Sekiro додають силу до ще одного заряду самовідновлення на місці.
 
 ### Виключає
 
-Поповнення черги попереднього показу, поки загальний запас строго зменшується; надання багаторазової інфраструктури на фіксованій календарній межі; необмежений запас творчого режиму.
+Поповнення черги попереднього показу, поки загальний запас строго зменшується; відновлення сталого базового заряду під час відпочинку на контрольній точці (SYS-364); зняття окремого блокування після використання без додавання заряду (SYS-853); відновлення лише з плином часу; надання багаторазової інфраструктури на сталій календарній межі; необмежений запас творчого режиму.
 
 ### Ігри-носії
 
 - [`GAME-0020` — Dorfromantik](../games/a-f/dorfromantik.md)
 - [`GAME-0028` — Loop Hero](../games/g-l/loop-hero.md)
+- [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 
 ## SYS-036
 
@@ -1315,8 +1320,10 @@ World of Goo утворює попередньо показані нитки н�
 - [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
+- [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0031` — Timelie](../games/s-z/timelie.md)
 
@@ -3319,6 +3326,7 @@ Papers, Please видає цитату про порушення після не
 
 ### Ігри-носії
 
+- [`GAME-0284` — "Cities: Skylines II"](../games/a-f/cities-skylines-ii.md)
 - [`GAME-0121` — "Cities: Skylines"](../games/a-f/cities-skylines.md)
 - [`GAME-0118` — SimCity 4 Deluxe Edition](../games/s-z/simcity-4-deluxe-edition.md)
 
@@ -3341,6 +3349,7 @@ Papers, Please видає цитату про порушення після не
 
 ### Ігри-носії
 
+- [`GAME-0284` — "Cities: Skylines II"](../games/a-f/cities-skylines-ii.md)
 - [`GAME-0121` — "Cities: Skylines"](../games/a-f/cities-skylines.md)
 - [`GAME-0118` — SimCity 4 Deluxe Edition](../games/s-z/simcity-4-deluxe-edition.md)
 
@@ -3364,25 +3373,26 @@ Papers, Please видає цитату про порушення після не
 ### Ігри-носії
 
 - [`GAME-0132` — Anno 1800](../games/a-f/anno-1800.md)
+- [`GAME-0284` — "Cities: Skylines II"](../games/a-f/cities-skylines-ii.md)
 - [`GAME-0121` — "Cities: Skylines"](../games/a-f/cities-skylines.md)
 - [`GAME-0118` — SimCity 4 Deluxe Edition](../games/s-z/simcity-4-deluxe-edition.md)
 
 ## SYS-154
 
-- Назва: Регулярно підсумовувати міський бюджет
-- Переглянуто: `2026-08-24`
+- Назва: Регулярно зводити бюджет керованого господарства
+- Переглянуто: `2026-09-10`
 
 ### Операційне визначення
 
-Через однакові проміжки часу система зараховує податки й доходи від угод, списує витрати на утримання та служби й оновлює скарбницю та платоспроможність міста.
+Через однакові проміжки часу система зараховує визначені доходи, списує утримання та інші видатки й оновлює запаси, скарбницю або платоспроможність керованої держави чи території.
 
 ### Включає
 
-Регулярний підсумок доходів і видатків у SimCity 4 та Cities: Skylines.
+Регулярний підсумок доходів і видатків міста в SimCity 4 та Cities: Skylines; щомісячне зарахування доходів і списання утримання із запасів держави у Stellaris.
 
 ### Виключає
 
-Одноразову купівлю; очки, надані наприкінці рівня; бюджет домогосподарства поза керованим містом.
+Одноразову купівлю; очки, надані наприкінці рівня; бюджет домогосподарства поза керованим господарством.
 
 ### Ігри-носії
 
@@ -3390,6 +3400,7 @@ Papers, Please видає цитату про порушення після не
 - [`GAME-0121` — "Cities: Skylines"](../games/a-f/cities-skylines.md)
 - [`GAME-0166` — Sid Meier’s Civilization VI](../games/s-z/sid-meiers-civilization-vi.md)
 - [`GAME-0118` — SimCity 4 Deluxe Edition](../games/s-z/simcity-4-deluxe-edition.md)
+- [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
 
 ## SYS-155
 
@@ -3478,16 +3489,16 @@ Papers, Please видає цитату про порушення після не
 
 ## SYS-158
 
-- Назва: Розподіляти енергію мережі й сповільнювати споживачів
-- Переглянуто: `2026-08-24`
+- Назва: Зрівноважувати живлення обмеженої системи з поточним споживанням
+- Переглянуто: `2026-09-07`
 
 ### Операційне визначення
 
-Кожна зв’язана електромережа безперервно об’єднує поточне виробництво й накопичення, розподіляє доступну енергію між активними споживачами та сповільнює або зупиняє їх, коли попит перевищує пропозицію.
+Кожна енергетична система власника або мережі безперервно об’єднує поточне виробництво й наявне накопичення, розподіляє доступну енергію між споживачами та сповільнює, зупиняє або погіршує залежну роботу, коли попит перевищує пропозицію.
 
 ### Включає
 
-Спільне використання електрики у Factorio з’єднаними через опори генераторами, акумуляторами, складальними машинами, маніпуляторами, бурами й лазерними турелями.
+Спільне використання електрики з’єднаними генераторами, акумуляторами й споживачами у Factorio; загальну для одного власника генерацію та потребу споруд у Command & Conquer Remastered Collection.
 
 ### Виключає
 
@@ -3496,6 +3507,7 @@ Papers, Please видає цитату про порушення після не
 ### Ігри-носії
 
 - [`GAME-0135` — "Captain of Industry"](../games/a-f/captain-of-industry.md)
+- [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
 - [`GAME-0131` — Dyson Sphere Program](../games/a-f/dyson-sphere-program.md)
 - [`GAME-0119` — Factorio](../games/a-f/factorio.md)
@@ -3714,6 +3726,7 @@ Papers, Please видає цитату про порушення після не
 
 ### Ігри-носії
 
+- [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0123` — Inscryption](../games/g-l/inscryption.md)
 - [`GAME-0155` — Slay the Spire 2](../games/s-z/slay-the-spire-2.md)
@@ -3744,24 +3757,25 @@ Papers, Please видає цитату про порушення після не
 
 ## SYS-169
 
-- Назва: Відкривати міські можливості після досягнення порогів населення
-- Переглянуто: `2026-08-24`
+- Назва: Відкривати міські можливості на віхах розвитку поселення
+- Переглянуто: `2026-09-09`
 
 ### Операційне визначення
 
-Коли населення міста вперше досягає оголошеного порога, симуляція назавжди додає до доступних дій пов’язані міські інструменти, служби, зони, політики, фінансові можливості або ділянки землі для придбання.
+Коли оголошена міра розвитку поселення вперше досягає оголошеного порога, симуляція назавжди додає до доступних дій пов’язані з цією віхою міські інструменти, служби, зони, політики, фінансові можливості або ділянки землі для придбання й видає оголошену разову винагороду.
 
 ### Включає
 
-Пороги населення Cities: Skylines, які відкривають служби, споруди, зони, позики, політики й додаткові ділянки мапи.
+Пороги населення Cities: Skylines, які відкривають служби, споруди, зони, позики, політики й додаткові ділянки мапи; віхи населенських рівнів Anno 1800, що відкривають свої споруди; віху Cities: Skylines II, яка відкриває закладені в неї можливості, щойно накопичена містом величина поступу її досягне.
 
 ### Виключає
 
-Витрачання накопичених очок науки на вибрану технологію; отримання випадкового щотижневого вдосконалення; суто косметичне досягнення, яке не змінює доступних дій.
+Витрачання накопичених очок науки на вибрану технологію; отримання випадкового щотижневого вдосконалення; суто косметичне досягнення, яке не змінює доступних дій; саме поповнення цієї величини, яке належить SYS-517; умову допустимості, що тримає відкриту можливість закритою до порога (CON-179, CON-440).
 
 ### Ігри-носії
 
 - [`GAME-0132` — Anno 1800](../games/a-f/anno-1800.md)
+- [`GAME-0284` — "Cities: Skylines II"](../games/a-f/cities-skylines-ii.md)
 - [`GAME-0121` — "Cities: Skylines"](../games/a-f/cities-skylines.md)
 
 ## SYS-170
@@ -4602,6 +4616,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
+- [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0181` — Overwatch](../games/m-r/overwatch.md)
@@ -4610,6 +4625,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0127` — RimWorld](../games/m-r/rimworld.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
@@ -4783,15 +4799,18 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
 - [`GAME-0222` — "Call of Juarez: Gunslinger"](../games/a-f/call-of-juarez-gunslinger.md)
+- [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
 - [`GAME-0137` — Counter-Strike 2](../games/a-f/counter-strike-2.md)
 - [`GAME-0218` — Counter-Strike](../games/a-f/counter-strike.md)
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
+- [`GAME-0277` — Cuphead](../games/a-f/cuphead.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
 - [`GAME-0161` — Dead by Daylight](../games/a-f/dead-by-daylight.md)
+- [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
@@ -4799,11 +4818,13 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
+- [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
 - [`GAME-0131` — Dyson Sphere Program](../games/a-f/dyson-sphere-program.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
+- [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
@@ -4814,12 +4835,14 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
+- [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
 - [`GAME-0215` — It Takes Two](../games/g-l/it-takes-two.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
+- [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
@@ -4837,9 +4860,12 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
+- [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
@@ -4847,6 +4873,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0225` — "STAR WARS: Squadrons"](../games/s-z/star-wars-squadrons.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
+- [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
@@ -5017,14 +5044,17 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0137` — Counter-Strike 2](../games/a-f/counter-strike-2.md)
 - [`GAME-0218` — Counter-Strike](../games/a-f/counter-strike.md)
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
+- [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
+- [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
@@ -6579,6 +6609,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
 - [`GAME-0204` — "Crusader Kings III"](../games/a-f/crusader-kings-iii.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
@@ -6769,6 +6800,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
 - [`GAME-0182` — Hearts of Iron IV](../games/g-l/hearts-of-iron-iv.md)
 - [`GAME-0166` — Sid Meier’s Civilization VI](../games/s-z/sid-meiers-civilization-vi.md)
@@ -7061,6 +7093,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
 - [`GAME-0196` — Farming Simulator 25](../games/a-f/farming-simulator-25.md)
+- [`GAME-0276` — Forza Horizon 5](../games/a-f/forza-horizon-5.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
@@ -7213,15 +7246,15 @@ Hostility в Against the Storm, що зростає від років, насе�
 ## SYS-327
 
 - Назва: Оновлювати обмін речовин і вплив довкілля
-- Переглянуто: `2026-08-24`
+- Переглянуто: `2026-09-09`
 
 ### Операційне визначення
 
-Система безперервно змінює здоров’я, калорії, запас води, температуру й опромінення відповідно до діяльності, спожитих ресурсів, спорядження та поточного місця персонажа.
+Система безперервно змінює здоров’я, калорії, запас води, температуру, втому й опромінення відповідно до діяльності, відпочинку, спожитих ресурсів, спорядження та поточного місця персонажа.
 
 ### Включає
 
-Голод, спрагу, мокрість, спеку, холод і радіаційний вплив у Rust.
+Голод, спрагу, мокрість, спеку, холод і радіаційний вплив у Rust; тепло, втому, спрагу, голод і стан здоров’я у The Long Dark.
 
 ### Виключає
 
@@ -7235,6 +7268,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0229` — "No Man’s Sky"](../games/m-r/no-mans-sky.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
+- [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 
 ## SYS-328
 
@@ -7962,7 +7996,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 ## SYS-362
 
 - Назва: Видавати нагороду й поступ за завершену сутичку
-- Переглянуто: `2026-09-02`
+- Переглянуто: `2026-09-07`
 
 ### Операційне визначення
 
@@ -7970,7 +8004,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 
 ### Включає
 
-Післябойові нагороди й поступ Picto у Clair Obscur: Expedition 33; нагороди босів і дозволені скрині Sastasha у FINAL FANTASY XIV Online; спорядження з Mystic Cube та нагороди за лічильники в навчанні Aion Classic.
+Післябойові нагороди й поступ Picto у Clair Obscur: Expedition 33; нагороди босів і дозволені скрині Sastasha у FINAL FANTASY XIV Online; спорядження з Mystic Cube та нагороди за лічильники в навчанні Aion Classic; стійкий ключ-предмет, який випадає після оголошеного стража в Hollow Knight.
 
 ### Виключає
 
@@ -7980,8 +8014,10 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 
 - [`GAME-0223` — Aion Classic](../games/a-f/aion-classic.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
+- [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
+- [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
@@ -8010,7 +8046,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 ## SYS-364
 
 - Назва: Відновлювати ресурси й повертати звичайних ворогів під час відпочинку
-- Переглянуто: `2026-08-24`
+- Переглянуто: `2026-09-07`
 
 ### Операційне визначення
 
@@ -8018,7 +8054,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 
 ### Включає
 
-Відпочинок біля Expedition Flag і в таборі Clair Obscur: Expedition 33; відновлення Hornet, поповнення Tools і повернення звичайних ворогів біля Bench у Hollow Knight: Silksong; відновлення HP, FP і фляг та повернення більшості звичайних ворогів біля Site of Grace в Elden Ring; відновлення ресурсів і Gourd та повернення звичайних ворогів біля Keeper's Shrine у Black Myth: Wukong.
+Відпочинок біля Expedition Flag і в таборі Clair Obscur: Expedition 33; відновлення та повернення звичайних ворогів біля Bench у Hollow Knight: Silksong і Hollow Knight; відновлення HP, FP і фляг та повернення більшості звичайних ворогів біля Site of Grace в Elden Ring; відновлення ресурсів і Gourd та повернення звичайних ворогів біля Keeper's Shrine у Black Myth: Wukong.
 
 ### Виключає
 
@@ -8031,6 +8067,8 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
+- [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
+- [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 
 ## SYS-365
@@ -8129,6 +8167,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0222` — "Call of Juarez: Gunslinger"](../games/a-f/call-of-juarez-gunslinger.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
+- [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
 
 ## SYS-369
@@ -8161,6 +8200,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
+- [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
@@ -8171,10 +8211,12 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
+- [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
@@ -8271,11 +8313,13 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
+- [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+- [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
@@ -8607,23 +8651,24 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 ## SYS-388
 
 - Назва: Визначити порядок ходів за ініціативою й відновлювати ресурси дій
-- Переглянуто: `2026-08-24`
+- Переглянуто: `2026-09-08`
 
 ### Операційне визначення
 
-На початку бою кидки ініціативи впорядковують учасників. На своєму ході кожна істота отримує запас руху, дію та бонусну дію, а реакцію може використати за відповідного приводу до наступного ходу.
+На початку бою, а також на межі кожного раунду, де правила передбачають повторний кидок, кидки ініціативи впорядковують учасників за їхньою характеристикою ініціативи плюс випадковою складовою; система активує одного дозволеного учасника або групу союзників з однаковим результатом за раз і за розкладом відновлює оголошені ресурси дій цього учасника на його хід.
 
 ### Включає
 
-Порядок ініціативи й послідовні раунди в одиночному бою Baldur’s Gate 3.
+Порядок ініціативи й послідовні раунди в одиночному бою Baldur's Gate 3; ініціативу раундів у Darkest Dungeon, яку кидають заново щораунду як швидкість плюс прихований кидок 1–8, де герої виграють нічиї, а кожен юніт виконує одну дію, протягом визначеного навчального маршруту Old Road.
 
 ### Виключає
 
-Безперервний бій у реальному часі; наперед показаний порядок намірів ворогів; вибір конкретної дії чи розрахунок її наслідків.
+Безперервний бій у реальному часі; наперед показаний порядок намірів ворогів; вибір конкретної дії чи розрахунок її наслідків; перевірку раптовості на початку бою, що передує впорядкуванню (SYS-828).
 
 ### Ігри-носії
 
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
+- [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
 
 ## SYS-389
 
@@ -8784,16 +8829,16 @@ Conquest у Battlefield 6 та Battlefield V, де тривале виснаже
 
 ## SYS-397
 
-- Назва: Перетворювати влучання Needle на Silk для Bind і Silk Skills
-- Переглянуто: `2026-08-24`
+- Назва: Перетворювати прямі влучання на запас для активних ефектів
+- Переглянуто: `2026-09-07`
 
 ### Операційне визначення
 
-Кожне відповідне пряме влучання Needle додає Silk до обмеженої котушки. Bind доступний за повної котушки, витрачає її всю й одразу лікує, а Silk Skills і Needolin витрачають визначену для них кількість Silk.
+Відповідні прямі влучання поповнюють один обмежений особистий запас, а запущене гравцем лікування або вивчені активні здібності витрачають із нього оголошену кількість заради свого ефекту.
 
 ### Включає
 
-Накопичення Silk від ударів Needle, Bind за повної котушки та застосування Silkspear чи Needolin за Silk у Hollow Knight: Silksong.
+Silk від ударів Needle, Bind та Silk Skills у Hollow Knight: Silksong; SOUL від ударів Nail і лікування через Focus у Hollow Knight.
 
 ### Виключає
 
@@ -8802,6 +8847,7 @@ Conquest у Battlefield 6 та Battlefield V, де тривале виснаже
 ### Ігри-носії
 
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
+- [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
 
 ## SYS-398
 
@@ -8829,7 +8875,7 @@ Conquest у Battlefield 6 та Battlefield V, де тривале виснаже
 ## SYS-399
 
 - Назва: Після смерті повертати до контрольної точки й залишати валюту в одному місці
-- Переглянуто: `2026-08-24`
+- Переглянуто: `2026-09-07`
 
 ### Операційне визначення
 
@@ -8837,7 +8883,7 @@ Conquest у Battlefield 6 та Battlefield V, де тривале виснаже
 
 ### Включає
 
-Повернення до Bench, Rosary Cocoon і тимчасове обмеження котушки дев’ятьма одиницями Silk у Hollow Knight: Silksong; повернення до Site of Grace або Stake of Marika й руни на місці загибелі в Elden Ring.
+Повернення до Bench, Rosary Cocoon і тимчасове обмеження котушки дев’ятьма одиницями Silk у Hollow Knight: Silksong; повернення до Bench, Shade з Geo і тимчасове обмеження SOUL у Hollow Knight; повернення до Site of Grace або Stake of Marika й руни на місці загибелі в Elden Ring.
 
 ### Виключає
 
@@ -8848,6 +8894,7 @@ Conquest у Battlefield 6 та Battlefield V, де тривале виснаже
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
+- [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
 
 ## SYS-400
 
@@ -9048,16 +9095,16 @@ Conquest у Battlefield 6 та Battlefield V, де тривале виснаже
 
 ## SYS-409
 
-- Назва: Виснажувати захист або стійкість і відкривати критичний удар
-- Переглянуто: `2026-08-24`
+- Назва: Перетворювати перетин межі стійкості на критичну нагоду
+- Переглянуто: `2026-09-10`
 
 ### Операційне визначення
 
-Сильні удари, атаки в стрибку й контратаки після блоку накопичують приховану шкоду стійкості. Коли межу вичерпано, ворог утрачає рівновагу й на короткий час стає вразливим до критичного удару.
+Відповідні атаки наближають прихований або показаний стан захисту, рівноваги чи стійкості до межі зламу. Її перетин перериває ціль і коротко відкриває критичний удар незалежно від того, заповнюється смуга чи спорожнюється.
 
 ### Включає
 
-Пробиття блоку, втрата рівноваги та наступний критичний удар у Elden Ring.
+Пробиття захисту й рівноваги в Elden Ring; злам стійкості та нагода для смертельного удару в Sekiro.
 
 ### Виключає
 
@@ -9067,6 +9114,7 @@ Conquest у Battlefield 6 та Battlefield V, де тривале виснаже
 
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
+- [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 
 ## SYS-411
@@ -9891,6 +9939,7 @@ Byrdonis Egg, Lantern Key, Dowsing і Spoils Map у Slay the Spire 2.
 
 ### Ігри-носії
 
+- [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 
 ## SYS-451
@@ -10018,6 +10067,7 @@ Byrdonis Egg, Lantern Key, Dowsing і Spoils Map у Slay the Spire 2.
 ### Ігри-носії
 
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
+- [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 
@@ -10067,25 +10117,26 @@ Byrdonis Egg, Lantern Key, Dowsing і Spoils Map у Slay the Spire 2.
 
 ## SYS-459
 
-- Назва: Координувати ролі футбольної команди без м’яча
-- Переглянуто: `2026-08-27`
+- Назва: Координувати ролі некерованих учасників командним ШІ
+- Переглянуто: `2026-09-10`
 
 ### Операційне визначення
 
-Система безперервно розміщує некерованих футболістів відповідно до побудови, ролі, володіння, положення м’яча, опіки й вільного простору.
+Система безперервно розміщує й спрямовує некерованих учасників обох сторін відповідно до побудови чи ролі, володіння, положення спільного об’єкта, опіки, вільного простору, тактичної політики й поточного стану взаємодії.
 
 ### Включає
 
-Відкривання для підтримки, захисна побудова й рішення комп’ютерного суперника у EA SPORTS FC 26.
+Відкривання, захисну побудову й опіку у EA SPORTS FC 26 та Football Manager 26; ривки без м’яча, розтягування, підстрахування, обхід заслонів і швидкий перехід у NBA 2K26.
 
 ### Виключає
 
-Безпосередній рух; незмінні маршрути; складання клубного складу облікового запису.
+Безпосередній рух керованого учасника; перенесення осередку керування; ручну чи автоматичну заміну складу; незмінні маршрути; побудову постійного складу.
 
 ### Ігри-носії
 
 - [`GAME-0163` — EA SPORTS FC 26](../games/a-f/ea-sports-fc-26.md)
 - [`GAME-0175` — Football Manager 26](../games/a-f/football-manager-26.md)
+- [`GAME-0241` — NBA 2K26](../games/m-r/nba-2k26.md)
 
 ## SYS-460
 
@@ -10195,6 +10246,7 @@ Byrdonis Egg, Lantern Key, Dowsing і Spoils Map у Slay the Spire 2.
 
 ### Ігри-носії
 
+- [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 
 ## SYS-465
@@ -10258,6 +10310,7 @@ Byrdonis Egg, Lantern Key, Dowsing і Spoils Map у Slay the Spire 2.
 
 ### Ігри-носії
 
+- [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 
@@ -10302,6 +10355,7 @@ Byrdonis Egg, Lantern Key, Dowsing і Spoils Map у Slay the Spire 2.
 
 ### Ігри-носії
 
+- [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 - [`GAME-0183` — Vampire Survivors](../games/s-z/vampire-survivors.md)
 
@@ -11270,6 +11324,7 @@ Echo Detector у пролозі та Piece of Cake.
 ### Ігри-носії
 
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
+- [`GAME-0276` — Forza Horizon 5](../games/a-f/forza-horizon-5.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
@@ -11298,6 +11353,7 @@ Echo Detector у пролозі та Piece of Cake.
 
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
 - [`GAME-0195` — BeamNG.drive](../games/a-f/beamng-drive.md)
+- [`GAME-0276` — Forza Horizon 5](../games/a-f/forza-horizon-5.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
@@ -11307,23 +11363,25 @@ Echo Detector у пролозі та Piece of Cake.
 
 ## SYS-517
 
-- Назва: Перетворювати результати водіння на поступ у Horizon Festival
-- Переглянуто: `2026-08-27`
+- Назва: Зараховувати кожен допустимий результат до однієї збереженої величини поступу
+- Переглянуто: `2026-09-09`
 
 ### Операційне визначення
 
-Додавати заявлені Festival Points першого придатного результату до збереженого поступу кампанії, який може перетнути наступний поріг.
+Кожен результат, який обмежені правила визнають допустимим, — чи то завершена дія, чи то оголошена зміна величини, яку правила вже й так відстежують, — додає визначену для нього суму до однієї збереженої величини поступу, тому різні допустимі джерела можуть заміняти одне одного на шляху до наступного порога.
 
 ### Включає
 
-Зафіксований маршрут Horizon Qualifiers до першого Horizon Invitational.
+Результати Horizon Qualifiers і оцінені дії водіння, які додають Festival Points до першого Horizon Invitational у Forza Horizon 6; звільнення полонених, руйнування ворожих споруд, завдання по радіо й зачистки зайнятих місць, які додають Resistance Points до звільнення дослідженого початкового острова у Far Cry 5; кожну прокладену дорогу та поставлену службову будівлю, що зараховує власну визначену суму, і періодичне нарахування за зафіксований приріст населення та задоволеності, які разом ведуть до наступної віхи в Cities: Skylines II.
 
 ### Виключає
 
-Кредити, досвід, очки поточного Festival Playlist або повторне накопичення на одній події.
+Рахунок, який не змінює збереженого замка; упорядкований ланцюг завдань без спільної величини; особистий досвід, який витрачають на поліпшення; норму, що приймає лише один визначений вид постачання; правила, які тільки показують величину, але не поповнюють її.
 
 ### Ігри-носії
 
+- [`GAME-0284` — "Cities: Skylines II"](../games/a-f/cities-skylines-ii.md)
+- [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 
 ## SYS-518
@@ -11367,6 +11425,7 @@ Echo Detector у пролозі та Piece of Cake.
 ### Ігри-носії
 
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
+- [`GAME-0276` — Forza Horizon 5](../games/a-f/forza-horizon-5.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
@@ -11436,6 +11495,7 @@ Drive, економіку закупівель раунду, постійний 
 ### Ігри-носії
 
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
+- [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 
 ## SYS-523
 
@@ -11771,6 +11831,7 @@ DBNO, відновлення союзником і остаточне вибут
 
 ### Ігри-носії
 
+- [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
 - [`GAME-0176` — XCOM 2](../games/s-z/xcom-2.md)
 
 ## SYS-539
@@ -11876,6 +11937,7 @@ Small і large boost pads та boost thrust у Rocket League.
 
 ### Ігри-носії
 
+- [`GAME-0278` — DAVE THE DIVER](../games/a-f/dave-the-diver.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
 
 ## SYS-544
@@ -12029,16 +12091,16 @@ Small і large boost pads та boost thrust у Rocket League.
 
 ## SYS-551
 
-- Назва: Просувати локальну чергу підготовки юнітів
-- Переглянуто: `2026-08-31`
+- Назва: Просувати прив’язану до виробничого місця чергу
+- Переглянуто: `2026-09-07`
 
 ### Операційне визначення
 
-Власна виробнича будівля в реальному часі просуває перше оплачене замовлення, створює юніта після завершення й переходить до наступного, якщо випуск лишається допустимим.
+Власне виробниче місце або його канал у реальному часі просуває перше оплачене замовлення загону чи споруди, випускає завершений загін або переводить споруду в готовий до розміщення стан, а потім переходить до наступного замовлення, якщо завершення лишається допустимим.
 
 ### Включає
 
-Черги селян і військових юнітів в Age of Empires II: Definitive Edition.
+Черги селян і військових загонів в Age of Empires II: Definitive Edition; виробництво піхоти й готових до розміщення споруд у Command & Conquer Remastered Collection.
 
 ### Виключає
 
@@ -12047,7 +12109,9 @@ Small і large boost pads та boost thrust у Rocket League.
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
+- [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
 
 ## SYS-552
 
@@ -12308,16 +12372,16 @@ Wonder, Relic, Score, часову перемогу, кампанійний тр
 
 ## SYS-564
 
-- Назва: Просувати паралельні державні дослідження
-- Переглянуто: `2026-08-31`
+- Назва: Просувати паралельні напрями стратегічних досліджень
+- Переглянуто: `2026-09-10`
 
 ### Операційне визначення
 
-Кожен зайнятий осередок незалежно накопичує календарний поступ обраної технології та застосовує її відкриття після завершення.
+Кожен зайнятий стратегічний напрям незалежно накопичує поступ обраної доступної технології в часі та застосовує її відкриття чи зміни після завершення.
 
 ### Включає
 
-Одночасні промислові, електронні, сухопутні й авіаційні дослідження.
+Одночасні промислові, електронні, сухопутні й авіаційні дослідження у Hearts of Iron IV; три паралельні напрями досліджень у Stellaris.
 
 ### Виключає
 
@@ -12326,6 +12390,7 @@ Wonder, Relic, Score, часову перемогу, кампанійний тр
 ### Ігри-носії
 
 - [`GAME-0182` — Hearts of Iron IV](../games/g-l/hearts-of-iron-iv.md)
+- [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
 
 ## SYS-565
 
@@ -12602,16 +12667,16 @@ Wonder, Relic, Score, часову перемогу, кампанійний тр
 
 ## SYS-578
 
-- Назва: Змінювати єдиний запас здоров’я забігу
-- Переглянуто: `2026-08-31`
+- Назва: Змінювати єдиний запас здоров’я поточної спроби
+- Переглянуто: `2026-09-07`
 
 ### Операційне визначення
 
-Ворожий контакт зменшує поточний запас здоров’я, сумісні ефекти відновлюють утрачене, а нуль завершує забіг, якщо відродження недоступне.
+Ворожий контакт або атаки зменшують поточний запас здоров’я, сумісні ефекти відновлюють утрачене, а нуль завершує поточну спробу, якщо передбачене правилами відродження не запобігає завершенню.
 
 ### Включає
 
-Здоров’я Antonio, ворожу шкоду, Floor Chicken і лікування від Bloody Tear.
+Здоров’я Antonio, ворожу шкоду, Floor Chicken і лікування від Bloody Tear у Vampire Survivors; маски, шкоду від атак і лікування через Focus у Hollow Knight.
 
 ### Виключає
 
@@ -12624,13 +12689,20 @@ Wonder, Relic, Score, часову перемогу, кампанійний тр
 - [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
+- [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
+- [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
+- [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
+- [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
+- [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
+- [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
+- [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0268` — Undertale](../games/s-z/undertale.md)
 - [`GAME-0183` — Vampire Survivors](../games/s-z/vampire-survivors.md)
@@ -13718,24 +13790,25 @@ Rochelle, Ellis і Nick поряд із Coach у The Hotel; три штатні 
 
 ## SYS-630
 
-- Назва: Перетворити робочу смугу агрегата на стан поля
-- Переглянуто: `2026-08-31`
+- Назва: Перетворювати покриття робочого інструмента на стійку обробку поверхні
+- Переглянуто: `2026-09-08`
 
 ### Операційне визначення
 
-Коли сумісний наповнений агрегат увімкнений, застосувати його рухому робочу смугу до придатних ділянок поля, витратити матеріал і зберегти нову обробку в стані поля та прогресі завдання.
+Поки сумісний спрямований робочий інструмент діє, система перетинає його рухомий слід або струмінь із придатним станом поверхні й зберігає щойно зараховану обробку в цій поверхні та поступі поточного завдання; уже зараховане перекриття не дає рівноцінного нового поступу.
 
 ### Включає
 
-Внесення твердого добрива та зміна стану удобрення контрактного поля.
+Внесення твердого добрива та поступ удобрення в контракті Farming Simulator 25; видалення бруду й зарахований поступ окремих поверхонь у першому завданні кар’єри PowerWash Simulator.
 
 ### Виключає
 
-Ручне збирання; заводське перетворення; декоративні сліди; порожній або вимкнений агрегат; обробку поза призначеним полем.
+Ручне збирання; автономне заводське перетворення; декоративні сліди без стійкого стану; рух вимкненого інструмента; обробку поза призначеною ціллю; шкоду, що розв’язується лише на одному порозі здоров’я об’єкта.
 
 ### Ігри-носії
 
 - [`GAME-0196` — Farming Simulator 25](../games/a-f/farming-simulator-25.md)
+- [`GAME-0279` — PowerWash Simulator](../games/m-r/powerwash-simulator.md)
 
 ## SYS-631
 
@@ -13946,27 +14019,6 @@ Gadgets; постійна здобич; наперед споряджений ш
 ### Ігри-носії
 
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
-
-## SYS-641
-
-- Назва: Накопичувати й застосовувати прискорення за техніку водіння
-- Переглянуто: `2026-08-31`
-
-### Операційне визначення
-
-Допустимі прийоми під час руху додають тимчасовий запас, а його активація перетворює накопичене значення на обмежене в часі збільшення прискорення машини.
-
-### Включає
-
-Зчеплене проходження поворотів, кероване ковзання та рух у повітряному потоці, що наповнюють Burst Nitrous у Need for Speed Unbound.
-
-### Виключає
-
-Звичайний закис азоту без зв’язку з технікою; просторові майданчики прискорення; постійне поліпшення двигуна.
-
-### Ігри-носії
-
-- [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 
 ## SYS-642
 
@@ -14206,24 +14258,25 @@ Easy Solo BOT Mode на вибраній Wanchu з Viper Ning.
 
 ## SYS-653
 
-- Назва: Опрацювати зачеплення гака й підтягування
-- Переглянуто: `2026-08-31`
+- Назва: Опрацьовувати зачеплення троса й рух до опори
+- Переглянуто: `2026-09-10`
 
 ### Операційне визначення
 
-Вистрілений заряд перевіряє ціль, витрачається й після допустимого влучання рухає користувача вздовж троса до прибуття, зіткнення, відпускання чи скасування.
+Запит гака перевіряє вибрану поверхню чи учасника й, коли зачеплення дозволене, рухає користувача вздовж троса до прибуття, зіткнення, відпускання чи іншого скасування; доступність і витрату предмета визначають окремі правила.
 
 ### Включає
 
-Підйом, скорочення дистанції та відступ із Grappling Hook у NARAKA: BLADEPOINT.
+Підйом, скорочення дистанції та відступ із Grappling Hook у NARAKA: BLADEPOINT; рух до позначених опор у Sekiro.
 
 ### Виключає
 
-Звичайний стрибок; постійний гак лише з часом відновлення; підтягування цілі до нерухомого героя.
+Звичайний стрибок; підтягування цілі до нерухомого героя; телепортацію без пройденого шляху троса.
 
 ### Ігри-носії
 
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
+- [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 
 ## SYS-654
 
@@ -14266,6 +14319,7 @@ Easy Solo BOT Mode на вибраній Wanchu з Viper Ning.
 ### Ігри-носії
 
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
+- [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 
 ## SYS-656
@@ -14543,24 +14597,25 @@ Shadow Corruption у визначеному Solo BOT Mode NARAKA: BLADEPOINT.
 
 ## SYS-669
 
-- Назва: Перетворювати ракету на вершині на гелікоптерний порятунок
-- Переглянуто: `2026-08-31`
+- Назва: Перетворювати допустимий сигнал на завершення обмеженого маршруту
+- Переглянуто: `2026-09-09`
 
 ### Операційне визначення
 
-Запалена в зоні PEAK ракета викликає гелікоптер, запускає його прибуття й відлік, а потім показує порятунок, Scouting Report і завершений результат експедиції.
+Після проходження обов’язкового обмеженого маршруту сигнал, який живий керований персонаж активує в належній кінцевій зоні, запускає передбачену правилами відповідь і зараховує завершення маршруту.
 
 ### Включає
 
-Позитивне завершення одиночної стандартної експедиції Peak.
+Запалений Flare, гелікоптер і підсумок експедиції у PEAK; заряджений Distress Pistol і завершення Hopeless Rescue у The Long Dark.
 
 ### Виключає
 
-Саме лише досягнення вершини; завершення через Nadir; обов’язковий дотик до мотузки гелікоптера.
+Прибуття без сигналу; бойовий постріл; інше завершення з окремою умовою; повтор після зарахованого результату.
 
 ### Ігри-носії
 
 - [`GAME-0203` — "PEAK"](../games/m-r/peak.md)
+- [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 
 ## SYS-670
 
@@ -14967,20 +15022,20 @@ Shadow Corruption у визначеному Solo BOT Mode NARAKA: BLADEPOINT.
 
 ## SYS-691
 
-- Назва: Перетворювати звичайну шкалу нітро на прискорення
-- Переглянуто: `2026-09-01`
+- Назва: Перетворювати обмежений запас для їзди на прискорення автомобіля
+- Переглянуто: `2026-09-10`
 
 ### Операційне визначення
 
-Коли в керованого автомобіля є звичайний запас нітро, активація зменшує поточну шкалу й надає обмежене прискорення до відпускання кнопки або вичерпання доступного заряду.
+Коли в безпосередньо керованого автомобіля є заряд в обмеженому запасі прискорення, активація зменшує цей запас і застосовує прискорення до відпускання, вичерпання чи завершення обмеженого ефекту.
 
 ### Включає
 
-Застосування звичайного нітро Mustang і Regera у визначеній місії Need for Speed Payback.
+Звичайне нітро в Need for Speed Payback, Need for Speed: Most Wanted (2005), Need for Speed: The Run і Asphalt Legends; зароблений технікою Burst Nitrous у Need for Speed Unbound.
 
 ### Виключає
 
-Нітро, зароблене технікою водіння в Unbound; майданчики прискорення Rocket League; постійне поліпшення; декоративний колір нітро.
+Перехід накопичення чи поповнення запасу; поєднаний цикл просторових майданчиків, їх відновлення й спрямованої тяги з SYS-540; постійне поліпшення характеристик; декоративний вихлоп або колір нітро.
 
 ### Ігри-носії
 
@@ -14988,6 +15043,7 @@ Shadow Corruption у визначеному Solo BOT Mode NARAKA: BLADEPOINT.
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
+- [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 
 ## SYS-692
 
@@ -16173,6 +16229,7 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
+- [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 
 ## SYS-749
 
@@ -16196,6 +16253,8 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
+- [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
+- [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 
 ## SYS-750
@@ -16284,23 +16343,24 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 
 ## SYS-754
 
-- Назва: Витрачати й автоматично відновлювати запас переносного освітлення
-- Переглянуто: `2026-09-03`
+- Назва: Перетворювати обмежений заряд пристрою на переносне освітлення
+- Переглянуто: `2026-09-10`
 
 ### Операційне визначення
 
-Активний персональний освітлювальний пристрій створює обмежене місцеве світлове поле й витрачає окремий запас; у неактивному стані поле зникає, а той самий запас автоматично повертається до межі.
+Поки персональний переносний освітлювальний пристрій активний і має позитивний внутрішній заряд, система створює обмежене місцеве світлове поле та зменшує заряд до вимкнення пристрою або його вичерпання.
 
 ### Включає
 
-Витрата й автоматичне відновлення енергії ліхтарика HEV у межах Unforeseen Consequences у Half-Life (1998).
+Витрата заряду ліхтарика HEV у межах Unforeseen Consequences у Half-Life (1998) і витрата заряду ліхтарика у визначеній лікарняній місії Alien: Isolation.
 
 ### Виключає
 
-Паливо розміщеного смолоскипа чи багаття; світло без ресурсу; пасивне виживання в темряві; бойовий щит зі спільним запасом; одноразове освітлення без відновлення.
+Автоматичне відновлення заряду в неактивному стані (SYS-851); опрацювання ручного поповнення зі скінченного переносного запасу (SYS-791); паливо розміщеного смолоскипа чи багаття; світло без ресурсу; пасивне виживання в темряві; бойовий щит зі спільним запасом.
 
 ### Ігри-носії
 
+- [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 
 ## SYS-755
@@ -16323,7 +16383,10 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 ### Ігри-носії
 
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
+- [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
+- [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
+- [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
@@ -16386,27 +16449,6 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 ### Виключає
 
 Лише детерміновану геометрію; ймовірність у меню; удар у футбольні ворота; нарахування очок після вже виконаного влучання.
-
-### Ігри-носії
-
-- [`GAME-0241` — NBA 2K26](../games/m-r/nba-2k26.md)
-
-## SYS-759
-
-- Назва: Координувати некеровані баскетбольні ролі командним ШІ
-- Переглянуто: `2026-09-03`
-
-### Операційне визначення
-
-Система безперервно розташовує й веде некерованих партнерів і суперників відповідно до володіння, ролі, простору, опіки, заслонів, переходу й автоматичної ротації.
-
-### Включає
-
-Ривки без м’яча, розтягування, підстрахування, швидкий перехід і автоматичні заміни у NBA 2K26.
-
-### Виключає
-
-Пряме керування поточним гравцем; наперед обчислений результат; побудову постійного складу; другого гравця-людину; заданих учасників без реакції на володіння.
 
 ### Ігри-носії
 
@@ -16519,24 +16561,25 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 
 ## SYS-765
 
-- Назва: Перетворювати допустимі маневри авто на заряд звичайного нітро
-- Переглянуто: `2026-09-03`
+- Назва: Перетворювати допустимі маневри водіння на заряд запасу прискорення
+- Переглянуто: `2026-09-10`
 
 ### Операційне визначення
 
-Система виявляє допустимі живі маневри авто й додає їхній результат до того самого обмеженого запасу звичайного нітро, який потім можна витратити на прискорення.
+Система виявляє допустимі живі маневри водіння й додає їхній результат до обмеженого запасу, який згодом можна витратити на прискорення автомобіля.
 
 ### Включає
 
-Дрифт і повітряні трюки, що додають нітро у визначеній гонці Asphalt Legends.
+Дрифт і повітряні трюки, що додають нітро у визначеній гонці Asphalt Legends; зчеплене проходження поворотів, кероване ковзання й рух у повітряному потоці, що додають Burst Nitrous у визначеній події Need for Speed Unbound.
 
 ### Виключає
 
-Окремий запас технічного ривка; фіксовану площадку прискорення; пасивне заряджання; постійне поліпшення двигуна.
+Збирання фіксованого просторового прискорювача; пасивне заряджання незалежно від стану водіння; подальше витрачання запасу; постійне поліпшення двигуна.
 
 ### Ігри-носії
 
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
+- [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 
 ## SYS-766
 
@@ -16624,24 +16667,25 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 
 ## SYS-770
 
-- Назва: Перетворити контекстне добивання на сумісні ресурси відновлення
-- Переглянуто: `2026-09-04`
+- Назва: Перетворювати контекстну дію з усуненням цілі на сумісні ресурси відновлення
+- Переглянуто: `2026-09-09`
 
 ### Операційне визначення
 
-Завершення допустимого контекстного добивання усуває приголомшену ціль і створює у світі обмежені предмети, які після підбирання відновлюють сумісні втрачені бойові ресурси.
+Завершення допустимої контекстної дії, яка усуває живу ціль, створює у світі обмежені предмети, що після підбирання відновлюють оголошений для цієї дії клас втрачених бойових ресурсів.
 
 ### Включає
 
-Здоров’я та боєприпаси, що випадають після Glory Kill у DOOM (2016).
+Здоров’я та боєприпаси після Glory Kill у DOOM (2016); здоров’я після Glory Kill і боєприпаси після застосування Chainsaw у визначеній першій місії Campaign у DOOM Eternal.
 
 ### Виключає
 
-Звичайну поразку від пострілу без перетворення добиванням; гарантовану постійну нагороду спорядженням; окремий обмін Chainsaw лише на боєприпаси в пізнішій місії; автоматичне лікування без предметів у світі.
+Звичайне усунення пострілом без контекстного перетворення; перенесення сюди умов приголомшення, досяжності, цілі або пального для вихідної дії; гарантовану постійну нагороду спорядженням; автоматичне лікування без предметів у світі.
 
 ### Ігри-носії
 
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
+- [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 
 ## SYS-771
 
@@ -16752,15 +16796,15 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 ## SYS-776
 
 - Назва: Перетворювати тривале прицілювання на перевагу зосередженого пострілу
-- Переглянуто: `2026-09-05`
+- Переглянуто: `2026-09-08`
 
 ### Операційне визначення
 
-Поки зброя лишається наведеною без іншого визначеного переривання, система звужує чинний приціл до зосередженого стану, а прийнятий у ньому постріл має вищу ймовірність приголомшення або критичного наслідку.
+Поки зброя лишається наведеною без іншого визначеного переривання, система звужує чинний приціл до зосередженого стану, у якому прийнятий постріл отримує свою оголошену перевагу в точності, шкоді, приголомшенні або ймовірності критичного наслідку, а визначений сигнал скидання повертає приціл до розкритого стану.
 
 ### Включає
 
-Утримування вогнепальної зброї наведеною до зосередження прицілу перед пострілом у визначеній першій главі Resident Evil 4.
+Утримування вогнепальної зброї наведеною до зосередження прицілу перед пострілом у визначеній першій главі Resident Evil 4; утримування пістолета піднятим, доки приціл не стиснеться до мінімуму, у якому постріли точніші й сильніші, у визначеному відкритті сценарію Leon у Resident Evil 2 (2019 remake), де рух або постріл скидає його.
 
 ### Виключає
 
@@ -16768,6 +16812,7 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 
 ### Ігри-носії
 
+- [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 
 ## SYS-777
@@ -16836,26 +16881,27 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 
 ## SYS-780
 
-- Назва: Завершувати авторський сегмент зі збереженим керуванням у наступнику
-- Переглянуто: `2026-09-05`
+- Назва: Переносити стан завершеного авторського сегмента у керування наступника
+- Переглянуто: `2026-09-10`
 
 ### Операційне визначення
 
-Після останньої потрібної взаємодії обмеженої авторської глави чи місії система закриває її поточні завдання, показує завершення сегмента, створює або приймає збережений стан і відкриває звичайне керування в названому наступному сегменті.
+Коли обмежену авторську главу чи місію вже завершено, система записує або приймає її результат на межі збереження й створює звичайний керований стан у названому наступному сегменті; цей стан можна відновити під час визначеної перевірки збереження.
 
 ### Включає
 
-Завершення Chapter 1, збереження результату й перше збережене керування в Chapter 2 у визначеній свіжій грі Resident Evil 4; завершення Mission 5 і відновлення початку Mission 6 у визначеному Story Mode гри Alien: Isolation.
+Збереження результату завершеної Chapter 1 і відновлення першого керування в Chapter 2 у визначеній свіжій грі Resident Evil 4; збереження результату Mission 5 і відновлення початку Mission 6 у визначеному Story Mode гри Alien: Isolation.
 
 ### Виключає
 
-Завершення всієї кампанії; зупинку на проміжній контрольній точці; незбережену сцену; повтор завершеної глави заради рангу; перехід через послідовність босів із додатковими правилами розвитку.
+Завершення всієї кампанії; зупинку на проміжній контрольній точці; виконання мети сегмента без переходу до збереженого стану наступника; саме лише повідомлення про завершення без збереженого стану; незбережену сцену; повтор завершеної глави заради рангу; перехід через послідовність босів із додатковими правилами розвитку.
 
 ### Ігри-носії
 
 - [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
+- [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
@@ -16926,20 +16972,20 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 
 ## SYS-785
 
-- Назва: Зберігати пройдені вершини глави у доступній для повторного огляду мапі гілок
-- Переглянуто: `2026-09-05`
+- Назва: Зберігати стан пройдених вершин глави після її завершення
+- Переглянуто: `2026-09-10`
 
 ### Операційне визначення
 
-Після завершення авторської глави система зберігає вершини й кінець фактично пройденого шляху, показує їх у доступній пізніше мапі гілок і лишає непройдені альтернативи замкненими або неназваними.
+Після завершення авторської глави система зберігає на межі глави стани вершин, ребер і кінця, яких фактично досяг пройдений шлях, та пам’ятає, які альтернативи лишилися непройденими, для подальшого отримання цих даних.
 
 ### Включає
 
-Післяглавну блок-схему Detroit: Become Human і пізніший огляд завершеної вступної глави з поверхні вибору глав.
+Збережений стан пройдених вершин, ребер і кінця, на якому ґрунтується блок-схема завершеної вступної глави Detroit: Become Human.
 
 ### Виключає
 
-Повну мапу шляхів до початку гри; лінійну позначку завершення без запису шляху; глобальні відсотки гравців; повторне проходження чи перезапис глави; розкриття всіх прихованих наслідків без їх проходження.
+Тимчасовий післяглавний показ без збереженого стану шляху; лінійну позначку завершення без запису шляху; глобальні відсотки гравців; повторне проходження чи перезапис глави; відкриття всіх прихованих альтернатив без їх проходження.
 
 ### Ігри-носії
 
@@ -17052,20 +17098,20 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 
 ## SYS-791
 
-- Назва: Витрачати заряд переносного світла й поповнювати його зі скінченного запасу батарейок
-- Переглянуто: `2026-09-05`
+- Назва: Поповнювати переносне освітлення зі скінченного запасу батарейок
+- Переглянуто: `2026-09-10`
 
 ### Операційне визначення
 
-Поки персональний освітлювальний пристрій активний, система перетворює його позитивний внутрішній заряд на місцеве світлове поле й зменшує заряд; допустиме поповнення витрачає одну одиницю сумісного скінченного запасу батарейок при персонажі та підвищує заряд до межі.
+Після прийнятої ручної команди поповнення система витрачає одну сумісну одиницю зі скінченного переносного запасу батарейок і підвищує внутрішній заряд переносного освітлювального пристрою до його межі.
 
 ### Включає
 
-Витрачання заряду ліхтарика й ручне поповнення батарейкою у визначеній місії Alien: Isolation.
+Опрацювання ручного поповнення заряду ліхтарика батарейкою у визначеній місії Alien: Isolation.
 
 ### Виключає
 
-Автоматичне відновлення того самого запасу в неактивному стані; нерухомий світильник; перезарядження зброї; освітлення без обмеження заряду; батарейку лише як складник іншого предмета.
+Команду гравця почати поповнення (ACT-453); витрату заряду на світло в активному стані (SYS-754); автоматичне відновлення в неактивному стані (SYS-851); нерухомий світильник; перезарядження зброї; батарейку лише як складник іншого предмета.
 
 ### Ігри-носії
 
@@ -17115,24 +17161,25 @@ Mimic, який копіює буденний предмет станції, а 
 
 ## SYS-794
 
-- Назва: Перетворювати пошкодження ділянки тіла на відсікання й втрату функції
-- Переглянуто: `2026-09-05`
+- Назва: Руйнувати приєднаний просторовий компонент і забирати його функцію
+- Переглянуто: `2026-09-10`
 
 ### Операційне визначення
 
-Пошкодження накопичується на допустимій приєднаній ділянці тіла, руйнує збережені шари й після досягнення порога відділяє цю ділянку, забираючи в решти живого тіла пов’язану з нею функцію руху, атаки чи опори.
+Сумісне пошкодження накопичується на допустимому просторово визначеному компоненті, приєднаному до живого суб’єкта; після досягнення порога компонент руйнується або відділяється, а пов’язана з ним функція руху, атаки чи підтримки зникає або вимикається, тоді як суб’єкт лишається живим зі скороченим набором функцій до окремого усунення.
 
 ### Включає
 
-Відсікання ноги ворога для обмеження руху або атакувальної кінцівки для скорочення досяжності в обмеженому Chapter 1 гри Dead Space (2023).
+Відсікання ноги чи атакувальної кінцівки ворога в обмеженому Chapter 1 гри Dead Space (2023), а також руйнування встановленої на Arachnotron турелі, яке вимикає дальню атаку у визначеній першій місії Campaign у DOOM Eternal.
 
 ### Виключає
 
-Пошкодження за місцем влучання без відділення; декоративні уламки; сюжетне розчленування після поразки; сукупну втрату здоров’я без зміни набору функцій; знос предмета.
+Пошкодження за місцем влучання без руйнування компонента чи втрати функції; декоративні уламки; сюжетне розчленування після поразки; сукупну втрату здоров’я без зміни набору функцій; руйнування неживої перешкоди; пробиття бронемашини з окремим розв’язанням екіпажу чи модулів; тимчасовий стан за цілого компонента; знос предмета.
 
 ### Ігри-носії
 
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
+- [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 
 ## SYS-795
 
@@ -17220,24 +17267,26 @@ Mimic, який копіює буденний предмет станції, а 
 
 ## SYS-799
 
-- Назва: Перетворювати замкненого стража на подальшу форму атак
-- Переглянуто: `2026-09-05`
+- Назва: Переводити замкнену сутичку в наступну фазу за порогом здоров’я
+- Переглянуто: `2026-09-08`
 
 ### Операційне визначення
 
-Коли обов’язковий страж замкненої сутички опускається нижче визначеного порога залишкового здоров’я, система перетворює його на подальшу форму з іншим набором атак, тоді як та сама сутичка, замкнена арена й накопичена шкода тривають.
+Коли поточний учасник замкненої сутички переходить авторський поріг залишкового здоров’я чи приголомшення або зазнає поразки як обов’язковий учасник послідовного набору, система переводить ту саму сутичку в наступну фазу зі зміненими атаками, зберігаючи замкнену арену й проходження попередніх фаз; перетворення того самого тіла не обов’язкове.
 
 ### Включає
 
-Другу форму, якої страж маршруту набуває на порозі здоров’я в замкненій сутичці DARK SOULS III.
+Другу форму стража в замкненій сутичці DARK SOULS III; пізніші фази False Knight із доданими падучими небезпеками в Hollow Knight; перехід від кожного переможеного учасника The Root Pack до наступного учасника й набору атак у тій самій сутичці Cuphead.
 
 ### Виключає
 
-Приголомшення чи злам блоку лише за здоров’ям; окрему нову сутичку після завершення першої; сюжетну вставку, що не змінює набору атак; зростання складності звичайних польових ворогів.
+Приголомшення чи злам блоку, після якого набір атак не змінюється; окрему нову сутичку після завершення першої; сюжетну вставку без зміни атак; зростання складності звичайних польових ворогів.
 
 ### Ігри-носії
 
+- [`GAME-0277` — Cuphead](../games/a-f/cuphead.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
+- [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
 
 ## SYS-800
 
@@ -17637,3 +17686,656 @@ Mimic, який копіює буденний предмет станції, а 
 ### Ігри-носії
 
 - [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
+
+## SYS-820
+
+- Назва: Відкласти смертельний удар у вікно останнього шансу за наявного запасу
+- Переглянуто: `2026-09-07`
+
+### Операційне визначення
+
+Коли вхідна шкода мала б завершити спробу, а керований боєць має оголошений запас засобів відновлення, система відкладає поразку й відкриває обмежене вікно останнього шансу. Якщо гравець до його завершення виконає оголошену протидію джерелу смертельної шкоди, система витрачає одну одиницю запасу, відновлює допустиме здоров’я і продовжує спробу; інакше зараховує поразку.
+
+### Включає
+
+Вікно останнього шансу в дослідженому першому розділі Max Payne 3: смертельний постріл за наявного знеболювального відкладає поразку, а своєчасне знешкодження стрільця витрачає одну пігулку, повертає трохи здоров’я і поновлює гру.
+
+### Виключає
+
+Стан знесилення, з якого підіймає напарник або таймер; автоматичне додаткове життя чи продовження; пасивне зменшення шкоди; засіб відновлення, спожитий за власним вибором до удару; повернення до контрольної точки після вже зарахованої поразки.
+
+### Ігри-носії
+
+- [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
+
+## SYS-821
+
+- Назва: Доставляти задану автором дружню силу на оголошеній події місії
+- Переглянуто: `2026-09-07`
+
+### Операційне визначення
+
+На оголошених подіях усередині однієї обмеженої місії правила передають гравцеві під команду задану автором дружню групу без запиту, ціни та кроку виробництва, тож сила, яку має гравець, змінюється за розкладом місії, а не за його витратами.
+
+### Включає
+
+Наземні загони й мобільну будівельну машину, які гравець отримує у першій місії GDI в Command & Conquer Remastered Collection до того, як може сам виробляти такі об’єкти.
+
+### Виключає
+
+Підкріплення, яке гравець викликає й оплачує; загін, створений чергою виробництва; відродження власного персонажа; ворожу групу, випущену тригером; постійного союзника, набраного поза місією.
+
+### Ігри-носії
+
+- [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
+
+## SYS-822
+
+- Назва: Зарахувати обмежене заняття з оцінкою виконання
+- Переглянуто: `2026-09-08`
+
+### Операційне визначення
+
+Коли обмежене заняття завершується, система оцінює оголошені властивості того, як саме його виконано — витрачений час, залишок здоров’я, захисні відповіді, якість обслуговування чи витрачений ресурс — і записує загальну оцінку поряд із результатом, тож два завершені сеанси можуть мати різні підсумки.
+
+### Включає
+
+Оцінку часу, залишку здоров’я, парирувань, витрат Super Meter і рівня складності після перемоги в дослідженій сутичці Botanic Panic! на Regular у Cuphead; оцінку виконання, яку надають після закриття дослідженого першого обслуговування в DAVE THE DIVER.
+
+### Виключає
+
+Позначку проходження без оцінювання; очки, які лише ранжують гравців між собою; щабель нагороди, виведений з очок активності; складність, обрану до заняття; підсумок, який показує числа, не оцінюючи їх.
+
+### Ігри-носії
+
+- [`GAME-0277` — Cuphead](../games/a-f/cuphead.md)
+- [`GAME-0278` — DAVE THE DIVER](../games/a-f/dave-the-diver.md)
+
+## SYS-823
+
+- Назва: Перетворювати запас від попереднього заняття на обмежену сесію обслуговування
+- Переглянуто: `2026-09-08`
+
+### Операційне визначення
+
+Обмежена сесія обслуговування отримує місткість доступного меню із запасу, здобутого раніше іншим заняттям; приготування й виконання вибраних замовлень витрачає цю місткість, перетворює прийняті доставки на виручку й зараховує сесію за її власної умови закриття, тож здобич попереднього заняття обмежує те, що можна запропонувати тепер.
+
+### Включає
+
+Досліджене перше обслуговування в DAVE THE DIVER, де меню та кількість порцій походять із риби, яку принесло безпосередньо попереднє обов’язкове занурення.
+
+### Виключає
+
+Продаж зібраного торговцю за показаною ціною; чергу виробництва, яка безперервно споживає збережені входи; рецепт, виконаний на вимогу; крамницю, запас якої поповнюють правила, а не попереднє заняття гравця; надходження попиту чи нетерпіння одержувача без перетворення запасу між заняттями.
+
+### Ігри-носії
+
+- [`GAME-0278` — DAVE THE DIVER](../games/a-f/dave-the-diver.md)
+
+## SYS-825
+
+- Назва: Розрахувати застосовану навичку через кидок влучання, пошкодження з урахуванням захисту, критичний удар і стани, перевірені опорами
+- Переглянуто: `2026-09-08`
+
+### Операційне визначення
+
+Після застосування допустимої навички система кидає влучання як влучність навички мінус ухилення цілі, вибирає пошкодження з діапазону навички, зменшене на відсоток захисту цілі, застосовує множник критичного удару за окремим кидком, а потім перевіряє кожен оголошений стан (оглушення, пошкодження з часом, переміщення, дебаф чи позначку) проти відповідного опору цілі; застосоване пошкодження з часом далі спрацьовує на початку кожного ходу цілі та на кожному кроці коридором, доки не мине.
+
+### Включає
+
+Розрахунок влучності, ухилення, захисту, пошкодження, критичних ударів, оглушення, кровотечі, отрути, відкидання й дебафів у Darkest Dungeon із прихованим бонусом +5 до влучності, гарантованим влучанням від 95 і критичними ударами на 150% максимального пошкодження протягом визначеного навчального маршруту Old Road.
+
+### Виключає
+
+Кидок атаки проти класу броні з рятівними кидками, концентрацією й поверхнями (SYS-389); розрахунок дальнього бою за укриттям і частиною тіла (SYS-208); тимчасовий блок, що поглинає пошкодження перед здоров'ям (SYS-165); переміщення, яке розраховує зіткнення чи наслідки місцевості (SYS-020); вибір навички чи цілі.
+
+### Ігри-носії
+
+- [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
+
+## SYS-826
+
+- Назва: Обирати навичку кожного ворога, допустиму з його ряду, за зваженим шансом і правилом вибору цілі
+- Переглянуто: `2026-09-08`
+
+### Операційне визначення
+
+На ході ворожого юніта система обирає одну з навичок, допустимих із його поточного ряду, за оголошеними вагами вибору, застосовує правило вибору цілі цієї навички до рядів, яких вона сягає, і розраховує обрану навичку, не розкриваючи вибір заздалегідь.
+
+### Включає
+
+Рівношансовий вибір навичок Brigand Cutthroat на рівні Apprentice, Point Blank Shot у Brigand Bloodletter лише з ряду 1 та Blanket Fire у Brigand Fusilier з рядів 2–4 або Rushed Shot з ряду 1 разом із їхніми правилами вибору цілі протягом визначеного навчального маршруту Old Road.
+
+### Виключає
+
+Наміри ворогів, показані до дії гравця (SYS-164); ворожі команди, обрані в окремій ворожій фазі за видимим станом укриттів (SYS-537); вибір людини-суперника; самостійне зіткнення в безперервному часі (SYS-051).
+
+### Ігри-носії
+
+- [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
+
+## SYS-827
+
+- Назва: Лишати труп убитого ворога, що займає його ряди до розпаду чи знищення
+- Переглянуто: `2026-09-08`
+
+### Операційне визначення
+
+Коли ворог гине від прямого пошкодження, яке не є критичним ударом чи пошкодженням з часом, система замінює його трупом, що зберігає зайняті ворогом ряди та розмір, не має ходів, тримає частку здоров'я ворога без захисту й ухилення та зникає лише тоді, коли це здоров'я знищено, спрацював оголошений ефект розчищення або минула оголошена кількість раундів.
+
+### Включає
+
+Трупи в Darkest Dungeon, зокрема труп Brigand Bloodletter розміру два, який утримує Brigand Fusilier у ряду 3, доки його не розчистять або не минуть чотири раунди, протягом визначеного навчального маршруту Old Road.
+
+### Виключає
+
+Ворога, якого прибирають після смерті; труп, що діє чи воскресає; контейнер зі здобиччю на місці смерті (SYS-325); косметичні рештки, які не займають позиції.
+
+### Ігри-носії
+
+- [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
+
+## SYS-828
+
+- Назва: Кидати на початку бою перевірку раптовості, змінену світлом і розвідкою
+- Переглянуто: `2026-09-08`
+
+### Операційне визначення
+
+Коли починається бій, система кидає, чи заскочено зненацька якусь зі сторін, від базового шансу, зміненого поточним діапазоном світла, станом розвідки й оголошеними модифікаторами; заскоченому загону перемішують стрій і не дають відступити в першому раунді, а заскочені вороги діють останніми в першому раунді.
+
+### Включає
+
+Перевірку раптовості в Darkest Dungeon у кожному бою Old Road, де яскраве світло скасовує шанс заскочити загін і підвищує шанс заскочити розбійників.
+
+### Виключає
+
+Випереджувальний удар, який гравець розпочинає, торкнувшись ворога на полі (SYS-355); фіксовану сценарну засідку; звичайний кидок ініціативи, що йде після перевірки (SYS-388).
+
+### Ігри-носії
+
+- [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
+
+## SYS-829
+
+- Назва: Знижувати спільну шкалу світла експедиції з кожним кроком і масштабувати небезпеку й здобич за її діапазоном
+- Переглянуто: `2026-09-10`
+
+### Операційне визначення
+
+Експедиція має одну спільну шкалу світла, яка починається повною й зменшується на оголошену величину за кожен сегмент коридору чи кімнату, куди входить загін, а поточний діапазон шкали безперервно змінює вхідний стрес, ухилення загону, шанси розвідки й раптовості, влучність, пошкодження та шанс критичного удару ворогів, шанс критичного удару героїв і шанс додаткових витягувань здобичі з боїв і цікавинок.
+
+### Включає
+
+П'ять діапазонів шкали світла в Darkest Dungeon від Radiant Light до Black as Pitch, які спадають на шість пунктів за новий сегмент і на один за вже пройдений, протягом визначеного навчального маршруту Old Road.
+
+### Виключає
+
+Особисте джерело світла з локальним полем освітлення (SYS-593, SYS-754, SYS-791, SYS-851); світло, яке лише керує сприйняттям ворогів (SYS-797); фіксований авторський стан освітлення; ручну команду гравця загасити смолоскип (ACT-449); підвищення шкали предметом світла з інвентарю, що лежить поза визначеним пакетом.
+
+### Ігри-носії
+
+- [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
+
+## SYS-830
+
+- Назва: Накопичувати стрес кожного героя від бою та руху й переносити його за межу експедиції
+- Переглянуто: `2026-09-08`
+
+### Операційне визначення
+
+Кожен герой має значення стресу, яке зростає від оголошених ворожих навичок, отриманих критичних ударів, імовірнісних подій під час руху та інших оголошених джерел, масштабованих поточним діапазоном світла, і спадає від власних убивств і критичних ударів героя; це значення зберігається після завершення експедиції замість відновлення разом зі здоров'ям, з урахуванням оголошеної межі, а його оголошені порогові наслідки лишаються досяжними в подальшій грі.
+
+### Включає
+
+Стрес Reynauld і Dismas у Darkest Dungeon від ударів батогом Brigand Bloodletter, критичних ударів ворогів, випадкових подій під час руху коридором і додаткового стресу від руху назад, який знімають їхні власні критичні удари й убивства та який обмежено до 100 після повернення в Hamlet, протягом визначеного навчального маршруту Old Road.
+
+### Виключає
+
+Загальний для поселення показник настрою чи моралі (SYS-190, SYS-198); особистий розсудок, який безперервно дрейфує й породжує ворожих істот (SYS-592); шкали потреб, перетворені на ступеневі стани (SYS-338); зрив, що позбавляє керування (CON-203); саме пошкодження здоров'я.
+
+### Ігри-носії
+
+- [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
+
+## SYS-831
+
+- Назва: Тримати героя з нульовим здоров'ям на Death's Door і кидати смертельний удар за кожне наступне влучання
+- Переглянуто: `2026-09-08`
+
+### Операційне визначення
+
+Коли здоров'я героя досягає нуля, герой лишається дієвим з оголошеними штрафами замість загибелі чи вилучення; кожне наступне пошкодження кидає перевірку проти опору героя смертельному удару, провалений кидок убиває героя назавжди, а будь-яке зцілення понад нуль завершує цей стан і лишає оголошений дебаф відновлення до кінця експедиції.
+
+### Включає
+
+Death's Door у Darkest Dungeon зі штрафами -10 ACC, -25% DMG, -5 SPD і +33% стресу, базовим опором смертельному удару 67% з межею 87% та дебафом відновлення, досяжний, коли пошкодження від розбійників на Old Road перевищують здоров'я Reynauld чи Dismas.
+
+### Виключає
+
+Стан збитого з ніг героя, який не може діяти й кидає рятівні кидки за часом (SYS-390); вікно останнього шансу, оплачене запасом відновлювальних предметів (SYS-820); шаруватий стек щита й нокауту (SYS-348); поразку, після якої аватар з'являється знову (SYS-216).
+
+### Ігри-носії
+
+- [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
+
+## SYS-832
+
+- Назва: Зараховувати придатну втрату здоров'я до відновлюваного запасу й повертати її атаками
+- Переглянуто: `2026-09-10`
+
+### Операційне визначення
+
+Коли персонаж утрачає здоров'я від оголошеного придатного класу шкоди, система зараховує оголошену частку цієї втрати до відновлюваного запасу; доки запас додатний, придатні атаки персонажа повертають із нього здоров'я в оголошених обсягах, не перевищуючи зарахованої втрати та межі здоров'я.
+
+### Включає
+
+Відновлення в Dead Cells протягом визначеного першого проходження Prisoners' Quarters, де 80% втрати стають відновлюваними, а влучні удари повертають частку завданої шкоди; та Recoverable Gauge у визначеному офлайновому матчі Versus у TEKKEN 8, яку створює шкода в повітрі, лежачи й від придатних заблокованих атак, а повертають влучання по супернику або атаки, які він блокує.
+
+### Виключає
+
+Танення чи заміну запасу з часом або після нової шкоди (SYS-852); зменшення чи стирання запасу наступними ворожими атаками (SYS-836); пасивне відновлення після тихого проміжку (SYS-737); відкладене відновлення від предмета (SYS-750); пару ядра та зовнішньої шкали (SYS-473); тимчасовий щит або запас блоку (SYS-165); окремий запас, зароблений ударами й пізніше витрачений командою (SYS-397); вікно останнього шансу після смертельного удару (SYS-833, SYS-820).
+
+### Ігри-носії
+
+- [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
+- [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
+
+## SYS-833
+
+- Назва: Знижувати один смертельний удар, отриманий вище частки здоров'я, до одного очка з часом відновлення
+- Переглянуто: `2026-09-08`
+
+### Операційне визначення
+
+Коли удар звів би здоров'я аватара до нуля, а поточне здоров'я вище за оголошену частку максимуму, система замість завершення спроби встановлює здоров'я на одне очко, застосовує оголошений побічний ефект до ворогів поруч і потім вимикає захист, доки не мине оголошений час відновлення або оголошена подія повного зцілення не скине його.
+
+### Включає
+
+Захист від одного удару в Dead Cells протягом визначеного першого проходження Prisoners' Quarters, який лишає 1 очко здоров'я з рівня понад 25%, оглушує ворогів поруч і відновлюється 45 секунд або після повного зцілення.
+
+### Виключає
+
+Вікно останнього шансу, оплачене запасом відновлювальних предметів (SYS-820); предмет, мутацію чи додаткове життя для воскресіння; невразливість під час ухилення (SYS-456); відновлюваний запас звичайного пошкодження (SYS-832); стан збитого з ніг, з якого піднімає супутник.
+
+### Ігри-носії
+
+- [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
+
+## SYS-834
+
+- Назва: Автоматично зараховувати перенесені креслення розблокувань до реєстру профілю на переході
+- Переглянуто: `2026-09-08`
+
+### Операційне визначення
+
+Вхід у перехід між зонами автоматично, без команди гравця, доставляє кожне креслення розблокування, зібране під час проходження, до постійного реєстру профілю, де його можна викупити, а креслення, яке гравець ще носить, коли проходження закінчується, втрачається разом із ним.
+
+### Включає
+
+Автоматичну доставку креслень Collector у Passage після визначеного першого проходження Prisoners' Quarters у Dead Cells, як-от креслення Blood Sword, що випадає з першого вбитого Zombie.
+
+### Виключає
+
+Збереження самої валюти проходження після смерті (SYS-782); оплачене вкладення, що розблоковує доставлений запис (SYS-835); відкриття пулів вмісту за віхами після підбиття підсумків (SYS-426); команду доставки адресованому замовникові (ACT-091); ціль доставки (OBJ-014).
+
+### Ігри-носії
+
+- [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
+
+## SYS-835
+
+- Назва: Вкладати валюту проходження в розблокування з реєстру профілю зі збереженням часткового поступу
+- Переглянуто: `2026-09-08`
+
+### Операційне визначення
+
+На переході гравець платить валютою проходження за один доступний запис реєстру; сплачена сума лишається в профілі як поступ до цього запису навіть після завершення проходження, повна сплата перетворює запис на постійний вміст, що потрапляє до пулів здобичі, крамниць і пропозицій наступних проходжень, а валюта, якої так і не вклали, лишається в межах проходження.
+
+### Включає
+
+Вкладення клітин у Collector у Passage після визначеного першого проходження Prisoners' Quarters у Dead Cells, починаючи з обов'язкового першого запису Health Flask I за 5 клітин, сплаченого повністю або частково.
+
+### Виключає
+
+Збереження самої валюти після смерті (SYS-782); автоматичну доставку креслень (SYS-834); поліпшення в межах проходження, що зникає разом із ним (SYS-467); витрату постійного ресурсу між проходженнями (ACT-143); внесок типізованого предмета до комірки колекції (SYS-116); дослідження, що споживається з часом (SYS-159); доставку матеріалів, завершену в розблокування можливості (SYS-210); пули за віхами (SYS-426).
+
+### Ігри-носії
+
+- [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
+
+## SYS-836
+
+- Назва: Зменшувати або стирати відновлюване здоров'я наступними ворожими атаками
+- Переглянуто: `2026-09-10`
+
+### Операційне визначення
+
+Доки персонаж має додатний запас відновлюваного здоров'я, наступна придатна атака проти нього зменшує цей запас на оголошений обсяг, а оголошена завершальна атака може цілком стерти решту запасу суперника, не відповідаючи за створення чи повернення самого запасу.
+
+### Включає
+
+Звичайні удари стоячи у визначеному офлайновому матчі Versus у TEKKEN 8 зменшують Recoverable Gauge на обсяг, відповідний оголошеній частці їхньої шкоди, а влучний Rage Art стирає всю її решту в суперника.
+
+### Виключає
+
+Створення відновлюваного запасу й повернення здоров'я власними атаками (SYS-832); пасивне танення чи заміну після нової шкоди (SYS-852); визначення й скидання раунду (SYS-522); відкладене відновлення від предмета (SYS-750); пару ядра та зовнішньої шкали (SYS-473); тимчасовий блок, витрачений раніше за здоров'я (SYS-165); саму остаточну шкоду й KO (SYS-215).
+
+### Ігри-носії
+
+- [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
+
+## SYS-837
+
+- Назва: Раз на раунд входити в тимчасовий посилений стан і витрачати його залишок оголошеними командами
+- Переглянуто: `2026-09-09`
+
+### Операційне визначення
+
+Універсальна команда активації або влучання оголошеного класу атак бійця переводить його в посилений стан на оголошену тривалість, доступний раз на раунд; поки він триває, оголошені прийоми бійця отримують нові властивості, заблоковані атаки завдають відновлюваної чіп-шкоди, таймер зупиняється, поки суперник у стані удару або лежить, оголошеними командами боєць витрачає решту тривалості, а стан завершується після закінчення часу або витрати й не відновлюється до наступного раунду.
+
+### Включає
+
+Heat у визначеному офлайновому матчі Versus у TEKKEN 8: перехід через Heat Burst на 10 секунд або через Heat Engager на 15 секунд, витрата через Heat Smash або Heat Dash.
+
+### Виключає
+
+Автоматичний стан за низького здоров'я (SYS-838); багатоподілковий запас, що витрачається на кожну техніку зі штрафом за вичерпання (SYS-520); ступеневий запас, який переноситься між раундами (SYS-521); обраний персонажем бойовий ресурс або стійку (SYS-360); час відновлення однієї здібності; тимчасове посилення, куплене за предмет.
+
+### Ігри-носії
+
+- [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
+
+## SYS-838
+
+- Назва: Переходити в автоматичний посилений стан за низького здоров'я, який підсилює шкоду й відкриває одноразовий завершальний прийом, після якого стан завершується
+- Переглянуто: `2026-09-09`
+
+### Операційне визначення
+
+Коли здоров'я бійця падає до оголошеного порога або нижче, система автоматично переводить його в посилений стан до кінця раунду: шкода бійця зростає на оголошений множник, отримувана чіп-шкода зменшується, а йому відкривається один оголошений завершальний прийом, чия броня поглинає атаку, що надходить, і чия шкода тим більша, чим менше здоров'я лишилося в користувача; після використання цього прийому стан завершується, а на межі раунду скидається.
+
+### Включає
+
+Rage і Rage Art у визначеному офлайновому матчі Versus у TEKKEN 8, із переходом за 45 очок здоров'я або менше у Ver.3.02.01.
+
+### Виключає
+
+Тимчасовий посилений стан, активований командою (SYS-837); смертельний удар, зведений до одного очка з часом відновлення (SYS-833); останній шанс, оплачений із запасу (SYS-820); фазу атак ворога за порогом здоров'я (SYS-799); ресурс або стійку персонажа (SYS-360); пасивний бонус шкоди за низького здоров'я без завершального прийому.
+
+### Ігри-носії
+
+- [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
+
+## SYS-840
+
+- Назва: Видаляти придатний до продовження стан спроби після смерті
+- Переглянуто: `2026-09-09`
+
+### Операційне визначення
+
+Коли смерть завершує спробу з одним життям, система видаляє стан збереження цієї спроби, тому той самий маршрут і того самого персонажа не можна продовжити, хоча окремі записи профілю можуть лишитися.
+
+### Включає
+
+Смерть до завершального сигналу в обмеженій спробі Hopeless Rescue у The Long Dark.
+
+### Виключає
+
+Повтор із контрольної точки; збережений світ для іншого персонажа; повернення тимчасового проходження до постійного осередку; добровільну відмову від іще придатної спроби.
+
+### Ігри-носії
+
+- [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
+
+## SYS-841
+
+- Назва: Автоматично поповнювати скінченний запас лише до гарантованого нижнього рівня
+- Переглянуто: `2026-09-09`
+
+### Операційне визначення
+
+Коли поділений на сегменти скінченний запас падає нижче за оголошений початковий рівень, система автоматично відновлює його до цього гарантованого рівня й зупиняється; щоб підняти запас вище до більшої місткості, потрібне сумісне скінченне зовнішнє поповнення.
+
+### Включає
+
+Пальне Chainsaw у визначеній першій місії Campaign у DOOM Eternal: один із трьох сегментів повертається автоматично, а для другого й третього потрібні каністри у світі.
+
+### Виключає
+
+Повне відновлення всіх витрачених зарядів предмета; відновлення здоров’я; перезаряджання зброї з переносного запасу; ресурс без місткості понад автоматичний рівень; лише скінченне підбирання без автоматичного мінімуму.
+
+### Ігри-носії
+
+- [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
+
+## SYS-843
+
+- Назва: Перетворювати обстеження корабля на збережені знання про систему
+- Переглянуто: `2026-09-10`
+
+### Операційне визначення
+
+Придатний дослідницький корабель упродовж часу відвідує потрібні тіла відкритої системи, а завершене обстеження замінює їхній невідомий стан стійкими відомостями про властивості й ресурси для держави-власниці.
+
+### Включає
+
+Повне обстеження науковим кораблем однієї пов’язаної зоряної системи у Stellaris перед спорудженням аванпосту.
+
+### Виключає
+
+Лише відкриття шляху до системи; миттєве розкриття одного об’єкта; пошук родовища у вже власній місцевості; всезнання до завершення обстеження.
+
+### Ігри-носії
+
+- [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
+
+## SYS-844
+
+- Назва: Завершувати аванпост і встановлювати право на зоряну систему
+- Переглянуто: `2026-09-10`
+
+### Операційне визначення
+
+Придатний будівельний корабель виконує оплачений проєкт аванпосту в обстеженій не зайнятій системі, а завершення створює стійку власну станцію й закріплює систему за державою-замовницею.
+
+### Включає
+
+Спорудження першого аванпосту у Stellaris у повністю обстеженій пов’язаній системі, обраній для колонії.
+
+### Виключає
+
+Заснування поселення на вже власній території; бойове захоплення ворожої станції; тимчасову видобувну споруду; саме обстеження системи.
+
+### Ігри-носії
+
+- [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
+
+## SYS-845
+
+- Назва: Перетворювати колоніальний транспорт на усталене поселення
+- Переглянуто: `2026-09-10`
+
+### Операційне визначення
+
+Після законного спрямування колоніального транспорту до придатного власного місця система поглинає транспорт у тривалий стан заснування, накопичує визначений поступ і за порогом перетворює його на стійке усталене поселення.
+
+### Включає
+
+Розвиток першої позаземної колонії Stellaris до усталеного стану.
+
+### Виключає
+
+Виробництво колоніального транспорту; приєднання навколишньої території; розвиток планети після усталення; миттєве заснування міста, яке водночас захоплює територію.
+
+### Ігри-носії
+
+- [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
+
+## SYS-846
+
+- Назва: Сповільнювати відновлення стійкості разом зі зниженням здоров’я
+- Переглянуто: `2026-09-10`
+
+### Операційне визначення
+
+Коли поточне здоров’я учасника опускається до нижчих діапазонів, окремо накопичена бойова стійкість відновлюється повільніше, тому шкода здоров’ю продовжує доступність майбутнього зламу, але не стає самою шкалою стійкості.
+
+### Включає
+
+Вплив Vitality на швидкість відновлення Posture гравця й ворогів у Sekiro.
+
+### Виключає
+
+Здоров’я як саму шкалу стійкості; сталу швидкість відновлення; зміну лише сили атаки; сюжетну зміну фази.
+
+### Ігри-носії
+
+- [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
+
+## SYS-847
+
+- Назва: Вимагати кілька послідовних критичних страт для перемоги
+- Переглянуто: `2026-09-10`
+
+### Операційне визначення
+
+Кожна успішна критична страта витрачає одну оголошену вимогу ворога; якщо вимоги лишилися, той самий ворог повертається до живого бою, а остаточна поразка настає лише після останньої.
+
+### Включає
+
+Сильних ворогів Sekiro з кількома маркерами Deathblow, зокрема обов’язкового охоронця маршруту.
+
+### Виключає
+
+Звичайну смугу здоров’я; зміну фази за порогом здоров’я; автоматичне руйнування шарів броні; кількох окремих ворогів.
+
+### Ігри-носії
+
+- [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
+
+## SYS-848
+
+- Назва: Завершувати заряджене самовідновлення на місці після смертельної поразки
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Коли гравець підтверджує самовідновлення до завершення справжньої смерті, система витрачає один готовий заряд, відновлює визначену частину здоров’я, повертає керування тим самим тілом на тому самому місці й продовжує ту саму живу сутичку.
+
+### Включає
+
+Завершення Resurrection у межах дослідженого початкового маршруту Sekiro.
+
+### Виключає
+
+Команду гравця (ACT-452); перевірку допустимості за зарядом і блокуванням (CON-628); поповнення під час відпочинку на контрольній точці (SYS-364); бойове поповнення заряду (SYS-035); накладання чи зняття блокування послідовного використання (SYS-853); автоматичні додаткові життя; оживлення союзника; повернення до контрольної точки після справжньої смерті (SYS-849).
+
+### Ігри-носії
+
+- [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
+
+## SYS-849
+
+- Назва: Повертати справжню смерть до контрольної точки з дробовою втратою
+- Переглянуто: `2026-09-10`
+
+### Операційне визначення
+
+Коли смертельна поразка завершується без допустимого відновлення на місці, система повертає кероване тіло до останньої контрольної точки й назавжди забирає визначену частку поточного незбереженого поступу та валюти, якщо окрема умова захисту їх не збереже.
+
+### Включає
+
+Повернення до останнього ідола Sekiro з утратою половини Sen і Skill Experience, якщо не спрацює Unseen Aid.
+
+### Виключає
+
+Повний запас у досяжній мітці смерті; збереження всіх ресурсів; безповоротне видалення персонажа; заряджене воскресіння на місці.
+
+### Ігри-носії
+
+- [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
+
+## SYS-850
+
+- Назва: Замінювати активного учасника команди автоматичним тренерським рішенням
+- Переглянуто: `2026-09-10`
+
+### Операційне визначення
+
+Під час допустимої зупинки матчу автоматичний тренер обирає придатного запасного учасника й замінює ним одного поточного активного учасника відповідно до налаштованої політики замін, зберігаючи потрібну чисельність активного складу.
+
+### Включає
+
+Автоматичні заміни у Quick Play NBA 2K26 за збережених звичайних налаштувань, зокрема ротацію за ігровим часом і втомою.
+
+### Виключає
+
+Підтверджену гравцем заміну під час матчу; передматчевий вибір складу; перенесення безпосереднього керування між чинними учасниками; безперервне позиціювання за SYS-459; побудову постійного складу.
+
+### Ігри-носії
+
+- [`GAME-0241` — NBA 2K26](../games/m-r/nba-2k26.md)
+
+## SYS-851
+
+- Назва: Автоматично відновлювати заряд неактивного переносного освітлення
+- Переглянуто: `2026-09-10`
+
+### Операційне визначення
+
+Коли персональний переносний освітлювальний пристрій неактивний, а його обмежений внутрішній заряд нижчий за межу, система автоматично підвищує заряд без витрачання переносної змінної одиниці; активація пристрою зупиняє відновлення.
+
+### Включає
+
+Автоматичне відновлення енергії вимкненого ліхтарика HEV у межах Unforeseen Consequences у Half-Life (1998).
+
+### Виключає
+
+Витрату заряду на світло в активному стані (SYS-754); ручне поповнення зі скінченного запасу батарейок (SYS-791); відновлення заряду багаторазового бойового предмета; нерухомий світильник; необмежене освітлення без заряду.
+
+### Ігри-носії
+
+- [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
+
+## SYS-852
+
+- Назва: Вичерпувати відновлюване здоров'я з часом або замінювати його після нової шкоди
+- Переглянуто: `2026-09-10`
+
+### Операційне визначення
+
+Після зарахування відновлюваного здоров'я система чекає оголошену затримку, а тоді безперервно зменшує решту запасу до нуля; якщо новий удар завдає шкоди, доки попередній запас ще існує, система спершу відкидає його, а потім створює відновлювану частку нової втрати.
+
+### Включає
+
+Відновлення в Dead Cells протягом визначеного першого проходження Prisoners' Quarters, де помаранчевий запас починає танути після затримки, а наступний отриманий удар замінює попередній запас відновлюваною часткою нової втрати.
+
+### Виключає
+
+Створення запасу й повернення здоров'я власними атаками (SYS-832); зменшення чи стирання запасу оголошеними ворожими атаками (SYS-836); відновлення після тихого проміжку (SYS-737); відкладене відновлення від предмета (SYS-750); звичайну остаточну втрату здоров'я (SYS-578).
+
+### Ігри-носії
+
+- [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
+
+## SYS-853
+
+- Назва: Накладати блокування повторного самовідновлення й знімати його бойовим поступом
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Після завершення зарядженого самовідновлення на місці система окремо блокує ще одне таке відновлення, навіть якщо заряд лишився, а тоді знімає блокування, коли учасник перемагає визначених ворогів або виконує критичні страти під час подальшої гри.
+
+### Включає
+
+Накладання перекресленого стану після Resurrection у Sekiro та його зняття завдяки допустимим перемогам над ворогами чи Deathblow у межах дослідженого початкового маршруту.
+
+### Виключає
+
+Витрату заряду й відновлення тіла (SYS-848); додавання заряду за бойову результативність (SYS-035); відновлення базового заряду під час відпочинку на контрольній точці (SYS-364); перевірку спільної допустимості за зарядом і блокуванням (CON-628); блокування лише на визначений час; повернення до контрольної точки після справжньої смерті.
+
+### Ігри-носії
+
+- [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)

@@ -3,7 +3,7 @@ game_id: GAME-0259
 slug: dead-space-2023
 game_title: "Dead Space (2023 remake)"
 analysis_status: reviewed
-reviewed: 2026-09-05
+reviewed: 2026-09-10
 combination_ids:
   - COMB-0257
 gene_ids:
@@ -235,10 +235,13 @@ gene instances but do not enter the signature.
   accepted damage removes a fuse or breakable container; `SYS-112`: claw, Data
   Board and console interactions expose dependent state; `SYS-780`: the final
   route closes Chapter 1 and admits retained Chapter 2.
-- New `SYS-794`: cumulative damage peels one body region, may sever it and
-  removes the movement/attack capability carried by that region. New `SYS-795`:
-  a local limited circuit transfers power among fixture branches and
-  deactivates a competitor when capacity is reached.
+- `SYS-794`, first isolated here and generalised by
+  `TAXONOMY_CHANGE_064`: cumulative damage destroys or detaches an attached
+  spatial component and removes its carried capability while the actor remains
+  alive. In this carrier the component is a layered body region whose severance
+  removes movement or attack. New `SYS-795`: a local limited circuit transfers
+  power among fixture branches and deactivates a competitor when capacity is
+  reached.
 - Resolution order: objective/Locator exposes the gate; movement changes reach;
   equipment and orientation define the hit; a shot spends ammunition and
   resolves regional damage; visible layers update and severance changes
@@ -369,7 +372,7 @@ gene instances but do not enter the signature.
 - Exact genome matches: none.
 - Tied near matches: `GAME-0258` — Prey (2017) (`22 / 39 = 0.564103`).
 - Supported combination subsets: `COMB-0257`.
-- Scan date: 2026-09-05.
+- Scan date: 2026-09-10.
 
 ### Selected-neighbour interpretation
 
@@ -379,13 +382,14 @@ gene instances but do not enter the signature.
 
 ### Preserved research notes
 
-- New genes: `ACT-434`, `SYS-794`, `SYS-795`, `INF-313`, `INF-314`.
+- New genes at first review: `ACT-434`, `SYS-794`, `SYS-795`, `INF-313`,
+  `INF-314`. `SYS-794` is now the surviving two-carrier boundary after
+  `TAXONOMY_CHANGE_064` merged the later `SYS-842` alias into it.
 - Reused genes: `ACT-008`, `ACT-131`, `ACT-161`, `ACT-164`, `ACT-183`,
   `ACT-190`, `ACT-199`, `ACT-341`, `SYS-112`, `SYS-208`, `SYS-215`,
   `SYS-369`, `SYS-380`, `SYS-578`, `SYS-755`, `SYS-780`, `CON-210`,
   `CON-262`, `CON-269`, `CON-282`, `CON-285`, `CON-579`, `INF-073`,
   `INF-115`, `INF-119`, `INF-125`, `INF-128`, `OBJ-155`, `TIM-003`, `TIM-007`.
-- Classification result: `New gene` and `New combination of known and new genes`.
 - Lower-ID scan: reject `SYS-402`/`INF-156`, whose wounds feed a Focus strike
   rather than detach a region; reject `ACT-393`/`SYS-724`, which tune
   starfighter performance; reject `SYS-158`, an economic grid; reject
@@ -393,10 +397,13 @@ gene instances but do not enter the signature.
 
 ## Taxonomy impact
 
-- Registry changes: add five Active genes, `ACT-434`, `SYS-794`, `SYS-795`,
-  `INF-313`, `INF-314`, plus `COMB-0257`; add independent support to reused
-  genes. No existing definition, lifecycle or earlier signature changes.
-- Taxonomy-change record: none; no split, merge, deprecation or broadening.
+- Registry changes at first review: add five Active genes, `ACT-434`, `SYS-794`,
+  `SYS-795`, `INF-313`, `INF-314`, plus `COMB-0257`; add independent support to
+  reused genes. `TAXONOMY_CHANGE_064` later generalises `SYS-794` across this
+  anatomical carrier and DOOM Eternal's mechanical component without changing
+  the `GAME-0259` or `COMB-0257` gene set.
+- Taxonomy-change record: `TAXONOMY_CHANGE_064`; the later duplicate `SYS-842`
+  is a `Merged` alias of `SYS-794`.
 - Candidate terms: recorded in `CANDIDATE_TERMS.md`; all product, actor, tool,
   room, chapter, app, package and build names remain parameters.
 
@@ -433,8 +440,9 @@ gene instances but do not enter the signature.
 
 ## Taxonomy changes
 
-- [Observation | Direct/Corroborated | High] Five portable genes are added; no
-  prior definition, lifecycle or reviewed signature changes.
+- [Confirmed | Corroborated | High] `TAXONOMY_CHANGE_064` generalises
+  `SYS-794` from an anatomical limb to any attached spatial component whose
+  destruction removes its capability; this carrier's signature is unchanged.
 
 ## New questions
 

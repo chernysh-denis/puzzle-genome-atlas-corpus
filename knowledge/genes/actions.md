@@ -108,6 +108,9 @@
   [SimCity 4 Deluxe Edition decomposition](../games/s-z/simcity-4-deluxe-edition.md)
   and [Cities: Skylines decomposition](../games/a-f/cities-skylines.md), and
   [Football Manager 26 decomposition](../games/a-f/football-manager-26.md).
+- Additional support: [Cities: Skylines II decomposition](../games/a-f/cities-skylines-ii.md),
+  for selecting one of the three simulation speeds while the city's automatic
+  development, trips and finances keep their own direction and terminal rule.
 - Novelty: not assessed.
 
 ## ACT-007 — Assign symbol to open position
@@ -222,6 +225,19 @@
   for direct Titan traversal through the authored Devil's Lair route.
 - Additional support: [Brawlhalla decomposition](../games/a-f/brawlhalla.md),
   for ground, air and wall movement through one bounded fighting arena.
+- Additional support: [Cuphead decomposition](../games/a-f/cuphead.md),
+  for direct running, jumping and dashing inside one bounded boss arena.
+- Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  for walking, running and quick-turning Leon through the gas station, streets and station approach.
+- Additional support: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md),
+  for walking the two-hero party forward and backward along the Old Road corridor tiles.
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for running, jumping, double-jumping, climbing, crouching and rolling the Beheaded through the generated Prisoners' Quarters.
+- Additional support: [TEKKEN 8 decomposition](../games/s-z/tekken-8.md),
+  for walking, backdashing, dashing, jumping, sidestepping and sidewalking
+  across the walled Arena floor, and for the displacing ground-state commands
+  with exact inputs: the tech roll (an attack button on landing), the side roll
+  (1 or d+1) and the back get-up (b).
 - Novelty: not assessed.
 
 ## ACT-009 — Push adjacent movable object
@@ -450,6 +466,8 @@
   and [Bad North decomposition](../games/a-f/bad-north.md),
   [Tactical Breach Wizards decomposition](../games/s-z/tactical-breach-wizards.md)
   and [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
+- Additional support: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md),
+  for choosing one of a hero's four equipped rank-legal skills and its target rank on that hero's initiative turn.
 - Novelty: not assessed.
 
 ## ACT-020 — Place queue-head tile at selected board position
@@ -925,6 +943,8 @@
   [Braid decomposition](../games/a-f/braid.md),
   [Pikmin 4 decomposition](../games/m-r/pikmin-4.md), and
   [Viewfinder decomposition](../games/s-z/viewfinder.md).
+- Additional support: [Forza Horizon 5 decomposition](../games/a-f/forza-horizon-5.md),
+  for restoring a recent Solo-race state and resuming with a revised line.
 - Novelty: not assessed.
 
 ## ACT-045 — Edit timestamped agent command
@@ -1392,6 +1412,10 @@
   degree, undo / deletion policy, obstacle rules and when edits are permitted.
 - Evidence: [Mini Motorways decomposition](../games/m-r/mini-motorways.md) and
   [Freeways decomposition](../games/a-f/freeways.md).
+- Additional support: [Cities: Skylines II decomposition](../games/a-f/cities-skylines-ii.md),
+  for drawing and extending the persistent two-lane road graph from the map's
+  road Outside Connection, whose intersections branch and whose segments every
+  agent uses automatically.
 - Novelty: not assessed.
 
 ## ACT-069 — Adjust active road-stroke elevation
@@ -1838,26 +1862,36 @@
   [The Longest Journey decomposition](../games/s-z/the-longest-journey.md).
 - Novelty: not assessed.
 
-## ACT-091 — Give held item to addressed character
+## ACT-091 — Deliver one carried item to its addressed requester
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player selects one held inventory item and commits its
+- Definition: the player selects one currently carried item and commits its
   transfer to one addressed non-player character whose current request accepts
-  that item, removing it from the player's inventory.
+  that item, removing it from the player's carried state.
 - Includes: giving Machinarium's doll to the small scrapyard robot that showed
   the doll in its request bubble; giving Day of the Tentacle's patent and three
-  requested battery ingredients to Red Edison.
+  requested battery ingredients to Red Edison; picking up a prepared dish and
+  delivering it to the customer whose visible order names that dish during
+  DAVE THE DIVER's bounded first service.
 - Excludes: applying a tool to an inanimate fixture; equipping an item;
   surrendering an abstract currency amount; an automatic collision pickup or
-  exchange with no selected recipient.
-- Parameters: item identity, recipient identity and state, request predicate,
-  transfer persistence, rejection feedback and repeat policy.
+  exchange with no selected recipient; assigning an item to an abstract menu
+  without carrying it to a requester.
+- Parameters: item identity, carried representation, recipient identity and
+  state, request predicate, transfer persistence, rejection feedback and repeat
+  policy.
 - Evidence: [Machinarium decomposition](../games/m-r/machinarium.md) and
-  [Day of the Tentacle decomposition](../games/a-f/day-of-the-tentacle.md).
+  [Day of the Tentacle decomposition](../games/a-f/day-of-the-tentacle.md), and
+  [DAVE THE DIVER decomposition](../games/a-f/dave-the-diver.md).
 - Novelty: not assessed.
+- Change note: wording generalised by
+  [`TAXONOMY_CHANGE_038`](../../research/taxonomy-changes/TAXONOMY_CHANGE_038.md)
+  so a requested carried item may be a temporarily held prepared service item
+  as well as an inventory object; recipient matching and committed transfer
+  remain the boundary.
 
 ## ACT-092 — Alter one held item's functional state
 
@@ -2335,6 +2369,10 @@
 - Parameters: use class, density, parcel depth, frontage, de-zoning and cost.
 - Evidence: [SimCity 4 Deluxe Edition decomposition](../games/s-z/simcity-4-deluxe-edition.md)
   and [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
+- Additional support: [Cities: Skylines II decomposition](../games/a-f/cities-skylines-ii.md),
+  for painting road-adjacent cells with Low Density Housing, Low Density
+  Business or Industrial Manufacturing in Fill, Marquee or Paint mode,
+  authorising private buildings the player never selects.
 - Novelty: not assessed.
 
 ## ACT-117 — Place priced civic or utility infrastructure
@@ -2354,6 +2392,10 @@
   attachment and demolition refund.
 - Evidence: [SimCity 4 Deluxe Edition decomposition](../games/s-z/simcity-4-deluxe-edition.md)
   and [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
+- Additional support: [Cities: Skylines II decomposition](../games/a-f/cities-skylines-ii.md),
+  for freely choosing and committing priced base-catalogue electricity, water
+  and sewage facilities, each paid once and then charged monthly upkeep, in
+  the scoped new city.
 - Novelty: not assessed.
 
 ## ACT-118 — Adjust municipal tax rate or service funding
@@ -2414,24 +2456,29 @@
 - Evidence: [Factorio decomposition](../games/a-f/factorio.md).
 - Novelty: not assessed.
 
-## ACT-121 — Queue technology research
+## ACT-121 — Select an active technology research target
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player selects one or more currently reachable technologies
-  and commits their order in a persistent queue whose front entry receives
-  subsequent research progress.
+- Definition: the player selects a currently reachable technology for an
+  active research channel or a position in its persistent queue, causing that
+  target to receive the channel's subsequent research progress.
 - Includes: choosing Factorio technologies, queueing their prerequisites and
-  reordering or replacing the current research target.
+  reordering or replacing the current target; assigning one technology to each
+  independent Stellaris research field.
 - Excludes: producing science packs; choosing a machine recipe; receiving an
   automatic upgrade with no player-selected research order.
-- Parameters: prerequisite graph, queue length, reorder policy, saved partial
-  progress and unavailable-node feedback.
+- Parameters: prerequisite graph, channel count, target, queue length, reorder
+  policy, saved partial progress and unavailable-node feedback.
 - Evidence: [Factorio decomposition](../games/a-f/factorio.md) and
   [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
-- Novelty: not assessed.
+- Additional support: [Stellaris decomposition](../games/s-z/stellaris.md), for
+  selecting one active target in each of three parallel research channels.
+- Novelty: not assessed; wording was generalised by
+  `TAXONOMY_CHANGE_055` so that a queue and an independently progressing
+  channel remain parameters of the same player commitment.
 
 ## ACT-122 — Manually extract or dismantle world entity
 
@@ -2583,6 +2630,8 @@
 - Excludes: a free reward; recurring operating cost; unavailable offer; cosmetic marketplace trade.
 - Parameters: currency, offer, asset or service, purchase window, location, inventory lifetime and persistence horizon.
 - Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md), [Dota 2 decomposition](../games/a-f/dota-2.md), [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md), [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md), [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md), [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md) and [Blue Prince decomposition](../games/a-f/blue-prince.md).
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for buying an offered weapon for gold at the biome shop, which enters a weapon slot at once; the Collector's cell payment, which may leave the entry unacquired, is typed under `ACT-451`.
 - Novelty: not assessed.
 
 ## ACT-131 — Consume one carried immediate-effect item
@@ -2611,6 +2660,8 @@
 - Additional support: [BioShock Remastered decomposition](../games/a-f/bioshock-remastered.md),
   for dedicated carried First Aid Kit and EVE Hypo stocks consumed into
   immediate health or ability-reserve restoration.
+- Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  for the one carried First Aid Spray spent from the paused inventory in the damaged outcome branch of the Leon opening.
 - Novelty: not assessed.
 
 ## ACT-132 — Paint administrative district and assign local policy
@@ -2742,24 +2793,31 @@
 - Evidence: [Inscryption decomposition](../games/g-l/inscryption.md).
 - Novelty: not assessed.
 
-## ACT-139 — Place, move or demolish staffed settlement building
+## ACT-139 — Place, move or demolish an ordinary owned building
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player places a settlement building on compatible terrain,
-  may reassign its position where the rules permit, or marks it for demolition,
-  changing the live set of workplaces, housing or services.
+- Definition: the player commits a compatible world footprint for an ordinary
+  owned building, may reassign its position where the rules permit, or marks it
+  for demolition, changing the live set of production, housing, work or service
+  sites.
 - Includes: constructing, moving or demolishing ordinary buildings in an
-  Against the Storm settlement.
+  Against the Storm settlement; placing completed economy or production
+  structures in Age of Empires II: Definitive Edition and Command & Conquer
+  Remastered Collection.
 - Excludes: selecting a recipe inside an already placed building; stamping a
   reusable multi-entity plan; placing a card into a combat lane.
-- Parameters: footprint, terrain, orientation, construction cost, move cost,
-  refund, building category and maximum copies.
+- Parameters: footprint, terrain, orientation, construction or production cost,
+  move cost, refund, building category and maximum copies.
 - Evidence: [Against the Storm decomposition](../games/a-f/against-the-storm.md) and
-  [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
-- Novelty: not assessed.
+  [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md),
+  with [Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
+  as additional support.
+- Novelty: generalised by `TAXONOMY_CHANGE_036`; a particular settlement or
+  production model is a carrier parameter, while committing an ordinary owned
+  building to a legal footprint is the invariant action.
 
 ## ACT-140 — Commit one option from bounded persistent offer
 
@@ -2782,6 +2840,8 @@
   [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md), and
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md) and
   [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for assigning each Scroll of Power to one of three stats and choosing one mutation from Guillain's offer.
 - Novelty: not assessed.
 
 ## ACT-141 — Favour one population group at others' expense
@@ -3105,25 +3165,30 @@
 - Evidence: [Minecraft decomposition](../games/m-r/minecraft.md).
 - Novelty: not assessed.
 
-## ACT-161 — Aim and strike a reachable hostile with the current tool
+## ACT-161 — Aim and strike a reachable hostile or breakable world object with the current tool
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: the player aims an equipped melee or ranged combat tool at one
-  reachable hostile and commits a direct strike or shot rather than assigning
-  an autonomous squad or selecting an abstract card target.
+  reachable hostile or one eligible breakable world object and commits a
+  direct strike or shot rather than assigning an autonomous squad or
+  selecting an abstract card target.
 - Includes: Minecraft Survival attacks against hostile mobs and the Ender Dragon;
   Counter-Strike 2 aimed firearm, knife and utility attacks; Cyberpunk 2077
   aimed firearm and melee attacks against reachable hostiles; Marvel Rivals
   hero primary attacks against visible opponents; Hornet's aimed needle
   strikes against reachable hostiles in Hollow Knight: Silksong; Split Fiction
-  Chapter 1 gunner shots and direct attacks against authored hostiles.
+  Chapter 1 gunner shots and direct attacks against authored hostiles;
+  Half-Life (1998) crowbar strikes on route glass; weapon strikes on the
+  barred Collector's room door in Dead Cells.
 - Excludes: automatic turret fire; a turn-based ability card; a group waypoint
-  that causes agents to acquire targets on their own.
-- Parameters: target, reach, weapon, cooldown, projectile, damage, armour and
-  hit condition.
+  that causes agents to acquire targets on their own; a contextual use
+  interaction with an authored fixture (`ACT-341`); the object's durability
+  and removal, which belong to `SYS-755`.
+- Parameters: target class (hostile or breakable object), target, reach,
+  weapon, cooldown, projectile, damage, armour and hit condition.
 - Evidence: [Minecraft decomposition](../games/m-r/minecraft.md) and
   [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md), and
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
@@ -3144,7 +3209,18 @@
   for aimed firearm/melee attacks and the close-range shove.
 - Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
   for directly aimed firearm, melee and boss attacks.
+- Additional support: [Cuphead decomposition](../games/a-f/cuphead.md),
+  for sustained Peashooter fire at each reachable encounter-phase member.
+- Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  for readying, aiming and firing the starting handgun at reachable zombies.
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for aimed weapon combos, bow shots and dive attacks against reachable Prisoners' Quarters enemies, and for weapon strikes on the barred Collector's room door whose destruction resolves under `SYS-755`.
 - Novelty: not assessed.
+- Change note: wording generalised by
+  [`TAXONOMY_CHANGE_043`](../../research/taxonomy-changes/TAXONOMY_CHANGE_043.md)
+  so the aimed target may be an eligible breakable world object as well as a
+  hostile, as the Half-Life (1998) carrier already exercised; the aimed,
+  directly committed strike remains the boundary.
 
 ## ACT-162 — Place a held tile into a reachable world cell
 
@@ -3532,6 +3608,8 @@
   for reloading carried firearms during the Hotel route.
 - Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
   for reloading magazine-fed weapons during the Fireteam Op.
+- Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  for reloading the magazine-fed handgun from finite reserve ammunition.
 - Novelty: not assessed.
 
 ## ACT-184 — Prime and throw one carried tactical grenade
@@ -3636,33 +3714,47 @@
 - Parameters: selected unit, order, point, target, path and queue modifier.
 - Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md) and
   [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
+- Additional support: [Command & Conquer Remastered Collection decomposition](../games/a-f/command-and-conquer-remastered-collection.md),
+  for selecting one or more owned units and committing destination, target or
+  attack orders in the bounded opening mission.
 - Novelty: not assessed.
 
-## ACT-190 — Cast one hero or item ability
+## ACT-190 — Commit one active character or carried-item ability
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player activates one learned hero skill or carried item
-  active and supplies its legal unit, point, vector or no-target input.
+- Definition: the player commits one currently available active character
+  capability or carried-item active and supplies its legal unit, point, vector,
+  direction or no-target input, including any required held channel.
 - Includes: Dota 2 spells, toggles and active items; Marvel Rivals hero
   abilities and ultimate activations; Battlefield 6 targeted, placed and
   no-target class gadgets; Hollow Knight: Silksong Silk Skills and equipped
-  Tools activated with their legal directional or no-target input; throwing a
-  keyed Helldivers 2 stratagem beacon at its legal world target.
-- Excludes: automatic attack acquisition; passive effects; cosmetic emotes.
-- Parameters: ability, cast form, target, range, mana, cooldown and channel.
+  Tools activated with their legal directional or no-target input; Hollow
+  Knight Focus held to restore health; throwing a keyed Helldivers 2 stratagem
+  beacon at its legal world target.
+- Excludes: automatic attack acquisition; passive effects; an ordinary weapon
+  attack; cosmetic emotes.
+- Parameters: ability, acquisition state, cast form, target, range, resource,
+  cooldown, channel and interruption.
 - Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md) and
   [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md), and
   [Battlefield 6 decomposition](../games/a-f/battlefield-6.md), and
   [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md), and
   [Helldivers 2 decomposition](../games/g-l/helldivers-2.md), and
   [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md), and
-  [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md).
+  [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md), and
+  [Hollow Knight decomposition](../games/g-l/hollow-knight.md).
 - Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
   for fixed Titan grenade, melee, class and Super ability activations.
+- Additional support: [Cuphead decomposition](../games/a-f/cuphead.md),
+  for the directional Peashooter EX shot paid from the charged Super Meter.
 - Novelty: not assessed.
+- Change note: wording generalised by
+  [`TAXONOMY_CHANGE_034`](../../research/taxonomy-changes/TAXONOMY_CHANGE_034.md)
+  so an innate channelled capability and a learned skill remain parameters of
+  the same active-ability commitment.
 
 ## ACT-191 — Spend one character-development point
 
@@ -4144,6 +4236,12 @@
   for collecting or replacing compatible weapons, ammunition and support items.
 - Additional support: [7 Days to Die decomposition](../games/0-9/7-days-to-die.md),
   for equipping the personally crafted Primitive Outfit during onboarding.
+- Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  for prompted pickup of the Gas Station Key, First Aid Spray and Handgun Ammo into inventory slots.
+- Additional support: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md),
+  for taking post-battle and curio loot from the loot window into the sixteen-slot expedition inventory.
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for picking a reachable weapon into a compatible weapon slot with a keep-or-drop choice; skill availability on a fresh profile is not evidenced inside the packet.
 - Novelty: not assessed.
 
 ## ACT-200 — Use one interruptible restorative consumable
@@ -4194,24 +4292,35 @@
   [Split Fiction decomposition](../games/s-z/split-fiction.md).
 - Novelty: not assessed.
 
-## ACT-202 — Change direct-combat posture or lean
+## ACT-202 — Change direct avatar posture or lean
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: the player changes the controlled avatar among standing,
-  crouched, prone or lateral-lean states, altering visible body exposure,
-  movement and weapon handling without leaving the current local position.
+  crouched, prone or lateral-lean states, altering its collision envelope,
+  reachable viewing or tool angles, movement and, where applicable, exposed
+  body or weapon handling without leaving the current local position.
 - Includes: PUBG stance changes and left/right peeking around cover; Cyberpunk
-  2077 standing and crouched stealth/combat posture.
+  2077 standing and crouched stealth/combat posture; crouching or going prone
+  to direct a cleaning tool under low surfaces in PowerWash Simulator.
 - Excludes: ordinary translation through terrain; changing camera perspective;
-  an automatic knockback pose.
+  an automatic knockback pose; a contextual animation that does not change
+  access, visibility or another decision-relevant affordance.
 - Parameters: posture, lean side, transition duration, collision clearance,
-  movement rate, exposed hit regions and weapon spread.
+  reachable angles, movement rate, exposed hit regions and weapon spread.
 - Evidence: [PUBG: BATTLEGROUNDS decomposition](../games/m-r/pubg-battlegrounds.md)
-  and [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+  and [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
+  [PowerWash Simulator decomposition](../games/m-r/powerwash-simulator.md).
 - Novelty: not assessed.
+- Change note: wording generalised by
+  [`TAXONOMY_CHANGE_039`](../../research/taxonomy-changes/TAXONOMY_CHANGE_039.md)
+  so direct posture remains one portable action when it changes non-combat tool
+  access; combat exposure and weapon handling are parameters, not the boundary.
+- Additional support: [TEKKEN 8 decomposition](../games/s-z/tekken-8.md),
+  for crouching and for quickstanding from prone to standing in place without
+  local displacement.
 
 ## ACT-203 — Excavate eligible terrain for tactical cover
 
@@ -4257,13 +4366,17 @@
   currently eligible defensive response at a chosen instant inside the live
   attack sequence.
 - Includes: Clair Obscur: Expedition 33 dodge, parry and unlocked jump inputs;
-  Black Myth: Wukong ordinary and Perfect Dodge timing.
+  Black Myth: Wukong ordinary and Perfect Dodge timing; Hollow Knight timed
+  jumps or route movement against the declared guardian's telegraphed attacks.
 - Excludes: selecting a turn command; passive evasion chance; blocking with a
   persistent armour statistic.
 - Parameters: response type, attack member, timing window, affected character
   or party and accessibility assist.
 - Evidence: [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md)
-  and [Black Myth: Wukong decomposition](../games/a-f/black-myth-wukong.md).
+  and [Black Myth: Wukong decomposition](../games/a-f/black-myth-wukong.md),
+  and [Hollow Knight decomposition](../games/g-l/hollow-knight.md).
+- Additional support: [Cuphead decomposition](../games/a-f/cuphead.md),
+  for a jump-parry committed at the incoming pink hazard's contact instant.
 - Novelty: not assessed.
 
 ## ACT-224 — Rest at an expedition checkpoint
@@ -4276,13 +4389,14 @@
   checkpoint to accept its linked recovery and world-reset consequences.
 - Includes: resting at Clair Obscur: Expedition 33 Expedition Flags; resting at
   activated Benches in Hollow Knight: Silksong; resting at an activated Keeper's
-  Shrine in Black Myth: Wukong.
+  Shrine in Black Myth: Wukong; resting at activated Benches in Hollow Knight.
 - Excludes: touching a checkpoint without resting; using a combat healing item;
   sleeping while an open-world simulation continues.
 - Parameters: checkpoint, refill set, revival state, respawn set and save timing.
 - Evidence: [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md),
   [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md) and
-  [Black Myth: Wukong decomposition](../games/a-f/black-myth-wukong.md).
+  [Black Myth: Wukong decomposition](../games/a-f/black-myth-wukong.md), and
+  [Hollow Knight decomposition](../games/g-l/hollow-knight.md).
 - Novelty: not assessed.
 
 ## ACT-225 — Configure equipped Pictos and active Luminas
@@ -4461,21 +4575,24 @@
 - Evidence: [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
 - Novelty: not assessed.
 
-## ACT-235 — Grapple and neutralise an unaware reachable target
+## ACT-235 — Neutralise an unaware reachable hostile at close range
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: from valid close range outside active detection, the player grabs
-  one eligible hostile and commits a lethal or non-lethal neutralisation or
-  body movement instead of an ordinary weapon attack.
-- Includes: Cyberpunk 2077 stealth grabs, takedowns and short body carries.
+- Definition: from a valid close position outside active detection, the player
+  commits a lethal or non-lethal neutralisation against one eligible hostile
+  instead of an ordinary alerted-combat attack; grabbing or later moving the
+  body is a carrier parameter rather than part of the invariant action.
+- Includes: Cyberpunk 2077 stealth grabs and takedowns; Sekiro stealth
+  Deathblows from eligible unseen positions.
 - Excludes: melee strikes against an alerted enemy; scripted dialogue custody;
   remotely uploading a quickhack.
-- Parameters: target awareness, reach, relative level, grab state, outcome,
-  body destination and interruption.
-- Evidence: [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Parameters: target awareness, reach, relative position, strength gate,
+  outcome, body handling and interruption.
+- Evidence: [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md) and
+  [Sekiro decomposition](../games/s-z/sekiro-shadows-die-twice.md).
 - Novelty: not assessed.
 
 ## ACT-236 — Activate one rechargeable combat-item charge
@@ -5099,24 +5216,28 @@
 - Novelty: first isolated for `GAME-0164`; no earlier action boundary couples
   finite carried supply to a freely placed room-scale timed blast.
 
-## ACT-271 — Call, mount and directly ride a persistent horse
+## ACT-271 — Call a persistent owned mount toward the controlled actor
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player calls an owned horse, mounts or dismounts it and
-  directly controls its pace, steering, jump and stop while the same horse
-  retains its condition and carried saddle state.
-- Includes: calling and riding Arthur Morgan's current saddled horse during the
-  scoped Red Dead Redemption 2 Chapter 2 route.
-- Excludes: steering a road vehicle; target-routed automatic mount travel; a
-  spectral mount freely resummoned after defeat; fast travel.
-- Parameters: horse identity, call range, saddle, gait, direction, jump,
-  dismount, health, stamina and temporary-horse state.
+- Definition: while the controlled actor is not mounted and a current persistent
+  owned mount is eligible to respond, the player issues a remote call that
+  requests that mount to approach the actor without transferring direct control
+  or entering its riding state.
+- Includes: whistling for Arthur Morgan's current saddled horse to approach
+  during the scoped Red Dead Redemption 2 Chapter 2 route.
+- Excludes: mounting, directly riding or dismounting the available mount
+  (`ACT-348`); invoking a spectral mount and entering its ride state in one
+  activation (`ACT-247`); target-routed mounted travel (`ACT-243`); recalling an
+  ordinary autonomous companion; fast travel.
+- Parameters: owned mount, controlled actor, call input, call range, eligibility,
+  autonomous approach, unavailable response and current mount state.
 - Evidence: [Red Dead Redemption 2 decomposition](../games/m-r/red-dead-redemption-2.md).
-- Novelty: first isolated for `GAME-0165`; earlier mount actions either route
-  automatically or concern a resummonable supernatural steed.
+- Novelty: first isolated for `GAME-0165`; narrowed by
+  [`TAXONOMY_CHANGE_063`](../../research/taxonomy-changes/TAXONOMY_CHANGE_063.md)
+  after the independent mount-and-directly-ride operation moved to `ACT-348`.
 
 ## ACT-272 — Clean one owned firearm with gun oil
 
@@ -5477,6 +5598,8 @@
   [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md),
   [Trackmania decomposition](../games/s-z/trackmania.md), and
   [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
+- Additional support: [Forza Horizon 5 decomposition](../games/a-f/forza-horizon-5.md),
+  for direct grid-to-finish control of one fixed road-racing car.
 - Novelty: first isolated for `GAME-0171`; `ACT-201` requires an embodied
   enter/seat/exit loop that a dedicated racing-car assignment does not expose.
 
@@ -5564,6 +5687,9 @@
 - Additional support: [Brawlhalla decomposition](../games/a-f/brawlhalla.md),
   for assigning one fixed human fighter and one fixed CPU mirror before an
   offline Stock duel.
+- Additional support: [TEKKEN 8 decomposition](../games/s-z/tekken-8.md),
+  for assigning Jin Kazama to P1, Kazuya Mishima to the CPU side, Arcade
+  Style and Arena before one offline Versus match.
 - Novelty: first isolated for `GAME-0172`; earlier hero selections bind team
   compositions, deployment kits or persistent builds rather than two sides of
   one short offline duel.
@@ -5586,6 +5712,11 @@
 - Evidence: [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
 - Additional support: [Brawlhalla decomposition](../games/a-f/brawlhalla.md),
   for unarmed and selected-Legend weapon commands in a platform-fighter duel.
+- Additional support: [TEKKEN 8 decomposition](../games/s-z/tekken-8.md),
+  for limb-button attacks, strings, while-standing and crouching commands,
+  launchers, Heat Engagers, ground-state get-up kicks and the state-gated
+  Heat Burst, Heat Smash, Heat Dash and Rage Art commands of the chosen
+  fighter.
 - Novelty: first isolated for `GAME-0172`; the corpus previously addressed
   equipped tools, cooldown abilities and queued attacks rather than a
   character-owned fighting command vocabulary.
@@ -5605,6 +5736,9 @@
 - Parameters: facing, away direction, standing or crouching posture, incoming
   attack class, cross-up, block contact and release timing.
 - Evidence: [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
+- Additional support: [TEKKEN 8 decomposition](../games/s-z/tekken-8.md),
+  for holding back for standing guard or down-back for crouching guard
+  against high, mid and low attacks, with neutral auto-guard as a parameter.
 - Novelty: first isolated for `GAME-0172`; earlier defence actions use cover,
   timed prompts or equipment rather than a continuous opponent-relative input.
 
@@ -5623,6 +5757,9 @@
 - Parameters: range, target state, input, start-up, escape window, damage,
   displacement, side switch and recovery.
 - Evidence: [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
+- Additional support: [TEKKEN 8 decomposition](../games/s-z/tekken-8.md),
+  for the 1+3, 2+4 and command throws and the matching 1, 2 or 1+2 break
+  inside the response window.
 - Novelty: first isolated for `GAME-0172`; it couples the same live input to
   offensive seizure or a simultaneous close-range escape contest.
 
@@ -5932,31 +6069,47 @@
 - Evidence: [Subnautica decomposition](../games/s-z/subnautica.md).
 - Novelty: first isolated for `GAME-0178`; underwater module progress changes a connected pressure hull and may be fully reversed into materials.
 
-## ACT-315 — Deploy or pack a floating vehicle-fabrication fixture
+## ACT-315 — Deploy or pack a mobile fabrication fixture
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player releases one eligible carried fabrication fixture so it reaches its operating water state, or packs the idle fixture back into carried inventory.
-- Includes: deploying, boarding and later packing a Subnautica Mobile Vehicle Bay.
+- Definition: the player converts one eligible carried or mobile fabrication
+  fixture into its fixed or operating world state and, where the rules permit,
+  returns that idle fixture to its portable state.
+- Includes: deploying, boarding and later packing a Subnautica Mobile Vehicle
+  Bay; deploying a Command & Conquer mobile construction vehicle into its
+  fixed construction site.
 - Excludes: constructing a connected habitat module; entering the fabricated vehicle; selecting the vehicle recipe itself.
-- Parameters: fixture, carried footprint, water state, surface movement, unfold state, boarding reach and packing legality.
-- Evidence: [Subnautica decomposition](../games/s-z/subnautica.md).
-- Novelty: first isolated for `GAME-0178`; a bulky carried station transforms into a reusable floating fabrication platform rather than a fixed building.
+- Parameters: fixture, portable form, operating form, footprint, legal medium,
+  movement, unfold state, operating reach and reversibility.
+- Evidence: [Subnautica decomposition](../games/s-z/subnautica.md) and
+  [Command & Conquer Remastered Collection decomposition](../games/a-f/command-and-conquer-remastered-collection.md).
+- Novelty: first isolated for `GAME-0178` and generalised by
+  `TAXONOMY_CHANGE_036`; water and reversibility are carrier parameters rather
+  than the action boundary.
 
-## ACT-316 — Queue one unit at an eligible production building
+## ACT-316 — Queue one production order at an eligible site
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: the player selects an owned production building and appends one currently available unit type to its finite training queue.
-- Includes: queuing Villagers at a Town Center and military units at Barracks, Archery Ranges, Stables, Castles or Siege Workshops in Age of Empires II: Definitive Edition.
+- Definition: the player selects an owned production site or shared site panel
+  and adds one currently available unit or structure to its finite live queue
+  or production channel.
+- Includes: queuing Villagers or military units at eligible Age of Empires II:
+  Definitive Edition buildings; queuing a structure or infantry unit through
+  the corresponding Command & Conquer production site.
 - Excludes: choosing one city's turn-settled production target; spawning a free scripted unit; selecting a technology rather than a unit.
-- Parameters: building, unit type, queue position, cost, training time, prerequisites, queue capacity and population headroom.
-- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
-- Novelty: first isolated for `GAME-0179`; existing production choices either own one accumulating target or configure an automatic recipe.
+- Parameters: site, production class, order, queue position, cost, production
+  time, prerequisites, channel capacity and any population headroom.
+- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+  and [Command & Conquer Remastered Collection decomposition](../games/a-f/command-and-conquer-remastered-collection.md).
+- Novelty: first isolated for `GAME-0179` and generalised by
+  `TAXONOMY_CHANGE_036`; produced structures and produced units share the same
+  finite site-bound ordering action.
 
 ## ACT-317 — Set formation and stance for a selected unit group
 
@@ -6372,6 +6525,12 @@
   for activating the mesh terminal and opening the admitted end chest.
 - Additional support: [PAYDAY 2 decomposition](../games/m-r/payday-2.md), for
   installing, assembling and repairing the authored Bank Heist thermal drill.
+- Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  for opening doors, applying the key to the locked storeroom door and committing the typewriter save.
+- Additional support: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md),
+  for investigating the Brigand's Tent curio by hand or ignoring it, and for the ignorable Bandit's Trapped Chest.
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for interacting with scroll vats, the treasure chest, wooden doors, the exit, the Collector, Guillain and the fountain.
 - Novelty: first isolated for `GAME-0188`; one generic command boundary joins
   readable clues, stateful switches, typed route keys and optional dungeon
   reward objects without treating their different resolutions as one system.
@@ -6491,24 +6650,31 @@
 - Novelty: first isolated for `GAME-0194`; immediate paid transfer from a local
   recruit offer into a mobile persistent party is absent from lower-ID actions.
 
-## ACT-348 — Mount and directly ride an available battle horse
+## ACT-348 — Mount, directly ride and dismount an available mount
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player approaches an eligible horse in a live battle, mounts
-  or dismounts it and directly controls its pace, steering and jump while
-  retaining personal weapon and attack authority.
-- Includes: using the fixed starting horse in scoped Mount & Blade II:
-  Bannerlord tutorial field battles.
-- Excludes: calling a persistent bonded horse with saddle cargo; target-routed
-  automatic mount travel; a resummonable spectral steed; campaign-map movement.
-- Parameters: horse, reach, rider, mount state, pace, direction, jump, weapon,
-  mounted attack and dismount.
-- Evidence: [Mount & Blade II: Bannerlord decomposition](../games/m-r/mount-and-blade-ii-bannerlord.md).
-- Novelty: first isolated for `GAME-0194`; the horse is an embodied available
-  battle agent without the identity, bond, cargo or summon rules of prior mounts.
+- Definition: the player reaches an eligible available mount, enters or leaves
+  its riding state and, while mounted, directly controls its pace, steering,
+  jump and stop without delegating the route to autonomous travel.
+- Includes: mounting, riding and dismounting Arthur Morgan's current saddled
+  horse during Red Dead Redemption 2's scoped Chapter 2 route and the fixed
+  starting horse in scoped Mount & Blade II: Bannerlord tutorial field battles.
+- Excludes: remotely calling the persistent mount toward the actor (`ACT-271`);
+  invoking an absent spectral mount and entering its ride state in one
+  activation (`ACT-247`); committing target-routed mounted travel (`ACT-243`);
+  activating a companion-specific partner ability (`ACT-197`); entering and
+  operating a road vehicle (`ACT-201`).
+- Parameters: mount, reach, rider, mount state, pace, direction, jump, stop,
+  concurrent action authority and dismount.
+- Evidence: [Red Dead Redemption 2 decomposition](../games/m-r/red-dead-redemption-2.md)
+  and [Mount & Blade II: Bannerlord decomposition](../games/m-r/mount-and-blade-ii-bannerlord.md).
+- Novelty: first isolated for `GAME-0194`; generalised by
+  [`TAXONOMY_CHANGE_063`](../../research/taxonomy-changes/TAXONOMY_CHANGE_063.md)
+  after horse persistence, bond, saddle cargo, battle context and weapon access
+  failed as Action discriminators in the two-carrier transfer test.
 
 ## ACT-349 — Hold a weapon block toward one incoming attack direction
 
@@ -6665,6 +6831,8 @@
 - Parameters: fighter, ground/air state, direction, startup, protection,
   displacement, cooldown, reset contact and follow-up action.
 - Evidence: [Brawlhalla decomposition](../games/a-f/brawlhalla.md).
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for the freely timed roll with its protected interval and cooldown.
 - Novelty: first isolated for `GAME-0198`; unlike a telegraphed prompt response,
   the dodge is a freely timed neutral, pressure or recovery commitment in a
   continuously repositionable duel.
@@ -6747,21 +6915,23 @@
 - Novelty: first isolated for `GAME-0202`; an explicit preparation choice owns
   the first live position without an intervening flight or route traversal.
 
-## ACT-361 — Fire one consumable grappling hook
+## ACT-361 — Commit a grappling-line approach
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player aims one carried grappling charge at eligible terrain
-  or a live combatant and fires it to request a tethered approach toward the
-  selected target.
-- Includes: NARAKA: BLADEPOINT Grappling Hook traversal, pursuit and escape.
-- Excludes: a permanent unlimited grappling ability; pulling an object toward
-  the player; grappling and silently neutralising an unaware target.
-- Parameters: carried stock, aim mode, target, anchor, range, hit, pull,
-  collision, cancellation and consumed charge.
-- Evidence: [NARAKA: BLADEPOINT decomposition](../games/m-r/naraka-bladepoint.md).
+- Definition: the player aims a reusable ability or carried grappling charge at
+  eligible terrain or a live combatant and commits a tethered approach toward
+  the selected target.
+- Includes: NARAKA: BLADEPOINT Grappling Hook traversal, pursuit and escape;
+  Sekiro grappling to marked terrain anchors.
+- Excludes: pulling an object toward the player; teleportation without a
+  tethered approach; silently neutralising an unaware target.
+- Parameters: carried stock or reusable ability, aim mode, target, anchor,
+  range, hit, pull, collision, cancellation and any separately governed cost.
+- Evidence: [NARAKA: BLADEPOINT decomposition](../games/m-r/naraka-bladepoint.md)
+  and [Sekiro decomposition](../games/s-z/sekiro-shadows-die-twice.md).
 - Novelty: first isolated for `GAME-0202`; a finite loot item creates a direct
   terrain- or opponent-targeted movement commitment inside the same match.
 
@@ -6801,23 +6971,28 @@
 - Novelty: first isolated for `GAME-0203`; a disposable inventory object edits
   the current physics route without becoming a general building system.
 
-## ACT-364 — Ignite a carried signal flare in an eligible region
+## ACT-364 — Activate a carried signal item in an eligible region
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: while carrying an ignitable signal item inside its declared
-  activation region, the player lights it to request the associated rescue or
-  terminal response and consumes its ordinary future use.
-- Includes: lighting a PEAK Flare inside the PEAK region to call the helicopter.
-- Excludes: firing a combat flare; entering an already open exit; a purely
-  cosmetic emote; rescue triggered automatically by arrival.
-- Parameters: item, carried state, region, ignition legality, signal, response,
-  consumption and terminal eligibility.
-- Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Definition: while carrying a usable signal item inside its declared
+  activation region, the player ignites or fires it to request the associated
+  rescue or terminal response and consumes its ordinary future use.
+- Includes: lighting a PEAK Flare inside the PEAK region to call the helicopter;
+  firing The Long Dark's loaded Distress Pistol from the top of its Challenge
+  Lighthouse.
+- Excludes: firing the same item only as a combat attack; entering an already
+  open exit; a purely cosmetic emote; rescue triggered automatically by arrival.
+- Parameters: item, carried state, load or ignition state, region, activation
+  legality, signal, response, consumption and terminal eligibility.
+- Evidence: [PEAK decomposition](../games/m-r/peak.md) and
+  [The Long Dark decomposition](../games/s-z/the-long-dark.md).
 - Novelty: first isolated for `GAME-0203`; the run's retained signal supply is
-  also the explicit final command that asks the rescue system to settle.
+  also the explicit final command that asks the rescue system to settle. The
+  ignition-or-firing generalisation was accepted in
+  [`TAXONOMY_CHANGE_051`](../../research/taxonomy-changes/TAXONOMY_CHANGE_051.md).
 
 ## ACT-365 — Select one eligible lifestyle focus
 
@@ -7673,13 +7848,14 @@
 - Definition: during embodied control, the player toggles one carried personal
   illumination device between an active local light field and an inactive
   state without replacing ordinary movement or weapon authority; its charge
-  and refill rule remain separate system parameters.
+  transitions and any distinct refill command remain separate gene boundaries.
 - Includes: switching the HEV flashlight on and off during Half-Life (1998)'s
   scoped `Unforeseen Consequences` route and the finite-battery flashlight
   during Alien: Isolation's scoped hospital mission.
 - Excludes: placing a world torch; fuelling a campfire; selecting a cosmetic
   lighting option; firing a weapon-mounted flash; night vision with no local
-  illumination field; a disposable flare throw.
+  illumination field; a disposable flare throw; committing carried stock to
+  refill the device (`ACT-453`).
 - Parameters: device, current toggle state, input, personal carrier, light
   field, concurrent action authority and rejection state.
 - Evidence: [Half-Life (1998) decomposition](../games/g-l/half-life-1998.md)
@@ -7861,24 +8037,27 @@
 - Novelty: first isolated for `GAME-0244`; one optional live payment preserves
   accumulated exposure while replacing the current evasion requirement.
 
-## ACT-419 — Perform a prompted close finisher on a staggered hostile
+## ACT-419 — Perform a prompted close action on a staggered hostile
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: the player commits a short contextual finisher on one reachable
-  living hostile while its temporary stagger opportunity remains active.
-- Includes: a Glory Kill on a staggered close hostile in DOOM (2016)'s bounded
-  first Campaign mission.
+- Definition: the player commits an exposed contextual close action on one
+  reachable living hostile while its temporary stagger opportunity remains
+  active; whether that action defeats the target belongs to its System result.
+- Includes: Glory Kills in DOOM (2016) and DOOM Eternal; a ground finisher in
+  Batman: Arkham Asylum; close executions in God of War and Sekiro; and a
+  prompted melee follow-up in Resident Evil 4 (2023 remake).
 - Excludes: an ordinary melee strike; an unaware-target takedown; shooting the
-  staggered target from range; an automatic defeat animation without a second
-  player command.
+  staggered target from range; an automatic resolution without a distinct
+  player command; any claim that the close action must defeat its target.
 - Parameters: hostile, stagger state, reach, opportunity duration, approach
-  direction, context and committed finisher.
-- Evidence: [DOOM (2016) decomposition](../games/a-f/doom-2016.md).
-- Novelty: first isolated for `GAME-0245`; temporary damage state creates one
-  optional embodied execution command before ordinary combat resumes.
+  direction, context and committed close action.
+- Evidence: [DOOM (2016) decomposition](../games/a-f/doom-2016.md) and
+  [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md).
+- Novelty: first isolated for `GAME-0245`; `TAXONOMY_CHANGE_059` removes the
+  result-specific split and keeps target defeat in the System layer.
 
 ## ACT-420 — Select one powered personal capability mode during live control
 
@@ -8001,30 +8180,28 @@
 - Parameters: close weapon, incoming attack, contact time, input time, ordinary
   window, precise window, reach and committed parry.
 - Evidence: [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md).
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for tapping the Old Wooden Shield to parry one incoming attack.
 - Novelty: first isolated for `GAME-0249`; one undirected reactive input is
   evaluated against a live contact window instead of maintaining or aiming a
   guard state.
 
 ## ACT-426 — Perform a prompted close follow-up on a staggered hostile
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: while one living hostile remains in a temporary stagger state
-  and within reach, the player commits the exposed contextual close attack as
-  a follow-up rather than another ordinary aimed strike.
-- Includes: performing a prompted melee follow-up on a staggered hostile in
-  Resident Evil 4's bounded first chapter.
-- Excludes: a guaranteed execution that always defeats the target; an
-  unaware-target stealth takedown; an ordinary knife slash; shooting a
-  staggered target from range.
-- Parameters: hostile, stagger source, reachable relation, prompt, follow-up
-  attack, affected nearby actors, damage, knockback and recovery.
+- Definition: historical result-specific duplicate now represented by the
+  parameterised active boundary `ACT-419`.
+- Includes: historical references that used `ACT-426` before taxonomy change
+  059.
+- Excludes: current signatures and new analysis; use `ACT-419` while keeping
+  damage, knockback and defeat in the applicable System behaviours.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md).
-- Novelty: first isolated for `GAME-0249`; the contextual command converts a
-  temporary stagger into a close area-affecting attack without requiring the
-  target's immediate defeat.
+- Merged into: `ACT-419` by
+  [`TAXONOMY_CHANGE_059`](../../research/taxonomy-changes/TAXONOMY_CHANGE_059.md).
 
 ## ACT-427 — Scrub one fixed reconstructed event to its causal point
 
@@ -8274,6 +8451,8 @@
 - Evidence: [DARK SOULS III decomposition](../games/a-f/dark-souls-iii.md).
 - Additional support: [God of War decomposition](../games/g-l/god-of-war.md),
   for the same held guard with no depleting reserve behind it.
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for holding the Old Wooden Shield to absorb frontal damage.
 - Novelty: first isolated for `GAME-0262`; generalised by
   [`TAXONOMY_CHANGE_020`](../../research/taxonomy-changes/TAXONOMY_CHANGE_020.md)
   — the transferable command is the held facing-relative guard itself, while
@@ -8460,3 +8639,192 @@
 - Novelty: first isolated for `GAME-0268`; defence becomes a continuous spatial
   problem inside a frame the opponent controls, so surviving a turn is a
   question of where the token is rather than of when a button is pressed.
+
+## ACT-446 — Direct a continuous applicator at a reachable surface
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player aims a held continuous applicator at a reachable
+  surface and sustains or toggles its output there, so the operation's effect
+  is the area the stream covers over time rather than a discrete committed
+  strike.
+- Includes: directing the washer across the vehicle's panels during PowerWash
+  Simulator's bounded first Career job.
+- Excludes: an aimed shot or melee strike at a hostile; extracting a finite
+  yield from a source; a discrete maintenance action performed on one owned
+  item; placing a persistent object; a tool whose effect resolves on release
+  rather than during contact.
+- Parameters: applicator type, stream width and pressure, held or toggled
+  input, aim mode and whether the stream consumes anything.
+- Evidence: [PowerWash Simulator decomposition](../games/m-r/powerwash-simulator.md).
+- Novelty: first isolated for `GAME-0279`; the verb is coverage over time, so
+  where the stream has been is the whole state change.
+
+## ACT-447 — Configure a bounded service menu from available recipe servings
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: before or during a bounded service session, the player selects
+  one currently available recipe and commits it with a chosen or rules-derived
+  serving allocation to the session's offered menu, so incoming requests may
+  select it and its underlying ingredient stock becomes exposed to consumption
+  or end-of-session loss.
+- Includes: adding an unlocked dish to DAVE THE DIVER's first-night menu from
+  the servings supported by the fish delivered by the required second dive.
+- Excludes: crafting one personal inventory item; assigning a continuously
+  repeated recipe to an autonomous factory; purchasing a catalogue offer;
+  delivering a prepared serving to its requester; merely reading a recipe.
+- Parameters: recipe set, ingredient stock, serving conversion, selected
+  allocation, whether restocking remains legal during service and treatment of
+  unused prepared stock.
+- Evidence: [DAVE THE DIVER decomposition](../games/a-f/dave-the-diver.md).
+- Novelty: first isolated for `GAME-0278`; the commitment changes what a later
+  population may request and risks ingredient stock against uncertain demand,
+  rather than immediately producing an inventory output.
+
+## ACT-448 — Hold and release a dispenser against a target fill level
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player holds a continuous dispensing input while a visible
+  vessel fills, then releases it at a chosen moment so the achieved level is
+  evaluated against a declared target instead of the system stopping at that
+  target automatically.
+- Includes: pouring the required early drink during DAVE THE DIVER's first
+  service tutorial, where the release level changes the customer's evaluation
+  and payment.
+- Excludes: transferring the maximum compatible amount between two selected
+  containers; holding a continuous surface applicator; timing one discrete
+  strike against a moving window; selecting a fixed quantity in a menu.
+- Parameters: dispenser, vessel, fill rate, target line, release input,
+  tolerance bands, spill or underfill state and evaluation consequence.
+- Evidence: [DAVE THE DIVER decomposition](../games/a-f/dave-the-diver.md).
+- Novelty: first isolated for `GAME-0278`; the committed result is a continuous
+  quantity chosen by release timing, not a fixed transfer or binary hit window.
+
+## ACT-449 — Manually lower the party's shared light meter
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: the player directly reduces the expedition's shared light meter
+  by a declared step or to zero at any time outside a resolving action,
+  changing the meter's threshold band before later travel, battle and loot
+  resolution.
+- Includes: snuffing the Darkest Dungeon torch by 25-point steps or completely
+  through the light meter itself during the scoped Old Road tutorial, where
+  the route recommends but never commands it.
+- Excludes: automatic light decay from travel (`SYS-829`); raising the meter
+  by consuming a carried light item, which the scoped packet cannot evidence
+  and which stays outside this boundary; a skill whose side effect changes the
+  light; toggling a personal illumination device that emits a local light
+  field (`ACT-409`); consuming a restorative item.
+- Parameters: decrement step, minimum, timing restrictions and which
+  threshold bands the meter exposes.
+- Evidence: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md).
+- Novelty: first isolated for `GAME-0281`; the command lowers a shared
+  expedition meter whose band trades stress and danger against loot, rather
+  than a personal light source; the boundary rests on one community-maintained
+  source family and is graded accordingly.
+
+## ACT-450 — Shift one hero along the party formation at the cost of its turn
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: during a hero's combat turn the player commands that hero to
+  move a declared number of positions forward or backward along the party's
+  one-dimensional formation, exchanging positions with the allies it passes,
+  and the command consumes that hero's action for the round.
+- Includes: the Darkest Dungeon move command, with each hero's forward and
+  backward move ranges, used to restore Dismas or Reynauld to a rank from
+  which their equipped skills are legal after a knockback in the scoped Old
+  Road tutorial.
+- Excludes: repositioning as the side effect of a skill or of an enemy move
+  effect; free formation reordering outside combat; relocating a unit across a
+  two-dimensional grid (`ACT-014`); swapping by walking into an adjacent unit
+  (`ACT-067`).
+- Parameters: forward and backward range per hero, ally displacement rule,
+  turn cost, out-of-combat reordering and afflicted refusal.
+- Evidence: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md).
+- Novelty: first isolated for `GAME-0281`; the formation line is the target
+  space, and the trade-off is a spent action against rank legality.
+
+## ACT-451 — Commit held currency toward one selected priced ledger entry
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: the player selects one currently available priced entry in a
+  persistent ledger and commits held scoped currency toward its price, up to
+  the held balance or the remaining price, without the entry needing to be
+  affordable or acquired by that commitment.
+- Includes: investing cells in the Collector's available entry, beginning
+  with Health Flask I, in the Passage after the scoped first Prisoners'
+  Quarters run of Dead Cells, whether the commitment completes the price or
+  leaves it partly paid.
+- Excludes: a purchase that acquires the offer at once (`ACT-130`); a
+  between-run purchase with persistent resources (`ACT-143`); a typed item
+  contribution to a collection slot (`ACT-093`); a refundable pledge; the
+  ledger's retention and completion result (`SYS-835`).
+- Parameters: currency, entry ladder, price, remaining amount, minimum
+  increment, selection interface and whether completion grants the item at
+  once.
+- Evidence: [Dead Cells decomposition](../games/a-f/dead-cells.md).
+- Novelty: first isolated for `GAME-0282`; the command commits an amount
+  toward a target rather than exchanging a price for a delivered asset, so it
+  is legal while the target stays unaffordable.
+
+## ACT-452 — Spend a ready charge to resume control after lethal defeat
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after lethal damage but before true death settles, the player
+  confirms one currently ready self-recovery charge to restore the controlled
+  body in place and continue the same live encounter.
+- Includes: choosing Resurrection after lethal defeat in Sekiro's bounded
+  opening route.
+- Excludes: reviving another participant; automatic extra-life settlement;
+  returning to a checkpoint; respawning as a new body; passive survival that
+  requires no post-defeat command.
+- Parameters: charge source, restored health, confirmation window, position,
+  encounter continuity, animation and temporary post-use lock.
+- Evidence: [Sekiro decomposition](../games/s-z/sekiro-shadows-die-twice.md),
+  using the official PC manual's resurrection rules.
+- Novelty: first isolated for `GAME-0288`; lethal defeat opens a player-chosen,
+  charge-priced continuation at the same position before checkpoint death.
+
+## ACT-453 — Commit one finite carried unit to refill a portable device
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while one compatible portable device is below its usable charge
+  cap, the player commands the irreversible transfer of one finite carried
+  replacement unit into that device without selecting another equipped tool.
+- Includes: manually spending one carried flashlight battery to refill the
+  portable flashlight during Alien: Isolation's scoped hospital mission.
+- Excludes: toggling the device (`ACT-409`); automatically restoring charge
+  while the device is inactive; reloading a magazine-fed weapon (`ACT-183`);
+  replacing a breathing filter (`ACT-435`); collecting the replacement unit;
+  crafting or equipping another device.
+- Parameters: device, carried unit, refill input, current charge, charge cap,
+  action duration, interruption and accepted or rejected command state.
+- Evidence: [Alien: Isolation decomposition](../games/a-f/alien-isolation.md),
+  using the publisher-linked manual's flashlight and battery-refill rules.
+- Novelty: extracted from compound `SYS-791` by
+  [`TAXONOMY_CHANGE_062`](../../research/taxonomy-changes/TAXONOMY_CHANGE_062.md);
+  the player command is distinct from the System settlement that consumes stock
+  and raises charge.

@@ -438,7 +438,8 @@ gene instances but do not enter the signature.
 - Lower-ID scan: reject `SYS-327`, which integrates several open-survival
   metabolism/environment meters rather than an installed finite filter before
   harm; reject `SYS-754`/`SYS-791`, whose light reserve changes while Metro's
-  necessary new relation is light-to-hostile acquisition; reject `INF-298`,
+  necessary new relation is light-to-hostile acquisition; `SYS-851` is also
+  rejected because no automatic off-state light recharge is admitted; reject `INF-298`,
   which exposes direction and escalation of a particular incoming detection
   rather than actor-centred current illumination; reject a generic companion
   command because Anna/Yermak steps are fixed authored gates.

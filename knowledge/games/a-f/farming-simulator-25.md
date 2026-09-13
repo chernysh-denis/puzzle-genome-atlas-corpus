@@ -6,6 +6,7 @@ analysis_status: reviewed
 reviewed: 2026-08-29
 combination_ids:
   - COMB-0194
+  - COMB-0271
 gene_ids:
   action:
     - ACT-201
@@ -310,7 +311,7 @@ gene instances but do not enter the signature.
 - Prior game signatures scanned: `195` (`GAME-0001`–`GAME-0195`).
 - Exact genome matches: none.
 - Tied near matches: `GAME-0169` — Euro Truck Simulator 2 (`4 / 37 = 0.108108`).
-- Supported combination subsets: `COMB-0194`.
+- Supported combination subsets: `COMB-0194`, `COMB-0271`.
 - Scan date: 2026-08-29.
 
 ### Selected-neighbour interpretation
@@ -332,8 +333,12 @@ gene instances but do not enter the signature.
 
 ## Taxonomy impact
 
-- Registry changes: fifteen Active genes and `COMB-0194`.
-- Taxonomy-change record: none; no existing definition is deprecated, merged or split.
+- Registry changes at original review: fifteen Active genes and `COMB-0194`.
+- Later taxonomy note:
+  [`TAXONOMY_CHANGE_039`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_039.md)
+  generalises `SYS-630` and `CON-516` without changing this signature after
+  PowerWash Simulator supplies an independent carrier; `COMB-0271` records the
+  now-recurring coverage-to-settlement interaction.
 - Candidate terms affected: field-work contract, powered implement coupling,
   treatment footprint, accepted field coverage and borrowed-equipment settlement.
 

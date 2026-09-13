@@ -3,7 +3,7 @@ game_id: GAME-0257
 slug: alien-isolation
 game_title: "Alien: Isolation"
 analysis_status: reviewed
-reviewed: 2026-09-05
+reviewed: 2026-09-10
 combination_ids:
   - COMB-0255
 gene_ids:
@@ -17,12 +17,14 @@ gene_ids:
     - ACT-409
     - ACT-432
     - ACT-433
+    - ACT-453
   system:
     - SYS-057
     - SYS-112
     - SYS-222
     - SYS-369
     - SYS-578
+    - SYS-754
     - SYS-780
     - SYS-791
     - SYS-792
@@ -217,10 +219,12 @@ gene instances but do not enter the signature.
   from compatible carried components; `ACT-406`: aim and throw that non-
   damaging carried diversion toward a reachable world point; wording-
   generalised `ACT-409`: toggle a finite-charge personal flashlight whose
-  refill behaviour is supplied separately by `SYS-791` and `CON-601`.
+  charge transitions and refill command remain separate.
 - New `ACT-432`: raise or lower a portable local-motion sensor while retaining
   direct locomotion; new `ACT-433`: enter, remain attached to and deliberately
   leave one reachable authored hiding place.
+- New `ACT-453`: commit one finite carried battery to refill the portable
+  flashlight while it is below its charge cap.
 - Product, mission, room, tool, item, actor, code and exact quantity names
   remain game-scoped parameters. Claims: `AI-004`–`AI-012`.
 
@@ -238,9 +242,11 @@ gene instances but do not enter the signature.
   positions.
 - Wording-generalised `SYS-780`: completing the required Mission 5 chain
   settles its objective/save boundary and admits retained Mission 6 control.
-- New `SYS-791`: active portable illumination drains its internal charge and a
-  legal refill consumes one finite carried battery; new `SYS-792`: the raised
-  sensor samples eligible moving actors, selects the nearest reading and
+- Existing `SYS-754`: active portable illumination converts positive internal
+  charge into its local light field and drains that charge.
+- New `SYS-791`: after an accepted manual refill, consume one finite carried
+  battery and raise the flashlight's charge toward cap; new `SYS-792`: the
+  raised sensor samples eligible moving actors, selects the nearest reading and
   converts its relative position into direction-sector and distance feedback,
   dropping stationary actors from that channel.
 - Resolution order: objective/map exposes the next gate; navigation or
@@ -392,8 +398,8 @@ gene instances but do not enter the signature.
 
 | Type | Active gene IDs | Candidate genes or parameters |
 |---|---|---|
-| Action | `ACT-008`, `ACT-123`, `ACT-164`, `ACT-199`, `ACT-341`, `ACT-406`, `ACT-409`, `ACT-432`, `ACT-433` | mission, tool, item, hiding-place and input identities are parameters |
-| System Behaviour | `SYS-057`, `SYS-112`, `SYS-222`, `SYS-369`, `SYS-578`, `SYS-780`, `SYS-791`, `SYS-792` | hunter route, stimulus, sensor range, charge and checkpoint values are parameters |
+| Action | `ACT-008`, `ACT-123`, `ACT-164`, `ACT-199`, `ACT-341`, `ACT-406`, `ACT-409`, `ACT-432`, `ACT-433`, `ACT-453` | mission, tool, item, hiding-place and input identities are parameters |
+| System Behaviour | `SYS-057`, `SYS-112`, `SYS-222`, `SYS-369`, `SYS-578`, `SYS-754`, `SYS-780`, `SYS-791`, `SYS-792` | hunter route, stimulus, sensor range, charge and checkpoint values are parameters |
 | Constraint | `CON-210`, `CON-282`, `CON-296`, `CON-297`, `CON-601`, `CON-602` | code, keycard, component, capacity and cooldown values are parameters |
 | Information | `INF-115`, `INF-119`, `INF-125`, `INF-128`, `INF-132`, `INF-311` | HUD art, tracker sectors and distance presentation are parameters |
 | Objective | `OBJ-155` | mission names and exact save slot are parameters |
@@ -404,23 +410,25 @@ gene instances but do not enter the signature.
 - Comparison algorithm: `genome-jaccard-v1`.
 - Prior game signatures scanned: `256` (`GAME-0001`–`GAME-0256`).
 - Exact genome matches: none.
-- Tied near matches: `GAME-0231` — Fallout 4 (`11 / 43 = 0.255814`).
+- Tied near matches: `GAME-0256` — BioShock™ Remastered (`13 / 53 = 0.245283`).
 - Supported combination subsets: `COMB-0255`.
-- Scan date: 2026-09-05.
+- Scan date: 2026-09-10.
 
 ### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0231` — Fallout 4 | `ACT-008`, `ACT-199`, `ACT-341`, `SYS-369`, `CON-282`, `INF-115`, `INF-119`, `INF-125`, `INF-128`, `TIM-003`, `TIM-007` | Fallout 4's reviewed Vault route adds a fixed character-stat allocation, direct weapon combat, staged tutorial guidance and a retained open-world exterior. Alien: Isolation instead adds moving-only portable sensing, authored hiding, decoy-driven autonomous pursuit, finite-battery light, exposed crafting and cooldown-gated live saving before the retained successor mission. | Near, `0.255814` |
+| `GAME-0256` — BioShock Remastered | `ACT-008`, `ACT-164`, `ACT-199`, `ACT-341`, `SYS-112`, `SYS-222`, `SYS-578`, `CON-282`, `INF-115`, `INF-119`, `INF-125`, `TIM-003`, `TIM-007` | Both move through one authored first-person route with finite carried resources, dependent fixtures, health pressure and restorable time. BioShock adds direct combat, mutually exclusive weapon/ability channels, EVE recovery and environmental effect propagation. Alien: Isolation instead adds moving-only sensing, hiding, decoy-driven hunter routing, separately commanded finite-battery light refill and vulnerable save stations before its retained successor mission. | Near, `0.245283` |
 
 ### Preserved research notes
 
-- New genes: `ACT-432`, `ACT-433`, `SYS-791`, `SYS-792`, `CON-601`,
-  `CON-602` and `INF-311`.
+- New genes: `ACT-432`, `ACT-433`, `ACT-453`, `SYS-791`, `SYS-792`,
+  `CON-601`, `CON-602` and `INF-311`. `ACT-453` was extracted from the former
+  compound refill boundary by
+  [`TAXONOMY_CHANGE_062`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_062.md).
 - Reused genes: `ACT-008`, `ACT-123`, `ACT-164`, `ACT-199`, `ACT-341`,
   `ACT-406`, `ACT-409`, `SYS-057`, `SYS-112`, `SYS-222`, `SYS-369`,
-  `SYS-578`, `SYS-780`, `CON-210`, `CON-282`, `CON-296`, `CON-297`,
+  `SYS-578`, `SYS-754`, `SYS-780`, `CON-210`, `CON-282`, `CON-296`, `CON-297`,
   `INF-115`, `INF-119`, `INF-125`, `INF-128`, `INF-132`, `OBJ-155`,
   `TIM-003` and `TIM-007`.
 - Classification result: `New gene` and `New combination of known and new genes`.
@@ -434,14 +442,12 @@ gene instances but do not enter the signature.
 
 ## Taxonomy impact
 
-- Registry changes: add seven bounded Active genes and `COMB-0255`; add
-  independent evidence to fitting reused genes. Wording-generalise `ACT-409`,
-  `SYS-057`, `SYS-780`, `CON-297` and `OBJ-155` only enough to admit the same
-  portable boundary with this game's refill, autonomous-hunter, no-station
-  craft and mission terminology. Every earlier signature and lifecycle state
-  remains unchanged.
-- Taxonomy-change record: none; the generalisations do not split, merge,
-  deprecate or change any earlier game's signature.
+- Registry changes: eight game-introduced Active genes and `COMB-0255` plus
+  independent support for reused genes. `TAXONOMY_CHANGE_062` adds the manual
+  refill command `ACT-453`, reuses the shared illumination drain `SYS-754` and
+  narrows `SYS-791` to finite-stock refill settlement.
+- Taxonomy-change record:
+  [`TAXONOMY_CHANGE_062`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_062.md).
 - Candidate terms affected: recorded in `CANDIDATE_TERMS.md`; Alien,
   `The Quarantine`, SciMed, Samuels, Taylor, Kuhlman, Morley, Noisemaker,
   access tuner, motion tracker, passcode `1702`, keycard, elevator, `Hard`, app,
@@ -454,8 +460,10 @@ gene instances but do not enter the signature.
 - `SYS-373` is rejected: the scoped hunter changes search/pursuit from
   perception and decoy stimuli under `SYS-057`, not a conventional suspicion
   meter that necessarily escalates into ordinary combat.
-- `SYS-754` is rejected: this flashlight does not automatically recharge while
-  inactive; a refill consumes finite carried battery stock.
+- `SYS-754` is admitted for the active charge-to-light drain after
+  `TAXONOMY_CHANGE_062`; `SYS-851` is rejected because this flashlight does not
+  recover automatically while inactive. `ACT-453`, `SYS-791` and `CON-601`
+  separately own the refill command, finite-stock settlement and legality.
 - `CON-077` and `CON-305` are rejected: one is sight-only and one remains the
   Project Zomboid zombie/route gate. This packet needs neither to restate the
   already admitted multi-stimulus autonomous diversion boundary.
@@ -475,7 +483,8 @@ gene instances but do not enter the signature.
 ## New genes
 
 - [Observation | Direct/Corroborated | High] Added `ACT-432`, `ACT-433`,
-  `SYS-791`, `SYS-792`, `CON-601`, `CON-602` and `INF-311`.
+  `ACT-453`, `SYS-791`, `SYS-792`, `CON-601`, `CON-602` and `INF-311`;
+  reused `SYS-754` for the independently portable drain transition.
 
 ## New combinations
 
@@ -485,10 +494,9 @@ gene instances but do not enter the signature.
 
 ## Taxonomy changes
 
-- [Observation | Direct/Corroborated | High] Seven portable genes are added.
-  `ACT-409`, `SYS-057`, `SYS-780`, `CON-297` and `OBJ-155` receive only
-  boundary-preserving wording and independent support; no earlier signature or
-  lifecycle state changes.
+- [Confirmed | Direct | High] `TAXONOMY_CHANGE_062` separates the refill command
+  (`ACT-453`), active illumination drain (`SYS-754`) and finite-battery
+  settlement (`SYS-791`) while leaving refill legality in `CON-601`.
 
 ## New questions
 

@@ -3,7 +3,7 @@ game_id: GAME-0165
 slug: red-dead-redemption-2
 game_title: Red Dead Redemption 2
 analysis_status: reviewed
-reviewed: 2026-08-27
+reviewed: 2026-09-10
 combination_ids:
   - COMB-0163
 gene_ids:
@@ -22,6 +22,7 @@ gene_ids:
     - ACT-272
     - ACT-273
     - ACT-274
+    - ACT-348
   system:
     - SYS-208
     - SYS-215
@@ -122,7 +123,7 @@ gene instances but do not enter the signature.
 |---|---|---|---|---|---|
 | `RDR2-001` | The PC product contains distinct Story Mode and Red Dead Online boundaries, and this analysis admits only the standard Story Mode Chapter 2 packet | Confirmed | Direct | High | P1–P3 |
 | `RDR2-002` | Horseshoe Overlook is the Chapter 2 camp from `Eastward Bound` until `A Strange Kindness`, whose completion establishes Clemens Point | Confirmed | Corroborated | High | P4, S1, S2 |
-| `RDR2-003` | Arthur's directly ridden saddled horse retains separate health, stamina, bond and cargo state; care and shared travel improve bond capabilities | Confirmed | Corroborated | High | P4–P6, S3 |
+| `RDR2-003` | Arthur can call the current saddled horse toward him and then separately mount, directly ride and dismount it; the horse retains health, stamina, bond and cargo state, while care and shared travel improve bond capabilities | Confirmed | Corroborated | High | P4–P6, S3 |
 | `RDR2-004` | Arthur and horse use visible cores that govern recoverable outer meters, while food, rest, tonics, exertion and damage change those paired resources | Confirmed | Corroborated | High | P4, P5, S4 |
 | `RDR2-005` | Firearms retain condition, lose performance through firing or exposure and can be restored in the field by consuming gun oil | Confirmed | Corroborated | High | P6, P7, S5 |
 | `RDR2-006` | A witnessed offence can be interrupted before report; identification then escalates law response and leaves a regional bounty beyond the immediate search | Confirmed | Corroborated | High | P4, P7, S6 |
@@ -191,9 +192,11 @@ gene instances but do not enter the signature.
   select current equipment; `ACT-183`, reload; `ACT-201`, drive a required
   wagon; `ACT-226`, enter contextual cover; `ACT-227`, set a map waypoint;
   `ACT-245`, skin or harvest an eligible animal yield.
-- New genes: `ACT-271`, call, mount and directly ride the persistent horse;
+- New genes at first review: `ACT-271`, remotely call the persistent owned horse;
   `ACT-272`, clean one firearm with gun oil; `ACT-273`, donate value to the
   shared camp; `ACT-274`, choose a contextual ambient social response.
+- Reused after `TAXONOMY_CHANGE_063`: `ACT-348`, mount, directly ride and
+  dismount the available horse independently of the remote call.
 - Parameters: bindings, gait, horse, weapon, ammunition, item, oil, donation,
   social response, shop offer, waypoint, animal and wagon identity.
 - Claim IDs: `RDR2-003`–`RDR2-010`.
@@ -349,7 +352,7 @@ gene instances but do not enter the signature.
 
 | Type | Active gene IDs | Candidate genes or parameters |
 |---|---|---|
-| Action | `ACT-008`, `ACT-130`, `ACT-131`, `ACT-161`, `ACT-164`, `ACT-183`, `ACT-201`, `ACT-226`, `ACT-227`, `ACT-245`, `ACT-271`–`ACT-274` | bindings and content identities are parameters |
+| Action | `ACT-008`, `ACT-130`, `ACT-131`, `ACT-161`, `ACT-164`, `ACT-183`, `ACT-201`, `ACT-226`, `ACT-227`, `ACT-245`, `ACT-271`–`ACT-274`, `ACT-348` | bindings and content identities are parameters |
 | System Behaviour | `SYS-208`, `SYS-215`, `SYS-222`, `SYS-251`, `SYS-320`, `SYS-366`, `SYS-369`, `SYS-471`–`SYS-480` | exact balance, rates, values and mission scripts are parameters |
 | Constraint | `CON-269`, `CON-282`, `CON-285`, `CON-288`, `CON-328`, `CON-330`, `CON-331`, `CON-405`–`CON-409` | capacities, thresholds and prices are parameters |
 | Information | `INF-073`, `INF-115`, `INF-117`, `INF-119`, `INF-125`, `INF-144`, `INF-181`–`INF-183` | exact HUD geometry and icon style are presentation |
@@ -361,20 +364,20 @@ gene instances but do not enter the signature.
 - Comparison algorithm: `genome-jaccard-v1`.
 - Prior game signatures scanned: `164` (`GAME-0001`–`GAME-0164`).
 - Exact genome matches: none.
-- Tied near matches: `GAME-0145` — Grand Theft Auto V (`28 / 74 = 0.378378`).
+- Tied near matches: `GAME-0145` — Grand Theft Auto V (`28 / 75 = 0.373333`).
 - Supported combination subsets: `COMB-0163`.
-- Scan date: 2026-08-27.
+- Scan date: 2026-09-10.
 
 ### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0145` — Grand Theft Auto V | `ACT-008`, `ACT-130`, `ACT-161`, `ACT-164`, `ACT-183`, `ACT-201`, `ACT-226`, `ACT-227`, `SYS-208`, `SYS-215`, `SYS-222`, `SYS-320`, `SYS-366`, `SYS-369`, `CON-269`, `CON-282`, `CON-285`, `CON-288`, `CON-328`, `CON-330`, `CON-331`, `INF-073`, `INF-115`, `INF-117`, `INF-119`, `INF-125`, `INF-144`, `TIM-003` | GTA V switches among three protagonists and resolves planned heists inside a modern urban wanted system. This unit instead persists one cared-for horse and saddle cargo, two-layer cores and meters, firearm condition, a pre-report witness window, regional bounty and honour, and a shared camp ledger before a required chapter transition. | Near, `0.378378` |
+| `GAME-0145` — Grand Theft Auto V | `ACT-008`, `ACT-130`, `ACT-161`, `ACT-164`, `ACT-183`, `ACT-201`, `ACT-226`, `ACT-227`, `SYS-208`, `SYS-215`, `SYS-222`, `SYS-320`, `SYS-366`, `SYS-369`, `CON-269`, `CON-282`, `CON-285`, `CON-288`, `CON-328`, `CON-330`, `CON-331`, `INF-073`, `INF-115`, `INF-117`, `INF-119`, `INF-125`, `INF-144`, `TIM-003` | GTA V switches among three protagonists and resolves planned heists inside a modern urban wanted system. This unit instead persists one separately callable and directly rideable horse with saddle cargo, two-layer cores and meters, firearm condition, a pre-report witness window, regional bounty and honour, and a shared camp ledger before a required chapter transition. | Near, `0.373333` |
 
 ### Preserved research notes
 
-- New genes: `ACT-271`–`ACT-274`, `SYS-471`–`SYS-480`, `CON-405`–`CON-409`,
-  `INF-181`–`INF-183` and `OBJ-092`.
+- New genes at first review: `ACT-271`–`ACT-274`, `SYS-471`–`SYS-480`,
+  `CON-405`–`CON-409`, `INF-181`–`INF-183` and `OBJ-092`.
 - Classification result: `New gene` and new combination of known and new genes.
 - Evidence and reasoning: the distinctive boundary is the coupling of one
   persistent cared-for horse and saddle inventory to core maintenance,
@@ -390,16 +393,22 @@ gene instances but do not enter the signature.
 
 ## Taxonomy impact
 
-- Registry changes: add 23 bounded genes and `COMB-0163`; reuse 31 established
-  records at their existing causal boundaries.
-- Taxonomy-change record: none.
+- Registry changes: the original 23 bounded genes and `COMB-0163` remain;
+  `TAXONOMY_CHANGE_063` narrows `ACT-271` to the remote call and adds the
+  independently reused `ACT-348` ride operation to this signature.
+- Taxonomy-change record:
+  [`TAXONOMY_CHANGE_063`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_063.md).
 - Candidate terms affected: horse breed, gait, exact bond level, core rate,
   weapon values, bounty amount, honour delta, ledger price, mission identity
   and Dead Eye duration remain parameters.
 
 ## Negative results
 
-- No separate negative-result record. The review rejected horse riding as a
-  road vehicle, witness reporting as instant wanted escalation, regional bounty
-  as the active search timer, gun cleaning as generic reload and camp donations
-  as fixed-slot collection completion.
+- `ACT-243` is rejected because it delegates a chosen route to the mount;
+  `ACT-247` is rejected because one invocation creates or recalls an absent
+  spectral mount and enters its ride state. This route instead separates the
+  persistent horse's remote approach call (`ACT-271`) from reachable mounting,
+  direct riding and dismounting (`ACT-348`). Horse riding is not a road vehicle;
+  witness reporting is not instant wanted escalation; regional bounty is not
+  the active search timer; gun cleaning is not generic reload; and camp
+  donations are not fixed-slot collection completion.

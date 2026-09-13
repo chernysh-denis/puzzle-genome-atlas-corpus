@@ -300,7 +300,9 @@ gene instances but do not enter the signature.
 - Reject `ACT-290`: TouchDrive does not give the player direct steering,
   acceleration and braking authority. `ACT-416` captures retained prompts.
 - Reject `OBJ-134`: that boundary requires first place; this event accepts top
-  three. Reject `SYS-641`: ordinary nitro is not filled by Unbound's
-  technique-earned Burst rule. The spend command is the shared `ACT-309`.
+  three. Historical compound `SYS-641` was split by
+  `TAXONOMY_CHANGE_058`; this packet already carries its portable halves as
+  `SYS-765` for manoeuvre-earned charge and `SYS-691` for acceleration
+  settlement. The spend command is the shared `ACT-309`.
 - Seasons, events, alternate controls, collection economy and the whole Career
   are excluded instead of being merged into a live-service super-ruleset.

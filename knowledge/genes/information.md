@@ -172,6 +172,10 @@
   [Loop Hero decomposition](../games/g-l/loop-hero.md), and
   [Slay the Spire decomposition](../games/s-z/slay-the-spire.md), and
   [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
+- Additional support: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md),
+  for the hidden per-round initiative roll and each brigand's undisclosed skill selection.
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for the unpreviewed next room, drop and blueprint assignment.
 - Novelty: not assessed; this is part of the baseline genome.
 
 ## INF-003 — Fixed concealed current state
@@ -204,6 +208,8 @@
   [Strands decomposition](../games/s-z/strands.md), and
   [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md),
   and [Yu-Gi-Oh! Master Duel decomposition](../games/s-z/yu-gi-oh-master-duel.md).
+- Additional support: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md),
+  for corridor tile contents that exist at generation but are exposed only on entry or by a scouting roll.
 - Novelty: not assessed.
 
 ## INF-004 — Exact local aggregate clue
@@ -962,18 +968,18 @@
 - Claim status: `Observation`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: the current settled navigation state visibly distinguishes the
-  nodes or surfaces that can accept a destination command, and that reachable
-  marking changes when architectural connectivity changes.
-- Includes: Monument Valley highlighting nodes that Ida can reach in the
-  current snap configuration and shifting those highlights after geometry
-  moves.
+- Definition: the current navigation state visibly distinguishes the nodes or
+  surfaces that can accept a movement destination or attachment command, and
+  that marking updates whenever local reachability changes.
+- Includes: Monument Valley highlighting currently reachable nodes after
+  geometry moves; Sekiro turning eligible grappling anchors green.
 - Excludes: a complete future-route overlay; decoration with no input meaning;
   hidden reachability discovered only after rejection; showing the current
   avatar location without marking selectable destinations.
 - Parameters: marker form, contrast, focus state, path-versus-node scope,
   update latency, invalid-target feedback and reduced-motion presentation.
-- Evidence: [Monument Valley decomposition](../games/m-r/monument-valley.md).
+- Evidence: [Monument Valley decomposition](../games/m-r/monument-valley.md) and
+  [Sekiro decomposition](../games/s-z/sekiro-shadows-die-twice.md).
 - Novelty: not assessed.
 
 ## INF-044 — Live perspective-held physical placement preview
@@ -1247,6 +1253,10 @@
 - Parameters: demand sectors, overlay layers, spatial resolution, refresh cadence and query detail.
 - Evidence: [SimCity 4 Deluxe Edition decomposition](../games/s-z/simcity-4-deluxe-edition.md)
   and [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
+- Additional support: [Cities: Skylines II decomposition](../games/a-f/cities-skylines-ii.md),
+  for the residential, commercial, industrial and office demand bars and the
+  selectable electricity and water info views the route reads before extending
+  supply.
 - Novelty: not assessed.
 
 ## INF-058 — Itemised municipal budget ledger is visible
@@ -1424,6 +1434,9 @@
 - Parameters: requirements, alternatives, deadline, progress, reward and threat.
 - Evidence: [Against the Storm decomposition](../games/a-f/against-the-storm.md)
   and [The Sims 4 decomposition](../games/s-z/the-sims-4.md).
+- Additional support: [The Long Dark decomposition](../games/s-z/the-long-dark.md),
+  for the ordered `Hopeless Rescue` objectives, remaining allowance, completion
+  badge and declared failure boundary.
 - Novelty: not assessed.
 
 ## INF-068 — Visible world-map range, biome and modifier state
@@ -1537,6 +1550,10 @@
   for current weapon, ammunition and typed support-item slots.
 - Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
   for current weapon-slot and ammunition HUD state.
+- Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  for shortcut slots plus loaded and remaining ammunition shown while the weapon is readied.
+- Additional support: [The Long Dark decomposition](../games/s-z/the-long-dark.md),
+  for the selected carried survival item and loaded Distress Pistol state.
 - Novelty: not assessed.
 
 ## INF-074 — Crafting grid and available recipe state are visible
@@ -1573,6 +1590,11 @@
   [Rainbow Six Siege decomposition](../games/s-z/tom-clancys-rainbow-six-siege.md), and
   [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md),
   and [Valheim decomposition](../games/s-z/valheim.md).
+- Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  for the Fine, Caution and Danger condition and damage effect.
+- Additional support: [The Long Dark decomposition](../games/s-z/the-long-dark.md),
+  for Warmth, Fatigue, Thirst, Hunger, Condition, Stamina and relevant clothing
+  state during the timed Challenge route.
 - Novelty: not assessed.
 
 ## INF-076 — A thrown locator reveals a temporary bearing to a hidden target
@@ -2222,6 +2244,11 @@
   for local Infected silhouettes, vocalisations, movement and attack sounds.
 - Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
   for local hostile sight, spatial audio and combat effects.
+- Additional support: [Cuphead decomposition](../games/a-f/cuphead.md),
+  for visual-only local projectile paths and beam wind-ups; this carrier makes
+  no audio claim.
+- Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  for visual-only local zombie sight and approach cues; this carrier makes no audio claim.
 - Novelty: not assessed.
 
 ## INF-116 — Live team, score and shared-objective state are visible
@@ -2258,23 +2285,37 @@
   for live activity score and objective/phase state.
 - Novelty: not assessed.
 
-## INF-117 — Personal economy and purchase state are visible
+## INF-117 — Personal economy and transaction offers are visible
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: the player can inspect current money, offered prices, owned
-  equipment and purchase availability before committing a buy or save decision.
+- Definition: the player can inspect current money, offered buy or sell prices,
+  relevant owned stock and the availability or value of a transaction before
+  committing a purchase, sale or service-menu allocation.
 - Includes: Counter-Strike 2 Competitive money display and buy menu; Grand Theft
   Auto V Story Mode character balances and shop offers; Cyberpunk 2077 eurodollar
-  balance, vendor prices and purchase eligibility.
-- Excludes: opponents' exact hidden balances; cosmetic marketplace prices.
-- Parameters: balance, price, role, inventory, buy state and refund state.
+  balance, vendor prices and purchase eligibility; the Fishmonger's offered
+  catch prices in DREDGE; DAVE THE DIVER's visible dish prices, supported
+  servings and retained balance before its bounded first service.
+- Excludes: opponents' exact hidden balances; cosmetic marketplace prices; a
+  hidden future demand distribution; a terminal report that shows revenue only
+  after every transactional decision has ended.
+- Parameters: balance, price, role, owned stock, buy, sell or menu-offer state,
+  availability and refund state.
 - Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md)
   [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md), and
-  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md),
+  [DREDGE decomposition](../games/a-f/dredge.md) and
+  [DAVE THE DIVER decomposition](../games/a-f/dave-the-diver.md).
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for shop prices shown against the gold balance before purchase.
 - Novelty: not assessed.
+- Change note: wording generalised by
+  [`TAXONOMY_CHANGE_038`](../../research/taxonomy-changes/TAXONOMY_CHANGE_038.md)
+  to make the already-reviewed sell-side carrier explicit and admit a service
+  offer whose price and supported stock are visible before allocation.
 
 ## INF-118 — Team-shared fog-limited world and minimap state
 
@@ -2306,8 +2347,8 @@
   level, attributes, perks, skills and cooldown displays; Marvel Rivals hero
   health, ultimate meter, ability readiness, status and selected Team-Up state;
   Hollow Knight: Silksong health, Silk, equipped Crest and Tool state.
-  Helldivers 2 health, injury/status and selected stratagem charge or cooldown
-  state.
+  Hollow Knight health Masks and SOUL reserve; Helldivers 2 health,
+  injury/status and selected stratagem charge or cooldown state.
 - Excludes: hidden enemy cooldowns; account statistics; exact future turn order.
 - Parameters: health, resource, experience, level, attributes, skill, status,
   cooldown and persistence.
@@ -2317,7 +2358,8 @@
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
   [Marvel Rivals decomposition](../games/m-r/marvel-rivals.md), and
   [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md), and
-  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
+  [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md), and
+  [Hollow Knight decomposition](../games/g-l/hollow-knight.md).
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Evidence: [Helldivers 2 decomposition](../games/g-l/helldivers-2.md) and
   [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md) and
@@ -2327,6 +2369,12 @@
   for controlled-Survivor health, temporary health and status feedback.
 - Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
   for Titan shield/health, fixed build and ability readiness.
+- Additional support: [Cuphead decomposition](../games/a-f/cuphead.md),
+  for the visible remaining-HP allowance and charged Super Meter cards.
+- Additional support: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md),
+  for each hero's health, stress, stats, resistances, status icons and the four equipped skills with their accuracy, damage and critical values.
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for the HUD's health bar with its orange portion, gold, cells, equipped gear and stats.
 - Novelty: not assessed.
 
 ## INF-120 — Match economy, item logistics and buyback are visible
@@ -2435,6 +2483,8 @@
   [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md) and
   [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
+- Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  for the visited-places map and the objective list with its sub-objectives.
 - Novelty: not assessed.
 
 ## INF-126 — Base assignments, resources and worker condition are visible
@@ -2503,7 +2553,9 @@
   Workbench operation feedback.
 - Additional support: [Bloons TD 6 decomposition](../games/a-f/bloons-td-6.md),
   for the placement preview that reports whether the candidate position is
-  geometrically legal before a defender is committed.
+  geometrically legal before a defender is committed; and
+  [Command & Conquer Remastered Collection decomposition](../games/a-f/command-and-conquer-remastered-collection.md),
+  for mobile-construction and completed-building placement feedback.
 - Excludes: hidden enemy TC inventory; future raid damage; exact remote base
   layout.
 - Parameters: preview, socket, stability/support, shelter/cover, privilege,
@@ -2554,6 +2606,13 @@
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
   [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md), and
   [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
+- Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  for the interact icon, item name and slot state before a pickup.
+- Additional support: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md),
+  for the loot window and inventory slots that expose item identity, stack state and free capacity before a pickup.
+- Additional support: [The Long Dark decomposition](../games/s-z/the-long-dark.md),
+  for searched supplies, clothing or weapon compatibility, carried weight and
+  the choice to take or leave route loot.
 - Novelty: not assessed.
 
 ## INF-129 — Survivor count and elimination feed are visible
@@ -2750,6 +2809,14 @@
 - Additional support: [Brawlhalla decomposition](../games/a-f/brawlhalla.md),
   for attack motion, impact effects and recovery poses that cue live dodge and
   counterattack timing.
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for enemy wind-ups and attack prompts that cue roll, parry and strike timing.
+- Additional support: [TEKKEN 8 decomposition](../games/s-z/tekken-8.md),
+  for attack start-up animation that lets a slow low or mid be guarded
+  before it lands and the throw animation's extended hand that selects the
+  break button inside the response window; no sound channel is asserted, and
+  the post-contact PUNISH, CLEAN, COUNTER and TORNADO notices are outcome
+  feedback recorded under `INF-210`.
 - Novelty: not assessed.
 
 ## INF-143 — Build interface exposes Picto mastery and Lumina cost
@@ -3414,6 +3481,8 @@
   concealment and map-reveal effect.
 - Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md)
   and [Blue Prince decomposition](../games/a-f/blue-prince.md).
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for the explored biome map with shop, treasure and teleporter marks.
 - Novelty: first isolated for `GAME-0164`.
 
 ## INF-181 — Horse interface exposes bond, condition and saddle cargo
@@ -3833,6 +3902,8 @@
   [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md),
   [Trackmania decomposition](../games/s-z/trackmania.md), and
   [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
+- Additional support: [Forza Horizon 5 decomposition](../games/a-f/forza-horizon-5.md),
+  for the live speed, gear and driving-line surface in a fixed Solo circuit.
 - Novelty: first isolated for `GAME-0171`; cargo-driving widgets join speed to
   fuel, rest and damage rather than a race-oriented guidance layer.
 
@@ -3858,6 +3929,8 @@
 - Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md),
   [Trackmania decomposition](../games/s-z/trackmania.md), and
   [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
+- Additional support: [Forza Horizon 5 decomposition](../games/a-f/forza-horizon-5.md),
+  for live place, lap/checkpoint progress, time and nearby Drivatars.
 - Novelty: first isolated for `GAME-0171`; prior opponent HUD genes do not join
   course progress to vehicle proximity and race position.
 
@@ -3885,24 +3958,31 @@
 - Novelty: first isolated for `GAME-0171`; generic mission maps do not expose
   one driving event's course and car-entry contract.
 
-## INF-207 — Festival meter exposes progress and the next Wristband gate
+## INF-207 — Expose retained progression and its next threshold-gated successor
 
 - Lifecycle: `Active`
-- Claim status: `Confirmed`
-- Evidence quality: `Direct`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the campaign interface shows retained Horizon Festival Points,
-  the required next threshold and whether the corresponding Wristband Event is
-  still locked or available.
-- Includes: the upper-right Qualifier meter and first Invitational status in
-  Forza Horizon 6.
-- Excludes: Discover Japan Stamp progress; live Festival Playlist points;
-  hidden future reward rolls.
-- Parameters: current points, threshold, remaining points, gate, invitation and
-  Wristband identity.
-- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md).
-- Novelty: first isolated for `GAME-0171`; earlier progression interfaces do
-  not expose a heterogeneous driving-activity total and its terminal event gate.
+- Definition: before the next commitment, the interface exposes one retained
+  progression measure, its required threshold and whether the corresponding
+  authored successor is still locked or now available.
+- Includes: the Qualifier meter and first Horizon Invitational state in Forza
+  Horizon 6; the Resistance Point meter and successor-region state in Far Cry
+  5's scoped tutorial-island route.
+- Excludes: a personal experience bar; a mission list with no shared measure; a
+  score shown only after settlement; a hidden threshold; reward rolls whose
+  gate state is not disclosed.
+- Parameters: current amount, exact or proportional presentation, threshold,
+  remaining amount, successor identity, lock state and interface styling.
+- Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md)
+  and [Far Cry 5 decomposition](../games/a-f/far-cry-5.md).
+- Additional support: [Cities: Skylines II decomposition](../games/a-f/cities-skylines-ii.md),
+  for the milestone bar that exposes the city's current progression measure,
+  the requirement for the next milestone and what that milestone will release.
+- Novelty: first isolated for `GAME-0171`; generalised and given a second
+  mechanically distinct carrier under
+  [`TAXONOMY_CHANGE_033`](../../research/taxonomy-changes/TAXONOMY_CHANGE_033.md).
 
 ## INF-208 — Driving-event results expose performance and retained rewards
 
@@ -3925,6 +4005,8 @@
 - Evidence: [Forza Horizon 6 decomposition](../games/a-f/forza-horizon-6.md),
   [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md),
   and [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
+- Additional support: [Forza Horizon 5 decomposition](../games/a-f/forza-horizon-5.md),
+  for the classified result and retained ordinary-race reward transition.
 - Novelty: first isolated for `GAME-0171`; delivery results expose contract
   damage and pay, not competitive driving performance and festival progress.
 
@@ -3946,26 +4028,47 @@
 - Additional support: [Brawlhalla decomposition](../games/a-f/brawlhalla.md),
   for two continuously framed fighters, their spacing, pose, facing, airborne
   state and live contact trajectory.
+- Additional support: [TEKKEN 8 decomposition](../games/s-z/tekken-8.md),
+  for the side view that keeps both fighters' bodies, distance, facing and
+  pose in frame (a community wiki's perspective field and one inspected
+  official static Game Screen frame) with the current hit state readable
+  through attack start-up and the publisher's post-contact indicators;
+  guard, armour, airborne, wall, knockdown and wake-up visibility is not
+  separately evidenced and is not asserted for this carrier, and continuity
+  between frames is inferred rather than observed, so the instance is
+  graded `Limited`.
 - Novelty: first isolated for `GAME-0172`; existing combat information genes
   expose party panels, target resources or telegraphs without making the whole
   fixed-opponent spacing state continuously visible in one shared plane.
 
-## INF-210 — Duel HUD exposes paired meters, clock and round score
+## INF-210 — Duel HUD exposes paired vitality, shared-resource state, clock and round score
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
 - Definition: one live fighting HUD simultaneously exposes each participant's
-  vitality, Drive state and Super Art stock together with the shared round
-  timer and accumulated round markers.
-- Includes: the ordinary Street Fighter 6 Fighting Ground HUD.
+  vitality, including any declared recoverable or temporary overlay, and the
+  state of each shared combat resource, together with the shared round timer
+  and accumulated round markers.
+- Includes: the ordinary Street Fighter 6 Fighting Ground HUD with vitality,
+  Drive state and Super Art stock; the TEKKEN 8 battle screen with each
+  Health Gauge and its Recoverable Gauge, each Heat gauge and Heat Timer,
+  Rage indication, the Time Limit and the Rounds Won markers.
 - Excludes: hidden frame data; ranked points; a team-objective scoreboard;
-  post-match progression or Battle Hub profile information.
-- Parameters: participants, vitality, Drive stocks/Burnout, Super stocks, timer,
-  round markers, hit notices and current control-type icon.
+  post-match progression or lobby profile information.
+- Parameters: participants, vitality, recoverable or temporary overlay,
+  shared resource gauges, states and timers, round timer, round markers, hit
+  notices and current control-type icon.
 - Evidence: [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
-- Novelty: first isolated for `GAME-0172`; earlier match HUD genes aggregate
+- Additional support: [TEKKEN 8 decomposition](../games/s-z/tekken-8.md),
+  for paired Health Gauges with Recoverable Gauges, Heat gauges and timers,
+  Rage indication, the Time Limit and the Rounds Won markers, plus the
+  post-contact PUNISH, CLEAN, COUNTER and TORNADO notices and combo count as
+  the hit-notice parameter.
+- Novelty: first isolated for `GAME-0172`; generalised by
+  [`TAXONOMY_CHANGE_046`](../../research/taxonomy-changes/TAXONOMY_CHANGE_046.md)
+  so that the displayed shared resources are parameters; earlier match HUD genes aggregate
   teams and shared objectives rather than two opposed fighter resources and
   short-round progress.
 
@@ -4201,18 +4304,28 @@
 - Evidence: [Subnautica decomposition](../games/s-z/subnautica.md).
 - Novelty: first isolated for `GAME-0178`; observation, refuge and vehicle interfaces expose one continuous underwater safety chain.
 
-## INF-224 — RTS command view exposes economy, population and queue state
+## INF-224 — Strategic command view exposes economy, selection and production state
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: the live interface exposes the owner's four resource stockpiles, used and available population, current Age, selected entities, their commands, health and active production or research queues before the next order.
-- Includes: the Age of Empires II: Definitive Edition command panel and HUD.
+- Definition: the live interface exposes the relevant owner stockpiles,
+  capacity or technology tier where present, selected entities, their commands,
+  health and active production or research progress before the next order.
+- Includes: the Age of Empires II: Definitive Edition command panel and HUD;
+  Command & Conquer credits, power, selection, health and production state;
+  Stellaris empire resources, selected ships, orders, research and production.
 - Excludes: hidden enemy stockpiles and queues; post-match statistics; a city turn's aggregate yield panel.
-- Parameters: resource totals, population, Age, selection, hit points, command, queue item, progress and availability state.
-- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
-- Novelty: first isolated for `GAME-0179`; it joins multi-selection command authority to concurrent economy and building-local queues.
+- Parameters: resource totals, capacity, technology tier, selection, hit points,
+  command, production item, progress and availability state.
+- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+  [Command & Conquer Remastered Collection decomposition](../games/a-f/command-and-conquer-remastered-collection.md),
+  and [Stellaris decomposition](../games/s-z/stellaris.md).
+- Novelty: first isolated for `GAME-0179` and generalised by
+  `TAXONOMY_CHANGE_036`; a fixed number of stockpiles, population and an Age
+  label are carrier parameters rather than the information boundary;
+  `TAXONOMY_CHANGE_055` later removed the RTS-only genre label.
 
 ## INF-225 — Explored RTS terrain persists under current fog of war
 
@@ -4225,6 +4338,8 @@
 - Excludes: unexplored black map; omniscient spectator vision; invisibility detection layers; a hex-only turn-based map.
 - Parameters: explored area, current visibility, terrain, resource memory, structure memory, enemy unit, vision source and minimap.
 - Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
+- Additional support: [Command & Conquer Remastered Collection decomposition](../games/a-f/command-and-conquer-remastered-collection.md),
+  for remembered terrain remaining distinct from current hostile occupancy.
 - Novelty: first isolated for `GAME-0179`; remembered generated terrain is separated from live enemy occupancy in a command-scale RTS view.
 
 ## INF-226 — Cockpit instruments expose flight and engine state
@@ -5547,23 +5662,27 @@
 - Novelty: first isolated for `GAME-0244`; current survivability is readable
   alongside the reputation modifier that remains exposed until the night ends.
 
-## INF-295 — Expose a temporary contextual-finisher opportunity on a hostile
+## INF-295 — Expose a temporary contextual close-action opportunity
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
 - Definition: local visual feedback distinguishes a living hostile's temporary
-  finisher-eligible state and reachable contextual opportunity from ordinary
-  damage, recovery and final defeat.
-- Includes: the visible stagger/Glory Kill opportunity in DOOM (2016).
+  stagger state and currently reachable contextual close-action opportunity
+  from ordinary damage, recovery and final defeat; the display does not assert
+  whether accepting the action will defeat the target.
+- Includes: visible close-action opportunities in DOOM (2016), DOOM Eternal,
+  Batman: Arkham Asylum, God of War, Resident Evil 4 (2023 remake) and Sekiro.
 - Excludes: a persistent enemy-health bar alone; an unaware-target indicator;
-  external walkthrough knowledge; a finisher whose legality is never disclosed.
+  external walkthrough knowledge; a close action whose current legality is not
+  disclosed; a promised defeat result not represented by the display.
 - Parameters: hostile, stagger state, visual treatment, reach, context,
-  opportunity duration, recovery and defeat.
-- Evidence: [DOOM (2016) decomposition](../games/a-f/doom-2016.md).
-- Novelty: first isolated for `GAME-0245`; brief visual state tells the player
-  when closing distance changes the available combat command and reward.
+  opportunity duration, recovery and opportunity-closing state.
+- Evidence: [DOOM (2016) decomposition](../games/a-f/doom-2016.md) and
+  [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md).
+- Novelty: first isolated for `GAME-0245`; `TAXONOMY_CHANGE_059` removes the
+  settlement-specific duplicate while preserving the disclosed opportunity.
 
 ## INF-296 — Active capability mode and shared reserve are visible
 
@@ -5625,24 +5744,37 @@
   without requiring the actor-bound reconnaissance marks bundled by
   `INF-287`.
 
-## INF-299 — Mission report exposes conduct categories and aggregate evaluation
+## INF-299 — Results report exposes categories and aggregate evaluation
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: after one bounded mission settles, a terminal report exposes
-  recorded conduct categories and the resulting aggregate evaluation state
-  sufficient to verify how the attempt was classified.
+- Definition: after one bounded mission, level or encounter settles, a terminal
+  report exposes recorded conduct or performance categories and the resulting
+  aggregate evaluation state sufficient to verify how the attempt was
+  classified.
 - Includes: Dishonored's end-mission kills, detections, found-body or related
-  Stats categories and displayed Chaos state for the scoped mission.
+  Stats categories and displayed Chaos state for the scoped mission; Cuphead's
+  completed-level time, remaining HP, parry count, Super Meter use, skill level
+  and aggregate grade; DAVE THE DIVER's first-service sales categories and
+  aggregate performance grade.
 - Excludes: live health or ammunition; hidden later narrative consequences; an
   external achievement tracker; a score screen that omits conduct categories.
-- Parameters: mission, category labels, category values, aggregate label,
+- Parameters: activity, category labels, category values, aggregate label,
   evaluation state, completion state, display timing and dismissal.
-- Evidence: [Dishonored (2012) decomposition](../games/a-f/dishonored-2012.md).
+- Evidence: [Dishonored (2012) decomposition](../games/a-f/dishonored-2012.md)
+  and [Cuphead decomposition](../games/a-f/cuphead.md), and
+  [DAVE THE DIVER decomposition](../games/a-f/dave-the-diver.md).
 - Novelty: first isolated for `GAME-0247`; detailed conduct and its aggregate
   classification are jointly readable at the same finite mission terminal.
+- Change note: wording generalised by
+  [`TAXONOMY_CHANGE_037`](../../research/taxonomy-changes/TAXONOMY_CHANGE_037.md)
+  so result categories may describe bounded performance as well as mission
+  conduct, and the aggregate may be a grade as well as a classification state.
+- Additional support: `TAXONOMY_CHANGE_038` confirms that a finite service
+  session is another bounded activity carrier; the report and aggregate
+  evaluation boundary is unchanged.
 
 ## INF-300 — Situational overlay exposes nearby actors and interactables through occlusion
 
@@ -5714,37 +5846,40 @@
 - Confidence: `High`
 - Definition: while a weapon is readied, the live reticle visibly
   distinguishes its current unfocused or focused aim state before the player
-  commits a shot whose stagger or critical-result relation depends on it.
+  commits a shot whose declared precision, damage, stagger or critical-result
+  relation depends on it.
 - Includes: default and focused firearm reticles in Resident Evil 4's bounded
-  first chapter.
+  first chapter; the handgun reticle that shrinks toward its minimum while
+  aim is held in Resident Evil 2 (2019 remake)'s scoped Leon opening.
 - Excludes: a decorative crosshair with no state change; scope zoom alone;
   hidden accuracy values; an externally calculated hit probability.
 - Parameters: weapon, ready state, focus progress, reticle treatment, focused
   state, shot timing and consequence relation.
-- Evidence: [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md).
+- Evidence: [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md)
+  and [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md).
 - Novelty: first isolated for `GAME-0249`; the aiming surface reveals when
   continued readiness changes shot consequences before firing.
+- Change note: wording generalised by
+  [`TAXONOMY_CHANGE_040`](../../research/taxonomy-changes/TAXONOMY_CHANGE_040.md)
+  so the disclosed focus state may govern precision or damage as well as
+  stagger or critical relations.
 
 ## INF-304 — Expose a temporary contextual close-follow-up opportunity
 
-- Lifecycle: `Active`
+- Lifecycle: `Merged`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: local visual feedback distinguishes a living hostile's temporary
-  stagger and currently reachable contextual close-follow-up command from
-  ordinary damage, recovery and final defeat.
-- Includes: the prompted melee opportunity on a staggered hostile in Resident
-  Evil 4's bounded first chapter.
-- Excludes: an unaware-target stealth prompt; a guaranteed execution state;
-  enemy health alone; external walkthrough knowledge; a prompt after the
-  target is already defeated.
-- Parameters: hostile, stagger state, visible prompt, reach, context, duration,
-  recovery, defeat and follow-up relation.
+- Definition: historical result-specific duplicate now represented by the
+  parameterised active boundary `INF-295`.
+- Includes: historical references that used `INF-304` before taxonomy change
+  059.
+- Excludes: current signatures and new analysis; use `INF-295` while keeping
+  damage and defeat settlement outside the Information boundary.
+- Parameters: none; preserved as a lifecycle alias.
 - Evidence: [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md).
-- Novelty: first isolated for `GAME-0249`; a temporary visible opportunity
-  invites a non-guaranteed close attack, unlike the defeating finisher boundary
-  of `INF-295`.
+- Merged into: `INF-295` by
+  [`TAXONOMY_CHANGE_059`](../../research/taxonomy-changes/TAXONOMY_CHANGE_059.md).
 
 ## INF-305 — Successor exits preview reward class and elevated risk
 
@@ -5783,6 +5918,8 @@
 - Parameters: option, effect text, rarity, level, capability, current modifier,
   replacement, prerequisite feedback and selection count.
 - Evidence: [Hades decomposition](../games/g-l/hades.md).
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for scroll and mutation offers stating each option's effect before the choice.
 - Novelty: first isolated for `GAME-0251`; the interface explains one
   temporary capability-build commitment rather than only its reward class or
   the already-equipped build state.
@@ -6015,13 +6152,15 @@
   player stands on them, without tracking progress, reporting completion or
   advancing an instruction chain.
 - Includes: the fixed developer messages read from the ground during DARK
-  SOULS III's bounded `Cemetery of Ash` route.
+  SOULS III's bounded `Cemetery of Ash` route; the fixed control and Focus
+  instruction tablets encountered on Hollow Knight's bounded opening route.
 - Excludes: a tutorial adviser that states the current objective and reports
   its completion; a persistent objective or route marker; a message authored by
   another player; an ordinary resource or combat HUD.
 - Parameters: placement, trigger radius, disclosed control or hazard, wording
   and whether the message persists after being read.
-- Evidence: [DARK SOULS III decomposition](../games/a-f/dark-souls-iii.md).
+- Evidence: [DARK SOULS III decomposition](../games/a-f/dark-souls-iii.md)
+  and [Hollow Knight decomposition](../games/g-l/hollow-knight.md).
 - Novelty: first isolated for `GAME-0262`; instruction is delivered by world
   position alone, so the player learns a control only by reaching the place
   where it matters and never receives a completion signal.
@@ -6251,3 +6390,186 @@
 - Novelty: first isolated for `GAME-0270`; the disclosure turns a continuously
   rising hidden value into a small number of readable states, so the decision to
   linger is informed without being calculable.
+
+## INF-328 — Region interface exposes accumulated progress and its next gate
+
+- Lifecycle: `Merged`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: historical parameter-specific duplicate now represented by the
+  generalised active boundary `INF-207`.
+- Includes: historical references that used `INF-328` during the Batch 016
+  candidate pass.
+- Excludes: current signatures and new analysis; use `INF-207`.
+- Parameters: none; retained as an auditable alias.
+- Evidence: [Far Cry 5 decomposition](../games/a-f/far-cry-5.md) and
+  [`TAXONOMY_CHANGE_033`](../../research/taxonomy-changes/TAXONOMY_CHANGE_033.md).
+- Merged into: `INF-207` by
+  [`TAXONOMY_CHANGE_033`](../../research/taxonomy-changes/TAXONOMY_CHANGE_033.md).
+
+## INF-329 — Task interface exposes aggregate and per-target completion
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the interface exposes a bounded task's aggregate completion
+  measure and the accepted completion state of its named component targets, so
+  the player can identify which target still prevents settlement.
+- Includes: PowerWash Simulator's overall job percentage, the Details list of
+  vehicle parts and each part's completion percentage during the first Career
+  job.
+- Excludes: a score shown only after settlement; a checklist without measured
+  target state; a minimap of explored space; a quality grade; an on-demand
+  world highlight that locates residual state spatially.
+- Parameters: aggregate measure, target partition, per-target measure,
+  precision, accepted threshold and update timing.
+- Evidence: [PowerWash Simulator decomposition](../games/m-r/powerwash-simulator.md).
+- Novelty: first isolated for `GAME-0279`; the measure is what converts an
+  open-ended activity into a task with a knowable end.
+
+## INF-330 — Live service surface exposes requests and waiting pressure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during a live service session, the interface identifies each
+  current request and exposes its changing wait state together with enough
+  preparation or readiness feedback to decide which compatible delivery should
+  be completed next.
+- Includes: dish or drink requests above customers, visible impatience progress
+  and the current prepared-dish state during DAVE THE DIVER's bounded first
+  restaurant service.
+- Excludes: one static requested-item picture with no concurrent queue or time
+  pressure; a concealed future demand schedule; a post-session sales report; a
+  global shift clock that does not distinguish individual requests.
+- Parameters: requester, requested item, preparation or ready marker, wait-state
+  granularity, urgency cue, compatibility and update timing.
+- Evidence: [DAVE THE DIVER decomposition](../games/a-f/dave-the-diver.md).
+- Novelty: first isolated for `GAME-0278`; the information surface makes
+  parallel expiring requests prioritizable without revealing future arrivals.
+
+## INF-331 — On-demand overlay locates residual target state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: on request, the interface marks residual eligible state in the
+  active world or marks the selected incomplete component as a spatial whole,
+  letting the player search its geometry without changing that target state.
+- Includes: PowerWash Simulator's Dirt Highlight flash for remaining dirt and
+  the Details selection that flashes one incomplete vehicle part.
+- Excludes: aggregate or per-target percentages without spatial location; a
+  permanent objective waypoint; highlighting a legal attack target; a hint
+  that changes or solves the target state.
+- Parameters: request control, residual-state predicate, selected component,
+  highlight colour, duration, occlusion and refresh timing.
+- Evidence: [PowerWash Simulator decomposition](../games/m-r/powerwash-simulator.md).
+- Novelty: first isolated for `GAME-0279`; it separates measured incompleteness
+  from the optional spatial query used to find the remaining area.
+
+## INF-332 — Shared expedition light meter and its threshold band are visible
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: throughout an expedition a persistent interface element exposes
+  the party's shared light meter as its current value and the named threshold
+  band that value falls in, together with the band's declared effect icons, so
+  the player can read the current danger-and-reward regime before travel,
+  battle, loot and any manual change to the meter.
+- Includes: the Darkest Dungeon torch meter shown at the top of the screen
+  with its band from Radiant Light to Black as Pitch and its effect icons,
+  read before each corridor step and before snuffing, in the scoped Old Road
+  tutorial.
+- Excludes: a personal light or visibility indicator (`INF-316`); a run
+  escalation tier that withholds its underlying value (`INF-327`); daily
+  spendable resource counts without a modifier band (`INF-212`); the
+  controlled hero's own resources (`INF-119`); the meter's decay and band
+  effects themselves (`SYS-829`); the snuff command (`ACT-449`).
+- Parameters: meter range, band names and thresholds, effect icons shown,
+  modifiers withheld from the display and placement of the element.
+- Evidence: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md).
+- Novelty: first isolated for `GAME-0281`; one always-present element
+  discloses a shared, player-depletable meter and the regime it currently
+  selects, which no personal-meter or escalation-tier disclosure covers.
+
+## INF-333 — Per-unit remaining-action markers are visible without the resolution order
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during a combat round every friendly and hostile unit carries a
+  marker showing whether it still has an action to take in the current round,
+  the marker clearing as the unit acts, while the order in which the remaining
+  units will act is not disclosed.
+- Includes: the Darkest Dungeon gold pips beside each hero's and brigand's
+  health bar, whose tooltip reads as actions remaining, in the scoped Old Road
+  tutorial.
+- Excludes: an exposed upcoming combatant order (`INF-141`); a telegraphed
+  hostile intent (`INF-061`); the selected unit's own remaining action budget
+  alone (`INF-220`, `INF-190`); the hidden initiative roll itself (`INF-002`).
+- Parameters: marker form, units carrying markers, multi-action units, tooltip
+  text and whether corpses or stunned units display a marker.
+- Evidence: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md).
+- Novelty: first isolated for `GAME-0281`; the disclosure is the set of units
+  yet to act, not their sequence, which separates it from every exposed-order
+  and personal-action-budget gene.
+
+## INF-334 — An engaged hostile's breakable stability state is visible
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during a live encounter the interface exposes the selected or
+  engaged hostile's current breakable stability state separately from health,
+  including its movement toward or recovery away from the break threshold, so
+  the player can decide whether to maintain pressure before the state recovers.
+- Includes: the enemy Posture display in Sekiro's bounded opening route.
+- Excludes: remaining critical-execution requirements (`INF-335`); a health bar
+  without a separate stability state (`INF-318`); a brief contextual execution
+  opportunity (`INF-295`); visible regional component damage (`INF-313`); the
+  stability-break transition itself (`SYS-409`); a post-battle result report.
+- Parameters: hostile, stability measure, bar direction, recovery, break
+  threshold, visibility conditions, precision and update timing.
+- Evidence: [Sekiro decomposition](../games/s-z/sekiro-shadows-die-twice.md),
+  using the official PC manual's Posture description.
+- Novelty: first isolated for `GAME-0288`; narrowed by
+  [`TAXONOMY_CHANGE_066`](../../research/taxonomy-changes/TAXONOMY_CHANGE_066.md)
+  to the independently visible stability state after the execution count was
+  extracted from the former compound disclosure.
+
+## INF-335 — Remaining critical executions required to defeat a protected hostile are visible
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during a live encounter the interface exposes a discrete count of
+  critical executions still required to settle one protected hostile's final
+  defeat; each accepted execution removes one displayed requirement, allowing
+  the player to distinguish an intermediate execution from the terminal one.
+- Includes: Deathblow markers above the health gauge of a strong enemy in
+  Sekiro's bounded opening route, including the two markers removed in sequence
+  to defeat the required guardian.
+- Excludes: the hostile's breakable stability state (`INF-334`); a temporary
+  contextual execution opportunity (`INF-295`); accumulated round wins
+  (`INF-210`); remaining participant stocks (`INF-254`); living-participant
+  totals (`INF-129`); guardian health alone (`INF-318`); task-component progress
+  (`INF-329`); hidden encounter phases; the sequential-execution settlement
+  itself (`SYS-847`).
+- Parameters: protected hostile, required execution count, marker form,
+  decrement timing, intermediate-survival indication, final marker and
+  visibility conditions.
+- Evidence: [Sekiro decomposition](../games/s-z/sekiro-shadows-die-twice.md),
+  using the official PC manual's Deathblow-marker description.
+- Novelty: extracted from former compound `INF-334` by
+  [`TAXONOMY_CHANGE_066`](../../research/taxonomy-changes/TAXONOMY_CHANGE_066.md);
+  the discrete remaining requirement transfers independently of how a critical
+  opportunity is created or exposed.

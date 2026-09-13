@@ -4734,14 +4734,15 @@
       ]
     },
     "GAME-0165": {
-      "reviewed": "2026-08-27",
-      "noteEn": "A persistent cared-for horse, paired body resources, degradable firearms, a preventable witness report, retained bounty, honour and shared camp investment define the Horseshoe Overlook chapter; direct travel, loadout, checkpoints, map information and real-time resolution structure it.",
-      "noteUk": "Постійний доглянутий кінь, пов’язані ядра й зовнішні шкали стану, зношувана зброя, можливість зупинити свідка до повідомлення, тривала винагорода за голову, честь і спільні вкладення в табір визначають розділ у Horseshoe Overlook; безпосередній рух, спорядження, контрольні точки, дані мапи й перебіг у реальному часі структурують його.",
+      "reviewed": "2026-09-10",
+      "noteEn": "A separately callable and directly rideable persistent horse, paired body resources, degradable firearms, a preventable witness report, retained bounty, honour and shared camp investment define the Horseshoe Overlook chapter; direct travel, loadout, checkpoints, map information and real-time resolution structure it.",
+      "noteUk": "Постійний кінь, якого окремо підкликають, а потім безпосередньо ведуть верхи, пов’язані ядра й зовнішні шкали стану, зношувана зброя, можливість зупинити свідка до повідомлення, тривала винагорода за голову, честь і спільні вкладення в табір визначають розділ у Horseshoe Overlook; безпосередній рух, спорядження, контрольні точки, дані мапи й перебіг у реальному часі структурують його.",
       "defining": [
         "ACT-161",
         "ACT-226",
         "ACT-245",
         "ACT-271",
+        "ACT-348",
         "ACT-272",
         "ACT-273",
         "ACT-274",
@@ -5916,9 +5917,9 @@
       ]
     },
     "GAME-0194": {
-      "reviewed": "2026-08-31",
-      "noteEn": "Paid settlement recruitment, available battle-horse control, opposed directional defence, campaign provisions/recovery, dual avatar-and-formation information and the Radagos/clan terminal define the packet; character setup, direct combat, group pathing, loot and authored gates support it.",
-      "noteUk": "Платний найм у поселенні, доступний бойовий кінь, протиставлення напрямків захисту, припаси й відновлення кампанії, спільна інформація про героя та формацію і завершальна брама Radagos та клану визначають пакет; налаштування персонажа, безпосередній бій, рух загону, здобич і сюжетні брами його підтримують.",
+      "reviewed": "2026-09-10",
+      "noteEn": "Paid settlement recruitment, direct control of an available mount, opposed directional defence, campaign provisions/recovery, dual avatar-and-formation information and the Radagos/clan terminal define the packet; character setup, direct combat, group pathing, loot and authored gates support it.",
+      "noteUk": "Платний найм у поселенні, безпосереднє керування доступним скакуном, протиставлення напрямків захисту, припаси й відновлення кампанії, спільна інформація про героя та формацію і завершальна брама Radagos та клану визначають пакет; налаштування персонажа, безпосередній бій, рух загону, здобич і сюжетні брами його підтримують.",
       "defining": [
         "ACT-347",
         "ACT-348",
@@ -6069,10 +6070,10 @@
       "supporting": ["ACT-008", "SYS-215", "INF-142", "INF-209", "TIM-003"]
     },
     "GAME-0199": {
-      "reviewed": "2026-08-31",
+      "reviewed": "2026-09-10",
       "noteEn": "Technique-earned Burst, exposed race cash, event-built Heat, unseen escape and garage-only retention define the packet; fixed event commitment, ordered classification, rival pressure and live risk information structure it.",
       "noteUk": "Цю межу визначають прискорення, зароблене технікою водіння, незбережені призові, підвищена подією увага поліції, втеча після прихованого пошуку та збереження лише в гаражі. Її структуру підтримують наперед визначена подія, впорядкована класифікація, тиск суперників і доступна інформація про ризик.",
-      "defining": ["ACT-309", "SYS-641", "SYS-642", "CON-523", "INF-255", "OBJ-122"],
+      "defining": ["ACT-309", "SYS-691", "SYS-765", "SYS-642", "CON-523", "INF-255", "OBJ-122"],
       "structural": ["ACT-293", "SYS-366", "SYS-515", "SYS-516", "CON-328", "CON-437", "CON-438", "INF-144", "INF-205", "INF-206", "INF-208"],
       "supporting": ["ACT-290", "ACT-292", "SYS-320", "SYS-365", "SYS-519", "INF-204", "TIM-003"]
     },
@@ -6438,10 +6439,10 @@
       "supporting": ["ACT-164", "ACT-199", "SYS-215", "SYS-348", "SYS-369", "CON-262", "CON-269", "CON-285", "INF-073", "INF-115", "INF-119", "INF-125"]
     },
     "GAME-0239": {
-      "reviewed": "2026-09-03",
-      "noteEn": "Reversible world-ally command, role-specific assistance, finite held-use restoration, rechargeable personal illumination and damage-opened topology define the packet; direct combat, local pursuit, authored order and a retained chapter successor structure it.",
-      "noteUk": "Цю одиницю визначають зворотна команда союзникові світу, рольова допомога, скінченне відновлення через утримувану взаємодію, персональне світло з повторним заряджанням і відкриття топології шкодою. Її структурують прямий бій, місцеве переслідування, авторський порядок і збережений наступник глави.",
-      "defining": ["ACT-408", "ACT-409", "SYS-752", "SYS-753", "SYS-754", "SYS-755", "CON-580"],
+      "reviewed": "2026-09-10",
+      "noteEn": "Reversible world-ally command, role-specific assistance, finite held-use restoration, separately represented portable-light drain and automatic off-state recharge, and damage-opened topology define the packet; direct combat, local pursuit, authored order and a retained chapter successor structure it.",
+      "noteUk": "Цю одиницю визначають зворотна команда союзникові світу, рольова допомога, скінченне відновлення через утримувану взаємодію, окремо подані витрата заряду переносного світла та автоматичне відновлення у вимкненому стані й відкриття топології шкодою. Її структурують прямий бій, місцеве переслідування, авторський порядок і збережений наступник глави.",
+      "defining": ["ACT-408", "ACT-409", "SYS-752", "SYS-753", "SYS-754", "SYS-755", "SYS-851", "CON-580"],
       "structural": ["ACT-008", "ACT-161", "ACT-341", "SYS-215", "SYS-339", "SYS-348", "CON-282", "CON-305", "OBJ-026", "TIM-003"],
       "supporting": ["ACT-164", "ACT-183", "ACT-199", "SYS-369", "CON-262", "CON-285", "INF-073", "INF-115", "INF-119", "INF-125"]
     },
@@ -6454,12 +6455,12 @@
       "supporting": ["ACT-048", "ACT-165", "ACT-199", "ACT-341", "SYS-369", "INF-073"]
     },
     "GAME-0241": {
-      "reviewed": "2026-09-03",
-      "noteEn": "Held/free shared-ball state, nested possession time, five-player control, contested weighted scoring and mandatory tie-breaking define the packet; direct movement, switching, team state and real-time pressure structure it.",
-      "noteUk": "Цю одиницю визначають спільний м’яч в утримуваному й вільному станах, вкладений час володіння, керування п’ятіркою, захищений зважений рахунок і обов’язкове усунення нічиєї. Її структурують прямий рух, перемикання, стан команд і тиск реального часу.",
-      "defining": ["ACT-412", "ACT-413", "ACT-414", "ACT-415", "SYS-757", "SYS-758", "SYS-759", "SYS-760", "SYS-761", "SYS-762", "SYS-763", "CON-398", "CON-583", "CON-584", "CON-585", "CON-586", "INF-178", "INF-290", "OBJ-149"],
+      "reviewed": "2026-09-10",
+      "noteEn": "Held/free shared-ball state, nested possession time, live five-player coordination, contested weighted scoring and mandatory tie-breaking define the packet; direct movement, switching, automatic personnel replacement and real-time pressure structure it.",
+      "noteUk": "Цю одиницю визначають спільний м’яч в утримуваному й вільному станах, вкладений час володіння, жива координація п’ятірки, захищений зважений рахунок і обов’язкове усунення нічиєї. Її структурують прямий рух, перемикання, автоматична заміна складу й тиск реального часу.",
+      "defining": ["ACT-412", "ACT-413", "ACT-414", "ACT-415", "SYS-459", "SYS-757", "SYS-758", "SYS-760", "SYS-761", "SYS-762", "SYS-763", "CON-398", "CON-583", "CON-584", "CON-585", "CON-586", "INF-178", "INF-290", "OBJ-149"],
       "structural": ["ACT-008", "ACT-052", "INF-116", "TIM-003"],
-      "supporting": ["ACT-411", "INF-291"]
+      "supporting": ["ACT-411", "SYS-850", "INF-291"]
     },
     "GAME-0242": {
       "reviewed": "2026-09-03",
@@ -6672,14 +6673,14 @@
       ]
     },
     "GAME-0249": {
-      "reviewed": "2026-09-05",
+      "reviewed": "2026-09-10",
       "noteEn": "Rectangular carried-space management, focused shots, durability-spending reactive parries, temporary stagger follow-ups, survival-threshold encounter settlement and a retained chapter handoff define this packet. Direct traversal, live combat, authored gates, finite healing, crafting, map state and checkpoint replacement structure it; quick selection, crouch, stealth neutralisation, body-hit detail, herb combination and its awareness prerequisite support it. Roles are reviewed over the complete signature, not inferred from rarity.",
       "noteUk": "Цю одиницю визначають керування прямокутним переносним місцем, зосереджені постріли, реактивне парирування з витратою міцності, короткі ближні атаки після приголомшення, завершення нападу за умовою виживання та збережений перехід глави. Безпосередній рух, живий бій, авторські шлюзи, скінченне лікування, створення предметів, мапа й заміна стану контрольною точкою формують одиницю; швидкий вибір, присідання, непомітна нейтралізація, докладне влучання в тіло, поєднання трав і умова необізнаності її підтримують. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
       "defining": [
         "ACT-123",
         "ACT-424",
         "ACT-425",
-        "ACT-426",
+        "ACT-419",
         "SYS-776",
         "SYS-777",
         "SYS-778",
@@ -6687,10 +6688,10 @@
         "SYS-780",
         "CON-394",
         "CON-594",
-        "CON-595",
+        "CON-589",
         "INF-302",
         "INF-303",
-        "INF-304",
+        "INF-295",
         "OBJ-155"
       ],
       "structural": [
@@ -6997,13 +6998,15 @@
       ]
     },
     "GAME-0257": {
-      "reviewed": "2026-09-05",
-      "noteEn": "Player-raised motion sensing, attached hiding, reactive autonomous pursuit, finite-battery illumination, exposed save fixtures and their moving-only information define this mission. Direct route control, personal crafting, item selection, authored interactions, thrown diversion, dependent fixtures, checkpoint restoration, Health, authored segment settlement, ordered access/crafting/light gates, local/resource/goal information and live/save time structure it. Item transfer, contact pickup, general stack capacity and loot compatibility support it. Roles are reviewed over the complete signature, not inferred from rarity.",
-      "noteUk": "Цю місію визначають піднятий гравцем детектор руху, прив’язана схованка, реактивне автономне переслідування, переносне світло зі скінченними батарейками, вразливі станції збереження та відомості лише про рух. Безпосереднє проходження, особисте виготовлення, вибір предмета, авторські взаємодії, кинута приманка, залежні механізми, відновлення контрольної точки, Health, завершення авторського сегмента, впорядковані умови доступу, виготовлення й світла, місцеві відомості, ресурси, ціль та живий/збережений час формують його. Перенесення предметів, підбирання, загальна місткість стосів і показ сумісності знахідок підтримують. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
+      "reviewed": "2026-09-10",
+      "noteEn": "Player-raised motion sensing, attached hiding, reactive autonomous pursuit, separately represented portable-light drain and commanded finite-battery refill, exposed save fixtures and moving-only information define this mission. Direct route control, personal crafting, item selection, authored interactions, thrown diversion, dependent fixtures, checkpoint restoration, Health, authored segment settlement, ordered access/crafting/light gates, local/resource/goal information and live/save time structure it. Item transfer, contact pickup, general stack capacity and loot compatibility support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Цю місію визначають піднятий гравцем детектор руху, прив’язана схованка, реактивне автономне переслідування, окремо подані витрата заряду переносного світла та кероване поповнення зі скінченного запасу батарейок, вразливі станції збереження й відомості лише про рух. Безпосереднє проходження, особисте виготовлення, вибір предмета, авторські взаємодії, кинута приманка, залежні механізми, відновлення контрольної точки, Health, завершення авторського сегмента, впорядковані умови доступу, виготовлення й світла, місцеві відомості, ресурси, ціль та живий/збережений час формують його. Перенесення предметів, підбирання, загальна місткість стосів і показ сумісності знахідок підтримують. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
       "defining": [
         "ACT-432",
         "ACT-433",
+        "ACT-453",
         "SYS-057",
+        "SYS-754",
         "SYS-791",
         "SYS-792",
         "CON-602",
@@ -7077,7 +7080,7 @@
       ]
     },
     "GAME-0259": {
-      "reviewed": "2026-09-05",
+      "reviewed": "2026-09-10",
       "noteEn": "Readied line orientation, capability-changing regional severance, visible body-layer progress and fixed local circuit allocation define this chapter. Direct traversal/combat, selected equipment, reload, Stasis, authored fixtures, hit-location resolution, checkpoint/Health/object destruction, chapter settlement, equipment/ability/order gates, local/resource/objective information and live/save time structure it. Med-pack use, item transfer, general stack capacity, restorative legality and loot compatibility support it. Roles are reviewed over the complete signature, not inferred from rarity.",
       "noteUk": "Цей розділ визначають орієнтація лінії готового інструмента, відсікання ділянки зі втратою функції, видимий поступ пошкодження шарів тіла та розподіл фіксованого локального живлення. Безпосередній рух і бій, вибір спорядження, перезарядження, Stasis, авторські механізми, розв’язання влучань за ділянками, відновлення контрольної точки, Health, руйнування об’єктів, завершення розділу, умови спорядження, здібності й порядку, місцеві відомості, ресурси, ціль та живий/збережений час формують його. Лікування, перенесення предметів, загальна місткість стосів, умови відновлення й показ сумісності знахідок підтримують. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
       "defining": [
@@ -7478,6 +7481,534 @@
         "SYS-215",
         "SYS-578",
         "CON-269"
+      ]
+    },
+    "GAME-0271": {
+      "reviewed": "2026-09-07",
+      "noteEn": "The single regional measure that four unlike activities all credit, the threshold that gates the successor regions, the interface that discloses both and the terminal that is the measure rather than any one activity define this packet. Clearing an occupied site into a retained allied node, destroying declared structures, escalating perception into an alerted site and neutralising an unaware hostile structure it. Movement, direct attack, authored-object interaction, real-time combat resolution, the carried restorative and its legality, avatar-centred sight and sound, personal state and the explored map support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Цей пакет визначають одна величина поступу місцевості, яку поповнюють чотири несхожі заняття, поріг, що замикає наступні місцевості, інтерфейс із накопиченим поступом і порогом та завершення, яким є сама величина, а не якесь одне заняття. Зачистка зайнятого місця в збережений союзний вузол, руйнування оголошених споруд, перехід від помічення до піднятої тривоги та тихе усунення необізнаного ворога формують його. Рух, прямий удар, звертання до авторського об’єкта, розв’язання бою в реальному часі, носимий засіб лікування з його допустимістю, зір і слух від персонажа, власний стан та досліджена мапа підтримують. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
+      "defining": [
+        "SYS-517",
+        "CON-440",
+        "INF-207",
+        "OBJ-165"
+      ],
+      "structural": [
+        "ACT-235",
+        "SYS-373",
+        "SYS-748",
+        "SYS-755"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-200",
+        "ACT-341",
+        "SYS-057",
+        "SYS-215",
+        "CON-335",
+        "CON-579",
+        "INF-115",
+        "INF-119",
+        "INF-125",
+        "TIM-003"
+      ]
+    },
+    "GAME-0272": {
+      "reviewed": "2026-09-07",
+      "noteEn": "Authored finite hostile releases, the clearance gate and typed finite ammunition define this packet. Direct movement, aimed firing, weapon choice, manual reload, compatible live weapon state, continuous health pressure, real-time combat and the fixed exit threshold structure it. Contact collection and the weapon, ammunition, threat, health and armour displays support it. Reload and continuous health are the evidenced boundaries that distinguish this packet from its predecessor.",
+      "noteUk": "Цей пакет визначають авторські випуски скінченних груп ворогів, ворота зачистки й типізовані скінченні боєприпаси. Його формують прямий рух, прицільна стрільба, вибір зброї, ручне перезаряджання, сумісний поточний стан зброї, неперервний запас здоров’я, бій у реальному часі та незмінний поріг виходу. Підтримують пакет збирання дотиком і показ зброї, боєприпасів, загроз, здоров’я та броні. Саме перезаряджання й неперервне здоров’я доказово відрізняють цей пакет від попередника.",
+      "defining": [
+        "SYS-749",
+        "CON-402",
+        "CON-578",
+        "OBJ-026"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-164",
+        "ACT-183",
+        "SYS-215",
+        "SYS-578",
+        "CON-285",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-222",
+        "INF-073",
+        "INF-115",
+        "INF-119"
+      ]
+    },
+    "GAME-0273": {
+      "reviewed": "2026-09-07",
+      "noteEn": "The stock-gated last-chance window, finite slow-motion meter, immediate health recovery, explicit chapter settlement and retained chapter objective define this packet. Direct movement and aimed fire, weapon selection and reload, collection, contextual cover, Shootdodge, body-hit resolution, live combat, checkpoint restore and authored route order structure it. Fixture use, voluntary medicine, stock and readiness legality, weapon compatibility, cover legality, HUD and tutorial information and real-time input support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Цей пакет визначають вікно останнього шансу за наявного запасу, скінченна смуга вповільнення, негайне повернення здоров’я, завершення розділу та збережена ціль наступного розділу. Безпосередній рух і прицільна стрільба, вибір і перезаряджання зброї, збирання, укриття, Shootdodge, розв’язання влучань, живий бій, повернення до контрольної точки й авторський порядок маршруту формують його. Робота з пристроями, добровільне лікування, допустимість запасів і готовності, сумісність зброї, допустимість укриття, інтерфейс, навчальні підказки та введення в реальному часі підтримують. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
+      "defining": [
+        "SYS-820",
+        "SYS-578",
+        "SYS-368",
+        "SYS-780",
+        "OBJ-155"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-164",
+        "ACT-183",
+        "ACT-199",
+        "ACT-226",
+        "ACT-229",
+        "SYS-208",
+        "SYS-215",
+        "SYS-369",
+        "CON-282"
+      ],
+      "supporting": [
+        "ACT-341",
+        "ACT-131",
+        "CON-262",
+        "CON-269",
+        "CON-285",
+        "CON-326",
+        "CON-579",
+        "INF-073",
+        "INF-115",
+        "INF-119",
+        "INF-268",
+        "TIM-003"
+      ]
+    },
+    "GAME-0274": {
+      "reviewed": "2026-09-07",
+      "noteEn": "The strike-funded healing reserve, recoverable death mark, single-mark loss rule, health-gated guardian phases, encounter clearance and retained reward define this packet. Direct traversal and strikes, held Focus, timed defensive responses, deliberate Bench rest, live combat, rest reset and continuous health structure it. Resource legality, visible personal state, fixed placed instructions and real-time input support it. Roles are reviewed over the complete corrected signature, not inferred from rarity.",
+      "noteUk": "Цей пакет визначають запас лікування, який поповнюють ударами, відновлювана позначка після смерті, правило втрати попередньої позначки, фази стража за порогами здоров’я, завершення сутички та стійка нагорода. Пряме пересування й удари, утримуваний Focus, вчасні захисні відповіді, свідомий відпочинок на Bench, живий бій, повернення ворогів і безперервне здоров’я формують його. Ресурсна допустимість, видимий особистий стан, незмінні написи на місцевості й введення в реальному часі підтримують. Ролі перевірено для повної виправленої сигнатури, а не виведено з рідкісності генів.",
+      "defining": [
+        "SYS-397",
+        "SYS-399",
+        "CON-352",
+        "SYS-799",
+        "SYS-362",
+        "OBJ-029"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-190",
+        "ACT-223",
+        "ACT-224",
+        "SYS-364",
+        "SYS-215",
+        "SYS-578"
+      ],
+      "supporting": [
+        "INF-317",
+        "CON-351",
+        "INF-119",
+        "TIM-003"
+      ]
+    },
+    "GAME-0275": {
+      "reviewed": "2026-09-07",
+      "noteEn": "The authored arrival, mobile-base deployment, bounded power balance, paid site-bound production and eliminate-and-continue terminal define this complete opening command-and-economy packet. Building placement, order submission, direct group command, combat and real-time queue advance structure it. Sight, targeting, footprint legality, placement feedback, the live RTS command view and remembered terrain support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Цей повний початковий командно-економічний пакет визначають задане автором прибуття, розгортання мобільної бази, обмежений баланс живлення, платне виробництво у визначених місцях і завершення через усунення ворогів із переходом далі. Розміщення споруд, подання замовлень, прямі накази групам, бій і просування черги в реальному часі формують його. Бачення, наведення, законність ділянки, відгук розміщення, живий командний огляд RTS і пам’ять про досліджену місцевість підтримують. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
+      "defining": [
+        "ACT-315",
+        "SYS-158",
+        "SYS-551",
+        "SYS-821",
+        "OBJ-166"
+      ],
+      "structural": [
+        "ACT-139",
+        "ACT-189",
+        "ACT-316",
+        "SYS-215",
+        "SYS-297",
+        "CON-467",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-305",
+        "CON-273",
+        "CON-292",
+        "INF-131",
+        "INF-224",
+        "INF-225"
+      ]
+    },
+    "GAME-0276": {
+      "reviewed": "2026-09-08",
+      "noteEn": "The ordered three-lap finish, the difficulty-scaled rival field, retained race settlement and first-place objective define this grid-to-result packet. Direct vehicle control, simulated motion, checkpoint legality and real-time advance structure it. Rewind plus the live driving, race-progress and result surfaces support it. Pre-grid choices are parameters, not genes. Roles are reviewed over the complete corrected signature, not inferred from rarity.",
+      "noteUk": "Цей пакет від стартової решітки до результату визначають зарахування впорядкованої траси на три кола, поле суперників відповідної складності, збережений результат гонки й ціль фінішувати першим. Пряме керування, змодельований рух, обов’язкові контрольні точки та перебіг у реальному часі формують його. Перемотування й покази руху, поступу гонкою та результату підтримують. Вибір до старту є параметрами, а не генами. Ролі перевірено для повної виправленої сигнатури, а не виведено з рідкісності.",
+      "defining": [
+        "SYS-516",
+        "SYS-515",
+        "SYS-519",
+        "OBJ-134"
+      ],
+      "structural": [
+        "ACT-290",
+        "SYS-320",
+        "CON-438",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-044",
+        "INF-204",
+        "INF-205",
+        "INF-208"
+      ]
+    },
+    "GAME-0277": {
+      "reviewed": "2026-09-08",
+      "noteEn": "The same sealed encounter handing control from one defeated member to the next, pink-class parry legality, graded-win settlement and the category report that explains the grade define this packet. Sustained aimed fire, the meter-paid EX shot, the chosen parry response, live hostile combat and its separate contact window structure it. Direct arena movement, visual attack paths, visible health and meter, the finite hostile-set objective and real-time input support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Цей пакет визначають передавання тієї самої замкненої сутички від одного переможеного учасника до наступного, допустимість парирування лише для рожевого класу небезпек, оцінювання способу перемоги та підсумок, що пояснює цю оцінку за категоріями. Безперервна прицільна стрільба, оплачений запасом EX-постріл, обрана мить парирування, живий бій і окреме вікно контакту формують його. Безпосередній рух ареною, видимі шляхи атак, показники здоров’я й запасу, ціль перемогти скінченний набір ворогів та введення в реальному часі підтримують. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
+      "defining": [
+        "SYS-799",
+        "CON-617",
+        "SYS-822",
+        "INF-299"
+      ],
+      "structural": [
+        "ACT-161",
+        "ACT-190",
+        "ACT-223",
+        "SYS-215",
+        "CON-324"
+      ],
+      "supporting": [
+        "ACT-008",
+        "INF-115",
+        "INF-119",
+        "OBJ-029",
+        "TIM-003"
+      ]
+    },
+    "GAME-0278": {
+      "reviewed": "2026-09-08",
+      "noteEn": "Menu commitment from bounded recipe servings, conversion of the dive stock into service capacity and revenue, expiring customer requests, the live request-and-wait surface and the cross-activity terminal define this packet. Addressed delivery, reachable capture, release-timed pouring, time-driven demand, oxygen depletion, graded settlement and its category report structure it. Direct swimming, reachable-air legality, visible oxygen, visible menu economics and the two tempos support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Цей пакет визначають формування меню з обмежених порцій, перетворення запасу занурення на місткість обслуговування й виторг, спливання окремих запитів, жива поверхня замовлень та очікування і завершення наскрізного циклу. Адресована доставка, здобуття досяжної риби, наливання з обраною миттю відпускання, надходження попиту з часом, спадання кисню, оцінювання зміни та звіт за категоріями формують його. Безпосереднє плавання, допустимість за досяжним повітрям, видимий кисень, видима економіка меню й два різні темпи підтримують. Ролі перевірено для повної сигнатури, а не виведено з рідкісності генів.",
+      "defining": [
+        "ACT-447",
+        "SYS-823",
+        "CON-620",
+        "INF-330",
+        "OBJ-167"
+      ],
+      "structural": [
+        "ACT-091",
+        "ACT-245",
+        "ACT-448",
+        "SYS-030",
+        "SYS-543",
+        "SYS-822",
+        "INF-299"
+      ],
+      "supporting": [
+        "ACT-008",
+        "CON-460",
+        "INF-075",
+        "INF-117",
+        "TIM-002",
+        "TIM-003"
+      ]
+    },
+    "GAME-0279": {
+      "reviewed": "2026-09-08",
+      "noteEn": "Persistent applicator coverage, its settlement threshold, measured component completion, an independent residual-state locator and the retained all-surface objective define this packet. Direct stream control, movement and portable access structure it; posture and live time support it. Roles are reviewed over the complete corrected signature, not inferred from rarity.",
+      "noteUk": "Цей пакет визначають стійке покриття від робочого струменя, поріг зарахування, виміряне завершення складових, окремий пошук місця залишкового стану та збережена мета для всіх поверхонь. Безпосереднє керування струменем, рух і переносний засіб доступу формують його; положення тіла й живий час підтримують. Ролі перевірено за повною виправленою сигнатурою, а не виведено з рідкісності генів.",
+      "defining": [
+        "SYS-630",
+        "CON-516",
+        "INF-329",
+        "INF-331",
+        "OBJ-168"
+      ],
+      "structural": [
+        "ACT-446",
+        "ACT-008",
+        "ACT-048"
+      ],
+      "supporting": [
+        "ACT-202",
+        "TIM-003"
+      ]
+    },
+    "GAME-0280": {
+      "reviewed": "2026-09-08",
+      "noteEn": "Reticle focus and its disclosure, perception-driven zombie pursuit, the key-gated door, the hostile-free fixture save and the settled station arrival define this opening. Direct movement, aim and fire, reload, prompted pickup, authored interaction, body-region shots, live combat, the graded health pool, checkpoint continuation, ordered gates, weapon legality, the ammunition, condition, local-threat and objective displays, live time and multi-slot restore structure it. The damaged-branch spray use and its legality, slot capacity and pickup disclosure support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Це відкриття визначають зосередження прицілу та його показ, переслідування зомбі за сприйняттям, двері, замкнені ключем, збереження біля об’єкта без ворогів поруч і досягнуте прибуття до відділку. Безпосередній рух, прицілювання й постріл, перезаряджання, підбирання за підказкою, авторська взаємодія, постріли за частинами тіла, живий бій, градуйований запас здоров’я, продовження з контрольної точки, впорядковані шлюзи, допустимість зброї, показ набоїв, стану, місцевих загроз і цілі, живий час і відновлення з кількох слотів формують його. Використання спрею в пошкодженій гілці та його допустимість, місткість комірок і показ предмета перед підбиранням підтримують його. Ролі перевірено за повною сигнатурою, а не виведено з рідкісності генів.",
+      "defining": ["SYS-776", "INF-303", "SYS-057", "CON-296", "CON-621", "OBJ-026"],
+      "structural": ["ACT-008", "ACT-161", "ACT-183", "ACT-199", "ACT-341", "SYS-208", "SYS-215", "SYS-369", "SYS-578", "CON-282", "CON-285", "INF-073", "INF-075", "INF-115", "INF-125", "TIM-003", "TIM-007"],
+      "supporting": ["ACT-131", "CON-579", "CON-210", "INF-128"]
+    },
+    "GAME-0281": {
+      "reviewed": "2026-09-08",
+      "noteEn": "Rank-legal skill use, hidden per-round initiative, the hit-protection-critical-resistance pipeline, the shared light meter, carried stress, Death's Door and the two finite hostile sets define this tutorial. Corridor walking, the ability-and-target command, the formation shift, the brigands' weighted skill choice, corpses that hold the line, the surprise check, encounter rewards, roster settlement, the fixed rank lines, unpreviewed rolls, the hero panel, the visible light meter and band, the remaining-action pips, discrete turns and autosave-only persistence structure it. Loot pickup, curio investigation, the snuff command, random outcome tables, slot capacity, concealed corridor contents and loot disclosure support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Цей навчальний маршрут визначають навички, дозволені лише з певних рядів, прихована ініціатива кожного раунду, ланцюжок влучання, захисту, критичного удару й опорів, спільна шкала світла, стрес, який герої забирають із собою з експедиції, Death's Door і два скінченні набори ворогів. Його каркас утворюють рух коридором, вибір здібності та цілі, пересування строєм, зважений вибір навичок розбійниками, трупи, що тримають лінію, перевірка раптовості, винагороди за сутички, повернення вцілілих і вилучення загиблих зі складу, незмінні лінії рядів, непередбачувані кидки, панель героя, завжди видима шкала світла з її діапазоном, позначки того, хто ще не діяв у раунді, дискретні ходи та збереження, яке відбувається лише автоматично. Підтримують його підбирання здобичі, огляд цікавинки, гасіння смолоскипа, випадкові таблиці результатів, місткість комірок, прихований вміст коридору й показ здобичі. Ролі перевірено за повною сигнатурою, а не виведено з рідкісності генів.",
+      "defining": ["CON-622", "SYS-388", "SYS-825", "SYS-829", "SYS-830", "SYS-831", "OBJ-029"],
+      "structural": ["ACT-008", "ACT-019", "ACT-450", "SYS-826", "SYS-827", "SYS-828", "SYS-362", "SYS-538", "CON-001", "INF-002", "INF-119", "INF-332", "INF-333", "TIM-001", "TIM-021"],
+      "supporting": ["ACT-199", "ACT-341", "ACT-449", "SYS-004", "CON-210", "INF-003", "INF-128"]
+    },
+    "GAME-0282": {
+      "reviewed": "2026-09-10",
+      "noteEn": "One seeded biome, real-time combat, the single health pool that banks eligible loss for attack-based recovery before a separate timed drain or later-hit replacement removes it, one forgiven lethal hit, sampled gear, automatic blueprint banking, cell commitment with retained progress, the death reset, separately conditioned reward doors and the Collector's exit barred while cells remain define this first run. Locomotion with the double jump, the roll and its protected interval, strikes, the shield's block and parry, the carried run state, composed stats and mutation, the two weapon slots, the mutation slot, attack cues, the explored map, the exit objective and real time structure it. Purchases, the pay-toward command, the stat and mutation offers, pickup into slots, object interactions, the door's damage-threshold destruction, random rolls, contact pickups, health persistence, hidden next rooms, shop prices, the HUD and offer text support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Це перше проходження визначають одна згенерована локація, бій у реальному часі, єдиний запас здоров'я, що зараховує придатну втрату для повернення атаками, перш ніж окреме танення з часом або новий удар замінить її, один прощений смертельний удар, вибране спорядження, автоматичне зарахування креслень, вкладення клітин зі збереженим поступом, скидання після смерті, окремо зумовлені двері з винагородою і вихід від Collector, перекритий, доки є клітини. Його каркас утворюють рух із подвійним стрибком, перекат із захищеним інтервалом, удари, блок і парирування щитом, перенесений стан проходження, складені характеристики й мутація, дві комірки зброї, комірка мутації, підказки атак, розвідана мапа, ціль виходу й реальний час. Підтримують його купівлі, команда вкладення, пропозиції характеристик і мутацій, підбирання в комірки, взаємодія з об'єктами, руйнування дверей на порозі ушкоджень, випадкові кидки, збирання дотиком, збереження здоров'я між кімнатами, приховані наступні кімнати, ціни крамниці, інтерфейс і текст пропозицій. Ролі переглянуто за повним підписом, а не виведено з рідкості.",
+      "defining": [
+        "SYS-464",
+        "SYS-215",
+        "SYS-578",
+        "SYS-832",
+        "SYS-852",
+        "SYS-833",
+        "SYS-450",
+        "SYS-834",
+        "SYS-835",
+        "SYS-469",
+        "CON-623",
+        "CON-624"
+      ],
+      "structural": [
+        "ACT-008",
+        "CON-519",
+        "ACT-356",
+        "SYS-456",
+        "ACT-161",
+        "ACT-437",
+        "ACT-425",
+        "SYS-167",
+        "SYS-467",
+        "CON-404",
+        "CON-596",
+        "INF-142",
+        "INF-180",
+        "OBJ-026",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-130",
+        "ACT-140",
+        "ACT-199",
+        "ACT-341",
+        "ACT-451",
+        "SYS-004",
+        "SYS-222",
+        "SYS-755",
+        "CON-175",
+        "INF-002",
+        "INF-117",
+        "INF-119",
+        "INF-306"
+      ]
+    },
+    "GAME-0283": {
+      "reviewed": "2026-09-10",
+      "noteEn": "The once-per-round timed Heat state whose remainder the fighter spends through Heat Smash or Heat Dash, automatic low-health Rage with one Rage Art, eligible damage banked for attack-based recovery, later incoming attacks that erode or erase that bank, the walled floor plane whose legal lateral displacement can take a fighter out of a linear attack's path, character-command attacks including the state-gated Heat and Rage commands, standing and crouching guard and the throw contest define this match. Translational movement with its exactly evidenced ground commands, in-place posture changes, fighter and control assignment, real-time contact with its knockdown state, round adjudication and reset, command legality, the finite vitality, clock and round bounds, the visible spacing, the paired HUD and the required three round wins structure it. Attack start-up and throw-hand cues and the real-time clock support it. Roles are reviewed over the complete signature, not inferred from rarity.",
+      "noteUk": "Цей матч визначають тимчасовий стан Heat раз на раунд, решту якого боєць витрачає через Heat Smash або Heat Dash, автоматичний Rage за низького здоров'я з одним Rage Art, придатна шкода, зарахована для повернення власними атаками, наступні ворожі атаки, що зменшують або стирають цей запас, обгороджена стінами площина, де допустиме бокове зміщення може вивести бійця з-під прямолінійної атаки, атаки командами персонажа разом із командами Heat і Rage, що залежать від стану, стоячий і присілий блок та змагання кидків. Його каркас утворюють переміщення з командами з підлоги з точними введеннями, зміни положення тіла на місці, призначення бійців і керування, контакт у реальному часі зі станом нокдауну, визначення та скидання раундів, допустимість команд, скінченні межі здоров'я, годинника й раундів, видима дистанція, парний інтерфейс і потрібні три перемоги у раундах. Підтримують його підказки замаху й витягнутої руки та годинник реального часу. Ролі переглянуто за повним підписом, а не виведено з рідкості.",
+      "defining": [
+        "SYS-837",
+        "SYS-838",
+        "SYS-832",
+        "SYS-836",
+        "CON-625",
+        "ACT-295",
+        "ACT-296",
+        "ACT-297"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-202",
+        "ACT-294",
+        "SYS-215",
+        "SYS-522",
+        "CON-442",
+        "CON-446",
+        "INF-209",
+        "INF-210",
+        "OBJ-099"
+      ],
+      "supporting": [
+        "INF-142",
+        "TIM-003"
+      ]
+    },
+    "GAME-0284": {
+      "reviewed": "2026-09-09",
+      "noteEn": "The progression measure credited by both construction and recorded growth, the gate that keeps milestone capabilities unavailable until that measure reaches the declared total, the settlement that permanently releases them, the terminal that crosses the first of those thresholds while the city itself continues, and freely chosen road drawing, zoning and priced utility placement define this packet. Autonomous private construction, sector demand, road-carried utilities, frontage and solvency, demand and supply disclosure and the milestone bar structure it. Simulation speed and live time support it. Roles are reviewed over the complete amended signature, not inferred from rarity.",
+      "noteUk": "Цей пакет визначають величина поступу, яку поповнюють і будівництво, і зафіксоване зростання, умова недоступності можливостей віхи до оголошеної суми, зарахування віхи, яке назавжди їх відкриває, термінал першого порога в місті, що триває далі, а також вільно обрані прокладання доріг, розмітка землі й платне розміщення комунікацій. Його каркас утворюють самостійна забудова, попит секторів, комунікації під дорогами, примикання до дороги й платоспроможність, показ попиту та постачання і смуга віхи. Підтримують його швидкість симуляції та живий час. Ролі переглянуто за повним виправленим підписом, а не виведено з рідкості.",
+      "defining": [
+        "SYS-517",
+        "CON-440",
+        "SYS-169",
+        "OBJ-169",
+        "ACT-068",
+        "ACT-116",
+        "ACT-117"
+      ],
+      "structural": [
+        "SYS-151",
+        "SYS-152",
+        "SYS-153",
+        "CON-170",
+        "CON-171",
+        "INF-057",
+        "INF-207"
+      ],
+      "supporting": [
+        "ACT-006",
+        "TIM-003"
+      ]
+    },
+    "GAME-0285": {
+      "reviewed": "2026-09-09",
+      "noteEn": "The explicit carried-signal activation, the system that turns it into route settlement, the life-place-progress-signal gate, the bounded survival-route objective, the seven-day deadline and death-time save deletion define this packet. Continuous survival-state updates, bodily and load viability, one-life finality, movement, searching, sleep, consumption and the objective/status surfaces structure it. Carried-item selection, equipment handling and live world time support it. Roles are reviewed over the complete scoped signature, not inferred from rarity.",
+      "noteUk": "Цей пакет визначають явна активація переносного сигналу, перетворення сигналу на завершення маршруту, спільна вимога життя, місця, поступу й придатного сигналу, ціль обмеженого маршруту виживання, семиденний строк і видалення збереження після смерті. Його каркас утворюють безперервне оновлення стану виживання, придатність тілесних запасів і ваги вантажу, незворотність одного життя, пересування, пошук, сон, споживання та поверхні цілей і стану. Підтримують його вибір переносного предмета, спорядження й живий час світу. Ролі переглянуто за повним обмеженим підписом, а не виведено з рідкості.",
+      "defining": [
+        "ACT-364",
+        "SYS-669",
+        "SYS-840",
+        "CON-068",
+        "CON-537",
+        "OBJ-125"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-165",
+        "ACT-214",
+        "ACT-216",
+        "ACT-311",
+        "SYS-327",
+        "CON-281",
+        "CON-313",
+        "INF-067",
+        "INF-075",
+        "INF-128"
+      ],
+      "supporting": [
+        "ACT-164",
+        "ACT-199",
+        "INF-073",
+        "TIM-003"
+      ]
+    },
+    "GAME-0286": {
+      "reviewed": "2026-09-10",
+      "noteEn": "The targeted fuel-paid execution, the staggered close finisher, their shared contextual defeat-to-recovery result, the guaranteed fuel floor and hostile-component disablement define this packet. Direct traversal/fire, authored interactions, combat resolution, pickups, checkpoint replacement, layered survival, finite releases, breakables, ordered gates, ammunition, stagger disclosure and the destination objective structure it. Weapon selection, local perception, personal/route information and continuous time support it. Roles are reviewed over the complete bounded signature, not inferred from novelty.",
+      "noteUk": "Цей пакет визначають націлене усунення за пальне, близьке добивання після приголомшення, їхній спільний результат із перетворенням усунення на відновлення, гарантований нижній рівень пального та вимкнення спроможності руйнуванням компонента ворога. Його каркас утворюють прямий рух і вогонь, авторські взаємодії, бойове розв’язання, підбирання, заміна стану контрольною точкою, багатошарове виживання, скінченні випуски ворогів, ламкі перешкоди, впорядковані шлюзи, боєприпаси, показ приголомшення та ціль призначення. Підтримують його вибір зброї, місцеве сприйняття, особисті й маршрутні відомості та безперервний час. Ролі переглянуто за повним обмеженим підписом, а не виведено з новизни.",
+      "defining": [
+        "ACT-190",
+        "ACT-419",
+        "SYS-770",
+        "SYS-841",
+        "SYS-794",
+        "CON-269",
+        "CON-589"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-341",
+        "SYS-215",
+        "SYS-222",
+        "SYS-369",
+        "SYS-578",
+        "SYS-655",
+        "SYS-749",
+        "SYS-755",
+        "CON-282",
+        "CON-402",
+        "CON-578",
+        "INF-295",
+        "OBJ-026"
+      ],
+      "supporting": [
+        "ACT-164",
+        "INF-073",
+        "INF-115",
+        "INF-119",
+        "INF-125",
+        "TIM-003"
+      ]
+    },
+    "GAME-0287": {
+      "reviewed": "2026-09-10",
+      "noteEn": "Persistent survey knowledge, outpost-created ownership, transport-to-settlement development and their two legality predicates define this packet, together with the retained first-colony terminal. Remote orders, site-bound production, influence, general production legality and the star map structure the dependency chain. Speed, research choice and progression, procedural generation, recurring accounting, strategic display and the shared real-time clock support it. Roles are reviewed over the complete bounded signature, not inferred from novelty.",
+      "noteUk": "Цей пакет визначають стійкі знання після обстеження, встановлення власності аванпостом, перетворення транспорту на поселення, дві передумови законності та збережений термінал першої колонії. Віддалені накази, виробництво на окремій верфі, вплив, загальна законність виробництва й карта зір утворюють каркас залежностей. Підтримують його швидкість, вибір і просування досліджень, процедурне створення, регулярне зведення господарства, стратегічний огляд і спільний годинник реального часу. Ролі переглянуто за повним обмеженим підписом, а не виведено з новизни.",
+      "defining": [
+        "SYS-843",
+        "SYS-844",
+        "SYS-845",
+        "CON-626",
+        "CON-627",
+        "OBJ-170"
+      ],
+      "structural": [
+        "ACT-189",
+        "ACT-316",
+        "SYS-551",
+        "CON-225",
+        "CON-417",
+        "INF-081"
+      ],
+      "supporting": [
+        "ACT-006",
+        "ACT-121",
+        "SYS-004",
+        "SYS-154",
+        "SYS-564",
+        "INF-224",
+        "TIM-003"
+      ]
+    },
+    "GAME-0288": {
+      "reviewed": "2026-09-10",
+      "noteEn": "Health-modulated Posture recovery, sequential execution requirements, charged in-place recovery, combat-earned charge and an independently cleared second lock define this packet. Direct melee, sustained guard, timed deflection, temporary execution access and the required guardian structure those boundaries. Traversal, crouched stealth, grappling, broad combat, checkpoint reset, perception, route order, personal display, typed perilous cues, true-death loss and real-time scheduling support the complete route. Roles are reviewed over the bounded signature rather than inferred from novelty.",
+      "noteUk": "Цей пакет визначають залежне від здоров’я відновлення Posture, послідовні вимоги до страт, заряджене самовідновлення на місці, бойове поповнення заряду та окреме блокування, яке теж знімають бойовим поступом. Безпосередній ближній бій, тривалий захист, своєчасне відбиття, коротка доступність страти й обов’язковий охоронець структурують ці межі. Рух, скритність навприсядки, гак, загальний бій, відновлення біля контрольної точки, виявлення, порядок маршруту, особистий показ, типізовані попередження про небезпечні атаки, втрата після справжньої смерті та реальний час підтримують повний маршрут. Ролі переглянуто за обмеженим підписом, а не виведено з новизни.",
+      "defining": [
+        "ACT-452",
+        "SYS-035",
+        "SYS-846",
+        "SYS-847",
+        "SYS-848",
+        "SYS-849",
+        "SYS-853",
+        "CON-628",
+        "INF-334",
+        "INF-335"
+      ],
+      "structural": [
+        "ACT-161",
+        "ACT-223",
+        "ACT-383",
+        "ACT-419",
+        "ACT-425",
+        "SYS-409",
+        "CON-282",
+        "CON-324",
+        "CON-589",
+        "INF-142",
+        "INF-295",
+        "INF-319",
+        "OBJ-080"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-202",
+        "ACT-224",
+        "ACT-235",
+        "ACT-361",
+        "ACT-438",
+        "SYS-215",
+        "SYS-364",
+        "SYS-373",
+        "SYS-578",
+        "SYS-653",
+        "CON-335",
+        "INF-043",
+        "INF-119",
+        "TIM-003"
       ]
     }
   }

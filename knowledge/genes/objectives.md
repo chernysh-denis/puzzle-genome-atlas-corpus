@@ -581,6 +581,10 @@
   [Antichamber decomposition](../games/a-f/antichamber.md), and
   [Chants of Sennaar decomposition](../games/a-f/chants-of-sennaar.md), and
   [Blue Prince decomposition](../games/a-f/blue-prince.md).
+- Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  for the key-gated street route walked to the police station, whose arrival settles the authored objective and is retained through a reload-verified Main Hall save.
+- Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
+  for reaching the generated biome's Promenade exit, whose interaction settles the biome and whose arrival is the documented retained successor.
 - Novelty: not assessed.
 
 ## OBJ-027 — Exact-once surface processing plus return pose
@@ -633,7 +637,8 @@
   defeated.
 - Includes: clearing a Fights in Tight Spaces room after every required enemy
   is knocked out, killed or removed through a lethal boundary; defeating every
-  enemy in one bounded Slay the Spire combat before player health reaches zero.
+  enemy in one bounded Slay the Spire combat before player health reaches zero;
+  defeating Hollow Knight's one declared opening-route guardian.
 - Excludes: surviving a fixed round horizon while hostiles may remain; repelling
   a time-driven multi-wave assault; maximising defeated-enemy score without a
   finite completion set.
@@ -641,8 +646,12 @@
   closure, controlled-actor defeat and simultaneous terminal resolution.
 - Evidence: [Fights in Tight Spaces decomposition](../games/a-f/fights-in-tight-spaces.md)
   and [Tactical Breach Wizards decomposition](../games/s-z/tactical-breach-wizards.md),
-  [Shogun Showdown decomposition](../games/s-z/shogun-showdown.md), and
-  [Slay the Spire decomposition](../games/s-z/slay-the-spire.md).
+  [Shogun Showdown decomposition](../games/s-z/shogun-showdown.md),
+  [Slay the Spire decomposition](../games/s-z/slay-the-spire.md), and
+  [Hollow Knight decomposition](../games/g-l/hollow-knight.md), and
+  [Cuphead decomposition](../games/a-f/cuphead.md).
+- Additional support: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md),
+  for the corridor Brigand Cutthroat battle and the room battle against the Bloodletter and Fusilier, each cleared before both heroes are lost.
 - Novelty: not assessed.
 
 ## OBJ-030 — Preserve designated vulnerable actor during clearance
@@ -1884,21 +1893,29 @@
 - Novelty: first isolated for `GAME-0171`; the terminal couples alternative
   driving-event progress to one mandatory qualification race and membership gate.
 
-## OBJ-099 — Win two rounds against one fixed opposing fighter
+## OBJ-099 — Win the required round count against one fixed opposing fighter
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: in one fixed One on One match, earn the required two round wins
-  through KO or favourable time-over before the opposing fighter does.
-- Includes: the scoped Ryu-versus-Luke Street Fighter 6 Versus match.
+- Definition: in one fixed one-on-one match, earn the declared required
+  number of round wins through KO or favourable time-over before the
+  opposing fighter does.
+- Includes: the scoped Ryu-versus-Luke Street Fighter 6 Versus match at two
+  required wins; the scoped Jin-versus-Kazuya TEKKEN 8 offline Versus match
+  at the default three required wins.
 - Excludes: winning a tournament set of several matches; maximising score or
   rank; eliminating a team; merely winning one round.
 - Parameters: selected side, opponent, round terminal, required wins, opponent
   wins and final result.
 - Evidence: [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
-- Novelty: first isolated for `GAME-0172`; earlier match objectives use team
+- Additional support: [TEKKEN 8 decomposition](../games/s-z/tekken-8.md),
+  for the third round win by KO or favourable time-over against the fixed
+  CPU Kazuya.
+- Novelty: first isolated for `GAME-0172`; generalised by
+  [`TAXONOMY_CHANGE_047`](../../research/taxonomy-changes/TAXONOMY_CHANGE_047.md)
+  so that the required count is a parameter; earlier match objectives use team
   objectives, round economies, ball score or last-survivor state rather than
   repeated duel rounds for the same fighter pair.
 
@@ -2281,24 +2298,27 @@
 - Novelty: first isolated for `GAME-0196`; one temporary productive vehicle-tool
   system must change a persistent surface before explicit economic settlement.
 
-## OBJ-120 — Mount Eikthyr's trophy and unlock the first Forsaken Power
+## OBJ-120 — Complete a staged progression-key route to a retained capability
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: reveal and reach Eikthyr's altar, summon and defeat Eikthyr,
-  recover its guaranteed trophy and mount it on the matching Sacrificial Stone
-  so the first Forsaken Power becomes available.
+- Definition: satisfy every required stage of one bounded progression route
+  whose accepted terminal is persistent availability of its first capability
+  after a separately earned progression key has reached the matching fixture.
 - Includes: one current Valheim 0.221.12 solo Normal seed from spawn control to
   mounted Eikthyr Trophy and available power.
-- Excludes: boss defeat without mounting; merely collecting Hard Antlers;
-  activating the power after unlock; Black Forest or later Forsaken progress.
-- Parameters: world seed, wayfinder, altar, offering, boss, guaranteed trophy,
-  sacrificial stone, mounted state and power availability.
+- Excludes: settling the guarded encounter while its resulting key remains
+  undelivered; receiving other encounter drops; activating an already
+  available capability; continuing into later progression stages.
+- Parameters: route, wayfinder, entry offering, guarded encounter, guaranteed
+  progression key, matching fixture, first retained capability and accepted
+  terminal state.
 - Evidence: [Valheim decomposition](../games/s-z/valheim.md).
-- Novelty: first isolated for `GAME-0197`; the boss result remains incomplete
-  until its carried trophy settles at a separate matching progression fixture.
+- Novelty: first isolated for `GAME-0197`; encounter settlement and possession
+  of its guaranteed key remain intermediate states, while the first retained
+  capability is the portable terminal.
 
 ## OBJ-121 — Be the last fixed participant with a remaining stock
 
@@ -2379,23 +2399,27 @@
 - Novelty: first isolated for `GAME-0201`; an interruptible access process,
   embodied value transport and spatial departure form one conjunctive terminal.
 
-## OBJ-125 — Ascend one dated island and complete summit rescue
+## OBJ-125 — Complete a bounded survival route through a location-bound signal
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: in one fixed daily-island expedition, traverse the ordered biomes,
-  reach the PEAK alive and ignite an eligible Flare so helicopter rescue and the
-  completed expedition result settle.
-- Includes: standard Peak solo on the scoped 2026-08-30 daily island interval.
-- Excludes: merely reaching the summit; earning Peak Badge without result
-  settlement; Nadir; cooperative resurrection; starting another expedition.
-- Parameters: daily identity, difficulty, biome progress, life state, summit
-  region, Flare, rescue sequence, report and success result.
-- Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Definition: traverse the required bounded survival route, obtain or preserve
+  a usable carried signal item and activate it while alive in the declared
+  terminal region so the authored positive result settles.
+- Includes: standard PEAK solo on the scoped 2026-08-30 daily island interval;
+  The Long Dark's standard `Hopeless Rescue` summit-to-Lighthouse Challenge.
+- Excludes: merely reaching an intermediate or terminal location; signalling in
+  the wrong region; a different alternate ending; starting another attempt.
+- Parameters: ruleset identity, difficulty, route progress, life state, terminal
+  region, signal item, activation, response, report and success result.
+- Evidence: [PEAK decomposition](../games/m-r/peak.md) and
+  [The Long Dark decomposition](../games/s-z/the-long-dark.md).
 - Novelty: first isolated for `GAME-0203`; a generated vertical route must
-  preserve one explicit signal action beyond arrival to turn survival into rescue.
+  preserve one explicit signal action beyond arrival to turn survival into
+  rescue. The route-neutral generalisation was accepted in
+  [`TAXONOMY_CHANGE_051`](../../research/taxonomy-changes/TAXONOMY_CHANGE_051.md).
 
 ## OBJ-126 — Win and settle Murchad's guided Desmond war
 
@@ -2566,7 +2590,9 @@
   autonomous rivals, cross its valid finish in first place and reach a
   persistent event result with the disclosed completion reward retained.
 - Includes: the stock Honda Civic Si packet for Need for Speed Underground
-  Race 1 at Olympic Square, Easy, automatic transmission and `375` Bank.
+  Race 1 at Olympic Square, Easy, automatic transmission and `375` Bank; the
+  stock Supra packet for Forza Horizon 5's Horizon Mexico Circuit, Average
+  Drivatars and retained first-place result.
 - Excludes: a valid solo time-trial finish without a rival-victory predicate;
   a race where any classified place satisfies the packet; a championship or
   multi-event progression gate; a race whose result remains unsettled until a
@@ -2574,7 +2600,8 @@
   car; the full career.
 - Parameters: event, route, lap count, rivals, finish place, difficulty,
   reward, completion flag, career state and returned control.
-- Evidence: [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
+- Evidence: [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md)
+  and [Forza Horizon 5 decomposition](../games/a-f/forza-horizon-5.md).
 - Novelty: first isolated for `GAME-0217` and generalised under
   `TAXONOMY_CHANGE_017`; the reusable boundary is the finite rival-race win
   plus retained result/reward, while event identity, vehicle, laps,
@@ -3206,3 +3233,139 @@
 - Novelty: first isolated for `GAME-0270`; leaving is the goal and staying is the
   temptation, so the objective is defined against the enrichment the player wants
   to keep doing.
+
+## OBJ-165 — Fill one region's progress measure and retain the opened succession
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: raise one bounded region's retained progress measure to its
+  declared threshold through any mix of qualifying activities, and reach the
+  persistent state in which the region counts as resolved and its authored
+  successors are selectable.
+- Includes: liberating Far Cry 5's tutorial island by filling its resistance
+  measure and retaining the three offered successor regions.
+- Excludes: clearing one occupied site and retaining its own services;
+  completing one event or wave schedule; reaching a region boundary through an
+  ordered mission list; a personal level threshold.
+- Parameters: the required total, the qualifying activity classes, the region's
+  identity and the number of successors.
+- Evidence: [Far Cry 5 decomposition](../games/a-f/far-cry-5.md).
+- Novelty: first isolated for `GAME-0271`.
+
+## OBJ-166 — Eliminate the declared hostile set and retain the next mission
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one bounded mission by removing every member of the
+  hostile set the mission declares, then reach the persistent state in which the
+  mission is settled and the campaign's next mission is retained as selectable.
+- Includes: destroying the opposing force in the opening GDI mission of Command
+  & Conquer Remastered Collection's bounded route and continuing the campaign.
+- Excludes: repelling an assault that a defence must survive; clearing an
+  occupied site and retaining its local services; reaching a designated
+  location; surviving a declared duration; defeating one named guardian.
+- Parameters: the hostile set's composition, the map, the debrief content and
+  how many successors open.
+- Evidence: [Command & Conquer Remastered Collection decomposition](../games/a-f/command-and-conquer-remastered-collection.md).
+- Novelty: first isolated for `GAME-0275`.
+
+## OBJ-167 — Complete one cycle from excursion stock to its service settlement
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: complete one bounded cycle by taking a single excursion's stock
+  into a second, different activity that consumes it, settling that activity's
+  own bounded result, and reaching the persistent state in which the cycle is
+  recorded and the next one is available.
+- Includes: completing DAVE THE DIVER's required second tutorial dive with the
+  declared catch, using that stock through the first evening service, accepting
+  its sales report and grade, and reaching the following play day.
+- Excludes: returning a catch to a market for coin; securing gathered resources
+  at a base; completing one activity whose result is only a score; a day
+  boundary with no second activity consuming the first's output; requiring a
+  longer campaign mission that the scoped cycle does not complete.
+- Parameters: the two activities, excursion quota, what the stock maps to, the
+  second activity's bound, terminal report and what the settlement retains.
+- Evidence: [DAVE THE DIVER decomposition](../games/a-f/dave-the-diver.md).
+- Novelty: first isolated for `GAME-0278`.
+
+## OBJ-168 — Reach the declared state on every eligible surface and settle
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one bounded task by bringing every eligible surface to
+  its declared target state, then reach the persistent settlement in which the
+  task's payment or credit is recorded and the surrounding progression returns.
+- Includes: completing PowerWash Simulator's bounded first Career job and
+  retaining its settled payment.
+- Excludes: completing an authored room task set; revealing every non-hazard
+  position; surviving a declared duration; clearing a hostile set; a partial
+  coverage contract.
+- Parameters: the task subject, accepted per-surface tolerance, settlement
+  value, successor availability and persistence check.
+- Evidence: [PowerWash Simulator decomposition](../games/m-r/powerwash-simulator.md).
+- Novelty: first isolated for `GAME-0279`; the objective is measured
+  completeness itself, with no clock, failure state or consumable beside it.
+
+## OBJ-169 — Cross the first of a continuing subject's declared progression thresholds
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: raise one continuing subject's retained progression measure to
+  the first of its declared thresholds and reach the persistent state in which
+  that threshold has settled and the capabilities it releases stay available,
+  while the subject itself is not completed and its same measure keeps
+  accumulating toward the later thresholds that remain outside the packet.
+- Includes: reaching the first progression milestone of a new Cities:
+  Skylines II city and keeping what that milestone releases.
+- Excludes: a bounded region that counts as resolved once its measure is
+  filled, with authored successors then selectable (`OBJ-165`); an open-ended
+  subject with no declared threshold (`OBJ-053`); the final qualification of an
+  ordered milestone chain (`OBJ-056`); one finite ordered event judged by
+  finishing place (`OBJ-150`); a measure filled against an opposed failure
+  track (`OBJ-059`); producing one element that meets a target value
+  (`OBJ-001`); a rank or membership earned by named designated events
+  (`OBJ-088`, `OBJ-098`).
+- Parameters: the subject, the measure and its first threshold, the qualifying
+  sources, the released capabilities, any one-time award, the number of later
+  thresholds and whether a failure terminal exists beside it.
+- Evidence: [Cities: Skylines II decomposition](../games/a-f/cities-skylines-ii.md);
+  the publisher establishes that a milestone is reached with the progression
+  measure and releases further capability, while the first milestone's exact
+  threshold and award remain run-time parameters recorded in that record.
+- Novelty: first isolated for `GAME-0284`; the subject is neither completed nor
+  resolved at the terminal, and the same measure continues past it, which
+  separates this boundary from every retained-successor objective whose subject
+  finishes when its measure fills.
+
+## OBJ-170 — Establish one off-origin colony and regain continuing polity control
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete the required knowledge, territorial and transport chain
+  for one eligible habitat away from the polity's origin and reach the retained
+  successor in which its first new settlement is established while the larger
+  polity remains available for continued control.
+- Includes: Stellaris from fresh United Nations of Earth control through one
+  surveyed and claimed system to its first established colony.
+- Excludes: winning a whole campaign; reaching a later colony-count threshold;
+  founding an instant territory-claiming city; improving the new settlement
+  after establishment.
+- Parameters: polity, origin, target habitat, prerequisite chain, establishment
+  threshold, retained successor, calendar date and later campaign state.
+- Evidence: [Stellaris decomposition](../games/s-z/stellaris.md).
+- Novelty: first isolated for `GAME-0287`; the terminal completes one
+  off-origin settlement dependency chain but deliberately leaves the polity
+  and wider campaign continuing.

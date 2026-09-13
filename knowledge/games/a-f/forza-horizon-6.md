@@ -6,6 +6,7 @@ analysis_status: reviewed
 reviewed: 2026-08-27
 combination_ids:
   - COMB-0169
+  - COMB-0269
 gene_ids:
   action:
     - ACT-044
@@ -286,7 +287,7 @@ gene instances but do not enter the signature.
 - Prior game signatures scanned: `170` (`GAME-0001`–`GAME-0170`).
 - Exact genome matches: none.
 - Tied near matches: `GAME-0169` — Euro Truck Simulator 2 (`4 / 48 = 0.083333`).
-- Supported combination subsets: `COMB-0169`.
+- Supported combination subsets: `COMB-0169`, `COMB-0269`.
 - Scan date: 2026-08-27.
 
 ### Selected-neighbour interpretation

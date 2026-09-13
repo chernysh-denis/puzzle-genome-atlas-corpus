@@ -313,8 +313,11 @@ gene_ids:
   character switching or support `ACT-052`.
 - Mac's carrier interaction is scripted; no unsupported direct Mac-control gene
   is credited in this mission packet.
-- The ordinary nitrous gauge is not Unbound's technique-earned Burst and does
-  not support `SYS-641`; the shared spend command remains `ACT-309`.
+- This route does not establish manoeuvre-earned reserve accumulation under
+  `SYS-765`; its ordinary nitrous nevertheless shares the portable
+  reserve-to-acceleration settlement `SYS-691` with Unbound after historical
+  compound `SYS-641` was split by `TAXONOMY_CHANGE_058`. The spend command
+  remains `ACT-309`.
 - The House vehicles are fixed mission pressure, not a same-course racing field
   and not a police wanted/search system.
 - Retry restores an authored checkpoint; exiting to menu, loading another save
@@ -327,7 +330,7 @@ gene_ids:
 - Comparison algorithm: `genome-jaccard-v1`.
 - Prior game signatures scanned: `207` (`GAME-0001`–`GAME-0207`).
 - Exact genome matches: none.
-- Tied near matches: `GAME-0199` — Need for Speed Unbound (`12 / 33 = 0.363636`).
+- Tied near matches: `GAME-0199` — Need for Speed Unbound (`13 / 33 = 0.393939`).
 - Supported combination subsets: `COMB-0206`.
 - Scan date: 2026-09-01.
 
@@ -335,7 +338,7 @@ gene_ids:
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0199` — Need for Speed Unbound | `ACT-290`, `ACT-292`, `ACT-293`, `ACT-309`, `SYS-320`, `SYS-365`, `SYS-519`, `CON-437`, `INF-204`, `INF-206`, `INF-208`, `TIM-003` | both directly drive a fixed car through an authored real-time event, commit it from an eligible profile, spend a finite acceleration reserve, integrate collision-aware vehicle motion against traffic and rivals, expose route, race and result state, and resolve in real time. Unbound settles a classified street race into Heat pursuit and a garage-gated cash terminal whose earnings are at risk until banked; Payback fixes one carrier-relative heist with hostile ramming, counted wreck quotas, checkpoint failure, a scripted vehicle handoff and stolen-car delivery. The shared core is the driving-and-reserve substrate, not the event either packet settles. This neighbour replaced the previously selected Forza Horizon 6 record when [`TAXONOMY_CHANGE_018`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_018.md) merged `ACT-357` into `ACT-309` and raised the shared intersection | Near, `0.363636` |
+| `GAME-0199` — Need for Speed Unbound | `ACT-290`, `ACT-292`, `ACT-293`, `ACT-309`, `SYS-320`, `SYS-365`, `SYS-519`, `SYS-691`, `CON-437`, `INF-204`, `INF-206`, `INF-208`, `TIM-003` | both directly drive a fixed car through an authored real-time event, commit it from an eligible profile, spend a finite acceleration reserve, integrate collision-aware vehicle motion against traffic and rivals, expose route, race and result state, and resolve in real time. Unbound settles a classified street race into Heat pursuit and a garage-gated cash terminal whose earnings are at risk until banked; Payback fixes one carrier-relative heist with hostile ramming, counted wreck quotas, checkpoint failure, a scripted vehicle handoff and stolen-car delivery. The shared core is the driving-and-reserve substrate, not the event either packet settles. This neighbour replaced the previously selected Forza Horizon 6 record when [`TAXONOMY_CHANGE_018`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_018.md) merged `ACT-357` into `ACT-309` and raised the shared intersection | Near, `0.393939` |
 
 ### Preserved research notes
 

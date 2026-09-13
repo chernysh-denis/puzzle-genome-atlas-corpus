@@ -282,7 +282,7 @@ gene instances but do not enter the signature.
 - Comparison algorithm: `genome-jaccard-v1`.
 - Prior game signatures scanned: `216` (`GAME-0001`–`GAME-0216`).
 - Exact genome matches: none.
-- Tied near matches: `GAME-0199` — Need for Speed Unbound (`13 / 25 = 0.520000`).
+- Tied near matches: `GAME-0199` — Need for Speed Unbound (`13 / 26 = 0.500000`).
 - Supported combination subsets: `COMB-0215`.
 - Scan date: 2026-09-02.
 
@@ -290,7 +290,7 @@ gene instances but do not enter the signature.
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0199` — Need for Speed Unbound | `ACT-290`, `ACT-292`, `ACT-293`, `SYS-320`, `SYS-515`, `SYS-516`, `SYS-519`, `CON-438`, `INF-204`, `INF-205`, `INF-206`, `INF-208`, `TIM-003` | Both packets commit an automatic, difficulty-scaled street race, directly control one fixed car against autonomous rivals, validate ordered progress and retain a disclosed result. Underground ends immediately when first place in the opening two-lap Circuit credits `375` Bank and Race 1 completion. Unbound admits any classified place, technique-earned Burst, traffic, Heat, exposed cash and a mandatory police search/garage gate before its result persists. | Near, `0.520000` |
+| `GAME-0199` — Need for Speed Unbound | `ACT-290`, `ACT-292`, `ACT-293`, `SYS-320`, `SYS-515`, `SYS-516`, `SYS-519`, `CON-438`, `INF-204`, `INF-205`, `INF-206`, `INF-208`, `TIM-003` | Both packets commit an automatic, difficulty-scaled street race, directly control one fixed car against autonomous rivals, validate ordered progress and retain a disclosed result. Underground ends immediately when first place in the opening two-lap Circuit credits `375` Bank and Race 1 completion. Unbound admits any classified place, technique-earned Burst, traffic, Heat, exposed cash and a mandatory police search/garage gate before its result persists. | Near, `0.500000` |
 
 ### Preserved research notes
 

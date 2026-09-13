@@ -3,7 +3,7 @@ game_id: GAME-0199
 slug: need-for-speed-unbound
 game_title: "Need for Speed Unbound"
 analysis_status: reviewed
-reviewed: 2026-08-31
+reviewed: 2026-09-10
 combination_ids:
   - COMB-0197
 gene_ids:
@@ -19,8 +19,9 @@ gene_ids:
     - SYS-515
     - SYS-516
     - SYS-519
-    - SYS-641
     - SYS-642
+    - SYS-691
+    - SYS-765
   constraint:
     - CON-328
     - CON-437
@@ -153,7 +154,8 @@ gene instances but do not enter the signature.
 - Existing `ACT-309`: spend the currently accumulated Burst Nitrous reserve for
   a tactical acceleration burst during race or pursuit. The command is the
   spend of a finite vehicle acceleration reserve; how that reserve is filled is
-  a parameter carried separately by `SYS-641`.
+  carried separately by `SYS-765`, while its System-owned settlement is
+  `SYS-691`.
 - Parameters: starter, controls, gearbox, difficulty, route, throttle, brake,
   steering, drift/grip line, Burst amount and activation timing.
 - Claim IDs: `NFSU-002`–`NFSU-006`.
@@ -171,9 +173,10 @@ gene instances but do not enter the signature.
   eight-place finish result.
 - Existing `SYS-519`: retain the valid event result and declared cash only when
   the bounded garage settlement succeeds.
-- New `SYS-641`: convert grip/drift driving, drafting and other eligible skill
-  events into Burst Nitrous reserve, then convert an activation into temporary
-  acceleration.
+- Existing `SYS-765`: convert grip/drift driving, drafting and other eligible
+  skill events into Burst Nitrous reserve.
+- Existing `SYS-691`: debit the available Burst Nitrous reserve after
+  activation and apply its bounded acceleration effect.
 - New `SYS-642`: hold classified race earnings as exposed cash through the
   forced pursuit, then bank them on eligible garage entry or remove them on a
   bust.
@@ -301,7 +304,7 @@ gene instances but do not enter the signature.
 | Type | Active gene IDs | Candidate genes or parameters |
 |---|---|---|
 | Action | `ACT-290`, `ACT-292`, `ACT-293`, `ACT-309` | fixed direct drive, difficulty/event commitment and Burst spending |
-| System Behaviour | `SYS-320`, `SYS-365`, `SYS-366`, `SYS-515`, `SYS-516`, `SYS-519`, `SYS-641`, `SYS-642` | car/traffic/rivals, route, Heat pursuit, Burst and at-risk cash |
+| System Behaviour | `SYS-320`, `SYS-365`, `SYS-366`, `SYS-515`, `SYS-516`, `SYS-519`, `SYS-642`, `SYS-691`, `SYS-765` | car/traffic/rivals, route, Heat pursuit, Burst and at-risk cash |
 | Constraint | `CON-328`, `CON-437`, `CON-438`, `CON-523` | unseen escape, A+ eligibility, ordered route and garage gate |
 | Information | `INF-144`, `INF-204`–`INF-206`, `INF-208`, `INF-255` | route/race/event/result plus Burst, Heat and cash state |
 | Objective | `OBJ-122` | classify, escape and retain at Rydell's Rydes |
@@ -312,50 +315,51 @@ gene instances but do not enter the signature.
 - Comparison algorithm: `genome-jaccard-v1`.
 - Prior game signatures scanned: `198` (`GAME-0001`–`GAME-0198`).
 - Exact genome matches: none.
-- Tied near matches: `GAME-0171` — Forza Horizon 6 (`15 / 35 = 0.428571`).
+- Tied near matches: `GAME-0171` — Forza Horizon 6 (`15 / 36 = 0.416667`).
 - Supported combination subsets: `COMB-0197`.
-- Scan date: 2026-08-31.
+- Scan date: 2026-09-10.
 
 ### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| Forza Horizon 6 (`GAME-0171`) | `ACT-290`, `ACT-292`, `ACT-293`, `SYS-320`, `SYS-365`, `SYS-515`, `SYS-516`, `SYS-519`, `CON-437`, `CON-438`, `INF-204`, `INF-205`, `INF-206`, `INF-208`, `TIM-003` | Both fix a driving profile and eligible event, then couple direct car control, traffic, difficulty-scaled rivals, ordered course validation and a retained result. Forza permits route selection, car switching and Rewind while converting multiple event results into Festival points and a mandatory Invitational/Wristband gate; Unbound fixes one car/event, earns and spends Burst, carries event Heat into a mandatory LPD pursuit and withholds cash retention until unseen escape plus garage entry. | Near, `0.428571` |
+| Forza Horizon 6 (`GAME-0171`) | `ACT-290`, `ACT-292`, `ACT-293`, `SYS-320`, `SYS-365`, `SYS-515`, `SYS-516`, `SYS-519`, `CON-437`, `CON-438`, `INF-204`, `INF-205`, `INF-206`, `INF-208`, `TIM-003` | Both fix a driving profile and eligible event, then couple direct car control, traffic, difficulty-scaled rivals, ordered course validation and a retained result. Forza permits route selection, car switching and Rewind while converting multiple event results into Festival points and a mandatory Invitational/Wristband gate; Unbound fixes one car/event, earns and spends Burst, carries event Heat into a mandatory LPD pursuit and withholds cash retention until unseen escape plus garage entry. | Near, `0.416667` |
 
 ### Preserved research notes
 
-- New genes: `SYS-641`, `SYS-642`, `CON-523`, `INF-255`, `OBJ-122`.
-- Reused genes include `ACT-309` for the Burst spend command; `ACT-357` was
-  merged into it by
+- Reused genes include `ACT-309` for the Burst spend command and, after
+  [`TAXONOMY_CHANGE_058`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_058.md),
+  `SYS-765` for manoeuvre-earned reserve accumulation and `SYS-691` for its
+  acceleration settlement. `ACT-357` was merged into `ACT-309` by
   [`TAXONOMY_CHANGE_018`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_018.md).
 - Classification result: `New combination of known and new genes`.
 - Evidence and reasoning: existing driving, race-result, traffic, pursuit and
   campaign-settlement records cover the reusable corridor. New records isolate
-  only Unbound's Burst accumulation from driving technique, at-risk earnings
-  through forced pursuit, the garage-after-escape gate, joint risk HUD and
-  exact terminal. The Burst *activation* command itself is `ACT-309`, whose
-  boundary does not own the reserve's filling rule.
+  only at-risk earnings through forced pursuit, the garage-after-escape gate,
+  joint risk HUD and exact terminal. Burst accumulation and settlement reuse
+  `SYS-765` and `SYS-691`; the activation command itself is `ACT-309`.
 
 ## Taxonomy impact
 
-- Registry changes: five new Active definitions; new Unbound support for
-  nineteen existing records, including `ACT-309`. Generic driving-event, Heat and result wording is
-  widened without changing any earlier reviewed signature.
-- Taxonomy-change record:
+- Registry changes: four game-introduced Active definitions and Unbound support
+  for twenty-one reused records, including `ACT-309`, `SYS-691` and `SYS-765`.
+- Taxonomy-change records:
   [`TAXONOMY_CHANGE_018`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_018.md)
-  merged this record's former `ACT-357` into `ACT-309`. No other game signature
-  changes.
+  merged this record's former `ACT-357` into `ACT-309`;
+  [`TAXONOMY_CHANGE_058`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_058.md)
+  splits former compound `SYS-641` into existing `SYS-765` and `SYS-691`.
+  No other game signature changes in the latter unit.
 - Candidate terms affected: Burst Nitrous, grip/drift gain, drafting, street
   race, buy-in, payout table, Heat, pursuit, search, bust, exposed cash and
   garage banking.
 
 ## Negative results
 
-- Rocket League's boost-pad system genes are rejected because Unbound fills
-  Burst through driving events rather than spatial pad pickup. `ACT-309` itself
-  is *not* rejected: `TAXONOMY_CHANGE_018` established that the spend command
-  does not own the reserve's acquisition rule, so this packet reuses `ACT-309`
-  and keeps the technique-earned filling in `SYS-641`.
+- Rocket League's coupled boost-pad pickup, recharge and directed-thrust system
+  remains rejected because Unbound fills Burst through driving manoeuvres and
+  has no spatial pad lifecycle. `ACT-309`, `SYS-765` and `SYS-691` are admitted:
+  the command, accumulation transition and spend settlement have independent
+  portable boundaries after `TAXONOMY_CHANGE_058` split historical `SYS-641`.
 - Forza campaign-point and Wristband genes are rejected because this one event
   ends before any Qualifier gate and admits no campaign threshold.
 - BeamNG soft-body and mission-recovery genes are rejected because Unbound uses
