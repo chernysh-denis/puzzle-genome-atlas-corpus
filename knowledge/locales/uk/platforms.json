@@ -1,0 +1,361 @@
+{
+  "version": "PLATFORM_LOCALE_UK_V1",
+  "platforms": {
+    "PLAT-3DO": {
+      "name": "3DO Interactive Multiplayer",
+      "shortName": "3DO"
+    },
+    "PLAT-ACORN-ARCHIMEDES": {
+      "name": "Acorn Archimedes",
+      "shortName": "Archimedes"
+    },
+    "PLAT-AMAZON-FIRE": {
+      "name": "Amazon Fire",
+      "shortName": "Fire"
+    },
+    "PLAT-AMIGA": {
+      "name": "Amiga",
+      "shortName": "Amiga"
+    },
+    "PLAT-AMIGA-CDTV": {
+      "name": "Commodore CDTV",
+      "shortName": "CDTV"
+    },
+    "PLAT-AMSTRAD-CPC": {
+      "name": "Amstrad CPC",
+      "shortName": "CPC"
+    },
+    "PLAT-ANDROID": {
+      "name": "Android",
+      "shortName": "Android"
+    },
+    "PLAT-APPLE-II": {
+      "name": "Apple II",
+      "shortName": "Apple II"
+    },
+    "PLAT-APPLE-IIGS": {
+      "name": "Apple IIGS",
+      "shortName": "IIGS"
+    },
+    "PLAT-APPLE-TV": {
+      "name": "Apple TV",
+      "shortName": "Apple TV"
+    },
+    "PLAT-ARCADE-CABINET": {
+      "name": "Аркадний автомат",
+      "shortName": "Аркада"
+    },
+    "PLAT-ATARI-JAGUAR-CD": {
+      "name": "Atari Jaguar CD",
+      "shortName": "Jaguar CD"
+    },
+    "PLAT-ATARI-LYNX": {
+      "name": "Atari Lynx",
+      "shortName": "Lynx"
+    },
+    "PLAT-ATARI-ST": {
+      "name": "Atari ST",
+      "shortName": "Atari ST"
+    },
+    "PLAT-BADA": {
+      "name": "Bada",
+      "shortName": "Bada"
+    },
+    "PLAT-BLACKBERRY": {
+      "name": "BlackBerry",
+      "shortName": "BlackBerry"
+    },
+    "PLAT-CHROMEOS": {
+      "name": "ChromeOS",
+      "shortName": "ChromeOS"
+    },
+    "PLAT-CLASSIC-MAC-OS": {
+      "name": "Класична Mac OS",
+      "shortName": "Mac OS"
+    },
+    "PLAT-COMMODORE-64": {
+      "name": "Commodore 64",
+      "shortName": "C64"
+    },
+    "PLAT-COMMODORE-PLUS-4": {
+      "name": "Commodore Plus/4",
+      "shortName": "Plus/4"
+    },
+    "PLAT-DESKTOP-CROSS-PLATFORM": {
+      "name": "Кросплатформна настільна система",
+      "shortName": "Настільна система"
+    },
+    "PLAT-DIGITAL-CROSS-PLATFORM": {
+      "name": "Кросплатформний цифровий набір правил",
+      "shortName": "Цифровий набір правил"
+    },
+    "PLAT-DOS": {
+      "name": "DOS",
+      "shortName": "DOS"
+    },
+    "PLAT-DREAMCAST": {
+      "name": "Dreamcast",
+      "shortName": "Dreamcast"
+    },
+    "PLAT-FAMICOM-DISK-SYSTEM": {
+      "name": "Famicom Disk System",
+      "shortName": "FDS"
+    },
+    "PLAT-FM-TOWNS": {
+      "name": "FM Towns",
+      "shortName": "FM Towns"
+    },
+    "PLAT-GAME-BOY-ADVANCE": {
+      "name": "Game Boy Advance",
+      "shortName": "GBA"
+    },
+    "PLAT-GAME-GEAR": {
+      "name": "Game Gear",
+      "shortName": "Game Gear"
+    },
+    "PLAT-GAMEBAND": {
+      "name": "Gameband",
+      "shortName": "Gameband"
+    },
+    "PLAT-IOS": {
+      "name": "iOS",
+      "shortName": "iOS"
+    },
+    "PLAT-IPADOS": {
+      "name": "iPadOS",
+      "shortName": "iPadOS"
+    },
+    "PLAT-JAVA": {
+      "name": "Віртуальна машина Java",
+      "shortName": "Java"
+    },
+    "PLAT-JAVA-ME": {
+      "name": "Java Platform, Micro Edition",
+      "shortName": "Java ME"
+    },
+    "PLAT-KAIOS": {
+      "name": "KaiOS",
+      "shortName": "KaiOS"
+    },
+    "PLAT-LINUX": {
+      "name": "Linux",
+      "shortName": "Linux"
+    },
+    "PLAT-MACOS": {
+      "name": "macOS",
+      "shortName": "macOS"
+    },
+    "PLAT-MAEMO": {
+      "name": "Maemo",
+      "shortName": "Maemo"
+    },
+    "PLAT-MEEGO": {
+      "name": "MeeGo",
+      "shortName": "MeeGo"
+    },
+    "PLAT-MOBILE-CROSS-PLATFORM": {
+      "name": "Кросплатформна мобільна система",
+      "shortName": "Мобільна система"
+    },
+    "PLAT-MS-X2": {
+      "name": "MSX2",
+      "shortName": "MSX2"
+    },
+    "PLAT-NEC-PC-8800": {
+      "name": "Серія NEC PC-8800",
+      "shortName": "PC-8800"
+    },
+    "PLAT-NEC-PC-9800": {
+      "name": "Серія NEC PC-9800",
+      "shortName": "PC-9800"
+    },
+    "PLAT-NEW-NINTENDO-3DS": {
+      "name": "New Nintendo 3DS",
+      "shortName": "New 3DS"
+    },
+    "PLAT-NINTENDO-3DS": {
+      "name": "Nintendo 3DS",
+      "shortName": "3DS"
+    },
+    "PLAT-NINTENDO-DS": {
+      "name": "Nintendo DS",
+      "shortName": "DS"
+    },
+    "PLAT-NINTENDO-ENTERTAINMENT-SYSTEM": {
+      "name": "Nintendo Entertainment System",
+      "shortName": "NES"
+    },
+    "PLAT-NINTENDO-GAMECUBE": {
+      "name": "Nintendo GameCube",
+      "shortName": "GameCube"
+    },
+    "PLAT-NINTENDO-SWITCH": {
+      "name": "Nintendo Switch",
+      "shortName": "Switch"
+    },
+    "PLAT-NINTENDO-SWITCH-2": {
+      "name": "Nintendo Switch 2",
+      "shortName": "Switch 2"
+    },
+    "PLAT-NINTENDO-WII": {
+      "name": "Nintendo Wii",
+      "shortName": "Wii"
+    },
+    "PLAT-NINTENDO-WII-U": {
+      "name": "Nintendo Wii U",
+      "shortName": "Wii U"
+    },
+    "PLAT-NOOK-COLOR": {
+      "name": "Nook Color",
+      "shortName": "Nook"
+    },
+    "PLAT-OUYA": {
+      "name": "Ouya",
+      "shortName": "Ouya"
+    },
+    "PLAT-PANDORA": {
+      "name": "Портативна Pandora",
+      "shortName": "Pandora"
+    },
+    "PLAT-PAPER": {
+      "name": "Паперовий набір правил",
+      "shortName": "Папір"
+    },
+    "PLAT-PC-UNSPECIFIED": {
+      "name": "ПК без уточненої операційної системи",
+      "shortName": "ПК"
+    },
+    "PLAT-PHILIPS-CD-I": {
+      "name": "Philips CD-i",
+      "shortName": "CD-i"
+    },
+    "PLAT-PHYSICAL-TABLETOP": {
+      "name": "Фізична настільна форма",
+      "shortName": "Настільна форма"
+    },
+    "PLAT-PLAYSTATION": {
+      "name": "PlayStation",
+      "shortName": "PS1"
+    },
+    "PLAT-PLAYSTATION-2": {
+      "name": "PlayStation 2",
+      "shortName": "PS2"
+    },
+    "PLAT-PLAYSTATION-3": {
+      "name": "PlayStation 3",
+      "shortName": "PS3"
+    },
+    "PLAT-PLAYSTATION-4": {
+      "name": "PlayStation 4",
+      "shortName": "PS4"
+    },
+    "PLAT-PLAYSTATION-5": {
+      "name": "PlayStation 5",
+      "shortName": "PS5"
+    },
+    "PLAT-PLAYSTATION-PORTABLE": {
+      "name": "PlayStation Portable",
+      "shortName": "PSP"
+    },
+    "PLAT-PLAYSTATION-VITA": {
+      "name": "PlayStation Vita",
+      "shortName": "PS Vita"
+    },
+    "PLAT-POCKET-PC": {
+      "name": "Pocket PC",
+      "shortName": "Pocket PC"
+    },
+    "PLAT-ROKU": {
+      "name": "Roku",
+      "shortName": "Roku"
+    },
+    "PLAT-SAM-COUPE": {
+      "name": "SAM Coupé",
+      "shortName": "SAM Coupé"
+    },
+    "PLAT-SEGA-GENESIS": {
+      "name": "Sega Genesis / Mega Drive",
+      "shortName": "Genesis"
+    },
+    "PLAT-SEGA-MASTER-SYSTEM": {
+      "name": "Sega Master System",
+      "shortName": "Master System"
+    },
+    "PLAT-SEGA-SATURN": {
+      "name": "Sega Saturn",
+      "shortName": "Saturn"
+    },
+    "PLAT-SERIES-40": {
+      "name": "Nokia Series 40",
+      "shortName": "Series 40"
+    },
+    "PLAT-SHARP-X68000": {
+      "name": "Sharp X68000",
+      "shortName": "X68000"
+    },
+    "PLAT-STANDALONE-ELECTRONIC": {
+      "name": "Автономна електронна гра",
+      "shortName": "Електронний пристрій"
+    },
+    "PLAT-SUPER-NINTENDO": {
+      "name": "Super Nintendo Entertainment System",
+      "shortName": "SNES"
+    },
+    "PLAT-SYMBIAN": {
+      "name": "Symbian",
+      "shortName": "Symbian"
+    },
+    "PLAT-TIZEN": {
+      "name": "Tizen",
+      "shortName": "Tizen"
+    },
+    "PLAT-TURBOGRAFX-16": {
+      "name": "TurboGrafx-16 / PC Engine",
+      "shortName": "TurboGrafx-16"
+    },
+    "PLAT-TVOS": {
+      "name": "tvOS",
+      "shortName": "tvOS"
+    },
+    "PLAT-VISIONOS": {
+      "name": "visionOS",
+      "shortName": "visionOS"
+    },
+    "PLAT-WEB-BROWSER": {
+      "name": "Веббраузер",
+      "shortName": "Браузер"
+    },
+    "PLAT-WEBOS": {
+      "name": "webOS",
+      "shortName": "webOS"
+    },
+    "PLAT-WINDOWS-PC": {
+      "name": "ПК із Windows",
+      "shortName": "Windows"
+    },
+    "PLAT-WINDOWS-PHONE": {
+      "name": "Windows Phone",
+      "shortName": "Windows Phone"
+    },
+    "PLAT-XBOX": {
+      "name": "Xbox",
+      "shortName": "Xbox"
+    },
+    "PLAT-XBOX-360": {
+      "name": "Xbox 360",
+      "shortName": "Xbox 360"
+    },
+    "PLAT-XBOX-ONE": {
+      "name": "Xbox One",
+      "shortName": "Xbox One"
+    },
+    "PLAT-XBOX-SERIES": {
+      "name": "Xbox Series X|S",
+      "shortName": "Xbox Series"
+    },
+    "PLAT-ZX-SPECTRUM": {
+      "name": "ZX Spectrum",
+      "shortName": "ZX Spectrum"
+    }
+  }
+}

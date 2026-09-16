@@ -137,6 +137,13 @@ gene instances but do not enter the signature.
 | `CIV6-010` | Diplomacy supports contact, relationships, deals, war and peace, while combat can defeat units or capture cities | Confirmed | Direct | High | P1 |
 | `CIV6-011` | Base-game Science Victory requires a Spaceport, Satellite, Moon Landing and all three Mars modules in order | Confirmed | Direct | High | P1, P2 |
 | `CIV6-012` | Trajan is the selected base-game Roman leader and founded Roman cities begin with the current City Center building entitlement | Confirmed | Corroborated | High | P3, P4 |
+| `CIV6-013` | The analysed target is the historical launch/base-game PC ruleset documented by the 25th Anniversary manual, not an unspecified cross-platform or current-patch ruleset | Confirmed | Direct | High | P1, P2 |
+| `CIV6-014` | Gathering Storm adds an active climate system and a future-era extension to both research trees, so it is a distinct ruleset rather than a target parameter | Confirmed | Direct | High | P2 |
+| `CIV6-015` | Desktop multiplayer compatibility depends on operating system, storefront and synchronized versions; the Mac App Store client is limited to hotseat and LAN | Confirmed | Direct | High | P9, P10 |
+| `CIV6-016` | Nintendo Switch bundles four additional civilization/scenario packs, supports local-wireless play for four and exposes hybrid plus touch operation | Confirmed | Direct | High | P11 |
+| `CIV6-017` | PlayStation 4 and Xbox One bundle the same four additional packs and publish online multiplayer for up to four players | Confirmed | Corroborated | High | P12, P13 |
+| `CIV6-018` | The August 2024 iOS support line uses a separate 60-turn/full-purchase path, compact touch UI without controllers, LAN-only multiplayer and My2K cloud saves | Confirmed | Direct | High | P8 |
+| `CIV6-019` | Android has a separately purchased and dated content/save boundary; its June 2025 patch adds free-update systems without establishing full New Frontier Pass ownership or current crossplay parity | Confirmed | Corroborated | High | P6, P7 |
 
 ## Basic data
 
@@ -159,9 +166,25 @@ gene instances but do not enter the signature.
     for Trajan as default Roman leader and his founded-city building effect.
   - **[P5]** [Steam product page](https://store.steampowered.com/app/289070/Sid_Meiers_Civilization_VI/),
     for the reviewed PC product, release and base-game/DLC distinction.
+  - **[P6]** [Aspyr Android FAQ](https://support.aspyr.com/hc/en-us/articles/360047236092-Civilization-VI-Android-FAQ),
+    for the dated mobile purchase, content, multiplayer and save matrix.
+  - **[P7]** [Aspyr June 2025 Android patch](https://support.aspyr.com/hc/en-us/articles/37325767431309-Civilization-VI-Android-Update-Patch-Notes-June-2025),
+    for the later Android ruleset additions and the unresolved multiplayer wording.
+  - **[P8]** [Aspyr iOS FAQ](https://support.aspyr.com/hc/en-us/articles/115005650223-Civilization-VI-iOS-FAQ),
+    for the 27 August 2024 purchase, interface, controller, LAN and cloud-save boundary.
+  - **[P9]** [Aspyr Mac FAQ](https://support.aspyr.com/hc/en-us/articles/213487546-Civilization-VI-Mac-FAQ),
+    for Steam version-gated crossplay, Mac App Store multiplayer and add-on packaging.
+  - **[P10]** [Aspyr Linux FAQ](https://support.aspyr.com/hc/en-us/articles/360020392091-Civilization-VI-Linux-FAQ),
+    for Steam version-gated Windows interoperability and the Epic exclusion.
+  - **[P11]** [Nintendo Switch product](https://www.nintendo.com/es-ar/store/products/sid-meiers-civilization-vi-switch/),
+    for bundled content, local wireless, play modes, touch and Switch 2 compatibility.
+  - **[P12]** [PlayStation product](https://store.playstation.com/en-us/concept/233594),
+    for the PS4 bundle and online-player capacity.
+  - **[P13]** [Xbox product](https://www.xbox.com/en-US/games/store/sid-meiers-civilization-vi/9N4RSG99KV1X/0010),
+    for the Xbox One bundle, online-player capacity and Xbox Series X|S host listing.
 - Reproducible control: **[V1]** repository-side transition trace across
   `P1`–`P5` under the declared setup and seeds; rules reasoning, not a direct-play claim.
-- Claim IDs: `CIV6-001`–`CIV6-012`.
+- Claim IDs: `CIV6-001`–`CIV6-019`.
 
 ## Mechanical decomposition
 
@@ -333,6 +356,30 @@ gene instances but do not enter the signature.
 - Important difference: the scoped game makes map geometry, population
   allocation and two concurrent research currencies converge on one explicitly
   ordered interplanetary project race.
+- Platform variants do not form one current ruleset. Gathering Storm changes
+  the climate and research dependency surface; desktop network access depends
+  on storefront and synchronized versions; Switch and home-console products
+  add bundled scenarios and different multiplayer surfaces; iOS and Android
+  retain separately dated purchase, interface and save boundaries.
+
+## Platform-variant review notes
+
+- The canonical target is corrected to the historical PC launch/base-game
+  rules documented by the 25th Anniversary manual. Its five-project Mars
+  route and all fifty-seven genes remain unchanged; no later expansion,
+  mobile interface or multiplayer surface is unioned into that genome.
+- The frozen release catalogue retains all eight non-target records as
+  `unassessed`. The sparse review records six bounded variants and twenty
+  evidence-backed differences without reclassifying those coarse records.
+- Nintendo Switch 2 and Xbox Series X|S appear only as compatibility hosts in
+  exact variant boundaries. They do not create new native release records.
+- Aspyr's May 2023 Android FAQ denies general online multiplayer, while the
+  June 2025 patch mentions multiplayer enhancements and matchmaking without a
+  replacement compatibility matrix. The review preserves the dated facts and
+  leaves wider current Android crossplay unassessed.
+- No claim is made that every patch, DLC, balance revision, map size,
+  storefront, region, performance profile, service state or historical build
+  has been audited.
 
 ## Normalised genome
 

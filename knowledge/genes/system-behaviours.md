@@ -5767,23 +5767,28 @@
 - Evidence: [Palworld decomposition](../games/m-r/palworld.md).
 - Novelty: not assessed.
 
-## SYS-312 — Advance material-backed crafting and construction workload
+## SYS-312 — Advance material-backed crafting or construction completion
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: supplied player or companion work accumulates against a selected
-  recipe or construction workload and, when complete, consumes its reserved
-  materials and emits the declared item or persistent structure.
+- Definition: accepted material supply and any required player or companion
+  work accumulate against a selected recipe or construction requirement;
+  materials are consumed at their declared acceptance or completion step, and
+  satisfying every requirement emits the declared item or persistent structure.
 - Includes: Palworld workbench crafting and structure construction by the
-  player or a Handiwork-capable Pal.
+  player or a Handiwork-capable Pal; The Forest replacing a fully supplied
+  Temporary Shelter outline with the usable shelter.
 - Excludes: spatial-grid crafting; a continuously operating automated recipe;
   free placement with no material/work cost.
 - Parameters: recipe or plan, ingredients, workload, contributor, work speed,
   completion and output.
-- Evidence: [Palworld decomposition](../games/m-r/palworld.md).
-- Novelty: not assessed.
+- Evidence: [Palworld decomposition](../games/m-r/palworld.md) and
+  [The Forest decomposition](../games/s-z/the-forest.md).
+- Novelty: work-only wording and completion-time-only material consumption were
+  generalised as carrier parameters by
+  [`TAXONOMY_CHANGE_069`](../../research/taxonomy-changes/TAXONOMY_CHANGE_069.md).
 
 ## SYS-313 — Generate and preserve an explorable survival world
 
@@ -6047,20 +6052,23 @@
   and [Valheim decomposition](../games/s-z/valheim.md).
 - Novelty: not assessed.
 
-## SYS-327 — Advance metabolism and environmental exposure
+## SYS-327 — Advance personal survival reserves and environmental exposure
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the system continuously updates health, calories, hydration,
-  temperature, fatigue and radiation from activity, rest, consumed resources,
-  equipment and the avatar's current environment.
+- Definition: the system continuously updates health and the ruleset's personal
+  survival reserves or environmental exposures — such as hunger, blood reserve,
+  hydration, temperature, fatigue, radiation or sunlight — from activity, rest,
+  consumed resources, equipment and the avatar's current environment.
 - Includes: Rust hunger, thirst, wetness, heat, cold and radiation survival;
-  The Long Dark's Warmth, Fatigue, Thirst, Hunger and Condition loop.
+  The Long Dark's Warmth, Fatigue, Thirst, Hunger and Condition loop; V Rising
+  blood reserve plus direct-sun exposure and shade recovery.
 - Excludes: building decay; equipment durability; direct hostile damage.
-- Parameters: health, calories, hydration, temperature, fatigue, wetness,
-  radiation, protection, activity, rest and recovery.
+- Parameters: health, nutrition or blood reserve, hydration, temperature,
+  fatigue, wetness, radiation or sunlight exposure, protection, activity, rest
+  and recovery.
 - Evidence: [Rust decomposition](../games/m-r/rust.md) and
   [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
 - Additional support: [DayZ decomposition](../games/a-f/dayz.md), for the
@@ -6069,7 +6077,9 @@
   for a distinct Fatigue need that activity and sleep decrease or restore while
   the same environment updates the other survival state.
 - Novelty: not assessed. The fatigue-and-rest generalisation was accepted in
-  [`TAXONOMY_CHANGE_053`](../../research/taxonomy-changes/TAXONOMY_CHANGE_053.md).
+  [`TAXONOMY_CHANGE_053`](../../research/taxonomy-changes/TAXONOMY_CHANGE_053.md);
+  blood reserve and sunlight were accepted in
+  [`TAXONOMY_CHANGE_071`](../../research/taxonomy-changes/TAXONOMY_CHANGE_071.md).
 
 ## SYS-328 — Resolve the personal crafting queue
 
@@ -6136,21 +6146,28 @@
 - Evidence: [Rust decomposition](../games/m-r/rust.md).
 - Novelty: not assessed.
 
-## SYS-332 — Consume upkeep and decay unprotected building material
+## SYS-332 — Consume an ownership-core reserve and decay unprotected construction
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: the server charges each connected Tool Cupboard for protected
-  material grades and, when a required material is absent, damages exposed
-  blocks of that grade from outer layers toward the core.
-- Includes: Rust 24-hour upkeep display, grade-specific shortages and decay.
+- Definition: live world time consumes the declared reserve held by a connected
+  ownership core; while coverage exists it powers or protects the associated
+  construction, and when required reserve is absent that protection lapses and
+  eligible structures become inactive or decay under the ruleset's order.
+- Includes: Rust 24-hour Tool Cupboard upkeep, grade-specific shortages and
+  decay; V Rising Castle Heart Blood Essence drain, loss of castle power and
+  decay exposure when the Heart runs dry.
 - Excludes: raid damage; tool durability; world wipe deletion.
-- Parameters: building, grades, upkeep rate, TC inventory, protected duration,
-  exposed layer, interval and damage.
-- Evidence: [Rust decomposition](../games/m-r/rust.md).
-- Novelty: not assessed.
+- Parameters: building or territory, ownership core, reserve type, protected
+  classes, rate, stored quantity, protected duration, interval, inactive state,
+  decay order and damage.
+- Evidence: [Rust decomposition](../games/m-r/rust.md) and
+  [V Rising decomposition](../games/s-z/v-rising.md).
+- Novelty: generalised beyond one Tool Cupboard and material-grade policy by
+  [`TAXONOMY_CHANGE_071`](../../research/taxonomy-changes/TAXONOMY_CHANGE_071.md);
+  reserve-backed protection and its shortage consequence remain invariant.
 
 ## SYS-333 — Preserve authoritative world and sleepers while players are absent
 
@@ -6739,7 +6756,8 @@
   reaction, vehicle availability and despawn horizon.
 - Evidence: [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md),
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
-  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
+  [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md),
+  plus [Ori and the Will of the Wisps decomposition](../games/m-r/ori-and-the-will-of-the-wisps.md).
 - Novelty: not assessed.
 
 ## SYS-366 — Escalate crime into wanted pursuit and timed search
@@ -6800,30 +6818,36 @@
 - Evidence: [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md).
 - Novelty: not assessed.
 
-## SYS-369 — Restore an authored mission checkpoint after failure
+## SYS-369 — Restore an authored checkpoint after failure
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: when the controlled protagonist dies, is arrested or violates a
-  declared mission-critical condition, the current attempt ends and a chosen
-  retry restores the latest authored checkpoint state rather than preserving
-  the failed world's transient damage and positions.
+  declared critical condition, the current attempt ends and an automatic
+  return or chosen retry restores the latest authored checkpoint state rather
+  than preserving the failed world's transient damage and positions.
 - Includes: Grand Theft Auto V Story Mode mission `Wasted`, `Busted`, abandoned
   target, destroyed asset and restart-from-checkpoint outcomes; Cyberpunk 2077
   critical-job death or failure followed by retry from an authored checkpoint;
-  Need for Speed Payback Highway Heist critical-stage failure and retry.
+  Need for Speed Payback Highway Heist critical-stage failure and retry; Ori
+  and the Will of the Wisps lethal failure returning to a recent automatic
+  checkpoint during the scoped opening route.
 - Excludes: free-roam hospital recovery outside the scoped mission route;
   permanent save deletion; replaying a completed mission for a medal.
 - Parameters: failure reason, checkpoint, restored actors, vehicles, inventory,
-  mission variables and retry choice.
+  authored variables, automatic or chosen return and retry choice.
 - Evidence: [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md),
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), and
   [Need for Speed Payback decomposition](../games/m-r/need-for-speed-payback.md).
 - Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
   for `Continue` after game over restoring the most recent auto or manual save data.
 - Novelty: not assessed.
+- Change note: mission-only and chosen-retry wording was generalised by
+  [`TAXONOMY_CHANGE_070`](../../research/taxonomy-changes/TAXONOMY_CHANGE_070.md)
+  after Ori supplied an automatic non-mission checkpoint carrier without
+  changing the restoration boundary or earlier signatures.
 
 ## SYS-370 — Resolve heist plan and crew proficiency into take
 
@@ -7774,7 +7798,7 @@
 - Definition: the Eye of Cthulhu alternates servant summoning, hovering and
   charge sequences until its health threshold transforms it into a faster
   second phase, then yields defeat drops or escapes when the legal night ends.
-- Includes: Terraria 1.4.5.6 Classic first Eye of Cthulhu fight.
+- Includes: Terraria 1.4.5.8 Classic first Eye of Cthulhu fight.
 - Excludes: generic direct-hit arithmetic; later bosses; Expert or Master-only
   attack additions.
 - Parameters: health, phase threshold, servant count, charge cadence, target,
@@ -12834,25 +12858,35 @@
   resource becomes observable through behaviour and recoverable through an
   interruptible world interaction.
 
-## SYS-688 — Degrade and restore close-range sharpness
+## SYS-688 — Degrade and restore a close-range weapon maintenance gauge
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: repeated eligible close-range attacks reduce the equipped
-  weapon's sharpness and increase deflection exposure; completing the legal
-  whetstone action restores the gauge without replacing or upgrading the
-  weapon.
-- Includes: `Hunter's Knife I` sharpness loss and whetstone restoration in the
-  scoped Monster Hunter: World assignment.
-- Excludes: ammunition consumption; permanent weapon durability; smithy
-  improvement; a cosmetic blade-colour change.
-- Parameters: weapon, attack, sharpness tier, decrement, deflection, whetstone,
-  maintenance completion and restored gauge.
+- Definition: eligible close-range attacks, guards or declared combat effects
+  reduce the equipped weapon's cycling maintenance gauge and change its combat
+  performance or break exposure; completing the legal reusable field-
+  maintenance action restores the gauge without replacing or upgrading the
+  weapon, while the zero-state exception remains a parameter.
+- Includes: `Hunter's Knife I` sharpness loss, increased deflection exposure and
+  whetstone restoration in the scoped Monster Hunter: World assignment; attack-
+  and guard-driven weapon Durability loss, lower-durability performance,
+  reusable Grinder restoration and Stargazer repair in Lies of P's scoped
+  opening.
+- Excludes: ammunition consumption; irreversible equipment destruction; a
+  finite repair kit as the only restoration source; smithy improvement; a
+  cosmetic blade-colour change.
+- Parameters: weapon, degrading event, gauge label, tier or value, decrement,
+  performance modifier, zero state, reusable tool, checkpoint restoration,
+  maintenance completion and restored amount.
 - Evidence: [Monster Hunter: World decomposition](../games/m-r/monster-hunter-world.md).
 - Novelty: first isolated for `GAME-0207`; one retained weapon cycles between
   attack-driven degradation and live field restoration inside the same hunt.
+- Change note: wording generalised by
+  [`TAXONOMY_CHANGE_068`](../../research/taxonomy-changes/TAXONOMY_CHANGE_068.md)
+  after Lies of P demonstrated the same cycling close-weapon maintenance loop
+  under a Durability label and an explicit zero-state repair exception.
 
 ## SYS-689 — Resolve hostile-vehicle contact into a counted wreck
 
@@ -16589,3 +16623,251 @@
   [`TAXONOMY_CHANGE_067`](../../research/taxonomy-changes/TAXONOMY_CHANGE_067.md);
   the lock can remain closed while charge exists and can clear without adding
   charge, so it is independent of both settlement and replenishment.
+
+## SYS-854 — Resolve typed combat affinity into damage and defeat
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a legal turn-combat attack compares its declared type with the
+  target's affinity, applies the resulting damage modifier and status, reduces
+  health and removes a combatant when its defeat boundary is reached.
+- Includes: physical and Persona-skill attacks against Shadows during Persona 5
+  Royal's bounded 11–12 April Palace route, including increased damage and
+  `Down` when a discovered weakness is struck.
+- Excludes: selecting the skill or target; the extra player action awarded after
+  weakness knockdown (`SYS-855`); live collision combat; later negotiation,
+  Hold Up or All-Out Attack settlement.
+- Parameters: attacker, attack or skill, damage type, target, affinity, damage,
+  health, status, defeat boundary and remaining encounter set.
+- Evidence: [Persona 5 Royal decomposition](../games/m-r/persona-5-royal.md).
+- Novelty: first isolated for `GAME-0291`; earlier typed-combat owners bind
+  damage to a product-specific roll, layer, surface or live-contact system and
+  do not make target affinity the portable turn-combat modifier.
+
+## SYS-855 — Grant another action after weakness knockdown
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when the acting player character knocks a living enemy down by
+  striking its weakness, the system immediately grants that character another
+  combat action; repeating the condition on another standing enemy can extend
+  the chain before ordinary turn progression resumes.
+- Includes: Persona 5 Royal's `1 More` tutorial during the first Kamoshida
+  Palace visit on 11 April.
+- Excludes: the affinity-modified damage and `Down` result itself (`SYS-854`);
+  an extra action from a consumable buff; Baton Pass; Hold Up; All-Out Attack;
+  a full additional round for the party.
+- Parameters: acting character, target, weakness result, down state, granted
+  action, chain continuation, already-down exception and return to turn order.
+- Evidence: [Persona 5 Royal decomposition](../games/m-r/persona-5-royal.md).
+- Novelty: first isolated for `GAME-0291`; the additional action is a contingent
+  reward that changes the current turn sequence, not merely part of typed
+  damage or a parameter of the base action budget.
+
+## SYS-856 — Replace the personal blood profile after completed feeding
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when an eligible feeding channel completes, the system defeats
+  the source, refills the actor's personal blood reserve and replaces its
+  current blood type, quality and associated passive-effect profile with the
+  source's exposed values.
+- Includes: feeding or ending with Bite on an eligible weakened living target
+  during V Rising's bounded opening.
+- Excludes: ordinary attack damage; collecting Blood Essence as world loot;
+  healing without changing blood type; stacking two blood profiles; feeding on
+  a corpse or non-blood-bearing object.
+- Parameters: source, living state, threshold, channel completion, kill result,
+  reserve amount, old and new blood type, quality and passive effects.
+- Evidence: [V Rising decomposition](../games/s-z/v-rising.md).
+- Novelty: first isolated for `GAME-0294`; feeding changes a survival reserve
+  and atomically replaces a typed passive profile rather than merely consuming
+  food, healing or collecting an inventory resource.
+
+## SYS-857 — Claim one predefined build territory from its ownership core
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: accepted placement of a territorial ownership core converts one
+  predefined unowned build region into persistent ownership for the placing
+  identity and authorises compatible connected construction within that region.
+- Includes: a V Rising Castle Heart claiming one available Build Location and
+  enabling the bounded early castle construction there.
+- Excludes: free-form radius projection from any foundation; founding a city;
+  surveying or claiming a stellar system; configuring later co-owner or clan
+  credentials; paying the core's continuing reserve.
+- Parameters: identity, ownership core, predefined region, prior owner, claim
+  event, construction authority, connection rule and persistence boundary.
+- Evidence: [V Rising decomposition](../games/s-z/v-rising.md).
+- Novelty: first isolated for `GAME-0294`; the core claims an authored whole
+  build territory, unlike Rust's connected-block projection and Stellaris's
+  surveyed mobile outpost project.
+
+## SYS-858 — Deplete and replenish a directed levitation reserve
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: upward movement spends one bounded personal flight reserve while
+  release or supported contact replenishes it, and exhaustion returns the actor
+  to gravity-driven descent until enough reserve recovers.
+- Includes: Noita's bounded levitation during the scoped first-Mines descent.
+- Excludes: an unlimited jump; fixed-wing aerodynamics; stamina-bounded gripping
+  of a surface; a powered mode whose reserve also funds unrelated abilities.
+- Parameters: lift input, horizontal steering, capacity, depletion rate,
+  replenishment rate, support state, gravity and exhausted descent.
+- Evidence: [Noita decomposition](../games/m-r/noita.md).
+- Novelty: first isolated for `GAME-0296`; the reserve continuously buys
+  unsupported vertical locomotion and restores outside that locomotion.
+
+## SYS-859 — Execute a wand's spell sequence under casting statistics
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: activating one wand draws its next declared spell group in fixed
+  or shuffled order, pays spell mana, applies the wand and spell modifiers, and
+  advances cast delay and recharge before the next legal activation.
+- Includes: firing the two generated starting wands and any carried replacement
+  wand during Noita's scoped first-Mines descent.
+- Excludes: editing a wand's spell slots; a weapon with one fixed projectile;
+  casting a visible card onto a priority stack; selecting the active wand.
+- Parameters: shuffle state, spell order, spells per cast, mana capacity and
+  recharge, cast delay, recharge time, spread, speed and spell modifiers.
+- Evidence: [Noita decomposition](../games/m-r/noita.md).
+- Novelty: first isolated for `GAME-0296`; the portable weapon is an executable
+  ordered or shuffled composition whose own timing and mana govern each shot.
+
+## SYS-860 — Resolve contact conversion between simulated materials
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when compatible simulated material cells contact one another, the
+  declared reaction consumes or replaces reactants with product material while
+  preserving the resulting local geometry and flow state.
+- Includes: water converting contacted toxic sludge into water during Noita's
+  scoped first-Mines descent.
+- Excludes: heat-threshold phase change; a crafting recipe; cosmetic colour
+  blending; damage that leaves both materials unchanged.
+- Parameters: reactants, contact amount, conversion rate, products, by-products,
+  temperature predicate and spatial update order.
+- Evidence: [Noita decomposition](../games/m-r/noita.md).
+- Novelty: first isolated for `GAME-0296`; the outcome belongs to the contacted
+  substances in the live world rather than to an inventory recipe or actor.
+
+## SYS-861 — Apply contacted material as a timed actor stain
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: contact with eligible liquid or particulate material coats an
+  actor by a visible amount, applies the material's declared status while the
+  stain remains, and lets later washing, replacement or drying reduce it.
+- Includes: Noita's Wet protection, toxic-sludge harm and washing a harmful
+  stain with water in the scoped first-Mines descent.
+- Excludes: a permanent equipment property; instantaneous contact damage with
+  no retained coating; an invisible disease; world-material conversion alone.
+- Parameters: material, contact area, stain amount, status, damage or protection,
+  replacement priority, wash rate and drying rate.
+- Evidence: [Noita decomposition](../games/m-r/noita.md).
+- Novelty: first isolated for `GAME-0296`; a movable world substance becomes a
+  temporary actor state that another substance can visibly replace.
+
+## SYS-862 — Propagate ignition through flammable simulated material
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an eligible heat or flame source ignites contacted flammable
+  material, fire spreads through compatible nearby material, and water or an
+  incompatible wet state extinguishes the burning region or actor.
+- Includes: burning wood, oil and stained actors, plus water extinguishing fire,
+  during Noita's scoped first-Mines descent.
+- Excludes: a building-only burn timer; decorative flame; instantaneous blast
+  damage; material conversion that does not create a propagating fire state.
+- Parameters: ignition source, flammability, spread neighbourhood, burn rate,
+  heat, damage, fuel exhaustion, wet predicate and extinguishing material.
+- Evidence: [Noita decomposition](../games/m-r/noita.md).
+- Novelty: first isolated for `GAME-0296`; fire advances cell by cell through a
+  simulated material field and is interrupted by another material state.
+
+## SYS-863 — Remove simulated terrain cells under an admitted effect
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an admitted projectile, explosion or material effect removes or
+  displaces affected mutable terrain cells according to their resistance,
+  immediately changing collision, flow paths and traversable local geometry.
+- Includes: starting-wand projectiles or explosives opening granular and soft
+  terrain during Noita's scoped first-Mines descent.
+- Excludes: harvesting a targeted tile into an eligible inventory drop;
+  damaging one discrete durable prop; bounded match-only ground deformation;
+  visual debris that leaves collision unchanged.
+- Parameters: material, effect type, resistance, affected cells, displacement,
+  debris, collision update, fluid opening and attempt persistence.
+- Evidence: [Noita decomposition](../games/m-r/noita.md).
+- Novelty: first isolated for `GAME-0296`; destruction addresses the live
+  material field rather than a discrete object or harvestable tile.
+
+## SYS-864 — Spend and independently recharge reusable ability units
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: committing an eligible active ability exhausts its declared
+  number of ready units from a small shared personal pool, starts an
+  action-specific recovery timer on each spent unit and restores each unit to
+  ready state independently when its timer completes.
+- Includes: MONSTER HUNTER RISE Wirebug Gauge units spent by Wiredash,
+  weapon-specific Silkbind and Wirefall during the scoped first Village hunt;
+  capturing one ordinary wild Wirebug temporarily increases the pool by one.
+- Excludes: one continuous stamina bar; ammunition; a single global cooldown;
+  an ability with its own unrelated charge pool; permanent capacity growth;
+  Sunbreak Morphed Wirebug effects.
+- Parameters: pool owner, base capacity, temporary unit, ability, units spent,
+  per-action recovery duration, concurrent timers, ready state and expiry.
+- Evidence: [MONSTER HUNTER RISE decomposition](../games/m-r/monster-hunter-rise.md),
+  using Capcom's official Wirebug Action manual.
+- Novelty: first isolated for `GAME-0297`; the same small set of individually
+  recovering units funds traversal, weapon capability and knockback recovery,
+  so the next commitment depends on which prior action started each timer.
+
+## SYS-865 — Convert contacted endemic life into a capped quest-duration statistic
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: contact with an eligible endemic creature removes or marks that
+  creature acquired, raises its declared personal statistic by an amount
+  defined by equipped gear, caps the accumulated increase at that gear's
+  declared limit and clears the increase when the current quest ends.
+- Includes: a green Spiribird increasing maximum health under the equipped
+  Petalace during MONSTER HUNTER RISE's scoped first Village hunt.
+- Excludes: a carried inventory pickup; permanent character progression; score
+  credit; a healing item that restores current health without changing its
+  quest maximum; collecting every endemic helper on a route.
+- Parameters: creature, contact, statistic, gear, increment, current bonus,
+  cap, quest lifetime, duplicate contact and quest-end reset.
+- Evidence: [MONSTER HUNTER RISE decomposition](../games/m-r/monster-hunter-rise.md),
+  using Capcom's official Petalace and Spiribird manual.
+- Novelty: first isolated for `GAME-0297`; the contacted world actor changes a
+  personal quest-duration bound through an equipped cap rather than entering
+  inventory or crediting abstract collection progress.

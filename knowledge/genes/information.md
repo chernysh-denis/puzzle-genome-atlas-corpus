@@ -3164,7 +3164,7 @@
 - Definition: the character-bound minimap retains the brightest explored tile
   state, updates later visible terrain mutations and marks known spawn points,
   town NPCs, bosses and the most recent death location.
-- Includes: Terraria 1.4.5.6 portrait, overlay and full-screen minimap modes.
+- Includes: Terraria 1.4.5.8 portrait, overlay and full-screen minimap modes.
 - Excludes: unreached dark terrain; another character's map history; exact
   future spawns or hidden chest contents.
 - Parameters: explored brightness, tile update, character map, icon class,
@@ -6573,3 +6573,106 @@
   [`TAXONOMY_CHANGE_066`](../../research/taxonomy-changes/TAXONOMY_CHANGE_066.md);
   the discrete remaining requirement transfers independently of how a critical
   opportunity is created or exposed.
+
+## INF-336 — Calendar date and current day period are visible
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the campaign interface exposes the current calendar date and its
+  active authored day period before the player commits the next available
+  activity, traversal or story action.
+- Includes: Persona 5 Royal's April date, weekday and current school,
+  after-school or evening segment during the bounded 9–12 April opening.
+- Excludes: a complete future schedule; exact hidden event triggers; a survival
+  clock coupled to food, crops, utilities or weather (`INF-136`); an external
+  elapsed-time result.
+- Parameters: calendar system, date, weekday, period, current activity and
+  transition cue.
+- Evidence: [Persona 5 Royal decomposition](../games/m-r/persona-5-royal.md).
+- Novelty: first isolated for `GAME-0291`; earlier time displays either bundle
+  the date with simulation resources or expose deadlines and results rather
+  than the authored campaign segment itself.
+
+## INF-337 — Wand inspection exposes spell sequence and casting statistics
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the carried-wand surface shows slot contents and order together
+  with shuffle state, spells per cast, mana, cast delay and recharge statistics
+  before the player selects or fires that wand.
+- Includes: inspecting both starting wands and any replacement during Noita's
+  scoped first-Mines descent.
+- Excludes: hidden future wand generation; Holy Mountain spell editing; a
+  generic weapon damage number without an executable spell composition.
+- Parameters: wand, slots, spell order, shuffle, spells per cast, mana maximum,
+  mana recharge, cast delay, recharge time, spread and current selection.
+- Evidence: [Noita decomposition](../games/m-r/noita.md).
+- Novelty: first isolated for `GAME-0296`; one information surface exposes both
+  a portable program sequence and the statistics that schedule its execution.
+
+## INF-338 — Local material and current stain state are visible
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the live view identifies aimed or contacted world material and
+  exposes the actor's current material-derived stain or status with its visible
+  remaining amount before the next movement or application decision.
+- Includes: distinguishing water, toxic sludge and burning material and reading
+  Wet, toxic or On Fire state during Noita's scoped first-Mines descent.
+- Excludes: unrevealed off-screen substances; hidden alchemical recipes; a
+  generic health bar; inventory capacity without world-material identity.
+- Parameters: cursor or contact target, material name, colour, stain name,
+  percentage or duration, status icon and update cadence.
+- Evidence: [Noita decomposition](../games/m-r/noita.md).
+- Novelty: first isolated for `GAME-0296`; the surface joins world-substance
+  identity to the temporary bodily coating created from that substance.
+
+## INF-339 — Current large-monster positions are visible before species identification
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: from quest start the field map exposes the current position of
+  each present large monster, using a generic mark until first encounter or
+  retained prior knowledge reveals its species-specific icon.
+- Includes: MONSTER HUNTER RISE's map during the scoped first Great Izuchi
+  Village hunt, where current large-monster position does not require trace
+  collection.
+- Excludes: evidence-fed scoutfly acquisition and route updates (`INF-158`);
+  exact hidden health; small-monster positions; an external map guide; hidden
+  species identity before the game reveals it.
+- Parameters: quest, large monster, current position, common icon, encounter,
+  known identity, specific icon, movement update and map visibility.
+- Evidence: [MONSTER HUNTER RISE decomposition](../games/m-r/monster-hunter-rise.md),
+  using Capcom's official map support guidance.
+- Novelty: first isolated for `GAME-0297`; location is immediately disclosed
+  even when identity is not, unlike tracking systems whose position or route
+  becomes available only after collected evidence.
+
+## INF-340 — Each shared ability unit's ready or recovering state is visible
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the live interface separately represents every unit in a small
+  shared ability pool and visibly distinguishes ready units from units still
+  progressing through their individual recovery.
+- Includes: MONSTER HUNTER RISE's Wirebug Gauge during Wiredash, Long Sword
+  Silkbind and Wirefall in the scoped first Village hunt.
+- Excludes: one undivided stamina bar; hidden cooldowns; ammunition count; an
+  ability list that shows only binary global readiness.
+- Parameters: pool, unit count, ready state, recovering state, progress,
+  temporary extra unit, expiry and display cadence.
+- Evidence: [MONSTER HUNTER RISE decomposition](../games/m-r/monster-hunter-rise.md),
+  using Capcom's official Wirebug Action and game-screen manual.
+- Novelty: first isolated for `GAME-0297`; the display lets the player reserve
+  one unit for recovery while another independently recharges after a
+  different movement or combat commitment.

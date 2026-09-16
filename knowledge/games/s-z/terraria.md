@@ -58,7 +58,7 @@ gene_ids:
 
 ## Analysis scope
 
-- Version / ruleset: Desktop `1.4.5.6`, single-player, one new Classic
+- Version / ruleset: Desktop `1.4.5.8`, single-player, one new Classic
   character in one new small Classic world with random Corruption/Crimson and
   no special world seeds. The route starts at character/world creation and ends
   after the first Eye of Cthulhu defeat and the eligible Dryad's arrival in a
@@ -67,25 +67,26 @@ gene_ids:
   reachable mining and tile/wall/furniture placement; item drops, pickup,
   storage and stack limits; 1.4.5 immediate crafting and nearby-station/chest
   context; town housing and milestone-gated NPC arrival; purchases; Life
-  Crystals; healing and Potion Sickness; real-time combat; Classic coin loss and
-  respawn; explored minimap; day/night ecology; manual or natural Eye entry,
-  two-phase combat, dawn escape and post-boss Dryad eligibility.
+  Crystals; healing and Potion Sickness; real-time combat; Classic coin loss,
+  optional low-danger respawn-timer skip and persistent-world respawn; explored
+  minimap; day/night ecology; manual or natural Eye entry, two-phase combat,
+  dawn escape and post-boss Dryad eligibility.
 - Excluded: Journey, Expert, Master, Mediumcore and Hardcore; multiplayer;
   secret or combined seeds; cross-world character transfer; King Slime and all
   later bosses, biomes and progression; Hardmode; fishing, wiring, pylons,
   invasions, exhaustive recipes, equipment, NPC happiness and bestiary completion.
-- Direct-play status: not conducted. The official Terraria Wiki's current
-  versioned rules, source-derived mechanics and reproducible guides establish
-  the scoped transitions.
+- Direct-play status: not conducted. Re-Logic's current release notes and the
+  official Terraria Wiki's versioned rules, source-derived mechanics and
+  reproducible guides establish the scoped transitions.
 
 ## Claim ledger
 
 | ID | Claim | Status | Evidence | Confidence | Sources |
 |---|---|---|---|---|---|
-| `TRR-001` | Desktop 1.4.5.6 is the scoped current version and a seed determines a finite Classic world's terrain, layers, biomes, ores and structures | Confirmed | Corroborated | High | P1, P2, P3 |
+| `TRR-001` | Desktop 1.4.5.8 is the scoped current version and a seed determines a finite Classic world's terrain, layers, biomes, ores and structures | Confirmed | Corroborated | High | P1, P2, P3 |
 | `TRR-002` | The character directly moves, selects a hotbar item, mines reachable mutable tiles with compatible tools and places carried blocks, walls or furniture into legal supported cells | Confirmed | Corroborated | High | P4, P5, P6 |
 | `TRR-003` | The 1.4.5 crafting window exposes recipes supported by eligible inventories and nearby stations; commitment consumes inputs and immediately emits output rather than scheduling a timed queue | Confirmed | Corroborated | High | P7, P8 |
-| `TRR-004` | Inventory slots and stacks bound pickup; armour/accessory placement changes the active build; Classic death drops half the carried coins and respawns the character while the world persists | Confirmed | Corroborated | High | P9, P10, P11 |
+| `TRR-004` | Inventory slots and stacks bound pickup; armour/accessory placement changes the active build; Classic death drops half the carried coins, permits a low-danger respawn-timer skip and returns the character while the world persists | Confirmed | Corroborated | High | P1, P9, P10, P11 |
 | `TRR-005` | A valid town house requires an accepted enclosed safe-walled area, furniture and a home tile; eligible NPCs need vacant valid housing and their own persistent milestone | Confirmed | Corroborated | High | P12, P13, P14 |
 | `TRR-006` | Life Crystals permanently increase maximum health by 20 up to 400, while healing-item use creates Potion Sickness that temporarily blocks another healing item | Confirmed | Direct | High | P15, P16, P17 |
 | `TRR-007` | The real-time day/night cycle changes local surface populations, and nocturnal enemies leave at dawn | Confirmed | Corroborated | High | P18, P19 |
@@ -96,14 +97,15 @@ gene_ids:
 ## Basic data
 
 - Release / origin: Re-Logic; Terraria first released in 2011 and Desktop
-  `1.4.5.6` shipped on 9 March 2026 as the current reviewed hotfix.
+  `1.4.5.8` shipped on 23 August 2026 as the current reviewed hotfix.
 - Platform or physical form: side-view real-time mutable-tile exploration,
   construction, crafting and combat sandbox.
 - Puzzle family: real-time system pressure; world topology and perspective;
   inventory and fixture dependencies; ordered dependency sequencing.
 - Primary and reproducible sources:
-  - **[P1]** [Desktop version history](https://terraria.wiki.gg/wiki/Desktop),
-    for the 1.4.5.6 release boundary.
+  - **[P1]** [Terraria 1.4.5.8 release notes](https://forums.terraria.org/index.php?threads/terraria-1-4-5-7-out-now-for-pc-console-mobile-soon.150939/),
+    for the current release boundary, changed early-game rules and synchronized
+    console/mobile rollout.
   - **[P2]** [world creation](https://terraria.wiki.gg/wiki/World), for size,
     Classic difficulty, evil selection and persistent world structure.
   - **[P3]** [world generation](https://terraria.wiki.gg/wiki/World_generation),
@@ -250,7 +252,8 @@ gene_ids:
 6. Explore lit underground terrain, collect and consume Life Crystals, then
    verify permanent maximum-health increments and retained minimap geometry.
 7. Take lethal damage with coins on a Classic character; verify the rounded
-   half-coin drop, respawn into the unchanged world and latest-death map icon.
+   half-coin drop, use the optional timer skip when no great danger remains,
+   then respawn into the unchanged world and inspect the latest-death map icon.
 8. Observe day turn to night and surface spawn composition change; shelter,
    fight or prepare while running time continues.
 9. At night consume a Suspicious Looking Eye, or satisfy and observe the
@@ -326,7 +329,9 @@ disclosure, the composed first-boss objective and real-time scheduling.
 - Crafting proximity exposes recipes without consuming or operating the station;
   the craft command owns commitment, and crafting is immediate rather than timed.
 - Classic death retains carried items and equipment while dropping half the
-  carried coins; it is not Minecraft's complete inventory drop.
+  carried coins; 1.4.5.7 also permits the player to skip the remaining respawn
+  timer when no great danger remains. This is not Minecraft's complete
+  inventory drop.
 - Life Crystal use is permanently character-bound and can be carried across
   worlds in the wider game, but cross-world transfer is excluded here.
 - A manually summoned Eye needs night but not the natural spawn's health,

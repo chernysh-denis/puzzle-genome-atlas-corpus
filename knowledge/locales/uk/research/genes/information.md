@@ -1610,6 +1610,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0130` — Frostpunk](../games/a-f/frostpunk.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 - [`GAME-0158` — The Sims 4](../games/s-z/the-sims-4.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 
 ## INF-068
 
@@ -1780,6 +1781,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
+- [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
@@ -1802,12 +1804,14 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
+- [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
@@ -1861,6 +1865,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
+- [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
 - [`GAME-0229` — "No Man’s Sky"](../games/m-r/no-mans-sky.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
@@ -1872,8 +1877,10 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
+- [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 
 ## INF-076
@@ -2724,6 +2731,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
+- [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
@@ -2878,6 +2886,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0277` — Cuphead](../games/a-f/cuphead.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
+- [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
 - [`GAME-0161` — Dead by Daylight](../games/a-f/dead-by-daylight.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
@@ -2905,6 +2914,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
+- [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
@@ -2915,11 +2925,14 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
+- [`GAME-0296` — Noita](../games/m-r/noita.md)
 - [`GAME-0224` — Once Human](../games/m-r/once-human.md)
+- [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0181` — Overwatch](../games/m-r/overwatch.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
+- [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
@@ -2936,6 +2949,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0268` — Undertale](../games/s-z/undertale.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0183` — Vampire Survivors](../games/s-z/vampire-survivors.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
@@ -3079,6 +3093,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
@@ -3100,6 +3115,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
 
@@ -3175,6 +3191,7 @@ Palbox, Monitoring Stand, сховища й екрани стану бази в 
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
+- [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
@@ -3187,6 +3204,7 @@ Palbox, Monitoring Stand, сховища й екрани стану бази в 
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
+- [`GAME-0296` — Noita](../games/m-r/noita.md)
 - [`GAME-0224` — Once Human](../games/m-r/once-human.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 - [`GAME-0203` — "PEAK"](../games/m-r/peak.md)
@@ -3199,9 +3217,11 @@ Palbox, Monitoring Stand, сховища й екрани стану бази в 
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
+- [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
 
@@ -3272,6 +3292,8 @@ Palbox, Monitoring Stand, сховища й екрани стану бази в 
 - [`GAME-0265` — Bloons TD 6](../games/a-f/bloons-td-6.md)
 - [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 
 ## INF-132
@@ -3302,7 +3324,9 @@ Research Table, дерева технологій, Workbench і чергу ви�
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
+- [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 
 ## INF-133
@@ -3389,6 +3413,7 @@ Research Table, дерева технологій, Workbench і чергу ви�
 
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
+- [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 
 ## INF-137
 
@@ -3520,11 +3545,13 @@ Research Table, дерева технологій, Workbench і чергу ви�
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
+- [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 
 ## INF-143
@@ -3567,6 +3594,7 @@ Research Table, дерева технологій, Workbench і чергу ви�
 
 ### Ігри-носії
 
+- [`GAME-0289` — American Truck Simulator](../games/a-f/american-truck-simulator.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
@@ -3838,6 +3866,7 @@ Research Table, дерева технологій, Workbench і чергу ви�
 
 ### Ігри-носії
 
+- [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
 
@@ -3958,7 +3987,7 @@ Scoutflies і шлях до цілі на мапі Monster Hunter Wilds.
 
 ### Включає
 
-Портретний, накладений і повноекранний режими мінімапи Terraria 1.4.5.6.
+Портретний, накладений і повноекранний режими мінімапи Terraria 1.4.5.8.
 
 ### Виключає
 
@@ -4707,6 +4736,7 @@ Rank Z, 1 000 Ticket Points, Challenger's Ticket і Zach у Pokémon Legends: Z-
 
 ### Ігри-носії
 
+- [`GAME-0289` — American Truck Simulator](../games/a-f/american-truck-simulator.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
 
 ## INF-199
@@ -4728,6 +4758,7 @@ Rank Z, 1 000 Ticket Points, Challenger's Ticket і Zach у Pokémon Legends: Z-
 
 ### Ігри-носії
 
+- [`GAME-0289` — American Truck Simulator](../games/a-f/american-truck-simulator.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
 
 ## INF-200
@@ -4749,6 +4780,7 @@ Rank Z, 1 000 Ticket Points, Challenger's Ticket і Zach у Pokémon Legends: Z-
 
 ### Ігри-носії
 
+- [`GAME-0289` — American Truck Simulator](../games/a-f/american-truck-simulator.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
 
 ## INF-201
@@ -4770,6 +4802,7 @@ Rank Z, 1 000 Ticket Points, Challenger's Ticket і Zach у Pokémon Legends: Z-
 
 ### Ігри-носії
 
+- [`GAME-0289` — American Truck Simulator](../games/a-f/american-truck-simulator.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
 
 ## INF-202
@@ -5525,6 +5558,7 @@ PFD, екран параметрів двигуна й сигналізацію 
 
 ### Ігри-носії
 
+- [`GAME-0296` — Noita](../games/m-r/noita.md)
 - [`GAME-0183` — Vampire Survivors](../games/s-z/vampire-survivors.md)
 
 ## INF-236
@@ -6790,6 +6824,7 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
+- [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 
@@ -7242,6 +7277,7 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 ### Ігри-носії
 
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
+- [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
 
 ## INF-318
@@ -7264,6 +7300,8 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 ### Ігри-носії
 
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
+- [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
+- [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 
 ## INF-319
 
@@ -7285,6 +7323,7 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 ### Ігри-носії
 
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
+- [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 
 ## INF-320
@@ -7601,3 +7640,108 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 ### Ігри-носії
 
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
+
+## INF-336
+
+- Назва: Показувати календарну дату й поточну частину дня
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Інтерфейс кампанії показує поточну календарну дату та активну авторську частину дня до того, як гравець виконає наступну доступну справу, перехід чи сюжетну дію.
+
+### Включає
+
+Квітневу дату, день тижня й поточний шкільний, післяшкільний або вечірній відтинок у межах вступу Persona 5 Royal 9–12 квітня.
+
+### Виключає
+
+Повний майбутній розклад; точні приховані умови подій; годинник виживання, поєднаний з їжею, врожаєм, комунальними службами чи погодою (INF-136); зовнішній результат за витраченим часом.
+
+### Ігри-носії
+
+- [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
+
+## INF-337
+
+- Назва: Показувати послідовність заклять і характеристики жезла
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Поверхня переносного жезла показує вміст і порядок комірок разом зі станом перемішування, кількістю заклять за постріл, маною, затримкою пострілу та часом перезарядження до вибору або застосування жезла.
+
+### Включає
+
+Огляд обох початкових жезлів і будь-якої заміни під час першого спуску Mines у Noita.
+
+### Виключає
+
+Приховану майбутню генерацію жезлів; редагування заклять у Holy Mountain; звичайне число шкоди зброї без виконуваної композиції заклять.
+
+### Ігри-носії
+
+- [`GAME-0296` — Noita](../games/m-r/noita.md)
+
+## INF-338
+
+- Назва: Показувати локальний матеріал і поточну пляму
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Живе представлення називає матеріал, на який наведено або якого торкнувся персонаж, і показує його поточну матеріальну пляму чи стан із видимим залишком до наступного рішення про рух або застосування.
+
+### Включає
+
+Розрізнення води, токсичного шламу й палаючого матеріалу та читання станів Wet, toxic або On Fire під час першого спуску Mines у Noita.
+
+### Виключає
+
+Нерозкриті речовини поза екраном; приховані алхімічні рецепти; звичайну смугу здоров’я; місткість інвентарю без ідентичності світового матеріалу.
+
+### Ігри-носії
+
+- [`GAME-0296` — Noita](../games/m-r/noita.md)
+
+## INF-339
+
+- Назва: Показувати поточні позиції великих монстрів до визначення їхнього виду
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Від початку квесту польова мапа показує поточну позицію кожного присутнього великого монстра, використовуючи спільну позначку, доки перша зустріч або збережене попереднє знання не відкриє піктограму його виду.
+
+### Включає
+
+Мапу MONSTER HUNTER RISE під час першого Village-полювання на Great Izuchi, де поточна позиція великого монстра не потребує збирання слідів.
+
+### Виключає
+
+Здобуття маршруту через сліди й scoutflies; точне приховане здоров’я; позиції малих монстрів; зовнішній гайд-мапу; приховану назву виду до її відкриття грою.
+
+### Ігри-носії
+
+- [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
+
+## INF-340
+
+- Назва: Показувати готовність або відновлення кожної спільної одиниці здібностей
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Живий інтерфейс окремо представляє кожну одиницю малого спільного запасу здібностей і видимо відрізняє готові одиниці від тих, що ще проходять власне відновлення.
+
+### Включає
+
+Шкалу Wirebug у MONSTER HUNTER RISE під час Wiredash, Long Sword Silkbind і Wirefall у першому Village-полюванні.
+
+### Виключає
+
+Одну неподільну шкалу витривалості; приховані часи відновлення; кількість боєприпасів; перелік здібностей лише з двійковою загальною готовністю.
+
+### Ігри-носії
+
+- [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)

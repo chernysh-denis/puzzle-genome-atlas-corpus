@@ -1,5 +1,5 @@
 {
-  "version": "GENE_SALIENCE_AND_PLAIN_LANGUAGE_EXPANSION_041",
+  "version": "GENE_SALIENCE_AND_PLAIN_LANGUAGE_EXPANSION_043",
   "roles": [
     "defining",
     "structural",
@@ -8010,6 +8010,114 @@
         "INF-119",
         "TIM-003"
       ]
+    },
+    "GAME-0289": {
+      "reviewed": "2026-09-13",
+      "noteEn": "A supplied cargo contract, articulated load, regulated roads, dual rest pressure, trailer-bay validation and delivery settlement define the introductory Quick Job; direct vehicle physics, waypoint navigation and live time structure execution, while ambient traffic supports road pressure.",
+      "noteUk": "Надане роботодавцем замовлення з вантажем, зчленований транспорт, регульовані дороги, два показники відпочинку, перевірка зони причепа й підсумок доставки визначають вступний `Quick Job`; безпосередня фізика транспорту, навігація через проміжну точку та плин часу структурують виконання, а навколишній трафік підтримує дорожній тиск.",
+      "defining": [
+        "ACT-285", "ACT-286", "ACT-287", "SYS-505", "SYS-506", "SYS-507", "SYS-508", "SYS-509", "SYS-510", "CON-428", "CON-429", "CON-430", "CON-431", "CON-432", "INF-198", "INF-199", "INF-200", "INF-201", "OBJ-096"
+      ],
+      "structural": [
+        "ACT-201", "ACT-227", "SYS-320", "CON-288", "INF-144", "TIM-003"
+      ],
+      "supporting": [
+        "SYS-365"
+      ]
+    },
+    "GAME-0290": {
+      "reviewed": "2026-09-13",
+      "noteEn": "Guard Regain, Perfect Guard timing, cycling blade condition, a combat-earned last heal, recoverable Ergo and the stagger-to-Fatal-Attack sequence define this opening boss route; traversal, shared stamina, checkpoint restoration and phase change structure execution, while ordinary timing and visibility rules support it.",
+      "noteUk": "Guard Regain, точний Perfect Guard, циклічний стан клинка, останнє лікування за бойові удари, повернення Ergo та послідовність від хиткості до Fatal Attack визначають вступний маршрут із босом; проходження, спільна витривалість, відновлення біля контрольної точки й зміна фази структурують виконання, а звичайні часові та інформаційні правила його підтримують.",
+      "defining": [
+        "ACT-378", "ACT-419", "ACT-425", "ACT-437", "SYS-035", "SYS-409", "SYS-688", "SYS-832", "SYS-852", "CON-324", "CON-354", "CON-589", "INF-142", "INF-295", "INF-319"
+      ],
+      "structural": [
+        "ACT-008", "ACT-161", "ACT-200", "ACT-224", "ACT-249", "ACT-436", "ACT-438", "SYS-215", "SYS-364", "SYS-399", "SYS-578", "SYS-798", "SYS-799", "CON-282", "CON-352", "OBJ-080"
+      ],
+      "supporting": [
+        "CON-286", "CON-604", "INF-119", "INF-318", "TIM-003"
+      ]
+    },
+    "GAME-0291": {
+      "reviewed": "2026-09-13",
+      "noteEn": "Typed weakness, Down, chained 1 More, rear Ambush, the fixed opening calendar and the context-gated Safe Room save define this packet; route commands, resources, rewards and terminal location structure it, while ordinary visibility and save-history rules support it.",
+      "noteUk": "Типова слабкість, Down, ланцюг 1 More, засідка ззаду, незмінний вступний календар і збереження лише в дозволеній Safe Room визначають цей пакет; маршрутні команди, ресурси, нагороди й кінцева локація структурують його, а звичайна видимість та історія збережень підтримують.",
+      "defining": [
+        "SYS-355", "SYS-854", "SYS-855", "CON-629", "INF-336", "TIM-022"
+      ],
+      "structural": [
+        "ACT-008", "ACT-019", "ACT-161", "ACT-341", "SYS-362", "CON-269", "CON-282", "OBJ-026", "TIM-001", "TIM-002"
+      ],
+      "supporting": [
+        "INF-115", "INF-119", "TIM-007"
+      ]
+    },
+    "GAME-0292": {
+      "reviewed": "2026-09-13",
+      "noteEn": "Free outline placement, irreversible item-by-item supply, the ten-stick carrying bottleneck, conversion into a save fixture and one-use sleep collapse define this packet; local movement, harvesting, persistent-world survival and clear-ground legality structure it, while ordinary state disclosures and branchable history support it.",
+      "noteUk": "Вільне розміщення контуру, безповоротне постачання предметів по одному, обмеження перенесення десятьма палицями, перетворення на об’єкт збереження й руйнування після одноразового сну визначають цей пакет; місцевий рух, добування, виживання у сталому світі та допустимість чистої ділянки структурують його, а звичайне розкриття стану й розгалужена історія підтримують.",
+      "defining": [
+        "ACT-093", "ACT-148", "ACT-214", "ACT-341", "SYS-312", "SYS-755", "CON-210", "CON-621", "OBJ-171"
+      ],
+      "structural": [
+        "ACT-008", "ACT-161", "ACT-245", "SYS-313", "SYS-327", "SYS-591", "CON-292", "CON-496", "INF-131", "TIM-003"
+      ],
+      "supporting": [
+        "CON-312", "INF-073", "INF-075", "INF-128", "INF-132", "INF-136", "TIM-007"
+      ]
+    },
+    "GAME-0293": {
+      "reviewed": "2026-09-13",
+      "noteEn": "The two-key gate, first retained and assigned attack capability, capability-gated weak barriers, automatic checkpoint restoration and the first restorative save point define this packet; live traversal, combat, Howl's withdrawal and ordered route structure it, while ordinary meter disclosure supports it.",
+      "noteUk": "Ворота з ціною у два ключі, перша збережена й призначена бойова здатність, слабкі бар’єри під цю здатність, автоматичне відновлення контрольної точки та перша відновлювальна точка збереження визначають пакет; рух, живий бій, відступ Howl і впорядкований маршрут структурують його, а звичайне розкриття показників підтримує.",
+      "defining": [
+        "ACT-215", "ACT-341", "SYS-063", "SYS-369", "SYS-398", "CON-349", "CON-403", "OBJ-172"
+      ],
+      "structural": [
+        "ACT-008", "ACT-161", "ACT-223", "SYS-215", "SYS-362", "SYS-578", "SYS-755", "CON-282", "TIM-003"
+      ],
+      "supporting": [
+        "INF-119"
+      ]
+    },
+    "GAME-0294": {
+      "reviewed": "2026-09-13",
+      "noteEn": "Weakened-target feeding and blood-profile replacement, a predefined territorial Heart claim, reserve-backed castle protection, two legality gates and the powered closed early-shelter terminal define this packet. The staged Journal, personal survival pressure, live combat, gathering, crafting and connected construction structure it, while ordinary inventory, map, interface, time and save-history surfaces support it.",
+      "noteUk": "Живлення від ослабленої цілі й заміна профілю крові, заявлення визначеної території через Heart, захист замку коштом запасу, дві умови законності та термінал живленого замкненого раннього укриття визначають цей пакет. Поетапний Journal, особистий тиск виживання, живий бій, збирання, виготовлення й зв’язане будівництво утворюють його каркас, а звичайні поверхні інвентарю, мапи, інтерфейсу, часу та історії збережень підтримують.",
+      "defining": [
+        "ACT-454", "SYS-332", "SYS-856", "SYS-857", "CON-295", "CON-630", "CON-631", "OBJ-173"
+      ],
+      "structural": [
+        "ACT-087", "ACT-123", "ACT-161", "ACT-204", "ACT-223", "SYS-215", "SYS-327", "SYS-328", "SYS-330", "SYS-591", "SYS-736", "CON-136", "CON-281", "CON-292", "CON-297", "INF-067", "INF-131", "INF-132", "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008", "ACT-164", "ACT-199", "ACT-341", "SYS-216", "SYS-222", "SYS-578", "CON-210", "INF-073", "INF-075", "INF-119", "INF-125", "INF-128", "INF-142", "TIM-007"
+      ]
+    },
+    "GAME-0295": {
+      "reviewed": "2026-09-13",
+      "noteEn": "One shared stamina reserve across offence and defence, equipment-load control, bonfire reset and the replaceable death mark define this asylum route; authored traversal, live combat and the mandatory guardian structure it, while ordinary item, instruction and boss-state surfaces support it.",
+      "noteUk": "Один запас витривалості для нападу й захисту, контроль навантаження спорядження, відновлення біля вогнища та замінна пляма смерті визначають маршрут притулком; авторський шлях, живий бій і обов’язковий охоронець утворюють його каркас, а звичайні поверхні предметів, настанов і стану боса підтримують.",
+      "defining": ["ACT-436", "ACT-437", "SYS-399", "SYS-412", "SYS-798", "CON-352", "CON-359", "CON-604"],
+      "structural": ["ACT-008", "ACT-161", "ACT-224", "ACT-249", "ACT-438", "SYS-215", "SYS-364", "SYS-578", "CON-282", "CON-354", "INF-119", "INF-318", "OBJ-080", "TIM-003"],
+      "supporting": ["ACT-199", "ACT-200", "CON-286", "INF-128", "INF-317"]
+    },
+    "GAME-0296": {
+      "reviewed": "2026-09-13",
+      "noteEn": "Executable wand sequencing, finite levitation and interacting material cells define the generated descent; live combat, mutable topology, one-life loss and portal traversal structure it, while ordinary pickup and capacity surfaces support it.",
+      "noteUk": "Виконувана послідовність жезла, обмежена левітація та взаємодія комірок матеріалів визначають згенерований спуск; живий бій, змінна топологія, одноразова смерть і перехід порталом утворюють його каркас, а звичайні підбирання та місткість підтримують.",
+      "defining": ["ACT-446", "SYS-858", "SYS-859", "SYS-860", "SYS-861", "SYS-862", "SYS-863", "CON-632", "CON-633", "INF-337", "INF-338"],
+      "structural": ["ACT-008", "ACT-161", "ACT-164", "SYS-187", "SYS-213", "SYS-215", "SYS-578", "SYS-840", "CON-175", "INF-119", "INF-235", "OBJ-026", "TIM-003"],
+      "supporting": ["ACT-199", "SYS-004", "SYS-222", "CON-210", "INF-128"]
+    },
+    "GAME-0297": {
+      "reviewed": "2026-09-13",
+      "noteEn": "Shared independently recovering Wirebug units, their contextual legality and display, direct Palamute pursuit, immediate large-monster positions, one Petalace-capped endemic buff and the retained first Village-hunt terminal define this packet. Live combat, migration, faint settlement, sharpness and the authored opening chain structure it, while ordinary supply, carving and pouch surfaces support it.",
+      "noteUk": "Спільні одиниці Wirebug з незалежним відновленням, умови й показ їхньої готовності, безпосереднє переслідування верхи на Palamute, негайно видимі позиції великих монстрів, одне обмежене Petalace ендемічне посилення та збережений термінал першого Village-полювання визначають цей пакет. Живий бій, міграція, наслідки непритомності, гострота й авторський вступний ланцюг утворюють його каркас, а звичайні запаси, вирізання та сумка підтримують.",
+      "defining": ["ACT-190", "SYS-864", "SYS-865", "CON-634", "INF-339", "INF-340", "OBJ-174"],
+      "structural": ["ACT-008", "ACT-161", "ACT-247", "ACT-378", "SYS-215", "SYS-403", "SYS-404", "SYS-405", "SYS-407", "SYS-688", "CON-282", "CON-354", "CON-356", "INF-075", "INF-125", "INF-157", "TIM-003"],
+      "supporting": ["ACT-131", "ACT-245", "CON-210", "CON-358", "INF-073"]
     }
   }
 }

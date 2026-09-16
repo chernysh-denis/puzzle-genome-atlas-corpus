@@ -47,6 +47,13 @@ These definitions are normative throughout the repository.
   concrete example shown above the unchanged canonical ID and label. The pilot
   lives in [`knowledge/plain-language/`](../knowledge/plain-language/README.md)
   and never changes taxonomy or similarity.
+- An **analysis target** is the exact platform or physical form, edition,
+  version or ruleset and distribution channel to which a canonical game
+  analysis applies. Other releases remain separately evidenced and do not
+  inherit mechanical equivalence from a shared title. The registry and audit
+  states live under [`knowledge/platforms/`](../knowledge/platforms/) and are
+  governed by
+  [`PLATFORM_COVERAGE_POLICY`](PLATFORM_COVERAGE_POLICY.md).
 
 Presentation, theme, platform, mechanical profiles, family memberships, gene
 salience, plain-language copy and release metadata are outside the genome signature.
@@ -143,6 +150,9 @@ Root files are limited to public orientation and project governance.
 - Taxonomy changes: `TAXONOMY_CHANGE_xxx`
 
 IDs are never reused. Renames change labels, not identifiers.
+
+Platform or physical-form identities use `PLAT-*` IDs in their own registry.
+They are stable presentation and evidence identifiers, not genome entities.
 
 ## Game-file scaling
 

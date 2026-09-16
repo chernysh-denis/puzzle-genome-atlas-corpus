@@ -101,7 +101,7 @@ The two-way transfer test passes for both extracted halves:
 - `COMB-0197` grows from 18 to 19 genes and remains a strict subset of the
   supporting genome. Its causal structure is unchanged; the former compound
   Burst step is simply represented by its accumulation and settlement halves.
-- `GAME-0208`, `GAME-0225`, `GAME-0226` and `GAME-0242` retain `SYS-691`.
+- `GAME-0208`, `GAME-0226`, `GAME-0235` and `GAME-0242` retain `SYS-691`.
   `GAME-0242` also retains `SYS-765`. Their signatures do not change.
 - Forza Horizon 6 remains the selected lower-ID neighbour of `GAME-0199`. The
   shared set stays at fifteen genes while the union grows by one, so the score

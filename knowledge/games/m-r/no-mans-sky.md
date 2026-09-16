@@ -51,11 +51,12 @@ gene instances but do not enter the signature.
 
 ## Analysis scope
 
-- Version / ruleset: current unmodified English Windows Steam release, app
+- Version / ruleset: frozen reviewed unmodified English Windows Steam release, app
   `275850`, official patch `6.45.1`, public Build ID `24039799`, built and
-  published 2026-07-03, checked 2026-09-02; one new empty-slot single-player
-  `Normal` preset with network multiplayer disabled and no post-start difficulty
-  changes.
+  published 2026-07-03, originally checked 2026-09-02; one new empty-slot
+  single-player `Normal` preset with network multiplayer disabled and no
+  post-start difficulty changes. Cosmos `7.0` superseded this live build on
+  2026-09-09, but this review does not silently substitute the later ruleset.
 - Entry: select an empty save slot and unchanged `Normal`, then retain the first
   controllable moment of `Awakenings` on its procedurally generated hazardous
   starting planet with Exosuit, Multi-Tool and starter-starship systems in their
@@ -103,7 +104,7 @@ gene instances but do not enter the signature.
 - Potential scoped modules: first base construction, first hyperdrive and warp,
   one Space Anomaly visit, one named expedition milestone set or one fixed
   combat/trade loop each requires its own version, entry and retained terminal.
-- Direct-play status: no client session was played. Current Hello Games release,
+- Direct-play status: no client session was played. The reviewed Hello Games patch,
   mode, repair, scanning, inventory and save documentation plus the official
   Steam product establish the product and rules boundary; current written
   walkthroughs corroborate the early `Awakenings` order and building terminal.
@@ -126,12 +127,18 @@ gene instances but do not enter the signature.
 | `NMS-010` | The first post-launch signal leads to an abandoned building whose terminal advances the opening mission | Observation | Corroborated | High | S3, S4, S5 |
 | `NMS-011` | The current game silently autosaves and still makes a full save whenever the player exits a ship | Confirmed | Direct | High | P3, P5 |
 | `NMS-012` | Exiting the starter ship after the first required building terminal provides a reproducible retained early terminal | Observation | Corroborated | High | P3, P5, S3, S4, S5 |
+| `NMS-013` | The analysed Windows Steam 6.45.1 packet is now a frozen historical target because Cosmos 7.0 shipped on every supported platform on 2026-09-09 | Confirmed | Direct | High | P8 |
+| `NMS-014` | Switch 1 launched as a touch-enabled hybrid single-player client with an explicit partial-update caveat, and full multiplayer was still identified as missing at the Switch 2 launch | Confirmed | Corroborated | High | P9, P10, P11, P12 |
+| `NMS-015` | Switch 2 is a native edition with a free upgrade path, full multiplayer, day-one cross-play and cross-save, touch input and gyro aiming | Confirmed | Direct | High | P12 |
+| `NMS-016` | The fully released Hello Games service moves up to five selected saves among linked PC, Mac, PlayStation, Xbox and Nintendo accounts | Confirmed | Corroborated | High | P12, P13 |
+| `NMS-017` | The Mac Steam launch reused Steam ownership, transferred saves with PC and joined the published PC, console and VR cross-play set | Confirmed | Direct | High | P14 |
+| `NMS-018` | Next Generation 3.10 gave PS5 and Xbox Series clients thirty-two-player sessions and generation-specific save migration, with additional PS5 input and milestone hooks | Confirmed | Direct | High | P15 |
 
 ## Basic data
 
 - Release / origin: Hello Games developed and published No Man's Sky; the
-  original Windows release was 2016-08-12 and the reviewed live release is
-  official patch `6.45.1`.
+  original Windows release was 2016-08-12 and the frozen reviewed release is
+  official patch `6.45.1`; Cosmos `7.0` became the live line afterwards.
 - Platform or physical form: single-player first-person science-fiction
   exploration and survival on Windows/Steam; one Normal tutorial packet.
 - Puzzle family: real-time system pressure; resource transformation and
@@ -157,6 +164,29 @@ gene instances but do not enter the signature.
     for the separate no-tutorial Expedition start excluded here.
   - **[P7]** [official Synthesis Update](https://www.nomanssky.com/synthesis-update/),
     for compatible items applied to damaged technology and hazard recharge.
+  - **[P8]** [official Cosmos 7.0 announcement](https://www.nomanssky.com/2026/09/no-mans-sky-cosmos/),
+    for the 2026-09-09 superseding update and its stated PC, Mac, console and
+    VR platform set.
+  - **[P9]** [official Switch launch page](https://www.nomanssky.com/switch-update/),
+    for the 2022 single-player, physical/digital, touch and hybrid boundary.
+  - **[P10]** [official Waypoint 4.0 page](https://www.nomanssky.com/waypoint-update/),
+    for Switch touch, Joy-Con and Pro Controller support across handheld and
+    docked modes.
+  - **[P11]** [Nintendo's Japanese Switch launch article](https://www.nintendo.com/jp/topics/article/1b83002c-a362-4c97-b29f-fc71356b4da3),
+    for the launch multiplayer exclusion and explicit note that some
+    other-platform update material was not included.
+  - **[P12]** [official Beacon 5.7 and Switch 2 page](https://www.nomanssky.com/beacon-update/),
+    for the native Switch 2 upgrade, full multiplayer, cross-play, cross-save,
+    touch and gyro feature boundary and the explicit Switch 1 comparison.
+  - **[P13]** [official cross-save service](https://cloud.nomanssky.com/cross-save),
+    for supported account families, platform transfer and the five-save cloud
+    limit.
+  - **[P14]** [official Mac launch](https://www.nomanssky.com/2023/06/no-mans-sky-on-mac/),
+    for included prior updates, Steam entitlement, PC/Mac save transfer and
+    the launch cross-play set.
+  - **[P15]** [official Next Generation 3.10 page](https://www.nomanssky.com/next-generation-update/),
+    for PS5/Xbox Series multiplayer capacity, generation save migration and
+    PS5-specific controls and milestone integration.
 - Secondary and reproducible sources:
   - **[S1]** [SteamDB depots](https://steamdb.info/app/275850/depots/), for
     Windows depot `275851`, public Build `24039799` and its 2026-07-03 timestamp.
@@ -173,7 +203,7 @@ gene instances but do not enter the signature.
 - Reproducible control: **[V1]** repository-side transition trace across
   `P1`–`P7` and `S1`–`S5` under the fixed version, preset, network and terminal
   contract; no audiovisual playback or direct-play claim.
-- Claim IDs: `NMS-001`–`NMS-012`.
+- Claim IDs: `NMS-001`–`NMS-018`.
 
 ## Mechanical decomposition
 
@@ -303,6 +333,41 @@ gene instances but do not enter the signature.
   through staged teaching and ends after repaired flight, a remote terminal and
   verified ship-exit save. It excludes Subnautica's breath-limited dives,
   fragments, habitat integrity and fabricated Seamoth.
+- The platform labels do not imply one feature surface. Switch 1 remains a
+  single-player client despite cross-save availability; Switch 2 adds full
+  multiplayer, cross-play, touch and gyro paths; the Mac launch and the dated
+  next-generation console clients publish their own network, save and input
+  boundaries.
+
+## Platform-variant review notes
+
+- The canonical Windows Steam target is corrected from a misleading “current”
+  label to the frozen `6.45.1` Awakenings packet originally reviewed on
+  2026-09-02. Cosmos `7.0` shipped on 2026-09-09, so silently replacing the
+  executable would invalidate the target contract. The twenty-eight-gene
+  signature, families, salience and `COMB-0227` membership remain unchanged.
+- The frozen release catalogue keeps every non-target platform record
+  `unassessed`. The sparse review records five dated variants and fourteen
+  evidence-backed differences without promoting a coarse platform listing to
+  full ruleset parity.
+- Switch 1 launched with touch, handheld and docked operation but without
+  multiplayer. Nintendo explicitly warned that some other-platform update
+  material was absent; the sources do not enumerate a complete current gap, so
+  no settlement or patch-parity claim is inferred.
+- Switch 2 is a native edition rather than only a compatibility host. Beacon
+  documents a free upgrade for Switch owners, full multiplayer, cross-play,
+  cross-save, touch and gyro aiming. Exact session capacity, later patches,
+  settlement parity, visuals and performance remain unassessed.
+- Full-release cross-save can move up to five selected saves through linked
+  platform accounts. That service coexists with Switch 1's single-player
+  boundary and does not turn shared discoveries or transferred progress into a
+  live multiplayer session.
+- The 2023 Mac launch and 2020 Next Generation console release are preserved as
+  dated feature boundaries: their evidence proves specific entitlement,
+  transfer, network and input paths, not current all-platform parity.
+- No claim is made that every update, gameplay system, expedition, multiplayer
+  capacity, visual profile, storefront, region, hardware mode or service state
+  has been audited.
 
 ## Normalised genome
 

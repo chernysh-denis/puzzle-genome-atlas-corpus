@@ -102,6 +102,7 @@
 - [`GAME-0185` — "Magic: The Gathering Arena"](../games/m-r/magic-the-gathering-arena.md)
 - [`GAME-0018` — Mini Metro](../games/m-r/mini-metro.md)
 - [`GAME-0051` — Mini Motorways](../games/m-r/mini-motorways.md)
+- [`GAME-0296` — Noita](../games/m-r/noita.md)
 - [`GAME-0125` — Oxygen Not Included](../games/m-r/oxygen-not-included.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
 - [`GAME-0016` — Pipe Mania / Pipe Dream](../games/m-r/pipe-mania.md)
@@ -788,6 +789,7 @@ Dorfromantik додає плитки до стосу за завершені з�
 ### Ігри-носії
 
 - [`GAME-0020` — Dorfromantik](../games/a-f/dorfromantik.md)
+- [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0028` — Loop Hero](../games/g-l/loop-hero.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 
@@ -1457,6 +1459,7 @@ Tim підбирає у світі Braid ключ або отримує його
 ### Ігри-носії
 
 - [`GAME-0034` — Braid, Anniversary Edition](../games/a-f/braid.md)
+- [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 
 ## SYS-064
@@ -4160,6 +4163,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 
 ### Ігри-носії
 
+- [`GAME-0296` — Noita](../games/m-r/noita.md)
 - [`GAME-0125` — Oxygen Not Included](../games/m-r/oxygen-not-included.md)
 
 ## SYS-188
@@ -4741,6 +4745,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 ### Ігри-носії
 
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
+- [`GAME-0296` — Noita](../games/m-r/noita.md)
 - [`GAME-0166` — Sid Meier’s Civilization VI](../games/s-z/sid-meiers-civilization-vi.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 
@@ -4808,6 +4813,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0277` — Cuphead](../games/a-f/cuphead.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
+- [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
 - [`GAME-0161` — Dead by Daylight](../games/a-f/dead-by-daylight.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
@@ -4838,6 +4844,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
 - [`GAME-0215` — It Takes Two](../games/g-l/it-takes-two.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
+- [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
@@ -4845,11 +4852,14 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
+- [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
+- [`GAME-0296` — Noita](../games/m-r/noita.md)
 - [`GAME-0224` — Once Human](../games/m-r/once-human.md)
+- [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0181` — Overwatch](../games/m-r/overwatch.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
@@ -4883,6 +4893,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 - [`GAME-0191` — "Total War: WARHAMMER III"](../games/s-z/total-war-warhammer-iii.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
@@ -4912,6 +4923,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 
 ## SYS-217
@@ -5052,6 +5064,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
+- [`GAME-0296` — Noita](../games/m-r/noita.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
@@ -5059,6 +5072,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
 
@@ -6914,16 +6928,16 @@ Hostility в Against the Storm, що зростає від років, насе�
 
 ## SYS-312
 
-- Назва: Перетворювати матеріали й працю на предмети та споруди
-- Переглянуто: `2026-08-24`
+- Назва: Просувати матеріальне виготовлення або будівництво до завершення
+- Переглянуто: `2026-09-13`
 
 ### Операційне визначення
 
-Праця гравця або пала накопичується для вибраного рецепта чи будівельного завдання, а після завершення витрачає підготовлені матеріали й створює потрібний предмет або постійну споруду.
+Прийняте постачання матеріалів і будь-яка потрібна праця гравця чи супутника накопичуються для вибраного рецепта або будівельної вимоги; матеріали витрачаються на передбаченому правилами етапі прийняття чи завершення, а виконання всіх вимог створює оголошений предмет або стійку споруду.
 
 ### Включає
 
-Виготовлення на верстаті та будівництво споруд гравцем або палом із робочою здібністю Handiwork у Palworld.
+Виготовлення на верстаті та будівництво споруд гравцем або палом із робочою здібністю Handiwork у Palworld; заміну повністю забезпеченого контуру Temporary Shelter у The Forest на придатний до використання притулок.
 
 ### Виключає
 
@@ -6932,6 +6946,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 ### Ігри-носії
 
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
+- [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 
 ## SYS-313
 
@@ -6953,6 +6968,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 ### Ігри-носії
 
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
+- [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 
 ## SYS-315
 
@@ -7085,6 +7101,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 
 ### Ігри-носії
 
+- [`GAME-0289` — American Truck Simulator](../games/a-f/american-truck-simulator.md)
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
 - [`GAME-0234` — Battlefield 2042](../games/a-f/battlefield-2042.md)
 - [`GAME-0149` — Battlefield 6](../games/a-f/battlefield-6.md)
@@ -7245,16 +7262,16 @@ Hostility в Against the Storm, що зростає від років, насе�
 
 ## SYS-327
 
-- Назва: Оновлювати обмін речовин і вплив довкілля
-- Переглянуто: `2026-09-09`
+- Назва: Оновлювати особисті запаси виживання та вплив довкілля
+- Переглянуто: `2026-09-13`
 
 ### Операційне визначення
 
-Система безперервно змінює здоров’я, калорії, запас води, температуру, втому й опромінення відповідно до діяльності, відпочинку, спожитих ресурсів, спорядження та поточного місця персонажа.
+Система безперервно змінює здоров’я та передбачені правилами особисті запаси або показники впливу відповідно до діяльності, відпочинку, спожитих ресурсів, спорядження й поточного середовища персонажа.
 
 ### Включає
 
-Голод, спрагу, мокрість, спеку, холод і радіаційний вплив у Rust; тепло, втому, спрагу, голод і стан здоров’я у The Long Dark.
+Голод, спрагу, мокрість, спеку, холод і радіацію в Rust; тепло, втому, спрагу, голод і стан здоров’я у The Long Dark; запас крові, пряме сонячне опромінення та відновлення в затінку у V Rising.
 
 ### Виключає
 
@@ -7268,7 +7285,9 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0229` — "No Man’s Sky"](../games/m-r/no-mans-sky.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
+- [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 
 ## SYS-328
 
@@ -7293,6 +7312,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 
 ## SYS-329
 
@@ -7337,6 +7357,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 ### Ігри-носії
 
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 
 ## SYS-331
@@ -7362,24 +7383,25 @@ Tool Cupboard, стани BUILDING PRIVILEGE і BUILDING BLOCKED та досту
 
 ## SYS-332
 
-- Назва: Витрачати ресурси на утримання й руйнувати незабезпечені блоки
-- Переглянуто: `2026-08-24`
+- Назва: Витрачати запас осередку власності й руйнувати незахищені споруди
+- Переглянуто: `2026-09-13`
 
 ### Операційне визначення
 
-Сервер регулярно забирає з кожного об’єкта контролю матеріали, потрібні з’єднаним блокам, а за нестачі певного матеріалу пошкоджує відповідні відкриті блоки від зовнішніх шарів до ядра.
+Час у світі витрачає передбачений запас у з’єднаному осередку власності; доки покриття діє, воно живить або захищає належні споруди, а за нестачі захист зникає і придатні об’єкти вимикаються чи руйнуються у визначеному порядку.
 
 ### Включає
 
-Вартість утримання за 24 години, нестачу окремих матеріалів і поступове руйнування бази в Rust.
+Утримання через Tool Cupboard і руйнування за нестачі матеріалу в Rust; витрату Blood Essence у Castle Heart, втрату живлення й загрозу руйнування у V Rising.
 
 ### Виключає
 
-Шкоду під час рейду; міцність інструментів; видалення споруд під час планового скидання світу.
+Шкоду під час рейду; міцність інструментів; планове скидання світу; початкову вартість споруди.
 
 ### Ігри-носії
 
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 
 ## SYS-333
 
@@ -7866,6 +7888,7 @@ Wasps, Snitches, Leapers, Bastions та інші машини ARC на Пове�
 ### Ігри-носії
 
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
+- [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
 
 ## SYS-356
 
@@ -8020,6 +8043,8 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
+- [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
+- [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
 
 ## SYS-363
@@ -8065,9 +8090,11 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
+- [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
+- [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 
@@ -8090,6 +8117,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 
 ### Ігри-носії
 
+- [`GAME-0289` — American Truck Simulator](../games/a-f/american-truck-simulator.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
@@ -8172,20 +8200,20 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 
 ## SYS-369
 
-- Назва: Після провалу відновлювати контрольну точку місії
-- Переглянуто: `2026-08-24`
+- Назва: Після провалу відновлювати авторську контрольну точку
+- Переглянуто: `2026-09-13`
 
 ### Операційне визначення
 
-Смерть, арешт або порушення важливої умови завершує поточну спробу. Повтор повертає людей, транспорт і цілі до стану останньої контрольної точки.
+Смерть, арешт або порушення важливої умови завершує поточну спробу. Автоматичне повернення чи обраний повтор відновлює керовані сутності, цілі та маршрут до стану останньої авторської контрольної точки.
 
 ### Включає
 
-Результати `Wasted`, `Busted`, покинуту ціль, знищений об’єкт і перезапуск із контрольної точки в місіях Story Mode Grand Theft Auto V; смерть або провал важливого завдання Cyberpunk 2077 із повтором від контрольної точки.
+Результати `Wasted`, `Busted`, покинуту ціль, знищений об’єкт і перезапуск із контрольної точки в місіях Story Mode Grand Theft Auto V; смерть або провал важливого завдання Cyberpunk 2077 із повтором від контрольної точки; автоматичне повернення Ori and the Will of the Wisps до недавньої авторської контрольної точки після смертельної шкоди.
 
 ### Виключає
 
-Появу біля лікарні під час вільного дослідження; видалення збереження; повтор уже завершеної місії заради медалі.
+Появу біля лікарні під час вільного дослідження; повернення до ручного слота чи відновлювального об’єкта; видалення збереження; повтор уже завершеної місії заради медалі.
 
 ### Ігри-носії
 
@@ -8214,6 +8242,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
+- [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
@@ -8870,6 +8899,7 @@ Silk від ударів Needle, Bind та Silk Skills у Hollow Knight: Silkson
 
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
+- [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 
 ## SYS-399
@@ -8892,9 +8922,11 @@ Silk від ударів Needle, Bind та Silk Skills у Hollow Knight: Silkson
 ### Ігри-носії
 
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
+- [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
+- [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 
 ## SYS-400
 
@@ -8978,6 +9010,7 @@ Silk від ударів Needle, Bind та Silk Skills у Hollow Knight: Silkson
 
 ### Ігри-носії
 
+- [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
 
@@ -9000,6 +9033,7 @@ Silk від ударів Needle, Bind та Silk Skills у Hollow Knight: Silkson
 
 ### Ігри-носії
 
+- [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
 
@@ -9022,6 +9056,7 @@ Silk від ударів Needle, Bind та Silk Skills у Hollow Knight: Silkson
 
 ### Ігри-носії
 
+- [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
@@ -9068,6 +9103,7 @@ Silk від ударів Needle, Bind та Silk Skills у Hollow Knight: Silkson
 
 - [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
+- [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
@@ -9114,6 +9150,7 @@ Silk від ударів Needle, Bind та Silk Skills у Hollow Knight: Silkson
 
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
+- [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 
@@ -9157,6 +9194,7 @@ Silk від ударів Needle, Bind та Silk Skills у Hollow Knight: Silkson
 
 ### Ігри-носії
 
+- [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 
 ## SYS-413
@@ -9299,7 +9337,7 @@ Eye of Cthulhu спочатку викликає слуг, зависає й р�
 
 ### Включає
 
-Перший бій з Eye of Cthulhu у Terraria 1.4.5.6 Classic.
+Перший бій з Eye of Cthulhu у Terraria 1.4.5.8 Classic.
 
 ### Виключає
 
@@ -11113,6 +11151,7 @@ Dead Eye сповільнює навколишню дію, дозволяє на
 
 ### Ігри-носії
 
+- [`GAME-0289` — American Truck Simulator](../games/a-f/american-truck-simulator.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
 
 ## SYS-506
@@ -11134,6 +11173,7 @@ Dead Eye сповільнює навколишню дію, дозволяє на
 
 ### Ігри-носії
 
+- [`GAME-0289` — American Truck Simulator](../games/a-f/american-truck-simulator.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
 
 ## SYS-507
@@ -11155,6 +11195,7 @@ Dead Eye сповільнює навколишню дію, дозволяє на
 
 ### Ігри-носії
 
+- [`GAME-0289` — American Truck Simulator](../games/a-f/american-truck-simulator.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
 
 ## SYS-508
@@ -11176,6 +11217,7 @@ Dead Eye сповільнює навколишню дію, дозволяє на
 
 ### Ігри-носії
 
+- [`GAME-0289` — American Truck Simulator](../games/a-f/american-truck-simulator.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
 
 ## SYS-509
@@ -11197,6 +11239,7 @@ Dead Eye сповільнює навколишню дію, дозволяє на
 
 ### Ігри-носії
 
+- [`GAME-0289` — American Truck Simulator](../games/a-f/american-truck-simulator.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
 
 ## SYS-510
@@ -11218,6 +11261,7 @@ Dead Eye сповільнює навколишню дію, дозволяє на
 
 ### Ігри-носії
 
+- [`GAME-0289` — American Truck Simulator](../games/a-f/american-truck-simulator.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
 
 ## SYS-511
@@ -12689,6 +12733,7 @@ Wonder, Relic, Score, часову перемогу, кампанійний тр
 - [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
+- [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
@@ -12696,8 +12741,11 @@ Wonder, Relic, Score, часову перемогу, кампанійний тр
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
+- [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0296` — Noita](../games/m-r/noita.md)
+- [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
@@ -12705,6 +12753,7 @@ Wonder, Relic, Score, часову перемогу, кампанійний тр
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0268` — Undertale](../games/s-z/undertale.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0183` — Vampire Survivors](../games/s-z/vampire-survivors.md)
 
 ## SYS-579
@@ -12981,6 +13030,8 @@ Wonder, Relic, Score, часову перемогу, кампанійний тр
 ### Ігри-носії
 
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
+- [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 
 ## SYS-592
@@ -14959,23 +15010,25 @@ Shadow Corruption у визначеному Solo BOT Mode NARAKA: BLADEPOINT.
 
 ## SYS-688
 
-- Назва: Зменшувати й відновлювати гостроту зброї ближнього бою
-- Переглянуто: `2026-09-01`
+- Назва: Зменшувати й відновлювати шкалу обслуговування зброї ближнього бою
+- Переглянуто: `2026-09-13`
 
 ### Операційне визначення
 
-Повторні допустимі атаки зменшують гостроту спорядженої зброї ближнього бою й підвищують ризик відскоку; завершена допустима дія з точильним каменем відновлює шкалу без заміни чи поліпшення зброї.
+Допустимі атаки, блоки або визначені бойові впливи зменшують циклічну шкалу обслуговування спорядженої зброї ближнього бою та змінюють її бойову дію або ризик поломки; завершене допустиме багаторазове польове обслуговування відновлює шкалу без заміни чи поліпшення зброї, а виняток для нульового стану лишається параметром.
 
 ### Включає
 
-Втрату гостроти Hunter's Knife I та її відновлення точильним каменем у визначеному завданні Monster Hunter: World.
+Втрату гостроти Hunter's Knife I, більший ризик відскоку та відновлення точильним каменем у Monster Hunter: World; втрату міцності зброї від атак і блоків, дію малої міцності, відновлення багаторазовим Grinder та ремонт біля Stargazer у Lies of P.
 
 ### Виключає
 
-Витрачання набоїв; постійну міцність зброї; поліпшення в кузні; суто декоративну зміну кольору леза.
+Витрачання набоїв; незворотне руйнування спорядження; скінченний ремонтний набір як єдине джерело відновлення; поліпшення в кузні; суто декоративну зміну кольору леза.
 
 ### Ігри-носії
 
+- [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
+- [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
 
 ## SYS-689
@@ -15993,6 +16046,7 @@ Match Override у Fortnite v42.00 для всього сервера або пе
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0229` — "No Man’s Sky"](../games/m-r/no-mans-sky.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 
 ## SYS-737
 
@@ -16388,7 +16442,9 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
+- [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+- [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 
 ## SYS-756
@@ -17264,6 +17320,8 @@ Mimic, який копіює буденний предмет станції, а 
 ### Ігри-носії
 
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
+- [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
+- [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 
 ## SYS-799
 
@@ -17287,6 +17345,7 @@ Mimic, який копіює буденний предмет станції, а 
 - [`GAME-0277` — Cuphead](../games/a-f/cuphead.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
+- [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 
 ## SYS-800
 
@@ -17939,6 +17998,7 @@ Death's Door у Darkest Dungeon зі штрафами -10 ACC, -25% DMG, -5 SPD 
 ### Ігри-носії
 
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
+- [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 
 ## SYS-833
@@ -18086,6 +18146,7 @@ Rage і Rage Art у визначеному офлайновому матчі Ver
 
 ### Ігри-носії
 
+- [`GAME-0296` — Noita](../games/m-r/noita.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 
 ## SYS-841
@@ -18318,6 +18379,7 @@ Rage і Rage Art у визначеному офлайновому матчі Ver
 ### Ігри-носії
 
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
+- [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 
 ## SYS-853
 
@@ -18339,3 +18401,255 @@ Rage і Rage Art у визначеному офлайновому матчі Ver
 ### Ігри-носії
 
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
+
+## SYS-854
+
+- Назва: Застосовувати типову спорідненість у покроковому бою до шкоди й поразки
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Допустима покрокова атака порівнює свій оголошений тип зі спорідненістю цілі, застосовує відповідний модифікатор шкоди й стан, зменшує здоров’я та усуває учасника після досягнення межі поразки.
+
+### Включає
+
+Фізичні атаки й уміння Persona проти Shadows у межах маршруту Persona 5 Royal палацом 11–12 квітня, зокрема збільшену шкоду та стан Down після влучання у виявлену слабкість.
+
+### Виключає
+
+Вибір уміння чи цілі; додаткову дію після збивання слабкістю (SYS-855); бій через зіткнення в реальному часі; пізніші результати переговорів, Hold Up або All-Out Attack.
+
+### Ігри-носії
+
+- [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
+
+## SYS-855
+
+- Назва: Надавати ще одну дію після збивання ударом у слабкість
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Коли активний персонаж гравця збиває живого ворога, влучивши у його слабкість, система негайно надає цьому персонажеві ще одну бойову дію; повторення умови на іншому ворогові, який стоїть, може продовжити ланцюг до повернення звичайної черговості.
+
+### Включає
+
+Навчання 1 More під час першого відвідання палацу Камошіди 11 квітня у Persona 5 Royal.
+
+### Виключає
+
+Саму зміну шкоди за спорідненістю та результат Down (SYS-854); додаткову дію від витратного підсилення; Baton Pass; Hold Up; All-Out Attack; повний додатковий раунд для загону.
+
+### Ігри-носії
+
+- [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
+
+## SYS-856
+
+- Назва: Замінити особистий профіль крові після живлення
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Після завершення придатного живлення система долає ціль, поповнює особистий запас крові та замінює її поточний тип, якість і набір пасивних ефектів показаними властивостями джерела.
+
+### Включає
+
+Завершення Feed або Bite по придатній ослабленій живій цілі у V Rising.
+
+### Виключає
+
+Звичайну бойову шкоду; підбирання Blood Essence; лікування без зміни типу; одночасне накопичення двох профілів крові.
+
+### Ігри-носії
+
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
+
+## SYS-857
+
+- Назва: Заявити визначену територію через осередок власності
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Прийняте розміщення територіального осередку перетворює одну визначену ніким не зайняту будівельну ділянку на стійку власність гравця й дозволяє сумісне з’єднане будівництво в її межах.
+
+### Включає
+
+Castle Heart, який заявляє вільний Build Location і дозволяє раннє будівництво у V Rising.
+
+### Виключає
+
+Вільну проєкцію радіуса від фундаментів; заснування міста; заявлення зоряної системи; налаштування пізніших прав співвласників; витрату запасу осередку.
+
+### Ігри-носії
+
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
+
+## SYS-858
+
+- Назва: Витрачати й поновлювати запас спрямованої левітації
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Рух угору витрачає обмежений особистий запас польоту, а відпускання команди або опора поновлює його; виснаження повертає персонажа до падіння під дією тяжіння, доки запас достатньо не відновиться.
+
+### Включає
+
+Обмежену левітацію під час дослідженого спуску першими Mines у Noita.
+
+### Виключає
+
+Необмежений стрибок; аеродинаміку літака; лазіння з утриманням поверхні коштом витривалості; режим, запас якого також живить сторонні здібності.
+
+### Ігри-носії
+
+- [`GAME-0296` — Noita](../games/m-r/noita.md)
+
+## SYS-859
+
+- Назва: Виконувати послідовність заклять жезла за його характеристиками
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Активація жезла бере наступну визначену групу заклять у сталому або перемішаному порядку, сплачує ману, застосовує модифікатори жезла й заклять та запускає затримку пострілу і перезарядження до наступної законної активації.
+
+### Включає
+
+Постріли з двох згенерованих початкових жезлів і будь-якого взятого на заміну жезла під час першого спуску Mines у Noita.
+
+### Виключає
+
+Редагування комірок жезла; зброю з одним незмінним снарядом; розіграш видимої карти в стек пріоритету; вибір активного жезла.
+
+### Ігри-носії
+
+- [`GAME-0296` — Noita](../games/m-r/noita.md)
+
+## SYS-860
+
+- Назва: Розв’язувати контактне перетворення змодельованих матеріалів
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Коли сумісні комірки змодельованих матеріалів торкаються, визначена реакція витрачає або замінює реагенти матеріалом-продуктом і зберігає утворені локальні геометрію та стан течії.
+
+### Включає
+
+Перетворення токсичного шламу на воду в місці контакту з водою під час першого спуску Mines у Noita.
+
+### Виключає
+
+Фазовий перехід за температурним порогом; рецепт виготовлення; суто візуальне змішування кольорів; шкоду без зміни обох матеріалів.
+
+### Ігри-носії
+
+- [`GAME-0296` — Noita](../games/m-r/noita.md)
+
+## SYS-861
+
+- Назва: Накладати матеріал контакту як тимчасову пляму персонажа
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Контакт із придатною рідиною або сипким матеріалом покриває персонажа видимою кількістю, застосовує стан цього матеріалу, доки пляма лишається, і дозволяє подальшому змиванню, заміщенню чи висиханню її зменшити.
+
+### Включає
+
+Захист Wet, шкоду від токсичного шламу й змивання шкідливої плями водою під час першого спуску Mines у Noita.
+
+### Виключає
+
+Постійну властивість спорядження; миттєву контактну шкоду без збереженого покриття; невидиму хворобу; саме лише перетворення світового матеріалу.
+
+### Ігри-носії
+
+- [`GAME-0296` — Noita](../games/m-r/noita.md)
+
+## SYS-862
+
+- Назва: Поширювати займання через горючий змодельований матеріал
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Придатне джерело тепла чи полум’я запалює горючий матеріал у місці контакту, вогонь переходить на сумісний сусідній матеріал, а вода або несумісний мокрий стан гасить ділянку чи персонажа.
+
+### Включає
+
+Горіння дерева, олії й забруднених персонажів та гасіння водою під час першого спуску Mines у Noita.
+
+### Виключає
+
+Таймер горіння лише для будівлі; декоративне полум’я; миттєву шкоду вибуху; перетворення матеріалу без поширюваного стану вогню.
+
+### Ігри-носії
+
+- [`GAME-0296` — Noita](../games/m-r/noita.md)
+
+## SYS-863
+
+- Назва: Видаляти комірки змодельованої місцевості дією ефекту
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Допустимий снаряд, вибух або матеріальний ефект видаляє чи зміщує уражені комірки змінної місцевості відповідно до їхньої стійкості й одразу змінює зіткнення, шляхи течії та локальну прохідну геометрію.
+
+### Включає
+
+Початкові снаряди або вибухи жезла, що відкривають сипку й м’яку місцевість під час першого спуску Mines у Noita.
+
+### Виключає
+
+Добування націленої плитки з випадінням у запас; пошкодження одного окремого міцного об’єкта; обмежену деформацію землі лише на матч; візуальні уламки без зміни зіткнень.
+
+### Ігри-носії
+
+- [`GAME-0296` — Noita](../games/m-r/noita.md)
+
+## SYS-864
+
+- Назва: Витрачати й окремо відновлювати багаторазові одиниці здібностей
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Застосування допустимої активної здібності виснажує визначену кількість готових одиниць із малого спільного особистого запасу, запускає окремий для дії час відновлення кожної витраченої одиниці й повертає її до готовності після завершення цього часу.
+
+### Включає
+
+Одиниці шкали Wirebug у MONSTER HUNTER RISE, які витрачають Wiredash, специфічний для зброї Silkbind і Wirefall під час першого Village-полювання; захоплення одного звичайного дикого Wirebug тимчасово додає одну одиницю.
+
+### Виключає
+
+Одну неперервну шкалу витривалості; боєприпаси; єдиний глобальний час відновлення; здібність із власним незалежним запасом зарядів; постійне зростання місткості; ефекти Morphed Wirebug із Sunbreak.
+
+### Ігри-носії
+
+- [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
+
+## SYS-865
+
+- Назва: Перетворювати контакт з ендемічною істотою на обмежену характеристику до кінця квесту
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Контакт із придатною ендемічною істотою прибирає її або позначає зібраною, підвищує визначену особисту характеристику на задану спорядженням величину, обмежує накопичений приріст установленою цим спорядженням межею й скидає його після завершення поточного квесту.
+
+### Включає
+
+Зеленого Spiribird, який підвищує максимальне здоров’я відповідно до спорядженого Petalace під час першого Village-полювання в MONSTER HUNTER RISE.
+
+### Виключає
+
+Підбирання в інвентар; постійний розвиток персонажа; зарахування очок; лікувальний предмет, що відновлює поточне здоров’я без зміни його максимуму на квест; збирання всіх ендемічних помічників на маршруті.
+
+### Ігри-носії
+
+- [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)

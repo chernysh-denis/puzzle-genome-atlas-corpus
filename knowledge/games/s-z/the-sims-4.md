@@ -75,6 +75,13 @@ gene_ids:
 | `TS4-006` | Throwing a house or dinner party completes the scenario and awards an ending with persistent rewards | Observation | Corroborated | High | S1, S2 |
 | `TS4-007` | Motives, mood, relationships and the action queue expose and affect the active Sim's live interaction state | Observation | Corroborated | High | P4, S1, S2 |
 | `TS4-008` | Career, purchases, skills and romance can occur on the route but are not required by this bounded completion packet | Observation | Corroborated | High | S1, S2 |
+| `TS4-009` | EA's 25 August 2026 update identifies PC `1.127.41.1030`, Mac `1.127.41.1230` and console `2.38` as distinct build labels in one dated update line | Confirmed | Direct | High | P1 |
+| `TS4-010` | PlayStation and Xbox are separate clients whose saves, households and add-on entitlements do not transfer from PC or Mac | Confirmed | Direct | High | P5, P9 |
+| `TS4-011` | PC and Mac support third-party Mods and Custom Content, while console does not; quality-approved Marketplace Maker Packs are a separate all-platform channel | Confirmed | Direct | High | P5, P6, P7 |
+| `TS4-012` | The Gallery is shared across computer and console clients, but creations using unsupported Custom Content are filtered from PlayStation and Xbox | Confirmed | Corroborated | High | P6, P8 |
+| `TS4-013` | Console clients have controller-specific mappings and control reminders while also accepting mouse and keyboard input | Confirmed | Corroborated | High | P5, P10 |
+| `TS4-014` | PC and Mac can buy Marketplace content in-game or on the web, while console can browse the web catalogue but must buy and download in-game | Confirmed | Direct | High | P7 |
+| `TS4-015` | Console Standard Edition contains the base game, while Deluxe Party Edition adds three named digital-content sets | Confirmed | Direct | High | P5 |
 
 ## Basic data
 
@@ -85,7 +92,15 @@ gene_ids:
 - Primary sources: **[P1]** [official 25 August 2026 update](https://www.ea.com/pl/games/the-sims/the-sims-4/news/update-8-25-2026),
   **[P2]** [official Scenarios introduction and FAQ](https://www.ea.com/games/the-sims/the-sims-4/scenarios/scenarios),
   **[P3]** [official Welcome Scenarios update](https://forums.ea.com/discussions/the-sims-4-gameplay-en/welcome-to-town-with-three-new-scenarios/8643294),
-  **[P4]** [official player guide](https://cdn-assets-ts4.pulse.ea.com/Guide/TheSims4_PlayersGuide_ENGLISH.pdf).
+  **[P4]** [official player guide](https://cdn-assets-ts4.pulse.ea.com/Guide/TheSims4_PlayersGuide_ENGLISH.pdf),
+  **[P5]** [current console guide](https://help.ea.com/en/articles/the-sims/the-sims-4/console-edition/),
+  **[P6]** [current Mods and Custom Content guide](https://help.ea.com/en/articles/the-sims/the-sims-4/how-to-install-mods-the-sims-4/),
+  **[P7]** [current Marketplace guide](https://help.ea.com/en/articles/the-sims/the-sims-4/marketplace/),
+  **[P8]** [official cross-platform Gallery rollout](https://forums.ea.com/discussions/the-sims-4-gameplay-en/console-patch-notes---january-16th-2020/8579290),
+  **[P9]** [official PC, Mac and console FAQ](https://www.ea.com/games/the-sims/the-sims-4/faq),
+  **[P10]** [official console mouse-and-keyboard follow-up](https://www.ea.com/games/the-sims/the-sims-4/news/update-04-18-2023),
+  **[P11]** [PlayStation product](https://store.playstation.com/en-us/product/UP0006-CUSA09209_00-THESIMS400000000)
+  and **[P12]** [Xbox product](https://www.xbox.com/en-US/games/store/the-sims-4/C08JXNK0VG5L).
 - Secondary sources: **[S1]** [Sims Community New In Town playthrough](https://simscommunity.info/2022/09/02/the-sims-4-scenarios-new-in-town/),
   **[S2]** [Expert Game Reviews New In Town walkthrough](https://expertgamereviews.com/walkthrough-of-the-sims-4-scenario-new-in-town/).
 - Claim IDs: `TS4-001`–`TS4-008`.
@@ -189,8 +204,14 @@ gene_ids:
 
 - Direct predecessors: The Sims, The Sims 2 and The Sims 3; none is currently
   a canonical Atlas game.
-- Variants: console controls and later patches preserve the scoped scenario,
-  while packs add many objects, worlds and social systems excluded here.
+- Variants: the current Mac, PlayStation and Xbox clients use distinct build
+  labels. Computer clients can load third-party Mods and Custom Content;
+  console clients instead omit that unsupported layer, retain separate saves
+  and add-on rights, and use a controller-oriented interface that also accepts
+  mouse and keyboard. Gallery exchange spans both families but filters
+  Custom-Content creations from console, while Marketplace Maker Packs are a
+  separately reviewed all-platform channel. Packs add many objects, worlds and
+  social systems excluded from the canonical scenario target.
 - Similar games: Dwarf Fortress and RimWorld for inspectable persistent
   residents, but neither centres one directly selected household member's
   contextual social menu and authored newcomer scenario.
@@ -251,3 +272,19 @@ gene_ids:
   and Build/Buy tools are excluded because the mandatory New In Town route can
   reach its party-triggered ending without them. Neighborhood Stories and DLC
   are separate modules rather than hidden members of this bounded signature.
+
+## Platform-variant review notes
+
+- The canonical target remains the unmodded PC base game `1.127.41.1030` and
+  retains all twelve genes. The platform review adds no rule to the admitted
+  New In Town route and therefore changes no genome, family, salience or
+  combination membership.
+- The frozen release catalogue retains four non-target `unassessed` records.
+  The exact variant registry additionally names PlayStation 5 and Xbox Series
+  X|S only as backward-compatible hosts evidenced by their current platform
+  stores; it does not manufacture native current-generation editions.
+- EA's general FAQ still contains its launch-era statement that Gallery was
+  absent on console. The later official 2020 rollout and current console-aware
+  Gallery guide supersede that statement for the reviewed current boundary.
+- No claim is made that every pack, Marketplace item, storefront, region,
+  performance profile, online service or historical build has been audited.

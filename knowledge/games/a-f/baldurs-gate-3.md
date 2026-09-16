@@ -62,10 +62,10 @@ gene_ids:
 
 ## Analysis scope
 
-- Version / ruleset: PC Patch 8 at official Hotfix #35, version
-  `4.1.1.6995620`; one fresh single-player Balanced custom-character campaign
-  from character creation through the first completed destroy-the-Netherbrain
-  ending and epilogue.
+- Version / ruleset: PC Standard Edition, Patch 8 at official Hotfix #36,
+  version `4.1.1.7209685`; one fresh single-player Balanced custom-character
+  campaign from character creation through the first completed
+  destroy-the-Netherbrain ending and epilogue.
 - Included: race, class, background, abilities and skill proficiencies;
   exploration and direct four-person party control; dialogue and d20 ability
   checks; Inspiration; companions and approval; initiative, movement, Action,
@@ -92,7 +92,7 @@ gene_ids:
 
 | ID | Claim | Status | Evidence | Confidence | Sources |
 |---|---|---|---|---|---|
-| `BG3-001` | Patch 8 is the final major patch and Hotfix #35 fixes the reviewed PC baseline at `4.1.1.6995620` | Confirmed | Direct | High | P1, P2 |
+| `BG3-001` | Patch 8 is the final major patch and Hotfix #36 fixes the reviewed Standard Edition PC baseline at `4.1.1.7209685` | Confirmed | Direct | High | P1, P2 |
 | `BG3-002` | A custom character binds race, class, background, abilities and proficiencies before the persistent campaign | Observation | Corroborated | High | P3, S1 |
 | `BG3-003` | Dialogue and exploration checks compare d20, ability and proficiency modifiers against a DC; advantage changes the die sample and Inspiration can reroll an eligible failure | Observation | Corroborated | High | S2, S3, S4 |
 | `BG3-004` | Combat orders participants by initiative and refreshes movement, Action, Bonus Action and Reaction resources by turn | Observation | Corroborated | High | S5, S6 |
@@ -106,7 +106,7 @@ gene_ids:
 ## Basic data
 
 - Release / origin: Larian Studios; full release 2023, reviewed at Patch 8 and
-  Hotfix #35 on 2026-08-21.
+  Hotfix #36 on 2026-09-14.
 - Platform or physical form: cinematic single-player party CRPG on PC and
   consoles; this unit scopes the PC single-player client.
 - Puzzle family: tactical forecast and counterplay; resource transformation;
@@ -114,8 +114,8 @@ gene_ids:
 - Primary sources:
   - **[P1]** [official Patch 8 announcement](https://baldursgate3.game/news/the-final-patch-new-subclasses-photo-mode-and-cross-play_138),
     for the final-major-patch boundary and its added subclasses.
-  - **[P2]** [official Hotfix #35 notes](https://baldursgate3.game/news/hotfix-35-now-live_145),
-    for PC version `4.1.1.6995620`.
+  - **[P2]** [official Hotfix #36 notes](https://baldursgate3.game/news/hotfix-36-now-live_149),
+    for the all-platform version `4.1.1.7209685`.
   - **[P3]** [Larian general information](https://larian.com/support/faqs/general-information_46),
     for the player-driven D&D 5e-based RPG, creation and choice boundary.
   - **[P4]** [official Steam product page](https://store.steampowered.com/app/1086940/Baldurs_Gate_3/),

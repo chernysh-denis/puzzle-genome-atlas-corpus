@@ -5208,29 +5208,33 @@
 - Evidence: [Palworld decomposition](../games/m-r/palworld.md).
 - Novelty: not assessed.
 
-## CON-281 — Avatar survival depends on climate-compatible equipment and resources
+## CON-281 — Avatar survival depends on compatible protection and reserve state
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: the avatar's current health and activity remain viable only while
-  the relevant hunger, hydration, temperature exposure, fatigue, stamina,
-  carried load, protection and equipment state stay within recoverable limits
-  for the current region and action.
+  the ruleset's relevant hunger or blood reserve, hydration, temperature or
+  sunlight exposure, fatigue, stamina, carried load, protection and equipment
+  state stay within recoverable limits for the current region and action.
 - Includes: Palworld food, heat/cold protection, stamina, armour and equipment
   durability; The Long Dark's calories, hydration, Warmth, Fatigue, Stamina,
-  carried load, clothing protection and Condition during its timed route.
+  carried load, clothing protection and Condition during its timed route; V
+  Rising health, blood reserve, direct-sun exposure, shade and mist protection.
 - Excludes: companion SAN; custom world-setting multipliers; one boss timer.
-- Parameters: hunger, hydration, temperature, fatigue, protection, stamina,
-  carried load, health, armour, durability, food, drink, rest and recovery.
+- Parameters: hunger or blood reserve, hydration, temperature or sunlight
+  exposure, fatigue, protection, stamina, carried load, health, armour,
+  durability, food or feeding source, rest and recovery.
 - Evidence: [Palworld decomposition](../games/m-r/palworld.md) and
   [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
 - Additional support: [The Long Dark decomposition](../games/s-z/the-long-dark.md),
   where the same survival state governs long traversal and fixed-rope legality.
 - Novelty: not assessed. The hydration, fatigue and load generalisation was
   accepted in
-  [`TAXONOMY_CHANGE_053`](../../research/taxonomy-changes/TAXONOMY_CHANGE_053.md).
+  [`TAXONOMY_CHANGE_053`](../../research/taxonomy-changes/TAXONOMY_CHANGE_053.md);
+  blood reserve and sunlight protection were accepted in
+  [`TAXONOMY_CHANGE_071`](../../research/taxonomy-changes/TAXONOMY_CHANGE_071.md).
 
 ## CON-282 — Main-story encounters require ordered authored gates
 
@@ -5473,20 +5477,27 @@
 - Evidence: [Rust decomposition](../games/m-r/rust.md).
 - Novelty: not assessed.
 
-## CON-295 — Upkeep protection requires connected TC material coverage
+## CON-295 — Building protection requires connected ownership-core reserve coverage
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: a building block avoids grade-specific decay only while connected
-  to a Tool Cupboard whose inventory covers that grade's charged upkeep;
-  separate buildings require separate connected coverage.
-- Includes: Rust wood, stone, metal and armoured upkeep shortages.
+- Definition: a building or territorial structure receives its declared power
+  or decay protection only while connected to the relevant ownership core and
+  that core contains enough compatible reserve for the charged interval;
+  separately owned structures require their own eligible coverage.
+- Includes: Rust Tool Cupboard wood, stone, metal and armoured upkeep shortages;
+  V Rising Castle Heart Blood Essence coverage for its claimed castle.
 - Excludes: direct raid damage; special external-wall coverage; construction cost.
-- Parameters: connection, TC, grade, material, rate, stored quantity and duration.
-- Evidence: [Rust decomposition](../games/m-r/rust.md).
-- Novelty: not assessed.
+- Parameters: connection or territory membership, ownership core, protected
+  class, reserve, rate, stored quantity, duration and shortage state.
+- Evidence: [Rust decomposition](../games/m-r/rust.md) and
+  [V Rising decomposition](../games/s-z/v-rising.md).
+- Novelty: generalised by
+  [`TAXONOMY_CHANGE_071`](../../research/taxonomy-changes/TAXONOMY_CHANGE_071.md);
+  the legality invariant is reserve-backed core coverage, while the exact core,
+  reserve and shortage effect remain parameters.
 
 ## CON-296 — Secured fixture operation requires matching authority
 
@@ -6775,7 +6786,7 @@
 - Definition: the Eye of Cthulhu may enter only through one consumed Suspicious
   Looking Eye at night or its unmet-world natural-spawn predicates, cannot be
   duplicated while a boss is active and must be defeated before dawn escape.
-- Includes: Terraria 1.4.5.6 manual and natural first-Eye conditions.
+- Includes: Terraria 1.4.5.8 manual and natural first-Eye conditions.
 - Excludes: later boss summons; keeping the Eye active through daylight;
   Expert-only encounter behaviour.
 - Parameters: time, summon item, prior defeat, health, defence, town count,
@@ -11496,31 +11507,35 @@
   expiring request, so prioritisation changes the settlement without making one
   missed customer a terminal loss.
 
-## CON-621 — Manual save requires a ready designated fixture with no hostile nearby
+## CON-621 — Manual save requires an eligible designated world fixture
 
 - Lifecycle: `Active`
-- Claim status: `Confirmed`
+- Claim status: `Observation`
 - Evidence quality: `Direct`
 - Confidence: `High`
 - Definition: a manual save is legal only while the controlled actor interacts
-  with a ready designated save fixture and no hostile is currently within
-  that fixture's declared proximity; an accepted save writes a chosen retained
-  slot from a paused interface, and the fixture itself imposes no exposure
-  interval or cooldown.
+  with an eligible designated world fixture and satisfies that fixture's local
+  predicates; an accepted save writes a chosen retained slot without requiring
+  a live exposure interval or a fixture cooldown.
 - Includes: the reception-desk typewriter in Resident Evil 2 (2019 remake)'s
-  scoped Leon opening, which refuses use while enemies are nearby and, on
-  `Standard`, consumes nothing.
+  scoped Leon opening, whose local predicate rejects nearby enemies and whose
+  `Standard` save consumes nothing; a completed Temporary Shelter in The Forest,
+  whose save interaction is separate from sleeping and remains reusable until
+  that shelter is destroyed.
 - Excludes: save-anywhere menu commands; automatic checkpoints; a fixture whose
   save consumes live exposed time or rejects reuse until a cooldown clears;
   rest fixtures that also restore resources or respawn enemies; a hostile
   merely present elsewhere in the level.
-- Parameters: fixture, reach, hostile-proximity predicate, slot count, slot
-  sharing across modes, optional per-save consumable, pause behaviour and the
-  written state.
-- Evidence: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md).
+- Parameters: fixture, authored or player-created origin, reach, local
+  eligibility predicates, slot count, slot sharing across modes, optional
+  per-save consumable, world-time policy and written state.
+- Evidence: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md)
+  and [The Forest decomposition](../games/s-z/the-forest.md).
 - Novelty: first isolated for `GAME-0280`; persistence is fixture-bound and
   hostile-gated yet paused and cooldown-free, so it is neither the exposed
-  station of `CON-602` nor a free menu save.
+  station of `CON-602` nor a free menu save. The hostile predicate became a
+  carrier parameter in
+  [`TAXONOMY_CHANGE_069`](../../research/taxonomy-changes/TAXONOMY_CHANGE_069.md).
 
 ## CON-622 — Skill legality depends on the actor's formation rank and the target's rank
 
@@ -11702,3 +11717,131 @@
   using the official PC manual's charge and post-use prohibition.
 - Novelty: first isolated for `GAME-0288`; charge presence and a second live
   lock jointly govern the same optional continuation.
+
+## CON-629 — Manual save requires an allowed campaign context
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a manual save-slot write is legal only while the campaign is in
+  one of its declared save-enabled contexts; entering a prohibited authored
+  scene or a restricted world region disables the command until an allowed
+  context is restored.
+- Includes: Persona 5 Royal saving from ordinary non-Palace contexts and from a
+  Palace Safe Room, while ordinary Palace corridors and some authored story
+  passages prohibit saving.
+- Excludes: a hostile-proximity test at a designated fixture (`CON-621`); a
+  live interaction interval and cooldown at a save station (`CON-602`);
+  automatic checkpoint writing; the retained history and reload capability
+  itself (`TIM-007`).
+- Parameters: campaign context, region, scene state, safe zone, menu command,
+  slot, enabled state and return condition.
+- Evidence: [Persona 5 Royal decomposition](../games/m-r/persona-5-royal.md).
+- Novelty: first isolated for `GAME-0291`; the save gate follows the current
+  narrative or region context rather than one physical fixture's readiness,
+  proximity, exposure interval or cooldown.
+
+## CON-630 — Feeding requires a weakened living blood-bearing target
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the feeding command is legal only while the addressed target is
+  alive, carries a drainable blood profile, remains within interaction reach and
+  is at or below the ruleset's health threshold; movement, damage or another
+  declared interruption can prevent completion.
+- Includes: V Rising Feed availability on a living target below one quarter
+  health and the uninterrupted channel before Feed or Bite settlement.
+- Excludes: attacking until the threshold is reached; feeding from corpses;
+  Blood Essence pickup; passive life steal; drinking a carried blood item.
+- Parameters: target, living state, blood profile, health threshold, reach,
+  channel, interruption and completion window.
+- Evidence: [V Rising decomposition](../games/s-z/v-rising.md).
+- Novelty: first isolated for `GAME-0294`; target eligibility and channel
+  continuity jointly gate a blood-taking command rather than a restorative item
+  cast or ordinary combat finisher.
+
+## CON-631 — Ownership-core placement requires an eligible unclaimed territory
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a territorial ownership core can be placed only inside a
+  predefined build region that is available to the acting identity, on a legal
+  footprint and with the complete current construction cost; occupied or
+  otherwise ineligible regions reject the claim.
+- Includes: placing the first V Rising Castle Heart in an available Build
+  Location with its required Stone and Blood Essence.
+- Excludes: later construction already authorised inside the territory;
+  configuring clan authority; placing a free-standing deployable; constructing
+  an outpost in a surveyed stellar system.
+- Parameters: identity, region, ownership state, footprint, material cost,
+  placement preview, claim limit and rejection reason.
+- Evidence: [V Rising decomposition](../games/s-z/v-rising.md).
+- Novelty: first isolated for `GAME-0294`; an authored whole-territory
+  availability predicate combines with a placed ownership core and its
+  materials before the claim can exist.
+
+## CON-632 — Wand activation requires ready timing and sufficient mana
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a selected wand may begin its next cast only after its current
+  cast-delay or recharge gate has cleared and when its available mana can pay
+  the next drawn spell group; an illegal attempt produces no cast.
+- Includes: Noita starting and found wands in the scoped first-Mines descent.
+- Excludes: spell preparation and concentration; ammunition magazines; editing
+  the spell sequence; a cooldown that has no resource predicate.
+- Parameters: selected wand, next spell group, mana cost, available mana, cast
+  delay, recharge state, failed activation and readiness disclosure.
+- Evidence: [Noita decomposition](../games/m-r/noita.md).
+- Novelty: first isolated for `GAME-0296`; legality is computed from the next
+  executable contents of a portable wand plus its two timing gates.
+
+## CON-633 — Continued levitation requires remaining flight reserve
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the upward component of directed levitation remains legal only
+  while the actor's current flight reserve is positive; at exhaustion the held
+  input cannot prevent gravity-driven descent.
+- Includes: crossing a first-Mines gap in Noita while preserving enough
+  levitation reserve to reach support.
+- Excludes: stamina needed to grip a surface; a jump count; aircraft stall;
+  reserves that fund attack, defence and movement together.
+- Parameters: current reserve, positive threshold, lift component, held input,
+  exhausted response, gravity and support recovery condition.
+- Evidence: [Noita decomposition](../games/m-r/noita.md).
+- Novelty: first isolated for `GAME-0296`; exhaustion disables only sustained
+  upward locomotion while horizontal motion and falling remain live.
+
+## CON-634 — Ability use requires ready shared units and compatible action context
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an ability drawn from a shared rechargeable unit pool is legal
+  only when enough pool units are currently ready and the controlled actor is
+  in that ability's declared equipment, movement or recovery context.
+- Includes: MONSTER HUNTER RISE Wiredash while the weapon is sheathed,
+  Long Sword Silkbind while it is drawn and Wirefall after an eligible
+  knockback, each requiring its declared ready Wirebug units.
+- Excludes: the resulting unit consumption and recovery (`SYS-864`); ordinary
+  stamina legality; an ability's individual cooldown without a shared unit
+  pool; unrestricted aerial movement.
+- Parameters: ability, required units, current ready units, weapon state,
+  knockback state, grounded or aerial context, target or direction and
+  rejected-input response.
+- Evidence: [MONSTER HUNTER RISE decomposition](../games/m-r/monster-hunter-rise.md),
+  using Capcom's official Wirebug Action manual.
+- Novelty: first isolated for `GAME-0297`; one shared resource predicate joins
+  three mutually distinct control contexts without making their movement or
+  combat outcomes the same system.

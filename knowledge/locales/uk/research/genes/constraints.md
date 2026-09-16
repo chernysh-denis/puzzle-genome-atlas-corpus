@@ -2958,6 +2958,7 @@ The Room вимагає пластину перед викручуванням �
 - [`GAME-0087` — The Longest Journey](../games/s-z/the-longest-journey.md)
 - [`GAME-0085` — The Room](../games/s-z/the-room.md)
 - [`GAME-0090` — The Talos Principle](../games/s-z/the-talos-principle.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 
 ## CON-137
@@ -3809,6 +3810,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
+- [`GAME-0296` — Noita](../games/m-r/noita.md)
 - [`GAME-0155` — Slay the Spire 2](../games/s-z/slay-the-spire-2.md)
 - [`GAME-0120` — Slay the Spire](../games/s-z/slay-the-spire.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
@@ -4597,8 +4599,10 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
+- [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
+- [`GAME-0296` — Noita](../games/m-r/noita.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
 - [`GAME-0203` — "PEAK"](../games/m-r/peak.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
@@ -4608,6 +4612,8 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
+- [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 
 ## CON-211
@@ -5931,6 +5937,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
+- [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 - [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
@@ -6205,20 +6212,20 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 
 ## CON-281
 
-- Назва: Підтримувати тілесні потреби, захист і придатність спорядження
-- Переглянуто: `2026-09-09`
+- Назва: Підтримувати придатні захист і особисті запаси
+- Переглянуто: `2026-09-13`
 
 ### Операційне визначення
 
-Здоров’я й діяльність персонажа лишаються придатними, лише доки потрібні для поточної місцевості голод, запас води, температура, втома, витривалість, вага вантажу, захист і стан спорядження не вийшли за межі відновлення.
+Здоров’я й діяльність персонажа лишаються придатними, лише доки передбачені правилами запаси виживання, впливи довкілля, вага вантажу, захист і стан спорядження перебувають у відновлюваних межах для поточної місцевості та дії.
 
 ### Включає
 
-Їжу, кліматичний захист, витривалість, броню та міцність у Palworld; калорії, запас води, тепло, втому, витривалість, вагу вантажу, одяг і стан здоров’я у The Long Dark.
+Їжу, кліматичний захист і спорядження у Palworld; калорії, воду, тепло, втому й вантаж у The Long Dark; здоров’я, кров, сонячне опромінення, затінок і захисний туман у V Rising.
 
 ### Виключає
 
-Показник психічного стану автономної істоти; користувацькі множники параметрів світу; відлік часу одного боса.
+Стан автономного супутника; користувацькі множники світу; один таймер боса; руйнування будівлі.
 
 ### Ігри-носії
 
@@ -6230,6 +6237,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 
 ## CON-282
 
@@ -6263,6 +6271,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
+- [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
 - [`GAME-0264` — Disco Elysium - The Final Cut](../games/a-f/disco-elysium-the-final-cut.md)
@@ -6278,19 +6287,23 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
+- [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
 - [`GAME-0224` — Once Human](../games/m-r/once-human.md)
+- [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
+- [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
@@ -6437,9 +6450,11 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0220` — Battlefield V](../games/a-f/battlefield-v.md)
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
+- [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
+- [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0203` — "PEAK"](../games/m-r/peak.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
@@ -6487,6 +6502,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 
 ### Ігри-носії
 
+- [`GAME-0289` — American Truck Simulator](../games/a-f/american-truck-simulator.md)
 - [`GAME-0234` — Battlefield 2042](../games/a-f/battlefield-2042.md)
 - [`GAME-0149` — Battlefield 6](../games/a-f/battlefield-6.md)
 - [`GAME-0220` — Battlefield V](../games/a-f/battlefield-v.md)
@@ -6585,6 +6601,8 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 
 - [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 
 ## CON-293
@@ -6631,24 +6649,25 @@ BUILDING BLOCKED, забирання власних об’єктів і вин�
 
 ## CON-295
 
-- Назва: Покривати витрати на утримання кожного матеріалу
-- Переглянуто: `2026-08-24`
+- Назва: Забезпечувати споруди запасом з’єднаного осередку власності
+- Переглянуто: `2026-09-13`
 
 ### Операційне визначення
 
-Будівельний блок не руйнується через нестачу утримання лише доки з’єднаний об’єкт контролю містить достатньо потрібного для цього блока матеріалу; окремі споруди потребують окремого забезпечення.
+Будівля або територіальна споруда отримує передбачене живлення чи захист від руйнування лише тоді, коли належить відповідному осередку власності, а в ньому вистачає сумісного запасу на оплачуваний проміжок.
 
 ### Включає
 
-Нестачу дерева, каменю, металу чи високоякісного металу в Tool Cupboard у Rust.
+Матеріальне покриття через Tool Cupboard у Rust; Blood Essence у Castle Heart для заявленого замку V Rising.
 
 ### Виключає
 
-Безпосередню шкоду рейду; захист спеціальних зовнішніх стін; початкову вартість будівництва.
+Безпосередню шкоду рейду; початкову вартість будівництва; міцність спорядження; право поставити перший осередок.
 
 ### Ігри-носії
 
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 
 ## CON-296
 
@@ -6703,6 +6722,7 @@ Key Lock, Code Lock і замкнений Tool Cupboard у Rust.
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 
 ## CON-298
@@ -7024,6 +7044,7 @@ Knox Infection у режимі Apocalypse Project Zomboid.
 ### Ігри-носії
 
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
+- [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 
 ## CON-313
 
@@ -7262,6 +7283,7 @@ Knox Infection у режимі Apocalypse Project Zomboid.
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
 - [`GAME-0277` — Cuphead](../games/a-f/cuphead.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
+- [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 
@@ -7827,6 +7849,7 @@ Knox Infection у режимі Apocalypse Project Zomboid.
 ### Ігри-носії
 
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
+- [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 
 ## CON-350
@@ -7892,9 +7915,11 @@ Bind за повної котушки, Silkspear і Needolin у Hollow Knight: S
 ### Ігри-носії
 
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
+- [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
+- [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 
 ## CON-353
 
@@ -7938,6 +7963,9 @@ Bind за повної котушки, Silkspear і Needolin у Hollow Knight: S
 
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
+- [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
+- [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
+- [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
@@ -7983,6 +8011,7 @@ Focus Strike діє лише на відкриту рану або відпов�
 
 ### Ігри-носії
 
+- [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
 
@@ -8028,6 +8057,7 @@ Focus Strike діє лише на відкриту рану або відпов�
 
 ### Ігри-носії
 
+- [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
@@ -8051,6 +8081,7 @@ Focus Strike діє лише на відкриту рану або відпов�
 
 ### Ігри-носії
 
+- [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 
 ## CON-360
@@ -8211,7 +8242,7 @@ Eye of Cthulhu можна викликати Suspicious Looking Eye лише в�
 
 ### Включає
 
-Умови ручної та природної першої появи Eye of Cthulhu у Terraria 1.4.5.6.
+Умови ручної та природної першої появи Eye of Cthulhu у Terraria 1.4.5.8.
 
 ### Виключає
 
@@ -8934,6 +8965,7 @@ Reinforce у Helldivers 2 з живим викликувачем і одиниц
 ### Ігри-носії
 
 - [`GAME-0173` — Blue Prince](../games/a-f/blue-prince.md)
+- [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 
 ## CON-404
@@ -9461,6 +9493,7 @@ Reinforce у Helldivers 2 з живим викликувачем і одиниц
 
 ### Ігри-носії
 
+- [`GAME-0289` — American Truck Simulator](../games/a-f/american-truck-simulator.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
 
 ## CON-429
@@ -9482,6 +9515,7 @@ Reinforce у Helldivers 2 з живим викликувачем і одиниц
 
 ### Ігри-носії
 
+- [`GAME-0289` — American Truck Simulator](../games/a-f/american-truck-simulator.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
 
@@ -9504,6 +9538,7 @@ Reinforce у Helldivers 2 з живим викликувачем і одиниц
 
 ### Ігри-носії
 
+- [`GAME-0289` — American Truck Simulator](../games/a-f/american-truck-simulator.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
 
 ## CON-431
@@ -9525,6 +9560,7 @@ Reinforce у Helldivers 2 з живим викликувачем і одиниц
 
 ### Ігри-носії
 
+- [`GAME-0289` — American Truck Simulator](../games/a-f/american-truck-simulator.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
 
 ## CON-432
@@ -9546,6 +9582,7 @@ Reinforce у Helldivers 2 з живим викликувачем і одиниц
 
 ### Ігри-носії
 
+- [`GAME-0289` — American Truck Simulator](../games/a-f/american-truck-simulator.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
 
 ## CON-433
@@ -10896,6 +10933,7 @@ Antonio з нового збереження у звичайному Mad Forest 
 
 - [`GAME-0233` — 7 Days to Die](../games/0-9/7-days-to-die.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
+- [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 
 ## CON-497
 
@@ -12851,6 +12889,7 @@ Scanner, Analysis Visor, Mining Beam, захист від середовища, 
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
+- [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 
@@ -13148,6 +13187,8 @@ Boon першої спроби Hades, обмежені передумовами 
 ### Ігри-носії
 
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
+- [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
+- [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 
 ## CON-605
 
@@ -13361,16 +13402,16 @@ Boon першої спроби Hades, обмежені передумовами 
 
 ## CON-621
 
-- Назва: Ручне збереження потребує готового призначеного об’єкта й відсутності ворогів поруч
-- Переглянуто: `2026-09-08`
+- Назва: Ручне збереження потребує придатного призначеного об’єкта світу
+- Переглянуто: `2026-09-13`
 
 ### Операційне визначення
 
-Ручне збереження допустиме лише тоді, коли керований актор взаємодіє з готовим призначеним об’єктом збереження й жоден ворог не перебуває в оголошеній близькості до нього; прийняте збереження записує обраний збережений слот із зупиненого інтерфейсу, а сам об’єкт не накладає ані проміжку вразливості, ані часу відновлення.
+Ручне збереження допустиме лише тоді, коли керований актор взаємодіє з придатним призначеним об’єктом світу й виконує його місцеві умови; прийняте збереження записує обраний збережений слот без обов’язкового живого проміжку вразливості чи часу відновлення самого об’єкта.
 
 ### Включає
 
-Друкарську машинку на стійці в межах визначеного відкриття сценарію Leon у Resident Evil 2 (2019 remake), яка відмовляє в користуванні, поки вороги поруч, і на Standard нічого не витрачає.
+Друкарську машинку на стійці в межах визначеного відкриття сценарію Leon у Resident Evil 2 (2019 remake), місцева умова якої відхиляє ворогів поруч і чиє збереження на Standard нічого не витрачає; завершений Temporary Shelter у The Forest, де збереження відокремлене від сну й лишається повторно доступним, доки притулок не зруйновано.
 
 ### Виключає
 
@@ -13379,6 +13420,7 @@ Boon першої спроби Hades, обмежені передумовами 
 ### Ігри-носії
 
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
+- [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 
 ## CON-622
 
@@ -13526,3 +13568,129 @@ Smite і Stunning Blow у Reynauld з рядів 1–2 проти рядів 1�
 ### Ігри-носії
 
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
+
+## CON-629
+
+- Назва: Дозволяти ручне збереження лише у придатному стані кампанії
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Ручний запис у слот допустимий лише тоді, коли кампанія перебуває в одному з оголошених станів, де збереження дозволено; авторська сцена або обмежена ділянка світу вимикає команду, доки гра не повернеться до придатного стану.
+
+### Включає
+
+Збереження Persona 5 Royal у звичайних станах поза Palace та в Safe Room усередині Palace, тоді як звичайні коридори Palace і деякі авторські сюжетні уривки забороняють збереження.
+
+### Виключає
+
+Перевірку близькості ворога біля призначеного об’єкта (CON-621); живий проміжок взаємодії та час відновлення станції збереження (CON-602); автоматичний запис контрольної точки; саму збережену історію й можливість завантаження (TIM-007).
+
+### Ігри-носії
+
+- [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
+
+## CON-630
+
+- Назва: Живитися лише від ослабленої живої цілі з кров’ю
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Команда живлення доступна лише тоді, коли близька ціль жива, має придатний профіль крові й не перевищує поріг здоров’я; рух, шкода або інше оголошене переривання можуть не дати завершити дію.
+
+### Включає
+
+Feed по живій цілі з менш ніж чвертю здоров’я й безперервне утримання до Feed або Bite у V Rising.
+
+### Виключає
+
+Атаку до досягнення порога; живлення від трупа; підбирання Blood Essence; пасивне викрадення здоров’я.
+
+### Ігри-носії
+
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
+
+## CON-631
+
+- Назва: Ставити осередок власності лише на придатній вільній території
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Територіальний осередок можна розмістити лише в доступній гравцеві визначеній будівельній ділянці, на законній поверхні та за наявності всієї поточної вартості; зайнята чи непридатна ділянка відхиляє заявлення.
+
+### Включає
+
+Перший Castle Heart у вільному Build Location за потрібні Stone і Blood Essence у V Rising.
+
+### Виключає
+
+Подальше будівництво всередині вже заявленої території; права клану; окремий переносний об’єкт; зоряний аванпост.
+
+### Ігри-носії
+
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
+
+## CON-632
+
+- Назва: Активувати жезл лише після готовності й за достатньої мани
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Обраний жезл може почати наступне застосування лише після завершення поточної затримки пострілу або перезарядження і коли наявної мани вистачає на наступну взяту групу заклять; незаконна спроба не створює пострілу.
+
+### Включає
+
+Початкові й знайдені жезли Noita під час першого спуску Mines.
+
+### Виключає
+
+Підготовку заклять і концентрацію; магазини боєприпасів; редагування послідовності заклять; затримку без умови запасу.
+
+### Ігри-носії
+
+- [`GAME-0296` — Noita](../games/m-r/noita.md)
+
+## CON-633
+
+- Назва: Продовжувати левітацію лише з невичерпаним запасом польоту
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Спрямований угору складник левітації доступний лише доки поточний запас польоту персонажа більший за нуль; після виснаження утримувана команда не може зупинити падіння під дією тяжіння.
+
+### Включає
+
+Перетин розриву в перших Mines Noita зі збереженням достатнього запасу левітації до досягнення опори.
+
+### Виключає
+
+Витривалість для утримання поверхні; кількість стрибків; зрив літака; запас, спільний для нападу, захисту й руху.
+
+### Ігри-носії
+
+- [`GAME-0296` — Noita](../games/m-r/noita.md)
+
+## CON-634
+
+- Назва: Застосовувати здібність лише з готовими спільними одиницями й у сумісному контексті
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Здібність зі спільного відновлюваного запасу одиниць доступна лише тоді, коли готово достатньо одиниць і керований персонаж перебуває у визначеному для цієї здібності стані спорядження, руху або відновлення.
+
+### Включає
+
+Wiredash у MONSTER HUNTER RISE зі схованою зброєю, Long Sword Silkbind із витягнутою зброєю та Wirefall після допустимого відкидання — кожна дія потребує визначених готових одиниць Wirebug.
+
+### Виключає
+
+Саме витрачання й відновлення одиниць; звичайну умову витривалості; окремий час відновлення здібності без спільного запасу одиниць; необмежений рух у повітрі.
+
+### Ігри-носії
+
+- [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)

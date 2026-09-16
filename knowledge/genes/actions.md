@@ -1912,25 +1912,30 @@
 - Evidence: [The Longest Journey decomposition](../games/s-z/the-longest-journey.md).
 - Novelty: not assessed.
 
-## ACT-093 — Contribute inventory quantity to displayed collection slot
+## ACT-093 — Contribute inventory quantity to a displayed requirement
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player addresses one visible collection requirement and
-  irreversibly transfers the displayed quantity of a compatible held inventory
-  type into that requirement's persistent filled state.
+- Definition: the player addresses one visible item requirement and
+  irreversibly transfers a displayed quantity of a compatible held inventory
+  type into that requirement's persistent filled state, whether the receiver
+  is a collection slot or an unfinished construction.
 - Includes: placing one copper, iron or gold bar into its Stardew Valley
   Blacksmith's Bundle slot; placing 99 Slime or 10 Bat Wings into one eligible
-  Adventurer's Bundle slot.
+  Adventurer's Bundle slot; adding one carried stick or leaf at a time to a
+  placed Temporary Shelter outline in The Forest.
 - Excludes: giving an item to an addressed character; combining held items into
   a new identity; paying abstract currency; moving an item between reversible
   inventory containers.
 - Parameters: collection, slot, accepted identities, quantity, minimum quality,
   inventory-stack consumption, reversibility and rejection feedback.
-- Evidence: [Stardew Valley decomposition](../games/s-z/stardew-valley.md).
-- Novelty: not assessed.
+- Evidence: [Stardew Valley decomposition](../games/s-z/stardew-valley.md) and
+  [The Forest decomposition](../games/s-z/the-forest.md).
+- Novelty: collection-slot wording was generalised without changing the
+  irreversible typed-quantity transfer boundary in
+  [`TAXONOMY_CHANGE_069`](../../research/taxonomy-changes/TAXONOMY_CHANGE_069.md).
 
 ## ACT-094 — Rotate world to adjacent orthographic view
 
@@ -3048,14 +3053,19 @@
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: the player selects a known structure and commits a compatible
-  footprint plus construction material as a plan that autonomous workers must supply and build.
+  footprint, orientation and material specification as a persistent plan that
+  a separate player or worker supply-and-build step must complete.
 - Includes: Oxygen Not Included buildings, tiles, wires, pipes, automation
-  wire, ladders and rocket modules.
+  wire, ladders and rocket modules; placing and rotating The Forest's
+  Temporary Shelter outline before any required stick or leaf is contributed.
 - Excludes: instantly materialising an entity from inventory; marking natural
   terrain for digging; stamping a reusable multi-entity blueprint.
 - Parameters: structure, footprint, orientation, material, mass cost, priority and supply state.
-- Evidence: [Oxygen Not Included decomposition](../games/m-r/oxygen-not-included.md).
-- Novelty: not assessed.
+- Evidence: [Oxygen Not Included decomposition](../games/m-r/oxygen-not-included.md)
+  and [The Forest decomposition](../games/s-z/the-forest.md).
+- Novelty: autonomous-worker wording was generalised to the shared separate-
+  completion boundary in
+  [`TAXONOMY_CHANGE_069`](../../research/taxonomy-changes/TAXONOMY_CHANGE_069.md).
 
 ## ACT-149 — Select colony research target
 
@@ -4792,19 +4802,28 @@
 - Evidence: [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
 - Novelty: not assessed.
 
-## ACT-247 — Call and directly steer a spectral field mount
+## ACT-247 — Call and directly steer a personal field mount
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: the player calls an unlocked personal mount, enters or leaves its
-  saddle and directly steers its ground movement, jumps and mounted attacks.
-- Includes: calling and riding Torrent in scoped Elden Ring Limgrave.
+- Definition: the player calls an available personal field mount, enters or
+  leaves its riding state and directly steers its ground movement, jumps and
+  allowed mounted actions.
+- Includes: calling and riding Torrent in scoped Elden Ring Limgrave; calling,
+  mounting, steering, dashing and dismounting the starter Palamute during
+  MONSTER HUNTER RISE's scoped first Village hunt.
 - Excludes: target-routed Seikret travel; autonomous vehicles; fast travel.
-- Parameters: mount availability, call state, direction, jump, attack and health.
-- Evidence: [Elden Ring decomposition](../games/a-f/elden-ring.md).
+- Parameters: mount identity, availability, call state, riding state, direction,
+  speed, jump, mounted action, health and dismount.
+- Evidence: [Elden Ring decomposition](../games/a-f/elden-ring.md) and
+  [MONSTER HUNTER RISE decomposition](../games/m-r/monster-hunter-rise.md).
 - Novelty: not assessed.
+- Change note: wording generalised by
+  [`TAXONOMY_CHANGE_072`](../../research/taxonomy-changes/TAXONOMY_CHANGE_072.md)
+  after a non-spectral directly steered Palamute demonstrated the same control
+  invariant without changing the earlier Elden Ring signature.
 
 ## ACT-248 — Purchase one chosen attribute level with runes
 
@@ -6501,13 +6520,14 @@
 - Novelty: first isolated for `GAME-0187`; the live selection changes embodied
   class function through spawn without either uniqueness or a permanent draft.
 
-## ACT-341 — Commit one contextual authored-object interaction
+## ACT-341 — Commit one contextual stateful-world-object interaction
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player addresses one reachable authored world object and
+- Definition: the player addresses one reachable authored or player-created
+  stateful world object and
   commits its currently legal read, activate, collect, install, repair, unlock
   or open interaction, changing local objective, fixture, inventory or route
   state.
@@ -6531,9 +6551,15 @@
   for investigating the Brigand's Tent curio by hand or ignoring it, and for the ignorable Bandit's Trapped Chest.
 - Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
   for interacting with scroll vats, the treasure chest, wooden doors, the exit, the Collector, Guillain and the fountain.
+- Additional support: [The Forest decomposition](../games/s-z/the-forest.md),
+  for committing the save interaction at the completed player-built Temporary
+  Shelter.
 - Novelty: first isolated for `GAME-0188`; one generic command boundary joins
   readable clues, stateful switches, typed route keys and optional dungeon
   reward objects without treating their different resolutions as one system.
+  Player-created stateful fixtures were admitted by
+  [`TAXONOMY_CHANGE_069`](../../research/taxonomy-changes/TAXONOMY_CHANGE_069.md)
+  without changing that contextual interaction boundary.
 
 ## ACT-342 — Reclaim allocated character-development points at a checkpoint
 
@@ -7226,25 +7252,31 @@
 - Novelty: first isolated for `GAME-0206`; one retained field object changes
   its offence/defence and disclosure role under per-turn history rules.
 
-## ACT-378 — Sharpen the equipped close-range weapon
+## ACT-378 — Maintain the equipped close-range weapon in the field
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: the player commits an exposed whetstone interaction on the
-  equipped close-range weapon so a completed maintenance animation restores
-  its current sharpness gauge while live combat and quest time continue.
-- Includes: sharpening `Hunter's Knife I` during the scoped Monster Hunter:
-  World Great Jagras assignment.
+- Definition: the player commits an exposed reusable maintenance interaction on
+  the equipped close-range weapon so a completed animation restores its current
+  cycling sharpness or durability gauge while live combat and route time
+  continue.
+- Includes: sharpening `Hunter's Knife I` with the whetstone during the scoped
+  Monster Hunter: World Great Jagras assignment; restoring positive weapon
+  Durability with the reusable Grinder during Lies of P's scoped opening.
 - Excludes: consuming a finite healing item; smithy upgrading; automatically
   restoring sharpness after combat; repairing a weapon's persistent durability.
-- Parameters: weapon, whetstone, current sharpness, restored sharpness,
-  animation, interruption, combat state and quest clock.
+- Parameters: weapon, maintenance tool, gauge label, current gauge, restored
+  amount, animation, interruption, combat state and route clock.
 - Evidence: [Monster Hunter: World decomposition](../games/m-r/monster-hunter-world.md).
 - Novelty: first isolated for `GAME-0207`; field maintenance restores a
   repeatedly degraded combat resource through a live interruptible commitment
   without consuming the maintenance tool.
+- Change note: wording generalised by
+  [`TAXONOMY_CHANGE_068`](../../research/taxonomy-changes/TAXONOMY_CHANGE_068.md)
+  after Lies of P's reusable Grinder passed a two-carrier transfer test against
+  Monster Hunter: World's whetstone.
 
 ## ACT-379 — Ram one reachable hostile vehicle
 
@@ -8828,3 +8860,24 @@
   [`TAXONOMY_CHANGE_062`](../../research/taxonomy-changes/TAXONOMY_CHANGE_062.md);
   the player command is distinct from the System settlement that consumes stock
   and raises charge.
+
+## ACT-454 — Channel feeding on one weakened blood-bearing target
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player addresses one reachable weakened living target and
+  holds the contextual feeding command until the channel completes, or commits
+  its allowed early-finish bite, in order to take that target's blood.
+- Includes: V Rising Feed and its Bite finish on an eligible early-world human
+  or creature.
+- Excludes: ordinary melee or spell damage; drinking a carried consumable;
+  collecting Blood Essence from a defeated target; an automatic life-steal
+  effect; interacting with a dead body.
+- Parameters: target, living and blood-bearing state, health threshold, reach,
+  channel duration, cancellation, early finish and accepted completion.
+- Evidence: [V Rising decomposition](../games/s-z/v-rising.md).
+- Novelty: first isolated for `GAME-0294`; the sustained target interaction is
+  a player command with its own legality and interruption boundary, separate
+  from both combat strikes and the resulting blood-profile replacement.

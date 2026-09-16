@@ -637,8 +637,10 @@
 - [`GAME-0098` — Hyperbolica](../games/g-l/hyperbolica.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0093` — Monument Valley](../games/m-r/monument-valley.md)
+- [`GAME-0296` — Noita](../games/m-r/noita.md)
 - [`GAME-0117` — OneShot](../games/m-r/oneshot.md)
 - [`GAME-0105` — Outer Wilds](../games/m-r/outer-wilds.md)
+- [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
@@ -1723,8 +1725,10 @@ Winner Winner Chicken Dinner у PUBG Normal Solo.
 
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
+- [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
+- [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 
@@ -1760,7 +1764,7 @@ Winner Winner Chicken Dinner у PUBG Normal Solo.
 
 ### Включає
 
-Маршрут поступу Terraria Desktop 1.4.5.6 від створення нового світу через першого боса до прибуття Dryad.
+Маршрут поступу Terraria Desktop 1.4.5.8 від створення нового світу через першого боса до прибуття Dryad.
 
 ### Виключає
 
@@ -2044,6 +2048,7 @@ Kick Off у EA SPORTS FC 26 без додаткового часу й серії
 
 ### Ігри-носії
 
+- [`GAME-0289` — American Truck Simulator](../games/a-f/american-truck-simulator.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
 
 ## OBJ-097
@@ -3612,3 +3617,87 @@ Stage 1 West Coast у Need for Speed: The Run від 211-го місця чер�
 ### Ігри-носії
 
 - [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
+
+## OBJ-171
+
+- Назва: Збудувати один притулок для виживання й зберегти стан світу
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Зібрати й внести потрібні місцеві матеріали до одного вільно розміщеного плану притулку для виживання, завершити його як придатний об’єкт світу та прийняти ручне збереження біля нього, щоб поточний уцілілий і змінений світ стали збереженим станом для продовження.
+
+### Включає
+
+Обмежений свіжий початок The Forest на Normal до одного завершеного Temporary Shelter і прийнятої взаємодії збереження біля нього.
+
+### Виключає
+
+Саме лише розміщення незавершеного контуру; сон без збереження; вимогу, щоб притулок лишився після єдиного дозволеного сну; будівництво постійної бази; завершення сюжету чи виживання протягом оголошеного часу.
+
+### Ігри-носії
+
+- [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
+
+## OBJ-172
+
+- Назва: Дійти до першої відновлювальної контрольної точки й зберегти її стан
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Подолати початкові авторські ворота, здобути й призначити першу збережувану бойову здатність, пройти відкритий нею маршрут і використати першу явну точку, яка одночасно повністю відновлює керовані ресурси та записує стан для продовження.
+
+### Включає
+
+Свіжий маршрут Ori and the Will of the Wisps на Normal від Swallow's Nest через два Keystone, Howl і здобуття Spirit Edge до прийнятої взаємодії з першим Spirit Well у Inkwater Marsh.
+
+### Виключає
+
+Саме лише автоматичне збереження; побачений, але не використаний Spirit Well; необов’язковий обхід до Double Jump; повну кампанію; заяву про перевірене перезавантаження без виконаного повернення.
+
+### Ігри-носії
+
+- [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
+
+## OBJ-173
+
+- Назва: Створити й зберегти одне живлене заявлене раннє укриття
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Завершити початковий ланцюг виживання та будівництва, заявити одну придатну територію живленим осередком власності, замкнути навколо потрібних об’єктів ранню захисну огорожу й зберегти змінений світ як наступний стан продовження.
+
+### Включає
+
+Початок V Rising до Castle Heart із Blood Essence, замкненого палісаду, Wooden Coffin, Small Chest і активного Mist Brazier, після чого має відбутися автозбереження та повернення до того самого світу.
+
+### Виключає
+
+Знеживлений Heart; відчинену огорожу; Mist Brazier без палива; вигаданий ранній дах; кам’яне поліпшення; перемогу над V Blood; завершення кампанії.
+
+### Ігри-носії
+
+- [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
+
+## OBJ-174
+
+- Назва: Завершити й зберегти перше одиночне Village-полювання на великого монстра
+- Переглянуто: `2026-09-13`
+
+### Операційне визначення
+
+Пройти свіжий авторський вступ Village через потрібне навчання й попередні ключові квести, перемогти та вирізати матеріал із першої термінової великої цілі, прийняти нагороди полювання й зберегти повернений стан Village як наступну точку продовження.
+
+### Включає
+
+MONSTER HUNTER RISE від Back to Basics через два визначені ключові квести ★1 і Great Izuchi, Great Pain до отримання 900 z та прийнятого ручного збереження в Kamura.
+
+### Виключає
+
+Зупинку на смертельному ударі; захоплення; Hub або мережеві квести; завершення всіх рангів Village; твердження про непроведене контрольне завантаження; поступ Sunbreak.
+
+### Ігри-носії
+
+- [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)

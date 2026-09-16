@@ -1609,7 +1609,7 @@
 - Definition: from a new Classic character and world, prepare through mutable
   terrain, equipment, crafting and housing, defeat the world's first Eye of
   Cthulhu before dawn and keep vacant suitable housing until the eligible Dryad arrives.
-- Includes: Terraria Desktop 1.4.5.6 first-boss-to-Dryad progression boundary.
+- Includes: Terraria Desktop 1.4.5.8 first-boss-to-Dryad progression boundary.
 - Excludes: stopping after the boss drop without Dryad admission; King Slime or
   later bosses; Hardmode entry and full-game completion.
 - Parameters: character, world, preparation route, Eye state, dawn, housing
@@ -3369,3 +3369,101 @@
 - Novelty: first isolated for `GAME-0287`; the terminal completes one
   off-origin settlement dependency chain but deliberately leaves the polity
   and wider campaign continuing.
+
+## OBJ-171 — Build one survival shelter and retain its saved world state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: gather and commit the required local materials to one freely
+  positioned survival-shelter plan, complete it as a usable world fixture and
+  accept a manual save there so the current survivor and altered world become a
+  retained continuation state.
+- Includes: The Forest's bounded fresh Normal start through one completed
+  Temporary Shelter and its accepted save interaction.
+- Excludes: merely placing an unfinished outline; sleeping without saving;
+  requiring the shelter to remain after its one allowed sleep; building a
+  permanent base; completing the story or surviving a declared duration.
+- Parameters: world start, shelter design, position, material requirements,
+  survivor state, completed fixture, save slot, retained snapshot and excluded
+  post-save branch.
+- Evidence: [The Forest decomposition](../games/s-z/the-forest.md).
+- Novelty: first isolated for `GAME-0292`; the constructed object is both the
+  bounded material objective and the fixture that creates the retained
+  terminal, while its optional one-use sleep remains a destructive branch.
+
+## OBJ-172 — Reach and retain the first restorative route checkpoint
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one fresh authored opening through its required finite
+  access items, mandatory guardian and first retained capability, then activate
+  the first declared restorative save point so the completed route becomes the
+  retained continuation state.
+- Includes: Ori and the Will of the Wisps from its unskipped Swallow's Nest
+  prologue through the two-Keystone Spirit Gate, repelled Howl and retained
+  Spirit Edge to the first used Inkwater Marsh Spirit Well.
+- Excludes: stopping at an automatic checkpoint; reaching but not using the
+  save point; acquiring the capability without the later retained checkpoint;
+  taking optional Double Jump, Regenerate or Shard detours; completing the
+  whole campaign.
+- Parameters: entry, access-item type and count, barrier, guardian, retained
+  capability, direct route, save point, restored resources, saved state and
+  verification reload.
+- Evidence: [Ori and the Will of the Wisps decomposition](../games/m-r/ori-and-the-will-of-the-wisps.md).
+- Novelty: first isolated for `GAME-0293`; the terminal deliberately separates
+  dense automatic failure checkpoints from the first player-triggered
+  restorative save after the key, guardian and capability chain.
+
+## OBJ-173 — Establish and retain one powered claimed early shelter
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete the opening survival and construction dependency chain,
+  claim one eligible territory with a powered ownership core, close an early
+  defensive enclosure around its required shelter fixtures and retain that
+  altered world as the next continuation state.
+- Includes: V Rising's fresh normal private-world opening through one positive-
+  Blood-Essence Castle Heart, a shut palisade enclosure, Wooden Coffin, Small
+  Chest and active bone-fuelled Mist Brazier, followed by the intended autosave
+  and same-world reload.
+- Excludes: an unpowered Heart; an open perimeter; a brazier without fuel;
+  assuming an unavailable early roof; upgrading to stone construction;
+  defeating a V Blood boss; completing the campaign.
+- Parameters: opening prerequisites, territory, ownership core, power reserve,
+  connected enclosure, closed opening, shelter fixtures, protection source,
+  saved world and verification reload.
+- Evidence: [V Rising decomposition](../games/s-z/v-rising.md).
+- Novelty: first isolated for `GAME-0294`; the terminal joins a predefined
+  territorial claim and continuously powered core to a closed early shelter,
+  unlike free-positioned shelters or later whole-campaign base objectives.
+
+## OBJ-174 — Complete and retain the first solo large-monster Village hunt
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one fresh authored Village opening through its required
+  training and Key Quest predecessors, defeat and carve the first urgent
+  large-monster target, accept the hunt rewards and save the returned Village
+  state as the retained continuation point.
+- Includes: MONSTER HUNTER RISE from `Back to Basics` through the two fixed ★1
+  Key Quests and `Great Izuchi, Great Pain`, ending after `900 z` settlement
+  and an accepted Kamura manual save.
+- Excludes: stopping on the lethal hit; capture; Hub or multiplayer quests;
+  completing all Village ranks; claiming an unperformed verification reload;
+  Sunbreak progression.
+- Parameters: training, required Key count, chosen predecessors, urgent quest,
+  target, completion method, carve, reward, return hub, save and verification
+  reload.
+- Evidence: [MONSTER HUNTER RISE decomposition](../games/m-r/monster-hunter-rise.md),
+  using Capcom's official quest rules and corroborated opening quest records.
+- Novelty: first isolated for `GAME-0297`; the retained objective joins an
+  authored solo-only predecessor chain to the first large-monster quest
+  settlement rather than one isolated assignment or a later campaign hunt.

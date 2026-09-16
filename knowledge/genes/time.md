@@ -671,3 +671,23 @@
 - Novelty: first isolated for `GAME-0281`; the persistence structure is the
   negation of `TIM-007`'s reversible branching, evidenced as documented rules
   rather than an executed reload.
+
+## TIM-022 — Advance through authored calendar segments after mandatory activity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: completing the currently mandatory story activity advances the
+  campaign to its next authored calendar date or day period, with no free
+  scheduling choice available inside the bounded sequence.
+- Includes: Persona 5 Royal's fixed progression from arrival on 9 April through
+  the first school days and Palace visits to the first Safe Room on 12 April.
+- Excludes: choosing among freely available activities that each consume a time
+  slot; a continuous world clock; a recurring next-day simulation update; a
+  calendar label with no state transition.
+- Parameters: date, day period, mandatory activity, completion predicate,
+  intervening scene and next authored segment.
+- Evidence: [Persona 5 Royal decomposition](../games/m-r/persona-5-royal.md).
+- Novelty: first isolated for `GAME-0291`; the opening calendar advances as an
+  authored sequence before the later discretionary scheduling game begins.

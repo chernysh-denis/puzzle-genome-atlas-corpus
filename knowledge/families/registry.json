@@ -253,7 +253,9 @@
       "GAME-0244",
       "GAME-0254",
       "GAME-0267",
-      "GAME-0276"
+      "GAME-0276",
+      "GAME-0289",
+      "GAME-0296"
     ]
   },
   {
@@ -418,7 +420,12 @@
       "GAME-0282",
       "GAME-0283",
       "GAME-0286",
-      "GAME-0288"
+      "GAME-0288",
+      "GAME-0290",
+      "GAME-0291",
+      "GAME-0293",
+      "GAME-0295",
+      "GAME-0297"
     ]
   },
   {
@@ -596,7 +603,15 @@
       "GAME-0285",
       "GAME-0286",
       "GAME-0287",
-      "GAME-0288"
+      "GAME-0288",
+      "GAME-0289",
+      "GAME-0290",
+      "GAME-0292",
+      "GAME-0293",
+      "GAME-0294",
+      "GAME-0295",
+      "GAME-0296",
+      "GAME-0297"
     ]
   },
   {
@@ -661,8 +676,8 @@
     "slug": "inventory-and-fixture-dependencies",
     "labelEn": "Inventory and fixture dependencies",
     "labelUk": "Залежності інвентарю та стаціонарних пристроїв",
-    "descriptionEn": "Acquire, combine or deliver typed objects to authored recipients and fixtures that gate later state changes.",
-    "descriptionUk": "Отримання, поєднання або доставлення типізованих об’єктів заданим автором отримувачам і стаціонарним пристроям, що відкривають подальші зміни стану.",
+    "descriptionEn": "Acquire, combine or deliver typed objects to addressed recipients and fixtures that gate later state changes.",
+    "descriptionUk": "Отримання, поєднання або доставлення типізованих об’єктів указаним отримувачам і стаціонарним пристроям, що відкривають подальші зміни стану.",
     "gameIds": [
       "GAME-0055",
       "GAME-0085",
@@ -721,7 +736,10 @@
       "GAME-0278",
       "GAME-0279",
       "GAME-0280",
-      "GAME-0285"
+      "GAME-0285",
+      "GAME-0292",
+      "GAME-0294",
+      "GAME-0297"
     ]
   },
   {
@@ -779,7 +797,10 @@
       "GAME-0266",
       "GAME-0272",
       "GAME-0274",
-      "GAME-0286"
+      "GAME-0286",
+      "GAME-0293",
+      "GAME-0294",
+      "GAME-0296"
     ]
   },
   {
@@ -1036,7 +1057,14 @@
       "GAME-0285",
       "GAME-0286",
       "GAME-0287",
-      "GAME-0288"
+      "GAME-0288",
+      "GAME-0290",
+      "GAME-0291",
+      "GAME-0292",
+      "GAME-0293",
+      "GAME-0294",
+      "GAME-0295",
+      "GAME-0297"
     ]
   }
 ]

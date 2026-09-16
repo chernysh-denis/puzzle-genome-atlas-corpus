@@ -23,6 +23,8 @@ instances but do not enter the signature.
 ## Analysis scope
 
 - Version / ruleset:
+- Structured analysis target: add the matching exact entry to
+  `knowledge/platforms/games.json`; do not infer all releases from this target.
 - Primary decision loop:
 - Entry and exit:
 - Included:
@@ -42,7 +44,8 @@ claim that is not a simple citation or question.
 ## Basic data
 
 - Release / origin:
-- Platform or physical form:
+- Platform or physical form: human-readable scope summary; the structured
+  authority is `analysisTarget` under `knowledge/platforms/games.json`.
 - Puzzle family:
 - Primary sources:
 - Secondary sources:
