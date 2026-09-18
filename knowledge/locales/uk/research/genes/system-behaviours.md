@@ -89,6 +89,7 @@
 - [`GAME-0001` — "2048"](../games/0-9/2048.md)
 - [`GAME-0124` — Against the Storm](../games/a-f/against-the-storm.md)
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0304` — Azul](../games/a-f/azul.md)
 - [`GAME-0109` — Candy Crush Saga](../games/a-f/candy-crush-saga.md)
 - [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
 - [`GAME-0161` — Dead by Daylight](../games/a-f/dead-by-daylight.md)
@@ -681,6 +682,7 @@ Flooz у Pipe Dream виходить зі стартової деталі, за�
 - [`GAME-0278` — DAVE THE DIVER](../games/a-f/dave-the-diver.md)
 - [`GAME-0018` — Mini Metro](../games/m-r/mini-metro.md)
 - [`GAME-0051` — Mini Motorways](../games/m-r/mini-motorways.md)
+- [`GAME-0300` — Overcooked! 2](../games/m-r/overcooked-2.md)
 
 ## SYS-031
 
@@ -792,6 +794,7 @@ Dorfromantik додає плитки до стосу за завершені з�
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0028` — Loop Hero](../games/g-l/loop-hero.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
+- [`GAME-0303` — Sifu](../games/s-z/sifu.md)
 
 ## SYS-036
 
@@ -1324,6 +1327,7 @@ World of Goo утворює попередньо показані нитки н�
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
+- [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
@@ -1413,6 +1417,7 @@ Chell або Weighted Storage Cube утримують натиснутою пі�
 
 ### Ігри-носії
 
+- [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
 - [`GAME-0113` — Portal 2 — Cooperative Campaign](../games/m-r/portal-2-co-op.md)
 - [`GAME-0033` — Portal](../games/m-r/portal.md)
 - [`GAME-0094` — Superliminal](../games/s-z/superliminal.md)
@@ -1503,6 +1508,7 @@ Tim розчавлює monstar у Braid стрибком згори, але за
 ### Ігри-носії
 
 - [`GAME-0034` — Braid, Anniversary Edition](../games/a-f/braid.md)
+- [`GAME-0302` — "Captain Toad: Treasure Tracker"](../games/a-f/captain-toad-treasure-tracker.md)
 - [`GAME-0215` — It Takes Two](../games/g-l/it-takes-two.md)
 - [`GAME-0157` — Split Fiction](../games/s-z/split-fiction.md)
 
@@ -4621,6 +4627,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
+- [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0181` — Overwatch](../games/m-r/overwatch.md)
@@ -4850,6 +4857,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
+- [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
@@ -4857,6 +4865,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
+- [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0296` — Noita](../games/m-r/noita.md)
 - [`GAME-0224` — Once Human](../games/m-r/once-human.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
@@ -4877,6 +4886,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
+- [`GAME-0303` — Sifu](../games/s-z/sifu.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
@@ -6946,6 +6956,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 ### Ігри-носії
 
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
+- [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 
 ## SYS-313
@@ -6968,6 +6979,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 ### Ігри-носії
 
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
+- [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 
 ## SYS-315
@@ -7284,6 +7296,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0229` — "No Man’s Sky"](../games/m-r/no-mans-sky.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
@@ -7910,6 +7923,7 @@ Wasps, Snitches, Leapers, Bastions та інші машини ARC на Пове�
 ### Ігри-носії
 
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
+- [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
 
 ## SYS-357
 
@@ -8095,6 +8109,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
+- [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 
@@ -8240,6 +8255,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
+- [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
@@ -8344,6 +8360,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
+- [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
@@ -8461,6 +8478,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
+- [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
@@ -8505,6 +8523,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
+- [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0181` — Overwatch](../games/m-r/overwatch.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
@@ -8877,6 +8896,7 @@ Silk від ударів Needle, Bind та Silk Skills у Hollow Knight: Silkson
 
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
+- [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 
 ## SYS-398
 
@@ -8927,6 +8947,7 @@ Silk від ударів Needle, Bind та Silk Skills у Hollow Knight: Silkson
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
+- [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 
 ## SYS-400
 
@@ -9106,6 +9127,7 @@ Silk від ударів Needle, Bind та Silk Skills у Hollow Knight: Silkson
 - [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
+- [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 
 ## SYS-408
@@ -9151,7 +9173,9 @@ Silk від ударів Needle, Bind та Silk Skills у Hollow Knight: Silkson
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
+- [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
+- [`GAME-0303` — Sifu](../games/s-z/sifu.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 
 ## SYS-411
@@ -12744,6 +12768,7 @@ Wonder, Relic, Score, часову перемогу, кампанійний тр
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0296` — Noita](../games/m-r/noita.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
@@ -12751,6 +12776,7 @@ Wonder, Relic, Score, часову перемогу, кампанійний тр
 - [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
+- [`GAME-0303` — Sifu](../games/s-z/sifu.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0268` — Undertale](../games/s-z/undertale.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
@@ -16045,6 +16071,7 @@ Match Override у Fortnite v42.00 для всього сервера або пе
 
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0229` — "No Man’s Sky"](../games/m-r/no-mans-sky.md)
+- [`GAME-0298` — 'Planet Zoo: Console Edition'](../games/m-r/planet-zoo-console-edition.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 
@@ -16068,6 +16095,7 @@ Match Override у Fortnite v42.00 для всього сервера або пе
 ### Ігри-носії
 
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
+- [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 
@@ -16261,6 +16289,7 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
+- [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 
 ## SYS-748
 
@@ -16806,6 +16835,7 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
+- [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 
 ## SYS-774
 
@@ -17322,6 +17352,7 @@ Mimic, який копіює буденний предмет станції, а 
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
+- [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 
 ## SYS-799
 
@@ -18653,3 +18684,486 @@ Castle Heart, який заявляє вільний Build Location і дозв�
 ### Ігри-носії
 
 - [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
+
+## SYS-866
+
+- Назва: Доставити тварину зі сховища силами працівників
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Після призначення тварини до доступного придатного вольєра вільний прибиральник або ветеринар забирає її зі сховища й перевозить до місця призначення за поточним розкладом працівників.
+
+### Включає
+
+Перевезення бородавочників і страусів із торгового центру під час навчання Goodwin House у Planet Zoo: Console Edition.
+
+### Виключає
+
+Вибір місця гравцем (ACT-458); миттєве перенесення; доставку до вольєра без придатного входу (CON-635); подальше розведення чи випуск на волю.
+
+### Ігри-носії
+
+- [`GAME-0298` — 'Planet Zoo: Console Edition'](../games/m-r/planet-zoo-console-edition.md)
+
+## SYS-867
+
+- Назва: Перераховувати добробут тварин за умовами догляду
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Симуляція безперервно оновлює добробут тварини за харчуванням, соціальними умовами, вольєром і збагаченням середовища, включно з доглядом працівників та доступними об'єктами.
+
+### Включає
+
+Реакцію бородавочників і страусів Goodwin House на годування, воду, збагачення та придатність вольєра.
+
+### Виключає
+
+Незмінну видову оцінку; щастя відвідувачів; саме розміщення об'єкта гравцем (ACT-457); недоведений числовий поріг добробуту для бронзової відзнаки.
+
+### Ігри-носії
+
+- [`GAME-0298` — 'Planet Zoo: Console Edition'](../games/m-r/planet-zoo-console-edition.md)
+
+## SYS-868
+
+- Назва: Змінювати удари відповідно до вибраної стійки
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Поточна стійка змінює доступні удари спорядженою ближньою зброєю, їхню швидкість, досяжність і відкритість після виконання, не замінюючи саму зброю та особисті запаси.
+
+### Включає
+
+Відмінності високої, середньої й низької стійки в першій місії Nioh 2 для PS4.
+
+### Виключає
+
+Заміну спорядження; незмінний клас персонажа; тимчасове перетворення на інше тіло; саме натискання перемикання стійки.
+
+### Ігри-носії
+
+- [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
+
+## SYS-869
+
+- Назва: Повертати силу імпульсом і очищувати близьку пляму
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Прийнятий імпульс після удару відразу відновлює доступну частину нещодавно витраченої сили та прибирає сусідню ворожу пляму, яка сповільнює відновлення, якщо така пляма є.
+
+### Включає
+
+Повернення Ki через Ki Pulse й очищення сусідньої плями світу йокаїв у першій місії Nioh 2.
+
+### Виключає
+
+Звичайне автоматичне відновлення Ki; очищення цілого Темного світу через перемогу над його джерелом; вільний імпульс без попереднього удару.
+
+### Ігри-носії
+
+- [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
+
+## SYS-870
+
+- Назва: Утримувати Темний світ, доки не здолано його джерело
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Створена правилами ворожа область сповільнює відновлення запасу гравця, посилює ворогів і блокує визначені об'єкти, доки живий її йокай-джерело; перемога над ним прибирає область і знову відкриває ці об'єкти.
+
+### Включає
+
+Темний світ йокая Enki, який блокує внутрішнє святилище в першій місії Nioh 2.
+
+### Виключає
+
+Окрему пляму світу йокаїв, яку очищує Ki Pulse; звичайне привернення уваги ворога; область, що зникає сама після таймера.
+
+### Ігри-носії
+
+- [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
+
+## SYS-871
+
+- Назва: Очищувати й налаштовувати здобуту здібність ворога
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Придатний переможений ворог може залишити переносне ядро здібності; очищення в контрольній точці робить його придатним до використання, а налаштування на сумісного духа-охоронця відкриває активну здібність.
+
+### Включає
+
+Доставку ядра душі Enki до святилища, його очищення й налаштування на поточного духа-охоронця в першій місії Nioh 2.
+
+### Виключає
+
+Автоматичне отримання здібності під час підбирання; подальше застосування здібності; підвищення рівня чи купівлю навички; гарантоване збереження неочищеного ядра після повторної смерті.
+
+### Ігри-носії
+
+- [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
+
+## SYS-872
+
+- Назва: Зберігати підготовлений інгредієнт на тарілці
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Викладання підготовленого інгредієнта на придатну тарілку змінює її вміст і створює страву, яку можна звірити із замовленням.
+
+### Включає
+
+Нарізана риба або нарізана креветка на тарілці утворює відповідне сашимі в кухні 1-1 Overcooked! 2.
+
+### Виключає
+
+Саме нарізання; подачу страви; вигаданий багатокомпонентний рецепт поза цією кухнею; створення предмета з меню виготовлення.
+
+### Ігри-носії
+
+- [`GAME-0300` — Overcooked! 2](../games/m-r/overcooked-2.md)
+
+## SYS-873
+
+- Назва: Нараховувати очки й комбінацію за порядком замовлень
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Прийняття страви, що відповідає чинному замовленню, вилучає це замовлення та додає належні очки; виконання рецептів у показаному порядку замовлень зберігає або збільшує множник комбінації.
+
+### Включає
+
+Своєчасну подачу замовленого сашимі в кухні 1-1 Overcooked! 2 з дотриманням показаної черги замовлень.
+
+### Виключає
+
+Появу замовлення; вичерпання його часу; подачу сирого інгредієнта; підсумкове визначення зірок; правила підрахунку очок карткової гри.
+
+### Ігри-носії
+
+- [`GAME-0300` — Overcooked! 2](../games/m-r/overcooked-2.md)
+
+## SYS-874
+
+- Назва: Перетворювати рахунок кухні на зірки й доступ
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Після завершення кухні система звіряє підсумковий рахунок із порогами зірок, присуджує досягнуту оцінку й відкриває наступний вузол Story за наявності необхідного мінімуму.
+
+### Включає
+
+Описаний результат кухні 1-1 Overcooked! 2 з першою зіркою та доступом до 1-2; точні пороги поточної збірки оригінальної Switch не перевірено.
+
+### Виключає
+
+Зміну очок уже поданої страви; четверту зірку Нової гри плюс; відкриття наступного вузла до підсумку; оцінку за час водіння.
+
+### Ігри-носії
+
+- [`GAME-0300` — Overcooked! 2](../games/m-r/overcooked-2.md)
+
+## SYS-875
+
+- Назва: Оновлювати й переносити обмежений запас очок дії
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+На початку ходу запас очок дії персонажа поповнюється; невитрачену частину попереднього ходу можна перенести, але загальний запас має верхню межу. Рух і атаки віднімають свою ціну з цього самого запасу.
+
+### Включає
+
+Бій Іфана з порожняками на головній палубі Divinity: Original Sin 2 - Definitive Edition, де переміщення й атака конкурують за очки дії.
+
+### Виключає
+
+Отримання очок дії за вдалу атаку чи захист; окремі ресурси дії, бонусної дії та руху з Baldur's Gate 3; спільний запас загону; відновлення витривалості в реальному часі.
+
+### Ігри-носії
+
+- [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
+
+## SYS-876
+
+- Назва: Гасити місцевий вогонь водою з предмета
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Вода, випущена зі світового предмета, вкриває місцеву поверхню й гасить вогонь у зоні перетину, змінюючи прохідність або небезпеку до наступної команди.
+
+### Включає
+
+Епізод із бочкою води й палаючою поверхнею на верхній палубі у Divinity: Original Sin 2 - Definitive Edition.
+
+### Виключає
+
+Зміну поверхні цільовим закляттям; поширення струму через воду; ураження фізичної чи магічної броні; суто декоративне полум’я.
+
+### Ігри-носії
+
+- [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
+
+## SYS-877
+
+- Назва: Виконати прийом Focus після вибору цілі
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Після підтвердження прицільного прийому система списує вказаний заряд Focus і застосовує обраний ефект знерухомлення або шкоди до придатного супротивника.
+
+### Включає
+
+Один прицільний прийом Focus у першому сховку Sifu на складності Disciple.
+
+### Виключає
+
+Вибір цілі гравцем; накопичення заряду в бою; звичайне добивання після зламу стійки; прийом, залежний від зброї.
+
+### Ігри-носії
+
+- [`GAME-0303` — Sifu](../games/s-z/sifu.md)
+
+## SYS-878
+
+- Назва: Повернути героя ціною дедалі більшого віку
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Після дозволеного повернення талісман відновлює бійця на місці смерті та додає до його віку значення поточного лічильника смертей; повторні смерті підвищують цей лічильник до окремого скидання.
+
+### Включає
+
+Перший сховок Sifu: перше повернення додає рік, наступне — два, якщо лічильник не зменшено.
+
+### Виключає
+
+Воскресіння за бойовий заряд; повернення на контрольну точку; скидання лічильника після розділу; перевірку, чи вистачає життя на ще одне повернення; омолодження.
+
+### Ігри-носії
+
+- [`GAME-0303` — Sifu](../games/s-z/sifu.md)
+
+## SYS-879
+
+- Назва: Записати вік після розділу й скинути лічильник смертей
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Після завершення сюжетного розділу система записує точку початку наступного розділу з поточним віком героя та скидає наростаючий лічильник смертей, не омолоджуючи героя.
+
+### Включає
+
+Перемогу над Фаджаром у першому сховку Sifu й перенесення кінцевого віку до наступного розділу.
+
+### Виключає
+
+Відновлення всередині тієї самої сутички; скидання віку після боса; необов’язкову купівлю постійної навички; твердження про особисто перевірене завантаження.
+
+### Ігри-носії
+
+- [`GAME-0303` — Sifu](../games/s-z/sifu.md)
+
+## SYS-880
+
+- Назва: Перенести невибрані плитки майстерні до центру
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Після вибору одного кольору з майстерні всі плитки інших кольорів переходять у спільний центр, а ця майстерня лишається порожньою до кінця раунду.
+
+### Включає
+
+Набір із майстерні в Azul, де залишилися плитки інших кольорів.
+
+### Виключає
+
+Вибір безпосередньо з центру; наповнення майстерні в тому самому раунді; скидання залишку до кришки коробки.
+
+### Ігри-носії
+
+- [`GAME-0304` — Azul](../games/a-f/azul.md)
+
+## SYS-881
+
+- Назва: Перенести завершені підготовчі рядки на стіну
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Наприкінці раунду кожен повний підготовчий рядок переносить одну плитку у фіксовану клітинку цього кольору відповідного ряду стіни; решта плиток цього рядка йде до кришки коробки, а неповні рядки залишаються.
+
+### Включає
+
+Заповнення стіни стандартного кольорового боку планшета Azul згори вниз.
+
+### Виключає
+
+Початковий вибір рядка гравцем; довільна клітинка стіни; очищення неповного рядка; очки за нову клітинку.
+
+### Ігри-носії
+
+- [`GAME-0304` — Azul](../games/a-f/azul.md)
+
+## SYS-882
+
+- Назва: Оцінити нову плитку за суміжними лініями
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Щойно плитка опиняється на стіні, вона дає одне очко без сусідів або довжини суцільних горизонтальної та вертикальної ліній через себе; якщо є обидві лінії, плитку зараховують у кожній.
+
+### Включає
+
+Звичайний підрахунок очок за розміщення на стіні Azul.
+
+### Виключає
+
+Кінцеві бонуси за повні ряди, стовпці та кольори; діагональ; неповний підготовчий рядок.
+
+### Ігри-носії
+
+- [`GAME-0304` — Azul](../games/a-f/azul.md)
+
+## SYS-883
+
+- Назва: Списати наростаючий штраф за плитки на підлозі
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Після заповнення стіни система віднімає вартість зайнятих місць штрафної лінії, не знижує рахунок нижче нуля, скидає звичайні плитки й звільняє маркер першого гравця для наступного раунду.
+
+### Включає
+
+Сім штрафних місць Azul із ціною 1, 1, 2, 2, 2, 3 і 3 очки.
+
+### Виключає
+
+Вибір гравця відправити плитки на підлогу; однаковий штраф за кожне місце; вилучення плиток зі стіни.
+
+### Ігри-носії
+
+- [`GAME-0304` — Azul](../games/a-f/azul.md)
+
+## SYS-884
+
+- Назва: Дати наступний перший хід першому відвідувачу центру
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Перший гравець, який у раунді бере плитки зі спільного центру, забирає маркер першого гравця, займає ним штрафне місце й починає наступний раунд.
+
+### Включає
+
+Маркер центру Azul і право першого ходу наступного раунду.
+
+### Виключає
+
+Вибір із майстерні до першого набору з центру; зміну черговості поточного раунду; маркер без штрафу.
+
+### Ігри-носії
+
+- [`GAME-0304` — Azul](../games/a-f/azul.md)
+
+## SYS-885
+
+- Назва: Наповнити майстерні зі скінченного мішка й повернути скинуте
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Перед новим раундом майстерні отримують до встановленої кількості випадкових плиток зі скінченного мішка; коли мішок порожній, плитки з кришки повертаються в нього, а за браку обох запасів майстерні можуть бути неповними.
+
+### Включає
+
+П’ять майстерень по чотири плитки в партії Azul на двох.
+
+### Виключає
+
+Створення нових плиток; поповнення під час набору; повернення плиток зі стін чи підготовчих рядків.
+
+### Ігри-носії
+
+- [`GAME-0304` — Azul](../games/a-f/azul.md)
+
+## SYS-886
+
+- Назва: Додати кінцеві бонуси за завершені набори стіни
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Після завершення гри система одноразово додає очки за кожен повний горизонтальний ряд, вертикальний стовпець і набір усіх п’яти плиток одного кольору на стіні.
+
+### Включає
+
+Бонуси Azul: два очки за ряд, сім за стовпець і десять за колір.
+
+### Виключає
+
+Очки за окрему плитку під час раунду; штраф підлоги; бонус до перевірки завершення гри.
+
+### Ігри-носії
+
+- [`GAME-0304` — Azul](../games/a-f/azul.md)
+
+## SYS-887
+
+- Назва: Доставляти зібраний матеріал у вибране місце світу
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Після призначення постійному самостійному напарнику виду матеріалу й місця в світі він шукає доступні джерела, несе сумісний матеріал і складає його в цій точці без постійного керування гравцем, повторюючи завдання, доки воно доступне.
+
+### Включає
+
+Кельвін збирає колоди й складає їх біля місця, вибраного гравцем у Sons Of The Forest.
+
+### Виключає
+
+Ручне підбирання гравцем; доставку працівником у спільний склад; миттєве нарахування матеріалу; додавання доставленого матеріалу до креслення самим гравцем; напарника без призначеного завдання.
+
+### Ігри-носії
+
+- [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
+
+## SYS-888
+
+- Назва: Відкривати короткий проміжок для зриву тривоги після виявлення
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Коли відповідний ворог уперше помічає героя, система автоматично сповільнює події на короткий час; якщо гравець знешкодить саме цього спостерігача до завершення проміжку, той не встигне сповістити союзників, інакше звичайне поширення тривоги триває.
+
+### Включає
+
+Режим Reflex Mode під час проникнення в першу місію Phantom Limbs на Xbox One у METAL GEAR SOLID V: THE PHANTOM PAIN.
+
+### Виключає
+
+Сповільнення прицілювання, яке гравець вмикає вручну; скасування вже переданої по радіо тривоги; паузу для покрокового планування; гарантовану непомітність після завершення короткого проміжку.
+
+### Ігри-носії
+
+- [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)

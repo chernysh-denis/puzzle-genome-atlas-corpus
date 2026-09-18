@@ -3467,3 +3467,88 @@
 - Novelty: first isolated for `GAME-0297`; the retained objective joins an
   authored solo-only predecessor chain to the first large-monster quest
   settlement rather than one isolated assignment or a later campaign hunt.
+
+## OBJ-175 — Earn the first Goodwin House Career Bronze award
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: from a fresh Goodwin House Career tutorial, satisfy the authored
+  exploration, adoption and habitat-setup predicates for its first award and
+  end when Bronze becomes visibly registered, before any Silver-stage work.
+- Includes: the written-source route through Warthog care and the gated,
+  path-connected Ostrich habitat with four adopted Ostriches in Planet Zoo:
+  Console Edition's base-product analysis.
+- Excludes: stopping at an unregistered checklist item; earning Silver or
+  Gold; a Timed Scenario; free-form Sandbox success; a claimed directly earned
+  Xbox medal without a performed run.
+- Parameters: scenario version, objective text, required species and counts,
+  completed predicates, visible Bronze award and successor availability.
+- Evidence: [Planet Zoo: Console Edition decomposition](../games/m-r/planet-zoo-console-edition.md),
+  using Frontier's Career guide and two older written objective checklists;
+  exact current Xbox objective parity remains unverified.
+- Novelty: first isolated for `GAME-0298`; the finite authored management
+  award is distinct from generic accumulation or endless zoo operation.
+
+## OBJ-176 — Earn the first ordinary kitchen progression star
+
+- Lifecycle: `Active`
+- Claim status: `Hypothesis`
+- Evidence quality: `Limited`
+- Confidence: `Low`
+- Definition: complete a first scored Story kitchen with a final service
+  score meeting its minimum one-star threshold and thereby reach the next
+  map node, without requiring higher-star replay.
+- Includes: Overcooked! 2's reported solo 1-1 one-star result and access to
+  1-2 in the original Switch base-game packet, pending direct Switch check.
+- Excludes: the mandatory tutorial alone; maximising score without a
+  progression boundary; New Game+ fourth star; claiming a reload was observed.
+- Parameters: kitchen identity, player count, score threshold, awarded star,
+  successor node and persistence after return to map.
+- Evidence: [Overcooked! 2 decomposition](../games/m-r/overcooked-2.md),
+  using the level-specific written star chart; installed Switch parity is
+  unverified.
+- Novelty: first isolated for `GAME-0300`; a bounded scored kitchen award
+  governs immediate Story progression rather than endless service score.
+
+## OBJ-177 — Win the terminal wall-score comparison
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a legal round-completion terminal, have the highest score
+  after placement, floor and end-game bonus settlement; tied scores compare
+  complete horizontal rows, then remain a shared win if still tied.
+- Includes: the two-player original Azul base game's final ranking.
+- Excludes: maximising provisional score without a terminal comparison;
+  ending on a vertical-column completion alone; inventing a further tie-break.
+- Parameters: final scores, complete rows, winner and unresolved tie.
+- Evidence: [Azul decomposition](../games/a-f/azul.md), official rules.
+- Novelty: first isolated for `GAME-0304`; a spatial row threshold ends
+  drafting, but score and row-count ranking determine the winner.
+
+## OBJ-178 — Extract a designated living subject and depart with them
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: locate the declared living mission subject, keep that subject
+  viable, transport or escort them into a currently usable evacuation vehicle,
+  then board or depart as the controlled rescuer so the mission's required
+  rescue result can settle.
+- Includes: loading injured Kazuhira Miller into the second available
+  helicopter and boarding it to complete the first `Phantom Limbs` mission
+  in METAL GEAR SOLID V: THE PHANTOM PAIN.
+- Excludes: finding the subject but leaving them behind; reaching a blocked
+  pickup marker; rescuing an optional extra prisoner; autonomous Pikmin
+  carriers delivering a castaway; collecting a quota of mineral payloads;
+  treating extraction as an optional bonus after an already-settled objective.
+- Parameters: target identity, viable state, rescue route, transport mode,
+  usable vehicle, subject loading, rescuer boarding and mission settlement.
+- Evidence: [METAL GEAR SOLID V: THE PHANTOM PAIN decomposition](../games/m-r/metal-gear-solid-v-the-phantom-pain.md),
+  official Xbox One carry/board controls and independent Mission 1 route.
+- Novelty: first isolated for `GAME-0306`; a protected living subject and
+  rescuer have distinct required departure states at the same active vehicle.

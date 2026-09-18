@@ -8881,3 +8881,253 @@
 - Novelty: first isolated for `GAME-0294`; the sustained target interaction is
   a player command with its own legality and interruption boundary, separate
   from both combat strikes and the resulting blood-profile replacement.
+
+## ACT-455 — Edit a persistent pedestrian and staff path graph
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player places, extends or removes connected pedestrian path
+  segments whose branching graph determines which guest and staff destinations
+  are reachable without directly steering those agents.
+- Includes: joining the Goodwin House ostrich habitat gate to an existing path
+  in Planet Zoo: Console Edition.
+- Excludes: a vehicle road graph (`ACT-068`); one fixed unbranching puzzle path;
+  cosmetic ground paint; direct control of a visitor or keeper.
+- Parameters: path class, segment geometry, connection, accessible agent type,
+  placement cost and deletion rule.
+- Evidence: [Planet Zoo: Console Edition decomposition](../games/m-r/planet-zoo-console-edition.md),
+  using Frontier's building guide.
+- Novelty: first isolated for `GAME-0298`; guest and staff paths carry agents
+  but are not the vehicle-road graph owned by `ACT-068`.
+
+## ACT-456 — Author a closed animal-habitat barrier and its gate
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player places or edits contiguous barrier segments and one
+  staff gate to form an addressable animal enclosure whose boundary and entry
+  remain part of the live zoo state.
+- Includes: completing the Common Ostrich habitat loop, gate and glass viewing
+  section in Goodwin House.
+- Excludes: a generic room wall with no animal containment; a path connection
+  outside the enclosure (`ACT-455`); automatic validity adjudication
+  (`CON-635`); placing feeding or viewing fixtures (`ACT-457`).
+- Parameters: segment material, strength, opacity, height, loop geometry, gate
+  position, species and edit cost.
+- Evidence: [Planet Zoo: Console Edition decomposition](../games/m-r/planet-zoo-console-edition.md),
+  using Frontier's building guide.
+- Novelty: first isolated for `GAME-0298`; containment topology is a separate
+  authored object from circulation paths and discrete fixtures.
+
+## ACT-457 — Place a discrete animal-care or viewing fixture
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player places a selected discrete fixture at a legal zoo
+  position, adding its typed care or visitor-facing affordance to the current
+  habitat or adjoining viewing area.
+- Includes: Goodwin House feeding and water stations, toy or food enrichment
+  and a donation box beside the ostrich viewing section.
+- Excludes: drawing habitat barriers (`ACT-456`); editing path segments
+  (`ACT-455`); an ordinary owned production building (`ACT-139`); a caretaker
+  actually feeding an animal.
+- Parameters: fixture type, species compatibility, placement location, cost,
+  service range, availability and removal.
+- Evidence: [Planet Zoo: Console Edition decomposition](../games/m-r/planet-zoo-console-edition.md),
+  using Frontier's building and animal guides.
+- Novelty: first isolated for `GAME-0298`; fixture placement makes a typed
+  affordance available but does not itself transport an animal or settle welfare.
+
+## ACT-458 — Assign a stored animal to a chosen valid habitat
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player selects an animal already held in zoo storage and
+  orders its transfer to one chosen eligible habitat, leaving movement and
+  delivery to available staff.
+- Includes: assigning adopted Goodwin House Warthogs and Ostriches from the
+  Trade Centre to their corresponding habitat.
+- Excludes: purchasing the animal (`ACT-130`); directly carrying it through
+  the zoo; staff's autonomous delivery (`SYS-866`); assigning an invalid
+  habitat as if the order had succeeded.
+- Parameters: stored animal, destination habitat, eligibility, transfer order,
+  staff availability and cancellation.
+- Evidence: [Planet Zoo: Console Edition decomposition](../games/m-r/planet-zoo-console-edition.md),
+  using Frontier's animal and building guides.
+- Novelty: first isolated for `GAME-0298`; adoption, destination choice and
+  autonomous transport are distinct transitions.
+
+## ACT-459 — Select a live weapon stance
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during directly controlled combat the player switches the
+  equipped close weapon among its declared stances, immediately selecting a
+  different family of attack speed, reach and commitment for later strikes.
+- Includes: choosing high, middle or low stance for an equipped weapon in
+  Nioh 2's bounded first PS4 mission.
+- Excludes: changing the weapon itself; setting a formation for autonomous
+  units; one timed parry; a stance selected only before the encounter.
+- Parameters: weapon, available stance set, selected stance, input timing,
+  animation and compatible next attacks.
+- Evidence: [Nioh 2 decomposition](../games/m-r/nioh-2.md), using Sony's
+  opening-hours guide and Koei Tecmo's PS4 controls.
+- Novelty: first isolated for `GAME-0299`; one live mode command changes the
+  same weapon's subsequent attack geometry without replacing its equipment.
+
+## ACT-460 — Commit a timed post-attack reserve pulse
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after an eligible attack the player commits a pulse within its
+  brief visual recovery window, reclaiming the currently recoverable share of
+  a spent exertion reserve and applying any declared local purification.
+- Includes: a timed Ki Pulse after a weapon strike, with Yokai Realm patch
+  purification when the player is close enough, in Nioh 2's first mission.
+- Excludes: passive time-based regeneration; a consumable refill; pulsing
+  before any qualifying attack; a shield guard or Burst Counter.
+- Parameters: preceding attack, cue, timing window, recoverable amount, stance
+  transition, nearby patch and purification radius.
+- Evidence: [Nioh 2 decomposition](../games/m-r/nioh-2.md), using Sony's
+  opening-hours guide and Koei Tecmo's PS4 controls.
+- Novelty: first isolated for `GAME-0299`; the player recovers a just-spent
+  action budget through a new timed commitment rather than by waiting.
+
+## ACT-461 — Submit a carried prepared dish at a service hatch
+
+- Lifecycle: `Active`
+- Claim status: `Pattern`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the player carries a completed plated dish to a shared service
+  fixture and commits its hand-off for matching against the live request
+  queue, removing that dish from the chef's carried state.
+- Includes: delivering a chopped fish or shrimp sashimi plate to Overcooked!
+  2's first Story kitchen service hatch.
+- Excludes: delivering a selected item to an addressed NPC (`ACT-091`);
+  merely placing the food onto a plate; automatic order fulfilment without
+  a carried-dish submission; submitting an unprepared ingredient.
+- Parameters: chef, carried plate, service fixture, ticket queue, hand-off
+  timing and accepted-dish feedback.
+- Evidence: [Overcooked! 2 decomposition](../games/m-r/overcooked-2.md),
+  using the first-kitchen written guide and Team17's service rules.
+- Novelty: first isolated for `GAME-0300`; the commitment addresses a shared
+  fixture and live queue rather than a particular visible character.
+
+## ACT-462 — Aim and commit a charge-paid weak-point technique
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while a personal combat charge is ready, the player enters a
+  slowed targeted-selection interval, chooses an eligible hostile weak point
+  and commits one special close-combat technique that consumes the charge.
+- Includes: selecting a Sifu Focus target and spending a Focus charge in the
+  bounded Disciple first Hideout.
+- Excludes: ordinary close strikes; automatic target switching; God of War's
+  weapon-specific Focus Strike (`ACT-246`); a cooldown-only ability; a
+  technique chosen without a distinct targeted-selection interval.
+- Parameters: focus reserve, target, weak point, selection interval, technique,
+  charge cost and committed effect.
+- Evidence: [Sifu decomposition](../games/s-z/sifu.md), using Sloclap's
+  official combat-system article.
+- Novelty: first isolated for `GAME-0303`; live combat earns a later
+  player-aimed close technique through a slow-time charge commitment.
+
+## ACT-463 — Confirm pendant continuation after lethal defeat
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during the post-defeat choice interval, the player confirms
+  immediate continuation with an eligible life-restoring pendant rather than
+  letting the current attempt end.
+- Includes: rising after a death in Sifu's first Disciple Hideout when the
+  pendant can still restore the fighter.
+- Excludes: automatically respawning at a checkpoint; Sekiro's ready-charge
+  Resurrection (`ACT-452`); a teammate reviving the player; choosing a skill
+  at the same death screen; the automatic age increase after confirmation.
+- Parameters: defeat state, choice interval, pendant eligibility, confirmation
+  and continuation request.
+- Evidence: [Sifu decomposition](../games/s-z/sifu.md), using Sloclap's
+  official death-and-aging article.
+- Novelty: first isolated for `GAME-0303`; this choice trades age rather than
+  spending a combat-earned ready charge.
+
+## ACT-464 — Draft every tile of one colour from one public offer
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: on a turn, the player selects one visible source and colour and
+  must take its entire matching batch, rather than a freely chosen quantity.
+- Includes: choosing one of five factories or the common centre in the
+  two-player original Azul base game.
+- Excludes: drawing an unseen tile from the bag; taking different colours in
+  one choice; leaving selected-colour tiles behind; assigning the batch to a
+  pattern line (`ACT-465`).
+- Parameters: source, colour, visible count, taken batch and turn order.
+- Evidence: [Azul decomposition](../games/a-f/azul.md), using Next Move
+  Games' official English rules.
+- Novelty: first isolated for `GAME-0304`; an entire visible colour class is
+  drafted from one chosen shared offer.
+
+## ACT-465 — Commit a drafted colour batch to one pattern line
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after drafting, the player chooses one eligible staging row for
+  all accepted tiles of that colour, with any rejected or excess tiles sent
+  to the penalty floor rather than spread across several rows.
+- Includes: placing a batch right-to-left in one Azul pattern line, or
+  choosing to send it to the floor.
+- Excludes: selecting the public offer (`ACT-464`); moving a completed line
+  automatically to the wall (`SYS-881`); filling two rows with one draft.
+- Parameters: batch, row capacity, existing row colour, accepted count,
+  floor count and chosen row.
+- Evidence: [Azul decomposition](../games/a-f/azul.md), using the official
+  English rules.
+- Novelty: first isolated for `GAME-0304`; one forced-size draft is committed
+  to a single capacity-constrained staging line.
+
+## ACT-466 — Carry a living mission subject into an extraction vehicle
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the player lifts one eligible incapacitated living mission
+  subject, physically transports that subject through the world in a dedicated
+  carry state and places them into a compatible evacuation vehicle before the
+  player's own departure can complete the rescue.
+- Includes: carrying injured Kazuhira Miller out of Da Ghwandai Khar and
+  loading him aboard the second helicopter in the first `Phantom Limbs`
+  attempt of METAL GEAR SOLID V: THE PHANTOM PAIN.
+- Excludes: hiding a neutralised hostile's body; commanding autonomous
+  carriers to deliver a subject; using Fulton; carrying or throwing a loot
+  bag; boarding the helicopter as the player after the subject is loaded.
+- Parameters: subject, injury or incapacitation state, pickup reach, carrier,
+  carry pose, drop, vehicle availability, loading region and transfer state.
+- Evidence: [METAL GEAR SOLID V: THE PHANTOM PAIN decomposition](../games/m-r/metal-gear-solid-v-the-phantom-pain.md),
+  Xbox One carry and helicopter action icons plus independent first-mission
+  written rescue route.
+- Novelty: first isolated for `GAME-0306`; the protected living objective
+  stays a world-located burden until an explicit vehicle handoff rather than
+  becoming inventory, a throwable bag or an autonomous courier's cargo.

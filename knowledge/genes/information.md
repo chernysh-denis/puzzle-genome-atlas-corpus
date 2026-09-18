@@ -6676,3 +6676,62 @@
 - Novelty: first isolated for `GAME-0297`; the display lets the player reserve
   one unit for recovery while another independently recharges after a
   different movement or combat commitment.
+
+## INF-341 — Expose the current zoo task and species-care requirements
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the current scenario instruction and animal information views
+  expose the required action or destination and species-specific welfare,
+  habitat and enrichment needs before the next zoo-editing commitment.
+- Includes: Goodwin House's active tutorial objective, animal welfare panel
+  and Zoopedia requirements for Common Warthogs and Ostriches.
+- Excludes: a hidden future task list; a guaranteed prediction of exact
+  welfare values after placement; changing the zoo merely by opening a panel.
+- Parameters: stage, highlighted destination, species, care category, current
+  welfare, suitable fixture and display timing.
+- Evidence: [Planet Zoo: Console Edition decomposition](../games/m-r/planet-zoo-console-edition.md),
+  using Frontier's beginner and animal guides.
+- Novelty: first isolated for `GAME-0298`; scenario guidance and species
+  diagnostics jointly inform the next habitat action.
+
+## INF-342 — Expose enemy exertion and a burst-response cue
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the live encounter displays an opponent's current exertion or
+  break state and visibly announces a special incoming attack early enough
+  for a player to choose a legal reactive counter.
+- Includes: Nioh 2 opponent Ki gauge and red burst-attack flash in the
+  first mission, including the Mezuki encounter.
+- Excludes: the player's own Ki or Anima gauges; a prediction of every future
+  attack; an invisible enemy recovery threshold; the counter action itself.
+- Parameters: opponent, Ki bar, break cue, special-attack flash, timing and
+  eligible response.
+- Evidence: [Nioh 2 decomposition](../games/m-r/nioh-2.md), using Sony's
+  opening-hours guide and two written first-mission routes.
+- Novelty: first isolated for `GAME-0299`; opponent readiness and the
+  particular prompted response are simultaneously decision-visible.
+
+## INF-343 — Expose combat turn order, AP and target health
+
+- Lifecycle: `Active`
+- Claim status: `Pattern`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: during a turn-based encounter the interface shows the current
+  actor, upcoming combat order, that actor's available Action Points and the
+  selected target's health before a movement or attack commitment.
+- Includes: the two-Voidling main-deck fight in Divinity: Original Sin 2 -
+  Definitive Edition on Classic difficulty.
+- Excludes: a Break gauge (`INF-141`); exact future enemy actions; later
+  physical/magic armour status not exercised by this unarmoured encounter.
+- Parameters: actor, queue horizon, current AP, target, health and visibility.
+- Evidence: [Divinity: Original Sin 2 - Definitive Edition decomposition](../games/a-f/divinity-original-sin-2-definitive-edition.md),
+  supported by the PC Definitive Edition AP guide and written ship route.
+- Novelty: first isolated for `GAME-0301`; this opening's actionable combat
+  display lacks the Break-state boundary of the nearest existing HUD gene.

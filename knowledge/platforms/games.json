@@ -22278,6 +22278,159 @@
           "checked": "2026-09-14"
         }
       ]
+    },
+    "GAME-0298": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-SERIES",
+        "edition": "Planet Zoo: Console Edition — Xbox base game",
+        "editionUk": "Planet Zoo: Console Edition — базова гра для Xbox",
+        "version": "Xbox Series X|S base product 9NZ038KZ68B7; latest located official console note 1.9.2 dated 2025-08-27; no local executable build observed; checked 2026-09-18",
+        "distribution": "Microsoft Xbox digital base product",
+        "evidenceUrl": "https://www.xbox.com/en-US/games/store/planet-zoo-console-edition/9NZ038KZ68B7",
+        "checked": "2026-09-18"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0299": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-4",
+        "edition": "Nioh 2 — PS4 base game",
+        "editionUk": "Nioh 2 — базова гра для PS4",
+        "version": "PS4 base product UP9000-CUSA15532_00-NIOH2NA000000000; last located PS4-specific publisher update Ver 1.27 dated 2021-03-08; no local console build observed; checked 2026-09-18",
+        "distribution": "Sony PlayStation Store digital base product",
+        "evidenceUrl": "https://store.playstation.com/en-us/product/UP9000-CUSA15532_00-NIOH2NA000000000",
+        "checked": "2026-09-18"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0300": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH",
+        "edition": "Overcooked! 2 — original Nintendo Switch base game",
+        "editionUk": "Overcooked! 2 — базова гра для оригінальної Nintendo Switch",
+        "version": "Original Nintendo Switch base product, released 2018-08-07; installed build and later update parity not observed; checked 2026-09-18",
+        "distribution": "Nintendo eShop original Switch digital base product",
+        "evidenceUrl": "https://www.nintendo.com/es-es/Juegos/Juegos-de-Nintendo-Switch/Overcooked-2-1388792.html",
+        "checked": "2026-09-18"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0301": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Divinity: Original Sin 2 - Definitive Edition, Windows Steam base product",
+        "editionUk": "Divinity: Original Sin 2 - Definitive Edition — базова гра для Windows у Steam",
+        "version": "Definitive Edition 2018-08-31; current installed Windows build not observed; checked 2026-09-18",
+        "distribution": "Steam Windows base product 435150",
+        "evidenceUrl": "https://store.steampowered.com/app/435150/Divinity_Original_Sin_2_Definitive_Edition/",
+        "checked": "2026-09-18"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0302": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-WII-U",
+        "edition": "Captain Toad: Treasure Tracker, original European Wii U base game",
+        "editionUk": "Captain Toad: Treasure Tracker — оригінальна європейська базова гра для Wii U",
+        "version": "Original Wii U release; installed update not observed; checked 2026-09-18",
+        "distribution": "Wii U Game Disc; former Wii U eShop purchase channel closed",
+        "evidenceUrl": "https://www.nintendo.com/en-gb/Games/Wii-U-games/Captain-Toad-Treasure-Tracker-892923.html",
+        "checked": "2026-09-18"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0303": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-5",
+        "edition": "Sifu, Standard Edition digital PS5 base story",
+        "editionUk": "Sifu — цифрове стандартне видання основної гри для PS5",
+        "version": "Disciple original difficulty in current PS5 Standard product; installed patch not observed; checked 2026-09-18",
+        "distribution": "PlayStation Store Standard Edition PS4 & PS5 entitlement",
+        "evidenceUrl": "https://store.playstation.com/en-us/product/UP2703-PPSA05132_00-7522931300249907/",
+        "checked": "2026-09-18"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0304": {
+      "analysisTarget": {
+        "platformId": "PLAT-PHYSICAL-TABLETOP",
+        "edition": "Azul original physical base game, two players, standard coloured-side boards",
+        "editionUk": "Azul — оригінальна фізична базова гра, двоє гравців, стандартний кольоровий бік планшетів",
+        "version": "Current official English base-game rules checked 2026-09-18; physical print run not inspected",
+        "distribution": "Original physical tabletop product",
+        "evidenceUrl": "https://www.nextmove-games.com/en/azul/azul-game/",
+        "checked": "2026-09-18"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0305": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Sons Of The Forest, Windows Steam base game, fresh single-player Normal",
+        "editionUk": "Sons Of The Forest — базова гра Steam для Windows, нова одиночна гра на звичайній складності",
+        "version": "Public branch Build ID 20228174 remotely projected 2026-09-18; installed build not observed",
+        "distribution": "Official Windows Steam application 1326470",
+        "evidenceUrl": "https://store.steampowered.com/app/1326470/Sons_Of_The_Forest/",
+        "checked": "2026-09-18"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0306": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-ONE",
+        "edition": "METAL GEAR SOLID V: THE PHANTOM PAIN, Xbox One digital base game, fresh offline story",
+        "editionUk": "METAL GEAR SOLID V: THE PHANTOM PAIN — цифрова базова гра для Xbox One, нова офлайнова кампанія",
+        "version": "Official Xbox One base-product/manual rules checked 2026-09-18; installed patch not observed",
+        "distribution": "Xbox One digital base product, not Definitive Experience",
+        "evidenceUrl": "https://www.xbox.com/en-us/games/store/metal-gear-solid-v-the-phantom-pain/C253HWJP0L18",
+        "checked": "2026-09-18"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
     }
   }
 }

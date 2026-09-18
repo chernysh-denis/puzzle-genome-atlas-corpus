@@ -16871,3 +16871,464 @@
 - Novelty: first isolated for `GAME-0297`; the contacted world actor changes a
   personal quest-duration bound through an equipped cap rather than entering
   inventory or crediting abstract collection progress.
+
+## SYS-866 — Deliver a stored animal through autonomous staff transport
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after an animal has been assigned to a reachable valid habitat,
+  an available caretaker or vet collects it from zoo storage and moves it to
+  that destination under the live staff schedule.
+- Includes: Trade Centre delivery of the adopted Warthogs and Ostriches in
+  Planet Zoo: Console Edition's Goodwin House tutorial.
+- Excludes: the player's destination assignment (`ACT-458`); instantaneous
+  teleportation; transport into a habitat lacking valid access (`CON-635`);
+  later animal breeding or release to the wild.
+- Parameters: stored animal, assigned habitat, staff role, route, transport
+  priority, elapsed time and completed placement.
+- Evidence: [Planet Zoo: Console Edition decomposition](../games/m-r/planet-zoo-console-edition.md),
+  using Frontier's building and staff guides.
+- Novelty: first isolated for `GAME-0298`; the order and the staff-executed
+  delivery have different actors and time boundaries.
+
+## SYS-867 — Recompute animal welfare from species-specific care conditions
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the simulation continually updates an animal's welfare from
+  nutrition, social, habitat and enrichment conditions, including care supplied
+  by eligible staff and available fixtures.
+- Includes: Goodwin House Warthogs and Ostriches responding to feeding,
+  water, enrichment and habitat suitability.
+- Excludes: a single static species rating; a guest happiness score; the
+  player's placement of a fixture (`ACT-457`); claiming that Bronze requires
+  an unevidenced numeric welfare threshold.
+- Parameters: species, individual, nutritional state, social group, habitat
+  conditions, enrichment, staff service, difficulty and resulting welfare.
+- Evidence: [Planet Zoo: Console Edition decomposition](../games/m-r/planet-zoo-console-edition.md),
+  using Frontier's animal, building and staff guides.
+- Novelty: first isolated for `GAME-0298`; individual species requirements
+  govern a live multi-factor welfare result rather than an abstract city score.
+
+## SYS-868 — Apply the selected weapon stance to later strikes
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the currently selected stance changes the equipped close
+  weapon's available strike forms, speed, reach and exposed recovery while
+  retaining the same weapon and personal resources.
+- Includes: high, middle and low weapon-stance tradeoffs in the first Nioh 2
+  PS4 mission.
+- Excludes: equipment replacement; a fixed character class; a temporary
+  transformation into another body; the input that selects the stance.
+- Parameters: weapon, selected stance, legal attack set, speed, reach, Ki
+  price, damage and recovery interval.
+- Evidence: [Nioh 2 decomposition](../games/m-r/nioh-2.md), using Sony's
+  opening-hours guide.
+- Novelty: first isolated for `GAME-0299`; one retained weapon exposes three
+  live combat forms with different commitment costs.
+
+## SYS-869 — Convert a timed pulse into reserve refund and local purification
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an accepted post-attack pulse immediately restores its eligible
+  recently spent reserve share and removes an overlapping local hostile
+  regeneration-suppressing patch when that patch is present.
+- Includes: Ki Pulse refill and nearby Yokai Realm patch purification during
+  Nioh 2's first mission.
+- Excludes: ordinary automatic Ki recovery; clearing an entire Dark Realm
+  region by defeating its source; a free pulse without a preceding attack.
+- Parameters: pulse quality, recoverable Ki, refund, patch position, reach and
+  persistent removal.
+- Evidence: [Nioh 2 decomposition](../games/m-r/nioh-2.md), using Sony's
+  opening-hours guide and Koei Tecmo's PS4 controls.
+- Novelty: first isolated for `GAME-0299`; a precisely timed recovery event
+  also repairs a local environmental hindrance.
+
+## SYS-870 — Sustain a source-bound hostile realm until its source falls
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an authored hostile region slows the player's reserve recovery,
+  strengthens its hostile occupants and disables declared facilities while a
+  designated source enemy remains; defeating that source clears the region
+  and reopens those facilities.
+- Includes: the source Enki's Dark Realm that covers the inner Shrine in
+  Nioh 2's first main mission.
+- Excludes: one local Yokai Realm patch cleared by Ki Pulse; ordinary enemy
+  aggro; a timed zone that expires without addressing its source.
+- Parameters: region, source enemy, Ki penalty, hostile benefit, locked Shrine
+  or chest, source defeat and persistence after clearance.
+- Evidence: [Nioh 2 decomposition](../games/m-r/nioh-2.md), using Sony's
+  opening-hours guide and two written first-mission routes.
+- Novelty: first isolated for `GAME-0299`; combat against one source changes
+  both resource pressure and access to nearby fixtures.
+
+## SYS-871 — Purify and attune a recovered enemy ability at a checkpoint
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an eligible defeated enemy can leave a carried ability token;
+  checkpoint purification makes that token usable, and attuning it to a
+  compatible equipped support identity exposes its active ability.
+- Includes: taking an Enki Soul Core to a Shrine, purifying it and attuning
+  it to the current Guardian Spirit in Nioh 2's first mission.
+- Excludes: gaining a skill automatically on pickup; the later active
+  ability use (`ACT-190`, `SYS-380`); levelling or skill-tree purchase; an
+  unpurified core surviving an additional death by default.
+- Parameters: drop, carried token, checkpoint, purification, support identity,
+  capacity, attunement and subsequent active command.
+- Evidence: [Nioh 2 decomposition](../games/m-r/nioh-2.md), using Koei
+  Tecmo's How to Play manual and Sony's opening-hours guide.
+- Novelty: first isolated for `GAME-0299`; enemy defeat alone does not grant
+  a usable ability until a separate checkpoint conversion and assignment.
+
+## SYS-872 — Retain compatible prepared ingredients on a serving plate
+
+- Lifecycle: `Active`
+- Claim status: `Pattern`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: placing a prepared ingredient on an eligible serving plate
+  changes the retained plate contents to a candidate dish whose recipe
+  identity can be checked at service.
+- Includes: chopped fish or chopped shrimp placed on a plate to form the
+  corresponding sashimi in Overcooked! 2 kitchen 1-1.
+- Excludes: chopping the ingredient itself; serving the dish; inventing a
+  multi-ingredient recipe not present in this kitchen; creating an inventory
+  item directly from a selected crafting menu.
+- Parameters: ingredient identity, prepared state, plate, recipe map,
+  compatible contents and resulting dish identity.
+- Evidence: [Overcooked! 2 decomposition](../games/m-r/overcooked-2.md),
+  supported by two written first-kitchen descriptions.
+- Novelty: first isolated for `GAME-0300`; prepared component and dish-bearing
+  plate remain separate physical states until a compatible placement.
+
+## SYS-873 — Settle a matched live dish into score and order combo
+
+- Lifecycle: `Active`
+- Claim status: `Pattern`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: accepting a dish that matches a still-live service ticket
+  removes that ticket and adds its eligible score; fulfilling recipes in
+  the displayed ticket order preserves or raises the score-combo multiplier.
+- Includes: serving a requested fish or shrimp sashimi plate before expiry
+  in Overcooked! 2 kitchen 1-1 and following the displayed ticket order.
+- Excludes: order arrival, individual wait expiry, raw-ingredient hand-in,
+  final star classification, or an unrelated additive/multiplicative card
+  scoring sequence.
+- Parameters: ticket, matching dish, base award, wait remainder, tip rule,
+  displayed order, combo multiplier and score increment.
+- Evidence: [Overcooked! 2 decomposition](../games/m-r/overcooked-2.md),
+  supported by Team17's order-combo explanation and the written 1-1 guide.
+- Novelty: first isolated for `GAME-0300`; a timed matching service changes
+  accumulated score and the next service's order-combo context.
+
+## SYS-874 — Convert final kitchen score into stars and successor access
+
+- Lifecycle: `Active`
+- Claim status: `Pattern`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: when a bounded service kitchen ends, compare its retained
+  session score with the declared star thresholds, award the reached grade
+  and expose the next Story node when the required minimum star is met.
+- Includes: Overcooked! 2 Story kitchen 1-1's reported one-star result and
+  following 1-2 node; exact original Switch threshold parity is unverified.
+- Excludes: changing the score of an already served dish; New Game+ fourth
+  star; automatic unlock before the result settles; an elapsed driving medal.
+- Parameters: end event, final score, star thresholds, required minimum,
+  awarded grade, successor node and save persistence.
+- Evidence: [Overcooked! 2 decomposition](../games/m-r/overcooked-2.md),
+  using the level-specific written result chart and Team17's star system.
+- Novelty: first isolated for `GAME-0300`; service score is converted into
+  a graded Story progression gate at kitchen settlement.
+
+## SYS-875 — Refresh and carry a capped combatant Action Point pool
+
+- Lifecycle: `Active`
+- Claim status: `Pattern`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: when a combatant's turn begins, the system refreshes that
+  character's Action Points and may carry unused points from the preceding
+  turn, bounded by a maximum; movement and attacks subtract their stated
+  costs from the same live balance.
+- Includes: the Classic main-deck Voidling encounter in Divinity: Original
+  Sin 2 - Definitive Edition, where movement and a targeted attack compete
+  for one character's AP pool.
+- Excludes: generating AP from successful attacks or defence (`SYS-357`);
+  Baldur's Gate 3's separate Action, Bonus Action and movement resources;
+  party-shared AP; real-time stamina regeneration.
+- Parameters: turn refresh, carried balance, cap, movement cost, attack cost,
+  spent amount and active combatant.
+- Evidence: [Divinity: Original Sin 2 - Definitive Edition decomposition](../games/a-f/divinity-original-sin-2-definitive-edition.md),
+  supported by the PC Definitive Edition AP guide and ship walkthrough.
+- Novelty: first isolated for `GAME-0301`; a refreshed, capped and partly
+  carried per-combatant pool pays for both relocation and attack.
+
+## SYS-876 — Transform overlapping fire with released water
+
+- Lifecycle: `Active`
+- Claim status: `Pattern`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: water released from a world object settles into a local surface
+  and extinguishes overlapping fire, changing the traversal or hazard state
+  before the next command.
+- Includes: the upper-deck water-barrel and fire lesson in Divinity:
+  Original Sin 2 - Definitive Edition.
+- Excludes: a spell-targeted surface effect, electrical propagation through
+  water, physical/magic armour damage, or a generic decorative fire animation.
+- Parameters: water source, release event, affected area, fire overlap and
+  resulting surface state.
+- Evidence: [Divinity: Original Sin 2 - Definitive Edition decomposition](../games/a-f/divinity-original-sin-2-definitive-edition.md),
+  supported by two written Definitive Edition tutorial descriptions.
+- Novelty: first isolated for `GAME-0301`; a portable environmental source
+  removes a local hazard without claiming the later elemental combat system.
+
+## SYS-877 — Settle a Focus technique after slowed target selection
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when a charge-paid weak-point choice is committed, the system
+  spends the declared Focus supply and resolves the selected technique's
+  disabling or damaging effect on that eligible hostile.
+- Includes: one Focus technique in Sifu's first Disciple Hideout.
+- Excludes: the player's target and technique choice (`ACT-462`); earning the
+  Focus charge through combat (`SYS-035`); an ordinary Structure-break
+  takedown; a weapon-specific Focus Strike.
+- Parameters: charge cost, weak point, technique, effect, damage, disabled
+  interval and target resistance.
+- Evidence: [Sifu decomposition](../games/s-z/sifu.md), using Sloclap's
+  official combat-system article.
+- Novelty: first isolated for `GAME-0303`; the player selects an opponent weak
+  point in slowed time before the system resolves the paid close technique.
+
+## SYS-878 — Convert pendant revival into escalating age
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after eligible pendant continuation is accepted, the system
+  restores the fallen fighter to the same encounter and increases age by the
+  current death-counter amount; successive deaths increase that counter until
+  a separately declared reset reduces it.
+- Includes: Sifu's age-20 first Hideout, where the first revival adds one year,
+  the next adds two and later revivals escalate unless the counter is lowered.
+- Excludes: a charge-paid Resurrection (`SYS-848`); death returning to a
+  checkpoint; chapter completion resetting the counter (`SYS-879`); the
+  legality of one more revival (`CON-639`); permanent age reversal.
+- Parameters: starting age, death counter, age increment, counter increment,
+  same-encounter position, restored health and eligible counter reduction.
+- Evidence: [Sifu decomposition](../games/s-z/sifu.md), using Sloclap's
+  official death-and-aging article.
+- Novelty: first isolated for `GAME-0303`; each same-place continuation
+  consumes an increasing amount of a non-replenishing lifetime budget.
+
+## SYS-879 — Bank chapter completion at finishing age and reset death counter
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when an authored chapter is completed, the system records a
+  successor starting point at the fighter's current age and resets the
+  per-death escalation counter without making the fighter younger.
+- Includes: clearing Sifu's first Hideout and carrying its finishing age into
+  the next chapter while resetting the death counter.
+- Excludes: restoring a checkpoint inside the same failed encounter; erasing
+  age after a successful boss; optional permanent skill purchase; a claimed
+  observed reload of the saved successor state.
+- Parameters: chapter, completion event, finishing age, saved successor,
+  counter before and after, next chapter and retained investigation state.
+- Evidence: [Sifu decomposition](../games/s-z/sifu.md), using Sloclap's
+  official death-and-aging article; route-to-Wuguan detail is corroborated by
+  written guides, not direct project play.
+- Novelty: first isolated for `GAME-0303`; completion preserves irreversible
+  age for later chapter entry while forgiving the temporary escalation rate.
+
+## SYS-880 — Spill undrafted factory tiles into the common offer
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a player takes one colour from a private factory display,
+  all remaining colours on that display move into the shared centre and the
+  factory becomes empty for the rest of the round.
+- Includes: a two-player Azul factory draft with nonmatching tiles left over.
+- Excludes: taking tiles directly from the centre; refilling a factory during
+  the same drafting phase; discarding leftovers to the box lid.
+- Parameters: selected factory, selected colour, leftovers and centre state.
+- Evidence: [Azul decomposition](../games/a-f/azul.md), official rules.
+- Novelty: first isolated for `GAME-0304`; each local offer becomes a common
+  offer after its first draft.
+
+## SYS-881 — Transfer completed staging rows to fixed wall cells
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: at round settlement, each complete pattern line transfers one
+  tile to its colour's fixed cell in the same wall row and sends its remaining
+  staged tiles to the box lid; incomplete lines remain for the next round.
+- Includes: Azul's top-to-bottom wall-tiling phase on standard coloured boards.
+- Excludes: the player's initial line choice; arbitrary choice of wall cell;
+  clearing incomplete lines; the score awarded for the placed cell.
+- Parameters: row, colour, completion, target cell, retained wall tile and
+  discarded surplus.
+- Evidence: [Azul decomposition](../games/a-f/azul.md), official rules.
+- Novelty: first isolated for `GAME-0304`; a temporary homogeneous batch
+  yields one persistent fixed-position wall tile.
+
+## SYS-882 — Score a wall placement from contiguous orthogonal runs
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: immediately after a wall tile is placed, award one point if it
+  has no orthogonal neighbour; otherwise score the contiguous horizontal run
+  and/or vertical run through it, counting the new tile in both if both exist.
+- Includes: Azul's standard wall-placement scoring.
+- Excludes: end-game row, column and colour bonuses; diagonal adjacency;
+  scoring an incomplete staged line.
+- Parameters: placed cell, horizontal length, vertical length and awarded
+  points.
+- Evidence: [Azul decomposition](../games/a-f/azul.md), official rules.
+- Novelty: first isolated for `GAME-0304`; one placed tile can score both
+  crossing contiguous lines at the settlement instant.
+
+## SYS-883 — Debit graduated floor penalties and clear floor tiles
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after wall placement, subtract the ordered floor-slot costs
+  for spilled tiles and the first-player marker, clamp the score at zero,
+  discard ordinary floor tiles and clear the marker to its next-round owner.
+- Includes: Azul's seven floor slots costing 1, 1, 2, 2, 2, 3 and 3 points.
+- Excludes: the player's choice to send tiles to the floor; a flat penalty
+  independent of occupied slot; discarding already placed wall tiles.
+- Parameters: occupied slots, slot costs, pre-penalty score, clamped result,
+  discarded tiles and marker.
+- Evidence: [Azul decomposition](../games/a-f/azul.md), official rules.
+- Novelty: first isolated for `GAME-0304`; ordered waste capacity carries
+  escalating score cost through round settlement.
+
+## SYS-884 — Grant next-round lead to the first centre drafter
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the first player who drafts from the common centre in a round
+  also takes its starting-player marker and becomes first to act next round,
+  while the marker occupies a penalty-floor slot this round.
+- Includes: the Azul centre marker and following-round initiative.
+- Excludes: taking a factory display before any centre draft; changing the
+  current round's alternating order; claiming the marker has no floor cost.
+- Parameters: first centre drafter, marker, floor position and next starter.
+- Evidence: [Azul decomposition](../games/a-f/azul.md), official rules.
+- Novelty: first isolated for `GAME-0304`; entering the shared offer buys
+  future initiative at an immediate floor cost.
+
+## SYS-885 — Refill offers from a finite bag and recycled discards
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: at a new round, fill each factory with up to its prescribed
+  random draw from a finite bag; when the bag empties, return box-lid discards
+  to it and continue, allowing partial displays if both supplies run short.
+- Includes: five four-tile Azul factories in a two-player base game.
+- Excludes: creating new tiles; refilling during the drafting phase; recycling
+  tiles already retained on player walls or pattern lines.
+- Parameters: factory count, draw size, bag, lid, shuffle and shortage.
+- Evidence: [Azul decomposition](../games/a-f/azul.md), official rules.
+- Novelty: first isolated for `GAME-0304`; public offers renew from a
+  conserved finite tile supply.
+
+## SYS-886 — Award terminal wall-set bonuses
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: once the normal row-completion terminal has fired, add one-time
+  bonuses for each complete horizontal row, vertical column and five-cell
+  colour set on the persistent wall.
+- Includes: Azul's +2 row, +7 column and +10 colour-set bonuses.
+- Excludes: points earned at each wall placement; floor penalties; an award
+  before the normal end-of-game check.
+- Parameters: completed rows, columns, colour sets and final score.
+- Evidence: [Azul decomposition](../games/a-f/azul.md), official rules.
+- Novelty: first isolated for `GAME-0304`; terminal geometric sets add
+  independent bonuses to earlier local placement scores.
+
+## SYS-887 — Deliver gathered material to a chosen world point
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: after a player assigns a persistent autonomous companion a
+  material class and world drop point, the companion seeks reachable sources,
+  carries compatible material and deposits it at that point without continuous
+  player steering, repeating while the task remains available.
+- Includes: Kelvin gathering logs and dropping them at the player's selected
+  nearby location in Sons Of The Forest.
+- Excludes: direct player pickup; a worker delivering to a compatible
+  stockpile building; an instantaneous material award; the player adding
+  delivered material to a construction plan; an unassigned ambient follower.
+- Parameters: companion, material class, source eligibility, carry capacity,
+  route, drop point, task persistence, interruption and delivered quantity.
+- Evidence: [Sons Of The Forest decomposition](../games/s-z/sons-of-the-forest.md),
+  Endnight's log-carrying update and two independent written command references.
+- Novelty: first isolated for `GAME-0305`; the loose world drop point chosen
+  by the player separates delegated gathering from a fixed building stockpile
+  and from ordinary companion follow support.
+
+## SYS-888 — Open a brief alarm-preemption window on first detection
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when an eligible hostile first detects the protagonist, the
+  system automatically slows live action for a short response interval; if
+  the player neutralises that observer before the interval ends, the observer
+  cannot finish notifying allied hostiles, otherwise ordinary alert
+  propagation resumes.
+- Includes: Xbox One `Reflex Mode` during the scoped first `Phantom Limbs`
+  infiltration in METAL GEAR SOLID V: THE PHANTOM PAIN.
+- Excludes: a manually selected slow-time targeting power; permanently
+  cancelling alert after a completed radio report; a paused tactical turn;
+  guaranteed stealth after the response window expires.
+- Parameters: observer, first-sight trigger, slow factor, response duration,
+  neutralisation, alarm progress, allied notification and recovery.
+- Evidence: [METAL GEAR SOLID V: THE PHANTOM PAIN decomposition](../games/m-r/metal-gear-solid-v-the-phantom-pain.md),
+  official Xbox One manual's Sneaking/Reflex Mode rules.
+- Novelty: first isolated for `GAME-0306`; threatened detection itself, not
+  a spent player ability, opens the finite chance to prevent alarm sharing.

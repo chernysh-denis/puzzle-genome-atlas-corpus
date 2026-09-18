@@ -22,6 +22,7 @@
 - [`GAME-0001` — "2048"](../games/0-9/2048.md)
 - [`GAME-0044` — A Good Snowman Is Hard to Build](../games/a-f/a-good-snowman-is-hard-to-build.md)
 - [`GAME-0054` — A Monster’s Expedition](../games/a-f/a-monsters-expedition.md)
+- [`GAME-0304` — Azul](../games/a-f/azul.md)
 - [`GAME-0013` — Baba Is You](../games/a-f/baba-is-you.md)
 - [`GAME-0027` — Bad North: Jotunn Edition](../games/a-f/bad-north.md)
 - [`GAME-0055` — Bonfire Peaks](../games/a-f/bonfire-peaks.md)
@@ -1730,6 +1731,7 @@ Gorogoa забороняє безпосередньо крутити руків�
 
 - [`GAME-0228` — A Way Out](../games/a-f/a-way-out.md)
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
+- [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0031` — Timelie](../games/s-z/timelie.md)
 
 ## CON-078
@@ -4610,6 +4612,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
@@ -5731,6 +5734,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
+- [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
@@ -5918,6 +5922,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
+- [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
@@ -6292,6 +6297,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
+- [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
@@ -6299,6 +6305,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
+- [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0224` — Once Human](../games/m-r/once-human.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
@@ -6309,6 +6316,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
+- [`GAME-0303` — Sifu](../games/s-z/sifu.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 - [`GAME-0225` — "STAR WARS: Squadrons"](../games/s-z/star-wars-squadrons.md)
@@ -6412,6 +6420,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
+- [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
@@ -6601,6 +6610,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 
 - [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
@@ -7285,6 +7295,7 @@ Knox Infection у режимі Apocalypse Project Zomboid.
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
+- [`GAME-0303` — Sifu](../games/s-z/sifu.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 
 ## CON-325
@@ -7420,6 +7431,7 @@ Knox Infection у режимі Apocalypse Project Zomboid.
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
+- [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 
@@ -7534,6 +7546,7 @@ Knox Infection у режимі Apocalypse Project Zomboid.
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
+- [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
@@ -9451,6 +9464,7 @@ Reinforce у Helldivers 2 з живим викликувачем і одиниц
 
 ### Ігри-носії
 
+- [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
 
 ## CON-427
@@ -12890,8 +12904,10 @@ Scanner, Analysis Visor, Mining Beam, захист від середовища, 
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
+- [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
+- [`GAME-0303` — Sifu](../games/s-z/sifu.md)
 
 ## CON-590
 
@@ -13189,6 +13205,7 @@ Boon першої спроби Hades, обмежені передумовами 
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
+- [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 
 ## CON-605
 
@@ -13399,6 +13416,7 @@ Boon першої спроби Hades, обмежені передумовами 
 ### Ігри-носії
 
 - [`GAME-0278` — DAVE THE DIVER](../games/a-f/dave-the-diver.md)
+- [`GAME-0300` — Overcooked! 2](../games/m-r/overcooked-2.md)
 
 ## CON-621
 
@@ -13420,6 +13438,7 @@ Boon першої спроби Hades, обмежені передумовами 
 ### Ігри-носії
 
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
+- [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 
 ## CON-622
@@ -13694,3 +13713,213 @@ Wiredash у MONSTER HUNTER RISE зі схованою зброєю, Long Sword S
 ### Ігри-носії
 
 - [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
+
+## CON-635
+
+- Назва: Розміщувати тварину лише в замкненому доступному вольєрі
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Вольєр придатний для поселення тварини, лише якщо його огорожа утворює один неперервний замкнений контур, який не міститься всередині іншого вольєра, має рівно одні службові ворота та з'єднану з ними стежку для доставки.
+
+### Включає
+
+Завершення вольєра страусів у Goodwin House перед призначенням і доставкою чотирьох придбаних птахів.
+
+### Виключає
+
+Декоративний паркан; відкритий контур, відсутні чи дубльовані ворота або відірваний від стежки вхід; добробут тварини після прибуття (SYS-867).
+
+### Ігри-носії
+
+- [`GAME-0298` — 'Planet Zoo: Console Edition'](../games/m-r/planet-zoo-console-edition.md)
+
+## CON-636
+
+- Назва: Витрачати Anima на відповіді йокаїв
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Відповідь на небезпечну атаку або налаштована здібність ворога можлива лише тоді, коли спільного накопиченого в бою запасу вистачає на її ціну; застосування будь-якої з них зменшує цей запас до наступної дії.
+
+### Включає
+
+Витрати Anima на Burst Counter і здібність налаштованого ядра душі в першій місії Nioh 2 для PS4.
+
+### Виключає
+
+Звичайний удар чи ухилення за Ki; автоматичне накопичення Anima від ударів; очищення й налаштування ядра; одноразовий предмет у сумці.
+
+### Ігри-носії
+
+- [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
+
+## CON-637
+
+- Назва: Подавати тільки страву за чинним замовленням
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Подача виконує замовлення лише тоді, коли на тарілці є запитана страва з усіма потрібними підготовленими інгредієнтами, а відповідне замовлення ще не спливло.
+
+### Включає
+
+Сашимі з нарізаної риби для замовлення риби або з нарізаної креветки для замовлення креветки в кухні 1-1 Overcooked! 2.
+
+### Виключає
+
+Сирий інгредієнт як готову страву; виконання простроченого замовлення; тарілку з рибою для замовлення креветки; обмін із персонажем без рецепта.
+
+### Ігри-носії
+
+- [`GAME-0300` — Overcooked! 2](../games/m-r/overcooked-2.md)
+
+## CON-638
+
+- Назва: Уміщувати рух і атаку в один запас очок дії
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Боєць може переміститися або атакувати лише тоді, коли ціна команди не перевищує його поточного запасу очок дії; будь-яка з цих дій зменшує той самий запас для наступних команд цього ходу.
+
+### Включає
+
+Переміщення Іфана в межі досяжності та атаку порожняка на головній палубі в початковому бою Divinity: Original Sin 2 - Definitive Edition на складності Classic.
+
+### Виключає
+
+Окремі запаси дії, бонусної дії та руху; порядок ініціативи; перевірку дальності цілі за CON-269; поповнення очок дії.
+
+### Ігри-носії
+
+- [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
+
+## CON-639
+
+- Назва: Підвестися можна лише до вичерпання життя
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Повалений боєць може продовжити ту саму сутичку з талісманом лише доки його поточний вік не вичерпав життєву межу; після цього повернення недоступне й настає кінець спроби.
+
+### Включає
+
+Обмеження віку для повернення талісманом у першому сховку Sifu на складності Disciple.
+
+### Виключає
+
+Вартість дозволеного повернення в роках; умову готового бойового заряду; саму втрату здоров’я; відродження на контрольній точці; точний числовий поріг без перевірки консольної версії.
+
+### Ігри-носії
+
+- [`GAME-0303` — Sifu](../games/s-z/sifu.md)
+
+## CON-640
+
+- Назва: Один підготовчий рядок приймає лише один колір
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+До непорожнього підготовчого рядка можна додавати тільки плитки того самого кольору, що вже лежать у ньому.
+
+### Включає
+
+Доповнення частково заповненого рядка Azul в іншому ході чи раунді.
+
+### Виключає
+
+Різні кольори в одному рядку; заборону того самого кольору в інших рядках; фіксовану клітинку стіни.
+
+### Ігри-носії
+
+- [`GAME-0304` — Azul](../games/a-f/azul.md)
+
+## CON-641
+
+- Назва: Не готувати колір, уже викладений у тому самому ряду стіни
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Колір можна призначити підготовчому рядку тільки якщо у відповідному ряду постійної стіни ще немає плитки цього кольору.
+
+### Включає
+
+Відмову вдруге готувати синю плитку після заповнення синьої клітинки того самого ряду Azul.
+
+### Виключає
+
+Заборону синього в інших рядах; нестачу місця в підготовчому рядку; естетичне побажання гравця.
+
+### Ігри-носії
+
+- [`GAME-0304` — Azul](../games/a-f/azul.md)
+
+## CON-642
+
+- Назва: Місткість підготовчих рядків зростає, надлишок іде на підлогу
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Кожен підготовчий рядок вміщує лише свою визначену кількість плиток; набрана партія не може переповнити його, а зайві чи свідомо відхилені плитки потрапляють на штрафну лінію.
+
+### Включає
+
+Підготовчі рядки Azul місткістю від однієї до п’яти плиток і сім штрафних місць.
+
+### Виключає
+
+Розподіл надлишку до іншого рядка; дозвіл кольору, який уже є в відповідному ряду стіни; пізніше списання штрафу.
+
+### Ігри-носії
+
+- [`GAME-0304` — Azul](../games/a-f/azul.md)
+
+## CON-643
+
+- Назва: Повний ряд стіни завершує гру після раунду
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Якщо після заповнення стін у будь-кого з гравців з’явився повний горизонтальний ряд із п’яти клітинок, гра закінчується після підрахунку цього раунду без нового набору до майстерень.
+
+### Включає
+
+Перший заповнений горизонтальний ряд звичайної партії Azul.
+
+### Виключає
+
+Завершення під час ходу набору; самостійне завершення через стовпець; перевагу в очках без повного ряду; визначення переможця.
+
+### Ігри-носії
+
+- [`GAME-0304` — Azul](../games/a-f/azul.md)
+
+## CON-644
+
+- Назва: Перенесення пораненої людини обмежує бойові можливості
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Поки керований герой фізично несе поранену або непритомну людину, зайнята поза не дозволяє звичайного використання дворучної зброї й обмежує рух; щоб знову користуватися всім спорядженням, людину треба покласти або передати в транспорт.
+
+### Включає
+
+Практично лише пістолет і обмежене пересування під час винесення пораненого Міллера до вертольота в першій спробі Phantom Limbs у METAL GEAR SOLID V: THE PHANTOM PAIN.
+
+### Виключає
+
+Постійну межу слотів зброї, коли руки вільні; малий предмет у наплічнику; безповоротну втрату основної зброї; Fulton-евакуацію та кидання сумки зі здобиччю.
+
+### Ігри-носії
+
+- [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)

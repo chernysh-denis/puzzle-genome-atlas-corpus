@@ -27,6 +27,7 @@
 - [`GAME-0110` — Angry Birds Classic](../games/a-f/angry-birds-classic.md)
 - [`GAME-0132` — Anno 1800](../games/a-f/anno-1800.md)
 - [`GAME-0097` — Antichamber](../games/a-f/antichamber.md)
+- [`GAME-0304` — Azul](../games/a-f/azul.md)
 - [`GAME-0013` — Baba Is You](../games/a-f/baba-is-you.md)
 - [`GAME-0027` — Bad North: Jotunn Edition](../games/a-f/bad-north.md)
 - [`GAME-0055` — Bonfire Peaks](../games/a-f/bonfire-peaks.md)
@@ -35,6 +36,7 @@
 - [`GAME-0053` — Can of Wormholes](../games/a-f/can-of-wormholes.md)
 - [`GAME-0109` — Candy Crush Saga](../games/a-f/candy-crush-saga.md)
 - [`GAME-0135` — "Captain of Industry"](../games/a-f/captain-of-industry.md)
+- [`GAME-0302` — "Captain Toad: Treasure Tracker"](../games/a-f/captain-toad-treasure-tracker.md)
 - [`GAME-0040` — Carto](../games/a-f/carto.md)
 - [`GAME-0011` — Chess](../games/a-f/chess.md)
 - [`GAME-0108` — Cocoon](../games/a-f/cocoon.md)
@@ -161,6 +163,7 @@
 
 - [`GAME-0001` — "2048"](../games/0-9/2048.md)
 - [`GAME-0124` — Against the Storm](../games/a-f/against-the-storm.md)
+- [`GAME-0304` — Azul](../games/a-f/azul.md)
 - [`GAME-0109` — Candy Crush Saga](../games/a-f/candy-crush-saga.md)
 - [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
@@ -1763,6 +1766,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
+- [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
@@ -1779,6 +1783,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
+- [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
@@ -1798,6 +1803,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
+- [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
@@ -1864,6 +1870,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
+- [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
@@ -1875,6 +1882,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
@@ -2724,6 +2732,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
+- [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0224` — Once Human](../games/m-r/once-human.md)
@@ -2925,6 +2934,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
+- [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0296` — Noita](../games/m-r/noita.md)
 - [`GAME-0224` — Once Human](../games/m-r/once-human.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
@@ -2939,6 +2949,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
+- [`GAME-0303` — Sifu](../games/s-z/sifu.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
@@ -3092,6 +3103,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
+- [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
@@ -3195,6 +3207,7 @@ Palbox, Monitoring Stand, сховища й екрани стану бази в 
 - [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
+- [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
@@ -3214,6 +3227,7 @@ Palbox, Monitoring Stand, сховища й екрани стану бази в 
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
@@ -3292,6 +3306,7 @@ Palbox, Monitoring Stand, сховища й екрани стану бази в 
 - [`GAME-0265` — Bloons TD 6](../games/a-f/bloons-td-6.md)
 - [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
@@ -3322,6 +3337,7 @@ Research Table, дерева технологій, Workbench і чергу ви�
 - [`GAME-0229` — "No Man’s Sky"](../games/m-r/no-mans-sky.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
@@ -3549,6 +3565,7 @@ Research Table, дерева технологій, Workbench і чергу ви�
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
+- [`GAME-0303` — Sifu](../games/s-z/sifu.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
@@ -6674,6 +6691,7 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
+- [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 
 ## INF-288
 
@@ -6827,6 +6845,7 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
+- [`GAME-0303` — Sifu](../games/s-z/sifu.md)
 
 ## INF-296
 
@@ -6916,6 +6935,7 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 - [`GAME-0278` — DAVE THE DIVER](../games/a-f/dave-the-diver.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
+- [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 
 ## INF-300
 
@@ -7302,6 +7322,7 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
+- [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 
 ## INF-319
 
@@ -7535,6 +7556,7 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 ### Ігри-носії
 
 - [`GAME-0278` — DAVE THE DIVER](../games/a-f/dave-the-diver.md)
+- [`GAME-0300` — Overcooked! 2](../games/m-r/overcooked-2.md)
 
 ## INF-331
 
@@ -7619,6 +7641,7 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 ### Ігри-носії
 
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
+- [`GAME-0303` — Sifu](../games/s-z/sifu.md)
 
 ## INF-335
 
@@ -7745,3 +7768,66 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 ### Ігри-носії
 
 - [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
+
+## INF-341
+
+- Назва: Показувати поточне завдання й потреби виду
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Поточна вказівка сценарію та відомості про тварину показують потрібну дію чи місце, видові вимоги до добробуту, вольєра й збагачення до наступного рішення гравця.
+
+### Включає
+
+Активну навчальну ціль Goodwin House, панель добробуту тварини та вимоги Zoopedia для бородавочників і страусів.
+
+### Виключає
+
+Прихований повний перелік майбутніх завдань; гарантований прогноз точного добробуту після розміщення; зміну стану зоопарку від самого відкриття панелі.
+
+### Ігри-носії
+
+- [`GAME-0298` — 'Planet Zoo: Console Edition'](../games/m-r/planet-zoo-console-edition.md)
+
+## INF-342
+
+- Назва: Показувати Ki ворога й сигнал небезпечної атаки
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Під час бою інтерфейс показує поточну силу ворога чи стан її вичерпання та завчасно позначає особливу атаку, щоб гравець міг обрати допустиму відповідь.
+
+### Включає
+
+Шкалу Ki ворога й червоний спалах небезпечної атаки в першій місії Nioh 2, зокрема під час бою з Mezuki.
+
+### Виключає
+
+Власні шкали Ki й Anima гравця; прогноз кожної майбутньої атаки; невидимий поріг відновлення ворога; саму відповідь на атаку.
+
+### Ігри-носії
+
+- [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
+
+## INF-343
+
+- Назва: Показувати порядок ходів, очки дії та здоров’я цілі
+- Переглянуто: `2026-09-18`
+
+### Операційне визначення
+
+Під час покрокового бою інтерфейс показує чинного бійця, найближчий порядок ходів, його доступні очки дії та здоров’я вибраної цілі до підтвердження руху чи атаки.
+
+### Включає
+
+Бій із двома порожняками на головній палубі Divinity: Original Sin 2 - Definitive Edition на складності Classic.
+
+### Виключає
+
+Шкалу злому захисту з INF-141; точні майбутні дії ворога; пізні стани фізичної й магічної броні, не застосовані в цьому бою.
+
+### Ігри-носії
+
+- [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)

@@ -691,3 +691,41 @@
 - Evidence: [Persona 5 Royal decomposition](../games/m-r/persona-5-royal.md).
 - Novelty: first isolated for `GAME-0291`; the opening calendar advances as an
   authored sequence before the later discretionary scheduling game begins.
+
+## TIM-023 — Start a kitchen countdown on first accepted service
+
+- Lifecycle: `Active`
+- Claim status: `Hypothesis`
+- Evidence quality: `Limited`
+- Confidence: `Low`
+- Definition: in a bounded service kitchen, retain an untimed preparation
+  interval until the first correctly served dish, then start the fixed main
+  kitchen countdown while subsequent orders and inputs proceed in real time.
+- Includes: the reported first-sashimi service trigger before Overcooked! 2
+  kitchen 1-1's main interval; current original Switch build parity is open.
+- Excludes: a clock that begins on level entry; each ticket's separate wait
+  allowance; a practice mode with no countdown; New Game+ scoring.
+- Parameters: pre-start state, first accepted service, main interval,
+  countdown display, pause policy and terminal event.
+- Evidence: [Overcooked! 2 decomposition](../games/m-r/overcooked-2.md),
+  using the level-specific written guide; no Switch run was performed.
+- Novelty: first isolated for `GAME-0300`; the player's first valid service
+  commits the kitchen from staging into its finite scored interval.
+
+## TIM-024 — Alternate drafting turns then settle walls together
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: players alternate complete public-offer drafts until factories
+  and centre are empty; only then does a shared round phase move completed
+  pattern lines, score walls and floors, check the terminal and renew offers.
+- Includes: the two-player Azul base game's drafting and wall-tiling cycle.
+- Excludes: wall settlement after each individual draft; simultaneous public
+  offer selection; a real-time or timed response interval.
+- Parameters: player order, offer exhaustion, round phase, wall settlement,
+  terminal check and next-round start.
+- Evidence: [Azul decomposition](../games/a-f/azul.md), official rules.
+- Novelty: first isolated for `GAME-0304`; turn-local staging and delayed
+  shared settlement split one round into causally distinct phases.

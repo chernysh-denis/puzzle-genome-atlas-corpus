@@ -43054,6 +43054,505 @@
           "CON-358": {"labelUk":"Взаємодій лише з доступним джерелом","labelEn":"Use only an eligible reachable source","explanationUk":"Вирізання потребує досяжного тіла, невитраченої можливості й чинного післябойового проміжку.","explanationEn":"A carve requires a reachable body, an unspent yield and the active post-hunt window.","exampleUk":"Підійти до тіла до початку вирізання.","exampleEn":"Reach the body before starting the carve."},
           "INF-073": {"labelUk":"Читай вибраний предмет і спорядження","labelEn":"Read the selected item and equipment","explanationUk":"Панель показує вибраний стос, активний Long Sword і стан предметів до команди.","explanationEn":"The display shows the selected stack, active Long Sword and item state before a command.","exampleUk":"Перевірити, що вибрано лікування, а не раціон.","exampleEn":"Confirm healing rather than a ration is selected."}
       }
+    },
+    "GAME-0298": {
+      "genes": {
+        "ACT-456": {"labelUk":"Замкни вольєр і додай ворота","labelEn":"Close the habitat and add its gate","explanationUk":"Секції огорожі, скло й одні ворота разом утворюють вольєр страусів.","explanationEn":"Barrier sections, glass and one gate together form the Ostrich habitat.","exampleUk":"Завершити розрив огорожі біля воріт.","exampleEn":"Close the remaining barrier gap by the gate."},
+        "ACT-458": {"labelUk":"Признач тварині вольєр","labelEn":"Assign an animal to a habitat","explanationUk":"Придбана тварина чекає в торговому центрі, доки не вибрано придатне місце.","explanationEn":"An adopted animal waits in Trade Centre storage until a valid home is chosen.","exampleUk":"Скерувати чотирьох страусів у новий вольєр.","exampleEn":"Send four Ostriches to the new habitat."},
+        "SYS-866": {"labelUk":"Дочекайся доставки працівником","labelEn":"Wait for staff delivery","explanationUk":"Прибиральник або ветеринар переносить призначену тварину зі сховища до вольєра.","explanationEn":"A caretaker or vet carries an assigned animal from storage to its habitat.","exampleUk":"Продовжити симуляцію до прибуття страусів.","exampleEn":"Let the simulation run until the Ostriches arrive."},
+        "CON-635": {"labelUk":"Перевір один вхід і з'єднану стежку","labelEn":"Check one gate and a connected path","explanationUk":"Вольєр потребує неперервної огорожі, рівно одних воріт і доступної зовні стежки.","explanationEn":"A habitat needs a continuous barrier, exactly one gate and an outward path.","exampleUk":"З'єднати ворота страусів із наявною стежкою.","exampleEn":"Connect the Ostrich gate to the existing path."},
+        "OBJ-175": {"labelUk":"Отримай бронзу Goodwin House","labelEn":"Earn Goodwin House Bronze","explanationUk":"Навчальні умови догляду й облаштування мають завершитися видимою відзнакою.","explanationEn":"The tutorial care and construction tasks must end in a visible award.","exampleUk":"Зупинитися після бронзи, до завдань срібного етапу.","exampleEn":"Stop at Bronze before Silver tasks."}
+      },
+      "structural": {
+        "ACT-455": {"labelUk":"Проклади службову стежку","labelEn":"Connect a staff path","explanationUk":"Працівники можуть дістатися воріт лише через з'єднану мережу стежок.","explanationEn":"Staff reach the gate only through a connected path network.","exampleUk":"Довести стежку до воріт нового вольєра.","exampleEn":"Extend the path to the new habitat gate."},
+        "ACT-457": {"labelUk":"Облаштуй догляд і огляд","labelEn":"Place care and viewing fixtures","explanationUk":"Годівниця, вода, збагачення й скринька для пожертв виконують різні завдання.","explanationEn":"Feeding, water, enrichment and the donation box satisfy different tasks.","exampleUk":"Додати харчове збагачення страусам.","exampleEn":"Add food enrichment for the Ostriches."},
+        "SYS-736": {"labelUk":"Переходь до наступної вказівки","labelEn":"Advance to the next instruction","explanationUk":"Навчання показує наступний крок після виконання поточної умови.","explanationEn":"The tutorial reveals the next step after the current condition is met.","exampleUk":"Після облаштування бородавочників прочитати нове завдання.","exampleEn":"Read the next task after the Warthogs are set up."},
+        "SYS-867": {"labelUk":"Стеж за добробутом тварин","labelEn":"Track animal welfare","explanationUk":"Харчування, соціальні умови, вольєр і збагачення змінюють стан кожної тварини.","explanationEn":"Nutrition, social conditions, habitat and enrichment change each animal's state.","exampleUk":"Перевірити, чи страусам доступні вода й корм.","exampleEn":"Check that the Ostriches can access water and feed."},
+        "INF-341": {"labelUk":"Читай завдання й потреби виду","labelEn":"Read tasks and species needs","explanationUk":"Панелі показують поточну мету, добробут і вимоги тварин до середовища.","explanationEn":"Panels show the current task, welfare and species habitat requirements.","exampleUk":"Перед купівлею оглянути вимоги страуса в Zoopedia.","exampleEn":"Check Ostrich requirements in the Zoopedia before adopting."},
+        "TIM-003": {"labelUk":"Керуй живою симуляцією","labelEn":"Manage a live simulation","explanationUk":"Працівники й тварини діють, поки гравець ухвалює наступне рішення.","explanationEn":"Staff and animals keep acting while the player makes the next decision.","exampleUk":"Дочекатися доставки, не починаючи срібний етап.","exampleEn":"Wait for delivery without starting the Silver stage."}
+      },
+      "supporting": {
+        "ACT-006": {"labelUk":"Прискор симуляцію","labelEn":"Speed up the simulation","explanationUk":"Швидший час не змінює умови завдання, але скорочує очікування доставки.","explanationEn":"Faster time does not change the task rule but shortens delivery waiting.","exampleUk":"Прискорити час після призначення страусів.","exampleEn":"Accelerate time after assigning the Ostriches."},
+        "ACT-130": {"labelUk":"Придбай потрібних тварин","labelEn":"Adopt the required animals","explanationUk":"Кожна дозволена купівля витрачає кошти й додає тварину до сховища.","explanationEn":"Each available purchase spends funds and adds an animal to storage.","exampleUk":"Придбати двох бородавочників із доступних пропозицій.","exampleEn":"Adopt two Warthogs from current offers."}
+      }
+    },
+    "GAME-0299": {
+  "genes": {
+    "ACT-459": {
+      "labelUk": "Зміни бойову стійку",
+      "labelEn": "Switch weapon stance",
+      "explanationUk": "Висока, середня й низька стійки змінюють наступні удари тією самою зброєю.",
+      "explanationEn": "High, mid and low stances change the next attacks of the same weapon.",
+      "exampleUk": "Перед повільним ударом перейти у високу стійку.",
+      "exampleEn": "Choose high stance before a committed strike."
+    },
+    "ACT-460": {
+      "labelUk": "Вчасно виконай Ki Pulse",
+      "labelEn": "Time a Ki Pulse",
+      "explanationUk": "Після удару короткий проміжок дозволяє повернути щойно витрачену Ki.",
+      "explanationEn": "After a strike, a brief window lets you reclaim recently spent Ki.",
+      "exampleUk": "Натиснути імпульс, коли з’явиться синє сяйво.",
+      "exampleEn": "Pulse when the blue glow appears."
+    },
+    "SYS-868": {
+      "labelUk": "Стійка змінює удари",
+      "labelEn": "Stance reshapes attacks",
+      "explanationUk": "Вибрана стійка визначає темп, досяжність і відкритість наступної атаки.",
+      "explanationEn": "The selected stance sets the next attack's pace, reach and exposure.",
+      "exampleUk": "Низька стійка дає швидший удар, висока — важчий.",
+      "exampleEn": "Low stance attacks faster; high stance commits harder."
+    },
+    "SYS-869": {
+      "labelUk": "Імпульс повертає Ki й очищує пляму",
+      "labelEn": "Pulse refunds Ki and clears a patch",
+      "explanationUk": "Вчасний Ki Pulse відновлює частину сили та прибирає близьку пляму світу йокаїв.",
+      "explanationEn": "A timely Ki Pulse restores part of Ki and clears a nearby Yokai Realm patch.",
+      "exampleUk": "Вдарити біля плями й вчасно виконати імпульс.",
+      "exampleEn": "Strike near a patch and time the pulse."
+    },
+    "SYS-870": {
+      "labelUk": "Здолай джерело Темного світу",
+      "labelEn": "Defeat the Dark Realm source",
+      "explanationUk": "Темний світ уповільнює відновлення Ki й блокує святилище, доки живий йокай-джерело.",
+      "explanationEn": "The Dark Realm slows Ki recovery and locks the Shrine while its source yokai lives.",
+      "exampleUk": "Перемогти Enki, щоб користуватися внутрішнім святилищем.",
+      "exampleEn": "Defeat Enki to use the inner Shrine."
+    },
+    "CON-636": {
+      "labelUk": "Бережи Anima для відповіді",
+      "labelEn": "Reserve Anima for a response",
+      "explanationUk": "Відповідь на небезпечну атаку й здібність ядра душі витрачають один спільний запас.",
+      "explanationEn": "Burst Counter and a Soul Core ability spend the same reserve.",
+      "exampleUk": "Не витрачати всю Anima перед червоним сигналом.",
+      "exampleEn": "Keep Anima before a red burst cue."
+    },
+    "INF-342": {
+      "labelUk": "Читай Ki ворога й червоний сигнал",
+      "labelEn": "Read enemy Ki and red cue",
+      "explanationUk": "Шкала ворога й червоний спалах підказують момент для зламу або відповіді.",
+      "explanationEn": "The enemy gauge and red flash reveal a break or counter opening.",
+      "exampleUk": "Дочекатися червоного спалаху Mezuki.",
+      "exampleEn": "Watch for Mezuki's red flash."
+    }
+  },
+  "structural": {
+    "ACT-190": {
+      "labelUk": "Застосуй здібність ядра душі",
+      "labelEn": "Use a Soul Core ability",
+      "explanationUk": "Налаштоване ядро дає окрему активну атаку за запас Anima.",
+      "explanationEn": "An attuned core grants a separate Anima-priced active attack.",
+      "exampleUk": "Скористатися здібністю Enki після молитви.",
+      "exampleEn": "Use Enki's ability after Shrine attunement."
+    },
+    "ACT-224": {
+      "labelUk": "Помолися у святилищі",
+      "labelEn": "Pray at a Shrine",
+      "explanationUk": "Молитва відновлює ресурси та водночас повертає звичайних ворогів.",
+      "explanationEn": "Prayer restores resources while ordinary enemies return.",
+      "exampleUk": "Відпочити перед переходом до Mezuki.",
+      "exampleEn": "Rest before reaching Mezuki."
+    },
+    "ACT-249": {
+      "labelUk": "Поверни Amrita з могили",
+      "labelEn": "Reclaim grave Amrita",
+      "explanationUk": "Доторк до своєї активної могили повертає втрачений запас.",
+      "explanationEn": "Touching your active grave restores the lost stock.",
+      "exampleUk": "Повернутися до місця першої смерті.",
+      "exampleEn": "Return to the first death location."
+    },
+    "ACT-419": {
+      "labelUk": "Скористайся зламом Ki ворога",
+      "labelEn": "Use an enemy Ki break",
+      "explanationUk": "Коли Ki ворога вичерпано, коротко відкривається завершальний близький удар.",
+      "explanationEn": "Empty enemy Ki briefly opens a close finishing strike.",
+      "exampleUk": "Виконати захват, поки ворог виснажений.",
+      "exampleEn": "Grapple while the enemy is exhausted."
+    },
+    "ACT-429": {
+      "labelUk": "Відповідай на червоний спалах",
+      "labelEn": "Counter a red burst",
+      "explanationUk": "Помітна небезпечна атака дає короткий проміжок для відповідного натискання.",
+      "explanationEn": "A visible burst attack opens a brief counter input window.",
+      "exampleUk": "Вчасно відповісти на червоний випад Mezuki.",
+      "exampleEn": "Counter Mezuki's red lunge in time."
+    },
+    "SYS-364": {
+      "labelUk": "Святилище відновлює і ворогів",
+      "labelEn": "Shrine resets resources and foes",
+      "explanationUk": "Молитва повертає здоров’я й запаси, але відроджує звичайних ворогів.",
+      "explanationEn": "Prayer restores life and supplies but respawns ordinary foes.",
+      "exampleUk": "Поновити ліки перед боєм із босом.",
+      "exampleEn": "Restock healing before the boss."
+    },
+    "SYS-380": {
+      "labelUk": "Здібність має власний ефект",
+      "labelEn": "Ability applies its effect",
+      "explanationUk": "Активована здібність ядра душі завдає передбаченого удару цілі.",
+      "explanationEn": "The activated Soul Core ability applies its specified attack.",
+      "exampleUk": "Спрямувати здібність Enki проти йокая.",
+      "exampleEn": "Aim Enki's ability at a yokai."
+    },
+    "SYS-397": {
+      "labelUk": "Удари накопичують Anima",
+      "labelEn": "Melee earns Anima",
+      "explanationUk": "Ближні атаки наповнюють запас, який пізніше витрачають здібності.",
+      "explanationEn": "Melee strikes fill a reserve later spent on abilities.",
+      "exampleUk": "Накопичити Anima перед черговим сигналом.",
+      "exampleEn": "Build Anima before the next burst cue."
+    },
+    "SYS-399": {
+      "labelUk": "Смерть лишає одну могилу",
+      "labelEn": "Death leaves one grave",
+      "explanationUk": "Після повернення до святилища втрачена Amrita чекає в одній могилі.",
+      "explanationEn": "After Shrine return, lost Amrita waits at one grave.",
+      "exampleUk": "Забрати її до повторної смерті.",
+      "exampleEn": "Recover it before dying again."
+    },
+    "SYS-409": {
+      "labelUk": "Нуль Ki відкриває вікно",
+      "labelEn": "Zero Ki opens a window",
+      "explanationUk": "Вичерпання Ki ворога створює короткий шанс на сильний близький удар.",
+      "explanationEn": "Empty enemy Ki creates a brief close-attack opportunity.",
+      "exampleUk": "Тиснути на Ki Mezuki, щоб відкрити захват.",
+      "exampleEn": "Pressure Mezuki's Ki to open a grapple."
+    },
+    "SYS-798": {
+      "labelUk": "Один запас Ki для бою",
+      "labelEn": "One Ki reserve for combat",
+      "explanationUk": "Удари, ухилення й захист витрачають спільну силу, що відновлюється з часом.",
+      "explanationEn": "Attacks, evasions and guard spend one time-recovering reserve.",
+      "exampleUk": "Не витрачати все Ki на довгу серію.",
+      "exampleEn": "Avoid spending all Ki on one chain."
+    },
+    "SYS-871": {
+      "labelUk": "Очисти й налаштуй ядро",
+      "labelEn": "Purify and attune a core",
+      "explanationUk": "Здобуте ядро стає активною здібністю лише після очищення й налаштування у святилищі.",
+      "explanationEn": "A dropped core becomes an active ability only after Shrine purification and attunement.",
+      "exampleUk": "Налаштувати ядро Enki на духа-охоронця.",
+      "exampleEn": "Attune Enki's core to the Guardian Spirit."
+    },
+    "CON-282": {
+      "labelUk": "Ключ відкриває шлях до боса",
+      "labelEn": "The key opens the boss route",
+      "explanationUk": "Внутрішній прохід лишається закритим, доки не взято ключ.",
+      "explanationEn": "The inner route remains closed until the key is taken.",
+      "exampleUk": "Взяти ключ після очищення Темного світу.",
+      "exampleEn": "Take the key after clearing the Dark Realm."
+    },
+    "CON-589": {
+      "labelUk": "Захват потребує виснаження",
+      "labelEn": "Grapple needs exhaustion",
+      "explanationUk": "Завершальний близький удар можливий тільки в короткому вікні після зламу Ki.",
+      "explanationEn": "The close follow-up is legal only in the brief post-break window.",
+      "exampleUk": "Не запізнитися з ударом по виснаженому ворогу.",
+      "exampleEn": "Do not miss the exhausted enemy's window."
+    },
+    "CON-604": {
+      "labelUk": "Порожня Ki забирає захист",
+      "labelEn": "Empty Ki removes defence",
+      "explanationUk": "Без достатньої Ki не можна розпочати ухилення чи підтримувати захист.",
+      "explanationEn": "Without sufficient Ki, evasion or guard cannot continue.",
+      "exampleUk": "Залишити запас перед випадом Mezuki.",
+      "exampleEn": "Keep reserve before Mezuki lunges."
+    },
+    "INF-119": {
+      "labelUk": "Стеж за власними шкалами",
+      "labelEn": "Watch your own gauges",
+      "explanationUk": "Інтерфейс показує здоров’я, Ki, Anima, стійку та готовність здібностей.",
+      "explanationEn": "The interface shows life, Ki, Anima, stance and ability readiness.",
+      "exampleUk": "Перевірити Anima перед відповіддю.",
+      "exampleEn": "Check Anima before countering."
+    },
+    "INF-318": {
+      "labelUk": "Стеж за здоров’ям Mezuki",
+      "labelEn": "Read Mezuki's health",
+      "explanationUk": "Окрема шкала показує поступ у бою з обов’язковим босом.",
+      "explanationEn": "A separate bar shows progress against the mandatory boss.",
+      "exampleUk": "Оцінити, скільки здоров’я лишилося босові.",
+      "exampleEn": "See how much boss health remains."
+    },
+    "OBJ-080": {
+      "labelUk": "Заверши місію після Mezuki",
+      "labelEn": "Finish the mission after Mezuki",
+      "explanationUk": "Перемоги над босом замало: завершальне світло повертає на мапу.",
+      "explanationEn": "Boss defeat alone is insufficient: the ending glow returns to the map.",
+      "exampleUk": "Доторкнутися до світла після бою.",
+      "exampleEn": "Interact with the glow after the fight."
+    },
+    "TIM-003": {
+      "labelUk": "Бийся в реальному часі",
+      "labelEn": "Fight in real time",
+      "explanationUk": "Вороги діють, поки гравець атакує, відступає чи відновлює силу.",
+      "explanationEn": "Enemies act while the player strikes, retreats or recovers.",
+      "exampleUk": "Виконати Ki Pulse між атаками ворога.",
+      "exampleEn": "Time Ki Pulse between enemy attacks."
+    }
+  },
+  "supporting": {
+    "ACT-008": {
+      "labelUk": "Пройди село до святилища",
+      "labelEn": "Traverse the village",
+      "explanationUk": "Гравець безпосередньо рухається шляхом через село й брами.",
+      "explanationEn": "The player directly moves through the village route and gates.",
+      "exampleUk": "Повернутися до внутрішнього проходу з ключем.",
+      "exampleEn": "Return to the inner gate with the key."
+    },
+    "ACT-161": {
+      "labelUk": "Завдай удару зброєю",
+      "labelEn": "Strike with the weapon",
+      "explanationUk": "Звичайний ближній удар витрачає Ki й тисне на ворога.",
+      "explanationEn": "An ordinary melee strike spends Ki and pressures the foe.",
+      "exampleUk": "Вдарити після промаху Mezuki.",
+      "exampleEn": "Strike after Mezuki misses."
+    },
+    "ACT-200": {
+      "labelUk": "Використай лікування",
+      "labelEn": "Use an Elixir",
+      "explanationUk": "Витратний предмет відновлює здоров’я, але потребує безпечного проміжку.",
+      "explanationEn": "A consumable restores life but needs a safe interval.",
+      "exampleUk": "Лікуватися поза досяжністю боса.",
+      "exampleEn": "Heal outside the boss's reach."
+    },
+    "ACT-436": {
+      "labelUk": "Ухилися за запас Ki",
+      "labelEn": "Evade at a Ki cost",
+      "explanationUk": "Ухилення змінює позицію і зменшує той самий запас, що й атака.",
+      "explanationEn": "An evade changes position and spends the same reserve as attacks.",
+      "exampleUk": "Відійти вбік від довгого удару.",
+      "exampleEn": "Dodge sideways from a long swing."
+    },
+    "ACT-437": {
+      "labelUk": "Утримуй захист",
+          "labelEn": "Hold your guard",
+      "explanationUk": "Утримуваний захист послаблює удар, але не замінює вчасної відповіді.",
+      "explanationEn": "Held guard reduces a hit but does not replace a timed counter.",
+      "exampleUk": "Прикритися від звичайного випаду.",
+      "exampleEn": "Guard against an ordinary swing."
+    },
+    "ACT-438": {
+      "labelUk": "Зафіксуй ціль",
+      "labelEn": "Lock onto the target",
+      "explanationUk": "Камера й напрям ударів відстежують вибраного ворога.",
+      "explanationEn": "Camera and attack facing track the selected enemy.",
+      "exampleUk": "Зафіксувати Mezuki перед наближенням.",
+      "exampleEn": "Lock onto Mezuki before closing in."
+    },
+    "SYS-215": {
+      "labelUk": "Вороги відповідають у бою",
+      "labelEn": "Foes respond in combat",
+      "explanationUk": "Безпосередні атаки й захист відбуваються, поки ворог продовжує діяти.",
+      "explanationEn": "Direct attacks and defence resolve while the enemy keeps acting.",
+      "exampleUk": "Перервати серію й відійти від нового замаху.",
+      "exampleEn": "Break a chain and retreat from a new wind-up."
+    },
+    "SYS-578": {
+      "labelUk": "Здоров’я вирішує спробу",
+      "labelEn": "Life decides the attempt",
+      "explanationUk": "Ушкодження зменшує здоров’я, а його нуль повертає до святилища.",
+      "explanationEn": "Damage lowers life; zero returns the attempt to a Shrine.",
+      "exampleUk": "Вилікуватися до наступного удару.",
+      "exampleEn": "Heal before the next hit."
     }
   }
+},
+"GAME-0300": {
+  "genes": {
+    "ACT-052": {"labelUk":"Перемкни кухаря","labelEn":"Switch chef","explanationUk":"Один гравець керує одним із двох кухарів, а другий лишається на місці.","explanationEn":"One player controls either of two chefs while the other remains in place.","exampleUk":"Перемкнутися на кухаря біля креветок.","exampleEn":"Switch to the chef near the shrimp."},
+    "ACT-461": {"labelUk":"Подай готову тарілку","labelEn":"Serve a prepared plate","explanationUk":"Тарілку з готовим сашимі треба донести до вікна видачі.","explanationEn":"Carry a finished sashimi plate to the serving hatch.","exampleUk":"Подати рибне сашимі до завершення замовлення.","exampleEn":"Serve fish sashimi before its order expires."},
+    "SYS-872": {"labelUk":"Збери страву на тарілці","labelEn":"Build a plated dish","explanationUk":"Нарізаний інгредієнт на тарілці стає стравою для перевірки замовлення.","explanationEn":"A chopped ingredient on a plate becomes a dish that can match an order.","exampleUk":"Викласти нарізану креветку на тарілку.","exampleEn":"Place chopped shrimp on a plate."},
+    "SYS-873": {"labelUk":"Набирай очки в порядку замовлень","labelEn":"Score in ticket order","explanationUk":"Правильна подача додає очки; порядок замовлень зберігає множник комбінації.","explanationEn":"A matching dish adds score; ticket order preserves the combo multiplier.","exampleUk":"Подавай сашимі в тому порядку, у якому показані замовлення.","exampleEn":"Serve sashimi in the displayed ticket order."},
+    "CON-620": {"labelUk":"Не проґав замовлення","labelEn":"Beat each order's wait","explanationUk":"Кожне замовлення має власний час очікування й може сплинути окремо.","explanationEn":"Each order has its own wait allowance and can expire separately.","exampleUk":"Спочатку доробити тарілку для замовлення, що майже спливло.","exampleEn":"Finish the plate for a nearly expired ticket first."},
+    "OBJ-176": {"labelUk":"Здобудь першу зірку","labelEn":"Earn the first star","explanationUk":"Підсумковий рахунок першої кухні має дати щонайменше одну зірку для переходу далі.","explanationEn":"The first kitchen's final score must earn at least one star to progress.","exampleUk":"Повернутися на мапу з доступною кухнею 1-2.","exampleEn":"Return to the map with kitchen 1-2 available."},
+    "TIM-023": {"labelUk":"Почни відлік подачею","labelEn":"Start the clock by serving","explanationUk":"За письмовим описом першої кухні основний відлік починається після першої правильної подачі.","explanationEn":"A written first-kitchen guide says the main countdown starts on the first accepted dish.","exampleUk":"Підготувати інгредієнти до подачі першої тарілки.","exampleEn":"Stage ingredients before serving the first plate."}
+  },
+  "structural": {
+    "ACT-048": {"labelUk":"Перенеси або кинь інгредієнт","labelEn":"Carry or throw an ingredient","explanationUk":"Кухар може переносити предмети між станціями й кидати їжу через кухню.","explanationEn":"A chef carries objects between stations and can throw food across the kitchen.","exampleUk":"Перекинути рибу до дошки для нарізання.","exampleEn":"Throw fish toward a chopping board."},
+    "ACT-410": {"labelUk":"Наріж інгредієнт","labelEn":"Chop an ingredient","explanationUk":"Сиру рибу чи креветку потрібно підготувати на дошці перед подачею.","explanationEn":"Prepare raw fish or shrimp at a board before serving.","exampleUk":"Нарізати креветку й покласти її на тарілку.","exampleEn":"Chop shrimp before plating it."},
+    "SYS-030": {"labelUk":"З’являються нові замовлення","labelEn":"New orders arrive","explanationUk":"Під час роботи кухні додаються нові запити на страви.","explanationEn":"New dish requests appear while the kitchen runs.","exampleUk":"Побачити нове замовлення рибного сашимі.","exampleEn":"See a new fish sashimi ticket."},
+    "SYS-874": {"labelUk":"Рахунок перетворюється на зірки","labelEn":"Score becomes stars","explanationUk":"Після завершення кухні рахунок визначає зірки й доступ до наступного рівня.","explanationEn":"At kitchen end, score determines stars and access to the next level.","exampleUk":"Перша зірка відкриває 1-2.","exampleEn":"One star opens 1-2."},
+    "CON-637": {"labelUk":"Звір страву із замовленням","labelEn":"Match dish to ticket","explanationUk":"Потрібна правильна нарізана страва на тарілці, доки замовлення чинне.","explanationEn":"The correct chopped dish must be on a plate while the ticket is live.","exampleUk":"Не подавати рибу замість креветки.","exampleEn":"Do not serve fish for a shrimp ticket."},
+    "INF-330": {"labelUk":"Читай чергу замовлень","labelEn":"Read the order queue","explanationUk":"Поточні замовлення й час очікування показують, яку страву готувати наступною.","explanationEn":"Current tickets and their wait state show which dish to prepare next.","exampleUk":"Вибрати замовлення, у якого майже вичерпався час.","exampleEn":"Choose a ticket close to expiry."},
+    "TIM-003": {"labelUk":"Дій, поки час іде","labelEn":"Act while time runs","explanationUk":"Кухарі рухаються й готують, поки відлік і замовлення продовжують змінюватися.","explanationEn":"Chefs move and prepare food while the clock and tickets keep changing.","exampleUk":"Перемкнути кухаря, поки інше замовлення чекає.","exampleEn":"Switch chefs while another ticket waits."}
+  },
+  "supporting": {
+    "ACT-008": {"labelUk":"Пересувай кухаря кухнею","labelEn":"Move a chef through the kitchen","explanationUk":"Безпосередній рух з’єднує ящики, дошки, тарілки й вікно видачі.","explanationEn":"Direct movement connects crates, boards, plates and the hatch.","exampleUk":"Дійти від ящика з рибою до дошки.","exampleEn":"Walk from the fish crate to a board."}
+  }
+},
+"GAME-0301": {
+  "genes": {
+    "SYS-875": {"labelUk":"Оновлюй запас очок дії","labelEn":"Refresh the AP pool","explanationUk":"На новому ході боєць отримує очки дії й може зберегти частину невитрачених до верхньої межі.","explanationEn":"A new turn refreshes AP and can retain some unused points up to a cap.","exampleUk":"Завершити хід із залишком очок для наступного.","exampleEn":"End a turn with AP left for the next one."},
+    "SYS-876": {"labelUk":"Загаси вогонь водою","labelEn":"Clear fire with water","explanationUk":"Вода з бочки вкриває ділянку й гасить вогонь, на який потрапляє.","explanationEn":"Water from a barrel covers an area and extinguishes overlapping fire.","exampleUk":"Випустити воду з бочки біля вогню.","exampleEn":"Release barrel water beside the fire."},
+    "CON-638": {"labelUk":"Умісти дії в запас","labelEn":"Fit actions into AP","explanationUk":"Рух і атака витрачають ті самі очки дії; бракує очок — команда не виконується.","explanationEn":"Moving and attacking spend the same AP; a command cannot proceed without enough.","exampleUk":"Залишити очки на атаку після руху.","exampleEn":"Leave enough AP to attack after moving."},
+    "INF-343": {"labelUk":"Читай стан бою","labelEn":"Read the combat display","explanationUk":"Порядок ходів, доступні очки дії та здоров’я цілі видимі до вибору команди.","explanationEn":"Turn order, available AP and target health are visible before a command.","exampleUk":"Перед рухом перевірити залишок очок дії.","exampleEn":"Check remaining AP before moving."},
+    "OBJ-113": {"labelUk":"Дістанься пляжу","labelEn":"Reach the beach","explanationUk":"Втеча з корабля завершується першим керуванням персонажем на пляжі Форт-Джой.","explanationEn":"The ship escape ends at first character control on Fort Joy beach.","exampleUk":"Відплисти шлюпкою після бою на палубі.","exampleEn":"Take the lifeboat after the deck fight."}
+  },
+  "structural": {
+    "ACT-019": {"labelUk":"Обери атаку й ціль","labelEn":"Choose an attack and target","explanationUk":"Доступна бойова дія потребує вибраної цілі.","explanationEn":"An available combat action needs a selected target.","exampleUk":"Атакувати одного порожняка.","exampleEn":"Attack one Voidling."},
+    "ACT-048": {"labelUk":"Пересунь предмет","labelEn":"Move an object","explanationUk":"Ящик або бочку можна взяти й поставити в іншому місці.","explanationEn":"A crate or barrel can be lifted and placed elsewhere.","exampleUk":"Поставити ящик на натискну плиту.","exampleEn":"Set a crate on a pressure plate."},
+    "ACT-232": {"labelUk":"Обери відповідь","labelEn":"Choose a response","explanationUk":"Репліка в розмові просуває початкову пригоду або змінює гілку.","explanationEn":"A dialogue reply advances the opening quest or chooses a branch.","exampleUk":"Попросити негайно відплисти шлюпкою.","exampleEn":"Choose immediate departure in the lifeboat."},
+    "ACT-341": {"labelUk":"Взаємодій із проходом","labelEn":"Use a passage object","explanationUk":"Двері, сходи й шлюпка мають окрему контекстну взаємодію.","explanationEn":"Doors, stairs and the lifeboat have contextual interactions.","exampleUk":"Піднятися сходами на палубу.","exampleEn":"Take the stairs to the deck."},
+    "SYS-061": {"labelUk":"Утримуй плиту натиснутою","labelEn":"Keep the plate occupied","explanationUk":"Два ящики на парі плит тримають пов’язаний прохід відкритим.","explanationEn":"Two crates on paired plates keep the linked passage open.","exampleUk":"Лишити обидва ящики на плитах і пройти далі.","exampleEn":"Leave both crates on the plates and pass through."},
+    "SYS-356": {"labelUk":"Дотримуйся порядку ходів","labelEn":"Follow initiative order","explanationUk":"Бійці діють у видимій черзі, а після завершення ходу керування переходить далі.","explanationEn":"Combatants act in a visible queue and control passes on when a turn ends.","exampleUk":"Побачити, хто ходитиме після Іфана.","exampleEn":"See who acts after Ifan."},
+    "SYS-379": {"labelUk":"Просувай завдання втечі","labelEn":"Advance the escape quest","explanationUk":"Події на кораблі змінюють поточний етап початкового завдання.","explanationEn":"Ship events update the opening quest stage.","exampleUk":"Після вибуху шукати вихід на палубу.","exampleEn":"Seek the deck after the blast."},
+    "CON-269": {"labelUk":"Перевір дальність атаки","labelEn":"Check attack reach","explanationUk":"Уміння спрацьовує тільки за дозволеної цілі, дальності та готовності.","explanationEn":"An ability works only with a legal target, range and readiness.","exampleUk":"Наблизитися до порожняка перед атакою.","exampleEn":"Move close enough to attack a Voidling."},
+    "INF-073": {"labelUk":"Бач своє спорядження","labelEn":"See active equipment","explanationUk":"Інтерфейс показує вибрану зброю й доступні швидкі предмети.","explanationEn":"The interface shows the equipped weapon and quick items.","exampleUk":"Перевірити зброю перед боєм.","exampleEn":"Check the weapon before combat."},
+    "TIM-001": {"labelUk":"Дочекайся наслідку команди","labelEn":"Let a command resolve","explanationUk":"Після бойової команди рух чи удар завершуються до наступного рішення.","explanationEn":"A combat move or attack settles before the next decision.","exampleUk":"Дочекатися наслідку атаки й обрати наступний крок.","exampleEn":"Let an attack resolve before choosing again."}
+  },
+  "supporting": {
+    "ACT-089": {"labelUk":"Підбери зброю","labelEn":"Pick up a weapon","explanationUk":"Доступний предмет із палуби переходить у наплічник.","explanationEn":"A reachable deck item enters the inventory.","exampleUk":"Взяти навчальну зброю.","exampleEn":"Collect a tutorial weapon."},
+    "ACT-096": {"labelUk":"Обери місце руху","labelEn":"Choose a destination","explanationUk":"Гравець вказує досяжну точку, а персонаж проходить шлях до неї.","explanationEn":"Select a reachable point and the character follows a route to it.","exampleUk":"Перейти до сходів на палубу.","exampleEn":"Move to the deck stairs."},
+    "ACT-199": {"labelUk":"Спорядь знайдене","labelEn":"Equip found gear","explanationUk":"Предмет із наплічника переходить до придатного місця спорядження.","explanationEn":"An inventory item moves into a compatible equipment slot.","exampleUk":"Спорядити підібрану зброю.","exampleEn":"Equip the found weapon."},
+    "INF-128": {"labelUk":"Перевір здобич","labelEn":"Inspect loot","explanationUk":"Доступні речі й вміст наплічника показані до вибору.","explanationEn":"Available loot and inventory contents are visible before selection.","exampleUk":"Побачити зброю в наплічнику.","exampleEn":"See the weapon in the inventory."}
+  }
+},
+"GAME-0302": {
+  "genes": {
+    "ACT-049": {"labelUk":"Перемкни доступний важіль","labelEn":"Operate a reachable switch","explanationUk":"Тоад підходить до перемикача й змінює стан пов’язаної з ним платформи або проходу.","explanationEn":"The explorer reaches a switch and changes its linked platform or route state.","exampleUk":"Потягнути нижній перемикач, стоячи на платформі.","exampleEn":"Pull the lower switch while standing on the lift."},
+    "SYS-065": {"labelUk":"Підніми рухому платформу","labelEn":"Raise the moving platform","explanationUk":"Після перемикання платформа рухається заданим шляхом і переносить Тоада нагору.","explanationEn":"After the switch is pulled, the platform follows its authored path and carries the explorer upward.","exampleUk":"Дочекатися, поки нижня платформа дістанеться верхньої тераси.","exampleEn":"Wait for the lower lift to reach the upper terrace."},
+    "OBJ-025": {"labelUk":"Дістанься Зірки сили","labelEn":"Reach the Power Star","explanationUk":"Торкання Зірки сили завершує перший рівень; усі необов’язкові самоцвіти для цього не потрібні.","explanationEn":"Touching the Power Star clears the first course; every optional gem is not required.","exampleUk":"Пройти відкритим дерев’яним підходом до Зірки.","exampleEn":"Walk the opened wooden approach to the Star."}
+  },
+  "structural": {
+    "INF-001": {"labelUk":"Оглянь незмінний рівень","labelEn":"Inspect the fixed course","explanationUk":"Поворот камери показує інший бік тієї самої діорами, не змінюючи прохідність.","explanationEn":"Orbiting the view reveals another side of the same diorama without changing its traversability.","exampleUk":"Повернути огляд, щоб побачити верхній перемикач.","exampleEn":"Orbit the view to find the upper switch."},
+    "TIM-003": {"labelUk":"Дій у живому світі","labelEn":"Act while the world runs","explanationUk":"Платформа рухається після запуску, а бічний супротивник продовжує свій рух під час керування.","explanationEn":"The platform moves after activation and a side-path opponent continues patrolling during input.","exampleUk":"Рухатися на платформі, поки вона піднімається.","exampleEn":"Move on the platform while it rises."}
+  },
+  "supporting": {
+    "ACT-008": {"labelUk":"Іди зв’язаним шляхом","labelEn":"Walk a connected route","explanationUk":"Тоад рухається по доступній поверхні й не може перестрибнути розрив.","explanationEn":"The explorer moves on connected walkable surfaces and cannot jump across a gap.","exampleUk":"Знайти шлях до нижнього перемикача.","exampleEn":"Find the route to the lower switch."}
+  }
+},
+"GAME-0303": {
+  "genes": {
+    "ACT-419": {"labelUk":"Добий відкритого ворога","labelEn":"Finish an exposed enemy","explanationUk":"Зламана стійка на короткий час відкриває окрему команду добивання.","explanationEn":"Broken Structure briefly exposes a separate takedown command.","exampleUk":"Добити ворога після зламу стійки.","exampleEn":"Take down an enemy after a Structure break."},
+    "ACT-462": {"labelUk":"Націль прийом Focus","labelEn":"Aim a Focus technique","explanationUk":"Готовий заряд дає уповільнений вибір вразливої точки та особливий прийом.","explanationEn":"A ready charge slows target selection for a special weak-point technique.","exampleUk":"Витратити заряд на небезпечного супротивника.","exampleEn":"Spend a charge on a dangerous opponent."},
+    "SYS-409": {"labelUk":"Зламай стійку","labelEn":"Break Structure","explanationUk":"Удари й точний захист накопичують тиск на стійку; поріг відкриває добивання.","explanationEn":"Strikes and precise defence pressure Structure until its threshold opens a takedown.","exampleUk":"Парирувати, щоб добити ворога після зламу.","exampleEn":"Parry to open a post-break takedown."},
+    "SYS-878": {"labelUk":"Повернися ціною віку","labelEn":"Rise at an age cost","explanationUk":"Талісман повертає героя на місці, але наступна смерть додає ще більше років.","explanationEn":"The pendant restores the fighter in place, but the next death adds more years.","exampleUk":"Підвестися вдруге й постаріти на два роки.","exampleEn":"Rise a second time and age by two years."},
+    "SYS-879": {"labelUk":"Збережи вік після розділу","labelEn":"Bank the chapter age","explanationUk":"Перемога записує досягнутий вік для наступного розділу й скидає лічильник смертей.","explanationEn":"Victory saves the finishing age for the next chapter and resets the death counter.","exampleUk":"Завершити The Squats із новим віком.","exampleEn":"Finish The Squats at the new age."},
+    "OBJ-080": {"labelUk":"Переможи Фаджара й відкрий далі","labelEn":"Defeat Fajar and advance","explanationUk":"Перший сховок завершується лише після обох фаз Фаджара та повернення до наступного вибору.","explanationEn":"The first Hideout settles after both Fajar phases and the return to the next choice.","exampleUk":"Повернутися у Вугуань після перемоги.","exampleEn":"Return to the Wuguan after the win."}
+  },
+  "structural": {
+    "ACT-223": {"labelUk":"Відповідай на удар вчасно","labelEn":"Time a defensive response","explanationUk":"Парирування, ухилення й відведення корпусу залежать від моменту атаки ворога.","explanationEn":"Parry, dodge and avoid depend on the enemy attack's timing.","exampleUk":"Пропустити високий удар над головою.","exampleEn":"Duck beneath a high strike."},
+    "ACT-383": {"labelUk":"Тримай захист","labelEn":"Maintain guard","explanationUk":"Утриманий захист стримує удар, але навантажує власну стійку.","explanationEn":"Held guard absorbs a hit while straining personal Structure.","exampleUk":"Заблокувати удар у коридорі.","exampleEn":"Block a strike in the corridor."},
+    "ACT-463": {"labelUk":"Підтвердь повернення","labelEn":"Confirm revival","explanationUk":"Після смерті гравець вирішує підвестися талісманом або завершити спробу.","explanationEn":"After defeat, choose pendant continuation or let the attempt end.","exampleUk":"Підвестися після невдалої сутички.","exampleEn":"Rise after a failed exchange."},
+    "SYS-035": {"labelUk":"Наповнюй Focus у бою","labelEn":"Build Focus in combat","explanationUk":"Успішна участь у бою поповнює запас для майбутнього особливого прийому.","explanationEn":"Combat performance builds a reserve for a later special technique.","exampleUk":"Продовжити бій до готовності заряду.","exampleEn":"Fight until a charge is ready."},
+    "SYS-215": {"labelUk":"Бийся з активними ворогами","labelEn":"Fight active opponents","explanationUk":"Вороги продовжують рух і атаки, поки герой ухвалює наступне рішення.","explanationEn":"Enemies keep moving and attacking while the fighter chooses the next response.","exampleUk":"Змінити позицію між двома нападниками.","exampleEn":"Reposition between two attackers."},
+    "SYS-877": {"labelUk":"Застосуй заряджений прийом","labelEn":"Resolve the charged move","explanationUk":"Система витрачає Focus і застосовує прицільний ефект до ворога.","explanationEn":"The system spends Focus and applies the aimed effect to the enemy.","exampleUk":"Перервати атаку вибраним прийомом.","exampleEn":"Interrupt an attack with the selected technique."},
+    "CON-324": {"labelUk":"Вкладися у вікно захисту","labelEn":"Meet the defence window","explanationUk":"Точна захисна відповідь спрацьовує лише в допустимий момент атаки.","explanationEn":"A precise defence works only during its legal attack window.","exampleUk":"Парирувати перед контактом удару.","exampleEn":"Parry just before contact."},
+    "CON-589": {"labelUk":"Добивай лише відкритого","labelEn":"Finish only while exposed","explanationUk":"Добивання доступне лише поруч із ворогом, який ще перебуває у стані зламу.","explanationEn":"A takedown needs a nearby enemy still inside the break window.","exampleUk":"Не втратити коротку нагоду після зламу.","exampleEn":"Use the brief post-break opening."},
+    "CON-639": {"labelUk":"Стеж за межею життя","labelEn":"Mind the life limit","explanationUk":"Коли вік вичерпує можливість талісмана, після смерті підвестися вже не можна.","explanationEn":"Once age exhausts the pendant's capacity, another death cannot be reversed.","exampleUk":"Не ризикувати наприкінці життєвого запасу.","exampleEn":"Avoid reckless risks near the life limit."},
+    "INF-119": {"labelUk":"Читай власні показники","labelEn":"Read personal gauges","explanationUk":"Здоров’я, стійка, Focus, вік і лічильник смерті впливають на наступний вибір.","explanationEn":"Health, Structure, Focus, age and death count affect the next choice.","exampleUk":"Перевірити стійку перед блокуванням.","exampleEn":"Check Structure before guarding."},
+    "INF-334": {"labelUk":"Бач стійку ворога","labelEn":"Read enemy Structure","explanationUk":"Показник ворога підказує, наскільки близько його злам і нагода добивання.","explanationEn":"An enemy gauge shows how close they are to a break and takedown.","exampleUk":"Посилити тиск на ворога майже без стійки.","exampleEn":"Press an enemy close to breaking."},
+    "TIM-003": {"labelUk":"Дій у живому бою","labelEn":"Act in live combat","explanationUk":"Позиції й удари ворогів змінюються, поки гравець рухається та захищається.","explanationEn":"Enemy positions and strikes keep changing while the player moves and defends.","exampleUk":"Вчасно перейти від захисту до атаки.","exampleEn":"Shift from guard to attack in time."}
+  },
+  "supporting": {
+    "ACT-008": {"labelUk":"Пройди сховок","labelEn":"Traverse the Hideout","explanationUk":"Боєць безпосередньо проходить будинок, коридор і склад до Фаджара.","explanationEn":"The fighter directly crosses the building, corridor and warehouse to Fajar.","exampleUk":"Дістатися виходу з довгого коридору.","exampleEn":"Reach the end of the long corridor."},
+    "ACT-161": {"labelUk":"Удар доступного ворога","labelEn":"Strike a reachable enemy","explanationUk":"Звичайний ближній удар знижує здоров’я та навантажує стійку цілі.","explanationEn":"An ordinary close strike damages health and pressures target Structure.","exampleUk":"Атакувати ворога після його промаху.","exampleEn":"Strike after an enemy misses."},
+    "SYS-578": {"labelUk":"Бережи здоров’я","labelEn":"Preserve health","explanationUk":"Отримані удари знижують здоров’я; нуль відкриває вибір повернення або поразку.","explanationEn":"Incoming hits reduce health; zero opens revival or defeat.","exampleUk":"Відійти після втрати здоров’я.","exampleEn":"Back away after losing health."},
+    "CON-282": {"labelUk":"Пройди обов’язковий маршрут","labelEn":"Follow the required route","explanationUk":"Свіжий перший сховок веде крізь послідовні зони до Фаджара без раніше відкритого скорочення.","explanationEn":"A fresh first Hideout follows ordered areas to Fajar without an old shortcut.","exampleUk":"Пройти будинок і склад перед босом.","exampleEn":"Cross the building and warehouse before the boss."},
+    "INF-142": {"labelUk":"Читай рух атаки","labelEn":"Read attack motion","explanationUk":"Рух супротивника підказує момент для захисту, ухилення чи відповіді.","explanationEn":"Enemy motion cues when to guard, evade or answer.","exampleUk":"Помітити початок високого удару.","exampleEn":"Notice a high strike starting."},
+    "INF-295": {"labelUk":"Поміть нагоду добивання","labelEn":"Notice the finisher opening","explanationUk":"Після зламу стійки гра позначає коротку нагоду для окремої ближньої дії.","explanationEn":"After Structure breaks, the game marks a brief close-action opportunity.","exampleUk":"Добити ворога, доки підказка не зникла.","exampleEn":"Finish an enemy before the prompt fades."}
+  }
+},
+"GAME-0304": {
+  "genes": {
+    "ACT-464": {"labelUk":"Забери весь вибраний колір","labelEn":"Take every tile of one colour","explanationUk":"З одного відкритого джерела треба взяти всі плитки обраного кольору.","explanationEn":"Take every tile of your chosen colour from one public source.","exampleUk":"Забрати обидві сині плитки з майстерні.","exampleEn":"Take both blue tiles from a factory."},
+    "ACT-465": {"labelUk":"Вклади набрану партію в один рядок","labelEn":"Stage the batch in one row","explanationUk":"Вибери один придатний рядок для набраного кольору; зайве піде на штрафну лінію.","explanationEn":"Choose one eligible row for the drafted colour; surplus reaches the penalty floor.","exampleUk":"Дві сині плитки призначити другому підготовчому рядку.","exampleEn":"Stage two blue tiles in the second pattern line."},
+    "SYS-881": {"labelUk":"Перенеси повний рядок на стіну","labelEn":"Move a full row to the wall","explanationUk":"Наприкінці раунду повний підготовчий рядок дає одну плитку у відповідну клітинку стіни.","explanationEn":"At round end, a full pattern line gives one tile to its matching wall cell.","exampleUk":"Із трьох синіх плиток одну перенести на стіну.","exampleEn":"Move one of three blue tiles to the wall."},
+    "SYS-882": {"labelUk":"Рахуй суцільні лінії","labelEn":"Score connected lines","explanationUk":"Нова плитка приносить очки за суцільні горизонтальну й вертикальну лінії через неї.","explanationEn":"A new wall tile scores its contiguous horizontal and vertical runs.","exampleUk":"Плитка між двома сусідами подовжує ряд із трьох.","exampleEn":"A tile between two neighbours completes a run of three."},
+    "CON-642": {"labelUk":"Не переповнюй підготовчий рядок","labelEn":"Do not overfill a pattern line","explanationUk":"Рядки вміщують від однієї до п’яти плиток, а надлишок іде на штрафну лінію.","explanationEn":"Pattern lines hold one to five tiles, with overflow sent to the penalty floor.","exampleUk":"Третя плитка не поміститься в рядку на дві.","exampleEn":"A third tile cannot fit in a two-slot row."},
+    "OBJ-177": {"labelUk":"Виграй підсумковий рахунок","labelEn":"Win the final score comparison","explanationUk":"Після кінцевих бонусів виграє вищий рахунок; за рівності вирішують повні ряди.","explanationEn":"After final bonuses, higher score wins; complete rows break a score tie.","exampleUk":"Рахунок 64 проти 52 дає перемогу першому гравцю.","exampleEn":"A 64–52 final score gives the first player the win."}
+  },
+  "structural": {
+    "SYS-880": {"labelUk":"Залишок майстерні піде до центру","labelEn":"Factory leftovers enter the centre","explanationUk":"Плитки інших кольорів із вибраної майстерні стають спільною пропозицією.","explanationEn":"The unchosen factory colours become part of the shared centre.","exampleUk":"Після набору синього червона плитка переходить у центр.","exampleEn":"After taking blue, a red tile moves into the centre."},
+    "SYS-883": {"labelUk":"Штраф зростає вздовж підлоги","labelEn":"Floor penalties rise along the line","explanationUk":"Зайві плитки займають послідовні штрафні місця, що забирають дедалі більше очок.","explanationEn":"Overflow occupies ordered floor slots that cost progressively more points.","exampleUk":"Шосте місце підлоги коштує три очки.","exampleEn":"The sixth floor slot costs three points."},
+    "SYS-884": {"labelUk":"Центр дає перший хід потім","labelEn":"The centre grants next-round lead","explanationUk":"Перший набір із центру забирає маркер: штраф зараз, перший хід у наступному раунді.","explanationEn":"The first centre draft takes the marker: a penalty now, first turn next round.","exampleUk":"Узяти плитки з центру й забрати маркер.","exampleEn":"Draft from the centre and take the marker."},
+    "SYS-885": {"labelUk":"Понови майстерні зі скінченного запасу","labelEn":"Refill factories from finite supply","explanationUk":"Плитки надходять із мішка; коли він спорожніє, повертаються скинуті до кришки.","explanationEn":"Factories draw from a bag; discarded lid tiles return when it empties.","exampleUk":"Перемішати плитки кришки перед новим набором.","exampleEn":"Shuffle the lid tiles for a new draw."},
+    "CON-640": {"labelUk":"Тримай один колір у рядку","labelEn":"Keep one colour per line","explanationUk":"Частково заповнений підготовчий рядок можна продовжити лише тим самим кольором.","explanationEn":"A partially filled pattern line accepts only its existing colour.","exampleUk":"До синього рядка додати ще синю плитку.","exampleEn":"Add another blue tile to a blue line."},
+    "CON-641": {"labelUk":"Не повторюй колір у ряду стіни","labelEn":"Do not repeat a wall-row colour","explanationUk":"Якщо колір уже стоїть у певному ряду стіни, відповідний підготовчий рядок його більше не прийме.","explanationEn":"Once a wall row has a colour, its pattern line cannot stage that colour again.","exampleUk":"Не готувати другу синю плитку для вже заповненої синьої клітинки.","exampleEn":"Do not stage blue again for a filled blue wall cell."},
+    "CON-643": {"labelUk":"Повний ряд запускає кінець гри","labelEn":"A full row triggers the ending","explanationUk":"П’ять плиток у горизонтальному ряду стіни завершують гру після підрахунку раунду.","explanationEn":"Five occupied cells in a horizontal wall row end play after round scoring.","exampleUk":"П’ятий колір у верхньому ряду запускає фінал.","exampleEn":"The fifth colour in a wall row triggers the finale."},
+    "INF-001": {"labelUk":"Бач відкриті плитки й стіни","labelEn":"See the public tiles and walls","explanationUk":"Майстерні, центр, підготовчі рядки й стіни видимі до наступного вибору.","explanationEn":"Factories, centre, pattern lines and walls are visible before the next choice.","exampleUk":"Перед набором порівняти обидві стіни.","exampleEn":"Compare both walls before drafting."},
+    "TIM-024": {"labelUk":"Спершу набір, потім підрахунок","labelEn":"Draft first, score the round later","explanationUk":"Гравці чергуються, доки відкриті плитки не закінчаться; лише тоді заповнюють стіни.","explanationEn":"Players alternate until public tiles run out; only then do they tile walls.","exampleUk":"Дочекатися спорожнення центру перед підрахунком.","exampleEn":"Wait until the centre empties before wall scoring."}
+  },
+  "supporting": {
+    "SYS-004": {"labelUk":"Нові плитки виходять випадково","labelEn":"New tiles are drawn randomly","explanationUk":"Гравці бачать наповнені майстерні, але не знають наступного порядку плиток у мішку.","explanationEn":"Players see filled factories but not the bag's future draw order.","exampleUk":"Новий раунд може відкрити інші кольори.","exampleEn":"The next round may show different colours."},
+    "SYS-886": {"labelUk":"Додай бонуси за повні набори","labelEn":"Add bonuses for completed sets","explanationUk":"У фіналі додаткові очки дають цілі ряди, стовпці та всі плитки одного кольору.","explanationEn":"At the end, full rows, columns and complete colour sets add extra points.","exampleUk":"Повний стовпець додає сім очок.","exampleEn":"A completed column adds seven points."},
+    "CON-001": {"labelUk":"Стіна має сталі клітинки","labelEn":"The wall has fixed cells","explanationUk":"Кожен колір має своє визначене місце в кожному ряду стандартної стіни.","explanationEn":"Each colour has one fixed address in each standard wall row.","exampleUk":"Синю плитку третього рядка покласти в її клітинку.","exampleEn":"Put a third-row blue tile in its assigned cell."},
+    "INF-002": {"labelUk":"Наступний набір прихований","labelEn":"The next draw is hidden","explanationUk":"До нового раунду невідомо, які саме плитки вийдуть із мішка.","explanationEn":"The exact tiles that will leave the bag next round are not previewed.","exampleUk":"Не планувати майбутню майстерню як певність.","exampleEn":"Do not assume a specific next factory fill."},
+    "OBJ-002": {"labelUk":"Накопичуй очки за стіну","labelEn":"Build a wall score","explanationUk":"Розміщення на стіні додає очки, а підлога може їх зняти до кінцевого рейтингу.","explanationEn":"Wall placement adds points while floor tiles can subtract them before final ranking.","exampleUk":"Скласти довшу лінію замість самотньої плитки.","exampleEn":"Build a longer run rather than an isolated tile."},
+    "TIM-004": {"labelUk":"Набирайте плитки по черзі","labelEn":"Take drafting turns","explanationUk":"Після завершеного набору право вибору переходить іншому гравцеві.","explanationEn":"After a completed draft, the other player chooses next.","exampleUk":"Після ходу А джерело обирає Б.","exampleEn":"After A's turn, B chooses a source."}
+  }
+  },
+"GAME-0305": {
+  "genes": {
+    "ACT-036": {"labelUk":"Доручи Кельвіну роботу","labelEn":"Give Kelvin a task","explanationUk":"Через блокнот гравець обирає завдання для напарника, але не веде його кожним кроком.","explanationEn":"The player chooses the companion's notepad task without steering every step.","exampleUk":"Наказати Кельвіну приносити колоди сюди.","exampleEn":"Order Kelvin to bring logs here."},
+    "SYS-887": {"labelUk":"Кельвін приносить колоди сюди","labelEn":"Kelvin delivers logs here","explanationUk":"Напарник сам знаходить придатні колоди й складає їх у вибраній точці світу.","explanationEn":"The companion finds eligible logs and drops them at the chosen world point.","exampleUk":"Кельвін залишає колоди біля майбутнього укриття.","exampleEn":"Kelvin leaves logs beside the future shelter."},
+    "OBJ-171": {"labelUk":"Збудуй укриття й збережи гру","labelEn":"Build a shelter and save","explanationUk":"Лише готове мисливське укриття з підтвердженим збереженням завершує цей короткий маршрут.","explanationEn":"Only a completed Hunting Shelter with an accepted save closes this short route.","exampleUk":"Заповнити креслення й зберегти гру в готовому укритті.","exampleEn":"Fill the plan and save at the finished shelter."}
+  },
+  "structural": {
+    "ACT-093": {"labelUk":"Додай матеріал до креслення","labelEn":"Contribute to the plan","explanationUk":"Кожна сумісна колода, палиця чи камінь заповнює одну вимогу укриття.","explanationEn":"Each compatible log, stick or rock fills one shelter requirement.","exampleUk":"Додати камінь до незавершеного укриття.","exampleEn":"Add one rock to the unfinished shelter."},
+    "ACT-148": {"labelUk":"Постав креслення на землі","labelEn":"Place a building plan","explanationUk":"Гравець обирає законне місце для незавершеного укриття.","explanationEn":"The player chooses a legal location for the unfinished shelter.","exampleUk":"Поставити контур мисливського укриття на вільній ділянці.","exampleEn":"Place the Hunting Shelter outline on clear ground."},
+    "ACT-245": {"labelUk":"Збери доступні матеріали","labelEn":"Collect nearby materials","explanationUk":"Палиці й каміння з землі переходять до інвентаря, якщо до них можна дотягтися.","explanationEn":"Loose sticks and rocks enter inventory when reachable.","exampleUk":"Підібрати палицю біля місця аварії.","exampleEn":"Pick up a stick near the crash."},
+    "ACT-341": {"labelUk":"Збережися біля готового укриття","labelEn":"Save at the completed shelter","explanationUk":"Окрема дія біля завершеної споруди записує стан гри без сну.","explanationEn":"A separate action at the finished structure records the game state without sleeping.","exampleUk":"Підтвердити новий слот збереження в мисливському укритті.","exampleEn":"Accept a new save slot at the Hunting Shelter."},
+    "SYS-312": {"labelUk":"Креслення стає укриттям","labelEn":"The plan becomes a shelter","explanationUk":"Коли всі вимоги заповнені, незавершений контур стає придатною спорудою.","explanationEn":"Once every requirement is filled, the unfinished outline becomes a usable structure.","exampleUk":"Остання колода завершує укриття.","exampleEn":"The final log completes the shelter."},
+    "SYS-313": {"labelUk":"Світ зберігає побудоване","labelEn":"The world retains construction","explanationUk":"Зібрані ресурси й споруда змінюють тривалий стан острова.","explanationEn":"Gathered resources and the structure alter the continuing island state.","exampleUk":"Завершене укриття лишається на вибраній ділянці.","exampleEn":"The finished shelter remains at the chosen site."},
+    "SYS-327": {"labelUk":"Стан виживання змінюється","labelEn":"Survival condition keeps changing","explanationUk":"Потреби й запас сил героя продовжують змінюватися під час роботи.","explanationEn":"The survivor's needs and reserves continue changing during the task.","exampleUk":"Збирання матеріалів не зупиняє плин ігрового часу.","exampleEn":"Gathering materials does not pause game time."},
+    "SYS-407": {"labelUk":"Напарник діє поруч","labelEn":"A companion acts alongside you","explanationUk":"Кельвін лишається самостійним союзником, поки гравець керує своїм героєм.","explanationEn":"Kelvin remains an autonomous ally while the player controls the survivor.","exampleUk":"Напарник сам рухається до доступних колод.","exampleEn":"The companion moves toward reachable logs on his own."},
+    "CON-210": {"labelUk":"Інвентар має межу","labelEn":"Inventory has limits","explanationUk":"Матеріали займають типізовані місця й можуть вимагати кількох рейсів.","explanationEn":"Materials use typed carrying space and may require several trips.","exampleUk":"Повернутися по решту каміння після заповнення запасу.","exampleEn":"Return for more rocks after reaching capacity."},
+    "CON-292": {"labelUk":"Будуй лише на придатній землі","labelEn":"Build only on valid ground","explanationUk":"Контур не можна підтвердити, якщо місце зайняте або непридатне.","explanationEn":"The outline cannot be committed on blocked or unsuitable ground.","exampleUk":"Посунути креслення з-під дерева на чисту ділянку.","exampleEn":"Move the outline away from a tree to clear ground."},
+    "CON-621": {"labelUk":"Для збереження потрібне готове укриття","labelEn":"Saving needs a completed shelter","explanationUk":"Незавершене креслення ще не дає дії збереження в цьому місці.","explanationEn":"An unfinished outline does not yet offer this site's save action.","exampleUk":"Спершу додати всі матеріали, потім зберігати.","exampleEn":"Add all materials before saving."},
+    "INF-131": {"labelUk":"Бач вимоги споруди","labelEn":"See building requirements","explanationUk":"Контур і лічильники показують, яких матеріалів бракує та чи місце придатне.","explanationEn":"The outline and counters show missing materials and placement legality.","exampleUk":"Побачити, що укриттю бракує ще одного каменя.","exampleEn":"See that the shelter still needs one rock."},
+    "INF-132": {"labelUk":"Посібник показує матеріали","labelEn":"The guide shows the recipe","explanationUk":"Відоме креслення перелічує матеріали до початку побудови.","explanationEn":"The known plan lists its materials before construction begins.","exampleUk":"Мисливське укриття потребує колод, палиць і каміння.","exampleEn":"The Hunting Shelter needs logs, sticks and rocks."},
+    "TIM-003": {"labelUk":"Час плине під час роботи","labelEn":"Time passes during the task","explanationUk":"Доручення, збирання й побудова відбуваються у живому світі без ходів.","explanationEn":"The order, gathering and building occur in a live world rather than turns.","exampleUk":"Кельвін несе колоди, поки гравець збирає палиці.","exampleEn":"Kelvin carries logs while the player gathers sticks."},
+    "TIM-007": {"labelUk":"Збереження створює точку повернення","labelEn":"A save creates a return point","explanationUk":"Підтверджений слот задуманий як попередній стан, до якого можна повернутися; тут його не перезавантажували.","explanationEn":"An accepted slot is an earlier state to return to; this study did not reload it.","exampleUk":"Зберегтись у готовому укритті перед подальшим дослідженням острова.","exampleEn":"Save at the finished shelter before further exploration."}
+  },
+  "supporting": {
+    "ACT-008": {"labelUk":"Іди до місця побудови","labelEn":"Walk to the building site","explanationUk":"Гравець сам керує пересуванням між аварією, матеріалами й укриттям.","explanationEn":"The player directly moves between crash, materials and shelter.","exampleUk":"Дійти до вільної ділянки біля колод.","exampleEn":"Walk to clear ground near the logs."},
+    "INF-073": {"labelUk":"Бач свій запас","labelEn":"See carried supplies","explanationUk":"Інвентар показує матеріали, які можна додати до креслення.","explanationEn":"Inventory shows materials available for the plan.","exampleUk":"Перевірити залишок палиць перед поверненням.","exampleEn":"Check the remaining sticks before returning."},
+    "INF-075": {"labelUk":"Стеж за станом героя","labelEn":"Check survivor condition","explanationUk":"Показники виживання дають змогу оцінити, чи можна безпечно завершити роботу.","explanationEn":"Survival indicators help judge whether the task can safely continue.","exampleUk":"Перевірити сили перед новим рейсом по каміння.","exampleEn":"Check condition before another rock trip."},
+    "INF-128": {"labelUk":"Розрізняй доступні ресурси","labelEn":"Identify reachable resources","explanationUk":"Видимі палиці, каміння й колоди підказують, що можна зібрати чи використати.","explanationEn":"Visible sticks, rocks and logs show what can be collected or used.","exampleUk":"Побачити камінь на землі біля креслення.","exampleEn":"Spot a loose rock near the outline."}
+  }
+},
+"GAME-0306": {
+  "genes": {
+    "ACT-405": {"labelUk":"Познач патруль через бінокль","labelEn":"Mark a patrol through binoculars","explanationUk":"Утримання видимого вартового в полі зору дає позначку, яка допомагає стежити за ним після втрати прямої видимості.","explanationEn":"Holding a visible guard in the binocular view creates a mark that helps track the guard after direct sight is lost.","exampleUk":"Позначити вартового перед входом у Da Ghwandai Khar.","exampleEn":"Mark a guard before entering Da Ghwandai Khar."},
+    "ACT-466": {"labelUk":"Винеси Міллера до вертольота","labelEn":"Carry Miller to the helicopter","explanationUk":"Пораненого союзника треба фізично нести й окремо посадити в доступний транспорт.","explanationEn":"The injured ally must be physically carried and separately loaded into an available transport.","exampleUk":"Донести Міллера до другого місця посадки й покласти на борт.","exampleEn":"Carry Miller to the second landing zone and place him aboard."},
+    "SYS-888": {"labelUk":"Встигни зірвати тривогу після виявлення","labelEn":"Interrupt an alarm after detection","explanationUk":"Перший погляд ворога автоматично сповільнює час, даючи коротку нагоду знешкодити його до повідомлення іншим.","explanationEn":"The first enemy sighting automatically slows time, briefly allowing that observer to be neutralised before warning others.","exampleUk":"Зупинити вартового під час Reflex Mode, перш ніж він сповістить патруль.","exampleEn":"Stop a guard during Reflex Mode before he alerts the patrol."},
+    "CON-644": {"labelUk":"Поранений займає руки","labelEn":"The injured subject occupies your hands","explanationUk":"Коли герой несе Міллера, дворучна зброя недоступна, а пересування обмежене.","explanationEn":"While carrying Miller, two-handed weapons are unavailable and movement is constrained.","exampleUk":"Виходити з села з пістолетом, а не з гвинтівкою напоготові.","exampleEn":"Leave the village with a pistol rather than a readied rifle."},
+    "INF-287": {"labelUk":"Бач позначки й напрям небезпеки","labelEn":"See marks and threat direction","explanationUk":"Позначені вартові лишаються впізнаваними, а індикатор показує, звідки наростає виявлення.","explanationEn":"Marked guards remain identifiable, while the indicator shows where detection is building.","exampleUk":"Стежити за позначеним патрулем і загрозою зліва від укриття.","exampleEn":"Track a marked patrol and a threat from the left of cover."},
+    "OBJ-178": {"labelUk":"Евакуюйтеся разом із Міллером","labelEn":"Extract with Miller","explanationUk":"Місія закінчується лише після того, як поранений союзник і герой опиняться на придатному вертольоті.","explanationEn":"The mission closes only after both the injured ally and the operative board a usable helicopter.","exampleUk":"Посадити Міллера, сісти слідом і отримати оцінку місії.","exampleEn":"Load Miller, board after him and receive the mission result."}
+  },
+  "structural": {
+    "ACT-008": {"labelUk":"Пробирайся місцевістю","labelEn":"Move through the terrain","explanationUk":"Гравець сам обирає наземний шлях до села й місця посадки.","explanationEn":"The player directly chooses the ground route to the village and landing zone.","exampleUk":"Обійти будинок з боку скель.","exampleEn":"Circle a house from the rocky side."},
+    "ACT-202": {"labelUk":"Змінюй позу для маскування","labelEn":"Change stance for concealment","explanationUk":"Присідання й повзання знижують помітність на відкритих ділянках.","explanationEn":"Crouching and crawling reduce exposure across open ground.","exampleUk":"Проповзти повз вікно, яке оглядає вартовий.","exampleEn":"Crawl past a window watched by a guard."},
+    "ACT-218": {"labelUk":"Окремо сідай у вертоліт","labelEn":"Board the helicopter separately","explanationUk":"Після посадки Міллера герой має сам зайти в чинну зону відльоту.","explanationEn":"After loading Miller, the operative must enter the live departure zone personally.","exampleUk":"Сісти до другого вертольота після Міллера.","exampleEn":"Board the second helicopter after Miller."},
+    "ACT-235": {"labelUk":"Тихо знешкодь необізнаного вартового","labelEn":"Quietly neutralise an unaware guard","explanationUk":"Близький прийом можливий до повного виявлення й прибирає одну загрозу з маршруту.","explanationEn":"A close takedown is available before full detection and removes one route threat.","exampleUk":"Знешкодити вартового зі спини біля будинку.","exampleEn":"Subdue a guard from behind near the building."},
+    "ACT-247": {"labelUk":"Керуй конем у полі","labelEn":"Steer the field horse","explanationUk":"Гравець сідає верхи, сам визначає рух і може спішитися перед проникненням.","explanationEn":"The player mounts, steers directly and can dismount before infiltration.","exampleUk":"Під’їхати до пагорба над селом і спішитися.","exampleEn":"Ride to a ridge above the village and dismount."},
+    "SYS-057": {"labelUk":"Вартові реагують на подразники","labelEn":"Guards react to perceived cues","explanationUk":"Побачивши героя або почувши підозрілий звук, патруль змінює маршрут на пошук чи переслідування.","explanationEn":"Seeing the operative or hearing a suspicious sound changes a patrol into search or pursuit.","exampleUk":"Шум біля будинку відводить вартового від його обходу.","exampleEn":"A noise near a house diverts a guard from his patrol."},
+    "SYS-373": {"labelUk":"Підозра переходить у тривогу","labelEn":"Suspicion escalates into alert","explanationUk":"Виявлення поширюється на інших ворогів, якщо спостерігач устигне їх попередити.","explanationEn":"Detection spreads to other hostiles if the observer has time to warn them.","exampleUk":"Незупинений вартовий викликає підмогу.","exampleEn":"An unstopped guard calls for help."},
+    "SYS-747": {"labelUk":"Позначка тримається на рухомій цілі","labelEn":"A mark follows a moving target","explanationUk":"Після спостереження позначка може показувати вартового за звичайною перешкодою.","explanationEn":"After observation, a tag can show the guard beyond ordinary cover.","exampleUk":"Відстежити позначеного вартового за будинком.","exampleEn":"Track a marked guard behind a house."},
+    "SYS-773": {"labelUk":"Дії складаються в оцінку місії","labelEn":"Conduct becomes a mission rating","explanationUk":"Після евакуації гра підсумовує записані дії, очки й ранг однієї місії.","explanationEn":"After extraction, the game settles recorded conduct, points and one mission rank.","exampleUk":"Переглянути оцінку після порятунку Міллера.","exampleEn":"Read the rating after rescuing Miller."},
+    "CON-077": {"labelUk":"Укриття перекриває погляд","labelEn":"Cover interrupts sight","explanationUk":"Вартовий бачить лише в напрямку свого огляду й крізь відкритий шлях.","explanationEn":"A guard sees only within the current facing and an unobstructed path.","exampleUk":"Залишатися за скелею, доки патруль повертається.","exampleEn":"Remain behind a rock while the patrol turns."},
+    "CON-282": {"labelUk":"Перша посадка не завершує маршрут","labelEn":"The first pickup does not finish the route","explanationUk":"Авторська подія з Skulls змінює доступну зону евакуації на другу.","explanationEn":"The authored Skulls event changes the available extraction zone to a second one.","exampleUk":"Після появи Skulls не чекати вертольота на першій позначці.","exampleEn":"Do not wait for the helicopter at the first marker after Skulls appear."},
+    "CON-330": {"labelUk":"Бережи героя й Міллера","labelEn":"Keep both participants viable","explanationUk":"Загибель героя або втрата обов’язкового стану порятунку зриває спробу.","explanationEn":"The operative's death or loss of required rescue state fails the attempt.","exampleUk":"Не залишати пораненого на маршруті до вертольота.","exampleEn":"Do not abandon the injured subject on the way to the helicopter."},
+    "CON-335": {"labelUk":"Тихий прийом потребує необізнаної цілі","labelEn":"A stealth takedown needs an unaware target","explanationUk":"Близький непомітний прийом вимагає правильної відстані й положення до того, як ворог помітить героя.","explanationEn":"A quiet close takedown needs the correct range and position before the hostile detects the player.","exampleUk":"Підійти до вартового позаду, а не атакувати під час перестрілки.","exampleEn":"Approach from behind rather than trying the stealth action during a firefight."},
+    "CON-426": {"labelUk":"Порятунок відкриває завершення евакуацією","labelEn":"Rescue enables extraction settlement","explanationUk":"Самого прибуття в зону недостатньо: потрібний Міллер має опинитися в доступному транспорті разом із героєм.","explanationEn":"Reaching a zone alone is insufficient: required Miller and the operative must depart in a usable craft.","exampleUk":"Покласти Міллера на борт перед власною посадкою.","exampleEn":"Load Miller aboard before boarding yourself."},
+    "INF-115": {"labelUk":"Чуй і бач лише місцеві загрози","labelEn":"See and hear local threats only","explanationUk":"Зір і звук відкривають ближні патрулі, але не всі позиції ворогів наперед.","explanationEn":"Sight and sound reveal nearby patrols but not every future enemy position.","exampleUk":"Почути кроки за стіною, не знаючи точного дальнього маршруту.","exampleEn":"Hear footsteps beyond a wall without knowing the whole distant route."},
+    "INF-125": {"labelUk":"Мапа показує поточну мету","labelEn":"The map shows the current objective","explanationUk":"iDroid дає відомі позначки та поточне завдання, не відкриваючи всю приховану ситуацію.","explanationEn":"The iDroid shows known markers and the current task without exposing every hidden threat.","exampleUk":"Знайти позначене село, де тримають Міллера.","exampleEn":"Find the marked village holding Miller."},
+    "INF-299": {"labelUk":"Підсумок пояснює оцінку","labelEn":"The debrief explains the rating","explanationUk":"Після місії видно категорії дій і загальний результат спроби.","explanationEn":"After the mission, conduct categories and the attempt's aggregate result are visible.","exampleUk":"Зіставити показані бали та ранг після посадки.","exampleEn":"Compare displayed points and rank after boarding."},
+    "TIM-003": {"labelUk":"Патрулі рухаються без чергування ходів","labelEn":"Patrols move without turns","explanationUk":"Світ і вороги не чекають на рішення героя, зокрема під час перегляду iDroid.","explanationEn":"The world and guards do not wait for player decisions, including while viewing the iDroid.","exampleUk":"Патруль продовжує обхід, поки герой дивиться на мапу.","exampleEn":"A patrol keeps moving while the operative checks the map."}
+  },
+  "supporting": {
+    "ACT-161": {"labelUk":"Атакуй досяжну ціль","labelEn":"Attack a reachable target","explanationUk":"За потреби можна прицілитися й ударити або вистрілити по допустимому ворогу.","explanationEn":"When necessary, the player can aim and strike or fire at an eligible hostile.","exampleUk":"Вистрілити в вартового, який уже підняв тривогу.","exampleEn":"Fire at a guard who has already raised the alarm."},
+    "ACT-164": {"labelUk":"Перемикай доступну зброю","labelEn":"Switch available weapons","explanationUk":"Герой обирає придатний предмет із поточного набору, коли руки вільні.","explanationEn":"The operative selects a usable item from the current set when hands are free.","exampleUk":"Взяти пістолет перед входом у село.","exampleEn":"Select the pistol before entering the village."},
+    "ACT-183": {"labelUk":"Перезаряджай скінченний магазин","labelEn":"Reload a finite magazine","explanationUk":"Залишок сумісних набоїв поповнює магазин після окремої дії.","explanationEn":"Compatible reserve rounds refill the magazine through a separate action.","exampleUk":"Перезарядити пістолет за укриттям.","exampleEn":"Reload the pistol behind cover."},
+    "SYS-208": {"labelUk":"Постріл перевіряє укриття й тіло","labelEn":"A shot resolves against cover and body","explanationUk":"Траєкторія й захист визначають, чи влучить прицільний постріл.","explanationEn":"Trajectory and protection determine whether an aimed shot hits.","exampleUk":"Стіна перекриває вистріл у вартового.","exampleEn":"A wall blocks a shot at a guard."},
+    "SYS-215": {"labelUk":"Бій триває в реальному часі","labelEn":"Combat resolves in real time","explanationUk":"Коли непомітність зірвана, ворожі атаки й власні постріли діють одночасно.","explanationEn":"Once stealth breaks, hostile attacks and player fire unfold simultaneously.","exampleUk":"Шукати укриття під час перестрілки в селі.","exampleEn":"Seek cover during a village firefight."},
+    "SYS-369": {"labelUk":"Невдача повертає до контрольної точки","labelEn":"Failure restores a checkpoint","explanationUk":"Після загибелі повторення відновлює попередній авторський стан замість невдалої миттєвої позиції.","explanationEn":"After death, retry restores an authored earlier state rather than the failed instant.","exampleUk":"Повернутися до останньої автоматичної точки після поразки.","exampleEn":"Return to the last automatic checkpoint after defeat."},
+    "SYS-737": {"labelUk":"У безпеці здоров’я відновлюється","labelEn":"Health returns in safety","explanationUk":"Якщо уникати нових влучань, герой поступово відновлюється після шкоди.","explanationEn":"Avoiding further hits lets the operative gradually recover after damage.","exampleUk":"Перечекати за скелею після ворожого пострілу.","exampleEn":"Wait behind a rock after taking fire."},
+    "CON-262": {"labelUk":"Зброя й набої обмежені","labelEn":"Weapons and rounds are limited","explanationUk":"Герой має дозволені слоти зброї та скінченний запас набоїв.","explanationEn":"The operative has allowed weapon slots and a finite round reserve.","exampleUk":"Врахувати залишок пострілів перед входом у село.","exampleEn":"Check remaining rounds before entering the village."},
+    "CON-285": {"labelUk":"Стріляй лише придатною зброєю","labelEn":"Fire only a ready weapon","explanationUk":"Постріл і перезаряджання вимагають сумісного озброєння, набоїв і вільного стану дії.","explanationEn":"Firing and reloading require compatible equipment, rounds and an available action state.","exampleUk":"Не використовувати дворучну зброю, коли несеш Міллера.","exampleEn":"Do not use a two-handed weapon while carrying Miller."},
+    "INF-073": {"labelUk":"Бач активну зброю й набої","labelEn":"See equipped weapon and rounds","explanationUk":"Інтерфейс показує предмет у руці та доступні боєприпаси.","explanationEn":"The interface shows the active item and available ammunition.","exampleUk":"Перевірити залишок набоїв у пістолеті.","exampleEn":"Check the pistol's remaining rounds."},
+    "INF-075": {"labelUk":"Екран показує поранення","labelEn":"The screen shows injury","explanationUk":"Візуальний стан героя вказує на отриману шкоду без точної числової шкали життя.","explanationEn":"The operative's visual state indicates damage without a precise numeric life bar.","exampleUk":"Сховатися, коли після влучання екран змінюється.","exampleEn":"Hide when the screen changes after a hit."}
+  }
+}
+}
 }

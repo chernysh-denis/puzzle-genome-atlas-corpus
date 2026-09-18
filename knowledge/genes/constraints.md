@@ -11845,3 +11845,201 @@
 - Novelty: first isolated for `GAME-0297`; one shared resource predicate joins
   three mutually distinct control contexts without making their movement or
   combat outcomes the same system.
+
+## CON-635 — Animal placement requires one closed and accessible habitat
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a habitat-animal destination is eligible only when its barrier
+  forms one continuous non-nested enclosure with exactly one keeper gate and
+  that gate has an outward path connection usable by delivery staff.
+- Includes: completing the Goodwin House Common Ostrich enclosure before
+  assigning and delivering four adopted Ostriches.
+- Excludes: a merely decorative fence; an enclosure with an open boundary,
+  missing or duplicate gate, or disconnected staff access; species welfare
+  after the animal arrives (`SYS-867`).
+- Parameters: barrier loop, nesting, gate count, gate orientation, path
+  connectivity, species suitability and destination validity.
+- Evidence: [Planet Zoo: Console Edition decomposition](../games/m-r/planet-zoo-console-edition.md),
+  using Frontier's building guide.
+- Novelty: first isolated for `GAME-0298`; authored barrier geometry and
+  staff-path access jointly gate the destination.
+
+## CON-636 — Yokai responses require sufficient combat-earned Anima
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a prompted counter or attuned enemy ability is legal only when
+  the shared combat-earned reserve meets that response's cost; using either
+  response consumes the matching amount before another can be committed.
+- Includes: Nioh 2 Burst Counter and attuned Soul Core ability spending Anima
+  during the first PS4 mission.
+- Excludes: Ki-priced ordinary attack or dodge; the automatic acquisition of
+  Anima from melee contact; Soul Core purification and attunement; a one-use
+  carried item.
+- Parameters: response, cost, current Anima, shared capacity, timing window,
+  consumed amount and rejected input.
+- Evidence: [Nioh 2 decomposition](../games/m-r/nioh-2.md), using Koei
+  Tecmo's How to Play manual and Sony's opening-hours guide.
+- Novelty: first isolated for `GAME-0299`; a prompted defence and equipped
+  attack compete for the same strike-earned meter.
+
+## CON-637 — A service plate must match a live prepared-dish request
+
+- Lifecycle: `Active`
+- Claim status: `Pattern`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a service hand-off fulfils an order only if the plate carries
+  the requested dish with every required ingredient in its prepared state
+  while the corresponding ticket is still active.
+- Includes: chopped fish on a plate for a fish sashimi ticket or chopped
+  shrimp for a shrimp sashimi ticket in Overcooked! 2 kitchen 1-1.
+- Excludes: treating any raw ingredient as a completed dish; satisfying an
+  expired ticket; assuming a fish plate fulfils a shrimp request; a generic
+  NPC trade unrelated to a live recipe.
+- Parameters: ticket identity, required ingredients, preparation flags,
+  plate contents, expiry and rejection feedback.
+- Evidence: [Overcooked! 2 decomposition](../games/m-r/overcooked-2.md),
+  supported by two written first-kitchen descriptions.
+- Novelty: first isolated for `GAME-0300`; the live service request checks
+  a retained physical dish state, not an abstract recipe choice.
+
+## CON-638 — Movement and attacks must fit one live AP balance
+
+- Lifecycle: `Active`
+- Claim status: `Pattern`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a combatant may commit a movement segment or attack only if
+  its stated Action Point cost fits the character's current AP balance;
+  spending either reduces the same balance for later commands that turn.
+- Includes: moving Ifan into range and attacking a main-deck Voidling during
+  the Classic opening of Divinity: Original Sin 2 - Definitive Edition.
+- Excludes: separate Action, Bonus Action and movement budgets (`CON-343`);
+  initiative order; target-range legality handled by `CON-269`; AP refresh.
+- Parameters: active character, current balance, command cost, distance,
+  accepted command and remaining AP.
+- Evidence: [Divinity: Original Sin 2 - Definitive Edition decomposition](../games/a-f/divinity-original-sin-2-definitive-edition.md),
+  using the PC Definitive Edition AP guide.
+- Novelty: first isolated for `GAME-0301`; relocation and offence compete
+  under the same explicit turn budget.
+
+## CON-639 — Pendant continuation requires remaining life capacity
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a fallen fighter may resume the same encounter with the pendant
+  only while the current age remains below the declared life-capacity limit;
+  after that capacity is exhausted, the revival choice is unavailable and
+  defeat settles into game over.
+- Includes: Sifu's first Disciple Hideout and the age-bounded pendant revival
+  described by Sloclap.
+- Excludes: the increasing age cost of a legal revival (`SYS-878`); a
+  combat-earned charge requirement (`CON-628`); health reaching zero; a
+  checkpoint respawn; assuming a precise numerical threshold without direct
+  version evidence.
+- Parameters: current age, age limit, death state, pending increment,
+  revival eligibility and game-over condition.
+- Evidence: [Sifu decomposition](../games/s-z/sifu.md), using Sloclap's
+  official death-and-aging article.
+- Novelty: first isolated for `GAME-0303`; the legality of immediate
+  continuation is bounded by irreversibly spent age, not a rechargeable life.
+
+## CON-640 — A pattern line accepts only one colour
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: tiles added to a nonempty staging line must have the same colour
+  as tiles already present on that line.
+- Includes: topping up a partially filled Azul pattern line in a later draft
+  or round.
+- Excludes: placing different colours in one line; a restriction on colour
+  repetition across distinct pattern lines; fixed wall-cell assignment.
+- Parameters: selected colour, resident colour, line and accepted count.
+- Evidence: [Azul decomposition](../games/a-f/azul.md), official rules.
+- Novelty: first isolated for `GAME-0304`; temporary rows retain a colour
+  commitment until they complete.
+
+## CON-641 — A wall row cannot stage a colour already tiled there
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a colour may be assigned to a pattern line only if that line's
+  corresponding persistent wall row does not already contain that colour.
+- Includes: rejecting a second blue staging line after its blue wall cell
+  has been filled in the same Azul row.
+- Excludes: blocking the same colour in other wall rows; empty pattern-line
+  capacity; a purely aesthetic colour-matching preference.
+- Parameters: colour, line row and occupied wall cell.
+- Evidence: [Azul decomposition](../games/a-f/azul.md), official rules.
+- Novelty: first isolated for `GAME-0304`; persistent wall occupancy removes
+  a future staging option for that row.
+
+## CON-642 — Pattern lines have ascending capacity with overflow to floor
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: each pattern line holds only its row-specific number of tiles;
+  a drafted batch cannot overfill it and any excess or voluntarily rejected
+  tiles enter the ordered floor penalty area.
+- Includes: Azul pattern-line capacities 1 through 5 and the seven-slot floor.
+- Excludes: spreading excess across another pattern line; making a colour
+  legally stageable despite an already-filled matching wall cell; the later
+  penalty debit.
+- Parameters: line index, capacity, existing occupancy, batch and overflow.
+- Evidence: [Azul decomposition](../games/a-f/azul.md), official rules.
+- Novelty: first isolated for `GAME-0304`; batch size and unequal staging
+  capacities create a forced waste trade-off.
+
+## CON-643 — A complete wall row ends play after round settlement
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: if any player has a full five-cell horizontal wall row after
+  wall tiling, the game ends after that round's scoring and floor penalties,
+  instead of refilling offers for another round.
+- Includes: the first completed horizontal wall row in ordinary Azul.
+- Excludes: ending immediately during a player's drafting turn; a completed
+  vertical column alone; score lead alone; bonus and winner ranking.
+- Parameters: row length, wall occupancy, settlement phase and terminal flag.
+- Evidence: [Azul decomposition](../games/a-f/azul.md), official rules.
+- Novelty: first isolated for `GAME-0304`; one player's spatial completion
+  closes the shared finite contest at a round boundary.
+
+## CON-644 — Carrying an incapacitated person restricts active combat options
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: while the controlled actor physically carries an incapacitated
+  person, the occupied carry pose prevents ordinary two-handed weapon use and
+  narrows movement; the actor must put the subject down or complete the
+  vehicle handoff before unrestricted equipment use resumes.
+- Includes: pistol-only practical weapon access and constrained traversal
+  while carrying injured Miller toward helicopter extraction in the first
+  `Phantom Limbs` attempt of METAL GEAR SOLID V: THE PHANTOM PAIN.
+- Excludes: a fixed loadout-slot limit when hands are free; carrying a small
+  backpack item; permanently losing the carried primary weapon; Fulton
+  extraction or loot-bag throw mechanics.
+- Parameters: carried subject, posture, compatible sidearm, blocked weapon
+  class, movement change, drop state and restored access.
+- Evidence: [METAL GEAR SOLID V: THE PHANTOM PAIN decomposition](../games/m-r/metal-gear-solid-v-the-phantom-pain.md),
+  official Xbox One carry controls and independent first-mission rescue route.
+- Novelty: first isolated for `GAME-0306`; a mission-critical living burden
+  changes what the same equipped character can do until handoff or drop.

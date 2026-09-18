@@ -8118,6 +8118,78 @@
       "defining": ["ACT-190", "SYS-864", "SYS-865", "CON-634", "INF-339", "INF-340", "OBJ-174"],
       "structural": ["ACT-008", "ACT-161", "ACT-247", "ACT-378", "SYS-215", "SYS-403", "SYS-404", "SYS-405", "SYS-407", "SYS-688", "CON-282", "CON-354", "CON-356", "INF-075", "INF-125", "INF-157", "TIM-003"],
       "supporting": ["ACT-131", "ACT-245", "CON-210", "CON-358", "INF-073"]
+    },
+    "GAME-0298": {
+      "reviewed": "2026-09-18",
+      "noteEn": "A closed, singly gated and path-connected enclosure is the decisive dependency between animal adoption and autonomous staff delivery in Goodwin House. Care fixtures and species welfare update under live simulation while staged tutorial predicates lead to the Bronze award. Speed control and ordinary purchase support, but do not define, the packet.",
+      "noteUk": "Замкнений вольєр з одними воротами й з'єднаною стежкою — вирішальна передумова між придбанням тварини та її доставкою працівником у Goodwin House. Об'єкти догляду й видовий добробут змінюються під час живої симуляції, а навчальні завдання ведуть до бронзової відзнаки. Керування швидкістю та звичайна купівля підтримують пакет, але не визначають його.",
+      "defining": ["ACT-456", "ACT-458", "SYS-866", "CON-635", "OBJ-175"],
+      "structural": ["ACT-455", "ACT-457", "SYS-736", "SYS-867", "INF-341", "TIM-003"],
+      "supporting": ["ACT-006", "ACT-130"]
+    },
+    "GAME-0299": {
+      "reviewed": "2026-09-18",
+      "noteEn": "Stance choice, timed Ki Pulse, Anima-gated Burst response and a source-bound Dark Realm define the first mission. Shrine, grave, Soul Core conversion, enemy Ki and the key-to-Mezuki route structure it; ordinary traversal, attack, guard and recovery support it.",
+      "noteUk": "Вибір стійки, вчасний Ki Pulse, відповідь на небезпечну атаку за запас Anima й Темний світ із йокаєм-джерелом визначають першу місію. Святилище, могила, очищення ядра душі, запас Ki ворога й шлях через ключ до Mezuki формують її каркас; звичайні рух, удар, захист і лікування його підтримують.",
+      "defining": ["ACT-459", "ACT-460", "SYS-868", "SYS-869", "SYS-870", "CON-636", "INF-342"],
+      "structural": ["ACT-190", "ACT-224", "ACT-249", "ACT-419", "ACT-429", "SYS-364", "SYS-380", "SYS-397", "SYS-399", "SYS-409", "SYS-798", "SYS-871", "CON-282", "CON-589", "CON-604", "INF-119", "INF-318", "OBJ-080", "TIM-003"],
+      "supporting": ["ACT-008", "ACT-161", "ACT-200", "ACT-436", "ACT-437", "ACT-438", "SYS-215", "SYS-578"]
+    },
+    "GAME-0300": {
+      "reviewed": "2026-09-18",
+      "noteEn": "Solo chef switching, physical sashimi plating, hatch submission and displayed-order ticket scoring define the first kitchen. Separate order expiry, the first-service countdown and a one-star successor gate structure it; ordinary movement supports the loop.",
+      "noteUk": "Перемикання двох кухарів в одиночній грі, викладання сашимі на тарілку, подача через вікно й нарахування очок за чинні замовлення визначають першу кухню. Окремий час кожного замовлення, запуск відліку першою подачею та відкриття наступної кухні за першою зіркою формують її каркас; звичайний рух підтримує цикл.",
+      "defining": ["ACT-052", "ACT-461", "SYS-872", "SYS-873", "CON-620", "OBJ-176", "TIM-023"],
+      "structural": ["ACT-048", "ACT-410", "SYS-030", "SYS-874", "CON-637", "INF-330", "TIM-003"],
+      "supporting": ["ACT-008"]
+    },
+    "GAME-0301": {
+      "reviewed": "2026-09-18",
+      "noteEn": "One origin character's shared AP pool, its legal spending and visible combat state define the ship fight; water changing local fire and the bounded ship-to-beach escape complete the packet. Object, dialogue and initiative gates structure the route, while ordinary loot and path selection support it.",
+      "noteUk": "Спільний запас очок дії одного персонажа, умови його витрати й видимий стан бою визначають сутичку на кораблі; вода, що гасить місцевий вогонь, і втеча до пляжу замикають пакет. Предмети, розмови та порядок ходів формують маршрут, а звичайне збирання й вибір шляху підтримують його.",
+      "defining": ["SYS-875", "SYS-876", "CON-638", "INF-343", "OBJ-113"],
+      "structural": ["ACT-019", "ACT-048", "ACT-232", "ACT-341", "SYS-061", "SYS-356", "SYS-379", "CON-269", "INF-073", "TIM-001"],
+      "supporting": ["ACT-089", "ACT-096", "ACT-199", "INF-128"]
+    },
+    "GAME-0302": {
+      "reviewed": "2026-09-18",
+      "noteEn": "Two reachable switches and their authored moving surfaces define the first no-jump route to a fixed Star token. Direct walking, inspection of the unchanged diorama and live world time structure the path without making camera rotation a topology edit.",
+      "noteUk": "Два доступні перемикачі та пов’язані з ними рухомі поверхні визначають перший маршрут без стрибка до нерухомої Зірки сили. Ходьба, огляд незмінної діорами й плин часу формують шлях, але поворот камери не змінює прохідність.",
+      "defining": ["ACT-049", "SYS-065", "OBJ-025"],
+      "structural": ["INF-001", "TIM-003"],
+      "supporting": ["ACT-008"]
+    },
+    "GAME-0303": {
+      "reviewed": "2026-09-18",
+      "noteEn": "Structure pressure and a close takedown define the first Hideout fight, while targeted Focus and pendant revival trade combat performance against escalating age. Fajar's clear banks the next chapter's age; live defence, Focus supply and visible states structure the route, while ordinary movement, strikes and route cues support it.",
+      "noteUk": "Тиск на стійку й ближнє добивання визначають бій першого сховку, а прицільний Focus і повернення талісманом міняють успішність бою на наростання віку. Перемога над Фаджаром фіксує вік наступного розділу; живий захист, запас Focus і видимі показники формують маршрут, а звичайні рух, удари й підказки підтримують його.",
+      "defining": ["ACT-419", "ACT-462", "SYS-409", "SYS-878", "SYS-879", "OBJ-080"],
+      "structural": ["ACT-223", "ACT-383", "ACT-463", "SYS-035", "SYS-215", "SYS-877", "CON-324", "CON-589", "CON-639", "INF-119", "INF-334", "TIM-003"],
+      "supporting": ["ACT-008", "ACT-161", "SYS-578", "CON-282", "INF-142", "INF-295"]
+    },
+    "GAME-0304": {
+      "reviewed": "2026-09-18",
+      "noteEn": "Forced-colour public drafts, one-row staging, delayed wall placement and orthogonal scoring define Azul's contest. Unequal pattern capacity and final ranking make overflow costly; centre spill, floor penalties, marker initiative and the phased round structure sustain the decision loop.",
+      "noteUk": "Примусовий набір усього кольору з відкритого джерела, підготовка в одному рядку, пізніше перенесення на стіну й підрахунок суміжних ліній визначають змагання Azul. Неоднакова місткість рядків і кінцевий рейтинг роблять надлишок дорогим; спільний центр, штрафна підлога, право першого ходу й фази раунду підтримують цей цикл рішень.",
+      "defining": ["ACT-464", "ACT-465", "SYS-881", "SYS-882", "CON-642", "OBJ-177"],
+      "structural": ["SYS-880", "SYS-883", "SYS-884", "SYS-885", "CON-640", "CON-641", "CON-643", "INF-001", "TIM-024"],
+      "supporting": ["SYS-004", "SYS-886", "CON-001", "INF-002", "OBJ-002", "TIM-004"]
+    },
+    "GAME-0305": {
+      "reviewed": "2026-09-18",
+      "noteEn": "A written command delegates log delivery to a persistent companion while the player places and fills a material-backed Hunting Shelter. The completed shelter's separate save action closes the packet. Carry limits, legal ground, survival state and live time structure it; local movement and visible inventory support it. No reload was observed.",
+      "noteUk": "Письмовий наказ доручає постійному напарнику доставляти колоди, поки гравець ставить креслення мисливського укриття й додає матеріали. Окрема дія збереження в готовому укритті замикає цей пакет. Місткість інвентаря, придатна земля, стан виживання та плин часу формують його; рух і видимий запас підтримують. Повторне завантаження не перевіряли.",
+      "defining": ["ACT-036", "SYS-887", "OBJ-171"],
+      "structural": ["ACT-093", "ACT-148", "ACT-245", "ACT-341", "SYS-312", "SYS-313", "SYS-327", "SYS-407", "CON-210", "CON-292", "CON-621", "INF-131", "INF-132", "TIM-003", "TIM-007"],
+      "supporting": ["ACT-008", "INF-073", "INF-075", "INF-128"]
+    },
+    "GAME-0306": {
+      "reviewed": "2026-09-18",
+      "noteEn": "Binocular actor marking, detection-triggered Reflex and a restricted living-subject carry distinguish this first stealth rescue. An authored denied pickup redirects Miller and the player to a second helicopter before the mission can settle. Sight geometry, patrol alarm, checkpoint and graded debrief structure the route; ordinary weapon and health rules support it. No console play or reload was observed.",
+      "noteUk": "Позначення вартових біноклем, автоматичне сповільнення після виявлення та обмежене перенесення пораненої людини визначають перший потайний порятунок. Заблокована авторською подією посадка змушує доправити Міллера й героя до другого вертольота. Геометрія огляду, тривога патрулів, контрольна точка й оцінка формують маршрут; звичайні правила зброї та здоров’я підтримують його. Проходження на консолі й повторне завантаження не спостерігали.",
+      "defining": ["ACT-405", "ACT-466", "SYS-888", "CON-644", "INF-287", "OBJ-178"],
+      "structural": ["ACT-008", "ACT-202", "ACT-218", "ACT-235", "ACT-247", "SYS-057", "SYS-373", "SYS-747", "SYS-773", "CON-077", "CON-282", "CON-330", "CON-335", "CON-426", "INF-115", "INF-125", "INF-299", "TIM-003"],
+      "supporting": ["ACT-161", "ACT-164", "ACT-183", "SYS-208", "SYS-215", "SYS-369", "SYS-737", "CON-262", "CON-285", "INF-073", "INF-075"]
     }
   }
 }
