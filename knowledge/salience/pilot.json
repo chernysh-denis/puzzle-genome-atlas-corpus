@@ -1,5 +1,5 @@
 {
-  "version": "GENE_SALIENCE_AND_PLAIN_LANGUAGE_EXPANSION_043",
+  "version": "GENE_SALIENCE_AND_PLAIN_LANGUAGE_EXPANSION_045",
   "roles": [
     "defining",
     "structural",
@@ -8190,6 +8190,260 @@
       "defining": ["ACT-405", "ACT-466", "SYS-888", "CON-644", "INF-287", "OBJ-178"],
       "structural": ["ACT-008", "ACT-202", "ACT-218", "ACT-235", "ACT-247", "SYS-057", "SYS-373", "SYS-747", "SYS-773", "CON-077", "CON-282", "CON-330", "CON-335", "CON-426", "INF-115", "INF-125", "INF-299", "TIM-003"],
       "supporting": ["ACT-161", "ACT-164", "ACT-183", "SYS-208", "SYS-215", "SYS-369", "SYS-737", "CON-262", "CON-285", "INF-073", "INF-075"]
+    },
+    "GAME-0307": {
+      "reviewed": "2026-09-19",
+      "noteEn": "Aimed Vacpack transfer, autonomous food-to-plort production and the care-to-High-Walls terminal define the packet. Typed tank capacity, visible economy and continuous creature motion structure it; ordinary travel and tank selection support it. No installed Windows play or reload was observed.",
+      "noteUk": "Прицільне перенесення Vacpack’ом, автоматичне перетворення їжі на plort і межа від догляду до High Walls визначають пакет. Типізована місткість баків, видима економіка й безперервний рух істот формують його; звичайне пересування та вибір бака підтримують цикл. Встановленого проходження Windows і повторного завантаження не спостерігали.",
+      "defining": [
+        "ACT-467",
+        "SYS-889",
+        "OBJ-179"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-219",
+        "CON-210",
+        "INF-073",
+        "INF-117",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-130",
+        "ACT-164",
+        "INF-115"
+      ]
+    },
+    "GAME-0308": {
+      "reviewed": "2026-09-19",
+      "noteEn": "Trick-weapon form switching, firearm-opened visceral attacks and the expiring rally bank define this Central Yharnam route. Shared stamina, Lantern recovery, one replaceable Blood Echo mark and the transforming mandatory boss structure it; ordinary travel, health and lock-on support it. No PS4 play or reload was observed.",
+      "noteUk": "Перемикання форм складної зброї, відкритий пострілом критичний удар і згасальний запас відновлюваного здоров’я визначають маршрут Central Yharnam. Спільна витривалість, відновлення біля ліхтаря, одна замінювана мітка Blood Echoes та обов’язковий бос із перетворенням формують його; звичайні рух, здоров’я й фіксація цілі підтримують. Проходження на PS4 і повторне завантаження не спостерігали.",
+      "defining": ["ACT-419", "ACT-459", "SYS-778", "SYS-832", "SYS-852", "SYS-868"],
+      "structural": ["ACT-200", "ACT-224", "ACT-249", "ACT-436", "SYS-364", "SYS-399", "SYS-798", "SYS-799", "CON-282", "CON-286", "CON-352", "CON-354", "CON-604", "INF-142", "INF-295", "INF-318", "OBJ-080", "TIM-003"],
+      "supporting": ["ACT-008", "ACT-161", "ACT-438", "SYS-215", "SYS-578", "INF-119"]
+    },
+    "GAME-0309": {
+      "reviewed": "2026-09-19",
+      "noteEn": "Charged drift release, weighted two-slot items, coin speed, anti-gravity contact and four-race trophy settlement define this Mushroom Cup. Direct driving, ordered laps, CPU rivals and visible race state structure it; minor setup and route choices support it. No Switch play or reload was observed.",
+      "noteUk": "Заряд і відпускання дрифту, вагова черга з двох предметів, швидкість від монет, антигравітаційний контакт і підсумок чотирьох гонок визначають цей Mushroom Cup. Безпосереднє керування, впорядковані кола, системні суперники й видимий стан гонки формують його; дрібні вибори налаштувань і маршруту підтримують. Проходження на Switch і повторне завантаження не спостерігали.",
+      "defining": ["ACT-468", "SYS-890", "SYS-891", "SYS-892", "SYS-893", "SYS-894", "SYS-895", "INF-344", "OBJ-180"],
+      "structural": ["ACT-190", "ACT-290", "SYS-320", "SYS-515", "SYS-516", "CON-438", "INF-204", "INF-205", "INF-208", "TIM-003"],
+      "supporting": ["ACT-292", "ACT-293", "INF-206"]
+    },
+    "GAME-0310": {
+      "reviewed": "2026-09-19",
+      "noteEn": "Spatial body-load arrangement, side-specific bracing, terrain-and-cargo scanning, coupled traversal stability and condition-aware delivery settlement define this first order. Direct movement, live body physics, stamina, terrain feedback and the fixed receiver structure it. No Windows play, accepted result or reload was observed.",
+      "noteUk": "Просторове розміщення вантажу на тілі, стабілізація потрібного боку, сканування рельєфу й вантажу, пов’язана стійкість руху та оцінка доставки за станом визначають це перше замовлення. Безпосередній рух, жива фізика тіла, витривалість, зворотний зв’язок рельєфу й фіксований отримувач формують його. Проходження на Windows, прийнятий результат і повторне завантаження не спостерігали.",
+      "defining": ["ACT-469", "ACT-470", "ACT-471", "ACT-472", "SYS-896", "SYS-897", "SYS-898", "SYS-899", "INF-345", "INF-346"],
+      "structural": ["ACT-199", "SYS-036", "INF-258", "OBJ-014", "TIM-003"],
+      "supporting": ["ACT-008", "INF-075"]
+    },
+    "GAME-0311": {
+      "reviewed": "2026-09-19",
+      "noteEn": "Mutable reward blocks, the visible power-state ladder, Koopa shell conversion, committed scrolling and flag/time settlement define this World 1-1 packet. Direct movement, live body physics, directional enemy contact, deadline, local lookahead and successor transfer structure it; coins, autonomous walkers, fireballs and score support it. No NES play was observed.",
+      "noteUk": "Змінні блоки з одноразовими нагородами, видимий ланцюг станів сили, перетворення Koopa на панцир, незворотне прокручування та підсумок прапорця й часу визначають цей пакет World 1-1. Безпосередній рух, жива фізика тіла, напрямлений контакт із ворогом, таймер, локальний огляд і перехід до наступної області формують його; монети, самостійні вороги, вогняні кулі й рахунок підтримують. Проходження на NES не спостерігали.",
+      "defining": ["SYS-900", "SYS-901", "SYS-902", "SYS-903", "SYS-904", "SYS-905", "INF-347"],
+      "structural": ["ACT-008", "SYS-036", "SYS-064", "CON-068", "INF-192", "OBJ-164", "TIM-003"],
+      "supporting": ["ACT-161", "SYS-037", "SYS-045", "OBJ-002"]
+    },
+    "GAME-0312": {
+      "reviewed": "2026-09-19",
+      "noteEn": "Persistent struck-Bot rescue, a level-bound Inflate form and optional-progress-retaining map return define this Sky Garden packet. Direct 3D movement, live physics, fixture reveals, checkpoint recovery and an ability-gated high route structure it; combat, contact pieces and autonomous enemies support it. No PS5 play was observed.",
+      "noteUk": "Постійне зарахування врятованого ударом Bot, форма Inflate лише для рівня та повернення до мапи зі збереженими необов’язковими знахідками визначають цей пакет Sky Garden. Безпосередній тривимірний рух, жива фізика, відкриття механізмів, контрольні точки й високий маршрут за здатністю формують його; бій, контактні фрагменти й самостійні вороги підтримують. Проходження на PS5 не спостерігали.",
+      "defining": ["ACT-473", "SYS-906", "SYS-907", "OBJ-181"],
+      "structural": ["ACT-008", "SYS-036", "SYS-112", "SYS-369", "CON-349", "INF-192", "TIM-003"],
+      "supporting": ["ACT-161", "ACT-341", "SYS-037", "SYS-045", "SYS-215"]
+    },
+    "GAME-0313": {
+      "reviewed": "2026-09-19",
+      "noteEn": "A bounded hostile reserve, marked-enemy random bonus, typed stage effects, finite-life respawn, boat-gated water and the whole-arena status surface define this Tank A packet. Direct tank movement, live fire, mutable terrain and base defence structure it; autonomous enemies and visible objectives support it. No cartridge or emulator play was observed.",
+      "noteUk": "Обмежений запас ворогів, випадковий бонус від позначеного танка, типізовані ефекти, повернення за скінченне життя, вода за човном і поверхня всієї арени визначають цей пакет Tank A. Безпосередній рух танка, живий вогонь, змінна місцевість і захист бази формують його; автономні вороги й видимі цілі підтримують. Проходження картриджа чи емулятора не спостерігали.",
+      "defining": ["SYS-908", "SYS-909", "SYS-910", "SYS-911", "CON-645", "INF-348"],
+      "structural": ["ACT-008", "ACT-161", "SYS-004", "SYS-215", "SYS-755", "SYS-863", "OBJ-011", "OBJ-020", "TIM-003"],
+      "supporting": ["SYS-045"]
+    },
+    "GAME-0314": {
+      "reviewed": "2026-09-19",
+      "noteEn": "Charged material analysis, its eligibility gate and the analysis-to-shelter-to-respawn terminal define this first-day Grounded packet. Gathering, hand crafting, compatible harvesting, plan filling and tutorial feedback structure it; ordinary movement, meters, inventory and retained history support it. No Xbox play or reload was observed.",
+      "noteUk": "Заряджений аналіз матеріалів, його умови та межа від аналізу до укриття й точки відродження визначають цей пакет першого дня Grounded. Збирання, ручне виготовлення, рубання сумісним знаряддям, заповнення плану й навчальні підказки формують його; звичайний рух, показники, інвентар та історія збережень підтримують. Проходження на Xbox і повторне завантаження не спостерігали.",
+      "defining": ["SYS-912", "CON-646", "OBJ-182"],
+      "structural": ["ACT-093", "ACT-123", "ACT-148", "ACT-161", "ACT-245", "ACT-341", "SYS-312", "SYS-313", "SYS-591", "CON-292", "CON-297", "CON-496", "INF-128", "INF-131", "INF-132", "INF-268"],
+      "supporting": ["ACT-008", "SYS-327", "CON-210", "INF-073", "INF-075", "TIM-003", "TIM-007"]
+    },
+    "GAME-0315": {
+      "reviewed": "2026-09-19",
+      "noteEn": "Delayed ordinary-shield recovery, the allegiance-coded partial Motion Tracker and the rescue-to-extraction terminal define this Sierra 117 packet. Two-weapon finite combat, checkpoint recovery, authored groups and ordered gates structure it; movement, compatible pickups, local perception and live time support it. No Xbox 360 play or reload was observed.",
+      "noteUk": "Затримане відновлення звичайного щита, неповний Motion Tracker із належністю цілей і фінал від звільнення до евакуації визначають цей пакет Sierra 117. Бій із двома слотами зброї, контрольні точки, авторські групи та впорядковані ворота формують його; рух, сумісні підбирання, локальне сприйняття й реальний час підтримують. Проходження на Xbox 360 і повторне завантаження не спостерігали.",
+      "defining": ["SYS-913","INF-349","OBJ-183"],
+      "structural": ["ACT-161","ACT-164","ACT-183","ACT-184","ACT-199","ACT-341","SYS-215","SYS-348","SYS-369","SYS-749","SYS-780","CON-262","CON-282","CON-402","CON-578","INF-073","INF-119","INF-125","INF-268"],
+      "supporting": ["ACT-008","SYS-222","INF-115","TIM-003"]
+    },
+    "GAME-0316": {
+      "reviewed": "2026-09-20",
+      "noteEn": "A timed complete stop, its whole-car goal-area gate and the bounded B-1 licence objective define this packet. Direct acceleration, live vehicle motion and visible speed, distance, timer and target zone structure it; continuous time supports it. No PlayStation play was observed.",
+      "noteUk": "Оцінювання повної зупинки за часом, вимога розмістити весь автомобіль у цільовій зоні та обмежена мета B-1 визначають цей пакет. Безпосереднє прискорення, безперервний рух автомобіля й видимі швидкість, дистанція, таймер і зона формують його; плин часу підтримує. Проходження на PlayStation не спостерігали.",
+      "defining": ["SYS-914", "CON-647", "OBJ-184"],
+      "structural": ["ACT-290", "SYS-320", "INF-204", "INF-205", "INF-251"],
+      "supporting": ["TIM-003"]
+    },
+    "GAME-0317": {
+      "reviewed": "2026-09-20",
+      "noteEn": "The designated-Headquarters terminal defines this first StarCraft II mission. Selected-unit orders, pathing, live combat, fog, scripted reinforcements, Raynor survival and command-state information structure it; real-time progression supports it. No Windows play or reload was observed.",
+      "noteUk": "Фінал із визначеним Headquarters задає межу першої місії StarCraft II. Накази виділеним бійцям, шляхи, живий бій, туман, сценарні підкріплення, виживання Raynor та інформація командного інтерфейсу формують пакет; плин реального часу підтримує його. Проходження у Windows і повторне завантаження не спостерігали.",
+      "defining": ["OBJ-185"],
+      "structural": ["ACT-189", "SYS-215", "SYS-297", "SYS-305", "SYS-821", "CON-273", "CON-330", "INF-125", "INF-224", "INF-225"],
+      "supporting": ["TIM-003"]
+    },
+    "GAME-0318": {
+      "reviewed": "2026-09-20",
+      "noteEn": "Encounter-gated scrolling, defeated-enemy tool conversion, the returned-rock Tall Walker cycle and their combined combat presentation define Ragnarok's Canyon. Character attacks, temporary mounting, live damage, finite-life recovery, contextual eligibility, local perception and the guardian terminal structure it; ordinary movement, autonomous enemies, health readout and real time support it. No NES play or reload was observed.",
+      "noteUk": "Прокручування за локальною зачисткою, перетворення переможених ворогів на тимчасові інструменти, цикл повернення каменів Tall Walker і спільна бойова презентація визначають Ragnarok’s Canyon. Удари персонажа, тимчасова їзда, жива шкода, повернення за скінченне життя, контекстна допустимість, локальний огляд і фінал із вартовим формують пакет; звичайний рух, автономні вороги, показ здоров’я й реальний час підтримують його. Проходження на NES і повторне завантаження не спостерігали.",
+      "defining": ["SYS-915", "SYS-916", "SYS-917", "INF-350"],
+      "structural": ["ACT-048", "ACT-295", "ACT-348", "SYS-215", "SYS-578", "SYS-911", "CON-442", "INF-192", "INF-235", "OBJ-080"],
+      "supporting": ["ACT-008", "SYS-045", "INF-119", "TIM-003"]
+    },
+    "GAME-0319": {
+      "reviewed": "2026-09-20",
+      "noteEn": "Embodied vessel stations, live control integration, inferred digging, freely transferable treasure, the carry restriction, paired maps and the complete return-and-sale objective define this tutorial voyage. Direct movement, physical carry, Quest Table interaction, sale, live threats, health and local perception structure it; real time supports it. No Xbox Series play was observed.",
+      "noteUk": "Окремі суднові пости, живе поєднання їхніх станів, копання за виведеною точкою, вільно передаваний скарб, обмеження перенесення, дві мапи й повна мета повернення та продажу визначають цю навчальну подорож. Безпосередній рух, фізичне перенесення, Quest Table, продаж, живі загрози, здоров’я й локальне сприйняття формують її; реальний час підтримує. Проходження на Xbox Series не спостерігали.",
+      "defining": ["ACT-474", "ACT-475", "SYS-918", "SYS-919", "SYS-920", "CON-648", "INF-351", "OBJ-186"],
+      "structural": ["ACT-008", "ACT-048", "ACT-219", "ACT-341", "SYS-215", "SYS-578", "INF-115", "INF-119"],
+      "supporting": ["TIM-003"]
+    },
+    "GAME-0320": {
+      "reviewed": "2026-09-20",
+      "noteEn": "Tool-specific fish and insect capture, calendar-driven wildlife, the distinct-species invitation quota and the complete next-day service objective define this packet. Gathering, crafting, placement, catalogue feedback and real-calendar persistence structure it; movement, inventory and dependency information support it. No Switch play was observed.",
+      "noteUk": "Різні дії лову риб і комах, календарна фауна, квота різних видів для запрошення та повна наступноденна мета служби визначають цей пакет. Збирання, виготовлення, розміщення, каталог і реальний календар формують його; рух, інвентар та інформація про залежності підтримують. Проходження на Switch не спостерігали.",
+      "defining": ["ACT-476", "ACT-477", "SYS-921", "SYS-922", "SYS-923", "CON-649", "INF-352", "OBJ-187", "TIM-025"],
+      "structural": ["ACT-091", "ACT-123", "ACT-139", "ACT-199", "ACT-341", "SYS-223", "CON-297", "INF-128", "INF-132", "INF-136", "TIM-013"],
+      "supporting": ["ACT-008"]
+    },
+    "GAME-0321": {
+      "reviewed": "2026-09-20",
+      "noteEn": "The optional second reload press, its three-grade result, visible timing track and complete prison-training terminal define this packet. Contextual cover, finite combat, autonomous Dom support, health recovery, authored groups and route gates structure it; direct movement, compatible pickups, local perception and live time support it. No Xbox 360 play or reload was observed.",
+      "noteUk": "Необов’язкове друге натискання перезарядження, його три оцінки, видима шкала таймінгу й повний фінал тюремного навчання визначають цей пакет. Контекстне укриття, скінченний бій, автономна підтримка Dom, відновлення здоров’я, авторські групи й маршрутні ворота формують його; безпосередній рух, сумісні підбирання, локальне сприйняття й реальний час підтримують. Проходження на Xbox 360 і повторне завантаження не спостерігали.",
+      "defining": ["ACT-478", "SYS-924", "INF-353", "OBJ-188"],
+      "structural": ["ACT-161", "ACT-164", "ACT-183", "ACT-184", "ACT-199", "ACT-226", "ACT-241", "ACT-341", "SYS-208", "SYS-215", "SYS-348", "SYS-369", "SYS-407", "SYS-737", "SYS-749", "CON-262", "CON-282", "CON-285", "CON-326", "CON-402", "CON-578", "INF-073", "INF-119", "INF-125", "INF-268"],
+      "supporting": ["ACT-008", "SYS-222", "INF-115", "TIM-003"]
+    },
+    "GAME-0322": {
+      "reviewed": "2026-09-20",
+      "noteEn": "Hostile reanimation, the two-part Akara reward, the late exact counter and the complete clear/hand-in/skill terminal define this packet. Generated geography and loot, experience, build legality, inventory and quest/item information structure it; movement, basic attack, pickup, local perception and live time support it. Corpse recovery and waypoints were not executed.",
+      "noteUk": "Повернення ворога до життя, двочастинна нагорода Akara, пізній точний лічильник і повний фінал «зачистка — здача — навичка» визначають цей пакет. Згенеровані географія й здобич, досвід, допустимість розвитку, інвентар та інформація завдання/предметів формують його; рух, базова атака, підбирання, локальне сприйняття й реальний час підтримують. Повернення тіла й waypoint не виконували.",
+      "defining": ["SYS-925", "SYS-926", "INF-354", "OBJ-189"],
+      "structural": ["ACT-191", "ACT-199", "SYS-215", "SYS-299", "SYS-449", "SYS-450", "CON-270", "CON-394", "CON-395", "INF-119", "INF-125", "INF-128", "INF-175"],
+      "supporting": ["ACT-008", "ACT-161", "SYS-222", "INF-115", "TIM-003"]
+    },
+    "GAME-0323": {
+      "reviewed": "2026-09-20",
+      "noteEn": "Momentum-preserving swing/glide traversal, authored dual-hero handoffs, damage-plus-restraint boss phases and the complete opening-mission terminal define this packet. Object throws, typed abilities, finite groups, ordered gates and visible phase state structure it; ordinary movement, local threat cues and live time support it. No PS5 play or reload was observed.",
+      "noteUk": "Розгойдування й планерування зі збереженням імпульсу, сценарні передачі двох героїв, фази боса за уроном і стримуванням та повний фінал вступної місії визначають цей пакет. Кидки предметів, типізовані здібності, скінченні групи, впорядковані ворота й видимий стан фази формують його; звичайний рух, локальні сигнали загроз і реальний час підтримують. Проходження на PS5 і повторне завантаження не спостерігали.",
+      "defining": ["ACT-479", "SYS-927", "SYS-928", "OBJ-190"],
+      "structural": ["ACT-048", "ACT-161", "ACT-190", "ACT-419", "SYS-036", "SYS-215", "SYS-369", "SYS-380", "SYS-578", "SYS-705", "SYS-706", "SYS-749", "CON-269", "CON-282", "CON-402", "INF-119", "INF-125", "INF-268", "INF-318"],
+      "supporting": ["ACT-008", "INF-115", "TIM-003"]
+    },
+    "GAME-0324": {
+      "reviewed": "2026-09-20",
+      "noteEn": "Highlighted gauge commitment, character-local upgrade conversion, temporary Battle Plan partners and the joined command surface define this packet. Direct switching, aimed fire, breakable objects, finite-life recovery and side-view perception structure it; movement, autonomous enemies and live time support it. No NES play or reload was observed.",
+      "noteUk": "Підтвердження виділеного рівня шкали, особисте перетворення підсилень, тимчасові партнери Battle Plan і спільна командна поверхня визначають цей пакет. Пряме перемикання, прицільна стрільба, ламкі об’єкти, повернення за скінченне життя й бічний огляд формують його; рух, автономні вороги й реальний час підтримують. Проходження на NES і повторне завантаження не спостерігали.",
+      "defining": ["ACT-480", "SYS-929", "SYS-930", "INF-355"],
+      "structural": ["ACT-036", "ACT-161", "ACT-202", "ACT-228", "SYS-051", "SYS-215", "SYS-755", "SYS-911", "CON-442", "INF-073", "INF-192", "INF-235", "OBJ-080"],
+      "supporting": ["ACT-008", "SYS-045", "TIM-003"]
+    },
+    "GAME-0325": {
+      "reviewed": "2026-09-20",
+      "noteEn": "Earned map/compass disclosure, passive facing-shield cancellation and the complete first-fragment terminal define this packet. Carried keys, room-clearance shutters, continuous health, authored dungeon gates and joined room navigation structure it; movement, ordinary pickups, autonomous enemies and live time support it. No NES play or reload was observed.",
+      "noteUk": "Здобуте розкриття мапи/компаса, пасивне скасування снаряда щитом за напрямком і повний фінал першого фрагмента визначають цей пакет. Витратні ключі, затвори за зачистку, безперервне здоров’я, авторські ворота й спільна кімнатна навігація формують його; рух, звичайні підбирання, автономні вороги й реальний час підтримують. Проходження на NES і повторне завантаження не спостерігали.",
+      "defining": ["SYS-931", "SYS-932", "INF-356", "OBJ-191"],
+      "structural": ["ACT-161", "ACT-164", "SYS-063", "SYS-215", "SYS-578", "SYS-605", "CON-175", "CON-402", "INF-073", "INF-179", "INF-180"],
+      "supporting": ["ACT-008", "SYS-037", "SYS-045", "TIM-003"]
+    },
+    "GAME-0326": {
+      "reviewed": "2026-09-20",
+      "noteEn": "The counted checkpoint, switch-created crate bridge, fruit-to-life conversion, mask ladder, gem-eligibility rule, joined depth-route display and complete gem/portal terminal define this packet. Direct spin, body physics, typed object destruction, finite-life return and directional enemy contact structure it; ordinary movement, pickups, enemies and live time support it. No PlayStation play or reload was observed.",
+      "noteUk": "Зараховуваний чекпойнт, створений перемикачем міст із ящиків, перетворення плодів на життя, драбина масок, умова самоцвіту, спільний показ маршруту вглиб і повний фінал із самоцвітом та порталом визначають цей пакет. Безпосередня обертальна атака, фізика тіла, руйнування типізованих об’єктів, повернення за скінченне життя й напрямний контакт із ворогом формують його; звичайний рух, підбирання, вороги й реальний час підтримують. Проходження на PlayStation і повторне завантаження не спостерігали.",
+      "defining": ["SYS-933", "SYS-934", "SYS-935", "SYS-936", "CON-650", "INF-357", "OBJ-192"],
+      "structural": ["ACT-295", "SYS-036", "SYS-064", "SYS-215", "SYS-755", "SYS-911"],
+      "supporting": ["ACT-008", "SYS-037", "SYS-045", "TIM-003"]
+    },
+    "GAME-0327": {
+      "reviewed": "2026-09-20",
+      "noteEn": "Persistent conduct, confirmed life-stage transitions and complete Guild graduation define this packet. Deed responses, purchase, direct combat, held guard, target lock, staged guidance, prerequisites, ability legality and tutorial information structure it; movement, local perception and live time support it. No Xbox play or reload was observed.",
+      "noteUk": "Збережені наслідки вчинків, підтверджені переходи віку й повний випуск із Гільдії визначають цей пакет. Відповіді вчинків, купівля, прямий бій, утримуваний блок, фіксація цілі, поетапне навчання, передумови, допустимість здібностей та навчальна інформація формують його; рух, локальне сприйняття й реальний час підтримують. Проходження на Xbox і повторне завантаження не спостерігали.",
+      "defining": ["SYS-477", "SYS-937", "OBJ-193"],
+      "structural": ["ACT-130", "ACT-161", "ACT-232", "ACT-437", "ACT-438", "SYS-215", "SYS-578", "SYS-736", "CON-136", "CON-269", "CON-282", "INF-117", "INF-119", "INF-125", "INF-268"],
+      "supporting": ["ACT-008", "INF-115", "TIM-003"]
+    },
+    "GAME-0328": {
+      "reviewed": "2026-09-20",
+      "noteEn": "The scripted three-Grunt delivery, first hero-level conversion and complete tutorial-chapter terminal define this packet. Group orders, live combat, pathing, scoped experience, active ability resolution, fog, critical-hero survival and staged information structure it; the live clock supports it. No Windows play or reload was observed.",
+      "noteUk": "Сценарне приєднання трьох Grunts, перше перетворення досвіду на рівень і повний фінал навчального розділу визначають цей пакет. Групові накази, живий бій, маршрутизація, обмежений досвід, розв’язання активної здібності, туман, виживання критичного героя й поетапна інформація формують його; реальний час підтримує. Проходження у Windows і повторне завантаження не спостерігали.",
+      "defining": ["SYS-821", "SYS-299", "OBJ-155"],
+      "structural": ["ACT-189", "ACT-190", "ACT-191", "SYS-215", "SYS-297", "SYS-298", "SYS-305", "SYS-380", "CON-269", "CON-270", "CON-273", "CON-330", "INF-119", "INF-125", "INF-224", "INF-225", "INF-268"],
+      "supporting": ["TIM-003"]
+    },
+    "GAME-0329": {
+      "reviewed": "2026-09-20",
+      "noteEn": "The paired-character substitution, retained hidden-bonus detours and complete local stage terminal define this packet. Direct traversal, switching, portable barrels, Rambi riding, live physics and combat, finite lives, checkpoint return, collectible conversion, state legality and joined stage feedback structure it; the live clock supports it. No cartridge play or revision test was observed.",
+      "noteUk": "Парна заміна персонажів, збережені приховані бонусні відгалуження й повний локальний фінал етапу визначають цей пакет. Безпосереднє проходження, перемикання, переносні бочки, їзда на Rambi, жива фізика й бій, кінцеві життя, повернення до контрольної точки, перетворення підбирань, допустимість стану та спільний відгук етапу формують його; реальний час підтримує. Гру на картриджі й перевірку ревізії не проводили.",
+      "defining": [
+        "SYS-938",
+        "SYS-939",
+        "OBJ-194"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-048",
+        "ACT-052",
+        "ACT-295",
+        "ACT-348",
+        "SYS-036",
+        "SYS-037",
+        "SYS-045",
+        "SYS-064",
+        "SYS-215",
+        "SYS-755",
+        "SYS-911",
+        "SYS-933",
+        "SYS-935",
+        "CON-442",
+        "INF-358"
+      ],
+      "supporting": [
+        "TIM-003"
+      ]
+    },
+    "GAME-0330": {
+      "reviewed": "2026-09-21",
+      "noteEn": "The anonymous carried-radio warning defines this packet. Inventory collection and combination, compatible fixture use, key gates, live melee and dodge, health, route order, map and inventory feedback structure it; direct traversal, autonomous monsters and live time support it. No PS5 play or patch test was observed.",
+      "noteUk": "Анонімне попередження переносного радіо визначає цей пакет. Збирання й поєднання інвентарю, сумісне застосування до пристрою, ключові ворота, живий ближній бій і ухилення, здоров’я, порядок маршруту, мапа та відгук інвентарю формують його; безпосередній рух, автономні вороги й реальний час підтримують. Гру на PS5 і перевірку патча не проводили.",
+      "defining": ["INF-359"],
+      "structural": ["ACT-087", "ACT-089", "ACT-090", "ACT-131", "ACT-161", "ACT-341", "ACT-356", "SYS-063", "SYS-215", "SYS-578", "SYS-755", "CON-210", "CON-282", "CON-296", "CON-442", "CON-579", "INF-075", "INF-115", "INF-125", "INF-128", "OBJ-026"],
+      "supporting": ["ACT-008", "SYS-045", "TIM-003"]
+    },
+    "GAME-0331": {
+      "reviewed": "2026-09-21",
+      "noteEn": "Local survey, selected ship travel, grav-route legality and shield-before-hull craft state define this packet. Background, extraction, equipment, combat, dialogue, direct flight, power allocation, tutorial order and information surfaces structure it; direct traversal, autonomous hostiles and live time support it. No Xbox play or patch test was observed.",
+      "noteUk": "Місцевий огляд, вибрана подорож корабля, допустимість grav-маршруту й щит перед корпусом визначають цей пакет. Початкове тло, видобування, спорядження, бій, діалог, прямий політ, розподіл енергії, порядок навчання й інформаційні поверхні формують його; безпосередній рух, автономні вороги й реальний час підтримують. Гру на Xbox і перевірку патча не проводили.",
+      "defining": ["ACT-481", "ACT-482", "SYS-940", "SYS-941", "CON-651", "INF-360"],
+      "structural": ["ACT-122", "ACT-161", "ACT-199", "ACT-210", "ACT-232", "ACT-341", "ACT-392", "ACT-393", "SYS-215", "SYS-578", "SYS-723", "SYS-724", "SYS-736", "CON-282", "CON-284", "CON-364", "INF-073", "INF-081", "INF-115", "INF-119", "INF-125", "INF-128", "INF-148", "INF-277", "OBJ-155"],
+      "supporting": ["ACT-008", "SYS-045", "TIM-003"]
+    },
+    "GAME-0332": {
+      "reviewed": "2026-09-21",
+      "noteEn": "Seven-slot troop composition, nested day/week settlement, speed-ordered stack combat and four-hero scenario carryover define this packet. Starting choice, routed movement, town construction, recruitment, fog, experience and strategic/battle information structure it; discrete action settlement supports it. No Windows play or installed-build test was observed.",
+      "noteUk": "Семислотовий склад загонів, вкладений підсумок дня й тижня, швидкісний бій стосів і перенесення чотирьох героїв визначають цей пакет. Стартовий вибір, маршрути, міське будівництво, найм, туман, досвід та стратегічна й бойова інформація формують його; дискретне завершення дій підтримує. Гру у Windows і перевірку встановленої збірки не проводили.",
+      "defining": ["ACT-483", "ACT-484", "SYS-942", "SYS-943", "SYS-944", "SYS-945", "SYS-946", "CON-652", "CON-653", "INF-361", "OBJ-195"],
+      "structural": ["ACT-140", "ACT-189", "ACT-191", "ACT-281", "ACT-345", "ACT-347", "SYS-299", "SYS-305", "SYS-614", "SYS-616", "CON-273", "CON-270", "CON-509", "CON-510", "CON-514", "INF-244", "TIM-018"],
+      "supporting": ["TIM-001"]
+    },
+    "GAME-0333": {
+      "reviewed": "2026-09-21",
+      "noteEn": "Surface-angle momentum and recoverable ring-buffer damage define this packet. Direct motion and attack, continuous physics, contact collection, live enemies and combat, monitors, temporary states, finite lives, checkpoint, ring-life milestones, deadline, route and HUD information and act transfer structure it; score and live time support it. No Genesis play or audiovisual trace was observed.",
+      "noteUk": "Імпульс, пов'язаний із нахилом поверхні, та відновлювана втрата кільцевого буфера визначають цей пакет. Безпосередній рух і атака, безперервна фізика, контактне збирання, живі вороги й бій, монітори, тимчасові стани, скінченні життя, чекпойнт, віхи кілець, часова межа, інформація маршруту й інтерфейсу та перехід між Act формують його; рахунок і реальний час підтримують. Гру на Genesis та аудіовізуальний слід не спостерігали.",
+      "defining": ["SYS-947", "SYS-948"],
+      "structural": ["ACT-008", "ACT-295", "SYS-036", "SYS-037", "SYS-045", "SYS-215", "SYS-755", "SYS-902", "SYS-905", "SYS-911", "SYS-933", "SYS-935", "CON-068", "INF-192", "INF-347", "OBJ-164"],
+      "supporting": ["OBJ-002", "TIM-003"]
     }
   }
 }

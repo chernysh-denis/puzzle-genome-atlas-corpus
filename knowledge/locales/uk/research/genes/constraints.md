@@ -1537,6 +1537,8 @@ Gorogoa забороняє безпосередньо крутити руків�
 
 - [`GAME-0100` — Keep Talking and Nobody Explodes](../games/g-l/keep-talking-and-nobody-explodes.md)
 - [`GAME-0025` — Lemmings](../games/g-l/lemmings.md)
+- [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
+- [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 
 ## CON-069
@@ -2949,6 +2951,7 @@ The Room вимагає пластину перед викручуванням �
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0088` — Day of the Tentacle](../games/a-f/day-of-the-tentacle.md)
 - [`GAME-0131` — Dyson Sphere Program](../games/a-f/dyson-sphere-program.md)
+- [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0130` — Frostpunk](../games/a-f/frostpunk.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0123` — Inscryption](../games/g-l/inscryption.md)
@@ -3816,6 +3819,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0155` — Slay the Spire 2](../games/s-z/slay-the-spire-2.md)
 - [`GAME-0120` — Slay the Spire](../games/s-z/slay-the-spire.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
+- [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 
 ## CON-176
 
@@ -4599,6 +4603,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
+- [`GAME-0314` — Grounded](../games/g-l/grounded.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
@@ -4612,6 +4617,8 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
+- [`GAME-0307` — Slime Rancher](../games/s-z/slime-rancher.md)
 - [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
@@ -5727,8 +5734,10 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
+- [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
+- [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
@@ -5926,6 +5935,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
+- [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
@@ -5934,6 +5944,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
+- [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
@@ -5955,6 +5966,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
 - [`GAME-0268` — Undertale](../games/s-z/undertale.md)
+- [`GAME-0328` — "Warcraft III: Reign of Chaos"](../games/s-z/warcraft-iii-reign-of-chaos.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
 - [`GAME-0176` — XCOM 2](../games/s-z/xcom-2.md)
@@ -5984,9 +5996,12 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0222` — "Call of Juarez: Gunslinger"](../games/a-f/call-of-juarez-gunslinger.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
+- [`GAME-0322` — "Diablo II: Resurrected"](../games/a-f/diablo-ii-resurrected.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
+- [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
+- [`GAME-0328` — "Warcraft III: Reign of Chaos"](../games/s-z/warcraft-iii-reign-of-chaos.md)
 
 ## CON-271
 
@@ -6062,8 +6077,11 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
 - [`GAME-0182` — Hearts of Iron IV](../games/g-l/hearts-of-iron-iv.md)
+- [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)
 - [`GAME-0166` — Sid Meier’s Civilization VI](../games/s-z/sid-meiers-civilization-vi.md)
+- [`GAME-0317` — StarCraft II](../games/s-z/starcraft-ii.md)
 - [`GAME-0191` — "Total War: WARHAMMER III"](../games/s-z/total-war-warhammer-iii.md)
+- [`GAME-0328` — "Warcraft III: Reign of Chaos"](../games/s-z/warcraft-iii-reign-of-chaos.md)
 - [`GAME-0176` — XCOM 2](../games/s-z/xcom-2.md)
 
 ## CON-274
@@ -6270,6 +6288,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
+- [`GAME-0308` — Bloodborne™](../games/a-f/bloodborne.md)
 - [`GAME-0222` — "Call of Juarez: Gunslinger"](../games/a-f/call-of-juarez-gunslinger.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
@@ -6284,17 +6303,21 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
+- [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
+- [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
+- [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
+- [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
@@ -6317,9 +6340,11 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0303` — Sifu](../games/s-z/sifu.md)
+- [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 - [`GAME-0225` — "STAR WARS: Squadrons"](../games/s-z/star-wars-squadrons.md)
+- [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
@@ -6379,6 +6404,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
+- [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 
 ## CON-285
@@ -6414,6 +6440,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
+- [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
@@ -6458,6 +6485,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0220` — Battlefield V](../games/a-f/battlefield-v.md)
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
+- [`GAME-0308` — Bloodborne™](../games/a-f/bloodborne.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
@@ -6609,6 +6637,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 ### Ігри-носії
 
 - [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
+- [`GAME-0314` — Grounded](../games/g-l/grounded.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
@@ -6702,6 +6731,7 @@ Key Lock, Code Lock і замкнений Tool Cupboard у Rust.
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 
 ## CON-297
 
@@ -6724,8 +6754,10 @@ Key Lock, Code Lock і замкнений Tool Cupboard у Rust.
 
 - [`GAME-0233` — 7 Days to Die](../games/0-9/7-days-to-die.md)
 - [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
+- [`GAME-0320` — "Animal Crossing: New Horizons"](../games/a-f/animal-crossing-new-horizons.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
+- [`GAME-0314` — Grounded](../games/g-l/grounded.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0229` — "No Man’s Sky"](../games/m-r/no-mans-sky.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
@@ -7338,6 +7370,7 @@ Knox Infection у режимі Apocalypse Project Zomboid.
 
 ### Ігри-носії
 
+- [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
@@ -7434,6 +7467,8 @@ Knox Infection у режимі Apocalypse Project Zomboid.
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
+- [`GAME-0317` — StarCraft II](../games/s-z/starcraft-ii.md)
+- [`GAME-0328` — "Warcraft III: Reign of Chaos"](../games/s-z/warcraft-iii-reign-of-chaos.md)
 
 ## CON-331
 
@@ -7861,6 +7896,7 @@ Knox Infection у режимі Apocalypse Project Zomboid.
 
 ### Ігри-носії
 
+- [`GAME-0312` — ASTRO BOT](../games/a-f/astro-bot.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
@@ -7927,6 +7963,7 @@ Bind за повної котушки, Silkspear і Needolin у Hollow Knight: S
 
 ### Ігри-носії
 
+- [`GAME-0308` — Bloodborne™](../games/a-f/bloodborne.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
@@ -7975,6 +8012,7 @@ Bind за повної котушки, Silkspear і Needolin у Hollow Knight: S
 ### Ігри-носії
 
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
+- [`GAME-0308` — Bloodborne™](../games/a-f/bloodborne.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
@@ -8162,16 +8200,16 @@ Ash of War можна призначити лише відповідному в�
 
 ## CON-364
 
-- Назва: Швидке переміщення потребує завершити бій і вибрати доступне місце
-- Переглянуто: `2026-08-24`
+- Назва: Переміщення потребує завершити бій і вибрати доступне місце
+- Переглянуто: `2026-09-21`
 
 ### Операційне визначення
 
-Під час активної сутички мапа або швидке переміщення заблоковані; після бою переміститися можна лише до вже відкритого Site of Grace, доступного за поточними правилами.
+Під час активної ворожої сутички мапа або швидке переміщення недоступні; після бою переміститися можна лише до відкритого чи явно запропонованого завданням доступного місця.
 
 ### Включає
 
-Блокування мапи під час бою й швидке переміщення до відкритих Sites of Grace в Elden Ring.
+Відкриті Sites of Grace в Elden Ring; відкриті або відстежувані цілі завдання в Starfield поза боєм.
 
 ### Виключає
 
@@ -8180,6 +8218,7 @@ Ash of War можна призначити лише відповідному в�
 ### Ігри-носії
 
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
+- [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 
 ## CON-365
 
@@ -8771,6 +8810,7 @@ Reinforce у Helldivers 2 з живим викликувачем і одиниц
 
 ### Ігри-носії
 
+- [`GAME-0322` — "Diablo II: Resurrected"](../games/a-f/diablo-ii-resurrected.md)
 - [`GAME-0269` — DREDGE](../games/a-f/dredge.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
@@ -8795,6 +8835,7 @@ Reinforce у Helldivers 2 з живим викликувачем і одиниц
 
 ### Ігри-носії
 
+- [`GAME-0322` — "Diablo II: Resurrected"](../games/a-f/diablo-ii-resurrected.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
@@ -8953,10 +8994,14 @@ Reinforce у Helldivers 2 з живим викликувачем і одиниц
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
+- [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
+- [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
+- [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
+- [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 
 ## CON-403
 
@@ -9729,6 +9774,7 @@ Echo Detector і Mold.
 - [`GAME-0195` — BeamNG.drive](../games/a-f/beamng-drive.md)
 - [`GAME-0276` — Forza Horizon 5](../games/a-f/forza-horizon-5.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
+- [`GAME-0309` — "Mario Kart 8 Deluxe"](../games/m-r/mario-kart-8-deluxe.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
@@ -9820,7 +9866,11 @@ Horizon Qualifiers після Tokyo City та Horizon Invitational після п
 
 ### Ігри-носії
 
+- [`GAME-0318` — Battletoads](../games/a-f/battletoads.md)
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
+- [`GAME-0324` — Contra Force](../games/a-f/contra-force.md)
+- [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
+- [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 
@@ -10947,6 +10997,7 @@ Antonio з нового збереження у звичайному Mad Forest 
 
 - [`GAME-0233` — 7 Days to Die](../games/0-9/7-days-to-die.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
+- [`GAME-0314` — Grounded](../games/g-l/grounded.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 
 ## CON-497
@@ -11221,20 +11272,21 @@ Red Tides після Guangzhi за відновленої готовності �
 
 ### Ігри-носії
 
+- [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)
 - [`GAME-0191` — "Total War: WARHAMMER III"](../games/s-z/total-war-warhammer-iii.md)
 
 ## CON-510
 
-- Назва: Вимагати законну комірку, ланцюг і скарбницю
-- Переглянуто: `2026-08-31`
+- Назва: Вимагати будівельну місткість, передумови й оплату
+- Переглянуто: `2026-09-21`
 
 ### Операційне визначення
 
-Будівлю можна замовити лише у власному поселенні з сумісною вільною коміркою, доступним наступним рівнем ланцюга, виконаними передумовами й достатніми коштами.
+Будівлю можна замовити лише у власному поселенні із сумісною коміркою або невитраченою денною місткістю, виконаними передумовами ланцюга й достатнім запасом усіх потрібних ресурсів.
 
 ### Включає
 
-Покращення Kislev Refuge і Store House у визначеному пролозі Total War: WARHAMMER III.
+Чергові будівлі Kislev Refuge та одна споруда на день у місті Heroes III.
 
 ### Виключає
 
@@ -11242,6 +11294,7 @@ Red Tides після Guangzhi за відновленої готовності �
 
 ### Ігри-носії
 
+- [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)
 - [`GAME-0191` — "Total War: WARHAMMER III"](../games/s-z/total-war-warhammer-iii.md)
 
 ## CON-511
@@ -11309,16 +11362,16 @@ Red Tides після Guangzhi за відновленої готовності �
 
 ## CON-514
 
-- Назва: Мати пропозицію, денари й місце для найму
-- Переглянуто: `2026-08-31`
+- Назва: Мати запас, оплату й місткість сили для найму
+- Переглянуто: `2026-09-21`
 
 ### Операційне визначення
 
-Новобранець може приєднатися лише доки він є в місцевій пропозиції, у загоні є вільне місце, а денарів вистачає на показану ціну.
+Новобранець може приєднатися до сталої сили лише доки потрібний запас доступний, є допустима порожня або сумісна комірка й гравець може сплатити всі показані витрати.
 
 ### Включає
 
-Найм запропонованих у Tevea навчальних військ у визначеній Campaign гри Mount & Blade II: Bannerlord.
+Пропозицію Tevea в Bannerlord і запас жител Heroes III.
 
 ### Виключає
 
@@ -11326,6 +11379,7 @@ Red Tides після Guangzhi за відновленої готовності �
 
 ### Ігри-носії
 
+- [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 
 ## CON-515
@@ -12682,6 +12736,8 @@ Scanner, Analysis Visor, Mining Beam, захист від середовища, 
 - [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
+- [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
+- [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 
@@ -12712,6 +12768,7 @@ Scanner, Analysis Visor, Mining Beam, захист від середовища, 
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+- [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 
 ## CON-580
 
@@ -13202,6 +13259,7 @@ Boon першої спроби Hades, обмежені передумовами 
 
 ### Ігри-носії
 
+- [`GAME-0308` — Bloodborne™](../games/a-f/bloodborne.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
@@ -13923,3 +13981,192 @@ Wiredash у MONSTER HUNTER RISE зі схованою зброєю, Long Sword S
 ### Ігри-носії
 
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
+
+## CON-645
+
+- Назва: Вимагати поточну здатність транспорту для входу у воду
+- Переглянуто: `2026-09-19`
+
+### Операційне визначення
+
+Безпосередньо керований наземний транспорт не може займати водну клітину, якщо його поточний стан етапу не містить заявленої здатності перетинати воду; без неї вода лишається непрохідною.
+
+### Включає
+
+Вхід танка Tank A гри Tank 1990 у воду після отримання бонусу-човна.
+
+### Виключає
+
+Звичайне плавання аватара; постійно амфібійний транспорт; міст, що змінює саму місцевість; декоративну воду без наслідків для руху.
+
+### Ігри-носії
+
+- [`GAME-0313` — Tank 1990](../games/s-z/tank-1990.md)
+
+## CON-646
+
+- Назва: Вимагати придатний зразок і заряд станції для аналізу матеріалу
+- Переглянуто: `2026-09-19`
+
+### Операційне визначення
+
+Запит на аналіз матеріалу допустимий лише тоді, коли гравець несе сумісний зразок із іще незавершеним записом аналізу, а вказана станція має щонайменше один доступний заряд; виснажена станція відхиляє наступні зразки, доки відновлення з часом не додасть заряд.
+
+### Включає
+
+Resource Analyzer із трьома зарядами та аналіз Pebblet, Plant Fiber і Clover Leaf у маршруті до першого укриття Grounded.
+
+### Виключає
+
+Звичайні складники виготовлення; дальність просторового сканера; ціну в дослідницькій валюті; станцію з необмеженим аналізом; повторне читання вже відомого рецепта.
+
+### Ігри-носії
+
+- [`GAME-0314` — Grounded](../games/g-l/grounded.md)
+
+## CON-647
+
+- Назва: Вимагати повну зупинку в цільовій зоні до завершення часу
+- Переглянуто: `2026-09-20`
+
+### Операційне визначення
+
+Результат випробування допустимий лише тоді, коли весь керований автомобіль нерухомий усередині оголошеної цільової ділянки до вичерпання граничного часу.
+
+### Включає
+
+Повну зупинку всередині goal area до 36 секунд у B-1 Gran Turismo.
+
+### Виключає
+
+Проїзд крізь фініш; часткове перебування в зоні; зупинку після часу; довільну безпечну стоянку.
+
+### Ігри-носії
+
+- [`GAME-0316` — Gran Turismo](../games/g-l/gran-turismo.md)
+
+## CON-648
+
+- Назва: Обмежувати рух і спорядження під час перенесення громіздкого скарбу
+- Переглянуто: `2026-09-20`
+
+### Операційне визначення
+
+Поки оголошений громіздкий скарб зайняв руки керованого персонажа, спринт і звичайне несумісне спорядження недоступні; скидання або передача предмета повертає ці дії.
+
+### Включає
+
+Перенесення Sailor’s Chest у навчальній подорожі Gold Hoarders гри Sea of Thieves.
+
+### Виключає
+
+Предмет у наплічнику з вільними руками; постійну втрату спорядження; уповільнення лише за загальною вагою; перенесення непритомної людини.
+
+### Ігри-носії
+
+- [`GAME-0319` — Sea of Thieves](../games/s-z/sea-of-thieves.md)
+
+## CON-649
+
+- Назва: Вимагати ще не зарахований вид для запрошення
+- Переглянуто: `2026-09-20`
+
+### Операційне визначення
+
+Зразок може збільшити відкриту квоту запрошення лише тоді, коли належить до придатної категорії істот, а його видова ідентичність ще відсутня у збереженій множині внесків цього отримувача.
+
+### Включає
+
+П’ять різних видів риб або комах для запрошення Blathers через Tom Nook в Animal Crossing: New Horizons.
+
+### Виключає
+
+Фіксований список видів; пізнішу музейну колекцію; простий лічильник предметів; кілька слотів одним видом.
+
+### Ігри-носії
+
+- [`GAME-0320` — "Animal Crossing: New Horizons"](../games/a-f/animal-crossing-new-horizons.md)
+
+## CON-650
+
+- Назва: Вимагати всі зараховувані ящики й неперервну спробу після чекпойнта для самоцвіту
+- Переглянуто: `2026-09-20`
+
+### Операційне визначення
+
+Оригінальний рівень може видати самоцвіт за ящики лише тоді, коли знищено кожен придатний зараховуваний ящик і поточна спроба не втратила життя після активації чекпойнта; звичайний вихід залишається доступним, якщо ця необов’язкова умова не виконана.
+
+### Включає
+
+Умову прозорого самоцвіту в північноамериканській N. Sanity Beach оригінальної Crash Bandicoot.
+
+### Виключає
+
+Обов’язковий самоцвіт для виходу; залізні незараховувані ящики; пізніші кольорові маршрути; правила ремейку; поріг рахунку.
+
+### Ігри-носії
+
+- [`GAME-0326` — Crash Bandicoot](../games/a-f/crash-bandicoot.md)
+
+## CON-651
+
+- Назва: Вимагати досяжну ціль і живий grav-стан для маршруту корабля
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Міжпланетний або міжзоряний маршрут допустимий лише тоді, коли вибрана ціль поточно досяжна, а енергія grav drive, дальність стрибка та запас пального корабля задовольняють маршрут.
+
+### Включає
+
+Подавання енергії на grav drive Frontier і маршрут Kreet–Jemison у Starfield.
+
+### Виключає
+
+Прямий політ на тязі; місцеве швидке переміщення персонажа; відкриту ціль поза дальністю; постійне встановлення частини корабля.
+
+### Ігри-носії
+
+- [`GAME-0331` — Starfield](../games/s-z/starfield.md)
+
+## CON-652
+
+- Назва: Уміщувати одновидові загони у сім комірок сили
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Армія героя чи гарнізон міста може мати не більш як сім загонів; кожна зайнята комірка містить один вид, сумісні загони об'єднуються, а польовий герой зберігає хоча б один загін.
+
+### Включає
+
+Армії й гарнізони Heroes III.
+
+### Виключає
+
+Сім окремих персонажів; інвентар; змішані види в одному загоні; порожнього польового героя.
+
+### Ігри-носії
+
+- [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)
+
+## CON-653
+
+- Назва: Обмежувати дію загону чергою, гексами й допустимою ціллю
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Бойовий загін діє лише у свою чергу й тільки через досяжні незаблоковані гекси або допустиму ціль у межах руху, ближньої чи дальньої атаки, боєприпасів і поточного стану.
+
+### Включає
+
+Ручні тактичні бої Heroes III.
+
+### Виключає
+
+Рух кампанією; вільні накази наживо; заблоковані гекси; стрільбу без боєприпасів.
+
+### Ігри-носії
+
+- [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)

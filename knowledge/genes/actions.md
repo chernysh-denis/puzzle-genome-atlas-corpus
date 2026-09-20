@@ -238,6 +238,12 @@
   across the walled Arena floor, and for the displacing ground-state commands
   with exact inputs: the tech roll (an attack button on landing), the side roll
   (1 or d+1) and the back get-up (b).
+- Additional support: [DEATH STRANDING DIRECTOR'S CUT decomposition](../games/a-f/death-stranding-directors-cut.md),
+  for direct on-foot traversal across the opening delivery terrain.
+- Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
+  for direct first-person traversal and jumping through Sierra 117.
+- Additional support: [Battletoads decomposition](../games/a-f/battletoads.md),
+  for direct running, jumping and depth-axis alignment through Ragnarok's Canyon.
 - Novelty: not assessed.
 
 ## ACT-009 — Push adjacent movable object
@@ -1027,6 +1033,9 @@
   [Superliminal decomposition](../games/s-z/superliminal.md), and
   [Manifold Garden decomposition](../games/m-r/manifold-garden.md), and
   [Maquette decomposition](../games/m-r/maquette.md).
+- Additional support: [Battletoads decomposition](../games/a-f/battletoads.md),
+  for lifting a Walker leg or Tall Walker rock and releasing it as the current
+  temporary weapon or returned boss object.
 - Novelty: not assessed.
 
 ## ACT-049 — Toggle reachable world switch
@@ -1886,6 +1895,8 @@
 - Evidence: [Machinarium decomposition](../games/m-r/machinarium.md) and
   [Day of the Tentacle decomposition](../games/a-f/day-of-the-tentacle.md), and
   [DAVE THE DIVER decomposition](../games/a-f/dave-the-diver.md).
+- Additional support: [Animal Crossing: New Horizons decomposition](../games/a-f/animal-crossing-new-horizons.md),
+  for transferring one carried new-species specimen to Tom Nook's current request.
 - Novelty: not assessed.
 - Change note: wording generalised by
   [`TAXONOMY_CHANGE_038`](../../research/taxonomy-changes/TAXONOMY_CHANGE_038.md)
@@ -2514,6 +2525,8 @@
 - Excludes: assigning a recipe to an autonomous production entity; arbitrary object combination; research selection; system-owned resolution duration.
 - Parameters: recipe, quantity, ingredient source, station context, immediate or queued resolution and output.
 - Evidence: [Factorio decomposition](../games/a-f/factorio.md), [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md), [Terraria decomposition](../games/s-z/terraria.md) and [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
+- Additional support: [Animal Crossing: New Horizons decomposition](../games/a-f/animal-crossing-new-horizons.md),
+  for crafting known flimsy capture-tool recipes at the Resident Services workbench.
 - Novelty: not assessed.
 
 ## ACT-124 — Stamp reusable construction or deconstruction plan
@@ -2820,6 +2833,8 @@
   [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md),
   with [Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
   as additional support.
+- Additional support: [Animal Crossing: New Horizons decomposition](../games/a-f/animal-crossing-new-horizons.md),
+  for committing the supplied Blathers Tent Marker to a legal service-site footprint.
 - Novelty: generalised by `TAXONOMY_CHANGE_036`; a particular settlement or
   production model is a carrier parameter, while committing an ordinary owned
   building to a legal footprint is the invariant action.
@@ -3225,6 +3240,8 @@
   for readying, aiming and firing the starting handgun at reachable zombies.
 - Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
   for aimed weapon combos, bow shots and dive attacks against reachable Prisoners' Quarters enemies, and for weapon strikes on the barred Collector's room door whose destruction resolves under `SYS-755`.
+- Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
+  for aimed firearm and melee attacks against reachable campaign hostiles.
 - Novelty: not assessed.
 - Change note: wording generalised by
   [`TAXONOMY_CHANGE_043`](../../research/taxonomy-changes/TAXONOMY_CHANGE_043.md)
@@ -3291,6 +3308,8 @@
   for switching among weapon, throwable and medical slots.
 - Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
   for switching among the first, second and Power weapon slots.
+- Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
+  for switching between the primary and reserve carried weapons.
 - Novelty: not assessed.
 
 ## ACT-165 — Consume held food to restore hunger
@@ -3620,6 +3639,8 @@
   for reloading magazine-fed weapons during the Fireteam Op.
 - Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
   for reloading the magazine-fed handgun from finite reserve ammunition.
+- Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
+  for reloading magazine-fed firearms from finite reserve ammunition.
 - Novelty: not assessed.
 
 ## ACT-184 — Prime and throw one carried tactical grenade
@@ -3636,6 +3657,8 @@
 - Evidence: [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md).
 - Additional support: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md),
   for throwing an eligible pipe bomb, Molotov or bile jar.
+- Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
+  for throwing one selected finite carried grenade.
 - Novelty: not assessed.
 
 ## ACT-185 — Commit a planted round-device activation or neutralisation channel
@@ -3727,6 +3750,12 @@
 - Additional support: [Command & Conquer Remastered Collection decomposition](../games/a-f/command-and-conquer-remastered-collection.md),
   for selecting one or more owned units and committing destination, target or
   attack orders in the bounded opening mission.
+- Additional support: [StarCraft II decomposition](../games/s-z/starcraft-ii.md),
+  for selecting Raynor and Marines and committing movement, attack-move,
+  focused-attack, stop or hold-position orders in `Liberation Day`.
+- Additional support: [Warcraft III: Reign of Chaos decomposition](../games/s-z/warcraft-iii-reign-of-chaos.md),
+  for selecting Thrall, one Grunt or the supplied group and committing move,
+  attack, attack-move, stop or hold orders in `Chasing Visions`.
 - Novelty: not assessed.
 
 ## ACT-190 — Commit one active character or carried-item ability
@@ -3760,6 +3789,11 @@
   for fixed Titan grenade, melee, class and Super ability activations.
 - Additional support: [Cuphead decomposition](../games/a-f/cuphead.md),
   for the directional Peashooter EX shot paid from the charged Super Meter.
+- Additional support: [Mario Kart 8 Deluxe decomposition](../games/m-r/mario-kart-8-deluxe.md),
+  for directional or no-target use of the active held race item.
+- Additional support: [Warcraft III: Reign of Chaos decomposition](../games/s-z/warcraft-iii-reign-of-chaos.md),
+  for committing learned Chain Lightning against a legal hostile target in the
+  bounded first prologue chapter.
 - Novelty: not assessed.
 - Change note: wording generalised by
   [`TAXONOMY_CHANGE_034`](../../research/taxonomy-changes/TAXONOMY_CHANGE_034.md)
@@ -3777,6 +3811,9 @@
 - Excludes: purchasing an item; automatic level rewards; account-wide cosmetic progression.
 - Parameters: point source, persistence horizon, tree, prerequisite, node, rank and resulting modifier.
 - Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md), [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md), [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), [Baldur's Gate 3 decomposition](../games/a-f/baldurs-gate-3.md), [ARC Raiders decomposition](../games/a-f/arc-raiders.md) and [Black Myth: Wukong decomposition](../games/a-f/black-myth-wukong.md).
+- Additional support: [Warcraft III: Reign of Chaos decomposition](../games/s-z/warcraft-iii-reign-of-chaos.md),
+  for spending the first earned hero point on the currently taught Chain
+  Lightning rank.
 - Novelty: not assessed.
 
 ## ACT-192 — Configure a stash or courier delivery
@@ -4033,22 +4070,25 @@
   [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
 - Novelty: not assessed.
 
-## ACT-210 — Configure one survivor's occupation and traits
+## ACT-210 — Configure one starting background and compatible traits
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: before world entry, the player selects one occupation and a
-  legal set of positive and negative traits whose combined point balance
-  defines the survivor's starting skills and persistent modifiers.
-- Includes: Project Zomboid Build 42 occupation and trait creation.
+- Definition: before ordinary world entry, the player selects one starting
+  background or occupation and an optional legal set of compatible traits that
+  define starting skills and persistent modifiers.
+- Includes: Project Zomboid Build 42 occupation and point-balanced trait
+  creation; Starfield background and up-to-three compatible optional traits.
 - Excludes: gaining skill experience after spawn; cosmetic appearance; changing
   a world preset.
-- Parameters: occupation, traits, point costs, incompatibilities, starting
+- Parameters: background or occupation, traits, optional point costs, incompatibilities, starting
   skills and persistent modifiers.
 - Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md).
 - Novelty: not assessed.
+- Change note: wording generalised by
+  [`TAXONOMY_CHANGE_075`](../../research/taxonomy-changes/TAXONOMY_CHANGE_075.md).
 
 ## ACT-211 — Apply or remove treatment on a selected body wound
 
@@ -4252,6 +4292,12 @@
   for taking post-battle and curio loot from the loot window into the sixteen-slot expedition inventory.
 - Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
   for picking a reachable weapon into a compatible weapon slot with a keep-or-drop choice; skill availability on a fresh profile is not evidenced inside the packet.
+- Additional support: [DEATH STRANDING DIRECTOR'S CUT decomposition](../games/a-f/death-stranding-directors-cut.md),
+  for recovering the reachable Smart Drugs into a compatible body-carried position.
+- Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
+  for taking or replacing one reachable weapon within a two-weapon loadout.
+- Additional support: [Animal Crossing: New Horizons decomposition](../games/a-f/animal-crossing-new-horizons.md),
+  for taking reachable loose branches and compatible caught specimens into inventory.
 - Novelty: not assessed.
 
 ## ACT-200 — Use one interruptible restorative consumable
@@ -5421,20 +5467,22 @@
 - Novelty: first isolated for `GAME-0166`; it binds negotiated bilateral terms
   and formal war state at sovereign-player scale.
 
-## ACT-281 — End the current civilization's multi-command turn
+## ACT-281 — End the current polity's multi-command strategic turn
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: the player commits the current civilization turn after any legal
-  subset of available commands, allowing settlement and the next rival's turn
-  to begin while unspent optional unit authority expires for that turn.
-- Includes: the End Turn control in single-player Civilization VI.
+- Definition: the player commits the current polity's open strategic turn after
+  any legal subset of available unit, hero, settlement, economy or diplomacy
+  commands, allowing settlement and the next polity's turn to begin while
+  unspent optional authority expires for that turn.
+- Includes: End Turn in scoped single-player Civilization VI and Heroes of
+  Might and Magic III: Complete campaign play.
 - Excludes: spending one unit action; pausing real time; submitting one
   simultaneous hidden order.
-- Parameters: civilization, turn number, mandatory-choice checks, unresolved
-  alerts, unspent movement and next participant.
+- Parameters: polity, turn number or day, mandatory-choice checks, unresolved
+  alerts, unspent movement, settlement and next participant.
 - Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
 - Novelty: first isolated for `GAME-0166`; earlier commit actions close one
   order or simultaneous phase rather than a whole empire's multi-command turn.
@@ -5619,6 +5667,10 @@
   [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
 - Additional support: [Forza Horizon 5 decomposition](../games/a-f/forza-horizon-5.md),
   for direct grid-to-finish control of one fixed road-racing car.
+- Additional support: [Mario Kart 8 Deluxe decomposition](../games/m-r/mario-kart-8-deluxe.md),
+  for direct steering, throttle and braking of the dedicated kart.
+- Additional support: [Gran Turismo decomposition](../games/g-l/gran-turismo.md),
+  for direct acceleration, braking and steering of the supplied B-1 test car.
 - Novelty: first isolated for `GAME-0171`; `ACT-201` requires an embodied
   enter/seat/exit loop that a dedicated racing-car assignment does not expose.
 
@@ -5663,6 +5715,9 @@
   and [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
 - Novelty: first isolated for `GAME-0171`; earlier difficulty parameters do not
   expose one coupled driving-control, guidance and autonomous-rival profile.
+- Additional support: [Mario Kart 8 Deluxe decomposition](../games/m-r/mario-kart-8-deluxe.md),
+  for a fixed 150 cc opponent-speed profile with Smart Steering,
+  Auto-Accelerate and Tilt Controls disabled.
 
 ## ACT-293 — Commit one available mapped driving event
 
@@ -5686,6 +5741,9 @@
   and [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
 - Novelty: first isolated for `GAME-0171`; earlier world-node selections launch
   expeditions or narrative tasks rather than one bounded driving ruleset.
+- Additional support: [Mario Kart 8 Deluxe decomposition](../games/m-r/mario-kart-8-deluxe.md),
+  for committing the available Mushroom Cup as one bounded four-race driving
+  event with fixed course and result rules.
 
 ## ACT-294 — Commit fighter, side and control type for one duel
 
@@ -5713,21 +5771,24 @@
   compositions, deployment kits or persistent builds rather than two sides of
   one short offline duel.
 
-## ACT-295 — Enter one character-command fighting attack
+## ACT-295 — Enter one directly controlled character attack
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: while the controlled fighter is actionable, the player commits
-  one legal normal, command, special, projectile or Super attack through its
-  declared directional and button sequence.
+- Definition: while a directly controlled character is actionable, the player
+  commits one legal character-owned attack state through its declared
+  directional, posture and button sequence, whether that state is an ordinary
+  strike, fighting command, projectile, jump-spin, roll or cartwheel.
 - Includes: Ryu's ordinary Classic-control attacks, Hadoken and a stocked Super
-  Art in the scoped Street Fighter 6 duel.
+  Art in the scoped Street Fighter 6 duel; Sonic's jump-spin and moving ground
+  roll in original Sonic the Hedgehog.
 - Excludes: moving without an attack; automatically resolving the resulting
   contact; an equipped firearm or tool; a tactical turn command.
-- Parameters: fighter, control mapping, directional sequence, button, strength,
-  attack member, cancel source, buffer, resource and facing.
+- Parameters: character, control mapping, directional sequence, posture,
+  button, strength, attack member, locomotion coupling, cancel source, buffer,
+  resource and facing.
 - Evidence: [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
 - Additional support: [Brawlhalla decomposition](../games/a-f/brawlhalla.md),
   for unarmed and selected-Legend weapon commands in a platform-fighter duel.
@@ -5736,6 +5797,14 @@
   launchers, Heat Engagers, ground-state get-up kicks and the state-gated
   Heat Burst, Heat Smash, Heat Dash and Rage Art commands of the chosen
   fighter.
+- Additional support: [Battletoads decomposition](../games/a-f/battletoads.md),
+  for ordinary punches, kicks, finishers and the running headbutt in Stage 1.
+- Additional support: [Crash Bandicoot decomposition](../games/a-f/crash-bandicoot.md),
+  for Crash's directly commanded spin attack.
+- Additional support: [Donkey Kong Country decomposition](../games/a-f/donkey-kong-country.md),
+  for Donkey's roll and Diddy's cartwheel.
+- Additional support: [Sonic the Hedgehog decomposition](../games/s-z/sonic-the-hedgehog.md),
+  for jump-spin and momentum-carrying grounded roll attacks.
 - Novelty: first isolated for `GAME-0172`; the corpus previously addressed
   equipped tools, cooldown abilities and queued attacks rather than a
   character-owned fighting command vocabulary.
@@ -6554,6 +6623,10 @@
 - Additional support: [The Forest decomposition](../games/s-z/the-forest.md),
   for committing the save interaction at the completed player-built Temporary
   Shelter.
+- Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
+  for operating Johnson's cell control and boarding the extraction Pelican.
+- Additional support: [Animal Crossing: New Horizons decomposition](../games/a-f/animal-crossing-new-horizons.md),
+  for operating the Resident Services workbench before selecting a legal recipe.
 - Novelty: first isolated for `GAME-0188`; one generic command boundary joins
   readable clues, stateful switches, typed route keys and optional dungeon
   reward objects without treating their different resolutions as one system.
@@ -6618,21 +6691,21 @@
 - Novelty: first isolated for `GAME-0190`; continuous angular probing consumes
   a fragile tool while progressively exposing one hidden opening interval.
 
-## ACT-345 — Commission one building in an owned settlement slot
+## ACT-345 — Commission one legal building in an owned settlement
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: the player selects one currently legal building or chain upgrade
-  for a vacant or compatible slot in an owned settlement and commits its stated
-  treasury cost and turn duration to the campaign queue.
-- Includes: upgrading Kislev Refuge and commissioning its declared Store House
-  during the scoped Total War: WARHAMMER III prologue route.
+  in an owned settlement and commits its stated resource cost, whether the
+  result is immediate or enters a bounded campaign queue.
+- Includes: Kislev Refuge's queued Store House and one legal same-day town
+  structure in Heroes of Might and Magic III: Complete.
 - Excludes: placing a freely positioned real-time building; choosing a city's
   yield-funded production target; recruiting a unit; instant scripted scenery.
-- Parameters: settlement, slot, building chain, tier, prerequisite, treasury
-  cost, build duration, cancellation and completed effect.
+- Parameters: settlement, slot or daily capacity, building chain, tier,
+  prerequisite, typed cost, build duration, cancellation and completed effect.
 - Evidence: [Total War: WARHAMMER III decomposition](../games/s-z/total-war-warhammer-iii.md).
 - Novelty: first isolated for `GAME-0191`; a fixed settlement slot accepts a
   prepaid chain entry whose effect arrives after campaign-turn settlement.
@@ -6656,22 +6729,21 @@
 - Novelty: first isolated for `GAME-0191`; the editable formation is spatially
   legal only before the live battle clock and becomes its initial combat state.
 
-## ACT-347 — Hire available settlement recruits into a persistent party
+## ACT-347 — Hire available settlement recruits into a persistent force
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: at an entered settlement the player selects one or more currently
-  offered recruit bodies and pays their displayed hiring cost so they leave the
-  local offer and occupy available slots in the player's persistent campaign
-  party.
-- Includes: hiring the maximum offered tutorial troops at Tevea in scoped Mount
-  & Blade II: Bannerlord Campaign.
+- Definition: at an owned or entered settlement the player selects a currently
+  available recruit type and quantity and pays the displayed cost so that stock
+  enters compatible slots or stacks in a persistent campaign force.
+- Includes: Tevea recruits in Bannerlord and priced creature recruitment from
+  an owned Heroes III town dwelling.
 - Excludes: training a queued RTS unit; persuading a prisoner over time;
   recruiting a named companion through a quest; automatic population growth.
-- Parameters: settlement, offer source, troop type, available count, cost,
-  denars, party capacity, selected quantity and resulting roster.
+- Parameters: settlement, offer or dwelling, troop type, available count,
+  typed cost, force capacity, compatible stack, selected quantity and roster.
 - Evidence: [Mount & Blade II: Bannerlord decomposition](../games/m-r/mount-and-blade-ii-bannerlord.md).
 - Novelty: first isolated for `GAME-0194`; immediate paid transfer from a local
   recruit offer into a mobile persistent party is absent from lower-ID actions.
@@ -6697,6 +6769,10 @@
   concurrent action authority and dismount.
 - Evidence: [Red Dead Redemption 2 decomposition](../games/m-r/red-dead-redemption-2.md)
   and [Mount & Blade II: Bannerlord decomposition](../games/m-r/mount-and-blade-ii-bannerlord.md).
+- Additional support: [Battletoads decomposition](../games/a-f/battletoads.md),
+  for mounting a knocked-down Dragon and directly steering its flight and fire.
+- Additional support: [Donkey Kong Country decomposition](../games/a-f/donkey-kong-country.md),
+  for mounting, directly steering and leaving Rambi in the scoped first stage.
 - Novelty: first isolated for `GAME-0194`; generalised by
   [`TAXONOMY_CHANGE_063`](../../research/taxonomy-changes/TAXONOMY_CHANGE_063.md)
   after horse persistence, bond, saddle cargo, battle context and weapon access
@@ -7565,22 +7641,62 @@
 - Novelty: first isolated for `GAME-0225`; continuous input directly composes
   four flight controls in unrestricted three-dimensional space.
 
-## ACT-393 — Allocate starfighter power among three systems
+## ACT-393 — Allocate a craft's finite power among live subsystems
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: while flying, redirect one shared starfighter power allocation
-  among engines, laser weapons and shields, or restore the balanced allocation.
-- Includes: the X-wing power controls taught in `Form the Vanguard`.
+- Definition: while flying, redirect one shared finite craft-power allocation
+  among currently live propulsion, defence, weapon or travel subsystems, or
+  restore a balanced allocation.
+- Includes: the X-wing engine, laser and shield controls taught in `Form the
+  Vanguard`; Frontier engine, shield, weapon and grav-drive allocation.
 - Excludes: spending upgrade currency; selecting a permanent component;
   transferring shield charge between facings; activating one cooldown ability.
-- Parameters: power budget, engines, lasers, shields, selected emphasis,
+- Parameters: power budget, live subsystems, selected emphasis,
   balanced state, overcharge state and resulting subsystem performance.
 - Evidence: [STAR WARS: Squadrons decomposition](../games/s-z/star-wars-squadrons.md).
 - Novelty: first isolated for `GAME-0225`; one reversible live allocation
   changes three simultaneously relevant flight-combat subsystems.
+- Change note: wording generalised by
+  [`TAXONOMY_CHANGE_075`](../../research/taxonomy-changes/TAXONOMY_CHANGE_075.md).
+
+## ACT-481 — Scan one eligible local world target for survey evidence
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while a handheld survey mode is active, the player addresses one
+  eligible target within range and records one persistent sample toward that
+  target class or location's survey progress.
+- Includes: scanning one flora, fauna or mineral target on Kreet in Starfield.
+- Excludes: holding a scanner until a technology blueprint completes; a passive
+  resource pulse; selecting a remote planet; picking the target up.
+- Parameters: scanner mode, target class, eligibility, range, sample, progress,
+  completion threshold and duplicate-sample rule.
+- Evidence: [Starfield decomposition](../games/s-z/starfield.md).
+- Novelty: first isolated for `GAME-0331`; one addressed local sample advances
+  persistent survey evidence without requiring a held progress channel.
+
+## ACT-482 — Select a reachable starmap destination and commit ship travel
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: from a ship-navigation surface, the player selects one currently
+  reachable system, planet, orbit or landing target and commits the legal route.
+- Includes: Frontier travel from Vectera to Kreet and from Kreet to Jemison plus
+  the New Atlantis landing selection in Starfield's `One Small Step`.
+- Excludes: directly piloting through local space; avatar fast travel inside one
+  explored site; an autonomous caravan route; unrestricted teleportation.
+- Parameters: ship, origin, destination, route, reachability, grav power, fuel
+  range, orbit, landing site and commitment.
+- Evidence: [Starfield decomposition](../games/s-z/starfield.md).
+- Novelty: first isolated for `GAME-0331`; a starmap command changes the ship's
+  celestial or landed travel state while direct local piloting remains separate.
 
 ## ACT-394 — Focus charged shields toward one starfighter facing
 
@@ -9131,3 +9247,339 @@
 - Novelty: first isolated for `GAME-0306`; the protected living objective
   stays a world-located burden until an explicit vehicle handoff rather than
   becoming inventory, a throwable bag or an autonomous courier's cargo.
+
+## ACT-467 — Vacuum or expel one reachable world entity through the active tank
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the player aims a portable suction tool and either draws one
+  reachable compatible loose entity from the world into the selected typed
+  tank or expels stored units from that tank back into the aimed world region
+  or accepting fixture.
+- Includes: vacuuming Pink Slimes, food and Pink Plorts into the active Vacpack
+  tank, then firing slimes or food into the starter corral and plorts into the
+  Plort Market in a fresh Slime Rancher Adventure save.
+- Excludes: contact pickup with no aimed suction; equipping the tank
+  (`ACT-164`); selling the expelled plort (`ACT-219`); automatically consuming
+  food or producing a plort; pulling a fixed environmental object.
+- Parameters: tool, suction or expulsion mode, aim, reach, entity type, active
+  tank, accepted quantity, remaining world entity and receiver compatibility.
+- Evidence: [Slime Rancher decomposition](../games/s-z/slime-rancher.md),
+  supported by Monomi Park's official product description and two independent
+  written beginner references for the original game.
+- Novelty: first isolated for `GAME-0307`; one reversible aimed transfer input
+  moves creatures, food and sale output through the same selected typed tank.
+
+## ACT-468 — Hold and release one charged vehicle drift
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while directly steering a moving vehicle through a corner, the
+  player holds a drift commitment that continues changing the live trajectory
+  and then chooses when to release it after a visible charge tier has formed.
+- Includes: holding Mario Kart 8 Deluxe's drift through a corner and releasing
+  at a Mini-Turbo, Super Mini-Turbo or Ultra Mini-Turbo spark tier with Smart
+  Steering disabled.
+- Excludes: spending a boost reserve that can be banked after the manoeuvre;
+  scoring drift duration; assisted steering that offers a discrete drift
+  prompt; ordinary handbrake rotation with no charge-and-release result.
+- Parameters: vehicle, steering direction, corner, hold duration, charge tier,
+  assistance state, release input and exit trajectory.
+- Evidence: [Mario Kart 8 Deluxe decomposition](../games/m-r/mario-kart-8-deluxe.md),
+  using Nintendo's controls and beginner-technique guidance.
+- Novelty: first isolated for `GAME-0309`; the boost opportunity exists only
+  inside the current held drift and settles on release rather than entering a
+  freely spendable reserve.
+
+## ACT-469 — Redistribute a body-carried cargo stack
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player moves carried packages among compatible body, suit or
+  pack positions, or invokes an automatic arrangement, to change the current
+  load distribution without changing the delivery identity of the packages.
+- Includes: manual and automatic cargo arrangement in the scoped DEATH
+  STRANDING DIRECTOR'S CUT opening order.
+- Excludes: picking cargo up from the world (`ACT-199`); storing cargo in a
+  vehicle; dropping the entire load; cosmetic backpack customisation.
+- Parameters: package, source position, destination position, compatibility,
+  attachment, arrangement policy, carried mass and resulting distribution.
+- Evidence: [DEATH STRANDING DIRECTOR'S CUT decomposition](../games/a-f/death-stranding-directors-cut.md).
+- Novelty: first isolated for `GAME-0310`; package placement on a live carrier
+  changes physical balance rather than only inventory capacity.
+
+## ACT-470 — Brace one side of a shifting carried load
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while moving under a body-carried load, the player holds the
+  left, right or both declared grips to oppose current lateral shift and
+  stabilise the carrier before balance resolves.
+- Includes: side-specific and two-sided balance bracing in the scoped DEATH
+  STRANDING DIRECTOR'S CUT opening delivery.
+- Excludes: passive equipment stability; blocking a combat attack; steering a
+  vehicle; automatically correcting the load with no player input.
+- Parameters: braced side, grip state, current lean, load distribution,
+  movement restriction, release timing and recovered stability.
+- Evidence: [DEATH STRANDING DIRECTOR'S CUT decomposition](../games/a-f/death-stranding-directors-cut.md).
+- Novelty: first isolated for `GAME-0310`; continuous side-specific grip input
+  directly counters a visible body-load imbalance.
+
+## ACT-471 — Emit one local terrain-and-cargo survey pulse
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player triggers a bounded local sensor pulse that classifies
+  nearby traversable terrain risk and marks eligible cargo without selecting a
+  destination or solving the route.
+- Includes: an Odradek scan in the scoped DEATH STRANDING DIRECTOR'S CUT order.
+- Excludes: a resource-only survey pulse; permanent global map reveal;
+  automatic enemy detection; route calculation.
+- Parameters: origin, range, occlusion, terrain classes, cargo eligibility,
+  pulse duration, presentation lifetime and recharge if any.
+- Evidence: [DEATH STRANDING DIRECTOR'S CUT decomposition](../games/a-f/death-stranding-directors-cut.md).
+- Novelty: first isolated for `GAME-0310`; one pulse joins immediate terrain
+  hazard reading with portable-cargo discovery.
+
+## ACT-472 — Link topographic markers into a prospective route
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player places, orders, edits or removes map markers whose
+  consecutive positions form a visible prospective line across topographic
+  terrain without commanding automatic traversal.
+- Includes: linked route markers in the scoped DEATH STRANDING DIRECTOR'S CUT
+  opening delivery.
+- Excludes: one destination pin with an automatically solved road route;
+  drawing terrain; issuing waypoints to an autonomous unit.
+- Parameters: marker position, order, count, line segment, elevation display,
+  edit operation and world-view projection.
+- Evidence: [DEATH STRANDING DIRECTOR'S CUT decomposition](../games/a-f/death-stranding-directors-cut.md).
+- Novelty: first isolated for `GAME-0310`; ordered player-authored markers form
+  a route scaffold while every traversability decision remains unresolved.
+
+## ACT-473 — Inflate the controlled body for vertical ascent
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while a declared temporary inflation capability is available,
+  the player holds its dedicated input to expand the directly controlled body
+  and commit upward buoyant travel toward reachable air or water-route space.
+- Includes: holding the Inflate input in ASTRO BOT's Sky Garden to rise toward
+  the flamingo Puzzle Piece, tower platforms and upper water-tube route.
+- Excludes: an ordinary jump or finite laser-hover; passive balloon buoyancy;
+  swimming without a temporary form; selecting a distant destination for
+  automatic flight.
+- Parameters: capability, input, inflation state, ascent rate, steering,
+  release response, reachable volume and termination condition.
+- Evidence: [ASTRO BOT decomposition](../games/a-f/astro-bot.md), using the
+  official PlayStation hands-on account and three independent written Sky
+  Garden route descriptions.
+- Novelty: first isolated for `GAME-0312`; the player directly sustains a
+  temporary enlarged body to gain vertical route authority rather than merely
+  receiving a passive lift or modifying a jump parameter.
+
+## ACT-474 — Operate one reachable vessel station
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player physically reaches one vessel control station and
+  changes that station's retained setting while the other stations and the
+  vessel remain under their current live state.
+- Includes: turning a Sloop wheel, raising or lowering its anchor at the
+  capstan, and changing sail length or angle during the scoped Sea of Thieves
+  Gold Hoarders Tutorial Voyage.
+- Excludes: selecting a remote destination for automatic travel; directly
+  driving a vehicle from one unified seat; issuing an autonomous ship order;
+  changing a cosmetic sail.
+- Parameters: vessel, station, reach, operator, wheel deflection, anchor state,
+  sail length, sail angle, interaction duration and retained setting.
+- Evidence: [Sea of Thieves decomposition](../games/s-z/sea-of-thieves.md),
+  using official accessibility guidance and the corroborated tutorial prompts.
+- Novelty: first isolated for `GAME-0319`; navigation requires embodied travel
+  among several persistent controls rather than one driver interface.
+
+## ACT-475 — Dig at one chosen world-terrain point
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player positions a digging tool over one chosen reachable
+  terrain point and commits one strike, asking the world to test and advance
+  any compatible buried-object state at that location.
+- Includes: shovel strikes around the marked position of the single buried
+  Sailor's Chest in Sea of Thieves' Gold Hoarders Tutorial Voyage.
+- Excludes: removing terrain to create tactical cover; mining a visible
+  resource node; opening an already exposed container; selecting a map marker
+  that automatically performs excavation.
+- Parameters: actor, tool, surface, chosen point, range, buried target,
+  tolerance, strike duration, accepted feedback and repeated-hit count.
+- Evidence: [Sea of Thieves decomposition](../games/s-z/sea-of-thieves.md),
+  using the official Gold Hoarders guide and corroborated tutorial route.
+- Novelty: first isolated for `GAME-0319`; a player-inferred hidden location is
+  tested through embodied strikes without turning the surrounding ground into
+  freely deformable terrain.
+
+## ACT-476 — Cast a held line and reel after the bite cue
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player aims and casts a held fishing line into reachable
+  water near one visible eligible target, waits through non-terminal contact
+  cues and commits the reel input only after the declared bite cue.
+- Includes: casting a flimsy fishing rod near an Animal Crossing: New Horizons
+  fish shadow and reeling after the float is pulled under.
+- Excludes: directly grabbing a free-swimming organism; one automatic fishing
+  command; a timing minigame that begins only after the fish is already hooked;
+  netting an insect.
+- Parameters: tool, water reach, target shadow, cast point, facing, nibble,
+  bite cue, reel window, miss, escape and accepted catch.
+- Evidence: [Animal Crossing: New Horizons decomposition](../games/a-f/animal-crossing-new-horizons.md),
+  using Nintendo's beginner guide and corroborating first-day routes.
+- Novelty: first isolated for `GAME-0320`; the player commits both a spatial
+  cast and a cue-gated second input before the target becomes captured.
+
+## ACT-477 — Swing a held net through one reachable insect
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player positions the directly controlled actor and commits
+  one short held-net swing through a chosen reachable world volume, testing
+  contact against a currently present insect.
+- Includes: approaching and swinging a flimsy net at a visible insect during
+  Animal Crossing: New Horizons' first full island day.
+- Excludes: casting a line; placing an autonomous trap; direct hand-catching;
+  attacking a hostile creature for loot; automatic contact collection.
+- Parameters: actor, tool, approach, swing arc, target position, reach,
+  collision window, miss, escape and accepted catch.
+- Evidence: [Animal Crossing: New Horizons decomposition](../games/a-f/animal-crossing-new-horizons.md),
+  using Nintendo's beginner guide and corroborating first-day routes.
+- Novelty: first isolated for `GAME-0320`; capture is a player-aimed transient
+  world-volume test rather than inventory targeting or direct proximity pickup.
+
+## ACT-478 — Commit the timed second press of an active reload
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after starting a magazine reload, the player deliberately presses
+  the reload input again at a chosen instant while the authored timing indicator
+  is active, asking the system to grade that intervention rather than accepting
+  the ordinary reload duration.
+- Includes: the second right-bumper press during an active reload in the scoped
+  original Xbox 360 Gears of War Training route.
+- Excludes: starting an ordinary reload; timing an attack; cooling a heat-based
+  weapon with no reserve-ammunition transfer; a passive reload-speed statistic.
+- Parameters: weapon, magazine, reserve, first press, timing indicator, second
+  press, accepted bands, cancellation and grade request.
+- Evidence: [Gears of War decomposition](../games/g-l/gears-of-war.md), using
+  the original Xbox 360 manual's active-reload control and outcome rules.
+- Novelty: first isolated for `GAME-0321`; the player voluntarily converts an
+  already running finite-ammunition reload into a visible graded timing test.
+
+## ACT-479 — Alternate tethered swing and aerodynamic glide during live traversal
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while directly controlling an embodied character in a continuous
+  three-dimensional world, the player repeatedly attaches a movement line to
+  eligible surrounding geometry or opens a carried aerodynamic surface, then
+  steers the resulting swing or glide while preserving live momentum between
+  the two traversal modes.
+- Includes: Peter or Miles combining web swinging with Web Wings during
+  Marvel's Spider-Man 2's scoped `Surface Tension` route.
+- Excludes: grappling to one selected endpoint; a scripted cinematic flight;
+  ordinary jumping; a parachute deployment that ends the preceding vehicle
+  state; teleportation between map markers.
+- Parameters: controlled character, attachment geometry, line length, release,
+  momentum, aerodynamic surface, lift, steering, collision and landing.
+- Evidence: [Marvel's Spider-Man 2 decomposition](../games/m-r/marvels-spider-man-2.md),
+  using official PlayStation traversal material and two corroborating written
+  routes for the first mission.
+- Novelty: first isolated for `GAME-0323`; the player carries velocity between
+  renewable geometry-bound arcs and free-steered aerodynamic travel rather
+  than committing one endpoint pull or one fixed glide.
+
+## ACT-480 — Commit the highlighted tier of a character-local power-up gauge
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after collected upgrade objects have advanced one directly
+  controlled character's ordered power-up gauge, the player deliberately
+  commits the currently highlighted tier, selecting its weapon or movement
+  capability instead of waiting for a later tier.
+- Includes: pressing SELECT on Burn, Iron, Smith or Beans's highlighted weapon
+  row during Contra Force's scoped first mission.
+- Excludes: collecting the object that advances the gauge; changing direct
+  control to another protagonist; activating a board-clearing power-up; buying
+  a persistent equipment upgrade in a menu.
+- Parameters: character, ordered row, current highlight, input, selected tier,
+  prior active tier, replacement and cancellation.
+- Evidence: [Contra Force decomposition](../games/a-f/contra-force.md), using
+  the original North American NES manual's power-up and weapon rules.
+- Novelty: first isolated for `GAME-0324`; the input commits one visible point
+  on a character-specific progress row rather than immediately consuming the
+  pickup or selecting from an unordered inventory.
+
+## ACT-483 — Split, merge or transfer one same-type creature troop
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player moves a selected quantity of one creature type between
+  legal hero-army or town-garrison slots, splitting a troop, merging compatible
+  troops or transferring the complete troop without changing its type.
+- Includes: reorganising Christian's seven-slot army and the Caryatid garrison
+  during Heroes of Might and Magic III: Complete `Homecoming`.
+- Excludes: recruiting new creatures; moving a hero on the Adventure Map;
+  inventory transfer; combining different creature types.
+- Parameters: source force, destination force, creature type, source count,
+  selected count, compatible destination, empty slot and resulting troops.
+- Evidence: [Heroes of Might and Magic III: Complete decomposition](../games/g-l/heroes-of-might-and-magic-iii-complete.md).
+- Novelty: first isolated for `GAME-0332`; quantity-preserving transfer can
+  split or merge one typed combat troop across two persistent seven-slot forces.
+
+## ACT-484 — Commit one legal active-troop battlefield action
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: on the currently active troop's battle turn, the player commits
+  one legal reachable hex move, melee or ranged attack, wait or defend command.
+- Includes: manually commanding a troop in a scoped Heroes of Might and Magic
+  III: Complete `Homecoming` battle.
+- Excludes: moving the campaign hero; issuing a real-time formation order;
+  choosing a spell; an automatic retaliation.
+- Parameters: active troop, speed schedule, command class, destination hex,
+  target, range, ammunition, wait state, defend state and completion.
+- Evidence: [Heroes of Might and Magic III: Complete decomposition](../games/g-l/heroes-of-might-and-magic-iii-complete.md).
+- Novelty: first isolated for `GAME-0332`; one speed-scheduled creature stack
+  owns a discrete choice among spatial, offensive and turn-timing commands.

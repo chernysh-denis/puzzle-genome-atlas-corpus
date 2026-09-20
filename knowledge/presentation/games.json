@@ -2427,6 +2427,222 @@
       "playUrl": "https://www.xbox.com/en-us/games/store/metal-gear-solid-v-the-phantom-pain/C253HWJP0L18",
       "linkLabelUk": "Відкрити гру в Xbox ↗",
       "linkLabelEn": "View the game on Xbox ↗"
+    },
+    "GAME-0307": {
+      "titleUk": "Слайм Ранчер",
+      "summaryUk": "У свіжій Adventure-грі Slime Rancher гравець вакуумом збирає рожевих слаймів, їжу та plort’и в окремі баки. Нагодований слайм створює Pink Plort; його продають на Plort Market, щоб підняти стартові 250 Newbucks до 350 і купити High Walls для першого загону. Це реконструкція за джерелами, не власне проходження.",
+      "summaryEn": "In a fresh Slime Rancher Adventure game, the player vacuums Pink Slimes, food and plorts into separate tanks. A fed slime produces a Pink Plort; selling it at the Plort Market raises the initial 250 Newbucks toward 350, allowing High Walls to be bought for the starter corral. This is a source-based reconstruction, not a playthrough.",
+      "playUrl": "https://store.steampowered.com/app/433340/SlimeRancher?l=english",
+      "linkLabelUk": "Відкрити Slime Rancher у Steam ↗",
+      "linkLabelEn": "View Slime Rancher on Steam ↗"
+    },
+    "GAME-0308": {
+      "titleUk": "Бладборн",
+      "summaryUk": "У Central Yharnam мисливець перемикає форми Saw Cleaver, ділить витривалість між натиском і ухиленням, повертає щойно втрачене здоров’я контратаками та пострілом відкриває критичний удар. Смерть лишає один відновлюваний запас Blood Echoes, а Father Gascoigne замикає шлях до Cathedral Ward. Це реконструкція за джерелами, не проходження на PS4.",
+      "summaryEn": "In Central Yharnam, the Hunter switches Saw Cleaver forms, budgets stamina between pressure and evasion, rallies recent health loss through counterattacks and uses a timed shot to open a visceral strike. Death leaves one recoverable Blood Echo stock, while Father Gascoigne gates Cathedral Ward. This is a source-based reconstruction, not a PS4 playthrough.",
+      "playUrl": "https://www.playstation.com/en-us/games/bloodborne/",
+      "linkLabelUk": "Відкрити Bloodborne на PlayStation ↗",
+      "linkLabelEn": "View Bloodborne on PlayStation ↗"
+    },
+    "GAME-0309": {
+      "titleUk": "Маріо Карт 8 Делюкс",
+      "summaryUk": "У чотирьох перегонах Mushroom Cup гравець керує картом, заряджає мінітурбо дрифтом, збирає монети й тримає до двох позиційно-залежних предметів. Антигравітаційні контакти дають поштовх, а місця перетворюються на спільний залік і золотий кубок. Це реконструкція за джерелами, не проходження на Switch.",
+      "summaryEn": "Across the four Mushroom Cup races, the player drives a kart, charges mini-turbos through drifting, collects coins and holds up to two position-sensitive items. Anti-gravity contact grants a boost, while finishes become cumulative standings and a gold trophy. This is a source-based reconstruction, not a Switch playthrough.",
+      "playUrl": "https://mariokart8deluxe.nintendo.com/",
+      "linkLabelUk": "Відкрити Mario Kart 8 Deluxe у Nintendo ↗",
+      "linkLabelEn": "View Mario Kart 8 Deluxe at Nintendo ↗"
+    },
+    "GAME-0310": {
+      "titleUk": "Дез Стрендінг: Режисерська версія",
+      "summaryUk": "У першому замовленні DEATH STRANDING DIRECTOR'S CUT кур’єр розміщує Smart Drugs на тілі, читає центр ваги, сканує рельєф і прокладає власну лінію позначками. Маса, поверхня, витривалість і стабілізація визначають падіння; дощ та удари погіршують стан вантажу, а термінал перетворює доставку на оцінку й Likes. Це реконструкція за джерелами, не власне проходження.",
+      "summaryEn": "In DEATH STRANDING DIRECTOR'S CUT's first order, the courier distributes Smart Drugs across the body, reads the centre of gravity, scans terrain and links a personal route. Mass, footing, stamina and bracing determine falls; rain and impacts reduce cargo condition before the terminal turns delivery into a grade and Likes. This is a source-based reconstruction, not a playthrough.",
+      "playUrl": "https://www.kojimaproductions.jp/en/death-stranding-dc",
+      "linkLabelUk": "Відкрити DEATH STRANDING DIRECTOR'S CUT ↗",
+      "linkLabelEn": "Open DEATH STRANDING DIRECTOR'S CUT ↗"
+    },
+    "GAME-0311": {
+      "titleUk": "Super Mario Bros.",
+      "summaryUk": "У World 1-1 гравець керує розгоном і висотою стрибка, б’є блоки знизу, збирає монети й підсилення та обирає безпечний напрямок контакту з ворогами. Камера відтинає пройдений шлях, а прапорець перетворює висоту й решту часу на очки перед переходом у World 1-2. Це реконструкція за посібником і кодом, не проходження на NES.",
+      "summaryEn": "In World 1-1, the player controls acceleration and jump height, strikes blocks from below, collects coins and power-ups, and chooses safe enemy contact directions. The camera commits the passed route, while the flagpole turns height and remaining time into score before World 1-2. This is a manual-and-code reconstruction, not an NES playthrough.",
+      "playUrl": "https://www.nintendo.com/jp/titles/20010000000866.html",
+      "linkLabelUk": "Відкрити оригінальну Super Mario Bros. у Nintendo ↗",
+      "linkLabelEn": "View the original Super Mario Bros. at Nintendo ↗"
+    },
+    "GAME-0312": {
+      "titleUk": "ASTRO BOT",
+      "summaryUk": "У Sky Garden Astro бігає, зависає на лазерах, плаває й відкриває батути, кімнати та Inflate через дроти, вентилятори й блискавки. Удар рятує Bot назавжди, фрагменти пазла лишаються після загибелі, а Inflate піднімає до верхньої водної труби та фінального скла. Це реконструкція за джерелами, не проходження на PS5.",
+      "summaryEn": "In Sky Garden, Astro runs, laser-hovers, swims and reveals trampolines, rooms and Inflate through wires, fans and zippers. A strike persistently rescues a Bot, Puzzle Pieces survive death, and Inflate lifts Astro toward the upper water tube and final glass. This is a source-based reconstruction, not a PS5 playthrough.",
+      "playUrl": "https://www.playstation.com/en-us/games/astro-bot/",
+      "linkLabelUk": "Відкрити ASTRO BOT на PlayStation ↗",
+      "linkLabelEn": "View ASTRO BOT on PlayStation ↗"
+    },
+    "GAME-0313": {
+      "titleUk": "Tank 1990",
+      "summaryUk": "У Tank A гравець веде танк фіксованою ареною, руйнує придатну місцевість, стримує скінченний запас ворогів і захищає орла. Блимаючий ворог створює випадковий бонус; пістолет дає максимальну вогневу силу, а човен відкриває воду. Це реконструкція за джерелами, не проходження картриджа.",
+      "summaryEn": "In Tank A, the player steers through a fixed arena, removes eligible terrain, repels a finite enemy reserve and protects the eagle. A flashing enemy creates a random bonus; the gun grants maximum firepower and the boat opens water. This is a source-based reconstruction, not a cartridge playthrough.",
+      "playUrl": "https://github.com/mamedev/mame/blob/2f09f5e4f17912d3b58253067bec2430efbbedeb/hash/nes.xml",
+      "linkLabelUk": "Переглянути архівний запис Tank 1990 у MAME ↗",
+      "linkLabelEn": "View the Tank 1990 archival record in MAME ↗"
+    },
+    "GAME-0314": {
+      "titleUk": "Grounded",
+      "summaryUk": "Три заряджені аналізи Pebblet, Plant Fiber і Clover Leaf відкривають мотузку, сокиру й Lean-To. Гравець сам збирає та рубає матеріали, заповнює план укриття, призначає його точкою відродження й зберігає цей ранній світ. Це реконструкція за джерелами, не проходження на Xbox.",
+      "summaryEn": "Three charged analyses of Pebblet, Plant Fiber and Clover Leaf unlock rope, an axe and a Lean-To. The player gathers and chops materials, fills the shelter plan, assigns it as respawn and saves this early world. This is a source-based reconstruction, not an Xbox playthrough.",
+      "playUrl": "https://www.xbox.com/en-us/games/grounded",
+      "linkLabelUk": "Відкрити Grounded на Xbox ↗",
+      "linkLabelEn": "View Grounded on Xbox ↗"
+    },
+    "GAME-0315": {
+      "titleUk": "Halo 3",
+      "summaryUk": "У Sierra 117 Master Chief просувається джунглями з двома слотами зброї, скінченними боєприпасами, гранатами й щитом, який відновлюється лише після безпечної паузи. Неповний Motion Tracker підказує напрямок рухомих цілей; звільнення Sergeant Johnson запускає фінальну контратаку й посадку в Pelican до Crow’s Nest. Це реконструкція за джерелами, не проходження на Xbox 360.",
+      "summaryEn": "In Sierra 117, Master Chief crosses the jungle with two weapon slots, finite ammunition, grenades and a shield that recharges only after a safe interval. A partial Motion Tracker exposes moving contacts; releasing Sergeant Johnson triggers the final counterattack and Pelican extraction toward Crow’s Nest. This is a source-based reconstruction, not an Xbox 360 playthrough.",
+      "playUrl": "https://www.xbox.com/en-US/games/store/halo-3/BSXZVK24CMR3",
+      "linkLabelUk": "Відкрити Halo 3 на Xbox ↗",
+      "linkLabelEn": "View Halo 3 on Xbox ↗"
+    },
+    "GAME-0316": {
+      "titleUk": "Gran Turismo",
+      "summaryUk": "У B-1 гравець розганяє наданий Mazda Demio прямою трасою, читає швидкість, дистанцію й таймер, а потім сам обирає момент гальмування. Залік потребує повної зупинки всередині цільової ділянки до завершення 36 секунд. Це реконструкція за джерелами, не проходження на PlayStation.",
+      "summaryEn": "In B-1, the player accelerates a supplied Mazda Demio down a straight, reads speed, distance and timer, then chooses the braking point. Passing requires the whole car to stop inside the target area before 36 seconds expire. This is a source-based reconstruction, not a PlayStation playthrough.",
+      "playUrl": "https://www.gran-turismo.com/us/news/02_0004970.html",
+      "linkLabelUk": "Переглянути історію Gran Turismo ↗",
+      "linkLabelEn": "View Gran Turismo history ↗"
+    },
+    "GAME-0317": {
+      "titleUk": "StarCraft II",
+      "summaryUk": "У Liberation Day гравець керує Raynor і Marines у реальному часі, відкриває дорогу крізь туман війни та приєднує сценарні підкріплення. Завершення потребує знищити Logistics Headquarters, не втративши Raynor; виробництва й ресурсної економіки в цій першій місії немає. Це реконструкція за джерелами, не проходження у Windows.",
+      "summaryEn": "In Liberation Day, the player commands Raynor and Marines in real time, reveals a road through fog and absorbs scripted reinforcements. Completion requires destroying the Logistics Headquarters without losing Raynor; this first mission has no player production or resource economy. This is a source-based reconstruction, not a Windows playthrough.",
+      "playUrl": "https://news.blizzard.com/en-us/article/21173629/starcraft-ii-going-free-to-play-explained",
+      "linkLabelUk": "Відкрити безкоштовну кампанію StarCraft II ↗",
+      "linkLabelEn": "View the free StarCraft II campaign ↗"
+    },
+    "GAME-0318": {
+      "titleUk": "Battletoads",
+      "summaryUk": "У Ragnarok’s Canyon локальні групи ворогів утримують прокручування, доки гравець не зачистить бій. Переможений Walker може стати тимчасовою зброєю, збитий Dragon — їздовою істотою, а Tall Walker падає лише після трьох повернутих каменів. Це реконструкція за джерелами, не проходження на NES.",
+      "summaryEn": "In Ragnarok’s Canyon, local enemy groups hold scrolling until the fight is cleared. A defeated Walker can become a temporary weapon, a subdued Dragon a temporary mount, and the Tall Walker falls only after three returned rocks. This is a source-based reconstruction, not an NES playthrough.",
+      "playUrl": "https://www.nintendo.com/us/whatsnew/new-nintendo-classics-update/",
+      "linkLabelUk": "Переглянути Battletoads у Nintendo Classics ↗",
+      "linkLabelEn": "View Battletoads in Nintendo Classics ↗"
+    },
+    "GAME-0319": {
+      "titleUk": "Sea of Thieves",
+      "summaryUk": "У навчальній подорожі Gold Hoarders гравець зіставляє мапу з хрестом із судновою картою, вручну керує окремими постами Sloop, викопує одну скриню й повертає її крізь спільний світ. Лише передача фізичної скрині Gold Hoarders завершує маршрут. Це реконструкція за джерелами, не проходження на Xbox Series.",
+      "summaryEn": "In the Gold Hoarders Tutorial Voyage, the player matches an X-map to the ship chart, manually operates separate Sloop stations, digs up one chest and returns it through the shared world. Only handing the physical chest to Gold Hoarders completes the route. This is a source-based reconstruction, not an Xbox Series playthrough.",
+      "playUrl": "https://www.xbox.com/en-US/games/sea-of-thieves",
+      "linkLabelUk": "Відкрити Sea of Thieves на Xbox ↗",
+      "linkLabelEn": "View Sea of Thieves on Xbox ↗"
+    },
+    "GAME-0320": {
+      "titleUk": "Animal Crossing: New Horizons",
+      "summaryUk": "У перший повний день острова гравець робить вудку й сачок і за різними правилами ловить риб та комах. П’ять різних видів, переданих Tom Nook, дають змогу обрати місце для намету Blathers; реального наступного дня фахівець оселяється там і видає два рецепти. Це реконструкція за джерелами, не проходження на Switch.",
+      "summaryEn": "On the island's first full day, the player crafts a rod and net and catches fish and insects through different actions. Five distinct species handed to Tom Nook let the player choose Blathers' tent site; on the real next day he occupies it and grants two recipes. This is a source-based reconstruction, not a Switch playthrough.",
+      "playUrl": "https://www.nintendo.com/us/store/products/animal-crossing-new-horizons-switch/",
+      "linkLabelUk": "Відкрити Animal Crossing: New Horizons у Nintendo ↗",
+      "linkLabelEn": "View Animal Crossing: New Horizons at Nintendo ↗"
+    },
+    "GAME-0321": {
+      "titleUk": "Gears of War",
+      "summaryUk": "У навчальній втечі Marcus прикріплюється до укриттів, обирає сліпий або прицільний вогонь і ризикує другим натисканням active reload заради швидкості та урону. Dom допомагає автономно; фінальний двір відкриває King Raven і `Trial By Fire`. Це реконструкція за джерелами, не проходження на Xbox 360.",
+      "summaryEn": "In the prison-training breakout, Marcus attaches to cover, chooses blind or aimed fire and risks a second active-reload press for speed and damage. Dom assists autonomously; the final courtyard admits the King Raven transition to Trial By Fire. This is a source-based reconstruction, not an Xbox 360 playthrough.",
+      "playUrl": "https://news.xbox.com/en-us/2006/08/03/gears-of-war-emergence-day-announced/",
+      "linkLabelUk": "Переглянути оригінальний реліз Gears of War на Xbox ↗",
+      "linkLabelEn": "View the original Gears of War release at Xbox ↗"
+    },
+    "GAME-0322": {
+      "titleUk": "Diablo II: Resurrected",
+      "summaryUk": "У першому квесті варвар шукає згенеровану печеру, перевіряє випадкову здобич і мусить знищити всіх ворогів, включно з Fallen, яких повернули шамани. Останніх п’ять рахує журнал; Akara дає очко навички й одну майбутню безкоштовну зміну характеристик. Це реконструкція за джерелами, не проходження у Windows.",
+      "summaryEn": "In the first quest, a Barbarian searches a sampled cave, evaluates random loot and must defeat every enemy, including Fallen restored by Shamans. The quest counts the last five; Akara grants a skill point and one future free stat/skill reset. This is a source-based reconstruction, not a Windows playthrough.",
+      "playUrl": "https://news.blizzard.com/en-us/article/23725471/diablo-ii-resurrectedtm-launch-guide",
+      "linkLabelUk": "Переглянути офіційний посібник запуску Diablo II: Resurrected ↗",
+      "linkLabelEn": "View the official Diablo II: Resurrected launch guide ↗"
+    },
+    "GAME-0323": {
+      "titleUk": "Marvel's Spider-Man 2",
+      "summaryUk": "У першій місії Peter і Miles за сценарієм змінюють одне одного, розгойдуються на павутинні, планерують Web Wings, кидають предмети й очищують групи піщаних ворогів. Урон і павутинне стримування відкривають Web Strike, який переводить Sandman між фазами та завершує місію за 1 900 XP. Це реконструкція за джерелами, не проходження на PS5.",
+      "summaryEn": "In the opening mission, authored beats hand control between Peter and Miles as they web-swing, glide with Web Wings, throw objects and clear sand-minion groups. Damage plus web restraint exposes the Web Strike that advances Sandman's phases and settles the mission for 1,900 XP. This is a source-based reconstruction, not a PS5 playthrough.",
+      "playUrl": "https://www.playstation.com/en-us/games/marvels-spider-man-2/",
+      "linkLabelUk": "Переглянути Marvel's Spider-Man 2 на PlayStation ↗",
+      "linkLabelEn": "View Marvel's Spider-Man 2 on PlayStation ↗"
+    },
+    "GAME-0324": {
+      "titleUk": "Contra Force",
+      "summaryUk": "У першій місії гравець перемикається між чотирма коммандос, збирає кейси для особистої шкали зброї та викликає другого бійця на короткий Battle Plan. Стрільба в восьми напрямках, ламкі ящики й небезпечні механізми ведуть до боса складу та наступної місії. Це реконструкція за джерелами, не проходження на NES.",
+      "summaryEn": "In the first mission, the player switches among four commandos, collects cases for a character-local weapon gauge and calls a second fighter through a brief Battle Plan. Eight-way fire, breakable crates and dangerous machinery lead to the warehouse boss and successor mission. This is a source-based reconstruction, not an NES playthrough.",
+      "playUrl": "https://www.world-of-nintendo.com/manuals/nes/contra_force.shtml",
+      "linkLabelUk": "Прочитати оригінальний посібник Contra Force ↗",
+      "linkLabelEn": "Read the original Contra Force manual ↗"
+    },
+    "GAME-0325": {
+      "titleUk": "The Legend of Zelda",
+      "summaryUk": "У Level-1 Eagle Link витрачає ключі на двері, зачищає кімнати із затворами та здобуває мапу й компас. Пасивний щит блокує придатні фронтальні снаряди; перемога над Aquamentus відкриває перший фрагмент Triforce. Це реконструкція за джерелами, не проходження на NES.",
+      "summaryEn": "In Level-1 Eagle, Link spends keys on doors, clears shuttered rooms and acquires the map and compass. His passive shield blocks eligible frontal projectiles; defeating Aquamentus exposes the first Triforce fragment. This is a source-based reconstruction, not an NES playthrough.",
+      "playUrl": "https://www.nintendo.co.jp/clv/manuals/en/pdf/CLV-P-NAANE.pdf",
+      "linkLabelUk": "Прочитати збережений Nintendo посібник The Legend of Zelda ↗",
+      "linkLabelEn": "Read Nintendo's preserved The Legend of Zelda manual ↗"
+    },
+    "GAME-0326": {
+      "titleUk": "Crash Bandicoot",
+      "summaryUk": "У N. Sanity Beach Crash рухається вперед і вглиб, стрибає та крутиться, ламає типізовані ящики, збирає Wumpa й маски та повертається до чекпойнта за одне зі скінченних життів. Усі 49 придатних ящиків без смерті після чекпойнта дають прозорий самоцвіт перед порталом. Це реконструкція за джерелами, не проходження на PlayStation.",
+      "summaryEn": "In N. Sanity Beach, Crash moves forward and in depth, jumps and spins through typed crates, Wumpa fruit, masks and a finite-life checkpoint. Breaking all 49 qualifying crates without a post-checkpoint death awards the clear gem before the portal. This is a source-based reconstruction, not a PlayStation playthrough.",
+      "playUrl": "https://www.gamesdatabase.org/game/sony-playstation/crash-bandicoot",
+      "linkLabelUk": "Переглянути сторінку й оригінальний посібник Crash Bandicoot ↗",
+      "linkLabelEn": "View the Crash Bandicoot page and original manual ↗"
+    },
+    "GAME-0327": {
+      "titleUk": "Fable",
+      "summaryUk": "У Oakvale три добрі вчинки дають дитині три золоті на подарунок. Після нападу Heroes’ Guild по черзі вчить удару, блока, лука й Lightning; два явні переходи віку зберігають учинки та вміння того самого Hero до випуску. Це реконструкція за джерелами, не проходження на Xbox.",
+      "summaryEn": "In Oakvale, three good deeds give the child three gold for a birthday gift. After the raid, the Heroes' Guild teaches attacks, blocking, archery and Lightning in sequence; two explicit age transitions retain the same Hero's conduct and skills through graduation. This is a source-based reconstruction, not an Xbox playthrough.",
+      "playUrl": "https://news.xbox.com/en-us/2007/12/04/xbox-originals-manuals-and-controller-layouts-and-free-themes-and-picture-packs/",
+      "linkLabelUk": "Переглянути запис Xbox про оригінальний посібник Fable ↗",
+      "linkLabelEn": "View Xbox's record for the original Fable manual ↗"
+    },
+    "GAME-0328": {
+      "titleUk": "Warcraft III: Reign of Chaos",
+      "summaryUk": "У `Chasing Visions` Thrall отримує трьох Grunts, веде загін крізь туман війни та живі бої, набирає перший рівень і вкладає очко в Chain Lightning. Лише виконані по черзі вказівки й фінальний маяк біля Prophet відкривають `Departures`. Це реконструкція за джерелами, не проходження у Windows.",
+      "summaryEn": "In `Chasing Visions`, Thrall receives three Grunts, commands the group through fog and live combat, earns the first level and spends its point on Chain Lightning. Only the ordered tutorial instructions and final beacon beside the Prophet expose `Departures`. This is a source-based reconstruction, not a Windows playthrough.",
+      "playUrl": "https://ftp.blizzard.com/pub/misc/Warcraft%20III%20Manual.pdf",
+      "linkLabelUk": "Прочитати оригінальний посібник Warcraft III від Blizzard ↗",
+      "linkLabelEn": "Read Blizzard's original Warcraft III manual ↗"
+    },
+    "GAME-0329": {
+      "titleUk": "Donkey Kong Country",
+      "summaryUk": "У `Jungle Hijinxs!` Donkey і Diddy ділять парний запас: влучання передає керування напарнику, а DK Barrel повертає відсутнього. Rambi відкриває приховану кімнату, обидва бонуси зберігають залік, а вихід ставить на мапі знак оклику. Це реконструкція за джерелами, не проходження на SNES.",
+      "summaryEn": "In `Jungle Hijinxs!`, Donkey and Diddy form a paired buffer: a hit transfers control to the partner, while a DK Barrel restores the missing member. Rambi opens a hidden room, both bonuses retain credit, and the exit adds the map exclamation marker. This is a source-based reconstruction, not an SNES playthrough.",
+      "playUrl": "https://www.nintendo.co.jp/clvs/manuals/common/pdf/CLV-P-SAALE.pdf",
+      "linkLabelUk": "Прочитати оригінальний посібник Donkey Kong Country від Nintendo ↗",
+      "linkLabelEn": "Read Nintendo's original Donkey Kong Country manual ↗"
+    },
+    "GAME-0330": {
+      "titleUk": "Silent Hill 2",
+      "summaryUk": "У Східному South Vale туман приховує ворогів, а переносне радіо лише шумом попереджає про близьку загрозу. James ремонтує платівку, відновлює музичний автомат і перетворює його результат на ланцюг ключів до Wood Side Apartments. Це реконструкція за джерелами, не проходження на PS5.",
+      "summaryEn": "In Eastern South Vale, fog hides monsters while a carried radio warns only that a threat is nearby. James repairs a record, restores the juke box and turns its result into a key chain leading to Wood Side Apartments. This is a source-based reconstruction, not a PS5 playthrough.",
+      "playUrl": "https://store.playstation.com/en-us/product/UP0101-PPSA08710_00-MAINGAME00000000",
+      "linkLabelUk": "Переглянути Silent Hill 2 на PlayStation ↗",
+      "linkLabelEn": "View Silent Hill 2 on PlayStation ↗"
+    },
+    "GAME-0331": {
+      "titleUk": "Starfield",
+      "summaryUk": "У `One Small Step` герой видобуває Artifact, задає початкове тло, відбивається від піратів, опановує Frontier, сканує один зразок на Kreet і через grav-маршрут доправляє знахідку до Constellation. Це реконструкція за джерелами, не проходження на Xbox.",
+      "summaryEn": "In `One Small Step`, the player extracts an Artifact, sets a starting background, repels pirates, learns the Frontier, scans one Kreet sample and carries the find by grav route to Constellation. This is a source-based reconstruction, not an Xbox playthrough.",
+      "playUrl": "https://www.xbox.com/en-US/games/starfield",
+      "linkLabelUk": "Переглянути Starfield на Xbox ↗",
+      "linkLabelEn": "View Starfield on Xbox ↗"
+    },
+    "GAME-0332": {
+      "titleUk": "Heroes of Might and Magic III: Complete",
+      "summaryUk": "У `Homecoming` герой поєднує денні маршрути, ресурси, шахти, міста, тижневий найм і семислотові армії з окремими швидкісними гекс-боями. Захоплення Terraneus завершує сценарій і відбирає чотирьох героїв далі. Це реконструкція за джерелами, не проходження у Windows.",
+      "summaryEn": "In `Homecoming`, the player joins daily routes, resources, mines, towns, weekly recruitment and seven-slot armies to separate speed-ordered hex battles. Capturing Terraneus closes the scenario and selects four heroes onward. This is a source-based reconstruction, not a Windows playthrough.",
+      "playUrl": "https://www.gog.com/en/game/heroes_of_might_and_magic_3_complete_edition",
+      "linkLabelUk": "Переглянути Heroes III Complete у GOG ↗",
+      "linkLabelEn": "View Heroes III Complete on GOG ↗"
+    },
+    "GAME-0333": {
+      "titleUk": "Сонік Їжак",
+      "summaryUk": "У Green Hill Zone Act 1 нахил поверхні змінює накопичений імпульс Соніка, а удар розсипає весь запас кілець у короткочасне поле для відновлення. Ліхтар задає повернення, десятихвилинна межа загрожує життю, а вказівник підбиває час і кільця перед Act 2. Це реконструкція за джерелами, не проходження на Genesis.",
+      "summaryEn": "In Green Hill Zone Act 1, surface angle transforms Sonic's retained momentum while a hit scatters the entire ring reserve into a short-lived recovery field. A lamppost sets return state, ten minutes threatens a life, and the signpost settles time and rings before Act 2. This is a source-based reconstruction, not Genesis play.",
+      "playUrl": "https://manuals.sega.com/genesismini/manuals/sonic/",
+      "linkLabelUk": "Відкрити офіційний посібник SEGA ↗",
+      "linkLabelEn": "Open SEGA's official manual ↗"
     }
   }
 }

@@ -33,6 +33,7 @@
 - [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
 - [`GAME-0020` — Dorfromantik](../games/a-f/dorfromantik.md)
 - [`GAME-0057` — Golf Peaks](../games/g-l/golf-peaks.md)
+- [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)
 - [`GAME-0049` — Hexcells Infinite](../games/g-l/hexcells-infinite.md)
 - [`GAME-0060` — HOOK](../games/g-l/hook.md)
 - [`GAME-0099` — HyperRogue](../games/g-l/hyperrogue.md)
@@ -158,6 +159,7 @@
 - [`GAME-0154` — Apex Legends](../games/a-f/apex-legends.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
+- [`GAME-0312` — ASTRO BOT](../games/a-f/astro-bot.md)
 - [`GAME-0027` — Bad North: Jotunn Edition](../games/a-f/bad-north.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
@@ -165,9 +167,11 @@
 - [`GAME-0149` — Battlefield 6](../games/a-f/battlefield-6.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0220` — Battlefield V](../games/a-f/battlefield-v.md)
+- [`GAME-0318` — Battletoads](../games/a-f/battletoads.md)
 - [`GAME-0195` — BeamNG.drive](../games/a-f/beamng-drive.md)
 - [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
+- [`GAME-0308` — Bloodborne™](../games/a-f/bloodborne.md)
 - [`GAME-0265` — Bloons TD 6](../games/a-f/bloons-td-6.md)
 - [`GAME-0034` — Braid, Anniversary Edition](../games/a-f/braid.md)
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
@@ -178,10 +182,12 @@
 - [`GAME-0121` — "Cities: Skylines"](../games/a-f/cities-skylines.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
 - [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
+- [`GAME-0324` — Contra Force](../games/a-f/contra-force.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
 - [`GAME-0137` — Counter-Strike 2](../games/a-f/counter-strike-2.md)
 - [`GAME-0218` — Counter-Strike](../games/a-f/counter-strike.md)
+- [`GAME-0326` — Crash Bandicoot](../games/a-f/crash-bandicoot.md)
 - [`GAME-0204` — "Crusader Kings III"](../games/a-f/crusader-kings-iii.md)
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0277` — Cuphead](../games/a-f/cuphead.md)
@@ -194,11 +200,14 @@
 - [`GAME-0161` — Dead by Daylight](../games/a-f/dead-by-daylight.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
+- [`GAME-0310` — "DEATH STRANDING DIRECTOR’S CUT"](../games/a-f/death-stranding-directors-cut.md)
 - [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
 - [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
+- [`GAME-0322` — "Diablo II: Resurrected"](../games/a-f/diablo-ii-resurrected.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
+- [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
@@ -210,6 +219,7 @@
 - [`GAME-0092` — Echochrome](../games/a-f/echochrome.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
+- [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0119` — Factorio](../games/a-f/factorio.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
@@ -222,13 +232,17 @@
 - [`GAME-0276` — Forza Horizon 5](../games/a-f/forza-horizon-5.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0130` — Frostpunk](../games/a-f/frostpunk.md)
+- [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0167` — Geometry Dash](../games/g-l/geometry-dash.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
 - [`GAME-0024` — Gorogoa](../games/g-l/gorogoa.md)
+- [`GAME-0316` — Gran Turismo](../games/g-l/gran-turismo.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
+- [`GAME-0314` — Grounded](../games/g-l/grounded.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
+- [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
 - [`GAME-0182` — Hearts of Iron IV](../games/g-l/hearts-of-iron-iv.md)
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
@@ -249,7 +263,9 @@
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
 - [`GAME-0095` — Manifold Garden](../games/m-r/manifold-garden.md)
 - [`GAME-0096` — Maquette](../games/m-r/maquette.md)
+- [`GAME-0309` — "Mario Kart 8 Deluxe"](../games/m-r/mario-kart-8-deluxe.md)
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
+- [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
@@ -303,23 +319,31 @@
 - [`GAME-0177` — Rocket League](../games/m-r/rocket-league.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0128` — Satisfactory](../games/s-z/satisfactory.md)
+- [`GAME-0319` — Sea of Thieves](../games/s-z/sea-of-thieves.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 - [`GAME-0122` — shapez 2 - Factory](../games/s-z/shapez-2.md)
 - [`GAME-0303` — Sifu](../games/s-z/sifu.md)
+- [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0118` — SimCity 4 Deluxe Edition](../games/s-z/simcity-4-deluxe-edition.md)
+- [`GAME-0307` — Slime Rancher](../games/s-z/slime-rancher.md)
+- [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0157` — Split Fiction](../games/s-z/split-fiction.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 - [`GAME-0225` — "STAR WARS: Squadrons"](../games/s-z/star-wars-squadrons.md)
+- [`GAME-0317` — StarCraft II](../games/s-z/starcraft-ii.md)
+- [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 - [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
+- [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
 - [`GAME-0094` — Superliminal](../games/s-z/superliminal.md)
 - [`GAME-0136` — "Surviving Mars: Relaunched"](../games/s-z/surviving-mars.md)
+- [`GAME-0313` — Tank 1990](../games/s-z/tank-1990.md)
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
@@ -328,6 +352,7 @@
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 - [`GAME-0087` — The Longest Journey](../games/s-z/the-longest-journey.md)
 - [`GAME-0158` — The Sims 4](../games/s-z/the-sims-4.md)
@@ -347,6 +372,7 @@
 - [`GAME-0183` — Vampire Survivors](../games/s-z/vampire-survivors.md)
 - [`GAME-0041` — Viewfinder](../games/s-z/viewfinder.md)
 - [`GAME-0184` — War Thunder](../games/s-z/war-thunder.md)
+- [`GAME-0328` — "Warcraft III: Reign of Chaos"](../games/s-z/warcraft-iii-reign-of-chaos.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
 - [`GAME-0134` — "Workers & Resources: Soviet Republic"](../games/s-z/workers-resources-soviet-republic.md)
 - [`GAME-0026` — World of Goo](../games/s-z/world-of-goo.md)
@@ -450,6 +476,7 @@
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
+- [`GAME-0314` — Grounded](../games/g-l/grounded.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
 - [`GAME-0035` — Pikmin 4](../games/m-r/pikmin-4.md)
@@ -589,6 +616,7 @@ Stardew Valley позначає `Boiler Room` завершеною після з
 
 ### Ігри-носії
 
+- [`GAME-0320` — "Animal Crossing: New Horizons"](../games/a-f/animal-crossing-new-horizons.md)
 - [`GAME-0089` — Stardew Valley](../games/s-z/stardew-valley.md)
 
 ## TIM-014
@@ -677,16 +705,16 @@ Stardew Valley позначає `Boiler Room` завершеною після з
 
 ## TIM-018
 
-- Назва: Чергувати багатокомандні ходи цілих цивілізацій
-- Переглянуто: `2026-08-27`
+- Назва: Чергувати багатокомандні ходи цілих держав
+- Переглянуто: `2026-09-21`
 
 ### Операційне визначення
 
-Надавати кожній цивілізації послідовний хід, у межах якого вона виконує будь-яку кількість допустимих наказів одиницям, містам, економіці, дослідженню й дипломатії, а потім передає керування.
+Надавати кожній державі послідовний відкритий хід для допустимої підмножини наказів одиницям, героям, поселенням, економіці, дослідженню чи дипломатії; завершення передає керування, а спільний день або раунд підбивається після всіх держав.
 
 ### Включає
 
-Один хід Риму, за ним окремі ходи Греції, Єгипту й Німеччини.
+Рим і його суперники у Civilization VI; королівства в межах дня кампанії Heroes III.
 
 ### Виключає
 
@@ -694,6 +722,7 @@ Stardew Valley позначає `Boiler Room` завершеною після з
 
 ### Ігри-носії
 
+- [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)
 - [`GAME-0166` — Sid Meier’s Civilization VI](../games/s-z/sid-meiers-civilization-vi.md)
 - [`GAME-0191` — "Total War: WARHAMMER III"](../games/s-z/total-war-warhammer-iii.md)
 
@@ -822,3 +851,24 @@ Stardew Valley позначає `Boiler Room` завершеною після з
 ### Ігри-носії
 
 - [`GAME-0304` — Azul](../games/a-f/azul.md)
+
+## TIM-025
+
+- Назва: Синхронізувати сталий світ із реальним календарем
+- Переглянуто: `2026-09-20`
+
+### Операційне визначення
+
+Просувати дату, годинник, освітлення й календарно залежний стан сталого однокористувацького світу за реальним часом системи під час гри та відсутності без ходів гравця.
+
+### Включає
+
+Звичайний острівний час без подорожі в часі в Animal Crossing: New Horizons.
+
+### Виключає
+
+Авторські сюжетні дати; незалежний серверний годинник; таймер зіграного часу; прискорений цикл дня; ручну зміну системного часу.
+
+### Ігри-носії
+
+- [`GAME-0320` — "Animal Crossing: New Horizons"](../games/a-f/animal-crossing-new-horizons.md)

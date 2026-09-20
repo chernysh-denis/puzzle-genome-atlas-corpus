@@ -207,17 +207,21 @@
 - [`GAME-0228` — A Way Out](../games/a-f/a-way-out.md)
 - [`GAME-0223` — Aion Classic](../games/a-f/aion-classic.md)
 - [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
+- [`GAME-0320` — "Animal Crossing: New Horizons"](../games/a-f/animal-crossing-new-horizons.md)
 - [`GAME-0097` — Antichamber](../games/a-f/antichamber.md)
 - [`GAME-0154` — Apex Legends](../games/a-f/apex-legends.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
+- [`GAME-0312` — ASTRO BOT](../games/a-f/astro-bot.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0234` — Battlefield 2042](../games/a-f/battlefield-2042.md)
 - [`GAME-0149` — Battlefield 6](../games/a-f/battlefield-6.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0220` — Battlefield V](../games/a-f/battlefield-v.md)
+- [`GAME-0318` — Battletoads](../games/a-f/battletoads.md)
 - [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
+- [`GAME-0308` — Bloodborne™](../games/a-f/bloodborne.md)
 - [`GAME-0173` — Blue Prince](../games/a-f/blue-prince.md)
 - [`GAME-0055` — Bonfire Peaks](../games/a-f/bonfire-peaks.md)
 - [`GAME-0034` — Braid, Anniversary Edition](../games/a-f/braid.md)
@@ -228,9 +232,11 @@
 - [`GAME-0040` — Carto](../games/a-f/carto.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
 - [`GAME-0108` — Cocoon](../games/a-f/cocoon.md)
+- [`GAME-0324` — Contra Force](../games/a-f/contra-force.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0137` — Counter-Strike 2](../games/a-f/counter-strike-2.md)
 - [`GAME-0218` — Counter-Strike](../games/a-f/counter-strike.md)
+- [`GAME-0326` — Crash Bandicoot](../games/a-f/crash-bandicoot.md)
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0277` — Cuphead](../games/a-f/cuphead.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
@@ -242,11 +248,14 @@
 - [`GAME-0161` — Dead by Daylight](../games/a-f/dead-by-daylight.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
+- [`GAME-0310` — "DEATH STRANDING DIRECTOR’S CUT"](../games/a-f/death-stranding-directors-cut.md)
 - [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
 - [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
+- [`GAME-0322` — "Diablo II: Resurrected"](../games/a-f/diablo-ii-resurrected.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
+- [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
@@ -254,17 +263,21 @@
 - [`GAME-0131` — Dyson Sphere Program](../games/a-f/dyson-sphere-program.md)
 - [`GAME-0163` — EA SPORTS FC 26](../games/a-f/ea-sports-fc-26.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
+- [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0091` — Fez](../games/a-f/fez.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
+- [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
+- [`GAME-0314` — Grounded](../games/g-l/grounded.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
+- [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
@@ -282,6 +295,7 @@
 - [`GAME-0095` — Manifold Garden](../games/m-r/manifold-garden.md)
 - [`GAME-0096` — Maquette](../games/m-r/maquette.md)
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
+- [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
@@ -323,22 +337,29 @@
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0319` — Sea of Thieves](../games/s-z/sea-of-thieves.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 - [`GAME-0050` — Shogun Showdown](../games/s-z/shogun-showdown.md)
 - [`GAME-0303` — Sifu](../games/s-z/sifu.md)
+- [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
+- [`GAME-0307` — Slime Rancher](../games/s-z/slime-rancher.md)
 - [`GAME-0045` — Snakebird](../games/s-z/snakebird.md)
 - [`GAME-0006` — Sokoban](../games/s-z/sokoban.md)
+- [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0157` — Split Fiction](../games/s-z/split-fiction.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
+- [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 - [`GAME-0043` — Stephen’s Sausage Roll](../games/s-z/stephens-sausage-roll.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
+- [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
 - [`GAME-0094` — Superliminal](../games/s-z/superliminal.md)
+- [`GAME-0313` — Tank 1990](../games/s-z/tank-1990.md)
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
@@ -346,6 +367,7 @@
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 - [`GAME-0107` — The Pedestrian](../games/s-z/the-pedestrian.md)
 - [`GAME-0116` — The Stanley Parable: Ultra Deluxe](../games/s-z/the-stanley-parable-ultra-deluxe.md)
@@ -989,6 +1011,7 @@
 ### Ігри-носії
 
 - [`GAME-0124` — Against the Storm](../games/a-f/against-the-storm.md)
+- [`GAME-0324` — Contra Force](../games/a-f/contra-force.md)
 - [`GAME-0130` — Frostpunk](../games/a-f/frostpunk.md)
 - [`GAME-0025` — Lemmings](../games/g-l/lemmings.md)
 - [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
@@ -1253,20 +1276,24 @@
 
 ### Ігри-носії
 
+- [`GAME-0318` — Battletoads](../games/a-f/battletoads.md)
 - [`GAME-0055` — Bonfire Peaks](../games/a-f/bonfire-peaks.md)
 - [`GAME-0108` — Cocoon](../games/a-f/cocoon.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
+- [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
 - [`GAME-0112` — Human: Fall Flat](../games/g-l/human-fall-flat.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0095` — Manifold Garden](../games/m-r/manifold-garden.md)
 - [`GAME-0096` — Maquette](../games/m-r/maquette.md)
+- [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
 - [`GAME-0300` — Overcooked! 2](../games/m-r/overcooked-2.md)
 - [`GAME-0203` — "PEAK"](../games/m-r/peak.md)
 - [`GAME-0113` — Portal 2 — Cooperative Campaign](../games/m-r/portal-2-co-op.md)
 - [`GAME-0033` — Portal](../games/m-r/portal.md)
 - [`GAME-0279` — PowerWash Simulator](../games/m-r/powerwash-simulator.md)
+- [`GAME-0319` — Sea of Thieves](../games/s-z/sea-of-thieves.md)
 - [`GAME-0094` — Superliminal](../games/s-z/superliminal.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0115` — Unpacking](../games/s-z/unpacking.md)
@@ -1359,6 +1386,7 @@
 
 ### Ігри-носії
 
+- [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
 - [`GAME-0163` — EA SPORTS FC 26](../games/a-f/ea-sports-fc-26.md)
 - [`GAME-0241` — NBA 2K26](../games/m-r/nba-2k26.md)
 - [`GAME-0300` — Overcooked! 2](../games/m-r/overcooked-2.md)
@@ -2082,6 +2110,7 @@
 - [`GAME-0086` — Machinarium](../games/m-r/machinarium.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
+- [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0087` — The Longest Journey](../games/s-z/the-longest-journey.md)
 - [`GAME-0085` — The Room](../games/s-z/the-room.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
@@ -2131,6 +2160,7 @@
 - [`GAME-0088` — Day of the Tentacle](../games/a-f/day-of-the-tentacle.md)
 - [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
 - [`GAME-0086` — Machinarium](../games/m-r/machinarium.md)
+- [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 
 ## ACT-090
 
@@ -2152,6 +2182,7 @@
 ### Ігри-носії
 
 - [`GAME-0086` — Machinarium](../games/m-r/machinarium.md)
+- [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0087` — The Longest Journey](../games/s-z/the-longest-journey.md)
 
 ## ACT-091
@@ -2173,6 +2204,7 @@
 
 ### Ігри-носії
 
+- [`GAME-0320` — "Animal Crossing: New Horizons"](../games/a-f/animal-crossing-new-horizons.md)
 - [`GAME-0278` — DAVE THE DIVER](../games/a-f/dave-the-diver.md)
 - [`GAME-0088` — Day of the Tentacle](../games/a-f/day-of-the-tentacle.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
@@ -2219,6 +2251,7 @@
 ### Ігри-носії
 
 - [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
+- [`GAME-0314` — Grounded](../games/g-l/grounded.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0089` — Stardew Valley](../games/s-z/stardew-valley.md)
@@ -2883,6 +2916,7 @@
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0128` — Satisfactory](../games/s-z/satisfactory.md)
+- [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 
 ## ACT-123
@@ -2906,11 +2940,13 @@
 
 - [`GAME-0233` — 7 Days to Die](../games/0-9/7-days-to-die.md)
 - [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
+- [`GAME-0320` — "Animal Crossing: New Horizons"](../games/a-f/animal-crossing-new-horizons.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0131` — Dyson Sphere Program](../games/a-f/dyson-sphere-program.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0119` — Factorio](../games/a-f/factorio.md)
+- [`GAME-0314` — Grounded](../games/g-l/grounded.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0229` — "No Man’s Sky"](../games/m-r/no-mans-sky.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
@@ -3092,6 +3128,7 @@
 - [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
+- [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
@@ -3103,6 +3140,7 @@
 - [`GAME-0166` — Sid Meier’s Civilization VI](../games/s-z/sid-meiers-civilization-vi.md)
 - [`GAME-0155` — Slay the Spire 2](../games/s-z/slay-the-spire-2.md)
 - [`GAME-0120` — Slay the Spire](../games/s-z/slay-the-spire.md)
+- [`GAME-0307` — Slime Rancher](../games/s-z/slime-rancher.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 
@@ -3142,6 +3180,7 @@
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+- [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0155` — Slay the Spire 2](../games/s-z/slay-the-spire-2.md)
 - [`GAME-0120` — Slay the Spire](../games/s-z/slay-the-spire.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
@@ -3319,6 +3358,7 @@
 
 - [`GAME-0124` — Against the Storm](../games/a-f/against-the-storm.md)
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0320` — "Animal Crossing: New Horizons"](../games/a-f/animal-crossing-new-horizons.md)
 - [`GAME-0132` — Anno 1800](../games/a-f/anno-1800.md)
 - [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
@@ -3352,6 +3392,7 @@
 - [`GAME-0130` — Frostpunk](../games/a-f/frostpunk.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
+- [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)
 - [`GAME-0125` — Oxygen Not Included](../games/m-r/oxygen-not-included.md)
 - [`GAME-0136` — "Surviving Mars: Relaunched"](../games/s-z/surviving-mars.md)
 - [`GAME-0183` — Vampire Survivors](../games/s-z/vampire-survivors.md)
@@ -3537,6 +3578,7 @@
 
 - [`GAME-0135` — "Captain of Industry"](../games/a-f/captain-of-industry.md)
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
+- [`GAME-0314` — Grounded](../games/g-l/grounded.md)
 - [`GAME-0125` — Oxygen Not Included](../games/m-r/oxygen-not-included.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
 - [`GAME-0127` — RimWorld](../games/m-r/rimworld.md)
@@ -3829,6 +3871,7 @@
 - [`GAME-0223` — Aion Classic](../games/a-f/aion-classic.md)
 - [`GAME-0154` — Apex Legends](../games/a-f/apex-legends.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
+- [`GAME-0312` — ASTRO BOT](../games/a-f/astro-bot.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0234` — Battlefield 2042](../games/a-f/battlefield-2042.md)
@@ -3837,8 +3880,10 @@
 - [`GAME-0220` — Battlefield V](../games/a-f/battlefield-v.md)
 - [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
+- [`GAME-0308` — Bloodborne™](../games/a-f/bloodborne.md)
 - [`GAME-0222` — "Call of Juarez: Gunslinger"](../games/a-f/call-of-juarez-gunslinger.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
+- [`GAME-0324` — Contra Force](../games/a-f/contra-force.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0137` — Counter-Strike 2](../games/a-f/counter-strike-2.md)
 - [`GAME-0218` — Counter-Strike](../games/a-f/counter-strike.md)
@@ -3853,22 +3898,27 @@
 - [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
+- [`GAME-0322` — "Diablo II: Resurrected"](../games/a-f/diablo-ii-resurrected.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0131` — Dyson Sphere Program](../games/a-f/dyson-sphere-program.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
+- [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
+- [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
+- [`GAME-0314` — Grounded](../games/g-l/grounded.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
+- [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
@@ -3877,6 +3927,7 @@
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
+- [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
@@ -3908,17 +3959,22 @@
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 - [`GAME-0303` — Sifu](../games/s-z/sifu.md)
+- [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0157` — Split Fiction](../games/s-z/split-fiction.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 - [`GAME-0225` — "STAR WARS: Squadrons"](../games/s-z/star-wars-squadrons.md)
+- [`GAME-0331` — Starfield](../games/s-z/starfield.md)
+- [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
+- [`GAME-0313` — Tank 1990](../games/s-z/tank-1990.md)
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
@@ -4016,9 +4072,11 @@
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
+- [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
+- [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
@@ -4043,11 +4101,13 @@
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
+- [`GAME-0307` — Slime Rancher](../games/s-z/slime-rancher.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
@@ -4460,9 +4520,11 @@
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
+- [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
+- [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
@@ -4515,7 +4577,9 @@
 - [`GAME-0137` — Counter-Strike 2](../games/a-f/counter-strike-2.md)
 - [`GAME-0218` — Counter-Strike](../games/a-f/counter-strike.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
+- [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
+- [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
@@ -4656,9 +4720,12 @@
 - [`GAME-0264` — Disco Elysium - The Final Cut](../games/a-f/disco-elysium-the-final-cut.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
 - [`GAME-0182` — Hearts of Iron IV](../games/g-l/hearts-of-iron-iv.md)
+- [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
+- [`GAME-0317` — StarCraft II](../games/s-z/starcraft-ii.md)
 - [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
 - [`GAME-0191` — "Total War: WARHAMMER III"](../games/s-z/total-war-warhammer-iii.md)
+- [`GAME-0328` — "Warcraft III: Reign of Chaos"](../games/s-z/warcraft-iii-reign-of-chaos.md)
 
 ## ACT-190
 
@@ -4699,7 +4766,9 @@
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
+- [`GAME-0309` — "Mario Kart 8 Deluxe"](../games/m-r/mario-kart-8-deluxe.md)
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
+- [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
 - [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
@@ -4714,6 +4783,7 @@
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
+- [`GAME-0328` — "Warcraft III: Reign of Chaos"](../games/s-z/warcraft-iii-reign-of-chaos.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
 
@@ -4743,11 +4813,14 @@
 - [`GAME-0222` — "Call of Juarez: Gunslinger"](../games/a-f/call-of-juarez-gunslinger.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
+- [`GAME-0322` — "Diablo II: Resurrected"](../games/a-f/diablo-ii-resurrected.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
+- [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)
 - [`GAME-0181` — Overwatch](../games/m-r/overwatch.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 - [`GAME-0191` — "Total War: WARHAMMER III"](../games/s-z/total-war-warhammer-iii.md)
+- [`GAME-0328` — "Warcraft III: Reign of Chaos"](../games/s-z/warcraft-iii-reign-of-chaos.md)
 
 ## ACT-192
 
@@ -4923,6 +4996,7 @@
 
 - [`GAME-0233` — 7 Days to Die](../games/0-9/7-days-to-die.md)
 - [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
+- [`GAME-0320` — "Animal Crossing: New Horizons"](../games/a-f/animal-crossing-new-horizons.md)
 - [`GAME-0154` — Apex Legends](../games/a-f/apex-legends.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
@@ -4936,13 +5010,17 @@
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
+- [`GAME-0310` — "DEATH STRANDING DIRECTOR’S CUT"](../games/a-f/death-stranding-directors-cut.md)
+- [`GAME-0322` — "Diablo II: Resurrected"](../games/a-f/diablo-ii-resurrected.md)
 - [`GAME-0264` — Disco Elysium - The Final Cut](../games/a-f/disco-elysium-the-final-cut.md)
 - [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
+- [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
+- [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
@@ -4963,6 +5041,7 @@
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
+- [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
@@ -4996,6 +5075,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0220` — Battlefield V](../games/a-f/battlefield-v.md)
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
+- [`GAME-0308` — Bloodborne™](../games/a-f/bloodborne.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
@@ -5066,6 +5146,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 ### Ігри-носії
 
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
+- [`GAME-0324` — Contra Force](../games/a-f/contra-force.md)
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
@@ -5235,16 +5316,16 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ## ACT-210
 
-- Назва: Обрати професію та риси одного вцілілого
-- Переглянуто: `2026-08-24`
+- Назва: Обрати початкове тло та сумісні риси
+- Переглянуто: `2026-09-21`
 
 ### Операційне визначення
 
-Перед появою у світі гравець обирає професію та сумісний набір позитивних і негативних рис. Вартість рис має вкладатися в наявні очки, а вибір визначає початкові навички й постійні особливості вцілілого.
+Перед звичайною появою у світі гравець обирає одне початкове тло або професію та необов’язковий сумісний набір рис, які визначають початкові навички й постійні особливості.
 
 ### Включає
 
-Створення персонажа за професією та рисами у Build 42 Project Zomboid.
+Професія й збалансовані очками риси у Build 42 Project Zomboid; тло та до трьох сумісних необов’язкових рис у Starfield.
 
 ### Виключає
 
@@ -5253,6 +5334,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 ### Ігри-носії
 
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
+- [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 
 ## ACT-211
 
@@ -5462,6 +5544,8 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0269` — DREDGE](../games/a-f/dredge.md)
+- [`GAME-0319` — Sea of Thieves](../games/s-z/sea-of-thieves.md)
+- [`GAME-0307` — Slime Rancher](../games/s-z/slime-rancher.md)
 
 ## ACT-221
 
@@ -5562,6 +5646,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 ### Ігри-носії
 
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
+- [`GAME-0308` — Bloodborne™](../games/a-f/bloodborne.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
@@ -5613,6 +5698,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Ігри-носії
 
+- [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
@@ -5663,6 +5749,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Ігри-носії
 
+- [`GAME-0324` — Contra Force](../games/a-f/contra-force.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 
 ## ACT-229
@@ -5757,10 +5844,12 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 - [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
 - [`GAME-0264` — Disco Elysium - The Final Cut](../games/a-f/disco-elysium-the-final-cut.md)
 - [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
+- [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
+- [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 
 ## ACT-233
@@ -5950,6 +6039,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 - [`GAME-0149` — Battlefield 6](../games/a-f/battlefield-6.md)
 - [`GAME-0220` — Battlefield V](../games/a-f/battlefield-v.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
+- [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
@@ -6018,6 +6108,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 - [`GAME-0278` — DAVE THE DIVER](../games/a-f/dave-the-diver.md)
 - [`GAME-0269` — DREDGE](../games/a-f/dredge.md)
+- [`GAME-0314` — Grounded](../games/g-l/grounded.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
@@ -6112,6 +6203,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Ігри-носії
 
+- [`GAME-0308` — Bloodborne™](../games/a-f/bloodborne.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
@@ -6753,16 +6845,16 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ## ACT-281
 
-- Назва: Завершувати багатокомандний хід цивілізації
-- Переглянуто: `2026-08-27`
+- Назва: Завершувати багатокомандний стратегічний хід держави
+- Переглянуто: `2026-09-21`
 
 ### Операційне визначення
 
-Явно передавати керування після будь-якої кількості допустимих наказів Риму, дозволяючи системі підбити його хід і послідовно розв’язати ходи суперників.
+Явно завершувати відкритий стратегічний хід держави після будь-якої допустимої підмножини наказів одиницям, героям, поселенням, економіці чи дипломатії, щоб розпочався підсумок і хід наступної держави.
 
 ### Включає
 
-Натискання «Завершити хід» після наказів містам, одиницям, дослідженню й дипломатії.
+Завершення ходу в Civilization VI та Homecoming Heroes III.
 
 ### Виключає
 
@@ -6770,6 +6862,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Ігри-носії
 
+- [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)
 - [`GAME-0166` — Sid Meier’s Civilization VI](../games/s-z/sid-meiers-civilization-vi.md)
 - [`GAME-0191` — "Total War: WARHAMMER III"](../games/s-z/total-war-warhammer-iii.md)
 
@@ -6966,6 +7059,8 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 - [`GAME-0195` — BeamNG.drive](../games/a-f/beamng-drive.md)
 - [`GAME-0276` — Forza Horizon 5](../games/a-f/forza-horizon-5.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
+- [`GAME-0316` — Gran Turismo](../games/g-l/gran-turismo.md)
+- [`GAME-0309` — "Mario Kart 8 Deluxe"](../games/m-r/mario-kart-8-deluxe.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
@@ -7019,6 +7114,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 ### Ігри-носії
 
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
+- [`GAME-0309` — "Mario Kart 8 Deluxe"](../games/m-r/mario-kart-8-deluxe.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
@@ -7047,6 +7143,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
+- [`GAME-0309` — "Mario Kart 8 Deluxe"](../games/m-r/mario-kart-8-deluxe.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
@@ -7077,24 +7174,28 @@ Ryu на стороні P1, Luke під керуванням CPU і Classic cont
 
 ## ACT-295
 
-- Назва: Ввести команду бойової атаки персонажа
-- Переглянуто: `2026-08-31`
+- Назва: Ввести атаку безпосередньо керованого персонажа
+- Переглянуто: `2026-09-21`
 
 ### Операційне визначення
 
-Коли боєць може діяти, виконати допустиму звичайну, командну, спеціальну, снарядну або Super Art атаку її послідовністю напрямків і кнопок.
+Коли безпосередньо керований персонаж може діяти, гравець вводить один допустимий власний стан атаки через оголошену послідовність напрямку, пози й кнопки: звичайний удар, бойову команду, снаряд, стрибок-клубок, перекат або колесо.
 
 ### Включає
 
-Звичайні атаки Ryu, Hadoken і забезпечений шкалою Super Art.
+Звичайні атаки Ryu, Hadoken і Super Art; стрибок-клубок і рухомий перекат Соніка.
 
 ### Виключає
 
-Рух без атаки, автоматичне розв’язання контакту або застосування спорядженої зброї.
+Рух без атаки; автоматичне розв’язання контакту; споряджену вогнепальну зброю чи інструмент; тактичну покрокову команду.
 
 ### Ігри-носії
 
+- [`GAME-0318` — Battletoads](../games/a-f/battletoads.md)
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
+- [`GAME-0326` — Crash Bandicoot](../games/a-f/crash-bandicoot.md)
+- [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
+- [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 
@@ -8084,6 +8185,8 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 - [`GAME-0228` — A Way Out](../games/a-f/a-way-out.md)
 - [`GAME-0223` — Aion Classic](../games/a-f/aion-classic.md)
 - [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
+- [`GAME-0320` — "Animal Crossing: New Horizons"](../games/a-f/animal-crossing-new-horizons.md)
+- [`GAME-0312` — ASTRO BOT](../games/a-f/astro-bot.md)
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
@@ -8102,8 +8205,11 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
+- [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
+- [`GAME-0314` — Grounded](../games/g-l/grounded.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
+- [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
@@ -8120,9 +8226,12 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
+- [`GAME-0319` — Sea of Thieves](../games/s-z/sea-of-thieves.md)
+- [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
+- [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
@@ -8196,16 +8305,16 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ## ACT-345
 
-- Назва: Замовити будівлю в комірці власного поселення
-- Переглянуто: `2026-08-31`
+- Назва: Замовити допустиму будівлю у власному поселенні
+- Переглянуто: `2026-09-21`
 
 ### Операційне визначення
 
-Гравець обирає дозволену будівлю або наступний рівень ланцюга для сумісної комірки власного поселення й сплачує зазначену вартість, приймаючи задану тривалість у ходах.
+Гравець обирає поточно допустиму будівлю або рівень ланцюга у власному поселенні й сплачує зазначені ресурси незалежно від того, чи результат негайний, чи входить до обмеженої черги кампанії.
 
 ### Включає
 
-Покращення Kislev Refuge і замовлення Store House у вибраному маршруті прологу Total War: WARHAMMER III.
+Черговий Store House у Kislev Refuge та одна споруда за день у місті Heroes III.
 
 ### Виключає
 
@@ -8213,6 +8322,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Ігри-носії
 
+- [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)
 - [`GAME-0191` — "Total War: WARHAMMER III"](../games/s-z/total-war-warhammer-iii.md)
 
 ## ACT-346
@@ -8238,16 +8348,16 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ## ACT-347
 
-- Назва: Найняти доступних бійців до сталого загону
-- Переглянуто: `2026-08-31`
+- Назва: Найняти доступних у поселенні бійців до сталої сили
+- Переглянуто: `2026-09-21`
 
 ### Операційне визначення
 
-У відвіданому поселенні вибрати доступних новобранців і сплатити показану ціну, щоб вони зайняли вільні місця в загоні кампанії.
+У власному чи відвіданому поселенні вибрати доступний тип і кількість новобранців та сплатити ціну, щоб запас увійшов до сумісних комірок або стосів сталої сили кампанії.
 
 ### Включає
 
-Максимальний доступний найм у Tevea під час навчання Bannerlord.
+Новобранці Tevea в Bannerlord і істоти з жител власного міста Heroes III.
 
 ### Виключає
 
@@ -8255,6 +8365,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Ігри-носії
 
+- [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 
 ## ACT-348
@@ -8276,6 +8387,8 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Ігри-носії
 
+- [`GAME-0318` — Battletoads](../games/a-f/battletoads.md)
+- [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 
@@ -8450,6 +8563,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
+- [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 
 ## ACT-358
 
@@ -9196,19 +9310,20 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 - [`GAME-0267` — Kerbal Space Program](../games/g-l/kerbal-space-program.md)
 - [`GAME-0225` — "STAR WARS: Squadrons"](../games/s-z/star-wars-squadrons.md)
+- [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 
 ## ACT-393
 
-- Назва: Розподіляти енергію між трьома системами винищувача
-- Переглянуто: `2026-09-02`
+- Назва: Розподіляти скінченну енергію між живими системами апарата
+- Переглянуто: `2026-09-21`
 
 ### Операційне визначення
 
-Під час польоту перенаправляти спільну енергію між двигунами, лазерами й щитами або повертати збалансований розподіл.
+Під час польоту перенаправляти один спільний скінченний запас енергії між поточними системами руху, захисту, зброї або подорожі чи відновлювати збалансований розподіл.
 
 ### Включає
 
-Керування енергією X-wing у Form the Vanguard.
+Двигуни, лазери й щити X-wing; двигуни, щити, зброя та grav drive Frontier у Starfield.
 
 ### Виключає
 
@@ -9217,6 +9332,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 ### Ігри-носії
 
 - [`GAME-0225` — "STAR WARS: Squadrons"](../games/s-z/star-wars-squadrons.md)
+- [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 
 ## ACT-394
 
@@ -9776,10 +9892,12 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 ### Ігри-носії
 
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
+- [`GAME-0308` — Bloodborne™](../games/a-f/bloodborne.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
+- [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
@@ -10126,6 +10244,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ### Ігри-носії
 
+- [`GAME-0308` — Bloodborne™](../games/a-f/bloodborne.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
@@ -10153,6 +10272,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
+- [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
@@ -10176,8 +10296,10 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ### Ігри-носії
 
+- [`GAME-0308` — Bloodborne™](../games/a-f/bloodborne.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
+- [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
@@ -10601,6 +10723,7 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Ігри-носії
 
+- [`GAME-0308` — Bloodborne™](../games/a-f/bloodborne.md)
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 
 ## ACT-460
@@ -10749,3 +10872,381 @@ Feed і завершальний Bite по придатній людині чи 
 ### Ігри-носії
 
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
+
+## ACT-467
+
+- Назва: Всмоктувати або вистрілювати досяжний об’єкт через активний бак
+- Переглянуто: `2026-09-19`
+
+### Операційне визначення
+
+Гравець прицілює переносний вакуумний інструмент і або затягує сумісну досяжну рухому сутність зі світу до вибраного типізованого бака, або вистрілює запасені одиниці з цього бака назад у вибрану ділянку світу чи приймальний пристрій.
+
+### Включає
+
+Всмоктувати Pink Slime, їжу та Pink Plort у вибраний бак Vacpack, а потім запускати слаймів чи їжу в стартовий загін і plort’и в Plort Market у новому збереженні Adventure.
+
+### Виключає
+
+Контактне підбирання без прицільного всмоктування; вибір бака; продаж випущеного plort’а; автоматичне поїдання їжі або створення plort’а; переміщення нерухомого об’єкта середовища.
+
+### Ігри-носії
+
+- [`GAME-0307` — Slime Rancher](../games/s-z/slime-rancher.md)
+
+## ACT-468
+
+- Назва: Утримувати й відпустити заряджений дрифт машини
+- Переглянуто: `2026-09-19`
+
+### Операційне визначення
+
+Безпосередньо керуючи машиною в повороті, гравець утримує дрифт, який продовжує змінювати поточну траєкторію, а після появи видимого рівня заряду сам обирає мить відпускання.
+
+### Включає
+
+Утримувати дрифт Mario Kart 8 Deluxe в повороті й відпустити його на рівні іскор Mini-Turbo, Super Mini-Turbo або Ultra Mini-Turbo за вимкненого Smart Steering.
+
+### Виключає
+
+Витрачання запасу прискорення, який можна зберігати після маневру; оцінювання тривалості дрифту; допоміжне кермування з окремою підказкою дрифту; звичайний розворот ручним гальмом без заряду й виплати.
+
+### Ігри-носії
+
+- [`GAME-0309` — "Mario Kart 8 Deluxe"](../games/m-r/mario-kart-8-deluxe.md)
+
+## ACT-469
+
+- Назва: Перерозподіляти вантаж між місцями на тілі
+- Переглянуто: `2026-09-19`
+
+### Операційне визначення
+
+Гравець переносить пакунки між сумісними місцями на тілі, костюмі чи наплічнику або запускає автоматичне впорядкування, щоб змінити розподіл поточного вантажу без зміни призначення пакунків.
+
+### Включає
+
+Ручне й автоматичне впорядкування вантажу в першому замовленні DEATH STRANDING DIRECTOR'S CUT.
+
+### Виключає
+
+Підбирання вантажу зі світу (`ACT-199`); зберігання у транспорті; скидання всього вантажу; косметичне оформлення наплічника.
+
+### Ігри-носії
+
+- [`GAME-0310` — "DEATH STRANDING DIRECTOR’S CUT"](../games/a-f/death-stranding-directors-cut.md)
+
+## ACT-470
+
+- Назва: Стабілізувати бік зміщеного вантажу
+- Переглянуто: `2026-09-19`
+
+### Операційне визначення
+
+Під час руху з вантажем на тілі гравець утримує ліве, праве або обидва визначені захоплення, щоб протидіяти поточному боковому зміщенню й стабілізувати носія до розв’язання рівноваги.
+
+### Включає
+
+Стабілізацію одного або двох боків у першій доставці DEATH STRANDING DIRECTOR'S CUT.
+
+### Виключає
+
+Пасивну стійкість спорядження; блокування бойової атаки; керування транспортом; автоматичне виправлення без команди гравця.
+
+### Ігри-носії
+
+- [`GAME-0310` — "DEATH STRANDING DIRECTOR’S CUT"](../games/a-f/death-stranding-directors-cut.md)
+
+## ACT-471
+
+- Назва: Випускати локальний імпульс огляду рельєфу й вантажу
+- Переглянуто: `2026-09-19`
+
+### Операційне визначення
+
+Гравець запускає обмежений локальний сенсорний імпульс, який класифікує ризик сусідньої прохідної місцевості й позначає допустимий вантаж, не обираючи пункт призначення й не розв’язуючи маршрут.
+
+### Включає
+
+Скан Odradek у першому замовленні DEATH STRANDING DIRECTOR'S CUT.
+
+### Виключає
+
+Імпульс лише для ресурсів; постійне відкриття всієї мапи; автоматичне виявлення ворогів; обчислення маршруту.
+
+### Ігри-носії
+
+- [`GAME-0310` — "DEATH STRANDING DIRECTOR’S CUT"](../games/a-f/death-stranding-directors-cut.md)
+
+## ACT-472
+
+- Назва: З’єднувати топографічні позначки у запланований маршрут
+- Переглянуто: `2026-09-19`
+
+### Операційне визначення
+
+Гравець ставить, упорядковує, редагує або видаляє позначки мапи, послідовні позиції яких утворюють видиму заплановану лінію через топографічний рельєф без команди автоматичного проходження.
+
+### Включає
+
+З’єднані позначки маршруту в першій доставці DEATH STRANDING DIRECTOR'S CUT.
+
+### Виключає
+
+Одну ціль із автоматично прокладеною дорогою; малювання рельєфу; команди автономному підрозділу.
+
+### Ігри-носії
+
+- [`GAME-0310` — "DEATH STRANDING DIRECTOR’S CUT"](../games/a-f/death-stranding-directors-cut.md)
+
+## ACT-473
+
+- Назва: Надувати кероване тіло для вертикального підйому
+- Переглянуто: `2026-09-19`
+
+### Операційне визначення
+
+Поки доступна оголошена тимчасова здатність до надування, гравець утримує її окрему команду, щоб збільшити безпосередньо кероване тіло й спрямувати плавучий підйом до досяжного простору в повітрі або водному маршруті.
+
+### Включає
+
+Утримання Inflate у Sky Garden гри ASTRO BOT для підйому до фрагмента пазла біля фламінго, платформ вежі та верхньої частини водної труби.
+
+### Виключає
+
+Звичайний стрибок або скінченне лазерне зависання; пасивну плавучість повітряної кулі; плавання без тимчасової форми; вибір далекої цілі для автоматичного польоту.
+
+### Ігри-носії
+
+- [`GAME-0312` — ASTRO BOT](../games/a-f/astro-bot.md)
+
+## ACT-474
+
+- Назва: Керувати одним досяжним постом судна
+- Переглянуто: `2026-09-20`
+
+### Операційне визначення
+
+Гравець фізично дістається одного поста керування судном і змінює збережене налаштування цього поста, тоді як решта постів і саме судно лишаються у своєму поточному живому стані.
+
+### Включає
+
+Поворот керма Sloop, піднімання чи опускання якоря шпилем і зміна довжини або кута вітрила в навчальній подорожі Gold Hoarders гри Sea of Thieves.
+
+### Виключає
+
+Вибір віддаленого місця для автоматичної подорожі; керування транспортом з одного спільного місця; наказ автономному судну; косметичне вітрило.
+
+### Ігри-носії
+
+- [`GAME-0319` — Sea of Thieves](../games/s-z/sea-of-thieves.md)
+
+## ACT-475
+
+- Назва: Копати в одній обраній точці місцевості
+- Переглянуто: `2026-09-20`
+
+### Операційне визначення
+
+Гравець наводить знаряддя копання на одну обрану досяжну точку поверхні й проводить удар, щоб світ перевірив і, за сумісності, просунув стан похованого предмета в цьому місці.
+
+### Включає
+
+Удари лопатою навколо позначеного місця єдиної закопаної Sailor’s Chest у навчальній подорожі Gold Hoarders гри Sea of Thieves.
+
+### Виключає
+
+Видалення місцевості для укриття; добування видимого ресурсу; відкривання вже знайденого контейнера; автоматичне копання за мапною позначкою.
+
+### Ігри-носії
+
+- [`GAME-0319` — Sea of Thieves](../games/s-z/sea-of-thieves.md)
+
+## ACT-476
+
+- Назва: Закинути вудку й підсікти після сигналу клювання
+- Переглянуто: `2026-09-20`
+
+### Операційне визначення
+
+Гравець наводить і закидає вудку в досяжну воду біля однієї видимої придатної цілі, перечікує проміжні торкання й проводить підсікання лише після оголошеного сигналу клювання.
+
+### Включає
+
+Закидання flimsy fishing rod біля тіні риби та підсікання після занурення поплавця в Animal Crossing: New Horizons.
+
+### Виключає
+
+Безпосереднє хапання вільно плаваючої істоти; автоматичну риболовлю; мінігру після вже прийнятого гачка; ловлю комахи сачком.
+
+### Ігри-носії
+
+- [`GAME-0320` — "Animal Crossing: New Horizons"](../games/a-f/animal-crossing-new-horizons.md)
+
+## ACT-477
+
+- Назва: Змахнути сачком крізь досяжну комаху
+- Переглянуто: `2026-09-20`
+
+### Операційне визначення
+
+Гравець розташовує безпосередньо керованого персонажа й проводить один короткий замах сачком крізь обраний досяжний об’єм світу, перевіряючи контакт із присутньою комахою.
+
+### Включає
+
+Наближення й замах flimsy net по видимій комасі першого повного дня Animal Crossing: New Horizons.
+
+### Виключає
+
+Закидання вудки; автономну пастку; хапання рукою; бій за здобич; автоматичний збір від контакту.
+
+### Ігри-носії
+
+- [`GAME-0320` — "Animal Crossing: New Horizons"](../games/a-f/animal-crossing-new-horizons.md)
+
+## ACT-478
+
+- Назва: Виконати друге натискання активного перезарядження
+- Переглянуто: `2026-09-20`
+
+### Операційне визначення
+
+Після початку перезарядження магазина гравець навмисно вдруге натискає кнопку перезарядження в обраний момент, доки діє авторський індикатор часу, просячи систему оцінити втручання замість звичайної тривалості.
+
+### Включає
+
+Друге натискання правого бампера під час active reload у навчальному маршруті оригінальної Gears of War для Xbox 360.
+
+### Виключає
+
+Початок звичайного перезарядження; таймінг атаки; охолодження теплової зброї без перенесення запасних набоїв; пасивний показник швидкості.
+
+### Ігри-носії
+
+- [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
+
+## ACT-479
+
+- Назва: Чергувати прив’язане розгойдування й аеродинамічне планерування
+- Переглянуто: `2026-09-20`
+
+### Операційне визначення
+
+Під час безпосереднього керування персонажем у безперервному тривимірному світі гравець повторно прикріплює лінію руху до придатної навколишньої геометрії або розкриває перенесену аеродинамічну поверхню, а потім керує розгойдуванням чи планеруванням зі збереженням живого імпульсу між режимами.
+
+### Включає
+
+Поєднання павутинного розгойдування та Web Wings Peter або Miles у Surface Tension у Marvel's Spider-Man 2.
+
+### Виключає
+
+Притягування до однієї обраної кінцевої точки; сценарний кінематографічний політ; звичайний стрибок; парашут після транспорту; телепортацію між позначками.
+
+### Ігри-носії
+
+- [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
+
+## ACT-480
+
+- Назва: Застосувати виділений рівень особистої шкали підсилень
+- Переглянуто: `2026-09-20`
+
+### Операційне визначення
+
+Після того як зібрані підсилення просунули впорядковану шкалу одного безпосередньо керованого персонажа, гравець навмисно застосовує поточний виділений рівень і обирає його зброю або рухову можливість замість очікування пізнішого рівня.
+
+### Включає
+
+Натискання SELECT на виділеному рівні ряду Burn, Iron, Smith або Beans у першій місії Contra Force.
+
+### Виключає
+
+Підбирання об’єкта, який просуває шкалу; перемикання героя; активацію підсилення поля; купівлю постійного поліпшення.
+
+### Ігри-носії
+
+- [`GAME-0324` — Contra Force](../games/a-f/contra-force.md)
+
+## ACT-481
+
+- Назва: Сканувати одну доступну місцеву ціль для даних огляду
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+У режимі ручного огляду гравець наводиться на одну доступну ціль у межах дальності й записує один збережений зразок до поступу огляду її класу або місцевості.
+
+### Включає
+
+Сканування однієї рослини, тварини або мінералу на Kreet у Starfield.
+
+### Виключає
+
+Утримання сканера до завершення технологічного креслення; пасивний імпульс ресурсів; вибір віддаленої планети; підбирання цілі.
+
+### Ігри-носії
+
+- [`GAME-0331` — Starfield](../games/s-z/starfield.md)
+
+## ACT-482
+
+- Назва: Обрати досяжну ціль на зоряній мапі й підтвердити подорож корабля
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+На навігаційній поверхні корабля гравець обирає один поточно досяжний зоряний регіон, планету, орбіту чи місце посадки й підтверджує допустимий маршрут.
+
+### Включає
+
+Подорожі Frontier з Vectera до Kreet, із Kreet до Jemison і посадка в New Atlantis у Starfield.
+
+### Виключає
+
+Безпосередній політ у місцевому просторі; швидке переміщення персонажа в межах одного місця; караван; необмежену телепортацію.
+
+### Ігри-носії
+
+- [`GAME-0331` — Starfield](../games/s-z/starfield.md)
+
+## ACT-483
+
+- Назва: Ділити, об'єднувати або передавати одновидовий загін істот
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Переміщувати вибрану кількість одного виду істот між допустимими комірками армії героя чи гарнізону міста, ділячи загін, об'єднуючи сумісні загони або передаючи його повністю без зміни виду.
+
+### Включає
+
+Перебудову армії Christian і гарнізону Caryatid у Homecoming Heroes III.
+
+### Виключає
+
+Найм нових істот; рух героя мапою; інвентар; змішування різних видів.
+
+### Ігри-носії
+
+- [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)
+
+## ACT-484
+
+- Назва: Підтвердити одну допустиму дію активного загону в бою
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+На бойовому ході поточно активного загону підтвердити один допустимий рух гексами, ближню чи дальню атаку, очікування або захист.
+
+### Включає
+
+Ручне керування загоном у бою Homecoming Heroes III.
+
+### Виключає
+
+Рух героя мапою; наказ наживо; закляття; автоматичну відплату.
+
+### Ігри-носії
+
+- [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)

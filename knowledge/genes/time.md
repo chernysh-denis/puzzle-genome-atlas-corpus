@@ -219,7 +219,9 @@
   Enforcers, traffic, damage and mission pressure continue; steering, braking
   and crossing waypoints in Trackmania while car motion and the attempt clock
   continue; steering and braking in Need for Speed Underground while the three
-  rivals, collision state and opening Circuit clock continue.
+  rivals, collision state and opening Circuit clock continue; steering,
+  drifting, using items and collecting coins in Mario Kart 8 Deluxe while
+  eleven CPU rivals, item threats and course position continue.
 - Excludes: a discrete input followed by completed automatic resolution;
   self-paced actions with no time-driven state change; an external timer that
   only measures performance.
@@ -300,6 +302,23 @@
   for road, zoning, facility and speed commands accepted while construction,
   occupancy, demand, utility flow, the monthly upkeep charge and the
   periodic progression tick advance on the live clock.
+- Additional support: [DEATH STRANDING DIRECTOR'S CUT decomposition](../games/a-f/death-stranding-directors-cut.md),
+  for load sway, stamina, terrain, water and weather exposure advancing while
+  traversal and bracing inputs remain available.
+- Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
+  for movement, combat, shield-delay and reinforcement state advancing continuously.
+- Additional support: [Gran Turismo decomposition](../games/g-l/gran-turismo.md),
+  for continuous vehicle motion and a running B-1 test clock while throttle and
+  braking inputs remain open.
+- Additional support: [StarCraft II decomposition](../games/s-z/starcraft-ii.md),
+  for live pathing, sight, combat, reinforcements and mission evaluation while
+  further unit commands remain available.
+- Additional support: [Battletoads decomposition](../games/a-f/battletoads.md),
+  for live hostile movement, attacks, damage, healing, riding and boss volleys
+  while new movement and combat inputs remain available.
+- Additional support: [Warcraft III: Reign of Chaos decomposition](../games/s-z/warcraft-iii-reign-of-chaos.md),
+  for live group pathing, sight, combat, mana and mission gates advancing while
+  further unit commands remain available.
 - Novelty: not assessed.
 
 ## TIM-004 — Alternating adversarial turns
@@ -516,6 +535,8 @@
 - Parameters: completion instant, scheduled boundary, intervening cutscene,
   skipped-scene behaviour, activation day and persistence after activation.
 - Evidence: [Stardew Valley decomposition](../games/s-z/stardew-valley.md).
+- Additional support: [Animal Crossing: New Horizons decomposition](../games/a-f/animal-crossing-new-horizons.md),
+  for a placed Blathers site becoming occupied only on the following calendar day.
 - Novelty: not assessed.
 
 ## TIM-014 — Real-time shift gates admission of new cases
@@ -590,21 +611,22 @@
 - Evidence: [Rust decomposition](../games/m-r/rust.md).
 - Novelty: not assessed.
 
-## TIM-018 — Alternate sequential multi-command civilization turns
+## TIM-018 — Alternate sequential multi-command polity turns
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: one civilization at a time receives an open decision interval in
-  which it may issue any legal subset of unit, city, economy, research and
-  diplomacy commands; End Turn commits settlement and passes authority to the
-  next civilization in sequence.
-- Includes: Rome followed by the three fixed AI rivals in scoped Civilization VI.
+- Definition: one polity at a time receives an open decision interval in which
+  it may issue any legal subset of unit, hero, settlement, economy, research or
+  diplomacy commands; End Turn passes authority, and any shared day or round
+  settles after all polities act.
+- Includes: Rome and its fixed rivals in Civilization VI; sequential kingdoms
+  inside a Heroes of Might and Magic III campaign day.
 - Excludes: one-action alternating turns; simultaneous hidden orders; a live
   world that advances while the player deliberates.
-- Parameters: participant order, turn number, command set, optional omissions,
-  settlement, refresh and next participant.
+- Parameters: participant order, turn or day number, command set, optional
+  omissions, settlement boundary, refresh and next participant.
 - Evidence: [Sid Meier's Civilization VI decomposition](../games/s-z/sid-meiers-civilization-vi.md).
 - Novelty: first isolated for `GAME-0166`; earlier turn genes bound one action,
   one phase or simultaneous commitment rather than a whole empire command set.
@@ -729,3 +751,23 @@
 - Evidence: [Azul decomposition](../games/a-f/azul.md), official rules.
 - Novelty: first isolated for `GAME-0304`; turn-local staging and delayed
   shared settlement split one round into causally distinct phases.
+
+## TIM-025 — Synchronise a persistent world to the real-world calendar
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: advance a persistent single-player world's date, clock, daylight
+  and calendar-dependent state from the host system's real-world time across
+  both active play and absence, without requiring player-authored turns.
+- Includes: ordinary no-time-travel island time in Animal Crossing: New Horizons.
+- Excludes: authored story dates; a server clock independent of the host;
+  elapsed-play timers; a configurable accelerated day/night cycle; manually
+  changing system time to skip progression.
+- Parameters: host clock, time zone, date, time, hemisphere, active/absent
+  update, rollover, daylight, season and calendar-dependent systems.
+- Evidence: [Animal Crossing: New Horizons decomposition](../games/a-f/animal-crossing-new-horizons.md),
+  using Nintendo's product and beginner guidance.
+- Novelty: first isolated for `GAME-0320`; external civil time directly owns
+  persistent world progression rather than merely labelling an authored day.

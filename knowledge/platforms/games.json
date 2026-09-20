@@ -22431,6 +22431,465 @@
         "checked": null
       },
       "releases": []
+    },
+    "GAME-0307": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Slime Rancher original Windows Steam base game, fresh Adventure save",
+        "editionUk": "Оригінальна базова Slime Rancher для Windows у Steam, нове збереження Adventure",
+        "version": "Official original-product rules checked 2026-09-19; installed build not observed",
+        "distribution": "Windows Steam base product, not Slime Rancher 2 or DLC bundle",
+        "evidenceUrl": "https://store.steampowered.com/app/433340/SlimeRancher?l=english",
+        "checked": "2026-09-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0308": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-4",
+        "edition": "Bloodborne original PS4 digital base product, fresh offline single-player game",
+        "editionUk": "Оригінальна цифрова базова Bloodborne для PS4, нова офлайнова одиночна гра",
+        "version": "Official PS4 base-product rules checked 2026-09-19; installed patch not observed",
+        "distribution": "PlayStation Store PS4 base product, not Complete Edition or The Old Hunters",
+        "evidenceUrl": "https://www.playstation.com/en-us/games/bloodborne/",
+        "checked": "2026-09-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0309": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH",
+        "edition": "Mario Kart 8 Deluxe original Switch digital base product, offline single-player Grand Prix",
+        "editionUk": "Цифровий базовий Mario Kart 8 Deluxe для оригінальної Switch, офлайновий одиночний Grand Prix",
+        "version": "Official version 4.0.0 rules checked 2026-09-19; installed build not observed",
+        "distribution": "Nintendo eShop base product, not Booster Course Pass or Switch 2 feature layer",
+        "evidenceUrl": "https://mariokart8deluxe.nintendo.com/",
+        "checked": "2026-09-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0310": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "DEATH STRANDING DIRECTOR'S CUT Windows Steam base product, fresh offline Normal game",
+        "editionUk": "Базовий DEATH STRANDING DIRECTOR'S CUT для Windows у Steam, нова офлайнова гра на складності Normal",
+        "version": "Steam public-branch build 13300582 remotely observed 2026-09-19; installed build not observed",
+        "distribution": "Official Windows Steam application 1850570",
+        "evidenceUrl": "https://store.steampowered.com/app/1850570/DEATH_STRANDING_DIRECTORS_CUT/",
+        "checked": "2026-09-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0311": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-ENTERTAINMENT-SYSTEM",
+        "edition": "Original North American one-player cartridge rules",
+        "editionUk": "Правила оригінального північноамериканського картриджа для одного гравця",
+        "version": "1985 original NES rules represented by Nintendo's preserved manual and pinned Japan/USA ROM disassembly commit 6d0d367ccb7c9d037ca3b5e50453c55bd74cb869",
+        "distribution": "Original Nintendo Entertainment System cartridge rules; current lawful catalogue wrappers are not part of the analysis",
+        "evidenceUrl": "https://www.nintendo.co.jp/clv/manuals/en/pdf/CLV-P-NAAAE.pdf",
+        "checked": "2026-09-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0312": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-5",
+        "edition": "ASTRO BOT PS5 Standard Edition base game, fresh offline single-player save",
+        "editionUk": "Базове Standard Edition ASTRO BOT для PS5, нове офлайнове одиночне збереження",
+        "version": "Current official PS5 Standard Edition rules checked 2026-09-19; installed build and patch not observed",
+        "distribution": "PlayStation Store PS5 Standard Edition, not Digital Deluxe cosmetics or post-launch challenge levels",
+        "evidenceUrl": "https://www.playstation.com/en-us/games/astro-bot/",
+        "checked": "2026-09-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0313": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-ENTERTAINMENT-SYSTEM",
+        "edition": "Yanshan Tank 1990 / Tank 28 family, one-player Tank A ordinary 1–14 group, Stage 1 rules reconstruction",
+        "editionUk": "Сім’я Yanshan Tank 1990 / Tank 28, режим одного гравця Tank A зі звичайної групи 1–14, реконструкція правил Stage 1",
+        "version": "1990 family identity checked 2026-09-19; no exact physical multicart or clean dump verified, and MAME's separately catalogued regions are marked baddump",
+        "distribution": "Famicom-compatible multicart family; no verified current licensed distribution or exact cartridge provenance claimed",
+        "evidenceUrl": "https://github.com/mamedev/mame/blob/2f09f5e4f17912d3b58253067bec2430efbbedeb/hash/nes.xml",
+        "checked": "2026-09-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0314": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-SERIES",
+        "edition": "Grounded Xbox Series X|S Standard Edition, fresh local solo Survival world on Medium",
+        "editionUk": "Grounded Standard Edition для Xbox Series X|S, новий локальний одиночний світ Survival на складності Medium",
+        "version": "Publisher rules through hotfix 1.4.7.4815 checked 2026-09-19; installed Xbox build not observed",
+        "distribution": "Xbox digital Standard Edition base product, not Shared World, Playgrounds or New Game+",
+        "evidenceUrl": "https://www.xbox.com/en-us/games/grounded",
+        "checked": "2026-09-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0315": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-360",
+        "edition": "Original North American Halo 3 Xbox 360 Standard Edition, fresh solo Campaign on Normal",
+        "editionUk": "Оригінальне північноамериканське Standard Edition Halo 3 для Xbox 360, нова одиночна кампанія на Normal",
+        "version": "2007-09-25 launch-content rules reconstructed from the original manual and launch-era sources; disc region, title update and installed binary not observed",
+        "distribution": "Original Xbox 360 Standard Edition campaign, not MCC, backward-compatible presentation, downloadable maps or multiplayer",
+        "evidenceUrl": "https://www.xbox.com/en-US/games/store/halo-3/BSXZVK24CMR3",
+        "checked": "2026-09-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0316": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION",
+        "edition": "Original North American Gran Turismo for PlayStation, SCUS-94194, B-1 licence test",
+        "editionUk": "Оригінальна північноамериканська Gran Turismo для PlayStation, SCUS-94194, ліцензійне випробування B-1",
+        "version": "1998-05-12 North American launch-content rules reconstructed from the original manual and period written guides; disc revision and installed binary not observed",
+        "distribution": "Original PlayStation retail disc, not a later regional release, sequel, compilation or emulated edition",
+        "evidenceUrl": "https://www.gran-turismo.com/us/news/02_0004970.html",
+        "checked": "2026-09-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0317": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Current English Windows Battle.net StarCraft II, free Wings of Liberty campaign, fresh Normal Liberation Day",
+        "editionUk": "Поточний англомовний StarCraft II для Windows через Battle.net, безкоштовна кампанія Wings of Liberty, нова Liberation Day на Normal",
+        "version": "StarCraft II 5.x client family checked 2026-09-20; no stable public installed-build identifier observed",
+        "distribution": "Current Battle.net Windows application, not the 2010 launch binary, another campaign, Arcade, Co-op, Versus or custom content",
+        "evidenceUrl": "https://news.blizzard.com/en-us/article/21173629/starcraft-ii-going-free-to-play-explained",
+        "checked": "2026-09-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0318": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-ENTERTAINMENT-SYSTEM",
+        "edition": "Original North American English Battletoads for NES, NES-8T-USA, fresh one-player Ragnarok's Canyon",
+        "editionUk": "Оригінальна англомовна північноамериканська Battletoads для NES, NES-8T-USA, нова одиночна Ragnarok’s Canyon",
+        "version": "June 1991 North American cartridge rules reconstructed from the original manual and written NES guides; cartridge revision and executed binary not observed",
+        "distribution": "Original licensed NES cartridge, not a port, sequel, crossover, reboot, compilation or Nintendo Classics wrapper",
+        "evidenceUrl": "https://nesdir.github.io/279710DC_USA.html",
+        "checked": "2026-09-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0319": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-SERIES",
+        "edition": "Current English Sea of Thieves Standard Edition for Xbox Series X|S, Season 21 High Seas, solo closed-crew Gold Hoarders Tutorial Voyage",
+        "editionUk": "Поточне англомовне Standard Edition Sea of Thieves для Xbox Series X|S, Season 21 High Seas, навчальна подорож Gold Hoarders у закритому екіпажі з одного гравця",
+        "version": "Live server version 3.9.0 released 2026-09-17; installed Xbox build and account session not observed",
+        "distribution": "Current Xbox Series X|S Standard Edition live service, not Xbox One, Windows, PlayStation, Premium Edition, Safer Seas or Custom Seas",
+        "evidenceUrl": "https://www.xbox.com/en-US/games/sea-of-thieves",
+        "checked": "2026-09-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0320": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH",
+        "edition": "Current English original Nintendo Switch Animal Crossing: New Horizons base game, fresh Northern Hemisphere solo island",
+        "editionUk": "Поточна англомовна оригінальна базова Animal Crossing: New Horizons для Nintendo Switch, свіжий одиночний острів Північної півкулі",
+        "version": "Version 3.0.3 released 2026-04-29; installed Switch build and island save not observed",
+        "distribution": "Original Nintendo Switch digital base game, not Nintendo Switch 2 Edition, Happy Home Paradise or multiplayer",
+        "evidenceUrl": "https://www.nintendo.com/us/store/products/animal-crossing-new-horizons-switch/",
+        "checked": "2026-09-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0321": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-360",
+        "edition": "Original English North American Xbox 360 retail Gears of War, fresh solo Casual Training route",
+        "editionUk": "Оригінальна англомовна північноамериканська роздрібна Gears of War для Xbox 360, новий одиночний Training-маршрут на Casual",
+        "version": "2006 launch-disc campaign rules reconstructed from the original manual and written routes; disc pressing, title update and executed binary not observed",
+        "distribution": "Original licensed Xbox 360 retail base game, not Windows, Ultimate Edition, Reloaded, DLC, sequel or remaster",
+        "evidenceUrl": "https://news.xbox.com/en-us/2006/08/03/gears-of-war-emergence-day-announced/",
+        "checked": "2026-09-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0322": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "English Windows Battle.net Diablo II: Resurrected launch base game, fresh offline Expansion Softcore Normal Barbarian",
+        "editionUk": "Англомовна стартова базова Diablo II: Resurrected для Windows Battle.net, новий офлайн-варвар у Expansion Softcore Normal",
+        "version": "2021-09-23 launch/base-game rules reconstructed from official Blizzard material and written Resurrected routes; installed build not observed",
+        "distribution": "Licensed Windows Battle.net digital base game, not current Infernal Edition, Reign of the Warlock, online, Ladder or console release",
+        "evidenceUrl": "https://news.blizzard.com/en-us/article/23725471/diablo-ii-resurrectedtm-launch-guide",
+        "checked": "2026-09-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0323": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-5",
+        "edition": "English PS5 Marvel's Spider-Man 2 Standard Edition launch base game, fresh single-player Amazing save",
+        "editionUk": "Англомовна стартова базова Marvel's Spider-Man 2 Standard Edition для PS5, нове одиночне збереження на Amazing",
+        "version": "2023-10-20 launch/base-game rules reconstructed from official PlayStation material and written Surface Tension routes; installed build not observed",
+        "distribution": "Licensed PS5 Standard Edition base game, not pre-order or Digital Deluxe bonuses, later updates, New Game+, PC release or sequel content",
+        "evidenceUrl": "https://www.playstation.com/en-us/games/marvels-spider-man-2/",
+        "checked": "2026-09-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0324": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-ENTERTAINMENT-SYSTEM",
+        "edition": "Original North American English Contra Force for NES, NES-CR-USA, fresh one-player Dewerdrye Warehouse",
+        "editionUk": "Оригінальна англомовна північноамериканська Contra Force для NES, NES-CR-USA, нова одиночна Dewerdrye Warehouse",
+        "version": "September 1992 North American cartridge rules reconstructed from the original manual and written NES routes; cartridge revision and executed binary not observed",
+        "distribution": "Original licensed NES cartridge, not a prototype, fan translation, hack, port, compilation, browser emulator or another Contra title",
+        "evidenceUrl": "https://nesdir.github.io/A94591B0_USA.html",
+        "checked": "2026-09-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0325": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-ENTERTAINMENT-SYSTEM",
+        "edition": "Original North American English The Legend of Zelda for NES, NES-ZL-USA, fresh Quest 1 through Level-1 Eagle",
+        "editionUk": "Оригінальна англомовна північноамериканська The Legend of Zelda для NES, NES-ZL-USA, свіжа Quest 1 до завершення Level-1 Eagle",
+        "version": "1987 North American cartridge rules reconstructed from the original manual and written Level-1 routes; cartridge revision and executed binary not observed",
+        "distribution": "Original licensed NES cartridge, not Famicom Disk System, port, remake, Virtual Console, Switch Online, randomizer or fan modification",
+        "evidenceUrl": "https://nesdir.github.io/3FE272FB_USA.html",
+        "checked": "2026-09-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0326": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION",
+        "edition": "Original North American English Crash Bandicoot for PlayStation, SCUS-94900, fresh one-player N. Sanity Beach",
+        "editionUk": "Оригінальна англомовна північноамериканська Crash Bandicoot для PlayStation, SCUS-94900, нова одиночна N. Sanity Beach",
+        "version": "1996 North American original-disc rules reconstructed from the original manual and written first-level route; disc revision and executed binary not observed",
+        "distribution": "Original licensed PlayStation disc, not a prototype, sequel, port, emulated wrapper, N. Sane Trilogy remake or fan modification",
+        "evidenceUrl": "https://redump.org/discs/region/Am/quicksearch/crash-bandicoot/",
+        "checked": "2026-09-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0327": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX",
+        "edition": "Original North American English Fable for Xbox, V07-00032 / title ID 4D53000D, fresh Oakvale childhood through Heroes' Guild graduation",
+        "editionUk": "Оригінальна англомовна північноамериканська Fable для Xbox, V07-00032 / Title ID 4D53000D, нова гра від дитинства в Oakvale до випуску з Heroes’ Guild",
+        "version": "2004 North American base-disc rules reconstructed from the preserved original manual and written tutorial routes; disc pressing and executed binary not observed",
+        "distribution": "Original licensed Xbox retail base game, not The Lost Chapters, Anniversary, sequel, later reboot, port, emulated wrapper or fan modification",
+        "evidenceUrl": "https://news.xbox.com/en-us/2007/12/04/xbox-originals-manuals-and-controller-layouts-and-free-themes-and-picture-packs/",
+        "checked": "2026-09-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0328": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Original North American English Warcraft III: Reign of Chaos Windows retail base game, fresh Exodus of the Horde Chapter One: Chasing Visions",
+        "editionUk": "Оригінальна англомовна північноамериканська роздрібна базова Warcraft III: Reign of Chaos для Windows, новий Exodus of the Horde Chapter One: Chasing Visions",
+        "version": "2002 North American base-game rules reconstructed from Blizzard's original manual, classic command documentation and written tutorial routes; disc pressing, executable patch and installed binary not observed",
+        "distribution": "Original licensed Windows retail base game, not The Frozen Throne, Reforged, a later balance ruleset, custom campaign, port, emulated wrapper or fan modification",
+        "evidenceUrl": "https://ftp.blizzard.com/pub/misc/Warcraft%20III%20Manual.pdf",
+        "checked": "2026-09-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0329": {
+      "analysisTarget": {
+        "platformId": "PLAT-SUPER-NINTENDO",
+        "edition": "Original North American English Donkey Kong Country Super NES retail cartridge product SNS-8X-USA, fresh one-player Jungle Hijinxs!",
+        "editionUk": "Оригінальний англомовний північноамериканський роздрібний картридж Donkey Kong Country для Super NES SNS-8X-USA, новий однокористувацький Jungle Hijinxs!",
+        "version": "1994 North American original-product rules reconstructed from Nintendo manual and written first-stage routes; cartridge pressing and mask-ROM revision not observed",
+        "distribution": "Original licensed Super NES retail cartridge, not a Game Boy port, Virtual Console, SNES Classic, Nintendo Switch Online wrapper, sequel, emulated bundle or fan modification",
+        "evidenceUrl": "https://www.nintendo.co.jp/clvs/manuals/common/pdf/CLV-P-SAALE.pdf",
+        "checked": "2026-09-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0330": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-5",
+        "edition": "North American English Silent Hill 2 (2024 remake) PlayStation 5 Standard Edition UP0101-PPSA08710_00-MAINGAME00000000, fresh New Game on Standard combat and puzzle challenge through Eastern South Vale",
+        "editionUk": "Англомовне північноамериканське Standard Edition ремейку Silent Hill 2 2024 року для PlayStation 5 UP0101-PPSA08710_00-MAINGAME00000000, нова гра зі складністю бою й головоломок Standard до завершення Східного South Vale",
+        "version": "2024-10-08 PS5 Standard Edition rules reconstructed from Konami and PlayStation product material plus written Eastern South Vale routes; installed patch and console firmware not observed",
+        "distribution": "Licensed North American PlayStation 5 Standard Edition, not the 2001 original, Windows edition, Deluxe Edition, New Game Plus, later content bundle or fan modification",
+        "evidenceUrl": "https://store.playstation.com/en-us/product/UP0101-PPSA08710_00-MAINGAME00000000",
+        "checked": "2026-09-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0331": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-SERIES",
+        "edition": "Current official English Starfield Xbox Series X|S Standard Edition base game, fresh New Game on Normal through complete One Small Step",
+        "editionUk": "Поточна офіційна англомовна Standard Edition базової Starfield для Xbox Series X|S, нова гра на Normal до повного завершення One Small Step",
+        "version": "2023-09-06 Xbox Series X|S base-game rules reconstructed from Xbox and Bethesda support material plus written first-mission routes; installed build, firmware and entitlement not observed",
+        "distribution": "Licensed Xbox Series X|S Standard Edition base game, not Windows, cloud, Premium content, Shattered Space, Creations, New Game Plus, later port or fan modification",
+        "evidenceUrl": "https://www.xbox.com/en-US/games/starfield",
+        "checked": "2026-09-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0332": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Current official English GOG Windows Heroes of Might and Magic III: Complete, unmodded offline Restoration of Erathia Homecoming on fixed Easy with 14 Pikemen bonus",
+        "editionUk": "Поточний офіційний англомовний GOG Windows Heroes of Might and Magic III: Complete без модифікацій і мережі, Restoration of Erathia Homecoming на Easy з бонусом 14 Pikemen",
+        "version": "1999 base-game rules in the current GOG Complete package reconstructed from the original New World Computing manual and written Homecoming records; installed GOG build, wrapper, OS revision and entitlement not observed",
+        "distribution": "Licensed GOG Windows Complete product, scoped to original Restoration of Erathia content; not HD Edition, expansions, random maps, multiplayer, editor, HD Mod, Horn of the Abyss, VCMI or fan modification",
+        "evidenceUrl": "https://www.gog.com/en/game/heroes_of_might_and_magic_3_complete_edition",
+        "checked": "2026-09-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0333": {
+      "analysisTarget": {
+        "platformId": "PLAT-SEGA-GENESIS",
+        "edition": "Original North American English Sega Genesis launch cartridge, fresh one-player Green Hill Zone Act 1",
+        "editionUk": "Оригінальний стартовий північноамериканський англомовний картридж Sega Genesis, нова одиночна Green Hill Zone Act 1",
+        "version": "Original REV00 retail behaviour reconstructed from SEGA's preserved manual and Sonic Retro disassembly commit 064e3c68 with Revision = 0 and FixBugs = 0",
+        "distribution": "Original licensed physical Sega Genesis cartridge; not REV01, Master System, Game Gear, Genesis Mini wrapper, Sonic Origins, port, remake, sequel, emulator or save-state rules",
+        "evidenceUrl": "https://manuals.sega.com/genesismini/pdf/SONIC_THE_HEDGEHOG.pdf",
+        "checked": "2026-09-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
     }
   }
 }

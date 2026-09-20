@@ -4882,6 +4882,8 @@
   for typed weapon/support slots and finite magazine/reserve ammunition.
 - Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
   for three typed weapon slots and finite magazine/reserve ammunition.
+- Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
+  for the two-weapon loadout, typed grenade caps and finite ammunition.
 - Novelty: not assessed.
 
 ## CON-263 — Elimination suspends control until the next round
@@ -5019,6 +5021,9 @@
   [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md).
 - Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
   for Titan grenade, melee, barricade and Super readiness gates.
+- Additional support: [Warcraft III: Reign of Chaos decomposition](../games/s-z/warcraft-iii-reign-of-chaos.md),
+  for Chain Lightning requiring a learned rank, legal target, sufficient mana
+  and current readiness.
 - Novelty: not assessed.
 
 ## CON-270 — Character build is bounded by level and branch gates
@@ -5039,6 +5044,9 @@
 - Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md) and
   [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md), and
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+- Additional support: [Warcraft III: Reign of Chaos decomposition](../games/s-z/warcraft-iii-reign-of-chaos.md),
+  for the first hero point entering only a rank admitted by Thrall's current
+  level and tutorial state.
 - Novelty: not assessed.
 
 ## CON-271 — Item ownership obeys gold, shop and logistics capacity
@@ -5093,6 +5101,12 @@
   [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
 - Additional support: [Command & Conquer Remastered Collection decomposition](../games/a-f/command-and-conquer-remastered-collection.md),
   for ordinary hostile targeting gated by current allied sight.
+- Additional support: [StarCraft II decomposition](../games/s-z/starcraft-ii.md),
+  for hostile units and the mission structure becoming directly targetable only
+  while controlled-unit sight exposes them.
+- Additional support: [Warcraft III: Reign of Chaos decomposition](../games/s-z/warcraft-iii-reign-of-chaos.md),
+  for ordinary hostile targets becoming directly actionable only under current
+  Thrall-or-Grunt sight.
 - Novelty: not assessed.
 
 ## CON-274 — Base buildings obey ordered protection and backdoor rules
@@ -5259,6 +5273,8 @@
   [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
 - Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
   for the ordered store, corridor, key, exit, crash, street and station chain.
+- Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
+  for the ordered jungle, dam rescue, counterattack and extraction gates.
 - Novelty: not assessed.
 
 ## CON-283 — Aircraft route bounds reachable insertion region
@@ -5562,6 +5578,9 @@
   for opened and nearby inventories and an environmental source; and
   [Subnautica decomposition](../games/s-z/subnautica.md), for a powered station
   class and a rectangular output footprint.
+- Additional support: [Animal Crossing: New Horizons decomposition](../games/a-f/animal-crossing-new-horizons.md),
+  for known flimsy-tool recipes, branch quantities, Resident Services workbench
+  context and inventory receipt.
 - Novelty: generalised by
   [`TAXONOMY_CHANGE_025`](../../research/taxonomy-changes/TAXONOMY_CHANGE_025.md)
   — one legality boundary joins recipe knowledge, ingredient supply, station
@@ -6118,6 +6137,12 @@
 - Parameters: actor, health, distance, area, asset, damage state, abandonment
   timer and checkpoint.
 - Evidence: [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md).
+- Additional support: [StarCraft II decomposition](../games/s-z/starcraft-ii.md),
+  for `Liberation Day` continuing only while the mission-critical Raynor unit
+  remains alive.
+- Additional support: [Warcraft III: Reign of Chaos decomposition](../games/s-z/warcraft-iii-reign-of-chaos.md),
+  for `Chasing Visions` continuing only while mission-critical Thrall remains
+  viable.
 - Novelty: not assessed.
 
 ## CON-331 — Carried weapon classes and ammunition have fixed capacity
@@ -6705,12 +6730,16 @@
 - Evidence quality: `Direct`
 - Confidence: `High`
 - Definition: map access or fast travel is unavailable during live hostile
-  engagement and travel requires a discovered eligible destination.
-- Includes: Elden Ring map combat lock and discovered-Grace fast travel.
+  engagement and travel requires a discovered or explicitly offered eligible
+  destination.
+- Includes: Elden Ring map combat lock and discovered-Grace fast travel;
+  Starfield travel to discovered or tracked quest destinations outside combat.
 - Excludes: ordinary walking; scripted transfer; unrestricted teleportation.
-- Parameters: combat state, map state, destination, discovery and dungeon lock.
+- Parameters: combat state, map state, destination, discovery, quest eligibility and local lock.
 - Evidence: [Elden Ring decomposition](../games/a-f/elden-ring.md).
 - Novelty: not assessed.
+- Change note: wording generalised by
+  [`TAXONOMY_CHANGE_075`](../../research/taxonomy-changes/TAXONOMY_CHANGE_075.md).
 
 ## CON-365 — Finite flask charges are allocated between HP and FP recovery
 
@@ -7399,6 +7428,8 @@
 - Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
 - Additional support: [Serious Sam HD: The First Encounter decomposition](../games/s-z/serious-sam-hd-the-first-encounter.md)
   and [DOOM (2016) decomposition](../games/a-f/doom-2016.md).
+- Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
+  for route and extraction gates held by required finite hostile groups.
 - Novelty: first isolated for `GAME-0164`.
 
 ## CON-428 — Only one current supplied contract may be active
@@ -8041,6 +8072,8 @@
   [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
 - Additional support: [Forza Horizon 5 decomposition](../games/a-f/forza-horizon-5.md),
   for the required ordered gates and three laps of Horizon Mexico Circuit.
+- Additional support: [Mario Kart 8 Deluxe decomposition](../games/m-r/mario-kart-8-deluxe.md),
+  for three ordered laps before each Mushroom Cup finish place is accepted.
 - Novelty: first isolated for `GAME-0171`; earlier route constraints govern
   networks or escort anchors rather than one directly driven race traversal.
 
@@ -8137,6 +8170,9 @@
 - Additional support: [TEKKEN 8 decomposition](../games/s-z/tekken-8.md),
   for Arcade Style mapping, pose, recovery, airborne, grounded and downed
   state gating the chosen fighter's commands.
+- Additional support: [Battletoads decomposition](../games/a-f/battletoads.md),
+  for pose, recovery, held-object and mount state gating the same contextual
+  movement, attack, pickup and ride inputs.
 - Novelty: first isolated for `GAME-0172`; it binds a character-owned fighting
   command vocabulary to transient live pose and recovery state.
 
@@ -9314,17 +9350,17 @@
 - Novelty: first isolated for `GAME-0191`; strategic reach is paid by a
   per-turn army allowance rather than by per-piece discrete move rules.
 
-## CON-510 — Settlement construction requires a legal chain slot and treasury
+## CON-510 — Settlement construction requires legal capacity, prerequisites and cost
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: a settlement building may be commissioned only when the
-  settlement is owned, a compatible slot and chain tier are available, all
-  prerequisites hold and the treasury can pay the declared cost.
-- Includes: the Kislev Refuge upgrade and Store House in the scoped Total War:
-  WARHAMMER III prologue.
+  settlement is owned, compatible slot or daily build capacity is available,
+  all chain prerequisites hold and the treasury can pay every declared cost.
+- Includes: Kislev Refuge's queued buildings and Heroes III owned-town
+  structures under one-building-per-day capacity.
 - Excludes: real-time worker access and foundation geometry; city-yield
   production; scripted free upgrades.
 - Parameters: owner, settlement tier, slot, chain, prerequisite, treasury,
@@ -9395,17 +9431,16 @@
 - Novelty: first isolated for `GAME-0192`; a positive map terminal is gated by
   the conjunction of every surviving body and a player-controlled physical seal.
 
-## CON-514 — Recruitment requires an available offer, denars and party space
+## CON-514 — Recruitment requires available stock, payment and force capacity
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: a settlement recruit can join the player's party only while that
-  body remains in the current offer, the party has free capacity and the
-  player's denars cover the displayed hiring price.
-- Includes: hiring Tevea's offered tutorial troops in scoped Mount & Blade II:
-  Bannerlord Campaign.
+- Definition: a settlement recruit can join a persistent force only while the
+  requested stock remains available, the force has a legal empty or compatible
+  destination and the player can pay every displayed cost.
+- Includes: Tevea's offered Bannerlord troops and Heroes III dwelling creatures.
 - Excludes: production-queue resources and population headroom; prisoner
   resistance; a scripted free companion; reinforcement after battle start.
 - Parameters: settlement, recruit, offer quantity, denars, price, party limit,
@@ -10638,6 +10673,8 @@
 - Parameters: weapon, ammunition type, cost per shot, current reserve, cap,
   pickup quantity, accepted refill and empty-fire rejection.
 - Evidence: [Serious Sam HD: The First Encounter decomposition](../games/s-z/serious-sam-hd-the-first-encounter.md).
+- Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
+  for firearm discharge requiring compatible remaining ammunition or charge.
 - Novelty: first isolated for `GAME-0237`; typed reserve scarcity is separated
   from magazines, reload windows, round inventory and weapon-class replacement.
 
@@ -12043,3 +12080,186 @@
   official Xbox One carry controls and independent first-mission rescue route.
 - Novelty: first isolated for `GAME-0306`; a mission-critical living burden
   changes what the same equipped character can do until handoff or drop.
+
+## CON-645 — Water entry requires current vehicle-crossing capability
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a directly controlled ground vehicle cannot occupy a water cell
+  unless its current stage state includes the declared water-crossing
+  capability; losing or lacking that capability leaves water impassable.
+- Includes: Tank 1990 Tank A water entry after collecting the boat bonus.
+- Excludes: ordinary swimming by an avatar; permanent amphibious vehicle
+  identity; a bridge that changes the terrain itself; visual water with no
+  movement consequence.
+- Parameters: vehicle, terrain class, required capability, grant source,
+  duration, loss rule and exit behaviour.
+- Evidence: [Tank 1990 decomposition](../games/s-z/tank-1990.md), using two
+  independent Yanshan-family descriptions and the pinned reimplementation.
+- Novelty: first isolated for `GAME-0313`; a stage bonus changes the legality
+  of entering one existing terrain class without replacing that terrain.
+
+## CON-646 — Material analysis requires an eligible sample and station charge
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a material-analysis request is legal only when the player carries
+  a compatible sample whose analysis entry is not already complete and the
+  addressed station has at least one available charge; an exhausted station
+  rejects further samples until its timed recharge supplies another charge.
+- Includes: Grounded's three-charge Resource Analyzer and the Pebblet, Plant
+  Fiber and Clover Leaf analyses in the first-shelter route.
+- Excludes: ordinary crafting ingredients; a scanner's spatial range;
+  research-currency price; a station that accepts unlimited analysis; repeated
+  reading of an already known recipe.
+- Parameters: sample identity, carried quantity, analysed state, station,
+  current charges, maximum charges, recharge interval and rejection feedback.
+- Evidence: [Grounded decomposition](../games/g-l/grounded.md), current
+  Resource Analyzer and tutorial-material references.
+- Novelty: first isolated for `GAME-0314`; sample eligibility and a
+  replenishing station-use stock jointly gate knowledge acquisition before the
+  selected craft-and-build chain can continue.
+
+## CON-647 — Timed driving test requires complete rest inside its goal area
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a vehicle-driving test can pass only when the complete assigned
+  vehicle is stationary inside the declared goal area before its deadline;
+  merely crossing the area, stopping partly outside, overrunning or timing out
+  cannot satisfy the gate.
+- Includes: Gran Turismo `SCUS-94194` licence B-1's 1,000-metre stopping area
+  and 36-second limit.
+- Excludes: a finish line that accepts a moving crossing; ordered race laps;
+  ordinary parking with no deadline; a speed-zone measurement.
+- Parameters: vehicle footprint, rest threshold, goal geometry, distance,
+  deadline, overrun and disqualification.
+- Evidence: [Gran Turismo decomposition](../games/g-l/gran-turismo.md), using
+  two contemporary descriptions of the original B-1 test.
+- Novelty: first isolated for `GAME-0316`; success requires simultaneous
+  velocity-zero and whole-vehicle containment before a fixed time boundary.
+
+## CON-648 — Bulky carried treasure restricts movement and equipment
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while a declared bulky treasure object is held in the controlled
+  actor's hands, sprint and ordinary incompatible equipment use are illegal;
+  dropping or handing off the object restores those actions.
+- Includes: carrying the Sailor's Chest during Sea of Thieves' Gold Hoarders
+  Tutorial Voyage.
+- Excludes: a backpack item that leaves both hands free; permanent equipment
+  loss; movement slowed only by total inventory mass; carrying an incapacitated
+  person under `CON-644`.
+- Parameters: actor, treasure, held state, occupied hands, blocked actions,
+  allowed movement, drop, handoff and restored capability.
+- Evidence: [Sea of Thieves decomposition](../games/s-z/sea-of-thieves.md),
+  using the official Pirate Academy movement and treasure-carry rules.
+- Novelty: first isolated for `GAME-0319`; one free world object temporarily
+  narrows the same pirate's locomotion and tool vocabulary through hand occupancy.
+
+## CON-649 — Invitation hand-in requires a previously uncredited species
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a specimen can increase one open-ended invitation quota only if
+  it belongs to an eligible creature category and its species identity is not
+  already present in that recipient's retained contribution set.
+- Includes: Tom Nook accepting five different fish or bug species toward
+  inviting Blathers in Animal Crossing: New Horizons.
+- Excludes: a disclosed fixed species checklist; a museum's later permanent
+  collection; scalar item count; repeated copies satisfying multiple slots.
+- Parameters: specimen, category, species identity, recipient, retained set,
+  quota, duplicate response and eligibility feedback.
+- Evidence: [Animal Crossing: New Horizons decomposition](../games/a-f/animal-crossing-new-horizons.md),
+  using three corroborating first-day and museum routes.
+- Novelty: first isolated for `GAME-0320`; eligibility is set novelty within
+  broad categories, not membership in a pre-authored visible slot schema.
+
+## CON-650 — Clear-gem credit requires every counted crate and an unbroken checkpoint run
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the original level may award its crate-clear gem only when every
+  qualifying counted crate has been destroyed and the current eligible run has
+  not lost a life after checkpoint activation; the ordinary level exit remains
+  legal when this optional predicate fails.
+- Includes: the clear-gem predicate in original Crash Bandicoot's scoped North
+  American `N. Sanity Beach` route.
+- Excludes: requiring the gem for ordinary level completion; iron or otherwise
+  non-counting crates; later coloured-gem route access; remake death handling;
+  a score threshold.
+- Parameters: level, qualifying set, destroyed set, checkpoint activation,
+  life-loss boundary, gem eligibility, ordinary exit and settlement order.
+- Evidence: [Crash Bandicoot decomposition](../games/a-f/crash-bandicoot.md),
+  using the original PlayStation manual and corroborating written route.
+- Novelty: first isolated for `GAME-0326`; optional reward eligibility couples
+  exhaustive mutable-world accounting to survival after an in-level recovery
+  anchor without blocking the underlying exit.
+
+## CON-651 — Ship route requires reachable target and powered grav state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a selected interplanetary or intersystem ship route is legal only
+  when its destination is currently reachable and the ship's grav-drive power,
+  jump range and fuel-range conditions satisfy the route.
+- Includes: powering the Frontier grav drive and committing the eligible Kreet
+  to Jemison route in Starfield's `One Small Step`.
+- Excludes: direct throttle flight; local avatar fast travel; a discovered target
+  beyond current jump range; permanent ship-part installation.
+- Parameters: destination, route distance, drive power, spool time, jump range,
+  fuel range, obstruction and rejection reason.
+- Evidence: [Starfield decomposition](../games/s-z/starfield.md).
+- Novelty: first isolated for `GAME-0331`; destination knowledge alone does not
+  make a persistent ship route legal without compatible live travel state.
+
+## CON-652 — Fit same-type creature troops into seven force slots
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a hero army or town garrison may occupy at most seven troop slots;
+  each occupied slot contains one creature type, compatible types may merge and
+  a field hero must retain at least one troop.
+- Includes: Heroes of Might and Magic III: Complete armies and garrisons.
+- Excludes: seven individual characters; inventory slots; mixed creature types
+  in one troop; an empty roaming hero.
+- Parameters: force, slot count, occupied slots, creature type, troop count,
+  merge compatibility, empty slot and minimum field army.
+- Evidence: [Heroes of Might and Magic III: Complete decomposition](../games/g-l/heroes-of-might-and-magic-iii-complete.md).
+- Novelty: first isolated for `GAME-0332`; capacity binds typed quantity stacks,
+  not individual members or generic inventory objects.
+
+## CON-653 — Restrict active-troop actions by schedule, hex reach and target legality
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a battle troop may act only on its scheduled turn and only through
+  reachable unblocked hexes or a legal target within its current movement,
+  melee, ranged, ammunition and state restrictions.
+- Includes: manual Heroes of Might and Magic III: Complete tactical battles.
+- Excludes: campaign-map movement; free real-time orders; attacks through blocked
+  geometry; ranged fire with no ammunition.
+- Parameters: active troop, speed turn, footprint, blocked hex, movement range,
+  target, adjacency, ranged eligibility, ammunition and disabled state.
+- Evidence: [Heroes of Might and Magic III: Complete decomposition](../games/g-l/heroes-of-might-and-magic-iii-complete.md).
+- Novelty: first isolated for `GAME-0332`; one scheduled stack's legal action
+  set jointly depends on hex reach, attack mode and live troop state.

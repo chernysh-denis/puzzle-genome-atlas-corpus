@@ -1554,6 +1554,8 @@
   for shortcut slots plus loaded and remaining ammunition shown while the weapon is readied.
 - Additional support: [The Long Dark decomposition](../games/s-z/the-long-dark.md),
   for the selected carried survival item and loaded Distress Pistol state.
+- Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
+  for active and reserve weapons, ammunition or charge and grenade state.
 - Novelty: not assessed.
 
 ## INF-074 — Crafting grid and available recipe state are visible
@@ -1595,6 +1597,8 @@
 - Additional support: [The Long Dark decomposition](../games/s-z/the-long-dark.md),
   for Warmth, Fatigue, Thirst, Hunger, Condition, Stamina and relevant clothing
   state during the timed Challenge route.
+- Additional support: [DEATH STRANDING DIRECTOR'S CUT decomposition](../games/a-f/death-stranding-directors-cut.md),
+  for visible stamina during the opening body-load traversal.
 - Novelty: not assessed.
 
 ## INF-076 — A thrown locator reveals a temporary bearing to a hidden target
@@ -2249,6 +2253,8 @@
   no audio claim.
 - Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
   for visual-only local zombie sight and approach cues; this carrier makes no audio claim.
+- Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
+  for local hostile sight, spatial sound and combat effects.
 - Novelty: not assessed.
 
 ## INF-116 — Live team, score and shared-objective state are visible
@@ -2365,6 +2371,9 @@
   [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md) and
   [Dead by Daylight decomposition](../games/a-f/dead-by-daylight.md), and
   [Team Fortress 2 decomposition](../games/s-z/team-fortress-2.md).
+- Additional support: [Warcraft III: Reign of Chaos decomposition](../games/s-z/warcraft-iii-reign-of-chaos.md),
+  for Thrall's health, mana, experience, level, learned Chain Lightning and
+  readiness state.
 - Additional support: [Left 4 Dead 2 decomposition](../games/g-l/left-4-dead-2.md),
   for controlled-Survivor health, temporary health and status feedback.
 - Additional support: [Destiny 2 decomposition](../games/a-f/destiny-2.md),
@@ -2375,6 +2384,10 @@
   for each hero's health, stress, stats, resistances, status icons and the four equipped skills with their accuracy, damage and critical values.
 - Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
   for the HUD's health bar with its orange portion, gold, cells, equipped gear and stats.
+- Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
+  for visible personal shield and underlying health readiness.
+- Additional support: [Battletoads decomposition](../games/a-f/battletoads.md),
+  for the visible current energy segments before damage, healing or life loss.
 - Novelty: not assessed.
 
 ## INF-120 — Match economy, item logistics and buyback are visible
@@ -2485,6 +2498,13 @@
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
   for the visited-places map and the objective list with its sub-objectives.
+- Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
+  for current mission waypoints and authored route gates.
+- Additional support: [StarCraft II decomposition](../games/s-z/starcraft-ii.md),
+  for the visible `Liberation Day` objective and designated Headquarters target.
+- Additional support: [Warcraft III: Reign of Chaos decomposition](../games/s-z/warcraft-iii-reign-of-chaos.md),
+  for current chapter objectives, route beacons and the final Prophet
+  rendezvous.
 - Novelty: not assessed.
 
 ## INF-126 — Base assignments, resources and worker condition are visible
@@ -2584,6 +2604,8 @@
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Additional support: [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md),
   for visible crafting ingredients, prototype state and required science tier.
+- Additional support: [Animal Crossing: New Horizons decomposition](../games/a-f/animal-crossing-new-horizons.md),
+  for visible DIY recipe knowledge, branch cost, workbench context and tool output.
 - Novelty: not assessed.
 
 ## INF-128 — Ground loot and inventory compatibility are visible
@@ -2613,6 +2635,8 @@
 - Additional support: [The Long Dark decomposition](../games/s-z/the-long-dark.md),
   for searched supplies, clothing or weapon compatibility, carried weight and
   the choice to take or leave route loot.
+- Additional support: [Animal Crossing: New Horizons decomposition](../games/a-f/animal-crossing-new-horizons.md),
+  for visible branches, capture tools, specimen identity and free inventory state.
 - Novelty: not assessed.
 
 ## INF-129 — Survivor count and elimination feed are visible
@@ -2699,6 +2723,8 @@
   crop phase, water and disease.
 - Evidence: [Project Zomboid decomposition](../games/m-r/project-zomboid.md) and
   [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
+- Additional support: [Animal Crossing: New Horizons decomposition](../games/a-f/animal-crossing-new-horizons.md),
+  for the NookPhone and world cues exposing current date, hour, weather and season.
 - Novelty: not assessed.
 
 ## INF-137 — Raid map exposes condition, extraction and remaining time
@@ -3721,15 +3747,21 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the running side view exposes the icon, current support and a
-  bounded forward slice of blocks, gaps, spikes, portals and optional routes,
-  while later authored geometry remains outside the viewport.
-- Includes: the moving Stereo Madness playfield in cube and ship sections.
+- Definition: the running side view exposes the controlled body, current
+  support and a bounded forward slice of blocks, gaps, hazards, transitions
+  and optional routes, while later authored geometry remains outside the
+  viewport.
+- Includes: the moving Stereo Madness playfield in cube and ship sections;
+  the directly steered World 1-1 viewport in original Super Mario Bros.
 - Excludes: simultaneous disclosure of the full level; editor view; hidden
   collision objects; a minimap that reveals the entire future route.
-- Parameters: camera anchor, forward margin, viewport width, scroll speed,
-  object classes, occlusion and visual-effect contrast.
-- Evidence: [Geometry Dash decomposition](../games/g-l/geometry-dash.md).
+- Parameters: camera anchor, automatic or commanded horizontal travel, forward
+  margin, viewport width, scroll speed, object classes, occlusion and contrast.
+- Evidence: [Geometry Dash decomposition](../games/g-l/geometry-dash.md) and
+  [Super Mario Bros. decomposition](../games/s-z/super-mario-bros.md).
+- Additional support: [Battletoads decomposition](../games/a-f/battletoads.md),
+  for the bounded side-view canyon slice, support, gap and forward threat
+  lookahead rather than disclosure of the complete stage.
 - Novelty: first isolated for `GAME-0167`; `INF-001` requires every
   decision-relevant current-board element to be inspectable, whereas this
   auto-run deliberately reveals only a live local horizon.
@@ -3904,6 +3936,11 @@
   [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
 - Additional support: [Forza Horizon 5 decomposition](../games/a-f/forza-horizon-5.md),
   for the live speed, gear and driving-line surface in a fixed Solo circuit.
+- Additional support: [Mario Kart 8 Deluxe decomposition](../games/m-r/mario-kart-8-deluxe.md),
+  for course geometry and speed feedback across road, glider and anti-gravity
+  sections.
+- Additional support: [Gran Turismo decomposition](../games/g-l/gran-turismo.md),
+  for speed, gear and stopping-area cues in original licence B-1.
 - Novelty: first isolated for `GAME-0171`; cargo-driving widgets join speed to
   fuel, rest and damage rather than a race-oriented guidance layer.
 
@@ -3931,6 +3968,10 @@
   [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
 - Additional support: [Forza Horizon 5 decomposition](../games/a-f/forza-horizon-5.md),
   for live place, lap/checkpoint progress, time and nearby Drivatars.
+- Additional support: [Mario Kart 8 Deluxe decomposition](../games/m-r/mario-kart-8-deluxe.md),
+  for current place, lap, course progress and nearby CPU karts.
+- Additional support: [Gran Turismo decomposition](../games/g-l/gran-turismo.md),
+  for the running clock and fixed test target without a rival field.
 - Novelty: first isolated for `GAME-0171`; prior opponent HUD genes do not join
   course progress to vehicle proximity and race position.
 
@@ -3947,7 +3988,9 @@
   Need for Speed Unbound's A+ `Shopping Spree` class, `$0` buy-in, payout table,
   displayed reward and Heat gain; Need for Speed Payback's Story mission, Race
   class and displayed `LV180` entry terms; Need for Speed Underground's Race 1
-  Circuit, Olympic Square, two-lap, difficulty and Bank terms.
+  Circuit, Olympic Square, two-lap, difficulty and Bank terms; Mario Kart 8
+  Deluxe's 150 cc Mushroom Cup, fixed course set, vehicle packet and assistance
+  state.
 - Excludes: undiscovered optional content; live race position; post-completion
   Race Customizer options unavailable on first play.
 - Parameters: marker, location, event type, route, car theme, class, unlock,
@@ -4007,6 +4050,8 @@
   and [Need for Speed Underground decomposition](../games/m-r/need-for-speed-underground.md).
 - Additional support: [Forza Horizon 5 decomposition](../games/a-f/forza-horizon-5.md),
   for the classified result and retained ordinary-race reward transition.
+- Additional support: [Mario Kart 8 Deluxe decomposition](../games/m-r/mario-kart-8-deluxe.md),
+  for per-race points, cumulative standings, trophy and star class.
 - Novelty: first isolated for `GAME-0171`; delivery results expose contract
   damage and pay, not competitive driving performance and festival progress.
 
@@ -4322,6 +4367,12 @@
 - Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md)
   [Command & Conquer Remastered Collection decomposition](../games/a-f/command-and-conquer-remastered-collection.md),
   and [Stellaris decomposition](../games/s-z/stellaris.md).
+- Additional support: [StarCraft II decomposition](../games/s-z/starcraft-ii.md),
+  for the command view exposing selection, health and available commands even
+  though the scoped mission has no player economy or production.
+- Additional support: [Warcraft III: Reign of Chaos decomposition](../games/s-z/warcraft-iii-reign-of-chaos.md),
+  for the command view exposing selected-unit health and available orders in a
+  scoped chapter without player economy or production.
 - Novelty: first isolated for `GAME-0179` and generalised by
   `TAXONOMY_CHANGE_036`; a fixed number of stockpiles, population and an Age
   label are carrier parameters rather than the information boundary;
@@ -4340,6 +4391,12 @@
 - Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
 - Additional support: [Command & Conquer Remastered Collection decomposition](../games/a-f/command-and-conquer-remastered-collection.md),
   for remembered terrain remaining distinct from current hostile occupancy.
+- Additional support: [StarCraft II decomposition](../games/s-z/starcraft-ii.md),
+  for explored mission terrain persisting while hostile state outside current
+  allied sight returns to fog.
+- Additional support: [Warcraft III: Reign of Chaos decomposition](../games/s-z/warcraft-iii-reign-of-chaos.md),
+  for explored prologue terrain persisting while live hostile occupancy beyond
+  current allied sight returns to fog.
 - Novelty: first isolated for `GAME-0179`; remembered generated terrain is separated from live enemy occupancy in a command-scale RTS view.
 
 ## INF-226 — Cockpit instruments expose flight and engine state
@@ -4521,6 +4578,9 @@
 - Parameters: camera region, avatar, enemy, pickup, chest, stage item, effect,
   damage feedback and occlusion.
 - Evidence: [Vampire Survivors decomposition](../games/s-z/vampire-survivors.md).
+- Additional support: [Battletoads decomposition](../games/a-f/battletoads.md),
+  for visible local enemies, flies, Walker parts, Dragon ride state and boss
+  rocks that support the next combat decision.
 - Novelty: first isolated for `GAME-0183`; local spatial legibility is central
   even though attacks execute without aim or fire commands.
 
@@ -4668,17 +4728,18 @@
 - Novelty: first isolated for `GAME-0190`; a consumable analog probe reveals
   graded proximity through the same motion that risks destroying it.
 
-## INF-244 — Campaign view exposes army, settlement and quest state
+## INF-244 — Strategic view exposes force, settlement and objective state
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the strategic interface exposes the selected army's route and
-  remaining movement, known terrain and settlements, treasury, owned building
-  slots and timers, current mission instruction and the next revealed marker.
-- Includes: the Kislev Refuge-to-Beacon segment of Total War: WARHAMMER III's
-  scoped The Lost God prologue.
+- Definition: the strategic interface exposes the selected force's route and
+  remaining movement, known terrain and fog, date, treasury/resources, owned
+  settlement buildings or capacity, recruit stock, army composition, progression
+  and current objective.
+- Includes: the scoped campaign surfaces of Total War: WARHAMMER III and Heroes
+  of Might and Magic III: Complete.
 - Excludes: exact hidden hostile positions beyond current vision; battle-unit
   morale; an external walkthrough.
 - Parameters: army, route, movement, map, fog, settlement, building, timer,
@@ -4826,6 +4887,8 @@
   timing and retry/continue choice.
 - Evidence: [BeamNG.drive decomposition](../games/a-f/beamng-drive.md) and
   [Trackmania decomposition](../games/s-z/trackmania.md).
+- Additional support: [Gran Turismo decomposition](../games/g-l/gran-turismo.md),
+  for the elapsed result reported after licence B-1 settles.
 - Novelty: first isolated for `GAME-0195`; existing driving result information
   is coupled to Festival rewards, while this record is a standalone retained
   timed evaluation.
@@ -4967,6 +5030,8 @@
   already represented by personal survival information.
 - Parameters: surface, reach, pose, grip, motion, hazard cue, rest, fall and injury.
 - Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Additional support: [DEATH STRANDING DIRECTOR'S CUT decomposition](../games/a-f/death-stranding-directors-cut.md),
+  for surface, body-pose, sway, footing and fall-risk feedback without a solved route.
 - Novelty: first isolated for `GAME-0203`; the physical avatar itself is the
   main instrument for reading an unmarked generated climbing route.
 
@@ -5152,6 +5217,11 @@
 - Parameters: objective step, instruction, highlighted actor or command,
   completion predicate, warning, acknowledgement and next-step reveal.
 - Evidence: [Cossacks 3 decomposition](../games/a-f/cossacks-3.md).
+- Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
+  for contextual control, interaction and objective instructions.
+- Additional support: [Warcraft III: Reign of Chaos decomposition](../games/s-z/warcraft-iii-reign-of-chaos.md),
+  for the narrator exposing one current movement, grouping, combat or ability
+  lesson and acknowledging it before the next step.
 - Novelty: first isolated for `GAME-0209`; a staged teaching surface reveals
   one causal RTS dependency and its completion transition at a time.
 
@@ -5320,24 +5390,29 @@
 - Novelty: first isolated for `GAME-0222`; one visible action-game surface joins
   expiring reward pressure with the two independent preparations for a draw.
 
-## INF-277 — Cockpit exposes systems, target and incoming threats
+## INF-277 — Cockpit exposes live systems, target, objective and threats
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: the first-person cockpit and enabled Standard instruments expose
-  current power distribution, shield facings, hull, auxiliary and
-  countermeasure readiness, selected-target state, lock progress, objective
-  direction and incoming-missile warning without revealing hidden future spawns.
-- Includes: the non-VR Standard-instruments presentation in Mission 1.
+- Definition: a directly controlled craft's cockpit instruments expose the
+  currently applicable power distribution, shield and hull state, weapon or
+  auxiliary readiness, selected target, objective direction and visible threat
+  warnings without revealing hidden future spawns.
+- Includes: the non-VR Standard-instruments presentation in Squadrons Mission 1;
+  Frontier power, shield, hull, weapon, target and objective presentation in
+  Starfield's `One Small Step`.
 - Excludes: an external walkthrough; hidden enemy plans; VR head position;
   multiplayer squad telemetry; purely cinematic information.
-- Parameters: power channels, shields, hull, auxiliaries, countermeasure,
+- Parameters: power channels, shields, hull, weapons, auxiliaries, countermeasure,
   selected target, lock, objective marker, threat warning and result feedback.
 - Evidence: [STAR WARS: Squadrons decomposition](../games/s-z/star-wars-squadrons.md).
+- Additional support: [Starfield decomposition](../games/s-z/starfield.md).
 - Novelty: first isolated for `GAME-0225`; one diegetic cockpit surface joins
   flight resources, target solution and time-critical defence warnings.
+- Change note: wording generalised by
+  [`TAXONOMY_CHANGE_075`](../../research/taxonomy-changes/TAXONOMY_CHANGE_075.md).
 
 ## INF-278 — Shared-rule claim exposes modifier and claimant consequence
 
@@ -6735,3 +6810,400 @@
   supported by the PC Definitive Edition AP guide and written ship route.
 - Novelty: first isolated for `GAME-0301`; this opening's actionable combat
   display lacks the Break-state boundary of the nearest existing HUD gene.
+
+## INF-344 — Race HUD exposes item order, coins and incoming threats
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during a live race, the interface exposes the active held item,
+  any reserve item, current course-coin total and warnings for eligible incoming
+  threats, while leaving future random item results and rival inputs concealed.
+- Includes: Mario Kart 8 Deluxe's two item slots, coin counter and Red/Spiny
+  Shell or comparable incoming-attack warnings in the scoped Grand Prix.
+- Excludes: current place and lap (`INF-205`); the post-race point table;
+  exact hidden item probabilities; an omniscient map of every projectile.
+- Parameters: active slot, reserve slot, item identity, coin total, threat
+  class, warning direction, urgency, visibility and concealment horizon.
+- Evidence: [Mario Kart 8 Deluxe decomposition](../games/m-r/mario-kart-8-deluxe.md),
+  using Nintendo's item guidance, update notes and preserved race manual.
+- Novelty: first isolated for `GAME-0309`; one racing surface joins an ordered
+  transient inventory and capped speed resource to reactive attack warnings.
+
+## INF-345 — Cargo interface exposes load, condition and delivery settlement
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: cargo and result interfaces expose carried package identities,
+  body positions, total mass, capacity, centre of gravity, container or cargo
+  condition and the accepted order's evaluation sufficiently to audit the
+  current load and terminal result.
+- Includes: the scoped DEATH STRANDING DIRECTOR'S CUT opening order.
+- Excludes: hidden future weather; an external package manifest; a truck-only
+  economic settlement; undiscovered cargo outside sensor range.
+- Parameters: package, position, mass, limit, centre of gravity, container
+  condition, cargo condition, accepted quantity, grade and Likes.
+- Evidence: [DEATH STRANDING DIRECTOR'S CUT decomposition](../games/a-f/death-stranding-directors-cut.md).
+- Novelty: first isolated for `GAME-0310`; one evidence chain joins spatial
+  body-load state to the condition-aware accepted delivery result.
+
+## INF-346 — Scan and map expose terrain risk and an unsolved marked route
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: local scan feedback and a topographic map expose terrain classes,
+  elevation, nearby eligible cargo and the player's linked route markers while
+  leaving exact traversability and route success unresolved.
+- Includes: Odradek terrain/cargo feedback and linked map markers in the scoped
+  DEATH STRANDING DIRECTOR'S CUT opening order.
+- Excludes: a complete solved path; exact future weather; permanent visibility
+  of unscanned cargo; road turn-by-turn navigation.
+- Parameters: terrain class, elevation, hazard colour, cargo marker, scan
+  lifetime, route marker, line segment and world projection.
+- Evidence: [DEATH STRANDING DIRECTOR'S CUT decomposition](../games/a-f/death-stranding-directors-cut.md).
+- Novelty: first isolated for `GAME-0310`; transient local survey and authored
+  topographic planning share one incomplete route-reading surface.
+
+## INF-347 — Platform stage exposes score, attempt resources, time and lives
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a live platform-stage interface exposes accumulated score,
+  current route-resource count, stage identity when applicable, elapsed or
+  remaining attempt time and finite life stock while world or avatar feedback
+  discloses relevant temporary capability and checkpoint state.
+- Includes: the original Super Mario Bros. World 1-1 HUD plus small, Super,
+  Fiery and temporary Star presentation; original Sonic the Hedgehog's score,
+  elapsed time, rings, lives, temporary-state feedback, activated lamppost and
+  signpost closeout.
+- Excludes: hidden future block contents; complete future route geometry; a
+  results-only score table; emulator overlays.
+- Parameters: score, route resource, area, elapsed or remaining time, lives,
+  avatar/world state, checkpoint feedback, temporary-state feedback and update
+  timing.
+- Evidence: [Super Mario Bros. decomposition](../games/s-z/super-mario-bros.md),
+  using Nintendo's preserved manual and pinned original-game disassembly.
+- Additional support: [Sonic the Hedgehog decomposition](../games/s-z/sonic-the-hedgehog.md),
+  using SEGA's preserved manual and pinned deterministic disassembly.
+- Novelty: first isolated for `GAME-0311`; one compact stage surface joins
+  route identity and deadline with score economy and capability state.
+
+## INF-348 — Fixed arena and HUD expose assault, base and life state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: one fixed top-down combat surface exposes the current arena,
+  protected base, visible vehicles, projectiles, terrain and created bonus
+  together with stage, remaining-hostile and player-life status, while declared
+  occluding terrain may conceal bodies and future random results stay unknown.
+- Includes: Tank 1990 Stage 1 with its eagle, tanks, bullets, visible bonus,
+  vegetation occlusion and stage/enemy/life counters.
+- Excludes: a camera showing only a moving local slice; complete knowledge of
+  hidden tanks under vegetation; the next random bonus identity; an external
+  emulator overlay.
+- Parameters: arena extent, visible entities, occluding terrain, stage label,
+  hostile reserve display, life display, score and update timing.
+- Evidence: [Tank 1990 decomposition](../games/s-z/tank-1990.md), using the
+  pinned inherited display logic and corroborating reimplementation.
+- Novelty: first isolated for `GAME-0313`; the whole defended arena and its
+  finite-assault status share one surface with an explicit occlusion exception.
+
+## INF-349 — Visor motion tracker exposes nearby moving contacts by allegiance
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a continuously available avatar-centred tracker exposes the
+  relative bearing of nearby eligible moving or firing entities and classifies
+  friendly versus hostile contacts, while withholding elevation, exact
+  identity, route and stationary actors.
+- Includes: Halo 3's visor Motion Tracker during the scoped original-Xbox-360
+  `Sierra 117` mission.
+- Excludes: direct local sight; an omniscient map; a portable sensor that must
+  be raised and reports only one anonymous direction/distance reading; a
+  teammate-shared spotted-target network; stationary-contact disclosure.
+- Parameters: observer, range, eligible motion or fire, relative bearing,
+  allegiance class, vehicle-size marker, update interval, stationary state,
+  elevation and concealed identity.
+- Evidence: [Halo 3 decomposition](../games/g-l/halo-3.md), using the original
+  Xbox 360 manual and licensed launch-era HUD guide.
+- Novelty: first isolated for `GAME-0315`; the passive visor layer classifies
+  multiple current moving contacts by allegiance but deliberately omits their
+  elevation and stationary presence.
+
+## INF-350 — Brawler HUD and viewpoint expose life, combat form and boss-counter state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a scrolling combat-stage presentation joins current health,
+  finite lives and score with the controlled body's visible ordinary, held-tool
+  or mounted form; a declared boss may replace that view with its aiming cue
+  and cumulative counter-damage state without revealing future trajectories.
+- Includes: Ragnarok's Canyon exposing Toad energy, lives and points, the held
+  Walker leg or ridden Dragon, then Tall Walker's crosshair, firing cue and
+  increasingly cracked boss-view screen.
+- Excludes: a platform HUD whose defining route state is coins and a countdown;
+  a fixed whole-arena hostile-reserve display; hidden off-screen enemies; exact
+  future boss shots or collision results.
+- Parameters: health display, life stock, score, combat form, held capability,
+  mount state, boss viewpoint, aim cue, cumulative damage and update timing.
+- Evidence: [Battletoads decomposition](../games/a-f/battletoads.md), using the
+  original manual's scoreboard and independent written Stage 1 boss accounts.
+- Novelty: first isolated for `GAME-0318`; one stage surface must survive a
+  temporary viewpoint reversal while keeping finite-life and counter progress
+  readable.
+
+## INF-351 — Treasure map and ship chart expose an unresolved correspondence
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: one held treasure map exposes an unlabeled destination outline,
+  local landmarks and a marked target while a separate ship chart exposes
+  named world geography, vessel position and player marks; the player must
+  infer the correspondence because neither surface identifies or routes it.
+- Includes: matching the Gold Hoarders Tutorial Voyage's X-marks-the-spot map
+  to a small island on the Sea of Thieves Sloop chart before sailing and digging.
+- Excludes: a quest marker that names the correct destination; automatic GPS
+  routing; an explored minimap that already overlays the target; an external map.
+- Parameters: treasure-map silhouette, landmark, marked point, chart scale,
+  island geometry, names, vessel position, player mark and absent route solution.
+- Evidence: [Sea of Thieves decomposition](../games/s-z/sea-of-thieves.md),
+  using the official Gold Hoarders guide and corroborated tutorial notifications.
+- Novelty: first isolated for `GAME-0319`; the decision depends on comparing
+  two incomplete spatial representations rather than reading one disclosed marker.
+
+## INF-352 — Wildlife cues expose target state and caught identity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: local presentation distinguishes currently targetable wildlife
+  through its visible body or water shadow, exposes the active capture cue and
+  reports a successful specimen's species plus prior catalogue credit, while
+  withholding the identity of an unseen or future instance.
+- Includes: fish shadows, bobber nibbles and bite, visible insects, catch reveal
+  and Critterpedia credit in Animal Crossing: New Horizons.
+- Excludes: a complete future spawn table; hidden exact catch probability;
+  museum-completion state; generic world sight with no capture-state cue.
+- Parameters: target representation, cue sequence, species reveal, new/known
+  catalogue state, habitat, occlusion, despawn and feedback timing.
+- Evidence: [Animal Crossing: New Horizons decomposition](../games/a-f/animal-crossing-new-horizons.md),
+  using Nintendo's beginner guide and corroborating first-day routes.
+- Novelty: first isolated for `GAME-0320`; the same information boundary spans
+  pre-capture targeting, action timing and post-capture identity credit.
+
+## INF-353 — Active-reload indicator exposes timing bands and grade
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during a reload, the combat interface exposes the moving active-
+  reload marker and authored success/perfect/failure regions before the optional
+  second press, then reports the accepted grade and changed readiness outcome.
+- Includes: the original Xbox 360 Gears of War active-reload indicator and its
+  success, perfect and failure feedback.
+- Excludes: ammunition count alone; a hidden reload-speed modifier; weapon heat
+  cooling with no reserve-ammunition transfer; exact future hostile action.
+- Parameters: selected weapon, marker, timing track, success region, perfect
+  region, failure region, accepted grade and feedback duration.
+- Evidence: [Gears of War decomposition](../games/g-l/gears-of-war.md), using
+  the original manual's HUD and active-reload pages.
+- Novelty: first isolated for `GAME-0321`; the current finite-ammunition reload
+  exposes a three-grade intervention surface rather than only remaining stock.
+
+## INF-354 — Late clearance exposes the exact remaining-hostile count
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: once a full-clear objective reaches its declared low remaining
+  threshold, the quest surface reports the exact number of required living
+  hostiles still preventing settlement without revealing their positions.
+- Includes: the five-or-fewer monster counter in Diablo II: Resurrected's
+  scoped `Den of Evil` quest.
+- Excludes: a permanent marker over every enemy; a boss health bar; the total
+  number before the threshold; a counter that ignores reanimated hostiles.
+- Parameters: objective, threshold, required hostile set, current living count,
+  update timing, concealment and settlement value.
+- Evidence: [Diablo II: Resurrected decomposition](../games/a-f/diablo-ii-resurrected.md).
+- Novelty: first isolated for `GAME-0322`; exact quantity arrives only for the
+  final search and narrows omission without disclosing spatial answers.
+
+## INF-355 — Command surface exposes roster assignment and power-up gauge state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the joined stage HUD and paused command surface expose the
+  directly controlled roster member and finite life stock, that member's
+  ordered power-up gauge and active tier, and every available member's current
+  direct-control, unused or autonomous-plan assignment before confirmation.
+- Includes: Contra Force's one-player HUD and Command Select surface during the
+  scoped first mission.
+- Excludes: concealed future enemies; a match-draft interface before play;
+  equipment statistics outside the active row; exact future partner pathing or
+  attack targets; a life display with no roster or gauge state.
+- Parameters: roster, controlled member, life stock, ordered gauge, highlight,
+  active tier, assignment, available plans, confirmation and return to play.
+- Evidence: [Contra Force decomposition](../games/a-f/contra-force.md), using
+  the original North American NES manual's display and command rules.
+- Novelty: first isolated for `GAME-0324`; one actionable surface must make a
+  character-local upgrade row and mutually exclusive direct/support roster
+  roles legible before either selection changes live play.
+
+## INF-356 — Dungeon display joins current room, acquired outline and compass objective
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the live dungeon information surface distinguishes the actor's
+  current room and explored route, the authored room outline supplied by an
+  acquired map, and the objective position supplied by an acquired compass,
+  alongside the health, currency, key and selected-item state needed for the
+  next room decision.
+- Includes: The Legend of Zelda's scoped Level-1 Eagle display after collecting
+  its map and compass on the original North American NES ruleset.
+- Excludes: exact enemy or drop contents of unentered rooms; an external
+  walkthrough; a map that automatically moves the actor; future boss attacks;
+  an item bar with no dungeon-location state.
+- Parameters: current room, explored cells, room outline, objective marker,
+  health, currency, key count, selected item, acquisition state and concealment.
+- Evidence: [The Legend of Zelda decomposition](../games/s-z/the-legend-of-zelda.md),
+  using Nintendo's preserved original manual and corroborating Level-1 route.
+- Novelty: first isolated for `GAME-0325`; one compact room-decision surface
+  joins the actor's local position with two separately earned layers of
+  dungeon navigation disclosure.
+
+## INF-357 — Near-camera platform route exposes typed crates and attempt state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a fixed near-camera platform view exposes the controlled body,
+  immediate forward/depth support, visible enemies, crate classes and pickups
+  together with current fruit, life, protection and destroyed-crate state,
+  while later geometry, hidden contents and untriggered linked bodies remain
+  concealed.
+- Includes: the original Crash Bandicoot `N. Sanity Beach` view and attempt
+  presentation during the scoped all-crate run.
+- Excludes: a side-view camera whose left edge commits passed terrain; a whole
+  level map; exact future enemy motion; showing a linked crate bridge before
+  its switch; an external walkthrough overlay.
+- Parameters: camera, depth horizon, support, visible actors, crate symbols,
+  fruit, lives, masks, destroyed count, checkpoint feedback and concealment.
+- Evidence: [Crash Bandicoot decomposition](../games/a-f/crash-bandicoot.md),
+  using the original manual and corroborating written first-level route.
+- Novelty: first isolated for `GAME-0326`; the decision surface couples a
+  forward/depth platform slice to the mutable-object and finite-attempt state
+  needed for an optional exhaustive clear.
+
+## INF-358 — Side-view stage and transient counters expose pair and completion state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the live side-view stage exposes the active and following paired
+  bodies, mounted state, immediate terrain, hostiles, portable objects and
+  pickups; event-triggered counters and later map feedback expose collectible,
+  life, checkpoint, bonus-discovery and stage-completion state while concealed
+  entrances and future route geometry remain hidden.
+- Includes: original Donkey Kong Country's scoped `Jungle Hijinxs!` view,
+  momentary banana, K-O-N-G and life counters, Star Barrel feedback, paired or
+  mounted bodies and completed-stage exclamation marker.
+- Excludes: a whole-stage map; permanent counters for every hidden object;
+  exact future enemy motion; revealing a sensitive wall before interaction; an
+  external walkthrough overlay.
+- Parameters: viewport, active body, follower, mount, local geometry, visible
+  actors and objects, counter trigger, counter duration, checkpoint feedback,
+  discovered-bonus set, map marker and concealment.
+- Evidence: [Donkey Kong Country decomposition](../games/a-f/donkey-kong-country.md),
+  using Nintendo's preserved original manual and corroborating first-stage
+  route analysis.
+- Novelty: first isolated for `GAME-0329`; one decision surface must relate a
+  persistent two-body buffer and optional mounted body to transient counters
+  and a later retained completeness marker without disclosing the hidden
+  detours in advance.
+
+## INF-359 — Carried radio static warns of an anonymous nearby threat
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while one portable sensor is carried and enabled, its changing
+  static warns that an eligible hostile is nearby without disclosing exact
+  bearing, identity, coordinate, route or a named distance band.
+- Includes: the radio warning around monsters during Silent Hill 2's scoped
+  Eastern South Vale route in the 2024 PlayStation 5 remake.
+- Excludes: ordinary spatial footsteps; music with declared proximity bands;
+  a tracker that plots relative bearing or allegiance; a detector that gives
+  direction or distance to hidden loot; an omniscient enemy marker.
+- Parameters: sensor, enabled state, eligible hostile, local range, warning
+  intensity, occlusion, suppressed state and withheld fields.
+- Evidence: [Silent Hill 2 (2024 remake) decomposition](../games/s-z/silent-hill-2-2024.md),
+  using PlayStation's official nearby-monster radio description and
+  corroborating written Eastern South Vale routes.
+- Novelty: first isolated for `GAME-0330`; existing threat-audio and tracker
+  boundaries either encode bands, bearing, allegiance or ordinary spatial
+  events, while this carried sensor deliberately reports only anonymous nearby
+  presence.
+
+## INF-360 — Hand scanner exposes target eligibility and survey progress
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while local survey mode is active, the interface distinguishes
+  eligible flora, fauna and mineral targets, exposes whether one sample was
+  accepted and shows retained survey progress without revealing unobserved
+  target locations.
+- Includes: Starfield hand-scanner feedback for one Kreet sample during `One
+  Small Step`.
+- Excludes: a solved external map; Subnautica's held blueprint-fragment ring;
+  remote planet resource totals; hostile identity scanning.
+- Parameters: scanner mode, target class, eligibility, range, accepted sample,
+  class progress, location progress and completion state.
+- Evidence: [Starfield decomposition](../games/s-z/starfield.md).
+- Novelty: first isolated for `GAME-0331`; one instant local observation advances
+  a retained ecological or mineral survey rather than a technology blueprint.
+
+## INF-361 — Battle view exposes active troop, hex reach and stack state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the tactical battle view exposes battlefield hexes and obstacles,
+  active troop, creature identity, count and health, speed, reachable movement,
+  ammunition, legal targets and resolved damage without disclosing the exact
+  future random roll.
+- Includes: manual Heroes of Might and Magic III: Complete battles.
+- Excludes: Adventure Map economy; a complete future initiative simulation;
+  exact hidden damage result before commitment; an external calculator.
+- Parameters: battlefield, hex, obstacle, active troop, count, health, speed,
+  reach, ammunition, target legality, resolved damage and hidden roll.
+- Evidence: [Heroes of Might and Magic III: Complete decomposition](../games/g-l/heroes-of-might-and-magic-iii-complete.md).
+- Novelty: first isolated for `GAME-0332`; the decision surface joins a
+  quantity-bearing troop, its scheduled authority and current hex legality.

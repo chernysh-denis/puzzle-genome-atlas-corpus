@@ -308,6 +308,8 @@
 - Evidence: [Cut the Rope decomposition](../games/a-f/cut-the-rope.md),
   [Bonfire Peaks decomposition](../games/a-f/bonfire-peaks.md) and
   [Golf Peaks decomposition](../games/g-l/golf-peaks.md).
+- Additional support: [DEATH STRANDING DIRECTOR'S CUT decomposition](../games/a-f/death-stranding-directors-cut.md),
+  for committing required Smart Drugs to Capital Knot City's fixed terminal.
 - Novelty: not assessed.
 
 ## OBJ-015 — Repeatedly produce exact target assembly
@@ -1563,6 +1565,9 @@
 - Excludes: defeating an optional boss; reaching but not crossing the threshold; bypassing the scoped guardian; full-game completion.
 - Parameters: required capabilities or gates, guardian, victory state, opened threshold, next region and retained progression.
 - Evidence: [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md) and [Elden Ring decomposition](../games/a-f/elden-ring.md).
+- Additional support: [Battletoads decomposition](../games/a-f/battletoads.md),
+  for clearing Ragnarok's Canyon, defeating Tall Walker and crossing into
+  Wookie Hole with eligible run state retained.
 - Novelty: not assessed.
 
 ## OBJ-081 — Complete ordered prologue hunts and reach the next region boundary
@@ -3027,6 +3032,9 @@
   interaction, completion display, save boundary, successor and retention.
 - Evidence: [Resident Evil 4 decomposition](../games/m-r/resident-evil-4-2023.md)
   and [Alien: Isolation decomposition](../games/a-f/alien-isolation.md).
+- Additional support: [Warcraft III: Reign of Chaos decomposition](../games/s-z/warcraft-iii-reign-of-chaos.md),
+  for satisfying the ordered mandatory command tutorial, reaching the Prophet
+  beacon and exposing `Departures` without entering the successor chapter.
 - Novelty: first isolated for `GAME-0249`; the positive terminal requires an
   authored chapter boundary and retained successor control without importing a
   boss sequence, mission-conduct score or full-campaign ending.
@@ -3216,20 +3224,22 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: complete the attempt by opening the current region's gated exit,
-  taking it, and arriving in the next region with the run's accumulated
-  modifiers, health state and escalation carried forward; the objective is the
-  transition itself rather than any amount collected, defeated or survived
-  before it.
+- Definition: complete the attempt by satisfying the current region's declared
+  exit event, taking its closeout and arriving in the next region with eligible
+  accumulated run state carried forward; the objective is the transition
+  itself rather than any amount collected, defeated or survived before it.
 - Includes: charging the Teleporter, defeating its boss and taking the opened
   exit into the second environment with the run's item set and rising
-  coefficient retained, in Risk of Rain 2's bounded first-environment route.
+  coefficient retained, in Risk of Rain 2's bounded first-environment route;
+  contacting the World 1-1 flagpole, entering the castle and reaching World
+  1-2 with eligible run state retained in original Super Mario Bros.
 - Excludes: surviving a declared duration; clearing every hostile in the region;
   reaching a named location that needs no event; completing a delivery quota;
   reaching an authored narrative ending.
-- Parameters: region, exit event, the state that must carry forward and the
-  escalation the transition itself applies.
-- Evidence: [Risk of Rain 2 decomposition](../games/m-r/risk-of-rain-2.md).
+- Parameters: region, exit event, closeout, successor, state carried forward,
+  reset state and any escalation the transition itself applies.
+- Evidence: [Risk of Rain 2 decomposition](../games/m-r/risk-of-rain-2.md) and
+  [Super Mario Bros. decomposition](../games/s-z/super-mario-bros.md).
 - Novelty: first isolated for `GAME-0270`; leaving is the goal and staying is the
   temptation, so the objective is defined against the enrichment the player wants
   to keep doing.
@@ -3552,3 +3562,401 @@
   official Xbox One carry/board controls and independent Mission 1 route.
 - Novelty: first isolated for `GAME-0306`; a protected living subject and
   rescuer have distinct required departure states at the same active vehicle.
+
+## OBJ-179 — Buy a first enclosure upgrade through a care-and-sale cycle
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: contain and feed a compatible creature, recover its produced
+  output, sell enough output to make a declared enclosure improvement
+  affordable, and purchase that improvement so its ownership is registered.
+- Includes: selling at least enough Pink Plorts to raise a fresh Slime Rancher
+  Adventure balance from its initial 250 Newbucks to the 350 needed for High
+  Walls, then buying High Walls for the starter corral.
+- Excludes: treating the starting 250 as earned output; merely reaching the
+  displayed price; buying a Garden instead; later automated collection;
+  maximising market income or completing the wider open-ended campaign.
+- Parameters: creature, enclosure, food, produced item, sale value, starting
+  balance, target price, purchased improvement and registration state.
+- Evidence: [Slime Rancher decomposition](../games/s-z/slime-rancher.md),
+  official product description plus original-game beginner routes that state
+  the starting ranch loop and High Walls price.
+- Novelty: first isolated for `GAME-0307`; one finite terminal joins creature
+  care, recoverable output, sale income and a concrete containment purchase.
+
+## OBJ-180 — Win a fixed multi-race cup by cumulative points
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete every race in one fixed ordered cup, accumulate the
+  highest total of place-derived points across those results and retain the
+  corresponding gold trophy after final settlement.
+- Includes: winning Mario Kart 8 Deluxe's four-race 150 cc Mushroom Cup and
+  retaining its gold trophy, without requiring a perfect sixty-point result or
+  three-star rating.
+- Excludes: winning one isolated race; completing the last race first while
+  losing the cup total; a campaign stage whose progress is rivals passed rather
+  than place points; maximising an unbounded score; winning every cup.
+- Parameters: cup, ordered race set, valid results, point table, cumulative
+  totals, rank, trophy, optional rating and retained result.
+- Evidence: [Mario Kart 8 Deluxe decomposition](../games/m-r/mario-kart-8-deluxe.md),
+  using Nintendo's Grand Prix manual and corroborating Deluxe cup records.
+- Novelty: first isolated for `GAME-0309`; several complete competitive race
+  results are necessary inputs to one aggregate trophy objective.
+
+## OBJ-181 — Clear one authored level and retain credited optional progress
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: reach one authored level's ordinary exit, accept its closeout and
+  return to a selectable map state where level completion and every optional
+  collectible already credited are retained, without requiring the complete
+  optional set for the exit itself.
+- Includes: breaking Sky Garden's final glass in ASTRO BOT and returning to its
+  galaxy-map state with the level complete and acquired Bots and Puzzle Pieces
+  still credited.
+- Excludes: a fixed exit that retains no level result; requiring every
+  collectible before the exit activates; advancing directly into a successor
+  stage with continuous run state; completing a whole campaign.
+- Parameters: level, exit event, closeout, map state, completion mark, optional
+  roster, retained subset, replay availability and successor nodes.
+- Evidence: [ASTRO BOT decomposition](../games/a-f/astro-bot.md), using the
+  official map/level structure and independent written Sky Garden route,
+  replayability and persistence evidence.
+- Novelty: first isolated for `GAME-0312`; ordinary completion and incomplete
+  optional collection settle together into a replayable map record rather than
+  one being a prerequisite of the other.
+
+## OBJ-182 — Analyse, build and retain one assigned first shelter
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one fresh survival opening by analysing the materials
+  needed to learn its tool and shelter dependencies, crafting the harvesting
+  capability, gathering and committing the shelter bill, completing the first
+  shelter tutorial, assigning the finished fixture as the respawn point and
+  accepting the resulting world in retained save history.
+- Includes: Grounded from first Kid Case control through `Build Shelter`, one
+  assigned Lean-To, completed `Settling In` and an accepted manual save.
+- Excludes: placing only the unfinished plan; building without respawn
+  assignment; sleeping; executing death and respawn; requiring a save command
+  at the shelter itself; completing the wider story.
+- Parameters: fresh world, material samples, recipe unlocks, harvesting tool,
+  shelter design and bill, tutorial states, assigned respawn fixture, save
+  slot, retained world and unverified reload state.
+- Evidence: [Grounded decomposition](../games/g-l/grounded.md), official
+  new-game/save notes and current tutorial, analyzer and Lean-To references.
+- Novelty: first isolated for `GAME-0314`; the constructed shelter is preceded
+  by charged material analysis and followed by a separate respawn assignment,
+  while retention belongs to playthrough save history rather than a
+  fixture-bound save command.
+
+## OBJ-183 — Rescue the captive ally and extract into the named successor mission
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one authored campaign mission by reaching and releasing
+  its captive allied leader, settling the required hostile response, boarding
+  the admitted extraction transport and retaining the named successor mission
+  as the ordinary campaign continuation.
+- Includes: releasing Sergeant Johnson, defeating the required dam
+  counterattack, boarding the Pelican and advancing from Halo 3 `Sierra 117`
+  toward `Crow's Nest` in the scoped original Xbox 360 campaign.
+- Excludes: reaching the captive without releasing them; rescue without the
+  required counterattack; seeing transport without boarding; player-controlled
+  vehicle traversal; completing the whole campaign; optional skulls, scoring
+  or collectibles.
+- Parameters: mission, captive, release interaction, hostile response,
+  settlement predicate, extraction transport, boarding region, mission result,
+  successor and retention boundary.
+- Evidence: [Halo 3 decomposition](../games/g-l/halo-3.md), using the licensed
+  mission guide and corroborating Sierra 117 route references.
+- Novelty: first isolated for `GAME-0315`; captive release and mandatory
+  response are necessary predecessors to an interaction-gated extraction that
+  names the next retained campaign mission.
+
+## OBJ-184 — Pass one bounded acceleration-and-braking licence test
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one assigned driving-skill test by accelerating its
+  supplied vehicle across the fixed approach, bringing the complete vehicle to
+  rest inside the declared goal area before the deadline and reaching the
+  accepted test result.
+- Includes: the first passed attempt of Gran Turismo `SCUS-94194` licence B-1
+  with the supplied Mazda Demio.
+- Excludes: earning the complete B licence; winning a rival race; crossing a
+  track finish while moving; obtaining a particular optional grade; repeating
+  the test to optimise time.
+- Parameters: test, supplied vehicle, approach, stopping area, deadline,
+  accepted result, disqualification and broader-licence exclusion.
+- Evidence: [Gran Turismo decomposition](../games/g-l/gran-turismo.md), using
+  original-product and contemporary licence-test evidence.
+- Novelty: first isolated for `GAME-0316`; the positive terminal is one passed
+  acceleration/braking examination rather than a race, route or full licence.
+
+## OBJ-185 — Destroy one designated mission structure and retain the successor
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one bounded command mission by destroying its single
+  designated hostile structure while every declared mission-critical actor
+  remains viable, accept mission completion and retain access to the named
+  campaign successor.
+- Includes: destroying the Logistics Headquarters while Raynor survives in
+  StarCraft II's `Liberation Day`, then advancing to `The Outlaws`.
+- Excludes: eliminating every hostile on the map; destroying optional
+  structures; resolving a character target and returning to a separate exit;
+  building a structure; completing the whole campaign.
+- Parameters: designated structure, controlled force, critical actors,
+  destruction predicate, optional targets, mission settlement and successor.
+- Evidence: [StarCraft II decomposition](../games/s-z/starcraft-ii.md), using
+  Blizzard's command documentation and corroborated written mission records.
+- Novelty: first isolated for `GAME-0317`; a single structure directly owns the
+  campaign terminal while critical-actor survival remains conjunctive and
+  ordinary hostile clearance is unnecessary.
+
+## OBJ-186 — Recover and settle one mapped shared-world treasure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one named tutorial voyage by locating its mapped buried
+  object, exposing and retaining that physical object through a shared-world
+  return journey, then handing it to the designated receiver so reward and
+  voyage completion settle.
+- Includes: `An Introduction to the Gold Hoarders` from Quest Table acceptance
+  through Sailor's Chest sale to Gold Hoarders in Sea of Thieves 3.9.0.
+- Excludes: stopping when the chest is dug up; selling arbitrary treasure;
+  completing an ordinary multi-chest Voyage; maximising gold or reputation;
+  winning combat against another crew.
+- Parameters: voyage, map, buried object, destination, shared world, return
+  receiver, recoverability, reward, completion flag and retained control.
+- Evidence: [Sea of Thieves decomposition](../games/s-z/sea-of-thieves.md),
+  using current official release notes, Gold Hoarders guidance and the
+  corroborated tutorial route.
+- Novelty: first isolated for `GAME-0319`; the same stealable world object must
+  survive both outbound inference and inbound custody before the terminal sale.
+
+## OBJ-187 — Establish the first invited island service through natural-history evidence
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: from the first ordinary island day, craft the required capture
+  tools, hand one addressed resident five distinct eligible wildlife species,
+  place the resulting service-site marker and return after the next-day world
+  update to receive the invited specialist's declared capability recipes.
+- Includes: Animal Crossing: New Horizons from Tom Nook's DIY workshop through
+  Blathers' occupied tent and the shovel/vaulting-pole DIY recipe handoff.
+- Excludes: stopping after five catches; carrying the marker without placing it;
+  building the later museum; completing Critterpedia; paying the first house debt.
+- Parameters: starting day, tool recipes, species quota, recipient, marker,
+  site, next-day boundary, specialist and terminal recipes.
+- Evidence: [Animal Crossing: New Horizons decomposition](../games/a-f/animal-crossing-new-horizons.md),
+  using Nintendo's current product/beginner guidance and three route sources.
+- Novelty: first isolated for `GAME-0320`; open-category observation evidence
+  becomes player-placed service infrastructure across an external day boundary.
+
+## OBJ-188 — Complete one prison-training breakout into the named successor
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: from first control in confinement, choose the authored training
+  branch, cross its required interaction, traversal and combat gates, settle the
+  final hostile group and enter the extraction trigger that completes the
+  chapter and advances to its named campaign successor.
+- Includes: Gears of War's `14 Years After E-Day` right-hand Training route from
+  Marcus's opened cell through the King Raven transition to `Trial By Fire`.
+- Excludes: taking the left Combat route; stopping after the movement lessons;
+  seeing the Raven without entering the transition; optional collectibles;
+  completing all of Act 1 or the campaign.
+- Parameters: confinement, branch, lessons, interaction gates, combat groups,
+  companion, extraction event, trigger, chapter result and successor.
+- Evidence: [Gears of War decomposition](../games/g-l/gears-of-war.md), using
+  three corroborating original-game written routes.
+- Novelty: first isolated for `GAME-0321`; a chosen tutorial branch itself
+  remains part of the required breakout terminal before a named combat chapter.
+
+## OBJ-189 — Clear one sampled first den and commit its skill reward
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one first quest by accepting it, locating its sampled
+  dungeon, defeating every required living or reanimated hostile, returning to
+  the designated quest giver, retaining the fixed point/reset reward and
+  spending one available point on a currently eligible character skill.
+- Includes: fresh offline Normal Barbarian `Den of Evil` through Akara's reward
+  and one legal level-one skill allocation in Diablo II: Resurrected.
+- Excludes: stopping when the cave first brightens; hand-in without the declared
+  skill commitment; activating a waypoint; deliberately dying for corpse
+  recovery; completing Act I or the campaign.
+- Parameters: quest giver, sampled area, required hostile set, reanimation,
+  clearance signal, hand-in, point reward, retained reset permission, eligible
+  skill and post-allocation character state.
+- Evidence: [Diablo II: Resurrected decomposition](../games/a-f/diablo-ii-resurrected.md).
+- Novelty: first isolated for `GAME-0322`; sampled geography and a re-openable
+  hostile set feed an invariant full-clear hand-in whose reward becomes a
+  committed persistent build choice.
+
+## OBJ-190 — Complete one dual-protagonist opening boss mission into retained campaign progress
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: carry one opening campaign mission through its ordered traversal,
+  civilian-rescue, finite-minion and multi-phase boss gates while accepting
+  every authored protagonist handoff, then defeat the designated boss and
+  retain the mission-completion reward and successor campaign state.
+- Includes: Marvel's Spider-Man 2 `Surface Tension` from first Peter control
+  through Sandman's final contextual defeat, 1,900 XP settlement and the
+  post-mission successor state.
+- Excludes: stopping at one control handoff or boss phase; clearing only the
+  sand minions; requiring optional collectibles; free-roam hero switching;
+  completing the full campaign.
+- Parameters: mission, protagonist roster, handoffs, ordered gates, protected
+  civilians, minion groups, boss phases, final contextual strike, reward,
+  completion flag and successor state.
+- Evidence: [Marvel's Spider-Man 2 decomposition](../games/m-r/marvels-spider-man-2.md),
+  using PlayStation's opening-sequence description and two corroborating
+  written walkthroughs.
+- Novelty: first isolated for `GAME-0323`; the terminal requires two authored
+  direct-control perspectives to settle one shared opening boss mission before
+  its fixed reward and successor state become retained.
+
+## OBJ-191 — Defeat the first dungeon guardian and claim its Triforce fragment
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one authored first dungeon by traversing its required
+  carried-key and hostile-clearance gates, defeating its mandatory guardian
+  and collecting the exposed Triforce fragment so the dungeon settles and
+  retained overworld progression resumes.
+- Includes: The Legend of Zelda Quest 1 Level-1 Eagle from entry through
+  Aquamentus and collection of the first Triforce fragment.
+- Excludes: stopping at boss defeat without taking the fragment; requiring the
+  optional heart-container pickup; completing later dungeons; assembling the
+  full Triforce or rescuing Princess Zelda; Second Quest.
+- Parameters: dungeon, required route gates, guardian, defeat state, optional
+  local reward, fragment, credit transition and retained successor state.
+- Evidence: [The Legend of Zelda decomposition](../games/s-z/the-legend-of-zelda.md),
+  using Nintendo's original manual and three corroborating written Level-1
+  references.
+- Novelty: first isolated for `GAME-0325`; a guardian defeat exposes a required
+  persistent campaign fragment whose contact, rather than crossing a newly
+  opened spatial threshold, owns the bounded dungeon terminal.
+
+## OBJ-192 — Clear every counted crate, claim its gem and cross the level portal
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one authored platform level by destroying its entire
+  qualifying counted-crate set under the declared gem-eligibility rule,
+  accepting the resulting clear gem and entering the exit portal so the
+  successor map state becomes available.
+- Includes: all 49 qualifying crates, clear-gem settlement and portal exit in
+  original Crash Bandicoot's scoped `N. Sanity Beach` route.
+- Excludes: ordinary exit without the optional gem; collecting a coloured gem
+  in a later level; every fruit, mask or enemy being mandatory; completing the
+  full game; a score maximum.
+- Parameters: level, qualifying count, eligibility state, gem, settlement,
+  exit portal, successor map and retained credit.
+- Evidence: [Crash Bandicoot decomposition](../games/a-f/crash-bandicoot.md),
+  using the original manual and corroborating written first-level route.
+- Novelty: first isolated for `GAME-0326`; one optional perfect-clear predicate
+  must settle before the ordinary spatial exit carries that credit onward.
+
+## OBJ-193 — Graduate a retained character through a staged life curriculum
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete a character's authored childhood prerequisite, every
+  mandatory discipline lesson and the final multi-discipline test, then accept
+  the graduation settlement so ordinary control continues with the same
+  persistent character and the wider profession-specific task system becomes
+  available.
+- Includes: original Xbox Fable's good-deed birthday route, childhood and
+  adolescent Heroes' Guild lessons, adult sword/bow/Lightning test and Chamber
+  of Fate graduation before accepting Wasp Menace.
+- Excludes: completing only one lesson; reaching the adult body without the
+  final test; an ordinary level-up; accepting or completing the first later
+  quest; finishing the campaign.
+- Parameters: character, prologue prerequisite, discipline set, life-stage
+  gates, final test, graduation event, retained capabilities and successor task
+  access.
+- Evidence: [Fable decomposition](../games/a-f/fable.md), using Microsoft's
+  preserved original-Xbox manual and corroborating original-game walkthroughs.
+- Novelty: first isolated for `GAME-0327`; the terminal is neither escape nor
+  one combat victory, but the completed curriculum and retained professional
+  transition that unlocks the game's ordinary quest layer.
+
+## OBJ-194 — Find every local bonus detour and cross the retained stage exit
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one authored traversal stage by discovering and
+  settling every declared hidden bonus detour, then cross its ordinary exit so
+  the parent map records full local completion and exposes the immediate
+  successor stage.
+- Includes: both hidden bonus rooms, exit cave, completed `Jungle Hijinxs!`
+  exclamation marker and unlocked `Ropey Rampage` in original Donkey Kong
+  Country.
+- Excludes: ordinary stage exit with a bonus still undiscovered; requiring all
+  route collectibles or enemies; completing an animal-token bonus stage;
+  clearing the next stage, world or full game; maximising score or speed.
+- Parameters: stage, declared hidden-detour set, discovery credit, detour
+  settlement, ordinary exit, map marker, successor access and retained state.
+- Evidence: [Donkey Kong Country decomposition](../games/a-f/donkey-kong-country.md),
+  using Nintendo's original bonus-room framing and three corroborating written
+  first-stage references.
+- Novelty: first isolated for `GAME-0329`; the terminal combines an optional
+  exhaustive hidden-room predicate with an otherwise ordinary stage exit whose
+  parent-map settlement records completeness separately from progression.
+
+## OBJ-195 — Capture Terraneus and preserve the declared successor heroes
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: capture the named underground town Terraneus before simultaneously
+  losing every town and hero, settle `Homecoming` and preserve the declared
+  four strongest eligible heroes for the unstarted successor scenario.
+- Includes: Heroes of Might and Magic III: Complete `Long Live the Queen` first
+  scenario on fixed Easy difficulty with the 14 Pikemen bonus.
+- Excludes: clearing every enemy or site; starting the next scenario; completing
+  the campaign; retaining every troop unchanged.
+- Parameters: target town, ownership, surviving town/hero predicate, victory,
+  hero ranking, carryover count, level cap and successor boundary.
+- Evidence: [Heroes of Might and Magic III: Complete decomposition](../games/g-l/heroes-of-might-and-magic-iii-complete.md).
+- Novelty: first isolated for `GAME-0332`; one named-territory capture closes a
+  map and selects a ranked subset of agents for later play.
