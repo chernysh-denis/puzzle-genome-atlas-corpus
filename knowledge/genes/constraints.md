@@ -1377,6 +1377,9 @@
   rule, completion-check order and any time additions.
 - Evidence: [Lemmings decomposition](../games/g-l/lemmings.md) and
   [The Long Dark decomposition](../games/s-z/the-long-dark.md).
+- Additional support: [Super Metroid decomposition](../games/s-z/super-metroid.md),
+  for the visible one-minute Ceres self-destruct countdown whose expiry ends
+  the escape attempt.
 - Novelty: not assessed. The authoritative-clock generalisation was accepted in
   [`TAXONOMY_CHANGE_052`](../../research/taxonomy-changes/TAXONOMY_CHANGE_052.md).
 
@@ -3364,27 +3367,34 @@
   prerequisite.
 - Novelty: not assessed.
 
-## CON-171 — Municipal construction and operation require solvency
+## CON-171 — Managed construction and operation require solvency
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: construction requires sufficient treasury and every retained
-  network or service commits recurring expenditure that must fit the municipal
-  budget or suffer cuts and fiscal penalties.
+- Definition: construction requires sufficient treasury and retained managed
+  infrastructure, services or staff commit recurring expenditure that must fit
+  the domain budget or face its declared deficit consequences.
 - Includes: SimCity 4 and Cities: Skylines construction costs, recurring
-  upkeep, service-budget reductions and borrowing.
-- Excludes: an abstract score cost; private development paid directly by the
-  player; a single consumable move budget.
-- Parameters: treasury, build cost, upkeep, borrowing, deficit threshold and funding floor.
+  upkeep, service-budget reductions and borrowing; RollerCoaster Tycoon
+  Deluxe ride, path and stall construction paid from cash-on-hand plus monthly
+  ride upkeep, research and staff wages against a bounded bank loan.
+- Excludes: an abstract score cost; autonomous private development not paid by
+  the player; a single consumable move budget; one personal shop purchase.
+- Parameters: managed domain, treasury, build cost, upkeep, wages, borrowing,
+  deficit threshold and funding floor.
 - Evidence: [SimCity 4 Deluxe Edition decomposition](../games/s-z/simcity-4-deluxe-edition.md)
   and [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
 - Additional support: [Cities: Skylines II decomposition](../games/a-f/cities-skylines-ii.md),
   for road and facility construction paid once from the treasury and for the
   monthly upkeep each retained facility then charges against a treasury that no
   government subsidy replenishes.
-- Novelty: not assessed.
+- Additional support: [RollerCoaster Tycoon Deluxe decomposition](../games/m-r/rollercoaster-tycoon-deluxe.md),
+  for a private managed park whose construction, ride upkeep and staff wages
+  use the same solvency boundary without becoming municipal services.
+- Novelty: carrier wording generalised by
+  [`TAXONOMY_CHANGE_078`](../../research/taxonomy-changes/TAXONOMY_CHANGE_078.md).
 
 ## CON-172 — Entity operation requires compatible recipe and flow state
 
@@ -3443,24 +3453,27 @@
   and [Magic: The Gathering Arena decomposition](../games/m-r/magic-the-gathering-arena.md).
 - Novelty: not assessed.
 
-## CON-175 — Persistent health depletion terminates the run
+## CON-175 — Persistent health depletion terminates the route or run
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: health lost in one encounter remains lost at later nodes unless
-  explicitly restored, and reaching the terminal health threshold ends the
-  complete multi-node run.
+  explicitly restored, and exhausting the declared controlled actor or party
+  threshold ends the complete multi-node route or run.
 - Includes: Slay the Spire damage persisting between floors and zero player HP
-  ending the climb.
+  ending the climb; Final Fantasy VII party HP persisting among Reactor No. 1
+  encounters and total party critical injury ending the attempt.
 - Excludes: encounter-local health restored automatically after every battle;
   a recoverable life stock; score loss with no terminal survival threshold.
-- Parameters: maximum health, terminal threshold, healing sources, revival
-  exceptions and act-transition treatment.
+- Parameters: actor or party, maximum health, terminal threshold, healing
+  sources, revival exceptions and route- or act-transition treatment.
 - Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md).
 - Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
   for health that stays lost between rooms until the Passage fountain and ends the run at zero.
+- Additional support: [Final Fantasy VII decomposition](../games/a-f/final-fantasy-vii.md),
+  using the original PlayStation manual's HP, recovery and Game Over rules.
 - Novelty: not assessed.
 
 ## CON-176 — Successor node must follow a visible route edge
@@ -3551,6 +3564,9 @@
 - Parameters: lane capacity, occupancy, cost class, effective amount, free-card
   rule, discounts and rejection feedback.
 - Evidence: [Inscryption decomposition](../games/g-l/inscryption.md).
+- Additional support: [Space Invaders decomposition](../games/s-z/space-invaders.md),
+  for three factory-set bases, a one-time score extension and complete-credit
+  Game Over when recoverable stock is exhausted.
 - Novelty: not assessed.
 
 ## CON-181 — Blood payment requires sufficient eligible sacrifice value
@@ -4034,8 +4050,13 @@
   for carried stacks and finite inventory slots.
 - Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
   for pickups that require a free inventory slot or a compatible typed ammunition stack.
+- Additional support: [Resident Evil: Director's Cut decomposition](../games/m-r/resident-evil-directors-cut.md),
+  for handgun, ammunition, key and ribbon pickups competing for Chris's six carried slots.
 - Additional support: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md),
   for the sixteen expedition inventory slots and typed stack limits that bound loot pickup.
+- Additional support: [Pokémon Red Version decomposition](../games/m-r/pokemon-red-version.md),
+  for bounded Bag item slots and Poké Ball quantities, including preserving a
+  free slot for Brock's TM34 reward.
 - Novelty: not assessed.
 
 ## CON-211 — City facility operation requires a street connection to the generator
@@ -5146,16 +5167,20 @@
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: an ordinary capture attempt can resolve only when a carried
-  compatible device reaches a capturable creature, with target health, status
-  and device strength determining rather than guaranteeing its chance.
+  compatible device is legally committed against a capturable wild creature,
+  with target health, status and device strength determining rather than
+  guaranteeing its chance.
 - Includes: Palworld wild-Pal capture with Pal Spheres; Pokémon Legends: Z-A
   wild capture with the selected compatible Poké Ball.
-- Excludes: uncapturable trainer bosses; scripted guaranteed quest capture;
+  It also includes Pokémon Red Version's item-menu Ball use against wild
+  Pokémon and its rejection against Trainer-owned Pokémon.
+- Excludes: trainer-owned or otherwise uncapturable creatures; scripted guaranteed quest capture;
   storage transfers.
 - Parameters: target class, health, status, device tier, capture power,
   inventory count and probability.
 - Evidence: [Palworld decomposition](../games/m-r/palworld.md) and
   [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
+- Additional support: [Pokémon Red Version decomposition](../games/m-r/pokemon-red-version.md).
 - Novelty: not assessed.
 
 ## CON-277 — Companion rosters have distinct bounded capacities
@@ -5169,10 +5194,13 @@
   to an available destination under that roster's capacity.
 - Includes: Palworld Palbox storage, five-Pal party and base-Pal capacity;
   Pokémon Legends: Z-A Boxes and six-member party capacity.
+  It also includes Pokémon Red Version's six-member party and current Box,
+  including the full-party transfer and full-Box rejection branches.
 - Excludes: carried item stacks; multiplayer Guild membership; cosmetic display slots.
 - Parameters: roster, slot count, occupied slots, overflow rule, base level and transfer.
 - Evidence: [Palworld decomposition](../games/m-r/palworld.md) and
   [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
+- Additional support: [Pokémon Red Version decomposition](../games/m-r/pokemon-red-version.md).
 - Novelty: not assessed.
 
 ## CON-278 — Technology purchase requires level, predecessor and points
@@ -5273,8 +5301,16 @@
   [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
 - Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
   for the ordered store, corridor, key, exit, crash, street and station chain.
+- Additional support: [Resident Evil: Director's Cut decomposition](../games/m-r/resident-evil-directors-cut.md),
+  for the ordered opening, Rebecca/Sword Key, compatible locks, passage crossing and retained typewriter-save chain.
 - Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
   for the ordered jungle, dam rescue, counterattack and extraction gates.
+- Additional support: [Pokémon Red Version decomposition](../games/m-r/pokemon-red-version.md),
+  for Oak's grass gate, starter, lab battle, parcel, Pokédex, Viridian route,
+  forest and Pewter Gym progression flags.
+- Additional support: [Super Metroid decomposition](../games/s-z/super-metroid.md),
+  for the ordered Ceres escape, Zebes landing, Morphing Ball, first Missile
+  Tank, red door, Bombs, Bomb Torizo and bomb-block exit chain.
 - Novelty: not assessed.
 
 ## CON-283 — Aircraft route bounds reachable insertion region
@@ -5335,6 +5371,8 @@
   [Monster Hunter Wilds decomposition](../games/m-r/monster-hunter-wilds.md).
 - Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
   for firing that requires a readied weapon with loaded rounds and reloading that requires reserve.
+- Additional support: [Resident Evil: Director's Cut decomposition](../games/m-r/resident-evil-directors-cut.md),
+  for firing that requires an equipped loaded handgun and automatic empty reload that requires another compatible clip.
 - Novelty: not assessed.
 
 ## CON-286 — Restorative item requires legal state and uninterrupted cast
@@ -5530,6 +5568,8 @@
 - Evidence: [Rust decomposition](../games/m-r/rust.md).
 - Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
   for the gas-station storeroom door that opens only with the Gas Station Key.
+- Additional support: [Resident Evil: Director's Cut decomposition](../games/m-r/resident-evil-directors-cut.md),
+  for three compatible mansion doors that open only while the retained Sword Key is carried.
 - Novelty: not assessed.
 
 ## CON-297 — Crafting requires a known recipe, sourced ingredients, station context and output capacity
@@ -6011,6 +6051,9 @@
   and only currently recruited, living and story-available expeditioners may
   occupy those slots.
 - Includes: the three-member active party in scoped Clair Obscur: Expedition 33.
+- Additional support: [Chrono Trigger decomposition](../games/a-f/chrono-trigger.md),
+  for the recruited and story-available Crono/Marle roster during Gato and
+  Marle's authored removal before Crono crosses the Gate.
 - Excludes: switching the visible exploration leader; temporary summons;
   assigning passive abilities.
 - Parameters: active slots, reserve roster, availability and defeat state.
@@ -6480,6 +6523,9 @@
   an optional shortcut that needs no acquired capability.
 - Parameters: route edge, mechanism, capability, locus, input and persistence.
 - Evidence: [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md).
+- Additional support: [Super Metroid decomposition](../games/s-z/super-metroid.md),
+  for Morphing Ball clearance, a five-missile red door and Bomb-compatible
+  blocks on the fixed early route.
 - Novelty: not assessed.
 
 ## CON-350 — Equipped tools must fit the selected Crest's coloured slots
@@ -6517,6 +6563,9 @@
   ability cost, consumption point and disabled state.
 - Evidence: [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md)
   and [Hollow Knight decomposition](../games/g-l/hollow-knight.md).
+- Additional support: [Prince of Persia: The Sands of Time decomposition](../games/m-r/prince-of-persia-the-sands-of-time.md),
+  for requiring available retained history and a filled Sand Tank, then
+  consuming one tank for an accepted Power of Revival rewind.
 - Novelty: not assessed.
 - Change note: wording generalised by
   [`TAXONOMY_CHANGE_034`](../../research/taxonomy-changes/TAXONOMY_CHANGE_034.md)
@@ -7084,17 +7133,20 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: live battle permits exactly one living eligible party member in
+- Definition: battle permits exactly one living eligible party member in
   the commanded active slot; replacement must come from another eligible party
   slot, knockout forces replacement and no eligible member leaves the party
   unable to continue.
 - Includes: the single active Pokémon and mid-battle party replacement rules in
   Pokémon Legends: Z-A.
+  It also includes the active Pokémon, forced replacement and all-party faint
+  boundary in Pokémon Red Version.
 - Excludes: multi-unit simultaneous control; storage capacity; an inactive
   companion merely following the Trainer.
 - Parameters: active slot, party slots, eligibility, health, knockout, forced
   switch and terminal all-unable state.
 - Evidence: [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
+- Additional support: [Pokémon Red Version decomposition](../games/m-r/pokemon-red-version.md).
 - Novelty: not assessed.
 
 ## CON-385 — Relative awareness gates the battle-opening advantage
@@ -7430,6 +7482,9 @@
   and [DOOM (2016) decomposition](../games/a-f/doom-2016.md).
 - Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
   for route and extraction gates held by required finite hostile groups.
+- Additional support: [Super Metroid decomposition](../games/s-z/super-metroid.md),
+  for the Bomb Torizo room's grey door remaining unavailable until the finite
+  guardian encounter is cleared.
 - Novelty: first isolated for `GAME-0164`.
 
 ## CON-428 — Only one current supplied contract may be active
@@ -9828,14 +9883,17 @@
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: continued climbing attachment is legal only while the hand can
-  reach compatible surface, body state permits grip and positive usable stamina
+  reach a compatible static or moving surface, body state permits grip and positive usable stamina
   remains to pay the live action cost.
-- Includes: PEAK surface grip and ledge transfers.
+- Includes: PEAK surface grip and ledge transfers; the same legality boundary
+  on first-colossus fur and ledges in Shadow of the Colossus.
 - Excludes: walkable ground contact; fixed ladder traversal; unlimited wall
   climbing; a rope not within reach.
 - Parameters: hand, reach, surface tag, body state, usable stamina, cost,
   attachment and release.
 - Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Additional support: [Shadow of the Colossus decomposition](../games/s-z/shadow-of-the-colossus.md),
+  for grip legality on a moving hostile body.
 - Novelty: first isolated for `GAME-0203`; geometry and a composite survival
   meter jointly gate every free-surface attachment.
 
@@ -10675,6 +10733,9 @@
 - Evidence: [Serious Sam HD: The First Encounter decomposition](../games/s-z/serious-sam-hd-the-first-encounter.md).
 - Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
   for firearm discharge requiring compatible remaining ammunition or charge.
+- Additional support: [Super Metroid decomposition](../games/s-z/super-metroid.md),
+  for selected missiles spending one compatible reserve per shot and pickups
+  refilling only to the retained capacity.
 - Novelty: first isolated for `GAME-0237`; typed reserve scarcity is separated
   from magazines, reload windows, round inventory and weapon-class replacement.
 
@@ -11566,8 +11627,10 @@
 - Parameters: fixture, authored or player-created origin, reach, local
   eligibility predicates, slot count, slot sharing across modes, optional
   per-save consumable, world-time policy and written state.
-- Evidence: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md)
-  and [The Forest decomposition](../games/s-z/the-forest.md).
+- Evidence: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
+  [The Forest decomposition](../games/s-z/the-forest.md) and
+  [Resident Evil: Director's Cut decomposition](../games/m-r/resident-evil-directors-cut.md),
+  for a typewriter write that requires and consumes one carried Ink Ribbon.
 - Novelty: first isolated for `GAME-0280`; persistence is fixture-bound and
   hostile-gated yet paused and cooldown-free, so it is neither the exposed
   station of `CON-602` nor a free menu save. The hostile predicate became a
@@ -12263,3 +12326,225 @@
 - Evidence: [Heroes of Might and Magic III: Complete decomposition](../games/g-l/heroes-of-might-and-magic-iii-complete.md).
 - Novelty: first isolated for `GAME-0332`; one scheduled stack's legal action
   set jointly depends on hex reach, attack mode and live troop state.
+
+## CON-654 — Tracked attraction construction obeys geometry and clearance rules
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: each custom attraction segment must be supported by its ride
+  type, connect at a compatible direction and height, fit current terrain and
+  clearance, and satisfy any declared station, circuit or endpoint rule before
+  the completed geometry can operate.
+- Includes: Steel Mini Roller Coaster direction/grade limits, support height,
+  non-intersecting clearance, station and closed-loop construction in
+  RollerCoaster Tycoon Deluxe's Forest Frontiers tutorial route.
+- Excludes: guest-path connectivity (`CON-655`); cash solvency (`CON-171`);
+  vehicle motion after construction; aesthetic ride quality.
+- Parameters: ride type, segment, direction, height, terrain, support limit,
+  clearance, station count, circuit/endpoint rule and rejection feedback.
+- Evidence: [RollerCoaster Tycoon Deluxe decomposition](../games/m-r/rollercoaster-tycoon-deluxe.md),
+  using the official Steam-hosted 2003 manual.
+- Novelty: first isolated for `GAME-0335`; legality is typed attraction
+  geometry rather than generic network adjacency or pedestrian reachability.
+
+## CON-655 — Guest service requires connected entrance, queue and exit access
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an attraction can receive and release guests only when its
+  entrance is joined to the public path through a queue and its exit has a
+  traversable public-path connection; disconnected service remains unusable
+  even if the attraction geometry itself is complete.
+- Includes: Forest Frontiers fixed rides and roller coaster requiring a queue
+  to the entrance and an ordinary path from the exit in RollerCoaster Tycoon
+  Deluxe.
+- Excludes: whether track geometry is legal (`CON-654`); path construction
+  itself (`ACT-455`); a guest voluntarily refusing an accessible attraction;
+  staff-only repair reachability.
+- Parameters: attraction, entrance, queue graph, public path, exit, connection,
+  traversability and rejected service state.
+- Evidence: [RollerCoaster Tycoon Deluxe decomposition](../games/m-r/rollercoaster-tycoon-deluxe.md),
+  using the official Steam-hosted 2003 manual.
+- Novelty: first isolated for `GAME-0335`; attraction service joins two
+  differently typed path interfaces rather than requiring generic adjacency.
+
+## CON-656 — Learned move use requires remaining PP
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a learned battle move can be selected only while its current PP
+  is positive and it is not disabled; each ordinary use spends one PP, and the
+  rules substitute Struggle when no usable learned move remains.
+- Includes: move selection and PP decrement in the scoped original Pokémon Red
+  Version route.
+- Excludes: health cost; item quantities; time-only cooldowns; a move absent
+  from the current creature's learned set.
+- Parameters: creature, learned move, current and maximum PP, disabled state,
+  decrement timing, usable-set predicate and fallback move.
+- Evidence: [Pokémon Red Version decomposition](../games/m-r/pokemon-red-version.md),
+  using the pinned battle and PP routines and original manual.
+- Novelty: first isolated for `GAME-0336`; the per-move finite resource
+  persists with the creature between battles rather than refreshing per turn.
+
+## CON-657 — Clue-encoded branch sequence gates a concealed destination
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: one authored destination becomes reachable only after the
+  controlled traveller takes the complete finite sequence of local route
+  branches encoded by a previously inspectable clue; a partial or different
+  branch order cannot satisfy that destination gate.
+- Includes: following the nine first-word directions from the purchased map to
+  the treasure clearing in the original EGA The Secret of Monkey Island.
+- Excludes: entering symbolic directions without moving; passing race
+  checkpoints in order; following a visible waypoint line; selecting a named
+  destination that resolves the route automatically.
+- Parameters: clue, branch alphabet, ordered sequence, start locus, partial
+  progress, mismatch response, destination and reset boundary.
+- Evidence: [The Secret of Monkey Island decomposition](../games/s-z/the-secret-of-monkey-island.md),
+  using two independently agreeing written routes; no executable run observed.
+- Novelty: first isolated for `GAME-0343`; the route itself is the submitted
+  ordered answer, but each symbol is realised as locomotion through an authored
+  branch rather than a command-code input.
+
+## CON-658 — Each active target permits three shots before its timed escape
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: one active target opportunity accepts at most three trigger
+  attempts and remains available only for its short flight interval; the first
+  credited hit settles it immediately, while exhausting all shots or the
+  interval settles a miss and forbids another attempt at that target.
+- Includes: each one-at-a-time duck opportunity in original Duck Hunt Game A.
+- Excludes: a shared magazine across several targets; ammunition that can be
+  reloaded during the opportunity; an unlimited shot stream; the round-level
+  minimum hit quota; Game B's three shots shared by two simultaneous ducks.
+- Parameters: shots per opportunity, current shot count, flight duration, hit
+  terminal, timeout terminal, exhaustion terminal and successor target.
+- Evidence: [Duck Hunt decomposition](../games/a-f/duck-hunt.md), using
+  Nintendo's original instructions and preserved English NES manual.
+- Novelty: first isolated for `GAME-0345`; both a small action allowance and
+  an independent live deadline close the same target-local opportunity.
+
+## CON-659 — Graffiti requires an eligible marked surface and sufficient spray
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a graffiti attempt can begin and settle only while the addressed
+  incomplete marked surface is within the declared interaction relation and
+  carried spray stock meets that surface size's required frame count; otherwise
+  the point remains unchanged and uncredited.
+- Includes: small, large and x-large graffiti legality in the bounded Xbox 360
+  Jet Set Radio opening.
+- Excludes: the later stock debit and surface transition; character-wide carry
+  capacity by itself; painting any unmarked geometry; a score threshold; a
+  generic inventory-item prerequisite with no sized world target.
+- Parameters: surface mark, completion state, range/contact, size, required
+  frames, carried frames, character capacity and rejected attempt.
+- Evidence: [Jet Set Radio decomposition](../games/g-l/jet-set-radio.md), using
+  the inherited original instruction booklet and corroborated Xbox 360 route.
+- Novelty: first isolated for `GAME-0350`; one live world interaction binds a
+  typed spatial target to a size-derived consumable threshold.
+
+## CON-660 — Companion ingestion requires reach, eligibility and free mouth state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a mounted companion can ingest a world body only while that body
+  is eligible and intersects the commanded ingestion reach, and cannot accept
+  a second mouth-held body until the first is expelled, swallowed or otherwise
+  cleared; expulsion likewise requires a currently held eligible body.
+- Includes: Yoshi tonguing reachable berries or eligible Koopa shells and
+  holding only one shell at a time in the bounded Super Mario World packet.
+- Excludes: the typed effect after legal ingestion; ordinary player pickup;
+  unlimited inventory capacity; mount availability; targets the source rules
+  explicitly reject from ingestion.
+- Parameters: companion, reach volume, target type, eligibility predicate,
+  mouth occupancy, held body, ingest request, expel request and rejection.
+- Evidence: [Super Mario World decomposition](../games/s-z/super-mario-world.md),
+  using Nintendo's original manual and the pinned North American disassembly.
+- Novelty: first isolated for `GAME-0354`; one companion-specific interaction
+  joins spatial targeting to an exclusive transient body slot rather than a
+  general inventory or action-state limit.
+
+## CON-661 — Emotional baggage accepts only its matching luggage tag
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: one collectible luggage tag can settle only with the emotional-
+  baggage body of the same declared type inside the current mind; another tag
+  or an unmatched bag leaves both states unresolved.
+- Includes: matching a steamer-trunk tag to the steamer trunk, or another of
+  the five exact tag/bag types, in Psychonauts.
+- Excludes: connecting two same-colour board endpoints; arbitrary nearest-
+  neighbour matching; collecting the tag by itself; the reward for completing
+  every baggage pair; consuming an interchangeable key at a generic lock.
+- Parameters: mind, tag type, bag type, carried or credited tag state, reach,
+  accepted identity, rejected identity and matched result.
+- Evidence: [Psychonauts decomposition](../games/m-r/psychonauts.md), using
+  Double Fine's original English Xbox manual and the written `Basic Braining`
+  route.
+- Novelty: first isolated for `GAME-0358`; a separately collected typed token
+  reunites with one corresponding distressed world body rather than opening a
+  lock or completing a path.
+
+## CON-662 — Turbo and authored manoeuvres share one bounded energy reserve
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a turbo burst or eligible preprogrammed aircraft manoeuvre is
+  legal only while the one common special-energy reserve contains the amount
+  required by that request, so spending it on either action can temporarily
+  withhold the other until recovery.
+- Includes: preserving the brown special-manoeuvre energy bar between turbo and
+  special moves during the bounded original-Xbox `The Morning After` mission.
+- Excludes: independent cooldowns; finite secondary ammunition; permanent fuel;
+  allocating craft power among engines, weapons and shields; one unlimited
+  scripted boost.
+- Parameters: reserve, capacity, requested action, cost or drain, current
+  amount, acceptance, rejection and recovery threshold.
+- Evidence: [Crimson Skies: High Road to Revenge decomposition](../games/a-f/crimson-skies-high-road-to-revenge.md),
+  using Prima's flight-system and first-mission descriptions.
+- Novelty: first isolated for `GAME-0359`; the legality boundary joins two
+  distinct arcade-flight commands to one shared replenishing reserve.
+
+## CON-663 — Allow only one active player projectile
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a new player fire request is legal only when the carrier's one
+  player-projectile channel is idle; a launched projectile must hit, collide
+  with cover or another projectile, or leave its playfield before the channel
+  becomes available again.
+- Includes: the laser base's single upward shot channel in Taito's bounded
+  original Space Invaders first rack.
+- Excludes: finite ammunition with several shots simultaneously in flight;
+  weapon cooldown alone; a three-shot target-local allowance; one projectile
+  per turn in a stopped simulation; hostile projectile-channel limits.
+- Parameters: fire request, active flag, projectile, hit, cover collision,
+  projectile collision, boundary exit, settlement delay and next eligibility.
+- Evidence: [Space Invaders decomposition](../games/s-z/space-invaders.md),
+  using the annotated related-program disassembly and Taito's fire control.
+- Novelty: first isolated for `GAME-0360`; the restriction is persistent
+  concurrency occupancy rather than ammunition quantity, cooldown or a fixed
+  attempt budget.

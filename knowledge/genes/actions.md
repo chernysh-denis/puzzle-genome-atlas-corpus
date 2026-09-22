@@ -180,7 +180,8 @@
   Rivals hero through a live arena; running and jumping Hornet through
   Pharloom's connected rooms in Hollow Knight: Silksong; running, jumping,
   dashing, swimming and grappling Mio or Zoe through Split Fiction's Rader
-  Publishing chapter.
+  Publishing chapter; walking the Trainer through Pallet Town, Route 1,
+  Viridian Forest and Pewter Gym in Pokémon Red Version.
 - Excludes: changing viewpoint; moving an adjacent object; teleporting or
   pathfinding that resolves several steps automatically.
 - Parameters: adjacency or continuous topology, step distance, jump rules and
@@ -229,6 +230,8 @@
   for direct running, jumping and dashing inside one bounded boss arena.
 - Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
   for walking, running and quick-turning Leon through the gas station, streets and station approach.
+- Additional support: [Resident Evil: Director's Cut decomposition](../games/m-r/resident-evil-directors-cut.md),
+  for tank-relative turning, forward/backward movement and forward running through fixed-camera mansion rooms.
 - Additional support: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md),
   for walking the two-hero party forward and backward along the Old Road corridor tiles.
 - Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
@@ -244,6 +247,11 @@
   for direct first-person traversal and jumping through Sierra 117.
 - Additional support: [Battletoads decomposition](../games/a-f/battletoads.md),
   for direct running, jumping and depth-axis alignment through Ragnarok's Canyon.
+- Additional support: [Super Metroid decomposition](../games/s-z/super-metroid.md),
+  for directly running, jumping, crouching and rolling through the fixed Ceres,
+  Crateria and Blue Brinstar route.
+- Additional support: [Space Invaders decomposition](../games/s-z/space-invaders.md),
+  for directly moving the laser base left or right within its fixed lower lane.
 - Novelty: not assessed.
 
 ## ACT-009 — Push adjacent movable object
@@ -459,11 +467,13 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player selects one currently available controlled unit,
-  chooses one of its declared abilities and specifies the target position or
-  area on which that ability will resolve.
+- Definition: the player selects one currently available controlled actor,
+  chooses one of its declared abilities and specifies the eligible actor,
+  position or area on which that ability will resolve.
 - Includes: firing a mech weapon or selecting that mech's repair action in
-  Into the Breach; targeting an available squad class ability in Bad North.
+  Into the Breach; targeting an available squad class ability in Bad North;
+  choosing one learned Pokémon move and its opposing battle target in Pokémon
+  Red Version.
 - Excludes: relocating the acting unit; an enemy executing an already committed
   attack; the automatic damage, push or collision produced by the ability.
 - Parameters: unit and ability classes, target geometry, range, damage and
@@ -471,7 +481,8 @@
 - Evidence: [Into the Breach decomposition](../games/g-l/into-the-breach.md)
   and [Bad North decomposition](../games/a-f/bad-north.md),
   [Tactical Breach Wizards decomposition](../games/s-z/tactical-breach-wizards.md)
-  and [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
+  and [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md),
+  and [Pokémon Red Version decomposition](../games/m-r/pokemon-red-version.md).
 - Additional support: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md),
   for choosing one of a hero's four equipped rank-legal skills and its target rank on that hero's initiative turn.
 - Novelty: not assessed.
@@ -951,6 +962,9 @@
   [Viewfinder decomposition](../games/s-z/viewfinder.md).
 - Additional support: [Forza Horizon 5 decomposition](../games/a-f/forza-horizon-5.md),
   for restoring a recent Solo-race state and resuming with a revised line.
+- Additional support: [Prince of Persia: The Sands of Time decomposition](../games/m-r/prince-of-persia-the-sands-of-time.md),
+  for holding the first Dagger power through retained recent history, releasing
+  at safety and resuming under a finite Sand Tank price.
 - Novelty: not assessed.
 
 ## ACT-045 — Edit timestamped agent command
@@ -2650,6 +2664,11 @@
 - Evidence: [Slay the Spire decomposition](../games/s-z/slay-the-spire.md), [Dota 2 decomposition](../games/a-f/dota-2.md), [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md), [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), [Hollow Knight: Silksong decomposition](../games/g-l/hollow-knight-silksong.md), [Counter-Strike 2 decomposition](../games/a-f/counter-strike-2.md), [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md) and [Blue Prince decomposition](../games/a-f/blue-prince.md).
 - Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
   for buying an offered weapon for gold at the biome shop, which enters a weapon slot at once; the Collector's cell payment, which may leave the entry unacquired, is typed under `ACT-451`.
+- Additional support: [Pokémon Red Version decomposition](../games/m-r/pokemon-red-version.md),
+  for buying Poké Balls from Viridian Mart with retained campaign money.
+- Additional support: [Chrono Trigger decomposition](../games/a-f/chrono-trigger.md),
+  for spending 10 Silver Points at the Millennial Fair money tent to acquire
+  its fixed offered 50 G asset.
 - Novelty: not assessed.
 
 ## ACT-131 — Consume one carried immediate-effect item
@@ -2835,6 +2854,9 @@
   as additional support.
 - Additional support: [Animal Crossing: New Horizons decomposition](../games/a-f/animal-crossing-new-horizons.md),
   for committing the supplied Blathers Tent Marker to a legal service-site footprint.
+- Additional support: [RollerCoaster Tycoon Deluxe decomposition](../games/m-r/rollercoaster-tycoon-deluxe.md),
+  for placing, opening or demolishing fixed-footprint rides and guest-service
+  stalls while custom tracked rides remain owned by `ACT-485`.
 - Novelty: generalised by `TAXONOMY_CHANGE_036`; a particular settlement or
   production model is a carrier parameter, while committing an ordinary owned
   building to a legal footprint is the invariant action.
@@ -3238,10 +3260,18 @@
   for sustained Peashooter fire at each reachable encounter-phase member.
 - Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
   for readying, aiming and firing the starting handgun at reachable zombies.
+- Additional support: [Resident Evil: Director's Cut decomposition](../games/m-r/resident-evil-directors-cut.md),
+  for readying, aiming and firing the equipped handgun at reachable mansion zombies.
 - Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
   for aimed weapon combos, bow shots and dive attacks against reachable Prisoners' Quarters enemies, and for weapon strikes on the barred Collector's room door whose destruction resolves under `SYS-755`.
 - Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
   for aimed firearm and melee attacks against reachable campaign hostiles.
+- Additional support: [Super Metroid decomposition](../games/s-z/super-metroid.md),
+  for aimed beam and missile shots against route creatures, doors and Bomb
+  Torizo.
+- Additional support: [Space Invaders decomposition](../games/s-z/space-invaders.md),
+  for aligning and committing the laser base's one current upward shot against
+  an invader, UFO or destructible fortress region.
 - Novelty: not assessed.
 - Change note: wording generalised by
   [`TAXONOMY_CHANGE_043`](../../research/taxonomy-changes/TAXONOMY_CHANGE_043.md)
@@ -3310,6 +3340,8 @@
   for switching among the first, second and Power weapon slots.
 - Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
   for switching between the primary and reserve carried weapons.
+- Additional support: [Super Metroid decomposition](../games/s-z/super-metroid.md),
+  for selecting missiles as the active special weapon before firing.
 - Novelty: not assessed.
 
 ## ACT-165 — Consume held food to restore hunger
@@ -3844,24 +3876,26 @@
 - Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md).
 - Novelty: not assessed.
 
-## ACT-194 — Throw a capture device at one eligible world creature
+## ACT-194 — Commit a capture device against one eligible wild creature
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player aims and spends one carried capture device on an
-  eligible world creature, committing its current probability check rather
-  than dealing an ordinary weapon hit.
+- Definition: the player commits and spends one carried capture device against
+  an eligible wild creature through the current world or battle interaction
+  surface, invoking its capture check rather than an ordinary attack.
 - Includes: throwing a Pal Sphere at a weakened wild Pal in Palworld; throwing
   a Poké Ball directly or after weakening an eligible wild Pokémon in Pokémon
-  Legends: Z-A.
+  Legends: Z-A; choosing a Poké Ball from the ITEM battle command against an
+  eligible wild Pokémon in Pokémon Red Version.
 - Excludes: defeating the creature; a guaranteed scripted recruitment; moving
   an already captured companion between rosters.
 - Parameters: target, device tier, range, target health, capture power,
   displayed probability and consumed count.
 - Evidence: [Palworld decomposition](../games/m-r/palworld.md) and
   [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
+- Additional support: [Pokémon Red Version decomposition](../games/m-r/pokemon-red-version.md).
 - Novelty: not assessed.
 
 ## ACT-195 — Deploy or recall one carried companion
@@ -4288,6 +4322,8 @@
   for equipping the personally crafted Primitive Outfit during onboarding.
 - Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
   for prompted pickup of the Gas Station Key, First Aid Spray and Handgun Ammo into inventory slots.
+- Additional support: [Resident Evil: Director's Cut decomposition](../games/m-r/resident-evil-directors-cut.md),
+  for taking the handgun, ammunition, Sword Key and Ink Ribbon into Chris's compatible six-slot inventory and equipping the handgun.
 - Additional support: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md),
   for taking post-battle and curio loot from the loot window into the sixteen-slot expedition inventory.
 - Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
@@ -4348,16 +4384,17 @@
   [Split Fiction decomposition](../games/s-z/split-fiction.md).
 - Novelty: not assessed.
 
-## ACT-202 — Change direct avatar posture or lean
+## ACT-202 — Change direct avatar posture or body configuration
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: the player changes the controlled avatar among standing,
-  crouched, prone or lateral-lean states, altering its collision envelope,
-  reachable viewing or tool angles, movement and, where applicable, exposed
-  body or weapon handling without leaving the current local position.
+  crouched, prone, lateral-lean or a retained compact body configuration,
+  altering its collision envelope, reachable viewing or tool angles, movement
+  and, where applicable, exposed body or weapon handling without transferring
+  control to another actor.
 - Includes: PUBG stance changes and left/right peeking around cover; Cyberpunk
   2077 standing and crouched stealth/combat posture; crouching or going prone
   to direct a cleaning tool under low surfaces in PowerWash Simulator.
@@ -4377,6 +4414,13 @@
 - Additional support: [TEKKEN 8 decomposition](../games/s-z/tekken-8.md),
   for crouching and for quickstanding from prone to standing in place without
   local displacement.
+- Additional support: [Super Metroid decomposition](../games/s-z/super-metroid.md),
+  for entering and leaving the retained Morphing Ball configuration to change
+  clearance and bomb access.
+- Change note: compact retained body configurations were admitted by
+  [`TAXONOMY_CHANGE_080`](../../research/taxonomy-changes/TAXONOMY_CHANGE_080.md)
+  without changing the direct configuration-change boundary or any earlier
+  signature.
 
 ## ACT-203 — Excavate eligible terrain for tactical cover
 
@@ -5051,16 +5095,18 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: during live battle, the player selects one other eligible living
+- Definition: during battle, the player selects one other eligible living
   party member so it replaces the current sole commanded companion while both
   retain their own persistent health, status, level and learned moves.
 - Includes: voluntary or knockout-forced partner replacement in Pokémon
-  Legends: Z-A.
+  Legends: Z-A and voluntary or faint-forced replacement in Pokémon Red
+  Version.
 - Excludes: moving a companion between storage and party; recalling without a
   replacement; switching direct control between human protagonists.
 - Parameters: party slots, current and replacement companion, health, status,
   switch delay and voluntary or forced trigger.
 - Evidence: [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
+- Additional support: [Pokémon Red Version decomposition](../games/m-r/pokemon-red-version.md).
 - Novelty: not assessed.
 
 ## ACT-259 — Choose one persistent starting companion
@@ -5073,12 +5119,14 @@
   bounded offered roster so that identity and its initial kit become a
   persistent owned party member.
 - Includes: choosing Chikorita, Tepig or Totodile as the first partner in
-  Pokémon Legends: Z-A.
+  Pokémon Legends: Z-A; choosing Bulbasaur, Charmander or Squirtle in Pokémon
+  Red Version.
 - Excludes: selecting a match-only hero; choosing a cosmetic; capturing a later
   world creature.
 - Parameters: offered roster, selected identity, initial level, initial moves,
   ownership persistence and decline permission.
 - Evidence: [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
+- Additional support: [Pokémon Red Version decomposition](../games/m-r/pokemon-red-version.md).
 - Novelty: not assessed.
 
 ## ACT-260 — Commit one reachable Survivor interaction channel
@@ -5263,23 +5311,31 @@
 - Evidence: [EA SPORTS FC 26 decomposition](../games/a-f/ea-sports-fc-26.md).
 - Novelty: first isolated for `GAME-0163`.
 
-## ACT-270 — Place one carried bomb with a timed fuse
+## ACT-270 — Place one available bomb with a timed fuse
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player spends one bomb from the current run supply and places
-  a live explosive at Isaac's position, starting its fuse before blast resolution.
+- Definition: while the controlled avatar is in a compatible placement state,
+  the player places one live local explosive from either a finite carried
+  supply or a retained reusable bomb capability, starting its fuse before
+  blast resolution.
 - Includes: placing a standard bomb for hostile damage, rock destruction or an
-  eligible secret-room wall in base The Binding of Isaac: Rebirth.
+  eligible secret-room wall in base The Binding of Isaac: Rebirth; placing a
+  reusable Bomb while in Morphing Ball form in Super Metroid.
 - Excludes: throwing a tactical grenade; firing an explosive projectile; an
   automatic item-triggered explosion that spends no carried bomb.
-- Parameters: carried count, placement point, fuse, kick or displacement,
-  blast radius and modifiers.
+- Parameters: supply model, carried count, retained capability, placement
+  state, placement point, fuse, kick or displacement, blast radius and
+  modifiers.
 - Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
 - Novelty: first isolated for `GAME-0164`; no earlier action boundary couples
   finite carried supply to a freely placed room-scale timed blast.
+- Change note: reusable retained bomb access was admitted by
+  [`TAXONOMY_CHANGE_080`](../../research/taxonomy-changes/TAXONOMY_CHANGE_080.md);
+  whether placement spends stock is a parameter, while the placed-fuse action
+  remains unchanged.
 
 ## ACT-271 — Call a persistent owned mount toward the controlled actor
 
@@ -6131,18 +6187,29 @@
 - Evidence: [Subnautica decomposition](../games/s-z/subnautica.md).
 - Novelty: first isolated for `GAME-0178`; the collectible target remains an independently moving world organism until the successful interaction.
 
-## ACT-313 — Hold a scanner on one reachable world target
+## ACT-313 — Hold an analyser on one reachable world target
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player equips a powered scanner, keeps one eligible world target within range and holds the scan command to advance its persistent analysis progress.
-- Includes: scanning Subnautica technology fragments and organisms with the handheld Scanner.
-- Excludes: selecting a completed blueprint in a crafting interface; an autonomous room-wide resource search; instant pickup of the target.
-- Parameters: scanner, target, range, aim, battery, progress, interruption and completion.
+- Definition: the player equips a powered scanner or analyser, keeps one
+  eligible world target locked within range and holds the scan command to
+  advance persistent target-specific analysis progress.
+- Includes: scanning Subnautica technology fragments and organisms with the
+  handheld Scanner; scanning one reachable Frigate Orpheon target with Metroid
+  Prime's Scan Visor.
+- Excludes: selecting a completed blueprint in a crafting interface; an
+  autonomous room-wide resource search; instant pickup or one-pulse survey of
+  the target; the typed result after scan completion.
+- Parameters: analyser, target, range, aim or lock, power, progress, retention,
+  interruption and completion.
 - Evidence: [Subnautica decomposition](../games/s-z/subnautica.md).
 - Novelty: first isolated for `GAME-0178`; unlike earlier target scans, the held observation itself accumulates resumable blueprint evidence.
+- Change note: analyser form, lock and non-blueprint typed completion were
+  admitted by
+  [`TAXONOMY_CHANGE_094`](../../research/taxonomy-changes/TAXONOMY_CHANGE_094.md)
+  after `GAME-0355`; result resolution remains separate from the held command.
 
 ## ACT-314 — Construct or deconstruct one habitat module
 
@@ -6589,17 +6656,16 @@
 - Novelty: first isolated for `GAME-0187`; the live selection changes embodied
   class function through spawn without either uniqueness or a permanent draft.
 
-## ACT-341 — Commit one contextual stateful-world-object interaction
+## ACT-341 — Commit one contextual stateful-world-entity interaction
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player addresses one reachable authored or player-created
-  stateful world object and
-  commits its currently legal read, activate, collect, install, repair, unlock
-  or open interaction, changing local objective, fixture, inventory or route
-  state.
+- Definition: the player addresses one reachable authored actor, fixture or
+  player-created stateful world object and commits its currently legal assist,
+  read, activate, collect, install, repair, unlock or open interaction,
+  changing local objective, actor, fixture, inventory or route state.
 - Includes: reading Sastasha's Bloody Memo, activating the matching coral and
   revealed switch, collecting and using the Captain's Quarters and Waverider
   Gate keys, opening their gates and opening an admitted treasure coffer.
@@ -6616,6 +6682,8 @@
   installing, assembling and repairing the authored Bank Heist thermal drill.
 - Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
   for opening doors, applying the key to the locked storeroom door and committing the typewriter save.
+- Additional support: [Resident Evil: Director's Cut decomposition](../games/m-r/resident-evil-directors-cut.md),
+  for opening ordinary doors, applying the retained Sword Key across compatible locks, accepting its final discard and committing the typewriter save.
 - Additional support: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md),
   for investigating the Brigand's Tent curio by hand or ignoring it, and for the ignorable Bandit's Trapped Chest.
 - Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
@@ -6627,9 +6695,13 @@
   for operating Johnson's cell control and boarding the extraction Pelican.
 - Additional support: [Animal Crossing: New Horizons decomposition](../games/a-f/animal-crossing-new-horizons.md),
   for operating the Resident Services workbench before selecting a legal recipe.
+- Additional support: [Final Fantasy VII decomposition](../games/a-f/final-fantasy-vii.md),
+  for operating Reactor No. 1 doors, elevator and bomb fixture and releasing
+  Jessie from her authored trapped state during the timed return route.
 - Novelty: first isolated for `GAME-0188`; one generic command boundary joins
-  readable clues, stateful switches, typed route keys and optional dungeon
-  reward objects without treating their different resolutions as one system.
+  readable clues, stateful actors and switches, typed route keys and optional
+  dungeon reward objects without treating their different resolutions as one
+  system.
   Player-created stateful fixtures were admitted by
   [`TAXONOMY_CHANGE_069`](../../research/taxonomy-changes/TAXONOMY_CHANGE_069.md)
   without changing that contextual interaction boundary.
@@ -7043,15 +7115,19 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: while a directly controlled body can reach compatible world
-  surface and has usable stamina, the player holds the grip input to request
+- Definition: while a directly controlled body can reach a compatible static
+  or moving surface and has usable stamina, the player holds the grip input to request
   continued attachment and aimed body movement, or releases it to detach.
-- Includes: PEAK surface grabbing, climbing, ledge transfer and deliberate release.
+- Includes: PEAK surface grabbing, climbing, ledge transfer and deliberate
+  release; gripping fur and ledges on the first moving colossus in Shadow of
+  the Colossus.
 - Excludes: ordinary walking; an animation-only ladder; unlimited automatic
   wall climbing; independently mapping two hands to separate buttons.
 - Parameters: body, hand reach, surface, contact, aim, hold, stamina, pose,
   attachment, movement and release.
 - Evidence: [PEAK decomposition](../games/m-r/peak.md).
+- Additional support: [Shadow of the Colossus decomposition](../games/s-z/shadow-of-the-colossus.md),
+  for grip, aimed climbing and deliberate release on one moving hostile body.
 - Novelty: first isolated for `GAME-0203`; freely targeted geometry becomes a
   continuously stamina-priced attachment rather than a fixed traversal link.
 
@@ -9583,3 +9659,279 @@
 - Evidence: [Heroes of Might and Magic III: Complete decomposition](../games/g-l/heroes-of-might-and-magic-iii-complete.md).
 - Novelty: first isolated for `GAME-0332`; one speed-scheduled creature stack
   owns a discrete choice among spatial, offensive and turn-timing commands.
+
+## ACT-485 — Edit a priced custom attraction track and station
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player places or removes typed track and station segments,
+  then positions the attraction entrance and exit, creating one persistent
+  traversable ride geometry whose construction cost is paid per segment.
+- Includes: building a Steel Mini Roller Coaster track, station, entrance and
+  exit in RollerCoaster Tycoon Deluxe's Forest Frontiers scenario.
+- Excludes: placing a fixed-footprint ride or stall (`ACT-139`); drawing guest
+  paths (`ACT-455`); testing, opening or pricing the completed attraction
+  (`ACT-486`); directly steering a vehicle on the resulting track.
+- Parameters: attraction type, segment type, direction, grade, special element,
+  station, entrance, exit, terrain, demolition, cost and refund.
+- Evidence: [RollerCoaster Tycoon Deluxe decomposition](../games/m-r/rollercoaster-tycoon-deluxe.md),
+  using the official Steam-hosted 2003 manual's custom-ride tutorial.
+- Novelty: first isolated for `GAME-0335`; unlike a road, footpath or ordinary
+  building, the authored network is itself one attraction with typed vehicle
+  geometry, a station and paired guest portals.
+
+## ACT-486 — Configure and commission one guest attraction
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player changes one built attraction among closed, test and
+  open operation and configures its admission price, dispatch/load policy and
+  inspection interval without changing its physical geometry.
+- Includes: testing and opening Forest Frontiers rides, setting ride admission,
+  choosing wait-for-load and minimum/maximum station waits, and setting mechanic
+  inspection frequency in RollerCoaster Tycoon Deluxe.
+- Excludes: building track (`ACT-485`); opening the whole park (`ACT-487`);
+  autonomous boarding or vehicle dispatch (`SYS-950`); direct vehicle control.
+- Parameters: attraction, status, test result, price, load rule, minimum wait,
+  maximum wait, inspection interval and rejected state.
+- Evidence: [RollerCoaster Tycoon Deluxe decomposition](../games/m-r/rollercoaster-tycoon-deluxe.md),
+  using the official Steam-hosted 2003 manual.
+- Novelty: first isolated for `GAME-0335`; commissioning and persistent
+  operations policy are distinct from constructing the attraction and from
+  the system's repeated queue/vehicle settlement.
+
+## ACT-487 — Set a managed venue's public admission state and price
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player opens or closes one managed public venue and, where
+  its rules permit, changes the entrance price that arriving visitors must
+  accept before entering.
+- Includes: opening Forest Frontiers and configuring its park admission price
+  in RollerCoaster Tycoon Deluxe.
+- Excludes: one attraction's test/open state or ride price (`ACT-486`); placing
+  the venue entrance; buying a personal ticket as a visitor; marketing.
+- Parameters: venue, open/closed state, entrance price, pricing availability,
+  current attendance and accepted or rejected admission.
+- Evidence: [RollerCoaster Tycoon Deluxe decomposition](../games/m-r/rollercoaster-tycoon-deluxe.md),
+  using the official Steam-hosted 2003 manual.
+- Novelty: first isolated for `GAME-0335`; public venue availability and its
+  shared entry price persist independently of every attraction inside it.
+
+## ACT-488 — Hire and constrain an autonomous service worker
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player hires one worker into a declared autonomous service
+  role, places the worker on reachable managed terrain and may constrain its
+  patrol area or enabled job classes without steering each work step.
+- Includes: hiring, placing and zoning a Forest Frontiers mechanic in
+  RollerCoaster Tycoon Deluxe; the broader rules also support handymen,
+  security guards and entertainers outside the minimal mechanic route.
+- Excludes: directly walking the worker; assigning one immediate movement
+  destination; a pre-supplied autonomous worker; paying the recurring wage
+  (`SYS-154`).
+- Parameters: role, hire cost or wage, placement, reachable network, patrol
+  area, enabled jobs, reassignment and dismissal.
+- Evidence: [RollerCoaster Tycoon Deluxe decomposition](../games/m-r/rollercoaster-tycoon-deluxe.md),
+  using the official Steam-hosted 2003 manual.
+- Novelty: first isolated for `GAME-0335`; one persistent hire creates an
+  autonomous service agent whose spatial and task remit remains editable.
+
+## ACT-489 — Tap an adjacent world surface to emit a local lure
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while positioned beside compatible world geometry, the player
+  performs a distinct contextual action that emits a localized sound without
+  damaging the surface, so eligible nearby autonomous actors can react to its
+  position.
+- Includes: Solid Snake tapping a wall or other compatible surface to divert
+  an eligible Genome Soldier in Metal Gear Solid's opening infiltration.
+- Excludes: accidental footstep or puddle noise; throwing a decoy; firing a
+  weapon; striking an actor; destroying or altering the tapped surface.
+- Parameters: actor position, compatible surface, contextual state, sound
+  origin, audible radius, eligible listener, investigation response and
+  cooldown or repeatability.
+- Evidence: [Metal Gear Solid decomposition](../games/m-r/metal-gear-solid.md),
+  using the original English PlayStation manual's wall-tap control and guard
+  noise-investigation rules.
+- Novelty: first isolated for `GAME-0339`; the player deliberately creates a
+  non-damaging spatial lure at adjacent authored geometry rather than merely
+  causing incidental movement noise or deploying an inventory object.
+
+## ACT-490 — Aim a display-sensing light gun and pull its trigger
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player physically points a compatible light-sensing gun at
+  the displayed playfield and pulls its trigger to request one spatial shot
+  whose sampled display response determines the aimed screen region.
+- Includes: one NES Zapper trigger pull aimed at the current Game A duck in the
+  original North American Duck Hunt Game Pak.
+- Excludes: moving an on-screen reticle with a stick or mouse; selecting a
+  target from a menu; ordinary free-aim firearm simulation; the system's later
+  hit-or-miss adjudication; a modern pointer replacement whose position is
+  reported independently of display light.
+- Parameters: physical device, controller port, display compatibility, aim
+  direction, trigger edge, sampled light state and accepted range.
+- Evidence: [Duck Hunt decomposition](../games/a-f/duck-hunt.md), using the
+  original English NES manual, Nintendo's original-hardware instructions and
+  reproducible NES Zapper technical documentation.
+- Novelty: first isolated for `GAME-0345`; the action's spatial input is a
+  physical display-light sample rather than a software cursor or simulated
+  weapon orientation.
+
+## ACT-491 — Carry and place one incapacitated world body
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player takes one eligible dead or unconscious actor from a
+  reachable world position into an exclusive carried-body state, moves with
+  that body and releases it at a chosen reachable position, preserving the
+  body's discoverable world presence rather than converting it into inventory.
+- Includes: Sam Fisher picking up an unconscious guard, carrying the guard into
+  shadow and quietly placing the body during the bounded original-Xbox
+  Splinter Cell Training and Police Station route.
+- Excludes: collecting an inventory item; carrying or throwing a bagged loot
+  objective; extracting a living mission subject in a vehicle; dragging a
+  conscious restrained actor to a required fixture; automatic ragdoll motion;
+  permanently removing a defeated actor from the world.
+- Parameters: body eligibility, consciousness or death state, reach, pickup,
+  exclusive carry state, carrier movement, release mode, placed position,
+  visibility, discoverability and interruption.
+- Evidence: [Tom Clancy's Splinter Cell decomposition](../games/s-z/tom-clancys-splinter-cell.md),
+  using the original North American Xbox booklet's `Move Body` rules.
+- Novelty: first isolated for `GAME-0349`; unlike objective cargo or an
+  inventory pickup, the actor remains a discoverable world object whose new
+  placement changes future hostile perception.
+
+## ACT-492 — Trace the displayed graffiti commands on a marked surface
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while positioned at one eligible marked world surface, the player
+  commits the graffiti action and, when that surface requires a trace, enters
+  the displayed ordered directions before the live attempt is interrupted.
+- Includes: starting a large or x-large red graffiti point and following its
+  directional command icons in the bounded Xbox 360 Jet Set Radio opening.
+- Excludes: choosing a graffiti image in an editor; drawing an unrestricted
+  picture; selecting a turn-based combat command; automatically replacing a
+  surface on contact; the system's paint debit and completion credit.
+- Parameters: marked surface, reach, start input, direction alphabet, ordered
+  trace, mistake, interruption, completion and character.
+- Evidence: [Jet Set Radio decomposition](../games/g-l/jet-set-radio.md), using
+  the inherited original instruction-booklet rule and corroborated Xbox 360
+  opening route.
+- Novelty: first isolated for `GAME-0350`; the action is a live, world-bound
+  directional trace whose legality also depends on carried paint and surface
+  size, not a timing modifier on a previously selected combat command.
+
+## ACT-493 — Command a mounted companion to ingest or expel one eligible body
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while directly riding a compatible companion, the player
+  commands that companion to extend its ingestion mechanism toward one
+  reachable eligible world body, take the body into its held mouth state, or
+  expel the currently held body before its automatic resolution.
+- Includes: Yoshi extending his tongue to eat a berry or eligible Koopa shell
+  and spitting a held shell in the bounded Super Mario World Yoshi's Island 2
+  packet.
+- Excludes: mounting, steering or dismounting; the system effect derived from
+  the body's type; automatic swallowing after a timer; collecting an item
+  directly into the rider's inventory; an uncommanded companion attack.
+- Parameters: mounted actor, reach, target eligibility, tongue path, mouth
+  occupancy, ingest input, held body, expel input and interruption.
+- Evidence: [Super Mario World decomposition](../games/s-z/super-mario-world.md),
+  using Nintendo's original manual and the pinned North American disassembly.
+- Novelty: first isolated for `GAME-0354`; unlike generic pickup or carried
+  inventory, the commanded mount holds a world body in an exclusive mouth
+  state whose later typed resolution is owned by a separate system boundary.
+
+## ACT-494 — Hold a world target lock and move relative to it
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player holds one eligible world target as the current lock,
+  preserving facing toward it while directional movement or a dedicated dash
+  is interpreted around, toward or away from that target.
+- Includes: Metroid Prime Combat Visor lock-on orbiting and lateral dash around
+  Parasite Queen in the bounded Frigate Orpheon prologue.
+- Excludes: free aim with no retained target; a guided projectile after fire;
+  orbiting an inspection camera; selecting a target only in a menu; autonomous
+  attack acquisition.
+- Parameters: target, eligibility, acquisition, hold state, facing, relative
+  movement axes, dash input, release and target loss.
+- Evidence: [Metroid Prime decomposition](../games/m-r/metroid-prime.md), using
+  Nintendo's original manual and pinned reverse-engineered player state.
+- Novelty: first isolated for `GAME-0355`; earlier direct-movement and attack
+  genes do not retain a target relation that changes the meaning of movement.
+
+## ACT-495 — Focus reflected sunlight to request a world bearing
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while a carried reflective tool is exposed to sufficient direct
+  light, the player holds its focus command and aims it until the reflected
+  rays converge, requesting a bearing toward the current authored world target.
+- Includes: raising and aiming the Ancient Sword in open sunlight to focus the
+  guiding beam toward the first colossus in the bounded Shadow of the Colossus
+  opening.
+- Excludes: an always-on compass; a thrown locator (`ACT-163`); reading a fixed
+  map marker; revealing a hostile weak point at contact; ordinary weapon aim.
+- Parameters: tool, direct-light eligibility, aim, hold, ray spread,
+  convergence, target, bearing and loss of focus.
+- Evidence: [Shadow of the Colossus decomposition](../games/s-z/shadow-of-the-colossus.md),
+  using the original North American PlayStation 2 manual and corroborated
+  first-colossus route.
+- Novelty: first isolated for `GAME-0356`; the player must physically orient a
+  reflective world tool under an environmental light precondition before a
+  temporary target bearing becomes legible.
+
+## ACT-496 — Trigger one authored aircraft manoeuvre or turbo burst
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while directly controlling an eligible aircraft, the player
+  commits one available preprogrammed attitude manoeuvre or a bounded turbo
+  burst, requesting its authored orientation or speed change from the current
+  live flight state.
+- Includes: triggering an Immelmann, barrel roll or turbo burst in the bounded
+  original-Xbox `The Morning After` mission in Crimson Skies: High Road to
+  Revenge.
+- Excludes: ordinary continuous steering; reallocating power among live craft
+  subsystems; releasing a charged drift boost; selecting a destination on a
+  map; a cinematic manoeuvre with no player command.
+- Parameters: aircraft, manoeuvre type, input combination, current attitude,
+  current velocity, energy eligibility, requested motion and interruption.
+- Evidence: [Crimson Skies: High Road to Revenge decomposition](../games/a-f/crimson-skies-high-road-to-revenge.md),
+  using Microsoft's original Xbox manual and the corroborated first-mission
+  route.
+- Novelty: first isolated for `GAME-0359`; one discrete command requests a
+  carrier-authored orientation or burst inside continuous arcade flight rather
+  than directly composing throttle, pitch, yaw and roll.

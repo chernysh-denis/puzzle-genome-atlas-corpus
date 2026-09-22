@@ -149,6 +149,9 @@
   [Antichamber decomposition](../games/a-f/antichamber.md), and
   [Factorio decomposition](../games/a-f/factorio.md), and
   [Split Fiction decomposition](../games/s-z/split-fiction.md).
+- Additional support: [Space Invaders decomposition](../games/s-z/space-invaders.md),
+  for the visible current rack, base, fortress masks, projectiles, score and
+  remaining base stock, with undisclosed future shot timing and UFO value.
 - Novelty: not assessed.
 
 ## INF-002 — Unpreviewed random future event
@@ -1259,21 +1262,27 @@
   supply.
 - Novelty: not assessed.
 
-## INF-058 — Itemised municipal budget ledger is visible
+## INF-058 — Itemised managed-domain budget ledger is visible
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the interface itemises recurring income, expenditure, tax rates,
-  deals and treasury balance before the player commits further fiscal changes.
-- Includes: SimCity 4 and Cities: Skylines economy, budget and tax panels.
+- Definition: the interface itemises recurring income, expenditure and the
+  managed treasury or stockpile balance before the player commits further
+  construction or fiscal changes.
+- Includes: SimCity 4 and Cities: Skylines economy, budget and tax panels;
+  RollerCoaster Tycoon Deluxe monthly income/expenditure, cash-minus-loan,
+  Park Value, weekly profit and ride-level financial reports.
 - Excludes: one undifferentiated currency total; hidden future random expenses;
-  private household accounts outside the managed city.
-- Parameters: categories, period, projected versus realised totals, tax groups and deal terms.
+  private household accounts outside the managed domain.
+- Parameters: managed domain, categories, period, projected versus realised
+  totals, taxes or prices, debt and deal terms.
 - Evidence: [SimCity 4 Deluxe Edition decomposition](../games/s-z/simcity-4-deluxe-edition.md)
   and [Cities: Skylines decomposition](../games/a-f/cities-skylines.md).
-- Novelty: not assessed.
+- Additional support: [RollerCoaster Tycoon Deluxe decomposition](../games/m-r/rollercoaster-tycoon-deluxe.md).
+- Novelty: carrier wording generalised by
+  [`TAXONOMY_CHANGE_078`](../../research/taxonomy-changes/TAXONOMY_CHANGE_078.md).
 
 ## INF-059 — Recipe and technology dependency reference is visible
 
@@ -1497,23 +1506,28 @@
 - Evidence: [Oxygen Not Included decomposition](../games/m-r/oxygen-not-included.md).
 - Novelty: not assessed.
 
-## INF-072 — Resident profile exposes work, needs, thoughts and relationships
+## INF-072 — Autonomous-person profile exposes activity, needs and thoughts
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the interface exposes one autonomous resident's current job,
-  skills, labour permissions, bodily needs, recent thoughts, relationships and
-  stress state for causal inspection.
+- Definition: the interface exposes one autonomous person's current activity,
+  relevant capabilities or preferences, bodily or social needs, recent
+  thoughts and mood or stress state for causal inspection.
 - Includes: Dwarf Fortress creature, labour, thoughts and preferences panels;
-  The Sims 4 active-Sim needs, skills, work and relationship panels.
-- Excludes: hidden future events; one aggregate settlement happiness number.
-- Parameters: resident, job, skills, work details, needs, thoughts, memories,
-  relationships, stress and health.
+  The Sims 4 active-Sim needs, skills, work and relationship panels;
+  RollerCoaster Tycoon Deluxe guest activity, spending, carried items,
+  happiness, nausea, intensity preference and recent thoughts.
+- Excludes: hidden future events; one aggregate settlement or park happiness
+  number; anonymous movement with no inspectable personal state.
+- Parameters: person, activity, capabilities or preferences, work details,
+  needs, thoughts, memories, relationships, mood or stress and health.
 - Evidence: [Dwarf Fortress decomposition](../games/a-f/dwarf-fortress.md) and
   [The Sims 4 decomposition](../games/s-z/the-sims-4.md).
-- Novelty: not assessed.
+- Additional support: [RollerCoaster Tycoon Deluxe decomposition](../games/m-r/rollercoaster-tycoon-deluxe.md).
+- Novelty: resident-only wording generalised by
+  [`TAXONOMY_CHANGE_078`](../../research/taxonomy-changes/TAXONOMY_CHANGE_078.md).
 
 ## INF-073 — Carried hotbar and active equipment state are visible
 
@@ -1552,10 +1566,14 @@
   for current weapon-slot and ammunition HUD state.
 - Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
   for shortcut slots plus loaded and remaining ammunition shown while the weapon is readied.
+- Additional support: [Resident Evil: Director's Cut decomposition](../games/m-r/resident-evil-directors-cut.md),
+  for status-screen disclosure of the equipped handgun and carried ammunition state before the next room action.
 - Additional support: [The Long Dark decomposition](../games/s-z/the-long-dark.md),
   for the selected carried survival item and loaded Distress Pistol state.
 - Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
   for active and reserve weapons, ammunition or charge and grenade state.
+- Additional support: [Super Metroid decomposition](../games/s-z/super-metroid.md),
+  for selected special equipment and its current missile reserve on the HUD.
 - Novelty: not assessed.
 
 ## INF-074 — Crafting grid and available recipe state are visible
@@ -1594,6 +1612,8 @@
   and [Valheim decomposition](../games/s-z/valheim.md).
 - Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
   for the Fine, Caution and Danger condition and damage effect.
+- Additional support: [Resident Evil: Director's Cut decomposition](../games/m-r/resident-evil-directors-cut.md),
+  for Chris's visible condition monitor and lethal-state warning.
 - Additional support: [The Long Dark decomposition](../games/s-z/the-long-dark.md),
   for Warmth, Fatigue, Thirst, Hunger, Condition, Stamina and relevant clothing
   state during the timed Challenge route.
@@ -2253,6 +2273,8 @@
   no audio claim.
 - Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
   for visual-only local zombie sight and approach cues; this carrier makes no audio claim.
+- Additional support: [Resident Evil: Director's Cut decomposition](../games/m-r/resident-evil-directors-cut.md),
+  for fixed-camera local sight plus spatial hostile sounds without an omniscient enemy map.
 - Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
   for local hostile sight, spatial sound and combat effects.
 - Novelty: not assessed.
@@ -2388,6 +2410,11 @@
   for visible personal shield and underlying health readiness.
 - Additional support: [Battletoads decomposition](../games/a-f/battletoads.md),
   for the visible current energy segments before damage, healing or life loss.
+- Additional support: [Super Metroid decomposition](../games/s-z/super-metroid.md),
+  for visible Energy, missile reserve and inspectable retained suit abilities.
+- Additional support: [Chrono Trigger decomposition](../games/a-f/chrono-trigger.md),
+  for visible party HP/MP, personal Battle Gauges, learned commands, item stock
+  and fair/general currency state.
 - Novelty: not assessed.
 
 ## INF-120 — Match economy, item logistics and buyback are visible
@@ -2445,17 +2472,20 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player can inspect a captured companion's level, stats,
-  type or element, active skills, passives and ruleset-specific assignment
-  capabilities before assigning it to a bounded roster.
+- Definition: the player can inspect an owned companion's identity, level,
+  stats, type or element, health/status, learned skills or moves, passives and
+  ruleset-specific capabilities before a party, roster or assignment decision.
 - Includes: Palworld Pal detail and Palbox management panels; Pokémon Legends:
   Z-A Pokémon summaries exposing level, stats, type and learned moves.
+  It also includes Pokémon Red Version party summaries before switching or
+  route planning.
 - Excludes: undiscovered wild-creature identity; cosmetic-only appearance;
   hidden random future mutation.
 - Parameters: identity, level, stats, type or element, skills, passives,
   partner interaction and assignment capability.
 - Evidence: [Palworld decomposition](../games/m-r/palworld.md) and
   [Pokémon Legends: Z-A decomposition](../games/m-r/pokemon-legends-z-a.md).
+- Additional support: [Pokémon Red Version decomposition](../games/m-r/pokemon-red-version.md).
 - Novelty: not assessed.
 
 ## INF-124 — Avatar and active-party survival state are visible
@@ -2498,6 +2528,8 @@
 - Evidence: [Terraria decomposition](../games/s-z/terraria.md).
 - Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
   for the visited-places map and the objective list with its sub-objectives.
+- Additional support: [Resident Evil: Director's Cut decomposition](../games/m-r/resident-evil-directors-cut.md),
+  for the status map retaining visited mansion rooms and Chris's current position.
 - Additional support: [Halo 3 decomposition](../games/g-l/halo-3.md),
   for current mission waypoints and authored route gates.
 - Additional support: [StarCraft II decomposition](../games/s-z/starcraft-ii.md),
@@ -2505,6 +2537,9 @@
 - Additional support: [Warcraft III: Reign of Chaos decomposition](../games/s-z/warcraft-iii-reign-of-chaos.md),
   for current chapter objectives, route beacons and the final Prophet
   rendezvous.
+- Additional support: [Super Metroid decomposition](../games/s-z/super-metroid.md),
+  for the HUD minimap and pause map exposing Samus's visited rooms and current
+  position before the next route choice.
 - Novelty: not assessed.
 
 ## INF-126 — Base assignments, resources and worker condition are visible
@@ -2630,6 +2665,8 @@
   [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
 - Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
   for the interact icon, item name and slot state before a pickup.
+- Additional support: [Resident Evil: Director's Cut decomposition](../games/m-r/resident-evil-directors-cut.md),
+  for item identity, quantity, equip state and remaining six-slot capacity in the status inventory.
 - Additional support: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md),
   for the loot window and inventory slots that expose item identity, stack state and free capacity before a pickup.
 - Additional support: [The Long Dark decomposition](../games/s-z/the-long-dark.md),
@@ -3472,21 +3509,28 @@
   — the disclosure is the live readable relation between ball, control locus
   and local team shape, and the playing surface is a parameter.
 
-## INF-179 — Current room exposes threats, trajectories, pickups and exits
+## INF-179 — Current field or room exposes threats, interactables and exits
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the room camera simultaneously exposes Isaac, visible enemies,
-  projectiles, hazards, obstacles, pickups and door states needed to choose the
-  next movement, attack or resource action.
-- Includes: ordinary base-Rebirth room play and boss encounters.
+- Definition: the current field or room view exposes the controlled actor,
+  visible threats, hazards, obstacles, interactables, pickups and exit states
+  needed to choose the next movement, interaction, attack or resource action.
+- Includes: ordinary base-Rebirth room play and boss encounters; Final Fantasy
+  VII's current pre-rendered field with the optional position/exit pointers,
+  nearby actors, fixtures, ladders and pickups.
 - Excludes: concealed adjacent-room contents; exact hidden drop rolls; an
   external item-description overlay.
-- Parameters: room bounds, actor, projectile, hazard, obstacle, pickup, door,
-  boss bar and visual effect.
+- Parameters: field or room bounds, actor, projectile, hazard, obstacle,
+  interactable, pickup, exit or door, pointer, boss bar and visual effect.
 - Evidence: [The Binding of Isaac: Rebirth decomposition](../games/s-z/the-binding-of-isaac-rebirth.md).
+- Additional support: [Final Fantasy VII decomposition](../games/a-f/final-fantasy-vii.md),
+  using the original PlayStation manual's field-control and exit-indicator rules.
+- Additional support: [Chrono Trigger decomposition](../games/a-f/chrono-trigger.md),
+  for the current field exposing party members, Gato, booths, pickups, Telepods
+  and the exits required by the scoped fair route.
 - Novelty: first isolated for `GAME-0164`; existing partial-opponent sight genes
   do not expose a complete bounded room's shared projectile field and exits.
 
@@ -6247,17 +6291,21 @@
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: while a sealed mandatory encounter is live, a dedicated surface
-  names the guardian and continuously exposes its remaining share of health, so
+  identifies the guardian by name or encounter presence and continuously exposes its remaining share of health, so
   the player can judge accumulated progress and approaching thresholds without
   seeing its attack selection.
 - Includes: the named guardian bar shown during DARK SOULS III's bounded
-  `Cemetery of Ash` encounter.
+  `Cemetery of Ash` encounter; the first colossus's encounter health display in
+  Shadow of the Colossus.
 - Excludes: ordinary field-enemy health; a hunt interface that withholds exact
   monster health; a preview of the opponent's next committed action; the
   player's own resource display.
 - Parameters: guardian name, bar granularity, threshold visibility, appearance
   and dismissal conditions.
 - Evidence: [DARK SOULS III decomposition](../games/a-f/dark-souls-iii.md).
+- Additional support: [Shadow of the Colossus decomposition](../games/s-z/shadow-of-the-colossus.md),
+  where encounter presence rather than an on-screen name identifies the one
+  active guardian.
 - Novelty: first isolated for `GAME-0262`; the disclosure is bounded to one
   sealed encounter and reports only accumulated damage, leaving the guardian's
   behaviour change to be inferred from that share alone.
@@ -7207,3 +7255,230 @@
 - Evidence: [Heroes of Might and Magic III: Complete decomposition](../games/g-l/heroes-of-might-and-magic-iii-complete.md).
 - Novelty: first isolated for `GAME-0332`; the decision surface joins a
   quantity-bearing troop, its scheduled authority and current hex legality.
+
+## INF-362 — Park and attraction panels expose objective and operating state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the management interface exposes the current scenario objective,
+  date, guest count, Park Rating and attraction-level status, queue, popularity,
+  satisfaction, test measurements and downtime so the player can attribute
+  progress or failure before the deadline settles.
+- Includes: RollerCoaster Tycoon Deluxe Park, Ride Info and ride windows during
+  the Forest Frontiers scenario.
+- Excludes: one guest's personal panel (`INF-072`); the itemised finance ledger
+  (`INF-058`); exact hidden future arrivals, breakdowns or scenario result.
+- Parameters: objective, date, attendance, rating, attraction, status, queue,
+  popularity, satisfaction, measurements, inspection and downtime.
+- Evidence: [RollerCoaster Tycoon Deluxe decomposition](../games/m-r/rollercoaster-tycoon-deluxe.md),
+  using the official Steam-hosted 2003 manual.
+- Novelty: first isolated for `GAME-0335`; the decision surface joins the
+  dated aggregate terminal with inspectable attraction causes.
+
+## INF-363 — Battle menu exposes active creature and move state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the battle decision surface exposes both active creature
+  identities, levels, health and status, the available command classes, and
+  each inspected learned move's type plus current and maximum PP without
+  revealing the opponent's next selected command or unresolved random result.
+- Includes: Pokémon Red Version's active battle view and FIGHT move panel.
+- Excludes: the separate party summary; exact future damage, capture or escape
+  rolls; an external reference; hidden opponent move selection.
+- Parameters: active creatures, identity, level, health, status, commands,
+  learned moves, type, current/max PP and hidden future state.
+- Evidence: [Pokémon Red Version decomposition](../games/m-r/pokemon-red-version.md),
+  using the original manual and pinned battle interface source.
+- Novelty: first isolated for `GAME-0336`; a four-command creature battle menu
+  binds persistent per-move attrition to the immediate choice surface.
+
+## INF-364 — Conditional radar shows local actors and directed perception
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while a declared radar state is available, the interface exposes
+  the player's local position, eligible nearby hostile or surveillance actors
+  and their directed perception regions, then deliberately removes that layer
+  in named alert, search or narrow-space states.
+- Includes: Metal Gear Solid's Soliton Radar dots and colour-coded fields of
+  vision in Infiltration, with suppression during Alert, Evasion and declared
+  narrow-space states.
+- Excludes: an always-available world map; a bearing-only threat warning; a
+  cosmetic minimap without perception direction; direct world-space vision
+  cones that remain visible when the radar is unavailable.
+- Parameters: radar availability, player marker, eligible observer, observer
+  class, directed region, colour or state coding, local bounds, suppression
+  trigger and restored state.
+- Evidence: [Metal Gear Solid decomposition](../games/m-r/metal-gear-solid.md),
+  using the original English PlayStation manual and Konami's preserved opening
+  infiltration guidance.
+- Novelty: first isolated for `GAME-0339`; one conditional information layer
+  joins actor positions to directed perception geometry and is withdrawn by
+  the same awareness states it helps the player avoid.
+
+## INF-365 — Carried clue encodes a fixed ordered traversal route
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an inspectable carried artefact exposes authored wording or
+  symbols whose ordered interpretation identifies each successive local route
+  branch, without placing a waypoint or automatically moving the traveller.
+- Includes: reading the purchased “dance” map's first word on each line as the
+  nine forest directions in the original EGA The Secret of Monkey Island.
+- Excludes: a treasure silhouette compared with a separate world chart; a
+  single destination marker; an external walkthrough; a code entered into a
+  stationary receiver; a map that reveals only explored geometry.
+- Parameters: artefact, surface wording, interpretation rule, direction
+  alphabet, sequence length, inspection availability and route correspondence.
+- Evidence: [The Secret of Monkey Island decomposition](../games/s-z/the-secret-of-monkey-island.md),
+  using two independently agreeing written routes; no executable run observed.
+- Novelty: first isolated for `GAME-0343`; one inventory clue directly encodes
+  the ordered locomotion decisions rather than naming a destination or requiring
+  comparison with a second spatial representation.
+
+## INF-366 — Hunting display exposes target, shots, hit row, pass line, round and score
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the active hunting display exposes the moving target and its
+  immediate scene together with remaining shots, the ordered hit/miss row, the
+  minimum qualifying boundary, current round and accumulated score before the
+  next shot or round settlement.
+- Includes: the original Duck Hunt Game A playfield and lower HUD during round
+  one.
+- Excludes: a software reticle absent from the original NES presentation; a
+  hidden target path; the exact remaining flight time; later-round pass-line
+  values not yet reached; external strategy tables.
+- Parameters: active target, visible flight, shots remaining, target lamps,
+  pass line, round number, score and hit feedback.
+- Evidence: [Duck Hunt decomposition](../games/a-f/duck-hunt.md), using the
+  original English NES manual's labelled screen and Nintendo's rules page.
+- Novelty: first isolated for `GAME-0345`; one compact display joins
+  target-local opportunity state to round-level qualification progress.
+
+## INF-367 — Street HUD joins tag progress, spray, survival, time and pursuit cues
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during an active street stage, the interface exposes current
+  stamina, score, authoritative time, carried spray frames and the addressed
+  graffiti command/progress, while world arrows and the available map identify
+  immediate attackers, escape direction and remaining marked points without
+  revealing future police spawns.
+- Includes: the bounded Xbox 360 Jet Set Radio Shibuya GG HUD, command icons,
+  enemy/exit arrows and remaining-point map support.
+- Excludes: a complete future route; exact hidden pursuit logic; external
+  walkthrough directions; optional leaderboard; graffiti editor; result rank
+  after the active stage has already settled.
+- Parameters: stamina, score, time, spray stock, point mark/size/state,
+  directional command, threat cue, escape cue, map and hidden future state.
+- Evidence: [Jet Set Radio decomposition](../games/g-l/jet-set-radio.md), using
+  the inherited original instruction booklet and corroborated Xbox 360 route.
+- Novelty: first isolated for `GAME-0350`; one live traversal surface joins a
+  consumable world-edit command to both survival and territorial progress.
+
+## INF-368 — Scan visor exposes target eligibility, progress and typed result
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while a dedicated analysis visor or mode is active, the
+  interface distinguishes eligible local world targets, exposes held scan
+  progress and presents the completed target's authored information, weak
+  point or fixture consequence without revealing unscanned target results in
+  advance.
+- Includes: Metroid Prime's Scan Visor during the bounded Frigate Orpheon
+  prologue.
+- Excludes: an ordinary combat reticle with no analysis result; Subnautica's
+  blueprint-fragment count; a cyberdeck quickhack menu; Starfield's instant
+  survey sample; an external walkthrough.
+- Parameters: mode, target marker, eligibility, range, lock, progress,
+  completion, result class, presented data and persistence.
+- Evidence: [Metroid Prime decomposition](../games/m-r/metroid-prime.md), using
+  Nintendo's original manual and pinned reverse-engineered scan state.
+- Novelty: first isolated for `GAME-0355`; earlier scanner interfaces are tied
+  to blueprint, survey or hack state and do not expose one target's typed
+  information/control resolution.
+
+## INF-369 — Converging reflected rays expose the current target bearing
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while the compatible reflective tool is focused in sufficient
+  direct light, its initially separated visible rays converge along the
+  horizontal bearing toward the current authored world target, without
+  revealing a route or distance.
+- Includes: the Ancient Sword's guiding light pointing from open terrain toward
+  the first colossus in the bounded Shadow of the Colossus opening.
+- Excludes: a persistent compass; a complete route line; exact coordinates or
+  distance; the map's past journey trace; weak-point disclosure on a guardian.
+- Parameters: tool, light eligibility, ray spread, convergence, bearing,
+  target, visibility and loss of focus.
+- Evidence: [Shadow of the Colossus decomposition](../games/s-z/shadow-of-the-colossus.md),
+  using the original North American PlayStation 2 manual.
+- Novelty: first isolated for `GAME-0356`; information strength varies with
+  player-controlled optical convergence rather than a thrown item, pulse or
+  always-present navigation display.
+
+## INF-370 — Equipped sword light reveals eligible guardian wounds and sigils
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when the designated sword is equipped and an eligible guardian
+  body region enters the required visibility relation, a luminous mark exposes
+  that region as a wound trigger or major health-bearing sigil without
+  revealing an automatic route to it.
+- Includes: the first Shadow of the Colossus guardian's rear-left-leg trigger
+  mark and the major crown sigil on Normal difficulty.
+- Excludes: the guardian health bar (`INF-318`); an externally supplied
+  walkthrough; ordinary hit flash; Hard-mode additional sigils; a target lock
+  that steers attacks automatically.
+- Parameters: equipped tool, guardian, body region, difficulty, visibility,
+  mark class, active state, depletion and concealment.
+- Evidence: [Shadow of the Colossus decomposition](../games/s-z/shadow-of-the-colossus.md),
+  using the original PlayStation 2 manual's sword rule and corroborated
+  first-colossus routes.
+- Novelty: first isolated for `GAME-0356`; a carried tool conditionally makes
+  local parts of a traversable hostile legible as topology-changing or
+  health-bearing attack sites.
+
+## INF-371 — Wanted stars expose current police-pressure tier
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a compact star display exposes the current discrete level of
+  ordinary police attention and changes as pursuit enters search or clears,
+  without revealing future police positions or an automatic escape route.
+- Includes: the wanted-star display during the bounded original PlayStation 2
+  Grand Theft Auto: San Andreas opening and duplicate low-tier evasion control.
+- Excludes: a calculated GPS route; Mafia's separate citation and handcuff
+  classes; hidden patrol spawn locations; mission text that fixes a wanted
+  level independently of ordinary police perception.
+- Parameters: star count, filled state, flashing/search state, pursuit,
+  reacquisition, clearance and mission override.
+- Evidence: [Grand Theft Auto: San Andreas decomposition](../games/g-l/grand-theft-auto-san-andreas.md),
+  using the original English PlayStation 2 booklet and corroborated opening
+  rules guide.
+- Novelty: first isolated for `GAME-0357`; prior wanted-state displays are
+  inseparable from a calculated route or citation/arrest taxonomy, while this
+  boundary admits the compact tier alone.

@@ -105,6 +105,10 @@
       "name": "FM Towns",
       "shortName": "FM Towns"
     },
+    "PLAT-GAME-BOY": {
+      "name": "Game Boy",
+      "shortName": "GB"
+    },
     "PLAT-GAME-BOY-ADVANCE": {
       "name": "Game Boy Advance",
       "shortName": "GBA"

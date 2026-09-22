@@ -108,6 +108,7 @@
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
 - [`GAME-0016` — Pipe Mania / Pipe Dream](../games/m-r/pipe-mania.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
+- [`GAME-0336` — "Pokémon Red Version"](../games/m-r/pokemon-red-version.md)
 - [`GAME-0127` — RimWorld](../games/m-r/rimworld.md)
 - [`GAME-0009` — Royal Match](../games/m-r/royal-match.md)
 - [`GAME-0166` — Sid Meier’s Civilization VI](../games/s-z/sid-meiers-civilization-vi.md)
@@ -825,6 +826,7 @@ Dorfromantik додає плитки до стосу за завершені з�
 - [`GAME-0167` — Geometry Dash](../games/g-l/geometry-dash.md)
 - [`GAME-0112` — Human: Fall Flat](../games/g-l/human-fall-flat.md)
 - [`GAME-0215` — It Takes Two](../games/g-l/it-takes-two.md)
+- [`GAME-0350` — "Jet Set Radio"](../games/g-l/jet-set-radio.md)
 - [`GAME-0267` — Kerbal Space Program](../games/g-l/kerbal-space-program.md)
 - [`GAME-0095` — Manifold Garden](../games/m-r/manifold-garden.md)
 - [`GAME-0096` — Maquette](../games/m-r/maquette.md)
@@ -832,9 +834,11 @@ Dorfromantik додає плитки до стосу за завершені з�
 - [`GAME-0203` — "PEAK"](../games/m-r/peak.md)
 - [`GAME-0113` — Portal 2 — Cooperative Campaign](../games/m-r/portal-2-co-op.md)
 - [`GAME-0033` — Portal](../games/m-r/portal.md)
+- [`GAME-0358` — Psychonauts](../games/m-r/psychonauts.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0157` — Split Fiction](../games/s-z/split-fiction.md)
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
+- [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 - [`GAME-0094` — Superliminal](../games/s-z/superliminal.md)
 - [`GAME-0038` — The Swapper](../games/s-z/the-swapper.md)
 - [`GAME-0030` — Tin Hearts](../games/s-z/tin-hearts.md)
@@ -868,9 +872,12 @@ Dorfromantik додає плитки до стосу за завершені з�
 - [`GAME-0092` — Echochrome](../games/a-f/echochrome.md)
 - [`GAME-0167` — Geometry Dash](../games/g-l/geometry-dash.md)
 - [`GAME-0070` — Inertia](../games/g-l/inertia.md)
+- [`GAME-0342` — "PAC-MAN"](../games/m-r/pac-man.md)
+- [`GAME-0358` — Psychonauts](../games/m-r/psychonauts.md)
 - [`GAME-0045` — Snakebird](../games/s-z/snakebird.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
+- [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 - [`GAME-0038` — The Swapper](../games/s-z/the-swapper.md)
 - [`GAME-0090` — The Talos Principle](../games/s-z/the-talos-principle.md)
@@ -1056,6 +1063,7 @@ Walker у Lemmings іде вперед, повертає біля блокува
 - [`GAME-0326` — Crash Bandicoot](../games/a-f/crash-bandicoot.md)
 - [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
+- [`GAME-0345` — "Duck Hunt"](../games/a-f/duck-hunt.md)
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
 - [`GAME-0092` — Echochrome](../games/a-f/echochrome.md)
 - [`GAME-0119` — Factorio](../games/a-f/factorio.md)
@@ -1065,13 +1073,16 @@ Walker у Lemmings іде вперед, повертає біля блокува
 - [`GAME-0025` — Lemmings](../games/g-l/lemmings.md)
 - [`GAME-0028` — Loop Hero](../games/g-l/loop-hero.md)
 - [`GAME-0125` — Oxygen Not Included](../games/m-r/oxygen-not-included.md)
+- [`GAME-0342` — "PAC-MAN"](../games/m-r/pac-man.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
 - [`GAME-0035` — Pikmin 4](../games/m-r/pikmin-4.md)
 - [`GAME-0127` — RimWorld](../games/m-r/rimworld.md)
+- [`GAME-0335` — RollerCoaster Tycoon Deluxe](../games/m-r/rollercoaster-tycoon-deluxe.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
+- [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 - [`GAME-0136` — "Surviving Mars: Relaunched"](../games/s-z/surviving-mars.md)
 - [`GAME-0313` — Tank 1990](../games/s-z/tank-1990.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
@@ -1350,14 +1361,20 @@ World of Goo утворює попередньо показані нитки н�
 
 - [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
+- [`GAME-0353` — "Deus Ex: Game of the Year Edition"](../games/a-f/deus-ex-game-of-the-year-edition.md)
+- [`GAME-0352` — DOOM (1993)](../games/a-f/doom-1993.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
+- [`GAME-0339` — Metal Gear Solid](../games/m-r/metal-gear-solid.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0334` — Quake](../games/m-r/quake.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
+- [`GAME-0348` — "Resident Evil: Director’s Cut"](../games/m-r/resident-evil-directors-cut.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0031` — Timelie](../games/s-z/timelie.md)
+- [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
 
 ## SYS-058
 
@@ -1518,6 +1535,7 @@ Tim розчавлює monstar у Braid стрибком згори, але за
 - [`GAME-0326` — Crash Bandicoot](../games/a-f/crash-bandicoot.md)
 - [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
+- [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 
 ## SYS-065
 
@@ -1541,6 +1559,7 @@ Tim розчавлює monstar у Braid стрибком згори, але за
 - [`GAME-0034` — Braid, Anniversary Edition](../games/a-f/braid.md)
 - [`GAME-0302` — "Captain Toad: Treasure Tracker"](../games/a-f/captain-toad-treasure-tracker.md)
 - [`GAME-0215` — It Takes Two](../games/g-l/it-takes-two.md)
+- [`GAME-0334` — Quake](../games/m-r/quake.md)
 - [`GAME-0157` — Split Fiction](../games/s-z/split-fiction.md)
 
 ## SYS-066
@@ -2542,7 +2561,9 @@ The Room відкриває особливий ключ, металеву пла
 - [`GAME-0086` — Machinarium](../games/m-r/machinarium.md)
 - [`GAME-0111` — Myst](../games/m-r/myst.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
+- [`GAME-0334` — Quake](../games/m-r/quake.md)
 - [`GAME-0085` — The Room](../games/s-z/the-room.md)
+- [`GAME-0343` — The Secret of Monkey Island](../games/s-z/the-secret-of-monkey-island.md)
 
 ## SYS-113
 
@@ -3439,6 +3460,7 @@ Papers, Please видає цитату про порушення після не
 
 - [`GAME-0132` — Anno 1800](../games/a-f/anno-1800.md)
 - [`GAME-0121` — "Cities: Skylines"](../games/a-f/cities-skylines.md)
+- [`GAME-0335` — RollerCoaster Tycoon Deluxe](../games/m-r/rollercoaster-tycoon-deluxe.md)
 - [`GAME-0166` — Sid Meier’s Civilization VI](../games/s-z/sid-meiers-civilization-vi.md)
 - [`GAME-0118` — SimCity 4 Deluxe Edition](../games/s-z/simcity-4-deluxe-edition.md)
 - [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
@@ -4427,25 +4449,26 @@ Hostility в Against the Storm, що зростає від років, насе�
 
 ## SYS-198
 
-- Назва: Накопичувати особисті потреби, спогади й наслідки стресу
-- Переглянуто: `2026-08-23`
+- Назва: Накопичувати особисті потреби, досвід і наслідки настрою
+- Переглянуто: `2026-09-21`
 
 ### Операційне визначення
 
-Тілесні й соціальні потреби кожного мешканця, пережиті події, особистість і запам’ятовані емоції оновлюють зосередженість та стрес, що може спричинити зміну поведінки або зрив.
+Тілесні та соціальні потреби, уподобання, пережиті події й запам’ятовані реакції кожної автономної людини оновлюють її настрій та наступну поведінку, аж до відмови, відходу, стресу чи зриву.
 
 ### Включає
 
-Голод, спрагу, сон, стосунки, думки, спогади, незадоволені потреби, стрес та істерики у Dwarf Fortress.
+Потреби, думки, щастя й рішення гостей у RollerCoaster Tycoon Deluxe; потреби, спогади, стрес та істерики у Dwarf Fortress.
 
 ### Виключає
 
-Один загальний показник щастя; лише бойовий моральний стан.
+Один загальний показник щастя; лише бойовий моральний стан; профіль без причинного впливу на поведінку.
 
 ### Ігри-носії
 
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
 - [`GAME-0127` — RimWorld](../games/m-r/rimworld.md)
+- [`GAME-0335` — RollerCoaster Tycoon Deluxe](../games/m-r/rollercoaster-tycoon-deluxe.md)
 
 ## SYS-199
 
@@ -4651,6 +4674,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
+- [`GAME-0353` — "Deus Ex: Game of the Year Edition"](../games/a-f/deus-ex-game-of-the-year-edition.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
@@ -4847,6 +4871,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0308` — Bloodborne™](../games/a-f/bloodborne.md)
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
 - [`GAME-0222` — "Call of Juarez: Gunslinger"](../games/a-f/call-of-juarez-gunslinger.md)
+- [`GAME-0347` — "Castlevania: Symphony of the Night"](../games/a-f/castlevania-symphony-of-the-night.md)
 - [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0324` — Contra Force](../games/a-f/contra-force.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
@@ -4854,6 +4879,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0137` — Counter-Strike 2](../games/a-f/counter-strike-2.md)
 - [`GAME-0218` — Counter-Strike](../games/a-f/counter-strike.md)
 - [`GAME-0326` — Crash Bandicoot](../games/a-f/crash-bandicoot.md)
+- [`GAME-0359` — "Crimson Skies: High Road to Revenge"](../games/a-f/crimson-skies-high-road-to-revenge.md)
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0277` — Cuphead](../games/a-f/cuphead.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
@@ -4866,10 +4892,12 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
+- [`GAME-0353` — "Deus Ex: Game of the Year Edition"](../games/a-f/deus-ex-game-of-the-year-edition.md)
 - [`GAME-0322` — "Diablo II: Resurrected"](../games/a-f/diablo-ii-resurrected.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
+- [`GAME-0352` — DOOM (1993)](../games/a-f/doom-1993.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
@@ -4888,6 +4916,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
 - [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
+- [`GAME-0340` — "Halo: Combat Evolved Anniversary"](../games/g-l/halo-combat-evolved-anniversary.md)
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
@@ -4902,13 +4931,16 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
+- [`GAME-0339` — Metal Gear Solid](../games/m-r/metal-gear-solid.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0355` — Metroid Prime](../games/m-r/metroid-prime.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
+- [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0296` — Noita](../games/m-r/noita.md)
 - [`GAME-0224` — Once Human](../games/m-r/once-human.md)
@@ -4920,20 +4952,25 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
+- [`GAME-0344` — "Prince of Persia: The Sands of Time"](../games/m-r/prince-of-persia-the-sands-of-time.md)
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
+- [`GAME-0334` — Quake](../games/m-r/quake.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+- [`GAME-0348` — "Resident Evil: Director’s Cut"](../games/m-r/resident-evil-directors-cut.md)
 - [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0319` — Sea of Thieves](../games/s-z/sea-of-thieves.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
+- [`GAME-0356` — Shadow of the Colossus](../games/s-z/shadow-of-the-colossus.md)
 - [`GAME-0303` — Sifu](../games/s-z/sifu.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
+- [`GAME-0360` — "Space Invaders"](../games/s-z/space-invaders.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
@@ -4941,6 +4978,8 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0317` — StarCraft II](../games/s-z/starcraft-ii.md)
 - [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
+- [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
+- [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
 - [`GAME-0313` — Tank 1990](../games/s-z/tank-1990.md)
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
@@ -4952,6 +4991,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
+- [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 - [`GAME-0191` — "Total War: WARHAMMER III"](../games/s-z/total-war-warhammer-iii.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
@@ -5121,6 +5161,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
 - [`GAME-0322` — "Diablo II: Resurrected"](../games/a-f/diablo-ii-resurrected.md)
+- [`GAME-0352` — DOOM (1993)](../games/a-f/doom-1993.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
@@ -5128,12 +5169,17 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
+- [`GAME-0340` — "Halo: Combat Evolved Anniversary"](../games/g-l/halo-combat-evolved-anniversary.md)
+- [`GAME-0350` — "Jet Set Radio"](../games/g-l/jet-set-radio.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
+- [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
 - [`GAME-0296` — Noita](../games/m-r/noita.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
+- [`GAME-0334` — Quake](../games/m-r/quake.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
+- [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
@@ -6745,10 +6791,12 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0222` — "Call of Juarez: Gunslinger"](../games/a-f/call-of-juarez-gunslinger.md)
+- [`GAME-0347` — "Castlevania: Symphony of the Night"](../games/a-f/castlevania-symphony-of-the-night.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0322` — "Diablo II: Resurrected"](../games/a-f/diablo-ii-resurrected.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
+- [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
 - [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
@@ -6756,6 +6804,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
+- [`GAME-0336` — "Pokémon Red Version"](../games/m-r/pokemon-red-version.md)
 - [`GAME-0183` — Vampire Survivors](../games/s-z/vampire-survivors.md)
 - [`GAME-0328` — "Warcraft III: Reign of Chaos"](../games/s-z/warcraft-iii-reign-of-chaos.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
@@ -6923,11 +6972,11 @@ Hostility в Against the Storm, що зростає від років, насе�
 
 ### Операційне визначення
 
-Після влучання сумісною сферою гра обчислює поточну ймовірність за ціллю та сферою, виконує показані перевірки й у разі успіху прибирає дикого пала зі світу до особистого сховища гравця.
+Після допустимого застосування сумісного пристрою гра обчислює поточну ймовірність за ціллю та пристроєм, виконує перевірки й у разі успіху переносить дику істоту до власної команди або сховища гравця.
 
 ### Включає
 
-Звичайне захоплення диких палів за допомогою Pal Sphere у Palworld.
+Захоплення у Palworld, Pokémon Legends: Z-A та Pokémon Red Version.
 
 ### Виключає
 
@@ -6937,6 +6986,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
+- [`GAME-0336` — "Pokémon Red Version"](../games/m-r/pokemon-red-version.md)
 
 ## SYS-308
 
@@ -7192,6 +7242,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0276` — Forza Horizon 5](../games/a-f/forza-horizon-5.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0316` — Gran Turismo](../games/g-l/gran-turismo.md)
+- [`GAME-0357` — "Grand Theft Auto: San Andreas"](../games/g-l/grand-theft-auto-san-andreas.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
 - [`GAME-0309` — "Mario Kart 8 Deluxe"](../games/m-r/mario-kart-8-deluxe.md)
@@ -7698,6 +7749,7 @@ Tool Cupboard, стани BUILDING PRIVILEGE і BUILDING BLOCKED та досту
 ### Ігри-носії
 
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
+- [`GAME-0357` — "Grand Theft Auto: San Andreas"](../games/g-l/grand-theft-auto-san-andreas.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
@@ -7838,6 +7890,7 @@ Wasps, Snitches, Leapers, Bastions та інші машини ARC на Пове�
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
 - [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
+- [`GAME-0340` — "Halo: Combat Evolved Anniversary"](../games/g-l/halo-combat-evolved-anniversary.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
@@ -7972,6 +8025,7 @@ Wasps, Snitches, Leapers, Bastions та інші машини ARC на Пове�
 
 ### Ігри-носії
 
+- [`GAME-0346` — Chrono Trigger](../games/a-f/chrono-trigger.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
 - [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
 
@@ -8122,8 +8176,10 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 ### Ігри-носії
 
 - [`GAME-0223` — Aion Classic](../games/a-f/aion-classic.md)
+- [`GAME-0346` — Chrono Trigger](../games/a-f/chrono-trigger.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
 - [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
+- [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
@@ -8131,6 +8187,8 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
+- [`GAME-0336` — "Pokémon Red Version"](../games/m-r/pokemon-red-version.md)
+- [`GAME-0343` — The Secret of Monkey Island](../games/s-z/the-secret-of-monkey-island.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
 
 ## SYS-363
@@ -8208,6 +8266,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0289` — American Truck Simulator](../games/a-f/american-truck-simulator.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
+- [`GAME-0357` — "Grand Theft Auto: San Andreas"](../games/g-l/grand-theft-auto-san-andreas.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
@@ -8234,6 +8293,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 
 ### Ігри-носії
 
+- [`GAME-0357` — "Grand Theft Auto: San Andreas"](../games/g-l/grand-theft-auto-san-andreas.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
@@ -8311,10 +8371,13 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0222` — "Call of Juarez: Gunslinger"](../games/a-f/call-of-juarez-gunslinger.md)
+- [`GAME-0347` — "Castlevania: Symphony of the Night"](../games/a-f/castlevania-symphony-of-the-night.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
+- [`GAME-0359` — "Crimson Skies: High Road to Revenge"](../games/a-f/crimson-skies-high-road-to-revenge.md)
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
+- [`GAME-0353` — "Deus Ex: Game of the Year Edition"](../games/a-f/deus-ex-game-of-the-year-edition.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
@@ -8326,6 +8389,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
 - [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
+- [`GAME-0340` — "Halo: Combat Evolved Anniversary"](../games/g-l/halo-combat-evolved-anniversary.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
@@ -8333,17 +8397,21 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
+- [`GAME-0339` — Metal Gear Solid](../games/m-r/metal-gear-solid.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
+- [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+- [`GAME-0348` — "Resident Evil: Director’s Cut"](../games/m-r/resident-evil-directors-cut.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
+- [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 - [`GAME-0268` — Undertale](../games/s-z/undertale.md)
 
@@ -8433,6 +8501,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
+- [`GAME-0353` — "Deus Ex: Game of the Year Edition"](../games/a-f/deus-ex-game-of-the-year-edition.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
@@ -8446,6 +8515,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 
 ## SYS-374
@@ -8555,6 +8625,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
+- [`GAME-0353` — "Deus Ex: Game of the Year Edition"](../games/a-f/deus-ex-game-of-the-year-edition.md)
 - [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
@@ -8614,16 +8685,16 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 
 ## SYS-381
 
-- Назва: Накопичити енергію ультимативної здібності й витратити її
-- Переглянуто: `2026-08-24`
+- Назва: Перетворити бойовий внесок або отриману шкоду на готовність особливої дії й витратити її
+- Переглянуто: `2026-09-21`
 
 ### Операційне визначення
 
-Шкода та лікування додають героєві енергію ультимативної здібності зі швидкістю, що залежить від його ролі. Коли шкала досягає потрібного значення, активація витрачає накопичену готовність і виконує обмежений у часі ефект героя.
+Завдана шкода, лікування або отримана шкода наповнюють особисту шкалу готовності персонажа до визначеної межі. Активація витрачає готовність і виконує обмежений особливий ефект за правилом збереження відповідної гри.
 
 ### Включає
 
-Накопичення енергії від шкоди й лікування для Vanguard, Duelist і Strategist у Season 9 Marvel Rivals та застосування Fate of Both Worlds у Luna Snow.
+Накопичення енергії від шкоди й лікування для Vanguard, Duelist і Strategist у Season 9 Marvel Rivals та застосування Fate of Both Worlds у Luna Snow; наповнення шкали Limit від ворожої шкоди у Final Fantasy VII, заміну звичайної команди Attack на Limit і перенесення невикористаної готовності в наступний бій.
 
 ### Виключає
 
@@ -8631,6 +8702,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 
 ### Ігри-носії
 
+- [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0181` — Overwatch](../games/m-r/overwatch.md)
@@ -8980,26 +9052,29 @@ Silk від ударів Needle, Bind та Silk Skills у Hollow Knight: Silkson
 ## SYS-398
 
 - Назва: Назавжди зберігати здобуту здібність пересування або взаємодії
-- Переглянуто: `2026-08-24`
+- Переглянуто: `2026-09-21`
 
 ### Операційне визначення
 
-Після здобуття іменована здібність назавжди лишається в поточному збереженні й відкриває кожен призначений для неї пізніший перехід або механізм без потреби носити її джерело.
+Після авторського здобуття іменована здібність назавжди додається до подальшого стану персонажа й відкриває кожен сумісний пізніший перехід або механізм; здібність може бути внутрішньою або лишатися пов’язаною з одним унікальним невитратним переносним артефактом.
 
 ### Включає
 
-Здобуття Swift Step, Drifter’s Cloak, Cling Grip і Needolin на визначеному маршруті Act 1 у Hollow Knight: Silksong.
+Здобуття Swift Step, Drifter’s Cloak, Cling Grip і Needolin у Hollow Knight: Silksong; Morphing Ball і Bombs у Super Metroid; Power of Revival, пов’язану зі збереженим Dagger of Time у Prince of Persia: The Sands of Time.
 
 ### Виключає
 
-Тимчасове підсилення; переносний ключ, який витрачається на один замок; технологію, що відкривається лише за накопичені абстрактні очки дослідження.
+Тимчасове підсилення; переносний ключ, який витрачається на один замок; одноразовий предмет; технологію, що відкривається лише за накопичені абстрактні очки дослідження.
 
 ### Ігри-носії
 
+- [`GAME-0347` — "Castlevania: Symphony of the Night"](../games/a-f/castlevania-symphony-of-the-night.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
+- [`GAME-0344` — "Prince of Persia: The Sands of Time"](../games/m-r/prince-of-persia-the-sands-of-time.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
+- [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
 
 ## SYS-399
 
@@ -9299,6 +9374,7 @@ Silk від ударів Needle, Bind та Silk Skills у Hollow Knight: Silkson
 
 ### Ігри-носії
 
+- [`GAME-0347` — "Castlevania: Symphony of the Night"](../games/a-f/castlevania-symphony-of-the-night.md)
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 
@@ -9387,6 +9463,8 @@ Life Crystals у Terraria, які додають 20 до найбільшого 
 
 ### Ігри-носії
 
+- [`GAME-0347` — "Castlevania: Symphony of the Night"](../games/a-f/castlevania-symphony-of-the-night.md)
+- [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 
 ## SYS-418
@@ -10131,23 +10209,24 @@ Byrdonis Egg, Lantern Key, Dowsing і Spoils Map у Slay the Spire 2.
 
 ## SYS-453
 
-- Назва: Виводити бойовий стан зі спорядження, атрибутів і пасивних умінь
-- Переглянуто: `2026-08-27`
+- Назва: Виводити доступний бойовий стан зі спорядження та вбудованих здібностей
+- Переглянуто: `2026-09-21`
 
 ### Операційне визначення
 
-Система поєднує спорядження, атрибути, розподілені пасивні вміння та вимоги каменів у допустимі вміння й поточні бойові показники.
+Система поєднує властивості споряджених предметів, поточні атрибути, розподілені пасивні вміння та вставлені або вбудовані компоненти здібностей у допустимі команди, уміння й поточні показники атаки, захисту та ресурсів.
 
 ### Включає
 
-Збірки воїна, чутливі до вимог, у Path of Exile 2.
+Збірки воїна, чутливі до вимог, у Path of Exile 2; Materia у зброї або броні Final Fantasy VII, яка відкриває команду Magic і споряджене заклинання та визначає, який стан персонажа отримує AP після бою.
 
 ### Виключає
 
-Розв’язання однієї атаки; косметичний набір.
+Розв’язання однієї атаки; саме порівняння предметів у меню; косметичний набір.
 
 ### Ігри-носії
 
+- [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 
 ## SYS-454
@@ -10507,15 +10586,15 @@ Byrdonis Egg, Lantern Key, Dowsing і Spoils Map у Slay the Spire 2.
 ## SYS-470
 
 - Назва: Розв’язувати один вибух бомби із запалом у стані кімнати
-- Переглянуто: `2026-08-27`
+- Переглянуто: `2026-09-21`
 
 ### Операційне визначення
 
-Коли завершується запал установленої бомби, система один раз застосовує обмежену ділянку вибуху до істот, руйнівного каміння й придатних стін таємних кімнат, після чого прибирає бомбу.
+Коли завершується запал установленої бомби, система один раз застосовує обмежену ділянку вибуху до істот і сумісної руйнівної геометрії кімнати, після чого прибирає бомбу.
 
 ### Включає
 
-Звичайна шкода від бомб, руйнування каміння й відкриття стін таємних кімнат у базовій The Binding of Isaac: Rebirth.
+Звичайна шкода від бомб, руйнування каміння й відкриття стін таємних кімнат у базовій The Binding of Isaac: Rebirth; шкода ворогам і руйнування сумісних bomb blocks у Super Metroid.
 
 ### Виключає
 
@@ -10523,6 +10602,7 @@ Byrdonis Egg, Lantern Key, Dowsing і Spoils Map у Slay the Spire 2.
 
 ### Ігри-носії
 
+- [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 
 ## SYS-471
@@ -11649,6 +11729,7 @@ Drive, економіку закупівель раунду, постійний 
 ### Ігри-носії
 
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
+- [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 
 ## SYS-523
@@ -12737,23 +12818,24 @@ Wonder, Relic, Score, часову перемогу, кампанійний тр
 
 ## SYS-574
 
-- Назва: Перетворювати ворогів на кристали досвіду, що притягуються
-- Переглянуто: `2026-08-31`
+- Назва: Перетворювати переможених ворогів на ресурси, що притягуються зблизька
+- Переглянуто: `2026-09-21`
 
 ### Операційне визначення
 
-Переможений ворог залишає Experience Gem, який притягується до близького персонажа й додає досвід лише поточному забігу замість перенесення предмета до інвентарю.
+Придатний переможений ворог залишає у світі типізований ресурс; близькість персонажа притягує його й зараховує оголошену цінність або відновлення поточного проходження замість перенесення предмета до інвентарю.
 
 ### Включає
 
-Сині, зелені й червоні Experience Gems у Vampire Survivors.
+Сині, зелені й червоні Experience Gems у Vampire Survivors; жовту, синю й червону Essence, що зазвичай додає гроші, здоров’я або Ki у Ninja Gaiden Black.
 
 ### Виключає
 
-Ручне пограбування; предмет у комірці інвентарю; досвід, отриманий без підбирання об’єкта на полі.
+Ручне пограбування контейнера; предмет у комірці інвентарю; ресурс, зарахований без об’єкта у світі; поглинання ще не підібраного ресурсу в заряд атаки.
 
 ### Ігри-носії
 
+- [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
 - [`GAME-0183` — Vampire Survivors](../games/s-z/vampire-survivors.md)
 
 ## SYS-575
@@ -12848,30 +12930,42 @@ Wonder, Relic, Score, часову перемогу, кампанійний тр
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
+- [`GAME-0352` — DOOM (1993)](../games/a-f/doom-1993.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
+- [`GAME-0357` — "Grand Theft Auto: San Andreas"](../games/g-l/grand-theft-auto-san-andreas.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
+- [`GAME-0350` — "Jet Set Radio"](../games/g-l/jet-set-radio.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0355` — Metroid Prime](../games/m-r/metroid-prime.md)
+- [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0296` — Noita](../games/m-r/noita.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
+- [`GAME-0344` — "Prince of Persia: The Sands of Time"](../games/m-r/prince-of-persia-the-sands-of-time.md)
+- [`GAME-0358` — Psychonauts](../games/m-r/psychonauts.md)
+- [`GAME-0334` — Quake](../games/m-r/quake.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
+- [`GAME-0348` — "Resident Evil: Director’s Cut"](../games/m-r/resident-evil-directors-cut.md)
 - [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
 - [`GAME-0319` — Sea of Thieves](../games/s-z/sea-of-thieves.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
+- [`GAME-0356` — Shadow of the Colossus](../games/s-z/shadow-of-the-colossus.md)
 - [`GAME-0303` — Sifu](../games/s-z/sifu.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0331` — Starfield](../games/s-z/starfield.md)
+- [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
+- [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
 - [`GAME-0268` — Undertale](../games/s-z/undertale.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0183` — Vampire Survivors](../games/s-z/vampire-survivors.md)
@@ -14605,23 +14699,24 @@ Shadow Corruption у визначеному Solo BOT Mode NARAKA: BLADEPOINT.
 ## SYS-661
 
 - Назва: Опрацьовувати хват і підйом за витривалість
-- Переглянуто: `2026-08-31`
+- Переглянуто: `2026-09-22`
 
 ### Операційне визначення
 
-Досяжність руки, напрямок тіла, сила тяжіння, форма поверхні й доступна витривалість безперервно визначають зчеплення, рух угору, ковзання, відпочинок або падіння.
+Досяжність руки, напрямок тіла, сила тяжіння, форма нерухомої чи рухомої поверхні й доступний запас хвату безперервно визначають зчеплення, рух угору, ковзання, відпочинок або падіння.
 
 ### Включає
 
-Довільне лазіння поверхнями й переходи між уступами в PEAK.
+Довільне лазіння поверхнями й переходи між уступами в PEAK; хутро, виступи, місця відпочинку й ризик зриву на першому рухомому колосі у Shadow of the Colossus.
 
 ### Виключає
 
-Драбину з готовою анімацією; необмежений паркур; постріл гаком.
+Драбину з готовою анімацією; необмежений паркур; постріл гаком; витрату витривалості без впливу на зчеплення.
 
 ### Ігри-носії
 
 - [`GAME-0203` — "PEAK"](../games/m-r/peak.md)
+- [`GAME-0356` — Shadow of the Colossus](../games/s-z/shadow-of-the-colossus.md)
 
 ## SYS-662
 
@@ -15896,6 +15991,7 @@ Mystic Cube до п'ятого рівня та спорядження з удо�
 
 ### Ігри-носії
 
+- [`GAME-0359` — "Crimson Skies: High Road to Revenge"](../games/a-f/crimson-skies-high-road-to-revenge.md)
 - [`GAME-0225` — "STAR WARS: Squadrons"](../games/s-z/star-wars-squadrons.md)
 - [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 
@@ -16173,8 +16269,10 @@ Match Override у Fortnite v42.00 для всього сервера або пе
 
 - [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
+- [`GAME-0350` — "Jet Set Radio"](../games/g-l/jet-set-radio.md)
 - [`GAME-0229` — "No Man’s Sky"](../games/m-r/no-mans-sky.md)
 - [`GAME-0298` — 'Planet Zoo: Console Edition'](../games/m-r/planet-zoo-console-edition.md)
+- [`GAME-0358` — Psychonauts](../games/m-r/psychonauts.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
@@ -16444,7 +16542,9 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
+- [`GAME-0340` — "Halo: Combat Evolved Anniversary"](../games/g-l/halo-combat-evolved-anniversary.md)
 - [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
+- [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 
@@ -16553,6 +16653,7 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 
 - [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
+- [`GAME-0340` — "Halo: Combat Evolved Anniversary"](../games/g-l/halo-combat-evolved-anniversary.md)
 
 ## SYS-755
 
@@ -16582,7 +16683,9 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
+- [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
+- [`GAME-0344` — "Prince of Persia: The Sands of Time"](../games/m-r/prince-of-persia-the-sands-of-time.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
@@ -16950,6 +17053,7 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
+- [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
 
 ## SYS-774
 
@@ -17101,13 +17205,16 @@ Checkpoint Resets на складності Normal у Stage 1 Need for Speed: Th
 
 - [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
+- [`GAME-0353` — "Deus Ex: Game of the Year Edition"](../games/a-f/deus-ex-game-of-the-year-edition.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
 - [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
+- [`GAME-0340` — "Halo: Combat Evolved Anniversary"](../games/g-l/halo-combat-evolved-anniversary.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
+- [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
 
 ## SYS-782
 
@@ -17445,6 +17552,7 @@ Mimic, який копіює буденний предмет станції, а 
 ### Ігри-носії
 
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
 
 ## SYS-798
 
@@ -17960,6 +18068,7 @@ Mimic, який копіює буденний предмет станції, а 
 
 - [`GAME-0277` — Cuphead](../games/a-f/cuphead.md)
 - [`GAME-0278` — DAVE THE DIVER](../games/a-f/dave-the-diver.md)
+- [`GAME-0350` — "Jet Set Radio"](../games/g-l/jet-set-radio.md)
 
 ## SYS-823
 
@@ -18510,6 +18619,7 @@ Rage і Rage Art у визначеному офлайновому матчі Ver
 ### Ігри-носії
 
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
+- [`GAME-0340` — "Halo: Combat Evolved Anniversary"](../games/g-l/halo-combat-evolved-anniversary.md)
 
 ## SYS-852
 
@@ -18557,16 +18667,16 @@ Rage і Rage Art у визначеному офлайновому матчі Ver
 
 ## SYS-854
 
-- Назва: Застосовувати типову спорідненість у покроковому бою до шкоди й поразки
-- Переглянуто: `2026-09-13`
+- Назва: Перетворювати типову спорідненість командного бою на шкоду й поразку
+- Переглянуто: `2026-09-21`
 
 ### Операційне визначення
 
-Допустима покрокова атака порівнює свій оголошений тип зі спорідненістю цілі, застосовує відповідний модифікатор шкоди й стан, зменшує здоров’я та усуває учасника після досягнення межі поразки.
+Допустима атака в командному бою порівнює свій оголошений тип зі спорідненістю цілі, застосовує відповідний модифікатор шкоди й стан, зменшує здоров’я та усуває учасника після досягнення межі поразки.
 
 ### Включає
 
-Фізичні атаки й уміння Persona проти Shadows у межах маршруту Persona 5 Royal палацом 11–12 квітня, зокрема збільшену шкоду та стан Down після влучання у виявлену слабкість.
+Фізичні атаки й уміння Persona проти Shadows у маршруті Persona 5 Royal 11–12 квітня; бонус типу й ефективність типів до непритомності в Pokémon Red Version; заклинання Bolt проти слабкого до Lightning Guard Scorpion у Final Fantasy VII.
 
 ### Виключає
 
@@ -18574,7 +18684,10 @@ Rage і Rage Art у визначеному офлайновому матчі Ver
 
 ### Ігри-носії
 
+- [`GAME-0346` — Chrono Trigger](../games/a-f/chrono-trigger.md)
+- [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
 - [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
+- [`GAME-0336` — "Pokémon Red Version"](../games/m-r/pokemon-red-version.md)
 
 ## SYS-855
 
@@ -19543,6 +19656,7 @@ Delivery Results першого замовлення DEATH STRANDING DIRECTOR'S 
 ### Ігри-носії
 
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
+- [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 
 ## SYS-901
 
@@ -19564,6 +19678,7 @@ Delivery Results першого замовлення DEATH STRANDING DIRECTOR'S 
 ### Ігри-носії
 
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
+- [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 
 ## SYS-902
 
@@ -19586,6 +19701,7 @@ Delivery Results першого замовлення DEATH STRANDING DIRECTOR'S 
 
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
+- [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 
 ## SYS-903
 
@@ -19650,6 +19766,7 @@ Delivery Results першого замовлення DEATH STRANDING DIRECTOR'S 
 
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
+- [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 
 ## SYS-906
 
@@ -19779,7 +19896,10 @@ Delivery Results першого замовлення DEATH STRANDING DIRECTOR'S 
 - [`GAME-0324` — Contra Force](../games/a-f/contra-force.md)
 - [`GAME-0326` — Crash Bandicoot](../games/a-f/crash-bandicoot.md)
 - [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
+- [`GAME-0342` — "PAC-MAN"](../games/m-r/pac-man.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
+- [`GAME-0360` — "Space Invaders"](../games/s-z/space-invaders.md)
+- [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 - [`GAME-0313` — Tank 1990](../games/s-z/tank-1990.md)
 
 ## SYS-912
@@ -19823,6 +19943,7 @@ Delivery Results першого замовлення DEATH STRANDING DIRECTOR'S 
 ### Ігри-носії
 
 - [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
+- [`GAME-0340` — "Halo: Combat Evolved Anniversary"](../games/g-l/halo-combat-evolved-anniversary.md)
 
 ## SYS-914
 
@@ -20245,6 +20366,7 @@ Battle Plans Front Cover, Back Cover, Round Cover, Front Keep, Back Keep і Assi
 - [`GAME-0326` — Crash Bandicoot](../games/a-f/crash-bandicoot.md)
 - [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
+- [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 
 ## SYS-934
 
@@ -20289,6 +20411,7 @@ Battle Plans Front Cover, Back Cover, Round Cover, Front Keep, Back Keep і Assi
 - [`GAME-0326` — Crash Bandicoot](../games/a-f/crash-bandicoot.md)
 - [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
+- [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 
 ## SYS-936
 
@@ -20562,3 +20685,931 @@ Battle Plans Front Cover, Back Cover, Round Cover, Front Keep, Back Keep і Assi
 ### Ігри-носії
 
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
+
+## SYS-949
+
+- Назва: Ділити вхідну шкоду за коефіцієнтом броні
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Для кожного сумісного удару обчислювати захищену частку з коефіцієнта чинної броні та вхідної шкоди, обмежувати й віднімати її від скінченного запасу броні, а незахищений залишок одразу застосовувати до здоров'я, не чекаючи вичерпання броні.
+
+### Включає
+
+Поділ шкоди зеленою, жовтою та червоною бронею в оригінальній Quake; у межах E1M1 доступна зелена або жовта броня.
+
+### Виключає
+
+Броню, яка приймає всю сумісну шкоду перед здоров'ям; спорядження частин тіла; повний імунітет; тимчасову невразливість; міцність, що змінює лише властивості предмета.
+
+### Ігри-носії
+
+- [`GAME-0352` — DOOM (1993)](../games/a-f/doom-1993.md)
+- [`GAME-0334` — Quake](../games/m-r/quake.md)
+
+## SYS-950
+
+- Назва: Обслуговувати чергу, посадку й повторні запуски атракціону
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Відкритий атракціон приймає придатних відвідувачів зі з’єднаної черги у вільну місткість, відправляє цикл за налаштованою умовою завантаження й очікування, повертає пасажирів до виходу та повторює роботу, поки лишається справним.
+
+### Включає
+
+Чергу, посадку, цикл і вихід атракціонів у Forest Frontiers.
+
+### Виключає
+
+Будівництво; вибір політики; пряме керування транспортом; вибір відвідувачем цілі до черги.
+
+### Ігри-носії
+
+- [`GAME-0335` — RollerCoaster Tycoon Deluxe](../games/m-r/rollercoaster-tycoon-deluxe.md)
+
+## SYS-951
+
+- Назва: Визначати автономні цілі й покупки відвідувача
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Кожен автономний відвідувач оцінює досяжні відкриті атракціони чи послуги за вподобаннями, поточними потребами, ціною, цінністю й залишком грошей, а тоді йде, чекає, платить або відмовляється, споживає послугу й обирає наступну ціль чи виходить.
+
+### Включає
+
+Вибір атракціонів і кіосків, відмову від ціни, загублення та вихід гостей у Forest Frontiers.
+
+### Виключає
+
+Саме оновлення настрою; пряме керування; фіксований сценарний маршрут; відправлення вагона.
+
+### Ігри-носії
+
+- [`GAME-0335` — RollerCoaster Tycoon Deluxe](../games/m-r/rollercoaster-tycoon-deluxe.md)
+
+## SYS-952
+
+- Назва: Перетворювати роботу парку на рейтинг і приплив гостей
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Жива симуляція зводить досвід гостей, роботу атракціонів, планування, чистоту, цінність, ефективність і безпеку до обмеженого рейтингу парку, чия поточна репутація впливає на подальший приплив гостей.
+
+### Включає
+
+Рейтинг парку від 0 до 1000 і його зв’язок із прибуттям гостей у RollerCoaster Tycoon Deluxe.
+
+### Виключає
+
+Особисте щастя одного гостя; кінцевий рахунок; перевірку строку; платну рекламу.
+
+### Ігри-носії
+
+- [`GAME-0335` — RollerCoaster Tycoon Deluxe](../games/m-r/rollercoaster-tycoon-deluxe.md)
+
+## SYS-953
+
+- Назва: Зношувати, оглядати, ламати й ремонтувати атракціон
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Працюючий атракціон накопичує залежний від віку й оглядів ризик несправності, може перейти в неробочий стан і створює завдання ремонту або планового огляду для придатного досяжного механіка, чия завершена робота відновлює звичайну експлуатацію або зменшує подальший ризик.
+
+### Включає
+
+Огляди, виклики через поломку, ремонт і простій атракціонів у Forest Frontiers.
+
+### Виключає
+
+Спільний запас матеріалів ремонту; ручний ремонт гравцем; миттєву заміну атракціону; аварію як окрему ціль.
+
+### Ігри-носії
+
+- [`GAME-0335` — RollerCoaster Tycoon Deluxe](../games/m-r/rollercoaster-tycoon-deluxe.md)
+
+## SYS-954
+
+- Назва: Вибирати місцеву зустріч за допустимим переміщенням
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Допустимий крок або перевірка руху враховує поточне поле, місцевість і частоту зустрічей, вибирає одну зважену локальну позицію та створює відповідного опонента або формацію як обмежений бій.
+
+### Включає
+
+Кроки в траві Route 1 і Viridian Forest у Pokémon Red Version; перевірки руху за danger-показником поточного поля та його таблицею зустрічей у маршруті Reactor No. 1 у Final Fantasy VII.
+
+### Виключає
+
+Фіксовані бої з Тренерами або сюжетні бої; авторські подарунки; саму генерацію світу; вибір випадкового здобутку після бою.
+
+### Ігри-носії
+
+- [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
+- [`GAME-0336` — "Pokémon Red Version"](../games/m-r/pokemon-red-version.md)
+
+## SYS-955
+
+- Назва: Розв'язувати пару бойових команд за пріоритетом і Speed
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Після вибору команд гравця й опонента клас команди, пріоритет прийому та Speed визначають порядок; ранній результат може скасувати пізню дію до наступного меню.
+
+### Включає
+
+Порядок ITEM, PKMN, RUN і прийомів, Quick Attack, Counter та нічию Speed у Pokémon Red Version.
+
+### Виключає
+
+Сам вибір команд; одночасні атаки в реальному часі; типізовану шкоду.
+
+### Ігри-носії
+
+- [`GAME-0336` — "Pokémon Red Version"](../games/m-r/pokemon-red-version.md)
+
+## SYS-956
+
+- Назва: Зберігати й відновлювати обмежену команду істот
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Кожен член команди переносить між боями особу, рівень, здоров'я, стан, прийоми й PP, а прийнята послуга відновлює оголошені поля та записує місце повернення.
+
+### Включає
+
+Шестимісну party, Pokémon Center і останній Center у Pokémon Red Version.
+
+### Виключає
+
+Місткість місця захоплення; пороги досвіду; автоматичне лікування після кожної перемоги.
+
+### Ігри-носії
+
+- [`GAME-0336` — "Pokémon Red Version"](../games/m-r/pokemon-red-version.md)
+
+## SYS-957
+
+- Назва: Перетворювати непритомність усієї команди на лікування, втрату грошей і повернення
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Коли жоден член команди не може битися, звичайна сутичка завершується, команда лікується, оголошена частка грошей втрачається, а Тренер повертається до останньої точки відновлення.
+
+### Включає
+
+Blackout після звичайних боїв у Pokémon Red Version із втратою половини грошей.
+
+### Виключає
+
+Особливу поразку в першому бою з суперником; втечу; одного непритомного Pokémon за наявності заміни.
+
+### Ігри-носії
+
+- [`GAME-0336` — "Pokémon Red Version"](../games/m-r/pokemon-red-version.md)
+
+## SYS-958
+
+- Назва: Знижувати тривогу через послідовні фази пошуку
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Після завершеного виявлення система переходить у фазу тривоги; втрата прямого контакту й завершення першого відліку переводять її в активний пошук, завершення другого відліку повертає звичайний невиявлений стан, а повторне виявлення під час відновлення негайно знову вмикає тривогу.
+
+### Включає
+
+Послідовність Alert — Evasion — Infiltration у Metal Gear Solid і повернення до Alert, коли Snake знаходять знову.
+
+### Виключає
+
+Один двійковий стан виявлено/не виявлено; одну перезарядку після бою; постійне зростання розшуку; сюжетну тривогу без зворотної послідовності пошуку.
+
+### Ігри-носії
+
+- [`GAME-0339` — Metal Gear Solid](../games/m-r/metal-gear-solid.md)
+
+## SYS-959
+
+- Назва: Перетворювати непідібрані ресурси переможених ворогів на прискорений заряд атаки
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Поки придатну атаку зброєю утримують у стані заряджання, близькі непідібрані ресурси від переможених ворогів притягуються до заряду й витрачаються, просувають його до сильнішого рівня та втрачають свій звичайний ефект підбирання до випуску атаки.
+
+### Включає
+
+Поглинання жовтої, синьої або червоної Essence утриманням важкої атаки в Ninja Gaiden Black, прискорення Ultimate Technique й відмова від відповідних грошей, здоров’я або Ki.
+
+### Виключає
+
+Звичайне підбирання зблизька; заряд лише від часу утримання; витрату боєприпасів з інвентарю; саме введення утриманої та випущеної атаки.
+
+### Ігри-носії
+
+- [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
+
+## SYS-960
+
+- Назва: Спрямовувати переслідувачів різних ролей за часовими режимами цілей
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Автономні переслідувачі чергують спільний часовий розклад режимів погоні й відступу, на перехрестях рухаються до цільових клітин, обчислених окремо для кожної ролі, та примусово розвертаються під час оголошених змін режиму.
+
+### Включає
+
+Різні цілі Blinky, Pinky, Inky та Clyde, режими Scatter і Chase, розвороти й пізнє прискорення Blinky у першому лабіринті PAC-MAN.
+
+### Виключає
+
+Безпосереднє керування гравця; одного ворога з простим найкоротшим шляхом; frightened-режим; випуск із домівки.
+
+### Ігри-носії
+
+- [`GAME-0342` — "PAC-MAN"](../games/m-r/pac-man.md)
+
+## SYS-961
+
+- Назва: Тимчасово обертати небезпечних переслідувачів на цілі зі зростанням винагороди
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Збирання оголошеного підсилення примусово розвертає придатних переслідувачів, на короткий час робить їх безпечними для захоплення, збільшує ціну послідовних захоплень і повертає захоплених неворожим шляхом до відновлення.
+
+### Включає
+
+Power Pellet, синіх привидів, 200/400/800/1600 очок, повернення очей і відновлення привида у PAC-MAN.
+
+### Виключає
+
+Остаточне знищення ворога; звичайну невразливість без контратаки; множник шкоди; звичайний Chase.
+
+### Ігри-носії
+
+- [`GAME-0342` — "PAC-MAN"](../games/m-r/pac-man.md)
+
+## SYS-962
+
+- Назва: Випускати очікувальних переслідувачів за лічильниками збирання або таймером
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Неактивні переслідувачі чекають у захищеній домівці й виходять у заданому порядку, коли особистий або спільний лічильник збирання досягає порога; таймер без поступу забезпечує запасний випуск, а оголошене скидання обирає наступний режим лічильника.
+
+### Включає
+
+Випуск Pinky, Inky та Clyde за Pac-Dots або таймером і спільний лічильник після втрати життя у PAC-MAN.
+
+### Виключає
+
+Періодичні хвилі; куплене підкріплення; маршрутизацію після виходу; відновлення вже з’їденого привида.
+
+### Ігри-носії
+
+- [`GAME-0342` — "PAC-MAN"](../games/m-r/pac-man.md)
+
+## SYS-963
+
+- Назва: Створювати тимчасові бонусні об’єкти на рубежах збирання
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Коли лічильник обов’язкових зібраних об’єктів поточного етапу досягає оголошеного рубежу, система створює в постійному місці один необов’язковий бонус на обмежений час і прибирає його, якщо його не зібрали.
+
+### Включає
+
+Вишні після 70 і 170 з’їдених точок у першому лабіринті PAC-MAN.
+
+### Виключає
+
+Постійний предмет; випадкову здобич ворога; самі обов’язкові цілі; нагороду після етапу.
+
+### Ігри-носії
+
+- [`GAME-0342` — "PAC-MAN"](../games/m-r/pac-man.md)
+
+## SYS-964
+
+- Назва: Переносити акторів крізь парний крайовий тунель зі швидкістю за класом
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Перетин відкритого кінця парного тунелю скінченного етапу зберігає напрям актора, переносить його до протилежного краю й до виходу застосовує зміну швидкості, визначену класом актора.
+
+### Включає
+
+Бічний тунель PAC-MAN, появу на протилежному краї та сповільнення лише привидів.
+
+### Виключає
+
+Повну тороїдальну суміжність; портали гравця; перехід між кімнатами; суто візуальне обгортання.
+
+### Ігри-носії
+
+- [`GAME-0342` — "PAC-MAN"](../games/m-r/pac-man.md)
+
+## SYS-965
+
+- Назва: Перетворювати одноразове досягнення порога очок на додаткове життя
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Перше досягнення налаштованого порога очок у поточній оплаченій грі рівно один раз додає одиницю до скінченного запасу життів, не завершуючи етап і не витрачаючи рахунок.
+
+### Включає
+
+Одне додаткове життя за 10 000 очок у заявленому налаштуванні PAC-MAN.
+
+### Виключає
+
+Повторні рубежі предметів; підібране життя; очки як єдину мету; безкоштовний Continue після Game Over.
+
+### Ігри-носії
+
+- [`GAME-0342` — "PAC-MAN"](../games/m-r/pac-man.md)
+- [`GAME-0360` — "Space Invaders"](../games/s-z/space-invaders.md)
+
+## SYS-966
+
+- Назва: Відбудовувати очищений лабіринт зі збираними цілями для наступного раунду
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Усунення всіх обов’язкових предметів із фіксованого етапу зараховує його очищення, знову заповнює авторську схему предметів, повертає акторів на старт і вводить стан готовності наступного раунду зі збереженням очок і життів гри.
+
+### Включає
+
+Перехід після останньої точки першого лабіринту PAC-MAN до READY! другого раунду.
+
+### Виключає
+
+Скидання після смерті зі збереженням прибраних точок; ручний перезапуск; інший лабіринт; Game Over; саму гру другого раунду.
+
+### Ігри-носії
+
+- [`GAME-0342` — "PAC-MAN"](../games/m-r/pac-man.md)
+
+## SYS-967
+
+- Назва: Зіставити сенсорний постріл із показаною активною ціллю
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Після спуску сумісного світлового пістолета програма показує перевірку темряви та локалізований світловий відгук цілі, зчитує сигнал пістолета й зараховує влучання лише тоді, коли прийнятий відлік відповідає області поточної цілі.
+
+### Включає
+
+Визначення NES Duck Hunt пострілу Zapper по єдиній поточній качці Game A на сумісному CRT-екрані.
+
+### Виключає
+
+Трасування променя з програмної камери; перекриття курсором миші; влучання лише за часом натискання спуску; фізичне наведення гравцем; твердження про не задокументовані допуски пікселів або поведінку сторонніх пістолетів.
+
+### Ігри-носії
+
+- [`GAME-0345` — "Duck Hunt"](../games/a-f/duck-hunt.md)
+
+## SYS-968
+
+- Назва: Послідовно розігрувати летючу ціль до влучання або втечі
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Система випускає одну ціль зі змінної початкової точки в безперервний політ екраном, тримає її активною до влучання, вичерпання запасу пострілів або завершення часу нагоди, підсумовує влучання чи втечу й випускає наступну ціль у фіксованій кількості раунду.
+
+### Включає
+
+Десять качок по одній в одному раунді оригінальної Duck Hunt Game A.
+
+### Виключає
+
+Двох одночасних качок Game B; фіксовані траєкторії тарілок; переслідування керованого персонажа ворогом; ціль, що лишається до знищення; випадкові світові зустрічі, які вибираються лише під час входу гравця в область.
+
+### Ігри-носії
+
+- [`GAME-0345` — "Duck Hunt"](../games/a-f/duck-hunt.md)
+
+## SYS-969
+
+- Назва: Нарахувати очки за клас цілі та бонус раунду без промахів
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Кожне зараховане влучання додає значення, визначене для цього класу цілі й раунду, а завершення всього розкладу цілей без промаху додає один оголошений бонус за ідеальний раунд.
+
+### Включає
+
+Очки за чорну, синю й червону качку та бонус PERFECT у першому раунді оригінальної Duck Hunt Game A.
+
+### Виключає
+
+Мінімальну кількість влучань для проходження раунду; множник комбінації; перетворення залишку часу на очки; очки за промах або ціль, що втекла.
+
+### Ігри-носії
+
+- [`GAME-0345` — "Duck Hunt"](../games/a-f/duck-hunt.md)
+
+## SYS-970
+
+- Назва: Відновити програвшу необов’язкове випробування команду з мінімальним здоров’ям
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Вичерпання здоров’я всіх активних членів команди в оголошеному необов’язковому випробуванні завершує лише це випробування, скасовує його нагороду й відновлює команду з оголошеним мінімальним додатним здоров’ям, тому звичайне пересування світом і повторна спроба лишаються доступними.
+
+### Включає
+
+Поразку в необов’язковому випробуванні Gato на Millennial Fair у Chrono Trigger, після якої команда повертається до ярмарку з одним HP без Silver Points і без Game Over для маршруту.
+
+### Виключає
+
+Game Over усієї кампанії; витрату скінченного життя; відновлення контрольної точки; перемогу у випробуванні; автоматичне повне лікування після кожної сутички.
+
+### Ігри-носії
+
+- [`GAME-0346` — Chrono Trigger](../games/a-f/chrono-trigger.md)
+
+## SYS-971
+
+- Назва: Перенести крізь створену передумовами авторську браму між епохами
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Коли адресований механізм і збережений ключовий предмет виконують авторські передумови, механізм створює браму, яка прибирає активного мандрівника з поточного місця й повертає звичайне керування у фіксованому відповідному місці іншої оголошеної епохи світу.
+
+### Включає
+
+Реакцію Telepod на Pendant у Chrono Trigger, за якої Gate спершу переносить Marle, а потім Crono з Leene Square 1000 A.D. до Truce Canyon 600 A.D.
+
+### Виключає
+
+Звичайну телепортацію в межах епохи; вибір серед уже відкритих місць на мапі; кінематографічний плин часу без зміни місця; перемотування попередньої історії симуляції; вільні подорожі часом.
+
+### Ігри-носії
+
+- [`GAME-0346` — Chrono Trigger](../games/a-f/chrono-trigger.md)
+
+## SYS-972
+
+- Назва: Прибрати спорядження або здібності під час авторської події маршруту
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Авторська подія безперервного маршруту прибирає оголошений набір споряджених предметів або набутих станів здібностей керованого персонажа, але зберігає живого персонажа, звичайне базове керування, сумісну модель спорядження чи здібностей і можливість надалі знайти заміни або повернути втрачений набір.
+
+### Включає
+
+Death прибирає початкові предмети рук, броню й аксесуари Alucard у Castlevania: Symphony of the Night; зіткнення на Frigate Orpheon вимикає оголошені розширені здібності Samus, але лишає Power Suit, Power Beam, Combat Visor і Scan Visor у Metroid Prime.
+
+### Виключає
+
+Випадіння перенесених предметів після смерті; повернення позиченого спорядження після контракту; добровільне зняття одного предмета; видалення моделі інвентарю чи здібностей або перезапуск усієї гри.
+
+### Ігри-носії
+
+- [`GAME-0347` — "Castlevania: Symphony of the Night"](../games/a-f/castlevania-symphony-of-the-night.md)
+- [`GAME-0355` — Metroid Prime](../games/m-r/metroid-prime.md)
+
+## SYS-973
+
+- Назва: Відновити особисті ресурси біля призначеного пристрою збереження
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Активація придатного призначеного пристрою ручного збереження відновлює оголошені поточні особисті ресурси керованого персонажа до максимумів без вимоги перемоги в бою та без повторного заселення навколишніх звичайних сутичок.
+
+### Включає
+
+Save room у Castlevania: Symphony of the Night, де активація центрального куба відновлює HP і MP Alucard.
+
+### Виключає
+
+Окрему законність і запис збереження; відпочинок на контрольній точці з відродженням звичайних ворогів; пасивну регенерацію; лікувальний витратний предмет; завантаження попереднього збереження після поразки.
+
+### Ігри-носії
+
+- [`GAME-0347` — "Castlevania: Symphony of the Night"](../games/a-f/castlevania-symphony-of-the-night.md)
+
+## SYS-974
+
+- Назва: Нести ролера вздовж придатної рейки або стіни
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Коли ролер у придатному напрямку торкається сумісної рейки або стіни, система прикріплює тіло до поверхні й несе рух уздовж авторського шляху, доки стрибок, край, несумісний контакт або зіткнення не від’єднає його.
+
+### Включає
+
+Ковзання рейками й придатними стінами у вступі Jet Set Radio для Xbox 360.
+
+### Виключає
+
+Звичайний рух землею; транспорт на фіксованій колії; магнітне переміщення предмета; кінематографічний шлях; загальні зіткнення й гравітацію після від’єднання.
+
+### Ігри-носії
+
+- [`GAME-0350` — "Jet Set Radio"](../games/g-l/jet-set-radio.md)
+
+## SYS-975
+
+- Назва: Накопичувати пов’язані трюки в переривний ланцюжок очок
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Кожен придатний трюк на рейці, стіні, у повітрі чи стрибку, виконаний без розриву поточного пересування, додає очки й продовжує тимчасовий ланцюжок, а завершальне зіткнення обнуляє його, не стираючи вже зараховані очки етапу.
+
+### Включає
+
+Пов’язані трюки та розрив ланцюжка від зіткнення у вступі Jet Set Radio для Xbox 360.
+
+### Виключає
+
+Фіксовану бойову комбінацію ударів; множник за швидкі вбивства; серію замовлень; підсумковий ранг; завершення точки графіті.
+
+### Ігри-носії
+
+- [`GAME-0350` — "Jet Set Radio"](../games/g-l/jet-set-radio.md)
+
+## SYS-976
+
+- Назва: Витратити запаси фарби й замінити одне позначене графіті
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Після законного запиту система списує кількість кадрів фарби, потрібну для розміру адресованої поверхні, перевіряє необхідну напрямлену послідовність і лише після завершення замінює цю поверхню, додає очки та записує її стан у цілі.
+
+### Включає
+
+Малі, великі й надвеликі обов’язкові точки графіті у вступі Jet Set Radio для Xbox 360.
+
+### Виключає
+
+Збирання балончиків; довільний редактор; фарбування непозначеної поверхні; одночасне завершення всіх точок; політику необов’язкових зелених точок; самі введення напрямків.
+
+### Ігри-носії
+
+- [`GAME-0350` — "Jet Set Radio"](../games/g-l/jet-set-radio.md)
+
+## SYS-977
+
+- Назва: Посилювати поліцейський тиск за поступ обов’язкових графіті
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Коли завершується оголошена кількість або набір обов’язкових точок графіті, система вводить наступну авторську хвилю правоохоронців, чиї актори переслідують і атакують під час активного вуличного етапу, не замінюючи решту територіальної цілі.
+
+### Включає
+
+Прибуття поліції після трьох графіті на автобусах Shibuya GG та пізніша поява Captain Onishima у вступі Jet Set Radio для Xbox 360.
+
+### Виключає
+
+Звичайне сприйняття патрулем; рівень розшуку за довільний злочин; хвилю лише за часом; боса замість цілі графіті; точну приховану геометрію появи.
+
+### Ігри-носії
+
+- [`GAME-0350` — "Jet Set Radio"](../games/g-l/jet-set-radio.md)
+
+## SYS-978
+
+- Назва: Розв’язати утримуване в роті тіло в типозалежний ефект їздового компаньйона
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Коли їздовий компаньйон утримує одне придатне тіло, система перетворює його оголошений тип і момент випуску або ковтання на конкретний випущений ефект, виплюнуте тіло чи поглинутий кінець, а тоді очищує винятковий утримуваний стан.
+
+### Включає
+
+Червоний панцир створює три вогняні кулі, зелений панцир випльовується рухомим, а невипущений панцир зрештою ковтається Йоші в межах Super Mario World.
+
+### Виключає
+
+Команду гравця проковтнути чи виплюнути; пряме збирання панцира; звичайне зіткнення снаряда; косметичний колір тіла; рецепт із кількох інвентарних складників.
+
+### Ігри-носії
+
+- [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
+
+## SYS-979
+
+- Назва: Перетворити шкоду верхи на відновлюване розділення вершника й компаньйона
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Коли придатний шкідливий контакт досягає пари вершника й компаньйона, система розділяє їх, переводить компаньйона в автономну втечу та зберігає обмежену можливість знову сісти верхи, доки він не покинув досяжний простір світу.
+
+### Включає
+
+Маріо злітає з Йоші, Йоші тікає, а Маріо може знову сісти на нього до урвища чи виходу за екран у межах Super Mario World.
+
+### Виключає
+
+Витрату броні перед здоров’ям; остаточну загибель їздового компаньйона; добровільне спішування; катапультування зі знищеного транспорту; звичайне відкидання без окремого сталого актора-компаньйона.
+
+### Ігри-носії
+
+- [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
+
+## SYS-980
+
+- Назва: Видати нагороду за поріг корму, з’їденого їздовим компаньйоном
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Кожне придатне тіло корму, з’їдене поточним їздовим компаньйоном, збільшує збережений локальний лічильник, а досягнення авторського порога скидає цей лічильник і створює оголошену нагороду у світі.
+
+### Включає
+
+Йоші з’їдає десять червоних ягід і відкладає яйце із Super Mushroom у межах Yoshi's Island 2 з Super Mario World.
+
+### Виключає
+
+Прямий дотик гравця до колекційного предмета; лише ланцюжок очок; маршрутний поріг, що дає життя; довільне виготовлення; нагороду за минулий час замість з’їденого корму.
+
+### Ігри-носії
+
+- [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
+
+## SYS-981
+
+- Назва: Тимчасово поміняти місцями авторські стани монет і твердих блоків
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Активація призначеного перемикача запускає обмежений живий проміжок, у якому кожна адресована монета набуває парного стану твердого блока, а кожен сумісний блок — парного стану монети; після завершення проміжку всі доречні об’єкти повертаються до авторського звичайного класу.
+
+### Включає
+
+P-Switch перетворює пізні монети Yoshi's Island 2 на тимчасові сходинки Brown Block, а сумісні Brown Block — на монети до відновлення.
+
+### Виключає
+
+Постійне створення одного блока; відкриття дверей перемикачем; безстрокове двійкове перемикання одного пристрою; зміну декоративної палітри; загальне повернення часу.
+
+### Ігри-носії
+
+- [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
+
+## SYS-982
+
+- Назва: Перетворити завершене утримуване сканування на типізовану відповідь цілі
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Коли утримуваний аналіз однієї придатної цілі світу завершується в межах дії, система фіксує задану для неї відповідь: зберігає відкриту інформацію, перенаправляє підтримувану бойову фіксацію на виявлене слабке місце або застосовує адресований стан керування пристроєм.
+
+### Включає
+
+Сканування Frigate Orpheon у Metroid Prime, які записують дані, переводять фіксацію Parasite Queen на голову або керують потрібними силовими полями, дверима, ліфтом і турелями.
+
+### Виключає
+
+Саму утримувану команду сканування; накопичення кількох уламків креслення; завантаження вибраного швидкого зламу; одноімпульсне виявлення ресурсів; лише підсвічування незавершеної цілі.
+
+### Ігри-носії
+
+- [`GAME-0355` — Metroid Prime](../games/m-r/metroid-prime.md)
+
+## SYS-983
+
+- Назва: Опрацьовувати живого стража як змінну топологію для лазіння
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Поза, рух, атаки й реакції локальних ран одного ворожого тіла безперервно змінюють, до якого хутра, виступів і місць відпочинку можна дістатися, де вони стійкі та як з’єднані, поки це саме тіло лишається ціллю сутички.
+
+### Включає
+
+Перший колос у Shadow of the Colossus ходить і струшує Wander, а удар у рану на задній частині лівої ноги змушує його стати навколішки й відкриває шлях від хутра ноги через спину до тімені.
+
+### Виключає
+
+Лазіння нерухомою місцевістю; кінематографічну зміну пози без наслідку для маршруту; звичайне приголомшення лише для вікна шкоди; окремі платформи, не пов’язані з тілом стража.
+
+### Ігри-носії
+
+- [`GAME-0356` — Shadow of the Colossus](../games/s-z/shadow-of-the-colossus.md)
+
+## SYS-984
+
+- Назва: Перетворювати зібрані очки у сталий ранг кадета
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Об'єкти, підібрані контактом, додають свої оголошені значення до одного тривалого лічильника поступу, а кожен повний поріг перетворює це значення на один сталий ранг персонажа зі збереженням залишку.
+
+### Включає
+
+Фігменти в Psychonauts додають свої окремі значення, а кожні повні 100 очок дають один PSI Cadet Rank.
+
+### Виключає
+
+Підбирання лише для очок; звичайний досвід за переможених ворогів; сто однакових об'єктів за додаткове життя; витрачання вручну розподіленого бала розвитку; тимчасову оцінку рівня.
+
+### Ігри-носії
+
+- [`GAME-0358` — Psychonauts](../games/m-r/psychonauts.md)
+
+## SYS-985
+
+- Назва: Витрачати astral layer на mental checkpoint або виганяти зі свідомості
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Вичерпання mental health усередині чужої свідомості витрачає один наявний шар астральної проєкції й відновлює кероване тіло біля останньої пройденої контрольної точки; якщо шару немає, ментальна спроба закривається, а звичайне керування повертається в реальному світі.
+
+### Включає
+
+Невдача в mental world протягом Basic Braining у Psychonauts, де astral layer оплачує повернення до останньої контрольної точки, а нуль шарів викидає Raz зі свідомості Coach Oleander.
+
+### Виключає
+
+Віднімання скінченного платформного життя; необмежену повторну спробу місії; завантаження старішого збереження; випадіння відновлюваної валюти; втрату здоров'я в реальному світі; добровільний вихід через Smelling Salts.
+
+### Ігри-носії
+
+- [`GAME-0358` — Psychonauts](../games/m-r/psychonauts.md)
+
+## SYS-986
+
+- Назва: Оцінювати класи тренувальних мішеней за живим прохідним порогом
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Протягом одного живого авторського тренувального інтервалу для прямих ударів з'являються придатні класи мішеней: схвалені цілі додають поступ, захищені класи зменшують або не додають його, а виконання показаного порога до закриття інтервалу відкриває оголошене продовження.
+
+### Включає
+
+Галерею Basic Braining у Psychonauts, де Raz влучає у ворожі картонні мішені, уникає мішеней-немовлят і мусить отримати потрібний результат, перш ніж Coach Oleander відкриє наступний маршрут.
+
+### Виключає
+
+Мисливський раунд із фіксованими десятьма цілями; шкоду тривалому живому ворогу; максимізацію необов'язкового рахунку після відкриття воріт; мішень лише з локальним обмеженням пострілів.
+
+### Ігри-носії
+
+- [`GAME-0358` — Psychonauts](../games/m-r/psychonauts.md)
+
+## SYS-987
+
+- Назва: Спрямовувати один скінченний вторинний снаряд до близької до прицілу цілі
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Постріл сумісною вторинною зброєю витрачає одне скінченне використання, запускає снаряд із прямо керованого літака й застосовує обмежене правилами коригування курсу до придатної цілі поблизу поточного напряму прицілу до влучання, промаху або перешкоди.
+
+### Включає
+
+Магнітні ракети Devastator, що коригують шлях до навчальних або портових гарматних веж у The Morning After.
+
+### Виключає
+
+Систему накопичення фіксації із попередженням про вхідну загрозу й контрзаходами; некерований снаряд; необмежений вогонь основної зброї; стратегічну ракету з мапи.
+
+### Ігри-носії
+
+- [`GAME-0359` — "Crimson Skies: High Road to Revenge"](../games/a-f/crimson-skies-high-road-to-revenge.md)
+
+## SYS-988
+
+- Назва: Витрачати один спільний запас на turbo й авторські польотні маневри
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Турборивки й придатні запрограмовані маневри літака зменшують той самий обмежений живий запас енергії; недостатній залишок забороняє нове використання, а правило відновлення носія повертає майбутню доступність.
+
+### Включає
+
+Коричневу шкалу енергії special manoeuvre, яка живить turbo й особливі маневри в The Morning After.
+
+### Виключає
+
+Розподіл одного бюджету між двигуном, зброєю й щитами; незалежні cooldown; паливо лише для звичайної тяги; постійне покращення літака.
+
+### Ігри-носії
+
+- [`GAME-0359` — "Crimson Skies: High Road to Revenge"](../games/a-f/crimson-skies-high-road-to-revenge.md)
+
+## SYS-989
+
+- Назва: Завершувати впорядкований навчальний виліт поверненням бази й жетоном
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Один фіксований навчальний виліт переходить далі лише після виконання поточної польотної або бойової умови, а придатна взаємодія повернення на базу перетворює закриту останню хвилю на стан повернутої бази, один збережений жетон завершення й відновлене післямісійне керування всередині бази.
+
+### Включає
+
+Завершення The Morning After у Pandora з жетоном Upgrade Token в оригінальній Xbox-версії Crimson Skies: High Road to Revenge.
+
+### Виключає
+
+Лише знищення останнього винищувача; медаль у підсумках; завершення всієї кампанії; прихований жетон; повернення до бази до закриття умов місії.
+
+### Ігри-носії
+
+- [`GAME-0359` — "Crimson Skies: High Road to Revenge"](../games/a-f/crimson-skies-high-road-to-revenge.md)
+
+## SYS-990
+
+- Назва: Просувати скорочуваний стрій зі зміною напряму й спуском на краю
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Уцілілі члени одного фіксованого ворожого строю рухаються вбік від спільної опорної точки; коли зайнятий край досягає межі поля, стрій змінює горизонтальний напрям і спускається, а менша кількість уцілілих скорочує ефективний час повного циклу просування.
+
+### Включає
+
+Стрій із п'яти рядів по одинадцять загарбників у першому обмеженому строю оригінальної Space Invaders Taito 1978 року: уцілілі рухаються, змінюють напрям, спускаються й тиснуть швидше зі зменшенням їхньої кількості.
+
+### Виключає
+
+Незалежне переслідування найкоротшим шляхом; хвилю появ за часом; керований гравцем військовий стрій; зміну складності між раундами; саме лише прискорення звуку без зміни ефективного руху строю.
+
+### Ігри-носії
+
+- [`GAME-0360` — "Space Invaders"](../games/s-z/space-invaders.md)
+
+## SYS-991
+
+- Назва: Пробивати сталі пікселі укриття пострілами обох сторін
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Прийняті снаряди кожної з протилежних сторін і оголошений контакт зі строєм стирають перетнуті комірки фіксованої захисної маски; кожна утворена діра зберігається для наступних траєкторій до явної відбудови за правилом носія.
+
+### Включає
+
+Чотири укриття в першому строю оригінальної Space Invaders Taito, де постріли лазерної бази, постріли загарбників і досить низький стрій можуть прибирати пікселі захисту.
+
+### Виключає
+
+Барикаду з одним запасом міцності, яка зникає цілою; укриття лише проти однієї сторони; косметичні сліди влучання; відновлюваний щит; видобування терену в спорядження.
+
+### Ігри-носії
+
+- [`GAME-0360` — "Space Invaders"](../games/s-z/space-invaders.md)
+
+## SYS-992
+
+- Назва: Відбудовувати очищений стрій зі збереженням запасу спроби
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Після усунення кожного обов'язкового члена фіксованого ворожого строю система завершує поточний ряд, просуває його індекс, відбудовує повний стрій і захисні укриття на наступній стартовій висоті та повертає звичайне керування, зберігаючи рахунок і скінченний запас життів спроби.
+
+### Включає
+
+Очищення першого строю в обмеженій оригінальній Space Invaders із відновленими 55 загарбниками, чотирма укриттями та керуванням у другому строю.
+
+### Виключає
+
+Повернення після втрати життя зі збереженим частковим строєм; заміну зібраних предметів лабіринту; початок цілком іншої місії; Game Over; саме проходження наступного строю.
+
+### Ігри-носії
+
+- [`GAME-0360` — "Space Invaders"](../games/s-z/space-invaders.md)

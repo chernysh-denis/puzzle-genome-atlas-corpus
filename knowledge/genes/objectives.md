@@ -35,6 +35,12 @@
   [Dorfromantik decomposition](../games/a-f/dorfromantik.md), and
   [Cut the Rope decomposition](../games/a-f/cut-the-rope.md), and
   [Hexcells Infinite decomposition](../games/g-l/hexcells-infinite.md).
+- Additional support: [Duck Hunt decomposition](../games/a-f/duck-hunt.md),
+  for target-class points and the first-round no-miss PERFECT bonus alongside
+  the separate minimum-hit qualification objective.
+- Additional support: [Space Invaders decomposition](../games/s-z/space-invaders.md),
+  for optional score maximisation through row values and a mystery-value UFO
+  alongside mandatory rack clearance.
 - Novelty: not assessed; this is part of the baseline genome.
 
 ## OBJ-003 — Preserve move availability
@@ -585,6 +591,8 @@
   [Blue Prince decomposition](../games/a-f/blue-prince.md).
 - Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
   for the key-gated street route walked to the police station, whose arrival settles the authored objective and is retained through a reload-verified Main Hall save.
+- Additional support: [Resident Evil: Director's Cut decomposition](../games/m-r/resident-evil-directors-cut.md),
+  for carrying one key through three locks, crossing the newly connected L Passage and verifying the route through a typewriter save and reload.
 - Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
   for reaching the generated biome's Promenade exit, whose interaction settles the biome and whose arrival is the documented retained successor.
 - Novelty: not assessed.
@@ -654,6 +662,9 @@
   [Cuphead decomposition](../games/a-f/cuphead.md).
 - Additional support: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md),
   for the corridor Brigand Cutthroat battle and the room battle against the Bloodletter and Fusilier, each cleared before both heroes are lost.
+- Additional support: [Space Invaders decomposition](../games/s-z/space-invaders.md),
+  for removing every member of the finite 55-invader rack before stock
+  exhaustion or overrun.
 - Novelty: not assessed.
 
 ## OBJ-030 — Preserve designated vulnerable actor during clearance
@@ -3960,3 +3971,335 @@
 - Evidence: [Heroes of Might and Magic III: Complete decomposition](../games/g-l/heroes-of-might-and-magic-iii-complete.md).
 - Novelty: first isolated for `GAME-0332`; one named-territory capture closes a
   map and selects a ranked subset of agents for later play.
+
+## OBJ-196 — Meet attendance and park-rating thresholds at the fixed deadline
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when the authored scenario date arrives, retain success only if
+  the managed park simultaneously contains at least the required number of
+  guests and its current Park Rating meets the declared minimum.
+- Includes: Forest Frontiers requiring 250 guests and Park Rating 600 at the
+  end of October, Year 1 in RollerCoaster Tycoon Deluxe.
+- Excludes: reaching either threshold early without retaining both at the
+  deadline; a pure cash or Park Value objective; an open-ended sandbox park;
+  continuing after the recorded scenario result.
+- Parameters: scenario, deadline, minimum guests, minimum rating, simultaneous
+  evaluation, success/failure record and optional post-result continuation.
+- Evidence: [RollerCoaster Tycoon Deluxe decomposition](../games/m-r/rollercoaster-tycoon-deluxe.md),
+  using the official Steam-hosted 2003 manual's Forest Frontiers tutorial.
+- Novelty: first isolated for `GAME-0335`; the terminal couples a live
+  population count and aggregate quality measure at one fixed calendar check.
+
+## OBJ-197 — Defeat the first Gym Leader and retain its badge
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: defeat the declared first Gym Leader's complete party and finish
+  the authored post-battle reward script so its badge is retained before
+  ordinary Gym control returns.
+- Includes: defeating Brock's level-12 Geodude and level-14 Onix and retaining
+  the BoulderBadge in the scoped original Pokémon Red Version route.
+- Excludes: reaching Pewter Gym; defeating only the preceding Gym Trainer;
+  showing reward dialogue without the retained badge flag; later badges.
+- Parameters: Gym, leader, declared party, defeat predicate, reward script,
+  badge, retained flag and return-to-control boundary.
+- Evidence: [Pokémon Red Version decomposition](../games/m-r/pokemon-red-version.md),
+  using the pinned Pewter Gym script and Trainer-party data.
+- Novelty: first isolated for `GAME-0336`; a named multi-opponent battle and
+  authored reward settlement jointly define the first retained progression gate.
+
+## OBJ-198 — Acquire a retained capability chain and reopen its authored route
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: complete a bounded authored opening by acquiring its declared
+  persistent traversal and interaction capabilities in dependency order,
+  clearing the required guardian and using the final retained capability to
+  reopen the declared route back into the parent traversal network.
+- Includes: obtaining Morphing Ball, the first Missile Tank and Bombs; opening
+  the five-missile red door; defeating Bomb Torizo; and bombing the exit blocks
+  to return to Super Metroid's main Crateria vertical shaft.
+- Excludes: merely collecting the first capability; defeating the guardian
+  without using the retained exit capability; later bosses, areas or full-game
+  completion; sequence breaks or glitch routes.
+- Parameters: ordered acquisition chain, capacity gate, guardian, retained
+  final capability, reopened edge, parent network and return-to-control state.
+- Evidence: [Super Metroid decomposition](../games/s-z/super-metroid.md), using
+  Nintendo's original manual and pinned exact-ROM disassembly room, item, door,
+  encounter and bomb-block records.
+- Novelty: first isolated for `GAME-0337`; earlier route-guardian objectives
+  cross into a new region, while this terminal proves that a retained
+  capability reopens an earlier authored topology and reconnects the route.
+
+## OBJ-199 — Arm a mission device, clear its response and evacuate before detonation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one bounded sabotage mission by reaching and arming its
+  designated device, clearing the mandatory security response and satisfying
+  every authored return-route gate before the detonation countdown expires, so
+  ordinary control resumes in the declared post-mission field.
+- Includes: planting the Reactor No. 1 bomb, defeating Guard Scorpion, freeing
+  Jessie, reopening the return doors and escaping before the ten-minute timer
+  to reach Sector 8 in original Final Fantasy VII.
+- Excludes: arming the device without surviving its response; leaving a
+  required ally or route gate unresolved; reaching the exit after timer expiry;
+  the later train return, Sector 7 settlement or complete campaign.
+- Parameters: device, arming interaction, mandatory response, return gates,
+  required actors, countdown, exit, post-detonation transition and successor
+  control state.
+- Evidence: [Final Fantasy VII decomposition](../games/a-f/final-fantasy-vii.md),
+  using the original PlayStation manual and corroborated original-release route.
+- Novelty: first isolated for `GAME-0338`; earlier sabotage and mission-exit
+  objectives stop at the planted flag, separate target settlement or persistent
+  successor, rather than joining an armed device, mandatory security battle,
+  timed authored return and post-detonation field control.
+
+## OBJ-200 — Complete one authored qualification trial and retain its proof token
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one named qualification trial's full authored
+  dependency chain and acquire its designated retained proof object, without
+  requiring the other parallel trials or their combined settlement.
+- Includes: finding Mêlée Island's buried treasure and retaining the Treasure
+  Huntery T-shirt in the original EGA The Secret of Monkey Island.
+- Excludes: merely reaching the trial destination; obtaining an optional
+  collectible; completing all parallel trials; receiving a score-only result;
+  acquiring a generic puzzle-room token with no qualification role.
+- Parameters: qualification, parallel trials, dependency chain, proof object,
+  acquisition condition, retained state and combined-settlement exclusion.
+- Evidence: [The Secret of Monkey Island decomposition](../games/s-z/the-secret-of-monkey-island.md),
+  using the original manual's Three Trials boundary and two corroborated routes.
+- Novelty: first isolated for `GAME-0343`; the retained object proves one
+  separately completable qualification while the larger multi-trial objective
+  remains explicitly outside the packet.
+
+## OBJ-201 — Acquire one unique artefact and retain its first capability
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one bounded authored opening by reaching its designated
+  unique artefact, accepting the acquisition settlement and regaining ordinary
+  control with that artefact and its first granted capability retained.
+- Includes: reaching the Dagger of Time through the opening palace and treasure
+  vault, accepting its falling-rock Power of Revival demonstration and
+  returning to control with the Dagger and rewind capability in Prince of
+  Persia: The Sands of Time.
+- Excludes: merely seeing or reaching the artefact; a generic puzzle-room token;
+  a consumed key; stopping inside the acquisition cinematic; requiring the
+  subsequent escape route, later powers or complete campaign.
+- Parameters: opening route, unique artefact, acquisition trigger,
+  demonstration, first capability, retained state, return-to-control boundary
+  and excluded successor route.
+- Evidence: [Prince of Persia: The Sands of Time decomposition](../games/m-r/prince-of-persia-the-sands-of-time.md),
+  using the official PC manual and three corroborating written route sources.
+- Novelty: first isolated for `GAME-0344`; earlier capability objectives require
+  a guardian, fixture delivery, multi-capability chain, route reopening or
+  later checkpoint, while this terminal is the settled unique-artefact
+  acquisition itself.
+
+## OBJ-202 — Meet the minimum hit quota across a fixed target round
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: complete one fixed-length sequence of separately settling target
+  opportunities with at least the declared number credited as hits, advancing
+  only when the final count reaches the displayed qualification boundary and
+  otherwise ending the session.
+- Includes: hitting at least six of the ten ducks in round one of original Duck
+  Hunt Game A to advance to round two.
+- Excludes: clearing every target; maximising score; reaching one numeric-value
+  object; a delivery or rescue quota; later Duck Hunt rounds with higher PASS
+  LINE values.
+- Parameters: target schedule size, credited-hit predicate, qualifying count,
+  result check, advance state and failure state.
+- Evidence: [Duck Hunt decomposition](../games/a-f/duck-hunt.md), using the
+  preserved original English NES manual and corroborating round-one table.
+- Novelty: first isolated for `GAME-0345`; success is a minimum count across
+  expiring independent target opportunities rather than exhaustive clearance,
+  score threshold or transported population.
+
+## OBJ-203 — Complete a festival challenge and enter another era
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one bounded authored festival opening by forming its
+  initial party, settling the declared optional challenge and event-currency
+  transaction, then resolving the key-item mechanism incident and regaining
+  ordinary control at the declared corresponding location in another era.
+- Includes: Chrono Trigger's fresh opening through Marle's party join, Gato
+  victory, one Silver Point exchange, the Pendant-reactive Telepod incident and
+  first ordinary Crono control in 600 A.D. Truce Canyon.
+- Excludes: stopping at challenge victory, currency exchange, companion
+  disappearance or gate creation; traversing Truce Canyon; rescuing Marle;
+  reaching an ending or restoring the complete timeline.
+- Parameters: festival, party join, challenge, reward, transaction, mechanism,
+  key item, origin era, destination era and successor control state.
+- Evidence: [Chrono Trigger decomposition](../games/a-f/chrono-trigger.md),
+  using the original English SNES manual and three corroborated written route
+  references.
+- Novelty: first isolated for `GAME-0346`; earlier opening objectives retain an
+  artefact, proof token, capability, checkpoint or mission successor but do not
+  join a recoverable event challenge and currency transaction to a
+  prerequisite-created cross-era relocation.
+
+## OBJ-204 — Replace every required graffiti point and expose successor stages
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one bounded authored street stage by replacing every
+  point marked as required before its failure boundary, accept the settled
+  result and end with the declared successor-stage set available for selection.
+- Includes: all four small, five large and one x-large red Shibuya GG points,
+  result settlement and the three next choices in the bounded Xbox 360 Jet Set
+  Radio opening.
+- Excludes: optional green tags; reaching a score or Jet-rank threshold;
+  defeating all police; campaign completion; stopping after the last surface
+  before the result; entering or clearing a successor stage.
+- Parameters: stage, required point set, replacement predicate, deadline and
+  survival boundary, result, rank display, successor set and availability.
+- Evidence: [Jet Set Radio decomposition](../games/g-l/jet-set-radio.md), using
+  the inherited original rules and corroborated Xbox 360 Shibuya route.
+- Novelty: first isolated for `GAME-0350`; the terminal is exhaustive authored
+  surface replacement under live pressure followed by a multi-stage unlock,
+  not collectible pickup, hostile clearance or a score threshold.
+
+## OBJ-205 — Escape a prologue and retain its reduced-capability landing
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: clear the authored prologue guardian, reach the declared exit
+  before its evacuation deadline, survive the unavoidable capability-removal
+  event and regain ordinary control at the successor landing with the reduced
+  base capability set retained.
+- Includes: Metroid Prime from Parasite Queen clearance through Frigate
+  Orpheon escape, equipment malfunction and first Tallon Overworld control.
+- Excludes: stopping at guardian defeat, air-lock exit or a cinematic; later
+  capability reacquisition; reaching the successor with the original full
+  loadout; a voluntary equipment change.
+- Parameters: guardian, evacuation trigger, deadline, exit, forced event,
+  removed set, retained base set, travel transition, landing and successor
+  control.
+- Evidence: [Metroid Prime decomposition](../games/m-r/metroid-prime.md), using
+  Nintendo product/rule sources and the bounded independent route.
+- Novelty: first isolated for `GAME-0355`; prior escape and forced-loss
+  objectives do not require both a nonterminal capability reset and a later
+  reduced-loadout successor-control state.
+
+## OBJ-206 — Find, climb and defeat one guardian before automatic shrine return
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one bounded hunt by using the authored world bearing to
+  reach a mandatory giant guardian, changing and traversing its body topology,
+  depleting its required major sigil and accepting the automatic return that
+  restores ordinary control at the declared hub.
+- Includes: finding and defeating the first colossus on original Shadow of the
+  Colossus Normal difficulty and regaining control at the Shrine of Worship.
+- Excludes: stopping at discovery, kneeling, first mount or guardian death;
+  starting the second hunt; defeating every colossus; Hard-mode extra sigils;
+  optional exploration or time attack.
+- Parameters: hub, bearing target, guardian, topology trigger, required sigils,
+  health terminal, automatic return and successor-control state.
+- Evidence: [Shadow of the Colossus decomposition](../games/s-z/shadow-of-the-colossus.md),
+  using the original North American PlayStation 2 manual and corroborated
+  first-colossus routes.
+- Novelty: first isolated for `GAME-0356`; the objective binds optical world
+  search and traversal across the living target to a non-voluntary hub return,
+  rather than crossing a guardian-opened threshold or continuing in the arena.
+
+## OBJ-207 — Follow two moving leaders by bicycle and unlock the first home
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one bounded authored opening by mounting the supplied
+  bicycle, following a first and then a second named moving leader through
+  consecutive route stages, reaching the final home marker and retaining the
+  declared reputation, safehouse and successor-mission unlocks.
+- Includes: original PlayStation 2 Grand Theft Auto: San Andreas `Sweet & Kendl`
+  from the cemetery bicycle mount through Sweet, Ryder and settled Grove Street
+  control with Respect, Johnson House and `Ryder` available.
+- Excludes: reaching only one leader; arriving home before the cemetery;
+  completing the prior cutscene-only `Big Smoke` transition; saving inside the
+  house; beginning the successor mission; completing the wider campaign.
+- Parameters: supplied bicycle, first leader, handoff, second leader, route
+  markers, home, reputation reward, safehouse, successor and settled control.
+- Evidence: [Grand Theft Auto: San Andreas decomposition](../games/g-l/grand-theft-auto-san-andreas.md),
+  using the original PlayStation 2 booklet and three corroborating written
+  opening routes.
+- Novelty: first isolated for `GAME-0357`; existing route, escort and race
+  objectives do not join a two-leader moving-reference handoff to the first
+  retained home and next-story unlock.
+
+## OBJ-208 — Complete one mental training course and retain its successor invitation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: enter one named training mind, complete its authored physical,
+  combat and class-sensitive qualification gates, cross its closing mental
+  sequence and regain ordinary real-world control with course completion and
+  the declared next-training invitation retained.
+- Includes: completing Coach Oleander's `Basic Braining` in Psychonauts and
+  returning to the Kid's Cabins with Sasha Nein's advanced-training button.
+- Excludes: entering the mind; clearing only the target gallery; collecting
+  every optional figment, baggage pair, vault or cobweb; beginning the next
+  training; completing the full camp or campaign.
+- Parameters: training mind, ordered course gates, qualification result,
+  closing sequence, real-world return, completion flag, invitation object and
+  successor activity.
+- Evidence: [Psychonauts decomposition](../games/m-r/psychonauts.md), using
+  the original Xbox manual and two corroborating written routes.
+- Novelty: first isolated for `GAME-0358`; the terminal joins completion of an
+  entered mental curriculum to a real-world return and a retained invitation
+  for a different instructor's successor training.
+
+## OBJ-209 — Recapture the airborne base and retain the sortie token
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete every required flight-training and hostile predicate of
+  one fixed opening sortie, accept the declared airborne-base return marker and
+  regain ordinary post-mission control inside the recaptured base with its
+  completion token retained.
+- Includes: completing `The Morning After`, recapturing Pandora and retaining
+  its Upgrade Token in original-Xbox Crimson Skies: High Road to Revenge.
+- Excludes: stopping at the final fighter defeat or return marker; finding a
+  hidden token; beginning Mission 2; upgrading an aircraft; completing the
+  wider campaign.
+- Parameters: sortie, ordered predicates, final hostile set, base marker,
+  return interaction, recaptured state, completion token and successor control.
+- Evidence: [Crimson Skies: High Road to Revenge decomposition](../games/a-f/crimson-skies-high-road-to-revenge.md),
+  using Prima's first-mission guide and two corroborating written routes.
+- Novelty: first isolated for `GAME-0359`; existing mission terminals settle a
+  medal, region or invitation, not an interacted airborne-home recapture with a
+  retained upgrade currency token and interior-control handoff.

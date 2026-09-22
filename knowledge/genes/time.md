@@ -63,6 +63,9 @@
   [Inertia decomposition](../games/g-l/inertia.md).
 - Additional support: [Darkest Dungeon decomposition](../games/a-f/darkest-dungeon.md),
   for one committed skill, shift or pass input per hero turn followed by automatic resolution and interleaved hostile turns until the next hero input.
+- Additional support: [Pokémon Red Version decomposition](../games/m-r/pokemon-red-version.md),
+  for each committed battle command settling its ordered player/opponent effects
+  before the next command menu accepts input.
 - Novelty: not assessed.
 
 ## TIM-002 — Self-paced sequential action
@@ -294,6 +297,8 @@
   for simultaneous movement, firing, parry input, projectiles and phase combat.
 - Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
   for zombie approach, focus, reload and damage advancing while input remains available.
+- Additional support: [Resident Evil: Director's Cut decomposition](../games/m-r/resident-evil-directors-cut.md),
+  for movement, zombie approach, shots and damage advancing in real time outside paused status, map and save selection.
 - Additional support: [Dead Cells decomposition](../games/a-f/dead-cells.md),
   for enemies, projectiles, traps, the recovery drain, the protection cooldown and the run timer advancing while inputs are accepted.
 - Additional support: [TEKKEN 8 decomposition](../games/s-z/tekken-8.md),
@@ -319,7 +324,17 @@
 - Additional support: [Warcraft III: Reign of Chaos decomposition](../games/s-z/warcraft-iii-reign-of-chaos.md),
   for live group pathing, sight, combat, mana and mission gates advancing while
   further unit commands remain available.
+- Additional support: [Duck Hunt decomposition](../games/a-f/duck-hunt.md),
+  for the visible duck continuing to move toward timeout while Zapper aim and
+  trigger input remain available.
 - Novelty: not assessed.
+
+- Additional support: [Super Metroid decomposition](../games/s-z/super-metroid.md),
+  for movement, aiming, combat, Morphing Ball and Bomb placement while enemies,
+  hazards and the Ceres self-destruct clock continue in real time.
+- Additional support: [Space Invaders decomposition](../games/s-z/space-invaders.md),
+  for lateral movement and fire while the formation and opposing projectiles
+  continue on the running arcade schedule.
 
 ## TIM-004 — Alternating adversarial turns
 
@@ -415,6 +430,11 @@
   [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
 - Additional support: [Resident Evil 2 (2019 remake) decomposition](../games/m-r/resident-evil-2-2019.md),
   for twenty manual slots and one auto slot that restore prior states for a different continuation.
+- Additional support: [Resident Evil: Director's Cut decomposition](../games/m-r/resident-evil-directors-cut.md),
+  for memory-card files that restore a prior mansion state and permit a replacement continuation.
+- Additional support: [Prince of Persia: The Sands of Time decomposition](../games/m-r/prince-of-persia-the-sands-of-time.md),
+  for restoring a bounded already-lived history through the Dagger and
+  resuming a replacement continuation under Sand Tank and Time Circle limits.
 - Novelty: not assessed.
 
 ## TIM-008 — Random-access editable deterministic action timeline
@@ -771,3 +791,27 @@
   using Nintendo's product and beginner guidance.
 - Novelty: first isolated for `GAME-0320`; external civil time directly owns
   persistent world progression rather than merely labelling an authored day.
+
+## TIM-026 — Fill concurrent actor readiness before command commitment
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: every eligible combatant advances an actor-local readiness gauge
+  under the active battle clock; a full gauge grants that actor one command
+  commitment while other gauges and queued effects follow the selected pause
+  policy rather than a fixed alternating turn order.
+- Includes: Final Fantasy VII's Active Time Battle scheduling, in which ally and
+  enemy Time gauges race to readiness and a ready party member accepts one
+  Attack, Magic, Item, Defend or Limit command.
+- Excludes: strict alternating turns; a visible fixed future queue; action-point
+  turns with no independently advancing readiness; live direct-control combat
+  without command readiness.
+- Parameters: combatants, initial readiness, fill rate, speed statistic, battle
+  mode, pause policy, queued effects, ready command and post-action reset.
+- Evidence: [Final Fantasy VII decomposition](../games/a-f/final-fantasy-vii.md),
+  using the original PlayStation manual's direct ATB description.
+- Novelty: first isolated for `GAME-0338`; the corpus previously had strict
+  turns, visible queues and live simultaneous input, but no independently
+  filling command-readiness clocks for both player and enemy actors.

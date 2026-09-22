@@ -2643,6 +2643,222 @@
       "playUrl": "https://manuals.sega.com/genesismini/manuals/sonic/",
       "linkLabelUk": "Відкрити офіційний посібник SEGA ↗",
       "linkLabelEn": "Open SEGA's official manual ↗"
+    },
+    "GAME-0334": {
+      "titleUk": "Quake",
+      "summaryUk": "У E1M1 вороги помічають гравця й переслідують його в живому тривимірному просторі, а броня ділить кожен удар між своїм запасом і Health. Три окремі кнопки відкривають останні двері до slipgate й E1M2. Це реконструкція за джерелами, не проходження у Windows.",
+      "summaryEn": "In E1M1, enemies perceive and pursue the player through live three-dimensional space while armour splits each hit between its own reserve and Health. Three separate buttons open the final door to the slipgate and E1M2. This is a source-based reconstruction, not Windows play.",
+      "playUrl": "https://store.steampowered.com/app/2310/Quake/",
+      "linkLabelUk": "Переглянути Quake у Steam ↗",
+      "linkLabelEn": "View Quake on Steam ↗"
+    },
+    "GAME-0335": {
+      "titleUk": "RollerCoaster Tycoon Deluxe",
+      "summaryUk": "У Forest Frontiers гравець будує доріжки, черги й атракціони для автономних гостей, які мають власні потреби, думки та гроші. Фінанси, місткість, поломки, механіки й рейтинг мають разом привести парк до 250 гостей і рейтингу 600 у визначений строк. Це реконструкція за джерелами, не проходження у Windows.",
+      "summaryEn": "In Forest Frontiers, the player builds paths, queues and attractions for autonomous guests with personal needs, thoughts and money. Finance, capacity, breakdowns, mechanics and rating must together bring the park to 250 guests and rating 600 by the deadline. This is a source-based reconstruction, not Windows play.",
+      "playUrl": "https://store.steampowered.com/app/285310/RollerCoaster_Tycoon_Classic/",
+      "linkLabelUk": "Переглянути RollerCoaster Tycoon Deluxe у Steam ↗",
+      "linkLabelEn": "View RollerCoaster Tycoon Deluxe on Steam ↗"
+    },
+    "GAME-0336": {
+      "titleUk": "Покемон: Червона версія",
+      "summaryUk": "Від Pallet Town до першого значка кроки у траві запускають місцеві випадкові зустрічі, Poké Ball перетворює дикого Pokémon на члена party або Box, а здоров'я, статус, прийоми та PP зберігаються між боями. Pokémon Center відновлює команду й задає повернення після blackout; перемога над Brock зберігає BoulderBadge. Це реконструкція за джерелами, не проходження на Game Boy.",
+      "summaryEn": "From Pallet Town to the first badge, grass steps trigger local random encounters, a Poké Ball converts an eligible wild Pokémon into party or Box ownership, and health, status, moves and PP persist between battles. A Pokémon Center restores the party and sets blackout return; defeating Brock retains the BoulderBadge. This is a source-based reconstruction, not Game Boy play.",
+      "playUrl": "https://www.nintendo.com/en-gb/Games/Game-Boy/Pokemon-Red-Version-266109.html",
+      "linkLabelUk": "Переглянути Pokémon Red Version у Nintendo ↗",
+      "linkLabelEn": "View Pokémon Red Version at Nintendo ↗"
+    },
+    "GAME-0337": {
+      "titleUk": "Супер Метроїд",
+      "summaryUk": "Ранній маршрут перетворює Morphing Ball, перший запас ракет і Bombs на нові ребра мапи: низький прохід, червоні двері та bomb blocks. Після Bomb Torizo гравець застосовує останню здобуту здібність, щоб повернутися в головну шахту Crateria. Це реконструкція за джерелами, не проходження на Super NES.",
+      "summaryEn": "The opening route turns Morphing Ball, the first missile capacity and Bombs into new map edges: low clearance, a red door and bomb blocks. After Bomb Torizo, the last acquired ability reopens the route into Crateria's main shaft. This is a source-based reconstruction, not Super NES play.",
+      "playUrl": "https://www.nintendo.co.jp/clvs/soft/s_metroid.html",
+      "linkLabelUk": "Переглянути Super Metroid у Nintendo ↗",
+      "linkLabelEn": "View Super Metroid at Nintendo ↗"
+    },
+    "GAME-0338": {
+      "titleUk": "Final Fantasy VII",
+      "summaryUk": "У Reactor No. 1 особисті шкали Time визначають готовність команд, споряджена Lightning Materia відкриває Bolt, а отримана шкода наповнює Limit. Після встановлення бомби треба перемогти Guard Scorpion, звільнити Jessie й вийти до завершення десятихвилинного відліку. Це реконструкція за джерелами, не проходження на PlayStation.",
+      "summaryEn": "In Reactor No. 1, actor-local Time gauges govern command readiness, equipped Lightning Materia exposes Bolt and received damage fills Limit. After arming the bomb, the party must defeat Guard Scorpion, release Jessie and exit before the ten-minute countdown expires. This is a source-based reconstruction, not PlayStation play.",
+      "playUrl": "https://www.playstation.com/en-us/playstation-history/1994-ps-one/",
+      "linkLabelUk": "Переглянути Final Fantasy VII в історії PlayStation ↗",
+      "linkLabelEn": "View Final Fantasy VII in PlayStation history ↗"
+    },
+    "GAME-0339": {
+      "titleUk": "Metal Gear Solid",
+      "summaryUk": "У Cargo Dock і Heliport напрямлені поля зору, шум, сліди на снігу та умовно доступний Soliton Radar формують маршрут проникнення. Виявлення переводить систему через Alert і Evasion, а стук по стіні може відвести охоронця до хибної позиції перед входом у вентиляцію Tank Hangar. Це реконструкція за джерелами, не проходження на PlayStation.",
+      "summaryEn": "Across Cargo Dock and Heliport, directed sight, noise, snow traces and a conditionally available Soliton Radar shape the infiltration route. Detection moves the system through Alert and Evasion, while a wall tap can pull a guard toward a false position before the Tank Hangar duct. This is a source-based reconstruction, not PlayStation play.",
+      "playUrl": "https://www.playstation.com/en-us/playstation-history/1994-ps-one/",
+      "linkLabelUk": "Переглянути Metal Gear Solid в історії PlayStation ↗",
+      "linkLabelEn": "View Metal Gear Solid in PlayStation history ↗"
+    },
+    "GAME-0340": {
+      "titleUk": "Halo: Combat Evolved Anniversary",
+      "summaryUk": "На борту Pillar of Autumn навчання, два види зброї, скінченні боєприпаси, щит, здоров’я, ліхтарик і частковий Motion Tracker формують маршрут до останньої рятувальної капсули. Класичне й оновлене зображення перемикаються без зміни кампанії. Це реконструкція за джерелами, не проходження на Xbox 360.",
+      "summaryEn": "Aboard the Pillar of Autumn, the tutorial, two weapons, finite ammunition, shield, health, a self-recharging flashlight and partial Motion Tracker shape the route to the final escape pod. Classic and remastered visuals switch without changing the campaign state. This is a source-based reconstruction, not Xbox 360 play.",
+      "playUrl": "https://news.xbox.com/en-us/2011/08/26/news-from-halo-fest/",
+      "linkLabelUk": "Переглянути анонс Halo Anniversary від Xbox ↗",
+      "linkLabelEn": "View Xbox's Halo Anniversary announcement ↗"
+    },
+    "GAME-0341": {
+      "titleUk": "Ninja Gaiden Black",
+      "summaryUk": "У першому розділі Ryu використовує стіни як маршрут і бойову поверхню, блокує звичайні серії та ухиляється від захватів. Essence переможених ворогів можна взяти як гроші, здоров’я чи Ki або поглинути в заряд Ultimate Technique перед боєм із Murai й підсумком Karma. Це реконструкція за джерелами, не проходження на Xbox.",
+      "summaryEn": "In Chapter 1, Ryu uses walls as both route and combat surface, guards ordinary strings and evades grabs. Defeated-enemy Essence can become currency, health or Ki, or be absorbed into an Ultimate Technique charge before Murai and the Karma result. This is source-based reconstruction, not Xbox play.",
+      "playUrl": "https://www.xbox.com/en-US/games/store/ninja-gaiden-black/C17KKS83S9GS",
+      "linkLabelUk": "Переглянути Ninja Gaiden Black у Xbox ↗",
+      "linkLabelEn": "View Ninja Gaiden Black at Xbox ↗"
+    },
+    "GAME-0342": {
+      "titleUk": "PAC-MAN",
+      "summaryUk": "У першому лабіринті 244 точки звужують безпечні маршрути, поки чотири привиди чергують різні цілі Scatter і Chase. Power Pellet ненадовго робить їх здобиччю, бічний тунель сповільнює лише привидів, а смерть зберігає вже з’їдені точки. Це реконструкція за джерелами, не гра на аркадному автоматі.",
+      "summaryEn": "Across the first maze, 244 dots narrow safe routes while four ghosts alternate distinct Scatter and Chase targets. A Power Pellet briefly turns them into prey, the side tunnel slows only ghosts, and death preserves dots already eaten. This is source-based reconstruction, not cabinet play.",
+      "playUrl": "https://www.pacman.com/en/history/",
+      "linkLabelUk": "Переглянути офіційну історію PAC-MAN ↗",
+      "linkLabelEn": "View the official PAC-MAN history ↗"
+    },
+    "GAME-0343": {
+      "titleUk": "Таємниця Мавпячого острова",
+      "summaryUk": "Горщик як цирковий шолом приносить гроші на мапу й лопату. Перші слова жартівливих «танцювальних» рядків задають дев’ять лісових поворотів до X, де футболка стає доказом одного піратського випробування. Це реконструкція за джерелами, не запуск DOS-версії.",
+      "summaryEn": "A cooking pot used as a circus helmet funds a map and shovel. First words from the joke dance instructions encode nine forest branches to an X where a T-shirt proves one pirate trial. This is source-based reconstruction, not a DOS run.",
+      "playUrl": "https://www.lucasfilm.com/news/lucasfilm-games-rewind-the-secret-of-monkey-island/",
+      "linkLabelUk": "Переглянути офіційну історію The Secret of Monkey Island ↗",
+      "linkLabelEn": "View the official The Secret of Monkey Island history ↗"
+    },
+    "GAME-0344": {
+      "titleUk": "Принц Персії: Піски часу",
+      "summaryUk": "Вступний маршрут навчає бігу стінами, переходам по виступах, бою й відновленню водою, а скарбниця додає рухомі шипи та вертикальне сходження. Dagger of Time завершує пакет: його перша сила перемотує недавню помилку, але витрачає Sand Tank. Це реконструкція за джерелами, не запуск Steam-версії.",
+      "summaryEn": "The opening teaches wall-runs, ledge transfers, combat and water recovery before the vault adds moving spikes and a vertical climb. The Dagger of Time closes the packet: its first power rewinds a recent mistake but spends one Sand Tank. This is source-based reconstruction, not a Steam run.",
+      "playUrl": "https://www.ubisoft.com/en-us/games/prince-of-persia-the-sands-of-time",
+      "linkLabelUk": "Переглянути Prince of Persia: The Sands of Time в Ubisoft ↗",
+      "linkLabelEn": "View Prince of Persia: The Sands of Time at Ubisoft ↗"
+    },
+    "GAME-0345": {
+      "titleUk": "Полювання на качок",
+      "summaryUk": "У першому Game A раунді десять качок по одній летять екраном, а Zapper визначає наведення через світловий відгук сумісного CRT. Кожна ціль має три постріли й короткий час; шість влучань проходять PASS LINE, тоді як колір і безпомилковий раунд окремо збільшують рахунок. Це реконструкція за джерелами, не гра на NES.",
+      "summaryEn": "Across the first Game A round, ten ducks fly one at a time while the Zapper derives aim from a compatible CRT's light response. Each target allows three shots and a short interval; six hits pass the line while colour and a no-miss round separately raise score. This is source-based reconstruction, not NES play.",
+      "playUrl": "https://www.nintendo.com/jp/famicom/software/hvc-dh/index.html",
+      "linkLabelUk": "Переглянути оригінальну сторінку Duck Hunt від Nintendo ↗",
+      "linkLabelEn": "View Nintendo's original Duck Hunt page ↗"
+    },
+    "GAME-0346": {
+      "titleUk": "Хронотригер",
+      "summaryUk": "На Millennial Fair Crono й Marle б’ються з видимим Gato за особистими Battle Gauge. Перемога дає 15 Silver Points, 10 з них стають 50 G, а ланцюг Telepod–Pendant–Gate завершується першим керуванням у Truce Canyon 600 A.D. Поразка від Gato лишає команду з одним HP, а не завершує маршрут. Це реконструкція за джерелами, не гра на SNES.",
+      "summaryEn": "At the Millennial Fair, Crono and Marle fight visible Gato on personal Battle Gauges. Victory grants 15 Silver Points, ten become 50 G, and the Telepod–Pendant–Gate chain ends at first control in 600 A.D. Truce Canyon. Losing to Gato leaves the party at one HP rather than ending the route. This is source-based reconstruction, not SNES play.",
+      "playUrl": "https://www.nintendo.com/en-gb/Games/Virtual-Console-Wii-/CHRONO-TRIGGER--276676.html",
+      "linkLabelUk": "Переглянути сторінку Chrono Trigger від Nintendo ↗",
+      "linkLabelEn": "View Nintendo's Chrono Trigger page ↗"
+    },
+    "GAME-0347": {
+      "titleUk": "Castlevania: Симфонія ночі",
+      "summaryUk": "Death забирає стартове спорядження Alucard, тому шлях через Entrance і Alchemy Laboratory доводиться перебудовувати з нових знахідок. Cube of Zoe відкриває предмети у свічках, save room відновлює HP/MP, а перемога над Slogra й Gaibon дає Life Max Up і прохід у Marble Gallery. Це реконструкція за джерелами, не гра на PlayStation.",
+      "summaryEn": "Death removes Alucard's starting equipment, so the route through the Entrance and Alchemy Laboratory must be rebuilt from new finds. The Cube of Zoe exposes candle items, save rooms restore HP/MP, and defeating Slogra and Gaibon grants a Life Max Up and passage into Marble Gallery. This is source-based reconstruction, not PlayStation play.",
+      "playUrl": "https://www.konami.com/games/castlevania/us/en-us/page/history_1997_ps",
+      "linkLabelUk": "Переглянути Castlevania: Symphony of the Night у Konami ↗",
+      "linkLabelEn": "View Castlevania: Symphony of the Night at Konami ↗"
+    },
+    "GAME-0348": {
+      "titleUk": "Оселя зла: режисерська версія",
+      "summaryUk": "Chris має лише шість місць у спорядженні, рухається відносно власного напрямку й бачить небезпеку крізь фіксовані ракурси. Один Sword Key послідовно відкриває три двері, а Ink Ribbon витрачається на typewriter, щоб зберегти відкритий маршрут. Це реконструкція за джерелами, не гра на PlayStation.",
+      "summaryEn": "Chris has only six inventory slots, moves relative to his own facing and reads danger through fixed camera angles. One Sword Key opens three doors in sequence, while an Ink Ribbon is spent at a typewriter to retain the opened route. This is source-based reconstruction, not PlayStation play.",
+      "playUrl": "https://www.videogamemanual.com/ps1/Resident%20Evil%20-%20Director%27s%20Cut%20%28USA%29.pdf",
+      "linkLabelUk": "Переглянути оригінальний посібник Resident Evil: Director's Cut ↗",
+      "linkLabelEn": "View the original Resident Evil: Director's Cut manual ↗"
+    },
+    "GAME-0349": {
+      "titleUk": "Tom Clancy's Splinter Cell",
+      "summaryUk": "Stealth Meter показує, наскільки Sam освітлений, а швидкість і поза визначають шум та ризик виявлення. Тренування поєднує lock pick, допит, retinal scanner, знищення світла й приховування непритомного тіла; Police Station переносить ці правила в місію до van Wilkes. Це реконструкція за джерелами, не гра на Xbox.",
+      "summaryEn": "The Stealth Meter shows how much light reaches Sam, while speed and posture determine noise and detection risk. Training joins lock picking, interrogation, retinal access, light destruction and hiding an unconscious body; Police Station carries those rules into a mission ending at Wilkes's van. This is source-based reconstruction, not Xbox play.",
+      "playUrl": "https://www.xbox.com/en-US/games/store/tom-clancys-splinter-cell/C46H5R7GT7X9",
+      "linkLabelUk": "Переглянути Tom Clancy's Splinter Cell на Xbox ↗",
+      "linkLabelEn": "View Tom Clancy's Splinter Cell on Xbox ↗"
+    },
+    "GAME-0350": {
+      "titleUk": "Jet Set Radio",
+      "summaryUk": "Beat ковзає рейками й стінами, з’єднує трюки, збирає балончики та витрачає їх на напрямлені графіті різного розміру. У Shibuya GG потрібно замінити всі десять обов’язкових точок до вичерпання часу чи витривалості, поки поступ викликає дедалі сильніший поліцейський тиск. Це реконструкція за джерелами, не гра на Xbox 360.",
+      "summaryEn": "Beat carries speed across rails and walls, chains tricks, collects spray cans and spends them on size-dependent directional graffiti. Shibuya GG requires all ten marked surfaces before time or stamina expires, while progress summons stronger police pressure. This is source-based reconstruction, not Xbox 360 play.",
+      "playUrl": "https://www.xbox.com/en-US/games/store/jet-set-radio/BVQL7V5TXBHB",
+      "linkLabelUk": "Переглянути Jet Set Radio на Xbox ↗",
+      "linkLabelEn": "View Jet Set Radio on Xbox ↗"
+    },
+    "GAME-0351": {
+      "titleUk": "Street Fighter II: The World Warrior",
+      "summaryUk": "Ryu читає дистанцію, позу, життєву силу й час, а тоді обирає рух, захист, кидок або одну з шести сил удару та напрямлених особливих команд. Контакт у реальному часі переходить у влучання, блокування, збиття з ніг чи промах, а матч завершується після двох виграних раундів. Це реконструкція за джерелами, не запуск аркадної програми.",
+      "summaryEn": "Ryu reads spacing, pose, vitality and time, then chooses movement, guard, throw or one of six attack strengths and directional special commands. Real-time contact becomes a hit, block, knockdown or miss, and the match ends after two round wins. This is source-based reconstruction, not arcade-program execution.",
+      "playUrl": "https://captown.capcom.com/en/classic_games/23",
+      "linkLabelUk": "Переглянути Street Fighter II у Capcom Town ↗",
+      "linkLabelEn": "View Street Fighter II at Capcom Town ↗"
+    },
+    "GAME-0352": {
+      "titleUk": "DOOM (1993)",
+      "summaryUk": "У звичайній E1M1 боєць без стрибка проходить технічну базу, будить ворогів зором або шумом, перемикає зброю, бере сумісні ресурси й ділить кожен удар між бронею та здоров’ям. Рядок стану й мапа показують поточні запаси та досліджений маршрут, а вихідний перемикач переводить до E1M2. Це реконструкція за джерелами, не запуск DOS-версії.",
+      "summaryEn": "In an ordinary E1M1 run, the no-jump fighter crosses a tech base, wakes hostiles by sight or noise, switches weapons, collects compatible resources and splits each hit between armour and Health. The status bar and automap expose current reserves and the explored route before the exit switch advances to E1M2. This is source-based reconstruction, not DOS execution.",
+      "playUrl": "https://store.steampowered.com/app/2280/Ultimate%20Doom/",
+      "linkLabelUk": "Переглянути ліцензійний DOOM + DOOM II у Steam ↗",
+      "linkLabelEn": "View licensed DOOM + DOOM II on Steam ↗"
+    },
+    "GAME-0353": {
+      "titleUk": "Deus Ex: Game of the Year Edition",
+      "summaryUk": "Training навчає ключів, кодів, відмичок, мультитулів, стелсу й альтернативних маршрутів; Liberty Island перетворює їх на одну місію. Фіксований технічний набір навичок, тридцятикоміркове спорядження, розмови, регіональні ушкодження та живий бій ведуть до здачі командира й збереженого переходу в Battery Park. Це реконструкція за джерелами, не запуск гри.",
+      "summaryEn": "Training teaches keys, codes, lockpicks, multitools, stealth and alternate routes; Liberty Island turns them into one mission. A fixed technical build, thirty-cell inventory, conversations, regional injury and live combat lead to the commander's surrender and a retained Battery Park handoff. This is source-based reconstruction, not game execution.",
+      "playUrl": "https://store.steampowered.com/app/6910/Deus_Ex_Game_of_the_Year_Edition/",
+      "linkLabelUk": "Переглянути Deus Ex: Game of the Year Edition у Steam ↗",
+      "linkLabelEn": "View Deus Ex: Game of the Year Edition on Steam ↗"
+    },
+    "GAME-0354": {
+      "titleUk": "Super Mario World",
+      "summaryUk": "Йоші їсть ягоди й утримує панцирі, тип яких визначає наступний ефект; удар може відокремити його від Маріо, але лишає шанс наздогнати. П’ять Dragon Coin дають життя, Midway Gate змінює точку повернення, а P-Switch тимчасово перетворює монети на сходинки перед Goal Tape. Це реконструкція за джерелами, не запуск гри.",
+      "summaryEn": "Yoshi eats berries and holds shells whose type determines the next effect; a hit can separate him from Mario while leaving a chance to recover. Five Dragon Coins grant a life, the Midway Gate changes the return anchor and a P-Switch briefly turns coins into steps before the Goal Tape. This is source-based reconstruction, not game execution.",
+      "playUrl": "https://www.nintendo.co.jp/clvs/soft/mario_world.html",
+      "linkLabelUk": "Переглянути Super Mario World у Nintendo ↗",
+      "linkLabelEn": "View Super Mario World at Nintendo ↗"
+    },
+    "GAME-0355": {
+      "titleUk": "Metroid Prime",
+      "summaryUk": "Scan Visor перетворює придатні цілі на дані, слабке місце чи керування пристроєм, а фіксація тримає Parasite Queen у центрі орбіти й бічного ривка. Після семихвилинної евакуації неминучий удар вимикає сім можливостей, і гра повертає керування на Tallon IV зі скороченим базовим набором. Це реконструкція за джерелами, не запуск GameCube.",
+      "summaryEn": "The Scan Visor turns eligible targets into data, a weak-point lock or a fixture response, while target lock anchors orbiting and lateral dashes around Parasite Queen. After the seven-minute evacuation, an unavoidable impact disables seven capabilities and restores control on Tallon IV with a reduced base set. This is source-based reconstruction, not GameCube execution.",
+      "playUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-GameCube/Metroid-Prime-268423.html",
+      "linkLabelUk": "Переглянути Metroid Prime у Nintendo ↗",
+      "linkLabelEn": "View Metroid Prime at Nintendo ↗"
+    },
+    "GAME-0356": {
+      "titleUk": "Тінь колоса",
+      "summaryUk": "Відбиті промені меча дають лише напрям до цілі, а сам перший колос стає рухомим маршрутом: рана на нозі змушує його стати навколішки, хутро витрачає запас хвату, кам’яні виступи дають перепочинок, а знак на тімені перетворює лазіння на перемогу й автоматичне повернення до святині. Це реконструкція за джерелами, не запуск PS2.",
+      "summaryEn": "Reflected sword rays provide only a target bearing, while the first colossus becomes a moving route: a leg wound makes it kneel, fur spends grip, stone ledges provide rest and the crown sigil turns the climb into victory and an automatic Shrine return. This is source-based reconstruction, not PS2 execution.",
+      "playUrl": "https://www.playstation.com/en-us/games/shadow-of-the-colossus/",
+      "linkLabelUk": "Переглянути Shadow of the Colossus у PlayStation ↗",
+      "linkLabelEn": "View Shadow of the Colossus at PlayStation ↗"
+    },
+    "GAME-0357": {
+      "titleUk": "Grand Theft Auto: San Andreas",
+      "summaryUk": "CJ переходить із пішого руху на BMX, а вулиця не зупиняє транспорт, зіткнення, поліцію чи втрату здоров’я. Sweet & Kendl змінює рухому ціль із Sweet на Ryder; лише повернення на Grove Street зберігає Respect, відкриває Johnson House і наступну місію. Це реконструкція за джерелами, не запуск PS2.",
+      "summaryEn": "CJ transfers from foot movement to direct BMX control while traffic, collisions, police and health continue around the route. Sweet & Kendl hands the moving reference from Sweet to Ryder; only the Grove Street return retains Respect, Johnson House and the next mission. This is source-based reconstruction, not PS2 execution.",
+      "playUrl": "https://www.rockstargames.com/games/SANANDREAS",
+      "linkLabelUk": "Переглянути Grand Theft Auto: San Andreas у Rockstar Games ↗",
+      "linkLabelEn": "View Grand Theft Auto: San Andreas at Rockstar Games ↗"
+    },
+    "GAME-0358": {
+      "titleUk": "Psychonauts",
+      "summaryUk": "У Basic Braining рух, подвійний стрибок і PSI Punch проходять послідовні уроки, а фігменти перетворюють кожні 100 очок на PSI Cadet Rank. Помилка з astral layer повертає до mental checkpoint, без шару — викидає зі свідомості; лише повний курс повертає до Kid's Cabins із кнопкою Sasha Nein. Це реконструкція за джерелами, не запуск Xbox.",
+      "summaryEn": "Basic Braining sequences movement, double-jump and PSI Punch lessons while figments convert each 100 points into PSI Cadet Rank. Failure with an astral layer returns to a mental checkpoint; without one it ejects Raz from the mind, and only full course completion returns to the Kid's Cabins with Sasha Nein's button. This is source-based reconstruction, not Xbox execution.",
+      "playUrl": "https://www.xbox.com/en-us/games/store/Psychonauts/C5HHPG1TXDNG",
+      "linkLabelUk": "Переглянути Psychonauts у Xbox ↗",
+      "linkLabelEn": "View Psychonauts at Xbox ↗"
+    },
+    "GAME-0359": {
+      "titleUk": "Crimson Skies: High Road to Revenge",
+      "summaryUk": "The Morning After навчає прямого польоту, primary/secondary fire, brakes, turbo та запрограмованих маневрів. Turbo й маневри ділять одну шкалу енергії, magnetic missiles мають скінченний запас, а лише повернення до синьої позначки Pandora зберігає Upgrade Token і відновлює керування на базі. Це реконструкція за джерелами, не запуск Xbox.",
+      "summaryEn": "The Morning After teaches direct flight, primary and secondary fire, brakes, turbo and preprogrammed manoeuvres. Turbo and manoeuvres share one energy bar, magnetic missiles are finite, and only returning to Pandora's blue marker retains the Upgrade Token and restores base control. This is source-based reconstruction, not Xbox execution.",
+      "playUrl": "https://www.xbox.com/en-us/games/store/crimson-skies-high-road-to-revenge/c4b8xr1lcxr5",
+      "linkLabelUk": "Переглянути Crimson Skies у Xbox ↗",
+      "linkLabelEn": "View Crimson Skies at Xbox ↗"
+    },
+    "GAME-0360": {
+      "titleUk": "Space Invaders",
+      "summaryUk": "Лазерна база рухається тільки вбік і випускає лише один активний постріл, а стрій із 55 загарбників змінює напрям, спускається й тисне швидше після кожної втрати. Обидві сторони пробивають чотири укриття, три бази обмежують кредит, а повне очищення відбудовує наступний стрій. Це реконструкція за джерелами, не запуск аркадної програми.",
+      "summaryEn": "The laser base moves only sideways and permits one active player shot, while a 55-invader formation reverses, descends and applies faster pressure as members fall. Both sides perforate four fortresses, three bases bound the credit, and complete clearance rebuilds the next rack. This is source-based reconstruction, not arcade-program execution.",
+      "playUrl": "https://www.taito.co.jp/mob/0000030019",
+      "linkLabelUk": "Переглянути офіційну сторінку Space Invaders у Taito ↗",
+      "linkLabelEn": "View the official Space Invaders page at Taito ↗"
     }
   }
 }

@@ -45,16 +45,21 @@
 - [`GAME-0304` — Azul](../games/a-f/azul.md)
 - [`GAME-0021` — Cut the Rope](../games/a-f/cut-the-rope.md)
 - [`GAME-0020` — Dorfromantik](../games/a-f/dorfromantik.md)
+- [`GAME-0345` — "Duck Hunt"](../games/a-f/duck-hunt.md)
 - [`GAME-0052` — Freeways](../games/a-f/freeways.md)
 - [`GAME-0049` — Hexcells Infinite](../games/g-l/hexcells-infinite.md)
 - [`GAME-0099` — HyperRogue](../games/g-l/hyperrogue.md)
+- [`GAME-0350` — "Jet Set Radio"](../games/g-l/jet-set-radio.md)
 - [`GAME-0018` — Mini Metro](../games/m-r/mini-metro.md)
 - [`GAME-0051` — Mini Motorways](../games/m-r/mini-motorways.md)
+- [`GAME-0342` — "PAC-MAN"](../games/m-r/pac-man.md)
 - [`GAME-0114` — Peggle Deluxe](../games/m-r/peggle-deluxe.md)
 - [`GAME-0016` — Pipe Mania / Pipe Dream](../games/m-r/pipe-mania.md)
 - [`GAME-0067` — Simon](../games/s-z/simon.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
+- [`GAME-0360` — "Space Invaders"](../games/s-z/space-invaders.md)
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
+- [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 - [`GAME-0004` — Tetris](../games/s-z/tetris.md)
 - [`GAME-0015` — Threes](../games/s-z/threes.md)
 
@@ -197,6 +202,7 @@
 - [`GAME-0109` — Candy Crush Saga](../games/a-f/candy-crush-saga.md)
 - [`GAME-0060` — HOOK](../games/g-l/hook.md)
 - [`GAME-0070` — Inertia](../games/g-l/inertia.md)
+- [`GAME-0342` — "PAC-MAN"](../games/m-r/pac-man.md)
 - [`GAME-0114` — Peggle Deluxe](../games/m-r/peggle-deluxe.md)
 - [`GAME-0009` — Royal Match](../games/m-r/royal-match.md)
 - [`GAME-0045` — Snakebird](../games/s-z/snakebird.md)
@@ -635,6 +641,7 @@
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
+- [`GAME-0352` — DOOM (1993)](../games/a-f/doom-1993.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0091` — Fez](../games/a-f/fez.md)
@@ -643,13 +650,16 @@
 - [`GAME-0112` — Human: Fall Flat](../games/g-l/human-fall-flat.md)
 - [`GAME-0098` — Hyperbolica](../games/g-l/hyperbolica.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
+- [`GAME-0339` — Metal Gear Solid](../games/m-r/metal-gear-solid.md)
 - [`GAME-0093` — Monument Valley](../games/m-r/monument-valley.md)
 - [`GAME-0296` — Noita](../games/m-r/noita.md)
 - [`GAME-0117` — OneShot](../games/m-r/oneshot.md)
 - [`GAME-0105` — Outer Wilds](../games/m-r/outer-wilds.md)
 - [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
+- [`GAME-0334` — Quake](../games/m-r/quake.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
+- [`GAME-0348` — "Resident Evil: Director’s Cut"](../games/m-r/resident-evil-directors-cut.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
@@ -707,6 +717,7 @@
 - [`GAME-0050` — Shogun Showdown](../games/s-z/shogun-showdown.md)
 - [`GAME-0155` — Slay the Spire 2](../games/s-z/slay-the-spire-2.md)
 - [`GAME-0120` — Slay the Spire](../games/s-z/slay-the-spire.md)
+- [`GAME-0360` — "Space Invaders"](../games/s-z/space-invaders.md)
 - [`GAME-0048` — Tactical Breach Wizards](../games/s-z/tactical-breach-wizards.md)
 - [`GAME-0176` — XCOM 2](../games/s-z/xcom-2.md)
 
@@ -1734,12 +1745,14 @@ Winner Winner Chicken Dinner у PUBG Normal Solo.
 - [`GAME-0318` — Battletoads](../games/a-f/battletoads.md)
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
 - [`GAME-0308` — Bloodborne™](../games/a-f/bloodborne.md)
+- [`GAME-0347` — "Castlevania: Symphony of the Night"](../games/a-f/castlevania-symphony-of-the-night.md)
 - [`GAME-0324` — Contra Force](../games/a-f/contra-force.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
+- [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
@@ -2126,6 +2139,7 @@ Kick Off у EA SPORTS FC 26 без додаткового часу й серії
 ### Ігри-носії
 
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
+- [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 
 ## OBJ-100
@@ -3310,13 +3324,16 @@ Stage 1 West Coast у Need for Speed: The Run від 211-го місця чер�
 
 - [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
+- [`GAME-0353` — "Deus Ex: Game of the Year Edition"](../games/a-f/deus-ex-game-of-the-year-edition.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
+- [`GAME-0340` — "Halo: Combat Evolved Anniversary"](../games/g-l/halo-combat-evolved-anniversary.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
+- [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
 - [`GAME-0328` — "Warcraft III: Reign of Chaos"](../games/s-z/warcraft-iii-reign-of-chaos.md)
 
 ## OBJ-156
@@ -3509,6 +3526,7 @@ Stage 1 West Coast у Need for Speed: The Run від 211-го місця чер�
 - [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
+- [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 
 ## OBJ-165
 
@@ -4161,3 +4179,297 @@ Homecoming на Easy з бонусом 14 Pikemen.
 ### Ігри-носії
 
 - [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)
+
+## OBJ-196
+
+- Назва: Досягти порогів відвідуваності й рейтингу парку в заданий строк
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+У точно оголошений момент мати щонайменше потрібну кількість гостей і не нижчий за потрібний рейтинг парку; обидві умови мають виконуватися одночасно, інакше сценарій програно.
+
+### Включає
+
+Щонайменше 250 гостей і рейтинг парку 600 наприкінці жовтня першого року у Forest Frontiers.
+
+### Виключає
+
+Безстрокове зростання; один рекордний рахунок; виконання лише однієї умови; продовження після оцінювання.
+
+### Ігри-носії
+
+- [`GAME-0335` — RollerCoaster Tycoon Deluxe](../games/m-r/rollercoaster-tycoon-deluxe.md)
+
+## OBJ-197
+
+- Назва: Перемогти першого Gym Leader і зберегти його badge
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Перемогти всю оголошену команду першого Gym Leader та завершити післябойовий сценарій так, щоб badge було збережено до повернення звичайного керування.
+
+### Включає
+
+Перемогу над Geodude й Onix Brock та збереження BoulderBadge у Pokémon Red Version.
+
+### Виключає
+
+Сам прихід у Gym; перемогу лише над попереднім Тренером; текст без збереженого прапорця badge.
+
+### Ігри-носії
+
+- [`GAME-0336` — "Pokémon Red Version"](../games/m-r/pokemon-red-version.md)
+
+## OBJ-198
+
+- Назва: Здобути ланцюг постійних здібностей і знову відкрити його маршрут
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Завершити обмежений авторський вступ: у потрібному порядку здобути оголошені постійні здібності руху та взаємодії, перемогти обов'язкового охоронця й останньою збереженою здібністю відкрити маршрут назад до батьківської мережі переходів.
+
+### Включає
+
+Morphing Ball, перший Missile Tank, п'ять ракет для червоних дверей, Bombs, перемогу над Bomb Torizo та повернення крізь bomb blocks у головну шахту Crateria в Super Metroid.
+
+### Виключає
+
+Саме отримання першої здібності; перемогу над охоронцем без застосування здібності на виході; пізніші регіони, босів і повне проходження; sequence break і glitch-маршрути.
+
+### Ігри-носії
+
+- [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
+
+## OBJ-199
+
+- Назва: Активувати диверсійний пристрій, подолати відповідь і евакуюватися до вибуху
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Завершити одну обмежену диверсійну місію: дістатися призначеного пристрою й активувати його, подолати обов’язкову відповідь охорони та виконати всі авторські умови зворотного маршруту до завершення відліку, щоб звичайне керування відновилося у визначеному полі після місії.
+
+### Включає
+
+Установлення бомби в Reactor No. 1, перемогу над Guard Scorpion, звільнення Jessie, повторне відкриття дверей на зворотному шляху й утечу до завершення десятихвилинного відліку та виходу в Sector 8 в оригінальній Final Fantasy VII.
+
+### Виключає
+
+Саме встановлення бомби без евакуації; необов’язковий бій; подальші події Sector 8; точну політику паузи таймера, яку джерела не підтверджують однозначно.
+
+### Ігри-носії
+
+- [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
+
+## OBJ-200
+
+- Назва: Завершити одне авторське кваліфікаційне випробування й зберегти його доказ
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Завершити весь авторський ланцюг залежностей одного названого кваліфікаційного випробування й отримати призначений постійний предмет-доказ, не завершуючи інші паралельні випробування чи їхній спільний підсумок.
+
+### Включає
+
+Знаходження закопаного скарбу острова Mêlée й отримання футболки Treasure Huntery в оригінальній EGA The Secret of Monkey Island.
+
+### Виключає
+
+Саме досягнення місця; необов’язковий колекційний предмет; завершення всіх паралельних випробувань; лише очки; звичайний жетон кімнатної головоломки без кваліфікаційної ролі.
+
+### Ігри-носії
+
+- [`GAME-0343` — The Secret of Monkey Island](../games/s-z/the-secret-of-monkey-island.md)
+
+## OBJ-201
+
+- Назва: Здобути унікальний артефакт і зберегти його першу здібність
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Завершити обмежений авторський вступ: дістатися призначеного унікального артефакту, прийняти підсумок його здобуття й повернутися до звичайного керування зі збереженими артефактом та першою наданою ним здібністю.
+
+### Включає
+
+Досягнення Dagger of Time через вступний палац і скарбницю, прийняття демонстрації Power of Revival зі скелею та повернення до керування з кинджалом і перемотуванням у Prince of Persia: The Sands of Time.
+
+### Виключає
+
+Саме споглядання чи досягнення артефакту; звичайний жетон кімнатної головоломки; витратний ключ; зупинку всередині сцени здобуття; обов’язковість наступної втечі, пізніших здібностей або всієї кампанії.
+
+### Ігри-носії
+
+- [`GAME-0344` — "Prince of Persia: The Sands of Time"](../games/m-r/prince-of-persia-the-sands-of-time.md)
+
+## OBJ-202
+
+- Назва: Виконати мінімальну квоту влучань у фіксованому раунді цілей
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Завершити послідовність фіксованої довжини з окремими нагодами по цілях, зарахувавши щонайменше оголошену кількість влучань; перехід відбувається лише тоді, коли остаточна кількість сягає показаної межі, а інакше сесія завершується.
+
+### Включає
+
+Влучання щонайменше у шість із десяти качок першого раунду оригінальної Duck Hunt Game A для переходу до другого раунду.
+
+### Виключає
+
+Усунення кожної цілі; максимізацію рахунку; отримання одного об’єкта з числовим значенням; квоту доставки чи порятунку; наступні раунди Duck Hunt із вищими значеннями PASS LINE.
+
+### Ігри-носії
+
+- [`GAME-0345` — "Duck Hunt"](../games/a-f/duck-hunt.md)
+
+## OBJ-203
+
+- Назва: Завершити ярмаркове випробування й увійти в іншу епоху
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Завершити один обмежений авторський ярмарковий вступ: сформувати початкову команду, підсумувати оголошене необов’язкове випробування й операцію з подієвою валютою, а потім розв’язати пригоду з механізмом і ключовим предметом та повернути звичайне керування у вказаному відповідному місці іншої епохи.
+
+### Включає
+
+Свіжий вступ Chrono Trigger через приєднання Marle, перемогу над Gato, один обмін Silver Points, реакцію Telepod на Pendant і перше звичайне керування Crono у Truce Canyon 600 A.D.
+
+### Виключає
+
+Зупинку на перемозі у випробуванні, обміні валюти, зникненні супутниці чи створенні брами; проходження Truce Canyon; порятунок Marle; досягнення фіналу або відновлення всієї часової лінії.
+
+### Ігри-носії
+
+- [`GAME-0346` — Chrono Trigger](../games/a-f/chrono-trigger.md)
+
+## OBJ-204
+
+- Назва: Замінити всі обов’язкові графіті й відкрити наступні етапи
+- Переглянуто: `2026-09-21`
+
+### Операційне визначення
+
+Завершити один обмежений авторський вуличний етап: замінити кожну точку, позначену обов’язковою, до межі поразки, прийняти підсумок і завершити з оголошеним набором наступних етапів, доступних для вибору.
+
+### Включає
+
+Усі чотири малі, п’ять великих і одна надвелика червона точка Shibuya GG, підсумок і три наступні варіанти у вступі Jet Set Radio для Xbox 360.
+
+### Виключає
+
+Необов’язкові зелені точки; поріг очок або рангу Jet; перемогу над усією поліцією; кампанію; зупинку до підсумку; вхід чи проходження наступного етапу.
+
+### Ігри-носії
+
+- [`GAME-0350` — "Jet Set Radio"](../games/g-l/jet-set-radio.md)
+
+## OBJ-205
+
+- Назва: Утекти з прологу й зберегти посадку зі скороченим набором здібностей
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Перемогти авторського охоронця прологу, дістатися оголошеного виходу до завершення евакуаційного часу, пережити неминучу подію втрати здібностей і повернути звичайне керування після посадки-наступника зі збереженим скороченим базовим набором.
+
+### Включає
+
+Шлях Metroid Prime від перемоги над Parasite Queen через втечу з Frigate Orpheon, несправність спорядження та перше керування в Tallon Overworld.
+
+### Виключає
+
+Зупинку на перемозі над охоронцем, виході зі шлюзу чи кінематографічній сцені; пізніше повернення здібностей; прибуття з початковим повним набором; добровільну зміну спорядження.
+
+### Ігри-носії
+
+- [`GAME-0355` — Metroid Prime](../games/m-r/metroid-prime.md)
+
+## OBJ-206
+
+- Назва: Знайти, підкорити й перемогти одного стража перед автоматичним поверненням до святині
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Завершити одне обмежене полювання: за авторським напрямом дістатися обов’язкового велетенського стража, змінити й подолати топологію його тіла, вичерпати потрібний головний знак і прийняти автоматичне повернення, яке відновлює звичайне керування в оголошеному осередку.
+
+### Включає
+
+Пошук і перемогу над першим колосом на Normal в оригінальному Shadow of the Colossus та повернення керування у Shrine of Worship.
+
+### Виключає
+
+Зупинку на знаходженні, стані навколішках, першому підйомі чи смерті стража; початок другого полювання; перемогу над усіма колосами; додаткові знаки Hard; необов’язкове дослідження або Time Attack.
+
+### Ігри-носії
+
+- [`GAME-0356` — Shadow of the Colossus](../games/s-z/shadow-of-the-colossus.md)
+
+## OBJ-207
+
+- Назва: Проїхати велосипедом за двома рухомими провідниками й відкрити перший дім
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Завершити обмежений авторський вступ: сісти на наданий велосипед, пройти послідовні етапи маршруту за першим, а потім другим названим рухомим провідником, дістатися фінальної позначки біля дому та зберегти оголошені нагороду поваги, сховок і наступну місію.
+
+### Включає
+
+Місію Sweet & Kendl в оригінальній Grand Theft Auto: San Andreas для PlayStation 2 — від посадки на велосипед біля кладовища через Sweet і Ryder до завершеного керування на Grove Street з доступними Respect, Johnson House та Ryder.
+
+### Виключає
+
+Досягнення лише одного провідника; прибуття додому до кладовища; завершення попереднього переходу Big Smoke, що складається лише зі сцени; збереження всередині дому; початок наступної місії; завершення всієї кампанії.
+
+### Ігри-носії
+
+- [`GAME-0357` — "Grand Theft Auto: San Andreas"](../games/g-l/grand-theft-auto-san-andreas.md)
+
+## OBJ-208
+
+- Назва: Завершити один курс у свідомості й зберегти запрошення до наступного
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Увійти в одну названу навчальну свідомість, завершити її авторські фізичні, бойові й класово-чутливі кваліфікаційні етапи, пройти фінальну ментальну послідовність і повернути звичайне керування в реальному світі зі збереженими завершенням курсу та оголошеним запрошенням до наступного тренування.
+
+### Включає
+
+Завершення Basic Braining Coach Oleander у Psychonauts і повернення до Kid's Cabins із кнопкою Sasha Nein для просунутого тренування.
+
+### Виключає
+
+Сам вхід у свідомість; лише проходження галереї; збирання всіх необов'язкових фігментів, пар багажу, сховищ чи павутиння; початок наступного тренування; завершення всього табору або кампанії.
+
+### Ігри-носії
+
+- [`GAME-0358` — Psychonauts](../games/m-r/psychonauts.md)
+
+## OBJ-209
+
+- Назва: Повернути повітряну базу й зберегти жетон вильоту
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Виконати всі обов'язкові польотно-навчальні й ворожі умови одного фіксованого вступного вильоту, прийняти оголошену позначку повернення на повітряну базу й відновити звичайне післямісійне керування всередині повернутої бази зі збереженим жетоном завершення.
+
+### Включає
+
+Завершення The Morning After, повернення Pandora й збереження її Upgrade Token в оригінальній Xbox-версії Crimson Skies: High Road to Revenge.
+
+### Виключає
+
+Зупинку після останнього винищувача чи біля позначки повернення; пошук прихованого жетона; початок Mission 2; покращення літака; завершення всієї кампанії.
+
+### Ігри-носії
+
+- [`GAME-0359` — "Crimson Skies: High Road to Revenge"](../games/a-f/crimson-skies-high-road-to-revenge.md)

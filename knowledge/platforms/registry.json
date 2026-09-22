@@ -288,6 +288,17 @@
       "infoUrl": "https://en.wikipedia.org/wiki/FM_Towns"
     },
     {
+      "id": "PLAT-GAME-BOY",
+      "slug": "game-boy",
+      "nameEn": "Game Boy",
+      "kind": "handheld",
+      "ecosystem": "nintendo",
+      "generation": "fourth generation",
+      "legacy": true,
+      "iconPath": "/platform-icons/game-boy.svg",
+      "infoUrl": "https://en.wikipedia.org/wiki/Game_Boy"
+    },
+    {
       "id": "PLAT-GAME-BOY-ADVANCE",
       "slug": "game-boy-advance",
       "nameEn": "Game Boy Advance",
