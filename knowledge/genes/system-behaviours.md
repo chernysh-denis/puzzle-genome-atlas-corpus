@@ -741,7 +741,8 @@
   removing every gem crossed without stopping its committed slide; the
   Echochrome Walker crediting an echo on contact while continuing its route;
   the Stereo Madness icon marking an optional Secret Coin collected while the
-  attempt continues toward the level finish.
+  attempt continues toward the level finish; the Super Monkey Ball 2 ball
+  touching an optional banana before reaching the goal.
 - Excludes: the player directly selecting a collectible; mandatory destination
   contact that itself completes the level; acquiring a carried key whose later
   barrier interaction is the decision-relevant function; clearing a matched
@@ -758,6 +759,8 @@
   [Geometry Dash decomposition](../games/g-l/geometry-dash.md).
 - Additional support: [Battletoads decomposition](../games/a-f/battletoads.md),
   for autonomous Psyko-Pig, Walker and Dragon movement and attacks.
+- Additional support: [Super Monkey Ball 2 decomposition](../games/s-z/super-monkey-ball-2.md),
+  for optional banana contact and score credit during the Story stage.
 - Novelty: not assessed.
 
 ## SYS-038 — Synchronous cyclic symbolic-program execution
@@ -19860,3 +19863,746 @@
 - Novelty: first isolated for `GAME-0360`; `SYS-966` rebuilds a collectible
   maze, whereas this boundary replaces an adversarial formation and its cover
   while preserving the same finite arcade credit.
+
+## SYS-993 — Resolve a consumable lock attempt from skill-weighted hidden chance
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when a compatible finite lock tool is equipped and committed to
+  a locked target, the system combines the character's relevant skill,
+  supporting attributes and current condition with tool quality and lock
+  difficulty into a concealed success chance, consumes one tool use, and
+  either opens the target or leaves it locked.
+- Includes: Morrowind's Security attempt with an equipped lockpick, current
+  Security, Agility, Luck and fatigue, pick quality, target lock level and one
+  consumed use on success or failure.
+- Excludes: Skyrim's continuously adjusted angle and torque with graded
+  resistance; a visible fixed dice roll against a displayed difficulty; an
+  exact key that guarantees access; a reusable tool with no use loss.
+- Parameters: actor, skill, supporting attributes, condition modifier, tool,
+  quality, remaining uses, target, lock difficulty, hidden draw, success,
+  failure and resulting access state.
+- Evidence: [The Elder Scrolls III: Morrowind decomposition](../games/s-z/the-elder-scrolls-iii-morrowind.md).
+- Novelty: first isolated for `GAME-0362`; no lower-ID system binds a concealed
+  character-and-tool probability to unconditional depletion of the same
+  finite bypass resource.
+
+## SYS-994 — Return a guarded projectile to its source
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while a protective guard is actively held toward an eligible
+  incoming projectile, contact reverses that projectile into an attack on its
+  source; a successful return changes the source actor's vulnerable or
+  interaction state instead of merely preventing damage to the defender.
+- Includes: raising the Deku Shield against a Deku Scrub nut in Ocarina of
+  Time's first Great Deku Tree route, reflecting it into the Scrub and making
+  the stunned actor available for a contextual conversation.
+- Excludes: a passive facing shield that cancels a projectile without a guard
+  command (`SYS-932`); held defence that only reduces health loss; a timed
+  parry of a melee attack; an unrelated projectile fired by the player.
+- Parameters: held guard, facing, eligible projectile, contact, reflected
+  direction, source actor, hit, stun, talk window and expiry.
+- Evidence: [Ocarina of Time decomposition](../games/s-z/the-legend-of-zelda-ocarina-of-time.md),
+  using Nintendo's N64 manual and two corroborating written first-dungeon routes.
+- Novelty: first isolated for `GAME-0363`; the same protected contact returns
+  the hostile's shot and creates the next contextual route opportunity.
+
+## SYS-995 — Resolve rolling spin and chained pin collision
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after a motion-sampled delivery, the system advances one ball
+  along a bounded lane under its release direction and spin, resolves gutter
+  and pin contacts, and counts the pins felled by the resulting collision
+  chain when that delivery settles.
+- Includes: original Wii Sports Bowling ball motion, wrist-turn spin and pin
+  fall in one completed throw.
+- Excludes: airborne ballistic ricochet (`SYS-146`); an abstract score without
+  pin bodies; independent post-release steering or a second simultaneous ball.
+- Parameters: lane, ball velocity, spin, gutter boundary, pin arrangement,
+  contact sequence and settled pinfall.
+- Evidence: [Wii Sports decomposition](../games/s-z/wii-sports.md), using
+  Nintendo's original manual and its ten-pin Bowling description.
+- Novelty: first isolated for `GAME-0364`; a rolling body and its spin-driven
+  lane path cause a chained ten-pin collision, not an airborne peg bounce.
+
+## SYS-996 — Settle ten-pin frames with deferred strike and spare bonuses
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the system records each delivery's pinfall in the current
+  frame, applies the strike or spare bonus only when the required later
+  delivery has occurred, resets the rack at the eligible frame boundary and
+  totals a ten-frame game after any final-frame fill deliveries.
+- Includes: a standard ten-frame Wii Sports Bowling game, including delayed
+  strike and spare values and the tenth-frame exception.
+- Excludes: treating a strike as an immediate fixed ten-point total;
+  resetting the rack after a first non-strike delivery; counting a fill ball
+  as a separate eleventh frame; altering the per-pin value.
+- Parameters: frame index, delivery index, pinfall, standing pins, strike,
+  spare, pending bonus deliveries, tenth-frame fill, score and game settlement.
+- Evidence: [Wii Sports decomposition](../games/s-z/wii-sports.md), using
+  Nintendo's ten-frame rule and United States Bowling Congress ten-pin
+  scoring guidance; exact in-game scoring values are not directly measured.
+- Novelty: first isolated for `GAME-0364`; frame-local pin availability and
+  deferred next-delivery bonuses jointly determine the match score.
+
+## SYS-997 — Update and retain a player's sport-specific skill level
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after an eligible completed sport game, the system changes the
+  selected stored player's sport skill level according to performance, shows
+  the updated value and retains the player's record across sessions; a
+  threshold can grant and later revoke a proficiency title.
+- Includes: Wii Sports Bowling skill level for a console-stored Mii, with the
+  original game's Pro threshold above 1,000 points.
+- Excludes: the ten-frame match score itself; changing ball physics from
+  skill level; claiming Nintendo's undisclosed skill-update formula; retaining
+  a record for a guest or Wii Remote-stored Mii.
+- Parameters: player identity, sport, completed performance, prior skill,
+  revised skill, 1,000-point threshold, Pro state and save eligibility.
+- Evidence: [Wii Sports decomposition](../games/s-z/wii-sports.md), using
+  Nintendo's original manual, printed pages 6–7 and About Miis.
+- Novelty: first isolated for `GAME-0364`; a performance-derived sport rating
+  may rise or fall across completed games, independent of the match score.
+
+## SYS-998 — Modify a trick chain by rotation, stance and repetition
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when an eligible connected skate trick is added, the system
+  evaluates its score contribution using the declared rotation, stance and
+  repeat history; spins and qualifying gaps can strengthen a chain, while
+  repeating the same trick reduces that trick's value.
+- Includes: spin, switch-stance, gap and repeat-sensitive scoring in Tony
+  Hawk's Pro Skater 1 + 2 Warehouse Tour.
+- Excludes: the chain-continuity and bail boundary itself (`SYS-975`);
+  score from collecting a park-goal object; assuming an exact unpublished
+  numeric multiplier formula; a fixed reward for each repeated trick.
+- Parameters: trick identity, repetition count, rotation, stance, gap,
+  contribution and multiplier; exact coefficients are not asserted.
+- Evidence: [Tony Hawk's Pro Skater 1 + 2 decomposition](../games/s-z/tony-hawks-pro-skater-1-plus-2.md),
+  using Activision's Scoring and Combos article.
+- Novelty: first isolated for `GAME-0365`; the same reachable trick can carry
+  different value because of its execution history and context.
+
+## SYS-999 — Credit heterogeneous park goals across timed Tour runs
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: during a goal-based park run, the system tests distinct
+  declared score, single-chain, collection, object-interaction and gap
+  conditions, credits each satisfied park goal and retains credited goals
+  for the Tour even when a single run ends with other goals incomplete.
+- Includes: Warehouse Tour score goals, S-K-A-T-E letters, hydrants, box
+  stacks, designated grind/jump gaps and the secret tape in Tony Hawk's Pro
+  Skater 1 + 2; one run need not finish all goals.
+- Excludes: Free Skate without goals; a Single Session leaderboard score;
+  re-crediting an already completed goal as a new Tour goal; assuming a
+  specific player has completed every Warehouse objective.
+- Parameters: park, goal predicate, local progress, credited set, run result,
+  carried Tour progress and later park-unlock threshold.
+- Evidence: [Tony Hawk's Pro Skater 1 + 2 decomposition](../games/s-z/tony-hawks-pro-skater-1-plus-2.md),
+  using Activision's Tours description and a published Warehouse goal guide;
+  no executable state was inspected.
+- Novelty: first isolated for `GAME-0365`; multiple mechanically different
+  park-goal predicates contribute independent retained Tour credit.
+
+## SYS-1000 — Route an Arcade duel result to next opponent or same-stage Continue
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a one-player fighting match settles, a win advances the
+  fixed selected fighter to the next required CPU opponent, while a loss
+  offers a Continue decision that retries the lost stage with that fighter or
+  ends the Arcade attempt when declined.
+- Includes: Tekken 3's original PlayStation one-player Arcade Mode with Jin
+  retained across opponent stages and unlimited same-stage continues.
+- Excludes: resetting a round within one match (`SYS-522`); changing fighters
+  in Option Mode while continuing; a two-player Versus rematch; persistent
+  unlocks or ending-media playback.
+- Parameters: selected fighter, current stage, opponent, match result,
+  continue offer, continue choice, next opponent and final-stage flag.
+- Evidence: [Tekken 3 decomposition](../games/s-z/tekken-3.md), from Namco's
+  original PlayStation instruction manual.
+- Novelty: first isolated for `GAME-0366`; a settled duel routes a retained
+  fighter through successive opponents and an optional same-stage retry,
+  rather than merely resetting rounds within a single fixed-opponent match.
+
+## SYS-1001 — Score captured scene content into photographic progression credit
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a legal camera capture, evaluate the photographed live
+  scene for declared subject and composition opportunities, award its
+  qualifying progression credit and mark any one-time target opportunity used.
+- Includes: Dead Rising's PP award for a noteworthy reunion image, with
+  camera target cues visible before the shutter.
+- Excludes: ordinary enemy defeat experience; automatic reward merely for
+  opening the viewfinder; level threshold conversion (`SYS-299`); a fixed
+  reward independent of what the captured scene contains.
+- Parameters: captured subjects, composition, cue class, one-time marker,
+  quality result, credited PP and retained picture state.
+- Evidence: [Dead Rising decomposition](../games/a-f/dead-rising.md), using
+  Capcom's camera and PP rules with an independently described opening photo.
+- Novelty: first isolated for `GAME-0368`; live scene composition becomes
+  an input to the progression reward, separate from the shutter action.
+
+## SYS-1002 — Route and settle a temporarily recruited civilian escort
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after an eligible civilian accepts a temporary in-world escort,
+  autonomously route that vulnerable actor toward the player or an addressed
+  goal, update separation and health, and credit delivery only when that
+  actor reaches the designated safe boundary alive.
+- Includes: recruiting Jeff and Natalie on Dead Rising's rooftop, leading
+  both through the vent and crediting their Security Room arrival.
+- Excludes: an already owned combat squad; direct player control of the
+  civilian; a vehicle pushed by proximity; a follower whose ordinary role is
+  combat or fixture assistance rather than safe delivery (`SYS-752`).
+- Parameters: civilian, recruitment state, follow target, goal point, path,
+  separation, health, safe boundary, arrival and failure state.
+- Evidence: [Dead Rising decomposition](../games/a-f/dead-rising.md), using
+  Capcom's escort controls and two independent rooftop routes.
+- Novelty: first isolated for `GAME-0368`; temporary civilian pathing is
+  evaluated at a safe-room arrival, not by ally combat performance.
+
+## SYS-1003 — Award completed-feature score by follower majority and return markers
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when placement completes a connected feature, count each
+  player's followers on it, award its rule-valued points in full to every tied
+  highest count, then return all followers on that scored feature to their
+  owners' supplies before the next turn.
+- Includes: completed Carcassonne roads, walled cities and surrounded
+  monasteries; separately claimed sections joined later may create majority
+  or tied-majority outcomes.
+- Excludes: optional follower placement; direct claims on occupied features;
+  farmers, which remain until final scoring; incomplete endgame points.
+- Parameters: feature, tile and emblem counts, completion predicate, scoring
+  table, follower counts and release timing.
+- Evidence: [Carcassonne decomposition](../games/a-f/carcassonne.md), using
+  Z-Man's English main rules and illustrated majority example.
+- Novelty: first isolated for `GAME-0369`; score ownership is a feature-level
+  majority relation followed by marker reuse.
+
+## SYS-1004 — Settle unfinished features and completed-city fields at exhaustion
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after the finite tile supply ends, award lower-value points for
+  each still-incomplete claimed road, city or monastery and three points per
+  distinct completed city adjoining each claimed field, resolving each
+  feature by follower majority before comparing final player totals.
+- Includes: Carcassonne's endgame road, city, monastery and farmer field score;
+  tied highest follower counts each receive the full feature score.
+- Excludes: in-turn completed-feature score and immediate follower return
+  (`SYS-1003`); counting one city twice for the same field; River or Abbot.
+- Parameters: feature topology, incomplete tile and emblem counts, monastery
+  neighbours, distinct adjacent completed cities, follower majorities.
+- Evidence: [Carcassonne decomposition](../games/a-f/carcassonne.md), using
+  Z-Man's English main rules and farmer supplement.
+- Novelty: first isolated for `GAME-0369`; terminal field adjacency and
+  incomplete-feature valuation differ from in-turn completion scoring.
+
+## SYS-1005 — Route a patient through reception and staged diagnosis
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an arriving patient is registered by staffed reception, enters
+  a GP assessment queue and, when diagnosis is insufficient, is routed to a
+  compatible further-diagnosis room or a declared policy decision before
+  treatment can be attempted.
+- Includes: Theme Hospital level-one reception, GP's Office and General
+  Diagnosis referrals; visible Bloaty Head still needs diagnosis.
+- Excludes: visitor choice of a leisure attraction (`SYS-951`); direct player
+  movement of every patient step; a guaranteed cure from an apparent symptom.
+- Parameters: patient, reception, queue, diagnosis confidence, referral,
+  compatible room, policy threshold, wait and departure.
+- Evidence: [Theme Hospital decomposition](../games/s-z/theme-hospital.md),
+  using the original PC manual's diagnosis and first-hospital sections.
+- Novelty: first isolated for `GAME-0370`; the service path is revised by
+  diagnosis state rather than a visitor's simple preference and price choice.
+
+## SYS-1006 — Resolve a diagnosed patient's compatible treatment
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when a sufficiently diagnosed patient reaches a staffed
+  compatible treatment room, the room attempts its disease-specific cure and
+  records cure or failure, payment and relevant health consequences.
+- Includes: nurse-led Pharmacy treatment, psychiatrist-led psychiatric care
+  and doctor-led Inflation Clinic care in Theme Hospital's first hospital.
+- Excludes: diagnosis itself (`SYS-1005`); Frostpunk's bed-based gradual
+  recovery (`SYS-227`); assuming that every treatment succeeds.
+- Parameters: disease, diagnosis confidence, treatment, room, worker,
+  qualification, effectiveness, outcome, fee and patient health.
+- Evidence: [Theme Hospital decomposition](../games/s-z/theme-hospital.md),
+  using the original PC manual's treatment-room and outcome rules.
+- Novelty: first isolated for `GAME-0370`; the typed medical service closes
+  a multi-room diagnosis path with a bounded cure or failure result.
+
+## SYS-1007 — Feed hospital outcomes and price into reputation
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: treatment success, deaths, diagnosis quality and prices alter
+  aggregate hospital reputation, which in turn affects later demand without
+  revealing the exact hidden calculation.
+- Includes: Theme Hospital's patient-outcome and pricing reputation feedback
+  during the bounded first hospital.
+- Excludes: one patient's personal happiness (`SYS-198`); a park's composite
+  ride-and-layout rating (`SYS-952`); fixed end-level score alone.
+- Parameters: cures, deaths, diagnosis quality, prices, reputation,
+  demand/arrivals, update cadence and unknown weights.
+- Evidence: [Theme Hospital decomposition](../games/s-z/theme-hospital.md),
+  using the original PC manual's reputation explanation and status reports.
+- Novelty: first isolated for `GAME-0370`; care quality and commercial terms
+  jointly feed the service institution's future patient demand.
+
+## SYS-1008 — Let an autonomous subject react to a placed item lure
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when a compatible non-damaging item lands within a subject's
+  response region, the autonomous subject may change its position or pose in
+  the live scene, opening a new observation or capture opportunity.
+- Includes: Pikachu's happy approach or pose near Pokémon Food on the
+  original Pokémon Snap Beach course.
+- Excludes: player control of the subject; a guaranteed high-scoring image;
+  damage or capture of the creature; the item-throw command (`ACT-506`).
+- Parameters: subject, item, landing location, response eligibility, delay,
+  movement, pose, route timing and camera opportunity.
+- Evidence: [Pokémon Snap decomposition](../games/m-r/pokemon-snap.md), using
+  Nintendo's original instruction booklet, pp. 20–21.
+- Novelty: first isolated for `GAME-0371`; the rule-bearing outcome is the
+  observed creature's changed behaviour rather than the lure's placement.
+
+## SYS-1009 — Judge a selected photo and retain the best species record
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after one eligible photograph per subject type is selected,
+  evaluate its visible subject size, pose, centring technique and same-type
+  companions, report a total, compare it with the prior record for that type
+  and retain the better scored picture in a persistent report.
+- Includes: Professor Oak's check of a selected Pikachu image and the PKMN
+  Report's best-shot retention in original Pokémon Snap.
+- Excludes: immediate reward at shutter time (`SYS-1001`); uploading several
+  pictures of the same species in one check; a guaranteed increase from every
+  new submission; Gallery arrangement independent of the Report.
+- Parameters: selected frame, identified species, category scores, total,
+  prior best, comparison, retained image and Report entry.
+- Evidence: [Pokémon Snap decomposition](../games/m-r/pokemon-snap.md), using
+  Nintendo's original instruction booklet, pp. 14–17.
+- Novelty: first isolated for `GAME-0371`; delayed category appraisal and
+  species-specific best retention distinguish it from immediate photo rewards.
+
+## SYS-1010 — Advance an authored note chart and judge fret-strum events
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: advance the selected song's fixed note events toward a judgement
+  line on the live clock and classify a matching fret-and-strum input, a missed
+  event or a held sustain according to the chart's timing and duration.
+- Includes: single notes, simultaneous chords and held long notes in Guitar
+  Hero III's Easy Quick Play song.
+- Excludes: a freely generated note stream; changing the authored song chart
+  in response to the player's score; score multipliers or Rock Meter state.
+- Parameters: song chart, difficulty, lane set, event time, chord membership,
+  sustain duration, judgement window and hit/miss result.
+- Evidence: [Guitar Hero III decomposition](../games/g-l/guitar-hero-iii-legends-of-rock.md),
+  Activision's PlayStation 3 instruction booklet, pp. 8–9.
+- Novelty: first isolated for `GAME-0372`; the moving chart itself is the
+  objective sequence, unlike rhythmic music cueing separate platform geometry.
+
+## SYS-1011 — Scale note score through an unbroken hit streak
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: consecutive successfully played chart notes raise a temporary
+  per-note score multiplier through declared stages; a mistake breaks that
+  streak and removes its multiplier for subsequent notes.
+- Includes: Guitar Hero III's 2×–4× Score Multiplier during a solo song.
+- Excludes: the separately activated Star Power doubling; an end-of-song
+  grade; a combat combo or persistent account score.
+- Parameters: hit sequence, streak break, multiplier stage, base note points
+  and accumulated score.
+- Evidence: [Guitar Hero III decomposition](../games/g-l/guitar-hero-iii-legends-of-rock.md),
+  Activision's PlayStation 3 instruction booklet, pp. 8–9.
+- Novelty: first isolated for `GAME-0372`; chart-note continuity directly
+  changes each following note's scoring value.
+
+## SYS-1012 — Earn and drain phrase-based Star Power
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: completing every glowing note of a marked phrase adds charge
+  to a stored meter; after deliberate activation at its minimum threshold,
+  the charge drains while doubling the currently earned score multiplier.
+- Includes: Guitar Hero III star-shaped phrases, half-full activation and
+  temporary doubled multiplier in solo Quick Play.
+- Excludes: a partial phrase that still grants its full charge; a permanent
+  doubled score; multiplayer Battle Power; exact charge coefficients.
+- Parameters: marked phrase, all-note completion, stored charge, threshold,
+  activation, drain and current streak multiplier.
+- Evidence: [Guitar Hero III decomposition](../games/g-l/guitar-hero-iii-legends-of-rock.md),
+  Activision's PlayStation 3 instruction booklet, pp. 8–10.
+- Novelty: first isolated for `GAME-0372`; earned phrase completion, stored
+  timing choice and temporary score amplification form one resource cycle.
+
+## SYS-1013 — Settle song survival through a live Rock Meter
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: update an ongoing performance gauge from successful and failed
+  chart play; sustained poor performance moves it through warning states
+  toward song failure before the authored song ends.
+- Includes: Guitar Hero III's green, yellow, red and flashing-red Rock Meter
+  states and the possibility of being removed from the stage.
+- Excludes: an end-of-song five-star grade; a finite lives counter; exact
+  unpublished meter increments or a failure caused only by low score.
+- Parameters: hit/miss history, gauge state, warning state, failure threshold
+  and song endpoint.
+- Evidence: [Guitar Hero III decomposition](../games/g-l/guitar-hero-iii-legends-of-rock.md),
+  Activision's PlayStation 3 instruction booklet, pp. 8–9.
+- Novelty: first isolated for `GAME-0372`; success requires preserving a live
+  audience gauge while the fixed song continues.
+
+## SYS-1014 — Convert mouth-compatible food contact into DNA and growth
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when the controlled cell's mouth contacts an eligible food
+  source, the system consumes that food, credits DNA and advances the cell's
+  growth progress.
+- Includes: plant matter eaten by a Spore herbivore cell or eligible smaller
+  prey eaten by a carnivore cell during the Cell stage.
+- Excludes: contact by a non-mouth body region; inedible food types; collecting
+  an editor part without eating; DNA spent in the editor.
+- Parameters: mouth, food class, size eligibility, DNA credit and growth
+  progress.
+- Evidence: [Spore decomposition](../games/s-z/spore.md), original EA manual,
+  pp. 18–19 and 30–31.
+- Novelty: first isolated for `GAME-0373`.
+
+## SYS-1015 — Rescale cell and feeding demands at growth milestones
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: as the cell's food-driven progress reaches growth milestones,
+  its size increases and the currently viable food and rival-size relations
+  change, so continued advancement requires food appropriate to the new size.
+- Includes: a growing Spore cell needing more plant matter or larger eligible
+  prey later in the Cell stage.
+- Excludes: merely increasing a score without changing the controlled body;
+  placing a part in the editor; an asserted exact hidden growth threshold.
+- Parameters: progress milestone, body size, food demand and nearby cell sizes.
+- Evidence: [Spore decomposition](../games/s-z/spore.md), original EA manual,
+  pp. 30–31.
+- Novelty: first isolated for `GAME-0373`.
+
+## SYS-1016 — Unlock body parts from collected world specimens
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: collecting an eligible world part or source marker adds its
+  functional part type to the palette available at a later body-editor visit;
+  discovery alone does not attach the part or confer its ability.
+- Includes: Spore Cell-stage parts from floating meteor fragments or from a
+  conquered peer or prey cell marked with a part icon.
+- Excludes: ordinary food granting DNA; automatically equipping the part on
+  pickup; parts unlocked only by a later unrelated game stage.
+- Parameters: part marker, collection condition, type, palette state and
+  editor-entry timing.
+- Evidence: [Spore decomposition](../games/s-z/spore.md), original EA manual,
+  pp. 18–19 and 30–31.
+- Novelty: first isolated for `GAME-0373`.
+
+## SYS-1017 — Apply saved body-part layout to active capabilities
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: saving a revised body makes its functional part layout the
+  controlled lineage's active form, changing the abilities, health or feeding
+  capability associated with those parts when live play resumes.
+- Includes: a Spore cell gaining the abilities of newly placed mouth, movement
+  or defensive parts after leaving the Cell Creator.
+- Excludes: visual paint with no capability change; a temporary pickup that
+  expires without altering the lineage; assuming every placement changes every
+  capability.
+- Parameters: saved part set, placement, ability values, health and diet.
+- Evidence: [Spore decomposition](../games/s-z/spore.md), original EA manual,
+  pp. 12–13 and 18–19.
+- Novelty: first isolated for `GAME-0373`.
+
+## SYS-1018 — Resolve offensive and defensive body-part contact
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: physical contact between a cell's attacking or defensive part
+  and another cell resolves harm according to the contacting part and relative
+  position rather than treating every body collision as the same attack.
+- Includes: driving a Spore Cell-stage carnivorous mouth into prey while
+  avoiding dangerous parts, or exposing spikes to an approaching attacker.
+- Excludes: selecting a remote attack target with no contact; ordinary
+  mouth-compatible food collection; an unobserved numeric damage coefficient.
+- Parameters: contacting part, relative orientation, target part, health
+  change and defeat.
+- Evidence: [Spore decomposition](../games/s-z/spore.md), original EA manual,
+  pp. 30–31.
+- Novelty: first isolated for `GAME-0373`.
+
+## SYS-1019 — Carry a stage's feeding path into successor traits
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: at a completed evolutionary stage boundary, the retained
+  history of the lineage's feeding choices determines a trait that remains
+  relevant to the next stage instead of resetting all prior decisions.
+- Includes: Spore Cell-stage carnivore, herbivore or omnivore feeding history
+  affecting the Creature-stage trait and consequence ability; the equipped
+  mouth's separate diet restriction is not this carryover rule.
+- Excludes: assuming one final mouth placement alone determines the entire
+  history trait; claiming every later-stage rule is inside the Cell packet.
+- Parameters: feeding-history classification, trait card and successor
+  ability.
+- Evidence: [Spore decomposition](../games/s-z/spore.md), original EA manual,
+  pp. 6–8 and 18–19.
+- Novelty: first isolated for `GAME-0373`.
+
+## SYS-1020 — Settle an open-city race at a destination without route checkpoints
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after one point-to-point road race starts, autonomous competitors
+  and the player may travel through different legal streets toward a named
+  destination; the system accepts each arrival beneath its finish banner and
+  classifies the resulting order without requiring an intermediate checkpoint
+  sequence or completed laps.
+- Includes: one original Xbox 360 Burnout Paradise offline ordinary `Race`
+  event across Paradise City, from a discovered junction to its red overhead
+  finish banner.
+- Excludes: `SYS-516` ordered waypoint or lap validation; a solo road-time
+  record; Road Rage takedown quotas; Marked Man damage survival; free-roam
+  driving without a started race; player-hosted online route editing.
+- Parameters: start junction, road network, destination, legal alternative
+  routes, autonomous competitors, finish crossing, arrival order and win.
+- Evidence: [Burnout Paradise decomposition](../games/a-f/burnout-paradise.md),
+  from the original Electronic Arts Xbox 360 manual, p. 4.
+- Novelty: first isolated for `GAME-0374`; neither same-course autonomous-rival
+  pacing (`SYS-515`) nor ordered-checkpoint race validation (`SYS-516`) captures
+  independent street choice toward one finish banner.
+
+## SYS-1021 — Promote a qualifying wild visitor to garden resident
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: evaluate a species' distinct appearance, visit and residence conditions against the current garden; after a qualifying wild piñata visits and its residence conditions are satisfied, change that individual from black-and-white visitor to coloured resident.
+- Includes: the original Viva Piñata's first Whirlm path from garden approach to a coloured resident.
+- Excludes: simply displaying a species near the boundary; building a home after residency; reproduction or evolution; guaranteeing a species on a specified clock tick.
+- Parameters: species, garden state, staged condition sets, individual, visit, residence and colour transition.
+- Evidence: [Viva Piñata decomposition](../games/s-z/viva-pinata.md), original Xbox 360 booklet pp. 8–9 and 16–17.
+- Novelty: first isolated for `GAME-0375`; the three-stage garden qualification and individual residency transition are not a calendar wildlife spawn or a bought animal placement.
+
+## SYS-1022 — Attach eligible contacted objects to a growing rolling body
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when a player-steered rolling body contacts an eligible loose
+  object, that object leaves its world position, remains physically attached
+  to the moving body and contributes to its measured size, changing which
+  larger objects may be collected next.
+- Includes: small household objects adhering to the katamari during a
+  Katamari Damacy REROLL Make a Star 1 run.
+- Excludes: a collectible that only increases an abstract score (`SYS-037`);
+  mouth-compatible food that credits DNA (`SYS-1014`); a finite growth-state
+  step from consumable terrain (`SYS-080`); adhesion of an object too large
+  for the current katamari.
+- Parameters: rolling body, object, contact, eligibility, retained attachment,
+  measured diameter and later collectible set.
+- Evidence: [Katamari Damacy REROLL decomposition](../games/g-l/katamari-damacy-reroll.md),
+  Bandai Namco's REROLL product and PS4 launch descriptions, supported by a
+  contemporary REROLL first-stage play report.
+- Novelty: first isolated for `GAME-0376`; acquired objects become part of
+  the controlled collision body instead of merely crediting a counter.
+
+## SYS-1023 — Shed attached objects after a hard rolling collision
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: when a rolling collection body strikes an obstructing object
+  or wall hard enough, some previously attached objects separate and the
+  body's measured size may decrease, without restarting the attempt.
+- Includes: a first-stage Katamari Damacy REROLL katamari losing part of its
+  collected small-object mass after a damaging impact.
+- Excludes: every harmless touch causing loss; an invented fixed loss amount;
+  total game-over on contact; a combat health bar or vehicle-body damage.
+- Parameters: obstruction, impact severity, detached objects, remaining
+  attachments and resulting size.
+- Evidence: [Katamari Damacy REROLL decomposition](../games/g-l/katamari-damacy-reroll.md),
+  first-hand written REROLL demo observation; the exact collision threshold
+  and quantity are not independently measured.
+- Novelty: first isolated for `GAME-0376`; collision can undo accumulated
+  physical body growth during the same timed rolling attempt.
+
+## SYS-1024 — Produce resources from numbered adjacent hexes
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a non-seven two-dice total, each unblocked matching terrain hex distributes its resource to every adjacent settlement owner, with each city receiving double, subject to finite bank supply.
+- Includes: all-player CATAN production after a number roll, including the printed shortage rule.
+- Excludes: a free resource from Year of Plenty; production from the desert or robber-occupied hex; a player choosing the dice result.
+- Parameters: dice total, numbered hex, resource type, adjacent buildings, bank stock, recipient and quantity.
+- Evidence: [CATAN decomposition](../games/a-f/catan.md), official base rules.
+- Novelty: first isolated for `GAME-0377`; a common stochastic trigger pays multiple spatially adjacent owners.
+
+## SYS-1025 — Replace a seven roll with discard and robber resolution
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: on a seven, suppress normal production, make every player above the hand threshold discard the required floor-half quantity, then resolve the active player's robber move and one eligible random steal.
+- Includes: CATAN's base-game seven event; each discard is the affected player's card choice.
+- Excludes: a knight card's robber move without seven-triggered hand discards; normal number production; selecting the stolen card by identity.
+- Parameters: rolled seven, pre-discard hand sizes, selected discards, robber destination, victim and random card.
+- Evidence: [CATAN decomposition](../games/a-f/catan.md), official base rules.
+- Novelty: first isolated for `GAME-0377`; one die outcome changes the entire turn's resolution and all oversized hands.
+
+## SYS-1026 — Resolve a played development-card effect
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a legal development-card play, apply that card's declared typed effect to the public board, resource hands or scoring state and remove or reveal the card as instructed.
+- Includes: CATAN knight, free Road Building placement, Year of Plenty bank resources, Monopoly transfer and victory-point reveal at a winning claim.
+- Excludes: acquiring the hidden card; ignoring normal placement legality for free roads; playing a card too early.
+- Parameters: card type, chosen target or resource, bank stock, legal road positions, transferred cards and played-knight count.
+- Evidence: [CATAN decomposition](../games/a-f/catan.md), official base rules.
+- Novelty: first isolated for `GAME-0377`; paid hidden-card acquisition branches into one declared rule effect when later committed.
+
+## SYS-1027 — Transfer longest-network and largest-army bonuses
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: update the holder of a two-point public bonus when a player first reaches its minimum qualifying connected road or played-knight count, or another player exceeds the holder under the printed tie and interruption rules.
+- Includes: CATAN Longest Road and Largest Army, including road interruption by a rival settlement.
+- Excludes: points from ordinary settlements, cities or private victory-point cards; assuming a tied rival automatically takes the card.
+- Parameters: road graph, continuous segment count, played knights, current holder, tie state and bonus points.
+- Evidence: [CATAN decomposition](../games/a-f/catan.md), official base rules.
+- Novelty: first isolated for `GAME-0377`; two visible points can move between adversaries as network or played-card leadership changes.
+
+## SYS-1028 — Roll a supported ball under tilt, gravity and inertia
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: continuously advance a ball's position and speed from current
+  playfield angle, gravity, retained motion and contact with authored course
+  surfaces, so a changed tilt changes acceleration rather than instantly
+  assigning a destination or stopping the body.
+- Includes: Super Monkey Ball 2's monkey-containing sphere rolling across a
+  tilted Story Mode stage, with edge risk and momentum through turns.
+- Excludes: `SYS-100`'s committed card move followed by automatic discrete
+  ball traversal; a one-shot launched projectile; direct grid movement;
+  collectible credit or the off-field terminal itself.
+- Parameters: body position, velocity, tilt angle, slope, collision geometry,
+  contact and update interval. Exact GameCube physics coefficients are not
+  claimed without direct play or code evidence.
+- Evidence: [Super Monkey Ball 2 decomposition](../games/s-z/super-monkey-ball-2.md),
+  original GameCube manual p. 9 and publisher-supplied Nintendo description.
+- Novelty: first isolated for `GAME-0378`; sustained control over a field
+  angle and retained ball motion make braking distance part of the route.
+
+## SYS-1029 — Add remaining-time credit when a goal stage clears
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a goal is reached while a stage clock remains positive,
+  award a completion-score contribution based on how quickly the goal was
+  reached, separately from any optional contact-collectible score.
+- Includes: Super Monkey Ball 2's Main Game score rising from bananas and
+  reaching the goal quickly in the scoped Story stage.
+- Excludes: a goal gate that merely clears without speed score; `SYS-037`'s
+  immediate collectible credit; a result bonus from finite Challenge lives.
+- Parameters: remaining time, base score, banana score, speed contribution
+  and rounding; the exact original-disc numeric formula is not asserted.
+- Evidence: [Super Monkey Ball 2 decomposition](../games/s-z/super-monkey-ball-2.md),
+  original GameCube manual p. 9.
+- Novelty: first isolated for `GAME-0378`; optional pickup credit and
+  time-dependent stage-clear credit are distinct resolution events.

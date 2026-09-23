@@ -8660,6 +8660,150 @@
       "defining": ["SYS-990", "SYS-991", "SYS-992", "CON-663"],
       "structural": ["ACT-008", "ACT-161", "SYS-215", "SYS-911", "SYS-965", "CON-183", "OBJ-029"],
       "supporting": ["INF-001", "OBJ-002", "TIM-003"]
+    },
+    "GAME-0361": {
+      "reviewed": "2026-09-22",
+      "noteEn": "The fixed three-skill creation set, visible skill-gated dialogue and retained Goodsprings faction settlement define this packet. Attribute allocation, conversation, ally recruitment, equipment, live combat and authored quest state structure it; local threat, inventory, quest and build information plus save history support it. No executable, save or audiovisual trace was observed.",
+      "noteUk": "Фіксований набір із трьох профільних навичок, видима перевірка навички в діалозі та збережене фракційне завершення Goodsprings визначають цей пакет. Розподіл характеристик, розмови, залучення союзників, спорядження, живий бій і авторський стан завдання формують його; локальні загрози, інвентар, завдання, дані персонажа й історія збережень підтримують. Executable, save та аудіовізуальний слід не спостерігали.",
+      "defining": ["ACT-497"],
+      "structural": ["ACT-161", "ACT-199", "ACT-232", "ACT-401", "SYS-215", "SYS-740", "CON-282", "CON-285", "CON-572", "OBJ-155"],
+      "supporting": ["ACT-008", "ACT-164", "ACT-183", "ACT-341", "SYS-057", "SYS-369", "SYS-379", "INF-073", "INF-115", "INF-119", "INF-125", "INF-128", "INF-148", "INF-281", "TIM-003", "TIM-007"]
+    },
+    "GAME-0362": {
+      "reviewed": "2026-09-22",
+      "noteEn": "The concealed skill/tool/lock chance, text-retained route facts and package-to-Blades successor settlement define this packet. Persistent character creation, dialogue, equipment, contextual interaction and ordered quest state structure it; random outcome, skill use, character/inventory/journal information and save history support it. No executable, save or audiovisual trace was observed.",
+      "noteUk": "Прихована ймовірність за навичкою, інструментом і замком, збережені текстові вказівки та перехід від пакунка до наступного завдання Blades визначають цей пакет. Стале створення персонажа, діалог, спорядження, контекстна взаємодія й упорядкований стан завдання формують його; випадковий результат, практика навички, дані персонажа, інвентар і журнал та історія збережень підтримують. Executable, save та аудіовізуальний слід не спостерігали.",
+      "defining": ["SYS-993"],
+      "structural": ["ACT-107", "ACT-199", "ACT-232", "ACT-238", "SYS-379", "CON-282", "OBJ-158"],
+      "supporting": ["ACT-008", "ACT-341", "SYS-004", "SYS-342", "INF-073", "INF-119", "INF-125", "INF-128", "TIM-007"]
+    },
+    "GAME-0363": {
+      "reviewed": "2026-09-22",
+      "noteEn": "The first keyless Deku Tree route is identified by Z-target focus, active shield reflection into a talk window, contextual action disclosure and a boss exit followed by a separate Spiritual Stone award. Item assignment, held defence, authored dungeon gates, earned Map/Compass layers and ordered prerequisites structure it; live combat, inventory, room visibility and health support it. No game executable or audiovisual play trace was observed.",
+      "noteUk": "Перше підземелля Деку без малих ключів визначають фокусування Z, відбиття снаряда активним щитом із нагодою для розмови, контекстна підказка дії та окреме вручення Каменя Духів після виходу з кімнати боса. Вибір предмета, утримуваний захист, авторські переходи між кімнатами, здобуті мапа й компас та порядок передумов формують маршрут; живий бій, інвентар, видима кімната й здоров’я його підтримують. Виконуваний файл гри й аудіовізуальний слід проходження не спостерігали.",
+      "defining": ["ACT-494", "SYS-994", "INF-372", "OBJ-210"],
+      "structural": ["ACT-161", "ACT-164", "ACT-341", "ACT-437", "SYS-605", "SYS-931", "CON-282", "INF-356"],
+      "supporting": ["ACT-008", "ACT-199", "SYS-037", "SYS-045", "SYS-215", "SYS-379", "SYS-578", "CON-175", "INF-073", "INF-128", "INF-179", "TIM-003"]
+    },
+    "GAME-0364": {
+      "reviewed": "2026-09-22",
+      "noteEn": "Independent stance and aim, explicit motion-sampled release, rolling pin cascade and deferred ten-frame score define the bounded original Bowling match. Frame-limited deliveries, scorecard disclosure and the separately retained Mii skill level structure it; general score maximisation and real-time motion support it. The manual supplies rules, not an executable or audiovisual play trace.",
+      "noteUk": "Окреме налаштування місця й напряму, явне відпускання кнопки під час помаху, кочення кулі зі зіткненнями кеглів і відкладений рахунок десяти фреймів визначають цю партію оригінального боулінгу. Ліміт кидків, відображення фрейму та окремо збережена майстерність Mii формують її; загальна мета збільшити рахунок і рух у реальному часі підтримують. Інструкція дає правила, а не виконуваний файл чи аудіовізуальний слід гри.",
+      "defining": ["ACT-498", "ACT-499", "SYS-995", "SYS-996"],
+      "structural": ["SYS-997", "CON-664", "INF-373"],
+      "supporting": ["OBJ-002", "TIM-003"]
+    },
+    "GAME-0365": {
+      "reviewed": "2026-09-23",
+      "noteEn": "Contextual skateboard tricks, a breakable connected score chain, independent retained Tour goals and at least one credited goal by the first run's end define this Warehouse packet. Active balance, rail carriage, trick-value context, balance limits, two-minute partial settlement and the combined HUD structure it; direct movement, score maximisation and live input support it. No PS5 executable, save or audiovisual play trace was observed.",
+      "noteUk": "Контекстні трюки на скейтборді, обривний зв’язаний ланцюг очок, окремо збережені цілі Tour та принаймні одна зарахована ціль наприкінці першого заїзду визначають цей пакет Warehouse. Активне вирівнювання, рух рейкою, контекстна цінність трюків, межі балансу, двохвилинне завершення з частковим результатом і спільний інтерфейс формують його; пряме переміщення, прагнення більшого рахунку й живе керування підтримують. Виконуваний файл PS5, збереження та аудіовізуальний слід гри не спостерігали.",
+      "defining": ["ACT-500", "SYS-975", "SYS-999", "OBJ-211"],
+      "structural": ["ACT-501", "SYS-974", "SYS-998", "CON-665", "CON-666", "INF-374"],
+      "supporting": ["ACT-008", "OBJ-002", "TIM-003"]
+    },
+    "GAME-0366": {
+      "reviewed": "2026-09-23",
+      "noteEn": "Four-limb attacks, height-sensitive guard, Arcade result routing and the full fixed-Jin ladder define this original PlayStation packet. Lateral motion, round settlement, open-plane axis, HUD and local match objective structure it; command eligibility and live timing support it. The disc was not executed.",
+      "noteUk": "Удари чотирма кінцівками, захист за рівнем удару, перехід між матчами Arcade та повна послідовність із незмінним Джином визначають цей пакет оригінальної PlayStation. Боковий рух, підсумок раунду, відкрита вісь бою, інтерфейс і мета окремого матчу формують його; допустимість команд і живий час підтримують. Диск не запускали.",
+      "defining": ["ACT-295", "ACT-296", "SYS-1000", "OBJ-212"],
+      "structural": ["ACT-008", "ACT-202", "ACT-294", "ACT-297", "SYS-215", "SYS-522", "CON-446", "CON-667", "INF-209", "INF-210", "OBJ-099"],
+      "supporting": ["CON-442", "INF-142", "TIM-003"]
+    },
+    "GAME-0367": {
+      "reviewed": "2026-09-23",
+      "noteEn": "Independent two-member squad orders, typed resistance gating with visible target layers, a held tactical pause, the retained Veetor choice and the first Normandy successor terminal define this source-bounded Mass Effect 2 opening. Cover, power use, layered combat, authored gates and dialogue structure it; ordinary movement, weapon handling, hostile pressure and checkpoint retry support it. No Xbox One build was executed.",
+      "noteUk": "Окремі накази двом напарникам, залежність дії здібностей від видимих шарів захисту цілі, тактична пауза, збережений вибір щодо Вітора й перше керування Normandy визначають цей вступний пакет Mass Effect 2 за джерелами. Укриття, здібності, пошарове зіткнення, сюжетні брами й діалог формують його; звичайний рух, зброя, тиск ворогів і повтор із контрольної точки підтримують. Видання для Xbox One не запускали.",
+      "defining": ["ACT-189", "SYS-379", "CON-668", "INF-375", "OBJ-155", "TIM-027"],
+      "structural": ["ACT-161", "ACT-183", "ACT-190", "ACT-226", "ACT-232", "SYS-215", "SYS-297", "SYS-348", "SYS-380", "SYS-913", "CON-269", "CON-282", "CON-326", "INF-119", "INF-125", "INF-148"],
+      "supporting": ["ACT-008", "ACT-164", "ACT-199", "ACT-341", "SYS-057", "SYS-369", "CON-285", "INF-073", "INF-115", "TIM-003"]
+    },
+    "GAME-0368": {
+      "reviewed": "2026-09-23",
+      "noteEn": "Live case deadlines, a scored camera shot and safe-room civilian delivery define the first Dead Rising packet. Item limits, improvised combat, authored Case succession and manual saves structure it; movement, threats and ordinary resource handling support it. The Xbox One application was not executed.",
+      "noteUk": "Живі строки справ, оцінюваний фотознімок і доставка людей до безпечної кімнати визначають цей початковий пакет Dead Rising. Обмеження речей, підручна зброя, послідовність справ і ручні збереження формують його; рух, загрози та звичайне використання ресурсів підтримують. Застосунок для Xbox One не запускали.",
+      "defining": ["ACT-502", "SYS-1001", "SYS-1002", "CON-597", "INF-376"],
+      "structural": ["ACT-131", "ACT-161", "ACT-189", "SYS-223", "SYS-299", "SYS-379", "CON-210", "CON-282", "CON-621", "INF-067", "INF-125", "OBJ-155", "TIM-007"],
+      "supporting": ["ACT-008", "ACT-164", "ACT-341", "SYS-057", "SYS-215", "SYS-222", "CON-285", "INF-073", "INF-115", "INF-119", "TIM-003"]
+    },
+    "GAME-0369": {
+      "reviewed": "2026-09-23",
+      "noteEn": "Optional feature claims, later majority contests and endgame field scoring define the two-player Carcassonne packet. Finite follower and tile supplies, frontier matching and feature joins structure it; random draw, public current state and alternating turns support it. No physical game was played.",
+      "noteUk": "Необов’язкове зайняття об’єктів, пізніша боротьба за більшість і фінальні очки за поля визначають цей пакет Carcassonne для двох. Скінченні запаси підданих і тайлів, сумісність країв та з’єднання об’єктів формують його; випадковий добір, відкритий поточний стан і чергові ходи підтримують. Фізичну партію не проводили.",
+      "defining": ["ACT-503", "SYS-1003", "SYS-1004", "CON-669", "CON-670"],
+      "structural": ["ACT-026", "SYS-034", "CON-056", "CON-058", "CON-671", "OBJ-002"],
+      "supporting": ["SYS-004", "INF-001", "INF-002", "TIM-004"]
+    },
+    "GAME-0370": {
+      "reviewed": "2026-09-23",
+      "noteEn": "Room commissioning, diagnosis policy, staged referral, compatible treatment, reputation feedback and a five-way quarterly appraisal define the first Theme Hospital packet. Hiring, autonomous people, needs and solvency structure it; pacing, hospital opening, budget display and live time support it. The original manual, not executed play, establishes the rules.",
+      "noteUk": "Проєктування кабінетів, правила неповного діагнозу, поетапні направлення, відповідне лікування, репутація та квартальна перевірка п’яти цілей визначають першу лікарню Theme Hospital. Найм, самостійний рух людей, їхні потреби й платоспроможність формують гру; керування темпом, відкриття лікарні, бюджет і перебіг часу підтримують її. Правила взято з оригінальної інструкції, гру не запускали.",
+      "defining": ["ACT-504", "ACT-505", "SYS-1005", "SYS-1006", "SYS-1007", "CON-672", "INF-377", "OBJ-213"],
+      "structural": ["ACT-139", "ACT-488", "SYS-045", "SYS-154", "SYS-198", "CON-171", "INF-072"],
+      "supporting": ["ACT-006", "ACT-487", "INF-058", "TIM-003"]
+    },
+    "GAME-0371": {
+      "reviewed": "2026-09-23",
+      "noteEn": "A moving course, a food-elicited subject response, a finite roll, one selected photo per species and Oak's comparative category report define this original Pokémon Snap Beach packet. The live shutter and sensor structure a fleeting opportunity; autonomous movement, exposed results and real-time input support it. The original manual, not direct play, establishes the rules.",
+      "noteUk": "Рухомий маршрут, реакція покемона на їжу, обмежена плівка, одне вибране фото кожного виду й порівняльний звіт Оука визначають цей пакет Beach з оригінальної Pokémon Snap. Живий спуск затвора та датчик об’єкта формують коротку нагоду для знімка; самостійний рух, видимі результати й перебіг часу підтримують її. Правила взято з інструкції, гру не запускали.",
+      "defining": ["ACT-506", "ACT-507", "SYS-1008", "SYS-1009", "CON-673", "CON-674", "CON-675", "OBJ-214"],
+      "structural": ["ACT-502", "INF-378"],
+      "supporting": ["SYS-045", "INF-299", "TIM-003"]
+    },
+    "GAME-0372": {
+      "reviewed": "2026-09-23",
+      "noteEn": "Fret-plus-strum judgement, a scrolling authored chart, streak scoring, phrase-earned Star Power, long holds, Rock Meter survival and the song endpoint define this original PS3 Guitar Hero III packet. Activation timing and the chart display structure it; the result breakdown and real-time clock support it. The publisher manual, not direct play, establishes the rules.",
+      "noteUk": "Поєднання ладів і удару по струнах, рухомий заданий графік, очки за серію, Star Power із повних зіркових послідовностей, довгі ноти, виживання за Rock Meter і кінець пісні визначають цей пакет Guitar Hero III для PS3. Вибір часу активації й доріжка нот формують дії; екран результатів і перебіг часу їх підтримують. Правила взято з інструкції видавця, гру не запускали.",
+      "defining": ["ACT-508", "SYS-1010", "SYS-1011", "SYS-1012", "SYS-1013", "CON-676", "OBJ-215"],
+      "structural": ["ACT-509", "INF-379"],
+      "supporting": ["INF-299", "TIM-003"]
+    },
+    "GAME-0373": {
+      "reviewed": "2026-09-23",
+      "noteEn": "Mouth-compatible feeding, DNA-funded body revision through a mate, unlocked parts, growth and the chosen successor-stage gate define this original Spore Cell packet. Cell contact, live state display and autonomous neighbours structure the choices; direct steering and time support them. The original EA manual, not direct play, establishes the rules.",
+      "noteUk": "Живлення через сумісний рот, зміна будови за ДНК після зустрічі з партнером, відкриття частин, зростання й вибраний перехід до наступного етапу визначають цей пакет Cell оригінальної Spore. Контакт клітин, показники стану й самостійний рух сусідів формують вибір; безпосереднє керування та перебіг часу підтримують його. Правила взято з інструкції EA, гру не запускали.",
+      "defining": ["ACT-510", "ACT-511", "SYS-1014", "SYS-1015", "SYS-1016", "SYS-1017", "SYS-1019", "CON-677", "CON-678", "OBJ-216"],
+      "structural": ["SYS-1018", "INF-380"],
+      "supporting": ["ACT-008", "SYS-045", "TIM-003"]
+    },
+    "GAME-0374": {
+      "reviewed": "2026-09-23",
+      "noteEn": "A junction-started open-city Race, optional streets to one banner, live destination cues and first-place licence settlement define this original Burnout Paradise packet. Stunt Boost and road contact structure path risk. The original EA Xbox 360 manual, not direct play, establishes the rules.",
+      "noteUk": "Звичайні перегони від позначеного перехрестя, вільний вибір вулиць до одного фінішу, поточні навігаційні підказки й зарахування першого місця до посвідчення визначають цей пакет оригінальної Burnout Paradise. Заряджене маневрами прискорення та дорожні зіткнення впливають на ризик маршруту. Правила взято з інструкції EA для Xbox 360, гру не запускали.",
+      "defining": ["ACT-293", "SYS-1020", "INF-381", "OBJ-134"],
+      "structural": ["ACT-290", "ACT-309", "SYS-320", "SYS-691", "SYS-765"],
+      "supporting": ["SYS-519", "INF-206", "TIM-003"]
+    },
+    "GAME-0375": {
+      "reviewed": "2026-09-23",
+      "noteEn": "Species-specific appearance, visit and residence gates, their Condition Status disclosure and one coloured resident define the first Whirlm packet. Clearing junk changes the garden; live visitor movement supports the sequence. Grass sowing is documented but not proven necessary for this terminal. The original Microsoft booklet, not direct play, establishes the rules.",
+      "noteUk": "Видові умови появи, візиту й поселення, їхній показ у Condition Status та один кольоровий мешканець визначають шлях першого Whirlm. Прибирання сміття змінює сад; живий рух гостя підтримує послідовність. Посів трави задокументовано, але його необхідність саме для цієї мети не доведено. Правила взято з оригінальної інструкції Microsoft, гру не запускали.",
+      "defining": ["SYS-1021", "CON-679", "INF-382", "OBJ-217"],
+      "structural": ["ACT-512"],
+      "supporting": ["TIM-003"]
+    },
+    "GAME-0376": {
+      "reviewed": "2026-09-23",
+      "noteEn": "Physical attachment and growth, relative-size pickup and a size-qualified star before the deadline define this PS4 REROLL first-stage replay. Possible collision shedding, a visible size/target/timer and the deadline structure route decisions; direct steering and live time support them. The stage is reconstructed from publisher material and observations of other REROLL platforms, not direct PS4 play. Exact PS4 numeric limits remain unverified.",
+      "noteUk": "Фізичне прикріплення речей і зростання кульки, підбирання за відносним розміром та зоря після досягнення мети до завершення часу визначають повторне проходження першого етапу PS4 REROLL. Можлива втрата здобичі від удару, показники розміру й часу та крайній строк формують вибір маршруту; пряме керування й живий перебіг часу його підтримують. Запис відтворено за матеріалами видавця й спостереженнями інших платформ REROLL, а не за грою на PS4. Точні числові межі PS4 не перевірено.",
+      "defining": ["SYS-1022", "CON-680", "OBJ-218"],
+      "structural": ["SYS-1023", "CON-068", "INF-383"],
+      "supporting": ["ACT-008", "TIM-003"]
+    },
+    "GAME-0377": {
+      "reviewed": "2026-09-23",
+      "noteEn": "Shared numbered-hex production, voluntary resource exchange, connected construction and the own-turn ten-point race define the physical four-player base game. The robber, development cards, harbours, piece costs and transferable bonuses reshape those decisions. Chance, private hands and alternating turns support the complete publisher-rules packet; no physical match was observed.",
+      "noteUk": "Спільне виробництво за номерами гексів, добровільний обмін ресурсів, зв’язане будівництво та гонка до десяти очок на власному ході визначають базову фізичну партію для чотирьох. Розбійник, картки розвитку, гавані, вартість фігур і перехідні бонуси змінюють ці рішення. Випадковість, приховані руки й почергові ходи підтримують повний пакет правил видавця; фізичної партії не проводили.",
+      "defining": ["ACT-513", "ACT-515", "SYS-1024", "CON-681", "OBJ-219"],
+      "structural": ["ACT-514", "ACT-516", "ACT-517", "ACT-518", "SYS-1025", "SYS-1026", "SYS-1027", "CON-682", "CON-683", "CON-684"],
+      "supporting": ["SYS-004", "INF-002", "INF-003", "INF-384", "TIM-004"]
+    },
+    "GAME-0378": {
+      "reviewed": "2026-09-23",
+      "noteEn": "The continuous stage tilt, gravity-and-inertia response and timed goal entry define one original GameCube Story Mode attempt. Banana pickups, off-field failure and time-sensitive score alter route and risk choices; the deadline, live feedback and real-time update support the complete packet. The stage is reconstructed from the original manual and publisher description, not direct disc play.",
+      "noteUk": "Безперервний нахил траси, реакція кулі на тяжіння й інерцію та вхід у фініш до завершення часу визначають одну спробу сюжетного режиму на оригінальній консолі GameCube. Банани, падіння за край і очки за швидкість змінюють вибір маршруту й ризику; обмеження часу, поточні показники та безперервний перебіг подій підтримують цей пакет. Трасу реконструйовано за оригінальним посібником і описом видавця, а не за безпосередньою грою з диска.",
+      "defining": ["ACT-519", "SYS-1028", "OBJ-220"],
+      "structural": ["SYS-037", "SYS-1029", "CON-685"],
+      "supporting": ["CON-068", "INF-385", "TIM-003"]
     }
   }
 }

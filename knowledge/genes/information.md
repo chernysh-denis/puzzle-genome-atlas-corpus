@@ -7482,3 +7482,290 @@
 - Novelty: first isolated for `GAME-0357`; prior wanted-state displays are
   inseparable from a calculated route or citation/arrest taxonomy, while this
   boundary admits the compact tier alone.
+
+## INF-372 — Context icon and focus mark disclose the current world action
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the live interface changes its action icon or focus mark with
+  the actor's position and addressed target, showing the currently legal
+  contextual command before it is pressed rather than requiring the player
+  to memorise a fixed action for every fixture and actor.
+- Includes: Ocarina of Time's A-button OPEN, SPEAK and CHECK prompts and Navi's
+  target triangle or focus cursor for a nearby actor or relevant object in
+  the bounded Kokiri Forest and Great Deku Tree route.
+- Excludes: a static inventory item icon; a prompt shown only after an action
+  has already resolved; a map revealing unopened rooms; undisclosed future
+  actions; the player command that actually opens or speaks.
+- Parameters: actor position, target eligibility, focus mark, prompt text,
+  current action, occlusion, acquisition and expiry.
+- Evidence: [Ocarina of Time decomposition](../games/s-z/the-legend-of-zelda-ocarina-of-time.md),
+  using Nintendo's original N64 manual pages 11–18.
+- Novelty: first isolated for `GAME-0363`; one live field-facing disclosure
+  switches the legal meaning of the same control across actors and fixtures.
+
+## INF-373 — Show pinfall, frame progress and pending bowling score
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the bowling display exposes the standing pin field, frame and
+  delivery results, and the accumulating score while an unresolved strike or
+  spare may still depend on later balls.
+- Includes: the original Wii Sports Bowling lane and ten-frame result display
+  for one selected Mii.
+- Excludes: revealing the future physical path of a ball; displaying the
+  hidden exact skill-adjustment formula; an unconditional fully known final
+  score before pending bonuses have settled.
+- Parameters: visible pins, frame index, delivery mark, strike, spare,
+  pending bonus, current score and final score.
+- Evidence: [Wii Sports decomposition](../games/s-z/wii-sports.md), using
+  Nintendo's Bowling instructions and ten-frame scoring corroboration.
+- Novelty: first isolated for `GAME-0364`; frame-indexed pin and bonus state
+  is disclosed separately from the later performance skill adjustment.
+
+## INF-374 — Expose a live trick line, balance, clock and park goals
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the skating interface shows the current trick string and
+  provisional score, balance indicators during eligible sustained tricks,
+  remaining park-run time and the park's declared goals or their credited
+  state, so the player can revise the line and route before settlement.
+- Includes: default HUD and Tour park-goal display in Tony Hawk's Pro Skater
+  1 + 2 Warehouse.
+- Excludes: guaranteeing a successful future landing; an exact predicted
+  multiplier for undiscovered gaps; revealing every hidden collectible;
+  the option to hide individual HUD elements.
+- Parameters: trick string, provisional and banked score, balance meter,
+  remaining time, goal list, credited state and display settings.
+- Evidence: [Tony Hawk's Pro Skater 1 + 2 decomposition](../games/s-z/tony-hawks-pro-skater-1-plus-2.md),
+  using Activision's HUD accessibility settings and Tours park-goal display.
+- Novelty: first isolated for `GAME-0365`; it joins unbanked line risk with
+  the remaining session window and independently tracked park goals.
+
+## INF-375 — Expose typed target protection before power selection
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the combat target display separates a selected hostile's
+  remaining health from its named shield, armour or barrier resistance,
+  allowing the player to judge which current attacks or powers can affect
+  the protected target before committing a power.
+- Includes: Mass Effect 2's target bar and contextual power-wheel feedback
+  during the bounded Lazarus and Freedom's Progress fights.
+- Excludes: disclosing exact future enemy actions; an untyped single health
+  bar; a power's hidden numerical damage; only learning protection after a
+  failed cast.
+- Parameters: selected target, protection class, remaining layer, health,
+  available power, contextual suitability and display update.
+- Evidence: [Mass Effect 2 (Legendary Edition) decomposition](../games/m-r/mass-effect-2-legendary-edition.md),
+  using the official Xbox manual's HUD and target-bar rules.
+- Novelty: first isolated for `GAME-0367`; the interface discloses the typed
+  resistance needed for an ability-legality decision, not merely target health.
+
+## INF-376 — Expose camera readiness and subject-scoring cues before capture
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the camera view exposes remaining charge, post-shot processing
+  readiness and visible target or PP cues for the currently framed scene,
+  allowing a player to decide whether and when a shot is worth committing.
+- Includes: Dead Rising's battery, processing gauge, target marker and PP
+  sensor during a live rooftop photograph opportunity.
+- Excludes: revealing exact future subject movement; showing only the final
+  score after a photograph; ordinary life or item-slot indicators; photo
+  capture and scoring rules themselves.
+- Parameters: battery, processing state, target marker, PP sensor, framing,
+  subject, feedback cadence and preview uncertainty.
+- Evidence: [Dead Rising decomposition](../games/a-f/dead-rising.md), using
+  Capcom's original camera-view manual.
+- Novelty: first isolated for `GAME-0368`; this is a pre-capture information
+  surface for an observation-reward decision, not a combat target bar.
+
+## INF-377 — Expose hospital referrals, queues and quarterly criteria
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: briefing, patient/queue, casebook and status panels disclose
+  current diagnosis/referral pressure, service state and progress toward each
+  announced quarterly winning or losing criterion before intervention.
+- Includes: Theme Hospital's first-level Mission Briefing, room Queue Panel,
+  Casebook and five-category Progress Report.
+- Excludes: exact unseen patient arrival sequence; complete hidden treatment
+  probabilities or reputation weights; the underlying medical resolution.
+- Parameters: patient condition, diagnosis state, room, queue length,
+  criterion, target, progress bar, quarter and loss warning.
+- Evidence: [Theme Hospital decomposition](../games/s-z/theme-hospital.md),
+  using the original PC manual's briefing and business/queue panels.
+- Novelty: first isolated for `GAME-0370`; the operating display joins
+  patient-level referral decisions with the institution's five-way appraisal.
+
+## INF-378 — Viewfinder discloses subject recognition and remaining film
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during a live photo excursion, the camera display shows the
+  remaining exposure allowance and a focus sensor that identifies a
+  recognised subject, marks an unreported subject as new, or shows an
+  unidentified target without revealing its later appraisal score.
+- Includes: original Pokémon Snap's red Focus Sensor, `NEW` and `?` cues
+  and remaining-film display during Beach photography.
+- Excludes: Dead Rising's battery and processing gauge (`INF-376`); Oak's
+  later score breakdown (`INF-299`); an omniscient list of future subjects.
+- Parameters: focus state, sensor colour, subject identity, new/unidentified
+  cue, remaining exposures and HUD update timing.
+- Evidence: [Pokémon Snap decomposition](../games/m-r/pokemon-snap.md), using
+  Nintendo's original instruction booklet, pp. 13–15.
+- Novelty: first isolated for `GAME-0371`; live capture eligibility and
+  subject-recognition uncertainty share one viewfinder surface.
+
+## INF-379 — Show approaching note lanes and live performance gauges
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a scrolling coloured chart discloses near-future note positions
+  and simultaneous or sustained form, while live score, multiplier, Rock Meter
+  and Star Power displays expose the state used for timing and survival.
+- Includes: Guitar Hero III's fretboard and performance display in a solo song.
+- Excludes: showing the entire song chart before play; post-song statistics;
+  soundtrack rhythm with no explicit note judgement surface.
+- Parameters: scroll horizon, lane colour, chord/sustain marking, score,
+  streak multiplier, Rock Meter state and Star Power charge.
+- Evidence: [Guitar Hero III decomposition](../games/g-l/guitar-hero-iii-legends-of-rock.md),
+  Activision's PlayStation 3 instruction booklet, pp. 8–10.
+- Novelty: first isolated for `GAME-0372`; previewed chart events and live
+  survival/scoring state jointly guide the next fret-strum commitment.
+
+## INF-380 — Expose cell growth, DNA, health and collected parts
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a live cell-stage display separates growth progress from
+  spendable DNA and current health, while the collection and editor expose
+  discovered part availability for the next body revision.
+- Includes: Spore's Cell-stage Progress Bar, DNA and Health meter, My
+  Collection part list and Cell Creator palette.
+- Excludes: exact undisclosed food-to-growth coefficients; a complete view of
+  unseen future parts; treating health and DNA as interchangeable resources.
+- Parameters: progress, milestones, DNA balance, health, collected part types
+  and editor availability.
+- Evidence: [Spore decomposition](../games/s-z/spore.md), original EA manual,
+  pp. 6–7, 18–19 and 30–31.
+- Novelty: first isolated for `GAME-0373`.
+
+## INF-381 — Guide an open-city race by destination bearing and junction cues
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during a point-to-point race without a mandatory street route,
+  the interface exposes the destination bearing, the driven vehicle's current
+  heading, remaining distance and suggested turn at an approaching junction
+  while leaving alternative legal streets available to the player.
+- Includes: Burnout Paradise's original Xbox 360 offline ordinary `Race`
+  compass, distance counter, flashing road signs and Paradise City map.
+- Excludes: `INF-204` speed-and-gear driving HUD; an imposed checkpoint ribbon;
+  a completed result or omniscient rival path; pre-entry event eligibility.
+- Parameters: destination, current heading, distance, next junction,
+  recommendation, map scale and chosen route.
+- Evidence: [Burnout Paradise decomposition](../games/a-f/burnout-paradise.md),
+  original Electronic Arts Xbox 360 manual, pp. 2, 4 and 6.
+- Novelty: first isolated for `GAME-0374`; a live destination vector in an
+  unconstrained street network is not the same boundary as authored driving-
+  line guidance coupled to speed and gear (`INF-204`).
+
+## INF-382 — Show a highlighted species' staged garden requirements
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a highlighted piñata's information view exposes its Condition Status, allowing the player to distinguish what is needed for appearance, visit and residence before choosing a garden edit.
+- Includes: pressing Y on a piñata in or around the original Viva Piñata garden and checking the Condition Status tab.
+- Excludes: revealing future species before they are available; calculating a guaranteed arrival time; claiming undocumented Whirlm thresholds from the general manual.
+- Parameters: highlighted piñata, species, stage, condition display, current satisfaction and unknown requirement.
+- Evidence: [Viva Piñata decomposition](../games/s-z/viva-pinata.md), original Xbox 360 booklet pp. 14 and 16–17.
+- Novelty: first isolated for `GAME-0375`; it exposes species-specific staged attraction rules, not general resident mood or crop water.
+
+## INF-383 — Show rolling diameter against target and remaining time
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: during a timed rolling-size stage, the interface discloses the
+  katamari's current measured size, the stage's required size and the time
+  remaining, so the player can judge whether a new object class or final
+  target is reachable before expiry.
+- Includes: the size and countdown readouts during Katamari Damacy REROLL
+  Make a Star 1.
+- Excludes: an unshown exact threshold for each individual item; a final
+  result screen alone; a generic score without physical size; an asserted
+  identical time allowance across the original PS2 and all REROLL releases.
+- Parameters: current diameter, target diameter, remaining time and display
+  precision.
+- Evidence: [Katamari Damacy REROLL decomposition](../games/g-l/katamari-damacy-reroll.md),
+  first-hand REROLL stage report and the original publisher's timed-size
+  description; exact PS4 display details await direct inspection.
+- Novelty: first isolated for `GAME-0376`; two live measurements jointly
+  guide size-ordered route choice under a deadline.
+
+## INF-384 — Public production board with private resource hands
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: players can inspect the shared numbered terrain, robber,
+  buildings, roads, harbours, piece reserves and disclosed points while the
+  identities of opponents' held resource and development cards stay private.
+- Includes: CATAN's face-up fixed beginner board and building-cost cards
+  alongside concealed player hands and development-card deck.
+- Excludes: `INF-001`'s fully visible decision state; revealing every rival
+  card merely because its hand count is observable; concealing hex numbers.
+- Parameters: public board state, visible card counts, own hand, rival hands,
+  hidden point cards and declared cost chart.
+- Evidence: [CATAN decomposition](../games/a-f/catan.md), official base rules.
+- Novelty: first isolated for `GAME-0377`; an exact public production network
+  coexists with changing, player-specific private economic state.
+
+## INF-385 — Show a rolling stage, speed, clock and optional score
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a live stage interface shows the rolling body and visible
+  nearby course together with remaining time, current speed, stage identity,
+  score and collectible tally, while leaving the safe future route for the
+  player to judge.
+- Includes: Super Monkey Ball 2's scoped Story Mode main-game screen with
+  the monkey ball, platform, timer, speed, score and bananas.
+- Excludes: a full solved path overlay; `INF-347`'s finite-life platform HUD;
+  a results-only score report; Challenge Mode's monkeys-remaining count as
+  if it were part of this Story attempt.
+- Parameters: camera region, stage label, time, speed, score, banana count and
+  goal visibility.
+- Evidence: [Super Monkey Ball 2 decomposition](../games/s-z/super-monkey-ball-2.md),
+  original GameCube manual p. 9.
+- Novelty: first isolated for `GAME-0378`; the interface joins a physical
+  rolling-state cue with the live goal deadline and optional score economy.

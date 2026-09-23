@@ -149,6 +149,7 @@
 - [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
 - [`GAME-0136` — "Surviving Mars: Relaunched"](../games/s-z/surviving-mars.md)
 - [`GAME-0004` — Tetris](../games/s-z/tetris.md)
+- [`GAME-0370` — Theme Hospital](../games/s-z/theme-hospital.md)
 - [`GAME-0133` — Timberborn](../games/s-z/timberborn.md)
 - [`GAME-0030` — Tin Hearts](../games/s-z/tin-hearts.md)
 - [`GAME-0134` — "Workers & Resources: Soviet Republic"](../games/s-z/workers-resources-soviet-republic.md)
@@ -250,6 +251,7 @@
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
 - [`GAME-0161` — Dead by Daylight](../games/a-f/dead-by-daylight.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
+- [`GAME-0368` — Dead Rising](../games/a-f/dead-rising.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0310` — "DEATH STRANDING DIRECTOR’S CUT"](../games/a-f/death-stranding-directors-cut.md)
 - [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
@@ -270,6 +272,7 @@
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
+- [`GAME-0361` — Fallout: New Vegas](../games/a-f/fallout-new-vegas.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0091` — Fez](../games/a-f/fez.md)
@@ -296,6 +299,7 @@
 - [`GAME-0099` — HyperRogue](../games/g-l/hyperrogue.md)
 - [`GAME-0215` — It Takes Two](../games/g-l/it-takes-two.md)
 - [`GAME-0350` — "Jet Set Radio"](../games/g-l/jet-set-radio.md)
+- [`GAME-0376` — Katamari Damacy REROLL](../games/g-l/katamari-damacy-reroll.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
@@ -305,6 +309,7 @@
 - [`GAME-0096` — Maquette](../games/m-r/maquette.md)
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
 - [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
+- [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
@@ -370,6 +375,7 @@
 - [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0360` — "Space Invaders"](../games/s-z/space-invaders.md)
 - [`GAME-0157` — Split Fiction](../games/s-z/split-fiction.md)
+- [`GAME-0373` — Spore](../games/s-z/spore.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
@@ -384,12 +390,15 @@
 - [`GAME-0094` — Superliminal](../games/s-z/superliminal.md)
 - [`GAME-0313` — Tank 1990](../games/s-z/tank-1990.md)
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
+- [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
+- [`GAME-0362` — "The Elder Scrolls III: Morrowind"](../games/s-z/the-elder-scrolls-iii-morrowind.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 - [`GAME-0107` — The Pedestrian](../games/s-z/the-pedestrian.md)
@@ -401,6 +410,7 @@
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
 - [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
+- [`GAME-0365` — Tony Hawk’s Pro Skater 1 + 2](../games/s-z/tony-hawks-pro-skater-1-plus-2.md)
 - [`GAME-0104` — TUNIC](../games/s-z/tunic.md)
 - [`GAME-0268` — Undertale](../games/s-z/undertale.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
@@ -823,6 +833,7 @@
 
 ### Ігри-носії
 
+- [`GAME-0369` — Carcassonne](../games/a-f/carcassonne.md)
 - [`GAME-0020` — Dorfromantik](../games/a-f/dorfromantik.md)
 
 ## ACT-027
@@ -2595,6 +2606,7 @@
 - [`GAME-0264` — Disco Elysium - The Final Cut](../games/a-f/disco-elysium-the-final-cut.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0105` — Outer Wilds](../games/m-r/outer-wilds.md)
+- [`GAME-0362` — "The Elder Scrolls III: Morrowind"](../games/s-z/the-elder-scrolls-iii-morrowind.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 - [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
@@ -3205,6 +3217,7 @@
 - [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0173` — Blue Prince](../games/a-f/blue-prince.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
+- [`GAME-0368` — Dead Rising](../games/a-f/dead-rising.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
@@ -3405,6 +3418,7 @@
 - [`GAME-0130` — Frostpunk](../games/a-f/frostpunk.md)
 - [`GAME-0335` — RollerCoaster Tycoon Deluxe](../games/m-r/rollercoaster-tycoon-deluxe.md)
 - [`GAME-0166` — Sid Meier’s Civilization VI](../games/s-z/sid-meiers-civilization-vi.md)
+- [`GAME-0370` — Theme Hospital](../games/s-z/theme-hospital.md)
 - [`GAME-0133` — Timberborn](../games/s-z/timberborn.md)
 - [`GAME-0134` — "Workers & Resources: Soviet Republic"](../games/s-z/workers-resources-soviet-republic.md)
 
@@ -3937,6 +3951,7 @@
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
+- [`GAME-0368` — Dead Rising](../games/a-f/dead-rising.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
@@ -3952,6 +3967,7 @@
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
+- [`GAME-0361` — Fallout: New Vegas](../games/a-f/fallout-new-vegas.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
@@ -3974,6 +3990,7 @@
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
 - [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
+- [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
@@ -4030,6 +4047,7 @@
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
@@ -4120,6 +4138,7 @@
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
+- [`GAME-0368` — Dead Rising](../games/a-f/dead-rising.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
@@ -4129,6 +4148,7 @@
 - [`GAME-0352` — DOOM (1993)](../games/a-f/doom-1993.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
+- [`GAME-0361` — Fallout: New Vegas](../games/a-f/fallout-new-vegas.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
@@ -4140,6 +4160,7 @@
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
+- [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
@@ -4169,6 +4190,7 @@
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
@@ -4581,6 +4603,7 @@
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
 - [`GAME-0353` — "Deus Ex: Game of the Year Edition"](../games/a-f/deus-ex-game-of-the-year-edition.md)
+- [`GAME-0361` — Fallout: New Vegas](../games/a-f/fallout-new-vegas.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
@@ -4592,6 +4615,7 @@
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
+- [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
@@ -4782,10 +4806,12 @@
 - [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
 - [`GAME-0204` — "Crusader Kings III"](../games/a-f/crusader-kings-iii.md)
+- [`GAME-0368` — Dead Rising](../games/a-f/dead-rising.md)
 - [`GAME-0264` — Disco Elysium - The Final Cut](../games/a-f/disco-elysium-the-final-cut.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
 - [`GAME-0182` — Hearts of Iron IV](../games/g-l/hearts-of-iron-iv.md)
 - [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)
+- [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0317` — StarCraft II](../games/s-z/starcraft-ii.md)
 - [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
@@ -4834,6 +4860,7 @@
 - [`GAME-0309` — "Mario Kart 8 Deluxe"](../games/m-r/mario-kart-8-deluxe.md)
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
 - [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
+- [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 - [`GAME-0355` — Metroid Prime](../games/m-r/metroid-prime.md)
 - [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
@@ -5086,6 +5113,7 @@
 - [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
+- [`GAME-0361` — Fallout: New Vegas](../games/a-f/fallout-new-vegas.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
@@ -5095,6 +5123,7 @@
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
+- [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
@@ -5114,8 +5143,10 @@
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0331` — Starfield](../games/s-z/starfield.md)
+- [`GAME-0362` — "The Elder Scrolls III: Morrowind"](../games/s-z/the-elder-scrolls-iii-morrowind.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
@@ -5237,6 +5268,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
+- [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
@@ -5780,6 +5812,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
+- [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
@@ -5927,10 +5960,13 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 - [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
 - [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
+- [`GAME-0361` — Fallout: New Vegas](../games/a-f/fallout-new-vegas.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
+- [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0331` — Starfield](../games/s-z/starfield.md)
+- [`GAME-0362` — "The Elder Scrolls III: Morrowind"](../games/s-z/the-elder-scrolls-iii-morrowind.md)
 - [`GAME-0343` — The Secret of Monkey Island](../games/s-z/the-secret-of-monkey-island.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 
@@ -6072,6 +6108,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
+- [`GAME-0362` — "The Elder Scrolls III: Morrowind"](../games/s-z/the-elder-scrolls-iii-morrowind.md)
 
 ## ACT-240
 
@@ -7143,6 +7180,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 ### Ігри-носії
 
 - [`GAME-0195` — BeamNG.drive](../games/a-f/beamng-drive.md)
+- [`GAME-0374` — Burnout Paradise](../games/a-f/burnout-paradise.md)
 - [`GAME-0276` — Forza Horizon 5](../games/a-f/forza-horizon-5.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0316` — Gran Turismo](../games/g-l/gran-turismo.md)
@@ -7228,6 +7266,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 ### Ігри-носії
 
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
+- [`GAME-0374` — Burnout Paradise](../games/a-f/burnout-paradise.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0309` — "Mario Kart 8 Deluxe"](../games/m-r/mario-kart-8-deluxe.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
@@ -7257,6 +7296,7 @@ Ryu на стороні P1, Luke під керуванням CPU і Classic cont
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
+- [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 
 ## ACT-295
@@ -7286,6 +7326,7 @@ Ryu на стороні P1, Luke під керуванням CPU і Classic cont
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
 - [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
+- [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 
 ## ACT-296
@@ -7309,6 +7350,7 @@ Drive Parry, броню атаки, покроковий захист або п�
 
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
+- [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 
 ## ACT-297
@@ -7332,6 +7374,7 @@ Drive Parry, броню атаки, покроковий захист або п�
 
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
+- [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 
 ## ACT-298
@@ -7585,6 +7628,7 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 ### Ігри-носії
 
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
+- [`GAME-0374` — Burnout Paradise](../games/a-f/burnout-paradise.md)
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
@@ -8287,6 +8331,7 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 - [`GAME-0359` — "Crimson Skies: High Road to Revenge"](../games/a-f/crimson-skies-high-road-to-revenge.md)
 - [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
+- [`GAME-0368` — Dead Rising](../games/a-f/dead-rising.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
@@ -8300,6 +8345,7 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0269` — DREDGE](../games/a-f/dredge.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
+- [`GAME-0361` — Fallout: New Vegas](../games/a-f/fallout-new-vegas.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
@@ -8311,6 +8357,7 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
+- [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0339` — Metal Gear Solid](../games/m-r/metal-gear-solid.md)
@@ -8335,8 +8382,10 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 - [`GAME-0331` — Starfield](../games/s-z/starfield.md)
+- [`GAME-0362` — "The Elder Scrolls III: Morrowind"](../games/s-z/the-elder-scrolls-iii-morrowind.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
@@ -9610,6 +9659,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 ### Ігри-носії
 
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
+- [`GAME-0361` — Fallout: New Vegas](../games/a-f/fallout-new-vegas.md)
 
 ## ACT-402
 
@@ -10390,6 +10440,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 - [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0344` — "Prince of Persia: The Sands of Time"](../games/m-r/prince-of-persia-the-sands-of-time.md)
+- [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 
 ## ACT-438
 
@@ -11428,6 +11479,7 @@ Feed і завершальний Bite по придатній людині чи 
 ### Ігри-носії
 
 - [`GAME-0335` — RollerCoaster Tycoon Deluxe](../games/m-r/rollercoaster-tycoon-deluxe.md)
+- [`GAME-0370` — Theme Hospital](../games/s-z/theme-hospital.md)
 
 ## ACT-488
 
@@ -11449,6 +11501,7 @@ Feed і завершальний Bite по придатній людині чи 
 ### Ігри-носії
 
 - [`GAME-0335` — RollerCoaster Tycoon Deluxe](../games/m-r/rollercoaster-tycoon-deluxe.md)
+- [`GAME-0370` — Theme Hospital](../games/s-z/theme-hospital.md)
 
 ## ACT-489
 
@@ -11575,6 +11628,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 ### Ігри-носії
 
 - [`GAME-0355` — Metroid Prime](../games/m-r/metroid-prime.md)
+- [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 
 ## ACT-495
 
@@ -11617,3 +11671,487 @@ Sam Fisher підіймає непритомного охоронця, пере�
 ### Ігри-носії
 
 - [`GAME-0359` — "Crimson Skies: High Road to Revenge"](../games/a-f/crimson-skies-high-road-to-revenge.md)
+
+## ACT-497
+
+- Назва: Підтвердити фіксований набір різних стартових профільних навичок
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+До початку кампанії гравець обирає й підтверджує точно оголошену кількість різних навичок із ширшого списку; кожна вибрана навичка отримує початковий профільний бонус без витрати числового запасу очок.
+
+### Включає
+
+Вибір Explosives, Medicine і Speech як трьох tagged skills у Fallout: New Vegas перед виходом із послідовності створення персонажа Doc Mitchell.
+
+### Виключає
+
+Розподіл числових очок характеристик; вибір класу; optional traits; витрачання пізнішого skill або perk point; тренування активного агента; тимчасовий бонус спорядження.
+
+### Ігри-носії
+
+- [`GAME-0361` — Fallout: New Vegas](../games/a-f/fallout-new-vegas.md)
+
+## ACT-498
+
+- Назва: Налаштувати місце та напрям перед кидком
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Перед випуском кулі на доріжку гравець перемикається між налаштуванням місця збоку та кута прицілу й окремо змінює обидва параметри, ще не починаючи рух кулі.
+
+### Включає
+
+Вибір місця та напряму за допомогою хрестовини й кнопки A в оригінальному боулінгу Wii Sports.
+
+### Виключає
+
+Прицілювання з нерухомої пускової установки; керування кулею після випуску; вибір напряму вільного кидка без окремого налаштування місця біля доріжки.
+
+### Ігри-носії
+
+- [`GAME-0364` — Wii Sports](../games/s-z/wii-sports.md)
+
+## ACT-499
+
+- Назва: Випустити кулю рухом руки у вибрану мить
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Утримуючи кнопку кидка, гравець робить фізичний помах; її відпускання в певну мить задає початковий рух кулі, на який впливають помах і поворот зап’ястка.
+
+### Включає
+
+Утримування B, помах пультом Wii Remote, відпускання B поблизу нижньої точки та необов’язковий поворот зап’ястка в оригінальному боулінгу Wii Sports.
+
+### Виключає
+
+Клацання по нерухомій пусковій установці; заряджений постріл лише кнопкою; пряме керування кулею після випуску; автоматичний випуск у нижній точці помаху.
+
+### Ігри-носії
+
+- [`GAME-0364` — Wii Sports](../games/s-z/wii-sports.md)
+
+## ACT-500
+
+- Назва: Обирати трюк і переходити до наступного без розриву руху
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Керуючи рухомим скейтером, гравець вибирає допустиму комбінацію напряму й кнопки для поточного стану в повітрі, на рейці чи на землі та може перейти через мануал або розворот до іншого допустимого трюку, не підсумовуючи відразу весь зв’язаний ланцюг.
+
+### Включає
+
+Керування трюками з переворотом дошки, захватом і ковзанням рейкою на PlayStation, напрямленими Manual і Nose Manual, обертанням у повітрі та продовженням через Revert у стандартному наборі рухів Tony Hawk's Pro Skater 1 + 2 в Warehouse Tour.
+
+### Виключає
+
+Постійну зміну слотів трюків персонажа; автоматичний вибір трюку; фіксовану серію бойових ударів; очки без успішно виконаного трюку; старі набори рухів Classic THPS1 або Classic THPS2.
+
+### Ігри-носії
+
+- [`GAME-0365` — Tony Hawk’s Pro Skater 1 + 2](../games/s-z/tony-hawks-pro-skater-1-plus-2.md)
+
+## ACT-501
+
+- Назва: Вирівнювати дошку під час тривалого трюку
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Поки триває ковзання рейкою або мануал, гравець коригує баланс рухомого скейтера за показаним станом, щоб зберегти трюк і зв’язаний ланцюг до добровільного виходу з нього.
+
+### Включає
+
+Активне вирівнювання під час ковзання рейкою чи мануалу в стандартних правилах Warehouse Tour без допоміжних режимів Tony Hawk's Pro Skater 1 + 2.
+
+### Виключає
+
+Допоміжні режими Perfect Rail Balance і Perfect Manual Balance; одноразовий вибір стійки; саме лише спостереження за індикатором; загальне відновлення здоров’я чи витривалості.
+
+### Ігри-носії
+
+- [`GAME-0365` — Tony Hawk’s Pro Skater 1 + 2](../games/s-z/tony-hawks-pro-skater-1-plus-2.md)
+
+## ACT-502
+
+- Назва: Зробити знімок поточного кадру
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Коли камера готова та має доступний ресурс для знімка, гравець наводить її на досяжний живий об’єкт і один раз натискає спуск: поточну сцену фіксують для оцінювання за змістом.
+
+### Включає
+
+Знімок возз’єднання Джеффа й Наталі на даху в режимі «72 години» Dead Rising; фотографію Пікачу зі скінченного запасу кадрів під час автоматичного руху маршрутом Beach у Pokémon Snap.
+
+### Виключає
+
+Просте наведення камери без знімка; системний скриншот; фотографію, яка змінює геометрію світу; оцінювання й нарахування очок після знімка.
+
+### Ігри-носії
+
+- [`GAME-0368` — Dead Rising](../games/a-f/dead-rising.md)
+- [`GAME-0371` — Pokémon Snap](../games/m-r/pokemon-snap.md)
+
+## ACT-503
+
+- Назва: Зайняти об’єкт щойно викладеного тайла підданим
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Після викладання тайла гравець може поставити одного доступного підданого на допустиму частину дороги, міста чи монастиря цього тайла або покласти його як селянина на поле.
+
+### Включає
+
+Одного міпла на щойно викладеному тайлі Carcassonne: стоячи в місті, на дорозі чи монастирі або лежачи на полі.
+
+### Виключає
+
+Підданого на старому тайлі; двох підданих за один хід; підрахунок очок і повернення підданого.
+
+### Ігри-носії
+
+- [`GAME-0369` — Carcassonne](../games/a-f/carcassonne.md)
+
+## ACT-504
+
+- Назва: Спроєктувати й обладнати кабінет перед відкриттям
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Гравець задає допустимий розмір кабінету, розміщує двері й обов’язкові меблі у дозволених місцях, а потім відкриває обладнаний кабінет для відповідної послуги.
+
+### Включає
+
+Кабінет терапевта, загальну діагностику, аптеку, психіатричний кабінет і клініку лікування роздутої голови в першій лікарні Theme Hospital.
+
+### Виключає
+
+Звичайне встановлення предмета в коридорі; саме лікування; роботу кабінету без потрібного працівника.
+
+### Ігри-носії
+
+- [`GAME-0370` — Theme Hospital](../games/s-z/theme-hospital.md)
+
+## ACT-505
+
+- Назва: Змінювати черги й правила діагностики пацієнтів
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Гравець змінює стале правило для пацієнтів із неповним діагнозом або відпочинку персоналу чи переставляє пацієнта в черзі або переводить його до іншої черги того самого виду до початку послуги.
+
+### Включає
+
+Ліміти й перенесення черг, пороги «відправити додому» та «спробувати лікувати», поріг відпочинку працівників у Theme Hospital.
+
+### Виключає
+
+Покрокове керування рухом кожного пацієнта; переведення до несумісного кабінету; наслідок лікування; будівництво кабінету.
+
+### Ігри-носії
+
+- [`GAME-0370` — Theme Hospital](../games/s-z/theme-hospital.md)
+
+## ACT-506
+
+- Назва: Кинути приманку біля самостійного персонажа
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Під час живої сцени гравець кидає доступну нешкідливу приманку в досяжне місце біля рухомої істоти, щоб та могла відреагувати на місце падіння без прямого наказу гравця.
+
+### Включає
+
+Кинути розблоковану Pokémon Food біля Пікачу на маршруті Beach у Pokémon Snap, коли камера не перебуває в режимі фокусування.
+
+### Виключає
+
+Пряме керування істотою; звукову приманку стуканням по стіні; бойовий снаряд; подальшу реакцію істоти.
+
+### Ігри-носії
+
+- [`GAME-0371` — Pokémon Snap](../games/m-r/pokemon-snap.md)
+
+## ACT-507
+
+- Назва: Позначити один знятий кадр кожного виду для оцінювання
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Після обмеженої фотосесії гравець вибирає один кадр істоти певного виду й позначає його для подальшого оцінювання; зміна вибору замінює попереднього кандидата того самого виду.
+
+### Включає
+
+Вибір однієї фотографії Пікачу в Camera Check та позначення її знаком професора Оука перед перевіркою Pokémon Snap.
+
+### Виключає
+
+Саме фотографування; окрему позначку тільки для альбому; одночасне подання всіх знімків виду; результат оцінювання.
+
+### Ігри-носії
+
+- [`GAME-0371` — Pokémon Snap](../games/m-r/pokemon-snap.md)
+
+## ACT-508
+
+- Назва: Затиснути лади й ударити по струнах у мить ноти
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Гравець затискає лади, які відповідають показаній одиничній ноті або одночасному акорду, і б’є по струнах, коли подія доходить до лінії удару; система перевіряє цю дію за заданим графіком пісні.
+
+### Включає
+
+Одиничні ноти й акорди на зеленому, червоному та жовтому ладах в одиночному Quick Play Guitar Hero III на Easy.
+
+### Виключає
+
+Натискання для ухилення від просторової перешкоди; вільне музикування без заданих нот; автоматичне влучання від самого затискання ладу без удару по струнах.
+
+### Ігри-носії
+
+- [`GAME-0372` — "Guitar Hero III: Legends of Rock"](../games/g-l/guitar-hero-iii-legends-of-rock.md)
+
+## ACT-509
+
+- Назва: Активувати накопичений запас підсилення під час пісні
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Коли здобутий запас підсилення сягає встановленого мінімуму, гравець свідомо активує його під час рухомого графіка пісні й витрачає заряд протягом тимчасового посилення очок.
+
+### Включає
+
+Активацію щонайменше напівзаповненого Star Power нахилом гітарного контролера Les Paul або кнопкою SELECT в одиночній пісні Guitar Hero III для PS3.
+
+### Виключає
+
+Саме здобуття заряду за послідовність нот; постійний множник; атаки на іншого гравця в режимі дуелі.
+
+### Ігри-носії
+
+- [`GAME-0372` — "Guitar Hero III: Legends of Rock"](../games/g-l/guitar-hero-iii-legends-of-rock.md)
+
+## ACT-510
+
+- Назва: Покликати партнера й дістатися редактора тіла
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Керуючи істотою в активному етапі, гравець кличе партнера й дістається до нього, щоб перейти з живого світу до редактора наступної версії цієї істоти.
+
+### Включає
+
+Поклик, заплив до партнера й вхід до Cell Creator у Spore після того, як перша знайдена частина відкриває цю дію.
+
+### Виключає
+
+Незалежний редактор у галереї без партнера в активному етапі; автоматичне зростання без входу до редактора; зміну частин під час плавання.
+
+### Ігри-носії
+
+- [`GAME-0373` — Spore](../games/s-z/spore.md)
+
+## ACT-511
+
+- Назва: Змінити тіло живої лінії частинами
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+У редакторі, до якого переходять з активного етапу життя, гравець розміщує доступну функціональну частину на тілі керованої лінії або прибирає її, а тоді зберігає змінену форму для продовження гри.
+
+### Включає
+
+Додавання, налаштування або вилучення рота, частин руху й зброї в Cell Creator Spore перед збереженням клітини та поверненням у воду.
+
+### Виключає
+
+Суто декоративне фарбування; заміну спорядження у фіксованому слоті під час бою; створення сторонньої істоти в окремій галереї.
+
+### Ігри-носії
+
+- [`GAME-0373` — Spore](../games/s-z/spore.md)
+
+## ACT-512
+
+- Назва: Прибирати сміття із саду інструментом
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Гравець спрямовує садовий інструмент на предмет сміття й повторює дію, доки предмет не перестане займати ділянку землі.
+
+### Включає
+
+Прибирання початкового сміття лопатою від Leafos в оригінальній Viva Piñata.
+
+### Виключає
+
+Пошук закопаного предмета, збирання врожаю, знищення мешканця або оплата роботи помічника.
+
+### Ігри-носії
+
+- [`GAME-0375` — Viva Piñata](../games/s-z/viva-pinata.md)
+
+## ACT-513
+
+- Назва: Домовлятися про обмін ресурсами з іншим гравцем
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Активний гравець домовляється з іншим про обмін карток ресурсів визначених видів і кількостей; умови може запропонувати будь-хто з них, а передача відбувається лише після згоди обох учасників.
+
+### Включає
+
+Добровільний обмін під час фази CATAN, зокрема зустрічну пропозицію суперника активному гравцеві.
+
+### Виключає
+
+Подарунок без зустрічного ресурсу, обмін із банком, картки розвитку та відхилену пропозицію.
+
+### Ігри-носії
+
+- [`GAME-0377` — CATAN](../games/a-f/catan.md)
+
+## ACT-514
+
+- Назва: Обмінювати однакові ресурси з банком
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Гравець повертає до банку потрібну кількість карток одного виду й бере одну картку іншого виду за доступним йому курсом.
+
+### Включає
+
+Морський обмін у CATAN за звичайним курсом 4:1 або за знижкою відповідної гавані 3:1 чи 2:1.
+
+### Виключає
+
+Домовленість з іншим гравцем, безкоштовні ресурси від картки розвитку й обмін без потрібної кількості однакових карток.
+
+### Ігри-носії
+
+- [`GAME-0377` — CATAN](../games/a-f/catan.md)
+
+## ACT-515
+
+- Назва: Оплатити й розмістити законну споруду в мережі
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Гравець сплачує потрібні ресурси й розміщує доступну власну фігуру на дозволеному ребрі чи вершині або поліпшує власну споруду на тому самому місці.
+
+### Включає
+
+Будівництво дороги чи поселення та заміну свого поселення містом у CATAN.
+
+### Виключає
+
+Безкоштовні дороги від картки розвитку, недозволену позицію й купівлю картки розвитку.
+
+### Ігри-носії
+
+- [`GAME-0377` — CATAN](../games/a-f/catan.md)
+
+## ACT-516
+
+- Назва: Купити приховану картку розвитку
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Гравець сплачує потрібні три види ресурсів і бере верхню закриту картку зі скінченної колоди розвитку, не вибираючи її вміст.
+
+### Включає
+
+Купівлю картки розвитку за руду, вовну й зерно у CATAN.
+
+### Виключає
+
+Використання вже придбаної картки, вибір із відкритої пропозиції та купівлю з порожньої колоди.
+
+### Ігри-носії
+
+- [`GAME-0377` — CATAN](../games/a-f/catan.md)
+
+## ACT-517
+
+- Назва: Зіграти дозволену картку розвитку
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+На власному ході гравець обирає придатну картку розвитку з руки, відкриває її й запускає надруковану дію з урахуванням обмежень ходу та часу купівлі.
+
+### Включає
+
+Лицаря, картку прогресу й особливе відкриття картки переможного очка для виграшу у CATAN.
+
+### Виключає
+
+Купівлю картки, обмін нею та розіграш двох лицарів або карток прогресу за один хід.
+
+### Ігри-носії
+
+- [`GAME-0377` — CATAN](../games/a-f/catan.md)
+
+## ACT-518
+
+- Назва: Пересунути розбійника й обрати сусіда для крадіжки
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Після відповідної події активний гравець переносить розбійника на інший гекс і за наявності сусідніх споруд суперників обирає одного власника, у якого випадково береться картка ресурсу.
+
+### Включає
+
+Переміщення розбійника після сімки або зіграного лицаря у CATAN.
+
+### Виключає
+
+Примусове скидання надлишку карток, вибір конкретної прихованої картки й залишення розбійника на тому самому гексі.
+
+### Ігри-носії
+
+- [`GAME-0377` — CATAN](../games/a-f/catan.md)
+
+## ACT-519
+
+- Назва: Безперервно нахиляти трасу, щоб скеровувати кулю
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Гравець безперервним рухом стика змінює нахил прохідної траси, щоб сила тяжіння скеровувала рухому кулю її поверхнею; він не задає кулі точну позицію або окремий фіксований хід.
+
+### Включає
+
+Нахил першої траси Simple у Super Monkey Ball 2 стиком GameCube, щоб провести кулю з мавпочкою до фінішу.
+
+### Виключає
+
+Безпосереднє пересування аватара за ACT-008, дискретний вибір нової грані сили тяжіння за ACT-097, зміну камери без нахилу траси й автоматичний пошук шляху до вибраної цілі.
+
+### Ігри-носії
+
+- [`GAME-0378` — Super Monkey Ball 2](../games/s-z/super-monkey-ball-2.md)

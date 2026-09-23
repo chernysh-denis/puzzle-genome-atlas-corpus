@@ -23313,6 +23313,312 @@
         "checked": null
       },
       "releases": []
+    },
+    "GAME-0361": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Current unmodified English Windows Steam base game, app 22380 public Build ID 1510068, Normal fresh character through Ghost Town Gunfight for Goodsprings and retained manual-save reload",
+        "editionUk": "Поточна немодифікована англомовна базова Windows-версія у Steam, app 22380 public Build ID 1510068, свіжий персонаж на Normal до завершення Ghost Town Gunfight за Goodsprings і перевірки ручним завантаженням",
+        "version": "Steam app 22380 public Build ID 1510068; base, English and executable depots distinguished from separately distributed DLC depots",
+        "distribution": "Licensed Windows Steam base application; not Ultimate Edition, any DLC union, console release, Hardcore rules, mod, unofficial patch or completed save",
+        "evidenceUrl": "https://steamdb.info/app/22380/depots/",
+        "checked": "2026-09-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0362": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Current unmodified English Windows Steam Game of the Year Edition, app 22320 public Build ID 1510067, fresh Dunmer Warrior through Blades induction, Antabolis Informant and retained manual-save reload",
+        "editionUk": "Поточне немодифіковане англомовне Windows-видання Game of the Year Edition у Steam, app 22320 public Build ID 1510067, свіжий Dunmer Warrior до вступу в Blades, Antabolis Informant і перевірки ручним завантаженням",
+        "version": "Steam app 22320 public Build ID 1510067; base English GOTY content and executable depot distinguished from language depots; Tribunal and Bloodmoon included by product but inactive in scope",
+        "distribution": "Licensed Windows Steam GOTY application; not original retail media, Xbox, another language, OpenMW, mod, unofficial patch, console-command run or expansion route",
+        "evidenceUrl": "https://steamdb.info/app/22320/depots/",
+        "checked": "2026-09-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0363": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH",
+        "edition": "Original English 1998 Nintendo 64 Ocarina of Time rules in licensed Nintendo 64 Classics through Nintendo Switch Online + Expansion Pack; fresh Kokiri Forest file through Gohma and Kokiri's Emerald, before forest exit",
+        "editionUk": "Оригінальні англомовні правила Ocarina of Time 1998 року для Nintendo 64 у ліцензованій Nintendo 64 Classics через Nintendo Switch Online + Expansion Pack; новий файл у лісі Кокірі до Ґоми та Смарагда Кокірі, ще до виходу з лісу",
+        "version": "Original Nintendo 64 rules; Nintendo 64 Classics wrapper; no 3DS, Master Quest, emulation conveniences or future Switch 2 remake",
+        "distribution": "Licensed Nintendo Switch Online + Expansion Pack N64 Classics application, not a cartridge analysis target or remake",
+        "evidenceUrl": "https://www.nintendo.com/us/whatsnew/explore-some-of-links-earlier-adventures-available-now-with-nintendo-switch-online-and-nintendo-switch-online-expansion-pack/",
+        "checked": "2026-09-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0364": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-WII",
+        "edition": "Original English 2006 North American Wii Sports physical disc; one stored-Mii single-player ten-frame Bowling game",
+        "editionUk": "Оригінальний англомовний фізичний диск Wii Sports для північноамериканської Wii 2006 року; одна десятифреймова партія в боулінг для одного збереженого Mii",
+        "version": "Original Wii disc rules; no Wii Sports Resort, Wii Sports Club or Nintendo Switch Sports",
+        "distribution": "Original retail Wii Game Disc",
+        "evidenceUrl": "https://csassets.nintendo.com/noaext/image/private/t_KA_PDF/Wii_Wii_Sports?_a=DATAg1AAZAA0",
+        "checked": "2026-09-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0365": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-5",
+        "edition": "Licensed native English PS5 Tony Hawk's Pro Skater 1 + 2 Cross-Gen Deluxe Bundle, default moveset without assists, fresh THPS1 Tour Warehouse two-minute run",
+        "editionUk": "Ліцензоване нативне англомовне PS5-видання Tony Hawk's Pro Skater 1 + 2 у пакеті Cross-Gen Deluxe Bundle, стандартний набір рухів без допоміжних режимів, новий двохвилинний заїзд Warehouse у THPS1 Tour",
+        "version": "PlayStation Store PS5 SKU UP0002-PPSA02176_00-TH12RTHEGAME0001, released 2021-03-26; no executable or save obtained or hashed",
+        "distribution": "Licensed native PS5 Cross-Gen Deluxe Bundle; not the PS4-only standard listing, PS4 compatibility build, bonus-cosmetic route, sequel or fan remake",
+        "evidenceUrl": "https://store.playstation.com/en-us/product/UP0002-PPSA02176_00-TH12RTHEGAME0001",
+        "checked": "2026-09-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0366": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION",
+        "edition": "Original North American English 1998 Namco PlayStation Tekken 3 disc, one-player Arcade Mode with Jin Kazama and unchanged default options",
+        "editionUk": "Оригінальний англомовний північноамериканський диск Tekken 3 для PlayStation 1998 року від Namco: одиночний Arcade Mode з Джином Кадзамою та стандартними налаштуваннями",
+        "version": "NTSC-U/C serial SLUS-00402; original disc executable not obtained or hashed",
+        "distribution": "Original retail PlayStation disc, not arcade PCB, later port, emulated compilation or sequel",
+        "evidenceUrl": "https://www.bandainamcoent.co.jp/cs/list/tekken3/",
+        "checked": "2026-09-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0367": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-ONE",
+        "edition": "English Xbox One Mass Effect Legendary Edition, Mass Effect 2 module, fresh no-import iconic male Soldier on Normal through Freedom's Progress and first Normandy SR-2 control",
+        "editionUk": "Англомовна Mass Effect Legendary Edition для Xbox One, модуль Mass Effect 2: нова гра без імпорту, стандартний чоловічий Шепард-солдат на звичайній складності до завершення Freedom's Progress і першого вільного керування Normandy SR-2",
+        "version": "2021 Legendary Edition launch-era ruleset; no exact installed patch or executable hash claimed",
+        "distribution": "Licensed Xbox One Legendary Edition collection, not original Xbox 360 release, a later campaign module or a separately installed DLC mission",
+        "evidenceUrl": "https://www.ea.com/games/mass-effect/mass-effect-legendary-edition",
+        "checked": "2026-09-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0368": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-ONE",
+        "edition": "Licensed English Xbox One Dead Rising 2016 re-release, fresh 72 Hour Mode from first Security Room control through closed Case 1-2 and a manual save",
+        "editionUk": "Ліцензоване англомовне перевидання Dead Rising для Xbox One 2016 року: новий режим «72 години» від першого керування в кімнаті охорони до завершення справи 1-2 і ручного збереження",
+        "version": "2016-09-13 Xbox One release; exact installed patch and executable hash not inspected",
+        "distribution": "Licensed Xbox One digital release, not the Xbox 360 original, a sequel or the 2024 Deluxe Remaster",
+        "evidenceUrl": "https://www.xbox.com/en-US/games/store/dead-rising/BZV7W98B3XN4",
+        "checked": "2026-09-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0369": {
+      "analysisTarget": {
+        "platformId": "PLAT-PHYSICAL-TABLETOP",
+        "edition": "Z-Man Games linked English main rules plus Farmers supplement, two-player 72-land-tile game without River or Abbot",
+        "editionUk": "Англомовні основні правила Z-Man Games і розділ «Селяни» з додатка: гра для двох із 72 тайлами місцевості без River та Abbot",
+        "version": "Current English v3 rulesheets linked by Z-Man product page, checked 2026-09-23; physical print run uninspected",
+        "distribution": "Physical tabletop game, not a digital port or expanded River/Abbot variant",
+        "evidenceUrl": "https://www.zmangames.com/game/carcassonne/",
+        "checked": "2026-09-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0370": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Original English Bullfrog/Electronic Arts PC First Game level-one rules, represented by the licensed GOG Windows listing; no installed build inspected",
+        "editionUk": "Оригінальні англомовні правила Bullfrog/Electronic Arts для першого рівня з навчанням; ліцензоване видання GOG для Windows, без перевірки встановленої збірки",
+        "version": "1997 original PC manual; current GOG listing checked 2026-09-23; exact GOG build and patch uninspected",
+        "distribution": "Licensed Windows PC digital listing, not a claimed direct-play session or community reimplementation",
+        "evidenceUrl": "https://www.gog.com/en/game/theme_hospital",
+        "checked": "2026-09-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0371": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH",
+        "edition": "Original English Nintendo 64 Pokémon Snap rules represented by licensed Nintendo Switch Online + Expansion Pack Nintendo 64 Classics, one Beach excursion from a staged Pokémon Food-unlocked Lab save through Oak's Pikachu photo check",
+        "editionUk": "Оригінальні англомовні правила Pokémon Snap для Nintendo 64 у ліцензованому застосунку Nintendo 64 Classics за підпискою Nintendo Switch Online + Expansion Pack: один маршрут Beach зі збереження, де вже відкрито Pokémon Food, до оцінювання фото Пікачу професором Оуком",
+        "version": "1999 original N64 manual; Nintendo Switch Online availability checked 2026-09-23; installed app version and executable hash not inspected",
+        "distribution": "Licensed Nintendo Switch Online + Expansion Pack N64 Classics, not an inspected original cartridge, New Pokémon Snap, a standalone Switch purchase or a claimed direct-play session",
+        "evidenceUrl": "https://www.nintendo.com/us/whatsnew/nintendo-switch-online-expansion-pack-pokemon-snap-is-now-available/",
+        "checked": "2026-09-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0372": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-3",
+        "edition": "Original English PlayStation 3 retail-disc Guitar Hero III rules, one solo Easy Quick Play song with a compatible Les Paul guitar controller through its result or Rock Meter failure",
+        "editionUk": "Оригінальні англомовні правила Guitar Hero III для дискового видання PlayStation 3: одна пісня в одиночному Quick Play на Easy із сумісним гітарним контролером Les Paul до результату або поразки за Rock Meter",
+        "version": "2007 original PS3 instruction booklet; disc revision, installed patch and executable hash not inspected",
+        "distribution": "Original PlayStation 3 retail-disc rules, not an inspected disc, installed copy, direct-play trace or current purchase offer",
+        "evidenceUrl": "https://www.yumpu.com/en/document/view/6266335/gh3-ps3-manual-cover-activision/7",
+        "checked": "2026-09-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0373": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Original English Windows PC Spore base-game Cell stage, from fresh first control to retained first Creature-stage control",
+        "editionUk": "Оригінальна англомовна базова Spore для Windows PC: етап Cell від першого керування новою клітиною до першого збереженого керування на етапі Creature",
+        "version": "2008 original PC instruction-manual rules; installed build, patch and executable hash not inspected",
+        "distribution": "Original Windows PC base-game rules documented by the EA manual, not an inspected executable or direct-play trace",
+        "evidenceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/17390/manuals/manual.pdf?t=1642702281",
+        "checked": "2026-09-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0374": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-360",
+        "edition": "Original English Xbox 360 Burnout Paradise base-game offline ordinary Race with a Stunt-class Boost car",
+        "editionUk": "Оригінальна англомовна базова Burnout Paradise для Xbox 360: звичайні перегони без мережі на автомобілі з прискоренням класу Stunt",
+        "version": "2008 original Xbox 360 instruction-manual rules; disc, installed build and patch not inspected",
+        "distribution": "Original Xbox 360 base-game rules documented by the EA manual, not an inspected disc or direct-play trace",
+        "evidenceUrl": "https://www.gamesdatabase.org/Media/SYSTEM/Microsoft_Xbox_360/Manual/formated/Burnout_Paradise_-_2008_-_Electronic_Arts.pdf",
+        "checked": "2026-09-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0375": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-360",
+        "edition": "Original English Xbox 360 Viva Piñata first-garden Whirlm residency tutorial",
+        "editionUk": "Оригінальна англомовна Viva Piñata для Xbox 360: перший сад і поселення Whirlm під час навчання",
+        "version": "2006 original Xbox 360 instruction-booklet rules; disc, installed build and patch not inspected",
+        "distribution": "Original Xbox 360 game rules documented by the Microsoft Game Studios booklet, not an inspected disc or direct-play trace",
+        "evidenceUrl": "https://www.videogamemanual.com/xbox360/Viva%20Pi%C3%B1ata.pdf",
+        "checked": "2026-09-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0376": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-4",
+        "edition": "North American English PlayStation 4 Katamari Damacy REROLL base release, ordinary solo Make a Star 1 replay",
+        "editionUk": "Північноамериканська англомовна базова Katamari Damacy REROLL для PlayStation 4: звичайне одиночне повторне проходження Make a Star 1",
+        "version": "20 November 2020 PS4 release; installed build, patch and executable hash not inspected",
+        "distribution": "PS4 digital product identified by the PlayStation listing; rules reconstructed from publisher material and REROLL first-stage reports, not a direct PS4 play trace",
+        "evidenceUrl": "https://store.playstation.com/en-us/product/UP0700-CUSA24361_00-KMDMCMGMMAINGAME",
+        "checked": "2026-09-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0377": {
+      "analysisTarget": {
+        "platformId": "PLAT-PHYSICAL-TABLETOP",
+        "edition": "CATAN English base-game rulebook hosted in 2020, four-player fixed beginner setup and separate roll/trade/build phases",
+        "editionUk": "Англомовні базові правила CATAN у PDF 2020 року: фіксована розкладка для чотирьох новачків та окремі фази кидка, обміну й будівництва",
+        "version": "Fifth English-language base rules with a 2015 precedence note, hosted in the publisher's 2020 PDF; physical printing and complete match not inspected",
+        "distribution": "Physical tabletop base game, not a digital adaptation or expansion",
+        "evidenceUrl": "https://www.catan.com/sites/default/files/2021-06/catan_base_rules_2020_200707.pdf",
+        "checked": "2026-09-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0378": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-GAMECUBE",
+        "edition": "Original English-language GameCube Super Monkey Ball 2, one-player Story Mode first Jungle Island stage Simple",
+        "editionUk": "Оригінальна англомовна Super Monkey Ball 2 для GameCube: одиночний сюжетний режим, перша траса Simple світу Jungle Island",
+        "version": "Original GameCube disc rules represented by the preserved English SEGA booklet and Nintendo UK product page; disc, regional build and patch not inspected",
+        "distribution": "Original GameCube disc; not Super Monkey Ball Deluxe, Banana Mania or an emulated run",
+        "evidenceUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-GameCube/Super-Monkey-Ball-2-268929.html",
+        "checked": "2026-09-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
     }
   }
 }

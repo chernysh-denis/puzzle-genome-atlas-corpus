@@ -4303,3 +4303,230 @@
 - Novelty: first isolated for `GAME-0359`; existing mission terminals settle a
   medal, region or invitation, not an interacted airborne-home recapture with a
   retained upgrade currency token and interior-control handoff.
+
+## OBJ-210 — Defeat the first dungeon guardian and retain its story token
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete a bounded first authored dungeon by opening its boss
+  route, defeating its mandatory guardian, exiting the settled encounter and
+  receiving a unique persistent story token from a separate quest-giving
+  actor before entering the next region.
+- Includes: defeating Queen Gohma, using the boss-room exit and receiving the
+  Kokiri's Emerald from the Great Deku Tree in Ocarina of Time before leaving
+  Kokiri Forest.
+- Excludes: stopping when the boss falls without receiving the token; a
+  fragment awarded by direct contact in the boss dungeon (`OBJ-191`);
+  crossing into the next region before the declared terminal (`OBJ-080`);
+  collecting every optional dungeon treasure or completing the campaign.
+- Parameters: dungeon, access sequence, guardian, encounter settlement,
+  exit, giver, token, persistent quest state and next-region boundary.
+- Evidence: [Ocarina of Time decomposition](../games/s-z/the-legend-of-zelda-ocarina-of-time.md),
+  using Nintendo's original N64 manual and independent written routes.
+- Novelty: first isolated for `GAME-0363`; guardian defeat enables a distinct
+  post-dungeon giver to award the retained token while next-region entry
+  remains outside the packet.
+
+## OBJ-211 — Earn and retain at least one goal in a timed park run
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: in one fixed-duration goal-based park attempt, satisfy one or
+  more independently declared local goal predicates and finish the run with
+  that Tour credit retained, even if other park goals remain incomplete.
+- Includes: a fresh Tony Hawk's Pro Skater 1 + 2 Warehouse Tour run ending
+  with a credited score, single-combo, collection, object or gap goal.
+- Excludes: requiring every Warehouse goal in one run; Free Skate without
+  goals; a Single Session leaderboard submission; treating a high score
+  without a crossed goal threshold as the only success condition.
+- Parameters: park, run window, available goal set, completed subset,
+  retained Tour progress and subsequent-run eligibility.
+- Evidence: [Tony Hawk's Pro Skater 1 + 2 decomposition](../games/s-z/tony-hawks-pro-skater-1-plus-2.md),
+  using Activision's Tours rules and a corroborating Warehouse guide.
+- Novelty: first isolated for `GAME-0365`; the objective is partial retained
+  credit from one timed multi-goal park attempt, not full park clearance.
+
+## OBJ-212 — Clear every CPU duel in a fixed-fighter Arcade ladder
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: retain one selected fighter through the required sequence of
+  one-player CPU matches and win the final match, with any admitted Continue
+  retry returning to its lost stage rather than counting as ladder progress.
+- Includes: Jin Kazama clearing original PlayStation Tekken 3 Arcade Mode.
+- Excludes: winning only one duel (`OBJ-099`); a two-player tournament set;
+  switching selected fighters during a Continue; earning an unlock or viewing
+  the ending movie after Arcade completion.
+- Parameters: selected fighter, current CPU opponent, completed stages,
+  final-stage condition, continue decision and cleared result.
+- Evidence: [Tekken 3 decomposition](../games/s-z/tekken-3.md), from Namco's
+  original PlayStation instruction manual.
+- Novelty: first isolated for `GAME-0366`; completing a full opponent ladder
+  is a different terminal from the required round wins of any one duel.
+
+## OBJ-213 — Meet five hospital criteria together at quarterly appraisal
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: at a financial quarter's evaluation, satisfy the briefing's
+  Reputation, Money, Cures, Happiness and Hospital Value thresholds together
+  without having reached any declared losing criterion, earning an offer to
+  proceed to the next hospital.
+- Includes: the first Theme Hospital level's first successful quarterly
+  appraisal, whether or not the player accepts immediate transfer.
+- Excludes: winning solely by cash or cure count; treating an unsuccessful
+  but non-losing quarter as a final defeat; completing all later hospitals.
+- Parameters: quarter, five target values, five observed values, loss
+  thresholds, appraisal timing and next-hospital offer.
+- Evidence: [Theme Hospital decomposition](../games/s-z/theme-hospital.md),
+  using the original PC manual's Mission Briefing, Status and Yearly
+  Appraisal descriptions; exact first-level numbers were not inferred.
+- Novelty: first isolated for `GAME-0370`; five managed-service outcomes
+  must coincide at one recurring appraisal while separate loss bars remain
+  below threshold.
+
+## OBJ-214 — Finish a photo course and submit one subject for appraisal
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: carry one bounded moving photographic excursion through its
+  goal gate and submit a selected image of the declared subject for the
+  post-course expert check, producing an observable scored Report result.
+- Includes: original Pokémon Snap's Beach goal gate followed by Oak's
+  appraisal of one marked Pikachu frame during the scoped excursion.
+- Excludes: merely reaching the gate without a usable marked subject;
+  completing every island course or the full PKMN Report; guaranteeing that
+  a new submission improves the previous best.
+- Parameters: course, target subject, captured frame, goal gate, selection,
+  evaluation result and retained Report state.
+- Evidence: [Pokémon Snap decomposition](../games/m-r/pokemon-snap.md), using
+  Nintendo's original instruction booklet, pp. 12–17.
+- Novelty: first isolated for `GAME-0371`; the course gate and later
+  evidence appraisal together form the declared bounded research terminal,
+  not a global game-over.
+
+## OBJ-215 — Survive one authored song to its results screen
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: play the selected chart to its authored end without the live
+  performance gauge reaching failure, then receive its score, note-hit rate,
+  longest streak and star grade on the song-results screen.
+- Includes: one single-player Guitar Hero III Quick Play song on Easy.
+- Excludes: completing Career, earning a five-star result, unlocking songs,
+  defeating a guitar-battle rival or judging success from score alone.
+- Parameters: selected song, difficulty, chart endpoint, Rock Meter survival,
+  score, notes hit, streak and grade.
+- Evidence: [Guitar Hero III decomposition](../games/g-l/guitar-hero-iii-legends-of-rock.md),
+  Activision's PlayStation 3 instruction booklet, pp. 8–9.
+- Novelty: first isolated for `GAME-0372`; song completion and live survival
+  are distinct from optional score optimisation.
+
+## OBJ-216 — Fill cell-stage progress and enter the successor stage
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: complete a cell-stage feeding-and-growth path until the stage
+  Progress Bar is full, choose to advance, finish the required transition and
+  retain the evolved lineage at the first controllable successor-stage state.
+- Includes: moving a Spore cell through the water's growth progression and
+  entering the Creature stage on land.
+- Excludes: filling the bar without choosing the offered advance; finishing
+  every later evolutionary stage; requiring one specific cell-part loadout.
+- Parameters: stage progress, advance choice, transition, retained lineage
+  and successor entry state.
+- Evidence: [Spore decomposition](../games/s-z/spore.md), original EA manual,
+  pp. 6–8 and 30–31.
+- Novelty: first isolated for `GAME-0373`.
+
+## OBJ-217 — Obtain one coloured resident through garden conditions
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: alter a starting garden so a named wild species appears, visits and satisfies its residence conditions, ending when one individual has visibly changed into a coloured garden resident.
+- Includes: the bounded first-Whirlm residency path in the original Viva Piñata tutorial.
+- Excludes: first appearance alone; a black-and-white visit alone; obtaining two residents, a home or a romance result; guaranteeing permanent retention after neglect.
+- Parameters: starting garden, target species, staged conditions, resident individual and visible terminal.
+- Evidence: [Viva Piñata decomposition](../games/s-z/viva-pinata.md), original Xbox 360 booklet pp. 8–9, 16–17.
+- Novelty: first isolated for `GAME-0375`; the scoped endpoint is residency, not a wildlife capture or a bought zoo specimen.
+
+## OBJ-218 — Meet a rolling-body size target before stage settlement
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: grow the controlled katamari by attaching eligible world
+  objects until it reaches the stage's declared diameter before the
+  authoritative deadline, then accept the successful stage result that
+  converts the collected mass into a star.
+- Includes: replaying Katamari Damacy REROLL Make a Star 1 until its size
+  target is met and the King settles that timed attempt.
+- Excludes: merely touching a destination marker; collecting every object;
+  a shooting-star speed bonus as a required condition; the larger campaign
+  or Moon stage; assuming the stage must end immediately on first reaching
+  the minimum size.
+- Parameters: target diameter, current diameter, deadline, accepted result
+  and created star.
+- Evidence: [Katamari Damacy REROLL decomposition](../games/g-l/katamari-damacy-reroll.md),
+  Bandai Namco's REROLL star-making premise, its original timed-size game
+  description and a first-hand REROLL stage report.
+- Novelty: first isolated for `GAME-0376`; completion evaluates a physically
+  accumulated moving body at a timed size threshold.
+
+## OBJ-219 — Claim the victory-point threshold on one's own turn
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: be the first participant with at least the declared total of
+  points during one's own active turn and substantiate any concealed point
+  cards needed for that total, immediately ending the contest.
+- Includes: CATAN's ten-point base-game win from settlements, cities,
+  Longest Road, Largest Army and revealed victory-point cards.
+- Excludes: merely leading a final-score table; reaching the threshold on
+  another player's turn and claiming victory immediately; a resource-count
+  target rather than points.
+- Parameters: point threshold, active player, public structure and bonus
+  points, concealed point cards and declaration state.
+- Evidence: [CATAN decomposition](../games/a-f/catan.md), official base rules.
+- Novelty: first isolated for `GAME-0377`; a race threshold is gated by the
+  claimant's own turn and can include privately held score evidence.
+
+## OBJ-220 — Guide a rolling avatar ball into a fixed goal before expiry
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: clear one bounded stage by steering an avatar-containing ball
+  into its fixed goal while the attempt clock still permits success, without
+  requiring every optional collectible or a score threshold.
+- Includes: entering the goal with the monkey ball in Super Monkey Ball 2's
+  first Jungle Island Story stage before time reaches zero.
+- Excludes: `OBJ-014`'s delivery of a separate payload; `OBJ-026`'s directly
+  navigated avatar reaching a place; collecting all bananas; merely remaining
+  on the course until the clock expires.
+- Parameters: fixed goal geometry, ball-goal contact, time remaining,
+  optional pickups, accepted clear and score settlement.
+- Evidence: [Super Monkey Ball 2 decomposition](../games/s-z/super-monkey-ball-2.md),
+  original GameCube manual p. 9 and publisher-supplied Nintendo description.
+- Novelty: first isolated for `GAME-0378`; indirect field control and a live
+  clock gate the avatar-containing ball's entry into one stage receiver.

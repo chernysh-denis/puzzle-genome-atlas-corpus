@@ -1370,7 +1370,8 @@
   unless its completion objective has already been satisfied.
 - Includes: the remaining real-time limit of an original Lemmings level; The
   Long Dark's seven in-game-day `Hopeless Rescue` allowance, including time
-  advanced by sleep.
+  advanced by sleep; Super Monkey Ball 2's remaining stage time before
+  a failed Story Mode attempt.
 - Excludes: an elapsed timer used only for performance scoring; a finite number
   of player actions; a deadline that merely changes rewards while play continues.
 - Parameters: initial duration, authoritative clock, time-rate changes, pause
@@ -1380,6 +1381,8 @@
 - Additional support: [Super Metroid decomposition](../games/s-z/super-metroid.md),
   for the visible one-minute Ceres self-destruct countdown whose expiry ends
   the escape attempt.
+- Additional support: [Super Monkey Ball 2 decomposition](../games/s-z/super-monkey-ball-2.md),
+  for goal entry before the stage clock expires.
 - Novelty: not assessed. The authoritative-clock generalisation was accepted in
   [`TAXONOMY_CHANGE_052`](../../research/taxonomy-changes/TAXONOMY_CHANGE_052.md).
 
@@ -12548,3 +12551,423 @@
 - Novelty: first isolated for `GAME-0360`; the restriction is persistent
   concurrency occupancy rather than ammunition quantity, cooldown or a fixed
   attempt budget.
+
+## CON-664 — Limit deliveries by frame with a final-frame fill exception
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: an ordinary ten-pin frame permits at most two deliveries and
+  ends after a first-ball strike or a completed second delivery; the tenth
+  frame permits only the additional fill deliveries earned by a strike or
+  spare, without creating another frame.
+- Includes: ten-frame Wii Sports Bowling delivery eligibility and the
+  final-frame exception.
+- Excludes: a finite stock of independently replenished balls (`CON-164`);
+  a fixed number of throws regardless of pinfall; unlimited retry of a frame.
+- Parameters: frame number, first-delivery pinfall, second-delivery pinfall,
+  strike, spare, fill eligibility, remaining deliveries and terminal state.
+- Evidence: [Wii Sports decomposition](../games/s-z/wii-sports.md), using
+  Nintendo's ten-frame game statement and United States Bowling Congress
+  scoring rules as bounded corroboration.
+- Novelty: first isolated for `GAME-0364`; allowed shot count changes with
+  frame index and pinfall rather than with a carried projectile inventory.
+
+## CON-665 — Keep sustained skateboard tricks inside a live balance range
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: an unassisted rail grind or manual remains valid only while its
+  moving balance state stays within the allowed range; exceeding the range
+  causes a bail and breaks the unbanked trick chain.
+- Includes: ordinary Warehouse Tour grinds and manuals in Tony Hawk's Pro
+  Skater 1 + 2 with Perfect Balance and No Bails assists off.
+- Excludes: a permanent stamina budget; a single fixed-time button window;
+  assisted perfect balance; wiping score already banked by earlier landings.
+- Parameters: trick mode, balance range, drift, correction, duration, bail
+  threshold, unbanked chain and prior settled score.
+- Evidence: [Tony Hawk's Pro Skater 1 + 2 decomposition](../games/s-z/tony-hawks-pro-skater-1-plus-2.md),
+  using Activision's balance-meter and assist specifications, corroborated by
+  the controls/tutorial description; exact drift coefficients are unknown.
+- Novelty: first isolated for `GAME-0365`; contact-trick continuation has a
+  live, correctable validity boundary separate from chain scoring.
+
+## CON-666 — End a timed park session without erasing earned goals
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a fixed park-run countdown ends the current skating attempt at
+  expiry, but any independently completed Tour goals remain credited for
+  later runs rather than requiring every goal in that one attempt.
+- Includes: the two-minute Warehouse Tour run in Tony Hawk's Pro Skater 1 + 2.
+- Excludes: Free Skate without a timer; Speed Runs that reset all goals;
+  a deadline whose expiry declares the entire campaign lost (`CON-068`);
+  a competition park's medal format.
+- Parameters: park, initial duration, running clock, expiry, credited goals,
+  remaining goals and another-run eligibility.
+- Evidence: [Tony Hawk's Pro Skater 1 + 2 decomposition](../games/s-z/tony-hawks-pro-skater-1-plus-2.md),
+  using Activision's Tours rules and a corroborating Warehouse goal guide.
+- Novelty: first isolated for `GAME-0365`; a session-level deadline settles
+  partial persistent objectives rather than a binary complete-or-fail state.
+
+## CON-667 — Opponent-relative open floor allows lateral fight displacement
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: two fighters maintain an opponent-relative combat axis on an
+  open floor while a lateral step can change their alignment and make a
+  previously lined-up attack miss; ordinary fight settlement has no wall-stop
+  or ring-out terminal in this bounded arena.
+- Includes: Tekken 3 PlayStation Arcade sidestep and circling, with classic
+  wall-less Tekken stage behaviour conservatively treated as secondary.
+- Excludes: a bounded side-view line with corners (`CON-443`); a walled 3D
+  plane with wall-splat or break transitions (`CON-625`); free exploration
+  without a fixed opponent axis; automatic proof that all attacks miss after
+  any sidestep.
+- Parameters: two-body spacing, relative axis, lateral direction and extent,
+  attack alignment, body realignment and stage backdrop.
+- Evidence: [Tekken 3 decomposition](../games/s-z/tekken-3.md); Namco's
+  manual documents lateral circling, while the wall-less classification is
+  independently secondary and has not been directly measured on the disc.
+- Novelty: first isolated for `GAME-0366`; lateral evasion matters without
+  the walled-space decisions of the later Tekken 8 carrier.
+
+## CON-668 — Protected target layers gate disabling power effects
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a target with an active shield, armour or biotic barrier cannot
+  receive a power's declared health-only or incapacitating effect until its
+  applicable protective resistance is depleted, even when the target is in
+  range and the power is ready.
+- Includes: Mass Effect 2 enemies whose shield or armour must be removed
+  before health-affecting control powers can disable them in the bounded
+  Lazarus and Freedom's Progress encounters.
+- Excludes: ordinary damage passing through a shield into health; a power
+  blocked solely by cooldown, line of sight or target range; treating every
+  power as ineffective against every protection type.
+- Parameters: target, resistance type and remaining value, power effect type,
+  health eligibility and allowed or rejected result.
+- Evidence: [Mass Effect 2 (Legendary Edition) decomposition](../games/m-r/mass-effect-2-legendary-edition.md),
+  using the official Mass Effect 2 Xbox manual's enemy-resistance rule and
+  EA's Legendary Edition gameplay-calibration account.
+- Novelty: first isolated for `GAME-0367`; existing layered-damage genes
+  describe where damage lands, not which otherwise ready control effect is
+  illegal before a target's protection is stripped.
+
+## CON-669 — New-tile claim requires an unoccupied connected feature
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a follower may be placed only on a feature of the tile just
+  committed and only if its entire already-connected feature has no follower
+  of any player at that moment; at most one follower may be deployed in a turn.
+- Includes: Carcassonne city, road, monastery and farmer field claims;
+  independently claimed features may join on a later tile without violating
+  the earlier placement rule.
+- Excludes: prohibiting later joins of already claimed features; a permanent
+  one-follower maximum on a merged feature; merely requiring a free board cell.
+- Parameters: connected-feature relation, claim time and feature type.
+- Evidence: [Carcassonne decomposition](../games/a-f/carcassonne.md), using
+  Z-Man's main rules and farmer supplement.
+- Novelty: first isolated for `GAME-0369`; legality is checked against the
+  entire connected feature, not the new tile alone.
+
+## CON-670 — Finite reusable follower reserve gates new claims
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a player can deploy a follower only while one remains in that
+  player's finite personal supply; ordinary scored-feature followers return
+  for reuse, while farmers remain committed until final scoring.
+- Includes: each Carcassonne player keeping seven deployable meeples after
+  assigning the eighth to the score track.
+- Excludes: permanent consumption of every claimed piece; borrowing another
+  player's marker; treating the score-track marker as deployable.
+- Parameters: initial reserve, deployed followers, return events and marker
+  classes.
+- Evidence: [Carcassonne decomposition](../games/a-f/carcassonne.md), using
+  Z-Man's main rules and farmer supplement.
+- Novelty: first isolated for `GAME-0369`; scored workers recycle but farmer
+  commitments stay out of the reserve.
+
+## CON-671 — Exhaustible unreplenished shared tile supply ends play
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: turns draw from one finite, unreplenished shared tile supply;
+  an unplaceable drawn tile is discarded and another is drawn, and exhaustion
+  triggers final scoring rather than a solo failure.
+- Includes: the 71 face-down land tiles remaining after Carcassonne's start
+  tile is placed, with the River tiles excluded from this packet.
+- Excludes: a replenishable quest stack (`CON-059`); an action budget whose
+  exhaustion means immediate failure (`CON-020`); optional tile skipping.
+- Parameters: starting tile, draw count, forced-discard condition, remaining
+  supply and final-scoring trigger.
+- Evidence: [Carcassonne decomposition](../games/a-f/carcassonne.md), using
+  Z-Man's English main rules.
+- Novelty: first isolated for `GAME-0369`; exhaustion produces competitive
+  score settlement rather than a solo failure.
+
+## CON-672 — Furnished medical room and qualified worker gate service
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a medical service is available only when its room has a legal
+  footprint, valid access and required furnishings and an eligible worker
+  with the room's required role or skill is present.
+- Includes: Theme Hospital level-one Pharmacy with a nurse, Psychiatry with
+  a psychiatrist, and a GP's Office with a doctor after room construction.
+- Excludes: a decorative unfurnished floor outline; assuming an ordinary
+  doctor can perform a specialist psychiatric cure; construction payment
+  alone (`CON-171`); later-level surgery and research.
+- Parameters: room type, footprint, door, furnishing, worker role, skill,
+  presence, accessible queue and enabled service.
+- Evidence: [Theme Hospital decomposition](../games/s-z/theme-hospital.md),
+  using the original PC manual's room and staff requirements.
+- Novelty: first isolated for `GAME-0370`; physical commissioning and
+  professional qualification are conjunctive gates on one service.
+
+## CON-673 — Camera may turn but cannot steer an authored moving course
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during a bounded photo excursion, the carrier advances along
+  an authored route; the player may aim or look around, but those inputs do
+  not steer off the route or indefinitely preserve a passed scene window.
+- Includes: original Pokémon Snap's ZERO-ONE travelling through Beach while
+  the photographer looks around; looking behind slows but does not reverse it.
+- Excludes: directly steering a vehicle; drawing a transport line; a Walker
+  whose route changes when the player rotates world perspective (`CON-143`).
+- Parameters: authored course, carrier position, forward rate, look angle,
+  slowdown condition, missed opportunity and goal gate.
+- Evidence: [Pokémon Snap decomposition](../games/m-r/pokemon-snap.md), using
+  Nintendo's original instruction booklet, pp. 12–14 and 20–21.
+- Novelty: first isolated for `GAME-0371`; observation direction is under
+  player control while physical course progression is not.
+
+## CON-674 — One moving excursion has a finite photographic roll
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a new excursion begins with a fixed exposure allowance; every
+  committed shutter uses one exposure and no additional photo can be taken
+  in that excursion after the allowance is exhausted.
+- Includes: the original Pokémon Snap course roll of 60 pictures and the
+  on-screen remaining-film count.
+- Excludes: rechargeable camera battery and processing delay in Dead Rising;
+  permanent album storage limit; a combat-ammunition pool.
+- Parameters: starting exposures, used count, remaining count, shutter
+  eligibility, course reset and end-of-roll handling.
+- Evidence: [Pokémon Snap decomposition](../games/m-r/pokemon-snap.md), using
+  Nintendo's original instruction booklet, pp. 14–15.
+- Novelty: first isolated for `GAME-0371`; capture scarcity is an
+  excursion-local opportunity budget independent of later curation.
+
+## CON-675 — Appraisal accepts at most one candidate per subject type
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: post-session expert appraisal accepts at most one selected
+  captured frame for each identified subject type in that check, even when
+  the session contains multiple exposures of the same type.
+- Includes: Professor Oak's one-picture-per-Pokémon rule in Camera Check.
+- Excludes: limiting the number of shutter exposures (`CON-674`); optional
+  Album storage; a permanent one-picture lifetime limit, because a later
+  course can submit a better replacement.
+- Parameters: subject type, captured frames, current selection, replacement
+  mark, submission set and next-session eligibility.
+- Evidence: [Pokémon Snap decomposition](../games/m-r/pokemon-snap.md), using
+  Nintendo's original instruction booklet, pp. 14–17.
+- Novelty: first isolated for `GAME-0371`; finite acquisition and
+  per-species appraisal cardinality are separate restrictions.
+
+## CON-676 — Long notes and chords require continuous fret hold after the strum
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a valid strum starts a sustained chart note or chord, every
+  required fret must remain held until its long-note tail has played through;
+  hitting the head alone does not satisfy the full sustain.
+- Includes: Guitar Hero III's single-note and chord sustain rules in the Easy
+  Quick Play chart.
+- Excludes: simply holding frets without the initiating strum; an
+  instantaneous chord with no sustain; optional Whammy Bar expression.
+- Parameters: note start, required fret-lane set, sustain duration, release time and
+  credited held segment.
+- Evidence: [Guitar Hero III decomposition](../games/g-l/guitar-hero-iii-legends-of-rock.md),
+  Activision's PlayStation 3 instruction booklet, pp. 8–9.
+- Novelty: first isolated for `GAME-0372`; successful onset and continued
+  physical hold are separate obligations of one chart event.
+
+## CON-677 — Mouth and relative size restrict cell feeding
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a cell can obtain food only through a compatible mouth, and a
+  predatory cell's live prey must be no larger than the predator; contact with
+  an incompatible food source cannot replace that feeding path.
+- Includes: Spore Cell-stage herbivorous plant feeding and carnivorous feeding
+  on cells of the same or smaller size.
+- Excludes: treating a non-mouth collision as a meal; a universal diet
+  independent of the equipped mouth; a claim about exact prey-size ratios.
+- Parameters: mouth type, plant or cell food, relative body size and contact.
+- Evidence: [Spore decomposition](../games/s-z/spore.md), original EA manual,
+  pp. 18–19 and 30–31.
+- Novelty: first isolated for `GAME-0373`.
+
+## CON-678 — Cell-editor placement requires discovery, budget and valid form
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a proposed functional cell part can be committed only if that
+  type is available, the lineage can pay its DNA cost, its location is legal
+  and the resulting form remains within the editor's complexity limit.
+- Includes: a collected Spore cell part remaining unavailable until the next
+  Cell Creator visit, a red-highlighted invalid location and the DNA and
+  complexity meters constraining saved part layouts.
+- Excludes: cosmetic paint, which has no currency cost; assuming every
+  discovered part is already mounted; a fixed equipment-slot limit.
+- Parameters: unlock state, part price, DNA reserve, placement validity,
+  complexity capacity and refund.
+- Evidence: [Spore decomposition](../games/s-z/spore.md), original EA manual,
+  pp. 12–13 and 18–19.
+- Novelty: first isolated for `GAME-0373`.
+
+## CON-679 — Species arrival and residence require different garden conditions
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an individual piñata may advance only through the species-specific appearance, visit and residence condition gates; satisfying a weaker gate never substitutes for the stronger residency gate.
+- Includes: the separate stage requirements inspected through Condition Status in the original Viva Piñata.
+- Excludes: treating any visible wild visitor as resident; a fixed universal grass percentage for all species; housing or romance as universal prerequisites for first residency.
+- Parameters: species, stage, plants, neighbours, food, garden conditions and satisfied predicates.
+- Evidence: [Viva Piñata decomposition](../games/s-z/viva-pinata.md), original Xbox 360 booklet pp. 16–17.
+- Novelty: first isolated for `GAME-0375`; staged species habitat eligibility differs from `CON-635`'s fenced zoo transfer and `CON-230`'s crop viability.
+
+## CON-680 — Rolling pickup requires sufficient relative body size
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a loose world object can adhere to the directly steered
+  collection body only once that body's current measured size is sufficient
+  relative to the object's pickup requirement; contact with a too-large
+  object does not collect it.
+- Includes: a small Make a Star 1 katamari passing a large household object
+  and later collecting larger eligible items after growing on smaller ones.
+- Excludes: `CON-677`'s mouth- and diet-specific live prey rule; a fixed
+  inventory-slot capacity; a claim about an exact hidden size ratio for every
+  object; wall collision damage.
+- Parameters: current diameter, object-specific threshold, eligibility and
+  contact result.
+- Evidence: [Katamari Damacy REROLL decomposition](../games/g-l/katamari-damacy-reroll.md),
+  Bandai Namco's small-to-large collection description and a first-hand
+  REROLL stage report.
+- Novelty: first isolated for `GAME-0376`; the same object changes from an
+  obstruction to attachable body material as the controlled ball grows.
+
+## CON-681 — Hex-network building requires connected legal geometry
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a new road must occupy an empty eligible edge connected to the builder's network, a new settlement must occupy an empty eligible vertex at least two edges from every existing settlement or city and connect to the builder's road, and a city replaces an owned settlement.
+- Includes: CATAN base-game road, distance and city-upgrade legality.
+- Excludes: an ordinary new settlement without a supporting road; adjacent settlements at neighbouring vertices; a city built directly on vacant ground.
+- Parameters: hex graph, edge/vertex occupancy, ownership, distance, road connection and upgrade site.
+- Evidence: [CATAN decomposition](../games/a-f/catan.md), official base rules.
+- Novelty: first isolated for `GAME-0377`; build legality joins edge reach, vertex spacing and owned upgrade provenance.
+
+## CON-682 — Construction requires typed cards and available pieces
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a paid building or development purchase is available only when the player can return its exact typed resource cards and an appropriate personal piece or deck card remains in supply.
+- Includes: CATAN road, settlement, city and development-card costs and finite stocks.
+- Excludes: a free road placed by a development card; paying an interchangeable generic currency; exceeding a personal piece limit.
+- Parameters: construction type, cost vector, hand contents, piece reserve and deck count.
+- Evidence: [CATAN decomposition](../games/a-f/catan.md), official base rules.
+- Novelty: first isolated for `GAME-0377`; typed hand resources price spatial pieces and concealed deck purchases.
+
+## CON-683 — Harbour ownership unlocks a better bank ratio
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a player may use a general or resource-specific maritime trade discount only while owning a settlement or city at the corresponding harbour vertex; otherwise the base bank rate applies.
+- Includes: CATAN 3:1 generic and 2:1 specific harbours, alongside unrestricted 4:1 exchange.
+- Excludes: a road merely reaching a harbour; domestic bargains; a 2:1 rate for a nonmatching resource.
+- Parameters: harbour type, owned adjacent building, offered resource, rate and bank stock.
+- Evidence: [CATAN decomposition](../games/a-f/catan.md), official base rules.
+- Novelty: first isolated for `GAME-0377`; exchange efficiency is gated by an owned coastal board location.
+
+## CON-684 — Development play obeys turn and purchase timing
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: at most one knight or progress development card may be played during one's turn and no such card may be played on the turn it was bought, while victory-point reveal follows the printed winning-claim exception.
+- Includes: CATAN base-game development play timing and hidden winning-point cards.
+- Excludes: unlimited card chaining; playing a newly bought knight; treating an unrevealed point card as a public effect.
+- Parameters: active turn, card type, purchase turn, prior card play and victory threshold.
+- Evidence: [CATAN decomposition](../games/a-f/catan.md), official base rules.
+- Novelty: first isolated for `GAME-0377`; acquisition timing constrains strategic card effects separately from their resource price.
+
+## CON-685 — Leaving supported course geometry ends the attempt
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a moving stage body remains viable only while supported by the
+  authored playfield; departing the course into open space ends the current
+  attempt before its goal is reached.
+- Includes: the monkey-containing ball falling from Super Monkey Ball 2's
+  Story Mode platform during the scoped first-stage attempt.
+- Excludes: harmless contact with a platform wall; a recoverable fall that
+  resumes at a checkpoint within the same attempt; timer expiry, which is a
+  separate deadline constraint; loss of a finite Challenge Mode monkey.
+- Parameters: support boundary, falling threshold, stage state, goal contact
+  order and retry policy after the failed attempt.
+- Evidence: [Super Monkey Ball 2 decomposition](../games/s-z/super-monkey-ball-2.md),
+  original GameCube manual p. 9.
+- Novelty: first isolated for `GAME-0378`; spatial support loss is an
+  immediate local terminal even in Story Mode with unlimited new attempts.

@@ -37,6 +37,7 @@
 - [`GAME-0109` — Candy Crush Saga](../games/a-f/candy-crush-saga.md)
 - [`GAME-0135` — "Captain of Industry"](../games/a-f/captain-of-industry.md)
 - [`GAME-0302` — "Captain Toad: Treasure Tracker"](../games/a-f/captain-toad-treasure-tracker.md)
+- [`GAME-0369` — Carcassonne](../games/a-f/carcassonne.md)
 - [`GAME-0040` — Carto](../games/a-f/carto.md)
 - [`GAME-0011` — Chess](../games/a-f/chess.md)
 - [`GAME-0108` — Cocoon](../games/a-f/cocoon.md)
@@ -168,6 +169,8 @@
 - [`GAME-0124` — Against the Storm](../games/a-f/against-the-storm.md)
 - [`GAME-0304` — Azul](../games/a-f/azul.md)
 - [`GAME-0109` — Candy Crush Saga](../games/a-f/candy-crush-saga.md)
+- [`GAME-0369` — Carcassonne](../games/a-f/carcassonne.md)
+- [`GAME-0377` — CATAN](../games/a-f/catan.md)
 - [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
@@ -209,6 +212,7 @@
 - [`GAME-0124` — Against the Storm](../games/a-f/against-the-storm.md)
 - [`GAME-0017` — Balatro](../games/a-f/balatro.md)
 - [`GAME-0066` — Black Box](../games/a-f/black-box.md)
+- [`GAME-0377` — CATAN](../games/a-f/catan.md)
 - [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
 - [`GAME-0047` — Fights in Tight Spaces](../games/a-f/fights-in-tight-spaces.md)
@@ -1398,6 +1402,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0335` — RollerCoaster Tycoon Deluxe](../games/m-r/rollercoaster-tycoon-deluxe.md)
 - [`GAME-0166` — Sid Meier’s Civilization VI](../games/s-z/sid-meiers-civilization-vi.md)
 - [`GAME-0118` — SimCity 4 Deluxe Edition](../games/s-z/simcity-4-deluxe-edition.md)
+- [`GAME-0370` — Theme Hospital](../games/s-z/theme-hospital.md)
 - [`GAME-0134` — "Workers & Resources: Soviet Republic"](../games/s-z/workers-resources-soviet-republic.md)
 
 ## INF-059
@@ -1613,6 +1618,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 
 - [`GAME-0124` — Against the Storm](../games/a-f/against-the-storm.md)
 - [`GAME-0132` — Anno 1800](../games/a-f/anno-1800.md)
+- [`GAME-0368` — Dead Rising](../games/a-f/dead-rising.md)
 - [`GAME-0196` — Farming Simulator 25](../games/a-f/farming-simulator-25.md)
 - [`GAME-0130` — Frostpunk](../games/a-f/frostpunk.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
@@ -1731,6 +1737,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0127` — RimWorld](../games/m-r/rimworld.md)
 - [`GAME-0335` — RollerCoaster Tycoon Deluxe](../games/m-r/rollercoaster-tycoon-deluxe.md)
 - [`GAME-0158` — The Sims 4](../games/s-z/the-sims-4.md)
+- [`GAME-0370` — Theme Hospital](../games/s-z/theme-hospital.md)
 
 ## INF-073
 
@@ -1768,6 +1775,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
+- [`GAME-0368` — Dead Rising](../games/a-f/dead-rising.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
@@ -1778,6 +1786,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0352` — DOOM (1993)](../games/a-f/doom-1993.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
+- [`GAME-0361` — Fallout: New Vegas](../games/a-f/fallout-new-vegas.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
@@ -1793,6 +1802,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
+- [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
@@ -1827,9 +1837,11 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
+- [`GAME-0362` — "The Elder Scrolls III: Morrowind"](../games/s-z/the-elder-scrolls-iii-morrowind.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
@@ -2742,6 +2754,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
 - [`GAME-0161` — Dead by Daylight](../games/a-f/dead-by-daylight.md)
+- [`GAME-0368` — Dead Rising](../games/a-f/dead-rising.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
@@ -2753,6 +2766,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
+- [`GAME-0361` — Fallout: New Vegas](../games/a-f/fallout-new-vegas.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
@@ -2767,6 +2781,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
 - [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
+- [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
@@ -2954,6 +2969,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
 - [`GAME-0161` — Dead by Daylight](../games/a-f/dead-by-daylight.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
+- [`GAME-0368` — Dead Rising](../games/a-f/dead-rising.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
@@ -2969,6 +2985,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
+- [`GAME-0361` — Fallout: New Vegas](../games/a-f/fallout-new-vegas.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
@@ -2992,6 +3009,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
 - [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
+- [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
@@ -3028,6 +3046,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
+- [`GAME-0362` — "The Elder Scrolls III: Morrowind"](../games/s-z/the-elder-scrolls-iii-morrowind.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
@@ -3160,6 +3179,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0359` — "Crimson Skies: High Road to Revenge"](../games/a-f/crimson-skies-high-road-to-revenge.md)
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
+- [`GAME-0368` — Dead Rising](../games/a-f/dead-rising.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
 - [`GAME-0353` — "Deus Ex: Game of the Year Edition"](../games/a-f/deus-ex-game-of-the-year-edition.md)
@@ -3171,6 +3191,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
+- [`GAME-0361` — Fallout: New Vegas](../games/a-f/fallout-new-vegas.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
@@ -3188,6 +3209,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
 - [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
+- [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
@@ -3216,6 +3238,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0317` — StarCraft II](../games/s-z/starcraft-ii.md)
 - [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 - [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
+- [`GAME-0362` — "The Elder Scrolls III: Morrowind"](../games/s-z/the-elder-scrolls-iii-morrowind.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
@@ -3310,6 +3333,7 @@ Palbox, Monitoring Stand, сховища й екрани стану бази в 
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
+- [`GAME-0361` — Fallout: New Vegas](../games/a-f/fallout-new-vegas.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
 - [`GAME-0314` — Grounded](../games/g-l/grounded.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
@@ -3333,9 +3357,11 @@ Palbox, Monitoring Stand, сховища й екрани стану бази в 
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
+- [`GAME-0362` — "The Elder Scrolls III: Morrowind"](../games/s-z/the-elder-scrolls-iii-morrowind.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
@@ -3677,6 +3703,7 @@ Research Table, дерева технологій, Workbench і чергу ви�
 - [`GAME-0303` — Sifu](../games/s-z/sifu.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
+- [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
@@ -3814,7 +3841,9 @@ Research Table, дерева технологій, Workbench і чергу ви�
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
 - [`GAME-0353` — "Deus Ex: Game of the Year Edition"](../games/a-f/deus-ex-game-of-the-year-edition.md)
+- [`GAME-0361` — Fallout: New Vegas](../games/a-f/fallout-new-vegas.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
+- [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
@@ -4469,6 +4498,7 @@ Rank Z, 1 000 Ticket Points, Challenger's Ticket і Zach у Pokémon Legends: Z-
 - [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
+- [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 
 ## INF-180
@@ -5074,6 +5104,7 @@ Echo Detector у двох досліджених пошуках.
 ### Ігри-носії
 
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
+- [`GAME-0374` — Burnout Paradise](../games/a-f/burnout-paradise.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0309` — "Mario Kart 8 Deluxe"](../games/m-r/mario-kart-8-deluxe.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
@@ -5155,6 +5186,7 @@ Ryu і Luke на арені дослідженого Versus.
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
+- [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 
 ## INF-210
@@ -5178,6 +5210,7 @@ Ryu і Luke на арені дослідженого Versus.
 
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
+- [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 
 ## INF-211
@@ -6719,6 +6752,7 @@ Burst Nitrous, рівень уваги, погоня, пошук і стан г�
 ### Ігри-носії
 
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
+- [`GAME-0361` — Fallout: New Vegas](../games/a-f/fallout-new-vegas.md)
 
 ## INF-282
 
@@ -7091,9 +7125,11 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 - [`GAME-0277` — Cuphead](../games/a-f/cuphead.md)
 - [`GAME-0278` — DAVE THE DIVER](../games/a-f/dave-the-diver.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
+- [`GAME-0372` — "Guitar Hero III: Legends of Rock"](../games/g-l/guitar-hero-iii-legends-of-rock.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
+- [`GAME-0371` — Pokémon Snap](../games/m-r/pokemon-snap.md)
 
 ## INF-300
 
@@ -8270,6 +8306,7 @@ HUD і видимі Walker leg та Dragon у Ragnarok’s Canyon Battletoads, �
 
 ### Ігри-носії
 
+- [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 
 ## INF-357
@@ -8586,3 +8623,297 @@ Scan Visor протягом обмеженого вступу на Frigate Orphe
 ### Ігри-носії
 
 - [`GAME-0357` — "Grand Theft Auto: San Andreas"](../games/g-l/grand-theft-auto-san-andreas.md)
+
+## INF-372
+
+- Назва: Показувати доступну дію та сфокусовану ціль
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Під час гри значок дії або позначка фокусування змінюється залежно від положення персонажа й поточної цілі та ще до натискання показує дозволену контекстну команду; гравцеві не потрібно пам’ятати окрему дію для кожного об’єкта й персонажа.
+
+### Включає
+
+Підказки OPEN, SPEAK і CHECK для кнопки A, трикутник Наві й курсор фокусування біля персонажа або важливого об’єкта в лісі Кокірі та Дереві Деку в Ocarina of Time.
+
+### Виключає
+
+Незмінний значок предмета в інвентарі; підказку, що з’являється лише після дії; мапу невідвіданих кімнат; нерозкриті майбутні дії; саме натискання, яке відчиняє двері чи починає розмову.
+
+### Ігри-носії
+
+- [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
+
+## INF-373
+
+- Назва: Показувати кеглі, фрейми й очікуваний рахунок
+- Переглянуто: `2026-09-22`
+
+### Операційне визначення
+
+Екран боулінгу показує кеглі, що залишилися, номер фрейму, результати кидків і накопичений рахунок, тоді як остаточне значення незавершеного страйка чи спейра ще залежить від наступних кидків.
+
+### Включає
+
+Доріжку й підсумки десятифреймової партії в оригінальному боулінгу Wii Sports для одного Mii.
+
+### Виключає
+
+Наперед показану точну траєкторію кулі; приховану формулу зміни майстерності; безумовно остаточний рахунок до розв’язання всіх відкладених бонусів.
+
+### Ігри-носії
+
+- [`GAME-0364` — Wii Sports](../games/s-z/wii-sports.md)
+
+## INF-374
+
+- Назва: Показувати ланцюг трюків, баланс, час і цілі парку
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Інтерфейс показує поточну послідовність трюків і попередні очки, індикатори балансу під час відповідних тривалих трюків, залишок часу заїзду та заявлені цілі парку чи стан їх зарахування, щоб гравець міг змінити ланцюг і маршрут до підсумку.
+
+### Включає
+
+Стандартний інтерфейс і список цілей Tour у Warehouse гри Tony Hawk's Pro Skater 1 + 2.
+
+### Виключає
+
+Гарантію успішного майбутнього приземлення; точне прогнозування множника для невідомих проходів; показ усіх прихованих предметів; сам параметр приховування окремих елементів інтерфейсу.
+
+### Ігри-носії
+
+- [`GAME-0365` — Tony Hawk’s Pro Skater 1 + 2](../games/s-z/tony-hawks-pro-skater-1-plus-2.md)
+
+## INF-375
+
+- Назва: Показувати тип захисту цілі перед вибором здібності
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Бойова шкала відокремлює здоров’я обраного ворога від залишку його щита, броні або бар’єра, щоб до вибору здібності гравець міг оцінити, які поточні удари чи ефекти діятимуть на захищену ціль.
+
+### Включає
+
+Шкалу обраного ворога й підказки меню здібностей у Mass Effect 2 під час боїв на станції «Лазар» і Freedom's Progress.
+
+### Виключає
+
+Показ точних майбутніх дій ворога; одну нерозділену шкалу здоров’я; приховану числову шкоду здібності; визначення захисту лише після невдалої дії.
+
+### Ігри-носії
+
+- [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
+
+## INF-376
+
+- Назва: Показувати готовність камери й підказки для кадру
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Видошукач до знімка показує заряд, готовність обробки та позначки людей або можливих очок у поточному кадрі, щоб гравець міг вирішити, коли натиснути спуск.
+
+### Включає
+
+Індикатор заряду, завершення обробки, позначки цілей і датчик PP у Dead Rising.
+
+### Виключає
+
+Точне передбачення майбутнього руху людей; лише підсумкові очки після знімка; звичайні показники здоров’я чи спорядження; саму дію фотографування.
+
+### Ігри-носії
+
+- [`GAME-0368` — Dead Rising](../games/a-f/dead-rising.md)
+
+## INF-377
+
+- Назва: Показувати направлення, черги й квартальні цілі лікарні
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Брифінг, картка пацієнта, список черги та звіт про стан показують поточний діагноз і потребу в направленні, навантаження кабінетів та поступ за кожною оголошеною квартальною ціллю чи умовою поразки.
+
+### Включає
+
+Початковий брифінг, черги, довідник хвороб і звіт із п’ятьма показниками першої лікарні Theme Hospital.
+
+### Виключає
+
+Точну послідовність майбутніх пацієнтів; усі приховані ймовірності лікування чи ваги репутації; сам процес лікування.
+
+### Ігри-носії
+
+- [`GAME-0370` — Theme Hospital](../games/s-z/theme-hospital.md)
+
+## INF-378
+
+- Назва: Показувати розпізнавання істоти й залишок плівки у видошукачі
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Під час фотозаїзду дисплей камери показує кількість кадрів, що залишилися, і датчик фокуса: він упізнає істоту, позначає ще не внесений до звіту вид як новий або вказує на нерозпізнану ціль, не розкриваючи її майбутню оцінку.
+
+### Включає
+
+Червоний Focus Sensor, позначки NEW і ? та індикатор плівки під час знімання на Beach в оригінальному Pokémon Snap.
+
+### Виключає
+
+Заряд акумулятора й індикатор обробки Dead Rising; пізніший розбір балів професора Оука; повний список істот, які з’являться попереду.
+
+### Ігри-носії
+
+- [`GAME-0371` — Pokémon Snap](../games/m-r/pokemon-snap.md)
+
+## INF-379
+
+- Назва: Показувати наближення нот і стан виступу
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Кольоровий графік показує найближчі ноти, акорди й довгі утримання, а поточні очки, множник, Rock Meter і заряд Star Power повідомляють стан для вибору часу наступної дії та ризик поразки.
+
+### Включає
+
+Доріжку ладів і показники виступу одиночної пісні Guitar Hero III.
+
+### Виключає
+
+Повний графік пісні наперед; статистику після завершення; музику без явної доріжки нот для перевірки влучань.
+
+### Ігри-носії
+
+- [`GAME-0372` — "Guitar Hero III: Legends of Rock"](../games/g-l/guitar-hero-iii-legends-of-rock.md)
+
+## INF-380
+
+- Назва: Показувати зростання, ДНК, здоров’я й частини клітини
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Під час гри інтерфейс окремо показує просування зростання, доступну для витрат ДНК і поточне здоров’я, а перелік знахідок та редактор показують, які частини відкрито для наступної зміни тіла.
+
+### Включає
+
+Шкалу Progress Bar, ДНК, Health meter, перелік частин My Collection і палітру Cell Creator на етапі Cell у Spore.
+
+### Виключає
+
+Точні приховані коефіцієнти перетворення їжі на зростання; повний огляд ще не знайдених частин; ототожнення здоров’я й ДНК як ресурсів.
+
+### Ігри-носії
+
+- [`GAME-0373` — Spore](../games/s-z/spore.md)
+
+## INF-381
+
+- Назва: Підказувати напрямок і відстань до фінішу в місті
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Під час перегонів без обов’язкового маршруту інтерфейс показує напрямок до фінішу, поточний напрямок автомобіля, залишок відстані й рекомендований поворот на наближуваному перехресті, але дозволяє обрати іншу вулицю.
+
+### Включає
+
+Компас, лічильник відстані, підсвічені дорожні знаки й мапу Paradise City у звичайних перегонах оригінальної Burnout Paradise для Xbox 360.
+
+### Виключає
+
+Лише швидкість і передачу на приладовій панелі, обов’язковий ланцюжок контрольних точок, уже отриманий результат перегонів, всезнання маршруту суперників і доступність події до старту.
+
+### Ігри-носії
+
+- [`GAME-0374` — Burnout Paradise](../games/a-f/burnout-paradise.md)
+
+## INF-382
+
+- Назва: Показувати етапні умови для виділеного виду
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Інформаційне вікно виділеної піньяти показує Condition Status, щоб гравець відрізняв потрібне для появи, візиту й поселення перед зміною саду.
+
+### Включає
+
+Виділення піньяти в оригінальній Viva Piñata, натискання Y і перегляд вкладки Condition Status.
+
+### Виключає
+
+Показ ще недоступних майбутніх видів, точний прогноз часу приходу або приписування Whirlm непідтвердженого числового порога.
+
+### Ігри-носії
+
+- [`GAME-0375` — Viva Piñata](../games/s-z/viva-pinata.md)
+
+## INF-383
+
+- Назва: Показувати діаметр, мету й залишок часу
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Під час обмеженого часом етапу інтерфейс показує поточний розмір зростаючої кульки, потрібний розмір і час, що лишився, щоб гравець міг оцінювати поступ.
+
+### Включає
+
+Показники першого повторного зоряного етапу Katamari Damacy REROLL; конкретні цифри слід звірити на цільовій PS4.
+
+### Виключає
+
+Точний розмір кожного ще не піднятого предмета, прихований коефіцієнт удару й твердження про перевірений PS4-таймер без прямого огляду.
+
+### Ігри-носії
+
+- [`GAME-0376` — Katamari Damacy REROLL](../games/g-l/katamari-damacy-reroll.md)
+
+## INF-384
+
+- Назва: Бачити поле виробництва, але не чужі руки ресурсів
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Усім видно номери й типи гексів, розбійника, дороги, споруди, гавані, запаси фігур і відкриті очки, але склад карток ресурсів і розвитку в руках інших гравців прихований.
+
+### Включає
+
+Спільне поле й таблиці вартості CATAN поруч із закритими картками гравців і колодою розвитку.
+
+### Виключає
+
+Повністю відкритий стан усіх рук, приховані номери гексів і прирівнювання видимої кількості карток до знання їхніх видів.
+
+### Ігри-носії
+
+- [`GAME-0377` — CATAN](../games/a-f/catan.md)
+
+## INF-385
+
+- Назва: Бачити трасу, швидкість, час і необов’язковий рахунок
+- Переглянуто: `2026-09-23`
+
+### Операційне визначення
+
+Під час проходження інтерфейс показує рухому кулю й видиму близьку частину траси разом із залишком часу, поточною швидкістю, позначенням етапу, рахунком і кількістю бананів; безпечний подальший маршрут гравець оцінює сам.
+
+### Включає
+
+Основний екран дослідженої траси сюжетного режиму Super Monkey Ball 2 з кулею, платформою, таймером, швидкістю, очками й бананами.
+
+### Виключає
+
+Накладений готовий маршрут, екран платформера зі скінченним запасом життів за INF-347, лише підсумковий рахунок і лічильник життів режиму Challenge як частину цієї сюжетної спроби.
+
+### Ігри-носії
+
+- [`GAME-0378` — Super Monkey Ball 2](../games/s-z/super-monkey-ball-2.md)

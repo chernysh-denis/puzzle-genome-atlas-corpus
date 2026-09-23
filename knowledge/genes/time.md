@@ -815,3 +815,27 @@
 - Novelty: first isolated for `GAME-0338`; the corpus previously had strict
   turns, visible queues and live simultaneous input, but no independently
   filling command-readiness clocks for both player and enemy actors.
+
+## TIM-027 — Pause live combat while selecting radial squad commands
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: holding the tactical command radial suspends the ordinary
+  real-time combat clock while the player inspects targets and commits
+  available squad powers or equipment choices; closing the radial returns
+  those commitments to live resolution.
+- Includes: Mass Effect 2's power and weapon wheels during the bounded
+  Lazarus and Freedom's Progress encounters, including one queued power for
+  each eligible squadmate while the power wheel is open.
+- Excludes: permanent turn conversion; a pause menu that accepts no tactical
+  orders; a cooldown which continues independently of live combat; movement
+  or shooting while the radial remains held.
+- Parameters: wheel state, paused clock, visible target, squadmate, queued
+  power, equipment choice and resume event.
+- Evidence: [Mass Effect 2 (Legendary Edition) decomposition](../games/m-r/mass-effect-2-legendary-edition.md),
+  using the official Xbox manual and EA's Legendary Edition update account.
+- Novelty: first isolated for `GAME-0367`; this is a reversible time boundary
+  inside a directly controlled shooter, not an actor-readiness turn or merely
+  a slow-motion power.

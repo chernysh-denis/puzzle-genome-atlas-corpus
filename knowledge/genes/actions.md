@@ -9935,3 +9935,434 @@
 - Novelty: first isolated for `GAME-0359`; one discrete command requests a
   carrier-authored orientation or burst inside continuous arcade flight rather
   than directly composing throttle, pitch, yaw and roll.
+
+## ACT-497 — Commit a fixed set of distinct starting skill specialisations
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: before campaign entry, the player selects and confirms exactly a
+  declared number of distinct skills from a larger list, applying the starting
+  specialisation bonus to each chosen skill without spending a numeric point
+  pool.
+- Includes: selecting Explosives, Medicine and Speech as Fallout: New Vegas's three
+  tagged skills before leaving Doc Mitchell's character-creation sequence.
+- Excludes: distributing numeric attribute points (`ACT-401`); selecting a
+  class; choosing optional traits; spending a later skill or perk point;
+  training one active agent; a temporary equipment bonus.
+- Parameters: available skills, required count, distinctness, selected set,
+  confirmation, starting bonus, persistence and reset availability.
+- Evidence: [Fallout: New Vegas decomposition](../games/a-f/fallout-new-vegas.md),
+  using the official English PC manual and the fixed Goodsprings route.
+- Novelty: first isolated for `GAME-0361`; no lower-ID action commits a fixed
+  multi-skill creation set independently of a numeric attribute pool or later
+  advancement resource.
+
+## ACT-498 — Set the standing position and aiming line before a delivery
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: before releasing a lane-bound body, the player switches between
+  lateral standing-position and aiming-angle controls and adjusts the intended
+  delivery line without yet committing the body to motion.
+- Includes: choosing where to stand and where to aim with the Wii Remote
+  directional controls in original Wii Sports Bowling.
+- Excludes: aiming a fixed launcher (`ACT-113`); steering a ball after release;
+  choosing the direction of a free throw without a separate lane alignment.
+- Parameters: stance offset, aim angle, active adjustment mode, input, lane
+  geometry, committed line and pre-release revision.
+- Evidence: [Wii Sports decomposition](../games/s-z/wii-sports.md), using
+  Nintendo's original Wii Sports manual, printed pages 8–9.
+- Novelty: first isolated for `GAME-0364`; the player independently adjusts
+  stance and aim before an embodied delivery, rather than moving a fixed
+  projectile launcher or steering a body after release.
+
+## ACT-499 — Release a motion-sampled rolling delivery
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while holding the delivery control, the player performs a
+  physical swing; releasing that control at a sampled moment commits the ball
+  to the lane, while a wrist turn can alter its spin.
+- Includes: holding B, swinging the Wii Remote and releasing B near the bottom
+  of the swing with optional wrist twist in original Wii Sports Bowling.
+- Excludes: clicking a fixed launcher (`ACT-113`); a button-only charged shot;
+  direct control of the ball after it is released; automatic release at the
+  bottom of the gesture.
+- Parameters: hold state, swing samples, release timing, wrist orientation,
+  initial motion, spin, lane alignment and committed ball.
+- Evidence: [Wii Sports decomposition](../games/s-z/wii-sports.md), using
+  Nintendo's original Wii Sports manual, printed pages 8–9.
+- Novelty: first isolated for `GAME-0364`; the committed shot is derived from
+  the timed physical controller gesture and explicit B release.
+
+## ACT-500 — Select a contextual skateboard trick and transfer the line
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while steering a moving skater, the player selects an eligible
+  directional trick input for the current air, rail or ground-contact state
+  and can use a manual or revert to transfer into another eligible trick
+  without first settling the entire connected line.
+- Includes: PlayStation flip, grab and grind inputs, directional Manual and
+  Nose Manual, air rotation and revert-supported continuation in the default
+  Tony Hawk's Pro Skater 1 + 2 Warehouse Tour moveset.
+- Excludes: changing the skater's permanent trick slots; automatic stunt
+  selection; a fixed combat attack string; score awarded without a landed
+  trick; use of Classic THPS1 or Classic THPS2 legacy movesets.
+- Parameters: moving body, surface state, direction, trick family, rotation,
+  stance, transfer timing, continuation eligibility and landing.
+- Evidence: [Tony Hawk's Pro Skater 1 + 2 decomposition](../games/s-z/tony-hawks-pro-skater-1-plus-2.md),
+  using Activision's controls and scoring guidance and its default-moveset
+  accessibility specification.
+- Novelty: first isolated for `GAME-0365`; the selected trick changes with
+  traversal contact and may bridge a still-unsettled score line.
+
+## ACT-501 — Correct balance during a sustained board trick
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: while a rail grind or manual remains active, the player adjusts
+  the moving skater's balance in response to the exposed balance state to
+  maintain that trick and its connected line before voluntarily leaving it.
+- Includes: active correction of a grind or manual in the default, unassisted
+  Tony Hawk's Pro Skater 1 + 2 Warehouse Tour rules.
+- Excludes: the Perfect Rail Balance or Perfect Manual Balance assists;
+  a one-time choice of stance; merely viewing the balance meter; a generic
+  health or stamina recovery action.
+- Parameters: trick mode, balance deviation, correction input, duration,
+  allowable range, exit and bail.
+- Evidence: [Tony Hawk's Pro Skater 1 + 2 decomposition](../games/s-z/tony-hawks-pro-skater-1-plus-2.md),
+  using Activision's explicit balance-meter, assist and tutorial description;
+  exact input-to-meter coefficients were not measured.
+- Novelty: first isolated for `GAME-0365`; balance is continuously corrected
+  during a contact trick rather than fixed by the initial trick choice.
+
+## ACT-502 — Commit a photograph of the current camera frame
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when the current camera has a valid capture allowance and is
+  ready, the player frames a reachable live subject and commits one shutter
+  input, capturing that instant's scene for content-sensitive evaluation.
+- Includes: photographing Jeff and Natalie's rooftop reunion in Dead Rising's
+  original 72 Hour Mode rule set, with the scene and camera state checked at
+  the shutter rather than when aiming began; taking a finite-film Pikachu
+  photograph during Pokémon Snap's automatically advancing Beach course.
+- Excludes: passively viewing a scene; cinematic screenshots outside the game;
+  camera placement that alters physical world geometry; zooming without a
+  committed exposure; subsequent photo scoring and record comparison
+  (`SYS-1001`, `SYS-1009`).
+- Parameters: subject, framing, camera reach, battery or remaining film,
+  processing readiness where applicable, shutter instant, captured image and
+  evaluation eligibility.
+- Evidence: [Dead Rising decomposition](../games/a-f/dead-rising.md), using
+  Capcom's original manual and two independent opening routes; and
+  [Pokémon Snap decomposition](../games/m-r/pokemon-snap.md), using Nintendo's
+  original instruction booklet.
+- Novelty: first isolated for `GAME-0368`; the captured scene is a scored
+  observation, not a weapon shot or a world-changing photo projection.
+  `TAXONOMY_CHANGE_110` clarifies readiness across rechargeable and finite-film
+  cameras without changing the earlier Dead Rising signature.
+
+## ACT-503 — Claim one feature on the just-placed tile with a follower
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after placing the current landscape tile, the player may commit
+  one available follower to one eligible feature on that new tile, assigning
+  it to its connected road, city, monastery or field.
+- Includes: placing one upright Carcassonne meeple on a road, city or monastery,
+  or laying one down as a farmer on a field of the tile just placed.
+- Excludes: placing a follower on an older tile; placing two in one turn;
+  scoring or returning it.
+- Parameters: feature type, new tile, follower colour, posture and supply.
+- Evidence: [Carcassonne decomposition](../games/a-f/carcassonne.md), using
+  Z-Man's English main rules and farmer supplement.
+- Novelty: first isolated for `GAME-0369`; tile placement and optional feature
+  claim are separate sequential decisions.
+
+## ACT-504 — Blueprint and furnish a service room before opening it
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player draws a legal room footprint, commits its door and
+  required furniture in valid positions, then opens that furnished room for
+  the service associated with its declared type.
+- Includes: constructing a GP's Office, General Diagnosis, Pharmacy,
+  Psychiatry or Inflation Clinic in Theme Hospital's first hospital.
+- Excludes: merely placing a fixed corridor item (`ACT-139`); treating a
+  patient; room operation without an eligible worker (`CON-672`).
+- Parameters: room type, footprint, cost, minimum size, door, required
+  furniture, placement legality and open state.
+- Evidence: [Theme Hospital decomposition](../games/s-z/theme-hospital.md),
+  using the original Bullfrog/Electronic Arts PC manual's build-room and
+  first-hospital tutorial sections.
+- Novelty: first isolated for `GAME-0370`; a service room is commissioned
+  through separately validated shell, access and interior stages.
+
+## ACT-505 — Edit patient routing queues and diagnosis policy
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player changes a persistent hospital rule for handling
+  partially diagnosed patients or staff rest, or reorders/transfers a patient
+  among eligible same-service queues before the next service begins.
+- Includes: Theme Hospital queue limits and transfers, Send Home/Guess at
+  Cure diagnosis thresholds and staff-rest threshold in its first hospital.
+- Excludes: directly controlling every patient step; an incompatible room
+  transfer; treatment outcome itself (`SYS-1006`); creating a room.
+- Parameters: policy, threshold, current diagnosis confidence, queue,
+  service type, eligible destination and moved patient.
+- Evidence: [Theme Hospital decomposition](../games/s-z/theme-hospital.md),
+  using the original PC manual's Queue and Hospital Policy panels.
+- Novelty: first isolated for `GAME-0370`; editable decision thresholds and
+  queue interventions change how uncertain people consume finite service.
+
+## ACT-506 — Place an item lure near an autonomous subject
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during a live scene, the player throws an available non-damaging
+  lure toward a reachable location near a mobile subject so that the subject
+  may respond to the item's position without receiving a direct command.
+- Includes: throwing unlocked Pokémon Food beside Pikachu on Pokémon Snap's
+  Beach course while the camera is not focused.
+- Excludes: directly steering the subject; a wall-tap sound lure (`ACT-489`);
+  a hostile projectile; the subject's subsequent response (`SYS-1008`).
+- Parameters: item availability, throw origin and trajectory, landing point,
+  subject proximity, use mode and camera-focus exclusion.
+- Evidence: [Pokémon Snap decomposition](../games/m-r/pokemon-snap.md), using
+  Nintendo's original instruction booklet, pp. 10–11 and 20–21.
+- Novelty: first isolated for `GAME-0371`; a placed non-damaging item opens a
+  photographic response opportunity rather than changing the route or
+  damaging a target.
+
+## ACT-507 — Mark one captured frame per species for expert review
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a bounded capture session, the player selects one
+  exposure for a named subject type and marks it for later expert appraisal;
+  changing that selection replaces the candidate for the same type.
+- Includes: choosing one Pikachu photograph from Camera Check and applying
+  Professor Oak's Mark before Pokémon Snap's post-course check.
+- Excludes: taking the photograph (`ACT-502`); a separate Album-only mark;
+  submitting all pictures of the species at once; the appraisal result
+  (`SYS-1009`).
+- Parameters: available frames, identified species, chosen candidate,
+  existing mark, replacement, reviewer and submission timing.
+- Evidence: [Pokémon Snap decomposition](../games/m-r/pokemon-snap.md), using
+  Nintendo's original instruction booklet, pp. 14–17.
+- Novelty: first isolated for `GAME-0371`; post-capture curation is a distinct
+  decision from the live shutter and from automated score comparison.
+
+## ACT-508 — Fret and strum a charted note at its judgement line
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: hold the fret buttons corresponding to a displayed single note
+  or simultaneous chord, then strum as that event reaches the judgement line;
+  the committed input is tested against the authored chart event.
+- Includes: the Guitar Hero III Easy single-player Quick Play chart, using
+  green, red and yellow frets.
+- Excludes: pressing a button to dodge a spatial hazard; an unprompted free
+  musical performance; an automatic hit from holding the fret without a strum.
+- Parameters: chart, coloured lane set, event timestamp, fret set, strum
+  direction, timing window and hit classification.
+- Evidence: [Guitar Hero III decomposition](../games/g-l/guitar-hero-iii-legends-of-rock.md),
+  Activision's PlayStation 3 instruction booklet, pp. 8–9.
+- Novelty: first isolated for `GAME-0372`; charted simultaneous fretting and
+  strumming are one input commitment, not a generic one-button timing check.
+
+## ACT-509 — Activate stored performance power during a song
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when the earned performance meter reaches its declared minimum,
+  the player deliberately activates it during the live chart and spends the
+  stored charge over a temporary amplified-scoring interval.
+- Includes: tilting the PS3 Guitar Hero Les Paul controller or pressing SELECT
+  at half-full Star Power during a Guitar Hero III solo song.
+- Excludes: merely earning a charge from a phrase; an always-on multiplier;
+  battle-mode attacks against another player.
+- Parameters: charge threshold, activation input, activation time, drain,
+  modified scoring and expiry.
+- Evidence: [Guitar Hero III decomposition](../games/g-l/guitar-hero-iii-legends-of-rock.md),
+  Activision's PlayStation 3 instruction booklet, p. 10.
+- Novelty: first isolated for `GAME-0372`; a saved phrase-earned charge has a
+  player-chosen activation time distinct from continuous note execution.
+
+## ACT-510 — Call and reach a mate to enter a live-stage body editor
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while controlling a living stage actor, the player invokes a
+  mating call and reaches the responding mate to transfer from the live world
+  into an editor for the next version of that actor.
+- Includes: Spore's Cell-stage call, swim to the mate and entry into the Cell
+  Creator after the first discovered part makes the call available.
+- Excludes: opening an independent gallery editor without a live-stage mate;
+  automatic growth without an editor visit; changing parts while swimming.
+- Parameters: call availability, mate position, approach control and editor
+  entry transition.
+- Evidence: [Spore decomposition](../games/s-z/spore.md), original EA manual,
+  pp. 18–19 and 30–31.
+- Novelty: first isolated for `GAME-0373`.
+
+## ACT-511 — Revise a live lineage's body by placing or removing parts
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: in an editor reached from an active life stage, the player
+  positions an available functional body part on the controlled lineage or
+  removes one, then saves that revised form for resumed play.
+- Includes: placing, adjusting or removing Spore Cell Creator mouths,
+  locomotion parts and weapons before saving the cell and returning to water.
+- Excludes: purely cosmetic paint; a fixed equipment slot swap during combat;
+  creating an unrelated creature in a standalone gallery.
+- Parameters: part category, geometry, rotation, cost, refund and save state.
+- Evidence: [Spore decomposition](../games/s-z/spore.md), original EA manual,
+  pp. 12–13 and 18–19.
+- Novelty: first isolated for `GAME-0373`.
+
+## ACT-512 — Clear obstructing garden junk with a tool
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: aim a garden tool at one obstructing junk object and commit repeated removal input until that object no longer occupies its patch of garden ground.
+- Includes: using Leafos's first shovel to remove junk in the original Viva Piñata garden tutorial.
+- Excludes: digging for a buried object; harvesting a crop; destroying a resident piñata; paying an agent to clear an area.
+- Parameters: tool, junk object, location, input repetition and cleared ground.
+- Evidence: [Viva Piñata decomposition](../games/s-z/viva-pinata.md), from the original Xbox 360 booklet pp. 8–9, 14–15.
+- Novelty: first isolated for `GAME-0375`; this is removal of an authored garden obstruction, not terrain excavation or a collectible harvest.
+
+## ACT-513 — Negotiate an active-player resource exchange
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the active player negotiates a typed resource-card exchange with another participant; either may propose terms, but both transfer cards only when the turn player accepts an agreed offer.
+- Includes: domestic trade during CATAN's trade phase, including a rival's counteroffer to the active player.
+- Excludes: a unilateral gift; bank exchange (`ACT-514`); trading development cards; an offer that the other participant declines.
+- Parameters: active player, counterparty, offered types and counts, requested types and counts, acceptance and transferred hands.
+- Evidence: [CATAN decomposition](../games/a-f/catan.md), official base rules.
+- Novelty: first isolated for `GAME-0377`; bilateral voluntary exchange has a responder's approval rather than an automatic price calculation.
+
+## ACT-514 — Exchange a matching resource set with the bank
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: return an eligible number of same-type resource cards to a common supply and select one resource card of another type at the rate allowed by current spatial entitlements.
+- Includes: CATAN 4:1 maritime trade and eligible 3:1 or 2:1 harbour trade.
+- Excludes: bilateral domestic negotiation (`ACT-513`); free cards from a development effect; an exchange without enough matching cards.
+- Parameters: input type/count, requested type, harbour entitlement, rate, bank supply and resulting hand.
+- Evidence: [CATAN decomposition](../games/a-f/catan.md), official base rules.
+- Novelty: first isolated for `GAME-0377`; a fixed bank conversion is distinct from another player's accepted bargain.
+
+## ACT-515 — Pay and place one legal network building
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: spend the typed resource cost and take one available personal piece to occupy a legal board edge or vertex, or replace one's own lower building with its allowed upgrade.
+- Includes: CATAN road, settlement and settlement-to-city construction.
+- Excludes: free Road Building card placement; an unaffordable or illegal placement; purchasing a development card (`ACT-516`).
+- Parameters: piece type, cost, reserve, edge or vertex, road connection, distance rule, ownership and returned replaced piece.
+- Evidence: [CATAN decomposition](../games/a-f/catan.md), official base rules.
+- Novelty: first isolated for `GAME-0377`; finite paid pieces alter a shared hex-vertex network and future production sites.
+
+## ACT-516 — Buy one concealed development draw
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: pay the declared resource trio during the build phase and take the top face-down card from a finite development deck into the private hand without choosing its identity.
+- Includes: CATAN's ore, wool and grain development-card purchase.
+- Excludes: playing the card (`ACT-517`); choosing a face-up offer; buying when the deck is exhausted.
+- Parameters: typed cost, deck count/order, drawn card and private hand.
+- Evidence: [CATAN decomposition](../games/a-f/catan.md), official base rules.
+- Novelty: first isolated for `GAME-0377`; the purchase is a paid hidden draw, not selection of a known item.
+
+## ACT-517 — Play an eligible development card
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: select an eligible held development card during one's own turn, reveal and commit it to its declared rule effect under the one-card and purchase-turn restrictions.
+- Includes: CATAN knight or progress-card play; revealing a victory-point card to establish a winning total uses its special rule.
+- Excludes: buying the card (`ACT-516`); trading it; playing two knights or progress cards in the same turn.
+- Parameters: card identity, acquisition turn, active player, already-played count, target choice and resulting effect.
+- Evidence: [CATAN decomposition](../games/a-f/catan.md), official base rules.
+- Novelty: first isolated for `GAME-0377`; a concealed purchased card is committed at a player-selected legal moment.
+
+## ACT-518 — Relocate a robber and select a neighbouring victim
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a robber-triggering event, select a different terrain hex for the robber and, if opponents own adjacent buildings, choose one for a random resource-card theft.
+- Includes: CATAN robber relocation after a seven or played knight.
+- Excludes: the forced over-limit discards; selecting a known specific card from the victim's concealed hand; leaving the robber on its current hex.
+- Parameters: source and destination hex, adjacent owners, chosen victim and randomly transferred resource.
+- Evidence: [CATAN decomposition](../games/a-f/catan.md), official base rules.
+- Novelty: first isolated for `GAME-0377`; a publicly moved production block pairs spatial denial with a private random steal.
+
+## ACT-519 — Continuously tilt a stage to steer a rolling body
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: vary the angle of the traversable playfield with a continuous
+  directional input so that gravity steers a moving body along the authored
+  surface without directly commanding the body's position or a fixed move.
+- Includes: tilting Super Monkey Ball 2's *Simple* stage with the GameCube
+  Control Stick to guide the monkey-containing ball toward the goal.
+- Excludes: `ACT-008`'s direct avatar locomotion; `ACT-097`'s discrete choice
+  of a new gravity-down face; moving the camera without changing the field;
+  selecting a target for automatic pathfinding.
+- Parameters: tilt axes, stick position, input duration, angle limit and body
+  contact state.
+- Evidence: [Super Monkey Ball 2 decomposition](../games/s-z/super-monkey-ball-2.md),
+  original GameCube manual p. 9 and publisher-supplied Nintendo description.
+- Novelty: first isolated for `GAME-0378`; the player controls field slope,
+  while the ball responds through live physical motion.

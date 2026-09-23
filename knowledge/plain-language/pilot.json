@@ -64721,6 +64721,657 @@
           "exampleEn": "Move before the formation's next descent."
         }
       }
+    },
+    "GAME-0361": {
+      "genes": {
+        "ACT-497": {
+          "labelUk": "Обери рівно три профільні навички",
+          "labelEn": "Tag exactly three starting skills",
+          "explanationUk": "Три різні навички отримують сталий початковий бонус окремо від S.P.E.C.I.A.L.",
+          "explanationEn": "Three distinct skills receive a persistent starting bonus separately from S.P.E.C.I.A.L.",
+          "exampleUk": "Позначити Explosives, Medicine і Speech перед виходом.",
+          "exampleEn": "Tag Explosives, Medicine and Speech before leaving."
+        }
+      },
+      "structural": {
+        "ACT-161": {"labelUk": "Прицілюйся й стріляй", "labelEn": "Aim and fire", "explanationUk": "Зброя б’є по досяжній цілі в живому бою.", "explanationEn": "The weapon strikes a reachable target in live combat.", "exampleUk": "Зупинити нападника пострілом.", "exampleEn": "Stop an attacker with a shot."},
+        "ACT-199": {"labelUk": "Підбирай і споряджай потрібне", "labelEn": "Collect and equip what you need", "explanationUk": "Знайдений предмет переходить до інвентарю та сумісного спорядження.", "explanationEn": "A found item moves into inventory and compatible equipment.", "exampleUk": "Спорядити зброю та боєприпаси.", "exampleEn": "Equip a weapon and ammunition."},
+        "ACT-232": {"labelUk": "Обирай відповідь у розмові", "labelEn": "Choose a dialogue response", "explanationUk": "Відповідь змінює відомості, союзників або хід завдання.", "explanationEn": "A response changes information, allies or quest progress.", "exampleUk": "Погодитися допомогти Ringo.", "exampleEn": "Agree to help Ringo."},
+        "ACT-401": {"labelUk": "Розподіли запас S.P.E.C.I.A.L.", "labelEn": "Allocate the S.P.E.C.I.A.L. pool", "explanationUk": "Початкові значення ділять один скінченний запас.", "explanationEn": "Starting attribute values share one finite pool.", "exampleUk": "Підтвердити S5/P5/E5/C6/I7/A6/L6.", "exampleEn": "Confirm S5/P5/E5/C6/I7/A6/L6."},
+        "SYS-215": {"labelUk": "Розв’язуй бій у реальному часі", "labelEn": "Resolve combat in real time", "explanationUk": "Союзники й вороги рухаються та атакують без окремих ходів.", "explanationEn": "Allies and hostiles move and attack without separate turns.", "exampleUk": "Перезарядитися, поки триває перестрілка.", "exampleEn": "Reload while the firefight continues."},
+        "SYS-740": {"labelUk": "Збережи стартові характеристики", "labelEn": "Retain the starting attributes", "explanationUk": "Підтверджені S.P.E.C.I.A.L. стають статистикою персонажа.", "explanationEn": "Confirmed S.P.E.C.I.A.L. values become character statistics.", "exampleUk": "Побачити той самий профіль після виходу.", "exampleEn": "See the same profile after leaving."},
+        "CON-282": {"labelUk": "Проходь авторські етапи по черзі", "labelEn": "Follow the authored quest gates", "explanationUk": "Готовність міста потребує попередніх розмов і доручень.", "explanationEn": "Town readiness depends on earlier conversations and requests.", "exampleUk": "Спочатку залучити союзників, потім почати бій.", "exampleEn": "Recruit allies before starting the fight."},
+        "CON-285": {"labelUk": "Тримай зброю готовою", "labelEn": "Keep the weapon ready", "explanationUk": "Постріл потребує сумісної зброї, боєприпасів і стану магазину.", "explanationEn": "A shot needs compatible equipment, ammunition and magazine state.", "exampleUk": "Перезарядити порожній магазин.", "exampleEn": "Reload an empty magazine."},
+        "CON-572": {"labelUk": "Не перевищуй стартовий запас", "labelEn": "Stay within the starting pool", "explanationUk": "Усі сім значень мають допустимі межі та спільну суму.", "explanationEn": "All seven values have legal bounds and one shared total.", "exampleUk": "Перенести пункт, а не створити новий.", "exampleEn": "Move a point rather than create one."},
+        "OBJ-155": {"labelUk": "Захисти Goodsprings і поверни керування", "labelEn": "Defend Goodsprings and regain control", "explanationUk": "Успіх вимагає завершеного конфлікту й сталого стану після нього.", "explanationEn": "Success requires a settled conflict and retained control afterward.", "exampleUk": "Дочекатися завершення Ghost Town Gunfight.", "exampleEn": "Wait for Ghost Town Gunfight to complete."}
+      },
+      "supporting": {
+        "ACT-008": {"labelUk": "Рухай Кур’єра світом", "labelEn": "Move the Courier through the world", "explanationUk": "Пряме керування веде між будинками й учасниками.", "explanationEn": "Direct control moves between buildings and participants.", "exampleUk": "Дійти від салуну до заправки.", "exampleEn": "Walk from the saloon to the gas station."},
+        "ACT-164": {"labelUk": "Обери активну зброю", "labelEn": "Select the active weapon", "explanationUk": "Один перенесений предмет стає поточним у руці.", "explanationEn": "One carried item becomes active in hand.", "exampleUk": "Перемкнутися на заряджену гвинтівку.", "exampleEn": "Switch to the loaded rifle."},
+        "ACT-183": {"labelUk": "Перезаряди магазин", "labelEn": "Reload the magazine", "explanationUk": "Боєприпаси переходять із запасу до активної зброї.", "explanationEn": "Ammunition transfers from reserve to the active weapon.", "exampleUk": "Перезарядитися між цілями.", "exampleEn": "Reload between targets."},
+        "ACT-341": {"labelUk": "Взаємодій із потрібним об’єктом", "labelEn": "Use the required world fixture", "explanationUk": "Контекстна дія змінює двері, контейнер або інший об’єкт.", "explanationEn": "A contextual action changes a door, container or other object.", "exampleUk": "Відкрити потрібні двері.", "exampleEn": "Open the required door."},
+        "SYS-057": {"labelUk": "Реагуй на виявлення ворогом", "labelEn": "React when a hostile detects you", "explanationUk": "Виявлений ворог сам переслідує та атакує.", "explanationEn": "A detecting hostile pursues and attacks autonomously.", "exampleUk": "Не стояти на відкритій вулиці.", "exampleEn": "Do not remain in the open street."},
+        "SYS-369": {"labelUk": "Повернись до збереженого стану", "labelEn": "Return to a saved state", "explanationUk": "Після смерті завантаження відновлює ранішу межу.", "explanationEn": "After death, loading restores an earlier boundary.", "exampleUk": "Повторити бій із ручного save.", "exampleEn": "Retry the fight from a manual save."},
+        "SYS-379": {"labelUk": "Збережи наслідок обраної гілки", "labelEn": "Retain the chosen quest result", "explanationUk": "Розмови, союзники й перемога переходять у завершене завдання та репутацію.", "explanationEn": "Dialogue, allies and victory settle into quest and reputation state.", "exampleUk": "Отримати Goodsprings fame і Powder Gangers infamy.", "exampleEn": "Receive Goodsprings fame and Powder Gangers infamy."},
+        "INF-073": {"labelUk": "Бач поточне спорядження", "labelEn": "See the active equipment", "explanationUk": "Інтерфейс показує вибрану зброю та швидкий доступ.", "explanationEn": "The interface shows the selected weapon and quick access.", "exampleUk": "Перевірити активну зброю перед боєм.", "exampleEn": "Check the active weapon before combat."},
+        "INF-115": {"labelUk": "Читай локальну загрозу", "labelEn": "Read the local threat", "explanationUk": "Зір і звук показують лише частину стану ворогів.", "explanationEn": "Sight and sound reveal only part of hostile state.", "exampleUk": "Почути постріли за укриттям.", "exampleEn": "Hear shots beyond cover."},
+        "INF-119": {"labelUk": "Стеж за ресурсами персонажа", "labelEn": "Track character resources", "explanationUk": "Здоров’я, боєприпаси, навички та характеристики доступні в інтерфейсі.", "explanationEn": "Health, ammunition, skills and attributes are exposed in the interface.", "exampleUk": "Перевірити Speech перед розмовою.", "exampleEn": "Check Speech before a conversation."},
+        "INF-125": {"labelUk": "Читай мапу й етап завдання", "labelEn": "Read the map and quest stage", "explanationUk": "Компас і журнал показують поточний напрям і авторську ціль.", "explanationEn": "The compass and log expose the current direction and authored goal.", "exampleUk": "Знайти наступного союзника.", "exampleEn": "Find the next ally."},
+        "INF-128": {"labelUk": "Перевіряй здобич та сумісність", "labelEn": "Inspect loot and compatibility", "explanationUk": "Інвентар показує предмети, кількість і можливість спорядити їх.", "explanationEn": "Inventory exposes items, quantities and equipment eligibility.", "exampleUk": "Знайти набої до поточної зброї.", "exampleEn": "Find ammunition for the current weapon."},
+        "INF-148": {"labelUk": "Бач умову особливої відповіді", "labelEn": "See the gated dialogue condition", "explanationUk": "Діалог прямо позначає перевірку Speech і доступність відповіді.", "explanationEn": "Dialogue directly labels the Speech check and response availability.", "exampleUk": "Використати Speech, щоб переконати Trudy.", "exampleEn": "Use Speech to persuade Trudy."},
+        "INF-281": {"labelUk": "Бач значення й залишок S.P.E.C.I.A.L.", "labelEn": "See S.P.E.C.I.A.L. values and remainder", "explanationUk": "Екран створення показує сім значень і нерозподілений запас.", "explanationEn": "Creation shows seven values and the unallocated pool.", "exampleUk": "Звести залишок до нуля перед підтвердженням.", "exampleEn": "Reduce the remainder to zero before confirming."},
+        "TIM-003": {"labelUk": "Дій, поки бій триває", "labelEn": "Act while combat continues", "explanationUk": "Рух і атаки не чекають завершення вибору гравця.", "explanationEn": "Movement and attacks do not wait for the player's choice to finish.", "exampleUk": "Змінити позицію під час перезарядження.", "exampleEn": "Reposition during a reload."},
+        "TIM-007": {"labelUk": "Повертайся до власної точки історії", "labelEn": "Return to a chosen history point", "explanationUk": "Ручне збереження дає відтворювану гілку для перевірки.", "explanationEn": "A manual save exposes a reproducible branch for verification.", "exampleUk": "Завантажити стан після перемоги.", "exampleEn": "Reload the post-victory state."}
+      }
+    },
+    "GAME-0362": {
+      "genes": {
+        "SYS-993": {"labelUk": "Ризикуй використанням відмички", "labelEn": "Risk one lockpick use", "explanationUk": "Прихована ймовірність поєднує Security, характеристики, втому, якість інструмента й рівень замка та завжди витрачає одне використання.", "explanationEn": "A hidden chance combines Security, attributes, fatigue, tool quality and lock level and always consumes one use.", "exampleUk": "Повторити спробу на навчальній скрині рівня 1.", "exampleEn": "Retry the level-1 tutorial chest."}
+      },
+      "structural": {
+        "ACT-107": {"labelUk": "Дізнавайся потрібний факт у розмові", "labelEn": "Learn an operational fact in dialogue", "explanationUk": "Запитана тема додає точні відомості, потрібні для подальшого маршруту.", "explanationEn": "An asked topic registers exact information needed for the later route.", "exampleUk": "Запитати Bacola, де живе Caius.", "exampleEn": "Ask Bacola where Caius lives."},
+        "ACT-199": {"labelUk": "Перенось і споряджай потрібний предмет", "labelEn": "Carry and equip the required item", "explanationUk": "Предмет переходить між світом, інвентарем і сумісним активним станом.", "explanationEn": "An item moves between the world, inventory and compatible active state.", "exampleUk": "Спорядити Apprentice's Lockpick.", "exampleEn": "Equip the Apprentice's Lockpick."},
+        "ACT-232": {"labelUk": "Обирай відповідь завдання", "labelEn": "Choose a quest response", "explanationUk": "Відповідь змінює членство, нагороду або наступне завдання.", "explanationEn": "A response changes membership, reward or successor quest.", "exampleUk": "Погодитися вступити до Blades.", "exampleEn": "Agree to join the Blades."},
+        "ACT-238": {"labelUk": "Створи сталого персонажа", "labelEn": "Configure a persistent character", "explanationUk": "Раса, клас і знак народження визначають початкові можливості кампанії.", "explanationEn": "Race, class and birthsign determine the campaign's starting capabilities.", "exampleUk": "Підтвердити Dunmer, Warrior і The Warrior.", "exampleEn": "Confirm Dunmer, Warrior and The Warrior."},
+        "SYS-379": {"labelUk": "Зберігай стан авторського завдання", "labelEn": "Retain authored quest state", "explanationUk": "Переданий пакунок, вступ і перші orders стають сталими прапорцями кампанії.", "explanationEn": "Package delivery, induction and first orders become persistent campaign flags.", "exampleUk": "Отримати активне Antabolis Informant.", "exampleEn": "Gain the active Antabolis Informant quest."},
+        "CON-282": {"labelUk": "Виконуй етапи у потрібному порядку", "labelEn": "Follow the authored order", "explanationUk": "Пакунок, напрям, Caius, вступ і orders залежать від попередніх прапорців.", "explanationEn": "Package, directions, Caius, induction and orders depend on prior flags.", "exampleUk": "Передати пакунок до запиту про orders.", "exampleEn": "Deliver the package before asking for orders."},
+        "OBJ-158": {"labelUk": "Перетвори вступ на наступне завдання", "labelEn": "Settle onboarding into successor access", "explanationUk": "Успіх потребує завершеного report, членства й сталого наступного завдання.", "explanationEn": "Success requires a completed report, membership and retained successor quest.", "exampleUk": "Зупинитися після появи Antabolis Informant.", "exampleEn": "Stop after Antabolis Informant appears."}
+      },
+      "supporting": {
+        "ACT-008": {"labelUk": "Рухай персонажа світом", "labelEn": "Move the character through the world", "explanationUk": "Пряме керування веде між установою, транспортом, таверною й домом.", "explanationEn": "Direct control moves between the office, transport, cornerclub and house.", "exampleUk": "Дійти від South Wall до Caius.", "exampleEn": "Walk from South Wall to Caius."},
+        "ACT-341": {"labelUk": "Взаємодій із доступною ціллю", "labelEn": "Use the eligible world target", "explanationUk": "Контекстна дія відкриває скриню, запускає поїздку або передає предмет.", "explanationEn": "A contextual action opens a chest, starts travel or transfers an item.", "exampleUk": "Застосувати відмичку до скрині.", "exampleEn": "Use the lockpick on the chest."},
+        "SYS-004": {"labelUk": "Прийми випадковий результат", "labelEn": "Accept a random outcome", "explanationUk": "Одна допустима спроба може завершитися успіхом або невдачею.", "explanationEn": "One legal attempt can end in success or failure.", "exampleUk": "Побачити, чи відкрилася скриня.", "exampleEn": "Observe whether the chest opens."},
+        "SYS-342": {"labelUk": "Розвивай навичку практикою", "labelEn": "Improve a skill through use", "explanationUk": "Успішне застосування додає поступ відповідній навичці персонажа.", "explanationEn": "Successful use adds progress to the matching character skill.", "exampleUk": "Здобути поступ Security після успіху.", "exampleEn": "Gain Security progress after success."},
+        "INF-073": {"labelUk": "Бач активне спорядження", "labelEn": "See the active equipment", "explanationUk": "Інтерфейс показує, який предмет або інструмент споряджено.", "explanationEn": "The interface shows which item or tool is equipped.", "exampleUk": "Перевірити активну відмичку.", "exampleEn": "Check the active lockpick."},
+        "INF-119": {"labelUk": "Читай стан персонажа", "labelEn": "Read character state", "explanationUk": "Раса, клас, знак, характеристики, навички, здоров'я, магія й втома доступні для перевірки.", "explanationEn": "Race, class, sign, attributes, skills, health, magicka and fatigue are inspectable.", "exampleUk": "Підняти втому перед спробою.", "exampleEn": "Restore fatigue before the attempt."},
+        "INF-125": {"labelUk": "Читай журнал і досліджену мапу", "labelEn": "Read the journal and explored map", "explanationUk": "Записи зберігають теми, факти й напрям без готового маршруту до дверей.", "explanationEn": "Entries retain topics, facts and directions without drawing a ready route to the door.", "exampleUk": "Відтворити пояснення Bacola.", "exampleEn": "Follow Bacola's directions."},
+        "INF-128": {"labelUk": "Перевіряй предмети й запас", "labelEn": "Inspect items and remaining stock", "explanationUk": "Інвентар показує пакунок, якість відмички, її використання та перенесену вагу.", "explanationEn": "Inventory exposes the package, lockpick quality, uses and carried weight.", "exampleUk": "Переконатися, що пакунок ще в інвентарі.", "exampleEn": "Confirm the package remains in inventory."},
+        "TIM-007": {"labelUk": "Завантажуй власну точку історії", "labelEn": "Reload a chosen history point", "explanationUk": "Ручне збереження повертає стан і дозволяє інше продовження.", "explanationEn": "A manual save restores state and permits another continuation.", "exampleUk": "Перевірити Blades Novice після reload.", "exampleEn": "Verify Blades Novice after reload."}
+      }
+    },
+    "GAME-0363": {
+      "genes": {
+        "ACT-494": {"labelUk": "Утримуй ціль у фокусі", "labelEn": "Hold a world target in focus", "explanationUk": "Фокусування Z тримає вибрану ціль перед Лінком, а рух стає відносним до неї.", "explanationEn": "Z-target focus keeps the selected target in front of Link and makes movement relative to it.", "exampleUk": "Рухатися довкола Ґоми, не втрачаючи її з поля зору.", "exampleEn": "Move around Gohma without losing sight of her."},
+        "SYS-994": {"labelUk": "Відбий постріл у нападника", "labelEn": "Reflect a shot into its source", "explanationUk": "Активно піднятий щит повертає горіх Деку в нападника й тимчасово відкриває розмову.", "explanationEn": "An actively raised shield returns a Deku nut to its source and briefly opens dialogue.", "exampleUk": "Заговорити з оглушеним Деку після відбиття.", "exampleEn": "Speak to the stunned Scrub after the reflection."},
+        "INF-372": {"labelUk": "Читай підказку поточної дії", "labelEn": "Read the current action cue", "explanationUk": "Значок A і позначка Наві показують, що можна зробити з нинішньою ціллю.", "explanationEn": "The A icon and Navi marker show what can be done with the current target.", "exampleUk": "Побачити SPEAK замість OPEN біля оглушеного Деку.", "exampleEn": "See SPEAK instead of OPEN beside a stunned Scrub."},
+        "OBJ-210": {"labelUk": "Заверши підземелля й отримай Смарагд", "labelEn": "Finish the dungeon and receive the Emerald", "explanationUk": "Перемоги над Ґомою замало: треба вийти й отримати Камінь Духів від Дерева Деку.", "explanationEn": "Defeating Gohma is not enough: leave and receive the Spiritual Stone from the Deku Tree.", "exampleUk": "Перевірити Смарагд Кокірі у стані завдання.", "exampleEn": "Verify Kokiri's Emerald in Quest Status."}
+      },
+      "structural": {
+        "ACT-161": {"labelUk": "Уразь доступну ціль", "labelEn": "Strike a reachable target", "explanationUk": "Меч або рогатка діють по ворогу чи сумісному об’єкту перед Лінком.", "explanationEn": "The sword or Slingshot acts on an enemy or compatible object ahead of Link.", "exampleUk": "Поцілити рогаткою у червоне око Ґоми.", "exampleEn": "Shoot Gohma's red eye with the Slingshot."},
+        "ACT-164": {"labelUk": "Признач предмет кнопці C", "labelEn": "Assign an item to a C button", "explanationUk": "Знайдений предмет стає доступним для швидкої дії після призначення.", "explanationEn": "A found item becomes available for quick use after assignment.", "exampleUk": "Призначити рогатку перед пострілом у драбину.", "exampleEn": "Assign the Slingshot before shooting the ladder."},
+        "ACT-341": {"labelUk": "Виконай запропоновану дію", "labelEn": "Commit the offered action", "explanationUk": "Контекстна кнопка відчиняє двері, починає розмову чи взаємодіє з об’єктом.", "explanationEn": "The context button opens a door, begins dialogue or interacts with a fixture.", "exampleUk": "Заговорити з оглушеним Деку, доки той не сховався.", "exampleEn": "Speak to the stunned Scrub before it hides."},
+        "ACT-437": {"labelUk": "Підніми щит перед пострілом", "labelEn": "Raise the shield toward a shot", "explanationUk": "Захист вимагає утримувати щит у напрямку снаряда.", "explanationEn": "Defence requires holding the shield toward the incoming projectile.", "exampleUk": "Затиснути захист навпроти Деку.", "exampleEn": "Hold guard facing the Scrub."},
+        "SYS-605": {"labelUk": "Відкривай маршрут через механізми", "labelEn": "Open the route through fixtures", "explanationUk": "Скрині, перемикачі, вогонь, павутина й бос послідовно відкривають нові кімнати.", "explanationEn": "Chests, switches, fire, webs and the boss successively open new rooms.", "exampleUk": "Опустити воду перед переходом через платформу.", "exampleEn": "Lower the water before crossing on the platform."},
+        "SYS-931": {"labelUk": "Здобудь мапу й компас", "labelEn": "Acquire the Map and Compass", "explanationUk": "Мапа показує план підземелля, а компас — місце боса; двері вони не відчиняють.", "explanationEn": "The Map shows the dungeon outline and the Compass marks the boss; neither opens doors.", "exampleUk": "Порівняти відвідані кімнати з новим планом.", "exampleEn": "Compare visited rooms with the newly revealed outline."},
+        "CON-282": {"labelUk": "Дотримуйся порядку передумов", "labelEn": "Respect prerequisite order", "explanationUk": "Наступний прохід з’являється лише після потрібних раніше предметів і дій.", "explanationEn": "The next passage appears only after the required earlier items and actions.", "exampleUk": "Взяти рогатку до пострілу по перемикачу-оку.", "exampleEn": "Acquire the Slingshot before shooting the eye switch."},
+        "INF-356": {"labelUk": "Зіставляй кімнату з мапою", "labelEn": "Relate the room to the dungeon map", "explanationUk": "Поточне місце, відкритий план і позначка боса утворюють одну навігаційну картину.", "explanationEn": "Current location, revealed outline and boss marker form one navigation view.", "exampleUk": "Знайти ще не пройдений шлях до нижнього поверху.", "exampleEn": "Find the unexplored route to the lower floor."}
+      },
+      "supporting": {
+        "ACT-008": {"labelUk": "Веди Лінка кімнатами", "labelEn": "Move Link through rooms", "explanationUk": "Прямий рух, лазіння, плавання й автоматичний стрибок долають доступну геометрію.", "explanationEn": "Direct movement, climbing, swimming and automatic jumping cross available geometry.", "exampleUk": "Стрибнути з висоти крізь центральну павутину.", "exampleEn": "Jump from above through the central web."},
+        "ACT-199": {"labelUk": "Підбери й споряди предмет", "labelEn": "Take and equip an item", "explanationUk": "Меч, щит та інші предмети переходять у відповідні комірки спорядження.", "explanationEn": "Sword, shield and other items enter their compatible equipment slots.", "exampleUk": "Спорядити щит Кокірі перед проходом Мідо.", "exampleEn": "Equip the Deku Shield before passing Mido."},
+        "SYS-037": {"labelUk": "Підбирай корисні знахідки", "labelEn": "Collect useful pickups", "explanationUk": "Дотик до сумісного предмета додає здоров’я чи поповнює запас.", "explanationEn": "Contact with a compatible pickup restores health or replenishes stock.", "exampleUk": "Взяти серце перед боєм із Ґомою.", "exampleEn": "Collect a heart before Gohma."},
+        "SYS-045": {"labelUk": "Вороги рухаються самі", "labelEn": "Hostiles move on their own", "explanationUk": "Павуки й личинки не чекають окремої команди Лінка, щоб пересунутися.", "explanationEn": "Spiders and larvae do not wait for a Link command to move.", "exampleUk": "Ухилитися від павука на ліанах.", "exampleEn": "Avoid a spider on the vines."},
+        "SYS-215": {"labelUk": "Бій триває наживо", "labelEn": "Combat continues in real time", "explanationUk": "Удари, постріли, шкода й рух ворогів відбуваються без чергування ходів.", "explanationEn": "Strikes, shots, damage and enemy movement occur without turns.", "exampleUk": "Бити Ґому мечем, доки вона оглушена.", "exampleEn": "Strike Gohma while stunned."},
+        "SYS-379": {"labelUk": "Збережи наслідок перемоги", "labelEn": "Retain the quest result", "explanationUk": "Після бою й розмови Смарагд Кокірі стає сталою частиною стану завдання.", "explanationEn": "After battle and dialogue, Kokiri's Emerald becomes retained quest state.", "exampleUk": "Побачити перший Камінь Духів у списку.", "exampleEn": "See the first Spiritual Stone in the quest list."},
+        "SYS-578": {"labelUk": "Бережи серця", "labelEn": "Preserve the hearts", "explanationUk": "Ворожі удари зменшують один запас здоров’я, а серця можуть його відновити.", "explanationEn": "Hostile hits reduce one health pool and hearts can refill it.", "exampleUk": "Вилікуватися перед входом до боса.", "exampleEn": "Heal before entering the boss room."},
+        "CON-175": {"labelUk": "Не втрачай останнє серце", "labelEn": "Do not lose the last heart", "explanationUk": "Нуль здоров’я завершує спробу до отримання Смарагда.", "explanationEn": "Zero health ends the attempt before the Emerald is awarded.", "exampleUk": "Пережити атаку Ґоми й довести бій до кінця.", "exampleEn": "Survive Gohma's attack and finish the fight."},
+        "INF-073": {"labelUk": "Перевіряй активний предмет", "labelEn": "Check the active item", "explanationUk": "На екрані видно поточні кнопки предметів і спорядження.", "explanationEn": "The screen shows current item buttons and equipment.", "exampleUk": "Переконатися, що на кнопці C стоїть рогатка.", "exampleEn": "Confirm the Slingshot is assigned to a C button."},
+        "INF-128": {"labelUk": "Стеж за запасом предметів", "labelEn": "Track item stock", "explanationUk": "Інвентар показує знайдені предмети й кількість насіння для рогатки.", "explanationEn": "Inventory shows acquired items and the seed count for the Slingshot.", "exampleUk": "Перевірити насіння перед боєм.", "exampleEn": "Check seeds before the fight."},
+        "INF-179": {"labelUk": "Оглядай поточну кімнату", "labelEn": "Inspect the current room", "explanationUk": "Видимі вороги, двері, павутина й механізми підказують наступний крок.", "explanationEn": "Visible enemies, doors, webs and fixtures suggest the next step.", "exampleUk": "Помітити око-перемикач над дверима.", "exampleEn": "Notice the eye switch above the door."},
+        "TIM-003": {"labelUk": "Дій під тиском часу", "labelEn": "Act while time advances", "explanationUk": "Палаюча палиця гасне, а вороги рухаються, поки Лінк обирає дію.", "explanationEn": "The lit stick expires and enemies move while Link chooses an action.", "exampleUk": "Донести вогонь до павутини, доки палиця горить.", "exampleEn": "Carry fire to the web before the stick burns out."}
+      }
+    },
+    "GAME-0364": {
+      "genes": {
+        "ACT-498": {"labelUk": "Налаштуй місце й приціл", "labelEn": "Set stance and aim", "explanationUk": "Перед кидком окремо пересунь гравця збоку та зміни напрям на доріжці.", "explanationEn": "Before the shot, move sideways and change the lane aim separately.", "exampleUk": "Посунутись ліворуч, але прицілити в центральні кеглі.", "exampleEn": "Stand farther left while aiming at the centre pins."},
+        "ACT-499": {"labelUk": "Відпусти B під час помаху", "labelEn": "Release B during the swing", "explanationUk": "Пульт зчитує помах, мить відпускання B і поворот зап’ястка для одного кидка.", "explanationEn": "The controller samples the swing, B-release moment and wrist turn for one delivery.", "exampleUk": "Відпустити B біля нижньої точки помаху й надати кулі обертання.", "exampleEn": "Release B near the bottom of the swing and give the ball spin."},
+        "SYS-995": {"labelUk": "Куля котиться й збиває кеглі", "labelEn": "The ball rolls into pins", "explanationUk": "Обертання впливає на шлях кулі, а зіткнення визначають, які кеглі впадуть.", "explanationEn": "Spin affects the ball path, and collisions determine which pins fall.", "exampleUk": "Куля входить під кутом і збиває кілька кеглів ланцюгом ударів.", "exampleEn": "The ball enters at an angle and knocks down pins in a collision chain."},
+        "SYS-996": {"labelUk": "Дорахуй бонус після наступних кидків", "labelEn": "Settle bonuses after later balls", "explanationUk": "Страйк і спейр дають очки за наступні кидки; фрейм і рахунок завершуються за правилами.", "explanationEn": "A strike or spare takes points from later balls; frames and score settle by rule.", "exampleUk": "Після спейра дочекатися першого кидка наступного фрейму.", "exampleEn": "After a spare, wait for the first ball of the next frame."}
+      },
+      "structural": {
+        "SYS-997": {"labelUk": "Онови майстерність Mii", "labelEn": "Update Mii skill", "explanationUk": "Після партії майстерність збереженого Mii може зрости або знизитися окремо від рахунку.", "explanationEn": "After the game, a stored Mii's skill may rise or fall separately from score.", "exampleUk": "Порівняти новий рівень майстерності зі старим на екрані результату.", "exampleEn": "Compare the new skill level with the old one on the result screen."},
+        "CON-664": {"labelUk": "Кидай лише дозволену кількість разів", "labelEn": "Use only earned deliveries", "explanationUk": "Звичайний фрейм дає не більш як два кидки; десятий додає їх лише за страйк або спейр.", "explanationEn": "A normal frame allows at most two balls; the tenth adds only earned fills.", "exampleUk": "Після страйка в десятому фреймі зробити два додаткові кидки.", "exampleEn": "After a tenth-frame strike, take two fill balls."},
+        "INF-373": {"labelUk": "Читай стан фрейму", "labelEn": "Read the frame state", "explanationUk": "Видно кеглі, кидки й рахунок, але бонус може чекати наступної кулі.", "explanationEn": "Pins, deliveries and score are visible, but a bonus may await another ball.", "exampleUk": "Побачити спейр, значення якого ще залежить від наступного кидка.", "exampleEn": "See a spare whose value still depends on the next ball."}
+      },
+      "supporting": {
+        "OBJ-002": {"labelUk": "Підвищуй рахунок за партію", "labelEn": "Maximise match score", "explanationUk": "Мета цієї партії — набрати більше очок за десять фреймів, а не обов’язково отримати Pro.", "explanationEn": "The match aims for more points over ten frames, not necessarily the Pro title.", "exampleUk": "Зібрати спейр замість відкритого фрейму.", "exampleEn": "Convert a missed first ball into a spare."},
+        "TIM-003": {"labelUk": "Рух відбувається наживо", "labelEn": "Motion happens live", "explanationUk": "Пульт зчитує помах у реальному часі, а куля не чекає команди після випуску.", "explanationEn": "The controller samples the swing live, and the ball moves without more input after release.", "exampleUk": "Відпустити B у вибрану мить і простежити за кулею.", "exampleEn": "Release B at the chosen moment and watch the ball roll."}
+      }
+    },
+    "GAME-0365": {
+      "genes": {
+        "ACT-500": {"labelUk": "Зв’язуй трюки в русі", "labelEn": "Link tricks while moving", "explanationUk": "Після стрибка вибирай трюк для повітря чи рейки й переходь у мануал, поки ланцюг ще триває.", "explanationEn": "Choose an air or rail trick after an ollie and transfer into a manual while the line remains live.", "exampleUk": "Стрибнути на рейку, ковзати й після сходу втримати мануал.", "exampleEn": "Ollie onto a rail, grind and hold a manual after leaving it."},
+        "SYS-975": {"labelUk": "Бережи поточну комбінацію", "labelEn": "Protect the live combo", "explanationUk": "Поєднані трюки нарощують ще не зарахований рахунок; падіння обриває цей ланцюг.", "explanationEn": "Connected tricks build provisional score; a bail breaks that unbanked line.", "exampleUk": "Приземлитися після рейки й мануалу, перш ніж ризикувати ще одним стрибком.", "exampleEn": "Land after the rail and manual before risking another jump."},
+        "SYS-999": {"labelUk": "Виконуй цілі по одній", "labelEn": "Credit goals separately", "explanationUk": "Рахунок, літери, об’єкти й проходи мають окремі умови та зберігаються для наступних заїздів Tour.", "explanationEn": "Score, letters, objects and gaps have separate conditions and remain credited for later Tour runs.", "exampleUk": "Зарахувати ціль за рахунок, навіть якщо ще не зібрано всі літери.", "exampleEn": "Credit a score goal even when some letters remain uncollected."},
+        "OBJ-211": {"labelUk": "Заверши заїзд із новою ціллю", "labelEn": "Finish with a new goal", "explanationUk": "У цьому першому заїзді достатньо виконати й зберегти хоча б одну ціль парку.", "explanationEn": "This first run succeeds by earning and retaining at least one park goal.", "exampleUk": "Після двох хвилин побачити зараховану ціль Warehouse.", "exampleEn": "See a Warehouse goal credited after the two-minute run."}
+      },
+      "structural": {
+        "ACT-501": {"labelUk": "Вирівнюй дошку", "labelEn": "Correct the balance", "explanationUk": "Під час ковзання й мануалу коригуй положення за індикатором, щоб не впасти.", "explanationEn": "Adjust the skater during grinds and manuals by the meter to avoid a bail.", "exampleUk": "Підправити баланс перед сходом із рейки.", "exampleEn": "Correct balance before leaving the rail."},
+        "SYS-974": {"labelUk": "Рейка веде рух", "labelEn": "The rail carries motion", "explanationUk": "Коли дошка правильно торкається рейки, рух продовжується вздовж неї до сходу.", "explanationEn": "Eligible board contact carries the skater along a rail until detachment.", "exampleUk": "Проковзати частиною центральної рейки Warehouse.", "exampleEn": "Grind part of Warehouse's central rail."},
+        "SYS-998": {"labelUk": "Урізноманітнюй трюки", "labelEn": "Vary the trick value", "explanationUk": "Обертання, стійка й проходи додають вартості, а повторення одного трюку її зменшує.", "explanationEn": "Spin, stance and gaps improve value while repeating one trick reduces it.", "exampleUk": "Після кількох однакових трюків змінити прийом і додати обертання.", "exampleEn": "After repeating one trick, switch moves and add a spin."},
+        "CON-665": {"labelUk": "Не виходь за межу балансу", "labelEn": "Stay within balance", "explanationUk": "Незбалансований мануал чи ковзання закінчується падінням і втратою поточного ланцюга.", "explanationEn": "An overbalanced manual or grind ends in a bail and loses the live line.", "exampleUk": "Зійти з рейки раніше, ніж індикатор дійде до краю.", "exampleEn": "Leave the rail before the meter reaches its edge."},
+        "CON-666": {"labelUk": "Встигни за дві хвилини", "labelEn": "Use the two-minute window", "explanationUk": "Коли час вичерпано, заїзд закінчується, але вже виконані цілі не зникають.", "explanationEn": "The run ends at the clock, but already completed goals remain credited.", "exampleUk": "Зберегти ціль за рахунок і повернутися по літери наступним заїздом.", "exampleEn": "Keep a score goal and return for the letters on a later run."},
+        "INF-374": {"labelUk": "Читай стан заїзду", "labelEn": "Read the run state", "explanationUk": "Поточні трюки, баланс, час і цілі видно до підсумку заїзду.", "explanationEn": "Current tricks, balance, time and goals are visible before the run settles.", "exampleUk": "Оцінити залишок часу й баланс перед ще одним мануалом.", "exampleEn": "Check time and balance before another manual."}
+      },
+      "supporting": {
+        "ACT-008": {"labelUk": "Обирай шлях парком", "labelEn": "Choose a park route", "explanationUk": "Скейтер рухається Warehouse під прямим керуванням між рейками та цільовими об’єктами.", "explanationEn": "Direct movement takes the skater between rails and goal objects in Warehouse.", "exampleUk": "Спрямувати рух від старту до центральної рейки.", "exampleEn": "Steer from the start toward the central rail."},
+        "OBJ-002": {"labelUk": "Підвищуй зарахований рахунок", "labelEn": "Raise the banked score", "explanationUk": "Більше успішно приземлених трюків може збільшити рахунок заїзду.", "explanationEn": "More successfully landed tricks can raise the run score.", "exampleUk": "Зарахувати довший ланцюг для вищого порога очок.", "exampleEn": "Bank a longer line to cross a higher score threshold."},
+        "TIM-003": {"labelUk": "Рух і час не чекають", "labelEn": "Movement and time continue", "explanationUk": "Поки ти обираєш наступний трюк, скейтер рухається, баланс змінюється, а годинник іде.", "explanationEn": "While choosing the next trick, the skater moves, balance changes and the clock runs.", "exampleUk": "Перейти з рейки в мануал без зупинки відліку.", "exampleEn": "Transfer from rail to manual without stopping the clock."}
+      }
+    },
+    "GAME-0366": {
+      "genes": {
+        "ACT-295": {"labelUk": "Вводь удар однією з чотирьох кінцівок", "labelEn": "Enter a four-limb attack", "explanationUk": "Окремі кнопки рук і ніг разом із напрямком задають прийом Джина; влучання ще залежить від позиції суперника.", "explanationEn": "Separate hand and foot buttons with direction select Jin's move; contact still depends on opponent position.", "exampleUk": "Після бокового кроку ввести удар ногою по незахищеній лінії.", "exampleEn": "After a sidestep, enter a kick along an open line."},
+        "ACT-296": {"labelUk": "Обирай рівень захисту", "labelEn": "Choose guard height", "explanationUk": "Стоячи блокуєш верхні й середні атаки, а присівши — нижні, відкриваючись для середніх.", "explanationEn": "Standing guard blocks highs and mids, while crouching blocks lows but opens the mid line.", "exampleUk": "Присісти проти низького удару, але піднятися перед середнім.", "exampleEn": "Crouch against a low, then stand before a mid."},
+        "SYS-1000": {"labelUk": "Просувай Джина або повторюй етап", "labelEn": "Advance Jin or retry the stage", "explanationUk": "Виграний матч веде до наступного суперника; після поразки Continue повторює той самий етап без зміни Джина.", "explanationEn": "A won match reaches the next opponent; Continue after a loss retries the same stage without changing Jin.", "exampleUk": "Повернутися до програного суперника після Continue.", "exampleEn": "Return to the lost opponent after Continue."},
+        "OBJ-212": {"labelUk": "Пройди всю Arcade-драбину", "labelEn": "Clear the full Arcade ladder", "explanationUk": "Однієї перемоги замало: потрібно подолати всіх обов’язкових суперників обраним бійцем.", "explanationEn": "One match is not enough: beat every required opponent with the selected fighter.", "exampleUk": "Після останнього суперника побачити завершення Arcade Mode.", "exampleEn": "See Arcade Mode clear after the final opponent."}
+      },
+      "structural": {
+        "ACT-008": {"labelUk": "Рухайся й обходь суперника", "labelEn": "Move and circle the opponent", "explanationUk": "Кроки, ривки й боковий рух змінюють дистанцію та вісь можливого удару.", "explanationEn": "Steps, dashes and lateral motion change distance and the possible strike axis.", "exampleUk": "Відійти боком від прямого удару.", "exampleEn": "Step sideways away from a straight strike."},
+        "ACT-202": {"labelUk": "Змінюй позу бійця", "labelEn": "Change fighter posture", "explanationUk": "Присідання змінює, які рівні ударів дістануть Джина і який захист доступний.", "explanationEn": "Crouching changes which attack heights reach Jin and which guard is available.", "exampleUk": "Присісти під високим ударом.", "exampleEn": "Crouch under a high attack."},
+        "ACT-294": {"labelUk": "Зафіксуй Джина для Arcade", "labelEn": "Commit Jin for Arcade", "explanationUk": "На початку обери Джина; далі він залишається бійцем цього проходження.", "explanationEn": "Select Jin at entry; he remains the fighter for this run.", "exampleUk": "Підтвердити Джина на екрані вибору.", "exampleEn": "Confirm Jin at character select."},
+        "ACT-297": {"labelUk": "Кидай або виривайся", "labelEn": "Throw or escape", "explanationUk": "Зблизька можна провести кидок або в допустиму мить відповісти на кидок суперника.", "explanationEn": "At close range, attempt a throw or answer an eligible incoming throw in time.", "exampleUk": "Вирватися зі звичайного фронтального кидка.", "exampleEn": "Escape an ordinary frontal throw."},
+        "SYS-215": {"labelUk": "Розв’язуй зіткнення в бою", "labelEn": "Resolve fight contact", "explanationUk": "Дистанція, вісь, поза й захист визначають промах, влучання, шкоду та падіння.", "explanationEn": "Distance, axis, posture and guard determine miss, hit, damage and knockdown.", "exampleUk": "Прямий удар промахується після бокового кроку.", "exampleEn": "A straight attack misses after a sidestep."},
+        "SYS-522": {"labelUk": "Присуджуй раунди", "labelEn": "Award rounds", "explanationUk": "KO чи завершення часу дає результат раунду; за нічиєї очко може отримати кожен.", "explanationEn": "KO or time-over settles a round; a draw can award a point to both sides.", "exampleUk": "За однакового здоров’я після таймера обидва отримують позначку.", "exampleEn": "At equal health on timeout, both receive a marker."},
+        "CON-446": {"labelUk": "Пильнуй здоров’я й час", "labelEn": "Watch health and time", "explanationUk": "Нуль здоров’я або завершення 40 секунд зупиняє раунд; матч потребує визначеної кількості перемог.", "explanationEn": "Zero health or the 40-second expiry ends a round; the match requires its configured win count.", "exampleUk": "Мати більше здоров’я, коли час спливе.", "exampleEn": "Hold more health when the timer expires."},
+        "CON-667": {"labelUk": "Міняй лінію атаки боковим кроком", "labelEn": "Shift the attack line laterally", "explanationUk": "Обхід на відкритій площині може вивести Джина з траєкторії удару без взаємодії зі стіною.", "explanationEn": "Circling on an open plane can move Jin off an attack path without a wall interaction.", "exampleUk": "Обійти суперника перед відповідним ударом.", "exampleEn": "Circle the opponent before a counterattack."},
+        "INF-209": {"labelUk": "Читай позиції двох бійців", "labelEn": "Read both fighters' positions", "explanationUk": "На екрані видно відстань, напрям і поточні пози бійців.", "explanationEn": "The screen shows fighter distance, alignment and current poses.", "exampleUk": "Побачити, що Джин стоїть збоку від суперника.", "exampleEn": "See Jin positioned off the opponent's axis."},
+        "INF-210": {"labelUk": "Стеж за шкалами й раундами", "labelEn": "Read gauges and rounds", "explanationUk": "Шкали здоров’я, таймер і позначки раундів підказують ризик та стан матчу.", "explanationEn": "Health bars, timer and round markers expose risk and match progress.", "exampleUk": "Побачити перевагу за здоров’ям перед завершенням часу.", "exampleEn": "See the health lead before time-over."},
+        "OBJ-099": {"labelUk": "Виграй поточний двобій", "labelEn": "Win the current duel", "explanationUk": "Набери потрібні перемоги в раундах проти цього суперника, перш ніж він зробить те саме.", "explanationEn": "Earn the required round wins against this opponent before they do.", "exampleUk": "Завершити матч останнім потрібним KO.", "exampleEn": "End the match with the required final KO."}
+      },
+      "supporting": {
+        "CON-442": {"labelUk": "Команда потребує придатного стану", "labelEn": "Commands need an actionable state", "explanationUk": "Удар, захист чи кидок не почнеться, якщо Джин ще лежить або відновлюється.", "explanationEn": "An attack, guard or throw cannot start while Jin is down or recovering.", "exampleUk": "Дочекатися підйому після падіння перед ударом.", "exampleEn": "Wait for recovery before attacking."},
+        "INF-142": {"labelUk": "Розпізнавай рух удару", "labelEn": "Read attack motion", "explanationUk": "Анімація та контакт допомагають відрізнити початок атаки, блок і падіння.", "explanationEn": "Motion and contact help distinguish attack start, block and knockdown.", "exampleUk": "Побачити підготовку високого удару.", "exampleEn": "Notice a high strike starting."},
+        "TIM-003": {"labelUk": "Реагуй наживо", "labelEn": "Respond in live time", "explanationUk": "Обидва бійці й таймер продовжують рух, поки ти обираєш наступну дію.", "explanationEn": "Both fighters and the timer keep moving while you choose the next action.", "exampleUk": "Змінити захист до завершення удару суперника.", "exampleEn": "Change guard before the incoming strike lands."}
+      }
+    },
+    "GAME-0367": {
+      "genes": {
+        "ACT-189": {"labelUk": "Наказуй двом напарникам окремо", "labelEn": "Order the two squadmates separately", "explanationUk": "Обираєш, кого саме скерувати до укриття або на ворога; другий напарник не мусить повторювати той самий наказ.", "explanationEn": "Choose which companion moves to cover or attacks; the other need not receive the same order.", "exampleUk": "Відправити Джейкоба ліворуч, а Міранду праворуч від брами.", "exampleEn": "Send Jacob left and Miranda right of the gate."},
+        "SYS-379": {"labelUk": "Зберігай наслідок розмови в завданні", "labelEn": "Carry a dialogue consequence into the mission", "explanationUk": "Відомості з запису Вітора й рішення, з ким він піде, залишаються частиною завершеного завдання.", "explanationEn": "Veetor's recording and the decision about who takes him remain part of the settled mission.", "exampleUk": "Дати Вітору піти з Талі, а потім доповісти Примарі.", "exampleEn": "Let Veetor leave with Tali, then report to the Illusive Man."},
+        "CON-668": {"labelUk": "Спершу пробий захист цілі", "labelEn": "Strip target protection first", "explanationUk": "Деякі ефекти проти здоров’я або знерухомлення не діють, доки на ворогові тримається придатний щит, броня чи бар’єр.", "explanationEn": "Some health or disabling effects cannot work while a compatible shield, armour or barrier remains.", "exampleUk": "Зняти щит важкого меха перед здібністю проти його здоров’я.", "exampleEn": "Remove the heavy mech's shield before a health-affecting power."},
+        "INF-375": {"labelUk": "Подивись, чим захищений ворог", "labelEn": "Read the enemy's protection", "explanationUk": "Шкала обраної цілі показує тип захисту окремо від здоров’я, тож можна обрати дієву зброю чи здібність.", "explanationEn": "The selected target bar separates protection type from health so you can choose an effective weapon or power.", "exampleUk": "Побачити на важкому мехові щит і броню до наказу напарнику.", "exampleEn": "See the heavy mech's shield and armour before ordering a squadmate."},
+        "OBJ-155": {"labelUk": "Заверши пролог і отримай керування кораблем", "labelEn": "Finish the opening and gain ship control", "explanationUk": "Виявити викрадачів та завершити Freedom's Progress недостатньо: межа цього аналізу — перше вільне керування Normandy SR-2.", "explanationEn": "Identifying the abductors and finishing Freedom's Progress is not enough: this packet ends at first free Normandy SR-2 control.", "exampleUk": "Після доповіді отримати корабель і досьє, але ще не вербувати нових членів команди.", "exampleEn": "Receive the ship and dossiers after the report, without yet recruiting anyone new."},
+        "TIM-027": {"labelUk": "Постав бій на паузу для наказів", "labelEn": "Pause combat to issue orders", "explanationUk": "Поки тримаєш радіальне меню, бій не просувається; обираєш допустимі здібності й повертаєшся до живої сутички.", "explanationEn": "While holding the radial menu, combat does not advance; select legal powers, then resume the live fight.", "exampleUk": "Зупинити мить біля меха, запланувати здібність Міранди й відпустити меню.", "exampleEn": "Pause at the mech, queue Miranda's power, and release the wheel."}
+      },
+      "structural": {
+        "ACT-161": {"labelUk": "Прицілюйся й стріляй по ворогу", "labelEn": "Aim and fire at a hostile target", "explanationUk": "Обрана зброя вражає доступну ціль під час живого бою, а не сама визначає тактику загону.", "explanationEn": "The selected weapon attacks a reachable target in live combat without choosing the squad's tactics for you.", "exampleUk": "Вийти з укриття й обстріляти важкого меха.", "exampleEn": "Leave cover and fire at the heavy mech."},
+        "ACT-183": {"labelUk": "Перезаряджай теплові кліпси", "labelEn": "Reload thermal clips", "explanationUk": "Витрачений запас у магазині потребує ручного перезарядження з наявних кліпс.", "explanationEn": "An emptied weapon magazine needs a manual reload from the available thermal clips.", "exampleUk": "Перезарядити пістолет після сутички на станції Лазар.", "exampleEn": "Reload the pistol after a Lazarus station fight."},
+        "ACT-190": {"labelUk": "Застосовуй готову бойову здібність", "labelEn": "Use a ready combat power", "explanationUk": "Обираєш власну або доступну здібність напарника, коли вона готова й має допустиму ціль.", "explanationEn": "Select Shepard's or a squadmate's available power when it is ready and has a legal target.", "exampleUk": "Скерувати здібність Міранди на придатного меха.", "exampleEn": "Direct Miranda's power at an eligible mech."},
+        "ACT-226": {"labelUk": "Займай придатне укриття", "labelEn": "Take reachable cover", "explanationUk": "Шепард переходить за захисну перешкоду й може вийти з неї для пострілу або руху.", "explanationEn": "Shepard moves behind protective geometry and can leave it to shoot or advance.", "exampleUk": "Сховатися за ящиками перед боєм у вантажному дворі.", "exampleEn": "Shelter behind crates before the loading-bay fight."},
+        "ACT-232": {"labelUk": "Обирай репліку або вчасне втручання", "labelEn": "Choose a reply or timed interruption", "explanationUk": "У розмові підтверджуєш одну відповідь, а коротка нагода втрутитися потребує окремого натискання.", "explanationEn": "Confirm one dialogue response; a brief interrupt opportunity needs a separate timely input.", "exampleUk": "Натиснути запропоноване втручання під час розмови з Вітором.", "exampleEn": "Take the offered interrupt during Veetor's conversation."},
+        "SYS-215": {"labelUk": "Постріли розв’язуються в бою", "labelEn": "Shots resolve in combat", "explanationUk": "Після натискання вогню система обчислює влучання й шкоду обраною зброєю.", "explanationEn": "After firing, the system resolves contact and damage for the selected weapon.", "exampleUk": "Постріли з пістолета зменшують захист меха.", "exampleEn": "Pistol shots reduce a mech's protection."},
+        "SYS-297": {"labelUk": "Напарник виконує адресований наказ", "labelEn": "A squadmate carries out an addressed order", "explanationUk": "Система скеровує конкретного напарника до точки або на ціль після твого наказу.", "explanationEn": "The system routes the specifically addressed squadmate toward a point or target after your order.", "exampleUk": "Джейкоб займає призначене укриття ліворуч.", "exampleEn": "Jacob moves to the assigned cover on the left."},
+        "SYS-348": {"labelUk": "Шкода проходить крізь шари захисту", "labelEn": "Damage passes through protection layers", "explanationUk": "Щит, броня та здоров’я зменшуються як різні шари, тому один удар не описує весь стан ворога.", "explanationEn": "Shield, armour and health resolve as distinct layers, so one hit does not describe the whole enemy state.", "exampleUk": "Спершу збити щит важкого меха, потім його броню.", "exampleEn": "Remove the heavy mech's shield before its armour."},
+        "SYS-380": {"labelUk": "Здібність накладає власний ефект", "labelEn": "A power applies its specific effect", "explanationUk": "Після допустимого вибору система розв’язує ефект здібності проти стану цілі.", "explanationEn": "After a legal choice, the system resolves that power's effect against the target state.", "exampleUk": "Скерувати придатну здібність загону на відкритого ворога.", "exampleEn": "Use an eligible squad power against an exposed enemy."},
+        "SYS-913": {"labelUk": "Щит відновлюється після перепочинку", "labelEn": "Shields recover after a quiet interval", "explanationUk": "Коли Шепард певний час не отримує шкоди, звичайний щит знову набирає міцність.", "explanationEn": "When Shepard avoids damage for a short interval, the ordinary shield recovers strength.", "exampleUk": "Перечекати за укриттям перед наступним виходом.", "exampleEn": "Wait behind cover before exposing Shepard again."},
+        "CON-269": {"labelUk": "Здібності потрібні готовність і ціль", "labelEn": "Powers require readiness and a target", "explanationUk": "Здібність не можна застосувати, якщо вона ще відновлюється або ціль поза допустимою відстанню.", "explanationEn": "A power cannot be used while cooling down or against a target outside legal range.", "exampleUk": "Дочекатися готовності здібності перед новим наказом.", "exampleEn": "Wait for a power to recharge before ordering it again."},
+        "CON-282": {"labelUk": "Сюжетні брами йдуть у визначеному порядку", "labelEn": "Story gates follow an authored order", "explanationUk": "Поки не завершено попередній етап, наступна місія або керування кораблем недоступні.", "explanationEn": "The next mission or free ship command remains unavailable until the preceding stage is complete.", "exampleUk": "Завершити Freedom's Progress перед керуванням Normandy SR-2.", "exampleEn": "Finish Freedom's Progress before commanding Normandy SR-2."},
+        "CON-326": {"labelUk": "Для укриття потрібна перешкода", "labelEn": "Cover needs suitable geometry", "explanationUk": "Шепард не може перейти в захисний стан посеред відкритого простору без досяжного укриття.", "explanationEn": "Shepard cannot enter protective cover in open space without reachable cover geometry.", "exampleUk": "Дістатися ящика, перш ніж притиснутися за ним.", "exampleEn": "Reach a crate before taking cover behind it."},
+        "INF-119": {"labelUk": "Стеж за здоров’ям і готовністю", "labelEn": "Track health and power readiness", "explanationUk": "Показники Шепарда й загону дають зрозуміти, чи можна витримати ще удар і застосувати здібність.", "explanationEn": "Shepard's and the squad's indicators show whether they can survive another hit and use a power.", "exampleUk": "Перевірити стан команди перед виходом з укриття.", "exampleEn": "Check squad status before leaving cover."},
+        "INF-125": {"labelUk": "Читай поточну мету маршруту", "labelEn": "Read the current route objective", "explanationUk": "Журнал і позначки повідомляють поточну сюжетну браму, але не розв’язують її замість гравця.", "explanationEn": "The journal and markers expose the current story gate without resolving it for the player.", "exampleUk": "Побачити завдання дістатися Вітора на колонії.", "exampleEn": "See the objective to reach Veetor on the colony."},
+        "INF-148": {"labelUk": "Бачиш доступні відповіді в діалозі", "labelEn": "See offered dialogue responses", "explanationUk": "Коло діалогу показує репліки й короткі нагоди втрутитися перед остаточним вибором.", "explanationEn": "The dialogue wheel shows responses and brief interrupt opportunities before commitment.", "exampleUk": "Помітити варіант відповіді щодо Вітора.", "exampleEn": "Notice a response option about Veetor."}
+      },
+      "supporting": {
+        "ACT-008": {"labelUk": "Рухайся між точками місії", "labelEn": "Move between mission positions", "explanationUk": "Керуєш Шепардом через корабель, станцію та колонію в межах доступного маршруту.", "explanationEn": "Control Shepard through the ship, station and colony along the available route.", "exampleUk": "Пройти від шлюзу до наступної брами.", "exampleEn": "Walk from the airlock to the next gate."},
+        "ACT-164": {"labelUk": "Обирай наявну зброю", "labelEn": "Select an available weapon", "explanationUk": "Перемикаєш активну зброю з того, що має Шепард у цьому вступному маршруті.", "explanationEn": "Switch the active weapon among those Shepard carries on this opening route.", "exampleUk": "Повернутися до пістолета перед сутичкою.", "exampleEn": "Switch back to the pistol before a fight."},
+        "ACT-199": {"labelUk": "Підбирай потрібне спорядження", "labelEn": "Pick up needed equipment", "explanationUk": "На навчальному маршруті береш доступну зброю чи запас, щоб продовжити рух.", "explanationEn": "Take available weapons or supplies on the tutorial route to keep progressing.", "exampleUk": "Підняти перший пістолет на станції Лазар.", "exampleEn": "Pick up the first pistol on Lazarus station."},
+        "ACT-341": {"labelUk": "Взаємодій із дверима й записами", "labelEn": "Interact with doors and records", "explanationUk": "Натискаєш на доступні об’єкти маршруту, не ототожнюючи це з окремою головоломкою злому.", "explanationEn": "Use available route objects without treating this as a separate hacking puzzle.", "exampleUk": "Відкрити двері й переглянути запис Вітора.", "exampleEn": "Open a door and review Veetor's recording."},
+        "SYS-057": {"labelUk": "Вороги просуваються до поміченої цілі", "labelEn": "Hostiles advance toward a detected target", "explanationUk": "Бойові мехи реагують на загін і змінюють позицію під час живої сутички.", "explanationEn": "Combat mechs react to the squad and change position during a live encounter.", "exampleUk": "Мех наближається, поки Шепард перезаряджає зброю.", "exampleEn": "A mech advances while Shepard reloads."},
+        "SYS-369": {"labelUk": "Повторюй сутичку з контрольної точки", "labelEn": "Retry a fight from a checkpoint", "explanationUk": "Після поразки гра повертає до авторського стану, а не зараховує завершення місії.", "explanationEn": "After defeat, the game returns to an authored checkpoint instead of counting the mission as complete.", "exampleUk": "Після загибелі повторити бій з важким мехом.", "exampleEn": "Retry the heavy-mech fight after defeat."},
+        "CON-285": {"labelUk": "Стріляй лише придатною зброєю", "labelEn": "Fire only with a ready weapon", "explanationUk": "Для пострілу потрібні вибрана сумісна зброя та заряд у тепловій кліпсі.", "explanationEn": "Firing needs a selected compatible weapon and charge in its thermal clip.", "exampleUk": "Перезарядитися, перш ніж знову стріляти.", "exampleEn": "Reload before firing again."},
+        "INF-073": {"labelUk": "Бачиш вибрану зброю", "labelEn": "See the selected weapon", "explanationUk": "Інтерфейс показує, яку зброю Шепард тримає активною перед наступним пострілом.", "explanationEn": "The interface shows which weapon Shepard has active before the next shot.", "exampleUk": "Переконатися, що вибрано пістолет.", "exampleEn": "Confirm that the pistol is selected."},
+        "INF-115": {"labelUk": "Сприймай неповний стан бою", "labelEn": "Read partial combat state", "explanationUk": "Зір і звук підказують, де є вороги, але не розкривають кожну майбутню дію.", "explanationEn": "Sight and sound suggest where enemies are without revealing every future action.", "exampleUk": "Почути меха за дверима до виходу з укриття.", "exampleEn": "Hear a mech beyond the door before leaving cover."},
+        "TIM-003": {"labelUk": "Дій, поки бій триває", "labelEn": "Act while combat continues", "explanationUk": "Звичайний рух, стрільба й дії ворогів відбуваються в реальному часі поза тактичним меню.", "explanationEn": "Ordinary movement, shooting and enemy actions proceed in real time outside the tactical wheel.", "exampleUk": "Рухатися до укриття під вогнем меха.", "exampleEn": "Move toward cover while a mech fires."}
+      }
+    },
+    "GAME-0368": {
+      "genes": {
+        "ACT-502": {"labelUk": "Зніми живу подію", "labelEn": "Photograph a live event", "explanationUk": "Камера фіксує саме те, що потрапило в кадр у мить натискання спуску.", "explanationEn": "The camera captures what is framed at the instant you press the shutter.", "exampleUk": "Зняти обійми Джеффа й Наталі на даху.", "exampleEn": "Photograph Jeff and Natalie embracing on the rooftop."},
+        "SYS-1001": {"labelUk": "Кадр приносить очки за зміст", "labelEn": "The scene determines photo points", "explanationUk": "Помітна подія й вдала композиція дають очки PP, а порожній кадр не має тієї самої цінності.", "explanationEn": "A noteworthy event and good framing earn PP; an empty frame has no comparable value.", "exampleUk": "Отримати очки за возз’єднання двох людей.", "exampleEn": "Earn points from the two survivors reuniting."},
+        "SYS-1002": {"labelUk": "Доведи людей до безпечної кімнати", "labelEn": "Get civilians safely home", "explanationUk": "Після згоди люди йдуть за тобою або до вказаної точки; порятунок зараховується лише після прибуття.", "explanationEn": "Once recruited, civilians follow you or a marked point; rescue counts only on safe arrival.", "exampleUk": "Перевести Джеффа й Наталі крізь вентиляційний прохід.", "exampleEn": "Guide Jeff and Natalie through the rooftop vent."},
+        "CON-597": {"labelUk": "Нагоди зникають із часом", "labelEn": "Opportunities expire", "explanationUk": "Коли строк справи чи побічного повідомлення спливає, відповідну нагоду вже не можна завершити на цьому шляху.", "explanationEn": "Once a Case or Scoop interval ends, that opportunity cannot be completed on the current path.", "exampleUk": "Дістатися Бреда до завершення строку справи.", "exampleEn": "Reach Brad before his Case expires."},
+        "INF-376": {"labelUk": "Перевір камеру перед знімком", "labelEn": "Check camera readiness", "explanationUk": "Видошукач показує заряд, готовність після попереднього кадру й позначки цікавих об’єктів.", "explanationEn": "The viewfinder shows battery, processing readiness and cues for worthwhile subjects.", "exampleUk": "Дочекатися готовності перед знімком обіймів.", "exampleEn": "Wait for readiness before capturing the reunion."}
+      },
+      "structural": {
+        "ACT-131": {"labelUk": "З’їж їжу для відновлення", "labelEn": "Eat food to recover", "explanationUk": "Один предмет їжі витрачається одразу й повертає частину здоров’я.", "explanationEn": "One carried food item is consumed immediately to restore health.", "exampleUk": "Підкріпитися перед сутичкою з Карліто.", "exampleEn": "Eat before the Carlito fight."},
+        "ACT-161": {"labelUk": "Вдар або вистріли сам", "labelEn": "Strike or shoot directly", "explanationUk": "Ти сам обираєш досяжну ціль для підручного предмета чи пістолета.", "explanationEn": "You directly choose a reachable target for an improvised object or pistol.", "exampleUk": "Прицілитися в Карліто на балконі.", "exampleEn": "Aim at Carlito on the balcony."},
+        "ACT-189": {"labelUk": "Вкажи людям точку руху", "labelEn": "Mark a civilian destination", "explanationUk": "Учасникам супроводу можна задати досяжну точку, не керуючи кожним кроком.", "explanationEn": "You can mark a reachable point for escorted people without steering each step.", "exampleUk": "Скерувати людей до вентиляційного проходу.", "exampleEn": "Point the civilians toward the rooftop vent."},
+        "SYS-223": {"labelUk": "Підручна зброя зношується", "labelEn": "Improvised weapons wear out", "explanationUk": "Удари зменшують міцність предмета, і він може зламатися.", "explanationEn": "Hits reduce an item's durability until it may break.", "exampleUk": "Замінити зламаний предмет у торговому центрі.", "exampleEn": "Replace a broken object in the mall."},
+        "SYS-299": {"labelUk": "Очки підвищують рівень", "labelEn": "Points raise Frank's level", "explanationUk": "Очки PP від фото, порятунку й інших дій накопичуються до порога розвитку.", "explanationEn": "PP from photos, rescues and other actions accumulate toward a level threshold.", "exampleUk": "Отримати додаткову комірку після нового рівня.", "exampleEn": "Gain another item slot at a new level."},
+        "SYS-379": {"labelUk": "Справи переходять у новий стан", "labelEn": "Cases advance to new states", "explanationUk": "Після потрібної сутички поточна справа закривається, а наступна стає доступною.", "explanationEn": "After the required encounter, the current Case closes and the next becomes available.", "exampleUk": "Побачити справу 1-3 після бою за Бреда.", "exampleEn": "See Case 1-3 after helping Brad."},
+        "CON-210": {"labelUk": "Комірок для речей обмаль", "labelEn": "Carried slots are limited", "explanationUk": "Їжа та зброя займають місце, тому взяти все підряд не вийде.", "explanationEn": "Food and weapons occupy slots, so you cannot carry everything.", "exampleUk": "Залишити зайвий предмет заради їжі.", "exampleEn": "Leave an extra object to carry food."},
+        "CON-282": {"labelUk": "Сюжетні справи мають порядок", "labelEn": "Story Cases have an order", "explanationUk": "Наступна справа не заміняє незавершену: спершу потрібна поточна сюжетна подія.", "explanationEn": "The next Case does not replace an unfinished one; the current story event must resolve first.", "exampleUk": "Допомогти Бреду перед відкриттям справи 1-3.", "exampleEn": "Help Brad before Case 1-3 opens."},
+        "CON-621": {"labelUk": "Зберігайся у спеціальному місці", "labelEn": "Save at a designated fixture", "explanationUk": "Ручне збереження доступне у визначеній вбиральні чи кімнаті охорони, а не будь-де.", "explanationEn": "Manual saving works at designated restrooms or the Security Room, not anywhere.", "exampleUk": "Зайти до вбиральні Flexin’ після бою.", "exampleEn": "Visit the Flexin' restroom after the fight."},
+        "INF-067": {"labelUk": "Читай строк поточного завдання", "labelEn": "Read the current time window", "explanationUk": "Годинник і повідомлення показують, скільки часу лишилося для доступної нагоди.", "explanationEn": "The watch and task cue show how long an available opportunity remains.", "exampleUk": "Перевірити строк «Допомоги Бреду».", "exampleEn": "Check Backup for Brad's time band."},
+        "INF-125": {"labelUk": "Стеж за маршрутом справи", "labelEn": "Follow the current Case route", "explanationUk": "Позначка справи показує, куди рухатися, але не вирішує, які відхилення дозволить час.", "explanationEn": "The Case marker shows where to go, but not which detours your remaining time can afford.", "exampleUk": "Знайти напрям до ресторанного двору.", "exampleEn": "Locate the route to the Food Court."},
+        "OBJ-155": {"labelUk": "Заверши першу бойову справу", "labelEn": "Finish the first combat Case", "explanationUk": "Потрібно завершити бій, отримати наступну справу й зберегти стан у допустимому місці.", "explanationEn": "Resolve the fight, enter the next Case and retain the state at an eligible save point.", "exampleUk": "Закрити справу 1-2 та зберегти її у Flexin’.", "exampleEn": "Close Case 1-2 and save at Flexin'."},
+        "TIM-007": {"labelUk": "Збереження дає інший шлях", "labelEn": "A save supports another path", "explanationUk": "Пізніше можна завантажити записаний стан і прийняти інші рішення від тієї межі.", "explanationEn": "You can later load the retained state and make different choices from that point.", "exampleUk": "Після збереження повторити маршрут іншою дорогою.", "exampleEn": "Replay from the save by a different route."}
+      },
+      "supporting": {
+        "ACT-008": {"labelUk": "Пересувайся торговим центром", "labelEn": "Move through the mall", "explanationUk": "Керуєш Френком між дахом, площами та ресторанним двором.", "explanationEn": "Steer Frank between the rooftop, plazas and Food Court.", "exampleUk": "Пройти від охорони до Бреда.", "exampleEn": "Travel from Security to Brad."},
+        "ACT-164": {"labelUk": "Обери предмет у руках", "labelEn": "Choose a held item", "explanationUk": "Перемикаєшся між доступними предметами без зміни їхнього запасу.", "explanationEn": "Switch among carried objects without changing their stock.", "exampleUk": "Змінити підручну зброю на пістолет.", "exampleEn": "Swap an improvised weapon for the pistol."},
+        "ACT-341": {"labelUk": "Взаємодій із доступними об’єктами", "labelEn": "Use reachable fixtures", "explanationUk": "Розмова, двері та точка збереження запускаються окремими діями біля них.", "explanationEn": "Conversation, doors and a save point require separate nearby interactions.", "exampleUk": "Поговорити з Джеффом на даху.", "exampleEn": "Speak with Jeff on the rooftop."},
+        "SYS-057": {"labelUk": "Зомбі реагують на близькість", "labelEn": "Zombies react nearby", "explanationUk": "Помітні зомбі пересуваються до доступних людей, поки світ продовжує рухатися.", "explanationEn": "Perceiving zombies move toward reachable people while the world continues.", "exampleUk": "Обійти натовп біля входу.", "exampleEn": "Avoid a crowd at the entrance."},
+        "SYS-215": {"labelUk": "Удар розв’язується наживо", "labelEn": "Attacks resolve live", "explanationUk": "Постріл чи удар змінює здоров’я цілі, якщо зброя й контакт придатні.", "explanationEn": "A shot or strike changes target health when the weapon and contact are valid.", "exampleUk": "Влучити в Карліто з доступної позиції.", "exampleEn": "Hit Carlito from a reachable position."},
+        "SYS-222": {"labelUk": "Підбирай доступні речі", "labelEn": "Pick up available objects", "explanationUk": "Придатний предмет переходить у вільну комірку після підбору.", "explanationEn": "An eligible object moves into a free slot when picked up.", "exampleUk": "Взяти їжу перед виходом із кімнати.", "exampleEn": "Take food before leaving the room."},
+        "CON-285": {"labelUk": "Зброя потребує придатного заряду", "labelEn": "A gun needs compatible ammunition", "explanationUk": "Постріл неможливий із порожнього чи непридатного пістолета.", "explanationEn": "An empty or incompatible pistol cannot fire.", "exampleUk": "Взяти інший пістолет, коли цей вичерпався.", "exampleEn": "Pick up another pistol once this one is spent."},
+        "INF-073": {"labelUk": "Бачиш поточний предмет", "labelEn": "See the current item", "explanationUk": "Панель показує обраний предмет і зайняті комірки.", "explanationEn": "The item display shows the selected object and occupied slots.", "exampleUk": "Побачити, що в руках пістолет.", "exampleEn": "See that the pistol is selected."},
+        "INF-115": {"labelUk": "Помічай місцеву загрозу", "labelEn": "Notice nearby threats", "explanationUk": "Зір і звук показують частину зомбі та нападників, але не всі майбутні події.", "explanationEn": "Sight and sound reveal some zombies and attackers, not every future event.", "exampleUk": "Побачити натовп перед дверима.", "exampleEn": "Spot a crowd before reaching the door."},
+        "INF-119": {"labelUk": "Стеж за здоров’ям і рівнем", "labelEn": "Track health and level", "explanationUk": "Індикатори Френка показують, чи витримає він удар і скільки поступу вже здобуто.", "explanationEn": "Frank's indicators show whether he can take a hit and how much progression is earned.", "exampleUk": "Оцінити здоров’я перед сутичкою.", "exampleEn": "Check health before the encounter."},
+        "TIM-003": {"labelUk": "Світ не чекає", "labelEn": "The world keeps moving", "explanationUk": "Поки Френк діє, загрози й строки сюжетних нагод продовжують розвиватися.", "explanationEn": "As Frank acts, threats and story opportunity clocks keep advancing.", "exampleUk": "Поспішати до Бреда після порятунку людей.", "exampleEn": "Hurry to Brad after rescuing the civilians."}
+      }
+    },
+    "GAME-0369": {
+      "genes": {
+        "ACT-503": {"labelUk": "Займи частину нового тайла", "labelEn": "Claim the new tile", "explanationUk": "Після викладання тайла можеш поставити одного підданого на його вільний об’єкт.", "explanationEn": "After placing a tile, you may put one follower on an unclaimed feature of it.", "exampleUk": "Поставити міпла на нову частину дороги.", "exampleEn": "Place a meeple on a new road segment."},
+        "SYS-1003": {"labelUk": "Завершений об’єкт дає очки", "labelEn": "A finished feature scores", "explanationUk": "Очки дістаються гравцеві з найбільшою кількістю підданих; за нічиєї кожен лідер отримує повну суму, а фішки повертаються.", "explanationEn": "The player with the most followers scores; tied leaders each get full points and their pieces return.", "exampleUk": "Закрити дорогу й повернути підданих.", "exampleEn": "Close a road and recover the followers."},
+        "SYS-1004": {"labelUk": "Наприкінці рахуються й поля", "labelEn": "Fields score at the end", "explanationUk": "Після останнього тайла рахують незавершені споруди та прилеглі завершені міста для полів із селянами.", "explanationEn": "After the last tile, unfinished structures and completed cities beside farmer fields are scored.", "exampleUk": "Отримати три очки за кожне окреме завершене місто біля поля.", "exampleEn": "Earn three points per distinct completed city beside a field."},
+        "CON-669": {"labelUk": "Зайнятий об’єкт не можна зайняти знову", "labelEn": "No direct claim on an occupied feature", "explanationUk": "Перед виставленням перевіряють увесь зв’язаний об’єкт, а не лише новий тайл.", "explanationEn": "Before placing a follower, check the entire connected feature, not just the new tile.", "exampleUk": "Не ставити другого міпла на вже зайняту дорогу.", "exampleEn": "Do not place another meeple on an occupied road."},
+        "CON-670": {"labelUk": "Підданих обмаль", "labelEn": "Followers are scarce", "explanationUk": "Можна виставити лише фішку з власного запасу; звичайні повертаються після очок, а селяни чекають кінця гри.", "explanationEn": "Only supply pieces can be deployed; ordinary ones return after scoring, but farmers stay until the end.", "exampleUk": "Залишити підданого для наступного міста.", "exampleEn": "Keep a follower for the next city."}
+      },
+      "structural": {
+        "ACT-026": {"labelUk": "Поверни й виклади тайл", "labelEn": "Rotate and place the tile", "explanationUk": "Вибираєш місце й поворот для поточного взятого тайла.", "explanationEn": "Choose the location and rotation of the currently drawn tile.", "exampleUk": "Приєднати дорогу до дороги.", "exampleEn": "Connect a road to a road."},
+        "SYS-034": {"labelUk": "Краї з’єднують об’єкти", "labelEn": "Edges join features", "explanationUk": "Після викладання сумісні дороги, міста й поля стають зв’язаними частинами.", "explanationEn": "After placement, matching roads, cities and fields become connected features.", "exampleUk": "Дві окремі дороги стали однією.", "exampleEn": "Two separate roads become one."},
+        "CON-056": {"labelUk": "Добудовуй спільний краєвид", "labelEn": "Extend the shared landscape", "explanationUk": "Новий тайл має торкатися вже викладеного краєвиду.", "explanationEn": "A new tile must touch the already placed landscape.", "exampleUk": "Покласти тайл біля стартового.", "exampleEn": "Place a tile beside the starting one."},
+        "CON-058": {"labelUk": "Суміжні краї мають збігатися", "labelEn": "Touching edges must match", "explanationUk": "Місто стикується з містом, дорога з дорогою, а поле з полем.", "explanationEn": "City must meet city, road must meet road and field must meet field.", "exampleUk": "Не спрямовувати дорогу в міську стіну.", "exampleEn": "Do not aim a road into a city wall."},
+        "CON-671": {"labelUk": "Тайли закінчуються", "labelEn": "The tile supply runs out", "explanationUk": "Запас не поповнюється; неможливий тайл відкладають, а після вичерпання підраховують фінальні очки.", "explanationEn": "The supply is not refilled; an impossible tile is discarded and exhaustion triggers final scoring.", "exampleUk": "Завершити гру після останнього можливого тайла.", "exampleEn": "Finish after the final placeable tile."},
+        "OBJ-002": {"labelUk": "Збери більше очок", "labelEn": "Earn the highest score", "explanationUk": "Очки завершених об’єктів і фінальні очки полів разом визначають переможця.", "explanationEn": "Completed features and final field points together determine the winner.", "exampleUk": "Обігнати суперника після фінального підрахунку.", "exampleEn": "Outscore the opponent after final scoring."}
+      },
+      "supporting": {
+        "SYS-004": {"labelUk": "Наступний тайл випадковий", "labelEn": "The next tile is random", "explanationUk": "Гравець бере верхній тайл із перемішаного прихованого запасу.", "explanationEn": "A player draws the next tile from the shuffled hidden supply.", "exampleUk": "Отримати новий тайл на початку ходу.", "exampleEn": "Draw a new tile at turn start."},
+        "INF-001": {"labelUk": "Поточне поле видно", "labelEn": "The current board is visible", "explanationUk": "Розташування тайлів, підданих і очки відкриті обом гравцям.", "explanationEn": "Both players can see the tiles, followers and scores already on the table.", "exampleUk": "Порахувати підданих на з’єднаній дорозі.", "exampleEn": "Count followers on a joined road."},
+        "INF-002": {"labelUk": "Майбутні тайли приховані", "labelEn": "Future tiles are hidden", "explanationUk": "Порядок наступних тайлів не відомий перед їх витягуванням.", "explanationEn": "The order of upcoming tiles is unknown before they are drawn.", "exampleUk": "Не знати, чи наступним буде місто.", "exampleEn": "Not know whether a city tile comes next."},
+        "TIM-004": {"labelUk": "Гравці ходять по черзі", "labelEn": "Players alternate turns", "explanationUk": "Після викладання тайла й підрахунку дія переходить до суперника.", "explanationEn": "After tile placement and scoring, the opponent takes the next turn.", "exampleUk": "Червоний ходить після синього.", "exampleEn": "Red plays after blue."}
+      }
+    },
+    "GAME-0370": {
+      "genes": {
+        "ACT-504": {"labelUk": "Побудуй обладнаний кабінет", "labelEn": "Build a furnished room", "explanationUk": "Накресли площу, додай двері й обов’язкові меблі, тоді відкрий кабінет.", "explanationEn": "Draw the footprint, add a door and required furniture, then open the room.", "exampleUk": "Обладнати кабінет терапевта.", "exampleEn": "Finish a GP's Office."},
+        "ACT-505": {"labelUk": "Скеруй чергу й непевний діагноз", "labelEn": "Manage queues and uncertainty", "explanationUk": "Змінюй черги й правило, коли пацієнта лікувати, направити або відпустити.", "explanationEn": "Adjust queues and the rule for treating, referring or sending away uncertain cases.", "exampleUk": "Перевести пацієнта до іншого терапевта.", "exampleEn": "Move a patient to another GP queue."},
+        "SYS-1005": {"labelUk": "Пацієнт іде через діагностику", "labelEn": "Patients pass through diagnosis", "explanationUk": "Після реєстратури терапевт може направити пацієнта на додаткове обстеження.", "explanationEn": "After reception, a GP may refer a patient for more tests.", "exampleUk": "Скерувати непевний випадок на загальну діагностику.", "exampleEn": "Refer an uncertain case to General Diagnosis."},
+        "SYS-1006": {"labelUk": "Лікуй у відповідному кабінеті", "labelEn": "Treat in a compatible room", "explanationUk": "Визначена хвороба потребує свого кабінету й працівника; лікування може не вдатися.", "explanationEn": "A diagnosed disease needs the right room and worker; treatment can fail.", "exampleUk": "Медсестра дає ліки в аптеці.", "exampleEn": "A nurse gives medicine in the Pharmacy."},
+        "SYS-1007": {"labelUk": "Результат впливає на репутацію", "labelEn": "Care changes reputation", "explanationUk": "Лікування, смерті, якість діагнозу й ціни змінюють репутацію лікарні.", "explanationEn": "Cures, deaths, diagnosis quality and prices alter hospital reputation.", "exampleUk": "Більше вдалих лікувань покращує довіру.", "exampleEn": "More successful cures improve trust."},
+        "CON-672": {"labelUk": "Кабінету потрібен фахівець", "labelEn": "Rooms need qualified staff", "explanationUk": "Дверей і меблів замало: для послуги потрібен працівник належної професії.", "explanationEn": "A door and furniture are not enough: service needs a suitable worker.", "exampleUk": "Психіатричний кабінет чекає психіатра.", "exampleEn": "Psychiatry waits for a psychiatrist."},
+        "INF-377": {"labelUk": "Дивись на черги й п’ять цілей", "labelEn": "See queues and five targets", "explanationUk": "Панелі показують направлення, навантаження кабінетів і поступ до квартальної оцінки.", "explanationEn": "Panels show referrals, room pressure and progress toward quarterly appraisal.", "exampleUk": "Перевірити чергу терапевта й показник репутації.", "exampleEn": "Check the GP queue and reputation bar."},
+        "OBJ-213": {"labelUk": "Виконай п’ять цілей разом", "labelEn": "Meet five targets together", "explanationUk": "До квартальної оцінки досягни всіх п’яти порогів і не виконай умов поразки.", "explanationEn": "At quarterly appraisal, meet all five thresholds and avoid loss conditions.", "exampleUk": "Мати достатньо грошей, вилікуваних і задоволених пацієнтів.", "exampleEn": "Have enough money, cures and patient happiness."}
+      },
+      "structural": {
+        "ACT-139": {"labelUk": "Розставляй предмети", "labelEn": "Place hospital items", "explanationUk": "Стійку реєстратури й лавки ставлять у дозволених місцях.", "explanationEn": "Place reception desks and benches where legal.", "exampleUk": "Поставити стійку біля входу.", "exampleEn": "Place reception near the entrance."},
+        "ACT-488": {"labelUk": "Наймай працівників", "labelEn": "Hire service workers", "explanationUk": "Працівники самі виконують призначену роботу після найму й розміщення.", "explanationEn": "Hired and placed workers perform their roles autonomously.", "exampleUk": "Найняти лікаря до кабінету терапевта.", "exampleEn": "Hire a doctor for the GP's Office."},
+        "SYS-045": {"labelUk": "Люди рухаються самі", "labelEn": "People move on their own", "explanationUk": "Пацієнти й персонал ходять між доступними кабінетами та чергами.", "explanationEn": "Patients and staff walk among available rooms and queues.", "exampleUk": "Пацієнт іде від реєстратури до терапевта.", "exampleEn": "A patient walks from reception to the GP."},
+        "SYS-154": {"labelUk": "Бюджет змінюється", "labelEn": "The budget keeps changing", "explanationUk": "Надходження від послуг і витрати на персонал змінюють касу.", "explanationEn": "Service income and staff costs change the treasury.", "exampleUk": "Сплатити зарплату після лікування.", "exampleEn": "Pay wages after care income."},
+        "SYS-198": {"labelUk": "Потреби впливають на людей", "labelEn": "Needs affect people", "explanationUk": "Чекання виснажує пацієнтів, а без відпочинку втомлюється персонал.", "explanationEn": "Waiting wears on patients and staff tire without rest.", "exampleUk": "Побудувати кімнату відпочинку.", "exampleEn": "Build a staff room."},
+        "CON-171": {"labelUk": "Плануй витрати", "labelEn": "Budget for construction", "explanationUk": "Кабінети й працівники коштують грошей, яких має вистачити й далі.", "explanationEn": "Rooms and workers cost money that must last.", "exampleUk": "Не витратити весь бюджет на один кабінет.", "exampleEn": "Do not spend the entire budget on one room."},
+        "INF-072": {"labelUk": "Оглядай людину", "labelEn": "Inspect a person", "explanationUk": "Картка пацієнта чи працівника пояснює його стан і заняття.", "explanationEn": "A patient or staff card explains current state and activity.", "exampleUk": "Побачити втому лікаря.", "exampleEn": "Notice that a doctor is tired."}
+      },
+      "supporting": {
+        "ACT-006": {"labelUk": "Змінюй темп", "labelEn": "Change the pace", "explanationUk": "Можна сповільнити або призупинити перебіг лікарні для рішення.", "explanationEn": "Slow or pause the hospital while deciding.", "exampleUk": "Призупинити гру перед наймом.", "exampleEn": "Pause before hiring."},
+        "ACT-487": {"labelUk": "Відкрий лікарню", "labelEn": "Open the hospital", "explanationUk": "Після підготовки відкрий заклад для пацієнтів.", "explanationEn": "After preparation, open the venue to patients.", "exampleUk": "Натиснути кнопку запуску таймера будівництва.", "exampleEn": "Press GO on the Build Timer."},
+        "INF-058": {"labelUk": "Перевіряй фінанси", "labelEn": "Inspect the accounts", "explanationUk": "Звіт розділяє надходження, витрати й стан грошей.", "explanationEn": "The ledger separates income, expenses and available money.", "exampleUk": "Звірити зарплати перед наймом.", "exampleEn": "Check wages before another hire."},
+        "TIM-003": {"labelUk": "Час не зупиняється", "labelEn": "Time keeps moving", "explanationUk": "Пацієнти прибувають і чекають, поки минає квартал.", "explanationEn": "Patients arrive and wait as the quarter advances.", "exampleUk": "Скоротити чергу до оцінки.", "exampleEn": "Shorten a queue before appraisal."}
+      }
+    },
+    "GAME-0371": {
+      "genes": {
+        "ACT-506": {"labelUk": "Кинь їжу в кадр", "labelEn": "Place food in the scene", "explanationUk": "Кинь відкриту їжу біля покемона, коли камеру не наведено для фото.", "explanationEn": "Throw unlocked food near a Pokémon while not focused through the camera.", "exampleUk": "Кинути їжу неподалік Пікачу.", "exampleEn": "Throw food near Pikachu."},
+        "ACT-507": {"labelUk": "Познач фото для Оука", "labelEn": "Mark a photo for Oak", "explanationUk": "Після маршруту вибери лише один кадр кожного виду для оцінювання.", "explanationEn": "After the course, select only one frame per species for appraisal.", "exampleUk": "Позначити один із кількох кадрів Пікачу.", "exampleEn": "Mark one of several Pikachu shots."},
+        "SYS-1008": {"labelUk": "Їжа змінює позу", "labelEn": "Food changes a subject's pose", "explanationUk": "Покемон може сам повернутися або відреагувати на їжу в сцені.", "explanationEn": "A Pokémon may independently turn or react to food placed in the scene.", "exampleUk": "Пікачу повертається до їжі.", "exampleEn": "Pikachu turns toward the food."},
+        "SYS-1009": {"labelUk": "Оук оцінює й зберігає", "labelEn": "Oak scores and retains the best", "explanationUk": "Оук підсумовує властивості фото й порівнює його з попереднім найкращим кадром виду.", "explanationEn": "Oak scores the photo's properties and compares it with the species' previous best.", "exampleUk": "Кращий кадр Пікачу лишається в звіті.", "exampleEn": "The stronger Pikachu shot stays in the Report."},
+        "CON-673": {"labelUk": "Маршрут не повертає назад", "labelEn": "The route does not reverse", "explanationUk": "Камеру можна повертати, але транспорт рухається власним заданим шляхом.", "explanationEn": "You can turn the camera, but the vehicle follows its authored path.", "exampleUk": "Пропущений Пікачу залишається позаду.", "exampleEn": "A missed Pikachu remains behind."},
+        "CON-674": {"labelUk": "На маршрут лише 60 кадрів", "labelEn": "Sixty shots per course", "explanationUk": "Кожне натискання затвора витрачає один кадр зі скінченного запасу.", "explanationEn": "Each shutter press spends one exposure from a finite roll.", "exampleUk": "Залишити кадри для Пікачу наприкінці поїздки.", "exampleEn": "Save exposures for Pikachu later in the tour."},
+        "CON-675": {"labelUk": "Один кадр на вид", "labelEn": "One submission per species", "explanationUk": "Багато фото одного виду можна зробити, але на оцінювання позначити лише одне.", "explanationEn": "You may capture many frames of a species but mark only one for appraisal.", "exampleUk": "Із трьох знімків Пікачу вибрати один.", "exampleEn": "Choose one of three Pikachu photos."},
+        "OBJ-214": {"labelUk": "Довези фото до оцінки", "labelEn": "Bring a photo to appraisal", "explanationUk": "Заверш маршрут і передай позначений кадр для оцінювання та звіту.", "explanationEn": "Finish the course and submit a marked frame for scoring and the Report.", "exampleUk": "Показати Оуку обране фото Пікачу.", "exampleEn": "Show Oak the chosen Pikachu shot."}
+      },
+      "structural": {
+        "ACT-502": {"labelUk": "Зніми живу мить", "labelEn": "Photograph a live moment", "explanationUk": "Натискання затвора зберігає саме поточне зображення, якщо камера готова.", "explanationEn": "The shutter stores the current frame if the camera is ready.", "exampleUk": "Сфотографувати Пікачу в мить реакції на їжу.", "exampleEn": "Photograph Pikachu reacting to food."},
+        "INF-378": {"labelUk": "Датчик підказує ціль", "labelEn": "The sensor identifies a subject", "explanationUk": "Видошукач підказує розпізнаного або невідомого покемона й показує залишок кадрів.", "explanationEn": "The viewfinder flags a recognised or unknown Pokémon and shows remaining film.", "exampleUk": "Помітити напис NEW перед знімком.", "exampleEn": "See NEW before taking the photo."}
+      },
+      "supporting": {
+        "SYS-045": {"labelUk": "Транспорт їде сам", "labelEn": "The vehicle travels itself", "explanationUk": "ZERO-ONE просувається маршрутом, навіть коли гравець придивляється до об’єкта.", "explanationEn": "ZERO-ONE advances along the course even while you inspect a subject.", "exampleUk": "Транспорт проїжджає повз Пікачу.", "exampleEn": "The vehicle passes Pikachu."},
+        "INF-299": {"labelUk": "Оцінка розкладена на складники", "labelEn": "The score shows its parts", "explanationUk": "Після перевірки видно розмір, позу, розташування та інші складники балів.", "explanationEn": "After checking, size, pose, centring and other score parts are visible.", "exampleUk": "Побачити оцінку пози від професора Оука.", "exampleEn": "See Oak's pose score."},
+        "TIM-003": {"labelUk": "Нагода минає наживо", "labelEn": "The moment passes in real time", "explanationUk": "Покемон і транспорт рухаються, поки гравець вибирає момент знімка.", "explanationEn": "The subject and vehicle keep moving while you choose when to shoot.", "exampleUk": "Встигнути зробити кадр до повороту маршруту.", "exampleEn": "Take the shot before the course turns."}
+      }
+    },
+    "GAME-0372": {
+      "genes": {
+        "ACT-508": {"labelUk": "Лад і удар одночасно", "labelEn": "Fret and strum in time", "explanationUk": "Затисни потрібний кольоровий лад і вдар по струнах на лінії ноти.", "explanationEn": "Hold the coloured fret and strum as its note reaches the line.", "exampleUk": "Затиснути червоний і жовтий лади для акорду.", "exampleEn": "Hold red and yellow together for a chord."},
+        "SYS-1010": {"labelUk": "Ноти рухаються за графіком", "labelEn": "Notes follow an authored chart", "explanationUk": "Задані ноти наближаються, а система перевіряє кожен удар і утримання.", "explanationEn": "Authored notes approach while the game judges each strum and hold.", "exampleUk": "Зіграти зелену ноту вчасно.", "exampleEn": "Hit the green note in time."},
+        "SYS-1011": {"labelUk": "Серія множить очки", "labelEn": "A streak multiplies points", "explanationUk": "Послідовні влучання підвищують множник, а помилка його обриває.", "explanationEn": "Consecutive hits raise the multiplier; a mistake breaks it.", "exampleUk": "Утримати множник 4× до приспіву.", "exampleEn": "Keep a 4× multiplier into the chorus."},
+        "SYS-1012": {"labelUk": "Зіркові ноти дають запас", "labelEn": "Star phrases earn power", "explanationUk": "Повна зіркова послідовність додає заряд; активований запас тимчасово подвоює множник.", "explanationEn": "A complete star phrase adds charge; activated power temporarily doubles the multiplier.", "exampleUk": "Зарядити Star Power перед складним уривком.", "exampleEn": "Charge Star Power before a hard passage."},
+        "SYS-1013": {"labelUk": "Rock Meter вирішує, чи грати далі", "labelEn": "Rock Meter decides survival", "explanationUk": "Багато помилок переводять показник до поразки ще до кінця пісні.", "explanationEn": "Too many errors can fail the performance before the song ends.", "exampleUk": "Повернути показник із червоної зони.", "exampleEn": "Recover from the red zone."},
+        "CON-676": {"labelUk": "Довгі ноти й акорди треба тримати", "labelEn": "Long notes and chords must be held", "explanationUk": "Після удару тримай усі потрібні лади до кінця довгої ноти чи акорду.", "explanationEn": "After strumming, keep every required fret held through a long note or chord.", "exampleUk": "Утримати червоний і жовтий лади довгого акорду до кінця.", "exampleEn": "Hold red and yellow through a sustained chord."},
+        "OBJ-215": {"labelUk": "Дограти одну пісню", "labelEn": "Finish one song", "explanationUk": "Дійди до кінця графіка без поразки й отримай підсумковий екран.", "explanationEn": "Reach the chart's end without failing and receive a results screen.", "exampleUk": "Закінчити пісню навіть без п’яти зірок.", "exampleEn": "Finish the song without needing five stars."}
+      },
+      "structural": {
+        "ACT-509": {"labelUk": "Увімкни Star Power вчасно", "labelEn": "Activate Star Power deliberately", "explanationUk": "Коли запас наполовину повний, вибери момент його використання.", "explanationEn": "Once the meter is half-full, choose when to use it.", "exampleUk": "Активувати запас перед щільним уривком.", "exampleEn": "Activate before a dense passage."},
+        "INF-379": {"labelUk": "Доріжка підказує наступні ноти", "labelEn": "The highway previews notes", "explanationUk": "Кольори й поточні показники дозволяють встигнути з дією та побачити ризик.", "explanationEn": "Colours and live gauges help time the next move and read danger.", "exampleUk": "Побачити наближення акорду й червону зону.", "exampleEn": "See an approaching chord and the red zone."}
+      },
+      "supporting": {
+        "INF-299": {"labelUk": "Результат показує складники", "labelEn": "The result shows its parts", "explanationUk": "Після пісні видно зірки, очки, частку влучань і серію.", "explanationEn": "After the song, see stars, score, notes hit and streak.", "exampleUk": "Перевірити частку влучних нот.", "exampleEn": "Check the notes-hit percentage."},
+        "TIM-003": {"labelUk": "Пісня не чекає", "labelEn": "The song keeps moving", "explanationUk": "Ноти доходять до лінії удару за часом, поки гравець діє.", "explanationEn": "Notes reach the judgement line on schedule while you act.", "exampleUk": "Встигнути вдарити по струнах до проходження ноти.", "exampleEn": "Strum before the note passes."}
+      }
+    },
+    "GAME-0373": {
+      "genes": {
+        "ACT-510": {"labelUk": "Поклич партнера", "labelEn": "Call a mate", "explanationUk": "Знайшовши першу частину, поклич партнера й допливи до нього, щоб відкрити Cell Creator.", "explanationEn": "After finding the first part, call and reach a mate to open the Cell Creator.", "exampleUk": "Покликати партнера перед зміною рота.", "exampleEn": "Call a mate before changing the mouth."},
+        "ACT-511": {"labelUk": "Перебудуй клітину", "labelEn": "Revise the cell", "explanationUk": "У редакторі додай або прибери функціональну частину й збережи нову будову.", "explanationEn": "Add or remove a functional part in the editor and save the new body.", "exampleUk": "Поставити шип і зберегти клітину.", "exampleEn": "Place a spike and save the cell."},
+        "SYS-1014": {"labelUk": "Їжа дає ДНК і зростання", "labelEn": "Food earns DNA and growth", "explanationUk": "Придатна їжа, захоплена ротом, одночасно поповнює ДНК і шкалу зростання.", "explanationEn": "Compatible food taken through the mouth advances both DNA and growth.", "exampleUk": "Травоїдна клітина поглинає рослину.", "exampleEn": "A herbivore cell eats a plant."},
+        "SYS-1015": {"labelUk": "Клітина стає більшою", "labelEn": "The cell grows larger", "explanationUk": "Після віх зростання більша клітина потребує відповідної їжі або здобичі.", "explanationEn": "After growth milestones, a larger cell needs appropriately sized food or prey.", "exampleUk": "Шукати більшу здобич після зростання.", "exampleEn": "Seek larger prey after growing."},
+        "SYS-1016": {"labelUk": "Знахідка відкриває частину", "labelEn": "A find unlocks a part", "explanationUk": "Зібрана частина з’явиться в палітрі редактора, а не одразу на тілі.", "explanationEn": "A collected part appears in the editor palette, not immediately on the body.", "exampleUk": "Підібрати частину з уламка метеорита.", "exampleEn": "Collect a part from a meteor fragment."},
+        "SYS-1017": {"labelUk": "Будова змінює можливості", "labelEn": "Body design changes abilities", "explanationUk": "Збережений набір частин визначає властивості клітини після повернення у воду.", "explanationEn": "The saved part layout sets the cell's capabilities back in the water.", "exampleUk": "Новий рот змінює придатну їжу.", "exampleEn": "A new mouth changes eligible food."},
+        "SYS-1019": {"labelUk": "Харчовий шлях має наслідок", "labelEn": "Diet history carries forward", "explanationUk": "Шлях харчування Cell впливає на рису та можливості наступного етапу.", "explanationEn": "The Cell feeding path affects a trait and capabilities in the next stage.", "exampleUk": "Побачити травоїдну рису після переходу.", "exampleEn": "See a herbivore trait after advancing."},
+        "CON-677": {"labelUk": "Рот визначає придатну їжу", "labelEn": "The mouth limits food", "explanationUk": "Клітина їсть відповідним ротом; хижак не може з’їсти більшу за себе клітину.", "explanationEn": "The matching mouth feeds; a predator cannot eat a larger cell.", "exampleUk": "Не атакувати як їжу більшу клітину.", "exampleEn": "Do not count a larger cell as edible prey."},
+        "CON-678": {"labelUk": "Частина має вміститися", "labelEn": "A part must fit", "explanationUk": "Для нової частини потрібні відкриття, ДНК, допустиме місце та запас складності.", "explanationEn": "A new part needs discovery, DNA, a valid position and complexity room.", "exampleUk": "Перенести частину з червоної недопустимої ділянки.", "exampleEn": "Move a part away from a red invalid position."},
+        "OBJ-216": {"labelUk": "Вийди з води", "labelEn": "Advance onto land", "explanationUk": "Заповни шкалу Cell і вибери перехід, щоб почати керування істотою на суші.", "explanationEn": "Fill the Cell bar and choose to advance into first land control.", "exampleUk": "Підтвердити перехід до Creature.", "exampleEn": "Confirm the move to Creature."}
+      },
+      "structural": {
+        "SYS-1018": {"labelUk": "Важлива бойова частина", "labelEn": "The contact part matters", "explanationUk": "Рот або шип завдає шкоди лише через відповідний контакт із іншою клітиною.", "explanationEn": "A mouth or spike harms another cell through the relevant contact.", "exampleUk": "Підставити шип нападнику.", "exampleEn": "Turn a spike toward an attacker."},
+        "INF-380": {"labelUk": "Бачиш ріст і запаси", "labelEn": "See growth and reserves", "explanationUk": "Окремі показники допомагають звірити зростання, ДНК, здоров’я та відкриті частини.", "explanationEn": "Separate displays show growth, DNA, health and discovered parts.", "exampleUk": "Звірити запас ДНК перед зміною тіла.", "exampleEn": "Check DNA before revising the body."}
+      },
+      "supporting": {
+        "ACT-008": {"labelUk": "Скеруй клітину", "labelEn": "Steer the cell", "explanationUk": "Керуй рухом клітини між їжею, знахідками та небезпечними сусідами.", "explanationEn": "Move the cell among food, finds and dangerous neighbours.", "exampleUk": "Підвести рот до рослини.", "exampleEn": "Bring the mouth to a plant."},
+        "SYS-045": {"labelUk": "Інші клітини рухаються", "labelEn": "Other cells move", "explanationUk": "Сусідні клітини змінюють положення, поки гравець шукає їжу.", "explanationEn": "Nearby cells change position while you seek food.", "exampleUk": "Обійти клітину, що наближається.", "exampleEn": "Avoid an approaching cell."},
+        "TIM-003": {"labelUk": "Вода живе в реальному часі", "labelEn": "The water stays live", "explanationUk": "Їжа, суперники й контактна небезпека не чекають окремого ходу гравця.", "explanationEn": "Food, rivals and contact danger do not wait for a separate player turn.", "exampleUk": "Пливти до їжі до її перехоплення.", "exampleEn": "Swim toward food before it is contested."}
+      }
+    },
+    "GAME-0374": {
+      "genes": {
+        "ACT-293": {"labelUk": "Запусти перегони на перехресті", "labelEn": "Start the race at a junction", "explanationUk": "Зупинись біля позначки Race й одночасно натисни гальмо та газ.", "explanationEn": "Stop at a Race marker and press brake and accelerator together.", "exampleUk": "Розпочати подію на знайденому перехресті.", "exampleEn": "Begin the event at a discovered junction."},
+        "SYS-1020": {"labelUk": "До фінішу ведуть різні вулиці", "labelEn": "Different streets lead to the finish", "explanationUk": "Гравець і суперники можуть вибрати різні шляхи; перемагає перший під банером, а не той, хто пройшов певні контрольні точки.", "explanationEn": "Player and rivals may take different streets; first under the banner wins without required checkpoints.", "exampleUk": "Зрізати іншим кварталом до того самого фінішу.", "exampleEn": "Cut through another block toward the same finish."},
+        "INF-381": {"labelUk": "Компас показує фініш", "labelEn": "The compass points to the finish", "explanationUk": "Напрямок, відстань і підказка повороту допомагають вибрати дорогу, але не забороняють іншу.", "explanationEn": "Bearing, distance and suggested turns help route choice without forbidding alternatives.", "exampleUk": "Звірити компас перед наступним перехрестям.", "exampleEn": "Check the compass before the next junction."},
+        "OBJ-134": {"labelUk": "Приїдь першим", "labelEn": "Finish before the rivals", "explanationUk": "Перше місце дає перемогу; її перше зарахування на поточному рівні посвідчення додає бал.", "explanationEn": "First place wins; the event's first win in this licence tier adds a point.", "exampleUk": "Першим перетнути червоний фінішний банер.", "exampleEn": "Cross the red finish banner first."}
+      },
+      "structural": {
+        "ACT-290": {"labelUk": "Керуй автомобілем напряму", "labelEn": "Steer the car directly", "explanationUk": "Кермо, газ і гальмо визначають поточну траєкторію на вулицях.", "explanationEn": "Steering, throttle and brake shape the car's path on the streets.", "exampleUk": "Загальмувати перед тісним поворотом.", "exampleEn": "Brake before a tight turn."},
+        "ACT-309": {"labelUk": "Витрачай прискорення", "labelEn": "Spend Boost deliberately", "explanationUk": "Увімкни заряджене прискорення на вибраному відрізку дороги.", "explanationEn": "Activate charged Boost on a chosen road segment.", "exampleUk": "Прискоритися на прямій до фінішу.", "exampleEn": "Boost on a clear final straight."},
+        "SYS-320": {"labelUk": "Дорога впливає на рух", "labelEn": "Road contact changes motion", "explanationUk": "Повороти й зіткнення змінюють рух автомобіля під час перегонів.", "explanationEn": "Turns and contact change the car's motion during the race.", "exampleUk": "Уникнути стіни на короткому шляху.", "exampleEn": "Avoid a wall on a shortcut."},
+        "SYS-691": {"labelUk": "Заряд прискорює машину", "labelEn": "Boost charge accelerates the car", "explanationUk": "Витрачений запас тимчасово змінює швидкість і доступну траєкторію.", "explanationEn": "Spent reserve temporarily changes speed and reachable trajectory.", "exampleUk": "Використати заряд після виходу з повороту.", "exampleEn": "Use charge after leaving a turn."},
+        "SYS-765": {"labelUk": "Маневри заряджають прискорення", "labelEn": "Manoeuvres charge Boost", "explanationUk": "Придатний маневр на автомобілі класу Stunt поповнює обмежений запас.", "explanationEn": "An eligible manoeuvre in a Stunt-class car replenishes its bounded reserve.", "exampleUk": "Підзарядити запас контрольованим маневром.", "exampleEn": "Recharge through a controlled manoeuvre."}
+      },
+      "supporting": {
+        "SYS-519": {"labelUk": "Перемога лишається в посвідченні", "labelEn": "The win remains on the licence", "explanationUk": "Система запам’ятовує першу перемогу, щоб повтор не давав ще одного бала на тому самому рівні.", "explanationEn": "The system retains the first win so repeating it gives no extra point in the same tier.", "exampleUk": "Повторити перегони без другого бала.", "exampleEn": "Repeat a race without a second point."},
+        "INF-206": {"labelUk": "Мапа показує подію", "labelEn": "The map marks the event", "explanationUk": "Позначка на перехресті допомагає знайти, де стартують перегони.", "explanationEn": "A junction marker shows where the race begins.", "exampleUk": "Знайти позначку Race на мапі.", "exampleEn": "Find a Race marker on the map."},
+        "TIM-003": {"labelUk": "Суперники їдуть одночасно", "labelEn": "Rivals keep moving", "explanationUk": "Поки гравець обирає шлях і керує, інші автомобілі продовжують рух.", "explanationEn": "Other cars keep driving while the player routes and steers.", "exampleUk": "Швидко вибрати поворот перед суперниками.", "exampleEn": "Choose a turn before the rivals get ahead."}
+      }
+    },
+    "GAME-0375": {
+      "genes": {
+        "SYS-1021": {"labelUk": "Гість стає мешканцем", "labelEn": "A visitor becomes a resident", "explanationUk": "Коли умови виду виконано, чорно-білий гість стає кольоровим мешканцем саду.", "explanationEn": "Once species conditions are met, a black-and-white visitor becomes a coloured garden resident.", "exampleUk": "Побачити, як Whirlm набуває кольору.", "exampleEn": "Watch Whirlm gain colour."},
+        "CON-679": {"labelUk": "Три різні умови", "labelEn": "Three distinct gates", "explanationUk": "Поява біля саду, візит і поселення вимагають не обов’язково однакових умов.", "explanationEn": "Appearance, a visit and residence can require different conditions.", "exampleUk": "Whirlm зайшов, але ще не оселився.", "exampleEn": "Whirlm entered but is not yet resident."},
+        "INF-382": {"labelUk": "Перевір умови виду", "labelEn": "Inspect the species' conditions", "explanationUk": "Вкладка Condition Status показує, чого бракує для наступного етапу.", "explanationEn": "The Condition Status tab shows what the next stage still needs.", "exampleUk": "Виділити Whirlm і натиснути Y.", "exampleEn": "Highlight Whirlm and press Y."},
+        "OBJ-217": {"labelUk": "Посели першого Whirlm", "labelEn": "Settle the first Whirlm", "explanationUk": "Мета — один кольоровий мешканець, не лише поява чи короткий візит.", "explanationEn": "The target is one coloured resident, not merely an appearance or brief visit.", "exampleUk": "Дочекатися зміни кольору гостя.", "exampleEn": "Wait for the visitor's colour change."}
+      },
+      "structural": {
+        "ACT-512": {"labelUk": "Розчисти ділянку", "labelEn": "Clear a garden patch", "explanationUk": "Лопата прибирає сміття й відкриває місце для змін у саду.", "explanationEn": "The shovel removes junk and opens ground for garden edits.", "exampleUk": "Прибрати один предмет сміття.", "exampleEn": "Remove one piece of junk."}
+      },
+      "supporting": {
+        "TIM-003": {"labelUk": "Сад не чекає ходу", "labelEn": "The garden keeps moving", "explanationUk": "Гість наближається й рухається, поки гравець оглядає та змінює ділянку.", "explanationEn": "A visitor approaches and moves while the player inspects and edits the plot.", "exampleUk": "Стежити за Whirlm під час засівання.", "exampleEn": "Watch Whirlm while sowing."}
+      }
+    },
+    "GAME-0376": {
+      "genes": {
+        "SYS-1022": {"labelUk": "Речі стають частиною кульки", "labelEn": "Objects become part of the ball", "explanationUk": "Малі речі прилипають до катамарі й збільшують її тіло.", "explanationEn": "Small objects stick to the katamari and enlarge its body.", "exampleUk": "Прокотитися через дрібні речі на підлозі.", "exampleEn": "Roll through small objects on the floor."},
+        "CON-680": {"labelUk": "Спершу вирости", "labelEn": "Grow before collecting", "explanationUk": "Завелика річ не прилипне, доки кулька не стане достатньою.", "explanationEn": "An oversized object will not stick until the ball is large enough.", "exampleUk": "Повернутися до чашки після збирання дрібниць.", "exampleEn": "Return to a cup after gathering small items."},
+        "OBJ-218": {"labelUk": "Зроби зорю вчасно", "labelEn": "Make a star in time", "explanationUk": "До підсумку етапу кулька має досягти показаної межі розміру.", "explanationEn": "The ball must reach the displayed size target by stage settlement.", "exampleUk": "Звірити діаметр перед кінцем часу.", "exampleEn": "Check the diameter before time runs out."}
+      },
+      "structural": {
+        "SYS-1023": {"labelUk": "Удар може вибити здобич", "labelEn": "An impact can shed pickups", "explanationUk": "Сильне зіткнення здатне відкинути частину вже прикріплених предметів.", "explanationEn": "A hard collision can dislodge some already attached objects.", "exampleUk": "Оминути ніжку стола після зростання.", "exampleEn": "Avoid a table leg after growing."},
+        "CON-068": {"labelUk": "Є крайній строк", "labelEn": "There is a deadline", "explanationUk": "Недостатній розмір наприкінці відведеного часу не дає успішної зорі.", "explanationEn": "Insufficient size when the allowance ends does not make a successful star.", "exampleUk": "Не витрачати решту часу на завелику річ.", "exampleEn": "Do not spend remaining time on an oversized object."},
+        "INF-383": {"labelUk": "Розмір і час видно", "labelEn": "Size and time are visible", "explanationUk": "Поточний діаметр, мета й час допомагають вирішити, що збирати далі.", "explanationEn": "Current diameter, target and time guide what to collect next.", "exampleUk": "Порівняти показаний діаметр із метою.", "exampleEn": "Compare the displayed diameter with the target."}
+      },
+      "supporting": {
+        "ACT-008": {"labelUk": "Коти кульку напряму", "labelEn": "Steer the ball directly", "explanationUk": "Напрямок стіків визначає, до яких предметів наблизиться катамарі.", "explanationEn": "Stick input determines which objects the katamari reaches.", "exampleUk": "Обернути кульку до скупчення дрібних речей.", "exampleEn": "Turn the ball toward a cluster of small objects."},
+        "TIM-003": {"labelUk": "Час іде під час руху", "labelEn": "Time passes while rolling", "explanationUk": "Кулька рухається й відлік триває без окремих ходів.", "explanationEn": "The ball moves and the countdown continues without discrete turns.", "exampleUk": "Швидко обрати наступну групу предметів.", "exampleEn": "Choose the next object cluster quickly."}
+      }
+    },
+    "GAME-0377": {
+      "genes": {
+        "ACT-513": {
+          "labelUk": "Домовся про обмін",
+          "labelEn": "Negotiate a trade",
+          "explanationUk": "Інший гравець має погодитися на обмін карток.",
+          "explanationEn": "The other player must accept the resource exchange.",
+          "exampleUk": "Запропонувати зерно за цеглу.",
+          "exampleEn": "Offer grain for brick."
+        },
+        "ACT-515": {
+          "labelUk": "Побудуй у мережі",
+          "labelEn": "Build on the network",
+          "explanationUk": "Сплати ресурси й постав дорогу, поселення або місто в дозволеному місці.",
+          "explanationEn": "Pay resources to place a road, settlement or city at a legal site.",
+          "exampleUk": "Продовжити дорогу до вільної вершини.",
+          "exampleEn": "Extend a road to an empty vertex."
+        },
+        "SYS-1024": {
+          "labelUk": "Номер дає ресурси",
+          "labelEn": "Numbers produce resources",
+          "explanationUk": "Випалий номер дає ресурс кожному сусідньому поселенню й подвійний — місту.",
+          "explanationEn": "A rolled number pays each adjacent settlement and twice as much to a city.",
+          "exampleUk": "На вісімці взяти вовну біля свого поселення.",
+          "exampleEn": "Take wool when an adjacent eight is rolled."
+        },
+        "CON-681": {
+          "labelUk": "Зважай на відстань",
+          "labelEn": "Respect network spacing",
+          "explanationUk": "Дороги мають з’єднуватися, а нові поселення не можуть стояти впритул до інших.",
+          "explanationEn": "Roads must connect and new settlements cannot touch existing ones.",
+          "exampleUk": "Не ставити поселення на сусідню вершину.",
+          "exampleEn": "Do not settle at an adjacent vertex."
+        },
+        "OBJ-219": {
+          "labelUk": "Набери 10 на своєму ході",
+          "labelEn": "Reach ten on your turn",
+          "explanationUk": "Перемогу можна оголосити, коли саме на твоєму ході є щонайменше десять очок.",
+          "explanationEn": "You can claim victory only with at least ten points on your own turn.",
+          "exampleUk": "Відкрити приховану картку очка для перемоги.",
+          "exampleEn": "Reveal a hidden point card to win."
+        }
+      },
+      "structural": {
+        "ACT-514": {
+          "labelUk": "Міняй із банком",
+          "labelEn": "Exchange with the bank",
+          "explanationUk": "Віддай потрібну кількість однакових карток і візьми одну іншу.",
+          "explanationEn": "Give the required number of matching cards for one other resource.",
+          "exampleUk": "Обміняти чотири вовни на руду.",
+          "exampleEn": "Trade four wool for ore."
+        },
+        "ACT-516": {
+          "labelUk": "Купи закриту картку",
+          "labelEn": "Buy a hidden card",
+          "explanationUk": "За руду, вовну й зерно візьми верхню невідому картку розвитку.",
+          "explanationEn": "Pay ore, wool and grain for the unknown top development card.",
+          "exampleUk": "Отримати закритого лицаря.",
+          "exampleEn": "Draw a concealed knight."
+        },
+        "ACT-517": {
+          "labelUk": "Зіграй картку розвитку",
+          "labelEn": "Play a development card",
+          "explanationUk": "Відкрий придатну картку у дозволений момент власного ходу.",
+          "explanationEn": "Reveal an eligible card at a legal moment of your turn.",
+          "exampleUk": "Зіграти раніше купленого лицаря.",
+          "exampleEn": "Play a knight bought earlier."
+        },
+        "ACT-518": {
+          "labelUk": "Пересунь розбійника",
+          "labelEn": "Move the robber",
+          "explanationUk": "Постав розбійника на інший гекс і вибери сусіда для випадкової крадіжки.",
+          "explanationEn": "Move the robber to another hex and choose an adjacent rival for a random theft.",
+          "exampleUk": "Перекрити гекс із зерном.",
+          "exampleEn": "Block a grain hex."
+        },
+        "SYS-1025": {
+          "labelUk": "Сімка змінює кидок",
+          "labelEn": "Seven changes the roll",
+          "explanationUk": "Замість виробництва великі руки скидають картки, а розбійник переїжджає.",
+          "explanationEn": "Instead of production, oversized hands discard and the robber moves.",
+          "exampleUk": "Після сімки скинути чотири з дев’яти карток.",
+          "exampleEn": "Discard four of nine cards after a seven."
+        },
+        "SYS-1026": {
+          "labelUk": "Картка змінює стан",
+          "labelEn": "A card changes the state",
+          "explanationUk": "Зіграний лицар чи картка прогресу виконує свою окрему дію.",
+          "explanationEn": "A played knight or progress card resolves its declared effect.",
+          "exampleUk": "Монополією забрати названий ресурс.",
+          "exampleEn": "Use Monopoly to collect a named resource."
+        },
+        "SYS-1027": {
+          "labelUk": "Бонус може перейти",
+          "labelEn": "A bonus can change hands",
+          "explanationUk": "За найдовшу дорогу або найбільше військо дають два очки, які суперник може відібрати.",
+          "explanationEn": "Longest Road or Largest Army grants two points a rival can take.",
+          "exampleUk": "Перевершити чужу дорогу за довжиною.",
+          "exampleEn": "Build a longer road than the holder."
+        },
+        "CON-682": {
+          "labelUk": "Плати точними ресурсами",
+          "labelEn": "Pay exact resource types",
+          "explanationUk": "Кожна споруда потребує свого набору карток і вільної фігури.",
+          "explanationEn": "Each building needs its listed card types and an available piece.",
+          "exampleUk": "Для дороги сплатити цеглу й деревину.",
+          "exampleEn": "Pay brick and lumber for a road."
+        },
+        "CON-683": {
+          "labelUk": "Гавань покращує курс",
+          "labelEn": "A harbour improves the rate",
+          "explanationUk": "Лише власне поселення чи місто біля гавані відкриває знижку банку.",
+          "explanationEn": "Only your settlement or city at a harbour unlocks its bank discount.",
+          "exampleUk": "Біля гавані вовни міняти дві за одну.",
+          "exampleEn": "At a wool harbour, trade two for one."
+        },
+        "CON-684": {
+          "labelUk": "Картка має час",
+          "labelEn": "Card play has timing",
+          "explanationUk": "Нову картку дії не можна зіграти в хід купівлі; зазвичай лише одну за хід.",
+          "explanationEn": "A new effect card cannot be played when bought; normally only one plays per turn.",
+          "exampleUk": "Залишити купленого лицаря на наступний хід.",
+          "exampleEn": "Save a bought knight for a later turn."
+        }
+      },
+      "supporting": {
+        "SYS-004": {
+          "labelUk": "Кидок випадковий",
+          "labelEn": "The roll is random",
+          "explanationUk": "Два кубики визначають непередбачуваний номер або сімку.",
+          "explanationEn": "Two dice select an unpredictable number or seven.",
+          "exampleUk": "Випало п’ять і три.",
+          "exampleEn": "Roll five and three."
+        },
+        "INF-002": {
+          "labelUk": "Наступного кидка не видно",
+          "labelEn": "The next roll is unknown",
+          "explanationUk": "Неможливо наперед знати наступні кубики чи закриту картку розвитку.",
+          "explanationEn": "The next dice or hidden development draw cannot be previewed.",
+          "exampleUk": "Планувати без гарантії вісімки.",
+          "exampleEn": "Plan without a guaranteed eight."
+        },
+        "INF-003": {
+          "labelUk": "Чужі картки приховані",
+          "labelEn": "Rival cards stay hidden",
+          "explanationUk": "Склад чужої руки й порядок колоди не видно до розкриття.",
+          "explanationEn": "Rival hands and deck order remain concealed until revealed.",
+          "exampleUk": "Бачити кількість, але не види ресурсів.",
+          "exampleEn": "See card counts, not resource types."
+        },
+        "INF-384": {
+          "labelUk": "Поле видно всім",
+          "labelEn": "The board is public",
+          "explanationUk": "Номери, споруди, гавані й відкриті очки спільні, а картки в руках приватні.",
+          "explanationEn": "Numbers, buildings, harbours and public points are shared; hands are private.",
+          "exampleUk": "Порівняти чужу дорогу зі своєю.",
+          "exampleEn": "Compare a rival road with your own."
+        },
+        "TIM-004": {
+          "labelUk": "Ходять по черзі",
+          "labelEn": "Alternate turns",
+          "explanationUk": "Кожен по черзі стає активним гравцем і проходить свої фази.",
+          "explanationEn": "Each player becomes active in turn and takes their phases.",
+          "exampleUk": "Передати кубики гравцеві ліворуч.",
+          "exampleEn": "Pass the dice to the player on the left."
+        }
+      }
+    },
+    "GAME-0378": {
+      "genes": {
+        "ACT-519": {
+          "labelUk": "Нахиляй саму трасу",
+          "labelEn": "Tilt the whole stage",
+          "explanationUk": "Стик змінює кут платформи; куля котиться через її нахил, а не рухається безпосередньо за стиком.",
+          "explanationEn": "The stick changes the platform angle; the ball rolls because of that slope rather than tracking the stick directly.",
+          "exampleUk": "Трохи нахилити трасу до фінішу, не виводячи кулю за край.",
+          "exampleEn": "Tilt slightly toward the goal without carrying the ball over an edge."
+        },
+        "SYS-1028": {
+          "labelUk": "Куля зберігає інерцію",
+          "labelEn": "The ball keeps momentum",
+          "explanationUk": "На нахиленій поверхні куля прискорюється; повернення стика не зупиняє її миттєво.",
+          "explanationEn": "The ball accelerates on a slope; releasing or reversing the stick does not stop it instantly.",
+          "exampleUk": "Завчасно сповільнити кулю перед вузьким поворотом.",
+          "exampleEn": "Begin slowing the ball before a narrow turn."
+        },
+        "OBJ-220": {
+          "labelUk": "Увійди у фініш вчасно",
+          "labelEn": "Reach the goal in time",
+          "explanationUk": "Кулю з мавпочкою треба закотити у ворота до нуля на таймері; всі банани збирати не потрібно.",
+          "explanationEn": "Roll the monkey-containing ball through the goal before the clock reaches zero; collecting every banana is optional.",
+          "exampleUk": "Проїхати у ворота з кількома секундами в запасі.",
+          "exampleEn": "Cross the goal gate with a few seconds left."
+        }
+      },
+      "structural": {
+        "SYS-037": {
+          "labelUk": "Банан додає очки",
+          "labelEn": "A banana adds score",
+          "explanationUk": "Коли куля торкається банана, той зараховується, але спроба триває до фінішу.",
+          "explanationEn": "A banana touched by the ball is credited, but the attempt continues toward the goal.",
+          "exampleUk": "Підібрати банан збоку траси й повернутися на безпечну лінію.",
+          "exampleEn": "Collect a banana beside the route, then regain a safe line."
+        },
+        "SYS-1029": {
+          "labelUk": "Швидкий фініш цінніший",
+          "labelEn": "Faster clears score more",
+          "explanationUk": "Після фінішу рахунок зростає також завдяки швидкості проходження, окремо від бананів.",
+          "explanationEn": "After a clear, finishing quickly contributes score separately from banana pickups.",
+          "exampleUk": "Оминути необов’язковий банан і раніше ввійти у фініш.",
+          "exampleEn": "Skip an optional banana and enter the goal sooner."
+        },
+        "CON-685": {
+          "labelUk": "Край завершує спробу",
+          "labelEn": "An edge ends the try",
+          "explanationUk": "Якщо куля злітає з опорної поверхні, ця спроба одразу програна, навіть коли час ще є.",
+          "explanationEn": "If the ball leaves the supporting course, this attempt fails immediately even if time remains.",
+          "exampleUk": "Загальмувати перед відкритим краєм платформи.",
+          "exampleEn": "Brake before an unguarded platform edge."
+        }
+      },
+      "supporting": {
+        "CON-068": {
+          "labelUk": "Час спроби обмежений",
+          "labelEn": "The attempt has a clock",
+          "explanationUk": "Коли відлік доходить до нуля до фінішу, поточна спроба завершується поразкою.",
+          "explanationEn": "If the countdown reaches zero before goal entry, the current attempt fails.",
+          "exampleUk": "Дістатися воріт до вичерпання часу.",
+          "exampleEn": "Get through the gate before time runs out."
+        },
+        "INF-385": {
+          "labelUk": "Швидкість і час на екрані",
+          "labelEn": "Speed and time stay visible",
+          "explanationUk": "Екран показує близьку трасу, швидкість, час, очки та банани, але не підказує готовий безпечний маршрут.",
+          "explanationEn": "The screen shows the nearby course, speed, time, score and bananas without revealing a solved safe route.",
+          "exampleUk": "Поглянути на швидкість перед поворотом і скоригувати нахил.",
+          "exampleEn": "Check speed before a turn and adjust the tilt."
+        },
+        "TIM-003": {
+          "labelUk": "Куля рухається без паузи",
+          "labelEn": "The ball moves in real time",
+          "explanationUk": "Куля й таймер не чекають окремого ходу гравця: рух розв’язується безперервно.",
+          "explanationEn": "The ball and timer do not wait for a separate player turn; motion resolves continuously.",
+          "exampleUk": "Коригувати нахил просто під час руху кулі.",
+          "exampleEn": "Adjust the slope while the ball is still moving."
+        }
+      }
     }
   }
 }
