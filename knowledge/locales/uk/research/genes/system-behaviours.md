@@ -103,6 +103,7 @@
 - [`GAME-0123` — Inscryption](../games/g-l/inscryption.md)
 - [`GAME-0028` — Loop Hero](../games/g-l/loop-hero.md)
 - [`GAME-0185` — "Magic: The Gathering Arena"](../games/m-r/magic-the-gathering-arena.md)
+- [`GAME-0392` — Mario Party 2](../games/m-r/mario-party-2.md)
 - [`GAME-0018` — Mini Metro](../games/m-r/mini-metro.md)
 - [`GAME-0051` — Mini Motorways](../games/m-r/mini-motorways.md)
 - [`GAME-0296` — Noita](../games/m-r/noita.md)
@@ -836,6 +837,7 @@ Dorfromantik додає плитки до стосу за завершені з�
 - [`GAME-0095` — Manifold Garden](../games/m-r/manifold-garden.md)
 - [`GAME-0096` — Maquette](../games/m-r/maquette.md)
 - [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
+- [`GAME-0389` — Mega Man 2](../games/m-r/mega-man-2.md)
 - [`GAME-0203` — "PEAK"](../games/m-r/peak.md)
 - [`GAME-0113` — Portal 2 — Cooperative Campaign](../games/m-r/portal-2-co-op.md)
 - [`GAME-0033` — Portal](../games/m-r/portal.md)
@@ -847,6 +849,7 @@ Dorfromantik додає плитки до стосу за завершені з�
 - [`GAME-0094` — Superliminal](../games/s-z/superliminal.md)
 - [`GAME-0038` — The Swapper](../games/s-z/the-swapper.md)
 - [`GAME-0030` — Tin Hearts](../games/s-z/tin-hearts.md)
+- [`GAME-0391` — "Uncharted 2: Among Thieves"](../games/s-z/uncharted-2-among-thieves.md)
 - [`GAME-0041` — Viewfinder](../games/s-z/viewfinder.md)
 - [`GAME-0026` — World of Goo](../games/s-z/world-of-goo.md)
 
@@ -878,6 +881,8 @@ Dorfromantik додає плитки до стосу за завершені з�
 - [`GAME-0092` — Echochrome](../games/a-f/echochrome.md)
 - [`GAME-0167` — Geometry Dash](../games/g-l/geometry-dash.md)
 - [`GAME-0070` — Inertia](../games/g-l/inertia.md)
+- [`GAME-0394` — LittleBigPlanet 2](../games/g-l/littlebigplanet-2.md)
+- [`GAME-0389` — Mega Man 2](../games/m-r/mega-man-2.md)
 - [`GAME-0342` — "PAC-MAN"](../games/m-r/pac-man.md)
 - [`GAME-0358` — Psychonauts](../games/m-r/psychonauts.md)
 - [`GAME-0045` — Snakebird](../games/s-z/snakebird.md)
@@ -886,6 +891,7 @@ Dorfromantik додає плитки до стосу за завершені з�
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
 - [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 - [`GAME-0378` — Super Monkey Ball 2](../games/s-z/super-monkey-ball-2.md)
+- [`GAME-0395` — "The Legend of Zelda: Majora’s Mask"](../games/s-z/the-legend-of-zelda-majoras-mask.md)
 - [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 - [`GAME-0038` — The Swapper](../games/s-z/the-swapper.md)
@@ -1081,6 +1087,7 @@ Walker у Lemmings іде вперед, повертає біля блокува
 - [`GAME-0029` — HUMANITY](../games/g-l/humanity.md)
 - [`GAME-0025` — Lemmings](../games/g-l/lemmings.md)
 - [`GAME-0028` — Loop Hero](../games/g-l/loop-hero.md)
+- [`GAME-0389` — Mega Man 2](../games/m-r/mega-man-2.md)
 - [`GAME-0125` — Oxygen Not Included](../games/m-r/oxygen-not-included.md)
 - [`GAME-0342` — "PAC-MAN"](../games/m-r/pac-man.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
@@ -3369,6 +3376,90 @@ Mastermind надає сукупні індикатори точних і роз
 
 - [`GAME-0387` — Super Bomberman](../games/s-z/super-bomberman.md)
 
+## SYS-1046
+
+- Назва: Перетворювати оцінку відповіді й доказ на подальшу зачіпку
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Після відповіді на запитання гра звіряє вибрану оцінку щирості, а в разі звинувачення — поданий доказ, із підготовленою відповіддю співрозмовника. За результатом вона відкриває або приховує визначене пояснення, доказ чи місце, не обов’язково завершуючи всю справу після помилки.
+
+### Включає
+
+Перевірки Good Cop, Bad Cop і Accuse у справі The Driver's Seat; якщо допит Моргана не відкрив адресу, до його помешкання можна дістатися стеженням.
+
+### Виключає
+
+Створення довільного тексту свідчень; зміну судових свідчень після заперечення проти рядка SYS-1041; припущення, що кожна хибна оцінка завершує справу; фінальну оцінку справи.
+
+### Ігри-носії
+
+- [`GAME-0388` — L.A. Noire](../games/g-l/la-noire.md)
+
+## SYS-1047
+
+- Назва: Зсувати персонажа конвеєром під ногами
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Поки триває рівень у реальному часі, увімкнена ділянка підлоги додає свій горизонтальний зсув персонажеві, який стоїть на ній. Гравець може керувати рухом проти зсуву або стрибнути й втратити контакт із конвеєром.
+
+### Включає
+
+Перехід заводських конвеєрів і бій на конвеєрній підлозі кімнати Метал Мена в оригінальній Mega Man 2 для NES.
+
+### Виключає
+
+Автоматичне покрокове перевезення деталей на заводі SYS-077; платформу, напрямок якої змінює перемикач SYS-065; звичайну гравітацію й зіткнення SYS-036; рухомий малюнок підлоги, що не зсуває персонажа.
+
+### Ігри-носії
+
+- [`GAME-0389` — Mega Man 2](../games/m-r/mega-man-2.md)
+
+## SYS-1048
+
+- Назва: Видавати зброю переможеного боса рівня
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Коли здоров’я вибраного боса падає до нуля, гра позначає його рівень пройденим і додає до збереженого набору зброї гравця саме зброю цього боса перед новим вибором рівня.
+
+### Включає
+
+Перемога над Метал Меном у першому вибраному рівні оригінальної Mega Man 2 для NES дає Metal Blade.
+
+### Виключає
+
+Випадковий предмет із ворога; купівлю в крамниці; наявність спеціальної зброї на новому старті; використання нової зброї на пізнішому рівні; завершення всієї кампанії.
+
+### Ігри-носії
+
+- [`GAME-0389` — Mega Man 2](../games/m-r/mega-man-2.md)
+
+## SYS-1049
+
+- Назва: Перенаправляти шлях після руйнування опори за сценарієм
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Під час безпосередньо керованого проходження визначена сценарієм опора змінює положення або руйнується, прибирає поточний шлях і відкриває чи вимагає іншої досяжної опори. Попереднє руйнування не обов’язково відразу вбиває персонажа.
+
+### Включає
+
+Труба й пасажирські сидіння піддаються під час початкової втечі з завислого поїзда в оригінальній Uncharted 2 для PS3; після цього треба перейти до наступної опори або маршруту вагона.
+
+### Виключає
+
+Загальну гравітацію та зіткнення SYS-036; побудовану гравцем мережу опор; каскадне руйнування від пошкодження SYS-147; одразу смертельну підлогу без подальшого маршруту; суто декоративне хитання без зміни опори.
+
+### Ігри-носії
+
+- [`GAME-0391` — "Uncharted 2: Among Thieves"](../games/s-z/uncharted-2-among-thieves.md)
+
 ## SYS-105
 
 - Назва: Приховане розв’язання взаємодій ортогонального променя
@@ -3389,6 +3480,216 @@ Black Box визначає негайне або внутрішнє влучан
 ### Ігри-носії
 
 - [`GAME-0066` — Black Box](../games/a-f/black-box.md)
+
+## SYS-1050
+
+- Назва: Рухати фішку на кількість кроків від кубика
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Після визначення результату кубика гра переміщує фішку активного гравця на відповідну кількість зв’язаних клітинок. На розвилці рух зупиняється для допустимого вибору, а під час проходження спеціального місця — для його події, але це ще не кінцева клітинка ходу.
+
+### Включає
+
+Звичайний рух за кубиком на Pirate Land у Mario Party 2 з продовженням після проходження банку, Тоада чи крамниці.
+
+### Виключає
+
+Сам випадковий результат кубика SYS-004; вільний рух під прямим керуванням; застосування ефекту кінцевої клітинки до зупинки SYS-1051; побудову нового маршруту.
+
+### Ігри-носії
+
+- [`GAME-0392` — Mario Party 2](../games/m-r/mario-party-2.md)
+
+## SYS-1051
+
+- Назва: Розрізняти події проходження й зупинки на полі
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Об’єкт на визначеній ділянці поля застосовує свій ефект, коли фішка проходить повз нього, натомість колір або подія кінцевої клітинки діє лише після зупинки. Для цих двох умов діють різні правила підрахунку.
+
+### Включає
+
+Зміни монет на синіх і червоних клітинках Mario Party 2; внесок до банку Купи під час проходження і отримання його запасу після зупинки; гарматну подію на клітинці з питанням у Pirate Land; звернення до крамниці, Тоада й Бу та початок ігор за клітинками предмета, битви й Chance Time.
+
+### Виключає
+
+Безкоштовне вручення зірки замість покупки ACT-130; внутрішні правила кожної окремої мінігри; декоративну клітинку без зміни стану; нагороду за кожну пройдену звичайну кольорову клітинку як за зупинку.
+
+### Ігри-носії
+
+- [`GAME-0392` — Mario Party 2](../games/m-r/mario-party-2.md)
+
+## SYS-1052
+
+- Назва: Визначати мінігру за кольорами й нараховувати монети
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Після ходів усіх чотирьох фішок гра змінює зелені кольори кінцевих клітинок на червоний або синій, за отриманим розподілом обирає формат мінігри для чотирьох, одного проти трьох або двох проти двох і переносить її результат та зібрані в ній монети до постійних балансів на полі.
+
+### Включає
+
+Мінігра наприкінці ходу поля Mario Party 2 зі звичайною винагородою в десять монет кожному переможцю й окремим зарахуванням зібраних під час мінігри монет.
+
+### Виключає
+
+Керування, небезпеки й умову перемоги конкретної мінігри; монети від клітинок Pirate Land; вільну гру в Mini-Game Land; припущення, що переможець відомий до розв’язання мінігри.
+
+### Ігри-носії
+
+- [`GAME-0392` — Mario Party 2](../games/m-r/mario-party-2.md)
+
+## SYS-1053
+
+- Назва: Переносити місце покупки зірки після продажу
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Коли допустимий гравець платить продавцеві зірки й отримує одну зірку, місце наступної покупки зникає зі старої ділянки поля, а продавець з’являється в іншій. Це змінює наступні маршрутні цілі.
+
+### Включає
+
+Тоад переходить до іншого місця після продажу зірки за двадцять монет на полі Mario Party 2.
+
+### Виключає
+
+Безкоштовну зірку; переміщення продавця до покупки; початковий вибір розвилки ACT-530; припущення, що нове місце відоме до його показу.
+
+### Ігри-носії
+
+- [`GAME-0392` — Mario Party 2](../games/m-r/mario-party-2.md)
+
+## SYS-1054
+
+- Назва: Перемикати правила на останні п’ять ходів
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+На визначеному порозі фінальних ходів гра замінює звичайні значення монет на клітинках і наслідки спільної зупинки фішок опублікованими правилами заключної фази до кінця партії з фіксованою тривалістю.
+
+### Включає
+
+Останні п’ять ходів Mario Party 2: синя й червона клітинки змінюють баланс на шість замість трьох монет, а дві фішки на одній клітинці можуть почати дуель зі ставкою.
+
+### Виключає
+
+Звичайну мінігру для чотирьох після ходу SYS-1052; постійну зміну правил після партії; автоматичне вручення зірки; застосування пізніх значень раніше визначеного порога.
+
+### Ігри-носії
+
+- [`GAME-0392` — Mario Party 2](../games/m-r/mario-party-2.md)
+
+## SYS-1055
+
+- Назва: Розв’язувати розгойдування на тросі зі змінною довжиною
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Після допустимого зачеплення гра утримує кероване тіло на відстані, визначеній поточною довжиною троса, поки тяжіння й рух убік змінюють дугу. Підтягування змінює радіус, а відпускання переносить отриману траєкторію у вільний рух.
+
+### Включає
+
+Перехід між губчастими опорами за допомогою гака в LittleBigPlanet 2 і відпускання рухомої опори для приземлення на вихідній платформі.
+
+### Виключає
+
+Автоматичне прямолінійне наближення до опори SYS-653; нерухому підтримку мотузкою; заздалегідь задану анімацію без керованого розгойдування.
+
+### Ігри-носії
+
+- [`GAME-0394` — LittleBigPlanet 2](../games/g-l/littlebigplanet-2.md)
+
+## SYS-1056
+
+- Назва: Підкидати персонажа після контакту з пружною платформою
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Дотик до придатної пружної поверхні негайно надає безпосередньо керованому персонажу заданий поштовх. Після нього гравець зберігає керування польотом до приземлення, зачеплення або зіткнення.
+
+### Включає
+
+Пружні платформи під проваллями й біля маршруту з гаком у LittleBigPlanet 2, які допомагають відновити висоту або потрапити до наступної опори.
+
+### Виключає
+
+Звичайний стрибок за командою гравця; рухому платформу, що перевозить персонажа; пускову установку зі спрямованим ручним пострілом; поверхню, яка змінює лише рахунок.
+
+### Ігри-носії
+
+- [`GAME-0394` — LittleBigPlanet 2](../games/g-l/littlebigplanet-2.md)
+
+## SYS-1057
+
+- Назва: Скидати часовий цикл зі збереженням визначених речей
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Після доступної команди гравця світ повертається до початкового часу циклу й повторюваного стану місцевих подій. Визначені правилами постійні речі та здатності залишаються, а тимчасові предмети й події скидаються.
+
+### Включає
+
+Пісня часу на повернутій окарині повертає перший цикл Majora's Mask до світанку першого дня, зберігаючи окарину та вивчену пісню, але скидаючи події й тимчасові предмети.
+
+### Виключає
+
+Сплив 72 годин, який дає Game Over; автоматичний цикл Outer Wilds зі збереженням знань, але без перенесення предмета SYS-140; звичайне завантаження контрольної точки; скидання абсолютно всіх даних.
+
+### Ігри-носії
+
+- [`GAME-0395` — "The Legend of Zelda: Majora’s Mask"](../games/s-z/the-legend-of-zelda-majoras-mask.md)
+
+## SYS-1058
+
+- Назва: Чергувати приклад викладача й відповідь гравця
+- Переглянуто: `2026-09-25`
+
+### Операційне визначення
+
+Пісня переходить від короткої музичної фрази викладача до відведеного для гравця проміжку з тим самим порядком кнопок і ритму, а потім до наступної фрази або завершення.
+
+### Включає
+
+Перший урок із Майстром Чоп-Чопом у версії PaRappa the Rapper Remastered для PS4.
+
+### Виключає
+
+Безперервну стрічку нот без попереднього прикладу SYS-1010; випадковий порядок пісні; розмову без оцінювання ритмічної відповіді.
+
+### Ігри-носії
+
+- [`GAME-0396` — "PaRappa the Rapper Remastered"](../games/m-r/parappa-the-rapper-remastered.md)
+
+## SYS-1059
+
+- Назва: Оновлювати оцінку виконання під час пісні
+- Переглянуто: `2026-09-25`
+
+### Операційне визначення
+
+Після відповіді гра оцінює порядок і своєчасність натискань, змінює поточний рівень виконання та може завершити спробу достроково, якщо помилок забагато.
+
+### Включає
+
+Стани Good, Bad, Awful і необов’язковий Cool у першому уроці PaRappa; точні числові межі не перевірено.
+
+### Виключає
+
+Окремий показник витривалості Rock Meter у Guitar Hero III; лише підсумкову оцінку без змін під час пісні; твердження, що будь-яка низька підсумкова оцінка відкриває наступний етап.
+
+### Ігри-носії
+
+- [`GAME-0396` — "PaRappa the Rapper Remastered"](../games/m-r/parappa-the-rapper-remastered.md)
 
 ## SYS-106
 
@@ -4375,6 +4676,7 @@ Papers, Please видає цитату про порушення після не
 
 - [`GAME-0284` — "Cities: Skylines II"](../games/a-f/cities-skylines-ii.md)
 - [`GAME-0121` — "Cities: Skylines"](../games/a-f/cities-skylines.md)
+- [`GAME-0390` — SimCity 2000](../games/s-z/simcity-2000.md)
 - [`GAME-0118` — SimCity 4 Deluxe Edition](../games/s-z/simcity-4-deluxe-edition.md)
 
 ## SYS-152
@@ -4398,6 +4700,7 @@ Papers, Please видає цитату про порушення після не
 
 - [`GAME-0284` — "Cities: Skylines II"](../games/a-f/cities-skylines-ii.md)
 - [`GAME-0121` — "Cities: Skylines"](../games/a-f/cities-skylines.md)
+- [`GAME-0390` — SimCity 2000](../games/s-z/simcity-2000.md)
 - [`GAME-0118` — SimCity 4 Deluxe Edition](../games/s-z/simcity-4-deluxe-edition.md)
 
 ## SYS-153
@@ -4422,6 +4725,7 @@ Papers, Please видає цитату про порушення після не
 - [`GAME-0132` — Anno 1800](../games/a-f/anno-1800.md)
 - [`GAME-0284` — "Cities: Skylines II"](../games/a-f/cities-skylines-ii.md)
 - [`GAME-0121` — "Cities: Skylines"](../games/a-f/cities-skylines.md)
+- [`GAME-0390` — SimCity 2000](../games/s-z/simcity-2000.md)
 - [`GAME-0118` — SimCity 4 Deluxe Edition](../games/s-z/simcity-4-deluxe-edition.md)
 
 ## SYS-154
@@ -4447,6 +4751,7 @@ Papers, Please видає цитату про порушення після не
 - [`GAME-0121` — "Cities: Skylines"](../games/a-f/cities-skylines.md)
 - [`GAME-0335` — RollerCoaster Tycoon Deluxe](../games/m-r/rollercoaster-tycoon-deluxe.md)
 - [`GAME-0166` — Sid Meier’s Civilization VI](../games/s-z/sid-meiers-civilization-vi.md)
+- [`GAME-0390` — SimCity 2000](../games/s-z/simcity-2000.md)
 - [`GAME-0118` — SimCity 4 Deluxe Edition](../games/s-z/simcity-4-deluxe-edition.md)
 - [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
 - [`GAME-0370` — Theme Hospital](../games/s-z/theme-hospital.md)
@@ -4471,6 +4776,7 @@ Papers, Please видає цитату про порушення після не
 ### Ігри-носії
 
 - [`GAME-0121` — "Cities: Skylines"](../games/a-f/cities-skylines.md)
+- [`GAME-0390` — SimCity 2000](../games/s-z/simcity-2000.md)
 - [`GAME-0118` — SimCity 4 Deluxe Edition](../games/s-z/simcity-4-deluxe-edition.md)
 
 ## SYS-156
@@ -5922,6 +6228,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
+- [`GAME-0389` — Mega Man 2](../games/m-r/mega-man-2.md)
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0339` — Metal Gear Solid](../games/m-r/metal-gear-solid.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
@@ -5930,6 +6237,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
+- [`GAME-0393` — Mortal Kombat II](../games/m-r/mortal-kombat-ii.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
@@ -9398,6 +9706,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0340` — "Halo: Combat Evolved Anniversary"](../games/g-l/halo-combat-evolved-anniversary.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
+- [`GAME-0394` — LittleBigPlanet 2](../games/g-l/littlebigplanet-2.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
 - [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
 - [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
@@ -10085,10 +10394,12 @@ Silk від ударів Needle, Bind та Silk Skills у Hollow Knight: Silkson
 - [`GAME-0347` — "Castlevania: Symphony of the Night"](../games/a-f/castlevania-symphony-of-the-night.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
+- [`GAME-0394` — LittleBigPlanet 2](../games/g-l/littlebigplanet-2.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0344` — "Prince of Persia: The Sands of Time"](../games/m-r/prince-of-persia-the-sands-of-time.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 - [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
+- [`GAME-0395` — "The Legend of Zelda: Majora’s Mask"](../games/s-z/the-legend-of-zelda-majoras-mask.md)
 
 ## SYS-399
 
@@ -12748,6 +13059,7 @@ Drive, економіку закупівель раунду, постійний 
 
 ### Ігри-носії
 
+- [`GAME-0393` — Mortal Kombat II](../games/m-r/mortal-kombat-ii.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
 - [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
@@ -13965,6 +14277,7 @@ Wonder, Relic, Score, часову перемогу, кампанійний тр
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
+- [`GAME-0389` — Mega Man 2](../games/m-r/mega-man-2.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0355` — Metroid Prime](../games/m-r/metroid-prime.md)
 - [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
@@ -16146,6 +16459,7 @@ Shadow Corruption у визначеному Solo BOT Mode NARAKA: BLADEPOINT.
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
 - [`GAME-0264` — Disco Elysium - The Final Cut](../games/a-f/disco-elysium-the-final-cut.md)
+- [`GAME-0388` — L.A. Noire](../games/g-l/la-noire.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 
 ## SYS-681
@@ -20928,6 +21242,7 @@ Delivery Results першого замовлення DEATH STRANDING DIRECTOR'S 
 - [`GAME-0324` — Contra Force](../games/a-f/contra-force.md)
 - [`GAME-0326` — Crash Bandicoot](../games/a-f/crash-bandicoot.md)
 - [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
+- [`GAME-0389` — Mega Man 2](../games/m-r/mega-man-2.md)
 - [`GAME-0342` — "PAC-MAN"](../games/m-r/pac-man.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0360` — "Space Invaders"](../games/s-z/space-invaders.md)

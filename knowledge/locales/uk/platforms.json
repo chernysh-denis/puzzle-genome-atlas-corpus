@@ -181,6 +181,10 @@
       "name": "Nintendo 3DS",
       "shortName": "3DS"
     },
+    "PLAT-NINTENDO-64": {
+      "name": "Nintendo 64",
+      "shortName": "N64"
+    },
     "PLAT-NINTENDO-DS": {
       "name": "Nintendo DS",
       "shortName": "DS"

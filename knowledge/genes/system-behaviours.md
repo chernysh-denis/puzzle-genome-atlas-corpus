@@ -20942,3 +20942,315 @@
 - Novelty: first isolated for `GAME-0387`; blast reach is calculated through
   ray/terrain topology before the generic fuse-to-damage transition, so a
   geometrically shielded cell is not even a candidate for `SYS-470` damage.
+
+## SYS-1046 — Evaluate interview stance and proof into an authored lead
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after an interview topic has been answered, the system checks
+  the player's credibility stance and, for an accusation, its nominated
+  evidence against that authored answer; it then discloses or withholds the
+  appropriate statement, clue or destination without necessarily ending the
+  current case on a mismatch.
+- Includes: L.A. Noire's Good Cop / Bad Cop / Accuse evaluations during The
+  Driver's Seat; a failed Morgan interview can leave his apartment to be
+  located by tailing instead of direct disclosure.
+- Excludes: generating free-form witness speech; advancing a revisitable
+  courtroom testimony after a line challenge (`SYS-1041`); treating every
+  incorrect stance as a case failure; the later case-report grade.
+- Parameters: speaker, topic, hidden answer assessment, chosen stance,
+  accepted contradiction item, positive/negative response, lead and fallback
+  route.
+- Evidence: [L.A. Noire decomposition](../games/g-l/la-noire.md), Rockstar's
+  PS4 manual and Prima's 2017 remaster case route.
+- Novelty: first isolated for `GAME-0388`; an answer-level credibility
+  judgement and optional proof affect authored lead availability outside a
+  line-addressed court challenge.
+
+## SYS-1047 — Displace a standing avatar with a live conveyor floor
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: while real-time stage simulation runs, a powered floor segment
+  adds its directional horizontal displacement to a contacting avatar's
+  movement until contact ends, so player steering and jumping can oppose or
+  leave that support motion.
+- Includes: Mega Man crossing factory conveyor sections and fighting Metal
+  Man over the boss-chamber belt in the original NES Mega Man 2.
+- Excludes: discrete automated transport of inert factory assemblies
+  (`SYS-077`); a switch-directed moving platform (`SYS-065`); universal
+  gravity or collision (`SYS-036`); a decorative moving floor with no avatar
+  displacement.
+- Parameters: segment direction, belt speed, contact, player input,
+  airborne separation and collision boundary.
+- Evidence: [Mega Man 2 decomposition](../games/m-r/mega-man-2.md), original
+  Nintendo manual and two independently written original-NES Metal Man
+  routes. Exact conveyor speed and reversal timing were not measured.
+- Novelty: first isolated for `GAME-0389`; continuous stage-support drift
+  changes traversal and combat decisions without programming the belt.
+
+## SYS-1048 — Grant a cleared Robot Master's named weapon
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when the selected Robot Master's health reaches its defeat
+  state, mark that stage cleared and add that master's fixed named weapon to
+  the player's retained weapon set before another stage can be selected.
+- Includes: Metal Man's defeat granting Metal Blade after a first-stage
+  Normal run in original NES Mega Man 2.
+- Excludes: an enemy's random item drop; a shop purchase; a pre-equipped
+  special weapon at a fresh start; choosing or using the newly granted
+  weapon in a later stage; the full-campaign end state.
+- Parameters: selected master, defeat predicate, stage-clear flag,
+  weapon identity and retained inventory.
+- Evidence: [Mega Man 2 decomposition](../games/m-r/mega-man-2.md), original
+  Nintendo manual and original-NES Metal Man written routes.
+- Novelty: first isolated for `GAME-0389`; a fixed defeated-boss identity
+  converts this stage completion into a later selectable attack capability.
+
+## SYS-1049 — Redirect traversal after an authored support fails
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: during a directly controlled traversal sequence, a designated
+  support changes pose or breaks at an authored event, removing the current
+  path and exposing or requiring another reachable support before progress can
+  continue; a preliminary break need not itself kill the avatar.
+- Includes: the pipe and passenger seats yielding during the opening
+  suspended-train escape in original PS3 Uncharted 2, followed by a transfer
+  to the next hold or carriage route.
+- Excludes: universal gravity and collision (`SYS-036`); a player-built
+  support graph; damage-driven cascading destruction (`SYS-147`); an
+  immediately lethal floor with no continuing route; merely decorative
+  shaking without changed support.
+- Parameters: authored trigger, support identity, previous and next contact,
+  new pose, available route and failure on missed transfer.
+- Evidence: [Uncharted 2 decomposition](../games/s-z/uncharted-2-among-thieves.md),
+  BradyGames' 2009 official strategy-guide sample and two original-PS3
+  written opening routes. Exact event frames were not measured.
+- Novelty: first isolated for `GAME-0391`; the author changes the traversable
+  support graph mid-climb without player construction or ordinary gravity
+  alone explaining the new route.
+
+## SYS-1050 — Advance a board token by a resolved Dice Block count
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a board-turn die result is fixed, advance the active
+  player's token that many connected spaces, pausing for a legal junction
+  choice or a pass-triggered fixture without treating either as the landing
+  space that ends the move.
+- Includes: the ordinary Mario Party 2 Pirate Land Dice Block movement and
+  continuation after passing a bank, Toad or an item shop.
+- Excludes: the random die result itself (`SYS-004`); free direct movement;
+  applying a landing-space effect before the token stops (`SYS-1051`);
+  construction of a new path.
+- Parameters: rolled count, route graph, remaining steps, passing fixture,
+  junction choice and final landing position.
+- Evidence: [Mario Party 2 decomposition](../games/m-r/mario-party-2.md),
+  Nintendo's original Nintendo 64 instruction booklet, pp. 12–13.
+- Novelty: first isolated for `GAME-0392`; a roll limits traversed board edges
+  while a player can still choose a legal branch during that same move.
+
+## SYS-1051 — Resolve board fixtures by passing or landing trigger
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an addressed board fixture applies its declared effect when the
+  token passes it, whereas the color or event of the final occupied space
+  applies only on landing; the two triggers have different settlement rules.
+- Includes: Mario Party 2 blue and red landing coin changes; Koopa Bank
+  deposit on passing and collection on landing; Pirate Land's question-space
+  cannon event; shop, Toad, Boo, item, battle and Chance Time entry points.
+- Excludes: granting a Star without payment (`ACT-130`); rules internal to
+  each separately scoped minigame; a visual tile with no state transition;
+  treating every passed ordinary colored space as a landing reward.
+- Parameters: fixture identity, passing or landing trigger, phase modifier,
+  eligible player, coin transfer, board event and encounter dispatch.
+- Evidence: [Mario Party 2 decomposition](../games/m-r/mario-party-2.md),
+  Nintendo's original Nintendo 64 instruction booklet, pp. 12–17.
+- Novelty: first isolated for `GAME-0392`; one board route mixes pass-through
+  transactions with a distinct terminal landing event.
+
+## SYS-1052 — Convert final board colors into a minigame and coin award
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after all four board tokens finish their current turn, resolve
+  green landing colors to red or blue, select the matching four-player,
+  one-versus-three or two-versus-two minigame class, and credit the resulting
+  winners and in-game coin collections to persistent board coin balances.
+- Includes: the end-of-turn Mario Party 2 board minigame and its ordinary
+  ten-coin winner award, with separately collected minigame coins retained.
+- Excludes: the controls, hazards and win predicate of any one minigame;
+  Pirate Land landing-space coins; Mini-Game Land free play; assuming that
+  a player wins before the selected minigame is actually resolved.
+- Parameters: four landing colors, green conversion, minigame class, selected
+  minigame, individual or team result, collected coins and board payout.
+- Evidence: [Mario Party 2 decomposition](../games/m-r/mario-party-2.md),
+  Nintendo's original Nintendo 64 instruction booklet, pp. 14–15.
+- Novelty: first isolated for `GAME-0392`; final board colors route players
+  into a separate contest whose outcome feeds the next board economy.
+
+## SYS-1053 — Relocate a purchasable board Star after purchase
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after an eligible player pays the current Star vendor and
+  receives one Star, remove that purchasable Star from the old board site and
+  place the vendor at another site, changing subsequent route targets.
+- Includes: Toad moving after a twenty-coin Star purchase on a Mario Party 2
+  Adventure Board.
+- Excludes: a Star given without purchase; moving the vendor before a sale;
+  the player's initial junction choice (`ACT-530`); assuming the next site is
+  known before the relocation is shown.
+- Parameters: seller, price, prior site, next site, recipient and updated
+  board visibility.
+- Evidence: [Mario Party 2 decomposition](../games/m-r/mario-party-2.md),
+  Nintendo's original Nintendo 64 instruction booklet, pp. 12–13.
+- Novelty: first isolated for `GAME-0392`; buying the scoring asset also
+  changes the spatial location of the next scoring opportunity.
+
+## SYS-1054 — Switch a board contest into its last-five-turn rules
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: at the declared final-turn threshold, replace ordinary
+  landing-space coin values and collision treatment with the published
+  closing-phase rules for the remainder of the fixed-length board contest.
+- Includes: Mario Party 2's last five turns, when blue and red spaces change
+  by six rather than three coins and two tokens landing together can initiate
+  a wagered Duel Mini-Game.
+- Excludes: the ordinary four-player post-round minigame (`SYS-1052`);
+  permanent rule change after the match; automatically awarding a Star;
+  applying late-phase values earlier in the contest.
+- Parameters: turn threshold, ordinary and closing values, shared-space
+  collision, wager and resulting duel settlement.
+- Evidence: [Mario Party 2 decomposition](../games/m-r/mario-party-2.md),
+  Nintendo's original Nintendo 64 instruction booklet, pp. 14–15.
+- Novelty: first isolated for `GAME-0392`; a fixed match horizon changes
+  board-space economics and token-collision consequences before final rank.
+
+## SYS-1055 — Resolve an adjustable anchor-bound swing
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after a valid tether attachment, keep the controlled body
+  constrained by the current line length while gravity and lateral input
+  change its arc; reeling changes the radius, and release preserves the
+  resulting trajectory into free movement.
+- Includes: LittleBigPlanet 2's Grappling Hook crossing from sponge anchor to
+  sponge anchor and its release from a rotating anchor onto the exit platform.
+- Excludes: automatic straight-line approach to an anchor (`SYS-653`);
+  stationary rope support; an unsteered scripted grapple animation.
+- Parameters: anchor position and motion, line length, gravity, steering,
+  collision, reel rate, release velocity and next reachable surface.
+- Evidence: [LittleBigPlanet 2 decomposition](../games/g-l/littlebigplanet-2.md),
+  corroborated by GameFAQs and Gamepressure's Grab and Swing routes.
+- Novelty: first isolated for `GAME-0394`; steering, reel length and release
+  determine an arc rather than merely completing an anchor approach.
+
+## SYS-1056 — Launch a contacting avatar from an elastic pad
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: contact with an eligible elastic surface applies an immediate
+  authored launch impulse to a directly controlled avatar, preserving the
+  resulting airborne control until landing, attachment or collision.
+- Includes: LittleBigPlanet 2's bounce pads below gaps and beside the
+  grappling route, used to recover height or redirect into another anchor.
+- Excludes: an ordinary player jump; a moving platform carrying the avatar;
+  a manually fired projectile launcher; a pad that only changes score.
+- Parameters: surface, contact side, impulse direction and strength, arrival
+  velocity, subsequent steering and collision.
+- Evidence: [LittleBigPlanet 2 decomposition](../games/g-l/littlebigplanet-2.md),
+  corroborated by GameFAQs and Gamepressure's Grab and Swing routes.
+- Novelty: first isolated for `GAME-0394`; contact converts traversal
+  geometry into a new airborne trajectory without a separate jump request.
+
+## SYS-1057 — Reset the timed world while retaining designated artefacts
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an available player-commanded temporal reset restores an
+  authored world cycle to its initial time and repeatable local event state,
+  while retaining explicitly designated durable inventory or capabilities and
+  discarding specified temporary event items and progress.
+- Includes: playing the Song of Time on the recovered Ocarina in the first
+  Majora's Mask cycle, returning to Dawn of the First Day with the Ocarina and
+  learned song retained but day-local events and event items reset.
+- Excludes: expiry of the 72-hour allowance, which ends in Game Over; Outer
+  Wilds' automatic loop with knowledge but no retained carried artefact
+  (`SYS-140`); ordinary checkpoint reload; a complete rollback of all state.
+- Parameters: reset command, initial clock, reset world fields, retained
+  inventory/capabilities, discarded event items, save settlement and exceptions.
+- Evidence: [Majora's Mask decomposition](../games/s-z/the-legend-of-zelda-majoras-mask.md),
+  Nintendo's original N64 instruction booklet, pp. 10–11.
+- Novelty: first isolated for `GAME-0395`; the player chooses the cycle reset
+  and a unique carried capability survives it.
+
+## SYS-1058 — Alternate authored instructor calls and player responses
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: advance a song through repeated instructor demonstration
+  phrases followed by scheduled player-response intervals using the same
+  ordered beat-symbol pattern, until the authored song endpoint or failure.
+- Includes: Chop Chop Master Onion's first Normal stage in the 2017 PS4
+  PaRappa the Rapper Remastered ruleset.
+- Excludes: a continuous note highway with no prior teacher turn
+  (`SYS-1010`); arbitrary player-created song order; scripted dialogue with
+  no timed response judgement.
+- Parameters: phrase order, call duration, response onset, displayed symbols,
+  beat positions and stage endpoint.
+- Evidence: [PaRappa Remastered decomposition](../games/m-r/parappa-the-rapper-remastered.md),
+  Sony's first-stage retrospective and the original-game written guide.
+- Novelty: first isolated for `GAME-0396`; the instructor's call is a
+  mechanically distinct preceding interval, not ambient soundtrack.
+
+## SYS-1059 — Update a live music-performance rating by response quality
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: evaluate the player's phrase timing and symbol response,
+  display a current ordinal performance rating, and allow persistent poor
+  performance to lower it to an early-failure state before the song ends.
+- Includes: Good, Bad, Awful and optional Cool states of the first PaRappa
+  Remastered dojo performance; exact scoring coefficients are unverified.
+- Excludes: Guitar Hero III's separate Rock Meter and streak multiplier;
+  a grade assigned only after a completed performance; claiming that a
+  Bad/Awful PS4 song-end result necessarily advances to the next stage.
+- Parameters: judgement result, rating state, transition threshold, failure
+  boundary, optional freestyle branch and song endpoint.
+- Evidence: [PaRappa Remastered decomposition](../games/m-r/parappa-the-rapper-remastered.md),
+  original-game written rating description and the PS4 trophy outcome list.
+- Novelty: first isolated for `GAME-0396`; the ordinal rap rating itself
+  governs the continuing stage, not merely the final reward label.

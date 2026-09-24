@@ -1549,6 +1549,7 @@ Gorogoa забороняє безпосередньо крутити руків�
 - [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 - [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
 - [`GAME-0378` — Super Monkey Ball 2](../games/s-z/super-monkey-ball-2.md)
+- [`GAME-0395` — "The Legend of Zelda: Majora’s Mask"](../games/s-z/the-legend-of-zelda-majoras-mask.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 
 ## CON-069
@@ -3696,6 +3697,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 
 - [`GAME-0284` — "Cities: Skylines II"](../games/a-f/cities-skylines-ii.md)
 - [`GAME-0121` — "Cities: Skylines"](../games/a-f/cities-skylines.md)
+- [`GAME-0390` — SimCity 2000](../games/s-z/simcity-2000.md)
 - [`GAME-0118` — SimCity 4 Deluxe Edition](../games/s-z/simcity-4-deluxe-edition.md)
 
 ## CON-171
@@ -3721,6 +3723,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0284` — "Cities: Skylines II"](../games/a-f/cities-skylines-ii.md)
 - [`GAME-0121` — "Cities: Skylines"](../games/a-f/cities-skylines.md)
 - [`GAME-0335` — RollerCoaster Tycoon Deluxe](../games/m-r/rollercoaster-tycoon-deluxe.md)
+- [`GAME-0390` — SimCity 2000](../games/s-z/simcity-2000.md)
 - [`GAME-0118` — SimCity 4 Deluxe Edition](../games/s-z/simcity-4-deluxe-edition.md)
 - [`GAME-0370` — Theme Hospital](../games/s-z/theme-hospital.md)
 
@@ -3883,6 +3886,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 ### Ігри-носії
 
 - [`GAME-0123` — Inscryption](../games/g-l/inscryption.md)
+- [`GAME-0392` — Mario Party 2](../games/m-r/mario-party-2.md)
 - [`GAME-0155` — Slay the Spire 2](../games/s-z/slay-the-spire-2.md)
 - [`GAME-0120` — Slay the Spire](../games/s-z/slay-the-spire.md)
 
@@ -6399,6 +6403,7 @@ Palbox, команда й база Palworld; Boxes і команда Pokémon Le
 - [`GAME-0362` — "The Elder Scrolls III: Morrowind"](../games/s-z/the-elder-scrolls-iii-morrowind.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0395` — "The Legend of Zelda: Majora’s Mask"](../games/s-z/the-legend-of-zelda-majoras-mask.md)
 - [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
@@ -7971,6 +7976,7 @@ Knox Infection у режимі Apocalypse Project Zomboid.
 - [`GAME-0312` — ASTRO BOT](../games/a-f/astro-bot.md)
 - [`GAME-0386` — Banjo-Kazooie](../games/a-f/banjo-kazooie.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
+- [`GAME-0394` — LittleBigPlanet 2](../games/g-l/littlebigplanet-2.md)
 - [`GAME-0382` — Ōkami HD](../games/m-r/okami-hd.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
@@ -8020,6 +8026,7 @@ Bind за повної котушки, Silkspear і Needolin у Hollow Knight: S
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
 - [`GAME-0382` — Ōkami HD](../games/m-r/okami-hd.md)
 - [`GAME-0344` — "Prince of Persia: The Sands of Time"](../games/m-r/prince-of-persia-the-sands-of-time.md)
+- [`GAME-0395` — "The Legend of Zelda: Majora’s Mask"](../games/s-z/the-legend-of-zelda-majoras-mask.md)
 
 ## CON-352
 
@@ -9956,6 +9963,7 @@ Horizon Qualifiers після Tokyo City та Horizon Invitational після п
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
 - [`GAME-0324` — Contra Force](../games/a-f/contra-force.md)
 - [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
+- [`GAME-0393` — Mortal Kombat II](../games/m-r/mortal-kombat-ii.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
@@ -9981,6 +9989,7 @@ Horizon Qualifiers після Tokyo City та Horizon Invitational після п
 
 ### Ігри-носії
 
+- [`GAME-0393` — Mortal Kombat II](../games/m-r/mortal-kombat-ii.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
 
@@ -10045,6 +10054,7 @@ Drive, пасивне накопичення, розвиток персонаж�
 
 ### Ігри-носії
 
+- [`GAME-0393` — Mortal Kombat II](../games/m-r/mortal-kombat-ii.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
 - [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
@@ -15072,3 +15082,45 @@ Free Skate без таймера; Speed Runs зі скиданням усіх ц
 ### Ігри-носії
 
 - [`GAME-0386` — Banjo-Kazooie](../games/a-f/banjo-kazooie.md)
+
+## CON-692
+
+- Назва: Підкріплювати звинувачення відповідним записаним доказом
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Щоб звинувачення принесло позитивний результат, у вже записаних матеріалах справи має бути доказ, який суперечить саме цій відповіді. Самого лише сумніву через вираз обличчя для цього замало.
+
+### Включає
+
+Правило допиту у версії L.A. Noire для PS4: після Accuse треба вибрати належний доказ у записнику.
+
+### Виключає
+
+Варіант Bad Cop, який виражає сумнів без доказу; невідповідний предмет, що не дає позитивної відповіді; обмеження кількості судових заперечень CON-690; реальні правові стандарти доказування.
+
+### Ігри-носії
+
+- [`GAME-0388` — L.A. Noire](../games/g-l/la-noire.md)
+
+## CON-693
+
+- Назва: Трос чіпляється лише за досяжну придатну опору
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Спрямований багаторазовий трос закріплюється лише на досяжному об’єкті з придатного матеріалу або на відповідному пристрої; непридатна ціль не створює опорного зачеплення.
+
+### Включає
+
+Гак у Grab and Swing гри LittleBigPlanet 2 чіпляється за губчасті опори й призначені для нього перемикачі, але не за будь-яку частину декорацій.
+
+### Виключає
+
+Гак з обмеженим запасом витратних зарядів CON-533; звичайний стрибок; фізику вже допустимого розгойдування SYS-1055; дистанційне підбирання предмета.
+
+### Ігри-носії
+
+- [`GAME-0394` — LittleBigPlanet 2](../games/g-l/littlebigplanet-2.md)

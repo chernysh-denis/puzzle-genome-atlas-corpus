@@ -8876,6 +8876,78 @@
       "defining": ["ACT-270", "SYS-1045", "SYS-755", "CON-402", "OBJ-164"],
       "structural": ["ACT-008", "SYS-470", "SYS-045", "CON-068", "OBJ-007"],
       "supporting": ["SYS-037", "SYS-911", "INF-179", "TIM-003"]
+    },
+    "GAME-0388": {
+      "reviewed": "2026-09-24",
+      "noteEn": "Examining physical evidence detail, submitting a contradiction to an interview answer, evaluating that proof and apprehending the subject define this first Traffic case. Consequential responses, clue-led progress, notebook and report make the authored investigation legible; embodied movement and live pursuit support its finish. The PS4 manual and written case route bound this reconstruction; no build was played.",
+      "noteUk": "Першу справу дорожнього відділу визначають огляд доказових деталей, звинувачення з конкретним доказом, перевірка відповіді та затримання розшукуваного. Вибір у допиті, просування за зачіпками, записник і звіт роблять перебіг розслідування зрозумілим; пересування та погоня підтримують завершення. Реконструкція спирається на посібник PS4 і письмовий маршрут; гру не запускали.",
+      "defining": ["ACT-528", "ACT-529", "SYS-1046", "CON-692", "OBJ-229"],
+      "structural": ["ACT-232", "SYS-680", "INF-393", "INF-299", "TIM-002"],
+      "supporting": ["ACT-008", "ACT-341", "TIM-003"]
+    },
+    "GAME-0389": {
+      "reviewed": "2026-09-24",
+      "noteEn": "Conveyor drift, the fixed boss-weapon reward and this single-stage terminal define a first Metal Man run. Direct shooting, force-constrained jumping, hostile combat, bounded lookahead and the visible boss bar structure it; pickups, tank use, health and finite lives support it. The original manual and written routes bound this reconstruction; no cartridge was played.",
+      "noteUk": "Перший рівень Метал Мена визначають зсув конвеєра, незмінна нагорода за боса та завершення одного вибраного рівня. Стрільба, стрибки з гравітацією, бій, обмежений огляд і видиме здоров’я боса формують перебіг; предмети, енергетичний бак, здоров’я та скінченні життя його підтримують. Реконструкція спирається на оригінальний посібник і письмові маршрути; картридж не запускали.",
+      "defining": ["SYS-1047", "SYS-1048", "OBJ-230"],
+      "structural": ["ACT-008", "ACT-161", "SYS-036", "SYS-215", "INF-192", "INF-318", "TIM-003"],
+      "supporting": ["ACT-131", "SYS-037", "SYS-045", "SYS-578", "SYS-911", "INF-119"]
+    },
+    "GAME-0390": {
+      "reviewed": "2026-09-24",
+      "noteEn": "Authorised land use, autonomous growth, utility coverage and the annual municipal review define the first 1900 city-year. Road access, demand, journeys and solvency structure it; speed controls support observation. The original Maxis manual bounds this reconstruction; no DOS build was played.",
+      "noteUk": "Перший міський рік від 1900-го визначають дозволене використання землі, самостійна забудова, покриття комунальними мережами й річний бюджетний огляд. Доступ дорогами, попит, поїздки та платоспроможність формують цикл; керування швидкістю допомагає спостерігати. Реконструкція спирається на посібник Maxis; DOS-версію не запускали.",
+      "defining": ["ACT-116", "ACT-117", "SYS-151", "SYS-153", "SYS-154", "INF-058", "OBJ-053"],
+      "structural": ["ACT-068", "ACT-118", "SYS-152", "SYS-155", "CON-170", "CON-171", "INF-057"],
+      "supporting": ["ACT-006", "TIM-003"]
+    },
+    "GAME-0391": {
+      "reviewed": "2026-09-24",
+      "noteEn": "The authored break in climbable support and the escape to a stable cliff define this opening train packet. Direct movement, gravity and live timing structure it. The official 2009 guide and independent original-PS3 routes bound this source reconstruction; no disc was played.",
+      "noteUk": "Вступний уривок визначають руйнування доступних для хвату опор за сценарієм і втеча на стійкий край скелі. Пряме керування, гравітація та час, який продовжує спливати, формують маршрут. Реконструкція спирається на офіційний гайд 2009 року й незалежні маршрути для оригінальної PS3; диск не запускали.",
+      "defining": ["SYS-1049", "OBJ-231"],
+      "structural": ["ACT-008", "SYS-036"],
+      "supporting": ["TIM-003"]
+    },
+    "GAME-0392": {
+      "reviewed": "2026-09-24",
+      "noteEn": "Choosing a route within a die move, separating pass and landing effects, routing four colors to a minigame payout, relocating the paid Star and ranking Stars before Coins define this no-bonus Pirate Land contest. Counted movement, purchases, public standings and the last-five switch structure its twenty rounds; one-item capacity and unpreviewed chance support it. Nintendo's original manual bounds this reconstruction; no cartridge or Switch wrapper was played.",
+      "noteUk": "Партію Pirate Land без бонусів визначають вибір шляху в межах кидка, різні наслідки проходження й зупинки, мінігра за кольорами чотирьох клітинок, зміна місця покупки зірки та порівняння зірок перед монетами. Рух на кількість кроків, покупки, видимі підсумки й правила останніх п’яти ходів формують двадцять раундів; одне місце для предмета й невідомі майбутні кидки підтримують цикл. Реконструкція спирається на оригінальний посібник Nintendo; картридж і оболонку Switch не запускали.",
+      "defining": ["ACT-530", "SYS-1051", "SYS-1052", "SYS-1053", "OBJ-232"],
+      "structural": ["ACT-130", "SYS-1050", "SYS-1054", "INF-394", "TIM-004"],
+      "supporting": ["ACT-131", "SYS-004", "CON-177", "INF-002"]
+    },
+    "GAME-0393": {
+      "reviewed": "2026-09-24",
+      "noteEn": "Dedicated block input, opponent-relative attacks, live contact and a timed first-to-two result define this original SNES first duel. Movement, crouch, fighter choice, range, health and visible opponent posture structure the decisions. Close throw and shared arena cues support them. The booklet bounds the reconstruction; no cartridge was played.",
+      "noteUk": "Перший поєдинок оригінальної версії SNES визначають окрема кнопка блоку, удари проти суперника, контакт у реальному часі та матч до двох виграних раундів із годинником. Рух, присідання, вибір бійця, відстань, здоров’я й видима поза формують рішення. Близький кидок і спільна арена підтримують їх. Реконструкція обмежена посібником; картридж не запускали.",
+      "defining": ["ACT-295", "ACT-296", "SYS-522", "OBJ-099"],
+      "structural": ["ACT-008", "ACT-202", "SYS-215", "CON-442", "CON-446", "INF-210", "TIM-003"],
+      "supporting": ["ACT-294", "ACT-297", "CON-443", "INF-142", "INF-209"]
+    },
+    "GAME-0394": {
+      "reviewed": "2026-09-24",
+      "noteEn": "Adjustable tether decisions, the continuing swing, compatible sponge anchors and elastic pad response define this bounded post-link route to its exit. Layer navigation, the door switch, acquired hook, authored gate, local visibility and real time structure it; optional prize contact and checkpoint return support it. Publisher features and two written routes bound the reconstruction; no PS3 disc was played.",
+      "noteUk": "Другу частину маршруту до виходу визначають вибір довжини й моменту відпускання троса, безперервне розгойдування, придатні губчасті опори та поштовх пружної платформи. Рух між шарами, дверний перемикач, отриманий гак, авторська перешкода, видима сцена й реальний час формують цикл; необов’язкові призи та повернення до контрольної точки його підтримують. Реконструкція спирається на офіційний перелік можливостей і два письмові маршрути; диск PS3 не запускали.",
+      "defining": ["ACT-531", "SYS-1055", "SYS-1056", "CON-693", "OBJ-026"],
+      "structural": ["ACT-008", "ACT-341", "SYS-398", "CON-349", "INF-179", "TIM-003"],
+      "supporting": ["SYS-037", "SYS-369"]
+    },
+    "GAME-0395": {
+      "reviewed": "2026-09-24",
+      "noteEn": "The learned sequence, chosen selective reset, 72-hour limit and retained Ocarina define this first Clock Town cycle. Fairy magic, ordered gates, local actors, clock display and real-time progression structure the route; contact pickups and the traded Tear support it. Nintendo's booklet and two written N64 routes bound a reconstruction without direct play.",
+      "noteUk": "Перший цикл у Clock Town визначають вивчена послідовність, добровільне вибіркове скидання, межа у 72 години й збережена окарина. Магія феї, порядок проходів, місцеві персонажі, видимий годинник і плин часу формують маршрут; підібрані речі та обмін Сльози його підтримують. Межі реконструкції задають посібник Nintendo і два письмові маршрути N64, без власного проходження.",
+      "defining": ["ACT-532", "SYS-1057", "CON-068", "INF-395", "OBJ-201"],
+      "structural": ["ACT-008", "ACT-107", "ACT-161", "ACT-341", "SYS-398", "CON-282", "CON-351", "INF-179", "TIM-003"],
+      "supporting": ["ACT-091", "SYS-037"]
+    },
+    "GAME-0396": {
+      "reviewed": "2026-09-25",
+      "noteEn": "The demonstrated call, timed answer and live rap rating define this first PS4 dojo lesson, with a Good-rated song end as the bounded goal. Visible turn/beat prompts and the continuing music clock structure the response. No PS4 build was played; edition and aids come from Sony, while detailed ratings are limited written reconstruction.",
+      "noteUk": "Перший урок додзьо для PS4 визначають фраза викладача, своєчасна відповідь і поточна оцінка виконання; межа дослідження — завершити пісню на Good. Видимі черга й ритм та безперервний музичний час формують відповіді. Версію PS4 не запускали: Sony підтверджує видання й допоміжні засоби, а подробиці оцінювання обмежені письмовою реконструкцією.",
+      "defining": ["ACT-533", "SYS-1058", "SYS-1059", "OBJ-233"],
+      "structural": ["TIM-003"],
+      "supporting": ["INF-396"]
     }
   }
 }

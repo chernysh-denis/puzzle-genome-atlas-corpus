@@ -178,6 +178,7 @@
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0123` — Inscryption](../games/g-l/inscryption.md)
 - [`GAME-0028` — Loop Hero](../games/g-l/loop-hero.md)
+- [`GAME-0392` — Mario Party 2](../games/m-r/mario-party-2.md)
 - [`GAME-0018` — Mini Metro](../games/m-r/mini-metro.md)
 - [`GAME-0051` — Mini Motorways](../games/m-r/mini-motorways.md)
 - [`GAME-0125` — Oxygen Not Included](../games/m-r/oxygen-not-included.md)
@@ -1376,6 +1377,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 
 - [`GAME-0284` — "Cities: Skylines II"](../games/a-f/cities-skylines-ii.md)
 - [`GAME-0121` — "Cities: Skylines"](../games/a-f/cities-skylines.md)
+- [`GAME-0390` — SimCity 2000](../games/s-z/simcity-2000.md)
 - [`GAME-0118` — SimCity 4 Deluxe Edition](../games/s-z/simcity-4-deluxe-edition.md)
 
 ## INF-058
@@ -1401,6 +1403,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0121` — "Cities: Skylines"](../games/a-f/cities-skylines.md)
 - [`GAME-0335` — RollerCoaster Tycoon Deluxe](../games/m-r/rollercoaster-tycoon-deluxe.md)
 - [`GAME-0166` — Sid Meier’s Civilization VI](../games/s-z/sid-meiers-civilization-vi.md)
+- [`GAME-0390` — SimCity 2000](../games/s-z/simcity-2000.md)
 - [`GAME-0118` — SimCity 4 Deluxe Edition](../games/s-z/simcity-4-deluxe-edition.md)
 - [`GAME-0370` — Theme Hospital](../games/s-z/theme-hospital.md)
 - [`GAME-0134` — "Workers & Resources: Soviet Republic"](../games/s-z/workers-resources-soviet-republic.md)
@@ -3015,6 +3018,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
+- [`GAME-0389` — Mega Man 2](../games/m-r/mega-man-2.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0355` — Metroid Prime](../games/m-r/metroid-prime.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
@@ -3700,6 +3704,7 @@ Research Table, дерева технологій, Workbench і чергу ви�
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
+- [`GAME-0393` — Mortal Kombat II](../games/m-r/mortal-kombat-ii.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
@@ -4502,8 +4507,10 @@ Rank Z, 1 000 Ticket Points, Challenger's Ticket і Zach у Pokémon Legends: Z-
 - [`GAME-0346` — Chrono Trigger](../games/a-f/chrono-trigger.md)
 - [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
+- [`GAME-0394` — LittleBigPlanet 2](../games/g-l/littlebigplanet-2.md)
 - [`GAME-0387` — Super Bomberman](../games/s-z/super-bomberman.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
+- [`GAME-0395` — "The Legend of Zelda: Majora’s Mask"](../games/s-z/the-legend-of-zelda-majoras-mask.md)
 - [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 
@@ -4785,6 +4792,7 @@ Rank Z, 1 000 Ticket Points, Challenger's Ticket і Zach у Pokémon Legends: Z-
 - [`GAME-0318` — Battletoads](../games/a-f/battletoads.md)
 - [`GAME-0324` — Contra Force](../games/a-f/contra-force.md)
 - [`GAME-0167` — Geometry Dash](../games/g-l/geometry-dash.md)
+- [`GAME-0389` — Mega Man 2](../games/m-r/mega-man-2.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
 - [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
@@ -5193,6 +5201,7 @@ Ryu і Luke на арені дослідженого Versus.
 ### Ігри-носії
 
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
+- [`GAME-0393` — Mortal Kombat II](../games/m-r/mortal-kombat-ii.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
 - [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
@@ -5217,6 +5226,7 @@ Ryu і Luke на арені дослідженого Versus.
 
 ### Ігри-носії
 
+- [`GAME-0393` — Mortal Kombat II](../games/m-r/mortal-kombat-ii.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
 - [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
@@ -7137,6 +7147,7 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0372` — "Guitar Hero III: Legends of Rock"](../games/g-l/guitar-hero-iii-legends-of-rock.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
+- [`GAME-0388` — L.A. Noire](../games/g-l/la-noire.md)
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
 - [`GAME-0371` — Pokémon Snap](../games/m-r/pokemon-snap.md)
@@ -7530,6 +7541,7 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
+- [`GAME-0389` — Mega Man 2](../games/m-r/mega-man-2.md)
 - [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0356` — Shadow of the Colossus](../games/s-z/shadow-of-the-colossus.md)
@@ -9075,3 +9087,87 @@ Scan Visor протягом обмеженого вступу на Frigate Orphe
 ### Ігри-носії
 
 - [`GAME-0385` — 'Phoenix Wright: Ace Attorney'](../games/m-r/phoenix-wright-ace-attorney.md)
+
+## INF-393
+
+- Назва: Показувати поповнюваний записник справи з доказами й зачіпками
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Записник поточної справи дає переглядати вже знайдені фізичні докази, відомості про осіб, завдання, запитання для допиту та відкриті адреси; записи з’являються у визначені сценарієм моменти розслідування.
+
+### Включає
+
+Записник справи The Driver's Seat з власником автомобіля, знайденими предметами, свідками, адресою бару та пізнішою зачіпкою про помешкання Моргана.
+
+### Виключає
+
+Заздалегідь відкритий повний розв’язок; судовий перелік прийнятих матеріалів INF-391; покажчик незмінних сцен смерті INF-012; зовнішню пошукову систему.
+
+### Ігри-носії
+
+- [`GAME-0388` — L.A. Noire](../games/g-l/la-noire.md)
+
+## INF-394
+
+- Назва: Показувати маршрут, місце зірки й підсумки суперників
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Відображення поля робить видимими зв’язані шляхи та доступну для огляду мапу разом із поточними зірками й монетами кожного суперника. Так гравець може обирати маршрут і витрати, спираючись на відомий стан партії.
+
+### Включає
+
+Доступна для огляду мапа Mario Party 2, поточне місце Тоада й показані під час Pirate Land запаси зірок та монет усіх чотирьох гравців.
+
+### Виключає
+
+Показ наступного результату кубика INF-002; розкриття майбутнього місця Тоада до покупки; правила ще не обраної мінігри; невідомі майбутні події поля.
+
+### Ігри-носії
+
+- [`GAME-0392` — Mario Party 2](../games/m-r/mario-party-2.md)
+
+## INF-395
+
+- Назва: Показувати день і час до кінця циклу
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Інтерфейс показує день і положення годинника у фіксованому безперервному циклі світу, щоб гравець порівнював час, який лишився, з відомою кінцевою межею.
+
+### Включає
+
+Годинник від першого до останнього дня в початковій частині Majora's Mask у Clock Town перед падінням місяця після 72 годин.
+
+### Виключає
+
+Позначку календарної дати для окремих дій кампанії INF-336; час після завершення спроби; відомості про всі майбутні місця перебування персонажів.
+
+### Ігри-носії
+
+- [`GAME-0395` — "The Legend of Zelda: Majora’s Mask"](../games/s-z/the-legend-of-zelda-majoras-mask.md)
+
+## INF-396
+
+- Назва: Показувати чергу, ритм і поточну оцінку
+- Переглянуто: `2026-09-25`
+
+### Операційне визначення
+
+Екран показує, чия зараз частина пісні, кнопки на відповідних долях ритму та поточну оцінку, щоб гравець знав, коли відповідати й чи погіршується виконання.
+
+### Включає
+
+Перший урок PaRappa на звичайній складності; збільшена позначка гравця у версії PS4 покращує видимість того самого сигналу.
+
+### Виключає
+
+Безперервну стрічку ладів і показник Rock Meter у INF-379; відкриття всієї пісні наперед; приховані числові межі влучання.
+
+### Ігри-носії
+
+- [`GAME-0396` — "PaRappa the Rapper Remastered"](../games/m-r/parappa-the-rapper-remastered.md)

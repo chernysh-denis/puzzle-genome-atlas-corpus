@@ -422,6 +422,15 @@ Index's short profile remains a game-specific navigation summary.
 - [`GAME-0385` — Phoenix Wright: Ace Attorney](m-r/phoenix-wright-ace-attorney.md)
 - [`GAME-0386` — Banjo-Kazooie](a-f/banjo-kazooie.md)
 - [`GAME-0387` — Super Bomberman](s-z/super-bomberman.md)
+- [`GAME-0388` — L.A. Noire](g-l/la-noire.md)
+- [`GAME-0389` — Mega Man 2](m-r/mega-man-2.md)
+- [`GAME-0390` — SimCity 2000](s-z/simcity-2000.md)
+- [`GAME-0391` — Uncharted 2: Among Thieves](s-z/uncharted-2-among-thieves.md)
+- [`GAME-0392` — Mario Party 2](m-r/mario-party-2.md)
+- [`GAME-0393` — Mortal Kombat II](m-r/mortal-kombat-ii.md)
+- [`GAME-0394` — LittleBigPlanet 2](g-l/littlebigplanet-2.md)
+- [`GAME-0395` — The Legend of Zelda: Majora’s Mask](s-z/the-legend-of-zelda-majoras-mask.md)
+- [`GAME-0396` — PaRappa the Rapper Remastered](m-r/parappa-the-rapper-remastered.md)
 <!-- END GENERATED: COMPLETED_GAMES -->
 
 Use the [game-analysis template](../../templates/GAME_ANALYSIS_TEMPLATE.md) and

@@ -13096,3 +13096,46 @@
   original Nintendo 64 manual pp. 16–19 and original-N64 lair route.
 - Novelty: first isolated for `GAME-0386`; collected pieces must be
   deliberately allocated to one picture, unlike a Note Door's total check.
+
+## CON-692 — Positive accusation requires a matching recorded clue
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a witness answer can be successfully challenged with Accuse
+  only if a currently recorded case clue specifically contradicts that
+  answer; suspicion based on expression alone does not satisfy the proof
+  condition.
+- Includes: the PS4 L.A. Noire Good Cop / Bad Cop / Accuse interface, where
+  the player must select the correct notebook evidence after accusing.
+- Excludes: Bad Cop responses that express doubt without proof; an
+  unsupported item that earns no positive answer; Phoenix Wright's finite
+  court-mark penalty (`CON-690`); generic real-world standards of proof.
+- Parameters: current answer, admissible clue set, accepted contradiction,
+  withdrawal before item commitment and positive-response gate.
+- Evidence: [L.A. Noire decomposition](../games/g-l/la-noire.md), Rockstar's
+  PS4 manual interrogation section.
+- Novelty: first isolated for `GAME-0388`; the distinction is the proof gate
+  on an answer-addressed accusation, not a fixed allowance of mistakes.
+
+## CON-693 — Traversal tether requires a reachable grabbable anchor
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an aimed reusable traversal tether attaches only to a reachable
+  world target of an eligible grabbable material or fixture class; an
+  incompatible target does not establish a supporting line.
+- Includes: LittleBigPlanet 2's Grab and Swing hook attaching to sponge
+  anchors and eligible pull switches, but not arbitrary scenery.
+- Excludes: a grappling item limited by finite carried ammunition
+  (`CON-533`); ordinary body jumping; the physics of a valid swing
+  (`SYS-1055`); a remote object pickup.
+- Parameters: target material, fixture class, range, line of sight, current
+  attachment, switch response and release.
+- Evidence: [LittleBigPlanet 2 decomposition](../games/g-l/littlebigplanet-2.md),
+  corroborated by GameFAQs and Gamepressure's Grab and Swing routes.
+- Novelty: first isolated for `GAME-0394`; anchor eligibility is a distinct
+  rule from both reusable tether control and the resulting motion.

@@ -5865,24 +5865,29 @@
   equipped tools, cooldown abilities and queued attacks rather than a
   character-owned fighting command vocabulary.
 
-## ACT-296 — Hold or release directional fighting guard
+## ACT-296 — Hold or release opponent-relative fighting guard
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player holds the direction away from the current opponent to
-  request standing or crouching guard, or releases that direction to leave the
-  guard request as live combat continues.
-- Includes: ordinary high and low blocking in the scoped Street Fighter 6 duel.
+- Definition: the player sustains an opponent-relative guard input to request
+  standing or crouching defence, or releases that input to leave the guard
+  request while live combat continues. The input can be an away direction or
+  a dedicated block button in a particular ruleset.
+- Includes: ordinary high and low blocking in the scoped Street Fighter 6
+  duel; the dedicated L/R block request in original SNES Mortal Kombat II.
 - Excludes: Drive Parry; armour granted by an attack; a turn-based defend
   command; cover attachment in a world shooter.
-- Parameters: facing, away direction, standing or crouching posture, incoming
-  attack class, cross-up, block contact and release timing.
+- Parameters: facing, guard input mapping, standing or crouching posture,
+  incoming attack class, cross-up, block contact and release timing.
 - Evidence: [Street Fighter 6 decomposition](../games/s-z/street-fighter-6.md).
 - Additional support: [TEKKEN 8 decomposition](../games/s-z/tekken-8.md),
   for holding back for standing guard or down-back for crouching guard
   against high, mid and low attacks, with neutral auto-guard as a parameter.
+- Additional support: [Mortal Kombat II decomposition](../games/m-r/mortal-kombat-ii.md),
+  for holding or releasing a dedicated SNES L/R block input; see
+  `TAXONOMY_CHANGE_131` for the carrier-mapping transfer test.
 - Novelty: first isolated for `GAME-0172`; earlier defence actions use cover,
   timed prompts or equipment rather than a continuous opponent-relative input.
 
@@ -10531,3 +10536,130 @@
   the contemporary original-DS GameSpot review and first-case written route.
 - Novelty: first isolated for `GAME-0385`; evidence is a challenge to one
   selected assertion within a witness's revisitable testimony.
+
+## ACT-528 — Examine a held scene object until its case detail is exposed
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after addressing a reachable scene object, the player changes
+  its inspection orientation or focus until a mechanically relevant mark,
+  inscription or concealed surface is exposed and registered as case evidence.
+- Includes: turning the freight-depot glasses to the maker's mark and
+  examining the wallet identity in L.A. Noire's The Driver's Seat.
+- Excludes: picking up decorative clutter without an admitted clue; passively
+  receiving a dialogue fact; collecting a persistent inventory tool
+  (`ACT-089`); selecting a court-record item as a contradiction (`ACT-527`).
+- Parameters: addressed object, reachable state, inspectable faces, reveal
+  focus, clue trigger and notebook registration.
+- Evidence: [L.A. Noire decomposition](../games/g-l/la-noire.md), Rockstar's
+  PS4 manual and Prima's 2017 remaster case route.
+- Novelty: first isolated for `GAME-0388`; clue acquisition depends on an
+  object-detail examination input, not simply entering the scene or owning
+  an item.
+
+## ACT-529 — Submit a recorded clue against one interview answer
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after choosing to accuse an interviewee about the current
+  answer, the player selects one available case-notebook clue as the
+  contradiction offered to that speaker and topic.
+- Includes: selecting a discovered clue to support Accuse in the PS4
+  L.A. Noire Traffic case.
+- Excludes: selecting Good Cop or Bad Cop without proof (`ACT-232`);
+  presenting evidence to an individually addressable courtroom testimony
+  line (`ACT-527`); highlighting two document facts (`ACT-104`).
+- Parameters: interviewee, topic, current answer, notebook set, selected
+  evidence, accusation withdrawal and answer-resolution result.
+- Evidence: [L.A. Noire decomposition](../games/g-l/la-noire.md), Rockstar's
+  PS4 manual interrogation section and Prima's remaster guide.
+- Novelty: first isolated for `GAME-0388`; the contradiction target is one
+  live interview answer, not a revisitable trial statement.
+
+## ACT-530 — Choose an outgoing board route at a reached junction
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while a die-counted board token is traversing a fixed connected
+  route, the active player selects one legal outgoing direction at a junction;
+  the token then continues spending the same roll along that branch.
+- Includes: steering a Mario Party 2 Pirate Land character at a path junction
+  after the Dice Block has set the number of spaces to move.
+- Excludes: choosing the die outcome (`SYS-004`); editing the board network;
+  choosing a Slay the Spire next-floor node (`ACT-127`); unrestricted travel
+  to a remote space; choosing a minigame result.
+- Parameters: current node, legal outgoing edges, remaining roll distance,
+  direction choice and movement modifiers.
+- Evidence: [Mario Party 2 decomposition](../games/m-r/mario-party-2.md),
+  Nintendo's original Nintendo 64 instruction booklet, pp. 12–13.
+- Novelty: first isolated for `GAME-0392`; branch choice occurs within one
+  already-rolled board move rather than committing a new encounter node.
+
+## ACT-531 — Attach, reel and release a traversal tether
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player aims a reusable line at a compatible reachable world
+  anchor, holds attachment while steering the suspended avatar and changing
+  line length, then releases at a chosen point to continue free movement.
+- Includes: the Grappling Hook attached to a sponge in LittleBigPlanet 2's
+  scoped Grab and Swing route, with lateral swing, reel in/out and timed release.
+- Excludes: a one-way pull that ends at the selected anchor (`ACT-361`);
+  climbing a fixed rope without aimed attachment; grabbing a free object for
+  transport; an automatic scripted swing with no player release decision.
+- Parameters: target, reach, attachment duration, line length, steering,
+  momentum, release timing and reattachment.
+- Evidence: [LittleBigPlanet 2 decomposition](../games/g-l/littlebigplanet-2.md),
+  corroborated by the contemporary GameFAQs and Gamepressure written routes.
+- Novelty: first isolated for `GAME-0394`; an adjustable player-held tether
+  makes the release trajectory a live route choice rather than an endpoint pull.
+
+## ACT-532 — Enter a learned ordered symbol sequence at an addressed interface
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player addresses one accepting interface and enters a finite,
+  learned sequence of non-directional symbols in order, without moving the
+  avatar through a corresponding spatial route.
+- Includes: entering the learned Bomber numeric passcode at the Clock Town
+  observatory passage and playing the recalled Song of Time note sequence on
+  the recovered Ocarina in Majora's Mask's first-cycle prologue.
+- Excludes: cardinal-direction command strings (`ACT-106`); walking a route;
+  free-form music performance; selecting a dialogue answer; a system-triggered
+  reset with no submitted sequence.
+- Parameters: receiving interface, alphabet, known sequence, length, input
+  order, availability condition, feedback and resulting gate or effect.
+- Evidence: [Majora's Mask decomposition](../games/s-z/the-legend-of-zelda-majoras-mask.md),
+  Nintendo's original N64 booklet and corroborating original-N64 written routes.
+- Novelty: first isolated for `GAME-0395`; the code and melody are ordered
+  symbolic submissions, not directional movement or a passive time event.
+
+## ACT-533 — Echo an instructor's phrase with timed button presses
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: after an instructor demonstrates a short authored musical
+  phrase, press its ordered controller symbols on the corresponding beats of
+  the later player-response interval.
+- Includes: the first Normal dojo lesson in PaRappa the Rapper Remastered.
+- Excludes: simultaneous fret-plus-strum chart events (`ACT-508`); a learned
+  password entered without a scheduled instructor call (`ACT-532`); unrelated
+  free-form musical input.
+- Parameters: demonstrated phrase, button alphabet, beat positions, response
+  interval, actual press sequence and timing judgement.
+- Evidence: [PaRappa Remastered decomposition](../games/m-r/parappa-the-rapper-remastered.md),
+  Sony's creator retrospective and the written original-game gameplay guide.
+- Novelty: first isolated for `GAME-0396`; the demonstrated call and delayed
+  answer are one action commitment rather than a continuously scrolling lane.

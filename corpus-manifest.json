@@ -1,16 +1,16 @@
 {
   "schemaVersion": "atlas-public-export-v3",
-  "corpusRevision": "r000019",
-  "contentSha256": "48391fea7ff908458966e28c936e469aeadaf50b596c0620369db596a45d1c86",
-  "generatedAt": "2026-09-24T16:40:36+03:00",
+  "corpusRevision": "r000020",
+  "contentSha256": "6386efdc99f25187c2e7673792d695c22a3f2985e68bceb4c7826e9d25416b7b",
+  "generatedAt": "2026-09-25T00:32:51+03:00",
   "counts": {
-    "games": 387,
-    "genes": 2851,
+    "games": 396,
+    "genes": 2882,
     "combinations": 274
   },
   "sourceProvenance": {
-    "privateCommit": "ae174a6a4ce3a11db9352902549989ee6b2dc7f8",
-    "projectionCommit": "ae174a6a4ce3a11db9352902549989ee6b2dc7f8"
+    "privateCommit": "5264c1fa38b8bd202e67704f84e3d92572cc2237",
+    "projectionCommit": "5264c1fa38b8bd202e67704f84e3d92572cc2237"
   },
   "files": [
     {
@@ -20,7 +20,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "1e6b7df56b46192be6b0d26a9387493cf23f08f9666217418aaa4f9364b33539",
+      "sha256": "909e25c3b2626f3cfcf449bde1b59b16c8beaea43c77e0225dc1084ff60884b6",
       "bytes": 1252
     },
     {
@@ -640,8 +640,8 @@
     },
     {
       "path": "knowledge/combinations/COMB-0117.md",
-      "sha256": "91960e02a277d00d5e4cc5ad6269b63070807a9d778fa7fb9d613bea26cb845a",
-      "bytes": 1576
+      "sha256": "3c085a4318b093c221629084456283a47cbe03ee555325bccdcfec1e0ec7216c",
+      "bytes": 1679
     },
     {
       "path": "knowledge/combinations/COMB-0118.md",
@@ -1430,8 +1430,8 @@
     },
     {
       "path": "knowledge/combinations/INDEX.md",
-      "sha256": "db2c3a6924cbcaeeeda9553c56772b7250e11d0ba6a56ff140ed2dc858bd6fd9",
-      "bytes": 57079
+      "sha256": "4e186e10003d56386ed6b9605fe55f6e3ae8bff753bfcdc5cf678d1fa36715bd",
+      "bytes": 57092
     },
     {
       "path": "knowledge/combinations/README.md",
@@ -1445,8 +1445,8 @@
     },
     {
       "path": "knowledge/families/registry.json",
-      "sha256": "83efe0a3f63dac0964fd56bf0b136f2f7bf324842188467c3e59218fea814525",
-      "bytes": 32610
+      "sha256": "872b2bd7afd1d643078d57f605b4b006fc8ca2af3e8033a421dd3e388a21e9a6",
+      "bytes": 32898
     },
     {
       "path": "knowledge/games/0-9/2048.md",
@@ -1460,13 +1460,13 @@
     },
     {
       "path": "knowledge/games/INDEX.md",
-      "sha256": "c731a6fc656d52e42ee83665039ab2207f348b7ac35bd98619d26168b4ca8041",
-      "bytes": 155830
+      "sha256": "3f8690a0fc0486e13b58e4b6bb834fb028d297b483c62c6481da92b8d6625086",
+      "bytes": 159157
     },
     {
       "path": "knowledge/games/README.md",
-      "sha256": "0168b2d5c7d58f907e68a4b3b5d1b319f8472e783aacd2ec402ae6f151ac6feb",
-      "bytes": 24799
+      "sha256": "3914c3822960fa2312578b62afabb1063be65e3cdf4a16a0e5dd65f2753445b8",
+      "bytes": 25400
     },
     {
       "path": "knowledge/games/a-f/a-good-snowman-is-hard-to-build.md",
@@ -2324,6 +2324,11 @@
       "bytes": 19096
     },
     {
+      "path": "knowledge/games/g-l/la-noire.md",
+      "sha256": "1a98f4de9b4233a1da44f8f69e3d172182d89e45b4d9734198f8e60ca68a1688",
+      "bytes": 21467
+    },
+    {
       "path": "knowledge/games/g-l/left-4-dead-2.md",
       "sha256": "a6f601d33680dd50322dd75ccc11b53d94608110f7fd1927343d6fb9b01aba2b",
       "bytes": 24876
@@ -2354,6 +2359,11 @@
       "bytes": 18345
     },
     {
+      "path": "knowledge/games/g-l/littlebigplanet-2.md",
+      "sha256": "89f088e3f21111a824f98e332631322f4b5c18ec9bfce53b2d476ecd079fa59e",
+      "bytes": 17964
+    },
+    {
       "path": "knowledge/games/g-l/loop-hero.md",
       "sha256": "fbd389d4432cae6c2dbdcc3e877f2a276e7dfe26a866d42adbbce03a7ebde086",
       "bytes": 18727
@@ -2370,8 +2380,8 @@
     },
     {
       "path": "knowledge/games/index-metadata.json",
-      "sha256": "ef7d339d5565d1cf977633e30e9852ac5535b3f2ec93e7fa9e969a4e5d986233",
-      "bytes": 44338
+      "sha256": "507f1a74596dbdd7c049ce4346b51974c6899ce0f215c1522a56ac6610726c1b",
+      "bytes": 45869
     },
     {
       "path": "knowledge/games/m-r/machinarium.md",
@@ -2409,6 +2419,11 @@
       "bytes": 24797
     },
     {
+      "path": "knowledge/games/m-r/mario-party-2.md",
+      "sha256": "4eab655c93de6f84bcbe478d9d617961170f61d33278cdd47b6208ddf7178d14",
+      "bytes": 19049
+    },
+    {
       "path": "knowledge/games/m-r/marvel-rivals.md",
       "sha256": "5b8bf0e017bf70ff73533715954ab734ee47b43a8a14f2eb43e84058782344b6",
       "bytes": 17755
@@ -2437,6 +2452,11 @@
       "path": "knowledge/games/m-r/max-payne-3.md",
       "sha256": "590eeef3f40b69b40e9e20969f2907a229ad030080fd5a2a86302649cfe74137",
       "bytes": 30227
+    },
+    {
+      "path": "knowledge/games/m-r/mega-man-2.md",
+      "sha256": "3f3df6bfa9e8645f4b4ff753fbf8fc97c78dbe00898c55bae991ea3f8d2743b7",
+      "bytes": 17921
     },
     {
       "path": "knowledge/games/m-r/metal-gear-solid-v-the-phantom-pain.md",
@@ -2502,6 +2522,11 @@
       "path": "knowledge/games/m-r/monument-valley.md",
       "sha256": "d4c2cd1e36dda7ed464f2a2a7e929024affa23a364ee2afc13ce192d9a6a9a7d",
       "bytes": 19316
+    },
+    {
+      "path": "knowledge/games/m-r/mortal-kombat-ii.md",
+      "sha256": "2d8872930eec9cacf562709e1919fd73d1b9fd938d2e068efbcd356f00a58c21",
+      "bytes": 17262
     },
     {
       "path": "knowledge/games/m-r/mount-and-blade-ii-bannerlord.md",
@@ -2647,6 +2672,11 @@
       "path": "knowledge/games/m-r/papers-please.md",
       "sha256": "42f6f7ed67cf4a058c92ace668d88425c4d0ab7eb28499bf5a68ccb9a5c72778",
       "bytes": 12248
+    },
+    {
+      "path": "knowledge/games/m-r/parappa-the-rapper-remastered.md",
+      "sha256": "d1ebe2d776fdb75e793a0939d0e4e0a2761de3987ff0705cea07eb5c548ac9e2",
+      "bytes": 14376
     },
     {
       "path": "knowledge/games/m-r/path-of-exile-2.md",
@@ -2914,6 +2944,11 @@
       "bytes": 22995
     },
     {
+      "path": "knowledge/games/s-z/simcity-2000.md",
+      "sha256": "084ebef9fedf48bbd166fa8949320d79c18cbecf19a475fd015635c7ca4f16c3",
+      "bytes": 16812
+    },
+    {
       "path": "knowledge/games/s-z/simcity-4-deluxe-edition.md",
       "sha256": "8056d8295ea5b881acf556ff93698a13aef757bae4c4f1c8f174b176a14f8b3f",
       "bytes": 9614
@@ -3159,6 +3194,11 @@
       "bytes": 34531
     },
     {
+      "path": "knowledge/games/s-z/the-legend-of-zelda-majoras-mask.md",
+      "sha256": "2d4920a2bd13b030f5a76f399ee4a8cc170b85ebf36c0603f546eaa6ec64e84e",
+      "bytes": 17939
+    },
+    {
       "path": "knowledge/games/s-z/the-legend-of-zelda-ocarina-of-time.md",
       "sha256": "7167a8762dc82c9d35c02cab8f705104adb5999f086237d3e7074f6aeff0d881",
       "bytes": 25811
@@ -3299,6 +3339,11 @@
       "bytes": 12406
     },
     {
+      "path": "knowledge/games/s-z/uncharted-2-among-thieves.md",
+      "sha256": "125feb8d8e3f5ed60377ecbadca540a8aa265e1a781fa0e1ea50500a0aa51a69",
+      "bytes": 14344
+    },
+    {
       "path": "knowledge/games/s-z/undertale.md",
       "sha256": "2738cf42f8015da1946c112b557c0705a887cbe49a379576d643a39e9c12e8c6",
       "bytes": 35060
@@ -3405,28 +3450,28 @@
     },
     {
       "path": "knowledge/genes/actions.md",
-      "sha256": "2d636a22c72a35b0249a723952b6e75c0b52026ad1ad4b272f736400c28110db",
-      "bytes": 556053
+      "sha256": "9f37fe8312921658cffc0ce01a152399a1197f088ef9b72dbe057e78cf50fbe0",
+      "bytes": 563420
     },
     {
       "path": "knowledge/genes/constraints.md",
-      "sha256": "9571429b3d5dcf869463ab8c3d9e1cdd659b17d4512b5d1ead6ca5fc82edffcd",
-      "bytes": 676250
+      "sha256": "ad07abf9b11ea21bcda75e02881f0e871f0a7220fa5f49eca98a7115aca64276",
+      "bytes": 678525
     },
     {
       "path": "knowledge/genes/information.md",
-      "sha256": "73d7c4d4802e7d5bf1a77a0c907388d0099163e39c3580f4f9b41279f456fcce",
-      "bytes": 421521
+      "sha256": "72f00dfb8564d1ce2823a98c5f374b7f380b70830d5bbac0bcea92703edbd5fb",
+      "bytes": 426013
     },
     {
       "path": "knowledge/genes/objectives.md",
-      "sha256": "14aff766746861c91d91dd28735594bff067a62a2b7a5ffec00723c0e298a170",
-      "bytes": 253766
+      "sha256": "9928ff9698a9d4708b5d82002ce20ee3cf2c7551accb0134688679bf70f3ed89",
+      "bytes": 259638
     },
     {
       "path": "knowledge/genes/system-behaviours.md",
-      "sha256": "a01fbda3eb25047a384411bc02a94cc6b29a45f2b59576dfd316a28ba0b9ce61",
-      "bytes": 1119569
+      "sha256": "4b6ac303f5c896d318d0182f531c7d219aedfed1873c563a84cfc9142c6d804a",
+      "bytes": 1136655
     },
     {
       "path": "knowledge/genes/time.md",
@@ -3445,23 +3490,23 @@
     },
     {
       "path": "knowledge/locales/uk/combinations.json",
-      "sha256": "a2ab207c082e04ca5dfbd2110400eb458fc443be4655c87d8ad407818842ff36",
-      "bytes": 401054
+      "sha256": "e4b4e8747424df3e213b71d8a48354e51329a22fc654941816ec18d29fb2ea4a",
+      "bytes": 401088
     },
     {
       "path": "knowledge/locales/uk/games.json",
-      "sha256": "db16665c024fb56628836487b96ef32785b75412447c70720cbcbf8689547246",
-      "bytes": 1557987
+      "sha256": "7f13be934bdab261ec42bc0cd1869fdc4df0a9cb87553221fb7b4adc730335ac",
+      "bytes": 1600272
     },
     {
       "path": "knowledge/locales/uk/genes.json",
-      "sha256": "700a88fdb8951eb855af39e9ed2afa86e2bcc630b245f597bfba51102c1ae7e2",
-      "bytes": 3026510
+      "sha256": "180bbe14e8f1a7dcec25e3a150bc3921fa263aecbc31cdf3a7d2a371f6e9970a",
+      "bytes": 3061977
     },
     {
       "path": "knowledge/locales/uk/platforms.json",
-      "sha256": "08bd73e6f0d057788dc7bd2e4249dd5b34e9c7f4e9acffdf3c188c1689ba03bd",
-      "bytes": 8762
+      "sha256": "91ed32d9c76aff54dbef8b528d447b713379c9418945166e991ffdb31671901d",
+      "bytes": 8849
     },
     {
       "path": "knowledge/locales/uk/research/README.md",
@@ -4050,8 +4095,8 @@
     },
     {
       "path": "knowledge/locales/uk/research/combinations/COMB-0117.md",
-      "sha256": "25c7bea5977ebfe962b4a750d196a15df3bcd6a07af8547e5a32dd95d99f0ca2",
-      "bytes": 3071
+      "sha256": "6ff6133fd2c42ae00e327a9f26fba89da2348a5ae6e84a994d7b12c6bb5bc3b2",
+      "bytes": 3158
     },
     {
       "path": "knowledge/locales/uk/research/combinations/COMB-0118.md",
@@ -4315,8 +4360,8 @@
     },
     {
       "path": "knowledge/locales/uk/research/combinations/COMB-0170.md",
-      "sha256": "7de4c1f0e31517d16de61aa7612a2596f432a45f9171929674180ff2e418fe79",
-      "bytes": 4572
+      "sha256": "edde5ca17ee56fe7741aff3ba0be048342921450e3fd42efe308b3a5e08f88d7",
+      "bytes": 4579
     },
     {
       "path": "knowledge/locales/uk/research/combinations/COMB-0171.md",
@@ -4855,8 +4900,8 @@
     },
     {
       "path": "knowledge/locales/uk/research/games/INDEX.md",
-      "sha256": "16701218e3e42c02c5eea280db69875f7c5a911bf878a8466b2c7284974b6a96",
-      "bytes": 23643
+      "sha256": "f355c026c919c3cb442a60772ec0a8f5737fb1ca222a22a98b8318610cc21fbf",
+      "bytes": 24250
     },
     {
       "path": "knowledge/locales/uk/research/games/a-f/a-good-snowman-is-hard-to-build.md",
@@ -5714,6 +5759,11 @@
       "bytes": 8654
     },
     {
+      "path": "knowledge/locales/uk/research/games/g-l/la-noire.md",
+      "sha256": "f1f299d62d0e3f8162c93545878020ae32e9d2e15a203707362c2679dddbe0c2",
+      "bytes": 7603
+    },
+    {
       "path": "knowledge/locales/uk/research/games/g-l/left-4-dead-2.md",
       "sha256": "4be3b18ba5ada5dcc2dcb984d30836e6cb3f5dfdf1aee9ceb21e779dd6ec3a98",
       "bytes": 13085
@@ -5742,6 +5792,11 @@
       "path": "knowledge/locales/uk/research/games/g-l/lineage-ii.md",
       "sha256": "d994e0bbfcc73afc35753876d308165bfa2654d4eaf0500812057b61d15a2116",
       "bytes": 10377
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/g-l/littlebigplanet-2.md",
+      "sha256": "228779005baa467cc93a1bb2d88a1e914635cf33b904c5fdadea0c4d93ceab08",
+      "bytes": 8922
     },
     {
       "path": "knowledge/locales/uk/research/games/g-l/loop-hero.md",
@@ -5794,6 +5849,11 @@
       "bytes": 10366
     },
     {
+      "path": "knowledge/locales/uk/research/games/m-r/mario-party-2.md",
+      "sha256": "73e9b51219eaded693eb8d7e9794fcc019d36e8a032a5562bdef02b88e0c56bc",
+      "bytes": 9657
+    },
+    {
       "path": "knowledge/locales/uk/research/games/m-r/marvel-rivals.md",
       "sha256": "c964c222eed15d4a21f4ca919a740033d7fcacc6a5233961c695685e9101c2c7",
       "bytes": 9200
@@ -5822,6 +5882,11 @@
       "path": "knowledge/locales/uk/research/games/m-r/max-payne-3.md",
       "sha256": "d379dd4e8032a5fac8a13ffaeb34029085c6407e98d112a9bdc4559e4eebe14f",
       "bytes": 10995
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/m-r/mega-man-2.md",
+      "sha256": "4f47f9e92074165f7e47803f7c955dcefeead7e433bbfb34607cbae1968023e4",
+      "bytes": 7152
     },
     {
       "path": "knowledge/locales/uk/research/games/m-r/metal-gear-solid-v-the-phantom-pain.md",
@@ -5887,6 +5952,11 @@
       "path": "knowledge/locales/uk/research/games/m-r/monument-valley.md",
       "sha256": "6a18f99e50ef6928a91e1f142fd3d22ade17cefdb5dca3dbca5dea6d6a97d40f",
       "bytes": 6332
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/m-r/mortal-kombat-ii.md",
+      "sha256": "64ea1f69b1c2e3637c18211f2494fd5a3d4a5e99030a2ae929110f0e917f0102",
+      "bytes": 8427
     },
     {
       "path": "knowledge/locales/uk/research/games/m-r/mount-and-blade-ii-bannerlord.md",
@@ -6032,6 +6102,11 @@
       "path": "knowledge/locales/uk/research/games/m-r/papers-please.md",
       "sha256": "e5c5cc0143ca47bb9a99f263e425d38540f384a55205be4b7d9059d16356aaee",
       "bytes": 6059
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/m-r/parappa-the-rapper-remastered.md",
+      "sha256": "4453d5f5c917c56a3bd1bbdb92d15e0be2b1264af36a93dfbcf27f2d4998f8b2",
+      "bytes": 6334
     },
     {
       "path": "knowledge/locales/uk/research/games/m-r/path-of-exile-2.md",
@@ -6299,6 +6374,11 @@
       "bytes": 8465
     },
     {
+      "path": "knowledge/locales/uk/research/games/s-z/simcity-2000.md",
+      "sha256": "a9dc58350ea224d891f5c5f2839e81ebe892d6d8b10ed2166653b52e6b17fdd0",
+      "bytes": 8054
+    },
+    {
       "path": "knowledge/locales/uk/research/games/s-z/simcity-4-deluxe-edition.md",
       "sha256": "690bee50abfda56f74235e1a0b19814e91fbefa28cb7a0274321bea6328381a3",
       "bytes": 5892
@@ -6420,13 +6500,13 @@
     },
     {
       "path": "knowledge/locales/uk/research/games/s-z/street-fighter-6.md",
-      "sha256": "191367a33e33c7cebdbd8360750e14061fd27cbca572128560a2430c7dcd1776",
-      "bytes": 8279
+      "sha256": "44f9c23431277735e550ec4a8efe530ed1532f936e73a678720ab3abcfb1f599",
+      "bytes": 8286
     },
     {
       "path": "knowledge/locales/uk/research/games/s-z/street-fighter-ii-the-world-warrior.md",
-      "sha256": "a1451e4d6fbffb0bbea5888ad8039d80b1bc93f978da343ff6d721e87181dd0b",
-      "bytes": 7506
+      "sha256": "b4df63e25724f8e2c847f3d67007f274a2931240b40b02d011a35102221dbe17",
+      "bytes": 7513
     },
     {
       "path": "knowledge/locales/uk/research/games/s-z/subnautica.md",
@@ -6490,13 +6570,13 @@
     },
     {
       "path": "knowledge/locales/uk/research/games/s-z/tekken-3.md",
-      "sha256": "d3c016a80678bfd145c168d8572a713e58954b14c4e29b33fc4fbcf31a9f6909",
-      "bytes": 7695
+      "sha256": "77f3473fa4fcc55783a7a9ccc152abdb833d0c0b33779289a9e2ff6ec474f037",
+      "bytes": 7702
     },
     {
       "path": "knowledge/locales/uk/research/games/s-z/tekken-8.md",
-      "sha256": "6dce21e027b1ec9a03a641d4d9141debe658845dbaef8e662794c311be40af17",
-      "bytes": 22699
+      "sha256": "28a3784b9e5c7853590277ff929cd0dab6d70592a700d10c41085bbd44d65593",
+      "bytes": 22706
     },
     {
       "path": "knowledge/locales/uk/research/games/s-z/tents.md",
@@ -6542,6 +6622,11 @@
       "path": "knowledge/locales/uk/research/games/s-z/the-last-of-us-part-i.md",
       "sha256": "bb66396aa108924e4eca33a5cba918bdfd45c1d0ecbd9b9d044ab476f18d32b0",
       "bytes": 14147
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/the-legend-of-zelda-majoras-mask.md",
+      "sha256": "5fb1cb80171bbc9ddbd76e5bb620a5772f7dd74d7c975abbd06edfdbf545432a",
+      "bytes": 8448
     },
     {
       "path": "knowledge/locales/uk/research/games/s-z/the-legend-of-zelda-ocarina-of-time.md",
@@ -6684,6 +6769,11 @@
       "bytes": 5673
     },
     {
+      "path": "knowledge/locales/uk/research/games/s-z/uncharted-2-among-thieves.md",
+      "sha256": "461203be5dc946c7be467ffe4da20f925e1b0880a7d034f8f6a73ac8dbee8106",
+      "bytes": 6305
+    },
+    {
       "path": "knowledge/locales/uk/research/games/s-z/undertale.md",
       "sha256": "9cba6c4e3195d4b357e49b90d427d27e64f3f1ad0fbe27dc28ade7320f500645",
       "bytes": 13768
@@ -6790,33 +6880,33 @@
     },
     {
       "path": "knowledge/locales/uk/research/genes/actions.md",
-      "sha256": "3d86e7d0c087b8dea0bbbd4bafebedbcd380286eae7f2af2ccd2fdde3f8993e4",
-      "bytes": 691875
+      "sha256": "416ed9f09831c68b96ad24c24e68544f2b96150f377d6750bc43e06cc2407ba0",
+      "bytes": 701272
     },
     {
       "path": "knowledge/locales/uk/research/genes/constraints.md",
-      "sha256": "d11979ff000142aad14c2f55eff1e8cfb27db8d6e172294999233bf6b87202ba",
-      "bytes": 823976
+      "sha256": "ed16ddf0dcf9393fbcc5e4f49350bfe50df54f7b55fda2fc08d1e72f1615655e",
+      "bytes": 827150
     },
     {
       "path": "knowledge/locales/uk/research/genes/information.md",
-      "sha256": "e17bdac4a3088caab375af43c0ddb332287fd1d387b5b1a5b567d123affafd84",
-      "bytes": 511086
+      "sha256": "659ed822576a64eef890e56327808a0aeb6f5ae67f4f86a3006eedf6dd747389",
+      "bytes": 516599
     },
     {
       "path": "knowledge/locales/uk/research/genes/objectives.md",
-      "sha256": "df8bf77091d216d06410b4998f72d2db5e391454fa6a39f2e6cbe39acc2d05c5",
-      "bytes": 286212
+      "sha256": "23eb4425d995acd8a32b7f7556818b7beafef16d9a1315e87ac51fb027282fe0",
+      "bytes": 292657
     },
     {
       "path": "knowledge/locales/uk/research/genes/system-behaviours.md",
-      "sha256": "74b87707604551479c9164937c322895e0e0f7eb3b862103fad5b6dc7922414f",
-      "bytes": 1303133
+      "sha256": "e3714b2b4259a9ba26c12cd955f84598775c60da7764912f4e24c51dfaa78339",
+      "bytes": 1322742
     },
     {
       "path": "knowledge/locales/uk/research/genes/time.md",
-      "sha256": "6d5d59937135c38fa6a6d0015bc6d741684eb90b9ef2a9cbbe62996c1910eab6",
-      "bytes": 81846
+      "sha256": "4e8da753c35eab4c8abe6d95f596c8c7c56f1fa99e4e0857fe032407928a4b44",
+      "bytes": 82591
     },
     {
       "path": "knowledge/plain-language/README.md",
@@ -6825,8 +6915,8 @@
     },
     {
       "path": "knowledge/plain-language/pilot.json",
-      "sha256": "e92c9616e4e264e623b3b4131ed41146259416646a958a2bd51b46b7e2aea870",
-      "bytes": 6390908
+      "sha256": "6423d8ec96b80ece1841a4b6b75aa4c1c3a8465588a2b93771e02e848f2bfb27",
+      "bytes": 6458377
     },
     {
       "path": "knowledge/platforms/README.md",
@@ -6835,13 +6925,13 @@
     },
     {
       "path": "knowledge/platforms/games.json",
-      "sha256": "2f09d126ed548407141ab7b1d1004ffc2b4ca5751ea64aa98752777d2e17c2eb",
-      "bytes": 1099318
+      "sha256": "21205f523c0ce12f5b4b9233b5099c4e92e957150286967866ae21b4c3162251",
+      "bytes": 1108594
     },
     {
       "path": "knowledge/platforms/registry.json",
-      "sha256": "03231d0d2ca70e1d3ea90b2ff1c46dd93d4db27c9ac8bb034e1c733ee95ce520",
-      "bytes": 30795
+      "sha256": "21fa6d10c0b0ff07535fd9c9b81c9c323e4e2019368afc37fe82f60bb1e758f9",
+      "bytes": 31183
     },
     {
       "path": "knowledge/platforms/variants.json",
@@ -6855,8 +6945,8 @@
     },
     {
       "path": "knowledge/presentation/games.json",
-      "sha256": "177af82f75d533256a0a13cfb0a2666bf53c7dae6a4b30bf8047436815fe283e",
-      "bytes": 909125
+      "sha256": "799e766570f584aaf66a58a912e4c342c84f4c05b0fbf0702ad4cbeb510dd47b",
+      "bytes": 921808
     },
     {
       "path": "knowledge/salience/README.md",
@@ -6865,8 +6955,8 @@
     },
     {
       "path": "knowledge/salience/pilot.json",
-      "sha256": "e19e39740ede4f8b2a7392c791e7ca8feeae5fabca90a84032a294ad159796e5",
-      "bytes": 545311
+      "sha256": "332c39dd1aec4ef22142cabd00b47323ef3739c9945b07565c68313bd9ce1e95",
+      "bytes": 557486
     },
     {
       "path": "research/negative-results/NEGATIVE_RESULT_002.md",
@@ -7509,6 +7599,46 @@
       "bytes": 2045
     },
     {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_127.md",
+      "sha256": "f6efb0fd74438c6c595d1338ddedad72196aa145664c46e9e8f06567e3103b82",
+      "bytes": 3490
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_128.md",
+      "sha256": "7c4c2f6376f0aa19fc0c389833ee3951dcf2362cdaa341487ecfb30289e70572",
+      "bytes": 2336
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_129.md",
+      "sha256": "92362940e1e5a87d13f7e52b78ebdbcd9a51bce34cb8766ae414104f8cab6faf",
+      "bytes": 2338
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_130.md",
+      "sha256": "2d09d2a7226cbc68afe53ec15e84102cf4e08f17b440e4ab852ae730da1c7a66",
+      "bytes": 3407
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_131.md",
+      "sha256": "3a481591adb964f102a808d385aaffc7ca8a08d47233bad75520856ee604d4a1",
+      "bytes": 2205
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_132.md",
+      "sha256": "e8949fc75da77cf66c70584630ec95b25cdf33bf8886b45549d39affdc0b041c",
+      "bytes": 2635
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_133.md",
+      "sha256": "a602b726bee7b9c1c92b4fb2eaf89df4bac61e8bcc7f3a8a51409b4bdae6c0ce",
+      "bytes": 2599
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_134.md",
+      "sha256": "d5a88b6dcafec454486aa0968c6c960779d1f5518b5b775b94a829da01b4b34d",
+      "bytes": 2659
+    },
+    {
       "path": "scripts/verify_antichamber_control.py",
       "sha256": "08a3ad0b8980507af10b27ab32f8af66f664df66169308f7eadb01acab33e35e",
       "bytes": 3442
@@ -7869,5 +7999,5 @@
       "bytes": 1195
     }
   ],
-  "payloadSha256": "86c3eac0c96de2df50211542c7f736c97ded75df7644089e997c9c27d382a948"
+  "payloadSha256": "d0c3ffc847e65a6579ab0dd0e0b453496ac1f4a6c22674bf4420738a72866055"
 }

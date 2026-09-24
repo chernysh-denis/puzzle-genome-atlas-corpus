@@ -7913,3 +7913,86 @@
   the contemporary original-DS GameSpot review and first-case written route.
 - Novelty: first isolated for `GAME-0385`; testimony is a line-addressed
   challenge surface rather than merely story text.
+
+## INF-393 — Expose a growing case notebook of clues and leads
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a case-local notebook makes registered physical clues, persons
+  of interest, objectives, interview questions and discovered destinations
+  inspectable as the authored investigation reveals them.
+- Includes: L.A. Noire's The Driver's Seat notebook recording the car owner,
+  relevant objects, witnesses, bar address and later apartment lead.
+- Excludes: omniscient disclosure of the whole solution; a courtroom record
+  limited to admitted trial items (`INF-391`); immutable death-scene indexing
+  (`INF-012`); an external search engine.
+- Parameters: current case, clue roster, person record, objective, question,
+  address, registration event, current destination and revisit access.
+- Evidence: [L.A. Noire decomposition](../games/g-l/la-noire.md), Rockstar's
+  PS4 manual notebook section and Prima's remaster case route.
+- Novelty: first isolated for `GAME-0388`; one in-world dossier unifies
+  evidence and the next navigable lead across multiple physical sites.
+
+## INF-394 — Show the board route, Star site and rival tallies
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the board presentation exposes the connected route and
+  inspectable map together with each competitor's current Stars and Coins,
+  allowing a route or spending choice to be made against visible standings.
+- Includes: Mario Party 2's inspectable Adventure Board map, Toad's current
+  site and the four players' displayed Star and Coin totals during Pirate
+  Land.
+- Excludes: previewing the next Dice Block result (`INF-002`); revealing a
+  later relocated Star site before purchase; the internal rules of a
+  not-yet-selected minigame; undisclosed future board events.
+- Parameters: route graph, visible fixtures, active Star site, player totals,
+  active player and map-inspection control.
+- Evidence: [Mario Party 2 decomposition](../games/m-r/mario-party-2.md),
+  Nintendo's original Nintendo 64 instruction booklet, pp. 8, 12–15.
+- Novelty: first isolated for `GAME-0392`; the public board graph and moving
+  scoring site coexist with rival currency and Star standings.
+
+## INF-395 — Show current cycle day and time against a fixed expiry
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the interface exposes the current day and clock position within
+  a fixed, continuously advancing world cycle, allowing the player to compare
+  remaining opportunity against a known terminal deadline.
+- Includes: the first-to-final-day clock in Majora's Mask's Clock Town
+  prologue, where the clock reaches the 72-hour moonfall limit.
+- Excludes: a date label for discrete campaign activities (`INF-336`);
+  an elapsed post-result timer; disclosure of every future NPC position.
+- Parameters: day labels, displayed time, clock rate, pause policy, final
+  deadline and accessibility of the display.
+- Evidence: [Majora's Mask decomposition](../games/s-z/the-legend-of-zelda-majoras-mask.md),
+  Nintendo's original N64 instruction booklet, pp. 10–11.
+- Novelty: first isolated for `GAME-0395`; the visible cycle clock is directly
+  decision-relevant to the final-night gate and moonfall failure.
+
+## INF-396 — Show the call-response rhythm and live rap rating
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: disclose the instructor or player turn, ordered beat-aligned
+  button symbols and current ordinal performance rating so the player can
+  time the next response and observe risk after an answer.
+- Includes: the first Normal dojo stage in PaRappa the Rapper Remastered;
+  the PS4 enlarged-player-icon option improves visibility of the same cue.
+- Excludes: Guitar Hero III's advancing fretboard plus Rock Meter
+  (`INF-379`); the whole chart supplied before play; hidden timing thresholds.
+- Parameters: turn marker, button symbol, beat position, player icon size,
+  rating label and update timing.
+- Evidence: [PaRappa Remastered decomposition](../games/m-r/parappa-the-rapper-remastered.md),
+  Sony's official feature page and the original-game written guide.
+- Novelty: first isolated for `GAME-0396`; turn ownership is visible as well
+  as the symbols and graded risk, unlike a single continuous chart lane.

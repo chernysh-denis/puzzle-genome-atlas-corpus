@@ -23744,6 +23744,123 @@
       },
       "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
       "releases": []
+    },
+    "GAME-0388": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-4",
+        "edition": "2017 North American English PlayStation 4 L.A. Noire, base-game Traffic case The Driver's Seat",
+        "editionUk": "Північноамериканське англомовне видання L.A. Noire 2017 року для PlayStation 4: базова справа дорожнього відділу The Driver's Seat",
+        "version": "North American PS4 release identified by PlayStation Store; exact installed build and direct play not inspected",
+        "distribution": "Licensed PS4 digital product; no disc or installed executable inspected",
+        "evidenceUrl": "https://store.playstation.com/en-us/product/UP1004-CUSA09084_00-LANOIRE000000PS4",
+        "checked": "2026-09-24"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0389": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-ENTERTAINMENT-SYSTEM",
+        "edition": "Original 1989 North American English NES Mega Man 2 cartridge, Normal difficulty, Metal Man selected first",
+        "editionUk": "Оригінальна північноамериканська англомовна версія Mega Man 2 для NES 1989 року: складність Normal, Метал Мен обраний першим",
+        "version": "Original NES-XR-USA manual rules; exact cartridge ROM revision and direct play not inspected",
+        "distribution": "Original licensed NES cartridge; Nintendo's current product page is an official reference, not the inspected executable",
+        "evidenceUrl": "https://www.nintendo.co.jp/clv/manuals/en/pdf/CLV-P-NABBE.pdf",
+        "checked": "2026-09-24"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0390": {
+      "analysisTarget": {
+        "platformId": "PLAT-DOS",
+        "edition": "Original English PC DOS SimCity 2000, ordinary new city, Easy, 1900, first full city-year",
+        "editionUk": "Оригінальна англомовна SimCity 2000 для DOS: звичайне нове місто, легка складність, старт 1900 року та перший повний міський рік",
+        "version": "Original Maxis manual rules; exact DOS binary revision and direct play not inspected",
+        "distribution": "Original licensed DOS edition; GOG Special Edition is a related current offer, not the inspected binary",
+        "evidenceUrl": "https://classicreload.com/sites/default/files/sim-city-2000-manual.pdf",
+        "checked": "2026-09-24"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0391": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-3",
+        "edition": "Original English PlayStation 3 Uncharted 2 single-player Chapter 1 opening suspended-train escape",
+        "editionUk": "Оригінальна англомовна Uncharted 2 для PlayStation 3: початкова втеча із завислого поїзда в першому розділі одиночної кампанії",
+        "version": "2009 original PS3 rules documented by the official guide; exact disc revision and difficulty not inspected",
+        "distribution": "Original PlayStation 3 release; later Nathan Drake Collection is a related edition, not the analysed binary",
+        "evidenceUrl": "https://ptgmedia.pearsoncmg.com/images/9780744011166/samplepages/1116-6_uncharted2.pdf",
+        "checked": "2026-09-24"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0392": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH",
+        "edition": "Original English Nintendo 64 Mario Party 2 Adventure Board rules represented by licensed Nintendo 64 – Nintendo Switch Online; Pirate Land LITE PLAY 20-turn four-human NO BONUS board contest",
+        "editionUk": "Правила оригінальної англомовної Mario Party 2 для Nintendo 64 у ліцензованій Nintendo 64 – Nintendo Switch Online: Pirate Land, чотири гравці, LITE PLAY на 20 ходів без бонусних зірок",
+        "version": "Original 1999–2000 Nintendo 64 instruction-booklet rules; exact cartridge revision, installed Switch wrapper and direct play not inspected",
+        "distribution": "Licensed Nintendo Switch Online + Expansion Pack N64 Classics application; not an inspected cartridge, ROM, Switch wrapper build or later Mario Party remake",
+        "evidenceUrl": "https://www.nintendo.com/us/whatsnew/nintendo-switch-online-expansion-pack-mario-party-and-mario-party-2-are-now-available/",
+        "checked": "2026-09-24"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0393": {
+      "analysisTarget": {
+        "platformId": "PLAT-SUPER-NINTENDO",
+        "edition": "Original North American Super NES Mortal Kombat II, SNS-28-USA, default one-player first CPU match after selecting Liu Kang",
+        "editionUk": "Оригінальна північноамериканська Mortal Kombat II для Super NES, посібник SNS-28-USA: перший матч проти комп’ютера за Лю Кана зі стандартними налаштуваннями",
+        "version": "1994 SNES instruction-booklet rules; exact cartridge revision and direct play not inspected",
+        "distribution": "Original SNES cartridge rules; a modern licensed Legacy Kollection exists but its executable was not inspected",
+        "evidenceUrl": "https://www.videogamemanual.com/snes/Mortal%20Kombat%20II%20%28USA%29.pdf",
+        "checked": "2026-09-24"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0394": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-3",
+        "edition": "Original English North American PlayStation 3 LittleBigPlanet 2 Story Mode, solo post-level-link Grab and Swing route",
+        "editionUk": "Оригінальна англомовна LittleBigPlanet 2 для PlayStation 3: одиночний маршрут другої частини сюжетного рівня Grab and Swing після внутрішнього переходу",
+        "version": "2011 original PS3 Story rules reconstructed from publisher announcements and two written routes; exact disc revision and installed patch not inspected",
+        "distribution": "Original PlayStation 3 release; demo, community levels and later editions are outside this analysis",
+        "evidenceUrl": "https://blog.playstation.com/2010/09/23/littlebigplanet-2-now-launching-january-18-2011-in-north-america/",
+        "checked": "2026-09-24"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0395": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-64",
+        "edition": "Original English European Nintendo 64 Majora's Mask, first Clock Town three-day cycle through the first Song of Time reset",
+        "editionUk": "Оригінальна англомовна європейська The Legend of Zelda: Majora's Mask для Nintendo 64: перший триденний цикл у Clock Town до першого скидання Піснею часу",
+        "version": "Original UKV/N64 instruction-booklet rules; exact cartridge revision and direct play not inspected",
+        "distribution": "Original Nintendo 64 cartridge rules; later remakes and licensed emulation wrappers are outside the analysed target",
+        "evidenceUrl": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_8/Manual_Nintendo64_TheLegendOfZeldaMajorasMask_EN.pdf",
+        "checked": "2026-09-24"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0396": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-4",
+        "edition": "2017 PlayStation 4 PaRappa the Rapper Remastered, Normal Stage 1 dojo performance through a Good-rated finish",
+        "editionUk": "PaRappa the Rapper Remastered для PlayStation 4 2017 року: перший ритмічний урок на звичайній складності до завершення з оцінкою Good",
+        "version": "PS4 remaster product rules, with original call-response detail reconstructed from Sony creator material and a written original-game guide; executable revision not inspected",
+        "distribution": "Official PS4 digital remaster; original PlayStation disc and PS5 wrapper are not the analysis target",
+        "evidenceUrl": "https://www.playstation.com/en-ca/games/parappa-the-rapper-remastered/",
+        "checked": "2026-09-25"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
     }
   }
 }

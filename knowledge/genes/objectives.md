@@ -4702,3 +4702,114 @@
   original Nintendo 64 manual and original-N64 first-world written route.
 - Novelty: first isolated for `GAME-0386`; the route ends at successor
   availability after two differently accounted collection gates.
+
+## OBJ-229 — Close one authored investigation by apprehending its subject
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: follow sufficient physical and interview leads through one
+  bounded case to locate its named subject, complete the required apprehension
+  and settle into the case's recorded result; a perfect performance grade is
+  separate from the completion predicate.
+- Includes: tracing The Driver's Seat to Frank Morgan's apartment,
+  apprehending Adrian Black after the foot pursuit and receiving the case
+  report in L.A. Noire.
+- Excludes: finding every optional clue as a required gate; earning five
+  stars; assigning identity-fate fields (`OBJ-017`); securing a court
+  acquittal (`OBJ-227`); completing the full detective campaign.
+- Parameters: case, available leads, subject location, custody event,
+  required pursuit result, completion flag and report.
+- Evidence: [L.A. Noire decomposition](../games/g-l/la-noire.md), Prima's
+  2017 remaster case and case-report guides.
+- Novelty: first isolated for `GAME-0388`; an evidence-and-interview route
+  closes with embodied apprehension and a graded report, not a submitted
+  answer or court verdict.
+
+## OBJ-230 — Clear one selected Robot Master stage and retain its weapon
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: traverse one chosen authored action stage, defeat its named
+  guardian and settle back into stage selection with that guardian's fixed
+  weapon newly retained; merely reaching the boss room is insufficient.
+- Includes: original NES Mega Man 2 on Normal with Metal Man selected first,
+  clearing his factory and receiving Metal Blade.
+- Excludes: clearing all eight Robot Master stages or Wily's fortress;
+  defeating an optional boss; receiving a random pickup; using the granted
+  weapon after the return to stage selection; crossing a newly opened
+  physical successor threshold (`OBJ-080`).
+- Parameters: selected stage, route, boss, victory condition, fixed weapon
+  grant, cleared flag and selection-state return.
+- Evidence: [Mega Man 2 decomposition](../games/m-r/mega-man-2.md), original
+  Nintendo manual and corroborating original-NES Metal Man routes.
+- Novelty: first isolated for `GAME-0389`; a boss-gated single-stage
+  terminal retains a named weapon while returning to a multi-stage selector.
+
+## OBJ-231 — Escape an authored collapsing route onto stable ground
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: guide one directly controlled avatar through a finite
+  author-ordered loss of traversal supports and finish by reaching the
+  designated stable exit before the remaining route falls away.
+- Includes: Drake leaving the final falling passenger car and pulling up to
+  the cliff ledge in the original PS3 Uncharted 2 opening.
+- Excludes: mere arrival at an ordinary traversable destination (`OBJ-026`);
+  completing the whole chapter or campaign; defeating enemies; an
+  auto-scrolling course scored by time; collecting optional treasures.
+- Parameters: authored route, support-failure sequence, safe exit, arrival
+  action and fall-failure condition.
+- Evidence: [Uncharted 2 decomposition](../games/s-z/uncharted-2-among-thieves.md),
+  BradyGames' official 2009 guide sample and corroborating PS3 written route.
+- Novelty: first isolated for `GAME-0391`; the terminal requires escaping
+  changing support geometry during this bounded scene, not only touching a
+  static destination.
+
+## OBJ-232 — Rank Stars before Coins after a fixed board-turn horizon
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: finish the declared number of complete board rounds and award
+  the contest to the player with the most Stars, using remaining Coins to
+  break an equal-Star result and a final die contest if both totals tie.
+- Includes: a twenty-turn Mario Party 2 Pirate Land board game with NO BONUS,
+  where no hidden-block or end-award Stars supplement the earned Star count.
+- Excludes: a first-to-threshold point victory (`OBJ-219`); maximizing coins
+  alone; awarding optional Bonus Stars when NO BONUS was selected; treating
+  the end of one ordinary minigame as the whole board's terminal.
+- Parameters: round limit, Star tallies, Coin tallies, bonus setting, tie
+  sequence and declared winner.
+- Evidence: [Mario Party 2 decomposition](../games/m-r/mario-party-2.md),
+  Nintendo's original Nintendo 64 instruction booklet, pp. 10–11, 16.
+- Novelty: first isolated for `GAME-0392`; the finite match ranks a purchased
+  primary asset before a secondary currency rather than reaching a point
+  threshold during an active turn.
+
+## OBJ-233 — Finish an instructor-led rhythm stage with a Good rating
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: reach the authored end of one instructor-led response song
+  while the live performance rating is Good, then receive that stage's
+  positive clear transition.
+- Includes: Normal Stage 1 of PaRappa the Rapper Remastered with Chop Chop
+  Master Onion.
+- Excludes: completing the whole campaign; requiring optional Cool
+  freestyle; Guitar Hero III's Rock-Meter song survival (`OBJ-215`);
+  assuming every lower-rated PS4 finish advances.
+- Parameters: selected stage, difficulty, song endpoint, end rating and clear
+  state.
+- Evidence: [PaRappa Remastered decomposition](../games/m-r/parappa-the-rapper-remastered.md),
+  Sony's edition/stage statements and the PS4 Good-rated trophy outcome.
+- Novelty: first isolated for `GAME-0396`; the required terminal is an
+  instructor-led rating state, not survival of a fret-strum gauge.

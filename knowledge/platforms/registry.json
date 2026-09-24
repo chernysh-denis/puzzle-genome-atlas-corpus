@@ -497,6 +497,17 @@
       "infoUrl": "https://en.wikipedia.org/wiki/Nintendo_3DS"
     },
     {
+      "id": "PLAT-NINTENDO-64",
+      "slug": "nintendo-64",
+      "nameEn": "Nintendo 64",
+      "kind": "console",
+      "ecosystem": "nintendo",
+      "generation": "fifth generation",
+      "legacy": true,
+      "iconPath": "/platform-icons/nintendo-64.svg",
+      "infoUrl": "https://www.nintendo.com/en-gb/Hardware/Nintendo-History/Nintendo-64/Nintendo-64-625959.html"
+    },
+    {
       "id": "PLAT-NINTENDO-DS",
       "slug": "nintendo-ds",
       "nameEn": "Nintendo DS",
