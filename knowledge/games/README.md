@@ -413,6 +413,15 @@ Index's short profile remains a game-specific navigation summary.
 - [`GAME-0376` — Katamari Damacy REROLL](g-l/katamari-damacy-reroll.md)
 - [`GAME-0377` — CATAN](a-f/catan.md)
 - [`GAME-0378` — Super Monkey Ball 2](s-z/super-monkey-ball-2.md)
+- [`GAME-0379` — Worms Armageddon](s-z/worms-armageddon.md)
+- [`GAME-0380` — Professor Layton and the Curious Village](m-r/professor-layton-and-the-curious-village.md)
+- [`GAME-0381` — GoldenEye 007](g-l/goldeneye-007.md)
+- [`GAME-0382` — Ōkami HD](m-r/okami-hd.md)
+- [`GAME-0383` — The Sims 2: Legacy Collection](s-z/the-sims-2-legacy-collection.md)
+- [`GAME-0384` — F-Zero GX](a-f/f-zero-gx.md)
+- [`GAME-0385` — Phoenix Wright: Ace Attorney](m-r/phoenix-wright-ace-attorney.md)
+- [`GAME-0386` — Banjo-Kazooie](a-f/banjo-kazooie.md)
+- [`GAME-0387` — Super Bomberman](s-z/super-bomberman.md)
 <!-- END GENERATED: COMPLETED_GAMES -->
 
 Use the [game-analysis template](../../templates/GAME_ANALYSIS_TEMPLATE.md) and

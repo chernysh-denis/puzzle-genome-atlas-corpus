@@ -4530,3 +4530,175 @@
   original GameCube manual p. 9 and publisher-supplied Nintendo description.
 - Novelty: first isolated for `GAME-0378`; indirect field control and a live
   clock gate the avatar-containing ball's entry into one stage receiver.
+
+## OBJ-221 — Be the last team with a living worm
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: win the declared one-round match by eliminating all opposing
+  worms through zero energy or drowning while at least one own worm survives.
+- Includes: the scoped two-team Worms Armageddon offline match with one round
+  victory required.
+- Excludes: maximising damage without elimination; a fixed score threshold;
+  winning a multiround series; inventing a tie-breaker for simultaneous
+  last-worm death.
+- Parameters: team roster, living worms, elimination event and round result.
+- Evidence: [Worms Armageddon decomposition](../games/s-z/worms-armageddon.md),
+  Team17 manual pp. 2 and 33.
+- Novelty: first isolated for `GAME-0379`; the terminal counts surviving
+  team members after physical artillery and water resolution.
+
+## OBJ-222 — Solve one authored map question to open the story route
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: submit the one accepted region of an authored visual question
+  so its puzzle is recorded solved and its linked narrative route becomes
+  available, regardless of whether the maximum picarat reward was preserved.
+- Includes: identifying the village in the opening Professor Layton map
+  question to continue toward St. Mystere.
+- Excludes: maximizing picarats without solving; completing every later
+  riddle; selecting any reachable map node without validating a puzzle.
+- Parameters: target question, accepted region, solved flag, story successor
+  and reward-independent completion test.
+- Evidence: [Professor Layton and the Curious Village
+  decomposition](../games/m-r/professor-layton-and-the-curious-village.md),
+  Nintendo manual pp. 9–10 and corroborated puzzle 001 walkthroughs.
+- Novelty: first isolated for `GAME-0380`; a singular pictured answer
+  resolves a narrative access gate, not a whole-grid or score objective.
+
+## OBJ-223 — Neutralise a declared alarm set and depart from the mission platform
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: resolve every member of a finite declared security-alarm set,
+  then use a separately reachable departure point so the bounded mission
+  settles with all required objective flags complete.
+- Includes: destroying the four Dam alarms and then making the bungee-platform
+  departure on GoldenEye 007's Secret Agent difficulty.
+- Excludes: jumping before the alarms are resolved; destroying all guards;
+  00 Agent modem/data tasks; a generic spatial exit with no mission checklist
+  (`OBJ-026`).
+- Parameters: alarm set, member destruction states, departure point,
+  difficulty-specific checklist and mission settlement.
+- Evidence: [GoldenEye 007 decomposition](../games/g-l/goldeneye-007.md),
+  two independent original-N64 Dam guides.
+- Novelty: first isolated for `GAME-0381`; a fixed dispersed sabotage set and
+  an independently accessible exit form one conjunctive mission objective.
+
+## OBJ-224 — Restore the cursed village by cutting its suspended fruit
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: acquire the brush capabilities needed to reach the cursed
+  village's suspended restorative fruit, then sever its stalk so the fruit
+  falls and the village changes from ruined to restored within the bounded
+  opening route.
+- Includes: the Rejuvenation river and Nagi sword, Power Slash access through
+  the blocked cave return, and the final fruit cut at Kamiki Village in Ōkami
+  HD's scoped opening.
+- Excludes: merely reaching the fruit without cutting it; restoring every
+  villager's later personal state; Hana Valley's Guardian Sapling; defeating
+  Orochi or completing the whole campaign.
+- Parameters: required acquired powers, route gates, fruit stalk, accepted
+  slash, restoration event and terminal village state.
+- Evidence: [Ōkami HD decomposition](../games/m-r/okami-hd.md), two independent
+  PS4 opening routes and Capcom's original manual restorative premise.
+- Novelty: first isolated for `GAME-0382`; a culminating world-restoration
+  object is gated by acquiring and applying two brush techniques along one
+  authored route.
+
+## OBJ-225 — Fulfil one offered Want within a bounded household day
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during an explicitly bounded household observation, realise at
+  least one Want currently displayed for a resident and retain its aspiration
+  and reward-point effect as the local positive result.
+- Includes: one eligible displayed Want completed before the next 08:00 in the
+  scoped two-adult The Sims 2: Legacy Collection study.
+- Excludes: claiming the day boundary is an in-game victory; a staged scenario
+  ending (`OBJ-052`); fulfilling an undisplayed preference or merely avoiding
+  a Fear without a positive Want event.
+- Parameters: resident, displayed Want, matching event, aspiration update,
+  reward points, observation entry and end time.
+- Evidence: [The Sims 2: Legacy Collection decomposition](../games/s-z/the-sims-2-legacy-collection.md), EA's original PC manual and Maxis' design diary.
+- Novelty: first isolated for `GAME-0383`; the local objective is a chosen
+  repeatable desire in an open household, not a product-level game ending.
+
+## OBJ-226 — Win one race and carry points into an unfinished Cup
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: finish an ordered Cup course ahead of its rival field, receive
+  the classified race points and stop while the multi-race championship is
+  still unresolved; this local success is not a Cup trophy.
+- Includes: first place and credited points after the first Novice Ruby Cup
+  Twist Road race in F-Zero GX.
+- Excludes: winning all five Ruby Cup courses by cumulative points
+  (`OBJ-180`); a self-contained race event with a final retained career reward
+  (`OBJ-134`); lower place without the local first-place target.
+- Parameters: Cup, race index, ordered laps, finish order, awarded points,
+  carried championship total and later unresolved races.
+- Evidence: [F-Zero GX decomposition](../games/a-f/f-zero-gx.md), Nintendo's
+  original instruction booklet, official Cup rules and result display.
+- Novelty: first isolated for `GAME-0384`; the packet's positive result is
+  one scored race within, not the terminal of, the larger championship.
+
+## OBJ-227 — Secure first-case acquittal through supported objections
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: in one authored courtroom case, resolve the required witness
+  contradictions and prompted explanations with available case evidence
+  until the judge declares the defendant not guilty.
+- Includes: defending Larry Butz through Frank Sahwit's changing testimony
+  to the acquittal at the end of The First Turnabout.
+- Excludes: the player personally choosing a binary verdict (`ACT-105`);
+  guessing the culprit shown in the introduction; solving a later case;
+  treating an unsupported objection as progress.
+- Parameters: case, defendant, required contradiction sequence, case-record
+  availability, prompted explanations and terminal verdict.
+- Evidence: [Phoenix Wright: Ace Attorney decomposition](../games/m-r/phoenix-wright-ace-attorney.md),
+  Nintendo's DS description, Capcom's creator interview, contemporary
+  GameSpot review and first-case written route.
+- Novelty: first isolated for `GAME-0385`; the local terminal is a
+  judge-issued acquittal earned by evidence-to-testimony challenges.
+
+## OBJ-228 — Complete one world packet and open its next collection-gated world
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete a declared bounded world's collection and capability
+  checkpoints, return to the parent hub, satisfy separate retained-collection
+  and allocated-piece access gates, then reach the newly opened successor
+  world entrance without entering or completing that successor.
+- Includes: a full first Mumbo's Mountain visit with ten world Jiggies and
+  100 Notes, then the first 50-Note Door and two-piece Treasure Trove Cove
+  picture in original N64 Banjo-Kazooie.
+- Excludes: claiming that the full-world checkpoints are the game's minimum
+  next-world admission cost; collecting the entire campaign; entering or
+  completing Treasure Trove Cove; opening only one of the two hub gates.
+- Parameters: world, bounded collection controls, learned capabilities,
+  retained Note threshold, addressed picture, allocated piece quota and
+  reachable successor entrance.
+- Evidence: [Banjo-Kazooie decomposition](../games/a-f/banjo-kazooie.md),
+  original Nintendo 64 manual and original-N64 first-world written route.
+- Novelty: first isolated for `GAME-0386`; the route ends at successor
+  availability after two differently accounted collection gates.

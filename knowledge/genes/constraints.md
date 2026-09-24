@@ -12971,3 +12971,128 @@
   original GameCube manual p. 9.
 - Novelty: first isolated for `GAME-0378`; spatial support loss is an
   immediate local terminal even in Story Mode with unlimited new attempts.
+
+## CON-686 — Only the scheduled worm can spend the team turn
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when manual Worm Select is disabled, only the team's scheduled
+  living worm can move and use its one committed weapon opportunity during
+  that timed turn; walking alone does not choose a different worm.
+- Includes: no-Worm-Select rotation and weapon commitment in the scoped Worms
+  Armageddon offline match.
+- Excludes: manual selection of any teammate, a team-wide action-point pool,
+  simultaneous orders and a separate weapon shot by every worm in one turn.
+- Parameters: team, scheduled worm, living roster, turn clock, selected weapon
+  and commitment state.
+- Evidence: [Worms Armageddon decomposition](../games/s-z/worms-armageddon.md),
+  Team17 manual pp. 3, 6, 10 and 33.
+- Novelty: first isolated for `GAME-0379`; an exclusive team turn controls
+  one rotating member rather than the full team roster.
+
+## CON-687 — Next puzzle hint requires a coin and an unrevealed tier
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: one optional authored puzzle hint is purchasable only when a
+  hint coin remains and the next ordered hint has not already been revealed;
+  each purchase consumes one coin and advances one hint tier.
+- Includes: the first three hints available in the scoped Professor Layton
+  opening puzzle when the player has sufficient coins.
+- Excludes: free automatic clue revelation, an unlimited hint stream,
+  purchasing the third clue before the first, or spending picarats as coins.
+- Parameters: coin balance, hint tier, revealed-hint count and maximum tier.
+- Evidence: [Professor Layton and the Curious Village
+  decomposition](../games/m-r/professor-layton-and-the-curious-village.md),
+  Nintendo manual pp. 9–10.
+- Novelty: first isolated for `GAME-0380`; clue order and finite coin stock
+  jointly constrain optional information access.
+
+## CON-688 — Early mission departure evaluates unfinished objectives as failure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a reachable mission departure may end the attempt before every
+  declared mandatory subobjective is complete; the terminal evaluates the
+  unresolved checklist as failure rather than blocking physical departure.
+- Includes: the Secret Agent Dam bungee-platform jump before all four alarms
+  have been neutralised in GoldenEye 007.
+- Excludes: exits that stay locked until every target is resolved (`CON-593`);
+  an optional bonus left unclaimed; aborting from a pause menu; zero-health
+  defeat before reaching the exit.
+- Parameters: required objective set, completion flags, reachable departure,
+  early-exit action and terminal success evaluation.
+- Evidence: [GoldenEye 007 decomposition](../games/g-l/goldeneye-007.md),
+  original N64 Secret Agent Dam objective guides and mission-end warning.
+- Novelty: first isolated for `GAME-0381`; checklist completion controls the
+  *result* of an available exit, not whether the exit can be entered.
+
+## CON-689 — Manual race boost unlocks only after the first lap
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a manual acceleration-burst request is invalid throughout the
+  first lap of a race and becomes eligible only after that lap is completed,
+  even when the machine still has enough energy to pay for it.
+- Includes: F-Zero GX's official first-lap booster prohibition in every
+  Grand Prix race, applied here to Twist Road.
+- Excludes: a dash plate's course-supplied speed effect; rejecting boost
+  solely because energy is empty; a cooldown after a prior boost.
+- Parameters: current lap, completed first-lap boundary, boost input,
+  energy availability and eligibility transition.
+- Evidence: [F-Zero GX decomposition](../games/a-f/f-zero-gx.md), Nintendo's
+  original instruction booklet, official rules section 4-1.
+- Novelty: first isolated for `GAME-0384`; a race-progress milestone gates a
+  resource-backed command independently of the reserve's current amount.
+
+## CON-690 — Unsupported court challenges exhaust finite defense marks
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a penalised unsupported testimony/evidence challenge or
+  specified wrong court answer consumes one visible defense mark; once the
+  finite allowance is exhausted, the current trial ends with a guilty
+  verdict rather than allowing unlimited speculative objections.
+- Includes: the original DS first case's five visible exclamation marks and
+  guilty game over after enough wrong challenges.
+- Excludes: every ordinary statement press consuming a mark; a real-time
+  deadline; a reversible free undo; the later games' differently presented
+  court confidence systems.
+- Parameters: initial mark count, remaining count, penalised input classes,
+  decrement amount, zero threshold and reload boundary.
+- Evidence: [Phoenix Wright: Ace Attorney decomposition](../games/m-r/phoenix-wright-ace-attorney.md),
+  the contemporary original-DS GameSpot review and first-case written route.
+- Novelty: first isolated for `GAME-0385`; the court bounds the number of
+  unsupported claims without putting a clock on testimony reading.
+
+## CON-691 — Addressed world picture opens only after its pieces are placed
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a specific authored world entrance stays locked until the
+  player allocates available collected jigsaw pieces into every slot of its
+  addressed lair picture; an unfinished picture can release its placed pieces,
+  but a completed one settles the corresponding entrance opening.
+- Includes: placing two Jiggies into the Treasure Trove Cove picture after
+  reaching its pad, independently of the nearby 50-Note Door.
+- Excludes: checking a non-spendable best-score threshold (`CON-440`);
+  exact-shape tiling (`OBJ-048`); a single key automatically opening its
+  matching lock; merely holding enough pieces without placing them.
+- Parameters: picture, required slots, unallocated piece stock, placed count,
+  unfinished withdrawal, completion event and linked world entrance.
+- Evidence: [Banjo-Kazooie decomposition](../games/a-f/banjo-kazooie.md),
+  original Nintendo 64 manual pp. 16–19 and original-N64 lair route.
+- Novelty: first isolated for `GAME-0386`; collected pieces must be
+  deliberately allocated to one picture, unlike a Note Door's total check.

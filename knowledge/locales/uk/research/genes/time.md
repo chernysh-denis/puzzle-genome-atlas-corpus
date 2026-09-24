@@ -109,6 +109,8 @@
 - [`GAME-0036` — "Patrick’s Parabox"](../games/m-r/patricks-parabox.md)
 - [`GAME-0081` — Pearl](../games/m-r/pearl.md)
 - [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
+- [`GAME-0385` — 'Phoenix Wright: Ace Attorney'](../games/m-r/phoenix-wright-ace-attorney.md)
+- [`GAME-0380` — Professor Layton and the Curious Village](../games/m-r/professor-layton-and-the-curious-village.md)
 - [`GAME-0023` — Return of the Obra Dinn](../games/m-r/return-of-the-obra-dinn.md)
 - [`GAME-0002` — "Rubik’s Cube"](../games/m-r/rubiks-cube.md)
 - [`GAME-0063` — Rush Hour](../games/m-r/rush-hour.md)
@@ -164,6 +166,7 @@
 - [`GAME-0312` — ASTRO BOT](../games/a-f/astro-bot.md)
 - [`GAME-0027` — Bad North: Jotunn Edition](../games/a-f/bad-north.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
+- [`GAME-0386` — Banjo-Kazooie](../games/a-f/banjo-kazooie.md)
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0234` — Battlefield 2042](../games/a-f/battlefield-2042.md)
 - [`GAME-0149` — Battlefield 6](../games/a-f/battlefield-6.md)
@@ -227,6 +230,7 @@
 - [`GAME-0092` — Echochrome](../games/a-f/echochrome.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
+- [`GAME-0384` — F-Zero GX](../games/a-f/f-zero-gx.md)
 - [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0119` — Factorio](../games/a-f/factorio.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
@@ -244,6 +248,7 @@
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0167` — Geometry Dash](../games/g-l/geometry-dash.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
+- [`GAME-0381` — GoldenEye 007](../games/g-l/goldeneye-007.md)
 - [`GAME-0024` — Gorogoa](../games/g-l/gorogoa.md)
 - [`GAME-0316` — Gran Turismo](../games/g-l/gran-turismo.md)
 - [`GAME-0357` — "Grand Theft Auto: San Andreas"](../games/g-l/grand-theft-auto-san-andreas.md)
@@ -307,6 +312,7 @@
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0229` — "No Man’s Sky"](../games/m-r/no-mans-sky.md)
 - [`GAME-0296` — Noita](../games/m-r/noita.md)
+- [`GAME-0382` — Ōkami HD](../games/m-r/okami-hd.md)
 - [`GAME-0224` — Once Human](../games/m-r/once-human.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0105` — Outer Wilds](../games/m-r/outer-wilds.md)
@@ -369,6 +375,7 @@
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
+- [`GAME-0387` — Super Bomberman](../games/s-z/super-bomberman.md)
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
 - [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 - [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
@@ -389,6 +396,7 @@
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 - [`GAME-0087` — The Longest Journey](../games/s-z/the-longest-journey.md)
+- [`GAME-0383` — The Sims 2: Legacy Collection](../games/s-z/the-sims-2-legacy-collection.md)
 - [`GAME-0158` — The Sims 4](../games/s-z/the-sims-4.md)
 - [`GAME-0116` — The Stanley Parable: Ultra Deluxe](../games/s-z/the-stanley-parable-ultra-deluxe.md)
 - [`GAME-0038` — The Swapper](../games/s-z/the-swapper.md)
@@ -963,3 +971,24 @@ Stardew Valley позначає `Boiler Room` завершеною після з
 ### Ігри-носії
 
 - [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
+
+## TIM-028
+
+- Назва: Чергувати ходи команд після завершення руху снарядів
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Команди отримують виняткові вікна керування по черзі, доки спливає час ходу; після пострілу або завершення часу фізичний рух має припинитися, перш ніж почнеться вікно іншої команди.
+
+### Включає
+
+Локальні артилерійські ходи двох команд у Worms Armageddon.
+
+### Виключає
+
+Шаховий один дискретний хід за TIM-004, одночасне керування, рух обох команд у реальному часі й снаряд, що продовжує летіти під час рішення супротивника.
+
+### Ігри-носії
+
+- [`GAME-0379` — Worms Armageddon](../games/s-z/worms-armageddon.md)

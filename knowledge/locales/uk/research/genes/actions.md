@@ -215,6 +215,7 @@
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0312` — ASTRO BOT](../games/a-f/astro-bot.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
+- [`GAME-0386` — Banjo-Kazooie](../games/a-f/banjo-kazooie.md)
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0234` — Battlefield 2042](../games/a-f/battlefield-2042.md)
 - [`GAME-0149` — Battlefield 6](../games/a-f/battlefield-6.md)
@@ -281,6 +282,7 @@
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
+- [`GAME-0381` — GoldenEye 007](../games/g-l/goldeneye-007.md)
 - [`GAME-0357` — "Grand Theft Auto: San Andreas"](../games/g-l/grand-theft-auto-san-andreas.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0314` — Grounded](../games/g-l/grounded.md)
@@ -328,6 +330,7 @@
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0229` — "No Man’s Sky"](../games/m-r/no-mans-sky.md)
 - [`GAME-0296` — Noita](../games/m-r/noita.md)
+- [`GAME-0382` — Ōkami HD](../games/m-r/okami-hd.md)
 - [`GAME-0224` — Once Human](../games/m-r/once-human.md)
 - [`GAME-0117` — OneShot](../games/m-r/oneshot.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
@@ -384,6 +387,7 @@
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
+- [`GAME-0387` — Super Bomberman](../games/s-z/super-bomberman.md)
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
 - [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 - [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
@@ -419,6 +423,7 @@
 - [`GAME-0041` — Viewfinder](../games/s-z/viewfinder.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
+- [`GAME-0379` — Worms Armageddon](../games/s-z/worms-armageddon.md)
 
 ## ACT-009
 
@@ -3928,6 +3933,7 @@
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0312` — ASTRO BOT](../games/a-f/astro-bot.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
+- [`GAME-0386` — Banjo-Kazooie](../games/a-f/banjo-kazooie.md)
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0234` — Battlefield 2042](../games/a-f/battlefield-2042.md)
 - [`GAME-0149` — Battlefield 6](../games/a-f/battlefield-6.md)
@@ -3974,6 +3980,7 @@
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
+- [`GAME-0381` — GoldenEye 007](../games/g-l/goldeneye-007.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0314` — Grounded](../games/g-l/grounded.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
@@ -4006,6 +4013,7 @@
 - [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0296` — Noita](../games/m-r/noita.md)
+- [`GAME-0382` — Ōkami HD](../games/m-r/okami-hd.md)
 - [`GAME-0224` — Once Human](../games/m-r/once-human.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0181` — Overwatch](../games/m-r/overwatch.md)
@@ -4152,6 +4160,7 @@
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
+- [`GAME-0381` — GoldenEye 007](../games/g-l/goldeneye-007.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
@@ -5964,6 +5973,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
+- [`GAME-0385` — 'Phoenix Wright: Ace Attorney'](../games/m-r/phoenix-wright-ace-attorney.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 - [`GAME-0362` — "The Elder Scrolls III: Morrowind"](../games/s-z/the-elder-scrolls-iii-morrowind.md)
@@ -6475,6 +6485,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Ігри-носії
 
+- [`GAME-0383` — The Sims 2: Legacy Collection](../games/s-z/the-sims-2-legacy-collection.md)
 - [`GAME-0158` — The Sims 4](../games/s-z/the-sims-4.md)
 
 ## ACT-258
@@ -6752,6 +6763,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Ігри-носії
 
+- [`GAME-0387` — Super Bomberman](../games/s-z/super-bomberman.md)
 - [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 
@@ -7181,6 +7193,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 - [`GAME-0195` — BeamNG.drive](../games/a-f/beamng-drive.md)
 - [`GAME-0374` — Burnout Paradise](../games/a-f/burnout-paradise.md)
+- [`GAME-0384` — F-Zero GX](../games/a-f/f-zero-gx.md)
 - [`GAME-0276` — Forza Horizon 5](../games/a-f/forza-horizon-5.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0316` — Gran Turismo](../games/g-l/gran-turismo.md)
@@ -7237,6 +7250,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Ігри-носії
 
+- [`GAME-0384` — F-Zero GX](../games/a-f/f-zero-gx.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0309` — "Mario Kart 8 Deluxe"](../games/m-r/mario-kart-8-deluxe.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
@@ -7267,6 +7281,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
 - [`GAME-0374` — Burnout Paradise](../games/a-f/burnout-paradise.md)
+- [`GAME-0384` — F-Zero GX](../games/a-f/f-zero-gx.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0309` — "Mario Kart 8 Deluxe"](../games/m-r/mario-kart-8-deluxe.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
@@ -7629,6 +7644,7 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
 - [`GAME-0374` — Burnout Paradise](../games/a-f/burnout-paradise.md)
+- [`GAME-0384` — F-Zero GX](../games/a-f/f-zero-gx.md)
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
@@ -8323,6 +8339,7 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 - [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0320` — "Animal Crossing: New Horizons"](../games/a-f/animal-crossing-new-horizons.md)
 - [`GAME-0312` — ASTRO BOT](../games/a-f/astro-bot.md)
+- [`GAME-0386` — Banjo-Kazooie](../games/a-f/banjo-kazooie.md)
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0347` — "Castlevania: Symphony of the Night"](../games/a-f/castlevania-symphony-of-the-night.md)
@@ -8350,6 +8367,7 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 - [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
+- [`GAME-0381` — GoldenEye 007](../games/g-l/goldeneye-007.md)
 - [`GAME-0314` — Grounded](../games/g-l/grounded.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
@@ -8364,6 +8382,7 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
+- [`GAME-0382` — Ōkami HD](../games/m-r/okami-hd.md)
 - [`GAME-0224` — Once Human](../games/m-r/once-human.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
@@ -12155,3 +12174,171 @@ Sam Fisher підіймає непритомного охоронця, пере�
 ### Ігри-носії
 
 - [`GAME-0378` — Super Monkey Ball 2](../games/s-z/super-monkey-ball-2.md)
+
+## ACT-520
+
+- Назва: Прицілитися й вистрілити зброєю чергового черв’яка
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Протягом ходу своєї команди гравець обирає доступну зброю черв’яка, задає потрібні для неї кут, силу або час запалу з поточної позиції рухомого черв’яка, а потім робить один постріл для фізичного розв’язання.
+
+### Включає
+
+Прицілювання та постріл із базуки або гранати з налаштованими запалом і відскоком у дослідженому локальному матчі Worms Armageddon.
+
+### Виключає
+
+Нерухомий пусковий пристрій за ACT-113, кілька різних пострілів за один хід і безпосереднє керування снарядом після запуску.
+
+### Ігри-носії
+
+- [`GAME-0379` — Worms Armageddon](../games/s-z/worms-armageddon.md)
+
+## ACT-521
+
+- Назва: Обвести й підтвердити місце на малюнку
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+У загадці з малюнком гравець проводить замкнену лінію навколо однієї з можливих ділянок і окремо підтверджує вибране місце як відповідь для перевірки.
+
+### Включає
+
+Обведення стилусом потрібного села на початковій карті Professor Layton and the Curious Village та натискання кнопки підтвердження.
+
+### Виключає
+
+Змінну позначку-гіпотезу ACT-004, заповнення всієї сітки, вибір точки для пересування персонажа та дотик до екрана без підтвердження відповіді.
+
+### Ігри-носії
+
+- [`GAME-0380` — Professor Layton and the Curious Village](../games/m-r/professor-layton-and-the-curious-village.md)
+
+## ACT-522
+
+- Назва: Купити наступну підказку за монету
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Під час нерозв’язаної авторської загадки гравець свідомо витрачає одну наявну монету підказок, щоб відкрити наступне заздалегідь написане уточнення, не подаючи відповіді.
+
+### Включає
+
+Придбання наступної з трьох підказок до початкової загадки Professor Layton and the Curious Village.
+
+### Виключає
+
+Автоматичну навчальну пораду, пошук прихованої монети в сцені, купівлю стороннього предмета й відкриття всіх підказок одним платежем.
+
+### Ігри-носії
+
+- [`GAME-0380` — Professor Layton and the Curious Village](../games/m-r/professor-layton-and-the-curious-village.md)
+
+## ACT-523
+
+- Назва: Малювати мазок пензлем по ігровому світу
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Гравець відкриває окремий вид небесного пензля на поточний світ, проводить просторову лінію по видимому придатному об’єкту або прогалині й закриває цей вид, подаючи мазок на перевірку для дії вже вивченої техніки.
+
+### Включає
+
+Домалювання відсутньої частини Небесної ріки чи меча статуї Наґі та розрізання валуна, перегороди або ніжки плоду в дослідженому початку Ōkami HD.
+
+### Виключає
+
+Позначення відповіді в окремій загадці ACT-521, удар дзеркалом ACT-161, суто декоративний слід курсора й застосування ще не вивченої техніки.
+
+### Ігри-носії
+
+- [`GAME-0382` — Ōkami HD](../games/m-r/okami-hd.md)
+
+## ACT-524
+
+- Назва: Перемикати вибраного члена постійної сім’ї
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Гравець вибирає іншого мешканця тієї самої постійної сім’ї, якому адресує контекстні накази, а раніше вибраний мешканець залишається в будинку й продовжує діяти за правилами симуляції.
+
+### Включає
+
+Перемикання між двома дорослими в дослідженій сім’ї The Sims 2: Legacy Collection через портрети в режимі життя.
+
+### Виключає
+
+Заміну всієї сім’ї; безпосереднє керування кожним кроком персонажа ACT-228; вибір предмета без зміни активного мешканця.
+
+### Ігри-носії
+
+- [`GAME-0383` — The Sims 2: Legacy Collection](../games/s-z/the-sims-2-legacy-collection.md)
+
+## ACT-525
+
+- Назва: Завдати бічного або обертального удару гоночною машиною
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Безпосередньо керуючи машиною поблизу суперників, гравець виконує спрямований бічний удар або обертальну атаку, що при контакті може зрушити чи вибити іншу машину з заїзду.
+
+### Включає
+
+Бічні й обертальні атаки F-Zero GX у дослідженому першому заїзді Ruby Cup.
+
+### Виключає
+
+Звичайне зіткнення під час кермування; застосування випадково отриманого предмета; удар персонажа поза гоночною машиною.
+
+### Ігри-носії
+
+- [`GAME-0384` — F-Zero GX](../games/a-f/f-zero-gx.md)
+
+## ACT-526
+
+- Назва: Уточнювати вибраний рядок свідчень
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Під час перехресного допиту гравець вибирає доступний рядок підготовлених свідчень і просить свідка пояснити його, щоб отримати уточнення або, за потреби, змінений рядок.
+
+### Включає
+
+Запитання до вибраного твердження Френка Соуіта в першій справі Phoenix Wright: Ace Attorney.
+
+### Виключає
+
+Звичайне гортання діалогу; подання доказу проти рядка ACT-527; довільний допит поза свідченнями; припущення, що кожне запитання змінює матеріали справи.
+
+### Ігри-носії
+
+- [`GAME-0385` — 'Phoenix Wright: Ace Attorney'](../games/m-r/phoenix-wright-ace-attorney.md)
+
+## ACT-527
+
+- Назва: Подавати доказ проти вибраного рядка свідчень
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Коли вибрано рядок підготовлених свідчень, гравець бере один наявний матеріал справи й подає його до суду як доказ суперечності саме цьому твердженню.
+
+### Включає
+
+Подання звіту про розтин проти твердження Соуіта про час або запису про відключення електрики проти його слів про телевізор у першій справі.
+
+### Виключає
+
+Уточнення через запитання ACT-526; саме лише читання доказу; позначення двох змінних фактів в інтерфейсі перевірки ACT-104; особисте затвердження вироку для всієї справи ACT-105.
+
+### Ігри-носії
+
+- [`GAME-0385` — 'Phoenix Wright: Ace Attorney'](../games/m-r/phoenix-wright-ace-attorney.md)

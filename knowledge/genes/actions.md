@@ -10366,3 +10366,168 @@
   original GameCube manual p. 9 and publisher-supplied Nintendo description.
 - Novelty: first isolated for `GAME-0378`; the player controls field slope,
   while the ball responds through live physical motion.
+
+## ACT-520 — Aim and fire one weapon from the active worm
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during the active team's turn, select an available carried
+  weapon, set its relevant aim, charge or fuse controls from the current worm's
+  movable position, then commit one shot into physical resolution.
+- Includes: aiming and firing Bazooka or a fuse/bounce-configured Grenade in
+  the scoped Worms Armageddon offline artillery match.
+- Excludes: `ACT-113`'s fixed launcher; firing several unrelated weapons in
+  one turn; direct steering after a projectile is released.
+- Parameters: weapon, worm position, aim, power, fuse, bounce and shot input.
+- Evidence: [Worms Armageddon decomposition](../games/s-z/worms-armageddon.md),
+  Team17 manual pp. 6, 10, 12 and 15.
+- Novelty: first isolated for `GAME-0379`; a mobile scheduled unit commits
+  one of several physically resolved weapon settings.
+
+## ACT-521 — Circle and submit one pictured answer location
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: on an authored visual puzzle, trace a closed mark around one
+  candidate region in the supplied illustration and separately submit that
+  marked region as the answer for evaluation.
+- Includes: circling the selected village on the opening map and tapping
+  Submit in Professor Layton and the Curious Village.
+- Excludes: `ACT-004`'s revisable protective hypothesis mark; filling a whole
+  answer grid; selecting a world destination for avatar travel; a generic
+  screen tap without answer commitment.
+- Parameters: illustration, candidate region, circle recognition, submit
+  affordance and whether an unsubmitted mark may be edited.
+- Evidence: [Professor Layton and the Curious Village
+  decomposition](../games/m-r/professor-layton-and-the-curious-village.md),
+  Nintendo manual pp. 8–9 and corroborated first-puzzle walkthrough.
+- Novelty: first isolated for `GAME-0380`; one drawn spatial answer is
+  committed to a fixed authored puzzle, not to a mutable world map.
+
+## ACT-522 — Spend a hint coin to reveal the next puzzle clue
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: deliberately consume one available hint coin during an unsolved
+  authored puzzle to disclose its next fixed hint without submitting an answer.
+- Includes: buying the next of up to three hints for the scoped Professor
+  Layton opening puzzle.
+- Excludes: automatic tutorial advice; uncovering a hidden coin by scene
+  search; paying currency for an unrelated item; revealing all hints for one
+  payment.
+- Parameters: coin balance, hint ordinal, maximum hints, purchase input and
+  retained clue visibility.
+- Evidence: [Professor Layton and the Curious Village
+  decomposition](../games/m-r/professor-layton-and-the-curious-village.md),
+  Nintendo manual pp. 9–10.
+- Novelty: first isolated for `GAME-0380`; a finite currency is exchanged
+  directly for optional puzzle-specific information before answer commitment.
+
+## ACT-523 — Draw a world-addressed Celestial Brush stroke
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player opens a dedicated brush view of the current world,
+  traces a spatial mark over an eligible visible object or gap, and releases the
+  view to submit that mark for a learned technique's world-state effect.
+- Includes: filling the River of the Heavens or Nagi statue's missing sword
+  with a stroke and slashing the route boulder, gate or Kamiki fruit stalk in
+  the scoped Ōkami HD opening.
+- Excludes: drawing a static answer on a puzzle page (`ACT-521`); striking with
+  the equipped reflector (`ACT-161`); a purely decorative cursor trail; a
+  technique that has not yet been learned.
+- Parameters: view, stroke path and thickness, addressed region, learned
+  technique, release and recognition tolerance.
+- Evidence: [Ōkami HD decomposition](../games/m-r/okami-hd.md), Capcom's
+  original Ōkami manual pp. 12–13 and 16–17, corroborated by two PS4 routes.
+- Novelty: first isolated for `GAME-0382`; a drawn stroke addresses and
+  changes an embodied world's current object, not a detached answer canvas.
+
+## ACT-524 — Switch the selected member of a persistent household
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects another resident of the same persistent
+  household as the active recipient of contextual commands while the formerly
+  selected resident remains present and simulated.
+- Includes: switching between the two adults of the scoped The Sims 2:
+  Legacy Collection household by selecting their portraits in Live Mode.
+- Excludes: replacing the household; directly steering a protagonist's every
+  movement (`ACT-228`); selecting an object without changing the active actor.
+- Parameters: household roster, selected resident, portrait or selection
+  input, panel transfer, other-resident autonomy and continuity of world time.
+- Evidence: [The Sims 2: Legacy Collection decomposition](../games/s-z/the-sims-2-legacy-collection.md), EA's Legacy controls and original PC manual.
+- Novelty: first isolated for `GAME-0383`; household-member selection changes
+  command ownership without replacing or suspending the other resident.
+
+## ACT-525 — Request a side or spin attack from a racing machine
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while directly driving a competitive machine near rival craft,
+  the player commands a directional side strike or a rotating spin strike
+  whose contact can displace or eliminate rivals in the live race.
+- Includes: F-Zero GX's original GameCube side and spin attacks during the
+  scoped Twist Road Grand Prix race.
+- Excludes: merely colliding while steering; using a randomly acquired item;
+  a melee attack made by a character outside a racing machine.
+- Parameters: machine, attack type, lateral direction, contact window, target,
+  collision response and rival retirement.
+- Evidence: [F-Zero GX decomposition](../games/a-f/f-zero-gx.md), Nintendo's
+  original GameCube instruction booklet, controls and attack sections.
+- Novelty: first isolated for `GAME-0384`; the vehicle itself makes a
+  directly timed competitive strike without a carried item.
+
+## ACT-526 — Press one addressed witness statement for elaboration
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during a court cross-examination, the player selects one
+  currently addressable line of a witness's authored testimony and requests
+  its elaboration, potentially exposing a clarification or a revised line.
+- Includes: pressing a selected Frank Sahwit statement during The First
+  Turnabout in Phoenix Wright: Ace Attorney.
+- Excludes: advancing passive dialogue; presenting an evidence item against
+  the line (`ACT-527`); freely interrogating a character outside the
+  testimony interface; assuming every press changes the court record.
+- Parameters: witness, testimony version, addressed line, clarification,
+  optional revision and available press input.
+- Evidence: [Phoenix Wright: Ace Attorney decomposition](../games/m-r/phoenix-wright-ace-attorney.md),
+  the contemporary original-DS GameSpot review and first-case written route.
+- Novelty: first isolated for `GAME-0385`; the player requests more from a
+  specific revisitable testimony assertion before making an evidence claim.
+
+## ACT-527 — Present one case-record item against addressed testimony
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while one authored witness-statement line is selected, the
+  player chooses a currently available case-record item and submits it to
+  challenge that exact line as contradictory evidence.
+- Includes: presenting the autopsy report against Sahwit's time claim or
+  blackout record against his television account in The First Turnabout.
+- Excludes: pressing for elaboration (`ACT-526`); merely reading evidence;
+  highlighting two editable facts in an inspection interface (`ACT-104`);
+  personally stamping a whole-case verdict (`ACT-105`).
+- Parameters: addressed statement, evidence item, current record,
+  presentation input, authored accepted pair and wrong-item consequence.
+- Evidence: [Phoenix Wright: Ace Attorney decomposition](../games/m-r/phoenix-wright-ace-attorney.md),
+  the contemporary original-DS GameSpot review and first-case written route.
+- Novelty: first isolated for `GAME-0385`; evidence is a challenge to one
+  selected assertion within a witness's revisitable testimony.

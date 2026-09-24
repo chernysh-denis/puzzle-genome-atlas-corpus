@@ -1544,6 +1544,7 @@ Gorogoa забороняє безпосередньо крутити руків�
 - [`GAME-0025` — Lemmings](../games/g-l/lemmings.md)
 - [`GAME-0355` — Metroid Prime](../games/m-r/metroid-prime.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
+- [`GAME-0387` — Super Bomberman](../games/s-z/super-bomberman.md)
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
 - [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 - [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
@@ -7968,7 +7969,9 @@ Knox Infection у режимі Apocalypse Project Zomboid.
 ### Ігри-носії
 
 - [`GAME-0312` — ASTRO BOT](../games/a-f/astro-bot.md)
+- [`GAME-0386` — Banjo-Kazooie](../games/a-f/banjo-kazooie.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
+- [`GAME-0382` — Ōkami HD](../games/m-r/okami-hd.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 - [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
@@ -8015,6 +8018,7 @@ Bind за повної котушки, Silkspear і Needolin у Hollow Knight: S
 
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
+- [`GAME-0382` — Ōkami HD](../games/m-r/okami-hd.md)
 - [`GAME-0344` — "Prince of Persia: The Sands of Time"](../games/m-r/prince-of-persia-the-sands-of-time.md)
 
 ## CON-352
@@ -8587,6 +8591,7 @@ Mio та Zoe під керуванням двох локальних або ме
 
 ### Ігри-носії
 
+- [`GAME-0383` — The Sims 2: Legacy Collection](../games/s-z/the-sims-2-legacy-collection.md)
 - [`GAME-0158` — The Sims 4](../games/s-z/the-sims-4.md)
 
 ## CON-381
@@ -9077,6 +9082,7 @@ Reinforce у Helldivers 2 з живим викликувачем і одиниц
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 - [`GAME-0356` — Shadow of the Colossus](../games/s-z/shadow-of-the-colossus.md)
+- [`GAME-0387` — Super Bomberman](../games/s-z/super-bomberman.md)
 - [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
@@ -9850,6 +9856,7 @@ Echo Detector і Mold.
 
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
 - [`GAME-0195` — BeamNG.drive](../games/a-f/beamng-drive.md)
+- [`GAME-0384` — F-Zero GX](../games/a-f/f-zero-gx.md)
 - [`GAME-0276` — Forza Horizon 5](../games/a-f/forza-horizon-5.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0309` — "Mario Kart 8 Deluxe"](../games/m-r/mario-kart-8-deluxe.md)
@@ -9900,6 +9907,7 @@ Horizon Qualifiers після Tokyo City та Horizon Invitational після п
 
 ### Ігри-носії
 
+- [`GAME-0386` — Banjo-Kazooie](../games/a-f/banjo-kazooie.md)
 - [`GAME-0284` — "Cities: Skylines II"](../games/a-f/cities-skylines-ii.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
@@ -12824,6 +12832,7 @@ Scanner, Analysis Visor, Mining Beam, захист від середовища, 
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
+- [`GAME-0381` — GoldenEye 007](../games/g-l/goldeneye-007.md)
 - [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
 - [`GAME-0340` — "Halo: Combat Evolved Anniversary"](../games/g-l/halo-combat-evolved-anniversary.md)
 - [`GAME-0355` — Metroid Prime](../games/m-r/metroid-prime.md)
@@ -14937,3 +14946,129 @@ Free Skate без таймера; Speed Runs зі скиданням усіх ц
 ### Ігри-носії
 
 - [`GAME-0378` — Super Monkey Ball 2](../games/s-z/super-monkey-ball-2.md)
+
+## CON-686
+
+- Назва: Давати хід лише черговому черв’якові команди
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Коли ручний вибір черв’яка вимкнено, протягом обмеженого часу може пересуватися й використати один постріл лише черговий живий черв’як команди; сама ходьба не дозволяє замінити його іншим.
+
+### Включає
+
+Чергу без ручного вибору черв’яка й один постріл у дослідженому локальному матчі Worms Armageddon.
+
+### Виключає
+
+Ручний вибір будь-якого черв’яка своєї команди, спільний запас очок дій, одночасні накази та окремий постріл кожного черв’яка за один хід.
+
+### Ігри-носії
+
+- [`GAME-0379` — Worms Armageddon](../games/s-z/worms-armageddon.md)
+
+## CON-687
+
+- Назва: Для наступної підказки потрібна монета
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Наступна необов’язкова авторська підказка доступна лише тоді, коли ще є нерозкритий рівень підказок і принаймні одна монета; кожна купівля витрачає одну монету й відкриває лише наступний рівень.
+
+### Включає
+
+Три послідовні підказки до початкової загадки Professor Layton за наявності монет.
+
+### Виключає
+
+Безкоштовне автоматичне відкриття, нескінченні підказки, доступ до третьої підказки перед першою й оплату підказок пікаратами.
+
+### Ігри-носії
+
+- [`GAME-0380` — Professor Layton and the Curious Village](../games/m-r/professor-layton-and-the-curious-village.md)
+
+## CON-688
+
+- Назва: Ранній вихід завершує місію з незакритими цілями
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Досяжний вихід із місії може завершити спробу ще до виконання всіх обов’язкових цілей; підсумок оцінює незакриті завдання як невдачу, а не фізично блокує вихід.
+
+### Включає
+
+Стрибок із платформи Dam у GoldenEye 007 на Secret Agent, якщо не знищено всі чотири сигналізації.
+
+### Виключає
+
+Замкнений до виконання завдань вихід CON-593, пропущений необов’язковий бонус, переривання через меню та загибель до виходу.
+
+### Ігри-носії
+
+- [`GAME-0381` — GoldenEye 007](../games/g-l/goldeneye-007.md)
+
+## CON-689
+
+- Назва: Дозволяти ручне прискорення лише після першого кола
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Ручна команда прискорення недопустима протягом усього першого кола й стає доступною тільки після його завершення, навіть коли машина має достатній запас енергії.
+
+### Включає
+
+Заборону ручного прискорення на першому колі за офіційними правилами F-Zero GX, застосовану до Twist Road.
+
+### Виключає
+
+Швидкісну плиту, що діє від контакту з трасою; відмову через брак енергії; затримку повторної команди після попереднього прискорення.
+
+### Ігри-носії
+
+- [`GAME-0384` — F-Zero GX](../games/a-f/f-zero-gx.md)
+
+## CON-690
+
+- Назва: Обмежувати необґрунтовані заперечення позначками захисту
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Необґрунтоване заперечення проти свідчення або визначена хибна відповідь забирає одну видиму позначку захисту; коли скінченний запас вичерпано, поточне засідання закінчується обвинувальним вироком, а не дозволяє безмежно вгадувати.
+
+### Включає
+
+П’ять видимих знаків оклику в оригінальній версії для DS і завершення першої справи після достатньої кількості хибних заперечень.
+
+### Виключає
+
+Витрату позначки за кожне звичайне уточнення свідчень; обмеження реальним часом; безкоштовне скасування витрати; інше оформлення довіри суду в пізніших іграх.
+
+### Ігри-носії
+
+- [`GAME-0385` — 'Phoenix Wright: Ace Attorney'](../games/m-r/phoenix-wright-ace-attorney.md)
+
+## CON-691
+
+- Назва: Відкривати світ лише після заповнення його пазла
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Вхід до визначеного світу лишається замкненим, доки гравець не вкладе зібрані вільні деталі в усі комірки відповідного зображення в лігві. Із незавершеного пазла деталі можна вийняти; завершений відкриває пов’язаний вхід.
+
+### Включає
+
+Вкладання двох деталей пазла до зображення Treasure Trove Cove окремо від перевірки 50 нот найближчими дверима.
+
+### Виключає
+
+Перевірку найкращого результату нот без витрати CON-440; складання геометричних фігур OBJ-048; ключ, що сам відкриває свій замок; саме лише володіння достатньою кількістю деталей.
+
+### Ігри-носії
+
+- [`GAME-0386` — Banjo-Kazooie](../games/a-f/banjo-kazooie.md)

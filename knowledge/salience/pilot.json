@@ -8804,6 +8804,78 @@
       "defining": ["ACT-519", "SYS-1028", "OBJ-220"],
       "structural": ["SYS-037", "SYS-1029", "CON-685"],
       "supporting": ["CON-068", "INF-385", "TIM-003"]
+    },
+    "GAME-0379": {
+      "reviewed": "2026-09-24",
+      "noteEn": "A mobile worm's aimed shot, ballistic blast, mutable ground and a last-team-standing result define this configured PC artillery match. Wind, drowning, rising water and a scheduled single worm make position and timing consequential. Direct walking, battle HUD and timed team windows support the complete manual-bounded packet; no executable match was observed.",
+      "noteUk": "Прицільний постріл рухомого черв’яка, вибух, змінний ґрунт і перемога останньої живої команди визначають цей налаштований артилерійський матч для PC. Вітер, утоплення, підйом води й фіксована черга черв’яків роблять позицію та час важливими. Пряме пересування, екран бою й обмежені часом командні ходи підтримують повний пакет за посібником; виконуваного матчу не спостерігали.",
+      "defining": ["ACT-520", "SYS-324", "SYS-1030", "OBJ-221"],
+      "structural": ["SYS-146", "SYS-1031", "SYS-1032", "SYS-1033", "CON-686", "TIM-028"],
+      "supporting": ["ACT-008", "INF-386"]
+    },
+    "GAME-0380": {
+      "reviewed": "2026-09-24",
+      "noteEn": "Circling one map answer and submitting it to a fixed authored validator opens the opening story route. Optional coin-priced hints and retry-sensitive picarats change the cost of uncertainty. The disclosed prompt and self-paced puzzle timing support this Nintendo-manual packet; no cartridge was played.",
+      "noteUk": "Гравець обводить одне село на карті й подає відповідь на перевірку, щоб відкрити початковий сюжетний шлях. Необов’язкові підказки за монети й зменшення пікаратів після помилки визначають ціну невпевненості. Видима умова й спокійний темп підтримують цей пакет за посібником Nintendo; гри з картриджа не проводили.",
+      "defining": ["ACT-521", "SYS-1034", "OBJ-222"],
+      "structural": ["ACT-522", "SYS-1035", "CON-687"],
+      "supporting": ["INF-387", "TIM-002"]
+    },
+    "GAME-0381": {
+      "reviewed": "2026-09-24",
+      "noteEn": "The four declared alarm targets, inspectable mission checklist and non-blocking departure whose result depends on unfinished objectives define Secret Agent Dam. Direct movement, aimed fire, ammunition, local guard response, life and real-time combat support the source-bounded N64 packet; no game build was played.",
+      "noteUk": "Чотири визначені сигналізації, доступний для перегляду перелік цілей і стрибок, результат якого залежить від незакритих завдань, визначають Dam на Secret Agent. Прямий рух, прицільна стрільба, набої, реакція охоронців, здоров’я та бій у реальному часі підтримують цей пакет за джерелами про Nintendo 64; жодної збірки гри не запускали.",
+      "defining": ["CON-688", "INF-388", "OBJ-223"],
+      "structural": ["ACT-161", "SYS-057", "SYS-215", "CON-578"],
+      "supporting": ["ACT-008", "ACT-164", "ACT-341", "SYS-222", "SYS-578", "INF-115", "INF-119", "TIM-003"]
+    },
+    "GAME-0382": {
+      "reviewed": "2026-09-24",
+      "noteEn": "A world-addressed brush mark, learned-pattern interpretation, authored geometry repair and constellation-earned techniques define this route to Kamiki's restorative fruit. Direct traversal, reflector combat, personal health, ink and live encounters support the PS4 source-bounded packet; no game build was played.",
+      "noteUk": "Мазок пензлем по світу, тлумачення вивченої форми, відновлення заданої геометрії та здобуття технік через сузір’я визначають шлях до плоду, що відроджує Камікі. Пряме пересування, бій дзеркалом, здоров’я, чорнило й сутички в реальному часі підтримують цей пакет за джерелами для PS4; збірку гри не запускали.",
+      "defining": ["ACT-523", "SYS-1036", "SYS-1037", "SYS-1038", "OBJ-224"],
+      "structural": ["ACT-161", "SYS-215", "SYS-755", "CON-349", "CON-351"],
+      "supporting": ["ACT-008", "ACT-341", "SYS-578", "INF-119", "INF-372", "TIM-003"]
+    },
+    "GAME-0383": {
+      "reviewed": "2026-09-24",
+      "noteEn": "Persistent household switching and a visible Want/Fear aspiration loop define this bounded two-adult day. Contextual direction, changing needs, autonomous queues and interaction eligibility structure it; personal state, relationships and the live clock support it. EA's Legacy controls and original manual bound the reconstruction; no Legacy build was played.",
+      "noteUk": "Перемикання між постійними мешканцями та цикл видимих бажань і страхів із прагненням визначають досліджений день двох дорослих. Контекстні накази, зміна потреб, черги самостійних дій та допустимість взаємодій формують його; особистий стан, стосунки й плин часу підтримують. Реконструкція спирається на довідку до перевидання та оригінальний посібник EA; збірку гри не запускали.",
+      "defining": ["ACT-524", "SYS-1039", "INF-389", "OBJ-225"],
+      "structural": ["ACT-257", "SYS-431", "SYS-432", "CON-380", "INF-168"],
+      "supporting": ["SYS-205", "INF-072", "TIM-003"]
+    },
+    "GAME-0384": {
+      "reviewed": "2026-09-24",
+      "noteEn": "Shared boost/survival energy, the first-lap gate, direct rival attacks and a first-race-only scored terminal distinguish this GameCube Grand Prix packet. Direct steering, AI field, three-lap validation and live energy/place feedback structure it; Novice setup and real-time results support it. The original Nintendo manual bounds this source reconstruction; no disc was played.",
+      "noteUk": "Спільна енергія для прискорення й захисту, заборона бусту на першому колі, прямі атаки суперників і очки лише першого заїзду визначають цей пакет Grand Prix для GameCube. Кермування, рух 29 суперників, перевірка трьох кіл та показ енергії й місця формують його; налаштування Novice й підсумок підтримують. Реконструкція спирається на оригінальний посібник Nintendo; гри з диска не проводили.",
+      "defining": ["ACT-525", "SYS-1040", "CON-689", "INF-390", "OBJ-226"],
+      "structural": ["ACT-290", "ACT-309", "SYS-320", "SYS-515", "SYS-516", "CON-438", "INF-205"],
+      "supporting": ["ACT-292", "ACT-293", "SYS-691", "INF-208", "TIM-003"]
+    },
+    "GAME-0385": {
+      "reviewed": "2026-09-24",
+      "noteEn": "Addressing testimony with a press or a record item, advancing authored accounts, and surviving finite unsupported objections define this original-DS first trial. Visible testimony lines and the changing Court Record structure the deduction; offered responses and self-paced reading support it. No cartridge was played.",
+      "noteUk": "Запитання до вибраного рядка свідчень або подання матеріалу проти нього, зміна підготовлених пояснень і обмеження хибних заперечень визначають перший суд оригінального видання для DS. Видимі рядки й матеріали справи формують пошук суперечностей; запропоновані відповіді та читання без поспіху підтримують його. Картридж не запускали.",
+      "defining": ["ACT-526", "ACT-527", "SYS-1041", "CON-690", "OBJ-227"],
+      "structural": ["INF-391", "INF-392"],
+      "supporting": ["ACT-232", "TIM-002"]
+    },
+    "GAME-0386": {
+      "reviewed": "2026-09-24",
+      "noteEn": "A purchased temporary termite body, original-N64 best-Note reset and separate Note/picture gates define this first-world route. Learned abilities, a five-Jinjo reward and live movement structure it; health, Bottles instructions and visible totals support it. No cartridge was played.",
+      "noteUk": "Оплачене тимчасове перетворення на терміта, збереження найкращого результату нот за правилами оригінальної N64 та різні двері для нот і деталей пазла визначають перший маршрут. Вивчені прийоми, нагорода за п’ятьох джинджо й рух у реальному часі формують його; здоров’я, поради Боттлза та видимі підсумки підтримують. Картридж не запускали.",
+      "defining": ["SYS-1042", "SYS-1043", "SYS-1044", "CON-691", "OBJ-228"],
+      "structural": ["ACT-008", "ACT-341", "SYS-037", "SYS-398", "CON-349", "CON-440", "INF-207"],
+      "supporting": ["ACT-161", "SYS-036", "SYS-578", "INF-268", "TIM-003"]
+    },
+    "GAME-0387": {
+      "reviewed": "2026-09-24",
+      "noteEn": "Timed bomb placement, obstacle-stopped cardinal blasts, destructible concealment and the enemy-clear exit define the first-stage packet. Contact pickups, autonomous enemies, recoverable life loss and the live deadline structure it. No cartridge was played.",
+      "noteUk": "Перший рівень визначають закладання бомби із затримкою, прямі вибухи, які зупиняють перешкоди, крихкі блоки зі схованим вмістом і вихід після усунення ворогів. Підбирання предметів, самостійний рух ворогів, скінченні життя й таймер формують решту циклу. Картридж не запускали.",
+      "defining": ["ACT-270", "SYS-1045", "SYS-755", "CON-402", "OBJ-164"],
+      "structural": ["ACT-008", "SYS-470", "SYS-045", "CON-068", "OBJ-007"],
+      "supporting": ["SYS-037", "SYS-911", "INF-179", "TIM-003"]
     }
   }
 }

@@ -1736,6 +1736,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
 - [`GAME-0127` — RimWorld](../games/m-r/rimworld.md)
 - [`GAME-0335` — RollerCoaster Tycoon Deluxe](../games/m-r/rollercoaster-tycoon-deluxe.md)
+- [`GAME-0383` — The Sims 2: Legacy Collection](../games/s-z/the-sims-2-legacy-collection.md)
 - [`GAME-0158` — The Sims 4](../games/s-z/the-sims-4.md)
 - [`GAME-0370` — Theme Hospital](../games/s-z/theme-hospital.md)
 
@@ -2770,6 +2771,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
+- [`GAME-0381` — GoldenEye 007](../games/g-l/goldeneye-007.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
@@ -2992,6 +2994,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
+- [`GAME-0381` — GoldenEye 007](../games/g-l/goldeneye-007.md)
 - [`GAME-0357` — "Grand Theft Auto: San Andreas"](../games/g-l/grand-theft-auto-san-andreas.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
@@ -3021,6 +3024,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0296` — Noita](../games/m-r/noita.md)
+- [`GAME-0382` — Ōkami HD](../games/m-r/okami-hd.md)
 - [`GAME-0224` — Once Human](../games/m-r/once-human.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0181` — Overwatch](../games/m-r/overwatch.md)
@@ -4248,11 +4252,11 @@ Today's Theme («Сьогоднішня тема»), збережені шлях
 
 ### Операційне визначення
 
-Інтерфейс у реальному часі показує поточні рівні потреб, провідну емоцію та впорядковані або виконувані взаємодії активного мешканця, щоб гравець міг пояснити поведінку й змінити найближчі накази.
+Інтерфейс у реальному часі показує поточні рівні потреб, настрій або емоційний стан та впорядковані або виконувані взаємодії активного мешканця, щоб гравець міг пояснити поведінку й змінити найближчі накази.
 
 ### Включає
 
-Панель потреб, емоційний стан і видиму чергу взаємодій Farrah Nouvel у режимі Live Mode The Sims 4.
+Панель потреб, емоційний стан і видиму чергу взаємодій Farrah Nouvel у Live Mode The Sims 4; потреби, настрій і чергу дій вибраного мешканця The Sims 2.
 
 ### Виключає
 
@@ -4260,6 +4264,7 @@ Today's Theme («Сьогоднішня тема»), збережені шлях
 
 ### Ігри-носії
 
+- [`GAME-0383` — The Sims 2: Legacy Collection](../games/s-z/the-sims-2-legacy-collection.md)
 - [`GAME-0158` — The Sims 4](../games/s-z/the-sims-4.md)
 
 ## INF-169
@@ -4497,6 +4502,7 @@ Rank Z, 1 000 Ticket Points, Challenger's Ticket і Zach у Pokémon Legends: Z-
 - [`GAME-0346` — Chrono Trigger](../games/a-f/chrono-trigger.md)
 - [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
+- [`GAME-0387` — Super Bomberman](../games/s-z/super-bomberman.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 - [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
@@ -5073,6 +5079,7 @@ Echo Detector у двох досліджених пошуках.
 
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
 - [`GAME-0195` — BeamNG.drive](../games/a-f/beamng-drive.md)
+- [`GAME-0384` — F-Zero GX](../games/a-f/f-zero-gx.md)
 - [`GAME-0276` — Forza Horizon 5](../games/a-f/forza-horizon-5.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0316` — Gran Turismo](../games/g-l/gran-turismo.md)
@@ -5131,6 +5138,7 @@ Echo Detector у двох досліджених пошуках.
 
 ### Ігри-носії
 
+- [`GAME-0386` — Banjo-Kazooie](../games/a-f/banjo-kazooie.md)
 - [`GAME-0284` — "Cities: Skylines II"](../games/a-f/cities-skylines-ii.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
@@ -5155,6 +5163,7 @@ Echo Detector у двох досліджених пошуках.
 ### Ігри-носії
 
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
+- [`GAME-0384` — F-Zero GX](../games/a-f/f-zero-gx.md)
 - [`GAME-0276` — Forza Horizon 5](../games/a-f/forza-horizon-5.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0309` — "Mario Kart 8 Deluxe"](../games/m-r/mario-kart-8-deluxe.md)
@@ -6451,6 +6460,7 @@ Burst Nitrous, рівень уваги, погоня, пошук і стан г�
 ### Ігри-носії
 
 - [`GAME-0223` — Aion Classic](../games/a-f/aion-classic.md)
+- [`GAME-0386` — Banjo-Kazooie](../games/a-f/banjo-kazooie.md)
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
@@ -8643,6 +8653,7 @@ Scan Visor протягом обмеженого вступу на Frigate Orphe
 
 ### Ігри-носії
 
+- [`GAME-0382` — Ōkami HD](../games/m-r/okami-hd.md)
 - [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 
 ## INF-373
@@ -8917,3 +8928,150 @@ Scan Visor протягом обмеженого вступу на Frigate Orphe
 ### Ігри-носії
 
 - [`GAME-0378` — Super Monkey Ball 2](../games/s-z/super-monkey-ball-2.md)
+
+## INF-386
+
+- Назва: Бачити здоров’я черв’яків, рельєф, вітер і час ходу
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Екран матчу показує чергового черв’яка й змінений ґрунт, здоров’я окремих черв’яків і команд, залишок часу ходу та поточні напрям і силу вітру, але не гарантує точної майбутньої траєкторії пострілу.
+
+### Включає
+
+Екран бою в дослідженому матчі Worms Armageddon для PC.
+
+### Виключає
+
+Безпомилкову лінію польоту снаряда, майбутні значення вітру, ранг кампанії та мережевий чат.
+
+### Ігри-носії
+
+- [`GAME-0379` — Worms Armageddon](../games/s-z/worms-armageddon.md)
+
+## INF-387
+
+- Назва: Бачити умову, карту, винагороду й відкриті підказки
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Авторська загадка показує незмінну умову, можливі місця відповіді на малюнку та поточну доступну нагороду в пікаратах; куплені підказки з’являються послідовно, але правильне місце до розв’язання не позначається.
+
+### Включає
+
+Початкову карту сіл у Professor Layton з умовою й необов’язковими підказками.
+
+### Виключає
+
+Підсвічування правильної відповіді до подання, невідому майбутню випадкову загадку й дослідження сцени за межами цього питання.
+
+### Ігри-носії
+
+- [`GAME-0380` — Professor Layton and the Curious Village](../games/m-r/professor-layton-and-the-curious-village.md)
+
+## INF-388
+
+- Назва: Бачити перелік цілей місії та їхній стан
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Передмісійний інструктаж і доступний під час гри екран стану показують скінченний перелік обов’язкових завдань та їх виконання окремо від місцевого бою, здоров’я й набоїв.
+
+### Включає
+
+Інструктаж і годинник Q у GoldenEye 007 для цілей Dam на Secret Agent.
+
+### Виключає
+
+Позначку шляху до кожної сигналізації, повну карту охоронців, приховане завдання й самі лише показники здоров’я або набоїв INF-119.
+
+### Ігри-носії
+
+- [`GAME-0381` — GoldenEye 007](../games/g-l/goldeneye-007.md)
+
+## INF-389
+
+- Назва: Показувати поточні бажання, страхи й прагнення
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Інтерфейс вибраного мешканця показує актуальні бажання і страхи, стан прагнення та відгук про нагороду, щоб гравець міг обрати видиму мету й помітити результат її здійснення або справдження страху.
+
+### Включає
+
+Значки поточних бажань і страхів та шкалу прагнення мешканця під час дослідженого дня в The Sims 2: Legacy Collection.
+
+### Виключає
+
+Лише шкали потреб і чергу дій INF-168; незмінний перелік цілей авторського сценарію INF-067; однакову кількість значків у всіх виданнях.
+
+### Ігри-носії
+
+- [`GAME-0383` — The Sims 2: Legacy Collection](../games/s-z/the-sims-2-legacy-collection.md)
+
+## INF-390
+
+- Назва: Показувати спільну енергію та доступність прискорення
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Під час заїзду інтерфейс показує поточний спільний запас енергії машини й видиму зміну після першого кола, яка повідомляє, що ручне прискорення стало доступним.
+
+### Включає
+
+Шкалу енергії F-Zero GX, що змінює колір із червоного на райдужний після першого кола Twist Road.
+
+### Виключає
+
+Лише місце в заїзді й наближення суперників INF-205; шкалу прискорення, не пов’язану з пошкодженнями; точні приховані коефіцієнти втрати енергії.
+
+### Ігри-носії
+
+- [`GAME-0384` — F-Zero GX](../games/a-f/f-zero-gx.md)
+
+## INF-391
+
+- Назва: Переглядати матеріали й учасників поточної справи
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Судовий інтерфейс дає переглядати й повторно відкривати описи доступних доказів та відомості про учасників поточної справи; заздалегідь визначені події можуть додати або змінити записи перед наступними запереченнями.
+
+### Включає
+
+Матеріали першої справи для DS: звіт про розтин, запис про відключення електрики, статуетку-годинник, паспорт і відомості про учасників у міру їх появи.
+
+### Виключає
+
+Незмінну картину минулого з покажчиком сцен INF-012; необмежений пошук зовнішніх документів; гарантію, що кожен запис придатний проти вибраного рядка свідчень.
+
+### Ігри-носії
+
+- [`GAME-0385` — 'Phoenix Wright: Ace Attorney'](../games/m-r/phoenix-wright-ace-attorney.md)
+
+## INF-392
+
+- Назва: Показувати окремі доступні рядки свідчень
+- Переглянуто: `2026-09-24`
+
+### Операційне визначення
+
+Після викладу підготовлених свідчень інтерфейс перехресного допиту показує окремі твердження як рядки, між якими можна переходити в обидва боки та вибирати для уточнення чи подання доказу, доки цю версію свідчень не змінено.
+
+### Включає
+
+Перегляд тверджень Френка Соуіта в першій справі перед вибором рядка для запитання або заперечення.
+
+### Виключає
+
+Діалог, який можна лише послідовно прогортати; згенерований текст розмови; подання старої версії свідчень як чинної після її зміни.
+
+### Ігри-носії
+
+- [`GAME-0385` — 'Phoenix Wright: Ace Attorney'](../games/m-r/phoenix-wright-ace-attorney.md)

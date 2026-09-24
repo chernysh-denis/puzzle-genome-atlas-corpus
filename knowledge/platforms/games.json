@@ -23619,6 +23619,131 @@
         "checked": null
       },
       "releases": []
+    },
+    "GAME-0379": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Team17-manual Windows PC Worms Armageddon; configured non-network two-team one-round artillery match",
+        "editionUk": "Worms Armageddon для Windows PC за посібником Team17: налаштований локальний артилерійський матч двох команд в один раунд",
+        "version": "Team17-authored English PC manual revised 2002; exact disc, executable build and region not inspected",
+        "distribution": "Original PC rules represented by the publisher manual, not a console remaster or online scheme",
+        "evidenceUrl": "https://www.team17.com/games/worms-armageddon",
+        "checked": "2026-09-24"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0380": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-DS",
+        "edition": "Original North American English Nintendo DS Professor Layton and the Curious Village; opening puzzle 001 Where's the Town?",
+        "editionUk": "Оригінальне північноамериканське англомовне видання Professor Layton and the Curious Village для Nintendo DS: початкова загадка 001 «Де місто?»",
+        "version": "Nintendo-authored original DS booklet 64327A; exact cartridge and executable build not inspected",
+        "distribution": "Original Nintendo DS Game Card, not mobile HD remaster or later Layton edition",
+        "evidenceUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-DS/Professor-Layton-and-the-Curious-Village-272563.html",
+        "checked": "2026-09-24"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0381": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH",
+        "edition": "Original 1997 English Nintendo 64 GoldenEye 007 rules in licensed Nintendo 64 Classics via Nintendo Switch Online + Expansion Pack; fresh Secret Agent Dam through mission-result settlement",
+        "editionUk": "Оригінальні англомовні правила GoldenEye 007 1997 року для Nintendo 64 у ліцензованій бібліотеці Nintendo 64 Classics за підпискою Nintendo Switch Online + Expansion Pack; нова спроба Dam на Secret Agent до підсумку місії",
+        "version": "Original Nintendo 64 rulebook and Nintendo Classics availability; installed wrapper build and cartridge bytes not inspected",
+        "distribution": "Licensed Nintendo 64 Classics on Switch; not an inspected original cartridge, Xbox rerelease, multiplayer or claimed direct-play session",
+        "evidenceUrl": "https://www.nintendo.com/en-ca/whatsnew/goldeneye-007-returns-for-nintendo-switch-online-expansion-pack-members/",
+        "checked": "2026-09-24"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0382": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-4",
+        "edition": "English-language 2017 Capcom PS4 Ōkami HD; fresh opening from first control at cursed Kamiki tree to fruit-cut village-landscape restoration",
+        "editionUk": "Англомовна Ōkami HD від Capcom для PlayStation 4 2017 року: початок від першого керування біля проклятого дерева Камікі до зрізання плоду й відновлення краєвиду села",
+        "version": "PS4 release identity verified by publisher listing; installed binary and patch number not inspected; original PS2 manual used only for general rules corroborated by PS4 routes",
+        "distribution": "Licensed PS4 product; no disc, install, direct-play trace or remaster-specific rule difference claimed",
+        "evidenceUrl": "https://store.playstation.com/en-us/product/UP0102-CUSA08418_00-OKAMIHD000000001",
+        "checked": "2026-09-24"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0383": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "2025 English-language Windows 10/11 The Sims 2: Legacy Collection, two-adult occupied-home Live Mode day from 08:00 to the next 08:00",
+        "editionUk": "Англомовна The Sims 2: Legacy Collection 2025 року для Windows 10/11: день у житловому будинку з двома дорослими від 08:00 до наступної 08:00",
+        "version": "EA Legacy Collection reissue with bundled expansions; no installed binary, patch identity or direct-play trace inspected; original EA manual transferred only for common core Live Mode rules",
+        "distribution": "Licensed EA Windows PC reissue; no pack-free executable or unchanged 2004 numeric tuning claimed",
+        "evidenceUrl": "https://www.ea.com/en-au/games/the-sims/amp/news/the-birthday-bundle",
+        "checked": "2026-09-24"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0384": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-GAMECUBE",
+        "edition": "Original English PAL GameCube F-Zero GX, offline Novice Ruby Cup, first Mute City: Twist Road race only",
+        "editionUk": "Оригінальна англомовна європейська F-Zero GX для GameCube: перший заїзд Mute City: Twist Road кубка Ruby на складності Novice",
+        "version": "Original 2003 PAL GameCube disc rules from Nintendo booklet; exact disc revision and direct-play trace not inspected",
+        "distribution": "Original licensed GameCube disc; no emulated image, later rerelease or AX arcade transfer assessed",
+        "evidenceUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-GameCube/F-Zero-GX-267972.html",
+        "checked": "2026-09-24"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0385": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-DS",
+        "edition": "Original North American English Nintendo DS Phoenix Wright: Ace Attorney, first case The First Turnabout from opening to Larry Butz's verdict",
+        "editionUk": "Оригінальне північноамериканське англомовне видання Phoenix Wright: Ace Attorney для Nintendo DS: перша справа The First Turnabout від початку до вироку Ларрі Батза",
+        "version": "Original 2005 DS Game Card rules; exact cartridge revision, installed executable and direct-play trace not inspected",
+        "distribution": "Licensed original Nintendo DS Game Card; later Trilogy, mobile versions and DS fifth-case forensic mechanics excluded",
+        "evidenceUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-DS/Phoenix-Wright-Ace-Attorney-272222.html",
+        "checked": "2026-09-24"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0386": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH",
+        "edition": "Original 1998 North American English Nintendo 64 Banjo-Kazooie rules represented in licensed Nintendo 64 – Nintendo Switch Online; first Mumbo's Mountain visit through opening the Treasure Trove Cove entrance",
+        "editionUk": "Правила оригінальної північноамериканської англомовної Banjo-Kazooie 1998 року для Nintendo 64 у ліцензованій Nintendo 64 – Nintendo Switch Online: перший візит до Mumbo's Mountain до відкриття входу в Treasure Trove Cove",
+        "version": "Original N64 manual and original-N64 written routes; installed Nintendo Classics wrapper build, exact emulated ROM revision and direct play not inspected",
+        "distribution": "Licensed Nintendo Switch Online + Expansion Pack N64 Classics application; not an inspected cartridge, Xbox remaster or native port",
+        "evidenceUrl": "https://www.nintendo.com/en-ca/whatsnew/banjo-kazooie-arrives-on-nintendo-switch-online-expansion-pack-today-with-the-legend-of-zelda-majoras-mask-up-next/",
+        "checked": "2026-09-24"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0387": {
+      "analysisTarget": {
+        "platformId": "PLAT-SUPER-NINTENDO",
+        "edition": "Original English PAL UK Super Nintendo Super Bomberman, one-player Normal Game stage 1-1",
+        "editionUk": "Оригінальна англомовна британська PAL-версія Super Bomberman для Super Nintendo: перший рівень 1-1 однокористувацького Normal Game",
+        "version": "Original 1993 SNES cartridge rules from its UK booklet; cartridge revision, executable and direct play not inspected",
+        "distribution": "Original UK PAL Super Nintendo cartridge; official Collection link is a separate licensed destination, not the analysed ruleset",
+        "evidenceUrl": "https://www.retrogames.cz/manualy/SNES/Super_Bomberman_-_SNES_-_Manual.pdf",
+        "checked": "2026-09-24"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
     }
   }
 }

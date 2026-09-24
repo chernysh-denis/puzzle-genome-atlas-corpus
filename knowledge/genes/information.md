@@ -3313,15 +3313,17 @@
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: the live interface exposes the active resident's current motive
-  levels, dominant emotion and ordered or executing interactions so the player
+  levels, mood or emotional state and ordered or executing interactions so the player
   can attribute behaviour and revise near-term direction.
 - Includes: The Sims 4 Live Mode needs panel, emotional state and visible
-  interaction queue for Farrah Nouvel.
+  interaction queue for Farrah Nouvel; The Sims 2 motive, mood and queued
+  interaction display for the selected household resident.
 - Excludes: a colony aggregate; a biography-only profile; hidden exact future
   autonomy choices or relationship outcomes.
 - Parameters: motive categories, value resolution, mood label, contributing
   modifiers, queue order, cancellation affordance and failed-action feedback.
-- Evidence: [The Sims 4 decomposition](../games/s-z/the-sims-4.md).
+- Evidence: [The Sims 4 decomposition](../games/s-z/the-sims-4.md) and
+  [The Sims 2: Legacy Collection decomposition](../games/s-z/the-sims-2-legacy-collection.md).
 - Novelty: not assessed.
 
 ## INF-169 — Debrief separates mission, extraction and shared-war results
@@ -7769,3 +7771,145 @@
   original GameCube manual p. 9.
 - Novelty: first isolated for `GAME-0378`; the interface joins a physical
   rolling-state cue with the live goal deadline and optional score economy.
+
+## INF-386 — Show worm energy, terrain, wind and turn time
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the match display reveals the current worm and altered ground,
+  individual and team energy, remaining turn time and current wind direction
+  and strength, without promising an exact future impact solution.
+- Includes: the battle view in the scoped Worms Armageddon PC match.
+- Excludes: an omniscient ballistic trajectory, secret future wind values,
+  campaign rank or network chat.
+- Parameters: camera region, worm label, energy bars, turn indicator, round
+  indicator option and wind bar.
+- Evidence: [Worms Armageddon decomposition](../games/s-z/worms-armageddon.md),
+  Team17 manual p. 8.
+- Novelty: first isolated for `GAME-0379`; public physical firing conditions
+  and team survival are shown together under one turn clock.
+
+## INF-387 — Show a puzzle prompt, choices, reward and purchased hints
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: an authored puzzle presents its fixed question, visual answer
+  candidates and current attainable picarat reward; purchased hints become
+  visible in order while the accepted answer remains undisclosed until solved.
+- Includes: the opening Professor Layton village map with its question,
+  pictured locations and optional hint view.
+- Excludes: an omniscient answer highlight before submission; invisible
+  future random puzzle selection; scene exploration outside this puzzle.
+- Parameters: prompt, picture, candidate count, current reward, hint tier and
+  answer-feedback state.
+- Evidence: [Professor Layton and the Curious Village
+  decomposition](../games/m-r/professor-layton-and-the-curious-village.md),
+  Nintendo manual pp. 8–10 and first-puzzle walkthrough.
+- Novelty: first isolated for `GAME-0380`; an authored spatial question and
+  priced clue layers are disclosed without revealing its fixed answer.
+
+## INF-388 — Mission watch exposes a fixed objective checklist and status
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: pre-mission briefing and an inspectable in-mission status view
+  disclose the finite required objectives and their current completion state,
+  separately from the local combat scene and personal health/ammunition.
+- Includes: GoldenEye 007's original mission briefing and Q Watch objective
+  screen for Secret Agent Dam's alarm and bungee tasks.
+- Excludes: a live waypoint to every alarm, an omniscient guard map, a hidden
+  objective not yet briefed, or life and ammunition meters alone (`INF-119`).
+- Parameters: difficulty, objective list, objective state, status-view access
+  and completion feedback.
+- Evidence: [GoldenEye 007 decomposition](../games/g-l/goldeneye-007.md),
+  Nintendo's original instruction booklet and original-N64 Dam guides.
+- Novelty: first isolated for `GAME-0381`; a mission contract remains
+  inspectable during live play even though its spatial targets require search.
+
+## INF-389 — Display current Wants, Fears and aspiration state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a selected resident's interface shows currently offered Wants
+  and Fears beside aspiration status and reward feedback, allowing the player
+  to choose a visible desire and observe its fulfilled or realised outcome.
+- Includes: the scoped The Sims 2: Legacy Collection household resident's
+  current desire icons and aspiration meter during one Live Mode day.
+- Excludes: motive bars and action queue alone (`INF-168`); a fixed authored
+  scenario checklist (`INF-067`); a universal fixed icon count across editions.
+- Parameters: resident, displayed Want/Fear set, aspiration meter, reward
+  points, icon replacement and visibility of optional locks.
+- Evidence: [The Sims 2: Legacy Collection decomposition](../games/s-z/the-sims-2-legacy-collection.md), EA's original PC manual and Maxis' design diary.
+- Novelty: first isolated for `GAME-0383`; visible live desires and fears are
+  distinct from bodily motives or a staged objective list.
+
+## INF-390 — Display shared racing energy and boost eligibility
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the live race display exposes the machine's current shared
+  energy reserve and a visible first-lap-to-later-lap change that tells the
+  driver when manual energy-priced boosting becomes available.
+- Includes: F-Zero GX's energy bar changing from red to rainbow after lap one
+  in the scoped Twist Road race.
+- Excludes: race place and rival proximity alone (`INF-205`); a boost meter
+  unrelated to vehicle damage; exact hidden damage coefficients.
+- Parameters: energy level, display colour, lap transition, boost eligibility
+  and depletion feedback.
+- Evidence: [F-Zero GX decomposition](../games/a-f/f-zero-gx.md), Nintendo's
+  original instruction booklet, racing HUD section.
+- Novelty: first isolated for `GAME-0384`; one display discloses a shared
+  survival/acceleration resource and its progress-gated command access.
+
+## INF-391 — Inspect a case-local record of evidence and profiles
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the court interface makes the current case's admitted evidence
+  descriptions and participant profiles inspectable and revisitable, while
+  authored trial events may add or revise entries before later challenges.
+- Includes: the original DS first-case Court Record with autopsy report,
+  blackout record, statue-clock, passport and participant profiles as the
+  script introduces them.
+- Excludes: an immutable scene-indexed memory tableau (`INF-012`); an
+  unlimited external document search; proof that every listed item is useful
+  against the currently selected testimony line.
+- Parameters: case, item roster, item detail, profile roster, scripted
+  addition/revision point and current availability.
+- Evidence: [Phoenix Wright: Ace Attorney decomposition](../games/m-r/phoenix-wright-ace-attorney.md),
+  the contemporary original-DS GameSpot review and first-case written route.
+- Novelty: first isolated for `GAME-0385`; case evidence is a growing,
+  inspectable challenge inventory rather than free-form investigation memory.
+
+## INF-392 — Display addressable and revisitable testimony lines
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after a witness gives an authored testimony, court
+  cross-examination exposes its individual statements as selectable lines
+  the player can revisit in either direction and address with a press or an
+  evidence presentation until that testimony version changes.
+- Includes: navigating Frank Sahwit's statements in The First Turnabout
+  before choosing which line to press or challenge.
+- Excludes: one-way passive dialogue; a generated interview transcript;
+  treating a revised testimony as though its old lines remained active.
+- Parameters: witness, version, ordered lines, selected line, navigation
+  direction and replacement event.
+- Evidence: [Phoenix Wright: Ace Attorney decomposition](../games/m-r/phoenix-wright-ace-attorney.md),
+  the contemporary original-DS GameSpot review and first-case written route.
+- Novelty: first isolated for `GAME-0385`; testimony is a line-addressed
+  challenge surface rather than merely story text.

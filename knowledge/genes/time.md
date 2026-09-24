@@ -839,3 +839,23 @@
 - Novelty: first isolated for `GAME-0367`; this is a reversible time boundary
   inside a directly controlled shooter, not an actor-readiness turn or merely
   a slow-motion power.
+
+## TIM-028 — Alternate timed team turns after physical settlement
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: teams receive exclusive command windows in rotation under a
+  running turn countdown; after a shot or expiry, physical motion must settle
+  before the next team's timed command window begins.
+- Includes: two-team non-network Worms Armageddon artillery turns.
+- Excludes: chess's one discrete action per alternating turn (`TIM-004`),
+  simultaneous input, real-time cross-team movement or an unsettled projectile
+  continuing through the opponent's decision window.
+- Parameters: side order, turn limit, post-shot retreat, motion settlement,
+  auto-handoff and separate round clock.
+- Evidence: [Worms Armageddon decomposition](../games/s-z/worms-armageddon.md),
+  Team17 manual pp. 3, 8 and 33–35.
+- Novelty: first isolated for `GAME-0379`; a timed multi-input worm turn
+  completes its ballistic response before control alternates.

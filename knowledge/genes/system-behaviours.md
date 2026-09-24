@@ -20606,3 +20606,339 @@
   original GameCube manual p. 9.
 - Novelty: first isolated for `GAME-0378`; optional pickup credit and
   time-dependent stage-clear credit are distinct resolution events.
+
+## SYS-1030 — Apply artillery blast damage and displacement to worms
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a resolved projectile impact or timed detonation applies its
+  bounded effect to affected worm energy and physical position, potentially
+  throwing a survivor into a new terrain or water risk.
+- Includes: Bazooka impact and Grenade blast in the scoped Worms Armageddon
+  two-team match.
+- Excludes: the projectile's flight (`SYS-146`), soil removal (`SYS-324`),
+  a guaranteed kill from any explosion and a cosmetic blast without state loss.
+- Parameters: centre, radius, weapon strength, exposure, energy loss,
+  displacement and fall trajectory.
+- Evidence: [Worms Armageddon decomposition](../games/s-z/worms-armageddon.md),
+  Team17 manual pp. 11–15.
+- Novelty: first isolated for `GAME-0379`; the same attack can lower energy
+  and change a worm's dangerous spatial position.
+
+## SYS-1031 — Remove a zero-energy or drowned worm
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: remove a combat worm from the current round when its energy
+  reaches zero or it enters lethal water, decreasing its team's living roster.
+- Includes: zero-energy and water deaths in the scoped Worms Armageddon match.
+- Excludes: a merely displaced living worm; score-only damage; automatic
+  same-round respawn; the separate last-team objective.
+- Parameters: energy, waterline, body contact, death event and team roster.
+- Evidence: [Worms Armageddon decomposition](../games/s-z/worms-armageddon.md),
+  Team17 manual p. 2.
+- Novelty: first isolated for `GAME-0379`; water and energy are separate lethal
+  routes into one persistent round-elimination state.
+
+## SYS-1032 — Raise the lethal waterline during Sudden Death
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after an expired round clock enters the configured Sudden Death
+  period, advance the waterline at the selected rate, progressively removing
+  lower safe ground and potentially drowning exposed worms.
+- Includes: enabled Sudden Death water rise in the scoped Worms Armageddon
+  one-round scheme, with energy reduction disabled.
+- Excludes: treating round-time expiry as an instant match result; one-time
+  flood without continued water movement; ordinary standing water.
+- Parameters: round threshold, water-rise setting, waterline, terrain height
+  and worm position.
+- Evidence: [Worms Armageddon decomposition](../games/s-z/worms-armageddon.md),
+  Team17 manual pp. 3, 33 and 36.
+- Novelty: first isolated for `GAME-0379`; a timed phase changes the viable
+  terrain envelope rather than only increasing damage.
+
+## SYS-1033 — Deflect an eligible shot using disclosed wind
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: apply the current wind direction and strength to an eligible
+  projectile's trajectory after launch, so the same aim and power can land
+  differently under a different wind state.
+- Includes: wind-sensitive Bazooka shots in the scoped Worms Armageddon match.
+- Excludes: changing a worm's direct walking input; asserting that every
+  weapon is wind-sensitive; replacing gravity and collision (`SYS-146`).
+- Parameters: wind direction, strength, weapon eligibility, flight duration
+  and deflection.
+- Evidence: [Worms Armageddon decomposition](../games/s-z/worms-armageddon.md),
+  Team17 manual pp. 8 and 12.
+- Novelty: first isolated for `GAME-0379`; a visible changing force makes
+  artillery aim state-dependent.
+
+## SYS-1034 — Validate a marked authored answer and release its gate
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: compare one submitted visual-answer region with a fixed
+  authored solution; reject a mismatch while allowing another attempt, or
+  record a match as solved and expose its linked narrative successor.
+- Includes: validating the circled village in Professor Layton and the
+  Curious Village's first map puzzle before the road story proceeds.
+- Excludes: accepting any valid whole-board configuration; randomising the
+  correct region per attempt; a provisional answer mark without Submit.
+- Parameters: accepted region, recognition tolerance, retry availability,
+  solved flag and successor gate.
+- Evidence: [Professor Layton and the Curious Village
+  decomposition](../games/m-r/professor-layton-and-the-curious-village.md),
+  Nintendo manual pp. 9–10 and independent first-puzzle walkthroughs.
+- Novelty: first isolated for `GAME-0380`; one authored visual choice settles
+  a story gate with retry rather than modifying the map itself.
+
+## SYS-1035 — Reduce available picarats after a wrong answer
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after an incorrect submitted puzzle answer, lower the maximum
+  picarats still awardable for that puzzle; on eventual correct solution,
+  credit the remaining value to the player's accumulated total.
+- Includes: retry-sensitive picarat valuation for the scoped Professor Layton
+  map question.
+- Excludes: deducting previously earned picarats; making hint purchase itself
+  the documented cause of this penalty; ending the game after one error.
+- Parameters: initial value, wrong-submission count, decrement schedule,
+  reward floor and credited total.
+- Evidence: [Professor Layton and the Curious Village
+  decomposition](../games/m-r/professor-layton-and-the-curious-village.md),
+  Nintendo manual pp. 9–10.
+- Novelty: first isolated for `GAME-0380`; reversible puzzle failure keeps
+  progress possible while making later success less valuable.
+
+## SYS-1036 — Interpret a learned brush mark as a contextual world effect
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: on release of the brush view, recognise the submitted mark against
+  currently learned techniques and the addressed world context, then apply
+  the matching technique or leave the target unchanged when no valid technique
+  and target pair is supplied.
+- Includes: Rejuvenation's gap-filling mark and Power Slash's line across an
+  eligible object in the scoped Ōkami HD opening.
+- Excludes: the player's physical stroke (`ACT-523`); granting a technique;
+  arbitrary marks always producing a change; ordinary reflector damage.
+- Parameters: learned technique set, stroke shape, target class, validation,
+  accepted effect and failed-mark feedback.
+- Evidence: [Ōkami HD decomposition](../games/m-r/okami-hd.md), Capcom's
+  original manual pp. 12–13 and 16–17 and two PS4 opening routes.
+- Novelty: first isolated for `GAME-0382`; one spatial input language selects
+  different world operations by both learned pattern and addressed target.
+
+## SYS-1037 — Reconstitute missing authored world geometry
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an accepted restoration mark fills an authored missing part of a
+  world object or route, changing its retained solid or traversable state
+  rather than merely revealing an unchanged hidden surface.
+- Includes: restoring the missing heavenly-river segment for crossing and the
+  broken sword on Nagi's statue before its constellation appears in Ōkami HD.
+- Excludes: Power Slash cutting an intact object; a cosmetic repaint with no
+  world-state consequence; an automatically repaired bridge demonstrated by
+  Issun rather than the player's accepted mark.
+- Parameters: damaged object, authored missing region, eligible mark, restored
+  geometry, traversal or linked successor and persistence.
+- Evidence: [Ōkami HD decomposition](../games/m-r/okami-hd.md), Capcom's
+  original manual pp. 16–17 and independent PS4 opening routes.
+- Novelty: first isolated for `GAME-0382`; author-specified missing geometry
+  becomes physically usable through an accepted world-addressed mark.
+
+## SYS-1038 — Grant a new brush technique after constellation completion
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: completing an authored missing mark in a celestial constellation
+  records its associated brush technique as learned, allowing later compatible
+  world marks to resolve through that technique.
+- Includes: filling Yomigami's missing star to gain Rejuvenation and completing
+  Tachigami's constellation to gain Power Slash in Ōkami HD's opening.
+- Excludes: using a technique already learned; purchasing a generic upgrade;
+  automatically granting every future brush power at the start.
+- Parameters: constellation, missing mark, linked deity, granted technique,
+  retained learned state and availability after grant.
+- Evidence: [Ōkami HD decomposition](../games/m-r/okami-hd.md), independent
+  PS4 opening routes and Capcom's original manual brush-technique account.
+- Novelty: first isolated for `GAME-0382`; a drawn completion of an authored
+  sky pattern expands the persistent vocabulary of world-changing marks.
+
+## SYS-1039 — Resolve a fulfilled Want or realised Fear into aspiration
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when a resident's currently displayed Want is fulfilled or Fear
+  occurs, the simulation changes aspiration state in the corresponding
+  direction, grants reward points for the fulfilled Want and refreshes the
+  resolved desire or fear display.
+- Includes: one displayed Want fulfilled in the scoped The Sims 2: Legacy
+  Collection household day; the contrary Fear branch remains observable.
+- Excludes: changing mood from bodily needs (`SYS-431`); granting a staged
+  scenario-completion reward (`SYS-433`); awarding points without a current
+  displayed desire event.
+- Parameters: resident, current Want or Fear, matched event, aspiration delta,
+  reward points, icon replacement and optional lock state.
+- Evidence: [The Sims 2: Legacy Collection decomposition](../games/s-z/the-sims-2-legacy-collection.md), EA's original PC manual and Maxis' Wants/Fears design diary.
+- Novelty: first isolated for `GAME-0383`; the live desire/fear panel resolves
+  repeated household events rather than one authored scenario terminal.
+
+## SYS-1040 — Share machine energy between boost and damage survival
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: one machine energy reserve is debited by eligible manual boost
+  and by damage, replenished by time within a course Pit Area, and causes
+  retirement when further damage arrives after the meter is empty.
+- Includes: Blue Falcon's shared energy/boost meter, Pit Area recharge and
+  damage-after-empty retirement in F-Zero GX's first Ruby Cup race.
+- Excludes: a separate nitrous stock independent of collision durability;
+  assuming an empty meter alone instantly retires; a permanent upgrade.
+- Parameters: machine, energy cap and level, boost debit, contact damage,
+  Pit Area occupancy duration, recharge rate, empty state and later hit.
+- Evidence: [F-Zero GX decomposition](../games/a-f/f-zero-gx.md), Nintendo's
+  original instruction booklet, official rules and racing HUD sections.
+- Novelty: first isolated for `GAME-0384`; the spendable acceleration stock
+  is also the buffer against collision-caused race retirement.
+
+## SYS-1041 — Advance authored testimony after supported challenge
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when a court challenge pairs an available evidence item with
+  its supported testimony assertion, the authored trial replaces or advances
+  the witness account, opens specified follow-up questions and updates the
+  case record when the script requires it.
+- Includes: Sahwit's successive time, television and clock accounts after
+  supported objections in The First Turnabout.
+- Excludes: generating new testimony from arbitrary natural-language
+  arguments; issuing a guilty verdict for an unsupported challenge; an
+  investigation object discovered by free scene search.
+- Parameters: testimony version, statement/item pair, branch response,
+  replacement lines, record update and next court phase.
+- Evidence: [Phoenix Wright: Ace Attorney decomposition](../games/m-r/phoenix-wright-ace-attorney.md),
+  the contemporary original-DS GameSpot review and first-case written route.
+- Novelty: first isolated for `GAME-0385`; an accepted contradiction is an
+  authored court-state transition, not a generic truth assignment.
+
+## SYS-1042 — Purchase a temporary traversal form at an authored fixture
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: at a declared world fixture, a collected token cost is checked
+  and paid to replace the ordinary controllable body with a temporary form
+  whose movement and collision envelope reaches different local geometry;
+  leaving its permitted region or ending the form restores the ordinary body.
+- Includes: spending five Mumbo tokens at Mumbo's Mountain's skull pad to
+  become a termite that can climb the mound and nearby lair slope.
+- Excludes: an immediately collected power-up (`SYS-902`); a permanently
+  learned move (`SYS-398`); an autonomous companion; a teleportation-only
+  portal; a combat form with its own separate health (`SYS-608`).
+- Parameters: fixture, price, token stock, paid state, base form, alternate
+  form, movement envelope, region boundary and restoration event.
+- Evidence: [Banjo-Kazooie decomposition](../games/a-f/banjo-kazooie.md),
+  original Nintendo 64 manual pp. 19–20 and original-N64 Mumbo's Mountain
+  written route.
+- Novelty: first isolated for `GAME-0386`; an authored spend changes
+  traversability without permanently adding that body to ordinary control.
+
+## SYS-1043 — Retain a best world tally while resetting its pickup objects
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: on exit or failed visit, preserve the highest credited count of
+  one world-local collection type for global access checks while restoring
+  that world's individual pickup objects and resetting its current-visit
+  count for a later attempt.
+- Includes: original-N64 Banjo-Kazooie musical Notes reappearing after leaving
+  or dying, while the world's best Note score remains available to Note Doors.
+- Excludes: permanently removing each collected object; carrying the current
+  visit's individual pickup flags to the next visit; erasing the best score;
+  an unbounded abstract high-score leaderboard with no progression gate.
+- Parameters: world, pickup type, current count, best count, reset event,
+  respawn roster and global gate contribution.
+- Evidence: [Banjo-Kazooie decomposition](../games/a-f/banjo-kazooie.md),
+  independent original-N64 written routes and Note-score guide.
+- Novelty: first isolated for `GAME-0386`; progression retains a best tally
+  even when the exact world objects are deliberately collectible again.
+
+## SYS-1044 — Reward completion of a finite spatial rescue set
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: mark each distinct member of one authored spatial rescue group
+  as found; only after every member is credited, emit one fixed progression
+  reward for that group without requiring the members to be consumed as
+  inventory contributions.
+- Includes: rescuing all five Jinjos in Mumbo's Mountain to receive one of
+  that world's Jiggies.
+- Excludes: a scalar Note threshold; a typed inventory-slot donation
+  (`SYS-116`); repeated farming of one rescue target; every individual
+  collectible emitting an independent equivalent reward.
+- Parameters: world, distinct member roster, credit persistence, full-set
+  predicate, reward object and repeat policy.
+- Evidence: [Banjo-Kazooie decomposition](../games/a-f/banjo-kazooie.md),
+  original Nintendo 64 manual pp. 18–19.
+- Novelty: first isolated for `GAME-0386`; all spatially dispersed named
+  rescues jointly release one reward rather than filling donated slots.
+
+## SYS-1045 — Propagate a timed blast along blocked cardinal rays
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: on a placed bomb's detonation, determine affected grid cells by
+  advancing outward from its occupied cell along the four orthogonal axes to
+  the current range, stopping each ray at the first blocking terrain cell
+  according to that terrain's declared interaction.
+- Includes: the original Super Bomberman Normal Game's straight blast lanes;
+  hard blocks shield cells beyond them, while a reached destructible block can
+  break and still bound that ray.
+- Excludes: a circular area-of-effect test through walls; diagonal rays;
+  resolving damage to the cells already reached (`SYS-470`); the later
+  availability of remote or kicked bombs.
+- Parameters: bomb cell, cardinal directions, firepower range, hard/soft
+  blocker class, inclusion of the struck block cell and propagation stop.
+- Evidence: [Super Bomberman decomposition](../games/s-z/super-bomberman.md),
+  original UK SNES instruction booklet pp. 2–5 and original-SNES first-stage
+  written route. The booklet's diagrams support geometry; exact collision
+  frames were not measured.
+- Novelty: first isolated for `GAME-0387`; blast reach is calculated through
+  ray/terrain topology before the generic fuse-to-damage transition, so a
+  geometrically shielded cell is not even a candidate for `SYS-470` damage.
