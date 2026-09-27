@@ -30,6 +30,7 @@
 - [`GAME-0304` — Azul](../games/a-f/azul.md)
 - [`GAME-0013` — Baba Is You](../games/a-f/baba-is-you.md)
 - [`GAME-0027` — Bad North: Jotunn Edition](../games/a-f/bad-north.md)
+- [`GAME-0411` — Bejeweled 3](../games/a-f/bejeweled-3.md)
 - [`GAME-0055` — Bonfire Peaks](../games/a-f/bonfire-peaks.md)
 - [`GAME-0034` — Braid, Anniversary Edition](../games/a-f/braid.md)
 - [`GAME-0074` — Bridges](../games/a-f/bridges.md)
@@ -122,12 +123,14 @@
 - [`GAME-0089` — Stardew Valley](../games/s-z/stardew-valley.md)
 - [`GAME-0043` — Stephen’s Sausage Roll](../games/s-z/stephens-sausage-roll.md)
 - [`GAME-0005` — Sudoku](../games/s-z/sudoku.md)
+- [`GAME-0428` — Super Mario Maker](../games/s-z/super-mario-maker.md)
 - [`GAME-0094` — Superliminal](../games/s-z/superliminal.md)
 - [`GAME-0136` — "Surviving Mars: Relaunched"](../games/s-z/surviving-mars.md)
 - [`GAME-0048` — Tactical Breach Wizards](../games/s-z/tactical-breach-wizards.md)
 - [`GAME-0072` — Tents](../games/s-z/tents.md)
 - [`GAME-0004` — Tetris](../games/s-z/tetris.md)
 - [`GAME-0046` — The Case of the Golden Idol](../games/s-z/the-case-of-the-golden-idol.md)
+- [`GAME-0421` — The Incredible Machine](../games/s-z/the-incredible-machine.md)
 - [`GAME-0087` — The Longest Journey](../games/s-z/the-longest-journey.md)
 - [`GAME-0107` — The Pedestrian](../games/s-z/the-pedestrian.md)
 - [`GAME-0343` — The Secret of Monkey Island](../games/s-z/the-secret-of-monkey-island.md)
@@ -168,6 +171,7 @@
 - [`GAME-0001` — "2048"](../games/0-9/2048.md)
 - [`GAME-0124` — Against the Storm](../games/a-f/against-the-storm.md)
 - [`GAME-0304` — Azul](../games/a-f/azul.md)
+- [`GAME-0411` — Bejeweled 3](../games/a-f/bejeweled-3.md)
 - [`GAME-0109` — Candy Crush Saga](../games/a-f/candy-crush-saga.md)
 - [`GAME-0369` — Carcassonne](../games/a-f/carcassonne.md)
 - [`GAME-0377` — CATAN](../games/a-f/catan.md)
@@ -182,6 +186,7 @@
 - [`GAME-0018` — Mini Metro](../games/m-r/mini-metro.md)
 - [`GAME-0051` — Mini Motorways](../games/m-r/mini-motorways.md)
 - [`GAME-0125` — Oxygen Not Included](../games/m-r/oxygen-not-included.md)
+- [`GAME-0432` — Reigns](../games/m-r/reigns.md)
 - [`GAME-0127` — RimWorld](../games/m-r/rimworld.md)
 - [`GAME-0009` — Royal Match](../games/m-r/royal-match.md)
 - [`GAME-0067` — Simon](../games/s-z/simon.md)
@@ -1825,6 +1830,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0334` — Quake](../games/m-r/quake.md)
+- [`GAME-0404` — Ratchet & Clank](../games/m-r/ratchet-and-clank.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
@@ -1924,6 +1930,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0356` — Shadow of the Colossus](../games/s-z/shadow-of-the-colossus.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
+- [`GAME-0430` — Silent Hill](../games/s-z/silent-hill.md)
 - [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
@@ -2816,7 +2823,9 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
+- [`GAME-0430` — Silent Hill](../games/s-z/silent-hill.md)
 - [`GAME-0307` — Slime Rancher](../games/s-z/slime-rancher.md)
+- [`GAME-0412` — Splatoon 3](../games/s-z/splatoon-3.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0225` — "STAR WARS: Squadrons"](../games/s-z/star-wars-squadrons.md)
@@ -2873,6 +2882,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
 - [`GAME-0177` — Rocket League](../games/m-r/rocket-league.md)
+- [`GAME-0412` — Splatoon 3](../games/s-z/splatoon-3.md)
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
 - [`GAME-0184` — War Thunder](../games/s-z/war-thunder.md)
@@ -2902,6 +2912,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0278` — DAVE THE DIVER](../games/a-f/dave-the-diver.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0269` — DREDGE](../games/a-f/dredge.md)
+- [`GAME-0405` — Fable II](../games/a-f/fable-ii.md)
 - [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
@@ -2949,6 +2960,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 ### Ігри-носії
 
 - [`GAME-0223` — Aion Classic](../games/a-f/aion-classic.md)
+- [`GAME-0427` — Alan Wake](../games/a-f/alan-wake.md)
 - [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0154` — Apex Legends](../games/a-f/apex-legends.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
@@ -3030,6 +3042,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0296` — Noita](../games/m-r/noita.md)
 - [`GAME-0382` — Ōkami HD](../games/m-r/okami-hd.md)
 - [`GAME-0224` — Once Human](../games/m-r/once-human.md)
+- [`GAME-0431` — Ori and the Blind Forest](../games/m-r/ori-and-the-blind-forest.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0181` — Overwatch](../games/m-r/overwatch.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
@@ -3041,12 +3054,14 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0344` — "Prince of Persia: The Sands of Time"](../games/m-r/prince-of-persia-the-sands-of-time.md)
 - [`GAME-0358` — Psychonauts](../games/m-r/psychonauts.md)
 - [`GAME-0334` — Quake](../games/m-r/quake.md)
+- [`GAME-0404` — Ratchet & Clank](../games/m-r/ratchet-and-clank.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 - [`GAME-0319` — Sea of Thieves](../games/s-z/sea-of-thieves.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 - [`GAME-0303` — Sifu](../games/s-z/sifu.md)
+- [`GAME-0412` — Splatoon 3](../games/s-z/splatoon-3.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 - [`GAME-0331` — Starfield](../games/s-z/starfield.md)
@@ -3197,6 +3212,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
+- [`GAME-0405` — Fable II](../games/a-f/fable-ii.md)
 - [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0361` — Fallout: New Vegas](../games/a-f/fallout-new-vegas.md)
@@ -3233,12 +3249,14 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
+- [`GAME-0404` — Ratchet & Clank](../games/m-r/ratchet-and-clank.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0348` — "Resident Evil: Director’s Cut"](../games/m-r/resident-evil-directors-cut.md)
 - [`GAME-0356` — Shadow of the Colossus](../games/s-z/shadow-of-the-colossus.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
+- [`GAME-0430` — Silent Hill](../games/s-z/silent-hill.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
@@ -3361,6 +3379,7 @@ Palbox, Monitoring Stand, сховища й екрани стану бази в 
 - [`GAME-0348` — "Resident Evil: Director’s Cut"](../games/m-r/resident-evil-directors-cut.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
+- [`GAME-0430` — Silent Hill](../games/s-z/silent-hill.md)
 - [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0331` — Starfield](../games/s-z/starfield.md)
@@ -4507,6 +4526,7 @@ Rank Z, 1 000 Ticket Points, Challenger's Ticket і Zach у Pokémon Legends: Z-
 - [`GAME-0346` — Chrono Trigger](../games/a-f/chrono-trigger.md)
 - [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
+- [`GAME-0399` — Ico](../games/g-l/ico.md)
 - [`GAME-0394` — LittleBigPlanet 2](../games/g-l/littlebigplanet-2.md)
 - [`GAME-0387` — Super Bomberman](../games/s-z/super-bomberman.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
@@ -4792,9 +4812,11 @@ Rank Z, 1 000 Ticket Points, Challenger's Ticket і Zach у Pokémon Legends: Z-
 - [`GAME-0318` — Battletoads](../games/a-f/battletoads.md)
 - [`GAME-0324` — Contra Force](../games/a-f/contra-force.md)
 - [`GAME-0167` — Geometry Dash](../games/g-l/geometry-dash.md)
+- [`GAME-0408` — Kirby's Adventure](../games/g-l/kirbys-adventure.md)
 - [`GAME-0389` — Mega Man 2](../games/m-r/mega-man-2.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
+- [`GAME-0428` — Super Mario Maker](../games/s-z/super-mario-maker.md)
 - [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 
 ## INF-193
@@ -5064,6 +5086,7 @@ Echo Detector у двох досліджених пошуках.
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 - [`GAME-0217` — "Need for Speed Underground"](../games/m-r/need-for-speed-underground.md)
+- [`GAME-0420` — Project Gotham Racing 2](../games/m-r/project-gotham-racing-2.md)
 - [`GAME-0216` — Trackmania](../games/s-z/trackmania.md)
 
 ## INF-205
@@ -5097,6 +5120,7 @@ Echo Detector у двох досліджених пошуках.
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 - [`GAME-0217` — "Need for Speed Underground"](../games/m-r/need-for-speed-underground.md)
+- [`GAME-0420` — Project Gotham Racing 2](../games/m-r/project-gotham-racing-2.md)
 - [`GAME-0216` — Trackmania](../games/s-z/trackmania.md)
 
 ## INF-206
@@ -5126,6 +5150,7 @@ Echo Detector у двох досліджених пошуках.
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 - [`GAME-0217` — "Need for Speed Underground"](../games/m-r/need-for-speed-underground.md)
+- [`GAME-0420` — Project Gotham Racing 2](../games/m-r/project-gotham-racing-2.md)
 
 ## INF-207
 
@@ -5180,6 +5205,7 @@ Echo Detector у двох досліджених пошуках.
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 - [`GAME-0217` — "Need for Speed Underground"](../games/m-r/need-for-speed-underground.md)
+- [`GAME-0420` — Project Gotham Racing 2](../games/m-r/project-gotham-racing-2.md)
 
 ## INF-209
 
@@ -5525,8 +5551,10 @@ Car/ball camera, boost meter, nameplates, ball indicator і flip-reset feedback 
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0397` — 'Command & Conquer: Red Alert 2'](../games/a-f/command-and-conquer-red-alert-2.md)
 - [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
+- [`GAME-0410` — Halo Wars](../games/g-l/halo-wars.md)
 - [`GAME-0317` — StarCraft II](../games/s-z/starcraft-ii.md)
 - [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
 - [`GAME-0328` — "Warcraft III: Reign of Chaos"](../games/s-z/warcraft-iii-reign-of-chaos.md)
@@ -5551,7 +5579,9 @@ Normal reveal та fog of war в Age of Empires II: Definitive Edition.
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0397` — 'Command & Conquer: Red Alert 2'](../games/a-f/command-and-conquer-red-alert-2.md)
 - [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
+- [`GAME-0410` — Halo Wars](../games/g-l/halo-wars.md)
 - [`GAME-0317` — StarCraft II](../games/s-z/starcraft-ii.md)
 - [`GAME-0328` — "Warcraft III: Reign of Chaos"](../games/s-z/warcraft-iii-reign-of-chaos.md)
 
@@ -7143,6 +7173,7 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 ### Ігри-носії
 
 - [`GAME-0277` — Cuphead](../games/a-f/cuphead.md)
+- [`GAME-0406` — "DanceDanceRevolution"](../games/a-f/dancedancerevolution.md)
 - [`GAME-0278` — DAVE THE DIVER](../games/a-f/dave-the-diver.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0372` — "Guitar Hero III: Legends of Rock"](../games/g-l/guitar-hero-iii-legends-of-rock.md)
@@ -8393,6 +8424,7 @@ HUD і видимі Walker leg та Dragon у Ragnarok’s Canyon Battletoads, �
 ### Ігри-носії
 
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
+- [`GAME-0430` — Silent Hill](../games/s-z/silent-hill.md)
 
 ## INF-360
 
@@ -9171,3 +9203,528 @@ Scan Visor протягом обмеженого вступу на Frigate Orphe
 ### Ігри-носії
 
 - [`GAME-0396` — "PaRappa the Rapper Remastered"](../games/m-r/parappa-the-rapper-remastered.md)
+
+## INF-397
+
+- Назва: Показувати коротку команду й стан спроб курсу
+- Переглянуто: `2026-09-25`
+
+### Операційне визначення
+
+Екран показує коротку вказівку поточної мікрогри, залишок часу, поступ курсу та видимі життя, але не називає наперед наступне випадкове звичайне завдання.
+
+### Включає
+
+Вказівка, бомба-таймер, позначка поступу й чотири індикатори життів на вступному курсі WarioWare.
+
+### Виключає
+
+Список вимог із обіцяною винагородою (`INF-067`); показ усього майбутнього порядку мікроігор; лише підсумкові очки.
+
+### Ігри-носії
+
+- [`GAME-0398` — 'WarioWare, Inc.: Mega Microgame$!'](../games/s-z/warioware-inc-mega-microgame.md)
+
+## INF-398
+
+- Назва: Показувати рухому ділянку арени й лічильники забігу
+- Переглянуто: `2026-09-25`
+
+### Операційне визначення
+
+Огляд, який рухається за кораблем, показує керований корабель, близькі загрози та видимі лічильники рахунку, множника й обмежених запасів. Живих ворогів за краєм екрана може бути не видно, доки камера чи самі вороги не наблизяться.
+
+### Включає
+
+Арена режиму Evolved, більша за екран, та показники очок, життів і бомб в оригінальній Geometry Wars: Retro Evolved для Xbox 360.
+
+### Виключає
+
+Повністю видимий стан усього поля (`INF-001`); незмінний горизонт авторських перешкод у боковому прокручуванні (`INF-192`); точний попередній показ майбутніх місць появи ворогів; вилучення ворогів за екраном бомбою.
+
+### Ігри-носії
+
+- [`GAME-0400` — "Geometry Wars: Retro Evolved"](../games/g-l/geometry-wars-retro-evolved.md)
+
+## INF-399
+
+- Назва: Показувати поточні об'єкти й позначки пропусків
+- Переглянуто: `2026-09-25`
+
+### Операційне визначення
+
+Екран показує фрукти й бомби, які зараз летять, накопичені очки та непогашені позначки за пропущені фрукти, але не відкриває завчасно вид, час чи місце наступної появи.
+
+### Включає
+
+Поточне поле гри та показники рахунку й пропусків в оригінальному класичному режимі Fruit Ninja для iPhone.
+
+### Виключає
+
+Повністю відоме незмінне поле (`INF-001`); камера, що рухається більшим сталим світом (`INF-398`); попередній показ майбутніх бомб; передбачуване сповіщення про випадковий критичний бонус.
+
+### Ігри-носії
+
+- [`GAME-0401` — "Fruit Ninja"](../games/a-f/fruit-ninja.md)
+
+## INF-400
+
+- Назва: Показувати стан шляху й виміри річки
+- Переглянуто: `2026-09-25`
+
+### Операційне визначення
+
+Відомості про подорож і мапа показують поточні дату, погоду, здоров’я, їжу та відстань. Біля річки перед рішенням видно її ширину, глибину й доступні способи переправи.
+
+### Включає
+
+Екрани стану, мапи та Канзасу у виданні A-157.
+
+### Виключає
+
+Точний прогноз майбутніх злив, хвороб і пригод; приховування наявної їжі; сприйняття порад інших мандрівників як гарантованого результату.
+
+### Ігри-носії
+
+- [`GAME-0402` — "The Oregon Trail"](../games/s-z/the-oregon-trail.md)
+
+## INF-401
+
+- Назва: Показувати вразливість і силу привида та стан кімнати
+- Переглянуто: `2026-09-25`
+
+### Операційне визначення
+
+Поточний вигляд кімнати й показники показують залишок здоров’я гравця, темний або очищений стан кімнати, видимих ворогів, відкрите серце привида й решту його сили під час всмоктування.
+
+### Включає
+
+Значок здоров’я Луїджі, освітлення першої кімнати, серця й числові показники сили звичайних привидів в оригінальній GameCube-версії.
+
+### Виключає
+
+Попередній показ точного часу наступної появи привида, схованки Бу, майбутнього руху ворога чи точних покадрових меж захоплення.
+
+### Ігри-носії
+
+- [`GAME-0403` — "Luigi's Mansion"](../games/g-l/luigis-mansion.md)
+
+## INF-402
+
+- Назва: Показувати наступні стрілки та індикатор танцю
+- Переглянуто: `2026-09-26`
+
+### Операційне визначення
+
+Чотири доріжки зі стрілками, що рухаються вгору до нерухомих позначок, показують наступний потрібний крок; поточна оцінка, індикатор танцю й попередження Danger показують ризик зупинки пісні.
+
+### Включає
+
+Екран сольної пісні аркадного DanceDanceRevolution GN845-UC.
+
+### Виключає
+
+Показ усієї схеми наперед; невідомі точні часові вікна; гітарні кнопки, довгі ноти, множник і заряд Star Power (`INF-379`); підсумок пісні (`INF-299`).
+
+### Ігри-носії
+
+- [`GAME-0406` — "DanceDanceRevolution"](../games/a-f/dancedancerevolution.md)
+
+## INF-403
+
+- Назва: Показувати сонце, готовність насіння, загрози в рядах і поступ хвиль
+- Переглянуто: `2026-09-26`
+
+### Операційне визначення
+
+Інтерфейс показує запас сонця, видимі пакети насіння та потемніння тих, що перезаряджаються, висаджені рослини й зомбі в кожному ряду, а також шкалу поступу з прапорцями більших хвиль. Перед рівнем огляд показує типи зомбі.
+
+### Включає
+
+Звичайний денний огляд першого етапу Adventure в Plants vs. Zombies.
+
+### Виключає
+
+Точний календар майбутніх появ або призначення кожному ворогу ряду; індикатор життів і номерів раунду Bloons TD 6 (`INF-323`); усі майбутні відкриття рослин; не показаний у грі числовий прогноз бою.
+
+### Ігри-носії
+
+- [`GAME-0407` — Plants vs. Zombies](../games/m-r/plants-vs-zombies.md)
+
+## INF-404
+
+- Назва: Показувати здоров’я, життя й поточну скопійовану здібність
+- Переглянуто: `2026-09-26`
+
+### Операційне визначення
+
+Інтерфейс живого етапу називає звичайну або скопійовану форму персонажа та показує поточне здоров’я й залишок скінченних життів. Лічильник використань є лише для такого типу здібності, який справді має обмеження.
+
+### Включає
+
+Нижній рядок зі станом Normal або Beam, початковими шістьма поділками здоров’я й кількістю життів в оригінальній Kirby's Adventure для NES.
+
+### Виключає
+
+Повну мапу майбутнього етапу; точні здібності невидимих ворогів; таймер зворотного відліку етапу; інтерфейс, що не показує наявність здібності.
+
+### Ігри-носії
+
+- [`GAME-0408` — Kirby's Adventure](../games/g-l/kirbys-adventure.md)
+
+## INF-405
+
+- Назва: Показувати суперників і бойові ресурси машини
+- Переглянуто: `2026-09-26`
+
+### Операційне визначення
+
+Інтерфейс бою на машинах показує залишок суперників і їхні місця на радарі разом зі здоров’ям, життями, поточною зброєю та її боєприпасами, нагрівом кулемета, турбо й енергією керованої машини.
+
+### Включає
+
+Інтерфейс арени й радар суперників під час керування Junkyard Dog у сюжетному режимі оригінальної Twisted Metal: Black для PS2.
+
+### Виключає
+
+Точні наміри невидимих суперників; повну мапу майбутнього етапу; дані лише для глядачів; звичайний спідометр без стану бою.
+
+### Ігри-носії
+
+- [`GAME-0409` — 'Twisted Metal: Black'](../games/s-z/twisted-metal-black.md)
+
+## INF-406
+
+- Назва: Показати потрібну й упійману кількість істот на рівні
+- Переглянуто: `2026-09-26`
+
+### Операційне визначення
+
+Вступ до рівня або вікно стану показує мінімальну кількість істот, яку потрібно впіймати, і вже прийняту кількість, щоб гравець розрізняв достатній поступ та необов’язкових невпійманих істот.
+
+### Включає
+
+Відомості про три потрібні упіймання з чотирьох мавп у Fossil Field та показ поступу в оригінальній Ape Escape для PlayStation.
+
+### Виключає
+
+Позицію всіх невидимих мавп; майбутній маршрут з новим пристроєм; запис про вид у каталозі (`INF-352`); очки, показані лише після виходу.
+
+### Ігри-носії
+
+- [`GAME-0413` — Ape Escape](../games/a-f/ape-escape.md)
+
+## INF-407
+
+- Назва: Показувати протікання, позу, рахунок і час раунду
+- Переглянуто: `2026-09-26`
+
+### Операційне визначення
+
+Під час гри видно отвори в склі, які зараз можна закрити, відображене положення тіла гравця відносно них, поточні очки й годинник раунду. Місця й час появи майбутніх пошкоджень наперед не показано.
+
+### Включає
+
+Екран «20,000 Leaks» на сторінках 18–19 оригінального посібника Microsoft до Kinect Adventures!.
+
+### Виключає
+
+Повний майбутній порядок протікань; точні зони розпізнавання сенсора; цілі послідовності кількох пригод; прихований годинник, припущений з іншого режиму.
+
+### Ігри-носії
+
+- [`GAME-0414` — Kinect Adventures!](../games/g-l/kinect-adventures.md)
+
+## INF-408
+
+- Назва: Показувати пасажирів, маршрут, два годинники й оплату
+- Переглянуто: `2026-09-26`
+
+### Операційне визначення
+
+Під час гри позначки доступних пасажирів кольором указують відносну відстань поїздки, а розмір кола посадки — її складність. Після посадки видно загальний напрямок і відстань до призначеного місця, особистий і загальний час, поточну та сукупну оплату, комбінацію маневрів і можливий бонус часу. Найшвидшого маршруту вулицями інтерфейс не гарантує.
+
+### Включає
+
+Позначки пасажирів і екран режимів Arcade/Original у межах обраного заїзду Crazy Taxi.
+
+### Виключає
+
+Готовий найкоротший маршрут; невідомий наперед порядок майбутніх пасажирів; поліцейський розшук або запас прискорення автомобіля.
+
+### Ігри-носії
+
+- [`GAME-0415` — Crazy Taxi](../games/a-f/crazy-taxi.md)
+
+## INF-409
+
+- Назва: Показувати стан підрозділу, досяжні клітинки й місцевість
+- Переглянуто: `2026-09-26`
+
+### Операційне визначення
+
+Тактичний екран показує поточне здоров’я підрозділів і доступність їхніх наказів, підсвічує досяжні клітинки вибраного підрозділу з урахуванням вартості місцевості та дає оглянути тип і захист місцевості. Він не розкриває точних майбутніх наказів ворожого командира й не обіцяє показувати числову вартість руху на екрані.
+
+### Включає
+
+Підсвічування дальності руху й відомості про місцевість або підрозділ за кнопкою R у навчальному завданні Advance Wars «Terrain Intel».
+
+### Виключає
+
+Гарантований показ наступної цілі Олафа; точну приховану формулу шкоди чи поведінки комп’ютера; розкриття туману війни в іншому завданні; лише післябойовий звіт.
+
+### Ігри-носії
+
+- [`GAME-0416` — Advance Wars](../games/a-f/advance-wars.md)
+
+## INF-410
+
+- Назва: Показувати рух прожекторів і стан місцевої тривоги
+- Переглянуто: `2026-09-27`
+
+### Операційне визначення
+
+Поточний вигляд рівня показує рухомі освітлені ділянки та пов’язану сирену; видима зміна після виявлення допомагає вибрати момент переходу й розпізнати пристрій керування охороною. Майбутні положення променів не показано наперед.
+
+### Включає
+
+Дві ділянки з прожекторами й червоними сиренами в оригінальному рівні «A Stealthy Approach» для PlayStation 2.
+
+### Виключає
+
+Повну всезнаючу мапу рівня; числовий показник підозри охоронця; ще не виявлені пастки; точний прогноз майбутнього руху; саме правило підняття тривоги (`SYS-1106`).
+
+### Ігри-носії
+
+- [`GAME-0417` — Sly Cooper and the Thievius Raccoonus](../games/s-z/sly-cooper-and-the-thievius-raccoonus.md)
+
+## INF-411
+
+- Назва: Показувати кімнати, живлення й стан сутички кораблів
+- Переглянуто: `2026-09-27`
+
+### Операційне визначення
+
+Огляд корабля показує відомий поточний стан екіпажу й кімнат, живлення та пошкодження систем, щити й корпус, заряд зброї та ракети, видимі системи ворога й готовність двигуна стрибка. Мапа сектора розрізняє досяжні маяки, але не гарантує їхні майбутні події.
+
+### Включає
+
+Керування кораблем і мапа сектора початкового «Боривітра» під час однієї ворожої сутички в першому секторі оригінальної FTL.
+
+### Виключає
+
+Точний прихований намір ворога; гарантовану майбутню подію кожного маяка; невиміряні ймовірності влучання; прилади кабіни безпосередньо пілотованого корабля (`INF-277`).
+
+### Ігри-носії
+
+- [`GAME-0418` — 'FTL: Faster Than Light'](../games/a-f/ftl-faster-than-light.md)
+
+## INF-412
+
+- Назва: Показувати стан цуценяти й вивчені трюки
+- Переглянуто: `2026-09-27`
+
+### Операційне визначення
+
+Домашній екран дає визначити поточне цуценя, оглянути його стан і список вивчених команд, а піктограми показують, які меню вже відкрито.
+
+### Включає
+
+Перегляд стану цуценяти після імені та першого уроку сидіти в оригінальній Nintendogs.
+
+### Виключає
+
+Показ точного прихованого показника впевненості розпізнавання голосу; прогноз майбутньої зміни стану; загальну панель добробуту зоопарку; визнання закритого меню вже доступним.
+
+### Ігри-носії
+
+- [`GAME-0419` — Nintendogs](../games/m-r/nintendogs.md)
+
+## INF-413
+
+- Назва: Окремо показувати тимчасові й зараховані Kudos
+- Переглянуто: `2026-09-27`
+
+### Операційне визначення
+
+Під час перегонів інтерфейс окремо показує тимчасовий запас Kudos, уже зараховані очки та стан комбінації, не підміняючи ними поточного місця на трасі.
+
+### Включає
+
+Екран вуличних перегонів офлайнового Kudos World Series в оригінальній Project Gotham Racing 2.
+
+### Виключає
+
+Один спільний рахунок без тимчасового запасу; підсумкову таблицю після фінішу; визнання місця на трасі очками стилю; мережеву таблицю лідерів.
+
+### Ігри-носії
+
+- [`GAME-0420` — Project Gotham Racing 2](../games/m-r/project-gotham-racing-2.md)
+
+## INF-414
+
+- Назва: Показувати ритм, нагоду атакувати й стан загону
+- Переглянуто: `2026-09-27`
+
+### Операційне визначення
+
+Під час місії пульсація країв екрана підказує ритм команд, а видимий загін і здобич показують поточну досяжність атаки, здоров’я бійців та поступ безперервної ритмічної серії для наступного наказу.
+
+### Включає
+
+Пульсацію ритму, око готовності до атаки, здоров’я й показ серії під час першого полювання в оригінальній Patapon для PSP.
+
+### Виключає
+
+Повну видимість майбутньої ділянки поза екраном (`INF-001`); показану вчителем схему нот (`INF-396`); точні межі вікна введення чи числову шкоду, яких посібник не показує.
+
+### Ігри-носії
+
+- [`GAME-0422` — Patapon](../games/m-r/patapon.md)
+
+## INF-415
+
+- Назва: Показувати показники автомобіля в майстерні перед випробуванням
+- Переглянуто: `2026-09-27`
+
+### Операційне визначення
+
+Майстерня показує для поточної конструкції швидкість, запас пального, боєприпаси, масу й кількість деталей, перш ніж гравець випробує, збереже або вибере її для завдання.
+
+### Включає
+
+П’ять показників Mumbo's Motors під час підготовки невеликого автомобіля з ковшем в оригінальній Banjo-Kazooie: Nuts & Bolts для Xbox 360.
+
+### Виключає
+
+Точний числовий прогноз руху каменя; час і нагороду поточного випробування; ще не відкриту деталь; загальний список автомобілів без показників редагованої конструкції.
+
+### Ігри-носії
+
+- [`GAME-0423` — "Banjo-Kazooie: Nuts & Bolts"](../games/a-f/banjo-kazooie-nuts-and-bolts.md)
+
+## INF-416
+
+- Назва: Показувати стан корабля, небезпеку для напарника й підсумковий маршрут
+- Переглянуто: `2026-09-27`
+
+### Операційне визначення
+
+Під час польоту інтерфейс показує захист гравця, стан прискорення, приціл, сигнал про загрозу названому союзнику та його пошкодження або вибуття; мапа після етапу показує досягнутий маршрут. Майбутні загрози чи ще не відкриту альтернативу повністю не розкрито.
+
+### Включає
+
+Показники захисту й прискорення, приціл, сигнал допомоги Falco, стан команди на паузі та підсумкову мапу етапу Corneria в оригінальній Star Fox 64.
+
+### Виключає
+
+Повну мапу ворогів; точний поточний лічильник семи арок, якого посібник не підтверджує; гарантований показник захисту боса, коли Slippy вибув; вільний вибір Sector Y до проходження етапу.
+
+### Ігри-носії
+
+- [`GAME-0424` — "Star Fox 64"](../games/s-z/star-fox-64.md)
+
+## INF-417
+
+- Назва: Показувати потребу села, віру й ознаки навчання істоти
+- Переглянуто: `2026-09-27`
+
+### Операційне визначення
+
+Гравець може побачити поточну потребу села за прапорцем біля сховища, віру — у відомостях сільського центру, а лампочка над істотою на навчальному повідку вказує на засвоєне спостереження. Ці ознаки не розкривають точного майбутнього приросту віри чи швидкості навчання.
+
+### Включає
+
+Прапорець потреби в їжі, підказка віри в сільському центрі й лампочка істоти під час показового дива на першому острові Black & White.
+
+### Виключає
+
+Точний прогноз відсотка навчання від кожного застосування; повний майбутній список потреб села; чужий показник групової рішучості (`INF-065`).
+
+### Ігри-носії
+
+- [`GAME-0425` — "Black & White"](../games/a-f/black-and-white.md)
+
+## INF-418
+
+- Назва: Позначати папір, який можна відгорнути, і ділянки заднього дотику
+- Переглянуто: `2026-09-27`
+
+### Операційне визначення
+
+Видимі язички або краї паперу вказують на шар, яким можна керувати з переднього екрана, а позначки на тонкій чи прозорій поверхні — на відповідну ділянку для заднього дотику. Ці ознаки підказують спосіб взаємодії, але не гарантують місця майбутнього приземлення.
+
+### Включає
+
+Язички рухомого паперу на ранніх рівнях Tearaway та позначені барабанні поверхні для заднього дотику на PS Vita.
+
+### Виключає
+
+Точний попередній показ траєкторії приземлення; підказку дотику на кожній паперовій поверхні; мапу прихованих майбутніх розділів; завдання з декорування тільки на передньому екрані.
+
+### Ігри-носії
+
+- [`GAME-0426` — Tearaway](../games/s-z/tearaway.md)
+
+## INF-419
+
+- Назва: Показувати зменшення ореолу Темного та спалах після зняття захисту
+- Переглянуто: `2026-09-27`
+
+### Операційне визначення
+
+Ореол навколо захищеного темрявою ворога помітно зменшується під світлом, а яскравий спалах позначає повне зняття захисту. Це відрізняє ще захищену ціль від тієї, яку вже можуть поранити звичайні постріли.
+
+### Включає
+
+Ореол і спалах Темного в оригінальній Alan Wake для Xbox 360.
+
+### Виключає
+
+Точне числове здоров’я захисту або час до зняття; гарантоване влучання; інтерфейс заряду ліхтарика гравця (`INF-119`); постійну позначку цілі після сутички.
+
+### Ігри-носії
+
+- [`GAME-0427` — Alan Wake](../games/a-f/alan-wake.md)
+
+## INF-420
+
+- Назва: Показувати ближню й дальню зони зору одного вибраного вартового
+- Переглянуто: `2026-09-27`
+
+### Операційне визначення
+
+Під час огляду одного ворожого спостерігача показувати його поточне спрямоване поле зору з окремими ближньою і дальньою зонами. Інші, не вибрані вартові продовжують бачити, хоча їхні поля зору одночасно не показано.
+
+### Включає
+
+Огляд ближньої світлої та дальньої темної зон зору одного німецького вартового під час патрулювання в оригінальній Commandos: Behind Enemy Lines.
+
+### Виключає
+
+Одночасний огляд полів зору всіх вартових; точний майбутній шлях патруля; накопичуваний показник виявлення; гарантовану безпеку від не вибраного вартового; саме правило виявлення (`CON-077`).
+
+### Ігри-носії
+
+- [`GAME-0429` — Commandos: Behind Enemy Lines](../games/a-f/commandos-behind-enemy-lines.md)
+
+## INF-421
+
+- Назва: Показувати сили й підказку без напряму зміни
+- Переглянуто: `2026-09-27`
+
+### Операційне визначення
+
+Інтерфейс показує поточні значення кількох запасів політичної сили. Під час огляду відповіді до остаточного вибору він позначає показники, на які вона може вплинути, але не розкриває напряму й величини змін.
+
+### Включає
+
+Чотири смуги церкви, народу, війська й скарбниці та позначки зачеплених сил під час нахилу картки в оригінальній Reigns 2016 року.
+
+### Виключає
+
+Точне передбачення змін зі знаком; приховану наступну картку (`INF-002`); повне розкриття сюжетних прапорців або ваг; гарантію користі від кожної позначки.
+
+### Ігри-носії
+
+- [`GAME-0432` — Reigns](../games/m-r/reigns.md)

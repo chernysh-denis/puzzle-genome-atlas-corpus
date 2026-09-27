@@ -9539,7 +9539,7 @@
 - Novelty: first isolated for `GAME-0320`; the player commits both a spatial
   cast and a cue-gated second input before the target becomes captured.
 
-## ACT-477 — Swing a held net through one reachable insect
+## ACT-477 — Swing a held net through one reachable creature
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
@@ -9547,15 +9547,18 @@
 - Confidence: `High`
 - Definition: the player positions the directly controlled actor and commits
   one short held-net swing through a chosen reachable world volume, testing
-  contact against a currently present insect.
+  contact against a currently present creature.
 - Includes: approaching and swinging a flimsy net at a visible insect during
-  Animal Crossing: New Horizons' first full island day.
+  Animal Crossing: New Horizons' first full island day; steering the Time Net
+  through a reachable monkey during Ape Escape's first Fossil Field visit.
 - Excludes: casting a line; placing an autonomous trap; direct hand-catching;
   attacking a hostile creature for loot; automatic contact collection.
 - Parameters: actor, tool, approach, swing arc, target position, reach,
   collision window, miss, escape and accepted catch.
 - Evidence: [Animal Crossing: New Horizons decomposition](../games/a-f/animal-crossing-new-horizons.md),
-  using Nintendo's beginner guide and corroborating first-day routes.
+  using Nintendo's beginner guide and corroborating first-day routes; [Ape
+  Escape decomposition](../games/a-f/ape-escape.md), using Sony's game
+  description and corroborating original-PlayStation walkthroughs.
 - Novelty: first isolated for `GAME-0320`; capture is a player-aimed transient
   world-volume test rather than inventory targeting or direct proximity pickup.
 
@@ -10663,3 +10666,616 @@
   Sony's creator retrospective and the written original-game gameplay guide.
 - Novelty: first isolated for `GAME-0396`; the demonstrated call and delayed
   answer are one action commitment rather than a continuously scrolling lane.
+
+## ACT-534 — Commit the response demanded by the active short microgame
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after a short task instruction appears, choose and commit its
+  currently applicable simple controller response within that microgame's
+  brief live interval, without carrying that input's meaning to the next task.
+- Includes: pressing A to jump over the approaching car in WarioWare's
+  introductory Crazy Cars; steering through the short Diamond Dig task.
+- Excludes: a persistent avatar's level-wide traversal (`ACT-008`); an
+  instructed beat-for-beat musical echo (`ACT-533`); a defensive response
+  specifically to a telegraphed hostile attack (`ACT-223`).
+- Parameters: task identity, instruction, available controller inputs,
+  local response mapping, timing and task-result condition.
+- Evidence: [WarioWare introductory course](../games/s-z/warioware-inc-mega-microgame.md),
+  Nintendo's GBA booklet and two contemporary written game guides.
+- Novelty: first isolated for `GAME-0398`; the rule for a simple input is
+  replaced at each automatic microgame handoff.
+
+## ACT-535 — Address a dependent companion by call, handhold or ledge assist
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player addresses one nearby dependent companion and commits
+  a contextual call, hand-taking or ledge-assist input that requests the
+  companion's next movement or recovery without directly controlling her.
+- Includes: calling Yorda toward Ico, taking her hand to guide her, and pulling
+  her onto a reachable higher ledge during Ico's first tower escape.
+- Excludes: toggling an independently capable guard between follow and wait
+  (`ACT-408`); selecting a party unit for direct control; an unaddressed
+  companion automatically teleporting to the player; opening the Idol Door,
+  which is Yorda's distinct permitted interaction.
+- Parameters: addressed companion, separation, reach, call versus handhold,
+  ledge height, accepted response, release and vulnerability while separated.
+- Evidence: [Ico opening escape](../games/g-l/ico.md), original North American
+  PlayStation 2 manual transcription pp. 4, 12 and contemporary written route.
+- Novelty: first isolated for `GAME-0399`; one contextual input can maintain
+  bodily contact or request a position-dependent assist from the dependent
+  companion, rather than issuing a combat or destination order.
+
+## ACT-536 — Spend one arena bomb during live control
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during live movement and combat, commit one available finite
+  emergency bomb charge to request an immediate local-area clear without
+  aiming at one particular hostile.
+- Includes: pulling either trigger to use one smart bomb in the original
+  Xbox 360 Evolved score run of Geometry Wars: Retro Evolved.
+- Excludes: placing a delayed tile bomb (`ACT-270`); responding to an incoming
+  locked missile with a countermeasure (`ACT-395`); ordinary directional
+  weapon fire (`ACT-161`); the system's blast and score result (`SYS-1070`).
+- Parameters: live control state, available charge, trigger, activation timing,
+  visible effect region and consumed stock.
+- Evidence: [Geometry Wars: Retro Evolved decomposition](../games/g-l/geometry-wars-retro-evolved.md),
+  two independent contemporary Xbox 360 Evolved guides.
+- Novelty: first isolated for `GAME-0400`; a finite immediate arena clear is
+  deliberately committed without a tile placement or target lock.
+
+## ACT-537 — Trace one continuous slicing stroke through live objects
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: hold a touch contact and move it along one continuous screen
+  path, then release; every eligible moving object intersected by that path
+  belongs to this one committed stroke.
+- Includes: one finger swipe through several airborne fruit in Fruit Ninja's
+  original iPhone version-1.2 Classic run.
+- Excludes: separate taps on targets; a fixed-endpoint grid path (`ACT-016`);
+  cutting a selected rope link (`ACT-027`); drawing a learned brush technique
+  on a frozen view (`ACT-523`); the system's intersection result (`SYS-1072`).
+- Parameters: contact start/end, sampled path, live object positions, stroke
+  continuity, release and intersected object set.
+- Evidence: [Fruit Ninja decomposition](../games/a-f/fruit-ninja.md),
+  contemporary TouchArcade launch review and Halfbrick's version-1.2 note.
+- Novelty: first isolated for `GAME-0401`; one live freehand path may reach
+  multiple targets and hazards before release.
+
+## ACT-538 — Set persistent expedition pace and ration policies
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: at a journey menu, select the continuing travel-speed and daily
+  food-portion settings; both persist until deliberately changed.
+- Includes: steady, strenuous or grueling pace and filling, meager or
+  bare-bones rations before Kansas in A-157 The Oregon Trail.
+- Excludes: instant food consumption; one tactical move; weather changing
+  speed without player policy choice.
+- Parameters: two settings, permitted levels, current policy and next edit.
+- Evidence: [The Oregon Trail decomposition](../games/s-z/the-oregon-trail.md),
+  MECC A-157 instructional booklet, Program Preview pp. 8–10.
+- Novelty: first isolated for `GAME-0402`; policies affect subsequent days,
+  not just one isolated action.
+
+## ACT-539 — Choose a condition-dependent river response
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after seeing a reached river's measurements and offered
+  options, commit to ford, caulk and float, hire an eligible ferry, or wait.
+- Includes: the A-157 Kansas crossing choice after viewing width and depth.
+- Excludes: steering the Columbia raft; ordinary travel; assuming the chosen
+  crossing has succeeded before risk resolves.
+- Parameters: river, width, depth, offered methods, choice and wait.
+- Evidence: [The Oregon Trail decomposition](../games/s-z/the-oregon-trail.md),
+  MECC A-157 booklet, Program Preview p. 11 and model p. 36.
+- Novelty: first isolated for `GAME-0402`; one displayed physical hazard
+  gates alternatives with distinct prices and risks.
+
+## ACT-540 — Spend a travel day hunting for carried provisions
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: leave travel to aim and fire limited ammunition at available
+  wildlife, seeking food while accepting a travel-day cost.
+- Includes: optional hunting before Kansas in A-157 The Oregon Trail.
+- Excludes: hostile combat; purchasing food; silently gaining the full animal
+  weight rather than the capped quantity carried back.
+- Parameters: prey, aim, shot, ammunition, day cost and result.
+- Evidence: [The Oregon Trail decomposition](../games/s-z/the-oregon-trail.md),
+  MECC A-157 booklet, Program Preview p. 11.
+- Novelty: first isolated for `GAME-0402`; an aimed subtask converts
+  ammunition and a day into possible expedition food.
+
+## ACT-541 — Offer carried goods for an on-trail barter
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: at an eligible journey stop, offer carried goods in return for
+  a desired supply; an accepted exchange changes the outfit and spends a day.
+- Includes: A-157's `Attempt to trade` on the first trail leg.
+- Excludes: fixed-price Matt's General Store purchase before entry; passive
+  loot; automated trade-route income.
+- Parameters: offered goods, desired goods, counterparty, acceptance and day.
+- Evidence: [The Oregon Trail decomposition](../games/s-z/the-oregon-trail.md),
+  MECC A-157 booklet, Program Preview pp. 9–10.
+- Novelty: first isolated for `GAME-0402`; negotiated supply exchange is a
+  deliberate alternative to travel, hunting or initial shopping.
+
+## ACT-542 — Direct vacuum suction at a reachable world fixture
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: aim and hold a portable vacuum's suction on a compatible fixed
+  world fixture so that the fixture changes state, without storing the fixture
+  as carried inventory or treating the input as a damage strike.
+- Includes: extinguishing the Parlor's lit candles with the Poltergust before
+  the first normal ghosts appear in original Luigi's Mansion.
+- Excludes: collecting loose slimes into a typed tank (`ACT-467`); vacuuming
+  a heart-exposed resisting ghost (`ACT-544`); ordinary contextual use of a
+  chest or door (`ACT-341`).
+- Parameters: tool, fixture, aim, reach, suction duration and state change.
+- Evidence: [Luigi's Mansion decomposition](../games/g-l/luigis-mansion.md),
+  corroborated by both written GameCube Parlor routes and Nintendo's original
+  booklet for the vacuum's general world-object interaction.
+- Novelty: first isolated for `GAME-0403`; the same suction tool alters an
+  anchored environmental trigger without tank storage or combat damage.
+
+## ACT-543 — Withhold and direct portable light to expose a nearby hostile
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: deliberately suppress a carried directional light while
+  approaching a light-sensitive hostile, then aim its beam at the nearby
+  hostile to request a temporary vulnerability exposure.
+- Includes: holding B to keep Luigi's flashlight off, then shining it on a
+  close Parlor ghost in the original GameCube rules.
+- Excludes: turning on ambient room lights; firing a damaging projectile;
+  a persistent scan that marks future targets; the system's vulnerability
+  response (`SYS-1080`).
+- Parameters: light source, off/on input, facing, beam direction, distance,
+  target and exposure window.
+- Evidence: [Luigi's Mansion decomposition](../games/g-l/luigis-mansion.md),
+  Nintendo's original booklet pp. 10–12.
+- Novelty: first isolated for `GAME-0403`; the player controls illumination
+  as encounter timing rather than simply navigating in darkness.
+
+## ACT-544 — Hold ghost suction and counter-steer its escape
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: hold an aimed vacuum on a currently exposed, reachable hostile
+  while continuously steering against that hostile's escape direction so
+  its resistance can be depleted toward capture.
+- Includes: holding R and tilting the Control Stick and C Stick away from a
+  Parlor ghost during original GameCube capture.
+- Excludes: one-tap collection of a loose object; storing a creature in a
+  reversible Vacpack tank (`ACT-467`); shining the flashlight (`ACT-543`);
+  the actual power drain and capture response (`SYS-1081`).
+- Parameters: exposed target, reach, suction strength, held interval,
+  escape vector, counter-steering input and lost-hold condition.
+- Evidence: [Luigi's Mansion decomposition](../games/g-l/luigis-mansion.md),
+  Nintendo's original booklet pp. 12–13 and GameCube product description.
+- Novelty: first isolated for `GAME-0403`; target resistance makes a
+  continuous directional contest part of capture rather than a button press.
+
+## ACT-545 — Step on chart-matched directional foot panels at the beat
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: as a displayed directional chart event reaches the fixed
+  step zone, the player commits a physical step on its corresponding floor
+  panel, or a simultaneous pair of panels for a paired event.
+- Includes: one-player four-arrow foot-panel play on Konami's `GN845-UC`
+  DanceDanceRevolution arcade cabinet.
+- Excludes: holding guitar frets and strumming (`ACT-508`); instructor-call
+  response (`ACT-533`); a generic moving-pointer skill check (`ACT-261`);
+  later-series hold or freeze-arrow mechanics.
+- Parameters: chart event, one or two arrow directions, matching foot panels,
+  event time, contact time and contact duration.
+- Evidence: [DanceDanceRevolution decomposition](../games/a-f/dancedancerevolution.md),
+  Konami's 1998 `GN845-UC` operator manual, p. 11.
+- Novelty: first isolated for `GAME-0406`; the input must match physical
+  floor direction and musical timing together.
+
+## ACT-546 — Collect a transient production token by clicking it
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player explicitly clicks a visible, short-lived resource
+  unit before it expires, transferring its value into a shared spendable
+  balance; generation without the click grants nothing.
+- Includes: collecting daylight or Sunflower-produced sun in a regular
+  daytime Plants vs. Zombies Adventure level.
+- Excludes: walking an avatar over a pickup; a periodic deposit granted
+  automatically; a post-wave credit; harvesting a persistent crop into
+  carried inventory.
+- Parameters: unit value, screen position, collection interval, cursor
+  target and resulting balance.
+- Evidence: [Plants vs. Zombies decomposition](../games/m-r/plants-vs-zombies.md),
+  PopCap's public readme, “Controls” and “Sun”.
+- Novelty: first isolated for `GAME-0407`; an independent collection input
+  makes generated income perishable before it becomes purchasing power.
+
+## ACT-547 — Shovel an occupied defender cell to free it
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player applies a reusable removal tool to one existing
+  placed defender, removing that defender and freeing its occupied cell for
+  a later placement, without transferring it to inventory.
+- Includes: using the shovel on an occupied lawn cell after level `1-4`
+  in original Plants vs. Zombies Adventure play.
+- Excludes: a sale that credits a known refund; an extraction command that
+  recovers an item (`ACT-122`); destroying a hostile; a one-use offensive
+  plant automatically consuming itself.
+- Parameters: occupied cell, selected tool, removed plant, freed cell and
+  follow-on placement eligibility.
+- Evidence: [Plants vs. Zombies decomposition](../games/m-r/plants-vs-zombies.md),
+  PopCap's public readme, “Shovel”.
+- Novelty: first isolated for `GAME-0407`; the defender footprint can be
+  deliberately cleared without implying material recovery.
+
+## ACT-548 — Inflate the normal controlled body and flap through a stage
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while the directly controlled body is in its ordinary form, the
+  player deliberately inflates it, repeats a flight input to gain height and
+  may expel the held air as an attack, ending that airborne form until the
+  body inflates again.
+- Includes: Kirby pressing Up in Normal form, flapping with A and optionally
+  firing an air pellet with B in the original NES Vegetable Valley 1-1 route.
+- Excludes: a permanently airborne avatar; a separately acquired temporary
+  inflation pickup; an ordinary single jump; passive buoyancy without repeated
+  player control; a copied enemy ability.
+- Parameters: form gate, inflate input, repeated lift input, steering, air
+  attack, deflation and re-inflation.
+- Evidence: [Kirby's Adventure decomposition](../games/g-l/kirbys-adventure.md),
+  using Nintendo's preserved original NES manual, pp. 14–15.
+- Novelty: first isolated for `GAME-0408`; unlike `ACT-473`, inflation is an
+  intrinsic Normal-form mode, not a temporary acquired capability.
+
+## ACT-549 — Inhale and resolve one mouth-held stage body
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the directly controlled avatar inhales one nearby eligible enemy
+  or block into an exclusive held-mouth state, then commands either an expelled
+  star projectile or swallowing; the commanded resolution clears that hold.
+- Includes: Kirby inhaling a Waddle Doo in Vegetable Valley 1-1 and pressing
+  Down to swallow it, with B expulsion as the route's unchosen alternative.
+- Excludes: a ridden companion's tongue and mouth (`ACT-493`); automatic
+  swallowing on a timer; a collected inventory item; the copied capability
+  granted by swallowing a typed enemy.
+- Parameters: actor, target eligibility, inhalation reach, mouth occupancy,
+  expel or swallow input, projectile and held-state clearing.
+- Evidence: [Kirby's Adventure decomposition](../games/g-l/kirbys-adventure.md),
+  using Nintendo's preserved original NES manual, pp. 16–17.
+- Novelty: first isolated for `GAME-0408`; the player body's own mouth is a
+  single resolving world-body hold, not the mounted companion relation.
+
+## ACT-550 — Cycle carried vehicle weapons to activate one type
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while driving a combat vehicle with several carried weapon
+  types, the player cycles the eligible arsenal so one type becomes the
+  active weapon for the next fire command without spending ammunition merely
+  by selecting it.
+- Includes: cycling from the current weapon to a picked-up missile type in
+  original PS2 Twisted Metal: Black's Junkyard Story arena.
+- Excludes: collecting the weapon; firing and paying its ammunition; choosing
+  a car before the arena; a general hand-held inventory quick slot; automatic
+  fallback on empty ammunition unless the rules explicitly provide it.
+- Parameters: carried types, ordering, selected type, input, availability,
+  displayed selection and later shot cost.
+- Evidence: [Twisted Metal: Black decomposition](../games/s-z/twisted-metal-black.md),
+  using Sony's original PS2 manual, vehicle controls and weapon pickups.
+- Novelty: first isolated for `GAME-0409`; in-vehicle combat weapon cycling
+  changes the active attack without moving an item between inventory slots.
+
+## ACT-551 — Time a second command on an already launched weapon
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after one projectile or deployable has been launched, the
+  player issues a second command during its travel to resolve that same
+  weapon at a chosen moment or position rather than launching another copy.
+- Includes: Junkyard Dog firing its spiked ball and firing again to drop the
+  same ball onto the aiming reticle in original PS2 Twisted Metal: Black.
+- Excludes: an ordinary single-shot missile; automatic impact on contact;
+  firing a second independent projectile; detonating a permanent map hazard.
+- Parameters: launched object, travel state, reticle, second input, timing
+  window, affected position and resolution.
+- Evidence: [Twisted Metal: Black decomposition](../games/s-z/twisted-metal-black.md),
+  using Sony's original PS2 manual, Junkyard Dog Special description.
+- Novelty: first isolated for `GAME-0409`; the second press acts on one
+  already airborne vehicle weapon.
+
+## ACT-552 — Select an allied map landing for a committed jump
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: from an active team map, the player selects one currently eligible allied actor or team-spawn destination and commits a rapid relocation to that live landing, rather than freely choosing any world coordinate.
+- Includes: a Splatoon 3 Regular Battle Super Jump from the team spawn toward an ally nearer the contested ground.
+- Excludes: ordinary walking or own-ink swimming; a teleport to arbitrary ground; automatic post-splat spawn without a destination choice; later Stealth Jump balance modifiers.
+- Parameters: eligible allied destination, team spawn, map selection, launch delay, transit, landing exposure and cancellation policy.
+- Evidence: [Splatoon 3 decomposition](../games/s-z/splatoon-3.md), Nintendo's official Super Jump research report. Exact launch animation timings remain unverified.
+- Novelty: first isolated for `GAME-0412`; the live allied landing identity is the player's map-selected relocation target.
+
+## ACT-553 — Cover a visible leak with a tracked body part
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player moves an eligible continuously tracked body region to a currently visible spatial leak target and holds it there to maintain contact, rather than committing a one-shot controller command.
+- Includes: placing a hand, foot, knee or head over one glass hole in the original Xbox 360 Kinect Adventures! 20,000 Leaks activity.
+- Excludes: a directional virtual net swing (`ACT-477`); a sampled bowling release (`ACT-499`); stepping on a discrete dance panel (`ACT-545`); a decorative avatar mirror with no leak contact.
+- Parameters: tracked region, active hole, corresponding avatar location, contact tolerance, hold duration and release.
+- Evidence: [Kinect Adventures! decomposition](../games/g-l/kinect-adventures.md), Microsoft's original manual pp. 18–19 and the contemporary played review.
+- Novelty: first isolated for `GAME-0414`; continuous physical body placement is the operative command, and a held contact may have to coexist with other contacts.
+
+## ACT-554 — End the current army day and hand over command
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player explicitly closes the currently controlled side's tactical day, forfeiting any optional unspent unit orders and handing command to the opposing side rather than waiting with just one unit.
+- Includes: selecting End after any number of Orange Star infantry orders in Advance Wars Field Training `Terrain Intel`.
+- Excludes: one infantry's Wait order; an automatic enemy response immediately after each move; a real-time pause; a mandatory order for every friendly unit before the side can end.
+- Parameters: active side, remaining unit orders, End command, handoff and next-day refresh.
+- Evidence: [Advance Wars decomposition](../games/a-f/advance-wars.md), Nintendo's original booklet pp. 6 and 12 and original mission dialogue transcription.
+- Novelty: first isolated for `GAME-0416`; a deliberate whole-army handoff is distinct from exhausting or waiting with one piece.
+
+## ACT-555 — Assign a crew member to a ship room
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: select one available crew member and order that person to a reachable room of the same ship, where their presence can staff a system, repair damage or respond to a hazard while other ship processes continue.
+- Includes: moving one original Kestrel crew member from a station to a damaged system room during a hostile FTL beacon encounter.
+- Excludes: directly steering the ship; assigning a persistent colony job; teleporting onto an enemy ship; a repair that occurs without crew reaching the room.
+- Parameters: selected crew, origin room, destination room, traversable doors, current task, room capacity, travel time and hazard exposure.
+- Evidence: [FTL: Faster Than Light decomposition](../games/a-f/ftl-faster-than-light.md), using Subset Games' product rules and launch-era player accounts on its forum.
+- Novelty: first isolated for `GAME-0418`; room-directed personnel orders reallocate simultaneous shipboard labour rather than directly moving an avatar or queuing a whole squad's path.
+
+## ACT-556 — Aim a charged ship weapon at an enemy room
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: select a powered ship weapon and designate one currently targetable enemy-ship room as the destination of its next shot, committing that weapon's charge and compatible ammunition when the shot fires.
+- Includes: aiming the Kestrel's Burst Laser II or Artemis missile at an enemy weapon or shield room during a base-game encounter.
+- Excludes: directly piloting a projectile; merely powering the weapon; a room hit guaranteed despite evasion; attacks on undifferentiated whole-ship health without a room target.
+- Parameters: selected weapon, charge, enemy room, auto-fire setting, projectile sequence, hit or miss and ammunition cost.
+- Evidence: [FTL: Faster Than Light decomposition](../games/a-f/ftl-faster-than-light.md), using Subset Games' official description and 2012 player-targeting reports.
+- Novelty: first isolated for `GAME-0418`; one live vessel weapon is deliberately pointed at a functional room rather than at a free-space reticle or an entire target body.
+
+## ACT-557 — Stroke a responsive puppy through touch contact
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: place and move a touch-screen contact over a nearby puppy to pet it, choosing where and how long to continue the interaction while the puppy may respond.
+- Includes: stroking the first named puppy on the Nintendo DS touch screen during the original Nintendogs home session.
+- Excludes: dragging a puppy as a controllable piece; choosing a menu command without touching the animal; brushing with a care supply; assuming indefinitely positive response.
+- Parameters: contact position, movement, duration, puppy focus and response.
+- Evidence: [Nintendogs decomposition](../games/m-r/nintendogs.md), Nintendo of America's original instruction booklet pp. 12–13.
+- Novelty: first isolated for `GAME-0419`; direct petting duration matters independently of contextual task orders or equipping a tool.
+
+## ACT-558 — Address a trained puppy through the microphone
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: speak a name or trick cue into the microphone to call a puppy, associate a new cue during training, or request a previously taught action; the utterance is not a guaranteed button command.
+- Includes: naming the first Nintendogs puppy and teaching or later speaking its first sit cue.
+- Excludes: typing the name alone; recording a Bark Mode message; a scripted dialogue choice; directly moving the puppy with a control stick.
+- Parameters: utterance, pronunciation consistency, learned cue, microphone condition, attention and recognised response.
+- Evidence: [Nintendogs decomposition](../games/m-r/nintendogs.md), Nintendo of America's original instruction booklet pp. 10–11, 12–13 and 18–19.
+- Novelty: first isolated for `GAME-0419`; player speech is a trainable, fallible input channel addressed to an autonomous puppy.
+
+## ACT-559 — Choose and apply a puppy-care supply
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: open the available care-supply category, select an owned feeding or grooming item and apply it to the puppy through the touch interface.
+- Includes: using one available food, drink or grooming supply in the original Nintendogs first-home session after Supplies unlocks.
+- Excludes: buying a supply at a store; throwing a toy as play; a zoo-wide automatic husbandry order; asserting a particular item is stocked in every starting file.
+- Parameters: available category, selected item, puppy, care interaction and resulting visible state.
+- Evidence: [Nintendogs decomposition](../games/m-r/nintendogs.md), Nintendo of America's original instruction booklet pp. 20–23.
+- Novelty: first isolated for `GAME-0419`; a direct single-puppy care tool differs from assigning a household resident or zoo worker a standing job.
+
+## ACT-560 — Issue a four-beat drum phrase as a formation order
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during the current live beat interval, commit four ordered drum-button sounds whose recognised phrase selects a movement or combat order for the available formation, rather than directly steering one member.
+- Includes: `PATA PATA PATA PON` to march and `PON PON PATA PON` to attack in the original PSP *Patapon* first Patata Plain hunt.
+- Excludes: echoing a teacher's immediately demonstrated phrase (`ACT-533`); matching scrolling foot-panel arrows (`ACT-545`); assigning an individual soldier a position or strike; decorative drumming that issues no order.
+- Parameters: button-to-drum mapping, four-syllable phrase, live beat, recognised command and addressed formation.
+- Evidence: [Patapon decomposition](../games/m-r/patapon.md), original Sony PSP manual pp. 2–3 and contemporary first-hunt guide.
+- Novelty: first isolated for `GAME-0422`; the ordered rhythmic input chooses an army verb and delegates its execution to the formation.
+
+## ACT-561 — Assemble and revise a directly driven vehicle from available parts
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: in a vehicle workshop, the player selects available functional parts, attaches, moves or removes them in a connected vehicle design, then saves or selects that design for direct operation in a challenge.
+- Includes: constructing a compact wheeled bulldozer with a broad front scoop from available Mumbo's Motors parts, testing it and choosing it for Nutty Acres Act 2's Great Balls of Fire.
+- Excludes: choosing an unchanged complete stock vehicle; applying a cosmetic paint job; replacing a fixed equipment slot during a race; assembling an autonomous factory; requiring this custom build when the original trolley can complete the challenge.
+- Parameters: part stock, seat, engine, fuel, wheels, frame, scoop geometry, attachment, removal, blueprint, test and selection.
+- Evidence: [Banjo-Kazooie: Nuts & Bolts decomposition](../games/a-f/banjo-kazooie-nuts-and-bolts.md), original Xbox 360 manual and licensed Prima guide.
+- Novelty: first isolated for `GAME-0423`; unlike a fixed car selection or a Spore lineage's body editor, the assembled functional artifact is the directly driven vehicle used against a physical mission target.
+
+## ACT-562 — Steer a craft within an automatically advancing flight corridor
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: continuously place a directly controlled craft along two lateral screen axes while its authored course advances automatically, adjusting its local line through threats or traversal openings without selecting a free-space destination.
+- Includes: piloting Fox's Arwing under Corneria's seven stone arches while steering around visible hazards in original Nintendo 64 Star Fox 64 3D Scroll Mode.
+- Excludes: commanding unrestricted three-axis spaceflight (`ACT-392`); turning the camera to change geometry; directing an autonomous craft; a single vertical-button auto-runner; selecting a route node from a map.
+- Parameters: craft, horizontal and vertical placement, corridor bounds, input speed, visible opening, collision and automatic forward rate.
+- Evidence: [Star Fox 64 decomposition](../games/s-z/star-fox-64.md), Nintendo's original manual pp. 8, 14 and 24.
+- Novelty: first isolated for `GAME-0424`; two-axis craft placement is live and attack-bearing, but longitudinal course authority stays with the scrolling stage.
+
+## ACT-563 — Cast one addressed god-hand miracle
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player activates an available divine miracle, positions the Hand over a chosen legal world recipient and commits the effect there, rather than directly handling the produced resource or issuing an order to an agent.
+- Includes: breaking a one-shot Food Miracle bubble and casting its food over Guide's Aztec Village Store while a leashed creature watches in original Windows *Black & White*.
+- Excludes: a spell card played from a turn hand (`ACT-333`); a creature casting independently after learning; placing gathered grain by direct pickup; granting a cast without an available miracle.
+- Parameters: miracle type, one-shot or learned source, Hand target, recipient, activation, accepted cast and effect placement.
+- Evidence: [Black & White decomposition](../games/a-f/black-and-white.md), Lionhead's original manual pp. 29–30 and the contemporary Land One Guide sequence.
+- Novelty: first isolated for `GAME-0425`; a world-positioned divine effect can change settlement supply while serving as an observable training example.
+
+## ACT-564 — Peel a manipulable paper layer by front touch
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: drag a visible paper edge on the front touchscreen so the covering layer lifts away from its world support and exposes the surface underneath, rather than selecting an interface item.
+- Includes: peeling a paper coating from a platform to reveal a bouncy area in original PS Vita *Tearaway*.
+- Excludes: drawing and cutting a decorative paper shape; rearranging a map tile; folding a whole bridge automatically; touching an already exposed drum with the rear panel.
+- Parameters: front-touch path, peelable edge, attached layer, exposed area and whether the revealed surface is traversable.
+- Evidence: [Tearaway decomposition](../games/s-z/tearaway.md), contemporary first-hand Gameranx review and Destructoid hands-on.
+- Novelty: first isolated for `GAME-0426`; front-touch material removal is an authored geometry edit, not merely avatar movement or ordinary object selection.
+
+## ACT-565 — Strike an occupied paper drum from the rear touchpad
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: tap the mapped rear touchpad region of a paper drum while the controlled messenger occupies its surface, deliberately requesting a launch rather than relying on automatic contact bounce.
+- Includes: rear-touch drumming that lifts Iota or Atoi from a marked drumskin in original PS Vita *Tearaway*.
+- Excludes: automatic bounce on contact (`SYS-1056`); an independently available jump button; a rear-touch poke that moves an obstacle; rhythmic phrase commands to a formation (`ACT-560`).
+- Parameters: marked drum position, corresponding rear sensor region, messenger contact and input moment.
+- Evidence: [Tearaway decomposition](../games/s-z/tearaway.md), Sony PlayStation Blog hands-on and contemporary first-hand previews.
+- Novelty: first isolated for `GAME-0426`; a separate rear-surface input triggers movement of a directly controlled avatar standing on a world drum.
+
+## ACT-566 — Direct and optionally boost a portable beam against a shrouded hostile
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: aim an already available handheld light beam at a darkness-protected hostile and choose whether to hold a charge-spending beam boost while maintaining target contact.
+- Includes: aiming and boosting Alan's flashlight on a Taken in original Xbox 360 *Alan Wake*.
+- Excludes: hiding the light before a one-off surprise (`ACT-543`); toggling a portable light (`ACT-409`); firing a weapon (`ACT-161`); light's shroud-removal settlement (`SYS-1126`).
+- Parameters: beam direction, target, contact interval, normal versus boosted mode and boost input duration.
+- Evidence: [Alan Wake decomposition](../games/a-f/alan-wake.md), original Microsoft/Remedy Xbox 360 manual pp. 10–14.
+- Novelty: first isolated for `GAME-0427`; the player continuously directs light into a protective enemy state while choosing a faster, charge-costly mode.
+
+## ACT-567 — Place or erase a course element in a non-live editor
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: select an available course element in a self-paced editor and place it at a chosen course-grid position, or erase an already placed element, changing the layout that will be tested later rather than the live avatar's current world.
+- Includes: touch-placing or erasing an ordinary ground block with the Wii U GamePad in original *Super Mario Maker*.
+- Excludes: placing a held, material-backed block within avatar reach in Minecraft Survival or Terraria (`ACT-162`); changing collision while a live trial continues; freely editing a downloaded other-maker course for upload.
+- Parameters: palette, element type, grid cell, start/goal bounds, placement/erase mode and resulting layout.
+- Evidence: [Super Mario Maker decomposition](../games/s-z/super-mario-maker.md), Nintendo's original electronic manual, Create.
+- Novelty: first isolated for `GAME-0428`; course geometry is edited in a separate untimed authoring state before direct live play.
+
+## ACT-568 — Switch the current authored course into trial play
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: deliberately toggle the current editable course into direct playable trial mode and, when still available, return to editing the same course, without committing an online upload.
+- Includes: the GamePad Trial Play control in original Wii U *Super Mario Maker*.
+- Excludes: executing a locked autonomous machine program (`TIM-006`); entering an unrelated published course; claiming a mid-course trial already satisfies the separate creator clear proof for upload.
+- Parameters: current layout, edit/play state, trial origin and return condition.
+- Evidence: [Super Mario Maker decomposition](../games/s-z/super-mario-maker.md), Nintendo's original electronic manual, Create.
+- Novelty: first isolated for `GAME-0428`; authoring and direct live traversal exchange authority over the same current course.
+
+## ACT-569 — Aim and commit an anchor-based Bash launch
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while an eligible nearby enemy, projectile or authored anchor is available, the player holds the Bash input, chooses a launch direction and releases it to propel the directly controlled avatar from that target.
+- Includes: aiming Ori's Bash from a lantern, enemy or hostile projectile during the original Xbox One Ginso Tree ascent and escape.
+- Excludes: an ordinary jump or wall jump; firing a new projectile; choosing a remote destination for automatic pathfinding; the separate opposite-direction response of a contacted projectile (`SYS-1131`).
+- Parameters: target class, proximity, aim vector, pause/aim presentation, launch impulse and target state.
+- Evidence: [Ori and the Blind Forest decomposition](../games/m-r/ori-and-the-blind-forest.md), Xbox's creator-led Ginso demonstration and launch description.
+- Novelty: first isolated for `GAME-0431`; player-selected traversal uses a live world body or projectile as a launch anchor rather than only static level geometry.
+
+## ACT-570 — Place a player-chosen Soul Link checkpoint
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player requests a new return point at the avatar's current eligible world position, deliberately spending the declared resource instead of waiting for a fixed or automatic checkpoint.
+- Includes: Ori placing a Soul Link in a safe position during the original Xbox One Ginso Tree ascent.
+- Excludes: using the fixed Spirit Well (`ACT-341`); automatic checkpoint writing; save-anywhere menu history; claiming placement is possible without energy or in every hazardous position (`CON-708`).
+- Parameters: requested position, input, resource cost, eligibility feedback and overwritten prior anchor.
+- Evidence: [Ori and the Blind Forest decomposition](../games/m-r/ori-and-the-blind-forest.md), original Xbox manual and Xbox's launch description.
+- Novelty: first isolated for `GAME-0431`; the player chooses a persistent retry location inside the traversed world at a resource cost.

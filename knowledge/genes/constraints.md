@@ -13139,3 +13139,246 @@
   corroborated by GameFAQs and Gamepressure's Grab and Swing routes.
 - Novelty: first isolated for `GAME-0394`; anchor eligibility is a distinct
   rule from both reusable tether control and the resulting motion.
+
+## CON-694 — Emergency arena clear requires replenishable finite bomb stock
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the emergency clearing input is legal only when its finite
+  carried bomb stock is positive; activation consumes one charge, while later
+  qualifying score milestones may restore stock up to a cap. Exhausting it
+  leaves ordinary movement and firing available.
+- Includes: Evolved smart bombs in the original Xbox 360 Geometry Wars:
+  Retro Evolved score run.
+- Excludes: a finite supply whose exhaustion itself terminates play
+  (`CON-059`); the life stock that gates Game Over (`CON-183`); unlimited
+  weapon shots; the separate score award (`SYS-1069`).
+- Parameters: starting bomb count, current stock, cap, activation eligibility,
+  cost, replenishment and state after zero bombs.
+- Evidence: [Geometry Wars: Retro Evolved decomposition](../games/g-l/geometry-wars-retro-evolved.md),
+  two independent contemporary Xbox 360 Evolved guides.
+- Novelty: first isolated for `GAME-0400`; optional emergency protection can
+  be exhausted while the scored survival run still continues.
+
+## CON-695 — Expedition continues only while the wagon party survives
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: finite food, oxen, outfit and condition constrain continued
+  travel; their losses feed later day-by-day consequences, and the journey
+  ends if the leader and remaining party all perish.
+- Includes: A-157 first-leg journey and possible all-party death.
+- Excludes: zero food as instant game over; one member's death as automatic
+  terminal; finite score-run lives (`CON-183`).
+- Parameters: living members, health, food, viable oxen, outfit, day and
+  terminal check.
+- Evidence: [The Oregon Trail decomposition](../games/s-z/the-oregon-trail.md),
+  MECC A-157 booklet, Program Preview pp. 10–12 and model pp. 35–36.
+- Novelty: first isolated for `GAME-0402`; resources threaten a persistent
+  group journey without each individual loss ending it.
+
+## CON-696 — Planting needs a ready packet, enough sun and a free lawn cell
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a plant commitment is legal only when its seed packet is
+  currently available after recharge, the spendable sun balance covers its
+  displayed cost, and the target lawn cell can accept that plant without
+  an incompatible occupant.
+- Includes: choosing a Sunflower, Peashooter or Wall-nut in a regular
+  daytime Plants vs. Zombies level after the shovel is awarded.
+- Excludes: a cooldown that gates direct weapon fire; buying a unit without
+  selecting a lawn position; assuming sun appears automatically in balance;
+  moving an existing plant instead of removing it first.
+- Parameters: packet type, unlock state, price, current sun, recharge state,
+  target cell, occupant and permitted placement surface.
+- Evidence: [Plants vs. Zombies decomposition](../games/m-r/plants-vs-zombies.md),
+  PopCap's public readme, “Plants and Planting”, “Sun” and “Shovel”.
+- Novelty: first isolated for `GAME-0407`; the same spatial commitment is
+  constrained by both a collected currency and a per-type recharge clock.
+
+## CON-697 — Inhalation requires Normal form and a free mouth
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an enemy or block can enter the directly controlled avatar's
+  mouth only while that avatar has no active copied ability, the target is
+  within inhalation reach and the mouth does not already hold another body;
+  an excluded enemy remains ineligible despite proximity.
+- Includes: Normal-form Kirby inhaling one eligible Waddle Doo in original
+  NES Vegetable Valley 1-1 and being unable to inhale a second target before
+  expelling or swallowing the first.
+- Excludes: Yoshi's mounted-companion mouth (`CON-660`); ability effects after
+  a legal swallow; spatially remote inventory selection; an assertion that
+  every enemy is edible.
+- Parameters: body form, active copy state, reach, target eligibility, mouth
+  occupancy, rejected request and held-state release.
+- Evidence: [Kirby's Adventure decomposition](../games/g-l/kirbys-adventure.md),
+  using Nintendo's preserved original NES manual, pp. 16–20, and its
+  abbreviated controls guide, p. 6.
+- Novelty: first isolated for `GAME-0408`; the own-body inhalation gate is
+  mutually exclusive with a current copied ability.
+
+## CON-698 — Allied ink gates fast swim and refill access
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: rapid Swim Form traversal and its associated tank refill require a reachable surface coated in the controlled player's own team colour; an opposing-colour patch does not grant the same affordance and impedes ordinary ground movement.
+- Includes: Splatoon 3 ordinary Turf War swimming through allied-painted ground or a climbable allied-painted wall, versus crossing rival ink.
+- Excludes: every painted wall counting toward final Turf War area; a permanent ability unlock; swimming equally through either team's ink; weapon tank consumption and regeneration themselves (`SYS-1097`).
+- Parameters: current form, team colour, contacted surface colour, ground/wall type, climb eligibility, movement penalty and refill eligibility.
+- Evidence: [Splatoon 3 decomposition](../games/s-z/splatoon-3.md), Nintendo's official gameplay and movement explanations.
+- Novelty: first isolated for `GAME-0412`; a reversible team-colour surface is a form-specific movement and resource-access predicate.
+
+## CON-699 — Concurrently cover every hole in one connected crack
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a connected group of visible leaking holes is eligible to seal only while every member has a valid body-part contact at the same time; releasing a required prior contact removes that member from the current eligible set.
+- Includes: a two-hand or multi-limb simultaneous pose for linked leaks in original Xbox 360 Kinect Adventures! 20,000 Leaks.
+- Excludes: a sequence of independent taps that permanently latch each hole; requiring contact across unrelated cracks; two separately controlled human actors (`CON-379`); an exact unmeasured sensor-frame tolerance.
+- Parameters: crack connectivity, required hole set, contacted subset, eligible body parts, overlap interval and contact release.
+- Evidence: [Kinect Adventures! decomposition](../games/g-l/kinect-adventures.md), Microsoft's original manual pp. 18–19 and contemporary observed multi-leak play.
+- Novelty: first isolated for `GAME-0414`; the constraint is simultaneous coverage by one tracked body, distinct from the resulting seal-and-score transition (`SYS-1101`).
+
+## CON-700 — Taxi service requires a complete stop inside its marked zone
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a player-driven taxi may board one waiting customer or complete that customer's delivery only while the cab has reached a complete stop inside the corresponding pickup circle or assigned destination stop zone.
+- Includes: the outlined customer pickup and green destination zone in Dreamcast Crazy Taxi's Arcade-rule run.
+- Excludes: driving through a zone without stopping; stopping at a different passenger's destination; a generic parking grade that evaluates pose without a passenger service transition.
+- Parameters: service stage, zone geometry, assigned passenger, cab position, speed threshold and accepted stop.
+- Evidence: [Crazy Taxi decomposition](../games/a-f/crazy-taxi.md), original Sega Dreamcast manual p. 9.
+- Novelty: first isolated for `GAME-0415`; one physical stopping predicate gates both chosen boarding and paid service settlement.
+
+## CON-701 — Separate passenger deadline from the overall taxi run clock
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: one boarded passenger's countdown gates payment for that fare, while an independent overall session clock gates the entire taxi run; customer expiry forfeits the current fare without by itself ending the run, and overall expiry ends the run regardless of already earned fares.
+- Includes: the separate customer time limit and game time displays of Dreamcast Crazy Taxi under Arcade rules.
+- Excludes: one deadline that simply terminates a level (`CON-068`); a fixed number of required fares; an elapsed timer used only as a performance measure.
+- Parameters: personal allowance, overall allowance, decrement rates, delivery check, abandonment and game-over ordering.
+- Evidence: [Crazy Taxi decomposition](../games/a-f/crazy-taxi.md), original Sega Dreamcast manual pp. 7–11.
+- Novelty: first isolated for `GAME-0415`; missing a local service deadline and exhausting the global run clock have different terminal consequences.
+
+## CON-702 — Charge terrain movement cost by unit type
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a unit may enter a route only if the sum of its unit-type-specific costs for the traversed terrain fits that day's available movement allowance; a cell's defensive advantage does not waive its entry cost.
+- Includes: ordinary infantry paying more movement to enter a mountain than a plain in Advance Wars Field Training `Terrain Intel`, while mechanised infantry has a different mountain cost.
+- Excludes: a uniform step cost for every cell and unit; a terrain tile that is simply impassable; hex-grid river, embarkation and zone-of-control rules; permanent movement upgrades.
+- Parameters: unit movement class, allowance, traversed cell types, per-cell cost and remaining range.
+- Evidence: [Advance Wars decomposition](../games/a-f/advance-wars.md), Nintendo's original booklet p. 30 and the mission's mountain-cost lesson.
+- Novelty: first isolated for `GAME-0416`; the selected unit's movement class makes the same terrain route differently affordable.
+
+## CON-703 — Fit live ship systems within a reactor budget
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the combined live power assigned to ship systems cannot exceed available reactor output, and each powered system needs its own viable capacity; shifting power to one room can leave another inactive until reallocation.
+- Includes: choosing among the original Kestrel's shields, engines, weapons, oxygen and medbay under one finite reactor during a base-game encounter.
+- Excludes: permanent reactor upgrades; the three-channel starfighter emphasis rule of `CON-565`; a weapon's finite missile stock; a damaged system functioning at full output regardless of surviving capacity.
+- Parameters: reactor bars, assigned bars, system capacities, damage, required power, reserve and legal reallocation.
+- Evidence: [FTL: Faster Than Light decomposition](../games/a-f/ftl-faster-than-light.md), developer-described live power routing and contemporary ship-system accounts.
+- Novelty: first isolated for `GAME-0418`; independently powered ship rooms compete for discrete reactor bars, distinct from fighter-wide performance emphasis.
+
+## CON-704 — Limit a beacon jump by connectivity, fuel and drive readiness
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a requested beacon jump is accepted only when the destination is linked and reachable on the current sector map, at least one fuel unit is available, and the ship's necessary jump controls have reached usable readiness.
+- Includes: the Kestrel's first-sector connected-beacon choice and a later escape jump after its drive charges in an original-game fight.
+- Excludes: a jump to any unseen map coordinate; free relocation without fuel; the grav-power and range calculation of `CON-651`; merely viewing the next beacon.
+- Parameters: map edges, origin, destination, fuel reserve, helm, engine, FTL charge and accepted jump.
+- Evidence: [FTL: Faster Than Light decomposition](../games/a-f/ftl-faster-than-light.md), 2012 player reports on fuel-paid jumps and combat escape.
+- Novelty: first isolated for `GAME-0418`; route graph, consumable fuel and live drive state jointly gate the same discrete transition.
+
+## CON-705 — Unlock puppy menus after naming and first sit lesson
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the Supplies, Go Out and Training menus remain unavailable until the newly adopted puppy has a registered name and has learned its first sit command; satisfying both prerequisites exposes those menus.
+- Includes: the original Nintendogs first-home tutorial before the player chooses a care supply.
+- Excludes: claiming that a name alone unlocks the menus; requiring a completed walk or contest; applying the gate to every later care session; a hardware microphone permission prompt.
+- Parameters: registered name, sit-learned state, icon availability and first-home progression.
+- Evidence: [Nintendogs decomposition](../games/m-r/nintendogs.md), Nintendo of America's original instruction booklet pp. 16–17.
+- Novelty: first isolated for `GAME-0419`; two companion-training milestones gate the interface for subsequent care and travel actions.
+
+## CON-706 — Alternate flight route requires allied survival and every passage
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a stage's alternate encounter and successor are eligible only if the named allied craft remains available and the player crosses every required physical passage in the authored sequence; missing either condition leaves the default route.
+- Includes: keeping Falco alive and flying through seven Corneria stone archways in original Star Fox 64.
+- Excludes: selecting a destination on a route menu; reaching one arch while the ally is down; defeating the ordinary boss without the passage set; score-only branch qualification.
+- Parameters: ally survival, required passage set, passage order, traversal acceptance, branch eligibility and default result.
+- Evidence: [Star Fox 64 decomposition](../games/s-z/star-fox-64.md), Nintendo's original manual pp. 12, 18–19 and 24.
+- Novelty: first isolated for `GAME-0424`; a protected actor and complete spatial traversal form one branch precondition.
+
+## CON-707 — Historical course upload requires an own saved clear proof
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while the original Wii U sharing service operated, an upload request was eligible only for an own-authored saved course after its creator proved that the course could be cleared; local saving and ordinary trial play did not themselves require this proof.
+- Includes: the original *Super Mario Maker* creator clear prerequisite before historical course upload.
+- Excludes: claiming uploads still work after Nintendo's 2021 shutdown; uploading sample or other makers' courses; checkpoint-specific extra checks introduced later; requiring a creator clear merely to save a course in Coursebot.
+- Parameters: own-course identity, saved state, creator clear result, upload request and service availability.
+- Evidence: [Super Mario Maker decomposition](../games/s-z/super-mario-maker.md), Nintendo's original electronic manual, Upload, and Nintendo's Wii U discontinuation FAQ.
+- Novelty: first isolated for `GAME-0428`; external sharing was gated by demonstrated playability of the saved player-authored course, distinct from local edit/test/save.
+
+## CON-708 — Soul Link placement requires a safe position and energy
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a requested player-placed Soul Link can become a valid retry point only at a currently safe eligible position and when Ori has enough current energy to pay its placement cost.
+- Includes: choosing a safe pause and spending energy to place a Soul Link during the original Xbox One Ginso Tree ascent.
+- Excludes: Bash target reach, which does not spend this save resource; using the fixed Spirit Well; asserting that every place during the flood is eligible; an authored automatic save.
+- Parameters: current position, safe-state test, energy reserve, cost, successful write and rejected request.
+- Evidence: [Ori and the Blind Forest decomposition](../games/m-r/ori-and-the-blind-forest.md), Xbox's launch description and creator-led Ginso demonstration.
+- Novelty: first isolated for `GAME-0431`; chosen checkpoint geometry and a finite personal reserve jointly determine whether a retry anchor can be written.
+
+## CON-709 — Either extreme of any power reserve ends one reign
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after an authored decision changes the visible political power reserves, the current ruler's reign ends if any one reserve reaches its lower or upper fatal extreme; surviving requires keeping all independent reserves inside both bounds.
+- Includes: original 2016 Reigns ending a monarch for either depleted or overfull church, people, army or treasury power.
+- Excludes: one maximum-only settlement pressure (`CON-186`); a safely maximised treasury; a fixed turn-count defeat; a claim of exact unpublished threshold numbers.
+- Parameters: reserve vector, lower and upper bounds, chosen response, fatal dimension and successor trigger.
+- Evidence: [Reigns decomposition](../games/m-r/reigns.md), Emily Short's contemporary firsthand analysis and Devolver's balancing description.
+- Novelty: first isolated for `GAME-0432`; four competing power tracks each have two terminal edges rather than a single depletion or overflow condition.

@@ -859,3 +859,35 @@
   Team17 manual pp. 3, 8 and 33–35.
 - Novelty: first isolated for `GAME-0379`; a timed multi-input worm turn
   completes its ballistic response before control alternates.
+
+## TIM-029 — Advance simulated days after journey choices
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: let the player deliberate without a running deadline in a
+  journey menu, then advance one or more simulated days for travel, rest,
+  hunt, trade, wait or crossing and settle daily conditions before the next
+  choice.
+- Includes: A-157's first Independence-to-Kansas interval.
+- Excludes: forced real time while the menu is open (`TIM-003`); timeless
+  puzzle action (`TIM-002`); real-world calendar synchronisation.
+- Parameters: choice, day cost, date, daily updates and next decision point.
+- Evidence: [The Oregon Trail decomposition](../games/s-z/the-oregon-trail.md),
+  MECC A-157 booklet, Program Preview pp. 9–12 and model pp. 35–36.
+- Novelty: first isolated for `GAME-0402`; decisions price days differently
+  and each elapsed day exposes the party to shared upkeep.
+
+## TIM-030 — Pause ship combat for orders and resume live resolution
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a reversible player pause stops the ongoing ship-combat simulation while the player inspects state and issues eligible crew, power or targeting orders; unpausing lets shots, movement, repairs, hazards and charge timers resume.
+- Includes: the original 2012 FTL real-time-with-pause combat control described by Subset Games.
+- Excludes: turn alternation; time continuing during a paused order; a non-interactive system menu; Mass Effect 2's held radial power wheel with squadmate-specific queued powers (`TIM-027`).
+- Parameters: pause state, frozen combat clock, eligible orders, committed targets and resume event.
+- Evidence: [FTL: Faster Than Light decomposition](../games/a-f/ftl-faster-than-light.md), Subset Games' official feature description.
+- Novelty: first isolated for `GAME-0418`; the entire ship command overview accepts several kinds of order while a reversible pause halts a continuously running battle.

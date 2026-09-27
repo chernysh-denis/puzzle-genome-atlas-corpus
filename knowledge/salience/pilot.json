@@ -1,11 +1,107 @@
 {
-  "version": "GENE_SALIENCE_AND_PLAIN_LANGUAGE_EXPANSION_045",
+  "version": "GENE_SALIENCE_AND_PLAIN_LANGUAGE_EXPANSION_047",
   "roles": [
     "defining",
     "structural",
     "supporting"
   ],
   "games": {
+    "GAME-0430": {
+      "reviewed": "2026-09-27",
+      "noteEn": "The original PlayStation route is defined by a three-key house gate to school, an on/off flashlight that improves searching while increasing visual exposure, and a carried radio that warns of monsters without alerting them. The acquired map and clue chain structure the key search; health, optional combat and real-time monster movement support it. The original manual establishes rules and two written routes corroborate the bounded path, without direct play.",
+      "noteUk": "Ранній шлях в оригінальній версії для PlayStation визначають замкнені трьома ключами двері до школи, ліхтарик, що допомагає огляду, але збільшує помітність, і радіо, яке попереджає про потвор, не приваблюючи їх шумом. Отримана мапа та послідовність підказок формують пошук ключів; здоров’я, необов’язковий бій і живий рух потвор його підтримують. Правила підтверджує оригінальний посібник, а обмежений шлях — два письмові проходження; власної гри не було.",
+      "defining": ["ACT-409", "SYS-797", "INF-359", "CON-296", "OBJ-026"],
+      "structural": ["ACT-008", "ACT-087", "ACT-089", "ACT-341", "CON-282", "INF-125", "INF-128"],
+      "supporting": ["ACT-131", "ACT-161", "SYS-045", "SYS-057", "SYS-215", "SYS-578", "CON-442", "INF-075", "INF-115", "TIM-003"]
+    },
+    "GAME-0429": {
+      "reviewed": "2026-09-27",
+      "noteEn": "The first Commandos mission turns contextual orders into a specialist-gated boat crossing and relay sabotage. Only one selected guard's view cone is displayed, while all patrols still act. Moving a barrel and keeping all three specialists alive closes the bounded objective; the original manual supplies rules and independent routes supply the mission sequence, not direct play.",
+      "noteUk": "Перша місія Commandos поєднує накази вибраному бійцю з переправою човном, доступною за його роллю, і підривом радіовузла. Показано поле зору лише одного вибраного вартового, але всі патрулі продовжують діяти. Переставлена бочка й виживання всіх трьох завершують обмежену ціль. Правила взято з оригінального посібника, послідовність — із незалежних проходжень; власної гри не було.",
+      "defining": ["ACT-189", "CON-076", "INF-420", "OBJ-185"],
+      "structural": ["ACT-341", "ACT-380", "ACT-048", "SYS-755", "CON-077"],
+      "supporting": ["ACT-161", "ACT-202", "ACT-491", "SYS-057", "SYS-215", "CON-330", "TIM-003"]
+    },
+    "GAME-0428": {
+      "reviewed": "2026-09-27",
+      "noteEn": "The original Wii U maker packet is defined by editing course geometry, immediately trial-playing that same layout, saving a named local course and proving a creator clear under the historical upload gate. A visible editor, direct platform movement and live gravity make the test legible; self-paced editing and live trial timing support the phase change. Nintendo's manual establishes the rules, but the short gap-and-block route is illustrative, not an observed saved level. Online upload has since closed.",
+      "noteUk": "Одиницю створення курсу в оригінальній версії для Wii U визначають редагування шляху, негайне пробне проходження саме цього розташування, локальне збереження названого курсу й доведення автором проходження за історичною умовою публікації. Видимий редактор, безпосередній рух і тяжіння роблять випробування зрозумілим; редагування без поспіху та жива проба підтримують зміну режимів. Правила підтверджує посібник Nintendo, але короткий шлях із проміжком і блоком є умовним, а не перевіреним збереженим рівнем. Мережеву публікацію вже закрито.",
+      "defining": ["ACT-567", "ACT-568", "SYS-1129", "CON-707"],
+      "structural": ["SYS-1130", "OBJ-247", "INF-001"],
+      "supporting": ["ACT-008", "SYS-036", "INF-192", "TIM-002", "TIM-003"]
+    },
+    "GAME-0427": {
+      "reviewed": "2026-09-27",
+      "noteEn": "The original Xbox 360 first post-tutorial encounter is defined by directing light to strip a Taken's damage-blocking darkness, choosing a faster charge-spending boost and letting charge recover while the ordinary beam stays on. The shrinking corona and bright break cue make the firearm phase legible. Movement, dodge, battery backup and live hostile combat support this bounded one-foe packet. The manual establishes the mechanics; a first-hand route identifies the lone foe. No disc or direct play was inspected.",
+      "noteUk": "Першу сутичку після навчання в оригінальній версії для Xbox 360 визначає спрямоване світло, що знімає захисну темряву Темного, вибір швидшого посилення з витратою заряду та відновлення заряду за звичайного ввімкненого променя. Зменшення ореолу й яскравий спалах показують, коли вже можна стріляти. Рух, ухилення, запасні батарейки й живий бій підтримують цю одиницю з одним ворогом. Посібник підтверджує правила, а маршрут із безпосереднього досвіду — місце сутички; диск і проходження не перевіряли.",
+      "defining": ["ACT-566", "SYS-1126", "SYS-1127", "SYS-1128"],
+      "structural": ["INF-419", "ACT-161", "ACT-453", "OBJ-029"],
+      "supporting": ["ACT-008", "ACT-223", "SYS-215", "SYS-791", "INF-119", "TIM-003"]
+    },
+    "GAME-0426": {
+      "reviewed": "2026-09-27",
+      "noteEn": "The original PS Vita traversal example is defined by front-touch peeling of a paper cover, the newly exposed bounce surface and a separately rear-touched drum launch while the messenger occupies it. Visible paper and rear-touch cues, direct messenger movement and the bounded upper landing structure the route; live motion supports it. Contemporary Sony hands-on and independent first-hand reviews document the component mechanics, not one named chapter's combined geometry; no cartridge or direct play was inspected.",
+      "noteUk": "Приклад проходження в оригінальній версії для PS Vita визначають відгортання паперового покриття переднім дотиком, відкрита пружна поверхня й окремий запуск із барабана заднім дотиком, коли на ньому стоїть посланець. Видимі ознаки паперу та заднього дотику, безпосередній рух посланця і досягнення верхньої поверхні формують маршрут; живий рух його підтримує. Тогочасний матеріал Sony й незалежні огляди з безпосереднім досвідом підтверджують окремі механіки, але не їхню спільну геометрію в названому розділі; картридж і проходження не перевіряли.",
+      "defining": ["ACT-564", "ACT-565", "SYS-1124", "SYS-1125"],
+      "structural": ["INF-418", "ACT-008", "OBJ-026"],
+      "supporting": ["TIM-003"]
+    },
+    "GAME-0425": {
+      "reviewed": "2026-09-27",
+      "noteEn": "The bounded Land 1 packet is defined by an addressed Food Miracle, a leashed creature learning from that separate god-hand action, and the village's need-to-belief response. Store supply, one-shot legality, visible need/lesson cues and the checked demonstration endpoint structure the task; leash assignment and real-time village activity support it. The Lionhead manual and contemporary Guide sequence bound a source-only reconstruction; no original executable or direct play was inspected.",
+      "noteUk": "Обмежений епізод на першому острові визначають спрямоване диво їжі, навчання істоти на повідку зі спостереження за окремою дією божественної руки та відповідь віри мешканців на задоволену потребу. Сільський запас, доступність одноразового дива, видимі ознаки потреби й уроку та перевірений результат показової дії формують завдання; призначення повідка й живий перебіг у селі його підтримують. Реконструкцію обмежено посібником Lionhead і тогочасною послідовністю провідника; виконуваного файла й безпосередньої гри не перевіряли.",
+      "defining": ["ACT-563", "SYS-1121", "SYS-1123"],
+      "structural": ["SYS-1122", "CON-269", "INF-417", "OBJ-246"],
+      "supporting": ["ACT-036", "TIM-003"]
+    },
+    "GAME-0424": {
+      "reviewed": "2026-09-27",
+      "noteEn": "The first Corneria stage is defined by bounded two-axis Arwing steering, the joint Falco-and-seven-arches branch and boss clear into the corresponding map successor. Automatic corridor progress, branch eligibility, route-relevant feedback and real-time pressure structure those choices; aiming, manoeuvres and ordinary hostile combat support them. Nintendo's original manual bounds this source-only reconstruction; no cartridge or direct play was inspected.",
+      "noteUk": "Перший етап Corneria визначають двовісне керування винищувачем у межах коридору, спільна умова порятунку Falco й семи арок, а також перемога над босом із відповідним наступним етапом на мапі. Автоматичне просування, доступність відгалуження, показ стану маршруту й перебіг бою формують ці рішення; прицілювання, маневри та звичайний обмін вогнем їх підтримують. Реконструкцію обмежено оригінальним посібником Nintendo; картридж і безпосередню гру не перевіряли.",
+      "defining": ["ACT-562", "SYS-1120", "OBJ-245"],
+      "structural": ["SYS-1119", "CON-706", "INF-416", "TIM-003"],
+      "supporting": ["ACT-161", "ACT-496", "SYS-215"]
+    },
+    "GAME-0423": {
+      "reviewed": "2026-09-27",
+      "noteEn": "The Act 2 challenge is defined by optional assembly of a functional scoop vehicle, applying its part geometry to direct rock contact and cooling all three rocks in water. Direct driving, free-rock physics, workshop ratings and the live deadline structure the player's choice; wrench repositioning, ordinary vehicle motion and viability support alternative tactics. The original Microsoft manual and licensed Prima guide bound this source-only analysis; no Xbox 360 disc or measured physics was inspected.",
+      "noteUk": "Випробування другого акту визначають необов’язкове складання автомобіля з ковшем, використання форми деталей для контакту з каменем і загасання всіх трьох каменів у воді. Безпосереднє керування, вільний рух каменя, показники майстерні та крайній строк формують вибір гравця; перенесення ключем, звичайна фізика автомобіля й придатність конструкції підтримують інші способи. Аналіз обмежено посібником Microsoft і ліцензованим путівником Prima; диска Xbox 360 та виміряної фізики не було.",
+      "defining": ["ACT-561", "SYS-1118", "OBJ-014"],
+      "structural": ["ACT-201", "SYS-036", "INF-415", "TIM-003"],
+      "supporting": ["ACT-048", "SYS-320", "CON-288"]
+    },
+    "GAME-0422": {
+      "reviewed": "2026-09-27",
+      "noteEn": "The first hunt is defined by choosing a four-beat army order, its autonomous formation reply and the consecutive-command Fever boost. The beat/range information and goal-with-spoils closeout structure the route; continuous time supports the live cadence. Sony's original manual and a contemporary guide bound this source-only reconstruction; no PSP play or exact timing trace was inspected.",
+      "noteUk": "Перше полювання визначають вибір чотириударного наказу загону, самостійна відповідь строю та посилення Fever за безперервну серію команд. Показ ритму й досяжності атаки та завершення місії з допустимою здобиччю формують маршрут; безперервний час підтримує живий такт. Реконструкцію обмежують оригінальний посібник Sony й сучасний йому путівник; безпосередньої гри на PSP і точного запису ритму не було.",
+      "defining": ["ACT-560", "SYS-1116", "SYS-1117"],
+      "structural": ["INF-414", "OBJ-181"],
+      "supporting": ["TIM-003"]
+    },
+    "GAME-0421": {
+      "reviewed": "2026-09-27",
+      "noteEn": "The manual's basketball puzzle is defined by pre-run machine layout, contact-triggered motor-and-belt drive and delivery into the fixed hoop. Continuous body motion and the resettable run structure how the built chain succeeds or fails; full visibility supports revision. This is a manual-bounded reconstruction without executable play or a verified menu number.",
+      "noteUk": "Головоломку з баскетбольним м’ячем визначають попереднє розташування деталей, запуск мотора дотиком і передавання руху пасом, а також доправлення м’яча до нерухомого кошика. Безперервний рух тіл і повторний запуск формують результат побудованого ланцюга; видимий стан допомагає його виправляти. Реконструкція спирається на посібник без безпосередньої гри й перевіреного номера рівня.",
+      "defining": ["ACT-028", "SYS-1115", "OBJ-014"],
+      "structural": ["SYS-036", "TIM-006"],
+      "supporting": ["INF-001"]
+    },
+    "GAME-0420": {
+      "reviewed": "2026-09-27",
+      "noteEn": "The first Compact Sports race is defined by direct car control, a timed Style Kudos Stash/Bank cycle, its distinct live display and a retained first-place target. Rival motion, ordered laps, course validity, place and reward settlement structure the route; pre-entry, ordinary road instruments, final display and continuous time support it. The original manual and licensed guide bound this source-only reconstruction; no Xbox disc or direct play was inspected.",
+      "noteUk": "Перші перегони компактних спорткарів визначають безпосереднє керування автомобілем, тимчасовий запас очок стилю з подальшим зарахуванням, окремий показ цих станів і збережена ціль фінішувати першим. Рух суперників, упорядковані кола, чинність маршруту, місце та нагорода формують заїзд; вибір події, дорожні прилади, підсумок і безперервний час його підтримують. Реконструкцію обмежують оригінальний посібник і ліцензований гайд; диска Xbox та безпосередньої гри не було.",
+      "defining": ["ACT-290", "SYS-1114", "INF-413", "OBJ-134"],
+      "structural": ["SYS-320", "SYS-515", "SYS-516", "CON-438", "INF-205", "SYS-519"],
+      "supporting": ["ACT-292", "ACT-293", "INF-204", "INF-206", "INF-208", "TIM-003"]
+    },
+    "GAME-0419": {
+      "reviewed": "2026-09-27",
+      "noteEn": "The first-home puppy session is defined by direct stylus petting, trained spoken cues, a name-plus-sit interface unlock and a bounded saved care endpoint. Care selection, its item result and current Dog Status structure the choice; touch-duration response and live puppy attention support it. Nintendo's original booklet bounds this source-only reconstruction; no DS cartridge or microphone trace was played.",
+      "noteUk": "Перший домашній сеанс визначають погладжування стилусом, навчена голосова команда, відкриття меню після імені та першого уроку сидіти й збереження результату догляду. Вибір засобу, його дія й поточний стан цуценяти формують рішення; реакція на тривалість дотику та зміна уваги його підтримують. Реконструкцію обмежує оригінальний посібник Nintendo; картридж і запис мікрофона не досліджували.",
+      "defining": ["ACT-557", "ACT-558", "SYS-1111", "CON-705"],
+      "structural": ["ACT-559", "SYS-1113", "INF-412", "OBJ-244"],
+      "supporting": ["SYS-1112", "TIM-003"]
+    },
     "GAME-0001": {
       "reviewed": "2026-08-24",
       "noteEn": "Directional line compression and collision merges define the 2048 decision loop; spawning, capacity and objectives structure the run around that core.",
@@ -8948,6 +9044,221 @@
       "defining": ["ACT-533", "SYS-1058", "SYS-1059", "OBJ-233"],
       "structural": ["TIM-003"],
       "supporting": ["INF-396"]
+    },
+    "GAME-0397": {
+      "reviewed": "2026-09-25",
+      "noteEn": "The opening Allied mission's commando strike, survival requirement, engineer-restored bridge and supply-base terminal define this bounded packet. Base construction, paid production and continuing group combat structure it; sight, map memory and legal placement support it. The original Westwood manual and two written routes bound the reconstruction; no executable was played.",
+      "noteUk": "Першу місію союзників визначають удар Тані по кораблях, вимога зберегти їй життя, відновлення мосту інженером і знищення бази постачання. Будівництво, оплачуване навчання й безперервний бій загону формують маршрут; огляд, пам'ять карти й допустиме розміщення його підтримують. Межі реконструкції задають посібник Westwood і два письмові проходження; гру не запускали.",
+      "defining": ["ACT-189", "SYS-215", "SYS-1060", "CON-330", "OBJ-166"],
+      "structural": ["ACT-139", "ACT-316", "SYS-297", "SYS-551", "CON-467", "TIM-003"],
+      "supporting": ["CON-273", "CON-292", "SYS-305", "INF-224", "INF-225"]
+    },
+    "GAME-0398": {
+      "reviewed": "2026-09-25",
+      "noteEn": "Changing task instructions, automatic handoff, independently settled results, four shared lives and a scheduled boss define the introductory course. Random ordinary-task selection, rising pace and the uninterrupted clock structure its decisions; each local deadline and visible chance display support them. Nintendo's booklet and two contemporary guides bound the reconstruction; no cartridge was played.",
+      "noteUk": "Вступний курс визначають змінні вказівки, автоматичний перехід між завданнями, окремий результат кожного, чотири спільні життя й визначений бос. Випадковий вибір звичайних мікроігор, прискорення та безперервний час формують рішення; часова межа кожного завдання й видимий запас спроб їх підтримують. Реконструкція спирається на посібник Nintendo та два тогочасні письмові описи; картридж не запускали.",
+      "defining": ["ACT-534", "SYS-1061", "SYS-1063", "CON-183", "OBJ-234"],
+      "structural": ["SYS-004", "SYS-1062", "TIM-003"],
+      "supporting": ["CON-068", "INF-397"]
+    },
+    "GAME-0399": {
+      "reviewed": "2026-09-25",
+      "noteEn": "Yorda's requested movement, recoverable shadow capture, unequal gate authority and joint checkpoint define the first tower escape. Direct traversal, lever use, stick defence and continuing time structure it; couch eligibility and local view support it. The Sony manual transcription and two original-PS2 written routes bound the reconstruction; no disc was played.",
+      "noteUk": "Першу втечу з вежі визначають рух Йорди за покликом, можливість повернути її після захоплення тінню, різні права персонажів на відкриття дверей і спільна контрольна точка. Безпосередній рух, важіль, захист палицею та безперервний час формують маршрут; умова збереження на лаві й місцевий огляд його підтримують. Межі реконструкції задають транскрипція посібника Sony і два письмові проходження оригінальної гри для PlayStation 2; диск не запускали.",
+      "defining": ["ACT-535", "SYS-1064", "SYS-1065", "CON-076", "OBJ-235"],
+      "structural": ["ACT-008", "ACT-049", "ACT-161", "SYS-215", "TIM-003"],
+      "supporting": ["ACT-341", "CON-621", "INF-179"]
+    },
+    "GAME-0400": {
+      "reviewed": "2026-09-25",
+      "noteEn": "Independent movement and fire, rising arena population, the life-local multiplier and a scoreless visible-screen bomb define this Xbox 360 Evolved score run. Repeated score-driven gun and stock rewards, direct combat and continuing time structure it; life exhaustion and the scrolling local view support its boundary. Two contemporary Evolved guides and a played review bound the reconstruction; no executable was played in this unit.",
+      "noteUk": "Цей рахунковий забіг режиму Evolved для Xbox 360 визначають незалежні рух і стрільба, наростання кількості ворогів, множник у межах життя та бомба, що прибирає видимих ворогів без очок. Повторні зміни стрільби й поповнення запасів за очки, безпосередній бій і безперервний час формують рішення; вичерпання життів і рухомий місцевий огляд підтримують межу аналізу. Реконструкція спирається на два тогочасні описи Evolved й огляд із досвідом гри; виконуваний файл у цьому дослідженні не запускали.",
+      "defining": ["ACT-536", "SYS-1066", "SYS-1067", "SYS-1070", "CON-694", "OBJ-002"],
+      "structural": ["ACT-008", "ACT-161", "SYS-215", "SYS-911", "SYS-1068", "SYS-1069", "TIM-003"],
+      "supporting": ["CON-183", "INF-398"]
+    },
+    "GAME-0401": {
+      "reviewed": "2026-09-25",
+      "noteEn": "The live freehand stroke, mixed fruit/bomb launches, collision, one-swipe bonus and miss debit define the original iPhone Classic score run. Random awards, score-based recovery and uninterrupted time structure it; bomb failure, finite miss allowance and visible counters support its risk boundary. Halfbrick's v1.2 announcement and contemporary review bound the packet; no binary was played.",
+      "noteUk": "Класичний рахунковий забіг оригінальної гри для iPhone визначають безперервний рух пальцем, поява фруктів і бомб, перетин рухомих цілей, премія за один рух та позначки за пропущені фрукти. Випадкові бонуси, повернення спроби за очки й безперервний час формують рішення; миттєвий програш від бомби, обмеження пропусків і видимі лічильники задають ризик. Межі аналізу підтримують повідомлення Halfbrick про версію 1.2 та тогочасний огляд; виконуваний файл не запускали.",
+      "defining": ["ACT-537", "SYS-1071", "SYS-1072", "SYS-1073", "SYS-1074", "CON-113"],
+      "structural": ["SYS-004", "SYS-1069", "OBJ-002", "TIM-003"],
+      "supporting": ["CON-183", "INF-399"]
+    },
+    "GAME-0402": {
+      "reviewed": "2026-09-25",
+      "noteEn": "Persistent pace/ration policy, daily mileage/welfare resolution, a measured crossing decision and its risk define the A-157 first leg. Hunting, barter, variable events, capped meat and day costs structure the supply horizon; party survival and present status support it. The original school booklet bounds the reconstruction; no disk was played.",
+      "noteUk": "Перший відрізок шкільного видання A-157 визначають чинні темп і пайок, щоденне просування та зміна здоров’я, вибір переправи за вимірами річки й ризик цього способу. Полювання, обмін, мінливі події, межа здобичі та витрати днів формують запаси; виживання валки й показ її поточного стану підтримують цикл рішень. Межу аналізу задає оригінальний шкільний посібник; диск не запускали.",
+      "defining": ["ACT-538", "ACT-539", "SYS-1075", "SYS-1076", "SYS-1077", "OBJ-236"],
+      "structural": ["ACT-540", "ACT-541", "SYS-004", "SYS-1078", "TIM-029"],
+      "supporting": ["CON-695", "INF-400"]
+    },
+    "GAME-0403": {
+      "reviewed": "2026-09-25",
+      "noteEn": "The first Parlor depends on timed flashlight exposure and a held, counter-steered vacuum contest before its final ghost unlocks an illuminated key chest. Candle suction and the finite dark-room trigger structure the encounter; direct movement, health, visible heart/power state and live time support it. The original GameCube booklet and two written Parlor routes bound this source-only reconstruction.",
+      "noteUk": "Перша кімната залежить від вчасного відкриття привида ліхтариком і тривалого всмоктування з протидією його рухові, перш ніж останній привид відкриє освітлену кімнату зі скринею та ключем. Гасіння свічок і скінченна поява привидів у темряві формують зустріч; рух, здоров’я, видимі серце й сила та безперервний час підтримують її. Ця реконструкція без безпосередньої гри спирається на оригінальний посібник GameCube і два письмові маршрути першої кімнати.",
+      "defining": ["ACT-543", "ACT-544", "SYS-1080", "SYS-1081", "SYS-1082", "OBJ-031"],
+      "structural": ["ACT-341", "ACT-542", "SYS-1079", "TIM-003"],
+      "supporting": ["ACT-008", "SYS-578", "INF-401"]
+    },
+    "GAME-0404": {
+      "reviewed": "2026-09-25",
+      "noteEn": "The first Novalis crater route turns starting-weapon selection and finite bombs into a live guarded-ship rescue that grants both a Kerwan Infobot and courier-ship access. Movement, direct attacks, chairman interaction and uninterrupted combat structure the route; health and visible map/equipment state support it. The optional crank and bought Infobot are excluded. Sony identifies the original PS2 title and two contemporary written routes bound the mechanics; no disc was played.",
+      "noteUk": "Перший маршрут кратером Новаліса поєднує вибір початкової зброї й скінченний запас бомб із порятунком охоронюваного корабля, за який дають інфобота Кервана та доступ до польоту. Рух, удари, взаємодія з головою планети й безперервний бій формують шлях; здоров’я та видимі карта й спорядження підтримують його. Необов’язковий болтовий механізм і купований інфобот виключено. Sony визначає оригінальну гру для PlayStation 2, а два тогочасні письмові маршрути обмежують механічну модель; диск не запускали.",
+      "defining": ["ACT-164", "SYS-1083", "CON-578", "OBJ-237"],
+      "structural": ["ACT-008", "ACT-161", "ACT-341", "SYS-215", "TIM-003"],
+      "supporting": ["SYS-578", "INF-073", "INF-119", "INF-125"]
+    },
+    "GAME-0405": {
+      "reviewed": "2026-09-26",
+      "noteEn": "The original Xbox 360 childhood interval uses five equal-pay yet morally opposed errands to fund and activate Murgo's box; the warrants also retain a later-town flag. Item collection/delivery, response, live scuffle and visible gold/trail support the purchase gate. Adult combat and the later town rendering are excluded. Original booklet and two contemporary routes were read; no disc was played.",
+      "noteUk": "У дитячому епізоді оригінальної гри для Xbox 360 п’ять доручень з однаковою платнею, але протилежними моральними наслідками дають змогу купити й використати скриньку Мурґо; ордери також зберігають наслідок для майбутнього міста. Збирання й передача предметів, вибір відповіді, короткий бій та видимі монети й маршрут підтримують умову купівлі. Дорослий бій і вигляд майбутнього міста виключено. Прочитано оригінальний посібник і два тогочасні маршрути; диск не запускали.",
+      "defining": ["SYS-1084", "OBJ-238", "SYS-379", "SYS-477"],
+      "structural": ["ACT-089", "ACT-091", "ACT-130", "ACT-232", "ACT-341", "CON-136"],
+      "supporting": ["ACT-008", "ACT-161", "SYS-215", "INF-117", "INF-125", "TIM-003"]
+    },
+    "GAME-0406": {
+      "reviewed": "2026-09-26",
+      "noteEn": "One GN845-UC arcade song turns upward four-lane arrows into timed foot-panel steps. Each judgement informs a live Dance Gauge, which can end the song before a ranked result. The cabinet's original operator manual documents the loop and options; no specific ROM/chart or direct cabinet play was inspected.",
+      "noteUk": "Одна пісня на автоматі GN845-UC перетворює висхідні стрілки чотирьох доріжок на вчасні кроки по панелях. Оцінки змінюють індикатор танцю, який може обірвати композицію до підсумкового рангу. Петлю й налаштування підтверджує оригінальний посібник; конкретну плату, схему й сам автомат не досліджували.",
+      "defining": ["ACT-545", "SYS-1085", "INF-402", "OBJ-239"],
+      "structural": ["SYS-1013", "TIM-003"],
+      "supporting": ["INF-299"]
+    },
+    "GAME-0407": {
+      "reviewed": "2026-09-26",
+      "noteEn": "The bounded day-lawn defence is defined by manually collected perishable sun, live lane pressure and one-use mower protection. Priced placement, packet readiness and autonomous firing structure the spending decision; shovel removal and the visible progress bar support tactical correction. PopCap's public Mac rules text establishes the core loop, but the chosen Windows GOTY level was not played and exact build, roster and timings remain unverified.",
+      "noteUk": "Денний захист газону визначають ручне збирання недовговічного сонця, загроза в окремих рядах і одноразовий захист газонокосарок. Платна посадка, готовність насіння й автоматична стрільба формують рішення про витрати; лопата та видима шкала хвиль дають змогу змінювати тактику. Загальний цикл підтверджує публічний довідник PopCap для Mac, але обраний рівень Windows GOTY безпосередньо не проходили, а точну збірку, набір рослин і часові параметри не встановили.",
+      "defining": ["ACT-546", "SYS-1086", "SYS-1087", "SYS-1088", "SYS-1089"],
+      "structural": ["ACT-441", "SYS-051", "CON-696", "OBJ-020", "TIM-003"],
+      "supporting": ["ACT-547", "INF-403"]
+    },
+    "GAME-0408": {
+      "reviewed": "2026-09-26",
+      "noteEn": "The first NES stage is defined by Normal-form flight and Kirby's own inhale–swallow decision, which can convert a Waddle Doo into Beam and later lose or recover that copy. Direct traversal, live enemies, gravity and the door-to-map clear structure the route; vitality, lives and visible status support risk decisions. Nintendo's original booklet documents the rules and a written NES route places the enemy and high wall; no cartridge was played.",
+      "noteUk": "Перший етап NES визначають політ у звичайній формі та рішення Кірбі вдихнути й проковтнути ворога. Так Ваддл Ду може надати Beam, який згодом можна втратити й повернути. Безпосередній рух, живі вороги, тяжіння та вихід на мапу формують маршрут; здоров’я, життя й видимий стан допомагають оцінювати ризик. Правила описано в оригінальному посібнику Nintendo, а ворога й високу перешкоду розміщено за письмовим маршрутом NES; картридж не запускали.",
+      "defining": ["ACT-548", "ACT-549", "SYS-1090", "SYS-1091", "CON-697"],
+      "structural": ["ACT-008", "ACT-190", "SYS-036", "SYS-045", "OBJ-240", "TIM-003"],
+      "supporting": ["SYS-578", "SYS-911", "INF-192", "INF-404"]
+    },
+    "GAME-0409": {
+      "reviewed": "2026-09-26",
+      "noteEn": "The first Junkyard Story arena is defined by cycling contact-collected vehicle weapons, timing Junkyard Dog's second Special press, limited repair and a shared recharging defensive-energy budget. Direct driving, live attacks, ammo constraints and finite roster elimination structure the clear; turbo, heat, health/lives and radar support survival. Sony's original PS2 manual establishes the rules and a written PS2 route bounds the arena; no disc was played.",
+      "noteUk": "Першу сюжетну арену Звалище визначають перемикання підібраної зброї машини, друге натискання для особливої кулі Junkyard Dog, обмежений ремонт і спільна енергія захисних дій, що відновлюється. Безпосереднє керування, живі атаки, боєприпаси й знищення всіх суперників формують мету; турбо, нагрів, здоров’я, життя та радар допомагають вижити. Правила встановлює оригінальний посібник Sony для PS2, а письмовий маршрут обмежує першу арену; диск не запускали.",
+      "defining": ["ACT-550", "ACT-551", "SYS-1092", "SYS-1093", "INF-405"],
+      "structural": ["ACT-161", "ACT-290", "SYS-215", "SYS-320", "CON-578", "CON-269", "TIM-003", "OBJ-166"],
+      "supporting": ["ACT-309", "SYS-045", "SYS-222", "SYS-578", "SYS-691", "SYS-738", "SYS-911"]
+    },
+    "GAME-0410": {
+      "reviewed": "2026-09-26",
+      "noteEn": "The original Xbox 360 Relic Approach mission joins finite base sockets and recurring Supply Pad income to paid Barracks training. Five Marines unlock the gate; selected squads then advance through sight-limited hostile space to remove the barrier source and designated Detonator. Microsoft's manual establishes general rules and Prima's official guide bounds the mission; no disc was played.",
+      "noteUk": "У другій місії оригінальної Halo Wars для Xbox 360 обмежені будівельні місця поєднуються з постійним надходженням ресурсів від Supply Pad і платною підготовкою піхоти в Barracks. П’ять загонів відчиняють ворота; далі керовані групи йдуть крізь обмежену видимість, руйнують джерело бар’єра й детонатор. Загальні правила встановлює посібник Microsoft, а межу місії — офіційний гід Prima; диск не запускали.",
+      "defining": ["SYS-1094", "CON-001", "CON-136", "OBJ-185"],
+      "structural": ["ACT-139", "ACT-189", "ACT-316", "SYS-551", "CON-467", "INF-224", "TIM-003"],
+      "supporting": ["SYS-215", "SYS-297", "SYS-305", "SYS-755", "CON-273", "INF-225"]
+    },
+    "GAME-0411": {
+      "reviewed": "2026-09-26",
+      "noteEn": "Original PC Classic is defined by match-valid gem swaps, self-extending cascades, level-scaled awards and loss only when no swap remains. Pattern specials and live input during falling structure the score-versus-mobility decision; fixed capacity, visible gems and unpreviewed refill support it. PopCap's original readme and strategy guide bound this source-only reconstruction; the executable was not played.",
+      "noteUk": "Класичний режим оригінальної PC-версії визначають допустимі обміни каменів, каскади, множення очок на рівень і кінець партії лише без можливих ходів. Особливі камені та новий обмін під час падіння формують вибір між очками й запасом ходів; незмінне поле, видимі камені й невідоме поповнення підтримують його. Межі реконструкції задають оригінальна довідка PopCap та офіційний посібник; виконуваний файл не запускали.",
+      "defining": ["ACT-011", "SYS-012", "SYS-1095", "OBJ-003"],
+      "structural": ["ACT-012", "SYS-011", "SYS-013", "SYS-014", "CON-019", "OBJ-002", "TIM-003"],
+      "supporting": ["SYS-003", "SYS-004", "SYS-010", "CON-001", "INF-001", "INF-002"]
+    },
+    "GAME-0412": {
+      "reviewed": "2026-09-26",
+      "noteEn": "One launch-era ordinary Turf War is defined by reversible team-colour ground, own-ink refill and access, and a timed floor-area result rather than splat count. Form switching, main-weapon coating, map-selected team return, earned special readiness, temporary respawn and the live team map structure contested decisions. Direct combat and partial opponent knowledge support them. Nintendo's launch and later official mode explanations bound this source-only reconstruction; no Switch match was played.",
+      "noteUk": "Звичайний матч Turf War стартової версії визначають перефарбовувана підлога двох команд, поповнення й доступ на власному чорнилі та порівняння площі наприкінці часу, а не кількості уражень. Перехід між формами, зафарбування зброєю, командний стрибок із мапи, заряд особливої зброї, тимчасове повернення та командна мапа формують рішення. Безпосередній бій і неповні відомості про суперників їх підтримують. Межі реконструкції задають матеріали Nintendo; матчу на консолі не проводили.",
+      "defining": ["SYS-1096", "SYS-1097", "CON-698", "OBJ-241"],
+      "structural": ["ACT-202", "ACT-446", "ACT-552", "SYS-382", "SYS-1098", "CON-269", "INF-116", "TIM-003"],
+      "supporting": ["ACT-008", "ACT-161", "ACT-190", "SYS-215", "SYS-380", "INF-115", "INF-119"]
+    },
+    "GAME-0413": {
+      "reviewed": "2026-09-26",
+      "noteEn": "The first Fossil Field visit is defined by a steered net catching three evasive monkeys while a fourth remains for a later gadget return. Independent locomotion and gadget selection structure the contact attempts; a live target and the visible quota make misses and completion legible. Sony's original-product material and player guides bound this source-only packet; no disc was played.",
+      "noteUk": "Перше проходження Fossil Field визначають спрямовані замахи сачком по мавпах, що ухиляються, і достатність трьох упіймань із чотирьох. Окреме керування рухом і вибір пристрою формують спроби; рух цілі й показ квоти пояснюють промахи та завершення. Межі реконструкції задають матеріали Sony й посібники гравців; диск не досліджували.",
+      "defining": ["ACT-477", "SYS-1099", "SYS-1100", "OBJ-242"],
+      "structural": ["ACT-164", "INF-406", "TIM-003"],
+      "supporting": ["ACT-008"]
+    },
+    "GAME-0414": {
+      "reviewed": "2026-09-26",
+      "noteEn": "One ordinary 20,000 Leaks activity is defined by held Kinect-tracked body contacts that must cover all holes in each connected crack before it seals and scores. Current leak positions, reflected pose, score and clock make the live placement task legible; score maximisation and real-time response structure the run. Microsoft's original manual and a contemporary played review bound this source-only packet; no disc or sensor session was played.",
+      "noteUk": "Один звичайний раунд «20,000 Leaks» визначають утримувані контакти відстежуваних Kinect частин тіла: усі отвори однієї тріщини треба перекрити одночасно, щоб її закрили й нарахували очки. Видимі протікання, положення персонажа, рахунок і годинник допомагають діяти в реальному часі. Межі реконструкції задають оригінальний посібник Microsoft і огляд часу виходу гри; диском і сенсором не грали.",
+      "defining": ["ACT-553", "SYS-1101", "CON-699"],
+      "structural": ["INF-407", "OBJ-002"],
+      "supporting": ["TIM-003"]
+    },
+    "GAME-0415": {
+      "reviewed": "2026-09-26",
+      "noteEn": "The Dreamcast Arcade-rule score run is defined by chosen passenger fares, stop-zone service, separate passenger and run clocks, manoeuvre tips and prompt-delivery time extensions. Direct cab control, road motion, traffic, route cues, score maximisation and real-time play support those decisions. Sega's original manual bounds this source-only reconstruction; no disc was played.",
+      "noteUk": "Заїзд на трасі Arcade для Dreamcast визначають поїздки з обраними пасажирами, повні зупинки в позначених зонах, окремий час пасажира й заїзду, чайові за маневри та продовження за швидку доставку. Керування таксі, рух транспорту, підказки цілі, заробіток і реальний час підтримують ці рішення. Межі реконструкції задає оригінальний посібник Sega; диском не грали.",
+      "defining": ["SYS-1102", "SYS-1103", "SYS-1104", "CON-700", "CON-701"],
+      "structural": ["ACT-290", "INF-408", "OBJ-002"],
+      "supporting": ["SYS-320", "SYS-365", "TIM-003"]
+    },
+    "GAME-0416": {
+      "reviewed": "2026-09-26",
+      "noteEn": "The bounded Terrain Intel lesson is defined by unit-type terrain cost, terrain-protected direct exchanges and the explicit army-day handoff. Selected-unit relocation, targeted fire, grid occupancy and a finite rout structure the decision; enemy AI and visible terrain information provide the response and guidance. Nintendo's original booklet and mission dialogue bound this source-only packet; the North American cartridge was not played.",
+      "noteUk": "У межах уроку Terrain Intel визначальними є різна вартість місцевості для типів підрозділів, прямий бій під захистом місцевості та явна передача цілого дня армії. Переміщення обраного підрозділу, прицільний вогонь, зайнятість клітинок і знищення всіх ворогів формують рішення; дії комп’ютера й відомості про місцевість показують відповідь і доступні варіанти. Межі реконструкції задають оригінальний посібник Nintendo й текст завдання; північноамериканським картриджем не грали.",
+      "defining": ["ACT-554", "SYS-1105", "CON-702"],
+      "structural": ["ACT-014", "ACT-019", "CON-001", "CON-011", "CON-034", "OBJ-029"],
+      "supporting": ["SYS-537", "INF-409", "TIM-018"]
+    },
+    "GAME-0417": {
+      "reviewed": "2026-09-27",
+      "noteEn": "The original PS2 first swamp approach is defined by readable moving spotlight footprints and sirens whose destruction removes local scan risk. Direct platform traversal, cane strikes and the final key-gate chain structure progress; finite lives and signal repeaters price failed timing. The original booklet and two original-game routes bound this source-only packet; no disc was played.",
+      "noteUk": "Перший болотяний маршрут оригінальної гри для PS2 визначають видимі рухомі промені прожекторів і сирени, руйнування яких вимикає місцеву систему охорони. Рух переправами, удари тростиною та обов’язковий ключ формують поступ; скінченні життя й сигнальні ретранслятори визначають ціну помилки. Межі реконструкції задають оригінальний посібник і два описи маршруту; диском не грали.",
+      "defining": ["SYS-1106", "INF-410"],
+      "structural": ["ACT-008", "ACT-161", "SYS-063", "SYS-755", "OBJ-026"],
+      "supporting": ["SYS-911", "SYS-933", "CON-183", "TIM-003"]
+    },
+    "GAME-0418": {
+      "reviewed": "2026-09-27",
+      "noteEn": "One original Kestrel hostile beacon is defined by room-directed crew orders, shield- and room-aware ship attacks, the possibility of charged retreat and a pause that accepts several ship commands. Power routing, navigation, targeted shots, repair, reactor and fuel gates structure the encounter; variable event reveal, finite missiles, visible ship state and the live clock support the choices. This is a source-bounded 2012 reconstruction, not direct play.",
+      "noteUk": "Один умовний ворожий маяк початкового «Боривітра» визначають накази екіпажу до кімнат, взаємодія пострілів зі щитами й відсіками, можливість втечі після заряджання та пауза для різних корабельних команд. Розподіл енергії, навігація, прицільний вогонь, ремонт, реактор і умови стрибка формують сутичку; змінна подія, скінченні ракети, видимий стан кораблів і реальний час підтримують рішення. Це реконструкція правил 2012 року за джерелами, а не безпосередня гра.",
+      "defining": ["ACT-555", "SYS-1107", "SYS-1109", "TIM-030"],
+      "structural": ["ACT-393", "ACT-482", "ACT-556", "SYS-724", "SYS-1108", "CON-703", "CON-704", "OBJ-243"],
+      "supporting": ["SYS-1110", "CON-578", "INF-411", "TIM-003"]
+    },
+    "GAME-0431": {
+      "reviewed": "2026-09-27",
+      "noteEn": "The original Ginso Tree packet is defined by aiming Bash from a live anchor, sending a contacted projectile opposite Ori, deliberately paying energy for a safe Soul Link, and escaping the flood triggered by heart restoration. Later keys, retained ability and fixed Spirit Well structure the ascent; direct movement, health and live time support it. The original Xbox manual and creator-led Xbox coverage establish the core rules, while written routes bound the retail sequence; there was no direct play.",
+      "noteUk": "Шлях деревом Ginso в оригінальній грі визначають спрямований ривок Bash від доступної опори, розворот зачепленого снаряда проти руху Орі, свідома витрата енергії на Soul Link у безпечному місці та втеча від повені після очищення серцевини. Наступні ключі, здобута здібність і фіксований Духовний колодязь упорядковують підйом; безпосередній рух, здоров’я й реальний час його підтримують. Основні правила підтверджують посібник і матеріали Xbox за участі творців, а послідовність — письмові проходження; власної гри не було.",
+      "defining": [
+        "ACT-569",
+        "ACT-570",
+        "SYS-1131",
+        "SYS-1132",
+        "SYS-1133",
+        "CON-708",
+        "OBJ-026"
+      ],
+      "structural": [
+        "ACT-089",
+        "ACT-341",
+        "SYS-398",
+        "SYS-973",
+        "CON-136",
+        "CON-349",
+        "CON-621"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-161",
+        "SYS-215",
+        "SYS-578",
+        "INF-119",
+        "TIM-003"
+      ]
+    },
+    "GAME-0432": {
+      "reviewed": "2026-09-27",
+      "noteEn": "The original 2016 ordinary-card loop is defined by four power reserves that can each kill at either extreme, an authored response's multi-reserve effects, contextual weighted next-card eligibility and successor reset with limited narrative persistence. Binary response selection and partial current-state cues structure the decision; uncertainty and discrete turn settlement support it. The creator and publisher accounts bound the rules; a contemporaneous paid-copy analysis supports terminal extremes and heir transition, without direct iOS play.",
+      "noteUk": "Звичайний цикл карток оригінальної гри 2016 року визначають чотири запаси влади, кожен із двома смертельними межами, вплив відповіді на кілька запасів, залежний від стану й ваги вибір наступної картки та зміна монарха з обмеженим збереженням історії. Вибір однієї з двох відповідей і неповні підказки формують рішення; непевність і послідовне завершення ходу підтримують його. Правила описали творець і видавець, крайні межі й спадкоємця — тогочасна власниця гри; власної гри на iOS не було.",
+      "defining": ["SYS-1134", "SYS-1135", "SYS-1136", "CON-709", "OBJ-248"],
+      "structural": ["ACT-232", "INF-421"],
+      "supporting": ["SYS-004", "INF-002", "TIM-001"]
     }
   }
 }

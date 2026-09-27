@@ -23861,6 +23861,474 @@
       },
       "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
       "releases": []
+    },
+    "GAME-0397": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Original English Windows Red Alert 2 base game, first Allied Normal campaign mission Operation: Lone Guardian",
+        "editionUk": "Оригінальна англомовна базова Red Alert 2 для Windows: перша місія союзників Operation: Lone Guardian на звичайній складності",
+        "version": "Original 2000 base-game rules reconstructed from the Westwood manual and written routes for PC versions 1.002 and 1.006; exact executable revision not inspected",
+        "distribution": "Original Windows PC physical-media game; current EA digital bundle is a separate availability reference",
+        "evidenceUrl": "https://oldgamesdownload.com/manual/command-conquer-red-alert-2-windows-manual-english/",
+        "checked": "2026-09-25"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0398": {
+      "analysisTarget": {
+        "platformId": "PLAT-GAME-BOY-ADVANCE",
+        "edition": "Original North American English Game Boy Advance Mega Microgame$! cartridge, first Wario introduction course through its tenth-slot boss",
+        "editionUk": "Оригінальний англомовний картридж Mega Microgame$! для Game Boy Advance, перший вступний курс Варіо до боса на десятому завданні",
+        "version": "2003 North American AGB-AZWE-USA rules reconstructed from Nintendo's PAL booklet and two contemporary North American written guides; binary identity and exact cartridge revision not inspected",
+        "distribution": "Original North American Game Boy Advance cartridge; European Minigame Mania booklet is a rules witness, not the analysis target",
+        "evidenceUrl": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/game_boy_advance_8/Manual_GameBoyAdvance_WarioWareIncMinigameMania_EN_DE_FR_ES_IT.pdf",
+        "checked": "2026-09-25"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0399": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-2",
+        "edition": "Original English North American PlayStation 2 Ico retail game, fresh New Game from first tower control through both characters at the first couch",
+        "editionUk": "Оригінальна англомовна північноамериканська Ico для PlayStation 2: нова гра від першого керування у вежі до першої лави, на яку сідають обидва персонажі",
+        "version": "Original 2001 North American PS2 rules reconstructed from the Sony manual transcription and two contemporary written routes; executable revision not inspected",
+        "distribution": "Original North American PlayStation 2 disc; PS3 remaster and later releases excluded",
+        "evidenceUrl": "https://icoshrine.neocities.org/gallery/manual_transcripts",
+        "checked": "2026-09-25"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0400": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-360",
+        "edition": "Original Xbox 360 Xbox Live Arcade Geometry Wars: Retro Evolved, single-player Evolved score-attack mode through life-stock exhaustion",
+        "editionUk": "Оригінальна Geometry Wars: Retro Evolved для Xbox 360 у Xbox Live Arcade: одиночний режим Evolved від початку рахункового забігу до вичерпання життів",
+        "version": "Original 2005 Xbox 360 Evolved rules reconstructed from the official Xbox mode listing and two contemporary Evolved guides; executable revision not inspected",
+        "distribution": "Original Xbox 360 Xbox Live Arcade release; Retro mode, PC port and sequels excluded",
+        "evidenceUrl": "https://www.xbox.com/en-us/games/store/Geometry-Wars-Evolved/BP5G8K2M71PM",
+        "checked": "2026-09-25"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0401": {
+      "analysisTarget": {
+        "platformId": "PLAT-IOS",
+        "edition": "Original paid iPhone Fruit Ninja version 1.2, unpowered Classic mode from fresh score run to bomb or missed-fruit terminal",
+        "editionUk": "Оригінальна платна Fruit Ninja версії 1.2 для iPhone: класичний режим без пізніших підсилень від початку забігу до бомби або вичерпання дозволених пропусків",
+        "version": "May 2010 iPhone version-1.2 rule boundary reconstructed from Halfbrick's contemporary announcement, launch review and later cross-checks; exact executable not inspected",
+        "distribution": "Original paid iPhone App Store release; later Free app, Arcade, Zen and power-up-equipped editions excluded",
+        "evidenceUrl": "https://www.impulsegamer.com/wordpress/?p=6169",
+        "checked": "2026-09-25"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0402": {
+      "analysisTarget": {
+        "platformId": "PLAT-APPLE-II",
+        "edition": "Original 1985 MECC Apple II school disk A-157, farmer's first Independence-to-Kansas River crossing interval",
+        "editionUk": "Оригінальний шкільний диск MECC A-157 для Apple II 1985 року: перший відрізок фермера від Індепенденса до переправи через Канзас",
+        "version": "A-157 rules reconstructed from MECC's original instructional booklet and model appendix; executable revision not inspected",
+        "distribution": "Original school Apple II disk A-157; home H-106, earlier text game and later ports/remakes excluded",
+        "evidenceUrl": "https://mirrors.apple2.org.za/ftp.apple.asimov.net/images/educational/mecc/documentation/MECC-A157%20The%20Oregon%20Trail%20manual.pdf",
+        "checked": "2026-09-25"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0403": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-GAMECUBE",
+        "edition": "Original 2001 North American English GameCube retail game, Standard controls, first post-training Parlor room through its key chest",
+        "editionUk": "Оригінальне англомовне північноамериканське видання для GameCube 2001 року зі звичайним керуванням: перша кімната після навчання до ключа зі скрині",
+        "version": "Original printed GameCube booklet and Nintendo product page; exact retail disc revision not inspected",
+        "distribution": "North American retail Nintendo GameCube disc; Hidden Mansion, 2018 3DS remake and sequels excluded",
+        "evidenceUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-GameCube/Luigi-s-Mansion-268236.html",
+        "checked": "2026-09-25"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0404": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-2",
+        "edition": "Original 2002 North American English PlayStation 2 retail game, first Novalis crater rescue through the Kerwan Infobot and courier-ship handoff",
+        "editionUk": "Оригінальне англомовне північноамериканське видання для PlayStation 2 2002 року: перший маршрут кратером Новаліса до інфобота Кервана й доступу до кур’єрського корабля",
+        "version": "Sony's original PS2 announcement and two original-game written routes; exact disc revision not inspected",
+        "distribution": "North American retail PlayStation 2 disc; PS4 reimagining, remasters and later games excluded",
+        "evidenceUrl": "https://sony.mediaroom.com/2002-05-01-Ratchet-Clank-Revolutionizes-the-Action-Platform-Genre",
+        "checked": "2026-09-25"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0405": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-360",
+        "edition": "Original 2008 English-language Xbox 360 retail base game, childhood Old Town five-gold music-box interval before the castle sequence",
+        "editionUk": "Оригінальне англомовне видання базової гри для Xbox 360 2008 року: дитячий епізод у Старому місті до купівлі й використання музичної скриньки, перед подіями в замку",
+        "version": "Original Xbox 360 booklet and two contemporary original-game written routes; exact disc revision not inspected",
+        "distribution": "Original Xbox 360 retail base game; later compatibility packaging, Pub Games imports, DLC and sequels excluded",
+        "evidenceUrl": "https://www.xbox.com/en-US/games/store/Fable-II/C2WKJJ9F5936",
+        "checked": "2026-09-26"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0406": {
+      "analysisTarget": {
+        "platformId": "PLAT-ARCADE-CABINET",
+        "edition": "Konami GN845-UC four-panel arcade cabinet documented in its 1998 operator manual; one selected single-player music number at operator difficulty 4/Medium, one stage and Game Over During Song Off",
+        "editionUk": "Чотирипанельний аркадний автомат Konami GN845-UC за посібником 1998 року: одна обрана композиція для одного гравця; складність оператора 4/Medium, один етап, завершення при порожньому індикаторі ввімкнено",
+        "version": "Original GN845-UC operator manual, copyright 1998; exact installed software-ROM revision and song inventory not inspected",
+        "distribution": "Physical arcade cabinet; home dance mats, later series editions and multi-song credits excluded",
+        "evidenceUrl": "https://www.hackmycab.com/downloads/manuals/Dance%20Dance%20Revolution%20(Operators%20Manual)%20(Model%20GN845-UC).pdf",
+        "checked": "2026-09-26"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0407": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "English Windows Plants vs. Zombies GOTY Edition, one ordinary Stage 1 daytime Adventure level 1-6 using Sunflower, Peashooter and Wall-nut roles",
+        "editionUk": "Англомовне видання Plants vs. Zombies GOTY Edition для Windows: один звичайний денний рівень 1-6 першого етапу Adventure із соняшником, горохострілом і горіхом-барикадою",
+        "version": "Steam app 3590; exact Windows executable revision not inspected; original rules reconstructed from PopCap's public Mac 1.0.40 readme with cross-edition limits recorded",
+        "distribution": "Windows Steam product; mobile, Replanted and other game modes excluded",
+        "evidenceUrl": "https://store.steampowered.com/app/3590/Plants_vs_Zombies_GOTY_Edition/",
+        "checked": "2026-09-26"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0408": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-ENTERTAINMENT-SYSTEM",
+        "edition": "Original 1993 North American English NES Kirby's Adventure Game Pak, first Vegetable Valley stage 1-1 through goal jump and expanded level map",
+        "editionUk": "Оригінальне англомовне північноамериканське видання Kirby's Adventure для NES 1993 року: перший етап 1-1 Долини овочів до стрибка після проходження й розширеної мапи рівня",
+        "version": "Nintendo's original NES Game Pak instruction booklet and written original-NES Stage 1-1 route; exact cartridge ROM revision not inspected",
+        "distribution": "North American NES cartridge; GBA remake, later series games and emulator-only features excluded",
+        "evidenceUrl": "https://www.nintendo.co.jp/clv/manuals/en/pdf/CLV-P-NAAPE.pdf",
+        "checked": "2026-09-26"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0409": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-2",
+        "edition": "Original North American English 2001 PS2 Twisted Metal: Black, one-player Story Mode, first Junkyard arena with Junkyard Dog",
+        "editionUk": "Оригінальна північноамериканська англомовна Twisted Metal: Black для PS2 2001 року: сюжетний режим для одного гравця, перша арена Звалище на Junkyard Dog",
+        "version": "Original Sony PS2 manual and written original-PS2 first-arena route; exact disc revision not inspected",
+        "distribution": "North American PS2 disc; 2015 PS4 reissue and other modes excluded",
+        "evidenceUrl": "https://www.passeidireto.com/arquivo/120692120/twisted-metal-black-manual-ps-2",
+        "checked": "2026-09-26"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0410": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-360",
+        "edition": "Original English 2009 Xbox 360 Halo Wars, solo Normal campaign mission 02 Relic Approach",
+        "editionUk": "Оригінальна англомовна Halo Wars для Xbox 360 2009 року: друга місія одиночної кампанії Relic Approach на звичайній складності",
+        "version": "Original Microsoft Xbox 360 manual and Prima original-game mission guide; exact disc revision uninspected",
+        "distribution": "Original Xbox 360 disc; later Definitive Edition and other modes excluded",
+        "evidenceUrl": "https://download.microsoft.com/download/F/9/9/F99AB8F0-5191-4EDD-B312-7A9B9E4784FA/HaloWars_MNL_EN-US.pdf",
+        "checked": "2026-09-26"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0411": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Original English 2010 Windows PC Bejeweled 3 version 1.0.8.6128, Classic mode",
+        "editionUk": "Оригінальна англомовна Bejeweled 3 для Windows PC 2010 року, версія 1.0.8.6128, класичний режим",
+        "version": "PopCap original PC readme and official strategy guide; executable not inspected",
+        "distribution": "Original Windows PC release; console, mobile and later modes excluded",
+        "evidenceUrl": "https://bejeweled.wiki.gg/wiki/Bejeweled_3/readme.html/source",
+        "checked": "2026-09-26"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0412": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH",
+        "edition": "Original 2022 Nintendo Switch Splatoon 3, launch version 1.1.0, one ordinary 4v4 Regular Battle Turf War",
+        "editionUk": "Оригінальна Splatoon 3 для Nintendo Switch 2022 року, стартова версія 1.1.0, один звичайний матч Turf War формату 4 на 4",
+        "version": "Nintendo launch summary, official Turf War rules and update history; console build and network match not inspected",
+        "distribution": "Nintendo Switch release; Splatfest, Tricolor, Anarchy and later balance patches excluded",
+        "evidenceUrl": "https://splatoon.nintendo.com/en/news/catch-up-on-all-the-latest-from-the-splatoon-3-direct/",
+        "checked": "2026-09-26"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0413": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION",
+        "edition": "Original 1999 North American PlayStation Ape Escape SCUS-94423, Normal Play first Fossil Field visit",
+        "editionUk": "Оригінальна північноамериканська Ape Escape для PlayStation 1999 року, SCUS-94423, перше проходження Fossil Field у звичайному режимі",
+        "version": "Sony original-title history and product identity; original disc revision and direct play not inspected",
+        "distribution": "Original PlayStation disc; later PlayStation conversion, PSP remake and Time Attack excluded",
+        "evidenceUrl": "https://www.playstation.com/uk-ua/playstation-history/1994-ps-one/",
+        "checked": "2026-09-26"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0414": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-360",
+        "edition": "Original 2010 North American English Xbox 360 Kinect Adventures!, one solo ordinary 20,000 Leaks activity",
+        "editionUk": "Оригінальна англомовна Kinect Adventures! для Xbox 360 2010 року, один звичайний одиночний раунд «20,000 Leaks»",
+        "version": "Microsoft original English manual; exact disc revision and named activity level not inspected",
+        "distribution": "Original Xbox 360 disc with Kinect sensor; other activities and explicit time challenges excluded",
+        "evidenceUrl": "https://download.microsoft.com/download/F/9/9/F99AB8F0-5191-4EDD-B312-7A9B9E4784FA/KinectAdventures_MNL_EN-US.pdf",
+        "checked": "2026-09-26"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0415": {
+      "analysisTarget": {
+        "platformId": "PLAT-DREAMCAST",
+        "edition": "Original 2000 English Dreamcast Crazy Taxi, Arcade course under Play By Arcade Rules",
+        "editionUk": "Оригінальна англомовна Crazy Taxi для Dreamcast 2000 року: траса Arcade за правилами Play By Arcade Rules",
+        "version": "Original Sega Dreamcast manual; exact disc revision and option values not inspected",
+        "distribution": "Original Dreamcast disc; Original course, fixed-duration modes and Crazy Box excluded",
+        "evidenceUrl": "https://www.digitpress.com/library/manuals/dreamcast/crazy_taxi.pdf",
+        "checked": "2026-09-26"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0416": {
+      "analysisTarget": {
+        "platformId": "PLAT-GAME-BOY-ADVANCE",
+        "edition": "Original 2001 North American English Game Boy Advance Advance Wars, Field Training mission 2 Terrain Intel",
+        "editionUk": "Оригінальна північноамериканська англомовна Advance Wars для Game Boy Advance 2001 року: друге навчальне завдання Terrain Intel",
+        "version": "European English Nintendo manual is a general rules witness; exact North American cartridge revision not inspected",
+        "distribution": "Original Game Boy Advance cartridge; later Field Training lessons, campaign and remakes excluded",
+        "evidenceUrl": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/game_boy_advance_8/Manual_GameBoyAdvance_AdvanceWars_EN_DE_FR_ES_IT.pdf",
+        "checked": "2026-09-26"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0417": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-2",
+        "edition": "Original 2002 North American English PlayStation 2 Sly Cooper and the Thievius Raccoonus SCUS-97198, first Tide of Terror stage A Stealthy Approach",
+        "editionUk": "Оригінальна північноамериканська англомовна Sly Cooper and the Thievius Raccoonus для PlayStation 2 2002 року, SCUS-97198, перший рівень Tide of Terror — A Stealthy Approach",
+        "version": "Original US instruction booklet and original-game written routes; exact disc revision and direct play not inspected",
+        "distribution": "Original licensed North American PlayStation 2 retail disc; later HD remaster and PS4/PS5 conversion features excluded",
+        "evidenceUrl": "https://www.videogamemanual.com/PS2/Sly%20Cooper%20and%20the%20Thievius%20Raccoonus%20%28USA%29.pdf",
+        "checked": "2026-09-27"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0418": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Original 2012 English Windows FTL: Faster Than Light, Kestrel Type A and one conditional first-sector hostile beacon",
+        "editionUk": "Оригінальна англомовна FTL: Faster Than Light для Windows 2012 року: Kestrel типу A й один умовний ворожий маяк першого сектора",
+        "version": "Original pre-Advanced Edition rules; exact Windows executable revision and direct play not inspected",
+        "distribution": "Original Windows PC release; 2014 Advanced Edition, later ports and full campaign excluded",
+        "evidenceUrl": "https://store.steampowered.com/app/212680/FTL_Faster_Than_Light/",
+        "checked": "2026-09-27"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0419": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-DS",
+        "edition": "Original 2005 North American English Nintendo DS Nintendogs: Labrador & Friends, first named puppy home tutorial",
+        "editionUk": "Оригінальна північноамериканська англомовна Nintendogs: Labrador & Friends для Nintendo DS 2005 року, перше домашнє навчання цуценяти",
+        "version": "Original Nintendo of America shared instruction booklet; exact cartridge revision and direct play not inspected",
+        "distribution": "Original North American Nintendo DS retail cartridge; later 3DS sequel and ports excluded",
+        "evidenceUrl": "https://csassets.nintendo.com/noaext/image/private/t_KA_PDF/DS_Nintendogs?_a=DATC1RAAZAA0",
+        "checked": "2026-09-27"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0420": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX",
+        "edition": "Original 2003 English Xbox Project Gotham Racing 2, offline Kudos World Series Compact Sports first Duomo 2 Street Race",
+        "editionUk": "Оригінальна англомовна Project Gotham Racing 2 для Xbox 2003 року: перші вуличні перегони серії компактних спорткарів на трасі Duomo 2",
+        "version": "Original Microsoft/Bizarre retail manual; exact disc revision and direct play not inspected",
+        "distribution": "Original Xbox retail disc; online, downloadable content, ports and sequels excluded",
+        "evidenceUrl": "https://manualzz.com/doc/25186554/microsoft-project-gotham-racing-2-video-game-user-manual",
+        "checked": "2026-09-27"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0421": {
+      "analysisTarget": {
+        "platformId": "PLAT-DOS",
+        "edition": "Original English DOS The Incredible Machine, manual's worked basketball-to-hoop puzzle",
+        "editionUk": "Оригінальна англомовна The Incredible Machine для DOS: приклад із баскетбольним м’ячем і кошиком з оригінального посібника",
+        "version": "Original Sierra/Dynamix printed DOS manual; exact executable revision and menu index not independently verified",
+        "distribution": "Original DOS release; Even More, sequels and retrospective Mega Pack excluded",
+        "evidenceUrl": "https://www.retrogames.cz/manualy/DOS/The_Incredible_Machine_-_DOS_-_Manual.pdf",
+        "checked": "2026-09-27"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0422": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-PORTABLE",
+        "edition": "Original English PSP Patapon, first Hunting on Patata Plain mission",
+        "editionUk": "Оригінальна англомовна Patapon для PSP: перше полювання Hunting on Patata Plain",
+        "version": "Original Sony PSP manual and contemporary original-PSP guide; exact UMD revision not inspected",
+        "distribution": "Original single-player PSP release; remaster and sequels excluded",
+        "evidenceUrl": "https://manuals.plus/m/022be6c58003e45d11649414457926eeb0088f6e624a743a3006b6a45791a966.pdf",
+        "checked": "2026-09-27"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0423": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-360",
+        "edition": "Original 2008 English Xbox 360 Banjo-Kazooie: Nuts & Bolts, Nutty Acres Act 2 Great Balls of Fire challenge",
+        "editionUk": "Оригінальна англомовна Banjo-Kazooie: Nuts & Bolts для Xbox 360 2008 року: випробування Great Balls of Fire у другому акті Nutty Acres",
+        "version": "Original Microsoft Xbox 360 manual and licensed 2008 Prima challenge guide; exact disc revision and direct play not inspected",
+        "distribution": "Original Xbox 360 single-player release; later distribution, multiplayer and other missions excluded",
+        "evidenceUrl": "https://manuals.plus/microsoft/xbox-360-banjo-kazooie-video-game-manual",
+        "checked": "2026-09-27"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0424": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-64",
+        "edition": "Original 1997 North American Nintendo 64 Star Fox 64 single-player Main Game, first Corneria stage",
+        "editionUk": "Оригінальна північноамериканська Star Fox 64 для Nintendo 64 1997 року: перший етап Corneria в одиночному основному режимі",
+        "version": "Original Nintendo 64 instruction booklet; exact Game Pak revision and direct play not inspected",
+        "distribution": "Original Nintendo 64 single-player release; later ports, 3DS remake and multiplayer excluded",
+        "evidenceUrl": "https://world-of-nintendo.com/manuals/nintendo_64/star_fox_64.shtml",
+        "checked": "2026-09-27"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0425": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Original 2001 English Windows PC Black & White story game, Land 1 Guide's Aztec village after Sable's creature tutorial",
+        "editionUk": "Оригінальна англомовна Black & White для Windows PC 2001 року: поселення ацтеків провідника на першому острові після навчання з істотою",
+        "version": "Original Lionhead Windows manual and contemporary Land One guide; exact disc or patch revision and direct play not inspected",
+        "distribution": "Original Windows PC single-player story release; later ports, Creature Isle and Black & White 2 excluded",
+        "evidenceUrl": "https://d1.xp.myabandonware.com/f/lvlb/Black-White_Manual_Win_EN.pdf",
+        "checked": "2026-09-27"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0426": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-VITA",
+        "edition": "Original 2013 PS Vita Tearaway, early paper-surface traversal before the messenger independently acquires a jump",
+        "editionUk": "Оригінальна Tearaway для PS Vita 2013 року: раннє проходження паперовою поверхнею до того, як посланець самостійно навчиться стрибати",
+        "version": "Sony's original PS Vita hands-on and contemporary first-hand reviews; exact cartridge revision, combined stage geometry and direct play not inspected",
+        "distribution": "Original PS Vita single-player release; PS4 Tearaway Unfolded and later ports excluded",
+        "evidenceUrl": "https://blog.playstation.com/archive/2013/05/29/hands-on-with-tearaway-media-molecules-new-ps-vita-adventure",
+        "checked": "2026-09-27"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0427": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-360",
+        "edition": "Original 2010 Xbox 360 Alan Wake, Normal story Episode 1 Nightmare, first isolated Taken after the shooting tutorial",
+        "editionUk": "Оригінальна Alan Wake для Xbox 360 2010 року: звичайна складність, перший окремий Темний після навчання стрільби в розділі Nightmare",
+        "version": "Original Microsoft/Remedy Xbox 360 manual and first-hand route; exact disc revision and direct play not inspected",
+        "distribution": "Original Xbox 360 single-player release; later ports, remaster, American Nightmare and other encounters excluded",
+        "evidenceUrl": "https://manuals.plus/m/3537e546dddabff38ce730c0e9cb1dcfdb522d89325690ea6ae65575ec6b36c8",
+        "checked": "2026-09-27"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0428": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-WII-U",
+        "edition": "Original 2015 Wii U Super Mario Maker, launch-era course editor and historical upload clear proof, one short Super Mario Bros. style ground-theme course",
+        "editionUk": "Оригінальна Super Mario Maker для Wii U 2015 року: редактор курсів і історична перевірка проходження перед публікацією; один короткий наземний курс у стилі Super Mario Bros.",
+        "version": "Nintendo's original electronic manual; exact installed patch, player-created course and direct play not inspected",
+        "distribution": "Original Wii U local course creation and Coursebot save; Nintendo course upload ended in 2021 and Wii U online communication in 2024",
+        "evidenceUrl": "https://microsite.nintendo-europe.com/super-mario-maker-manual/enGB/page_01.html",
+        "checked": "2026-09-27"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0429": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Original 1998 English Windows PC Commandos: Behind Enemy Lines, first mission Baptism of Fire after optional tutorials",
+        "editionUk": "Оригінальна англомовна Commandos: Behind Enemy Lines для Windows PC 1998 року: перша місія Baptism of Fire після необов’язкового навчання",
+        "version": "Original Pyro/Eidos manual and two first-mission routes; exact disc revision and direct play not inspected",
+        "distribution": "Original Windows PC single-player release; later ports, multiplayer and later missions excluded",
+        "evidenceUrl": "https://cdn.akamai.steamstatic.com/steam/apps/6800/manuals/commandos_manual.pdf",
+        "checked": "2026-09-27"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0430": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION",
+        "edition": "Original 1999 North American English PlayStation Silent Hill, early Old Silent Hill doghouse and three-key school route",
+        "editionUk": "Оригінальна англомовна Silent Hill для північноамериканської PlayStation 1999 року: ранній шлях Старим Сайлент-Гіллом через будинок із будкою та три ключі до школи",
+        "version": "Original Konami of America booklet and two early-route guides; exact disc revision, difficulty setting and direct play not inspected",
+        "distribution": "Original PlayStation disc; later ports, sequels and remakes excluded",
+        "evidenceUrl": "https://www.silenthillmemories.net/sh1/versions/silent_hill_ps1_us_manual.pdf",
+        "checked": "2026-09-27"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0431": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-ONE",
+        "edition": "Original 2015 English Xbox One Ori and the Blind Forest, Ginso Tree Bash-to-escape route",
+        "editionUk": "Оригінальна англомовна Ori and the Blind Forest для Xbox One 2015 року: шлях деревом Ginso від Bash до втечі",
+        "version": "Original Xbox One release, March 2015; exact executable revision and difficulty not inspected; Definitive Edition excluded",
+        "distribution": "Original Xbox One digital release; current Xbox Store page distinguishes it from Definitive Edition",
+        "evidenceUrl": "https://www.xbox.com/en-US/games/store/ori-and-the-blind-forest/C0MCC9R22KBJ",
+        "checked": "2026-09-27"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0432": {
+      "analysisTarget": {
+        "platformId": "PLAT-IOS",
+        "edition": "Original English iOS Reigns, one ordinary advisor-card reign and successor boundary",
+        "editionUk": "Оригінальна англомовна Reigns для iOS: звичайні рішення за картками протягом одного правління й перехід до спадкоємця",
+        "version": "August 2016 launch rules reconstructed from contemporary sources; exact binary not inspected; 2026 anniversary update excluded",
+        "distribution": "Original paid iOS application; later updates and sequels excluded",
+        "evidenceUrl": "https://apps.apple.com/us/app/reigns/id1114127463",
+        "checked": "2026-09-27"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
     }
   }
 }

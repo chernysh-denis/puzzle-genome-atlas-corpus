@@ -21254,3 +21254,1302 @@
   original-game written rating description and the PS4 trophy outcome list.
 - Novelty: first isolated for `GAME-0396`; the ordinal rap rating itself
   governs the continuing stage, not merely the final reward label.
+
+## SYS-1060 — Restore a destroyed bridge through an entered repair hut
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when an eligible engineer reaches and enters the repair hut
+  associated with a destroyed bridge, consume that engineer into the repair
+  interaction and replace the blocked crossing with a traversable bridge for
+  the current battle.
+- Includes: sending an Allied Engineer into the southeastern bridge hut after
+  taking Fort Bradley in Red Alert 2's first Allied mission, then routing ground
+  forces across the repaired bridge toward the Soviet supply base.
+- Excludes: Tanya swimming around a crossing; repairing an ordinary damaged
+  owned structure; building a new bridge from inventory pieces; a bridge that
+  appears merely because a loose object settles in water (`SYS-097`).
+- Parameters: engineer eligibility, associated hut, destroyed crossing, path
+  reachability, engineer consumption, repaired bridge state and subsequent
+  ground-unit path.
+- Evidence: [Red Alert 2 decomposition](../games/a-f/command-and-conquer-red-alert-2.md),
+  the original Westwood manual's Engineer section and two written Allied
+  mission routes.
+- Novelty: first isolated for `GAME-0397`; a targeted specialist enters a
+  fixture to change map connectivity, unlike constructing or passively
+  traversing an existing crossing.
+
+## SYS-1061 — Hand off short microgames within a scheduled course
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after one independently presented short task settles, switch
+  to the next course slot without returning to a selection menu, drawing an
+  eligible ordinary task or installing a scheduled boss at its fixed slot.
+- Includes: successive ordinary Wario introductory tasks followed by the
+  tenth-slot Sparring Wario boss.
+- Excludes: random choice alone (`SYS-004`); a board turn between distinct
+  Mario Party minigames; an ordinary level exit chosen by the player.
+- Parameters: pool, slot, handoff delay, boss schedule and continuation gate.
+- Evidence: [WarioWare introductory course](../games/s-z/warioware-inc-mega-microgame.md),
+  Nintendo's GBA booklet and two contemporary written guides.
+- Novelty: first isolated for `GAME-0398`; the next short task replaces the
+  prior one inside a single continuing course.
+
+## SYS-1062 — Accelerate short tasks at course milestones
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: reaching declared progress milestones raises the pace of later
+  short tasks inside the same course, reducing their response opportunity
+  without changing the already selected task's objective.
+- Includes: Wario's introductory speed-up cues before the boss.
+- Excludes: a manual fast-forward control (`ACT-006`); changing a global
+  difficulty setting before play; a score multiplier without faster tasks.
+- Parameters: milestones, pace steps, countdown rate and cue presentation.
+- Evidence: [WarioWare introductory course](../games/s-z/warioware-inc-mega-microgame.md),
+  two contemporary written original-GBA guides.
+- Novelty: first isolated for `GAME-0398`; escalating reaction pressure is
+  attached to the chained microgame course, not to a persistent playfield.
+
+## SYS-1063 — Settle each microgame into clear or failure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: evaluate the active microgame's task condition or expiry once,
+  emit a binary local clear/fail result and return that result to the course
+  before its next slot is selected.
+- Includes: clearing Crazy Cars after a successful jump; failure after a
+  missed car or expired bomb timer in Wario's introductory course.
+- Excludes: directly ending the whole course on its first failed task;
+  debiting the shared life stock (`CON-183`); selecting the next task.
+- Parameters: local success predicate, expiry predicate, evaluation order,
+  result cue and handed-off result.
+- Evidence: [WarioWare introductory course](../games/s-z/warioware-inc-mega-microgame.md),
+  Nintendo's booklet and contemporary written guides.
+- Novelty: first isolated for `GAME-0398`; a local result is nested in a
+  still-continuing run rather than being the run's own terminal.
+
+## SYS-1064 — Resolve a dependent companion's requested movement and lift
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after an accepted player call or handhold, a dependent allied
+  actor follows the controlled avatar along reachable local terrain or
+  completes a requested assisted climb, but remains physically separated
+  when a passage is beyond her own movement capability.
+- Includes: Yorda following Ico by the hand, approaching his call and being
+  pulled up the taller ledge on the route through the first Idol Door.
+- Excludes: an owned Palico independently selecting attacks and support
+  (`SYS-407`); a guard giving combat or healing help (`SYS-752`); magically
+  appearing beside the player across an inaccessible gap; the input itself
+  (`ACT-535`).
+- Parameters: companion, follow state, route, separation, reachable ledge,
+  request, independent movement limit and completed assisted position.
+- Evidence: [Ico opening escape](../games/g-l/ico.md), original North American
+  PlayStation 2 manual transcription p. 12 and contemporary written route.
+- Novelty: first isolated for `GAME-0399`; companion movement depends on
+  the player's call or physical contact while her own traversal permission
+  remains separately constrained.
+
+## SYS-1065 — Drag a protected companion toward a hostile portal
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an active hostile can seize a vulnerable dependent companion
+  and carry her toward a local portal; an intervening strike or timely player
+  retrieval can restore her before completed portal capture ends the attempt.
+- Includes: the first shadow spirit carrying Yorda after her cage opens and
+  Ico's possible recovery by stick attack or pulling her from the vortex.
+- Excludes: ordinary damage to the controlled avatar (`SYS-215`); a hostile
+  instantly killing the companion on first contact; the later castle-wide
+  spirit roster or any unstated exact recovery timer.
+- Parameters: companion, hostile, grab condition, carry route, portal,
+  recovery interaction, interrupted state and terminal capture state.
+- Evidence: [Ico opening escape](../games/g-l/ico.md), original North American
+  PlayStation 2 manual transcription pp. 12, 20 and two written opening routes.
+- Novelty: first isolated for `GAME-0399`; the hostile threat is relocation
+  of a necessary second actor to a capture endpoint, not merely a health debit.
+
+## SYS-1066 — Continue spawning escalating hostile groups in a score arena
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: while one open-ended score run remains active, instantiate
+  changing hostile classes and group formations into its live arena, with
+  population pressure increasing as the run progresses rather than exhausting
+  a fixed stage reserve.
+- Includes: individual appearances and later denser corner or encircling
+  groups in Geometry Wars: Retro Evolved's Xbox 360 Evolved mode.
+- Excludes: authored minute-indexed Vampire Survivors stages (`SYS-572`);
+  finite Tank 1990 arena reserve (`SYS-908`); the current hostile's movement
+  or collision after arrival (`SYS-215`); an asserted exact random schedule.
+- Parameters: run progress, eligible enemy class, group pattern, positions,
+  count, increasing pressure and unknown selection schedule.
+- Evidence: [Geometry Wars: Retro Evolved decomposition](../games/g-l/geometry-wars-retro-evolved.md),
+  two contemporary Evolved guides describing early and late arrivals.
+- Novelty: first isolated for `GAME-0400`; the same score arena keeps receiving
+  non-terminal hostile formations whose pressure rises without a cleared wave.
+
+## SYS-1067 — Raise a kill-count score multiplier within one life
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: count enemies destroyed by scoring attacks since the current
+  life began, raise the multiplier at eligible count steps and apply it to
+  later target-value score awards; a lethal life loss resets the multiplier
+  without erasing accumulated run score.
+- Includes: the Evolved ship-kill multiplier in the original Xbox 360
+  Geometry Wars: Retro Evolved score run.
+- Excludes: score multiplier collected from sequel Geoms; timed note streaks
+  (`SYS-1011`); experience from a rapid-kill combo (`SYS-717`); plain target
+  class scores with no life-local growth.
+- Parameters: current-life kill count, qualifying kill, multiplier thresholds,
+  cap, base target score, death reset and retained aggregate score.
+- Evidence: [Geometry Wars: Retro Evolved decomposition](../games/g-l/geometry-wars-retro-evolved.md),
+  two contemporary Evolved guides.
+- Novelty: first isolated for `GAME-0400`; sustained survival increases the
+  value of future kills while death breaks only the multiplier state.
+
+## SYS-1068 — Reconfigure the active gun at recurring score steps
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: when the run score crosses an eligible repeated interval,
+  replace or retain the controlled craft's firing form among its available
+  variants without a player equipment-selection input or score expenditure.
+- Includes: the original basic shot giving way to one of two upgraded spread
+  patterns after 10,000 points and later 10,000-point steps in Xbox 360
+  Geometry Wars: Retro Evolved Evolved mode.
+- Excludes: a gun form manually equipped from inventory; a fixed elapsed-time
+  change; the separate score awards for extra life and bomb stock
+  (`SYS-1069`); a claimed exact algorithm for selecting the gun variant.
+- Parameters: score interval, previous gun form, eligible forms, selected form,
+  shot pattern, rate and unresolved selector.
+- Evidence: [Geometry Wars: Retro Evolved decomposition](../games/g-l/geometry-wars-retro-evolved.md),
+  two contemporary Evolved guides that agree on the interval but not the
+  internal variant-selection formula.
+- Novelty: first isolated for `GAME-0400`; score repeatedly changes the
+  player's live attack geometry without purchasing or selecting an item.
+
+## SYS-1069 — Replenish distinct run stocks at recurring score milestones
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: on each qualifying score milestone in a continuing run, grant
+  the corresponding finite survival or emergency-action stock up to its cap,
+  retaining the score and leaving other milestone schedules independent.
+- Includes: one life every 75,000 points and one bomb every 100,000 points
+  in Geometry Wars: Retro Evolved Evolved mode.
+- Excludes: the one-time score bonus life (`SYS-965`); a picked-up life;
+  automatically changing weapon form (`SYS-1068`); spending score to buy stock.
+- Parameters: independent thresholds, award interval, stock type, quantity,
+  cap, already-awarded milestones and simultaneous scoring.
+- Evidence: [Geometry Wars: Retro Evolved decomposition](../games/g-l/geometry-wars-retro-evolved.md),
+  two independent contemporary Evolved guides.
+- Novelty: first isolated for `GAME-0400`; the score schedule can repeatedly
+  restore two separately consumed resources without ending the run.
+
+## SYS-1070 — Clear visible arena enemies without bomb-kill points
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after an accepted emergency bomb activation, remove enemies
+  within the currently visible screen and award no kill points for those
+  removals, while enemies outside the camera view may remain active.
+- Includes: Evolved smart-bomb resolution in the original Xbox 360 Geometry
+  Wars: Retro Evolved arena.
+- Excludes: a placed delayed cross blast (`SYS-1045`); clearing the entire
+  world including off-screen actors; treating bomb removals as ordinary
+  scored shot kills; the bomb input and stock legality (`ACT-536`, `CON-694`).
+- Parameters: current viewport, qualifying enemy, removal, score exception,
+  off-screen persistence and immediate feedback.
+- Evidence: [Geometry Wars: Retro Evolved decomposition](../games/g-l/geometry-wars-retro-evolved.md),
+  two independent contemporary Xbox 360 Evolved guides.
+- Novelty: first isolated for `GAME-0400`; the defensive clear is explicitly
+  camera-bounded and forfeits the corresponding kill score.
+
+## SYS-1071 — Launch fruit and hazards on continuing screen arcs
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: during an open-ended live score run, introduce fruit targets
+  and occasional harmful objects from outside the play view into visible
+  rising and falling trajectories; they remain available only while their
+  arcs cross the screen.
+- Includes: airborne fruit groups and bombs in original iPhone Fruit Ninja
+  Classic, whose frequency and positions vary over the run.
+- Excludes: finite authored enemy waves (`SYS-908`); hostile groups pursuing a
+  moving ship (`SYS-1066`); a fixed item layout waiting for a touch; asserted
+  exact launch probabilities or physics constants.
+- Parameters: launch timing, object class, position, velocity, active arc,
+  visible interval and later launch uncertainty.
+- Evidence: [Fruit Ninja decomposition](../games/a-f/fruit-ninja.md),
+  contemporary launch review and Halfbrick's Classic description.
+- Novelty: first isolated for `GAME-0401`; a mixed target/hazard volley
+  creates a temporary swipe opportunity instead of a persistent board.
+
+## SYS-1072 — Resolve one live stroke against fruit and bomb contacts
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: compare the committed continuous touch path with currently
+  moving object silhouettes; each crossed fruit is cut, while intersecting a
+  bomb invokes the immediate-failure branch of the same contact resolution.
+- Includes: one Fruit Ninja Classic swipe that splits multiple fruit or
+  accidentally crosses a bomb.
+- Excludes: the finger's path commitment (`ACT-537`); scoring a cut and combo
+  (`SYS-1073`); treating a bomb as scored fruit; a projectile hitting one
+  targeted enemy (`SYS-215`).
+- Parameters: sampled path, object collision regions, contact order, cut set,
+  bomb intersection and visual split response.
+- Evidence: [Fruit Ninja decomposition](../games/a-f/fruit-ninja.md),
+  TouchArcade's original iPhone review and Halfbrick's swipe instructions.
+- Novelty: first isolated for `GAME-0401`; the player's own stroke is tested
+  geometrically against both rewards and an immediate-loss object.
+
+## SYS-1073 — Award fruit points and one-stroke group bonuses
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: grant score for each fruit cut by a stroke; if that same stroke
+  intersects at least the required number of fruit, add a group bonus, while
+  a separately selected critical result may add further points.
+- Includes: Fruit Ninja version-1.2 Classic's three-fruit +3 and four-fruit
+  +4 one-swipe bonuses and occasional critical hit reward.
+- Excludes: accumulating separate gestures into one combo; Arcade's Blitz or
+  banana multipliers; scoring a bomb; the random selector itself (`SYS-004`).
+- Parameters: cut fruit count, base fruit points, group threshold/bonus,
+  critical award and resulting run score.
+- Evidence: [Fruit Ninja decomposition](../games/a-f/fruit-ninja.md),
+  Halfbrick's contemporary version-1.2 press release and later guide.
+- Novelty: first isolated for `GAME-0401`; a continuous path's set of cuts
+  determines a bonus distinct from merely scoring each fruit.
+
+## SYS-1074 — Mark each uncut fruit that leaves live play
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when an active fruit exits the playable screen without being
+  intersected by a stroke, add one miss mark to the run's finite allowance;
+  an uncut bomb leaving play does not create a fruit miss.
+- Includes: an original Fruit Ninja Classic fruit falling away untouched,
+  contributing to the three-outstanding-miss terminal rule.
+- Excludes: the immediate failure from slicing a bomb (`CON-113`); losing
+  avatar health from an enemy hit; dropping fruit in bomb-free Zen; a fruit
+  successfully cut before its exit.
+- Parameters: fruit identity, cut flag, exit boundary, current miss marks,
+  feedback and terminal check.
+- Evidence: [Fruit Ninja decomposition](../games/a-f/fruit-ninja.md),
+  TouchArcade's original review and Halfbrick's Classic description.
+- Novelty: first isolated for `GAME-0401`; *not* taking an action against a
+  passing target consumes a finite chance rather than ending play at once.
+
+## SYS-1075 — Resolve daily wagon mileage from policy and condition
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: on a committed travel day, advance a wagon party toward the
+  next landmark by mileage computed from pace, viable oxen, party health,
+  terrain and obstructing weather; some events can halt progress.
+- Includes: Independence-to-Kansas travel days in A-157 The Oregon Trail.
+- Excludes: direct continuous wagon steering; fixed distance per keypress;
+  crossing the reached river itself.
+- Parameters: current distance, pace, oxen, illness, terrain, snow, event
+  and next-landmark threshold.
+- Evidence: [The Oregon Trail decomposition](../games/s-z/the-oregon-trail.md),
+  MECC A-157 booklet, model pp. 35–36.
+- Novelty: first isolated for `GAME-0402`; each travel day is jointly
+  conditioned on policy and persistent party/environment state.
+
+## SYS-1076 — Settle daily rations, weather and party welfare
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: each elapsed journey day debits food under the current ration
+  policy and updates general health and individual illness or injury from
+  rest, pace, weather and events; deterioration may kill members later.
+- Includes: A-157 first-leg daily health, sickness and rest settlement.
+- Excludes: individual avatar hunger alone; a one-click restorative; endgame
+  scoring; asserting one exact unobserved random sequence.
+- Parameters: party size, food, ration, pace, rest, weather, illness, health
+  and event draw.
+- Evidence: [The Oregon Trail decomposition](../games/s-z/the-oregon-trail.md),
+  MECC A-157 booklet, model p. 35.
+- Novelty: first isolated for `GAME-0402`; policy and changing conditions
+  jointly affect party-wide health and member outcomes.
+
+## SYS-1077 — Settle chosen river crossing against water and resources
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a permitted river method is chosen, charge its time and
+  cash costs and evaluate the wagon against water conditions, resolving
+  far-bank arrival or a loss/delay accident while the party may continue.
+- Includes: ford, caulk-and-float and ferry at A-157 Kansas River.
+- Excludes: the choice input (`ACT-539`); unconditional safe ferry; treating
+  all accidents as full-party terminal; Columbia raft controls.
+- Parameters: method, water, ferry availability, cash, days, accident draw,
+  losses and far-bank state.
+- Evidence: [The Oregon Trail decomposition](../games/s-z/the-oregon-trail.md),
+  MECC A-157 booklet, model p. 36.
+- Novelty: first isolated for `GAME-0402`; one measured river accepts
+  methods with distinct condition-sensitive risk and cost.
+
+## SYS-1078 — Credit hunted meat up to the wagon carryback cap
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: resolve a successful hunting hit to prey yield, then credit
+  only meat carried back to the wagon within the outing's maximum.
+- Includes: A-157's 100-pound maximum from a one-day first-leg hunt.
+- Excludes: awarding the whole buffalo weight; instant food without a shot;
+  the action and ammunition commitment (`ACT-540`).
+- Parameters: hit, prey yield, carryback cap, wagon food and credit.
+- Evidence: [The Oregon Trail decomposition](../games/s-z/the-oregon-trail.md),
+  MECC A-157 booklet, Program Preview p. 11.
+- Novelty: first isolated for `GAME-0402`; successful acquisition can
+  exceed what the expedition can retain.
+
+## SYS-1079 — Release a finite ghost encounter after fixture-darkening
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: once the authored local light fixtures are all extinguished,
+  change that room to its dark encounter state and release its finite
+  predeclared hostile group rather than spawning an endless population.
+- Includes: the first Parlor's normal ghosts appearing after Luigi
+  extinguishes its candles with the Poltergust.
+- Excludes: time-indexed survival waves; Boos searched in an already
+  brightened room; a fixed hostile group already present at room entry.
+- Parameters: fixture set, final-off trigger, darkness flag, ghost count,
+  appearance order and encounter state.
+- Evidence: [Luigi's Mansion decomposition](../games/g-l/luigis-mansion.md),
+  two independent written original-GameCube Parlor routes.
+- Novelty: first isolated for `GAME-0403`; player-created darkness triggers
+  a bounded encounter whose resolution later restores room illumination.
+
+## SYS-1080 — Flashlight surprise exposes a ghost's vulnerable heart
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a compatible ghost surprised by directed light stops and
+  exposes its heart for a temporary capture opportunity; a visible heart
+  alone does not guarantee suction reach when the ghost is too distant.
+- Includes: normal Parlor ghosts in original GameCube Luigi's Mansion.
+- Excludes: permanent revealed information with no timing window; beam
+  damage that directly defeats the ghost; the later suction contest.
+- Parameters: facing, light contact, surprise state, heart exposure,
+  duration, distance and suction reach.
+- Evidence: [Luigi's Mansion decomposition](../games/g-l/luigis-mansion.md),
+  Nintendo's original booklet pp. 12–13.
+- Novelty: first isolated for `GAME-0403`; exposure enables a separate
+  capture action, while remote exposure can still be unusable.
+
+## SYS-1081 — Resolve counter-steered suction into ghost capture
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while suction holds a reachable exposed ghost, its movement
+  resists capture; opposing stick input lowers its displayed power, and
+  maintaining the hold after zero pulls the ghost into the vacuum.
+- Includes: original GameCube Parlor ghost capture with R and opposite
+  Control Stick/C Stick input.
+- Excludes: an immediate catch on flashlight contact; merely reducing
+  Luigi's health when dragged (`SYS-578`); transferring loose inventory
+  into a typed tank.
+- Parameters: ghost power, escape vector, counter-input, depletion rate,
+  hold duration, release and captured state.
+- Evidence: [Luigi's Mansion decomposition](../games/g-l/luigis-mansion.md),
+  Nintendo's original booklet pp. 12–13.
+- Novelty: first isolated for `GAME-0403`; capture is a continuous,
+  interruptible struggle against an exposed opponent, not ordinary damage.
+
+## SYS-1082 — Brighten a cleared ghost room and reveal its authored key chest
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after the final required ghost of one authored dark room is
+  captured, change the room to its illuminated cleared state and reveal its
+  fixed progression-key chest for subsequent player collection.
+- Includes: the original GameCube first Parlor after its finite normal
+  ghost group is removed.
+- Excludes: automatic key collection; a random room-clear award; opening
+  ordinary combat exits without an authored chest (`SYS-465`); later Boo
+  search in already cleared rooms.
+- Parameters: required ghost set, final-capture flag, room-light state,
+  chest identity and key identity.
+- Evidence: [Luigi's Mansion decomposition](../games/g-l/luigis-mansion.md),
+  Nintendo's original booklet pp. 23–25 plus two written Parlor routes.
+- Novelty: first isolated for `GAME-0403`; finite ghost clearance changes
+  both the room's ambient state and access to a fixed key reward.
+
+## SYS-1083 — Settle guarded-transport rescue into information and travel access
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: once a finite hostile group defending an authored stranded
+  transport has been cleared, enable the rescued actor's handoff of route
+  information and access to that transport for later travel.
+- Includes: clearing Novalis's final ship guards, then receiving the Kerwan
+  Infobot and courier-ship use from the chairman in original Ratchet & Clank.
+- Excludes: automatic reward on merely reaching the transport; purchasing a
+  separate route clue; an ordinary combat-room door opening; physically
+  flying to the disclosed destination as part of the same transition.
+- Parameters: guarded transport, required hostile set, rescued actor, route
+  information, interaction flag and usable-travel flag.
+- Evidence: [Ratchet & Clank crater decomposition](../games/m-r/ratchet-and-clank.md),
+  corroborated by two contemporary original-game PS2 written routes.
+- Novelty: first isolated for `GAME-0404`; the same guard clearance enables
+  both an information handoff and an otherwise unavailable transport, not a
+  generic random combat-room reward.
+
+## SYS-1084 — Pay an authored task despite opposed retained outcomes
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: either eligible resolution of one authored local task awards
+  the same required progress payment while the selected helpful or
+  exploitative resolution separately changes retained conduct or world state.
+- Includes: the childhood one-coin jobs in original Fable II, particularly
+  giving the five warrants to Derek or Arfur before buying Murgo's box.
+- Excludes: a choice whose reward amount changes; purely cosmetic dialogue;
+  an unpaid moral decision; inferring the later town's exact prices or layout.
+- Parameters: task slot, opposed accepted outcomes, payment, conduct delta,
+  retained flag and completion state.
+- Evidence: [Fable II childhood decomposition](../games/a-f/fable-ii.md),
+  corroborated by two contemporary original-game written routes.
+- Novelty: first isolated for `GAME-0405`; equal critical-path payment can
+  coexist with different persistent moral and later-world outcomes.
+
+## SYS-1085 — Advance and judge a four-direction footstep chart
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: advance the selected song's authored arrows upward through
+  four directional lanes and classify each corresponding timed foot-panel
+  contact or missed event into Perfect, Great, Good, Boo or Miss.
+- Includes: a single-player music number on Konami's `GN845-UC`
+  DanceDanceRevolution arcade cabinet.
+- Excludes: fret-and-strum notes or sustained guitar holds (`SYS-1010`);
+  instructor/player phrase alternation (`SYS-1058`); calculating the live
+  survival gauge (`SYS-1013`); undocumented exact timing windows.
+- Parameters: selected song/chart, direction, simultaneous event set,
+  scroll position, step-zone time, foot contact and judgement class.
+- Evidence: [DanceDanceRevolution decomposition](../games/a-f/dancedancerevolution.md),
+  Konami's 1998 `GN845-UC` operator manual, p. 11.
+- Novelty: first isolated for `GAME-0406`; four floor-direction contacts
+  are judged against continuous song timing, not guitar input or dialogue.
+
+## SYS-1086 — Create perishable sun from sky and planted producers
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a daytime level occasionally drops a resource unit from above,
+  and each active planted producer periodically creates another collectible
+  unit; an uncollected unit disappears after its live collection interval,
+  while the collected balance does not carry into the next level.
+- Includes: daylight sun and Sunflower sun during first-stage daytime
+  Plants vs. Zombies Adventure defence.
+- Excludes: instantly deposited passive income; a reward for damaging or
+  defeating a zombie; cash from a completed wave; nighttime sky sun;
+  player click and balance transfer (`ACT-546`).
+- Parameters: sky cadence, producer cadence, unit value, active producers,
+  spawn position, expiry interval and level boundary.
+- Evidence: [Plants vs. Zombies decomposition](../games/m-r/plants-vs-zombies.md),
+  PopCap's public readme, “Sun”.
+- Novelty: first isolated for `GAME-0407`; production increases optional
+  purchasing capacity only when its transient output is collected.
+
+## SYS-1087 — Release a finite lane assault with flagged surges
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during one bounded level, hostile entries begin sparsely and
+  grow into larger waves identified by flags on a progress indicator;
+  each arriving hostile enters a row from the right and the assault ends
+  after its finite final release.
+- Includes: a regular first-stage daytime Adventure level in original
+  Plants vs. Zombies.
+- Excludes: player-triggered numbered rounds on one route (`SYS-809`);
+  endless survival spawning; symmetrical waves from both teams; exact
+  future spawn times or composition being disclosed.
+- Parameters: entry schedule, row, hostile type, progress position, flag
+  positions and final release.
+- Evidence: [Plants vs. Zombies decomposition](../games/m-r/plants-vs-zombies.md),
+  PopCap's public readme, “Zombies”.
+- Novelty: first isolated for `GAME-0407`; the forecast is surge-level
+  while defence must be ready in whichever row receives the next entry.
+
+## SYS-1088 — March down a lane and chew an obstructing plant
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a hostile advances left within its current row, stops at a
+  blocking plant to damage it by eating, and resumes leftward movement once
+  that plant is destroyed; reaching the house beyond protection fails the
+  level.
+- Includes: ordinary zombies crossing planted rows in a daytime
+  Plants vs. Zombies Adventure level.
+- Excludes: pathfinding around a plant; jumping to another row; a bloon
+  following an unblocked shared track; the mower's sweep (`SYS-1089`).
+- Parameters: row, horizontal position, movement rate, blocker, eating
+  damage, plant durability and house boundary.
+- Evidence: [Plants vs. Zombies decomposition](../games/m-r/plants-vs-zombies.md),
+  PopCap's public readme, “The Basics” and “Zombies”.
+- Novelty: first isolated for `GAME-0407`; an occupied cell is both a
+  static defensive placement and a consumable delay on a fixed lane.
+
+## SYS-1089 — Spend one lawnmower to sweep a breached row
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the first hostile to reach an unused row-bound emergency
+  mower triggers its one-way sweep, destroying the currently present
+  hostiles in that row and consuming that row's mower; a later hostile
+  crossing the same now-unprotected boundary reaches the house.
+- Includes: five separate starting lawnmowers in the regular daytime
+  first-stage lawn of Plants vs. Zombies Adventure.
+- Excludes: a player-fired area attack; a renewable life stock debited by
+  each leak; pool or roof cleaners; moving a mower to another row.
+- Parameters: row, mower availability, trigger boundary, swept hostile
+  set, later breach boundary and level-clear reward for unused mowers.
+- Evidence: [Plants vs. Zombies decomposition](../games/m-r/plants-vs-zombies.md),
+  PopCap's public readme, “Lawnmowers”.
+- Novelty: first isolated for `GAME-0407`; each lane has exactly one
+  automatically spent recovery before a later leak becomes terminal.
+
+## SYS-1090 — Copy a swallowed enemy's typed active ability
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: swallowing one eligible hostile transfers its declared ability
+  type into the controlled body's active capability slot; later use follows
+  that type, while a swallowed non-bearing hostile gives no copied ability.
+- Includes: a swallowed Waddle Doo granting Beam, then B invoking Beam in
+  original NES Kirby's Adventure.
+- Excludes: the player's inhale or swallow command; arbitrary loot drops;
+  permanently learned skills; the mounted Yoshi shell effect (`SYS-978`);
+  reclaiming a previously dropped copy star.
+- Parameters: hostile type, granted ability, slot replacement, active command,
+  non-bearing type and any type-specific use limit.
+- Evidence: [Kirby's Adventure decomposition](../games/g-l/kirbys-adventure.md),
+  using Nintendo's preserved original NES manual, pp. 17, 19–20, and a
+  written original-NES Stage 1-1 route for the Waddle Doo placement.
+- Novelty: first isolated for `GAME-0408`; the enemy's swallowed type changes
+  the avatar's command vocabulary instead of yielding a carried object.
+
+## SYS-1091 — Drop a copied ability as a recoverable star
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a hostile hit or deliberate discard removes the controlled
+  body's current copied ability and creates its recoverable star in the stage;
+  legally inhaling and swallowing that star restores the same ability.
+- Includes: Kirby losing Beam on a hit or SELECT and recovering it from the
+  emitted star in original NES Kirby's Adventure.
+- Excludes: permanent skill loss; damage without a carried ability; a generic
+  coin or score pickup; automatic reacquisition without the inhale/swallow
+  sequence; finite-life respawn after vitality reaches zero.
+- Parameters: active ability, hit or discard trigger, emitted star, recovery
+  window, reclaim input, restoration and failure to reclaim.
+- Evidence: [Kirby's Adventure decomposition](../games/g-l/kirbys-adventure.md),
+  using Nintendo's preserved original NES manual, p. 20.
+- Novelty: first isolated for `GAME-0408`; the active capability becomes one
+  recoverable world body while the avatar returns to Normal form.
+
+## SYS-1092 — Spend a limited arena repair-station supply
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a designated arena repair station restores a damaged
+  controlled vehicle when reached, but its available repair service is
+  limited and cannot be used as an infinite source of health.
+- Includes: driving a damaged vehicle into the limited-use repair station
+  in original PS2 Twisted Metal: Black's Junkyard arena.
+- Excludes: portable health pickups; automatic between-stage full repair;
+  a reusable unlimited healing zone; spending a player currency on upgrades.
+- Parameters: station location, available supply, vehicle damage, repair
+  amount, consumed supply and exhausted state.
+- Evidence: [Twisted Metal: Black decomposition](../games/s-z/twisted-metal-black.md),
+  using Sony's original PS2 manual, repair-station rules.
+- Novelty: first isolated for `GAME-0409`; arena position and a bounded
+  station supply jointly constrain repair.
+
+## SYS-1093 — Recharge and debit a shared vehicle energy-attack meter
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: one vehicle energy meter refills automatically over live time,
+  while several distinct defensive or control attacks debit the same meter;
+  an unavailable amount rejects a priced attack without borrowing weapon
+  ammunition or turbo.
+- Includes: shield and freeze energy attacks competing for the recharging
+  energy display in original PS2 Twisted Metal: Black.
+- Excludes: finite missile ammunition; machine-gun heat; turbo reserve;
+  personal exertion stamina; a separate cooldown per ability.
+- Parameters: shared capacity, current amount, recharge rate, attack costs,
+  spend order, rejection state and HUD update.
+- Evidence: [Twisted Metal: Black decomposition](../games/s-z/twisted-metal-black.md),
+  using Sony's original PS2 manual, energy-attack rules.
+- Novelty: first isolated for `GAME-0409`; multiple vehicle attacks
+  compete for one automatically recovering budget.
+
+## SYS-1094 — Accrue shared resources from a completed base facility
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a completed owned resource facility repeatedly adds its
+  declared resource to the owner's shared stockpile over live time without
+  a worker gathering, carrying or depositing it; loss of that facility
+  removes its corresponding continuing income.
+- Includes: a completed UNSC Supply Pad receiving supplies for Alpha Base
+  during original Xbox 360 Halo Wars mission 02, `Relic Approach`.
+- Excludes: collecting finite field crates by moving a squad to them;
+  worker gather-and-return trips (`SYS-549`); a once-only mission grant;
+  spending the accrued stockpile on a production order.
+- Parameters: facility, owner, resource type, accrual rate, completed state,
+  stockpile, number of active facilities and removal time.
+- Evidence: [Halo Wars decomposition](../games/g-l/halo-wars.md), using
+  Microsoft's original Xbox 360 manual, printed pp. 12–13 and 22–23.
+- Novelty: first isolated for `GAME-0410`; passive facility income is
+  distinct from both commanded field collection and worker logistics.
+
+## SYS-1095 — Scale match and cascade score by current Classic level
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: award pattern-specific base points for a qualifying gem match,
+  special-gem effect or successive cascade, then multiply those base values
+  by the current level number before adding them to the session score.
+- Includes: the original PC Bejeweled 3 Classic mode's 50-point ordinary
+  triple, increasing 50-point cascade bonuses and level-number multiplier.
+- Excludes: a fixed move quota; Lightning speed bonuses; Zen scoring without
+  the Classic level multiplier; persistent overall player rank; ordered
+  player-arranged modifier effects (`SYS-028`).
+- Parameters: base pattern values, cascade depth, level number, simultaneous
+  matches, special-gem scoring and session score.
+- Evidence: [Bejeweled 3 decomposition](../games/a-f/bejeweled-3.md), using
+  PopCap's original PC readme, Basic Scoring (Classic and Zen).
+- Novelty: first isolated for `GAME-0411`; the active level scales automatic
+  match-chain awards without an editable modifier tableau.
+
+## SYS-1096 — Rewrite team-colour surface ownership with ink contact
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: ink contact assigns the contacted eligible stage surface to the firing team, including replacement of opposing colour; later rival contact can reverse it again. Owned ground contributes to the present territorial state while coated walls can provide movement access without contributing scored floor area.
+- Includes: reversible cyan/orange floor control and inked climbable surfaces in a Splatoon 3 ordinary Turf War.
+- Excludes: permanently accepted cleaning or fertilizer progress (`SYS-630`); cosmetic paint with no team or movement consequence; a discrete capture point; counting painted walls toward the Turf War result.
+- Parameters: source team, contact footprint, surface eligibility, previous colour, new colour, ground-versus-wall class and subsequent replacement.
+- Evidence: [Splatoon 3 decomposition](../games/s-z/splatoon-3.md), Nintendo's launch, Turf War and gameplay rules pages.
+- Novelty: first isolated for `GAME-0412`; an opponent can reverse the same painted ownership instead of merely adding treatment progress.
+
+## SYS-1097 — Debit ink use and restore the personal tank in allied ink
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: main-weapon shots and compatible sub use consume a character-local ink reserve; eligible immersion in the player's team-colour ink replenishes that same reserve while the live match continues.
+- Includes: firing, sub-weapon use and Swim Form refill during a Splatoon 3 ordinary Turf War.
+- Excludes: a finite unreplenished firearm magazine; special readiness earned by coating (`SYS-1098`); automatic tank refill from opposing ink; gear-shop or between-match replenishment.
+- Parameters: tank capacity, main/sub consumption, colour eligibility, swim state, refill rate and current reserve.
+- Evidence: [Splatoon 3 decomposition](../games/s-z/splatoon-3.md), Nintendo's gameplay and weapon/gear explanations. Exact launch rates are not established.
+- Novelty: first isolated for `GAME-0412`; the player's route through team-colour terrain is also the ammunition recovery condition.
+
+## SYS-1098 — Earn a special from painting and spend its readiness
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: eligible stage inking adds points to a character-local special meter until the equipped special is ready; activating that special consumes readiness and resolves its typed effect, while ordinary damaging hits alone do not define this meter's source.
+- Includes: paint-earned special use in a Splatoon 3 ordinary Turf War.
+- Excludes: damage/healing-earned special meters (`SYS-381`); a cooldown without earned readiness; the distinct effect of a selected special (`SYS-380`); account experience earned after a match.
+- Parameters: painted area, eligible point gain, special threshold, equipped kit, activation, consumption and any defeat-state retention rule.
+- Evidence: [Splatoon 3 decomposition](../games/s-z/splatoon-3.md), Nintendo's 2022 Direct and official weapon/gear explanations. Exact launch thresholds are not asserted.
+- Novelty: first isolated for `GAME-0412`; painting the contested world is the special's earn condition.
+
+## SYS-1099 — Let an uncaught stage creature evade nearby capture attempts
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an uncaught roaming stage creature detects an approaching actor
+  or a missed local capture attempt and changes its live position or escape
+  route, so a later net swing must be aimed at its new reachable position.
+- Includes: monkeys reacting and fleeing around the first Fossil Field area
+  during Ape Escape's initial three-capture visit.
+- Excludes: a hostile pursuing the player (`SYS-057`); a static collectible;
+  a future predetermined spawn; a caught creature still moving in the stage.
+- Parameters: target, detection distance, alert, route, movement speed,
+  obstacles, stun window and net reach; exact numeric values are unverified.
+- Evidence: [Ape Escape decomposition](../games/a-f/ape-escape.md), with
+  original-PlayStation control and first-stage walkthrough corroboration.
+- Novelty: first isolated for `GAME-0413`; evasive capture targets are neither
+  ordinary hostile pursuit nor automatically acquired pickups.
+
+## SYS-1100 — Convert a Time Net hit into one retained monkey capture
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an accepted Time Net contact removes that uncaught monkey from
+  the local stage and increments the stage's retained distinct-capture count;
+  a missed swing or Stun Club hit does not count as a capture.
+- Includes: each of the three first-visit Fossil Field monkey captures in the
+  original PlayStation Ape Escape.
+- Excludes: a carried, sellable specimen and species catalogue (`SYS-922`);
+  a consumed probabilistic capture device (`SYS-307`); killing an enemy;
+  the separate stage-clear threshold (`OBJ-242`).
+- Parameters: eligible monkey, net contact, caught flag, local removal,
+  retained count and update feedback.
+- Evidence: [Ape Escape decomposition](../games/a-f/ape-escape.md), Sony's
+  Time Net description and corroborating original-PlayStation walkthroughs.
+- Novelty: first isolated for `GAME-0413`; capture advances a stage quota
+  without creating an inventory specimen or a probability roll.
+
+## SYS-1101 — Seal and score a wholly covered connected crack
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when the presently tracked body contacts satisfy every active hole joined in one glass crack, the system seals that crack, removes its leakage and credits the activity score; a partial contact set does not settle the group.
+- Includes: sealing and scoring a connected leak group in original Xbox 360 Kinect Adventures! 20,000 Leaks.
+- Excludes: automatically fixing an individually tapped hole while another connected hole remains uncovered; unrelated cracks forming one compulsory group; decorative glass damage; points awarded without a completed seal.
+- Parameters: connected hole set, concurrent contacts, seal event, leakage state, points and score update.
+- Evidence: [Kinect Adventures! decomposition](../games/g-l/kinect-adventures.md), Microsoft's original manual pp. 18–19; a contemporary played review corroborates multi-hole poses.
+- Novelty: first isolated for `GAME-0414`; scoring is bound to closure of a connected multi-contact state, not to each independent button press.
+
+## SYS-1102 — Board a chosen taxi customer and settle the timed fare
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a player-driven taxi legally stops for one chosen waiting customer, the system boards that passenger, assigns a destination and personal countdown, and settles base fare, accrued tips and remaining-time fare on a legal timely arrival; if that countdown expires first, the customer leaves unpaid while the overall session may continue.
+- Includes: freely chosen repeatable passenger trips in Dreamcast Crazy Taxi's Arcade-rule run.
+- Excludes: an authored fixed fare chain (`SYS-708`); autonomous network passengers (`SYS-031`); cargo delivery without a passenger; an overdue fare that still pays.
+- Parameters: available passenger, pickup, assigned destination, personal allowance, distance fare, tip amount, remaining-time fare, arrival and abandonment.
+- Evidence: [Crazy Taxi decomposition](../games/a-f/crazy-taxi.md), original Sega Dreamcast manual pp. 7, 9–10.
+- Novelty: first isolated for `GAME-0415`; each player-chosen fare is independently assigned and paid or forfeited inside an open score run, not one step of a finite story sequence.
+
+## SYS-1103 — Accumulate driving tips as a collision-breakable combo
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: eligible driving manoeuvres during an occupied taxi fare add pending tip value, and successive tip events raise a running combo and later tip value until a vehicle collision or mistake resets that combo.
+- Includes: Crazy Taxi's Crazy Jump, Crazy Through and Crazy Drift tips while taking a passenger to the assigned destination.
+- Excludes: point awards for an ordinary completed race; a trick line retained after a collision; a permanent vehicle upgrade; crediting a pending tip as paid before fare settlement.
+- Parameters: manoeuvre, eligible contact, pending tips, combo count, tip scale and break event.
+- Evidence: [Crazy Taxi decomposition](../games/a-f/crazy-taxi.md), original Sega Dreamcast manual pp. 10–11.
+- Novelty: first isolated for `GAME-0415`; the risk of a collision interrupts an earnings combo during one paid passenger trip rather than a free-standing stunt score line.
+
+## SYS-1104 — Extend the run clock after a prompt paid taxi fare
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: under a specified timed taxi ruleset, a successfully delivered passenger's promptness awards an additional allowance to the overall run clock, enabling further fares; a late, unpaid or slow fare awards none.
+- Includes: Dreamcast Crazy Taxi `PLAY BY ARCADE RULES` Speedy and Normal delivery time bonuses.
+- Excludes: the fixed three-, five- and ten-minute modes, where the manual explicitly withholds time bonuses; extra fare money for remaining personal time; simply pausing the run clock.
+- Parameters: delivery result, promptness class, awarded seconds and current run allowance.
+- Evidence: [Crazy Taxi decomposition](../games/a-f/crazy-taxi.md), original Sega Dreamcast manual pp. 6, 11.
+- Novelty: first isolated for `GAME-0415`; a completed optional fare converts service speed into more global play time rather than merely improving that fare's score.
+
+## SYS-1105 — Resolve terrain-protected direct unit exchanges
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a direct attack uses the participating unit types and current health to reduce the target's health, adjusts received damage for the defender's terrain cover, permits a surviving target to counterfire when eligible, and removes a unit whose health reaches zero.
+- Includes: infantry and mechanised-infantry exchanges between Orange Star and Blue Moon in Advance Wars Field Training `Terrain Intel`, with a mountain granting more defence than a plain.
+- Excludes: a guaranteed counterattack from a destroyed or out-of-range unit; probabilistic XCOM-style hit chance; a fixed damage number independent of health and terrain; property capture or unit repair.
+- Parameters: attacking and defending unit type, current health, terrain defence, attack eligibility, counterfire eligibility, damage and defeat.
+- Evidence: [Advance Wars decomposition](../games/a-f/advance-wars.md), Nintendo's original booklet pp. 7–9 and 26 and the mission dialogue transcription. The exact hidden damage formula was not inspected.
+- Novelty: first isolated for `GAME-0416`; terrain protection changes a health-bearing direct exchange rather than only blocking movement or sight.
+
+## SYS-1106 — Trigger and disable linked security spotlights
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: crossing an active security spotlight's visible scan region changes that light to its alarm state and sounds the linked siren; destroying the reachable siren deactivates the connected scanning lights and traps for subsequent traversal of that local section.
+- Includes: the two spotlight-and-siren passages in the original PlayStation 2 *Sly Cooper and the Thievius Raccoonus* stage `A Stealthy Approach`.
+- Excludes: a guard's suspicion meter, reinforcements not established for the stage, permanent world-wide wanted state, ordinary light rendering, and breaking an unrelated glass case to obtain a key.
+- Parameters: moving scan footprint, contact trigger, alarm state, linked siren, siren damage eligibility, local disable effect and section reset.
+- Evidence: [Sly Cooper and the Thievius Raccoonus decomposition](../games/s-z/sly-cooper-and-the-thievius-raccoonus.md), using the original PlayStation 2 booklet and corroborated original-game route descriptions.
+- Novelty: first isolated for `GAME-0417`; an active visible scan field and a destructible local alarm controller jointly change route risk without a stealth-to-loud mission phase or a guard-suspicion threshold.
+
+## SYS-1107 — Resolve ship shots through shields, rooms and hull
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: resolve each fired ship projectile against evasion and weapon-specific shield interaction; an eligible penetrating hit damages its addressed room's system or occupants and may reduce hull integrity, while a blocked or missed shot leaves that room unchanged.
+- Includes: original Kestrel laser volleys that must overcome an enemy shield and limited Artemis missiles that can pass shields to strike a targeted system; hostile return fire follows the same relevant ship-state layers.
+- Excludes: every projectile automatically bypassing shields; a shield always protecting against missiles; damage to one abstract health bar without room function; a guaranteed subsystem disable from mere targeting.
+- Parameters: weapon, charge, shot count, missile reserve, dodge result, shield layer, room, system health, crew, hull and defeat threshold.
+- Evidence: [FTL: Faster Than Light decomposition](../games/a-f/ftl-faster-than-light.md), official Subset Games description and launch-era player reports. Exact hit probabilities were not inspected.
+- Novelty: first isolated for `GAME-0418`; targeted room function and a weapon-specific shield bypass coexist inside one ship-damage resolution, unlike `SYS-940`'s unconditional shield-before-hull stack.
+
+## SYS-1108 — Repair ship systems through crew presence under hazards
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an assigned crew member present in a damaged ship room accumulates repair work that restores that room's system function, while fire or depleted oxygen can continue harming the room or crew until managed.
+- Includes: sending a Kestrel crewmember to repair a disabled room during or after a hostile beacon fight; powering life support and moving crew remain separate choices.
+- Excludes: crew directly restoring outer hull integrity; instant repair on selecting a room; unobserved automatic restoration of every damaged system after combat; exact repair ticks or fire-spread rates not established by the sources.
+- Parameters: damaged room, assigned crew, repair progress, system level, fire, oxygen, crew health and restored function.
+- Evidence: [FTL: Faster Than Light decomposition](../games/a-f/ftl-faster-than-light.md), September 2012 repair and oxygen accounts on the developer forum.
+- Novelty: first isolated for `GAME-0418`; room-level function returns through exposed crew labour while the surrounding ship simulation remains live.
+
+## SYS-1109 — Charge a viable ship's FTL escape during combat
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while an eligible ship retains a viable helm and powered engines, the FTL drive charges during live combat; after readiness, an allowed beacon jump can remove that ship from the current encounter without destroying its opponent.
+- Includes: the Kestrel abandoning a losing ordinary hostile beacon fight when its FTL indicator becomes ready and fuel permits a legal jump.
+- Excludes: instant free escape on opening the map; defeating the hostile ship; a jump despite disabled required controls or no fuel; a fixed time-to-ready independent of ship condition.
+- Parameters: helm state, engine power, crew presence, charge progress, destination, fuel, jump command and survival.
+- Evidence: [FTL: Faster Than Light decomposition](../games/a-f/ftl-faster-than-light.md), Subset Games' official escape example and September 2012 player accounts.
+- Novelty: first isolated for `GAME-0418`; an escape option matures during an active ship battle and remains conditioned on still-operating travel systems.
+
+## SYS-1110 — Resolve a visited beacon into its encounter
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: committing a legal jump to a beacon instantiates that location's event or opponent from the run's varying encounter state; the next battle is not revealed as a fixed authored enemy by merely choosing the node.
+- Includes: a selected first-sector FTL beacon whose arrival produces an ordinary hostile vessel encounter in the scoped conditional packet.
+- Excludes: claiming every first jump is hostile; guaranteeing a specific enemy loadout or reward; an encounter roll on each step inside a grass tile; a static room whose opponent is fixed before route choice.
+- Parameters: sector map, chosen beacon, current run state, encounter event, hostile ship and revealed options.
+- Evidence: [FTL: Faster Than Light decomposition](../games/a-f/ftl-faster-than-light.md), Subset Games' description of randomized enemies and events after ship travel.
+- Novelty: first isolated for `GAME-0418`; a discrete star-map node resolves to a variable ship event, rather than a terrain movement-check encounter or a fixed mission spawn.
+
+## SYS-1111 — Learn and respond to a spoken puppy cue
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: repeated voice and text naming establishes a puppy's callable identity, while a spoken cue associated with a performed trick becomes a learned command; later recognition can trigger that trick when the puppy is attentive.
+- Includes: registering the first Nintendogs puppy's name, teaching sit after several attempts and later asking it to sit while focused.
+- Excludes: guaranteeing recognition for every pronunciation; teaching a trick by one unsupported utterance; a text-only command system; treating an unfocused dog as disobedient under a fixed numeric probability.
+- Parameters: name, text registration, cue, repetition, attention, learnt-command list and response.
+- Evidence: [Nintendogs decomposition](../games/m-r/nintendogs.md), Nintendo of America's original instruction booklet pp. 10–11 and 18–19.
+- Novelty: first isolated for `GAME-0419`; a player's recorded spoken association alters which later utterance an autonomous companion can execute.
+
+## SYS-1112 — Change puppy response with petting duration
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: touch-screen petting normally elicits a favourable puppy response, but prolonged petting can change that response to annoyance while contact continues.
+- Includes: briefly petting the first Nintendogs puppy and comparing an overlong stroke.
+- Excludes: assuming a fixed numerical happiness gain per stroke; a combat damage-over-time contact; a static cosmetic animation unaffected by duration.
+- Parameters: contact duration, touch position, current puppy response and annoyance boundary.
+- Evidence: [Nintendogs decomposition](../games/m-r/nintendogs.md), Nintendo of America's original instruction booklet pp. 12–13.
+- Novelty: first isolated for `GAME-0419`; duration of direct affection can reverse the animal's response rather than simply adding more of the same benefit.
+
+## SYS-1113 — Resolve a selected puppy-care supply
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an available supply selected from the Care category performs its supported feeding or grooming interaction with the current puppy; the observed care action is distinct from shopping or playing with a toy.
+- Includes: feeding or grooming one Nintendogs puppy with an available care item after the first tutorial unlock.
+- Excludes: invented fixed hunger or cleanliness increments; assuming an unowned supply can be used; applying care automatically without selecting the item; a full species-habitat welfare calculation.
+- Parameters: selected supply, item availability, puppy, feeding or grooming operation and displayed condition.
+- Evidence: [Nintendogs decomposition](../games/m-r/nintendogs.md), Nintendo of America's original instruction booklet pp. 20–23.
+- Novelty: first isolated for `GAME-0419`; a directly applied item produces a typed single-pet care interaction without inferring the hidden numeric welfare model.
+
+## SYS-1114 — Bank timed driving-style Kudos with a linked-move bonus
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an eligible driving manoeuvre adds Style Kudos to a temporary Stash; after about two seconds without another eligible move, the Stash transfers to the Kudos Bank, while a linked move before transfer adds its award and a Combo Bonus.
+- Includes: line, slide, draft and overtake rewards during the original Project Gotham Racing 2 offline Compact Sports Street Race.
+- Excludes: treating race position as itself a Style Kudos manoeuvre; paying Crazy Taxi fare tips; a Time Attack race where Style Kudos are disabled; an invented exact point formula or universal collision-reset rule.
+- Parameters: eligible move, point award, stash, short transfer window, linked move, combo bonus and bank.
+- Evidence: [Project Gotham Racing 2 decomposition](../games/m-r/project-gotham-racing-2.md), original Microsoft/Bizarre manual printed pp. 4, 6 and Prima Official Strategy Guide pp. 6–7.
+- Novelty: first isolated for `GAME-0420`; a short-lived visible driving-style stash becomes banked score unless another scored manoeuvre links into its combo, independently of course position.
+
+## SYS-1115 — Trigger a motor by contact and drive a linked conveyor through a belt
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during an automatic contraption run, a moving object contacts a motor trigger, causing its wheel to drive a conveyor only when the motor and conveyor are connected by a placed belt; the powered conveyor then transports a contacting payload.
+- Includes: falling bowling balls activating mouse motors whose attached belts drive basketball-carrying conveyors in the original DOS *The Incredible Machine* manual's worked basketball example.
+- Excludes: a permanently powered factory belt; a discrete conveyor step without physical motor activation; a programmable sensor or logic signal; gravity and collision alone with no power transfer.
+- Parameters: trigger object, motor position, belt endpoints, conveyor direction, payload contact and reset timing; exact speeds and torque are not established.
+- Evidence: [The Incredible Machine decomposition](../games/s-z/the-incredible-machine.md), original Sierra/Dynamix DOS manual printed p. 16.
+- Novelty: first isolated for `GAME-0421`; a physical impact conditionally powers a separate transport surface through an explicit belt connection during a resettable machine run.
+
+## SYS-1116 — Decode a drum order into an autonomous formation response
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after a valid four-beat drum phrase, the addressed formation answers and autonomously carries out its recognised march or attack behaviour, using current position and target reach rather than requiring player input for each member's movement or strike.
+- Includes: March and Attack replies during the original PSP *Patapon* first Patata Plain hunt.
+- Excludes: the player's phrase submission (`ACT-560`); a directly controlled attack (`SYS-215`); teacher-led musical imitation (`SYS-1058`); assuming every mistimed phrase produces the intended order.
+- Parameters: recognised order, answer interval, member positions, attack reach, prey, health and resulting motion or damage; exact numerical timing and damage remain unmeasured.
+- Evidence: [Patapon decomposition](../games/m-r/patapon.md), Sony's original PSP manual pp. 3, 6 and contemporary first-hunt guide.
+- Novelty: first isolated for `GAME-0422`; a rhythmic command is not a performance score but a decoded request for autonomous army behaviour.
+
+## SYS-1117 — Convert consecutive rhythmic replies into Fever combat
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: count consecutively successful player calls and formation responses; after enough uninterrupted cycles, enter Fever so the formation's attacks become stronger and additional expert responses are available until the streak is broken.
+- Includes: maintaining a command combo during the original PSP *Patapon* first hunt to improve attacks on prey.
+- Excludes: scoring a song only at its end; a held active power bought with currency; treating an isolated correctly timed command as Fever; asserting an exact combo threshold or damage multiplier without a trace.
+- Parameters: successful-call counter, streak break, Fever entry threshold, empowered behaviour and exit condition.
+- Evidence: [Patapon decomposition](../games/m-r/patapon.md), original Sony PSP manual p. 8.
+- Novelty: first isolated for `GAME-0422`; repeated correct command/answer cycles change the controlled formation's combat capability, not only an audience rating.
+
+## SYS-1118 — Apply assembled vehicle parts to live operating capability
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when an assembled vehicle is tested or driven, its attached functional parts and their arrangement determine its available propulsion, handling and object-contact capability; changing the build can change the same challenge's feasible physical approach.
+- Includes: a compact powered wheeled Banjo-Kazooie: Nuts & Bolts vehicle whose front scoop can contact and push a hot rock toward water in Nutty Acres Act 2.
+- Excludes: cosmetic paint with no mechanical effect; automatically granting a scoop to the stock trolley; a saved Spore organism body changing biological lineage abilities (`SYS-1017`); claiming an exact force, mass or speed formula without direct measurement.
+- Parameters: part arrangement, connectivity, drive parts, mass and balance, scoop contact surface, test state and selected blueprint.
+- Evidence: [Banjo-Kazooie: Nuts & Bolts decomposition](../games/a-f/banjo-kazooie-nuts-and-bolts.md), original Xbox 360 manual and licensed Prima guide.
+- Novelty: first isolated for `GAME-0423`; build geometry supplies the directly controlled vehicle's challenge-relevant capability, rather than merely selecting a preset car.
+
+## SYS-1119 — Advance an authored 3D flight corridor around bounded craft placement
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during a stage, advance a fixed three-dimensional encounter corridor and its checkpoint toward a craft the player can place along bounded lateral axes; enforce course edges rather than allow return to passed space or free exploration.
+- Includes: original Star Fox 64 Corneria 3D Scroll Mode, its edge arrows and halfway checkpoint.
+- Excludes: All-Range Mode's free square arena; unrestricted six-degree cockpit flight (`SYS-723`); side-view auto-run bound to a music clock (`SYS-496`); a static fixed camera.
+- Parameters: authored route, forward progress, threat arrival, lateral limits, edge cue, checkpoint, recovery and retry origin.
+- Evidence: [Star Fox 64 decomposition](../games/s-z/star-fox-64.md), Nintendo's original manual pp. 12–15.
+- Novelty: first isolated for `GAME-0424`; forced longitudinal progress and bounded two-axis steering coexist in a three-dimensional combat corridor.
+
+## SYS-1120 — Settle a protected-wingmate traversal gate into an alternate stage route
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: carry a named allied actor's availability and completion of every required physical passage in the current stage into a selected later encounter and its map successor, while a failed joint qualification retains the ordinary encounter and successor.
+- Includes: keeping Falco available and passing all seven Corneria stone arches to reach Star Fox 64's alternate boss and Sector Y rather than the ordinary boss and Meteo.
+- Excludes: choosing any successor freely on a map; changing route only by score; a lone secret opening that ignores ally state; permanently unlocking every campaign stage.
+- Parameters: protected ally, distress resolution, required passages, completed passage set, alternate encounter, default and alternate successor.
+- Evidence: [Star Fox 64 decomposition](../games/s-z/star-fox-64.md), Nintendo's original manual pp. 12, 18–19 and 24.
+- Novelty: first isolated for `GAME-0424`; a live wingmate-survival fact and a complete traversal set jointly change the boss before the map branch settles.
+
+## SYS-1121 — Learn an observed god action through a teaching leash
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while an autonomous creature is linked to the god's Hand by a teaching leash, observed player world actions update its persistent learned behaviour; repetitions may be needed before a lesson is usable independently.
+- Includes: a *Black & White* Land 1 creature watching the god cast a Food Miracle at the Village Store while attached to the Leash of Learning.
+- Excludes: instant guaranteed mastery from one cast; a spoken cue paired with a performed pet trick (`SYS-1111`); a direct order to duplicate the very next action; a companion merely following in combat.
+- Parameters: learner, teaching leash, observed action, example count, learned association, feedback and later autonomous use.
+- Evidence: [Black & White decomposition](../games/a-f/black-and-white.md), original Lionhead manual p. 11 and Peter Molyneux's 2001 postmortem.
+- Novelty: first isolated for `GAME-0425`; a persistent autonomous agent learns from the player's separate world-changing action rather than an explicit skill-point or voice registration.
+
+## SYS-1122 — Add miracle-produced food to an addressed village store
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an accepted Food Miracle aimed at a village's storage fixture generates food there for the villagers' usable supply, without requiring a gatherer to transport the same crop.
+- Includes: the one-shot Food Miracle demonstrated at Guide's Aztec Village Store on original *Black & White* Land 1.
+- Excludes: picking crops and dropping them manually; generating Prayer Power from villagers; treating a cast anywhere in the landscape as an automatic store delivery; an independently casting trained creature in this packet.
+- Parameters: miracle charge, target store, generated food, stock increment, villagers' access and one-shot exhaustion; exact quantities are unmeasured.
+- Evidence: [Black & White decomposition](../games/a-f/black-and-white.md), Lionhead manual pp. 18, 29–30 and a contemporary Land One walkthrough.
+- Novelty: first isolated for `GAME-0425`; a positioned divine resource effect enters a settlement's shared stock without a conventional collection route.
+
+## SYS-1123 — Convert fulfilled village desire into belief response
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when a village's currently expressed need is fulfilled, update its desire and allegiance-belief response; a single act need not complete conversion or settle unrelated needs.
+- Includes: supplying food under a raised Food Desire flag in original *Black & White*, improving local belief as villagers' expressed need is addressed.
+- Excludes: treating any spectacle as need fulfilment; assigning a fixed belief increment without inspection; automatic full-village ownership after one Food Miracle; Prayer Power production from worshippers.
+- Parameters: village, desire type, flag height, supply satisfaction, belief change and conversion threshold; exact values are unmeasured.
+- Evidence: [Black & White decomposition](../games/a-f/black-and-white.md), original Lionhead manual pp. 18–19.
+- Novelty: first isolated for `GAME-0425`; a visible settlement-specific need links the resource intervention to belief, distinct from creating the food itself.
+
+## SYS-1124 — Expose a bouncy surface by removing its paper cover
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: when the player peels an eligible paper coating from a platform, replace the covered state with a revealed bouncy surface that the messenger can use for traversal.
+- Includes: a front-touch paper peel uncovering a bouncy platform in original PS Vita *Tearaway*.
+- Excludes: generating a new platform anywhere in the level; revealing only decorative art; automatically launching an off-platform avatar; awarding confetti as the sole result.
+- Parameters: cover state, peel acceptance, revealed surface, contact area and subsequent usability.
+- Evidence: [Tearaway decomposition](../games/s-z/tearaway.md), contemporary first-hand Gameranx review and Destructoid hands-on.
+- Novelty: first isolated for `GAME-0426`; physical paper-layer removal changes which traversal surface can participate in the next action.
+
+## SYS-1125 — Launch an occupied messenger on a rear-touched drum
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when a rear-touch drum input is accepted while the directly controlled messenger stands on the corresponding drumskin, apply an upward launch to that messenger toward another reachable surface; the exact trajectory and airborne steering are not asserted from source-only evidence.
+- Includes: PS Vita *Tearaway* lifting Iota or Atoi from a drum surface by rear touch toward higher paper platforms.
+- Excludes: contact-only elastic launch (`SYS-1056`); a jump granted to the messenger later; an unoccupied drum moving a remote actor; exact launch velocity not measured from source material.
+- Parameters: messenger position, drum contact, mapped rear-touch area, launch impulse, aerial motion and landing surface.
+- Evidence: [Tearaway decomposition](../games/s-z/tearaway.md), Sony PlayStation Blog hands-on and corroborating first-hand 2013 previews.
+- Novelty: first isolated for `GAME-0426`; the launch depends jointly on world contact and a separate player rear-input event.
+
+## SYS-1126 — Erode a Taken's darkness before conventional damage
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: sustained compatible light contact contracts a hostile's protective darkness until it breaks, disallowing ordinary firearm damage while intact and permitting it after full removal.
+- Includes: flashlight exposure and subsequent revolver vulnerability of a Taken in original Xbox 360 *Alan Wake*.
+- Excludes: a brief surprise-exposed ghost heart (`SYS-1080`); ordinary armour reduction without a light prerequisite; any claim that the first post-tutorial Taken's shroud regenerates; direct light damage after exposure without gunfire.
+- Parameters: target shroud state, illumination contact, depletion threshold, full-break transition and permitted firearm damage state.
+- Evidence: [Alan Wake decomposition](../games/a-f/alan-wake.md), original Microsoft/Remedy Xbox 360 manual pp. 10–12.
+- Novelty: first isolated for `GAME-0427`; illumination changes the target's damage legality before a separate weapon action.
+
+## SYS-1127 — Spend flashlight charge to boost darkness removal
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while a flashlight boost input is held and charge remains, accelerate protective-darkness removal and reduce the flashlight's bounded internal charge; ordinary unboosted illumination does not itself impose this boost drain.
+- Includes: Alan Wake's boosted flashlight stripping a Taken's darkness faster while draining charge.
+- Excludes: baseline portable-light drain whenever lit (`SYS-754`); manual battery-stock refill (`SYS-791`); firearm ammunition consumption; exact drain rate not measured for this encounter.
+- Parameters: boost-held state, charge cap/current charge, depletion rate and relative shroud-removal rate.
+- Evidence: [Alan Wake decomposition](../games/a-f/alan-wake.md), original Microsoft/Remedy Xbox 360 manual p. 14.
+- Novelty: first isolated for `GAME-0427`; boosted exposure is a speed-for-regenerating-charge exchange rather than a simple on/off light cost.
+
+## SYS-1128 — Restore flashlight charge while boost is released
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when boost is not held and flashlight charge is below cap, automatically restore charge without consuming carried batteries even while the ordinary flashlight beam remains on.
+- Includes: original Xbox 360 *Alan Wake* flashlight recovery after releasing boost during ordinary illumination.
+- Excludes: inactive-only portable-light recharge (`SYS-851`); manually spending a battery (`SYS-791`); resetting ammunition; measured recharge rate or delay not established from sources.
+- Parameters: boost state, current/cap charge, recovery interval and ordinary-beam state.
+- Evidence: [Alan Wake decomposition](../games/a-f/alan-wake.md), original Microsoft/Remedy Xbox 360 manual p. 14.
+- Novelty: first isolated for `GAME-0427`; the recovery condition is *no boost*, not *no light*.
+
+## SYS-1129 — Test the current edited course as live geometry
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: use the currently placed course elements as the playable trial layout, then restore editor authority after the trial is exited, cleared or lost so the maker can revise that same layout.
+- Includes: immediately testing and revising a Wii U *Super Mario Maker* course via the editor's Trial Play control.
+- Excludes: automatically proving the separate historical upload clear condition; publishing a course; a locked non-interactive simulation that cannot accept direct avatar input; restoring an unrelated authored campaign checkpoint.
+- Parameters: current layout, tile collision, trial start, result, editor return and retained edits.
+- Evidence: [Super Mario Maker decomposition](../games/s-z/super-mario-maker.md), Nintendo's original electronic manual, Create.
+- Novelty: first isolated for `GAME-0428`; the current player-authored layout is both an editable plan and the immediate live collision world of its test.
+
+## SYS-1130 — Store a named authored course in a local slot
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after an explicit save request, retain the currently authored course under a chosen local slot and name so it can be loaded or played later, independently of any online publication.
+- Includes: Wii U *Super Mario Maker* saving a created course to Coursebot.
+- Excludes: automatically uploading after save; overwriting without the player's chosen save action; treating an ordinary trial result as persistent online distribution; sample-course upload eligibility.
+- Parameters: course layout, slot, name, save confirmation, retained local record and later load.
+- Evidence: [Super Mario Maker decomposition](../games/s-z/super-mario-maker.md), Nintendo's electronic manual and saving support instructions.
+- Novelty: first isolated for `GAME-0428`; the created rule-bearing course persists locally as a named playable artefact, separate from passing an online sharing gate.
+
+## SYS-1131 — Launch the Bash target projectile opposite the avatar
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when an aimed Bash resolves on a moving projectile, the system accelerates the avatar along the chosen vector and redirects that same contacted projectile in the opposing direction, preserving it as a potential hit or barrier-clearing actor.
+- Includes: Ori launching upward while a hostile Ginso Tree projectile travels opposite into an eligible obstacle or enemy.
+- Excludes: generating an extra projectile; reversing every projectile without Bash contact; ordinary shield reflection into its source (`SYS-994`); the player's aim selection itself (`ACT-569`).
+- Parameters: contact target, launch vector, opposite projectile vector, collision outcome and eligible barrier.
+- Evidence: [Ori and the Blind Forest decomposition](../games/m-r/ori-and-the-blind-forest.md), Xbox's creator-led Ginso demonstration and launch description.
+- Novelty: first isolated for `GAME-0431`; one targeted movement command creates deliberately opposite trajectories for avatar and existing hazard.
+
+## SYS-1132 — Retain and restore a player-placed Soul Link state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after an eligible player-requested Soul Link placement, record the current route and avatar state at that chosen position; later lethal failure returns to that retained point rather than keeping the failed transient position.
+- Includes: Ori's energy-priced Soul Link serving as a respawn spot during the original Xbox One Ginso Tree route.
+- Excludes: deciding where or whether to place the link (`ACT-570`); a fixed restorative Spirit Well; an authored automatic checkpoint (`SYS-369`); retaining unsaved mid-flood progress or claiming an exact post-death meter value without measurement.
+- Parameters: saved position, retained ability and route flags, prior-link replacement, failure, returned state and resource values.
+- Evidence: [Ori and the Blind Forest decomposition](../games/m-r/ori-and-the-blind-forest.md), Xbox's original manual and launch description.
+- Novelty: first isolated for `GAME-0431`; the return anchor's address is selected during play and funded by a separate resource gate.
+
+## SYS-1133 — Raise a lethal waterline after authored restoration
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when a declared authored restoration trigger completes, advance a water boundary upward through the current traversal space while play continues, progressively removing safe lower positions and ending the attempt if the controlled avatar is overtaken.
+- Includes: the flood that follows restoration of the Ginso Tree's Element of Water in original Xbox One Ori and the Blind Forest.
+- Excludes: water that is permanently static; a round-time Sudden Death phase (`SYS-1032`); a one-time room fill with no active ascent; measured rise speed not established by the cited sources.
+- Parameters: restoration trigger, water height, advance rate, affected geometry, avatar contact and escape exit.
+- Evidence: [Ori and the Blind Forest decomposition](../games/m-r/ori-and-the-blind-forest.md), Xbox's creator-led Ginso demonstration and two written retail routes.
+- Novelty: first isolated for `GAME-0431`; completion of a local restoration objective immediately converts the same authored route into a shrinking safe-space escape.
+
+## SYS-1134 — Apply one authored response across competing power reserves
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: resolving a selected authored response changes its declared subset of several independent political power reserves and may update narrative conditions, so one choice can improve one reserve while worsening another before terminal evaluation.
+- Includes: an original 2016 Reigns advisor response changing church, people, army or treasury balances and relevant kingdom conditions.
+- Excludes: the player's choice of response (`ACT-232`); a guaranteed positive effect merely because the preview marks a reserve; a random next-card draw (`SYS-004`); treating each reserve as a separate gene.
+- Parameters: response, power-vector deltas, story-condition updates and resolution order.
+- Evidence: [Reigns decomposition](../games/m-r/reigns.md), François Alliot's 2016 design deep dive and Devolver's original app description.
+- Novelty: first isolated for `GAME-0432`; a binary authored response applies a multi-reserve political vector before any of those dimensions is checked for a fatal extreme.
+
+## SYS-1135 — Filter and weight the contextual next-card pool
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: before sampling a successor narrative card, remove cards whose preconditions conflict with current world conditions or whose recent appearance excludes repetition, then give eligible cards unequal selection weights according to their authored context.
+- Includes: original 2016 Reigns removing queen cards while unmarried, strong-church cards when church is weak and recently played cards, then weighting the remaining bag.
+- Excludes: the random sample itself (`SYS-004`); a uniform shuffle of the whole deck; a fully deterministic next-card queue; claiming exact unpublished weights or a guaranteed future card.
+- Parameters: state predicates, recency window, eligible bag, card weights and active narrative subsystem.
+- Evidence: [Reigns decomposition](../games/m-r/reigns.md), François Alliot's 2016 design deep dive.
+- Novelty: first isolated for `GAME-0432`; story and recency conditions reshape a weighted request bag after every binary decision.
+
+## SYS-1136 — Replace a fallen monarch while retaining eligible dynasty content
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a reign-ending power extreme replaces the current monarch with an heir whose ordinary visible power reserves return toward their starting middle state, while selected authored story or deck availability may remain across the dynasty.
+- Includes: original 2016 Reigns moving from one dead ruler to the successor without carrying the dead ruler's terminal four-bar values unchanged.
+- Excludes: an immediate undo of the fatal choice; a complete same-ruler checkpoint reload; automatic retention of every transient kingdom condition; a guaranteed named unlock after the first death; later sequel or anniversary content.
+- Parameters: fatal cause, successor identity, reset visible reserves, retained eligible narrative flags and next card.
+- Evidence: [Reigns decomposition](../games/m-r/reigns.md), François Alliot's 2016 design account and Emily Short's contemporary firsthand analysis.
+- Novelty: first isolated for `GAME-0432`; the dynasty repeats the card-decision loop with a new ruler and reset political reserves while some authored card availability can span reigns.

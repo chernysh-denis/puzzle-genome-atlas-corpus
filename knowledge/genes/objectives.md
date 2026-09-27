@@ -4813,3 +4813,261 @@
   Sony's edition/stage statements and the PS4 Good-rated trophy outcome.
 - Novelty: first isolated for `GAME-0396`; the required terminal is an
   instructor-led rating state, not survival of a fret-strum gauge.
+
+## OBJ-234 — Clear a scheduled boss to finish a short-task course
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: advance through the declared sequence of brief local tasks
+  with at least one remaining life, clear the scheduled terminal boss task,
+  and unlock the course successor.
+- Includes: WarioWare's opening ten-slot course and Sparring Wario boss.
+- Excludes: clearing one ordinary task; finishing every later character
+  course; an endless best-score target; losing all lives before the boss.
+- Parameters: required slot, boss task, remaining-life condition, course
+  completion signal and successor.
+- Evidence: [WarioWare introductory course](../games/s-z/warioware-inc-mega-microgame.md),
+  Nintendo's GBA booklet and two contemporary written guides.
+- Novelty: first isolated for `GAME-0398`; a fixed boss gates the end of a
+  rapidly changing series of independently resolved tasks.
+
+## OBJ-235 — Cross a role-gated exit and reach a shared safe checkpoint
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: finish a bounded spatial route only when the controlled actor
+  brings a still-available dependent companion to a gate that the controlled
+  actor cannot open, the companion activates it, and both reach the next
+  designated shared checkpoint where progress can be saved.
+- Includes: Ico and Yorda crossing the first Idol Door after her rescue,
+  climbing the following ledges together and sitting at the first couch in
+  the original PlayStation 2 tower opening.
+- Excludes: reaching the door with Ico alone; rescuing Yorda but leaving her
+  behind; an exit opened by an ordinary carried key; the eventual full-castle
+  escape or later checkpoint routes.
+- Parameters: actor pair, companion viability, exclusive gate authority,
+  opening trigger, joint passage, checkpoint fixture and save-state offer.
+- Evidence: [Ico opening escape](../games/g-l/ico.md), original North American
+  PlayStation 2 manual transcription pp. 13, 18 and two written opening routes.
+- Novelty: first isolated for `GAME-0399`; the terminal requires a dependent
+  second actor's exclusive gate action and a joint checkpoint, not merely
+  direct avatar arrival (`OBJ-026`).
+
+## OBJ-236 — Bring a surviving expedition across the next named river
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: finish a bounded journey interval by transporting a continuing
+  party and vehicle through the next named river hazard to the far-bank route,
+  rather than stopping at the near bank or completing every later leg.
+- Includes: A-157's Independence-to-Kansas first crossing.
+- Excludes: arrival at Oregon City; merely selecting a method; crossing with
+  no continuing party; directly moving one avatar across a bridge.
+- Parameters: starting leg, river, wagon, survivors, far bank and route state.
+- Evidence: [The Oregon Trail decomposition](../games/s-z/the-oregon-trail.md),
+  MECC A-157 booklet, Program Preview and model river section.
+- Novelty: first isolated for `GAME-0402`; party-and-vehicle risk crossing
+  closes one leg, not the whole game.
+
+## OBJ-237 — Rescue guarded transport and regain off-world route choice
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: finish one bounded stranded-world route by reaching a defended
+  replacement transport, clearing its required guards, and accepting both
+  the route information and permission that make later departure possible.
+- Includes: original Ratchet & Clank's first Novalis crater mission through
+  the chairman's Kerwan Infobot and courier-ship handoff.
+- Excludes: merely arriving beside the ship; buying an unrelated Infobot on
+  another branch; boarding or flying to the next planet; repairing one's
+  original ship; clearing every optional secret on the current planet.
+- Parameters: crash state, guarded route, ship, defenders, surviving source,
+  disclosed destination, travel permission and terminal state.
+- Evidence: [Ratchet & Clank crater decomposition](../games/m-r/ratchet-and-clank.md),
+  two contemporary original-PS2 written routes.
+- Novelty: first isolated for `GAME-0404`; guarded rescue must restore both
+  route knowledge and usable transport without claiming the subsequent trip.
+
+## OBJ-238 — Fund, buy and activate one promised story object
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete a bounded story interval by earning the fixed price
+  across local paid tasks, purchasing the named offered object and then
+  activating it; balance alone and purchase alone do not finish the interval.
+- Includes: original Fable II childhood's five one-gold errands, Murgo's
+  music-box purchase and first use before the subsequent sleep/castle scene.
+- Excludes: completing the whole childhood chapter, obtaining money from an
+  external save or Pub Games, an ordinary shop restock, later adult campaigns.
+- Parameters: priced object, qualifying tasks, fixed threshold, transaction,
+  activation and terminal effect.
+- Evidence: [Fable II childhood decomposition](../games/a-f/fable-ii.md),
+  two contemporary original-game written routes.
+- Novelty: first isolated for `GAME-0405`; the three-stage price, purchase
+  and use terminal cannot be replaced by generic possession alone.
+
+## OBJ-239 — Finish one dance chart with a nonzero gauge and rank
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: play one selected authored dance chart to its song endpoint
+  while the live Dance Gauge remains above zero, then receive the song's
+  judgement summary and aggregate letter rank.
+- Includes: one single-player `GN845-UC` DanceDanceRevolution music number
+  with `GAME OVER DURING SONG` set Off.
+- Excludes: completing a multi-song credit, entering high-score initials,
+  maximising an `SS` rank or treating a zero-gauge continuation mode as this
+  packet's success; Guitar Hero III's star/streak result (`OBJ-215`).
+- Parameters: selected chart, gauge survival, song endpoint, five judgement
+  counts, aggregate score condition and `SS`–`E` rank.
+- Evidence: [DanceDanceRevolution decomposition](../games/a-f/dancedancerevolution.md),
+  Konami's 1998 `GN845-UC` operator manual, pp. 11 and 19.
+- Novelty: first isolated for `GAME-0406`; a music-number result follows
+  physical-step gauge survival and the cabinet's own judgement classes.
+
+## OBJ-240 — Clear one authored stage and reveal its next map doors
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: traverse one currently selected authored action stage, enter
+  its fixed final exit and settle its mandatory closeout so that the current
+  level map marks the stage clear and reveals additional selectable doors.
+- Includes: clearing Vegetable Valley 1-1, taking its post-stage jump result
+  and returning to the enlarged Level 1 map in original NES Kirby's Adventure.
+- Excludes: clearing every stage or defeating the level boss; finding every
+  secret item; merely reaching a location without stage-clear state; entering
+  or clearing any newly revealed stage.
+- Parameters: selected stage, exit, closeout, clear flag, map reveal, bonus
+  result and optional retained avatar state.
+- Evidence: [Kirby's Adventure decomposition](../games/g-l/kirbys-adventure.md),
+  using Nintendo's preserved original NES manual, pp. 11, 22.
+- Novelty: first isolated for `GAME-0408`; an ordinary stage clear expands a
+  level-select map without a mandatory boss, hidden-bonus set or immediate
+  traversal into the successor stage.
+
+## OBJ-241 — Own more eligible ground than the rival at Turf War expiry
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: at the end of a fixed-duration two-team match, compare the present eligible ground area coated in each team's colour and award the result to the team with the greater area; repeatedly overwritten ground is counted by its terminal owner, not by cumulative painting or knockouts.
+- Includes: the three-minute ordinary 4v4 Turf War result in Splatoon 3.
+- Excludes: inked wall area; personal splat count; reinforcement-ticket depletion (`OBJ-079`); Splatfest-wide clout or Tricolor signal; permanent treatment completion (`OBJ-168`).
+- Parameters: two teams, match duration, eligible floor geometry, terminal colour ownership, area comparison and tie presentation.
+- Evidence: [Splatoon 3 decomposition](../games/s-z/splatoon-3.md), Nintendo's 2022 Direct and official Turf War rules explanation.
+- Novelty: first isolated for `GAME-0412`; a fixed-time result compares reversible surface ownership rather than accumulated kills or completed treatment.
+
+## OBJ-242 — Clear a stage at its minimum distinct-creature capture quota
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: capture at least the declared minimum number of distinct
+  eligible creatures in the current stage; reaching that threshold settles
+  the first visit and returns the player to the stage hub even if other
+  creatures remain uncaught.
+- Includes: the first Fossil Field visit in original PlayStation Ape Escape:
+  three monkey captures clear a stage containing four monkeys.
+- Excludes: clearing every monkey on that visit; time-attack settlement;
+  delivering rescued people through a fixed exit (`OBJ-019`); a capture
+  counter alone (`SYS-1100`); later all-monkey completion rewards.
+- Parameters: stage, eligible distinct targets, minimum quota, accepted
+  count, threshold event, hub return and optional remainder.
+- Evidence: [Ape Escape decomposition](../games/a-f/ape-escape.md),
+  corroborating original-PlayStation first-stage guides.
+- Novelty: first isolated for `GAME-0413`; a capture quota clears the visit
+  while an explicitly visible fourth target remains for a later tool.
+
+## OBJ-243 — Survive one hostile beacon by victory or escape
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: leave one active hostile ship encounter with the player's ship intact, either by destroying the hostile ship or by making a legal FTL jump after charge; loss of the player's hull or viable crew before either transition fails the scoped encounter.
+- Includes: one ordinary original-FTL Kestrel first-sector hostile beacon, not the final Rebel Flagship or whole campaign.
+- Excludes: assuming a reward for escape; treating a damaged but surviving enemy as defeated; requiring victory when a legal retreat succeeds; surviving the full eight-sector journey.
+- Parameters: hostile survival, player hull, crew viability, FTL readiness, destination, victory, retreat and failure.
+- Evidence: [FTL: Faster Than Light decomposition](../games/a-f/ftl-faster-than-light.md), developer's official fight-or-escape framing and launch-era player accounts.
+- Novelty: first isolated for `GAME-0418`; a single encounter can terminate by enemy defeat or charged travel while preserving the same living ship.
+
+## OBJ-244 — Establish and save a first puppy-care session
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: in a bounded opening session, register a new puppy's name, teach its first sit cue, use one available care supply after the menu unlock and save the result; this analytical completion condition does not claim an authored whole-game victory.
+- Includes: the first Nintendogs puppy at home after kennel purchase through name, sit, one feeding or grooming interaction and Home-screen save.
+- Excludes: maximising every care indicator; winning a contest; raising multiple dogs; treating save as an in-game victory screen or an automatic care action.
+- Parameters: named state, learnt sit, unlocked supplies, performed care, save and puppy persistence.
+- Evidence: [Nintendogs decomposition](../games/m-r/nintendogs.md), Nintendo of America's original instruction booklet pp. 8–23.
+- Novelty: first isolated for `GAME-0419`; a reproducible short observation window closes an open-ended companion simulation without fabricating a terminal win.
+
+## OBJ-245 — Clear a conditional stage boss into its map successor
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: survive one authored combat stage, defeat the boss selected by the route qualification achieved during that stage and retain the corresponding named next-map destination as its clear result.
+- Includes: original Star Fox 64 Corneria ending at the ordinary boss/Meteo or the Falco-and-arches alternate boss/Sector Y.
+- Excludes: merely reaching the boss; obtaining the optional medal; clearing later missions or defeating Andross; treating the harder successor as mandatory for an ordinary clear.
+- Parameters: stage, branch qualification, encountered boss, boss defeat, player survival, result map, default and alternate successor.
+- Evidence: [Star Fox 64 decomposition](../games/s-z/star-fox-64.md), Nintendo's original manual pp. 12–13 and 24.
+- Novelty: first isolated for `GAME-0424`; a live in-stage gate changes both the boss and retained outgoing map edge before an otherwise ordinary stage clear.
+
+## OBJ-246 — Complete one watched settlement-supply demonstration
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: in a bounded teaching packet, perform a legal resource-giving action at the currently needy settlement while the designated creature is in learning relation, then inspect the village and learner response as the local task result.
+- Includes: original *Black & White* Land 1 Guide village, with the Leash of Learning attached while a one-shot Food Miracle adds food to its Village Store.
+- Excludes: a whole-game victory; guaranteed fully trained creature; mandatory complete village conversion; simply casting food away from the addressed store; requiring a particular hidden belief increment.
+- Parameters: village, expressed need, learner, teaching relation, resource action, accepted supply and observed response.
+- Evidence: [Black & White decomposition](../games/a-f/black-and-white.md), original Lionhead manual pp. 11, 18–19, 29–30 and contemporary Guide sequence.
+- Novelty: first isolated for `GAME-0425`; a reproducible observation window joins helpful settlement intervention with witnessed creature teaching without fabricating a campaign terminal.
+
+## OBJ-247 — Save an authored course and prove a creator clear
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: complete one bounded course-maker packet by retaining the player's own edited course in a local slot and demonstrating that its creator can traverse it to its goal under the historical upload clear-check rule.
+- Includes: an illustrative short original Wii U *Super Mario Maker* course saved in Coursebot and creator-cleared for historical upload eligibility.
+- Excludes: claiming a presently functioning upload, actual publication, a named observed course, whole-game completion, automatic aesthetic quality approval or a mere editor preview with no complete clear.
+- Parameters: authored course, local save, start, goal, creator clear result and analytical endpoint.
+- Evidence: [Super Mario Maker decomposition](../games/s-z/super-mario-maker.md), Nintendo's original electronic manual, Create and Upload.
+- Novelty: first isolated for `GAME-0428`; creation and a demonstrated playable route jointly close the selected maker loop without inventing a product-wide win.
+
+## OBJ-248 — Extend one monarch's reign until a fatal power extreme
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: continue resolving ordinary kingdom requests for as long as the current monarch remains on the throne, evaluating the duration of this one tenure rather than requiring a complete multi-reign narrative ending.
+- Includes: original 2016 Reigns attempting to prolong one ruler's reign until a power extreme ends it and an heir appears.
+- Excludes: completing the Devil storyline; guaranteeing immortality or a normal victory screen; measuring a specific unobserved year count; the whole dynasty's endpoint.
+- Parameters: ruler, reign start, decisions survived, elapsed reign years, fatal extreme and successor state.
+- Evidence: [Reigns decomposition](../games/m-r/reigns.md), François Alliot's 2016 design account and Devolver's original app description.
+- Novelty: first isolated for `GAME-0432`; a bounded success measure is the length of one politically balanced ruler's tenure even though the larger authored dynasty continues.

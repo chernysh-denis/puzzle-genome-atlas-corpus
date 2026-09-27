@@ -7996,3 +7996,405 @@
   Sony's official feature page and the original-game written guide.
 - Novelty: first isolated for `GAME-0396`; turn ownership is visible as well
   as the symbols and graded risk, unlike a single continuous chart lane.
+
+## INF-397 — Show the current short command and course chance state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: reveal the current microgame's brief imperative and remaining
+  countdown together with the course's visible progress and life stock, while
+  keeping the identity of a later random ordinary task undisclosed.
+- Includes: Wario's introductory task prompt, bomb timer, course-slot
+  progress and four life indicators.
+- Excludes: a promised reward/task checklist (`INF-067`); previewing the
+  exact future ordinary-task order; a completed-course score alone.
+- Parameters: instruction, countdown, progress indicator, life display,
+  update timing and speed cue.
+- Evidence: [WarioWare introductory course](../games/s-z/warioware-inc-mega-microgame.md),
+  Nintendo's GBA booklet and two contemporary written guides.
+- Novelty: first isolated for `GAME-0398`; the currently operative command
+  changes at every microgame boundary while cumulative chance remains shown.
+
+## INF-398 — Show a moving local arena view and run counters
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a camera-followed viewport exposes the controlled craft,
+  current nearby threats and visible score, multiplier and finite stock
+  counters, while live enemies beyond the screen edge need not be shown until
+  the camera or they move into view.
+- Includes: the larger-than-screen Evolved arena and its score/life/bomb
+  feedback in original Xbox 360 Geometry Wars: Retro Evolved.
+- Excludes: fully visible global board state (`INF-001`); a static
+  side-scrolling authored obstacle horizon (`INF-192`); an exact preview of
+  future enemy spawn positions; off-screen enemy erasure by a bomb.
+- Parameters: camera anchor, viewport bounds, visible actors, score and
+  multiplier displays, life and bomb counters, off-screen persistence.
+- Evidence: [Geometry Wars: Retro Evolved decomposition](../games/g-l/geometry-wars-retro-evolved.md),
+  two contemporary Xbox 360 Evolved guides describing camera-limited bombs
+  and score/stock feedback.
+- Novelty: first isolated for `GAME-0400`; current live arena state extends
+  outside the local view, so the player cannot treat a screen clear as a
+  whole-playfield reset.
+
+## INF-399 — Show present airborne objects and score-run miss marks
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: display the fruit and bombs currently traversing the screen,
+  together with accumulated score and outstanding missed-fruit marks, but do
+  not reveal the class, timing or position of later launches in advance.
+- Includes: the original iPhone Fruit Ninja Classic play view and its score
+  and missed-fruit feedback.
+- Excludes: a fully known fixed board (`INF-001`); a camera moving through a
+  larger persistent arena (`INF-398`); a preview of future bomb trajectories;
+  a deterministic warning for an occasional critical bonus.
+- Parameters: currently visible bodies, motion, score display, miss marks,
+  launch visibility boundary and update timing.
+- Evidence: [Fruit Ninja decomposition](../games/a-f/fruit-ninja.md),
+  original TouchArcade review and Halfbrick's Classic guide.
+- Novelty: first isolated for `GAME-0401`; current threats are legible while
+  later airborne objects remain unpreviewed in an open score run.
+
+## INF-400 — Show current trail status and measured crossing conditions
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: journey status and map show present date, weather, health, food
+  and distance; a reached river shows its width, depth and offered methods
+  before the player commits.
+- Includes: A-157 status/map and Kansas crossing screens.
+- Excludes: foretelling rainfall, illness or accident draws; hiding current
+  food; treating traveller advice as guaranteed outcomes.
+- Parameters: shown counters, map, water measurements and choices.
+- Evidence: [The Oregon Trail decomposition](../games/s-z/the-oregon-trail.md),
+  MECC A-157 booklet, Program Preview pp. 8–11.
+- Novelty: first isolated for `GAME-0402`; measured present state informs
+  policy and river risk while later events stay hidden.
+
+## INF-401 — Show ghost exposure, power and room-survival state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a live room view and HUD expose the player's remaining health,
+  whether the room is dark or cleared, currently visible hostiles and an
+  exposed ghost's heart and remaining power during suction.
+- Includes: Luigi's health icon, Parlor illumination, normal ghost hearts
+  and power numerals in original GameCube Luigi's Mansion.
+- Excludes: a preview of exact next spawn time, hidden Boo location, future
+  ghost movement or frame-perfect capture windows.
+- Parameters: health, room-light state, ghost position, exposed-heart cue,
+  power numeral and display timing.
+- Evidence: [Luigi's Mansion decomposition](../games/g-l/luigis-mansion.md),
+  Nintendo's original booklet pp. 12–13 and 22–25.
+- Novelty: first isolated for `GAME-0403`; current vulnerability and
+  resistance are visible while the future encounter timing is not.
+
+## INF-402 — Show approaching step arrows and live Dance Gauge
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: four upward-scrolling directional lanes and fixed step zones
+  disclose imminent required foot placements, while each timing judgement,
+  Dance Gauge and low-gauge Danger cue expose current performance risk.
+- Includes: the single-player `GN845-UC` DanceDanceRevolution song screen.
+- Excludes: an entire chart preview; precise unpublished timing windows;
+  Guitar Hero III's fret colours, sustain forms, score multiplier and Star
+  Power (`INF-379`); the completed-song report (`INF-299`).
+- Parameters: visible arrow horizon, lane directions, step zones, displayed
+  judgement, current gauge, Danger cue and display timing.
+- Evidence: [DanceDanceRevolution decomposition](../games/a-f/dancedancerevolution.md),
+  Konami's 1998 `GN845-UC` operator manual, p. 11.
+- Novelty: first isolated for `GAME-0406`; the live view links physical
+  foot-panel timing and song-survival risk without later-series meters.
+
+## INF-403 — Show sun, seed readiness, lane threat and flagged progress
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the interface exposes the current sun balance, visible
+  seed packets and their grayed-out recharge state, placed plants and
+  advancing zombies by row, plus a progress bar whose flags indicate
+  larger upcoming waves; the pre-level sweep previews zombie types.
+- Includes: the regular first-stage daytime Adventure view in original
+  Plants vs. Zombies.
+- Excludes: an exact future spawn calendar or lane assignment; Bloons TD 6's
+  lives-and-round-stock interface (`INF-323`); all future plant unlocks;
+  a numerical combat forecast not shown in the game.
+- Parameters: sun balance, packet set, readiness display, visible rows,
+  enemy preview, progress fraction and flag positions.
+- Evidence: [Plants vs. Zombies decomposition](../games/m-r/plants-vs-zombies.md),
+  PopCap's public readme, “The Basics”, “Plants and Planting” and “Zombies”.
+- Novelty: first isolated for `GAME-0407`; the player prices a near-term
+  plant against current spendability and wave progress without omniscient
+  future lane data.
+
+## INF-404 — Expose vitality, lives and the current copied ability
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a live stage display names the avatar's Normal or copied
+  ability state and shows the current vitality and remaining finite lives,
+  with a use counter only for an ability type that has one.
+- Includes: the bottom-screen Normal/Beam label, six-bar initial vitality
+  and remaining-lives number in original NES Kirby's Adventure.
+- Excludes: a whole future stage map; exact unseen enemy abilities; a
+  countdown stage timer; a HUD where ability ownership is not visible.
+- Parameters: form label, vitality maximum/current value, life stock, optional
+  ability-use limit, update timing and damage feedback.
+- Evidence: [Kirby's Adventure decomposition](../games/g-l/kirbys-adventure.md),
+  using Nintendo's preserved original NES manual, pp. 20–21.
+- Novelty: first isolated for `GAME-0408`; `INF-347` requires a timed
+  platform-stage display, whereas this packet's decision state is the
+  inhalation/copy gate and vitality without a stage clock.
+
+## INF-405 — Expose arena opponents and vehicle-combat resources
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a live vehicle-combat display exposes remaining opponent count
+  and radar positions together with the controlled vehicle's health, life
+  stock, active weapon/ammunition, machine-gun heat, turbo and energy, so
+  movement and fire decisions can use these current states.
+- Includes: the original PS2 Twisted Metal: Black arena HUD and opponent
+  radar while driving Junkyard Dog in Story Mode.
+- Excludes: exact unseen opponent intent; a complete future-stage map;
+  spectator-only telemetry; a generic speedometer without combat state.
+- Parameters: opponent count and radar markers, health, lives, selected
+  weapon, ammunition, heat, turbo, energy and display refresh.
+- Evidence: [Twisted Metal: Black decomposition](../games/s-z/twisted-metal-black.md),
+  using Sony's original PS2 manual, HUD diagram.
+- Novelty: first isolated for `GAME-0409`; positional enemy disclosure and
+  multiple independent combat budgets are visible in one arena display.
+
+## INF-406 — Expose a stage's required and caught creature counts
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the stage briefing or status view discloses the minimum
+  creature-capture quota and the count already accepted, letting the player
+  distinguish sufficient progress from optional uncaught creatures.
+- Includes: Fossil Field's three-needed versus four-total monkey information
+  and the catch-progress view in original PlayStation Ape Escape.
+- Excludes: the position of every unseen monkey; a future gadget route;
+  species catalogue credit (`INF-352`); a final score shown only after exit.
+- Parameters: required, total, caught, remaining and refresh timing.
+- Evidence: [Ape Escape decomposition](../games/a-f/ape-escape.md), with
+  original-PlayStation first-stage and controls walkthrough corroboration.
+- Novelty: first isolated for `GAME-0413`; a stage can settle before every
+  advertised creature is reachable or caught.
+
+## INF-407 — Show live leaks, mirrored pose, score and activity clock
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the active view exposes the glass holes that can presently be covered, the player's reflected body placement against them and the current activity score and clock, without previewing the exact positions or arrival times of later damage.
+- Includes: the 20,000 Leaks activity view pictured in Microsoft's original Kinect Adventures! manual, pp. 18–19.
+- Excludes: a full future leak schedule; exact sensor recognition volumes; a multi-activity Adventure goal screen; an unseen timer inferred from another game mode.
+- Parameters: visible hole positions, mirrored pose, active contact cue, score, clock and refresh timing.
+- Evidence: [Kinect Adventures! decomposition](../games/g-l/kinect-adventures.md), inspected original Microsoft manual PDF pp. 18–19.
+- Novelty: first isolated for `GAME-0414`; the present spatial contact targets and bodily alignment are exposed alongside live scored-time feedback.
+
+## INF-408 — Expose taxi customers, assigned route, two clocks and fare feedback
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a live taxi interface marks available customers with distance-coded icons and difficulty-sized pickup zones; after boarding it displays assigned destination direction and distance, customer and overall timers, current and total fares, manoeuvre combo and any time-bonus cue without revealing a guaranteed fastest street route.
+- Includes: Dreamcast Crazy Taxi's Arcade/Original display and customer markers during the scoped Arcade-rule run.
+- Excludes: a precomputed shortest-path itinerary; unknown future customer schedule; police Heat or a vehicle resource reserve.
+- Parameters: icon colour, stop-zone size, route arrow, distance, clocks, fares, combo, ranking and time-bonus indicator.
+- Evidence: [Crazy Taxi decomposition](../games/a-f/crazy-taxi.md), original Sega Dreamcast manual pp. 7, 9–11.
+- Novelty: first isolated for `GAME-0415`; available-fare choice and the currently assigned service compete under separate visible deadlines and earnings feedback.
+
+## INF-409 — Expose unit condition, reachable cells and terrain intel
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the tactical view exposes current unit health and order availability, highlights the selected unit's presently reachable cells under its terrain-cost rules, and allows inspection of terrain type and defensive cover, without revealing the opposing commander's exact future orders or promising numeric cost values on the screen.
+- Includes: the movement highlight and R-button terrain or unit information in Advance Wars Field Training `Terrain Intel`.
+- Excludes: a guaranteed preview of Olaf's next target; the exact hidden damage or AI formula; fog-of-war revelation in a different mission; a post-battle-only report.
+- Parameters: selected unit, current health, spent state, highlighted range, terrain type, cover rating and refresh timing.
+- Evidence: [Advance Wars decomposition](../games/a-f/advance-wars.md), Nintendo's original booklet pp. 4–7 and 26 and the mission dialogue transcription.
+- Novelty: first isolated for `GAME-0416`; inspection connects a unit-specific reachable route to visible terrain protection before an irreversible order.
+
+## INF-410 — Expose a moving security scan and its local alarm state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the current view exposes moving spotlight footprints and a linked alarm fixture, with a visible change when a scan detects the avatar, so the player can time passage and identify the local security controller without seeing future sweep positions.
+- Includes: the two searchlight passages and red sirens in original PlayStation 2 *Sly Cooper and the Thievius Raccoonus* stage `A Stealthy Approach`.
+- Excludes: an omniscient stage map, a numerical guard-suspicion meter, unrevealed traps, an exact preview of future patrol positions and the alarm-triggering rule itself (`SYS-1106`).
+- Parameters: footprint visibility, sweep direction, warning colour, fixture location, enabled state, camera occlusion and update timing.
+- Evidence: [Sly Cooper and the Thievius Raccoonus decomposition](../games/s-z/sly-cooper-and-the-thievius-raccoonus.md), original PlayStation 2 booklet and corroborated first-stage descriptions.
+- Novelty: first isolated for `GAME-0417`; exact local security geometry is readable while its future motion is not precommitted as a tactical intent.
+
+## INF-411 — Expose ship rooms, power and encounter state
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the tactical ship view exposes currently known crew and room conditions, system power and damage, shield and hull state, weapon charge and missile stock, opponent-visible systems and FTL readiness, while the sector map distinguishes reachable beacons without guaranteeing their future events.
+- Includes: original FTL Kestrel combat controls and ship/sector displays during one first-sector hostile beacon.
+- Excludes: exact hidden enemy intent, a guaranteed future event at every beacon, unobserved internal hit-roll probabilities, and the direct-control cockpit instrumentation of `INF-277`.
+- Parameters: ship room, crew, system bars, shield, hull, target, weapon, reserve, jump readiness, beacon graph and fog state.
+- Evidence: [FTL: Faster Than Light decomposition](../games/a-f/ftl-faster-than-light.md), official Subset Games materials and contemporary player interface accounts.
+- Novelty: first isolated for `GAME-0418`; the player reads simultaneous room, power and route state through a command overview rather than an avatar-centred cockpit.
+
+## INF-412 — Expose a puppy's condition and learned tricks
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the home interface identifies the current puppy and makes its present condition and list of taught commands inspectable, alongside icons for the menus currently unlocked.
+- Includes: opening Dog Status after naming and teaching sit in the original Nintendogs first-home session.
+- Excludes: exposing an exact hidden microphone-confidence score; predicting future condition changes; a zoo-wide animal welfare dashboard; treating unavailable menus as already usable.
+- Parameters: puppy name, condition, known tricks, active menu icons and current home state.
+- Evidence: [Nintendogs decomposition](../games/m-r/nintendogs.md), Nintendo of America's original instruction booklet pp. 16–17.
+- Novelty: first isolated for `GAME-0419`; per-puppy condition and learned voice vocabulary are visible before choosing a direct care action.
+
+## INF-413 — Show temporary and banked driving-style score separately
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the live race interface exposes current Kudos Stash, settled Kudos Bank and combo feedback as distinct fields alongside, but not replacing, current race position.
+- Includes: original Project Gotham Racing 2 offline Kudos World Series Street Race screen.
+- Excludes: a single total with no temporary state; final post-race breakdown; treating the visible place number as the style score; a multiplayer leaderboard.
+- Parameters: stash amount, bank amount, combo state, current position and display update.
+- Evidence: [Project Gotham Racing 2 decomposition](../games/m-r/project-gotham-racing-2.md), original Microsoft/Bizarre manual printed pp. 4 and 10–11.
+- Novelty: first isolated for `GAME-0420`; the driver can read the unbanked timing-sensitive award separately from both retained style score and race place.
+
+## INF-414 — Expose the drum beat, attack opportunity and formation state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during the live mission, pulsing screen edges indicate command cadence while visible formation and prey cues disclose current attack reach, squad health and consecutive rhythm progress needed for the next order.
+- Includes: beat pulses, attack-ready eye, health and combo display in the original PSP *Patapon* first hunt.
+- Excludes: a fully visible future off-screen route (`INF-001`); an instructor's displayed note chart (`INF-396`); exact input-window boundaries or damage values not shown by the manual.
+- Parameters: beat phase, attack cue, visible formation members, health, combo and Fever display.
+- Evidence: [Patapon decomposition](../games/m-r/patapon.md), Sony's original PSP manual pp. 2, 6 and 8, plus contemporary first-hunt guide.
+- Novelty: first isolated for `GAME-0422`; cadence and tactical reach are disclosed together for a timed army-level order.
+
+## INF-415 — Expose workshop vehicle ratings before challenge selection
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the vehicle workshop shows current design ratings for speed, fuel, ammunition, weight and number of parts before the player tests, saves or selects the build for a challenge.
+- Includes: Mumbo's Motors displaying the five original Xbox 360 Banjo-Kazooie: Nuts & Bolts ratings while a small scoop-equipped vehicle is prepared.
+- Excludes: an exact numerical prediction of rock momentum; the live challenge's elapsed-time grade; an undisclosed future part; a general car-selection list without editable construction ratings.
+- Parameters: speed, fuel, ammunition, weight, part count, selected design and update timing.
+- Evidence: [Banjo-Kazooie: Nuts & Bolts decomposition](../games/a-f/banjo-kazooie-nuts-and-bolts.md), original Xbox 360 manual, Building Vehicles section.
+- Novelty: first isolated for `GAME-0423`; the visible multi-axis ratings guide a functional build decision before a vehicle-dependent challenge.
+
+## INF-416 — Show craft status, wingmate distress and settled route
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a live flight interface displays the player's shield and boost state, aiming cursor and a named ally's distress or damage/down status, while the post-stage map exposes the route reached; it does not fully disclose future threats or an unearned alternative.
+- Includes: original Star Fox 64 Corneria shield/boost gauges, cursor, Falco HELP cues, pause-state teammate condition and result map.
+- Excludes: an omniscient enemy map; a live exact seven-arch counter not established by the original manual; guaranteed boss-shield display while Slippy is down; a pre-stage menu freely choosing Sector Y.
+- Parameters: shield, boost, cursor, ally distress, pause-state damage, down marker, boss-gauge eligibility and settled route colour.
+- Evidence: [Star Fox 64 decomposition](../games/s-z/star-fox-64.md), Nintendo's original manual pp. 13, 15, 18–19.
+- Novelty: first isolated for `GAME-0424`; player damage, named wingmate survival and route result are exposed across live and settlement views relevant to one compound branch.
+
+## INF-417 — Show village need, belief and creature lesson cues
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player can inspect a village's raised need through its store flag and allegiance through Village Center information, while a light bulb above a teaching creature indicates learned observation; these cues do not disclose exact future learning or belief gains.
+- Includes: *Black & White* Land 1 Food Desire flag and tooltip, Village Center belief tooltip and creature learning light bulb during a watched Food Miracle demonstration.
+- Excludes: an exact numerical learning-per-cast forecast; automatic visibility of all future village desires; an unrelated settlement's group Resolve trajectory (`INF-065`).
+- Parameters: village, flag type and height, current belief display, learner feedback and disclosed versus hidden progress.
+- Evidence: [Black & White decomposition](../games/a-f/black-and-white.md), original Lionhead manual pp. 11, 18–19.
+- Novelty: first isolated for `GAME-0425`; two distinct live recipients of the same divine action have inspectable need/belief and teaching feedback without full hidden-model disclosure.
+
+## INF-418 — Mark peelable paper and rear-touch interaction sites
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: visible paper tabs or edges identify a layer the player can manipulate from the front, while symbols on a thin or transparent surface identify the corresponding rear-touch interaction site; these affordances disclose input mode but not a guaranteed future landing.
+- Includes: early *Tearaway* movable paper tabs and symbol-marked Vita rear-touch drum surfaces.
+- Excludes: an exact landing trajectory preview; a universal touch affordance on every paper surface; a map of hidden future chapters; a touchscreen-only decoration prompt.
+- Parameters: peel-edge cue, rear-touch marking, eligible surface, cue visibility and undisclosed destination.
+- Evidence: [Tearaway decomposition](../games/s-z/tearaway.md), Sony PlayStation Blog hands-on and Pocket Gamer's lead-designer early-level walkthrough.
+- Novelty: first isolated for `GAME-0426`; two visibly differentiated physical input affordances govern the same local route.
+
+## INF-419 — Show contracting Taken corona and darkness-break flash
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the light corona around a darkness-protected hostile visibly contracts under illumination and a bright flash marks complete removal, distinguishing a still-protected target from one that ordinary shots may wound.
+- Includes: Taken shroud exposure cue in original Xbox 360 *Alan Wake*.
+- Excludes: exact numerical shroud health or remaining exposure time; a guaranteed firearm hit; player flashlight charge HUD (`INF-119`); permanent target markers after the encounter.
+- Parameters: target, corona extent, illuminated state, break flash and visible damage-legality cue.
+- Evidence: [Alan Wake decomposition](../games/a-f/alan-wake.md), original Microsoft/Remedy Xbox 360 manual p. 12.
+- Novelty: first isolated for `GAME-0427`; the target itself reveals the transition from light-dependent protection to conventional vulnerability.
+
+## INF-420 — Display one selected guard's current near and far sight regions
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: inspecting one hostile observer displays that observer's current directed sight region with distinct near and far visibility zones, while other unselected observers continue to perceive without simultaneous displayed cones.
+- Includes: selecting one German guard in original *Commandos: Behind Enemy Lines* to see his bright near and dark far sight areas as he patrols.
+- Excludes: omniscient simultaneous cones for every guard; exact future patrol positions; a cumulative detection meter; guaranteed safety from an unselected guard; the underlying detection legality (`CON-077`).
+- Parameters: selected guard, facing, near and far extents, visual obstruction, current posture and update timing.
+- Evidence: [Commandos: Behind Enemy Lines decomposition](../games/a-f/commandos-behind-enemy-lines.md), original Pyro/Eidos manual, enemy-view instructions.
+- Novelty: first isolated for `GAME-0429`; visible sight information is explicitly limited to one selected observer despite simultaneous live threats.
+
+## INF-421 — Show current power bars and unsigned response-impact cues
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the interface displays the present values of several political power reserves and, while inspecting an offered response before commitment, marks which reserves it may affect without revealing the direction or magnitude of each change.
+- Includes: original 2016 Reigns showing church, people, army and treasury bars and tilt-time affected-domain dots.
+- Excludes: exact signed delta previews; the hidden next-card identity (`INF-002`); complete disclosure of narrative flags or card weights; certainty that every shown effect is beneficial.
+- Parameters: displayed reserves, response side, indicated affected subset, concealed sign and magnitude.
+- Evidence: [Reigns decomposition](../games/m-r/reigns.md), François Alliot's four-dimension account and Emily Short's dated firsthand discussion of the tilt cue.
+- Novelty: first isolated for `GAME-0432`; a player can see both the current risk position and the domains a contemplated binary response touches without receiving a signed forecast.
