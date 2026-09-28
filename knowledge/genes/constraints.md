@@ -13382,3 +13382,121 @@
 - Parameters: reserve vector, lower and upper bounds, chosen response, fatal dimension and successor trigger.
 - Evidence: [Reigns decomposition](../games/m-r/reigns.md), Emily Short's contemporary firsthand analysis and Devolver's balancing description.
 - Novelty: first isolated for `GAME-0432`; four competing power tracks each have two terminal edges rather than a single depletion or overflow condition.
+
+## CON-710 — Accept cooking commands only at the prompted step and timing window
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a recipe-step operation counts toward its evaluated result only
+  when addressed to the current ingredient or control in the order and, where
+  shown, the active timing interval requested by that minigame.
+- Includes: performing the miso-soup stock's Add, Mix, Low and Mix commands
+  when their scrolling cues reach the action line in original DS *Cooking Mama*.
+- Excludes: a recipe-wide terminal countdown (`CON-068`); a fixed timer on
+  every cooking step; changing the dish at the optional branch; silently
+  treating an early, late or wrong command as a successful step.
+- Parameters: current step, addressed control, command order, timing cue,
+  accepted window, rejected or downgraded input and local evaluation.
+- Evidence: [Cooking Mama decomposition](../games/a-f/cooking-mama.md),
+  Daniel Engel's first-hand original DS miso-soup walkthrough.
+- Novelty: first isolated for `GAME-0434`; step-local prompted legality and
+  timing affect preparation quality without ending the whole recipe on expiry.
+
+## CON-711 — Powered scarf movement requires available charge
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a scarf-powered jump or glide is usable only while the current
+  scarf has positive eligible charge; exhaustion prevents the powered lift but
+  does not prevent ordinary walking or later recharge.
+- Includes: choosing a charged crossing movement in original PS3 *Journey*'s
+  Bridge area and returning to cloth when the glow is spent.
+- Excludes: a fixed number of jumps from a collected symbol; Noita's held
+  upward levitation (`CON-633`); requiring a companion rather than cloth;
+  claiming an exact uninspected charge threshold for each gap.
+- Parameters: current charge, powered-motion request, spending, exhausted
+  response, walking fallback and compatible recharge access.
+- Evidence: [Journey decomposition](../games/g-l/journey.md), PlayStation's
+  post-release retrospective and the original-PS3 first-hand guide.
+- Novelty: first isolated for `GAME-0436`; charged movement is gated by a
+  visible borrowed scarf reserve rather than by a permanently learned jump.
+
+## CON-712 — Seat only a party that fits a clean open table
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a waiting party can be assigned to a chosen service table only
+  if the table has enough places, is not occupied and has no dirty dishes from
+  the previous party; cleaning restores eligibility after departure.
+- Includes: original PC *Diner Dash* refusing a still-dirty or occupied table
+  and admitting a compatible waiting party after it is bussed.
+- Excludes: the act of selecting a party and dragging it to a table; merely
+  counting a fixed set of table positions; customer happiness from colour
+  matching; a request that expires while waiting.
+- Parameters: party size, table capacity, occupancy, dish state and reset
+  after busing.
+- Evidence: [Diner Dash decomposition](../games/a-f/diner-dash.md), PlayFirst's
+  original v1.0 README and a first-hand original-PC guide.
+- Novelty: first isolated for `GAME-0437`; service-slot availability depends
+  on a previous party's unfinished cleanup, not only permanent floor capacity.
+
+## CON-713 — Accept only eligible noun entries for object creation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a requested word creates a world object only if the entered
+  text is a recognised, permitted noun in the current game's vocabulary;
+  invalid, blocked or unsupported entries do not become arbitrary objects.
+- Includes: original *Scribblenauts* DS Notepad accepting a valid object
+  name such as `Lemonade` while excluding unsupported symbols and blocked
+  copyrighted or inappropriate terms.
+- Excludes: choosing a prelisted item; an unrestricted natural-language
+  parser; adjective-object composition from later editions; whether an
+  otherwise valid object satisfies the current puzzle.
+- Parameters: input alphabet, lexicon, excluded terms, noun identity,
+  feedback on rejection and current edition.
+- Evidence: [Scribblenauts decomposition](../games/s-z/scribblenauts.md),
+  original Nintendo DS instruction booklet, Notepad and Object Meter pages.
+- Novelty: first isolated for `GAME-0440`; lexical admissibility is a
+  constraint before object instantiation, not the semantic success test.
+
+## CON-714 — Cap simultaneous created world objects
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a live object meter limits how many player-created objects may
+  coexist in the current scene; an existing object must be removed before
+  another can be added past the cap.
+- Includes: the Object Meter and deletion affordance described for original
+  *Scribblenauts* DS Challenge Mode and Playground.
+- Excludes: a limit on dictionary size; a finite inventory of pre-owned
+  items; a per-word use count; a numerical capacity not evidenced here.
+- Parameters: current object count, meter maximum, deletion and object
+  classes counted.
+- Evidence: [Scribblenauts decomposition](../games/s-z/scribblenauts.md),
+  original Nintendo DS instruction booklet, Object Meter page.
+- Novelty: first isolated for `GAME-0440`; the budget limits concurrent
+  authored scene content, not the range of eligible nouns.
+
+## CON-715 — Require aimed throw contact before a capture check
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a committed thrown capture device invokes its uncertain capture response only if the on-screen trajectory contacts the current visible wild target; an off-target throw is a miss, not a failed probabilistic capture of that target.
+- Includes: a launch-era Pokémon GO touchscreen Ball flick connecting with or missing an ordinary wild Pokémon in the catch view.
+- Excludes: selecting a Ball from a turn-based item menu without spatial aim; the target subsequently breaking out after a hit; the exact Ball inventory change on a miss, which was not directly measured.
+- Parameters: throw origin, direction, release timing, target position, contact region and current encounter.
+- Evidence: [Pokémon GO decomposition](../games/m-r/pokemon-go.md), contemporary first-hand catch guidance and official catch help.
+- Novelty: first isolated for `GAME-0441`; spatial hit eligibility precedes `SYS-307`'s capture roll and is not equivalent to `CON-276`'s wild-target and device eligibility.

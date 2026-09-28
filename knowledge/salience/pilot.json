@@ -1,11 +1,67 @@
 {
-  "version": "GENE_SALIENCE_AND_PLAIN_LANGUAGE_EXPANSION_047",
+  "version": "GENE_SALIENCE_AND_PLAIN_LANGUAGE_EXPANSION_049",
   "roles": [
     "defining",
     "structural",
     "supporting"
   ],
   "games": {
+    "GAME-0441": {
+      "reviewed": "2026-09-28",
+      "noteEn": "One launch-era Pokémon GO wild catch is defined by real walking as map input, location-linked encounter presentation, a committed Ball, its uncertain capture response and one retained wild target. Throw contact and the separate map/ring information surfaces structure the decision; eligible target and device supply support it. Dated Niantic statements and contemporary first-hand guidance bound the source-only packet; no original client or server was played.",
+      "noteUk": "Одне захоплення дикого покемона в Pokémon GO часів запуску визначають реальне пересування як вхідні дані карти, поява доступної поблизу цілі, кидок покебола, непевний результат захоплення та збереження одного покемона. Умова влучання й окремі підказки карти та кільця формують рішення; допустима дика ціль і наявність покебола його підтримують. Межу реконструкції задають датовані повідомлення Niantic і письмовий досвід гравця того часу; оригінальний застосунок і сервер тут не запускали.",
+      "defining": ["ACT-577", "ACT-194", "SYS-1156", "SYS-307", "OBJ-252"],
+      "structural": ["CON-715", "INF-426", "INF-427"],
+      "supporting": ["CON-276"]
+    },
+    "GAME-0440": {
+      "reviewed": "2026-09-28",
+      "noteEn": "The original DS desert puzzle hinges on an open eligible noun becoming a manipulable object, the wanderer's contextual need exposing a Starite, and Maxwell separately collecting that token. Word legality, concurrent-object capacity and the short need hint constrain and inform the choice; avatar movement and object interaction support the causal route. The original manual documents the loop without this repository playing the cartridge.",
+      "noteUk": "Пазл оригінальної гри для DS визначають вільний вибір допустимого іменника, створення відповідного предмета у світі, поява Starite після задоволення потреби мандрівника й окреме збирання зірки Максвеллом. Словникові обмеження, ліміт предметів і коротка підказка допомагають обирати рішення; пересування героя та взаємодія з персонажем підтримують цей шлях. Цикл описано за оригінальним посібником без власного запуску картриджа.",
+      "defining": ["ACT-576", "SYS-1154", "SYS-1155", "OBJ-025"],
+      "structural": ["CON-713", "CON-714", "INF-425"],
+      "supporting": ["ACT-008", "ACT-341"]
+    },
+    "GAME-0439": {
+      "reviewed": "2026-09-28",
+      "noteEn": "One original Wii Beginner Ski Slalom run is defined by continuous board-weight input, its translation into Mii steering and pace, soft seven-second missed-gate penalties and a penalty-adjusted finish. A live balance/gate cue structures correction; automatic descent and real-time input support it. The original manual, first-hand guide and direct repeated-game study bound the packet without this repository playing a disc or measuring the sensor response.",
+      "noteUk": "Один початковий слалом оригінальної Wii Fit визначають безперервне перенесення ваги на дошці, перетворення цього руху на напрям і швидкість Mii, семисекундні штрафи за пропущені ворота та фініш зі скоригованим часом. Поточні позначка рівноваги й результат проходу воріт допомагають виправити рух; автоматичний спуск і безперервний час підтримують цикл. Посібник, письмовий досвід гравця та дослідження багатьох проходжень обмежують висновки; диска тут не запускали й реакцію датчиків не вимірювали.",
+      "defining": ["ACT-575", "SYS-1152", "SYS-1153", "OBJ-251"],
+      "structural": ["INF-424"],
+      "supporting": ["SYS-045", "TIM-003"]
+    },
+    "GAME-0438": {
+      "reviewed": "2026-09-28",
+      "noteEn": "The original arcade first round is defined by individual landing-driven cube colour changes, the purple ball becoming Coily, his avatar-following pursuit and a disc escape that can lure him away. Fixed cube positions, finite lives, the visible board and a whole-pyramid target structure the route; direct hopping, unpredictable hostile arrivals, automatic motion and live time support it. Gottlieb's original manual bounds the packet, without cabinet play or exact timing measurement.",
+      "noteUk": "Перший раунд оригінальної аркадної гри визначають зміна кольору окремого куба під час приземлення, поява Койлі з фіолетової кулі, його переслідування героя та втеча диском, яка може виманити змія за край. Сталі куби, скінченні життя, видима піраміда й мета змінити всі верхні грані формують маршрут; стрибки, непередбачувана поява ворогів, їхній рух і живий час його підтримують. Межу аналізу задає оригінальна інструкція Gottlieb; гри на автоматі та точних вимірювань часу не було.",
+      "defining": ["SYS-1148", "SYS-1149", "SYS-1150", "SYS-1151"],
+      "structural": ["CON-001", "CON-183", "INF-001", "OBJ-004"],
+      "supporting": ["ACT-008", "SYS-004", "SYS-030", "SYS-045", "TIM-003"]
+    },
+    "GAME-0437": {
+      "reviewed": "2026-09-28",
+      "noteEn": "The original Windows early shift is defined by player-chosen seating, staged table turnover, satisfaction-sensitive tips and same-action chain bonuses. Clean-table eligibility, individual expiry, visible ready tasks and a finite tip goal structure the choices; contextual service, meal delivery, arrivals and live time support them. PlayFirst's v1.0 README bounds the rules, while exact scoring and the shift script were not measured through direct play.",
+      "noteUk": "Ранню зміну в оригінальній версії для Windows визначають вибір столика для компанії, послідовні етапи обслуговування, залежність чайових від задоволення та бонус за однакові дії поспіль. Умови чистого столика, особистий термін очікування, показ готових дій і скінченна мета за чайовими формують вибір; окремі дії обслуговування, подача страв, прибуття гостей і живий час підтримують його. Правила підтверджує README PlayFirst для v1.0, але точні бали та сценарій зміни безпосередньо не виміряно.",
+      "defining": ["ACT-574", "SYS-1145", "SYS-1146", "SYS-1147"],
+      "structural": ["CON-620", "CON-712", "INF-330", "OBJ-013"],
+      "supporting": ["ACT-091", "ACT-341", "SYS-030", "TIM-003"]
+    },
+    "GAME-0436": {
+      "reviewed": "2026-09-27",
+      "noteEn": "The original PS3 Bridge packet is defined by cloth responding to a nonverbal call, section-by-section route restoration and borrowed scarf charge. An optional anonymous traveller can add a recharge channel without becoming a gate. Charged-motion legality and visible scarf/bridge cues structure route choice; direct movement, a reached passage and live time support it. The incomplete crossing is supported by PlayStation's original trophy list, while exact charge and geometry remain unmeasured.",
+      "noteUk": "Перший перехід мосту в оригінальній Journey для PS3 визначають тканина, що реагує на невербальний поклик, відновлення шляху окремими ділянками й позичений заряд шарфа. Необов’язковий анонімний супутник може дати ще один спосіб поповнення, але не стає перепоною для проходу. Умова зарядженого руху та видимі шарф і міст допомагають обрати шлях; безпосередній рух, досягнення проходу й живий час підтримують цей цикл. Початковий список нагород PlayStation підтверджує неповний перехід, а точний заряд і геометрію не виміряно.",
+      "defining": ["ACT-573", "SYS-1142", "SYS-1143"],
+      "structural": ["SYS-1144", "CON-711", "INF-423"],
+      "supporting": ["ACT-008", "OBJ-026", "TIM-003"]
+    },
+    "GAME-0435": {
+      "reviewed": "2026-09-27",
+      "noteEn": "The original SNES first Giant Step route is defined by a damaged HP count continuing toward zero, a separately visited sanctuary that records its melody and the complete guardian-to-site objective. Field contact, command and hostile-response resolution, PSI legality and authored access gates structure the path; traversal, recovery, experience, power effects, visible resources and live counter time support it. Nintendo's original guide bounds this source-only reading; no cartridge was played or HP tick speed measured.",
+      "noteUk": "Перший шлях до Giant Step в оригінальній грі для SNES визначають показник здоров’я, який після удару продовжує спадати до нуля, окремий прихід до святилища для запису мелодії та повна ціль від охоронця до цього місця. Зіткнення на полі, розв’язання команд і відповідей, доступність PSI й послідовні перешкоди формують шлях; рух, лікування, досвід, ефекти прийомів, видимі запаси та живий час лічильника підтримують його. Оригінальний посібник Nintendo обмежує цю реконструкцію; картриджем не грали й швидкість лічильника не вимірювали.",
+      "defining": ["SYS-1140", "SYS-1141", "OBJ-250"],
+      "structural": ["ACT-019", "SYS-355", "SYS-1139", "CON-269", "CON-282"],
+      "supporting": ["ACT-008", "ACT-131", "SYS-362", "SYS-380", "INF-119", "TIM-003"]
+    },
     "GAME-0430": {
       "reviewed": "2026-09-27",
       "noteEn": "The original PlayStation route is defined by a three-key house gate to school, an on/off flashlight that improves searching while increasing visual exposure, and a carried radio that warns of monsters without alerting them. The acquired map and clue chain structure the key search; health, optional combat and real-time monster movement support it. The original manual establishes rules and two written routes corroborate the bounded path, without direct play.",
@@ -9251,6 +9307,22 @@
         "INF-119",
         "TIM-003"
       ]
+    },
+    "GAME-0433": {
+      "reviewed": "2026-09-27",
+      "noteEn": "The original Genesis Bay of Medusa passage is defined by a continuously depleting but spatially refillable breath reserve, a player-issued directional song and returned local map, and a contact-learned song that opens only its matching glyph barrier. Direct swimming, a visible meter and a connected destination structure the route; uninterrupted live time supports it. The Sega booklet and separated later Sega explanation bound the rules, while a first-hand written route bounds the passage. No cartridge or direct play was inspected.",
+      "noteUk": "Шлях Bay of Medusa в оригінальній версії для Genesis визначають запас повітря, що спадає під водою та відновлюється в досяжних кишенях, керована спрямована пісня й місцева карта-відлуння, а також набута дотиком пісня, що відкриває лише відповідний бар’єрний гліф. Безпосередній рух, видимий показник і прохідна ціль упорядковують шлях, а безперервний час його підтримує. Правила підтверджує посібник Sega та окреме пояснення видавця; письмовий маршрут обмежує послідовність. Картриджа й власного проходження не було.",
+      "defining": ["ACT-571", "SYS-543", "SYS-1137", "CON-460", "INF-422"],
+      "structural": ["ACT-008", "INF-075", "OBJ-026"],
+      "supporting": ["TIM-003"]
+    },
+    "GAME-0434": {
+      "reviewed": "2026-09-27",
+      "noteEn": "The original DS miso-soup attempt is defined by prompted touch gestures, separately assessed steps in a fixed recipe order, current-step timing legality and a completed dish's medal. Mama's immediate instructions and general grade settlement structure the experience; real-time cue movement supports particular minigames. Nintendo's publisher description and independent first-hand written guides bound these rules, without cartridge play or measured medal thresholds.",
+      "noteUk": "Спробу приготувати місо-суп в оригінальній грі для DS визначають указані сенсорні жести, окреме оцінювання кроків у заданому порядку рецепта, часові вікна поточної дії та медаль за готову страву. Вказівки Мами й підсумкова оцінка формують цикл, а рух підказок у реальному часі підтримує окремі мініігри. Опис видавця та незалежні письмові посібники обмежують правила; картриджа не досліджували й точні пороги медалей не вимірювали.",
+      "defining": ["ACT-572", "SYS-1138", "CON-710", "OBJ-249"],
+      "structural": ["SYS-822", "INF-268"],
+      "supporting": ["TIM-003"]
     },
     "GAME-0432": {
       "reviewed": "2026-09-27",

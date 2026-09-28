@@ -22553,3 +22553,358 @@
 - Parameters: fatal cause, successor identity, reset visible reserves, retained eligible narrative flags and next card.
 - Evidence: [Reigns decomposition](../games/m-r/reigns.md), François Alliot's 2016 design account and Emily Short's contemporary firsthand analysis.
 - Novelty: first isolated for `GAME-0432`; the dynasty repeats the card-decision loop with a new ruler and reset political reserves while some authored card availability can span reigns.
+
+## SYS-1137 — Learn a key-glyph song and release its matching barrier
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: contact with an eligible key glyph teaches its authored song; a later compatible barrier glyph resists an ordinary song but yields when addressed with that learned matching song, making the passage traversable.
+- Includes: the key-glyph and barrier-glyph sequence on the opening route from Bay of Medusa to Undercaves in original Genesis *Ecco the Dolphin*.
+- Excludes: consuming a carried physical key (`SYS-063`); learning a song from every glyph; opening an unrelated barrier; assuming a barrier opens through dolphin contact without the matching song.
+- Parameters: key-glyph identity, learned song, barrier identity, matching condition, passage state and direction of emitted song.
+- Evidence: [Ecco the Dolphin decomposition](../games/a-f/ecco-the-dolphin.md), original Sega Genesis manual, pp. 7–8, Sega's later explanation of the original key/barrier relation, and independently written Bay of Medusa route.
+- Novelty: first isolated for `GAME-0433`; acoustic knowledge rather than physical inventory satisfies an authored passage lock.
+
+## SYS-1138 — Advance a recipe through separately assessed preparation steps
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the selected dish presents an authored sequence of distinct
+  preparation minigames; each step settles its performed input and exposes the
+  next required operation, with the step outcomes retained for dish evaluation.
+- Includes: the original DS *Cooking Mama* miso-soup path from chopping and
+  slicing through stock making, straining and stewing before the meal result.
+- Excludes: one atomic recipe craft; a freely reorderable set of independent
+  ingredients; an autonomous kitchen queue; assuming one failed step always
+  cancels the whole dish; the optional mid-recipe switch to another soup.
+- Parameters: selected recipe, authored step order, current step, result,
+  next operation, retained evaluations and terminal dish boundary.
+- Evidence: [Cooking Mama decomposition](../games/a-f/cooking-mama.md),
+  Nintendo's original DS description and Daniel Engel's first-hand recipe route.
+- Novelty: first isolated for `GAME-0434`; repeated touch-screen tasks form
+  one ordered dish with distinct local results rather than one global action.
+
+## SYS-1139 — Resolve a selected battle command and eligible hostile replies
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: resolve the selected command of a controlled combatant against the eligible responses of surviving hostiles, then return to a new command opportunity if the encounter remains open.
+- Includes: Ness selecting Bash, PSI or Goods against Titanic Ant and its surviving Black Antoids in original SNES *EarthBound*.
+- Excludes: Pokémon's separately committed paired creature moves and priority schedule (`SYS-955`); real-time enemy movement inside the command screen; the rolling HP display (`SYS-1140`); claiming an exact uninspected speed formula.
+- Parameters: selected command, legal target, surviving hostiles, response order, resulting HP and encounter closure.
+- Evidence: [EarthBound decomposition](../games/a-f/earthbound.md), Nintendo's original 1995 Player's Guide pp. 10–11 and its later digital instruction manual.
+- Novelty: first isolated for `GAME-0435`; a menu command and remaining hostile responses repeatedly settle a finite party encounter without importing another game's move scheduler.
+
+## SYS-1140 — Roll a damaged HP display toward its new value
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when an eligible combatant takes damage, set a lower HP target while its displayed HP decreases gradually; a timely recovery or encounter victory may prevent the visible count reaching zero and causing unconsciousness.
+- Includes: Ness's rolling HP in original SNES *EarthBound* during the Giant Step cave battles.
+- Excludes: instant HP settlement; an Active Time Battle readiness gauge (`TIM-026`); guaranteed rescue after every lethal hit; a fixed unmeasured tick rate.
+- Parameters: HP before damage, target HP, displayed HP, decrement rate, recovery or victory event and zero boundary.
+- Evidence: [EarthBound decomposition](../games/a-f/earthbound.md), Nintendo's original 1995 Player's Guide p. 11.
+- Novelty: first isolated for `GAME-0435`; the displayed damage countdown creates a separate intervention window after a hit in an otherwise command-selected encounter.
+
+## SYS-1141 — Record a reached sanctuary melody after guardian clearance
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after the required guardian is defeated and the character reaches its authored sanctuary, add that sanctuary's melody to the carried recording object as retained route progress.
+- Includes: Titanic Ant's defeat opening Giant Step and its first melody entering Ness's Sound Stone in original SNES *EarthBound*.
+- Excludes: an immediate boss loot drop; merely hearing the melody without visiting the sanctuary; an acoustic key song that opens a matching barrier (`SYS-1137`); completion of all later sanctuaries.
+- Parameters: guardian flag, sanctuary reach, melody identity, recording object and retained melody set.
+- Evidence: [EarthBound decomposition](../games/a-f/earthbound.md), Nintendo's original 1995 Player's Guide p. 23.
+- Novelty: first isolated for `GAME-0435`; an authored post-guardian site visit separately commits one musical progress token.
+
+## SYS-1142 — Release responsive cloth into a traversable bridge span
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an eligible local call or contact frees trapped cloth and causes
+  its associated missing bridge section to become traversable, while other
+  unreleased sections may remain absent.
+- Includes: one cloth cluster forming a section of the Bridge in original PS3
+  *Journey*; the traveller can later cross without restoring every section.
+- Excludes: consuming an engineer at a repair hut (`SYS-1060`); rolling a log
+  into a water crossing (`SYS-097`); requiring all bridge spans for passage;
+  treating an untouched cloth strip as already traversable.
+- Parameters: cloth cluster, activation reach, section identity, before/after
+  geometry and currently connected route.
+- Evidence: [Journey decomposition](../games/g-l/journey.md), PlayStation's
+  original `Threshold` trophy and a first-hand original-PS3 Bridge route.
+- Novelty: first isolated for `GAME-0436`; responsive world cloth changes
+  authored traversal geometry one section at a time.
+
+## SYS-1143 — Spend scarf charge on lift and restore it through contact
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a powered jump or glide drains the traveller's current scarf
+  charge; compatible cloth contact or a nearby companion can restore that
+  charge without making cloth a permanently owned consumable.
+- Includes: original PS3 *Journey* Bridge traversal with a short first-play
+  scarf, cloth recharge and optional fellow-traveller recharge.
+- Excludes: permanent scarf-length growth from a glowing symbol; Noita's held
+  levitation reserve; automatic time-only cooldown; mandatory co-op recharge;
+  exact unmeasured energy units.
+- Parameters: capacity, current visible charge, lift cost, compatible cloth,
+  companion proximity and restored amount.
+- Evidence: [Journey decomposition](../games/g-l/journey.md), creator interview,
+  PlayStation retrospective and first-hand original-PS3 guide.
+- Novelty: first isolated for `GAME-0436`; traversal power is borrowed from
+  reachable environmental or social contact and spent on motion.
+
+## SYS-1144 — Introduce an optional anonymous co-traveller
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: in an online traversal area, another actual player may appear
+  nearby as an anonymous visible traveller without the local player selecting
+  that person's identity or commanding their actions; the area remains
+  completable if no one appears or either traveller continues alone.
+- Includes: a possible encounter during original PS3 *Journey*'s Bridge
+  crossing, with scarf recharge available when the pair stays near.
+- Excludes: private friend matchmaking; a required two-body switch puzzle;
+  an AI follower; showing the partner's PSN identity during the chapter;
+  guaranteed arrival at a fixed moment.
+- Parameters: online availability, nearby player, current shared area,
+  anonymous presence and independent movement choices.
+- Evidence: [Journey decomposition](../games/g-l/journey.md), PlayStation's
+  first-person retrospective and original-PS3 first-hand guide.
+- Novelty: first isolated for `GAME-0436`; optional, unidentified social
+  co-presence changes recharge opportunities without becoming a route gate.
+
+## SYS-1145 — Advance an occupied table through ordered service stages
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a party at one table advances through distinct ready states for
+  order, kitchen ticket, prepared food, completed meal, bill and dirty dishes
+  as its current service task is accepted and the intervening preparation or
+  eating response completes; only dish removal returns that table to a clean
+  seatable state.
+- Includes: the original PC *Diner Dash* order-to-kitchen, serving, billing and
+  table-busing cycle in Flo's Diner early Career shift.
+- Excludes: a single instantaneous purchase; the player's direct choice of
+  which table to service next; the arrival of a new party; a recipe created by
+  the waitress rather than an automatically prepared kitchen meal.
+- Parameters: occupied table, current stage, ready cue, kitchen preparation,
+  meal completion, accepted interaction and clean-table reset.
+- Evidence: [Diner Dash decomposition](../games/a-f/diner-dash.md), PlayFirst's
+  original v1.0 README and a first-hand original-PC service guide.
+- Novelty: first isolated for `GAME-0437`; each party's staged service state
+  controls table reuse independently of the arrival and patience clocks.
+
+## SYS-1146 — Convert party satisfaction into a service tip
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a waiting or seated party's satisfaction changes as time passes
+  and service is delivered; a compatible seating choice may improve it, and
+  billing a served party converts its then-current satisfaction into a tip so
+  otherwise identical meals can yield different shift income.
+- Includes: prompt service, colour-matched seating and larger or smaller tips
+  in original PC *Diner Dash*.
+- Excludes: a bonus awarded solely for consecutive same-kind tasks; an
+  aggregate restaurant mood with no party-specific state; a fixed meal price
+  unaffected by delay; the separate predicate for leaving at zero patience.
+- Parameters: party, patience or happiness state, seated colour match, service
+  delays and boosts, tip mapping and settlement time.
+- Evidence: [Diner Dash decomposition](../games/a-f/diner-dash.md), PlayFirst's
+  original v1.0 README and first-hand original-PC service guide.
+- Novelty: first isolated for `GAME-0437`; individual service quality changes
+  a party's payout before the separate expiry boundary is reached.
+
+## SYS-1147 — Award a chain bonus for repeated service action type
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: completing the same eligible table-service action at successive
+  parties advances a short-lived action-type streak and awards bonus score for
+  later repetitions; interleaving another service-action type ends that streak
+  without removing score already earned.
+- Includes: consecutively taking ready orders or serving ready meals at
+  multiple original PC *Diner Dash* tables for a chain bonus.
+- Excludes: higher tips because one customer stayed happy (`SYS-1146`);
+  physical trick continuity (`SYS-975`); a recipe step sequence; claiming an
+  exact unmeasured multiplier for each chain length.
+- Parameters: service-action type, consecutive count, reset event, eligible
+  table, base points and bonus schedule.
+- Evidence: [Diner Dash decomposition](../games/a-f/diner-dash.md), PlayFirst's
+  original v1.0 README instruction to repeat the same action for bonus points.
+- Novelty: first isolated for `GAME-0437`; the score rewards batching a
+  particular kind of work across parties, creating a tension with urgency.
+
+## SYS-1148 — Advance an addressed cube top on avatar landing
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when the controlled avatar completes a valid hop onto one persistent cube top, advance that addressed top toward the round's declared target colour while other cube tops retain their current state.
+- Includes: original arcade *Q*bert* Level I Round 1 landing on an unfinished cube and changing its top colour.
+- Excludes: a purely cosmetic highlight; changing every linked tile at once; a later-round hostile undoing a converted top; a player directly selecting a remote tile to recolour.
+- Parameters: addressed cube, current top state, destination colour and later-round transition count.
+- Evidence: [Q*bert decomposition](../games/m-r/qbert.md), Gottlieb's original `GV-103A` instruction manual, section IV.
+- Novelty: first isolated for `GAME-0438`; progress follows the avatar's actual landing on one persistent board position.
+
+## SYS-1149 — Hatch a descending hostile into a persistent pursuer
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a particular descending hostile class stops at the bottom of the playfield and transforms into a persistent pursuing actor instead of leaving the board as the other descending class does.
+- Includes: the purple ball in original arcade *Q*bert* Level I Round 1 hatching into Coily at the bottom while red balls fall away.
+- Excludes: every ball becoming a pursuer; a pursuer already present at the initial state; the pursuer's subsequent target-based hops; a later-round green ball freezing the board.
+- Parameters: descending class, bottom contact, transformed actor identity and departure behaviour of other classes.
+- Evidence: [Q*bert decomposition](../games/m-r/qbert.md), Gottlieb's original `GV-103A` instruction manual, section IV.
+- Novelty: first isolated for `GAME-0438`; a moving hazard changes role at a board boundary rather than merely spawning a new unrelated enemy.
+
+## SYS-1150 — Chase the avatar across connected cube positions
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after activation, an autonomous hostile repeatedly chooses hops through connected board positions in pursuit of the currently controlled avatar, updating its route as that avatar changes position.
+- Includes: Coily chasing Q*bert after hatching in original arcade Level I Round 1.
+- Excludes: red balls simply bouncing down and leaving; a line-of-sight alert prerequisite; fixed patrol motion; PAC-MAN ghost Scatter/Chase schedules or a claimed unmeasured shortest-path tie-break.
+- Parameters: target position, legal adjacency, hop rate, route-choice rule and collision consequence.
+- Evidence: [Q*bert decomposition](../games/m-r/qbert.md), Gottlieb's original `GV-103A` instruction manual, section IV.
+- Novelty: first isolated for `GAME-0438`; the actor's route follows the moving avatar without an evidenced perception trigger or role-mode schedule.
+
+## SYS-1151 — Ride an edge disc to the summit and lure a pursuer off-board
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: landing on an available side disc from a pyramid edge carries the avatar back to the top position; a pursuing hostile that follows the abandoned edge path can leave the board and be removed.
+- Includes: Q*bert's rotating-disc escape and Coily lure in original arcade Level I Round 1.
+- Excludes: an ordinary hop between adjacent cubes; teleportation from any cube; every hostile automatically falling when a disc is used; a claim about whether the same disc can be reused without a measured trace; later-round changes in disc count or placement.
+- Parameters: disc availability and location, edge entry, summit destination, pursuer alignment and removal award.
+- Evidence: [Q*bert decomposition](../games/m-r/qbert.md), Gottlieb's original `GV-103A` instruction manual, section IV.
+- Novelty: first isolated for `GAME-0438`; one spatial escape both resets the avatar's route and can turn target pursuit against its actor.
+
+## SYS-1152 — Map measured balance to a moving avatar's course and pace
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: continuously translate the sensed lateral weight distribution
+  into a moving avatar's sideways course and fore/aft distribution into its
+  downhill pace, so further player shifts can correct the trajectory while
+  the activity keeps advancing.
+- Includes: Wii Fit Beginner Ski Slalom's Balance Board steering and speed
+  response for the descending Mii.
+- Excludes: a discrete on/off button step; a joystick tilting an entire
+  simulated platform (`SYS-1028`); scoring a gate outcome; asserting exact
+  sensor gain, smoothing or acceleration coefficients not measured here.
+- Parameters: sensor calibration, current centre of pressure or mass, input
+  axes, lateral displacement, pace response, update cadence and course.
+- Evidence: [Wii Fit decomposition](../games/s-z/wii-fit.md), Jelsma et al.'s
+  direct original-game Ski Slalom trials and a first-hand Wii guide.
+- Novelty: first isolated for `GAME-0439`; player-body balance is continuously
+  transformed into the avatar's own path and speed.
+
+## SYS-1153 — Add a fixed time penalty for each missed route gate
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: judge each encountered course gate as passed or missed without
+  stopping route progress; at a valid finish, add a fixed duration for every
+  missed gate to the actual traversal time to derive the performance result.
+- Includes: original Wii Fit Beginner Ski Slalom's seven seconds per missed
+  gate and the resulting adjusted completion time.
+- Excludes: a missed mandatory checkpoint invalidating a race finish
+  (`SYS-516`); a gate miss causing immediate death; a decreasing deadline;
+  assigning a bonus for unused time.
+- Parameters: fixed gate layout and count, pass region, missed count, elapsed
+  time, penalty seconds and final effective time.
+- Evidence: [Wii Fit decomposition](../games/s-z/wii-fit.md), Jelsma et al.'s
+  direct repeated trials and a first-hand original-game guide.
+- Novelty: first isolated for `GAME-0439`; the gate is a soft scoring
+  obligation, not a hard traversal prerequisite.
+
+## SYS-1154 — Materialise a typed noun as a manipulable world object
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after an eligible noun is submitted, the system creates its
+  corresponding object in the active scene with ordinary object properties,
+  allowing the player and other actors to move or use it.
+- Includes: a lemonade object appearing above Maxwell after `Lemonade` is
+  accepted in the original *Scribblenauts* DS Notepad.
+- Excludes: moving an already placed object; instantly satisfying the level
+  merely by naming an answer; changing every object of a noun class through
+  a spatially arranged rule sentence; sequel-only adjective modification.
+- Parameters: accepted noun, object class, spawn locus, physical properties,
+  object count and current scene state.
+- Evidence: [Scribblenauts decomposition](../games/s-z/scribblenauts.md),
+  original Nintendo DS instruction booklet and 5th Cell postmortem.
+- Novelty: first isolated for `GAME-0440`; this is the world's response to
+  a lexical action, not the action itself or the dictionary legality test.
+
+## SYS-1155 — Reveal a puzzle token after an actor's need is satisfied
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when an authored actor receives a compatible object that
+  satisfies the current puzzle need, the system changes the puzzle state and
+  exposes its progress token, which must still be collected separately.
+- Includes: a desert wanderer receiving lemonade or another accepted
+  refreshment in original *Scribblenauts* Puzzle 1-5, causing the Starite to
+  appear before Maxwell runs to it.
+- Excludes: the token being visible from the start; object submission alone
+  automatically collecting the token; a reward for any arbitrary object;
+  a permanent avatar upgrade from a requested item.
+- Parameters: requester, need, accepted object effect, reveal condition,
+  token, collection requirement and puzzle state.
+- Evidence: [Scribblenauts decomposition](../games/s-z/scribblenauts.md),
+  original Nintendo DS instruction booklet, Puzzle Mode example.
+- Novelty: first isolated for `GAME-0440`; satisfying an NPC's contextual
+  need unlocks a separate token-acquisition step rather than ending on hand-in.
+
+## SYS-1156 — Project device location into a nearby wild-encounter map
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while a location-enabled mobile session runs, map the device's changing real-world position to the trainer's game position and expose wild creatures eligible to be selected in the current local map region.
+- Includes: the launch-era Pokémon GO map following a walking trainer and showing an ordinary nearby wild Pokémon that can be tapped to open a catch encounter.
+- Excludes: a hidden cartridge terrain step directly triggering a turn-based battle (`SYS-954`); a fixed authored route marker; guaranteeing that every physical step spawns a Pokémon; a later Nearby interface or exact server spawn algorithm.
+- Parameters: device location, map projection, local encounter availability, visible wild target and contact range.
+- Evidence: [Pokémon GO decomposition](../games/m-r/pokemon-go.md), Niantic's July 2016 location-based launch statement, contemporary written guidance and official catch help for the continuing map-tap sequence.
+- Novelty: first isolated for `GAME-0441`; location synchronisation and map-visible encounter availability precede and differ from the separate Ball capture check.

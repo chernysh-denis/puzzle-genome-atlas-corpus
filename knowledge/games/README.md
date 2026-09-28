@@ -467,6 +467,15 @@ Index's short profile remains a game-specific navigation summary.
 - [`GAME-0430` — Silent Hill](s-z/silent-hill.md)
 - [`GAME-0431` — Ori and the Blind Forest](m-r/ori-and-the-blind-forest.md)
 - [`GAME-0432` — Reigns](m-r/reigns.md)
+- [`GAME-0433` — Ecco the Dolphin](a-f/ecco-the-dolphin.md)
+- [`GAME-0434` — Cooking Mama](a-f/cooking-mama.md)
+- [`GAME-0435` — EarthBound](a-f/earthbound.md)
+- [`GAME-0436` — Journey](g-l/journey.md)
+- [`GAME-0437` — Diner Dash](a-f/diner-dash.md)
+- [`GAME-0438` — Q*bert](m-r/qbert.md)
+- [`GAME-0439` — Wii Fit](s-z/wii-fit.md)
+- [`GAME-0440` — Scribblenauts](s-z/scribblenauts.md)
+- [`GAME-0441` — Pokémon GO](m-r/pokemon-go.md)
 <!-- END GENERATED: COMPLETED_GAMES -->
 
 Use the [game-analysis template](../../templates/GAME_ANALYSIS_TEMPLATE.md) and

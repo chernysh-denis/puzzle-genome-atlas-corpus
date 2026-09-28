@@ -273,6 +273,8 @@
 - [`GAME-0269` — DREDGE](../games/a-f/dredge.md)
 - [`GAME-0131` — Dyson Sphere Program](../games/a-f/dyson-sphere-program.md)
 - [`GAME-0163` — EA SPORTS FC 26](../games/a-f/ea-sports-fc-26.md)
+- [`GAME-0435` — EarthBound](../games/a-f/earthbound.md)
+- [`GAME-0433` — Ecco the Dolphin](../games/a-f/ecco-the-dolphin.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0405` — Fable II](../games/a-f/fable-ii.md)
 - [`GAME-0327` — Fable](../games/a-f/fable.md)
@@ -307,6 +309,7 @@
 - [`GAME-0399` — Ico](../games/g-l/ico.md)
 - [`GAME-0215` — It Takes Two](../games/g-l/it-takes-two.md)
 - [`GAME-0350` — "Jet Set Radio"](../games/g-l/jet-set-radio.md)
+- [`GAME-0436` — Journey](../games/g-l/journey.md)
 - [`GAME-0376` — Katamari Damacy REROLL](../games/g-l/katamari-damacy-reroll.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0408` — Kirby's Adventure](../games/g-l/kirbys-adventure.md)
@@ -369,6 +372,7 @@
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0358` — Psychonauts](../games/m-r/psychonauts.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
+- [`GAME-0438` — Q*bert](../games/m-r/qbert.md)
 - [`GAME-0334` — Quake](../games/m-r/quake.md)
 - [`GAME-0404` — Ratchet & Clank](../games/m-r/ratchet-and-clank.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
@@ -377,6 +381,7 @@
 - [`GAME-0348` — "Resident Evil: Director’s Cut"](../games/m-r/resident-evil-directors-cut.md)
 - [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0440` — Scribblenauts](../games/s-z/scribblenauts.md)
 - [`GAME-0319` — Sea of Thieves](../games/s-z/sea-of-thieves.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
@@ -704,6 +709,7 @@
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
 - [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
 - [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
+- [`GAME-0435` — EarthBound](../games/a-f/earthbound.md)
 - [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
 - [`GAME-0014` — Into the Breach](../games/g-l/into-the-breach.md)
 - [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
@@ -2290,6 +2296,7 @@
 - [`GAME-0320` — "Animal Crossing: New Horizons"](../games/a-f/animal-crossing-new-horizons.md)
 - [`GAME-0278` — DAVE THE DIVER](../games/a-f/dave-the-diver.md)
 - [`GAME-0088` — Day of the Tentacle](../games/a-f/day-of-the-tentacle.md)
+- [`GAME-0437` — Diner Dash](../games/a-f/diner-dash.md)
 - [`GAME-0405` — Fable II](../games/a-f/fable-ii.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0086` — Machinarium](../games/m-r/machinarium.md)
@@ -3267,6 +3274,7 @@
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
 - [`GAME-0368` — Dead Rising](../games/a-f/dead-rising.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
+- [`GAME-0435` — EarthBound](../games/a-f/earthbound.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
 - [`GAME-0123` — Inscryption](../games/g-l/inscryption.md)
@@ -5056,6 +5064,7 @@
 ### Ігри-носії
 
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
+- [`GAME-0441` — Pokémon GO](../games/m-r/pokemon-go.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
 - [`GAME-0336` — "Pokémon Red Version"](../games/m-r/pokemon-red-version.md)
 
@@ -8444,6 +8453,7 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
 - [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
 - [`GAME-0353` — "Deus Ex: Game of the Year Edition"](../games/a-f/deus-ex-game-of-the-year-edition.md)
+- [`GAME-0437` — Diner Dash](../games/a-f/diner-dash.md)
 - [`GAME-0264` — Disco Elysium - The Final Cut](../games/a-f/disco-elysium-the-final-cut.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
@@ -8492,6 +8502,7 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0348` — "Resident Evil: Director’s Cut"](../games/m-r/resident-evil-directors-cut.md)
 - [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
+- [`GAME-0440` — Scribblenauts](../games/s-z/scribblenauts.md)
 - [`GAME-0319` — Sea of Thieves](../games/s-z/sea-of-thieves.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0430` — Silent Hill](../games/s-z/silent-hill.md)
@@ -13354,3 +13365,150 @@ Super Jump від місця появи до союзника поблизу с�
 ### Ігри-носії
 
 - [`GAME-0431` — Ori and the Blind Forest](../games/m-r/ori-and-the-blind-forest.md)
+
+## ACT-571
+
+- Назва: Випускати спрямовану пісню для ехолокації чи гліфа
+- Переглянуто: `2026-09-27`
+
+### Операційне визначення
+
+Гравець спрямовує пісню керованого дельфіна. Короткий сигнал може звернутися до сумісного близького гліфа чи істоти, а утриманий сигнал повертається відлунням і відкриває місцеву карту в обраному напрямку.
+
+### Включає
+
+Кнопка A для пісні Екко та карта за утримання кнопки в оригінальній Ecco the Dolphin для Genesis.
+
+### Виключає
+
+Сканер місцевості й вантажу Odradek (`ACT-471`); автоматично відкрита глобальна карта; звичайний атакувальний снаряд; припущення, що будь-яка пісня відкриває кожен гліф.
+
+### Ігри-носії
+
+- [`GAME-0433` — Ecco the Dolphin](../games/a-f/ecco-the-dolphin.md)
+
+## ACT-572
+
+- Назва: Виконувати вказаний кухонний жест на сенсорному екрані
+- Переглянуто: `2026-09-27`
+
+### Операційне визначення
+
+Під час поточної кухонної мінігри гравець торкається продукту чи знаряддя або веде по ньому стилусом відповідно до вказівки. Це змінює стан підготовки одного кроку перед його оцінюванням.
+
+### Включає
+
+Натискати на ніж для рубання, вести ним за позначеними лініями для нарізання тофу, нахиляти каструлю стилусом і керувати показаними елементами готування місо-супу в оригінальній Cooking Mama для DS.
+
+### Виключає
+
+Вибір усього рецепта для миттєвого виготовлення; роботу біля постійного алхімічного столу (`ACT-410`); прикрашання без впливу на оцінювану підготовку; припущення, що кожен жест вимагає мікрофона.
+
+### Ігри-носії
+
+- [`GAME-0434` — Cooking Mama](../games/a-f/cooking-mama.md)
+
+## ACT-573
+
+- Назва: Подавати місцевий невербальний поклик тканині чи мандрівникові
+- Переглянуто: `2026-09-27`
+
+### Операційне визначення
+
+Гравець свідомо подає обмежений за дальністю невербальний сигнал від керованого мандрівника. Доступна тканина може відгукнутися, а інший мандрівник — помітити сигнал; текстового або голосового каналу немає.
+
+### Включає
+
+Поклик біля затриманої тканини чи необов’язкового анонімного супутника в розділі з мостом оригінальної Journey для PlayStation 3.
+
+### Виключає
+
+Спрямований ехолот Екко та вивчену пісню гліфа (`ACT-571`); розмову з названим партнером; наказ партнерові рухатися; відновлення заряду від дотику без поклику.
+
+### Ігри-носії
+
+- [`GAME-0436` — Journey](../games/g-l/journey.md)
+
+## ACT-574
+
+- Назва: Саджати компанію гостей за вибраний придатний столик
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+Гравець обирає одну компанію, що зараз чекає, і переводить її до вибраного чистого, незайнятого столика з достатньою кількістю місць. Цей столик стає недоступним для інших компаній, доки посаджені гості не підуть і посуд не буде прибрано.
+
+### Включає
+
+Перетягування компанії від входу Flo's Diner до придатного столика в ранній зміні 1-2 режиму Career оригінальної Diner Dash для PC.
+
+### Виключає
+
+Автоматичне призначення місця системою; безпосереднє готування страви для компанії; пересаджування вже посаджених гостей; посадку за зайнятий, брудний або замалий столик.
+
+### Ігри-носії
+
+- [`GAME-0437` — Diner Dash](../games/a-f/diner-dash.md)
+
+## ACT-575
+
+- Назва: Керувати безперервним перенесенням ваги на дошці з датчиками
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+Стоячи на платформі з датчиками тиску, гравець навмисно переносить вагу вбік або вперед і назад. Дошка безперервно вимірює рівновагу, а її показник слугує вхідною командою для напряму або темпу поточної активності.
+
+### Включає
+
+Перенесення ваги ліворуч і праворуч, уперед і назад на зареєстрованій Wii Balance Board під час початкового лижного слалому в оригінальній Wii Fit.
+
+### Виключає
+
+Натискання кнопки напряму; змах ручним Wii Remote; нахил віртуального рівня аналоговим стиком (`ACT-519`); вимірювання ваги лише для попереднього тесту тіла; стрибок на дошці.
+
+### Ігри-носії
+
+- [`GAME-0439` — Wii Fit](../games/s-z/wii-fit.md)
+
+## ACT-576
+
+- Назва: Подати обраний іменник для створення предмета у світі
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+Гравець вводить допустимий іменник у текстовому інтерфейсі гри й підтверджує вибір, щоб отримати відповідний предмет у поточному світі, а не бере його з наперед заданого місцевого інвентарю.
+
+### Включає
+
+Ввести `Lemonade` у блокноті оригінальної Scribblenauts для Nintendo DS, щоб створити напій для мандрівника в пустелі, у пазлі 1-5.
+
+### Виключає
+
+Пересувати готові текстові плитки, щоб переписати правило; обирати рецепт із меню; друкувати діалог без створення предмета; додавати прикметники з пізніших частин серії.
+
+### Ігри-носії
+
+- [`GAME-0440` — Scribblenauts](../games/s-z/scribblenauts.md)
+
+## ACT-577
+
+- Назва: Фізично переміщатися, змінюючи місце на ігровій карті
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+Гравець навмисно йде реальним світом з увімкненим застосунком, який враховує розташування пристрою. Фізичне місце стає вхідними даними для карти та можливих зустрічей поблизу.
+
+### Включає
+
+Безпечно пройтися з оригінальною Pokémon GO для Android, доки поблизу тренера на карті не з’явиться дикий покемон.
+
+### Виключає
+
+Керування віртуальним героєм стиком або дотиком (`ACT-008`); вибір точки на карті без реального пересування; підміну координат; сам лише підрахунок кроків без прив’язки зустрічі до місця.
+
+### Ігри-носії
+
+- [`GAME-0441` — Pokémon GO](../games/m-r/pokemon-go.md)

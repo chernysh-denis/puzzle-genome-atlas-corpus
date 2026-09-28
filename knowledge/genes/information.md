@@ -8398,3 +8398,104 @@
 - Parameters: displayed reserves, response side, indicated affected subset, concealed sign and magnitude.
 - Evidence: [Reigns decomposition](../games/m-r/reigns.md), François Alliot's four-dimension account and Emily Short's dated firsthand discussion of the tilt cue.
 - Novelty: first isolated for `GAME-0432`; a player can see both the current risk position and the domains a contemplated binary response touches without receiving a signed forecast.
+
+## INF-422 — Directional returned echo exposes local undersea features
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a player-requested song echo discloses Ecco's position and a bounded facing-region map with rock boundaries and distinguishable nearby hazards, glyphs, air pockets or other marked features, without revealing the entire remaining level.
+- Includes: the held A-button sonar display used to orient a Bay of Medusa dive in original Genesis *Ecco the Dolphin*.
+- Excludes: a permanently revealed global map; a guaranteed route solution; using only the normal visible viewport; an Odradek terrain-and-cargo survey (`ACT-471`).
+- Parameters: facing, echo return, shown region, feature categories, map lifetime and current position.
+- Evidence: [Ecco the Dolphin decomposition](../games/a-f/ecco-the-dolphin.md), original Sega Genesis manual, pp. 5 and 8.
+- Novelty: first isolated for `GAME-0433`; the player deliberately requests an acoustic, direction-bounded spatial view before committing to a breath-limited route.
+
+## INF-423 — Show charged scarf and currently formed bridge spans
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the scarf's visible luminous pattern indicates usable power,
+  while nearby raised cloth and absent sections show the current bridge route;
+  these local cues do not reveal future online companions or a whole-area map.
+- Includes: checking whether the original PS3 *Journey* traveller can jump
+  toward a visible raised span or should regain scarf charge first.
+- Excludes: a numeric exact energy gauge; omniscient future matchmaking;
+  a proof that every remaining gap is currently crossable; an automated route.
+- Parameters: scarf glow, local section state, current viewpoint and optional
+  companion visibility.
+- Evidence: [Journey decomposition](../games/g-l/journey.md), PlayStation's
+  first-person retrospective and original-PS3 first-hand walkthrough.
+- Novelty: first isolated for `GAME-0436`; the costume itself communicates
+  resource readiness beside a visibly changing traversal surface.
+
+## INF-424 — Show live balance steering and immediate gate outcome
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while a body-steered course advances, display the avatar and
+  approaching local gates together with a live balance-position cue, then
+  immediately signal whether each crossed gate was passed or missed, so the
+  player can correct subsequent physical input.
+- Includes: the balance dot, visible skier and flags, and gate success/failure
+  feedback in original Wii Fit Beginner Ski Slalom.
+- Excludes: an exact future steering trace; full-course route omniscience;
+  numeric board-to-avatar sensor coefficients; a result visible only after
+  finishing; Wii Fit Body Test's standalone centre-of-balance assessment.
+- Parameters: current balance cue, skier position, visible gate, pass/miss
+  signal, feedback timing and local camera region.
+- Evidence: [Wii Fit decomposition](../games/s-z/wii-fit.md), the first-hand
+  original-game guide and Jelsma et al.'s observed on-course feedback.
+- Novelty: first isolated for `GAME-0439`; live embodied-control feedback is
+  paired with per-gate correctness during one continuous activity.
+
+## INF-425 — Show a contextual need hint without prescribing the object
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an authored puzzle gives a brief visible instruction about an
+  actor's or scene's unmet need, while leaving the compatible object noun
+  unstated for the player to infer from the hint and environment.
+- Includes: original *Scribblenauts* DS Puzzle 1-5 showing `Refresh Him` for
+  a wanderer in the desert without naming lemonade as the required answer.
+- Excludes: a list of all accepted nouns; a hidden request with no clue;
+  an exact future-state preview; the separate result of delivering an object.
+- Parameters: current actor, hint text, visible setting, inferred need and
+  undisclosed accepted object classes.
+- Evidence: [Scribblenauts decomposition](../games/s-z/scribblenauts.md),
+  original Nintendo DS instruction booklet, Puzzle Mode example.
+- Novelty: first isolated for `GAME-0440`; the puzzle communicates a need
+  without converting its open object choice into a multiple-choice menu.
+
+## INF-426 — Show location-linked map position and nearby wild targets
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the map view exposes the trainer's current device-linked position and currently visible nearby wild creatures, allowing the player to choose a target rather than revealing the exact future spawn schedule.
+- Includes: the original Pokémon GO walking map showing a wild Pokémon within touch range before the player opens its catch encounter.
+- Excludes: a complete map of every hidden future spawn; a turn-based random battle that begins without a visible map target; the separate ring shown only after entering the catch view.
+- Parameters: trainer marker, visible local map, nearby wild marker, contact range and refresh state.
+- Evidence: [Pokémon GO decomposition](../games/m-r/pokemon-go.md), Niantic's 2016 launch account, contemporary guidance and official catch help for map visibility.
+- Novelty: first isolated for `GAME-0441`; this information makes real location and target selection legible before the catch interface opens.
+
+## INF-427 — Show encounter difficulty and throw timing through a target ring
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when a capture device is readied against a visible wild creature, a coloured target ring changes size and indicates relative capture difficulty and an aim/timing opportunity, without disclosing an exact or guaranteed catch probability.
+- Includes: green-to-red difficulty cue and shrinking ring while holding a Ball in the original Pokémon GO ordinary wild encounter.
+- Excludes: a deterministic success promise at any ring size; a full hidden catch-rate formula; the map view before the target is tapped; post-catch XP as a pre-throw forecast.
+- Parameters: target, current ring size, ring colour, Ball readiness and visible aim region.
+- Evidence: [Pokémon GO decomposition](../games/m-r/pokemon-go.md), contemporary July 2016 first-hand guidance and official catch help for the continuing target-ring affordance.
+- Novelty: first isolated for `GAME-0441`; encounter-specific difficulty/timing feedback differs from the map's indication of which wild target is locally available.

@@ -5071,3 +5071,71 @@
 - Parameters: ruler, reign start, decisions survived, elapsed reign years, fatal extreme and successor state.
 - Evidence: [Reigns decomposition](../games/m-r/reigns.md), François Alliot's 2016 design account and Devolver's original app description.
 - Novelty: first isolated for `GAME-0432`; a bounded success measure is the length of one politically balanced ruler's tenure even though the larger authored dynasty continues.
+
+## OBJ-249 — Finish one selected dish and retain its medal result
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete the authored preparation steps of one selected dish
+  and receive the recipe-level graded result, rather than treat one successful
+  minigame or all available recipes as the analytical endpoint.
+- Includes: completing the original DS *Cooking Mama* miso-soup recipe and
+  retaining the medal awarded for that cooking attempt.
+- Excludes: a requirement for a gold medal; finishing all 76 dishes;
+  practising without judgment; substituting the optional pork-and-vegetable
+  soup branch for the selected dish.
+- Parameters: selected dish, required steps, completion, aggregate quality,
+  medal class and retained result.
+- Evidence: [Cooking Mama decomposition](../games/a-f/cooking-mama.md),
+  Nintendo's original DS description and two first-hand recipe guides.
+- Novelty: first isolated for `GAME-0434`; one completed multi-step dish is
+  the bounded evaluated outcome, not the entire culinary catalogue.
+
+## OBJ-250 — Defeat the first sanctuary guardian and record its melody
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: defeat the guardian blocking an authored first sanctuary, cross the opened passage and visit the sanctuary so its melody is retained in the carried recording object.
+- Includes: Titanic Ant and its two supporting Black Antoids, Giant Step and the Sound Stone's first melody in original SNES *EarthBound*.
+- Excludes: stopping at the battle win alone; obtaining all eight melodies; reaching a different later sanctuary; a Triforce-fragment pickup (`OBJ-191`).
+- Parameters: guardian group, passage condition, sanctuary reached, recording object and first melody flag.
+- Evidence: [EarthBound decomposition](../games/a-f/earthbound.md), Nintendo's original 1995 Player's Guide p. 23 and a first-hand written original-SNES route.
+- Novelty: first isolated for `GAME-0435`; the bounded objective is a guarded-site battle followed by separate retained musical progress.
+
+## OBJ-251 — Finish one slalom slope with minimal penalty-adjusted time
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: carry one automatically advancing slalom run to its course
+  finish and seek the lowest effective time, combining actual descent time
+  with additive penalties for missed gates; a slower or imperfect finish
+  remains a completed run.
+- Includes: original Wii Fit Beginner Ski Slalom's finished one-slope result.
+- Excludes: clearing every gate as a hard prerequisite; a required medal or
+  personal best; a timed deadline that ends an unfinished attempt; a full
+  fitness-program goal or clinical balance assessment.
+- Parameters: activity, course finish, actual time, missed-gate count, penalty
+  duration, effective time and result display.
+- Evidence: [Wii Fit decomposition](../games/s-z/wii-fit.md), original Nintendo
+  training-result booklet and Jelsma et al.'s direct slalom observations.
+- Novelty: first isolated for `GAME-0439`; valid course completion is graded
+  by minimising time plus soft-gate penalties rather than mandatory gate proof.
+
+## OBJ-252 — Retain one ordinary wild creature after a capture encounter
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: within one bounded encounter, complete a successful capture of the selected ordinary wild creature so it leaves the wild state and is registered as owned; this is a local analytic terminal, not a claim that the open-ended game has been won.
+- Includes: catching one map-selected wild Pokémon in original launch-era Pokémon GO.
+- Excludes: merely hitting the creature when it can break out; defeating it in battle; hatching or receiving a creature; completing a global Pokédex or Gym objective.
+- Parameters: selected wild target, successful capture response, owned-collection record and encounter end.
+- Evidence: [Pokémon GO decomposition](../games/m-r/pokemon-go.md), Niantic's launch account and official catch help.
+- Novelty: first isolated for `GAME-0441`; the scoped outcome is retained wild capture, distinct from generic collection progress or a campaign-wide victory.

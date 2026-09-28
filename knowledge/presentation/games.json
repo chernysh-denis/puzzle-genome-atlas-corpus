@@ -3430,6 +3430,78 @@
       "playUrl": "https://apps.apple.com/us/app/reigns/id1114127463",
       "linkLabelUk": "Відкрити офіційну сторінку Reigns ↗",
       "linkLabelEn": "Open the official Reigns page ↗"
+    },
+    "GAME-0433": {
+      "titleUk": "Екко — дельфін",
+      "summaryUk": "Проведи Екко підводним шляхом Bay of Medusa: відновлюй повітря в кишенях, піснею-ехолотом шукай прохід і гліфи, торкнися ключового кристала, а тоді заспівай набуту пісню бар’єру, щоб доплисти до Undercaves.",
+      "summaryEn": "Guide Ecco through Bay of Medusa: refill breath at air pockets, sing for an echo map of passages and glyphs, touch the key crystal, then sing its learned song to the matching barrier and swim toward Undercaves.",
+      "playUrl": "https://manuals.sega.com/genesismini/pdf/ECCO_THE_DOLPHIN.pdf",
+      "linkLabelUk": "Прочитати оригінальний посібник Ecco the Dolphin ↗",
+      "linkLabelEn": "Read the original Ecco the Dolphin manual ↗"
+    },
+    "GAME-0434": {
+      "titleUk": "Мама-кухарка",
+      "summaryUk": "У звичайному рецепті місо-супу виконай п’ять послідовних кухонних завдань стилусом: порубай і наріж продукти, влуч у часові підказки для бульйону, проціди його та протушкуй страву. Після завершення отримаєш медаль за якість, без вимоги золота.",
+      "summaryEn": "Make miso soup across five ordered stylus tasks: chop and slice ingredients, time the stock commands, strain the pot and finish the stew. Completing the ordinary recipe earns a quality-based medal, with no gold requirement.",
+      "playUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-DS/Cooking-Mama-270330.html",
+      "linkLabelUk": "Відкрити офіційний опис Cooking Mama ↗",
+      "linkLabelEn": "Open Nintendo's Cooking Mama page ↗"
+    },
+    "GAME-0435": {
+      "titleUk": "Земні пригоди",
+      "summaryUk": "Проведи Несса крізь печеру до Giant Step: вибирай удар, PSI або лікувальний предмет, поки після ударів лічильник здоров’я продовжує спадати. Здолай Titanic Ant із двома помічниками й дійди до святилища, щоб Камінь звуків записав першу мелодію.",
+      "summaryEn": "Guide Ness through the cave to Giant Step: choose Bash, PSI or a healing Good while the HP counter keeps rolling after damage. Defeat Titanic Ant and its two supporters, then reach the sanctuary so the Sound Stone records its first melody.",
+      "playUrl": "https://www.nintendo.co.jp/clvs/manuals/common/pdf/CLV-P-SAAJE.pdf",
+      "linkLabelUk": "Прочитати оригінальний посібник EarthBound ↗",
+      "linkLabelEn": "Read the original EarthBound Player's Guide ↗"
+    },
+    "GAME-0436": {
+      "titleUk": "Мандрівка",
+      "summaryUk": "Покликом або дотиком вивільняй тканину, щоб відновити частини зруйнованого мосту. Заряд шарфа дає стрибнути чи полетіти через проміжок; його повертають тканина або незнайомий супутник, якщо він з’явиться. Перетни міст і відкрий дальній прохід — відбудовувати кожну ділянку не обов’язково.",
+      "summaryEn": "Call or touch trapped cloth to form parts of a broken bridge. Scarf charge powers a jump or glide across a gap; cloth or an optional anonymous traveller can restore it. Cross and open the far passage without necessarily rebuilding every section.",
+      "playUrl": "https://thatgamecompany.com/journey/",
+      "linkLabelUk": "Відкрити офіційний опис Journey ↗",
+      "linkLabelEn": "Open the official Journey page ↗"
+    },
+    "GAME-0437": {
+      "titleUk": "Ресторанний поспіх",
+      "summaryUk": "Саджай гостей за вільні чисті столики, приймай замовлення, передавай їх на кухню, подавай готові страви й прибирай посуд. Терпіння гостей зменшується, а швидке обслуговування підвищує чайові. Повторюй однакові дії поспіль заради бонусу, але не пропусти термінове прохання: зароби достатньо за одну зміну.",
+      "summaryEn": "Seat parties at clean tables, take orders to the kitchen, deliver ready meals and clear the dishes. Patience fades while prompt service increases tips. Chain the same task across tables for bonus points, but do not neglect an urgent party: earn enough during one shift.",
+      "playUrl": "https://www.shockwave.com/gamelanding/dinerdash",
+      "linkLabelUk": "Відкрити сторінку оригінальної Diner Dash ↗",
+      "linkLabelEn": "Open the original Diner Dash listing ↗"
+    },
+    "GAME-0438": {
+      "titleUk": "К’юберт",
+      "summaryUk": "Стрибай навскіс між кубами піраміди: приземлення змінює колір верхньої грані. У першому раунді червоні й фіолетові кулі падають донизу, а з фіолетової з’являється змій Койлі, який переслідує героя. Скористайся бічним диском, щоб повернутися на вершину й заманити змія за край. Зміни верхні грані всіх кубів, щоб пройти раунд.",
+      "summaryEn": "Hop diagonally between pyramid cubes; each landing changes a top face. In the first round, red and purple balls descend, and the purple one hatches into the pursuing snake Coily. Ride a side disc back to the summit and lure him over an edge. Change every cube top to clear the round.",
+      "playUrl": "https://arcarc.xmission.com/PDF_Arcade_Manuals_and_Schematics/Q-Bert_Instruction_Manual_%2811-82%29.pdf",
+      "linkLabelUk": "Оригінальна інструкція ↗",
+      "linkLabelEn": "Read the original Q*bert manual ↗"
+    },
+    "GAME-0439": {
+      "titleUk": "Wii Fit",
+      "summaryUk": "У початковому лижному слаломі перенось вагу на Wii Balance Board: убік — щоб вести лижника між воротами, вперед або назад — щоб змінювати швидкість. Екран одразу показує вдалий прохід чи промах. Спуск завершується й після пропущених воріт, але кожні додають сім секунд до підсумкового часу. Описано одну активність оригінальної гри для Wii, без гри на справжній консолі.",
+      "summaryEn": "In Beginner Ski Slalom, shift weight on the Wii Balance Board: sideways to steer the skier between gates, forward or back to change pace. The game signals each pass or miss immediately. Missing gates does not stop the descent, but each adds seven seconds to the final time. This is one original Wii activity reconstructed from sources, not directly played here.",
+      "playUrl": "https://csassets.nintendo.com/noaext/image/private/t_KA_PDF/Wii_Wii_Fit?_a=DATAg1AAZAA0",
+      "linkLabelUk": "Прочитати оригінальний посібник Wii Fit ↗",
+      "linkLabelEn": "Read the original Wii Fit booklet ↗"
+    },
+    "GAME-0440": {
+      "titleUk": "Скриблнавти",
+      "summaryUk": "У пустелі мандрівник просить його освіжити. Запиши назву придатного предмета в блокноті: гра створить його у світі. Передай напій мандрівникові, щоб з’явилася зірка Starite, а потім доведи Максвелла до неї. Описано один пазл оригінальної гри для Nintendo DS, без власного проходження.",
+      "summaryEn": "A desert wanderer needs refreshment. Write the name of a suitable object in the Notepad and the game creates it in the world. Give the drink to the wanderer to reveal a Starite, then move Maxwell to collect it. This covers one original Nintendo DS puzzle reconstructed from sources, not directly played here.",
+      "playUrl": "https://www.nintendo.com/en-gb/News/2009/In-shops-Friday-Scribblenauts-on-Nintendo-DS-251257.html",
+      "linkLabelUk": "Сторінка Nintendo про оригінальну Scribblenauts ↗",
+      "linkLabelEn": "Read Nintendo's original Scribblenauts page ↗"
+    },
+    "GAME-0441": {
+      "titleUk": "Покемон ҐО",
+      "summaryUk": "Пройдися з телефоном, щоб на карті з’явився дикий покемон. Торкнися його, оціни кольорове кільце й кинь покебол у ціль. Влучання ще не гарантує успіху: покемон може вирватися, а кількість покеболів обмежена. Описано одне захоплення у грі зразка 2016 року, відтворене за джерелами без власної гри.",
+      "summaryEn": "Walk with the phone until a wild Pokémon appears on the location-linked map. Tap it, read the coloured target ring and flick a Poké Ball toward it. A hit does not guarantee a catch: the Pokémon may break out, and Ball supply is finite. This is one source-reconstructed launch-era 2016 encounter, not direct play.",
+      "playUrl": "https://pokemongo.com/news/launch",
+      "linkLabelUk": "Прочитати повідомлення Niantic про запуск Pokémon GO ↗",
+      "linkLabelEn": "Read Niantic's Pokémon GO launch announcement ↗"
     }
   }
 }

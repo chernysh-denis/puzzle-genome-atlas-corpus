@@ -11279,3 +11279,138 @@
 - Parameters: requested position, input, resource cost, eligibility feedback and overwritten prior anchor.
 - Evidence: [Ori and the Blind Forest decomposition](../games/m-r/ori-and-the-blind-forest.md), original Xbox manual and Xbox's launch description.
 - Novelty: first isolated for `GAME-0431`; the player chooses a persistent retry location inside the traversed world at a resource cost.
+
+## ACT-571 — Emit a directional dolphin song for sensing or glyph response
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player emits a directional song from the controlled dolphin; a brief pulse addresses a compatible nearby glyph or creature, while a held and returned echo can be read as a local sonar map of the facing region.
+- Includes: Ecco's A-button song and held-song map in the original Genesis *Ecco the Dolphin*.
+- Excludes: an Odradek terrain-and-cargo scan (`ACT-471`); a global map automatically disclosed without player input; a generic attack projectile; assuming any song opens every glyph.
+- Parameters: facing, input duration, addressed object, return echo, learned song and current region.
+- Evidence: [Ecco the Dolphin decomposition](../games/a-f/ecco-the-dolphin.md), original Sega Genesis manual, pp. 5 and 7–8.
+- Novelty: first isolated for `GAME-0433`; one directional acoustic input has distinct sensing and keyed-glyph effects.
+
+## ACT-572 — Perform a prompted food-preparation gesture on the touch screen
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during one active cooking minigame, the player directly taps or
+  traces the prompted touch-screen operation on the current food or utensil,
+  changing that step's preparation state before its evaluation.
+- Includes: tapping the knife to chop, tracing indicated lines to slice tofu,
+  tilting the stock pot with the stylus and operating displayed cooking controls
+  during the original DS *Cooking Mama* miso-soup recipe.
+- Excludes: choosing an entire recipe for atomic crafting; operating an
+  embodied persistent alchemy workstation (`ACT-410`); decoration with no
+  evaluated preparation effect; assuming every gesture uses a microphone.
+- Parameters: current step, ingredient, utensil, touch path or taps, progress,
+  prompt, input tolerance and step result.
+- Evidence: [Cooking Mama decomposition](../games/a-f/cooking-mama.md),
+  Nintendo's original DS description and Daniel Engel's first-hand miso-soup
+  walkthrough.
+- Novelty: first isolated for `GAME-0434`; a prompted touch gesture acts on
+  one assessed recipe-step state, not a whole recipe or persistent workstation.
+
+## ACT-573 — Emit a local nonverbal call to cloth or a traveller
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: deliberately send a bounded nonverbal pulse from the controlled
+  traveller into nearby space so eligible cloth can respond and another
+  traveller may perceive the signal without a text or voice channel.
+- Includes: calling near trapped cloth or an optional anonymous companion in
+  original PlayStation 3 *Journey*'s Bridge chapter.
+- Excludes: Ecco's directional sonar and learned glyph song (`ACT-571`);
+  speaking to a named partner; commanding the partner's movement; contact
+  recharge without a call.
+- Parameters: current position, pulse reach, input duration, eligible cloth,
+  nearby traveller and resulting response.
+- Evidence: [Journey decomposition](../games/g-l/journey.md), Jenova Chen's
+  2011 creator interview, PlayStation's retrospective and the first-hand PS3 route.
+- Novelty: first isolated for `GAME-0436`; one local expressive pulse can
+  affect responsive cloth or another anonymous player without direct orders.
+
+## ACT-574 — Seat a waiting party at a chosen eligible table
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player selects one currently waiting party and commits its
+  transfer to one chosen clean, unoccupied table with sufficient seats, making
+  that table unavailable to other parties until the seated party departs and
+  the table is cleared.
+- Includes: dragging a party from Flo's Diner entrance onto one compatible
+  table in original PC *Diner Dash* Career shift 1-2.
+- Excludes: the system autonomously assigning a seat; directly cooking the
+  party's meal; moving an already seated party between tables; admitting a
+  group to an occupied, dirty or undersized table.
+- Parameters: party size and identity, table capacity, cleanliness, colour
+  compatibility, selected destination and occupied duration.
+- Evidence: [Diner Dash decomposition](../games/a-f/diner-dash.md), PlayFirst's
+  original v1.0 README and a first-hand original-PC guide.
+- Novelty: first isolated for `GAME-0437`; the player controls which finite
+  service slot a waiting group occupies, not merely whether demand arrives.
+
+## ACT-575 — Shift body weight on a sensor board as continuous control input
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while standing on a pressure-sensing platform, deliberately
+  shift the body's weight laterally or fore/aft so the continuously sampled
+  balance position supplies steering or pace input to the current activity.
+- Includes: left/right and forward/back weight shifts on the registered Wii
+  Balance Board during original *Wii Fit* Beginner Ski Slalom.
+- Excludes: pressing a directional button; swinging a hand-held Wii Remote;
+  tilting a simulated stage with a stick (`ACT-519`); measuring weight only
+  for a pre-activity Body Test; jumping on the board.
+- Parameters: supported stance, sensor board, lateral and fore/aft shift,
+  sample cadence, input range and calibration.
+- Evidence: [Wii Fit decomposition](../games/s-z/wii-fit.md), original Nintendo
+  booklet, first-hand original-game guide and Jelsma et al.'s repeated
+  Ski Slalom trials.
+- Novelty: first isolated for `GAME-0439`; the ongoing intentional input is
+  the player's measured physical weight distribution, not controller motion.
+
+## ACT-576 — Submit a chosen noun to instantiate a world object
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player enters an eligible noun in an in-game text interface
+  and commits that choice as a request for a corresponding manipulable object
+  in the current world, rather than selecting from a fixed local inventory.
+- Includes: writing `Lemonade` in the original *Scribblenauts* DS Notepad to
+  create a drink for the desert wanderer in The Gardens Puzzle 1-5.
+- Excludes: pushing pre-existing word tiles to rewrite a rule; choosing a
+  displayed crafting recipe; typing dialogue without creating an object;
+  adding adjectives introduced in later *Scribblenauts* editions.
+- Parameters: accepted noun, text-entry interface, confirmation, current
+  world, object placement and lexical eligibility.
+- Evidence: [Scribblenauts decomposition](../games/s-z/scribblenauts.md),
+  original Nintendo DS instruction booklet, Puzzle Mode example.
+- Novelty: first isolated for `GAME-0440`; the open noun choice is the
+  player action, distinct from system-side object creation and word legality.
+
+## ACT-577 — Relocate physically to change a location-based play position
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player deliberately walks through the real world while carrying an active location-aware game device, making the physical position an input to the playable map and nearby encounter opportunities.
+- Includes: safely walking with the original July 2016 Pokémon GO Android app open until a wild Pokémon becomes visible near the trainer on its map.
+- Excludes: directing a virtual avatar with a stick or touchscreen (`ACT-008`); selecting a map destination without travelling; spoofing device coordinates; step counting alone without spatially gated encounter availability.
+- Parameters: physical route, device position, location service, reachable map region and exposed local target.
+- Evidence: [Pokémon GO decomposition](../games/m-r/pokemon-go.md), Niantic's July 2016 launch announcement and the contemporary capture guide.
+- Novelty: first isolated for `GAME-0441`; the player's physical displacement is the consequential input, distinct from the system's projection of device location into the game map.

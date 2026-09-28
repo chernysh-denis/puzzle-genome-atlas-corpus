@@ -24329,6 +24329,123 @@
       },
       "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
       "releases": []
+    },
+    "GAME-0433": {
+      "analysisTarget": {
+        "platformId": "PLAT-SEGA-GENESIS",
+        "edition": "Original English Sega Genesis Ecco the Dolphin, Bay of Medusa key-glyph route to Undercaves",
+        "editionUk": "Оригінальна англомовна Ecco the Dolphin для Sega Genesis: шлях через повітряну кишеню й ключовий гліф із Bay of Medusa до Undercaves",
+        "version": "Original Genesis cartridge rules reconstructed from Sega's manual; exact cartridge revision and regional difficulty parameters not inspected; 3DS port excluded",
+        "distribution": "Original Sega Genesis cartridge; later 3DS port features excluded",
+        "evidenceUrl": "https://manuals.sega.com/genesismini/pdf/ECCO_THE_DOLPHIN.pdf",
+        "checked": "2026-09-27"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0434": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-DS",
+        "edition": "Original English Nintendo DS Cooking Mama, ordinary Let's Cook miso-soup recipe",
+        "editionUk": "Оригінальна англомовна Cooking Mama для Nintendo DS: звичайний рецепт місо-супу в режимі готування",
+        "version": "Original 2006 Nintendo DS rules; US first-hand recipe route corroborated by official European game description; exact cartridge revision and regional step parity uninspected",
+        "distribution": "Original Nintendo DS game card; sequels, Wii and mobile editions excluded",
+        "evidenceUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-DS/Cooking-Mama-270330.html",
+        "checked": "2026-09-27"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0435": {
+      "analysisTarget": {
+        "platformId": "PLAT-SUPER-NINTENDO",
+        "edition": "Original 1995 North American English Super Nintendo EarthBound, first Giant Step sanctuary route",
+        "editionUk": "Оригінальна північноамериканська англомовна EarthBound 1995 року для Super Nintendo: шлях до першого святилища Giant Step",
+        "version": "Original SNES cartridge rules reconstructed from Nintendo's 1995 guide; exact cartridge revision uninspected; later digital wrappers excluded",
+        "distribution": "Original North American Super Nintendo Game Pak; later Virtual Console and Nintendo Switch Online wrappers excluded",
+        "evidenceUrl": "https://www.nintendo.co.jp/clvs/manuals/common/pdf/CLV-P-SAAJE.pdf",
+        "checked": "2026-09-27"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0436": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-3",
+        "edition": "Original 2012 PlayStation 3 Journey, ordinary first-play Bridge chapter",
+        "editionUk": "Оригінальна Journey 2012 року для PlayStation 3: звичайне перше проходження розділу з мостом",
+        "version": "Original PS3 release rules reconstructed from publisher, creator and first-hand original-PS3 accounts; exact binary revision uninspected",
+        "distribution": "Original PlayStation 3 downloadable game; PS4, PC, iOS and later wrappers excluded",
+        "evidenceUrl": "https://blog.playstation.com/archive/2012/02/27/journey-the-trophies/",
+        "checked": "2026-09-27"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0437": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Original English Windows PC Diner Dash v1.0, early Flo's Diner Career shift 1-2",
+        "editionUk": "Оригінальна англомовна Diner Dash v1.0 для Windows PC: рання зміна 1-2 у Flo's Diner в режимі Career",
+        "version": "Original PlayFirst 2004 v1.0 written rules; exact executable revision and shift script not directly inspected",
+        "distribution": "Original Windows downloadable PC game; later ports, sequels and mobile releases excluded",
+        "evidenceUrl": "https://oldgamesdownload.com/readme/diner-dash-windows-readme-english/",
+        "checked": "2026-09-28"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0438": {
+      "analysisTarget": {
+        "platformId": "PLAT-ARCADE-CABINET",
+        "edition": "Original Gottlieb Q*bert GV-103A arcade cabinet, Level I Round 1",
+        "editionUk": "Оригінальний аркадний автомат Gottlieb Q*bert GV-103A: перший раунд першого рівня",
+        "version": "1982 original manual rules; exact game PCB revision not directly inspected",
+        "distribution": "Coin-operated arcade cabinet; home ports and later revisions excluded",
+        "evidenceUrl": "https://arcarc.xmission.com/PDF_Arcade_Manuals_and_Schematics/Q-Bert_Instruction_Manual_%2811-82%29.pdf",
+        "checked": "2026-09-28"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0439": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-WII",
+        "edition": "Original English North American 2008 Wii Fit disc, one Beginner Ski Slalom run with registered Wii Balance Board",
+        "editionUk": "Оригінальний англомовний північноамериканський диск Wii Fit 2008 року: один спуск початкового лижного слалому із зареєстрованою Wii Balance Board",
+        "version": "Original Wii disc rules; exact binary revision, board calibration and sensor trace not directly inspected; Wii Fit Plus/U excluded",
+        "distribution": "Original physical Wii Game Disc and Wii Balance Board; no later edition or emulated controls",
+        "evidenceUrl": "https://csassets.nintendo.com/noaext/image/private/t_KA_PDF/Wii_Wii_Fit?_a=DATAg1AAZAA0",
+        "checked": "2026-09-28"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0440": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-DS",
+        "edition": "Original English North American 2009 Nintendo DS Scribblenauts, The Gardens Puzzle 1-5 Refresh Him",
+        "editionUk": "Оригінальна англомовна північноамериканська Scribblenauts 2009 року для Nintendo DS: пазл 1-5 садового світу з підказкою «Refresh Him»",
+        "version": "Original Nintendo DS rules; exact cartridge revision not directly inspected; later sequels excluded",
+        "distribution": "Original physical Nintendo DS cartridge; no later port or adjective-based sequel",
+        "evidenceUrl": "https://db.hfsplay.fr/files/2020/07/14/Manual_AHhWSCb.pdf",
+        "checked": "2026-09-28"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0441": {
+      "analysisTarget": {
+        "platformId": "PLAT-ANDROID",
+        "edition": "Original English US July 2016 Pokémon GO Android public-launch ordinary wild catch encounter",
+        "editionUk": "Оригінальна англомовна американська Pokémon GO для Android на час запуску в липні 2016 року: одне звичайне захоплення дикого покемона",
+        "version": "July 2016 public-launch rules reconstructed from dated sources; exact Android binary and original server not inspected; later features excluded",
+        "distribution": "Original free Android smartphone application using device location and online service; iOS launch is historical context, not a second analysis target",
+        "evidenceUrl": "https://pokemongo.com/news/launch",
+        "checked": "2026-09-28"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
     }
   }
 }
