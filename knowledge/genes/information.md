@@ -8499,3 +8499,112 @@
 - Parameters: target, current ring size, ring colour, Ball readiness and visible aim region.
 - Evidence: [Pokémon GO decomposition](../games/m-r/pokemon-go.md), contemporary July 2016 first-hand guidance and official catch help for the continuing target-ring affordance.
 - Novelty: first isolated for `GAME-0441`; encounter-specific difficulty/timing feedback differs from the map's indication of which wild target is locally available.
+
+## INF-428 — Expose the live gunfight clock, rounds and life stock
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the current gunfight interface shows the countdown, available shots and remaining lives alongside visible enemies so the player can decide when to expose, fire or return to cover without seeing hidden successor threats.
+- Includes: the original arcade *Time Crisis* Story Game displaying the bounded stage clock, six-shot ammunition cycle and life allowance during an active combat view.
+- Excludes: perfect knowledge of future enemy positions; an exact hostile-attack forecast; a score-only clock; the system's actual countdown and shot-consumption rules.
+- Parameters: clock, rounds, lives, current view, exposed hostiles and update timing.
+- Evidence: [Time Crisis decomposition](../games/s-z/time-crisis.md), Namco operator manual and contemporary first-hand arcade guides.
+- Novelty: first isolated for `GAME-0443`; multiple live survival resources are disclosed in the same exposure-and-cover decision window.
+
+## INF-429 — Show Mare time, chip tally, capture state and drill gauge
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the flight HUD exposes remaining stage time, currently held
+  Color Chips, Ideya Capture strength, score and usable Drill Attack gauge,
+  without disclosing a solved route or future threat timing.
+- Includes: the original-Saturn *NiGHTS* Nightopia screen during the first
+  Spring Valley Mare.
+- Excludes: the actual countdown and gauge transitions; a later boss HUD;
+  perfect knowledge of unseen collectibles.
+- Parameters: time, chip count, capture strength, score, gauge and update.
+- Evidence: [NiGHTS into Dreams decomposition](../games/m-r/nights-into-dreams.md), original Saturn manual's Nightopia screen diagram.
+- Novelty: first isolated for `GAME-0445`; collection, target durability
+  and burst capacity are disclosed together inside the live flight loop.
+
+## INF-430 — Preview rail resources, alignment grade and station reach
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: before a railway build decision, current resource supply and demand, prospective track cost/grade and a proposed station's service circle are exposed for spatial planning.
+- Includes: Tutorial resource overlay, track drag feedback and station radius in original PC *Railroad Tycoon II*.
+- Excludes: a fixed promise about randomly placed future resources; future goods output quantity; the company budget ledger.
+- Parameters: resource icons, demand colours, projected route, price, grade and catchment.
+- Evidence: [Railroad Tycoon II decomposition](../games/m-r/railroad-tycoon-ii.md), original manual's Tutorial map, track and station instructions.
+- Novelty: first isolated for `GAME-0446`; spatial transport feasibility is inspected before committing paid infrastructure.
+
+## INF-431 — Show founder cash, shares and personal net worth separately
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a personal portfolio view shows the founder's cash and share holdings as personal net worth, distinct from the railroad company's ledger and treasury.
+- Includes: Tutorial personal portfolio and $10 million personal-net-worth scenario target in original PC *Railroad Tycoon II*.
+- Excludes: treating corporate transport income as instant personal cash; company income and expenditure categories (`INF-058`); a guaranteed future stock price.
+- Parameters: cash, shares, valuation, net-worth total and corporate comparison.
+- Evidence: [Railroad Tycoon II decomposition](../games/m-r/railroad-tycoon-ii.md), original manual's Tutorial and Finances chapters.
+- Novelty: first isolated for `GAME-0446`; dual account visibility prevents a successful paid route from being misread as scenario completion.
+
+## INF-432 — Show boxing stamina, hearts, stars, round, clock and points
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the live bout display exposes each boxer's stamina and Little Mac's distinct heart and star stocks together with the current round, remaining time and points.
+- Includes: the NES *Punch-Out!! Featuring Mr. Dream* in-bout display.
+- Excludes: exact future punch timing; opponent move script; a generic paired-health display without the separate heart and star resources.
+- Parameters: paired stamina, heart count, star count, round, clock and points.
+- Evidence: [Punch-Out!! decomposition](../games/m-r/punch-out.md), official Nintendo NES Classic manual p. 6.
+- Novelty: first isolated for `GAME-0447`; the display distinguishes three non-interchangeable boxer stocks and points in one timed bout.
+
+## INF-433 — Show the next corridor bend, obstacle and coin line
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the third-person following view exposes the runner's present path width and a bounded approaching slice of bends, gaps, obstacles and optional coin lines, while the later continuing course remains unseen.
+- Includes: reading a left temple-wall corner and side coin row before input during original-iPhone *Temple Run*.
+- Excludes: a full future map; an exact forecast of subsequent generated segments; Geometry Dash's side-scrolling authored-level viewport (`INF-192`).
+- Parameters: camera position, forward horizon, path width, corner visibility, obstacle and coin contrast, speed.
+- Evidence: [Temple Run decomposition](../games/s-z/temple-run.md), Imangi's temple-wall account and contemporary first-hand mobile reviews.
+- Novelty: first isolated for `GAME-0448`; an over-the-shoulder changing corridor must be read while forward movement cannot wait.
+
+## INF-434 — Expose partner-battle resources, targets and effect feedback
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a turn-combat screen presents protagonist HP and FP, current partner, available commands and eligible target selection, then displays damage, recovery and abnormal-condition feedback after resolution.
+- Includes: reading Mario's resources, Kooper's command and Fuzzy damage feedback in original-N64 *Paper Mario*.
+- Excludes: a future enemy-move forecast, exact Action Command frame windows or an initiative queue with per-character AP (`INF-141`).
+- Parameters: health, special-resource balance, active partner, command, target, damage, recovery and condition icon.
+- Evidence: [Paper Mario decomposition](../games/m-r/paper-mario.md), Nintendo's N64 manual pp. 8, 14–15 and 20–21.
+- Novelty: first isolated for `GAME-0449`; a fixed protagonist and swappable helper share a battle presentation but not an AP queue.
+
+## INF-435 — Show downhill place, speed and trick-boost state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: expose current race place and speed, trick score, adrenaline, Uber eligibility and TRICKY-letter progression alongside nearby course and rivals.
+- Includes: live Race feedback in original *SSX Tricky*.
+- Excludes: a full future-course map; opponent plans; Showoff crystals and timer; motor-racing gear HUD.
+- Parameters: place, speed, score, meter, Uber window, letters, terrain and rival proximity.
+- Evidence: [SSX Tricky decomposition](../games/s-z/ssx-tricky.md), EA's original booklet and first-hand PS2 guide.
+- Novelty: first isolated for `GAME-0450`; the rider reads stunt-earned speed capacity alongside rank.

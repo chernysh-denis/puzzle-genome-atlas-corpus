@@ -3502,6 +3502,75 @@
       "playUrl": "https://pokemongo.com/news/launch",
       "linkLabelUk": "Прочитати повідомлення Niantic про запуск Pokémon GO ↗",
       "linkLabelEn": "Read Niantic's Pokémon GO launch announcement ↗"
+    },
+    "GAME-0442": {
+      "titleUk": "Люмінес",
+      "summaryUk": "Пересувай і обертай двоколірні блоки 2 × 2, що падають. Склади квадрат із чотирьох клітин одного кольору, але не чекай миттєвого зникнення: його прибере лише музична лінія під час наступного проходу. У режимі однієї теми гра триває до переповнення поля. Описано оригінальну версію для PSP за джерелами, без власного проходження.",
+      "summaryEn": "Move and rotate falling two-colour 2 × 2 blocks. Form four same-colour cells into a square, but they do not disappear at once: the music-paced line must pass them first. In Single Skin mode, play continues until the field tops out. This covers the original PSP release reconstructed from sources, not direct play.",
+      "playUrl": "https://lumines.game/history/",
+      "linkLabelUk": "Переглянути історію оригінальної Lumines ↗",
+      "linkLabelEn": "Read the original Lumines history ↗"
+    },
+    "GAME-0443": {
+      "titleUk": "Криза часу",
+      "summaryUk": "В оригінальній аркадній Time Crisis педаль вирішує, коли ризикнути: відпусти її, щоб сховатися й автоматично зарядити шість набоїв; натисни, щоб вийти з укриття й стріляти. У першій сутичці потрібно здолати трьох ворогів, поки таймер іде навіть за укриттям. Опис спирається на посібник Namco та свідчення гравців, а не на власне проходження.",
+      "summaryEn": "In the original arcade Time Crisis, the pedal determines when to risk exposure: release it to take cover and automatically refill six shots; press to rise and fire. Clear the first three-enemy encounter while the clock keeps running even behind cover. This is reconstructed from Namco's manual and player accounts, not direct play.",
+      "playUrl": "https://manualzz.com/doc/994451/namco-time-crisis-arcade-game-operator%E2%80%99s-manual",
+      "linkLabelUk": "Прочитати оригінальний посібник Namco ↗",
+      "linkLabelEn": "Read the original Namco operator manual ↗"
+    },
+    "GAME-0444": {
+      "titleUk": "Повернення до природи",
+      "summaryUk": "Підготуй ґрунт і засій весняне поле пакетом на дев’ять клітин. Поливай доступні рослини або покладайся на дощ, збери дозрілий урожай і поклади його до скрині до вивезення о 17:00. Надворі час іде, у приміщенні зупиняється, а з початком літа весняні рослини в’януть. Це відтворення правил оригінальної PlayStation-гри за посібником, без власного проходження.",
+      "summaryEn": "Prepare the soil and sow a nine-position spring seed packet. Water reachable plants or rely on rain, harvest mature produce and deposit it before the 5:00 pm pickup. The clock runs outdoors but pauses indoors; surviving spring crops wilt at summer turnover. These original PlayStation rules are reconstructed from the manual, not direct play.",
+      "playUrl": "https://store.playstation.com/en-us/concept/10005231/",
+      "linkLabelUk": "Переглянути офіційну конвертовану версію для PS4/PS5 ↗",
+      "linkLabelEn": "See the official converted PS4/PS5 edition ↗"
+    },
+    "GAME-0445": {
+      "titleUk": "Найтс у світі снів",
+      "summaryUk": "У першому маршруті Spring Valley літай за Найтса й збирай сині фішки дотиком або замкненою петлею. Віднеси двадцять фішок до поглинача Ідеї, а потім поверни звільнену Ідею до Палацу до завершення часу. Кільця поповнюють запас прискорення; після закінчення відліку Кларіс опиняється на землі під загрозою яйця-будильника. Правила оригінальної гри для Sega Saturn відтворено за посібником, без власного проходження.",
+      "summaryEn": "In Spring Valley's first Mare, fly as NiGHTS and collect Blue Chips by contact or a closed Paraloop. Deliver twenty to the Ideya Capture, then return the released Ideya to the Palace before time runs out. Rings replenish drill capacity; after timeout Claris falls to the ground under Alarm Egg pursuit. These original Saturn rules are reconstructed from the manual, not direct play.",
+      "playUrl": "https://social.sega.com/articles/rt-sega-nights-into-dreams-was-released-on-the-sega/",
+      "linkLabelUk": "Переглянути згадку SEGA про оригінальну гру ↗",
+      "linkLabelEn": "Read SEGA's original-game retrospective ↗"
+    },
+    "GAME-0446": {
+      "titleUk": "Залізничний магнат II",
+      "summaryUk": "У вступному сценарії Railroad Tycoon II заснуй компанію, проклади колію з урахуванням схилу й розмісти станції так, щоб вони охопили виробників і покупців. Купи паровоз, задай зупинки та вагони й отримай перший платіж за перевезення вовни чи пасажирів. Дохід компанії не дорівнює особистому статку власника. Правила оригінальної ПК-гри відтворено за посібником, без власного проходження.",
+      "summaryEn": "In the original Railroad Tycoon II Tutorial, fund a company, lay grade-aware track and place stations that cover suppliers and receivers. Buy a steam train, set stops and cars, and earn the first payment for carrying eligible wool or passengers. Company income is not the founder's personal wealth. These PC rules are reconstructed from the manual, not direct play.",
+      "playUrl": "https://store.steampowered.com/app/7620/Railroad_Tycoon_II_Platinum/",
+      "linkLabelUk": "Переглянути офіційну сторінку Railroad Tycoon II ↗",
+      "linkLabelEn": "View the official Railroad Tycoon II page ↗"
+    },
+    "GAME-0447": {
+      "titleUk": "Панч-Аут!!",
+      "summaryUk": "У першому бою Punch-Out!! за Малого Мака читай рух удару Glass Joe, вчасно ухиляйся або блокуй і відповідай ударом у голову чи корпус. Промахи зменшують серця, зорі дають аперкот, а між раундами можна раз відновити витривалість. Нокаут, три падіння за раунд або суддівські очки вирішують бій. Правила версії NES із Mr. Dream відтворено за посібником без власного проходження.",
+      "summaryEn": "In the first NES Punch-Out!! bout, read Glass Joe's punch motion, weave or block and counter to the body or face. Misses deplete hearts, earned stars fund an uppercut, and one between-round recovery restores some stamina. A knockout, three knockdowns in one round or points settle the bout. The Mr. Dream edition is reconstructed from Nintendo's manual, not direct play.",
+      "playUrl": "https://www.nintendo.com/es-es/Juegos/NES/Punch-Out--278656.html",
+      "linkLabelUk": "Переглянути офіційну сторінку Punch-Out!! ↗",
+      "linkLabelEn": "View Nintendo's Punch-Out!! page ↗"
+    },
+    "GAME-0448": {
+      "summaryUk": "У класичній Temple Run герой сам біжить храмовим шляхом. Проведи пальцем, щоб повернути на розі, перестрибнути чи підкотитися під перешкодою; нахилом телефона зміщуйся до монет. Спотикання підпускає переслідувачів, а фатальна помилка завершує спробу й фіксує рахунок. Оригінальну версію iPhone 2011 року відтворено за свідченнями творців і тогочасними оглядами, без власного проходження.",
+      "summaryEn": "In classic Temple Run the character moves forward automatically along a temple path. Swipe to turn at a corner, jump or slide past an obstacle; tilt the phone sideways for coin lines. A stumble brings the pursuers closer, while a fatal mistake ends the attempt and settles its score. The original 2011 iPhone rules are reconstructed from creator and contemporary accounts, not direct play.",
+      "playUrl": "https://imangistudios.zendesk.com/hc/en-us/articles/4995833305747-About-Temple-Run",
+      "linkLabelUk": "Переглянути офіційний опис Temple Run ↗",
+      "linkLabelEn": "View Imangi's Temple Run description ↗"
+    },
+    "GAME-0449": {
+      "summaryUk": "Після приєднання Купера чотири пухнастики Fuzzy нападають на Маріо. Обирай удар або стрибок Маріо й атаку одного активного партнера, за потреби міняй його чи порядок двох дій. Вчасне натискання посилює атаку або зменшує шкоду, а потужний панцир витрачає очки квітів. Мета — перемогти всіх чотирьох до втрати всього здоров’я Маріо. Бій відтворено за посібником Nintendo і двома проходженнями, без власної гри.",
+      "summaryEn": "After Kooper joins, four Fuzzies attack Mario. Choose Mario's jump or hammer and the one active partner's move; switch partners or trade their action order before acting. Timed inputs strengthen attacks or reduce damage, while Power Shell spends Flower Points. Defeat all four before Mario loses all HP. This original-N64 fight is reconstructed from Nintendo's manual and two walkthroughs, not direct play.",
+      "playUrl": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_8/Manual_Nintendo64_PaperMario_EN.pdf",
+      "linkLabelUk": "Переглянути офіційний посібник Paper Mario ↗",
+      "linkLabelEn": "Read Nintendo's Paper Mario manual ↗"
+    },
+    "GAME-0450": {
+      "summaryUk": "У заїзді Race на Garibaldi обирай траєкторію спуску, стрибай із трамплінів і заверши трюк чистим приземленням, щоб заробити адреналін. Витрачай його на прискорення; вдалі особливі трюки можуть заповнити літери TRICKY й дати необмежений буст до фінішу. Мета — перше місце серед суперників, а не очки режиму Showoff. Оригінальну версію для PS2 відтворено за посібником EA для тієї самої гри на GameCube та письмовим свідченням гравця PS2, без власного проходження.",
+      "summaryEn": "In a Garibaldi Race, choose a downhill line, jump from ramps and land tricks cleanly to earn adrenaline. Spend it for speed; successful Uber tricks can fill the TRICKY letters and grant unlimited boost for the rest of the descent. First place against rivals, not a Showoff score, is the target. This original PS2 packet is reconstructed from EA's same-game GameCube booklet and a first-hand PS2 guide, not direct play.",
+      "playUrl": "https://www.ea.com/en-gb/games/ssx",
+      "linkLabelUk": "Переглянути офіційну сторінку серії SSX від EA ↗",
+      "linkLabelEn": "View EA's official SSX series page ↗"
     }
   }
 }

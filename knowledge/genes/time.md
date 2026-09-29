@@ -891,3 +891,23 @@
 - Parameters: pause state, frozen combat clock, eligible orders, committed targets and resume event.
 - Evidence: [FTL: Faster Than Light decomposition](../games/a-f/ftl-faster-than-light.md), Subset Games' official feature description.
 - Novelty: first isolated for `GAME-0418`; the entire ship command overview accepts several kinds of order while a reversible pause halts a continuously running battle.
+
+## TIM-031 — Run the daily clock outdoors but pause it indoors
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the farm day's authoritative clock advances while the player
+  works or travels outdoors, but entering an interior suspends that clock
+  during indoor planning and interaction; returning outside resumes the same
+  day rather than starting a new one.
+- Includes: original PlayStation *Harvest Moon: Back to Nature* farmhouse,
+  store and other interior visits within the first-spring farm loop.
+- Excludes: pausing every outdoor action; voluntarily sleeping into the next
+  day; freezing the whole game permanently; real-world calendar sync.
+- Parameters: indoor/outdoor location, current date and hour, clock step,
+  entry, exit and sleep boundary.
+- Evidence: [Harvest Moon: Back to Nature decomposition](../games/g-l/harvest-moon-back-to-nature.md), original PlayStation manual's Game Screens and farm-building guidance.
+- Novelty: first isolated for `GAME-0444`; the location itself changes
+  whether ordinary decision time is charged, unlike an optional pause key.

@@ -56,8 +56,10 @@
 - [`GAME-0099` — HyperRogue](../games/g-l/hyperrogue.md)
 - [`GAME-0350` — "Jet Set Radio"](../games/g-l/jet-set-radio.md)
 - [`GAME-0414` — Kinect Adventures!](../games/g-l/kinect-adventures.md)
+- [`GAME-0442` — 'Lumines: Puzzle Fusion'](../games/g-l/lumines-puzzle-fusion.md)
 - [`GAME-0018` — Mini Metro](../games/m-r/mini-metro.md)
 - [`GAME-0051` — Mini Motorways](../games/m-r/mini-motorways.md)
+- [`GAME-0445` — "NiGHTS into Dreams"](../games/m-r/nights-into-dreams.md)
 - [`GAME-0342` — "PAC-MAN"](../games/m-r/pac-man.md)
 - [`GAME-0114` — Peggle Deluxe](../games/m-r/peggle-deluxe.md)
 - [`GAME-0016` — Pipe Mania / Pipe Dream](../games/m-r/pipe-mania.md)
@@ -66,6 +68,7 @@
 - [`GAME-0360` — "Space Invaders"](../games/s-z/space-invaders.md)
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
 - [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
+- [`GAME-0448` — Temple Run](../games/s-z/temple-run.md)
 - [`GAME-0004` — Tetris](../games/s-z/tetris.md)
 - [`GAME-0015` — Threes](../games/s-z/threes.md)
 - [`GAME-0365` — Tony Hawk’s Pro Skater 1 + 2](../games/s-z/tony-hawks-pro-skater-1-plus-2.md)
@@ -94,6 +97,7 @@
 - [`GAME-0411` — Bejeweled 3](../games/a-f/bejeweled-3.md)
 - [`GAME-0020` — Dorfromantik](../games/a-f/dorfromantik.md)
 - [`GAME-0099` — HyperRogue](../games/g-l/hyperrogue.md)
+- [`GAME-0442` — 'Lumines: Puzzle Fusion'](../games/g-l/lumines-puzzle-fusion.md)
 - [`GAME-0004` — Tetris](../games/s-z/tetris.md)
 - [`GAME-0015` — Threes](../games/s-z/threes.md)
 
@@ -739,11 +743,13 @@
 - [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
 - [`GAME-0047` — Fights in Tight Spaces](../games/a-f/fights-in-tight-spaces.md)
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
+- [`GAME-0449` — Paper Mario](../games/m-r/paper-mario.md)
 - [`GAME-0050` — Shogun Showdown](../games/s-z/shogun-showdown.md)
 - [`GAME-0155` — Slay the Spire 2](../games/s-z/slay-the-spire-2.md)
 - [`GAME-0120` — Slay the Spire](../games/s-z/slay-the-spire.md)
 - [`GAME-0360` — "Space Invaders"](../games/s-z/space-invaders.md)
 - [`GAME-0048` — Tactical Breach Wizards](../games/s-z/tactical-breach-wizards.md)
+- [`GAME-0443` — Time Crisis](../games/s-z/time-crisis.md)
 - [`GAME-0176` — XCOM 2](../games/s-z/xcom-2.md)
 
 ## OBJ-030
@@ -5418,3 +5424,108 @@ Titanic Ant із двома помічниками, Giant Step та першу �
 ### Ігри-носії
 
 - [`GAME-0441` — Pokémon GO](../games/m-r/pokemon-go.md)
+
+## OBJ-253
+
+- Назва: Перетворити вирощений урожай на оплачений результат ферми
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+За обмежений сезон виростити принаймні одну власноруч посаджену культуру до стиглості, зібрати її й передати на заплановане оплачуване вивезення, щоб до зміни сезону зросли гроші та запис відвантаження.
+
+### Включає
+
+Перший весняний цикл від посіву до скрині відвантаження в оригінальній Harvest Moon: Back to Nature для PlayStation.
+
+### Виключає
+
+Саме очищення ділянки; збирання дикого предмета; врожай без продажу; окрему трирічну оцінку села чи вимогу максимального прибутку.
+
+### Ігри-носії
+
+- [`GAME-0444` — "Harvest Moon: Back to Nature"](../games/g-l/harvest-moon-back-to-nature.md)
+
+## OBJ-254
+
+- Назва: Звільнити одну Ідею й повернути її до Палацу
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+Протягом одного маршруту зібрати й передати необхідні сині фішки для перевантаження поглинача, а потім дістатися Палацу зі звільненою Ідеєю, щоб почався наступний маршрут.
+
+### Включає
+
+Перший маршрут Spring Valley в оригінальній NiGHTS into Dreams для Sega Saturn.
+
+### Виключає
+
+Зупинку на двадцяти фішках або самому поглиначі; усі чотири маршрути; подальшого боса; вимогу набрати найбільше очок.
+
+### Ігри-носії
+
+- [`GAME-0445` — "NiGHTS into Dreams"](../games/m-r/nights-into-dreams.md)
+
+## OBJ-255
+
+- Назва: Налагодити й перевірити одну оплачувану залізничну доставку
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+У межах вступного завдання побудувати робочу лінію, дочекатися оплати принаймні одного допустимого перевезення компанії й перевірити дохід у її обліку.
+
+### Включає
+
+Першу оплачену послугу між Слау й Оксфордом у вступному сценарії оригінальної Railroad Tycoon II для ПК.
+
+### Виключає
+
+Накопичення 10 мільйонів доларів особистого статку до 1900 року; гарантований товар на зворотному рейсі; саму побудову колії без оплаченої послуги.
+
+### Ігри-носії
+
+- [`GAME-0446` — Railroad Tycoon II](../games/m-r/railroad-tycoon-ii.md)
+
+## OBJ-256
+
+- Назва: Виграти один боксерський бій нокаутом або за очками
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+Перемогти одного визначеного суперника в одному бою: нокаутом після відліку рефері, потрібною кількістю падінь за один раунд або сприятливим підсумковим рішенням за очками.
+
+### Включає
+
+Перший бій Малого Мака з Glass Joe у версії Punch-Out!! Featuring Mr. Dream для NES.
+
+### Виключає
+
+Перемогу в усій лізі; кілька окремих перемог за раундами; твердження про певний шлях перемоги без власного проходження.
+
+### Ігри-носії
+
+- [`GAME-0447` — Punch-Out!!](../games/m-r/punch-out.md)
+
+## OBJ-257
+
+- Назва: Завершити один одиночний заїзд першим
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+Завершити один обмежений спуск проти комп’ютерних суперників і досягти класифікованого фінішу на першому місці; нижче місце завершує заїзд, але не виконує локальну мету перемоги.
+
+### Включає
+
+Одиночний заїзд Race на Garibaldi в оригінальній SSX Tricky.
+
+### Виключає
+
+Найвищий рахунок у Showoff; медаль World Circuit; автомобільну гонку зі збереженими грошима чи очками кубка (OBJ-134, OBJ-226).
+
+### Ігри-носії
+
+- [`GAME-0450` — SSX Tricky](../games/s-z/ssx-tricky.md)

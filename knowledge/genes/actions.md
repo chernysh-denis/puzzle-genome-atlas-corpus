@@ -4057,16 +4057,20 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player selects one owned item and irreversibly converts it
-  through an available sale or recycling operation into the disclosed coin or
-  component return.
+- Definition: the player selects one owned item and irreversibly commits it
+  to an available sale or recycling operation with a disclosed coin or
+  component return; the exchange may settle immediately or at a separately
+  scheduled collection event.
 - Includes: ARC Raiders Speranza sales and recycling plus Topside Field
-  Recycling.
+  Recycling; placing one harvested crop in the original PlayStation *Harvest
+  Moon: Back to Nature* shipping bin for the next eligible pickup.
 - Excludes: dropping loot for another Raider; consuming a medical item;
   cancelling a craft for a refund.
 - Parameters: item, quantity, location, sale value, recycle output, durability,
-  confirmation and destination capacity.
-- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md).
+  confirmation, destination capacity and settlement schedule.
+- Evidence: [ARC Raiders decomposition](../games/a-f/arc-raiders.md) and
+  [Harvest Moon: Back to Nature decomposition](../games/g-l/harvest-moon-back-to-nature.md),
+  including the original PlayStation manual's shipping-bin rule.
 - Novelty: not assessed.
 
 ## ACT-220 — Spend a persistent Raider skill point
@@ -11414,3 +11418,247 @@
 - Parameters: physical route, device position, location service, reachable map region and exposed local target.
 - Evidence: [Pokémon GO decomposition](../games/m-r/pokemon-go.md), Niantic's July 2016 launch announcement and the contemporary capture guide.
 - Novelty: first isolated for `GAME-0441`; the player's physical displacement is the consequential input, distinct from the system's projection of device location into the game map.
+
+## ACT-578 — Till one cleared farm tile with a hoe
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player targets a reachable, cleared farm-ground tile with a
+  hoe and converts its ordinary soil into a persistent tilled planting tile.
+- Includes: preparing spring crop squares in the original PlayStation *Harvest
+  Moon: Back to Nature* field after removing obstructing weeds and debris.
+- Excludes: scattering a seed packet; watering an existing crop; excavating ore
+  or terrain volume; clearing the obstruction itself.
+- Parameters: target tile, obstruction state, hoe, reach, tilled state and
+  retained field layout.
+- Evidence: [Harvest Moon: Back to Nature decomposition](../games/g-l/harvest-moon-back-to-nature.md), original PlayStation manual's Planting & Harvesting and Tools sections.
+- Novelty: first isolated for `GAME-0444`; prepared soil is a committed field
+  state, not a generic item placement or the later crop-care action.
+
+## ACT-579 — Broadcast one seed packet over a fixed field footprint
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player commits one carried seed packet at a chosen field
+  position, and the packet distributes seeds across its fixed surrounding
+  footprint at once rather than planting one selected crop tile at a time.
+- Includes: scattering a nine-seed 3 × 3 packet into the original PlayStation
+  *Harvest Moon: Back to Nature* spring field.
+- Excludes: preparing the ground with a hoe; watering or harvesting individual
+  plants (`ACT-213`); freely choosing a distinct seed location for each of the
+  nine positions; assuming seeds on untilled ground will take root.
+- Parameters: packet species, center position, footprint, seed inventory,
+  prepared tile mask and resulting planted tiles.
+- Evidence: [Harvest Moon: Back to Nature decomposition](../games/g-l/harvest-moon-back-to-nature.md), original PlayStation manual's Planting & Harvesting section.
+- Novelty: first isolated for `GAME-0444`; one spatially committed packet
+  fixes multiple potential crop positions before per-tile care begins.
+
+## ACT-580 — Close a flight path around nearby collectibles
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player steers a directly controlled flying body through a
+  closed path that encloses nearby eligible objects, collecting those inside
+  the loop without touching each one separately.
+- Includes: a Paraloop around Blue or Star Chips in the first Spring Valley
+  Mare of original Saturn *NiGHTS into Dreams*.
+- Excludes: merely passing through a ring; touching one chip directly
+  (`SYS-037`); drawing an arbitrary persistent barrier; a combat-only loop.
+- Parameters: path closure, enclosed eligible objects, flight trajectory and
+  collection timing.
+- Evidence: [NiGHTS into Dreams decomposition](../games/m-r/nights-into-dreams.md), original Saturn manual's Paraloop instructions.
+- Novelty: first isolated for `GAME-0445`; the enclosed region, rather than
+  contact with every object, determines the pickup set.
+
+## ACT-581 — Spend a flight gauge on a held drill burst
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while flying, the player holds the drill command to accelerate
+  the controlled body and spend a finite attack gauge until release or
+  depletion removes that accelerated drill capability.
+- Includes: NiGHTS' held Drill Attack during the first Spring Valley Mare on
+  the original Saturn disc.
+- Excludes: ordinary directional flight (`ACT-008`); a permanent speed mode;
+  recharging the gauge at a ring (`SYS-1168`).
+- Parameters: held input, current gauge, expenditure rate, speed and release.
+- Evidence: [NiGHTS into Dreams decomposition](../games/m-r/nights-into-dreams.md), original Saturn manual's flying controls and Drill Attack Gauge.
+- Novelty: first isolated for `GAME-0445`; burst flight has a separately
+  replenished finite capacity, unlike ordinary steerable movement.
+
+## ACT-582 — Lay a priced graded railway alignment
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player commits connected rail segments along a chosen terrain alignment, paying for track and bridges while the resulting grade affects later train service.
+- Includes: the first Slough–Oxford Tutorial connection in original PC *Railroad Tycoon II*.
+- Excludes: setting a train's ordered stops (`ACT-584`); placing a station (`ACT-583`); abstract transit lines drawn between pre-existing nodes.
+- Parameters: endpoints, terrain, bridges, cost, grade and connectivity.
+- Evidence: [Railroad Tycoon II decomposition](../games/m-r/railroad-tycoon-ii.md), original manual's Tutorial track construction.
+- Novelty: first isolated for `GAME-0446`; physical paid alignment and grade persist beyond one scheduled train.
+
+## ACT-583 — Place a track-aligned catchment station
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player places a sized station on connected railway track and thereby establishes a displayed service radius over nearby producers, consumers and houses.
+- Includes: Slough and Oxford Tutorial stations in original PC *Railroad Tycoon II*.
+- Excludes: merely laying track past an industry; a vehicle's later cargo pickup; station water/sand/roundhouse service upgrades.
+- Parameters: size, track alignment, price, radius and covered buildings.
+- Evidence: [Railroad Tycoon II decomposition](../games/m-r/railroad-tycoon-ii.md), original manual's Tutorial stations.
+- Novelty: first isolated for `GAME-0446`; placed rail access is separate from both track geometry and industry eligibility.
+
+## ACT-584 — Program a railway stop sequence and per-stop consist
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player assigns a train an ordered station sequence and sets the allowed cars and departure-wait rule separately at each stop for repeating automatic service.
+- Includes: wool/passenger loading at Slough and passenger/goods loading at Oxford with yellow/green wait lights in the original Tutorial.
+- Excludes: direct train steering; buying the locomotive; changing track or station catchment; treating a goods return as guaranteed.
+- Parameters: stops, cargo and passenger car slots, green/yellow/red wait conditions and repeat.
+- Evidence: [Railroad Tycoon II decomposition](../games/m-r/railroad-tycoon-ii.md), original manual's Tutorial train and schedule.
+- Novelty: first isolated for `GAME-0446`; the train's ordered cargo service is authored independently of its rail infrastructure.
+
+## ACT-585 — Found a company with personal and outside equity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player commits personal and external investment to establish a managed company treasury while allocating the founder's share ownership according to the funding split.
+- Includes: founding the Tutorial railroad before track construction in original PC *Railroad Tycoon II*.
+- Excludes: later dividend payment; purchasing a locomotive from established corporate cash; equating all raised company capital with the founder's personal wealth.
+- Parameters: personal cash invested, external capital, corporate starting cash and equity fraction.
+- Evidence: [Railroad Tycoon II decomposition](../games/m-r/railroad-tycoon-ii.md), original manual's Tutorial company founding.
+- Novelty: first isolated for `GAME-0446`; the opening financing decision couples a build budget to retained personal ownership.
+
+## ACT-586 — Tap repeatedly to rise during a referee count
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after the controlled boxer is knocked to the floor, the player repeatedly enters the recovery buttons to make him regain his feet before the referee's count reaches ten.
+- Includes: repeatedly tapping A and B after Little Mac falls in NES *Punch-Out!! Featuring Mr. Dream*.
+- Excludes: an ordinary standing punch; automatic recovery without input; winning the fight merely by rising.
+- Parameters: fallen boxer, recovery input rate, referee count and regained standing state.
+- Evidence: [Punch-Out!! decomposition](../games/m-r/punch-out.md), official Nintendo NES Classic manual pp. 2, 7.
+- Novelty: first isolated for `GAME-0447`; active fall recovery inside a boxing count is distinct from passive health restoration or an ordinary dodge.
+
+## ACT-587 — Use one between-round boxing stamina recovery
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during an eligible interval between rounds, the player requests a partial stamina recovery available only once in the whole fight.
+- Includes: pressing SELECT between rounds for Little Mac in NES *Punch-Out!! Featuring Mr. Dream*.
+- Excludes: repeated A/B presses to rise during a referee count; healing hearts; unlimited recovery after every round.
+- Parameters: inter-round interval, unused allowance, input and recovered stamina amount.
+- Evidence: [Punch-Out!! decomposition](../games/m-r/punch-out.md), official Nintendo NES Classic manual p. 2.
+- Novelty: first isolated for `GAME-0447`; a bout-scoped recovery choice is limited to an inter-round window and differs from fall recovery.
+
+## ACT-588 — Swipe for one contextual auto-run turn or obstacle response
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while forward travel continues without a movement command, the player commits one directional touch swipe that the current path context interprets as a quarter-turn, jump or slide.
+- Includes: left/right turns at corners and up/down jump/slide responses during one original-iPhone *Temple Run* attempt.
+- Excludes: tilting for lateral coin-line placement (`ACT-589`); stopping the runner; an unrestricted move into arbitrary world geometry (`ACT-008`); later gamepad controls.
+- Parameters: swipe direction, eligible context, timing window, current path heading and resolved response.
+- Evidence: [Temple Run decomposition](../games/s-z/temple-run.md), Imangi founders' interviews and contemporary original-iPhone reports.
+- Novelty: first isolated for `GAME-0448`; a discrete gesture redirects or changes posture while independent forward motion continues.
+
+## ACT-589 — Tilt to shift laterally across an auto-running path
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player changes the handset's lateral tilt to shift an automatically advancing runner across the current corridor width without choosing a new heading or interrupting forward motion.
+- Includes: aligning the original-iPhone *Temple Run* runner with an optional coin row while still approaching a corner.
+- Excludes: the discrete left/right swipe that takes a 90-degree corner (`ACT-588`); tilting an entire physics stage (`ACT-519`); three-lane swipe changes in later runners.
+- Parameters: tilt angle, lateral rate, current corridor bounds, runner offset, coin row and hazard location.
+- Evidence: [Temple Run decomposition](../games/s-z/temple-run.md), Imangi's first-person control account and 2011 first-hand iPhone reports.
+- Novelty: first isolated for `GAME-0448`; continuous lateral placement and discrete heading/posture gestures coexist as separate input channels.
+
+## ACT-590 — Replace the sole active helper beside a fixed protagonist
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: during battle with a persistent protagonist, choose another recruited eligible helper to occupy the sole active partner slot, changing helper commands without replacing the protagonist.
+- Includes: exchanging Kooper and Goombario beside Mario in the original-N64 *Paper Mario* four-Fuzzy encounter.
+- Excludes: switching the sole battling Pokémon (`ACT-258`); adding another simultaneous helper; equipping a badge.
+- Parameters: protagonist, recruited helpers, active slot, eligibility, command set and turn cost.
+- Evidence: [Paper Mario decomposition](../games/m-r/paper-mario.md), Nintendo's N64 manual pp. 12–13, 18–20.
+- Novelty: first isolated for `GAME-0449`; the protagonist continues acting while only the helper slot changes.
+
+## ACT-591 — Reorder two allied actions before either acts
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: before either of two allied actors has spent their current-turn action, exchange which one acts first without changing their action allowance.
+- Includes: pressing Z to let Kooper act before Mario in original-N64 *Paper Mario*.
+- Excludes: swapping after either actor acts; granting an extra turn; initiative statistics ordering every combatant.
+- Parameters: allied actors, unspent-action flags, order and command window.
+- Evidence: [Paper Mario decomposition](../games/m-r/paper-mario.md), Nintendo's N64 manual p. 18.
+- Novelty: first isolated for `GAME-0449`; player-chosen intra-side order is legal only before either action resolves.
+
+## ACT-592 — Press at incoming contact to reduce turn-combat damage
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after an enemy has committed an attack in a discrete battle, press a defensive button immediately before contact to request a reduction of incoming damage.
+- Includes: pressing A just before a Fuzzy strikes Mario in original-N64 *Paper Mario*.
+- Excludes: offensive Action Commands (`ACT-222`); dodging, parrying or jumping to negate and counter (`ACT-223`); passive defence.
+- Parameters: attack cue, contact window, input timing, baseline and reduced damage.
+- Evidence: [Paper Mario decomposition](../games/m-r/paper-mario.md), Nintendo's N64 manual p. 18.
+- Novelty: first isolated for `GAME-0449`; one live defensive press modifies damage without claiming avoidance or a counter.
+
+## ACT-593 — Commit and release an aerial snowboard trick
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a snowboard jump, the player selects and holds an eligible grab or rotation in the air, then releases it before the intended landing so that trick can be evaluated.
+- Includes: a grab or spin during the scoped Garibaldi Race in original *SSX Tricky*.
+- Excludes: steering the ground line; an automatic stunt; extending a connected skateboard manual/rail chain (`ACT-500`); points without a landing.
+- Parameters: takeoff, airtime, trick, held duration, rotation, release and landing.
+- Evidence: [SSX Tricky decomposition](../games/s-z/ssx-tricky.md), EA's original *SSX Tricky* booklet, trick and landing sections.
+- Novelty: first isolated for `GAME-0450`; a separate airborne choice can supply a later speed reserve.
+
+## ACT-594 — Spend snowboard adrenaline on downhill speed
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while descending, the player requests additional forward speed from the current finite adrenaline reserve; the command does not award that reserve or determine its depletion.
+- Includes: spending earned adrenaline in original *SSX Tricky* Garibaldi Race.
+- Excludes: ordinary slope acceleration; earning meter by tricks; a permanent always-on modifier; vehicle boost paid from a damage-survival meter (`ACT-309` with `SYS-1040`).
+- Parameters: rider, reserve, activation, duration, terrain and speed response.
+- Evidence: [SSX Tricky decomposition](../games/s-z/ssx-tricky.md), EA's original booklet and a first-hand PS2 guide.
+- Novelty: first isolated for `GAME-0450`; boarder acceleration is funded by landed aerial execution.

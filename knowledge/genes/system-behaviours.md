@@ -20587,23 +20587,26 @@
 - Novelty: first isolated for `GAME-0378`; sustained control over a field
   angle and retained ball motion make braking distance part of the route.
 
-## SYS-1029 — Add remaining-time credit when a goal stage clears
+## SYS-1029 — Award remaining-time score at a reached route goal
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: after a goal is reached while a stage clock remains positive,
-  award a completion-score contribution based on how quickly the goal was
-  reached, separately from any optional contact-collectible score.
+- Definition: when a scored route goal is reached while its stage clock
+  remains positive, award a score contribution based on how quickly that goal
+  was reached, separately from optional contact-collectible score. A
+  mid-route scored threshold may precede a later required return.
 - Includes: Super Monkey Ball 2's Main Game score rising from bananas and
-  reaching the goal quickly in the scoped Story stage.
+  reaching the goal quickly in the scoped Story stage; the original Saturn
+  NiGHTS first Spring Valley Mare listing a Time Bonus when the Ideya
+  Capture is overloaded before the live clock expires.
 - Excludes: a goal gate that merely clears without speed score; `SYS-037`'s
   immediate collectible credit; a result bonus from finite Challenge lives.
 - Parameters: remaining time, base score, banana score, speed contribution
   and rounding; the exact original-disc numeric formula is not asserted.
 - Evidence: [Super Monkey Ball 2 decomposition](../games/s-z/super-monkey-ball-2.md),
-  original GameCube manual p. 9.
+  original GameCube manual p. 9. [NiGHTS into Dreams decomposition](../games/m-r/nights-into-dreams.md), original Saturn manual's Nightopia section.
 - Novelty: first isolated for `GAME-0378`; optional pickup credit and
   time-dependent stage-clear credit are distinct resolution events.
 
@@ -22908,3 +22911,414 @@
 - Parameters: device location, map projection, local encounter availability, visible wild target and contact range.
 - Evidence: [Pokémon GO decomposition](../games/m-r/pokemon-go.md), Niantic's July 2016 location-based launch statement, contemporary written guidance and official catch help for the continuing map-tap sequence.
 - Novelty: first isolated for `GAME-0441`; location synchronisation and map-visible encounter availability precede and differ from the separate Ball capture check.
+
+## SYS-1157 — Clear qualified colour squares only on a moving music-line pass
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a continuously moving rhythm-linked vertical line removes already qualified same-colour square cells only when its sweep reaches their columns; surviving unsupported cells then settle, so matching and deletion are separated in time.
+- Includes: original PSP *Lumines: Puzzle Fusion* Single Skin square removal on the next Music Bar pass.
+- Excludes: immediate row deletion on piece lock (`SYS-008`); a purely decorative beat indicator; a player-triggered clear; later Burst rules.
+- Parameters: line direction, sweep cadence, music skin, qualified region, current line position, post-clear fall and score award.
+- Evidence: [Lumines decomposition](../games/g-l/lumines-puzzle-fusion.md), two contemporary original-PSP first-hand guides and the published *Lumines Strategies* analysis.
+- Novelty: first isolated for `GAME-0442`; a valid square can remain hazardous board occupancy until an autonomous spatial sweep reaches it.
+
+## SYS-1158 — Extend a qualified clear through a marked same-colour cell
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: if a specially marked cell participates in a qualifying same-colour square, its eventual sweep clear also removes connected touching cells of that colour beyond the ordinary square footprint.
+- Includes: the original PSP *Lumines* Over block's connected-colour extension when it is incorporated in a formed square.
+- Excludes: every ordinary monochrome square clearing all connected cells; the marked cell activating without a qualifying square; a later edition's special-piece rule.
+- Parameters: marked cell, colour, connected-neighbour rule, qualified square and sweep timing.
+- Evidence: [Lumines decomposition](../games/g-l/lumines-puzzle-fusion.md), two contemporary first-hand original-PSP guides.
+- Novelty: first isolated for `GAME-0442`; the marked cell changes the clear footprint after the ordinary eligibility gate, not the player's falling-piece action.
+
+## SYS-1159 — Settle falling two-cell columns independently on support
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when one vertical half of a falling 2 × 2 block meets an occupied surface before the other, the supported two-cell column stops while the other continues downward until separately supported.
+- Includes: original PSP *Lumines* block halves reaching different heights above an uneven pile.
+- Excludes: rigid whole-piece locking in NES Tetris (`SYS-007`); free single-cell drift during active placement; later falling of unsupported cells after a clear.
+- Parameters: left and right column contents, support heights, settlement order and resulting cell positions.
+- Evidence: [Lumines decomposition](../games/g-l/lumines-puzzle-fusion.md) and the published *Lumines Strategies* model of the original game.
+- Novelty: first isolated for `GAME-0442`; the active block's two columns can separate under gravity rather than locking as one indivisible piece.
+
+## SYS-1160 — Refill the firearm on a protective pedal transition
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: changing from an exposed firing stance to the protected ducking stance automatically replenishes the gun's bounded magazine; the player cannot fire from that protective stance and must expose the avatar again to spend the refilled shots.
+- Includes: the original arcade *Time Crisis* Action Pedal releasing Richard Miller into cover and automatically loading six bullets before the next exposed volley.
+- Excludes: a manual reload command while still exposed; ammunition pickups or a finite carried reserve; a cover animation that does not restore shots; the player's decision to change stance itself.
+- Parameters: pedal state, cover state, magazine cap, rounds remaining, refill transition and firing eligibility.
+- Evidence: [Time Crisis decomposition](../games/s-z/time-crisis.md), original Namco operator manual and two contemporary first-hand arcade guides.
+- Novelty: first isolated for `GAME-0443`; the protective transition and ammunition reset are causally coupled rather than separate optional commands.
+
+## SYS-1161 — Award deadline time for a designated gunfight target
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: defeating a designated bonus-bearing hostile during a live gunfight adds a bounded allowance to the authoritative attempt countdown; other ordinary enemy hits do not grant that same time credit, and the deadline can still expire.
+- Includes: the original arcade *Time Crisis* Story Game awarding extra seconds for a special enemy in the first Stage 1 Area 1 combat view.
+- Excludes: a timer that pauses while the player hides; an optional score-only bonus; automatic time credit for every ordinary hostile; a fixed whole-stage time reset after an unrelated event.
+- Parameters: eligible hostile, credited hit, added seconds, remaining stage time and terminal order.
+- Evidence: [Time Crisis decomposition](../games/s-z/time-crisis.md), original Namco operator manual and contemporary first-hand arcade guides.
+- Novelty: first isolated for `GAME-0443`; the deadline remains live but a specific spatial target can replenish its budget.
+
+## SYS-1162 — Advance planted crops on eligible watered days
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: at the daily growth boundary, the system advances each living
+  planted crop toward its species' mature or regrowth state when that day's
+  required water was supplied by the player or rain; a second watering in the
+  same day does not add a second growth step.
+- Includes: spring turnips and renewable crops in the original PlayStation
+  *Harvest Moon: Back to Nature* first-season farm loop.
+- Excludes: instant crop maturity on planting; growth on a dry missed day;
+  converting a mature crop into a paid shipment; changing seed availability
+  when the season changes.
+- Parameters: crop species, growth stage, watered-today state, rain, species
+  duration, renewable state and daily boundary.
+- Evidence: [Harvest Moon: Back to Nature decomposition](../games/g-l/harvest-moon-back-to-nature.md), original PlayStation manual and contemporary crop guide.
+- Novelty: first isolated for `GAME-0444`; a per-crop daily water gate is
+  separate from the player's care action and the viability constraint.
+
+## SYS-1163 — Settle eligible farm-bin shipments at scheduled pickup
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a scheduled collector values produce deposited in the farm
+  shipping bin before that day's pickup cutoff, credits the resulting cash and
+  shipment tally, and does not perform ordinary pickup on a declared holiday.
+- Includes: the original PlayStation *Harvest Moon: Back to Nature* 5:00 pm
+  crop pickup and farm earnings in the first spring.
+- Excludes: immediate cash at harvest; buying seeds; paying for produce placed
+  after pickup as if it had met the deadline; an always-open market.
+- Parameters: bin contents, deposit time, pickup time, holiday calendar,
+  crop value, money and shipped-crop count.
+- Evidence: [Harvest Moon: Back to Nature decomposition](../games/g-l/harvest-moon-back-to-nature.md), original PlayStation manual's Shipping Bin, Calendar and Harvest Status sections.
+- Novelty: first isolated for `GAME-0444`; the player's sale commitment and
+  deferred, calendar-gated economic settlement are distinct transitions.
+
+## SYS-1164 — Replace seasonal crop options and wilt old-season plants
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when the farm calendar crosses a season boundary, the available
+  ordinary field-crop set changes and living plants belonging only to the
+  previous season become wilted, requiring clearance before replanting.
+- Includes: the original PlayStation *Harvest Moon: Back to Nature* change
+  from spring crops to summer crops on the first day of Summer.
+- Excludes: daily watering and maturation inside one season; changing a
+  cosmetic skybox without crop consequences; crops sheltered by a separately
+  scoped hothouse.
+- Parameters: season, boundary day, current crop species, viability, wilted
+  state, new seed offers and field clearance.
+- Evidence: [Harvest Moon: Back to Nature decomposition](../games/g-l/harvest-moon-back-to-nature.md), original PlayStation manual's Spring and Summer seasonal guidance.
+- Novelty: first isolated for `GAME-0444`; seasonal turnover changes both
+  crop availability and the fate of unfinished field commitments.
+
+## SYS-1165 — Spend farm-tool stamina and penalise overwork
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: using farm tools reduces the worker's finite stamina; continued
+  exertion into exhaustion can cause a collapse and clinic recovery that
+  removes the following day's ordinary farm-work opportunity, while rest, food
+  or the hot spring can restore usable energy.
+- Includes: original PlayStation *Harvest Moon: Back to Nature* first-spring
+  field preparation and crop care.
+- Excludes: a fixed count of permitted inputs; tool durability breaking;
+  immediate crop growth from resting; a permanent death or whole-run reset.
+- Parameters: tool, exertion cost, stamina, fatigue, weather, recovery source,
+  collapse threshold and lost workday.
+- Evidence: [Harvest Moon: Back to Nature decomposition](../games/g-l/harvest-moon-back-to-nature.md), original PlayStation manual's Your Stamina section.
+- Novelty: first isolated for `GAME-0444`; the farm-work resource can erase
+  one calendar day's opportunity without terminating the multi-day packet.
+
+## SYS-1166 — Convert a delivered chip quota into released dream energy
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the local capture receives collected Blue Chips, and reaching
+  its required quota overloads it, releases the guarded dream energy and
+  changes subsequent collectible opportunities to score-bearing Gold Chips.
+- Includes: the Ideya Capture in the first original-Saturn Spring Valley Mare.
+- Excludes: collecting Blue Chips into the player's carried tally (`SYS-037`);
+  returning to the Palace; defeating a later Nightmare boss.
+- Parameters: delivered Blue Chips, quota, capture strength, release flag and
+  post-release Gold Chip availability.
+- Evidence: [NiGHTS into Dreams decomposition](../games/m-r/nights-into-dreams.md), original Saturn manual's Game Goal, Nightopia and Items sections.
+- Novelty: first isolated for `GAME-0445`; one collectible changes role at
+  the capture threshold, after which the route must still be finished.
+
+## SYS-1167 — Drop timed-out flight into vulnerable ground pursuit
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when the active Mare countdown reaches zero before return,
+  flying control ends and the child resumes ground control while a pursuing
+  Alarm Egg can catch that child and end the dream.
+- Includes: an expired first Spring Valley Mare on original Saturn *NiGHTS*.
+- Excludes: an automatic harmless level restart; a life-stock decrement;
+  Nightmare-boss timeout; an exact reset of the earlier chip tally.
+- Parameters: remaining time, flight state, ground actor, pursuer and Night
+  Over contact.
+- Evidence: [NiGHTS into Dreams decomposition](../games/m-r/nights-into-dreams.md), original Saturn manual's Nightopia timeout instructions.
+- Novelty: first isolated for `GAME-0445`; clock expiry changes the
+  controllable body and threat relation before the separate terminal catch.
+
+## SYS-1168 — Replenish a spent drill gauge at a flight ring
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: passing through an eligible ring restores usable Drill Attack
+  gauge to the current flyer, allowing a later held drill burst after earlier
+  gauge expenditure.
+- Includes: rings in original-Saturn *NiGHTS*' first Spring Valley Mare.
+- Excludes: the player's drill input (`ACT-581`); a ring's ordinary score;
+  replenishing the Mare timer or Blue Chip quota.
+- Parameters: ring contact, gauge before and after, cap and next burst.
+- Evidence: [NiGHTS into Dreams decomposition](../games/m-r/nights-into-dreams.md), original Saturn manual's Drill Attack Gauge.
+- Novelty: first isolated for `GAME-0445`; a route object restores movement
+  capacity independently of its points and the stage countdown.
+
+## SYS-1169 — Credit continuous item-and-ring flight links
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: successive item pickups and ring passages during one connected
+  flying pass raise the displayed Link count and award an acrobatic scoring
+  bonus, without changing the Blue Chip quota or the capture gate.
+- Includes: one original-Saturn *NiGHTS* Spring Valley flight pass.
+- Excludes: a chain of skateboard tricks (`SYS-975`); a combat-hit combo;
+  converting score to a guaranteed extra dream-energy release.
+- Parameters: eligible pickup, ring passage, continuity window, link count
+  and bonus; exact score arithmetic is outside this source-only packet.
+- Evidence: [NiGHTS into Dreams decomposition](../games/m-r/nights-into-dreams.md), original Saturn manual's Major Scoring section.
+- Novelty: first isolated for `GAME-0445`; route-contact continuity rewards
+  dense flight lines, distinct from the required twenty-chip handoff.
+
+## SYS-1170 — Convert delivered raw cargo into later industry output
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an industry with eligible input delivered through a station can produce a different outgoing cargo that becomes available for a later train pickup, rather than instantaneously crediting the same arriving train.
+- Includes: sheep wool delivered to an Oxford-area textile industry that later offers goods in original PC *Railroad Tycoon II* Tutorial.
+- Excludes: a guaranteed goods car on the first return; railroad ownership of wool; a player-operated manufacturing machine.
+- Parameters: input cargo, accepting industry, output cargo, availability and station coverage.
+- Evidence: [Railroad Tycoon II decomposition](../games/m-r/railroad-tycoon-ii.md), original manual's Tutorial and cargo-industry chapters.
+- Novelty: first isolated for `GAME-0446`; transport can feed a later cargo leg without the first trip itself being a trade sale.
+
+## SYS-1171 — Settle completed railway transport into company revenue
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a train delivers accepted passengers or cargo, the railroad company receives a transport payment influenced by demand, cargo class, distance and delivery speed.
+- Includes: the first eligible Slough–Oxford Tutorial delivery in original PC *Railroad Tycoon II*.
+- Excludes: buying and reselling ownership of cargo; a payment before arrival; automatic credit to the founder's personal cash.
+- Parameters: cargo or passenger type, demand, distance, speed and corporate revenue.
+- Evidence: [Railroad Tycoon II decomposition](../games/m-r/railroad-tycoon-ii.md), original manual's Running Trains and Tutorial finances.
+- Novelty: first isolated for `GAME-0446`; paid carriage is a corporate service outcome, not commodity-sale revenue.
+
+## SYS-1172 — Deplete boxing hearts and suspend attack at zero
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a missed player punch or received opposing blow lowers a separate heart stock; when that stock reaches zero, punching is unavailable for a short period even while the boxer still has stamina.
+- Includes: Little Mac's heart loss and temporary attack lock in NES *Punch-Out!! Featuring Mr. Dream*.
+- Excludes: stamina-based knockdown; star loss; a permanent inability to fight for the rest of the bout.
+- Parameters: heart count, miss or incoming-hit trigger and temporary attack-lock interval.
+- Evidence: [Punch-Out!! decomposition](../games/m-r/punch-out.md), official Nintendo NES Classic manual p. 7.
+- Novelty: first isolated for `GAME-0447`; offensive permission and knockdown vitality are separate resources.
+
+## SYS-1173 — Award, spend and forfeit boxing stars
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: certain landed punches award a star; requesting a stocked uppercut spends one, an incoming hit removes one and knockdown or round end removes all held stars.
+- Includes: Little Mac's stars and START uppercut in NES *Punch-Out!! Featuring Mr. Dream*.
+- Excludes: a star from every hit; an uppercut without the prerequisite stock; hearts or stamina as star currency.
+- Parameters: eligible award hit, star stock, uppercut cost, incoming hit and reset event.
+- Evidence: [Punch-Out!! decomposition](../games/m-r/punch-out.md), official Nintendo NES Classic manual pp. 2, 7.
+- Novelty: first isolated for `GAME-0447`; a timing-earned offensive reserve can be partly or wholly forfeited by defence failure.
+
+## SYS-1174 — Settle a boxing bout by count, three knockdowns or points
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: falling starts a referee count and a failure to rise by ten causes knockout; three falls by one boxer in the same round cause technical knockout; otherwise a maximum of three timed rounds can end in a points decision for the bout.
+- Includes: one Little Mac versus Glass Joe match in NES *Punch-Out!! Featuring Mr. Dream*.
+- Excludes: treating each round as a separate win marker; a guaranteed points victory; the wider career's three-loss retirement.
+- Parameters: boxer, round-local fall count, referee count, round duration, points and final decision.
+- Evidence: [Punch-Out!! decomposition](../games/m-r/punch-out.md), official Nintendo NES Classic manual pp. 5–7.
+- Novelty: first isolated for `GAME-0447`; boxing rounds accumulate knockdown and score state toward one bout result rather than independent fighting-game round wins.
+
+## SYS-1175 — Extend a varying endless traversal corridor ahead of a runner
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: as an automatically advancing run continues, the system supplies further connected path, corner and obstacle situations beyond the currently visible segment, without a finite authored finish or identical obstacle sequence on every attempt.
+- Includes: the changing temple-wall and bridge course in original-iPhone *Temple Run*.
+- Excludes: one fixed song-timed obstacle track (`SYS-496`); an entire finite entry-objective-extraction mission assembled before play (`SYS-500`); a known exact random-generation algorithm or guaranteed obstacle distribution.
+- Parameters: current segment, legal continuation, corner, gap, obstacle, future visibility, variation source and traversal speed.
+- Evidence: [Temple Run decomposition](../games/s-z/temple-run.md), the founders' endless-maze description and contemporary first-hand account of differing runs.
+- Novelty: first isolated for `GAME-0448`; the course keeps adding local decisions without promising a finish or an identical retry route.
+
+## SYS-1176 — Escalate a runner's stumble into pursuit or terminal failure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: resolve obstacle contact by distinguishing a recoverable trip that draws pursuers nearer from an unrecoverable fall, collision or capture that ends the current endless-run attempt.
+- Includes: a stumble bringing the Demon Monkeys close and a later fatal failure in original-iPhone *Temple Run*.
+- Excludes: every first contact being fatal (`CON-113`); a numerical fixed-life rule; an exact number of permitted stumbles; a between-run paid revive.
+- Parameters: contact class, supported path, chase pressure, recovery state, fatal trigger and terminal feedback.
+- Evidence: [Temple Run decomposition](../games/s-z/temple-run.md), Imangi's developer account and a contemporary original-iPhone review.
+- Novelty: first isolated for `GAME-0448`; a nonterminal stumble changes immediate chase pressure inside an otherwise unbounded score run.
+
+## SYS-1177 — Accumulate and settle one endless-run score
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: continued movement and eligible collected items increase a live score while the runner survives; terminal failure fixes the attained attempt score for evaluation.
+- Includes: original-iPhone *Temple Run* distance/coin score chase with no purchased aid in the scoped attempt.
+- Excludes: reaching a fixed course exit; the separate spendable coin-wallet purchase action; objectives that change a later score multiplier; a claimed exact score formula.
+- Parameters: distance, eligible pickup, base multiplier, accumulated points and end-of-attempt result.
+- Evidence: [Temple Run decomposition](../games/s-z/temple-run.md), Imangi's scoring FAQ and contemporary original-iPhone score accounts.
+- Novelty: first isolated for `GAME-0448`; survival duration itself increases a live score until collision or capture settles it.
+
+## SYS-1178 — Alternate paired ally actions with finite hostile replies
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: in one finite turn-based encounter, grant the protagonist and sole active helper one action each in the player portion, then resolve surviving hostile actions and repeat while both sides remain; clearing all required hostiles ends the battle.
+- Includes: Mario and Kooper facing four Fuzzies in original-N64 *Paper Mario*, with an optional pre-action order exchange.
+- Excludes: a stat-sorted initiative queue (`SYS-356`); a single commanded Pokémon acting for its trainer; gaining another action by trading order.
+- Parameters: protagonist, active helper, unspent actions, hostile set, side order and terminal condition.
+- Evidence: [Paper Mario decomposition](../games/m-r/paper-mario.md), Nintendo's N64 manual pp. 15, 18–20 and original-game Koopa Village routes.
+- Novelty: first isolated for `GAME-0449`; two separately commanded allied actors share a side phase, but only one helper is present.
+
+## SYS-1179 — Transfer health to an enemy after a draining hit
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: when an enemy's declared draining attack successfully damages the protagonist, remove the resolved health from the target and restore the declared amount to the attacker as part of that attack.
+- Includes: a successful Fuzzy bite draining Mario and replenishing the Fuzzy in the original-N64 Koopa Village encounter.
+- Excludes: unconditional healing after a miss or fully prevented attack; between-turn regeneration; ordinary attacks without a drain effect.
+- Parameters: attacker, target, resolved damage, heal amount, health cap and prevention.
+- Evidence: [Paper Mario decomposition](../games/m-r/paper-mario.md), two original-N64 Koopa Village walkthroughs.
+- Novelty: first isolated for `GAME-0449`; recovery is contingent on a successful damaging contact.
+
+## SYS-1180 — Grade a timed defensive press into damage reduction
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during an enemy attack, grade the protagonist's near-contact defensive button press and reduce damage when it succeeds, without automatically adding a counterattack.
+- Includes: original-N64 *Paper Mario* A-button defence during a Fuzzy attack.
+- Excludes: offensive Action Command modifiers (`SYS-358`); guaranteed cancellation or full-combo parry counter (`SYS-359`); passive armour.
+- Parameters: attack cue, input grade, original damage, reduced damage and target.
+- Evidence: [Paper Mario decomposition](../games/m-r/paper-mario.md), Nintendo's N64 manual p. 18.
+- Novelty: first isolated for `GAME-0449`; reactive timing changes only incoming damage of a discrete enemy action.
+
+## SYS-1181 — Advance a snowboarder over a downhill course
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: continuously resolve slope speed, steering, ramp takeoff, airborne trajectory, terrain contact and falls along one authored downhill course.
+- Includes: Garibaldi main and alternate lines, jumps and landings in original *SSX Tricky* Race.
+- Excludes: procedural descent; walking grid; car damage and fuel physics (`SYS-320`); a guaranteed fastest shortcut.
+- Parameters: terrain, line, momentum, turn, takeoff, flight, contact and crash.
+- Evidence: [SSX Tricky decomposition](../games/s-z/ssx-tricky.md), EA's original booklet and first-hand PS2 Garibaldi guide; exact coefficients unmeasured.
+- Novelty: first isolated for `GAME-0450`; downhill contact and air affect race position and trick opportunity.
+
+## SYS-1182 — Race a snowboard rival field to one downhill finish
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: after a Single Event start, advance computer-controlled snowboard rivals along the same course and settle each rider's place at its finite finish.
+- Includes: Amateur CPU field of one original *SSX Tricky* Garibaldi Race.
+- Excludes: World Circuit qualification; Showoff score rank; car-field dynamics (`SYS-515`); exact opponent schedule.
+- Parameters: course, field, difficulty, positions, finish and classification.
+- Evidence: [SSX Tricky decomposition](../games/s-z/ssx-tricky.md), EA's original booklet and first-hand PS2 guide.
+- Novelty: first isolated for `GAME-0450`; one-descent boarder classification does not require car laps.
+
+## SYS-1183 — Convert landed snowboard tricks into score and adrenaline
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when an eligible snowboard trick lands cleanly, add points and difficulty-sensitive adrenaline to a bounded meter; repetition may diminish points, while boost, time and falls lower the finite reserve.
+- Includes: the trick-to-speed economy of original *SSX Tricky* Race.
+- Excludes: failed-landing credit; connected skateboard score chain (`SYS-975`); boost shared with vehicle damage (`SYS-1040`); exact coefficients.
+- Parameters: trick, difficulty, repetition, landing, points, meter gain, cap, spend and decay.
+- Evidence: [SSX Tricky decomposition](../games/s-z/ssx-tricky.md), EA's original booklet and first-hand PS2 guide.
+- Novelty: first isolated for `GAME-0450`; landed tricks change score and later acceleration capacity.
+
+## SYS-1184 — Unlock Uber tricks and within-run unlimited boost
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: full adrenaline opens a bounded Uber opportunity; each cleanly landed Uber fills one ordered TRICKY letter, and completing the word grants unlimited adrenaline for the rest of this run.
+- Includes: original *SSX Tricky* Uber disk and within-descent six-letter progression.
+- Excludes: ordinary trick score; permanent between-race unlock; an exact window duration or guaranteed completion route.
+- Parameters: meter threshold, Uber window, landing, letter count and unlimited state.
+- Evidence: [SSX Tricky decomposition](../games/s-z/ssx-tricky.md), EA's original booklet and first-hand PS2 guide.
+- Novelty: first isolated for `GAME-0450`; landed stunts can remove the current run's finite speed limit.

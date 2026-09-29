@@ -104,6 +104,7 @@
 
 ### Ігри-носії
 
+- [`GAME-0442` — 'Lumines: Puzzle Fusion'](../games/g-l/lumines-puzzle-fusion.md)
 - [`GAME-0004` — Tetris](../games/s-z/tetris.md)
 
 ## ACT-006
@@ -137,12 +138,14 @@
 - [`GAME-0130` — Frostpunk](../games/a-f/frostpunk.md)
 - [`GAME-0182` — Hearts of Iron IV](../games/g-l/hearts-of-iron-iv.md)
 - [`GAME-0029` — HUMANITY](../games/g-l/humanity.md)
+- [`GAME-0442` — 'Lumines: Puzzle Fusion'](../games/g-l/lumines-puzzle-fusion.md)
 - [`GAME-0018` — Mini Metro](../games/m-r/mini-metro.md)
 - [`GAME-0051` — Mini Motorways](../games/m-r/mini-motorways.md)
 - [`GAME-0125` — Oxygen Not Included](../games/m-r/oxygen-not-included.md)
 - [`GAME-0016` — Pipe Mania / Pipe Dream](../games/m-r/pipe-mania.md)
 - [`GAME-0298` — 'Planet Zoo: Console Edition'](../games/m-r/planet-zoo-console-edition.md)
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
+- [`GAME-0446` — Railroad Tycoon II](../games/m-r/railroad-tycoon-ii.md)
 - [`GAME-0127` — RimWorld](../games/m-r/rimworld.md)
 - [`GAME-0335` — RollerCoaster Tycoon Deluxe](../games/m-r/rollercoaster-tycoon-deluxe.md)
 - [`GAME-0390` — SimCity 2000](../games/s-z/simcity-2000.md)
@@ -298,6 +301,7 @@
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
 - [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
 - [`GAME-0340` — "Halo: Combat Evolved Anniversary"](../games/g-l/halo-combat-evolved-anniversary.md)
+- [`GAME-0444` — "Harvest Moon: Back to Nature"](../games/g-l/harvest-moon-back-to-nature.md)
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
@@ -341,6 +345,7 @@
 - [`GAME-0111` — Myst](../games/m-r/myst.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0241` — NBA 2K26](../games/m-r/nba-2k26.md)
+- [`GAME-0445` — "NiGHTS into Dreams"](../games/m-r/nights-into-dreams.md)
 - [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0229` — "No Man’s Sky"](../games/m-r/no-mans-sky.md)
@@ -401,6 +406,7 @@
 - [`GAME-0412` — Splatoon 3](../games/s-z/splatoon-3.md)
 - [`GAME-0157` — Split Fiction](../games/s-z/split-fiction.md)
 - [`GAME-0373` — Spore](../games/s-z/spore.md)
+- [`GAME-0450` — SSX Tricky](../games/s-z/ssx-tricky.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
@@ -712,6 +718,7 @@
 - [`GAME-0435` — EarthBound](../games/a-f/earthbound.md)
 - [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
 - [`GAME-0014` — Into the Breach](../games/g-l/into-the-breach.md)
+- [`GAME-0449` — Paper Mario](../games/m-r/paper-mario.md)
 - [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
 - [`GAME-0336` — "Pokémon Red Version"](../games/m-r/pokemon-red-version.md)
@@ -3233,12 +3240,14 @@
 - [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
+- [`GAME-0444` — "Harvest Moon: Back to Nature"](../games/g-l/harvest-moon-back-to-nature.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0123` — Inscryption](../games/g-l/inscryption.md)
 - [`GAME-0392` — Mario Party 2](../games/m-r/mario-party-2.md)
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
 - [`GAME-0298` — 'Planet Zoo: Console Edition'](../games/m-r/planet-zoo-console-edition.md)
 - [`GAME-0336` — "Pokémon Red Version"](../games/m-r/pokemon-red-version.md)
+- [`GAME-0446` — Railroad Tycoon II](../games/m-r/railroad-tycoon-ii.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 - [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
 - [`GAME-0166` — Sid Meier’s Civilization VI](../games/s-z/sid-meiers-civilization-vi.md)
@@ -5363,6 +5372,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0443` — Time Crisis](../games/s-z/time-crisis.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
 - [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
 
@@ -5600,6 +5610,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Ігри-носії
 
+- [`GAME-0444` — "Harvest Moon: Back to Nature"](../games/g-l/harvest-moon-back-to-nature.md)
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 
 ## ACT-214
@@ -5621,6 +5632,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Ігри-носії
 
+- [`GAME-0444` — "Harvest Moon: Back to Nature"](../games/g-l/harvest-moon-back-to-nature.md)
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
@@ -5728,15 +5740,15 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 ## ACT-219
 
 - Назва: Продати або розібрати один власний предмет
-- Переглянуто: `2026-08-24`
+- Переглянуто: `2026-09-28`
 
 ### Операційне визначення
 
-Гравець обирає власну річ і безповоротно обмінює її продажем чи розбиранням на показану кількість монет або складників.
+Гравець обирає власну річ і безповоротно передає її для продажу чи розбирання з визначеною винагородою в грошах або складниках; обмін може завершитися відразу або під час окремо запланованого вивезення.
 
 ### Включає
 
-Продаж і розбирання у Speranza та польове розбирання (Field Recycling) на Поверхні в ARC Raiders.
+Продаж і розбирання у Speranza та польове розбирання (Field Recycling) на Поверхні в ARC Raiders; вкладання зібраної культури до скрині відвантаження в оригінальній Harvest Moon: Back to Nature для PlayStation перед наступним можливим вивезенням.
 
 ### Виключає
 
@@ -5746,6 +5758,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0269` — DREDGE](../games/a-f/dredge.md)
+- [`GAME-0444` — "Harvest Moon: Back to Nature"](../games/g-l/harvest-moon-back-to-nature.md)
 - [`GAME-0319` — Sea of Thieves](../games/s-z/sea-of-thieves.md)
 - [`GAME-0307` — Slime Rancher](../games/s-z/slime-rancher.md)
 
@@ -5793,6 +5806,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 ### Ігри-носії
 
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
+- [`GAME-0449` — Paper Mario](../games/m-r/paper-mario.md)
 
 ## ACT-223
 
@@ -7430,6 +7444,7 @@ Ryu на стороні P1, Luke під керуванням CPU і Classic cont
 - [`GAME-0326` — Crash Bandicoot](../games/a-f/crash-bandicoot.md)
 - [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
 - [`GAME-0393` — Mortal Kombat II](../games/m-r/mortal-kombat-ii.md)
+- [`GAME-0447` — Punch-Out!!](../games/m-r/punch-out.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
@@ -7457,6 +7472,7 @@ Drive Parry, броню атаки, покроковий захист або п�
 ### Ігри-носії
 
 - [`GAME-0393` — Mortal Kombat II](../games/m-r/mortal-kombat-ii.md)
+- [`GAME-0447` — Punch-Out!!](../games/m-r/punch-out.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
 - [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
@@ -8848,6 +8864,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
+- [`GAME-0447` — Punch-Out!!](../games/m-r/punch-out.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 
 ## ACT-358
@@ -11681,6 +11698,7 @@ Feed і завершальний Bite по придатній людині чи 
 ### Ігри-носії
 
 - [`GAME-0345` — "Duck Hunt"](../games/a-f/duck-hunt.md)
+- [`GAME-0443` — Time Crisis](../games/s-z/time-crisis.md)
 
 ## ACT-491
 
@@ -12146,6 +12164,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Ігри-носії
 
+- [`GAME-0444` — "Harvest Moon: Back to Nature"](../games/g-l/harvest-moon-back-to-nature.md)
 - [`GAME-0375` — Viva Piñata](../games/s-z/viva-pinata.md)
 
 ## ACT-513
@@ -13512,3 +13531,360 @@ Super Jump від місця появи до союзника поблизу с�
 ### Ігри-носії
 
 - [`GAME-0441` — Pokémon GO](../games/m-r/pokemon-go.md)
+
+## ACT-578
+
+- Назва: Розпушувати мотикою очищену клітину поля
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+Гравець спрямовує мотику на досяжну очищену клітину поля й перетворює звичайну землю на підготовлену для посіву клітину, стан якої зберігається.
+
+### Включає
+
+Підготовку весняної ділянки в оригінальній Harvest Moon: Back to Nature для PlayStation після прибирання бур’янів та уламків.
+
+### Виключає
+
+Розсипання насіння; полив чи збирання рослини; видобування руди; саме прибирання перешкоди.
+
+### Ігри-носії
+
+- [`GAME-0444` — "Harvest Moon: Back to Nature"](../games/g-l/harvest-moon-back-to-nature.md)
+
+## ACT-579
+
+- Назва: Розсипати один пакет насіння на фіксовану ділянку
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+Гравець застосовує один пакет насіння у вибраній точці поля, і той одразу розподіляє насіння на визначені навколишні позиції, замість окремого вибору клітини для кожної насінини.
+
+### Включає
+
+Один пакет на дев’ять позицій сітки 3 × 3 у весняному полі оригінальної Harvest Moon: Back to Nature для PlayStation.
+
+### Виключає
+
+Розпушування ґрунту; окремий полив чи збір; незалежний вибір дев’яти місць; припущення, що насіння на нерозпушеній землі приживеться.
+
+### Ігри-носії
+
+- [`GAME-0444` — "Harvest Moon: Back to Nature"](../games/g-l/harvest-moon-back-to-nature.md)
+
+## ACT-580
+
+- Назва: Замикати траєкторію польоту навколо предметів
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+Гравець скеровує керованого летючого персонажа по замкненій траєкторії, яка охоплює доступні предмети й збирає їх без окремого дотику до кожного.
+
+### Включає
+
+Петлю навколо синіх або зоряних фішок у першому маршруті Spring Valley оригінальної NiGHTS into Dreams для Sega Saturn.
+
+### Виключає
+
+Простий проліт крізь кільце; дотик до окремої фішки; малювання постійної перешкоди; петлю лише для бою.
+
+### Ігри-носії
+
+- [`GAME-0445` — "NiGHTS into Dreams"](../games/m-r/nights-into-dreams.md)
+
+## ACT-581
+
+- Назва: Витрачати запас прискорення на свердлильний ривок
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+Під час польоту гравець утримує команду свердлильного ривка: персонаж прискорюється й витрачає обмежену шкалу, доки відпускання кнопки або вичерпання запасу не припинить ривок.
+
+### Включає
+
+Утримуваний ривок Найтса в першому маршруті Spring Valley оригінальної гри для Sega Saturn.
+
+### Виключає
+
+Звичайне керування напрямком польоту; постійний режим швидкості; поповнення запасу кільцем.
+
+### Ігри-носії
+
+- [`GAME-0445` — "NiGHTS into Dreams"](../games/m-r/nights-into-dreams.md)
+
+## ACT-582
+
+- Назва: Прокладати оплачувану колію з урахуванням ухилу
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+Гравець прокладає зв’язані відрізки колії обраною місцевістю, сплачуючи за рейки й мости; отриманий ухил згодом впливає на рух поїзда.
+
+### Включає
+
+Першу лінію Слау—Оксфорд у вступному сценарії оригінальної Railroad Tycoon II для ПК.
+
+### Виключає
+
+Задання зупинок поїзда; розміщення станції; умовні лінії між наперед готовими вузлами.
+
+### Ігри-носії
+
+- [`GAME-0446` — Railroad Tycoon II](../games/m-r/railroad-tycoon-ii.md)
+
+## ACT-583
+
+- Назва: Розміщувати станцію на колії із зоною обслуговування
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+Гравець розміщує станцію вибраного розміру на зв’язаній колії й створює показану зону обслуговування навколишніх виробників, споживачів і будинків.
+
+### Включає
+
+Станції Слау й Оксфорда у вступному сценарії оригінальної Railroad Tycoon II для ПК.
+
+### Виключає
+
+Саме прокладання колії повз підприємство; подальше завантаження вагонів; оснащення станції водою, піском чи депо.
+
+### Ігри-носії
+
+- [`GAME-0446` — Railroad Tycoon II](../games/m-r/railroad-tycoon-ii.md)
+
+## ACT-584
+
+- Назва: Задавати послідовність зупинок і склад поїзда
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+Гравець призначає поїзду впорядковані станції та окремо для кожної задає дозволені вантажні й пасажирські вагони й умову очікування перед відправленням для повторюваного автоматичного рейсу.
+
+### Включає
+
+Вовну й пасажирів у Слау, пасажирів і товари в Оксфорді та жовтий і зелений сигнали очікування у вступному сценарії.
+
+### Виключає
+
+Ручне керування поїздом; купівлю паровоза; зміну колії чи зони станції; гарантію товару на першому поверненні.
+
+### Ігри-носії
+
+- [`GAME-0446` — Railroad Tycoon II](../games/m-r/railroad-tycoon-ii.md)
+
+## ACT-585
+
+- Назва: Засновувати компанію з власним і зовнішнім капіталом
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+Гравець вкладає особисті кошти та залучає зовнішніх інвесторів, щоб утворити скарбницю керованої компанії; частка власності засновника залежить від розподілу внесків.
+
+### Включає
+
+Заснування залізниці до будівництва колії у вступному сценарії оригінальної Railroad Tycoon II для ПК.
+
+### Виключає
+
+Подальшу виплату дивідендів; купівлю паровоза коштом уже створеної компанії; прирівнювання всього залученого капіталу до особистого статку засновника.
+
+### Ігри-носії
+
+- [`GAME-0446` — Railroad Tycoon II](../games/m-r/railroad-tycoon-ii.md)
+
+## ACT-586
+
+- Назва: Швидко натискати кнопки, щоб підвестися до завершення відліку
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+Після падіння керованого боксера гравець багаторазово натискає кнопки відновлення, щоб той підвівся, перш ніж рефері дорахує до десяти.
+
+### Включає
+
+Повторне натискання A і B після падіння Малого Мака у версії Punch-Out!! Featuring Mr. Dream для NES.
+
+### Виключає
+
+Звичайний удар стоячи; автоматичне підведення без дій гравця; перемогу в бою самим лише підведенням.
+
+### Ігри-носії
+
+- [`GAME-0447` — Punch-Out!!](../games/m-r/punch-out.md)
+
+## ACT-587
+
+- Назва: Один раз відновити витривалість між раундами
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+У проміжку між раундами гравець може попросити частково відновити витривалість; така можливість доступна лише один раз за весь бій.
+
+### Включає
+
+Натискання SELECT між раундами за Малого Мака у версії Punch-Out!! Featuring Mr. Dream для NES.
+
+### Виключає
+
+Повторне натискання A й B, щоб підвестися під відлік рефері; відновлення сердець; необмежене відновлення після кожного раунду.
+
+### Ігри-носії
+
+- [`GAME-0447` — Punch-Out!!](../games/m-r/punch-out.md)
+
+## ACT-588
+
+- Назва: Проводити пальцем для повороту, стрибка або підкату під час автоматичного бігу
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+Коротке проведення пальцем подає одну контекстну команду без зупинки бігу: ліворуч чи праворуч для повороту на допустимому розі, угору для стрибка або вниз для підкату перед перешкодою.
+
+### Включає
+
+Чотири напрямки проведення пальцем в оригінальній Temple Run для iPhone.
+
+### Виключає
+
+Нахил для поперечного зміщення; зупинку героя; вільне пересування будь-якою геометрією; керування пізніших ігор серії.
+
+### Ігри-носії
+
+- [`GAME-0448` — Temple Run](../games/s-z/temple-run.md)
+
+## ACT-589
+
+- Назва: Нахилом зміщувати героя поперек шляху під час автоматичного бігу
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+Гравець безперервно нахиляє пристрій, щоб змістити героя ліворуч чи праворуч у межах поточної ділянки шляху, наприклад до монет, не обираючи наступний поворот.
+
+### Включає
+
+Нахил iPhone для бокового зміщення до лінії монет в оригінальній Temple Run.
+
+### Виключає
+
+Окреме проведення пальцем для повороту під прямим кутом; нахил усієї фізичної сцени; команди зміни трьох смуг у пізніших іграх.
+
+### Ігри-носії
+
+- [`GAME-0448` — Temple Run](../games/s-z/temple-run.md)
+
+## ACT-590
+
+- Назва: Замінити одного активного помічника поруч із героєм
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+Під час бою вибрати іншого доступного союзника на єдине місце активного партнера, змінивши прийоми партнера, але не замінивши самого героя.
+
+### Включає
+
+Заміну Купера на Гумбаріо поряд із Маріо у бою з чотирма Fuzzy в оригінальній Paper Mario для Nintendo 64.
+
+### Виключає
+
+Заміну єдиного бойового покемона; додавання ще одного одночасного партнера; спорядження значка.
+
+### Ігри-носії
+
+- [`GAME-0449` — Paper Mario](../games/m-r/paper-mario.md)
+
+## ACT-591
+
+- Назва: Поміняти порядок двох союзних дій до їх виконання
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+Поки жоден із двох союзників не витратив свою дію в цьому ході, змінити порядок їхніх дій, не збільшуючи їхньої кількості.
+
+### Включає
+
+Натискання Z, щоб Купер діяв перед Маріо в оригінальній Paper Mario для Nintendo 64.
+
+### Виключає
+
+Зміну порядку після чиєїсь дії; додатковий хід; чергу всіх бійців за показником ініціативи.
+
+### Ігри-носії
+
+- [`GAME-0449` — Paper Mario](../games/m-r/paper-mario.md)
+
+## ACT-592
+
+- Назва: Натиснути перед ударом, щоб зменшити шкоду
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+Коли ворог уже виконує атаку в покроковому бою, натиснути захисну кнопку безпосередньо перед зіткненням, щоб спробувати зменшити отриману шкоду.
+
+### Включає
+
+Натискання A перед ударом Fuzzy по Маріо в оригінальній Paper Mario для Nintendo 64.
+
+### Виключає
+
+Своєчасне виконання власної атаки; ухилення чи парирування з контратакою; пасивний захист.
+
+### Ігри-носії
+
+- [`GAME-0449` — Paper Mario](../games/m-r/paper-mario.md)
+
+## ACT-593
+
+- Назва: Виконати й завершити повітряний трюк на сноуборді
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+Після стрибка на сноуборді гравець обирає та утримує допустимий захват дошки або обертання в повітрі, а потім відпускає прийом перед запланованим приземленням, щоб гра могла оцінити трюк.
+
+### Включає
+
+Захват дошки чи обертання в межах заїзду Race на Garibaldi в оригінальній SSX Tricky.
+
+### Виключає
+
+Керування наземною траєкторією; автоматичний трюк; продовження зв’язаного ланцюга їзди на скейтборді по поручню чи задніх колесах (ACT-500); очки без приземлення.
+
+### Ігри-носії
+
+- [`GAME-0450` — SSX Tricky](../games/s-z/ssx-tricky.md)
+
+## ACT-594
+
+- Назва: Витратити адреналін на швидкість спуску
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+Під час спуску гравець запитує додаткову швидкість за рахунок наявного обмеженого запасу адреналіну; сама команда не поповнює цей запас і не встановлює правила його виснаження.
+
+### Включає
+
+Витрачання заробленого адреналіну під час заїзду Garibaldi в оригінальній SSX Tricky.
+
+### Виключає
+
+Звичайне прискорення на схилі; поповнення показника трюками; постійне безумовне прискорення; прискорення машини, оплачене спільним із витривалістю до пошкоджень запасом (ACT-309 разом із SYS-1040).
+
+### Ігри-носії
+
+- [`GAME-0450` — SSX Tricky](../games/s-z/ssx-tricky.md)

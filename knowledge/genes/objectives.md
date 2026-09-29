@@ -5139,3 +5139,80 @@
 - Parameters: selected wild target, successful capture response, owned-collection record and encounter end.
 - Evidence: [Pokémon GO decomposition](../games/m-r/pokemon-go.md), Niantic's launch account and official catch help.
 - Novelty: first isolated for `GAME-0441`; the scoped outcome is retained wild capture, distinct from generic collection progress or a campaign-wide victory.
+
+## OBJ-253 — Convert cultivated harvest into paid farm output
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: within a bounded farm season, grow at least one planted crop to
+  maturity, harvest it and submit it for the scheduled paid shipment, so the
+  farm's retained cash and shipped-output record increase before seasonal
+  turnover.
+- Includes: the first-spring crop-to-shipping-bin loop in original PlayStation
+  *Harvest Moon: Back to Nature*.
+- Excludes: merely clearing a field; collecting an uncultivated wild item;
+  picking a mature crop without shipping it; the separate three-year village
+  judgement or an exhaustive farm-profit target.
+- Parameters: crop species, mature state, harvested item, pickup cutoff,
+  sale value, retained cash, shipment tally and season boundary.
+- Evidence: [Harvest Moon: Back to Nature decomposition](../games/g-l/harvest-moon-back-to-nature.md), original PlayStation manual's Planting & Harvesting, Shipping Bin and Harvest Status sections.
+- Novelty: first isolated for `GAME-0444`; the local economic outcome requires
+  cultivation, harvest and timed shipment rather than one isolated action.
+
+## OBJ-254 — Release one captured Ideya and return to its Palace
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: within one Mare, collect and deliver the required Blue Chips
+  to overload its Ideya Capture, then reach the Ideya Palace with the released
+  dream energy so the successor Mare begins.
+- Includes: first Spring Valley Mare in original Saturn *NiGHTS into Dreams*.
+- Excludes: stopping at the chip quota or capture alone; all four Mares;
+  defeating the later dream henchman; maximising optional score.
+- Parameters: chip quota, released Ideya, Palace arrival and next-Mare handoff.
+- Evidence: [NiGHTS into Dreams decomposition](../games/m-r/nights-into-dreams.md), original Saturn manual's Game Goal and Nightopia sections.
+- Novelty: first isolated for `GAME-0445`; the bounded success state is an
+  ordered collection, release and spatial return, not a global dream clear.
+
+## OBJ-255 — Establish and inspect one paid rail delivery
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: for a bounded introductory railway packet, construct a working route, operate a train until one eligible transport delivery pays the company, and verify the income in its ledger.
+- Includes: the first paid Slough–Oxford Tutorial service in original PC *Railroad Tycoon II*.
+- Excludes: earning $10 million personal net worth by 1900; a guaranteed goods return; mere track construction without paid service.
+- Parameters: origin, destination, eligible payload, company payment and ledger observation.
+- Evidence: [Railroad Tycoon II decomposition](../games/m-r/railroad-tycoon-ii.md), original manual's Tutorial route and financial inspection.
+- Novelty: first isolated for `GAME-0446`; locally verified paid service is distinct from the full long-term financial victory.
+
+## OBJ-256 — Win one fixed boxing bout under its knockout or decision rules
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: defeat one fixed opposing boxer in one bout through a referee-count knockout, the declared within-round knockdown threshold or a favourable final points decision.
+- Includes: Little Mac's first Minor Circuit bout against Glass Joe in NES *Punch-Out!! Featuring Mr. Dream*.
+- Excludes: winning the whole circuit; needing multiple independently won versus rounds; claiming a particular unplayed victory route.
+- Parameters: opponent, knockout count, technical-knockout threshold, round limit, points and result.
+- Evidence: [Punch-Out!! decomposition](../games/m-r/punch-out.md), official Nintendo NES Classic manual pp. 5–7 and Nintendo's NES product description.
+- Novelty: first isolated for `GAME-0447`; several round-local boxing settlement routes lead to one bout victory.
+
+## OBJ-257 — Finish one downhill Single Event Race in first place
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one finite downhill race against a computer field and reach its classified finish in first place; lower place settles the event without satisfying the local win target.
+- Includes: original *SSX Tricky* Garibaldi Single Event Race.
+- Excludes: highest Showoff score; World Circuit medal; car race with retained currency or Cup points (`OBJ-134`, `OBJ-226`).
+- Parameters: course, rider, field, finish, classification and result.
+- Evidence: [SSX Tricky decomposition](../games/s-z/ssx-tricky.md), EA's original booklet and first-hand PS2 guide.
+- Novelty: first isolated for `GAME-0450`; one downhill descent evaluates rank without a progression reward.

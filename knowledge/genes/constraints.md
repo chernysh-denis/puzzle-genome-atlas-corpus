@@ -13500,3 +13500,165 @@
 - Parameters: throw origin, direction, release timing, target position, contact region and current encounter.
 - Evidence: [Pokémon GO decomposition](../games/m-r/pokemon-go.md), contemporary first-hand catch guidance and official catch help.
 - Novelty: first isolated for `GAME-0441`; spatial hit eligibility precedes `SYS-307`'s capture roll and is not equivalent to `CON-276`'s wild-target and device eligibility.
+
+## CON-716 — Require a monochrome two-by-two footprint for ordinary clear
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: four occupied cells must make an orthogonally aligned 2 × 2 square of one colour before that region becomes eligible for the ordinary delayed clear; a mere pair, line or multicolour 2 × 2 block is insufficient.
+- Includes: original PSP *Lumines* Single Skin orange or ivory square formation before the Music Bar clears it.
+- Excludes: complete-row occupancy in Tetris; any adjacent same-colour pair; the subsequent sweep timing (`SYS-1157`); special marked-cell extension (`SYS-1158`).
+- Parameters: colour identity, grid adjacency, minimum 2 × 2 footprint, overlapping larger regions and current skin.
+- Evidence: [Lumines decomposition](../games/g-l/lumines-puzzle-fusion.md), two contemporary original-PSP first-hand guides and the published *Lumines Strategies* analysis.
+- Novelty: first isolated for `GAME-0442`; qualifying geometry is an independent prerequisite of the later autonomous sweep.
+
+## CON-717 — Fire only from exposure with a nonempty six-shot magazine
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the held protective posture disables gunfire, while an exposed trigger pull is eligible only if at least one round remains in the bounded magazine; each accepted shot spends one round until the next cover-linked refill.
+- Includes: original arcade *Time Crisis* Action Pedal cover disabling shots and its six-bullet gun requiring the player to duck for replenishment.
+- Excludes: invulnerable firing from cover; unlimited shots without the cover cycle; an independently commanded exposed reload; the finite life and stage-time failure gates.
+- Parameters: exposure state, magazine cap, remaining rounds, legal trigger, spent round and reload transition.
+- Evidence: [Time Crisis decomposition](../games/s-z/time-crisis.md), Namco operator manual and contemporary first-hand arcade guides.
+- Novelty: first isolated for `GAME-0443`; exposure and the six-shot resource jointly bound each offensive window.
+
+## CON-718 — Field seeds take root only on prepared soil
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a seed distributed onto a farm tile establishes a crop only if
+  that tile is cleared and tilled; seeds falling onto ordinary or obstructed
+  ground do not become valid plants.
+- Includes: the fixed nine-position seed packet in the original PlayStation
+  *Harvest Moon: Back to Nature* first-spring field.
+- Excludes: the player's act of hoeing (`ACT-578`); growth and watering after
+  planting; a crop that can be planted directly on uncleared ground.
+- Parameters: tile obstruction, tilled mask, packet footprint, season, seed
+  species and accepted plant positions.
+- Evidence: [Harvest Moon: Back to Nature decomposition](../games/g-l/harvest-moon-back-to-nature.md), original PlayStation manual's Planting & Harvesting section.
+- Novelty: first isolated for `GAME-0444`; one broadcast packet may partly
+  fail according to the separately committed prepared-ground pattern.
+
+## CON-719 — Direct crop care requires reachable field access
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a crop can be directly watered or picked only from a position
+  reachable with the current tool's range and the occupied field geometry;
+  dense surrounding plants can block care of an inner crop until access opens
+  or a tool upgrade extends reach.
+- Includes: the inaccessible center of a dense 3 × 3 planting under the
+  original PlayStation *Harvest Moon: Back to Nature* base watering can.
+- Excludes: seed spread across the full packet footprint; rain watering an
+  inaccessible tile; treating an upgrade as already owned; crops behind a
+  freely passable empty path.
+- Parameters: standing tile, crop tile, crop occupancy, passage, tool range,
+  upgrade level, water action and harvest action.
+- Evidence: [Harvest Moon: Back to Nature decomposition](../games/g-l/harvest-moon-back-to-nature.md), original PlayStation manual's Crop Circles guidance.
+- Novelty: first isolated for `GAME-0444`; planting topology constrains
+  later care and yield even when every tile accepted a seed.
+
+## CON-720 — Capture and Palace return require ordered Mare progress
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the active Mare cannot advance merely from collecting loose
+  chips: twenty Blue Chips must overload its Ideya Capture, and the released
+  energy must then be carried back to the Ideya Palace before the next Mare.
+- Includes: the first Spring Valley Mare of original Saturn *NiGHTS*.
+- Excludes: an optional score-only chip target; entering the next Mare on
+  capture alone; collecting all four dream Ideya in this single-Mare packet.
+- Parameters: required quota, delivered count, capture state, Palace reach
+  and successor-stage gate.
+- Evidence: [NiGHTS into Dreams decomposition](../games/m-r/nights-into-dreams.md), original Saturn manual's Game Goal and Nightopia sections.
+- Novelty: first isolated for `GAME-0445`; quota fulfilment and route return
+  are separate ordered gates rather than one collection terminal.
+
+## CON-721 — Station catchment gates local rail supply and demand
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a local producer or receiver contributes rail cargo only when it lies within an eligible station's service radius; track adjacency without station coverage is insufficient.
+- Includes: Tutorial sheep and textile industries served through appropriately placed Slough/Oxford stations in original PC *Railroad Tycoon II*.
+- Excludes: the train's separate need for connected rail (`CON-237`); remote supply merely visible on the map; automatic output availability on the first return.
+- Parameters: station size, service radius, producer or consumer location, cargo type and current demand.
+- Evidence: [Railroad Tycoon II decomposition](../games/m-r/railroad-tycoon-ii.md), original manual's Tutorial station and Railroading chapters.
+- Novelty: first isolated for `GAME-0446`; station service area, not rail adjacency alone, admits local industry traffic.
+
+## CON-722 — Star uppercut requires held boxing star stock
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the special uppercut command is eligible only while the boxer holds at least one earned star, in addition to ordinary actionable-fighter requirements.
+- Includes: pressing START for Little Mac's uppercut in NES *Punch-Out!! Featuring Mr. Dream*.
+- Excludes: ordinary body or face punches; assuming an uppercut after all stars are lost; the separate process that awards and removes stars.
+- Parameters: available stars, command, cost and fighter state.
+- Evidence: [Punch-Out!! decomposition](../games/m-r/punch-out.md), official Nintendo NES Classic manual pp. 2, 7.
+- Novelty: first isolated for `GAME-0447`; a temporary hit-earned stock gates one boxer attack without gating ordinary punches.
+
+## CON-723 — Auto-run control cannot stop and separates corner from lateral input
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: ordinary forward movement cannot be stopped or reversed; a left/right directional swipe may turn the runner only at a viable 90-degree bend, while lateral handset tilt only changes position on the current path and cannot take that bend.
+- Includes: the original-iPhone *Temple Run* runner approaching a left temple-wall corner while tilted toward nearby coins.
+- Excludes: free local world navigation (`ACT-008`); treating lateral tilt as a route-turn command; a tap-to-pause utility outside the live attempt.
+- Parameters: current heading, corner geometry, swipe eligibility, lateral offset, forward rate and edge-failure boundary.
+- Evidence: [Temple Run decomposition](../games/s-z/temple-run.md), Imangi creators' first-person control explanations.
+- Novelty: first isolated for `GAME-0448`; two input channels have different authority over one continuously moving runner.
+
+## CON-724 — Restrict combat techniques by target row and position
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a turn-combat attack can be selected only against targets its technique reaches by front/behind, ground/air/ceiling position and any incompatible contact condition.
+- Includes: original-N64 *Paper Mario* jump reaching a grounded rear Fuzzy while the ordinary hammer normally reaches only the front grounded foe; jump is unsafe on a spiked head.
+- Excludes: arbitrary target selection without positional checks; fixed action-point cost; treating every grounded enemy as hammer-reachable.
+- Parameters: technique, target depth, elevation, contact hazard and legal-target set.
+- Evidence: [Paper Mario decomposition](../games/m-r/paper-mario.md), Nintendo's N64 manual pp. 16–17.
+- Novelty: first isolated for `GAME-0449`; actor commands have distinct target topology even within one side's turn.
+
+## CON-725 — Gate special battle techniques by Flower Points
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a selected special or badge-granted attack is legal only if current shared Flower Points cover its stated cost; ordinary attacks do not consume this special-attack stock.
+- Includes: choosing Kooper's FP-paid Power Shell rather than ordinary Shell Toss against four Fuzzies in original-N64 *Paper Mario*.
+- Excludes: a fixed opening FP balance; Star Spirit attacks paid by separate Star Power; spending Badge Points during battle.
+- Parameters: current FP, technique cost, command availability and post-use balance.
+- Evidence: [Paper Mario decomposition](../games/m-r/paper-mario.md), Nintendo's N64 manual pp. 8, 16 and original-game Koopa Village route.
+- Novelty: first isolated for `GAME-0449`; special commands share an FP legality boundary distinct from target geometry.
+
+## CON-726 — Credit an aerial snowboard trick only after a clean landing
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an aerial manoeuvre cannot add points, adrenaline or Uber-letter progress unless the rider releases and completes it with an eligible landing; a fall forfeits that credit.
+- Includes: grabs, rotations and Uber tricks in original *SSX Tricky* Garibaldi Race.
+- Excludes: animation alone; Showoff checkpoint; exact safe-angle or airtime formula.
+- Parameters: air state, manoeuvre, release, touchdown, crash and credit.
+- Evidence: [SSX Tricky decomposition](../games/s-z/ssx-tricky.md), EA's original booklet, trick and landing sections.
+- Novelty: first isolated for `GAME-0450`; trick-to-speed conversion depends on completed air, not input alone.

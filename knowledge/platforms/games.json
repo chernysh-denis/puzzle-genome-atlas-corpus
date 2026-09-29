@@ -24446,6 +24446,123 @@
       },
       "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
       "releases": []
+    },
+    "GAME-0442": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-PORTABLE",
+        "edition": "Original North American English 2005 PSP Lumines: Puzzle Fusion, solo Single Skin with the initially unlocked Shinin' skin",
+        "editionUk": "Оригінальна північноамериканська англомовна Lumines: Puzzle Fusion 2005 року для PSP: одиночний режим однієї теми з початковою музичною темою Shinin'",
+        "version": "Original PSP Single Skin rules reconstructed from contemporary sources; exact UMD revision not inspected; later editions excluded",
+        "distribution": "Original North American PSP UMD; no later remake or PS2 port in this analysis target",
+        "evidenceUrl": "https://lumines.game/history/",
+        "checked": "2026-09-28"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0443": {
+      "analysisTarget": {
+        "platformId": "PLAT-ARCADE-CABINET",
+        "edition": "Original North American Namco Time Crisis single-player arcade cabinet, Story Game first Stage 1 Area 1 combat view",
+        "editionUk": "Оригінальний північноамериканський однокористувацький аркадний автомат Namco Time Crisis: перша бойова сцена зони 1 етапу 1 сюжетного режиму",
+        "version": "Original cabinet rules reconstructed from Namco operator manual and contemporary arcade accounts; exact PCB ROM and operator settings not inspected",
+        "distribution": "Original Namco arcade installation with calibrated gun, 50-inch display and foot-operated Action Pedal; PlayStation port excluded",
+        "evidenceUrl": "https://manualzz.com/doc/994451/namco-time-crisis-arcade-game-operator%E2%80%99s-manual",
+        "checked": "2026-09-28"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0444": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION",
+        "edition": "Original North American English 2000 PlayStation Harvest Moon: Back to Nature, first Spring 2 through Summer 1 crop cycle",
+        "editionUk": "Оригінальна північноамериканська англомовна Harvest Moon: Back to Nature 2000 року для PlayStation: перший цикл вирощування від 2-го дня весни до 1-го дня літа",
+        "version": "Original PlayStation farm rules reconstructed from its printed manual and contemporary guides; exact disc revision not inspected",
+        "distribution": "Original North American PlayStation disc; later PS4/PS5 conversion excluded as mechanics evidence",
+        "evidenceUrl": "https://oldgamesdownload.com/wp-content/uploads/manuals/harvest-moon-back-to-nature_ps1_manual_en_b8i.pdf",
+        "checked": "2026-09-28"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0445": {
+      "analysisTarget": {
+        "platformId": "PLAT-SEGA-SATURN",
+        "edition": "Original 1996 North American English Sega Saturn NiGHTS into Dreams, first Claris Spring Valley Mare",
+        "editionUk": "Оригінальна північноамериканська англомовна NiGHTS into Dreams 1996 року для Sega Saturn: перший маршрут Кларіс у Spring Valley",
+        "version": "Original Saturn rules reconstructed from the printed manual; exact disc revision not inspected",
+        "distribution": "Original North American Saturn disc; later remaster and Christmas NiGHTS excluded",
+        "evidenceUrl": "https://segaretro.org/images/e/e9/Nightsintodreams_sat_us_manual.pdf",
+        "checked": "2026-09-28"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0446": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Original English 1998 Windows PC Railroad Tycoon II, first Tutorial railway-service loop",
+        "editionUk": "Оригінальна англомовна Railroad Tycoon II 1998 року для Windows: перша залізнична послуга вступного сценарію",
+        "version": "Original PC Tutorial rules reconstructed from the printed manual; exact CD-ROM revision not inspected",
+        "distribution": "Original Windows PC CD-ROM rules; Platinum/Second Century additions and later ports excluded",
+        "evidenceUrl": "https://manualzilla.com/doc/5757182/railroad-tycoon-ii%C2%A9",
+        "checked": "2026-09-28"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0447": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-ENTERTAINMENT-SYSTEM",
+        "edition": "1990 NES Punch-Out!! Featuring Mr. Dream, first Little Mac versus Glass Joe bout",
+        "editionUk": "Punch-Out!! Featuring Mr. Dream 1990 року для NES: перший бій Малого Мака з Glass Joe",
+        "version": "NES Mr. Dream rules reconstructed from Nintendo's official manual; cartridge revision not inspected",
+        "distribution": "Original NES edition; Mike Tyson, arcade, Wii and Super Punch-Out!! rules excluded",
+        "evidenceUrl": "https://www.nintendo.co.jp/clv/manuals/en/pdf/CLV-P-NAATE_en.pdf",
+        "checked": "2026-09-28"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0448": {
+      "analysisTarget": {
+        "platformId": "PLAT-IOS",
+        "edition": "Original August 2011 iPhone Temple Run, one fresh unassisted classic score run",
+        "editionUk": "Оригінальна Temple Run для iPhone від серпня 2011 року: одна нова партія без куплених поліпшень чи допомоги",
+        "version": "Original launch-era rules reconstructed from creator and contemporary first-hand accounts; exact app build not inspected",
+        "distribution": "Original iPhone App Store release; Temple Run 2, Temple Run+ and later live-service rules excluded",
+        "evidenceUrl": "https://imangistudios.zendesk.com/hc/en-us/articles/4995833305747-About-Temple-Run",
+        "checked": "2026-09-28"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0449": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-64",
+        "edition": "Original English Nintendo 64 Paper Mario, four-Fuzzy battle after Kooper joins",
+        "editionUk": "Оригінальна англомовна Paper Mario для Nintendo 64: бій із чотирма Fuzzy після приєднання Купера",
+        "version": "Original N64 rules reconstructed from Nintendo's manual and two written routes; cartridge revision not inspected",
+        "distribution": "Original Nintendo 64 edition; later series games and remakes excluded",
+        "evidenceUrl": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_8/Manual_Nintendo64_PaperMario_EN.pdf",
+        "checked": "2026-09-28"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0450": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-2",
+        "edition": "Original 2001 PlayStation 2 SSX Tricky, one Amateur Garibaldi Single Event Race",
+        "editionUk": "Оригінальна SSX Tricky 2001 року для PlayStation 2: один одиночний заїзд Race на Garibaldi проти суперників рівня Amateur",
+        "version": "Original PS2 race rules reconstructed from EA's contemporary cross-platform Tricky booklet and a first-hand PS2 guide; exact disc revision uninspected",
+        "distribution": "Original PlayStation 2 edition; first SSX, SSX 3, 2012 reboot, Showoff and World Circuit rules excluded",
+        "evidenceUrl": "https://manualzz.com/doc/25168321/electronic-arts-ssx-tricky-video-game-instruction-booklet",
+        "checked": "2026-09-28"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
     }
   }
 }

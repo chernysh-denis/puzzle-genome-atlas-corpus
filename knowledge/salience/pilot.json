@@ -6,6 +6,78 @@
     "supporting"
   ],
   "games": {
+    "GAME-0450": {
+      "reviewed": "2026-09-28",
+      "noteEn": "One original-PS2 Garibaldi Race is defined by landing aerial snowboard tricks to earn adrenaline, spending it for speed, and completing Uber letters to remove the reserve limit for this descent. Downhill physics, rival classification, clean-landing eligibility, race feedback and first-place objective structure the contest; direct steering and continuous time support it. EA's same-game cross-platform booklet and a first-hand PS2 guide bound this source-only reconstruction; no PS2 disc was played.",
+      "noteUk": "Один заїзд на Garibaldi в оригінальній версії для PS2 визначають чисте приземлення трюків для поповнення адреналіну, його витрати на швидкість і заповнення літер особливими трюками, щоб усунути обмеження запасу до кінця спуску. Рух схилом, змагання із суперниками, вимога до приземлення, показники гонки й мета бути першим формують рішення; безпосереднє керування та безперервний час підтримують їх. Межу реконструкції задають посібник EA до тієї самої гри на іншій платформі й письмовий посібник гравця PS2; диск PS2 не запускали.",
+      "defining": ["ACT-593", "ACT-594", "SYS-1183", "SYS-1184"],
+      "structural": ["SYS-1181", "SYS-1182", "CON-726", "INF-435", "OBJ-257"],
+      "supporting": ["ACT-008", "TIM-003"]
+    },
+    "GAME-0449": {
+      "reviewed": "2026-09-28",
+      "noteEn": "The original-N64 four-Fuzzy battle is defined by Mario with one replaceable helper, a one-time pre-action order exchange, two allied actions against hostile replies, a timed damage-reducing defence and contingent Fuzzy life drain. Attack-position and FP gates, battle-state display and the finite clearance condition structure decisions. Ordinary command targeting, offensive Action Commands, their grading, attack cues and discrete time support the loop. Nintendo's manual and two written routes bound a source-only reconstruction; no original cartridge was played.",
+      "noteUk": "Бій із чотирма Fuzzy в оригінальній Paper Mario для Nintendo 64 визначають Маріо з одним змінним партнером, перестановка їхнього порядку до першої дії, дві союзні дії перед відповіддю ворогів, своєчасний захист зі зменшенням шкоди та поглинання здоров’я вдалою атакою Fuzzy. Обмеження цілей і очок квітів, показники бою й мета перемогти всіх чотирьох формують рішення. Вибір команди, часова команда атаки, її оцінювання, підказки й покроковість підтримують цикл. Посібник Nintendo та два письмові проходження задають межу реконструкції; оригінальний картридж не запускали.",
+      "defining": ["ACT-590", "ACT-591", "ACT-592", "SYS-1178", "SYS-1179"],
+      "structural": ["SYS-1180", "CON-724", "CON-725", "INF-434", "OBJ-029"],
+      "supporting": ["ACT-019", "ACT-222", "SYS-358", "INF-142", "TIM-001"]
+    },
+    "GAME-0448": {
+      "reviewed": "2026-09-28",
+      "noteEn": "The original iPhone Temple Run attempt is defined by distinct swipe and tilt inputs, a varying endless corridor, recoverable stumble versus fatal failure, and the no-stop corner rule. Live run score, a short forward view and score maximisation structure risk; contact coin pickup, autonomous forward travel and real time support it. Creator and contemporary first-hand accounts bound this source-only reconstruction; no original app was played.",
+      "noteUk": "Одну партію оригінальної Temple Run для iPhone визначають окремі проведення пальцем і нахили, мінливий нескінченний шлях, різниця між спотиканням та фатальною помилкою і правило безупинного бігу з поворотом лише на розі. Рахунок, короткий огляд попереду та прагнення вищого результату формують ризик; збирання монет дотиком, самостійний рух героя й живий час підтримують цикл. Межу реконструкції задають свідчення творців і тогочасні огляди; оригінальний застосунок не запускали.",
+      "defining": ["ACT-588", "ACT-589", "SYS-1175", "SYS-1176", "CON-723"],
+      "structural": ["SYS-1177", "INF-433", "OBJ-002"],
+      "supporting": ["SYS-037", "SYS-045", "TIM-003"]
+    },
+    "GAME-0447": {
+      "reviewed": "2026-09-28",
+      "noteEn": "The first NES Glass Joe bout is defined by timed weave/block-to-counter choices, a heart stock that can suspend punching before stamina reaches zero, stars earned for certain hits and spent on uppercuts, active rising under a referee count, one between-round stamina recovery, and KO/TKO/points settlement across one boxing bout. The separate HUD and attack cues structure decisions; ordinary live combat and fighter-state legality support them. Nintendo's official manual bounds this source-only reconstruction; no cartridge was played.",
+      "noteUk": "Перший бій із Glass Joe на NES визначають своєчасні ухилення чи блокування перед контрударом, окремий запас сердець, що може тимчасово заборонити удари до виснаження витривалості, зорі за певні влучання для аперкоту, активне підведення під відлік рефері, одноразове відновлення витривалості між раундами та підсумок нокаутом, технічним нокаутом або за очками в одному боксерському бою. Окремі показники й рухи ударів допомагають ухвалювати рішення; безпосередній бій і вимоги до стану боксера підтримують цикл. Межу задає офіційний посібник Nintendo; картридж не запускали.",
+      "defining": ["ACT-586", "ACT-587", "SYS-1172", "SYS-1173", "SYS-1174", "CON-722", "OBJ-256"],
+      "structural": ["ACT-295", "ACT-356", "INF-142", "INF-432"],
+      "supporting": ["ACT-296", "SYS-215", "CON-442", "TIM-003"]
+    },
+    "GAME-0446": {
+      "reviewed": "2026-09-28",
+      "noteEn": "The original PC Tutorial service is defined by funding a company, laying a graded physical track, placing catchment stations, programming a train's stop/consist/wait rules, and earning the first corporate transport payment. Station reach, industrial conversion, preview maps and the founder's separate portfolio shape decisions; purchase, autonomous service, solvency, compatible rails, company ledger, speed and live time support them. The original manual bounds the source-only packet; no CD-ROM was played.",
+      "noteUk": "Першу послугу вступного сценарію оригінальної ПК-гри визначають заснування компанії, прокладання фізичної колії з ухилом, розміщення станцій із зонами обслуговування, задання зупинок, вагонів та очікування поїзда і перша оплата перевезення компанії. Охоплення підприємств, подальша переробка вовни, показана карта та окремий особистий портфель формують рішення; купівля, автоматичний рейс, платоспроможність, зв’язність, облік компанії, прискорення й живий час їх підтримують. Опис обмежує оригінальний посібник; диск не запускали.",
+      "defining": ["ACT-582", "ACT-583", "ACT-584", "ACT-585", "SYS-1171", "OBJ-255"],
+      "structural": ["SYS-1170", "CON-721", "INF-430", "INF-431"],
+      "supporting": ["ACT-006", "ACT-130", "SYS-266", "CON-171", "CON-237", "INF-058", "TIM-003"]
+    },
+    "GAME-0445": {
+      "reviewed": "2026-09-28",
+      "noteEn": "The original Saturn first Spring Valley Mare is defined by enclosing chips with a Paraloop, spending and restoring drill capacity, delivering twenty Blue Chips to the Capture, returning the released Ideya to the Palace and avoiding the timer-driven change to vulnerable ground pursuit. The live HUD and optional Link score structure route trade-offs; direct steering, contact pickup, moving Minions and real-time input support the loop. The original manual bounds this source-only reconstruction without direct disc play.",
+      "noteUk": "Перший маршрут Spring Valley в оригінальній грі для Sega Saturn визначають замкнена петля для збирання фішок, витрачання й поповнення запасу ривка, передавання двадцяти синіх фішок поглиначу, повернення звільненої Ідеї до Палацу та загроза наземного переслідування після завершення часу. Поточні показники й необов’язкові серії очок допомагають обирати шлях; пряме керування, дотик до фішок, рух ворогів і живий відлік підтримують цикл. Межу визначає оригінальний посібник, а диск не запускали.",
+      "defining": ["ACT-580", "SYS-1166", "SYS-1167", "CON-720", "OBJ-254"],
+      "structural": ["ACT-581", "SYS-1168", "SYS-1169", "INF-429"],
+      "supporting": ["ACT-008", "SYS-037", "SYS-045", "SYS-1029", "OBJ-002", "TIM-003"]
+    },
+    "GAME-0444": {
+      "reviewed": "2026-09-28",
+      "noteEn": "The original PlayStation first-spring crop packet is defined by hoe-prepared soil, a single nine-position seed broadcast, the prepared-tile and care-reach gates, water-dependent daily growth, scheduled bin payment and a locally bounded cultivated-sale outcome. Season turnover, stamina, crop viability, visible farm state and the indoor clock pause structure the work. Walking, seed purchase, individual care, sleep, bin deposit, obstacle clearing, weather forecast and live outdoor time support the loop. The original manual and contemporary crop guides bound this source-only reconstruction; no disc was played.",
+      "noteUk": "Перший весняний цикл в оригінальній грі для PlayStation визначають підготовка ґрунту мотикою, посів одного пакета на дев’ять позицій, вимоги до підготовлених клітин і досяжності рослин, щоденний ріст після поливу чи дощу, запланована оплата зі скрині та локальна мета продажу вирощеного. Зміна сезону, витривалість, життєздатність культур, видимий стан ферми й зупинка годинника в будівлі формують роботу. Пересування, купівля насіння, догляд за окремими рослинами, сон, вкладання до скрині, прибирання перешкод, прогноз і час надворі підтримують цикл. Межу реконструкції задають оригінальний посібник і тогочасні маршрути вирощування; диск не запускали.",
+      "defining": ["ACT-578", "ACT-579", "SYS-1162", "SYS-1163", "CON-718", "CON-719", "OBJ-253"],
+      "structural": ["SYS-1164", "SYS-1165", "CON-311", "INF-136", "TIM-031"],
+      "supporting": ["ACT-008", "ACT-130", "ACT-213", "ACT-214", "ACT-219", "ACT-512", "INF-091", "TIM-003"]
+    },
+    "GAME-0443": {
+      "reviewed": "2026-09-28",
+      "noteEn": "The first original arcade Story Game view is defined by pedal-selected exposure, physically aimed shots, cover-linked six-round refill, the exposed-and-loaded firing gate and a deadline that a designated target can extend. The finite enemy group, lives, local view, visible resources and authored camera release structure the encounter; ordinary real-time combat supports it. Namco's operator manual and two first-hand arcade guides bound this source-only reconstruction; no cabinet was played.",
+      "noteUk": "Першу сцену сюжетного режиму оригінального аркадного автомата визначають вибір відкритої стійки педаллю, фізичне прицілювання, поповнення шести набоїв в укритті, дозвіл на постріл лише у відкритій стійці із зарядженим магазином та часовий бонус за визначену ціль. Скінченна група ворогів, життя, видима сцена й показники запасів та перехід камери формують сутичку; бойові відповіді в реальному часі її підтримують. Межу реконструкції задають посібник Namco і два письмові свідчення аркадних гравців; власної гри не було.",
+      "defining": ["ACT-202", "ACT-490", "SYS-1160", "SYS-1161", "CON-717", "CON-068"],
+      "structural": ["SYS-915", "CON-183", "INF-179", "INF-428", "OBJ-029"],
+      "supporting": ["SYS-215", "TIM-003"]
+    },
+    "GAME-0442": {
+      "reviewed": "2026-09-28",
+      "noteEn": "One original PSP Single Skin session is defined by choosing the falling block pose, independent two-column landing, a monochrome 2 × 2 eligibility gate, and clearing only when a music-paced line passes. Score follows clears. A marked cell may extend one clear; finite capacity, visible line and short preview, top-out and live time structure decisions. Variable incoming blocks, descent and continued placement support the loop. Two contemporary guides and a published formal analysis bound this source-only reading without original UMD play.",
+      "noteUk": "Одну партію режиму однієї теми в оригінальній Lumines для PSP визначають вибір положення блока під час падіння, роздільне осідання двох стовпців, вимога одноколірного квадрата 2 × 2 та вилучення лише під час проходу музичної лінії. За це зростає рахунок. Позначена клітинка може поширити вилучення; обмежене поле, видимі лінія й коротка черга, переповнення та безперервний час формують рішення. Різні наступні блоки, падіння й подальше розміщення підтримують цикл. Два тогочасні письмові посібники та опублікований аналіз обмежують цю реконструкцію; оригінальний диск не запускали.",
+      "defining": ["ACT-005", "SYS-1159", "CON-716", "SYS-1157", "OBJ-002"],
+      "structural": ["SYS-1158", "CON-001", "CON-008", "INF-001", "INF-005", "TIM-003"],
+      "supporting": ["ACT-006", "SYS-004", "SYS-006", "SYS-009", "CON-007", "OBJ-003"]
+    },
     "GAME-0441": {
       "reviewed": "2026-09-28",
       "noteEn": "One launch-era Pokémon GO wild catch is defined by real walking as map input, location-linked encounter presentation, a committed Ball, its uncertain capture response and one retained wild target. Throw contact and the separate map/ring information surfaces structure the decision; eligible target and device supply support it. Dated Niantic statements and contemporary first-hand guidance bound the source-only packet; no original client or server was played.",

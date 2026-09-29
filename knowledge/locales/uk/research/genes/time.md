@@ -41,6 +41,7 @@
 - [`GAME-0070` — Inertia](../games/g-l/inertia.md)
 - [`GAME-0059` — KAMI](../games/g-l/kami.md)
 - [`GAME-0003` — Minesweeper](../games/m-r/minesweeper.md)
+- [`GAME-0449` — Paper Mario](../games/m-r/paper-mario.md)
 - [`GAME-0019` — Peg Solitaire](../games/m-r/peg-solitaire.md)
 - [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
 - [`GAME-0336` — "Pokémon Red Version"](../games/m-r/pokemon-red-version.md)
@@ -281,6 +282,7 @@
 - [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
 - [`GAME-0340` — "Halo: Combat Evolved Anniversary"](../games/g-l/halo-combat-evolved-anniversary.md)
 - [`GAME-0410` — Halo Wars](../games/g-l/halo-wars.md)
+- [`GAME-0444` — "Harvest Moon: Back to Nature"](../games/g-l/harvest-moon-back-to-nature.md)
 - [`GAME-0182` — Hearts of Iron IV](../games/g-l/hearts-of-iron-iv.md)
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
@@ -307,6 +309,7 @@
 - [`GAME-0394` — LittleBigPlanet 2](../games/g-l/littlebigplanet-2.md)
 - [`GAME-0028` — Loop Hero](../games/g-l/loop-hero.md)
 - [`GAME-0403` — "Luigi's Mansion"](../games/g-l/luigis-mansion.md)
+- [`GAME-0442` — 'Lumines: Puzzle Fusion'](../games/g-l/lumines-puzzle-fusion.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
 - [`GAME-0095` — Manifold Garden](../games/m-r/manifold-garden.md)
 - [`GAME-0096` — Maquette](../games/m-r/maquette.md)
@@ -338,6 +341,7 @@
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 - [`GAME-0217` — "Need for Speed Underground"](../games/m-r/need-for-speed-underground.md)
+- [`GAME-0445` — "NiGHTS into Dreams"](../games/m-r/nights-into-dreams.md)
 - [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
 - [`GAME-0419` — Nintendogs](../games/m-r/nintendogs.md)
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
@@ -375,8 +379,10 @@
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0358` — Psychonauts](../games/m-r/psychonauts.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
+- [`GAME-0447` — Punch-Out!!](../games/m-r/punch-out.md)
 - [`GAME-0438` — Q*bert](../games/m-r/qbert.md)
 - [`GAME-0334` — Quake](../games/m-r/quake.md)
+- [`GAME-0446` — Railroad Tycoon II](../games/m-r/railroad-tycoon-ii.md)
 - [`GAME-0404` — Ratchet & Clank](../games/m-r/ratchet-and-clank.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
@@ -407,6 +413,7 @@
 - [`GAME-0412` — Splatoon 3](../games/s-z/splatoon-3.md)
 - [`GAME-0157` — Split Fiction](../games/s-z/split-fiction.md)
 - [`GAME-0373` — Spore](../games/s-z/spore.md)
+- [`GAME-0450` — SSX Tricky](../games/s-z/ssx-tricky.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0424` — "Star Fox 64"](../games/s-z/star-fox-64.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
@@ -431,6 +438,7 @@
 - [`GAME-0426` — Tearaway](../games/s-z/tearaway.md)
 - [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
+- [`GAME-0448` — Temple Run](../games/s-z/temple-run.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0004` — Tetris](../games/s-z/tetris.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
@@ -449,6 +457,7 @@
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 - [`GAME-0370` — Theme Hospital](../games/s-z/theme-hospital.md)
 - [`GAME-0133` — Timberborn](../games/s-z/timberborn.md)
+- [`GAME-0443` — Time Crisis](../games/s-z/time-crisis.md)
 - [`GAME-0030` — Tin Hearts](../games/s-z/tin-hearts.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
@@ -1087,3 +1096,24 @@ Stardew Valley позначає `Boiler Room` завершеною після з
 ### Ігри-носії
 
 - [`GAME-0418` — 'FTL: Faster Than Light'](../games/a-f/ftl-faster-than-light.md)
+
+## TIM-031
+
+- Назва: Вести денний годинник надворі й зупиняти його в будівлі
+- Переглянуто: `2026-09-28`
+
+### Операційне визначення
+
+Годинник фермерського дня рухається під час роботи або подорожі надворі, але вхід до приміщення призупиняє його для планування й взаємодії. Вихід відновлює той самий день, а не починає новий.
+
+### Включає
+
+Перебування в домі, крамниці та інших приміщеннях під час першої весни оригінальної Harvest Moon: Back to Nature для PlayStation.
+
+### Виключає
+
+Зупинку кожної дії надворі; добровільний сон до наступного дня; вічну зупинку всієї гри; синхронізацію з календарем реального світу.
+
+### Ігри-носії
+
+- [`GAME-0444` — "Harvest Moon: Back to Nature"](../games/g-l/harvest-moon-back-to-nature.md)
