@@ -48,6 +48,7 @@
 - [`GAME-0415` — Crazy Taxi](../games/a-f/crazy-taxi.md)
 - [`GAME-0021` — Cut the Rope](../games/a-f/cut-the-rope.md)
 - [`GAME-0020` — Dorfromantik](../games/a-f/dorfromantik.md)
+- [`GAME-0452` — Dr. Mario](../games/a-f/dr-mario.md)
 - [`GAME-0345` — "Duck Hunt"](../games/a-f/duck-hunt.md)
 - [`GAME-0052` — Freeways](../games/a-f/freeways.md)
 - [`GAME-0401` — "Fruit Ninja"](../games/a-f/fruit-ninja.md)
@@ -214,6 +215,7 @@
 ### Ігри-носії
 
 - [`GAME-0109` — Candy Crush Saga](../games/a-f/candy-crush-saga.md)
+- [`GAME-0452` — Dr. Mario](../games/a-f/dr-mario.md)
 - [`GAME-0060` — HOOK](../games/g-l/hook.md)
 - [`GAME-0070` — Inertia](../games/g-l/inertia.md)
 - [`GAME-0342` — "PAC-MAN"](../games/m-r/pac-man.md)
@@ -466,6 +468,7 @@
 
 - [`GAME-0034` — Braid, Anniversary Edition](../games/a-f/braid.md)
 - [`GAME-0024` — Gorogoa](../games/g-l/gorogoa.md)
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
 
 ## OBJ-019
 
@@ -651,6 +654,7 @@
 ### Ігри-носії
 
 - [`GAME-0054` — A Monster’s Expedition](../games/a-f/a-monsters-expedition.md)
+- [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
 - [`GAME-0097` — Antichamber](../games/a-f/antichamber.md)
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
@@ -692,6 +696,7 @@
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 - [`GAME-0426` — Tearaway](../games/s-z/tearaway.md)
 - [`GAME-0107` — The Pedestrian](../games/s-z/the-pedestrian.md)
+- [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 - [`GAME-0104` — TUNIC](../games/s-z/tunic.md)
 
@@ -2260,6 +2265,7 @@ Wonder, Relic, Score і кампанійні перемоги; одну вигр
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 
 ## OBJ-104
 
@@ -5529,3 +5535,87 @@ Titanic Ant із двома помічниками, Giant Step та першу �
 ### Ігри-носії
 
 - [`GAME-0450` — SSX Tricky](../games/s-z/ssx-tricky.md)
+
+## OBJ-258
+
+- Назва: Завершити ритмічну вправу з прохідною підсумковою оцінкою
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Завершити одну скінченну авторську ритмічну вправу й одержати прохідну оцінку якості, щоб зарахувати звичайне проходження та перейти до наступної. Саме досягнення кінця ще не означає успіх.
+
+### Включає
+
+OK або Superb після першої Built to Scale для DS; медаль за Superb не потрібна для звичайного переходу.
+
+### Виключає
+
+Завершення пісні за шкалою виживання; обов’язкову поточну оцінку Good учителя; допуск до випробування Perfect; проходження всієї збірки; успіх незалежно від підсумкової якості.
+
+### Ігри-носії
+
+- [`GAME-0454` — Rhythm Heaven](../games/m-r/rhythm-heaven.md)
+
+## OBJ-259
+
+- Назва: Вигравати раунди сталої пари нокаутом, часом або виходом із рингу
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+В одному матчі сталої пари набери потрібну кількість виграних раундів раніше за суперника: вичерпай його життя, залиш більше життя до кінця часу або змусь його вийти з рингу. Просторова перемога допустима й за додатного життя.
+
+### Включає
+
+Потрібна кількість перемог у звичайному VS Battle оригінальної Soulcalibur для Dreamcast, зокрема Ring Out.
+
+### Виключає
+
+Нокаут і кінець часу як єдині шляхи перемоги; вичерпання спроб платформного бійця; всю драбину Arcade; командний чи турнірний сет; один раунд як увесь багатораундовий матч.
+
+### Ігри-носії
+
+- [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
+
+## OBJ-260
+
+- Назва: Завершити скінченний ланцюг перегонів із поповнюваним часом
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Пройти потрібний авторський ланцюг трас до вичерпання поповнюваного часу, включити фактично присуджену бонусну трасу та дійти кінцевого класифікованого результату спроби; перше місце не вимагається для кожного звичайного завершення.
+
+### Включає
+
+Один кредит одиночного Championship оригінальної Sega Rally Championship від вибору автомобіля до звичайного або допустимого бонусного завершення.
+
+### Виключає
+
+Окреме тренувальне коло; спробу лише на виміряний час; обов’язкову нагороду кампанії; кубок за сумою очок; зупинку після першої проміжної траси.
+
+### Ігри-носії
+
+- [`GAME-0457` — Sega Rally Championship](../games/s-z/sega-rally-championship.md)
+
+## OBJ-261
+
+- Назва: Зібрати потрібні докази перемоги над ворогами й відзвітувати отримувачу
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Завершити одне скінченне авторське завдання: перемогти відповідних ворогів, фізично зібрати щонайменше оголошену кількість їхніх предметів-доказів, повернутися до визначеного отримувача й окремою розмовою здати завдання.
+
+### Включає
+
+Перше завдання Westside Hotel в оригінальній Daxter для PSP: зібрати щонайменше 25 золотих самоцвітів, повернутися ліфтом і відзвітувати консьєржу.
+
+### Виключає
+
+Зупинку одразу після перемоги чи підбирання потрібної кількості; збирання всіх необов’язкових предметів; винищення лише заради рахунку; вантаж із відправленням транспорту за часом; автоматичне завершення за кількістю спійманих видів.
+
+### Ігри-носії
+
+- [`GAME-0459` — Daxter](../games/a-f/daxter.md)

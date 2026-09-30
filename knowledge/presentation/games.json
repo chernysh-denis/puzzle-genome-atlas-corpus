@@ -3571,6 +3571,78 @@
       "playUrl": "https://www.ea.com/en-gb/games/ssx",
       "linkLabelUk": "Переглянути офіційну сторінку серії SSX від EA ↗",
       "linkLabelEn": "View EA's official SSX series page ↗"
+    },
+    "GAME-0451": {
+      "titleUk": "Розкрадачка гробниць, 1996",
+      "summaryUk": "Перший рівень Caves оригінальної Tomb Raider для PlayStation: Лара вирівнює стрибки й тримається за уступи, стріляє з пістолетів або ховає їх для дій руками, витрачає аптечки та проходить тимчасові двері до виходу. Збереження прив’язане до консольного кристала; це аналіз за джерелами, не власне проходження.",
+      "summaryEn": "The first Caves level of original PlayStation Tomb Raider: Lara aligns jumps and holds ledges, fires pistols or holsters them for hand tasks, spends medi packs, and crosses a temporary door toward the exit. Saving is tied to the console crystal; this is a source-based analysis, not direct play.",
+      "playUrl": "https://www.tombraider.com/",
+      "linkLabelUk": "Відкрити офіційний сайт Tomb Raider ↗",
+      "linkLabelEn": "Open the official Tomb Raider site ↗"
+    },
+    "GAME-0452": {
+      "titleUk": "Доктор Маріо",
+      "summaryUk": "У пляшці оригінальної Dr. Mario для NES рухай і повертай капсули з двох кольорових половинок, щоб зібрати лінії з чотирьох одного кольору та прибрати всіх вірусів. Незачеплена половинка може відділитися, впасти й запустити нове очищення; самі віруси не падають. Показ наступної пари допомагає планувати, але перекрите горло завершує спробу. Правила відтворено за джерелами Nintendo, без власної гри.",
+      "summaryEn": "In an original-NES Dr. Mario bottle, move and rotate colour-pair capsules to form lines of four and clear every virus. An unmatched half can separate, fall and trigger another clear; viruses themselves do not fall. One next-pair preview helps planning, but a blocked neck ends the attempt. Nintendo sources reconstruct these rules; no direct play was conducted.",
+      "playUrl": "https://www.nintendo.co.jp/clv/manuals/en/pdf/CLV-P-NAAXE_en.pdf",
+      "linkLabelUk": "Переглянути офіційний посібник Dr. Mario ↗",
+      "linkLabelEn": "Read Nintendo's Dr. Mario manual ↗"
+    },
+    "GAME-0453": {
+      "titleUk": "Доба міфології",
+      "summaryUk": "У сухопутній партії оригінальної Age of Mythology за Зевса селяни збирають матеріали або моляться біля храму за прихильність богів. Розвивай поселення, обирай одного покровителя для кожної доби й поєднуй людей, героїв та міфічне військо. Сили богів одноразові: збережи їх для потрібного моменту, захищаючи економіку й знищуючи суперника за правилами Conquest. Це реконструкція оригінальної Windows-версії за джерелами, без власної гри.",
+      "summaryEn": "In original Age of Mythology's Zeus land match, villagers gather materials or pray at the Temple for Favor. Develop the settlement, choose one patron per Age and combine human, hero and myth troops. God powers are once-only: save them for the right intervention while protecting income and eliminating the opponent under Conquest. This original-Windows packet is reconstructed from sources, not direct play.",
+      "playUrl": "https://oldgamesdownload.com/wp-content/uploads/manuals/age-of-mythology_win_manual_en_d5b.pdf",
+      "linkLabelUk": "Переглянути посібник Microsoft для оригінальної Age of Mythology ↗",
+      "linkLabelEn": "Read Microsoft's original Age of Mythology manual ↗"
+    },
+    "GAME-0454": {
+      "titleUk": "Ритмічний рай",
+      "summaryUk": "Перша Built to Scale у Rhythm Heaven для Nintendo DS: слухай музичне наближення й кидай стрижень швидким жестом стилуса, коли отвори двох пластин вирівнюються. Помилки не зупиняють послідовність; прохідна підсумкова оцінка відкриває наступну вправу. Аналіз за джерелами, не власне проходження.",
+      "summaryEn": "The first Built to Scale in Nintendo DS Rhythm Heaven: follow musical approaches and flick a rod when two plates' holes align. Local misses do not stop the sequence; a passing terminal grade opens the next exercise. This is source-led analysis, not direct play.",
+      "playUrl": "https://csassets.nintendo.com/noaext/image/private/t_KA_PDF/DS_Rythm_Heaven?_a=DATAg1AAZAA0",
+      "linkLabelUk": "Відкрити оригінальний посібник Nintendo DS ↗",
+      "linkLabelEn": "Open the original Nintendo DS manual ↗"
+    },
+    "GAME-0455": {
+      "titleUk": "Soulcalibur",
+      "summaryUk": "Один матч Mitsurugi проти Nightmare в оригінальній Soulcalibur для Dreamcast: обходь вісь удару, обирай висоту захисту й вчасно перехоплюй перевагу Guard Impact. Вихід за край рингу дає раунд навіть із життям; Soul Charge змінює окремі атаки. Аналіз за джерелами, не власна гра.",
+      "summaryEn": "One Mitsurugi versus Nightmare match in original Dreamcast Soulcalibur: move off the strike axis, choose guard height and reverse initiative with timed Guard Impact. Ring departure awards a round even with life remaining; Soul Charge changes selected attacks. Source-led analysis, not direct play.",
+      "playUrl": "https://www.digitpress.com/library/manuals/dreamcast/soul_calibur.pdf",
+      "linkLabelUk": "Відкрити оригінальний посібник Dreamcast ↗",
+      "linkLabelEn": "Open the original Dreamcast manual ↗"
+    },
+    "GAME-0456": {
+      "titleUk": "Сам у темряві",
+      "summaryUk": "Горище й сусідня комора: перекриття входів, пошук і зважений інвентар у реальному часі",
+      "summaryEn": "Attic and adjoining storeroom: blocked entry, search and weighted inventory in real time",
+      "playUrl": "https://www.gog.com/en/game/alone_in_the_dark_the_trilogy_123",
+      "linkLabelUk": "Оригінальна трилогія Alone in the Dark у GOG",
+      "linkLabelEn": "Original Alone in the Dark trilogy on GOG"
+    },
+    "GAME-0457": {
+      "titleUk": "Чемпіонат Sega з ралі",
+      "summaryUk": "Одиночний ланцюг ралі: кермо, ручні передачі й контрольні точки, що додають час",
+      "summaryEn": "Solo rally chain: steering, manual gears and checkpoints that add remaining time",
+      "playUrl": "https://www.sega.jp/history/arcade/",
+      "linkLabelUk": "Історія аркадних ігор Sega",
+      "linkLabelEn": "Sega arcade history"
+    },
+    "GAME-0458": {
+      "titleUk": "Легенда про Зельду: Пробудження Лінка",
+      "summaryUk": "Перше підземелля: меч, щит і перо на двох кнопках, ключі, загадки та охоронець",
+      "summaryEn": "First dungeon: sword, shield and feather on two buttons, keys, puzzles and a guardian",
+      "playUrl": "https://www.retrogames.cz/manualy/GameBoy/The_Legend_of_Zelda-Links_Awakening_-_GameBoy_-_Manual.pdf",
+      "linkLabelUk": "Оригінальний посібник Nintendo для Game Boy",
+      "linkLabelEn": "Original Nintendo Game Boy instruction manual"
+    },
+    "GAME-0459": {
+      "titleUk": "Дакстер",
+      "summaryUk": "Перше завдання в готелі: обійди рослини навприсядки, збери 25 самоцвітів від жуків і повернися до консьєржа",
+      "summaryEn": "First hotel job: crouch past hostile plants, collect 25 Metal Bug Gems and return to the concierge",
+      "playUrl": "https://archive.org/download/SonyPSPManuals/Daxter%20%28USA%29.pdf",
+      "linkLabelUk": "Відкрити оригінальний посібник Daxter для PSP",
+      "linkLabelEn": "Open the original Daxter PSP manual"
     }
   }
 }

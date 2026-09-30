@@ -35,6 +35,7 @@
 - [`GAME-0037` — Cosmic Express](../games/a-f/cosmic-express.md)
 - [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
 - [`GAME-0073` — Dominosa](../games/a-f/dominosa.md)
+- [`GAME-0452` — Dr. Mario](../games/a-f/dr-mario.md)
 - [`GAME-0047` — Fights in Tight Spaces](../games/a-f/fights-in-tight-spaces.md)
 - [`GAME-0079` — Filling](../games/a-f/filling.md)
 - [`GAME-0012` — Flow Free](../games/a-f/flow-free.md)
@@ -217,6 +218,7 @@
 
 ### Ігри-носії
 
+- [`GAME-0452` — Dr. Mario](../games/a-f/dr-mario.md)
 - [`GAME-0442` — 'Lumines: Puzzle Fusion'](../games/g-l/lumines-puzzle-fusion.md)
 - [`GAME-0063` — Rush Hour](../games/m-r/rush-hour.md)
 - [`GAME-0004` — Tetris](../games/s-z/tetris.md)
@@ -240,6 +242,7 @@
 
 ### Ігри-носії
 
+- [`GAME-0452` — Dr. Mario](../games/a-f/dr-mario.md)
 - [`GAME-0442` — 'Lumines: Puzzle Fusion'](../games/g-l/lumines-puzzle-fusion.md)
 - [`GAME-0004` — Tetris](../games/s-z/tetris.md)
 
@@ -1553,6 +1556,7 @@ Gorogoa забороняє безпосередньо крутити руків�
 - [`GAME-0100` — Keep Talking and Nobody Explodes](../games/g-l/keep-talking-and-nobody-explodes.md)
 - [`GAME-0025` — Lemmings](../games/g-l/lemmings.md)
 - [`GAME-0355` — Metroid Prime](../games/m-r/metroid-prime.md)
+- [`GAME-0457` — Sega Rally Championship](../games/s-z/sega-rally-championship.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0387` — Super Bomberman](../games/s-z/super-bomberman.md)
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
@@ -3852,6 +3856,8 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 
 ### Ігри-носії
 
+- [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
+- [`GAME-0459` — Daxter](../games/a-f/daxter.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
@@ -3860,6 +3866,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 - [`GAME-0155` — Slay the Spire 2](../games/s-z/slay-the-spire-2.md)
 - [`GAME-0120` — Slay the Spire](../games/s-z/slay-the-spire.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
 - [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 
@@ -4163,6 +4170,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 ### Ігри-носії
 
 - [`GAME-0124` — Against the Storm](../games/a-f/against-the-storm.md)
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0173` — Blue Prince](../games/a-f/blue-prince.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
@@ -4648,6 +4656,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 
 - [`GAME-0233` — 7 Days to Die](../games/0-9/7-days-to-die.md)
 - [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
+- [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
@@ -5973,6 +5982,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 
 ### Ігри-носії
 
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0223` — Aion Classic](../games/a-f/aion-classic.md)
 - [`GAME-0154` — Apex Legends](../games/a-f/apex-legends.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
@@ -6142,6 +6152,7 @@ ATLAS і P-body у кооперативній кампанії Portal 2.
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0397` — 'Command & Conquer: Red Alert 2'](../games/a-f/command-and-conquer-red-alert-2.md)
 - [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
@@ -6521,6 +6532,7 @@ Palbox, команда й база Palworld; Boxes і команда Pokémon Le
 
 ### Ігри-носії
 
+- [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
 - [`GAME-0154` — Apex Legends](../games/a-f/apex-legends.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
@@ -8024,6 +8036,7 @@ Knox Infection у режимі Apocalypse Project Zomboid.
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 - [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
 
 ## CON-350
 
@@ -9135,6 +9148,7 @@ Reinforce у Helldivers 2 з живим викликувачем і одиниц
 - [`GAME-0387` — Super Bomberman](../games/s-z/super-bomberman.md)
 - [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 
 ## CON-403
@@ -9915,6 +9929,7 @@ Echo Detector і Mold.
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 - [`GAME-0217` — "Need for Speed Underground"](../games/m-r/need-for-speed-underground.md)
 - [`GAME-0420` — Project Gotham Racing 2](../games/m-r/project-gotham-racing-2.md)
+- [`GAME-0457` — Sega Rally Championship](../games/s-z/sega-rally-championship.md)
 - [`GAME-0216` — Trackmania](../games/s-z/trackmania.md)
 
 ## CON-439
@@ -10011,6 +10026,7 @@ Horizon Qualifiers після Tokyo City та Horizon Invitational після п
 - [`GAME-0447` — Punch-Out!!](../games/m-r/punch-out.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0430` — Silent Hill](../games/s-z/silent-hill.md)
+- [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
 - [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
@@ -10101,6 +10117,7 @@ Drive, пасивне накопичення, розвиток персонаж�
 ### Ігри-носії
 
 - [`GAME-0393` — Mortal Kombat II](../games/m-r/mortal-kombat-ii.md)
+- [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
 - [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
@@ -10506,6 +10523,7 @@ Drive, пасивне накопичення, розвиток персонаж�
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
 
 ## CON-467
@@ -10528,6 +10546,7 @@ Drive, пасивне накопичення, розвиток персонаж�
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0397` — 'Command & Conquer: Red Alert 2'](../games/a-f/command-and-conquer-red-alert-2.md)
 - [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
@@ -10574,6 +10593,7 @@ Drive, пасивне накопичення, розвиток персонаж�
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
 
 ## CON-470
@@ -10596,6 +10616,7 @@ Drive, пасивне накопичення, розвиток персонаж�
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0191` — "Total War: WARHAMMER III"](../games/s-z/total-war-warhammer-iii.md)
@@ -13667,6 +13688,7 @@ Boon першої спроби Hades, обмежені передумовами 
 - [`GAME-0348` — "Resident Evil: Director’s Cut"](../games/m-r/resident-evil-directors-cut.md)
 - [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
+- [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
 
 ## CON-622
 
@@ -15872,3 +15894,255 @@ Free Skate без таймера; Speed Runs зі скиданням усіх ц
 ### Ігри-носії
 
 - [`GAME-0450` — SSX Tricky](../games/s-z/ssx-tricky.md)
+
+## CON-727
+
+- Назва: Не дозволяти обережній ходьбі перетнути край без опори
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Поки утримується команда обережної ходьби, звичайна ходьба вперед чи назад зупиняється біля краю без опори. Відпускання цього режиму або інша дія пересування прибирає саме цей захист.
+
+### Включає
+
+Зупинку біля краю під час утримання команди ходьби в оригінальній Tomb Raider.
+
+### Виключає
+
+Невразливість до падіння; гарантоване приземлення стрибка; захист від атак; автоматичний обхід усіх небезпек.
+
+### Ігри-носії
+
+- [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
+
+## CON-728
+
+- Назва: Вимагати схованої зброї для дії, якій потрібні руки
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Контекстна дія в ігровому світі, якій потрібні руки героя, недоступна, поки обрана зброя дістана. Сховати її означає відновити допустимість дії, а не виконати саму дію.
+
+### Включає
+
+Лара ховає пістолети перед підбиранням, перемикачем, підтягуванням чи утриманням уступу в оригінальній Tomb Raider.
+
+### Виключає
+
+Суто декоративне положення зброї; відмову в пострілі через брак набоїв; дію, допустиму із зайнятими руками; автоматичне виконання дії після схованої зброї.
+
+### Ігри-носії
+
+- [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
+
+## CON-729
+
+- Назва: Виключити нерухомі цілі зі спуску в порожні клітинки
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Розміщена ціль певного класу не може бути безпосередньо пересунута чи долучитися до падіння в утворені порожні клітинки. Вона лишається на своєму місці навіть після зникнення опори знизу, доки відповідний збіг не вилучить її.
+
+### Включає
+
+Віруси Dr. Mario лишаються в початкових клітинках, поки капсульні частини без опори падають після очищення.
+
+### Виключає
+
+Рухомі капсульні половинки; незнищувану стіну поза правилами зіставлення; тимчасову затримку руху; невразливість нерухомої цілі до дозволеного очищення.
+
+### Ігри-носії
+
+- [`GAME-0452` — Dr. Mario](../games/a-f/dr-mario.md)
+
+## CON-730
+
+- Назва: Вимагати невитраченого застосування сили й дозволеної цілі
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Силу цивілізації можна застосувати лише з невитраченим наданим застосуванням і придатною ціллю. Сила з місцевою ціллю потребує поточного спільного огляду; встановлена загальна сила цього не потребує.
+
+### Включає
+
+Одноразові сили богів оригінальної Age of Mythology; невитрачені застосування зберігаються між добами.
+
+### Виключає
+
+Поновлювані сили Retold; звичайні здібності одиниці з маною; вимогу огляду для прямо зазначеної загальної сили; нове застосування від самого очікування.
+
+### Ігри-носії
+
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
+
+## CON-731
+
+- Назва: Вимагати вільного заданого поселення для нової бази
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Додаткову базу встановленого класу можна закласти лише на наразі вільному заданому поселенні після досягнення потрібної доби розвитку, а не на будь-якій придатній для будівництва землі.
+
+### Включає
+
+Додаткові центри міста оригінальної Age of Mythology будують на поселеннях від Героїчної доби; ворожий центр спершу треба зруйнувати.
+
+### Виключає
+
+Саму перевірку звичайного будівельного контуру; привласнення навколишньої будівельної території; вимогу всіх поселень для перемоги в режимі знищення.
+
+### Ігри-носії
+
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
+
+## CON-732
+
+- Назва: Обмежувати одночасне створення за типом об’єкта
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Загалом дозволений наказ створення недоступний, коли поточна кількість саме цього обмеженого типу у власника досягла встановленої межі. Вилучення звільняє дозвіл цього типу незалежно від загального місця населення.
+
+### Включає
+
+Десять грецьких будинків і по одному живому герою кожного типу в оригінальній Age of Mythology.
+
+### Виключає
+
+Загальну межу населення; спільний лічильник об’єктів сцени; довічну заборону після смерті героя; одну спільну межу для всіх героїв.
+
+### Ігри-носії
+
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
+
+## CON-733
+
+- Назва: Обмежувати бічний бій рингом із краями, вихід за які завершує раунд
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Двоє бійців зберігають вісь наближення відносно суперника й рухаються вбік у скінченному ринзі. Вихід за його відкритий край означає завершення раунду, тому саме збережене життя ще не гарантує можливості продовжувати.
+
+### Включає
+
+Рух у восьми напрямках біля відкритого краю рингу в оригінальній Soulcalibur для Dreamcast.
+
+### Виключає
+
+Площину класичної Tekken, де явно немає виходу з рингу; арену зі стінами й притисканням; обмежену лінію збоку; вільні мандри без фіксованого суперника; точні розміри рингу як окремі гени.
+
+### Ігри-носії
+
+- [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
+
+## CON-734
+
+- Назва: Обмежувати підбирання загальною вагою речей
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Підбирання чи перенесення до інвентарю має лишити суму ваг збережених речей у скінченній межі носіння незалежно від вільних місць для предметів або категорії спорядженої речі.
+
+### Включає
+
+Описані джерелом ваги й межа 700 одиниць у Alone in the Dark; залишена порожня каністра також може важити.
+
+### Виключає
+
+Лише кількість записів інвентарю; категорійні комірки спорядження без загальної ваги; твердження, що інтерфейс показує приховану суму ваг.
+
+### Ігри-носії
+
+- [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
+
+## CON-735
+
+- Назва: Допускати дії речі за її поточним станом
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Обрана річ показує й приймає лише операції, які дозволяють її поточні ознаки стану; сама наявність не робить будь-яке читання, використання, поповнення, перезаряджання чи випускання допустимим.
+
+### Включає
+
+Залежні від предмета доступні дії Alone in the Dark та їхні зміни після сумісної операції, зокрема для порожньої каністри.
+
+### Виключає
+
+Меню всіх операцій для кожної речі; сам вибір сталої дії; обмеження стійки бійця; лише список складників рецепта.
+
+### Ігри-носії
+
+- [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
+
+## CON-736
+
+- Назва: Допускати бонусну трасу за результатом звичайного ланцюга
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Після проходження звичайних трас скінченної спроби перегонів доступ до бонусної траси потребує визначеного критерію високого результату; сам фініш останньої звичайної траси не дає продовження за будь-якого підсумку.
+
+### Включає
+
+Бонусна траса за високого результату в посібнику оригінальної Sega Rally Championship; опис музею називає перше місце й Lakeside, але з меншою точністю, ніж загальний критерій посібника.
+
+### Виключає
+
+Доступ усіх фінішерів до бонусної траси; купівлю подальшої події кампанії; переможця кубка за очками; невиміряну точну умову розв’язання нічиєї.
+
+### Ігри-носії
+
+- [`GAME-0457` — Sega Rally Championship](../games/s-z/sega-rally-championship.md)
+
+## CON-737
+
+- Назва: Обмежувати дії предметів двома перепризначуваними кнопками
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Активна дія перенесеного предмета доступна лише тоді, коли він займає одне з двох незалежно перепризначуваних місць кнопок дії; володіння іншими предметами не додає третьої одночасної активної дії, а сталі контекстні взаємодії залишаються окремо допустимими.
+
+### Включає
+
+Меч, щит і Roc’s Feather оригінальної Link’s Awakening змагаються за призначення на A/B.
+
+### Виключає
+
+Обмеження місткості інвентарю; постійну окрему кнопку меча; третю сталу кнопку стрибка; вибір іншої власної зброї без перепризначуваних кнопок; зміну звичайного керування діалогом.
+
+### Ігри-носії
+
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
+
+## CON-738
+
+- Назва: Уникати атаки поблизу ворога завдяки низькій позі
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Визначений нерухомий ворог атакує героя, який проходить поруч стоячи, але не помічає того самого героя, якщо під час проходу зберігати допустиму низьку позу.
+
+### Включає
+
+Прохід навприсядки в режимі Ottsel Mode повз хижі рослини на першому маршруті Westside Hotel в оригінальній Daxter для PSP.
+
+### Виключає
+
+Просто низький тунель без сприйняття ворогом; загальну невидимість; напрямлену видимість патруля; переслідування після виявлення; твердження про точний радіус сприйняття чи невразливість до інших ворогів.
+
+### Ігри-носії
+
+- [`GAME-0459` — Daxter](../games/a-f/daxter.md)

@@ -6,6 +6,279 @@
     "supporting"
   ],
   "games": {
+    "GAME-0459": {
+      "reviewed": "2026-09-30",
+      "noteEn": "Named GAME-0459 review reads the complete original PSP first Westside Hotel assignment. Posture-sensitive plant passage, physical proof from defeated bugs, a visible local tally and separate 25-Gem report organise the route. All 18 admitted uses are partitioned without rarity weights, later spray or modern conversion rules.",
+      "noteUk": "Іменний перегляд GAME-0459 перечитує повне перше завдання Westside Hotel в оригінальній Daxter для PSP. Прохід повз рослини залежно від пози, фізичні докази після перемоги над жуками, місцевий лічильник і окремий звіт про 25 самоцвітів організують маршрут. Усі 18 застосувань розподілено без ваг за рідкістю, пізнішого розпилювача чи правил сучасного перевидання.",
+      "defining": ["SYS-1210", "CON-738", "INF-441", "OBJ-261"],
+      "structural": ["ACT-008", "ACT-161", "ACT-202", "ACT-341", "SYS-215", "SYS-578", "SYS-605", "SYS-1056", "CON-175"],
+      "supporting": ["SYS-037", "SYS-045", "INF-119", "INF-179", "TIM-003"]
+    },
+    "GAME-0458": {
+      "reviewed": "2026-09-30",
+      "noteEn": "Named GAME-0458 review reads the complete original Game Boy first Tail Cave attempt. Retained feather access, two active tool buttons, authored room dependencies, live matching and a guardian-resetting pit organise the first instrument stage. All 33 admitted uses are partitioned without rarity weights, DX or remake imports.",
+      "noteUk": "Іменний перегляд GAME-0458 перечитує повну першу спробу Tail Cave оригінальної Game Boy. Збережене перо, дві кнопки активних предметів, залежності авторських кімнат, зіставлення в реальному часі та яма зі скиданням охоронця організують етап першого інструмента. Усі 33 застосування розподілено без ваг за рідкістю, правил DX або ремейку.",
+      "defining": [
+        "SYS-398",
+        "SYS-605",
+        "SYS-1206",
+        "SYS-1208",
+        "CON-349",
+        "CON-737",
+        "OBJ-018"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-009",
+        "ACT-161",
+        "ACT-199",
+        "ACT-223",
+        "ACT-341",
+        "ACT-437",
+        "SYS-045",
+        "SYS-063",
+        "SYS-215",
+        "SYS-578",
+        "SYS-931",
+        "SYS-1207",
+        "SYS-1209",
+        "CON-175",
+        "CON-402"
+      ],
+      "supporting": [
+        "SYS-037",
+        "SYS-417",
+        "SYS-910",
+        "INF-073",
+        "INF-179",
+        "INF-180",
+        "INF-317",
+        "INF-356",
+        "INF-440",
+        "TIM-003"
+      ]
+    },
+    "GAME-0457": {
+      "reviewed": "2026-09-30",
+      "noteEn": "Named GAME-0457 review reads the complete original twin solo Championship scope and the conflicting upright lap statement. Checkpoint time credit, linked course continuation and the superior-result branch define this credit. All sixteen uses are partitioned without rarity weights or imported port modes.",
+      "noteUk": "Іменний перегляд GAME-0457 перечитує повну межу оригінального одиночного Championship twin і суперечливу кількість кіл upright. Додавання часу на точках, продовження ланцюга та гілка високого результату визначають кредит. Усі шістнадцять застосувань розподілено без ваг за рідкістю чи режимів портів.",
+      "defining": [
+        "SYS-1204",
+        "SYS-1205",
+        "CON-068",
+        "CON-736",
+        "OBJ-260"
+      ],
+      "structural": [
+        "ACT-290",
+        "ACT-608",
+        "SYS-320",
+        "SYS-515",
+        "SYS-516",
+        "CON-438"
+      ],
+      "supporting": [
+        "ACT-609",
+        "INF-204",
+        "INF-205",
+        "INF-439",
+        "TIM-003"
+      ]
+    },
+    "GAME-0456": {
+      "reviewed": "2026-09-30",
+      "noteEn": "Named GAME-0456 review rereads the complete original-DOS-CD attic and storeroom scope. Furniture-blocked scheduled entry, persistent action mode, retained refill container and mass budget define its decisions. All 27 uses are partitioned without rarity weighting or imported later-room lamp rules.",
+      "noteUk": "Іменний перегляд GAME-0456 перечитує повну межу горища й комори оригінального DOS CD. Перекритий меблями запланований вхід, стала дія, залишена тара поповнення та межа ваги визначають рішення. Усі 27 застосувань розподілено без ваг за рідкістю чи перенесених правил лампи з пізніх кімнат.",
+      "defining": [
+        "ACT-009",
+        "ACT-606",
+        "SYS-1201",
+        "SYS-1202",
+        "CON-734",
+        "INF-438"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-089",
+        "ACT-161",
+        "ACT-199",
+        "ACT-216",
+        "ACT-295",
+        "ACT-341",
+        "ACT-453",
+        "ACT-607",
+        "SYS-215",
+        "SYS-1203",
+        "CON-175",
+        "CON-210",
+        "CON-285",
+        "CON-735",
+        "INF-003",
+        "INF-115",
+        "OBJ-026",
+        "TIM-003"
+      ],
+      "supporting": [
+        "INF-075",
+        "TIM-007"
+      ]
+    },
+    "GAME-0455": {
+      "reviewed": "2026-09-30",
+      "noteEn": "The named GAME-0455 review rereads the complete original-Dreamcast fixed-pair VS scope. Finite-ring lateral placement, impact priority with counter-impact and charged branches define its weapon exchange. Commands, poses, contact, recovery, life/clock resets, readable cues and all three victory routes structure the loop. Fixed-pair selection and live weapon forms support that exchange. All 24 admitted uses are partitioned; no rarity weights or later-edition systems are inferred.",
+      "noteUk": "Іменний перегляд GAME-0455 охоплює весь набір правил матчу сталої пари VS оригінальної гри для Dreamcast. Бічне розміщення в скінченному ринзі, перевага відбиття з можливістю відповіді й гілки заряду визначають обмін ударами зброї. Команди, пози, контакт, підведення, відновлення раундів за життям і часом, видимі сигнали й усі три шляхи перемоги формують цикл. Вибір сталої пари й стійки зброї підтримують обмін. Усі 24 прийняті гени розподілено; рідкість не задає ваг, а системи пізніших частин не перенесено.",
+      "defining": [
+        "ACT-223",
+        "ACT-604",
+        "SYS-1198",
+        "SYS-1199",
+        "SYS-1200",
+        "CON-733"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-202",
+        "ACT-295",
+        "ACT-296",
+        "ACT-297",
+        "ACT-605",
+        "SYS-215",
+        "SYS-522",
+        "CON-442",
+        "CON-446",
+        "INF-142",
+        "INF-209",
+        "INF-210",
+        "OBJ-259",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-294",
+        "ACT-459",
+        "SYS-868"
+      ]
+    },
+    "GAME-0454": {
+      "reviewed": "2026-09-30",
+      "noteEn": "The named GAME-0454 review rereads the complete first original-DS Built to Scale scope. Touch-flick response, continuing musical assembly judgement and graded passage define the exercise. Cue/outcome information and live time structure its decisions. Terminal performance evaluation supports retained progress and the optional medal. All six admitted uses are partitioned; roles are not frequency-derived weights.",
+      "noteUk": "Іменний перегляд GAME-0454 охоплює весь набір правил першої Built to Scale оригінальної гри для DS. Жест із відривом, оцінка з’єднання під час безперервної музичної послідовності й прохідна оцінка визначають вправу. Інформація про сигнали й наслідки та реальний час формують рішення. Підсумкова оцінка підтримує збережений поступ і необов’язкову медаль. Усі шість прийнятих генів розподілено; частота появи не задає ролей чи ваг.",
+      "defining": [
+        "ACT-603",
+        "SYS-1197",
+        "OBJ-258"
+      ],
+      "structural": [
+        "INF-437",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-822"
+      ]
+    },
+    "GAME-0453": {
+      "reviewed": "2026-09-30",
+      "noteEn": "The named GAME-0453 review rereads the entire original-Windows Zeus land Conquest. Prayer's labour cost, patron exclusivity and one-use power eligibility define the deity-conditioned RTS. Spatial gathering, capacity, queues, research, commands, vision and civilization-wide elimination structure the loop. Shelter, relics, live caravans, reactive exchange, infinite fields and eligible myth effects remain included supporting decisions. Every admitted use is partitioned; no frequency-based or numeric salience is inferred.",
+      "noteUk": "Іменний перегляд GAME-0453 охоплює всю сухопутну партію за Зевса в оригінальній грі для Windows. Витрата праці на молитву, взаємовиключні покровителі й одноразове застосування сил визначають залежну від богів стратегію в реальному часі. Просторове збирання, місткість, черги, дослідження, команди, огляд і знищення всієї цивілізації формують цикл. Укриття, реліквії, каравани, обмін зі змінними цінами, невичерпні поля й придатні міфічні ефекти лишаються включеними допоміжними рішеннями. Усі прийняті гени розподілено; частота появи не задає ролей чи числових ваг.",
+      "defining": [
+        "ACT-140",
+        "ACT-598",
+        "ACT-599",
+        "SYS-1188",
+        "CON-188",
+        "CON-730"
+      ],
+      "structural": [
+        "ACT-121",
+        "ACT-139",
+        "ACT-189",
+        "ACT-316",
+        "ACT-318",
+        "SYS-161",
+        "SYS-215",
+        "SYS-305",
+        "SYS-380",
+        "SYS-549",
+        "SYS-550",
+        "SYS-551",
+        "SYS-552",
+        "SYS-553",
+        "SYS-555",
+        "CON-466",
+        "CON-467",
+        "CON-469",
+        "CON-470",
+        "CON-731",
+        "INF-224",
+        "INF-225",
+        "OBJ-103",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-019",
+        "ACT-089",
+        "ACT-130",
+        "ACT-219",
+        "ACT-317",
+        "ACT-600",
+        "ACT-601",
+        "ACT-602",
+        "SYS-004",
+        "SYS-297",
+        "SYS-360",
+        "SYS-554",
+        "SYS-1094",
+        "SYS-1189",
+        "SYS-1190",
+        "SYS-1191",
+        "SYS-1192",
+        "SYS-1193",
+        "SYS-1194",
+        "SYS-1195",
+        "SYS-1196",
+        "CON-269",
+        "CON-273",
+        "CON-732",
+        "INF-059"
+      ]
+    },
+    "GAME-0452": {
+      "reviewed": "2026-09-30",
+      "noteEn": "The named GAME-0452 salience review rereads the complete original-NES bottle: same-colour removal, matched-half separation, anchored viruses and complete virus-set clearance define it. Active pose, fixation, eligible falls, cascades, entry failure and one-successor planning structure decisions. Faster drop, variable selection, forced descent, successor introduction, capacity, collision, current-state visibility, score and continuous time support them. This is source-led interpretation, not direct play, rarity inference or numeric weighting.",
+      "noteUk": "Іменний перегляд ролей GAME-0452 охоплює всю пляшку оригінальної гри для NES: очищення одного кольору, розділення капсули після втрати половинки, нерухомі віруси й усунення всіх вірусів визначають її механіку. Положення поточної пари, закріплення, допустимі падіння, каскади, поразка через перекритий вхід і планування на одну капсулу формують рішення. Прискорене скидання, змінний вибір, самостійне падіння, наступна пара, місткість, зіткнення, огляд поля, рахунок і безперервний час підтримують їх. Це тлумачення джерел, а не власне проходження, висновок із рідкісності генів чи числові ваги.",
+      "defining": [
+        "SYS-010",
+        "SYS-1187",
+        "CON-729",
+        "OBJ-007"
+      ],
+      "structural": [
+        "ACT-005",
+        "SYS-007",
+        "SYS-011",
+        "SYS-012",
+        "CON-008",
+        "INF-005"
+      ],
+      "supporting": [
+        "ACT-006",
+        "SYS-004",
+        "SYS-006",
+        "SYS-009",
+        "CON-001",
+        "CON-007",
+        "INF-001",
+        "OBJ-002",
+        "TIM-003"
+      ]
+    },
+    "GAME-0451": {
+      "reviewed": "2026-09-30",
+      "noteEn": "The named GAME-0451 salience review rereads the complete first-Caves scope: manual ledge holding, guarded walking, free-hand eligibility, persistent pistol targeting and a locally expiring passage define its traversal/combat tradeoffs. Weapon posture, ordinary local look, breakaway support, save eligibility, retained-state loading, visible local state and arrival structure the route. Ordinary movement, switches, pickup, healing, physical response, pursuit, live combat, restart, health and continuous time support it. These roles interpret the manual-led reconstruction, not direct play or numeric weights.",
+      "noteUk": "Іменний перегляд ролей GAME-0451 охоплює весь перший рівень Caves: ручне утримання уступу, захищена ходьба, вимога вільних рук, збереження цілі пістолетів і тимчасово відкритий прохід визначають вибір між пересуванням та боєм. Стан зброї, звичайний огляд, ламка опора, вимоги до збереження, завантаження попереднього стану, видимі місцеві показники й прибуття формують маршрут. Рух, перемикачі, підбирання, лікування, фізична відповідь, переслідування, живий бій, перезапуск, здоров’я й безперервний час підтримують його. Ролі пояснюють реконструкцію за посібником, а не власне проходження чи числові ваги.",
+      "defining": ["ACT-596", "SYS-1185", "SYS-1186", "CON-727", "CON-728"],
+      "structural": ["ACT-341", "ACT-595", "ACT-597", "SYS-1049", "CON-621", "INF-436", "OBJ-026", "TIM-007"],
+      "supporting": ["ACT-008", "ACT-049", "ACT-089", "ACT-131", "ACT-161", "SYS-036", "SYS-057", "SYS-215", "SYS-369", "SYS-578", "TIM-003"]
+    },
     "GAME-0450": {
       "reviewed": "2026-09-28",
       "noteEn": "One original-PS2 Garibaldi Race is defined by landing aerial snowboard tricks to earn adrenaline, spending it for speed, and completing Uber letters to remove the reserve limit for this descent. Downhill physics, rival classification, clean-landing eligibility, race feedback and first-place objective structure the contest; direct steering and continuous time support it. EA's same-game cross-platform booklet and a first-hand PS2 guide bound this source-only reconstruction; no PS2 disc was played.",

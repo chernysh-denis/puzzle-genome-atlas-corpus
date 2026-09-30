@@ -1,5 +1,57 @@
 # Information Genes
 
+## INF-440 — An acquired dungeon compass audibly flags local key or chest presence
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after acquisition of the dungeon compass, entering an eligible room produces an audible cue for the presence of a key or treasure chest in that room, without disclosing its exact concealed position, acquisition method or future enemy behaviour.
+- Includes: Original Link’s Awakening compass tone on entry to a room containing a key or treasure chest.
+- Excludes: an omniscient future map; ordinary environmental sound; a rhythm beat; the compass boss marker alone; claiming this research heard a game recording.
+- Parameters: dungeon, compass ownership, entered room, key or chest presence, sound trigger and concealed details.
+- Evidence: [Link's Awakening decomposition](../games/s-z/the-legend-of-zelda-links-awakening.md), original Nintendo DMG manual and Nintendo Player's Guide, printed pp. 12–16 and 26–29, documentary reconstruction rather than direct play.
+- Novelty: first isolated for `GAME-0458`; no external novelty claim or earlier signature change.
+
+## INF-439 — Expose current road contact through physical steering feedback
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the cabinet supplies tactile steering resistance or vibration responsive to current road surface and vehicle motion, supplementing visual driving information without revealing an exact future physical trajectory.
+- Includes: Original Sega Rally Championship’s documented wheel reaction to road and car movement; no measured force curve.
+- Excludes: a static decorative wheel; a HUD icon alone; an omniscient future handling preview; assuming the same force calibration across cabinet editions.
+- Parameters: steering mechanism, current contact, vehicle motion, tactile response and calibration.
+- Evidence: [Sega Rally Championship decomposition](../games/s-z/sega-rally-championship.md), visually inspected original 1995 Sega twin manual, printed pp. 14–16 and 28; source reconstruction, not cabinet execution.
+- Novelty: first isolated for `GAME-0457`; no external novelty claim or earlier definition rewrite.
+
+## INF-438 — Expose current carried-item operations and selected action mode
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an options surface shows retained item identities, the selected item's usable quantities and eligible operations, and the currently selected character or item action before the shared world input executes it.
+- Includes: Alone in the Dark Options inventory, selected weapon quantity and available-versus-chosen action display.
+- Excludes: a quick-slot bar alone; future hidden contents; an exhaustive future enemy plan; a displayed hidden weight total.
+- Parameters: inventory identities, selected item, quantity, available operations, active verb and display state.
+- Evidence: [Alone in the Dark decomposition](../games/a-f/alone-in-the-dark.md), its original DOS CD manual and bounded first-hand written mechanics ledger; reconstruction, not local execution.
+- Novelty: first isolated for `GAME-0456`; no external novelty claim or earlier boundary rewrite.
+
+## INF-437 — Cue rhythmic alignment and reveal local assembly outcomes and final grade
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the interface combines musical approach cues with moving target alignment to disclose a response moment, communicates each assembly outcome and exposes a terminal performance grade; an authored phase may reduce visual approach preview without removing musical timing cues.
+- Includes: Original DS Built to Scale's musical approach, holed plates, connected or missed rod and final Try Again/OK/Superb result.
+- Excludes: Complete omniscient state visibility; an obstacle-traversal soundtrack without graded beat input; instructor button-symbol reproduction; a category-by-category numerical report; disclosure of exact hidden grade thresholds.
+- Parameters: Audio phrases, target motion, preview visibility, local feedback, final grade labels and undisclosed evaluation thresholds.
+- Evidence: [Rhythm Heaven decomposition](../games/m-r/rhythm-heaven.md), its original-manual and bounded first-hand source ledger.
+- Novelty: first isolated for `GAME-0454`; no external novelty or direct-play claim.
+
 ## INF-001 — Fully visible current state
 
 - Lifecycle: `Active`
@@ -8608,3 +8660,29 @@
 - Parameters: place, speed, score, meter, Uber window, letters, terrain and rival proximity.
 - Evidence: [SSX Tricky decomposition](../games/s-z/ssx-tricky.md), EA's original booklet and first-hand PS2 guide.
 - Novelty: first isolated for `GAME-0450`; the rider reads stunt-earned speed capacity alongside rank.
+
+## INF-436 — Expose a local traversal view, weapon acquisition and carried condition
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a following or directed local view discloses nearby terrain and hostiles; weapon posture exposes acquisition, while condition, compass and inventory displays disclose current health, facing and carried supplies without revealing the full future route.
+- Includes: Original Tomb Raider's local Look, pistol-aim pose, health, compass and inventory-ring disclosure.
+- Excludes: A full cave map; exact future trap schedule; enemy plans; precise jump frame windows; a first-person rule-changing gaze.
+- Parameters: viewpoint, facing, nearby geometry, visible hostile, aim pose, condition and supplies.
+- Evidence: [Tomb Raider (1996) decomposition](../games/s-z/tomb-raider-1996.md), the source ledger and transitions for this scoped packet.
+- Novelty: first isolated for `GAME-0451`; no external novelty claim.
+
+## INF-441 — Show the current local proof tally against a stated mission quota
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the mission briefing states a finite required proof quantity and the live interface exposes how many qualifying physical proofs the actor has collected in the current location, allowing a return decision without revealing unseen targets or future route geometry.
+- Includes: the Westside Hotel request for 25 Gold Gems and the current-location Metal Bug Gem counter in original PSP Daxter.
+- Excludes: counting defeats before their proof is collected; a distinct-creature capture stage (`INF-406`); an omniscient enemy map; a global collectible total detached from the assigned locality; optional Precursor Orb progress.
+- Parameters: required quota, credited local proof count, briefing channel, display channel, locality and refresh after collection.
+- Evidence: [Daxter decomposition](../games/a-f/daxter.md), original PSP UCES-00044/ANZ manual PDF leaf 6 and independent original-PSP first-hotel routes by Larry Imgrund and Akiro.
+- Novelty: first isolated for `GAME-0459`; no claim that the HUD itself always displays the required number.

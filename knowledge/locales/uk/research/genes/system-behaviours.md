@@ -90,6 +90,7 @@
 - [`GAME-0001` — "2048"](../games/0-9/2048.md)
 - [`GAME-0124` — Against the Storm](../games/a-f/against-the-storm.md)
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0304` — Azul](../games/a-f/azul.md)
 - [`GAME-0411` — Bejeweled 3](../games/a-f/bejeweled-3.md)
 - [`GAME-0109` — Candy Crush Saga](../games/a-f/candy-crush-saga.md)
@@ -99,6 +100,7 @@
 - [`GAME-0161` — Dead by Daylight](../games/a-f/dead-by-daylight.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0020` — Dorfromantik](../games/a-f/dorfromantik.md)
+- [`GAME-0452` — Dr. Mario](../games/a-f/dr-mario.md)
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
 - [`GAME-0130` — Frostpunk](../games/a-f/frostpunk.md)
 - [`GAME-0401` — "Fruit Ninja"](../games/a-f/fruit-ninja.md)
@@ -178,6 +180,7 @@
 
 ### Ігри-носії
 
+- [`GAME-0452` — Dr. Mario](../games/a-f/dr-mario.md)
 - [`GAME-0442` — 'Lumines: Puzzle Fusion'](../games/g-l/lumines-puzzle-fusion.md)
 - [`GAME-0004` — Tetris](../games/s-z/tetris.md)
 
@@ -200,6 +203,7 @@
 
 ### Ігри-носії
 
+- [`GAME-0452` — Dr. Mario](../games/a-f/dr-mario.md)
 - [`GAME-0004` — Tetris](../games/s-z/tetris.md)
 
 ## SYS-008
@@ -242,6 +246,7 @@
 
 ### Ігри-носії
 
+- [`GAME-0452` — Dr. Mario](../games/a-f/dr-mario.md)
 - [`GAME-0442` — 'Lumines: Puzzle Fusion'](../games/g-l/lumines-puzzle-fusion.md)
 - [`GAME-0004` — Tetris](../games/s-z/tetris.md)
 
@@ -266,6 +271,7 @@
 
 - [`GAME-0411` — Bejeweled 3](../games/a-f/bejeweled-3.md)
 - [`GAME-0109` — Candy Crush Saga](../games/a-f/candy-crush-saga.md)
+- [`GAME-0452` — Dr. Mario](../games/a-f/dr-mario.md)
 - [`GAME-0009` — Royal Match](../games/m-r/royal-match.md)
 
 ## SYS-011
@@ -289,6 +295,7 @@
 
 - [`GAME-0411` — Bejeweled 3](../games/a-f/bejeweled-3.md)
 - [`GAME-0109` — Candy Crush Saga](../games/a-f/candy-crush-saga.md)
+- [`GAME-0452` — Dr. Mario](../games/a-f/dr-mario.md)
 - [`GAME-0009` — Royal Match](../games/m-r/royal-match.md)
 
 ## SYS-012
@@ -312,6 +319,7 @@
 
 - [`GAME-0411` — Bejeweled 3](../games/a-f/bejeweled-3.md)
 - [`GAME-0109` — Candy Crush Saga](../games/a-f/candy-crush-saga.md)
+- [`GAME-0452` — Dr. Mario](../games/a-f/dr-mario.md)
 - [`GAME-0009` — Royal Match](../games/m-r/royal-match.md)
 
 ## SYS-013
@@ -870,6 +878,7 @@ Dorfromantik додає плитки до стосу за завершені з�
 - [`GAME-0421` — The Incredible Machine](../games/s-z/the-incredible-machine.md)
 - [`GAME-0038` — The Swapper](../games/s-z/the-swapper.md)
 - [`GAME-0030` — Tin Hearts](../games/s-z/tin-hearts.md)
+- [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
 - [`GAME-0391` — "Uncharted 2: Among Thieves"](../games/s-z/uncharted-2-among-thieves.md)
 - [`GAME-0041` — Viewfinder](../games/s-z/viewfinder.md)
 - [`GAME-0026` — World of Goo](../games/s-z/world-of-goo.md)
@@ -898,6 +907,7 @@ Dorfromantik додає плитки до стосу за завершені з�
 - [`GAME-0034` — Braid, Anniversary Edition](../games/a-f/braid.md)
 - [`GAME-0326` — Crash Bandicoot](../games/a-f/crash-bandicoot.md)
 - [`GAME-0021` — Cut the Rope](../games/a-f/cut-the-rope.md)
+- [`GAME-0459` — Daxter](../games/a-f/daxter.md)
 - [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
 - [`GAME-0092` — Echochrome](../games/a-f/echochrome.md)
 - [`GAME-0167` — Geometry Dash](../games/g-l/geometry-dash.md)
@@ -914,6 +924,7 @@ Dorfromantik додає плитки до стосу за завершені з�
 - [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 - [`GAME-0378` — Super Monkey Ball 2](../games/s-z/super-monkey-ball-2.md)
 - [`GAME-0448` — Temple Run](../games/s-z/temple-run.md)
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
 - [`GAME-0395` — "The Legend of Zelda: Majora’s Mask"](../games/s-z/the-legend-of-zelda-majoras-mask.md)
 - [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
@@ -1099,6 +1110,7 @@ Walker у Lemmings іде вперед, повертає біля блокува
 - [`GAME-0034` — Braid, Anniversary Edition](../games/a-f/braid.md)
 - [`GAME-0324` — Contra Force](../games/a-f/contra-force.md)
 - [`GAME-0326` — Crash Bandicoot](../games/a-f/crash-bandicoot.md)
+- [`GAME-0459` — Daxter](../games/a-f/daxter.md)
 - [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
 - [`GAME-0345` — "Duck Hunt"](../games/a-f/duck-hunt.md)
@@ -1132,6 +1144,7 @@ Walker у Lemmings іде вперед, повертає біля блокува
 - [`GAME-0136` — "Surviving Mars: Relaunched"](../games/s-z/surviving-mars.md)
 - [`GAME-0313` — Tank 1990](../games/s-z/tank-1990.md)
 - [`GAME-0448` — Temple Run](../games/s-z/temple-run.md)
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
 - [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 - [`GAME-0370` — Theme Hospital](../games/s-z/theme-hospital.md)
@@ -1433,6 +1446,7 @@ World of Goo утворює попередньо показані нитки н�
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0031` — Timelie](../games/s-z/timelie.md)
 - [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
+- [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
 
 ## SYS-058
 
@@ -1569,6 +1583,7 @@ Tim підбирає у світі Braid ключ або отримує його
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0417` — Sly Cooper and the Thievius Raccoonus](../games/s-z/sly-cooper-and-the-thievius-raccoonus.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 
 ## SYS-064
@@ -3494,6 +3509,7 @@ Mastermind надає сукупні індикатори точних і роз
 
 ### Ігри-носії
 
+- [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
 - [`GAME-0391` — "Uncharted 2: Among Thieves"](../games/s-z/uncharted-2-among-thieves.md)
 
 ## SYS-105
@@ -3662,6 +3678,7 @@ Black Box визначає негайне або внутрішнє влучан
 
 ### Ігри-носії
 
+- [`GAME-0459` — Daxter](../games/a-f/daxter.md)
 - [`GAME-0394` — LittleBigPlanet 2](../games/g-l/littlebigplanet-2.md)
 
 ## SYS-1057
@@ -4545,6 +4562,7 @@ Simon приймає точне відтворення префікса, збі�
 
 ### Ігри-носії
 
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0410` — Halo Wars](../games/g-l/halo-wars.md)
 
 ## SYS-1095
@@ -6639,6 +6657,111 @@ The Talos Principle зараховує кожен зелений сигіл `L`,
 
 - [`GAME-0450` — SSX Tricky](../games/s-z/ssx-tricky.md)
 
+## SYS-1185
+
+- Назва: Зберігати автоматично обрану ціль, поки утримано стрільбу
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Дістана зброя автоматично обирає допустимого ворога. Утримання стрільби зберігає призначену ціль навіть після втрати поточного наведення. Постріли все ще потребують придатного спрямування зброї, а відпускання стрільби дозволяє обрати іншу ціль.
+
+### Включає
+
+Різницю між призначеною ціллю пістолетів і поточним наведенням та переобрання після відпускання стрільби в оригінальній Tomb Raider.
+
+### Виключає
+
+Гарантовані влучання крізь перешкоди; ручне адресування цілі; наведення, яке обов’язково скидає ціль після втрати видимості; повний показ усіх ворогів.
+
+### Ігри-носії
+
+- [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
+
+## SYS-1186
+
+- Назва: Закривати відкритий прохід після обмеженого часу доступу
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Активація пов’язаного пускача відкриває раніше недоступний прохід на обмежений проміжок поточного часу. Після завершення цього часу прохід знову закривається, але сам маршрут не завершується; наступна допустима активація може відкрити його знову.
+
+### Включає
+
+Тимчасові двері, які можна повторно відкрити перемикачем на рівні Caves оригінальної Tomb Raider.
+
+### Виключає
+
+Постійне одностороннє відмикання; загальний строк, після якого спроба завершується; браму лише від зайнятості без часового продовження; конкретну непідтверджену тривалість.
+
+### Ігри-носії
+
+- [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
+
+## SYS-1187
+
+- Назва: Розділити парну капсулу після очищення однієї половинки
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Коли відповідна кольорова лінія прибирає одну частину зв’язаної двоклітинної капсули, система розриває їхній зв’язок і лишає іншу частину окремим рухомим елементом для подальшої перевірки опори й падіння.
+
+### Включає
+
+Незачеплена половинка капсули Dr. Mario відділяється після очищення її партнера й падає, якщо більше не має опори.
+
+### Виключає
+
+Розділення цілої капсули лише через втрату опори; незалежну посадку незв’язаних стовпчиків; вилучення всієї капсули незалежно від кольору іншої половинки; лише зміну малюнка без зміни правил опори.
+
+### Ігри-носії
+
+- [`GAME-0452` — Dr. Mario](../games/a-f/dr-mario.md)
+
+## SYS-1188
+
+- Назва: Накопичувати обмежений божественний ресурс від призначених молільників
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Придатні працівники, призначені молитися біля власної будівлі, з плином реального часу додають божественний ресурс безпосередньо до спільного запасу. На встановленій межі накопичення припиняється; у цей час вони не збирають звичайні матеріали.
+
+### Включає
+
+Молитва грецьких селян біля храму виробляє прихильність богів; Зевс змінює початковий запас, швидкість і межу.
+
+### Виключає
+
+Видобуток матеріалу на місцевості з перенесенням і поверненням; виробництво без призначених працівників; витрачання запасу; поразку від досягнення межі показника.
+
+### Ігри-носії
+
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
+
+## SYS-1189
+
+- Назва: Захищати гарнізон і випускати його після руйнування будівлі
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Прийняті до гарнізону одиниці всередині будівлі захищені від звичайного зовнішнього вибору ціллю й можуть посилювати її атаку за встановленим правилом; руйнування укриття випускає їх назовні.
+
+### Включає
+
+Захист гарнізону, посилення атаки та вихід після руйнування в оригінальній Age of Mythology.
+
+### Виключає
+
+Переміщення транспорту; особистий запас щита; гарантоване виживання після виходу; зберігання валюти.
+
+### Ігри-носії
+
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
+
 ## SYS-119
 
 - Назва: Безпрогальне завершення поля компонування негайно відкриває постійні ворота
@@ -6659,6 +6782,216 @@ The Talos Principle зараховує кожен зелений сигіл `L`,
 ### Ігри-носії
 
 - [`GAME-0090` — The Talos Principle](../games/s-z/the-talos-principle.md)
+
+## SYS-1190
+
+- Назва: Застосовувати бонус артефакту лише після внесення до будівлі
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Окремий підібраний артефакт вмикає встановлений спільний економічний або військовий бонус лише після внесення до відповідної будівлі; саме носіння бонусу не дає.
+
+### Включає
+
+Герої оригінальної Age of Mythology приносять реліквії до храмів.
+
+### Виключає
+
+Автоматичний бонус під час підбирання; платну технологію; перемогу за всі зібрані артефакти; непідтверджене правило втрати чи повернення.
+
+### Ігри-носії
+
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
+
+## SYS-1191
+
+- Назва: Виконувати миттєвий товарний обмін із цінами, що реагують на угоди
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Прийнята купівля або продаж товару одразу віднімає запропонований спільний запас і додає відповідний оплачений запас; обсяг обміну змінює ціни наступних угод.
+
+### Включає
+
+Обмін їжі чи деревини на золото на ринку оригінальної Age of Mythology.
+
+### Виключає
+
+Саму крамницю з незмінною ціною; поїздку й доставку торговця; два окремі ринки держав із прикордонним перевезенням; черги виробництва.
+
+### Ігри-носії
+
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
+
+## SYS-1192
+
+- Назва: Перетворювати самостійні поїздки торговця на дохід за відстанню
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Призначена торгова одиниця повторно їздить між відповідною торговою будівлею й пунктом бази, додаючи спільний дохід після повернення; відстань маршруту впливає на встановлений розмір доходу.
+
+### Включає
+
+Караван приносить золото після поїздок між ринком і центром міста в оригінальній Age of Mythology.
+
+### Виключає
+
+Миттєвий товарний обмін на ринку; додавання доходу за міський хід; корабельні вантажні місця; гарантований дохід після знищення торговця.
+
+### Ігри-носії
+
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
+
+## SYS-1193
+
+- Назва: Збирати й здавати врожай із невичерпного поля
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Призначений працівник повторно збирає врожай зі створеного поля й переносить його до відповідного місця здачі; звичайне збирання не вичерпує поле й не вимагає нового посіву.
+
+### Включає
+
+Ферми оригінальної Age of Mythology безперервно дають їжу без повторного засівання.
+
+### Виключає
+
+Вичерпання джерела на мапі; ферму зі скінченним запасом, який треба поновлювати; пасивний дохід без працівника чи доставки.
+
+### Ігри-носії
+
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
+
+## SYS-1194
+
+- Назва: Відправляти працівників в укриття й повертати до попередньої роботи
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Команда тривоги на базі скеровує придатних близьких працівників до доступних укриттів і зберігає їхні попередні призначення. Команда повернення до роботи відсилає схованих назад; працівники без вільного місця продовжують роботу.
+
+### Включає
+
+Міський дзвін і повернення до роботи в оригінальній Age of Mythology.
+
+### Виключає
+
+Загальну паузу; незворотне скасування роботи; необмежену місткість будівлі; автоматичну тривогу без команди гравця.
+
+### Ігри-носії
+
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
+
+## SYS-1195
+
+- Назва: Привласнювати стадних тварин наближенням одиниці
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Придатна одиниця, що наближається до тварини, яку можна привласнити, переводить її під контроль свого власника. Після цього тварину можна пересувати командами й використати для збирання їжі; вона не зникає до інвентарю.
+
+### Включає
+
+Стадні тварини оригінальної Age of Mythology змінюють колір власника після наближення одиниці.
+
+### Виключає
+
+Підбирання умовного жетона очок; ловлю істоти через перевірку випадку; миттєве споживання тварини; непідтверджену відстань привласнення.
+
+### Ігри-носії
+
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
+
+## SYS-1196
+
+- Назва: Переносити військо крізь створений зв’язаний прохід
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Придатне військо, що за командою входить до створеного входу проходу, переноситься до зв’язаного виходу й продовжує там звичайний рух, не проходячи проміжною місцевістю.
+
+### Включає
+
+Підземний прохід Аполлона в оригінальній Age of Mythology.
+
+### Виключає
+
+Неперервне перетворення положення тіла на площині порталу; безпосередньо керованого героя в панельному переході; довільне перенесення всіх одиниць із будь-якого місця; непідтверджену точну затримку.
+
+### Ігри-носії
+
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
+
+## SYS-1197
+
+- Назва: Оцінювати вчасність з’єднання, поки музичні події тривають
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Система просуває авторську звукову й зорову послідовність наближення, оцінює розпізнану відповідь відносно моменту з’єднання, показує успішну збірку чи невдалий дотик і переходить до наступних подій. Окремий промах не обриває всю вправу.
+
+### Включає
+
+Вчасний стрижень з’єднує дві пластини в оригінальній Built to Scale для DS; невчасний кидок чи пропуск дає місцеву невдачу, а сигнали тривають.
+
+### Виключає
+
+Фізику снаряда з довільною ціллю; чергування фраз учителя й учня; напрямлені команди ножних панелей; шкалу виживання, що завершує гру при вичерпанні; очікування кожної відповіді.
+
+### Ігри-носії
+
+- [`GAME-0454` — Rhythm Heaven](../games/m-r/rhythm-heaven.md)
+
+## SYS-1198
+
+- Назва: Надавати перевагу після відбиття з винятком для відповіді
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Вчасне відбиття або парирування відповідної висоти ненадовго зупиняє обох бійців і дозволяє захиснику рухатися першим. Відбитий нападник ще не може звичайно атакувати чи захищатися, але може відповісти на наступний удар іншим допустимим відбиттям.
+
+### Включає
+
+Guard Impact та відповідь на нього в оригінальній Soulcalibur для Dreamcast.
+
+### Виключає
+
+Безперервний блок; витрату міцності ножа; гарантований невідворотний наступний удар; відбиття будь-якої атаки; кінематографічне протистояння з пізнішої частини.
+
+### Ігри-носії
+
+- [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
+
+## SYS-1199
+
+- Назва: Надавати два заряджені ефекти й скасовувати їх вимушеним захистом
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Обрана гілка заряджання надає наступним атакам властивості зустрічного влучання або робить окремі прийоми неблокованими; для захисту в другому стані лишається виняток із відбиттям. Якщо зарядженого бійця змусити захищатися, посилення зникає без витрати окремої сучасної шкали.
+
+### Включає
+
+Зелений і золотий стани Soul Charge, описані в оригінальному посібнику Dreamcast.
+
+### Виключає
+
+Звичайні команди стійки зброї; постійне пошкодження спорядження; перетворення за сучасну шкалу; неблокованість усіх атак; твердження про виміряну тривалість заряду.
+
+### Ігри-носії
+
+- [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
 
 ## SYS-120
 
@@ -6681,6 +7014,216 @@ Fez перебудовує активні зіткнення `trile` після 
 
 - [`GAME-0091` — Fez](../games/a-f/fez.md)
 
+## SYS-1200
+
+- Назва: Присуджувати раунд за вихід із рингу без вичерпання життя
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Вихід бійця за межі визначеного рингу негайно дає супернику раунд навіть за додатного запасу життя. Одночасний вихід дає нічию й раунд обом, після чого налаштовані позначки та відновлення стану продовжують або завершують матч.
+
+### Включає
+
+Ring Out і Double Ring Out у звичайному VS Battle оригінальної Soulcalibur для Dreamcast.
+
+### Виключає
+
+Витрату спроби платформного бійця з поверненням у тому самому раунді; дотик до стіни без виходу; вимогу нульового життя; перенесення Sudden Death з Arcade у VS.
+
+### Ігри-носії
+
+- [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
+
+## SYS-1201
+
+- Назва: Перекривати запланований вхід ворога поставленою перешкодою
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Запланований вхід ворога перевіряє визначений отвір: правильно поставлені пересувні меблі перекривають його до входу та не допускають появи ворога; незакритий отвір допускає ворога в кімнату, де час триває.
+
+### Включає
+
+Шафа біля вікна й скриня над люком горища Alone in the Dark до входу відповідних ворогів.
+
+### Виключає
+
+Хвилю від проходження, незалежну від перекриття отвору; остаточне усунення лише від погляду на ворога; гарантовану точну секунду появи; перемогу меблями над ворогом, який уже ввійшов.
+
+### Ігри-носії
+
+- [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
+
+## SYS-1202
+
+- Назва: Переливати пальне зі збереженням порожньої тари
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Прийняте сумісне поповнення переносить скінченний вміст перенесеної тари в переносний пристрій до його межі, залишаючи порожню тару окремою річчю, а не видаляючи її тотожність.
+
+### Включає
+
+Поповнення лампи каністрою олії в Alone in the Dark; за джерелом шляхи Use і Reload по-різному оновлюють вагу залишеної каністри.
+
+### Виключає
+
+Видалення одиниці запасу батарей; автоматичне відновлення; створення нового складеного предмета; перезаряджання зброї; твердження про виміряний обсяг поповнення.
+
+### Ігри-носії
+
+- [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
+
+## SYS-1203
+
+- Назва: Зберігати випущену річ для пізнішого підбирання
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Після допустимого випускання перенесеної речі система зберігає її на місці у світі й дозволяє згодом допустиме підбирання; сама зміна ракурсу чи кімнати не споживає випущену річ.
+
+### Включає
+
+Залишені чи кинуті речі інвентарю Alone in the Dark, зокрема порожня каністра, та збережений стан об’єктів світу.
+
+### Виключає
+
+Спожитий одноразовий запас; тимчасовий зоровий ефект кидка; розподіл командного спорядження в раунді; позначку валюти лише після смерті; точне відновлення анімації.
+
+### Ігри-носії
+
+- [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
+
+## SYS-1204
+
+- Назва: Додавати час контрольної точки до залишку
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Після допустимого проходження чергової контрольної точки маршруту до вичерпання часу система додає визначений запас наступної ділянки до невитраченого часу спроби, зберігаючи залишок замість скидання до сталого повного таймера.
+
+### Включає
+
+Вчасне проходження контрольної точки в оригінальній Sega Rally Championship із додаванням часу до залишку.
+
+### Виключає
+
+Точку лише для запису поступу; штраф до виміряного часу; додавання часу за мішень перестрілки; точну непідтверджену кількість додаткових секунд.
+
+### Ігри-носії
+
+- [`GAME-0457` — Sega Rally Championship](../games/s-z/sega-rally-championship.md)
+
+## SYS-1205
+
+- Назва: Продовжувати скінченний ланцюг трас із бонусною гілкою
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Допустиме завершення траси переносить ту саму спробу водіння на наступну авторську трасу; після звичайного ланцюга визначена умова результату обирає бонусну трасу або кінцевий підсумок, тому проміжний фініш не завершує всю спробу.
+
+### Включає
+
+Desert, Forest і Mountain оригінальної Sega Rally Championship та подальша бонусна траса за достатньо високого результату.
+
+### Виключає
+
+Вільну послідовність незалежних тренувальних заїздів; кубок за сумою очок; збережений поступ рейтингу кампанії; точний перенос місця чи часу без вимірювання.
+
+### Ігри-носії
+
+- [`GAME-0457` — Sega Rally Championship](../games/s-z/sega-rally-championship.md)
+
+## SYS-1206
+
+- Назва: Зупиняти циклічні символи ударами й прибирати однаковий набір
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Кожна визначена ціль у світі циклічно змінює символ із заданого набору в реальному часі; допустимий удар зупиняє поточний символ, а однаковість зупинених символів усіх потрібних цілей прибирає набір і відкриває авторську нагороду.
+
+### Включає
+
+Зупинка Three-of-a-Kinds на однаковій картковій масті в оригінальній Link’s Awakening відкриває скриню з кам’яним фрагментом.
+
+### Виключає
+
+Перестановку нерухомих плиток три-в-ряд; оцінювання ритму; випадкову роздачу карт; невиміряний час скидання неправильного набору.
+
+### Ігри-носії
+
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
+
+## SYS-1207
+
+- Назва: Відбивати допустимий контакт піднятим щитом або перевертати ворога
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Контакт із піднятим щитом, спрямованим за поворотом героя, відбиває допустимі снаряди або відштовхує й перевертає визначений клас ворогів у вразливий стан; недопустимий контакт не отримує загальної невразливості.
+
+### Включає
+
+Щит оригінальної Link’s Awakening блокує стріли чи каміння та перевертає Spiked Beetles перед ударом меча.
+
+### Виключає
+
+Пасивний щит за напрямком погляду; дуель із вибором напрямку зброї; витрату шкали захисту; всебічне парирування за часом; звичайне зменшення шкоди бронею.
+
+### Ігри-носії
+
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
+
+## SYS-1208
+
+- Назва: Повертати після ями до кімнати або скидати бій на нижньому поверсі
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Падіння в яму підземелля застосовує визначену втрату здоров’я й повертає героя до входу кімнати або сполученої нижньої кімнати; якщо падіння виводить із визначеної арени охоронця, той відновлює завдану йому шкоду до повернення героя, а здобуті предмети маршруту не скидаються як під час повного завантаження збереження.
+
+### Включає
+
+Повернення після звичайної бездонної ями та падіння з арени Moldorm у кімнату нижче з відновленням здоров’я боса в оригінальній Link’s Awakening.
+
+### Виключає
+
+Смертельний перезапуск усієї контрольної точки; команду перемотування; витрату запасного життя; однакове призначення всіх ям; невиміряну точну величину шкоди.
+
+### Ігри-носії
+
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
+
+## SYS-1209
+
+- Назва: Обирати здобич переможеного ворога за способом перемоги
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Перемога над допустимим ворогом різними дозволеними способами атаки обирає різні визначені класи предметів здобичі, тому спосіб змінює можливість відновити здоров’я або отримати валюту, а не лише шкоду атаки.
+
+### Включає
+
+Підземні Goombas оригінальної Link’s Awakening залишають рупії після меча й серця після стрибка на них із пером.
+
+### Виключає
+
+Звичайну випадкову здобич незалежно від способу; автоматичне лікування; гарантоване постійне спорядження; лише відновлення після добивання без альтернативного класу нагороди.
+
+### Ігри-носії
+
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
+
 ## SYS-121
 
 - Назва: Поточна екранна проєкція визначає топологію проходу
@@ -6701,6 +7244,27 @@ Echochrome переносить Walker між розділеними у світ
 ### Ігри-носії
 
 - [`GAME-0092` — Echochrome](../games/a-f/echochrome.md)
+
+## SYS-1210
+
+- Назва: Після перемоги над ворогом залишати предмет-доказ для завдання
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Перемога над відповідним ворогом створює окремий предмет у світі, який стає доказом для скінченного завдання тільки після його підбирання; перемога й зарахування доказу є різними переходами.
+
+### Включає
+
+Metal Bugs в оригінальній Daxter для PSP залишають золоті самоцвіти, які потрібно зібрати для першого завдання Westside Hotel.
+
+### Виключає
+
+Миттєве зарахування кількості вбивств без предмета; досвід, що притягується на відстані; різну здобич залежно від способу перемоги; лікування після добивання; необов’язкові очки без доказу виконання.
+
+### Ігри-носії
+
+- [`GAME-0459` — Daxter](../games/a-f/daxter.md)
 
 ## SYS-122
 
@@ -7598,6 +8162,7 @@ Papers, Please видає цитату про порушення після не
 - [`GAME-0233` — 7 Days to Die](../games/0-9/7-days-to-die.md)
 - [`GAME-0124` — Against the Storm](../games/a-f/against-the-storm.md)
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0135` — "Captain of Industry"](../games/a-f/captain-of-industry.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
@@ -8811,8 +9376,10 @@ Hostility в Against the Storm, що зростає від років, насе�
 
 - [`GAME-0233` — 7 Days to Die](../games/0-9/7-days-to-die.md)
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0223` — Aion Classic](../games/a-f/aion-classic.md)
 - [`GAME-0427` — Alan Wake](../games/a-f/alan-wake.md)
+- [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
 - [`GAME-0132` — Anno 1800](../games/a-f/anno-1800.md)
 - [`GAME-0154` — Apex Legends](../games/a-f/apex-legends.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
@@ -8844,6 +9411,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
+- [`GAME-0459` — Daxter](../games/a-f/daxter.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
 - [`GAME-0161` — Dead by Daylight](../games/a-f/dead-by-daylight.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
@@ -8944,6 +9512,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0430` — Silent Hill](../games/s-z/silent-hill.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
+- [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
 - [`GAME-0360` — "Space Invaders"](../games/s-z/space-invaders.md)
 - [`GAME-0412` — Splatoon 3](../games/s-z/splatoon-3.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
@@ -8964,6 +9533,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
 - [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
@@ -8971,6 +9541,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
 - [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
+- [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 - [`GAME-0191` — "Total War: WARHAMMER III"](../games/s-z/total-war-warhammer-iii.md)
 - [`GAME-0409` — 'Twisted Metal: Black'](../games/s-z/twisted-metal-black.md)
@@ -10720,6 +11291,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0397` — 'Command & Conquer: Red Alert 2'](../games/a-f/command-and-conquer-red-alert-2.md)
 - [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
@@ -10924,6 +11496,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0397` — 'Command & Conquer: Red Alert 2'](../games/a-f/command-and-conquer-red-alert-2.md)
 - [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
@@ -11252,6 +11825,7 @@ Hostility в Against the Storm, що зростає від років, насе�
 - [`GAME-0420` — Project Gotham Racing 2](../games/m-r/project-gotham-racing-2.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0457` — Sega Rally Championship](../games/s-z/sega-rally-championship.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
 - [`GAME-0216` — Trackmania](../games/s-z/trackmania.md)
 - [`GAME-0409` — 'Twisted Metal: Black'](../games/s-z/twisted-metal-black.md)
@@ -12136,6 +12710,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 
 ### Ігри-носії
 
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
 
 ## SYS-361
@@ -12420,6 +12995,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
+- [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 - [`GAME-0268` — Undertale](../games/s-z/undertale.md)
 
@@ -12669,6 +13245,7 @@ Overcharge Gustave, Stains Lune і стійки Maelle у Clair Obscur: Expediti
 
 ### Ігри-носії
 
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0223` — Aion Classic](../games/a-f/aion-classic.md)
 - [`GAME-0154` — Apex Legends](../games/a-f/apex-legends.md)
 - [`GAME-0234` — Battlefield 2042](../games/a-f/battlefield-2042.md)
@@ -13096,6 +13673,7 @@ Silk від ударів Needle, Bind та Silk Skills у Hollow Knight: Silkson
 - [`GAME-0344` — "Prince of Persia: The Sands of Time"](../games/m-r/prince-of-persia-the-sands-of-time.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 - [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
 - [`GAME-0395` — "The Legend of Zelda: Majora’s Mask"](../games/s-z/the-legend-of-zelda-majoras-mask.md)
 
 ## SYS-399
@@ -13488,6 +14066,7 @@ Life Crystals у Terraria, які додають 20 до найбільшого 
 - [`GAME-0347` — "Castlevania: Symphony of the Night"](../games/a-f/castlevania-symphony-of-the-night.md)
 - [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
 
 ## SYS-418
 
@@ -15592,6 +16171,7 @@ Echo Detector у пролозі та Piece of Cake.
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 - [`GAME-0217` — "Need for Speed Underground"](../games/m-r/need-for-speed-underground.md)
 - [`GAME-0420` — Project Gotham Racing 2](../games/m-r/project-gotham-racing-2.md)
+- [`GAME-0457` — Sega Rally Championship](../games/s-z/sega-rally-championship.md)
 
 ## SYS-516
 
@@ -15623,6 +16203,7 @@ Echo Detector у пролозі та Piece of Cake.
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 - [`GAME-0217` — "Need for Speed Underground"](../games/m-r/need-for-speed-underground.md)
 - [`GAME-0420` — Project Gotham Racing 2](../games/m-r/project-gotham-racing-2.md)
+- [`GAME-0457` — Sega Rally Championship](../games/s-z/sega-rally-championship.md)
 - [`GAME-0216` — Trackmania](../games/s-z/trackmania.md)
 
 ## SYS-517
@@ -15761,6 +16342,7 @@ Drive, економіку закупівель раунду, постійний 
 ### Ігри-носії
 
 - [`GAME-0393` — Mortal Kombat II](../games/m-r/mortal-kombat-ii.md)
+- [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
 - [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
@@ -16336,6 +16918,7 @@ Small і large boost pads та boost thrust у Rocket League.
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
 
 ## SYS-550
@@ -16358,6 +16941,7 @@ Small і large boost pads та boost thrust у Rocket League.
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
 
 ## SYS-551
@@ -16380,6 +16964,7 @@ Small і large boost pads та boost thrust у Rocket League.
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0397` — 'Command & Conquer: Red Alert 2'](../games/a-f/command-and-conquer-red-alert-2.md)
 - [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
@@ -16406,6 +16991,7 @@ Small і large boost pads та boost thrust у Rocket League.
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
 
 ## SYS-553
@@ -16428,6 +17014,7 @@ Houses, Town Centers і Castles за межі 200 населення в Age of E
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
 
 ## SYS-554
@@ -16450,6 +17037,7 @@ Houses, Town Centers і Castles за межі 200 населення в Age of E
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0191` — "Total War: WARHAMMER III"](../games/s-z/total-war-warhammer-iii.md)
@@ -16474,6 +17062,7 @@ Wonder, Relic, Score, часову перемогу, кампанійний тр
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 
 ## SYS-556
 
@@ -16967,6 +17556,7 @@ Wonder, Relic, Score, часову перемогу, кампанійний тр
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
+- [`GAME-0459` — Daxter](../games/a-f/daxter.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0352` — DOOM (1993)](../games/a-f/doom-1993.md)
@@ -17011,9 +17601,11 @@ Wonder, Relic, Score, часову перемогу, кампанійний тр
 - [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 - [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
 - [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 - [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
+- [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
 - [`GAME-0409` — 'Twisted Metal: Black'](../games/s-z/twisted-metal-black.md)
 - [`GAME-0268` — Undertale](../games/s-z/undertale.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
@@ -17591,8 +18183,10 @@ Bloody Memo й корал, Inconspicuous Switch, Captain's Quarters Key, Waverid
 
 ### Ігри-носії
 
+- [`GAME-0459` — Daxter](../games/a-f/daxter.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
 - [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 
@@ -22135,6 +22729,7 @@ Mimic, який копіює буденний предмет станції, а 
 - [`GAME-0277` — Cuphead](../games/a-f/cuphead.md)
 - [`GAME-0278` — DAVE THE DIVER](../games/a-f/dave-the-diver.md)
 - [`GAME-0350` — "Jet Set Radio"](../games/g-l/jet-set-radio.md)
+- [`GAME-0454` — Rhythm Heaven](../games/m-r/rhythm-heaven.md)
 
 ## SYS-823
 
@@ -23050,6 +23645,7 @@ Castle Heart, який заявляє вільний Build Location і дозв�
 
 - [`GAME-0308` — Bloodborne™](../games/a-f/bloodborne.md)
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
+- [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
 
 ## SYS-869
 
@@ -23938,6 +24534,7 @@ Delivery Results першого замовлення DEATH STRANDING DIRECTOR'S 
 ### Ігри-носії
 
 - [`GAME-0313` — Tank 1990](../games/s-z/tank-1990.md)
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
 
 ## SYS-911
 
@@ -24395,6 +24992,7 @@ Battle Plans Front Cover, Back Cover, Round Cover, Front Keep, Back Keep і Assi
 
 ### Ігри-носії
 
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
 - [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 

@@ -1,5 +1,44 @@
 # Objective Genes
 
+## OBJ-260 — Finish one finite checkpoint-timed driving chain
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: complete the required authored course chain before its replenishable deadline expires, include any bonus course actually awarded by the performance gate, and reach the attempt’s final classified result; first place is not imposed on every ordinary completion.
+- Includes: One original Sega Rally Championship solo Championship credit from fixed car selection through ordinary or eligible bonus termination.
+- Excludes: one isolated practice circuit; an elapsed-time-only trial; requiring a persistent campaign reward; winning a points-based multi-race cup; ending at the first intermediate course.
+- Parameters: course chain, checkpoint time additions, performance branch, awarded bonus, expiry and final classification.
+- Evidence: [Sega Rally Championship decomposition](../games/s-z/sega-rally-championship.md), visually inspected original 1995 Sega twin manual, printed pp. 14–16 and 28; source reconstruction, not cabinet execution.
+- Novelty: first isolated for `GAME-0457`; no external novelty claim or earlier definition rewrite.
+
+## OBJ-259 — Win fixed-pair rounds through knockout, timeout or ring departure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: in one fixed fighting match, earn the required round-win count before the opponent through vitality depletion, favourable timeout comparison or the opponent's ring departure, so spatial victory remains valid at positive vitality.
+- Includes: Original Dreamcast Soulcalibur ordinary VS Battle required wins, including Ring Out.
+- Excludes: KO/time-over as the only victory routes; exhausting platform-fighter stocks; clearing an Arcade ladder; winning a team or tournament set; treating one round as the whole multi-round match.
+- Parameters: Fixed pair, selected side, required wins, vitality, timeout comparison, ring departure, draws, opponent wins and final result.
+- Evidence: [Soulcalibur decomposition](../games/s-z/soulcalibur.md), original Namco manual pp. 4–5; source reconstruction, not direct execution.
+- Novelty: first isolated for `GAME-0455`; no external novelty claim or earlier boundary rewrite.
+
+## OBJ-258 — Finish an authored rhythmic exercise with a passing terminal quality grade
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one finite authored rhythmic exercise and receive a passing end-of-performance quality grade to obtain its ordinary stage-clear and successor transition, rather than count arrival at the endpoint alone as success.
+- Includes: OK or Superb after the first original DS Built to Scale; Superb's medal is optional for ordinary passage.
+- Excludes: Live survival-gauge song completion; a required live Good instructor rating; Perfect challenge eligibility; all-game collection completion; finishing regardless of terminal quality.
+- Parameters: Exercise, event endpoint, passing grades, ordinary successor, optional higher grade and result retention.
+- Evidence: [Rhythm Heaven decomposition](../games/m-r/rhythm-heaven.md), its original-manual and bounded first-hand source ledger.
+- Novelty: first isolated for `GAME-0454`; no external novelty or direct-play claim.
+
 ## OBJ-001 — Reach target value
 
 - Lifecycle: `Active`
@@ -5216,3 +5255,16 @@
 - Parameters: course, rider, field, finish, classification and result.
 - Evidence: [SSX Tricky decomposition](../games/s-z/ssx-tricky.md), EA's original booklet and first-hand PS2 guide.
 - Novelty: first isolated for `GAME-0450`; one downhill descent evaluates rank without a progression reward.
+
+## OBJ-261 — Collect the assigned hostile-proof quota and report to its recipient
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete one finite authored assignment by defeating qualifying hostiles, physically collecting at least the declared number of resulting proof tokens, returning to the addressed mission recipient and making a separate report interaction that accepts completion.
+- Includes: the original PSP Daxter first Westside Hotel assignment: collect at least 25 Gold Gems, return by the hotel elevator and report to the concierge.
+- Excludes: stopping immediately at the kill or pickup threshold; collecting every optional token; a score-only extermination; a transported cargo quota with a timed departure (`OBJ-160`); a distinct-creature capture count that settles automatically (`OBJ-242`).
+- Parameters: qualifying hostile, proof token, minimum accepted count, recipient, return route, report interaction and accepted mission flag.
+- Evidence: [Daxter decomposition](../games/a-f/daxter.md), independent original-PSP first-hotel routes by Larry Imgrund and Akiro, supported by the original PSP UCES-00044/ANZ manual's proof-collection rule (PDF leaf 7).
+- Novelty: first isolated for `GAME-0459`; no claim that exactly 25 enemies or every available gem is required.

@@ -1,5 +1,291 @@
 # System Behaviour Genes
 
+## SYS-1209 — Select a defeated hostile’s drop class by the defeating method
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: defeating one eligible hostile through different admitted attack methods selects different declared collectible reward classes, so the method changes the resulting health or currency opportunity rather than only attack damage.
+- Includes: Original Link’s Awakening underground Goombas leaving rupees after sword defeat and hearts after a feather-enabled stomp.
+- Excludes: an ordinary random drop independent of method; automatic healing; guaranteed permanent equipment; an execution-only recovery conversion with no alternative reward class.
+- Parameters: hostile class, defeating method, compatible sword or stomp, resulting drop class, world pickup and health capacity.
+- Evidence: [Link's Awakening decomposition](../games/s-z/the-legend-of-zelda-links-awakening.md), original Nintendo DMG manual and Nintendo Player's Guide, printed pp. 12–16 and 26–29, documentary reconstruction rather than direct play.
+- Novelty: first isolated for `GAME-0458`; no external novelty claim or earlier signature change.
+
+## SYS-1208 — Resolve a dungeon pit into local return or lower-room encounter reset
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an unsupported dungeon fall applies the declared health cost and restores the actor at the room entrance or a connected lower room; when the fall exits a declared guardian arena, that guardian recovers its encounter damage before the actor can return, while acquired route items are not treated as a complete save rollback.
+- Includes: Original Link’s Awakening ordinary bottomless-pit return and Moldorm arena fall to the room below with restored boss health.
+- Excludes: lethal restart of an entire authored checkpoint; a rewind command; a finite-life deduction; claiming every hole has the same destination; an unmeasured exact damage increment.
+- Parameters: hole class, health cost, return entrance or lower room, guardian arena, restored boss health and retained items.
+- Evidence: [Link's Awakening decomposition](../games/s-z/the-legend-of-zelda-links-awakening.md), original Nintendo DMG manual and Nintendo Player's Guide, printed pp. 12–16 and 26–29, documentary reconstruction rather than direct play.
+- Novelty: first isolated for `GAME-0458`; no external novelty claim or earlier signature change.
+
+## SYS-1207 — Resolve a raised facing shield into eligible rejection or hostile overturn
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: contact against an actively raised facing-relative shield rejects eligible incoming projectiles or pushes and overturns a declared hostile class into an attackable state; non-eligible contact is not granted universal immunity.
+- Includes: Original Link’s Awakening shield blocking arrows or stones and flipping Spiked Beetles before a sword strike.
+- Excludes: a passive facing shield; a chosen weapon-direction duel; a guard-meter economy; an omnidirectional timed parry; ordinary armour reduction.
+- Parameters: raised state, facing arc, incoming class, hostile class, rejected contact, overturned state and vulnerability.
+- Evidence: [Link's Awakening decomposition](../games/s-z/the-legend-of-zelda-links-awakening.md), original Nintendo DMG manual and Nintendo Player's Guide, printed pp. 12–16 and 26–29, documentary reconstruction rather than direct play.
+- Novelty: first isolated for `GAME-0458`; no external novelty claim or earlier signature change.
+
+## SYS-1206 — Stop cycling world symbols by strikes and clear their matching set
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: each designated world target cycles through a declared symbol domain on the live clock; a legal strike stops its current symbol, and equality of the stopped symbols across the required set removes that set and exposes its authored reward.
+- Includes: Original Link’s Awakening Three-of-a-Kinds stopped on the same card suit to reveal a Stone Fragment chest.
+- Excludes: swapping stationary match-three tiles; a periodic rhythm grade; a random card deal; claiming unmeasured wrong-set reset timing.
+- Parameters: symbol domain, cycle phase, struck member, stopped value, required set, equality and reward flag.
+- Evidence: [Link's Awakening decomposition](../games/s-z/the-legend-of-zelda-links-awakening.md), original Nintendo DMG manual and Nintendo Player's Guide, printed pp. 12–16 and 26–29, documentary reconstruction rather than direct play.
+- Novelty: first isolated for `GAME-0458`; no external novelty claim or earlier signature change.
+
+## SYS-1205 — Advance a finite timed course chain with conditional bonus continuation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: a valid course completion moves the same driving attempt to the next authored course; after the ordinary chain, the declared performance predicate selects a bonus-course continuation or terminal result, so an intermediate finish is not the whole-run terminal.
+- Includes: Original Sega Rally Championship Desert, Forest and Mountain followed by a superior-result hyper-course branch.
+- Excludes: a freely chosen sequence of independent practice races; a points-based cup trophy; retained campaign-rank progression; claiming exact position/time carry implementation without measurement.
+- Parameters: course order, lap settings, attempt continuity, ordinary final course, performance predicate, bonus route and terminal.
+- Evidence: [Sega Rally Championship decomposition](../games/s-z/sega-rally-championship.md), visually inspected original 1995 Sega twin manual, printed pp. 14–16 and 28; source reconstruction, not cabinet execution.
+- Novelty: first isolated for `GAME-0457`; no external novelty claim or earlier definition rewrite.
+
+## SYS-1204 — Credit a reached route checkpoint into the remaining deadline
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: on an eligible ordered route-checkpoint crossing before expiry, the system adds the declared next-section allowance to the unspent attempt time, preserving the remainder rather than resetting it to a fixed full clock.
+- Includes: Original Sega Rally Championship timely checkpoint credit plus carried remaining time.
+- Excludes: a checkpoint that only records progress; a scored elapsed-time penalty; a gunfight-target time award; an exact undocumented number of bonus seconds.
+- Parameters: checkpoint order, timely crossing, previous remainder, next allowance and expiry ordering.
+- Evidence: [Sega Rally Championship decomposition](../games/s-z/sega-rally-championship.md), visually inspected original 1995 Sega twin manual, printed pp. 14–16 and 28; source reconstruction, not cabinet execution.
+- Novelty: first isolated for `GAME-0457`; no external novelty claim or earlier definition rewrite.
+
+## SYS-1201 — Suppress a scheduled hostile entry with a placed obstacle
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: a scheduled hostile entry tests its designated aperture; correctly placed movable furniture obstructs that aperture before entry and suppresses the entrant, whereas an unblocked aperture admits the hostile to the live room.
+- Includes: Alone in the Dark attic wardrobe at the window and chest over the trapdoor before their respective entrants.
+- Excludes: a traversal-triggered wave independent of aperture obstruction; permanent removal merely by seeing an enemy; a guaranteed exact spawn second; defeating an already admitted hostile by moving furniture.
+- Parameters: entry schedule, aperture, obstacle placement, obstruction test and entrant state.
+- Evidence: [Alone in the Dark decomposition](../games/a-f/alone-in-the-dark.md), its original DOS CD manual and bounded first-hand written mechanics ledger; reconstruction, not local execution.
+- Novelty: first isolated for `GAME-0456`; no external novelty claim or earlier boundary rewrite.
+
+## SYS-1202 — Transfer carried fuel while retaining its emptied container
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: an accepted compatible refill transfers finite contents from a carried fuel container into a portable device toward its cap, leaving the emptied container as a retained collectible rather than deleting the container identity.
+- Includes: Alone in the Dark oil-can refill of the lamp; source-reported Use versus Reload paths differ in the retained can weight update.
+- Excludes: deleting a battery stock unit; automatic recharge; crafting a new composite item; weapon-magazine reload; claiming a measured refill amount.
+- Parameters: fuel contents, container identity, device reserve, cap, refill path and retained container state.
+- Evidence: [Alone in the Dark decomposition](../games/a-f/alone-in-the-dark.md), its original DOS CD manual and bounded first-hand written mechanics ledger; reconstruction, not local execution.
+- Novelty: first isolated for `GAME-0456`; no external novelty claim or earlier boundary rewrite.
+
+## SYS-1203 — Retain a released collectible for later world recovery
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: after a legal carried-item release, the system retains that collectible at its world placement and permits later eligible collection; ordinary view or room changes do not themselves consume the released object.
+- Includes: Alone in the Dark retained dropped or thrown inventory objects, including the emptied oil can, and their stored world-object state.
+- Excludes: a consumed one-use stock; a temporary visual throw effect; team-round equipment redistribution; a death-only currency mark; an assertion of exact animation restoration.
+- Parameters: collectible identity, location, legal placement, room, recovery eligibility and stored object state.
+- Evidence: [Alone in the Dark decomposition](../games/a-f/alone-in-the-dark.md), its original DOS CD manual and bounded first-hand written mechanics ledger; reconstruction, not local execution.
+- Novelty: first isolated for `GAME-0456`; no external novelty claim or earlier boundary rewrite.
+
+## SYS-1198 — Resolve timed impact into priority and a counter-impact exception
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a correctly timed height-compatible repel or parry briefly freezes both fighters and lets its defender move first, while the impacted attacker cannot ordinarily attack or guard but may answer an incoming follow-up with another eligible impact.
+- Includes: Original Dreamcast Soulcalibur Guard Impact and countering Guard Impact.
+- Excludes: Sustained blocking; knife-durability expenditure; a guaranteed unavoidable follow-up; universal reflection of every attack; a cinematic later-edition reversal contest.
+- Parameters: Incoming height, direction, input/contact timing, repel/parry form, freeze, priority, restricted commands, follow-up and counter-impact eligibility.
+- Evidence: [Soulcalibur decomposition](../games/s-z/soulcalibur.md), original Namco manual pp. 21; source reconstruction, not direct execution.
+- Novelty: first isolated for `GAME-0455`; no external novelty claim or earlier boundary rewrite.
+
+## SYS-1199 — Apply two charged weapon effects and cancel them on forced guard
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: the declared charge branch changes later weapon attacks into counter-like effects or makes selected moves unblockable, with a defensive impact exception in the latter state; forcing the charged fighter to guard clears the enhancement without debiting a separate modern meter.
+- Includes: The green and gold Soul Charge states described in the original Dreamcast manual.
+- Excludes: Ordinary weapon-stance command forms; permanent equipment damage; modern meter-funded transformation; making every attack unblockable; claiming measured charge durations.
+- Parameters: Charge branch, current state, affected move class, counter effect, unblockability, eligible defensive impact and guard-induced cancellation.
+- Evidence: [Soulcalibur decomposition](../games/s-z/soulcalibur.md), original Namco manual pp. 23; source reconstruction, not direct execution.
+- Novelty: first isolated for `GAME-0455`; no external novelty claim or earlier boundary rewrite.
+
+## SYS-1200 — Award a fighting round for ring departure without vitality depletion
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a fighter's departure from the declared ring immediately awards the opposing side a round even if vitality remains positive; simultaneous departure draws and awards both sides, after which the configured round-marker and reset protocol continues or settles the match.
+- Includes: Original Dreamcast Soulcalibur Ring Out and Double Ring Out in ordinary VS Battle.
+- Excludes: Spending a platform-fighter stock and respawning in the same live round; wall contact without departure; requiring zero life; importing Arcade-only Sudden Death into VS.
+- Parameters: Ring predicate, departed participant, simultaneous departure, draw policy, round award, required wins, reset and result.
+- Evidence: [Soulcalibur decomposition](../games/s-z/soulcalibur.md), original Namco manual pp. 4–5; source reconstruction, not direct execution.
+- Novelty: first isolated for `GAME-0455`; no external novelty claim or earlier boundary rewrite.
+
+## SYS-1197 — Judge timed assembly responses while an authored musical sequence continues
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the system advances an authored audiovisual approach sequence, judges a registered response against the expected joining event, resolves successful assembly or failed contact and continues to further events without making each local miss an immediate performance abort.
+- Includes: A correctly timed rod joins two plates in original DS Built to Scale; mistimed or missing responses fail locally while later cues continue.
+- Excludes: Free-target projectile physics; instructor/player turn alternation; directional foot-panel commands; a live survival gauge that aborts on depletion; a timer that waits for each response.
+- Parameters: Authored event sequence, tempo phases, expected times, registered gestures, unmeasured timing tolerances, local outcome and sequence endpoint.
+- Evidence: [Rhythm Heaven decomposition](../games/m-r/rhythm-heaven.md), its original-manual and bounded first-hand source ledger.
+- Novelty: first isolated for `GAME-0454`; no external novelty or direct-play claim.
+
+## SYS-1188 — Accrue a capped deity resource from assigned worshippers
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: eligible workers continuously assigned to an owned worship site add a deity resource directly to a shared stockpile over live time, stopping further accumulation at its declared cap and foregoing their ordinary material-gathering work.
+- Includes: Original Greek Temple prayer producing Favor; Zeus changes the starting stock, accrual rate and cap.
+- Excludes: carried terrain extraction and return trips; resource production with no assigned workers; spending the stock; a failure meter reaching its limit.
+- Parameters: worshippers, site, resource, live rate, stockpile, initial amount, cap and interruption.
+- Evidence: [Age of Mythology decomposition](../games/a-f/age-of-mythology.md), Microsoft's original 2002 manuals and the bounded claim ledger.
+- Novelty: first isolated for `GAME-0453`; no external novelty claim.
+
+## SYS-1189 — Protect garrisoned units and eject them on building destruction
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: accepted units retained inside a building are sheltered from ordinary exterior targeting, may contribute the building's declared attack enhancement, and are released when that shelter is destroyed.
+- Includes: Original Age of Mythology garrison protection, attack contribution and destruction ejection.
+- Excludes: transport movement; individual shield health; guaranteed survival after ejection; currency storage.
+- Parameters: building, occupants, eligibility, capacity, protection, attack contribution and destruction.
+- Evidence: [Age of Mythology decomposition](../games/a-f/age-of-mythology.md), Microsoft's original 2002 manuals and the bounded claim ledger.
+- Novelty: first isolated for `GAME-0453`; no external novelty claim.
+
+## SYS-1190 — Apply an artifact bonus only after facility deposit
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a discrete collected artifact activates its declared shared economic or military modifier only when deposited in its compatible facility; merely carrying it leaves that modifier inactive.
+- Includes: Original Age of Mythology relics brought by heroes to Temples.
+- Excludes: automatic bonus at initial pickup; a paid technology; collecting all artifacts as a victory condition; an unsupported loss or recovery rule.
+- Parameters: artifact identity, carrier, deposit event, accepting facility and modifier.
+- Evidence: [Age of Mythology decomposition](../games/a-f/age-of-mythology.md), Microsoft's original 2002 manuals and the bounded claim ledger.
+- Novelty: first isolated for `GAME-0453`; no external novelty claim.
+
+## SYS-1191 — Settle immediate commodity exchanges at transaction-responsive prices
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an accepted commodity buy or sell immediately debits the offered shared stock and credits its priced counterpart, while exchange volume changes prices for subsequent transactions.
+- Includes: Food or Wood exchanged for Gold at an original Age of Mythology Market.
+- Excludes: a fixed-price inventory shop alone; trader travel and delivery; two separate polity markets with border transport; production queues.
+- Parameters: commodity, currency, buy or sell, volume, current quote, fee and price response.
+- Evidence: [Age of Mythology decomposition](../games/a-f/age-of-mythology.md), Microsoft's original 2002 manuals and the bounded claim ledger.
+- Novelty: first isolated for `GAME-0453`; no external novelty claim.
+
+## SYS-1192 — Convert autonomous trader return trips into distance-scaled income
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an assigned trade unit repeatedly travels between an eligible commercial facility and compatible base, crediting shared income on return with route distance affecting the declared yield.
+- Includes: Market–Town Center caravan Gold income in original Age of Mythology.
+- Excludes: instant Market commodity exchange; city-turn yield aggregation; ship cargo slot manifests; guaranteed income after trader destruction.
+- Parameters: trader, endpoints, path, travel time, return event, distance, yield and interruption.
+- Evidence: [Age of Mythology decomposition](../games/a-f/age-of-mythology.md), Microsoft's original 2002 manuals and the bounded claim ledger.
+- Novelty: first isolated for `GAME-0453`; no external novelty claim.
+
+## SYS-1193 — Gather and deposit from an inexhaustible worked field
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an assigned worker repeatedly harvests a constructed field and carries its output to a compatible drop-off, while ordinary harvesting does not exhaust the field or require replanting.
+- Includes: Original Age of Mythology farms yielding Food continuously without replanting.
+- Excludes: finite map-source exhaustion; a farm whose finite reserve must be renewed; passive income without workers or delivery.
+- Parameters: field, worker, harvest rate, carried quantity, compatible drop-off, route and interruption.
+- Evidence: [Age of Mythology decomposition](../games/a-f/age-of-mythology.md), Microsoft's original 2002 manuals and the bounded claim ledger.
+- Novelty: first isolated for `GAME-0453`; no external novelty claim.
+
+## SYS-1194 — Dispatch workers to shelter and restore their previous jobs
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a commanded base alarm routes nearby eligible workers to available shelter while retaining their prior work assignments; the return-to-work command sends sheltered workers back, while excess workers without space continue their work.
+- Includes: Original Age of Mythology Town Bell and return-to-work behavior.
+- Excludes: global pause; an irreversible job cancellation; unlimited building capacity; an automatic alarm without player command.
+- Parameters: alarm source, nearby workers, shelter capacity, remembered assignment and return command.
+- Evidence: [Age of Mythology decomposition](../games/a-f/age-of-mythology.md), Microsoft's original 2002 manuals and the bounded claim ledger.
+- Novelty: first isolated for `GAME-0453`; no external novelty claim.
+
+## SYS-1195 — Claim eligible herd animals through unit proximity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an eligible unit approaching a claimable herd animal transfers that animal into its owner's control, permitting subsequent commanded relocation and harvest rather than removing it into inventory.
+- Includes: Original Age of Mythology herd animals changing owner colour when approached.
+- Excludes: collecting an abstract score token; trapping a creature through a chance test; immediately consuming the animal; an unproven conversion range.
+- Parameters: claimable animal, approaching unit, owner, proximity, control and later harvest.
+- Evidence: [Age of Mythology decomposition](../games/a-f/age-of-mythology.md), Microsoft's original 2002 manuals and the bounded claim ledger.
+- Novelty: first isolated for `GAME-0453`; no external novelty claim.
+
+## SYS-1196 — Transfer commanded troops through a placed passage link
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: eligible commanded troops entering a placed passage entrance transfer to its linked exit and resume ordinary movement there, without traversing the intervening ground route.
+- Includes: Apollo's Underworld Passage in original Age of Mythology.
+- Excludes: continuous body-plane pose mapping of Portal; a directly controlled avatar entering a panel; freely teleporting every unit from any position; an unsupported exact transfer delay.
+- Parameters: passage endpoints, eligible troops, entry command, exit space and continued movement.
+- Evidence: [Age of Mythology decomposition](../games/a-f/age-of-mythology.md), Microsoft's original 2002 manuals and the bounded claim ledger.
+- Novelty: first isolated for `GAME-0453`; no external novelty claim.
+
 ## SYS-001 — Directional line compression
 
 - Lifecycle: `Active`
@@ -23322,3 +23608,55 @@
 - Parameters: meter threshold, Uber window, landing, letter count and unlimited state.
 - Evidence: [SSX Tricky decomposition](../games/s-z/ssx-tricky.md), EA's original booklet and first-hand PS2 guide.
 - Novelty: first isolated for `GAME-0450`; landed stunts can remove the current run's finite speed limit.
+
+## SYS-1185 — Retain an automatically acquired hostile identity while fire is held
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a drawn weapon automatically acquires an eligible hostile; held fire preserves that assigned target even when its current aiming lock is lost. Shots still require usable alignment, and releasing fire permits another acquisition.
+- Includes: Original Tomb Raider's assigned pistol target versus current lock and release-to-retarget rule.
+- Excludes: Guaranteed hits through occlusion; manually addressed target selection; a lock that necessarily clears with visibility loss; omniscient disclosure of all hostiles.
+- Parameters: acquisition, hostile identity, range, visibility, weapon alignment, held fire, lock and release.
+- Evidence: [Tomb Raider (1996) decomposition](../games/s-z/tomb-raider-1996.md), the source ledger and transitions for this scoped packet.
+- Novelty: first isolated for `GAME-0451`; no external novelty claim.
+
+## SYS-1186 — Close a triggered passage after its finite access interval
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: activating a linked trigger opens a previously unavailable passage for a finite live interval; expiry closes it again without itself terminating the surrounding route, and another eligible activation can reopen it.
+- Includes: The reattemptable switch-opened temporary door in original Tomb Raider Caves.
+- Excludes: Permanent one-way unlocking; a global deadline that ends the attempt; an occupancy-only gate with no timed continuation; a specific unsupported duration.
+- Parameters: trigger, linked passage, activation, open interval, expiry, reactivation and traversal.
+- Evidence: [Tomb Raider (1996) decomposition](../games/s-z/tomb-raider-1996.md), the source ledger and transitions for this scoped packet.
+- Novelty: first isolated for `GAME-0451`; no external novelty claim.
+
+## SYS-1187 — Sever a paired piece when a match removes one half
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after a qualifying pattern removes one component of a bonded two-cell piece, the system removes their bond and retains the unmatched component as an independent movable unit for subsequent support and fall resolution.
+- Includes: Dr. Mario's unmatched capsule half separating after its partner clears, then falling if it no longer has support.
+- Excludes: splitting an intact piece solely because it loses support; independently settling columns with no retained bond; removing the whole piece regardless of its unmatched colour; purely visual reshaping without changed support behaviour.
+- Parameters: pair membership, removed component, survivor identity, remaining support and eligible fall.
+- Evidence: [Dr. Mario decomposition](../games/a-f/dr-mario.md), the original booklet's printed p. 7 cascade and Nintendo's described steps 53–58.
+- Novelty: first isolated for `GAME-0452`; no external novelty claim.
+
+## SYS-1210 — Turn a defeated eligible hostile into collectible mission proof
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: defeating an eligible hostile creates a distinct world pickup that counts as proof for a finite assigned mission only after the player collects it; the defeat and the proof credit are separate transitions.
+- Includes: original PSP Daxter Metal Bugs releasing Gold Gems that must be collected for the first Westside Hotel extermination assignment.
+- Excludes: kill count credited instantly without a pickup; proximity-attracted experience (`SYS-574`); method-selected alternate drop classes (`SYS-1209`); health restored by a contextual execution (`SYS-770`); optional score objects that do not prove the mission.
+- Parameters: eligible hostile, defeat, proof drop, contact collection, credited quantity, mission and locality.
+- Evidence: [Daxter decomposition](../games/a-f/daxter.md), original PSP UCES-00044/ANZ manual PDF leaf 7 and independent original-PSP Westside Hotel routes by Larry Imgrund and Akiro; documentary reconstruction, not direct play.
+- Novelty: first isolated for `GAME-0459`; no claim about every Metal Bug species, exact drop latency or earlier signatures.

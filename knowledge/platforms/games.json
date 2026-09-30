@@ -24563,6 +24563,159 @@
       },
       "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
       "releases": []
+    },
+    "GAME-0451": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION",
+        "edition": "Original English 1996 PlayStation Tomb Raider, first Caves level",
+        "editionUk": "Оригінальна англомовна Tomb Raider 1996 року для PlayStation: перший рівень Caves",
+        "version": "Original PS1 rules reconstructed from the Eidos booklet and classic Caves route; exact disc revision and regional timing not inspected",
+        "distribution": "Original PlayStation disc edition; PC save-anywhere, Anniversary, 2013 game and Remastered controls excluded",
+        "evidenceUrl": "https://tombraiders.net/stella/files/manuals/TR1/Tomb_Raider_PS1.pdf",
+        "checked": "2026-09-30"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0452": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-ENTERTAINMENT-SYSTEM",
+        "edition": "Original English 1990 Dr. Mario for NES, one single-player bottle at virus level 5 and MED speed",
+        "editionUk": "Оригінальна англомовна Dr. Mario 1990 року для NES: одна пляшка одиночної гри, рівень вірусів 5 і середня швидкість",
+        "version": "NES-VU-USA booklet rules corroborated by Nintendo's later manual and described capsule/virus embodiment; exact cartridge revision and NTSC timings uninspected",
+        "distribution": "Original Nintendo Entertainment System cartridge; reissue documentation is corroboration, not a substituted analysed edition",
+        "evidenceUrl": "https://www.gamingalexandria.com/highquality/NES/Dr.%20Mario/Dr.%20Mario%20-%20Manual.pdf",
+        "checked": "2026-09-30"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0453": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Original English 2002 Windows Age of Mythology, one Zeus versus Zeus land Random Map Conquest on Savannah",
+        "editionUk": "Оригінальна англомовна Age of Mythology 2002 року для Windows: одна сухопутна одиночна партія на мапі Savannah, Зевс проти Зевса в режимі Conquest",
+        "version": "2002 Microsoft manual rules; exact installation patch, AI difficulty and generated seed not inspected",
+        "distribution": "Original Windows CD edition; archive manuals are evidence, not an offered game download",
+        "evidenceUrl": "https://oldgamesdownload.com/wp-content/uploads/manuals/age-of-mythology_win_manual_en_d5b.pdf",
+        "checked": "2026-09-30"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0454": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-DS",
+        "edition": "Original English North American 2009 Nintendo DS Rhythm Heaven, first ordinary Built to Scale",
+        "editionUk": "Оригінальна англомовна Rhythm Heaven 2009 року для Nintendo DS у Північній Америці: перша звичайна Built to Scale",
+        "version": "Original Nintendo US manual 67861A; exact cartridge revision, timing windows and full regional chart parity uninspected",
+        "distribution": "Original Nintendo DS cartridge; official manual is documentation, not a game download",
+        "evidenceUrl": "https://csassets.nintendo.com/noaext/image/private/t_KA_PDF/DS_Rythm_Heaven?_a=DATAg1AAZAA0",
+        "checked": "2026-09-30"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0455": {
+      "analysisTarget": {
+        "platformId": "PLAT-DREAMCAST",
+        "edition": "Original English 1999 Namco Dreamcast Soulcalibur, fixed-pair ordinary local VS Battle",
+        "editionUk": "Оригінальна англомовна Soulcalibur 1999 року від Namco для Dreamcast: звичайний місцевий VS Battle сталої пари",
+        "version": "Original English Dreamcast manual; exact regional disc, executable and hidden timings uninspected",
+        "distribution": "Original Dreamcast GD-ROM; archival official manual is documentation, not a game download",
+        "evidenceUrl": "https://www.digitpress.com/library/manuals/dreamcast/soul_calibur.pdf",
+        "checked": "2026-09-30"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0456": {
+      "analysisTarget": {
+        "platformId": "PLAT-DOS",
+        "edition": "Original 1992 game, English DOS CD-ROM edition documented by Infogrames in 1993",
+        "editionUk": "Оригінальна гра 1992 року: англомовне DOS CD-ROM-видання за документацією Infogrames 1993 року",
+        "version": "Original DOS CD manual; exact executable, region and floppy parity uninspected; internal limits remain written CD testimony",
+        "distribution": "Original DOS CD-ROM; the archival official manual is documentation, not a game download",
+        "evidenceUrl": "https://mocagh.org/miscgame/aitdtrilogy-alt-aitd1-manual.pdf",
+        "checked": "2026-09-30"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0457": {
+      "analysisTarget": {
+        "platformId": "PLAT-ARCADE-CABINET",
+        "edition": "Original 1995 Sega Rally Championship export twin cabinet, standalone solo Championship",
+        "editionUk": "Оригінальна Sega Rally Championship 1995 року: експортний twin-автомат, окремий одиночний Championship",
+        "version": "Original twin operator-manual rules, Normal settings and NOT LINK; exact firmware uninspected; upright lap parity explicitly rejected",
+        "distribution": "Original Sega arcade cabinet; archival Sega operator documentation, not a ROM download",
+        "evidenceUrl": "https://www.arcade-museum.com/manuals-videogames/S/Sega-Rally-Championship.pdf",
+        "checked": "2026-09-30"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0458": {
+      "analysisTarget": {
+        "platformId": "PLAT-GAME-BOY",
+        "edition": "Original 1993 monochrome English Game Boy Link’s Awakening, DMG-ZL-USA-1 manual target",
+        "editionUk": "Оригінальна англомовна чорно-біла Link’s Awakening 1993 року для Game Boy, видання за посібником DMG-ZL-USA-1",
+        "version": "Original Nintendo 1993 DMG manual and Player’s Guide rules; exact cartridge software revision uninspected; not DX or Switch remake",
+        "distribution": "Original Game Boy cartridge; archival Nintendo primary documentation, no ROM acquisition",
+        "evidenceUrl": "https://archive.org/details/Nintendo_Players_Guide_GB_Legend_of_Zelda_The_Links_Awakening",
+        "checked": "2026-09-30"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0459": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-PORTABLE",
+        "edition": "Original 2006 English PSP Daxter, documented first Westside Hotel assignment in UCES-00044/ANZ booklet",
+        "editionUk": "Оригінальна англомовна Daxter 2006 року для PSP, перше завдання Westside Hotel за посібником UCES-00044/ANZ",
+        "version": "Original PSP booklet rules and two first-hand PSP routes; UMD software revision uninspected; not the modern PS4/PS5 conversion",
+        "distribution": "Original PSP UMD target reconstructed from manufacturer booklet and original-PSP routes; no UMD or ROM acquisition",
+        "evidenceUrl": "https://archive.org/download/SonyPSPManuals/Daxter%20%28USA%29.pdf",
+        "checked": "2026-09-30"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
     }
   }
 }

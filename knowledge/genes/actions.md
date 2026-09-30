@@ -1,5 +1,161 @@
 # Action Genes
 
+## ACT-609 — Switch between fixed driving viewpoints
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during direct vehicle control, the player switches between the declared cockpit and exterior chase viewpoints while retaining the same vehicle state and movement authority; this is a visibility choice, not a rule-bearing world transformation.
+- Includes: Original Sega Rally Championship View Change between Driver’s Eye and View from Behind.
+- Excludes: orbiting a rule-bearing perspective to change physical legality; switching controlled actors; automatic camera tracking; freely moving a world camera.
+- Parameters: fixed viewpoints, current view, switch input, retained vehicle and visible occlusion.
+- Evidence: [Sega Rally Championship decomposition](../games/s-z/sega-rally-championship.md), visually inspected original 1995 Sega twin manual, printed pp. 14–16 and 28; source reconstruction, not cabinet execution.
+- Novelty: first isolated for `GAME-0457`; no external novelty claim or earlier definition rewrite.
+
+## ACT-608 — Choose a supplied race vehicle and transmission profile
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: before a finite driving attempt, the player commits one supplied car-and-transmission option from a public fixed selection; the choice assigns that vehicle and its manual or automatic control profile without buying or owning a garage collection.
+- Includes: Original Sega Rally Championship selecting Celica or Delta with Manual or Automatic.
+- Excludes: selecting an owned active collection car; changing opponent difficulty as an operator; shifting a gear during live driving; purchasing or tuning a vehicle.
+- Parameters: supplied vehicle, transmission profile, fixed options, commitment and attempt entry.
+- Evidence: [Sega Rally Championship decomposition](../games/s-z/sega-rally-championship.md), visually inspected original 1995 Sega twin manual, printed pp. 14–16 and 28; source reconstruction, not cabinet execution.
+- Novelty: first isolated for `GAME-0457`; no external novelty claim or earlier definition rewrite.
+
+## ACT-606 — Select a persistent world-action verb
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player selects an available character or carried-item verb that remains the active interpretation of a shared world-action input until another eligible verb or item is selected. Selecting the verb is distinct from subsequently executing it against the world.
+- Includes: DOS Alone in the Dark selecting Fight, Open/Search, Push or an eligible carried-item operation through Options.
+- Excludes: immediate execution of a single menu choice; quick-slot item selection alone; editing a remote agent program.
+- Parameters: verb, selected item, eligible operations, active mode, shared input and subsequent selection.
+- Evidence: [Alone in the Dark decomposition](../games/a-f/alone-in-the-dark.md), its original DOS CD manual and bounded first-hand written mechanics ledger; reconstruction, not local execution.
+- Novelty: first isolated for `GAME-0456`; no external novelty claim or earlier boundary rewrite.
+
+## ACT-607 — Release a carried collectible as a recoverable world object
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player explicitly drops or throws a discrete carried collectible, removing it from inventory and requesting placement in reachable surrounding world space; this does not inherently consume its identity.
+- Includes: Alone in the Dark choosing Drop or Throw for a carried letter, book, cover or empty oil can.
+- Excludes: destroying or consuming an item; throwing a returning attack tool; dropping team equipment within a round; firing ammunition from a weapon.
+- Parameters: item, release method, reachable placement, direction, impulse and recoverability.
+- Evidence: [Alone in the Dark decomposition](../games/a-f/alone-in-the-dark.md), its original DOS CD manual and bounded first-hand written mechanics ledger; reconstruction, not local execution.
+- Novelty: first isolated for `GAME-0456`; no external novelty claim or earlier boundary rewrite.
+
+## ACT-604 — Commit weapon charging or its alternate cancellation branch
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: the player initiates an in-place weapon charge with a combined command and chooses sustained charging or its declared cancellation branch to request different subsequent attack effects, rather than immediately strike or spend an accumulated meter.
+- Includes: The original Dreamcast Soul Charge hold and guard-cancel branches described by Namco's manual.
+- Excludes: A character-owned strike; selecting an ordinary weapon stance; spending a modern super meter; charging a projectile to choose firing force; passive enhancement from equipment.
+- Parameters: Combined command, held duration, cancellation input, requested charge branch, exposure and subsequent attack.
+- Evidence: [Soulcalibur decomposition](../games/s-z/soulcalibur.md), original Namco manual pp. 23; source reconstruction, not direct execution.
+- Novelty: first isolated for `GAME-0455`; no external novelty claim or earlier boundary rewrite.
+
+## ACT-605 — Request compatible downed or stagger recovery
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while a fighter is downed, being launched toward a landing or staggered, the player requests a state-compatible quick recovery, ground roll or repeated recovery input to regain an actionable body sooner or in another recovery form.
+- Includes: Original Dreamcast Soulcalibur's downed rolls, guard-held Quick Roll preparation and repeated stagger-recovery inputs.
+- Excludes: Ordinary walking or directed airborne placement; crouching an already actionable fighter; a recovery attack itself; passive timed wake-up; restoring health with an item.
+- Parameters: Downed/airborne/stagger state, compatible guard/direction/button input, repetition, recovery form, timing and vulnerability.
+- Evidence: [Soulcalibur decomposition](../games/s-z/soulcalibur.md), original Namco manual pp. 19–22; source reconstruction, not direct execution.
+- Novelty: first isolated for `GAME-0455`; no external novelty claim or earlier boundary rewrite.
+
+## ACT-603 — Commit a touch-flick response to a rhythmic event
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player prepares touch contact, makes a rapid directed stroke and releases it to commit a response to an approaching authored musical event, choosing its timing rather than a free world target.
+- Includes: The upward stylus flick that sends a rod at two approaching plates in original DS Built to Scale.
+- Excludes: A contact without the stroke/release; a contextual navigation swipe; tracing a food/utensil task; reproducing an instructor's button symbols; arbitrary projectile aiming.
+- Parameters: Touch surface, contact preparation, stroke direction/length/speed, release and musical response moment.
+- Evidence: [Rhythm Heaven decomposition](../games/m-r/rhythm-heaven.md), its original-manual and bounded first-hand source ledger.
+- Novelty: first isolated for `GAME-0454`; no external novelty or direct-play claim.
+
+## ACT-598 — Assign workers to resource-producing worship
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player directs eligible owned workers to remain at a compatible worship site rather than gather from a map deposit, allocating labour to a deity-resource income process.
+- Includes: Greek villagers praying at a Temple in original Age of Mythology.
+- Excludes: passive facility income; collecting finite terrain material; choosing an Age patron.
+- Parameters: workers, worship site, owner, assignment and interruption.
+- Evidence: [Age of Mythology decomposition](../games/a-f/age-of-mythology.md), Microsoft's original 2002 manuals and the bounded claim ledger.
+- Novelty: first isolated for `GAME-0453`; no external novelty claim.
+
+## ACT-599 — Invoke an unlocked civilization-level power
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player selects an available civilization-level power and commits its permitted local target or global activation without issuing an ability command to one controlled combatant.
+- Includes: Zeus Bolt or a selected minor god's once-per-match power in original Age of Mythology.
+- Excludes: an individual hero's ability; ordinary attacks; passive deity modifiers; selecting the next patron.
+- Parameters: power, owner, target schema, local or global cast, availability and commit.
+- Evidence: [Age of Mythology decomposition](../games/a-f/age-of-mythology.md), Microsoft's original 2002 manuals and the bounded claim ledger.
+- Novelty: first isolated for `GAME-0453`; no external novelty claim.
+
+## ACT-600 — Garrison or eject units through an eligible building
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player orders eligible owned units into an accepting building's retained garrison or requests their release into reachable exterior space.
+- Includes: Sheltering villagers or infantry and ejecting them in original Age of Mythology.
+- Excludes: boarding a movable transport; constructing the building; automatic shelter without a command; depositing an artifact.
+- Parameters: unit class, building, owner, garrison capacity, route and release.
+- Evidence: [Age of Mythology decomposition](../games/a-f/age-of-mythology.md), Microsoft's original 2002 manuals and the bounded claim ledger.
+- Novelty: first isolated for `GAME-0453`; no external novelty claim.
+
+## ACT-601 — Deposit a carried artifact in its accepting facility
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player commands the eligible bearer of a discrete carried artifact to place it in a compatible owned facility rather than keep it on the bearer.
+- Includes: An original Age of Mythology Greek hero taking a carried relic to the Temple.
+- Excludes: picking up the artifact; delivering an item to a requesting character; spending currency on research; merely approaching the facility.
+- Parameters: bearer class, carried identity, accepting facility, owner, path and deposit.
+- Evidence: [Age of Mythology decomposition](../games/a-f/age-of-mythology.md), Microsoft's original 2002 manuals and the bounded claim ledger.
+- Novelty: first isolated for `GAME-0453`; no external novelty claim.
+
+## ACT-602 — Assign a trader to a live facility-to-base return route
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player assigns an owned trade unit from an eligible commercial facility to a compatible base destination, establishing a repeated live return journey.
+- Includes: Original Age of Mythology caravans assigned between a Market and Town Center.
+- Excludes: city-turn trade routes with empire slot capacity; authored per-port ship cargo orders; instantaneous commodity purchase.
+- Parameters: trader, origin facility, base destination, owner, reachable route and reassignment.
+- Evidence: [Age of Mythology decomposition](../games/a-f/age-of-mythology.md), Microsoft's original 2002 manuals and the bounded claim ledger.
+- Novelty: first isolated for `GAME-0453`; no external novelty claim.
+
 ## ACT-001 — Global directional slide
 
 - Lifecycle: `Active`
@@ -11662,3 +11818,42 @@
 - Parameters: rider, reserve, activation, duration, terrain and speed response.
 - Evidence: [SSX Tricky decomposition](../games/s-z/ssx-tricky.md), EA's original booklet and a first-hand PS2 guide.
 - Novelty: first isolated for `GAME-0450`; boarder acceleration is funded by landed aerial execution.
+
+## ACT-595 — Draw or holster the selected carried weapon
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player explicitly changes the currently selected weapon between hand-ready and holstered posture without replacing its inventory identity, thereby exposing or releasing hands for other tasks.
+- Includes: Drawing or holstering Lara's pistols in original PlayStation Tomb Raider Caves.
+- Excludes: Selecting another inventory weapon; automatic readiness; aiming or firing; cosmetic equipment with no changed interaction eligibility.
+- Parameters: weapon identity, posture, input, animation, hands and interaction eligibility.
+- Evidence: [Tomb Raider (1996) decomposition](../games/s-z/tomb-raider-1996.md), the source ledger and transitions for this scoped packet.
+- Novelty: first isolated for `GAME-0451`; no external novelty claim.
+
+## ACT-596 — Sustain a manual ledge hold and choose shimmy, pull-up or release
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: at a reachable compatible edge, the player holds attachment input to catch and retain a hanging body, requests sideways movement or a pull-up, or releases the hold to detach; this rule does not require a stamina-priced grip.
+- Includes: Lara's Action-held ledge catch, shimmy, pull-up and deliberate drop in original Tomb Raider.
+- Excludes: Stamina-priced arbitrary-surface grip (ACT-362); automatic ladder animation; two independently mapped hands (ACT-114); a grapple tool.
+- Parameters: reachable edge, body facing, hand availability, held input, lateral route, upper support and release.
+- Evidence: [Tomb Raider (1996) decomposition](../games/s-z/tomb-raider-1996.md), the source ledger and transitions for this scoped packet.
+- Novelty: first isolated for `GAME-0451`; no external novelty claim.
+
+## ACT-597 — Recenter and temporarily direct a local third-person look
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player requests the view directly behind the controlled body or holds a look input and directs its inspection around nearby geometry; releasing returns to the ordinary following view without changing the world's geometry.
+- Includes: Lara's behind-body recenter and held directional Look in original Tomb Raider.
+- Excludes: Projection-authoritative camera rotation (ACT-095); visibility-dependent world mutation (ACT-098); an attack-aim command; a frozen evidence-scene cursor.
+- Parameters: body facing, camera orientation, inspection range, hold, recenter and release.
+- Evidence: [Tomb Raider (1996) decomposition](../games/s-z/tomb-raider-1996.md), the source ledger and transitions for this scoped packet.
+- Novelty: first isolated for `GAME-0451`; no external novelty claim.

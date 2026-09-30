@@ -47,6 +47,7 @@
 - [`GAME-0088` — Day of the Tentacle](../games/a-f/day-of-the-tentacle.md)
 - [`GAME-0073` — Dominosa](../games/a-f/dominosa.md)
 - [`GAME-0020` — Dorfromantik](../games/a-f/dorfromantik.md)
+- [`GAME-0452` — Dr. Mario](../games/a-f/dr-mario.md)
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
 - [`GAME-0131` — Dyson Sphere Program](../games/a-f/dyson-sphere-program.md)
 - [`GAME-0092` — Echochrome](../games/a-f/echochrome.md)
@@ -218,6 +219,7 @@
 ### Ігри-носії
 
 - [`GAME-0124` — Against the Storm](../games/a-f/against-the-storm.md)
+- [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
 - [`GAME-0017` — Balatro](../games/a-f/balatro.md)
 - [`GAME-0066` — Black Box](../games/a-f/black-box.md)
 - [`GAME-0377` — CATAN](../games/a-f/catan.md)
@@ -279,6 +281,7 @@
 ### Ігри-носії
 
 - [`GAME-0020` — Dorfromantik](../games/a-f/dorfromantik.md)
+- [`GAME-0452` — Dr. Mario](../games/a-f/dr-mario.md)
 - [`GAME-0442` — 'Lumines: Puzzle Fusion'](../games/g-l/lumines-puzzle-fusion.md)
 - [`GAME-0016` — Pipe Mania / Pipe Dream](../games/m-r/pipe-mania.md)
 - [`GAME-0004` — Tetris](../games/s-z/tetris.md)
@@ -1438,6 +1441,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 
 - [`GAME-0124` — Against the Storm](../games/a-f/against-the-storm.md)
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0135` — "Captain of Industry"](../games/a-f/captain-of-industry.md)
 - [`GAME-0131` — Dyson Sphere Program](../games/a-f/dyson-sphere-program.md)
 - [`GAME-0119` — Factorio](../games/a-f/factorio.md)
@@ -1855,6 +1859,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
 - [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
@@ -1909,6 +1914,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 ### Ігри-носії
 
 - [`GAME-0233` — 7 Days to Die](../games/0-9/7-days-to-die.md)
+- [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
 - [`GAME-0154` — Apex Legends](../games/a-f/apex-legends.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0278` — DAVE THE DIVER](../games/a-f/dave-the-diver.md)
@@ -2753,6 +2759,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0233` — 7 Days to Die](../games/0-9/7-days-to-die.md)
 - [`GAME-0223` — Aion Classic](../games/a-f/aion-classic.md)
 - [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
+- [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
 - [`GAME-0154` — Apex Legends](../games/a-f/apex-legends.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
@@ -2990,6 +2997,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
+- [`GAME-0459` — Daxter](../games/a-f/daxter.md)
 - [`GAME-0161` — Dead by Daylight](../games/a-f/dead-by-daylight.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0368` — Dead Rising](../games/a-f/dead-rising.md)
@@ -3739,6 +3747,7 @@ Research Table, дерева технологій, Workbench і чергу ви�
 - [`GAME-0447` — Punch-Out!!](../games/m-r/punch-out.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0303` — Sifu](../games/s-z/sifu.md)
+- [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
 - [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
@@ -4534,12 +4543,14 @@ Rank Z, 1 000 Ticket Points, Challenger's Ticket і Zach у Pokémon Legends: Z-
 
 - [`GAME-0347` — "Castlevania: Symphony of the Night"](../games/a-f/castlevania-symphony-of-the-night.md)
 - [`GAME-0346` — Chrono Trigger](../games/a-f/chrono-trigger.md)
+- [`GAME-0459` — Daxter](../games/a-f/daxter.md)
 - [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0399` — Ico](../games/g-l/ico.md)
 - [`GAME-0394` — LittleBigPlanet 2](../games/g-l/littlebigplanet-2.md)
 - [`GAME-0387` — Super Bomberman](../games/s-z/super-bomberman.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
 - [`GAME-0395` — "The Legend of Zelda: Majora’s Mask"](../games/s-z/the-legend-of-zelda-majoras-mask.md)
 - [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
@@ -4567,6 +4578,7 @@ Rank Z, 1 000 Ticket Points, Challenger's Ticket і Zach у Pokémon Legends: Z-
 - [`GAME-0173` — Blue Prince](../games/a-f/blue-prince.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 
 ## INF-181
@@ -5098,6 +5110,7 @@ Echo Detector у двох досліджених пошуках.
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 - [`GAME-0217` — "Need for Speed Underground"](../games/m-r/need-for-speed-underground.md)
 - [`GAME-0420` — Project Gotham Racing 2](../games/m-r/project-gotham-racing-2.md)
+- [`GAME-0457` — Sega Rally Championship](../games/s-z/sega-rally-championship.md)
 - [`GAME-0216` — Trackmania](../games/s-z/trackmania.md)
 
 ## INF-205
@@ -5132,6 +5145,7 @@ Echo Detector у двох досліджених пошуках.
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 - [`GAME-0217` — "Need for Speed Underground"](../games/m-r/need-for-speed-underground.md)
 - [`GAME-0420` — Project Gotham Racing 2](../games/m-r/project-gotham-racing-2.md)
+- [`GAME-0457` — Sega Rally Championship](../games/s-z/sega-rally-championship.md)
 - [`GAME-0216` — Trackmania](../games/s-z/trackmania.md)
 
 ## INF-206
@@ -5239,6 +5253,7 @@ Ryu і Luke на арені дослідженого Versus.
 
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
 - [`GAME-0393` — Mortal Kombat II](../games/m-r/mortal-kombat-ii.md)
+- [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
 - [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
@@ -5264,6 +5279,7 @@ Ryu і Luke на арені дослідженого Versus.
 ### Ігри-носії
 
 - [`GAME-0393` — Mortal Kombat II](../games/m-r/mortal-kombat-ii.md)
+- [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
 - [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
@@ -5562,6 +5578,7 @@ Car/ball camera, boost meter, nameplates, ball indicator і flip-reset feedback 
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0397` — 'Command & Conquer: Red Alert 2'](../games/a-f/command-and-conquer-red-alert-2.md)
 - [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
@@ -5590,6 +5607,7 @@ Normal reveal та fog of war в Age of Empires II: Definitive Edition.
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
+- [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0397` — 'Command & Conquer: Red Alert 2'](../games/a-f/command-and-conquer-red-alert-2.md)
 - [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0410` — Halo Wars](../games/g-l/halo-wars.md)
@@ -7559,6 +7577,7 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
 
 ## INF-318
 
@@ -8372,6 +8391,7 @@ HUD і видимі Walker leg та Dragon у Ragnarok’s Canyon Battletoads, �
 
 ### Ігри-носії
 
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
 - [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 
@@ -10035,3 +10055,129 @@ Scan Visor протягом обмеженого вступу на Frigate Orphe
 ### Ігри-носії
 
 - [`GAME-0450` — SSX Tricky](../games/s-z/ssx-tricky.md)
+
+## INF-436
+
+- Назва: Показувати ближній шлях, наведення зброї й стан запасів
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Супровідний чи спрямований ближній вид розкриває місцевий рельєф і ворогів. Положення зброї показує обрання цілі, а показники стану, компас та інвентар розкривають поточне здоров’я, напрям і запаси, не показуючи всього подальшого маршруту.
+
+### Включає
+
+Ближній огляд, положення націлених пістолетів, здоров’я, компас і показ кільцевого інвентарю в оригінальній Tomb Raider.
+
+### Виключає
+
+Повну карту печер; точний майбутній розклад пасток; плани ворогів; точні кадрові вікна стрибка; погляд від першої особи, який змінює правила.
+
+### Ігри-носії
+
+- [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
+
+## INF-437
+
+- Назва: Підказувати музичне вирівнювання й показувати наслідки та оцінку
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Інтерфейс поєднує музичні сигнали наближення з рухомим вирівнюванням цілей, щоб указати момент відповіді, повідомляє наслідок кожного з’єднання й показує підсумкову оцінку. Авторська частина може звузити видиме наближення, зберігаючи музичні сигнали.
+
+### Включає
+
+Музичне наближення, пластини з отворами, з’єднаний чи невдалий стрижень і підсумок Try Again, OK або Superb у Built to Scale для DS.
+
+### Виключає
+
+Повний всезнаючий огляд; музику маршруту перешкод без оцінки ритмічного введення; повторення символів учителя; числовий звіт за категоріями; розкриття прихованих порогів оцінки.
+
+### Ігри-носії
+
+- [`GAME-0454` — Rhythm Heaven](../games/m-r/rhythm-heaven.md)
+
+## INF-438
+
+- Назва: Показувати дії перенесеної речі й обрану дію
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Екран налаштувань дії показує тотожності перенесених речей, придатні кількості та допустимі операції обраної речі й поточну дію персонажа або предмета до її виконання спільною кнопкою у світі.
+
+### Включає
+
+Інвентар Options, кількість обраної зброї та відмінні позначення доступної й обраної дії в Alone in the Dark.
+
+### Виключає
+
+Лише смугу швидких комірок; майбутній прихований вміст; повний майбутній задум ворога; показ прихованої загальної ваги.
+
+### Ігри-носії
+
+- [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
+
+## INF-439
+
+- Назва: Показувати поточний контакт із дорогою опором керма
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Автомат передає через кермо відчутний опір або вібрацію відповідно до поточного дорожнього покриття та руху автомобіля, доповнюючи зорові відомості без розкриття точної майбутньої траєкторії.
+
+### Включає
+
+Описана реакція керма оригінальної Sega Rally Championship на дорогу й рух автомобіля; криву сили не виміряно.
+
+### Виключає
+
+Нерухоме декоративне кермо; лише позначку на екрані; всезнаючий прогноз керованості; припущення про однакове калібрування різних автоматів.
+
+### Ігри-носії
+
+- [`GAME-0457` — Sega Rally Championship](../games/s-z/sega-rally-championship.md)
+
+## INF-440
+
+- Назва: Здобутий компас звуком вказує на ключ або скриню в кімнаті
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Після здобуття компаса підземелля вхід до допустимої кімнати дає звукову підказку про наявність у ній ключа чи скрині, не розкриваючи точного прихованого місця, способу здобуття або майбутньої поведінки ворога.
+
+### Включає
+
+Звук компаса оригінальної Link’s Awakening при вході до кімнати з ключем чи скринею.
+
+### Виключає
+
+Всезнаючу майбутню карту; звичайний звук середовища; ритмічний такт; лише позначку боса компасом; твердження, що під час дослідження прослухали запис гри.
+
+### Ігри-носії
+
+- [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
+
+## INF-441
+
+- Назва: Показувати місцеву кількість доказів для оголошеного завдання
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Умови завдання називають скінченну потрібну кількість доказів, а інтерфейс показує, скільки відповідних фізичних предметів герой зібрав у поточній місцевості; це допомагає вирішити, коли повертатися, не відкриваючи невидимих ворогів чи майбутній маршрут.
+
+### Включає
+
+Вимогу 25 золотих самоцвітів для Westside Hotel і лічильник самоцвітів поточної місцевості в оригінальній Daxter для PSP.
+
+### Виключає
+
+Підрахунок перемог до підбирання доказу; ловлю різних видів істот; всезнаючу мапу ворогів; загальну колекцію без прив’язки до завдання; необов’язкові сфери Precursor Orbs.
+
+### Ігри-носії
+
+- [`GAME-0459` — Daxter](../games/a-f/daxter.md)

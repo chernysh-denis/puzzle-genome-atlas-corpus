@@ -1,5 +1,109 @@
 # Constraint Genes
 
+## CON-737 — Gate carried-tool verbs by two reassigned action-button slots
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a carried tool’s active world verb is available only when that tool occupies one of the two independently reassigned action-button slots; possession of further tools does not add a third simultaneous active verb, while fixed contextual interactions remain separately eligible.
+- Includes: Original Link’s Awakening sword, shield and Roc’s Feather competing for A/B assignment.
+- Excludes: an inventory storage limit; a permanently dedicated sword button; a fixed third jump input; choosing a different owned weapon without reassignable input slots; changing ordinary dialogue controls.
+- Parameters: carried tools, two slots, assigned item, displaced item, action input, contextual exception and inventory pause.
+- Evidence: [Link's Awakening decomposition](../games/s-z/the-legend-of-zelda-links-awakening.md), original Nintendo DMG manual and Nintendo Player's Guide, printed pp. 12–16 and 26–29, documentary reconstruction rather than direct play.
+- Novelty: first isolated for `GAME-0458`; no external novelty claim or earlier signature change.
+
+## CON-736 — Gate bonus-course continuation by the ordinary-chain result
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: after completing the ordinary courses in a finite race attempt, access to the bonus course requires the declared superior-result criterion; merely finishing the ordinary final course does not grant every result the extension.
+- Includes: Original Sega Rally Championship manual’s superior-result hyper-course access; the museum account identifies first place and Lakeside with lower precision than the manual’s general criterion.
+- Excludes: every ordinary finisher accessing a bonus course; buying a later campaign event; a points-based cup winner; an unmeasured exact tie-breaking predicate.
+- Parameters: ordinary-chain completion, classified performance, qualifying criterion, bonus eligibility and tie handling.
+- Evidence: [Sega Rally Championship decomposition](../games/s-z/sega-rally-championship.md), visually inspected original 1995 Sega twin manual, printed pp. 14–16 and 28; source reconstruction, not cabinet execution.
+- Novelty: first isolated for `GAME-0457`; no external novelty claim or earlier definition rewrite.
+
+## CON-734 — Bound collection by total carried item mass
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: a collection or inventory transfer must keep the sum of retained item masses within a finite carrying limit, independently of any available object slots or equipped-item category.
+- Includes: Alone in the Dark source-reported object weights and 700-unit carrying limit; an emptied retained can can still contribute mass.
+- Excludes: only a count of inventory entries; category-specific equipment slots without total mass; claiming that the interface displays the hidden mass total.
+- Parameters: item mass, carried set, sum, limit, transfer and altered retained mass.
+- Evidence: [Alone in the Dark decomposition](../games/a-f/alone-in-the-dark.md), its original DOS CD manual and bounded first-hand written mechanics ledger; reconstruction, not local execution.
+- Novelty: first isolated for `GAME-0456`; no external novelty claim or earlier boundary rewrite.
+
+## CON-735 — Gate carried-item verbs by current object state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: the currently selected collectible exposes and accepts only the operations permitted by its current item-state flags; possession alone does not make every read, use, refill, reload or release operation legal.
+- Includes: Alone in the Dark item-specific available verbs and their changes after a compatible operation, including an emptied oil can.
+- Excludes: a menu offering all operations for every item; the persistent selection action itself; a fighter stance gate; a recipe ingredient list alone.
+- Parameters: selected item, state flags, eligible verb, requested operation and resulting state.
+- Evidence: [Alone in the Dark decomposition](../games/a-f/alone-in-the-dark.md), its original DOS CD manual and bounded first-hand written mechanics ledger; reconstruction, not local execution.
+- Novelty: first isolated for `GAME-0456`; no external novelty claim or earlier boundary rewrite.
+
+## CON-733 — Constrain lateral opponent-relative fighting to a ring with terminal edges
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: two fighters maintain an opponent-relative approach axis while moving laterally within a finite ring whose exposed edge classifies departure as a round-ending state, so retained vitality alone does not guarantee continued eligibility.
+- Includes: Original Dreamcast Soulcalibur's eight-way movement near an open ring edge.
+- Excludes: Classic Tekken's explicitly no-ring-out floor; a walled arena with wall-splat transitions; a bounded side-view line; free world traversal without a fixed opponent; exact ring dimensions as separate genes.
+- Parameters: Ring geometry, exposed edges, relative axis, movement vector, body displacement, landing and departure predicate.
+- Evidence: [Soulcalibur decomposition](../games/s-z/soulcalibur.md), original Namco manual pp. 5, 18 and 20; source reconstruction, not direct execution.
+- Novelty: first isolated for `GAME-0455`; no external novelty claim or earlier boundary rewrite.
+
+## CON-730 — Civilization power use requires an unspent grant and permitted target
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a civilization-level power can be committed only while its granted use remains unspent and its target schema is legal; a locally targeted power requires current allied vision, while a declared global power does not.
+- Includes: Original Age of Mythology once-only God powers, with unused grants retained across Ages.
+- Excludes: rechargeable Retold powers; ordinary unit mana abilities; current vision imposed on expressly global powers; granting a new use merely by waiting.
+- Parameters: power, grant, spent state, target class, local or global schema, allied vision and match reset.
+- Evidence: [Age of Mythology decomposition](../games/a-f/age-of-mythology.md), Microsoft's original 2002 manuals and the bounded claim ledger.
+- Novelty: first isolated for `GAME-0453`; no external novelty claim.
+
+## CON-731 — Additional base foundations require vacant predefined settlement sites
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an additional base of the declared class may be founded only on a currently vacant predefined settlement after its required development tier is reached, not on arbitrary otherwise buildable ground.
+- Includes: Original Age of Mythology additional Town Centers on Settlements from the Heroic Age; an enemy Town Center must first be removed.
+- Excludes: ordinary building footprint legality alone; capturing a surrounding build territory; requiring ownership of every settlement for Conquest victory.
+- Parameters: base class, predefined site, occupancy, required tier, foundation and enemy removal.
+- Evidence: [Age of Mythology decomposition](../games/a-f/age-of-mythology.md), Microsoft's original 2002 manuals and the bounded claim ledger.
+- Novelty: first isolated for `GAME-0453`; no external novelty claim.
+
+## CON-732 — Enforce concurrent creation caps by object type
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an otherwise legal creation order is unavailable when the owner's live count of that exact capped type already meets its declared limit; removal frees that type's allowance independently of general population space.
+- Includes: Ten Greek Houses and one living instance of each Greek hero type in original Age of Mythology.
+- Excludes: the aggregate population ceiling; a global scene object meter; a permanent lifetime prohibition after a hero dies; one shared cap for all hero identities.
+- Parameters: owner, capped type, live count, type limit, creation and removal.
+- Evidence: [Age of Mythology decomposition](../games/a-f/age-of-mythology.md), Microsoft's original 2002 manuals and the bounded claim ledger.
+- Novelty: first isolated for `GAME-0453`; no external novelty claim.
+
 ## CON-001 — Fixed occupancy capacity
 
 - Lifecycle: `Active`
@@ -13662,3 +13766,55 @@
 - Parameters: air state, manoeuvre, release, touchdown, crash and credit.
 - Evidence: [SSX Tricky decomposition](../games/s-z/ssx-tricky.md), EA's original booklet, trick and landing sections.
 - Novelty: first isolated for `GAME-0450`; trick-to-speed conversion depends on completed air, not input alone.
+
+## CON-727 — Guarded walking cannot advance across an unsupported edge
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while a guarded-walk input remains held, ordinary forward or backward walking stops at an unsupported edge; releasing that mode or using another traversal action removes this particular safeguard.
+- Includes: Original Tomb Raider's held Walk edge stop.
+- Excludes: Fall invulnerability; a guaranteed jump landing; attack protection; automatic route planning around every hazard.
+- Parameters: guarded mode, input hold, edge support, movement direction and alternate traversal.
+- Evidence: [Tomb Raider (1996) decomposition](../games/s-z/tomb-raider-1996.md), the source ledger and transitions for this scoped packet.
+- Novelty: first isolated for `GAME-0451`; no external novelty claim.
+
+## CON-728 — A hand-requiring world task needs the weapon holstered
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a contextual world task that requires the actor's hands is unavailable while the selected weapon is drawn; holstering it restores this eligibility without itself performing the task.
+- Includes: Lara holstering pistols before a pickup, switch, vault or ledge hold in original Tomb Raider.
+- Excludes: A merely cosmetic weapon pose; rejecting fire for lack of ammunition; a task legal while both hands remain occupied; automatic task completion on holstering.
+- Parameters: hand requirement, drawn state, holstered state, reach and contextual task.
+- Evidence: [Tomb Raider (1996) decomposition](../games/s-z/tomb-raider-1996.md), the source ledger and transitions for this scoped packet.
+- Novelty: first isolated for `GAME-0451`; no external novelty claim.
+
+## CON-729 — Exempt anchored match targets from vacancy-driven descent
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an established target-class occupant cannot be directly relocated or participate in vacancy-driven descent; it retains its addressed cell even after lower support disappears, until a qualifying pattern removes it.
+- Includes: Dr. Mario viruses remaining at their initial cells while unsupported capsule material falls after a clear.
+- Excludes: movable capsule halves; an indestructible wall outside the matching domain; a temporary movement cooldown; treating an anchored target as immune to eligible removal.
+- Parameters: anchored class, addressed position, permitted removal predicate and collapse eligibility.
+- Evidence: [Dr. Mario decomposition](../games/a-f/dr-mario.md), Nintendo's manual and described fixed-virus versus falling-capsule embodiment.
+- Novelty: first isolated for `GAME-0452`; no external novelty claim.
+
+## CON-738 — Compact posture suppresses an otherwise eligible proximity attack
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a declared stationary hostile attacks a nearby passing actor in the ordinary upright posture but does not acquire that same actor while the player maintains the eligible compact posture through its detection passage.
+- Includes: crouching in Ottsel Mode past the carnivorous plants on original PSP Daxter's first Westside Hotel route.
+- Excludes: a geometric low tunnel with no hostile perception; universal invisibility; directed occlusion and patrol sight (`CON-077`); automatic pursuit after perception (`SYS-057`); a claim about exact detection radius or invulnerability to unrelated hostiles.
+- Parameters: hostile class, eligible posture, proximity passage, detection state, movement and attack eligibility.
+- Evidence: [Daxter decomposition](../games/a-f/daxter.md), two independent original-PSP first-hotel routes by Larry Imgrund and Akiro; original manual PDF leaf 4 confirms toggled Sneak/Crawl input.
+- Novelty: first isolated for `GAME-0459`; no earlier boundary rewrite.
