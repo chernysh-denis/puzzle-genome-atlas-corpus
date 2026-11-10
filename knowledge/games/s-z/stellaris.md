@@ -344,7 +344,7 @@ CON-627 + INF-081 + INF-224 + OBJ-170 + TIM-003`
 - Comparison algorithm: `genome-jaccard-v1`.
 - Prior game signatures scanned: `286` (`GAME-0001`–`GAME-0286`).
 - Exact genome matches: none.
-- Tied near matches: `GAME-0179` — Age of Empires II: Definitive Edition (`7 / 41 = 0.170732`).
+- Tied near matches: `GAME-0275` — Command & Conquer Remastered Collection (`5 / 29 = 0.172414`).
 - Supported combination subsets: `COMB-0273`.
 - Scan date: 2026-09-10.
 
@@ -352,11 +352,7 @@ CON-627 + INF-081 + INF-224 + OBJ-170 + TIM-003`
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0179` — Age of Empires II: Definitive Edition | `ACT-121`, `ACT-189`, `ACT-316`, `SYS-004`, `SYS-551`, `INF-224`, `TIM-003` | Both select research, command remote units, queue units at a live site, expose strategic state and advance through a generated real-time field. Age of Empires II turns those genes into staffed resource gathering, construction, formation combat and Conquest. Stellaris instead adds persistent whole-system survey, paid neutral territorial ownership and transport-to-colony development, with no combat in the packet. | Near, `7 / 41 = 0.170732` |
-
-The shared seven-gene spine is real but small. The score reports reusable
-strategic command grammar without treating the generated land map, hostile
-economy and Conquest objective as equivalents of a survey-to-colony chain.
+| `GAME-0275` — Command & Conquer Remastered Collection | `ACT-189`, `ACT-316`, `INF-224`, `SYS-551`, `TIM-003` | Both issue remote orders, submit production, expose strategic command state and advance in real time. Stellaris surveys systems, claims territory and establishes a colony; X16-Y42 deploys a supplied mobile base, places power and infantry production, trains forces and eliminates hostiles. The nearest result changes from AoE2 because withdrawing unshared fog IDs reduces this pair’s union; no Stellaris rule is changed. | Near, `5 / 29 = 0.172414` |
 
 ## Preserved research notes
 

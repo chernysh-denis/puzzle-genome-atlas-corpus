@@ -113,7 +113,7 @@ gene instances but do not enter the signature.
 | `HOI4-008` | Supply flows from the capital through railway-linked hubs and last-mile delivery; insufficient capacity constrains divisions | Confirmed | Direct | High | P5, P6 |
 | `HOI4-009` | Assigned aircraft operate within base, range and mission constraints and can support the scoped land offensive | Observation | Corroborated | Medium | P2, P10 |
 | `HOI4-010` | Current allied control reveals map state while fog and intelligence limit actionable hostile information | Observation | Corroborated | High | P2, P4 |
-| `HOI4-011` | Province and victory-point losses produce surrender progress; the bounded route stops at Ethiopian capitulation and immediate war settlement | Observation | Corroborated | High | P3, P9 |
+| `HOI4-011` | Province and victory-point losses produce surrender progress; Ethiopian capitulation is distinct from the bounded route's subsequent war settlement | Observation | Corroborated | High | P3, P9, P11 |
 | `HOI4-012` | The tutorial route couples focus, research, industry, logistics, front execution and air support without requiring any post-war campaign | Observation | Corroborated | High | P2–P10, V1 |
 
 ## Basic data
@@ -147,6 +147,10 @@ gene instances but do not enter the signature.
     reinforcement, combat, surrender and peace settlement.
   - **[P10]** [official Hearts of Iron IV air-warfare reference](https://hoi4.paradoxwikis.com/Air_warfare),
     a maintained official-wiki reference for bases, regions, range and missions.
+  - **[P11]** [Paradox-hosted Hearts of Iron IV strategy guide](https://forumcontent.paradoxplaza.com/public/paradox/banners/HoI_IV_Strategy_Guide.pdf#page=56),
+    printed page 56, for the distinction between enemy capitulation and the
+    subsequent peace-treaty process; it does not establish the exact 1.19.2
+    faction or peace-conference eligibility code.
 - Reproducible control: **[V1]** repository-side transition trace across
   `P1`–`P10` under the declared build and tutorial boundary; rules reasoning,
   not a direct-play claim.
@@ -183,12 +187,13 @@ gene instances but do not enter the signature.
   and replacement; `SYS-568`, execute army plans and resolve division combat;
   `SYS-569`, propagate supply through capital, rail, hubs and last-mile delivery;
   `SYS-570`, resolve assigned air missions and their land-combat contribution;
-  `SYS-571`, convert territorial loss into surrender, capitulation and immediate
-  war settlement.
+  `SYS-571`, convert territorial loss into surrender and capitulation, then
+  resolve the tutorial war's separate settlement phase.
 - Resolution order: accept paused national and theatre commands; when time runs,
   advance focus, research, construction and production; distribute equipment,
   manpower and supply; execute movement, plans, air missions and combat; update
-  vision and territorial control; then test surrender and settle the war.
+  vision and territorial control; then test country surrender before any
+  eligible war-level settlement.
 - Parameters: daily progress, focus and technology costs, factory allocation,
   resources, efficiency, stockpile, manpower, reinforcement priority, plan,
   planning bonus, organisation, strength, combat width, terrain, weather, rail
@@ -207,7 +212,8 @@ gene instances but do not enter the signature.
   divisions, legal fronts and reachable orders; `CON-482`, supply is bounded by
   rail, hub, transport and local delivery capacity; `CON-483`, air missions need
   aircraft, a viable base, range, fuel and a selected region; `CON-484`,
-  capitulation requires sufficient surrender progress and terminal war state.
+  country capitulation requires sufficient surrender progress; a peace
+  settlement is a separate subsequent process, not its prerequisite.
 - Scarce strategic resources: calendar time, research slots, civilian and
   military factories, state slots, strategic resources, line efficiency,
   equipment stockpiles, manpower, organisation, planning time, rail/hub
@@ -258,7 +264,8 @@ gene instances but do not enter the signature.
 | A supply map exposes weak reach to a front | Improve or motorise the relevant route and avoid overloading it | Rail/hub/last-mile capacity changes delivered supply and resulting penalties | Logistics constrains feasible front pressure | `HOI4-008` |
 | Fighters or close-air-support wings have viable bases and range | Assign their region and mission | Eligible sorties alter air and land-combat contribution while fuel and coverage remain legal | Air support is a bounded parallel theatre system | `HOI4-009` |
 | Ethiopian provinces and victory points are contested | Continue legal front and manual pressure | Control changes update surrender progress while equipment, organisation and supply continue resolving | Territorial progress is produced by the whole coupled loop | `HOI4-007`–`HOI4-011` |
-| Ethiopia crosses its surrender threshold | Resolve capitulation and the immediate terminal settlement | The Ethiopian war concludes; stop before any post-war national play | The unit has a reproducible ADR-007 terminal | `HOI4-011`, `HOI4-012` |
+| Ethiopia crosses its surrender threshold | Resolve country capitulation | Ethiopia capitulates without a peace settlement being a condition of that transition | The country-level constraint is distinct from war closure | `HOI4-011` |
+| Ethiopia has capitulated in the scoped tutorial war | Resolve the war's ensuing peace settlement | The bounded Ethiopian war concludes; stop before post-war national play | The packet's ADR-007 terminal follows, rather than gates, capitulation | `HOI4-011`, `HOI4-012` |
 
 ## Strategic and experiential structure
 

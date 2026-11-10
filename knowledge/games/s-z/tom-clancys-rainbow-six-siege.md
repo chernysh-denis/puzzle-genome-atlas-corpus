@@ -324,7 +324,7 @@ gene instances but do not enter the signature.
 ## Taxonomy impact
 
 - Registry changes after normalisation: twelve bounded active genes plus
-  Rainbow Six Siege support added to twenty-seven existing records.
+  Rainbow Six Siege support added to thirty-seven existing records.
 - Taxonomy-change record: none. Existing definitions are broadened only where
   the same operational boundary now has a second evidenced parameterisation.
 - Candidate terms affected: wallbang, spawn peek, roam, execute and retake are

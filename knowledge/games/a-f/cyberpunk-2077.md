@@ -122,7 +122,7 @@ gene_ids:
 | `CP-001` | Patch 2.31 is the current reviewed public base-game PC baseline | Confirmed | Direct | High | P1 |
 | `CP-002` | Lifepath and initial attributes configure the prologue and later contextual response availability | Confirmed | Corroborated | High | P2, P3 |
 | `CP-003` | Direct combat couples weapons, armour, stamina, grenades and rechargeable health-item charges in real time | Confirmed | Direct | High | P2, P4 |
-| `CP-004` | Scanning reveals targets and quickhacks; legal uploads consume RAM, may queue and may trigger hostile tracing | Confirmed | Direct | High | P2, P5 |
+| `CP-004` | Scanning reveals targets and quickhacks; legal uploads have effective RAM costs, unlocked Overclock can consume Health if RAM is insufficient, queues require an unlock, and hostile tracing may begin under eligible conditions | Confirmed | Direct | High | P2, P7 |
 | `CP-005` | Suspicion escalates through detection into combat, while crouch, cover, grapple and takedown permit stealth resolution | Observation | Corroborated | High | P2, P4, S1 |
 | `CP-006` | Installed cyberware is bounded by slots and capacity and supplies armour, abilities and attribute attunement | Confirmed | Direct | High | P2, P5 |
 | `CP-007` | XP, levels, attributes, perks and activity skills form persistent progression channels inside the selected route | Confirmed | Direct | High | P2, P4 |
@@ -155,6 +155,9 @@ gene_ids:
     for capacity, armour, attunement and implant-driven abilities.
   - **[P6]** [official build planner](https://www.cyberpunk.net/en/news/48958/build-planner-craft-your-cyberpunk-2077-and-phantom-liberty-builds),
     for bounded attribute and perk planning.
+  - **[P7]** [official Patch 2.02 notes](https://www.cyberpunk.net/en/news/49378/patch-2-02),
+    for the distinction between effective quickhack RAM cost and RAM actually
+    spent when a cost reduction applies.
 - Secondary sources:
   - **[S1]** [Cyberpunk Wiki main jobs](https://cyberpunk.fandom.com/wiki/Cyberpunk_2077_Main_Jobs),
     for the ordered base-game job graph and critical-path naming.
@@ -248,7 +251,7 @@ gene_ids:
 | Before | Action | Deterministic or bounded resolution | What it establishes | Claim ID |
 |---|---|---|---|---|
 | New-game setup exposes lifepath and a fixed attribute budget | Choose Nomad and allocate every available point | The opening changes and the legal initial build persists | Origin and build are rule-bearing initial state | `CP-002` |
-| Reachable device or hostile is visible to the scanner | Scan and upload one legal quickhack | RAM is spent, upload/queue resolves and hostile trace may begin | Hacking is target- and resource-bounded action | `CP-004` |
+| Reachable device or hostile is visible to the scanner | Scan and upload one legal quickhack | The effective cost is paid with RAM or, when unlocked Overclock permits an insufficient-RAM upload, Health; upload and any unlocked queue resolve, and eligible hostile trace may begin | Hacking is target- and resource-bounded action | `CP-004` |
 | Hostile has not detected V and is reachable from behind | Crouch, approach, grapple and choose a neutralisation | Target is restrained and resolved without ordinary open fire | Stealth depends on perception and geometry | `CP-005` |
 | Ripperdoc interface exposes a legal implant and enough capacity | Install or replace the implant | Capacity, armour, attunement and granted abilities update together | Cyberware is a configured build system | `CP-006` |
 | XP crosses a level and one perk is currently legal | Spend the resulting point | The selected bounded build node changes future actions or modifiers | Progression becomes committed capability | `CP-007` |

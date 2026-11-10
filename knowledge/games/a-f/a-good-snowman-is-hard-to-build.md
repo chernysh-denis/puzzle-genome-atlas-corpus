@@ -79,6 +79,12 @@ gene_ids:
     [A Good Snowman is Hard to Plan](https://arxiv.org/abs/2310.01471),
     specifying the discrete grid, one-ball move, snow removal, bounded growth,
     stack preconditions and location-flexible goal.
+    The stack-transfer and destination-snow qualification also uses the
+    [author supplementary basic model](https://github.com/udg-lai/KEPS2023/blob/4a651f7b7e8356edf007fafd85851117614b0da7/pddl/basic/andy/domain.pddl),
+    pinned to commit `4a651f7b7e8356edf007fafd85851117614b0da7`. Its
+    conditional effects describe rule-level composition, not a measured native
+    update order or a version-identified original-game execution. The cheating
+    variant is excluded.
   - **[A2]** He, Liu and Yang,
     [Snowman is PSPACE-complete](https://sokoban.cn/paper/snowman_is_pspace_complete.pdf),
     specifying one-ball pushes, smaller-on-larger stacks, top-ball knock-off and
@@ -109,14 +115,23 @@ gene_ids:
 - `SYS-080` — consumable-terrain bounded object growth. When a small or medium
   ball enters a snow-covered cell, the cell becomes bare and the ball advances
   exactly one step on the three-state size ladder; large is absorbing.
-- `SYS-081` — push-resolved ordered stack transfer. A pushed exposed ball lands
-  atop a compatible larger stack, or the top of an incomplete stack is knocked
-  to the opposite free cell; object identity and size persist through transfer.
+- `SYS-081` — push-resolved ordered stack transfer. A legal push places one
+  exposed ball onto a compatible larger stack or knocks the top ball of an
+  incomplete stack into the empty cell immediately beyond that stack in the
+  push direction. The monster and remaining balls stay put during the knock-off.
+  The ball keeps its identity; the relational transfer itself does not change
+  its size, but destination snow may grow it during the same move.
 - `SYS-002` is absent: growth consumes a terrain state and changes one surviving
   ball; no equal pair collides and no two elements are replaced by one output.
-- Resolution order: validate monster access and exposed ball; validate empty or
-  compatible target; move the ball; consume target snow and apply at most one
-  size increase; update stack relation; test the three-size completion state.
+- Rule-level composition: validate monster access, exposed-ball status and the
+  empty or compatible destination against the pre-move state. Resolve the ball
+  relocation, any change in stack membership, destination snow removal and at
+  most one applicable size increase within the same move; the monster advances
+  into a vacated source cell only if no other ball remains there. A top-ball
+  knock-off therefore leaves the monster and stack remainder in place. These
+  are model-level predicates, not an observed internal update order in the
+  original executable. Test the three-size completion state before the next
+  player input.
 - Claim IDs: `AGS-002`–`AGS-007`, `AGS-010`, `AGS-011`.
 
 ### Constraint Genes
@@ -131,9 +146,11 @@ gene_ids:
   a ball already on one stack cannot transfer directly to another stack.
 - `CON-011` is absent: one ground cell may legally contain an ordered stack of
   several balls, so general entity occupancy is not exclusive.
-- `CON-012` is absent: although ordinary pushes use rear access, the destination
-  need not be free, and pushing a stack can eject its top ball across the
-  monster rather than displacing the contacted base in the usual direction.
+- `CON-012` is absent: an ordinary ground-to-ground push uses rear access,
+  but a stacking destination need not be empty. In the documented top-ball
+  knock-off, the monster stays beside the stack and only the exposed ball
+  moves to the empty cell immediately beyond the stack in the push direction;
+  the remaining balls are not displaced.
 - Scarce strategic resources: unconsumed snow cells, approach sides, empty
   landing cells, ball-size assignments and retrievable stack locations.
 - Claim IDs: `AGS-001`, `AGS-003`–`AGS-008`.
@@ -176,7 +193,7 @@ gene_ids:
 | Large ball enters snow | Complete the push | Ball remains large while the destination snow is removed | maximum size is absorbing | `AGS-004` |
 | Medium ball is pushed toward a large ball | Complete the push | Medium occupies the top relation over the large ball | strict compatible stacking | `AGS-005` |
 | Large or equal ball is pushed toward a smaller / equal top ball | Attempt the push | Transition is rejected | stacking is ordered, not collision merging | `AGS-005`, `AGS-011` |
-| Incomplete stack has a clear cell beyond the monster | Push into the stack | Its exposed top ball is knocked to the far free cell | unstacking moves one top ball | `AGS-006` |
+| Monster, incomplete stack and an empty landing cell are aligned in the push direction | Push into the stack | The exposed top ball moves to the cell beyond the stack; monster and remainder stay put; destination snow, if present, is removed and may grow the ball by one step | unstacking transfers one surviving ball and can compose with terrain growth | `AGS-003`, `AGS-006` |
 | Large, medium and small occupy one decreasing stack | Complete the final push | The stack becomes a completed snowman | flexible-location assembly is the goal | `AGS-007` |
 
 ## Strategic and experiential structure

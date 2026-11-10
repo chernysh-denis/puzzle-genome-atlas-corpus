@@ -1,5 +1,3079 @@
 # System Behaviour Genes
 
+## SYS-1450 — Advance bow draw through power, magnification and fatigue letdown
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while an eligible bow draw remains held, the live draw state increases projectile power and reach to its limit; sustained full draw subsequently magnifies the aiming view, then fatigue perturbs the aim and automatically lowers the bow without firing, allowing a later fresh draw.
+- Includes: The original Thief bow progresses from partial draw to maximum power, delayed zoom, wobble and automatic letdown during a held water-arrow aim.
+- Excludes: A fixed-charge shot with no continuing hold; a manually selected camera zoom alone; an ammunition reload; inventing an exact draw duration or ballistic formula from qualitative instructions.
+- Parameters: Draw state, held interval, power limit, reach, delayed magnification, fatigue, aim perturbation and automatic letdown.
+- Evidence: [Original Bafford Expert decomposition](../games/s-z/thief-the-dark-project.md), TH-003; P1 printed 16-17; timing and native coefficient measurements absent. Native executable, coefficients, animal/failure timing and saved-state fidelity remain unverified; documentary qualifications stay explicit.
+- Novelty: first isolated for `GAME-0513`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_250`](../../research/taxonomy-changes/TAXONOMY_CHANGE_250.md). No external novelty claim.
+
+## SYS-1451 — Extinguish an eligible light source on utility-water impact
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a compatible water-bearing utility projectile contacting an eligible active flame changes that light source to its extinguished state, reducing its local illumination and altering subsequent visibility-based detection; the response does not require creating a persistent traversable water surface.
+- Includes: A water arrow extinguishes a manor torch and supplies a darker subsequent approach in Lord Bafford’s Manor.
+- Excludes: SYS-876 water settling on a persistent world surface and changing its traversal hazard; light only varying perception without a commanded source change; a fixed protective light harming a pursuer; a universal extinguish response for every lamp.
+- Parameters: Projectile, eligible flame, impact, active state, extinguished state, local illumination and later perception.
+- Evidence: [Original Bafford Expert decomposition](../games/s-z/thief-the-dark-project.md), TH-004; P1 printed 18; P2 printed 65-67; S1 first stair and throne torches. Native executable, coefficients, animal/failure timing and saved-state fidelity remain unverified; documentary qualifications stay explicit.
+- Novelty: first isolated for `GAME-0513`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_250`](../../research/taxonomy-changes/TAXONOMY_CHANGE_250.md). No external novelty claim.
+
+## SYS-1452 — Generate local footstep stimuli from surface and movement rate
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: continuous controlled locomotion produces a local audible footstep stimulus whose strength depends on the contacted floor material and current movement rate; quieter traversal changes what nearby listeners can acquire without guaranteeing silence or suppressing other simultaneous sounds.
+- Includes: Walking over carpet is quieter than a metal or tiled approach, and running produces more noise in the original Bafford stealth route.
+- Excludes: SYS-373 the listener’s awareness response after receiving stimuli; merely playing decorative footstep audio; predicting an exact decibel or universal hearing radius; spending a silent-surface item unavailable in this mission.
+- Parameters: Actor, surface material, locomotion rate, footstep production, stimulus strength, local propagation and eligible listeners.
+- Evidence: [Original Bafford Expert decomposition](../games/s-z/thief-the-dark-project.md), TH-005; P1 movement/stealth instructions; P2 Bafford floor choices; P3 room-propagated hearing architecture; S1 carpet/metal route. Native executable, coefficients, animal/failure timing and saved-state fidelity remain unverified; documentary qualifications stay explicit.
+- Novelty: first isolated for `GAME-0513`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_250`](../../research/taxonomy-changes/TAXONOMY_CHANGE_250.md). No external novelty claim.
+
+## SYS-1449 — Make an eligible pursuer retreat from a damaging fixed-light field
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an eligible autonomous pursuer that encounters an active fixed protective illumination field takes its field-specific harmful response and retreats toward darkness, changing available pursuit routes; portable visibility illumination is not thereby a protective field, and an inactive fixture supplies no such refuge.
+- Includes: The Girl withdraws from the powered care-room light during Grace’s initial Care Center escape; later loss of room lighting removes that local protection.
+- Excludes: SYS-797 light only changing perception acquisition rate; CON-497 darkness itself killing an unlit player; a pocket lighter repelling the Girl; portable late-basement UV weapon control; claiming exact field damage or universal enemy immunity.
+- Parameters: Eligible pursuer, fixed fixture, powered state, field extent, exposure, harmful response, retreat and dark route.
+- Evidence: [First Grace care-centre decomposition](../games/m-r/resident-evil-requiem.md), RQ-003/007; S2 first refuge and later power loss; S6 Girl UV response; R1 2790 light clue and 2910/2930 refuge context. Exact native coefficients, installed regional/build parity and controlled save/reload remain unverified. Later community documentation remains qualified corroboration.
+- Novelty: first isolated for `GAME-0512`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_249`](../../research/taxonomy-changes/TAXONOMY_CHANGE_249.md). No external novelty claim.
+
+## SYS-1444 — Advance lure inspection into a brief bite opportunity with disturbance escape
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a nearby eligible fish approaches the cast lure and may produce non-capture nibbles before a bite; the bite supplies a bounded response opportunity, while premature reeling, a missed bite or eligible nearby disturbance makes that target flee instead of yielding a specimen.
+- Includes: Ordinary New Leaf fishing: wait through bobber nudges and reel at the bite; running near the bank can scare a visible fish.
+- Excludes: Successful specimen/catalogue creation under SYS-922; a post-hook tension-management contest; predicting the species or exact next bite time; claiming an observed native reaction-window duration.
+- Parameters: Fish, lure position, approach, nibble sequence, bite cue, response interval, early input, late input and disturbance.
+- Evidence: [Original New Leaf fishing decomposition](../games/a-f/animal-crossing-new-leaf.md), NL-003; R1 water frames; S1 fishing basics; S4 fishing-rod usage. Exact native coefficients, installed regional/build parity and controlled save/reload remain unverified. Later community documentation remains qualified corroboration.
+- Novelty: first isolated for `GAME-0511`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_248`](../../research/taxonomy-changes/TAXONOMY_CHANGE_248.md). No external novelty claim.
+
+## SYS-1445 — Retain one accepted specimen identity as a permanent public exhibit
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an accepted donation consumes one carried eligible specimen, records its previously absent species in the shared museum collection and exposes that species in its persistent exhibit; a repeated species is not consumed as another exhibit, and collection credit is separate from the donor’s prior caught-species record.
+- Includes: Giving Blathers an undonated New Leaf fish, then seeing it in the aquarium rather than receiving sale money.
+- Excludes: SYS-923 a first-island quota creating a construction marker; SYS-116 a bundle quota exposing a group reward; SYS-922 catch credit without donation; a recoverable privately owned home tank.
+- Parameters: Carried specimen, species, recipient, shared donated set, accepted transfer, duplicate refusal and exhibit.
+- Evidence: [Original New Leaf fishing decomposition](../games/a-f/animal-crossing-new-leaf.md), NL-007; P1 section 11; R1 1860/1875/1890; S2 museum. Exact native coefficients, installed regional/build parity and controlled save/reload remain unverified. Later community documentation remains qualified corroboration.
+- Novelty: first isolated for `GAME-0511`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_248`](../../research/taxonomy-changes/TAXONOMY_CHANGE_248.md). No external novelty claim.
+
+## SYS-1446 — Resolve caught-stock overflow through a keep-or-dispose choice without erasing observation credit
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: a completed catch that cannot enter the ordinary pocket slots opens a disposition choice: release the new catch or free capacity through an eligible carried-item disposition and retain it; choosing a disposition does not undo the already earned caught-species observation credit.
+- Includes: New Leaf full-pocket catches and the swap/release decision; a held tool is separate from the sixteen pocket items.
+- Excludes: Increasing pocket capacity automatically; pausing before the capture test as if no catch occurred; equipping a New Horizons tool without removing its pocket occupancy; proving every discarded item is recoverable.
+- Parameters: New catch, pending reception, pocket slots, held tool, eligible replacement, release, drop and caught-species record.
+- Evidence: [Original New Leaf fishing decomposition](../games/a-f/animal-crossing-new-leaf.md), NL-005; P1 section 7; S5 pockets; native full-pocket branch not exercised. Exact native coefficients, installed regional/build parity and controlled save/reload remain unverified. Later community documentation remains qualified corroboration.
+- Novelty: first isolated for `GAME-0511`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_248`](../../research/taxonomy-changes/TAXONOMY_CHANGE_248.md). No external novelty claim.
+
+## SYS-1447 — Settle item sales at a species quote and current premium while charging for unsellable disposal
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: confirming an eligible item sale removes the selected owned stock and credits its species-based quote with any applicable current premium; declining preserves the stock, while accepted disposal of unsellable fishing refuse instead removes it and debits the disclosed service charge.
+- Includes: Re-Tail fish sales, its posted daily high-price category and paid disposal of an old tire, boot or can in original New Leaf.
+- Excludes: SYS-1191 transaction-volume market repricing; SYS-1312 visit-sampled commodity supply; a museum contribution; assuming every fished object pays positive money; public flea-market listing of fish.
+- Parameters: Owned stock, item identity, quantity, retailer, base quote, current premium, confirmation, balance, refuse and disposal charge.
+- Evidence: [Original New Leaf fishing decomposition](../games/a-f/animal-crossing-new-leaf.md), NL-008; P1 section 10; R1 1740/1750; S3 Re-Tail; S6 fish data; S7 Re-Tail exclusion. Exact native coefficients, installed regional/build parity and controlled save/reload remain unverified. Later community documentation remains qualified corroboration.
+- Novelty: first isolated for `GAME-0511`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_248`](../../research/taxonomy-changes/TAXONOMY_CHANGE_248.md). No external novelty claim.
+
+## SYS-1448 — Persist the accepted settlement record without freezing its civil-time source
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: a completed current-world save retains the accepted carried stock, currency and collection records for later continuation; resuming that record still uses the configured advancing civil-time source rather than restoring that source to the moment of saving.
+- Includes: New Leaf saved pockets, Bells, encyclopedia and museum contributions with ordinary clock progression between sessions.
+- Excludes: TIM-007 an archive of selectable earlier branches; a one-use level suspend; asserting every live fish instance returns at the exact saved water position; resetting the system clock or establishing native save-file byte coverage.
+- Parameters: Current settlement, save completion, carried stock, currency, caught and donated sets, continuation and external clock.
+- Evidence: [Original New Leaf fishing decomposition](../games/a-f/animal-crossing-new-leaf.md), NL-009; P1 sections 4/5/7/11; retained-state reconstruction, not a native reload test. Exact native coefficients, installed regional/build parity and controlled save/reload remain unverified. Later community documentation remains qualified corroboration.
+- Novelty: first isolated for `GAME-0511`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_248`](../../research/taxonomy-changes/TAXONOMY_CHANGE_248.md). No external novelty claim.
+
+## SYS-1437 — Resolve a marked floor probe into local trap withdrawal and further traversal
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: an accepted tool press on an authored marked floor plate changes the nearby trap or plate state to permit the next part of a physical route; pressing or stepping on an unsafe plate instead exposes its hazard, so probing is not merely reading an immutable clue.
+- Includes: The Golden Idol room: aim the torch at a circle-marked plate, commit the press and cross the locally released floor toward the pedestal.
+- Excludes: INF-032 permanent boundary-probe labels; ACT-288 thrown disposable anomaly probe; a plate that supports a door only while a body stays on it; global disarming of every trap.
+- Parameters: Plate, authored mark, held probe, aim, accepted press, linked local withdrawal, unsafe contact and next reachable floor.
+- Evidence: [Indiana Jones complete-opening decomposition](../games/g-l/indiana-jones-and-the-great-circle.md), IJ-004; R1 470/480/500/505/510; S2; S5. Installed binary, captured presets, native coefficients and save/reload sets remain unverified; premium-access and later documentary sources retain their dates.
+- Novelty: first isolated for `GAME-0510`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_247`](../../research/taxonomy-changes/TAXONOMY_CHANGE_247.md). No external novelty claim.
+
+## SYS-1438 — Accept semantically matched exhibit placements and infer the absent object after the set
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: placing a carried exhibit at its authored compatible display retains that placement; an incompatible request is rejected without consuming the held exhibit, and completion of the required placements exposes the identity of the absent exhibit as an investigation fact.
+- Includes: Marshall College returning four scattered artifacts to their visually corresponding displays before identifying the missing Cat Mummy.
+- Excludes: SYS-116 consuming discrete inventory donations for a bundle reward; SYS-148 reversible spatial unpacking with invalid-placement markers; merely filling any free pedestal; scoring only the number of placed objects.
+- Parameters: Carried artifact, display, visual correspondence, compatibility, rejection, retained placement, required set and inferred missing identity.
+- Evidence: [Indiana Jones complete-opening decomposition](../games/g-l/indiana-jones-and-the-great-circle.md), IJ-007; R1 890/895/900/905/915/917/920/924/930; S1 exhibit. Installed binary, captured presets, native coefficients and save/reload sets remain unverified; premium-access and later documentary sources retain their dates.
+- Novelty: first isolated for `GAME-0510`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_247`](../../research/taxonomy-changes/TAXONOMY_CHANGE_247.md). No external novelty claim.
+
+## SYS-1439 — Advance an interactive story gate into a mandated adverse outcome rather than a winnable challenge
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: satisfying the required local gesture or encounter progression advances an authored story gate into its mandated adverse outcome; apparent physical preparation or ordinary successful responses do not expose an alternative victory at that gate, although intervening live route hazards can still fail an attempt.
+- Includes: The Golden Idol sand adjustment still leads to collapsing-temple escape; the college giant tutorial proceeds to the scripted knockout rather than a player-earned defeat of the intruder.
+- Excludes: An expiring QTE with graded success and failure; a freely winnable ordinary duel; a passive film scene with no required interaction; claiming every route hazard is harmless.
+- Parameters: Gate, required gesture or encounter progress, authored adverse result, intervening failure, next controlled phase and tested alternative limits.
+- Evidence: [Indiana Jones complete-opening decomposition](../games/g-l/indiana-jones-and-the-great-circle.md), IJ-005/006; R1 515/517/520/525/535 and 760/763/768/775/781/810; S5 adjustment; S1 tutorial. Installed binary, captured presets, native coefficients and save/reload sets remain unverified; premium-access and later documentary sources retain their dates.
+- Novelty: first isolated for `GAME-0510`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_247`](../../research/taxonomy-changes/TAXONOMY_CHANGE_247.md). No external novelty claim.
+
+## SYS-1440 — Register a collected evidence identity and award its one-time discovery credit
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: accepting an eligible evidence collectible registers its distinct identity in the retained local record and applies its declared discovery-point credit; inspecting its readable face without collection does not alone perform the acquisition, and an already registered identity is not an endlessly repeatable reward source.
+- Includes: Marshall College notes and their Adventure Points; the Giant’s Pendant is registered as a note when packed, not merely because the player first sees it at the window.
+- Excludes: SYS-1280 speaker responses opening inquiry topics; generic repeated combat experience; merely viewing a document; spending points on an ability book not available in the scoped packet; asserting dream pickups survive awakening.
+- Parameters: Evidence identity, readable view, collection or registration event, retained local roster, one-time credit, current points and reset boundary.
+- Evidence: [Indiana Jones complete-opening decomposition](../games/g-l/indiana-jones-and-the-great-circle.md), IJ-008/010; R1 960/1015/1125; R3 50/365/372/580/610; S3. Installed binary, captured presets, native coefficients and save/reload sets remain unverified; premium-access and later documentary sources retain their dates.
+- Novelty: first isolated for `GAME-0510`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_247`](../../research/taxonomy-changes/TAXONOMY_CHANGE_247.md). No external novelty claim.
+
+## SYS-1441 — Debit live effort from a recovering reserve while unpriced guard suppresses recovery
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: eligible close-combat effort, evasion and sprinting reduce the same personal exertion reserve, which recovers during eligible non-spending time; held guard does not debit the reserve but suppresses recovery, so preserving a guarded posture differs from allowing replenishment.
+- Includes: Indiana Jones opening fists, grapple escape, dodge and sprint with stamina; ordinary ledge traversal is unpriced, while guarding prevents recovery without costing a bar.
+- Excludes: SYS-798 necessarily pricing attacks, evasion, sprint and guard together; SYS-1416 a scoped melee/guard budget with ordinary ranged attacks and dodges outside the cost; a timed independent cooldown per ability; measured regeneration coefficients.
+- Parameters: Personal stamina, capacity, priced effort, unpriced guard, recovery suppression, current reserve and next command readiness.
+- Evidence: [Indiana Jones complete-opening decomposition](../games/g-l/indiana-jones-and-the-great-circle.md), IJ-006/011; R1 610/760/765/768/775/781/875/975; S6 indexed stamina explanation. Installed binary, captured presets, native coefficients and save/reload sets remain unverified; premium-access and later documentary sources retain their dates.
+- Novelty: first isolated for `GAME-0510`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_247`](../../research/taxonomy-changes/TAXONOMY_CHANGE_247.md). No external novelty claim.
+
+## SYS-1442 — Add a finite food-funded exertion bonus distinct from ordinary regenerating stamina
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: consuming an eligible carried food adds a temporary exertion bonus used at a declared consecutive-spending threshold instead of an ordinary base unit; the spent bonus must be supplied again by eligible consumption, so ordinary base recovery neither proves permanent capacity growth nor replenishes the bonus.
+- Includes: The optional college apple, with the fruit bonus described by the release-period stamina account and later publisher tips; this branch was not natively exercised.
+- Excludes: SYS-1417 unused restoration banked beyond fullness for later missing-health conversion; permanently buying maximum stamina; ordinary replenishment of the base reserve; importing bread or later Medicine Bottle upgrades into this packet.
+- Parameters: Eligible food, carried unit, use, temporary bonus, consecutive-spending threshold, base reserve, depletion and renewed supply.
+- Evidence: [Indiana Jones complete-opening decomposition](../games/g-l/indiana-jones-and-the-great-circle.md), IJ-009; P4 food tip, dated 2025-04-17; S6 release-period indexed account; S1 college apple location. Installed binary, captured presets, native coefficients and save/reload sets remain unverified; premium-access and later documentary sources retain their dates.
+- Novelty: first isolated for `GAME-0510`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_247`](../../research/taxonomy-changes/TAXONOMY_CHANGE_247.md). No external novelty claim.
+
+## SYS-1443 — Complete an accepted fixed-anchor crossing into supported traversal on the opposite side
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: after an eligible aimed line attachment and crossing request, the authored local traversal carries the avatar across the gap and returns it to ordinary supported control on the far side; this resolution does not establish player-adjustable tether length, arbitrary release momentum or universal swing simulation.
+- Includes: The first prologue whip crossing in Indiana Jones and the Great Circle, including its third-person traversal presentation and far-side return.
+- Excludes: SYS-1055 an adjustable anchor-bound swing with chosen release; SYS-1247 attachment to an already existing fixed vine; teleportation; a grappling pull whose destination is the anchor itself.
+- Parameters: Accepted attachment, anchor, local gap, crossing phase, opposite support and restored ordinary control.
+- Evidence: [Indiana Jones complete-opening decomposition](../games/g-l/indiana-jones-and-the-great-circle.md), IJ-003; R1 390/398/405/410; S2 temple route. Installed binary, captured presets, native coefficients and save/reload sets remain unverified; premium-access and later documentary sources retain their dates.
+- Novelty: first isolated for `GAME-0510`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_247`](../../research/taxonomy-changes/TAXONOMY_CHANGE_247.md). No external novelty claim.
+
+## SYS-1432 — Couple weapon discharge and flight thrust to one body heat reservoir
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: weapon discharge and powered flight add heat to the same controlled body; elapsed cooling reduces that shared reservoir, with an eligible cooling environment changing dissipation, so switching weapons does not erase heat generated by another weapon or by traversal.
+- Includes: MechAssault Cougar weapons and jump jets sharing chassis heat; ordinary dissipation and the documented faster cooling in shallow water.
+- Excludes: SYS-738 heat local to the active weapon with a timed active-cooling window; SYS-1421 engine heat generated by race boost alone; separate independent skill cooldowns; inventing heat reset on weapon selection.
+- Parameters: Body, weapon, thrust state, heat increment, shared capacity, elapsed cooling, environmental cooling modifier and remaining heat.
+- Evidence: [MechAssault first-sortie decomposition](../games/m-r/mechassault.md), MA-005; P1 p3/p8; P2 p9/p26/p31; S1 heat account. Original disc, captured difficulty, exact coefficients and native timing remain unverified; dated qualifications are retained in the game ledger.
+- Novelty: first isolated for `GAME-0509`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_246`](../../research/taxonomy-changes/TAXONOMY_CHANGE_246.md). No external novelty claim.
+
+## SYS-1433 — Promote typed weapon salvage into finite stronger tiers with automatic depletion fallback
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: contact with eligible weapon-category salvage promotes the installed category into a stronger finite-ammunition tier or refills its current top tier; depleting a stronger tier automatically supplies the declared lower tier, eventually returning to the weaker unlimited base, while a full top-tier reserve rejects further matching salvage.
+- Includes: MechAssault energy, ballistic and missile salvage: base to full level 2, remaining level 2 to full level 3, partial level 3 refill, empty level 3 to full level 2 and empty level 2 to unlimited level 1.
+- Excludes: Purchasing a permanent weapon upgrade; a finite weapon becoming unusable on exhaustion; adding a new weapon category; a score-only collectible; treating a partial level-2 reserve as the same pickup decision as a full level-3 reserve.
+- Parameters: Installed category, salvage type, current tier, remaining shots, promoted/refilled capacity, stronger effect, depletion, lower-tier supply and top-tier pickup predicate.
+- Evidence: [MechAssault first-sortie decomposition](../games/m-r/mechassault.md), MA-006; P1 p3/p8; P2 p33–34; R1 315/350/370/390/470/500/525. Original disc, captured difficulty, exact coefficients and native timing remain unverified; dated qualifications are retained in the game ledger.
+- Novelty: first isolated for `GAME-0509`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_246`](../../research/taxonomy-changes/TAXONOMY_CHANGE_246.md). No external novelty claim.
+
+## SYS-1434 — Acquire and lose aim-held lock that conditions a launched missile’s homing
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: maintaining the targeting reticle on an eligible opponent for a declared interval acquires a retained lock; moving aim away beyond its loss interval removes it, and the acquired relation enables a fired compatible missile to steer toward that target instead of guaranteeing every free-aim shot will home.
+- Includes: MechAssault Cougar Javelin lock acquired by sustained reticle coverage, red-crosshair feedback, delayed loss after aiming away and lock-conditioned missile guidance.
+- Excludes: SYS-1411 accumulating a pending multi-target volley for release; SYS-1318 an active electronic disruption field; SYS-987 finite secondary near-aim correction without this timed lock; ACT-494 target-relative orbit movement; guaranteed impact through intervening cover.
+- Parameters: Reticle, opponent, acquisition interval, held relation, loss interval, lock feedback, compatible missile, steering, obstruction and impact.
+- Evidence: [MechAssault first-sortie decomposition](../games/m-r/mechassault.md), MA-007; P1 p7; R1 aimed combat frames; no native lock timing measured. Original disc, captured difficulty, exact coefficients and native timing remain unverified; dated qualifications are retained in the game ledger.
+- Novelty: first isolated for `GAME-0509`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_246`](../../research/taxonomy-changes/TAXONOMY_CHANGE_246.md). No external novelty claim.
+
+## SYS-1435 — Spend held flight reserve on temporary lift and restore grounded traversal after release
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: an equipped thrust system lifts the directly controlled ground body while its activation is held and available flight reserve is spent; release or exhaustion ends powered lift and the body returns under gravity to reachable support, with subsequent reserve recovery allowing another bounded activation rather than permanent free flight.
+- Includes: MechAssault Cougar jump-jet traversal across the first blocking ridge; documented held fuel limitation and qualitative later usable reserve after the crossing. Exact recovery scheduling is unverified.
+- Excludes: Permanent fuel-free flight; a discrete double jump reset by hostile contact; strategic route scheduling; Rocket League boost without lift authority; asserting invulnerability, unlimited altitude or a measured refill rate.
+- Parameters: Body, fitted jets, held input, current reserve, expenditure, lift, gravity, support, recovery eligibility and later ready state.
+- Evidence: [MechAssault first-sortie decomposition](../games/m-r/mechassault.md), MA-004; P1 p8; P2 p9/p25/p37; R1 240/245/255/265; S2 general recharge tip. Original disc, captured difficulty, exact coefficients and native timing remain unverified; dated qualifications are retained in the game ledger.
+- Novelty: first isolated for `GAME-0509`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_246`](../../research/taxonomy-changes/TAXONOMY_CHANGE_246.md). No external novelty claim.
+
+## SYS-1436 — Crush an eligible small hostile through a large controlled body’s foot contact
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: movement of a directly controlled large body into eligible small ground-hostile foot contact defeats that hostile without an additional strike or shot command; target-class eligibility matters and the traversal does not require a platformer-style top impact followed by rebound.
+- Includes: MechAssault Cougar walking over ordinary infantry in Going Down Hard; weapon fire remains an alternative.
+- Excludes: SYS-064 direction-sensitive platformer stomp and rebound; automatically defeating powered armor or every vehicle; selecting a tactical attack; generic collision damage to the controlled body.
+- Parameters: Controlled body, foot contact, hostile size/class eligibility, movement, defeat and surviving traversal state.
+- Evidence: [MechAssault first-sortie decomposition](../games/m-r/mechassault.md), MA-008; P2 p37 infantry instruction; S2 infantry class; R1 first infantry contact. Original disc, captured difficulty, exact coefficients and native timing remain unverified; dated qualifications are retained in the game ledger.
+- Novelty: first isolated for `GAME-0509`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_246`](../../research/taxonomy-changes/TAXONOMY_CHANGE_246.md). No external novelty claim.
+
+## SYS-1425 — Resolve contact compliance into surrender, deception, flight or renewed violence
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a police contact responds to current threat, stress and admitted less-lethal effects by remaining resistant, surrendering, feigning surrender, fleeing or initiating combat; an apparent surrender is an actor state rather than a guarantee that the contact is permanently harmless.
+- Includes: Ready or Not 1.0 contact decisions and local hesitation/noise stress response, separately from the campaign officer-stress ledger.
+- Excludes: SYS-766 continuous held-gun compliance guaranteed until coverage breaks; campaign personnel therapy; converting every peppered contact into incapacity; a disclosed deterministic surrender probability.
+- Parameters: Contact, morale/stress context, threat, less-lethal exposure, response state, deception, weapon access and subsequent behavior.
+- Evidence: [Ready or Not decomposition](../games/m-r/ready-or-not.md), RON-006; P1 AI behavior, OC exposure and stress; R1 900/1470 custody states. No native execution, exact coefficients, original-launch binary checksum or bug-free implementation is claimed; dated source qualifications remain in the game ledger.
+- Novelty: first isolated for `GAME-0508`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_245`](../../research/taxonomy-changes/TAXONOMY_CHANGE_245.md). No external novelty claim.
+
+## SYS-1426 — Register physical custody and reported mission proof separately from combat defeat
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: legal restraint, actor reporting or securing an eligible evidence object updates the mission proof register and its corresponding completion/evaluation category; defeating a contact or seeing an item is not itself equivalent to registering all required custody and evidence.
+- Includes: Ready or Not first mission restraint/reporting, dropped-weapon evidence, named-person reports and optional veteran proof.
+- Excludes: Merely eliminating all enemies; looting a dropped firearm into the player combat inventory; inferring two evidence items per suspect; guaranteeing autonomous collection from every closed room.
+- Parameters: Actor class/state, restraint, report, evidence object, registered category, objective flag, evaluation credit and optional proof.
+- Evidence: [Ready or Not decomposition](../games/m-r/ready-or-not.md), RON-007/013; P1 trailer units and reporting; R1 900/1150/1470/1490; S1 packet corroboration. No native execution, exact coefficients, original-launch binary checksum or bug-free implementation is claimed; dated source qualifications remain in the game ledger.
+- Novelty: first isolated for `GAME-0508`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_245`](../../research/taxonomy-changes/TAXONOMY_CHANGE_245.md). No external novelty claim.
+
+## SYS-1427 — Execute context-qualified squad entry and security orders with local equipment
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: selected tactical officers interpret an addressed location or doorway order through current geometry and carried equipment, forming a stack or formation, performing an eligible entry procedure, clearing visible sectors and securing reachable contacts or evidence while the scene continues.
+- Includes: Ready or Not 1.0 Fall In, hold/move, stack, pick/open/breach and room-security procedures, with red/blue/all-element selection.
+- Excludes: Guaranteeing flawless queued execution; commanding an unequipped breach tool; omniscient discovery of every hidden objective; SYS-752 transient generic followers; post-hotfix shield-first or closed-room fixes treated as launch guarantees.
+- Parameters: Selected subgroup, formation, addressed geometry, door state, local equipment, order, visible sector, autonomous procedure and failure state.
+- Evidence: [Ready or Not decomposition](../games/m-r/ready-or-not.md), RON-005; P1 release SWAT overhaul; P3 qualified design; P5 creator vLog frames; R1 850/1000/1050/1100/1250; P6 bug boundary. No native execution, exact coefficients, original-launch binary checksum or bug-free implementation is claimed; dated source qualifications remain in the game ledger.
+- Novelty: first isolated for `GAME-0508`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_245`](../../research/taxonomy-changes/TAXONOMY_CHANGE_245.md). No external novelty claim.
+
+## SYS-1428 — Carry mission-induced officer stress into deployment availability and treatment risk
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: dangerous or improper mission conduct changes retained individual officer stress; at personnel settlement that stress can require benching/treatment and risk permanent resignation, independently of whether an officer survived physical combat.
+- Includes: Ready or Not first-mission survivors returning with Anxious or Content labels, Send To Therapy and the released permanent-resignation rule.
+- Excludes: SYS-830 light/travel/critical-event dungeon stress; generic colony needs; equating no officers dead with no personnel consequence; an exact unmeasured stress formula, therapy duration or resignation probability.
+- Parameters: Officer, conduct, danger exposure, retained stress, status band, active availability, treatment and resignation risk.
+- Evidence: [Ready or Not decomposition](../games/m-r/ready-or-not.md), RON-014; P1 released stress and exfil rules; P2 qualified Commander account; R1 1500/1585/1600; S2. No native execution, exact coefficients, original-launch binary checksum or bug-free implementation is claimed; dated source qualifications remain in the game ledger.
+- Novelty: first isolated for `GAME-0508`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_245`](../../research/taxonomy-changes/TAXONOMY_CHANGE_245.md). No external novelty claim.
+
+## SYS-1429 — Stop an eligible bleed through self-treatment without restoring prior health loss
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: a bleeding controlled officer continues to lose health until the eligible treatment resolves or another terminal condition occurs; completed self-bandaging is intended to stop that loss but does not refill the health already lost, leaving the remaining mission risk in place.
+- Includes: Ready or Not intended self-bandaging rule, with launch-specific completion and weapon-return bugs retained as qualifications.
+- Excludes: SYS-698 separate blood and shock pools into consciousness; passive regeneration; region-selected medical inventory; a guarantee that every launch treatment returns weapon control correctly.
+- Parameters: Health, current bleed, loss over time, treatment completion, interruption, retained health and terminal threshold.
+- Evidence: [Ready or Not decomposition](../games/m-r/ready-or-not.md), RON-012; S8 earlier written account, S9 contemporaneous 1.0 bug reports, P6 healing-animation fix; no native health-loss measurement. No native execution, exact coefficients, original-launch binary checksum or bug-free implementation is claimed; dated source qualifications remain in the game ledger.
+- Novelty: first isolated for `GAME-0508`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_245`](../../research/taxonomy-changes/TAXONOMY_CHANGE_245.md). No external novelty claim.
+
+## SYS-1430 — Settle completed or withdrawn police deployment into the retained operational base
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an enabled mission-end or spawn-point withdrawal returns the deployment to the operational base and retains its result and personnel consequences; accepted completion exposes successor mission availability, while premature exfil is a distinct non-completion with less stress than quitting directly.
+- Includes: Ready or Not first mission end prompt, categorized report, HQ return and 23 Megabytes a Second availability; documented spawn-point early exfil alternative.
+- Excludes: SYS-780 instantiating playable control in the next mission; Ironman save deletion; completing the entire campaign; a perfect grade guaranteed by main-objective completion; any exact unmeasured early-exfil reduction.
+- Parameters: Deployment, end permission, completion/withdrawal, spawn point, retained result, personnel consequence, base return and successor availability.
+- Evidence: [Ready or Not decomposition](../games/m-r/ready-or-not.md), RON-013/014/015; P1 exfil; R1 1470/1490/1500/1550/1575; S7 mission-end explanation. No native execution, exact coefficients, original-launch binary checksum or bug-free implementation is claimed; dated source qualifications remain in the game ledger.
+- Novelty: first isolated for `GAME-0508`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_245`](../../research/taxonomy-changes/TAXONOMY_CHANGE_245.md). No external novelty claim.
+
+## SYS-1431 — Resolve local door opening, unlocking, blocking and breach into route access
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a legal addressed door operation changes its open, locked, wedged or breached state, changing the traversable passage and local sight/entry conditions; a compatible wedge restricts ordinary opening until removed, whereas an eligible breach resolves its own destructive entry procedure.
+- Includes: Ready or Not contextual door interaction, Pick Lock, C2 or impact entry and tactical door wedges.
+- Excludes: Inventing a key hunt for every lock; guaranteeing all surfaces are breachable; inferring trap wiring in the first gas-station mission; granting a body passage from bullet penetration alone; an exact unmeasured kick count.
+- Parameters: Door, aperture, open/locked/wedged state, operation, compatible tool, reach, passage and breach outcome.
+- Evidence: [Ready or Not decomposition](../games/m-r/ready-or-not.md), RON-009; P1 breach effects; P3 qualified entry procedures; R1 1000/1050; S3/S6 equipment and S10 contemporaneous wedge observations. No native execution, exact coefficients, original-launch binary checksum or bug-free implementation is claimed; dated source qualifications remain in the game ledger.
+- Novelty: first isolated for `GAME-0508`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_245`](../../research/taxonomy-changes/TAXONOMY_CHANGE_245.md). No external novelty claim.
+
+## SYS-1421 — Raise engine heat under boost and cool toward renewed safe use
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: accepted held racing boost increases acceleration and attainable speed while raising engine heat through warning phases; eligible time without that boost lowers the heat, whereas continuing beyond the destructive boundary wrecks the vehicle instead of merely exhausting a fuel-like meter.
+- Includes: Original MotorStorm cool, warm, hot and critical Boost states followed by an engine explosion if pushed too far.
+- Excludes: SYS-691 spending a finite acceleration reserve; SYS-738 weapon firing heat and firing lockout; automatic refilling of a consumed nitro tank; health-priced acceleration; exact unmeasured heat coefficients.
+- Parameters: Readiness, held input, engine heat, phase boundaries, cooling rate, speed contribution and destructive overheat.
+- Evidence: [MotorStorm decomposition](../games/m-r/motorstorm.md), MS-004; P1 printed pp. 12–13. No native execution, exact coefficients, captured patch/region or cross-save terrain history is claimed; documentary qualifications remain in the game ledger.
+- Novelty: first isolated for `GAME-0507`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_244`](../../research/taxonomy-changes/TAXONOMY_CHANGE_244.md). No external novelty claim.
+
+## SYS-1422 — Replace a wrecked racer locally with a stationary briefly protected vehicle
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a racing vehicle is destroyed, replace it on the current track with a stationary vehicle under a short invulnerability interval and return driving authority within the ongoing race, requiring renewed acceleration to recover position rather than removing the participant for the whole event.
+- Includes: Original MotorStorm destruction recovery described by the original instruction booklet.
+- Excludes: SYS-541 requiring a demolition-speed rival contact and an own-side arena spawn; permanent race elimination; a full-grid restart; a player-directed flaming wreck; an asserted exact recovery delay or protection duration.
+- Parameters: Destroyed vehicle, local recovery placement, stationary state, temporary invulnerability, driving authority and continuing race.
+- Evidence: [MotorStorm decomposition](../games/m-r/motorstorm.md), MS-005; P1 printed pp. 18–19; R1 390 documents wreck state, not recovery timing. No native execution, exact coefficients, captured patch/region or cross-save terrain history is claimed; documentary qualifications remain in the game ledger.
+- Novelty: first isolated for `GAME-0507`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_244`](../../research/taxonomy-changes/TAXONOMY_CHANGE_244.md). No external novelty claim.
+
+## SYS-1423 — Accumulate class-dependent tyre ruts in eligible soft racing terrain
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: vehicle passage changes eligible soft race-ground tracks according to vehicle properties, leaving altered ruts that affect later driving contact within the race rather than only painting a surface mark or selecting a pre-authored road branch.
+- Includes: The original MotorStorm developer account of different tyre imprints from heavier vehicles and their later-lap steering consequences.
+- Excludes: SYS-324 removing terrain volume through an eligible strike or explosion; cosmetic tyre decals; persistent cross-save terrain history; asserting the exact native contact-mesh or rut-depth algorithm.
+- Parameters: Soft surface, vehicle class, tyre passage, retained local rut state, subsequent contact and race lifetime.
+- Evidence: [MotorStorm decomposition](../games/m-r/motorstorm.md), MS-007; P4 creator statement plus P5 original publisher release; no native coefficient measurement. No native execution, exact coefficients, captured patch/region or cross-save terrain history is claimed; documentary qualifications remain in the game ledger.
+- Novelty: first isolated for `GAME-0507`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_244`](../../research/taxonomy-changes/TAXONOMY_CHANGE_244.md). No external novelty claim.
+
+## SYS-1424 — Resolve requested track recovery into a local return inside the current race
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: an accepted reset-to-track request relocates the assigned vehicle back to a legal current-course position and returns driving control within that unfinished race instead of granting omitted route completion or recreating the full starting grid.
+- Includes: Original MotorStorm manual Reset to track command; exact placement, clock treatment, heat treatment and immunity are not measured.
+- Excludes: Loading a campaign save; scrubbing reversible history; restarting the whole event; automatically replacing a destroyed vehicle under SYS-1422; granting completion by teleport.
+- Parameters: Recovery request, authorised course position, assigned vehicle, continuing event, returned control and unmeasured recovery-state treatment.
+- Evidence: [MotorStorm decomposition](../games/m-r/motorstorm.md), MS-008; P1 printed pp. 4–5, documentary command semantics only. No native execution, exact coefficients, captured patch/region or cross-save terrain history is claimed; documentary qualifications remain in the game ledger.
+- Novelty: first isolated for `GAME-0507`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_244`](../../research/taxonomy-changes/TAXONOMY_CHANGE_244.md). No external novelty claim.
+
+## SYS-1416 — Price selected melee and guard activity with a recovering exertion reserve
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: eligible melee attacks and sustained defensive absorption debit one personal exertion reserve, which recovers during eligible non-spending time; other declared command classes remain independently usable instead of every attack and evasion necessarily drawing from that reserve.
+- Includes: Avowed melee and block/parry stamina with source-qualified ordinary ranged attacks and dodges outside those costs.
+- Excludes: SYS-798 requiring attacks, evasion, sprinting and guard all to draw from the same reserve; an independently recharging unit per spell; unsupported exact regeneration rates or all movement costs.
+- Parameters: Current stamina, capacity, priced action classes, recovery conditions, depleted-state legality and unpriced command classes.
+- Evidence: [Avowed decomposition](../games/a-f/avowed.md), AV-005; P2 melee-cost account; R2 600/800; S4 stamina distinction. Native execution, exact coefficients, captured patch/preset and platform parity are not claimed; source conflicts remain in the game ledger.
+- Novelty: first isolated for `GAME-0506`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_243`](../../research/taxonomy-changes/TAXONOMY_CHANGE_243.md). No external novelty claim.
+
+## SYS-1417 — Bank consumed restoration beyond current meter fullness and settle it when missing
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Conflicting`
+- Confidence: `Medium`
+- Definition: an accepted restorative adds its declared amount to a retained recovery bank even when the corresponding current health or casting meter is full; eligible time converts banked amount into missing meter value under a context-sensitive rate, leaving unused recovery pending rather than overfilling the current meter.
+- Includes: Avowed food/drink health and essence recovery circles, with source-qualified combat-dependent restoration; published accounts disagree on a slower nonzero combat rate versus no combat meal benefit.
+- Excludes: An immediate potion with no retained excess; SYS-750 recovery limited to health missing at acceptance; Valheim food changing maximum survival bounds; regeneration funded by waiting alone.
+- Parameters: Consumed item, corresponding meter, cap, retained recovery bank, missing amount, combat context and settlement rate.
+- Evidence: [Avowed decomposition](../games/a-f/avowed.md), AV-008; R2 1550/1600/1850; S4 recovery circles; S6 food bank. Native execution, exact coefficients, captured patch/preset and platform parity are not claimed; source conflicts remain in the game ledger.
+- Novelty: first isolated for `GAME-0506`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_243`](../../research/taxonomy-changes/TAXONOMY_CHANGE_243.md). No external novelty claim.
+
+## SYS-1418 — Debit retained casting reserve and replenish it through supplied effects
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: eligible ability casts spend their declared costs from a retained capped casting reserve and start the declared ability recovery interval; readiness of another spell does not waive its reserve cost, while compatible externally supplied recovery effects replenish missing reserve instead of ordinary elapsed time itself funding restoration, and zero reserve is not lethal health loss.
+- Includes: Avowed essence spent by grimoire/learned spells and restored through compatible potions or banked food effects in the tutorial.
+- Excludes: SYS-1365 gradually replenishing magic by eligible time itself; continuous drain while retaining a temporary powered stance; SYS-1381 independent spell recovery without a shared expendable casting pool; assuming all enemy defeats refill the reserve.
+- Parameters: Essence, cap, cast cost, individual ability readiness, external restorative source, pending supplied effect and command legality.
+- Evidence: [Avowed decomposition](../games/a-f/avowed.md), AV-006/008; P2 cast costs; R2 1550/1600/1850; S4/S6. Native execution, exact coefficients, captured patch/preset and platform parity are not claimed; source conflicts remain in the game ledger.
+- Novelty: first isolated for `GAME-0506`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_243`](../../research/taxonomy-changes/TAXONOMY_CHANGE_243.md). No external novelty claim.
+
+## SYS-1419 — Resolve eligible zero vitality into local revival with a recovery interval
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: when current vitality reaches zero while the declared personal revival permission is ready, briefly incapacitate the controlled body, restore the allowed vitality portion and place that permission on cooldown; a lethal event while it is unavailable follows terminal failure instead of spending finite carried lives or guaranteeing another revival.
+- Includes: Source-qualified Avowed Second Wind and subsequent lethal failure while its recovery interval is active.
+- Excludes: SYS-911 spending finite lives; a once-per-encounter recharge inferred without evidence; a guaranteed zero-Resolve entitlement; exact unverified cooldown or restored-health values; a companion manually reviving the player.
+- Parameters: Current vitality, revival eligibility, readiness, incapacitation, restored portion, attribute modifiers, recovery interval and terminal alternative.
+- Evidence: [Avowed decomposition](../games/a-f/avowed.md), AV-012; S8 Resolve qualification; Game8/Fandom dated lookup; P3 later ledger restriction corroborates brief incapacitation, not this capture build. Native execution, exact coefficients, captured patch/preset and platform parity are not claimed; source conflicts remain in the game ledger.
+- Novelty: first isolated for `GAME-0506`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_243`](../../research/taxonomy-changes/TAXONOMY_CHANGE_243.md). No external novelty claim.
+
+## SYS-1420 — Debit a reset price and return one allocation group to its point budget
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: an accepted affordable character-allocation reset subtracts the displayed currency price, removes the declared purchased attribute or ability effects and returns that group’s spent points to its redistribution budget without discarding the earned character level.
+- Includes: Avowed separately requested attribute or ability refunds funded with skeyts.
+- Excludes: Free reallocation; automatically refunding unrelated purchase groups; losing the earned level; reversing equipment ownership; asserting one fixed reset price at every level.
+- Parameters: Allocation group, learned effects, displayed price, currency balance, refunded points and retained level.
+- Evidence: [Avowed decomposition](../games/a-f/avowed.md), AV-011; P1 paid reset; S4 early-character menu account. Native execution, exact coefficients, captured patch/preset and platform parity are not claimed; source conflicts remain in the game ledger.
+- Novelty: first isolated for `GAME-0506`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_243`](../../research/taxonomy-changes/TAXONOMY_CHANGE_243.md). No external novelty claim.
+
+## SYS-1410 — Advance an authored flight route without longitudinal player authority
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the authored three-dimensional route and encounter sequence advance independently of bounded player body placement; changing aim or attack view does not permit return to passed space, free exploration or a newly chosen longitudinal destination.
+- Includes: The original Panzer Dragoon Episode 1 water, ruins and terminal warship route.
+- Excludes: Unrestricted six-axis flight; choosing a branching route node; requiring the intermediate checkpoint included in SYS-1119; a fixed arena with no route advancement.
+- Parameters: Authored route, encounter order, automatic progress, body bounds and attack sector.
+- Evidence: [Panzer Dragoon decomposition](../games/m-r/panzer-dragoon.md), PD-001/002; P2 flight-view distinction; attributed R1/R2 route samples. Native execution, exact coefficients and disc parity are not claimed.
+- Novelty: first isolated for `GAME-0505`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_242`](../../research/taxonomy-changes/TAXONOMY_CHANGE_242.md). No external novelty claim.
+
+## SYS-1411 — Resolve a held pending target group into a released homing volley
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: qualifying reticle acquisition during a held command stores pending hostile targets inside the declared capacity; releasing the command launches homing attacks toward that pending group, and target destruction still requires the ensuing combat resolution.
+- Includes: Original Panzer Dragoon blue acquisition crosshairs followed by released homing lasers.
+- Excludes: A lock mark being an instant kill; indefinite automatic one-target shooting; a claim that each projectile must hit after its target disappears; an unverified duplicate-target policy.
+- Parameters: Eligible target entries, pending group, acquisition capacity, release, homing and damage.
+- Evidence: [Panzer Dragoon decomposition](../games/m-r/panzer-dragoon.md), PD-003; P2 printed p. 8; R1/R2 visible target marks and attacks. Native execution, exact coefficients and disc parity are not claimed.
+- Novelty: first isolated for `GAME-0505`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_242`](../../research/taxonomy-changes/TAXONOMY_CHANGE_242.md). No external novelty claim.
+
+## SYS-1412 — Couple directional aiming to view-qualified body following
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: one directional input moves the aiming region while the controlled flying body follows with a different response; the active attack view qualifies the available body movement, so camera rotation does not grant the same lateral evasion authority in every sector.
+- Includes: The source-qualified original Panzer Dragoon reticle/body speed difference and restricted non-forward body control.
+- Excludes: Fully independent aim and body inputs; exact unmeasured response coefficients; an invented blocked-axis table; assuming the sequel uses the same restriction.
+- Parameters: Directional input, reticle response, body following, current sector and allowed movement.
+- Evidence: [Panzer Dragoon decomposition](../games/m-r/panzer-dragoon.md), PD-004; S2 firsthand qualitative account; P2 distinguishes flight direction from flight view. Native execution, exact coefficients and disc parity are not claimed.
+- Novelty: first isolated for `GAME-0505`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_242`](../../research/taxonomy-changes/TAXONOMY_CHANGE_242.md). No external novelty claim.
+
+## SYS-1413 — Award continue stock from settled episode destruction proportion
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: at episode closeout, compare destroyed enemies with the declared counted encounter population and convert that proportion into additional retry credits under the current reward policy; point score and the mandatory boss-clear predicate remain separate.
+- Includes: Original Panzer Dragoon shot-down-ratio closeout awarding additional continue credits.
+- Excludes: Every kill directly granting a full credit; requiring every enemy to clear the episode; a universal numerical threshold table inferred from two samples; cumulative score extra-life milestones.
+- Parameters: Counted population, destroyed and missed counts, proportion, regional reward policy and current credits.
+- Evidence: [Panzer Dragoon decomposition](../games/m-r/panzer-dragoon.md), PD-006/007/008; P2 printed p. 8; R1 820; R2 850; S1 regional limits. Native execution, exact coefficients and disc parity are not claimed.
+- Novelty: first isolated for `GAME-0505`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_242`](../../research/taxonomy-changes/TAXONOMY_CHANGE_242.md). No external novelty claim.
+
+## SYS-1414 — Spend an accepted continue credit to rebuild the failed episode entry
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after local energy failure, an eligible affirmative Continue consumes one available retry credit and reconstructs ordinary control at the current episode beginning; refusing the offer or lacking credits does not create another free local attempt.
+- Includes: Original Panzer Dragoon Continue YES returning to the start of the last episode.
+- Excludes: Automatic same-position revival; free unlimited fixed-origin retries; loading an intermediate checkpoint; assuming a disk save or preserved failed enemy state.
+- Parameters: Energy failure, current credit stock, accepted Continue, episode entry and terminal alternative.
+- Evidence: [Panzer Dragoon decomposition](../games/m-r/panzer-dragoon.md), PD-005/011; P2 printed p. 8. Native execution, exact coefficients and disc parity are not claimed.
+- Novelty: first isolated for `GAME-0505`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_242`](../../research/taxonomy-changes/TAXONOMY_CHANGE_242.md). No external novelty claim.
+
+## SYS-1415 — Carry awarded retry stock into a vitality-restored successor episode
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: after the episode boss-clear and credited closeout, instantiate ordinary control in the authored successor episode with current vitality restored and the awarded retry stock retained in the ongoing run, without asserting power-off persistence.
+- Includes: Original Panzer Dragoon Episode 1 closeout and R1 Episode 2 control with refilled energy.
+- Excludes: A completion display without successor control; a retained disk save; finishing the entire campaign; claiming exact reset timing or every carried field from one observed transition.
+- Parameters: Settled episode, credit award, retained retry stock, restored current vitality and successor entry.
+- Evidence: [Panzer Dragoon decomposition](../games/m-r/panzer-dragoon.md), PD-001/007/010; R1 785/820/870; R2 corroborates successor but not reset formula. Native execution, exact coefficients and disc parity are not claimed.
+- Novelty: first isolated for `GAME-0505`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_242`](../../research/taxonomy-changes/TAXONOMY_CHANGE_242.md). No external novelty claim.
+
+## SYS-1396 — Complete paid abstract settlement work over simulation time
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: after an eligible settlement work commitment pays its declared cost and reserves its requirements, simulation time completes the specified ground clearing, construction or expansion and makes its resulting terrain or facility state usable without direct worker steering.
+- Includes: Completed Frostbreaking opens selected frozen cells; completed district construction or expansion creates the committed district capacity in Frostpunk 2.
+- Excludes: A player directly mining each cell; a claim that visible individual citizens must physically carry every construction component; instant completion without the required time.
+- Parameters: Committed work class, paid resources, reserved requirements, duration and completed state.
+- Evidence: [Frostpunk 2 decomposition](../games/a-f/frostpunk-2.md), FP2-002; P1 7:58–9:25/12:09–13:02; S1. Native execution, exact coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0504`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_241`](../../research/taxonomy-changes/TAXONOMY_CHANGE_241.md). No external novelty claim.
+
+## SYS-1397 — Apply district area effects after sufficient footprint contact
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: a district receives a declared environmental or neighbouring-district effect only when enough of its own cells lie inside that influence area; the effect changes the district’s demand or city-problem contribution.
+- Includes: At least three affected cells grant sheltered or housing-neighbour heat savings, or expose a food district to industrial disease effects in Frostpunk 2.
+- Excludes: A bonus from any single touched cell regardless of threshold; one separate district hex deriving adjacency yield; heat diffusing cell by cell.
+- Parameters: Influence area, contacted district-cell count, threshold and effect polarity.
+- Evidence: [Frostpunk 2 decomposition](../games/a-f/frostpunk-2.md), FP2-003; P1 9:26–10:24; paused frame 580 seconds. Native execution, exact coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0504`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_241`](../../research/taxonomy-changes/TAXONOMY_CHANGE_241.md). No external novelty claim.
+
+## SYS-1398 — Scale district requirements and output by selected employment
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: a district’s selected employment fraction recomputes its required workforce, declared operating-resource requirements and produced output relative to full employment, so releasing labour also relinquishes production.
+- Includes: Reduced employment lowers both workforce commitment and coal output in a Frostpunk 2 extraction district.
+- Excludes: Merely displaying vacancies; assigning one worker to two simultaneous jobs; asserting that district demand deficits themselves stop its output.
+- Parameters: Selected fraction, full-rate inputs/output and any disclosed non-linear rounding.
+- Evidence: [Frostpunk 2 decomposition](../games/a-f/frostpunk-2.md), FP2-004; P1 11:14–11:44. Native execution, exact coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0504`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_241`](../../research/taxonomy-changes/TAXONOMY_CHANGE_241.md). No external novelty claim.
+
+## SYS-1399 — Burn available fuel against aggregate city heat demand
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: an enabled generator automatically consumes available compatible fuel to meet current aggregate city heat demand, with output limited by fuel availability and modified by the active efficiency mode.
+- Includes: New London’s original coal generator burns fuel as needed while district demand and forecast cold change in Frostpunk 2 Chapter 1.
+- Excludes: A fixed player-selected radial heat level determining coal burn; free heat with no fuel; importing later heat-level or oil-upgrade rules into the launch Chapter 1 generator.
+- Parameters: Aggregate demand, compatible fuel, available stock, heat conversion and efficiency mode.
+- Evidence: [Frostpunk 2 decomposition](../games/a-f/frostpunk-2.md), FP2-005; P1 2:36–3:43; S3. Native execution, exact coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0504`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_241`](../../research/taxonomy-changes/TAXONOMY_CHANGE_241.md). No external novelty claim.
+
+## SYS-1400 — Accumulate city problems from unmet aggregate needs
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: unmet aggregate heat, shelter, food, maintenance-material or goods demand increases the corresponding city problems over simulation time, which can harm residents, reduce usable workforce, deteriorate districts and increase tension without immediately stopping every still-supplied district.
+- Includes: Cold and disease from inadequate heat or shelter, hunger from food shortage, squalor from material shortage and crime from insufficient goods in Frostpunk 2.
+- Excludes: An instant binary loss on the first missing unit; individual temperature-category medical-bed simulation; a claim that all problems have identical coefficients or terminal thresholds.
+- Parameters: Need type, deficit duration, problem severity, workforce/death effects, deterioration and mitigations.
+- Evidence: [Frostpunk 2 decomposition](../games/a-f/frostpunk-2.md), FP2-006; P1 3:43–5:34. Native execution, exact coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0504`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_241`](../../research/taxonomy-changes/TAXONOMY_CHANGE_241.md). No external novelty claim.
+
+## SYS-1401 — Resolve city ideology against community alignment
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: implemented construction, research and law choices update the city’s declared opposing ideological directions, and their alignment with each community or faction changes that group’s relationship to the government.
+- Includes: Progress versus Adaptation, Merit versus Equality and Tradition versus Reason influencing group relations in Frostpunk 2.
+- Excludes: A single morality score shared identically by every group; flavour-only political labels; assuming every direction has identical thresholds.
+- Parameters: Opposing axes, enacted choices, group worldview and relation response.
+- Evidence: [Frostpunk 2 decomposition](../games/a-f/frostpunk-2.md), FP2-007; P1 7:25–7:58. Native execution, exact coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0504`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_241`](../../research/taxonomy-changes/TAXONOMY_CHANGE_241.md). No external novelty claim.
+
+## SYS-1402 — Settle political promises and group reactions into governing trust
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: fulfilled or expired governing promises and group-directed decisions update community relationships; group support or opposition can trigger rallies or protests and feeds the government’s aggregate trust separately from general city tension.
+- Includes: Keeping a negotiated research promise improves the promised group’s relations, whereas neglecting its deadline damages them in Frostpunk 2.
+- Excludes: Treating trust and tension as the same meter; making every faction automatically accept every bargain; asserting an exact unpublished relation-to-trust formula.
+- Parameters: Promise requirement/deadline, group relation, rally/protest eligibility, aggregate trust and tension.
+- Evidence: [Frostpunk 2 decomposition](../games/a-f/frostpunk-2.md), FP2-008; P1 5:34–7:25/14:51–15:52; S2. Native execution, exact coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0504`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_241`](../../research/taxonomy-changes/TAXONOMY_CHANGE_241.md). No external novelty claim.
+
+## SYS-1403 — Resolve regional team assignments into discovery or harvest
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: committed regional teams advance an eligible exploration or harvesting activity over simulation time, revealing the region’s authored sites or supplying the selected resource while applying the activity’s disclosed injury or loss risk.
+- Includes: Western exploration reveals the Old Dreadnought; assigned teams collect a discovered harvesting area’s resources in Frostpunk 2.
+- Excludes: A claim of individually simulated scout cargo and escort paths; guaranteed safe travel through every region; inventing a random injury probability from a risk label alone.
+- Parameters: Assigned teams, region difficulty, duration, revealed sites, resource output and disclosed risk.
+- Evidence: [Frostpunk 2 decomposition](../games/a-f/frostpunk-2.md), FP2-010; P1 15:52–18:38; S1. Native execution, exact coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0504`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_241`](../../research/taxonomy-changes/TAXONOMY_CHANGE_241.md). No external novelty claim.
+
+## SYS-1404 — Transfer resources at configured rates through a live regional connection
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a completed eligible regional connection continually transfers each configured resource from the supplying settlement to the receiving settlement at the permitted rate while source availability and route capacity allow, changing their separate resource balances.
+- Includes: Oil leaves the Old Dreadnought and arrives as New London’s incoming supply while food can travel in the opposite direction in Frostpunk 2.
+- Excludes: Creating a resource by shipping it; requiring a strictly positive current production surplus when stored source stock is available; a one-off colonist relocation.
+- Parameters: Directed rates, source production and stock, connection availability, route capacity and receiving balance.
+- Evidence: [Frostpunk 2 decomposition](../games/a-f/frostpunk-2.md), FP2-012; P1 19:36–20:12; S1; S5 indexed stockpile counterexample. Native execution, exact coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0504`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_241`](../../research/taxonomy-changes/TAXONOMY_CHANGE_241.md). No external novelty claim.
+
+## SYS-1405 — Maintain separate capital growth and manually populated colony states
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: a managed capital and its colony retain separate resident counts, workforce and needs; ordinary capital growth does not automatically populate the colony, which instead receives residents through eligible committed relocation and can lose them through its own unmet needs.
+- Includes: The Old Dreadnought does not grow automatically like New London and needs manually transferred colonists in Frostpunk 2.
+- Excludes: One shared population applied identically to every settlement; invented birth intervals; automatic colony growth merely because shelter exists.
+- Parameters: Settlement identity, resident count, local workforce and demand, capital growth and eligible relocation.
+- Evidence: [Frostpunk 2 decomposition](../games/a-f/frostpunk-2.md), FP2-013; P1 18:38–19:36. Native execution, exact coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0504`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_241`](../../research/taxonomy-changes/TAXONOMY_CHANGE_241.md). No external novelty claim.
+
+## SYS-1406 — Credit periodic city income from population and supplied goods
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: at the declared income interval, the city receives governing currency derived from its current population and goods provision, with applicable enacted rules modifying that recurring income.
+- Includes: Weekly Heatstamp income in Frostpunk 2 increases with population and adequate goods supply.
+- Excludes: One-time faction fundraising; individual residence-tier occupancy simulation; claiming unlimited income when the city has no residents.
+- Parameters: Income interval, current population, goods satisfaction and applicable fiscal law.
+- Evidence: [Frostpunk 2 decomposition](../games/a-f/frostpunk-2.md), FP2-014; S4; S6. Native execution, exact coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0504`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_241`](../../research/taxonomy-changes/TAXONOMY_CHANGE_241.md). No external novelty claim.
+
+## SYS-1407 — Recover eligible construction materials after demolition
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: demolishing an eligible completed owned facility removes its usable state and credits the declared recoverable portion of construction materials to the settlement; the original full construction payment is not necessarily returned.
+- Includes: District demolition returning recoverable Prefabs in Frostpunk 2.
+- Excludes: Refunding all paid currencies automatically; salvage from an enemy corpse; autonomous individual hauling as a necessary refund condition.
+- Parameters: Eligible facility, demolition completion, recovered material and refund fraction.
+- Evidence: [Frostpunk 2 decomposition](../games/a-f/frostpunk-2.md), FP2-019; P1 11:44–12:09. Native execution, exact coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0504`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_241`](../../research/taxonomy-changes/TAXONOMY_CHANGE_241.md). No external novelty claim.
+
+## SYS-1408 — Trade generator efficiency for accumulating accident stress
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: an enabled generator efficiency mode reduces fuel expenditure for supplied heat while accumulating stress over live time; critical stress can cause an accident that interrupts heat provision and requires repair rather than necessarily destroying the generator permanently.
+- Includes: The original Frostpunk 2 Overdrive efficiency benefit and source-qualified accident/shutdown-for-repair consequence.
+- Excludes: Assuming the first Frostpunk’s permanent generator explosion or emergency rescue; ordinary coal depletion; an exact unverified cooling or accident formula.
+- Parameters: Operating mode, fuel efficiency, current stress, critical condition, repair interruption and recovery rule.
+- Evidence: [Frostpunk 2 decomposition](../games/a-f/frostpunk-2.md), FP2-015; S3; S7. Native execution, exact coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0504`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_241`](../../research/taxonomy-changes/TAXONOMY_CHANGE_241.md). No external novelty claim.
+
+## SYS-1409 — Block district operation during an active local faction protest
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: an eligible protesting faction occupies a district and obstructs its ordinary operation; resolving that protest through an eligible political response restores operation when the remaining district requirements are satisfied.
+- Includes: A Frostpunk 2 district blocked by a faction protest and intended recovery after improving relations resolves it.
+- Excludes: A cosmetic crowd with no operational effect; a permanent destruction of every district; claiming that an original launch executable reliably performs the later corrected unblock transition.
+- Parameters: Protesting group, district, active protest, eligible resolution, remaining requirements and executable-specific recovery.
+- Evidence: [Frostpunk 2 decomposition](../games/a-f/frostpunk-2.md), FP2-020; P1 6:22–6:51; P4 2024-10-04 fix. Native execution, exact coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0504`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_241`](../../research/taxonomy-changes/TAXONOMY_CHANGE_241.md). No external novelty claim.
+
+## SYS-1391 — Grade tracked dance movement under the current routine phase
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: during an authored dance routine, the system evaluates the active player’s sensed movement under the current phase’s criterion: choreography is compared with demonstrated bodily motion and timing, allowing graded rather than exclusively all-or-nothing credit; an explicit self-chosen-movement interval suspends that particular choreography requirement before it resumes.
+- Includes: Original Dance Central’s partial-credit ordinary moves, Flawless bonus and Freestyle interruption followed by the remaining Poker Face choreography and finishing move.
+- Excludes: Binary correctness of a pressed note alone; terminating the song because moves were missed; treating Freestyle as a demonstrated choreographic target; an asserted Freestyle point formula or universal tracking tolerance.
+- Parameters: Authored phases, sampled motion, mirroring, timing, quality thresholds, ordinary credit, high-quality bonus and separately evidenced free-movement credit.
+- Evidence: [Dance Central decomposition](../games/a-f/dance-central.md), DC-002/007; S1 partial credit; P1; R1 82–214 seconds; S6 Freestyle score assertion remains Limited. Native execution, exact tracking coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0503`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_240`](../../research/taxonomy-changes/TAXONOMY_CHANGE_240.md). No external novelty claim.
+
+## SYS-1392 — Raise dance-score multiplication through consecutive successful moves
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: successive qualifying bodily dance evaluations build a current score multiplier, increasing credit for subsequent movement; maintaining that consecutive quality is distinct from the cumulative score already earned.
+- Includes: The original Dance Central Boombox multiplier increased by nailing multiple moves in a row.
+- Excludes: A permanent purchased scoring upgrade; a card-order additive-and-multiplicative calculation; binary instrument-note streaks; inferring exact step counts, maximum or reset rules for every quality grade.
+- Parameters: Qualifying move grades, consecutive history, multiplier levels, multiplied credit and declared interruption policy.
+- Evidence: [Dance Central decomposition](../games/a-f/dance-central.md), DC-003; P1 printed p. 9; S1; R1 live Boombox. Native execution, exact tracking coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0503`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_240`](../../research/taxonomy-changes/TAXONOMY_CHANGE_240.md). No external novelty claim.
+
+## SYS-1393 — Convert accumulated dance performance into an earned star grade
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the routine’s accumulated evaluated performance produces a visible ordinal star grade, retained at its terminal evaluation; exceptionally qualifying performance receives the declared higher gold classification instead of making every completed routine equivalent.
+- Includes: Original Dance Central’s up-to-five-star performance grade and Gold Stars, with the observed Poker Face Easy terminal showing five gold stars.
+- Excludes: A health gauge that causes early failure; awarding every completed routine the same result; an asserted numeric star threshold or proof that Gold always requires exactly 100 percent successful moves.
+- Parameters: Accumulated performance, star thresholds, grade scale, exceptional classification and final settlement.
+- Evidence: [Dance Central decomposition](../games/a-f/dance-central.md), DC-004; P1 printed p. 9; S2 results; R1 210–248 seconds. Native execution, exact tracking coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0503`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_240`](../../research/taxonomy-changes/TAXONOMY_CHANGE_240.md). No external novelty claim.
+
+## SYS-1394 — Retain active-profile dance achievement and unlock qualified routine options
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: settled dance achievement is saved for the active profile under its declared saving policy; meeting a routine’s performance qualification unlocks that routine’s harder or reduced-assistance options, while results below qualification can finish without granting that access.
+- Includes: Original Dance Central’s active-profile progress, earned rank, harder routines and five-star No-Flashcards eligibility; the selected 2010 manual states three Perform It! stars for harder routines.
+- Excludes: Requiring unlock to finish the current Easy song; assuming every signed-in profile receives saved progress; importing a sequel’s crew progression; claiming later executable thresholds equal the documented manual.
+- Parameters: Active profile, saving policy, retained result, rank progress, named locked option and dated qualification threshold.
+- Evidence: [Dance Central decomposition](../games/a-f/dance-central.md), DC-005; P1 printed pp. 13–16; S2 locked difficulties and ranking; four-star secondary conflict qualified explicitly. Native execution, exact tracking coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0503`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_240`](../../research/taxonomy-changes/TAXONOMY_CHANGE_240.md). No external novelty claim.
+
+## SYS-1395 — Automatically pause a tracked activity when no player remains visible
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: if an ongoing camera-tracked activity loses every visible player, the system automatically pauses the activity rather than continuing to judge missing bodily input as an ordinary sequence of mistakes.
+- Includes: Original Dance Central automatically pausing when the player steps outside Kinect’s view.
+- Excludes: Low-quality visible dancing, which does not cause an early song failure; a voluntary menu alone; a claim that return automatically resumes without confirmation; a measured tracking-loss delay.
+- Parameters: Tracked visibility, absence of every player, automatic pause, suspended activity and declared resumption.
+- Evidence: [Dance Central decomposition](../games/a-f/dance-central.md), DC-006; P1 printed p. 4. Native execution, exact tracking coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0503`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_240`](../../research/taxonomy-changes/TAXONOMY_CHANGE_240.md). No external novelty claim.
+
+## SYS-1381 — Recover each manually activated spell on its own cooldown
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: using one eligible manually activated spell starts only that spell’s recovery interval; elapsed live time restores it independently of other spell readiness, without consuming interchangeable units from a shared pool.
+- Includes: Separate Weave, Strand Push and Strand Pull recovery in South of Midnight’s ordinary Chapter 3 combat.
+- Excludes: Shared reusable ability units; automatic weapon firing; a continuously spent energy bar; assuming exact durations or every upgrade’s reset predicate.
+- Parameters: Spell identity, cast, current cooldown, elapsed time and independently ready alternatives.
+- Evidence: [South of Midnight decomposition](../games/s-z/south-of-midnight.md), P2 spells as interrupts; R1 three live readiness icons. Exact installed build, captured preset, native input and current binary parity are not established.
+- Novelty: first isolated for `GAME-0502`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_239`](../../research/taxonomy-changes/TAXONOMY_CHANGE_239.md). No external novelty claim.
+
+## SYS-1382 — Resolve timely defeated-body interaction into personal recovery
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: completing the eligible optional close interaction on an already defeated hostile removes that remaining body and restores missing personal health while accelerating recovering spell readiness; ignoring the opportunity loses that recovery rather than reviving the hostile.
+- Includes: Timely Unravel on a defeated Haint in ordinary South of Midnight combat.
+- Excludes: Dealing the defeating hit; a living stagger execution; automatic health regeneration; requiring Unravel for ordinary defeat credit; an asserted exact healing amount or cooldown fraction.
+- Parameters: Defeated body, opportunity expiry, health deficit, recovering spells and declared purchased follow-up effects.
+- Evidence: [South of Midnight decomposition](../games/s-z/south-of-midnight.md), P2 health recovery; S1 expiry and recovery; S2 attributed director-context combat account. Exact installed build, captured preset, native input and current binary parity are not established.
+- Novelty: first isolated for `GAME-0502`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_239`](../../research/taxonomy-changes/TAXONOMY_CHANGE_239.md). No external novelty claim.
+
+## SYS-1383 — Convert an immediately pre-impact dodge into a local damaging blast
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: if an otherwise ordinary eligible dodge begins in the declared immediately pre-impact timing window, the system adds a local blast that damages and staggers eligible nearby hostiles; a mistimed dodge does not receive that bonus.
+- Includes: South of Midnight’s Perfect Dodge blast in ordinary combat.
+- Excludes: A separate parry or block input; passive evasion chance; guaranteed immunity to every damage type; an asserted numerical timing window.
+- Parameters: Incoming attack, dodge-start timing, ordinary protection interval, blast reach, damage and stagger.
+- Evidence: [South of Midnight decomposition](../games/s-z/south-of-midnight.md), P2 dodge instruction. Exact installed build, captured preset, native input and current binary parity are not established.
+- Novelty: first isolated for `GAME-0502`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_239`](../../research/taxonomy-changes/TAXONOMY_CHANGE_239.md). No external novelty claim.
+
+## SYS-1384 — Materialise authored traversal geometry for a renewable finite interval
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a compatible activation makes one authored otherwise non-solid traversal structure usable for a finite live interval; expiry removes its support, and another eligible activation can recreate it without inventing new geometry.
+- Includes: Hazel weaving Echo bridges, boxes and walls during Chapter 3 crossings.
+- Excludes: Permanent construction; free-form object creation; a switch opening only a door; indefinite solid support; asserting an unmeasured duration.
+- Parameters: Authored structure, compatibility, activation, solidity, finite interval, occupants and renewed activation.
+- Evidence: [South of Midnight decomposition](../games/s-z/south-of-midnight.md), R1/R2 Echo crossings; S3 indexed timed crossing description. Exact installed build, captured preset, native input and current binary parity are not established.
+- Novelty: first isolated for `GAME-0502`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_239`](../../research/taxonomy-changes/TAXONOMY_CHANGE_239.md). No external novelty claim.
+
+## SYS-1385 — Debit a complete development price and retain a non-refundable capability modification
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: an accepted available development purchase subtracts its complete displayed currency price and retains its declared learned capability or modifier; cancelling before confirmation changes neither stock nor build, and the purchased entry cannot be refunded.
+- Includes: Chapter 3 Floof upgrade purchases, including Aerial Rend and eligible predecessor-dependent Weaver’s Blitz.
+- Excludes: Partial investment; a trader’s carried consumable; automatic story acquisition; refundable point allocation; assuming later locked nodes already work.
+- Parameters: Available entry, price, held Floof, prerequisites, confirm/cancel, retained effect and non-refund rule.
+- Evidence: [South of Midnight decomposition](../games/s-z/south-of-midnight.md), R2 3:50–4:00 visible purchase interface; P2 upgrades. Exact installed build, captured preset, native input and current binary parity are not established.
+- Novelty: first isolated for `GAME-0502`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_239`](../../research/taxonomy-changes/TAXONOMY_CHANGE_239.md). No external novelty claim.
+
+## SYS-1386 — Spend one extra airborne jump and restore it on eligible support
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: after the ordinary launch from supporting terrain, one further jump input supplies one additional airborne impulse; spending it prevents another such impulse until an eligible grounded support transition restores the opportunity.
+- Includes: Hazel’s learned Double Jump through Chapter 3.
+- Excludes: A roll-off preserved grounded jump; unlimited flight; a separate charged Recovery/Exhausted Recovery move; claiming an unverified wall reset.
+- Parameters: Initial jump, remaining extra jump, repeated input, airborne impulse and ground restoration.
+- Evidence: [South of Midnight decomposition](../games/s-z/south-of-midnight.md), R1 Chapter 3 crossings; R2 4:20 and traversal; S3 chapter teaching route. Exact installed build, captured preset, native input and current binary parity are not established.
+- Novelty: first isolated for `GAME-0502`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_239`](../../research/taxonomy-changes/TAXONOMY_CHANGE_239.md). No external novelty claim.
+
+## SYS-1387 — Attach an airborne running avatar to an authored wall route
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: after a learned wall-traversal capability is available, compatible airborne approach attaches the directly controlled running avatar to declared wall geometry, carries it along that wall route and permits a directed jump or exit at its boundary.
+- Includes: Hazel’s learned Wall Run on Chapter 3’s declared walls, including woven Echo walls.
+- Excludes: A skater’s rail/wall ride; free climbing on every surface; a cinematic path; infinite vertical ascent; stamina values not evidenced here.
+- Parameters: Learned capability, declared wall, airborne approach, route direction and jump/detachment.
+- Evidence: [South of Midnight decomposition](../games/s-z/south-of-midnight.md), R1 1:13:20 teaching and 1:14:30 traverse; R2 later route. Exact installed build, captured preset, native input and current binary parity are not established.
+- Novelty: first isolated for `GAME-0502`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_239`](../../research/taxonomy-changes/TAXONOMY_CHANGE_239.md). No external novelty claim.
+
+## SYS-1388 — Advance a scripted pursuing hazard through a live escape route
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: reaching an authored story trigger activates a pursuing hazard on a bounded escape route; while the player retains direct traversal control, that threat advances and enforces route pressure until the declared safe boundary, without requiring perceptual detection of the avatar.
+- Includes: The compulsory escape toward the Bottle Tree after the final Chapter 3 memory.
+- Excludes: An ordinary hostile selecting a target from sight or sound; turn-based pursuit; a passive performance timer; a non-interactive chase scene.
+- Parameters: Story trigger, live route, pursuing threat, traversal response and safe boundary.
+- Evidence: [South of Midnight decomposition](../games/s-z/south-of-midnight.md), R1 1:11:30–1:14:30 escape; P3 explicitly preview pursuit, released route corroboration. Exact installed build, captured preset, native input and current binary parity are not established.
+- Novelty: first isolated for `GAME-0502`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_239`](../../research/taxonomy-changes/TAXONOMY_CHANGE_239.md). No external novelty claim.
+
+## SYS-1389 — Spend one encounter-local restorative fixture use on health and spell readiness
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: completing an eligible local restorative-fixture interaction restores missing personal health and current spell readiness while consuming that encounter’s finite use allowance; ordinary elapsed time does not grant another use under the selected rules.
+- Includes: One Health Coil use in an ordinary Weaver Chapter 3 arena.
+- Excludes: A carried potion; an unlimited lower-difficulty or custom healing fixture; automatic full recovery at clear; an asserted exact heal value.
+- Parameters: Arena, coil, remaining use, health deficit, recovering spells and used state.
+- Evidence: [South of Midnight decomposition](../games/s-z/south-of-midnight.md), S2 firsthand Chapter 3 preview; S4 released difficulty description; R1 green arena fixture. Exact installed build, captured preset, native input and current binary parity are not established.
+- Novelty: first isolated for `GAME-0502`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_239`](../../research/taxonomy-changes/TAXONOMY_CHANGE_239.md). No external novelty claim.
+
+## SYS-1390 — Refill personal health when an encounter’s cleared core is purified
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: after every required local hostile has been defeated, completing the now-eligible core-purification interaction restores personal health to its current maximum while reopening the route; defeating the last hostile alone is not that separate core interaction.
+- Includes: Unravelling the cleared Stigma core after ordinary South of Midnight arenas.
+- Excludes: Passive out-of-combat regeneration; defeated-body Unravel during an unfinished fight; health-capacity growth; claiming optional exploration damage heals without an eligible source.
+- Parameters: Required hostile set, cleared core, purification, current maximum and route reopening.
+- Evidence: [South of Midnight decomposition](../games/s-z/south-of-midnight.md), R1 44:20–45:50 and 1:10:30–1:12:20 compatible health/route transition; S5 firsthand pre-release account explicitly describing core refill, qualified reconstruction. Exact installed build, captured preset, native input and current binary parity are not established.
+- Novelty: first isolated for `GAME-0502`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_239`](../../research/taxonomy-changes/TAXONOMY_CHANGE_239.md). No external novelty claim.
+
+## SYS-1377 — Raise maximum health and completely refill current health from one acquired booster
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: acquiring one eligible permanent health booster increases the character’s maximum health and fills current health to that new maximum, rather than restoring only the added increment.
+- Includes: The light-blue Health Boosters reached on a storage shelf and in the terminal basement branch of original F.E.A.R. First Encounter.
+- Excludes: An ordinary carried medkit; an equipment-derived maximum; a temporary buff; an increment-only refill; claiming an unmeasured increment, final cap or pickup-input rule.
+- Parameters: Booster identity, acquisition, old and new maximum, prior missing health, full refill and save retention.
+- Evidence: [F.E.A.R. decomposition](../games/a-f/fear.md), M1 base Gear, permanent maximum; S1 Item List Health Booster and First Encounter locations; S3 Twiggymouse firsthand full-heal report. No native input, exact patch or current-executable parity is claimed.
+- Novelty: first isolated for `GAME-0501`; counterexamples reviewed in [`TAXONOMY_CHANGE_238`](../../research/taxonomy-changes/TAXONOMY_CHANGE_238.md). No external novelty claim.
+
+## SYS-1378 — Permanently extend one special ability’s maximum active duration from an acquired booster
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: acquiring an eligible ability booster permanently enlarges the controlled character’s maximum stored use duration for one temporary ability without purchasing a level or replacing the ability’s activation and recovery rules.
+- Includes: The Reflex Booster beneath the first half-open shutter extending maximum SlowMo time in original F.E.A.R. First Encounter.
+- Excludes: The activation request; ordinary inactive-meter recharge; a temporary pickup buff; a health refill; assuming an immediate fill of the added reserve or an exact duration increment.
+- Parameters: Booster, acquisition, ability identity, previous and increased duration capacity and retained save state.
+- Evidence: [F.E.A.R. decomposition](../games/a-f/fear.md), M1 base HUD and Gear, Reflex Booster; S1 First Encounter optional opening branch. No native input, exact patch or current-executable parity is claimed.
+- Novelty: first isolated for `GAME-0501`; counterexamples reviewed in [`TAXONOMY_CHANGE_238`](../../research/taxonomy-changes/TAXONOMY_CHANGE_238.md). No external novelty claim.
+
+## SYS-1379 — Select the next available carried weapon after complete current-ammunition exhaustion
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when the active firearm has no loaded or compatible reserve ammunition, the system selects the next available carried weapon instead of beginning another reload of the exhausted ammunition type.
+- Includes: Original F.E.A.R. automatically selecting another available weapon when the active ammunition type is completely empty.
+- Excludes: A player-requested quick-slot switch; reloading an empty magazine that still has reserve; granting new ammunition; assuming what happens when no alternative weapon is available.
+- Parameters: Active weapon, loaded and reserve ammunition, carried alternatives, availability, selection order and resulting readiness.
+- Evidence: [F.E.A.R. decomposition](../games/a-f/fear.md), M1 base HUD Ammo paragraph. No native input, exact patch or current-executable parity is claimed.
+- Novelty: first isolated for `GAME-0501`; counterexamples reviewed in [`TAXONOMY_CHANGE_238`](../../research/taxonomy-changes/TAXONOMY_CHANGE_238.md). No external novelty claim.
+
+## SYS-1380 — Coordinate hostile suppression and distinct cover relocation with interruptible individual priorities
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when eligible autonomous hostiles can fill complementary combat roles, one may suppress while others relocate to distinct currently valid cover positions; an individual’s higher-priority danger response or defeat can interrupt that coordination.
+- Includes: F.E.A.R. Get-to-Cover and Advance-Cover responses, with incoming fire invalidating cover and a nearby grenade overriding an advance order.
+- Excludes: A single hostile following a perceived target; player squad orders; guaranteed complex pincer plans; spoken reinforcement requests spawning actual reinforcements; requiring every encounter to activate every role.
+- Parameters: Eligible participants, available distinct cover, suppression role, invalidation, danger priority, interruption and completion.
+- Evidence: [F.E.A.R. decomposition](../games/a-f/fear.md), D1 Jeff Orkin GDC 2006 pp13–16, original shipped F.E.A.R. squad coordination. No native input, exact patch or current-executable parity is claimed.
+- Novelty: first isolated for `GAME-0501`; counterexamples reviewed in [`TAXONOMY_CHANGE_238`](../../research/taxonomy-changes/TAXONOMY_CHANGE_238.md). No external novelty claim.
+
+## SYS-1368 — Convert an acquired physical plan directly into known fabrication
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: acquiring an eligible physical plan records its declared recipe as known for later compatible fabrication, without a separate research purchase, prototype or area-transition delivery requirement.
+- Includes: The initial Impact Hammer blueprint acquired in Pacific Drive's Auto Shop before its first field recipe becomes available.
+- Excludes: Default recipes that require no plan; scanning several fragments; research-currency payment; a station-charge material analysis; a book's paid spell cast; fabricating the learned output.
+- Parameters: Physical plan, acquisition, recipe identity, known state, retention and fabrication prerequisites.
+- Evidence: [Pacific Drive decomposition](../games/m-r/pacific-drive.md), R1 1510 physical blueprint and 2010/2020 known Impact Hammer recipe; original preparation task. Source-specific limits remain in the claim ledger; no native execution or current-binary parity.
+- Novelty: first isolated for `GAME-0500`; counterexamples reviewed in [`TAXONOMY_CHANGE_237`](../../research/taxonomy-changes/TAXONOMY_CHANGE_237.md). No external novelty claim.
+
+## SYS-1369 — Materialise a known manual recipe as a separately placeable part
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an accepted known recipe at a compatible manual crafting station consumes eligible ingredients and creates its declared physical part as a carryable, separately placeable object rather than immediately installing it or forcing it into the personal inventory grid.
+- Includes: Crafting a replacement Crude Door at Pacific Drive's first garage workbench before separately installing it on the wagon.
+- Excludes: Immediate inventory-only material conversion; a powered fabricator's production cycle; autonomous queued factory production; installing an already owned part; arbitrary item combination without a known recipe.
+- Parameters: Known recipe, station tier, eligible material sources, consumed quantities, physical output, held or world placement and later attachment.
+- Evidence: [Pacific Drive decomposition](../games/m-r/pacific-drive.md), R1 1223 recipe, 1225 ingredients decrease, 1226/1227 Carrying Crude Door and held physical output, 1228 separate Install the Crude Door requirement, 1230 mounted output; exact collision unmeasured. Source-specific limits remain in the claim ledger; no native execution or current-binary parity.
+- Novelty: first isolated for `GAME-0500`; counterexamples reviewed in [`TAXONOMY_CHANGE_237`](../../research/taxonomy-changes/TAXONOMY_CHANGE_237.md). No external novelty claim.
+
+## SYS-1370 — Apply fixed mounted component properties and local faults to a vehicle
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: each compatible installed part retains its own condition and eligible fault state at a fixed vehicle mount; its presence, properties and current faults alter the vehicle's declared protection or operating function, while removal or replacement changes that function separately from repairing the part.
+- Includes: Pacific Drive's first wagon doors, panels, bumper, tyres, headlights and mounted trunk storage; Flat and Loose Wheel require different remedies.
+- Excludes: Unrestricted vehicle-build geometry; a single undifferentiated vehicle health total; cosmetic paint; treating all visible faults as one generic damage value; installation of unavailable later equipment.
+- Parameters: Fixed mount, compatible part, presence, local condition, fault, protection, operating property, removal and replacement.
+- Evidence: [Pacific Drive decomposition](../games/m-r/pacific-drive.md), R1 940/1230/1280/1300/1320/1340/1380/2510/4140/4480; D1 separate component maintenance. Source-specific limits remain in the claim ledger; no native execution or current-binary parity.
+- Novelty: first isolated for `GAME-0500`; counterexamples reviewed in [`TAXONOMY_CHANGE_237`](../../research/taxonomy-changes/TAXONOMY_CHANGE_237.md). No external novelty claim.
+
+## SYS-1371 — Spend one shared vehicle charge on enabled consumers and recovery
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: enabled mounted electrical consumers and accepted charge-funded vehicle capabilities reduce the same retained vehicle battery reserve through their declared continuous or per-use costs; compatible replenishment raises that reserve without creating separate batteries for each consumer.
+- Includes: Pacific Drive's mounted headlights and short car-warp capability drawing on the wagon's visible charge, replenished at the garage or with eligible supplies.
+- Excludes: A personal handheld lamp's independent charge; an aircraft's interconnected bus and generator simulation; separate per-ability cooldowns; claiming an unmeasured drain rate or exact empty-battery consequence.
+- Parameters: Shared battery, capacity, enabled consumer, continuous cost, ability cost, accepted replenishment and retained reserve.
+- Evidence: [Pacific Drive decomposition](../games/m-r/pacific-drive.md), R1 1550 connected garage supply, 2510 headlight charge specification, 3330 warp request and 4140/4480 charge display; S1 warp battery cost; numeric engine rate not reproduced. Source-specific limits remain in the claim ledger; no native execution or current-binary parity.
+- Novelty: first isolated for `GAME-0500`; counterexamples reviewed in [`TAXONOMY_CHANGE_237`](../../research/taxonomy-changes/TAXONOMY_CHANGE_237.md). No external novelty claim.
+
+## SYS-1372 — Convert one deposited carried anchor into exit-control energy
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: depositing an eligible separately carried anchor into its addressed vehicle receiver consumes that physical anchor and increases the receiver's typed energy available for exit activation; carrying or merely locating the anchor does not perform the conversion.
+- Includes: Feeding a Stable Anchor into the passenger-side ARC during Pacific Drive's first Radio Station expedition.
+- Excludes: Rectangular backpack storage of an unchanged item; automatic nearby pickup credit; ordinary vehicle battery charging; claiming the energy is immediately spent at selection or a measured universal conversion amount.
+- Parameters: Physical anchor, carried state, receiver, energy type, prior energy, conversion and exit requirement.
+- Evidence: [Pacific Drive decomposition](../games/m-r/pacific-drive.md), R1 3960/4070 loose anchor, 4090 carried anchor, 4100 receiver and 4320/4345 energy 1.1 kLIM; D1 anchor-to-exit loop. Source-specific limits remain in the claim ledger; no native execution or current-binary parity.
+- Novelty: first isolated for `GAME-0500`; counterexamples reviewed in [`TAXONOMY_CHANGE_237`](../../research/taxonomy-changes/TAXONOMY_CHANGE_237.md). No external novelty claim.
+
+## SYS-1373 — Trigger an enclosing hazardous field when the chosen escape activates
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: activating a legal selected exit starts the enclosing hazardous-field progression around the current travel area and exposes the chosen escape destination; remaining outside the shrinking safe region increases exposure while the player must still navigate to and enter that exit.
+- Includes: Link Gateway changing Pacific Drive's Perpetual Stability first destination from stable scavenging to the instability-storm escape.
+- Excludes: A first-site storm timer assumed to start on entry; successive competitive safe-zone rounds; immediate teleport on exit activation; a fixed whole-level countdown with no spatial field; an exact unmeasured storm speed.
+- Parameters: Exit activation, selected destination, current safe region, closing boundary, exposure, escape travel and successful crossing.
+- Evidence: [Pacific Drive decomposition](../games/m-r/pacific-drive.md), R1 1580 Perpetual Stability, 4345 Stable, 4360 Danger/Drive, 4420 travel and 4480 success; D1 activation and closing storm. Source-specific limits remain in the claim ledger; no native execution or current-binary parity.
+- Novelty: first isolated for `GAME-0500`; counterexamples reviewed in [`TAXONOMY_CHANGE_237`](../../research/taxonomy-changes/TAXONOMY_CHANGE_237.md). No external novelty claim.
+
+## SYS-1374 — Settle an expedition at home with outcome-dependent carried-state retention
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: successful physical exit returns the current expedition vehicle and eligible carried contents to the home base; terminal personal failure or deliberate abandonment instead applies its separately configured carried-item retention penalty before home control resumes. An abandon-save-quit path also commits that returned home state before leaving play.
+- Includes: Pacific Drive's first successful Auto Shop Trip Report and explicitly selected Lose Most Items for Failed Run, Abandon Trip and Abandon, Save, Quit under the PC 1.4.0 contract.
+- Excludes: A full world reset or deletion of prior home storage; automatic full repair inferred from successful return; ordinary Quit to Menu restoring the current level's start; an invented precise list of Lose Most exceptions; 2025 Suspend Run.
+- Parameters: Successful exit, expedition car, eligible carried state, failure or abandonment cause, separately selected penalty, retained or forfeited items, home resume and save-quit flag.
+- Evidence: [Pacific Drive decomposition](../games/m-r/pacific-drive.md), R1 4480 successful retained car state; P2 official PC 1.4.0 separate default penalties and abandon-save-quit return; hidden R1 options unverified. Source-specific limits remain in the claim ledger; no native execution or current-binary parity.
+- Novelty: first isolated for `GAME-0500`; counterexamples reviewed in [`TAXONOMY_CHANGE_237`](../../research/taxonomy-changes/TAXONOMY_CHANGE_237.md). No external novelty claim.
+
+## SYS-1375 — Burn an activated disposable light in held or released world state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: activating a disposable light starts its finite burning state and local illumination; the same active object may be carried or released into the world, where burning continues until its available duration expires rather than returning the spent activation to the unlit stock.
+- Includes: Pacific Drive's ordinary Road Flare used as a carried or thrown local light and eligible anomaly distraction during the first expedition.
+- Excludes: A rechargeable personal flashlight; fuel-fed placed torches or campfires with darkness-survival effects; an unlimited static light; a thrown light that guarantees every anomaly accepts it; a reusable flare gun.
+- Parameters: Disposable light, activation, held or world position, remaining burn duration, local light field, eligible perception and expiry; exact lifetime is not independently measured.
+- Evidence: [Pacific Drive decomposition](../games/m-r/pacific-drive.md), R1 1980 unlit stock two, 1990 lit stock one and 1998/2000 decreasing burn bar; P4 official original PC 1.1.1 describes dropped lit flares and increased burn duration; S2 firsthand early PC-copy illumination and eligible distraction. No exact lifetime or universal anomaly response is inferred.. Source-specific limits remain in the claim ledger; no native execution or current-binary parity.
+- Novelty: first isolated for `GAME-0500`; counterexamples reviewed in [`TAXONOMY_CHANGE_237`](../../research/taxonomy-changes/TAXONOMY_CHANGE_237.md). No external novelty claim.
+
+## SYS-1376 — Transfer fuel between a retained carried container and an addressed reservoir
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a compatible held transfer moves available fuel between a retained carried container and an addressed vehicle or world reservoir, reducing the donor and filling the receiver only toward its capacity; emptying the container does not by itself delete its identity.
+- Includes: Pacific Drive's basic retained Fuel Can siphoning an eligible abandoned vehicle and supplying the station wagon, separately from the fixed garage pump.
+- Excludes: Deleting an entire battery stock unit; transferring into a personal illumination device; a factory pipe network; asserting that the garage pump has finite fuel; inventing an exact transfer rate or unmeasured first-trip engine consumption.
+- Parameters: Carried container, reservoir, compatible fuel, direction, donor contents, receiver capacity, held transfer and retained empty container.
+- Evidence: [Pacific Drive decomposition](../games/m-r/pacific-drive.md), R1 original Windows setup 625 retained can, 635 Siphon Fuel with can 24%, 655 Fill Tank with the same can 11%; setup establishes an available control, not an additional admitted route. L0 original March 26 2024 manual transcription describes siphoning and retained surplus; S3 original released PS5 firsthand procedure is qualitative cross-platform corroboration only. No transfer rate or first-expedition engine-drain rate is inferred.. Source-specific limits remain in the claim ledger; no native execution or current-binary parity.
+- Novelty: first isolated for `GAME-0500`; counterexamples reviewed in [`TAXONOMY_CHANGE_237`](../../research/taxonomy-changes/TAXONOMY_CHANGE_237.md). No external novelty claim.
+
+## SYS-1353 — Accumulate attack risk and decay its hit-critical tradeoff over time
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: eligible attacks raise the actor's current risk, elapsed eligible time or declared restorative effects lower it, and higher retained risk lowers ordinary hit chance while increasing critical-hit opportunity.
+- Includes: Ashley’s RISK during the complete Wine Cellar route, including present-risk inspection before deciding whether to continue offence or recover.
+- Excludes: A stamina pool that merely authorises actions; psychological afflictions; an asserted exponential chain formula or universal incoming-damage multiplier.
+- Parameters: Current Risk, eligible attack, decay time, recovery, hit chance and critical opportunity.
+- Evidence: [Vagrant Story decomposition](../games/s-z/vagrant-story.md), M1 p6; R1 combat HUD and initial ability risk tooltips. Source limitations are retained in its claim ledger; no native execution.
+- Novelty: first isolated for `GAME-0499`; counterexamples reviewed in [`TAXONOMY_CHANGE_236`](../../research/taxonomy-changes/TAXONOMY_CHANGE_236.md). No external novelty claim.
+
+## SYS-1354 — Wear retained equipment down to reduced but usable performance
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: declared use or received harm reduces an equipment item's durability, and zero durability lowers its offensive or protective effectiveness without deleting the item or universally disabling its use; eligible restoration can raise the same retained durability.
+- Includes: Wine Cellar weapon, armour and eligible drawn shield DP, with Temper restoring weapon DP from an accepted chain effect.
+- Excludes: A weapon becoming universally unusable at zero; losing the whole item on breakage; firearm soot/oil maintenance; silently granting access to the later workshop.
+- Parameters: Item, durability, eligible wear, weakened performance, zero state and restoration.
+- Evidence: [Vagrant Story decomposition](../games/s-z/vagrant-story.md), M1 pp10/20; P1 p5 DP table. Source limitations are retained in its claim ledger; no native execution.
+- Novelty: first isolated for `GAME-0499`; counterexamples reviewed in [`TAXONOMY_CHANGE_236`](../../research/taxonomy-changes/TAXONOMY_CHANGE_236.md). No external novelty claim.
+
+## SYS-1355 — Charge equipment performance by use and lose charge while drawn
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: eligible use builds a retained weapon or shield charge that increases its current effectiveness, while remaining drawn lets that charge decay and declared charge-spending effects can reduce it independently of the item's durability.
+- Includes: Wine Cellar weapon/shield PP, use-based gain, Battle Mode decay and eligible learned charge effects.
+- Excludes: An unequipped-item decay trigger; permanent equipment experience; treating charge and durability as the same gauge; an independently regenerating ability cooldown.
+- Parameters: Item charge, use gain, current bonus, drawn posture, decay and compatible expenditure.
+- Evidence: [Vagrant Story decomposition](../games/s-z/vagrant-story.md), M1 p10; P1 p5 DP/PP table and learned effects. Source limitations are retained in its claim ledger; no native execution.
+- Novelty: first isolated for `GAME-0499`; counterexamples reviewed in [`TAXONOMY_CHANGE_236`](../../research/taxonomy-changes/TAXONOMY_CHANGE_236.md). No external novelty claim.
+
+## SYS-1356 — Adapt retained equipment effectiveness to its combat use
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an equipment item's own offensive or defensive use changes its retained effectiveness against declared enemy classes or attack properties, so later use of that same item reflects its accumulated specialisation rather than merely a character-wide skill level.
+- Includes: Wine Cellar weapon development against fought classes and armour adaptation to received attack properties.
+- Excludes: A fixed elemental label; a purchased smithing tier; actor skill experience shared by every item; an unverified numeric adaptation formula.
+- Parameters: Retained item, qualifying combat use, class or property and accumulated effectiveness.
+- Evidence: [Vagrant Story decomposition](../games/s-z/vagrant-story.md), M1 p20; weapon/armour status change options p12. Source limitations are retained in its claim ledger; no native execution.
+- Novelty: first isolated for `GAME-0499`; counterexamples reviewed in [`TAXONOMY_CHANGE_236`](../../research/taxonomy-changes/TAXONOMY_CHANGE_236.md). No external novelty claim.
+
+## SYS-1357 — Extend an executing attack through accepted impact techniques
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an accepted outgoing impact technique applies its declared added effect and continues the executing attack sequence to another response opportunity; failed timing ends that extension, whereas an incoming defensive technique settles its own effect without opening the same consecutive chain.
+- Includes: Wine Cellar learned Chain Abilities and their distinction from single incoming Defence Abilities.
+- Excludes: A backward-resolved turn-based spell queue; an interruption score multiplier; freely starting an unrelated attack; assuming all defensive effects reduce incoming harm.
+- Parameters: Executing attack, impact opportunity, accepted effect, further link and failure termination.
+- Evidence: [Vagrant Story decomposition](../games/s-z/vagrant-story.md), M1 pp17-18. Source limitations are retained in its claim ledger; no native execution.
+- Novelty: first isolated for `GAME-0499`; counterexamples reviewed in [`TAXONOMY_CHANGE_236`](../../research/taxonomy-changes/TAXONOMY_CHANGE_236.md). No external novelty claim.
+
+## SYS-1358 — Apply critical local-part impairment separately from overall health
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: damage and compatible recovery update a body's local part condition, and a critically depleted part changes its declared attack, defence, casting, movement or risk function while the separate overall health pool still determines survival.
+- Includes: Wine Cellar body-part condition and Dying penalties, including normal head-Silence casting prohibition with the Grimoire exception.
+- Excludes: Mandatory dismemberment or destruction of the part; RimWorld pain/disease/prosthesis simulation; one undifferentiated health bar; an asserted enemy immunity for every named part.
+- Parameters: Body part, local condition, critical threshold, impairment, recovery and separate overall health.
+- Evidence: [Vagrant Story decomposition](../games/s-z/vagrant-story.md), M1 p11; P1 p5. Source limitations are retained in its claim ledger; no native execution.
+- Novelty: first isolated for `GAME-0499`; counterexamples reviewed in [`TAXONOMY_CHANGE_236`](../../research/taxonomy-changes/TAXONOMY_CHANGE_236.md). No external novelty claim.
+
+## SYS-1359 — Retain a spell learned through a paid first book cast
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: using an eligible owned spell book spends its declared casting resource, executes the book's spell and retains that spell as learned for later ordinary casts rather than merely applying a one-use effect.
+- Includes: Wine Cellar Heal, Degenerate and end-boss Grimoire Lux first-use learning, with later casts still requiring MP and eligible state.
+- Excludes: A consumable effect that teaches nothing; a crafting blueprint; automatic learning solely from loot acquisition; an unverified repeated-book level cap.
+- Parameters: Owned book, target, MP cost, first cast, learned spell and subsequent eligibility.
+- Evidence: [Vagrant Story decomposition](../games/s-z/vagrant-story.md), M1 p19; R1 4050 Lux / Spirit Surge; S1 first boss books. Source limitations are retained in its claim ledger; no native execution.
+- Novelty: first isolated for `GAME-0499`; counterexamples reviewed in [`TAXONOMY_CHANGE_236`](../../research/taxonomy-changes/TAXONOMY_CHANGE_236.md). No external novelty claim.
+
+## SYS-1360 — Destroy unclaimed contents when their reward list closes
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: closing the currently offered chest or defeated-enemy reward list removes its untransferred contents permanently from that continuation instead of leaving a recoverable world pile.
+- Includes: Wine Cellar loot left in a chest or enemy item list when END is confirmed, including capacity overflow not taken before closing.
+- Excludes: Contents already transferred to inventory; a recoverable dropped item; loss of all carried inventory; denying a separately available earlier-save restoration.
+- Parameters: Current offer, untransferred stock, list closure and loss from this continuation.
+- Evidence: [Vagrant Story decomposition](../games/s-z/vagrant-story.md), M1 pp13/20. Source limitations are retained in its claim ledger; no native execution.
+- Novelty: first isolated for `GAME-0499`; counterexamples reviewed in [`TAXONOMY_CHANGE_236`](../../research/taxonomy-changes/TAXONOMY_CHANGE_236.md). No external novelty claim.
+
+## SYS-1361 — Restore authored local cubes on room exit without rebuilding the run
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: leaving a room restores its authored cube arrangement and declared local cube availability, undoing that room's manipulation or destruction without thereby resetting the actor's retained gear, resources or route progress.
+- Includes: Wine Cellar cube puzzles whose cubes return to their initial placement after room exit.
+- Excludes: A full New Game restart; a timed whole-world loop; global reversal of inventory/history; respawning the actor after terminal health loss.
+- Parameters: Room boundary, authored cubes, displacement/destruction and retained run state.
+- Evidence: [Vagrant Story decomposition](../games/s-z/vagrant-story.md), M1 p14. Source limitations are retained in its claim ledger; no native execution.
+- Novelty: first isolated for `GAME-0499`; counterexamples reviewed in [`TAXONOMY_CHANGE_236`](../../research/taxonomy-changes/TAXONOMY_CHANGE_236.md). No external novelty claim.
+
+## SYS-1362 — Apply an authored floor panel's typed effect on actor contact
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an actor stepping onto an eligible authored floor panel triggers that panel's declared local health or status effect, which may be harmful or beneficial independently of whether its position was known beforehand.
+- Includes: The original Wine Cellar Smokebarrel Stair Heal Panel and only other locally evidenced panel effects, not every trap listed for later areas.
+- Excludes: A manually cast spell; a visible pickup consumed into inventory; disclosure alone with no effect; importing unsupported lethal formulas or all later trap classes.
+- Parameters: Authored panel, actor contact, local health/status effect and eligibility.
+- Evidence: [Vagrant Story decomposition](../games/s-z/vagrant-story.md), M1 p15; P1 p22 Smokebarrel Stair. Source limitations are retained in its claim ledger; no native execution.
+- Novelty: first isolated for `GAME-0499`; counterexamples reviewed in [`TAXONOMY_CHANGE_236`](../../research/taxonomy-changes/TAXONOMY_CHANGE_236.md). No external novelty claim.
+
+## SYS-1363 — Carry supported occupants along an autonomous authored platform path
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a world platform moves along its authored path without a player steering or switch-direction command and carries an actor while that actor remains supported on it, changing reachable takeoff or landing positions.
+- Includes: The to-and-fro Cloudstone used to reach the Wine Guild Hall exit ledge.
+- Excludes: A player-controlled vehicle; a switch-directed platform; automatic teleportation; asserting every supported actor remains safe regardless of jumping or losing support.
+- Parameters: Platform path, time, supported occupant, loss of support and reachable departure/landing.
+- Evidence: [Vagrant Story decomposition](../games/s-z/vagrant-story.md), P1 p23 Wine Guild Hall; S1 moving platform route. Source limitations are retained in its claim ledger; no native execution.
+- Novelty: first isolated for `GAME-0499`; counterexamples reviewed in [`TAXONOMY_CHANGE_236`](../../research/taxonomy-changes/TAXONOMY_CHANGE_236.md). No external novelty claim.
+
+## SYS-1364 — Recover missing personal health gradually at a posture-dependent rate
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: eligible running time gradually restores missing overall health up to its current cap, with the actor's declared ready or unready posture changing the recovery rate rather than requiring a new healing command or a separately asserted quiet-period unlock.
+- Includes: Ashley’s slow HP recovery and faster Normal Mode recovery than Battle Mode in Wine Cellar.
+- Excludes: Hunger-gated recovery; an instant heal; a mandatory no-damage delay; assuming the separately measured total playtime is the health-update clock.
+- Parameters: Missing HP, current cap, eligible running time, ready posture and recovery rate.
+- Evidence: [Vagrant Story decomposition](../games/s-z/vagrant-story.md), M1 p6; P1 p22 Hall of Struggle. Source limitations are retained in its claim ledger; no native execution.
+- Novelty: first isolated for `GAME-0499`; counterexamples reviewed in [`TAXONOMY_CHANGE_236`](../../research/taxonomy-changes/TAXONOMY_CHANGE_236.md). No external novelty claim.
+
+## SYS-1365 — Spend a capped casting reserve and gradually replenish it over time
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: eligible casts debit their declared cost from one retained capped magic reserve, while eligible running time gradually restores missing reserve and compatible selected effects may alter it; the reserve is separate from terminal survival health.
+- Includes: Wine Cellar MP spent by learned or Grimoire casts and slow MP recovery, with compatible carried or learned recovery effects.
+- Excludes: A separate recharging unit for every ability; per-round Action Point refresh; a consumable whose only stock is the item's quantity; treating MP zero as death.
+- Parameters: MP, cap, cast cost, eligible time and compatible reserve effects.
+- Evidence: [Vagrant Story decomposition](../games/s-z/vagrant-story.md), M1 pp6/19/20. Source limitations are retained in its claim ledger; no native execution.
+- Novelty: first isolated for `GAME-0499`; counterexamples reviewed in [`TAXONOMY_CHANGE_236`](../../research/taxonomy-changes/TAXONOMY_CHANGE_236.md). No external novelty claim.
+
+## SYS-1366 — Apply a settled permanent personal-attribute increment
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: an eligible statistic-grant event settles its declared attribute and increment and permanently adds that increment to the actor's retained personal statistic or resource maximum; the grant's selection procedure is not itself an ordinary direct choice of any desired attribute.
+- Includes: The original Wine Cellar post-boss cycling grant, recorded Dullahan HP+3, and consumed Elixir of Queens or Elixir of Mages increasing retained HP or MP capacity. A wheel stop request need not instantly settle the currently displayed entry.
+- Excludes: Purchased rune levels; experience-threshold levels; temporary status modifiers; equipment-derived properties; loot identity without use; guaranteeing a desired statistic, exact wheel tables or delay, or that every capacity increment also restores the same current resource amount.
+- Parameters: Grant trigger, selection procedure, settled personal attribute, increment and retained maximum.
+- Evidence: [Vagrant Story decomposition](../games/s-z/vagrant-story.md), P1 printed pp114-115 item table; R1 4040/4042/4050; S1 permanent elixirs and roulette; indexed player-guide stop description. Current-resource restoration by an elixir is not measured.. Source limitations are retained in its claim ledger; no native execution.
+- Novelty: first isolated for `GAME-0499`; counterexamples reviewed in [`TAXONOMY_CHANGE_236`](../../research/taxonomy-changes/TAXONOMY_CHANGE_236.md). No external novelty claim.
+
+## SYS-1367 — Share one retained item bank across eligible authored containers
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: storage transfers update one retained bank that is exposed from different eligible authored containers, so an item stored through one access point may be removed through another when the required matching saved-data state is available.
+- Includes: Wine Cellar Containers accessing identical stored contents with matching game data and Memory Card.
+- Excludes: Independent chest loot; automatic source-to-destination delivery; assuming unbounded storage; bypassing the required saved-data match or claiming native card execution.
+- Parameters: Shared bank, access container, item transfer, saved-data match and retained contents.
+- Evidence: [Vagrant Story decomposition](../games/s-z/vagrant-story.md), M1 p13; P1 p23 Wine Guild Hall. Source limitations are retained in its claim ledger; no native execution.
+- Novelty: first isolated for `GAME-0499`; counterexamples reviewed in [`TAXONOMY_CHANGE_236`](../../research/taxonomy-changes/TAXONOMY_CHANGE_236.md). No external novelty claim.
+
+## SYS-1351 — Carry typed source cargo automatically along an assigned service line
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a compatible assigned freight vehicle repeatedly follows its ordered service line, loads available eligible source cargo up to its current carrying capacity and unloads at a reachable accepting receiver; this is physical transport rather than player purchase and resale of the cargo.
+- Includes: Log carts and silver-ore rail service in launch-day Transport Fever 2 Mining Miracle.
+- Excludes: Instant connectivity-only transfer; cargo-ownership trading; operating-office request dispatch; unevidenced vehicle refuelling.
+- Parameters: Source stock, cargo type, accepting receiver, vehicle, ordered stops, capacity, load, departure wait and travel.
+- Evidence: [Transport Fever 2 decomposition](../games/s-z/transport-fever-2.md),
+  complete dated Mining Miracle source/transition ledger; no native execution.
+- Novelty: first isolated for `GAME-0498`; no external novelty claim.
+
+## SYS-1352 — Apply authored task rewards as separate one-time grants or bonus credits
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: satisfying an active authored task predicate applies its declared one-time resource grant or independent bonus credit; accepting the task alone does not earn the reward, and optional bonus credits remain distinct from required main-mission progress.
+- Includes: Mine-sale capital milestone and separate Ponderosa, ride and beast medals in launch-day Transport Fever 2.
+- Excludes: Recurring operating income; automatic reward merely for accepting an offer; one route-dependent exclusive branch ending; mandatory completion of every optional bonus.
+- Parameters: Active task, required predicate, one-time flag, capital grant, bonus credit, main progress and result display.
+- Evidence: [Transport Fever 2 decomposition](../games/s-z/transport-fever-2.md),
+  complete dated Mining Miracle source/transition ledger; no native execution.
+- Novelty: first isolated for `GAME-0498`; no external novelty claim.
+
+## SYS-1345 — Reopen an entry exit with a switch and spend attempt money after return-time expiry
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a declared local switch reopens the previously closed entry exit and starts a return clock; expiry progressively debits current attempt money while escape remains possible, and exhaustion of that money triggers failure.
+- Includes: The frog switch and money-draining return overtime in original Normal Wario Land 4.
+- Excludes: Immediate failure at zero time; a timer active from stage entry; refillable flight time; depletion of a finite life stock.
+- Parameters: Switch, closed entry exit, return clock, overtime debit, current money and exhaustion terminal.
+- Evidence: [Wario Land 4 decomposition](../games/s-z/wario-land-4.md),
+  preserved Nintendo booklet and bounded written/source ledger; no native play.
+- Novelty: first isolated for `GAME-0497`; no external novelty claim.
+
+## SYS-1346 — Bank independent stage collections and score only on a successful return
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: successful return commits each newly acquired collection credit and settled score independently, with a carried successor key opening the next stage; health failure or abandonment discards the current attempt treasures without removing earlier permanent credits or spending finite lives.
+- Includes: Independent jewel, CD, Keyzer and score settlement in original Wario Land 4.
+- Excludes: Immediate permanent pickup credit; checkpoint-specific letter rollback; automatically unlocking the next stage without its key; requiring every optional collection for return.
+- Parameters: Current credits, permanent credits, key, successful return, failure, abandonment and score.
+- Evidence: [Wario Land 4 decomposition](../games/s-z/wario-land-4.md),
+  preserved Nintendo booklet and bounded written/source ledger; no native play.
+- Novelty: first isolated for `GAME-0497`; no external novelty claim.
+
+## SYS-1347 — Convert a contacted food effect into a locomotion-recoverable heavy body
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: contact with an eligible externally supplied food effect converts the avatar into a slower heavy body whose contact and landing can defeat hostiles or break stronger terrain; sufficient subsequent locomotion restores the ordinary body.
+- Includes: Apple-induced Fat Wario and walking recovery in original Wario Land 4.
+- Excludes: A selected copied combat ability; damage-demoted pickup tiers; permanent growth; passive health recovery or a timer-only transformation.
+- Parameters: Food source, contact, body state, movement, landing eligibility and locomotion recovery.
+- Evidence: [Wario Land 4 decomposition](../games/s-z/wario-land-4.md),
+  preserved Nintendo booklet and bounded written/source ledger; no native play.
+- Novelty: first isolated for `GAME-0497`; no external novelty claim.
+
+## SYS-1348 — Toggle the solidity of a matching authored block group
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an accepted activation of a typed local switch flips whether its matching authored block group provides solid obstruction or support, without moving that group along a trajectory.
+- Includes: Matching coloured ! switches and solid/dotted blocks in original Wario Land 4.
+- Excludes: A switch-driven moving platform; sustained pressure occupancy; arbitrary user-authored property assignment; cosmetic colour changes.
+- Parameters: Switch type, matching block group, activation, solid state, obstruction and support.
+- Evidence: [Wario Land 4 decomposition](../games/s-z/wario-land-4.md),
+  preserved Nintendo booklet and bounded written/source ledger; no native play.
+- Novelty: first isolated for `GAME-0497`; no external novelty claim.
+
+## SYS-1349 — Consume a mid-attempt suspend save when continuing it
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a deliberate save-and-quit stores the active attempt for later continuation, and accepting that continuation consumes the suspend record while ordinary successful-clear persistence remains separate.
+- Includes: Quit and one-use mid-stage continuation in original Wario Land 4.
+- Excludes: An indefinitely reloadable earlier checkpoint; emulator save states; permanent-clear data deletion; failure followed by a fresh attempt.
+- Parameters: Active attempt, save-and-quit, suspended record, continuation, consumption and permanent clear data.
+- Evidence: [Wario Land 4 decomposition](../games/s-z/wario-land-4.md),
+  preserved Nintendo booklet and bounded written/source ledger; no native play.
+- Novelty: first isolated for `GAME-0497`; no external novelty claim.
+
+## SYS-1350 — Complete an auxiliary recovery gauge to restore one health unit
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: eligible small recovery pickups fill an auxiliary gauge, and completing that gauge restores one missing unit in the separate main health pool rather than each pickup immediately restoring a full unit.
+- Includes: Small hearts, the filling gauge and one-heart recovery in original Wario Land 4.
+- Excludes: Passive regeneration; a full-health chest; direct healing per small pickup; a finite-life award from accumulated score.
+- Parameters: Pickup credit, auxiliary gauge, threshold, main health, restored unit and health cap.
+- Evidence: [Wario Land 4 decomposition](../games/s-z/wario-land-4.md),
+  preserved Nintendo booklet and bounded written/source ledger; no native play.
+- Novelty: first isolated for `GAME-0497`; no external novelty claim.
+
+## SYS-1339 — Credit renewable protection directly from a qualifying contextual defeat
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a declared successful contextual defeat adds a bounded amount directly to the living actor's renewable outer protection, up to its cap, without instantiating a collectible recovery object.
+- Includes: Armour credit from an execution or qualifying Gun Strike kill in Space Marine 2.
+- Excludes: A finisher that spawns a later-collected drop; underlying permanent-health healing; passive quiet recharge; every ordinary kill.
+- Parameters: Defeat class, actor, outer reserve, award, cap and accepted amount.
+- Evidence: [Space Marine 2 decomposition](../games/s-z/warhammer-40000-space-marine-2.md),
+  its dated source ledger and qualitative transitions; no native execution.
+- Novelty: first isolated for `GAME-0496`; no external novelty claim.
+
+## SYS-1340 — Expire an unspent recoverable-health bank without replacing it wholesale
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: after the declared delay, time progressively removes the actor's remaining recoverable-health bank; a declared protected execution suspends this expiry, and a later hit does not by this rule replace the whole earlier bank.
+- Includes: Contested-health expiry with execution suspension in Space Marine 2.
+- Excludes: Bank creation or outgoing recovery; incoming-hit erosion; Dead Cells' compound delayed drain and replacement of earlier loss; passive healing.
+- Parameters: Bank, delay, decay rate, floor, suspension interval and resume condition.
+- Evidence: [Space Marine 2 decomposition](../games/s-z/warhammer-40000-space-marine-2.md),
+  its dated source ledger and qualitative transitions; no native execution.
+- Novelty: first isolated for `GAME-0496`; no external novelty claim.
+
+## SYS-1341 — Propagate a carrier's defeat to nearby dependent lesser hostiles
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: defeating an eligible command-linked hostile carrier triggers the declared defeat response in compatible nearby lesser dependants, without requiring a separate player hit against each or clearing unrelated hostiles.
+- Includes: Reported nearby lesser-Tyranid deaths after a synaptic Warrior dies in Space Marine 2.
+- Excludes: Universal arena clearance; ordinary splash damage from a blast; damage to the player; an invented exact link radius or probability.
+- Parameters: Carrier, dependant eligibility, locality, defeat trigger and propagated response.
+- Evidence: [Space Marine 2 decomposition](../games/s-z/warhammer-40000-space-marine-2.md),
+  its dated source ledger and qualitative transitions; no native execution.
+- Novelty: first isolated for `GAME-0496`; no external novelty claim.
+
+## SYS-1342 — Suppress incoming damage during a committed close-execution animation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: an accepted contextual close execution temporarily prevents compatible incoming damage to its actor during the committed execution animation; ordinary vulnerability resumes when that protected interval ends.
+- Includes: Space Marine 2 close-execution protection, unlike its exposed Gun Strike animation.
+- Excludes: Permanent immunity; post-animation grace not separately evidenced; passive armour; protection for every contextual firearm follow-up; a dodge window.
+- Parameters: Actor, accepted execution, interval start/end, compatible damage and vulnerability restoration.
+- Evidence: [Space Marine 2 decomposition](../games/s-z/warhammer-40000-space-marine-2.md),
+  its dated source ledger and qualitative transitions; no native execution.
+- Novelty: first isolated for `GAME-0496`; no external novelty claim.
+
+## SYS-1343 — Override ordinary lethal failure during an authored playable story-loss segment
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: in a declared playable forced-loss phase, ordinary lethal defeat is suppressed and the authored scene instead settles into its mandatory injury and retained successor state, without requiring the player to defeat the final opponent.
+- Includes: The post-launch Rain of Terror encounter ending in Titus's injury and Primaris successor.
+- Excludes: General god mode; every campaign fight; a required boss kill; skipping the preceding live objective; claimed native health-clamp implementation.
+- Parameters: Phase entry, ordinary defeat override, continuing input, story trigger, injury and successor state.
+- Evidence: [Space Marine 2 decomposition](../games/s-z/warhammer-40000-space-marine-2.md),
+  its dated source ledger and qualitative transitions; no native execution.
+- Novelty: first isolated for `GAME-0496`; no external novelty claim.
+
+## SYS-1344 — Refill compatible carried stocks by an available local source interaction
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: an accepted interaction with a local compatible source adds its declared weapon or supply contents to bounded carried state; finite-source consumption or renewable-source availability is independent of the carried stock cap.
+- Includes: Prologue pistol/rifle acquisition and ammunition/frag replenishment, including a renewable ammunition cache, in Space Marine 2.
+- Excludes: Automatic contact collection; infinite carried ammunition; passive shield recharge; remote shop purchases; a supplied weapon absent from the scoped route.
+- Parameters: Source, interaction, compatible type, carried stock, cap, accepted quantity, finite consumption and renewable availability.
+- Evidence: [Space Marine 2 decomposition](../games/s-z/warhammer-40000-space-marine-2.md),
+  its dated source ledger and qualitative transitions; no native execution.
+- Novelty: first isolated for `GAME-0496`; no external novelty claim.
+
+## SYS-1322 — Recover only the surviving partially filled health segment after quiet
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after the required interval without new damage, passive recovery fills the
+  still-surviving partially filled segment of one segmented health pool up
+  to that segment boundary; completely lost segments remain empty until a
+  separate compatible healing effect.
+- Includes: Original Resistance Hale after infection, with four health segments and
+  yellow-cylinder healing outside the passive rule.
+- Excludes: Full-cap automatic health recovery; a shield independent of health;
+  recovery of an entirely empty next segment; a player-paid healing command.
+- Parameters: segment boundaries, surviving health, damage interruption, quiet interval,
+  recovery rate and healing effect
+- Evidence: [Resistance: Fall of Man decomposition](../games/m-r/resistance-fall-of-man.md),
+  claims RF-004; written original-game source ledger, not native play.
+- Novelty: first isolated for `GAME-0492`; no external novelty claim.
+
+## SYS-1323 — Guide subsequently fired ordinary rounds toward an accepted target tag
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a marker that actually hits an eligible living target installs guidance
+  for subsequently fired ordinary weapon rounds toward that target under the
+  weapon’s collision and guidance limitations; a missed marker does not
+  acquire a living target.
+- Includes: Original Resistance Bullseye primary shots after a successful alternate
+  target tag.
+- Excludes: Automatic perfect accuracy without a tag hit; universal penetration
+  through solid geometry; a separately launched acquired missile; an enemy
+  firing automatically for the player.
+- Parameters: tagged target, marker contact, ordinary shot stock, guidance path,
+  geometry and validity
+- Evidence: [Resistance: Fall of Man decomposition](../games/m-r/resistance-fall-of-man.md),
+  claims RF-005; written original-game source ledger, not native play.
+- Novelty: first isolated for `GAME-0492`; no external novelty claim.
+
+## SYS-1324 — Store circling rounds at a maintained anchor and redirect them on retag
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: while an inanimate tag anchor is maintained, accepted primary shots
+  collect as circling ammunition at it; a later accepted living-target tag
+  redirects the remaining stored shots toward the new target rather than
+  requiring those same shots to be fired again.
+- Includes: Original Resistance Bullseye held surface trap followed by a new hostile
+  tag.
+- Excludes: An independently aimed automatic turret; free creation of ammunition;
+  treating every ordinary missed tag as a maintained trap; guaranteed
+  permanent storage or arbitrary wall penetration.
+- Parameters: maintained anchor, fired rounds, stored remainder, hold, later tag, target
+  and expiry
+- Evidence: [Resistance: Fall of Man decomposition](../games/m-r/resistance-fall-of-man.md),
+  claims RF-006; written original-game source ledger, not native play.
+- Novelty: first isolated for `GAME-0492`; no external novelty claim.
+
+## SYS-1312 — Generate visit-specific market quotes and settle immediate cargo exchanges
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a station visit combines its economy and sampled fluctuation
+  with each commodity table to establish prices and offered stock; accepted
+  purchases debit money and local stock while crediting cargo, and sales debit
+  owned cargo and credit the same visit quote without restoring offered stock
+  or repricing after transaction volume.
+- Includes: BBC Micro disc Elite TT151, GVL, TT219 and TT210; the initial Lave
+  market has the default Commander quantities.
+- Excludes: Volume-responsive market repricing; an employer-supplied delivery
+  contract; automatic route trading; guaranteed profit in every system.
+- Parameters: economy, fluctuation byte, commodity table, unit, price, offered
+  stock, quantity, money and carried stock
+- Evidence: [Elite decomposition](../games/a-f/elite.md),
+  claims EL-001, EL-002; pinned original _IB_DISC source reconstruction.
+- Novelty: first isolated for `GAME-0491`; generate visit-specific market quotes and settle immediate cargo exchanges.
+
+## SYS-1313 — Debit jump distance after a live countdown and branch on misjump
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an accepted inter-system request starts a live countdown;
+  completion debits the selected distance from finite fuel and either installs
+  a normal destination system or enters a displaced hostile interstitial space
+  without an ordinary station, so the intended arrival is not guaranteed by
+  starting the drive.
+- Includes: Original BBC Micro disc Elite hyp, wW, TT18 and MJP with the
+  default manual-misjump toggle off.
+- Excludes: A free map teleport; graph-beacon travel costing one uniform unit;
+  asserting ideal independent random probabilities; a guaranteed return route.
+- Parameters: selected system, distance, fuel, countdown, cancellation, random
+  predicate, normal arrival and misjump location
+- Evidence: [Elite decomposition](../games/a-f/elite.md),
+  claims EL-005; pinned original _IB_DISC source reconstruction.
+- Novelty: first isolated for `GAME-0491`; debit jump distance after a live countdown and branch on misjump.
+
+## SYS-1314 — Compress local travel by displacing celestial bodies rather than all nearby objects
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a legal local jump shifts the planet and sun opposite the
+  craft’s current forward direction, preserving nearby minor objects in the
+  local bubble and arranging a new encounter check instead of consuming
+  inter-system fuel or advancing a destination graph.
+- Includes: Original BBC Micro Elite WARP with minor cargo objects carried
+  along by the implementation.
+- Excludes: Physically integrating each skipped metre; moving every local
+  object identically; a new star system; clearing all future encounters.
+- Parameters: planet and sun coordinates, current view, local minor objects,
+  displacement and encounter scheduler
+- Evidence: [Elite decomposition](../games/a-f/elite.md),
+  claims EL-006; pinned original _IB_DISC source reconstruction.
+- Novelty: first isolated for `GAME-0491`; compress local travel by displacing celestial bodies rather than all nearby objects.
+
+## SYS-1315 — Share a regenerating ship energy bank between laser use, shield recharge and survival
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: directional front and rear shields absorb their respective
+  incoming damage, with overflow debiting one ship energy bank; laser use and
+  eligible shield restoration also debit that same bank, while live
+  regeneration restores it and shield charging requires the bank to exceed a
+  declared reserve threshold.
+- Includes: BBC Micro Elite OOPS, SHD, DENGY, LASLI and flight-loop part 13;
+  damage can defeat the craft even though firing drain is clamped above zero.
+- Excludes: A separate hull pool beneath an undirected shield; player-directed
+  shield transfer or power allocation; quiet-interval personal shield
+  regeneration; one independent meter per attack.
+- Parameters: front and rear reserve, hit direction, overflow, common energy,
+  discharge debit, recharge debit, threshold, regeneration and defeat
+- Evidence: [Elite decomposition](../games/a-f/elite.md),
+  claims EL-007; pinned original _IB_DISC source reconstruction.
+- Novelty: first isolated for `GAME-0491`; share a regenerating ship energy bank between laser use, shield recharge and survival.
+
+## SYS-1316 — Combine cargo illegality, protected-target aggression and jurisdictional decay
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: launching with weighted contraband raises the retained legal
+  evaluation; attacking protected craft or a station can make the local
+  station hostile, killing police further marks the offender, and a normal
+  inter-system arrival halves the retained legal value rather than erasing all
+  consequences on docking.
+- Includes: Original BBC Micro disc Elite BAD, TT110, ANGRY, flight-loop part
+  12 and SOLAR.
+- Excludes: A moral honour track; a player selecting a wanted level; universal
+  criminality for every attack; forgiveness on every local view change.
+- Parameters: contraband classes, quantities, legal byte, protected target,
+  station hostility, police destruction and system arrival
+- Evidence: [Elite decomposition](../games/a-f/elite.md),
+  claims EL-008; pinned original _IB_DISC source reconstruction.
+- Novelty: first isolated for `GAME-0491`; combine cargo illegality, protected-target aggression and jurisdictional decay.
+
+## SYS-1317 — Sample local craft encounters under government, legal state and loaded blueprint availability
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the live flight scheduler tests creation of traders, police,
+  pirates or other admitted craft using current government, legal state, local
+  traffic and random state; an attempted type is instantiated only when its
+  current loaded blueprint is available, so the product’s entire ship
+  catalogue is not simultaneously encounterable.
+- Includes: BBC Micro disc Elite main game loop, NWSHP and LOMOD; the first
+  _IB_DISC retains a forced trader branch that prevents ordinary asteroid
+  spawning.
+- Excludes: An authored fixed wave list; an omniscient future-spawn preview;
+  importing all ship files into the original disc rules; treating correlated
+  generator bytes as independent odds.
+- Parameters: government, legal state, safe zone, existing entities,
+  scheduler, random state, attempted type and blueprint file
+- Evidence: [Elite decomposition](../games/a-f/elite.md),
+  claims EL-009; pinned original _IB_DISC source reconstruction.
+- Novelty: first isolated for `GAME-0491`; sample local craft encounters under government, legal state and loaded blueprint availability.
+
+## SYS-1318 — Resolve acquired homing missiles against moving targets and an active disruption field
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after successful target acquisition and launch, a finite missile
+  pursues its stored moving target and resolves eligible contact or target
+  loss; an operating electronic disruption field removes missiles, including
+  an attacking player missile when a capable opponent starts the field.
+  Missile destruction sufficiently close to the controlled craft can itself
+  inflict local damage, including disruption-triggered destruction.
+- Includes: BBC Micro Elite FRMIS, TACTICS missile branch and ECMA handling;
+  stock Jameson has no own E.C.M. equipment.
+- Excludes: An unguided laser; a lock-progress bar; assuming every enemy
+  missile can be countered by an unequipped player; a permanent
+  invulnerability shield.
+- Parameters: target slot, successful launch, missile stock, pursuit, contact,
+  target removal, active disruption, missile destruction and nearby blast damage
+- Evidence: [Elite decomposition](../games/a-f/elite.md),
+  claims EL-004; pinned original _IB_DISC source reconstruction.
+- Novelty: first isolated for `GAME-0491`; resolve acquired homing missiles against moving targets and an active disruption field.
+
+## SYS-1319 — Destroy one carried commodity class after qualifying unshielded damage
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: survived damage reaching the craft’s unshielded energy can
+  trigger a sampled loss of one carried commodity class; an accepted loss
+  clears that class’s entire owned quantity and reports it, reducing later
+  sale proceeds independently of the remaining money balance.
+- Includes: BBC Micro Elite OOPS and OUCH, including refusal while another
+  in-flight message occupies the reporting state.
+- Excludes: Gradual deterioration of every parcel; guaranteed loss after every
+  hit; damage to money itself; claiming an exact independent per-hit
+  probability.
+- Parameters: overflow damage, survival, sampled class, owned quantity,
+  reporting state, class clearance and terminal resale
+- Evidence: [Elite decomposition](../games/a-f/elite.md),
+  claims EL-010; pinned original _IB_DISC source reconstruction.
+- Novelty: first isolated for `GAME-0491`; destroy one carried commodity class after qualifying unshielded damage.
+
+## SYS-1320 — Resolve celestial approach into altitude or cabin-heat defeat
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: periodic local-space distance checks expose decreasing planetary
+  altitude or increasing cabin temperature near a star; crossing the terminal
+  planet or heat boundary destroys the controlled craft rather than granting a
+  surface landing or a harmless scenery transition.
+- Includes: BBC Micro Elite main flight-loop part 15 for planetary collision
+  and solar heating without fuel scoops.
+- Excludes: An authored environmental temperature independent of location;
+  collecting free fuel without a fitted scoop; a permitted planet-surface
+  landing; laser overheat alone.
+- Parameters: celestial position, distance, altitude, cabin heat, safe-zone
+  state, check schedule and destruction
+- Evidence: [Elite decomposition](../games/a-f/elite.md),
+  claims EL-011; pinned original _IB_DISC source reconstruction.
+- Novelty: first isolated for `GAME-0491`; resolve celestial approach into altitude or cabin-heat defeat.
+
+## SYS-1321 — Credit combat tally separately from conditional cash bounty
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a qualifying ship or missile destruction increments a retained
+  combat tally, while a separate removal-stage rule credits its configured
+  monetary bounty only when the bounty is nonzero and its current world and
+  reporting predicates allow settlement; tally progression therefore does not
+  guarantee a cash payment for every kill.
+- Includes: BBC Micro Elite EXNO2 and main flight-loop part 12; witchspace or
+  an occupied message slot suppresses cash credit in the inspected code.
+- Excludes: Equal cash for every destroyed ship; spending combat rank as
+  money; a post-mission employer contract; inferring payment from an explosion
+  animation alone.
+- Parameters: qualifying destruction, tally, bounty, message occupancy,
+  world mode, removal and cash credit
+- Evidence: [Elite decomposition](../games/a-f/elite.md),
+  claims EL-012; pinned original _IB_DISC source reconstruction.
+- Novelty: first isolated for `GAME-0491`; credit combat tally separately from conditional cash bounty.
+
+## SYS-1308 — Debit actor health for qualifying own actions or solid-object strikes
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a qualifying special action or accepted strike against a solid obstacle subtracts the acting character’s own current health as its execution cost, independently of hostile retaliation or an enemy hit; low-health eligibility can disable a declared costly action.
+- Includes: Original Comix Zone solid-obstacle hits and health-paid special moves, including the held-input paper airplane whose red-health refusal is reported by a recorded player.
+- Excludes: A separate ability meter; ordinary hostile damage; a mode-specific emergency strike whose cost requires contact with an enemy; assuming every body attack costs health.
+- Parameters: action or target class, accepted hit, current health, charge, low-health threshold and eligibility.
+- Evidence: [Comix Zone decomposition](../games/a-f/comix-zone.md), original SEGA booklet and written original-Genesis accounts; CZ-003, CZ-009.
+- Novelty: first isolated for `GAME-0490`; transfer tests in `TAXONOMY_CHANGE_227`.
+
+## SYS-1309 — Resolve accepted humanoid hit sequences into an automatic finisher
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: repeated eligible character attacks against a humanoid count accepted hits toward a declared sequence threshold; reaching it resolves the stronger finishing member, while changing attack members can defeat the target’s repeated-move guard response rather than granting an unrelated extra input opportunity.
+- Includes: Original Comix Zone three accepted serial hits before a special finishing attack, with rapidly alternating combination attacks against humanoids.
+- Excludes: One gene per punch animation; accumulated experience; an arbitrary button count regardless of contact; asserting this humanoid sequence against flying creatures; an exact native damage or counter-reset formula.
+- Parameters: target class, eligible attack member, accepted hit, sequence threshold, guard response, finishing effect and reset predicate.
+- Evidence: [Comix Zone decomposition](../games/a-f/comix-zone.md), original SEGA booklet and written original-Genesis accounts; CZ-002.
+- Novelty: first isolated for `GAME-0490`; transfer tests in `TAXONOMY_CHANGE_227`.
+
+## SYS-1310 — Resolve a deployed item-helper’s contacts, discovery and recoverable condition
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a deployed carried helper autonomously traverses nearby geometry and resolves its declared hostile, switch or hidden-item contacts; incoming attacks can exhaust its local survival allowance and remove it, while physical pickup restores that helper’s condition for a later deployment without healing its owner.
+- Includes: Original Comix Zone Roadkill’s electrical contact, switch activation, hidden-item discovery, reported finite-hit loss and pickup restoration.
+- Excludes: Directly steering the helper; revealing all future items; restoring the owner’s health; a party member selected for scheduled combat; an exact universal helper hit allowance.
+- Parameters: helper, world path, eligible contact, authored hidden location, survival allowance, loss state and pickup restoration.
+- Evidence: [Comix Zone decomposition](../games/a-f/comix-zone.md), original SEGA booklet and written original-Genesis accounts; CZ-006, CZ-007.
+- Novelty: first isolated for `GAME-0490`; transfer tests in `TAXONOMY_CHANGE_227`.
+
+## SYS-1311 — Automatically reverse a released projectile across its bounded field
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a released projectile travels to the current field’s far boundary and automatically reverses across that field, applying its declared effects to eligible contacts on both passes, including its own maker when owner contact is permitted; no recall command selects the return line.
+- Includes: Original Comix Zone’s held-attack paper airplane returning across the comic panel and capable of damaging Sketch, enemies and objects.
+- Excludes: A recalled reusable tool following the maker’s new position; a guard reflecting a hostile shot; a projectile consumed at its first hit; guaranteed safety for the maker.
+- Parameters: field extent, outward direction, boundary reversal, contact classes, owner eligibility, damage and projectile removal.
+- Evidence: [Comix Zone decomposition](../games/a-f/comix-zone.md), original SEGA booklet and written original-Genesis accounts; CZ-009.
+- Novelty: first isolated for `GAME-0490`; transfer tests in `TAXONOMY_CHANGE_227`.
+
+## SYS-1303 — Derive class, attributes and abilities from attached elemental spirits
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: the current attached elemental-spirit configuration determines a character’s class, attributes, elemental power/resistance and available abilities; detaching or reattaching a spirit recalculates that build rather than merely changing a summon counter.
+- Includes: original Golden Sun’s Set Djinn, including losing or regaining a class-dependent Psynergy after a state change.
+- Excludes: permanent level growth; an equipment socket alone; standby spirits contributing the same attached benefits; asserting a universal change of class for every single spirit.
+- Parameters: base character, elemental configuration, spirit contribution, class mapping, attributes and ability set.
+- Evidence: [Golden Sun decomposition](../games/g-l/golden-sun.md), original Nintendo booklet pp. 12–14, 18–19 and 28–29; GS-003.
+- Novelty: first isolated for `GAME-0489`; configuration withdrawal and reusable invocation share one carrier but not one effect.
+
+## SYS-1304 — Cycle owned spirits through release, shared invocation and recovering reattachment
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: releasing an attached spirit resolves its declared effect and places it on standby; an eligible party member can invoke a spirit by spending the shared standby count of the required element, moving the used spirits into recovery and increasing the invoker’s matching elemental power for that battle; after the declared recovery turn a used spirit automatically reattaches to its owner. A standby spirit may instead be set through its owner’s scheduled command.
+- Includes: original Golden Sun’s single Flint becoming available for a Venus invocation by Isaac, Garet or Ivan, then returning to Set after recovery.
+- Excludes: permanently consuming a Djinni; requiring the invoker to own every spent spirit; using one available spirit for multiple simultaneous paid invocations; a later sequel’s reserve-party switch.
+- Parameters: owner, Set/Standby/Recovery state, release effect, shared elemental counts, invocation cost, target, power gain and recovery boundary.
+- Evidence: [Golden Sun decomposition](../games/g-l/golden-sun.md), original Nintendo booklet pp. 16–17 and 39–43; GS-004–GS-006.
+- Novelty: first isolated for `GAME-0489`; one reusable object’s ownership, passive attachment and party-shared paid availability have distinct states.
+
+## SYS-1305 — Resolve a complete party command batch by agility with obsolete-attack defence
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: after commands for the currently eligible party members are committed, allies and hostiles resolve their actions according to agility; if an ordinary attack’s selected enemy has already fallen or fled before that attack resolves, the pending attack becomes defence rather than automatically seeking a new enemy.
+- Includes: original Golden Sun’s complete round and the booklet’s Attack-to-Defend fallback.
+- Excludes: a two-creature move-priority schedule; player-phase attacks resolving before all hostile replies; an actor-local live readiness gauge; a claimed exact agility/tie formula.
+- Parameters: eligible actors, committed batch, agility, order, target validity, fallback and remaining encounter.
+- Evidence: [Golden Sun decomposition](../games/g-l/golden-sun.md), original Nintendo booklet pp. 34–36; GS-001–GS-002.
+- Novelty: first isolated for `GAME-0489`; batching creates wasted target commitments inside an interleaved round.
+
+## SYS-1306 — Centre a bounded multi-target effect on an ordered target row
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: a selected central target anchors a declared effect span in an ordered target row; its main effect is greatest at the centre and decreases toward covered neighbours unless that effect declares an exception, while row edges may clip the number of affected targets. A full-row invocation still uses a chosen central target for its strongest effect.
+- Includes: original Golden Sun’s ranged Psynergy and centre-selected all-enemy summons.
+- Excludes: free geometric aiming; equal damage inferred for all highlighted targets; wrapping a clipped span around a row edge; a universal numeric falloff formula.
+- Parameters: ordered row, central target, span, centre strength, neighbour falloff and effect-specific exceptions.
+- Evidence: [Golden Sun decomposition](../games/g-l/golden-sun.md), original Nintendo booklet pp. 36–37 and 43; GS-007.
+- Novelty: first isolated for `GAME-0489`; choosing a target changes both intensity and bounded coverage without moving units.
+
+## SYS-1307 — Reduce incoming damage through a committed defence command
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: resolving a declared defence command changes that actor’s damage-receiving state so eligible incoming attacks inflict less damage during the command’s defensive window; defence spends the action opportunity instead of launching an attack.
+- Includes: original Golden Sun’s Defend and the obsolete ordinary Attack fallback.
+- Excludes: a held real-time guard; an input-timed parry; an immunity promise; a permanent defence-stat increase; an asserted universal reduction percentage.
+- Parameters: actor, committed action, defensive window, incoming attack and reduction.
+- Evidence: [Golden Sun decomposition](../games/g-l/golden-sun.md), original Nintendo booklet pp. 36 and 44; GS-008.
+- Novelty: first isolated for `GAME-0489`; deliberate action opportunity is exchanged for damage reduction, not live input timing.
+
+## SYS-1300 — Enable one ready race function by crossing a weapons grid
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: crossing an eligible fixed course weapons grid enables one race weapon or power-up for subsequent player deployment rather than immediately applying its effect; an ongoing protective effect may coexist with a newly enabled function while still blocking its deployment.
+- Includes: original PlayStation wipEout Single Race. Cross the coloured grid to enable a weapon or power-up; choose later when to deploy it.
+- Excludes: A weighted ordered two-item queue; loose dropped inventory; automatic deployment on grid contact; asserting an uninspected full-slot replacement or random-selection policy.
+- Parameters: grid contact, enabled function, existing effect, readiness, deployment gate and selection policy.
+- Evidence: [wipEout decomposition](../games/s-z/wipeout.md), original US longbox booklet and contemporary first-hand account; claim WO-004. No original program or direct play inspected.
+- Novelty: first isolated for `GAME-0488`; reviewed transfer tests in `TAXONOMY_CHANGE_225` preserve other boundaries.
+
+## SYS-1301 — Grant an immediate speed burst on crossing a fixed dash pad
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: eligible vehicle contact with a fixed course dash pad immediately applies a bounded speed increase without a separate activation command or crediting a stored acceleration reserve.
+- Includes: original PlayStation wipEout Single Race. Crossing a speed pad gives a short burst without storing a turbo item.
+- Excludes: Refilling a spendable boost tank; selecting a carried turbo function; drift-charge release; a beneficial collision with another racer; exact unmeasured contact or acceleration coefficients.
+- Parameters: pad geometry, vehicle contact, current motion, speed increase and duration.
+- Evidence: [wipEout decomposition](../games/s-z/wipeout.md), original US longbox booklet and contemporary first-hand account; claim WO-003. No original program or direct play inspected.
+- Novelty: first isolated for `GAME-0488`; reviewed transfer tests in `TAXONOMY_CHANGE_225` preserve other boundaries.
+
+## SYS-1302 — Convert qualifying pre-start thrust into a bounded launch boost
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: when the race-start signal accepts a qualifying pre-start thrust state, apply its declared bounded acceleration advantage to the initial launch; the thrust condition and signal timing, not a stored item or later drift release, determine eligibility.
+- Includes: original PlayStation wipEout Single Race. The contemporary guide reports a faster launch when thrust meets the start-signal condition.
+- Excludes: A guaranteed boost from holding maximum thrust throughout the countdown; item consumption; a later on-course dash pad; exact native-frame windows not measured from the original program.
+- Parameters: countdown, thrust state, start signal, qualifying range, launch strength and duration.
+- Evidence: [wipEout decomposition](../games/s-z/wipeout.md), original US longbox booklet and contemporary first-hand account; claim WO-007. No original program or direct play inspected.
+- Novelty: first isolated for `GAME-0488`; reviewed transfer tests in `TAXONOMY_CHANGE_225` preserve other boundaries.
+
+## SYS-1290 — Resolve sailing response from canvas, heading, damage and manning
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: the sailing vessel’s current heading relative to wind, hull and rig characteristics, retained canvas, hull/sail condition and available manning jointly determine its live speed and handling; undermanning degrades performance rather than prohibiting all movement.
+- Includes: original Windows Sid Meier's Pirates! ordinary sea encounter. Canvas, heading and the vessel’s condition affect its response to steering.
+- Excludes: Station-by-station embodied ship operation; a car traction model; a selected automatic route; an exact unmeasured velocity formula.
+- Parameters: heading, wind, hull, rig, canvas, damage, manning requirement and response.
+- Evidence: [Sid Meier's Pirates! decomposition](../games/s-z/sid-meiers-pirates.md), publisher PC manual; claim PIR-001. Exact executable revision, timings and direct play remain uninspected.
+- Novelty: first isolated for `GAME-0487`; transfer tests in `TAXONOMY_CHANGE_224` preserve prior boundaries.
+
+## SYS-1291 — Resolve component-biased and direction-sensitive naval impacts
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: a legal vessel projectile impact selects damage among hull, sails, crew and guns with ammunition-dependent biases and possible collateral effects; a bow/stern raking impact increases harm, and depleted components alter motion, reload, firepower or terminal state.
+- Includes: original Windows Sid Meier's Pirates! ordinary sea encounter. Shots favour different components; destroying the hull sinks the cargo too.
+- Excludes: Guaranteed exclusive damage to one selected component; shield-before-hull routing; a ground-vehicle armour penetration model; firing from the bow merely because the target is raked.
+- Parameters: shot type, hit direction, component selection, damage, remaining components and consequences.
+- Evidence: [Sid Meier's Pirates! decomposition](../games/s-z/sid-meiers-pirates.md), publisher PC manual; claim PIR-004. Exact executable revision, timings and direct play remain uninspected.
+- Novelty: first isolated for `GAME-0487`; transfer tests in `TAXONOMY_CHANGE_224` preserve prior boundaries.
+
+## SYS-1292 — Automatically restore individual gun readiness at a crew-sensitive rate
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: after a broadside, the vessel crew automatically reloads guns with the retained selected ammunition; available crew determines loading rate, and readiness can accumulate partially before the whole battery is available.
+- Includes: original Windows Sid Meier's Pirates! ordinary sea encounter. Guns reload automatically, but fewer crew take longer.
+- Excludes: One all-or-nothing weapon cooldown; manual loading per gun; unlimited readiness unaffected by crew casualties.
+- Parameters: guns, loaded subset, retained ammunition, crew, loading rate and elapsed live time.
+- Evidence: [Sid Meier's Pirates! decomposition](../games/s-z/sid-meiers-pirates.md), publisher PC manual; claim PIR-002. Exact executable revision, timings and direct play remain uninspected.
+- Novelty: first isolated for `GAME-0487`; transfer tests in `TAXONOMY_CHANGE_224` preserve prior boundaries.
+
+## SYS-1293 — Convert vessel contact into coupled captain and crew boarding combat
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: eligible combat contact between vessels starts boarding and switches control to a captain duel while the corresponding crews fight automatically; surrender settles the captured-versus-lost vessel result.
+- Includes: original Windows Sid Meier's Pirates! ordinary sea encounter. Ramming starts the captain duel while the two crews fight beside it.
+- Excludes: Collision damage alone; a decorative boarding animation; a separate unrelated duel; directly ordering individual crew attacks.
+- Parameters: vessel contact, boarding eligibility, captains, crews, duel entry and surrender result.
+- Evidence: [Sid Meier's Pirates! decomposition](../games/s-z/sid-meiers-pirates.md), publisher PC manual; claim PIR-005. Exact executable revision, timings and direct play remain uninspected.
+- Novelty: first isolated for `GAME-0487`; transfer tests in `TAXONOMY_CHANGE_224` preserve prior boundaries.
+
+## SYS-1294 — Resolve typed duel attacks and counters into bounded pushback
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: the chosen close attack and matching live defence determine a successful hit, full avoidance or partial interception; attack type determines development speed and push distance, selected sword changes attack/defence tempo, and repeated pushback reaches a losing stage boundary.
+- Includes: original Windows Sid Meier's Pirates! ordinary sea encounter. Chop and slash push two steps; thrust pushes one and develops faster.
+- Excludes: A generic health-only duel; universal invulnerable dodge; guaranteed full parry of every attack; freely commanded arena locomotion.
+- Parameters: attack type, defence type, sword, timing, hit, push distance, positions and boundary.
+- Evidence: [Sid Meier's Pirates! decomposition](../games/s-z/sid-meiers-pirates.md), publisher PC manual; claim PIR-006. Exact executable revision, timings and direct play remain uninspected.
+- Novelty: first isolated for `GAME-0487`; transfer tests in `TAXONOMY_CHANGE_224` preserve prior boundaries.
+
+## SYS-1295 — Feed crew casualties and duel progress into reciprocal tempo advantage
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: automatic boarding casualties depend on crew size, skill, morale and captain-duel progress; casualties and successful defence or taunts alter duel advantage and possible disorientation, affecting captain tempo, while a crew reduced to one forces surrender only on its captain’s next received hit.
+- Includes: original Windows Sid Meier's Pirates! ordinary sea encounter. Crew losses change duel speed; one remaining crewman is not instant defeat.
+- Excludes: Immediate surrender at one crewman; independently commanded crew turns; a cosmetic advantage bar; invented exact casualty probabilities.
+- Parameters: crew counts, skill, morale, duel progress, advantage, disorientation, speed and next received hit.
+- Evidence: [Sid Meier's Pirates! decomposition](../games/s-z/sid-meiers-pirates.md), publisher PC manual; claim PIR-007. Exact executable revision, timings and direct play remain uninspected.
+- Novelty: first isolated for `GAME-0487`; transfer tests in `TAXONOMY_CHANGE_224` preserve prior boundaries.
+
+## SYS-1296 — Recover floating combat survivors through vessel contact
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: when combat ejects eligible surviving crew into the water, contacting their floating location with the controlled vessel recovers them into its operating crew rather than crediting only an abstract collectible score.
+- Includes: original Windows Sid Meier's Pirates! ordinary sea encounter. Floating crew can return through vessel contact when they appear.
+- Excludes: Guaranteed survivors after every hit; ordinary cargo credit; rescuing via a separate dialogue; a decorative swimmer.
+- Parameters: ejected survivor, floating location, contact, recovered crew and subsequent operating strength.
+- Evidence: [Sid Meier's Pirates! decomposition](../games/s-z/sid-meiers-pirates.md), publisher PC manual; claim PIR-008. Exact executable revision, timings and direct play remain uninspected.
+- Novelty: first isolated for `GAME-0487`; transfer tests in `TAXONOMY_CHANGE_224` preserve prior boundaries.
+
+## SYS-1297 — Settle captured prizes with automatic and selected transfers
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: capturing an eligible vessel credits all carried prize gold and a previously unowned specialist automatically, while ordinary offered sailors, cargo and vessel ownership transfer according to accepted choices; sinking the target destroys its carried contents instead.
+- Includes: original Windows Sid Meier's Pirates! ordinary sea encounter. Gold and an eligible new specialist transfer automatically; other assets need choices.
+- Excludes: Automatically taking every cargo quantity; treating prize selection as campaign profit division; loot retained from a sunk target; automatic duplicate specialists.
+- Parameters: capture or sinking, carried gold, specialist ownership, accepted sailors, cargo and retained vessel.
+- Evidence: [Sid Meier's Pirates! decomposition](../games/s-z/sid-meiers-pirates.md), publisher PC manual; claim PIR-009. Exact executable revision, timings and direct play remain uninspected.
+- Novelty: first isolated for `GAME-0487`; transfer tests in `TAXONOMY_CHANGE_224` preserve prior boundaries.
+
+## SYS-1298 — Settle naval defeat according to remaining fleet support
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: own flagship sinking selects recovery from a remaining fleet vessel with partial carried losses or marooning with loss of the sole ship, crew and carried gold; captain surrender instead enters captivity, while previously banked wealth is not lost with carried assets.
+- Includes: original Windows Sid Meier's Pirates! ordinary sea encounter. A remaining fleet vessel can recover the captain after the flagship sinks.
+- Excludes: One universal instant respawn; loss of all previously banked wealth; playing subsequent rescue or prison escape within the encounter; invented exact loss fractions.
+- Parameters: defeat type, surviving vessels, carried assets, retained protected possessions, banked wealth and successor state.
+- Evidence: [Sid Meier's Pirates! decomposition](../games/s-z/sid-meiers-pirates.md), publisher PC manual; claim PIR-010. Exact executable revision, timings and direct play remain uninspected.
+- Novelty: first isolated for `GAME-0487`; transfer tests in `TAXONOMY_CHANGE_224` preserve prior boundaries.
+
+## SYS-1299 — Update national and local standing from the encounter’s damage and interests
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: encounter settlement updates standing according to target nationality, treaties and local shipping interests: defeat or an undamaging draw has no national-opinion effect, while a damaging draw uses victory-style changes and a city’s response can differ from its nation’s.
+- Includes: original Windows Sid Meier's Pirates! ordinary sea encounter. A damaging draw changes national opinion like a victory; local cities have their own interests.
+- Excludes: One universal fame score; every draw being harmless; executing later port access or promotions; changing treaties through the combat command.
+- Parameters: result, enemy damage, nationality, treaties, local origin or destination and separate standing changes.
+- Evidence: [Sid Meier's Pirates! decomposition](../games/s-z/sid-meiers-pirates.md), publisher PC manual; claim PIR-011. Exact executable revision, timings and direct play remain uninspected.
+- Novelty: first isolated for `GAME-0487`; transfer tests in `TAXONOMY_CHANGE_224` preserve prior boundaries.
+
+## SYS-1283 — Schedule individual turns by Speed accumulation and usage-dependent CT subtraction
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: simulation ticks add each actor’s Speed to its CT until the readiness threshold grants an individual turn; ending that turn subtracts a declared amount based on whether movement and action were used, retaining overshoot subject to the residual cap.
+- Includes: Original Final Fantasy Tactics CT with smaller subtraction for one or neither opportunity.
+- Excludes: round-rerolled initiative dice; universal reset to 0/20/40; a real-time input deadline; whole-party phases.
+- Parameters: Speed, tick, threshold, overshoot, used Move/Act flags, subtraction and residual cap.
+- Evidence: [Final Fantasy Tactics decomposition](../games/a-f/final-fantasy-tactics.md), original Square/Sony booklet and original-PS1 written evidence; claims FFT-001–FFT-010. No native executable or direct play was inspected; indexed-source limits remain explicit.
+- Novelty: first isolated for `GAME-0486`; transfer tests in `TAXONOMY_CHANGE_223` preserve all earlier boundaries.
+
+## SYS-1284 — Resolve declared physical or basic commands with directional and compatibility modifiers
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: an eligible physical or basic command applies its declared hit, damage, stat or status effect from actor, target, equipment and compatibility parameters, using the applicable directional evasion and command-specific displacement or critical exception rather than one universal attack result.
+- Includes: Original Final Fantasy Tactics starting weapon and learned Basic Skill/Guts effects, including status-removing Heal.
+- Excludes: guaranteed rear hits despite all equipment evasion; a single fixed damage for all jobs; later charged magic, concentration or elemental surfaces.
+- Parameters: command, actor/target stats, equipment, compatibility, direction, hit chance, damage, status, stat change and secondary effect.
+- Evidence: [Final Fantasy Tactics decomposition](../games/a-f/final-fantasy-tactics.md), original Square/Sony booklet and original-PS1 written evidence; claims FFT-001–FFT-010. No native executable or direct play was inspected; indexed-source limits remain explicit.
+- Novelty: first isolated for `GAME-0486`; transfer tests in `TAXONOMY_CHANGE_223` preserve all earlier boundaries.
+
+## SYS-1285 — Pay the declared restorative command cost and apply its eligible recovery result
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a legal restorative command consumes its declared inventory stock or actor-health cost and applies the specified health restoration or fallen-unit revival to the eligible target; the payment and result are command parameters, not passive recovery.
+- Includes: Original Final Fantasy Tactics learned Potion/Phoenix Down and eligible Wish.
+- Excludes: passive regeneration; an automatically consumed held item; healing HP with status-only Heal; reviving permanently lost units.
+- Parameters: command, learned state, eligible target, stock or own-health payment, restoration and revival state.
+- Evidence: [Final Fantasy Tactics decomposition](../games/a-f/final-fantasy-tactics.md), original Square/Sony booklet and original-PS1 written evidence; claims FFT-001–FFT-010. No native executable or direct play was inspected; indexed-source limits remain explicit.
+- Novelty: first isolated for `GAME-0486`; transfer tests in `TAXONOMY_CHANGE_223` preserve all earlier boundaries.
+
+## SYS-1286 — Expire a fallen actor’s recovery window into permanent loss and remains with protected exceptions
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: zero health disables an actor and starts its local recovery countdown; an eligible timely revival returns it, while unrecovered expiry leads to disappearance and eligible remains, except for protected actors and protagonist-loss conditions declared by the encounter.
+- Includes: Original Final Fantasy Tactics ordinary crystallisation/chests, protected guests and Ramza loss.
+- Excludes: death-save dice; exactly three player rounds; guaranteed permanent guest loss; immediate universal respawn.
+- Parameters: health, fallen state, local count, recovery opportunity, disappearance, protected actor, remains and terminal predicate.
+- Evidence: [Final Fantasy Tactics decomposition](../games/a-f/final-fantasy-tactics.md), original Square/Sony booklet and original-PS1 written evidence; claims FFT-001–FFT-010. No native executable or direct play was inspected; indexed-source limits remain explicit.
+- Novelty: first isolated for `GAME-0486`; transfer tests in `TAXONOMY_CHANGE_223` preserve all earlier boundaries.
+
+## SYS-1287 — Settle a spatially collected remain into its eligible chosen benefit
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: when an eligible actor reaches a retained battlefield remain, its declared chest item or selected crystal benefit is applied, consuming that opportunity rather than automatically distributing every remain at encounter completion.
+- Includes: Original Final Fantasy Tactics chest pickup or crystal HP/MP restoration versus eligible ability inheritance.
+- Excludes: all remaining loot automatically paid at victory; ordinary experience thresholds; guaranteed inheritance of every skill.
+- Parameters: remain, position, actor eligibility, chest item, crystal choices, compatible ability and consumption.
+- Evidence: [Final Fantasy Tactics decomposition](../games/a-f/final-fantasy-tactics.md), original Square/Sony booklet and original-PS1 written evidence; claims FFT-001–FFT-010. No native executable or direct play was inspected; indexed-source limits remain explicit.
+- Novelty: first isolated for `GAME-0486`; transfer tests in `TAXONOMY_CHANGE_223` preserve all earlier boundaries.
+
+## SYS-1288 — Credit the acting job and shared party job experience without spending it
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: an eligible successful command grants job-specific points to its actor and the declared fractional same-job credit to other party members, retaining these balances separately from ordinary character EXP and later ability purchases.
+- Includes: Original Final Fantasy Tactics current-job JP and party spillover.
+- Excludes: automatically buying an ability; global account progression; character-level EXP as the same balance; guaranteed bonus sharing.
+- Parameters: successful action, current job, actor points, party recipients, fraction, bonus exclusion and retained balances.
+- Evidence: [Final Fantasy Tactics decomposition](../games/a-f/final-fantasy-tactics.md), original Square/Sony booklet and original-PS1 written evidence; claims FFT-001–FFT-010. No native executable or direct play was inspected; indexed-source limits remain explicit.
+- Novelty: first isolated for `GAME-0486`; transfer tests in `TAXONOMY_CHANGE_223` preserve all earlier boundaries.
+
+## SYS-1289 — Choose automatic enemy and guest orders on their individual readiness turns
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: when an enemy or guest receives its individual scheduled turn, the system selects and resolves its eligible movement and command under that actor’s current reach, abilities, resources and opportunity limits, without granting the player direct control.
+- Includes: Original Final Fantasy Tactics enemies and guest Delita during Gariland.
+- Excludes: one whole enemy-team phase; an exact publicly committed next hostile intent; manual guest selection; unbounded simultaneous movement.
+- Parameters: actor, allegiance, individual turn, AI policy, reach, available command, target, resources and used opportunities.
+- Evidence: [Final Fantasy Tactics decomposition](../games/a-f/final-fantasy-tactics.md), original Square/Sony booklet and original-PS1 written evidence; claims FFT-001–FFT-010. No native executable or direct play was inspected; indexed-source limits remain explicit.
+- Novelty: first isolated for `GAME-0486`; transfer tests in `TAXONOMY_CHANGE_223` preserve all earlier boundaries.
+
+## SYS-1279 — Update town actor and service availability by the running daily clock
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the town's advancing daily clock changes authored actor presence and business service availability, so a physically reached inquiry destination may become usable or unavailable without the player issuing that availability change.
+- Includes: original Shenmue people's daily activities and bar opening hours in the sailors inquiry.
+- Excludes: random wildlife sampling; a player-built work rota; location changes caused only by a completed player move; disclosure of every future routine.
+- Parameters: date, hour, actor routine, business hours, current presence and service state.
+- Evidence: [Shenmue decomposition](../games/s-z/shenmue.md), original Sega booklet and written Dreamcast routes; claims SH-002 and SH-004.
+- Novelty: first isolated for `GAME-0485`; native routine tables and timing were not inspected.
+
+## SYS-1280 — Register authored inquiry responses into retained notes and successor topics
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a completed eligible investigation exchange registers its authored fact or destination in the retained inquiry record and updates the current subject or later available inquiry topics, without evaluating a selected credibility stance against physical proof.
+- Includes: original Shenmue's sailors, bars and Charlie notebook progression.
+- Excludes: narrative-tone-only dialogue; exchanging a physical key; truth-versus-lie proof judgement; revealing the entire future investigation at once.
+- Parameters: current subject, speaker, prerequisite, response, registered note and successor topic.
+- Evidence: [Shenmue decomposition](../games/s-z/shenmue.md), original Sega booklet and written Dreamcast routes; claims SH-003, SH-004 and SH-006.
+- Novelty: first isolated for `GAME-0485`; retaining a clue does not prove that its registration is necessary for every physical entrance.
+
+## SYS-1281 — Settle scripted cue responses into progress, recovery branches or scene retry
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the active authored action scene evaluates the current temporary cue response and advances to an eligible next response or success, follows a recoverable missed-input branch, or retries after a declared severe failure; one isolated mistake is not universally terminal.
+- Includes: original Shenmue's two Heartbeats Quick Timer Events and their documented recovery/retry behaviour.
+- Excludes: unrestricted free-battle health resolution; universal scene loss after one mistake; a fixed memory sequence with no live presentation; measured timing or complete branch coverage.
+- Parameters: scene state, current cue, response timing, correct or missed identity, recovery branch, severe failure and retry.
+- Evidence: [Shenmue decomposition](../games/s-z/shenmue.md), original booklet and original-Dreamcast QTE accounts; claim SH-005. Exact branches and calendar/save effects remain untested.
+- Novelty: first isolated for `GAME-0485`; current-input adjudication is distinct from the player's response command.
+
+## SYS-1282 — Advance an eligible ended day while retaining the current investigation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: an eligible bedroom sleep ends the active town day and advances to the next date with the existing investigation knowledge still available, rather than generating a fresh investigation or erasing all learned leads.
+- Includes: original Shenmue bedroom sleep during a continuing authored inquiry.
+- Excludes: an unconditional 23:30 terminal failure; asserted Heartbeats exception cutoff; a random regenerated town; exact native save/restoration guarantees.
+- Parameters: eligible day ending, old and next date, bedroom return and retained investigation.
+- Evidence: [Shenmue decomposition](../games/s-z/shenmue.md), original Sega booklet and the explicitly limited night-exception account; claim SH-007.
+- Novelty: first isolated for `GAME-0485`; ordinary nighttime return has quest exceptions and is not a universal defeat gate.
+
+## SYS-1273 — Retain incomplete held search inside a room and reveal contents at completion
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: held reachable-object search advances remaining progress, preserves that partial progress after interruption inside the same room, resets it when the room is left incomplete, and reveals and retains any eligible discovered code or fragment only at completion.
+- Includes: Impossible Mission furniture search bar, room-local continuation and typed result.
+- Excludes: instant visible-loot pickup; mission-persistent unfinished progress; deleting a completed discovery on ordinary interruption.
+- Parameters: target, reach, held progress, interruption, room exit and result.
+- Evidence: [Impossible Mission decomposition](../games/g-l/impossible-mission.md), licensed original-rule reproduction and written original-C64 play; claims IM-001–IM-010. No original executable or direct play was inspected.
+- Novelty: first isolated for `GAME-0484`; lower-ID transfer tests in `TAXONOMY_CHANGE_221` preserve earlier boundaries.
+
+## SYS-1274 — Spend a typed utility token on a local security-system effect
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: an authorised terminal request consumes a matching utility token and applies its declared room-local security effect, temporarily disabling robot activity or returning lifting platforms to their initial positions.
+- Includes: Impossible Mission one-use SNOOZE and LIFT INIT terminal effects.
+- Excludes: destroying robots permanently; restoring the whole mission; freely applying an effect with no matching token.
+- Parameters: token type, stock, terminal, room, effect and temporary duration.
+- Evidence: [Impossible Mission decomposition](../games/g-l/impossible-mission.md), licensed original-rule reproduction and written original-C64 play; claims IM-001–IM-010. No original executable or direct play was inspected.
+- Novelty: first isolated for `GAME-0484`; lower-ID transfer tests in `TAXONOMY_CHANGE_221` preserve earlier boundaries.
+
+## SYS-1275 — Join eligible fragment overlays and recognise an oriented complete card
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: a committed eligible superposition forms a partial fragment composite; only a correctly assembled and oriented complete card with its required fragment set is recognised into one retained password letter, while locally legal wrong composites need not complete.
+- Includes: Impossible Mission punch-card merging and nine-letter progress.
+- Excludes: every non-overlap join guaranteeing a final solution; accepting a known word without card assembly; world-tile adjacency.
+- Parameters: required fragment count and membership, overlay, composite, recognition orientation and letter.
+- Evidence: [Impossible Mission decomposition](../games/g-l/impossible-mission.md), licensed original-rule reproduction and written original-C64 play; claims IM-001–IM-010. No original executable or direct play was inspected.
+- Novelty: first isolated for `GAME-0484`; lower-ID transfer tests in `TAXONOMY_CHANGE_221` preserve earlier boundaries.
+
+## SYS-1276 — Award a utility code and lengthen the next successful pitch challenge
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: a correctly pitch-sorted response grants a utility code and increases the note-sequence length for a subsequent challenge, allowing repeated code acquisition with increasing response difficulty.
+- Includes: Impossible Mission optional code-room rewards and longer sequences.
+- Excludes: repeating an unchanged sequence for unrestricted rewards; granting a password-card fragment; Simon last-cue extension as an asserted identical rule.
+- Parameters: response correctness, awarded type, current length and next challenge.
+- Evidence: [Impossible Mission decomposition](../games/g-l/impossible-mission.md), licensed original-rule reproduction and written original-C64 play; claims IM-001–IM-010. No original executable or direct play was inspected.
+- Novelty: first isolated for `GAME-0484`; lower-ID transfer tests in `TAXONOMY_CHANGE_221` preserve earlier boundaries.
+
+## SYS-1277 — Charge lethal retry against a shared mission-time budget
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a declared lethal fall, hostile discharge or hazard contact subtracts a fixed duration from the shared mission-time allowance and permits continued control while that budget remains, rather than spending a separately finite life stock.
+- Includes: Impossible Mission ten-game-minute penalties for bottom falls, robot zaps and orb contact.
+- Excludes: terminal first-hazard failure; score-only penalties; a fixed finite number of replacement lives; an asserted exact restoration position.
+- Parameters: lethal event, duration debit, remaining mission budget and resumed control.
+- Evidence: [Impossible Mission decomposition](../games/g-l/impossible-mission.md), licensed original-rule reproduction and written original-C64 play; claims IM-001–IM-010. No original executable or direct play was inspected.
+- Novelty: first isolated for `GAME-0484`; lower-ID transfer tests in `TAXONOMY_CHANGE_221` preserve earlier boundaries.
+
+## SYS-1278 — Settle mission score from remaining time and recognised progress
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: at the mission terminal, the system adds weighted contributions from remaining clock time, acquired fragments and utility codes, solved cards and successful completion to produce an attempt score distinct from the win predicate.
+- Includes: Impossible Mission documented final time, discovery, puzzle and mission-bonus score.
+- Excludes: order-sensitive multiplicative modifier resolution; treating a high partial score as mission completion; continuous combat experience.
+- Parameters: terminal, remaining seconds, discovery counts, solved cards and weights.
+- Evidence: [Impossible Mission decomposition](../games/g-l/impossible-mission.md), licensed original-rule reproduction and written original-C64 play; claims IM-001–IM-010. No original executable or direct play was inspected.
+- Novelty: first isolated for `GAME-0484`; lower-ID transfer tests in `TAXONOMY_CHANGE_221` preserve earlier boundaries.
+
+## SYS-1264 — Convert a subdued wild critter into compatible ammunition on contact
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: contact with a currently subdued wild ammunition creature adds its typed ammunition to the carried reserve only while compatible capacity is available.
+- Includes: original Stranger's Wrath hunting stunned Bolamites and Fuzzles.
+- Excludes: collecting a freely moving unstunned creature; probabilistic companion recruitment; abstract score pickup.
+- Parameters: wild type, subdued state, contact, capacity and credited stock.
+- Evidence: [Oddworld: Stranger's Wrath decomposition](../games/m-r/oddworld-strangers-wrath.md), original EA Xbox booklet and independently authored original-Xbox routes; claims SW-001–SW-012. No direct play, measured timing or exact executable is claimed.
+- Novelty: first isolated for `GAME-0483`; lower-ID transfer tests in `TAXONOMY_CHANGE_220` preserve earlier boundaries.
+
+## SYS-1265 — Charge a loaded reusable electrical projectile while waiting
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a loaded reusable electrical projectile automatically gains charge over elapsed unpaused time, so an early shot and a charged shot have distinct eligible power effects without consuming a finite charge reserve.
+- Includes: original loaded Zappfly weak versus charged shots.
+- Excludes: hold-and-release vehicle drift; a finite special-energy meter; fixture response after impact.
+- Parameters: loaded projectile, elapsed time, charge threshold and shot effect.
+- Evidence: [Oddworld: Stranger's Wrath decomposition](../games/m-r/oddworld-strangers-wrath.md), original EA Xbox booklet and independently authored original-Xbox routes; claims SW-001–SW-012. No direct play, measured timing or exact executable is claimed.
+- Novelty: first isolated for `GAME-0483`; lower-ID transfer tests in `TAXONOMY_CHANGE_220` preserve earlier boundaries.
+
+## SYS-1266 — Separate recoverable hostile incapacitation from expiring death
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: hostile incapacitation produces a temporarily collectible living body that can recover, whereas lethal damage produces a dead body that can disappear or be destroyed, making capture eligibility depend on distinct evolving body states.
+- Includes: original Stranger's Wrath knocked-out outlaws versus intact corpses.
+- Excludes: permanent knockout; guaranteed intact body after every kill; immediate bounty payment.
+- Parameters: health, incapacitation, recovery, corpse retention and destructive outcome.
+- Evidence: [Oddworld: Stranger's Wrath decomposition](../games/m-r/oddworld-strangers-wrath.md), original EA Xbox booklet and independently authored original-Xbox routes; claims SW-001–SW-012. No direct play, measured timing or exact executable is claimed.
+- Novelty: first isolated for `GAME-0483`; lower-ID transfer tests in `TAXONOMY_CHANGE_220` preserve earlier boundaries.
+
+## SYS-1267 — Apply typed temporary physical or physiological incapacitation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: an eligible disabling effect temporarily prevents a living target from ordinary action through its declared binding or physiological status, creating a live collection opportunity without requiring lethal health depletion.
+- Includes: Bolamite web and Stunkz retching in original Stranger's Wrath.
+- Excludes: permanent death; a damage-only projectile; one separate gene per critter species.
+- Parameters: effect, affected area, target susceptibility, status and recovery.
+- Evidence: [Oddworld: Stranger's Wrath decomposition](../games/m-r/oddworld-strangers-wrath.md), original EA Xbox booklet and independently authored original-Xbox routes; claims SW-001–SW-012. No direct play, measured timing or exact executable is claimed.
+- Novelty: first isolated for `GAME-0483`; lower-ID transfer tests in `TAXONOMY_CHANGE_220` preserve earlier boundaries.
+
+## SYS-1268 — Complete held body collection into deferred captures
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a sustained eligible collection channel advances toward completion, with living resistance affecting its duration; completion removes the body into recorded alive/dead capture inventory rather than paying currency immediately.
+- Includes: original Stranger's Bounty Can collection meter and pending captures.
+- Excludes: instant payment on defeat; a probabilistic capture roll; carrying the body as a world object.
+- Parameters: body state, progress, resistance, duration, interruption and recorded capture.
+- Evidence: [Oddworld: Stranger's Wrath decomposition](../games/m-r/oddworld-strangers-wrath.md), original EA Xbox booklet and independently authored original-Xbox routes; claims SW-001–SW-012. No direct play, measured timing or exact executable is claimed.
+- Novelty: first isolated for `GAME-0483`; lower-ID transfer tests in `TAXONOMY_CHANGE_220` preserve earlier boundaries.
+
+## SYS-1269 — Settle recorded live or dead captures into store currency
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a designated bounty settlement converts recorded captures into currency according to their captured living or dead state, with living capture worth more and an uncollected defeat absent from that capture payment.
+- Includes: original Stranger's Wrath Bounty Store payout.
+- Excludes: currency on every hit or kill; paying a destroyed uncollected body; whole-campaign victory.
+- Parameters: capture inventory, alive/dead value, settlement recipient and credited currency.
+- Evidence: [Oddworld: Stranger's Wrath decomposition](../games/m-r/oddworld-strangers-wrath.md), original EA Xbox booklet and independently authored original-Xbox routes; claims SW-001–SW-012. No direct play, measured timing or exact executable is claimed.
+- Novelty: first isolated for `GAME-0483`; lower-ID transfer tests in `TAXONOMY_CHANGE_220` preserve earlier boundaries.
+
+## SYS-1270 — Couple exertion spending with requested health conversion and quiet recovery
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: one personal exertion reserve is spent by admitted melee or impact and requested in-place healing; healing transfers it into health, while eligible quiet time and successful bounty collection can restore exertion.
+- Includes: original Stranger's Wrath stamina, shake healing and capture recovery.
+- Excludes: automatic personal-health regeneration; medicine consumption; assuming every sprint/guard spends this reserve.
+- Parameters: exertion, action class, impact, healing conversion, quiet interval and capture credit.
+- Evidence: [Oddworld: Stranger's Wrath decomposition](../games/m-r/oddworld-strangers-wrath.md), original EA Xbox booklet and independently authored original-Xbox routes; claims SW-001–SW-012. No direct play, measured timing or exact executable is claimed.
+- Novelty: first isolated for `GAME-0483`; lower-ID transfer tests in `TAXONOMY_CHANGE_220` preserve earlier boundaries.
+
+## SYS-1271 — Automatically reload an empty typed clip with temporary fire downtime
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: exhausting a loaded ammunition clip starts its automatic reload, temporarily preventing fire of that type before readiness returns; the separate reserve may be finite or inexhaustible.
+- Includes: original Stranger's Wrath automatic critter clip reload, including Zappflies.
+- Excludes: a player reload request; active-reload timing grades; assuming unlimited reserve removes clip downtime.
+- Parameters: ammo type, loaded shots, reserve, reload duration and readiness.
+- Evidence: [Oddworld: Stranger's Wrath decomposition](../games/m-r/oddworld-strangers-wrath.md), original EA Xbox booklet and independently authored original-Xbox routes; claims SW-001–SW-012. No direct play, measured timing or exact executable is claimed.
+- Novelty: first isolated for `GAME-0483`; lower-ID transfer tests in `TAXONOMY_CHANGE_220` preserve earlier boundaries.
+
+## SYS-1272 — Resolve a compatible charged electrical hit into linked fixture state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a fixture struck by a qualifying charged electrical projectile changes its declared linked mechanism state, while an incompatible or insufficiently charged hit does not satisfy that activation condition.
+- Includes: original Stranger's Wrath surge panels opening gates or releasing the crane trap.
+- Excludes: ordinary hostile stun alone; continuous switch-directed platform travel; decorative electrical sparks.
+- Parameters: fixture, projectile compatibility, charge eligibility and linked state.
+- Evidence: [Oddworld: Stranger's Wrath decomposition](../games/m-r/oddworld-strangers-wrath.md), original EA Xbox booklet and independently authored original-Xbox routes; claims SW-001–SW-012. No direct play, measured timing or exact executable is claimed.
+- Novelty: first isolated for `GAME-0483`; lower-ID transfer tests in `TAXONOMY_CHANGE_220` preserve earlier boundaries.
+
+## SYS-1259 — Birth one living unit by consuming an eligible growth item
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: consumption of one eligible growth item adds one living individual to the current population and increases its potential aggregate body size.
+- Includes: A red berry consumed by LocoRoco.
+- Excludes: regrouping existing individuals; abstract score-only collection; rescuing an already supplied actor.
+- Parameters: growth item, consumption, population increment and aggregate size.
+- Evidence: [LocoRoco decomposition](../games/g-l/locoroco.md), original Sony PSP booklet, Sony launch announcement/creator interview and source-limited contemporary first-stage routes; claims LR-001–LR-009. No direct play or exact geometry is claimed.
+- Novelty: first isolated for `GAME-0482`; lower-ID transfer boundaries in `TAXONOMY_CHANGE_219` preserve previous definitions.
+
+## SYS-1260 — Conserve population while changing individual and aggregate physical forms
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an accepted division or local reunion changes how a living population is represented by individual bodies or one aggregate, preserving the number of individuals rather than creating or consuming them.
+- Includes: LocoRoco division and nearby reunion.
+- Excludes: berry-born growth; numerical value merging on collision; collecting distant actors by teleportation.
+- Parameters: population, accepted command, locality, individual bodies and aggregate form.
+- Evidence: [LocoRoco decomposition](../games/g-l/locoroco.md), original Sony PSP booklet, Sony launch announcement/creator interview and source-limited contemporary first-stage routes; claims LR-001–LR-009. No direct play or exact geometry is claimed.
+- Novelty: first isolated for `GAME-0482`; lower-ID transfer boundaries in `TAXONOMY_CHANGE_219` preserve previous definitions.
+
+## SYS-1261 — Reveal a consumable growth item by local bud activation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: proximity or contact activates a previously unrevealed bud into an available growth item; a subsequent consumption event is separate from that activation.
+- Includes: LocoRoco’s locally activated berry buds.
+- Excludes: consumption itself; a purchased item; revealing an item through destruction.
+- Parameters: bud, locality, activation, revealed item and later consumption.
+- Evidence: [LocoRoco decomposition](../games/g-l/locoroco.md), original Sony PSP booklet, Sony launch announcement/creator interview and source-limited contemporary first-stage routes; claims LR-001–LR-009. No direct play or exact geometry is claimed.
+- Novelty: first isolated for `GAME-0482`; lower-ID transfer boundaries in `TAXONOMY_CHANGE_219` preserve previous definitions.
+
+## SYS-1262 — Trigger an authored local response from an eligible stationary group
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: a group meeting the local eligibility conditions and remaining stationary triggers an authored local reaction or reveal, without a rhythm-score command or continued reunion input substituting for waiting.
+- Includes: First-stage LocoRoco optional MuiMui reactions and growing goal tree.
+- Excludes: prototype mood systems; musical timing grades; any arbitrary idle animation with no rule consequence.
+- Parameters: local group, eligibility, inactivity interval, response and revealed result.
+- Evidence: [LocoRoco decomposition](../games/g-l/locoroco.md), original Sony PSP booklet, Sony launch announcement/creator interview and source-limited contemporary first-stage routes; claims LR-001–LR-009. No direct play or exact geometry is claimed.
+- Novelty: first isolated for `GAME-0482`; lower-ID transfer boundaries in `TAXONOMY_CHANGE_219` preserve previous definitions.
+
+## SYS-1263 — Award special parts and mode eligibility for a full-population clear
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: clearing an ordinary stage with its full optional living population awards stage-specific parts and unlock eligibility for another mode, without making that full population compulsory for an ordinary clear.
+- Includes: LocoRoco’s all-twenty No Miss Clear result and Time Attack eligibility.
+- Excludes: playing the unlocked mode; spending the awarded parts; a compulsory full-population clear condition.
+- Parameters: ordinary clear, full-population predicate, parts and unlocked eligibility.
+- Evidence: [LocoRoco decomposition](../games/g-l/locoroco.md), original Sony PSP booklet, Sony launch announcement/creator interview and source-limited contemporary first-stage routes; claims LR-001–LR-009. No direct play or exact geometry is claimed.
+- Novelty: first isolated for `GAME-0482`; lower-ID transfer boundaries in `TAXONOMY_CHANGE_219` preserve previous definitions.
+
+## SYS-1256 — Commit an authored road branch from live vehicle position
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: at a live road split, the controlled vehicle's lateral position commits one authored successor section, updates route history and removes the unchosen continuation once the split completes.
+- Includes: Out Run original-mode road-fork commitment.
+- Excludes: a paused dialogue choice; constructing a road network; a performance-awarded extra race; freely reversing a committed stage choice.
+- Parameters: position, commitment point, successor section, route history and removed continuation.
+- Evidence: [Out Run decomposition](../games/m-r/out-run.md), original Sega upright manual and official retrospective, plus original-mode source at Cannonball commit `27493ebf62be3498dff93ed6a45e8e2db819bae1`; claims OR-001–OR-009. Rewrite transfer is not original-binary verification.
+- Novelty: first isolated for `GAME-0481`; lower-ID transfer tests in `TAXONOMY_CHANGE_218` preserve earlier definitions.
+
+## SYS-1257 — Suppress ordinary off-road slowing during a gear transition
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a gear-transition response temporarily replaces ordinary off-road deceleration, allowing repeated eligible shifts to preserve shoulder speed without removing collision or other independent reward predicates.
+- Includes: Sega-documented Out Run shoulder-driving gear technique.
+- Excludes: nitro or an inventory boost; collision immunity; continuous speed score while off-road; a measured universal shift window.
+- Parameters: gear state, transition, duration, shoulder contact and independent collision/scoring predicates.
+- Evidence: [Out Run decomposition](../games/m-r/out-run.md), original Sega upright manual and official retrospective, plus original-mode source at Cannonball commit `27493ebf62be3498dff93ed6a45e8e2db819bae1`; claims OR-001–OR-009. Rewrite transfer is not original-binary verification.
+- Novelty: first isolated for `GAME-0481`; lower-ID transfer tests in `TAXONOMY_CHANGE_218` preserve earlier definitions.
+
+## SYS-1258 — Credit on-road speed and completed traffic passes
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: during a scored drive, eligible on-road motion continuously contributes speed-dependent score and a completed pass of an autonomous traffic vehicle separately contributes event score.
+- Includes: Out Run original-mode wheel-state speed credit and traffic-pass event.
+- Excludes: contact collectible score; ranked race position; collision damage rewards; drift-combo multipliers; assuming shoulder speed preservation satisfies the on-road predicate.
+- Parameters: wheel state, speed, pass threshold, score contribution and timing.
+- Evidence: [Out Run decomposition](../games/m-r/out-run.md), original Sega upright manual and official retrospective, plus original-mode source at Cannonball commit `27493ebf62be3498dff93ed6a45e8e2db819bae1`; claims OR-001–OR-009. Rewrite transfer is not original-binary verification.
+- Novelty: first isolated for `GAME-0481`; lower-ID transfer tests in `TAXONOMY_CHANGE_218` preserve earlier definitions.
+
+## SYS-1248 — Derive settlement capacity from contiguous usable flat fields
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a settlement's usable contiguous flat field footprint determines its size, resident capacity and advancement; terrain obstructions reduce that footprint and larger neighbouring settlements can appropriate fields from smaller ones.
+- Includes: Populous crop fields, flatness and the castle's minimum 5 × 5 footprint.
+- Excludes: purchasing a fixed building tier; decorative fields with no capacity consequence; assuming a measured growth formula.
+- Parameters: contiguity, flatness, obstructions, claimed fields, settlement size, capacity and advancement.
+- Evidence: [Populous decomposition](../games/m-r/populous.md), original 1989 Electronic Arts / Bullfrog manual, printed rules and inspected Amiga diagrams; claims POP-001–POP-010.
+- Novelty: first isolated for `GAME-0480`; the lower-ID boundary tests and carrier parameters are recorded in `TAXONOMY_CHANGE_217`.
+
+## SYS-1249 — Grow settlement residents to capacity before emitting a walker
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: resident population grows automatically inside a settlement and emits a mobile walker when the current capacity is full; reducing the usable footprint can lower that capacity and force earlier emission.
+- Includes: Populous growth, full-settlement release and deliberate footprint reduction.
+- Excludes: a queued recruited unit; scheduled release independent of population capacity (`SYS-047`); importing exact rate values.
+- Parameters: population, capacity, growth rate, footprint change and emitted walker.
+- Evidence: [Populous decomposition](../games/m-r/populous.md), original 1989 Electronic Arts / Bullfrog manual, printed rules and inspected Amiga diagrams; claims POP-001–POP-010.
+- Novelty: first isolated for `GAME-0480`; the lower-ID boundary tests and carrier parameters are recorded in `TAXONOMY_CHANGE_217`.
+
+## SYS-1250 — Generate a shared divine resource from population and achievements
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the simulation credits a civilisation-wide divine resource from its population and achievements, then debits accepted divine interventions, connecting settlement development to future power availability without a separately assigned praying workforce.
+- Includes: Populous manna generation and expenditure.
+- Excludes: assigned worship labour and its production trade-off (`SYS-1188`); combatant-specific spell reserve; invented cost equations.
+- Parameters: population, achievements, credited resource, command debit and availability.
+- Evidence: [Populous decomposition](../games/m-r/populous.md), original 1989 Electronic Arts / Bullfrog manual, printed rules and inspected Amiga diagrams; claims POP-001–POP-010.
+- Novelty: first isolated for `GAME-0480`; the lower-ID boundary tests and carrier parameters are recorded in `TAXONOMY_CHANGE_217`.
+
+## SYS-1251 — Drain autonomous walker strength during terrain-dependent travel
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a travelling autonomous population actor loses strength while it remains outside replenishing settlement conditions; the terrain changes the drain or survival exposure, and exhaustion can remove the actor even without combat.
+- Includes: Populous walkers tiring, with grass and desert having different survival conditions.
+- Excludes: an embodied player's hunger/needs (`SYS-327`); combat-only injury; assuming measured per-step damage.
+- Parameters: walker, current strength, travel, terrain, settlement and exhaustion.
+- Evidence: [Populous decomposition](../games/m-r/populous.md), original 1989 Electronic Arts / Bullfrog manual, printed rules and inspected Amiga diagrams; claims POP-001–POP-010.
+- Novelty: first isolated for `GAME-0480`; the lower-ID boundary tests and carrier parameters are recorded in `TAXONOMY_CHANGE_217`.
+
+## SYS-1252 — Replace a unique rally leader and rebind its attractor after loss
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the first eligible walker arriving at an unclaimed population attractor becomes its unique leader; leader death or conversion moves the attractor to that actor's last position and requires a new arrival before ordinary relocation can resume.
+- Includes: Populous papal magnet, ankh/skull leader and reset after death or knight promotion.
+- Excludes: morale routing (`SYS-617`); direct player selection of any simultaneous leaders; teleporting all followers.
+- Parameters: eligible arrival, unique leader, loss or conversion, last position and replacement.
+- Evidence: [Populous decomposition](../games/m-r/populous.md), original 1989 Electronic Arts / Bullfrog manual, printed rules and inspected Amiga diagrams; claims POP-001–POP-010.
+- Novelty: first isolated for `GAME-0480`; the lower-ID boundary tests and carrier parameters are recorded in `TAXONOMY_CHANGE_217`.
+
+## SYS-1253 — Convert a rally leader and occupied settlement into a burning knight
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an accepted divine conversion replaces the current population leader and its occupied settlement, if any, with a stronger autonomous attacker whose enemy-settlement attacks burn the target and surrounding usable farmland; subsequent combat can weaken and kill that attacker.
+- Includes: Populous knight promotion and settlement/field burning.
+- Excludes: queued ordinary recruitment; direct per-strike steering; an immortal knight; ordinary autonomous target selection alone (`SYS-051`).
+- Parameters: leader, occupied settlement, conversion, autonomous attacker, target, burned fields and strength.
+- Evidence: [Populous decomposition](../games/m-r/populous.md), original 1989 Electronic Arts / Bullfrog manual, printed rules and inspected Amiga diagrams; claims POP-001–POP-010.
+- Novelty: first isolated for `GAME-0480`; the lower-ID boundary tests and carrier parameters are recorded in `TAXONOMY_CHANGE_217`.
+
+## SYS-1254 — Resolve a typed terrain catastrophe against both populations
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an accepted deity catastrophe changes the declared local terrain or global water geometry and resolves resulting usable-field loss, structures and population exposure without automatically exempting the caster's own side; the chosen effect type specifies the geometry and hazard persistence.
+- Includes: Populous earthquake height disruption, flat bottomless swamp, obstructing volcano and one-increment global flood.
+- Excludes: combat-projectile cover destruction (`SYS-324`); identical formulas for all disasters; a purely cosmetic weather change; a command's legality.
+- Parameters: effect type, local/global geometry, water rule, persistence, fields, settlements and exposed populations.
+- Evidence: [Populous decomposition](../games/m-r/populous.md), original 1989 Electronic Arts / Bullfrog manual, printed rules and inspected Amiga diagrams; claims POP-001–POP-010.
+- Novelty: first isolated for `GAME-0480`; the lower-ID boundary tests and carrier parameters are recorded in `TAXONOMY_CHANGE_217`.
+
+## SYS-1255 — Commit an irreversible population-wide terminal rally
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an accepted terminal rally centralises both populations' attractors, releases settlement occupants and automatically gathers them into a concluding battle, providing necessary crossings while removing further ordinary intervention that could alter the committed outcome.
+- Includes: original Populous Armageddon.
+- Excludes: a freely redirected ordinary attack; repeated campaign transition; automatic victory for the invoking side; restoring ordinary control mid-rally.
+- Parameters: both populations, attractors, release, crossings, intervention lock, battle and elimination.
+- Evidence: [Populous decomposition](../games/m-r/populous.md), original 1989 Electronic Arts / Bullfrog manual, printed rules and inspected Amiga diagrams; claims POP-001–POP-010.
+- Novelty: first isolated for `GAME-0480`; the lower-ID boundary tests and carrier parameters are recorded in `TAXONOMY_CHANGE_217`.
+
+## SYS-1247 — Carry an attached body along an existing vine swing until release
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a valid catch, the moving vine transports its attached body along the existing swing while world time continues, until a player release ends attachment and ordinary traversal resumes; no player-adjustable rope length is required.
+- Includes: Pitfall Harry passively following the caught jungle vine until downward release.
+- Excludes: an adjustable force-integrated anchor swing with reeling (`SYS-1055`); asserting measured pendulum physics or preserved release velocity; instant relocation; merely drawing a decorative vine.
+- Parameters: carrier, attachment, current swing position, ongoing world time, release and subsequent landing.
+- Evidence: [Pitfall! decomposition](../games/m-r/pitfall.md), original Activision Atari 2600 booklet AX-018-03, controls, score, hazards, composite HUD and David Crane's route advice.
+- Novelty: first isolated for `GAME-0479`; passive carriage resolves independently of the catch/release command without assuming modern grappling physics.
+
+## SYS-1246 — Cycle a hostile crossing surface between supported and dangerous phases
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a persistent hostile crossing object autonomously cycles its contact state so that a declared region can support passage in one phase and endanger the body in another; stepping on it does not remove that object.
+- Includes: timing original Pitfall! crocodile-head jumps around opening and closing jaws.
+- Excludes: stomp destruction or transformation (`SYS-064`); a permanently safe moving platform; phase-invariant lethal terrain; an unmeasured universal crocodile collision box.
+- Parameters: hostile object, visible phase, eligible contact region, support predicate, danger predicate and crossing timing.
+- Evidence: [Pitfall! decomposition](../games/m-r/pitfall.md), original Activision Atari 2600 booklet AX-018-03, controls, score, hazards, composite HUD and David Crane's route advice.
+- Novelty: first isolated for `GAME-0479`; the crossing affordance changes while the creature persists, rather than being killed by landing.
+
+## SYS-1245 — Debit score for recoverable route falls and sustained obstacle contact
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an ordinary recoverable route fall subtracts a declared score amount, while eligible moving-obstacle contact subtracts score according to exposure duration; these events do not invoke the distinct lethal-hazard life debit.
+- Includes: an ordinary floor-hole fall costing 100 points and rolling-log contact costing duration-dependent points in original Atari 2600 Pitfall!.
+- Excludes: lethal pit or hostile contact consuming a life (`SYS-911`); one fixed damage debit for every log touch; lost health; a failed puzzle's full restart; post-round floor-tile scoring (`SYS-883`).
+- Parameters: score, ordinary-hole predicate, fall debit, eligible obstacle, contact duration and score-loss rule.
+- Evidence: [Pitfall! decomposition](../games/m-r/pitfall.md), original Activision Atari 2600 booklet AX-018-03, controls, score, hazards, composite HUD and David Crane's route advice.
+- Novelty: first isolated for `GAME-0479`; the same adventure has recoverable score harm separate from fatal finite-life loss.
+
+## SYS-1244 — Advance connected surface and tunnel layers by unequal scene strides
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: crossing an authored scene boundary advances within a circular route, but the connected underground layer advances by a larger surface-scene stride; reachable ladder connections let the controlled body change layers without freely choosing an arbitrary destination.
+- Includes: one original Pitfall! tunnel scene covering three surface scenes within the booklet's 255-scene circular world.
+- Excludes: an autonomous fixed one-way loop (`CON-073`); a fully disclosed teleport destination menu; independent linear stages reset at each edge; random regeneration of the route.
+- Parameters: ring size, direction, current scene, surface stride, tunnel stride, reachable ladders and blocking walls.
+- Evidence: [Pitfall! decomposition](../games/m-r/pitfall.md), original Activision Atari 2600 booklet AX-018-03, controls, score, hazards, composite HUD and David Crane's route advice.
+- Novelty: first isolated for `GAME-0479`; the layer choice changes route distance and bypassed surface opportunities without becoming unrestricted teleportation.
+
+## SYS-1243 — Settle a selected city service into travel time and arrival
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: once a scheduled intercity service is committed, the system advances the travellers along its authored connection, applies its monetary and elapsed-time terms, can present consequential en-route situations and places them at the named successor city.
+- Includes: the chosen first Paris onward journey in the original iOS *80 Days*.
+- Excludes: instantly teleporting to an arbitrary city; a train that autonomously repeats a player-authored freight schedule; guaranteeing a particular narrative incident or an exact travel duration in an uninspected launch build.
+- Parameters: service, origin, destination, departure, fare, journey duration, incident offer and arrival state.
+- Evidence: [80 Days decomposition](../games/0-9/80-days.md), inkle's original press kit, 2014 route-balancing account and live-clock explanation.
+- Novelty: first isolated for `GAME-0478`; journey settlement follows but is not identical to the player's service choice.
+
+## SYS-1241 — Suspend edge-connected blocks and drop unsupported blocks
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after a block is moved, preserve a block whose edge still connects to a lower neighbour; if no valid lower support remains, let the unsupported block fall and update the climbable tower geometry.
+- Includes: a suspended side block or a block falling after its supporting neighbour is moved in original *Catherine* Underground Cemetery.
+- Excludes: every unsupported block always floating; Sokoban crates remaining in place without gravity; a multi-cell Snakebird body falling as one shape (`SYS-084`); exact uninspected block coordinates.
+- Parameters: block, edge contact, lower support, support loss, fall and new traversal surface.
+- Evidence: [Catherine decomposition](../games/a-f/catherine.md), Atlus's contemporary instruction manual and corroborated original-PS3 accounts.
+- Novelty: first isolated for `GAME-0477`; edge contact can preserve a discrete tower block despite absent full face support.
+
+## SYS-1242 — Remove lower tower rows during a live climb
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while an ascent stage remains live, progressively remove lower rows of its block tower according to the stage's clock, making previously usable surfaces unavailable and eventually causing a climber left below to fall.
+- Includes: the first Nightmare's disappearing bottom blocks in original *Catherine*.
+- Excludes: a floor that disappears only after a player move; a one-time scripted support loss; exact row-removal intervals not measured from the original PS3 build; later boss-specific destruction.
+- Parameters: elapsed time, current bottom row, removal event, remaining tower, avatar position and fall terminal.
+- Evidence: [Catherine decomposition](../games/a-f/catherine.md), Atlus's contemporary manual and corroborated original-PS3 first-stage writing.
+- Novelty: first isolated for `GAME-0477`; the tower's lower support frontier recedes independently of the player's chosen block move.
+
+## SYS-1238 — Map sensed jogging to forward course travel
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while a course is active, translate accepted leg-sensor jogging motion into the avatar's forward movement on its authored route; the route does not advance through an independent auto-run when the physical movement request stops.
+- Includes: default jogging travel through an early original *Ring Fit Adventure* Adventure course.
+- Excludes: autonomous downhill motion (`SYS-045`); Balance Board centre-of-pressure steering (`SYS-1152`); free directional movement or Silent Mode squat mapping.
+- Parameters: measured leg motion, accepted step, forward travel, authored route and stop state.
+- Evidence: [Ring Fit Adventure decomposition](../games/m-r/ring-fit-adventure.md), Nintendo's Adventure Mode controls.
+- Novelty: first isolated for `GAME-0476`; a sensed repeated exercise movement continuously controls authored-route progress.
+
+## SYS-1239 — Grade exercise form into attack damage
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during a committed Fit Skill, evaluate the sensed exercise movement against the displayed form and timing guidance, then translate a better or weaker grade into correspondingly higher or lower damage to the selected eligible enemy.
+- Includes: `Great` versus `Good` combat-exercise results in early original *Ring Fit Adventure* Adventure Mode.
+- Excludes: a style-only badge with identical damage; enemy colour advantage before its later unlock; a claim about exact damage multipliers, difficulty-specific rep counts or hidden sensor thresholds.
+- Parameters: skill, sensed movement, posture or timing quality, grade, target and damage.
+- Evidence: [Ring Fit Adventure decomposition](../games/m-r/ring-fit-adventure.md), Nintendo's Adventure Mode Fit Skill guide.
+- Novelty: first isolated for `GAME-0476`; physical form quality changes the outcome of a turn-based attack.
+
+## SYS-1240 — Resolve a held Ab Guard against an enemy turn
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: on an enemy's attack turn, compare the sustained sensed Ring-Con compression at the abdomen with the hostile strike interval; a maintained Ab Guard reduces incoming damage, while releasing too soon permits greater damage to the player's heart pool.
+- Includes: the first ordinary Adventure Fit Battle in original *Ring Fit Adventure*.
+- Excludes: automatic invulnerability; a one-frame timed button reduction (`SYS-1180`); guaranteed damage cancellation or an exact uninspected damage value.
+- Parameters: incoming attack, guard pose, sustained compression, release timing, reduced damage and current hearts.
+- Evidence: [Ring Fit Adventure decomposition](../games/m-r/ring-fit-adventure.md), Nintendo's Ab Guard explanation.
+- Novelty: first isolated for `GAME-0476`; protection depends on a maintained physical guard across the enemy attack, not one button timing point.
+
+## SYS-1235 — Route an authored rail sequence by a threatened civilian's outcome
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: at a declared rail-shooter rescue point, resolve whether the threatened noncombatant survives the live hostile encounter, then commit one of two authored forward camera routes whose enemies and opportunities differ; the player does not steer a walking avatar or select a route node.
+- Includes: saving the researcher at the first `Tragedy` bridge entering the mansion's front route versus letting the researcher be thrown and continuing by the lower sewer route in the original arcade *The House of the Dead*.
+- Excludes: a free physical route entrance (`ACT-613`); a displayed map-node choice (`ACT-127`); a guaranteed rescue from merely avoiding a civilian shot; branching only by final score or a later chapter's ending.
+- Parameters: threatened actor, hostile, rescue window, survival result, front/lower branch, next camera segment and later reconvergence.
+- Evidence: [The House of the Dead decomposition](../games/s-z/the-house-of-the-dead.md), Sega's original-cabinet page and corroborated first-chapter written routes.
+- Novelty: first isolated for `GAME-0475`; an encounter outcome, not a locomotion command, selects the authored camera route.
+
+## SYS-1236 — Change boss damage eligibility after protected weak-point hits
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a protected boss initially accepts effective damage through a disclosed limited body region; enough eligible hits change its armour/body state, after which a broader exposed region can be damaged until the boss health reaches zero.
+- Includes: Chariot's exposed chest target followed by armour loss and broader flesh damage in the original arcade first `Tragedy` chapter.
+- Excludes: treating every armour surface as initially equivalent; an unprotected ordinary enemy headshot; a fixed exact threshold or hit count not measured on the selected board; a later Chariot rematch.
+- Parameters: boss, initial protected surfaces, eligible weak point, armour-state transition, later vulnerable surfaces, health meter and defeat.
+- Evidence: [The House of the Dead decomposition](../games/s-z/the-house-of-the-dead.md), Sega's arcade boss-clearing rule and contemporary first-hand Chariot route.
+- Novelty: first isolated for `GAME-0475`; the admissible hit region changes before the chapter's boss terminal.
+
+## SYS-1237 — Reveal and claim a special item by separate aimed shots
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an eligible shot at destructible scenery may expose a concealed special item; a subsequent eligible shot at the now-visible item claims its declared point or life effect, subject to the current life cap.
+- Includes: optional scenery and special-item shots in the original arcade *The House of the Dead* first chapter.
+- Excludes: assuming every scenery shot reveals an item; automatic contact pickup (`SYS-037`); asserting a fixed hidden-item placement or reward for an uninspected cabinet revision; required rescue or boss defeat.
+- Parameters: eligible scenery, reveal result, visible item, claiming shot, effect type, life cap and score.
+- Evidence: [The House of the Dead decomposition](../games/s-z/the-house-of-the-dead.md), original Sega arcade operator manual pp. 16–17.
+- Novelty: first isolated for `GAME-0475`; the reveal and claim are separate aimed opportunities rather than one contact event.
+
+## SYS-1234 — Resolve typed free-parasite absorption after host or core defeat
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: defeating an eligible infected host releases a free parasite that the avatar may absorb by contact for a type-compatible resource refill; defeating a designated ability-bearing core instead exposes a protected parasite which must be broken and absorbed to restore its named lost ability.
+- Includes: ordinary free-X Energy or missile recovery and the first Arachnus Core-X Morph Ball recovery in original GBA Metroid Fusion.
+- Excludes: a conventional carried item stack (`SYS-222`); the persistent use of the restored ability after absorption (`SYS-398`); assuming every X has a core or any unscoped later ability; exact recovery amounts or boss hit counts.
+- Parameters: defeated host or core, free-parasite type, contact eligibility, compatible reserve and cap, core protection, restored ability and absorption settlement.
+- Evidence: [Metroid Fusion decomposition](../games/m-r/metroid-fusion.md), original Nintendo GBA manual pp. 8, 19 and contemporaneous written opening routes.
+- Novelty: first isolated for `GAME-0474`; typed absorption is not inferred from other Metroid titles.
+
+## SYS-1233 — Couple encounter-driven sanity to deceptive perception
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: encounters with eligible supernatural hostiles reduce a separate personal sanity reserve, a qualifying close finish can restore it, and sufficiently low sanity selects audiovisual events that need not correspond to persistent world objects; depletion can endanger health independently of ordinary hostile damage.
+- Includes: Ellia's sanity loss, finisher recovery and sanity effects during the original GameCube Eternal Darkness tomb chapter.
+- Excludes: an ordinary health bar; a fixed time drain; a claim that every hallucination is a real hostile; sanity-gated corporeal shadow enemies (`SYS-592`); exact event schedule or unmeasured thresholds.
+- Parameters: actor, hostile encounter, current sanity, eligible finish, recovery, effect threshold, audiovisual event, persistence test and health consequence.
+- Evidence: [Eternal Darkness decomposition](../games/a-f/eternal-darkness-sanitys-requiem.md), corroborated contemporary Ellia routes and Nintendo's original-game overview.
+- Novelty: first isolated for `GAME-0473`; not transferred to the opening Pious chapter, which lacks the meter.
+
+## SYS-1231 — Resolve an airborne homing target or forward dash fallback
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: resolve a second airborne attack input by acquiring an eligible nearby enemy and redirecting the avatar toward it for a possible strike; if none is eligible, resolve the command as a forward aerial dash without a target hit.
+- Includes: Sonic's original Dreamcast Homing Attack versus Jump Dash branch in the first Emerald Coast route.
+- Excludes: a guaranteed enemy defeat irrespective of collision (`SYS-215`); a later Light Speed Dash along collectible rings; teleporting to an unseen distant enemy; a manually aimed projectile.
+- Parameters: target set, proximity, selection precedence, current velocity, redirected trajectory, fallback vector, collision and miss.
+- Evidence: [Sonic Adventure decomposition](../games/s-z/sonic-adventure.md), original Dreamcast instruction manual, printed p. 19.
+- Novelty: first isolated for `GAME-0472`; the same airborne command has different world trajectories depending on local target eligibility.
+
+## SYS-1232 — Advance an authored launch chain after each panel jump
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: an accepted jump from the currently reached numbered panel launches the controlled avatar toward the next authored panel; arrival exposes another jump opportunity until the finite chain ends.
+- Includes: the five numbered Emerald Coast jump panels in Sonic's first original Dreamcast route.
+- Excludes: an elastic spring triggered by touch alone (`SYS-1056`); a player-selected arbitrary teleport; a single automatic launch that completes every panel; an unordered panel set.
+- Parameters: panel index, jump acceptance, authored next target, launch trajectory, landing state, required repeated input and chain terminal.
+- Evidence: [Sonic Adventure decomposition](../games/s-z/sonic-adventure.md), contemporary original-Dreamcast Emerald Coast route.
+- Novelty: first isolated for `GAME-0472`; each assisted arrival becomes a new control decision rather than ending the crossing automatically.
+
+## SYS-1228 — Resolve instrument-specific tissue treatment
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: evaluate the selected instrument's accepted contact or traced path against an eligible tissue feature and change the corresponding wound, incision or closure state.
+- Includes: suturing outer cuts, applying gel, following the incision guide and closing the first original-DS Trauma Center operation.
+- Excludes: a decorative pointer trail; forceps object transport; actual clinical efficacy; recipe-step grades (`SYS-1138`).
+- Parameters: tool, tissue feature, path, eligibility, treated state and rejection feedback.
+- Evidence: [Trauma Center: Under the Knife decomposition](../games/s-z/trauma-center-under-the-knife.md), corroborated first-operation transcript and routes.
+- Novelty: first isolated for `GAME-0471`; local tissue response differs by instrument and treatment state.
+
+## SYS-1229 — Reveal and close a staged surgical field
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: completion of exterior preparation permits a guided incision to reveal an inner field; completing required inner treatment returns to the outer opening for final closure.
+- Includes: outer wounds, guided incision, inner glass and final suturing in the first original-DS Trauma Center operation.
+- Excludes: revealing the whole case at entry; a graded recipe sequence; later operations or tumor procedures.
+- Parameters: outer-care flags, incision, inner-care flags, visible field and closure readiness.
+- Evidence: [Trauma Center: Under the Knife decomposition](../games/s-z/trauma-center-under-the-knife.md), corroborated first-operation transcript and routes.
+- Novelty: first isolated for `GAME-0471`; treatment opens and later closes a second field of targets.
+
+## SYS-1230 — Track the treated patient's live vital condition
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: maintain a patient's condition separately from remaining wounds and operation time, updating it in response to eligible care or harmful procedure outcomes and using viability in attempt resolution.
+- Includes: displayed vitals and care/error response in original-DS Trauma Center's first operation; exact rates remain unmeasured.
+- Excludes: the surgeon's avatar health (`SYS-578`); an exact numeric damage or recovery formula; real clinical measurements.
+- Parameters: patient condition, treatment event, error event, viability boundary and feedback.
+- Evidence: [Trauma Center: Under the Knife decomposition](../games/s-z/trauma-center-under-the-knife.md), contemporary first-operation routes.
+- Novelty: first isolated for `GAME-0471`; the success constraint belongs to a treated patient rather than the controlled avatar.
+
+## SYS-1225 — Recognise a competitive rival wreck as a Takedown
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: resolve an authored contact between the player's vehicle or wreck and an eligible race rival; when the impact actually wrecks that rival, register a Takedown event without requiring a finite hostile-wreck mission quota.
+- Includes: pushing a competing Compact car into the Silver Lake barrier and receiving a Takedown in original Burnout 3: Takedown.
+- Excludes: mere side rubbing without a rival wreck; ordinary traffic collision; Need for Speed Payback's permanent heist-stage wreck quota (`SYS-689`); a Road Rage event's takedown target.
+- Parameters: attacker, rival, relative speed, angle, barrier or traffic, damage, qualifying wreck, event feedback and later rival state, whose exact reset timing is unmeasured.
+- Evidence: [Burnout 3: Takedown decomposition](../games/a-f/burnout-3-takedown.md), original PS2 manual, Criterion description and contemporary route.
+- Novelty: first isolated for `GAME-0470`; the wreck itself is a competitive race event, not a carrier-mission kill count.
+
+## SYS-1226 — Refill and resize segmented Boost after Takedowns or crashes
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: a qualifying Takedown replenishes the racing Boost reserve and
+  can extend its temporary segmented capacity up to the bounded maximum. An
+  uncompensated crash or being taken down removes an expanded segment; the
+  original race Aftertouch description permits retaining that segment after a
+  qualifying success. This states the documented branch consequences without
+  specifying suppression, cancellation, debit/reward order, exact final charge
+  or cap/minimum edge behavior. Ordinary manoeuvre charging and manual
+  expenditure remain separate.
+- Includes: the original Burnout 3 first Silver Lake Race’s qualifying
+  Takedown refill/extension and uncompensated crash loss, with successful race
+  Aftertouch segment retention described by the PS2 booklet and no inferred
+  atomic update order.
+- Excludes: earning small charge from a near-miss or drift (SYS-765); manual
+  acceleration spending (SYS-691); stationary boost pads; a permanent car
+  upgrade; directed wreck motion or Takedown recognition by themselves; an
+  asserted atomic crash/Aftertouch update sequence without version-qualified
+  evidence.
+- Parameters: current charge, segment count, maximum segments, qualifying Takedown, crash, refill amount and loss rule. The written route reports at most four segments; executable timing is unmeasured.
+- Evidence: [Burnout 3: Takedown decomposition](../games/a-f/burnout-3-takedown.md), Criterion's developer account for Takedown reward and a contemporary route for segment detail.
+- Novelty: first isolated for `GAME-0470`; opponent wreck and own crash change both stored charge and temporary reserve capacity.
+
+## SYS-1227 — Resolve directed crash wreck into an Aftertouch Takedown
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: in the limited Impact Time after the controlled car crashes, integrate the wreck's player-directed motion and collision; if it contacts and wrecks an eligible race rival, register an Aftertouch Takedown before returning to ordinary race resolution.
+- Includes: guiding the crashed car into a competing Compact car during original Burnout 3: Takedown's Silver Lake Race.
+- Excludes: an unsteered crash; a guaranteed rival wreck from entering Impact Time; Crash Mode's damage-score multipliers or Crashbreaker; continued healthy-car steering.
+- Parameters: crash momentum, steering interval, rival position, collision, qualifying wreck and race continuation. Exact restart frames are unmeasured.
+- Evidence: [Burnout 3: Takedown decomposition](../games/a-f/burnout-3-takedown.md), original PS2 manual and contemporary route.
+- Novelty: first isolated for `GAME-0470`; a losing car's crash remains a short tactical collision opportunity inside a normal race.
+
+## SYS-1222 — Apply avatar-local gravity without reorienting the world
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: an aimed gravity shift changes the controlled avatar's acceleration and landing orientation toward a valid visible surface while the surrounding city's world frame remains unchanged; deactivation restores ordinary down.
+- Includes: Kat falling sideways to walk on a wall or cancelling the skill to fall normally in original PS Vita Gravity Rush.
+- Excludes: a global gravity frame shared by the world and portable cubes (`SYS-125`); freely flying without fall acceleration or contact; treating every visible object as a valid landing surface.
+- Parameters: avatar-local down vector, ordinary world down, fall velocity, target collision, landing orientation and cancellation.
+- Evidence: [Gravity Rush decomposition](../games/g-l/gravity-rush.md), PlayStation's original PS Vita traversal explanation.
+- Novelty: first isolated for `GAME-0468`; personal fall and contact are distinct from Manifold Garden's world-frame rewrite.
+
+## SYS-1223 — Drain and recover a finite gravity-shift gauge
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: active personal gravity shifting consumes a finite visible reserve; deactivation or exhaustion ends the current shift and ordinary gravity resumes, while non-shifting time restores the reserve for another shift.
+- Includes: Kat's gravity-power gauge during early original PS Vita Gravity Rush travel and combat.
+- Excludes: spending health for an attack; a permanent loss of gravity ability after one shift; asserting an exact duration, recharge rate or upgrade level in this bounded chapter.
+- Parameters: gauge capacity, current reserve, active drain, inactive recovery, exhaustion and reset direction.
+- Evidence: [Gravity Rush decomposition](../games/g-l/gravity-rush.md), contemporary original-Vita guide and first-hand review.
+- Novelty: first isolated for `GAME-0468`; a timed avatar-local gravity state and its recovery constrain both wall traversal and aerial attacks.
+
+## SYS-1224 — Restore a local service after a gem collection threshold
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a named local service remains inactive until a required collectible-gem threshold is met and the player interacts with it; the completed interaction restores that service and unlocks its associated local progression state.
+- Includes: collecting at least ten precious gems and activating the first fountain in original PS Vita Gravity Rush's Episode 2.
+- Excludes: merely touching one gem to finish the episode; proving the exact number of gems debited by the fountain; repairing every city service; completing the subsequently unlocked challenge.
+- Parameters: service, required gem threshold, current collected count, interaction, activation and unlocked state.
+- Evidence: [Gravity Rush decomposition](../games/g-l/gravity-rush.md), two contemporary original-Vita chapter guides.
+- Novelty: first isolated for `GAME-0468`; a world service becomes available through a local collection threshold and explicit activation, not a generic pickup alone.
+
+## SYS-1219 — Supply a custom ribbon course from selected audio and pattern segments
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: after a player selects one compatible external audio track, the system supplies a forward sequence of typed ribbon obstacles in relation to that track, drawing on available custom-course pattern and control segments rather than replaying a built-in song's fixed obstacle list.
+- Includes: original PAL Vib-Ribbon's `Single Track` custom-CD mode and its separate custom-CD `SYSTEM3.FSL` track with pattern, speed and spacing segments.
+- Excludes: the six built-in songs' authored scripts; proof that audio alone uniquely determines every obstacle; a user-authored level editor; playback of music with no obstacle relation.
+- Parameters: audio CD, track, track duration, analysed musical signal, selected script start, pattern distribution, obstacle speed and spacing. Exact generation logic remains unmeasured.
+- Evidence: [Vib-Ribbon decomposition](../games/s-z/vib-ribbon.md), PlayStation retrospective, contemporary PAL guide and original-disc FSL documentation.
+- Novelty: first isolated for `GAME-0467`; custom music and script selection determine a live obstacle supply distinct from `SYS-496`'s fixed authored route.
+
+## SYS-1220 — Judge timed ribbon-shape responses as passage or mistake
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: as each typed ribbon obstacle reaches the controlled character, the system compares the current single-button or simultaneous-pair response with its mapped type and timing, then resolves passage or a local mistake while the audio-run schedule continues.
+- Includes: passing a block with timely L1, a pit with Down, a loop with R1, a wave with X, and one block-plus-pit composite with timely L1+Down in original PlayStation Vib-Ribbon.
+- Excludes: scoring an authored fret-and-strum note chart; an obstacle collision that always immediately kills the run; the resulting form change (`SYS-1221`); exact undocumented judgement windows.
+- Parameters: obstacle type, mapped input set, event arrival, sampled input, timing tolerance, pass/miss result and animation.
+- Evidence: [Vib-Ribbon decomposition](../games/s-z/vib-ribbon.md), contemporary English PAL guide and original-disc obstacle enum documentation.
+- Novelty: first isolated for `GAME-0467`; it judges geometry-matched action on a moving music ribbon, not an instructor response or fixed song note.
+
+## SYS-1221 — Change survival form through obstacle clear and mistake runs
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: successful obstacle runs promote the character through a visible form ladder and improve scoring opportunity, while accumulated mistakes demote it; further mistakes at the lowest form end the current track attempt before its endpoint.
+- Includes: rabbit, frog, worm and higher Queen form changes in original PlayStation Vib-Ribbon, including recovery after an earlier demotion.
+- Excludes: a one-hit fatal obstacle; a Rock Meter independent of avatar form (`SYS-1013`); exact numeric streak thresholds or score coefficients without executable measurement.
+- Parameters: current form, clear count, mistake count, promotion/demotion thresholds, score effect, reset behaviour and lowest-form failure predicate.
+- Evidence: [Vib-Ribbon decomposition](../games/s-z/vib-ribbon.md), contemporary PAL guide corroborated by PlayStation's description of form changes.
+- Novelty: first isolated for `GAME-0467`; reversible avatar morphology itself carries performance and survival state.
+
+## SYS-1216 — Enter a close hold automatically on compatible approach
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: when a directly controlled fighter moves into close reach of a compatible live opponent, the system enters a temporary held-opponent state without requiring a separate grab command; subsequent legal attack inputs choose a hold follow-up or the state ends through escape, interruption or resolution.
+- Includes: Axel approaching a nearby enemy in original Genesis Streets of Rage 2 and then choosing a flurry, power blow, throw or vault/slam by the documented directional and button inputs.
+- Excludes: deliberately lifting and carrying a free rigid object (`ACT-048`); a commanded grab requiring its own explicit input; a persistent grapple tool; ordinary close-range strike with no held state.
+- Parameters: compatible opponent, close reach, facing, held duration, escape or interruption, follow-up input, release and damage.
+- Evidence: [Streets of Rage 2 decomposition](../games/s-z/streets-of-rage-2.md), SEGA's preserved original Genesis manual, printed pages 18–21.
+- Novelty: first isolated for `GAME-0466`; proximity itself creates the hold and changes the next legal command vocabulary.
+
+## SYS-1217 — Charge personal health for a special attack by activation mode
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a fighter-owned emergency attack resolves a declared offensive effect while charging the fighter's own current health under mode-specific conditions: one mode charges only after enemy contact, another on command use; the cost is not a separate consumable meter or hostile retaliation.
+- Includes: original Genesis Streets of Rage 2 stationary A Special costing health only if it contacts an enemy and direction+A Special costing health on use.
+- Excludes: enemy damage from the Special's result; resource-bar expenditure instead of personal health; an attack merely enabled by having enough health (`CON-442`); hostile counterattack.
+- Parameters: activation mode, contact test, health charge, effect, current health, minimum eligible health and resolution order.
+- Evidence: [Streets of Rage 2 decomposition](../games/s-z/streets-of-rage-2.md), SEGA's preserved original Genesis manual, printed page 22.
+- Novelty: first isolated for `GAME-0466`; the same A-family action has two distinct self-cost triggers that affect the decision before commitment.
+
+## SYS-1218 — Reset a local section clock and spend a life on Time Over
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an authored combat section starts its own finite countdown; clearing its required local hostiles permits progression and restarts the allowance for the next section, while expiry before clearance consumes one finite player life rather than immediately declaring the entire run failed.
+- Includes: original Genesis Streets of Rage 2's 99-second local sections, Go-arrow or scene advance after enemy clearance, and Time Over Fighter loss.
+- Excludes: one whole-stage deadline with immediate run failure; checkpoint time added to unspent time; an untimed clearance gate (`SYS-915`); the subsequent life-stock replacement itself (`SYS-911`).
+- Parameters: section, initial allowance, remaining time, clear predicate, expiry event, life stock, restart point and terminal precedence.
+- Evidence: [Streets of Rage 2 decomposition](../games/s-z/streets-of-rage-2.md), SEGA's preserved original Genesis manual, printed pages 12–13.
+- Novelty: first isolated for `GAME-0466`; the renewable local deadline has a stock penalty distinct from both encounter gating and whole-run time failure.
+
+## SYS-1213 — Consume a held healing item at a health threshold
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: at an eligible battle held-item check, if a living persistent combatant holds a compatible single-use healing item and its current HP is below the item's declared threshold, automatically restore the item's bounded health amount up to maximum HP and consume it without a separate player item command; a new threshold crossing is not required.
+- Includes: an ordinary held Berry in original Pokémon Gold Version restoring up to 10 HP when its living holder is below half of maximum HP at the between-turn held-item check, even if the immediately preceding action did not lower its HP.
+- Excludes: a manually selected healing item from PACK; continuous regeneration; a Berry that is not equipped; healing a fainted combatant; activation at or above the threshold; requiring a fresh damage event or crossing from above the threshold.
+- Parameters: holder, item slot, threshold, current/maximum HP, eligible check, heal amount, consumption and combat timing.
+- Evidence: [Pokémon Gold Version decomposition](../games/m-r/pokemon-gold-version.md), pinned original Gold `HandleHPHealingItem` and item attributes.
+- Novelty: first isolated for `GAME-0463`; automatic single-use held-item activation is distinct from the player's item command and from party-wide Center healing.
+
+## SYS-1212 — Carry a fighting passenger through an authored branch route
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after a player enters a declared moving route carrier, the carrier advances along its authored path without direct steering input while the carried body may still aim and fight nearby threats; arrival leaves the next stage segment available.
+- Includes: the boat moving downstream after the original Metal Slug 3 crossroads while the passenger battles enemies.
+- Excludes: directly piloting a tank (`ACT-201`, `SYS-320`); passive travel with no live combat; a freely selected fast-travel destination; claiming exact vessel speed or enemy schedule.
+- Parameters: entry threshold, carrier path, passenger position, available attacks, hostiles, arrival and transfer to the next segment.
+- Evidence: [Metal Slug 3 decomposition](../games/m-r/metal-slug-3.md), archived original SNK route page.
+- Novelty: first isolated for `GAME-0462`; carrier motion is automatic yet the combat decision loop remains live.
+
+## SYS-1211 — Count only arena-landed throws against a holdable guardian
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a thrown holdable guardian loses one finite defeat unit only after landing within the accepted arena height; a throw outside that boundary returns the guardian without credit, while exhausting the counted units causes its defeat reward to appear separately for collection.
+- Includes: original N64 Big Bob-omb losing one of three health units when thrown onto the summit, returning after an off-summit throw and revealing the first Power Star only after the third valid hit.
+- Excludes: ordinary damage from any projectile; falling off the arena as a winning ring-out; immediate automatic Star acquisition at guardian defeat; later Bowser bomb-target rules.
+- Parameters: arena boundary, landing test, remaining units, invalid-throw reset, reward and collectible location.
+- Evidence: [Super Mario 64 decomposition](../games/s-z/super-mario-64.md), pinned `king_bobomb.inc.c` original-game decompilation and independent first-star guide.
+- Novelty: first isolated for `GAME-0460`; valid impact and later token contact are distinct transitions.
+
 ## SYS-1209 — Select a defeated hostile’s drop class by the defeating method
 
 - Lifecycle: `Active`
@@ -1938,12 +5012,16 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: resolving a push transfers one exposed movable object between a
-  ground position and a vertical stack relation, preserving its identity and
-  ordered state while the remaining stack stays in place.
+- Definition: resolving a legal push transfers one exposed movable object
+  between a ground position and a vertical stack relation, preserving its
+  identity while the remaining stack stays in place. The relational transfer
+  itself does not advance the object's ordered state; an independently
+  applicable terrain effect may change that state in the same push.
 - Includes: placing a smaller A Good Snowman Is Hard to Build snowball atop a
-  larger top ball, and knocking the top ball of an incomplete stack into the
-  clear cell beyond the pushing agent.
+  larger top ball, and knocking the exposed top ball of an incomplete stack
+  into the empty cell immediately beyond the stack in the push direction,
+  while the monster and remaining balls stay at their source positions during
+  that knock-off.
 - Excludes: translating every object in a contiguous chain; merging colliding
   objects into one; moving an entire rigid stack; freely transferring a buried
   object.
@@ -4148,18 +7226,29 @@
 - Evidence: [Dwarf Fortress decomposition](../games/a-f/dwarf-fortress.md).
 - Novelty: not assessed.
 
-## SYS-197 — Convert worker skill and material into duration, quality and value
+## SYS-197 — Let worker capability affect production rate or output quality
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: completing compatible work transforms supplied material while
-  worker skill and material properties determine speed, quality and value.
-- Includes: Dwarf Fortress workshop products, constructions and crafted goods.
-- Excludes: a fixed recipe independent of worker and material; combat injury.
-- Parameters: labour, skill, workshop, material, recipe, duration, quality and value.
-- Evidence: [Dwarf Fortress decomposition](../games/a-f/dwarf-fortress.md).
+- Definition: an eligible worker performs compatible material-backed production;
+  task-relevant capability changes its completion rate or the quality of the
+  finished item. Material choice and resulting quality affect value only where
+  the game's rules model those properties.
+- Includes: Dwarf Fortress workshop work with skill-dependent speed or quality
+  and material/quality-sensitive value; RimWorld items with skill-dependent
+  finished quality, where Crafting level does not set crafting speed; Palworld
+  Handiwork work with suitability-dependent completion speed.
+- Excludes: eligibility or priority alone without a capability-dependent work
+  rate or output quality; fixed recipe progress unaffected by worker capability;
+  assuming every product has quality or value; combat injury.
+- Parameters: worker, task, capability, material, work rate, completion,
+  output quality and value where those properties exist.
+- Evidence: [Dwarf Fortress decomposition](../games/a-f/dwarf-fortress.md),
+  [RimWorld decomposition](../games/m-r/rimworld.md),
+  [Palworld decomposition](../games/m-r/palworld.md) and
+  [Taxonomy Change 255](../../research/taxonomy-changes/TAXONOMY_CHANGE_255.md).
 - Novelty: not assessed.
 
 ## SYS-198 — Accumulate personal needs, experiences and mood-driven outcomes
@@ -4579,8 +7668,10 @@
 - Confidence: `High`
 - Definition: when a portal frame reaches its required geometry and activation
   state, the system replaces its interior with an active traversal surface.
-- Includes: igniting a valid Minecraft Nether frame and filling every End portal
-  frame slot with an Eye of Ender.
+- Includes: igniting a valid Minecraft Nether frame, and completing all twelve
+  stronghold End-frame Eye slots while counting any Eyes generated already
+  inserted. These create entry surfaces; the post-Dragon exit and later End
+  gateways are not asserted to share that frame-completion cause.
 - Excludes: travelling through an already active portal; a door opened by one key.
 - Parameters: frame type, geometry, filled slots, ignition and active surface.
 - Evidence: [Minecraft decomposition](../games/m-r/minecraft.md).
@@ -4592,11 +7683,22 @@
 - Claim status: `Observation`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: sustained contact with an active portal transfers the avatar and
-  carried state to the corresponding destination dimension and arrival region.
-- Includes: Minecraft Nether portal transfer and End portal entry.
+- Definition: satisfying the active portal type's contact or entry condition
+  transfers the avatar and carried state to the corresponding destination
+  dimension and arrival region. A positive waiting interval is not universal
+  across portal types: publisher guides distinguish waiting in a Nether portal
+  from immediate End entry. Exact Java 26.2 delays, cooldowns,
+  destination/linking and carried-state persistence remain unmeasured. The
+  traversal does not require reactivating an already-active source frame or
+  choosing arbitrary coordinates.
+- Includes: Minecraft Nether portal transfer and stronghold End portal entry
+  under their respective contact/entry conditions. The historical End guide
+  describes immediate transfer, not a shared positive hold timer; no exact
+  Java 26.2 tick value or return-linking algorithm is asserted.
 - Excludes: portal activation; free teleportation to any chosen coordinate.
-- Parameters: portal type, contact duration, destination dimension and arrival.
+- Parameters: portal type, type-specific contact/entry predicate, any required
+  delay and cooldown, destination dimension and arrival/linking. Exact Java 26.2
+  values and carried-state persistence remain unmeasured.
 - Evidence: [Minecraft decomposition](../games/m-r/minecraft.md).
 - Novelty: not assessed.
 
@@ -6010,8 +9112,9 @@
 - Parameters: source, radius, elevation, time of day, invisibility and detection.
 - Evidence: [Dota 2 decomposition](../games/a-f/dota-2.md) and
   [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
-- Additional support: [Command & Conquer Remastered Collection decomposition](../games/a-f/command-and-conquer-remastered-collection.md),
-  for unit- and building-projected current sight under mission fog.
+- Rejected carrier: [Command & Conquer Remastered Collection decomposition](../games/a-f/command-and-conquer-remastered-collection.md);
+  its cumulative shroud discovery does not establish this current-sight boundary.
+  See [the pinned source audit](../../research/normalisation/P2_CNC_VISIBILITY_SOURCE_AUDIT_001.json).
 - Additional support: [StarCraft II decomposition](../games/s-z/starcraft-ii.md),
   for controlled-unit sight and fog updates along the authored Mar Sara road.
 - Additional support: [Warcraft III: Reign of Chaos decomposition](../games/s-z/warcraft-iii-reign-of-chaos.md),
@@ -7303,15 +10406,17 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: a committed quickhack reserves its RAM, advances through upload
-  and any unlocked queue, applies its target effect, then observes cooldown and
-  RAM recovery while eligible hostile tracing may progress toward revealing the
-  netrunner.
+- Definition: a legal quickhack has an effective RAM cost, normally paid with
+  RAM; when RAM is insufficient, unlocked Overclock can consume Health to
+  permit the upload.
+  The hack advances through upload and any unlocked queue, applies its target
+  effect, then observes applicable cooldown and RAM recovery while eligible
+  hostile tracing may progress toward revealing the netrunner.
 - Includes: Cyberpunk 2077 Update 2.0+ base-game netrunning.
 - Excludes: ordinary weapon damage; passive scanner disclosure; Breach Protocol
   removed from enemies in Update 2.0.
-- Parameters: quickhack, RAM, upload, queue, effect, duration, cooldown, trace,
-  interruption and reveal.
+- Parameters: quickhack, effective RAM cost, Overclock Health substitution,
+  upload, queue, effect, duration, cooldown, trace, interruption and reveal.
 - Evidence: [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
 - Novelty: not assessed.
 
@@ -7740,11 +10845,12 @@
   committed unrevived defeat and repeatedly debits the opposing pool for as long
   as that team satisfies the ruleset's declared map-control condition, ending
   the match when either pool reaches zero.
-- Includes: Battlefield 6 and Battlefield V standard Conquest, whose continuing
-  bleed is driven by every currently owned control point; Battlefield 2042
-  Conquest, whose continuing bleed is driven by majority ownership of the map's
-  aggregated sectors; in every case one-ticket committed unrevived deaths and
-  zero-ticket victory or defeat.
+- Includes: Battlefield 6 standard Conquest, whose continuing bleed is driven
+  by every currently owned control point; Battlefield V standard Conquest,
+  whose continuing bleed is driven by majority ownership of control points;
+  Battlefield 2042 Conquest, whose continuing bleed is driven by majority
+  ownership of the map's aggregated sectors; in every case one-ticket
+  committed unrevived deaths and zero-ticket victory or defeat.
 - Excludes: personal kill score as the terminal objective; a round win counter;
   an attacker-only pool that replenishes at sector boundaries (`SYS-644`); a
   percentage round win derived from a single resettable Control point
@@ -7800,7 +10906,9 @@
   making every compatible later route edge or mechanism usable; the capability
   may be intrinsic or remain bound to one unique non-consumed carried artefact.
 - Includes: Hollow Knight: Silksong Swift Step, Drifter's Cloak, Cling Grip and
-  Needolin acquisitions in the scoped Act 1 route.
+  Needolin acquisitions in the scoped Act 1 route; Super Metroid's retained
+  Morphing Ball and Bombs; Power of Revival bound to the retained Dagger of
+  Time in Prince of Persia: The Sands of Time.
 - Excludes: a temporary buff; a carried key consumed by one lock; a disposable
   item whose effect ends on use; a technology unlocked only after accumulating
   abstract research points.
@@ -10632,17 +13740,17 @@
 - Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
 - Novelty: first isolated for `GAME-0179`; it couples finite spatial extraction, worker carrying and a required return trip into one live economy loop.
 
-## SYS-550 — Advance villager construction and repair work
+## SYS-550 — Advance assigned-worker construction and repair work
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: each eligible assigned villager contributes timed work to an owned foundation or damaged entity, completing construction or restoring hit points while the task and target remain legal.
-- Includes: Age of Empires II building construction and villager repair.
+- Definition: each eligible assigned economic worker contributes timed work to an owned foundation or damaged entity, completing construction or restoring hit points while the task and target remain legal; the permitted number of concurrent workers is a ruleset parameter.
+- Includes: Age of Empires II building construction and villager repair; original StarCraft SCV construction by one assigned SCV and SCV repair.
 - Excludes: instant player placement; autonomous construction robots supplied from a logistics network; passive regeneration.
-- Parameters: target, builder count, build or repair time, work-rate scaling, resource cost, cancellation, hit points and completion state.
-- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
+- Parameters: target, builder count and permitted maximum, build or repair time, work-rate scaling, resource cost, cancellation, hit points and completion state.
+- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md) and [StarCraft decomposition](../games/s-z/starcraft.md).
 - Novelty: first isolated for `GAME-0179`; the live selected workers themselves supply construction or repair progress.
 
 ## SYS-551 — Advance a site-bound production queue
@@ -10777,19 +13885,26 @@
 - Novelty: first isolated for `GAME-0180`; an aeronautical route persists across
   planning and cockpit surfaces while remaining advisory to direct control.
 
-## SYS-559 — Record a completed Free Flight in the logbook
+## SYS-559 — Persist a Free Flight logbook entry
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: after the bounded Free Flight reaches an eligible destination
-  ground terminal, the system adds the flight to the persistent logbook and
-  emits the current in-flight entry notification.
+- Definition: the native Free Flight logbook adds a qualifying flight entry to
+  its persistent history, and Sim Update 6 displays an in-session notification
+  of that addition. The authored destination parking/shutdown sequence is a
+  separate analytical acceptance condition, not a demonstrated necessary or
+  sufficient native record trigger. Actual entry and durability require
+  verification independently of route progress or notification alone.
 - Includes: Sim Update 6 Microsoft Flight Simulator 2024 Free Flight logbook
-  settlement after the scoped destination parking and shutdown.
+  addition and its notification, reviewed separately from the authored
+  KBFI-to-KTIW parking/shutdown contract; no native route or record result is
+  presumed.
 - Excludes: Career reward scoring; an unrecorded touch-and-go; a user-authored
-  note; exiting before the flight qualifies for a logbook entry.
+  note; exiting before the flight qualifies for a logbook entry; live plan
+  progress alone; treating an authored parking/shutdown contract or
+  notification alone as proof of a native trigger or durable entry.
 - Parameters: flight identity, origin, destination, departure, arrival, duration,
   ground state, shutdown state, entry identifier and notification.
 - Evidence: [Microsoft Flight Simulator 2024 decomposition](../games/m-r/microsoft-flight-simulator-2024.md).
@@ -10840,9 +13955,10 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: after each Control round, the next authored submap begins with a
-  fresh neutral point and zero local percentages while team round wins persist;
-  the first team to two round wins receives the match result.
+- Definition: after a Control round that does not settle the match, the next
+  authored submap begins with a fresh neutral point and zero local percentages
+  while team round wins persist; the first team to two round wins receives the
+  match result.
 - Includes: ordinary Overwatch Quick Play Control best-of-three settlement.
 - Excludes: regulation bomb rounds with side swaps; a single continuous ticket
   pool; tournament series across separately queued matches.
@@ -12440,13 +15556,18 @@
 - Claim status: `Confirmed`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: when the attacking team owns every required objective in the
-  currently active sector, the system locks that sector as completed, moves the
-  legal combat front to the next authored sector and exposes its objective set.
+- Definition: when the attacking team owns every required objective in a
+  non-final active sector, the system locks that sector as completed, moves
+  the legal combat front to the next authored sector and exposes its required
+  objective set; auxiliary deployment-objective ownership does not determine
+  sector completion, and final-sector completion does not create another
+  front.
 - Includes: the ordered sector progression of the scoped Delta Force Coliseum
   Attack and Defend match.
 - Excludes: simultaneous control of every point on an open Conquest map; a
-  single Control point that resets between rounds; payload checkpoints.
+  single Control point that resets between rounds; payload checkpoints;
+  auxiliary-objective ownership alone; a fictitious next front after the final
+  required sector.
 - Parameters: map, active sector, objective set, capture state, completed
   sector, retreat boundary, next sector and final sector.
 - Evidence: [Delta Force decomposition](../games/a-f/delta-force.md).
@@ -12461,9 +15582,11 @@
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: committed attacker deaths debit one finite shared troop-force
-  pool while defenders may redeploy without debiting an equivalent pool;
-  completed sectors replenish the attacking pool, attacker exhaustion settles
-  defender victory and completion of the final sector settles attacker victory.
+  pool while defenders may redeploy without debiting an equivalent pool, and
+  completed sectors replenish the attacker pool. The admitted exhaustion
+  branch records defender Victory and accepted final required-sector
+  completion records attacker victory; zero troop force alone does not specify
+  every capture/contest settlement condition or simultaneous-event priority.
 - Includes: the scoped Delta Force Coliseum Attack and Defend ticket loop and
   its defender Victory result after attacker troop-force exhaustion.
 - Excludes: symmetric Conquest reinforcement pools; personal Stock lives; a
@@ -12709,8 +15832,8 @@
   active weapon's match-local Durability; zero changes its declared combat
   effectiveness without deleting the weapon, and a completed Weapon Repair Kit
   restores Durability up to the allowed maximum.
-- Includes: NARAKA: BLADEPOINT melee/ranged Durability, zero-Durability Rage
-  consequence and Weapon Repair Kit use.
+- Includes: NARAKA: BLADEPOINT melee/ranged Durability and Weapon Repair Kit
+  use in the scoped Survival match.
 - Excludes: weapon rarity; armour capacity; a tool that disappears at zero;
   permanent account equipment wear.
 - Parameters: weapon, use or interaction, cost, current and maximum Durability,
@@ -15846,24 +18969,30 @@
   lethal on its own track, so the player must budget composure and body as two
   unrelated survival problems.
 
-## SYS-806 — Shed one layer per damage and release the layer's declared children
+## SYS-806 — Remove a destroyed outer layer and release its declared children
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: each hostile carries an ordered stack of typed layers; damage
-  removes the current outermost layer and immediately releases that layer's
-  declared child hostiles at the same position, so destroying one hostile means
-  destroying every layer its stack contains.
-- Includes: a bloon shedding its layer and releasing its declared children on
-  the track during Bloons TD 6's bounded Easy standard route.
+- Definition: damage that destroys the current outer typed layer resolves that
+  hostile's intrinsic declared descendant composition at the parent's local
+  route position. A terminal layer has no descendants and a branching type may
+  have several; this is not a universal linear stack or two-child quota. The
+  rule does not require a separate player hit or visible intermediate frame
+  for each layer. Exact child offsets, inherited state, damage carryover and
+  event order remain unverified for the declared native build.
+- Includes: damage-induced intrinsic layer/child resolution on the bounded
+  Bloons TD 6 Easy standard track; terminal, single-child and branching
+  compositions are documentary contrasts, not an executed build 24829026
+  child-state trace.
 - Excludes: a single health pool reduced by variable damage; a boss that
   changes attack set at a health threshold; splitting caused by a specific
   weapon effect rather than by the target's own composition; an enemy that
   spawns reinforcements from elsewhere.
-- Parameters: layer order, per-layer child set and count, release position,
-  inherited motion and the damage required per layer.
+- Parameters: intrinsic parent/descendant composition, zero-or-more child set,
+  local route position, inherited state, per-layer damage and any carryover.
+  Exact native offsets, event order and intermediate visibility are unverified.
 - Evidence: [Bloons TD 6 decomposition](../games/a-f/bloons-td-6.md).
 - Novelty: first isolated for `GAME-0265`; one hostile is a nested population
   rather than a single body, so the total work it demands is a property of its
@@ -15875,15 +19004,15 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: a hostile that reaches the route's end is removed without ending
-  the attempt and debits the shared defence stock by the total number of layers
-  it still carried, so a partly destroyed hostile costs proportionally less
-  than an untouched one.
+- Definition: a hostile that reaches the route's end is removed and debits the
+  shared defence stock by the total number of layers it still carried, so a
+  partly destroyed hostile costs proportionally less than an untouched one;
+  a leak does not itself end the attempt unless that debit exhausts the stock.
 - Includes: a leaked bloon removing lives equal to its remaining layer total
   during Bloons TD 6's bounded Easy standard route.
 - Excludes: a fixed one-per-failure life stock; damage applied to a controlled
-  avatar's health; an escape that immediately fails the current attempt; a
-  score penalty with no terminal consequence.
+  avatar's health; an escape that immediately fails the current attempt
+  regardless of remaining defence stock; a score penalty with no terminal consequence.
 - Parameters: stock size, per-layer debit, fortification multipliers, leak
   position and the stock value that ends the attempt.
 - Evidence: [Bloons TD 6 decomposition](../games/a-f/bloons-td-6.md).
@@ -15929,22 +19058,31 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: an authored finite schedule indexes waves by round number; each
-  round releases its declared hostile composition onto the same fixed route at
-  its declared spacing, and the schedule advances to the next indexed round
-  once the current one has left the route.
-- Includes: the numbered round schedule releasing its declared bloon
-  composition onto a beginner map's single track during Bloons TD 6's bounded
-  Easy standard route.
+- Definition: an authored finite schedule indexes initial hostile compositions
+  by round number and releases the selected round onto the fixed route at
+  declared entry points and spacing when that round's configured release
+  control permits it. Completion of a round and release of the next are
+  separate conditions: a start command or enabled AutoStart must be
+  distinguished and recorded for the identified ordinary mode/build. A
+  temporarily empty route does not by itself establish completion while
+  scheduled arrivals or descendants remain unresolved. Exact control choice,
+  UI index timing and native completion/release order remain unverified here.
+- Includes: the finite numbered Easy standard schedule on Monkey Meadow, with
+  manual-start versus enabled-AutoStart release treated as an explicit
+  unresolved configuration parameter. Initial scheduled arrivals do not
+  require damaging an existing parent. Boss-v32 behavior is not substituted
+  for the frozen ordinary build 24829026 route.
 - Excludes: waves indexed by elapsed clock time around a moving avatar; lane
   creeps periodically created for both sides of a symmetric match; hostiles
   produced by a player-placed tile; reinforcements triggered by detection.
-- Parameters: round index, per-round composition, spacing, release point,
-  route geometry and the final round of the schedule.
+- Parameters: round index, authored initial composition, spacing, release
+  point, route, final round and recorded manual/AutoStart control. Round
+  resolution, UI index change and actual next release require separate checks.
 - Evidence: [Bloons TD 6 decomposition](../games/a-f/bloons-td-6.md).
-- Novelty: first isolated for `GAME-0265`; the complete threat sequence is
-  authored and ordered by round rather than by time or player action, so every
-  purchase is priced against a known remaining schedule.
+- Novelty: first isolated for `GAME-0265`; initial composition is authored and
+  round-indexed, while release control is a separate configuration. Current
+  progress is not a promise of every future type/count/spacing being displayed,
+  and clearing one round alone does not certify automatic next-wave release.
 
 ## SYS-810 — Convert a deposited shared resource into a placed finite supply drop
 
@@ -16055,13 +19193,16 @@
 - Claim status: `Observation`
 - Evidence quality: `Limited`
 - Confidence: `Medium`
-- Definition: each opponent declares its own set of non-damaging interactions
-  and a private condition over them; performing the right interactions changes
-  that opponent's internal state until the condition is satisfied, at which
-  point the system marks the opponent as eligible to be released without being
-  defeated.
-- Includes: the per-monster interaction options whose correct use turns the
-  monster eligible for release during Undertale's bounded opening route.
+- Definition: in the admitted ordinary encounter branch that requires
+  non-damaging ACT interactions, opponent-specific interactions update the
+  opponent state until its spare condition is satisfied and eligibility is
+  marked. This is preparation for release, not removal or settlement. It does
+  not assert that every monster requires prior ACTs or that damage, initial
+  eligibility and special boss rules are this mechanism.
+- Includes: an identified ordinary opening encounter in which non-damaging ACT
+  interactions are needed before spare eligibility appears; the exact
+  opponent, interaction and state trace remain to be verified for build
+  4279148.
 - Excludes: reducing an opponent's health until it is defeated; a reputation or
   approval value carried between encounters; a capture chance computed from
   health and equipment; a persuasion check resolved by a dice roll.
@@ -16072,17 +19213,21 @@
   is made by learning one specific opponent rather than by applying a general
   combat capability to it.
 
-## SYS-815 — Settle a released opponent out of the encounter without its defeat rewards
+## SYS-815 — Remove an eligible opponent by release without kill EXP
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Limited`
 - Confidence: `Medium`
-- Definition: releasing an eligible opponent removes it from the encounter and
-  ends that encounter exactly as a defeat would, while withholding the progress
-  rewards a defeat pays and leaving the opponent's defeat count unincremented.
-- Includes: sparing an eligible monster to close the encounter without gaining
-  the progress a kill would grant during Undertale's bounded opening route.
+- Definition: committing a valid release removes eligible opponent
+  participants without killing them or granting their kill EXP. Removal closes
+  the encounter only when no opponents remain; it is distinct from merely
+  gaining or displaying eligibility. This does not require zero GOLD or assert
+  an exact currency payment. The exact native reward and persistence trace
+  remains unverified for the declared build.
+- Includes: committed release in the ordinary non-damaging opening route; one
+  opponent leaving is not proof that a group encounter closed, and incidental
+  GOLD is not excluded by the absence of kill EXP.
 - Excludes: fleeing an encounter that remains unresolved; a defeat that simply
   pays no reward; capturing an opponent into owned storage; a non-lethal
   takedown that still removes the target as a defeated body.
@@ -18504,17 +21649,18 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: determine which wildlife instances may appear from each species'
-  configured hemisphere, calendar season, time interval and local habitat,
+- Definition: determine which wild species or collectible wildlife instances
+  may appear from their configured calendar, clock interval and local habitat,
   without guaranteeing a particular eligible species on the next sample.
 - Includes: fish and bug availability on a Northern Hemisphere Animal Crossing:
-  New Horizons island under its current real-world date, hour and habitat.
+  New Horizons island under its current date, hour and habitat; night-only
+  Hoothoot eligibility in original Pokémon Gold Version Route 29 grass.
 - Excludes: a fixed authored encounter; a complete future spawn preview;
   breeding owned creatures; seasonal climate that also rewrites survival rules.
-- Parameters: species, hemisphere, month, hour, weather, habitat, sampling
+- Parameters: species, optional hemisphere and month, hour, weather, habitat, sampling
   region, density, absence and despawn.
 - Evidence: [Animal Crossing: New Horizons decomposition](../games/a-f/animal-crossing-new-horizons.md),
-  using Nintendo's product and beginner guidance.
+  using Nintendo's product and beginner guidance; [Pokémon Gold Version decomposition](../games/m-r/pokemon-gold-version.md), pinned original Gold clock and Route 29 encounter table.
 - Novelty: first isolated for `GAME-0320`; a real-calendar eligibility table
   governs collectible wildlife without the wider survival-climate bundle.
 
@@ -19577,25 +22723,36 @@
   separately expiring aim opportunities rather than one persistent hostile
   field.
 
-## SYS-969 — Award target-class hit score and a no-miss round bonus
+## SYS-969 — Award target-class hit score and a target-perfect round bonus
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: each credited target hit adds the value declared for that
-  target class and round, and completing the whole target schedule without a
-  miss adds one declared perfect-round bonus.
-- Includes: black, blue and red duck hit values and the PERFECT bonus in the
-  first original Duck Hunt Game A round.
-- Excludes: the minimum hit count that qualifies the round; a combo multiplier;
-  time remaining converted to score; points for a miss or escaped target.
-- Parameters: target class, round band, hit value, miss count, schedule size,
-  perfect predicate, perfect bonus and accumulated score.
+- Definition: each credited target hit adds the value declared for its target
+  class and round. Completing the whole scheduled target round with every
+  target credited as hit adds one declared PERFECT bonus. Here MISS means a
+  target-terminal unhit escape after its shot allowance or flight interval
+  expires, not each failed trigger pull. A non-hit shot followed by a legal
+  credited hit on that same target does not by itself disqualify
+  target-perfect completion. This scoring write does not schedule the
+  successor or replace the minimum-hit qualification boundary.
+- Includes: black, blue and red hit values and the first original Duck Hunt
+  Game A PERFECT bonus for ten credited target hits with no target-terminal
+  MISS; zero failed trigger pulls is not an additional requirement.
+- Excludes: the minimum hit count that qualifies the round; a combo
+  multiplier; time remaining converted to score; points for an escaped/unhit
+  target. A failed trigger within an unresolved opportunity is not counted as
+  a terminal target MISS merely because that shot earned no hit points.
+- Parameters: target class, round band, hit value, terminal target-MISS count,
+  schedule size, target-perfect predicate, perfect bonus and accumulated score.
+  Failed trigger attempts are distinct from terminal target MISS events.
 - Evidence: [Duck Hunt decomposition](../games/a-f/duck-hunt.md), using the
   preserved original English NES manual and corroborating score table.
-- Novelty: first isolated for `GAME-0345`; class-valued target hits coexist
-  with a separate binary hit quota and reward complete accuracy at settlement.
+- Novelty: first isolated for `GAME-0345`; class-valued hit points and one
+  whole-schedule target-perfect bonus are distinct score writes. A recovered
+  failed trigger is not a terminal target MISS, and neither score write
+  replaces the independent six-hit first-round qualification.
 
 ## SYS-970 — Restore an optional challenge loser at minimum health
 
@@ -22116,9 +25273,11 @@
   after its finite final release.
 - Includes: a regular first-stage daytime Adventure level in original
   Plants vs. Zombies.
-- Excludes: player-triggered numbered rounds on one route (`SYS-809`);
-  endless survival spawning; symmetrical waves from both teams; exact
-  future spawn times or composition being disclosed.
+- Excludes: finite authored numbered rounds on one route whose release control
+  is separately configured, as in SYS-809; endless survival spawning;
+  symmetrical waves from both teams; exact future spawn times or composition
+  being disclosed. This contrast does not certify Bloons TD 6's selected
+  manual/AutoStart setting.
 - Parameters: entry schedule, row, hostile type, progress position, flag
   positions and final release.
 - Evidence: [Plants vs. Zombies decomposition](../games/m-r/plants-vs-zombies.md),
@@ -23660,3 +26819,211 @@
 - Parameters: eligible hostile, defeat, proof drop, contact collection, credited quantity, mission and locality.
 - Evidence: [Daxter decomposition](../games/a-f/daxter.md), original PSP UCES-00044/ANZ manual PDF leaf 7 and independent original-PSP Westside Hotel routes by Larry Imgrund and Akiro; documentary reconstruction, not direct play.
 - Novelty: first isolated for `GAME-0459`; no claim about every Metal Bug species, exact drop latency or earlier signatures.
+
+## SYS-1214 — Advance a tagged district into repeated moving-rival encounters
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after the required world marks in one authored district are complete, disclose a rival at a reachable location; each eligible contact makes that rival depart to another authored encounter point until the final contact offers a mandatory challenge.
+- Includes: Beat appearing after Dogenzaka Hill's Graffiti Challenge and moving between contacts before his City Rush offer in original Xbox Jet Set Radio Future.
+- Excludes: police waves while tags remain (`SYS-977`); arbitrary NPC wandering; an omniscient future destination map; the challenge's race movement or result.
+- Parameters: district, completed-mark predicate, rival, disclosed current location, contact, next location, encounter count and challenge offer.
+- Evidence: [Jet Set Radio Future decomposition](../games/g-l/jet-set-radio-future.md), the original Xbox manual's map/actor grammar and two contemporary original-Xbox Dogenzaka walkthroughs.
+- Novelty: first isolated for `GAME-0464`; the completed territorial task gates an authored, relocatable rival encounter sequence rather than immediately ending the district.
+
+## SYS-1215 — Race one authored skating rival to a consequential finish
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after an authored one-on-one street race is accepted, an autonomous skating rival advances toward its finish while the player traverses the same event; first arrival is classified as a win or loss that controls the next local story result.
+- Includes: Beat's mandatory Dogenzaka Hill City Rush challenge in original Xbox Jet Set Radio Future.
+- Excludes: a configured field of vehicle rivals (`SYS-515`); a proven ordered-checkpoint or lap validator (`SYS-516`); a proven checkpoint-free road race (`SYS-1020`); the preceding graffiti quota or later police fight.
+- Parameters: challenger, rival, event, traversable route, finish, order, win, loss and downstream story flag. Exact checkpoint and lap geometry remain unmeasured.
+- Evidence: [Jet Set Radio Future decomposition](../games/g-l/jet-set-radio-future.md), two contemporary original-Xbox Dogenzaka walkthroughs and the original Xbox manual's named battle types.
+- Novelty: first isolated for `GAME-0464`; the available evidence supports a single consequential skating race without licensing a particular checkpoint or vehicle-field rule.
+
+## SYS-1325 — Redistribute divisible fluid through live open geometry
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while simulation runs, released divisible fluid moves under gravity and its retained motion through available space, splitting, rejoining and pooling against barriers; changing an outlet alters later movement without a separate command directing each portion.
+- Includes: Clean water branching around stone and collecting in carved basins in original Where’s My Water? Choose Wisely.
+- Excludes: One rigid payload trajectory; fixed-port pipe propagation; an asserted internal cell-mass solver; decorative flow with no route-dependent delivery.
+- Parameters: fluid quantity, gravity, motion, open geometry, barrier, branch, basin, outlet and update cadence.
+- Evidence: [Where’s My Water? decomposition](../games/s-z/wheres-my-water.md), original early-puzzle written accounts and reconciled 1-3 diagram.
+- Novelty: first isolated for `GAME-0493`; operational counterexamples are reviewed in [`TAXONOMY_CHANGE_230`](../../research/taxonomy-changes/TAXONOMY_CHANGE_230.md). No external novelty claim.
+
+## SYS-1326 — Credit an optional collector after sufficient fluid exposure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: when enough of the appropriate moving fluid reaches a stationary optional collector, mark that collector acquired and credit its evaluation value without immediately completing the attempt; mere insufficient contact does not guarantee credit.
+- Includes: Filling the three optional duck targets with clean water in original Where’s My Water? Choose Wisely.
+- Excludes: A moving body acquiring a collectible on any contact; a required receiver completing the level; assumed fluid consumption by the collector; automatic credit from drawing a route through its location.
+- Parameters: collector, accepted fluid, exposure threshold, current fill feedback, credit and continuation.
+- Evidence: [Where’s My Water? decomposition](../games/s-z/wheres-my-water.md), original early-puzzle written accounts and reconciled 1-3 diagram.
+- Novelty: first isolated for `GAME-0493`; operational counterexamples are reviewed in [`TAXONOMY_CHANGE_230`](../../research/taxonomy-changes/TAXONOMY_CHANGE_230.md). No external novelty claim.
+
+## SYS-1327 — Evaluate delivery speed, optional collection and receiver overflow
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: after a bounded fluid delivery succeeds, evaluate its completion speed, acquired optional collectors and additional received fluid as separate result contributions to the attempt score, independently of the minimum delivery gate.
+- Includes: Time, duck and overflow result bonuses in the original Where’s My Water? ordinary puzzle packet.
+- Excludes: An expiring countdown assumed from speed scoring; mandatory acquisition of every collector; an asserted exact arithmetic or weight; order-sensitive multiplier composition.
+- Parameters: completion time, acquired collectors, delivered excess, result contributions, score and presentation.
+- Evidence: [Where’s My Water? decomposition](../games/s-z/wheres-my-water.md), original early-puzzle written accounts and reconciled 1-3 diagram.
+- Novelty: first isolated for `GAME-0493`; operational counterexamples are reviewed in [`TAXONOMY_CHANGE_230`](../../research/taxonomy-changes/TAXONOMY_CHANGE_230.md). No external novelty claim.
+
+## SYS-1328 — Turn a timed height-compatible hold into a damaging reversal
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a correctly timed defensive hold matching the incoming strike class intercepts that strike and executes a counterattack against its attacker; the permitted hold remains available during declared stagger states in which ordinary attack and guard are unavailable.
+- Includes: Original Dreamcast Dead or Alive 2 DREAMCAST high, middle and low holds, including holds while staggering.
+- Excludes: Sustained guard; Soulcalibur impact priority without an automatic damaging reversal; a full-sequence parry quota; universal interception of throws or every strike; an asserted exact timing window or damage formula.
+- Parameters: incoming strike class, control mapping, hold timing, eligible stagger, interception, counterattack and damage.
+- Evidence: [Dead or Alive 2 decomposition](../games/a-f/dead-or-alive-2.md), original USA Dreamcast booklet pp. 6, 11 and 15–16; source-derived, not native execution.
+- Novelty: first isolated for `GAME-0494`; boundary counterexamples are reviewed in [`TAXONOMY_CHANGE_231`](../../research/taxonomy-changes/TAXONOMY_CHANGE_231.md). No external novelty claim.
+
+## SYS-1329 — Increase fighting damage for declared attack-type counter relations
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an eligible same-type strike or throw counter deals more damage than an ordinary attack, while the declared strike-against-throw and throw-against-hold counter relations receive a stronger high-counter damage class.
+- Includes: Original Dreamcast Dead or Alive 2 counter and high-counter relations stated by Tecmo.
+- Excludes: Every interruption automatically being a high counter; guaranteed contact independent of range and state; an invented percentage multiplier; tactical elemental weakness or sword-dependent losing-edge pushback.
+- Parameters: committed attack types, contact eligibility, ordinary damage, counter class and high-counter relation.
+- Evidence: [Dead or Alive 2 decomposition](../games/a-f/dead-or-alive-2.md), original USA Dreamcast booklet pp. 6, 11 and 15–16; source-derived, not native execution.
+- Novelty: first isolated for `GAME-0494`; boundary counterexamples are reviewed in [`TAXONOMY_CHANGE_231`](../../research/taxonomy-changes/TAXONOMY_CHANGE_231.md). No external novelty claim.
+
+## SYS-1330 — Continue a duel on a lower tier with asymmetric fall damage
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: an eligible strike or throw sends the defending fighter through a permitted arena edge to a lower fighting tier, applies fall damage to that defender, and automatically brings the attacker down after them without that fall damage; the same live duel continues unless an ordinary defeat condition is reached.
+- Includes: Original Dreamcast Dead or Alive 2 eligible off-edge transitions on The Great Opera.
+- Excludes: Immediate Ring Out victory with life remaining; a freely chosen teleport; every edge or attack causing a transition; equal fall damage to both participants; respawning after spending a stock.
+- Parameters: tier, permitted edge, displacement move, defending fighter, fall damage, safe following attacker and remaining vitality.
+- Evidence: [Dead or Alive 2 decomposition](../games/a-f/dead-or-alive-2.md), original USA Dreamcast booklet pp. 6, 11 and 15–16; source-derived, not native execution.
+- Novelty: first isolated for `GAME-0494`; boundary counterexamples are reviewed in [`TAXONOMY_CHANGE_231`](../../research/taxonomy-changes/TAXONOMY_CHANGE_231.md). No external novelty claim.
+
+## SYS-1331 — Resolve a simultaneous round threshold through reduced-life sudden death
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: a drawn round awards both fighters a round point; if both reach the required count together, start a further adjudicating fight with lower starting vitality, then settle a clear result or assign a further unresolved draw to the ruleset’s designated champion.
+- Includes: Original Dreamcast Dead or Alive 2 double KO or equal-life timeout and subsequent sudden-death rule.
+- Excludes: Assigning no points for every draw; immediate final drawn match with no further fight; assuming the champion is P1, the previous winner or a particular fighter; importing an arcade-only rule into another game’s VS.
+- Parameters: draw predicate, per-side markers, simultaneous threshold, reduced vitality, subsequent result and designated champion.
+- Evidence: [Dead or Alive 2 decomposition](../games/a-f/dead-or-alive-2.md), original USA Dreamcast booklet pp. 6, 11 and 15–16; source-derived, not native execution.
+- Novelty: first isolated for `GAME-0494`; boundary counterexamples are reviewed in [`TAXONOMY_CHANGE_231`](../../research/taxonomy-changes/TAXONOMY_CHANGE_231.md). No external novelty claim.
+
+## SYS-1332 — Attach a companion with a consumable ability buffer
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: acquiring a companion attaches it to the same directly controlled avatar, adds a consumable health buffer and enables its declared movement abilities; losing that buffer removes the companion and those abilities without transferring direct control.
+- Includes: Single Player Diddy riding DK, adding two hearts, brief held-jump hover and continued Kong Roll until Diddy is lost.
+- Excludes: Manual character substitution; independently controlled co-op partner; an invulnerability ladder; permanent ability acquisition.
+- Parameters: companion, buffer, acquisition, health restoration, granted abilities and loss.
+- Evidence: [Donkey Kong Country Returns decomposition](../games/a-f/donkey-kong-country-returns.md), original USA Wii booklet pp. 9–22 and contemporary written first-stage routes and play testimony; retention limits are attributed separately there. No native execution.
+- Novelty: first isolated for `GAME-0495`; boundary counterexamples are reviewed in [`TAXONOMY_CHANGE_232`](../../research/taxonomy-changes/TAXONOMY_CHANGE_232.md). No external novelty claim.
+
+## SYS-1333 — Retain one airborne jump after rolling off support
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: a directly commanded ground roll that leaves supporting terrain preserves an eligible jump opportunity before falling, although an ordinary airborne state does not grant that opportunity universally.
+- Includes: Original Wii DK rolling off a ledge before jumping toward the O letter.
+- Excludes: Universal double jump; unlimited flight; a compulsory second jump after every first jump.
+- Parameters: roll, support departure, eligibility interval and jump.
+- Evidence: [Donkey Kong Country Returns decomposition](../games/a-f/donkey-kong-country-returns.md), original USA Wii booklet pp. 9–22 and contemporary written first-stage routes and play testimony; retention limits are attributed separately there. No native execution.
+- Novelty: first isolated for `GAME-0495`; boundary counterexamples are reviewed in [`TAXONOMY_CHANGE_232`](../../research/taxonomy-changes/TAXONOMY_CHANGE_232.md). No external novelty claim.
+
+## SYS-1334 — Complete a local collectible set to expose its reward
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: acquiring every member of a finite authored local collectible group exposes its declared reward while the route continues; discovery alone and a partial group do not satisfy that predicate.
+- Includes: Jungle Hijinxs frog-statue banana group and complete bonus-room set exposing a puzzle piece.
+- Excludes: Ordinary pickup value alone; reward merely for discovering a room; final stage clear; an asserted numerical bonus timer.
+- Parameters: group, membership, completion predicate, reward and reset.
+- Evidence: [Donkey Kong Country Returns decomposition](../games/a-f/donkey-kong-country-returns.md), original USA Wii booklet pp. 9–22 and contemporary written first-stage routes and play testimony; retention limits are attributed separately there. No native execution.
+- Novelty: first isolated for `GAME-0495`; boundary counterexamples are reviewed in [`TAXONOMY_CHANGE_232`](../../research/taxonomy-changes/TAXONOMY_CHANGE_232.md). No external novelty claim.
+
+## SYS-1335 — Resolve a timed optional collection detour and gate its retry
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: entering an optional authored collection room starts a bounded local attempt; complete collection yields its reward, expiry ends that attempt without it and returns to the route, while a failed attempt is unavailable for immediate re-entry until the declared route reset.
+- Includes: Original Wii collection bonus rooms, including Jungle Hijinxs, with failure retry requiring death or leaving and restarting the stage.
+- Excludes: Free immediate retry after failure; whole-stage Time Attack; reward for entry alone; an unverified exact duration or nonlethal pit rule.
+- Parameters: entry, local deadline, set, reward, return and retry reset.
+- Evidence: [Donkey Kong Country Returns decomposition](../games/a-f/donkey-kong-country-returns.md), original USA Wii booklet pp. 9–22 and contemporary written first-stage routes and play testimony; retention limits are attributed separately there. No native execution.
+- Novelty: first isolated for `GAME-0495`; boundary counterexamples are reviewed in [`TAXONOMY_CHANGE_232`](../../research/taxonomy-changes/TAXONOMY_CHANGE_232.md). No external novelty claim.
+
+## SYS-1336 — Bank separate collectibles at clear with asymmetric death rollback
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: ordinary finite-life loss rolls eligible letters back to the current checkpoint state while acquired puzzle pieces survive that loss; clearing the stage banks the independent collection credits, whereas quitting or exhausting lives before clear discards newly acquired credits.
+- Includes: Original Wii reported K-O-N-G letter rollback and puzzle-piece retention through ordinary death, with pre-clear quit or game-over loss.
+- Excludes: Immediate permanent banking across quit; one shared rollback for all collectibles; discovery credit alone; resetting previously banked clear credit.
+- Parameters: collectible classes, checkpoint, death, clear, quit, stock exhaustion and banked state.
+- Evidence: [Donkey Kong Country Returns decomposition](../games/a-f/donkey-kong-country-returns.md), original USA Wii booklet pp. 9–22 and contemporary written first-stage routes and play testimony; retention limits are attributed separately there. No native execution.
+- Novelty: first isolated for `GAME-0495`; boundary counterexamples are reviewed in [`TAXONOMY_CHANGE_232`](../../research/taxonomy-changes/TAXONOMY_CHANGE_232.md). No external novelty claim.
+
+## SYS-1337 — Settle a cycling exit reward by a timed grab
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: a stage-exit reward display cycles eligible symbols and the player’s grab settles the current class; a declared random symbol chooses an item class and additional shake input changes its quantity.
+- Includes: Original Wii Slot Machine Barrel banana, coin, balloon and DK symbols, with DK random reward and shake opportunity.
+- Excludes: Selecting an arbitrary reward from a static menu; an asserted random distribution or exact shake multiplier; collection required for ordinary clear.
+- Parameters: cycle, grab instant, symbol, random class, shake and quantity.
+- Evidence: [Donkey Kong Country Returns decomposition](../games/a-f/donkey-kong-country-returns.md), original USA Wii booklet pp. 9–22 and contemporary written first-stage routes and play testimony; retention limits are attributed separately there. No native execution.
+- Novelty: first isolated for `GAME-0495`; boundary counterexamples are reviewed in [`TAXONOMY_CHANGE_232`](../../research/taxonomy-changes/TAXONOMY_CHANGE_232.md). No external novelty claim.
+
+## SYS-1338 — Launch an occupied avatar along an authored barrel route
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: occupying an authored cannon and satisfying its manual or automatic trigger launches the avatar along the declared traversal route, including a transfer between foreground and background sections.
+- Includes: Jungle Hijinxs Barrel Cannons and automatic Blast Barrels linking the revealed background and return path.
+- Excludes: Free aim and power; a pair of freely placed portals; ordinary ground movement; generic ballistic settlement at an arbitrary destination.
+- Parameters: occupancy, trigger, preset route, plane and landing.
+- Evidence: [Donkey Kong Country Returns decomposition](../games/a-f/donkey-kong-country-returns.md), original USA Wii booklet pp. 9–22 and contemporary written first-stage routes and play testimony; retention limits are attributed separately there. No native execution.
+- Novelty: first isolated for `GAME-0495`; boundary counterexamples are reviewed in [`TAXONOMY_CHANGE_232`](../../research/taxonomy-changes/TAXONOMY_CHANGE_232.md). No external novelty claim.

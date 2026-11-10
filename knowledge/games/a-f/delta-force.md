@@ -68,20 +68,23 @@ gene instances but do not enter the signature.
   Luna's Compound Bow equipment and the Recon Respawn Beacon; one match from
   deployment map to the declared result.
 - Primary decision loop: read the active sector, objectives, attacker troop
-  force, remaining time, squad/deployment network, visible or marked opponents,
-  ammunition, health and equipment readiness; choose a legal deployment source;
-  move, aim, fire, reload, throw equipment, place a beacon, revive, communicate
-  or operate an available vehicle; let live damage, marks, capture presence and
-  committed deaths resolve; hold the current objectives or fall back after a
-  completed sector until attacker troop force reaches zero before the final
-  sector is secured.
-- Entry and exit: select the current `A/D - Coliseum` Warfare card and accept
+  force, remaining time, squad/deployment network, visible or marked
+  opponents, ammunition, health and equipment readiness; choose a legal
+  deployment source; move, aim, fire, reload, throw equipment, place a beacon,
+  revive, communicate or operate an available vehicle; let live damage, marks,
+  capture presence and committed deaths resolve; hold the current required
+  objectives or fall back after a completed non-final sector, then follow the
+  match until an explicit result is declared.
+- Entry and exit: select the current A/D - Coliseum Warfare card and accept
   matchmaking. The accepted trace begins at defender deployment with Luna and
   the declared loadout visible. If matchmaking assigns the attacking side,
   leave before deployment and requeue rather than merge both objectives. The
-  trace ends at the first explicit `Victory` or `Defeat` result: defender
-  success occurs when attacker troop force reaches zero; defender failure
-  occurs when attackers complete the final sector first.
+  trace ends at the first explicit Victory or Defeat result: the historically
+  admitted exhaustion branch records defender Victory, while accepted final
+  required-sector completion records defender Defeat. Zero troop force alone
+  does not establish a universal immediate terminal or the priority of
+  simultaneous zero/final capture; the exact build-specific capture/contest
+  settlement gate remains unverified.
 - Reproducible parameterisation: choose Luna whenever her Recon slot is free;
   otherwise requeue. Select the already-available current QBZ-95, remove every
   optional attachment and cosmetic, retain the ordinary sidearm, melee,
@@ -109,14 +112,23 @@ gene instances but do not enter the signature.
   one ordinary King of the Hill match; one Operations extraction; one vehicle-
   first Warfare packet; one auxiliary-objective trace. Each changes the resource
   or terminal boundary and requires a separate current packet.
-- Direct-play status: not conducted. Current official PC/console patch and map
-  material establishes the live season, Coliseum, A/D changes and Luna's legal
-  weapon/equipment boundary. The official Warfare guide establishes side,
-  objective, revive, ticket, replenishment and terminal rules. A current
-  unmodified 4K PC recording inspected `2026-08-31` fixes defender entry as
-  Luna, the deployment surface, active objectives, attacker-ticket exhaustion,
-  explicit `Victory` and result transition. The reconstruction is evidence-
-  based rules reasoning, not a claim of authenticated play.
+- Required-objective qualification: auxiliary ownership does not determine
+  sector completion. No auxiliary-objective trace, extra gene or exact ticket
+  cap is admitted; no fabricated overtime duration or terminal condition is
+  added.
+- Direct-play status: Direct play was not conducted. The historically scoped
+  official PC/console patch and map material establishes the live season,
+  Coliseum, A/D changes and Luna's legal weapon/equipment boundary. The
+  official Warfare guide establishes side, objective, revive, ticket,
+  replenishment and terminal rules. An unmodified 4K PC recording historically
+  inspected on 2026-08-31 fixes defender entry as Luna, the deployment
+  surface, active objectives, attacker-ticket exhaustion, explicit Victory and
+  result transition. The reconstruction is evidence-based rules reasoning, not
+  a claim of authenticated play. The P5 and P7 reviews executed no native
+  client and did not re-inspect that historical recording. Publisher
+  auxiliary-objective notes qualify required-sector completion; the exact
+  zero/contest/final-capture priority and the PC starting/cap value are not
+  recertified.
 
 ## Claim ledger
 
@@ -124,8 +136,8 @@ gene instances but do not enter the signature.
 |---|---|---|---|---|---|
 | `DF-001` | Steam public build `24584641` is the current Windows package and Season 10 Meltdown remains the official live content boundary | Confirmed | Corroborated | High | P1, P2, P3, S1 |
 | `DF-002` | Coliseum is a current Warfare Attack and Defend map whose ordinary A/D objective geometry received current mid-season adjustments | Confirmed | Direct | High | P1, P2 |
-| `DF-003` | Attackers must capture every objective before finite troop force is exhausted, while defenders have unlimited redeployment and win by holding until attacker exhaustion | Confirmed | Direct | High | P4 |
-| `DF-004` | Capturing a sector replenishes attacker troop force and advances play to the next objective set | Confirmed | Direct | High | P4, P5 |
+| `DF-003` | Required sector objectives and an attacker-only finite pool define the A/D contrast; the admitted defender exhaustion branch ends in explicit Victory, without certifying universal zero/contest priority | Confirmed | Direct | High | P4; terminal qualification pending build-specific evidence |
+| `DF-004` | Completing the required objectives of a non-final sector advances the front and separately replenishes attacker force; exact refill amount/cap is not certified here | Confirmed | Direct | High | P4; required-objective exception: P1; PC cap qualification: P5 |
 | `DF-005` | Downed players may be revived before committed death; defender deaths do not debit a symmetric troop-force pool | Confirmed | Corroborated | High | P4, S2 |
 | `DF-006` | Luna is a Recon operator whose Compound Bow supplies Detection and Volt arrows; QBZ-95 is in Luna's current legal Warfare weapon pool | Confirmed | Direct | High | P6, P7 |
 | `DF-007` | Current Warfare admits role loadouts, squad/team cues, legal redeployment sources, Respawn Beacons, call-ins and combined infantry/vehicle combat | Confirmed | Corroborated | High | P4, P8 |
@@ -152,8 +164,9 @@ gene instances but do not enter the signature.
     for Attack and Defend sides, capture, revive/redeploy, finite attacker troop
     force, replenishment, unlimited defender redeployment and both terminals.
   - `P5` — [official Warfare optimisations](https://deltaforce.garena.com/en/news/announcement/F2MA9T),
-    for ordinary A/D's 200-ticket starting boundary and current-class combat
-    adjustments; the numeric value remains a parameter rather than a gene.
+    for platform-scoped adjustment context only. Its 200-ticket paragraph sits
+    under the mobile section and does not certify this PC build's initial pool
+    or cap; no fixed PC value is accepted from that paragraph.
   - `P6` — [official World of Ahsarah operator record](https://www.playdeltaforce.com/act/wikimap/),
     for Luna's Recon identity, Detection Arrow and Volt Arrow.
   - `P7` — [official Eclipse Vigil patch notes](https://deltaforce.garena.com/en/news/announcement/M3DB35),
@@ -203,16 +216,22 @@ gene instances but do not enter the signature.
   ticket consequence.
 - Existing `SYS-395`: eligible uncontested presence converts an active A/D
   objective through capture progress into ownership; opposing presence contests.
-- New `SYS-643`: owning every objective in the active sector closes that front,
-  moves the combat boundary and exposes the next sector.
-- New `SYS-644`: committed attacker deaths debit finite troop force, sector
-  completion replenishes it, defender redeployment remains unlimited, and
-  attacker zero/final-sector completion settle opposite results.
-- Resolution order: live damage can down a soldier; a revive restores control,
-  otherwise death commits and the applicable attacker ticket debit occurs;
-  legal redeployment restores combat authority; objective presence updates
-  capture/contest; a complete objective set advances the sector and replenishes
-  attackers; zero attacker troop force or final-sector completion settles.
+- New `SYS-643`: owning every required objective of a non-final active
+  sector closes that front and exposes the next authored sector. Auxiliary
+  deployment-objective ownership is not a sector-completion condition; final
+  completion creates no additional front.
+- New `SYS-644`: committed attacker deaths debit finite shared troop force
+  and sector completion replenishes it; defenders have no equivalent pool.
+  Retain the historical explicit exhaustion Victory branch and accepted final
+  required-sector result without asserting a universal immediate zero-ticket
+  settlement or unresolved capture/contest event priority.
+- Rule-level composition, not a measured total event order: damage may down a
+  soldier; a completed revive restores control without committed death, while
+  an unrevived attacker death debits the attacker-only pool. Eligible presence
+  resolves ownership; all required objectives complete a sector, with non-final
+  completion changing the front and separately replenishing the pool. The
+  terminal remains an explicit result; exact zero, contest and final-capture
+  priority is not established by the historical single result or general guide.
 - Parameters: damage, mark, capture rate, revive window, respawn delay, sector,
   replenishment and result. Claim IDs: `DF-002`–`DF-008`.
 
@@ -228,9 +247,10 @@ gene instances but do not enter the signature.
   Recon class; existing `CON-347`: redeployment requires a ready legal team
   source; existing `CON-348`: objective progress requires uncontested eligible
   presence.
-- New `CON-524`: capture, deployment and combat-area legality are limited to the
-  active A/D sector; a completed sector forces defender fallback before the next
-  objectives become contestable.
+- New `CON-524`: capture, deployment and combat legality remain inside the
+  active A/D front; completion of a non-final required sector closes the old
+  space and requires defender fallback before the next authored objectives
+  become contestable. Final settlement creates no further defence area.
 - Scarce strategic resources: attacker troop force, living squadmates, safe
   deployment sources, capture time, ammunition, equipment readiness, beacon
   durability, vehicle availability and defensible space.
@@ -252,10 +272,11 @@ gene instances but do not enter the signature.
 
 ### Objective Genes
 
-- New `OBJ-123`: on the fixed defender side, prevent attackers from completing
-  every ordered sector until attacker troop force reaches zero and `Victory`
-  is declared. Final-sector completion first is `Defeat`; personal kills or
-  points matter only through objective survival and shared attrition.
+- New `OBJ-123`: defend the fixed packet until the admitted exhaustion
+  branch declares explicit `Victory`; prevent accepted final required-sector
+  completion, which declares `Defeat`. A zero readout without an explicit
+  result does not complete this packet; simultaneous-event priority remains
+  unresolved, and kills matter only through spatial defence and attrition.
 - Claim IDs: `DF-003`, `DF-004`, `DF-008`.
 
 ### Time Genes
@@ -274,10 +295,10 @@ gene instances but do not enter the signature.
 | A teammate is downed inside the revive window | Reach and complete revive | the teammate returns without committing a death or any attacker-side ticket effect | downing and death are separate states | `DF-005` |
 | A downed attacker is not revived | Allow the window to expire or the player gives up | death commits, attacker troop force drops and redeployment begins | only one side spends the shared finite pool | `DF-003`, `DF-005` |
 | Both sides occupy objective A | Continue contesting | capture does not complete until opposing eligible presence clears | eliminations matter through spatial occupancy | `DF-003` |
-| Attackers own every objective in the current sector | Stop contesting after the final capture | the sector closes, attackers receive replenishment and the legal front advances | capture changes both map legality and ticket state | `DF-004` |
+| Attackers own every required objective of a non-final active sector | Complete the required capture set | the sector closes, the legal front advances and the separate attacker pool is replenished; auxiliary ownership does not gate completion | spatial replacement and resource refresh are different outputs | `DF-004` |
 | A former defender position lies behind the new fallback boundary | Remain after sector completion | warning/closed-front rules remove it as a legal defence or deployment area | old geometry is no longer an open Conquest point | `DF-004` |
-| Attacker troop force reaches zero before final-sector completion | No further input is required | the match declares defender `Victory` and opens result presentation | bounded defender terminal is reproducible | `DF-003`, `DF-008` |
-| Attackers complete the final sector with troop force remaining | No further input is required | the match declares defender `Defeat` | opposite terminal uses the same front state | `DF-003`, `DF-004` |
+| Historical admitted exhaustion branch reaches an explicit defender result before final required-sector completion | Observe the result | defender `Victory` bounds that recorded branch; a zero readout alone does not establish universal immediate settlement | exact capture/contest/zero priority remains unverified | `DF-003`, `DF-008` |
+| Attackers complete the final required sector with positive troop force and the match accepts the result | Observe the declared result | defender `Defeat`; no further front is created | final settlement differs from non-final advance | `DF-003`, `DF-004` |
 
 ## Strategic and experiential structure
 
@@ -327,7 +348,7 @@ gene instances but do not enter the signature.
 | System Behaviour | `SYS-208`, `SYS-215`, `SYS-292`, `SYS-320`, `SYS-380`, `SYS-382`, `SYS-394`, `SYS-395`, `SYS-643`, `SYS-644` | live combat, capture, sector advancement and asymmetric ticket settlement |
 | Constraint | `CON-262`, `CON-269`, `CON-272`, `CON-288`, `CON-346`, `CON-347`, `CON-348`, `CON-524` | capacity, class/source legality, contest and active-front bounds |
 | Information | `INF-073`, `INF-115`, `INF-116`, `INF-119`, `INF-150`, `INF-155` | equipment, partial enemies, operator, team objective and deployment state |
-| Objective | `OBJ-123` | defend until attacker troop force reaches zero |
+| Objective | `OBJ-123` | defend to the explicit Victory of the admitted exhaustion branch; zero readout alone is insufficient |
 | Time | `TIM-003` | continuous squad combat and capture pressure |
 
 ## Corpus comparison

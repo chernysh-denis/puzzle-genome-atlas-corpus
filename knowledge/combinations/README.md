@@ -17,6 +17,15 @@ Each record requires:
 - a match boundary and explicit novelty conclusion;
 - evidence and confidence.
 
+The first paragraph of `## Combination gene set` is the authoritative
+membership block: either a backtick-wrapped `ID + ID` formula (which may wrap
+across lines), or a contiguous bullet list of backtick-wrapped IDs. Legacy
+typed rows such as `- Actions: ID, ID` also remain supported, with each ID
+individually backtick-wrapped. A blank line ends this block. Later explanatory
+paragraphs may reference member or excluded genes without adding membership.
+Missing, malformed or repeated IDs in the membership block are errors; readers
+must not silently deduplicate an invalid formula.
+
 The [index](INDEX.md) supports corpus-wide subset scanning. Exact and near
 genome matching uses the separate game index. Exploratory combinations remain in the private working repository until
 they are supported by a complete analysis.

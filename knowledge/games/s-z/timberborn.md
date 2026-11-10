@@ -158,7 +158,7 @@ gene_ids:
   plans; `SYS-186` routes agents to ranked errands; `SYS-192` propagates
   automation signals; `SYS-196` routes hauling.
 - New: `SYS-255`–`SYS-260`, `SYS-262` and `SYS-263` cover terrain water, weather, plant growth,
-  individual needs, Folktail reproduction, shaft power, automation signals,
+  individual needs, Folktail reproduction, shaft power,
   Science Points and the Earth Recultivator.
 - Resolution order: accept edits; advance weather and water; update soil and
   plants; route jobs, hauling and construction; run recipes, science and power;

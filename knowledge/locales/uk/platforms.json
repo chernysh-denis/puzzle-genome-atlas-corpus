@@ -45,6 +45,10 @@
       "name": "Аркадний автомат",
       "shortName": "Аркада"
     },
+    "PLAT-ATARI-2600": {
+      "name": "Atari 2600",
+      "shortName": "Atari 2600"
+    },
     "PLAT-ATARI-JAGUAR-CD": {
       "name": "Atari Jaguar CD",
       "shortName": "Jaguar CD"
@@ -60,6 +64,10 @@
     "PLAT-BADA": {
       "name": "Bada",
       "shortName": "Bada"
+    },
+    "PLAT-BBC-MICRO": {
+      "name": "BBC Micro",
+      "shortName": "BBC Micro"
     },
     "PLAT-BLACKBERRY": {
       "name": "BlackBerry",
@@ -112,6 +120,10 @@
     "PLAT-GAME-BOY-ADVANCE": {
       "name": "Game Boy Advance",
       "shortName": "GBA"
+    },
+    "PLAT-GAME-BOY-COLOR": {
+      "name": "Game Boy Color",
+      "shortName": "GBC"
     },
     "PLAT-GAME-GEAR": {
       "name": "Game Gear",
@@ -172,6 +184,10 @@
     "PLAT-NEC-PC-9800": {
       "name": "Серія NEC PC-9800",
       "shortName": "PC-9800"
+    },
+    "PLAT-NEO-GEO-MVS": {
+      "name": "Neo Geo MVS",
+      "shortName": "MVS"
     },
     "PLAT-NEW-NINTENDO-3DS": {
       "name": "New Nintendo 3DS",

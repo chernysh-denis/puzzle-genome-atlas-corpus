@@ -1,5 +1,1262 @@
 # Action Genes
 
+## ACT-708 — Draw and release a finite aimed utility arrow
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the controlled actor selects a carried utility-arrow type, holds its bow draw while aiming at a reachable eligible environmental target, and releases to launch one compatible arrow; the command spends that reserve and addresses an environmental tool effect rather than requiring a hostile or breakable combat target.
+- Includes: Drawing and releasing a water arrow toward an eligible manor torch to change illumination in the original Lord Bafford mission.
+- Excludes: ACT-161 a weapon attack addressed to a hostile or breakable target; a thrown inert diversion; a reusable tether whose return is commanded; automatically spawning water on a world surface without an aimed finite projectile.
+- Parameters: Actor, bow, selected utility type, compatible reserve, held draw, aim, release, target reach and impact eligibility.
+- Evidence: [Original Bafford Expert decomposition](../games/s-z/thief-the-dark-project.md), TH-003/004; P1 printed 16-19; P2 Bafford torch route; S1 original v1.33 water-arrow route. Native executable, coefficients, animal/failure timing and saved-state fidelity remain unverified; documentary qualifications stay explicit.
+- Novelty: first isolated for `GAME-0513`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_250`](../../research/taxonomy-changes/TAXONOMY_CHANGE_250.md). No external novelty claim.
+
+## ACT-706 — Hold a contextual heavy-fixture relocation along its authored path
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the locally controlled actor engages an eligible heavy movable fixture and holds the contextual relocation input to move it along its authored path toward a permitted stopping position; release ends the commanded movement, rather than issuing a one-cell push or carrying the fixture freely.
+- Includes: Grace moves the Nurses Station trolley to reach the elevated screwdriver container and the previously obstructed herb locker in the first Care Center episode.
+- Excludes: ACT-009 a one-logical-position adjacent push with the avatar occupying the vacated contact position; freely carrying a physics prop; remotely editing room topology; an automatic cart with no held relocation command.
+- Parameters: Actor, fixture, reachable engagement, held input, authored path, stopping position, movement noise and changed local reach.
+- Evidence: [First Grace care-centre decomposition](../games/m-r/resident-evil-requiem.md), RQ-004; R1 3000 HOLD prompt; S1/S2 cart route; S5 mode-resolved items. Exact native coefficients, installed regional/build parity and controlled save/reload remain unverified. Later community documentation remains qualified corroboration.
+- Novelty: first isolated for `GAME-0512`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_249`](../../research/taxonomy-changes/TAXONOMY_CHANGE_249.md). No external novelty claim.
+
+## ACT-707 — Aim and spend a carried breakable distraction projectile
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: the player selects one finite carried breakable object, aims and throws it toward a reachable world point; the throw spends that carried unit and its impact can shatter it into a local attention stimulus, with eligible direct-contact responses belonging to the target rather than a guaranteed harmless-inert-object contract.
+- Includes: Grace throws an Empty Bottle to draw the Girl away from a passage; the item surface exposes Power and Radius without proving native numerical damage or stagger coefficients.
+- Excludes: ACT-406 whose strict inert diversion boundary excludes a damaging projectile; ACT-184 a primed tactical grenade with its fuse and field effect; a returnable hand tool; proving that every hit staggers or kills the Girl; inventing readable numerical bottle damage from sampled bars.
+- Parameters: Carried object, finite count, aim, reachable point, impact, breakage, attention stimulus and target-specific contact response.
+- Evidence: [First Grace care-centre decomposition](../games/m-r/resident-evil-requiem.md), RQ-005; R1 2620 item description and 2930 carried bottle slot; S1/S2 distraction route; S7 bottle description. Controlled impact and exact contact effects are unverified. Exact native coefficients, installed regional/build parity and controlled save/reload remain unverified. Later community documentation remains qualified corroboration.
+- Novelty: first isolated for `GAME-0512`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_249`](../../research/taxonomy-changes/TAXONOMY_CHANGE_249.md). No external novelty claim.
+
+## ACT-704 — Place a carried specimen in a recoverable home display
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: the player selects one carried animal specimen and places its species-specific display at an eligible unoccupied home position, removing it from carried capacity without selling, releasing or donating it; the same owned specimen can subsequently be collected again.
+- Includes: Placing a caught New Leaf fish in its home tank and later picking it back into pockets.
+- Excludes: ACT-186 round weapon redistribution; ACT-612 purchased furnishing in a paused construction mode; irreversible release; a public museum donation; assuming outdoor fish-tank placement in New Leaf.
+- Parameters: Specimen, home, display representation, footprint, free position, carried capacity and recovery.
+- Evidence: [Original New Leaf fishing decomposition](../games/a-f/animal-crossing-new-leaf.md), NL-006; P1 sections 7/9; S5 pockets; S9 fish-as-furniture context. Exact native coefficients, installed regional/build parity and controlled save/reload remain unverified. Later community documentation remains qualified corroboration.
+- Novelty: first isolated for `GAME-0511`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_248`](../../research/taxonomy-changes/TAXONOMY_CHANGE_248.md). No external novelty claim.
+
+## ACT-705 — Request current-world persistence with continued play or session exit
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: from an available saving menu, the player explicitly requests persistence of the current world record and chooses to continue ordinary play or end the session after that write; the request does not select an older historical branch.
+- Includes: New Leaf START saving options after the initial save-enabling stage.
+- Excludes: An automatic checkpoint alone; TIM-007 selecting a previous retained history; SYS-1349 consuming a one-use suspend state; changing the system clock.
+- Parameters: Current record, menu availability, save request, continued control, session exit and write completion.
+- Evidence: [Original New Leaf fishing decomposition](../games/a-f/animal-crossing-new-leaf.md), NL-009; P1 section 5. Exact native coefficients, installed regional/build parity and controlled save/reload remain unverified. Later community documentation remains qualified corroboration.
+- Novelty: first isolated for `GAME-0511`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_248`](../../research/taxonomy-changes/TAXONOMY_CHANGE_248.md). No external novelty claim.
+
+## ACT-703 — Commit an anchored traversal crossing without choosing an adjustable flight trajectory
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the player aims a reusable carried line at an eligible world anchor and requests attachment and a supported crossing of the local gap; the admitted command does not require changing line length or selecting a free-flight release trajectory.
+- Includes: The first Indiana Jones and the Great Circle temple gap, where an aimed whip attachment enables the crossing.
+- Excludes: ACT-361 one-way grappling pull that ends at its target; ACT-531 adjustable reeling and chosen momentum-bearing release; automatic crossing with no attachment request; weapon whip attacks.
+- Parameters: Aim, carried line, eligible anchor, local gap, attachment request, supported crossing and returned ordinary control.
+- Evidence: [Indiana Jones complete-opening decomposition](../games/g-l/indiana-jones-and-the-great-circle.md), IJ-003; R1 390/398/405; S2 temple route. Installed binary, captured presets, native coefficients and save/reload sets remain unverified; premium-access and later documentary sources retain their dates.
+- Novelty: first isolated for `GAME-0510`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_247`](../../research/taxonomy-changes/TAXONOMY_CHANGE_247.md). No external novelty claim.
+
+## ACT-697 — Revise a persistent officer roster and its active deployment assignment
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: at the operational base, the player recruits or dismisses an eligible named officer and assigns available roster members to bounded active team slots, retaining their individual identities and equipment rather than selecting interchangeable combat-unit purchases.
+- Includes: Ready or Not ordinary Commander initial reserves, offered recruitment, Fire and replacement of an assigned officer before the next deployment.
+- Excludes: ACT-651 placement on tactical starting panels; ACT-153 military training schedules; capture of creatures into storage; automatically resurrecting an absent officer; cosmetic personnel portraits.
+- Parameters: Officer identity, reserve, recruitment availability, dismissal, assigned slot, retained equipment and deployment eligibility.
+- Evidence: [Ready or Not decomposition](../games/m-r/ready-or-not.md), RON-002/014; P1 Commander; P2 dated Commander design; R1 180/220/1600/1650. No native execution, exact coefficients, original-launch binary checksum or bug-free implementation is claimed; dated source qualifications remain in the game ledger.
+- Novelty: first isolated for `GAME-0508`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_245`](../../research/taxonomy-changes/TAXONOMY_CHANGE_245.md). No external novelty claim.
+
+## ACT-698 — Send an eligible roster member to temporary stress treatment
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: at a personnel-management state, the player requests treatment for an eligible retained actor, removing that actor from current deployment availability rather than directly restoring combat health inside the running mission.
+- Includes: Ready or Not Commander Send To Therapy control after first-mission stress settlement.
+- Excludes: Global combat bandaging; instantly healing a fatal injury; firing the officer permanently; assigning a colony medical bed; guaranteeing an exact treatment duration.
+- Parameters: Retained actor, treatment eligibility, request, temporary unavailability, stress and later recovery rule.
+- Evidence: [Ready or Not decomposition](../games/m-r/ready-or-not.md), RON-014; P1 stress system; P2; R1 1600 personnel file; S2 later corroboration. No native execution, exact coefficients, original-launch binary checksum or bug-free implementation is claimed; dated source qualifications remain in the game ledger.
+- Novelty: first isolated for `GAME-0508`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_245`](../../research/taxonomy-changes/TAXONOMY_CHANGE_245.md). No external novelty claim.
+
+## ACT-699 — Issue a state-qualified police compliance or repositioning directive
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the embodied officer addresses a reachable contact with a compliance directive, or requests a permitted turn, relocation or exit from an already surrendered or arrested contact; the directive requests a response and does not itself guarantee surrender or complete physical custody.
+- Includes: Ready or Not compliance calls and the 1.0 surrendered/arrested contact commands to turn, approach, move to a marked location or leave toward an exit.
+- Excludes: Continuous gun-coverage arrest under ACT-417; physically restraining through ACT-341; giving a squad waypoint under ACT-189; guaranteed command obedience by an active hostile.
+- Parameters: Contact, reach, current compliance/custody state, directive, marked point, exit and response eligibility.
+- Evidence: [Ready or Not decomposition](../games/m-r/ready-or-not.md), RON-006/007; P1 new contact commands and fake surrender; R1 900/1470. No native execution, exact coefficients, original-launch binary checksum or bug-free implementation is claimed; dated source qualifications remain in the game ledger.
+- Novelty: first isolated for `GAME-0508`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_245`](../../research/taxonomy-changes/TAXONOMY_CHANGE_245.md). No external novelty claim.
+
+## ACT-700 — Select a live mediated tactical viewpoint without transferring actor control
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the player requests a compatible live camera view from a tool or teammate-carried camera, inspecting the scene from that limited viewpoint while retaining control of the original officer rather than moving that officer to the camera location.
+- Includes: Ready or Not equipped Mirror Gun inspection beneath an addressed door and tablet preview of an officer headcam.
+- Excludes: Replay-viewer free camera; an omniscient enemy map; toggling local night-vision filtering; transferring playable control to the camera carrier; a static written briefing.
+- Parameters: Viewing device, equipment/access prerequisite, camera carrier or door aperture, selectable feed, view extent and original control.
+- Evidence: [Ready or Not decomposition](../games/m-r/ready-or-not.md), RON-010/011; P1 tablet team cameras; R1 710 equipment; S3/S4 Mirror Gun operation. No native execution, exact coefficients, original-launch binary checksum or bug-free implementation is claimed; dated source qualifications remain in the game ledger.
+- Novelty: first isolated for `GAME-0508`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_245`](../../research/taxonomy-changes/TAXONOMY_CHANGE_245.md). No external novelty claim.
+
+## ACT-701 — Toggle fitted night vision without creating a local illumination field
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: during embodied control, the player activates or deactivates equipped night-vision equipment to change the interpretation of locally visible light without emitting a flashlight field or replacing ordinary movement and weapon authority.
+- Includes: Ready or Not fitted NVGs used as an alternative to other selected headwear during dark mission-room inspection.
+- Excludes: ACT-409 emitting portable flashlight illumination; an omniscient through-wall scanner; a powered combat-mode reserve; cosmetic color grading in a replay viewer.
+- Parameters: Fitted device, selected headwear, toggle state, available local light, visible frame and retained actor authority.
+- Evidence: [Ready or Not decomposition](../games/m-r/ready-or-not.md), RON-010; P1 NVG equipment; S3 dated 1.0 headwear; S11 earlier local-light advice, exact launch visual processing unmeasured. No native execution, exact coefficients, original-launch binary checksum or bug-free implementation is claimed; dated source qualifications remain in the game ledger.
+- Novelty: first isolated for `GAME-0508`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_245`](../../research/taxonomy-changes/TAXONOMY_CHANGE_245.md). No external novelty claim.
+
+## ACT-702 — Commit self-bandaging against an active bleeding condition
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: the player commits a self-treatment action against current bleeding, temporarily giving up ordinary weapon use to request bleeding control without selecting a wound region or restoring the health already lost.
+- Includes: Ready or Not self-bandaging command; contemporary launch bug reports establish its presence, while older written evidence supplies the non-restorative intended outcome.
+- Excludes: ACT-211 selected-region treatment in a medical panel; instantly refilling health; a purchased recovery potion; treating an AI officer by selecting a medical item.
+- Parameters: Current bleed, treatment request, completion interval, weapon availability, interruption and non-restored health.
+- Evidence: [Ready or Not decomposition](../games/m-r/ready-or-not.md), RON-012; S8 April 2023 written treatment account and S9 December 14 launch bug thread; exact launch execution not reproduced. No native execution, exact coefficients, original-launch binary checksum or bug-free implementation is claimed; dated source qualifications remain in the game ledger.
+- Novelty: first isolated for `GAME-0508`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_245`](../../research/taxonomy-changes/TAXONOMY_CHANGE_245.md). No external novelty claim.
+
+## ACT-694 — Choose an offered unlocked race class and vehicle before entry
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: before one finite race attempt, the player selects an admitted unlocked vehicle class and then one offered vehicle in that class, assigning its handling and contact properties for the attempt without a separate garage-ownership or selectable-transmission transaction.
+- Includes: Original MotorStorm first Grizzly event selecting any of its seven offered classes and an available vehicle before the grid.
+- Excludes: Choosing an owned active garage vehicle under ACT-291; choosing a car together with a manual/automatic transmission under ACT-608; buying or tuning a vehicle; changing class after race entry.
+- Parameters: Event eligibility, unlocked class, offered models, current selection, class handling and attempt commitment.
+- Evidence: [MotorStorm decomposition](../games/m-r/motorstorm.md), MS-001/002; P1 printed pp. 6–9 and 14–15; R1 180/210. No native execution, exact coefficients, captured patch/region or cross-save terrain history is claimed; documentary qualifications remain in the game ledger.
+- Novelty: first isolated for `GAME-0507`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_244`](../../research/taxonomy-changes/TAXONOMY_CHANGE_244.md). No external novelty claim.
+
+## ACT-695 — Hold and release vehicle boost against accumulating engine heat
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while directly driving an eligible vehicle, the player holds a boost request to obtain increased acceleration and speed at the cost of accumulating engine heat, then releases it to permit cooling before destructive overheating rather than spending a finite stored thrust reserve.
+- Includes: Original MotorStorm held Boost and deliberate release between heat phases after the start warm-up.
+- Excludes: ACT-309 debiting a finite propulsion reserve; automatic acceleration with no boost input; F-Zero GX spending shared damage energy; a timed drift release producing a one-off speed burst.
+- Parameters: Boost input, readiness, held duration, engine heat, cooling opportunity, acceleration, speed and overheat threshold.
+- Evidence: [MotorStorm decomposition](../games/m-r/motorstorm.md), MS-004; P1 printed pp. 4–5 and 12–13; R1 495. No native execution, exact coefficients, captured patch/region or cross-save terrain history is claimed; documentary qualifications remain in the game ledger.
+- Novelty: first isolated for `GAME-0507`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_244`](../../research/taxonomy-changes/TAXONOMY_CHANGE_244.md). No external novelty claim.
+
+## ACT-696 — Request a context-qualified mounted attack against a nearby rider
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while directly controlling an eligible ridden racing vehicle, the player issues the shared action command to attack a nearby eligible rival rider; when that local attack context is absent, the same input resolves another non-attack action instead of guaranteeing a remote strike.
+- Includes: Original MotorStorm MX Bike Action used when another bike is nearby, with the manual’s different fallback action when no competitor can be attacked.
+- Excludes: ACT-379 steering the whole vehicle into a rival; firing a mounted projectile; a weapon-tool attack requiring an equipped combat implement; an unconditional strike against a distant rider; a guaranteed knock-off inferred from every accepted request.
+- Parameters: Controlled class, nearby eligible rider, relative location, contextual command, attack availability and fallback action.
+- Evidence: [MotorStorm decomposition](../games/m-r/motorstorm.md), MS-006; P1 printed pp. 12–13. No native execution, exact coefficients, captured patch/region or cross-save terrain history is claimed; documentary qualifications remain in the game ledger.
+- Novelty: first isolated for `GAME-0507`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_244`](../../research/taxonomy-changes/TAXONOMY_CHANGE_244.md). No external novelty claim.
+
+## ACT-692 — Swap the complete prepared hand-pair loadout during live control
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the player switches the active equipment state between retained prepared loadouts, replacing the usable primary and offhand assignment together rather than selecting one carried item or editing the preparation slots.
+- Includes: The Avowed tutorial Y command switching between sword/shield, two-handed bow and wand/grimoire preparations.
+- Excludes: Selecting one hotbar item; toggling a weapon input against a separately selected personal-power channel; configuring inventory slots; acquiring new ownership by switching.
+- Parameters: Prepared loadouts, primary/offhand assignments, active pair, two-handed occupation and retained inactive pair.
+- Evidence: [Avowed decomposition](../games/a-f/avowed.md), AV-004; P1 Weapon Swapping; R2 1250/1600. Native execution, exact coefficients, captured patch/preset and platform parity are not claimed; source conflicts remain in the game ledger.
+- Novelty: first isolated for `GAME-0506`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_243`](../../research/taxonomy-changes/TAXONOMY_CHANGE_243.md). No external novelty claim.
+
+## ACT-693 — Request a priced refund of retained character-point allocations
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: the player confirms an available currency-priced reset of one declared persistent character-point allocation group so its spent points become available for redistribution; the request is distinct from spending an unallocated point.
+- Includes: Avowed attribute or ability reset requested from the character menus after point allocation becomes available.
+- Excludes: A free Spark redistribution; changing only equipped items; creating the initial character; automatically refunding points on death; assuming every allocation group resets together.
+- Parameters: Allocation group, retained purchases, displayed currency price, available balance, confirmation and refunded points.
+- Evidence: [Avowed decomposition](../games/a-f/avowed.md), AV-011; P1 Examine All of the Abilities; S4 level-two allocation/reset account. Native execution, exact coefficients, captured patch/preset and platform parity are not claimed; source conflicts remain in the game ledger.
+- Novelty: first isolated for `GAME-0506`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_243`](../../research/taxonomy-changes/TAXONOMY_CHANGE_243.md). No external novelty claim.
+
+## ACT-690 — Quarter-turn the current flight attack sector
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player changes the active aiming view around an automatically advancing flying body by a declared quarter-turn, bringing flank or rear threats into the attack region without reversing or freely selecting the world route.
+- Includes: Original Panzer Dragoon L/R flight-view changes in 90-degree increments.
+- Excludes: Changing only following-camera distance; steering a free-flight destination; an automatic cinematic camera; assuming identical body authority in every attack sector.
+- Parameters: Current sector, turn direction, quarter-turn step, exposed targets and retained route.
+- Evidence: [Panzer Dragoon decomposition](../games/m-r/panzer-dragoon.md), PD-002/004; P2 printed pp. 5–7; S2 qualified body restriction. Native execution, exact coefficients and disc parity are not claimed.
+- Novelty: first isolated for `GAME-0505`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_242`](../../research/taxonomy-changes/TAXONOMY_CHANGE_242.md). No external novelty claim.
+
+## ACT-691 — Sweep a held acquisition command and release its pending volley
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player holds acquisition while moving the reticle across eligible hostile targets, then releases that same held command to commit the pending multi-target homing volley rather than continuously fire at one automatically retained opponent.
+- Includes: Holding A/B/C, aiming over enemies and releasing the dragon homing volley in original Panzer Dragoon.
+- Excludes: Arming a finite inventory missile before a separate fire command; a single retained automatic fire target; treating target marks as already resolved hits.
+- Parameters: Held command, reticle path, eligible targets, pending acquisitions and release.
+- Evidence: [Panzer Dragoon decomposition](../games/m-r/panzer-dragoon.md), PD-003; P2 printed p. 8. Native execution, exact coefficients and disc parity are not claimed.
+- Novelty: first isolated for `GAME-0505`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_242`](../../research/taxonomy-changes/TAXONOMY_CHANGE_242.md). No external novelty claim.
+
+## ACT-683 — Choose a district employment fraction
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: the player selects a persistent fraction of a district’s full employment, reallocating shared workforce and scaling its declared resource requirements and output together.
+- Includes: Reducing an extraction district’s employment to free workers for the research-bearing housing district in Frostpunk 2.
+- Excludes: Assigning named individual workers; changing the global simulation speed; choosing a different production recipe.
+- Parameters: Employment fraction, full staffing requirement, free workforce and scaled inputs/output.
+- Evidence: [Frostpunk 2 decomposition](../games/a-f/frostpunk-2.md), FP2-004; P1 11:14–11:44. Native execution, exact coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0504`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_241`](../../research/taxonomy-changes/TAXONOMY_CHANGE_241.md). No external novelty claim.
+
+## ACT-684 — Reserve or extend a connected multi-cell district footprint
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the player chooses the required connected world-cell set for one district or a permitted adjacent extension of that district, then commits that footprint to the settlement’s construction process.
+- Includes: Selecting a housing district’s cleared cells and later selecting its adjacent expansion cells in Frostpunk 2.
+- Excludes: Placing one single-hex district; individually drawing residential zoning with no committed district cell count; frostbreaking the ground before construction.
+- Parameters: District class, required initial and extension cell counts, available adjacent cells and expansion allowance.
+- Evidence: [Frostpunk 2 decomposition](../games/a-f/frostpunk-2.md), FP2-002; P1 8:48–9:25/12:09–12:49; S1. Native execution, exact coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0504`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_241`](../../research/taxonomy-changes/TAXONOMY_CHANGE_241.md). No external novelty claim.
+
+## ACT-685 — Commit finite regional teams to exploration or harvesting
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: the player assigns a declared number of available regional teams to one currently eligible exploration or resource-harvesting activity, reserving those teams instead of steering individual travellers.
+- Includes: Sending Frostland Teams to explore a western region or assigning them to a discovered harvesting area in Frostpunk 2.
+- Excludes: Forming a party with individually selected equipment; directly driving a scout; claiming that every harvesting area requires a trail.
+- Parameters: Activity eligibility, team count, assignment duration, terrain difficulty and risk disclosure.
+- Evidence: [Frostpunk 2 decomposition](../games/a-f/frostpunk-2.md), FP2-010; P1 15:52–18:38. Native execution, exact coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0504`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_241`](../../research/taxonomy-changes/TAXONOMY_CHANGE_241.md). No external novelty claim.
+
+## ACT-686 — Set directed resource-shipment rates between managed settlements
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the player configures the direction and persistent amount per simulation interval of each permitted resource shipment between two separately managed connected settlements.
+- Includes: Setting oil shipments from the Old Dreadnought to New London while sending food in the opposite direction in Frostpunk 2.
+- Excludes: A one-off transfer of people; selecting a merchant price; drawing the connecting trail; moving a physical carried stack by hand.
+- Parameters: Resource type, source, destination, signed rate and route capacity.
+- Evidence: [Frostpunk 2 decomposition](../games/a-f/frostpunk-2.md), FP2-012; P1 19:36–20:12; S1. Native execution, exact coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0504`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_241`](../../research/taxonomy-changes/TAXONOMY_CHANGE_241.md). No external novelty claim.
+
+## ACT-687 — Select a community-directed governing intervention
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the player addresses one current community or faction and commits an eligible governing intervention whose disclosed material payment, benefit and relationship cost apply to that group.
+- Includes: Requesting community funds or using an available support intervention through a faction panel in Frostpunk 2.
+- Excludes: A law enacted only by a chamber vote; passive relation changes; assuming a selected intervention has no cooldown or cost.
+- Parameters: Target group, unlocked intervention, payment, benefit, relation effect and cooldown.
+- Evidence: [Frostpunk 2 decomposition](../games/a-f/frostpunk-2.md), FP2-008; P1 6:51–7:25; S4. Native execution, exact coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0504`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_241`](../../research/taxonomy-changes/TAXONOMY_CHANGE_241.md). No external novelty claim.
+
+## ACT-688 — Commit a regional trail through eligible connection points
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the player selects a regional sequence of eligible connection points and commits the paid trail construction that will link discovered sites to the settlement network.
+- Includes: Connecting New London and the Old Dreadnought through Frostland trail points in Frostpunk 2.
+- Excludes: Drawing a local road graph used by physical vehicles; merely selecting a shipment rate; instantaneous teleportation to an undiscovered site.
+- Parameters: Known endpoints, permitted intermediate points, segment costs, team requirement and construction duration.
+- Evidence: [Frostpunk 2 decomposition](../games/a-f/frostpunk-2.md), FP2-011; P1 17:48–18:38; S1. Native execution, exact coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0504`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_241`](../../research/taxonomy-changes/TAXONOMY_CHANGE_241.md). No external novelty claim.
+
+## ACT-689 — Relocate a selected population amount between managed settlements
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: the player commits one disclosed number of residents for relocation from an eligible source settlement to a separately managed destination, changing their settlement assignment rather than a continuous resource-flow rate.
+- Includes: Moving colonists from New London to establish or enlarge the Old Dreadnought colony in Frostpunk 2.
+- Excludes: Automatically growing the colony; a continuous food shipment; selecting individual tactical positions; assuming unobserved migration timing.
+- Parameters: Source, destination, eligible residents, committed amount, route requirements and disclosed relocation timing.
+- Evidence: [Frostpunk 2 decomposition](../games/a-f/frostpunk-2.md), FP2-013; P1 18:38–19:36. Native execution, exact coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0504`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_241`](../../research/taxonomy-changes/TAXONOMY_CHANGE_241.md). No external novelty claim.
+
+## ACT-682 — Perform sensor-tracked bodily choreography in musical time
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the active player directly moves their limbs and torso in musical time, mirroring the currently demonstrated choreography or making their own movements in its declared free-movement interval; input is a continuing sensed bodily trajectory rather than one target-panel or instrument-note command.
+- Includes: Following Step Side, Hip Notch and other authored moves in original Dance Central Perform It!; performing self-chosen movement during the routine’s Freestyle interval.
+- Excludes: Selecting notes with a handheld controller; stepping on discrete dance-mat switches; placing a limb over a spatial leak; choosing a pose that the avatar executes automatically.
+- Parameters: Active tracked player, current routine phase, bodily trajectory, mirrored direction and musical timing.
+- Evidence: [Dance Central decomposition](../games/a-f/dance-central.md), DC-002/007; P1 printed pp. 8–9/12; S1/S2; R1 82–214 seconds. Native execution, exact tracking coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0503`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_240`](../../research/taxonomy-changes/TAXONOMY_CHANGE_240.md). No external novelty claim.
+
+## ACT-680 — Deploy and steer an airborne gliding capability
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: while already airborne, the player deploys an acquired gliding capability and steers its continuing descent toward reachable terrain rather than selecting a destination for automatic travel.
+- Includes: Hazel opening woven wings and steering between the authored Chapter 3 landings after learning Glide.
+- Excludes: A tethered swing/glide alternation; indefinite powered ascent; a cinematic flight; a vehicle exit; an ordinary jump alone.
+- Parameters: Acquired capability, airborne eligibility, deployment, steering, descent and landing.
+- Evidence: [South of Midnight decomposition](../games/s-z/south-of-midnight.md), R1 Chapter 3 crossings; R2 8:40; P3 preview route corroboration. Exact installed build, captured preset, native input and current binary parity are not established.
+- Novelty: first isolated for `GAME-0502`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_239`](../../research/taxonomy-changes/TAXONOMY_CHANGE_239.md). No external novelty claim.
+
+## ACT-681 — Claim a defeated hostile through its expiring close interaction
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: after a hostile is already defeated, the player approaches and commits its optional contextual close interaction before the retained body disappears; the command is not required to deal the defeating damage.
+- Includes: The Y Unravel request on a defeated Haint in South of Midnight.
+- Excludes: A living hostile’s temporary stagger follow-up; an ordinary melee hit; automatic corpse disappearance; recovering a dropped carried inventory.
+- Parameters: Defeated body, interaction reach, facing, remaining opportunity and selected input.
+- Evidence: [South of Midnight decomposition](../games/s-z/south-of-midnight.md), R1 44:20 prompt; P2 downed Unravel; S1 explicit zero-health and expiry distinction. Exact installed build, captured preset, native input and current binary parity are not established.
+- Novelty: first isolated for `GAME-0502`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_239`](../../research/taxonomy-changes/TAXONOMY_CHANGE_239.md). No external novelty claim.
+
+## ACT-679 — Enter or leave an equipped weapon’s magnified aiming view
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player explicitly changes the readied firearm between its ordinary view and its equipped aiming magnification without firing, changing weapon identity or acquiring a lock-on target.
+- Includes: The original Windows F.E.A.R. Aim/Zoom command for the carried pistol, sub-machine gun or acquired assault rifle in First Encounter.
+- Excludes: A shot itself; an unconstrained inspection camera; target lock-on; holding aim to charge a separate focus meter; assuming every weapon has the same magnification or precision bonus.
+- Parameters: Weapon, equipped aiming treatment, magnification, input mode, movement handling and return to ordinary view.
+- Evidence: [F.E.A.R. decomposition](../games/a-f/fear.md), M1 base default key chart, Aim/Zoom; S1 Controls and weapon descriptions. No native input, exact patch or current-executable parity is claimed.
+- Novelty: first isolated for `GAME-0501`; counterexamples reviewed in [`TAXONOMY_CHANGE_238`](../../research/taxonomy-changes/TAXONOMY_CHANGE_238.md). No external novelty claim.
+
+## ACT-675 — Pin or remove a known recipe's gathering checklist
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player selects a known recipe and adds or removes its output and required ingredients from a live gathering checklist without committing fabrication or reserving those ingredients.
+- Includes: Pin to Checklist for Crude Door, repair supplies and Crude Headlight during Pacific Drive's first garage preparation and expedition.
+- Excludes: Crafting the selected output; assigning an autonomous production recipe; placing a world waypoint; an authored mission requirement that the player cannot pin or remove.
+- Parameters: Known recipe, checklist selection, required ingredients, current eligible stock, output count and removal.
+- Evidence: [Pacific Drive decomposition](../games/m-r/pacific-drive.md), R1 1120/1205/1223/1330/2510/3330; selecting the pin is independent of the craft button. Source-specific limits remain in the claim ledger; no native execution or current-binary parity.
+- Novelty: first isolated for `GAME-0500`; counterexamples reviewed in [`TAXONOMY_CHANGE_237`](../../research/taxonomy-changes/TAXONOMY_CHANGE_237.md). No external novelty claim.
+
+## ACT-676 — Set a free personal map pin without calculating a route
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player chooses a position on the local map as a personal navigation marker; the command changes the indicated destination without calculating a road path or moving an actor.
+- Includes: Pin Waypoint on the ARC map during Pacific Drive's first Radio Station expedition.
+- Excludes: An automatically solved GPS road route; linked ordered markers forming a prospective route line; selecting an exit to activate it; commanding autonomous movement.
+- Parameters: Map position, current pin, replacement, display projection and marker removal where available.
+- Evidence: [Pacific Drive decomposition](../games/m-r/pacific-drive.md), R1 4140/4160/4360 map command and topographic surface; no road route shown. Source-specific limits remain in the claim ledger; no native execution or current-binary parity.
+- Novelty: first isolated for `GAME-0500`; counterexamples reviewed in [`TAXONOMY_CHANGE_237`](../../research/taxonomy-changes/TAXONOMY_CHANGE_237.md). No external novelty claim.
+- Additional support: [Elden Ring decomposition](../games/a-f/elden-ring.md) and
+  [Bandai Namco beacon guide](https://www.bandainamcoent.com/news/elden-ring-introduction-part-3-gameplay-overview),
+  for a personal map/compass/world beacon without a calculated road route;
+  [Taxonomy Change 254](../../research/taxonomy-changes/TAXONOMY_CHANGE_254.md).
+
+## ACT-677 — Commit one currently eligible remote escape site
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: from an available exit-control surface, the player selects one currently eligible remote site and commits its activation, rather than merely marking that position or immediately travelling there.
+- Includes: Selecting gateway coordinates and Link Gateway through the charged ARC in Pacific Drive's first expedition.
+- Excludes: A free navigation pin; physically entering the activated exit; instantaneous fast travel; a fixed exit that opens without a site choice; the system's later hazard response.
+- Parameters: Control surface, candidate sites, eligibility, selected site, confirmation and activated destination.
+- Evidence: [Pacific Drive decomposition](../games/m-r/pacific-drive.md), R1 4320/4340/4345/4360; D1 selected exit followed by hazardous travel. Source-specific limits remain in the claim ledger; no native execution or current-binary parity.
+- Novelty: first isolated for `GAME-0500`; counterexamples reviewed in [`TAXONOMY_CHANGE_237`](../../research/taxonomy-changes/TAXONOMY_CHANGE_237.md). No external novelty claim.
+
+## ACT-678 — Aim an outside-operated short relocation of a persistent vehicle
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: while controlling the avatar outside its retained vehicle, the player aims an eligible nearby recovery position and requests relocation of that vehicle, leaving avatar control in place rather than steering or relocating the avatar itself.
+- Includes: Holding T to scan for a car-warp location outside the station wagon during Pacific Drive's first expedition.
+- Excludes: Recovery requested while directly driving a mission-assigned vehicle; aimed relocation of the controlled avatar; a whole-level restart; unrestricted long-range fast travel.
+- Parameters: Outside avatar, retained vehicle, aimed position, range, accepted placement, request progress and operating resource.
+- Evidence: [Pacific Drive decomposition](../games/m-r/pacific-drive.md), R1 3330 Scanning For Warp Location; S1 original release firsthand short recovery and battery cost. Source-specific limits remain in the claim ledger; no native execution or current-binary parity.
+- Novelty: first isolated for `GAME-0500`; counterexamples reviewed in [`TAXONOMY_CHANGE_237`](../../research/taxonomy-changes/TAXONOMY_CHANGE_237.md). No external novelty claim.
+
+## ACT-672 — Commit a mapped secondary technique at an existing attack's impact
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player presses a learned, assigned secondary-technique input at the impact of an already committed outgoing or incoming attack, requesting that technique's declared effect without selecting a new target.
+- Includes: Wine Cellar learned chain inputs at Ashley's weapon impact and defence inputs at hostile impact, including status prevention or returned damage rather than only parrying.
+- Excludes: Selecting the initial weapon, spell or target; an ordinary freely initiated attack; requiring every defensive response to negate incoming damage; a moving pointer stopped within a progress bar.
+- Parameters: Learned technique, input binding, outgoing/incoming context, impact, target continuity and effect.
+- Evidence: [Vagrant Story decomposition](../games/s-z/vagrant-story.md), M1 pp17-18; R1 3080/3085/3100; map/context acceptance remains a separate predicate. Source limitations are retained in its claim ledger; no native execution.
+- Novelty: first isolated for `GAME-0499`; counterexamples reviewed in [`TAXONOMY_CHANGE_236`](../../research/taxonomy-changes/TAXONOMY_CHANGE_236.md). No external novelty claim.
+
+## ACT-673 — Discard eligible carried stock without a compensating return
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player confirms irreversible removal of a chosen eligible carried item or quantity, freeing its occupied inventory capacity without receiving an item effect, payment or recovered components.
+- Includes: Discarding unequipped Wine Cellar gear or miscellaneous stock to make category space for an offered reward.
+- Excludes: Recoverable world dropping; consumable activation; sale or component-return recycling; deletion of the currently equipped item while its discard gate forbids it.
+- Parameters: Item, quantity, eligibility, confirmation, category headroom and irreversible removal.
+- Evidence: [Vagrant Story decomposition](../games/s-z/vagrant-story.md), M1 pp9/13/20. Source limitations are retained in its claim ledger; no native execution.
+- Novelty: first isolated for `GAME-0499`; counterexamples reviewed in [`TAXONOMY_CHANGE_236`](../../research/taxonomy-changes/TAXONOMY_CHANGE_236.md). No external novelty claim.
+
+## ACT-674 — Request a cycling reward selector's stop at a chosen instant
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: while a post-encounter reward selector cycles, the player chooses when to issue its stop request; the command commits a selection process rather than directly choosing an arbitrary reward or guaranteeing the currently visible entry.
+- Includes: Circle timing in the original Vagrant Story post-boss statistic reel, as attributed by the indexed player guides and corroborated by its recorded reel/result states.
+- Excludes: An ordinary exclusive option menu; a physical exit-object grab; a claim that stopping instantly fixes the displayed entry; unverified wheel-index or delay formulas.
+- Parameters: Cycling selector, stop-request instant, settled attribute and increment; no unmeasured offset.
+- Evidence: [Vagrant Story decomposition](../games/s-z/vagrant-story.md), S1 roulette; indexed Redefiner 39091 and ZNicholson 7745 search excerpts; R1 4040/4042. Direct guide fetch inaccessible; no native input trace. Source limitations are retained in its claim ledger; no native execution.
+- Novelty: first isolated for `GAME-0499`; counterexamples reviewed in [`TAXONOMY_CHANGE_236`](../../research/taxonomy-changes/TAXONOMY_CHANGE_236.md). No external novelty claim.
+
+## ACT-670 — Reframe an inspection view that an authored task explicitly tests
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player changes an inspection camera or enters an available vehicle ride view, and the authored task tests that viewing action as a completion predicate without granting direct vehicle steering or altering world geometry.
+- Includes: Initial camera instruction and accepted freight ride bonus in launch-day Transport Fever 2 Mining Miracle.
+- Excludes: A purely cosmetic view change with no tested predicate; projection-controlled path geometry; direct steering; an invented manual wave action.
+- Parameters: View mode, pan, rotation, zoom, eligible vehicle, active task and viewing predicate.
+- Evidence: [Transport Fever 2 decomposition](../games/s-z/transport-fever-2.md),
+  complete dated Mining Miracle source/transition ledger; no native execution.
+- Novelty: first isolated for `GAME-0498`; no external novelty claim.
+
+## ACT-671 — Compose a powered train and carrying wagons before purchase
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: before committing a train purchase, the player chooses its powered unit and eligible attached wagons, changing the proposed carrying capability, capacity, length and cost rather than selecting a different consist separately at each service stop.
+- Includes: Locomotive with ore wagons or passenger cars composed in the launch-day Transport Fever 2 depot purchase window.
+- Excludes: Assigning an already purchased train to a line; per-stop wagon substitution; a later owned-train rearrangement feature; directly steering a vehicle.
+- Parameters: Powered unit, wagon type, count, compatibility, capacity, length, performance and purchase price.
+- Evidence: [Transport Fever 2 decomposition](../games/s-z/transport-fever-2.md),
+  complete dated Mining Miracle source/transition ledger; no native execution.
+- Novelty: first isolated for `GAME-0498`; no external novelty claim.
+
+## ACT-669 — Commit an exposed target-directed firearm follow-up
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player presses the fire command while an eligible living target bears a temporary follow-up mark, committing the contextual target-directed shot without freely aiming that shot.
+- Includes: Gun Strike after eligible precise defence or heavy displacement in the solo Space Marine 2 prologue.
+- Excludes: Ordinary aimed fire; a close execution; the defensive input that created the mark; automatic damage without a command.
+- Parameters: Target, mark, eligibility, acquisition, expiry, context range and command.
+- Evidence: [Space Marine 2 decomposition](../games/s-z/warhammer-40000-space-marine-2.md),
+  its dated source ledger and qualitative transitions; no native execution.
+- Novelty: first isolated for `GAME-0496`; no external novelty claim.
+
+## ACT-665 — Attach a guidance tag or maintain an inanimate ammunition anchor
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the player fires a finite marker at a reachable living target or holds its
+  attachment on an inanimate surface to anchor later ammunition; the tagging
+  command is separate from spending primary rounds or redirecting stored
+  shots with another accepted target tag.
+- Includes: Original Resistance Bullseye target tagging and held ground or surface
+  trap placement.
+- Excludes: Aiming alone; arming a carried missile for crosshair acquisition; an
+  autonomous turret; unrestricted marking of every hidden opponent.
+- Parameters: tag stock, aim, contact, living target, surface anchor, held input and
+  retag
+- Evidence: [Resistance: Fall of Man decomposition](../games/m-r/resistance-fall-of-man.md),
+  claims RF-005, RF-006; written original-game source ledger, not native play.
+- Novelty: first isolated for `GAME-0492`; no external novelty claim.
+
+## ACT-663 — Arm, acquire or release a finite missile target
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player arms a carried missile for acquisition against an
+  eligible craft in the current crosshairs, or deliberately clears that armed
+  or locked state before a separate fire command; acquisition stores the
+  actual target rather than demanding a continuously held lock command.
+- Includes: Original BBC Micro Elite T arming, crosshair target acquisition
+  and U cancellation.
+- Excludes: A continuous target-relative movement lock; holding aim for a
+  timed lock-progress bar; automatic firing when a target is seen; deploying a
+  countermeasure.
+- Parameters: missile stock, armed state, current view, crosshair contact,
+  stored target and cancellation
+- Evidence: [Elite decomposition](../games/a-f/elite.md),
+  claims EL-004; pinned original _IB_DISC source reconstruction.
+- Novelty: first isolated for `GAME-0491`; arm, acquire or release a finite missile target.
+
+## ACT-664 — Request a conditional local-space distance compression
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player requests one immediate forward-distance shortcut in
+  the current craft orientation; the command differs from choosing an
+  inter-system destination and remains subject to local mass and environment
+  eligibility.
+- Includes: Original BBC Micro Elite J in-system jump toward the present
+  flight direction.
+- Excludes: Fuel-paid inter-system hyperspace; increasing throttle alone;
+  docking autopilot; unrestricted teleport to any point.
+- Parameters: current orientation, local masses, environment, shortcut
+  displacement and request
+- Evidence: [Elite decomposition](../games/a-f/elite.md),
+  claims EL-006; pinned original _IB_DISC source reconstruction.
+- Novelty: first isolated for `GAME-0491`; request a conditional local-space distance compression.
+
+## ACT-662 — Release a helper carried in a shared item slot
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: the player activates one carried helper item to place its persistent autonomous body into the reachable world; the helper leaves the common item slot and can later be physically picked up again rather than recalled from a separate party roster.
+- Includes: Releasing Roadkill from one of Sketch’s three common item slots in original Comix Zone.
+- Excludes: Remote party-companion recall; issuing an autonomous unit a destination; consuming the helper permanently; direct transfer of avatar control.
+- Parameters: helper identity, item slot, placement position, carried/world state and pickup reach.
+- Evidence: [Comix Zone decomposition](../games/a-f/comix-zone.md), original SEGA booklet and written original-Genesis accounts; CZ-006.
+- Novelty: first isolated for `GAME-0490`; transfer tests in `TAXONOMY_CHANGE_227`.
+
+## ACT-661 — Request an owned attached spirit’s ready or standby state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: the player requests a change between an owned spirit’s attached ready state and its standby state, choosing whether to retain its passive contribution or make it available to a later shared invocation; the change takes the actor’s scheduled action in combat.
+- Includes: setting or placing an owned Djinni on standby in original Golden Sun’s battle command.
+- Excludes: exchanging ownership during combat; an ordinary targeted attack; spending a spirit that is still recovering; an instant action-free combat toggle.
+- Parameters: owner, spirit, current state, requested state, scheduled action and passive contribution.
+- Evidence: [Golden Sun decomposition](../games/g-l/golden-sun.md), original Nintendo booklet pp. 16–19 and 39–43; GS-003–GS-006.
+- Novelty: first isolated for `GAME-0489`; reviewed transfer boundaries in `TAXONOMY_CHANGE_226`.
+
+## ACT-655 — Choose a retained full or reefed combat sail state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: the player switches a sailing combat vessel between available canvas states that remain active until changed, trading speed against handling and exposure rather than applying a momentary speed boost.
+- Includes: original Windows Sid Meier's Pirates! ordinary sea encounter. Reefing slows the ship but improves handling and reduces sail exposure.
+- Excludes: A cosmetic sail; embodied travel to a separate rope station; a temporary boost; automatic destination routing.
+- Parameters: vessel, available canvas states, selected state, retention and command eligibility.
+- Evidence: [Sid Meier's Pirates! decomposition](../games/s-z/sid-meiers-pirates.md), publisher PC manual; claim PIR-001. Exact executable revision, timings and direct play remain uninspected.
+- Novelty: first isolated for `GAME-0487`; transfer tests in `TAXONOMY_CHANGE_224` preserve prior boundaries.
+
+## ACT-656 — Request the currently loaded eligible broadside
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: the player requests fire from the vessel’s loaded side guns; current target geometry selects the eligible side and nearest qualifying opponent, and a partially loaded battery can discharge without waiting for every gun.
+- Includes: original Windows Sid Meier's Pirates! ordinary sea encounter. The fire command uses loaded guns on the side facing a legal target.
+- Excludes: A forward-mounted shot; individually selecting a turret target; autonomous fire; requiring a fully reloaded battery.
+- Parameters: request, loaded guns, side, eligible targets, target distance and discharged gun count.
+- Evidence: [Sid Meier's Pirates! decomposition](../games/s-z/sid-meiers-pirates.md), publisher PC manual; claim PIR-002. Exact executable revision, timings and direct play remain uninspected.
+- Novelty: first isolated for `GAME-0487`; transfer tests in `TAXONOMY_CHANGE_224` preserve prior boundaries.
+
+## ACT-657 — Select available ammunition for automatic gun loading
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: the player changes the declared ammunition type used by automatic vessel-gun loading from the types supplied by its current equipment, without individually loading each gun or purchasing ordnance within the encounter.
+- Includes: original Windows Sid Meier's Pirates! ordinary sea encounter. Round, chain and grape have different reach and favoured damage when equipped.
+- Excludes: A manual reload per gun; buying an upgrade; selecting unavailable ammunition; one gene per ammunition name.
+- Parameters: available types, selection, retained loading type and loading transition.
+- Evidence: [Sid Meier's Pirates! decomposition](../games/s-z/sid-meiers-pirates.md), publisher PC manual; claim PIR-003. Exact executable revision, timings and direct play remain uninspected.
+- Novelty: first isolated for `GAME-0487`; transfer tests in `TAXONOMY_CHANGE_224` preserve prior boundaries.
+
+## ACT-658 — Commit a typed live defensive response to a duel attack
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: the player commits one available duck, jump or weapon interception against an incoming close attack, choosing its response type while the duel continues rather than relying on one universal invulnerable dodge.
+- Includes: original Windows Sid Meier's Pirates! ordinary sea encounter. Duck beats a high chop; jump beats a low slash; parry fully stops a thrust.
+- Excludes: An automatic defence roll; one universal dodge; a prompted single counter button; free movement through an arena.
+- Parameters: incoming attack, response type, input timing, availability and committed defence.
+- Evidence: [Sid Meier's Pirates! decomposition](../games/s-z/sid-meiers-pirates.md), publisher PC manual; claim PIR-006. Exact executable revision, timings and direct play remain uninspected.
+- Novelty: first isolated for `GAME-0487`; transfer tests in `TAXONOMY_CHANGE_224` preserve prior boundaries.
+
+## ACT-659 — Attempt an interruptible taunt to shift duel advantage
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: the player attempts a non-damaging live taunt that can shift initiative toward the actor if completed, while an opponent’s hit can interrupt it.
+- Includes: original Windows Sid Meier's Pirates! ordinary sea encounter. A completed taunt improves advantage, but an incoming hit can stop it.
+- Excludes: Cosmetic dialogue; a guaranteed buff; damaging attack input; an untimed intimidation menu.
+- Parameters: taunt, completion, interrupting hit and initiative shift.
+- Evidence: [Sid Meier's Pirates! decomposition](../games/s-z/sid-meiers-pirates.md), publisher PC manual; claim PIR-007. Exact executable revision, timings and direct play remain uninspected.
+- Novelty: first isolated for `GAME-0487`; transfer tests in `TAXONOMY_CHANGE_224` preserve prior boundaries.
+
+## ACT-660 — Select optional captured assets at the prize settlement
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: after a vessel is captured, the player accepts or leaves its offered ordinary sailors, selects cargo quantities and chooses whether to retain the vessel, subject to current eligibility rather than automatically taking every prize asset.
+- Includes: original Windows Sid Meier's Pirates! ordinary sea encounter. Captured cargo and ship retention are choices; offered sailors can be refused.
+- Excludes: Buying from a shop; selecting gold that transfers automatically; sinking loot; dividing the whole campaign’s plunder.
+- Parameters: captured vessel, offered sailors, available cargo, retained quantities, vessel choice and eligibility.
+- Evidence: [Sid Meier's Pirates! decomposition](../games/s-z/sid-meiers-pirates.md), publisher PC manual; claim PIR-009. Exact executable revision, timings and direct play remain uninspected.
+- Novelty: first isolated for `GAME-0487`; transfer tests in `TAXONOMY_CHANGE_224` preserve prior boundaries.
+
+## ACT-651 — Choose a bounded available roster and deploy it on eligible panels
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: before a discrete tactical encounter, the player selects eligible reserve actors within its controlled-party cap and commits each to an allowed starting panel before battle scheduling begins.
+- Includes: Original Final Fantasy Tactics Gariland attack-team deployment.
+- Excludes: real-time formation frontage; post-start movement; reinforcement spawning; arbitrary extra controllable guests.
+- Parameters: roster, mandatory actor, availability, party cap, eligible panels, placement and start commitment.
+- Evidence: [Final Fantasy Tactics decomposition](../games/a-f/final-fantasy-tactics.md), original Square/Sony booklet and original-PS1 written evidence; claims FFT-001–FFT-010. No native executable or direct play was inspected; indexed-source limits remain explicit.
+- Novelty: first isolated for `GAME-0486`; transfer tests in `TAXONOMY_CHANGE_223` preserve all earlier boundaries.
+
+## ACT-652 — End an individual turn with unused move or act opportunities
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the player deliberately ends the active actor’s turn while relinquishing its remaining separate movement or action opportunity, including the choice to use neither, instead of being forced to exhaust both.
+- Includes: Original Final Fantasy Tactics Wait with one or both opportunities unused.
+- Excludes: a live wait timer; a guaranteed defensive buff; resetting all readiness to zero; a second movement command.
+- Parameters: actor, unused movement, unused action, end request and scheduler handoff.
+- Evidence: [Final Fantasy Tactics decomposition](../games/a-f/final-fantasy-tactics.md), original Square/Sony booklet and original-PS1 written evidence; claims FFT-001–FFT-010. No native executable or direct play was inspected; indexed-source limits remain explicit.
+- Novelty: first isolated for `GAME-0486`; transfer tests in `TAXONOMY_CHANGE_223` preserve all earlier boundaries.
+
+## ACT-653 — Choose the actor’s final facing when ending its tactical turn
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: at the end of an individual tactical turn, the player commits the actor’s orientation from the legal facing set without relocating it, determining the direction used by later directional defence.
+- Includes: Original Final Fantasy Tactics end-AT facing selection.
+- Excludes: camera rotation; two-direction reversal paid as a combat action; automatic facing from movement alone.
+- Parameters: actor, orientation set, end-turn prompt, committed direction and later defence.
+- Evidence: [Final Fantasy Tactics decomposition](../games/a-f/final-fantasy-tactics.md), original Square/Sony booklet and original-PS1 written evidence; claims FFT-001–FFT-010. No native executable or direct play was inspected; indexed-source limits remain explicit.
+- Novelty: first isolated for `GAME-0486`; transfer tests in `TAXONOMY_CHANGE_223` preserve all earlier boundaries.
+
+## ACT-654 — Reframe a fixed tactical battlefield without changing its topology
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the player changes the viewpoint of a fixed tactical battlefield to inspect its panels and heights while authoritative positions, adjacency and reach remain unchanged.
+- Includes: Original Final Fantasy Tactics battlefield viewing controls.
+- Excludes: perspective-dependent paths; world rotation that changes adjacency; a following camera around a directly steered avatar.
+- Parameters: viewpoint, battlefield, pan or rotation, visible height and invariant topology.
+- Evidence: [Final Fantasy Tactics decomposition](../games/a-f/final-fantasy-tactics.md), original Square/Sony booklet and original-PS1 written evidence; claims FFT-001–FFT-010. No native executable or direct play was inspected; indexed-source limits remain explicit.
+- Novelty: first isolated for `GAME-0486`; transfer tests in `TAXONOMY_CHANGE_223` preserve all earlier boundaries.
+
+## ACT-649 — Respond to the current temporary command in a scripted live scene
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: during an authored live scene, the player presses the command currently displayed by an expiring cue to request its next scripted response rather than selecting a freely targeted combat action or replaying a previously presented memory sequence.
+- Includes: the original Shenmue Heartbeats alley and bar Quick Timer Event responses.
+- Excludes: turn-based attack-effect modifiers; moving-pointer overlap; an earlier sequence recalled after presentation; free-battle move selection.
+- Parameters: scene, current cue, command identity, expiry, input and eligible response.
+- Evidence: [Shenmue decomposition](../games/s-z/shenmue.md), original Sega booklet and written Dreamcast routes; claims SH-001–SH-008. No native executable or direct play was inspected.
+- Novelty: first isolated for `GAME-0485`; transfer tests in `TAXONOMY_CHANGE_222` preserve earlier boundaries.
+
+## ACT-650 — Choose eligible bedroom sleep to end the current investigation day
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: when the current bedroom time permits sleep, the player chooses that day-ending command to resume the continuing investigation on the next date, without requiring a declared personal fatigue gauge.
+- Includes: original Shenmue's eligible Sleep choice in Ryo's bedroom.
+- Excludes: survivor sleep governed by fatigue; regenerating a new daily puzzle; freely skipping to any requested appointment time.
+- Parameters: bedroom, current time, sleep eligibility, day ending and next date.
+- Evidence: [Shenmue decomposition](../games/s-z/shenmue.md), original Sega booklet; claims SH-002 and SH-007. Exact native timing and save retention remain untested.
+- Novelty: first isolated for `GAME-0485`; a limited next-day command is not an arbitrary wait/skip control.
+
+## ACT-644 — Manipulate retained fragment copies in a reflected and recolourable overlay workspace
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: the player selects a retained fragment or partial composite, moves its working copy, reflects it horizontally or vertically, changes its colour, superimposes it with another or removes it from display without erasing retained memory.
+- Includes: Impossible Mission pocket-computer punch-card manipulation.
+- Excludes: world-map rearrangement; capacity-packed carried inventory; a free world-object rotation.
+- Parameters: fragment, copy, reflection axis, colour, overlay, display and memory.
+- Evidence: [Impossible Mission decomposition](../games/g-l/impossible-mission.md), licensed original-rule reproduction and written original-C64 play; claims IM-001–IM-010. No original executable or direct play was inspected.
+- Novelty: first isolated for `GAME-0484`; lower-ID transfer tests in `TAXONOMY_CHANGE_221` preserve earlier boundaries.
+
+## ACT-645 — Undo the latest eligible fragment deletion or joining
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: the player requests reversal of the most recent eligible puzzle-workspace deletion or joining, restoring its prior local fragment arrangement rather than reversing the live mission history.
+- Includes: Impossible Mission exclamation-key correction of a recent deletion or join.
+- Excludes: continuous simulation rewind; a whole-mission restart; arbitrary older edits.
+- Parameters: eligible last edit, prior arrangement and correction.
+- Evidence: [Impossible Mission decomposition](../games/g-l/impossible-mission.md), licensed original-rule reproduction and written original-C64 play; claims IM-001–IM-010. No original executable or direct play was inspected.
+- Novelty: first isolated for `GAME-0484`; lower-ID transfer tests in `TAXONOMY_CHANGE_221` preserve earlier boundaries.
+
+## ACT-646 — Request puzzle help paid from the mission deadline
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: the player selects optional help that charges a fixed amount of the remaining mission time and either correctly orients addressed fragments or discloses whether their required companions have been acquired.
+- Includes: Impossible Mission Agency phone orientation or partner-availability request.
+- Excludes: a currency-funded hint purchase; automatic tutorial advice; an uncharged unlimited solver.
+- Parameters: requested help, addressed fragments, charged duration and response.
+- Evidence: [Impossible Mission decomposition](../games/g-l/impossible-mission.md), licensed original-rule reproduction and written original-C64 play; claims IM-001–IM-010. No original executable or direct play was inspected.
+- Novelty: first isolated for `GAME-0484`; lower-ID transfer tests in `TAXONOMY_CHANGE_221` preserve earlier boundaries.
+
+## ACT-647 — Respond to presented note locations in ascending pitch order
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: after hearing and seeing a set of note-associated locations, the player selects those locations in ascending pitch order rather than repeating their presentation order.
+- Includes: Impossible Mission code-room square selection from low notes to high.
+- Excludes: Simon-style ordinal replay; choosing an unordered set; performing a rhythm input at each original cue time.
+- Parameters: note locations, pitch ordering, presentation and submitted sequence.
+- Evidence: [Impossible Mission decomposition](../games/g-l/impossible-mission.md), licensed original-rule reproduction and written original-C64 play; claims IM-001–IM-010. No original executable or direct play was inspected.
+- Novelty: first isolated for `GAME-0484`; lower-ID transfer tests in `TAXONOMY_CHANGE_221` preserve earlier boundaries.
+
+## ACT-648 — Direct vertical lift travel while occupying its platform
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: the player stands on an eligible lifting platform and holds a vertical command to direct its permitted up/down travel with the controlled occupant aboard.
+- Includes: Impossible Mission room lifts and elevator travel.
+- Excludes: remote switch-triggered autonomous platform travel; jumping the avatar without moving a lift; teleportation.
+- Parameters: occupancy, vertical command, permitted path and endpoint.
+- Evidence: [Impossible Mission decomposition](../games/g-l/impossible-mission.md), licensed original-rule reproduction and written original-C64 play; claims IM-001–IM-010. No original executable or direct play was inspected.
+- Novelty: first isolated for `GAME-0484`; lower-ID transfer tests in `TAXONOMY_CHANGE_221` preserve earlier boundaries.
+
+## ACT-639 — Assign ammunition independently to two firing barrels
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the player assigns an available ammunition type separately to each of two independently fired weapon barrels, preserving both assignments rather than replacing one globally active item.
+- Includes: original Xbox Stranger's Wrath left/right crossbow loads.
+- Excludes: one active-item selection; weapon upgrades; firing an already loaded barrel.
+- Parameters: barrel, available type, assignment and trigger.
+- Evidence: [Oddworld: Stranger's Wrath decomposition](../games/m-r/oddworld-strangers-wrath.md), original EA Xbox booklet and independently authored original-Xbox routes; claims SW-001–SW-012. No direct play, measured timing or exact executable is claimed.
+- Novelty: first isolated for `GAME-0483`; lower-ID transfer tests in `TAXONOMY_CHANGE_220` preserve earlier boundaries.
+
+## ACT-640 — Switch embodied perspective together with combat and traversal affordances
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the player switches between embodied first- and third-person modes whose distinct permitted weapon use, viewing and fast traversal change available decisions for the same actor.
+- Includes: original Stranger's Wrath crossbow view versus fast third-person movement and close capture.
+- Excludes: decorative camera orbit; changing controlled actor; posture alone.
+- Parameters: perspective, permitted weapon, movement, view and interaction.
+- Evidence: [Oddworld: Stranger's Wrath decomposition](../games/m-r/oddworld-strangers-wrath.md), original EA Xbox booklet and independently authored original-Xbox routes; claims SW-001–SW-012. No direct play, measured timing or exact executable is claimed.
+- Novelty: first isolated for `GAME-0483`; lower-ID transfer tests in `TAXONOMY_CHANGE_220` preserve earlier boundaries.
+
+## ACT-641 — Hold a close bounty-body collection command
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the player faces an eligible nearby incapacitated or dead body and holds its collection command until the body-capture channel completes or the attempt becomes ineligible.
+- Includes: Stranger's original held Bounty Can collection.
+- Excludes: throwing a probabilistic recruitment device; carrying an intact body elsewhere; merely stunning the target.
+- Parameters: body, proximity, facing, held command and channel completion.
+- Evidence: [Oddworld: Stranger's Wrath decomposition](../games/m-r/oddworld-strangers-wrath.md), original EA Xbox booklet and independently authored original-Xbox routes; claims SW-001–SW-012. No direct play, measured timing or exact executable is claimed.
+- Novelty: first isolated for `GAME-0483`; lower-ID transfer tests in `TAXONOMY_CHANGE_220` preserve earlier boundaries.
+
+## ACT-642 — Request personal healing funded by exertion instead of a carried medicine
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the player requests an in-place personal recovery action whose system converts current exertion reserve into health, rather than consuming a carried restorative or waiting for automatic health regeneration.
+- Includes: Stranger's original shake-off command.
+- Excludes: consumable medicine; treating a selected body wound; autonomous quiet-period health refill.
+- Parameters: request, health deficit, exertion reserve and conversion.
+- Evidence: [Oddworld: Stranger's Wrath decomposition](../games/m-r/oddworld-strangers-wrath.md), original EA Xbox booklet and independently authored original-Xbox routes; claims SW-001–SW-012. No direct play, measured timing or exact executable is claimed.
+- Novelty: first isolated for `GAME-0483`; lower-ID transfer tests in `TAXONOMY_CHANGE_220` preserve earlier boundaries.
+
+## ACT-643 — Aim and launch a loaded live critter into the world
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the player aims and fires a loaded living projectile toward a hostile, wild creature, compatible fixture or placement surface, selecting a spatial critter effect rather than restricting all launches to hostile damage.
+- Includes: original Stranger's Wrath aimed Zappfly, Chippunk, Bolamite, Stunkz and Fuzzle launches.
+- Excludes: throwing an inert rock or primed grenade; automatic critter bites after placement; one manual command per later bite.
+- Parameters: loaded type, origin, aim, world target, contact and placement.
+- Evidence: [Oddworld: Stranger's Wrath decomposition](../games/m-r/oddworld-strangers-wrath.md), original EA Xbox booklet and independently authored original-Xbox routes; claims SW-001–SW-012. No direct play, measured timing or exact executable is claimed.
+- Novelty: first isolated for `GAME-0483`; lower-ID transfer tests in `TAXONOMY_CHANGE_220` preserve earlier boundaries.
+
+## ACT-637 — Bump the whole ground to launch its inhabitants
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player issues a global ground impulse that launches grounded physical inhabitants, rather than directly commanding a selected avatar to jump.
+- Includes: LocoRoco’s simultaneous shoulder-button bounce.
+- Excludes: direct avatar jump; launching one aimed projectile; measured impulse magnitude.
+- Parameters: ground impulse, grounded bodies, contact and airborne response.
+- Evidence: [LocoRoco decomposition](../games/g-l/locoroco.md), original Sony PSP booklet, Sony launch announcement/creator interview and source-limited contemporary first-stage routes; claims LR-001–LR-009. No direct play or exact geometry is claimed.
+- Novelty: first isolated for `GAME-0482`; lower-ID transfer boundaries in `TAXONOMY_CHANGE_219` preserve previous definitions.
+
+## ACT-638 — Request geometric division or nearby reunion of a living aggregate
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player requests that a living aggregate divide into individual physical bodies, or that nearby individuals reunite into one body, changing navigable form without allocating army roster slots.
+- Includes: LocoRoco’s tap-to-divide and hold-to-reunite command.
+- Excludes: autonomous collision-only numerical merging; remote teleportation; assigning squad membership.
+- Parameters: population, command variant, current form, proximity and resulting bodies.
+- Evidence: [LocoRoco decomposition](../games/g-l/locoroco.md), original Sony PSP booklet, Sony launch announcement/creator interview and source-limited contemporary first-stage routes; claims LR-001–LR-009. No direct play or exact geometry is claimed.
+- Novelty: first isolated for `GAME-0482`; lower-ID transfer boundaries in `TAXONOMY_CHANGE_219` preserve previous definitions.
+
+## ACT-634 — Raise or lower one addressed terrain point
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player selects an eligible local terrain point and raises or lowers its height by one permitted increment, changing contiguous land usable by autonomous settlers rather than collecting an excavated material.
+- Includes: original Amiga Populous left/right mouse height edits near friendly people.
+- Excludes: material excavation (`ACT-443`); combat cover destruction; a whole-world sea-level power.
+- Parameters: point, local presence, increment, raise/lower permission and usable footprint.
+- Evidence: [Populous decomposition](../games/m-r/populous.md), original 1989 Electronic Arts / Bullfrog manual, printed rules and inspected Amiga diagrams; claims POP-001–POP-010.
+- Novelty: first isolated for `GAME-0480`; the lower-ID boundary tests and carrier parameters are recorded in `TAXONOMY_CHANGE_217`.
+
+## ACT-635 — Set one population-wide autonomous behaviour policy
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player selects a global policy that tells the friendly autonomous population to settle, gather then settle, fight then settle or rally toward its attractor, including the policy's declared fallback rather than issuing each actor's individual route.
+- Includes: Populous's four influence-behaviour modes; magnet following does not settle.
+- Excludes: a selected single-agent role (`ACT-036`); formation/combat stance (`ACT-317`); directly steering a leader.
+- Parameters: population, policy, persistence, eligibility, fallback and rally destination.
+- Evidence: [Populous decomposition](../games/m-r/populous.md), original 1989 Electronic Arts / Bullfrog manual, printed rules and inspected Amiga diagrams; claims POP-001–POP-010.
+- Novelty: first isolated for `GAME-0480`; the lower-ID boundary tests and carrier parameters are recorded in `TAXONOMY_CHANGE_217`.
+
+## ACT-636 — Relocate a leader-dependent population attractor
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while an eligible unique leader exists, the player relocates the population's attractor to a chosen destination, changing where the leader and followers travel under the active rally policy without directly moving them.
+- Includes: relocating the papal magnet in original Populous.
+- Excludes: avatar movement; unrestricted attractor placement with no leader; the system's leader-replacement transition.
+- Parameters: leader, attractor, destination, eligibility and active policy.
+- Evidence: [Populous decomposition](../games/m-r/populous.md), original 1989 Electronic Arts / Bullfrog manual, printed rules and inspected Amiga diagrams; claims POP-001–POP-010.
+- Novelty: first isolated for `GAME-0480`; the lower-ID boundary tests and carrier parameters are recorded in `TAXONOMY_CHANGE_217`.
+
+## ACT-633 — Catch and release a reachable moving vine
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player jumps from reachable ground to attach the controlled body to an already swinging vine, then issues a distinct release command to resume unattached traversal at the chosen swing position.
+- Includes: catching Pitfall Harry's vine with a running jump and releasing with downward joystick input in original Atari 2600 Pitfall!.
+- Excludes: creating or aiming a tether; adjusting its radius; aerodynamic glide (`ACT-479`); an automatic carrier transfer with no catch or release choice.
+- Parameters: body, reachable vine, jump eligibility, attachment, release input and release position.
+- Evidence: [Pitfall! decomposition](../games/m-r/pitfall.md), original Activision Atari 2600 booklet AX-018-03, controls, score, hazards, composite HUD and David Crane's route advice.
+- Novelty: first isolated for `GAME-0479`; the original moving carrier is caught and released, not player-created or reeled.
+
+## ACT-632 — Commit one offered scheduled intercity service
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: from a current city, the player chooses one known and currently offered outbound transport service, committing to its destination, departure terms and fare instead of steering every intervening movement.
+- Includes: selecting an available Paris onward service in the original iOS *80 Days* journey.
+- Excludes: selecting a category-marked encounter node on a run map (`ACT-127`); commanding a local avatar to pathfind (`ACT-096`); drawing a route between arbitrary cities; assuming every route is already known.
+- Parameters: origin, known destination, service, departure availability, fare, commitment and cancellation policy.
+- Evidence: [80 Days decomposition](../games/0-9/80-days.md), inkle's original press kit and contemporary journey-design descriptions.
+- Novelty: first isolated for `GAME-0478`; it binds route choice to a scheduled, costed city service rather than a generic map node.
+
+## ACT-630 — Pull one grabbed adjacent block toward the controlled body
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: from a reachable side of one movable block, the player grabs it and steps or directs it toward the controlled body by one local position, exposing or relocating a surface usable in the next spatial decision.
+- Includes: Vincent pulling an ordinary block out of the Underground Cemetery tower to create a one-block step in original *Catherine*.
+- Excludes: pushing a block away (`ACT-009`); dragging an inventory item without changing climb topology; asserting which special block types appear in this first level.
+- Parameters: grabbed block, player-side access, movement direction, destination, climb surface and resulting support.
+- Evidence: [Catherine decomposition](../games/a-f/catherine.md), Atlus's contemporary instruction manual and corroborated original-PS3 first-stage routes.
+- Novelty: first isolated for `GAME-0477`; unlike the earlier push-only action, the controlled body deliberately draws one block toward itself.
+
+## ACT-631 — Undo one eligible recent Nightmare move
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: at a difficulty setting that permits the command, request reversal of one eligible recent local movement or block action so a different immediate continuation can be tried.
+- Includes: Normal-mode undo described in the original *Catherine* publisher manual during a Nightmare climb.
+- Excludes: restarting the whole stage; unrestricted continuous-time scrubbing (`ACT-044`); claiming a measured rollback of elapsed collapse time or a platform-specific button mapping.
+- Parameters: difficulty eligibility, recent move, reversibility, restored local position and revised next command.
+- Evidence: [Catherine decomposition](../games/a-f/catherine.md), Atlus's contemporary original-edition manual and a contemporary original-PS3 guide confirming English-release Normal undo; PS3-specific input and elapsed-time interaction were not independently observed.
+- Novelty: first isolated for `GAME-0477`; a difficulty-gated local move correction is narrower than rewinding an active simulation history.
+
+## ACT-626 — Jog in place to advance a leg-sensed course
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: repeatedly move the strapped leg in a jogging motion so the game accepts physical steps as the command to advance a controlled avatar along a current authored course.
+- Includes: default-mode course travel in the original Nintendo Switch *Ring Fit Adventure*.
+- Excludes: pressing a direction button to walk; shifting standing weight on a Balance Board (`ACT-575`); Silent Mode squat travel; assuming the avatar advances while the player stands still.
+- Parameters: leg sensor, accepted step motion, course, forward travel and stopping.
+- Evidence: [Ring Fit Adventure decomposition](../games/m-r/ring-fit-adventure.md), Nintendo's Adventure Mode basics and controller setup.
+- Novelty: first isolated for `GAME-0476`; measured repeated leg motion, not a button or pressure-board lean, is the locomotion request.
+
+## ACT-627 — Press or pull a held exercise ring toward a route affordance
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: orient a handheld deformable ring toward an eligible local route feature and physically compress or pull it, requesting an air blast or suction effect rather than a combat Fit Skill.
+- Includes: an aimed Ring-Con air blast for a jump or obstacle interaction and a pull to draw in nearby pickups during an original *Ring Fit Adventure* course.
+- Excludes: an abstract button-fired projectile; a guided battle exercise (`ACT-628`); Ab Guard (`ACT-629`); guaranteeing that every obstacle or item is present in the scoped course.
+- Parameters: ring orientation, compression or pull, nearby feature, emitted effect and route or pickup response.
+- Evidence: [Ring Fit Adventure decomposition](../games/m-r/ring-fit-adventure.md), Nintendo's Adventure Mode control guide.
+- Novelty: first isolated for `GAME-0476`; the same physical ring affords distinct course interactions before battle.
+
+## ACT-628 — Perform guided physical repetitions for a selected Fit Skill
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: after selecting an available combat exercise, follow its displayed body pose and perform the requested motion or hold through the guided repetitions to submit one Fit Skill attack.
+- Includes: the original *Ring Fit Adventure* early Adventure encounter, with body movement read through the Ring-Con and Leg Strap.
+- Excludes: choosing the skill without performing it; button-only turn attacks; claiming a fixed number of repetitions or a specific later-unlocked skill for the first encounter.
+- Parameters: available skill, guide pose, sensed movement, repetition or hold target and submitted attack.
+- Evidence: [Ring Fit Adventure decomposition](../games/m-r/ring-fit-adventure.md), Nintendo's Adventure Mode Fit Skill explanation.
+- Novelty: first isolated for `GAME-0476`; the selected combat command is completed by measured exercise form.
+
+## ACT-629 — Hold a compressed exercise ring against the abdomen to guard
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: during an enemy attack, place a deformable ring against the abdomen, compress it and sustain that physical hold until the hostile strike finishes to request Ab Guard.
+- Includes: defensive enemy turns in early original *Ring Fit Adventure* Adventure Mode.
+- Excludes: a passive always-on shield; a button-only guard (`ACT-437`); releasing early and still claiming full protection; guaranteed zero damage.
+- Parameters: enemy attack interval, ring position, compression, hold duration and protection result.
+- Evidence: [Ring Fit Adventure decomposition](../games/m-r/ring-fit-adventure.md), Nintendo's Adventure Mode Ab Guard instructions.
+- Novelty: first isolated for `GAME-0476`; maintained physical ring compression, not a button press, sustains the defensive request.
+
+## ACT-625 — Fire off-screen to refill an arcade light-gun magazine
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while holding a display-sensing arcade handgun, the player deliberately aims outside the active screen and pulls the trigger to request a full magazine reload, independently of hitting an in-world target or spending a carried ammunition reserve.
+- Includes: the original Model 2 *The House of the Dead* arcade handgun's off-screen trigger reload during `Tragedy`.
+- Excludes: an aimed on-screen shot (`ACT-490`); a reserve-to-magazine transfer (`ACT-183`); automatic protective-pedal refill (`SYS-1160`); PC keyboard/mouse reload or a later-series weapon.
+- Parameters: gun, screen boundary, trigger request, loaded-round count, magazine cap and resumed firing readiness.
+- Evidence: [The House of the Dead decomposition](../games/s-z/the-house-of-the-dead.md), original Sega arcade operator manual p. 16 and contemporary first-hand arcade route.
+- Novelty: first isolated for `GAME-0475`; off-screen reload is an explicit command, not a shot at a visible playfield target.
+
+## ACT-623 — Commit a target-conditional airborne dash attack
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while the controlled avatar is already airborne, the player presses the declared attack/jump command to request a directed strike against one nearby eligible target; without an eligible target the same command requests a forward aerial dash instead.
+- Includes: Sonic's original Dreamcast Homing Attack against a nearby Emerald Coast robot and Jump Dash fallback when no robot is in range.
+- Excludes: an always-targeted projectile; ordinary first jump or ground spin (`ACT-295`); an upgraded Light Speed Dash along rings; a guaranteed hit without system target resolution.
+- Parameters: airborne posture, second input, eligible target, proximity, facing, attack pose, fallback direction and landing.
+- Evidence: [Sonic Adventure decomposition](../games/s-z/sonic-adventure.md), original Dreamcast instruction manual, printed p. 19.
+- Novelty: first isolated for `GAME-0472`; one airborne commitment branches between target-seeking attack and targetless travel.
+
+## ACT-624 — Jump from each reached numbered traversal panel
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: after reaching the currently eligible numbered panel in an authored traversal chain, the player times a jump input to commit the next assisted launch rather than merely standing on the panel or accepting one uninterrupted automatic ride.
+- Includes: Sonic jumping successively from the five numbered panels in original Dreamcast Emerald Coast.
+- Excludes: an ordinary jump with no panel state (`ACT-008`); automatic spring contact (`SYS-1056`); selecting any numbered destination out of order; a turn-based numerical puzzle.
+- Parameters: current panel, displayed number, landing, jump timing, next panel and incomplete-chain state.
+- Evidence: [Sonic Adventure decomposition](../games/s-z/sonic-adventure.md), contemporary original-Dreamcast Emerald Coast route.
+- Novelty: first isolated for `GAME-0472`; the assisted crossing advances only through repeated, position-gated player jumps.
+
+## ACT-621 — Apply a selected surgical instrument along an addressed tissue path
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: select an available surgical instrument and trace its instrument-specific stylus gesture over the currently addressed tissue to attempt treatment or closure.
+- Includes: needle zigzag suturing, gel application, guided scalpel incision and bandage stroke in original DS Trauma Center: Under the Knife's first operation.
+- Excludes: arbitrary drawing without an instrument; real medical practice; food-preparation touch gestures (`ACT-572`); forceps transfer (`ACT-622`).
+- Parameters: instrument, tissue target, path geometry, contact, current stage and acceptance.
+- Evidence: [Trauma Center: Under the Knife decomposition](../games/s-z/trauma-center-under-the-knife.md), Nintendo DS overview and corroborated contemporary first-operation routes.
+- Novelty: first isolated for `GAME-0471`; the selected instrument and addressed path together define the action.
+
+## ACT-622 — Extract and deposit a lodged object with forceps
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: grip an exposed lodged object with forceps, drag it along an admissible withdrawal path and deposit it in a designated tray to complete extraction.
+- Includes: removing outer and inner glass shards from the first original-DS Trauma Center operation.
+- Excludes: automatically collecting a touched object; withdrawing opposite the entry path; treating the residual wound; real medical advice.
+- Parameters: shard, grip, withdrawal direction, tray, release and success feedback.
+- Evidence: [Trauma Center: Under the Knife decomposition](../games/s-z/trauma-center-under-the-knife.md), corroborated first-operation transcript and routes.
+- Novelty: first isolated for `GAME-0471`; extraction requires directed transfer to a destination, not merely contact.
+
+## ACT-620 — Steer one's wreck during crash Impact Time
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: after the directly driven vehicle has crashed and ordinary steering authority has ended, the player holds the crash-only slowdown control and directs the still-moving wreck toward a reachable rival before the brief impact state closes.
+- Includes: holding R1 and steering the wreck with the PS2 left stick for an attempted Aftertouch Takedown in the first Silver Lake Race of original Burnout 3: Takedown.
+- Excludes: steering a healthy racing car (`ACT-290`); normal Boost spending (`ACT-309`); detonating a Crash Mode wreck; guaranteeing a Takedown without contact.
+- Parameters: crash state, wreck momentum, remaining Impact Time, direction input, target, contact and interruption.
+- Evidence: [Burnout 3: Takedown decomposition](../games/a-f/burnout-3-takedown.md), original PS2 manual and contemporary written route.
+- Novelty: first isolated for `GAME-0470`; a failed vehicle retains short, constrained player steering that can affect an active race rival.
+
+## ACT-618 — Aim and commit a personal gravity fall
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while controlling an airborne character, the player releases ordinary gravity, aims a new personal down direction toward a visible surface, and commits a fall along that direction; the player may suspend or cancel the shift before landing.
+- Includes: Kat floating, aiming with stick or motion input, falling toward a tower side and cancelling back to ordinary down in original PS Vita Gravity Rush.
+- Excludes: selecting one orthogonal surface to reorient the whole world's gravity frame (`ACT-097`); a passive jump or ordinary forward run; moving a camera without changing the character's fall.
+- Parameters: current personal down, aim direction, target surface, float/commit/cancel inputs, remaining gauge and contact.
+- Evidence: [Gravity Rush decomposition](../games/g-l/gravity-rush.md), PlayStation's original PS Vita descriptions and a contemporary Vita guide.
+- Novelty: first isolated for `GAME-0468`; Kat changes her own fall vector toward a surface while the city remains in its existing frame.
+
+## ACT-619 — Commit a gravity-assisted kick from a targeted fall
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: after entering a gravity-floating aim state, the player aligns an airborne character with a hostile target and commits a character-owned kick that uses the directed fall for approach and impact.
+- Includes: Kat targeting a Nevi from float and pressing the attack command to launch a gravity kick in original PS Vita Gravity Rush.
+- Excludes: an ordinary standing kick (`ACT-295`); changing gravity solely for travel (`ACT-618`); an automatically fired homing projectile; assuming a guaranteed hit after a poorly aligned aim.
+- Parameters: target, aim reticle, airborne state, approach direction, attack input, contact and interruption.
+- Evidence: [Gravity Rush decomposition](../games/g-l/gravity-rush.md), PlayStation's combat explanation and contemporary Vita chapter guides.
+- Novelty: first isolated for `GAME-0468`; the attack command exploits the currently aimed gravity fall rather than an ordinary ground combo.
+
+## ACT-617 — Match an approaching ribbon obstacle with a timed button or chord
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while a continuous route carries a character toward a visible typed obstacle, the player commits that type's mapped controller button at encounter time, or a simultaneous pair of mapped buttons for one composite obstacle, to attempt passage.
+- Includes: original PlayStation Vib-Ribbon's block/L1, loop/R1, pit/Down and wave/X responses and the L1+Down response to a combined block-and-pit shape.
+- Excludes: instructor phrase echo (`ACT-533`); foot-panel chart stepping (`ACT-545`); a touch-flick assembly response (`ACT-603`); two separately spaced obstacles that call for consecutive rather than simultaneous inputs.
+- Parameters: obstacle class, input map, encounter time, pressed button set, simultaneous chord tolerance and controller latency.
+- Evidence: [Vib-Ribbon decomposition](../games/s-z/vib-ribbon.md), contemporary English PAL guide and original-disc obstacle enum documentation.
+- Novelty: first isolated for `GAME-0467`; the response chooses a shape-coded path manoeuvre rather than a chart note, teacher phrase or physical dance step.
+
+## ACT-615 — Release a pointer-aimed motion-sampled throw
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player points at a world target, holds a delivery control,
+  physically swings the controller and releases the control to commit one
+  thrown body whose initial impact strength depends on the sampled motion.
+- Includes: pointing at a support in original Wii Boom Blox, holding A,
+  swinging the Wii Remote forward and releasing A to throw a baseball.
+- Excludes: a click-released fixed slingshot or top launcher (`ACT-113`);
+  a lane-bound rolling bowling delivery (`ACT-499`); steering the ball after
+  release; grabbing and dragging an already placed block.
+- Parameters: pointer target, held control, swing sample, release timing,
+  initial velocity, thrown body and allowed target surface.
+- Evidence: [Boom Blox decomposition](../games/a-f/boom-blox.md), Nintendo's
+  publisher-supplied Wii description and a contemporary Wii controls guide.
+- Novelty: first isolated for `GAME-0465`; motion-sampled free aiming at a
+  three-dimensional block target differs from both the fixed launcher and
+  bowling lane.
+
+## ACT-616 — Orbit a fixed construction to choose a firing line
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: before a directed physical action, the player rotates the
+  viewing frame around a stationary three-dimensional target construction to
+  expose a different surface and choose a different unobstructed attack line,
+  without moving the construction by camera motion alone.
+- Includes: holding B and moving the Wii Remote to view Boom Blox's Warrior
+  support from the front or behind before an aimed throw.
+- Excludes: orbiting perspective to rewrite legal traversal geometry
+  (`ACT-095`); reframing a camera following a directly steered actor
+  (`ACT-610`); switching among fixed cockpit/chase views (`ACT-609`);
+  rotating the block structure itself.
+- Parameters: orbit centre, yaw/pitch limits, camera input, occlusion,
+  target face, firing line and retained physical state.
+- Evidence: [Boom Blox decomposition](../games/a-f/boom-blox.md), a
+  contemporary original-Wii controls guide and Warrior strategy.
+- Novelty: first isolated for `GAME-0465`; the camera selects a physical
+  projectile access line without changing the underlying geometry.
+
+## ACT-610 — Reframe a following camera around a directly steered actor
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while continuing to steer a world actor directly, the player commands the following camera to change its distance or viewing angle so previously occluded nearby geometry or threats become visible before the next movement choice.
+- Includes: the original Nintendo 64 *Super Mario 64* C-button Lakitu camera adjustments during the first Bob-omb Battlefield ascent.
+- Excludes: an orbit that changes the world's legal route by projected alignment (`ACT-095`); an automatic cutscene angle; fixed alternative driving viewpoints (`ACT-609`); moving a map or game object rather than the viewing frame.
+- Parameters: follow target, allowed angle and distance steps, camera collision, occlusion, input device and forced camera zones.
+- Evidence: [Super Mario 64 decomposition](../games/s-z/super-mario-64.md), Nintendo's original N64 booklet, printed p. 19.
+- Novelty: first isolated for `GAME-0460`; no claim that camera motion changes world collision.
+
+## ACT-611 — Lift and throw a currently holdable live opponent
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player approaches an eligible live opponent from an allowed relation, lifts it into a carried state and commands a directional release back into the active arena while the opponent remains a combat actor.
+- Includes: approaching the original N64 Big Bob-omb from behind, lifting him and throwing him on the summit.
+- Excludes: picking up an inert free rigid object (`ACT-048`); an instantaneous fighting-game throw without a carried phase (`ACT-297`); carrying an unconscious mission body; spinning Bowser by his tail in a later encounter.
+- Parameters: approach relation, grab range, opponent holdable state, movement burden, release direction and impulse.
+- Evidence: [Super Mario 64 decomposition](../games/s-z/super-mario-64.md), Nintendo's original N64 booklet, pinned original-game decompilation and bounded first-star route.
+- Novelty: first isolated for `GAME-0460`; a held hostile remains the object of the next combat decision.
+
 ## ACT-609 — Switch between fixed driving viewpoints
 
 - Lifecycle: `Active`
@@ -1022,18 +2279,25 @@
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
-- Evidence quality: `Direct`
+- Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: the player selects one acquired inventory item and assigns it to
   its compatible equipment slot, replacing the currently equipped item and
-  updating the autonomous agent's combat statistics.
-- Includes: equipping a newly dropped Loop Hero weapon or armour piece during
-  the expedition.
+  updating that character's combat statistics.
+- Includes: replacing equipped gear with a newly dropped Loop Hero weapon or
+  armour piece during the expedition; replacing a character's weapon in
+  Clair Obscur: Expedition 33; replacing a party member's weapon, armour or
+  accessory in Baldur's Gate 3; replacing armour or an accessory in Terraria.
 - Excludes: choosing a pre-run character class; automatically accepting a stat
   increase; moving a generic card between tableau zones.
-- Parameters: equipment slots, compatibility, replaced-item disposition,
-  stat update timing and combat-lock restrictions.
-- Evidence: [Loop Hero decomposition](../games/g-l/loop-hero.md).
+- Parameters: character, subsequent control policy, equipment slots,
+  compatibility, replaced-item disposition, stat update timing and
+  combat-lock restrictions.
+- Evidence: [Loop Hero decomposition](../games/g-l/loop-hero.md),
+  [Clair Obscur: Expedition 33 decomposition](../games/a-f/clair-obscur-expedition-33.md),
+  [Baldur's Gate 3 decomposition](../games/a-f/baldurs-gate-3.md) and
+  [Terraria decomposition](../games/s-z/terraria.md).
+- Boundary correction: [Taxonomy Change 251](../../research/taxonomy-changes/TAXONOMY_CHANGE_251.md).
 - Novelty: not assessed.
 
 ## ACT-041 — Commit voluntary expedition retreat
@@ -2672,16 +3936,12 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player holds an extraction command on a reachable resource
-  or removable entity until its progress completes and the resulting material
-  or recoverable entity enters inventory.
-- Includes: hand-mining Factorio ore, rock or tree resources and manually
-  dismantling a placed entity before automated deconstruction is available.
-- Excludes: an operating mining drill producing ore automatically; destroying
-  an enemy with a weapon; instant selection of an item already in storage.
-- Parameters: target class, extraction time, tool or character modifier,
-  yielded items, placement recovery and cancellation progress.
-- Evidence: [Factorio decomposition](../games/a-f/factorio.md).
+- Definition: the player directly works on a reachable world resource or dismantles a recoverable world entity to obtain materials or a recovered item. The rules determine whether the result enters inventory directly or requires separate collection.
+- Includes: hand-mining Factorio ore, rock or tree resources and recovering a placed entity; dismantling a fixture for materials in Project Zomboid; manual Meadows harvesting in Valheim; the held or repeated resource-harvesting actions in the scoped 7 Days to Die tutorial.
+- Excludes: an operating mining drill producing ore automatically; destroying an enemy with a weapon; removing an entity without recovering materials or an item; merely transferring an already loose or stored item.
+- Parameters: target class, input cadence, extraction time, tool or character modifier, yielded items, yield destination, separate collection, placement recovery and cancellation progress.
+- Evidence: [factorio decomposition](../games/a-f/factorio.md), [satisfactory decomposition](../games/s-z/satisfactory.md), [dyson-sphere-program decomposition](../games/a-f/dyson-sphere-program.md), [palworld decomposition](../games/m-r/palworld.md), [rust decomposition](../games/m-r/rust.md), [project-zomboid decomposition](../games/m-r/project-zomboid.md), [dont-starve-together decomposition](../games/a-f/dont-starve-together.md), [valheim decomposition](../games/s-z/valheim.md), [no-mans-sky decomposition](../games/m-r/no-mans-sky.md), [7-days-to-die decomposition](../games/0-9/7-days-to-die.md), [starfield decomposition](../games/s-z/starfield.md).
+- Boundary correction: [Taxonomy Change 252](../../research/taxonomy-changes/TAXONOMY_CHANGE_252.md).
 - Novelty: not assessed.
 
 ## ACT-123 — Craft a selected known inventory recipe
@@ -3500,20 +4760,18 @@
   for selecting missiles as the active special weapon before firing.
 - Novelty: not assessed.
 
-## ACT-165 — Consume held food to restore hunger
+## ACT-165 — Consume eligible food for nourishment
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
-- Evidence quality: `Direct`
+- Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: the player holds the use command on eligible carried food to
-  consume one unit and increase the avatar's hunger and saturation state.
-- Includes: Minecraft Survival eating food when sufficiently hungry.
-- Excludes: using a healing potion; automatically feeding an autonomous agent;
-  crafting a food item.
-- Parameters: food, use duration, hunger, saturation and status effects.
-- Evidence: [Minecraft decomposition](../games/m-r/minecraft.md) and
-  [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
+- Definition: the player explicitly commands the controlled avatar to eat all or part of eligible food from carried stock or a reachable feeding fixture, consuming that amount and applying the food's declared nourishment and associated condition effects according to the rules.
+- Includes: Minecraft Survival eating food when sufficiently hungry; eating all or part of a food item in Project Zomboid; consuming a carried portion in DayZ; eating from the pot in the scoped Fortuna route of Kingdom Come: Deliverance II.
+- Excludes: using a healing potion; consuming a drink solely for hydration; automatically feeding an autonomous agent; crafting a food item; mouth-contact feeding that credits DNA and growth rather than an explicit eating command.
+- Parameters: food, carried or fixture availability, input cadence, consumed quantity, use duration, eligibility, nourishment measure, saturation, associated condition effects and immediate or gradual resolution.
+- Evidence: [minecraft decomposition](../games/m-r/minecraft.md), [palworld decomposition](../games/m-r/palworld.md), [rust decomposition](../games/m-r/rust.md), [project-zomboid decomposition](../games/m-r/project-zomboid.md), [subnautica decomposition](../games/s-z/subnautica.md), [dont-starve-together decomposition](../games/a-f/dont-starve-together.md), [peak decomposition](../games/m-r/peak.md), [dayz decomposition](../games/a-f/dayz.md), [kingdom-come-deliverance-ii decomposition](../games/g-l/kingdom-come-deliverance-ii.md), [the-long-dark decomposition](../games/s-z/the-long-dark.md).
+- Boundary correction: [Taxonomy Change 253](../../research/taxonomy-changes/TAXONOMY_CHANGE_253.md).
 - Novelty: not assessed.
 
 ## ACT-166 — Configure a workplace's active shift and unlocked ability
@@ -5161,9 +6419,10 @@
 - Definition: while at least one squadmate remains active, the player commits
   an eligible dead teammate's current recovery object or state to one legal
   return source that can restore that teammate to the live match.
-- Includes: using an Apex Legends deathbox return or carrying or crafting a
-  Legend Banner and activating an eligible Respawn Beacon; a surviving
-  Helldivers 2 squadmate keying and throwing Reinforce for a dead teammate.
+- Includes: using an Apex Legends deathbox return or activating an eligible
+  Respawn Beacon with a carried Legend Banner or one crafted at a Replicator;
+  a surviving Helldivers 2 squadmate keying and throwing Reinforce for a dead
+  teammate.
 - Excludes: reviving a merely downed ally; automatic round respawn; selecting a
   fresh class after ordinary death; account-level resurrection.
 - Parameters: teammate state, recovery object, carrier, source, reach, channel,
@@ -6220,18 +7479,23 @@
 - Novelty: first isolated for `GAME-0175`; the intervention changes the policy
   of autonomous agents rather than issuing their next embodied action.
 
-## ACT-306 — Arm one soldier's movement-triggered reaction fire
+## ACT-306 — Arm one soldier for an ordinary hostile-phase movement reaction
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: the player spends a controlled soldier's remaining authority to
+- Definition: within the declared ordinary hostile-phase branch, the player
+  spends an already revealed controlled soldier's remaining authority to
   prepare one ranged attack that may trigger when an eligible hostile moves
-  through that soldier's visible firing conditions during the hostile phase.
-- Includes: XCOM 2 Overwatch in the scoped Operation Gatecrasher mission.
-- Excludes: firing immediately at a selected target; an always-on zone attack;
-  a hostile reaction that was not armed by the player.
+  through that soldier's legal firing conditions after squad-phase closure.
+  This boundary does not model player-phase activation reactions and does not
+  claim that the game forbids them.
+- Includes: ordinary hostile-phase XCOM 2 Overwatch armed after reveal in the
+  scoped Operation Gatecrasher mission.
+- Excludes: player-phase activation reactions from this narrowed branch;
+  firing immediately at a selected target; an always-on zone attack; a hostile
+  reaction that was not armed by the player.
 - Parameters: soldier, weapon, remaining Action Points, sight line, hostile
   movement, trigger eligibility, accuracy modifier and ammunition.
 - Evidence: [XCOM 2 decomposition](../games/s-z/xcom-2.md).
@@ -6444,17 +7708,17 @@
 - Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
 - Novelty: first isolated for `GAME-0179`; the setting persists on a directly commanded multi-unit group rather than configuring an autonomous squad plan.
 
-## ACT-318 — Assign a villager to a reachable economic task
+## ACT-318 — Assign a selected worker to a reachable economic task
 
 - Lifecycle: `Active`
 - Claim status: `Confirmed`
 - Evidence quality: `Direct`
 - Confidence: `High`
-- Definition: the player orders one or more selected villagers to gather from a reachable resource source, construct a placed foundation or repair an eligible damaged owned entity.
-- Includes: tasking villagers to food, wood, gold or stone and to building or repair work in Age of Empires II: Definitive Edition.
+- Definition: the player orders one or more selected economic workers to gather from a reachable resource source, construct a placed foundation or repair an eligible damaged owned entity.
+- Includes: tasking villagers to food, wood, gold or stone and to building or repair work in Age of Empires II: Definitive Edition; assigning a Terran SCV to minerals, construction or repair in original StarCraft.
 - Excludes: the automatic work ticks after assignment; configuring a global worker-priority policy; direct military attack orders.
-- Parameters: villagers, task class, target, path, drop-off building, foundation, repair target and queue modifier.
-- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md).
+- Parameters: selected worker, task class, target, path, drop-off building, foundation, repair target and queue modifier.
+- Evidence: [Age of Empires II: Definitive Edition decomposition](../games/a-f/age-of-empires-ii-definitive-edition.md) and [StarCraft decomposition](../games/s-z/starcraft.md).
 - Novelty: first isolated for `GAME-0179`; earlier worker assignment genes allocate abstract jobs or autonomous errands rather than a selected live RTS worker to a world target.
 
 ## ACT-319 — Configure and launch a bounded Free Flight plan
@@ -9394,7 +10658,7 @@
   and commits one special close-combat technique that consumes the charge.
 - Includes: selecting a Sifu Focus target and spending a Focus charge in the
   bounded Disciple first Hideout.
-- Excludes: ordinary close strikes; automatic target switching; God of War's
+- Excludes: ordinary close strikes; automatic target switching; Monster Hunter Wilds'
   weapon-specific Focus Strike (`ACT-246`); a cooldown-only ability; a
   technique chosen without a distinct targeted-selection interval.
 - Parameters: focus reserve, target, weak point, selection interval, technique,
@@ -11857,3 +13121,81 @@
 - Parameters: body facing, camera orientation, inspection range, hold, recenter and release.
 - Evidence: [Tomb Raider (1996) decomposition](../games/s-z/tomb-raider-1996.md), the source ledger and transitions for this scoped packet.
 - Novelty: first isolated for `GAME-0451`; no external novelty claim.
+
+## ACT-612 — Orient and place a purchased household furnishing
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: in a paused household furnishing mode, the player chooses the spatial orientation and home position of a purchased object, changing which later resident interactions and approaches are possible without executing those interactions.
+- Includes: positioning an affordable chair after choosing it in original *The Sims* Buy Mode, then returning to Live Mode to test access and Comfort use.
+- Excludes: spending the purchase price (`ACT-130`); ordering a resident to use the chair (`ACT-257`); constructing walls in Build Mode; automatic placement with no player location choice.
+- Parameters: purchased object, footprint, home cell, orientation, legal placement feedback and later approach path.
+- Evidence: [The Sims (2000) decomposition](../games/s-z/the-sims.md), original Maxis/EA PC manual pp. 65–69.
+- Novelty: first isolated for `GAME-0461`; the household item's spatial edit is not the acquisition or use action.
+
+## ACT-613 — Enter a physical authored branch in a live stage
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: while directly controlling a body at a visible world crossroads, the player enters one reachable passage or carrier opening, committing the next authored stage segment without selecting a node on a separate route map.
+- Includes: jumping into the boat instead of the ship entrance at a Metal Slug 3 stage crossroads; the boat branch subsequently moves downstream.
+- Excludes: choosing a revealed map node (`ACT-127`); selecting an outgoing die-counted board edge (`ACT-530`); steering the transport after entry; an invisible automatic stage transition with no player branch choice.
+- Parameters: current junction, visible entrances, body position, entry condition, chosen segment and unchosen alternatives.
+- Evidence: [Metal Slug 3 decomposition](../games/m-r/metal-slug-3.md), archived original SNK route page.
+- Novelty: first isolated for `GAME-0462`; the branch is selected through a live world entrance, not an abstract map.
+
+## ACT-614 — Sacrifice an occupied combat vehicle in a directed assault
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: the player issues a distinct combined command while occupying an eligible combat vehicle, sending that vehicle into a damaging self-destruct attack and permanently losing its current vehicle state rather than retaining driving control after impact.
+- Includes: the original Metal Slug 3 A+B Metal Slug Attack against a reachable hostile formation or first-stage guardian.
+- Excludes: ordinary mounted-gun fire; accidental vehicle explosion after hostile hits; a recoverable ram (`ACT-379`); a remotely detonated unattended object.
+- Parameters: occupied vehicle, command, launch direction, impact target, damage, vehicle loss and resulting body state.
+- Evidence: [Metal Slug 3 decomposition](../games/m-r/metal-slug-3.md), archived original SNK Japanese operations page.
+- Novelty: first isolated for `GAME-0462`; the player deliberately trades the vehicle for attack damage.
+
+## ACT-666 — Swipe-remove compatible ground to open a fluid route
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player chooses a continuous screen gesture whose intersected editable ground is removed as free space, changing the channels available to an indirectly moving fluid without selecting the fluid’s velocity or destination.
+- Includes: Swiping brown soil around the fixed stones of original Where’s My Water? Choose Wisely.
+- Excludes: Embodied terrain-cell mining; buried-object shovel strikes; harvesting material into inventory; tactical cover excavation; dragging the fluid itself.
+- Parameters: gesture path, editable material, removed footprint, opening width, timing and route geometry.
+- Evidence: [Where’s My Water? decomposition](../games/s-z/wheres-my-water.md), original early-puzzle written accounts and reconciled 1-3 diagram.
+- Novelty: first isolated for `GAME-0493`; operational counterexamples are reviewed in [`TAXONOMY_CHANGE_230`](../../research/taxonomy-changes/TAXONOMY_CHANGE_230.md). No external novelty claim.
+
+## ACT-667 — Blow on a compatible local environmental target
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player commands a directly controlled avatar to blow on an eligible nearby environmental target, requesting its declared local response without firing a weapon.
+- Includes: Original Wii Jungle Hijinxs ragweed and compatible flowers exposed by crouching and shaking.
+- Excludes: Projectile firing; an automatic wind field; blowing on every object regardless of eligibility.
+- Parameters: target, proximity, posture, input and activation.
+- Evidence: [Donkey Kong Country Returns decomposition](../games/a-f/donkey-kong-country-returns.md), original USA Wii booklet pp. 9–22 and contemporary written first-stage routes and play testimony; retention limits are attributed separately there. No native execution.
+- Novelty: first isolated for `GAME-0495`; boundary counterexamples are reviewed in [`TAXONOMY_CHANGE_232`](../../research/taxonomy-changes/TAXONOMY_CHANGE_232.md). No external novelty claim.
+
+## ACT-668 — Commit the firing instant of an occupied preset launcher
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: while the controlled avatar occupies an eligible preset launcher, the player directly chooses when its authored launch is committed without selecting a free aim or power.
+- Includes: Original Wii Jungle Hijinxs arrow-marked Barrel Cannon firing after A.
+- Excludes: Automatic firing on entry; free ballistic aim or strength; firing an equipped weapon.
+- Parameters: launcher, occupancy, input instant and authored destination.
+- Evidence: [Donkey Kong Country Returns decomposition](../games/a-f/donkey-kong-country-returns.md), original USA Wii booklet pp. 9–22 and contemporary written first-stage routes and play testimony; retention limits are attributed separately there. No native execution.
+- Novelty: first isolated for `GAME-0495`; boundary counterexamples are reviewed in [`TAXONOMY_CHANGE_232`](../../research/taxonomy-changes/TAXONOMY_CHANGE_232.md). No external novelty claim.

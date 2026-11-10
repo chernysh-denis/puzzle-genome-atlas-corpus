@@ -157,8 +157,9 @@ specific zombies, lane counts and wave lengths are parameters, not genes.
   click-to-collect sun units; each uncollected unit expires after a short
   interval and collected surplus is not transferred to another level.
 - New `SYS-1087`: release a finite level's zombies in a slow-to-heavier
-  wave sequence with flagged surges, not player-triggered numbered Bloons
-  rounds or an unbounded survival stream.
+  wave sequence with flagged surges, not finite authored numbered Bloons
+  rounds with separately configured release control or an unbounded survival
+  stream. This comparison does not certify Bloons' manual/AutoStart choice.
 - New `SYS-1088`: each zombie advances left in its row, stops to chew a
   blocking plant, then continues if that plant is destroyed. A Peashooter
   may kill it before contact; Wall-nut occupation buys time, not a new lane.

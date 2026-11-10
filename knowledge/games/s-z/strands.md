@@ -93,8 +93,8 @@ gene_ids:
     eight-neighbour direction-changing input, no reused letters, perfect grid
     fit and three-non-theme-word Hint rule.
 - Formal source:
-  - **[A1]** Berggren et al.,
-    [“The Complexity of Strands”](https://drops.dagstuhl.de/storage/00lipics/lipics-vol366-fun2026/LIPIcs.FUN.2026.2/LIPIcs.FUN.2026.2.pdf),
+  - **[A1]** Alessandro Giovanni Alberti et al.,
+    [“Man, These New York Times Games Are Hard! A Computational Perspective”](https://drops.dagstuhl.de/storage/00lipics/lipics-vol366-fun2026/LIPIcs.FUN.2026.2/LIPIcs.FUN.2026.2.pdf),
     *LIPIcs FUN 2026*. It formalises the grid as disjoint valid word paths that
     cover it exactly, permits all eight neighbouring cells, forbids repeated
     cells within a word and documents the spangram plus two-stage Hint reveal.
@@ -308,7 +308,7 @@ Canonical signature:
 
 ## Taxonomy impact
 
-- Added seven active genes and reused five existing boundaries without changing
+- Added six active genes and reused six existing boundaries without changing
   the six-type taxonomy.
 - Generalised `CON-029` and `CON-030` evidence to include hidden answer paths;
   their topology and exclusive-position boundaries remain unchanged.

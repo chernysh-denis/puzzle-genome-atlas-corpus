@@ -313,7 +313,7 @@ gene_ids:
 
 ## Normalised genome
 
-The genome contains 39 genes: 27 reused and 12 new. It treats dimensionality,
+The genome contains 39 genes: 26 reused and 13 new. It treats dimensionality,
 world size, item counts, room dimensions, health thresholds and night duration
 as parameters while separating direct commands, automatic resolution, legality,
 disclosure, the composed first-boss objective and real-time scheduling.
@@ -354,7 +354,7 @@ disclosure, the composed first-boss objective and real-time scheduling.
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| Minecraft (\`GAME-0129\`) | \`ACT-008\`, \`ACT-159\`, \`ACT-161\`, \`ACT-162\`, \`ACT-164\`, \`SYS-212\`, \`SYS-213\`, \`SYS-215\`, \`SYS-217\`, \`SYS-222\`, \`CON-206\`, \`CON-208\`, \`CON-210\`, \`INF-073\`, \`TIM-003\` | Minecraft uses 3D chunked terrain, spatial-grid crafting, hunger/durability, complete inventory death drops and End progression; Terraria uses finite layered terrain, offered station recipes, coin-only Classic loss, validated NPC housing, day/night ecology and the Eye-to-Dryad gate | Near, `0.275862` |
+| Minecraft (\`GAME-0129\`) | \`ACT-008\`, \`ACT-159\`, \`ACT-161\`, \`ACT-162\`, \`ACT-164\`, \`SYS-212\`, \`SYS-213\`, \`SYS-215\`, \`SYS-216\`, \`SYS-217\`, \`SYS-222\`, \`CON-206\`, \`CON-208\`, \`CON-210\`, \`INF-073\`, \`TIM-003\` | Minecraft uses 3D chunked terrain, spatial-grid crafting, hunger/durability, complete inventory death drops and End progression; Terraria uses finite layered terrain, offered station recipes, coin-only Classic loss, validated NPC housing, day/night ecology and the Eye-to-Dryad gate | Near, `0.275862` |
 
 ## Combination assessment
 
@@ -369,18 +369,28 @@ loot comparison.
 `TAXONOMY_CHANGE_010` generalises seven Minecraft-derived mutable-world genes
 from implementation-specific voxel wording to embodied tile-world cells. It
 does not change Minecraft's signature or create dimension-specific duplicates.
-The unit adds fifteen bounded records for day/night ecology, permanent resource
-boosters, validated NPC housing/admission, first-Eye resolution, housing/map/boss
-disclosure and the composed objective. Immediate station-crafting legality was
-originally recorded here as `CON-366`, which
+The current signature retains thirteen first-appearance records for day/night
+ecology, permanent resource boosters, validated NPC housing/admission, first-Eye
+resolution, housing/map/boss disclosure and the composed objective: five System
+Behaviour, four Constraint, three Information and one Objective gene. The
+original sixteen additions included `ACT-252` and `SYS-415`, already merged into
+`ACT-123` and `SYS-353` respectively by the accepted `TAXONOMY_CHANGE_012`
+and `TAXONOMY_CHANGE_013`. The already reused `SYS-314` was merged into
+`SYS-216`, so that replacement did not reduce the new-gene count. Immediate
+station-crafting legality was originally recorded here as `CON-366`, which
 [`TAXONOMY_CHANGE_025`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_025.md)
 later subsumed into `CON-297`, whose parameters carry the ingredient source and
-station context, without changing any other carrier's signature.
+station context. The earlier twelve-new tally in that record inherited an extra
+decrement for the already reused respawn ID. The corrected thirteen-new count
+does not change the accepted merges or any current assignment.
 
 ## Negative results
 
-No existing crafting Action represents an immediate offered-recipe commitment:
-Minecraft's `ACT-160` requires a spatial grid and `ACT-123` queues timed work.
+`ACT-123` already represents selecting a known personal recipe and quantity;
+`TAXONOMY_CHANGE_012` removed immediate versus queued resolution from the
+Action boundary. Terraria's immediate retained-input conversion is
+`SYS-353`, not a new crafting Action. Minecraft's `ACT-160` remains distinct
+because the command arranges ingredients in a spatial grid.
 Palworld's generic defeat/respawn system transfers, but Minecraft's complete
 inventory-drop record does not. Existing settlement housing genes describe
 population capacity or supplied survival rather than validating one furnished

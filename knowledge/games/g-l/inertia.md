@@ -146,7 +146,7 @@ source: `0` north, then clockwise through `7` north-west.
 
 | Before | Action | Deterministic resolution | What it establishes | Claim ID |
 |---|---|---|---|---|
-| Initial ball at `E9`, 16 gems | `0` north | enter gem `D9`, collect it and stop there because `D9` is a stop | collection precedes stop and a gem does not prevent credit | `INE-003`, `INE-004` |
+| Initial ball at `E9`, 16 gems | `0` north | enter gem `D9`, collect it and stop there because the next cell `C9` is a wall | gem collection does not stop motion; a forward wall does | `INE-003`, `INE-004` |
 | Initial ball at `E9` | `1` north-east | enter visible mine `D10` and die | hazards are evaluated anywhere on the committed line | `INE-005` |
 | Initial ball at `E9` | `7` north-west | input rejected because adjacent `D8` is a wall | blocked direction does not launch or change state | `INE-003` |
 | Fixed control | `044506054661700142572222` | all 16 gems are removed safely in 24 resolved launches, finishing at `A10` | one exact complete safe route | `INE-006` |

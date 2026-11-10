@@ -309,7 +309,7 @@ parameters rather than gene names.
 
 ### Preserved research notes
 
-- Classification result: one new System Behaviour plus seventeen reused
+- Classification result: one new System Behaviour plus sixteen reused
   action, random, skill, quest, information, objective and history boundaries.
 
 ## Taxonomy impact

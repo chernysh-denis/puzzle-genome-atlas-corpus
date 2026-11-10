@@ -245,7 +245,7 @@ gene_ids:
 | Action | `ACT-130`, `ACT-187`–`ACT-193` | hero-specific ability shapes are parameters |
 | System Behaviour | `SYS-045`, `SYS-051`, `SYS-215`, `SYS-297`–`SYS-306` | hero, item and neutral rosters are parameters |
 | Constraint | `CON-268`–`CON-275` | exact costs, ranges and cooldowns are parameters |
-| Information | `INF-118`–`INF-116` | HUD placement and cosmetic effects are excluded |
+| Information | `INF-116`, `INF-118`, `INF-119`, `INF-120` | HUD placement and cosmetic effects are excluded |
 | Objective | `OBJ-072` | team side is a parameter |
 | Time | `TIM-003` | live timers are parameters |
 

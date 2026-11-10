@@ -123,6 +123,17 @@
       "infoUrl": "https://en.wikipedia.org/wiki/Arcade_video_game"
     },
     {
+      "id": "PLAT-ATARI-2600",
+      "slug": "atari-2600",
+      "nameEn": "Atari 2600",
+      "kind": "console",
+      "ecosystem": "atari",
+      "generation": "second generation",
+      "legacy": true,
+      "iconPath": "/platform-icons/atari-2600.svg",
+      "infoUrl": "https://en.wikipedia.org/wiki/Atari_2600"
+    },
+    {
       "id": "PLAT-ATARI-JAGUAR-CD",
       "slug": "atari-jaguar-cd",
       "nameEn": "Atari Jaguar CD",
@@ -165,6 +176,17 @@
       "legacy": true,
       "iconPath": "/platform-icons/bada.svg",
       "infoUrl": "https://en.wikipedia.org/wiki/Bada_(operating_system)"
+    },
+    {
+      "id": "PLAT-BBC-MICRO",
+      "slug": "bbc-micro",
+      "nameEn": "BBC Micro",
+      "kind": "computer",
+      "ecosystem": "acorn",
+      "generation": "legacy computer",
+      "legacy": true,
+      "iconPath": "/platform-icons/bbc-micro.svg",
+      "infoUrl": "https://collection.sciencemuseumgroup.org.uk/objects/co64142/bbc-model-b-microcomputer"
     },
     {
       "id": "PLAT-BLACKBERRY",
@@ -308,6 +330,17 @@
       "legacy": true,
       "iconPath": "/platform-icons/game-boy-advance.svg",
       "infoUrl": "https://en.wikipedia.org/wiki/Game_Boy_Advance"
+    },
+    {
+      "id": "PLAT-GAME-BOY-COLOR",
+      "slug": "game-boy-color",
+      "nameEn": "Game Boy Color",
+      "kind": "handheld",
+      "ecosystem": "nintendo",
+      "generation": "fifth generation",
+      "legacy": true,
+      "iconPath": "/platform-icons/game-boy-color.svg",
+      "infoUrl": "https://www.nintendo.com/en-gb/Games/Game-Boy-Color/Pokemon-Gold-Version-266076.html"
     },
     {
       "id": "PLAT-GAME-GEAR",
@@ -473,6 +506,17 @@
       "legacy": true,
       "iconPath": "/platform-icons/nec-pc-9800.svg",
       "infoUrl": "https://en.wikipedia.org/wiki/PC-98"
+    },
+    {
+      "id": "PLAT-NEO-GEO-MVS",
+      "slug": "neo-geo-mvs",
+      "nameEn": "Neo Geo MVS",
+      "kind": "arcade",
+      "ecosystem": "snk",
+      "generation": "not-applicable",
+      "legacy": true,
+      "iconPath": "/platform-icons/neo-geo-mvs.svg",
+      "infoUrl": "https://neogeomuseum.snk-corp.co.jp/english/catalogue/index.php"
     },
     {
       "id": "PLAT-NEW-NINTENDO-3DS",

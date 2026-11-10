@@ -355,10 +355,11 @@ gene_ids:
   [`TAXONOMY_CHANGE_022`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_022.md),
   which generalised both survivors without changing the `GAME-0185` signature.
 - Classification result: `New gene` and `New combination of known and new genes`.
-- Evidence and reasoning: only fixed concealed current information and the
-  single-game opponent-loss objective fit earlier boundaries. The Tutorial
-  fixture, Summon/Set allowance, positions, Spell-Speed Chain and individual
-  attack sequence require separate mechanically testable rules.
+- Evidence and reasoning: fixed concealed current information, the single-game
+  opponent-loss objective, ordered turn phases and card-text routing reuse
+  existing boundaries after `TAXONOMY_CHANGE_022`. The Tutorial fixture,
+  Summon/Set allowance, positions, Spell-Speed Chain and individual attack
+  sequence require separate mechanically testable rules.
 
 ## Taxonomy impact
 

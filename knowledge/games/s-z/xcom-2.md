@@ -53,10 +53,12 @@ gene instances but do not enter the signature.
   War of the Chosen systems.
 - Primary decision loop: inspect concealment, detection risk, cover, movement
   bands and attack odds; interleave commands among four rookies; spend each
-  soldier's two Action Points on movement, attacks, grenades, reload, Overwatch
-  or the mission interaction; commit the squad phase; observe enemy decisions
-  and prepared reaction fire; repeat until X4 is planted and all hostiles are
-  eliminated or the squad is lost.
+  soldier's two Action Points on movement, attacks, grenades, reload, the
+  mission interaction or, after concealment has already ended, Overwatch for
+  the ordinary hostile-phase reaction branch; commit the squad phase; observe
+  ordinary hostile decisions and any eligible prepared hostile-phase shot;
+  repeat until X4 is planted and all hostiles are eliminated or the squad is
+  lost.
 - Entry and exit: begins with four concealed rookies at the generated
   Operation Gatecrasher monument map; ends when the planted-charge and hostile
   clearance requirements settle the mission result. On Rookie without the
@@ -66,14 +68,28 @@ gene instances but do not enter the signature.
   Points per soldier; free squad switching; ranged probability; finite
   ammunition and reload; grenades and destructible cover; Overwatch; player
   and enemy phases; X4 interaction; health, wounds, death and result.
-- Excluded: tutorial scripting; later missions; Avenger strategy layer;
-  research, construction, recruitment and promotions; DLC, War of the Chosen,
-  multiplayer, Ironman and save reloading; exact hidden AI or hit-roll formula.
+- Excluded: player-phase activation reactions and concealed Overwatch
+  activation sequences from this packet; tutorial scripting; later missions;
+  Avenger strategy layer; research, construction, recruitment and promotions;
+  DLC, War of the Chosen, multiplayer, Ironman and save reloading; exact
+  hidden AI or hit-roll formula.
 - Potential scoped modules: one timed extraction mission; class abilities after
   promotion; a strategy-layer month; War of the Chosen faction systems.
-- Direct-play status: not conducted. Official manuals and publisher material
-  establish the tactical controls and rules; the secondary Gatecrasher record
-  fixes the tutorial-off encounter boundary.
+- Direct-play status: Direct play was not conducted. The official Steam-hosted
+  Windows manual and the Feral port manual document Action Points, movement,
+  cover, concealment, attacks, reload, Overwatch, interactions, health and
+  permanent death. Publisher material supports ambush preparation and
+  generated missions; the secondary Gatecrasher record supplies the
+  tutorial-off encounter boundary: four rookies, six hostiles, X4 and no
+  timer. The selected analysis branch considers Overwatch armed after reveal
+  for ordinary hostile-phase movement. Concealed Overwatch activation and
+  player-phase reactions are outside this branch, not claimed impossible in
+  the game. The original Windows manual archived during P5 was rechecked; the
+  Feral manual and 2K FAQ were read again during P7. These documents do not
+  constitute a build-identified Windows8270065 input/state trace, establish
+  exact activation-phase eligibility or X4 action cost, or verify a native
+  mission result. No paid account, executable or save was accessed and no
+  video or audio was played.
 
 ## Claim ledger
 
@@ -141,10 +157,13 @@ gene instances but do not enter the signature.
   concealment break and pod activation; `SYS-536`, Overwatch resolution;
   `SYS-537`, hostile squad-phase decisions; `SYS-538`, persistent wound or
   death settlement.
-- Resolution order: refresh surviving soldiers; accept interleaved legal
-  commands; activate revealed pods; commit the squad phase; resolve prepared
-  reactions and hostile commands; update health and objectives; test mission
-  terminal; otherwise refresh the next squad phase.
+- Analysed ordinary-reaction branch: refresh surviving soldiers and accept
+  interleaved legal commands; reveal and activate a pod before arming the
+  Overwatch preparations considered here. Close the squad phase, then resolve
+  eligible prepared reactions and ordinary hostile commands, update health
+  and objectives and test the sabotage-and-clearance terminal. If the mission
+  continues, refresh the next squad phase. Player-phase activation reactions
+  are outside this branch, not asserted to be absent from the game.
 - Claim IDs: `XCOM2-003`–`XCOM2-011`.
 
 ### Constraint Genes
@@ -184,7 +203,7 @@ gene instances but do not enter the signature.
 | A move crosses detection or the squad fires | Resolve reveal | Concealment ends and the encountered pod activates | information-to-behaviour transition | `XCOM2-006` |
 | A hostile is visible | Select Fire | The HUD exposes odds, then the shot consumes authority and ammunition and resolves randomly | forecasted uncertainty | `XCOM2-005`, `XCOM2-008` |
 | A grenade and legal area remain | Commit the grenade | The charge is consumed and compatible units and cover receive the declared blast | finite deterministic area tool | `XCOM2-008` |
-| A soldier retains final authority | Select Overwatch | Remaining ordinary authority becomes one movement-triggered prepared attack | cross-phase commitment | `XCOM2-007` |
+| An already revealed soldier retains final authority | Select Overwatch, then close the squad phase | Remaining ordinary authority prepares one possible attack on eligible movement during the ordinary hostile phase | declared hostile-phase reaction branch | `XCOM2-007` |
 | No further player commands are desired | End the phase | Hostile movement may trigger Overwatch, then alerted enemies choose and resolve commands | faction phase alternation | `XCOM2-007`, `XCOM2-009` |
 | A soldier stands by the monument | Plant X4 | The adjacent interaction records the sabotage requirement | objective dependency | `XCOM2-010` |
 | X4 is planted and no hostile survives | Settle mission | The result closes and surviving health becomes ready or wounded roster state | conjunctive terminal and persistence | `XCOM2-010`, `XCOM2-011` |

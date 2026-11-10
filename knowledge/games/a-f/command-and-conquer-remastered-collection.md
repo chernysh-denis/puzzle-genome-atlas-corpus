@@ -3,7 +3,7 @@ game_id: GAME-0275
 slug: command-and-conquer-remastered-collection
 game_title: Command & Conquer Remastered Collection
 analysis_status: reviewed
-reviewed: 2026-09-07
+reviewed: 2026-10-15
 combination_ids: []
 gene_ids:
   action:
@@ -15,17 +15,14 @@ gene_ids:
     - SYS-158
     - SYS-215
     - SYS-297
-    - SYS-305
     - SYS-551
     - SYS-821
   constraint:
-    - CON-273
     - CON-292
     - CON-467
   information:
     - INF-131
     - INF-224
-    - INF-225
   objective:
     - OBJ-166
   time:
@@ -59,8 +56,7 @@ gene instances but do not enter the signature.
   legal footprint and deploy that vehicle into a construction site; spend the
   finite opening credit balance through the shared structure channel on a power
   facility and then the unlocked infantry-production building; place each ready
-  structure on legal ground; train a small infantry group; read current sight,
-  remembered terrain, unit health, credit, power and production state; then
+  structure on legal ground; train a small infantry group; read explored terrain, unit health, credit, power and production state; then
   select groups and commit movement or attack orders until the declared hostile
   set is gone.
 - Positive terminal: all mission-declared hostile units and fortifications are
@@ -69,8 +65,7 @@ gene instances but do not enter the signature.
 - Negative terminal: the mission's player-loss trigger settles first; the
   attempt returns to restart rather than advancing the campaign.
 - Included: direct group orders and continuous combat; autonomous pathing and
-  attack acquisition; unit-projected sight, fog-gated targeting and remembered
-  terrain; the authored friendly arrival; deployment of the mobile construction
+  attack acquisition; unit-driven removal of initially unexplored shroud; the authored friendly arrival; deployment of the mobile construction
   vehicle into the construction site; the single paid structure-production
   channel; legal placement of the completed power and infantry-production
   buildings; the power supply/demand state; one building-local infantry queue;
@@ -98,9 +93,16 @@ gene instances but do not enter the signature.
   establish lawful availability and product identity. EA's released
   Tiberian Dawn DLL source directly establishes deploy legality, vehicle-to-site
   conversion, build availability, paid timed production, ready placement,
-  power accounting, sight, reinforcement actions and campaign settlement.
+  power accounting, exploration, reinforcement actions and campaign settlement.
   Full-page written references establish the exact opening-mission instruction
   and route. No audiovisual source was opened, played, heard, analysed or used.
+  Source-audit correction (2026-10-15): the pinned EA source retains visibility
+  of explored cells; ordinary unit departure does not itself clear these flags.
+  The previous inference of regrowing current-sight fog is rejected, and
+  `SYS-305`, `CON-273` and `INF-225` are withdrawn from this packet. This is
+  released-source reasoning, not a fresh execution of Steam build `21590013`;
+  commercial DLL/client and proprietary-renderer equivalence remains untested.
+  No result is transferred to original Red Alert 2.
 
 ## Claim ledger
 
@@ -114,7 +116,7 @@ gene instances but do not enter the signature.
 | `CNC-006` | The construction sidebar exposes price and production state; one paid structure advances over real time, then becomes a player-placed completed object | Confirmed | Direct | High | P4, P5 |
 | `CNC-007` | The power facility is available from the opening build level, while the infantry-production building requires it and then provides the infantry production site | Confirmed | Direct | High | P6, P7 |
 | `CNC-008` | Owned power output and building demand form a live power fraction whose shortfall changes dependent building behaviour | Confirmed | Direct | High | P6, P8 |
-| `CNC-009` | Unit movement, acquisition, combat and current sight resolve continuously under committed orders, while explored terrain persists under fog | Confirmed | Direct | High | P2, P9 |
+| `CNC-009` | Unit movement, acquisition and combat resolve continuously under committed orders; the released DLL cumulatively reveals explored cells rather than recomputing an ordinary current-allied-sight fog mask | Confirmed | Direct | High | P2, P9, P12 |
 | `CNC-010` | An authored reinforcement action can add the mission's friendly group without player cost or production; X16-Y42 supplies combat units and the mobile construction vehicle this way | Observation | Corroborated | High | P10, S2 |
 | `CNC-011` | A win trigger enters the victory flow, presents mission score, increments the scenario and starts the next scenario | Confirmed | Direct | High | P10, P11 |
 | `CNC-012` | The standard bounded route is a complete command, economy and combat packet: authored supply establishes the base, one prerequisite chain converts finite credits and power into infantry, and direct orders close the hostile-set terminal | Strong Pattern | Corroborated | High | `CNC-004`–`CNC-011` |
@@ -173,6 +175,12 @@ gene instances but do not enter the signature.
   released code and complete written route under the declared app, build,
   platform, input, difficulty, fresh profile and exclusions; rules reasoning,
   not direct play.
+- **[P12]** [Pinned EA source visibility audit](../../../research/normalisation/P2_CNC_VISIBILITY_SOURCE_AUDIT_001.json),
+  checked 2026-10-15 against official commit
+  `f1f0d42bc2dcd06d5d1df943c6150ab34bf307ae`; traces stored cell flags,
+  explicit darkness-crate clearing, discovery, target acquisition, click
+  eligibility and the renderer export. The old P9-to-live-fog inference is
+  withdrawn. No commercial binary or proprietary renderer parity is claimed.
 - Claim IDs: `CNC-001`–`CNC-012`. No audiovisual evidence was used.
 
 ## Mechanical decomposition
@@ -199,8 +207,6 @@ gene instances but do not enter the signature.
   defeat-dependent combat continuously.
 - Existing `SYS-297`: execute the committed navigable path and acquire the
   ordered legal target.
-- Existing `SYS-305`: update current allied sight and fog from controlled unit
-  positions.
 - Existing `SYS-551`: advance the active paid site-bound production order; a
   completed structure waits for placement, while a completed infantry order
   exits its site.
@@ -215,8 +221,6 @@ gene instances but do not enter the signature.
 
 ### Constraint Genes
 
-- Existing `CON-273`: current hostile position and ordinary targeting require
-  allied sight.
 - Existing `CON-292`: deployment and completed-building placement require a
   compatible clear footprint.
 - Existing `CON-467`: each production order requires the eligible owned site,
@@ -232,8 +236,6 @@ gene instances but do not enter the signature.
   whether the current footprint is legal before commitment.
 - Existing `INF-224`: the command view exposes credits, power, current
   selection, health, available orders and production progress.
-- Existing `INF-225`: explored terrain persists while current mobile hostile
-  state remains hidden outside allied sight.
 - Claims: `CNC-004`–`CNC-009`.
 
 ### Objective Genes
@@ -261,15 +263,16 @@ gene instances but do not enter the signature.
 | The power facility is ready and the deploy cursor is over a compatible footprint | Commit placement | The completed object joins the owned base, adds power and exposes the next prerequisite-dependent option | spatial placement and power | `CNC-006`–`CNC-008` |
 | The power prerequisite and credits are present | Produce and place the infantry-production building | The same shared structure channel completes it; legal placement creates an infantry production site | ordered dependency | `CNC-006`, `CNC-007` |
 | The infantry site is active and credits remain | Queue one ordinary infantry unit | Its site-bound paid production advances and releases the completed unit | unit production | `CNC-006`, `CNC-007` |
-| A group is selected beside unexplored ground | Commit a destination or attack order | Pathing moves the group, active sight updates, remembered terrain persists and legal targets are acquired inside sight | command, fog and combat | `CNC-009` |
+| A group is selected beside unexplored ground | Commit a destination or attack order | Pathing moves the group, previously unexplored cells become mapped and visible, and discovered targets remain eligible subject to their ordinary range and combat rules | command, exploration and combat | `CNC-009` |
 | The final declared hostile object is removed | Continue through settlement | The win flag enters victory handling, presents the mission result, increments the scenario and starts its successor | reproducible terminal | `CNC-011` |
 
 ## Strategic and experiential structure
 
 - Planning horizon: one fixed credit balance and one structure channel must
   satisfy a short prerequisite chain before the same economy can add infantry.
-- Local tactics: each move simultaneously changes formation geometry, current
-  sight, legal targets and exposure to return fire.
+- Local tactics: each move changes formation geometry, discovers new terrain and
+  changes range and exposure to return fire; leaving an explored cell does not
+  itself clear its stored visibility flags in the released DLL.
 - Medium-term structure: protect the arriving mobile construction vehicle,
   convert it into production authority, establish power before infantry
   production, then convert remaining credits and time into enough force to
@@ -305,7 +308,7 @@ gene instances but do not enter the signature.
   multiplayer are distinct rulesets outside this packet.
 - Similar games: `GAME-0179` Age of Empires II: Definitive Edition shares RTS
   selection, placement, site-bound production, prerequisite legality, command,
-  combat, fog and command-view disclosure; `GAME-0138` Dota 2 supplies the
+  combat and command-view disclosure; `GAME-0138` Dota 2 supplies the
   lower-level order/pathing/sight corridor; `GAME-0178` Subnautica supplies the
   mobile fabrication-fixture deployment boundary.
 - Important differences: this mission has no gathering loop, population cap,
@@ -319,9 +322,9 @@ gene instances but do not enter the signature.
 | Type | Active gene IDs | Candidate genes or parameters |
 |---|---|---|
 | Action | `ACT-139`, `ACT-189`, `ACT-315`, `ACT-316` | unit, order, mobile fixture, production target and footprint are parameters |
-| System Behaviour | `SYS-158`, `SYS-215`, `SYS-297`, `SYS-305`, `SYS-551`, `SYS-821` | power-domain topology, production output and arrival composition are parameters |
-| Constraint | `CON-273`, `CON-292`, `CON-467` | sight, footprint, producer, prerequisite and credit values are parameters |
-| Information | `INF-131`, `INF-224`, `INF-225` | cursor form and exact command-panel fields are presentation parameters |
+| System Behaviour | `SYS-158`, `SYS-215`, `SYS-297`, `SYS-551`, `SYS-821` | power-domain topology, production output and arrival composition are parameters |
+| Constraint | `CON-292`, `CON-467` | sight, footprint, producer, prerequisite and credit values are parameters |
+| Information | `INF-131`, `INF-224` | cursor form and exact command-panel fields are presentation parameters |
 | Objective | `OBJ-166` | hostile-set composition and successor identity are parameters |
 | Time | `TIM-003` | tick, production and combat cadence are implementation parameters |
 
@@ -330,32 +333,24 @@ gene instances but do not enter the signature.
 - Comparison algorithm: `genome-jaccard-v1`.
 - Prior game signatures scanned: `274` (`GAME-0001`–`GAME-0274`).
 - Exact genome matches: none.
-- Tied near matches: `GAME-0179` — Age of Empires II: Definitive Edition (`12 / 35 = 0.342857`).
+- Tied near matches: `GAME-0179` — Age of Empires II: Definitive Edition (`9 / 35 = 0.257143`).
 - Supported combination subsets: none.
-- Scan date: 2026-09-07.
+- Scan date: 2026-10-15.
 
 ### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0179` — Age of Empires II: Definitive Edition | `ACT-139`, `ACT-189`, `ACT-316`, `SYS-215`, `SYS-297`, `SYS-305`, `SYS-551`, `CON-273`, `CON-467`, `INF-224`, `INF-225`, `TIM-003` | Both turn a visible economy and prerequisite graph into placed production capacity, then command units through fog in real time. Age of Empires physically tasks villagers through four gathered stockpiles, builds population capacity, advances Ages and runs many site-local queues toward civilization-wide Conquest. X16-Y42 starts with one finite credit balance, no gathering, one shared structure channel, a short power-to-infantry dependency and an authored reinforcement that delivers the mobile source of construction authority. | Near, `12 / 35 = 0.342857` |
-
-- Reused genes: all eighteen genes; no new ID survives independent review.
-- Classification result: `Existing gene` plus eight accepted wording
-  generalisations in `TAXONOMY_CHANGE_036`.
-- Evidence and reasoning: the candidate's two new genes remain reusable, but
-  the supposedly economy-free scope was rejected. The standard route supplies
-  new independent evidence for sixteen lower-ID genes and turns product-bound
-  wording in eight of them into portable parameters.
+| `GAME-0179` — Age of Empires II: Definitive Edition | `ACT-139`, `ACT-189`, `ACT-316`, `CON-467`, `INF-224`, `SYS-215`, `SYS-297`, `SYS-551`, `TIM-003` | Both place production capacity, issue unit orders, resolve pathing/combat and expose command state in real time. AoE2 adds a gathered economy, population, Ages and live fog. X16-Y42 uses finite starting credits, a mobile construction-site arrival, power and a hostile-set campaign terminal; its released-code discovery is cumulative, not proof of live fog. | Near, `9 / 35 = 0.257143` |
 
 ### Preserved research notes
 
-- Reused genes: all eighteen genes; no new ID survives independent review.
+- Reused genes: all fifteen admitted genes; no new ID is introduced.
 - Classification result: `Existing gene` plus eight accepted wording
   generalisations in `TAXONOMY_CHANGE_036`.
 - Evidence and reasoning: the candidate's two new genes remain reusable, but
   the supposedly economy-free scope was rejected. The standard route supplies
-  new independent evidence for sixteen lower-ID genes and turns product-bound
+  independent evidence for the admitted lower-ID genes and turns product-bound
   wording in eight of them into portable parameters.
 
 ## Taxonomy impact
@@ -438,3 +433,26 @@ gene instances but do not enter the signature.
   answers the selection question it was chosen for: the smallest complete
   command, economy and combat genome of the standard opening route, without
   importing harvesting, later technology or the collection's second game.
+
+## Source correction — 2026-10-15
+
+- The earlier acceptance conflated cumulative black-shroud discovery with
+  repeated hiding outside current allied sight. The complete pinned EA source
+  shows that `Sight_From` calls `Map_Cell`, which sets stored mapped/visible
+  flags and returns early for an already mapped cell. The only typed clearing
+  calls are in the special `DARKNESS` crate effect, not ordinary unit departure.
+- `CellClass` explicitly describes visible as including the edge of the black
+  shroud; it is not a second live-fog state. Discovery, tactical click handling
+  and the shroud/render export use these stored states. A remembered road with
+  automatically hidden current occupants is therefore not established by P9.
+- Withdraw `SYS-305`, `CON-273` and `INF-225` from this packet, including their
+  paired role cards and the three false additional-support claims. Their
+  definitions, IDs, lifecycles and all other memberships are unchanged. No
+  substitute or new gene is invented for ordinary cumulative exploration.
+- This is a correction of the code-derived admission, not a fresh execution of
+  Steam build `21590013`. Exact shipped-DLL/client equivalence remains untested;
+  the proprietary renderer is outside the published source. No inference is
+  transferred to original Red Alert 2, its separate unresolved carrier.
+- Historical acceptance and Taxonomy Change 036 retain their dated context;
+  this correction supersedes their eighteen-gene and live-fog assertions, not
+  the independently supported production/deployment generalisations.

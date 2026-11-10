@@ -40,15 +40,16 @@ gene instances but do not enter the signature.
 
 ## Analysis scope
 
-- Version / ruleset: current unmodified English Windows Steam application
-  `391540`, sole one-app package `74780`, on the default `public` branch
-  carrying build `4279148`, built 2019-10-11 with its branch record updated
+- Version / ruleset: historically recorded unmodified English Windows Steam
+  application 391540, sole one-app package 74780, on the default public branch
+  carrying build 4279148, built 2019-10-11 with its branch record updated
   2019-10-28; checked 2026-09-06. No publisher announcement establishes a
   semantic version for this build: the developer's most recent Steam
-  announcement is dated 2016-01-20, more than three years before the branch
-  was last updated. This unit therefore asserts no semantic version and
-  identifies the ruleset by the default branch and its build identifier alone,
-  treating that identifier as a secondary distribution observation.
+  announcement at that observation was dated 2016-01-20, more than three years
+  before the branch was last updated. This unit therefore asserts no semantic
+  version and identifies the ruleset by the default branch and its build
+  identifier alone, treating that identifier as a secondary distribution
+  observation.
 - Product boundary: this is **Undertale** on Windows, not Deltarune or any
   other title by the same developer. The single listed DLC app `391570` is a
   soundtrack and is outside this packet. The application also publishes opt-in
@@ -64,75 +65,83 @@ gene instances but do not enter the signature.
 - Entry: accept first ordinary control on the bed of golden flowers in the
   tutorial area, before the first encounter and before any command is issued.
 - Primary decision loop: move the protagonist through the tutorial area until
-  an encounter opens; in the command phase choose one of the four declared
-  options against the current monster, using the non-damaging interaction
-  options that monster declares, the healing item option, or the attack option
-  whose damage is set by stopping a moving marker on a bar; watch the interface
-  for the marker that says the monster may now be released; when the opponent's
-  phase begins, steer the small token continuously inside the bounded board so
-  it avoids the shapes the monster releases into it; repeat until the release
-  marker appears, then commit the release option to close the encounter without
-  defeating anything; and use a save point to restore health and record the
-  run.
-- Positive terminal: settle one ordinary monster encounter entirely through the
-  monster's non-damaging interactions followed by the release option, having
-  defeated nothing at any point in the run. Then reach a save point, record the
-  run, quit to the title, load that record and verify the retained position,
-  health and a defeat count still at zero. Stop without advancing to the
-  guardian's own encounter.
+  an encounter opens; in the command phase inspect the four declared options
+  against the current monster and commit only required non-damaging
+  interactions, healing-item use or eligible release; the offered attack has
+  moving-marker damage control but is never executed by this route; watch the
+  interface for the marker that says the monster may now be released; when the
+  opponent's phase begins, steer the small token continuously inside the
+  bounded board so it avoids the shapes the monster releases into it; repeat
+  until the release marker appears, then commit the release option to close
+  the encounter without defeating anything; and use a save point to restore
+  health and record the run.
+- Positive terminal: settle one ordinary monster encounter entirely through
+  the monster's non-damaging interactions followed by the release option,
+  having defeated nothing at any point in the run. Then reach a save point,
+  record the run, quit to the title and reload; verify retained position,
+  health and no-kill continuity from an adequate event/state record rather
+  than assuming an initially visible KILLS counter. This is an unexecuted
+  verification protocol, not an observed save result. Stop without advancing
+  to the guardian's own encounter.
 - Negative terminal: health reaching zero ends the current attempt; continuing
   restores the last recorded save point. Reaching the release marker or opening
   the release option without committing it, or defeating any monster at any
   point in the run, is not success.
 - Included: overworld movement; the encounter's four declared command options
   and their per-monster sub-options, the attack option among them as an offer
-  the declared route never takes; the healing item and its consumption; the continuous steering of the
-  token inside the bounded board during the opponent's phase; the strict
-  alternation of the command phase and the opponent's phase; the accumulation
-  of per-monster interactions into release eligibility; the eligibility marker
-  in the interface; the release that closes an encounter without paying a
-  defeat's rewards; the single health pool and its zero terminal; save-point
-  interaction and the restore that follows a failed attempt; and the
-  reload-verified zero defeat count.
+  the declared route never takes; the healing item and its consumption; the
+  continuous steering of the token inside the bounded board during the
+  opponent's phase; the strict alternation of the command phase and the
+  opponent's phase; the accumulation of per-monster interactions into release
+  eligibility; the eligibility marker in the interface; committed non-killing
+  release, with whole-encounter closure only when no opponents remain and
+  without asserting zero GOLD; the single health pool and its zero terminal;
+  save-point interaction and the restore that follows a failed attempt; and
+  the authored no-kill continuity and save/reload verification requirement,
+  whose native result is still outstanding.
 - Excluded: Deltarune and every other title; the soundtrack DLC; the opt-in
   legacy and test branches; the guardian's own encounter and every later area,
   character and ending; the attack option's use, which the declared route
   refuses although the packet admits the option itself as the decision the
   objective is defined against; the game's persistent cross-save behaviour and
   anything it changes on a later run, which lies outside a single bounded
-  attempt; alternate routes defined by defeating monsters; equipment, gold and
-  shops; all inputs and platforms not declared above; screenshots, official
-  artwork, third-party assets, video and audio evidence.
-- Reproducible parameterisation: install English app `391540` from package
-  `74780`, confirm the default `public` branch, and start a fresh save. Pass
-  the setup-only predecessors without settling either. From ordinary control,
+  attempt; alternate routes defined by defeating monsters; equipment, GOLD
+  spending and shop loops; possible incidental GOLD is not ruled out merely
+  because kill EXP is absent; all inputs and platforms not declared above;
+  screenshots, official artwork, third-party assets, video and audio evidence.
+- Reproducible parameterisation: install English app 391540 from package
+  74780, confirm the default public branch, and start a fresh save. Pass the
+  setup-only predecessors without settling either. From ordinary control,
   enter one ordinary monster encounter, use at least one of that monster's
   declared non-damaging interactions, survive at least one opponent phase by
   steering the token inside the board, observe the release marker appear, and
   commit the release option. Then use a save point and perform the stated
-  record-and-reload check. Exact monster, interaction wording, projectile
-  patterns, health values and elapsed time are parameters.
+  record-and-reload check. An ordinary ACT-dependent opponent and encounter
+  composition must be identified before native verification; initially
+  spareable monsters, damage-induced eligibility and special boss exceptions
+  are excluded from this selected analytical branch. Exact interaction
+  wording, projectile patterns, health values and elapsed time are parameters.
+  No native trace is supplied by this review.
 - Potential scoped modules: the guardian's encounter; one later area; a route
   defined by defeating monsters; the persistent cross-save behaviour; or the
   product's alternate hard ruleset requires its own version, entry, loop,
   terminal and evidence.
-- Direct-play status: not conducted. Valve application and package data plus
-  the current Steam product record establish lawful availability, exact product
-  identity, Windows support, the sole package, the single-player-only category
-  list and the single soundtrack DLC. The public SteamCMD info projection
-  supplies the default branch build, its dates and the list of opt-in legacy
-  and test branches, and the Valve news endpoint establishes that no publisher
-  announcement covers that build. Official product wiki material, reached
-  through search because the wiki host refuses direct retrieval from this
-  environment, corroborates the four command options and what each does, the
-  moving-marker damage input, the token placed inside the bounded board while
-  the monster attacks it with projectiles, the release option and its
-  eligibility marker, the tutorial area's opening on the golden flowers, the
-  guardian's interruption of the first two encounters, the per-monster
-  interactions that make a monster releasable, and the save point that records
-  the run, restores health and receives the protagonist after a failed attempt.
-  This is an evidence-backed rules reconstruction, not a claimed playthrough or
-  entitlement. No video or audio was opened, played, heard, analysed or used.
+- Direct-play status: No direct playthrough, identified executable,
+  input/event trace or native save/reload inspection was conducted in this
+  audit. The historically declared Windows public build 4279148 remains a
+  secondary distribution identifier, not a newly certified current build. The
+  publisher About page supports nonviolent resolution generally; Undertale
+  Wiki Combat, Froggit, Gold and Stats are community pages from one source
+  family, not official product specifications or independent native
+  confirmations. During P5, direct HTTP retrieval was refused (403), while
+  relevant public text bodies were read through the web reader. P7 reread the
+  publisher About page and the relevant public wiki text through the web
+  reader; no fresh direct-HTTP failure or downloaded HTML hash is claimed.
+  They motivate separating eligibility, removal, group closure, kill EXP and
+  possible GOLD, and warn that the initial KILLS stat is hidden. They do not
+  establish exact historical event order, reward amounts, target-selection
+  mechanics or persistence for this build. `TAXONOMY_CHANGE_031` and ACT-261
+  exclusion remain intact. No video or audio was opened or played.
 
 ## Claim ledger
 
@@ -145,14 +154,23 @@ gene instances but do not enter the signature.
 | `UND-005` | The attack option resolves damage by how close a marker moving along a bar is stopped to its centre | Observation | Limited | Medium | S2 |
 | `UND-006` | The interaction option can change the opponent's mood or reveal information about it | Observation | Limited | Medium | S2 |
 | `UND-007` | The item option consumes one carried item from the inventory | Observation | Limited | Medium | S2 |
-| `UND-008` | The release option removes a monster from the encounter only when its name or the option's text is coloured, which marks that its conditions are met | Observation | Limited | Medium | S2 |
+| `UND-008` | In the selected ordinary marker-gated branch, the release option removes eligible monster participants; the name or option colour marks eligibility before the release is committed. This is not a universal boss rule | Observation | Limited | Medium | S2 |
 | `UND-009` | During the opponent's phase the protagonist's token is placed inside a bounded board and the monster attacks it with projectiles | Observation | Limited | Medium | S2 |
 | `UND-010` | The tutorial area begins on a bed of golden flowers and contains a save point in its first room | Observation | Limited | Medium | S3 |
 | `UND-011` | The flower character's opening encounter is ended by the guardian character, who then guides the protagonist through the tutorial area | Observation | Limited | Medium | S3 |
 | `UND-012` | The first ordinary monster encounter is also ended by the guardian after any non-attack command, so it takes one turn and the player does not settle it | Observation | Limited | Low | S4 |
-| `UND-013` | A later monster of the same kind is released by using one of its declared interactions and then the release option, after which its name turns coloured | Observation | Limited | Medium | S4 |
+| `UND-013` | Community descriptions of an ordinary ACT-dependent monster distinguish an interaction that prepares marked eligibility from a subsequent committed release; the exact opponent and historical build trace remain unverified | Observation | Limited | Medium | S4 |
 | `UND-014` | The save point records the run, restores health and receives the protagonist after a failed attempt | Observation | Limited | Medium | S3 |
 | `UND-015` | The bounded identity is one encounter whose two phases demand different competences in strict alternation, and whose peaceful close is a legality the player must earn rather than a chance they roll | Strong Pattern | Corroborated | Medium | `UND-004`–`UND-014` |
+
+Documentary limits: all existing evidence grades remain unchanged. The
+selected ordinary ACT-dependent encounter distinguishes preparation, a
+precommit eligibility marker, actual removal and closure only when no
+opponents remain. Community descriptions do not certify build4279148 native
+reward amounts, exact targeting, a visible initial kill counter or a completed
+save/reload trace. The authored positive terminal still requires retained
+position, health and no-kill continuity after save/reload; no such result is
+claimed. FIGHT remains an offered but unexecuted option, not an admitted Action.
 
 ## Basic data
 
@@ -203,6 +221,16 @@ gene instances but do not enter the signature.
     and for a later monster of the same kind being released by using one of its
     declared interactions and then the release option, with its name turning
     coloured.
+- P7 source re-review: [publisher About](https://undertale.com/about/)
+  supports nonviolent resolution and evasion generally, not exact historical
+  reward or save rules. Relevant public text on [Encounter](https://undertale.wiki/w/Combat),
+  [Froggit](https://undertale.wiki/w/Froggit), [GOLD](https://undertale.wiki/w/Gold)
+  and [Stats](https://undertale.wiki/w/Stats) was reread through the web reader.
+  These wiki pages count as one community family, not official specifications
+  or four independent confirmations. Froggit ACT descriptions are documentary
+  selection context, not an executed build-qualified result or a newly fixed
+  monster/formation. The earlier search-only access limits below describe
+  their historical review; P5 directHTTP403was not repeated in P7.
 - Source-class correction, recorded for `BATCH_015_GENE_AUDIT_001` finding
   `A-10`: `undertale.fandom.com` is a community wiki. This unit found no
   evidence of publisher ownership, and the record's own citations list it under
@@ -260,33 +288,33 @@ gene instances but do not enter the signature.
   `SYS-356` orders many combatants in an initiative queue and `SYS-359`
   resolves a timed defensive input inside an otherwise discrete turn; neither
   describes two phases with different time regimes.
-- New `SYS-814`: each opponent declares its own non-damaging interactions and a
-  private condition over them, and satisfying that condition marks the opponent
-  releasable. No existing system gene converts opponent-specific interaction
-  into an eligibility that ends an encounter.
-- New `SYS-815`: releasing an eligible opponent closes the encounter exactly as
-  a defeat would while withholding the progress a defeat pays and leaving the
-  defeat count unincremented.
-- Resolution order: the command phase accepts exactly one option and resolves
-  it, with the attack option first taking its marker input and the interaction
-  option updating the opponent's private state; eligibility is recomputed and
-  marked; the opponent's phase then runs in continuous time with the token as
-  the only input, and contact reduces the health pool; zero health restores the
-  last recorded save point; and a committed release against an eligible
-  opponent closes the encounter without its rewards. Claims:
-  `UND-005`–`UND-014`.
+- New `SYS-814`: in the selected ordinary ACT-dependent branch, non-damaging
+  interactions prepare spare eligibility before release; this is not a universal
+  prerequisite for all monsters and does not itself remove an opponent.
+- New `SYS-815`: valid committed release removes eligible opponents without
+  killing or their kill EXP; the encounter closes only when none remain.
+  Incidental GOLD is not ruled out. Exact native reward/save results remain
+  unverified for build 4279148.
+- Documentary composition, not a measured native event order: command selection
+  and continuous evasion belong to different phases. The admitted ACT branch
+  updates eligibility before Spare is committed. A valid release removes
+  eligible opponents and terminates the battle only if none remain; do not
+  force another enemy attack after final settlement. The route never executes
+  FIGHT or the withdrawn ACT-261. Exact reward and persistence order requires
+  a version-identified native trace; no zero-GOLD or visible KILLS=0 is assumed.
 
 ### Constraint Genes
 
 - Existing `CON-269`: an option resolves only when its target, availability and
   current state permit it.
-- New `CON-611`: the release command resolves only against an opponent already
-  marked eligible, and against an ineligible one it consumes the phase without
-  removing anything. `CON-276` makes a capture a chance computed from health
-  and device, which is a different legality.
-- Scarce resources: the health pool, carried items, the phases spent on
-  interactions before the opponent's condition is met, and the defeat count
-  that the objective requires to stay at zero. Exact values are parameters.
+- New `CON-611`: in the selected ordinary marker-gated branch, release removes
+  eligible opponents; no eligible opponent means the command spends a phase
+  without removal. This is not a universal boss rule or universal prior-ACT
+  requirement. CON-276 probabilistic capture remains a distinct mechanism.
+- Scarce resources: health, carried items and phases spent preparing the
+  selected opponent's eligibility. No-kill continuity is an authored condition,
+  not a claim that an initial zero KILLS counter is visible. Exact values and
+  adequate native persistence evidence remain to be verified.
   Claims: `UND-007`–`UND-014`.
 
 ### Information Genes
@@ -302,12 +330,13 @@ gene instances but do not enter the signature.
 
 ### Objective Genes
 
-- New `OBJ-162`: close one bounded encounter entirely through non-damaging
-  interactions and a release, with nothing defeated at any point in the run,
-  and retain a defeat count of zero through a persistence check. `OBJ-029`
-  requires incapacitating every member of a finite hostile set and `OBJ-153`
-  admits a lethal or non-lethal method against a designated target; neither is
-  satisfied by a capability deliberately not used.
+- New `OBJ-162`: close the ordinary encounter through non-damaging ACT and
+  committed release, with no kills anywhere in the run, then verify retained position, health and run state
+  after save/reload using an adequate event/state record. The initial KILLS
+  statistic is not presumed visible; this native verification is outstanding.
+  OBJ-029 and generic survival do not replace the no-kill retained terminal.
+  OBJ-153 admits lethal or non-lethal settlement of a designated target; it
+  does not substitute for the declared no-kill retention requirement.
 - Reaching the release marker without committing it, or defeating any monster
   at any point, is not success. Claims: `UND-013`–`UND-015`.
 
@@ -328,16 +357,16 @@ gene instances but do not enter the signature.
 |---|---|---|---|---|
 | A fresh save has completed only the setup-only predecessors | Accept ordinary control in the tutorial area | The run begins with nothing defeated and the first save point available | fixed clean entry | `UND-010`, `UND-011` |
 | The first monster encounter opens | Issue any non-attack command | The guardian ends the encounter after one turn, so the player does not settle it | setup-only predecessor | `UND-012` |
-| An ordinary encounter is open and it is the command phase | Choose the attack option | A marker moves along a bar and where it is stopped sets the damage | graded offensive timing | `UND-005` |
+| An ordinary encounter offers commands | Inspect the unexecuted FIGHT alternative; do not perform it on the authored route | The described moving-marker damage input is a counterfactual offered capability, not an executed transition or admitted ACT-261 | historical option description outside the successful route | `UND-005`, `TAXONOMY_CHANGE_031` |
 | An ordinary encounter is open and it is the command phase | Choose one of the monster's declared interactions | The monster's mood or exposed information changes and no damage is dealt | opponent-specific interaction | `UND-006` |
 | The monster's declared condition has been satisfied | Look at the encounter interface | The release option or the monster's own entry is marked differently | eligibility disclosure | `UND-008`, `UND-013` |
 | The monster is not yet marked releasable | Commit the release option | The phase is consumed and the monster remains in the encounter | release legality | `UND-008` |
-| The monster is marked releasable | Commit the release option | The monster leaves the encounter, the encounter closes and no defeat is recorded | non-lethal settlement | `UND-013` |
-| The command phase has resolved | Wait | The opponent's phase begins, the token is confined to the bounded board and projectiles cross it | phase alternation | `UND-009` |
+| An ordinary opponent is eligible | Commit valid Spare | Eligible opponent participants leave without kill EXP; close only if none remain, with exact reward trace unverified | non-killing settlement, not merely eligibility | `UND-013`, pending build-specific verification |
+| A non-terminal command resolves and the ordinary encounter continues | Enter the enemy phase | The token is confined to the bounded board and projectiles cross it; a valid release that removes the last opponents instead closes the encounter | phase alternation with final-settlement exit | `UND-009`, `UND-013` |
 | The opponent's phase is running | Steer the token | Only steering is accepted; contact with a projectile reduces health | continuous evasion | `UND-009` |
 | Health is below its cap and an item is carried | Choose the item option | One item is consumed and health is restored | item recovery | `UND-007` |
 | Health reaches zero | Continue | The attempt ends and resumes from the last recorded save point | reproducible negative recovery | `UND-014` |
-| An encounter has been closed by release and nothing has been defeated | Use a save point, quit and load that record | The same position, health and a defeat count of zero return | reproducible positive terminal | `UND-014`, `UND-015` |
+| An ordinary encounter is closed by release with no kills in the run | Save, quit and reload, retaining an adequate event/state record | Verify retained position, health and no-kill continuity without presuming visible initial KILLS=0; native result outstanding | authored positive-terminal verification protocol | `UND-014`, `UND-015`, pending native check |
 
 ## Strategic and experiential structure
 
@@ -358,9 +387,11 @@ gene instances but do not enter the signature.
 - Failure attribution: the visible health, the item count and the eligibility
   marker make a loss traceable to a specific unhealed phase or an interaction
   that was not the one the monster required.
-- Player trust: the eligibility marker appears before the release is committed,
-  the phases never accept each other's inputs, and the reloaded record shows
-  the defeat count the run actually earned.
+- Player trust: distinguish the precommit eligibility marker from actual
+  removal; the command and evasion phases retain their distinct inputs.
+  Distinguish final closure from partial group removal. No-kill continuity
+  and retained state require evidence after save/reload; an initially visible
+  zero KILLS counter is not promised and no native result was observed.
 
 ## Replay and variation
 
@@ -390,9 +421,10 @@ gene instances but do not enter the signature.
   committed inside an otherwise discrete turn, and its objective is to
   incapacitate the hostile set; this packet's defence is continuous spatial
   evasion and its objective is satisfied by leaving that set alive.
-- Pokémon Legends: Z-A shares removing an opponent from an encounter without
-  defeating it, but does so through a probabilistic capture into owned storage
-  rather than through an earned legality that pays no reward.
+- Pokémon Legends: Z-A shares removing an opponent without defeating it,
+  but by probabilistic capture into owned storage. The selected ordinary
+  Undertale branch prepares eligibility through ACT and removes through Spare;
+  this comparison does not assert that release pays zero GOLD.
 - Papers, Please shares a deterministic bounded decision loop with a visible
   legality marker, but resolves it by classification rather than by an
   encounter with two time regimes.
@@ -402,7 +434,7 @@ gene instances but do not enter the signature.
 | Type | Active gene IDs | Candidate genes or parameters |
 |---|---|---|
 | Action | `ACT-008`, `ACT-019`, `ACT-131`, `ACT-341`, `ACT-445` | monster, interaction wording, item and area names are parameters |
-| System Behaviour | `SYS-369`, `SYS-578`, `SYS-813`, `SYS-814`, `SYS-815` | phase durations, conditions, damage values and withheld rewards are parameters |
+| System Behaviour | `SYS-369`, `SYS-578`, `SYS-813`, `SYS-814`, `SYS-815` | phase durations, conditions, damage values and kill EXP versus possible GOLD (exact settlement still unverified) are parameters |
 | Constraint | `CON-269`, `CON-611` | eligibility markers and per-opponent conditions are parameters |
 | Information | `INF-119`, `INF-325` | colours, board geometry and interface layout are parameters |
 | Objective | `OBJ-162` | encounter identity and the count that must stay at zero are parameters |
@@ -421,7 +453,7 @@ gene instances but do not enter the signature.
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0259` — Dead Space (2023 remake) | `ACT-008`, `ACT-131`, `ACT-341`, `SYS-369`, `SYS-578`, `CON-269`, `INF-119`, `TIM-003` | Both move a protagonist through an authored area, consume carried items for their immediate effect, address authored objects, gate options on their current legality, expose the protagonist's personal state, reduce one continuous health pool to a terminal, restore a checkpoint after failure and run in real time. Dead Space resolves every encounter by destroying opponents in continuous time with a targeted-dismemberment economy. This packet splits each encounter into a discrete command phase and a continuous evasion phase that never accept each other's inputs, makes ending an encounter peacefully a legality earned through that specific opponent's own interactions, pays no reward for taking it, and defines success by a defeat count that stays at zero. The shared core is the traversal-and-survival substrate, not the encounter itself. | Near, `0.181818` |
+| `GAME-0259` — Dead Space (2023 remake) | `ACT-008`, `ACT-131`, `ACT-341`, `SYS-369`, `SYS-578`, `CON-269`, `INF-119`, `TIM-003` | Both move a protagonist through an authored area, consume carried items for their immediate effect, address authored objects, gate options on their current legality, expose the protagonist's personal state, reduce one continuous health pool to a terminal, restore a checkpoint after failure and run in real time. Dead Space resolves every encounter by destroying opponents in continuous time with a targeted-dismemberment economy. This packet splits each encounter into a discrete command phase and a continuous evasion phase that never accept each other's inputs, makes ending an encounter peacefully a legality earned through that specific opponent's own interactions, withholds kill EXP without asserting zero GOLD, and defines success by no-kill continuity and retained state, whose native verification remains outstanding. The shared core is the traversal-and-survival substrate, not the encounter itself. | Near, `0.181818` |
 
 ### Preserved research notes
 
@@ -498,22 +530,24 @@ gene instances but do not enter the signature.
 - [Observation | Corroborated | High] `UND-001`–`UND-015`: one bounded
   encounter alternates a discrete command phase with a continuous evasion phase
   and closes peacefully only through a legality earned from that specific
-  opponent, paying none of a defeat's rewards.
+  opponent, without kill EXP but without asserting zero GOLD; these historical metadata are retained, not new build-specific verification.
 
 ## New genes
 
 - [Observation | Corroborated | High] `ACT-445`, `SYS-813`, `SYS-814`,
   `SYS-815`, `CON-611`, `INF-325`, `OBJ-162` — continuous evasion inside a
   bounded board, the strict two-regime phase alternation, opponent-specific
-  interactions accumulating into release eligibility, the reward-free release,
+  interactions accumulating into release eligibility, the non-killing release (no zero-GOLD assertion),
   its legality, the eligibility marker and the objective satisfied by a
   capability deliberately not used.
 
 ## New combinations
 
 - [Strong Pattern | Corroborated | High] `COMB-0266` — an encounter whose two
-  phases demand different competences and whose peaceful close is an earned
-  legality that pays nothing.
+  phases demand different competences; the selected ordinary ACT-dependent
+  branch earns release eligibility, then removes through committed Spare
+  without kill EXP. Possible GOLD is not excluded; exact native rewards and
+  retained-state verification remain outstanding.
 
 ## Taxonomy changes
 

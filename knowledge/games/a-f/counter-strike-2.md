@@ -231,7 +231,7 @@ gene_ids:
 
 | Type | Active gene IDs | Candidate genes or parameters |
 |---|---|---|
-| Action | `ACT-008`, `ACT-161`, `ACT-164`, `ACT-130`–`ACT-187` | aim, stance, throw strength and communication vocabulary are parameters |
+| Action | `ACT-008`, `ACT-130`, `ACT-161`, `ACT-164`, `ACT-183`, `ACT-184`, `ACT-185`, `ACT-186`, `ACT-187` | aim, stance, throw strength and communication vocabulary are parameters |
 | System Behaviour | `SYS-208`, `SYS-215`, `SYS-222`, `SYS-292`–`SYS-296` | recoil/spread remain attack-resolution parameters |
 | Constraint | `CON-261`–`CON-267` | map geometry, prices and exact timers are parameters |
 | Information | `INF-073`, `INF-115`–`INF-117` | radar scale and sound ranges are parameters |

@@ -179,7 +179,7 @@ gene_ids:
 | A rock wall is reachable by an enabled miner | Mark it for mining | a mining job enters the pool; the dwarf claims it and leaves stone | spatial orders broker autonomous work | `DF-003` |
 | A food stockpile accepts prepared meals | Paint it near the dining room | haulers move matching meals into free accepted tiles | storage filters reshape labour and distance | `DF-004` |
 | Drinks are below ten and a still has inputs | Enable a conditional brew order | the manager permits jobs until the checked stock condition is satisfied | visible reserves can control repeated production | `DF-005` |
-| A skilled craftsdwarf completes a metal item | Let the workshop job finish | material and skill determine time, quality and item value | agents and matter jointly shape output | `DF-005` |
+| A skilled craftsdwarf completes a metal item | Let the workshop job finish | relevant skill affects work time or craft quality; metal and resulting quality affect item value | worker capability and matter shape different output properties | `DF-005` |
 | A resident repeatedly lacks sleep and social contact | Continue ordinary time | unmet needs and memories reduce focus and can raise stress | labourers retain personal causal histories | `DF-006` |
 | A moody dwarf has claimed a craft workshop | Supply every demanded material | the dwarf consumes them, creates an artifact and gains mastery | a random event becomes a material dependency puzzle | `DF-007` |
 | A caravan reaches an accessible depot | Move selected lots and approve trade | accepted values exchange and the caravan retains the agreed goods | world relations enter through spatial logistics | `DF-008` |

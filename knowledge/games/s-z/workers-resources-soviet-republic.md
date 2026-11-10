@@ -154,7 +154,7 @@ gene_ids:
   a technology unlock.
 - New: `SYS-264`–`SYS-271`, `SYS-273` and `SYS-274` cover citizens, transit, vehicle lines, construction
   and distribution dispatch, responsive trade, utilities, environmental wear,
-  research, nuclear operation and campaign scripts.
+  nuclear operation and campaign scripts.
 - Resolution order: accept edits; update time and environment; route citizens
   and vehicles; dispatch offices; run utilities and recipes; settle trade;
   advance research, nuclear state and objective counters.
@@ -233,7 +233,7 @@ gene_ids:
 
 - Existing line, road, recipe, staffing and diagnostic genes keep their limits.
   New genes isolate office remits, physical phased construction, citizen transit,
-  responsive bloc trade, staffed workday research and the nuclear/campaign chain.
+  responsive bloc trade, research eligibility gates and the nuclear/campaign chain.
 
 ## Negative results
 

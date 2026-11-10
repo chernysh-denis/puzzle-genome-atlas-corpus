@@ -64,8 +64,28 @@ gene_ids:
 - Excluded: Creative, Hardcore, Adventure and spectator modes; multiplayer;
   commands, datapacks, mods, Redstone automation, enchanting, breeding, trading,
   farms, villages as optimisation and post-dragon End exploration.
-- Direct-play status: not conducted. Official release notes and official
-  Minecraft guides establish the scoped transitions.
+- The portal qualification separates Nether-frame ignition and remaining
+  stronghold Eye-slot completion from entry into an active surface.
+  Already-filled Eye slots count; activation need not move an avatar outside
+  the surface, and existing active portals need not be activated again for
+  travel. Nether waiting and immediate End entry are distinguished in
+  historical publisher guides; no uniform positive delay or exact Java 26.2
+  timer, cooldown, arrival/linking or carried-state persistence is certified.
+  The post-Dragon exit remains part of the terminal, not evidence of a
+  stronghold-frame activation cause; later End gateways, Bedrock/Creative
+  timing and custom commands remain excluded. No version-identified native
+  trace has been executed.
+- Direct-play status: Direct play was not conducted. No identified Java 26.2
+  executable, seeded save, input/tick trace, actual portal-rule settings or
+  reload was inspected. The publisher Nether, End-frame, stronghold,
+  flint-and-steel and Dragon guide bodies read during P5 distinguish
+  activation, portal-type entry, occupied Eye slots and the separate
+  post-Dragon exit. Historical Java 1.20.3 notes name Nether-specific delay
+  controls; they do not certify the Java 26.2 configuration. The official Java
+  26.2 release identity was read through the public web reader after direct
+  HTTP retrieval returned 403. These sources motivate this portal-type
+  qualification; exact delay, cooldown, destination/linking and carried-state
+  persistence remain unverified. No video or audio was opened or played.
 
 ## Claim ledger
 
@@ -77,8 +97,8 @@ gene_ids:
 | `MNC-004` | Crafting consumes the exact supported 2×2 or 3×3 arrangement and exposes matching recipe-book state | Confirmed | Direct | High | P1, P4 |
 | `MNC-005` | A seed determines terrain while local breaking and placement persistently reshape world geometry | Confirmed | Corroborated | High | P3, P5 |
 | `MNC-006` | Activity, food and damage update hunger and health; ordinary death drops inventory and respawns the avatar in the same world | Confirmed | Direct | High | P2, P6, P10 |
-| `MNC-007` | A valid ignited Nether frame activates a portal whose contact transfers the avatar to the Nether | Confirmed | Direct | High | P9, P11 |
-| `MNC-008` | Thrown Eyes reveal stronghold bearings and may shatter; filling all twelve End-frame slots activates the portal | Confirmed | Direct | High | P8 |
+| `MNC-007` | A valid ignited Nether frame creates an active surface; separate entry under the portal type's contact condition transfers the avatar and carried state, without a measured Java 26.2 delay/arrival trace | Confirmed | Direct | High | P9, P11 |
+| `MNC-008` | Thrown Eyes reveal stronghold bearings and may shatter; all twelve stronghold End-frame slots, including generated occupied slots, create the active entry surface without requiring twelve newly inserted Eyes | Confirmed | Direct | High | P8, P13 |
 | `MNC-009` | Direct combat can defeat the Dragon while intact End crystals heal it; crystal destruction removes healing but is not a formal damage prerequisite | Confirmed | Direct | High | P7 |
 | `MNC-010` | Dragon defeat activates the exit portal; entering it presents the End Poem and credits while the world remains playable | Confirmed | Direct | High | P7 |
 
@@ -103,6 +123,8 @@ gene_ids:
   - **[P10]** [Spawning and dying](https://www.minecraft.net/en-us/article/spawning-and-dying), official dropped inventory, item lifetime and respawn guide.
   - **[P11]** [Flint and Steel](https://www.minecraft.net/en-us/article/flint-and-steel), official portal lighting and durability guide.
   - **[P12]** [Minecraft Java Edition 26.2](https://feedback.minecraft.net/hc/en-us/articles/46690753273997-Minecraft-Java-Edition-26-2), official stable release record.
+  - **[P13]** [End Portal Frame](https://www.minecraft.net/en-us/article/block-week--end-portal-frame), historical publisher activation versus immediate End-entry guide; no exact Java 26.2 tick claim.
+  - **[P14]** [Java 1.20.3](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-20-3), historical Nether-specific delay controls, not a measured Java 26.2 configuration.
 - Claim IDs: `MNC-001`–`MNC-010`.
 
 ## Mechanical decomposition
@@ -120,17 +142,22 @@ gene_ids:
 - `SYS-212` resolves break/drop; `SYS-217` placement; `SYS-222` pickup;
   `SYS-223` durability. `SYS-213` generates the seed world; `SYS-214` updates
   hunger/health; `SYS-216` resolves death/drop/respawn; `SYS-215` combat.
-- `SYS-218` flies an Eye then drops or shatters. `SYS-219` activates valid
-  portals; `SYS-220` transfers between dimensions. `SYS-221` heals the Dragon
-  from active crystals without inventing an immunity gate.
+- `SYS-218` flies an Eye then drops or shatters. `SYS-219` creates Nether
+  or stronghold End-entry surfaces from each type's frame/input condition;
+  `SYS-220` separately transfers the avatar and carried state through an active
+  surface under that portal type's entry rule. No universal positive hold or
+  measured Java 26.2 timing is asserted. `SYS-221` heals the Dragon from active
+  crystals without inventing an immunity gate.
 - Claim IDs: `MNC-002`–`MNC-010`.
 
 ### Constraint Genes
 
 - `CON-206` gates breaking; `CON-208` separately gates placement; `CON-207`
-  requires exact crafting-grid contents; `CON-210` bounds pickup capacity;
-  `CON-209` requires complete portal frames. `CON-136` captures the persistent
-  dependency chain through Nether materials, Eyes, stronghold and Dragon.
+  requires exact crafting-grid contents; `CON-210` bounds pickup capacity.
+  `CON-209` gates each admitted entry portal's typed frame/activation state;
+  already occupied stronghold Eye slots count and the Dragon exit is not
+  assigned that cause. `CON-136` captures the persistent dependency chain
+  through Nether materials, Eyes, stronghold and Dragon.
 - Claim IDs: `MNC-002`–`MNC-004`, `MNC-007`–`MNC-010`.
 
 ### Information Genes
@@ -159,9 +186,11 @@ gene_ids:
 | Exact recipe in supported grid | Take output | Inputs are consumed and output is received | spatial arrangement is causal | `MNC-004` |
 | Hungry avatar; food selected | Hold use | Food is consumed; hunger rises; high hunger permits regeneration | food action and survival update differ | `MNC-006` |
 | Health reaches zero | No input required | Inventory drops; avatar respawns; persistent world continues | death is recoverable but materially lossy | `MNC-006` |
-| Complete obsidian frame | Apply flint and steel | Portal activates; sustained contact transfers the avatar | activation and traversal differ | `MNC-007` |
+| Complete valid obsidian frame; avatar outside its interior | Apply flint and steel | Create the active Nether surface; avatar need not travel | activation writes world state | `MNC-007` |
+| Already-active Nether surface | Enter and satisfy its type/rule-specific contact condition | Transfer avatar and carried state; exact Java 26.2 delay/arrival unmeasured | traversal differs from activation | `MNC-007` |
 | Eye held in Overworld | Throw it | It flies toward nearest stronghold, then drops or has a one-in-five shatter outcome | hidden route is sampled | `MNC-008` |
-| Eleven End-frame slots filled | Insert last Eye | All twelve fill and portal activates | persistent typed completion gates access | `MNC-008` |
+| Eleven stronghold End-frame slots filled, including any generated Eyes | Insert one Eye in the remaining empty slot | All twelve occupied slots create the active surface, not proof of avatar entry | frame completion and activation | `MNC-008` |
+| Already-active stronghold End-entry surface | Enter the surface | Historical publisher guide describes immediate End transfer; exact Java 26.2 tick/arrival trace unmeasured | type-specific entry, not a universal positive hold | `MNC-008` |
 | Dragon linked to a crystal | Attack Dragon or crystal | Dragon may regain health; destroying crystal stops only that source | crystals are strategic, not a hard prerequisite | `MNC-009` |
 | Dragon dead; exit portal active | Enter portal | End Poem and credits play; world remains | ending differs from world deletion | `MNC-010` |
 
@@ -215,9 +244,11 @@ No pre-migration reviewed selected-neighbour table row exists for: `GAME-0087`.
 
 ## Evidence and unknowns
 
-- Official sources corroborate all admitted transitions. Direct play would
-  refine timing and numeric parameters. Hostile spawning is adjacent but not
-  admitted because this scope models direct combat without its full spawn model.
+- Official guides support documentary activation/entry distinctions, including
+  a Nether wait and immediate End entry. They do not certify an exact Java 26.2
+  input/tick trace, current portal-rule settings, cooldowns, arrival/linking or
+  carried-state persistence. No direct run or reload was inspected. Hostile
+  spawning remains adjacent and is not admitted by this direct-combat scope.
 
 ## Verification status
 

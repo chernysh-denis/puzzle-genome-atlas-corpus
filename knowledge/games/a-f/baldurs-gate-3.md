@@ -45,7 +45,6 @@ gene_ids:
     - INF-119
     - INF-125
     - INF-128
-    - INF-141
     - INF-148
     - INF-152
     - INF-153
@@ -191,8 +190,8 @@ gene_ids:
 
 - Existing genes: `INF-073`, hotbar and equipment; `INF-119`, character health,
   resources and build; `INF-125`, map, waypoints and quest gates; `INF-128`,
-  loot and inventory compatibility; `INF-141`, initiative, resources, party
-  and targets; `INF-148`, available contextual dialogue responses.
+  loot and inventory compatibility; `INF-148`, available contextual dialogue
+  responses.
 - New genes: `INF-152`, the dice interface exposes DC, modifiers, advantage and
   reroll resources; `INF-153`, party frames and sheets expose members, health,
   conditions and approval; `INF-154`, the rest interface exposes recovery and
@@ -287,7 +286,7 @@ gene_ids:
 | Action | `ACT-008`, `ACT-019`, `ACT-040`, `ACT-107`, `ACT-130`, `ACT-131`, `ACT-161`, `ACT-190`, `ACT-191`, `ACT-199`, `ACT-232`, `ACT-238` | race, class, spell and response are parameters |
 | System Behaviour | `SYS-299`, `SYS-379`, `SYS-387`–`SYS-392` | exact classes, spells, DCs and quests are parameters |
 | Constraint | `CON-269`, `CON-270`, `CON-282`, `CON-284`, `CON-323`, `CON-336`, `CON-342`–`CON-345` | difficulty values and route gates are parameters |
-| Information | `INF-073`, `INF-119`, `INF-125`, `INF-128`, `INF-141`, `INF-148`, `INF-152`–`INF-154` | interface layout is excluded |
+| Information | `INF-073`, `INF-119`, `INF-125`, `INF-128`, `INF-148`, `INF-152`–`INF-154` | interface layout is excluded; visible initiative has an explicit representation gap |
 | Objective | `OBJ-077` | destroy branch is scoped |
 | Time | `TIM-001`, `TIM-003`, `TIM-007` | exploration, turns and save history coexist |
 
@@ -296,7 +295,7 @@ gene_ids:
 - Comparison algorithm: `genome-jaccard-v1`.
 - Prior game signatures scanned: `147` (`GAME-0001`–`GAME-0147`).
 - Exact genome matches: none.
-- Tied near matches: `GAME-0146` — Cyberpunk 2077 (`21 / 74 = 0.283784`).
+- Tied near matches: `GAME-0146` — Cyberpunk 2077 (`21 / 73 = 0.287671`).
 - Supported combination subsets: `COMB-0146`.
 - Scan date: 2026-08-21.
 
@@ -304,14 +303,18 @@ gene_ids:
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0146` — Cyberpunk 2077 | `ACT-008`, `ACT-107`, `ACT-161`, `ACT-191`, `ACT-199`, `ACT-232`, `SYS-299`, `SYS-379`, `CON-269`, `CON-270`, `CON-282`, `CON-284`, `CON-336`, `INF-073`, `INF-119`, `INF-125`, `INF-128`, `INF-148`, `OBJ-077`, `TIM-003`, `TIM-007` | Both packets retain an authored branching campaign, persistent build and inventory choices, dialogue state and save restoration. Baldur's Gate 3 resolves those choices through a four-character initiative order, d20 checks, action economy and camp recovery, while Cyberpunk uses one real-time avatar with scanner, quickhacks and capacity-bound cyberware. | Near, `0.283784` |
+| `GAME-0146` — Cyberpunk 2077 | `ACT-008`, `ACT-107`, `ACT-161`, `ACT-191`, `ACT-199`, `ACT-232`, `SYS-299`, `SYS-379`, `CON-269`, `CON-270`, `CON-282`, `CON-284`, `CON-336`, `INF-073`, `INF-119`, `INF-125`, `INF-128`, `INF-148`, `OBJ-077`, `TIM-003`, `TIM-007` | Both packets retain an authored branching campaign, persistent build and inventory choices, dialogue state and save restoration. Baldur's Gate 3 resolves those choices through a four-character initiative order, d20 checks, action economy and camp recovery, while Cyberpunk uses one real-time avatar with scanner, quickhacks and capacity-bound cyberware. | Near, `0.287671` |
 
 ## Taxonomy impact
 
-- Registry changes: add fourteen bounded records and reuse twenty-nine active
+- Registry changes: add fourteen bounded records and reuse twenty-eight active
   genes; register `COMB-0146` and extend six established family memberships.
-- Taxonomy-change record: none; the d20, party-turn, rest and companion
-  boundaries are additive and do not redefine the controlled vocabulary.
+- Original taxonomy result: the d20, party-turn, rest and companion
+  boundaries were additive and did not redefine the controlled vocabulary.
+- Source-admission correction: [Taxonomy Change 260](../../../research/taxonomy-changes/TAXONOMY_CHANGE_260.md)
+  withdraws `INF-141` from this genome and `COMB-0146`; its mandatory pooled
+  AP and selected-target Break disclosure are not established by `BG3-004`.
+  The remaining forty-two IDs retain their existing boundaries.
 - Candidate terms affected: none.
 
 ## Negative results
@@ -326,3 +329,12 @@ gene_ids:
   consequence differs from BG3's short/long camp-rest economy.
 - Romance, alchemy and exhaustive stealth systems were not promoted because
   they are outside the one-critical-path definition of done.
+- `INF-141` is not admitted: a visible initiative queue and separate movement,
+  Action, Bonus Action and Reaction resources do not satisfy its conjunctive
+  AP-and-Break HUD predicate. `INF-343` also requires pooled Action Points;
+  `INF-333` explicitly withholds upcoming order. No substitute is added.
+- The visible initiative queue remains a documented scope fact and an open
+  representation gap, not a claim that the game hides order. `SYS-388` owns
+  scheduling, `CON-343` bounds turn resources, and `INF-119` / `INF-153` retain
+  their separate character and party disclosures; none is silently broadened
+  to encode the isolated visible queue.

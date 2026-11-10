@@ -193,8 +193,8 @@ gene_ids:
   reveal and contract the Ring while applying outside damage; `SYS-348`,
   resolve armour, health, downing, allied revival and full death; `SYS-380`,
   resolve selected Legend abilities into typed live effects.
-- New genes: `SYS-421`, convert weapon activity into one bound hop-up unlock;
-  `SYS-422`, return an eligible dead squadmate through a deathbox or Respawn
+- New genes: `SYS-422`, convert weapon activity into one bound hop-up unlock;
+  `SYS-421`, return an eligible dead squadmate through a deathbox or Respawn
   source; `SYS-423`, convert simultaneous full-squad defeat into elimination
   and the final remaining squad into the match winner.
 - Resolution order: assign the field, map state, dropship route and loot;

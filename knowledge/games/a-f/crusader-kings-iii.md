@@ -87,11 +87,30 @@ gene_ids:
   one fabricated-claim packet, one title-creation route, one independently
   versioned DLC start or one later-generation campaign segment each requires a
   separate entry and terminal contract.
-- Direct-play status: no authenticated current Windows tutorial was played.
-  Official version, product, tutorial, Murchad and feature sources establish the
-  current executable and base mechanics; current and historical Steam tutorial
-  traces corroborate the ordered Desmond completion boundary. The repository
-  transition table is rules reasoning, not a direct-play claim.
+- Council-process qualification: the office, task, target, assignment state
+  and running-time before/after transition must be identified within this
+  version and tutorial. Until then SYS-673 recognition remains unresolved; the
+  boundary is not widened to fabricated claims, schemes, DLC or post-tutorial
+  tasks.
+- Direct-play status: No authenticated Windows 1.19.0.6 / build 23530548
+  tutorial client or selected save was played or inspected. Existing official
+  version, product, tutorial and character material provides historical
+  release context and general rules; the named patch announcement does not
+  identify the exact executable task state. Steam tutorial discussions support
+  the recorded Desmond completion protocol as documentary context, not as a
+  matched trace of this build. No council office, task, target, assignment
+  state, running interval or before/after task state and paused/unassigned
+  control has been verified for the selected Learning the Game tutorial. The
+  generic repository transition row is a planned requirement, not a
+  demonstrated timed effect. P7 hash-verified the archived official
+  council/tutorial announcements and 1.19.0.6 changelog and reread the public
+  Murchad text; the announcements are pointers to longer diaries, not complete
+  task specifications. Current forum/wiki retrieval was
+  restricted/unauthorised and the current Steam text reader exposed no article
+  body; no missing text was reconstructed. The full base-game
+  Murchad-to-Desmond-completion packet remains unchanged. No fabricated claim,
+  scheme, DLC or later task is substituted; existing evidence grades are
+  retained without native recertification.
 
 ## Claim ledger
 
@@ -101,7 +120,7 @@ gene_ids:
 | `CK3-002` | Learning the Game places the player in retained control of Petty King Murchad of Munster and teaches through the live campaign interface | Confirmed | Direct | High | P2, P3 |
 | `CK3-003` | Characters expose traits, skills, relationships and opinions that condition eligible interactions and their consequences | Confirmed | Direct | High | P3, P4 |
 | `CK3-004` | One eligible ordinary marriage changes persistent spouse and alliance/relationship state | Observation | Corroborated | High | P2, P4 |
-| `CK3-005` | Council membership and assigned tasks convert councillor skill into realm or claim progress over time | Observation | Corroborated | High | P2, P5 |
+| `CK3-005` | The recorded model declares skill-dependent council work; the exact in-scope office, task, target and timed tutorial transition remain unverified | Observation | Corroborated | High | P2, P5 |
 | `CK3-006` | Realm, domain, titles and vassal relations determine ownership, obligations and available levies | Observation | Corroborated | High | P4, P5, S2 |
 | `CK3-007` | A valid claim or de jure casus belli is required to declare the instructed Desmond war | Observation | Corroborated | High | P4, P6, S2 |
 | `CK3-008` | Raised levies and men-at-arms gather, follow map orders and resolve battles and retreat under commanders | Confirmed | Corroborated | High | P4, P6 |
@@ -243,7 +262,7 @@ gene_ids:
 | Public `1.19.0.6` / `23530548` is selected with DLC and mods off | Start Learning the Game | The fixed 1066 Murchad state reaches its first retained guided frame | current bounded entry | `CK3-001`, `CK3-002` |
 | Murchad has an available Diplomacy focus | Select the prompted eligible focus | Its persistent bonuses and event weighting become active | character development changes later relations | `CK3-003` |
 | One compatible candidate is visible | Propose the chosen ordinary marriage | Acceptance creates spouse and relationship state and may create an alliance | candidate evaluation becomes persistent political structure | `CK3-004` |
-| A council office or task is editable | Appoint an eligible character and assign the prompted task | Office skill and target begin contributing their declared timed effects | people are productive assignments, not static bonuses | `CK3-005` |
+| A council office or task is editable | Appoint an eligible character and assign the prompted task | The model declares time-driven effects, but the selected office, task, target and running-time before/after result remain unverified | outstanding protocol requirement, not a native demonstration | `CK3-005` |
 | The realm view distinguishes held domain, vassal land and de jure titles | Inspect Murchad, Ormond and Desmond | Ownership and obligation panels disclose direct control, vassal contribution and the legal Desmond relation | title hierarchy drives available power and war | `CK3-006`, `CK3-007` |
 | The Desmond casus belli is available and no gate blocks declaration | Declare the instructed war | The game binds attacker, defender, objective and settlement effects into one war | claims are executable legal predicates | `CK3-007` |
 | Realm contributions are available and the war is active | Raise all available troops at the rally point | Levies and men-at-arms gather over time into a selected army | military capacity is derived from the realm | `CK3-006`, `CK3-008` |

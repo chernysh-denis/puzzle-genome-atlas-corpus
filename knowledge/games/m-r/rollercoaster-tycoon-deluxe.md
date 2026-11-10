@@ -196,9 +196,13 @@ thresholds are carrier parameters, not gene names.
   cash, Park Value and weekly profit rather than only a single balance.
 - `INF-072`: selecting a guest exposes current activity, needs and thoughts,
   allowing local failure attribution without direct control.
-- New `INF-362`: park and attraction panels expose the scenario objective,
-  date, attendance, Park Rating, ride state, queue, price, reliability,
-  inspection and breakdown information needed to operate the bounded park.
+- New `INF-362`: Park Status exposes the scenario objective, attendance and
+  Park Rating; Rides Info exposes ride status, popularity and guest
+  satisfaction; applicable Ride-window tabs expose waiting guests, admission
+  price, inspection setting and completed test data. The date and visible
+  breakdown state let the player relate these observations to the deadline and
+  current operation. The cited manual does not establish a numeric reliability
+  or downtime field, and test data is unavailable before a complete run.
 - Claims: `RCT-002`, `RCT-005`–`RCT-010`.
 
 ### Objective Genes

@@ -57,7 +57,7 @@
       "status": "reviewed",
       "checked": "2026-09-14",
       "scopeEn": "Platform-capability comparison against the analysed cross-platform single-player Stardew Valley 1.6.15 ruleset for the standard Boiler Room bundles. The review confirms multiplayer, network, input and legacy-version differences; it does not claim complete content, performance or control parity.",
-      "scopeUk": "Порівняння платформних можливостей із проаналізованим кросплатформним однокористувацьким набором правил Stardew Valley 1.6.15 для стандартних наборів Boiler Room. Огляд підтверджує відмінності багатокористувацької гри, мережевої сумісності, введення та застарілої версії, але не заявляє повного паритету вмісту, продуктивності чи керування.",
+      "scopeUk": "Порівняння можливостей різних платформ із проаналізованими кросплатформними правилами однокористувацької Stardew Valley 1.6.15 для стандартних наборів Boiler Room. Огляд підтверджує відмінності в багатокористувацькій грі, мережевій сумісності, способах керування та старій версії. Повну відповідність вмісту, продуктивності чи керування не встановлено.",
       "variants": [
         {
           "variantKey": "current-computer-multiplayer",
@@ -72,7 +72,7 @@
             "PLAT-WINDOWS-PC"
           ],
           "summaryEn": "The current computer line uses the analysed 1.6.15 core but adds an eight-player multiplayer ceiling and a shared native PC network space across Linux, macOS and Windows.",
-          "summaryUk": "Актуальна комп’ютерна гілка використовує проаналізовану основу 1.6.15, але додає межу у вісім гравців і спільний безпосередній мережевий простір між Linux, macOS і Windows.",
+          "summaryUk": "Актуальні комп’ютерні версії зберігають проаналізовану основу 1.6.15, але підтримують мережеву гру до восьми гравців у спільному середовищі для Linux, macOS і Windows.",
           "differences": [
             {
               "differenceKey": "eight-player-co-op",
@@ -96,7 +96,7 @@
               "differenceKey": "pc-family-network-space",
               "categoryId": "network-compatibility",
               "claimEn": "Linux, macOS and Windows computer releases can connect within the native PC multiplayer family, while console families do not natively cross-play with PC or with one another.",
-              "claimUk": "Комп’ютерні релізи для Linux, macOS і Windows можуть з’єднуватися в межах спільної нативної ПК-мережі, тоді як консольні сімейства не підтримують безпосередню спільну гру з ПК або між собою.",
+              "claimUk": "Комп’ютерні версії для Linux, macOS і Windows підтримують спільну мережеву гру між цими системами. Консольні сімейства не мають вбудованої підтримки спільної гри з ПК або між собою.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -119,13 +119,13 @@
             "PLAT-IOS"
           ],
           "summaryEn": "The mobile ports retain the 1.6.15-equivalent core but add a touch-first interface and a hidden experimental multiplayer path limited to direct IP connections.",
-          "summaryUk": "Мобільні порти зберігають основу, еквівалентну версії 1.6.15, але додають сенсорний інтерфейс і прихований експериментальний шлях багатокористувацької гри лише через пряме IP-з’єднання.",
+          "summaryUk": "Мобільні порти зберігають основу, еквівалентну версії 1.6.15, але додають інтерфейс, розрахований насамперед на сенсорне керування, і приховану експериментальну багатокористувацьку гру лише через пряме IP-з’єднання.",
           "differences": [
             {
               "differenceKey": "experimental-ip-multiplayer",
               "categoryId": "network-compatibility",
               "claimEn": "Android and standard iOS hide multiplayer behind an unlock sequence, provide no farm discovery, and connect only by IP; a mobile client can join a same-version PC host, but Stardew Valley+ has no multiplayer.",
-              "claimUk": "Android і стандартна версія для iOS приховують багатокористувацьку гру за послідовністю розблокування, не мають пошуку ферм і з’єднуються лише за IP-адресою; мобільний клієнт може приєднатися до ПК-хоста тієї самої версії, але Stardew Valley+ не має багатокористувацької гри.",
+              "claimUk": "У стандартних версіях для Android та iOS мережеву гру відкривають прихованою послідовністю дій. Пошуку ферм немає, тож підключення можливе лише за IP-адресою. Мобільний клієнт може приєднатися до гри, яку веде ПК з тією самою версією. У Stardew Valley+ мережевої гри немає.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -202,7 +202,7 @@
               "differenceKey": "mouse-mode",
               "categoryId": "input-interface",
               "claimEn": "Nintendo Switch 2 Edition adds an optional Joy-Con 2 mouse mode for cursor-driven interactions such as placing furniture and organizing inventory.",
-              "claimUk": "Nintendo Switch 2 Edition додає необов’язковий режим миші Joy-Con 2 для взаємодій із курсором, зокрема розміщення меблів і впорядкування інвентарю.",
+              "claimUk": "Nintendo Switch 2 Edition додає необов’язковий режим миші Joy-Con 2 для дій за допомогою курсора, як-от розміщення меблів і впорядкування інвентарю.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -218,7 +218,7 @@
           "nameEn": "Stardew Valley PlayStation Vita legacy 1.2 content line",
           "nameUk": "Застаріла гілка вмісту Stardew Valley 1.2 для PlayStation Vita",
           "boundaryEn": "The final PS Vita port is equivalent to PC content version 1.2.33 and does not receive later content updates. Exact platform bug-fix numbering is not treated as the content version.",
-          "boundaryUk": "Остаточний порт для PS Vita еквівалентний за вмістом ПК-версії 1.2.33 і не отримує подальших оновлень вмісту. Точну платформну нумерацію виправлень не прирівняно до версії вмісту.",
+          "boundaryUk": "Фінальний порт для PS Vita відповідає ПК-версії 1.2.33 за вмістом і не отримує подальших оновлень вмісту. Точний номер платформного виправлення помилок не визначає версію вмісту.",
           "relationToAnalysisTarget": "confirmed-variant",
           "platformIds": [
             "PLAT-PLAYSTATION-VITA"
@@ -270,7 +270,7 @@
       "status": "reviewed",
       "checked": "2026-09-14",
       "scopeEn": "Dated edition, access, input, local-play, network and progression comparison against the Windows Steam app 620 launch/base Standard Co-Op campaign played online by two separate Windows clients. The review separates the PlayStation 3 Steamworks launch, post-launch Windows local-co-op support, Xbox 360 and compatibility hosts, Peer Review and Portal: Companion Collection; it does not claim current legacy-server availability, complete patch, content, cross-play, input, performance, storefront, regional or release parity.",
-      "scopeUk": "Датоване порівняння редакцій, доступу, введення, локальної гри, мережі й поступу зі стартовою/базовою кампанією Standard Co-Op у Windows-застосунку Steam 620, яку проходять через мережу два окремі Windows-клієнти. Огляд розділяє стартову PlayStation 3 зі Steamworks, післярелізну підтримку локальної гри у Windows, Xbox 360 і сумісні хости, Peer Review та Portal: Companion Collection, але не заявляє актуальної доступності серверів старих консолей або повного паритету патчів, вмісту, спільної гри, введення, продуктивності, магазинів, регіонів чи релізів.",
+      "scopeUk": "Датоване порівняння видань, доступу, керування, локальної гри, мережевих можливостей і поступу з базовою кампанією Standard Co-Op на момент виходу Portal 2 у Steam для Windows (застосунок 620). У цьому сценарії два окремі клієнти Windows грають через мережу. Огляд розрізняє стартову версію для PlayStation 3 зі Steamworks, пізнішу підтримку локальної гри у Windows, Xbox 360 і консолі зі зворотною сумісністю, Peer Review та Portal: Companion Collection. Огляд не підтверджує поточної доступності старих серверів або повної відповідності патчів, вмісту, спільної гри між платформами, керування, продуктивності, магазинів, регіонів чи релізів.",
       "variants": [
         {
           "variantKey": "nintendo-switch-companion-collection",
@@ -346,7 +346,7 @@
               "differenceKey": "challenge-modes-and-leaderboards",
               "categoryId": "ruleset-version",
               "claimEn": "Peer Review adds single-player and cooperative Challenge Modes plus leaderboards comparing portal-placement and completion-time scores, all excluded from the target's ordinary chamber completion contract.",
-              "claimUk": "Peer Review додає одиночний і кооперативний режими випробувань та таблиці лідерів, які порівнюють кількість розміщень порталів і час проходження; усе це виключено зі звичайного контракту завершення камери в цілі.",
+              "claimUk": "Peer Review додає одиночний і кооперативний режими випробувань та таблиці лідерів за кількістю розміщень порталів і часом проходження. Ці режими й таблиці не входять до досліджених умов звичайного проходження камери.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -393,7 +393,7 @@
             "PLAT-WINDOWS-PC"
           ],
           "summaryEn": "The PS3 launch client combined console split-screen and PS3-only matchmaking with optional Steam-linked PC/Mac cross-play, friends, chat, achievements, cloud backup and a bundled computer entitlement.",
-          "summaryUk": "Стартовий клієнт PS3 поєднував консольний поділ екрана й пошук партнерів лише серед PS3 з необов’язковими, пов’язаними зі Steam спільною грою з PC/Mac, друзями, чатом, досягненнями, хмарним резервуванням і доданим правом на комп’ютерну версію.",
+          "summaryUk": "Стартовий клієнт PS3 підтримував поділ екрана на одній консолі та пошук партнерів серед гравців PS3. За бажанням можна було прив’язати обліковий запис Steam і отримати спільну гру з ПК та Mac, доступ до друзів, чату, досягнень і хмарного резервування. До видання також входило право на комп’ютерну версію.",
           "differences": [
             {
               "differenceKey": "launch-controller-only-no-move",
@@ -412,7 +412,7 @@
               "differenceKey": "pc-mac-copy-entitlement",
               "categoryId": "content-availability",
               "claimEn": "A linked PS3 retail owner could redeem the in-box code to add Portal 2 to the same Steam library for PC and Mac; the standalone Windows target entitlement does not itself grant a PS3 copy.",
-              "claimUk": "Власник роздрібної PS3-копії після пов’язування міг активувати код із коробки й додати Portal 2 до тієї самої бібліотеки Steam для PC та Mac; окреме право на цільову Windows-версію саме по собі не надає копії для PS3.",
+              "claimUk": "Власник роздрібної копії для PS3 після прив’язування облікових записів міг активувати код із коробки й додати Portal 2 для ПК та Mac до тієї самої бібліотеки Steam. Право доступу до окремої проаналізованої версії для Windows саме по собі не дає копії для PS3.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -451,7 +451,7 @@
               "differenceKey": "steam-cloud-ps3-backup",
               "categoryId": "save-progression",
               "claimEn": "Linked Steamworks backed up PS3 co-op progress and single-player saves to Steam Cloud for restoration on another PS3; the evidence does not state that a campaign save itself transferred into the PC/Mac executable.",
-              "claimUk": "Пов’язана Steamworks зберігала резервні копії кооперативного поступу й одиночних збережень PS3 у Steam Cloud для відновлення на іншій PS3; джерело не стверджує, що саме збереження кампанії переносилося до виконуваного файла PC/Mac.",
+              "claimUk": "Після прив’язування облікових записів Steamworks зберігала у Steam Cloud резервні копії поступу кооперативної кампанії та збережень одиночної гри на PS3, щоб відновити їх на іншій PS3. Джерело не підтверджує перенесення самого збереження кампанії до версії гри для ПК чи Mac.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -469,7 +469,7 @@
               "differenceKey": "steamworks-cross-platform-network",
               "categoryId": "network-compatibility",
               "claimEn": "After PSN-to-Steam account linking, the PS3 client could match and play with PC and Mac users and expose Steam friends, chat and achievements; the evidence is a 2011 launch promise, not a current service-status claim.",
-              "claimUk": "Після пов’язування облікових записів PSN і Steam клієнт PS3 міг знаходити партнерів і грати з користувачами PC та Mac, а також показував друзів, чат і досягнення Steam; це свідчення про стартові можливості 2011 року, а не твердження про актуальний стан сервісу.",
+              "claimUk": "Після прив’язування облікових записів PSN і Steam клієнт PS3 міг знаходити партнерів і грати з користувачами ПК та Mac, а також надавав доступ до друзів, чату й досягнень Steam. Це можливості, заявлені на старті у 2011 році. Джерело не встановлює поточного стану сервісу.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -488,21 +488,21 @@
         {
           "variantKey": "steam-windows-post-launch-local-coop",
           "nameEn": "Portal 2 Windows Steam post-launch local-co-op line",
-          "nameUk": "Післярелізна гілка локальної гри Portal 2 для Windows у Steam",
+          "nameUk": "Локальна кооперативна гра в Portal 2 для Windows у Steam після релізу",
           "boundaryEn": "The official November 2012 and November 2019 local-coop feature boundaries for Steam app 620 on Windows. The comparison covers Standard Co-Op with two controllers, mixed controller/keyboard-mouse input and the community co-op queue; launch behavior, Remote Play Together, online ownership, Mac/Linux parity and every later patch remain outside scope.",
-          "boundaryUk": "Офіційні межі функцій локальної кооперативної гри за листопад 2012 та листопад 2019 року для Windows-застосунку Steam 620. Порівняння охоплює Standard Co-Op із двома контролерами, змішане введення контролером і клавіатурою/мишею та чергу спільнотних кооперативних мап; стартова поведінка, Remote Play Together, права для мережевої гри, паритет Mac/Linux і всі пізніші патчі лишаються поза межею.",
+          "boundaryUk": "Межі підтримки локальної кооперативної гри за офіційними оновленнями застосунку Steam 620 для Windows від листопада 2012 та листопада 2019 року. Порівняння охоплює Standard Co-Op із двома контролерами, гру з контролером в одного гравця й клавіатурою та мишею в іншого, а також чергу кооперативних мап від спільноти. Можливості на момент виходу гри, Remote Play Together, вимоги щодо володіння грою для мережевої гри, відповідність версій для Mac і Linux та пізніші патчі залишаються поза межами огляду.",
           "relationToAnalysisTarget": "confirmed-variant",
           "platformIds": [
             "PLAT-WINDOWS-PC"
           ],
           "summaryEn": "Post-launch Windows updates add same-device Standard Co-Op, first for two controllers and later for one controller plus one keyboard/mouse player, including local community-queue access.",
-          "summaryUk": "Післярелізні оновлення Windows додають Standard Co-Op на одному пристрої: спочатку для двох контролерів, а згодом для одного гравця з контролером та одного з клавіатурою/мишею, зокрема з локальним доступом до спільнотної черги.",
+          "summaryUk": "Післярелізні оновлення Portal 2 для Windows додають Standard Co-Op на одному пристрої. Спочатку режим вимагав двох контролерів, а згодом дозволив одному гравцеві користуватися контролером, а другому клавіатурою та мишею. У локальному режимі також можна ставати в чергу на кооперативні мапи від спільноти.",
           "differences": [
             {
               "differenceKey": "community-queue-local-coop",
               "categoryId": "content-availability",
               "claimEn": "The 2019 update lets local co-op enter the community co-op map queue but explicitly leaves Quickplay unsupported; community maps are excluded from the analysed authored launch chamber.",
-              "claimUk": "Оновлення 2019 року дає локальній кооперативній грі входити до черги спільнотних кооперативних мап, але прямо не підтримує Quickplay; спільнотні мапи виключено з проаналізованої авторської стартової камери.",
+              "claimUk": "Оновлення 2019 року дає змогу в локальному кооперативному режимі ставати в чергу на кооперативні мапи від спільноти. Quickplay явно не підтримується. Мапи від спільноти не входять до дослідженого сценарію авторської камери зі стартової версії.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -515,7 +515,7 @@
               "differenceKey": "mixed-input-local-coop",
               "categoryId": "input-interface",
               "claimEn": "The 2019 Windows update adds local co-op with one controller player and one keyboard/mouse player, a same-device input pairing outside the two-client launch target.",
-              "claimUk": "Оновлення Windows 2019 року додає локальну кооперативну гру одного гравця з контролером та одного з клавіатурою/мишею — поєднання введення на одному пристрої поза ціллю з двома стартовими клієнтами.",
+              "claimUk": "Оновлення 2019 року для версії під Windows додає локальну кооперативну гру, де один гравець користується контролером, а другий клавіатурою та мишею. Таке поєднання на одному пристрої виходить за межі проаналізованої стартової версії з двома окремими клієнтами.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -528,7 +528,7 @@
               "differenceKey": "two-controller-standard-coop",
               "categoryId": "local-multiplayer",
               "claimEn": "Valve's 2012 update adds two-controller split-screen to Standard Co-Op in the Steam app, so that same-device path is a post-launch addition rather than part of the analysed Windows launch/base contract.",
-              "claimUk": "Оновлення Valve 2012 року додає до Standard Co-Op у Steam-застосунку поділ екрана з двома контролерами, тому цей шлях на одному пристрої є післярелізним доповненням, а не частиною проаналізованого стартового/базового Windows-контракту.",
+              "claimUk": "Оновлення Valve 2012 року додає до Standard Co-Op у застосунку Steam поділ екрана з двома контролерами. Гра на одному пристрої з’явилася після релізу й виходить за межі проаналізованої базової версії для Windows на момент виходу.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -542,7 +542,7 @@
         {
           "variantKey": "xbox-360-and-compatibility-hosts",
           "nameEn": "Portal 2 Xbox 360 edition and backward-compatible Xbox hosts",
-          "nameUk": "Редакція Portal 2 для Xbox 360 і сумісні хости Xbox",
+          "nameUk": "Видання Portal 2 для Xbox 360 і консолі Xbox зі зворотною сумісністю",
           "boundaryEn": "The original Xbox 360 cooperative-mode surface documented by the publisher manual plus the current United States Xbox storefront host boundary. The comparison covers online, one-console split-screen, system link and backward-compatible Xbox One/Xbox Series execution; current network service, subscription requirements, native rereleases, cross-play, save migration and performance remain outside scope.",
           "boundaryUk": "Поверхня кооперативних режимів оригінальної Xbox 360 з посібника видавця разом з актуальною межею хостів в американському магазині Xbox. Порівняння охоплює мережеву гру, поділ екрана на одній консолі, system link і запуск через зворотну сумісність на Xbox One/Xbox Series; актуальний стан мережевого сервісу, вимоги передплати, нативні перевидання, спільна гра з іншими платформами, перенесення збережень і продуктивність лишаються поза межею.",
           "relationToAnalysisTarget": "confirmed-variant",
@@ -571,7 +571,7 @@
               "differenceKey": "original-online-coop",
               "categoryId": "network-compatibility",
               "claimEn": "The Xbox 360 manual exposes an online cooperative campaign through Xbox LIVE, while no first-party source reviewed here connects that network space to the target's Steam clients.",
-              "claimUk": "Посібник Xbox 360 надає мережеву кооперативну кампанію через Xbox LIVE, але жодне перевірене тут першоджерело не з’єднує цей мережевий простір із цільовими клієнтами Steam.",
+              "claimUk": "У посібнику для Xbox 360 описано мережеву кооперативну кампанію через Xbox LIVE. Жодне зі звірених першоджерел не підтверджує, що гравці з цієї мережі можуть підключатися до проаналізованих клієнтів Steam.",
               "evidence": [
                 {
                   "sourceKind": "archival-primary",
@@ -597,7 +597,7 @@
               "differenceKey": "system-link-coop",
               "categoryId": "local-multiplayer",
               "claimEn": "The Xbox 360 edition can start the cooperative campaign over system link between consoles, a same-room network path not present in the analysed Steam target contract.",
-              "claimUk": "Редакція Xbox 360 може запускати кооперативну кампанію через system link між консолями — локальний мережевий шлях, якого немає в контракті проаналізованої цілі Steam.",
+              "claimUk": "Редакція Xbox 360 може запускати кооперативну кампанію між консолями через system link — мережевий шлях у межах одного приміщення, якого немає в контракті проаналізованої цілі Steam.",
               "evidence": [
                 {
                   "sourceKind": "archival-primary",
@@ -614,7 +614,7 @@
       "status": "reviewed",
       "checked": "2026-09-14",
       "scopeEn": "Edition-level comparison against the analysed Minecraft Java Edition 26.2 target. The review confirms access and multiplayer differences; it does not claim a complete inventory of gameplay-parity differences.",
-      "scopeUk": "Порівняння редакцій із проаналізованою ціллю Minecraft Java Edition 26.2. Огляд підтверджує відмінності доступу та багатокористувацької гри, але не заявляє повного переліку відмінностей ігрової механіки.",
+      "scopeUk": "Порівняння видань із проаналізованою Minecraft Java Edition 26.2. Огляд підтверджує відмінності в доступі та багатокористувацькій грі й не претендує на повний перелік відмінностей в ігровій механіці.",
       "variants": [
         {
           "variantKey": "bedrock-current",
@@ -634,7 +634,7 @@
             "PLAT-XBOX-SERIES"
           ],
           "summaryEn": "Bedrock is a distinct edition from the analysed Java ruleset. Mojang documents shared major updates but separate version access and multiplayer boundaries.",
-          "summaryUk": "Bedrock — окрема редакція щодо проаналізованого набору правил Java. Mojang документує спільні основні оновлення, але різні межі доступу до версій і багатокористувацької гри.",
+          "summaryUk": "Bedrock є окремим виданням зі своїм набором правил. Mojang документує спільні з проаналізованою Java основні оновлення, а також окремі правила доступу до версій і багатокористувацької гри.",
           "differences": [
             {
               "differenceKey": "console-split-screen",
@@ -653,7 +653,7 @@
               "differenceKey": "edition-network-boundary",
               "categoryId": "network-compatibility",
               "claimEn": "Java and Bedrock use different server spaces and cannot natively play together; players must launch the same edition as their group.",
-              "claimUk": "Java і Bedrock використовують різні серверні простори та не можуть безпосередньо грати разом; учасники мають запускати ту саму редакцію, що й їхня група.",
+              "claimUk": "Java і Bedrock використовують окремі серверні середовища та не підтримують спільної гри між цими виданнями вбудованими засобами. Усі учасники групи мають запускати те саме видання.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -671,7 +671,7 @@
               "differenceKey": "historical-version-access",
               "categoryId": "version-selection",
               "claimEn": "Java can deliberately launch earlier release versions through the launcher, while Bedrock officially offers the latest stable version or a beta/preview.",
-              "claimUk": "Java дає змогу свідомо запускати попередні версії випусків через лаунчер, тоді як Bedrock офіційно пропонує найновішу стабільну версію або beta/preview.",
+              "claimUk": "Java дає змогу свідомо запускати попередні релізні версії через засіб запуску, тоді як Bedrock офіційно пропонує найновішу стабільну версію або бета-версію чи попередню тестову збірку.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -688,7 +688,7 @@
       "status": "reviewed",
       "checked": "2026-09-14",
       "scopeEn": "Edition-level comparison against the analysed Cyberpunk 2077 base game on PC at public Patch 2.31. The review confirms the previous-generation update cutoff and the Nintendo Switch 2 input interface; it does not claim complete visual, performance or feature parity and does not cover Phantom Liberty mechanics.",
-      "scopeUk": "Порівняння редакцій із проаналізованою базовою грою Cyberpunk 2077 на ПК у публічній версії Patch 2.31. Огляд підтверджує межу оновлень консолей попереднього покоління та інтерфейс введення Nintendo Switch 2, але не заявляє повного паритету графіки, продуктивності чи функцій і не охоплює механіки Phantom Liberty.",
+      "scopeUk": "Порівняння видань із проаналізованою базовою грою Cyberpunk 2077 для ПК з публічним оновленням Patch 2.31. Огляд підтверджує, коли припинилися функціональні оновлення для консолей попереднього покоління, і описує керування та інтерфейс Nintendo Switch 2. Повну відповідність графіки, продуктивності чи функцій не встановлено, а механіки Phantom Liberty не розглядаються.",
       "variants": [
         {
           "variantKey": "nintendo-switch-2-current",
@@ -707,7 +707,7 @@
               "differenceKey": "platform-specific-inputs",
               "categoryId": "input-interface",
               "claimEn": "The Nintendo Switch 2 release adds adjustable gyro aiming, Joy-Con 2 motion controls, touch interaction with maps and menus, and a Joy-Con 2 mouse-sensor mode.",
-              "claimUk": "Реліз для Nintendo Switch 2 додає регульоване прицілювання гіроскопом, керування рухами за допомогою Joy-Con 2, сенсорну взаємодію з мапами й меню та режим миші із сенсором Joy-Con 2.",
+              "claimUk": "Реліз для Nintendo Switch 2 додає регульоване прицілювання гіроскопом, керування рухами за допомогою Joy-Con 2, сенсорну взаємодію з мапами й меню та режим миші на основі сенсора Joy-Con 2.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -721,7 +721,7 @@
         {
           "variantKey": "previous-generation-console-branch",
           "nameEn": "Cyberpunk 2077 previous-generation console branch",
-          "nameUk": "Консольна гілка Cyberpunk 2077 попереднього покоління",
+          "nameUk": "Консольна гілка Cyberpunk 2077 для систем попереднього покоління",
           "boundaryEn": "PlayStation 4 and Xbox One remain supported after the Patch 1.6 feature cutoff, but later content and system improvements moved to newer platforms. The exact final technical-hotfix revision is not asserted here.",
           "boundaryUk": "PlayStation 4 і Xbox One залишаються підтримуваними після межі функціональних оновлень Patch 1.6, але подальший вміст і вдосконалення систем перейшли на новіші платформи. Точну версію останнього технічного виправлення тут не заявлено.",
           "relationToAnalysisTarget": "confirmed-variant",
@@ -771,7 +771,7 @@
       "status": "reviewed",
       "checked": "2026-09-14",
       "scopeEn": "Edition- and platform-feature comparison against the analysed Baldur’s Gate 3 Standard Edition PC single-player target at Patch 8 / Hotfix #36, version 4.1.1.7209685. The review confirms cross-play, local multiplayer, mod access, input, Digital Deluxe content and the native Steam Deck build; it does not claim complete platform, performance or store parity.",
-      "scopeUk": "Порівняння редакцій і платформних функцій із проаналізованою однокористувацькою ціллю Baldur’s Gate 3 Standard Edition для ПК у версії Patch 8 / Hotfix #36, 4.1.1.7209685. Огляд підтверджує спільну гру між платформами, локальну багатокористувацьку гру, доступ до модифікацій, введення, вміст Digital Deluxe та нативну збірку для Steam Deck, але не заявляє повного паритету платформ, продуктивності чи магазинів.",
+      "scopeUk": "Порівняння видань і можливостей платформ із проаналізованою однокористувацькою Baldur’s Gate 3 Standard Edition для ПК з оновленням Patch 8 / Hotfix #36, версія 4.1.1.7209685. Огляд підтверджує спільну гру між платформами, локальну багатокористувацьку гру, доступ до модифікацій, способи керування, вміст Digital Deluxe та нативну збірку для Steam Deck. Повну відповідність між платформами, рівнями продуктивності чи магазинами не встановлено.",
       "variants": [
         {
           "variantKey": "current-console-clients",
@@ -835,7 +835,7 @@
           "nameEn": "Baldur’s Gate 3 Patch 8 cross-platform network line",
           "nameUk": "Кросплатформна мережева гілка Baldur’s Gate 3 Patch 8",
           "boundaryEn": "Current Hotfix #36 clients on Windows PC, macOS, PlayStation 5 and Xbox Series X|S. The review covers Larian Network cross-play and progression only; platform subscriptions, store-family invitations and individual connectivity defects remain outside scope.",
-          "boundaryUk": "Актуальні клієнти з Hotfix #36 для ПК із Windows, macOS, PlayStation 5 та Xbox Series X|S. Огляд охоплює лише спільну гру й поступ через Larian Network; платформні передплати, запрошення всередині окремих магазинів і поодинокі збої з’єднання залишаються поза межею.",
+          "boundaryUk": "Актуальні клієнти з Hotfix #36 для ПК з Windows, комп’ютерів Mac із macOS, PlayStation 5 та Xbox Series X|S. Огляд охоплює лише спільну гру між платформами та синхронізацію поступу через Larian Network. Передплати окремих платформ, запрошення в межах екосистем магазинів і поодинокі збої з’єднання залишаються поза межами огляду.",
           "relationToAnalysisTarget": "confirmed-variant",
           "platformIds": [
             "PLAT-MACOS",
@@ -875,7 +875,7 @@
             "PLAT-XBOX-SERIES"
           ],
           "summaryEn": "Digital Deluxe retains the base campaign but adds an Adventurer’s Pouch, Divinity-inspired equipment, bard songs, a dice skin and paintings that are absent from the analysed Standard Edition target.",
-          "summaryUk": "Digital Deluxe зберігає базову кампанію, але додає Adventurer’s Pouch, спорядження за мотивами Divinity, пісні барда, оформлення кубика й картини, яких немає у проаналізованій цілі Standard Edition.",
+          "summaryUk": "Digital Deluxe зберігає базову кампанію, але додає Adventurer’s Pouch, спорядження за мотивами Divinity, пісні барда, оформлення кубика й картини. Цих доповнень немає в проаналізованій Standard Edition.",
           "differences": [
             {
               "differenceKey": "exclusive-items-and-bonuses",
@@ -900,7 +900,7 @@
         {
           "variantKey": "mac-curated-mod-client",
           "nameEn": "Baldur’s Gate 3 curated mod client for macOS",
-          "nameUk": "Клієнт Baldur’s Gate 3 із перевіреними модифікаціями для macOS",
+          "nameUk": "Клієнт Baldur’s Gate 3 для macOS із доступом до відібраних модифікацій",
           "boundaryEn": "Current macOS Hotfix #36 client using the official in-game Mod Manager. Unofficial manual installation paths, individual mod compatibility and hardware performance remain outside scope.",
           "boundaryUk": "Актуальний клієнт для macOS із Hotfix #36, що використовує офіційний внутрішньоігровий менеджер модифікацій. Неофіційні шляхи ручного встановлення, сумісність окремих модифікацій і продуктивність обладнання залишаються поза межею.",
           "relationToAnalysisTarget": "confirmed-variant",
@@ -914,7 +914,7 @@
               "differenceKey": "curated-browser-subset",
               "categoryId": "content-availability",
               "claimEn": "Only Toolkit mods uploaded through the official pipeline and passed through internal testing are eligible for the Mac in-game browser, so not every PC mod is available on macOS.",
-              "claimUk": "До внутрішньоігрового каталогу на Mac допускають лише створені в Toolkit модифікації, завантажені офіційним шляхом і перевірені всередині Larian, тому на macOS доступні не всі модифікації для ПК.",
+              "claimUk": "До внутрішньоігрового каталогу на Mac допускають лише модифікації, які завантажили через офіційний канал Toolkit і які пройшли внутрішнє тестування. Тому на macOS доступні не всі модифікації для ПК.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -942,7 +942,7 @@
               "differenceKey": "adaptive-trigger-radials",
               "categoryId": "input-interface",
               "claimEn": "DualSense adaptive triggers distinguish a light pull that briefly peeks at a radial menu from a hard press beyond the resistance point that locks the menu open.",
-              "claimUk": "Адаптивні тригери DualSense розрізняють легке натискання, що ненадовго показує радіальне меню, і сильне натискання за точку опору, яке фіксує меню відкритим.",
+              "claimUk": "Адаптивні тригери DualSense розрізняють легке натискання, яке ненадовго відкриває радіальне меню, і сильніше натискання з подоланням опору тригера, яке залишає меню відкритим.",
               "evidence": [
                 {
                   "sourceKind": "platform-holder",
@@ -971,19 +971,19 @@
           "nameEn": "Baldur’s Gate 3 native Steam Deck client from Hotfix #34",
           "nameUk": "Нативний клієнт Baldur’s Gate 3 для Steam Deck від Hotfix #34",
           "boundaryEn": "The Steam Deck-specific native SteamOS build introduced by Hotfix #34 and retained through Hotfix #36, represented under the broad Linux platform identity. This does not establish a general native Linux desktop release or compare performance.",
-          "boundaryUk": "Спеціальна для Steam Deck нативна збірка SteamOS, запроваджена в Hotfix #34 і збережена до Hotfix #36, представлена під ширшою платформною ідентичністю Linux. Це не доводить наявності загального нативного релізу для настільного Linux і не порівнює продуктивність.",
+          "boundaryUk": "Нативна збірка для Steam Deck під SteamOS, додана в Hotfix #34 і доступна включно з Hotfix #36. У реєстрі її віднесено до ширшої платформи Linux. Цей запис не підтверджує окремого нативного релізу для настільного Linux і не порівнює продуктивність.",
           "relationToAnalysisTarget": "confirmed-variant",
           "platformIds": [
             "PLAT-LINUX"
           ],
           "summaryEn": "Steam Deck can run the game through the new native build or the retained Proton compatibility path, which use different local save locations but share the current game content.",
-          "summaryUk": "Steam Deck може запускати гру через нову нативну збірку або збережений шлях сумісності Proton; вони використовують різні локальні розташування збережень, але мають спільний актуальний вміст гри.",
+          "summaryUk": "На Steam Deck гру можна запускати в новій нативній збірці або через шар сумісності Proton. Ці способи використовують різні локальні папки для збережень і мають однаковий актуальний вміст гри.",
           "differences": [
             {
               "differenceKey": "native-or-proton-build-selection",
               "categoryId": "version-selection",
               "claimEn": "Hotfix #34 added a native Steam Deck build while retaining the Proton version as an alternative; the selected runtime determines native versus compatibility-layer execution and its local save path.",
-              "claimUk": "Hotfix #34 додав нативну збірку для Steam Deck, зберігши версію Proton як альтернативу; вибраний спосіб запуску визначає нативне виконання або виконання через шар сумісності та відповідний локальний шлях збережень.",
+              "claimUk": "Hotfix #34 додав нативну збірку для Steam Deck і залишив запуск через Proton як альтернативу. Вибраний спосіб визначає, чи гра запускається нативно або через шар сумісності, і де вона зберігає локальні файли збережень.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -1051,7 +1051,7 @@
       "status": "reviewed",
       "checked": "2026-09-14",
       "scopeEn": "Edition, ruleset, input and multiplayer comparison against the analysed Terraria Desktop 1.4.5.8 single-player target. The review separates the synchronized current content line from current platform interfaces and frozen legacy branches; it does not claim complete platform, regional, performance, storefront, save-transfer or historical-version parity.",
-      "scopeUk": "Порівняння редакцій, наборів правил, керування й багатокористувацької гри з проаналізованою однокористувацькою ціллю Terraria Desktop 1.4.5.8. Огляд відділяє синхронізовану актуальну гілку вмісту від сучасних платформних інтерфейсів і заморожених застарілих гілок, але не заявляє повного паритету платформ, регіонів, продуктивності, магазинів, перенесення збережень чи історичних версій.",
+      "scopeUk": "Порівняння видань, наборів правил, керування й багатокористувацької гри з проаналізованою однокористувацькою Terraria Desktop 1.4.5.8. Огляд розрізняє актуальну гілку зі спільним вмістом, інтерфейси окремих платформ і старі гілки, що більше не оновлюються. Повну відповідність між платформами, регіонами, показниками продуктивності, магазинами, способами перенесення збережень чи історичними версіями не встановлено.",
       "variants": [
         {
           "variantKey": "current-home-console-splitscreen",
@@ -1073,7 +1073,7 @@
               "differenceKey": "four-player-local-split-screen",
               "categoryId": "local-multiplayer",
               "claimEn": "The PlayStation 4 product supports one to four local players, while the Xbox One/Series product lists shared or split-screen local multiplayer for two to four; this same-device mode is outside the analysed Desktop single-player target.",
-              "claimUk": "Продукт для PlayStation 4 підтримує від одного до чотирьох локальних гравців, а продукт для Xbox One/Series указує спільну гру або поділ екрана для двох–чотирьох; такого режиму на одному пристрої немає в проаналізованій однокористувацькій цілі Desktop.",
+              "claimUk": "Версія для PlayStation 4 підтримує від одного до чотирьох гравців локально. Для версії Xbox One/Series зазначено локальну гру на спільному або поділеному екрані для двох–чотирьох гравців. Цей режим гри на одному пристрої виходить за межі проаналізованої однокористувацької версії Desktop.",
               "evidence": [
                 {
                   "sourceKind": "platform-holder",
@@ -1155,7 +1155,7 @@
           "nameEn": "Terraria 1.4.5.8 shared current content line",
           "nameUk": "Спільна актуальна гілка вмісту Terraria 1.4.5.8",
           "boundaryEn": "The supported Desktop, console and mobile families synchronized to Desktop content 1.4.5.8 by 8 September 2026, excluding the bespoke China Mobile edition. Matching content generation does not establish store, input, save or network parity.",
-          "boundaryUk": "Підтримувані сімейства Desktop, консолей і мобільних пристроїв, синхронізовані з вмістом Desktop 1.4.5.8 до 8 вересня 2026 року, без окремої редакції China Mobile. Однакове покоління вмісту не доводить паритету магазинів, керування, збережень чи мережі.",
+          "boundaryUk": "Підтримувані настільні, консольні та мобільні версії, вміст яких до 8 вересня 2026 року синхронізували з Terraria Desktop 1.4.5.8. Окреме видання China Mobile не входить до огляду. Однакове покоління вмісту не означає однакових умов у магазинах, керування, збережень або мережевої гри.",
           "relationToAnalysisTarget": "confirmed-variant",
           "platformIds": [
             "PLAT-AMAZON-FIRE",
@@ -1176,7 +1176,7 @@
               "differenceKey": "crossplay-phase-not-shipped",
               "categoryId": "network-compatibility",
               "claimEn": "Terraria 1.4.5.8 has no general official cross-play among Desktop, console and mobile; the developer identifies Crossplay Phase One as the next 1.4.6 update, while current Desktop-to-mobile dedicated-server interoperability is a narrower parity-based exception.",
-              "claimUk": "Terraria 1.4.5.8 не має загальної офіційної спільної гри між Desktop, консолями й мобільними пристроями; розробник називає Crossplay Phase One наступним оновленням 1.4.6, а поточна взаємодія Desktop із mobile через виділений сервер є вужчим винятком на основі паритету.",
+              "claimUk": "У Terraria 1.4.5.8 немає загальної офіційної спільної гри між настільними, консольними й мобільними версіями. За словами розробника, перший етап такої підтримки (Crossplay Phase One) заплановано на наступне оновлення 1.4.6. Наразі є вужчий виняток: настільні й мобільні клієнти можуть грати через виділений сервер, коли їхні версії збігаються за вмістом.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -1194,7 +1194,7 @@
               "differenceKey": "current-content-parity",
               "categoryId": "ruleset-version",
               "claimEn": "Desktop 1.4.5.8 shipped on 23 August, Xbox/PlayStation and mobile on 3 September, and Switch on 8 September; the console/mobile patch explicitly synchronizes content with PC 1.4.5.7 and 1.4.5.8.",
-              "claimUk": "Desktop 1.4.5.8 вийшла 23 серпня, Xbox/PlayStation і mobile — 3 вересня, а Switch — 8 вересня; консольно-мобільний патч прямо синхронізує вміст із PC 1.4.5.7 та 1.4.5.8.",
+              "claimUk": "Desktop 1.4.5.8 вийшла 23 серпня, Xbox/PlayStation і мобільна версія — 3 вересня, а Switch — 8 вересня; консольно-мобільний патч прямо синхронізує вміст із PC 1.4.5.7 та 1.4.5.8.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -1210,7 +1210,7 @@
           "nameEn": "Legacy Terraria Nintendo 3DS branch",
           "nameUk": "Застаріла гілка Terraria для Nintendo 3DS",
           "boundaryEn": "The discontinued Nintendo 3DS version 1.05, primarily equivalent to Desktop 1.2.1 with selected later material, plus the hardware-specific New Nintendo 3DS profile. Regional language differences and unverified Japanese-item claims remain outside scope.",
-          "boundaryUk": "Припинена версія 1.05 для Nintendo 3DS, переважно еквівалентна Desktop 1.2.1 з окремими пізнішими матеріалами, а також апаратний профіль New Nintendo 3DS. Регіональні мовні відмінності й неперевірені твердження про японські предмети залишаються поза межею.",
+          "boundaryUk": "Версія 1.05 для Nintendo 3DS, яку більше не оновлюють і яка переважно відповідає Desktop 1.2.1 з окремим пізнішим вмістом. Огляд також охоплює можливості пристроїв New Nintendo 3DS. Регіональні мовні відмінності й неперевірені твердження про предмети в японській версії залишаються поза межами огляду.",
           "relationToAnalysisTarget": "confirmed-variant",
           "platformIds": [
             "PLAT-NEW-NINTENDO-3DS",
@@ -1249,7 +1249,7 @@
               "differenceKey": "new-3ds-hardware-profile",
               "categoryId": "input-interface",
               "claimEn": "On New Nintendo 3DS-family hardware the same branch offers a higher frame rate, an expanded-world option and C Stick camera movement unavailable on original Nintendo 3DS hardware.",
-              "claimUk": "На пристроях сімейства New Nintendo 3DS та сама гілка пропонує вищу частоту кадрів, варіант розширеного світу й рух камери через C Stick, недоступні на оригінальній Nintendo 3DS.",
+              "claimUk": "На пристроях сімейства New Nintendo 3DS та сама гілка пропонує вищу частоту кадрів, можливість обрати більший світ і керування камерою за допомогою C Stick. Ці можливості недоступні на оригінальній Nintendo 3DS.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -1280,7 +1280,7 @@
               "differenceKey": "frozen-1241-ruleset",
               "categoryId": "ruleset-version",
               "claimEn": "Re-Logic ended updates for PlayStation 3, Xbox 360 and PlayStation Vita at the 1.2.4 content tier because 1.3 exceeded the hardware boundary; the old-gen branch, including Wii U, remains Desktop 1.2.4.1-equivalent rather than 1.4.5.8.",
-              "claimUk": "Re-Logic завершила оновлення PlayStation 3, Xbox 360 та PlayStation Vita на рівні вмісту 1.2.4, бо 1.3 перевищила апаратну межу; стара консольна гілка, включно з Wii U, лишилася еквівалентною Desktop 1.2.4.1, а не 1.4.5.8.",
+              "claimUk": "Re-Logic припинила оновлювати версії для PlayStation 3, Xbox 360 і PlayStation Vita на рівні вмісту 1.2.4, бо вимоги версії 1.3 перевищували можливості цих пристроїв. Гілка для консолей старого покоління, включно з Wii U, залишилася на рівні вмісту Desktop 1.2.4.1, а не 1.4.5.8.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -1319,19 +1319,19 @@
           "nameEn": "Legacy Terraria Windows Phone mobile branch",
           "nameUk": "Застаріла мобільна гілка Terraria для Windows Phone",
           "boundaryEn": "The discontinued Windows Phone 1.2.4.3 client, equivalent to Desktop 1.2.4.1 and unavailable for new Microsoft Store purchases. Device-specific stability, sideloading and account entitlements remain outside scope.",
-          "boundaryUk": "Припинений клієнт 1.2.4.3 для Windows Phone, еквівалентний Desktop 1.2.4.1 і недоступний для нових покупок у Microsoft Store. Стабільність на окремих пристроях, стороннє встановлення та права облікових записів залишаються поза межею.",
+          "boundaryUk": "Клієнт Terraria 1.2.4.3 для Windows Phone більше не підтримується, відповідає Desktop 1.2.4.1 і недоступний для нових покупок у Microsoft Store. Стабільність на окремих пристроях, встановлення в обхід магазину та права облікових записів залишаються поза межами огляду.",
           "relationToAnalysisTarget": "confirmed-variant",
           "platformIds": [
             "PLAT-WINDOWS-PHONE"
           ],
           "summaryEn": "Windows Phone preserves a stopped pre-1.3 mobile ruleset and its old mobile-exclusive content instead of following Android, iOS and Amazon Fire to the current 1.4.5.8 line.",
-          "summaryUk": "Windows Phone зберігає припинений мобільний набір правил до 1.3 та його старий ексклюзивний вміст замість переходу разом з Android, iOS і Amazon Fire до актуальної гілки 1.4.5.8.",
+          "summaryUk": "Версія для Windows Phone зберігає мобільний набір правил, який перестали оновлювати ще до 1.3, і його старий ексклюзивний вміст. Вона не перейшла до актуальної гілки 1.4.5.8 разом з Android, iOS і Amazon Fire.",
           "differences": [
             {
               "differenceKey": "frozen-windows-phone-ruleset",
               "categoryId": "ruleset-version",
               "claimEn": "Windows Phone stopped at mobile 1.2.4.3, equivalent to Desktop 1.2.4.1, and is no longer sold or maintained after Microsoft ended support for the platform.",
-              "claimUk": "Windows Phone зупинилася на mobile 1.2.4.3, еквівалентній Desktop 1.2.4.1, і більше не продається та не підтримується після завершення підтримки платформи Microsoft.",
+              "claimUk": "Версія Terraria для Windows Phone зупинилася на мобільній версії 1.2.4.3, еквівалентній Desktop 1.2.4.1. Після того як Microsoft припинила підтримку платформи, гру перестали продавати й підтримувати на ній.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -1344,7 +1344,7 @@
               "differenceKey": "retained-old-mobile-content",
               "categoryId": "content-availability",
               "claimEn": "Windows Phone retains old mobile-exclusive structures, seasonal material and mechanics, plus most old-gen-console and 3DS exclusives that modern mobile removed with 1.3.0.7.",
-              "claimUk": "Windows Phone зберігає старі ексклюзивні для mobile споруди, сезонний вміст і механіки, а також більшість ексклюзивів старих консолей і 3DS, які сучасна мобільна гілка вилучила в 1.3.0.7.",
+              "claimUk": "Версія для Windows Phone зберігає старі споруди, сезонний вміст і механіки, доступні лише в мобільній гілці того часу, а також більшість ексклюзивного вмісту старих консолей і 3DS. Із сучасної мобільної гілки цей вміст вилучили у версії 1.3.0.7.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -1365,7 +1365,7 @@
           "nameEn": "Current Terraria Nintendo Switch hybrid client",
           "nameUk": "Актуальний гібридний клієнт Terraria для Nintendo Switch",
           "boundaryEn": "The native Nintendo Switch 1.4.5.8 client and its backward-compatible Nintendo Switch 2 use. The comparison covers documented touch and play-mode interaction only; performance, numeric local-player metadata and accessory requirements remain outside scope.",
-          "boundaryUk": "Нативний клієнт 1.4.5.8 для Nintendo Switch і його запуск через зворотну сумісність на Nintendo Switch 2. Порівняння охоплює лише задокументовані сенсорні взаємодії та режими використання; продуктивність, числові метадані локальних гравців і вимоги до аксесуарів залишаються поза межею.",
+          "boundaryUk": "Нативний клієнт 1.4.5.8 для Nintendo Switch і його запуск через зворотну сумісність на Nintendo Switch 2. Порівняння охоплює лише задокументовані сенсорне керування й роботу в різних режимах гри. Продуктивність, задекларована кількість гравців у локальному режимі та вимоги до аксесуарів залишаються поза межами огляду.",
           "relationToAnalysisTarget": "confirmed-variant",
           "platformIds": [
             "PLAT-NINTENDO-SWITCH",
@@ -1400,12 +1400,12 @@
       "status": "reviewed",
       "checked": "2026-09-14",
       "scopeEn": "Edition, patch-label, input, user-content, Marketplace, Gallery, entitlement and save comparison against the analysed unmodded The Sims 4 PC base-game 1.127.41.1030 New In Town Scenario target. The review distinguishes the current Mac client, computer extension path, current console clients, console Deluxe Party Edition and shared Gallery; it does not claim complete pack, storefront, performance, regional, service or historical-version parity.",
-      "scopeUk": "Порівняння редакцій, номерів патчів, керування, користувацького вмісту, Marketplace, Gallery, прав на вміст і збережень із проаналізованою ціллю The Sims 4 для ПК: базова гра 1.127.41.1030 без модифікацій у сценарії New In Town. Огляд розрізняє актуальний клієнт Mac, комп’ютерний шлях розширення, актуальні консольні клієнти, консольну Deluxe Party Edition і спільну Gallery, але не заявляє повного паритету наборів, магазинів, продуктивності, регіонів, сервісів чи історичних версій.",
+      "scopeUk": "Порівняння видань, номерів патчів, керування, користувацького вмісту, Marketplace, Gallery, прав на вміст і збережень із проаналізованим сценарієм New In Town у базовій The Sims 4 для ПК версії 1.127.41.1030 без модифікацій. Огляд розрізняє актуальний клієнт Mac, способи додавання вмісту на комп’ютерах, актуальні консольні клієнти, консольне видання Deluxe Party Edition і спільну Gallery. Повну відповідність наборів, магазинів, продуктивності, регіонів, сервісів чи історичних версій не встановлено.",
       "variants": [
         {
           "variantKey": "console-deluxe-party-edition",
           "nameEn": "The Sims 4 Deluxe Party Edition for console",
-          "nameUk": "Консольна The Sims 4 Deluxe Party Edition",
+          "nameUk": "Видання The Sims 4 Deluxe Party Edition для консолей",
           "boundaryEn": "The separately named Deluxe Party Edition offered for PlayStation and Xbox, compared with the analysed base-game target. Later packs, bundles, subscriptions, discounts and regional offers remain outside scope.",
           "boundaryUk": "Окремо названа Deluxe Party Edition для PlayStation та Xbox у порівнянні з проаналізованою базовою грою. Пізніші набори, комплекти, передплати, знижки й регіональні пропозиції залишаються поза межею.",
           "relationToAnalysisTarget": "confirmed-variant",
@@ -1436,16 +1436,16 @@
         {
           "variantKey": "current-computer-extension-path",
           "nameEn": "Current The Sims 4 PC and Mac extension path",
-          "nameUk": "Актуальний шлях розширення The Sims 4 для ПК і Mac",
+          "nameUk": "Способи додавання вмісту в актуальній The Sims 4 для ПК і Mac",
           "boundaryEn": "Current Windows PC and macOS clients outside the analysed no-mod, no-pack boundary. The comparison admits only third-party Mods and Custom Content plus the Marketplace web-purchase path; exact mod compatibility and every store catalogue remain outside scope.",
-          "boundaryUk": "Актуальні клієнти для ПК із Windows і macOS поза проаналізованою межею без модифікацій та наборів. Порівняння охоплює лише сторонні Mods і Custom Content та придбання через вебсторінку Marketplace; точна сумісність модифікацій і повні каталоги магазинів залишаються поза межею.",
+          "boundaryUk": "Актуальні клієнти для ПК з Windows і комп’ютерів Mac із macOS. Вони виходять за межі сценарію, який досліджували без модифікацій і наборів. Порівняння охоплює лише сторонні Mods і Custom Content, а також купівлю через сайт Marketplace. Точна сумісність модифікацій і повні каталоги магазинів залишаються поза межами огляду.",
           "relationToAnalysisTarget": "confirmed-variant",
           "platformIds": [
             "PLAT-MACOS",
             "PLAT-WINDOWS-PC"
           ],
           "summaryEn": "Computer clients can load third-party Mods and Custom Content and can buy Marketplace content either in-game or on the web, unlike the bounded unmodded target and the console purchase path.",
-          "summaryUk": "Комп’ютерні клієнти можуть завантажувати сторонні Mods і Custom Content та купувати вміст Marketplace у грі або на вебсторінці, на відміну від обмеженої цілі без модифікацій і консольного способу придбання.",
+          "summaryUk": "Клієнти для ПК і Mac можуть завантажувати сторонні Mods і Custom Content, а вміст Marketplace можна купувати в грі або на сайті. Сторонній вміст виходить за межі проаналізованого сценарію без модифікацій, а купівля на сайті відрізняє ці клієнти від консольних.",
           "differences": [
             {
               "differenceKey": "computer-marketplace-web-purchase",
@@ -1495,7 +1495,7 @@
               "differenceKey": "console-controller-and-mouse-keyboard",
               "categoryId": "input-interface",
               "claimEn": "PlayStation and Xbox use console-specific controller mappings and an optional controls-overlay reminder, while both console families also accept mouse and keyboard input.",
-              "claimUk": "PlayStation та Xbox використовують окремі консольні схеми контролера й необов’язкове нагадування з підказками керування, водночас обидві консольні сім’ї також приймають введення мишею та клавіатурою.",
+              "claimUk": "Версії для PlayStation та Xbox мають власні схеми керування контролером і можуть показувати на екрані підказки з керування. На обох сімействах консолей також можна грати з мишею та клавіатурою.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -1526,7 +1526,7 @@
               "differenceKey": "console-marketplace-ingame-only",
               "categoryId": "content-availability",
               "claimEn": "Console clients can use Marketplace and its quality-approved Maker Packs in-game, but cannot purchase or download Marketplace content from the web surface.",
-              "claimUk": "Консольні клієнти можуть користуватися Marketplace та його перевіреними командою гри Maker Packs у грі, але не можуть купувати чи завантажувати вміст Marketplace із вебсторінки.",
+              "claimUk": "У консольних клієнтах Marketplace і його Maker Packs, що пройшли перевірку якості, доступні в грі. Купувати чи завантажувати вміст Marketplace через сайт на консолях не можна.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -1539,7 +1539,7 @@
               "differenceKey": "console-no-mod-custom-content",
               "categoryId": "content-availability",
               "claimEn": "PlayStation and Xbox clients do not support downloadable third-party Mods or Custom Content, even though quality-approved Marketplace Maker Packs are separately available on console.",
-              "claimUk": "Клієнти PlayStation та Xbox не підтримують завантажувані сторонні Mods або Custom Content, хоча окремо на консолях доступні перевірені командою гри Marketplace Maker Packs.",
+              "claimUk": "Клієнти для PlayStation та Xbox не підтримують завантажувані сторонні Mods чи Custom Content. На консолях окремо доступні набори Maker Packs із Marketplace, що пройшли перевірку якості.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -1570,7 +1570,7 @@
               "differenceKey": "console-progress-is-separate",
               "categoryId": "save-progression",
               "claimEn": "Console progress is separate from PC and Mac: Sims, Lots and Households do not carry across that boundary, and EA does not provide a shared save path between them.",
-              "claimUk": "Консольний поступ відокремлений від ПК і Mac: персонажі Sim, ділянки та домогосподарства не переносяться через цю межу, а EA не надає спільного шляху збережень між ними.",
+              "claimUk": "Поступ на консолях відокремлений від поступу на ПК і Mac. Сімів, ділянки й домогосподарства між цими групами платформ не переносять. EA не надає спільного способу збереження для них.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -1599,13 +1599,13 @@
           "nameEn": "Current The Sims 4 macOS client",
           "nameUk": "Актуальний клієнт The Sims 4 для macOS",
           "boundaryEn": "The current digital-only Mac base-game client at 1.127.41.1230, compared with the analysed PC 1.127.41.1030 target. Storefront-specific licences, hardware performance and exact mod compatibility remain outside scope.",
-          "boundaryUk": "Актуальний цифровий клієнт базової гри для Mac версії 1.127.41.1230 у порівнянні з проаналізованою ціллю для ПК 1.127.41.1030. Ліцензії окремих магазинів, апаратна продуктивність і точна сумісність модифікацій залишаються поза межею.",
+          "boundaryUk": "Актуальний клієнт базової гри для Mac версії 1.127.41.1230, доступний лише в цифровому вигляді, порівнюють із проаналізованою версією 1.127.41.1030 для ПК. Ліцензії окремих магазинів, продуктивність обладнання й точна сумісність модифікацій залишаються поза межами огляду.",
           "relationToAnalysisTarget": "confirmed-equivalent",
           "platformIds": [
             "PLAT-MACOS"
           ],
           "summaryEn": "The current Mac client receives the same dated base-game update under a distinct build number, shares EA-account computer entitlements with PC and can accept a manually copied PC save despite lacking EA cloud saves.",
-          "summaryUk": "Актуальний клієнт Mac отримує те саме датоване оновлення базової гри під окремим номером збірки, ділить із ПК комп’ютерні права облікового запису EA та приймає вручну скопійоване збереження ПК попри відсутність хмарних збережень EA.",
+          "summaryUk": "Актуальний клієнт для Mac отримує те саме датоване оновлення базової гри, що й клієнт для ПК, під іншим номером збірки. Обидва використовують спільні права на вміст в обліковому записі EA. Клієнт Mac може відкрити вручну скопійоване збереження з ПК, хоча хмарних збережень EA немає.",
           "differences": [
             {
               "differenceKey": "mac-build-label",
@@ -1637,7 +1637,7 @@
               "differenceKey": "pc-mac-shared-entitlements",
               "categoryId": "content-availability",
               "claimEn": "One EA-account computer entitlement grants access to both PC and Mac editions, and eligible add-on purchases made on either computer system are available on the other under that account.",
-              "claimUk": "Одне комп’ютерне право облікового запису EA відкриває редакції для ПК і Mac, а придбані для однієї з цих систем сумісні доповнення доступні на іншій під тим самим обліковим записом.",
+              "claimUk": "Той самий обліковий запис EA дає доступ до видань для ПК і Mac за спільним правом на комп’ютерну версію. Якщо придбане на одній із цих платформ доповнення підлягає перенесенню, воно доступне й на іншій через той самий обліковий запис.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -1653,7 +1653,7 @@
           "nameEn": "The Sims 4 shared cross-platform Gallery",
           "nameUk": "Спільна міжплатформна Gallery The Sims 4",
           "boundaryEn": "The current community Gallery used by PC, Mac, PlayStation and Xbox clients. The review covers shared household, room and lot exchange plus the console Custom Content filter; age, parental-control, moderation and service-availability details remain outside scope.",
-          "boundaryUk": "Актуальна спільнотна Gallery для клієнтів ПК, Mac, PlayStation та Xbox. Огляд охоплює спільний обмін домогосподарствами, кімнатами й ділянками та консольне фільтрування Custom Content; вік, батьківський контроль, модерація й доступність сервісу залишаються поза межею.",
+          "boundaryUk": "Актуальна Gallery для обміну роботами спільноти між клієнтами для ПК, Mac, PlayStation та Xbox. Огляд охоплює обмін домогосподарствами, кімнатами й ділянками та фільтр Custom Content на консолях. Вікові обмеження, батьківський контроль, модерація й доступність сервісу залишаються поза межами огляду.",
           "relationToAnalysisTarget": "confirmed-variant",
           "platformIds": [
             "PLAT-MACOS",
@@ -1664,13 +1664,13 @@
             "PLAT-XBOX-SERIES"
           ],
           "summaryEn": "Gallery exchange spans computer and console clients, but console views exclude creations that use unsupported Custom Content.",
-          "summaryUk": "Обмін через Gallery охоплює комп’ютерні й консольні клієнти, але консольні подання виключають роботи з непідтримуваним Custom Content.",
+          "summaryUk": "Клієнти для комп’ютерів і консолей обмінюються роботами через Gallery. На консолях Gallery не показує роботи з непідтримуваним Custom Content.",
           "differences": [
             {
               "differenceKey": "cross-platform-gallery-space",
               "categoryId": "network-compatibility",
               "claimEn": "PC, Mac, PlayStation 4 and Xbox One clients share the Gallery network space for uploaded and downloaded Households, Lots and Rooms; current PlayStation and Xbox families retain Gallery access.",
-              "claimUk": "Клієнти ПК, Mac, PlayStation 4 та Xbox One використовують спільний мережевий простір Gallery для завантажених і отриманих домогосподарств, ділянок та кімнат; актуальні сім’ї PlayStation і Xbox зберігають доступ до Gallery.",
+              "claimUk": "У Gallery клієнти для ПК, Mac, PlayStation 4 та Xbox One користуються спільним мережевим середовищем, де можна публікувати й завантажувати домогосподарства, ділянки та кімнати. Актуальні сімейства PlayStation і Xbox зберігають доступ до Gallery.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -1710,26 +1710,26 @@
       "status": "reviewed",
       "checked": "2026-09-14",
       "scopeEn": "Edition, ruleset, interface, multiplayer, purchase and save comparison against the historical Civilization VI PC launch/base-game five-project Mars Science Victory target documented by the 25th Anniversary manual. The review separates dated Android and iOS support lines, desktop storefront/network paths, the Gathering Storm expansion, Nintendo Switch and PlayStation/Xbox releases; it does not claim complete patch, DLC, balance, performance, storefront, regional, service or historical-version parity.",
-      "scopeUk": "Порівняння редакцій, наборів правил, інтерфейсу, багатокористувацької гри, покупок і збережень з історичною стартовою ціллю Civilization VI для ПК: базовою грою з п’ятипроєктною науковою перемогою на Марсі за 25th Anniversary manual. Огляд розділяє датовані гілки підтримки Android та iOS, мережеві й магазинні шляхи Desktop, розширення Gathering Storm, Nintendo Switch і релізи PlayStation/Xbox, але не заявляє повного паритету патчів, DLC, балансу, продуктивності, магазинів, регіонів, сервісів чи історичних версій.",
+      "scopeUk": "Порівняння редакцій, наборів правил, інтерфейсу, багатокористувацької гри, покупок і збережень з історичною стартовою ціллю Civilization VI для ПК: базовою грою з п’ятипроєктною науковою перемогою на Марсі за посібником 25th Anniversary. Огляд розділяє датовані гілки підтримки Android та iOS, мережеві й магазинні шляхи настільних платформ, розширення Gathering Storm, Nintendo Switch і релізи PlayStation/Xbox, але не заявляє повного паритету патчів, DLC, балансу, продуктивності, магазинів, регіонів, сервісів чи історичних версій.",
       "variants": [
         {
           "variantKey": "android-june-2025-support-line",
           "nameEn": "Civilization VI Android support line through June 2025",
           "nameUk": "Гілка підтримки Civilization VI для Android до червня 2025 року",
           "boundaryEn": "The Android mobile release described by Aspyr's May 2023 FAQ and June 2025 patch notes. Claims preserve the date of each source: the review does not infer that an older purchase, multiplayer or save matrix was silently replaced by the later patch.",
-          "boundaryUk": "Мобільний реліз для Android, описаний FAQ Aspyr за травень 2023 року та нотатками патча за червень 2025 року. Твердження зберігають дату кожного джерела: огляд не припускає, що пізніший патч мовчки замінив старішу матрицю покупок, багатокористувацької гри чи збережень.",
+          "boundaryUk": "Реліз для Android за довідкою Aspyr від травня 2023 року й примітками до патча від червня 2025 року. Для кожного твердження діє дата його джерела. З пізнішого патча огляд не робить висновку, що попередні правила покупок, багатокористувацької гри або перенесення збережень змінилися.",
           "relationToAnalysisTarget": "confirmed-variant",
           "platformIds": [
             "PLAT-ANDROID"
           ],
           "summaryEn": "Android uses a separately purchased mobile entitlement, a dated mobile multiplayer/save boundary and a June 2025 ruleset line that adds several free-update systems while still excluding the purchasable New Frontier Pass.",
-          "summaryUk": "Android використовує окремо придбане мобільне право, датовану мобільну межу багатокористувацької гри й збережень та гілку правил за червень 2025 року, що додає кілька систем безплатних оновлень, але й далі не містить платного New Frontier Pass.",
+          "summaryUk": "Версію для Android купують окремо. Можливості багатокористувацької гри й збережень описано за датованою довідкою. Оновлення від червня 2025 року додає кілька систем безплатно, але платний New Frontier Pass і далі недоступний.",
           "differences": [
             {
               "differenceKey": "android-content-ceiling",
               "categoryId": "content-availability",
               "claimEn": "Aspyr's Android FAQ offers the base game and separately purchased add-ons through Gathering Storm but says New Frontier Pass is unavailable on Android; the later free-update features do not establish ownership of the pass's paid civilizations, leaders or packs.",
-              "claimUk": "FAQ Aspyr для Android пропонує базову гру й окремо придбані доповнення до Gathering Storm включно, але вказує, що New Frontier Pass на Android недоступний; пізніші функції безплатних оновлень не доводять наявності платних цивілізацій, лідерів чи наборів цього абонемента.",
+              "claimUk": "У довідці Aspyr для Android зазначено, що можна придбати базову гру й окремі доповнення до Gathering Storm включно. New Frontier Pass для Android недоступний. Функції пізніших безплатних оновлень не підтверджують права на платні цивілізації, лідерів чи набори цього абонемента.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -1760,7 +1760,7 @@
               "differenceKey": "android-published-multiplayer-modes",
               "categoryId": "network-compatibility",
               "claimEn": "Aspyr's May 2023 Android mode matrix lists local multiplayer for up to four, hotseat for up to six and Play by Cloud, while denying general online multiplayer and Android-to-iOS play; the June 2025 patch mentions multiplayer improvements but publishes no replacement compatibility matrix, so wider current crossplay remains unassessed.",
-              "claimUk": "Матриця режимів Aspyr для Android за травень 2023 року вказує локальну гру до чотирьох учасників, hotseat до шести й Play by Cloud, заперечуючи загальну онлайн-гру та гру Android з iOS; патч за червень 2025 року згадує поліпшення багатокористувацької гри, але не публікує нової матриці сумісності, тому ширша актуальна спільна гра лишається неперевіреною.",
+              "claimUk": "Матриця режимів Aspyr для Android за травень 2023 року вказує локальну багатокористувацьку гру до чотирьох учасників, почергову гру на одному пристрої до шести учасників та Play by Cloud, але не передбачає загальної багатокористувацької гри через інтернет чи гри між Android та iOS; патч за червень 2025 року згадує поліпшення багатокористувацької гри, але не публікує нової матриці сумісності, тому ширша актуальна сумісність спільної гри між платформами лишається неперевіреною.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -1778,7 +1778,7 @@
               "differenceKey": "android-purchase-isolation",
               "categoryId": "content-availability",
               "claimEn": "The Android full-game unlock and add-ons are Android in-app purchases; ownership on iOS, PC or console does not transfer to this release.",
-              "claimUk": "Повне розблокування гри й доповнення для Android є внутрішніми покупками Android; права з iOS, ПК або консолей до цього релізу не переносяться.",
+              "claimUk": "Повну гру й доповнення для Android купують у самому застосунку. Придбане для iOS, ПК або консолей не переноситься до версії для Android.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -1791,7 +1791,7 @@
               "differenceKey": "android-save-directional-sync",
               "categoryId": "save-progression",
               "claimEn": "In Aspyr's May 2023 support state, My2K moves saves among Android devices and can send an Android save to a non-Android release, but an out-of-sync non-Android save cannot be transferred back to Android.",
-              "claimUk": "У стані підтримки Aspyr за травень 2023 року My2K переносить збереження між пристроями Android і може передати Android-збереження до не-Android-релізу, але несинхронізоване збереження з іншої платформи не можна перенести назад на Android.",
+              "claimUk": "За довідкою Aspyr від травня 2023 року My2K дає змогу переносити збереження між пристроями Android і передавати збереження з Android до версії для іншої платформи. Несинхронізоване збереження з іншої платформи перенести назад на Android не можна.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -1805,9 +1805,9 @@
         {
           "variantKey": "desktop-storefront-network-paths",
           "nameEn": "Civilization VI Windows, macOS and Linux storefront/network paths",
-          "nameUk": "Магазинні й мережеві шляхи Civilization VI для Windows, macOS та Linux",
+          "nameUk": "Версії Civilization VI для Windows, macOS і Linux: магазини й мережева сумісність",
           "boundaryEn": "The documented Steam, Epic Games Store and Mac App Store desktop paths. The comparison covers official multiplayer compatibility and Mac add-on packaging only; current patch parity, save interchange, mods, hardware and every storefront entitlement remain outside scope.",
-          "boundaryUk": "Задокументовані Desktop-шляхи Steam, Epic Games Store та Mac App Store. Порівняння охоплює лише офіційну сумісність багатокористувацької гри й пакування доповнень на Mac; актуальний паритет патчів, обмін збереженнями, модифікації, обладнання та всі магазинні права залишаються поза межею.",
+          "boundaryUk": "Задокументовані варіанти настільної гри зі Steam, Epic Games Store та Mac App Store. Порівняння охоплює лише офіційну сумісність багатокористувацької гри й пакування доповнень на Mac; актуальний паритет патчів, обмін збереженнями, модифікації, обладнання та всі права доступу в магазинах залишаються поза межею.",
           "relationToAnalysisTarget": "confirmed-variant",
           "platformIds": [
             "PLAT-LINUX",
@@ -1815,13 +1815,13 @@
             "PLAT-WINDOWS-PC"
           ],
           "summaryEn": "Desktop platform identity does not imply one network surface: Steam cross-operability is version-gated, Epic is excluded from the Mac/Linux path, and the Mac App Store client has only hotseat and LAN multiplayer.",
-          "summaryUk": "Назва Desktop-платформи не означає єдиної мережевої поверхні: взаємодія Steam залежить від синхронності версій, Epic виключено зі шляху Mac/Linux, а клієнт Mac App Store має лише hotseat і LAN.",
+          "summaryUk": "Належність до настільної платформи не означає однакових можливостей багатокористувацької гри: сумісність для спільної гри через Steam залежить від версій, спільна гра між Epic і Mac/Linux виключена, а клієнт Mac App Store має лише почергову гру на одному пристрої та гру локальною мережею (LAN).",
           "differences": [
             {
               "differenceKey": "linux-windows-steam-sync-gate",
               "categoryId": "network-compatibility",
               "claimEn": "Linux Steam and Windows Steam can play online together only while their game versions are in sync; Aspyr explicitly excludes Linux-to-Epic crossplay.",
-              "claimUk": "Linux Steam і Windows Steam можуть грати онлайн разом лише тоді, коли версії гри синхронізовані; Aspyr прямо виключає спільну гру Linux з Epic.",
+              "claimUk": "Гравці у Steam на Linux і Windows можуть грати разом онлайн лише за однакових версій гри. Aspyr прямо виключає спільну гру між клієнтом Linux і версією з Epic Games Store.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -1834,7 +1834,7 @@
               "differenceKey": "mac-app-store-multiplayer",
               "categoryId": "network-compatibility",
               "claimEn": "The Mac App Store client exposes hotseat and LAN but not online multiplayer; Aspyr limits online multiplayer on Mac to the Steam client.",
-              "claimUk": "Клієнт Mac App Store має hotseat і LAN, але не онлайн-гру; Aspyr обмежує онлайн-гру на Mac клієнтом Steam.",
+              "claimUk": "Клієнт Mac App Store підтримує почергову гру на одному пристрої та гру локальною мережею (LAN), але не багатокористувацьку гру через інтернет; Aspyr обмежує гру через інтернет на Mac клієнтом Steam.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -1847,7 +1847,7 @@
               "differenceKey": "mac-new-frontier-packaging",
               "categoryId": "content-availability",
               "claimEn": "On the Mac App Store, New Frontier Pass material is sold as separate individual add-on packs rather than as the pass product described for other storefront paths.",
-              "claimUk": "У Mac App Store вміст New Frontier Pass продається окремими індивідуальними доповненнями, а не продуктом-абонементом, описаним для інших магазинних шляхів.",
+              "claimUk": "У Mac App Store вміст New Frontier Pass продають як окремі набори доповнень. Єдиного абонемента, описаного для інших магазинів, там немає.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -1860,7 +1860,7 @@
               "differenceKey": "mac-windows-steam-sync-gate",
               "categoryId": "network-compatibility",
               "claimEn": "Mac Steam and Windows Steam can play online together only while their versions are synchronized; Aspyr explicitly excludes Mac-to-Epic crossplay.",
-              "claimUk": "Mac Steam і Windows Steam можуть грати онлайн разом лише за синхронізованих версій; Aspyr прямо виключає спільну гру Mac з Epic.",
+              "claimUk": "Гравці у Steam на Mac і Windows можуть грати разом онлайн лише за однакових версій гри. Aspyr прямо виключає спільну гру між клієнтом Mac і версією з Epic Games Store.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -1876,7 +1876,7 @@
           "nameEn": "Civilization VI: Gathering Storm expansion ruleset",
           "nameUk": "Набір правил розширення Civilization VI: Gathering Storm",
           "boundaryEn": "The separately installed Gathering Storm expansion compared with the historical launch/base-game target. The registry records only the publisher's climate and future-era boundary; exact balance, every platform build and the revised Science Victory sequence remain outside this claim set.",
-          "boundaryUk": "Окремо встановлене розширення Gathering Storm у порівнянні з історичною стартовою ціллю базової гри. Реєстр фіксує лише видавничу межу клімату й майбутньої ери; точний баланс, кожна платформна збірка та змінена послідовність наукової перемоги залишаються поза цим набором тверджень.",
+          "boundaryUk": "Окремо встановлене розширення Gathering Storm порівнюють з історичною базовою грою на момент її виходу. Реєстр фіксує лише описані видавцем зміни клімату й майбутню еру. Точний баланс, відмінності всіх платформних збірок і змінена послідовність наукової перемоги залишаються поза межами цих тверджень.",
           "relationToAnalysisTarget": "confirmed-variant",
           "platformIds": [
             "PLAT-ANDROID",
@@ -1884,7 +1884,7 @@
             "PLAT-PC-UNSPECIFIED"
           ],
           "summaryEn": "Gathering Storm materially changes the rule surface with an active climate system and extended Technology/Civic trees, so it cannot be treated as a parameter of the launch manual's base-game packet.",
-          "summaryUk": "Gathering Storm істотно змінює поверхню правил активною кліматичною системою та розширеними деревами Technology/Civic, тому його не можна вважати параметром пакета базової гри зі стартового посібника.",
+          "summaryUk": "Gathering Storm істотно змінює правила активною кліматичною системою та розширеними деревами технологій і суспільних інститутів (Technology/Civic). Тому його не можна вважати лише зміною параметрів базового сценарію з посібника, виданого на момент виходу гри.",
           "differences": [
             {
               "differenceKey": "climate-and-temperature-system",
@@ -1903,7 +1903,7 @@
               "differenceKey": "future-era-tree-extension",
               "categoryId": "ruleset-version",
               "claimEn": "Gathering Storm extends the Technology and Civics trees with a future era, changing the dependency surface beyond the analysed launch/base-game trees.",
-              "claimUk": "Gathering Storm розширює дерева Technology і Civics майбутньою ерою, змінюючи поверхню залежностей за межами проаналізованих стартових дерев базової гри.",
+              "claimUk": "Gathering Storm додає майбутню еру до дерева технологій (Technology) і дерева суспільних інститутів (Civics). Це змінює зв’язки між передумовами порівняно з деревами проаналізованої базової гри на момент виходу.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -1919,19 +1919,19 @@
           "nameEn": "Civilization VI iOS support line at August 2024",
           "nameUk": "Гілка підтримки Civilization VI для iOS станом на серпень 2024 року",
           "boundaryEn": "The iPhone and iPad release described by Aspyr's 27 August 2024 FAQ. The comparison covers its purchase model, compact touch interface, controller exclusion, LAN boundary and My2K cloud surface; later device, patch and storefront changes remain unassessed.",
-          "boundaryUk": "Реліз для iPhone та iPad, описаний FAQ Aspyr від 27 серпня 2024 року. Порівняння охоплює його модель придбання, компактний сенсорний інтерфейс, відсутність контролера, межу LAN і хмарну поверхню My2K; пізніші зміни пристроїв, патчів і магазину лишаються неперевіреними.",
+          "boundaryUk": "Реліз для iPhone та iPad за довідкою Aspyr від 27 серпня 2024 року. Порівняння охоплює модель придбання, компактний сенсорний інтерфейс, відсутність підтримки контролерів, гру лише в локальній мережі (LAN) і хмарні збереження через My2K. Пізніші зміни щодо пристроїв, патчів і магазину не оцінювали.",
           "relationToAnalysisTarget": "confirmed-variant",
           "platformIds": [
             "PLAT-IOS"
           ],
           "summaryEn": "iOS is a separate mobile purchase with a 60-turn preview, touch-specific panels, no controller support, LAN-only multiplayer and account-gated cloud saves.",
-          "summaryUk": "iOS є окремою мобільною покупкою з попереднім режимом на 60 ходів, сенсорними панелями, без підтримки контролера, з багатокористувацькою грою лише через LAN і хмарними збереженнями через обліковий запис.",
+          "summaryUk": "Версію для iOS купують окремо, а перед покупкою доступні 60 пробних ходів. Вона має сенсорні панелі, не підтримує контролери, дозволяє багатокористувацьку гру лише через LAN і надає хмарні збереження за умови входу в обліковий запис.",
           "differences": [
             {
               "differenceKey": "ios-cloud-save-access",
               "categoryId": "save-progression",
               "claimEn": "The iOS client exposes a Cloud saves checkbox only after sign-in to a verified 2K Account, then uploads and loads named saves through that account surface.",
-              "claimUk": "Клієнт iOS показує прапорець Cloud saves лише після входу до підтвердженого 2K Account, а тоді завантажує й відкриває названі збереження через цю поверхню облікового запису.",
+              "claimUk": "Клієнт iOS показує прапорець Cloud saves лише після входу до підтвердженого облікового запису 2K Account, а тоді через цей обліковий запис передає названі збереження у хмару й завантажує їх із хмари.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -1957,7 +1957,7 @@
               "differenceKey": "ios-separate-mobile-purchase",
               "categoryId": "content-availability",
               "claimEn": "The iOS download provides a 60-turn preview; the full game and later add-ons are separate in-app purchases, and Mac App Store or Steam ownership does not transfer to the mobile release.",
-              "claimUk": "Завантаження для iOS надає попередній режим на 60 ходів; повна гра й пізніші доповнення є окремими внутрішніми покупками, а права Mac App Store або Steam до мобільного релізу не переносяться.",
+              "claimUk": "У завантаженій версії для iOS можна спробувати гру протягом 60 ходів. Повну гру й пізніші доповнення купують окремо в застосунку. Покупки з Mac App Store чи Steam не дають доступу до мобільного релізу.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -2017,7 +2017,7 @@
               "differenceKey": "switch-local-wireless-four-player",
               "categoryId": "local-multiplayer",
               "claimEn": "Nintendo documents cooperative or competitive local-wireless play for up to four players, a multiplayer surface excluded from the analysed single-player PC target.",
-              "claimUk": "Nintendo документує кооперативну або змагальну локальну бездротову гру до чотирьох учасників — багатокористувацьку поверхню, виключену з проаналізованої однокористувацької цілі для ПК.",
+              "claimUk": "За документацією Nintendo до чотирьох гравців можуть грати спільно або змагатися через локальне бездротове з’єднання. Цей режим не входить до проаналізованого однокористувацького сценарію для ПК.",
               "evidence": [
                 {
                   "sourceKind": "platform-holder",
@@ -2046,7 +2046,7 @@
           "nameEn": "Civilization VI PlayStation 4 and Xbox One console releases",
           "nameUk": "Консольні релізи Civilization VI для PlayStation 4 та Xbox One",
           "boundaryEn": "The PlayStation 4 and Xbox One base products, with Xbox Series X|S listed as a compatible host for the Xbox One product. The comparison covers bundled content and published online-player capacity; controller layouts, patches, performance, subscriptions and save transfer remain outside scope.",
-          "boundaryUk": "Базові продукти для PlayStation 4 та Xbox One, причому Xbox Series X|S указано як сумісний пристрій для продукту Xbox One. Порівняння охоплює комплектний вміст і заявлену місткість онлайн-гри; схеми контролерів, патчі, продуктивність, передплати й перенесення збережень залишаються поза межею.",
+          "boundaryUk": "Базові видання для PlayStation 4 та Xbox One. Версію для Xbox One також можна запускати на Xbox Series X|S. Порівняння охоплює вміст комплекту й заявлену максимальну кількість гравців онлайн. Схеми керування контролерами, патчі, продуктивність, передплати та перенесення збережень залишаються поза межами огляду.",
           "relationToAnalysisTarget": "confirmed-variant",
           "platformIds": [
             "PLAT-PLAYSTATION-4",
@@ -2107,7 +2107,7 @@
           "nameEn": "No Man's Sky cross-save full-release service",
           "nameUk": "Загальнодоступний сервіс спільних збережень No Man's Sky",
           "boundaryEn": "The Hello Games cross-save service after its full Beacon release. The account and five-slot transfer surface is compared with the target's expressly excluded cross-save imports; ownership, platform subscriptions, local storage, conflicts and every content-compatibility edge case remain outside scope.",
-          "boundaryUk": "Сервіс спільних збережень Hello Games після його загального відкриття в Beacon. Поверхню облікових записів і перенесення до п’яти слотів порівняно з прямо виключеним із цілі імпортом збережень; права власності, платформні передплати, локальне сховище, конфлікти й усі крайові випадки сумісності вмісту лишаються поза межею.",
+          "boundaryUk": "Сервіс перенесення збережень Hello Games між платформами після його повноцінного запуску в Beacon. Огляд порівнює прив’язування облікових записів і перенесення збережень через п’ять слотів із проаналізованим сценарієм, з якого імпорт явно виключено. Права на гру, передплати платформ, локальне сховище, конфлікти й окремі випадки сумісності вмісту залишаються поза межами огляду.",
           "relationToAnalysisTarget": "confirmed-variant",
           "platformIds": [
             "PLAT-MACOS",
@@ -2139,7 +2139,7 @@
               "differenceKey": "linked-platform-account-surface",
               "categoryId": "save-progression",
               "claimEn": "Hello Games documents cross-save for PC, PlayStation, Xbox, Switch and Mac through linked Steam, PlayStation, Xbox or Nintendo accounts, including same-account PS4-to-PS5 transfer; this is an optional external progression surface, not an automatic property of the Windows target.",
-              "claimUk": "Hello Games документує спільні збереження для ПК, PlayStation, Xbox, Switch і Mac через пов’язані облікові записи Steam, PlayStation, Xbox або Nintendo, зокрема перенесення PS4–PS5 в одному обліковому записі; це необов’язкова зовнішня поверхня поступу, а не автоматична властивість цілі для Windows.",
+              "claimUk": "Hello Games описує перенесення збережень між ПК, PlayStation, Xbox, Switch і Mac через прив’язані облікові записи Steam, PlayStation, Xbox або Nintendo. Зокрема, збереження можна перенести з PS4 на PS5 у межах одного облікового запису. Це додатковий спосіб продовжити гру, який потребує окремого підключення й не діє автоматично в проаналізованій версії для Windows.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -2160,14 +2160,14 @@
           "nameEn": "No Man's Sky Mac Steam launch client",
           "nameUk": "Стартовий клієнт No Man's Sky для Mac у Steam",
           "boundaryEn": "The official 1 June 2023 Mac launch through Steam. The comparison covers bundled prior updates, Steam entitlement, PC-to-Mac save movement and the published cross-play set; later Mac patches, App Store release state, hardware performance and current network capacity remain outside scope.",
-          "boundaryUk": "Офіційний стартовий реліз для Mac від 1 червня 2023 року через Steam. Порівняння охоплює включені попередні оновлення, право Steam, перенесення збережень між ПК і Mac та оприлюднений набір спільної гри; пізніші патчі Mac, стан релізу в App Store, продуктивність обладнання й актуальна місткість мережі лишаються поза межею.",
+          "boundaryUk": "Офіційний стартовий реліз для Mac від 1 червня 2023 року у Steam. Порівняння охоплює включені попередні оновлення, право доступу через Steam, перенесення збережень із ПК на Mac та оприлюднений перелік платформ для спільної гри. Пізніші патчі Mac, стан релізу в App Store, продуктивність обладнання й поточна місткість мережевих сесій залишаються поза межами огляду.",
           "relationToAnalysisTarget": "confirmed-variant",
           "platformIds": [
             "PLAT-MACOS",
             "PLAT-WINDOWS-PC"
           ],
           "summaryEn": "The Mac Steam launch included seven years of updates, reused the Steam entitlement, moved saves between PC and Mac and joined the existing console, PC and VR cross-play population.",
-          "summaryUk": "Стартовий реліз для Mac у Steam містив сім років оновлень, використовував те саме право Steam, переносив збереження між ПК і Mac та приєднувався до наявної спільної гри консолей, ПК і VR.",
+          "summaryUk": "На момент виходу версія для Mac у Steam включала оновлення за сім років, була доступна за тим самим правом на гру в Steam і підтримувала перенесення збережень між ПК та Mac. Гравці на Mac також могли долучитися до спільної гри з користувачами консолей, ПК та VR.",
           "differences": [
             {
               "differenceKey": "mac-published-cross-play-set",
@@ -2186,7 +2186,7 @@
               "differenceKey": "steam-entitlement-and-pc-mac-saves",
               "categoryId": "save-progression",
               "claimEn": "Hello Games made the Mac build free to existing Steam owners and supported save movement between PC and Mac at launch; this entitlement and continuation path does not replace the target's new empty-slot requirement.",
-              "claimUk": "Hello Games надала збірку для Mac без доплати наявним власникам у Steam і на старті підтримувала перенесення збережень між ПК та Mac; це право й шлях продовження не замінюють вимогу цілі починати з нового порожнього слота.",
+              "claimUk": "На момент виходу версія для Mac була доступна без доплати тим, хто вже мав гру у Steam. Hello Games також підтримувала перенесення збережень між ПК і Mac. Право доступу та можливість продовжити гру зі збереження не скасовують вимоги починати проаналізований сценарій із порожньої комірки.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -2202,14 +2202,14 @@
           "nameEn": "No Man's Sky Next Generation 3.10 console clients",
           "nameUk": "Консольні клієнти No Man's Sky Next Generation 3.10",
           "boundaryEn": "The official November 2020 PlayStation 5 and Xbox Series X|S 3.10 feature boundary. It is a historical versioned comparison of network capacity, generation save transfer and PlayStation 5 controls, not a claim about current patch parity, subscriptions, later cross-save behavior or performance on every hardware mode.",
-          "boundaryUk": "Офіційна межа функцій 3.10 для PlayStation 5 та Xbox Series X|S за листопад 2020 року. Це історичне версійоване порівняння місткості мережі, перенесення збережень між поколіннями й керування PlayStation 5, а не твердження про актуальний паритет патчів, передплати, пізнішу поведінку спільних збережень чи продуктивність у кожному режимі обладнання.",
+          "boundaryUk": "Офіційно задокументовані можливості версії 3.10 для PlayStation 5 та Xbox Series X|S у листопаді 2020 року. Історичне порівняння охоплює кількість учасників мережевих сесій, перенесення збережень між поколіннями консолей і керування на PlayStation 5. Поточну відповідність патчів, передплати, пізнішу роботу перенесення збережень між платформами й продуктивність у кожному апаратному режимі огляд не оцінює.",
           "relationToAnalysisTarget": "confirmed-variant",
           "platformIds": [
             "PLAT-PLAYSTATION-5",
             "PLAT-XBOX-SERIES"
           ],
           "summaryEn": "Version 3.10 raised next-generation console sessions to thirty-two players, supplied generation-specific save migration and added PlayStation 5 trigger, milestone and 3D-audio hooks.",
-          "summaryUk": "Версія 3.10 збільшила сесії консолей нового покоління до тридцяти двох гравців, додала окреме перенесення збережень між поколіннями та функції тригерів, етапів і тривимірного звуку PlayStation 5.",
+          "summaryUk": "Версія 3.10 підняла межу мережевої сесії на консолях нового покоління до 32 гравців і додала способи перенесення збережень між поколіннями. На PlayStation 5 з’явилися відгук тригерів, інтеграція етапів подорожі та тривимірний звук.",
           "differences": [
             {
               "differenceKey": "console-32-player-sessions",
@@ -2228,7 +2228,7 @@
               "differenceKey": "generation-save-transfer",
               "categoryId": "save-progression",
               "claimEn": "At the 3.10 boundary, Xbox One saves were automatically compatible with the next Xbox generation, while PlayStation 4 saves used an in-game upload for download on PlayStation 5.",
-              "claimUk": "На межі 3.10 збереження Xbox One автоматично були сумісні з наступним поколінням Xbox, тоді як збереження PlayStation 4 передавалися через внутрішньоігрове вивантаження для отримання на PlayStation 5.",
+              "claimUk": "У версії 3.10 збереження з Xbox One були автоматично сумісні з наступним поколінням Xbox. Для перенесення з PS4 збереження спершу вивантажували в самій грі, а потім завантажували на PlayStation 5.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -2241,7 +2241,7 @@
               "differenceKey": "ps5-trigger-audio-and-milestone-hooks",
               "categoryId": "input-interface",
               "claimEn": "The PlayStation 5 client added adaptive trigger feedback, Tempest 3D AudioTech and Activities integration for Journey Milestones, platform-specific feedback and navigation hooks absent from the Windows target contract.",
-              "claimUk": "Клієнт PlayStation 5 додав відгук адаптивних тригерів, Tempest 3D AudioTech та інтеграцію Activities для етапів Journey Milestones — платформні засоби відгуку й навігації, відсутні в контракті цілі для Windows.",
+              "claimUk": "Клієнт для PlayStation 5 додав відгук адаптивних тригерів, Tempest 3D AudioTech та інтеграцію Journey Milestones із функцією Activities. Цих платформних засобів відгуку й навігації немає в проаналізованому сценарії для Windows.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -2287,7 +2287,7 @@
               "differenceKey": "single-player-network-boundary",
               "categoryId": "network-compatibility",
               "claimEn": "Switch 1 launched as a single-player experience, and Hello Games' June 2025 Switch 2 announcement explicitly said full multiplayer was missing from Switch 1; shared discoveries or cross-save must not be mislabeled as a Switch 1 multiplayer session.",
-              "claimUk": "Switch 1 стартувала як однокористувацький досвід, а в анонсі Switch 2 за червень 2025 року Hello Games прямо вказала, що повної багатокористувацької гри на Switch 1 не було; спільні відкриття чи спільні збереження не слід називати мережевою сесією Switch 1.",
+              "claimUk": "Switch 1 стартувала як однокористувацький досвід, а в анонсі Switch 2 за червень 2025 року Hello Games прямо вказала, що повної багатокористувацької гри на Switch 1 не було; спільні відкриття чи міжплатформне перенесення збережень не слід називати мережевою сесією Switch 1.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -2324,21 +2324,21 @@
         {
           "variantKey": "nintendo-switch-2-edition",
           "nameEn": "No Man's Sky Nintendo Switch 2 Edition at Beacon 5.7",
-          "nameUk": "No Man's Sky Nintendo Switch 2 Edition на межі Beacon 5.7",
+          "nameUk": "No Man's Sky Nintendo Switch 2 Edition у версії Beacon 5.7",
           "boundaryEn": "The native Nintendo Switch 2 Edition launched on 5 June 2025 with Beacon 5.7. The comparison covers its upgrade entitlement, multiplayer, cross-play, cross-save and control surface; later patches, exact session capacity, GameChat policy, settlement parity, visuals and performance remain outside scope.",
-          "boundaryUk": "Нативна Nintendo Switch 2 Edition, що вийшла 5 червня 2025 року з Beacon 5.7. Порівняння охоплює право на оновлення, багатокористувацьку гру, спільну гру, спільні збереження й засоби керування; пізніші патчі, точна місткість сесії, політика GameChat, паритет поселень, зображення та продуктивність лишаються поза межею.",
+          "boundaryUk": "Нативна Nintendo Switch 2 Edition, що вийшла 5 червня 2025 року з Beacon 5.7. Порівняння охоплює право на оновлення, багатокористувацьку та міжплатформну гру, міжплатформне перенесення збережень і засоби керування; пізніші патчі, точна місткість сесії, політика GameChat, паритет поселень, зображення та продуктивність лишаються поза межею.",
           "relationToAnalysisTarget": "confirmed-variant",
           "platformIds": [
             "PLAT-NINTENDO-SWITCH-2"
           ],
-          "summaryEn": "Switch 2 is a distinct native edition with a free upgrade for Switch owners, full multiplayer and day-one cross-play/cross-save, plus touch and gyro controls.",
-          "summaryUk": "Switch 2 є окремою нативною редакцією з безплатним оновленням для власників Switch, повною багатокористувацькою грою та спільною грою/збереженнями від першого дня, а також сенсорним і гіроскопічним керуванням.",
+          "summaryEn": "Switch 2 is a distinct native edition with a free upgrade for owners of the Nintendo Switch version of No Man's Sky, full multiplayer and day-one cross-play/cross-save, plus touch and gyro controls.",
+          "summaryUk": "Switch 2 є окремою нативною редакцією з безплатним оновленням для власників версії No Man's Sky для Nintendo Switch, повною багатокористувацькою грою, міжплатформною грою й перенесенням збережень від першого дня, а також сенсорним і гіроскопічним керуванням.",
           "differences": [
             {
               "differenceKey": "free-switch-owner-upgrade",
               "categoryId": "content-availability",
-              "claimEn": "Existing Nintendo Switch owners can obtain the native Switch 2 Edition through a free Nintendo eShop upgrade pack; compatibility-host play must not be confused with this edition entitlement.",
-              "claimUk": "Наявні власники Nintendo Switch можуть отримати нативну Switch 2 Edition через безплатний пакет оновлення Nintendo eShop; запуск у режимі сумісності не слід плутати з правом на цю редакцію.",
+              "claimEn": "Owners of the Nintendo Switch version of No Man's Sky can obtain the native Switch 2 Edition through a free Nintendo eShop upgrade pack; compatibility-host play must not be confused with this edition entitlement.",
+              "claimUk": "Власники версії No Man's Sky для Nintendo Switch можуть отримати нативну Switch 2 Edition через безплатний пакет оновлення Nintendo eShop; запуск у режимі сумісності не слід плутати з правом на цю редакцію.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -2351,7 +2351,7 @@
               "differenceKey": "full-multiplayer-and-cross-play",
               "categoryId": "network-compatibility",
               "claimEn": "Switch 2 adds full multiplayer, GameChat and the in-game friend list with Nintendo Switch Online required, and Hello Games documents cross-play from day one; this is a different network surface from both Switch 1 and the disabled-network target.",
-              "claimUk": "Switch 2 додає повну багатокористувацьку гру, GameChat і внутрішньоігровий список друзів за умови Nintendo Switch Online, а Hello Games документує спільну гру від першого дня; це інша мережева поверхня і проти Switch 1, і проти цілі з вимкненою мережею.",
+              "claimUk": "Switch 2 додає повну багатокористувацьку гру, GameChat і внутрішньоігровий список друзів за вимоги Nintendo Switch Online, а Hello Games документує міжплатформну гру від першого дня; цей набір мережевих можливостей відрізняється і від Switch 1, і від цілі аналізу з вимкненою мережею.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",
@@ -2369,7 +2369,7 @@
               "differenceKey": "switch-2-cross-save-day-one",
               "categoryId": "save-progression",
               "claimEn": "Switch 2 shipped with cross-save support from day one, allowing an existing journey to continue on the edition; the analysed packet instead requires a genuinely empty slot and excludes imports.",
-              "claimUk": "Switch 2 від першого дня підтримувала спільні збереження й давала продовжити на цій редакції наявну подорож; проаналізований пакет натомість вимагає справді порожнього слота й виключає імпорт.",
+              "claimUk": "Switch 2 від першого дня підтримувала міжплатформне перенесення збережень, даючи змогу продовжити в цій редакції наявну подорож; проаналізований пакет натомість вимагає справді порожньої комірки збереження й виключає імпорт.",
               "evidence": [
                 {
                   "sourceKind": "publisher-developer",

@@ -179,7 +179,7 @@ separate genes.
 
 ### System Behaviour Genes
 
-- Existing `SYS-045`: Psyko-Pigs, Walkers and Dragons pursue, attack and change
+- Existing `SYS-045`: Psyko-Pigs, Walkers and Dragons pursue and change
   position without a separate command for every step.
 - Existing `SYS-215`: Toad and hostile attacks, contact, knockback, damage and
   defeat resolve continuously while movement and new attacks remain available.

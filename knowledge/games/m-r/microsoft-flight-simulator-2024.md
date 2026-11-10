@@ -42,18 +42,23 @@ gene instances but do not enter the signature.
   cold-and-dark parking position at Boeing Field (`KBFI`) to parking at Tacoma
   Narrows (`KTIW`), daytime Clear Skies, VFR direct/GPS plan, Default Assists,
   walkaround skipped, multiplayer and AI traffic disabled, no mods.
-- Primary decision loop: configure aircraft, endpoints and conditions; energise
-  and start the piston aircraft; read engine, attitude, airspeed, altitude,
-  heading and route state; taxi, take off, climb, navigate, descend, land and
-  taxi while continuously balancing control surfaces, power, trim, configuration
-  and the aircraft's aerodynamic envelope; then park and shut down until the
-  Free Flight logbook entry notification appears.
+- Primary decision loop: configure aircraft, endpoints and conditions;
+  energise and start the piston aircraft; read engine, attitude, airspeed,
+  altitude, heading and route state; taxi, take off, climb, navigate, descend,
+  land and taxi while continuously balancing control surfaces, power, trim,
+  configuration and the aircraft's aerodynamic envelope; then perform the
+  authored destination parking and shutdown sequence and separately verify the
+  actual Free Flight logbook entry and notification; the sequence is not
+  asserted to cause every native record.
 - Entry and exit: begins at the first controllable cockpit frame with the
-  aircraft stationary at the selected `KBFI` parking position, parking brake
-  set, engine and avionics off, and the declared route loaded. It succeeds when
-  the same aircraft has landed at `KTIW`, stopped at parking, shut down engine
-  and electrical/avionics power, and produced the Sim Update 6 Free Flight
-  logbook-entry notification.
+  aircraft stationary at the selected KBFI parking position, parking brake
+  set, engine and avionics off, and the declared route loaded. Analytical
+  success requires that the same aircraft has landed safely at KTIW, stopped
+  at destination parking and shut down engine and electrical/avionics power,
+  together with an actual durable flight entry and the Sim Update 6
+  record-addition notification. These are the authored acceptance conditions;
+  the native record trigger and its timing relative to shutdown have not been
+  established for this build.
 - Included: Free Flight aircraft/departure/arrival/time/weather setup; one
   Cessna 172 G1000; battery, avionics, fuel selector, mixture, magnetos/starter,
   throttle, lights, brakes, rudder, elevator, ailerons, trim and flaps; ground
@@ -76,12 +81,19 @@ gene instances but do not enter the signature.
 - Potential scoped modules: IFR/ATC clearance and procedures; one complex
   airliner; helicopter or glider flight; Career certification and missions;
   live weather; multiplayer; failures and maintenance; EFB performance planning.
-- Direct-play status: no fresh licensed flight was conducted. Official current
-  release notes, product/accessibility material, flight-planner surface and SDK
-  rules directly establish the configuration, aircraft-state, plan, avionics,
-  aerodynamic and logbook transitions. The declared short route is a future
-  reproducibility control, not a claim that its exact weather or runway state
-  was observed in direct play.
+- Direct-play status: No fresh licensed flight, identified native executable,
+  save, input trace or KBFI-to-KTIW result was inspected. Official SU6 release
+  notes establish notification after a Free Flight logbook addition; current
+  SDK documents establish configuration, EFB/avionics integration and
+  phase-initialisation context, not a necessary/sufficient native
+  destination/shutdown logbook predicate or complete historical binary parity.
+  The declared short route remains a future analytical reproducibility
+  control. Actual entry, subsequent persistence and notification/ground-state
+  timing require separate evidence. P7 hash-verified and reread the P5
+  archived primary references and freshly read the official SU6 publisher
+  mirror and current fuel/electrical tutorials. The legacy electrical URL
+  returned 404 during P5; no fresh P7 failure or exact-aircraft inspection is
+  claimed.
 
 ## Claim ledger
 
@@ -97,6 +109,15 @@ gene instances but do not enter the signature.
 | `MSFS24-008` | Cockpit instruments and G1000/EFB surfaces expose flight, engine and planned-route state needed for manual correction | Confirmed | Direct | High | P6, P7, P13 |
 | `MSFS24-009` | Sim Update 6 displays a notification when a Free Flight entry is added to the logbook | Confirmed | Direct | High | P1 |
 | `MSFS24-010` | The declared cold-start-to-shutdown route is a coherent bounded manual-flight chain without importing Career, multiplayer or the whole streamed world | Observation | Corroborated | High | P1–P13, V1 |
+
+Documentary limits: the claim ledger retains its existing evidence metadata.
+Generic SDK system graphs explain function-specific dependencies; they do not
+certify exact historical SU6 C172 wiring, a continuously required starter, or a
+necessary/sufficient Free Flight logbook predicate. Career/FLT initialization
+requirements are not imported as solo Free Flight completion rules. The OBJ-104
+goal and its parking-to-parking sequence remain authored acceptance conditions
+requiring an actual durable entry plus notification, not an observed route
+result. Neither the notification nor shutdown alone proves that full contract.
 
 ## Basic data
 
@@ -130,8 +151,10 @@ gene instances but do not enter the signature.
     for aerodynamic, ground-contact and fuel-linked aircraft simulation.
   - **[P10]** [official fuel-system tutorial](https://docs.flightsimulator.com/msfs2024/retail/samples-tutorials/tutorials/tuning-the-flight-model/fuel-system/),
     for engine, tanks, lines, valves and pump state.
-  - **[P11]** [official electrical-system tutorial](https://docs.flightsimulator.com/msfs2024/html/7_Samples_Tutorials/Tutorials/Tuning_The_Flight_Model/Electrical_Systems.htm),
-    for batteries, buses and powered aircraft circuits.
+  - **[P11]** [current official electrical-system tutorial](https://docs.flightsimulator.com/msfs2024/retail/samples-tutorials/tutorials/tuning-the-flight-model/electrical-systems/),
+    for generic supply, bus and circuit relationships. The former legacy URL
+    returned 404 during P5; this current reference does not certify the
+    exact historical SU6 C172 wiring or logbook trigger.
   - **[P12]** [official general aircraft-state requirements](https://docs.flightsimulator.com/msfs2024/retail/content-configuration/careers/general-career-information/general-career-mode-requirements/),
     for apron, taxi, runway, cruise, approach and final state requirements also
     used by Free Flight-capable aircraft.
@@ -158,23 +181,29 @@ gene instances but do not enter the signature.
 ### System Behaviour Genes
 
 - New genes: `SYS-556`, integrate fixed-wing aerodynamics and ground contact;
-  `SYS-557`, resolve piston-engine, fuel and electrical state; `SYS-558`, load
-  and advance an active flight plan through avionics guidance; `SYS-559`, settle
-  the completed Free Flight into a logbook entry.
-- Resolution order: Free Flight setup instantiates aircraft, environment and
-  route; cockpit switches establish usable power and propulsion; direct inputs
-  and atmospheric/ground forces continuously update pose and envelope; avionics
-  updates route deviation and waypoint state; landing returns the aircraft to
-  ground handling; shutdown closes the flight and prompts the logbook record.
+  `SYS-557`, resolve corresponding engine, fuel and electrical state without
+  interpreting generic examples as the complete C172 dependency graph;
+  `SYS-558`, load and update live avionics plan state; `SYS-559`, add a qualifying
+  native Free Flight logbook entry and announce it. The authored destination
+  acceptance sequence is not assumed to be the native record trigger.
+- Documentary composition, not a measured native event order: setup declares
+  aircraft, environment and route; cockpit configuration admits usable aircraft
+  functions; direct inputs and forces update pose/envelope while avionics
+  updates route state. Landing, parking and shutdown belong to the authored
+  destination acceptance sequence. Native record addition, its notification
+  and actual later persistence must be checked separately; shutdown alone is
+  not established as a necessary/sufficient record trigger.
 - Claim IDs: `MSFS24-003`–`MSFS24-010`.
 
 ### Constraint Genes
 
-- New genes: `CON-471`, aircraft operation requires a compatible powered fuel,
-  engine and electrical configuration; `CON-472`, safe flight, takeoff and
-  landing obey the aerodynamic envelope, terrain and runway geometry;
-  `CON-473`, the bounded logged terminal requires destination ground arrival,
-  parking stop and shutdown rather than a fly-by or menu exit.
+- New genes: `CON-471`, corresponding system viability admits dependent
+  aircraft functions; no universal all-circuits-on or exact C172 wiring is
+  inferred. `CON-472` admits intended motion within the envelope and geometry.
+  `CON-473` is the authored destination arrival/parking/shutdown acceptance
+  constraint, not a necessary/sufficient native record predicate. Verify actual
+  record addition and persistence separately; exact component dependencies and
+  native logbook qualification remain unverified.
 - Scarce strategic resources: runway remaining, altitude, airspeed, lift and
   energy margin, heading/route tolerance, fuel, electrical availability,
   approach distance and time to correct an unstable configuration.
@@ -192,10 +221,12 @@ gene instances but do not enter the signature.
 
 - New gene: `OBJ-104`, complete one planned solo flight from powered-down
   departure parking to powered-down destination parking with a logbook entry.
-- Success, evaluation and failure: airborne passage alone is insufficient;
-  success requires destination landing, taxi-in, stop, shutdown and the logbook
-  notification. A crash, unrecoverable envelope departure, wrong-airport
-  termination, restart, teleport or exit before the record fails this attempt.
+- Authored success, evaluation and failure: safe KTIW landing, destination
+  parking, stop and shutdown are required by this analytical attempt, together
+  with an actual durable flight entry and its notification. A notification
+  alone does not verify all conditions. Crash, wrong airport, restart, teleport
+  or exit before this contract is verified does not satisfy the attempt, but
+  this does not establish a universal native no-record rule for those cases.
 - Claim IDs: `MSFS24-007`, `MSFS24-009`, `MSFS24-010`.
 
 ### Time Genes
@@ -210,13 +241,13 @@ gene instances but do not enter the signature.
 | Before | Action | Deterministic resolution | What it establishes | Claim ID |
 |---|---|---|---|---|
 | Free Flight setup is open | Select the C172 G1000, `KBFI` and `KTIW` parking, daytime Clear Skies, direct VFR route and declared assists; choose `Fly Now` | The simulator instantiates one cold parked aircraft, selected conditions and active plan | Aircraft, environment and route are bounded before control | `MSFS24-002`–`MSFS24-004` |
-| Aircraft is cold, dark and stationary | Set fuel, battery, avionics, mixture and magnetos/starter through a legal start sequence | Fuel and electrical networks energise; the piston engine and instruments reach operating state | Cockpit configuration is causal, not decorative | `MSFS24-005`, `MSFS24-006` |
+| Declared aircraft starts cold, dark and stationary | Follow the aircraft’s appropriate fuel, ignition/start and powered-cockpit procedure | Corresponding viable dependencies admit the intended functions; exact SU6 C172 wiring/thresholds are not measured here | Operating eligibility is function-specific and differs from the authored shutdown endpoint | `MSFS24-005`, `MSFS24-006` |
 | Engine is stable and parking brake is set | Configure lights and controls, release brake, taxi with throttle, rudder and brakes | Ground contact integrates steering, speed and stopping through airport geometry | Taxi is directly controlled physical travel | `MSFS24-005`, `MSFS24-007` |
 | Aircraft is aligned on the departure runway | Apply takeoff power and coordinate rudder/elevator, then establish climb attitude | Airspeed produces lift; ground contact ends and the aircraft enters a controllable climb inside its envelope | Takeoff converts powered ground motion into flight | `MSFS24-005`, `MSFS24-007` |
 | Aircraft is airborne with an active plan | Read G1000 track/deviation and hand-fly heading, power and trim corrections | Aerodynamics advance continuously while avionics update position, active leg and deviation | Route information guides but does not automate control | `MSFS24-004`, `MSFS24-005`, `MSFS24-008` |
 | Destination is approaching with altitude to lose | Reduce power, descend, configure flaps and align final using instruments and runway view | Energy, lift, drag and ground closure change together; unstable speed or alignment remains recoverable only with sufficient margin | Approach is an envelope-management decision | `MSFS24-005`, `MSFS24-007`, `MSFS24-008` |
 | Aircraft is stable over the destination runway | Flare, touch down, maintain directional control and brake | Lift decays, wheels regain ground contact and braking settles rollout without a crash | Landing requires geometry and energy control | `MSFS24-005`, `MSFS24-007` |
-| Aircraft has cleared the runway | Taxi to the selected destination parking, stop, set brake and shut down engine, avionics and electrical power | The flight reaches destination gate state and Sim Update 6 emits the logbook-entry notification | A recorded parked shutdown is the bounded terminal | `MSFS24-007`, `MSFS24-009`, `MSFS24-010` |
+| Aircraft has cleared the destination runway | Perform the authored parking, stop and shutdown sequence; separately inspect the actual logbook entry, notification and later persistence | The analytical attempt is accepted only when both the ground sequence and verified record conditions hold; native record timing/guard is not determined by this row | Authored acceptance differs from a native record-addition cause | `MSFS24-007`, `MSFS24-009`, `MSFS24-010` |
 
 ## Strategic and experiential structure
 
@@ -227,7 +258,8 @@ gene instances but do not enter the signature.
   approach is stable rather than forcing an unrecoverable late correction.
 - Long-term structure: turn a powered-down parked aircraft into a viable system,
   convert runway distance into flight energy, follow the plan, return energy to
-  a safe landing and reverse the startup dependency chain at destination.
+  a safe landing and perform the appropriate destination shutdown procedure;
+  do not assume every start dependency applies throughout running flight.
 - Common heuristics: verify fuel and powered instruments before movement; trim
   away sustained control pressure; use small coordinated corrections; retain
   airspeed margin; begin descent early; go around rather than salvage an
@@ -235,7 +267,9 @@ gene instances but do not enter the signature.
 - Failure attribution: engine gauges distinguish power/fuel faults; attitude,
   speed, altitude and vertical speed distinguish energy mistakes; G1000 route
   state distinguishes navigation error; runway sight and ground contact expose
-  alignment; the logbook notification confirms the final record.
+  alignment. A logbook notification announces an addition; inspect the actual
+  matching entry and its later persistence separately. No exact unflown
+  KBFI-to-KTIW result or shutdown-trigger timing is claimed.
 - Player-trust factors: declared setup, continuously readable instruments,
   causally responsive controls, stable plan state and an explicit recorded
   terminal. Streamed scenery detail is not used as hidden success authority.
@@ -279,7 +313,7 @@ gene instances but do not enter the signature.
 |---|---|---|
 | Action | `ACT-319`–`ACT-321` | aircraft, plan, cockpit and direct flight controls |
 | System Behaviour | `SYS-556`–`SYS-559` | aerodynamics, aircraft systems, route and logbook settlement |
-| Constraint | `CON-471`–`CON-473` | powered configuration, envelope/runway and logged terminal |
+| Constraint | `CON-471`–`CON-473` | corresponding viable systems, envelope/runway and authored destination acceptance |
 | Information | `INF-226`–`INF-227` | cockpit/engine and route/avionics state |
 | Objective | `OBJ-104` | one planned parking-to-parking logged flight |
 | Time | `TIM-003` | continuously advancing manual flight |

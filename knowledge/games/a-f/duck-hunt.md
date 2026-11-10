@@ -77,11 +77,26 @@ parameters, not gene names.
   complete ROM disassembly, `GAME A` two-player control, `GAME B`, `GAME C`,
   later-round speed/quota progression, Famicom hardware and Wii U Virtual
   Console adaptation each require separate evidence and boundaries.
-- Direct-play status: not conducted. No cartridge, NES/Famicom console,
-  Zapper, compatible CRT, ROM, emulator, controller trace, save, screenshot,
-  video or audio was used. The repository control validates a sourced state
-  model, not Nintendo program code, photodiode thresholds, screen timing or
-  physical shot accuracy.
+- Terminology qualification: a failed trigger is not automatically the
+  booklet's capital MISS. MISS is the unhit target's terminal escape on shot
+  exhaustion or timeout. A recovered non-hit shot can precede a credited hit
+  in the same opportunity; ten credited target hits, not zero failed triggers,
+  meet the first-round target-perfect bonus predicate. Six hits still qualify,
+  five still fail, score cannot replace the quota and the packet releases no
+  eleventh target. Documentary model paths/ticks are not native timing.
+- Direct-play status: No cartridge, NES/Famicom console, Zapper, compatible
+  CRT, ROM, emulator, controller trace, save, native-play screenshot, video or
+  audio was used. In the P5 documentary review, the downloaded ©1985 English
+  Nintendo booklet matched the previously preserved scan byte for byte;
+  complete printed pages7 and9 were text-read, rendered and visually
+  inspected. They define terminal target MISS and PERFECT separately from
+  failed trigger attempts. Nintendo's manual-based Japanese retrospective
+  corroborates the Game A opportunity structure but is not North American
+  binary parity proof; NinDB is an independent scoring/quota corroboration.
+  Repository source-model controls and the P5 regressions distinguish
+  recovered failed shots from target escape and scoring from six-hit
+  qualification. They do not execute Nintendo code or measure photodiode
+  thresholds, scanlines, hitboxes, real flight time or physical accuracy.
 
 ## Claim ledger
 
@@ -91,10 +106,10 @@ parameters, not gene names.
 | `DH-002` | Game A presents one duck at a time from varying rise locations and allows two-player duck control only in the excluded branch | Confirmed | Direct | High | P1, P2 |
 | `DH-003` | A compatible physical setup points and fires the Zapper at the television; screen adjustment affects whether shots register | Confirmed | Direct | High | P1, P2 |
 | `DH-004` | The NES Zapper exposes trigger and CRT-light state, and the documented game sequence can distinguish darkness from a target-localised light response | Observation | Corroborated | High | P2, S1 |
-| `DH-005` | Each Game A duck flies for a few seconds and settles immediately on hit, after three misses or when time expires | Confirmed | Direct | High | P1, P2 |
+| `DH-005` | Each Game A duck has a short live opportunity: credited hit settles it; three failed triggers or flight expiry settle one terminal target MISS, while an earlier failed shot may leave it active | Confirmed | Direct | High | P1, P2 |
 | `DH-006` | One round contains ten separately settling ducks and exposes shots left, hit lamps, PASS LINE, round and score | Confirmed | Direct | High | P1, P2 |
 | `DH-007` | Round one requires at least six hits to advance; fewer than six produces Game Over | Observation | Corroborated | High | P2, S2 |
-| `DH-008` | First-band black, blue and red ducks award 500, 1000 and 1500 points; a no-miss first round adds 10,000 PERFECT points | Observation | Corroborated | High | P2, S2 |
+| `DH-008` | First-band black, blue and red hits award 500, 1000 and 1500 points; ten credited target hits add one 10,000-point PERFECT bonus, with no terminal target MISS rather than zero failed trigger pulls | Observation | Corroborated | High | P2, S2 |
 | `DH-009` | The bounded packet stops at the advance or Game Over result and imports no later-round speed or quota | Confirmed | Direct | High | P2, R1 |
 | `DH-010` | The repository control proves ten-target sequencing, sensor-position hit settlement, three-shot and timeout miss paths, six-hit qualification, failure, colour score and perfect bonus | Observation | Direct | High | V1, DH-005–DH-009 |
 | `DH-011` | No original hardware, program image, emulator or audiovisual trace was inspected | Confirmed | Direct | High | R1 |
@@ -162,9 +177,11 @@ parameters, not gene names.
 - `SYS-045` owns time-driven duck motion while input remains possible. New
   `SYS-967` owns display/light-sensor hit adjudication; it deliberately stops
   short of unsupported exact hitbox or scanline constants.
-- New `SYS-968` releases and settles ten separate one-duck opportunities. New
-  `SYS-969` maps credited hit class to round-one points and adds the no-miss
-  PERFECT bonus.
+- New `SYS-968` releases and settles ten separate one-duck opportunities.
+  `SYS-969` maps credited hit class to round-one points and adds one PERFECT
+  bonus for ten credited target hits with no terminal target MISS, not for
+  zero failed triggers. A failed shot may be recovered within the same legal
+  opportunity; neither scoring predicate schedules the successor.
 - Dog animations, sky-colour change and laughs communicate settlement but do
   not create separate causal boundaries.
 - Claims: `DH-004`–`DH-008`.
@@ -209,13 +226,13 @@ parameters, not gene names.
 |---|---|---|---|---|
 | Round one has started and no duck is active | Allow the hound/round sequence to release the next target | One duck rises from a varying location and begins live flight | separately released target opportunity | `DH-002`, `DH-005` |
 | One duck is active and its displayed region is sampled by the Zapper shot | Aim at that region and pull the trigger | The light-sensor response credits a hit, turns the corresponding lamp red and ends the opportunity | hardware-mediated spatial shot resolution | `DH-003`, `DH-004` |
-| One duck is active and the sampled region does not correspond to it | Pull the trigger once | One of three local shots is consumed; the duck continues if time and shots remain | a miss does not end the opportunity before its local allowance closes | `DH-005` |
+| An active duck receives one non-hit trigger while time and shots remain | Fire once | Debit one local shot, leave the same duck unresolved and award no hit points; no terminal MISS yet | failed trigger differs from target-terminal MISS | `DH-005` |
 | Two local shots have missed while time remains | Fire one more non-hit shot | The third miss exhausts the opportunity, the duck escapes and the current lamp remains uncredited | exact shot-exhaustion miss terminal | `DH-005`, `DH-006` |
 | Fewer than three shots were used but the duck's interval expires | Do not produce a credited hit before timeout | The sky changes, the duck escapes and the current lamp remains uncredited | time is an independent opportunity terminal | `DH-005` |
 | A black, blue or red round-one duck is hit | Accept the hit settlement | The corresponding 500, 1000 or 1500 points are added | target class changes optional score, not hit count | `DH-008` |
 | The tenth duck settles with six hit lamps | Accept round settlement | PASS LINE is reached and the run advances to round two | exact positive terminal | `DH-007`, `DH-009` |
 | The tenth duck settles with five hit lamps | Accept round settlement | PASS LINE is not reached and Game Over replaces round advance | exact negative terminal | `DH-007`, `DH-009` |
-| The tenth duck settles with ten hit lamps | Accept round settlement | The round advances and adds the first-band 10,000-point PERFECT bonus | complete accuracy is rewarded but not required | `DH-008` |
+| The tenth duck settles with ten credited hit lamps, including any recovered failed triggers | Accept round settlement | Advance and add one first-band 10,000-point PERFECT bonus | target-perfect completion, not perfect trigger accuracy | `DH-008` |
 
 ## Strategic and experiential structure
 
@@ -240,12 +257,14 @@ parameters, not gene names.
 
 - Target rise location, colour and flight vary; the ten-opportunity schedule,
   three-shot cap and round-one quota remain fixed.
-- Better aim can change miss count, score and PERFECT eligibility without
-  changing the target count.
+- Better aim can change failed-shot attempts, terminal target MISS count,
+  class score and target-perfect eligibility without changing the ten-target
+  schedule. Failed-shot and escaped-target counts must not be conflated.
 - The packet admits no second-player intervention, later speed table or
   increased PASS LINE, so those sources of variation remain separate modules.
 - Typical replay motives are qualification consistency, higher colour-weighted
-  score and a no-miss round.
+  score and hitting every scheduled target before its own terminal, even if
+  some legal non-hit triggers were recovered.
 - Claims: `DH-002`, `DH-005`–`DH-009`.
 
 ## Adjacent systems and history

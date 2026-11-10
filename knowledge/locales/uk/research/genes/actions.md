@@ -110,7 +110,7 @@
 
 ## ACT-006
 
-- Назва: Прискорити перебіг симуляції
+- Назва: Прискорити автоматичний перебіг
 - Переглянуто: `2026-08-24`
 
 ### Операційне визначення
@@ -119,7 +119,7 @@
 
 ### Включає
 
-Утримання кнопки вниз для швидшого падіння активного тетроміно в NES Tetris; вибір режиму `FAST` для прискорення Flooz у Pipe Dream після розміщення труб; вибір швидшого годинника симуляції Mini Metro, поки тривають автоматичні попит і перевезення; прискорення симуляції натовпу в HUMANITY після підготовки поля команд; прискорення солдатиків Tin Hearts без зміни їхнього фізичного маршруту; утримання регулятора швидкості Echochrome, поки Walker іде тим самим маршрутом, визначеним проєкцією.
+Утримання кнопки вниз для швидшого падіння активного тетроміно в NES Tetris; вибір режиму FAST для прискорення Flooz у Pipe Dream після розміщення труб; вибір швидшого годинника симуляції Mini Metro, поки тривають автоматичні попит і перевезення; прискорення симуляції натовпу в HUMANITY після підготовки поля команд; прискорення солдатиків Tin Hearts без зміни їхнього фізичного маршруту; утримання регулятора швидкості Echochrome, поки Walker іде тим самим маршрутом, визначеним проєкцією.
 
 ### Виключає
 
@@ -137,6 +137,7 @@
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
 - [`GAME-0092` — Echochrome](../games/a-f/echochrome.md)
 - [`GAME-0175` — Football Manager 26](../games/a-f/football-manager-26.md)
+- [`GAME-0504` — Frostpunk 2](../games/a-f/frostpunk-2.md)
 - [`GAME-0130` — Frostpunk](../games/a-f/frostpunk.md)
 - [`GAME-0182` — Hearts of Iron IV](../games/g-l/hearts-of-iron-iv.md)
 - [`GAME-0029` — HUMANITY](../games/g-l/humanity.md)
@@ -158,20 +159,21 @@
 - [`GAME-0370` — Theme Hospital](../games/s-z/theme-hospital.md)
 - [`GAME-0133` — Timberborn](../games/s-z/timberborn.md)
 - [`GAME-0030` — Tin Hearts](../games/s-z/tin-hearts.md)
+- [`GAME-0498` — Transport Fever 2](../games/s-z/transport-fever-2.md)
 - [`GAME-0134` — "Workers & Resources: Soviet Republic"](../games/s-z/workers-resources-soviet-republic.md)
 
 ## ACT-007
 
-- Назва: Призначення символу вільній позиції
+- Назва: Призначити символ редагованій позиції
 - Переглянуто: `2026-08-24`
 
 ### Операційне визначення
 
-Гравець обирає одну позицію, якій зараз можна призначити значення, і записує один символ із дозволеної області як запропоноване значення цієї позиції.
+Гравець обирає одну позицію, якій зараз можна призначити значення, і записує один символ із дозволеної множини значень як запропоноване значення цієї позиції.
 
 ### Включає
 
-Внесення цифри від 1 до 9 у порожню клітинку Sudoku; позначення клітинки Nonogram як заповненої або підтверджено порожньої; натискання редагованої клітинки Hexologic, щоб призначити чи замінити її запропоноване значення з однієї, двох або трьох цяток; призначення символу `/` або зворотної скісної риски одній клітинці Slant; установлення чи вилучення лампи в одній білій клітинці Light Up; призначення одного з чотирьох кольорів палітри одній редагованій області Map; призначення цифри від 1 до 9 одній редагованій клітинці Filling; призначення цифри від 1 до 6 одній клітинці Keen; установлення намету або явної позначки відсутності намету в одній редагованій клітинці Tents.
+Внесення цифри від 1 до 9 у порожню клітинку Sudoku; позначення клітинки Nonogram як заповненої або підтверджено порожньої; натискання редагованої клітинки Hexologic, щоб призначити чи замінити її запропоноване значення з однієї, двох або трьох цяток; призначення символу / або зворотної скісної риски одній клітинці Slant; установлення чи вилучення лампи в одній білій клітинці Light Up; призначення одного з чотирьох кольорів палітри одній редагованій області Map; призначення цифри від 1 до 9 одній редагованій клітинці Filling; призначення цифри від 1 до 6 одній клітинці Keen; установлення намету або явної позначки відсутності намету в одній редагованій клітинці Tents.
 
 ### Виключає
 
@@ -192,16 +194,16 @@
 
 ## ACT-008
 
-- Назва: Безпосередньо пересувати керованого персонажа
-- Переглянуто: `2026-08-24`
+- Назва: Безпосередньо пересувати керованого учасника
+- Переглянуто: `2026-10-03`
 
 ### Операційне визначення
 
-Гравець сам керує рухом одного персонажа крізь прохідну частину рівня, подаючи команди для ходьби, бігу чи стрибка, а не вибираючи віддалене місце для автоматичного пошуку шляху.
+Гравець безпосередньо пересуває одного постійного керованого учасника крізь прохідну геометрію рівня за місцевими командами руху, а не обирає віддалене призначення для автоматичного пошуку шляху.
 
 ### Включає
 
-Переміщення комірника на одну ортогональну клітинку підлоги в Sokoban без руху ящика; біг і стрибки сіба-іну в HUMANITY крізь випробування до позицій командування; ходіння й стрибки Chell камерою Portal і Tim рівнем Braid; навігація активним Rescue Officer або Oatchi поверхнею Pikmin 4; переміщення Patrick на одну кардинально сусідню локальну клітинку вкладеного простору Patrick’s Parabox; ходіння й стрибки активним тілом у кімнаті The Swapper; ходіння Carto поточним з’єднаним ландшафтом фрагментів мапи; ходіння й стрибки поточною тривимірною геометрією Viewfinder; переміщення чудовиська на одну кардинально сусідню клітинку саду в A Good Snowman Is Hard to Build; просування голови Snakebird на одну кардинально сусідню клітинку з автоматичним слідуванням тіла; просування будь-якого поточного кінця Can of Wormholes на одну кардинально сусідню клітинку; ходіння чудовиськом A Monster’s Expedition суходолом або завершеним мостом із колоди; ходіння й стрибки сновидцем Superliminal кімнатою Induction та її відкритим виходом; ходіння, стрибки й керування падінням періодичною архітектурою Part 1 у Manifold Garden; ходіння між центральною моделлю Maquette, пов’язаними масштабом подвір’ями, мостами для ключа та фіксованим виходом із будинку; ходіння, біг, стрибки й присідання Ві в Найт-Сіті та створених для завдань локаціях Cyberpunk 2077; безпосереднє переміщення й стрибки обраним героєм Marvel Rivals живою ареною; біг і стрибки Hornet сполученими кімнатами Pharloom у Hollow Knight: Silksong; дослідження Spring Meadows і Flying Waters вибраним персонажем у Clair Obscur: Expedition 33; дослідження світу вибраним персонажем загону в Baldur’s Gate 3; біг, стрибки й дослідження поверхні та печер персонажем Terraria.
+Переміщення комірника на одну ортогональну клітинку підлоги в Sokoban без руху ящика; біг і стрибки сіба-іну в HUMANITY крізь випробування до позицій командування; ходіння й стрибки Chell камерою Portal і Tim рівнем Braid; навігація активним Rescue Officer або Oatchi поверхнею Pikmin 4; ходіння між сполученими кімнатами, обраними з планів поточного маєтку Blue Prince; переміщення Patrick на одну кардинально сусідню локальну клітинку вкладеного простору Patrick’s Parabox; ходіння й стрибки активним тілом у кімнаті The Swapper; ходіння Carto поточним з’єднаним ландшафтом фрагментів мапи; ходіння й стрибки поточною тривимірною геометрією Viewfinder; переміщення чудовиська на одну кардинально сусідню клітинку саду в A Good Snowman Is Hard to Build; просування голови Snakebird на одну кардинально сусідню клітинку з автоматичним слідуванням тіла; просування будь-якого поточного кінця Can of Wormholes на одну кардинально сусідню клітинку; ходіння чудовиськом A Monster’s Expedition суходолом або завершеним мостом із колоди; ходіння й стрибки сновидцем Superliminal кімнатою Induction та її відкритим виходом; ходіння, стрибки й керування падінням періодичною архітектурою Part 1 у Manifold Garden; ходіння між центральною моделлю Maquette, пов’язаними масштабом подвір’ями, мостами для ключа та фіксованим виходом із будинку; біг, біг підтюпцем і ведення м’яча поточним керованим футболістом полем EA SPORTS FC 26; ходіння, присідання, стрибки й ривки Ryu в обмеженій арені Versus Street Fighter 6; ходіння, прискорений біг, стрибки й присідання Ві в Найт-Сіті та створених для завдань локаціях Cyberpunk 2077; безпосереднє переміщення й стрибки обраним героєм Marvel Rivals живою ареною; біг і стрибки Hornet сполученими кімнатами Pharloom у Hollow Knight: Silksong; біг, стрибки, ривки, плавання й пересування гаком Mio або Zoe розділом Rader Publishing у Split Fiction; ходіння тренером через Pallet Town, Route 1, Viridian Forest і Pewter Gym у Pokémon Red Version.
 
 ### Виключає
 
@@ -218,11 +220,13 @@
 - [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
 - [`GAME-0320` — "Animal Crossing: New Horizons"](../games/a-f/animal-crossing-new-horizons.md)
+- [`GAME-0511` — Animal Crossing: New Leaf](../games/a-f/animal-crossing-new-leaf.md)
 - [`GAME-0097` — Antichamber](../games/a-f/antichamber.md)
 - [`GAME-0413` — Ape Escape](../games/a-f/ape-escape.md)
 - [`GAME-0154` — Apex Legends](../games/a-f/apex-legends.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0312` — ASTRO BOT](../games/a-f/astro-bot.md)
+- [`GAME-0506` — Avowed](../games/a-f/avowed.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
 - [`GAME-0386` — Banjo-Kazooie](../games/a-f/banjo-kazooie.md)
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
@@ -243,9 +247,11 @@
 - [`GAME-0302` — "Captain Toad: Treasure Tracker"](../games/a-f/captain-toad-treasure-tracker.md)
 - [`GAME-0040` — Carto](../games/a-f/carto.md)
 - [`GAME-0347` — "Castlevania: Symphony of the Night"](../games/a-f/castlevania-symphony-of-the-night.md)
+- [`GAME-0477` — Catherine](../games/a-f/catherine.md)
 - [`GAME-0346` — Chrono Trigger](../games/a-f/chrono-trigger.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
 - [`GAME-0108` — Cocoon](../games/a-f/cocoon.md)
+- [`GAME-0490` — Comix Zone](../games/a-f/comix-zone.md)
 - [`GAME-0324` — Contra Force](../games/a-f/contra-force.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0137` — Counter-Strike 2](../games/a-f/counter-strike-2.md)
@@ -262,6 +268,7 @@
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
 - [`GAME-0161` — Dead by Daylight](../games/a-f/dead-by-daylight.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
+- [`GAME-0494` — Dead or Alive 2](../games/a-f/dead-or-alive-2.md)
 - [`GAME-0368` — Dead Rising](../games/a-f/dead-rising.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0310` — "DEATH STRANDING DIRECTOR’S CUT"](../games/a-f/death-stranding-directors-cut.md)
@@ -272,6 +279,7 @@
 - [`GAME-0353` — "Deus Ex: Game of the Year Edition"](../games/a-f/deus-ex-game-of-the-year-edition.md)
 - [`GAME-0322` — "Diablo II: Resurrected"](../games/a-f/diablo-ii-resurrected.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
+- [`GAME-0495` — Donkey Kong Country Returns](../games/a-f/donkey-kong-country-returns.md)
 - [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0352` — DOOM (1993)](../games/a-f/doom-1993.md)
@@ -283,12 +291,15 @@
 - [`GAME-0435` — EarthBound](../games/a-f/earthbound.md)
 - [`GAME-0433` — Ecco the Dolphin](../games/a-f/ecco-the-dolphin.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
+- [`GAME-0491` — Elite](../games/a-f/elite.md)
+- [`GAME-0473` — "Eternal Darkness: Sanity's Requiem"](../games/a-f/eternal-darkness-sanitys-requiem.md)
 - [`GAME-0405` — Fable II](../games/a-f/fable-ii.md)
 - [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0361` — Fallout: New Vegas](../games/a-f/fallout-new-vegas.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
+- [`GAME-0501` — F.E.A.R.](../games/a-f/fear.md)
 - [`GAME-0091` — Fez](../games/a-f/fez.md)
 - [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
@@ -299,6 +310,7 @@
 - [`GAME-0381` — GoldenEye 007](../games/g-l/goldeneye-007.md)
 - [`GAME-0357` — "Grand Theft Auto: San Andreas"](../games/g-l/grand-theft-auto-san-andreas.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
+- [`GAME-0468` — Gravity Rush](../games/g-l/gravity-rush.md)
 - [`GAME-0314` — Grounded](../games/g-l/grounded.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
@@ -315,7 +327,10 @@
 - [`GAME-0098` — Hyperbolica](../games/g-l/hyperbolica.md)
 - [`GAME-0099` — HyperRogue](../games/g-l/hyperrogue.md)
 - [`GAME-0399` — Ico](../games/g-l/ico.md)
+- [`GAME-0484` — Impossible Mission](../games/g-l/impossible-mission.md)
+- [`GAME-0510` — Indiana Jones and the Great Circle](../games/g-l/indiana-jones-and-the-great-circle.md)
 - [`GAME-0215` — It Takes Two](../games/g-l/it-takes-two.md)
+- [`GAME-0464` — "Jet Set Radio Future"](../games/g-l/jet-set-radio-future.md)
 - [`GAME-0350` — "Jet Set Radio"](../games/g-l/jet-set-radio.md)
 - [`GAME-0436` — Journey](../games/g-l/journey.md)
 - [`GAME-0376` — Katamari Damacy REROLL](../games/g-l/katamari-damacy-reroll.md)
@@ -335,10 +350,13 @@
 - [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
+- [`GAME-0509` — MechAssault](../games/m-r/mechassault.md)
 - [`GAME-0389` — Mega Man 2](../games/m-r/mega-man-2.md)
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0339` — Metal Gear Solid](../games/m-r/metal-gear-solid.md)
+- [`GAME-0462` — Metal Slug 3](../games/m-r/metal-slug-3.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0474` — Metroid Fusion](../games/m-r/metroid-fusion.md)
 - [`GAME-0355` — Metroid Prime](../games/m-r/metroid-prime.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
@@ -354,6 +372,7 @@
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0229` — "No Man’s Sky"](../games/m-r/no-mans-sky.md)
 - [`GAME-0296` — Noita](../games/m-r/noita.md)
+- [`GAME-0483` — "Oddworld: Stranger's Wrath"](../games/m-r/oddworld-strangers-wrath.md)
 - [`GAME-0382` — Ōkami HD](../games/m-r/okami-hd.md)
 - [`GAME-0224` — Once Human](../games/m-r/once-human.md)
 - [`GAME-0117` — OneShot](../games/m-r/oneshot.md)
@@ -363,6 +382,7 @@
 - [`GAME-0300` — Overcooked! 2](../games/m-r/overcooked-2.md)
 - [`GAME-0181` — Overwatch](../games/m-r/overwatch.md)
 - [`GAME-0342` — "PAC-MAN"](../games/m-r/pac-man.md)
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 - [`GAME-0036` — "Patrick’s Parabox"](../games/m-r/patricks-parabox.md)
@@ -371,6 +391,8 @@
 - [`GAME-0203` — "PEAK"](../games/m-r/peak.md)
 - [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
 - [`GAME-0035` — Pikmin 4](../games/m-r/pikmin-4.md)
+- [`GAME-0479` — Pitfall!](../games/m-r/pitfall.md)
+- [`GAME-0463` — "Pokémon Gold Version"](../games/m-r/pokemon-gold-version.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
 - [`GAME-0336` — "Pokémon Red Version"](../games/m-r/pokemon-red-version.md)
 - [`GAME-0113` — Portal 2 — Cooperative Campaign](../games/m-r/portal-2-co-op.md)
@@ -384,10 +406,13 @@
 - [`GAME-0438` — Q*bert](../games/m-r/qbert.md)
 - [`GAME-0334` — Quake](../games/m-r/quake.md)
 - [`GAME-0404` — Ratchet & Clank](../games/m-r/ratchet-and-clank.md)
+- [`GAME-0508` — Ready or Not](../games/m-r/ready-or-not.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0348` — "Resident Evil: Director’s Cut"](../games/m-r/resident-evil-directors-cut.md)
+- [`GAME-0512` — Resident Evil Requiem](../games/m-r/resident-evil-requiem.md)
+- [`GAME-0492` — "Resistance: Fall of Man"](../games/m-r/resistance-fall-of-man.md)
 - [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0440` — Scribblenauts](../games/s-z/scribblenauts.md)
@@ -396,7 +421,9 @@
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 - [`GAME-0356` — Shadow of the Colossus](../games/s-z/shadow-of-the-colossus.md)
+- [`GAME-0485` — Shenmue](../games/s-z/shenmue.md)
 - [`GAME-0050` — Shogun Showdown](../games/s-z/shogun-showdown.md)
+- [`GAME-0487` — Sid Meier's Pirates!](../games/s-z/sid-meiers-pirates.md)
 - [`GAME-0303` — Sifu](../games/s-z/sifu.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0430` — Silent Hill](../games/s-z/silent-hill.md)
@@ -404,9 +431,11 @@
 - [`GAME-0417` — Sly Cooper and the Thievius Raccoonus](../games/s-z/sly-cooper-and-the-thievius-raccoonus.md)
 - [`GAME-0045` — Snakebird](../games/s-z/snakebird.md)
 - [`GAME-0006` — Sokoban](../games/s-z/sokoban.md)
+- [`GAME-0472` — Sonic Adventure](../games/s-z/sonic-adventure.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
+- [`GAME-0502` — South of Midnight](../games/s-z/south-of-midnight.md)
 - [`GAME-0360` — "Space Invaders"](../games/s-z/space-invaders.md)
 - [`GAME-0412` — Splatoon 3](../games/s-z/splatoon-3.md)
 - [`GAME-0157` — Split Fiction](../games/s-z/split-fiction.md)
@@ -419,8 +448,10 @@
 - [`GAME-0043` — Stephen’s Sausage Roll](../games/s-z/stephens-sausage-roll.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
+- [`GAME-0466` — Streets of Rage 2](../games/s-z/streets-of-rage-2.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
 - [`GAME-0387` — Super Bomberman](../games/s-z/super-bomberman.md)
+- [`GAME-0460` — Super Mario 64](../games/s-z/super-mario-64.md)
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
 - [`GAME-0428` — Super Mario Maker](../games/s-z/super-mario-maker.md)
 - [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
@@ -447,6 +478,7 @@
 - [`GAME-0038` — The Swapper](../games/s-z/the-swapper.md)
 - [`GAME-0090` — The Talos Principle](../games/s-z/the-talos-principle.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
+- [`GAME-0513` — Thief: The Dark Project](../games/s-z/thief-the-dark-project.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
 - [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
@@ -457,10 +489,13 @@
 - [`GAME-0391` — "Uncharted 2: Among Thieves"](../games/s-z/uncharted-2-among-thieves.md)
 - [`GAME-0268` — Undertale](../games/s-z/undertale.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
+- [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 - [`GAME-0183` — Vampire Survivors](../games/s-z/vampire-survivors.md)
 - [`GAME-0041` — Viewfinder](../games/s-z/viewfinder.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
+- [`GAME-0496` — "Warhammer 40,000: Space Marine 2"](../games/s-z/warhammer-40000-space-marine-2.md)
+- [`GAME-0497` — Wario Land 4](../games/s-z/wario-land-4.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
 - [`GAME-0379` — Worms Armageddon](../games/s-z/worms-armageddon.md)
 
@@ -475,11 +510,11 @@
 
 ### Включає
 
-Штовхання одного ящика Sokoban на одну ортогональну клітинку; одного об’єкта з призначеною властивістю `PUSH` у Baba Is You; одного сусіднього ящика Patrick’s Parabox до допустимого локального або міжмежового місця призначення; однієї ковбаски прикріпленою виделкою в Stephen’s Sausage Roll; однієї снігової кулі A Good Snowman Is Hard to Build до порожньої клітинки або сумісного стосу; одного дерева чи колоди A Monster’s Expedition із сусіднього доступного боку перед залежним від напрямку розв’язанням.
+Штовхання одного ящика Sokoban на одну ортогональну клітинку; одного об’єкта з призначеною властивістю PUSH у Baba Is You; одного сусіднього ящика Patrick’s Parabox до допустимого локального або міжмежового місця призначення; однієї ковбаски прикріпленою виделкою в Stephen’s Sausage Roll; однієї снігової кулі A Good Snowman Is Hard to Build до порожньої клітинки або сумісного стосу; одного дерева чи колоди A Monster’s Expedition із сусіднього доступного боку перед залежним від напрямку розв’язанням.
 
 ### Виключає
 
-Тягнення об’єкта; незалежний вибір і переміщення об’єкта; автоматичну реакцію на зіткнення.
+Тягнення об’єкта; вибір і переміщення об’єкта незалежно від агента; автоматичну реакцію на зіткнення.
 
 ### Ігри-носії
 
@@ -487,10 +522,13 @@
 - [`GAME-0054` — A Monster’s Expedition](../games/a-f/a-monsters-expedition.md)
 - [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
 - [`GAME-0013` — Baba Is You](../games/a-f/baba-is-you.md)
+- [`GAME-0477` — Catherine](../games/a-f/catherine.md)
+- [`GAME-0490` — Comix Zone](../games/a-f/comix-zone.md)
 - [`GAME-0036` — "Patrick’s Parabox"](../games/m-r/patricks-parabox.md)
 - [`GAME-0006` — Sokoban](../games/s-z/sokoban.md)
 - [`GAME-0043` — Stephen’s Sausage Roll](../games/s-z/stephens-sausage-roll.md)
 - [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
+- [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
 
 ## ACT-010
 
@@ -547,7 +585,7 @@
 
 ### Включає
 
-Натискання або обмін `Rocket`, `TNT`, `Propeller` чи `Light Ball` у Royal Match, а також обмін двох підсилювачів між собою.
+Натискання або обмін Rocket, TNT, Propeller чи Light Ball у Royal Match, а також обмін двох підсилювачів між собою.
 
 ### Виключає
 
@@ -595,13 +633,14 @@
 
 ### Виключає
 
-Переміщення фігури під контролем суперника; автоматичну відповідь суперника; вибір типу фігури для перетворення пішака; напрямлену навігацію постійно керованим агентом лише до сусідньої позиції (`ACT-008`).
+Переміщення фігури під контролем суперника; автоматичну відповідь суперника; вибір типу фігури для перетворення пішака; напрямлену навігацію постійно керованим агентом лише до сусідньої позиції (ACT-008).
 
 ### Ігри-носії
 
 - [`GAME-0416` — Advance Wars](../games/a-f/advance-wars.md)
 - [`GAME-0027` — Bad North: Jotunn Edition](../games/a-f/bad-north.md)
 - [`GAME-0011` — Chess](../games/a-f/chess.md)
+- [`GAME-0486` — Final Fantasy Tactics](../games/a-f/final-fantasy-tactics.md)
 - [`GAME-0014` — Into the Breach](../games/g-l/into-the-breach.md)
 - [`GAME-0019` — Peg Solitaire](../games/m-r/peg-solitaire.md)
 - [`GAME-0063` — Rush Hour](../games/m-r/rush-hour.md)
@@ -637,11 +676,11 @@
 
 ### Операційне визначення
 
-Гравець починає в одній фіксованій кінцевій точці й одним складеним жестом безпосередньо прокладає впорядкований маршрут змінної довжини через послідовно суміжні позиції поля до визначеної для неї завершальної точки.
+Гравець починає в одній фіксованій кінцевій точці й одним складеним жестом безпосередньо прокладає впорядкований маршрут змінної довжини через послідовно суміжні позиції поля до визначеної кінцевої точки цього маршруту.
 
 ### Включає
 
-Протягування труби Flow Free від будь-якої кольорової точки через клітинки сітки до відповідної точки; прокладання однієї колії Cosmic Express від фіксованого входу до вибраного виходу; прокладання лінії панелі The Witness від початкового кола до кінцевої заглушки; прокладання одного маршруту LYNE від порожнистої кінцевої точки через маркери тієї самої родини до іншої порожнистої кінцевої точки.
+Протягування труби Flow Free від будь-якої кольорової точки через клітинки сітки до відповідної точки; прокладання однієї колії Cosmic Express від фіксованого вхідного відрізка колії до вибраного виходу; прокладання лінії панелі The Witness від початкового кола до кінцевої заглушки; прокладання одного маршруту LYNE від порожнистої кінцевої точки через маркери тієї самої родини до іншої порожнистої кінцевої точки.
 
 ### Виключає
 
@@ -665,7 +704,7 @@
 
 ### Включає
 
-Переміщення всіх об’єктів, іменник яких у Baba Is You зараз має властивість `YOU`.
+Переміщення всіх об’єктів, іменник яких у Baba Is You зараз має властивість YOU.
 
 ### Виключає
 
@@ -686,11 +725,11 @@
 
 ### Включає
 
-Штовхання ряду текстових об’єктів або об’єктів із властивістю `PUSH` у Baba Is You; штовхання вирівняного ряду ящиків у Patrick’s Parabox, зокрема коли найдальший елемент перетинає придатну межу контейнера.
+Штовхання ряду текстових об’єктів або об’єктів із властивістю PUSH у Baba Is You; штовхання вирівняного ряду ящиків у Patrick’s Parabox, зокрема коли найдальший елемент перетинає придатну межу контейнера.
 
 ### Виключає
 
-Межу штовхання лише одного об’єкта (`ACT-009`); тягнення ланцюга; безпосередній вибір віддалених об’єктів; автоматичний рух конвеєром.
+Межу штовхання лише одного об’єкта (ACT-009); тягнення ланцюга; безпосередній вибір віддалених об’єктів; автоматичний рух конвеєром.
 
 ### Ігри-носії
 
@@ -700,19 +739,19 @@
 ## ACT-019
 
 - Назва: Вибрати здатність і ціль
-- Переглянуто: `2026-08-24`
+- Переглянуто: `2026-10-05`
 
 ### Операційне визначення
 
-Гравець вибирає доступну здатність керованого персонажа чи підрозділу та вказує ворога, союзника, позицію або область, на яку вона має подіяти.
+Гравець обирає одного наразі доступного керованого учасника, вибирає одну з його визначених здібностей і вказує дозволеного для неї учасника, позицію або область, на яких ця здібність виконається.
 
 ### Включає
 
-Постріл або ремонт меха в Into the Breach; класову здатність загону в Bad North; вибір Skill і цілі в Clair Obscur: Expedition 33; вибір атаки, закляття чи поштовху та відповідної цілі в Baldur’s Gate 3.
+Постріл зброї меха чи вибір дії ремонту цього меха в Into the Breach; вибір цілі доступної класової здібності загону в Bad North; вибір одного вивченого прийому покемона й ворожої цілі в бою в Pokémon Red Version.
 
 ### Виключає
 
-Переміщення того, хто діє; уже розпочату атаку ворога; автоматичні наслідки раніше вибраної здатності.
+Переміщення того, хто діє; виконання ворогом уже підтвердженої атаки; автоматичні шкоду, поштовх чи зіткнення від здібності.
 
 ### Ігри-носії
 
@@ -726,15 +765,19 @@
 - [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
 - [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
 - [`GAME-0435` — EarthBound](../games/a-f/earthbound.md)
+- [`GAME-0486` — Final Fantasy Tactics](../games/a-f/final-fantasy-tactics.md)
 - [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
+- [`GAME-0489` — Golden Sun](../games/g-l/golden-sun.md)
 - [`GAME-0014` — Into the Breach](../games/g-l/into-the-breach.md)
 - [`GAME-0449` — Paper Mario](../games/m-r/paper-mario.md)
 - [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
+- [`GAME-0463` — "Pokémon Gold Version"](../games/m-r/pokemon-gold-version.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
 - [`GAME-0336` — "Pokémon Red Version"](../games/m-r/pokemon-red-version.md)
 - [`GAME-0166` — Sid Meier’s Civilization VI](../games/s-z/sid-meiers-civilization-vi.md)
 - [`GAME-0048` — Tactical Breach Wizards](../games/s-z/tactical-breach-wizards.md)
 - [`GAME-0268` — Undertale](../games/s-z/undertale.md)
+- [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
 - [`GAME-0176` — XCOM 2](../games/s-z/xcom-2.md)
 
 ## ACT-020
@@ -744,7 +787,7 @@
 
 ### Операційне визначення
 
-Гравець обирає одну придатну позицію поля й розміщує там обов’язковий зараз перший елемент видимої черги в наданій орієнтації, за потреби замінюючи визначеного мешканця, якого дозволено замінювати.
+Гравець обирає одну придатну позицію поля й розміщує там обов’язковий зараз перший елемент видимої черги в наданій орієнтації, за потреби замінюючи визначений елемент, який займає цю позицію та для якого дозволено заміну.
 
 ### Включає
 
@@ -769,7 +812,7 @@
 
 ### Включає
 
-Розіграш від однієї до п’яти карт Balatro для нарахування рахунку або скидання до п’яти вибраних карт із добором замін; вибір рівно трьох відкритих карт SET для перевірки відношень між ними.
+Розіграш від однієї до п’яти карт Balatro для нарахування очок або скидання до п’яти вибраних карт із добором замін; вибір рівно трьох відкритих карт SET для перевірки відношень між ними.
 
 ### Виключає
 
@@ -791,11 +834,11 @@
 
 ### Включає
 
-Переміщення Joker-карт у Balatro так, щоб додавальний ефект `Mult` розв’язався перед пізнішим множильним ефектом `XMult`.
+Переміщення Joker-карт у Balatro так, щоб додавальний ефект Mult розв’язався перед пізнішим множильним ефектом XMult.
 
 ### Виключає
 
-Купівлю чи продаж ефекту; переставлення без механічного наслідку порядку; вибір карт для однієї результативної руки.
+Купівлю чи продаж ефекту; переставлення без механічного наслідку порядку; вибір карт для одного розіграшу, за який нараховують очки.
 
 ### Ігри-носії
 
@@ -822,6 +865,7 @@
 
 - [`GAME-0121` — "Cities: Skylines"](../games/a-f/cities-skylines.md)
 - [`GAME-0018` — Mini Metro](../games/m-r/mini-metro.md)
+- [`GAME-0498` — Transport Fever 2](../games/s-z/transport-fever-2.md)
 - [`GAME-0134` — "Workers & Resources: Soviet Republic"](../games/s-z/workers-resources-soviet-republic.md)
 
 ## ACT-024
@@ -844,6 +888,7 @@
 ### Ігри-носії
 
 - [`GAME-0018` — Mini Metro](../games/m-r/mini-metro.md)
+- [`GAME-0498` — Transport Fever 2](../games/s-z/transport-fever-2.md)
 
 ## ACT-025
 
@@ -882,7 +927,7 @@
 
 ### Виключає
 
-Вибір пізнішої наданої плитки; розміщення першої плитки черги з фіксованою орієнтацією (`ACT-020`); прокладання маршруту; обертання постійного зв’язаного шару.
+Вибір пізнішої наданої плитки; розміщення першої плитки черги з фіксованою орієнтацією (ACT-020); прокладання маршруту; обертання постійного зв’язаного шару.
 
 ### Ігри-носії
 
@@ -946,7 +991,7 @@
 
 ### Включає
 
-Програмування кожного маніпулятора Opus Magnum позиціями grab, drop, rotate, pivot, extend, retract, track-move, repeat, reset або wait.
+Програмування кожного маніпулятора Opus Magnum розміщенням команд захоплення, відпускання, обертання, повороту, висування, втягування, переміщення вздовж рейки, повторення, скидання чи очікування у відповідних позиціях.
 
 ### Виключає
 
@@ -1010,7 +1055,7 @@
 
 ### Включає
 
-Заповнення речення в книзі Obra Dinn однією особою з маніфесту, причиною смерті та вбивцею, істотою або місцем порятунку.
+Заповнення речення в книзі Obra Dinn однією особою з маніфесту, причиною смерті та вбивцею, істотою або місцем, куди особа втекла.
 
 ### Виключає
 
@@ -1094,7 +1139,7 @@
 
 ### Включає
 
-Призначення однієї з восьми класичних навичок Lemmings вибраному lemming.
+Призначення однієї з восьми класичних навичок Lemmings вибраному лемінгу.
 
 ### Виключає
 
@@ -1120,7 +1165,7 @@
 
 ### Включає
 
-Використання кнопок мінус і плюс, щоб змінити release rate люка в Lemmings.
+Використання кнопок мінус і плюс, щоб змінити частоту випуску лемінгів із люка в грі Lemmings.
 
 ### Виключає
 
@@ -1174,20 +1219,20 @@
 
 ## ACT-040
 
-- Назва: Спорядити персонажа здобутим предметом
-- Переглянуто: `2026-08-24`
+- Назва: Замінити споряджений предмет здобутим
+- Переглянуто: `2026-10-14`
 
 ### Операційне визначення
 
-Гравець вибирає здобуту сумісну зброю, броню чи інший предмет спорядження, замінює ним поточний предмет і відповідно змінює характеристики персонажа.
+Гравець вибирає один здобутий предмет з інвентарю й поміщає його в сумісне місце спорядження, замінюючи поточний предмет і змінюючи бойові характеристики цього персонажа.
 
 ### Включає
 
-Спорядження щойно отриманої зброї або броні в Loop Hero; заміну зброї персонажа в Clair Obscur: Expedition 33; зміну зброї, броні й аксесуарів у Baldur’s Gate 3; спорядження зброї, броні та аксесуарів у Terraria.
+Заміну спорядження щойно здобутою зброєю або бронею під час експедиції Loop Hero; заміну зброї персонажа в Clair Obscur: Expedition 33; заміну зброї, броні чи аксесуара члена загону в Baldur’s Gate 3; заміну броні чи аксесуара в Terraria.
 
 ### Виключає
 
-Вибір класу до забігу; автоматичний приріст характеристики; переміщення карти між зонами розкладки.
+Вибір класу персонажа до початку проходження; автоматичний приріст характеристики; переміщення звичайної карти між зонами розкладки.
 
 ### Ігри-носії
 
@@ -1207,7 +1252,7 @@
 
 ### Включає
 
-Вихід з експедиції Loop Hero під час проходження багаття або прийняття меншої збереженої частки за відступ посеред кола.
+Вихід з експедиції Loop Hero під час проходження ділянки з багаттям або прийняття меншої збереженої частки за відступ посеред кола.
 
 ### Виключає
 
@@ -1270,7 +1315,7 @@
 
 ### Включає
 
-Перемотування солдатиків і маршрутних об’єктів Tin Hearts до моменту перед смертельним падінням, переміщення пристрою й відновлення безпечнішого перебігу; прокручування Timelie до моменту перед захопленням, перегляд команди персонажа й пошук нового майбутнього; перемотування Tim і звичайних сутностей Braid перед іншим локальним рухом; вибір ранішої автоматичної контрольної точки Pikmin 4 і розігрування замінної послідовності команд; прокручування Viewfinder до моменту перед падінням або розміщенням зображення й фіксація іншого просторового продовження.
+Перемотування солдатиків і маршрутних об’єктів Tin Hearts до моменту перед смертельним падінням, переміщення пристрою й відновлення безпечнішого перебігу; прокручування Timelie до моменту перед захопленням, зміна команди персонажа й пошук нового майбутнього; перемотування Tim і звичайних сутностей Braid перед іншим локальним рухом; вибір ранішої автоматичної контрольної точки Pikmin 4 і розігрування замінної послідовності команд; прокручування Viewfinder до моменту перед падінням або розміщенням зображення й фіксація іншого просторового продовження.
 
 ### Виключає
 
@@ -1294,11 +1339,11 @@
 
 ### Операційне визначення
 
-У вибраний момент симуляції гравець призначає, замінює або очищає місце призначення чи контекстну взаємодію одного постійного актора, а команда лишається в часовому плані, доки її не переглянуть або не буде розв’язано.
+У вибраний момент симуляції гравець призначає, замінює або очищає місце призначення чи контекстну взаємодію одного постійного актора, а команда лишається в часовому плані, доки її не змінять або не буде розв’язано.
 
 ### Включає
 
-Вибір дівчини або кота Timelie у поточний момент курсора й планування місця призначення, клавіатури, вентиляційного проходу, нявкання чи пов’язаної взаємодії.
+Вибір дівчини або кота Timelie у поточний момент часового курсора й планування місця призначення або контекстної дії: взаємодії з кодовою панеллю чи вентиляційним проходом, нявкання або іншої пов’язаної дії.
 
 ### Виключає
 
@@ -1315,15 +1360,15 @@
 
 ### Операційне визначення
 
-На фіксованій сітці машини гравець креслить напрямлений маршрут одного контролера й призначає клітинкам маршруту символи команд, специфічні для кольору або контролера, через що просторові адреси визначають порядок виконання.
+На фіксованій сітці машини гравець прокладає напрямлений маршрут переміщення одного контролера й призначає клітинкам цього маршруту символи команд, прив’язані до конкретного кольору або контролера. Просторові адреси клітинок визначають порядок виконання команд.
 
 ### Включає
 
-Створення маршрутів червоного й синього waldo у SpaceChem і розміщення їхніх інструкцій input, grab, rotate, bond, sync, drop та output.
+Створення маршрутів червоного й синього маніпуляторів у SpaceChem та розміщення на цих маршрутах їхніх команд введення (input), захоплення (grab), обертання (rotate), утворення зв’язку (bond), синхронізації (sync), відпускання (drop) і виведення (output).
 
 ### Виключає
 
-Редагування команд в окремих адресованих часових стовпцях; розміщення фізичних компонентів машини; планування команди розташованому у світі актору на довільний момент симуляції.
+Редагування команд в окремих адресованих часових стовпцях; розміщення фізичних компонентів машини; призначення команди акторові в ігровому світі на довільний момент симуляції.
 
 ### Ігри-носії
 
@@ -1340,7 +1385,7 @@
 
 ### Включає
 
-Постріл синього або помаранчевого порталу Portal на допустиму пласку поверхню камери після отримання повністю зарядженого ручного портального пристрою.
+Постріл синього або помаранчевого порталу Portal на допустиму пласку поверхню камери після отримання повнофункціонального ручного портального пристрою.
 
 ### Виключає
 
@@ -1377,36 +1422,42 @@
 - [`GAME-0429` — Commandos: Behind Enemy Lines](../games/a-f/commandos-behind-enemy-lines.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
+- [`GAME-0495` — Donkey Kong Country Returns](../games/a-f/donkey-kong-country-returns.md)
 - [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
 - [`GAME-0112` — Human: Fall Flat](../games/g-l/human-fall-flat.md)
+- [`GAME-0510` — Indiana Jones and the Great Circle](../games/g-l/indiana-jones-and-the-great-circle.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0095` — Manifold Garden](../games/m-r/manifold-garden.md)
 - [`GAME-0096` — Maquette](../games/m-r/maquette.md)
 - [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
 - [`GAME-0300` — Overcooked! 2](../games/m-r/overcooked-2.md)
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 - [`GAME-0203` — "PEAK"](../games/m-r/peak.md)
 - [`GAME-0113` — Portal 2 — Cooperative Campaign](../games/m-r/portal-2-co-op.md)
 - [`GAME-0033` — Portal](../games/m-r/portal.md)
 - [`GAME-0279` — PowerWash Simulator](../games/m-r/powerwash-simulator.md)
 - [`GAME-0319` — Sea of Thieves](../games/s-z/sea-of-thieves.md)
+- [`GAME-0466` — Streets of Rage 2](../games/s-z/streets-of-rage-2.md)
 - [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 - [`GAME-0094` — Superliminal](../games/s-z/superliminal.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0115` — Unpacking](../games/s-z/unpacking.md)
+- [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
+- [`GAME-0497` — Wario Land 4](../games/s-z/wario-land-4.md)
 
 ## ACT-049
 
 - Назва: Перемикання досяжного перемикача у світі
-- Переглянуто: `2026-08-24`
+- Переглянуто: `2026-10-04`
 
 ### Операційне визначення
 
-Гравець змушує керованого на місці аватара активувати досяжний постійний перемикач, змінюючи заданий стан або напрямок руху пов’язаного механізму у світі.
+Гравець керує аватаром на місці й активує досяжний постійний перемикач, змінюючи заданий стан або напрямок руху пов’язаного механізму у світі.
 
 ### Включає
 
-Використання важеля Braid, щоб запустити або розвернути пов’язану платформу; натискання досяжного синього перемикача Manifold Garden після періодичного переходу через прогалину, щоб відкрити пов’язані двері; установлення кожного досяжного вентиля в першій водній інструкції Chants of Sennaar у заданий відкритий або закритий стан.
+Використання важеля Braid, щоб запустити або розвернути пов’язану платформу; натискання досяжного синього перемикача Manifold Garden після періодичного переходу через прогалину, щоб відкрити пов’язані двері; установлення кожного досяжного вентиля в першій водній інструкції Chants of Sennaar у заданий відкритий або закритий стан; активацію досяжних консолей Chapter 1 у Split Fiction, які змінюють пов’язаний бар’єр або платформу незалежно від парних умов спільної гри.
 
 ### Виключає
 
@@ -1420,9 +1471,14 @@
 - [`GAME-0399` — Ico](../games/g-l/ico.md)
 - [`GAME-0215` — It Takes Two](../games/g-l/it-takes-two.md)
 - [`GAME-0095` — Manifold Garden](../games/m-r/manifold-garden.md)
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 - [`GAME-0334` — Quake](../games/m-r/quake.md)
+- [`GAME-0512` — Resident Evil Requiem](../games/m-r/resident-evil-requiem.md)
 - [`GAME-0157` — Split Fiction](../games/s-z/split-fiction.md)
+- [`GAME-0513` — Thief: The Dark Project](../games/s-z/thief-the-dark-project.md)
 - [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
+- [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
+- [`GAME-0497` — Wario Land 4](../games/s-z/wario-land-4.md)
 
 ## ACT-050
 
@@ -1470,19 +1526,19 @@
 ## ACT-052
 
 - Назва: Передавання прямого керування між постійними тілами
-- Переглянуто: `2026-08-24`
+- Переглянуто: `2026-10-15`
 
 ### Операційне визначення
 
-Коли в одному стані світу активні кілька придатних постійних тіл, гравець передає унікальний осередок прямої навігації або командування з поточного тіла іншому, залишаючи попереднє у світі за оголошеними правилами без осередку.
+Коли в одному стані світу активні кілька допустимих постійних тіл, гравець передає єдиний осередок прямої навігації або повноважень командування з поточного тіла іншому. Попереднє тіло залишається у світі й діє за оголошеними правилами для тіла, яке більше не є цим осередком.
 
 ### Включає
 
-Перемикання між Rescue Officer і Oatchi після розділення груп Pikmin; перенесення свідомості поточного тіла The Swapper у видимого наявного клона.
+Перемикання від Rescue Officer до Oatchi після розділення їхніх груп Pikmin у Pikmin 4; перенесення свідомості з поточного тіла The Swapper у видимого наявного клона, коли попереднє тіло залишається; перемикання прямого керування на допустимого партнера в EA SPORTS FC 26, коли попередній футболіст лишається на полі під керуванням командного ШІ.
 
 ### Виключає
 
-Вибір актора лише для планування цілі; створення нового тіла без передачі керування; телепортацію одного незмінного тіла; змагальні почергові ходи.
+Вибір актора лише для задавання віддаленого пункту призначення; створення нового тіла без передавання керування; телепортацію одного незмінного тіла; чергування змагальних ходів.
 
 ### Ігри-носії
 
@@ -1546,7 +1602,7 @@
 
 ### Включає
 
-Підняття наданої фотографії у Viewfinder, утримання її перед сценою, переміщення або обертання в перспективі та відбиття в обраному місці.
+Підняття наданої фотографії у Viewfinder, утримання її перед сценою, переміщення або обертання в перспективі та фіксація цього зображення в обраному місці.
 
 ### Виключає
 
@@ -1609,7 +1665,7 @@
 
 ### Включає
 
-Перетягування зібраних термінів The Case of the Golden Idol у пропуски особи, місця та сувою події на екрані Thinking у пролозі.
+Перетягування зібраних термінів The Case of the Golden Idol у пропуски панелей визначення особи й місця та сувою події на екрані Thinking у пролозі.
 
 ### Виключає
 
@@ -1630,7 +1686,7 @@
 
 ### Включає
 
-Розігрування у Fights in Tight Spaces карти руху на допустиму клітинку або карти атаки / штовхання на допустимого ворога чи суміжну ціль; розігрування карти руху Golf Peaks з одним кардинальним напрямком як просторовою ціллю.
+Розігрування у Fights in Tight Spaces карти руху на допустиму клітинку або карти атаки / штовхання на допустимого ворога чи суміжну ціль; розігрування карти руху Golf Peaks з одним із чотирьох основних напрямків як просторовою ціллю.
 
 ### Виключає
 
@@ -1690,7 +1746,7 @@
 
 ### Операційне визначення
 
-Гравець наказує постійному керованому агенту розвернути напрямок погляду в протилежний бік, лишаючись у тій самій адресованій позиції.
+Гравець наказує постійному керованому агенту розвернутися в протилежний бік, не змінюючи своєї визначеної позиції.
 
 ### Включає
 
@@ -1698,7 +1754,7 @@
 
 ### Виключає
 
-Обертання прикріпленого до тіла інструмента, повна займана під час руху область якого впливає на рішення; зміна ракурсу камери; переміщення в іншу позицію.
+Обертання прикріпленого до тіла інструмента, коли вся область, яку він охоплює під час обертання, має значення для рішення; зміну ракурсу камери; переміщення в іншу позицію.
 
 ### Ігри-носії
 
@@ -1753,7 +1809,7 @@
 
 ### Операційне визначення
 
-Віддавши команду руху вперед у зайняту сусідню позицію, гравець міняє місцями керованого агента й одиницю, в бік якої той дивиться, замість відхилення руху або штовхання цієї одиниці.
+Командою руху вперед у зайняту сусідню позицію гравець обмінює позиції керованого агента й одиниці, до якої той обернений, замість того, щоб рух було відхилено або цю одиницю відштовхнуто.
 
 ### Включає
 
@@ -1921,7 +1977,7 @@
 
 ### Виключає
 
-Виявлення адресованої крайової клітинки; малювання маршруту крізь поле; подання повної гіпотези прихованої розкладки; повтор уже розв’язаного входу як нового спостереження.
+Розкриття адресованої клітинки на межі; малювання маршруту крізь поле; подання повної гіпотези прихованої розкладки; повтор уже розв’язаного входу як нового спостереження.
 
 ### Ігри-носії
 
@@ -1938,7 +1994,7 @@
 
 ### Включає
 
-Натиснути `Check` у стандартному Black Box після позначення рівно п’яти клітинок як куль.
+Натиснути Check у стандартному Black Box після позначення рівно п’яти клітинок як куль.
 
 ### Виключає
 
@@ -1963,7 +2019,7 @@
 
 ### Виключає
 
-Подання повністю редагованої пропозиції як одного запиту; вибір невпорядкованої підмножини; реакцію лише на найновіший сигнал; введення сигналів, поки система ще показує ціль.
+Подання повністю редагованої пропозиції як одного запиту; вибір невпорядкованої підмножини; реакцію лише на найновіший сигнал; введення команд, поки система ще показує ціль.
 
 ### Ігри-носії
 
@@ -2187,12 +2243,12 @@
 
 ## ACT-087
 
-- Назва: Застосувати предмет з інвентарю до відповідного пристрою
+- Назва: Застосувати предмет з інвентарю до сумісного об’єкта сцени
 - Переглянуто: `2026-08-24`
 
 ### Операційне визначення
 
-Гравець вибирає здобутий предмет з інвентарю та застосовує його до конкретного постійного пристрою, якщо тип і поточний стан цього пристрою допускають таке використання.
+Гравець вибирає один здобутий предмет з інвентарю та застосовує його до конкретного постійного об’єкта сцени, якщо тип і поточний стан цього об’єкта допускають передбачене правилами використання саме цього предмета.
 
 ### Включає
 
@@ -2242,16 +2298,16 @@
 
 ## ACT-089
 
-- Назва: Зібрати адресований предмет сцени в інвентар
-- Переглянуто: `2026-08-23`
+- Назва: Забирати вибраний предмет сцени в інвентар
+- Переглянуто: `2026-10-04`
 
 ### Операційне визначення
 
-Гравець вибирає один доступний зараз адресований предмет сцени, прибирає його з позиції в сцені й додає його стійку ідентичність до дискретного інвентарю утримуваних предметів.
+Гравець вибирає один доступний зараз вказаний предмет сцени, прибирає його з цього місця й додає його стійку ідентичність до дискретного інвентарю предметів при собі.
 
 ### Включає
 
-Забрати високо розташовану ляльку, незакріплений магніт і котушку мотузки в Machinarium після виконання відповідних передумов досяжності й пересування; забрати готову супербатарею Day of the Tentacle з полиці Реда.
+Забирання високо розташованої ляльки, незакріпленого магніту й котушки мотузки в Machinarium після виконання відповідних передумов досяжності та пересування; забирання готової супербатареї Day of the Tentacle з полиці Реда.
 
 ### Виключає
 
@@ -2261,15 +2317,22 @@
 
 - [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
+- [`GAME-0511` — Animal Crossing: New Leaf](../games/a-f/animal-crossing-new-leaf.md)
 - [`GAME-0173` — Blue Prince](../games/a-f/blue-prince.md)
+- [`GAME-0490` — Comix Zone](../games/a-f/comix-zone.md)
 - [`GAME-0088` — Day of the Tentacle](../games/a-f/day-of-the-tentacle.md)
 - [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
 - [`GAME-0405` — Fable II](../games/a-f/fable-ii.md)
+- [`GAME-0510` — Indiana Jones and the Great Circle](../games/g-l/indiana-jones-and-the-great-circle.md)
 - [`GAME-0086` — Machinarium](../games/m-r/machinarium.md)
 - [`GAME-0431` — Ori and the Blind Forest](../games/m-r/ori-and-the-blind-forest.md)
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
+- [`GAME-0463` — "Pokémon Gold Version"](../games/m-r/pokemon-gold-version.md)
+- [`GAME-0512` — Resident Evil Requiem](../games/m-r/resident-evil-requiem.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0430` — Silent Hill](../games/s-z/silent-hill.md)
 - [`GAME-0343` — The Secret of Monkey Island](../games/s-z/the-secret-of-monkey-island.md)
+- [`GAME-0513` — Thief: The Dark Project](../games/s-z/thief-the-dark-project.md)
 - [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
 
 ## ACT-090
@@ -2315,6 +2378,7 @@
 ### Ігри-носії
 
 - [`GAME-0320` — "Animal Crossing: New Horizons"](../games/a-f/animal-crossing-new-horizons.md)
+- [`GAME-0511` — Animal Crossing: New Leaf](../games/a-f/animal-crossing-new-leaf.md)
 - [`GAME-0278` — DAVE THE DIVER](../games/a-f/dave-the-diver.md)
 - [`GAME-0088` — Day of the Tentacle](../games/a-f/day-of-the-tentacle.md)
 - [`GAME-0437` — Diner Dash](../games/a-f/diner-dash.md)
@@ -2356,7 +2420,7 @@
 
 ### Включає
 
-Розміщення одного мідного, залізного або золотого злитка у відповідній комірці `Blacksmith’s Bundle` Stardew Valley; розміщення 99 `Slime` або 10 `Bat Wings` в одній придатній комірці `Adventurer’s Bundle`; додавання по одній перенесеній палиці чи листку до розміщеного контуру Temporary Shelter у The Forest.
+Розміщення одного мідного, залізного або золотого злитка у відповідній комірці Blacksmith’s Bundle Stardew Valley; розміщення 99 Slime або 10 Bat Wings в одній придатній комірці Adventurer’s Bundle; додавання по одній перенесеній палиці чи листку до розміщеного контуру Temporary Shelter у The Forest.
 
 ### Виключає
 
@@ -2378,7 +2442,7 @@
 
 ### Операційне визначення
 
-Гравець задає один горизонтальний чвертьоберт за або проти годинникової стрілки від поточного усталеного кардинального виду, роблячи сусідню ортографічну проєкцію авторитетною для подальшого пересування без вибору чи переміщення окремих об’єктів світу.
+Гравець задає один горизонтальний чвертьоберт за або проти годинникової стрілки від поточного усталеного виду з одного із чотирьох основних напрямків огляду, роблячи сусідню ортографічну проєкцію визначальною для подальшого пересування без вибору чи переміщення окремих об’єктів світу.
 
 ### Включає
 
@@ -2407,7 +2471,7 @@
 
 ### Виключає
 
-Чотири фіксовані кардинальні чвертьоберти; вільний огляд сцени, камера якого не змінює ігрових правил; обертання одного фізичного об’єкта; зміну гравітації світу; фіксацію перспективного зображення, що створює геометрію.
+Чотири фіксовані чвертьоберти між основними напрямками огляду; вільний огляд сцени, камера якого не змінює ігрових правил; обертання одного фізичного об’єкта; зміну гравітації світу; фіксацію перспективного зображення, що створює геометрію.
 
 ### Ігри-носії
 
@@ -2452,7 +2516,7 @@
 
 ### Включає
 
-Застосування `Gravity Shift` до стіни або стелі в Manifold Garden, після якого ця поверхня стає підлогою у відповідній кольоровій системі гравітації.
+Застосування Gravity Shift до стіни або стелі в Manifold Garden, після якого ця поверхня стає підлогою у відповідній кольоровій системі гравітації.
 
 ### Виключає
 
@@ -2473,7 +2537,7 @@
 
 ### Включає
 
-Утримання дверей `Now You See It` в Antichamber у полі зору, щоб їхнє призначення лишалося сталим, або поворот до скляного вікна, після якого двері виходять із поля зору й задана авторами заміна стає можливою.
+Утримання дверей Now You See It в Antichamber у полі зору, щоб місце, куди вони ведуть, лишалося сталим, або поворот до скляного вікна, після якого двері виходять із поля зору й задана авторами заміна стає можливою.
 
 ### Виключає
 
@@ -2494,7 +2558,7 @@
 
 ### Включає
 
-У Keep Talking and Nobody Explodes Сапер голосом описує порядок дротів, вигляд кнопки чи ідентифікатори на краю бомби, а Експерт у відповідь називає вибраний дріт або дає часову інструкцію для кнопки.
+У Keep Talking and Nobody Explodes Сапер голосом описує порядок дротів, вигляд кнопки чи ідентифікатори на краю бомби, а Експерт у відповідь називає вибраний дріт або дає інструкцію з часовою умовою для кнопки.
 
 ### Виключає
 
@@ -2515,7 +2579,7 @@
 
 ### Включає
 
-Перерізання одного вибраного дроту; натискання й негайне відпускання `Button`; утримування кнопки, щоб показати смугу, та відпускання на вибраній цифрі таймера.
+Перерізання одного вибраного дроту; натискання й негайне відпускання Button; утримування кнопки, щоб показати смугу, та відпускання на вибраній цифрі таймера.
 
 ### Виключає
 
@@ -2611,7 +2675,7 @@
 
 ## ACT-105
 
-- Назва: Поставити справі остаточний двійковий штамп
+- Назва: Поставити на справі штамп з одним із двох остаточних вердиктів
 - Переглянуто: `2026-08-23`
 
 ### Операційне визначення
@@ -2620,7 +2684,7 @@
 
 ### Включає
 
-Розміщення паспорта відвідувача під штампувальним пристроєм Papers, Please і поставлення штампа `APPROVED` або `DENIED` перед поверненням документів.
+Розміщення паспорта відвідувача під штампувальним пристроєм Papers, Please і поставлення штампа APPROVED або DENIED перед поверненням документів.
 
 ### Виключає
 
@@ -2633,15 +2697,15 @@
 ## ACT-106
 
 - Назва: Ввести впорядкований код напрямків без переміщення
-- Переглянуто: `2026-08-23`
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-Звертаючись до одного сприйнятливого об’єкта світу, гравець вводить скінченну впорядковану послідовність кардинальних напрямків як символічні команди, а не переміщує керованого персонажа в цих напрямках.
+Звертаючись до одного сприйнятливого об’єкта світу або інтерфейсу команд, гравець вводить скінченну впорядковану послідовність основних напрямків як символічні команди, а не переміщує керованого персонажа в цих напрямках.
 
 ### Включає
 
-Введення послідовності «вниз, праворуч, угору, ліворуч, угору, праворуч» біля візерунчастих дверей TUNIC поруч із фонтаном у Верхньому світі.
+Введення послідовності «вниз, праворуч, угору, ліворуч, угору, праворуч» біля візерунчастих дверей TUNIC поруч із фонтаном у Верхньому світі; введення коду напрямків вибраної стратагеми в Helldivers 2.
 
 ### Виключає
 
@@ -2655,7 +2719,7 @@
 ## ACT-107
 
 - Назва: Дізнатися в розмові факт, потрібний для подальшої дії
-- Переглянуто: `2026-08-24`
+- Переглянуто: `2026-10-02`
 
 ### Операційне визначення
 
@@ -2663,7 +2727,7 @@
 
 ### Включає
 
-Розмову з Hornfels про коди запуску в Outer Wilds, після якої код реєструється як відомий; розмови в завданнях Cyberpunk 2077 і Baldur’s Gate 3, які відкривають корисні відомості про людей, місця або доступ.
+Розмову з Hornfels про коди запуску в Outer Wilds, після якої код реєструється як відомий; розмови в завданнях Cyberpunk 2077, які відкривають корисні відомості про людей, місця або доступ.
 
 ### Виключає
 
@@ -2676,6 +2740,7 @@
 - [`GAME-0264` — Disco Elysium - The Final Cut](../games/a-f/disco-elysium-the-final-cut.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0105` — Outer Wilds](../games/m-r/outer-wilds.md)
+- [`GAME-0485` — Shenmue](../games/s-z/shenmue.md)
 - [`GAME-0362` — "The Elder Scrolls III: Morrowind"](../games/s-z/the-elder-scrolls-iii-morrowind.md)
 - [`GAME-0395` — "The Legend of Zelda: Majora’s Mask"](../games/s-z/the-legend-of-zelda-majoras-mask.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
@@ -2731,7 +2796,7 @@
 
 ### Операційне визначення
 
-У зовнішньому режимі редагування компонування гравець поступально переміщує одну цілу панель із фіксованою прохідною геометрією та портами, зберігаючи її інтер’єр, орієнтацію й мешканців.
+У зовнішньому режимі редагування компонування гравець поступально переміщує одну цілу панель із фіксованою прохідною геометрією та портами, зберігаючи її внутрішню будову, орієнтацію й розташовані на ній елементи.
 
 ### Включає
 
@@ -2739,7 +2804,7 @@
 
 ### Виключає
 
-Переміщення авторитетної ділянки мапи світу; переставляння ілюстрованої сцени між фіксованими слотами; обертання панелі; безпосереднє створення ребра пересування.
+Переміщення ділянки мапи світу, що визначає його будову; переставляння ілюстрованої сцени між фіксованими слотами; обертання панелі; безпосереднє створення ребра пересування.
 
 ### Ігри-носії
 
@@ -2768,7 +2833,7 @@
 
 ## ACT-112
 
-- Назва: Встановити або забрати переносну сферу-світ із п’єдесталу переходу між світами
+- Назва: Установити переносну сферу-світ на п’єдестал переходу між світами або забрати її звідти
 - Переглянуто: `2026-08-23`
 
 ### Операційне визначення
@@ -2820,7 +2885,7 @@
 
 ### Включає
 
-Хват за край однією чи обома руками в Human: Fall Flat із подальшим підтягуванням ragdoll-тіла вгору або підвішуванням під час зміни положення.
+Хват за край однією чи обома руками в Human: Fall Flat із подальшим підтягуванням шарнірного фізичного тіла вгору або підвішуванням під час зміни положення.
 
 ### Виключає
 
@@ -2949,7 +3014,7 @@
 
 ## ACT-120
 
-- Назва: Налаштувати правило роботи окремої фабричної споруди
+- Назва: Налаштувати правило роботи окремого фабричного об’єкта
 - Переглянуто: `2026-08-24`
 
 ### Операційне визначення
@@ -2972,6 +3037,7 @@
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
 - [`GAME-0131` — Dyson Sphere Program](../games/a-f/dyson-sphere-program.md)
 - [`GAME-0119` — Factorio](../games/a-f/factorio.md)
+- [`GAME-0504` — Frostpunk 2](../games/a-f/frostpunk-2.md)
 - [`GAME-0130` — Frostpunk](../games/a-f/frostpunk.md)
 - [`GAME-0125` — Oxygen Not Included](../games/m-r/oxygen-not-included.md)
 - [`GAME-0127` — RimWorld](../games/m-r/rimworld.md)
@@ -2991,7 +3057,7 @@
 
 ### Включає
 
-Вибір технологій Factorio, додавання їхніх передумов до черги та зміна її порядку; призначення окремої технології кожному з трьох напрямів досліджень у Stellaris.
+Вибір технологій Factorio, додавання їхніх передумов до черги та зміна її порядку або заміна поточної цілі; призначення окремої технології кожному з трьох напрямів досліджень у Stellaris.
 
 ### Виключає
 
@@ -3005,6 +3071,7 @@
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
 - [`GAME-0131` — Dyson Sphere Program](../games/a-f/dyson-sphere-program.md)
 - [`GAME-0119` — Factorio](../games/a-f/factorio.md)
+- [`GAME-0504` — Frostpunk 2](../games/a-f/frostpunk-2.md)
 - [`GAME-0182` — Hearts of Iron IV](../games/g-l/hearts-of-iron-iv.md)
 - [`GAME-0166` — Sid Meier’s Civilization VI](../games/s-z/sid-meiers-civilization-vi.md)
 - [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
@@ -3013,19 +3080,19 @@
 ## ACT-122
 
 - Назва: Вручну видобути ресурс або розібрати об’єкт світу
-- Переглянуто: `2026-08-24`
+- Переглянуто: `2026-10-14`
 
 ### Операційне визначення
 
-Гравець застосовує потрібний інструмент до досяжного ресурсу чи предмета обстановки й чекає завершення роботи, після чого отриманий матеріал або повернений предмет потрапляє до інвентарю чи лишається поруч.
+Гравець безпосередньо добуває матеріали з досяжного ресурсу ігрового світу або розбирає об’єкт, з якого можна отримати матеріали чи повернути предмет. Правила визначають, чи результат одразу потрапляє до інвентарю, чи потребує окремого підбору.
 
 ### Включає
 
-Ручний видобуток руди, каменю чи дерева та розбирання розміщених об’єктів у Factorio; розбирання меблів та інших предметів обстановки на матеріали у Project Zomboid.
+Ручний видобуток руди, каменю або деревини й повернення розміщеного об’єкта у Factorio; розбирання предмета обстановки на матеріали в Project Zomboid; ручне добування ресурсів на Луках у Valheim; утримувані або повторювані дії добування ресурсів у дослідженому навчальному маршруті 7 Days to Die.
 
 ### Виключає
 
-Роботу машини, яка автоматично виробляє ресурс; знищення ворога зброєю; миттєвий вибір предмета, що вже перебуває у сховищі.
+Автоматичний видобуток руди працюючим буром; знищення ворога зброєю; видалення об’єкта без отримання матеріалів чи повернення предмета; просте переміщення вже відокремленого або збереженого предмета.
 
 ### Ігри-носії
 
@@ -3044,7 +3111,7 @@
 ## ACT-123
 
 - Назва: Виготовити предмет за вибраним відомим рецептом
-- Переглянуто: `2026-08-24`
+- Переглянуто: `2026-10-05`
 
 ### Операційне визначення
 
@@ -3052,7 +3119,7 @@
 
 ### Включає
 
-Особисте виготовлення у Factorio, Cyberpunk 2077 та Elden Ring, польове виготовлення в Monster Hunter Wilds і негайне виготовлення з інвентарю або біля потрібного робочого місця в Terraria.
+Особисте виготовлення у Factorio й Cyberpunk 2077, польове виготовлення в Monster Hunter Wilds та виготовлення з інвентарю або біля потрібної станції в Terraria.
 
 ### Виключає
 
@@ -3071,6 +3138,7 @@
 - [`GAME-0314` — Grounded](../games/g-l/grounded.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0229` — "No Man’s Sky"](../games/m-r/no-mans-sky.md)
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
@@ -3224,15 +3292,15 @@
 ## ACT-130
 
 - Назва: Придбати запропонований предмет або послугу
-- Переглянуто: `2026-08-27`
+- Переглянуто: `2026-10-04`
 
 ### Операційне визначення
 
-Гравець витрачає валюту поточного забігу, матчу або кампанії, щоб отримати запропонований предмет чи скористатися платною послугою.
+Гравець витрачає поточну валюту дослідженого відрізка, щоб придбати один наявний у пропозиції актив або скористатися однією платною послугою.
 
 ### Включає
 
-Торговців у забігах; крамниці матчу в Dota 2; магазини Grand Theft Auto V і Cyberpunk 2077; товари в Hollow Knight: Silksong; придбання спорядження під час замороження або відведеного на купівлю часу в Counter-Strike 2; товари й послуги торговців у Baldur’s Gate 3; придбання Crafting Kit та інших товарів за руни в Elden Ring; товари й платні послуги міських неігрових персонажів у Terraria.
+Торговців у забігах; крамниці кімнат у Blue Prince; крамниці матчу в Dota 2; магазини Grand Theft Auto V і Cyberpunk 2077; товари в Hollow Knight: Silksong; придбання спорядження під час замороження або відведеного на купівлю часу в Counter-Strike 2.
 
 ### Виключає
 
@@ -3242,6 +3310,7 @@
 
 - [`GAME-0124` — Against the Storm](../games/a-f/against-the-storm.md)
 - [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
+- [`GAME-0511` — Animal Crossing: New Leaf](../games/a-f/animal-crossing-new-leaf.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
 - [`GAME-0265` — Bloons TD 6](../games/a-f/bloons-td-6.md)
 - [`GAME-0173` — Blue Prince](../games/a-f/blue-prince.md)
@@ -3252,6 +3321,7 @@
 - [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
+- [`GAME-0491` — Elite](../games/a-f/elite.md)
 - [`GAME-0405` — Fable II](../games/a-f/fable-ii.md)
 - [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
@@ -3262,6 +3332,7 @@
 - [`GAME-0392` — Mario Party 2](../games/m-r/mario-party-2.md)
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
 - [`GAME-0298` — 'Planet Zoo: Console Edition'](../games/m-r/planet-zoo-console-edition.md)
+- [`GAME-0463` — "Pokémon Gold Version"](../games/m-r/pokemon-gold-version.md)
 - [`GAME-0336` — "Pokémon Red Version"](../games/m-r/pokemon-red-version.md)
 - [`GAME-0446` — Railroad Tycoon II](../games/m-r/railroad-tycoon-ii.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
@@ -3270,38 +3341,47 @@
 - [`GAME-0155` — Slay the Spire 2](../games/s-z/slay-the-spire-2.md)
 - [`GAME-0120` — Slay the Spire](../games/s-z/slay-the-spire.md)
 - [`GAME-0307` — Slime Rancher](../games/s-z/slime-rancher.md)
+- [`GAME-0502` — South of Midnight](../games/s-z/south-of-midnight.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 - [`GAME-0343` — The Secret of Monkey Island](../games/s-z/the-secret-of-monkey-island.md)
+- [`GAME-0461` — The Sims](../games/s-z/the-sims.md)
+- [`GAME-0513` — Thief: The Dark Project](../games/s-z/thief-the-dark-project.md)
+- [`GAME-0498` — Transport Fever 2](../games/s-z/transport-fever-2.md)
 
 ## ACT-131
 
-- Назва: Використати витратний предмет із особистого запасу для негайного ефекту
-- Переглянуто: `2026-09-05`
+- Назва: Витрачати один негайно дієвий предмет із особистого запасу
+- Переглянуто: `2026-10-04`
 
 ### Операційне визначення
 
-Гравець активує один предмет з обмеженого запасу при персонажі, за потреби вказує ціль, яку можна обрати, і остаточно витрачає предмет після його негайного результату.
+Гравець активує одну одиницю обмеженого запасу витратних предметів при собі, за потреби вказує дозволену ціль і остаточно витрачає одиницю після виконання її негайного ефекту.
 
 ### Включає
 
-Використання зілля в Slay the Spire; Healing Tint у Clair Obscur: Expedition 33; зілля, сувої та метальні предмети в Baldur’s Gate 3; зілля, раціони та інші витратні предмети в Monster Hunter Wilds; метання Fire Pot та використання інших витратних предметів в Elden Ring; лікувальні зілля та постійні Life Crystals у Terraria; окремі запаси First Aid Kits і EVE Hypos при персонажі у BioShock™ Remastered.
+Випивання чи метання власного зілля Slay the Spire у дозволений момент бою.
 
 ### Виключає
 
-Розіграш карти; спорядження постійного предмета; застосування об’єкта світу до певного місця; відкладене відновлення чи переривний лікувальний процес.
+Розіграш карти колоди; спорядження постійної реліквії; застосування предмета світу до механізму в ігровому світі.
 
 ### Ігри-носії
 
+- [`GAME-0506` — Avowed](../games/a-f/avowed.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
 - [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0173` — Blue Prince](../games/a-f/blue-prince.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
+- [`GAME-0490` — Comix Zone](../games/a-f/comix-zone.md)
 - [`GAME-0368` — Dead Rising](../games/a-f/dead-rising.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0435` — EarthBound](../games/a-f/earthbound.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
+- [`GAME-0501` — F.E.A.R.](../games/a-f/fear.md)
 - [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
+- [`GAME-0489` — Golden Sun](../games/g-l/golden-sun.md)
+- [`GAME-0510` — Indiana Jones and the Great Circle](../games/g-l/indiana-jones-and-the-great-circle.md)
 - [`GAME-0123` — Inscryption](../games/g-l/inscryption.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0392` — Mario Party 2](../games/m-r/mario-party-2.md)
@@ -3312,10 +3392,12 @@
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
 - [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+- [`GAME-0512` — Resident Evil Requiem](../games/m-r/resident-evil-requiem.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0430` — Silent Hill](../games/s-z/silent-hill.md)
 - [`GAME-0155` — Slay the Spire 2](../games/s-z/slay-the-spire-2.md)
@@ -3326,6 +3408,7 @@
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 - [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
 - [`GAME-0268` — Undertale](../games/s-z/undertale.md)
+- [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
 
 ## ACT-132
 
@@ -3359,7 +3442,7 @@
 
 ### Включає
 
-Креслення shapez 2, які копіюють схеми розміщення машин, конвеєрів, підйомників, труб або платформ і встановлюють інший працездатний екземпляр, витрачаючи передбачену кількість очок креслень.
+Креслення shapez 2, які копіюють схеми розміщення машин, конвеєрів, підйомників, труб або платформ і встановлюють інший працездатний екземпляр, сплачуючи передбачену налаштуваннями вартість в очках креслень, якщо така плата застосовується.
 
 ### Виключає
 
@@ -3380,7 +3463,7 @@
 
 ### Включає
 
-Придбання в shapez 2 рівнів машин, швидкості конвеєрів чи поїздів, місткості платформ, входів Vortex, дротів або інших уже доступних удосконалень крамниці; відкриття доступної технології за очки в Palworld.
+Придбання в shapez 2 рівнів машин, швидкості конвеєрів чи поїздів, місткості платформ, входів Vortex, дротів або інших уже доступних удосконалень крамниці.
 
 ### Виключає
 
@@ -3502,12 +3585,15 @@
 - [`GAME-0397` — 'Command & Conquer: Red Alert 2'](../games/a-f/command-and-conquer-red-alert-2.md)
 - [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
+- [`GAME-0504` — Frostpunk 2](../games/a-f/frostpunk-2.md)
 - [`GAME-0130` — Frostpunk](../games/a-f/frostpunk.md)
 - [`GAME-0410` — Halo Wars](../games/g-l/halo-wars.md)
 - [`GAME-0335` — RollerCoaster Tycoon Deluxe](../games/m-r/rollercoaster-tycoon-deluxe.md)
 - [`GAME-0166` — Sid Meier’s Civilization VI](../games/s-z/sid-meiers-civilization-vi.md)
+- [`GAME-0469` — StarCraft](../games/s-z/starcraft.md)
 - [`GAME-0370` — Theme Hospital](../games/s-z/theme-hospital.md)
 - [`GAME-0133` — Timberborn](../games/s-z/timberborn.md)
+- [`GAME-0498` — Transport Fever 2](../games/s-z/transport-fever-2.md)
 - [`GAME-0134` — "Workers & Resources: Soviet Republic"](../games/s-z/workers-resources-soviet-republic.md)
 
 ## ACT-140
@@ -3533,12 +3619,14 @@
 - [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
+- [`GAME-0504` — Frostpunk 2](../games/a-f/frostpunk-2.md)
 - [`GAME-0130` — Frostpunk](../games/a-f/frostpunk.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)
 - [`GAME-0125` — Oxygen Not Included](../games/m-r/oxygen-not-included.md)
 - [`GAME-0136` — "Surviving Mars: Relaunched"](../games/s-z/surviving-mars.md)
+- [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
 - [`GAME-0183` — Vampire Survivors](../games/s-z/vampire-survivors.md)
 
 ## ACT-141
@@ -3573,7 +3661,7 @@
 
 ### Включає
 
-Вибір плитки вирушання й бонусів вирушання перед поселенням Against the Storm.
+Вибір клітинки мапи й бонусів для вирушання перед заснуванням поселення в Against the Storm.
 
 ### Виключає
 
@@ -3626,6 +3714,7 @@
 
 - [`GAME-0135` — "Captain of Industry"](../games/a-f/captain-of-industry.md)
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
+- [`GAME-0504` — Frostpunk 2](../games/a-f/frostpunk-2.md)
 - [`GAME-0125` — Oxygen Not Included](../games/m-r/oxygen-not-included.md)
 - [`GAME-0127` — RimWorld](../games/m-r/rimworld.md)
 - [`GAME-0133` — Timberborn](../games/s-z/timberborn.md)
@@ -3637,7 +3726,7 @@
 
 ### Операційне визначення
 
-Гравець постійно змінює, як автономний працівник ранжує види роботи або як колонія ранжує окреме доручення серед рівнозначних.
+Гравець змінює збережені налаштування, за якими один автономний агент ранжує види роботи або колонія ранжує одне створене доручення серед інших.
 
 ### Включає
 
@@ -3665,7 +3754,7 @@
 
 ### Операційне визначення
 
-Гравець витрачає одне зароблене очко навички на допустимий вузол дерева передумов одного агента, назавжди надаючи його дозвіл або бонус і водночас підвищуючи вартість очікувань цього агента.
+Гравець витрачає одне зароблене очко навички на допустимий вузол дерева передумов одного агента. Агент отримує дозвіл або бонус цього вузла як збережену зміну стану, а вартість його очікувань зростає.
 
 ### Включає
 
@@ -3703,12 +3792,12 @@
 
 ## ACT-148
 
-- Назва: Розмістити план споруди з вибраного матеріалу
+- Назва: Розмістити план будівництва з вимогами до матеріалів
 - Переглянуто: `2026-09-13`
 
 ### Операційне визначення
 
-Гравець вибирає відому споруду й затверджує придатне місце, орієнтацію та специфікацію матеріалів як стійкий план, який має завершити окремий етап постачання й будівництва гравцем або працівником.
+Гравець вибирає відому споруду й затверджує придатний контур розміщення, орієнтацію та специфікацію матеріалів як стійкий план, який має завершити окремий етап постачання й будівництва гравцем або працівником.
 
 ### Включає
 
@@ -3829,7 +3918,7 @@
 
 ### Операційне визначення
 
-Гравець постійно призначає мешканців до військової групи, задає її спорядження й розклад тренувань, а потім активує груповий наказ.
+Гравець закріплює мешканців за військовою групою, задає її спорядження й розклад тренувань, а потім активує груповий наказ.
 
 ### Включає
 
@@ -3871,11 +3960,11 @@
 
 ### Операційне визначення
 
-Гравець постійно призначає одному автономному мешканцеві просторову дозволену область і одну чи кілька оголошених політик споживання, лікування або спорядження.
+Гравець призначає одному автономному мешканцеві дозволену просторову область і одну чи кілька оголошених політик споживання, лікування або спорядження; ці призначення зберігаються.
 
 ### Включає
 
-Дозволені області RimWorld разом із політиками їжі, речовин, одягу й медикаментів.
+Дозволені області RimWorld разом із політиками харчування, уживання речовин, одягу й медикаментів.
 
 ### Виключає
 
@@ -3908,7 +3997,7 @@
 
 ## ACT-157
 
-- Назва: Сформувати й прокласти маршрут завантаженому світовому каравану
+- Назва: Сформувати завантажений караван і задати йому маршрут на мапі світу
 - Переглянуто: `2026-08-24`
 
 ### Операційне визначення
@@ -3960,7 +4049,7 @@
 
 ### Включає
 
-Руйнування блока дерева чи каменю в режимі Survival Minecraft; видобування блока переднього плану, руйнування стіни заднього плану або повернення встановлених меблів до інвентарю в Terraria.
+Руйнування блока дерева чи каменю в режимі Survival Minecraft; видобування блока переднього плану, руйнування стіни заднього плану або вилучення встановлених меблів у Terraria.
 
 ### Виключає
 
@@ -3978,7 +4067,7 @@
 
 ### Операційне визначення
 
-Гравець розміщує матеріали з інвентарю в певних комірках доступної сітки й забирає готовий предмет, коли типи, кількість і просторове розташування матеріалів точно відповідають відомому рецепту.
+Гравець розміщує матеріали з інвентарю в певних комірках доступної сітки виготовлення й забирає результат рецепта, коли типи, кількість і просторове розташування матеріалів повністю відповідають одному заданому рецепту.
 
 ### Включає
 
@@ -3994,8 +4083,8 @@
 
 ## ACT-161
 
-- Назва: Прицілитися й атакувати досяжну ціль поточною зброєю
-- Переглянуто: `2026-09-08`
+- Назва: Націлитися й ударити поточним інструментом досяжного ворога або об’єкт світу, який можна зламати
+- Переглянуто: `2026-10-05`
 
 ### Операційне визначення
 
@@ -4003,7 +4092,7 @@
 
 ### Включає
 
-Атаки проти ворожих мобів і Ender Dragon у режимі Survival Minecraft; прицільні атаки зброєю та спорядженням у Counter-Strike 2; прицільні атаки вогнепальною й холодною зброєю в Cyberpunk 2077; основні атаки героїв у Marvel Rivals; прицільні удари Needle у Hollow Knight: Silksong; атаки по монстру або певній частині його тіла в Monster Hunter Wilds; атаки зброєю проти видимих досяжних ворогів у Baldur’s Gate 3; постріли й удари піхоти по ворогах у Battlefield 6; удари й постріли по істотах та Eye of Cthulhu у Terraria; удари ломом по маршрутному склу в Half-Life (1998); удари зброєю по перекритих дверях кімнати Collector у Dead Cells.
+Атаки проти ворожих істот і Ender Dragon у режимі Survival Minecraft; прицільні постріли, удари ножем і атаки спорядженням у Counter-Strike 2; прицільні атаки вогнепальною й холодною зброєю проти досяжних ворогів у Cyberpunk 2077; основні атаки героїв Marvel Rivals проти видимих противників; прицільні удари голкою Hornet проти досяжних ворогів у Hollow Knight: Silksong; постріли стрільця й прямі атаки проти передбачених авторами ворогів у розділі 1 гри Split Fiction; удари ломом по склу маршруту Half-Life (1998); удари зброєю по перекритих дверях кімнати Collector у Dead Cells.
 
 ### Виключає
 
@@ -4018,6 +4107,7 @@
 - [`GAME-0154` — Apex Legends](../games/a-f/apex-legends.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0312` — ASTRO BOT](../games/a-f/astro-bot.md)
+- [`GAME-0506` — Avowed](../games/a-f/avowed.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
 - [`GAME-0386` — Banjo-Kazooie](../games/a-f/banjo-kazooie.md)
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
@@ -4031,6 +4121,7 @@
 - [`GAME-0222` — "Call of Juarez: Gunslinger"](../games/a-f/call-of-juarez-gunslinger.md)
 - [`GAME-0347` — "Castlevania: Symphony of the Night"](../games/a-f/castlevania-symphony-of-the-night.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
+- [`GAME-0490` — Comix Zone](../games/a-f/comix-zone.md)
 - [`GAME-0429` — Commandos: Behind Enemy Lines](../games/a-f/commandos-behind-enemy-lines.md)
 - [`GAME-0324` — Contra Force](../games/a-f/contra-force.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
@@ -4059,12 +4150,15 @@
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0131` — Dyson Sphere Program](../games/a-f/dyson-sphere-program.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
+- [`GAME-0491` — Elite](../games/a-f/elite.md)
+- [`GAME-0473` — "Eternal Darkness: Sanity's Requiem"](../games/a-f/eternal-darkness-sanitys-requiem.md)
 - [`GAME-0405` — Fable II](../games/a-f/fable-ii.md)
 - [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0361` — Fallout: New Vegas](../games/a-f/fallout-new-vegas.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
+- [`GAME-0501` — F.E.A.R.](../games/a-f/fear.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
@@ -4083,6 +4177,7 @@
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
 - [`GAME-0399` — Ico](../games/g-l/ico.md)
+- [`GAME-0510` — Indiana Jones and the Great Circle](../games/g-l/indiana-jones-and-the-great-circle.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
@@ -4091,10 +4186,13 @@
 - [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
+- [`GAME-0509` — MechAssault](../games/m-r/mechassault.md)
 - [`GAME-0389` — Mega Man 2](../games/m-r/mega-man-2.md)
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0339` — Metal Gear Solid](../games/m-r/metal-gear-solid.md)
+- [`GAME-0462` — Metal Slug 3](../games/m-r/metal-slug-3.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0474` — Metroid Fusion](../games/m-r/metroid-fusion.md)
 - [`GAME-0355` — Metroid Prime](../games/m-r/metroid-prime.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
@@ -4105,12 +4203,15 @@
 - [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0296` — Noita](../games/m-r/noita.md)
+- [`GAME-0483` — "Oddworld: Stranger's Wrath"](../games/m-r/oddworld-strangers-wrath.md)
 - [`GAME-0382` — Ōkami HD](../games/m-r/okami-hd.md)
 - [`GAME-0224` — Once Human](../games/m-r/once-human.md)
 - [`GAME-0431` — Ori and the Blind Forest](../games/m-r/ori-and-the-blind-forest.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0181` — Overwatch](../games/m-r/overwatch.md)
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
+- [`GAME-0505` — Panzer Dragoon](../games/m-r/panzer-dragoon.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
@@ -4122,19 +4223,23 @@
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0334` — Quake](../games/m-r/quake.md)
 - [`GAME-0404` — Ratchet & Clank](../games/m-r/ratchet-and-clank.md)
+- [`GAME-0508` — Ready or Not](../games/m-r/ready-or-not.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0348` — "Resident Evil: Director’s Cut"](../games/m-r/resident-evil-directors-cut.md)
+- [`GAME-0492` — "Resistance: Fall of Man"](../games/m-r/resistance-fall-of-man.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 - [`GAME-0356` — Shadow of the Colossus](../games/s-z/shadow-of-the-colossus.md)
+- [`GAME-0487` — Sid Meier's Pirates!](../games/s-z/sid-meiers-pirates.md)
 - [`GAME-0303` — Sifu](../games/s-z/sifu.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0430` — Silent Hill](../games/s-z/silent-hill.md)
 - [`GAME-0417` — Sly Cooper and the Thievius Raccoonus](../games/s-z/sly-cooper-and-the-thievius-raccoonus.md)
+- [`GAME-0502` — South of Midnight](../games/s-z/south-of-midnight.md)
 - [`GAME-0360` — "Space Invaders"](../games/s-z/space-invaders.md)
 - [`GAME-0412` — Splatoon 3](../games/s-z/splatoon-3.md)
 - [`GAME-0157` — Split Fiction](../games/s-z/split-fiction.md)
@@ -4144,6 +4249,7 @@
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 - [`GAME-0225` — "STAR WARS: Squadrons"](../games/s-z/star-wars-squadrons.md)
 - [`GAME-0331` — Starfield](../games/s-z/starfield.md)
+- [`GAME-0466` — Streets of Rage 2](../games/s-z/streets-of-rage-2.md)
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
 - [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
 - [`GAME-0313` — Tank 1990](../games/s-z/tank-1990.md)
@@ -4158,6 +4264,7 @@
 - [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
+- [`GAME-0513` — Thief: The Dark Project](../games/s-z/thief-the-dark-project.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
 - [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
@@ -4168,6 +4275,7 @@
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 - [`GAME-0184` — War Thunder](../games/s-z/war-thunder.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
+- [`GAME-0496` — "Warhammer 40,000: Space Marine 2"](../games/s-z/warhammer-40000-space-marine-2.md)
 - [`GAME-0211` — World of Tanks](../games/s-z/world-of-tanks.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
 
@@ -4200,7 +4308,7 @@
 
 ### Операційне визначення
 
-Гравець використовує один витратний предмет-покажчик: той залишає руку й летить у напрямку найближчої відповідної прихованої цілі в ігровому світі.
+Гравець використовує один витратний предмет-покажчик: той залишає руку й рухається в напрямку своєї поточної прихованої цілі в ігровому світі.
 
 ### Включає
 
@@ -4216,16 +4324,16 @@
 
 ## ACT-164
 
-- Назва: Вибрати активний предмет, зброю або пристрій
-- Переглянуто: `2026-08-24`
+- Назва: Вибрати предмет швидкого доступу для активної руки
+- Переглянуто: `2026-10-05`
 
 ### Операційне визначення
 
-Гравець вибирає зайняте місце швидкого доступу, і предмет, інструмент, зброя чи пристрій із нього стає готовим до наступної відповідної дії у світі.
+Гравець вибирає одну зайняту комірку швидкого доступу, щоб її предмет або інструмент став активним засобом введення для наступної сумісної дії у світі.
 
 ### Включає
 
-Вибір кирки, їжі, блока, Eye of Ender або Flint and Steel на панелі швидкого доступу Minecraft; перемикання між зброєю, гранатами, ножем і C4 у Counter-Strike 2; перемикання зброї в Cyberpunk 2077; вибір зброї або класового пристрою в Battlefield 6; вибір інструмента, зброї, блока, смолоскипа чи зілля на панелі швидкого доступу Terraria.
+Вибір кирки, їжі, блока, Eye або Flint and Steel на панелі швидкого доступу Minecraft; перемикання між наявною зброєю, гранатами, ножем і C4 у Counter-Strike 2; перемикання комірок зброї в Cyberpunk 2077.
 
 ### Виключає
 
@@ -4261,6 +4369,7 @@
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0361` — Fallout: New Vegas](../games/a-f/fallout-new-vegas.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
+- [`GAME-0501` — F.E.A.R.](../games/a-f/fear.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0381` — GoldenEye 007](../games/g-l/goldeneye-007.md)
@@ -4271,6 +4380,7 @@
 - [`GAME-0340` — "Halo: Combat Evolved Anniversary"](../games/g-l/halo-combat-evolved-anniversary.md)
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
+- [`GAME-0510` — Indiana Jones and the Great Circle](../games/g-l/indiana-jones-and-the-great-circle.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
@@ -4281,6 +4391,7 @@
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0296` — Noita](../games/m-r/noita.md)
 - [`GAME-0181` — Overwatch](../games/m-r/overwatch.md)
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
@@ -4291,8 +4402,11 @@
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0334` — Quake](../games/m-r/quake.md)
 - [`GAME-0404` — Ratchet & Clank](../games/m-r/ratchet-and-clank.md)
+- [`GAME-0508` — Ready or Not](../games/m-r/ready-or-not.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+- [`GAME-0512` — Resident Evil Requiem](../games/m-r/resident-evil-requiem.md)
+- [`GAME-0492` — "Resistance: Fall of Man"](../games/m-r/resistance-fall-of-man.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
@@ -4306,29 +4420,31 @@
 - [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
+- [`GAME-0513` — Thief: The Dark Project](../games/s-z/thief-the-dark-project.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
+- [`GAME-0496` — "Warhammer 40,000: Space Marine 2"](../games/s-z/warhammer-40000-space-marine-2.md)
 
 ## ACT-165
 
-- Назва: З’їсти придатну їжу, щоб відновити відповідний стан
-- Переглянуто: `2026-08-24`
+- Назва: Спожити придатну їжу для живлення персонажа
+- Переглянуто: `2026-10-14`
 
 ### Операційне визначення
 
-Гравець застосовує харчовий предмет, витрачає одну одиницю та поповнює передбачені цим предметом показники голоду, калорій, насичення, води чи здоров’я.
+Гравець явно наказує керованому персонажеві з’їсти всю або частину придатної їжі з перенесеного запасу чи досяжного місця годування. Ця кількість їжі витрачається, а її поживна дія та пов’язані зміни стану застосовуються за правилами гри.
 
 ### Включає
 
-Споживання їжі в режимі Survival Minecraft і придатної їжі в Rust.
+Споживання їжі в режимі Survival Minecraft за достатнього голоду; споживання всієї або частини харчового предмета в Project Zomboid; споживання перенесеної порції в DayZ; їжу з казана в дослідженому маршруті Fortuna у Kingdom Come: Deliverance II.
 
 ### Виключає
 
-Використання суто лікувального предмета; автоматичне годування автономного персонажа; виготовлення їжі.
+Використання лікувального зілля; споживання напою лише для відновлення водного запасу; автоматичне годування автономного персонажа; виготовлення їжі; живлення через контакт рота, що поповнює ДНК й ріст замість явної команди з’їсти.
 
 ### Ігри-носії
 
@@ -4362,6 +4478,7 @@
 
 ### Ігри-носії
 
+- [`GAME-0504` — Frostpunk 2](../games/a-f/frostpunk-2.md)
 - [`GAME-0130` — Frostpunk](../games/a-f/frostpunk.md)
 - [`GAME-0136` — "Surviving Mars: Relaunched"](../games/s-z/surviving-mars.md)
 
@@ -4376,7 +4493,7 @@
 
 ### Включає
 
-Закони Адаптації у Frostpunk і взаємовиключний вибір між шляхами Порядку й Віри.
+Закони Адаптації у Frostpunk і взаємовиключні шляхи Порядку або Віри в гілці Purpose.
 
 ### Виключає
 
@@ -4397,7 +4514,7 @@
 
 ### Включає
 
-Увімкнення генератора Frostpunk, вибір його потужності й радіуса, форсований режим, розклад парового вузла та керування обігрівачами робочих місць.
+Увімкнення й вимкнення генератора Frostpunk, вибір його потужності й радіуса, форсований режим, розклад парового вузла та керування обігрівачами робочих місць.
 
 ### Виключає
 
@@ -4405,6 +4522,7 @@
 
 ### Ігри-носії
 
+- [`GAME-0504` — Frostpunk 2](../games/a-f/frostpunk-2.md)
 - [`GAME-0130` — Frostpunk](../games/a-f/frostpunk.md)
 
 ## ACT-169
@@ -4414,7 +4532,7 @@
 
 ### Операційне визначення
 
-Гравець створює або змінює збережений план орбітального будівництва: обирає зорю, шар чи орбіту й розміщує вузли, каркаси та ділянки оболонки, які згодом мають збудувати пускові системи.
+Гравець створює або змінює збережений план орбітального будівництва: обирає зорю, шар чи орбіту й розміщує структурні елементи визначених типів, які згодом намагаються збудувати пускові системи.
 
 ### Включає
 
@@ -4422,7 +4540,7 @@
 
 ### Виключає
 
-Розміщення окремої споруди планетарної фабрики; запуск забезпеченої матеріалами ракети; застосування креслення поверхневої фабрики.
+Розміщення окремої споруди планетарної фабрики; запуск однієї наданої ракети; застосування креслення поверхневої фабрики.
 
 ### Ігри-носії
 
@@ -4439,7 +4557,7 @@
 
 ### Включає
 
-Зліт Ікара, планетарний політ, космічне плавання між планетами й увімкнення викривлення простору у Dyson Sphere Program.
+Зліт Ікара, планетарний політ, космічне плавання між планетами й застосування Space Warper у Dyson Sphere Program.
 
 ### Виключає
 
@@ -4448,6 +4566,7 @@
 ### Ігри-носії
 
 - [`GAME-0131` — Dyson Sphere Program](../games/a-f/dyson-sphere-program.md)
+- [`GAME-0509` — MechAssault](../games/m-r/mechassault.md)
 
 ## ACT-171
 
@@ -4460,7 +4579,7 @@
 
 ### Включає
 
-Торговельні маршрути Anno 1800 з упорядкованими портами й окремими наказами для вантажних комірок, зокрема завантаженням із дотриманням мінімального запасу на острові.
+Торговельні маршрути Anno 1800 з упорядкованими портами та окремим завантаженням і вивантаженням для кожної вантажної комірки, зокрема забиранням товару з урахуванням мінімального запасу на острові.
 
 ### Виключає
 
@@ -4481,7 +4600,7 @@
 
 ### Включає
 
-Послідовне підвищення осель у Anno 1800: від фермерів до робітників, ремісників, інженерів та інвесторів.
+Послідовне підвищення осель у Anno 1800: від фермерів до робітників, ремісників, інженерів та інвесторів, коли стан базових потреб і заселеність оселі це дозволяють.
 
 ### Виключає
 
@@ -4540,7 +4659,7 @@
 
 ### Операційне визначення
 
-Гравець витрачає накопичені поселенням очки науки на доступний запис каталогу й назавжди відкриває цю споруду на поточній мапі.
+Гравець витрачає накопичені поселенням очки науки на один допустимий запис каталогу; після цього цей запис залишається доступним на поточній мапі.
 
 ### Включає
 
@@ -4556,7 +4675,7 @@
 
 ## ACT-176
 
-- Назва: З’єднати й налаштувати автоматизацію
+- Назва: З’єднати й налаштувати локальний сигнал автоматизації
 - Переглянуто: `2026-08-24`
 
 ### Операційне визначення
@@ -4569,7 +4688,7 @@
 
 ### Виключає
 
-Ручне перемикання; вибір виробничого рецепта; приховану сценарну подію.
+Ручне перемикання; вибір виробничого рецепта; приховані програмні сценарії.
 
 ### Ігри-носії
 
@@ -4586,11 +4705,11 @@
 
 ### Включає
 
-Вежі керування шахтою в Captain of Industry, а також будівельні й розподільчі контори у Workers & Resources: Soviet Republic.
+Будівельні контори Workers & Resources: Soviet Republic із заданими джерелами й ділянками робіт та розподільчі контори з правилами постачання, попиту, ресурсів і відсотка заповнення складів; вежі керування шахтою в Captain of Industry.
 
 ### Виключає
 
-Редагування впорядкованих зупинок окремої транспортної лінії; розміщення самого диспетчерського осередку; безпосереднє керування доставленням.
+Редагування впорядкованого маршруту одного транспортного засобу; розміщення самого диспетчерського осередку; безпосереднє керування доставленням.
 
 ### Ігри-носії
 
@@ -4620,16 +4739,16 @@
 
 ## ACT-179
 
-- Назва: Укласти разову торговельну угоду або постійний контракт із селом
+- Назва: Укласти острівну торговельну угоду або контракт постачання
 - Переглянуто: `2026-08-24`
 
 ### Операційне визначення
 
-Гравець приймає пропозицію відкритого села й або негайно обмінює визначені товари, або запускає постійний обмін експорту на імпорт, кожен наступний рейс якого витрачає ресурс єдності.
+Гравець вибирає показану торговельну пропозицію острова й підтверджує або один негайний обмін, або збережений контракт обміну експорту на імпорт, подальші вантажні цикли якого витрачають визначений інституційний ресурс.
 
 ### Включає
 
-Разові обміни через торговельний причал і постійні контракти через вантажний термінал у Captain of Industry.
+Разові обміни в Captain of Industry та контракти із селами в цій грі. За контрактами витрачається Unity, а для повторюваних потоків використовуються сумісні модулі вантажного термінала та кораблі.
 
 ### Виключає
 
@@ -4654,7 +4773,7 @@
 
 ### Виключає
 
-Налаштування повторюваного торговельного маршруту; безпосереднє пілотування космічного апарата; одноразовий запуск промислової ракети з незмінним вантажем.
+Налаштування повторюваного торговельного маршруту; безпосереднє пілотування космічного апарата; запуск однієї промислової ракети з незмінним вантажем.
 
 ### Ігри-носії
 
@@ -4679,12 +4798,13 @@
 
 ### Ігри-носії
 
+- [`GAME-0504` — Frostpunk 2](../games/a-f/frostpunk-2.md)
 - [`GAME-0136` — "Surviving Mars: Relaunched"](../games/s-z/surviving-mars.md)
 
 ## ACT-183
 
 - Назва: Перезарядити активну магазинну зброю з резерву набоїв
-- Переглянуто: `2026-08-24`
+- Переглянуто: `2026-10-05`
 
 ### Операційне визначення
 
@@ -4692,7 +4812,7 @@
 
 ### Включає
 
-Ручне перезаряджання вогнепальної зброї в Counter-Strike 2, Cyberpunk 2077 і Battlefield 6.
+Ручне перезаряджання вогнепальної зброї в Counter-Strike 2 і Cyberpunk 2077.
 
 ### Виключає
 
@@ -4718,6 +4838,7 @@
 - [`GAME-0353` — "Deus Ex: Game of the Year Edition"](../games/a-f/deus-ex-game-of-the-year-edition.md)
 - [`GAME-0361` — Fallout: New Vegas](../games/a-f/fallout-new-vegas.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
+- [`GAME-0501` — F.E.A.R.](../games/a-f/fear.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
@@ -4734,14 +4855,17 @@
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
+- [`GAME-0483` — "Oddworld: Stranger's Wrath"](../games/m-r/oddworld-strangers-wrath.md)
 - [`GAME-0181` — Overwatch](../games/m-r/overwatch.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
+- [`GAME-0508` — Ready or Not](../games/m-r/ready-or-not.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+- [`GAME-0492` — "Resistance: Fall of Man"](../games/m-r/resistance-fall-of-man.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
@@ -4750,6 +4874,7 @@
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
+- [`GAME-0496` — "Warhammer 40,000: Space Marine 2"](../games/s-z/warhammer-40000-space-marine-2.md)
 - [`GAME-0176` — XCOM 2](../games/s-z/xcom-2.md)
 
 ## ACT-184
@@ -4778,6 +4903,7 @@
 - [`GAME-0137` — Counter-Strike 2](../games/a-f/counter-strike-2.md)
 - [`GAME-0218` — Counter-Strike](../games/a-f/counter-strike.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
+- [`GAME-0501` — F.E.A.R.](../games/a-f/fear.md)
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
@@ -4785,21 +4911,24 @@
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
+- [`GAME-0508` — Ready or Not](../games/m-r/ready-or-not.md)
+- [`GAME-0492` — "Resistance: Fall of Man"](../games/m-r/resistance-fall-of-man.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
+- [`GAME-0496` — "Warhammer 40,000: Space Marine 2"](../games/s-z/warhammer-40000-space-marine-2.md)
 
 ## ACT-185
 
-- Назва: Безперервно встановлювати або знешкоджувати бомбу
-- Переглянуто: `2026-08-24`
+- Назва: Безперервно активувати або знешкоджувати встановлюваний пристрій раунду
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-Гравець, який виконав потрібні умови, утримує взаємодію з ціллю протягом визначеного часу без переривання, щоб установити вибухівку зі спорядження або знешкодити вже активний пристрій.
+Гравець, який відповідає умовам, безперервно утримує взаємодію з ціллю протягом визначеного часу, щоб активувати переносний пристрій раунду в дозволеному місці або знешкодити активний встановлений пристрій.
 
 ### Включає
 
-Установлення C4 терористами та знешкодження контртерористами в Counter-Strike 2, зокрема скорочення часу знешкодження за наявності набору сапера.
+Установлення й знешкодження C4 у Counter-Strike 2 та встановлення й вимкнення деактиватора у Rainbow Six Siege.
 
 ### Виключає
 
@@ -4854,7 +4983,7 @@
 
 ### Виключає
 
-Пояснення правил або постійного стану; спілкування поза грою без обмеженого командного каналу; автоматичні системні повідомлення.
+Взаємодоповнювальний поділ інформації про правила й поточний стан між ролями (ACT-099); спілкування поза грою без обмеженого командного каналу; автоматичні системні повідомлення.
 
 ### Ігри-носії
 
@@ -4883,7 +5012,7 @@
 
 ### Включає
 
-Вибір героя та передматчевого варіанта розвитку в Dota 2; вибір легенди й наступний вибір переваги в межах матчу в Apex Legends.
+Вибір героя та аспекту в режимі All Pick Dota 2; вибір легенди в Apex Legends із подальшим вибором переваг у межах матчу; вибір оперативника й фіксація спорядження раунду в Rainbow Six Siege.
 
 ### Виключає
 
@@ -4898,20 +5027,20 @@
 
 ## ACT-189
 
-- Назва: Віддати героєві наказ рухатися або атакувати
-- Переглянуто: `2026-08-24`
+- Назва: Віддати керованій одиниці контекстний наказ рухатися або атакувати
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-Гравець задає керованому героєві точку призначення, ціль або наказ рухатися з атакою, який потім виконує автоматичний пошук шляху.
+Гравець звертається до керованої одиниці й підтверджує точку призначення у світі, ціль або наказ рухатися з атакою, який потім виконує автономний пошук шляху.
 
 ### Включає
 
-Накази рухатися, атакувати, рухатися з атакою, зупинитися й утримувати позицію в Dota 2.
+Накази герою рухатися, атакувати, рухатися з атакою, зупинитися й утримувати позицію в Dota 2.
 
 ### Виключає
 
-Безпосереднє керування кожним кроком персонажа; застосування здібності; самостійний рух лінійних кріпів.
+Безпосереднє керування кожним кроком персонажа; застосування здібності; автономну поведінку кріпів на лініях.
 
 ### Ігри-носії
 
@@ -4930,7 +5059,9 @@
 - [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)
 - [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
+- [`GAME-0508` — Ready or Not](../games/m-r/ready-or-not.md)
 - [`GAME-0317` — StarCraft II](../games/s-z/starcraft-ii.md)
+- [`GAME-0469` — StarCraft](../games/s-z/starcraft.md)
 - [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
 - [`GAME-0191` — "Total War: WARHAMMER III"](../games/s-z/total-war-warhammer-iii.md)
 - [`GAME-0328` — "Warcraft III: Reign of Chaos"](../games/s-z/warcraft-iii-reign-of-chaos.md)
@@ -4938,15 +5069,15 @@
 ## ACT-190
 
 - Назва: Застосувати активну здібність персонажа або предмета
-- Переглянуто: `2026-09-07`
+- Переглянуто: `2026-10-03`
 
 ### Операційне визначення
 
-Гравець застосовує доступну активну здібність персонажа або активну властивість переносного предмета й задає потрібну істоту, точку, вектор, напрям чи дію без окремої цілі, зокрема утримує команду протягом потрібного каналу.
+Гравець застосовує одну наразі доступну активну здібність персонажа або активну властивість переносного предмета й задає допустиму цільову одиницю, точку, вектор, напрям чи введення без окремої цілі, зокрема утримує команду протягом потрібного застосування.
 
 ### Включає
 
-Заклинання, перемикачі та активні предмети Dota 2; здібності героїв у Marvel Rivals; класові пристрої Battlefield 6; Silk Skills і споряджені Tools у Hollow Knight: Silksong; утримуване зосередження для лікування в Hollow Knight.
+Заклинання, перемикачі та активні предмети Dota 2; здібності героїв і застосування ультимативних прийомів Marvel Rivals; прицільні, розміщувані та застосовувані без цілі класові пристрої Battlefield 6; Silk Skills і споряджені Tools Hollow Knight: Silksong із дозволеним напрямковим введенням чи без окремої цілі; утримування команди зосередження в Hollow Knight для відновлення здоров’я; кидання маяка стратагеми в Helldivers 2 до допустимої цілі у світі після введення коду стратагеми.
 
 ### Виключає
 
@@ -4956,6 +5087,7 @@
 
 - [`GAME-0223` — Aion Classic](../games/a-f/aion-classic.md)
 - [`GAME-0154` — Apex Legends](../games/a-f/apex-legends.md)
+- [`GAME-0506` — Avowed](../games/a-f/avowed.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
 - [`GAME-0234` — Battlefield 2042](../games/a-f/battlefield-2042.md)
 - [`GAME-0149` — Battlefield 6](../games/a-f/battlefield-6.md)
@@ -4987,6 +5119,7 @@
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
 - [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
+- [`GAME-0502` — South of Midnight](../games/s-z/south-of-midnight.md)
 - [`GAME-0412` — Splatoon 3](../games/s-z/splatoon-3.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
@@ -4997,6 +5130,7 @@
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
 - [`GAME-0328` — "Warcraft III: Reign of Chaos"](../games/s-z/warcraft-iii-reign-of-chaos.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
+- [`GAME-0488` — wipEout](../games/s-z/wipeout.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
 
 ## ACT-191
@@ -5010,7 +5144,7 @@
 
 ### Включає
 
-Вибір здібностей і талантів у Dota 2; розподіл розвитку персонажа в Clair Obscur, Cyberpunk 2077 і Baldur’s Gate 3; розподіл очок дерева навичок в ARC Raiders.
+Вибір здібностей і талантів у Dota 2; розподіл розвитку персонажа в Clair Obscur, Cyberpunk 2077 і Baldur’s Gate 3; розподіл очок дерева навичок в ARC Raiders; розподіл очок Spark у Black Myth: Wukong.
 
 ### Виключає
 
@@ -5020,6 +5154,7 @@
 
 - [`GAME-0154` — Apex Legends](../games/a-f/apex-legends.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
+- [`GAME-0506` — Avowed](../games/a-f/avowed.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
 - [`GAME-0222` — "Call of Juarez: Gunslinger"](../games/a-f/call-of-juarez-gunslinger.md)
@@ -5037,7 +5172,7 @@
 
 ## ACT-192
 
-- Назва: Налаштувати доставлення предметів зі сховку кур’єром
+- Назва: Налаштувати переміщення зі сховку або доставлення кур’єром
 - Переглянуто: `2026-08-24`
 
 ### Операційне визначення
@@ -5084,35 +5219,36 @@
 
 ### Операційне визначення
 
-Гравець через поточну взаємодію у світі або бою застосовує й витрачає один переносний пристрій захоплення на придатну дику істоту, запускаючи перевірку замість звичайної атаки.
+Гравець через поточну взаємодію у світі або бою застосовує й витрачає на придатну дику істоту один пристрій захоплення, який має при собі, запускаючи перевірку захоплення замість звичайної атаки.
 
 ### Включає
 
-Кидок Pal Sphere у Palworld, Poké Ball у Pokémon Legends: Z-A та вибір Poké Ball через ITEM у Pokémon Red Version.
+Кидок Pal Sphere в ослабленого дикого пала в Palworld; кидок Poké Ball безпосередньо або після ослаблення придатного дикого покемона в Pokémon Legends: Z-A; вибір Poké Ball через бойову команду ITEM проти придатного дикого покемона в Pokémon Red Version.
 
 ### Виключає
 
-Перемогу над істотою; гарантоване сюжетне приєднання; переміщення вже захопленого пала між списками.
+Перемогу над істотою; гарантоване сюжетне приєднання; переміщення вже захопленого супутника між складами груп.
 
 ### Ігри-носії
 
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
 - [`GAME-0441` — Pokémon GO](../games/m-r/pokemon-go.md)
+- [`GAME-0463` — "Pokémon Gold Version"](../games/m-r/pokemon-gold-version.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
 - [`GAME-0336` — "Pokémon Red Version"](../games/m-r/pokemon-red-version.md)
 
 ## ACT-195
 
-- Назва: Випустити одного пала із загону або відкликати його
-- Переглянуто: `2026-08-24`
+- Назва: Випустити одного переносного супутника або відкликати його
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-Гравець вибирає одного пала з активного загону, кидає його сферу в досяжне місце світу або повертає вже випущеного пала до переносного стану.
+Гравець вибирає одного члена активного загону супутників і випускає його кидком у досяжному місці світу або повертає вже випущеного супутника до переносного стану.
 
 ### Включає
 
-Випускання й відкликання пала з активного загону під час дослідження або бою в Palworld.
+Випускання й відкликання пала з активного загону під час дослідження або бою в Palworld; вибір і випускання поточного партнера із загону в Pokémon Legends: Z-A.
 
 ### Виключає
 
@@ -5125,20 +5261,20 @@
 
 ## ACT-196
 
-- Назва: Перемістити захопленого пала між сховищем, загоном і базою
-- Переглянуто: `2026-08-24`
+- Назва: Перемістити захопленого супутника між обмеженими списками
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-Через постійний засіб керування гравець переводить одного захопленого пала між резервним сховищем, обмеженим активним загоном і вільним місцем працівника бази.
+Через постійний засіб керування гравець переводить одного захопленого супутника між резервним сховищем, обмеженим активним загоном і будь-яким доступним списком призначень, передбаченим правилами.
 
 ### Включає
 
-Переміщення через Palbox між сховищем палів, активним загоном і призначеннями на базі.
+Переміщення через Palbox між сховищем палів, загоном і призначеннями на базі; переміщення між Boxes і загоном із шести учасників у Pokémon Legends: Z-A.
 
 ### Виключає
 
-Захоплення дикої істоти; тимчасове випускання пала у світ; розведення двох істот зі сховища.
+Захоплення дикої істоти; тимчасове випускання супутника у світ; розведення двох істот зі сховища.
 
 ### Ігри-носії
 
@@ -5160,7 +5296,7 @@
 
 ### Виключає
 
-Самостійні звичайні дії напарника поруч із прямим керуванням; пасивну робочу придатність; безпосереднє використання зброї самим гравцем.
+Самостійні звичайні атаки напарника; пасивну робочу придатність; безпосереднє використання зброї гравцем.
 
 ### Ігри-носії
 
@@ -5174,7 +5310,7 @@
 
 ### Операційне визначення
 
-Гравець обирає мить виходу з транспортного літака, керує персонажем під час вільного падіння й польоту з парашутом і так визначає досяжну початкову область до переходу до звичайного наземного руху.
+Гравець обирає мить виходу з рухомого транспортного літака, керує персонажем під час вільного падіння й польоту з парашутом і так визначає досяжну початкову область до переходу до звичайного наземного руху.
 
 ### Включає
 
@@ -5193,19 +5329,19 @@
 ## ACT-199
 
 - Назва: Перенести й спорядити один сумісний наявний предмет
-- Переглянуто: `2026-09-03`
+- Переглянуто: `2026-10-05`
 
 ### Операційне визначення
 
-Гравець обирає один досяжний або вже наявний предмет і переносить його до сумісної комірки стосу, зброї, модуля, захисту чи сховища, за потреби замінюючи споряджений предмет.
+Гравець обирає один досяжний предмет або предмет, який уже має при собі, і переносить його до сумісної комірки стосу, зброї, модуля, захисту чи сховища, за потреби замінюючи споряджений предмет.
 
 ### Включає
 
-Дії підбирання, перенесення й спорядження зброї, набоїв, модулів, броні, наплічників і витратних предметів у PUBG: BATTLEGROUNDS та Cyberpunk 2077; одягання особисто виготовленого Primitive Outfit у 7 Days to Die.
+Взаємодія зі здобиччю на землі та перенесення чи спорядження через інвентар вогнепальної зброї, набоїв, приєднуваних деталей, броні, наплічників і витратних предметів у PUBG; перенесення здобичі зі світу й спорядження через інвентар у Cyberpunk 2077.
 
 ### Виключає
 
-Автоматичне підбирання через контакт; придбання предмета; виготовлення; збирання абстрактного жетона рахунку.
+Автоматичне підбирання через контакт; придбання предмета для раунду; виготовлення предмета; збирання абстрактного жетона рахунку.
 
 ### Ігри-носії
 
@@ -5213,8 +5349,10 @@
 - [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
 - [`GAME-0320` — "Animal Crossing: New Horizons"](../games/a-f/animal-crossing-new-horizons.md)
+- [`GAME-0511` — Animal Crossing: New Leaf](../games/a-f/animal-crossing-new-leaf.md)
 - [`GAME-0154` — Apex Legends](../games/a-f/apex-legends.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
+- [`GAME-0506` — Avowed](../games/a-f/avowed.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
 - [`GAME-0220` — Battlefield V](../games/a-f/battlefield-v.md)
 - [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
@@ -5233,8 +5371,10 @@
 - [`GAME-0264` — Disco Elysium - The Final Cut](../games/a-f/disco-elysium-the-final-cut.md)
 - [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
+- [`GAME-0473` — "Eternal Darkness: Sanity's Requiem"](../games/a-f/eternal-darkness-sanitys-requiem.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0361` — Fallout: New Vegas](../games/a-f/fallout-new-vegas.md)
+- [`GAME-0501` — F.E.A.R.](../games/a-f/fear.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
@@ -5251,15 +5391,18 @@
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0296` — Noita](../games/m-r/noita.md)
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
 - [`GAME-0203` — "PEAK"](../games/m-r/peak.md)
+- [`GAME-0463` — "Pokémon Gold Version"](../games/m-r/pokemon-gold-version.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0348` — "Resident Evil: Director’s Cut"](../games/m-r/resident-evil-directors-cut.md)
+- [`GAME-0512` — Resident Evil Requiem](../games/m-r/resident-evil-requiem.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
@@ -5274,6 +5417,7 @@
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 - [`GAME-0191` — "Total War: WARHAMMER III"](../games/s-z/total-war-warhammer-iii.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
+- [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
 
@@ -5284,11 +5428,11 @@
 
 ### Операційне визначення
 
-Гравець починає тривале застосування наявного в інвентарі предмета відновлення або ремонту й отримує його миттєвий чи поступовий ефект лише тоді, коли жодна скасувальна дія не перервала процес.
+Гравець починає застосування одного предмета відновлення або ремонту, який має при собі. Застосування потребує часу, а визначений миттєвий або поступовий ефект настає лише тоді, коли жодна скасувальна дія не перериває цей процес.
 
 ### Включає
 
-Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syringes у PUBG; обмежені ковтки з Gourd у Black Myth: Wukong; Vitalia, Armor Powder і набори для ремонту зброї у NARAKA: BLADEPOINT.
+Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syringes у PUBG; скінченну кількість ковтків із Gourd у Black Myth: Wukong; Vitalia, Armor Powder і набори для ремонту зброї у NARAKA: BLADEPOINT.
 
 ### Виключає
 
@@ -5305,6 +5449,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
+- [`GAME-0473` — "Eternal Darkness: Sanity's Requiem"](../games/a-f/eternal-darkness-sanitys-requiem.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
@@ -5320,7 +5465,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 ## ACT-201
 
 - Назва: Сісти в техніку й безпосередньо керувати нею
-- Переглянуто: `2026-08-24`
+- Переглянуто: `2026-10-05`
 
 ### Операційне визначення
 
@@ -5328,7 +5473,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Включає
 
-Керування чи поїздку в наземному транспорті Erangel у PUBG Normal Match; вхід, викрадення й керування дорожнім, водним або повітряним транспортом у Story Mode Grand Theft Auto V; водіння в Cyberpunk 2077; керування танками, гелікоптерами й літаками та використання місць стрільців у Battlefield 6.
+Керування наземною технікою Erangel або поїздка в ній у PUBG Normal Match; вхід, викрадення й керування дорожнім, водним або повітряним транспортом у Story Mode Grand Theft Auto V; керування власним або доступним транспортом у Cyberpunk 2077; безпосереднє керування транспортом для втечі у розділі 1 гри Split Fiction, поки напарник виконує окрему роль стрільця турелі.
 
 ### Виключає
 
@@ -5347,16 +5492,19 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 - [`GAME-0357` — "Grand Theft Auto: San Andreas"](../games/g-l/grand-theft-auto-san-andreas.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
+- [`GAME-0462` — Metal Slug 3](../games/m-r/metal-slug-3.md)
 - [`GAME-0229` — "No Man’s Sky"](../games/m-r/no-mans-sky.md)
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0492` — "Resistance: Fall of Man"](../games/m-r/resistance-fall-of-man.md)
 - [`GAME-0157` — Split Fiction](../games/s-z/split-fiction.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
 
 ## ACT-202
 
 - Назва: Змінити положення або конфігурацію тіла персонажа
-- Переглянуто: `2026-09-21`
+- Переглянуто: `2026-10-04`
 
 ### Операційне визначення
 
@@ -5364,7 +5512,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Включає
 
-Зміни положення тіла й визирання з-за укриття в PUBG; стояче й присіле положення в Cyberpunk 2077; присідання й положення лежачи в PowerWash Simulator; вхід у Morphing Ball і вихід із нього в Super Metroid.
+Зміни положення тіла та визирання ліворуч або праворуч з-за укриття в PUBG; стояче й присіле положення для скритного руху або бою в Cyberpunk 2077; присідання й положення лежачи, щоб спрямувати мийний інструмент під низькі поверхні в PowerWash Simulator.
 
 ### Виключає
 
@@ -5373,24 +5521,33 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 ### Ігри-носії
 
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
+- [`GAME-0490` — Comix Zone](../games/a-f/comix-zone.md)
 - [`GAME-0429` — Commandos: Behind Enemy Lines](../games/a-f/commandos-behind-enemy-lines.md)
 - [`GAME-0324` — Contra Force](../games/a-f/contra-force.md)
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0459` — Daxter](../games/a-f/daxter.md)
+- [`GAME-0494` — Dead or Alive 2](../games/a-f/dead-or-alive-2.md)
 - [`GAME-0353` — "Deus Ex: Game of the Year Edition"](../games/a-f/deus-ex-game-of-the-year-edition.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
+- [`GAME-0495` — Donkey Kong Country Returns](../games/a-f/donkey-kong-country-returns.md)
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
+- [`GAME-0501` — F.E.A.R.](../games/a-f/fear.md)
 - [`GAME-0340` — "Halo: Combat Evolved Anniversary"](../games/g-l/halo-combat-evolved-anniversary.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0339` — Metal Gear Solid](../games/m-r/metal-gear-solid.md)
+- [`GAME-0462` — Metal Slug 3](../games/m-r/metal-slug-3.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0474` — Metroid Fusion](../games/m-r/metroid-fusion.md)
 - [`GAME-0355` — Metroid Prime](../games/m-r/metroid-prime.md)
 - [`GAME-0393` — Mortal Kombat II](../games/m-r/mortal-kombat-ii.md)
 - [`GAME-0279` — PowerWash Simulator](../games/m-r/powerwash-simulator.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
+- [`GAME-0508` — Ready or Not](../games/m-r/ready-or-not.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
+- [`GAME-0512` — Resident Evil Requiem](../games/m-r/resident-evil-requiem.md)
+- [`GAME-0492` — "Resistance: Fall of Man"](../games/m-r/resistance-fall-of-man.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
 - [`GAME-0412` — Splatoon 3](../games/s-z/splatoon-3.md)
@@ -5400,18 +5557,20 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0513` — Thief: The Dark Project](../games/s-z/thief-the-dark-project.md)
 - [`GAME-0443` — Time Crisis](../games/s-z/time-crisis.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
 - [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
+- [`GAME-0497` — Wario Land 4](../games/s-z/wario-land-4.md)
 
 ## ACT-203
 
-- Назва: Викопати тактичне укриття в руйнівному ґрунті
+- Назва: Викопати тактичне укриття в ґрунті, придатному для руйнування
 - Переглянуто: `2026-08-24`
 
 ### Операційне визначення
 
-Гравець спрямовує придатний інструмент або вибухівку на руйнівний ґрунт і завдає удару, який прибирає обмежену частину землі та створює прохідну виїмку або край укриття.
+Гравець спрямовує придатний інструмент або вибухівку на придатний для руйнування ґрунт світу й завдає удару з метою прибрати обмежений об’єм землі та створити прохідну виїмку або край укриття.
 
 ### Включає
 
@@ -5419,7 +5578,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Виключає
 
-Пошкодження ворога; руйнування будівлі; необмежене видобування вокселів; косметичні сліди без зміни прохідної поверхні.
+Пошкодження ворога; руйнування будівлі; необмежене видобування вокселів; косметичні сліди без зміни геометрії зіткнень.
 
 ### Ігри-носії
 
@@ -5455,11 +5614,11 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Операційне визначення
 
-Гравець взаємодіє з досяжним об’єктом власності чи замком, щоб додати або вилучити особу зі списку доступу, установити чи ввести ключові дані або очистити поточний список.
+Гравець взаємодіє з досяжним об’єктом власності чи замком, щоб додати або вилучити особу зі списку доступу, установити чи ввести дані доступу або очистити поточний список.
 
 ### Включає
 
-Додавання гравця до Tool Cupboard і введення чи зміна коду Code Lock у Rust.
+Додавання гравця до списку доступу Tool Cupboard і введення чи зміна коду Code Lock у Rust.
 
 ### Виключає
 
@@ -5471,12 +5630,12 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ## ACT-206
 
-- Назва: Завантажити й запустити пристрій перероблення матеріалів
+- Назва: Завантажити пристрій перероблення матеріалів і керувати його роботою
 - Переглянуто: `2026-08-24`
 
 ### Операційне визначення
 
-Гравець переносить сумісну сировину та потрібне паливо до досяжного пристрою, за потреби запускає чи зупиняє його, а згодом забирає готові продукти й залишки.
+Гравець переносить сумісні вхідні матеріали й будь-яке потрібне паливо до досяжного пристрою перероблення, запускає або зупиняє його, якщо це передбачено, а згодом забирає стоси одержаних продуктів або залишків.
 
 ### Включає
 
@@ -5498,15 +5657,15 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Операційне визначення
 
-Гравець обирає придатний предмет у дослідницькому пристрої або доступний вузол дерева технологій і витрачає визначений ресурс, щоб додати рецепт до особистих знань.
+Гравець вибирає на Research Table дозволений для дослідження предмет або доступний вузол дерева технологій Workbench і витрачає вказаний дослідницький ресурс, щоб додати цей рецепт до особисто вивчених креслень.
 
 ### Включає
 
-Дослідження за scrap на Research Table і відкриття вузла дерева технологій Workbench у Rust.
+Дослідження предметів за ресурс Scrap на Research Table та відкриття вузлів дерева технологій Workbench у Rust.
 
 ### Виключає
 
-Виготовлення вже вивченого предмета; безкоштовний початковий рецепт; поліпшення самого Workbench.
+Виготовлення вже вивченого предмета; відкриття безкоштовного початкового рецепта; поліпшення самого Workbench.
 
 ### Ігри-носії
 
@@ -5527,7 +5686,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Виключає
 
-Випадкова поява на пляжі після смерті; автоматичне збереження контрольної точки; тимчасове оживлення товариша.
+Вибір випадкового місця появи на пляжі після смерті; автоматичне збереження контрольної точки; тимчасове оживлення товариша.
 
 ### Ігри-носії
 
@@ -5548,7 +5707,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Виключає
 
-Постріл зі зброї; зміна лише рельєфу; знищення об’єкта командою адміністратора.
+Постріл зі зброї; дії, спрямовані лише на розкопування рельєфу; знищення об’єкта командою адміністратора.
 
 ### Ігри-носії
 
@@ -5561,7 +5720,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Операційне визначення
 
-Перед звичайною появою у світі гравець обирає одне початкове тло або професію та необов’язковий сумісний набір рис, які визначають початкові навички й постійні особливості.
+Перед звичайною появою у світі гравець обирає одне початкове тло або професію та необов’язковий допустимий набір сумісних рис, які визначають початкові навички й постійні особливості.
 
 ### Включає
 
@@ -5569,7 +5728,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Виключає
 
-Розвиток навичок після появи у світі; косметичну зовнішність; налаштування самого світу.
+Набуття досвіду навичок після появи у світі; косметичну зовнішність; зміну шаблону налаштувань світу.
 
 ### Ігри-носії
 
@@ -5599,20 +5758,20 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ## ACT-212
 
-- Назва: Додати або зняти один шар барикади
-- Переглянуто: `2026-08-24`
+- Назва: Додати або зняти захисний матеріал з отвору чи поверхні
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-Гравець обирає доступний бік дверей чи вікна й за допомогою відповідних інструментів додає один шар дощок або металу. Так само можна зняти вже встановлений шар, якщо до нього є доступ і потрібні інструменти.
+Гравець обирає досяжний отвір або поверхню, що відповідає умовам, і за допомогою сумісного матеріалу додає один захисний шар або знімає з тієї самої цілі один шар, який дозволено прибрати.
 
 ### Включає
 
-Барикади з дощок, металевих листів і прутів у Project Zomboid.
+Барикади з дощок, металевих листів і прутів у Project Zomboid; барикади дверей і вікон та укріплення стін і люків у Rainbow Six Siege.
 
 ### Виключає
 
-Будівництво окремої стіни; закривання завіси; руйнування дверей чи вікна в бою.
+Будівництво окремої стіни; закривання звичайної завіси; пошкодження отвору в бою.
 
 ### Ігри-носії
 
@@ -5648,7 +5807,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Операційне визначення
 
-Гравець обирає придатне місце для сну й тимчасово втрачає безпосереднє керування. Поки вцілілий відпочиває, його втома зменшується, а час у світі продовжує минати до пробудження або переривання сну.
+Гравець користується придатним місцем відпочинку й відмовляється від звичайного безпосереднього керування. До пробудження або дозволеного переривання стан втоми персонажа оновлюється, а час у світі продовжує минати.
 
 ### Включає
 
@@ -5656,7 +5815,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Виключає
 
-Вибір місця відродження; паузу симуляції; відпочинок без впливу на час або втому.
+Розміщення об’єкта відродження; паузу симуляції; суто візуальний відпочинок без впливу на час або втому.
 
 ### Ігри-носії
 
@@ -5667,24 +5826,25 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ## ACT-215
 
-- Назва: Підготувати обмежений комплект спорядження
-- Переглянуто: `2026-08-24`
+- Назва: Підготувати один сумісний бойовий комплект спорядження в заданих межах
+- Переглянуто: `2026-10-03`
 
 ### Операційне визначення
 
-Перед вилазкою або бойовим відрізком гравець заповнює обмежену кількість місць зброєю, захистом, пристроями та іншими можливостями, що відповідають вибраній схемі спорядження.
+У допустимому стані підготовки гравець заповнює або змінює обмежені комірки спорядження й можливостей для наступного розгортання під керуванням гравця або відрізка активної гри.
 
 ### Включає
 
-Комплекти для рейду в ARC Raiders; прив’язані до класу комплекти перед висадженням у Battlefield 6; спорядження Crest і Tools біля Bench у Hollow Knight: Silksong.
+Комплекти рейду ARC Raiders; прив’язані до класу комплекти висадження Battlefield 6; спорядження герба й інструментів біля лави Hollow Knight: Silksong; вибір зброї, захисту, підсилювача й чотирьох стратагем перед висадженням Helldivers 2; підготовка зброї та допоміжного пристрою оперативника Rainbow Six Siege.
 
 ### Виключає
 
-Суто косметичні зміни; здобич, знайдену вже після висадження; зміну лише активного предмета швидкого доступу; вибір самого керованого героя.
+Суто косметичні зміни; збирання здобичі після розгортання; перемикання лише активної комірки спорядження; вибір самого керованого героя.
 
 ### Ігри-носії
 
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
+- [`GAME-0506` — Avowed](../games/a-f/avowed.md)
 - [`GAME-0234` — Battlefield 2042](../games/a-f/battlefield-2042.md)
 - [`GAME-0149` — Battlefield 6](../games/a-f/battlefield-6.md)
 - [`GAME-0220` — Battlefield V](../games/a-f/battlefield-v.md)
@@ -5694,17 +5854,20 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
+- [`GAME-0508` — Ready or Not](../games/m-r/ready-or-not.md)
+- [`GAME-0487` — Sid Meier's Pirates!](../games/s-z/sid-meiers-pirates.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
+- [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
 
 ## ACT-216
 
-- Назва: Обшукати досяжний контейнер або знищену машину
-- Переглянуто: `2026-08-24`
+- Назва: Обшукати досяжний контейнер або знешкоджену машину
+- Переглянуто: `2026-10-02`
 
 ### Операційне визначення
 
-Гравець починає обшук поблизу одного контейнера, уламка чи знищеної машини й доводить взаємодію до кінця, щоб відкрити вміст для подальшого підбирання.
+Гравець починає обшук поблизу одного контейнера, уламка чи знешкодженої машини; завершення взаємодії відкриває вміст, який можна забрати й перенести далі.
 
 ### Включає
 
@@ -5718,6 +5881,8 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 - [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
+- [`GAME-0484` — Impossible Mission](../games/g-l/impossible-mission.md)
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 
 ## ACT-217
@@ -5727,7 +5892,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Операційне визначення
 
-Під час рейду гравець переносить відповідний предмет між наплічником і обмеженою захищеною кишенею, вміст якої не втрачається за звичайним правилом поразки.
+Під час активного рейду гравець переносить допустимий предмет при собі між звичайним сховищем наплічника й обмеженою захищеною кишенею, для вмісту якої діє інше правило збереження після поразки.
 
 ### Включає
 
@@ -5743,16 +5908,16 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ## ACT-218
 
-- Назва: Активувати точку евакуації та встигнути до виходу
+- Назва: Активувати точку евакуації під час гри й увійти до зони відправлення
 - Переглянуто: `2026-08-24`
 
 ### Операційне визначення
 
-Гравець дістається доступного засобу евакуації, викликає або розблоковує його та входить до зони відправлення до того, як точка закриється.
+Гравець дістається доступного засобу евакуації, починає взаємодію виклику чи розблокування, якщо це потрібно, та входить до обмеженої зони відправлення до закриття точки евакуації.
 
 ### Включає
 
-Евакуаційні ліфти, виходи метро й Raider Hatches у ARC Raiders.
+Евакуаційні ліфти, виходи метро й Raider Hatches у ARC Raiders; виклик евакуації через термінал у Helldivers 2 і вхід до Pelican після його приземлення.
 
 ### Виключає
 
@@ -5786,24 +5951,27 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 ### Ігри-носії
 
 - [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
+- [`GAME-0511` — Animal Crossing: New Leaf](../games/a-f/animal-crossing-new-leaf.md)
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0269` — DREDGE](../games/a-f/dredge.md)
+- [`GAME-0491` — Elite](../games/a-f/elite.md)
 - [`GAME-0444` — "Harvest Moon: Back to Nature"](../games/g-l/harvest-moon-back-to-nature.md)
 - [`GAME-0319` — Sea of Thieves](../games/s-z/sea-of-thieves.md)
 - [`GAME-0307` — Slime Rancher](../games/s-z/slime-rancher.md)
+- [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
 
 ## ACT-221
 
-- Назва: Полагодити або вдосконалити власну зброю
+- Назва: Полагодити або вдосконалити одну збережену одиницю зброї
 - Переглянуто: `2026-08-24`
 
 ### Операційне визначення
 
-У безпечному місці гравець обирає власну зброю й витрачає вказані матеріали, щоб відновити її міцність або підвищити рівень удосконалення.
+У безпечному осередку гравець вибирає одну збережену одиницю зброї й витрачає визначені сумісні ресурси, щоб відновити її міцність або підвищити її поточний ступінь удосконалення.
 
 ### Включає
 
-Ремонт і вдосконалення зброї в майстерні Workshop ARC Raiders; поліпшення зброї за відкритим шляхом у кузні Monster Hunter Wilds; поліпшення зброї за Smithing Stones і руни в Elden Ring.
+Ремонт зброї та вдосконалення з ремонтом у майстерні Workshop ARC Raiders; поліпшення зброї за доступним рецептом у кузні Monster Hunter Wilds; поліпшення зброї в Elden Ring.
 
 ### Виключає
 
@@ -5818,20 +5986,20 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ## ACT-222
 
-- Назва: Вчасно натиснути під час власної бойової дії
+- Назва: Вчасно виконати підказане введення під час вибраної бойової дії
 - Переглянуто: `2026-08-24`
 
 ### Операційне визначення
 
-Після вибору атаки, Skill, лікування чи підсилення гравець натискає показану команду в потрібну мить анімації, щоб посилити, продовжити або інакше змінити цю дію.
+Після вибору покрокової атаки, здібності, лікування або підсилення гравець натискає показану команду чи виконує показану послідовність натискань у реальному часі під час анімації, щоб змінити заявлений ефект дії.
 
 ### Включає
 
-Натискання під час атак і Skills у Clair Obscur: Expedition 33.
+Вчасне введення за підказками під час атакувальних і підтримувальних дій у Clair Obscur: Expedition 33.
 
 ### Виключає
 
-Вибір команди чи цілі; реакцію на атаку ворога; випадковий критичний удар.
+Вибір команди чи цілі; реакцію на атаку ворога; пасивну ймовірність критичного влучання.
 
 ### Ігри-носії
 
@@ -5841,7 +6009,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 ## ACT-223
 
 - Назва: Обрати вчасне ухилення, парирування або стрибок
-- Переглянуто: `2026-09-07`
+- Переглянуто: `2026-10-04`
 
 ### Операційне визначення
 
@@ -5853,14 +6021,16 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Виключає
 
-Вибір команди ходу; пасивне ухилення; постійний захист броні.
+Вибір покрокової команди; пасивну ймовірність ухилення; блокування постійним показником броні.
 
 ### Ігри-носії
 
 - [`GAME-0427` — Alan Wake](../games/a-f/alan-wake.md)
+- [`GAME-0506` — Avowed](../games/a-f/avowed.md)
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
 - [`GAME-0277` — Cuphead](../games/a-f/cuphead.md)
+- [`GAME-0494` — Dead or Alive 2](../games/a-f/dead-or-alive-2.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
@@ -5875,6 +6045,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
+- [`GAME-0496` — "Warhammer 40,000: Space Marine 2"](../games/s-z/warhammer-40000-space-marine-2.md)
 
 ## ACT-224
 
@@ -5883,15 +6054,15 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Операційне визначення
 
-Гравець свідомо відпочиває біля відкритої контрольної точки, щоб відновитися та прийняти пов’язані з відпочинком зміни стану світу.
+Гравець свідомо відпочиває біля активованої контрольної точки кампанії, щоб прийняти пов’язані з цим відновлення та скидання стану світу.
 
 ### Включає
 
-Відпочинок біля Expedition Flags у Clair Obscur: Expedition 33, біля Benches у Hollow Knight: Silksong і Hollow Knight, біля Sites of Grace в Elden Ring і біля Keeper's Shrines у Black Myth: Wukong.
+Відпочинок біля Expedition Flags у Clair Obscur: Expedition 33; біля активованих Benches у Hollow Knight: Silksong і Hollow Knight; біля активованого Keeper’s Shrine у Black Myth: Wukong; біля Sites of Grace в Elden Ring.
 
 ### Виключає
 
-Лише активацію контрольної точки; бойове лікування; сон у безперервній симуляції відкритого світу.
+Дотик до контрольної точки без відпочинку; використання предмета бойового лікування; сон у безперервній симуляції відкритого світу.
 
 ### Ігри-носії
 
@@ -5910,7 +6081,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ## ACT-225
 
-- Назва: Розподілити Pictos і Luminas між персонажами
+- Назва: Налаштувати споряджені Pictos й активні Luminas
 - Переглянуто: `2026-08-24`
 
 ### Операційне визначення
@@ -5923,7 +6094,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Виключає
 
-Спорядження зброєю; витрачання Skill Point; чотири перемоги, після яких властивість Picto стає вивченою Lumina.
+Спорядження зброєю; витрачання очка навички; автоматичне опанування Picto, після якого його пасивна властивість стає доступною як Lumina.
 
 ### Ігри-носії
 
@@ -5936,7 +6107,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Операційне визначення
 
-Гравець притискає керованого героя до досяжної захисної поверхні, рухається вздовж неї, визирає з краю та свідомо залишає укриття під час бою.
+Гравець притискає керованого героя до досяжної захисної поверхні, рухається вздовж її доступного краю або огинає його й свідомо виходить зі стану укриття, поки триває безпосередній бій.
 
 ### Включає
 
@@ -5958,24 +6129,23 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 ## ACT-227
 
 - Назва: Поставити власну позначку на мапі
-- Переглянуто: `2026-08-24`
+- Переглянуто: `2026-10-14`
 
 ### Операційне визначення
 
-Гравець обирає відоме місце на мапі як власний орієнтир, а навігація показує позначку або прокладає до неї маршрут без автоматичного пересування героя.
+Гравець обирає одну досяжну позицію на мапі або відому позначку як власний пункт призначення, щоб навігаційний інтерфейс міг розрахувати й показати дорожній маршрут без автоматичного переміщення персонажа.
 
 ### Включає
 
-Власні позначки й дорожні маршрути в Story Mode Grand Theft Auto V та Cyberpunk 2077; позначки й маяки, видимі на мапі або компасі Elden Ring.
+Власні точки на мапі й розраховані дорожні маршрути в Story Mode Grand Theft Auto V та Cyberpunk 2077.
 
 ### Виключає
 
-Наказ рухатися автоматично; позначки завдань, які встановлює сама гра; проєктування транспортної мережі.
+Безпосередню команду автономного пересування; задані позначки завдань, які система встановлює без вибору гравця; малювання транспортної мережі.
 
 ### Ігри-носії
 
 - [`GAME-0289` — American Truck Simulator](../games/a-f/american-truck-simulator.md)
-- [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
@@ -5996,7 +6166,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Виключає
 
-Зміну зовнішності аватара; наказ союзникові під керуванням гри; вибір персонажа в покроковій групі.
+Зміну зовнішності аватара; наказ союзникові під керуванням гри; вибір команди персонажа покрокової групи.
 
 ### Ігри-носії
 
@@ -6006,7 +6176,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 ## ACT-229
 
 - Назва: Увімкнути особливу здібність керованого героя
-- Переглянуто: `2026-08-24`
+- Переглянуто: `2026-10-05`
 
 ### Операційне визначення
 
@@ -6014,7 +6184,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Включає
 
-Стрілецьку концентрацію Michael, водійську концентрацію Franklin і лють Trevor у Story Mode Grand Theft Auto V; Red Tides у Black Myth: Wukong.
+Стрілецьку концентрацію Michael, водійську концентрацію Franklin і лють Trevor у Story Mode Grand Theft Auto V; набуте перетворення Red Tides у Black Myth: Wukong.
 
 ### Виключає
 
@@ -6024,6 +6194,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
 - [`GAME-0222` — "Call of Juarez: Gunslinger"](../games/a-f/call-of-juarez-gunslinger.md)
+- [`GAME-0501` — F.E.A.R.](../games/a-f/fear.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
@@ -6031,12 +6202,12 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ## ACT-230
 
-- Назва: Вибрати підхід і команду для пограбування
+- Назва: Вибрати підхід і команду фахівців для пограбування
 - Переглянуто: `2026-08-24`
 
 ### Операційне визначення
 
-На дошці планування гравець обирає один підхід до пограбування та призначає відкритих фахівців на всі потрібні ролі до початку підготовки або виконання.
+На заданій авторами дошці планування гравець вибирає один доступний підхід до операції та призначає придатних фахівців на кожну потрібну роль команди до початку підготовки або виконання.
 
 ### Включає
 
@@ -6074,11 +6245,11 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 ## ACT-232
 
 - Назва: Обрати одну репліку або рішення в завданні
-- Переглянуто: `2026-08-24`
+- Переглянуто: `2026-10-05`
 
 ### Операційне визначення
 
-Під час розмови чи важливого рішення гравець підтверджує один із доступних варіантів, наслідок якого може змінити відомості, стосунки, поточне завдання або пізнішу сюжетну гілку.
+Під час написаної для гри розмови або рішення в завданні гравець обирає одну з поточних запропонованих відповідей, описаний або прихований наслідок якої може змінити відомості, стосунки, стан місії чи пізнішу гілку.
 
 ### Включає
 
@@ -6090,6 +6261,8 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Ігри-носії
 
+- [`GAME-0478` — 80 Days](../games/0-9/80-days.md)
+- [`GAME-0506` — Avowed](../games/a-f/avowed.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
@@ -6111,15 +6284,16 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 - [`GAME-0362` — "The Elder Scrolls III: Morrowind"](../games/s-z/the-elder-scrolls-iii-morrowind.md)
 - [`GAME-0343` — The Secret of Monkey Island](../games/s-z/the-secret-of-monkey-island.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
+- [`GAME-0498` — Transport Fever 2](../games/s-z/transport-fever-2.md)
 
 ## ACT-233
 
-- Назва: Просканувати ціль і запустити один скрипт
+- Назва: Просканувати ціль у світі й завантажити один скрипт швидкого зламу
 - Переглянуто: `2026-08-24`
 
 ### Операційне визначення
 
-Гравець утримує сканер на підтримуваній людині, пристрої чи транспорті, обирає доступний скрипт і запускає його через установлену кібердеку.
+Гравець утримує фокус сканера на допустимій людині, пристрої чи транспортному засобі, вибирає один доступний скрипт швидкого зламу й запускає його завантаження з установленої кібердеки; завантаження триває певний час.
 
 ### Включає
 
@@ -6135,12 +6309,12 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ## ACT-234
 
-- Назва: Установити, замінити або поліпшити кіберімплант
-- Переглянуто: `2026-08-24`
+- Назва: Налаштувати встановлені кіберімпланти у спеціаліста
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-В інтерфейсі ріпера гравець купує, установлює, знімає, замінює чи поліпшує імплант у відповідній комірці тіла, не перевищуючи доступну місткість.
+У доступному інтерфейсі спеціаліста гравець купує, установлює, знімає, замінює чи поліпшує один імплант у сумісній комірці тіла, зберігаючи комплект, що відповідає правилам місткості та явно відкритим виняткам.
 
 ### Включає
 
@@ -6165,11 +6339,11 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Включає
 
-Приховані захоплення й нейтралізації в Cyberpunk 2077; смертельні удари по ворогу, який не помітив гравця, у Sekiro.
+Приховані захоплення й нейтралізації в Cyberpunk 2077; смертельні удари з допустимих позицій, у яких гравця не помічено, у Sekiro.
 
 ### Виключає
 
-Удари ближнього бою проти настороженого ворога; затримання, яке відбувається лише в розмові; віддалений запуск скрипту.
+Удари ближнього бою проти настороженого ворога; затримання, яке відбувається лише в розмові; віддалене завантаження скрипту швидкого зламу.
 
 ### Ігри-носії
 
@@ -6215,11 +6389,11 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Операційне визначення
 
-Перед виходом із кімнати появи гравець обирає одного вільного героя й один із запропонованих варіантів Team-Up. Обраний герой переходить під пряме керування та отримує основний ефект цього варіанта.
+Перед виходом з активної кімнати появи команди гравець вибирає одного наразі доступного героя й один запропонований партнерський набір Team-Up, передаючи цьому героєві пряме керування та відповідну конфігурацію базових здібностей.
 
 ### Включає
 
-Початковий вибір героя у Quick Match Marvel Rivals, зміну героя під час матчу через кімнату появи та вибір одного з двох варіантів Team-Up у Season 9.
+Вибір героя в Quick Match Marvel Rivals, допустимі зміни героя під час матчу в кімнаті появи та вибір партнера Team-Up у Season 9.
 
 ### Виключає
 
@@ -6236,7 +6410,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Операційне визначення
 
-Перед початком кампанії гравець обирає расу або підрасу, клас, передісторію, характеристики та володіння навичками. Підтверджений набір визначає початкові можливості нового персонажа.
+Перед початком заданої авторами кампанії, стан якої зберігається, гравець підтверджує один сумісний набір раси або підраси, класу, передісторії, розподілу характеристик і володінь. Цей набір визначає початкові можливості нового персонажа.
 
 ### Включає
 
@@ -6263,7 +6437,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Включає
 
-Висадження в Conquest Battlefield 6 зі штабу, утримуваної точки, біля бійця загону поза боєм чи Deploy Beacon або у вільне місце техніки.
+Висадження у штабі, на утримуваній точці, біля придатного для висадження бійця загону поза боєм чи Deploy Beacon або в сумісне вільне місце техніки в Conquest Battlefield 6.
 
 ### Виключає
 
@@ -6278,20 +6452,20 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ## ACT-241
 
-- Назва: Оживити або перемістити пораненого союзника
+- Назва: Оживити або перемістити одного збитого з ніг союзника, коли це дозволено
 - Переглянуто: `2026-08-27`
 
 ### Операційне визначення
 
-Гравець взаємодіє з досяжним пораненим союзником, за наявності такого правила може перемістити його й завершує оживлення або застосовує миттєвий засіб до завершення відведеного часу.
+Гравець взаємодіє з одним досяжним союзником, збитим із ніг, за наявності відповідного правила може перемістити його тіло та починає й підтримує потрібний процес оживлення або застосовує миттєвий засіб, поки ще є можливість оживлення.
 
 ### Включає
 
-Оживлення бійця свого загону будь-яким класом, командне оживлення класом Support, перетягування в укриття й завершене застосування Defibrillator у Battlefield 6; оживлення збитого з ніг союзника в Apex Legends.
+Оживлення бійця свого загону будь-яким класом, командне оживлення класом Support, перетягування в укриття й завершене застосування Defibrillator у Battlefield 6; оживлення збитого з ніг союзника в Apex Legends; оживлення союзника з допустимого пораненого стану в Rainbow Six Siege.
 
 ### Виключає
 
-Самолікування; повернення після смерті; перенесення предмета цілі; воскресіння персонажа після смерті в кампанії.
+Самолікування; звичайне повторне розгортання після смерті; перенесення предмета цілі; воскресіння персонажа після смерті в кампанії.
 
 ### Ігри-носії
 
@@ -6313,7 +6487,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Операційне визначення
 
-Гравець викликає Seikret, сідає верхи або спішується та може вибрати поточну відстежувану ціль для автоматичної подорожі, не втрачаючи можливості керувати рухом вручну.
+Гравець викликає постійного їздового супутника на місцевості, сідає на нього або спішується й може задати одну поточну відстежувану ціль для його самостійного руху до неї, зберігаючи можливість керувати рухом вручну.
 
 ### Включає
 
@@ -6321,7 +6495,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Виключає
 
-Безпосереднє пересування мисливця пішки; швидке переміщення без проходження шляху; супутника, на якому не можна їхати.
+Безпосереднє пересування мисливця; неінтерактивний перехід швидкого переміщення; супутника, який діє самостійно, але на якому не можна їхати.
 
 ### Ігри-носії
 
@@ -6334,11 +6508,11 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Операційне визначення
 
-Під час їзди гравець бере із Seikret одну призначену запасну зброю, а поточну активну зброю залишає замість неї.
+Перебуваючи верхи на відповідному їздовому супутнику, гравець міняє місцями поточну активну зброю та рівно одну запасну зброю, призначену цьому супутнику.
 
 ### Включає
 
-Обмін двох вибраних для поля видів зброї на Seikret у Monster Hunter Wilds.
+Зміну зброї на Seikret у Monster Hunter Wilds.
 
 ### Виключає
 
@@ -6351,11 +6525,11 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 ## ACT-245
 
 - Назва: Зібрати або вирізати одну досяжну порцію матеріалу
-- Переглянуто: `2026-08-24`
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-Гравець взаємодіє з досяжним польовим джерелом або тушею переможеного монстра, щоб перенести до інвентарю одну з порцій матеріалу, які там іще лишилися.
+Гравець взаємодіє з одним досяжним польовим джерелом або тілом переможеної цілі, що відповідає умовам, щоб перенести одну обмежену порцію матеріалу до переносного інвентарю.
 
 ### Включає
 
@@ -6387,7 +6561,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 
 ### Операційне визначення
 
-У Focus Mode гравець наводить властивий поточній зброї Focus Strike на підсвічену відкриту рану або відповідну ламку частину тіла й виконує удар.
+У Focus Mode гравець спрямовує поточну зброю на один підсвічений сумісний стан тіла й виконує властивий цій зброї Focus Strike.
 
 ### Включає
 
@@ -6395,7 +6569,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Виключає
 
-Звичайні повторювані атаки; саме підсвічування ран; Focus Strike, який не дістає до цілі.
+Звичайні повторювані атаки; саме підсвічування ран; Focus Strike без допустимого стану тіла в межах досяжності.
 
 ### Ігри-носії
 
@@ -6431,11 +6605,11 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Операційне визначення
 
-Біля відповідного Site of Grace гравець вибирає один атрибут персонажа й витрачає показану кількість рун, щоб підвищити його на одиницю.
+Біля допустимої контрольної точки гравець вибирає один атрибут персонажа й витрачає показану кількість рун, щоб підвищити його на один рівень.
 
 ### Включає
 
-Підвищення Vigor, Mind або іншого атрибута після угоди з Melina в Elden Ring.
+Підвищення Vigor, Mind або іншого атрибута біля Grace в Elden Ring.
 
 ### Виключає
 
@@ -6447,20 +6621,20 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ## ACT-249
 
-- Назва: Повернути валюту з місця попередньої смерті
+- Назва: Повернути валюту з активної позначки смерті
 - Переглянуто: `2026-09-05`
 
 ### Операційне визначення
 
-Гравець дістається єдиного поточного місця загибелі й торкається світного сліду, щоб знову додати залишений там запас витратної валюти до запасу персонажа.
+Гравець дістається поточної активної позначки смерті й торкається її, щоб повернути збережений у ній запас валюти, яку можна витрачати, живому персонажеві.
 
 ### Включає
 
-Повернення втрачених рун в Elden Ring до наступної смерті персонажа; дотик до кривавої плями в дослідженому маршруті DARK SOULS III, щоб забрати залишені там душі.
+Повернення рун в Elden Ring до того, як наступна смерть замінить цю позначку; дотик до кривавої плями в дослідженому маршруті DARK SOULS III, щоб забрати залишені там душі.
 
 ### Виключає
 
-Звичайне підбирання здобичі; пошук інвентарю тіла; повернення Rosaries із Cocoon.
+Звичайне підбирання здобичі; інвентар трупа; повернення Rosaries із Cocoon.
 
 ### Ігри-носії
 
@@ -6473,16 +6647,16 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ## ACT-250
 
-- Назва: Викликати духів із вибраного Spirit Ash
-- Переглянуто: `2026-08-24`
+- Назва: Викликати одну групу духів зі спорядженого Spirit Ash
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-У зоні зі знаком виклику гравець витрачає потрібну кількість FP і закликає одного духа або групу духів із вибраного Spirit Ash.
+У зоні з відповідним пам’ятником гравець витрачає передбачений ресурс, щоб викликати одну споряджену автономну групу духів.
 
 ### Включає
 
-Виклик Spirit Jellyfish та інших ранніх Spirit Ash у дозволених польових зонах і боях із босами Elden Ring.
+Раннє використання Spirit Ash у допустимих польових зонах і зонах босів Elden Ring.
 
 ### Виключає
 
@@ -6499,11 +6673,11 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Операційне визначення
 
-У відповідному меню гравець вибирає здобутий Ash of War, сумісну зброю та одну доступну для неї властивість.
+У допустимому меню гравець вибирає сумісний здобутий Ash of War і одну доступну властивість для наявної зброї.
 
 ### Включає
 
-Призначення Storm Stomp і властивості Standard за допомогою Whetstone Knife на початку Elden Ring.
+Раннє налаштування зброї за допомогою Whetstone Knife в Elden Ring.
 
 ### Виключає
 
@@ -6524,7 +6698,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Включає
 
-Повернення через контейнер смерті або ланцюг із Legend Banner, Replicator і Respawn Beacon в Apex Legends.
+Повернення через контейнер смерті в Apex Legends або активація допустимого Respawn Beacon із Legend Banner, який гравець переносить або виготовив у Replicator; у Helldivers 2 — набір команди Reinforce та кидок її маяка учасником загону, що вижив, для повернення загиблого союзника.
 
 ### Виключає
 
@@ -6542,7 +6716,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Операційне визначення
 
-Перед початком маршруту акту гравець вибирає рівно один предмет з обмеженої пропозиції поточного Ancient і закріплює його тривалий ефект за забігом.
+Перед початком маршруту акту гравець вибирає рівно один предмет з обмеженої пропозиції поточного Ancient і закріплює його ефект, що зберігається в межах забігу, перш ніж просування може продовжитися.
 
 ### Включає
 
@@ -6567,7 +6741,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Включає
 
-Тематичне слово, spangram або допустиме нетематичне слово в Strands, проведене через сусідні по горизонталі, вертикалі чи діагоналі клітинки.
+Прокладання й надсилання в Strands тематичного слова, spangram або допустимого нетематичного слова через сусідні по горизонталі, вертикалі чи діагоналі клітинки.
 
 ### Виключає
 
@@ -6579,7 +6753,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ## ACT-256
 
-- Назва: Виконати свою половину парної взаємодії
+- Назва: Виконати свою половину парної кооперативної взаємодії
 - Переглянуто: `2026-08-27`
 
 ### Операційне визначення
@@ -6605,7 +6779,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Операційне визначення
 
-Гравець вибирає активного постійного мешканця, указує допустимого іншого мешканця, об’єкт або ділянку та наказує виконати одну запропоновану соціальну, побутову чи світову взаємодію.
+Гравець вибирає активного постійного мешканця, вказує на допустимого мешканця, об’єкт або ділянку землі й підтверджує одну запропоновану соціальну взаємодію, дію догляду за собою або взаємодію зі світом для автономного виконання.
 
 ### Включає
 
@@ -6619,6 +6793,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 - [`GAME-0383` — The Sims 2: Legacy Collection](../games/s-z/the-sims-2-legacy-collection.md)
 - [`GAME-0158` — The Sims 4](../games/s-z/the-sims-4.md)
+- [`GAME-0461` — The Sims](../games/s-z/the-sims.md)
 
 ## ACT-258
 
@@ -6627,7 +6802,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Операційне визначення
 
-Під час бою гравець вибирає іншого допустимого живого члена команди, який замінює єдиного поточного керованого компаньйона, тоді як обидва зберігають власні здоров’я, стан, рівень і прийоми.
+Під час бою гравець вибирає іншого допустимого живого члена команди, який замінює єдиного поточного керованого компаньйона, тоді як обидва зберігають власні здоров’я, стан, рівень і вивчені прийоми.
 
 ### Включає
 
@@ -6635,29 +6810,30 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Виключає
 
-Перенесення між сховищем Boxes і командою; відкликання без заміни; зміну прямого керування людьми.
+Перенесення компаньйона між сховищем Boxes і командою; відкликання без заміни; перемикання прямого керування між людськими головними героями.
 
 ### Ігри-носії
 
+- [`GAME-0463` — "Pokémon Gold Version"](../games/m-r/pokemon-gold-version.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
 - [`GAME-0336` — "Pokémon Red Version"](../games/m-r/pokemon-red-version.md)
 
 ## ACT-259
 
-- Назва: Вибрати одного постійного стартового компаньйона
+- Назва: Обрати одного постійного стартового супутника
 - Переглянуто: `2026-08-27`
 
 ### Операційне визначення
 
-На початку кампанії гравець приймає рівно одного учасника обмеженої пропозиції, і його особа та початковий набір стають постійною власністю команди.
+На початку кампанії гравець приймає рівно одного супутника з обмеженого набору запропонованих. Обраний супутник із власним початковим набором можливостей стає постійним членом команди й належить гравцеві.
 
 ### Включає
 
-Вибір Chikorita, Tepig або Totodile у Pokémon Legends: Z-A.
+Вибір Chikorita, Tepig або Totodile як першого партнера в Pokémon Legends: Z-A; вибір Bulbasaur, Charmander або Squirtle у Pokémon Red Version.
 
 ### Виключає
 
-Героя лише на матч; косметику; пізніше захоплення у світі.
+Вибір героя лише на матч; вибір косметичного оформлення; захоплення істоти у світі пізніше впродовж гри.
 
 ### Ігри-носії
 
@@ -6675,11 +6851,11 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Включає
 
-Ремонт генератора, лікування чи піднімання союзника, зняття з гака та роботу із заживленим перемикачем воріт у Dead by Daylight.
+Ремонт генератора, лікування іншого вцілілого, виведення іншого вцілілого зі стану Dying, зняття союзника з гака та робота з перемикачем заживлених воріт виходу в дослідженому Trial з порожнім комплектом спорядження в Dead by Daylight.
 
 ### Виключає
 
-Пересування; миттєве опускання палети; піднімання вцілілого вбивцею; автономно доручену роботу.
+Пересування пішки або перелізання; одне миттєве натискання перемикача; взаємодії вбивці з підніманням, перенесенням чи пошкодженням; наказ автономному працівникові.
 
 ### Ігри-носії
 
@@ -6693,15 +6869,15 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Операційне визначення
 
-Під час тривалої взаємодії гравець один раз натискає, коли рухомий покажчик перетинає показаний проміжок успіху, й отримує один із градуйованих результатів, не обираючи нової цілі.
+Під час допустимої взаємодії зі світом, яка вже триває, гравець подає одну відповідь, коли рухомий покажчик перекриває показаний проміжок успіху, й отримує градуйований результат вчасності, не вибираючи нової цілі.
 
 ### Включає
 
-Добру, відмінну й невдалу перевірку навички під час ремонту або лікування в Dead by Daylight; підсічку в мить, коли рухома позначка перетинає показаний проміжок, у визначеному першому дні DREDGE.
+Добрі, відмінні й невдалі відповіді на перевірку навички під час ремонту генератора або лікування іншого вцілілого в Dead by Daylight; підсічка в мить, коли рухома позначка перетинає показаний проміжок, у визначеному першому дні DREDGE.
 
 ### Виключає
 
-Парирування атаки всередині обраної бойової дії; повну ритмічну послідовність, ноти якої і є метою; пасивну випадкову перевірку без введення гравця.
+Захисну дію з часовою вимогою в межах вибраної бойової дії; ритмічні послідовності, ноти яких становлять повну мету; пасивне випадкове визначення результату без введення гравця.
 
 ### Ігри-носії
 
@@ -6715,15 +6891,15 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Операційне визначення
 
-Керований утікач переводить досяжну підняту палету в опущений стан, створюючи сталу місцеву перешкоду та коротке вікно можливого удару по переслідувачу.
+Безпосередньо керований утікач переводить одну досяжну підняту палету в опущений стан, створюючи сталу місцеву перешкоду та проміжок можливого удару, а не лише перелазячи через наявну геометрію.
 
 ### Включає
 
-Опускання палети вцілілим з оглушенням убивці або без нього в Dead by Daylight.
+Опускання піднятої палети вцілілим під час переслідування в Dead by Daylight, з оглушенням убивці або без нього.
 
 ### Виключає
 
-Перестрибування; руйнування палети вбивцею; установлення перенесеної будівельної деталі.
+Перестрибування опущеної палети; її руйнування вбивцею; розміщення переносної будівельної деталі; зміна стану багаторазового перемикача дверей.
 
 ### Ігри-носії
 
@@ -6731,12 +6907,12 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ## ACT-263
 
-- Назва: Вигравіювати вибране вміння або підтримку з необробленого каменю
+- Назва: Вигравіювати вибране вміння або підтримку з одного необробленого каменю
 - Переглянуто: `2026-08-27`
 
 ### Операційне визначення
 
-Гравець витрачає один необроблений камінь, вибирає одне з допустимих запропонованих умінь або одну підтримку й отримує відповідний камінь.
+Гравець обирає одне допустиме запропоноване активне вміння або одну підтримку для одного необробленого каменю, який має при собі; необроблений камінь витрачається, а натомість створюється вибраний придатний до використання камінь.
 
 ### Включає
 
@@ -6744,7 +6920,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Виключає
 
-Вставлення готового каменю підтримки; автоматичне вивчення під час підвищення рівня.
+Вставлення вже створеного каменю підтримки; випадкове розпізнавання предмета; автоматичне вивчення вміння під час підвищення рівня.
 
 ### Ігри-носії
 
@@ -6752,20 +6928,20 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ## ACT-264
 
-- Назва: Вставити або вийняти сумісний камінь підтримки
+- Назва: Вставити сумісний камінь підтримки в активне вміння або вийняти його
 - Переглянуто: `2026-08-27`
 
 ### Операційне визначення
 
-Гравець переносить камінь підтримки у вільне допустиме гніздо вибраного активного вміння або виймає його, змінюючи складену поведінку вміння.
+Гравець переносить один камінь підтримки, який має при собі, у вільне допустиме гніздо одного вибраного активного вміння або виймає його. Це змінює складену поведінку вміння, зберігаючи ідентичність обох каменів.
 
 ### Включає
 
-Керування гніздами підтримки у Path of Exile 2.
+Керування гніздами каменів підтримки на панелі вмінь у Path of Exile 2.
 
 ### Виключає
 
-Гравіювання каменю; заміна спорядження; вибір пасивного вузла.
+Гравіювання каменю підтримки; екіпірування броні; постійне поліпшення вузла вміння.
 
 ### Ігри-носії
 
@@ -6773,20 +6949,20 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ## ACT-265
 
-- Назва: Застосувати валютний предмет до допустимої речі
+- Назва: Застосувати один валютний предмет для виготовлення до допустимої речі
 - Переглянуто: `2026-08-27`
 
 ### Операційне визначення
 
-Гравець вибирає валютний предмет і цільову річ, витрачаючи валюту на заявлену зміну рідкості, властивості або гнізда.
+Гравець вибирає один предмет валюти для виготовлення, який має при собі, й застосовує його до одного допустимого цільового предмета, витрачаючи цю валюту для запиту визначеної зміни рідкості, афікса або гнізда.
 
 ### Включає
 
-Звичайне ремесло валютними предметами у Path of Exile 2.
+Одна звичайна операція виготовлення за допомогою валютного предмета у Path of Exile 2.
 
 ### Виключає
 
-Купівля у торговця; споряджання; зовнішній обчислювач.
+Купівлю у торговця; заміну спорядження; багатоетапний зовнішній калькулятор виготовлення.
 
 ### Ігри-носії
 
@@ -6799,15 +6975,15 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Операційне визначення
 
-Гравець активує споряджений флакон здоров’я або мани, негайно витрачає заряди й запускає відновлення, не втрачаючи сам предмет.
+Під час допустимого безпосереднього керування гравець активує споряджений флакон здоров’я або мани, негайно витрачаючи визначену кількість його зарядів і запускаючи ефект відновлення без витрачання самого флакона.
 
 ### Включає
 
-Флакони здоров’я й мани в кампанії Path of Exile 2.
+Використання флаконів здоров’я й мани під час бою в кампанії Path of Exile 2.
 
 ### Виключає
 
-Перериване споживання їжі; пасивне відновлення; одноразове зілля.
+Перериване споживання їжі, яку гравець має при собі; пасивне відновлення; одноразове зілля, яке вилучається з інвентарю.
 
 ### Ігри-носії
 
@@ -6820,15 +6996,15 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Операційне визначення
 
-Керуючи власником м’яча, гравець задає напрям, силу й тип передачі, а система визначає адресата та траєкторію.
+Безпосередньо керуючи поточним гравцем із м’ячем, гравець задає передачу низом, верхом або навісну подачу. Її наміченого адресата та траєкторію визначають за керувальними даними про напрям, силу й контекст.
 
 ### Включає
 
-Низові, розрізні й навісні передачі та подачі у EA SPORTS FC 26.
+Короткі й сильні низові передачі, розрізні передачі, верхові передачі та навісні подачі у футбольному матчі EA SPORTS FC 26.
 
 ### Виключає
 
-Удар по воротах; автономне винесення; призначення місця для пошуку шляху.
+Удар, спрямований насамперед у ворота суперника; винесення м’яча партнером під керуванням ШІ без команди гравця; вибір віддаленого пункту переміщення.
 
 ### Ігри-носії
 
@@ -6841,15 +7017,15 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Операційне визначення
 
-Керуючи допустимим нападником, гравець виконує удар, призначений провести живий м’яч через ворота суперника.
+Керуючи допустимим учасником атаки, гравець виконує удар, покликаний спрямувати м’яч у грі за лінію воріт суперника.
 
 ### Включає
 
-Звичайні, обвідні, перекидні удари й удари головою у EA SPORTS FC 26.
+Звичайні, обвідні, перекидні удари й удари головою у дослідженому матчі EA SPORTS FC 26.
 
 ### Виключає
 
-Передача партнерові; серія післяматчевих пенальті; автономне винесення м’яча.
+Передачу, спрямовану партнерові; вибір під час серії пенальті; автономне винесення м’яча воротарем.
 
 ### Ігри-носії
 
@@ -6862,15 +7038,15 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Операційне визначення
 
-Керований захисник виконує відбір стоячи, поштовх плечем або підкат, щоб відібрати чи перехопити живий м’яч.
+Безпосередньо керуючи допустимим захисником, гравець задає відбір стоячи, плечем або підкат, щоб вибити чи перехопити м’яч суперника, який перебуває в грі, без попереднього переходу до прямого керування цим м’ячем.
 
 ### Включає
 
-Своєчасні відбори у EA SPORTS FC 26.
+Вибір моменту для відбору стоячи або підкату проти поточного гравця з м’ячем у EA SPORTS FC 26.
 
 ### Виключає
 
-Автоматична опіка; простий рух; бій із запасом здоров’я.
+Автоматичну опіку гравця без м’яча; простий біг у вільний простір; ворожий бій, результат якого визначає вичерпання здоров’я.
 
 ### Ігри-носії
 
@@ -6879,22 +7055,23 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 ## ACT-270
 
 - Назва: Установити одну доступну бомбу із запалом
-- Переглянуто: `2026-09-21`
+- Переглянуто: `2026-10-04`
 
 ### Операційне визначення
 
-Коли керований персонаж перебуває в сумісному стані, гравець установлює одну живу місцеву вибухівку зі скінченного перенесеного запасу або зі збереженої багаторазової здібності й запускає її запал.
+Коли керований персонаж перебуває у стані, що дозволяє встановлення, гравець розміщує одну готову до вибуху бомбу в поточному місці зі скінченного запасу при собі або за допомогою збереженої багаторазової здібності й запускає відлік до вибуху.
 
 ### Включає
 
-Установлення звичайної бомби в базовій The Binding of Isaac: Rebirth; установлення багаторазової Bomb у формі Morphing Ball у Super Metroid.
+Установлення звичайної бомби для шкоди ворогам, руйнування каміння або відкриття сумісних стін таємних кімнат у базовій The Binding of Isaac: Rebirth; установлення багаторазової бомби у формі Morphing Ball у Super Metroid.
 
 ### Виключає
 
-Кинута тактична граната; вибуховий снаряд; автоматичний вибух від предмета без витрати перенесеної бомби.
+Кидання тактичної гранати; постріл вибуховим снарядом; автоматичний вибух від предмета без витрати бомби при собі.
 
 ### Ігри-носії
 
+- [`GAME-0490` — Comix Zone](../games/a-f/comix-zone.md)
 - [`GAME-0387` — Super Bomberman](../games/s-z/super-bomberman.md)
 - [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
@@ -6914,7 +7091,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Виключає
 
-Посадку верхи, безпосередню їзду чи спішування (ACT-348); виклик спектрального скакуна з переходом до їзди однією активацією (ACT-247); автоматичний кінний маршрут (ACT-243); повернення звичайного автономного супутника; швидку подорож.
+Посадку верхи, безпосередню їзду чи спішування (ACT-348); виклик спектрального скакуна з переходом до їзди однією активацією (ACT-247); рух верхи за маршрутом до цілі (ACT-243); відкликання звичайного автономного супутника; швидку подорож.
 
 ### Ігри-носії
 
@@ -6928,15 +7105,15 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Операційне визначення
 
-Гравець оглядає власну вогнепальну зброю й витрачає одну одиницю збройової оливи, щоб відновити її поточну справність.
+Гравець оглядає одну власну одиницю вогнепальної зброї й витрачає одну доступну одиницю збройової оливи, щоб відновити її поточну справність перед подальшим використанням.
 
 ### Включає
 
-Польове чищення зброї в розділі 2.
+Польове чищення забрудненої вогнепальної зброї через інтерфейс зброї під час розділу 2 Red Dead Redemption 2.
 
 ### Виключає
 
-Перезаряджання; платну послугу зброяра; ремонт у центральній зоні; косметичну деталь.
+Перезаряджання зброї набоями; купівлю послуги чищення у зброяра; ремонт збереженої зброї на верстаку безпечного осередку; установлення косметичного компонента.
 
 ### Ігри-носії
 
@@ -6949,15 +7126,15 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Операційне визначення
 
-Гравець обирає особисті гроші, коштовність, харчі або тушу й безповоротно передає їх до спільних коштів чи припасів табору.
+Гравець вибирає особисті гроші або цінність, припаси чи тушу при собі, що відповідають умовам пожертви, й передає вибране до спільних коштів або запасів табору банди. Пожертвувана цінність назавжди вилучається з особистого володіння.
 
 ### Включає
 
-Скриньку пожертв у Horseshoe Overlook і придатні пожертви Пірсону.
+Скринька пожертв у Horseshoe Overlook та передавання Пірсону придатного м’яса або туш під час розділу 2.
 
 ### Виключає
 
-Купівлю через журнал; продаж за особисті гроші; немеханічний подарунок.
+Придбання вдосконалення через журнал за спільні кошти; продаж торговцеві з отриманням особистої готівки; суто косметичний подарунок без зміни стану табору.
 
 ### Ігри-носії
 
@@ -6970,15 +7147,15 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Операційне визначення
 
-Зосередившись на живій близькій людині, гравець обирає доступну відповідь: привітатися, вороже звернутися, заспокоїти, погрожувати або здатися.
+Зосередившись на живій людині поблизу, гравець вибирає одну наразі запропоновану контекстну відповідь — наприклад, привітатися, вороже звернутися, заспокоїти, погрожувати або здатися, — після чого стан цієї людини визначає її реакцію.
 
 ### Включає
 
-Цивільних, свідків і правоохоронців у межах сюжетного режиму.
+Вітання або вороже звертання до цивільних, спроба зупинити свідка й здавання правоохоронцям у дослідженому Story Mode Red Dead Redemption 2.
 
 ### Виключає
 
-Фіксовану сюжетну гілку; атаку; пасивний діалог.
+Вибір фіксованої авторської гілки завдання; атаку поточною зброєю; пасивне слухання діалогу без відповіді гравця.
 
 ### Ігри-носії
 
@@ -7071,11 +7248,11 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 ## ACT-279
 
 - Назва: Спрямовувати торговця до допустимого міста
-- Переглянуто: `2026-08-27`
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-Обирати для вільного торговця досяжне місто призначення з показаними надходженнями, після чого запускати маршрут на визначений строк.
+Гравець призначає доступного торговця одній дозволеній парі місць відправлення й призначення та підтверджує для цієї одиниці показаний маршрут і надходження за хід.
 
 ### Включає
 
@@ -7083,7 +7260,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Виключає
 
-Разову дипломатичну торгівлю; ручне прокладання дороги; переміщення військової одиниці.
+Разову дипломатичну угоду про ресурси; ручне керування одиницею по одному гексу за раз; пасивне отримання міського доходу.
 
 ### Ігри-носії
 
@@ -7117,15 +7294,15 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Операційне визначення
 
-Явно завершувати відкритий стратегічний хід держави після будь-якої допустимої підмножини наказів одиницям, героям, поселенням, економіці чи дипломатії, щоб розпочався підсумок і хід наступної держави.
+Гравець завершує поточний відкритий стратегічний хід держави після будь-якої допустимої підмножини доступних наказів одиницям, героям, поселенням, економіці або дипломатії. Це дозволяє розпочати підбиття підсумків і хід наступної держави, а невикористані повноваження щодо необов’язкових дій втрачають чинність для цього ходу.
 
 ### Включає
 
-Завершення ходу в Civilization VI та Homecoming Heroes III.
+Завершення ходу в дослідженій одиночній грі Civilization VI та в кампанії Heroes of Might and Magic III: Complete — сценарії Homecoming.
 
 ### Виключає
 
-Завершення окремої дії; автоматичний такт реального часу; пропуск незакритого обов’язкового вибору.
+Витрачання однієї дії одиниці; призупинення реального часу; подання одного прихованого наказу в системі одночасних наказів.
 
 ### Ігри-носії
 
@@ -7140,15 +7317,15 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Операційне визначення
 
-Поки іконка автоматично рухається вперед, натискати, утримувати або відпускати єдину команду, яка запитує стрибок куба чи зміну висоти польоту корабля залежно від поточної форми.
+Поки горизонтальний рух залишається автоматичним, гравець натискає, утримує або відпускає один елемент керування; поточний режим аватара визначає запитувану вертикальну реакцію без задавання горизонтального напрямку.
 
 ### Включає
 
-Натискання й утримання для стрибків куба та утримання й відпускання для польоту корабля у `Stereo Madness`.
+Натискання або утримування для стрибка куба та утримування або відпускання того самого елемента керування, щоб підняти або знизити траєкторію польоту корабля у Stereo Madness.
 
 ### Виключає
 
-Вільне керування у двох осях, вибір місця призначення, безпосередній вибір форми чи горизонтальної швидкості.
+Вільне керування у двох осях; вибір місця призначення; безпосередню зміну режиму аватара; декоративне введення без наслідків для зіткнень.
 
 ### Ігри-носії
 
@@ -7161,15 +7338,15 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Операційне визначення
 
-Під час налаштування спорядження помістити один наявний сумісний Мод у допустимий слот або зняти його перед поверненням до місії в реальному часі.
+Під час налаштування спорядження помістити один власний сумісний Мод у допустимий слот або зняти його перед поверненням до активної гри.
 
 ### Включає
 
-Налаштування вибраного Warframe або стартової зброї в Арсеналі під час `Vor's Prize`.
+Налаштування вибраного Warframe або стартової зброї в Арсеналі під час Awakening і Vor’s Prize.
 
 ### Виключає
 
-Підбирання Мода в місії, підвищення рангу спорядження або застосування здібності.
+Отримання Мода зі здобичі; підвищення рівня спорядження; зміну зброї в ширшому комплекті спорядження; застосування здібності під час місії.
 
 ### Ігри-носії
 
@@ -7182,15 +7359,15 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Операційне визначення
 
-Поки працює таймер зламу, повертати показані вузли, доки їхні лінії не утворять прийнятий зв’язний рисунок.
+Поки працює таймер термінала, гравець повертає показані вузли, доки їхні шляхи не утворять прийнятий зв’язний рисунок, а потім подає результат або дозволяє терміналу перевірити його.
 
 ### Включає
 
-Злам терміналів Grineer у вступному маршруті Warframe.
+Навчальний злам термінала у стилі Grineer у вступному маршруті Warframe.
 
 ### Виключає
 
-Введення пароля, витрачання готового `Cipher` для обходу або бій біля консолі.
+Введення запам’ятованого пароля; витрачання предмета Cipher для обходу головоломки; довільне пересування або бій біля консолі.
 
 ### Ігри-носії
 
@@ -7207,11 +7384,11 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Включає
 
-Прийняття одного замовлення `Quick Job` у Euro Truck Simulator 2.
+Прийняття визначеного замовлення Quick Job у Euro Truck Simulator 2.
 
 ### Виключає
 
-Замовлення через `Freight Market` для власної вантажівки, придбання вантажівки, доручення автономному працівникові або лише перегляд пропозиції.
+Забирання вантажу власною вантажівкою, зокрема через Freight Market; купівлю транспортного засобу; доручення замовлення автономному працівникові; лише попередній перегляд пропозиції.
 
 ### Ігри-носії
 
@@ -7225,7 +7402,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Операційне визначення
 
-Зупинившись у дозволеному місці, вибрати тривалість сну й просунути годинник світу та рейсу на цей проміжок, відновлюючи стан водія.
+Зупинившись у придатному місці відпочинку, гравець вибирає дозволену тривалість сну й переводить годинники поточного замовлення та світу вперед на цей проміжок; при цьому відновлюється стан відпочинку водія.
 
 ### Включає
 
@@ -7233,7 +7410,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Виключає
 
-Паузу, заздалегідь визначену системою тривалість сну або відпочинок у контрольній точці зі скиданням бою.
+Призупинення часу симуляції; сон протягом фіксованого системою проміжку; відпочинок біля контрольної точки з повторною появою ворогів або відновленням бойових ресурсів.
 
 ### Ігри-носії
 
@@ -7247,15 +7424,15 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Операційне визначення
 
-У пункті призначення вибрати запропонований спосіб здачі, за якого розташування зони або можливість пропустити паркування визначають потрібний маневр і доступний досвід.
+У пункті призначення вантажу гравець вибирає один наразі запропонований спосіб здачі причепа. Геометрія відповідного паркувального місця або правило пропуску визначає потрібний маневр паркування та досвід, який може бути зарахований.
 
 ### Включає
 
-Звичайне, спрощене або автоматичне паркування з пропуском ручного маневру в Euro Truck Simulator 2.
+Вибір звичайного або простішого місця для паркування причепа в Euro Truck Simulator 2 або прийняття доступного варіанта автоматичного паркування з пропуском ручного маневру.
 
 ### Виключає
 
-Саме керування, прийняття замовлення або довільне паркування без наслідків для доставки.
+Керування самим транспортним засобом і рух заднім ходом; прийняття вантажного замовлення; вибір довільного місця паркування у світі без наслідків для доставлення.
 
 ### Ігри-носії
 
@@ -7269,15 +7446,15 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Операційне визначення
 
-Кинути болт у вибраному напрямку, щоб аномалія спрацювала й показала, чи з’явилося коротке вікно для проходу.
+Гравець кидає один болт, який має при собі, у досяжному напрямку, щоб викликати спрацювання аномалії й спостерігати, чи відкриється короткий проміжок для проходження.
 
 ### Включає
 
-Перевірку аномалій Малої Зони після прологу.
+Перевірка аномалій і проходження крізь них у Малій Зоні після прологу S.T.A.L.K.E.R. 2.
 
 ### Виключає
 
-Шкоду від гранат, постійне вимкнення небезпеки або пошук артефакту детектором.
+Завдавання шкоди ворогові гранатою; постійне вимкнення небезпеки; проявлення артефакту за допомогою детектора.
 
 ### Ігри-носії
 
@@ -7290,7 +7467,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Операційне визначення
 
-Увімкнути детектор, іти за зміною його сигналу в аномальному полі та забрати артефакт після його проявлення на критичній відстані.
+Гравець споряджається детектором артефактів, рухається за його мінливим сигналом у межах аномального поля й забирає артефакт після того, як наближення робить його видимим і досяжним.
 
 ### Включає
 
@@ -7298,7 +7475,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Виключає
 
-Звичайну видиму здобич, зовнішню мапу або спорядження вже знайденого артефакту.
+Спостереження звичайної здобичі на землі; читання зовнішньої мапи; оснащення контейнера костюма артефактом, який уже належить гравцеві.
 
 ### Ігри-носії
 
@@ -7306,16 +7483,16 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ## ACT-290
 
-- Назва: Безпосередньо керувати призначеним автомобілем
-- Переглянуто: `2026-09-04`
+- Назва: Безпосередньо керувати призначеним транспортним засобом
+- Переглянуто: `2026-10-03`
 
 ### Операційне визначення
 
-Поки гравцеві призначено один автомобіль, він безпосередньо керує напрямком, газом, гальмуванням, вибором передачі та передбаченим ручним гальмом без попередньої посадки на місце водія або подальшого виходу з нього.
+Поки гравцеві призначено один транспортний засіб, він безпосередньо керує напрямком, тягою, гальмуванням, вибором передачі та передбаченим ручним гальмом без попередньої посадки на місце водія або подальшого виходу з нього.
 
 ### Включає
 
-Керування кожним призначеним дорожнім, ґрунтовим, позашляховим автомобілем і авто для Time Attack у визначеному вступі Forza Horizon 6; кермування, прискорення, задній хід, гальмування й керовані заноси одного призначеного авто Rocket League; керування фіксованим початковим авто Story у Shopping Spree в Need for Speed Unbound; керування фіксованим Mustang із подальшою заданою передачею Regera у The Highway Heist в Need for Speed Payback; кермування, прискорення й гальмування призначеного CarSport на Summer 2026 - 01 у Trackmania; кермування, прискорення, гальмування й ручне гальмо фіксованого початкового авто без змін у вступному Circuit Need for Speed Underground.
+Керування кожним призначеним дорожнім, ґрунтовим, позашляховим автомобілем і авто для Time Attack у визначеному вступі Forza Horizon 6; кермування, прискорення, задній хід, гальмування й керовані заноси одного призначеного авто Rocket League; керування фіксованим початковим авто Story у Shopping Spree в Need for Speed Unbound; керування фіксованим Mustang, а після заданого сценарієм переходу керування — Regera у The Highway Heist в Need for Speed Payback; кермування, прискорення й гальмування призначеного CarSport на Summer 2026 - 01 у Trackmania; кермування, прискорення, гальмування й ручне гальмо фіксованого початкового авто без змін у вступному Circuit Need for Speed Underground.
 
 ### Виключає
 
@@ -7324,6 +7501,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 ### Ігри-носії
 
 - [`GAME-0195` — BeamNG.drive](../games/a-f/beamng-drive.md)
+- [`GAME-0470` — "Burnout 3: Takedown"](../games/a-f/burnout-3-takedown.md)
 - [`GAME-0374` — Burnout Paradise](../games/a-f/burnout-paradise.md)
 - [`GAME-0415` — Crazy Taxi](../games/a-f/crazy-taxi.md)
 - [`GAME-0384` — F-Zero GX](../games/a-f/f-zero-gx.md)
@@ -7331,18 +7509,21 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0316` — Gran Turismo](../games/g-l/gran-turismo.md)
 - [`GAME-0309` — "Mario Kart 8 Deluxe"](../games/m-r/mario-kart-8-deluxe.md)
+- [`GAME-0507` — MotorStorm](../games/m-r/motorstorm.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 - [`GAME-0217` — "Need for Speed Underground"](../games/m-r/need-for-speed-underground.md)
+- [`GAME-0481` — Out Run](../games/m-r/out-run.md)
 - [`GAME-0420` — Project Gotham Racing 2](../games/m-r/project-gotham-racing-2.md)
 - [`GAME-0177` — Rocket League](../games/m-r/rocket-league.md)
 - [`GAME-0457` — Sega Rally Championship](../games/s-z/sega-rally-championship.md)
 - [`GAME-0216` — Trackmania](../games/s-z/trackmania.md)
 - [`GAME-0409` — 'Twisted Metal: Black'](../games/s-z/twisted-metal-black.md)
 - [`GAME-0184` — War Thunder](../games/s-z/war-thunder.md)
+- [`GAME-0488` — wipEout](../games/s-z/wipeout.md)
 - [`GAME-0211` — World of Tanks](../games/s-z/world-of-tanks.md)
 
 ## ACT-291
@@ -7352,15 +7533,15 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Операційне визначення
 
-Поза заблокованою подією обрати один власний придатний автомобіль, який стане поточним і безпосередньо керованим.
+Поза подією, у якій уже зафіксовано склад автомобілів, гравець вибирає один автомобіль, який наразі йому належить і відповідає умовам, щоб він став активним автомобілем під безпосереднім керуванням.
 
 ### Включає
 
-Вибір стартового автомобіля й перемикання між власними машинами перед подіями Forza Horizon 6.
+Вибір одного з трьох стартових автомобілів Forza Horizon 6 та подальше перемикання між власними автомобілями через Car Collection перед подією.
 
 ### Виключає
 
-Купівлю, вантажний контракт або зміну автомобіля після фіксації події.
+Купівлю транспортного засобу; прийняття вантажного замовлення з наданим транспортом; зміну автомобілів після фіксації складу події.
 
 ### Ігри-носії
 
@@ -7378,7 +7559,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Включає
 
-Налаштування кермування, гальмування, коробки передач, тяги, стійкості, траєкторії, Rewind і складності Drivatar у Forza Horizon 6; профіль суперників і поліції Relaxed у Story та автоматичну коробку передач Need for Speed Unbound; суперників Easy й автоматичну коробку передач Need for Speed Payback; суперників Easy для окремої події й автоматичну коробку передач Need for Speed Underground.
+Налаштування кермування, гальмування, коробки передач, протибуксувальної системи, системи стабілізації, показу лінії руху, Rewind і складності Drivatar у Forza Horizon 6; профіль суперників і поліції Relaxed у Story та автоматичну коробку передач Need for Speed Unbound; суперників Easy й автоматичну коробку передач Need for Speed Payback; суперників Easy для окремої події й автоматичну коробку передач Need for Speed Underground.
 
 ### Виключає
 
@@ -7417,10 +7598,12 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 ### Ігри-носії
 
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
+- [`GAME-0470` — "Burnout 3: Takedown"](../games/a-f/burnout-3-takedown.md)
 - [`GAME-0374` — Burnout Paradise](../games/a-f/burnout-paradise.md)
 - [`GAME-0384` — F-Zero GX](../games/a-f/f-zero-gx.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0309` — "Mario Kart 8 Deluxe"](../games/m-r/mario-kart-8-deluxe.md)
+- [`GAME-0507` — MotorStorm](../games/m-r/motorstorm.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
@@ -7430,23 +7613,24 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 ## ACT-294
 
 - Назва: Призначити бійця, сторону й тип керування для дуелі
-- Переглянуто: `2026-08-31`
+- Переглянуто: `2026-10-04`
 
 ### Операційне визначення
 
-Перед початком фіксованого матчу призначити кожному учаснику доступного бійця, сторону та підтримувану схему введення.
+Перед початком фіксованого бойового матчу гравець призначає кожному визначеному учаснику одного доступного бійця, сторону й підтримувану схему введення.
 
 ### Включає
 
-Ryu на стороні P1, Luke під керуванням CPU і Classic controls для обох.
+Призначення базового Ryu стороні P1, базового Luke стороні CPU та керування Classic обом у Fighting Ground Versus у Street Fighter 6.
 
 ### Виключає
 
-Зміну бійця всередині раунду, командний склад або постійного аватара кампанії.
+Зміну бійця під час активного раунду; налаштування постійного персонажа кампанії; вибір багаточленної команди або черги мережевого рейтингу.
 
 ### Ігри-носії
 
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
+- [`GAME-0494` — Dead or Alive 2](../games/a-f/dead-or-alive-2.md)
 - [`GAME-0393` — Mortal Kombat II](../games/m-r/mortal-kombat-ii.md)
 - [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
@@ -7457,7 +7641,7 @@ Ryu на стороні P1, Luke під керуванням CPU і Classic cont
 ## ACT-295
 
 - Назва: Ввести атаку безпосередньо керованого персонажа
-- Переглянуто: `2026-09-21`
+- Переглянуто: `2026-10-04`
 
 ### Операційне визначення
 
@@ -7465,7 +7649,7 @@ Ryu на стороні P1, Luke під керуванням CPU і Classic cont
 
 ### Включає
 
-Звичайні атаки Ryu, Hadoken і Super Art; стрибок-клубок і рухомий перекат Соніка.
+Звичайні атаки Ryu, Hadoken і Super Art із наявним запасом під час дослідженої дуелі Street Fighter 6 із керуванням Classic; стрибок-клубок і рухомий перекат Соніка в оригінальній Sonic the Hedgehog.
 
 ### Виключає
 
@@ -7476,17 +7660,26 @@ Ryu на стороні P1, Luke під керуванням CPU і Classic cont
 - [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
 - [`GAME-0318` — Battletoads](../games/a-f/battletoads.md)
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
+- [`GAME-0490` — Comix Zone](../games/a-f/comix-zone.md)
 - [`GAME-0326` — Crash Bandicoot](../games/a-f/crash-bandicoot.md)
+- [`GAME-0494` — Dead or Alive 2](../games/a-f/dead-or-alive-2.md)
+- [`GAME-0495` — Donkey Kong Country Returns](../games/a-f/donkey-kong-country-returns.md)
 - [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
+- [`GAME-0501` — F.E.A.R.](../games/a-f/fear.md)
+- [`GAME-0468` — Gravity Rush](../games/g-l/gravity-rush.md)
 - [`GAME-0393` — Mortal Kombat II](../games/m-r/mortal-kombat-ii.md)
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 - [`GAME-0447` — Punch-Out!!](../games/m-r/punch-out.md)
+- [`GAME-0472` — Sonic Adventure](../games/s-z/sonic-adventure.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
+- [`GAME-0466` — Streets of Rage 2](../games/s-z/streets-of-rage-2.md)
 - [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 - [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
+- [`GAME-0497` — Wario Land 4](../games/s-z/wario-land-4.md)
 
 ## ACT-296
 
@@ -7507,6 +7700,9 @@ Drive Parry, броню атаки, покроковий захист або п�
 
 ### Ігри-носії
 
+- [`GAME-0490` — Comix Zone](../games/a-f/comix-zone.md)
+- [`GAME-0494` — Dead or Alive 2](../games/a-f/dead-or-alive-2.md)
+- [`GAME-0510` — Indiana Jones and the Great Circle](../games/g-l/indiana-jones-and-the-great-circle.md)
 - [`GAME-0393` — Mortal Kombat II](../games/m-r/mortal-kombat-ii.md)
 - [`GAME-0447` — Punch-Out!!](../games/m-r/punch-out.md)
 - [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
@@ -7517,23 +7713,25 @@ Drive Parry, броню атаки, покроковий захист або п�
 
 ## ACT-297
 
-- Назва: Спробувати близький кидок або відповідний Throw Escape
-- Переглянуто: `2026-08-31`
+- Назва: Спробувати близький кидок або відповідне звільнення від кидка
+- Переглянуто: `2026-10-04`
 
 ### Операційне визначення
 
-На близькій дистанції ввести кидок, щоб захопити придатного суперника, або в належне вікно вирватися зі звичайного кидка суперника.
+На близькій дистанції ввести команду кидка для захоплення допустимого суперника або команду звільнення від звичайного кидка суперника у визначений час відповіді.
 
 ### Включає
 
-Звичайний throw і Throw Escape у Versus.
+Звичайний кидок і звільнення від нього (Throw Escape) у режимі Versus Street Fighter 6.
 
 ### Виключає
 
-Командний grab як параметр бійця, перенесення непритомного тіла або автоматичне відштовхування.
+Спеціальний командний захват як параметр бійця; захоплення цілі у світі зі скритного положення; перенесення непритомного тіла; автоматичне відштовхування.
 
 ### Ігри-носії
 
+- [`GAME-0490` — Comix Zone](../games/a-f/comix-zone.md)
+- [`GAME-0494` — Dead or Alive 2](../games/a-f/dead-or-alive-2.md)
 - [`GAME-0393` — Mortal Kombat II](../games/m-r/mortal-kombat-ii.md)
 - [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
@@ -7548,15 +7746,15 @@ Drive Parry, броню атаки, покроковий захист або п�
 
 ### Операційне визначення
 
-Із придатного бойового стану запросити одну зі спільних технік Drive System і прийняти її поточну вартість та перехід.
+Гравець запитує одну зі спільних технік Drive System з допустимого бойового стану, погоджуючись на її поточну витрату запасу ресурсу та відповідний перехід бойового стану.
 
 ### Включає
 
-Drive Impact, Drive Parry, Drive Rush, Drive Reversal і Overdrive attacks.
+Drive Impact, Drive Parry, Drive Rush, Drive Reversal і атаки Overdrive у Street Fighter 6.
 
 ### Виключає
 
-Звичайний блок, витрату Super Art або пасивне відновлення Drive.
+Звичайний захист; витрачання запасу Super Art; пасивне відновлення Drive; атаку, властиву окремому персонажеві, яка не витрачає Drive.
 
 ### Ігри-носії
 
@@ -7569,7 +7767,7 @@ Drive Impact, Drive Parry, Drive Rush, Drive Reversal і Overdrive attacks.
 
 ### Операційне визначення
 
-Біля одних невідчинених дверей вибрати рівно один показаний план з обмеженої пропозиції та зафіксувати його як майбутню кімнату.
+Біля одних невідчинених дверей гравець вибирає рівно один показаний план кімнати з обмеженого переліку пропозицій і фіксує його як варіант кімнати за цими дверима.
 
 ### Включає
 
@@ -7577,7 +7775,7 @@ Drive Impact, Drive Parry, Drive Rush, Drive Reversal і Overdrive attacks.
 
 ### Виключає
 
-Перестановку вже наявної плитки, придбання товару або довільне будівництво.
+Одержання плану кімнати без його вибору; переставляння вже наявної плитки мапи; купівлю товару в крамниці; довільне будівництво.
 
 ### Ігри-носії
 
@@ -7585,7 +7783,7 @@ Drive Impact, Drive Parry, Drive Rush, Drive Reversal і Overdrive attacks.
 
 ## ACT-300
 
-- Назва: Завершити день у маєтку й запросити нове креслення
+- Назва: Завершити поточний день у маєтку й запросити нове планування
 - Переглянуто: `2026-08-28`
 
 ### Операційне визначення
@@ -7598,7 +7796,7 @@ Call it a Day у Blue Prince.
 
 ### Виключає
 
-Автоматичний таймер, смерть, завантаження збереження або вихід з однієї кімнати.
+Автоматичне завершення через сплив часу; перезапуск після смерті; завантаження попереднього збереження; вихід з однієї кімнати зі збереженням поточного плану маєтку.
 
 ### Ігри-носії
 
@@ -7606,20 +7804,20 @@ Call it a Day у Blue Prince.
 
 ## ACT-301
 
-- Назва: Заборонити одного оператора протилежної ролі
+- Назва: Заборонити одного допустимого оператора протилежної ролі
 - Переглянуто: `2026-08-28`
 
 ### Операційне визначення
 
-Під час запланованої фази командою додати допустимого оператора протилежної ролі до спільного списку недоступних.
+Під час запланованої фази обмеження складу одна команда вибирає допустимого оператора протилежної ролі й додає його до спільного списку недоступних.
 
 ### Включає
 
-Бани нападників і захисників у Rainbow Six Siege Pro League.
+Заборони операторів нападу й захисту в Rainbow Six Siege Pro League.
 
 ### Виключає
 
-Вибір власного оператора, косметику або турнірне вето мап.
+Вибір власного оператора; вимкнення косметичного елемента; турнірне вето мапи поза ігровим матчем.
 
 ### Ігри-носії
 
@@ -7636,11 +7834,11 @@ Call it a Day у Blue Prince.
 
 ### Включає
 
-Дрони нападників і камери захисників у Rainbow Six Siege.
+Дрони нападників, камери захисників і сумісні інструменти спостереження у Rainbow Six Siege.
 
 ### Виключає
 
-Зір персонажа, статичну мапу або післяматчевий повтор.
+Огляд із центром на персонажі; статичну мінімапу; перегляд післяматчевого повтору; автоматичне виявлення без керування пристроєм.
 
 ### Ігри-носії
 
@@ -7649,22 +7847,23 @@ Call it a Day у Blue Prince.
 ## ACT-303
 
 - Назва: Проламати допустиму поверхню
-- Переглянуто: `2026-08-28`
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-Застосувати сумісний удар, вибухівку або hard-breach засіб до стіни, підлоги, стелі, дверей чи вікна, щоб створити прохід або лінію огляду.
+Гравець обирає стіну, підлогу, стелю, двері чи вікно, що відповідає умовам, і підтверджує застосування сумісного удару, вибухівки або засобу проламування укріплень, щоб відкрити чи розширити геометрію проходу, огляду або пробиття.
 
 ### Включає
 
-М’який і hard breach у Rainbow Six Siege.
+Пролом звичайних поверхонь і сумісний пролом укріпленої стіни у Rainbow Six Siege.
 
 ### Виключає
 
-Декоративне сміття, звичайне проникнення кулі або видобування блоків.
+Звичайне проникнення кулі без корисного отвору; встановлення укріплення; косметичні уламки; довільний видобуток рельєфу до інвентарю.
 
 ### Ігри-носії
 
+- [`GAME-0508` — Ready or Not](../games/m-r/ready-or-not.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
 
 ## ACT-304
@@ -7674,15 +7873,15 @@ Call it a Day у Blue Prince.
 
 ### Операційне визначення
 
-Призначити допустимих футболістів на місця складу й задати окремі формації, ролі та вказівки у володінні й без м’яча.
+Перед матчем або під час нього гравець у ролі менеджера призначає допустимих футболістів команди на дозволені позиції складу та налаштовує окремі формації, ролі й командні вказівки для гри у володінні м’ячем і без нього, за якими команда діє автономно.
 
 ### Включає
 
-Вибір команди та подвійна тактика у Football Manager 26.
+Вибір складу команди й окремих тактичних формацій для гри у володінні м’ячем і без нього у Football Manager 26.
 
 ### Виключає
 
-Пряме пересування футболіста, трансфер або декоративна схема.
+Безпосереднє пересування футболіста; підписання контракту з футболістом; вибір лише декоративного зображення формації.
 
 ### Ігри-носії
 
@@ -7690,20 +7889,20 @@ Call it a Day у Blue Prince.
 
 ## ACT-305
 
-- Назва: Підтвердити живу менеджерську заміну або тактичну зміну
-- Переглянуто: `2026-08-31`
+- Назва: Підтвердити менеджерську заміну або тактичну зміну під час матчу
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-Під час автономного матчу підтвердити допустиму зміну футболіста, ролі, формації чи командної вказівки.
+Поки автономний футбольний матч триває, гравець підтверджує одну дозволену зміну футболіста, ролі, формації чи командної вказівки, яку команда застосовує з наступного стану матчу, що допускає цю зміну.
 
 ### Включає
 
-Заміни й тактичні зміни Football Manager 26.
+Заміни й тактичні зміни під час матчу у Football Manager 26.
 
 ### Виключає
 
-Пряме керування тілом або непідтверджений перегляд плану.
+Безпосереднє керування футболістом або м’ячем; редагування складу після матчу; непідтверджені експерименти на екрані аналізу.
 
 ### Ігри-носії
 
@@ -7711,20 +7910,20 @@ Call it a Day у Blue Prince.
 
 ## ACT-306
 
-- Назва: Підготувати реактивний вогонь бійця на рух ворога
+- Назва: Підготувати бійця до реакції на рух у звичайній ворожій фазі
 - Переглянуто: `2026-08-31`
 
 ### Операційне визначення
 
-Витратити залишок дій бійця, щоб підготувати один постріл, який може спрацювати на допустимий рух видимого ворога у ворожій фазі.
+У межах визначеної гілки звичайної ворожої фази гравець витрачає залишок доступних дій уже викритого керованого бійця, щоб підготувати одну дистанційну атаку, яка може спрацювати після завершення фази загону, коли допустимий ворог рухається там, де цей боєць може його обстріляти. Ця межа не моделює реакцій на активаційний рух ворогів у фазі гравця й не стверджує, що гра їх забороняє.
 
 ### Включає
 
-Overwatch у місії Operation Gatecrasher XCOM 2.
+Звичайний Overwatch у ворожій фазі, підготовлений після викриття в досліджуваній місії Operation Gatecrasher у XCOM 2.
 
 ### Виключає
 
-Негайний постріл, постійну автоматичну зону або непідготовлену реакцію.
+Реакції на активаційний рух ворогів у фазі гравця з цієї звуженої гілки; негайний постріл по вибраній цілі; постійну атаку по зоні; реакцію ворога, яку не підготував гравець.
 
 ### Ігри-носії
 
@@ -7732,20 +7931,20 @@ Overwatch у місії Operation Gatecrasher XCOM 2.
 
 ## ACT-307
 
-- Назва: Виконати сусідню тактичну взаємодію місії
+- Назва: Підтвердити одну тактичну взаємодію бійця з об’єктом місії поруч
 - Переглянуто: `2026-08-31`
 
 ### Операційне визначення
 
-Наказати бійцеві біля допустимого об’єкта виконати оголошену взаємодію, витративши потрібну дію й змінивши стан цілі.
+Гравець наказує керованому бійцеві, який стоїть поруч із допустимим об’єктом, виконати визначену взаємодію місії, витрачаючи потрібні для цього дії та змінюючи стан цілі.
 
 ### Включає
 
-Встановлення X4 на монументі ADVENT у XCOM 2.
+Встановлення заряду X4 на монументі ADVENT у місії Operation Gatecrasher гри XCOM 2.
 
 ### Виключає
 
-Звичайний рух, косметичний об’єкт або автоматичне завершення через вхід у зону.
+Звичайний рух; підбирання декоративних елементів оточення; автоматичне завершення місії лише через вхід у певну зону.
 
 ### Ігри-носії
 
@@ -7753,24 +7952,26 @@ Overwatch у місії Operation Gatecrasher XCOM 2.
 
 ## ACT-308
 
-- Назва: Виконати стрибок, dodge або повітряну орієнтацію авто
-- Переглянуто: `2026-08-31`
+- Назва: Виконати стрибок, ухильний маневр або зміну орієнтації транспорту в повітрі
+- Переглянуто: `2026-10-03`
 
 ### Операційне визначення
 
-Під час прямого керування авто виконати допустимий jump, directional dodge або безперервну зміну орієнтації, що виходить за межі наземного steering.
+Під час прямого керування поточним транспортним засобом гравець виконує дозволений стрибок, напрямковий ухильний маневр або безперервну команду зміни орієнтації в повітрі, що змінює його положення й напрям поза самим наземним кермуванням.
 
 ### Включає
 
-Jump, double jump, directional flip, air roll і aerial control у Rocket League.
+Стрибок, подвійний стрибок, напрямковий переворот, обертання навколо поздовжньої осі та повітряне керування нахилом чи поворотом у Rocket League.
 
 ### Виключає
 
-Звичайне наземне steering, boost без jump-дії або автоматичний stunt.
+Звичайне наземне кермування; тягу прискорення без можливості стрибка; автоматичну анімацію трюку.
 
 ### Ігри-носії
 
+- [`GAME-0507` — MotorStorm](../games/m-r/motorstorm.md)
 - [`GAME-0177` — Rocket League](../games/m-r/rocket-league.md)
+- [`GAME-0488` — wipEout](../games/s-z/wipeout.md)
 
 ## ACT-309
 
@@ -7783,7 +7984,7 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 
 ### Включає
 
-Наземне прискорення, повітряний набір висоти й повернення через накопичений запас у Rocket League; звичайне нітро Need for Speed Payback у дослідженій погоні за перевізником; увімкнення Burst Nitrous у дослідженому заїзді або обов’язковій погоні Need for Speed Unbound.
+Наземне прискорення, набір висоти в повітрі й відновлення руху за допомогою збереженого запасу прискорення в Rocket League; звичайне прискорення нітро під час дослідженої погоні за автовозом у Need for Speed Payback; увімкнення Burst Nitrous у дослідженому заїзді або обов’язковій погоні Need for Speed Unbound.
 
 ### Виключає
 
@@ -7792,6 +7993,7 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 ### Ігри-носії
 
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
+- [`GAME-0470` — "Burnout 3: Takedown"](../games/a-f/burnout-3-takedown.md)
 - [`GAME-0374` — Burnout Paradise](../games/a-f/burnout-paradise.md)
 - [`GAME-0384` — F-Zero GX](../games/a-f/f-zero-gx.md)
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
@@ -7803,20 +8005,20 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 
 ## ACT-310
 
-- Назва: Обрати точку відродження після demolition на своєму боці
+- Назва: Обрати точку повторної появи відносно своїх воріт після знищення авто
 - Переглянуто: `2026-08-31`
 
 ### Операційне визначення
 
-У короткому вікні після demolition обрати одну з доступних позицій відносно власних воріт до повернення авто в живу гру.
+У короткому вікні після знищення авто його гравець обирає одну з наразі запропонованих точок появи відносно воріт власної команди, перш ніж авто повернеться до активного керування.
 
 ### Включає
 
-Вибір точки відродження після demolition у мережевому матчі Rocket League v2.72.
+Вибір точки повторної появи після знищення авто в мережевому матчі Rocket League v2.72.
 
 ### Виключає
 
-Стартову kickoff-позицію, стале місце відродження або повернення лише в наступному раунді.
+Вибір початкової позиції стартового розіграшу; постійне місце появи; повернення вибулого гравця лише в наступному раунді.
 
 ### Ігри-носії
 
@@ -7824,16 +8026,16 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 
 ## ACT-311
 
-- Назва: Випити запас води
+- Назва: Спожити напій, який персонаж має при собі, для відновлення водного запасу
 - Переглянуто: `2026-08-28`
 
 ### Операційне визначення
 
-Гравець споживає один придатний напій із наплічника, щоб збільшити поточний запас води персонажа.
+Гравець споживає один допустимий напій, який персонаж має при собі, щоб збільшити його поточний водний запас на визначене для цього напою значення.
 
 ### Включає
 
-Вживання фільтрованої води чи іншого напою в режимі виживання Subnautica.
+Вживання фільтрованої води чи іншого дослідженого предмета з водою в режимі виживання Subnautica.
 
 ### Виключає
 
@@ -7847,12 +8049,12 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 
 ## ACT-312
 
-- Назва: Спіймати рухливу малу істоту
+- Назва: Спіймати одну досяжну істоту, що вільно плаває
 - Переглянуто: `2026-08-28`
 
 ### Операційне визначення
 
-Гравець простягає руку до доступної малої істоти, що вільно рухається, і забирає її до наплічника, доки вона не вийшла за межі досяжності.
+Гравець простягає руку до однієї допустимої малої істоти, що вільно рухається, і забирає її безпосередньо до інвентарю при собі, доки вона не вийшла за межі досяжності.
 
 ### Включає
 
@@ -7860,7 +8062,7 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 
 ### Виключає
 
-Збір нерухомої сировини; вбивство істоти зброєю; автоматичний вилов пасткою.
+Збирання нерухомої сировини; подолання істоти за допомогою зброї; автоматичне збирання пасткою.
 
 ### Ігри-носії
 
@@ -7881,12 +8083,13 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 
 ### Виключає
 
-Вибір готового креслення у виробничому меню; автоматичний пошук ресурсів кімнатою сканування; миттєвий підбір або одноімпульсне обстеження цілі; типізований результат після завершення сканування.
+Вибір готового креслення в інтерфейсі виготовлення; автономний пошук ресурсів по всій кімнаті; миттєве підбирання або одноімпульсне обстеження цілі; типізований результат після завершення сканування.
 
 ### Ігри-носії
 
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
 - [`GAME-0355` — Metroid Prime](../games/m-r/metroid-prime.md)
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
 
 ## ACT-314
@@ -7896,11 +8099,11 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 
 ### Операційне визначення
 
-Гравець спрямовує заряджений будівельний інструмент на допустиме місце чи наявний підводний модуль і утримує будівництво або розбирання до завершення поступу, забезпеченого матеріалами.
+Гравець спрямовує будівельний інструмент із живленням на допустимі положення й орієнтацію одного підводного модуля або на вже наявний модуль і утримує команду будівництва чи розбирання до завершення поступу, забезпеченого матеріалами.
 
 ### Включає
 
-Будівництво або демонтаж I-відсіку, люка чи сонячної панелі Habitat Builder-ом у Subnautica.
+Будівництво або демонтаж I-відсіку, люка чи сонячної панелі за допомогою Habitat Builder у Subnautica.
 
 ### Виключає
 
@@ -7939,15 +8142,15 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 
 ### Операційне визначення
 
-Гравець вибирає власне виробниче місце або спільну панель цього місця й додає один доступний загін чи споруду до скінченної живої черги або виробничого каналу.
+Гравець вибирає власний виробничий об’єкт або спільну панель такого об’єкта й додає одну наразі доступну одиницю чи споруду до його скінченної активної черги або виробничого каналу.
 
 ### Включає
 
-Селян і військові загони у придатних спорудах Age of Empires II: Definitive Edition; споруди й піхоту у відповідних виробничих місцях Command & Conquer Remastered Collection.
+Додавання селян або військових одиниць до черги у придатних спорудах Age of Empires II: Definitive Edition; додавання споруди або піхотної одиниці до черги через відповідний виробничий об’єкт Command & Conquer Remastered Collection.
 
 ### Виключає
 
-Єдину ціль виробництва міста на хід; безкоштовний сценарний юніт; дослідження технології замість юніта.
+Вибір однієї міської цілі виробництва, результат якої підбивається за ходами; появу безкоштовної сценарної одиниці; вибір технології замість одиниці.
 
 ### Ігри-носії
 
@@ -7957,6 +8160,7 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 - [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
 - [`GAME-0410` — Halo Wars](../games/g-l/halo-wars.md)
+- [`GAME-0469` — StarCraft](../games/s-z/starcraft.md)
 - [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
 
 ## ACT-317
@@ -7986,26 +8190,27 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 
 ## ACT-318
 
-- Назва: Призначити селянина на доступну господарську роботу
-- Переглянуто: `2026-08-31`
+- Назва: Призначити працівника на доступну господарську роботу
+- Переглянуто: `2026-10-14`
 
 ### Операційне визначення
 
-Гравець наказує одному чи кільком вибраним селянам збирати доступний ресурс, будувати поставлений фундамент або ремонтувати придатний пошкоджений об’єкт.
+Гравець наказує одному чи кільком вибраним господарським працівникам збирати ресурс із досяжного джерела, будувати поставлений фундамент або ремонтувати дозволений пошкоджений власний об’єкт.
 
 ### Включає
 
-Роботу з харчами, деревиною, золотом, каменем, будівництвом і ремонтом в Age of Empires II: Definitive Edition.
+Призначення селянам збирання харчів, деревини, золота чи каменю, будівництва або ремонту в Age of Empires II: Definitive Edition; призначення терранському SCV видобування мінералів, будівництва чи ремонту в оригінальній StarCraft.
 
 ### Виключає
 
-Автоматичні тики праці; глобальний пріоритет працівників; прямий військовий наказ.
+Автоматичні кроки роботи після призначення; налаштування глобальної політики пріоритетів працівників; прямі накази військової атаки.
 
 ### Ігри-носії
 
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
 - [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
+- [`GAME-0469` — StarCraft](../games/s-z/starcraft.md)
 
 ## ACT-319
 
@@ -8014,15 +8219,15 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 
 ### Операційне визначення
 
-До отримання керування гравець вибирає один літак, виліт, прибуття, маршрут, умови середовища й допоміжні функції та запускає сформований сценарій Free Flight.
+До отримання керування гравець вибирає один літак, пункти вильоту й прибуття, маршрут, налаштування умов середовища й допомоги, а потім запускає цей визначений політ у режимі Free Flight.
 
 ### Включає
 
-Маршрут Cessna 172 G1000 від стоянки KBFI до стоянки KTIW за фіксованих денних Clear Skies у Microsoft Flight Simulator 2024.
+Політ Cessna 172 G1000 від стоянки KBFI до стоянки KTIW за фіксованого денного часу й погодних умов Clear Skies у межах аналізу Microsoft Flight Simulator 2024.
 
 ### Виключає
 
-Прийняття завдання Career; зміну погоди наживо після запуску; автономний транспортний розклад; вибір лише однієї дорожньої точки.
+Прийняття завдання Career; зміну погоди в реальному часі після запуску; подання розкладу автономних перевезень; вибір лише дорожньої маршрутної точки.
 
 ### Ігри-носії
 
@@ -8039,11 +8244,11 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 
 ### Включає
 
-Паливний кран, акумулятор і генератор, авіоніку, регулятор складу суміші, магнето й стартер, важіль тяги, освітлення, тример і закрилки Cessna 172 у Microsoft Flight Simulator 2024.
+Перемикач подачі пального, акумулятор і генератор, авіоніка, регулятор складу суміші, магнето й стартер, важіль тяги, освітлення, тример і закрилки Cessna 172 у дослідженому вільному польоті (Free Flight) Microsoft Flight Simulator 2024.
 
 ### Виключає
 
-Рух штурвала або педалей для зміни просторового положення; автоматичний запуск однією кнопкою; вибір літака до створення польоту.
+Рух штурвала або керма напрямку для керування просторовою орієнтацією; автоматичний запуск однією клавішею; налаштування літака до створення екземпляра симуляції.
 
 ### Ігри-носії
 
@@ -8056,11 +8261,11 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 
 ### Операційне визначення
 
-Гравець безперервно керує тангажем, креном, рисканням, тягою й колісними гальмами, щоб рулити, злітати, летіти, сідати й зупинятися, замість вибору цілі для автономного руху.
+Гравець безперервно задає тангаж, крен, рискання, тягу й колісне гальмування літака з фіксованим крилом, щоб рулити, злітати, летіти, сідати й зупинятися, замість вибору пункту призначення для автономного руху.
 
 ### Включає
 
-Ручний політ і наземне керування Cessna 172 G1000 без автопілота в Microsoft Flight Simulator 2024.
+Ручне пілотування й наземне керування Cessna 172 G1000 без автопілота в межах аналізованого польоту Free Flight у Microsoft Flight Simulator 2024.
 
 ### Виключає
 
@@ -8072,7 +8277,7 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 
 ## ACT-322
 
-- Назва: Обрати роль до пошуку матчу
+- Назва: Зафіксувати одне місце в рольовій черзі до пошуку матчу
 - Переглянуто: `2026-08-31`
 
 ### Операційне визначення
@@ -8081,11 +8286,11 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 
 ### Включає
 
-Вибір танка (Tank), героя шкоди (Damage) або героя підтримки (Support) у звичайній черзі Overwatch 5v5 Role Queue.
+Вибір ролі Tank, Damage або Support у звичайній черзі Overwatch 5v5 Role Queue перед початком пошуку матчу Quick Play.
 
 ### Виключає
 
-Вибір героя після створення лобі; побажання в Open Queue; автономна роль агента; позначка профілю.
+Вибір героя після створення лобі; побажання у відкритій черзі Open Queue; автономну роль у групі; позначки профілю облікового запису.
 
 ### Ігри-носії
 
@@ -8093,7 +8298,7 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 
 ## ACT-323
 
-- Назва: Проголосувати за мапу або Random Map
+- Назва: Проголосувати за одну із запропонованих мап або випадковий варіант
 - Переглянуто: `2026-08-31`
 
 ### Операційне визначення
@@ -8161,7 +8366,7 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 
 ### Операційне визначення
 
-Гравець створює або змінює відкриту виробничу лінію та призначає їй частину військових фабрик країни.
+Гравець створює або змінює розблоковану лінію виробництва спорядження й призначає обрану кількість військових фабрик країни для подальшого випуску її продукції.
 
 ### Включає
 
@@ -8169,7 +8374,7 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 
 ### Виключає
 
-Державне будівництво; ручне виготовлення предмета; зміна шаблону дивізії.
+Вибір будівельного проєкту; ручне виготовлення одного предмета; зміну шаблону дивізії поза межами навчального пакета.
 
 ### Ігри-носії
 
@@ -8220,11 +8425,11 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 ## ACT-329
 
 - Назва: Призначити авіакрило регіону й завданню
-- Переглянуто: `2026-08-31`
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-Гравець спрямовує доступне авіакрило в допустимий повітряний регіон і вмикає підтримуване завдання.
+Гравець призначає одне доступне авіакрило повітряному регіону, що відповідає умовам, і вмикає або вимикає одне з його підтримуваних зараз завдань.
 
 ### Включає
 
@@ -8240,16 +8445,16 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 
 ## ACT-330
 
-- Назва: Вибрати машину для наступного наземного виходу
+- Назва: Вибрати придатну до появи машину зі складу для наступного наземного виїзду
 - Переглянуто: `2026-08-31`
 
 ### Операційне визначення
 
-На початковому екрані або після втрати техніки гравець вибирає одну доступну машину із зафіксованого складу як наступний безпосередньо керований об’єкт.
+У стані вибору перед появою або після втрати техніки гравець вибирає один наразі допустимий транспортний засіб зі складу, зафіксованого на матч, і призначає його наступною наземною машиною під безпосереднім керуванням.
 
 ### Включає
 
-Вибір M2A4, LVT(A)(1) або M2A2 в обмеженому матчі Ground Arcade без предметів Backup.
+Вибір M2A4, LVT(A)(1) або M2A2 для однієї з досліджених появ у Ground Arcade War Thunder, коли резервне повторне використання техніки недоступне.
 
 ### Виключає
 
@@ -8266,15 +8471,15 @@ Jump, double jump, directional flip, air roll і aerial control у Rocket League
 
 ### Операційне визначення
 
-До першого ходу гравець приймає показану руку або бере муліган, а потім кладе потрібну кількість карт униз бібліотеки.
+До першого ходу гравець або приймає поточну показану початкову руку, або запитує руку на заміну, а згодом кладе потрібну кількість карт униз бібліотеки.
 
 ### Включає
 
-London mulligan в одній визначеній партії Starter Deck Duel.
+Збереження початкової руки або лондонський муліган (London mulligan) у визначеній партії Starter Deck Duel гри MTG Arena.
 
 ### Виключає
 
-Скидання карт під час партії; конструювання колоди; повторний добір під час бою.
+Скидання карт під час поточного ходу; вибір карт під час конструювання колоди; повторний добір усієї руки як бойова дія, яку можна виконувати знову.
 
 ### Ігри-носії
 
@@ -8291,11 +8496,11 @@ London mulligan в одній визначеній партії Starter Deck Due
 
 ### Включає
 
-Plains, Island, Tranquil Cove або Temple of Enlightenment.
+Розігрування Plains, Island, Tranquil Cove або Temple of Enlightenment із колоди Arcane Aerialists.
 
 ### Виключає
 
-Розігрування постійного закляття; манове уміння; поява землі внаслідок іншого ефекту.
+Розігрування закляття постійного об’єкта; активацію манової здібності землі; введення землі на поле бою за вказівкою іншої карти.
 
 ### Ігри-носії
 
@@ -8308,15 +8513,15 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 
 ### Операційне визначення
 
-Гравець обирає придатну карту, оголошує режими, цілі й значення та сплачує вартість, щоб помістити закляття у стос.
+Гравець вибирає одну придатну для розігрування карту у видимій руці, оголошує всі потрібні режими, цілі та значення змінних, а потім підтверджує оплату вартості, яку може сплатити, щоб утворене закляття увійшло до стосу.
 
 ### Включає
 
-Істоту, миттєве закляття, чаклунство, артефакт або чари з Arcane Aerialists.
+Розігрування істоти, миттєвого закляття, чаклунства, артефакту або чарів з Arcane Aerialists згідно з поточними правилами допустимого моменту й цілей для відповідної карти.
 
 ### Виключає
 
-Розігрування землі; активоване уміння; негайне виконання без вікна пріоритету.
+Розігрування землі; активацію тексту постійного об’єкта, який уже перебуває на полі бою; негайне розв’язання закляття без вікна пріоритету.
 
 ### Ігри-носії
 
@@ -8325,19 +8530,19 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 ## ACT-334
 
 - Назва: Активувати уміння контрольованої карти
-- Переглянуто: `2026-08-31`
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-Гравець обирає активоване уміння контрольованої карти, задає потрібні варіанти й цілі та сплачує вартість активації.
+Гравець обирає одне активоване уміння контрольованої карти, задає потрібні варіанти й цілі та сплачує вартість активації, після чого уміння потрапляє до стеку, якщо воно не є умінням мани.
 
 ### Включає
 
-Будь-яке допустиме активоване уміння в партії готовими колодами.
+Активацію Goldvein Pick або іншого дозволеного активованого уміння в дослідженій партії готовою колодою.
 
 ### Виключає
 
-Розігрування самої карти-джерела; спрацьовуване уміння; автоматичне виконання системою.
+Розігрування самої карти-джерела; автоматичні спрацьовувані уміння; звичайне розігрування землі; системне розв’язання тексту активованого уміння.
 
 ### Ігри-носії
 
@@ -8354,7 +8559,7 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 
 ### Включає
 
-Явне або автоматичне передавання пріоритету в Arena.
+Явне або автоматичне передавання пріоритету в Arena, коли закляття, здібність, фаза чи крок очікують відповіді обох гравців.
 
 ### Виключає
 
@@ -8366,7 +8571,7 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 
 ## ACT-336
 
-- Назва: Оголосити допустимий набір нападників
+- Назва: Оголошувати допустимий набір істот-нападників
 - Переглянуто: `2026-08-31`
 
 ### Операційне визначення
@@ -8375,11 +8580,11 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 
 ### Включає
 
-Неповернуті істоти Arcane Aerialists, які досить довго перебувають під контролем гравця або мають прискорення.
+Атака неповернутими істотами з наданої колоди Arcane Aerialists, яких гравець контролює від початку цього ходу або які мають прискорення.
 
 ### Виключає
 
-Бойову шкоду; вибір блокувальників; закляття у вікні бою.
+Завдання бойової шкоди; вибір блокувальників; розігрування закляття у вікні пріоритету під час бою.
 
 ### Ігри-носії
 
@@ -8387,12 +8592,12 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 
 ## ACT-337
 
-- Назва: Призначити допустимих блокувальників
+- Назва: Оголошувати допустимих істот-блокувальників
 - Переглянуто: `2026-08-31`
 
 ### Операційне визначення
 
-Захисник зіставляє свої неповернуті істоти з нападниками відповідно до здатностей обходу, обмежень і вимог.
+На кроці оголошення блокувальників гравець, який захищається, призначає будь-яких допустимих неповернутих істот під своїм контролем блокувати атакувальних істот за чинними правилами обходу блокування, обмеженнями та вимогами.
 
 ### Включає
 
@@ -8400,7 +8605,7 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 
 ### Виключає
 
-Вибір нападників; бойову шкоду; пізніше миттєве закляття.
+Вибір нападників; призначення бойової шкоди; розігрування миттєвого закляття після оголошення блокувальників.
 
 ### Ігри-носії
 
@@ -8430,20 +8635,20 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 
 ## ACT-339
 
-- Назва: Передати привиду напарника предмет відродження
+- Назва: Передати виготовлений предмет відродження привиду напарника
 - Переглянуто: `2026-08-31`
 
 ### Операційне визначення
 
-Живий гравець застосовує перенесене серце до привида загиблого напарника й повертає його до тілесної гри.
+Один живий гравець спрямовує предмет відродження, який має при собі, на привида загиблого напарника поблизу й застосовує цей предмет, щоб повернути напарника до гри в тілесній формі.
 
 ### Включає
 
-Передавання Telltale Heart привиду другого вцілілого.
+Передавання Telltale Heart привиду іншого вцілілого Wilson у дослідженій межі.
 
 ### Виключає
 
-Самовідродження; автоматична поява; лікування живого напарника.
+Самовідродження привида; дотик до Florid Postern у режимі Endless; автоматичну повторну появу; лікування живого напарника.
 
 ### Ігри-носії
 
@@ -8456,15 +8661,15 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 
 ### Операційне визначення
 
-У дозволеній командній зоні появи гравець вибирає доступний клас і надає поточному або наступному керованому тілу його базове стандартне спорядження.
+Коли правила дозволяють вибір класу для командної появи, гравець вибирає один доступний для гри клас і призначає його поточному керованому тілу або тілу наступного життя разом із відповідним базовим стандартним комплектом.
 
 ### Включає
 
-Вибір і зміна одного з дев’яти звичайних класів Team Fortress 2 із дозволеними дублями в команді.
+Вибір або зміна одного з дев’яти звичайних класів Team Fortress 2 під час командної появи в Casual Payload, із дозволеними повтореннями класів у товаришів по команді.
 
 ### Виключає
 
-Вибір на весь матч; чергу ролей; напарника Team-Up; альтернативну зброю; оздоблення.
+Вибір героя на весь матч; фіксацію місця в рольовій черзі; вибір напарника Team-Up; налаштування альтернативної зброї; косметичну зовнішність.
 
 ### Ігри-носії
 
@@ -8473,7 +8678,7 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 ## ACT-341
 
 - Назва: Виконати контекстну взаємодію зі станом сутності світу
-- Переглянуто: `2026-09-21`
+- Переглянуто: `2026-10-02`
 
 ### Операційне визначення
 
@@ -8481,7 +8686,7 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 
 ### Включає
 
-Читання Bloody Memo у Sastasha, активацію відповідного корала й відкритого перемикача, збирання та використання ключів Captain's Quarters і Waverider Gate, відкриття їхніх брам і включеної до дослідження скрині; керування дверима, ліфтом і бомбою Reactor No. 1 та звільнення Jessie зі сценарної пастки у Final Fantasy VII.
+Читання Bloody Memo у Sastasha, активація відповідного корала й відкритого перемикача, збирання та використання ключів Captain's Quarters і Waverider Gate, відкриття їхніх брам і включеної до дослідження скрині.
 
 ### Виключає
 
@@ -8495,11 +8700,13 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 - [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
 - [`GAME-0320` — "Animal Crossing: New Horizons"](../games/a-f/animal-crossing-new-horizons.md)
 - [`GAME-0312` — ASTRO BOT](../games/a-f/astro-bot.md)
+- [`GAME-0506` — Avowed](../games/a-f/avowed.md)
 - [`GAME-0386` — Banjo-Kazooie](../games/a-f/banjo-kazooie.md)
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0347` — "Castlevania: Symphony of the Night"](../games/a-f/castlevania-symphony-of-the-night.md)
 - [`GAME-0346` — Chrono Trigger](../games/a-f/chrono-trigger.md)
+- [`GAME-0490` — Comix Zone](../games/a-f/comix-zone.md)
 - [`GAME-0429` — Commandos: Behind Enemy Lines](../games/a-f/commandos-behind-enemy-lines.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0359` — "Crimson Skies: High Road to Revenge"](../games/a-f/crimson-skies-high-road-to-revenge.md)
@@ -8520,10 +8727,12 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
 - [`GAME-0269` — DREDGE](../games/a-f/dredge.md)
+- [`GAME-0473` — "Eternal Darkness: Sanity's Requiem"](../games/a-f/eternal-darkness-sanitys-requiem.md)
 - [`GAME-0405` — Fable II](../games/a-f/fable-ii.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0361` — Fallout: New Vegas](../games/a-f/fallout-new-vegas.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
+- [`GAME-0501` — F.E.A.R.](../games/a-f/fear.md)
 - [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
@@ -8534,6 +8743,9 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 - [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0399` — Ico](../games/g-l/ico.md)
+- [`GAME-0484` — Impossible Mission](../games/g-l/impossible-mission.md)
+- [`GAME-0510` — Indiana Jones and the Great Circle](../games/g-l/indiana-jones-and-the-great-circle.md)
+- [`GAME-0464` — "Jet Set Radio Future"](../games/g-l/jet-set-radio-future.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0388` — L.A. Noire](../games/g-l/la-noire.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
@@ -8546,10 +8758,12 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
+- [`GAME-0483` — "Oddworld: Stranger's Wrath"](../games/m-r/oddworld-strangers-wrath.md)
 - [`GAME-0382` — Ōkami HD](../games/m-r/okami-hd.md)
 - [`GAME-0224` — Once Human](../games/m-r/once-human.md)
 - [`GAME-0431` — Ori and the Blind Forest](../games/m-r/ori-and-the-blind-forest.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
 - [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
@@ -8557,15 +8771,19 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 - [`GAME-0344` — "Prince of Persia: The Sands of Time"](../games/m-r/prince-of-persia-the-sands-of-time.md)
 - [`GAME-0358` — Psychonauts](../games/m-r/psychonauts.md)
 - [`GAME-0404` — Ratchet & Clank](../games/m-r/ratchet-and-clank.md)
+- [`GAME-0508` — Ready or Not](../games/m-r/ready-or-not.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0348` — "Resident Evil: Director’s Cut"](../games/m-r/resident-evil-directors-cut.md)
+- [`GAME-0512` — Resident Evil Requiem](../games/m-r/resident-evil-requiem.md)
 - [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
 - [`GAME-0440` — Scribblenauts](../games/s-z/scribblenauts.md)
 - [`GAME-0319` — Sea of Thieves](../games/s-z/sea-of-thieves.md)
+- [`GAME-0485` — Shenmue](../games/s-z/shenmue.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0430` — Silent Hill](../games/s-z/silent-hill.md)
 - [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
+- [`GAME-0502` — South of Midnight](../games/s-z/south-of-midnight.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 - [`GAME-0331` — Starfield](../games/s-z/starfield.md)
@@ -8575,12 +8793,16 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 - [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
 - [`GAME-0395` — "The Legend of Zelda: Majora’s Mask"](../games/s-z/the-legend-of-zelda-majoras-mask.md)
 - [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
+- [`GAME-0513` — Thief: The Dark Project](../games/s-z/thief-the-dark-project.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
 - [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
+- [`GAME-0498` — Transport Fever 2](../games/s-z/transport-fever-2.md)
 - [`GAME-0268` — Undertale](../games/s-z/undertale.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
+- [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
+- [`GAME-0496` — "Warhammer 40,000: Space Marine 2"](../games/s-z/warhammer-40000-space-marine-2.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
 
 ## ACT-342
@@ -8590,15 +8812,15 @@ Plains, Island, Tranquil Cove або Temple of Enlightenment.
 
 ### Операційне визначення
 
-На дозволеній контрольній точці кампанії гравець вибирає раніше відкриті вузли й повертає вкладені очки до нерозподіленого запасу.
+На допустимій контрольній точці кампанії гравець вибирає один або кілька раніше розподілених вузлів розвитку персонажа й підтверджує дозволене повернення вкладень, щоб їхні очки знову стали нерозподіленими.
 
 ### Включає
 
-Reignite the Sparks у Black Myth: Wukong для одного вузла, гілки або всіх Sparks без плати Will.
+Reignite the Sparks у Black Myth: Wukong для одного вузла, гілки або всіх наразі розподілених Sparks у Keeper's Shrine без плати Will.
 
 ### Виключає
 
-Витрата вільного очка; платне скидання характеристик; повернення предмета; розвиток облікового запису.
+Витрату доступного очка; купівлю платного скидання характеристик; повернення предмета чи розвитку всього облікового запису.
 
 ### Ігри-носії
 
@@ -8615,7 +8837,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Вибір Nord і підтвердження тіла, обличчя та імені на початку Helgen у The Elder Scrolls V: Skyrim Special Edition.
+Вибір Nord і підтвердження параметрів тіла, обличчя та імені в Helgen під час дослідженого нового початку The Elder Scrolls V: Skyrim Special Edition.
 
 ### Виключає
 
@@ -8636,11 +8858,11 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Один заявлений замок тюремної камери рівня Novice на маршруті Hadvar через Helgen Keep.
+Відчинення одного визначеного замка тюремної камери рівня Novice під час дослідженого маршруту Hadvar через Helgen Keep у Skyrim Special Edition.
 
 ### Виключає
 
-Використання відповідного ключа; числовий код; автоматична перевірка навички; руйнування дверей ударом.
+Використання правильного ключа, який гравець має при собі; введення числового коду; автоматичне розв’язання перевірки навички; силове відчинення дверей атакою.
 
 ### Ігри-носії
 
@@ -8658,11 +8880,11 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Черговий Store House у Kislev Refuge та одна споруда за день у місті Heroes III.
+Поставлений у чергу Store House у Kislev Refuge та одна допустима споруда за день у місті Heroes of Might and Magic III: Complete.
 
 ### Виключає
 
-Вільне просторове будівництво в реальному часі; міське виробництво з поступовим накопиченням; найм підрозділу; безкоштовна декорація.
+Вільне розміщення споруди в реальному часі; вибір цілі міського виробництва з оплатою міським виробітком; найм одиниці; миттєву сценарну декорацію.
 
 ### Ігри-носії
 
@@ -8671,12 +8893,12 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ## ACT-346
 
-- Назва: Розташувати підрозділи в зоні розгортання
+- Назва: Розташувати підрозділи в передбойовій зоні розгортання
 - Переглянуто: `2026-08-31`
 
 ### Операційне визначення
 
-До початку бою гравець задає позицію, напрямок, ширину й групування керованих підрозділів у межах дозволеної для сторони області.
+До початку бою в реальному часі гравець вибирає керовані підрозділи й фіксує їхні позиції, напрямки, ширину та групування в межах поточної допустимої області розгортання своєї сторони.
 
 ### Включає
 
@@ -8684,7 +8906,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Виключає
 
-Наказ рухатися після початку бою; поява підкріплень; розміщення поза межею; декоративна схема.
+Подання наказу рухатися після початку бою; вибір місця появи підкріплень; розміщення підрозділів поза межею розгортання; косметичне показування армії.
 
 ### Ігри-носії
 
@@ -8692,20 +8914,20 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ## ACT-347
 
-- Назва: Найняти доступних у поселенні бійців до сталої сили
+- Назва: Найняти доступних у поселенні новобранців до війська, що зберігається в кампанії
 - Переглянуто: `2026-09-21`
 
 ### Операційне визначення
 
-У власному чи відвіданому поселенні вибрати доступний тип і кількість новобранців та сплатити ціну, щоб запас увійшов до сумісних комірок або стосів сталої сили кампанії.
+У власному або відвіданому поселенні гравець вибирає наразі доступні тип і кількість новобранців та сплачує показану ціну, щоб вибрані новобранці потрапили до сумісних комірок або стосів війська, що зберігається в кампанії.
 
 ### Включає
 
-Новобранці Tevea в Bannerlord і істоти з жител власного міста Heroes III.
+Найм новобранців у Tevea в Bannerlord і найм істот за вказану ціну з житла у власному місті Heroes III.
 
 ### Виключає
 
-Черга тренування в стратегії реального часу; переконання полоненого; сюжетний супутник; автоматичне зростання населення.
+Тренування поставленої в чергу одиниці в стратегії реального часу; поступове переконування полоненого; найм іменного супутника через завдання; автоматичне зростання населення.
 
 ### Ігри-носії
 
@@ -8723,11 +8945,11 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Посадку, безпосередню їзду й спішування з поточного осідланого коня Артура протягом визначеного розділу 2 Red Dead Redemption 2 та з початкового коня в навчальних польових боях Mount & Blade II: Bannerlord.
+Посадка верхи на поточного осідланого коня Артура Моргана, їзда на ньому та спішування під час дослідженого маршруту розділу 2 Red Dead Redemption 2; такі самі дії із зафіксованим стартовим конем під час досліджених навчальних польових боїв Mount & Blade II: Bannerlord.
 
 ### Виключає
 
-Дистанційне підкликання постійного скакуна до персонажа (ACT-271); виклик відсутнього спектрального скакуна з переходом до їзди однією активацією (ACT-247); автоматичний кінний маршрут (ACT-243); окрему здатність супутника (ACT-197); керування дорожнім транспортом (ACT-201).
+Дистанційне підкликання збережуваного скакуна до персонажа (ACT-271); виклик відсутнього спектрального скакуна з переходом до їзди однією активацією (ACT-247); запуск руху верхи за маршрутом до цілі (ACT-243); активацію особливої партнерської здібності супутника (ACT-197); вхід до дорожнього транспорту й керування ним (ACT-201).
 
 ### Ігри-носії
 
@@ -8740,20 +8962,20 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ## ACT-349
 
-- Назва: Спрямувати блок проти напрямку удару
-- Переглянуто: `2026-08-31`
+- Назва: Утримувати блок зброєю в напрямку однієї атаки, що наближається
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-У живому ближньому бою навести й утримувати зброю або щит у вибраному напрямку, щоб геометрія захисту могла зустріти вхідний удар.
+У поточному ближньому бою гравець наводить і утримує захист спорядженою зброєю або щитом у напрямку однієї поточної атаки чи відпускає його, щоб вибрана геометрія захисту могла протистояти удару, що наближається.
 
 ### Включає
 
-Напрямлені блоки зброєю та щитом у навчанні Bannerlord.
+Напрямлені блоки зброєю та щитом під час дослідженого навчального бою Mount & Blade II: Bannerlord.
 
 ### Виключає
 
-Верхній або нижній захист у файтингу; часовий парирувальний прийом без вибору напрямку; пасивна броня; покроковий захист.
+Верхній або нижній захист відносно суперника у Street Fighter; підказку парирування з часовою вимогою без вибору напрямку; пасивну броню; покрокову команду захисту Defend.
 
 ### Ігри-носії
 
@@ -8766,19 +8988,20 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Операційне визначення
 
-Під час прямого керування виданою місією машиною запросити передбачене правилами відновлення, ремонт або переміщення до точки відновлення, щоб пошкоджена, розвернута чи застрягла машина могла продовжити спробу без автоматичного зарахування маршруту.
+Під час безпосереднього керування виданою місією машиною гравець запитує передбачене поточними правилами відновлення, ремонт або перехід до позиції відновлення, щоб пошкоджена, розвернута чи застрягла машина могла продовжити спробу. Сама ця команда не зараховує пропущений поступ маршрутом.
 
 ### Включає
 
-Звичайну команду Recover Vehicle у Road Master; повний перезапуск лишається чистою межею повторної спроби.
+Звичайне застосування Recover Vehicle під час дослідженої Road Master у BeamNG.drive; перезапуск поточної місії з початку залишається визначеною межею повторної спроби.
 
 ### Виключає
 
-Кероване перемотування історії; завантаження збереження; перенесення через вільну камеру; довільна домашня позиція.
+Кероване гравцем перемотування з можливістю обрати інше продовження; завантаження збереження кампанії; телепортацію через вільну камеру; ручне збереження й завантаження довільної домашньої позиції.
 
 ### Ігри-носії
 
 - [`GAME-0195` — BeamNG.drive](../games/a-f/beamng-drive.md)
+- [`GAME-0507` — MotorStorm](../games/m-r/motorstorm.md)
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
 
 ## ACT-351
@@ -8788,15 +9011,15 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Операційне визначення
 
-У поточному списку контрактів прийняти одну пропозицію, яка фіксує вид роботи, призначене поле, винагороду й поріг завершення, та погодитися на оголошену плату за сумісну техніку роботодавця.
+Із поточного списку польових контрактів гравець приймає одну пропозицію, яка фіксує завдання, призначене поле, показану винагороду й межу поступу, та погоджується на оголошене відрахування за сумісну техніку роботодавця протягом цього контракту.
 
 ### Включає
 
-Прийняття контракту Fertilizing у Farming Simulator 25 через Borrow Items.
+Прийняття дослідженого контракту Fertilizing у Farming Simulator 25 із вибором Borrow Items.
 
 ### Виключає
 
-Перевезення завантаженого дорожнього вантажу; загальний лізинг чи купівлю техніки; призначення працівника зі штучним інтелектом; сам перегляд пропозиції.
+Прийняття дорожнього вантажного замовлення з уже завантаженим транспортом; лізинг машини для загального користування на фермі; купівлю спорядження; призначення автономного працівника; перегляд пропозиції без її прийняття.
 
 ### Ігри-носії
 
@@ -8825,20 +9048,20 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ## ACT-353
 
-- Назва: З’їсти окрему страву й зайняти часовий слот
+- Назва: З’їсти страву іншого типу й зайняти комірку їжі для виживання на певний час
 - Переглянуто: `2026-08-31`
 
 ### Операційне визначення
 
-З’їсти перенесену страву іншого типу, додавши або поновивши її обмежений у часі внесок у дозволеному слоті, щоб змінити особисті показники виживання.
+Гравець споживає одну страву, яку має при собі й тип якої відрізняється від типів у поточному активному наборі, додаючи або поновлюючи її обмежений у часі внесок у допустимій комірці їжі, щоб цей внесок міг змінити межі особистих показників виживання.
 
 ### Включає
 
-Одна страва з біому Meadows в одному з трьох активних слотів Valheim.
+Надходження однієї дослідженої страви з біому Meadows до однієї з трьох активних комірок Valheim.
 
 ### Виключає
 
-Запобігання голодній смерті; лікувальне зілля; пасивний запас; надто рання заміна, якої ще не дозволяє травлення.
+Споживання їжі для запобігання голодній смерті; пиття лікувального зілля; пасивне живлення з інвентарю; заміну їжі до того, як це дозволить травлення.
 
 ### Ігри-носії
 
@@ -8846,7 +9069,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ## ACT-354
 
-- Назва: Прочитати світовий дороговказ до вівтаря боса
+- Назва: Прочитати світовий дороговказ, щоб відкрити розташування вівтаря боса
 - Переглянуто: `2026-08-31`
 
 ### Операційне визначення
@@ -8855,11 +9078,11 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Вегвізир Ейктюра біля Жертовних Каменів у Valheim.
+Взаємодія з дослідженим Вегвізиром Ейктюра на початкових Жертовних Каменях у Valheim.
 
 ### Виключає
 
-Рух до вже відомої позначки; кидання витратного засобу пошуку; відкриття орієнтира лише після входу в його радіус.
+Рух за вже наявною позначкою мапи; кидання витратного покажчика напрямку; виявлення орієнтира лише входом до його локального радіуса.
 
 ### Ігри-носії
 
@@ -8867,20 +9090,20 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ## ACT-355
 
-- Назва: Підібрати, кинути або втратити зброю з арени
-- Переглянуто: `2026-08-31`
+- Назва: Підібрати, кинути або відкинути зброю, що з’явилася на арені
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-Під час бою взаємодіяти з досяжним нейтральним предметом, щоб озброїти бійця, або кинути чи втратити поточну зброю й повернутися до набору команд без зброї.
+Під час поточного матчу на арені гравець взаємодіє з досяжною нейтральною зброєю, щоб зробити її активною зброєю бійця, або підтверджує команду кинути чи відкинути її, яка повертає бійця до набору команд без зброї.
 
 ### Включає
 
-Підбирання та кидання Sword або Hammer бійцем Bödvar у визначеному матчі Stock у Brawlhalla.
+Підбирання й кидання бійцем Bödvar зброї Sword або Hammer, що з’явилася у визначеному матчі Stock у Brawlhalla.
 
 ### Виключає
 
-Вибір швидкого слота; постійна здобич в інвентарі; gadget; косметичне оформлення зброї.
+Вибір переносної зброї в швидкій комірці; здобуття предмета в постійний інвентар; запуск метального пристрою; косметичні вигляди зброї.
 
 ### Ігри-носії
 
@@ -8893,7 +9116,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Операційне визначення
 
-У дозволеному стані виконати ухилення на місці або в обраному напрямку, розпочавши захищене переміщення та прийнявши подальшу затримку до поновлення дії.
+Коли боєць під час гри має змогу виконати дію, гравець подає команду ухилення на місці або в одному напрямку, щоб запросити захищене переміщення й прийняти подальший стан часу відновлення або скидання готовності до ухилення.
 
 ### Включає
 
@@ -8901,7 +9124,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Виключає
 
-Пасивне уникнення; захист відносно суперника; підказка ходу; перевертання транспортного засобу.
+Пасивну ймовірність ухилення; утримування захисту відносно суперника; підказану захисну дію в покроковому бою; переворот транспортного засобу без невразливості.
 
 ### Ігри-носії
 
@@ -8911,6 +9134,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0447` — Punch-Out!!](../games/m-r/punch-out.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
+- [`GAME-0502` — South of Midnight](../games/s-z/south-of-midnight.md)
 
 ## ACT-358
 
@@ -8923,7 +9147,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Наказ цивільному Bank Heist лягти, зв’язування стяжкою та команди йти або чекати.
+Наказ криком цивільному в Bank Heist гри PAYDAY 2 лягти на підлогу, зв’язування цього цивільного кабельною стяжкою та команди йти слідом або залишатися на місці.
 
 ### Виключає
 
@@ -8941,15 +9165,15 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Операційне визначення
 
-Гравець переводить допустиму запаковану здобич у спеціальний стан перенесення, рухається або кидає її у світі й здає в сумісній зоні зарахування.
+Гравець переводить один допустимий цільовий вантаж у сумці до спеціального стану перенесення, переміщує або кидає його у світі й залишає всередині сумісної зони зарахування.
 
 ### Включає
 
-Пакування готівки Bank Heist у сумку, перенесення або кидання й завантаження до фургона; пакування, передавання й здавання рідкісноземельної здобичі в Road Rage.
+Пакування пакунка готівки в Bank Heist гри PAYDAY 2 у сумку, перенесення або кидання цієї грошової сумки й завантаження її до фургона для втечі; пакування, передавання та здавання рідкісноземельних вантажів під час Road Rage у PAYDAY 3.
 
 ### Виключає
 
-Підбирання розсипаної готівки; спорядження зброї; довільний фізичний предмет; подальший розрахунок виплати.
+Підбирання окремої готівки з негайним зарахуванням; спорядження зброї; переміщення фізичного реквізиту без обмежень; подальший розрахунок виплати.
 
 ### Ігри-носії
 
@@ -8967,11 +9191,11 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Вибір Viper Ning точки появи перед Solo BOT Mode на Wanchu.
+Вибір точки появи для Viper Ning перед дослідженим матчем Solo BOT Mode на Wanchu.
 
 ### Виключає
 
-Вистрибування з літака; пізніше повернення; випадкову появу без вибору.
+Вихід із літака в русі; вибір пізнішої повторної появи; випадкове введення в гру без вибору гравця; домашнє місце на рівні облікового запису.
 
 ### Ігри-носії
 
@@ -8984,15 +9208,15 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Операційне визначення
 
-Гравець прицілює багаторазову здібність або витратний заряд гака в поверхню чи учасника, до яких можна зачепитися, і підтверджує рух уздовж троса до вибраної цілі.
+Гравець наводить багаторазову здібність або заряд гака, який має при собі, на допустиму поверхню чи активного учасника бою та підтверджує зближення вздовж троса до вибраної цілі.
 
 ### Включає
 
-Пересування, переслідування та відступ із Grappling Hook у NARAKA: BLADEPOINT; рух до позначених опор у Sekiro.
+Пересування, переслідування та втеча з Grappling Hook у NARAKA: BLADEPOINT; підтягування гаком до позначених опор на поверхні в Sekiro.
 
 ### Виключає
 
-Підтягування предмета до себе; телепортацію без руху вздовж троса; приховане знешкодження цілі.
+Підтягування предмета до гравця; телепортацію без зближення вздовж троса; тихе знешкодження цілі, яка не помічає гравця.
 
 ### Ігри-носії
 
@@ -9010,11 +9234,11 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Хват за поверхню, підтягування, перехід на уступ і навмисне відпускання в PEAK; хват за хутро й виступи першого рухомого колоса у Shadow of the Colossus.
+Хват за поверхню, лазіння, перехід на уступ і навмисне відпускання в PEAK; хват за хутро й виступи першого рухомого колоса у Shadow of the Colossus.
 
 ### Виключає
 
-Звичайну ходьбу; автоматичну драбину; необмежене лазіння по стінах; окреме керування двома руками.
+Звичайну ходьбу; пересування драбиною, яке є лише анімацією; необмежене автоматичне лазіння по стінах; незалежне керування кожною з двох рук окремою кнопкою.
 
 ### Ігри-носії
 
@@ -9023,20 +9247,20 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ## ACT-363
 
-- Назва: Установити альпіністський засіб на місцевості
+- Назва: Установити на місцевості один альпіністський засіб, узятий із собою
 - Переглянуто: `2026-08-31`
 
 ### Операційне визначення
 
-Гравець вибирає скінченний засіб зі спорядження й застосовує його до сумісної досяжної поверхні, щоб створити опору, лінію чи місце відпочинку.
+Гравець вибирає один альпіністський засіб з обмеженого запасу при собі й застосовує його до сумісної досяжної поверхні, щоб запросити створення опори, лінії або місця відпочинку, які зберігатимуться протягом поточної експедиції.
 
 ### Включає
 
-Установлення Rope Spool або Piton у PEAK.
+Прокладання лінії з Rope Spool або встановлення Piton у PEAK для подальшої опори під час лазіння.
 
 ### Виключає
 
-Миттєве підтягування гаком; постійне будівництво; викидання інертного предмета.
+Постріл гаком, який одразу переміщує користувача; постійне будівництво; викидання інертного предмета; задану авторами драбину.
 
 ### Ігри-носії
 
@@ -9044,20 +9268,20 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ## ACT-364
 
-- Назва: Активувати переносний сигнал у допустимій зоні
+- Назва: Активувати сигнальний предмет, який гравець має при собі, у допустимій зоні
 - Переглянуто: `2026-09-09`
 
 ### Операційне визначення
 
-Маючи придатний сигнальний предмет у визначеній зоні, гравець запалює або запускає його, витрачає звичайне подальше використання й викликає пов’язану відповідь порятунку чи завершення.
+Маючи придатний для використання сигнальний предмет у визначеній для нього зоні активації, гравець запалює або запускає його, щоб запросити пов’язану реакцію порятунку чи завершення. Це витрачає можливість подальшого звичайного використання предмета.
 
 ### Включає
 
-Запалення Flare у зоні PEAK; постріл із зарядженого Distress Pistol на верхівці Lighthouse у The Long Dark.
+Запалення Flare в області PEAK для виклику гелікоптера; постріл із зарядженого Distress Pistol з верхівки Lighthouse у випробуванні The Long Dark.
 
 ### Виключає
 
-Використання того самого предмета лише як зброї; автоматичний вихід від самого прибуття; декоративну дію.
+Постріл тим самим предметом лише як бойову атаку; вхід до вже відкритого виходу; суто косметичну емоцію; порятунок, що автоматично запускається від самого прибуття.
 
 ### Ігри-носії
 
@@ -9071,7 +9295,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Операційне визначення
 
-Гравець обирає одне доступне спрямування в межах способу життя керованого персонажа, замінюючи сталі впливи цього спрямування без зміни решти стану персонажа.
+Гравець обирає одне наразі доступне спрямування в межах способу життя керованого персонажа, замінює пов’язані зі спрямуванням пасивні ефекти та зберігає загальний стан персонажа.
 
 ### Включає
 
@@ -9193,16 +9417,16 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ## ACT-371
 
-- Назва: Звичайно викликати або встановити одного монстра
+- Назва: Виконувати звичайний виклик (Normal Summon) або звичайне встановлення (Normal Set) одного монстра
 - Переглянуто: `2026-09-01`
 
 ### Операційне визначення
 
-У допустимій власній головній фазі гравець викладає законного монстра з руки горілиць у позицію атаки як звичайний виклик або долілиць у позицію захисту як звичайне встановлення й витрачає спільне право цього ходу.
+Під час допустимої власної головної фази гравець викладає одного допустимого монстра з руки горілиць у позицію атаки як Normal Summon або долілиць у позицію захисту як Normal Set і витрачає спільне для цих двох процедур право на цей хід.
 
 ### Включає
 
-Звичайного монстра 4-го або нижчого рівня в розділі 10003.
+Звичайний випадок із монстром 4-го або нижчого рівня в навчальному розділі Tutorial 10003.
 
 ### Виключає
 
@@ -9215,19 +9439,19 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 ## ACT-372
 
 - Назва: Виконати один особливий виклик за процедурою
-- Переглянуто: `2026-09-01`
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-Гравець оголошує одну зараз допустиму процедуру особливого виклику, вибирає всі потрібні матеріали або джерело й остаточно витрачає їх, щоб відповідний монстр увійшов до законної зони та позиції.
+Гравець оголошує одну зараз дозволену процедуру особливого виклику, вибирає всі потрібні матеріали або джерело й підтверджує використання цих об’єктів за процедурою, щоб відповідний монстр увійшов до дозволеної зони поля та позиції.
 
 ### Включає
 
-Доступні Synchro, Xyz або Link Summon із п’яти карт додаткової колоди розділу 10003.
+Доступні особливі виклики Synchro, Xyz або Link із додаткової колоди розділу 10003, яка містить п’ять карт.
 
 ### Виключає
 
-Звичайний виклик із жертвою; автоматичний виклик ефектом без обраної процедури; створення колоди.
+Звичайний виклик або виклик із жертвою; автоматичний виклик ефектом карти без обраної гравцем процедури; створення колоди.
 
 ### Ігри-носії
 
@@ -9261,7 +9485,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Операційне визначення
 
-Гравець оголошує одну зараз доступну карту Spell, Trap або ефект монстра, сплачує визначену вартість і вибирає потрібні цілі, щоб активація стала першою нерозв’язаною ланкою ланцюга.
+Гравець оголошує активацію однієї карти Spell або Trap чи одного ефекту монстра, які зараз можна активувати, сплачує визначену вартість і вибирає потрібні цілі, щоб активація стала першою нерозв’язаною ланкою ланцюга.
 
 ### Включає
 
@@ -9278,15 +9502,15 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 ## ACT-375
 
 - Назва: Додати допустиму відповідь наступною ланкою ланцюга
-- Переглянуто: `2026-09-01`
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-Після чужої активації гравець вибирає законну відповідь такої самої або вищої швидкості, сплачує її вартість і додає її наступною пронумерованою ланкою до розв’язання будь-якого ефекту.
+Після активації іншого ефекту гравець, який відповідає, вибирає одну дозволену відповідь такої самої або вищої швидкості, сплачує її витрати й додає її наступною пронумерованою ланкою ланцюга до розв’язання будь-якого пов’язаного ефекту.
 
 ### Включає
 
-Відповідь допустимою Trap, Quick-Play Spell або Quick Effect у визначеному двобої.
+Додавання допустимої Trap, Quick-Play Spell або Quick Effect до ланцюга в дослідженому двобої.
 
 ### Виключає
 
@@ -9303,7 +9527,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Операційне визначення
 
-У законній фазі бою гравець вибирає одного придатного відкритого монстра в позиції атаки й остаточно спрямовує його звичайну атаку на законного ворожого монстра або безпосередньо, коли поле це дозволяє.
+Під час допустимої фази бою гравець вибирає одного придатного монстра горілиць у позиції атаки й оголошує його звичайну атаку на одного допустимого монстра суперника або безпосередньо на суперника, якщо стан поля це дозволяє.
 
 ### Включає
 
@@ -9311,7 +9535,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Виключає
 
-Одночасний вибір групи нападників; вибір блокувальника; розрахунок бойової шкоди.
+Одночасний вибір групи нападників; вибір блокувальника; визначення та застосування бойової шкоди.
 
 ### Ігри-носії
 
@@ -9324,7 +9548,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Операційне визначення
 
-У допустимій власній головній фазі гравець переводить одного монстра між відкритими позиціями атаки й захисту або виконує переворотний виклик придатного встановленого монстра.
+У допустимій власній головній фазі гравець переводить одного монстра між позиціями атаки горілиць і захисту горілиць або здійснює Flip Summon — переворотний виклик допустимого монстра з позиції захисту долілиць.
 
 ### Включає
 
@@ -9341,7 +9565,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 ## ACT-378
 
 - Назва: Обслуговувати споряджену зброю ближнього бою в польових умовах
-- Переглянуто: `2026-09-13`
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
@@ -9349,11 +9573,11 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Заточування Hunter's Knife I точильним каменем під час визначеного завдання Monster Hunter: World; відновлення додатної міцності зброї багаторазовим Grinder у визначеному вступі Lies of P.
+Заточування Hunter's Knife I точильним каменем під час дослідженого завдання з Great Jagras у Monster Hunter: World; відновлення додатної міцності зброї багаторазовим Grinder у дослідженому вступі Lies of P.
 
 ### Виключає
 
-Витрачання скінченного лікувального предмета; поліпшення в кузні; автоматичне відновлення після бою; ремонт незворотного руйнування зброї.
+Витрачання скінченного лікувального предмета; поліпшення в кузні; автоматичне відновлення гостроти після бою; ремонт постійного зношення зброї.
 
 ### Ігри-носії
 
@@ -9372,32 +9596,34 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Таран автомобіля охорони House у визначених етапах The Highway Heist гри Need for Speed Payback.
+Таран автомобіля охорони House під час досліджених етапів знищення ворожих автомобілів у The Highway Heist гри Need for Speed Payback.
 
 ### Виключає
 
-Випадкове зіткнення з потоком; постріл зі встановленої зброї; постановочну аварію без керованого заходу.
+Випадкове зіткнення з дорожнім транспортом; постріл зі встановленої зброї; поштовх автомобіля в Rocket League, після якого знищена ціль відроджується через заданий час; постановочну аварію без керованого гравцем зближення.
 
 ### Ігри-носії
 
+- [`GAME-0470` — "Burnout 3: Takedown"](../games/a-f/burnout-3-takedown.md)
+- [`GAME-0507` — MotorStorm](../games/m-r/motorstorm.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
 
 ## ACT-380
 
-- Назва: Завантажити або вивантажити вибрані підрозділи через транспорт
+- Назва: Завантажити або вивантажити вибрані одиниці через транспорт
 - Переглянуто: `2026-09-01`
 
 ### Операційне визначення
 
-Гравець вибирає допустимі наземні підрозділи й наказує їм увійти до одного досяжного транспорту або вибирає транспорт із пасажирами й наказує повернути їх на прохідну землю в допустимому місці.
+Гравець вибирає допустимі наземні одиниці й наказує їм увійти до одного досяжного транспортного засобу або вибирає зайнятий транспорт і наказує пасажирам, що перебувають на борту, повернутися на прохідну наземну поверхню в допустимому місці призначення.
 
 ### Включає
 
-Завантаження шведських селян і солдатів на пором та їх вивантаження на протилежному березі в Cossacks 3: War Ruse — Peace.
+Завантаження шведських селян і солдатів на пором та їх вивантаження на протилежному березі річки в Cossacks 3: War Ruse — Peace.
 
 ### Виключає
 
-Рух самого порома; автоматичну висадку підкріплення; посадку одного безпосередньо керованого персонажа в автомобіль; телепортацію між сталими точками.
+Рух самого порома; автоматичну висадку підкріплення; транспортний засіб, у який сідає один безпосередньо керований аватар; одиниці, телепортовані між фіксованими кінцевими точками.
 
 ### Ігри-носії
 
@@ -9406,41 +9632,42 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ## ACT-381
 
-- Назва: Застосувати контекстну дію одного предмета до іншого
-- Переглянуто: `2026-09-01`
+- Назва: Застосувати одну контекстну дію предмета в руках до іншого предмета
+- Переглянуто: `2026-10-05`
 
 ### Операційне визначення
 
-Гравець бере один предмет до рук, вибирає сумісний предмет у спорядженні або світі й виконує доступне поєднання, поділ, заряджання, ремонт чи просте ручне виготовлення.
+Гравець вибирає один предмет, який тримає в руках, і один сумісний предмет в інвентарі або світі, обирає доступну контекстну операцію та підтверджує їх поєднання, поділ, заряджання, ремонт або просте виготовлення.
 
 ### Включає
 
-Дії Combine, поділ стосу, заряджання набоями, ремонт і виготовлення з двох предметів у DayZ.
+Дії Combine в інвентарі, поділ стосу, заряджання набоями, ремонт і ручне виготовлення з двох предметів у DayZ протягом одного життя новоствореного персонажа в Chernarus.
 
 ### Виключає
 
-Абстрактну чергу рецептів; незмінне вдягання здобичі; безпосереднє споживання; автоматичне підбирання; недоступні для цієї пари поєднання.
+Вибір абстрактного рецепта з окремої черги виготовлення; спорядження незміненої здобичі; безпосереднє споживання предмета; автоматичне підбирання через контакт; довільні поєднання, яких поточна пара предметів не пропонує.
 
 ### Ігри-носії
 
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 
 ## ACT-382
 
-- Назва: Звернутися до людей поблизу голосом або жестом
-- Переглянуто: `2026-09-01`
+- Назва: Звернутися до вцілілих поблизу через місцевий голосовий канал або жест
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-Гравець навмисно говорить через просторовий канал або виконує видимий жест до людей поруч, поки керування спільним світом триває.
+Гравець навмисно говорить через поточний локальний голосовий канал або виконує видимий жест до вцілілих людей поблизу, поки триває керування у спільному світі.
 
 ### Включає
 
-Голос поблизу та жести DayZ для привітання, попередження, переговорів, здачі або обману незнайомця.
+Голос поблизу та жести DayZ для привітання, попередження, переговорів, здачі або введення в оману поміченого поблизу незнайомця.
 
 ### Виключає
 
-Надійний командний канал; зовнішній голосовий сервіс; автоматичні звуки болю; гарантовану правду, союз чи відповідь.
+Обмежений тактичний канал лише для союзників команди; зовнішній голосовий сервіс; автоматичні звуки болю чи хвороби; спілкування, яке гарантує правду, союз або відповідь.
 
 ### Ігри-носії
 
@@ -9465,6 +9692,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Ігри-носії
 
+- [`GAME-0506` — Avowed](../games/a-f/avowed.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0303` — Sifu](../games/s-z/sifu.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
@@ -9480,11 +9708,11 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Перемикання обмежувача клавішею F5 під час визначених поїздок таксі у Mafia (2002).
+Перемикання обмежувача швидкості клавішею F5 у дослідженому відрізку поїздок таксі розділу 2 Mafia (2002) для зменшення спостереженого ризику перевищення швидкості.
 
 ### Виключає
 
-Автоматичний рух маршрутом; постійне вдосконалення двигуна; налаштування складності; звичайне гальмування; довільну швидкість круїз-контролю.
+Автономний рух за маршрутом; постійне вдосконалення двигуна; налаштування складності події; звичайне гальмування; ціль круїз-контролю, який активно підтримує довільну вибрану швидкість.
 
 ### Ігри-носії
 
@@ -9497,11 +9725,11 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Операційне визначення
 
-Гравець наводить один доступний багаторазовий ручний інструмент на сумісну досяжну ціль і кидає його або відкликає вже встановлений інструмент назад до стану, придатного для тримання в руці.
+Гравець наводить один наразі доступний багаторазовий ручний інструмент на досяжну сумісну ціль у світі й кидає його або наказує вже розміщеному інструменту від’єднатися й повернутися в руку, де він знову доступний.
 
 ### Включає
 
-Кидання й миттєве відкликання обмеженого набору цвяхів Коді у відрізку The Shed гри It Takes Two; наведення, кидок і відкликання Leviathan Axe у дослідженому початковому маршруті God of War.
+Кидання й миттєве відкликання обмеженого набору цвяхів Коді під час відрізка з молотком і цвяхами в The Shed гри It Takes Two; наведення, кидок і відкликання Leviathan Axe у дослідженому початковому маршруті God of War.
 
 ### Виключає
 
@@ -9523,7 +9751,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Удари Мей по позначених кнопках, замках, замках Toolbox і механізму запуску у визначеному відрізку The Shed.
+Удари Мей по позначених кнопках, замках маршрутів, замках Toolbox і заданому авторами механізму запуску у визначеному відрізку The Shed гри It Takes Two.
 
 ### Виключає
 
@@ -9565,11 +9793,11 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Траншеї, мішки з піском, перешкоди, протитанкові загородження й станції постачання на Arras у Battlefield V.
+Боєць Battlefield V використовує набір інструментів, щоб збудувати або полагодити траншею, мішки з піском, перешкоду, протитанкове загородження чи станцію постачання на Arras.
 
 ### Виключає
 
-Довільне будівництво; укріплення стіни з командного запасу Siege; ремонт техніки; руйнування геометрії.
+Необмежене довільне будівництво; укріплення стіни зі скінченного командного запасу Siege; ремонт транспортного засобу; руйнування вже наявної геометрії.
 
 ### Ігри-носії
 
@@ -9582,15 +9810,15 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Операційне визначення
 
-Поточний командир загону вибирає доступне підкріплення, визначає потрібну ціль і підтверджує витрату спільно зароблених очок загону.
+Поточний командир загону вибирає одне доступне підкріплення, визначає потрібну ціль на полі бою й підтверджує витрату спільно зароблених очок загону, щоб запросити його доставлення.
 
 ### Включає
 
-Виклик постачання, димової завіси або допустимого удару в Battlefield V.
+Виклики командиром загону скидання припасів, димового обстрілу або допустимого удару в Battlefield V після того, як загін заробив достатньо очок постачання.
 
 ### Виключає
 
-Особистий ґаджет; гранату з інвентарю; валюту облікового запису; автоматичний постановочний удар.
+Кидання гранати, яку гравець має при собі; використання спорядженого особистого пристрою; витрачання особистої валюти облікового запису; автоматичний сценарний авіаудар.
 
 ### Ігри-носії
 
@@ -9603,15 +9831,15 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Операційне визначення
 
-Перед дуеллю з визначеним суперником гравець одночасно тримає прицільну зосередженість на ньому та руку персонажа біля кобури, а тоді вихоплює револьвер раніше або у відповідь на видимий рух суперника.
+Перед дуеллю на вогнепальній зброї з визначеним суперником гравець одночасно утримує один прицільний маркер зосередження на суперникові й зображену руку біля зброї в кобурі, а потім підтверджує вихоплювання раніше за суперника або у відповідь на його видиме вихоплювання.
 
 ### Включає
 
-Підготовку Сайласа проти Пата Ґарретта в першій сюжетній дуелі Call of Juarez: Gunslinger.
+Підготовка Сайласом зосередження й швидкості руки проти Пата Ґарретта в першій сюжетній дуелі Call of Juarez: Gunslinger.
 
 ### Виключає
 
-Звичайне прицілювання з уже вихопленою зброєю; вибір бійця перед матчем; одну кнопку без підготовчого стану; автоматичну сцену.
+Звичайне вільне прицілювання з уже вихопленою зброєю; вибір бійця перед матчем проти іншого бійця; підказку на одне натискання кнопки з часовою вимогою; автоматичне вихоплювання у вставній сцені.
 
 ### Ігри-носії
 
@@ -9624,15 +9852,15 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Операційне визначення
 
-Після появи небойового джерела нагороди гравець спрямовує на нього звичайні атаки, щоб спробувати змінити рівень нагороди, а потім окремо взаємодіє з ним і забирає результат.
+Після того як обмежена сутичка створює небойовий об’єкт нагороди, гравець спрямовує на нього звичайні атаки, щоб спробувати змінити рівень нагороди, перш ніж виконати окрему взаємодію для її отримання.
 
 ### Включає
 
-Удари по Mystic Cube of Light and Darkness в Aion Classic перед отриманням посиленого спорядження.
+Удари по Mystic Cube of Light and Darkness в Aion Classic перед окремою взаємодією для отримання його нагороди — посиленого спорядження.
 
 ### Виключає
 
-Атаку ворога; відкривання незмінної скрині; руйнування пристрою задля проходу; гарантоване вдосконалення за валюту.
+Атаку ворога; відкривання незміненої скрині; пошкодження пристрою для звільнення маршруту; витрату валюти на поліпшення з наперед визначеним результатом.
 
 ### Ігри-носії
 
@@ -9664,20 +9892,20 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ## ACT-393
 
-- Назва: Розподіляти скінченну енергію між живими системами апарата
+- Назва: Розподіляти обмежену потужність апарата між його поточними підсистемами
 - Переглянуто: `2026-09-21`
 
 ### Операційне визначення
 
-Під час польоту перенаправляти один спільний скінченний запас енергії між поточними системами руху, захисту, зброї або подорожі чи відновлювати збалансований розподіл.
+Під час польоту перерозподіляти єдину спільну обмежену потужність апарата між поточними підсистемами рушіїв, захисту, озброєння або переміщення чи відновлювати збалансований розподіл.
 
 ### Включає
 
-Двигуни, лазери й щити X-wing; двигуни, щити, зброя та grav drive Frontier у Starfield.
+Керування двигунами, лазерами й щитами X-wing, якого навчають у Form the Vanguard; розподіл потужності між двигунами, щитами, озброєнням і гравітаційним двигуном Frontier.
 
 ### Виключає
 
-Купівлю поліпшень; постійний компонент; перенесення заряду між сторонами щита.
+Витрачання валюти на поліпшення; вибір постійного компонента; перенесення заряду щита між напрямками; застосування одного вміння з часом відновлення.
 
 ### Ігри-носії
 
@@ -9696,11 +9924,11 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Переднє та заднє фокусування щитів X-wing у Form the Vanguard.
+Спрямування щитів X-wing уперед або назад у Form the Vanguard.
 
 ### Виключає
 
-Подавання енергії до щитів; розворот корабля; ремонт корпусу.
+Розподіл енергії реактора на щити; поворот корабля, щоб зустріти атаку; ремонт корпусу; підняття одного неспрямованого тимчасового бар’єра.
 
 ### Ігри-носії
 
@@ -9717,11 +9945,11 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Використання Seeker Warheads із фіксованого спорядження X-wing.
+Використання Seeker Warheads із фіксованого спорядження X-wing у першій місії.
 
 ### Виключає
 
-Ухилення лише керуванням; запуск ракети по цілі; пасивне поглинання щитом.
+Ухилення лише кермуванням; постріл ракетою по цілі; пасивне перехоплення щитом; зміну спорядженого протиракетного засобу поза місією.
 
 ### Ігри-носії
 
@@ -9759,11 +9987,11 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Захоплення Override Console у Fortnite v42.00 Zero Build Solo.
+Одержання модифікатора через Override Console у Fortnite v42.00 Zero Build Solo.
 
 ### Виключає
 
-Введення Lobby Hack до добору гравців; налаштування приватного сервера; підбирання пасивного предмета; придбання поліпшення акаунта.
+Введення Lobby Hack до пошуку матчу; налаштування правил приватного сервера; підбирання пасивного предмета; придбання поліпшення облікового запису.
 
 ### Ігри-носії
 
@@ -9793,23 +10021,24 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 ## ACT-399
 
 - Назва: Подати сумісний матеріал до вказаного технологічного гнізда
-- Переглянуто: `2026-09-02`
+- Переглянуто: `2026-10-05`
 
 ### Операційне визначення
 
-Вибрати пошкоджене або заряджуване технологічне гніздо й подати сумісний переношуваний матеріал чи складник, щоб просунути ремонт або запас заряду.
+Гравець вибирає одне пошкоджене або заряджуване технологічне гніздо й подає сумісний матеріал або складник, який несе із собою, щоб просунути його ремонт або поповнити заряд, який можна використати.
 
 ### Включає
 
-Заповнення потрібного гнізда Scanner, Analysis Visor, Mining Beam, Pulse Engine, Launch Thruster, захисту від середовища або життєзабезпечення в ранній No Man’s Sky.
+Заповнення поясненої вимоги Scanner, Analysis Visor, Mining Beam, Pulse Engine, Launch Thruster, захисту від небезпек або життєзабезпечення у визначеному вступі No Man’s Sky.
 
 ### Виключає
 
-Виготовлення складника; ремонт будівельного блока; застосування лікування; необов'язкове поліпшення неушкодженої технології.
+Виготовлення поданого предмета; ремонт будівельного блока; застосування витратного предмета до здоров’я персонажа; встановлення необов’язкового неушкодженого поліпшення.
 
 ### Ігри-носії
 
 - [`GAME-0229` — "No Man’s Sky"](../games/m-r/no-mans-sky.md)
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 
 ## ACT-400
 
@@ -9822,11 +10051,11 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Запуск відремонтованого Scanner у навчанні No Man’s Sky.
+Запуск відремонтованого Exosuit Scanner під час дослідженого навчання No Man’s Sky.
 
 ### Виключає
 
-Тривале наведення аналізатора на одну ціль; quickhack; віддалене сканування сектора; постійні пасивні позначки.
+Утримання аналізатора на одній цілі; завантаження швидкого зламу; вибір сектора мапи для віддаленого сканування; пасивні позначки, видимі постійно.
 
 ### Ігри-носії
 
@@ -9834,7 +10063,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ## ACT-401
 
-- Назва: Розподілити фіксований початковий запас характеристик персонажа
+- Назва: Розподілити фіксований початковий запас очок характеристик персонажа
 - Переглянуто: `2026-09-03`
 
 ### Операційне визначення
@@ -9856,20 +10085,20 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ## ACT-402
 
-- Назва: Забрати одну записану нагороду за виконане випробування
+- Назва: Забрати нагороду за одне завершене відстежуване випробування
 - Переглянуто: `2026-09-03`
 
 ### Операційне визначення
 
-Гравець явно підтверджує один запис виконаного випробування в журналі, щоб перевести його окрему нагороду до стану гравця.
+Коли для видимого відстежуваного випробування вже зафіксовано виконання, гравець вибирає цей завершений запис і подає окрему команду одержання нагороди, яка зараховує визначену нагороду й позначає запис як такий, за яким нагороду вже забрано.
 
 ### Включає
 
-Окреме забирання кожного завершеного рядка Basics of Survival у 7 Days to Die.
+Окреме забирання кожного зеленого запису Basics of Survival під час дослідженого ознайомлювального відрізка 7 Days to Die.
 
 ### Виключає
 
-Автоматичну видачу без команди; забирання предмета зі світу; здавання завдання NPC.
+Саме виконання умови випробування; автоматичну виплату за завдання; вибір між кількома взаємовиключними предметами нагороди; одержання досягнення поза поточним світом; забирання предмета зі світу; здавання завдання NPC.
 
 ### Ігри-носії
 
@@ -9882,15 +10111,15 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Операційне визначення
 
-Під живим керуванням відкрити обмежену панель модулів, обрати доступний сумісний варіант однієї категорії чинної зброї й підтвердити заміну без повернення до підготовки.
+Зберігаючи керування поточним бійцем, гравець відкриває обмежену панель модулів, вибирає один доступний варіант однієї сумісної категорії для зброї в руках і підтверджує заміну без повернення до стану висадження або підготовки.
 
 ### Включає
 
-Заміну прицілу, ствола, боєприпасу або підствольного модуля через Plus у Battlefield 2042.
+Заміна через Plus Menu у Battlefield 2042 одного доступного варіанта прицілу, ствола, боєприпасів або підствольного модуля на поточній зброї.
 
 ### Виключає
 
-Налаштування наступного спорядження; зміну самої зброї; добування модуля; косметичне оформлення.
+Налаштування спорядження наступного життя; перемикання зброї в руках; підбирання модуля зі світу; косметичну обгортку зброї.
 
 ### Ігри-носії
 
@@ -9908,7 +10137,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Замовлення наземної машини через планшет call-in у Battlefield 2042.
+Запит наземної машини в Battlefield 2042 через планшет виклику з допустимою близькою позицією доставлення.
 
 ### Виключає
 
@@ -9929,7 +10158,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Позначення камерою пірата або сторожового собаки в межах першого аванпосту Far Cry 3.
+Позначення камерою одного пірата або сторожового собаки під час дослідженої місії першого аванпосту Far Cry 3.
 
 ### Виключає
 
@@ -9944,7 +10173,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ## ACT-406
 
-- Назва: Кидати інертне відволікання досяжною точкою світу
+- Назва: Кинути один інертний відволікальний предмет до досяжної точки світу
 - Переглянуто: `2026-09-03`
 
 ### Операційне визначення
@@ -9953,7 +10182,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Кидання каменя, щоб відвернути допустимого пірата в межах першого аванпосту Far Cry 3.
+Кидання каменя, щоб відвернути допустимого пірата під час дослідженої місії першого аванпосту Far Cry 3.
 
 ### Виключає
 
@@ -9970,20 +10199,20 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ## ACT-407
 
-- Назва: Спожити переносний відновлювальний засіб без зупинки живого керування
+- Назва: Спожити взятий із собою відновлювальний засіб без призупинення керування під час гри
 - Переглянуто: `2026-09-03`
 
 ### Операційне визначення
 
-Поки керований боєць зберігає рух і бойові дії в реальному часі, гравець витрачає одну одиницю зі скінченного переносного запасу відновлення та запускає відкладене повернення стану замість переривного лікувального процесу.
+Поки керований боєць зберігає можливість рухатися й атакувати під час гри, гравець витрачає одну одиницю з обмеженого запасу відновлювальних засобів при собі, щоб запросити відкладене відновлення замість переходу до лікувального процесу, який можна перервати.
 
 ### Включає
 
-Використання одного painkiller у Roscoe Street Station, поки рух, прицілювання й ворожі дії лишаються доступними.
+Використання одного знеболювального під час дослідженого розділу Roscoe Street Station у Max Payne (2001), поки рух, прицілювання й ворожі дії лишаються доступними.
 
 ### Виключає
 
-Переривне лікування бинтом або шприцом за таймером; пасивне відновлення здоров’я; покроковий предмет із миттєвим повним ефектом; лікування іншого учасника.
+Лікування бинтом або шприцом, що потребує безперервного виконання протягом заданого часу; пасивне відновлення здоров’я; покроковий предмет із миттєвим повним ефектом; лікування іншого учасника.
 
 ### Ігри-носії
 
@@ -10004,7 +10233,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Виключає
 
-Розгортання власного супутника з інвентарю; наказ рухатися до точки або атакувати; вибір репліки; пряме керування союзним тілом; заданий супровід без перемикання.
+Розгортання власного супутника з інвентарю; наказ рухатися до місця призначення або рухатися з атакою; вибір відповіді в діалозі; безпосереднє керування союзним тілом; заданий супровід, який не можна перемикати.
 
 ### Ігри-носії
 
@@ -10030,9 +10259,12 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 ### Ігри-носії
 
 - [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
+- [`GAME-0501` — F.E.A.R.](../games/a-f/fear.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0340` — "Halo: Combat Evolved Anniversary"](../games/g-l/halo-combat-evolved-anniversary.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0508` — Ready or Not](../games/m-r/ready-or-not.md)
+- [`GAME-0492` — "Resistance: Fall of Man"](../games/m-r/resistance-fall-of-man.md)
 - [`GAME-0430` — Silent Hill](../games/s-z/silent-hill.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 
@@ -10047,11 +10279,11 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Додавання основи чи складника, керування нагріванням, пісковим годинником, ступкою та вихідною посудиною у визначеному варінні Kingdom Come: Deliverance II.
+Додавання основи або складника, керування нагріванням, використання видимого піскового годинника, подрібнення складника та перенесення суміші у вихідну посудину під час дослідженого варіння Kingdom Come: Deliverance II.
 
 ### Виключає
 
-Одноразове виготовлення відомого рецепта; сітка ремесла; автономне виробництво; декоративна взаємодія без стану суміші.
+Вибір одного відомого рецепта для негайного розв’язання або виконання в черзі; розкладання складників у сітці виготовлення; автономне виробництво; декоративну взаємодію.
 
 ### Ігри-носії
 
@@ -10069,11 +10301,11 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Вибір Thunder, Knicks, локального матчу проти CPU, складності Pro й п’ятихвилинних чвертей у NBA 2K26.
+Вибір Oklahoma City Thunder, New York Knicks, локальної гри проти CPU, складності Pro та п’ятихвилинних чвертей для дослідженого показового матчу Play Now у NBA 2K26.
 
 ### Виключає
 
-Побудову постійного складу; добір суперника мережею; драфт; цілий сезон; зміну правил під час гри; конкретні назви й числа як гени.
+Формування збережуваного складу; пошук матчу; драфт; вибір цілого сезону; зміну правил під час гри; трактування точних назв команд або числових значень як генів.
 
 ### Ігри-носії
 
@@ -10090,11 +10322,11 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Прямі, відскокові, навісні й випереджальні паси у визначеному матчі NBA 2K26.
+Прямі, відскокові, навісні й випереджальні паси в дослідженому показовому матчі NBA 2K26.
 
 ### Виключає
 
-Передачу футбольного м’яча ногою; нецільове позбавлення м’яча; кидок у кошик; автоматичний пас; вибір адресата в меню.
+Передачу м’яча ударом ноги; нецільове викидання; кидок у ціль для набирання очок; автономний пас партнера; вибір адресата в меню.
 
 ### Ігри-носії
 
@@ -10111,7 +10343,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Кидки кнопкою чи стіком, проходи під кошик і данки у визначеному матчі NBA 2K26.
+Кидки у стрибку кнопкою або стіком, а також контекстні спроби кидка з-під кошика чи данка в дослідженому показовому матчі NBA 2K26.
 
 ### Виключає
 
@@ -10128,11 +10360,11 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Операційне визначення
 
-Під час захисту живого володіння гравець виконує типізоване втручання проти носія, лінії пасу або кидка, ризикуючи позицією й контактом заради відхилення, втрати або промаху.
+Захищаючись під час одного ігрового володіння м’ячем, гравець виконує одне втручання визначеного типу проти власника м’яча, лінії пасу або спроби кидка в кошик, ризикуючи позицією й контактом заради можливого відхилення м’яча, втрати володіння або промаху.
 
 ### Включає
 
-Перехоплення біля м’яча чи в лінії пасу, блокування та протидія кидку у NBA 2K26.
+Відбирання м’яча у власника, перехоплення в лінії пасу, блокування та протидія кидку піднятими руками або зі стрибком під час дослідженого показового матчу NBA 2K26.
 
 ### Виключає
 
@@ -10149,15 +10381,15 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Операційне визначення
 
-Керуючи носієм м’яча, гравець просить допустимого партнера підійти й поставити тимчасовий законний заслін, а потім обирає спосіб використати розгалуження маршруту.
+Керуючи поточним власником м’яча, гравець просить допустимого партнера підійти й поставити тимчасовий дозволений заслін, а потім обирає, чи використовувати й як використати утворене розгалуження маршруту.
 
 ### Включає
 
-Виклик і використання заслону для проходу, пасу або кидка у NBA 2K26.
+Виклик і використання заслону для проходу, пасу або кидка під час дослідженого показового матчу NBA 2K26.
 
 ### Виключає
 
-Постійну перешкоду; керування цілою тактичною схемою; невикликаний автоматичний заслін; незаконний рухомий контакт.
+Розміщення постійної перешкоди; керування повним набором тактичних схем; автономний заслін, якого гравець не викликав; недозволений контакт у русі.
 
 ### Ігри-носії
 
@@ -10170,7 +10402,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Операційне визначення
 
-Поки система безперервно рухає й кермує транспортом, гравець підтверджує одну доступну гілку маршруту, дрифт або повітряний маневр, за яким система перебудує траєкторію.
+Поки допоміжна система безперервно рухає транспорт і кермує ним, гравець підтверджує один наразі запропонований варіант маршруту, дрифту чи повітряного маневру, щоб керований системою рух міг відбутися відповідно до цього вибору.
 
 ### Включає
 
@@ -10191,7 +10423,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Операційне визначення
 
-Пред’являючи законні повноваження й підтримуючи достатню прицільну загрозу, гравець наказує одному чи кільком придатним противникам підкоритися, а потім бере одного контрольованого досяжного підозрюваного під живу варту, доки покору не втрачено.
+Пред’являючи законні повноваження й підтримуючи достатню прицільну загрозу, гравець наказує одному чи кільком допустимим противникам підкоритися, а потім завершує взяття під варту однієї живої контрольованої досяжної цілі, поки вона ще підкоряється.
 
 ### Включає
 
@@ -10207,7 +10439,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ## ACT-418
 
-- Назва: Прийняти запропоновану плату за негайне припинення переслідування
+- Назва: Погодитися сплатити запропоновану суму за негайне припинення переслідування
 - Переглянуто: `2026-09-04`
 
 ### Операційне визначення
@@ -10216,7 +10448,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Прийняття поліцейського хабаря за низького HEAT у визначеній першій ночі Heat.
+Прийняття пропозиції дати хабар поліції за низького HEAT під час дослідженої першої ночі Heat.
 
 ### Виключає
 
@@ -10237,7 +10469,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 
 ### Включає
 
-Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у Batman: Arkham Asylum; близькі страти у God of War і Sekiro; показану ближню атаку в Resident Evil 4 (2023 remake).
+Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у Batman: Arkham Asylum; близькі страти у God of War і Sekiro; показану ближню атаку в Resident Evil 4 (ремейк 2023 року).
 
 ### Виключає
 
@@ -10245,10 +10477,12 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ### Ігри-носії
 
+- [`GAME-0506` — Avowed](../games/a-f/avowed.md)
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0308` — Bloodborne™](../games/a-f/bloodborne.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
+- [`GAME-0473` — "Eternal Darkness: Sanity's Requiem"](../games/a-f/eternal-darkness-sanitys-requiem.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
@@ -10256,6 +10490,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0303` — Sifu](../games/s-z/sifu.md)
+- [`GAME-0496` — "Warhammer 40,000: Space Marine 2"](../games/s-z/warhammer-40000-space-marine-2.md)
 
 ## ACT-420
 
@@ -10268,7 +10503,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ### Включає
 
-Вибір Speed, Strength, Armor або Cloak через Classic Nanosuit menu у визначеній першій місії Crysis Remastered.
+Вибір Speed, Strength, Armor або Cloak через класичне меню Nanosuit у визначеній першій місії Crysis Remastered.
 
 ### Виключає
 
@@ -10280,7 +10515,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ## ACT-421
 
-- Назва: Націлити й виконати коротке переміщення у світі
+- Назва: Націлити й підтвердити переміщення у світі на коротку відстань
 - Переглянуто: `2026-09-04`
 
 ### Операційне визначення
@@ -10306,7 +10541,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ### Операційне визначення
 
-Після нейтралізації допустимого актора світу гравець забирає й одягає доступне вбрання, замінюючи поточну представлену соціальну роль керованого актора в тій самій живій місії.
+Після нейтралізації одного допустимого учасника світу гравець забирає та вдягає його доступне вбрання, щоб замінити поточну представлену соціальну роль керованого учасника під час того самого активного проникнення.
 
 ### Включає
 
@@ -10314,7 +10549,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ### Виключає
 
-Косметичний гардероб; вибір бойового класу під час появи; обладунок лише для характеристик; вселення в іншого актора; постійну зміну особи поза місією.
+Вибір косметичного гардероба; вибір бойового класу під час появи; спорядження обладунку лише заради характеристик; вселення в іншого учасника; зміну постійної ідентичності поза поточною місією.
 
 ### Ігри-носії
 
@@ -10322,20 +10557,20 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ## ACT-423
 
-- Назва: Викликати місцевий огляд ситуації під час живого керування
+- Назва: Викликати місцевий огляд ситуації поверх зображення під час керування у грі
 - Переглянуто: `2026-09-04`
 
 ### Операційне визначення
 
-Під час безпосереднього керування втіленим актором гравець утримує введення огляду, замінює звичайний вигляд обмеженим показом близьких акторів, цілей та об’єктів, а після відпускання повертається до незміненої живої ролі.
+Під час безпосереднього керування втіленим учасником гравець утримує одну команду огляду, щоб замінити звичайний вигляд обмеженим накладеним показом станів учасників, цілей та інтерактивних об’єктів поблизу, а потім відпускає її, повертаючись до тієї самої незміненої ролі під час гри.
 
 ### Включає
 
-Утримувати Instinct для огляду близьких цілей, акторів та інтерактивних об’єктів у визначеній місії Paris.
+Утримування Instinct для огляду цілей, учасників та інтерактивних об’єктів поблизу в дослідженій місії Paris у HITMAN World of Assassination.
 
 ### Виключає
 
-Постійно позначати актора оптичним пристроєм; призупиняти гру на повній тактичній мапі; вмикати нічне бачення; звертатися до зовнішнього проходження; записувати сканований ресурс у постійні знання.
+Нанесення постійної позначки на учасника через оптичний пристрій; призупинення гри на повній тактичній мапі; активацію нічного бачення; звернення до зовнішнього посібника з проходження; сканування ресурсу зі збереженням відомостей про нього в інвентарі.
 
 ### Ігри-носії
 
@@ -10345,12 +10580,12 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ## ACT-424
 
-- Назва: Пересувати й обертати предмети в обмеженій переносній сітці
-- Переглянуто: `2026-09-05`
+- Назва: Пересувати й обертати предмети в обмеженій сітці інвентарю
+- Переглянуто: `2026-10-05`
 
 ### Операційне визначення
 
-У поданні переносного спорядження гравець вибирає збережений предмет, змінює його позицію або дозволену орієнтацію й підтверджує розміщення лише тоді, коли отриманий контур уміщується у вільних клітинках.
+В інтерфейсі інвентарю предметів при собі гравець вибирає один збережений предмет, змінює його позицію або дозволену орієнтацію й підтверджує розміщення лише там, де отриманий контур уміщується в поточних вільних клітинках.
 
 ### Включає
 
@@ -10358,12 +10593,14 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ### Виключає
 
-Розкладання складників у сітці рецепта; вибір незміненого предмета швидкого доступу; пересування об’єкта у світі; сортування необмеженого списку; зміну загальних розмірів спорядження.
+Розкладання складників у сітці рецепта; спорядження незміненого предмета з комірки швидкого доступу; пересування об’єкта світу; сортування необмеженого списку; зміну загальних розмірів інвентарю.
 
 ### Ігри-носії
 
+- [`GAME-0511` — Animal Crossing: New Leaf](../games/a-f/animal-crossing-new-leaf.md)
 - [`GAME-0353` — "Deus Ex: Game of the Year Edition"](../games/a-f/deus-ex-game-of-the-year-edition.md)
 - [`GAME-0269` — DREDGE](../games/a-f/dredge.md)
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 
 ## ACT-425
@@ -10385,15 +10622,17 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ### Ігри-носії
 
+- [`GAME-0506` — Avowed](../games/a-f/avowed.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
+- [`GAME-0496` — "Warhammer 40,000: Space Marine 2"](../games/s-z/warhammer-40000-space-marine-2.md)
 
 ## ACT-427
 
 - Назва: Прокручувати фіксовану реконструкцію події до причинного моменту
-- Переглянуто: `2026-09-05`
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
@@ -10405,7 +10644,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ### Виключає
 
-Повернення живої симуляції назад; редагування команд на часовій шкалі; відтворення аудіовізуального доказу без придатного до огляду причинного моменту; вільне вигадування минулого; вибір деталі в одному застиглому tableau.
+Повернення стану живої симуляції назад; редагування команд на часових позначках; відтворення аудіовізуального доказу без причинного моменту, який можна оглянути; вільне вигадування минулого; вибір однієї деталі застиглої сцени.
 
 ### Ігри-носії
 
@@ -10418,7 +10657,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ### Операційне визначення
 
-Піший оператор входить до однієї доступної відновленої союзної бойової платформи й підтверджує заміну особистих команд руху, атаки та здібностей на безпосереднє керування цією платформою, лишаючись її пасажиром.
+Піший оператор входить до однієї досяжної відновленої союзної бойової платформи й підтверджує заміну особистих команд руху, атаки та здібностей безпосереднім керуванням цією платформою, продовжуючи перебувати в ній.
 
 ### Включає
 
@@ -10465,7 +10704,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ### Включає
 
-Переміщення гаком до позначеного верхнього виступу чи спостережної точки в обмеженому вступному маршруті Story Mode гри Batman: Arkham Asylum Game of the Year Edition.
+Переміщення гаком до позначеного верхнього виступу чи спостережної точки в приміщенні з озброєними ворогами в обмеженому вступному маршруті Story Mode гри Batman: Arkham Asylum Game of the Year Edition.
 
 ### Виключає
 
@@ -10503,7 +10742,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ### Операційне визначення
 
-Під час безпосереднього керування тілом гравець піднімає переносний детектор руху в активне поле спостереження або знову опускає його, зберігаючи звичайні повноваження руху.
+Під час безпосереднього керування тілом гравець піднімає один узятий із собою датчик руху малого радіуса дії для перегляду його активних показань або знову опускає його, зберігаючи звичайну можливість пересування.
 
 ### Включає
 
@@ -10511,7 +10750,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ### Виключає
 
-Встановлення постійного датчика у світі; позначення одного видимого актора; відкриття всезнаючої мапи; сканування нерухомого ресурсу чи доказу; пасивне попередження без команди детектора.
+Встановлення датчика, що залишається у світі; позначення одного видимого учасника; відкриття всезнаючої мапи; сканування нерухомого ресурсу чи доказу; саме лише слухання пасивного попередження про близькість, для якого не потрібна команда датчика.
 
 ### Ігри-носії
 
@@ -10549,7 +10788,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ### Включає
 
-Перемикання трьох променів Plasma Cutter між горизонтальною та вертикальною орієнтаціями в обмеженому вступному розділі Dead Space (2023).
+Зміна орієнтації лінії з трьох променів Plasma Cutter між горизонтальною та вертикальною під час дослідженого вступного розділу Dead Space (2023).
 
 ### Виключає
 
@@ -10582,7 +10821,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ## ACT-436
 
-- Назва: Виконати ухильний перекид за рахунок спільного запасу
+- Назва: Виконати один ухильний перекат за витрату запасу зусиль
 - Переглянуто: `2026-09-05`
 
 ### Операційне визначення
@@ -10607,20 +10846,20 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ## ACT-437
 
-- Назва: Утримувати й відпускати ненаправлений захист у бік погляду
+- Назва: Утримувати й відпускати захист за поворотом персонажа без окремого наведення
 - Переглянуто: `2026-09-06`
 
 ### Операційне визначення
 
-Під час живого бою гравець піднімає й утримує вдягнене захисне спорядження в бік поточного повороту персонажа, щоб допустимі зустрічні атаки послаблювались або поглинались замість того, щоб повністю лягати на здоров’я, і відпускає його, щоб повернутися до звичайних дій; сама команда не володіє тим, чи і як саме те поглинання оплачується.
+Під час бою в реальному часі гравець піднімає й утримує споряджений захисний предмет у напрямку, куди повернений персонаж, щоб допустимі вхідні атаки послаблювалися або поглиналися, а не повністю завдавали шкоди здоров’ю, і відпускає його, щоб повернутися до звичайних дій. Сама команда захисту не визначає, чи потребує це поглинання витрат і за яким правилом вони нараховуються.
 
 ### Включає
 
-Утримування щита проти ударів Grave Warden і стражів у дослідженому маршруті Cemetery of Ash гри DARK SOULS III; утримування щита Guardian Shield у дослідженому початковому маршруті God of War.
+Утримування щита проти атак Grave Warden і стража в межах дослідженого маршруту Cemetery of Ash у DARK SOULS III; утримування Guardian Shield у межах дослідженого початкового маршруту God of War.
 
 ### Виключає
 
-Наведення захисту в бік однієї вибраної атаки; захист бійцівської гри вгору чи вниз, який запитують напрямком руху; тривалий захист зброєю, власна шкала якого може вичерпатися до відкритого стану; вікно вчасного парирування чи відбиття; тимчасовий запас поглинання перед здоров’ям; сталий захист обладунка, що не потребує утримування.
+Наведення захисту в одному вибраному напрямку вхідної атаки; захист стоячи або навприсядки відносно суперника у бійцівській грі, який задається напрямком руху; тривалий захист зброєю, вичерпання власної окремої шкали якого залишає захисника вразливим; вікно парирування або відбиття, що потребує вчасної дії; тимчасовий запас поглинання шкоди, який застосовується до втрати здоров’я; постійне зменшення шкоди обладунком, що не потребує утримання команди.
 
 ### Ігри-носії
 
@@ -10639,16 +10878,16 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ## ACT-438
 
-- Назва: Прив’язати огляд і поворот атак до однієї обраної цілі
+- Назва: Прив’язати огляд і напрямок атак до однієї вибраної ворожої цілі
 - Переглянуто: `2026-09-05`
 
 ### Операційне визначення
 
-Гравець обирає одну поточно допустиму сусідню ворожу ціль і прив’язує до неї камеру та напрямок атак персонажа, тож подальший рух стає відносним до цього актора, доки гравець не зніме прив’язку або ціль не втратить допустимість.
+Гравець обирає одну наразі допустиму ворожу ціль поблизу й прив’язує до неї камеру та напрямок атак персонажа, тож подальший рух стає відносним до цього учасника, доки гравець не зніме прив’язку або ціль не втратить допустимість.
 
 ### Включає
 
-Прив’язку до Grave Warden або до стража маршруту в дослідженому маршруті DARK SOULS III.
+Прив’язка до Grave Warden або стража маршруту під час дослідженого маршруту Cemetery of Ash гри DARK SOULS III.
 
 ### Виключає
 
@@ -10663,19 +10902,20 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
+- [`GAME-0502` — South of Midnight](../games/s-z/south-of-midnight.md)
 
 ## ACT-440
 
-- Назва: Прийняти перевірку здібності з показаними шансами
+- Назва: Підтвердити одну перевірку характеристики з показаними шансами для запропонованого варіанта
 - Переглянуто: `2026-09-05`
 
 ### Операційне визначення
 
-Гравець вибирає запропонований варіант із перевіркою здібності, читає показані шанси на успіх і доданки, що їх утворюють, і підтверджує його, знаючи, що результат вирішить випадковий розрахунок, а не якість виконання команди.
+Гравець вибирає один наразі запропонований варіант із перевіркою характеристики, читає показані шанси на успіх та модифікатори, що на них впливають, і підтверджує його, знаючи, що результат визначить випадковий розрахунок, а не виконання команди.
 
 ### Включає
 
-Підтвердження активної білої або червоної перевірки на репліці чи предметі в дослідженому початковому епізоді Disco Elysium - The Final Cut.
+Підтвердження активної білої або червоної перевірки у варіанті діалогу або взаємодії з об’єктом під час дослідженого початкового епізоду Disco Elysium - The Final Cut.
 
 ### Виключає
 
@@ -10687,7 +10927,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ## ACT-441
 
-- Назва: Поставити платного постійного захисника на відомий маршрут
+- Назва: Розмістити платного постійного захисника, щоб охопити фіксований маршрут ворогів
 - Переглянуто: `2026-09-06`
 
 ### Операційне визначення
@@ -10718,7 +10958,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ### Включає
 
-Перемикання поставленої мавпи між оголошеними правилами «перший», «останній», «найближчий» і «найсильніший» у дослідженому маршруті Bloons TD 6.
+Перемикання поставленої мавпи між оголошеними пріоритетами цілі «перший», «останній», «найближчий» і «найсильніший» під час дослідженого стандартного маршруту режиму Easy у Bloons TD 6.
 
 ### Виключає
 
@@ -10730,20 +10970,20 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ## ACT-443
 
-- Назва: Прорізати породу й забрати вміщений у ній видобуток
+- Назва: Прорізати досяжний об’єм місцевості й забрати вміщений у ньому видобуток
 - Переглянуто: `2026-09-06`
 
 ### Операційне визначення
 
-Гравець наводить різальний інструмент на досяжну тверду породу й усуває її суцільний об’єм, назавжди відкриваючи цей об’єм як прохідний простір; якщо в усунутому об’ємі було родовище, та сама дія переносить його заявлений матеріал до перенесеного запасу.
+Гравець наводить різальний інструмент на досяжний твердий матеріал місцевості й усуває певний суцільний об’єм цього матеріалу, назавжди перетворюючи цей об’єм на прохідний простір. Якщо в усунутому об’ємі містилося родовище, та сама дія переносить його визначений матеріал до інвентарю при собі.
 
 ### Включає
 
-Удари спільним кайлом або свердлами класу Driller крізь печерну породу й крізь родовища мінералів у дослідженій одиночній експедиції Deep Rock Galactic.
+Удари спільним кайлом або моторизованими свердлами класу Driller крізь печерну породу й родовища мінералів під час дослідженої одиночної місії Mining Expedition у Deep Rock Galactic.
 
 ### Виключає
 
-Руйнування однієї окремої комірки, брили чи стіни світу; усунення обмеженого об’єму ґрунту лише заради заглиблення чи укриття; утримування команди видобутку на окремому ресурсному об’єкті, який не є породою; збирання з польового джерела чи з переможеного тіла; руйнування породи винятково заради появи окремої здобичі.
+Руйнування однієї окремої комірки, блока чи стіни світу; усунення обмеженого об’єму ґрунту лише для створення виїмки для стрільби або краю укриття; утримування команди видобутку на окремому ресурсному об’єкті, який не є рельєфом; збирання з польового джерела чи переможеного тіла; руйнування матеріалу місцевості винятково заради появи окремої здобичі.
 
 ### Ігри-носії
 
@@ -10760,7 +11000,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ### Включає
 
-Укладання списку запусків у складальному ангарі та його просування по одному кроку в польоті в дослідженому завданні Sandbox гри Kerbal Space Program.
+Укладання списку запусків у складальному ангарі та його просування по одному кроку в польоті під час дослідженого орбітального завдання режиму Sandbox гри Kerbal Space Program.
 
 ### Виключає
 
@@ -10772,7 +11012,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ## ACT-445
 
-- Назва: Вести підвладну фішку обмеженим полем, уникаючи чужих фігур
+- Назва: Вести керовану фішку всередині обмеженого поля, уникаючи фігур, що надходять у нього
 - Переглянуто: `2026-09-06`
 
 ### Операційне визначення
@@ -10793,12 +11033,12 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ## ACT-446
 
-- Назва: Спрямувати безперервний струмінь на досяжну поверхню
+- Назва: Спрямувати інструмент безперервної подачі на досяжну поверхню
 - Переглянуто: `2026-09-08`
 
 ### Операційне визначення
 
-Гравець наводить наявний безперервний робочий інструмент на досяжну поверхню й утримує або перемикає його вихід, тож наслідком дії є площа, яку струмінь укриває з часом, а не окремий завершений удар.
+Гравець наводить утримуваний у руках інструмент безперервної подачі на досяжну поверхню й утримує або перемикає подачу на неї. Ефектом дії є площа, яку струмінь покриває з часом, а не окремий підтверджений удар.
 
 ### Включає
 
@@ -10926,7 +11166,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ### Операційне визначення
 
-Після смертельної шкоди, але до остаточного завершення смерті, гравець підтверджує витрату готового заряду самовідновлення, повертає кероване тіло на тому самому місці й продовжує ту саму живу сутичку.
+Після смертельної шкоди, але до настання остаточної смерті, гравець підтверджує витрату одного наразі готового заряду самовідновлення, щоб відновити кероване тіло на місці й продовжити ту саму поточну сутичку.
 
 ### Включає
 
@@ -10934,7 +11174,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ### Виключає
 
-Оживлення іншого учасника; автоматичне додаткове життя; повернення до контрольної точки; поява нового тіла; пасивне виживання без команди після поразки.
+Оживлення іншого учасника; автоматичне застосування додаткового життя; повернення до контрольної точки; повторну появу в новому тілі; пасивне виживання, для якого не потрібна команда після поразки.
 
 ### Ігри-носії
 
@@ -10942,16 +11182,16 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ## ACT-453
 
-- Назва: Витратити одну одиницю переносного запасу на поповнення пристрою
+- Назва: Витратити одну одиницю зі скінченного запасу при собі на поповнення переносного пристрою
 - Переглянуто: `2026-09-10`
 
 ### Операційне визначення
 
-Коли сумісному переносному пристрою бракує заряду до придатної межі, гравець окремою командою безповоротно переносить до нього одну сумісну одиницю зі скінченного запасу, не обираючи іншого спорядженого засобу.
+Поки заряд одного сумісного переносного пристрою нижчий за його робочу верхню межу, гравець наказує безповоротно перенести до цього пристрою одну змінну одиницю зі скінченного запасу при собі, не вибираючи іншого спорядженого інструмента.
 
 ### Включає
 
-Ручне витрачання однієї переносної батарейки на поповнення ліхтарика у визначеній лікарняній місії Alien: Isolation.
+Ручне витрачання однієї батарейки, яку гравець має при собі, на поповнення переносного ліхтарика під час дослідженої лікарняної місії Alien: Isolation.
 
 ### Виключає
 
@@ -10965,12 +11205,12 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ## ACT-454
 
-- Назва: Живитися кров’ю ослабленої цілі
+- Назва: Живитися кров’ю однієї ослабленої цілі, утримуючи команду
 - Переглянуто: `2026-09-13`
 
 ### Операційне визначення
 
-Гравець спрямовує команду на близьку ослаблену живу ціль і утримує живлення до завершення або застосовує дозволений ранній укус, щоб забрати її кров.
+Гравець звертається до однієї досяжної ослабленої живої цілі й утримує контекстну команду живлення до завершення процесу або застосовує дозволений укус для раннього завершення, щоб забрати кров цієї цілі.
 
 ### Включає
 
@@ -10978,7 +11218,7 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Виключає
 
-Звичайний удар; споживання переносного предмета; підбирання Blood Essence; автоматичне викрадення здоров’я; взаємодію з трупом.
+Звичайну шкоду від ударів зблизька чи заклять; пиття витратного предмета, який гравець має при собі; збирання Blood Essence з переможеної цілі; автоматичний ефект викрадення здоров’я; взаємодію з мертвим тілом.
 
 ### Ігри-носії
 
@@ -10986,7 +11226,7 @@ Feed і завершальний Bite по придатній людині чи 
 
 ## ACT-455
 
-- Назва: Редагувати мережу гостьових і службових стежок
+- Назва: Редагувати збережуваний граф пішохідних і службових стежок
 - Переглянуто: `2026-09-18`
 
 ### Операційне визначення
@@ -10999,7 +11239,7 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Виключає
 
-Мережу автомобільних доріг (ACT-068); один нерозгалужений маршрут головоломки; декоративне фарбування землі; пряме керування відвідувачем або доглядачем.
+Мережу автомобільних доріг (ACT-068); один фіксований нерозгалужений маршрут головоломки; декоративне фарбування землі; безпосереднє керування відвідувачем або доглядачем.
 
 ### Ігри-носії
 
@@ -11013,15 +11253,15 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Операційне визначення
 
-Гравець розміщує або змінює суміжні секції огорожі й одні службові ворота, утворюючи окремий вольєр для тварин, межа та вхід якого залишаються частиною чинного стану зоопарку.
+Гравець розміщує або змінює суміжні секції огорожі й одні службові ворота, утворюючи вольєр для тварин, на який можна окремо спрямовувати дії. Його межа та вхід залишаються частиною поточного стану зоопарку.
 
 ### Включає
 
-Завершення огорожі, воріт і скляної оглядової секції вольєра страусів у Goodwin House.
+Завершення замкненого контуру вольєра Common Ostrich, воріт і скляної оглядової секції у Goodwin House.
 
 ### Виключає
 
-Звичайну стіну без функції утримання тварин; стежку поза вольєром (ACT-455); автоматичну перевірку придатності (CON-635); розміщення годівниць та оглядових об'єктів (ACT-457).
+Звичайну стіну кімнати без функції утримання тварин; з’єднання стежки поза вольєром (ACT-455); автоматичне визначення допустимості (CON-635); розміщення об’єктів для годування чи огляду (ACT-457).
 
 ### Ігри-носії
 
@@ -11029,20 +11269,20 @@ Feed і завершальний Bite по придатній людині чи 
 
 ## ACT-457
 
-- Назва: Розмістити окремий об'єкт догляду чи огляду
+- Назва: Розмістити окремий об’єкт для догляду за тваринами чи огляду
 - Переглянуто: `2026-09-18`
 
 ### Операційне визначення
 
-Гравець ставить вибраний окремий об'єкт у допустимому місці зоопарку, додаючи його визначену функцію догляду до вольєра або функцію для відвідувачів до прилеглої оглядової ділянки.
+Гравець розміщує вибраний окремий об’єкт у допустимому місці зоопарку, надаючи поточному вольєру або прилеглій оглядовій ділянці його визначену функцію догляду чи можливість для відвідувачів.
 
 ### Включає
 
-Годівниці, поїлки, ігрове чи харчове збагачення та скриньку для пожертв біля огляду страусів у Goodwin House.
+Станції годування й напування, ігрові або харчові засоби збагачення середовища та скринька для пожертв біля оглядової секції страусів у Goodwin House.
 
 ### Виключає
 
-Побудову огорожі (ACT-456); редагування стежки (ACT-455); звичайну виробничу будівлю (ACT-139); фактичне годування тварини працівником.
+Прокладання огорожі вольєра (ACT-456); редагування ділянок стежки (ACT-455); звичайну власну виробничу споруду (ACT-139); фактичне годування тварини доглядачем.
 
 ### Ігри-носії
 
@@ -11050,20 +11290,20 @@ Feed і завершальний Bite по придатній людині чи 
 
 ## ACT-458
 
-- Назва: Призначити тварині зі сховища придатний вольєр
+- Назва: Призначити тварині зі сховища обраний придатний вольєр
 - Переглянуто: `2026-09-18`
 
 ### Операційне визначення
 
-Гравець вибирає тварину, що вже перебуває у сховищі зоопарку, і замовляє її перевезення до одного вибраного придатного вольєра; саме переміщення виконують доступні працівники.
+Гравець вибирає тварину, що вже перебуває у сховищі зоопарку, і наказує перевезти її до одного обраного придатного вольєра, залишаючи переміщення й доставлення доступним працівникам.
 
 ### Включає
 
-Призначення придбаних бородавочників і страусів із торгового центру до відповідних вольєрів Goodwin House.
+Призначення прийнятих у зоопарк бородавочників і страусів із Trade Centre до відповідних вольєрів Goodwin House.
 
 ### Виключає
 
-Придбання тварини (ACT-130); власноручне перенесення зоопарком; автономне перевезення працівником (SYS-866); удаване успішне призначення непридатного вольєра.
+Купівлю тварини (ACT-130); безпосереднє перенесення її зоопарком; автономне доставлення працівниками (SYS-866); призначення непридатного вольєра так, ніби наказ уже було успішно виконано.
 
 ### Ігри-носії
 
@@ -11080,7 +11320,7 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Включає
 
-Вибір високої, середньої чи низької стійки в першій місії Nioh 2 для PS4.
+Вибір високої, середньої чи низької стійки для спорядженої зброї під час дослідженої першої місії Nioh 2 для PS4.
 
 ### Виключає
 
@@ -11094,7 +11334,7 @@ Feed і завершальний Bite по придатній людині чи 
 
 ## ACT-460
 
-- Назва: Вчасно повернути витрачену силу після удару
+- Назва: Виконати імпульс відновлення запасу після атаки у часовому вікні
 - Переглянуто: `2026-09-18`
 
 ### Операційне визначення
@@ -11103,11 +11343,11 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Включає
 
-Вчасний Ki Pulse після удару зброєю та очищення сусідньої плями світу йокаїв у першій місії Nioh 2.
+Вчасний Ki Pulse після удару зброєю з очищенням ділянки світу йокаїв, якщо гравець достатньо близько, у першій місії Nioh 2.
 
 ### Виключає
 
-Пасивне відновлення з часом; поповнення витратним предметом; імпульс без попереднього придатного удару; захист щитом або відповідь на небезпечну атаку.
+Пасивне відновлення з часом; поповнення витратним предметом; виконання імпульсу до будь-якої атаки, що відповідає умовам; захист щитом або Burst Counter.
 
 ### Ігри-носії
 
@@ -11115,20 +11355,20 @@ Feed і завершальний Bite по придатній людині чи 
 
 ## ACT-461
 
-- Назва: Подати готову тарілку через вікно видачі
+- Назва: Подати готову страву, яку гравець несе, через вікно видачі
 - Переглянуто: `2026-09-18`
 
 ### Операційне визначення
 
-Гравець підносить завершену страву на тарілці до спільного вікна видачі й передає її для звірення з поточними замовленнями; після подачі кухар уже не тримає тарілку.
+Гравець переносить готову страву на тарілці до спільного вікна видачі й підтверджує її передавання для звірення з поточною чергою замовлень; після цього страва більше не перебуває в руках кухаря.
 
 ### Включає
 
-Подачу тарілки із сашимі з нарізаної риби або креветки через вікно видачі першої кухні Overcooked! 2.
+Подача тарілки із сашимі з нарізаної риби або креветки через вікно видачі першої сюжетної кухні Story у Overcooked! 2.
 
 ### Виключає
 
-Передачу предмета конкретному персонажеві (ACT-091); саме викладання їжі на тарілку; автоматичне виконання замовлення без подачі; сирий інгредієнт замість страви.
+Передавання вибраного предмета конкретному неігровому персонажеві (ACT-091); саме викладання їжі на тарілку; автоматичне виконання замовлення без подання страви, яку кухар переносив; подання непідготовленого складника.
 
 ### Ігри-носії
 
@@ -11136,7 +11376,7 @@ Feed і завершальний Bite по придатній людині чи 
 
 ## ACT-462
 
-- Назва: Націлити й виконати прийом за заряд Focus
+- Назва: Націлити й виконати прийом по вразливій точці з витратою заряду
 - Переглянуто: `2026-09-18`
 
 ### Операційне визначення
@@ -11145,11 +11385,11 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Включає
 
-Вибір цілі та витрату Focus на прийом у першому сховку Sifu на складності Disciple.
+Вибір цілі Focus у Sifu та витрату заряду Focus у межах першого сховку на складності Disciple.
 
 ### Виключає
 
-Звичайний удар; автоматичну зміну цілі; прийом Focus, прив’язаний до конкретної зброї; здібність тільки з таймером відновлення; прийом без окремого прицільного вибору.
+Звичайні удари ближнього бою; автоматичну зміну цілі; властивий конкретній зброї Focus Strike у Monster Hunter Wilds (ACT-246); здібність, обмежену лише часом відновлення; прийом без окремого проміжку прицільного вибору.
 
 ### Ігри-носії
 
@@ -11157,20 +11397,20 @@ Feed і завершальний Bite по придатній людині чи 
 
 ## ACT-463
 
-- Назва: Підтвердити повернення талісманом після смерті
+- Назва: Підтвердити продовження за допомогою талісмана після смертельної поразки
 - Переглянуто: `2026-09-18`
 
 ### Операційне визначення
 
-У проміжку вибору після смертельного удару гравець підтверджує негайне продовження з придатним талісманом замість завершення поточної спроби.
+У проміжку вибору після поразки гравець підтверджує негайне продовження за допомогою придатного талісмана, що відновлює життя, замість того щоб дозволити поточній спробі завершитися.
 
 ### Включає
 
-Підйом після смерті в першому сховку Sifu, коли талісман іще може повернути героя.
+Підняття після смерті в першому Hideout на складності Disciple у Sifu, коли талісман ще може відновити бійця.
 
 ### Виключає
 
-Автоматичне відродження на контрольній точці; заряджене воскресіння в Sekiro; допомогу напарника; вибір навички на тому самому екрані; автоматичне збільшення віку після підтвердження.
+Автоматичну повторну появу на контрольній точці; відродження Resurrection з готовим зарядом у Sekiro (ACT-452); оживлення гравця товаришем по команді; вибір навички на тому самому екрані смерті; автоматичне збільшення віку після підтвердження.
 
 ### Ігри-носії
 
@@ -11178,7 +11418,7 @@ Feed і завершальний Bite по придатній людині чи 
 
 ## ACT-464
 
-- Назва: Взяти всі плитки одного кольору з одного джерела
+- Назва: Взяти всі плитки одного кольору з однієї відкритої пропозиції
 - Переглянуто: `2026-09-18`
 
 ### Операційне визначення
@@ -11187,11 +11427,11 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Включає
 
-Вибір однієї з п’яти майстерень або спільного центру в партії Azul на двох.
+Вибір однієї з п’яти майстерень або спільного центру в оригінальній базовій грі Azul на двох.
 
 ### Виключає
 
-Невидимий набір із мішка; різні кольори за один вибір; залишення плитки вибраного кольору; розміщення партії на підготовчому рядку.
+Витягування невидимої плитки з мішка; забирання різних кольорів за один вибір; залишення плиток вибраного кольору; призначення партії підготовчому рядку (ACT-465).
 
 ### Ігри-носії
 
@@ -11199,7 +11439,7 @@ Feed і завершальний Bite по придатній людині чи 
 
 ## ACT-465
 
-- Назва: Призначити набраний колір одному підготовчому рядку
+- Назва: Призначити набрану партію одного кольору одному підготовчому рядку
 - Переглянуто: `2026-09-18`
 
 ### Операційне визначення
@@ -11208,11 +11448,11 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Включає
 
-Заповнення одного рядка Azul справа наліво або свідоме скидання партії на підлогу.
+Розміщення партії справа наліво в одному підготовчому рядку Azul або вибір відправити її на штрафну лінію.
 
 ### Виключає
 
-Вибір спільного джерела; автоматичне перенесення завершеного рядка на стіну; заповнення двох рядків однією партією.
+Вибір відкритої пропозиції (ACT-464); автоматичне перенесення заповненого рядка на стіну (SYS-881); заповнення двох рядків однією набраною партією.
 
 ### Ігри-носії
 
@@ -11225,7 +11465,7 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Операційне визначення
 
-Гравець піднімає допустиму непритомну або поранену живу ціль місії, фізично несе її світом в окремому стані перенесення й розміщує у відповідному евакуаційному транспорті, перш ніж власний від’їзд завершить порятунок.
+Гравець піднімає одну допустиму живу ціль місії, що втратила здатність діяти, фізично переносить її світом в окремому стані перенесення й розміщує в сумісному евакуаційному транспорті, перш ніж відбуття самого гравця зможе завершити порятунок.
 
 ### Включає
 
@@ -11233,7 +11473,7 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Виключає
 
-Ховати тіло знешкодженого ворога; наказувати самостійним носіям доставити людину; користуватися Fulton; нести чи кидати сумку зі здобиччю; самому сідати у вертоліт після посадки врятованого.
+Приховування тіла знешкодженого противника; наказ автономним носіям доставити ціль; застосування Fulton; перенесення або кидання сумки зі здобиччю; посадку самого гравця до гелікоптера після завантаження цілі.
 
 ### Ігри-носії
 
@@ -11241,12 +11481,12 @@ Feed і завершальний Bite по придатній людині чи 
 
 ## ACT-467
 
-- Назва: Всмоктувати або вистрілювати досяжний об’єкт через активний бак
+- Назва: Всмоктувати або вистрілювати один досяжний об’єкт через активний бак
 - Переглянуто: `2026-09-19`
 
 ### Операційне визначення
 
-Гравець прицілює переносний вакуумний інструмент і або затягує сумісну досяжну рухому сутність зі світу до вибраного типізованого бака, або вистрілює запасені одиниці з цього бака назад у вибрану ділянку світу чи приймальний пристрій.
+Гравець націлює переносний всмоктувальний інструмент і або втягує один досяжний сумісний незакріплений об’єкт з ігрового світу до вибраного бака відповідного типу, або випускає запасені одиниці з цього бака назад у ділянку світу чи приймальний пристрій, на які націлено інструмент.
 
 ### Включає
 
@@ -11254,7 +11494,7 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Виключає
 
-Контактне підбирання без прицільного всмоктування; вибір бака; продаж випущеного plort’а; автоматичне поїдання їжі або створення plort’а; переміщення нерухомого об’єкта середовища.
+Контактне підбирання без прицільного всмоктування; спорядження бака (ACT-164); продаж випущеного plort’а (ACT-219); автоматичне поїдання їжі або створення plort’а; притягування закріпленого об’єкта середовища.
 
 ### Ігри-носії
 
@@ -11275,7 +11515,7 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Виключає
 
-Витрачання запасу прискорення, який можна зберігати після маневру; оцінювання тривалості дрифту; допоміжне кермування з окремою підказкою дрифту; звичайний розворот ручним гальмом без заряду й виплати.
+Витрачання запасу прискорення, який можна зберігати після маневру; оцінювання тривалості дрифту; допоміжне кермування з окремою підказкою дрифту; звичайний розворот ручним гальмом без результату накопичення заряду та відпускання.
 
 ### Ігри-носії
 
@@ -11283,12 +11523,12 @@ Feed і завершальний Bite по придатній людині чи 
 
 ## ACT-469
 
-- Назва: Перерозподіляти вантаж між місцями на тілі
+- Назва: Перерозподілити стос вантажу, який персонаж несе на тілі
 - Переглянуто: `2026-09-19`
 
 ### Операційне визначення
 
-Гравець переносить пакунки між сумісними місцями на тілі, костюмі чи наплічнику або запускає автоматичне впорядкування, щоб змінити розподіл поточного вантажу без зміни призначення пакунків.
+Гравець переміщує пакунки, які має при собі, між сумісними місцями на тілі, костюмі чи наплічнику або запускає автоматичне впорядкування, щоб змінити поточний розподіл вантажу без зміни ідентичності пакунків для їх доставлення.
 
 ### Включає
 
@@ -11296,7 +11536,7 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Виключає
 
-Підбирання вантажу зі світу (`ACT-199`); зберігання у транспорті; скидання всього вантажу; косметичне оформлення наплічника.
+Підбирання вантажу зі світу (ACT-199); зберігання вантажу в транспорті; скидання всього вантажу; косметичне налаштування наплічника.
 
 ### Ігри-носії
 
@@ -11304,7 +11544,7 @@ Feed і завершальний Bite по придатній людині чи 
 
 ## ACT-470
 
-- Назва: Стабілізувати бік зміщеного вантажу
+- Назва: Стабілізувати один бік вантажу, що зміщується під час перенесення
 - Переглянуто: `2026-09-19`
 
 ### Операційне визначення
@@ -11317,7 +11557,7 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Виключає
 
-Пасивну стійкість спорядження; блокування бойової атаки; керування транспортом; автоматичне виправлення без команди гравця.
+Пасивну стійкість спорядження; блокування бойової атаки; керування транспортом; автоматичне коригування вантажу без команди гравця.
 
 ### Ігри-носії
 
@@ -11338,7 +11578,7 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Виключає
 
-Імпульс лише для ресурсів; постійне відкриття всієї мапи; автоматичне виявлення ворогів; обчислення маршруту.
+Імпульс обстеження лише ресурсів; постійне відкриття всієї мапи; автоматичне виявлення ворогів; обчислення маршруту.
 
 ### Ігри-носії
 
@@ -11359,7 +11599,7 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Виключає
 
-Одну ціль із автоматично прокладеною дорогою; малювання рельєфу; команди автономному підрозділу.
+Одну позначку місця призначення з автоматично розрахованим дорожнім маршрутом; малювання рельєфу; задавання проміжних точок маршруту автономній одиниці.
 
 ### Ігри-носії
 
@@ -11376,7 +11616,7 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Включає
 
-Утримання Inflate у Sky Garden гри ASTRO BOT для підйому до фрагмента пазла біля фламінго, платформ вежі та верхньої частини водної труби.
+Утримування команди Inflate у Sky Garden гри ASTRO BOT, щоб підніматися до фрагмента пазла біля фламінго, платформ вежі й верхнього маршруту водною трубою.
 
 ### Виключає
 
@@ -11393,7 +11633,7 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Операційне визначення
 
-Гравець фізично дістається одного поста керування судном і змінює збережене налаштування цього поста, тоді як решта постів і саме судно лишаються у своєму поточному живому стані.
+Гравець фізично дістається одного поста керування судном і змінює налаштування цього поста, що зберігається, тоді як решта постів і саме судно продовжують перебувати у своєму поточному стані під час гри.
 
 ### Включає
 
@@ -11422,7 +11662,7 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Виключає
 
-Видалення місцевості для укриття; добування видимого ресурсу; відкривання вже знайденого контейнера; автоматичне копання за мапною позначкою.
+Усунення матеріалу місцевості для створення тактичного укриття; видобування з видимого ресурсного вузла; відкривання вже оголеного контейнера; вибір позначки мапи, який автоматично виконує розкопування.
 
 ### Ігри-носії
 
@@ -11443,28 +11683,29 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Виключає
 
-Безпосереднє хапання вільно плаваючої істоти; автоматичну риболовлю; мінігру після вже прийнятого гачка; ловлю комахи сачком.
+Безпосереднє хапання вільно плаваючої істоти; одна автоматична команда риболовлі; мінігра на влучність у часі, яка починається лише після того, як риба вже опинилася на гачку; ловля комахи сачком.
 
 ### Ігри-носії
 
 - [`GAME-0320` — "Animal Crossing: New Horizons"](../games/a-f/animal-crossing-new-horizons.md)
+- [`GAME-0511` — Animal Crossing: New Leaf](../games/a-f/animal-crossing-new-leaf.md)
 
 ## ACT-477
 
-- Назва: Змахнути сачком крізь досяжну живу ціль
+- Назва: Змахнути сачком у руках крізь одну досяжну істоту
 - Переглянуто: `2026-09-26`
 
 ### Операційне визначення
 
-Гравець розташовує безпосередньо керованого персонажа й проводить один короткий замах сачком крізь обраний досяжний об’єм світу, перевіряючи контакт із присутньою живою ціллю.
+Гравець розташовує безпосередньо керованого персонажа й виконує один короткий змах сачком у руках крізь обраний досяжний об’єм світу, перевіряючи дотик до наявної зараз істоти.
 
 ### Включає
 
-Наближення й замах хистким сачком по видимій комасі першого повного дня Animal Crossing: New Horizons; спрямований замах сачком Time Net по досяжній мавпі під час першого проходження Fossil Field в Ape Escape.
+Наближення й змах хистким сачком по видимій комасі протягом першого повного дня на острові в Animal Crossing: New Horizons; проведення Time Net крізь досяжну мавпу під час першого відвідування Fossil Field в Ape Escape.
 
 ### Виключає
 
-Закидання вудки; автономну пастку; хапання рукою; атаку на ворожу істоту заради здобичі; автоматичний збір від контакту.
+Закидання вудки; встановлення автономної пастки; безпосереднє ловлення рукою; атаку на ворожу істоту заради здобичі; автоматичне збирання від дотику.
 
 ### Ігри-носії
 
@@ -11478,15 +11719,15 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Операційне визначення
 
-Після початку перезарядження магазина гравець навмисно вдруге натискає кнопку перезарядження в обраний момент, доки діє авторський індикатор часу, просячи систему оцінити втручання замість звичайної тривалості.
+Після початку перезарядження магазина гравець навмисно вдруге натискає кнопку перезарядження в обраний момент, доки активний заданий авторами часовий індикатор. Він просить систему оцінити це втручання, а не погоджується на звичайну тривалість перезарядження.
 
 ### Включає
 
-Друге натискання правого бампера під час active reload у навчальному маршруті оригінальної Gears of War для Xbox 360.
+Друге натискання правого бампера під час активного перезарядження в дослідженому навчальному маршруті Training оригінальної Gears of War для Xbox 360.
 
 ### Виключає
 
-Початок звичайного перезарядження; таймінг атаки; охолодження теплової зброї без перенесення запасних набоїв; пасивний показник швидкості.
+Початок звичайного перезарядження; вибір моменту атаки; охолодження зброї з нагріванням без перенесення запасних набоїв; пасивну характеристику швидкості перезарядження.
 
 ### Ігри-носії
 
@@ -11494,20 +11735,20 @@ Feed і завершальний Bite по придатній людині чи 
 
 ## ACT-479
 
-- Назва: Чергувати прив’язане розгойдування й аеродинамічне планерування
+- Назва: Чергувати розгойдування на прив’язі й аеродинамічне планерування під час поточного пересування
 - Переглянуто: `2026-09-20`
 
 ### Операційне визначення
 
-Під час безпосереднього керування персонажем у безперервному тривимірному світі гравець повторно прикріплює лінію руху до придатної навколишньої геометрії або розкриває перенесену аеродинамічну поверхню, а потім керує розгойдуванням чи планеруванням зі збереженням живого імпульсу між режимами.
+Під час безпосереднього керування втіленим персонажем у безперервному тривимірному світі гравець неодноразово прикріплює лінію пересування до допустимої навколишньої геометрії або розкриває аеродинамічну поверхню, яку має при собі. Потім він керує отриманим розгойдуванням чи планеруванням, зберігаючи поточний імпульс руху між цими двома режимами пересування.
 
 ### Включає
 
-Поєднання павутинного розгойдування та Web Wings Peter або Miles у Surface Tension у Marvel's Spider-Man 2.
+Поєднання Пітером або Майлзом розгойдування на павутині з Web Wings під час дослідженого маршруту Surface Tension у Marvel’s Spider-Man 2.
 
 ### Виключає
 
-Притягування до однієї обраної кінцевої точки; сценарний кінематографічний політ; звичайний стрибок; парашут після транспорту; телепортацію між позначками.
+Підтягування гаком до однієї вибраної кінцевої точки; сценарний кінематографічний політ; звичайні стрибки; розкриття парашута, що завершує попередній стан перебування в транспорті; телепортацію між позначками мапи.
 
 ### Ігри-носії
 
@@ -11524,11 +11765,11 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Включає
 
-Натискання SELECT на виділеному рівні ряду Burn, Iron, Smith або Beans у першій місії Contra Force.
+Натискання SELECT, коли в ряду зброї Burn, Iron, Smith або Beans виділено потрібний рівень, у дослідженій першій місії Contra Force.
 
 ### Виключає
 
-Підбирання об’єкта, який просуває шкалу; перемикання героя; активацію підсилення поля; купівлю постійного поліпшення.
+Підбирання об’єкта, який просуває шкалу; передавання безпосереднього керування іншому героєві; активацію підсилення, що очищує поле; купівлю в меню постійного поліпшення спорядження.
 
 ### Ігри-носії
 
@@ -11541,7 +11782,7 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Операційне визначення
 
-У режимі ручного огляду гравець наводиться на одну доступну ціль у межах дальності й записує один збережений зразок до поступу огляду її класу або місцевості.
+Коли режим обстеження пристроєм у руках активний, гравець спрямовує його на одну допустиму ціль у межах досяжності й записує один збережуваний зразок до поступу обстеження класу цієї цілі або її місцевості.
 
 ### Включає
 
@@ -11558,22 +11799,23 @@ Feed і завершальний Bite по придатній людині чи 
 ## ACT-482
 
 - Назва: Обрати досяжну ціль на зоряній мапі й підтвердити подорож корабля
-- Переглянуто: `2026-09-21`
+- Переглянуто: `2026-10-04`
 
 ### Операційне визначення
 
-На навігаційній поверхні корабля гравець обирає один поточно досяжний зоряний регіон, планету, орбіту чи місце посадки й підтверджує допустимий маршрут.
+На навігаційному екрані корабля гравець обирає одну поточно досяжну систему, планету, орбіту чи місце посадки й підтверджує допустимий маршрут.
 
 ### Включає
 
-Подорожі Frontier з Vectera до Kreet, із Kreet до Jemison і посадка в New Atlantis у Starfield.
+Подорожі Frontier з Vectera до Kreet, із Kreet до Jemison і вибір посадки в New Atlantis у завданні One Small Step гри Starfield.
 
 ### Виключає
 
-Безпосередній політ у місцевому просторі; швидке переміщення персонажа в межах одного місця; караван; необмежену телепортацію.
+Безпосереднє керування польотом у місцевому просторі; швидке переміщення персонажа в межах одного дослідженого місця; маршрут автономного каравану; необмежену телепортацію.
 
 ### Ігри-носії
 
+- [`GAME-0491` — Elite](../games/a-f/elite.md)
 - [`GAME-0418` — 'FTL: Faster Than Light'](../games/a-f/ftl-faster-than-light.md)
 - [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 
@@ -11588,11 +11830,11 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Включає
 
-Перебудову армії Christian і гарнізону Caryatid у Homecoming Heroes III.
+Перебудову армії Christian із сімома комірками та гарнізону Caryatid під час Homecoming у Heroes of Might and Magic III: Complete.
 
 ### Виключає
 
-Найм нових істот; рух героя мапою; інвентар; змішування різних видів.
+Найм нових істот; переміщення героя на мапі пригод; передавання предметів інвентарю; об’єднання різних типів істот в один загін.
 
 ### Ігри-носії
 
@@ -11605,15 +11847,15 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Операційне визначення
 
-На бойовому ході поточно активного загону підтвердити один допустимий рух гексами, ближню чи дальню атаку, очікування або захист.
+Під час бойового ходу поточного активного загону гравець підтверджує одну допустиму команду: переміститися на досяжний гекс, атакувати в ближньому або дальньому бою, зачекати чи захищатися.
 
 ### Включає
 
-Ручне керування загоном у бою Homecoming Heroes III.
+Ручне керування загоном у межах дослідженого бою Homecoming у Heroes of Might and Magic III: Complete.
 
 ### Виключає
 
-Рух героя мапою; наказ наживо; закляття; автоматичну відплату.
+Переміщення героя кампанії; віддавання наказу бойовому шикуванню в реальному часі; вибір закляття; автоматичну контратаку.
 
 ### Ігри-носії
 
@@ -11621,7 +11863,7 @@ Feed і завершальний Bite по придатній людині чи 
 
 ## ACT-485
 
-- Назва: Редагувати платну колію й станцію авторського атракціону
+- Назва: Редагувати платні колію й станцію атракціону власної конструкції
 - Переглянуто: `2026-09-21`
 
 ### Операційне визначення
@@ -11634,7 +11876,7 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Виключає
 
-Фіксований атракціон чи кіоск; гостьові доріжки; тестування, відкриття або ціноутворення; пряме керування вагоном.
+Розміщення атракціону чи кіоску з фіксованим контуром розміщення (ACT-139); прокладання гостьових стежок (ACT-455); тестування, відкриття або встановлення ціни готового атракціону (ACT-486); безпосереднє керування транспортом на створеній колії.
 
 ### Ігри-носії
 
@@ -11651,11 +11893,11 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Включає
 
-Тестування, відкриття й робочі налаштування атракціонів у Forest Frontiers.
+Тестування й відкриття атракціонів Forest Frontiers, установлення плати за вхід на атракціон, вибір очікування заповнення та мінімального й максимального часу очікування на станції, а також налаштування частоти оглядів механіком у RollerCoaster Tycoon Deluxe.
 
 ### Виключає
 
-Будівництво колії; відкриття всього парку; автоматичну посадку й відправлення; пряме керування вагоном.
+Будівництво колії (ACT-485); відкриття всього парку (ACT-487); автономну посадку або відправлення транспорту (SYS-950); безпосереднє керування транспортом.
 
 ### Ігри-носії
 
@@ -11668,15 +11910,15 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Операційне визначення
 
-Відкривати або закривати один керований громадський заклад і, якщо правила дозволяють, змінювати спільну вхідну ціну, яку мають прийняти нові відвідувачі.
+Гравець відкриває або закриває один керований громадський заклад і, коли правила це дозволяють, змінює ціну входу, на яку відвідувачі, що прибувають, мають погодитися перед входом.
 
 ### Включає
 
-Відкриття Forest Frontiers і налаштування ціни входу в парк.
+Відкриття Forest Frontiers і налаштування ціни входу до парку в RollerCoaster Tycoon Deluxe.
 
 ### Виключає
 
-Стан чи ціну окремого атракціону; будівництво входу; маркетинг; купівлю квитка відвідувачем.
+Тестовий або відкритий стан окремого атракціону чи його ціну (ACT-486); розміщення входу до закладу; купівлю особистого квитка як відвідувач; маркетинг.
 
 ### Ігри-носії
 
@@ -11694,11 +11936,11 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Включає
 
-Найм, розміщення й зонування механіка у Forest Frontiers.
+Найм, розміщення й визначення зони роботи механіка у Forest Frontiers гри RollerCoaster Tycoon Deluxe; ширші правила також підтримують різноробів, охоронців і розважальників поза мінімальним маршрутом із механіком.
 
 ### Виключає
 
-Пряме ведення працівника; одну негайну ціль руху; наперед наданого працівника; саму регулярну зарплату.
+Безпосереднє керування ходьбою працівника; призначення одного негайного місця призначення для руху; автономного працівника, наданого заздалегідь; виплату регулярної зарплати (SYS-154).
 
 ### Ігри-носії
 
@@ -11716,11 +11958,11 @@ Feed і завершальний Bite по придатній людині чи 
 
 ### Включає
 
-Стук Solid Snake по стіні чи іншій сумісній поверхні, щоб відвернути придатного Genome Soldier у вступі Metal Gear Solid.
+Стук Solid Snake по стіні чи іншій сумісній поверхні, щоб відвернути допустимого Genome Soldier під час вступного проникнення Metal Gear Solid.
 
 ### Виключає
 
-Випадкові кроки або шум калюжі; кидок приманки; постріл; удар по актору; руйнування чи зміну поверхні.
+Випадковий шум кроків або калюжі; кидання приманки; стрільбу зі зброї; удар по учаснику; руйнування чи зміну поверхні, по якій стукають.
 
 ### Ігри-носії
 
@@ -11746,16 +11988,17 @@ Feed і завершальний Bite по придатній людині чи 
 ### Ігри-носії
 
 - [`GAME-0345` — "Duck Hunt"](../games/a-f/duck-hunt.md)
+- [`GAME-0475` — The House of the Dead](../games/s-z/the-house-of-the-dead.md)
 - [`GAME-0443` — Time Crisis](../games/s-z/time-crisis.md)
 
 ## ACT-491
 
-- Назва: Перенести й покласти непритомне тіло
+- Назва: Переносити й розміщувати одне мертве або непритомне тіло у світі
 - Переглянуто: `2026-09-21`
 
 ### Операційне визначення
 
-Гравець бере одне досяжне мертве або непритомне тіло у винятковий стан перенесення, рухається з ним і відпускає в обраному досяжному місці; тіло лишається видимим і виявлюваним об’єктом світу, а не стає предметом спорядження.
+Гравець піднімає тіло одного допустимого мертвого або непритомного персонажа з досяжного місця у світі й переходить у стан перенесення лише цього тіла. Він рухається з тілом і відпускає його в обраному досяжному місці; тіло лишається об’єктом ігрового світу, який можна виявити, а не перетворюється на предмет інвентарю.
 
 ### Включає
 
@@ -11763,11 +12006,12 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Виключає
 
-Підіймання предмета до inventory; перенесення або кидання мішка з цільовою здобиччю; доставлення живого підопічного в транспорт; тягнення притомного утримуваного актора до потрібного пристрою; автоматичний рух ragdoll; остаточне вилучення переможеного актора зі світу.
+Підбирання предмета в інвентар; перенесення або кидання мішка зі здобиччю, яка є ціллю завдання; евакуацію живого персонажа завдання транспортним засобом; тягнення притомного персонажа, якого гравець утримує, до потрібного пристрою; автоматичний рух тіла за фізичною моделлю «ганчіркової ляльки»; остаточне вилучення переможеного персонажа з ігрового світу.
 
 ### Ігри-носії
 
 - [`GAME-0429` — Commandos: Behind Enemy Lines](../games/a-f/commandos-behind-enemy-lines.md)
+- [`GAME-0513` — Thief: The Dark Project](../games/s-z/thief-the-dark-project.md)
 - [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
 
 ## ACT-492
@@ -11777,11 +12021,11 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Операційне визначення
 
-Перебуваючи біля придатної позначеної поверхні, гравець починає нанесення графіті й, коли поверхня вимагає послідовності, вводить показані напрямки до переривання живої спроби.
+Перебуваючи біля однієї допустимої позначеної поверхні світу, гравець починає нанесення графіті й, коли для цієї поверхні потрібна послідовність рухів, вводить показані напрямки в заданому порядку, перш ніж поточну спробу буде перервано.
 
 ### Включає
 
-Початок великого чи надвеликого обов’язкового графіті та виконання його напрямленої послідовності у вступі Jet Set Radio для Xbox 360.
+Початок нанесення графіті великого чи надвеликого розміру на обов’язковій червоній точці й відтворення команд за її значками напрямків у дослідженому вступі Jet Set Radio для Xbox 360.
 
 ### Виключає
 
@@ -11793,12 +12037,12 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-493
 
-- Назва: Наказати їздовому компаньйону проковтнути або виплюнути придатне тіло
-- Переглянуто: `2026-09-22`
+- Назва: Наказати супутнику, на якому їде гравець, взяти до рота або виплюнути одне допустиме тіло
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-Під час прямої їзди на сумісному компаньйоні гравець наказує йому простягнути орган поглинання до одного досяжного придатного тіла світу, взяти це тіло в утримуваний стан рота або виплюнути утримуване тіло до автоматичного розв’язання.
+Під час безпосередньої їзди на сумісному супутнику гравець наказує йому простягнути механізм поглинання до одного досяжного допустимого тіла у світі, взяти це тіло до рота й утримувати його там або виплюнути поточне утримуване тіло до автоматичного розв’язання його стану.
 
 ### Включає
 
@@ -11806,7 +12050,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Виключає
 
-Посадку, керування чи спішування; системний ефект від типу тіла; автоматичне ковтання після таймера; пряме збирання предмета в інвентар вершника; ненадану гравцем атаку компаньйона.
+Посадку на супутника, керування ним або спішування; системний ефект, що походить від типу тіла; автоматичне ковтання після спливу таймера; збирання предмета безпосередньо до інвентарю вершника; атаку супутника без команди гравця.
 
 ### Ігри-носії
 
@@ -11823,7 +12067,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Включає
 
-Рух по орбіті та бічний ривок навколо Parasite Queen із затиснутою фіксацією Combat Visor у вступі Metroid Prime.
+Рух по орбіті та бічний ривок навколо Parasite Queen із фіксацією цілі в Combat Visor у межах визначеного прологу на Frigate Orpheon гри Metroid Prime.
 
 ### Виключає
 
@@ -11833,6 +12077,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 - [`GAME-0355` — Metroid Prime](../games/m-r/metroid-prime.md)
 - [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
+- [`GAME-0496` — "Warhammer 40,000: Space Marine 2"](../games/s-z/warhammer-40000-space-marine-2.md)
 
 ## ACT-495
 
@@ -11845,7 +12090,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Включає
 
-Підняття й спрямування Ancient Sword у відкритому сонячному світлі для зведення напрямного променя до першого колоса у вступі Shadow of the Colossus.
+Підняття й спрямування Ancient Sword під прямим сонячним світлом, щоб сфокусувати промінь, який указує напрям до першого колоса, у дослідженому вступі Shadow of the Colossus.
 
 ### Виключає
 
@@ -11857,20 +12102,20 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-496
 
-- Назва: Запускати авторський маневр літака або турборивок
-- Переглянуто: `2026-09-22`
+- Назва: Запустити один заданий авторами маневр літака або турборивок
+- Переглянуто: `2026-10-15`
 
 ### Операційне визначення
 
-Під час прямого керування придатним літаком гравець запускає один доступний запрограмований маневр положення або обмежений турборивок, запитуючи його авторську зміну орієнтації чи швидкості з поточного живого стану польоту.
+Під час безпосереднього керування допустимим літаком гравець виконує один доступний запрограмований маневр зміни просторової орієнтації або обмежений турборивок, запитуючи передбачену авторами зміну орієнтації чи швидкості з поточного стану польоту під час гри.
 
 ### Включає
 
-Запуск Immelmann, barrel roll або турборивка в обмеженій першій місії The Morning After оригінальної Xbox-версії Crimson Skies: High Road to Revenge.
+Запуск маневру Immelmann, «бочки» або турборивка в обмеженій першій місії The Morning After оригінальної Xbox-версії Crimson Skies: High Road to Revenge.
 
 ### Виключає
 
-Звичайне безперервне керування; розподіл потужності між підсистемами літака; випуск накопиченого drift boost; вибір пункту на мапі; кінематографічний маневр без команди гравця.
+Звичайне безперервне кермування; перерозподіл потужності між підсистемами літального апарата під час гри; вивільнення прискорення, накопиченого під час дрифту; вибір місця призначення на мапі; кінематографічний маневр без команди гравця.
 
 ### Ігри-носії
 
@@ -11888,11 +12133,11 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Включає
 
-Вибір Explosives, Medicine і Speech як трьох tagged skills у Fallout: New Vegas перед виходом із послідовності створення персонажа Doc Mitchell.
+Вибір Explosives, Medicine та Speech як трьох профільних навичок Fallout: New Vegas перед виходом із послідовності створення персонажа у доктора Мітчелла.
 
 ### Виключає
 
-Розподіл числових очок характеристик; вибір класу; optional traits; витрачання пізнішого skill або perk point; тренування активного агента; тимчасовий бонус спорядження.
+Розподіл числових очок характеристик (ACT-401); вибір класу; вибір необов’язкових рис; витрачання очка навички або особливої здібності на пізнішому етапі; тренування одного активного агента; тимчасовий бонус спорядження.
 
 ### Ігри-носії
 
@@ -11905,7 +12150,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Операційне визначення
 
-Перед випуском кулі на доріжку гравець перемикається між налаштуванням місця збоку та кута прицілу й окремо змінює обидва параметри, ще не починаючи рух кулі.
+Перед випуском кулі на доріжку гравець перемикається між керуванням бічною позицією стояння та кутом прицілювання й налаштовує заплановану лінію подачі, ще не запускаючи кулю в рух.
 
 ### Включає
 
@@ -11913,7 +12158,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Виключає
 
-Прицілювання з нерухомої пускової установки; керування кулею після випуску; вибір напряму вільного кидка без окремого налаштування місця біля доріжки.
+Прицілювання з нерухомої пускової установки (ACT-113); керування кулею після випуску; вибір напряму вільного кидка без окремого вирівнювання за доріжкою.
 
 ### Ігри-носії
 
@@ -11926,7 +12171,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Операційне визначення
 
-Утримуючи кнопку кидка, гравець робить фізичний помах; її відпускання в певну мить задає початковий рух кулі, на який впливають помах і поворот зап’ястка.
+Утримуючи елемент керування подачею, гравець виконує фізичний замах; відпускання цього елемента у певну мить, зафіксовану системою, запускає кулю на доріжку, а поворот зап’ястка може змінити її обертання.
 
 ### Включає
 
@@ -11934,7 +12179,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Виключає
 
-Клацання по нерухомій пусковій установці; заряджений постріл лише кнопкою; пряме керування кулею після випуску; автоматичний випуск у нижній точці помаху.
+Клацання по нерухомій пусковій установці (ACT-113); заряджений постріл лише кнопкою; безпосереднє керування кулею після її випуску; автоматичний випуск у нижній точці жесту.
 
 ### Ігри-носії
 
@@ -11942,12 +12187,12 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-500
 
-- Назва: Обирати трюк і переходити до наступного без розриву руху
+- Назва: Обирати скейтбордичний трюк за поточним станом і продовжувати ланцюг трюків
 - Переглянуто: `2026-09-23`
 
 ### Операційне визначення
 
-Керуючи рухомим скейтером, гравець вибирає допустиму комбінацію напряму й кнопки для поточного стану в повітрі, на рейці чи на землі та може перейти через мануал або розворот до іншого допустимого трюку, не підсумовуючи відразу весь зв’язаний ланцюг.
+Керуючи рухомим скейтером, гравець вибирає допустиму команду трюку з напрямками відповідно до поточного стану в повітрі, на рейці чи при контакті із землею та може через мануал або прийом Revert перейти до іншого допустимого трюку, не підсумувавши спершу весь поєднаний ланцюг.
 
 ### Включає
 
@@ -11955,7 +12200,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Виключає
 
-Постійну зміну слотів трюків персонажа; автоматичний вибір трюку; фіксовану серію бойових ударів; очки без успішно виконаного трюку; старі набори рухів Classic THPS1 або Classic THPS2.
+Зміну постійних комірок трюків скейтера; автоматичний вибір трюку; фіксовану бойову серію атак; очки без трюку, що завершився приземленням; застосування застарілих наборів рухів Classic THPS1 або Classic THPS2.
 
 ### Ігри-носії
 
@@ -11993,11 +12238,11 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Включає
 
-Знімок возз’єднання Джеффа й Наталі на даху в режимі «72 години» Dead Rising; фотографію Пікачу зі скінченного запасу кадрів під час автоматичного руху маршрутом Beach у Pokémon Snap.
+Знімок возз’єднання Джеффа й Наталі на даху за оригінальними правилами режиму «72 години» Dead Rising, з перевіркою стану сцени й камери саме в момент натискання спуску, а не на початку наведення; фотографування Пікачу зі скінченного запасу кадрів під час автоматичного руху маршрутом Beach у Pokémon Snap.
 
 ### Виключає
 
-Просте наведення камери без знімка; системний скриншот; фотографію, яка змінює геометрію світу; оцінювання й нарахування очок після знімка.
+Пасивний перегляд сцени; кінематографічні знімки екрана поза грою; розміщення камери, що змінює фізичну геометрію світу; наближення без зробленого знімка; подальше оцінювання фотографії та порівняння із записаними результатами (SYS-1001, SYS-1009).
 
 ### Ігри-носії
 
@@ -12011,15 +12256,15 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Операційне визначення
 
-Після викладання тайла гравець може поставити одного доступного підданого на допустиму частину дороги, міста чи монастиря цього тайла або покласти його як селянина на поле.
+Після розміщення поточного ландшафтного тайла гравець може поставити одного доступного підданого на один допустимий об’єкт цього нового тайла, призначивши його відповідній зв’язаній дорозі, місту чи монастирю, або покласти його як селянина на відповідне зв’язане поле.
 
 ### Включає
 
-Одного міпла на щойно викладеному тайлі Carcassonne: стоячи в місті, на дорозі чи монастирі або лежачи на полі.
+Розміщення одного міпла на щойно викладеному тайлі Carcassonne: у вертикальному положенні на дорозі, у місті чи монастирі або лежачи як селянина на полі.
 
 ### Виключає
 
-Підданого на старому тайлі; двох підданих за один хід; підрахунок очок і повернення підданого.
+Розміщення підданого на старішому тайлі; розміщення двох за один хід; підрахунок очок або повернення цього підданого.
 
 ### Ігри-носії
 
@@ -12027,20 +12272,20 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-504
 
-- Назва: Спроєктувати й обладнати кабінет перед відкриттям
+- Назва: Спроєктувати й обладнати приміщення для надання послуг перед відкриттям
 - Переглянуто: `2026-09-23`
 
 ### Операційне визначення
 
-Гравець задає допустимий розмір кабінету, розміщує двері й обов’язкові меблі у дозволених місцях, а потім відкриває обладнаний кабінет для відповідної послуги.
+Гравець накреслює допустимий контур приміщення, фіксує його двері й необхідні меблі в допустимих позиціях, а потім відкриває обладнане приміщення для послуги, пов’язаної з його визначеним типом.
 
 ### Включає
 
-Кабінет терапевта, загальну діагностику, аптеку, психіатричний кабінет і клініку лікування роздутої голови в першій лікарні Theme Hospital.
+Будівництво кабінету терапевта, загальної діагностики, аптеки, психіатричного кабінету або клініки лікування роздутої голови в першій лікарні Theme Hospital.
 
 ### Виключає
 
-Звичайне встановлення предмета в коридорі; саме лікування; роботу кабінету без потрібного працівника.
+Лише розміщення фіксованого предмета в коридорі (ACT-139); лікування пацієнта; роботу приміщення без допустимого працівника (CON-672).
 
 ### Ігри-носії
 
@@ -12053,15 +12298,15 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Операційне визначення
 
-Гравець змінює стале правило для пацієнтів із неповним діагнозом або відпочинку персоналу чи переставляє пацієнта в черзі або переводить його до іншої черги того самого виду до початку послуги.
+Гравець змінює збережуване правило лікарні для роботи з пацієнтами з частковим діагнозом або відпочинку персоналу чи змінює місце пацієнта в допустимій черзі або переводить його між допустимими чергами тієї самої послуги до початку наступного обслуговування.
 
 ### Включає
 
-Ліміти й перенесення черг, пороги «відправити додому» та «спробувати лікувати», поріг відпочинку працівників у Theme Hospital.
+Обмеження черг та переведення пацієнтів між ними, пороги діагностики для команд Send Home і Guess at Cure, а також поріг відпочинку персоналу в першій лікарні Theme Hospital.
 
 ### Виключає
 
-Покрокове керування рухом кожного пацієнта; переведення до несумісного кабінету; наслідок лікування; будівництво кабінету.
+Безпосереднє керування кожним кроком пацієнта; переведення до несумісного приміщення; сам результат лікування (SYS-1006); створення приміщення.
 
 ### Ігри-носії
 
@@ -12099,7 +12344,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Включає
 
-Вибір однієї фотографії Пікачу в Camera Check та позначення її знаком професора Оука перед перевіркою Pokémon Snap.
+Вибір однієї фотографії Пікачу в Camera Check та позначення її знаком професора Оука перед його оцінюванням після завершення маршруту в Pokémon Snap.
 
 ### Виключає
 
@@ -12111,12 +12356,12 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-508
 
-- Назва: Затиснути лади й ударити по струнах у мить ноти
+- Назва: Затиснути лади й ударити по струнах для заданої ноти на лінії оцінювання
 - Переглянуто: `2026-09-23`
 
 ### Операційне визначення
 
-Гравець затискає лади, які відповідають показаній одиничній ноті або одночасному акорду, і б’є по струнах, коли подія доходить до лінії удару; система перевіряє цю дію за заданим графіком пісні.
+Гравець утримує кнопки ладів, що відповідають показаній окремій ноті або одночасному акорду, а потім б’є по струнах, коли ця подія досягає лінії оцінювання; виконане введення перевіряється за відповідною подією заданої авторами карти нот.
 
 ### Включає
 
@@ -12137,7 +12382,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Операційне визначення
 
-Коли здобутий запас підсилення сягає встановленого мінімуму, гравець свідомо активує його під час рухомого графіка пісні й витрачає заряд протягом тимчасового посилення очок.
+Коли зароблений показник шкали підсилення сягає оголошеного мінімуму, гравець навмисно активує його під час гри за картою нот і витрачає накопичений заряд протягом тимчасового періоду посиленого нарахування очок.
 
 ### Включає
 
@@ -12145,7 +12390,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Виключає
 
-Саме здобуття заряду за послідовність нот; постійний множник; атаки на іншого гравця в режимі дуелі.
+Саме здобуття заряду за послідовність нот; постійно активний множник; атаки на іншого гравця в режимі Battle.
 
 ### Ігри-носії
 
@@ -12153,20 +12398,20 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-510
 
-- Назва: Покликати партнера й дістатися редактора тіла
+- Назва: Покликати партнера й дістатися до нього для входу до редактора тіла під час активного етапу
 - Переглянуто: `2026-09-23`
 
 ### Операційне визначення
 
-Керуючи істотою в активному етапі, гравець кличе партнера й дістається до нього, щоб перейти з живого світу до редактора наступної версії цієї істоти.
+Керуючи живим учасником активного етапу, гравець подає шлюбний поклик і дістається партнера, який відповів на нього, щоб перейти з поточного ігрового світу до редактора наступної версії цього учасника.
 
 ### Включає
 
-Поклик, заплив до партнера й вхід до Cell Creator у Spore після того, як перша знайдена частина відкриває цю дію.
+Поклик на етапі клітини Spore, заплив до партнера й вхід до Cell Creator після того, як перша знайдена частина робить поклик доступним.
 
 ### Виключає
 
-Незалежний редактор у галереї без партнера в активному етапі; автоматичне зростання без входу до редактора; зміну частин під час плавання.
+Відкриття незалежного редактора в галереї без партнера в активному етапі; автоматичне зростання без відвідування редактора; зміну частин під час плавання.
 
 ### Ігри-носії
 
@@ -12174,7 +12419,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-511
 
-- Назва: Змінити тіло живої лінії частинами
+- Назва: Змінити тіло живої лінії істот розміщенням або вилученням частин
 - Переглянуто: `2026-09-23`
 
 ### Операційне визначення
@@ -12183,7 +12428,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Включає
 
-Додавання, налаштування або вилучення рота, частин руху й зброї в Cell Creator Spore перед збереженням клітини та поверненням у воду.
+Розміщення, налаштування або вилучення ротів, частин для пересування й зброї в Cell Creator гри Spore перед збереженням клітини та поверненням у воду.
 
 ### Виключає
 
@@ -12204,7 +12449,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Включає
 
-Прибирання початкового сміття лопатою від Leafos в оригінальній Viva Piñata.
+Прибирання сміття першою лопатою від Leafos під час навчання в саду оригінальної Viva Piñata.
 
 ### Виключає
 
@@ -12217,20 +12462,20 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-513
 
-- Назва: Домовлятися про обмін ресурсами з іншим гравцем
+- Назва: Домовитися про обмін ресурсами за участі активного гравця
 - Переглянуто: `2026-09-23`
 
 ### Операційне визначення
 
-Активний гравець домовляється з іншим про обмін карток ресурсів визначених видів і кількостей; умови може запропонувати будь-хто з них, а передача відбувається лише після згоди обох учасників.
+Активний гравець домовляється з іншим учасником про обмін картками ресурсів визначених видів; будь-хто з цих двох може запропонувати умови, але обидва передають картки лише тоді, коли гравець, чий зараз хід, приймає погоджену пропозицію.
 
 ### Включає
 
-Добровільний обмін під час фази CATAN, зокрема зустрічну пропозицію суперника активному гравцеві.
+Обмін між гравцями під час фази торгівлі CATAN, зокрема зустрічна пропозиція суперника активному гравцеві.
 
 ### Виключає
 
-Подарунок без зустрічного ресурсу, обмін із банком, картки розвитку та відхилену пропозицію.
+Односторонній подарунок; обмін із банком (ACT-514); торгівлю картками розвитку; пропозицію, яку інший учасник відхиляє.
 
 ### Ігри-носії
 
@@ -12243,7 +12488,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Операційне визначення
 
-Гравець повертає до банку потрібну кількість карток одного виду й бере одну картку іншого виду за доступним йому курсом.
+Гравець повертає до спільного запасу допустиму кількість карток ресурсу одного типу й вибирає одну картку ресурсу іншого типу за курсом, дозволеним поточними правами, що зумовлені розташуванням.
 
 ### Включає
 
@@ -12251,7 +12496,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Виключає
 
-Домовленість з іншим гравцем, безкоштовні ресурси від картки розвитку й обмін без потрібної кількості однакових карток.
+Двосторонні переговори між гравцями (ACT-513); безкоштовне отримання карток унаслідок ефекту розвитку; обмін без достатньої кількості карток одного типу.
 
 ### Ігри-носії
 
@@ -12259,12 +12504,12 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-515
 
-- Назва: Оплатити й розмістити законну споруду в мережі
+- Назва: Оплатити й розмістити одну допустиму споруду мережі
 - Переглянуто: `2026-09-23`
 
 ### Операційне визначення
 
-Гравець сплачує потрібні ресурси й розміщує доступну власну фігуру на дозволеному ребрі чи вершині або поліпшує власну споруду на тому самому місці.
+Гравець сплачує вартість ресурсами потрібних типів і бере одну доступну власну фігуру, щоб зайняти допустиме ребро чи вершину поля або замінити власну споруду нижчого рівня її дозволеним поліпшенням на тому самому місці.
 
 ### Включає
 
@@ -12272,7 +12517,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Виключає
 
-Безкоштовні дороги від картки розвитку, недозволену позицію й купівлю картки розвитку.
+Безкоштовне розміщення доріг карткою Road Building; розміщення за браком ресурсів або в недопустимій позиції; купівлю картки розвитку (ACT-516).
 
 ### Ігри-носії
 
@@ -12281,11 +12526,11 @@ Sam Fisher підіймає непритомного охоронця, пере�
 ## ACT-516
 
 - Назва: Купити приховану картку розвитку
-- Переглянуто: `2026-09-23`
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-Гравець сплачує потрібні три види ресурсів і бере верхню закриту картку зі скінченної колоди розвитку, не вибираючи її вміст.
+Гравець сплачує оголошену трійку ресурсів під час фази будівництва й бере верхню картку долілиць зі скінченної колоди розвитку до приватної руки, не вибираючи, яка саме картка йому дістанеться.
 
 ### Включає
 
@@ -12293,7 +12538,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Виключає
 
-Використання вже придбаної картки, вибір із відкритої пропозиції та купівлю з порожньої колоди.
+Розіграш картки (ACT-517); вибір відкритої пропозиції; купівлю, коли колоду вичерпано.
 
 ### Ігри-носії
 
@@ -12306,15 +12551,15 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Операційне визначення
 
-На власному ході гравець обирає придатну картку розвитку з руки, відкриває її й запускає надруковану дію з урахуванням обмежень ходу та часу купівлі.
+У власний хід гравець вибирає допустиму картку розвитку, яку має при собі, відкриває її й застосовує для оголошеного правилами ефекту з дотриманням обмеження однієї картки за хід та обмеження, пов’язаного з ходом її купівлі.
 
 ### Включає
 
-Лицаря, картку прогресу й особливе відкриття картки переможного очка для виграшу у CATAN.
+Розіграш лицаря або картки прогресу в CATAN; для відкриття картки переможного очка, щоб установити переможну суму очок, діє окреме правило.
 
 ### Виключає
 
-Купівлю картки, обмін нею та розіграш двох лицарів або карток прогресу за один хід.
+Купівлю картки (ACT-516); торгівлю нею; розіграш двох карток із категорій лицарів або карток прогресу за той самий хід.
 
 ### Ігри-носії
 
@@ -12327,7 +12572,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Операційне визначення
 
-Після відповідної події активний гравець переносить розбійника на інший гекс і за наявності сусідніх споруд суперників обирає одного власника, у якого випадково береться картка ресурсу.
+Після події, що запускає дію розбійника, активний гравець вибирає для нього інший гекс місцевості й, якщо суперники мають прилеглі споруди, вибирає одного з них для випадкового викрадення картки ресурсу.
 
 ### Включає
 
@@ -12335,7 +12580,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Виключає
 
-Примусове скидання надлишку карток, вибір конкретної прихованої картки й залишення розбійника на тому самому гексі.
+Примусове скидання карток через перевищення ліміту; вибір відомої конкретної картки з прихованої руки жертви; залишення розбійника на його поточному гексі.
 
 ### Ігри-носії
 
@@ -12343,23 +12588,24 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-519
 
-- Назва: Безперервно нахиляти трасу, щоб скеровувати кулю
-- Переглянуто: `2026-09-23`
+- Назва: Безперервно нахиляти поле, щоб керувати тілом, яке котиться
+- Переглянуто: `2026-10-02`
 
 ### Операційне визначення
 
-Гравець безперервним рухом стика змінює нахил прохідної траси, щоб сила тяжіння скеровувала рухому кулю її поверхнею; він не задає кулі точну позицію або окремий фіксований хід.
+Гравець змінює кут прохідного ігрового поля безперервним напрямленим введенням, щоб сила тяжіння скеровувала рухоме тіло заданою авторами поверхнею без безпосереднього задавання позиції тіла чи фіксованого ходу.
 
 ### Включає
 
-Нахил першої траси Simple у Super Monkey Ball 2 стиком GameCube, щоб провести кулю з мавпочкою до фінішу.
+Нахил Simple — першого рівня Jungle Island у сюжетному режимі Super Monkey Ball 2 — за допомогою Control Stick контролера GameCube, щоб спрямовувати кулю з мавпочкою до фінішу.
 
 ### Виключає
 
-Безпосереднє пересування аватара за ACT-008, дискретний вибір нової грані сили тяжіння за ACT-097, зміну камери без нахилу траси й автоматичний пошук шляху до вибраної цілі.
+Безпосереднє пересування аватара (ACT-008); дискретний вибір нової нижньої грані для напрямку сили тяжіння (ACT-097); переміщення камери без зміни поля; вибір цілі для автоматичного пошуку шляху.
 
 ### Ігри-носії
 
+- [`GAME-0482` — LocoRoco](../games/g-l/locoroco.md)
 - [`GAME-0378` — Super Monkey Ball 2](../games/s-z/super-monkey-ball-2.md)
 
 ## ACT-520
@@ -12369,15 +12615,15 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Операційне визначення
 
-Протягом ходу своєї команди гравець обирає доступну зброю черв’яка, задає потрібні для неї кут, силу або час запалу з поточної позиції рухомого черв’яка, а потім робить один постріл для фізичного розв’язання.
+Протягом ходу активної команди гравець вибирає доступну зброю, яку має при собі, задає відповідні налаштування наведення, заряду або запалу з поточної позиції черв’яка, який може пересуватися, а потім виконує один постріл із подальшим фізичним розв’язанням.
 
 ### Включає
 
-Прицілювання та постріл із базуки або гранати з налаштованими запалом і відскоком у дослідженому локальному матчі Worms Armageddon.
+Прицілювання та постріл із базуки або гранати з налаштованими запалом і відскоком у дослідженому офлайновому артилерійському матчі Worms Armageddon.
 
 ### Виключає
 
-Нерухомий пусковий пристрій за ACT-113, кілька різних пострілів за один хід і безпосереднє керування снарядом після запуску.
+Нерухому пускову установку (ACT-113); стрільбу з кількох не пов’язаних між собою одиниць зброї за один хід; безпосереднє керування снарядом після його випуску.
 
 ### Ігри-носії
 
@@ -12385,20 +12631,20 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-521
 
-- Назва: Обвести й підтвердити місце на малюнку
+- Назва: Обвести й подати як відповідь одне місце на ілюстрації
 - Переглянуто: `2026-09-24`
 
 ### Операційне визначення
 
-У загадці з малюнком гравець проводить замкнену лінію навколо однієї з можливих ділянок і окремо підтверджує вибране місце як відповідь для перевірки.
+У заданій авторами візуальній головоломці гравець обводить замкненою лінією одну з можливих ділянок наданої ілюстрації й окремо подає позначену ділянку як відповідь для оцінювання.
 
 ### Включає
 
-Обведення стилусом потрібного села на початковій карті Professor Layton and the Curious Village та натискання кнопки підтвердження.
+Обведення стилусом вибраного села на початковій карті Professor Layton and the Curious Village та натискання Submit.
 
 ### Виключає
 
-Змінну позначку-гіпотезу ACT-004, заповнення всієї сітки, вибір точки для пересування персонажа та дотик до екрана без підтвердження відповіді.
+Змінювану захисну позначку-гіпотезу (ACT-004); заповнення всієї сітки відповідей; вибір місця призначення у світі для подорожі персонажа; звичайний дотик до екрана без подання відповіді.
 
 ### Ігри-носії
 
@@ -12415,7 +12661,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Включає
 
-Придбання наступної з трьох підказок до початкової загадки Professor Layton and the Curious Village.
+Купівля наступної з максимум трьох підказок до дослідженої початкової загадки Professor Layton and the Curious Village.
 
 ### Виключає
 
@@ -12427,20 +12673,20 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-523
 
-- Назва: Малювати мазок пензлем по ігровому світу
+- Назва: Нанести на ігровий світ мазок Небесним пензлем
 - Переглянуто: `2026-09-24`
 
 ### Операційне визначення
 
-Гравець відкриває окремий вид небесного пензля на поточний світ, проводить просторову лінію по видимому придатному об’єкту або прогалині й закриває цей вид, подаючи мазок на перевірку для дії вже вивченої техніки.
+Гравець відкриває окремий режим огляду поточного світу для роботи пензлем, проводить просторову позначку поверх допустимого видимого об’єкта чи прогалини й закриває цей огляд, подаючи позначку на перевірку для дії вивченої техніки на стан світу.
 
 ### Включає
 
-Домалювання відсутньої частини Небесної ріки чи меча статуї Наґі та розрізання валуна, перегороди або ніжки плоду в дослідженому початку Ōkami HD.
+Домалювання штрихом пензля відсутньої частини Небесної ріки чи меча статуї Наґі та розрізання валуна, перегороди або ніжки плоду в Камікі в дослідженому початку Ōkami HD.
 
 ### Виключає
 
-Позначення відповіді в окремій загадці ACT-521, удар дзеркалом ACT-161, суто декоративний слід курсора й застосування ще не вивченої техніки.
+Малювання статичної відповіді на сторінці головоломки (ACT-521); удар спорядженим відбивачем (ACT-161); суто декоративний слід курсора; техніку, яку ще не вивчено.
 
 ### Ігри-носії
 
@@ -12453,7 +12699,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Операційне визначення
 
-Гравець вибирає іншого мешканця тієї самої постійної сім’ї, якому адресує контекстні накази, а раніше вибраний мешканець залишається в будинку й продовжує діяти за правилами симуляції.
+Гравець вибирає іншого мешканця тієї самої збережуваної сім’ї як поточного одержувача контекстних команд, а раніше вибраний мешканець залишається присутнім, і симуляція й далі обробляє його стан.
 
 ### Включає
 
@@ -12461,24 +12707,25 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Виключає
 
-Заміну всієї сім’ї; безпосереднє керування кожним кроком персонажа ACT-228; вибір предмета без зміни активного мешканця.
+Заміну сім’ї; безпосереднє керування кожним рухом головного персонажа (ACT-228); вибір об’єкта без зміни активного учасника.
 
 ### Ігри-носії
 
 - [`GAME-0383` — The Sims 2: Legacy Collection](../games/s-z/the-sims-2-legacy-collection.md)
+- [`GAME-0461` — The Sims](../games/s-z/the-sims.md)
 
 ## ACT-525
 
-- Назва: Завдати бічного або обертального удару гоночною машиною
+- Назва: Запросити бічну або обертальну атаку гоночної машини
 - Переглянуто: `2026-09-24`
 
 ### Операційне визначення
 
-Безпосередньо керуючи машиною поблизу суперників, гравець виконує спрямований бічний удар або обертальну атаку, що при контакті може зрушити чи вибити іншу машину з заїзду.
+Під час безпосереднього керування гоночною машиною поблизу машин суперників гравець подає команду напрямленого бічного або обертального удару, контакт якого може змістити чи вибити суперників із поточного заїзду.
 
 ### Включає
 
-Бічні й обертальні атаки F-Zero GX у дослідженому першому заїзді Ruby Cup.
+Бічні й обертальні атаки в оригінальній GameCube-версії F-Zero GX під час дослідженого заїзду Grand Prix на Twist Road — першого заїзду Ruby Cup.
 
 ### Виключає
 
@@ -12490,20 +12737,20 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-526
 
-- Назва: Уточнювати вибраний рядок свідчень
+- Назва: Запросити пояснення одного вибраного твердження свідка
 - Переглянуто: `2026-09-24`
 
 ### Операційне визначення
 
-Під час перехресного допиту гравець вибирає доступний рядок підготовлених свідчень і просить свідка пояснити його, щоб отримати уточнення або, за потреби, змінений рядок.
+Під час судового перехресного допиту гравець вибирає один наразі доступний рядок заданих авторами свідчень і просить свідка роз’яснити його; це може відкрити уточнення або нову версію рядка.
 
 ### Включає
 
-Запитання до вибраного твердження Френка Соуіта в першій справі Phoenix Wright: Ace Attorney.
+Запит пояснення вибраного твердження Френка Соуіта в першій справі The First Turnabout у Phoenix Wright: Ace Attorney.
 
 ### Виключає
 
-Звичайне гортання діалогу; подання доказу проти рядка ACT-527; довільний допит поза свідченнями; припущення, що кожне запитання змінює матеріали справи.
+Просування пасивного діалогу; подання окремого доказу проти рядка (ACT-527); довільний допит персонажа поза інтерфейсом свідчень; припущення, що кожен запит пояснення змінює матеріали справи.
 
 ### Ігри-носії
 
@@ -12511,12 +12758,12 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-527
 
-- Назва: Подавати доказ проти вибраного рядка свідчень
+- Назва: Подати один матеріал справи проти вибраного твердження свідка
 - Переглянуто: `2026-09-24`
 
 ### Операційне визначення
 
-Коли вибрано рядок підготовлених свідчень, гравець бере один наявний матеріал справи й подає його до суду як доказ суперечності саме цьому твердженню.
+Коли вибрано один рядок заданих авторами свідчень, гравець обирає наявний на цей момент матеріал справи й подає його до суду як доказ суперечності саме цьому рядку.
 
 ### Включає
 
@@ -12524,7 +12771,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Виключає
 
-Уточнення через запитання ACT-526; саме лише читання доказу; позначення двох змінних фактів в інтерфейсі перевірки ACT-104; особисте затвердження вироку для всієї справи ACT-105.
+Запит роз’яснення (ACT-526); саме читання доказів; виділення двох фактів, які можна редагувати, в інтерфейсі огляду (ACT-104); особисте затвердження вироку для всієї справи штампом (ACT-105).
 
 ### Ігри-носії
 
@@ -12532,20 +12779,20 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-528
 
-- Назва: Оглядати предмет, доки не відкриється доказова деталь
+- Назва: Оглядати предмет із місця події, який гравець тримає, доки не відкриється його доказова деталь
 - Переглянуто: `2026-09-24`
 
 ### Операційне визначення
 
-Після вибору досяжного предмета на місці події гравець змінює кут огляду або фокус, доки не побачить важливе для справи маркування, напис чи приховану поверхню; тоді гра записує знайдене як доказ.
+Після звернення до досяжного предмета на місці події гравець змінює його орієнтацію під час огляду або фокус, доки не відкриється значуща для механіки гри мітка, напис чи прихована поверхня й не буде зареєстрована як доказ справи.
 
 ### Включає
 
-Поворот окулярів, щоб прочитати марку виробника, та огляд посвідчення в гаманці біля вантажного депо у справі The Driver's Seat гри L.A. Noire.
+Поворот окулярів з вантажного депо до позначки виробника та огляд даних про особу з гаманця у справі The Driver’s Seat гри L.A. Noire.
 
 ### Виключає
 
-Підбирання декорації без корисного доказу; автоматично отриману в розмові відомість; збирання інструмента для інвентарю ACT-089; подання матеріалу судової справи проти свідчення ACT-527.
+Підбирання декоративного дріб’язку без зарахованого доказу; пасивне одержання факту з діалогу; збирання збережуваного інструмента до інвентарю (ACT-089); вибір матеріалу судової справи як суперечності (ACT-527).
 
 ### Ігри-носії
 
@@ -12553,12 +12800,12 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-529
 
-- Назва: Підтверджувати звинувачення записаним доказом
+- Назва: Подати записаний доказ проти однієї відповіді на допиті
 - Переглянуто: `2026-09-24`
 
 ### Операційне визначення
 
-Звинувативши співрозмовника щодо поточної відповіді, гравець вибирає один уже внесений до записника доказ як конкретну суперечність його словам.
+Після вибору звинувачення співрозмовника щодо поточної відповіді гравець вибирає один наразі доступний доказ із записника справи як суперечність, пред’явлену цьому співрозмовникові саме щодо цієї теми.
 
 ### Включає
 
@@ -12566,7 +12813,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Виключає
 
-Вибір Good Cop або Bad Cop без доказу ACT-232; подання доказу проти окремого рядка судових свідчень ACT-527; позначення двох фактів у документах ACT-104.
+Вибір Good Cop або Bad Cop без доказу (ACT-232); подання доказу проти окремо доступного для вибору рядка судових свідчень (ACT-527); виділення двох фактів у документах (ACT-104).
 
 ### Ігри-носії
 
@@ -12574,20 +12821,20 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-530
 
-- Назва: Вибирати напрям на розвилці ігрового поля
+- Назва: Вибрати вихідний маршрут на досягнутій розвилці ігрового поля
 - Переглянуто: `2026-09-24`
 
 ### Операційне визначення
 
-Коли фішка проходить зв’язаний маршрут на кількість клітинок, визначену кубиком, активний гравець на розвилці обирає один допустимий напрям. Фішка витрачає решту того самого кидка на обрану гілку.
+Коли фішка проходить фіксованим зв’язаним маршрутом на кількість клітинок, визначену кубиком, активний гравець на розвилці обирає один допустимий вихідний напрям. Фішка далі витрачає решту того самого кидка на обрану гілку.
 
 ### Включає
 
-Спрямувати персонажа на розвилці Pirate Land у Mario Party 2 після того, як кубик уже визначив кількість кроків.
+Спрямування персонажа на розвилці шляху поля Pirate Land у Mario Party 2 після того, як Dice Block визначив кількість клітинок для руху.
 
 ### Виключає
 
-Вибір результату кубика SYS-004; редагування мережі поля; вибір наступного вузла в Slay the Spire ACT-127; необмежене переміщення до віддаленої клітинки; вибір результату мінігри.
+Вибір результату кубика SYS-004; редагування мережі поля; вибір вузла наступного поверху в Slay the Spire ACT-127; необмежене переміщення до віддаленої клітинки; вибір результату мінігри.
 
 ### Ігри-носії
 
@@ -12604,11 +12851,11 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Включає
 
-Гак у дослідженому маршруті Grab and Swing гри LittleBigPlanet 2: зачеплення за губку, розгойдування вбік, підтягування або опускання та своєчасне відпускання.
+Гак у дослідженому маршруті Grab and Swing гри LittleBigPlanet 2: зачеплення за губку, розгойдування вбік, скорочення або подовження троса та відпускання у вибраний момент.
 
 ### Виключає
 
-Односпрямоване підтягування з завершенням руху біля вибраної опори ACT-361; лазіння по закріпленій мотузці без прицілювання; перенесення вільного предмета; автоматичне розгойдування без рішення гравця про відпускання.
+Односпрямоване підтягування до вибраної опори, де завершується рух (ACT-361); лазіння закріпленою мотузкою без прицільного зачеплення; хапання вільного предмета для перенесення; автоматичне сценарне розгойдування без рішення гравця про відпускання.
 
 ### Ігри-носії
 
@@ -12616,7 +12863,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-532
 
-- Назва: Увести вивчену послідовність символів
+- Назва: Увести вивчену впорядковану послідовність символів до вибраного інтерфейсу
 - Переглянуто: `2026-09-24`
 
 ### Операційне визначення
@@ -12625,11 +12872,11 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Включає
 
-Ввести відомий числовий пароль Бомберів при проході до обсерваторії та зіграти послідовність нот Пісні часу на повернутій окарині в першому циклі Majora's Mask.
+Уведення вивченого числового пароля Бомберів у проході до обсерваторії Clock Town та відтворення з пам’яті послідовності нот Пісні часу на повернутій окарині в пролозі першого циклу Majora’s Mask.
 
 ### Виключає
 
-Команди з основних напрямків ACT-106; ходіння маршрутом; довільне музикування; вибір відповіді в розмові; скидання світу без введення послідовності.
+Послідовності команд основних напрямків (ACT-106); проходження маршруту пішки; довільне музикування; вибір відповіді в діалозі; скидання, запущене системою без поданої послідовності.
 
 ### Ігри-носії
 
@@ -12637,20 +12884,20 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-533
 
-- Назва: Повторювати ритмічну фразу викладача
+- Назва: Повторити фразу викладача натисканнями кнопок у заданому ритмі
 - Переглянуто: `2026-09-25`
 
 ### Операційне визначення
 
-Після музичного прикладу викладача гравець у своїй частині пісні натискає потрібні кнопки в заданому порядку й у відповідні моменти ритму.
+Після того як викладач демонструє коротку задану авторами музичну фразу, гравець натискає відповідні її символам кнопки контролера в заданому порядку на відповідних долях пізнішого проміжку відповіді гравця.
 
 ### Включає
 
-Відповіді на фрази першого уроку в PaRappa the Rapper Remastered на звичайній складності.
+Відповіді на фрази першого уроку в додзьо на складності Normal у PaRappa the Rapper Remastered.
 
 ### Виключає
 
-Одночасне затискання ладів і удар по струнах у ACT-508; уведення пароля без музичного прикладу в ACT-532; довільне музикування без відповіді.
+Одночасні події карти нот із затисканням ладів та ударом по струнах (ACT-508); уведення вивченого пароля без запланованого звернення викладача (ACT-532); непов’язане довільне музикування.
 
 ### Ігри-носії
 
@@ -12663,7 +12910,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Операційне визначення
 
-Після появи короткої вказівки гравець визначає потрібну саме в цій мікрогрі просту дію на контролері й виконує її за кілька секунд; значення натискання не переноситься на наступне завдання.
+Після появи короткої вказівки гравець вибирає й виконує наразі відповідну їй просту реакцію контролером упродовж короткого поточного проміжку цієї мікрогри, не переносячи значення цього введення на наступне завдання.
 
 ### Включає
 
@@ -12671,7 +12918,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Виключає
 
-Постійне переміщення персонажа крізь рівень (`ACT-008`); повторення музичної фрази за викладачем (`ACT-533`); захист саме від попередженої атаки ворога (`ACT-223`).
+Пересування збережуваного персонажа в межах цілого рівня (ACT-008); повторення заданої музичної фрази доля за долею (ACT-533); захисну відповідь саме на ворожу атаку з попереднім сигналом (ACT-223).
 
 ### Ігри-носії
 
@@ -12679,7 +12926,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-535
 
-- Назва: Покликати супутницю, взяти її за руку або допомогти піднятися
+- Назва: Звернутися до залежної супутниці покликом, узяттям за руку або допомогою піднятися на уступ
 - Переглянуто: `2026-09-25`
 
 ### Операційне визначення
@@ -12688,11 +12935,11 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Включає
 
-Покликати Йорду до Іко, вести її за руку й підтягнути на досяжний вищий уступ під час втечі з першої вежі Ico.
+Поклик до Йорди підійти до Іко, узяття її за руку для ведення й підтягування на досяжний вищий уступ під час першої втечі з вежі у грі Ico.
 
 ### Виключає
 
-Перемикати самостійного охоронця між слідуванням і очікуванням (`ACT-408`); обирати члена загону для прямого керування; автоматично переносити супутницю через непрохідний розрив; відкривати двері Ідолів — це окрема дозволена дія Йорди.
+Перемикання самостійно здатного діяти охоронця між слідуванням і очікуванням (ACT-408); вибір одиниці загону для безпосереднього керування; автоматичну телепортацію супутниці, до якої не зверталися командою, до гравця; відкриття дверей Ідолів — окрему дозволену взаємодію Йорди.
 
 ### Ігри-носії
 
@@ -12705,15 +12952,15 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Операційне визначення
 
-Під час руху й бою в реальному часі гравець витрачає одну доступну бомбу для негайного запиту на очищення місцевої ділянки, не прицілюючись в окремого ворога.
+Під час поточного руху й бою гравець витрачає один доступний заряд екстреної бомби зі скінченного запасу, щоб запросити негайне очищення локальної ділянки, не прицілюючись у конкретного противника.
 
 ### Включає
 
-Натиснути будь-який курок, щоб застосувати одну розумну бомбу в оригінальному режимі Evolved гри Geometry Wars: Retro Evolved для Xbox 360.
+Натискання будь-якого курка для застосування однієї розумної бомби під час спроби набору очок Evolved в оригінальній Xbox 360-версії Geometry Wars: Retro Evolved.
 
 ### Виключає
 
-Розмістити відкладену бомбу на клітинці (`ACT-270`); відповісти засобом протидії на наведену ракету (`ACT-395`); звичайний прицільний вогонь (`ACT-161`); системний вибух і нарахування очок (`SYS-1070`).
+Розміщення відкладеної бомби на клітинці (ACT-270); реакцію засобом протидії на наближення ракети, наведеної на захоплену ціль (ACT-395); звичайну напрямлену стрільбу зі зброї (ACT-161); системний результат вибуху й нарахування очок (SYS-1070).
 
 ### Ігри-носії
 
@@ -12721,20 +12968,20 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-537
 
-- Назва: Провести один безперервний рух крізь рухомі об'єкти
+- Назва: Провести один безперервний різальний рух крізь активні об’єкти
 - Переглянуто: `2026-09-25`
 
 ### Операційне визначення
 
-Тримати палець на екрані й вести його одним безперервним шляхом до відпускання. Кожний рухомий об'єкт, якого торкнувся цей шлях, належить до одного виконаного руху.
+Гравець утримує дотик і рухає його одним безперервним шляхом на екрані, а потім відпускає; кожен допустимий рухомий об’єкт, який цей шлях перетнув, належить до цього одного виконаного штриха.
 
 ### Включає
 
-Одним рухом пальця перетнути кілька фруктів, які злітають, у класичному режимі оригінальної Fruit Ninja версії 1.2 для iPhone.
+Один змах пальцем крізь кілька фруктів у повітрі в режимі Classic оригінальної iPhone-версії Fruit Ninja 1.2.
 
 ### Виключає
 
-Окремі натискання на цілі; шлях по сітці від фіксованої точки (`ACT-016`); перерізання вибраної мотузки (`ACT-027`); вивчений прийом пензлем на нерухомому огляді (`ACT-523`); системний наслідок перетину (`SYS-1072`).
+Окремі натискання на цілі; шлях сіткою з фіксованими кінцями (ACT-016); перерізання вибраного мотузкового з’єднання (ACT-027); малювання вивченої техніки пензлем на застиглому зображенні (ACT-523); системний результат перетину (SYS-1072).
 
 ### Ігри-носії
 
@@ -12742,16 +12989,16 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-538
 
-- Назва: Задати темп подорожі й добовий пайок
+- Назва: Задати збережувані налаштування темпу експедиції та пайків
 - Переглянуто: `2026-09-25`
 
 ### Операційне визначення
 
-У меню подорожі гравець задає темп руху й добову порцію їжі. Обидва правила діють протягом наступних днів, доки їх не змінять.
+У меню подорожі гравець вибирає налаштування подальшої швидкості руху й добових порцій їжі; обидва зберігаються, доки гравець свідомо їх не змінить.
 
 ### Включає
 
-Вибір спокійного, напруженого чи виснажливого темпу та щедрого, помірного чи мізерного пайка перед Канзасом у шкільній The Oregon Trail A-157.
+Вибір темпу steady (рівний), strenuous (напружений) або grueling (виснажливий) та пайків filling (ситні), meager (мізерні) або bare-bones (мінімальні) перед Канзасом у шкільному виданні The Oregon Trail A-157.
 
 ### Виключає
 
@@ -12768,7 +13015,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Операційне визначення
 
-Побачивши виміри й доступні варіанти на річці, гравець обирає брід, перепливання в законопаченому фургоні, доступний пором або очікування.
+Діставшись річки й побачивши її виміри та запропоновані варіанти, гравець підтверджує один із них: перейти вбрід, законопатити фургон і перепливти, найняти доступний пором або зачекати.
 
 ### Включає
 
@@ -12776,7 +13023,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Виключає
 
-Керування плотом на Колумбії; звичайний рух суходолом; припущення, що вибір уже означає успіх.
+Керування плотом на Колумбії; звичайну подорож; припущення про успіх обраної переправи ще до визначення результату ризикового переходу.
 
 ### Ігри-носії
 
@@ -12793,11 +13040,11 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Включає
 
-Необов’язкове полювання до Канзасу у виданні A-157.
+Необов’язкове полювання до Канзасу у виданні The Oregon Trail A-157.
 
 ### Виключає
 
-Бій проти ворога; купівлю їжі; зарахування всієї ваги тварини понад межу того, що можна донести.
+Бій із противником; купівлю їжі; неявне зарахування повної ваги тварини замість обмеженої кількості, яку принесли назад.
 
 ### Ігри-носії
 
@@ -12805,16 +13052,16 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-541
 
-- Назва: Запропонувати речі для обміну в дорозі
+- Назва: Запропонувати речі при собі для обміну на шляху
 - Переглянуто: `2026-09-25`
 
 ### Операційне визначення
 
-Під час зупинки гравець пропонує наявні речі в обмін на потрібний припас; прийнята угода змінює запас і витрачає день.
+На допустимій зупинці подорожі гравець пропонує речі, які має при собі, в обмін на бажаний припас; прийнятий обмін змінює запаси експедиції та витрачає день.
 
 ### Включає
 
-Спроба обміну на першому відрізку The Oregon Trail A-157.
+Команда Attempt to trade на першому відрізку шляху The Oregon Trail A-157.
 
 ### Виключає
 
@@ -12826,20 +13073,20 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-542
 
-- Назва: Наводити всмоктування на доступний нерухомий предмет
+- Назва: Спрямувати всмоктування пилососа на досяжний закріплений об’єкт світу
 - Переглянуто: `2026-09-25`
 
 ### Операційне визначення
 
-Гравець наводить і втримує всмоктування переносного пилососа на придатному закріпленому предметі, щоб змінити його стан, а не забрати в інвентар чи пошкодити ударом.
+Гравець наводить і утримує всмоктування переносного пилососа на сумісному закріпленому об’єкті світу, щоб той змінив стан, не забираючи його до інвентарю при собі й не трактуючи введення як удар, що завдає шкоди.
 
 ### Включає
 
-Гасіння запалених свічок пилососом у першій кімнаті оригінальної Luigi's Mansion перед появою звичайних привидів.
+Гасіння запалених свічок у Parlor за допомогою Poltergust до появи перших звичайних привидів в оригінальній Luigi’s Mansion.
 
 ### Виключає
 
-Збирання рухомих слизів у резервуар певного типу (`ACT-467`); всмоктування привида з відкритим серцем, який чинить опір (`ACT-544`); звичайне відкриття скрині або дверей (`ACT-341`).
+Збирання вільних слизів у типізований резервуар (ACT-467); всмоктування привида з відкритим серцем, який чинить опір (ACT-544); звичайне контекстне використання скрині чи дверей (ACT-341).
 
 ### Ігри-носії
 
@@ -12847,20 +13094,20 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-543
 
-- Назва: Приховати й спрямувати переносне світло на близького ворога
+- Назва: Тримати переносне світло вимкненим і спрямувати його на ворога поблизу, щоб відкрити вразливість
 - Переглянуто: `2026-09-25`
 
 ### Операційне визначення
 
-Гравець навмисно вимикає напрямлене переносне світло, поки наближається до чутливого до нього ворога, а потім наводить промінь зблизька, щоб відкрити тимчасову вразливість.
+Гравець навмисно не дає світити напрямленому джерелу, яке має при собі, поки наближається до чутливого до світла противника, а потім наводить його промінь на противника поблизу, щоб запросити тимчасове відкриття вразливості.
 
 ### Включає
 
-Утримування кнопки B, щоб ліхтарик Луїджі не світив, а тоді освітлення близького привида в першій кімнаті оригінальної GameCube-версії.
+Утримування B, щоб ліхтарик Луїджі не світив, а потім освітлення привида зблизька в Parlor за оригінальними правилами GameCube-версії.
 
 ### Виключає
 
-Увімкнення загального освітлення кімнати; постріл ушкоджувальним снарядом; постійне позначення майбутніх цілей; саму реакцію вразливості (`SYS-1080`).
+Увімкнення загального освітлення кімнати; постріл снарядом, що завдає шкоди; постійне сканування, яке позначає майбутні цілі; системну реакцію вразливості (SYS-1080).
 
 ### Ігри-носії
 
@@ -12873,15 +13120,15 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Операційне визначення
 
-Гравець тримає наведене всмоктування на доступному привиді з відкритою вразливістю та безперервно скеровує керування проти напряму його втечі, щоб долати опір до захоплення.
+Гравець утримує наведене всмоктування пилососа на досяжному привиді з наразі відкритою вразливістю й безперервно керує в напрямку, протилежному напрямку його втечі, щоб опір міг вичерпуватися на шляху до захоплення.
 
 ### Включає
 
-Утримування кнопки R й відхилення головного та правого стіків проти руху привида в першій кімнаті оригінальної GameCube-версії.
+Утримування R й відхилення Control Stick та C Stick у напрямку від привида в Parlor під час захоплення за оригінальними правилами GameCube.
 
 ### Виключає
 
-Миттєве збирання рухомого предмета; зберігання істоти в оборотному резервуарі (`ACT-467`); освітлення ліхтариком (`ACT-543`); власне зменшення сили та захоплення (`SYS-1081`).
+Збирання вільного предмета одним натисканням; оборотне зберігання істоти в резервуарі Vacpack (ACT-467); освітлення ліхтариком (ACT-543); фактичне зменшення сили та системну реакцію захоплення (SYS-1081).
 
 ### Ігри-носії
 
@@ -12889,20 +13136,20 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-545
 
-- Назва: Вчасно наступити на напрямну панель за стрілкою
+- Назва: Наступити на напрямні панелі підлоги за показаними стрілками у відповідну долю ритму
 - Переглянуто: `2026-09-26`
 
 ### Операційне визначення
 
-Коли показана стрілка наближається до нерухомої позначки, гравець робить фізичний крок на відповідну панель підлоги або одночасно на дві панелі для пари стрілок.
+Коли показана напрямлена подія карти кроків досягає фіксованої зони кроку, гравець фізично наступає на відповідну панель підлоги або одночасно на пару панелей, якщо подія парна.
 
 ### Включає
 
-Сольну гру на чотирипанельному аркадному автоматі Konami GN845-UC.
+Сольна гра ногами на чотирьох панелях зі стрілками аркадного автомата Konami GN845-UC DanceDanceRevolution.
 
 ### Виключає
 
-Затискання кнопок гітари й удар по струні (`ACT-508`); відповідь на фразу вчителя (`ACT-533`); перевірку таймінгу рухомого покажчика (`ACT-261`); пізніші механіки утримування стрілки.
+Затискання ладів і удар по струнах (ACT-508); відповідь на фразу викладача (ACT-533); загальну перевірку вміння з рухомим покажчиком (ACT-261); пізніші в серії механіки утримування або Freeze Arrow.
 
 ### Ігри-носії
 
@@ -12910,12 +13157,12 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-546
 
-- Назва: Натиском зібрати недовговічне сонце
+- Назва: Клацанням зібрати тимчасовий жетон виробленого ресурсу
 - Переглянуто: `2026-09-26`
 
 ### Операційне визначення
 
-Гравець окремо натискає на видиму одиницю ресурсу, поки та не зникла, щоб перенести її в спільний запас для витрат. Сама поява сонця запас не збільшує.
+Гравець явно клацає по видимій одиниці ресурсу, що існує недовго, до спливу її часу існування, зараховуючи її значення до спільного балансу, який можна витрачати; саме генерування без клацання нічого не надає.
 
 ### Включає
 
@@ -12923,7 +13170,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Виключає
 
-Збирання предмета рухом персонажа; автоматичне періодичне поповнення запасу; плату після хвилі; збирання врожаю в інвентар.
+Проходження персонажем через предмет для підбирання; періодичне поповнення, надане автоматично; зарахування після хвилі; збирання врожаю, який зберігається у світі, до інвентарю при собі.
 
 ### Ігри-носії
 
@@ -12931,20 +13178,20 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-547
 
-- Назва: Лопатою прибрати рослину з клітинки
+- Назва: Лопатою звільнити клітинку, зайняту захисником
 - Переглянуто: `2026-09-26`
 
 ### Операційне визначення
 
-Гравець застосовує багаторазову лопату до однієї висадженої рослини, прибирає її та звільняє зайняту клітинку для подальшої посадки. Рослина не переходить до інвентарю.
+Гравець застосовує багаторазовий інструмент вилучення до одного вже розміщеного захисника, прибирає його й звільняє зайняту клітинку для подальшого розміщення, не переносячи захисника до інвентарю.
 
 ### Включає
 
-Використання лопати після рівня 1-4 у звичайному проходженні Adventure в Plants vs. Zombies.
+Використання лопати на зайнятій клітинці газону після рівня 1-4 під час гри Adventure в оригінальній Plants vs. Zombies.
 
 ### Виключає
 
-Продаж із підтвердженим поверненням коштів; тривале видобування з отриманням предмета (`ACT-122`); знищення ворога; автоматичне самознищення одноразової бойової рослини.
+Продаж із зарахуванням відомого відшкодування; команду вилучення, що повертає предмет (ACT-122); знищення противника; одноразову атакувальну рослину, що автоматично витрачає саму себе.
 
 ### Ігри-носії
 
@@ -12952,16 +13199,16 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-548
 
-- Назва: Надутися й змахами рук піднятися над етапом
+- Назва: Надути звичайне кероване тіло й рухатися рівнем змахами
 - Переглянуто: `2026-09-26`
 
 ### Операційне визначення
 
-Поки безпосередньо керований персонаж перебуває у звичайній формі, гравець навмисно надуває його, повторює команду польоту для набору висоти й може видихнути повітря як атаку. Після видиху політ припиняється до нового надування.
+Поки безпосередньо кероване тіло перебуває у звичайній формі, гравець навмисно надуває його, повторює команду польоту для набору висоти й може випустити утримуване повітря як атаку, завершуючи цю повітряну форму до наступного надування тіла.
 
 ### Включає
 
-У першому етапі Долини овочів оригінальної Kirby's Adventure для NES Кірбі у звичайній формі натискає вгору, змахує руками кнопкою A і за бажанням випускає повітряну кульку кнопкою B.
+Кірбі у звичайній формі натискає вгору, виконує змахи кнопкою A й за бажанням випускає повітряний снаряд кнопкою B під час маршруту Vegetable Valley 1-1 в оригінальній NES-версії Kirby’s Adventure.
 
 ### Виключає
 
@@ -12978,7 +13225,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Операційне визначення
 
-Безпосередньо керований персонаж вдихає одного близького допустимого ворога або блок у єдине зайняте місце в роті, після чого наказує або видихнути зірку-снаряд, або проковтнути об’єкт. Обраний результат звільняє рот.
+Безпосередньо керований персонаж вдихає одного допустимого ворога або блок поблизу й переходить до стану утримування єдиного тіла в роті, а потім дає команду виплюнути його як зірку-снаряд або проковтнути; виконання обраної команди звільняє рот.
 
 ### Включає
 
@@ -12986,7 +13233,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Виключає
 
-Язик і рот супутника, на якому їде гравець (`ACT-493`); автоматичне ковтання за таймером; збирання предмета до інвентарю; саму скопійовану здібність, яку дає проковтнутий ворог.
+Язик і рот супутника, на якому їде гравець (ACT-493); автоматичне ковтання за таймером; предмет, зібраний до інвентарю; саму скопійовану здібність, яку надає ковтання ворога визначеного типу.
 
 ### Ігри-носії
 
@@ -12994,28 +13241,29 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-550
 
-- Назва: Перемикати зброю бойової машини
-- Переглянуто: `2026-09-26`
+- Назва: Циклічно перемикати зброю в запасі машини, щоб активувати один тип
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-Керуючи машиною з кількома підібраними видами зброї, гравець перемикає доступні види й робить один із них активним для наступного пострілу. Сам вибір не витрачає боєприпасів.
+Керуючи бойовою машиною, що несе кілька видів зброї, гравець перемикає доступний арсенал і робить один вид активним для наступної команди пострілу, не витрачаючи боєприпасів самим вибором.
 
 ### Включає
 
-Перемикання з поточної зброї на підібрані ракети в першій арені сюжетного режиму оригінальної Twisted Metal: Black для PS2.
+Перемикання з поточної зброї на тип підібраних ракет у першій сюжетній арені Junkyard оригінальної PS2-версії Twisted Metal: Black.
 
 ### Виключає
 
-Збирання зброї; постріл із витратою боєприпасу; вибір машини до арени; звичайне місце ручного інвентарю; автоматичну заміну порожньої зброї без доказу такого правила.
+Збирання зброї; постріл із витратою її боєприпасів; вибір машини до входу на арену; загальну комірку швидкого доступу до інвентарю предметів, які тримають у руках; автоматичну підміну після вичерпання боєприпасів, якщо правила прямо не передбачають такої підміни.
 
 ### Ігри-носії
 
+- [`GAME-0509` — MechAssault](../games/m-r/mechassault.md)
 - [`GAME-0409` — 'Twisted Metal: Black'](../games/s-z/twisted-metal-black.md)
 
 ## ACT-551
 
-- Назва: Другим натисканням спрямувати вже випущену зброю
+- Назва: Подати другу команду вже випущеній зброї у вибрану мить
 - Переглянуто: `2026-09-26`
 
 ### Операційне визначення
@@ -13024,11 +13272,11 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Включає
 
-Евакуатор Junkyard Dog запускає шиповану кулю, а наступним натисканням обрушує ту саму кулю на місце прицілу в оригінальній Twisted Metal: Black для PS2.
+Junkyard Dog випускає шиповану кулю й дає команду вистрілити ще раз, щоб опустити ту саму кулю на прицільну позначку в оригінальній PS2-версії Twisted Metal: Black.
 
 ### Виключає
 
-Звичайну ракету з одним пострілом; автоматичний удар після зіткнення; другий незалежний снаряд; постійну пастку арени.
+Звичайний одиничний пуск ракети; автоматичне влучання при дотику; постріл другим незалежним снарядом; підрив постійного джерела небезпеки на мапі.
 
 ### Ігри-носії
 
@@ -13036,20 +13284,20 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ## ACT-552
 
-- Назва: Обрати місце командного стрибка на мапі
+- Назва: Вибрати союзне місце приземлення на мапі й підтвердити стрибок
 - Переглянуто: `2026-09-26`
 
 ### Операційне визначення
 
-На відкритій командній мапі гравець обирає доступного союзника або місце появи своєї команди та наказує швидко переміститися до цієї поточної позиції, а не до довільної координати ігрового світу.
+З активної командної мапи гравець вибирає одного наразі допустимого союзного учасника або місце появи команди й підтверджує швидке переміщення до цього поточного місця приземлення, а не вільно вибирає будь-яку координату світу.
 
 ### Включає
 
-Super Jump від місця появи до союзника поблизу спірної території у звичайному матчі Splatoon 3.
+Super Jump від місця появи своєї команди до союзника, який перебуває ближче до спірної території, у Regular Battle гри Splatoon 3.
 
 ### Виключає
 
-Звичайну ходьбу чи плавання у власному чорнилі; телепортацію до будь-якої точки; автоматичне повернення після ураження без вибору цілі; пізніші зміни балансу Stealth Jump.
+Звичайну ходьбу чи плавання у власному чорнилі; телепортацію на довільне місце на землі; автоматичну повторну появу після вибивання з бою без вибору місця призначення; пізніші модифікатори балансу Stealth Jump.
 
 ### Ігри-носії
 
@@ -13057,20 +13305,20 @@ Super Jump від місця появи до союзника поблизу с�
 
 ## ACT-553
 
-- Назва: Закрити видимий отвір відстежуваною частиною тіла
+- Назва: Закрити видиме протікання відстежуваною частиною тіла
 - Переглянуто: `2026-09-26`
 
 ### Операційне визначення
 
-Гравець переміщує відстежувану частину тіла до поточного видимого отвору в ігровому просторі й утримує її там для збереження контакту замість разового натискання кнопки.
+Гравець переміщує допустиму частину тіла, яку безперервно відстежують, до поточного видимого просторового місця протікання й утримує її там для підтримання контакту, а не подає одноразову команду контролером.
 
 ### Включає
 
-Прикласти руку, ногу, коліно чи голову до одного отвору в склі під час «20,000 Leaks» в оригінальній Kinect Adventures! для Xbox 360.
+Прикладання кисті, стопи, коліна або голови до одного отвору в склі в завданні 20,000 Leaks оригінальної Xbox 360-версії Kinect Adventures!.
 
 ### Виключає
 
-Спрямований замах віртуальним сачком (`ACT-477`); кидок кулі, який зчитується в момент випуску (`ACT-499`); крок на окрему танцювальну панель (`ACT-545`); декоративне віддзеркалення персонажа без контакту з отвором.
+Напрямлений змах віртуальним сачком (ACT-477); зчитаний випуск кулі в боулінгу (ACT-499); крок на окрему танцювальну панель (ACT-545); декоративне віддзеркалення персонажа без контакту з протіканням.
 
 ### Ігри-носії
 
@@ -13083,7 +13331,7 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Операційне визначення
 
-Гравець явно завершує тактичний день своєї армії, відмовляючись від можливих невиконаних наказів підрозділам, і передає керування супротивнику, а не лише наказує зачекати одному підрозділу.
+Гравець явно завершує поточний тактичний день керованої сторони, відмовляючись від будь-яких необов’язкових наказів, які ще можна було б віддати підрозділам, і передає командування супротивній стороні, а не віддає наказ очікувати лише одній одиниці.
 
 ### Включає
 
@@ -13091,7 +13339,7 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Виключає
 
-Наказ Wait одному піхотинцю; автоматичну відповідь ворога після кожного переміщення; паузу в реальному часі; вимогу наказати кожному союзнику перед завершенням дня.
+Наказ Wait одній піхотній одиниці; автоматичну відповідь ворога одразу після кожного переміщення; паузу в реальному часі; обов’язковий наказ кожній союзній одиниці, перш ніж сторона зможе завершити день.
 
 ### Ігри-носії
 
@@ -13108,7 +13356,7 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Включає
 
-Перевести члена екіпажу початкового «Боривітра» з поста до пошкодженої кімнати під час ворожої сутички біля маяка в FTL.
+Переведення одного з початкових членів екіпажу «Боривітра» (Kestrel) з поста до пошкодженого системного відсіку під час ворожої сутички біля маяка в FTL.
 
 ### Виключає
 
@@ -13125,15 +13373,15 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Операційне визначення
 
-Гравець обирає ввімкнену корабельну зброю і вказує доступну для прицілювання кімнату ворожого корабля як ціль наступного пострілу. Під час пострілу витрачаються заряд зброї та відповідні боєприпаси.
+Гравець вибирає корабельну зброю з поданим живленням і позначає один наразі доступний для наведення відсік ворожого корабля як ціль її наступного пострілу, підтверджуючи витрату заряду цієї зброї та сумісних боєприпасів, коли відбувається постріл.
 
 ### Включає
 
-Націлити Burst Laser II або ракетницю Artemis «Боривітра» на відсік зброї чи щитів супротивника.
+Націлювання Burst Laser II або ракетниці Artemis «Боривітра» (Kestrel) на ворожий відсік зброї чи щитів під час сутички базової гри.
 
 ### Виключає
 
-Безпосереднє пілотування снаряда; лише ввімкнення зброї; гарантоване влучання попри ухилення; атаку по абстрактному здоров’ю всього корабля без цілі-кімнати.
+Безпосереднє пілотування снаряда; саме подання живлення зброї; гарантоване влучання у відсік попри ухилення; атаки по єдиному запасу здоров’я всього корабля без цілі у вигляді відсіку.
 
 ### Ігри-носії
 
@@ -13141,20 +13389,20 @@ Super Jump від місця появи до союзника поблизу с�
 
 ## ACT-557
 
-- Назва: Погладити цуценя через сенсорний екран
+- Назва: Погладити здатне реагувати цуценя сенсорним дотиком
 - Переглянуто: `2026-09-27`
 
 ### Операційне визначення
 
-Торкнутися цуценяти на сенсорному екрані й провести стилусом, обираючи місце та тривалість погладжування, поки воно може реагувати.
+Гравець торкається сенсорного екрана в області цуценяти поблизу й рухає дотик, щоб погладити його, вибираючи, де і як довго продовжувати взаємодію, поки цуценя може реагувати.
 
 ### Включає
 
-Гладити перше назване цуценя вдома в оригінальній Nintendogs для Nintendo DS.
+Гладіння першого цуценяти, якому вже дали ім’я, на сенсорному екрані Nintendo DS під час домашнього сеансу оригінальної Nintendogs.
 
 ### Виключає
 
-Перетягування цуценяти як керованої фігури; вибір меню без дотику до тварини; розчісування засобом догляду; безкінечно приємну реакцію.
+Перетягування цуценяти як керованої фігури; вибір команди меню без дотику до тварини; розчісування засобом догляду; припущення, що позитивна реакція триватиме без обмежень.
 
 ### Ігри-носії
 
@@ -13171,11 +13419,11 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Включає
 
-Назвати першого цуценя Nintendogs і навчити його команди сидіти або повторити її пізніше.
+Надання імені першому цуценяті Nintendogs і навчання його першому сигналу для дії «сидіти» або вимовляння цього сигналу пізніше.
 
 ### Виключає
 
-Лише введення імені текстом; запис повідомлення для Bark Mode; вибір готової репліки; безпосереднє керування рухом цуценяти хрестовиною.
+Лише введення імені текстом; запис повідомлення Bark Mode; вибір сценарної репліки діалогу; безпосереднє переміщення цуценяти стиком керування.
 
 ### Ігри-носії
 
@@ -13192,11 +13440,11 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Включає
 
-Скористатися одним наявним засобом годування, напування чи догляду за шерстю в першому домашньому сеансі Nintendogs після відкриття меню.
+Застосування одного доступного засобу годування, напування чи догляду за шерстю в першому домашньому сеансі оригінальної Nintendogs після розблокування Supplies.
 
 ### Виключає
 
-Купівлю предмета в крамниці; кидання іграшки; автоматичний загальний наказ працівникам зоопарку; припущення, що той самий предмет є в кожному початковому файлі.
+Купівлю засобу в крамниці; кидання іграшки для гри; автоматичний наказ із догляду за тваринами в усьому зоопарку; твердження, що певний предмет є в запасі кожного початкового файлу.
 
 ### Ігри-носії
 
@@ -13204,20 +13452,20 @@ Super Jump від місця появи до союзника поблизу с�
 
 ## ACT-560
 
-- Назва: Віддавати загону наказ чотирма ударами барабана
+- Назва: Передати строю наказ барабанною фразою на чотири долі
 - Переглянуто: `2026-09-27`
 
 ### Операційне визначення
 
-Під час поточного ритмічного інтервалу ввести чотири впорядковані звуки барабанів кнопками. Розпізнана фраза обирає наказ рухатися або атакувати для наявного строю, а не безпосередньо керує окремим бійцем.
+У поточному ритмічному проміжку під час гри гравець відтворює кнопками чотири впорядковані барабанні звуки; розпізнана фраза вибирає наказ руху чи бойовий наказ для наявного строю, а не безпосередньо керує одним його учасником.
 
 ### Включає
 
-Фраза `PATA PATA PATA PON` наказує йти, а `PON PON PATA PON` — атакувати під час першого полювання на Patata Plain в оригінальній Patapon для PSP.
+PATA PATA PATA PON наказує марширувати, а PON PON PATA PON — атакувати під час першого полювання на Patata Plain в оригінальній PSP-версії Patapon.
 
 ### Виключає
 
-Повторення щойно показаної вчителем фрази (`ACT-533`); натискання ножними панелями напрямків за рухомою схемою (`ACT-545`); окремий наказ бійцю рухатися чи вдарити; декоративний барабанний звук без наказу.
+Повторення щойно продемонстрованої викладачем фрази (ACT-533); узгодження кроків на панелях зі стрілками, що прокручуються (ACT-545); задання окремому солдатові позиції або команди удару; декоративне барабанення, яке не віддає наказу.
 
 ### Ігри-носії
 
@@ -13225,20 +13473,20 @@ Super Jump від місця появи до союзника поблизу с�
 
 ## ACT-561
 
-- Назва: Зібрати й змінювати керований автомобіль із доступних деталей
+- Назва: Зібрати й переробити безпосередньо керований транспортний засіб із доступних деталей
 - Переглянуто: `2026-09-27`
 
 ### Операційне визначення
 
-У майстерні вибрати доступні функціональні деталі, приєднати, перемістити або зняти їх у зв’язаній конструкції автомобіля, а тоді зберегти чи вибрати цю конструкцію для безпосереднього керування під час випробування.
+У майстерні транспортних засобів гравець вибирає доступні функціональні деталі, приєднує, пересуває або вилучає їх у зв’язаній конструкції транспортного засобу, а потім зберігає або вибирає цю конструкцію для безпосереднього керування під час випробування.
 
 ### Включає
 
-Зібрати в Mumbo's Motors невеликий колісний бульдозер із широким переднім ковшем, випробувати його й вибрати для Great Balls of Fire у другому акті Nutty Acres.
+Збирання компактного колісного бульдозера з широким переднім ковшем із доступних деталей Mumbo’s Motors, випробування й вибір цієї конструкції для Great Balls of Fire у другому акті Nutty Acres.
 
 ### Виключає
 
-Вибір готового серійного автомобіля без змін; косметичне фарбування; заміну предмета у фіксованому гнізді під час перегонів; побудову автономної фабрики; вимогу зібрати таку машину, хоча звичайний візок теж завершує випробування.
+Вибір незмінного готового серійного транспортного засобу; косметичне фарбування; заміну спорядження у фіксованій комірці під час перегонів; збирання автономної фабрики; вимогу саме цієї власної конструкції, коли початковий візок може завершити випробування.
 
 ### Ігри-носії
 
@@ -13246,41 +13494,42 @@ Super Jump від місця появи до союзника поблизу с�
 
 ## ACT-562
 
-- Назва: Керувати кораблем у коридорі, що просувається вперед
+- Назва: Керувати засобом польоту в коридорі, що автоматично просувається вперед
 - Переглянуто: `2026-09-27`
 
 ### Операційне визначення
 
-Безперервно переміщувати безпосередньо керований корабель за двома напрямками в межах коридору, який автоматично просувається вперед, змінюючи локальну траєкторію серед загроз і проходів без вибору довільної цілі у відкритому просторі.
+Гравець безперервно змінює положення безпосередньо керованого засобу польоту за двома поперечними осями екрана, поки просування заданим авторами маршрутом відбувається автоматично, коригуючи локальну траєкторію між загрозами й проходами без вибору місця призначення у вільному просторі.
 
 ### Включає
 
-Провести винищувач Фокса крізь сім кам’яних арок на Corneria в оригінальній Star Fox 64 для Nintendo 64, у режимі тривимірного прокручування.
+Пілотування Arwing Фокса під сімома кам’яними арками Corneria з одночасним кермуванням в обхід видимих небезпек в оригінальній Nintendo 64-версії Star Fox 64 у режимі 3D Scroll Mode.
 
 ### Виключає
 
-Необмежений тривимірний політ (`ACT-392`); обертання камери задля зміни геометрії; наказ автономному кораблю; автоматичний біг із єдиною кнопкою висоти; вибір вузла маршруту на мапі.
+Керування необмеженим космічним польотом за трьома осями (ACT-392); поворот камери для зміни геометрії; скеровування автономного засобу польоту; гру з автоматичним бігом і лише однією кнопкою вертикального керування; вибір вузла маршруту на мапі.
 
 ### Ігри-носії
 
+- [`GAME-0505` — Panzer Dragoon](../games/m-r/panzer-dragoon.md)
 - [`GAME-0424` — "Star Fox 64"](../games/s-z/star-fox-64.md)
 
 ## ACT-563
 
-- Назва: Спрямувати одне диво божественною рукою
-- Переглянуто: `2026-09-27`
+- Назва: Застосувати одне диво божественною рукою до обраної цілі
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-Гравець активує доступне диво, спрямовує божественну руку на допустимий об’єкт світу та застосовує ефект саме там, не переносячи створений ресурс вручну й не віддаючи наказ істоті.
+Гравець активує доступне божественне диво, розташовує Руку над обраним допустимим одержувачем у світі й підтверджує ефект саме там, замість безпосередніх дій зі створеним ресурсом або наказу агентові.
 
 ### Включає
 
-Розкрити бульбашку одноразового дива їжі та спрямувати його до сільського сховища на першому острові Black & White, поки істота на навчальному повідку спостерігає.
+Розкриття бульбашки одноразового Food Miracle та застосування його їжі над Guide’s Aztec Village Store на першому острові оригінальної Windows-версії Black & White, поки істота на навчальному повідку спостерігає.
 
 ### Виключає
 
-Розіграти карту заклинання в покроковій грі (`ACT-333`); самостійне застосування істотою вже вивченого дива; переносити зібране зерно рукою; застосувати диво без доступної бульбашки.
+Розіграш карти закляття з руки під час покрокової гри (ACT-333); самостійне застосування істотою дива після навчання; розміщення зібраного зерна безпосереднім підбиранням; надання можливості застосувати диво без наявного доступного дива.
 
 ### Ігри-носії
 
@@ -13293,7 +13542,7 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Операційне визначення
 
-Гравець проводить пальцем по видимому краю паперу на передньому сенсорному екрані, відділяє покривний шар від опори і відкриває поверхню під ним, а не просто вибирає пункт інтерфейсу.
+Гравець тягне видимий край паперу на передньому сенсорному екрані, щоб покривний шар піднявся з опори в ігровому світі й відкрив поверхню під ним, а не вибирає пункт інтерфейсу.
 
 ### Включає
 
@@ -13301,7 +13550,7 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Виключає
 
-Малювати й вирізати декоративну паперову форму; переставляти фрагмент мапи; автоматично розгортати цілий міст; торкатися вже відкритого барабана задньою панеллю.
+Малювання й вирізання декоративної паперової форми; переставляння фрагмента мапи; автоматичне складання цілого моста; дотик задньою панеллю до вже відкритого барабана.
 
 ### Ігри-носії
 
@@ -13314,15 +13563,15 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Операційне визначення
 
-Гравець торкається відповідної ділянки задньої сенсорної панелі, коли керований посланець стоїть на барабані, і навмисно запускає підкидання, а не чекає автоматичного відскоку від самого контакту.
+Гравець торкається ділянки задньої сенсорної панелі, що відповідає паперовому барабану, поки керований посланець перебуває на поверхні цього барабана, навмисно запитуючи підкидання замість покладання на автоматичний відскок від контакту.
 
 ### Включає
 
-Удар заднім дотиком по барабанній поверхні, який підкидає Iota або Atoi в оригінальній Tearaway для PS Vita.
+Гра на барабані дотиком до задньої сенсорної панелі, яка підкидає Iota або Atoi з позначеної барабанної мембрани в оригінальній Tearaway для PS Vita.
 
 ### Виключає
 
-Автоматичний відскок від контакту (`SYS-1056`); самостійно доступну кнопку стрибка; поштовх заднім дотиком, який пересуває перешкоду; ритмічні накази строю (`ACT-560`).
+Автоматичний відскок від контакту (SYS-1056); незалежно доступну кнопку стрибка; поштовх заднім дотиком, що пересуває перешкоду; накази строю ритмічними фразами (ACT-560).
 
 ### Ігри-носії
 
@@ -13330,20 +13579,20 @@ Super Jump від місця появи до союзника поблизу с�
 
 ## ACT-566
 
-- Назва: Спрямовувати й посилювати ліхтарик проти захищеного темрявою ворога
+- Назва: Спрямовувати й за бажанням посилювати промінь переносного джерела світла проти захищеного темрявою ворога
 - Переглянуто: `2026-09-27`
 
 ### Операційне визначення
 
-Гравець наводить уже доступний ручний промінь на захищеного темрявою ворога й вирішує, чи утримувати посилення, що витрачає заряд, поки промінь діє на ціль.
+Гравець наводить уже доступний промінь джерела світла в руках на захищеного темрявою противника й вибирає, чи утримувати посилення променя з витратою заряду, підтримуючи контакт променя з ціллю.
 
 ### Включає
 
-Спрямувати або посилити ліхтарик Алана проти Темного в оригінальній Alan Wake для Xbox 360.
+Наведення та посилення ліхтарика Алана на Темного в оригінальній Xbox 360-версії Alan Wake.
 
 ### Виключає
 
-Спершу ховати світло для раптового короткого викриття (`ACT-543`); перемикати ліхтарик (`ACT-409`); стріляти зі зброї (`ACT-161`); системне зняття захисту (`SYS-1126`).
+Приховування світла перед разовим несподіваним викриттям (ACT-543); перемикання переносного джерела світла (ACT-409); стрільбу зі зброї (ACT-161); системний результат зняття покриву темряви світлом (SYS-1126).
 
 ### Ігри-носії
 
@@ -13351,20 +13600,20 @@ Super Jump від місця появи до союзника поблизу с�
 
 ## ACT-567
 
-- Назва: Ставити або стирати елемент курсу в редакторі
+- Назва: Розмістити або стерти елемент рівня в редакторі поза активною грою
 - Переглянуто: `2026-09-27`
 
 ### Операційне визначення
 
-Гравець вибирає доступний елемент у палітрі редактора, ставить його в певну клітинку сітки курсу або стирає вже поставлений елемент. Змінюється майбутній шлях для випробування, а не поточний світ персонажа під час пробної гри.
+У редакторі, де гравець сам визначає темп роботи, він вибирає доступний елемент рівня й розміщує його в обраній клітинці сітки або стирає вже розміщений елемент. Це змінює компонування для подальшого випробування, а не поточний світ керованого персонажа під час гри.
 
 ### Включає
 
-Розміщення або стирання звичайного блоку ґрунту на Wii U GamePad в оригінальній Super Mario Maker.
+Сенсорне розміщення звичайного блока ґрунту через палітру редактора або стирання такого блока за допомогою Wii U GamePad в оригінальній Super Mario Maker.
 
 ### Виключає
 
-Ставити блок із носимого запасу в межах досяжності персонажа в Minecraft чи Terraria (`ACT-162`); змінювати зіткнення під час пробного проходження; публікувати змінений чужий курс.
+Розміщення утримуваного блока, підкріпленого запасом матеріалів, у межах досяжності персонажа в Minecraft Survival або Terraria (ACT-162); зміну зіткнень, поки триває активне пробне проходження; вільне редагування завантаженого рівня іншого автора для публікації.
 
 ### Ігри-носії
 
@@ -13372,20 +13621,20 @@ Super Jump від місця появи до союзника поблизу с�
 
 ## ACT-568
 
-- Назва: Перемикати власний курс між редактором і пробною грою
+- Назва: Перемкнути поточний створений рівень у пробну гру
 - Переглянуто: `2026-09-27`
 
 ### Операційне визначення
 
-Гравець свідомо запускає пробне проходження поточного редагованого курсу й за можливості повертається до редагування цього самого курсу, не надсилаючи його до мережі.
+Гравець свідомо перемикає поточний редагований рівень у режим пробного проходження з безпосереднім керуванням і, поки повернення ще доступне, повертається до редагування того самого рівня, не підтверджуючи завантаження в мережу.
 
 ### Включає
 
-Кнопку пробної гри на Wii U GamePad в оригінальній Super Mario Maker.
+Елемент керування Trial Play на GamePad в оригінальній Wii U-версії Super Mario Maker.
 
 ### Виключає
 
-Запускати автономну програму машини (`TIM-006`); відкривати інший опублікований курс; вважати пробу з середини окремим підтвердженням проходження перед публікацією.
+Виконання зафіксованої автономної програми машини (TIM-006); вхід до не пов’язаного з поточним опублікованого рівня; твердження, що проба із середини рівня вже задовольняє окрему вимогу підтвердити його проходження автором перед публікацією.
 
 ### Ігри-носії
 
@@ -13393,7 +13642,7 @@ Super Jump від місця появи до союзника поблизу с�
 
 ## ACT-569
 
-- Назва: Націлити ривок Bash від допустимої опори
+- Назва: Націлити й виконати ривок Bash від допустимої опори
 - Переглянуто: `2026-09-27`
 
 ### Операційне визначення
@@ -13427,7 +13676,7 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Виключає
 
-Використання фіксованого Духовного колодязя (`ACT-341`); автоматичний запис контрольної точки; меню з довільною історією збережень; твердження, що точку можна створити без енергії чи в кожному небезпечному місці (`CON-708`).
+Використання фіксованого Духовного колодязя (`ACT-341`); автоматичний запис контрольної точки; історію збережень через меню з можливістю зберігатися будь-де; твердження, що точку можна створити без енергії чи в кожному небезпечному місці (`CON-708`).
 
 ### Ігри-носії
 
@@ -13435,12 +13684,12 @@ Super Jump від місця появи до союзника поблизу с�
 
 ## ACT-571
 
-- Назва: Випускати спрямовану пісню для ехолокації чи гліфа
+- Назва: Подати спрямовану пісню дельфіна для обстеження чи відгуку гліфа
 - Переглянуто: `2026-09-27`
 
 ### Операційне визначення
 
-Гравець спрямовує пісню керованого дельфіна. Короткий сигнал може звернутися до сумісного близького гліфа чи істоти, а утриманий сигнал повертається відлунням і відкриває місцеву карту в обраному напрямку.
+Гравець подає спрямовану пісню керованого дельфіна. Короткий імпульс спрямовується на сумісний гліф чи істоту поблизу, а відлуння утримуваного сигналу, що повернулося, можна читати як локальну сонарну мапу області перед дельфіном.
 
 ### Включає
 
@@ -13448,7 +13697,7 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Виключає
 
-Сканер місцевості й вантажу Odradek (`ACT-471`); автоматично відкрита глобальна карта; звичайний атакувальний снаряд; припущення, що будь-яка пісня відкриває кожен гліф.
+Сканування місцевості й вантажу Odradek (ACT-471); глобальну мапу, автоматично відкриту без введення гравця; звичайний атакувальний снаряд; припущення, що будь-яка пісня відкриває кожен гліф.
 
 ### Ігри-носії
 
@@ -13465,11 +13714,11 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Включає
 
-Натискати на ніж для рубання, вести ним за позначеними лініями для нарізання тофу, нахиляти каструлю стилусом і керувати показаними елементами готування місо-супу в оригінальній Cooking Mama для DS.
+Натискання на ніж для рубання, проведення вздовж показаних ліній для нарізання тофу, нахиляння каструлі для бульйону стилусом і керування показаними елементами готування під час рецепта місо-супу в оригінальній DS-версії Cooking Mama.
 
 ### Виключає
 
-Вибір усього рецепта для миттєвого виготовлення; роботу біля постійного алхімічного столу (`ACT-410`); прикрашання без впливу на оцінювану підготовку; припущення, що кожен жест вимагає мікрофона.
+Вибір цілого рецепта для виготовлення однією неподільною дією; роботу втіленого персонажа біля постійної алхімічної робочої станції (ACT-410); прикрашання без оцінюваного впливу на підготовку; припущення, що кожен жест використовує мікрофон.
 
 ### Ігри-носії
 
@@ -13482,15 +13731,15 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Операційне визначення
 
-Гравець свідомо подає обмежений за дальністю невербальний сигнал від керованого мандрівника. Доступна тканина може відгукнутися, а інший мандрівник — помітити сигнал; текстового або голосового каналу немає.
+Гравець свідомо подає від керованого мандрівника невербальний імпульс обмеженої дальності в навколишній простір, щоб допустима тканина могла відгукнутися, а інший мандрівник — сприйняти сигнал без використання текстового чи голосового каналу.
 
 ### Включає
 
-Поклик біля затриманої тканини чи необов’язкового анонімного супутника в розділі з мостом оригінальної Journey для PlayStation 3.
+Поклик біля тканини, яка опинилася в пастці, чи необов’язкового анонімного супутника в розділі Bridge оригінальної PlayStation 3-версії Journey.
 
 ### Виключає
 
-Спрямований ехолот Екко та вивчену пісню гліфа (`ACT-571`); розмову з названим партнером; наказ партнерові рухатися; відновлення заряду від дотику без поклику.
+Спрямований ехолот Екко та вивчену пісню для гліфа (ACT-571); розмову з партнером, який має ім’я; наказ партнерові рухатися; поповнення заряду від контакту без поклику.
 
 ### Ігри-носії
 
@@ -13532,7 +13781,7 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Виключає
 
-Натискання кнопки напряму; змах ручним Wii Remote; нахил віртуального рівня аналоговим стиком (`ACT-519`); вимірювання ваги лише для попереднього тесту тіла; стрибок на дошці.
+Натискання кнопки напряму; змах пультом Wii Remote у руці; нахил віртуального ігрового поля стиком (ACT-519); вимірювання ваги лише для Body Test перед початком активності; стрибок на дошці.
 
 ### Ігри-носії
 
@@ -13545,11 +13794,11 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Операційне визначення
 
-Гравець вводить допустимий іменник у текстовому інтерфейсі гри й підтверджує вибір, щоб отримати відповідний предмет у поточному світі, а не бере його з наперед заданого місцевого інвентарю.
+Гравець вводить допустимий іменник у текстовому інтерфейсі гри й підтверджує цей вибір як запит на відповідний предмет у поточному світі, яким можна маніпулювати, а не вибирає його з фіксованого місцевого інвентарю.
 
 ### Включає
 
-Ввести `Lemonade` у блокноті оригінальної Scribblenauts для Nintendo DS, щоб створити напій для мандрівника в пустелі, у пазлі 1-5.
+Уведення Lemonade в Notepad оригінальної DS-версії Scribblenauts, щоб створити напій для мандрівника в пустелі в головоломці 1-5 області The Gardens.
 
 ### Виключає
 
@@ -13566,15 +13815,15 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Операційне визначення
 
-Гравець навмисно йде реальним світом з увімкненим застосунком, який враховує розташування пристрою. Фізичне місце стає вхідними даними для карти та можливих зустрічей поблизу.
+Гравець навмисно йде реальним світом, маючи при собі активний ігровий пристрій із визначенням місцеперебування. Фізична позиція стає введенням для ігрової мапи й доступних можливостей зустрічей поблизу.
 
 ### Включає
 
-Безпечно пройтися з оригінальною Pokémon GO для Android, доки поблизу тренера на карті не з’явиться дикий покемон.
+Безпечне пересування пішки з відкритим оригінальним Android-застосунком Pokémon GO станом на липень 2016 року, доки поблизу тренера на його карті не з’явиться дикий покемон.
 
 ### Виключає
 
-Керування віртуальним героєм стиком або дотиком (`ACT-008`); вибір точки на карті без реального пересування; підміну координат; сам лише підрахунок кроків без прив’язки зустрічі до місця.
+Керування віртуальним персонажем стиком або сенсорним екраном (ACT-008); вибір місця призначення на мапі без подорожі; підміну координат пристрою; сам лише підрахунок кроків без просторово обмеженої доступності зустрічей.
 
 ### Ігри-носії
 
@@ -13591,11 +13840,11 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Включає
 
-Підготовку весняної ділянки в оригінальній Harvest Moon: Back to Nature для PlayStation після прибирання бур’янів та уламків.
+Підготовка клітинок для весняних культур на полі оригінальної PlayStation-версії Harvest Moon: Back to Nature після усунення бур’янів та уламків, що заважали.
 
 ### Виключає
 
-Розсипання насіння; полив чи збирання рослини; видобування руди; саме прибирання перешкоди.
+Розсипання пакета насіння; полив наявної культури; видобування руди або об’єму місцевості; саме прибирання перешкоди.
 
 ### Ігри-носії
 
@@ -13608,15 +13857,15 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Операційне визначення
 
-Гравець застосовує один пакет насіння у вибраній точці поля, і той одразу розподіляє насіння на визначені навколишні позиції, замість окремого вибору клітини для кожної насінини.
+Гравець застосовує один пакет насіння, який має при собі, у вибраній позиції поля; пакет одразу розподіляє насіння на своїй фіксованій навколишній ділянці замість послідовного засівання по одній вибраній клітинці.
 
 ### Включає
 
-Один пакет на дев’ять позицій сітки 3 × 3 у весняному полі оригінальної Harvest Moon: Back to Nature для PlayStation.
+Розсипання пакета з дев’ятьма насінинами на ділянці 3 × 3 у весняному полі оригінальної PlayStation-версії Harvest Moon: Back to Nature.
 
 ### Виключає
 
-Розпушування ґрунту; окремий полив чи збір; незалежний вибір дев’яти місць; припущення, що насіння на нерозпушеній землі приживеться.
+Підготовку ґрунту мотикою; полив або збирання окремих рослин (ACT-213); вільний вибір окремого місця для насіння в кожній із дев’яти позицій; припущення, що насіння на необробленому мотикою ґрунті приживеться.
 
 ### Ігри-носії
 
@@ -13633,11 +13882,11 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Включає
 
-Петлю навколо синіх або зоряних фішок у першому маршруті Spring Valley оригінальної NiGHTS into Dreams для Sega Saturn.
+Петлю Paraloop навколо синіх або зоряних фішок у першому етапі (Mare) сну Spring Valley оригінальної NiGHTS into Dreams для Sega Saturn.
 
 ### Виключає
 
-Простий проліт крізь кільце; дотик до окремої фішки; малювання постійної перешкоди; петлю лише для бою.
+Простий проліт крізь кільце; прямий дотик до однієї фішки (SYS-037); малювання довільної постійної перешкоди; петлю, призначену лише для бою.
 
 ### Ігри-носії
 
@@ -13645,20 +13894,20 @@ Super Jump від місця появи до союзника поблизу с�
 
 ## ACT-581
 
-- Назва: Витрачати запас прискорення на свердлильний ривок
+- Назва: Витрачати запас шкали польоту, утримуючи свердлильний ривок
 - Переглянуто: `2026-09-28`
 
 ### Операційне визначення
 
-Під час польоту гравець утримує команду свердлильного ривка: персонаж прискорюється й витрачає обмежену шкалу, доки відпускання кнопки або вичерпання запасу не припинить ривок.
+Під час польоту гравець утримує команду свердління, прискорюючи кероване тіло й витрачаючи скінченний запас шкали атаки, доки відпускання команди або вичерпання запасу не припинить цей прискорений свердлильний рух.
 
 ### Включає
 
-Утримуваний ривок Найтса в першому маршруті Spring Valley оригінальної гри для Sega Saturn.
+Утримування Drill Attack Найтса під час першого Mare у Spring Valley на оригінальному диску для Saturn.
 
 ### Виключає
 
-Звичайне керування напрямком польоту; постійний режим швидкості; поповнення запасу кільцем.
+Звичайне напрямлене пересування в польоті (ACT-008); постійний режим швидкості; поповнення шкали кільцем (SYS-1168).
 
 ### Ігри-носії
 
@@ -13667,7 +13916,7 @@ Super Jump від місця появи до союзника поблизу с�
 ## ACT-582
 
 - Назва: Прокладати оплачувану колію з урахуванням ухилу
-- Переглянуто: `2026-09-28`
+- Переглянуто: `2026-10-05`
 
 ### Операційне визначення
 
@@ -13679,11 +13928,12 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Виключає
 
-Задання зупинок поїзда; розміщення станції; умовні лінії між наперед готовими вузлами.
+Задання впорядкованих зупинок поїзда (ACT-584); розміщення станції (ACT-583); абстрактні транспортні лінії, прокладені між наперед наявними вузлами.
 
 ### Ігри-носії
 
 - [`GAME-0446` — Railroad Tycoon II](../games/m-r/railroad-tycoon-ii.md)
+- [`GAME-0498` — Transport Fever 2](../games/s-z/transport-fever-2.md)
 
 ## ACT-583
 
@@ -13700,7 +13950,7 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Виключає
 
-Саме прокладання колії повз підприємство; подальше завантаження вагонів; оснащення станції водою, піском чи депо.
+Саме прокладання колії повз підприємство; подальше підбирання вантажу транспортом; станційні поліпшення водопостачання, подачі піску або обслуговування в локомотивному депо.
 
 ### Ігри-носії
 
@@ -13742,7 +13992,7 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Виключає
 
-Подальшу виплату дивідендів; купівлю паровоза коштом уже створеної компанії; прирівнювання всього залученого капіталу до особистого статку засновника.
+Подальшу виплату дивідендів; купівлю локомотива з уже наявних коштів компанії; прирівнювання всього залученого капіталу компанії до особистого статку засновника.
 
 ### Ігри-носії
 
@@ -13750,12 +14000,12 @@ Super Jump від місця появи до союзника поблизу с�
 
 ## ACT-586
 
-- Назва: Швидко натискати кнопки, щоб підвестися до завершення відліку
+- Назва: Багаторазово натискати кнопки, щоб підвестися під відлік рефері
 - Переглянуто: `2026-09-28`
 
 ### Операційне визначення
 
-Після падіння керованого боксера гравець багаторазово натискає кнопки відновлення, щоб той підвівся, перш ніж рефері дорахує до десяти.
+Після того як керованого боксера збили з ніг, гравець багаторазово натискає кнопки відновлення, щоб той підвівся, перш ніж рефері дорахує до десяти.
 
 ### Включає
 
@@ -13776,7 +14026,7 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Операційне визначення
 
-У проміжку між раундами гравець може попросити частково відновити витривалість; така можливість доступна лише один раз за весь бій.
+Під час допустимої перерви між раундами гравець подає команду на часткове відновлення витривалості; це відновлення доступне лише один раз за весь бій.
 
 ### Включає
 
@@ -13797,15 +14047,15 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Операційне визначення
 
-Коротке проведення пальцем подає одну контекстну команду без зупинки бігу: ліворуч чи праворуч для повороту на допустимому розі, угору для стрибка або вниз для підкату перед перешкодою.
+Поки рух уперед триває без команди пересування, гравець виконує один напрямлений сенсорний змах, який контекст поточного шляху тлумачить як поворот на чверть оберту, стрибок або підкат.
 
 ### Включає
 
-Чотири напрямки проведення пальцем в оригінальній Temple Run для iPhone.
+Повороти ліворуч і праворуч на кутах та змахи вгору й униз для стрибка й підкату протягом однієї спроби оригінальної iPhone-версії Temple Run.
 
 ### Виключає
 
-Нахил для поперечного зміщення; зупинку героя; вільне пересування будь-якою геометрією; керування пізніших ігор серії.
+Нахил для поперечного вирівнювання за лінією монет (ACT-589); зупинку бігуна; необмежене пересування довільною геометрією світу (ACT-008); пізніше керування геймпадом.
 
 ### Ігри-носії
 
@@ -13818,15 +14068,15 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Операційне визначення
 
-Гравець безперервно нахиляє пристрій, щоб змістити героя ліворуч чи праворуч у межах поточної ділянки шляху, наприклад до монет, не обираючи наступний поворот.
+Гравець змінює бічний нахил телефона, щоб зміщувати бігуна, який автоматично просувається вперед, у межах ширини поточного коридору, не вибираючи нового напрямку й не перериваючи руху вперед.
 
 ### Включає
 
-Нахил iPhone для бокового зміщення до лінії монет в оригінальній Temple Run.
+Вирівнювання бігуна оригінальної iPhone-версії Temple Run за необов’язковим рядом монет, поки він ще наближається до кута.
 
 ### Виключає
 
-Окреме проведення пальцем для повороту під прямим кутом; нахил усієї фізичної сцени; команди зміни трьох смуг у пізніших іграх.
+Дискретний змах ліворуч чи праворуч для повороту на 90 градусів (ACT-588); нахил цілого фізичного ігрового поля (ACT-519); перемикання між трьома смугами змахами в пізніших іграх із бігом.
 
 ### Ігри-носії
 
@@ -13834,20 +14084,20 @@ Super Jump від місця появи до союзника поблизу с�
 
 ## ACT-590
 
-- Назва: Замінити одного активного помічника поруч із героєм
+- Назва: Замінити єдиного активного помічника поруч із незмінним головним персонажем
 - Переглянуто: `2026-09-28`
 
 ### Операційне визначення
 
-Під час бою вибрати іншого доступного союзника на єдине місце активного партнера, змінивши прийоми партнера, але не замінивши самого героя.
+Під час бою з незмінним головним персонажем гравець вибирає іншого залученого допустимого помічника для єдиної активної комірки партнера, змінюючи команди помічника без заміни головного персонажа.
 
 ### Включає
 
-Заміну Купера на Гумбаріо поряд із Маріо у бою з чотирма Fuzzy в оригінальній Paper Mario для Nintendo 64.
+Перемикання між Купером і Гумбаріо поруч із Маріо в сутичці з чотирма Fuzzy в оригінальній Nintendo 64-версії Paper Mario.
 
 ### Виключає
 
-Заміну єдиного бойового покемона; додавання ще одного одночасного партнера; спорядження значка.
+Заміну єдиного покемона, який б’ється (ACT-258); додавання ще одного одночасного помічника; спорядження значка.
 
 ### Ігри-носії
 
@@ -13860,7 +14110,7 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Операційне визначення
 
-Поки жоден із двох союзників не витратив свою дію в цьому ході, змінити порядок їхніх дій, не збільшуючи їхньої кількості.
+Перш ніж будь-хто з двох союзних учасників витратить свою дію поточного ходу, гравець міняє, хто з них діє першим, не змінюючи дозволеної кількості їхніх дій.
 
 ### Включає
 
@@ -13868,7 +14118,7 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Виключає
 
-Зміну порядку після чиєїсь дії; додатковий хід; чергу всіх бійців за показником ініціативи.
+Зміну порядку після дії будь-кого з цих двох учасників; надання додаткового ходу; упорядкування всіх бійців показниками ініціативи.
 
 ### Ігри-носії
 
@@ -13876,20 +14126,20 @@ Super Jump від місця появи до союзника поблизу с�
 
 ## ACT-592
 
-- Назва: Натиснути перед ударом, щоб зменшити шкоду
+- Назва: Натиснути перед самим влучанням, щоб зменшити шкоду в покроковому бою
 - Переглянуто: `2026-09-28`
 
 ### Операційне визначення
 
-Коли ворог уже виконує атаку в покроковому бою, натиснути захисну кнопку безпосередньо перед зіткненням, щоб спробувати зменшити отриману шкоду.
+Після того як ворог зафіксував атаку в покроковому бою, гравець натискає захисну кнопку безпосередньо перед контактом, щоб запросити зменшення вхідної шкоди.
 
 ### Включає
 
-Натискання A перед ударом Fuzzy по Маріо в оригінальній Paper Mario для Nintendo 64.
+Натискання A безпосередньо перед ударом Fuzzy по Маріо в оригінальній Nintendo 64-версії Paper Mario.
 
 ### Виключає
 
-Своєчасне виконання власної атаки; ухилення чи парирування з контратакою; пасивний захист.
+Атакувальні Action Commands (ACT-222); ухилення, парирування або стрибок для нейтралізації атаки й контратаки (ACT-223); пасивний захист.
 
 ### Ігри-носії
 
@@ -13910,7 +14160,7 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Виключає
 
-Керування наземною траєкторією; автоматичний трюк; продовження зв’язаного ланцюга їзди на скейтборді по поручню чи задніх колесах (ACT-500); очки без приземлення.
+Керування наземною траєкторією; автоматичний трюк; продовження зв’язаного скейтбордного ланцюга з балансуванням типу Manual, зокрема Nose Manual, чи ковзанням по поручню (ACT-500); очки без приземлення.
 
 ### Ігри-носії
 
@@ -13923,15 +14173,15 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Операційне визначення
 
-Під час спуску гравець запитує додаткову швидкість за рахунок наявного обмеженого запасу адреналіну; сама команда не поповнює цей запас і не встановлює правила його виснаження.
+Під час спуску гравець запитує додаткову швидкість уперед із поточного скінченного запасу адреналіну; сама команда не нараховує цей запас і не визначає його вичерпання.
 
 ### Включає
 
-Витрачання заробленого адреналіну під час заїзду Garibaldi в оригінальній SSX Tricky.
+Витрачання заробленого адреналіну в заїзді Race на Garibaldi в оригінальній SSX Tricky.
 
 ### Виключає
 
-Звичайне прискорення на схилі; поповнення показника трюками; постійне безумовне прискорення; прискорення машини, оплачене спільним із витривалістю до пошкоджень запасом (ACT-309 разом із SYS-1040).
+Звичайне прискорення на схилі; нарахування запасу шкали за трюки; постійно активний модифікатор; прискорення транспортного засобу з витратою запасу шкали виживання при пошкодженнях (ACT-309 разом із SYS-1040).
 
 ### Ігри-носії
 
@@ -13944,7 +14194,7 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Операційне визначення
 
-Гравець явно переводить уже обрану зброю між положенням у руках і положенням у кобурі, не замінюючи її в інвентарі. Це займає або звільняє руки для інших дій.
+Гравець явно переводить поточну вибрану зброю між готовим станом у руках і прибраним станом, не підмінюючи її іншою зброєю з інвентарю; це займає або звільняє руки для інших завдань.
 
 ### Включає
 
@@ -13956,16 +14206,18 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Ігри-носії
 
+- [`GAME-0501` — F.E.A.R.](../games/a-f/fear.md)
 - [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
+- [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
 
 ## ACT-596
 
-- Назва: Триматися за уступ і вибирати пересування чи відпускання
+- Назва: Вручну утримуватися за уступ і вибрати пересування вбік, підтягування або відпускання
 - Переглянуто: `2026-09-30`
 
 ### Операційне визначення
 
-Біля досяжного придатного краю гравець утримує команду захоплення, щоб зловити уступ і лишатися у висі; просить переміститися вбік чи підтягнутися або відпускає команду, щоб відірватися від опори. Правило не вимагає витрат витривалості на захоплення.
+Біля досяжного сумісного краю гравець утримує команду прикріплення, щоб зачепитися й утримувати тіло у висі, подає команду пересування вбік або підтягування чи відпускає захоплення, щоб від’єднатися. Правило не вимагає захоплення з витратою витривалості.
 
 ### Включає
 
@@ -13973,7 +14225,7 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Виключає
 
-Захоплення довільної поверхні з витратами витривалості (ACT-362); автоматичну анімацію драбини; окремі команди для двох рук (ACT-114); інструмент із гаком.
+Захоплення довільної поверхні з витратою витривалості (ACT-362); автоматичну анімацію драбини; дві незалежно прив’язані до керування руки (ACT-114); пристрій для зачеплення й підтягування.
 
 ### Ігри-носії
 
@@ -13986,7 +14238,7 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Операційне визначення
 
-Гравець просить повернути вид безпосередньо за кероване тіло або утримує команду огляду й спрямовує її на ближню геометрію. Відпускання повертає звичайний супровідний вид, не змінюючи геометрії ігрового світу.
+Гравець запитує ракурс безпосередньо позаду керованого тіла або утримує команду огляду й спрямовує огляд на геометрію поблизу. Відпускання повертає звичайний ракурс стеження, не змінюючи геометрії ігрового світу.
 
 ### Включає
 
@@ -13998,16 +14250,17 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Ігри-носії
 
+- [`GAME-0485` — Shenmue](../games/s-z/shenmue.md)
 - [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
 
 ## ACT-598
 
-- Назва: Призначати працівників на молитву для виробництва ресурсу
+- Назва: Призначити працівників на поклоніння для виробництва ресурсу
 - Переглянуто: `2026-09-30`
 
 ### Операційне визначення
 
-Гравець скеровує придатних власних працівників лишатися біля відповідного місця поклоніння замість збирання матеріалів на мапі, відводячи робочу силу на одержання божественного ресурсу.
+Гравець наказує допустимим власним працівникам залишатися біля сумісного місця поклоніння замість збирання з родовища на мапі, виділяючи робочу силу для процесу надходження ресурсу божества.
 
 ### Включає
 
@@ -14028,11 +14281,11 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Операційне визначення
 
-Гравець обирає доступну силу цивілізації й підтверджує дозволену місцеву ціль або загальне застосування, не віддаючи команду здібності окремому керованому бійцю.
+Гравець вибирає доступну силу рівня цивілізації й підтверджує її дозволену локальну ціль або глобальну активацію, не наказуючи окремому керованому бійцеві застосувати здібність.
 
 ### Включає
 
-Блискавка Зевса або одноразова сила обраного молодшого бога в оригінальній Age of Mythology.
+Блискавка Зевса або сила обраного молодшого бога, доступна один раз за матч в оригінальній Age of Mythology.
 
 ### Виключає
 
@@ -14041,15 +14294,16 @@ Super Jump від місця появи до союзника поблизу с�
 ### Ігри-носії
 
 - [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
+- [`GAME-0480` — Populous](../games/m-r/populous.md)
 
 ## ACT-600
 
-- Назва: Розміщувати військо в гарнізоні будівлі або виводити його
+- Назва: Розмістити одиниці в гарнізоні придатної будівлі або вивести їх
 - Переглянуто: `2026-09-30`
 
 ### Операційне визначення
 
-Гравець наказує придатним власним одиницям увійти до гарнізону відповідної будівлі або вийти з нього в доступний зовнішній простір.
+Гравець наказує допустимим власним одиницям увійти до гарнізону будівлі, яка може їх прийняти й утримувати, або запитує їх вихід у досяжний зовнішній простір.
 
 ### Включає
 
@@ -14065,12 +14319,12 @@ Super Jump від місця появи до союзника поблизу с�
 
 ## ACT-601
 
-- Назва: Вносити перенесений артефакт до відповідної будівлі
+- Назва: Внести артефакт, який переносять, до установи, що його приймає
 - Переглянуто: `2026-09-30`
 
 ### Операційне визначення
 
-Гравець наказує придатному носію окремого перенесеного артефакту помістити його у відповідну власну будівлю замість подальшого носіння.
+Гравець наказує допустимому носієві окремого артефакту, який той несе, помістити його до сумісної власної установи, а не залишати при носієві.
 
 ### Включає
 
@@ -14086,20 +14340,20 @@ Super Jump від місця появи до союзника поблизу с�
 
 ## ACT-602
 
-- Назва: Призначати торговця на безперервний маршрут між будівлею й базою
+- Назва: Призначити торговця на маршрут повернення від установи до бази під час гри
 - Переглянуто: `2026-09-30`
 
 ### Операційне визначення
 
-Гравець призначає власну торгову одиницю з відповідної торгової будівлі до сумісного пункту бази, задаючи повторювані поїздки в реальному часі.
+Гравець призначає власну торгову одиницю з допустимої торгової установи до сумісного пункту призначення на базі, задаючи повторювану подорож із поверненням, що відбувається безпосередньо під час гри.
 
 ### Включає
 
-Каравани оригінальної Age of Mythology їздять між ринком і центром міста.
+Призначення караванів на маршрут між ринком і центром міста в оригінальній Age of Mythology.
 
 ### Виключає
 
-Міські торгові маршрути з ходами й лімітом імперських місць; корабельні накази вантажу для кожного порту; миттєву купівлю товару.
+Покрокові міські торгові маршрути з обмеженою кількістю комірок імперії; складені накази щодо корабельного вантажу для кожного порту; миттєву купівлю товару.
 
 ### Ігри-носії
 
@@ -14112,15 +14366,15 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Операційне визначення
 
-Гравець готує дотик, швидко проводить стилусом у визначеному напрямку й відриває його, щоб відповісти на наближення авторської музичної події. Він обирає момент, не довільну ціль у світі.
+Гравець готує сенсорний контакт, виконує швидкий напрямлений рух і відпускає дотик, щоб подати відповідь на задану авторами музичну подію, яка наближається, вибираючи її час, а не довільну ціль у світі.
 
 ### Включає
 
-Кидок стрижня жестом угору до двох пластин у першій Built to Scale оригінальної Rhythm Heaven для DS.
+Змах стилусом угору, який посилає стрижень до двох пластин, що наближаються, у першій звичайній мінігрі Built to Scale оригінальної DS-версії Rhythm Heaven.
 
 ### Виключає
 
-Сам дотик без руху й відриву; жест навігації бігуна; роботу з їжею чи посудом; повторення кнопок учителя; довільне наведення снаряда.
+Сам дотик, який не супроводжується рухом і відривом; контекстний навігаційний змах; проведення ліній для завдання з їжею чи кухонним знаряддям; відтворення кнопкових символів викладача; довільне прицілювання снарядом.
 
 ### Ігри-носії
 
@@ -14133,7 +14387,7 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Операційне визначення
 
-Гравець починає заряджання зброї на місці одночасною командою й обирає утримання або визначене правилами скасування, щоб змінити наступні атаки, не завдаючи негайного удару й не витрачаючи накопичену шкалу.
+Гравець починає заряджання зброї на місці комбінованою командою й вибирає тривале заряджання або оголошену гілку його скасування, щоб запросити різні подальші ефекти атаки, а не негайно вдарити чи витратити накопичений запас шкали.
 
 ### Включає
 
@@ -14141,7 +14395,7 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Виключає
 
-Удар персонажа; вибір звичайної стійки зброї; витрату сучасної шкали потужного прийому; заряд снаряда для вибору сили пострілу; пасивне посилення від спорядження.
+Удар самого персонажа; вибір звичайної стійки зброї; витрачання сучасної шкали потужного прийому; заряджання снаряда для вибору сили пострілу; пасивне посилення від спорядження.
 
 ### Ігри-носії
 
@@ -14166,6 +14420,7 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Ігри-носії
 
+- [`GAME-0494` — Dead or Alive 2](../games/a-f/dead-or-alive-2.md)
 - [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
 
 ## ACT-606
@@ -14179,7 +14434,7 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Включає
 
-Вибір Fight, Open/Search, Push або допустимої операції перенесеного предмета через Options у DOS-грі Alone in the Dark.
+Вибір Fight, Open/Search, Push або допустимої операції з перенесеним предметом через Options у DOS-грі Alone in the Dark.
 
 ### Виключає
 
@@ -14200,15 +14455,16 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Включає
 
-Вибір Drop або Throw для листа, книги, покривала чи порожньої каністри в Alone in the Dark.
+Вибір Drop або Throw для листа, книги, покривала чи порожньої каністри для оливи, які персонаж несе із собою, у грі Alone in the Dark.
 
 ### Виключає
 
-Знищення чи споживання речі; кидок зворотного знаряддя атаки; скидання командного спорядження в раунді; постріл боєприпасом.
+Знищення чи споживання предмета; кидання атакувального знаряддя, яке повертається; скидання командного спорядження в межах раунду; постріл боєприпасом зі зброї.
 
 ### Ігри-носії
 
 - [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 
 ## ACT-608
 
@@ -14217,7 +14473,7 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Операційне визначення
 
-Перед скінченною спробою водіння гравець підтверджує один наданий варіант автомобіля з коробкою передач із відкритого сталого набору; вибір призначає автомобіль і ручне або автоматичне перемикання без купівлі чи власного гаража.
+Перед скінченною спробою водіння гравець підтверджує один наданий варіант автомобіля та трансмісії з відкритого фіксованого набору. Вибір призначає цей автомобіль і ручний або автоматичний профіль керування без купівлі чи володіння гаражною колекцією.
 
 ### Включає
 
@@ -14225,7 +14481,7 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Виключає
 
-Вибір власного автомобіля з колекції; зміна складності суперників оператором; перемикання передачі під час їзди; купівлю або налаштування автомобіля.
+Вибір активного автомобіля з власної колекції; зміну складності суперників оператором; перемикання передачі під час активного водіння; купівлю або налаштування транспортного засобу.
 
 ### Ігри-носії
 
@@ -14234,11 +14490,11 @@ Super Jump від місця появи до союзника поблизу с�
 ## ACT-609
 
 - Назва: Перемикати сталі ракурси водіння
-- Переглянуто: `2026-09-30`
+- Переглянуто: `2026-10-03`
 
 ### Операційне визначення
 
-Під час прямого керування автомобілем гравець перемикає визначені вид із кабіни й зовнішній вид позаду, зберігаючи стан автомобіля та керування рухом; це вибір видимості, а не зміна правил світу.
+Під час прямого керування транспортом гравець перемикає визначені вид із кабіни й зовнішній вид позаду, зберігаючи стан транспорту та керування рухом; це вибір видимості, а не зміна правил світу.
 
 ### Включає
 
@@ -14246,8 +14502,2097 @@ Super Jump від місця появи до союзника поблизу с�
 
 ### Виключає
 
-Обертання ракурсу, що змінює фізичну допустимість; зміну керованого героя; автоматичне стеження камери; вільне переміщення камери світу.
+Обертання ракурсу, що змінює фізичну можливість; зміну керованих суб’єктів; автоматичне стеження камери; вільне переміщення камери світу.
 
 ### Ігри-носії
 
+- [`GAME-0507` — MotorStorm](../games/m-r/motorstorm.md)
 - [`GAME-0457` — Sega Rally Championship](../games/s-z/sega-rally-championship.md)
+- [`GAME-0488` — wipEout](../games/s-z/wipeout.md)
+
+## ACT-610
+
+- Назва: Змінювати ракурс камери навколо безпосередньо керованого актора
+- Переглянуто: `2026-10-13`
+
+### Операційне визначення
+
+Продовжуючи безпосередньо керувати актором світу, гравець наказує камері слідування змінити відстань або кут огляду, щоб раніше закриті близькі геометрія чи загрози стали видимими перед наступним вибором руху.
+
+### Включає
+
+Кнопки C для камери Лакіту під час першого підйому в Bob-omb Battlefield оригінальної Super Mario 64 для Nintendo 64.
+
+### Виключає
+
+Обертання ракурсу, що змінює допустимий шлях у світі через проєкційне суміщення (ACT-095); автоматичний ракурс катсцени; сталі альтернативні ракурси водіння (ACT-609); переміщення карти чи ігрового предмета, а не кадру камери.
+
+### Ігри-носії
+
+- [`GAME-0507` — MotorStorm](../games/m-r/motorstorm.md)
+- [`GAME-0505` — Panzer Dragoon](../games/m-r/panzer-dragoon.md)
+- [`GAME-0472` — Sonic Adventure](../games/s-z/sonic-adventure.md)
+- [`GAME-0460` — Super Mario 64](../games/s-z/super-mario-64.md)
+
+## ACT-611
+
+- Назва: Підняти й кинути живого супротивника
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+Гравець наближається до допустимого активного супротивника з потрібного боку, піднімає його в утримуваний стан і окремою командою кидає назад на арену, де той і далі є учасником бою.
+
+### Включає
+
+Підійти до Великого Боб-омба ззаду, підняти його й кинути на вершині в оригінальній Super Mario 64.
+
+### Виключає
+
+Підбирання неживого вільного предмета; миттєвий кидок у файтингу без фази утримання; перенесення непритомного тіла; пізніше розкручування Боузера за хвіст.
+
+### Ігри-носії
+
+- [`GAME-0460` — Super Mario 64](../games/s-z/super-mario-64.md)
+- [`GAME-0497` — Wario Land 4](../games/s-z/wario-land-4.md)
+
+## ACT-612
+
+- Назва: Зорієнтувати й розмістити придбаний предмет домашньої обстановки
+- Переглянуто: `2026-09-30`
+
+### Операційне визначення
+
+У призупиненому режимі облаштування будинку гравець обирає просторовий поворот і місце придбаного предмета, змінюючи можливі подальші дії мешканців і шляхи до нього, але не виконуючи ці дії.
+
+### Включає
+
+Розміщення доступного за ціною стільця після вибору в режимі купівлі оригінальної The Sims і повернення до режиму життя, щоб перевірити доступ до нього й відновлення комфорту.
+
+### Виключає
+
+Сплату купівельної ціни (ACT-130); наказ мешканцеві використати стілець (ACT-257); спорудження стін у Build Mode; автоматичне розміщення без вибору місця гравцем.
+
+### Ігри-носії
+
+- [`GAME-0461` — The Sims](../games/s-z/the-sims.md)
+
+## ACT-613
+
+- Назва: Увійти у фізичну гілку маршруту під час гри
+- Переглянуто: `2026-10-01`
+
+### Операційне визначення
+
+Керуючи персонажем біля видимого розгалуження, гравець заходить у один із доступних проходів або транспортних входів і цим обирає наступну авторську частину етапу без окремої мапи вузлів.
+
+### Включає
+
+Стрибок у човен замість входу на корабель на розгалуженні Metal Slug 3; далі човен везе персонажа вниз за течією.
+
+### Виключає
+
+Вибір відкритого вузла мапи (ACT-127); вибір вихідного ребра ігрового поля під час руху на кількість клітинок, визначену кубиком (ACT-530); керування транспортом після входу; невидимий автоматичний перехід етапу без вибору гілки гравцем.
+
+### Ігри-носії
+
+- [`GAME-0462` — Metal Slug 3](../games/m-r/metal-slug-3.md)
+
+## ACT-614
+
+- Назва: Пожертвувати зайнятою гравцем бойовою машиною в спрямованій атаці
+- Переглянуто: `2026-10-01`
+
+### Операційне визначення
+
+Перебуваючи в допустимій бойовій машині, гравець подає окрему комбіновану команду й спрямовує цю машину в атаку зі шкодою та самознищенням. Він назавжди втрачає її поточний стан замість збереження керування після влучання.
+
+### Включає
+
+Атака Metal Slug Attack командою A+B в оригінальній Metal Slug 3 проти досяжного ворожого згруповання або охоронця першого етапу.
+
+### Виключає
+
+Звичайну стрільбу з установленої вогнепальної зброї; випадковий вибух машини після ворожих влучань; таран із можливістю відновлення (ACT-379); дистанційний підрив залишеного без нагляду об’єкта.
+
+### Ігри-носії
+
+- [`GAME-0462` — Metal Slug 3](../games/m-r/metal-slug-3.md)
+
+## ACT-615
+
+- Назва: Відпускати прицільний кидок після руху контролером
+- Переглянуто: `2026-10-01`
+
+### Операційне визначення
+
+Гравець указує на ціль в ігровому світі, утримує кнопку кидка, фізично змахує контролером і відпускає кнопку, щоб кинути один предмет. Початкова сила його удару залежить від виміряного руху контролера.
+
+### Включає
+
+У Boom Blox для оригінальної Wii гравець указує на опору, утримує A, змахує Wii Remote вперед і відпускає A, щоб кинути бейсбольний м’яч.
+
+### Виключає
+
+Запуск із нерухомої рогатки чи верхньої пускової установки відпусканням натиснення (ACT-113); подачу кулі в боулінгу для котіння доріжкою (ACT-499); керування м’ячем після випуску; захоплення й перетягування вже розміщеного блока.
+
+### Ігри-носії
+
+- [`GAME-0465` — Boom Blox](../games/a-f/boom-blox.md)
+
+## ACT-616
+
+- Назва: Обходити камерою нерухому споруду для вибору лінії кидка
+- Переглянуто: `2026-10-01`
+
+### Операційне визначення
+
+Перед спрямованою фізичною дією гравець обертає ракурс навколо нерухомої тривимірної споруди, щоб відкрити іншу поверхню й вибрати іншу незакриту лінію атаки. Сам рух камери не переміщує споруду.
+
+### Включає
+
+У пазлі Warrior гри Boom Blox утримання B та рух Wii Remote дають оглянути опору спереду або ззаду перед прицільним кидком.
+
+### Виключає
+
+Обертання перспективи для переписування геометрії допустимого пересування (ACT-095); зміну ракурсу камери, що супроводжує безпосередньо керованого учасника (ACT-610); перемикання між фіксованими ракурсами з кабіни та камери стеження (ACT-609); обертання самої конструкції з блоків.
+
+### Ігри-носії
+
+- [`GAME-0465` — Boom Blox](../games/a-f/boom-blox.md)
+
+## ACT-617
+
+- Назва: Вчасно відповідати на перешкоду стрічки кнопкою чи парою
+- Переглянуто: `2026-10-13`
+
+### Операційне визначення
+
+Поки безперервний маршрут несе персонажа до видимої перешкоди певного типу, гравець у мить зустрічі натискає прив’язану до цього типу кнопку контролера або одночасну пару прив’язаних кнопок для однієї складеної перешкоди, щоб спробувати пройти її.
+
+### Включає
+
+В оригінальній Vib-Ribbon для PlayStation блок потребує L1, петля — R1, провалля — напрямку вниз, хвиля — X, а сполучення блока з проваллям — L1 і напрямку вниз разом.
+
+### Виключає
+
+Повторення фрази викладача (ACT-533); кроки по панелях підлоги за картою кроків (ACT-545); відповідь для складання конструкції швидким дотиковим змахом із відривом (ACT-603); дві окремо розташовані перешкоди, що потребують послідовних, а не одночасних введень.
+
+### Ігри-носії
+
+- [`GAME-0467` — Vib-Ribbon](../games/s-z/vib-ribbon.md)
+
+## ACT-618
+
+- Назва: Націлити й почати падіння за власним напрямком тяжіння
+- Переглянуто: `2026-10-01`
+
+### Операційне визначення
+
+Керуючи персонажем у повітрі, гравець звільняє його від звичної сили тяжіння, наводить новий особистий напрямок униз на видиму поверхню й починає падіння в цей бік. До приземлення зміну можна призупинити або скасувати.
+
+### Включає
+
+Кет зависає, наводиться стиком або рухом консолі, падає до бічної поверхні вежі й скасовує зміну, повертаючись до звичайного напрямку вниз, в оригінальній PS Vita-версії Gravity Rush.
+
+### Виключає
+
+Вибір однієї ортогональної поверхні для переорієнтації системи відліку тяжіння всього світу (ACT-097); пасивний стрибок або звичайний біг уперед; рух камери без зміни падіння персонажа.
+
+### Ігри-носії
+
+- [`GAME-0468` — Gravity Rush](../games/g-l/gravity-rush.md)
+
+## ACT-619
+
+- Назва: Почати удар ногою за допомогою націленого гравітаційного падіння
+- Переглянуто: `2026-10-01`
+
+### Операційне визначення
+
+Після входу в стан гравітаційного зависання з наведенням гравець вирівнює персонажа в повітрі з ворожою ціллю й підтверджує удар самого персонажа ногою, що використовує спрямоване падіння для наближення та зіткнення.
+
+### Включає
+
+Кет наводиться на неві із зависання й натискає кнопку атаки, щоб почати гравітаційний удар в оригінальній Gravity Rush для PS Vita.
+
+### Виключає
+
+Звичайний удар ногою стоячи (ACT-295); зміну тяжіння лише для пересування (ACT-618); автоматично випущений самонавідний снаряд; припущення про гарантоване влучання за невдалого наведення.
+
+### Ігри-носії
+
+- [`GAME-0468` — Gravity Rush](../games/g-l/gravity-rush.md)
+
+## ACT-620
+
+- Назва: Керувати уламком власного авто під час Impact Time після аварії
+- Переглянуто: `2026-10-01`
+
+### Операційне визначення
+
+Після аварії автомобіля, яким гравець безпосередньо керував, коли звичайне кермування вже завершилося, він утримує доступну лише після аварії команду сповільнення й спрямовує уламок, що ще рухається, до досяжного суперника, перш ніж короткий стан зіткнення завершиться.
+
+### Включає
+
+Утримування R1 і керування уламком лівим стиком PS2 для спроби Aftertouch Takedown у першому заїзді Race на Silver Lake оригінальної Burnout 3: Takedown.
+
+### Виключає
+
+Керування неушкодженим гоночним автомобілем (ACT-290); звичайну витрату Boost (ACT-309); підрив уламка в Crash Mode; гарантію Takedown без контакту.
+
+### Ігри-носії
+
+- [`GAME-0470` — "Burnout 3: Takedown"](../games/a-f/burnout-3-takedown.md)
+
+## ACT-621
+
+- Назва: Провести вибраним хірургічним інструментом по цільовому шляху на тканині
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+Гравець вибирає доступний хірургічний інструмент і проводить стилусом відповідний цьому інструментові рух по поточній цільовій тканині, щоб спробувати лікування або закриття.
+
+### Включає
+
+Зигзагоподібне накладання швів голкою, нанесення гелю, розріз скальпелем за напрямною лінією та рух для накладання пов’язки в першій операції оригінальної DS-версії Trauma Center: Under the Knife.
+
+### Виключає
+
+Довільне малювання без інструмента; реальну медичну практику; сенсорні жести приготування їжі (ACT-572); перенесення щипцями (ACT-622).
+
+### Ігри-носії
+
+- [`GAME-0471` — 'Trauma Center: Under the Knife'](../games/s-z/trauma-center-under-the-knife.md)
+
+## ACT-622
+
+- Назва: Вийняти застряглий об’єкт щипцями й покласти в лоток
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+Захопити щипцями відкритий застряглий об’єкт, перетягнути його допустимим шляхом виймання й покласти в призначений лоток, щоб завершити вилучення.
+
+### Включає
+
+Видалення зовнішніх і внутрішніх уламків скла в першій операції оригінальної Trauma Center для DS.
+
+### Виключає
+
+Автоматичне підбирання дотиком; витягування проти напрямку входження; обробку рани після уламка; реальну медичну пораду.
+
+### Ігри-носії
+
+- [`GAME-0471` — 'Trauma Center: Under the Knife'](../games/s-z/trauma-center-under-the-knife.md)
+
+## ACT-623
+
+- Назва: У повітрі атакувати допустиму ціль або виконати ривок уперед
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+Поки керований персонаж уже перебуває в повітрі, гравець натисканням викликає передбачену команду атаки чи стрибка, щоб запросити спрямований удар по одній близькій допустимій цілі; без допустимої цілі та сама команда натомість запитує ривок уперед у повітрі.
+
+### Включає
+
+Homing Attack Соніка проти близького робота під час першого сюжетного відвідування Emerald Coast та альтернативний Jump Dash, коли жодного робота немає в межах досяжності, в оригінальній Dreamcast-версії Sonic Adventure.
+
+### Виключає
+
+Завжди націлений снаряд; звичайний перший стрибок або наземне обертання (ACT-295); поліпшений Light Speed Dash уздовж кілець; гарантоване влучання без системного опрацювання цілі.
+
+### Ігри-носії
+
+- [`GAME-0472` — Sonic Adventure](../games/s-z/sonic-adventure.md)
+
+## ACT-624
+
+- Назва: Стрибати з кожної досягнутої пронумерованої панелі маршруту
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+Діставшись поточної допустимої пронумерованої панелі в заданому авторами ланцюгу пересування, гравець вчасно подає команду стрибка для наступного допоміжного підкидання, а не просто стоїть на панелі чи погоджується на одну безперервну автоматичну поїздку.
+
+### Включає
+
+Послідовні стрибки Соніка з п’яти пронумерованих панелей під час першого сюжетного відвідування Emerald Coast в оригінальній Dreamcast-версії.
+
+### Виключає
+
+Звичайний стрибок без стану панелі (ACT-008); автоматичне спрацювання пружини від контакту (SYS-1056); вибір довільного пронумерованого пункту призначення поза чергою; покрокову числову головоломку.
+
+### Ігри-носії
+
+- [`GAME-0472` — Sonic Adventure](../games/s-z/sonic-adventure.md)
+
+## ACT-625
+
+- Назва: Стріляти поза екраном, щоб поповнити магазин
+- Переглянуто: `2026-10-13`
+
+### Операційне визначення
+
+Тримаючи аркадний пістолет, який визначає наведення за дисплеєм, гравець навмисно наводить його поза активним екраном і натискає на гачок, щоб запросити повне перезарядження магазина незалежно від влучання в ціль світу чи витрачання переносного запасу набоїв.
+
+### Включає
+
+Перезаряджання натисканням на гачок поза екраном оригінального аркадного пістолета Model 2 The House of the Dead у Tragedy.
+
+### Виключає
+
+Прицільний постріл на екрані (ACT-490); перенесення набоїв із запасу до магазина (ACT-183); автоматичне поповнення за захисної педалі (SYS-1160); перезаряджання клавіатурою чи мишею на PC або зброю пізнішої гри серії.
+
+### Ігри-носії
+
+- [`GAME-0475` — The House of the Dead](../games/s-z/the-house-of-the-dead.md)
+
+## ACT-626
+
+- Назва: Бігти на місці для руху маршрутом
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+Повторювати бігові рухи ногою із закріпленим датчиком, щоб гра приймала їх як команду просувати персонажа вперед поточним авторським курсом.
+
+### Включає
+
+Проходження раннього маршруту в стандартному режимі оригінальної Nintendo Switch-версії Ring Fit Adventure.
+
+### Виключає
+
+Натискання кнопки напряму для ходьби; перенесення ваги стоячи на Balance Board (ACT-575); пересування присіданнями в Silent Mode; припущення, що персонаж просувається, поки гравець стоїть нерухомо.
+
+### Ігри-носії
+
+- [`GAME-0476` — Ring Fit Adventure](../games/m-r/ring-fit-adventure.md)
+
+## ACT-627
+
+- Назва: Стискати або розтягувати кільце для дії на маршруті
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+Гравець наводить гнучке кільце, яке тримає в руках, на допустиму локальну особливість маршруту й фізично стискає або розтягує його, запитуючи повітряний струмінь чи всмоктування, а не бойову вправу Fit Skill.
+
+### Включає
+
+Прицілений повітряний струмінь Ring-Con для стрибка чи взаємодії з допустимою перешкодою та потягування для всмоктування предметів поблизу під час маршруту оригінальної Ring Fit Adventure.
+
+### Виключає
+
+Абстрактний постріл снарядом кнопкою; бойову вправу за вказівками (ACT-628); Ab Guard (ACT-629); гарантію наявності кожної перешкоди чи предмета в дослідженому маршруті.
+
+### Ігри-носії
+
+- [`GAME-0476` — Ring Fit Adventure](../games/m-r/ring-fit-adventure.md)
+
+## ACT-628
+
+- Назва: Виконувати показані повтори вибраної бойової вправи
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+Після вибору доступної бойової вправи гравець дотримується показаної пози тіла й виконує потрібний рух або утримання протягом повторів із підказками, щоб подати одну атаку Fit Skill.
+
+### Включає
+
+Перша звичайна сутичка в ранній частині режиму Adventure оригінальної Ring Fit Adventure з рухами тіла, які зчитуються через Ring-Con та Leg Strap.
+
+### Виключає
+
+Сам вибір вправи без її виконання; покрокові атаки лише кнопкою; твердження про фіксовану кількість повторів або про конкретну пізніше розблоковану вправу для першої сутички.
+
+### Ігри-носії
+
+- [`GAME-0476` — Ring Fit Adventure](../games/m-r/ring-fit-adventure.md)
+
+## ACT-629
+
+- Назва: Тримати стиснуте кільце біля живота для захисту
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+На час ворожої атаки прикласти гнучке кільце до живота, стиснути та не відпускати до завершення удару, щоб виконати захист Ab Guard.
+
+### Включає
+
+Захист під час ходів ворога на ранньому етапі режиму Adventure Mode в оригінальній Ring Fit Adventure.
+
+### Виключає
+
+Постійний пасивний щит; захист тільки кнопкою (`ACT-437`); повний захист після передчасного відпускання; гарантовану відсутність шкоди.
+
+### Ігри-носії
+
+- [`GAME-0476` — Ring Fit Adventure](../games/m-r/ring-fit-adventure.md)
+
+## ACT-630
+
+- Назва: Витягнути до себе один сусідній блок
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+Із досяжного боку одного рухомого блока гравець хапає його й кроком або спрямуванням переміщує до керованого тіла на одну локальну позицію, відкриваючи чи переміщуючи поверхню, придатну для наступного просторового рішення.
+
+### Включає
+
+Вінсент витягує звичайний блок із вежі першого Nightmare — Underground Cemetery, щоб створити сходинку заввишки в один блок, в оригінальній Catherine.
+
+### Виключає
+
+Штовхання блока від себе (ACT-009); перетягування предмета інвентарю без зміни топології лазіння; твердження про те, які типи особливих блоків з’являються в цьому першому рівні.
+
+### Ігри-носії
+
+- [`GAME-0477` — Catherine](../games/a-f/catherine.md)
+
+## ACT-631
+
+- Назва: Скасувати один допустимий нещодавній рух у Nightmare
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+За налаштування складності, яке дозволяє команду, гравець запитує скасування одного допустимого нещодавнього локального руху або дії з блоком, щоб одразу спробувати інше продовження.
+
+### Включає
+
+Скасування ходу на складності Normal, описане в посібнику Atlus для оригінальної Catherine під час нічного підйому.
+
+### Виключає
+
+Перезапуск усього етапу; необмежене перемотування вздовж неперервної часової шкали (ACT-044); твердження про виміряне повернення минулого часу руйнування або про прив’язку кнопки певної платформи.
+
+### Ігри-носії
+
+- [`GAME-0477` — Catherine](../games/a-f/catherine.md)
+
+## ACT-632
+
+- Назва: Обрати доступний рейс між містами
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+У поточному місті вибрати один відомий і запропонований рейс до іншого міста, погодившись із пунктом прибуття, умовами відправлення й ціною замість покроково керувати пересуванням.
+
+### Включає
+
+Вибір доступного рейсу з Парижа в оригінальній 80 Days для iOS.
+
+### Виключає
+
+Вибір вузла з позначеним видом сутички на карті серії забігів (`ACT-127`); місцеве прокладання шляху персонажу (`ACT-096`); малювання сполучень між довільними містами; припущення, що всі рейси відомі відразу.
+
+### Ігри-носії
+
+- [`GAME-0478` — 80 Days](../games/0-9/80-days.md)
+
+## ACT-633
+
+- Назва: Схопити рухому ліану й відпустити її
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+Стрибком із досяжної землі прикріпити кероване тіло до ліани, що вже гойдається, а окремою командою відпустити її та повернутися до руху без прикріплення у вибраному положенні гойдання.
+
+### Включає
+
+Захоплення ліани Гаррі стрибком із розбігу та відпускання рухом джойстика вниз в оригінальній Pitfall! для Atari 2600.
+
+### Виключає
+
+Створення чи наведення троса; зміну його довжини; планерування (`ACT-479`); автоматичне перенесення без вибору моменту захоплення чи відпускання.
+
+### Ігри-носії
+
+- [`GAME-0479` — Pitfall!](../games/m-r/pitfall.md)
+
+## ACT-634
+
+- Назва: Підняти або опустити одну вказану точку землі
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+гравець обирає дозволену місцеву точку землі й піднімає або опускає її на один дозволений крок, змінюючи зв’язану землю для автономних поселенців, а не добуваючи матеріал.
+
+### Включає
+
+зміни висоти кнопками миші біля дружніх людей в оригінальній Populous для Amiga.
+
+### Виключає
+
+видобування матеріалу (`ACT-443`); руйнування бойового укриття; силу зміни рівня моря в усьому світі.
+
+### Ігри-носії
+
+- [`GAME-0480` — Populous](../games/m-r/populous.md)
+
+## ACT-635
+
+- Назва: Задати одну поведінкову настанову всій автономній людності
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+гравець задає всій дружній автономній людності настанову оселятися, збиратися й потім оселятися, битися й потім оселятися або йти до свого притягувача, разом із зазначеною запасною поведінкою, замість окремих маршрутів кожному.
+
+### Включає
+
+чотири настанови Populous; під час руху до магніту люди не оселяються.
+
+### Виключає
+
+роль одного вибраного агента (`ACT-036`); стрій чи бойову позицію (`ACT-317`); безпосереднє керування вождем.
+
+### Ігри-носії
+
+- [`GAME-0480` — Populous](../games/m-r/populous.md)
+
+## ACT-636
+
+- Назва: Перенести притягувач людності за наявності вождя
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+за наявності придатного єдиного вождя гравець переносить притягувач людності до обраного місця, змінюючи напрям руху вождя й послідовників за чинною настановою збору, без безпосереднього пересування людей.
+
+### Включає
+
+перенесення папського магніту в оригінальній Populous.
+
+### Виключає
+
+рух власного персонажа; необмежене перенесення без вождя; системну зміну вождя після втрати.
+
+### Ігри-носії
+
+- [`GAME-0480` — Populous](../games/m-r/populous.md)
+
+## ACT-637
+
+- Назва: Підштовхувати весь ґрунт, щоб підкинути його мешканців
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+гравець подає загальний поштовх ґрунту, який підкидає фізичних мешканців на ньому, замість прямої команди стрибка вибраному персонажу.
+
+### Включає
+
+Одночасне натискання плечових кнопок у LocoRoco.
+
+### Виключає
+
+прямий стрибок персонажа; запуск одного приціленого снаряда; виміряну силу поштовху.
+
+### Ігри-носії
+
+- [`GAME-0482` — LocoRoco](../games/g-l/locoroco.md)
+
+## ACT-638
+
+- Назва: Просити поділ живої сукупності або возз’єднання сусідніх істот
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+гравець просить живу сукупність поділитися на окремі фізичні тіла або сусідніх істот возз’єднатися в одне тіло, змінюючи прохідну форму без розподілу місць військового загону.
+
+### Включає
+
+Коротке натискання для поділу та утримання для возз’єднання в LocoRoco.
+
+### Виключає
+
+автоматичне числове злиття лише від зіткнення; віддалене перенесення; призначення складу загону.
+
+### Ігри-носії
+
+- [`GAME-0482` — LocoRoco](../games/g-l/locoroco.md)
+
+## ACT-639
+
+- Назва: Окремо призначати боєприпаси двом стріляючим стволам
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+гравець окремо призначає доступний тип боєприпасів кожному з двох незалежно стріляючих стволів, зберігаючи обидва призначення замість заміни одного загального активного предмета.
+
+### Включає
+
+Ліве й праве заряджання арбалета в оригінальній Xbox-грі Stranger's Wrath.
+
+### Виключає
+
+вибір одного активного предмета; поліпшення зброї; постріл із уже зарядженого ствола.
+
+### Ігри-носії
+
+- [`GAME-0483` — "Oddworld: Stranger's Wrath"](../games/m-r/oddworld-strangers-wrath.md)
+
+## ACT-640
+
+- Назва: Змінювати тілесну перспективу разом із можливостями бою й пересування
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+гравець перемикається між режимами від першої та третьої особи, у яких різні дозволені способи використання зброї, огляду й швидкого пересування змінюють доступні рішення для того самого персонажа.
+
+### Включає
+
+Огляд з арбалетом проти швидкого руху й близького захоплення від третьої особи в оригінальній Stranger's Wrath.
+
+### Виключає
+
+лише декоративне обертання камери; зміну керованого персонажа; саму зміну пози.
+
+### Ігри-носії
+
+- [`GAME-0483` — "Oddworld: Stranger's Wrath"](../games/m-r/oddworld-strangers-wrath.md)
+
+## ACT-641
+
+- Назва: Утримувати команду близького забирання тіла заради винагороди
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+гравець повертається до допустимого близького знешкодженого або мертвого тіла й утримує команду забирання, доки процес захоплення не завершиться або спроба не втратить допустимість.
+
+### Включає
+
+Утримання команди Bounty Can в оригінальній грі про Незнайомця.
+
+### Виключає
+
+кидання пристрою ймовірнісного приєднання істоти; перенесення цілого тіла в інше місце; лише оглушення цілі.
+
+### Ігри-носії
+
+- [`GAME-0483` — "Oddworld: Stranger's Wrath"](../games/m-r/oddworld-strangers-wrath.md)
+
+## ACT-642
+
+- Назва: Просити особисте лікування коштом сил, а не запасеного засобу
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+гравець просить дію особистого відновлення на місці, система якої перетворює поточний запас сил на здоров’я замість споживання запасеного лікувального засобу чи очікування автоматичного відновлення здоров’я.
+
+### Включає
+
+Оригінальну команду Незнайомця струсити ушкодження.
+
+### Виключає
+
+витратний лікувальний засіб; обробку вибраної рани; автоматичне відновлення здоров’я в тихий проміжок.
+
+### Ігри-носії
+
+- [`GAME-0483` — "Oddworld: Stranger's Wrath"](../games/m-r/oddworld-strangers-wrath.md)
+
+## ACT-643
+
+- Назва: Прицілюватися й запускати заряджену живу істоту у світ
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+гравець прицілюється й вистрілює зарядженою живою істотою у ворога, дику істоту, сумісний пристрій або поверхню розміщення, обираючи просторовий ефект істоти замість обмеження всіх запусків ушкодженням ворога.
+
+### Включає
+
+Прицілені запуски Zappfly, Chippunk, Bolamite, Stunkz і Fuzzle в оригінальній Stranger's Wrath.
+
+### Виключає
+
+кидання інертного каменя чи підготовленої гранати; автоматичні укуси після розміщення; окрему ручну команду на кожен подальший укус.
+
+### Ігри-носії
+
+- [`GAME-0483` — "Oddworld: Stranger's Wrath"](../games/m-r/oddworld-strangers-wrath.md)
+
+## ACT-644
+
+- Назва: Маніпулювати копіями фрагментів у просторі віддзеркалення, зміни кольору й накладання
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+гравець обирає збережений фрагмент чи часткове поєднання, пересуває робочу копію, віддзеркалює її горизонтально або вертикально, змінює колір, накладає на іншу чи прибирає з показу без стирання збереженої пам’яті.
+
+### Включає
+
+Маніпулювання фрагментами перфокарт у кишеньковому комп’ютері Impossible Mission.
+
+### Виключає
+
+переставляння мапи світу; пакування інвентарю з обмеженою місткістю; вільне обертання предмета у світі.
+
+### Ігри-носії
+
+- [`GAME-0484` — Impossible Mission](../games/g-l/impossible-mission.md)
+
+## ACT-645
+
+- Назва: Скасовувати останнє допустиме прибирання чи поєднання фрагментів
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+гравець просить скасувати останнє допустиме прибирання або поєднання в просторі головоломки, повертаючи попереднє місцеве розміщення фрагментів, а не відмотуючи перебіг місії.
+
+### Включає
+
+Виправлення недавнього прибирання чи поєднання клавішею зі знаком оклику в Impossible Mission.
+
+### Виключає
+
+безперервне обернення симуляції; перезапуск усієї місії; довільні давніші зміни.
+
+### Ігри-носії
+
+- [`GAME-0484` — Impossible Mission](../games/g-l/impossible-mission.md)
+
+## ACT-646
+
+- Назва: Просити допомогу з головоломкою коштом залишку місійного часу
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+гравець обирає додаткову допомогу, яка забирає фіксовану частину залишку місійного часу й або правильно орієнтує вказані фрагменти, або повідомляє, чи вже знайдено потрібні до них частини.
+
+### Включає
+
+Телефонний запит до Агентства в Impossible Mission щодо орієнтації або наявності відповідних частин.
+
+### Виключає
+
+купівлю підказки за валюту; автоматичну навчальну пораду; безплатний необмежений розв’язувач.
+
+### Ігри-носії
+
+- [`GAME-0484` — Impossible Mission](../games/g-l/impossible-mission.md)
+
+## ACT-647
+
+- Назва: Відповідати на показані місця нот у порядку зростання висоти
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+почувши й побачивши набір місць, пов’язаних із нотами, гравець обирає ці місця в порядку зростання висоти звуку, а не повторює порядок показу.
+
+### Включає
+
+Вибір квадратів від низьких нот до високих у кодовій кімнаті Impossible Mission.
+
+### Виключає
+
+повторення початкового порядку, як у Simon; вибір невпорядкованого набору; ритмічне натискання в момент кожного початкового сигналу.
+
+### Ігри-носії
+
+- [`GAME-0484` — Impossible Mission](../games/g-l/impossible-mission.md)
+
+## ACT-648
+
+- Назва: Керувати вертикальним рухом підйомника, стоячи на його платформі
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+гравець стоїть на допустимій платформі підйомника й утримує вертикальну команду, керуючи дозволеним рухом угору чи вниз разом із персонажем.
+
+### Включає
+
+Кімнатні підйомники й рух ліфтом в Impossible Mission.
+
+### Виключає
+
+автоматичний рух платформи від віддаленого перемикача; стрибок персонажа без руху підйомника; телепортацію.
+
+### Ігри-носії
+
+- [`GAME-0484` — Impossible Mission](../games/g-l/impossible-mission.md)
+
+## ACT-649
+
+- Назва: Відповідати на поточну тимчасову команду в живій сцені
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+Під час заданої автором живої сцени гравець натискає команду, яку зараз показує тимчасова підказка, щоб викликати наступну передбачену реакцію, а не обирає довільно спрямовану бойову дію чи відтворює раніше показану послідовність із пам’яті.
+
+### Включає
+
+Відповіді на Quick Timer Event у провулку та барі Heartbeats оригінальної Shenmue.
+
+### Виключає
+
+Зміну ефекту обраної покрокової атаки; перекриття рухомого покажчика; пригадування послідовності після показу; вибір прийому у вільному бою.
+
+### Ігри-носії
+
+- [`GAME-0485` — Shenmue](../games/s-z/shenmue.md)
+
+## ACT-650
+
+- Назва: Обирати дозволений сон у спальні для завершення дня розслідування
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+Коли поточний час дозволяє сон у спальні, гравець обирає цю команду завершення дня й продовжує розслідування наступної дати без вимоги заявленої особистої шкали втоми.
+
+### Включає
+
+Дозволений вибір Sleep у спальні Рьо в оригінальній Shenmue.
+
+### Виключає
+
+Сон виживальника за станом утоми; створення нової щоденної головоломки; вільне перемотування до будь-якого часу зустрічі.
+
+### Ігри-носії
+
+- [`GAME-0485` — Shenmue](../games/s-z/shenmue.md)
+
+## ACT-651
+
+- Назва: Обирати доступний склад і розміщувати його на дозволених початкових клітинках
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+Перед дискретною тактичною сутичкою гравець обирає допустимих учасників резерву в межах бойової групи й розміщує кожного на дозволеній початковій клітинці до запуску бойового розкладу.
+
+### Включає
+
+Розміщення бойової групи Гаріланда в оригінальній Final Fantasy Tactics.
+
+### Виключає
+
+Ширину формації в бою реального часу; рух після початку; появу підкріплень; довільних додаткових керованих гостей.
+
+### Ігри-носії
+
+- [`GAME-0486` — Final Fantasy Tactics](../games/a-f/final-fantasy-tactics.md)
+
+## ACT-652
+
+- Назва: Завершувати особистий хід із невикористаними можливостями руху чи дії
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+Гравець свідомо завершує хід активного персонажа й відмовляється від невикористаної окремої можливості руху чи дії, зокрема від обох, замість обов’язково витрачати їх.
+
+### Включає
+
+Wait в оригінальній Final Fantasy Tactics із невикористаною однією чи обома можливостями.
+
+### Виключає
+
+Живий таймер очікування; гарантоване захисне підсилення; скидання всієї готовності до нуля; другий рух.
+
+### Ігри-носії
+
+- [`GAME-0486` — Final Fantasy Tactics](../games/a-f/final-fantasy-tactics.md)
+
+## ACT-653
+
+- Назва: Обирати кінцевий напрямок персонажа під час завершення тактичного ходу
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+Наприкінці особистого тактичного ходу гравець фіксує напрямок персонажа з дозволеного набору без переміщення; він визначає напрямок подальшого захисту.
+
+### Включає
+
+Вибір напрямку наприкінці активного ходу оригінальної Final Fantasy Tactics.
+
+### Виключає
+
+Поворот камери; розворот між двома напрямками як витратну бойову дію; лише автоматичний напрямок після руху.
+
+### Ігри-носії
+
+- [`GAME-0486` — Final Fantasy Tactics](../games/a-f/final-fantasy-tactics.md)
+
+## ACT-654
+
+- Назва: Змінювати огляд незмінного тактичного поля без зміни його топології
+- Переглянуто: `2026-10-02`
+
+### Операційне визначення
+
+Гравець змінює точку огляду незмінного тактичного поля, щоб роздивитися клітинки й висоти; справжні позиції, суміжність і досяжність лишаються незмінними.
+
+### Включає
+
+Керування оглядом поля оригінальної Final Fantasy Tactics.
+
+### Виключає
+
+Шляхи, залежні від перспективи; поворот світу зі зміною суміжності; камеру супроводу безпосередньо керованого героя.
+
+### Ігри-носії
+
+- [`GAME-0486` — Final Fantasy Tactics](../games/a-f/final-fantasy-tactics.md)
+
+## ACT-655
+
+- Назва: Обирати збережений повний чи зарифлений стан бойових вітрил
+- Переглянуто: `2026-10-03`
+
+### Операційне визначення
+
+Гравець перемикає бойове вітрильне судно між доступними станами вітрил, які діють до наступної зміни; швидкість обмінюється на керованість і вразливість, а не отримує миттєве підсилення.
+
+### Включає
+
+Звичайна морська сутичка оригінальної Windows-гри Sid Meier's Pirates!. Рифлення сповільнює судно, але поліпшує керованість і зменшує вразливість вітрил.
+
+### Виключає
+
+Декоративне вітрило; особистий перехід до окремої снасті; тимчасове прискорення; автоматичний маршрут до призначення.
+
+### Ігри-носії
+
+- [`GAME-0487` — Sid Meier's Pirates!](../games/s-z/sid-meiers-pirates.md)
+
+## ACT-656
+
+- Назва: Запитувати доступний залп заряджених бортових гармат
+- Переглянуто: `2026-10-03`
+
+### Операційне визначення
+
+Гравець запитує вогонь заряджених бортових гармат; поточне розташування цілей визначає допустимий борт і найближчого допустимого противника, а частково заряджена батарея може стріляти без очікування всіх гармат.
+
+### Включає
+
+Звичайна морська сутичка оригінальної Windows-гри Sid Meier's Pirates!. Команда вогню використовує заряджені гармати борту, зверненого до допустимої цілі.
+
+### Виключає
+
+Постріл із носової гармати; особистий вибір цілі башти; автоматичну стрільбу; обов’язкове заряджання всієї батареї.
+
+### Ігри-носії
+
+- [`GAME-0487` — Sid Meier's Pirates!](../games/s-z/sid-meiers-pirates.md)
+
+## ACT-657
+
+- Назва: Обирати доступні боєприпаси для автоматичного заряджання гармат
+- Переглянуто: `2026-10-03`
+
+### Операційне визначення
+
+Гравець змінює тип боєприпасів автоматичного заряджання суднових гармат серед типів, доступних за поточним оснащенням, без особистого заряджання кожної гармати чи купівлі озброєння всередині сутички.
+
+### Включає
+
+Звичайна морська сутичка оригінальної Windows-гри Sid Meier's Pirates!. За наявності оснащення ядра, книпелі й картеч мають різну дальність і переважне пошкодження.
+
+### Виключає
+
+Особисте перезаряджання кожної гармати; купівлю поліпшення; вибір недоступного боєприпасу; окремий ген на кожну назву.
+
+### Ігри-носії
+
+- [`GAME-0487` — Sid Meier's Pirates!](../games/s-z/sid-meiers-pirates.md)
+
+## ACT-658
+
+- Назва: Виконувати живу захисну відповідь за типом атаки в дуелі
+- Переглянуто: `2026-10-03`
+
+### Операційне визначення
+
+Гравець виконує доступне пригинання, стрибок чи перехоплення зброєю проти вхідної ближньої атаки, обираючи тип відповіді під час продовження дуелі замість універсального невразливого ухилення.
+
+### Включає
+
+Звичайна морська сутичка оригінальної Windows-гри Sid Meier's Pirates!. Пригинання зупиняє верхній удар; стрибок — нижній; парирування повністю зупиняє випад.
+
+### Виключає
+
+Автоматичний захисний кидок; універсальне ухилення; одну підказану кнопку контратаки; вільний рух ареною.
+
+### Ігри-носії
+
+- [`GAME-0487` — Sid Meier's Pirates!](../games/s-z/sid-meiers-pirates.md)
+
+## ACT-659
+
+- Назва: Пробувати переривану насмішку для зміни переваги дуелі
+- Переглянуто: `2026-10-03`
+
+### Операційне визначення
+
+Гравець пробує живу насмішку без прямого пошкодження, завершення якої може змістити ініціативу до персонажа; удар противника може перервати її.
+
+### Включає
+
+Звичайна морська сутичка оригінальної Windows-гри Sid Meier's Pirates!. Завершена насмішка поліпшує перевагу, але вхідний удар може її зупинити.
+
+### Виключає
+
+Декоративну розмову; гарантоване підсилення; команду атакувального пошкодження; меню залякування без часу.
+
+### Ігри-носії
+
+- [`GAME-0487` — Sid Meier's Pirates!](../games/s-z/sid-meiers-pirates.md)
+
+## ACT-660
+
+- Назва: Обирати необов’язкові захоплені ресурси під час розподілу трофея
+- Переглянуто: `2026-10-03`
+
+### Операційне визначення
+
+Після захоплення судна гравець приймає чи залишає запропонованих звичайних моряків, обирає кількість вантажу й вирішує, чи зберігати судно, за поточною допустимістю замість автоматичного отримання всіх трофейних ресурсів.
+
+### Включає
+
+Звичайна морська сутичка оригінальної Windows-гри Sid Meier's Pirates!. Захоплений вантаж і збереження судна обираються; від запропонованих моряків можна відмовитися.
+
+### Виключає
+
+Купівлю в крамниці; вибір золота, що переходить автоматично; здобич потоплення; розподіл здобичі всієї кампанії.
+
+### Ігри-носії
+
+- [`GAME-0487` — Sid Meier's Pirates!](../games/s-z/sid-meiers-pirates.md)
+
+## ACT-661
+
+- Назва: Запитувати готовий стан чи очікування власного приєднаного духа
+- Переглянуто: `2026-10-04`
+
+### Операційне визначення
+
+Гравець запитує перехід власного духа між приєднаним готовим станом і очікуванням: залишає пасивний внесок або готує духа до подальшого спільного виклику; у бою зміна займає заплановану дію персонажа.
+
+### Включає
+
+Приєднання власного джина чи переведення в очікування бойовою командою оригінальної Golden Sun.
+
+### Виключає
+
+Передавання власника під час бою; звичайна прицільна атака; використання духа, який ще відновлюється; миттєве бойове перемикання без витрати дії.
+
+### Ігри-носії
+
+- [`GAME-0489` — Golden Sun](../games/g-l/golden-sun.md)
+
+## ACT-662
+
+- Назва: Випускати помічника зі спільного місця для предмета
+- Переглянуто: `2026-10-04`
+
+### Операційне визначення
+
+Гравець активує помічника, якого носить як предмет, і розміщує його стійке автономне тіло в доступному просторі світу; помічник звільняє спільне місце для предмета й пізніше знову підбирається фізично, а не відкликається з окремого списку загону.
+
+### Включає
+
+Випускання Roadkill з одного із трьох спільних місць Sketch для предметів в оригінальній Comix Zone.
+
+### Виключає
+
+Дистанційне відкликання супутника загону; призначення місця руху автономній істоті; остаточне витрачання помічника; передачу прямого керування персонажем.
+
+### Ігри-носії
+
+- [`GAME-0490` — Comix Zone](../games/a-f/comix-zone.md)
+
+## ACT-663
+
+- Назва: Готувати ракету, захоплювати чи скасовувати її ціль
+- Переглянуто: `2026-10-04`
+
+### Операційне визначення
+
+Гравець готує власну ракету до наведення на доступний корабель у поточному прицілі або свідомо скасовує підготовку чи збережену ціль до окремої команди пострілу; наведення зберігає саму ціль і не потребує безперервного утримання команди.
+
+### Включає
+
+Підготовку T, захоплення цілі в прицілі й скасування U в оригінальній BBC Micro Elite.
+
+### Виключає
+
+Безперервне утримання цілі для відносного руху; утримання прицілу заради шкали поступового наведення; автоматичний постріл при появі цілі; застосування протиракетного засобу.
+
+### Ігри-носії
+
+- [`GAME-0491` — Elite](../games/a-f/elite.md)
+
+## ACT-664
+
+- Назва: Запитувати умовне скорочення місцевої просторової відстані
+- Переглянуто: `2026-10-04`
+
+### Операційне визначення
+
+Гравець запитує одноразове негайне скорочення відстані вперед за поточним напрямком корабля; команда відрізняється від вибору іншої зоряної системи й залежить від допустимості місцевих мас та середовища.
+
+### Включає
+
+Місцевий стрибок J за поточним напрямком польоту в оригінальній BBC Micro Elite.
+
+### Виключає
+
+Паливний гіперперехід між системами; саме збільшення швидкості; автоматичне стикування; необмежене перенесення в будь-яку точку.
+
+### Ігри-носії
+
+- [`GAME-0491` — Elite](../games/a-f/elite.md)
+
+## ACT-665
+
+- Назва: Прикріплювати мітку наведення або утримувати неживий якір боєприпасів
+- Переглянуто: `2026-10-04`
+
+### Операційне визначення
+
+Гравець стріляє скінченною міткою в досяжну живу ціль або утримує її прикріплення на неживій поверхні як якір наступних набоїв; команда позначення відокремлена від витрати основних набоїв і перенаведення збережених пострілів наступною прийнятою міткою цілі.
+
+### Включає
+
+Позначення цілі Bullseye та утримане розміщення пастки на землі чи поверхні в оригінальній Resistance.
+
+### Виключає
+
+Саме прицілювання; озброєння власної ракети для набуття цілі в прицілі; автономну турель; необмежене позначення всіх прихованих ворогів.
+
+### Ігри-носії
+
+- [`GAME-0492` — "Resistance: Fall of Man"](../games/m-r/resistance-fall-of-man.md)
+
+## ACT-666
+
+- Назва: Рухом пальця вирізати допустимий ґрунт для водного маршруту
+- Переглянуто: `2026-10-04`
+
+### Операційне визначення
+
+Гравець обирає неперервний рух по екрану, що прибирає перетнутий допустимий ґрунт і відкриває вільний простір; так змінюються канали для рідини, що рухається опосередковано, без вибору її швидкості чи кінцевої позиції.
+
+### Включає
+
+Вирізання рухом пальця коричневого ґрунту навколо незмінного каміння в оригінальному Choose Wisely у Where’s My Water?.
+
+### Виключає
+
+Видобування клітинок місцевості персонажем; удари лопатою в пошуку закопаного предмета; збирання матеріалу в інвентар; вириття бойового укриття; перетягування самої води.
+
+### Ігри-носії
+
+- [`GAME-0493` — Where's My Water?](../games/s-z/wheres-my-water.md)
+
+## ACT-667
+
+- Назва: Дмухати на сумісну місцеву ціль
+- Переглянуто: `2026-10-04`
+
+### Операційне визначення
+
+Гравець наказує безпосередньо керованому персонажу дмухнути на придатну близьку ціль довкілля, щоб викликати її визначену місцеву відповідь, не стріляючи зі зброї.
+
+### Включає
+
+Амброзія та сумісні квіти Jungle Hijinxs в оригінальній Wii-версії, на які дмухають присіданням і струшуванням.
+
+### Виключає
+
+Постріл снарядом; автоматичне поле вітру; дмухання на будь-який об’єкт без перевірки придатності.
+
+### Ігри-носії
+
+- [`GAME-0495` — Donkey Kong Country Returns](../games/a-f/donkey-kong-country-returns.md)
+
+## ACT-668
+
+- Назва: Обрати мить пострілу із зайнятої заданої пускової установки
+- Переглянуто: `2026-10-04`
+
+### Операційне визначення
+
+Коли керований персонаж перебуває в придатній заданій пусковій установці, гравець безпосередньо обирає мить запуску за авторським маршрутом, не задаючи довільного прицілу чи сили.
+
+### Включає
+
+Постріл із позначеної стрілкою Barrel Cannon після A в Jungle Hijinxs оригінальної Wii-версії.
+
+### Виключає
+
+Автоматичний запуск за входу; довільний балістичний приціл або сила; постріл з екіпірованої зброї.
+
+### Ігри-носії
+
+- [`GAME-0495` — Donkey Kong Country Returns](../games/a-f/donkey-kong-country-returns.md)
+
+## ACT-669
+
+- Назва: Виконувати позначений спрямований постріл у відповідь
+- Переглянуто: `2026-10-04`
+
+### Операційне визначення
+
+Гравець натискає команду стрільби, коли допустима жива ціль має тимчасову позначку для удару у відповідь; це виконує спрямований у ціль контекстний постріл без вільного прицілювання саме цього пострілу.
+
+### Включає
+
+Gun Strike після допустимого точного захисту чи відштовхування важким ударом у сольному пролозі Space Marine 2.
+
+### Виключає
+
+Звичайну прицільну стрільбу; ближнє добивання; захисну дію, що створила позначку; автоматичну шкоду без команди.
+
+### Ігри-носії
+
+- [`GAME-0496` — "Warhammer 40,000: Space Marine 2"](../games/s-z/warhammer-40000-space-marine-2.md)
+
+## ACT-670
+
+- Назва: Змінювати огляд, який безпосередньо перевіряє задане завдання
+- Переглянуто: `2026-10-05`
+
+### Операційне визначення
+
+Гравець змінює оглядову камеру або вмикає доступний вид поїздки на транспорті; задане завдання перевіряє цю зміну огляду як умову завершення, не надаючи прямого керування транспортом і не змінюючи геометрії світу.
+
+### Включає
+
+Початкову інструкцію камери й прийняте додаткове завдання поїздки в Mining Miracle релізної Transport Fever 2.
+
+### Виключає
+
+Лише косметичну зміну огляду без перевірки умови; геометрію шляху, керовану проєкцією; пряме кермування; вигадану ручну дію махання.
+
+### Ігри-носії
+
+- [`GAME-0498` — Transport Fever 2](../games/s-z/transport-fever-2.md)
+
+## ACT-671
+
+- Назва: Складати локомотив і вантажні або пасажирські вагони перед купівлею
+- Переглянуто: `2026-10-05`
+
+### Операційне визначення
+
+Перед підтвердженням купівлі поїзда гравець обирає його рушійну одиницю й допустимі причеплені вагони, змінюючи запропоновані можливості перевезення, місткість, довжину та ціну, а не задаючи інший склад окремо для кожної зупинки.
+
+### Включає
+
+Складання локомотива з вагонами для руди або пасажирів у вікні купівлі депо релізної Transport Fever 2.
+
+### Виключає
+
+Призначення вже купленого поїзда на лінію; заміну вагонів на кожній зупинці; пізнішу функцію зміни вже придбаного складу; пряме керування транспортом.
+
+### Ігри-носії
+
+- [`GAME-0498` — Transport Fever 2](../games/s-z/transport-fever-2.md)
+
+## ACT-672
+
+- Назва: Виконати призначений додатковий прийом у момент уже розпочатого удару
+- Переглянуто: `2026-10-05`
+
+### Операційне визначення
+
+Гравець натискає кнопку вивченого й призначеного додаткового прийому в момент влучання вже розпочатої власної або ворожої атаки, запитуючи передбачений ефект прийому без вибору нової цілі.
+
+### Включає
+
+Вивчені прийоми ланцюга у Wine Cellar в момент влучання зброєю Ashley та захисні прийоми в момент ворожого влучання, зокрема запобігання станам або повернення шкоди, а не лише парирування.
+
+### Виключає
+
+Вибір початкової зброї, закляття чи цілі; звичайна атака, яку можна почати довільно; вимога, щоб кожна захисна відповідь скасовувала отриману шкоду; зупинка рухомого вказівника всередині смуги поступу.
+
+### Ігри-носії
+
+- [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
+
+## ACT-673
+
+- Назва: Безповоротно прибрати допустимий запас з інвентарю без компенсації
+- Переглянуто: `2026-10-05`
+
+### Операційне визначення
+
+Гравець підтверджує безповоротне вилучення вибраного допустимого предмета або кількості з інвентарю, звільняючи зайняту місткість без ефекту предмета, оплати чи повернення складників.
+
+### Включає
+
+Вилучення неспоряджених предметів або різних запасів у Wine Cellar, щоб звільнити місце відповідної категорії для запропонованої нагороди.
+
+### Виключає
+
+Викидання в ігровий світ із можливістю підібрати знову; використання витратного предмета; продаж або переробка з поверненням складників; вилучення наразі вдягненого предмета, коли умова вилучення це забороняє.
+
+### Ігри-носії
+
+- [`GAME-0511` — Animal Crossing: New Leaf](../games/a-f/animal-crossing-new-leaf.md)
+- [`GAME-0512` — Resident Evil Requiem](../games/m-r/resident-evil-requiem.md)
+- [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
+
+## ACT-674
+
+- Назва: У вибраний момент запитати зупинку циклічного вибору нагороди
+- Переглянуто: `2026-10-05`
+
+### Операційне визначення
+
+Поки після сутички циклічно змінюються нагороди, гравець обирає момент запиту на зупинку; команда запускає остаточний вибір, а не дозволяє прямо обрати довільну нагороду чи гарантувати наразі видимий варіант.
+
+### Включає
+
+Вибір моменту натискання Circle у початковій Vagrant Story для післябойового колеса характеристик, описаний в індексованих посібниках гравців і підтверджений записаними станами колеса та результату.
+
+### Виключає
+
+Звичайне меню взаємовиключних варіантів; фізичне захоплення предмета на виході; твердження, що зупинка миттєво закріплює показаний варіант; неперевірені формули позиції колеса чи затримки.
+
+### Ігри-носії
+
+- [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
+
+## ACT-675
+
+- Назва: Закріпити або прибрати перелік для збирання складників відомого рецепта
+- Переглянуто: `2026-10-05`
+
+### Операційне визначення
+
+Гравець обирає відомий рецепт і додає або прибирає його результат та потрібні складники з поточного переліку для збирання, не запускаючи виготовлення й не резервуючи ці складники.
+
+### Включає
+
+Команду Pin to Checklist для Crude Door, ремонтних засобів і Crude Headlight під час першої підготовки в гаражі та виїзду в Pacific Drive.
+
+### Виключає
+
+Виготовлення вибраного результату; призначення рецепта автоматичному виробництву; встановлення точки на мапі світу; задану авторами вимогу місії, яку гравець не може закріпити або прибрати.
+
+### Ігри-носії
+
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
+
+## ACT-676
+
+- Назва: Встановити власну довільну точку на мапі без розрахунку маршруту
+- Переглянуто: `2026-10-05`
+
+### Операційне визначення
+
+Гравець обирає місце на локальній мапі як власний орієнтир; команда змінює позначений пункт призначення без розрахунку дорожнього шляху чи переміщення учасника.
+
+### Включає
+
+Команду Pin Waypoint на мапі ARC під час першого виїзду до Radio Station у Pacific Drive.
+
+### Виключає
+
+Автоматично розрахований дорожній маршрут GPS; послідовно з’єднані позначки, що утворюють лінію запланованого маршруту; вибір виходу для його активації; наказ автономного руху.
+
+### Ігри-носії
+
+- [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
+
+## ACT-677
+
+- Назва: Підтвердити один наразі допустимий віддалений вихід
+- Переглянуто: `2026-10-05`
+
+### Операційне визначення
+
+На доступній панелі керування виходами гравець обирає одне наразі допустиме віддалене місце й підтверджує його активацію, а не лише позначає цю позицію чи негайно переноситься туди.
+
+### Включає
+
+Вибір координат виходу та команди Link Gateway через заряджений ARC під час першого виїзду в Pacific Drive.
+
+### Виключає
+
+Довільну навігаційну позначку; фізичний в’їзд до активованого виходу; миттєве швидке переміщення; фіксований вихід, що відкривається без вибору місця; подальшу відповідь системи у вигляді небезпеки.
+
+### Ігри-носії
+
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
+
+## ACT-678
+
+- Назва: Націлити коротке переміщення збереженої машини ззовні
+- Переглянуто: `2026-10-05`
+
+### Операційне визначення
+
+Керуючи персонажем поза його збереженою машиною, гравець націлює допустиме близьке місце відновлення й запитує переміщення цієї машини, зберігаючи керування персонажем, а не кермуючи чи переносячи самого персонажа.
+
+### Включає
+
+Утримування T поза універсалом, щоб скануванням знайти місце переміщення машини під час першої експедиції в Pacific Drive.
+
+### Виключає
+
+Запит відновлення під час безпосереднього керування призначеною для місії машиною; націлене переміщення керованого персонажа; перезапуск цілого рівня; необмежене швидке переміщення на великі відстані.
+
+### Ігри-носії
+
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
+
+## ACT-679
+
+- Назва: Увійти до збільшеного прицільного огляду спорядженої зброї або вийти з нього
+- Переглянуто: `2026-10-05`
+
+### Операційне визначення
+
+Гравець явно перемикає готову вогнепальну зброю між звичайним оглядом і її прицільним збільшенням без пострілу, зміни самої зброї чи захоплення цілі.
+
+### Включає
+
+Команду Aim/Zoom для наявного пістолета, пістолета-кулемета чи отриманої штурмової гвинтівки у First Encounter оригінальної F.E.A.R. для Windows.
+
+### Виключає
+
+Сам постріл; довільну камеру огляду; захоплення цілі; утримання прицілу для заряджання окремої шкали концентрації; припущення, що вся зброя має однакове збільшення чи перевагу в точності.
+
+### Ігри-носії
+
+- [`GAME-0501` — F.E.A.R.](../games/a-f/fear.md)
+
+## ACT-680
+
+- Назва: Розгорнути здатність планерування в повітрі й керувати нею
+- Переглянуто: `2026-10-05`
+
+### Операційне визначення
+
+Уже перебуваючи в повітрі, гравець розгортає набуту здатність планерування й спрямовує подальше зниження до досяжної місцевості, а не вибирає місце призначення для автоматичного переміщення.
+
+### Включає
+
+Hazel розгортає сплетені крила й керує між заданими авторами місцями приземлення в розділі 3 після вивчення Glide.
+
+### Виключає
+
+Чергування розгойдування на прив’язі й планерування; необмежене підняття з тягою; кінематографічний політ; вихід із транспортного засобу; сам звичайний стрибок.
+
+### Ігри-носії
+
+- [`GAME-0502` — South of Midnight](../games/s-z/south-of-midnight.md)
+
+## ACT-681
+
+- Назва: Використати тимчасову ближню взаємодію з уже переможеним ворогом
+- Переглянуто: `2026-10-05`
+
+### Операційне визначення
+
+Коли ворога вже переможено, гравець наближається й виконує необов’язкову контекстну ближню взаємодію до зникнення залишеного тіла; ця команда не потрібна для завдання вирішальної шкоди.
+
+### Включає
+
+Запит Unravel кнопкою Y біля переможеного Haint у South of Midnight.
+
+### Виключає
+
+Подальшу дію при тимчасовому приголомшенні живого противника; звичайний ближній удар; автоматичне зникнення трупа; повернення інвентарю, який перед тим переносили й упустили.
+
+### Ігри-носії
+
+- [`GAME-0502` — South of Midnight](../games/s-z/south-of-midnight.md)
+
+## ACT-682
+
+- Назва: Виконувати відстежувану датчиком хореографію в музичному ритмі
+- Переглянуто: `2026-10-05`
+
+### Операційне визначення
+
+Активний гравець безпосередньо рухає кінцівками й тулубом у музичному ритмі, дзеркально повторюючи поточну показану хореографію або виконуючи власні рухи в заданому вільному інтервалі; команда є безперервною відстежуваною траєкторією тіла, а не окремим натисканням панелі чи інструментальної ноти.
+
+### Включає
+
+Повторення Step Side, Hip Notch та інших заданих рухів в оригінальному Dance Central Perform It!; виконання власних рухів під час інтервалу Freestyle цього танцю.
+
+### Виключає
+
+Вибір нот ручним контролером; натискання окремих перемикачів танцювального килимка ногами; закриття просторової протічки кінцівкою; вибір пози, яку персонаж виконує автоматично.
+
+### Ігри-носії
+
+- [`GAME-0503` — Dance Central](../games/a-f/dance-central.md)
+
+## ACT-683
+
+- Назва: Обирати частку зайнятості району
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+Гравець вибирає частку повної зайнятості району, яка зберігається до зміни налаштування, перерозподіляючи спільну робочу силу та разом масштабуючи визначені вимоги району до ресурсів і його обсяг виробництва.
+
+### Включає
+
+Зменшення зайнятості видобувного району, щоб вивільнити працівників для житлового району з дослідницькою установою у Frostpunk 2.
+
+### Виключає
+
+Призначення окремих працівників за іменами; зміну загальної швидкості часу; вибір іншої виробничої рецептури.
+
+### Ігри-носії
+
+- [`GAME-0504` — Frostpunk 2](../games/a-f/frostpunk-2.md)
+
+## ACT-684
+
+- Назва: Резервувати або розширювати зв’язну ділянку району з кількох клітин
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+Гравець вибирає потрібну зв’язну множину клітин ігрового світу для одного району або допустимого прилеглого розширення цього району, а потім підтверджує будівництво поселення на вибраній ділянці.
+
+### Включає
+
+Вибір очищених клітин житлового району та подальший вибір прилеглих клітин його розширення у Frostpunk 2.
+
+### Виключає
+
+Розміщення району на одному гексі; окреме креслення житлових зон без підтвердження кількості клітин району; розчищення мерзлого ґрунту перед будівництвом.
+
+### Ігри-носії
+
+- [`GAME-0504` — Frostpunk 2](../games/a-f/frostpunk-2.md)
+
+## ACT-685
+
+- Назва: Призначати обмежені регіональні команди для розвідки чи збору
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+Гравець призначає визначену кількість доступних регіональних команд для однієї поточно допустимої розвідки чи збору ресурсів, резервуючи ці команди замість керування окремими мандрівниками.
+
+### Включає
+
+Відправлення Frostland Teams на розвідку західного регіону або призначення їх до відкритої ділянки збору ресурсів у Frostpunk 2.
+
+### Виключає
+
+Формування загону з індивідуальним вибором спорядження; безпосереднє водіння розвідника; твердження, що кожна ділянка збору потребує стежки.
+
+### Ігри-носії
+
+- [`GAME-0504` — Frostpunk 2](../games/a-f/frostpunk-2.md)
+
+## ACT-686
+
+- Назва: Задавати напрямлені темпи постачання ресурсів між керованими поселеннями
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+Гравець налаштовує напрям і постійний обсяг за інтервал ігрового часу для кожного дозволеного постачання ресурсу між двома окремо керованими з’єднаними поселеннями.
+
+### Включає
+
+Налаштування постачання нафти зі Старого дредноута до New London і їжі у зворотному напрямі у Frostpunk 2.
+
+### Виключає
+
+Одноразове переселення людей; вибір ціни торговця; прокладання сполучної стежки; ручне переміщення фізичного стосу предметів, який переносять.
+
+### Ігри-носії
+
+- [`GAME-0504` — Frostpunk 2](../games/a-f/frostpunk-2.md)
+
+## ACT-687
+
+- Назва: Обирати управлінську дію щодо конкретної спільноти
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+Гравець звертається до поточної спільноти чи фракції й виконує доступну управлінську дію, розкриті матеріальна плата, користь і наслідок для відносин якої застосовуються до цієї групи.
+
+### Включає
+
+Запит коштів у спільноти або доступну дію підтримки через панель фракції у Frostpunk 2.
+
+### Виключає
+
+Закон, який набуває чинності лише після голосування ради; пасивну зміну відносин; припущення, що обрана дія не має часу відновлення чи плати.
+
+### Ігри-носії
+
+- [`GAME-0504` — Frostpunk 2](../games/a-f/frostpunk-2.md)
+
+## ACT-688
+
+- Назва: Підтвердити прокладання регіональної стежки через допустимі точки з’єднання
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+Гравець обирає регіональну послідовність допустимих точок з’єднання та підтверджує платне будівництво стежки, яка сполучить відкриті місця з мережею поселення.
+
+### Включає
+
+Сполучення New London і Старого дредноута через точки стежки у Frostland у Frostpunk 2.
+
+### Виключає
+
+Малювання місцевої дорожньої мережі для фізичних транспортних засобів; сам вибір темпу постачання; миттєве переміщення до невідкритого місця.
+
+### Ігри-носії
+
+- [`GAME-0504` — Frostpunk 2](../games/a-f/frostpunk-2.md)
+
+## ACT-689
+
+- Назва: Переселяти обрану кількість населення між керованими поселеннями
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+Гравець підтверджує переселення показаної кількості мешканців із допустимого вихідного поселення до окремо керованого місця призначення, змінюючи їхню належність до поселення, а не постійну швидкість потоку ресурсів.
+
+### Включає
+
+Переселення колоністів із New London для заснування чи збільшення колонії Старого дредноута у Frostpunk 2.
+
+### Виключає
+
+Автоматичне зростання колонії; постійне постачання їжі; вибір індивідуальних тактичних позицій; припущення про неперевірений час міграції.
+
+### Ігри-носії
+
+- [`GAME-0504` — Frostpunk 2](../games/a-f/frostpunk-2.md)
+
+## ACT-690
+
+- Назва: Повертати бойовий огляд польоту на чверть оберту
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+Гравець змінює активний напрям прицілювання навколо тіла, що автоматично просувається в польоті, на визначену чверть оберту, відкриваючи бічні чи задні загрози для атаки без розвороту або вільного вибору світового маршруту.
+
+### Включає
+
+Зміну огляду польоту кнопками L/R із кроком 90 градусів у початковій Panzer Dragoon.
+
+### Виключає
+
+Зміну лише відстані камери стеження; керування довільним напрямом вільного польоту; автоматичну кінематографічну камеру; припущення про однакові можливості керування тілом у кожному бойовому напрямі.
+
+### Ігри-носії
+
+- [`GAME-0505` — Panzer Dragoon](../games/m-r/panzer-dragoon.md)
+
+## ACT-691
+
+- Назва: Набирати цілі утриманим прицілюванням і відпускати підготовлений залп
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+Гравець утримує захоплення цілей, проводячи прицілом через допустимі ворожі цілі, а потім відпускає ту саму команду, щоб виконати підготовлений самонавідний залп по кількох цілях замість безперервної стрільби в одного автоматично утримуваного супротивника.
+
+### Включає
+
+Утримання A/B/C, наведення на ворогів і відпускання самонавідного залпу дракона в початковій Panzer Dragoon.
+
+### Виключає
+
+Підготовку скінченної ракети з інвентарю перед окремою командою вогню; одну автоматично утримувану ціль безперервної стрільби; трактування позначок цілей як уже влучених атак.
+
+### Ігри-носії
+
+- [`GAME-0505` — Panzer Dragoon](../games/m-r/panzer-dragoon.md)
+
+## ACT-692
+
+- Назва: Перемикати підготовлену пару предметів у руках під час звичайного керування
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+Гравець перемикає активне спорядження між збереженими підготовленими наборами, разом замінюючи доступні призначення основної та другої руки замість вибору одного предмета з інвентарю чи редагування підготовчих комірок.
+
+### Включає
+
+Команду Y у навчальному відрізку Avowed, що перемикає підготовлені меч зі щитом, дворучний лук і жезл із книгою заклять.
+
+### Виключає
+
+Вибір одного предмета з панелі; перемикання команди зброї на окремо обрану особисту здібність; налаштування комірок інвентарю; отримання нового предмета самим перемиканням.
+
+### Ігри-носії
+
+- [`GAME-0506` — Avowed](../games/a-f/avowed.md)
+
+## ACT-693
+
+- Назва: Запитувати платне повернення розподілених очок персонажа
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+Гравець підтверджує доступне скидання визначеної групи постійно розподілених очок персонажа за ціну у валюті, щоб витрачені очки знову стали доступними для розподілу; цей запит відрізняється від витрачання ще не розподіленого очка.
+
+### Включає
+
+Запит скидання характеристик або здібностей Avowed у меню персонажа після появи можливості розподілу очок.
+
+### Виключає
+
+Безкоштовний перерозподіл Spark; зміну лише споряджених предметів; створення початкового персонажа; автоматичне повернення очок після смерті; припущення про одночасне скидання всіх груп очок.
+
+### Ігри-носії
+
+- [`GAME-0506` — Avowed](../games/a-f/avowed.md)
+
+## ACT-694
+
+- Назва: Обирати запропоновані відкриті клас і транспорт перед заїздом
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+Перед однією скінченною спробою заїзду гравець обирає допустимий відкритий клас транспорту, а потім один запропонований транспорт цього класу, задаючи його властивості керування й зіткнень для спроби без окремої операції володіння гаражем чи вибору типу трансмісії.
+
+### Включає
+
+Вибір будь-якого із семи запропонованих класів і доступного транспорту перед стартом першого заїзду Grizzly у початковій MotorStorm.
+
+### Виключає
+
+Вибір активного транспорту з власного гаража за ACT-291; вибір автомобіля разом із ручною чи автоматичною трансмісією за ACT-608; придбання або налаштування транспорту; зміну класу після початку заїзду.
+
+### Ігри-носії
+
+- [`GAME-0507` — MotorStorm](../games/m-r/motorstorm.md)
+
+## ACT-695
+
+- Назва: Утримувати й відпускати прискорення з урахуванням нагрівання двигуна
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+Безпосередньо керуючи допустимим транспортом, гравець утримує команду прискорення, щоб отримати більший розгін і швидкість ціною накопичення тепла в двигуні, а потім відпускає її для охолодження до руйнівного перегрівання замість витрати скінченного збереженого запасу тяги.
+
+### Включає
+
+Утримуване Boost і свідоме відпускання між фазами нагрівання після початкового прогрівання в початковій MotorStorm.
+
+### Виключає
+
+Списання скінченного запасу тяги за ACT-309; автоматичний розгін без команди прискорення; витрату спільного запасу енергії пошкоджень у F-Zero GX; своєчасне завершення керованого заносу заради одноразового приросту швидкості.
+
+### Ігри-носії
+
+- [`GAME-0507` — MotorStorm](../games/m-r/motorstorm.md)
+
+## ACT-696
+
+- Назва: Запитувати допустиму за обставинами атаку мотоцикліста поруч
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+Безпосередньо керуючи допустимим гоночним транспортом із мотоциклістом, гравець подає спільну команду дії для атаки допустимого мотоцикліста-суперника поруч; за відсутності цих місцевих умов той самий ввід виконує іншу дію без атаки замість гарантованого удару на відстані.
+
+### Включає
+
+Команду Action на MX Bike у початковій MotorStorm, коли інший мотоцикл поруч, та іншу дію, описану інструкцією для випадку без суперника, якого можна атакувати.
+
+### Виключає
+
+Спрямування всього транспорту в суперника за ACT-379; постріл установленою зброєю; атаку з вимогою спорядженого бойового інструмента; безумовний удар по віддаленому мотоциклісту; гарантоване скидання мотоцикліста після кожного прийнятого запиту.
+
+### Ігри-носії
+
+- [`GAME-0507` — MotorStorm](../games/m-r/motorstorm.md)
+
+## ACT-697
+
+- Назва: Змінювати постійний склад офіцерів і призначення до виїзної групи
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+На оперативній базі гравець наймає або звільняє допустимого окремого офіцера та призначає доступних членів складу до обмежених місць активної групи, зберігаючи індивідуальність кожного й спорядження замість вибору взаємозамінних придбаних бойових одиниць.
+
+### Включає
+
+Початкових резервних офіцерів, запропонований найм, Fire і заміну призначеного офіцера перед наступним виїздом у звичайному Commander гри Ready or Not.
+
+### Виключає
+
+Розміщення на стартових тактичних клітинках за ACT-651; розклади військового навчання за ACT-153; захоплення істот до сховища; автоматичне воскресіння відсутнього офіцера; суто декоративні портрети персоналу.
+
+### Ігри-носії
+
+- [`GAME-0508` — Ready or Not](../games/m-r/ready-or-not.md)
+
+## ACT-698
+
+- Назва: Направляти допустимого члена складу на тимчасове лікування стресу
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+У стані керування персоналом гравець запитує лікування допустимого збереженого учасника, усуваючи його з поточної доступності до виїзду замість безпосереднього відновлення бойового здоров’я під час місії.
+
+### Включає
+
+Команду Send To Therapy у Commander гри Ready or Not після зарахування стресу першої місії.
+
+### Виключає
+
+Загальне бойове перев’язування; миттєве лікування смертельної травми; остаточне звільнення офіцера; призначення медичного ліжка колонії; гарантію точної тривалості лікування.
+
+### Ігри-носії
+
+- [`GAME-0508` — Ready or Not](../games/m-r/ready-or-not.md)
+
+## ACT-699
+
+- Назва: Подавати поліцейську вимогу підкоритися чи переміститися за допустимого стану
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+Офіцер під безпосереднім керуванням звертається до досяжної особи з вимогою підкоритися або запитує допустимі поворот, переміщення чи вихід від особи, яка вже здалася або затримана; вимога запитує відповідь, але сама не гарантує здавання й не завершує фізичного затримання.
+
+### Включає
+
+Вимоги підкоритися та команди версії 1.0 гри Ready or Not до осіб, які здалися чи затримані: повернутися, підійти, перейти до позначеного місця або рушити до виходу.
+
+### Виключає
+
+Затримання з безперервним утриманням особи під прицілом за ACT-417; фізичне зв’язування за ACT-341; призначення маршруту групі за ACT-189; гарантоване виконання вимоги активним противником.
+
+### Ігри-носії
+
+- [`GAME-0508` — Ready or Not](../games/m-r/ready-or-not.md)
+
+## ACT-700
+
+- Назва: Обирати поточний тактичний вигляд через камеру без передавання керування
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+Гравець запитує сумісний поточний вигляд із камери інструмента чи камери, яку носить напарник, оглядаючи сцену з цієї обмеженої точки й зберігаючи керування початковим офіцером замість переміщення цього офіцера до камери.
+
+### Включає
+
+Огляд спорядженим Mirror Gun під обраними дверима та перегляд камери офіцера на планшеті в Ready or Not.
+
+### Виключає
+
+Вільну камеру переглядача повторів; всезнавчу мапу противників; перемикання місцевого фільтра нічного бачення; передавання керування носієві камери; нерухомий письмовий інструктаж.
+
+### Ігри-носії
+
+- [`GAME-0508` — Ready or Not](../games/m-r/ready-or-not.md)
+
+## ACT-701
+
+- Назва: Перемикати споряджене нічне бачення без створення місцевого світлового поля
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+Під час безпосереднього керування гравець вмикає або вимикає споряджене обладнання нічного бачення, змінюючи відтворення місцево видимого світла без випромінювання поля ліхтарика чи заміни звичайного керування рухом і зброєю.
+
+### Включає
+
+Використання споряджених NVGs як альтернативи іншому обраному головному спорядженню для огляду темних приміщень місії Ready or Not.
+
+### Виключає
+
+Випромінювання переносного світла ліхтарика за ACT-409; всезнавчий сканер крізь стіни; запас енергії бойового режиму; суто декоративну зміну кольорів у переглядачі повторів.
+
+### Ігри-носії
+
+- [`GAME-0508` — Ready or Not](../games/m-r/ready-or-not.md)
+
+## ACT-702
+
+- Назва: Виконувати самоперев’язування проти поточної кровотечі
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+Гравець виконує дію самодопомоги проти поточної кровотечі, тимчасово відмовляючись від звичайного використання зброї заради запиту зупинки кровотечі без вибору ділянки рани чи відновлення вже втраченого здоров’я.
+
+### Включає
+
+Команду самоперев’язування в Ready or Not; тогочасні повідомлення про помилки релізу підтверджують її наявність, а раніший письмовий матеріал описує задуманий результат без відновлення здоров’я.
+
+### Виключає
+
+Лікування обраної ділянки в медичній панелі за ACT-211; миттєве поповнення здоров’я; придбане відновлювальне зілля; лікування офіцера зі штучним інтелектом через вибір медичного предмета.
+
+### Ігри-носії
+
+- [`GAME-0508` — Ready or Not](../games/m-r/ready-or-not.md)
+
+## ACT-703
+
+- Назва: Запросити перехід із зачепленням за опору без вибору змінної траєкторії польоту
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+Гравець спрямовує багаторазову лінію, яку має при собі, на допустиму опору в ігровому світі й запитує зачеплення та перехід з опорою через місцевий розрив; прийнята команда не вимагає змінювати довжину лінії чи обирати траєкторію вільного польоту після відпускання.
+
+### Включає
+
+Перший провал у храмі Indiana Jones and the Great Circle, де прицільне зачеплення батогом дозволяє перебратися на інший бік.
+
+### Виключає
+
+Односпрямоване підтягування гаком, яке завершується при досягненні цілі (ACT-361); регульоване втягування й обране відпускання з імпульсом (ACT-531); автоматичний перехід без запиту зачеплення; атаки батогом як зброєю.
+
+### Ігри-носії
+
+- [`GAME-0510` — Indiana Jones and the Great Circle](../games/g-l/indiana-jones-and-the-great-circle.md)
+
+## ACT-704
+
+- Назва: Розміщувати переносний зразок у домашній експозиції з можливістю повернення
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+Гравець вибирає переносний зразок тварини й розміщує відповідну його виду експозицію на допустимому вільному місці вдома, звільняючи переносну місткість без продажу, випускання чи пожертви; той самий власний зразок згодом можна знову забрати.
+
+### Включає
+
+Розміщення впійманої риби New Leaf у домашньому акваріумі й подальше повернення до кишень.
+
+### Виключає
+
+Перерозподіл зброї матчу за ACT-186; придбані меблі в призупиненому режимі будівництва за ACT-612; незворотне випускання; пожертву публічному музею; припущення, що в New Leaf акваріум із рибою можна ставити надворі.
+
+### Ігри-носії
+
+- [`GAME-0511` — Animal Crossing: New Leaf](../games/a-f/animal-crossing-new-leaf.md)
+
+## ACT-705
+
+- Назва: Запитувати збереження поточного світу з продовженням гри або виходом із сеансу
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+У доступному меню збереження гравець явно запитує запис поточного стану світу й вибирає продовження звичайної гри або завершення сеансу після запису; цей запит не вибирає старішої гілки історії.
+
+### Включає
+
+Варіанти збереження New Leaf через START після початкового етапу, що дозволяє збереження.
+
+### Виключає
+
+Лише автоматичну контрольну точку; вибір попередньої збереженої історії за TIM-007; споживання одноразового стану призупинення за SYS-1349; зміну системного годинника.
+
+### Ігри-носії
+
+- [`GAME-0511` — Animal Crossing: New Leaf](../games/a-f/animal-crossing-new-leaf.md)
+- [`GAME-0513` — Thief: The Dark Project](../games/s-z/thief-the-dark-project.md)
+
+## ACT-706
+
+- Назва: Утримувати контекстну команду пересування важкого об’єкта заданим шляхом
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+Локально керований персонаж взаємодіє з допустимим важким рухомим об’єктом і утримує контекстну команду, щоб пересувати його заданим шляхом до дозволеної позиції зупинки; відпускання припиняє керований рух. Це не поштовх на одну комірку й не вільне перенесення об’єкта.
+
+### Включає
+
+Пересування Ґрейс візка в Nurses Station, щоб дістатися підвищеного контейнера з викруткою й раніше перекритої шафки з травою в першому епізоді Care Center.
+
+### Виключає
+
+Поштовх на одну логічну позицію із зайняттям персонажем звільненого місця за ACT-009; вільне перенесення фізичного предмета; віддалене редагування будови кімнат; автоматичний візок без утримуваної команди пересування.
+
+### Ігри-носії
+
+- [`GAME-0512` — Resident Evil Requiem](../games/m-r/resident-evil-requiem.md)
+
+## ACT-707
+
+- Назва: Націлити й витратити метальний предмет при собі, який можна розбити, для відвертання уваги
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+Гравець вибирає один предмет, який можна розбити, зі скінченного запасу при собі, націлює його й кидає в напрямку досяжної точки світу; кидок витрачає цю одиницю запасу при собі, а удар може розбити предмет і створити місцевий стимул уваги. Допустимі реакції на прямий контакт належать цілі, а не правилу про гарантовано нешкідливий інертний предмет.
+
+### Включає
+
+Ґрейс кидає Empty Bottle, щоб відвести Дівчину від проходу; у даних про предмет показано Power і Radius, але це не доводить числових коефіцієнтів шкоди чи оглушення оригінальної програми.
+
+### Виключає
+
+Суворо інертне відвертання за ACT-406, яке виключає снаряд зі шкодою; підготовлену тактичну гранату з її запалом і ефектом в області за ACT-184; ручний інструмент, що повертається; доведення того, що кожне влучання оглушує чи вбиває Дівчину; вигадування числового значення шкоди пляшки, яке можна прочитати з оглянутих смуг.
+
+### Ігри-носії
+
+- [`GAME-0512` — Resident Evil Requiem](../games/m-r/resident-evil-requiem.md)
+
+## ACT-708
+
+- Назва: Натягувати й відпускати обмежену прицільну інструментальну стрілу
+- Переглянуто: `2026-10-06`
+
+### Операційне визначення
+
+Керований персонаж вибирає тип переносної інструментальної стріли, утримує натяг лука, націлюючись на досяжну допустиму ціль оточення, і відпускає, щоб випустити одну сумісну стрілу; команда витрачає відповідний запас і спрямовує інструментальну дію на оточення, не вимагаючи ворожої бойової цілі чи об’єкта, який можна зруйнувати.
+
+### Включає
+
+Натягування й випускання водяної стріли до допустимого факела маєтку для зміни освітлення в оригінальній місії лорда Баффорда.
+
+### Виключає
+
+Збройну атаку на ворожу ціль чи об’єкт, який можна зруйнувати, за ACT-161; кидання інертного відвертання; багаторазовий трос із командованим поверненням; автоматичну появу води на поверхні світу без прицільного обмеженого снаряда.
+
+### Ігри-носії
+
+- [`GAME-0513` — Thief: The Dark Project](../games/s-z/thief-the-dark-project.md)

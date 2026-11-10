@@ -3,7 +3,7 @@ game_id: GAME-0152
 slug: elden-ring
 game_title: Elden Ring
 analysis_status: reviewed
-reviewed: 2026-08-21
+reviewed: 2026-10-14
 combination_ids:
   - COMB-0150
 gene_ids:
@@ -16,12 +16,12 @@ gene_ids:
     - ACT-200
     - ACT-221
     - ACT-224
-    - ACT-227
     - ACT-247
     - ACT-248
     - ACT-249
     - ACT-250
     - ACT-251
+    - ACT-676
   system:
     - SYS-215
     - SYS-222
@@ -130,8 +130,8 @@ gene_ids:
 - Existing genes: `ACT-008`, navigate the Tarnished; `ACT-123`, craft a known
   inventory recipe; `ACT-130`, buy from a merchant; `ACT-131`, use an immediate
   item; `ACT-161`, aim and attack; `ACT-200`, commit a restorative flask use;
-  `ACT-221`, upgrade an armament; `ACT-224`, rest at Grace; `ACT-227`, place a
-  map marker.
+  `ACT-221`, upgrade an armament; `ACT-224`, rest at Grace; `ACT-676`, place a
+  personal marker or beacon without calculating a road route.
 - New genes: `ACT-247`, call and directly steer Torrent; `ACT-248`, spend runes
   on one attribute level; `ACT-249`, touch the active death mark to reclaim its
   runes; `ACT-250`, summon one equipped Spirit Ash; `ACT-251`, assign a legal
@@ -273,7 +273,7 @@ navigation information and the bounded Margit gate.
 - Exact genome matches: none.
 - Tied near matches: `GAME-0150` — Hollow Knight: Silksong (`13 / 54 = 0.240741`).
 - Supported combination subsets: `COMB-0150`.
-- Scan date: 2026-08-21.
+- Scan date: 2026-10-14.
 
 ### Selected-neighbour interpretation
 
@@ -292,6 +292,22 @@ The unit adds bounded records for Grace levelling, Torrent, Spirit Ash, stance
 openings, equipment-load legality and the first Stormveil gate. It reuses the
 parameterised death-currency mark and single-unrecovered-mark genes shared with
 Silksong rather than splitting them by object name.
+
+## Navigation assignment correction
+
+On 2026-10-14, the personal Limgrave marker/beacon is reassigned from
+`ACT-227` to the already Active `ACT-676`, under
+[Taxonomy Change 254](../../../research/taxonomy-changes/TAXONOMY_CHANGE_254.md).
+The original 2026-08-21 scope remains frozen. Bandai Namco's written beacon
+guide and `ER-007` support a selected map/compass/world reference, not a
+calculated GPS road route. No new client session or binary parity is claimed.
+
+The 45-gene cardinality, supporting salience role and `COMB-0150` are
+preserved. Six current pair scores change, but the closest prior game
+`GAME-0150` remains `13 / 54`, and the full-corpus closest `GAME-0295`
+remains `17 / 55`. All other game signatures and all combination sets are
+unchanged. The complete before/after calculation is recorded in
+[the canonical audit](../../../research/normalisation/P2_CANONICAL_SOURCE_REVIEW_006.json).
 
 ## Negative results
 

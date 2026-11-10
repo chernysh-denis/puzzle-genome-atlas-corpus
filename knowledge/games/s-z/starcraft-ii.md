@@ -287,7 +287,7 @@ than separate genes.
 - Comparison algorithm: `genome-jaccard-v1`.
 - Prior game signatures scanned: `316` (`GAME-0001`–`GAME-0316`).
 - Exact genome matches: none.
-- Tied near matches: `GAME-0275` — Command & Conquer Remastered Collection (`9 / 21 = 0.428571`).
+- Tied near matches: `GAME-0275` — Command & Conquer Remastered Collection (`6 / 21 = 0.285714`).
 - Supported combination subsets: none.
 - Scan date: 2026-09-20.
 
@@ -295,7 +295,7 @@ than separate genes.
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0275` — Command & Conquer Remastered Collection | `ACT-189`, `SYS-215`, `SYS-297`, `SYS-305`, `SYS-821`, `CON-273`, `INF-224`, `INF-225`, `TIM-003` | Both command supplied real-time groups through pathing, combat, sight and fog, and both receive authored reinforcements before a retained campaign successor. Command & Conquer converts its supplied construction vehicle and credits into power, buildings and a unit queue, then eliminates a declared hostile set. StarCraft II's opening instead has no player economy or production: it preserves Raynor and destroys one designated Headquarters while ordinary hostiles may remain. | Near, `0.428571` |
+| `GAME-0275` — Command & Conquer Remastered Collection | `ACT-189`, `INF-224`, `SYS-215`, `SYS-297`, `SYS-821`, `TIM-003` | Both command supplied groups through live pathing and combat, expose command state and receive authored reinforcements. C&C uses finite credits, mobile-base deployment, power and paid production; SC2 has no scoped player economy, preserves Raynor and destroys a designated Headquarters. SC2 current fog is not shared with the corrected C&C source admission. | Near, `6 / 21 = 0.285714` |
 
 ### Preserved research notes
 

@@ -3,7 +3,7 @@ game_id: GAME-0397
 slug: command-and-conquer-red-alert-2
 game_title: 'Command & Conquer: Red Alert 2'
 analysis_status: reviewed
-reviewed: 2026-09-25
+reviewed: 2026-10-15
 combination_ids: []
 gene_ids:
   action:
@@ -13,17 +13,14 @@ gene_ids:
   system:
     - SYS-215
     - SYS-297
-    - SYS-305
     - SYS-551
     - SYS-1060
   constraint:
-    - CON-273
     - CON-292
     - CON-330
     - CON-467
   information:
     - INF-224
-    - INF-225
   objective:
     - OBJ-166
   time:
@@ -65,8 +62,8 @@ factions, map positions and mission numbers are carrier parameters, not genes.
   itself asserted as an immediate authored failure.
 - Included: four ship demolition targets; Tanya's swim and target-specific
   firearm/C4 effect; GIs and Soviet defenders; selection, movement,
-  attack-move and target orders; continuous pathing, sight and combat;
-  sight-limited hostile information; staged mission objectives; Fort Bradley
+  attack-move and target orders; continuous pathing and combat;
+  exploration of initially shrouded terrain; staged mission objectives; Fort Bradley
   base control; paid Barracks construction and placement; Engineer training,
   hut entry and repaired bridge topology; Tanya's survival condition; the
   Soviet supply-base assault and mission settlement.
@@ -91,9 +88,17 @@ factions, map positions and mission numbers are carrier parameters, not genes.
   building capture and enemy-unit production, later Allied missions and a
   fixed original-base-game skirmish.
 - Direct-play status: none. The Westwood manual establishes controls, Tanya,
-  Engineer, production, fog and mission-briefing mechanisms; two written
+  Engineer, production, initial shroud and mission-briefing mechanisms; two written
   original-game routes corroborate the authored objective chain. No original
   disc, executable, input log, save, screenshot, video or audio was inspected.
+  Visibility audit (2026-10-15): the manual describes initial black shroud,
+  while George Ngo’s original-game strategy distinguishes ordinary revealed
+  space from the special Gap Generator. The former attribution of ordinary
+  regrowing current-sight fog to this booklet is withdrawn, together with
+  `SYS-305`, `CON-273` and `INF-225`. The bounded Barracks/Engineer route does
+  not include Gap Generators, Spy Satellite Uplink or modified fog settings.
+  This is a source-admission correction, not an executed 1.002/1.006 binary
+  test, source-code audit or imported Tiberian Dawn implementation.
 
 ## Claim ledger
 
@@ -102,12 +107,13 @@ factions, map positions and mission numbers are carrier parameters, not genes.
 | `RA2-001` | The original Windows base game offers a separate Allied campaign and mission briefing; the expansion is a different product boundary. | Confirmed | Direct | High | P1, P2 |
 | `RA2-002` | The first Allied mission begins with Tanya facing four Soviet Dreadnoughts, then requires contact with Fort Bradley and defeat of the Soviet supply base while Tanya survives. | Observation | Corroborated | High | S1, S2 |
 | `RA2-003` | Tanya can swim, kill infantry with her firearm and plant C4 on ships and buildings, making her a target-dependent assault unit. | Confirmed | Direct | High | P1 |
-| `RA2-004` | Selection and destination/attack orders produce autonomous movement and continuing combat; allied sight and fog limit actionable hostile positions. | Confirmed | Direct | High | P1 |
+| `RA2-004` | Selection and destination/attack orders produce autonomous movement and continuing combat; unit movement uncovers initially unexplored shroud. | Confirmed | Direct | High | P1 |
 | `RA2-005` | The mission grants control of Fort Bradley after the contact step; the bounded route then builds a Barracks and trains an Engineer. | Observation | Corroborated | High | S1, S2 |
 | `RA2-006` | An Engineer enters the designated repair hut to restore the broken bridge, opening a ground route into the enemy-base area. | Observation | Corroborated | High | P1, S1, S2 |
 | `RA2-007` | Production spends credits and advances at a site or channel, with a completed structure placed on a legal footprint before infantry training becomes available. | Confirmed | Direct | High | P1 |
 | `RA2-008` | Tanya's death fails the mission; eliminating the supply-base hostile set while she survives completes the mission. | Observation | Corroborated | High | S1, S2 |
 | `RA2-009` | The written routes differ in patch, difficulty and optional tactics, so their common mission chain is supported but precise timing, available starting cash and AI reactions are not directly verified here. | Observation | Limited | Medium | S1, S2, R1 |
+| `RA2-010` | The original booklet describes unexplored shroud; the separately authored original-game strategy distinguishes the special Gap Generator from the absence of ordinary regrowing fog. The three current-sight admissions are withdrawn from this bounded packet. | Observation | Corroborated | Medium | P1, P3, R2 |
 
 ## Basic data
 
@@ -135,8 +141,21 @@ factions, map positions and mission numbers are carrier parameters, not genes.
   explicitly written for original Red Alert 2 v1.006 on Hard in 2001. Its
   host category names the later expansion; expansion mechanics and Hard AI
   reactions are not transferred to this Normal packet.
-- **[R1]** source-boundary and direct-play audit in this record. Claim IDs:
-  `RA2-001`–`RA2-009`.
+- **[P3]** [George Ngo’s original-game strategy, version 2.0](https://strategygamers.com/walkthrough/command-and-conquer-red-alert-2-5),
+  the author’s firsthand base-game strategy, read on a text mirror. Its Gap
+  Generator section explicitly contrasts that special concealment with the
+  lack of ordinary regrowing fog. The author discusses multiplayer; this is
+  evidence of the ordinary base-game information rule, not a native trace of
+  this campaign map. The mirror and indexed GameFAQs original are one work,
+  not two witnesses. No precise executable revision is supplied by this guide.
+- **[P4]** [Steven W. Carter’s original campaign walkthrough](https://strategygamers.com/walkthrough/command-and-conquer-red-alert-2),
+  version 1.0, author-dated 2000-11-22: introduction and complete Lone Guardian
+  section read. The author reports version 1.002 on Normal. It corroborates
+  the ship, base and Engineer/bridge route; his optional tanks/crates and later
+  missions are not imported. It does not itself prove live-fog behaviour.
+- **[R1]** source-boundary and direct-play audit in this record.
+- **[R2]** [Separate original-RA2 visibility review](../../../research/normalisation/P2_CNC_VISIBILITY_SOURCE_AUDIT_002.json),
+  checked 2026-10-15. Claim IDs: `RA2-001`–`RA2-010`.
 
 ## Mechanical decomposition
 
@@ -154,7 +173,7 @@ factions, map positions and mission numbers are carrier parameters, not genes.
 ### System Behaviour Genes
 
 - `SYS-297` executes commanded paths and attack acquisition; `SYS-215`
-  settles live damage and defeat; `SYS-305` propagates allied sight and fog;
+  settles live damage and defeat;
   `SYS-551` advances paid building and infantry production; new `SYS-1060`
   consumes the entered Engineer into bridge restoration and changes the
   traversable route. Claims: `RA2-003`–`RA2-007`.
@@ -165,7 +184,7 @@ factions, map positions and mission numbers are carrier parameters, not genes.
 
 ### Constraint Genes
 
-- `CON-273` gates current hostile knowledge on allied sight. `CON-292`
+- `CON-292`
   requires a legal clear Barracks footprint. `CON-467` requires the eligible
   production site, available order and credits. `CON-330` keeps Tanya alive
   as a mission-critical actor. Claims: `RA2-002`, `RA2-004`–`RA2-008`.
@@ -175,8 +194,8 @@ factions, map positions and mission numbers are carrier parameters, not genes.
 ### Information Genes
 
 - `INF-224` exposes selection, unit health, credits, available production
-  and queue state. `INF-225` retains explored map terrain without revealing
-  live hostile positions outside sight. The mission briefing exposes the
+  and queue state. Initially unexplored terrain becomes revealed, without
+  admitting a separate live-fog memory gene. The mission briefing exposes the
   current objectives but is not equated with a fixed pre-disclosed checklist:
   the supply-base step is staged after Fort Bradley. Claims: `RA2-001`,
   `RA2-004`, `RA2-005`.
@@ -243,9 +262,9 @@ factions, map positions and mission numbers are carrier parameters, not genes.
 | Type | Active genes | Parameters outside signature |
 |---|---|---|
 | Action | `ACT-139`, `ACT-189`, `ACT-316` | selected unit, target, building and queue |
-| System | `SYS-215`, `SYS-297`, `SYS-305`, `SYS-551`, `SYS-1060` | ship count, repair hut, combat timing |
-| Constraint | `CON-273`, `CON-292`, `CON-330`, `CON-467` | sight, footprint, Tanya health and credits |
-| Information | `INF-224`, `INF-225` | briefing, selected unit and explored tiles |
+| System | `SYS-215`, `SYS-297`, `SYS-551`, `SYS-1060` | ship count, repair hut, combat timing |
+| Constraint | `CON-292`, `CON-330`, `CON-467` | footprint, Tanya health and credits |
+| Information | `INF-224` | briefing, selected unit and explored tiles |
 | Objective | `OBJ-166` | hostile set and campaign successor |
 | Time | `TIM-003` | command timing and production cadence |
 
@@ -254,15 +273,15 @@ factions, map positions and mission numbers are carrier parameters, not genes.
 - Comparison algorithm: `genome-jaccard-v1`.
 - Prior game signatures scanned: `396` (`GAME-0001`–`GAME-0396`).
 - Exact genome matches: none.
-- Tied near matches: `GAME-0275` — Command & Conquer Remastered Collection (`14 / 20 = 0.700000`).
+- Tied near matches: `GAME-0275` — Command & Conquer Remastered Collection (`11 / 17 = 0.647059`).
 - Supported combination subsets: none.
-- Scan date: 2026-09-25.
+- Scan date: 2026-10-15.
 
 ### Selected-neighbour interpretation
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0275` — Command & Conquer Remastered Collection | Fourteen shared genes cover placed construction, paid unit production, direct orders, real-time combat, pathing, fog, legal footprints, credits, a declared hostile-set victory and a continuing clock. | The Remastered Collection packet begins with a scripted mobile construction vehicle that must deploy into a new construction site and manage a power dependency. Red Alert 2 begins with Tanya's ship strike, later hands over Fort Bradley, requires her survival and uses a trained Engineer to reopen a broken ground route. No Red Alert 2 ore economy or mobile construction deployment is imported into this selected mission route. | Near, `14 / 20 = 0.700000` |
+| `GAME-0275` — Command & Conquer Remastered Collection | `ACT-139`, `ACT-189`, `ACT-316`, `CON-292`, `CON-467`, `INF-224`, `OBJ-166`, `SYS-215`, `SYS-297`, `SYS-551`, `TIM-003` | Both corrected packets share construction, paid production, group orders, pathing, combat, footprint/prerequisite legality, command disclosure and a hostile-set campaign terminal. Neither admits ordinary regrowing current-sight fog. Red Alert 2 adds Tanya survival, Fort Bradley handover and an Engineer-restored bridge; C&C Remastered supplies a mobile construction vehicle, a power dependency and authored reinforcements. These distinct documentary corrections do not establish binary equivalence. | Near, `11 / 17 = 0.647059` |
 
 ## Taxonomy impact
 
@@ -320,3 +339,18 @@ factions, map positions and mission numbers are carrier parameters, not genes.
   recognisable naval strike to a newly controlled base and a bridge-dependent
   ground assault, testing whether the Atlas can distinguish its transition
   from other RTS campaign openings without importing unplayed content.
+
+## Visibility source correction — 2026-10-15
+
+- `RA2-004` formerly attributed ordinary current-sight enemy hiding to a
+  booklet passage about initial black unexplored terrain. That inference was
+  not supported. The original strategy’s explicit contrast with the special
+  Gap Generator provides independent counterevidence to the copied live-fog
+  interpretation; it is not Tiberian Dawn source code.
+- Withdraw `SYS-305`, `CON-273` and `INF-225` and their three paired supporting
+  cards. Preserve all other thirteen genes and six-field cards, the
+  `SYS-1060` bridge mechanism, both mission terminals and the no-combination
+  decision. No definition is broadened and no replacement gene is invented.
+- Special shroud restoration by a Gap Generator or Spy, optional fog settings,
+  Yuri’s Revenge, mods, map overrides and native patch equivalence remain
+  outside this packet. The source review is not direct play or a binary audit.

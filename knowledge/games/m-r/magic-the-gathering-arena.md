@@ -132,7 +132,7 @@ gene instances but do not enter the signature.
     for the ten Foundations Starter Decks and their use in Starter Deck Duels.
   - **[P4]** [official Foundations starter-deck register](https://magic.wizards.com/en/news/mtg-arena/mtg-arena-announcements-november-18-2024),
     for the complete named Arcane Aerialists list.
-  - **[P5]** [official Comprehensive Rules, 19 August 2026](https://media.wizards.com/2026/downloads/MagicCompRules%2020260819.txt),
+  - **[P5]** [official Comprehensive Rules, effective 7 August 2026](https://media.wizards.com/2026/downloads/MagicCompRules%2020260819.txt),
     especially rules 103.1, 103.5, 104, 117, 305, 405, 500–510, 514 and 704
     for starting state, mulligan, priority, land play, stack, turns, combat,
     cleanup, state-based actions and terminals.

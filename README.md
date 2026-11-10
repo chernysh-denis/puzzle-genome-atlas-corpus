@@ -8,8 +8,8 @@ by canonical records are included as public research evidence.
 
 ## Corpus snapshot
 
-- 459 reviewed game genomes
-- 3230 active typed mechanic genes
+- 513 reviewed game genomes
+- 3711 active typed mechanic genes
 - 274 verified causal combinations
 - reviewed Ukrainian presentation data under `knowledge/locales/uk/`
 

@@ -105,7 +105,7 @@ gene_ids:
   and that region must contain its one designated dot but no other dot.
 - `CON-130` — half-turn closure about component centre. For every cell in a
   region, rotating its centre 180 degrees around the region's dot lands on
-  another cell of the same region.
+  a cell of the same region; a cell at the rotation centre may map to itself.
 - Claim IDs: `GAL-001`, `GAL-003`–`GAL-007`.
 
 ### Information Genes

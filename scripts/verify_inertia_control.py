@@ -132,10 +132,13 @@ def main() -> None:
     assert shortest == CONTROL_ROUTE
     assert len(shortest) == 24
 
-    # From the start at E9, north first collects the gem at D9 and stops at D9.
+    # D9 is a gem, not a stop; the wall in the next cell C9 stops northward travel.
+    assert DESCRIPTION[3 * WIDTH + 8] == "g"
+    assert DESCRIPTION[2 * WIDTH + 8] == "w"
     first = step(initial, 0)
     assert first is not None
     assert tuple(map(coordinates, first[1])) == ("D9",)
+    assert coordinates(first[0].position) == "D9"
     assert bin(first[0].gems).count("1") == 15
 
     # North-east from E9 immediately enters the visible mine at D10.

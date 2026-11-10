@@ -282,7 +282,7 @@ rings, lampposts and signposts are carrier parameters, not gene names.
 
 ## Normalised genome
 
-The front matter is canonical. The complete signature contains 18 Active
+The front matter is canonical. The complete signature contains 20 Active
 genes: two Action, twelve System Behaviour, one Constraint, two Information,
 two Objective and one Time gene. Carrier labels remain parameters.
 

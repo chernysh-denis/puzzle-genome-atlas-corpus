@@ -246,7 +246,7 @@ building-generated shared resources.
 - Comparison algorithm: `genome-jaccard-v1`.
 - Prior game signatures scanned: `409` (`GAME-0001`–`GAME-0409`).
 - Exact genome matches: none.
-- Tied near matches: `GAME-0397` — Command & Conquer: Red Alert 2 (`12 / 21 = 0.571429`).
+- Tied near matches: `GAME-0317` — StarCraft II (`9 / 20 = 0.450000`).
 - Supported combination subsets: none.
 - Scan date: 2026-09-26.
 
@@ -254,7 +254,7 @@ building-generated shared resources.
 
 | Neighbour | Shared genes | Decision-relevant differences | Match result |
 |---|---|---|---|
-| `GAME-0397` — Command & Conquer: Red Alert 2 | `ACT-139`, `ACT-189`, `ACT-316`, `SYS-215`, `SYS-297`, `SYS-305`, `SYS-551`, `CON-273`, `CON-467`, `INF-224`, `INF-225`, `TIM-003` | Both issue group orders under fog and spend stockpiles on live production. Red Alert 2's first Allied mission gains Fort Bradley, places a Barracks freely, trains an Engineer and repairs a bridge before clearing a hostile supply base; Halo Wars claims fixed base sockets, grows supplies through a passive Pad, trains five Marines to open its gate and targets one Detonator. | Near, `12 / 21 = 0.571429` |
+| `GAME-0317` — StarCraft II | `ACT-189`, `CON-273`, `INF-224`, `INF-225`, `OBJ-185`, `SYS-215`, `SYS-297`, `SYS-305`, `TIM-003` | Both command a force through live pathing, combat and fog toward destruction of one designated mission object. Halo Wars claims fixed base sockets, builds a passive Supply Pad and Barracks, and trains five Marine squads to open a gate before destroying the Detonator. StarCraft II has no scoped player economy or production; it receives scripted reinforcements, keeps Raynor alive and destroys the Logistics Headquarters. The new nearest result does not add or remove any Halo Wars mechanic. | Near, `9 / 20 = 0.450000` |
 
 ## Taxonomy impact
 

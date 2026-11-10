@@ -38,14 +38,15 @@ gene instances but do not enter the signature.
 
 ## Analysis scope
 
-- Version / ruleset: current unmodified English Windows Steam application
-  `960090`, sole one-app package `313914`, observed against public branch build
-  `24829026` built and published 2026-08-20; checked 2026-09-06. Ninja Kiwi's
-  own most recent named release announcement is `Update 56.0`, dated
-  2026-08-06. The branch was updated fourteen days after that announcement, so
-  the installed build may carry an unannounced patch inside the 56 line; this
-  unit records both dates rather than asserting a single semantic version, and
-  treats the numeric build identifier as a secondary distribution observation.
+- Version / ruleset: historically recorded unmodified English Windows Steam
+  application 960090, sole one-app package 313914, observed against public
+  branch build 24829026 built and published 2026-08-20; checked 2026-09-06.
+  Ninja Kiwi's most recent named release announcement at that observation was
+  Update 56.0, dated 2026-08-06. The branch was updated fourteen days after
+  that announcement, so the installed build may carry an unannounced patch
+  inside the 56 line; this unit records both dates rather than asserting a
+  single semantic version, and treats the numeric build identifier as a
+  secondary distribution observation.
 - Product boundary: this is **Bloons TD 6** on Windows, not an earlier Bloons
   Tower Defense title, a mobile release or a franchise union. The three listed
   DLC apps `2117950`, `3377850` and `4096360` are separate products outside
@@ -68,33 +69,34 @@ gene instances but do not enter the signature.
   and the current round index together; select a type from the priced
   catalogue and position it so its drawn reach covers the stretch of the fixed
   track where it will do the most work, rejecting positions the preview marks
-  illegal; buy tier upgrades along one of that defender's three parallel paths,
-  accepting that raising one path past its middle tier forecloses the others;
-  set each defender's target-selection rule among the declared options; let the
-  placed defenders acquire and engage eligible bloons automatically; watch each
-  destroyed layer release its declared children and credit the budget; collect
-  the flat credit the schedule settles when the round closes; accept
-  that a bloon reaching the exit debits the stock by the layers it still
-  carried; and price the next commitment against the rounds still remaining in
-  the schedule.
+  illegal; buy tier upgrades along one of that defender's three parallel
+  paths, accepting that raising one path past its middle tier forecloses the
+  others; set each defender's target-selection rule among the declared
+  options; let the placed defenders acquire and engage eligible bloons
+  automatically; observe intrinsic type-specific layer/descendant resolution
+  and pop credits; collect the flat credit the schedule settles when the round
+  closes; accept that a bloon reaching the exit debits the stock by the layers
+  it still carried; and price the next commitment against the rounds still
+  remaining in the schedule.
 - Positive terminal: clear the declared final round 40 of the `Easy` standard
   schedule with the defence stock still above zero, and accept the resulting
   victory state. Verify that the attempt records completion of the declared
   final round rather than stopping at an intermediate round.
 - Negative terminal: the defence stock reaching zero before the final round
-  ends the attempt. Individual bloons reaching the exit do not end the attempt
-  and do not fail the round; they only debit the stock, so a conceded leak is a
-  legitimate cost rather than a loss condition.
+  ends the attempt. Individual bloons reaching the exit debit the stock;
+  the attempt and current round continue only if stock remains above zero.
+  A conceded leak is a legitimate cost only while that debit does not exhaust
+  the stock.
 - Included: priced placement of persistent defenders on legal ground; tier
   upgrades bought along parallel capped paths; per-defender target-selection
-  rules; automatic target acquisition and attack by placed defenders; layered
-  bloons shedding one layer per damage and releasing their declared children;
-  the stock debit equal to a leaked bloon's remaining layers; the budget
-  credited per destroyed layer and the flat credit settled when each round
-  closes; the round-indexed
-  schedule releasing declared compositions onto the fixed track; footprint and
-  terrain placement legality; the reach preview; the combined budget, stock and
-  round display; and the final-round survival terminal.
+  rules; automatic target acquisition and attack by placed defenders;
+  intrinsic damage-driven layer and declared zero-or-more descendant
+  resolution; the stock debit equal to a leaked bloon's remaining layers; the
+  budget credited per destroyed layer and the flat credit settled when each
+  round closes; the round-indexed schedule releasing declared compositions
+  onto the fixed track; footprint and terrain placement legality; the reach
+  preview; the combined budget, stock and round display; and the final-round
+  survival terminal.
 - Excluded: all three DLC apps and every in-app purchase; Monkey Knowledge and
   the experience that unlocks it; heroes and their levels; co-op and every
   online mode; every other difficulty, map, game mode, challenge, odyssey,
@@ -105,37 +107,52 @@ gene instances but do not enter the signature.
   beginner map does not provide; achievements, collection and account
   progression; screenshots, official artwork, third-party assets, video and
   audio evidence.
-- Reproducible parameterisation: install English app `960090` from package
-  `313914`, confirm the public branch build and the current named update, and
-  start an offline single-player attempt on `Monkey Meadow` at `Easy` on the
-  standard mode with no hero equipped and no Monkey Knowledge purchased. From
-  the empty track, place at least two defenders of different types, observe the
-  reach preview rejecting at least one illegal position, buy at least one tier
-  on a second path of one defender until its declared cap is reached, change at
-  least one defender's target-selection rule, allow at least one bloon to leak
-  and observe the stock debit matching its remaining layers, and carry the
-  attempt to the declared final round. Exact defender types, positions,
-  purchase order, cash totals, leaked bloons and remaining lives are
-  parameters.
+- Reproducible parameterisation: install English app 960090 from package
+  313914, verify the declared historical branch build and its recorded
+  named-update boundary, and start an offline single-player attempt on Monkey
+  Meadow at Easy on the standard mode with no hero equipped and no Monkey
+  Knowledge purchased. From the empty track, place at least two defenders of
+  different types, observe the reach preview rejecting at least one illegal
+  position, buy at least one tier on a second path of one defender until its
+  declared cap is reached, change at least one defender's target-selection
+  rule, allow at least one bloon to leak and observe the stock debit matching
+  its remaining layers, and carry the attempt to the declared final round.
+  Exact defender types, positions, purchase order, cash totals, leaked bloons
+  and remaining lives are parameters.
 - Potential scoped modules: another difficulty or map category; a hero ruleset;
   a Monkey Knowledge configuration; co-op; or one of the event and challenge
   modes requires its own version, entry, loop, terminal and evidence.
-- Direct-play status: not conducted. Valve application and package data plus
-  the current Steam product record establish lawful availability, exact product
-  identity, Windows support, the sole package, the single-player category, the
-  three separate DLC apps and the in-app-purchase surface. Ninja Kiwi's own
-  dated announcement supplies the current named update. The public SteamCMD
-  info projection supplies one dated secondary build observation. Independent
-  static written references corroborate the `Easy` starting stock, starting
-  budget, price multiplier, bloon speed and round range, the beginner-map
-  classification of the declared map and its absence of water placement, the
-  three upgrade paths with five tiers and their asymmetric caps, the four
-  declared target-selection rules, the layer-and-children composition of
-  bloons, the stock debit equal to a leaked bloon's remaining layers, the
-  placement restrictions imposed by terrain and obstacles, and the separation
-  of Monkey Knowledge and heroes from the base attempt. This is an
-  evidence-backed rules reconstruction, not a claimed playthrough or
-  entitlement. No video or audio was opened, played, heard, analysed or used.
+- Audit qualification: the existing dates and build 24829026 are frozen
+  observations, not a newly certified latest release. Record the ordinary Easy
+  AutoStart choice and actual start control before native verification;
+  completion/readiness, UI index change and next release are not presumed
+  simultaneous. Distinguish pending scheduled entries and surviving
+  descendants from a truly resolved round. Layer/child composition is
+  intrinsic to the damaged target, not a universal two-child or
+  one-shot-per-layer rule; exact offsets, inherited state, damage carryover
+  and intermediate frames remain unmeasured. No native install/run/save or
+  final-round result has been inspected.
+- Direct-play status: No identified native build 24829026 executable, install,
+  seeded attempt, AutoStart setting, start-button input, tick/child-state
+  trace, save/reload or final-round result was inspected. The Windows app
+  960090/package 313914, build 24829026 and named Update 56.0 remain dated
+  corpus observations, not recertified current-latest facts. During P5, an
+  official SteamNews API retrieval supplied the actual publisher v32 article,
+  whose conditional AutoStart paragraph is historical and boss-scoped, not
+  proof of ordinary Easy 56-line controls. The old player guide was read
+  through the public web reader after direct retrieval returned 429 during P5;
+  it remains unfinished, player-authored and displayed as
+  removed/incompatible. It illustrates descendant composition but cannot
+  certify present native timing, damage carryover, exact offsets or the full
+  round schedule. During P5, layer and AutoStart wiki direct retrievals
+  returned 403; no fresh complete body is claimed. The independent income page
+  was read and still distinguishes pop cash from flat round credit. Accepted
+  `TAXONOMY_CHANGE_026/029` are preserved without an affordability gate. No
+  video or audio was opened or played. During P7, the archived publisher API
+  response and income HTML were hash-verified; the relevant publisher
+  paragraph, player-guide text and income page were reread through the web
+  reader. No fresh direct HTTP failure, API download or native configuration
+  result is claimed.
 
 ## Claim ledger
 
@@ -149,14 +166,23 @@ gene instances but do not enter the signature.
 | `BTD-006` | Each tower exposes three upgrade paths of five tiers, of which at most one may pass the middle tier, a second is capped at the middle tier and the third stays unbought | Observation | Corroborated | High | S3, S5 |
 | `BTD-007` | The declared target-selection rules are first, last, close and strong | Observation | Corroborated | High | S5 |
 | `BTD-008` | Placed towers acquire eligible bloons in reach and attack automatically, without a player command for each shot | Observation | Corroborated | High | S5, S6 |
-| `BTD-009` | A bloon carries an ordered stack of layers; damage removes the outermost layer and releases that layer's declared child bloons at the same position | Observation | Corroborated | High | S6 |
+| `BTD-009` | Damage that destroys an outer layer resolves that target type's intrinsic local descendants, not a scheduled round; exact native offsets, carryover and intermediate visibility remain unverified | Observation | Corroborated | High | S6 |
 | `BTD-010` | A bloon's remaining layer total is the number of stock units its escape costs, so a fortified or higher-layer bloon costs proportionally more | Observation | Corroborated | High | S6, S3 |
 | `BTD-011` | Destroyed layers credit spendable cash, which funds placements and upgrades | Observation | Corroborated | Medium | S6, S8 |
 | `BTD-016` | Popping credits `$1` per layer and completing round `n` settles a further flat `$100 + n`, so destroyed layers are not the attempt's only cash credit; tower-generated income exists but requires first buying such a tower | Observation | Limited | Medium | S8 |
 | `BTD-012` | The authored schedule indexes waves by round number and releases each round's declared composition onto the map's fixed track | Observation | Corroborated | High | S2, S3 |
 | `BTD-013` | Monkey Knowledge is a separate experience-unlocked progression across six trees, and at most one hero may be equipped and placed per player per game | Observation | Corroborated | High | S3, S7 |
-| `BTD-014` | The attempt is completed by reaching the declared final round of the chosen difficulty with stock remaining, and escapes debit stock without failing the round | Observation | Corroborated | High | S2, S3, S6 |
+| `BTD-014` | The authored success requires clearing the declared final round with stock remaining, rather than merely reaching its index; leaks continue only while stock remains above zero, and no exact native final-round result was observed | Observation | Corroborated | High | S2, S3, S6 |
 | `BTD-015` | The bounded identity is a fixed authored schedule answered by irreversibly positioned autonomous defenders whose decision-bearing income is the same layered hostiles that debit the stock | Strong Pattern | Corroborated | High | `BTD-003`–`BTD-014`, `BTD-016` |
+
+Documentary limits: existing evidence grades remain unchanged. Target-local
+layer/descendant resolution and initial authored round entries differ in cause.
+The actual ordinary Easy manual/AutoStart choice, exact completion predicate,
+UI-index timing, child offsets, carryover and intermediate visibility are not
+certified. The complete declared attempt still clears round 40 with stock above
+zero; merely reaching its index or finding a temporarily empty track is not
+sufficient. Accepted flat round credit, lack of an admitted affordability gate
+and route-scoped fixed placement remain intact.
 
 ## Basic data
 
@@ -179,6 +205,9 @@ gene instances but do not enter the signature.
   - **[P3]** [Ninja Kiwi's own `Update 56.0` announcement](https://store.steampowered.com/news/app/960090),
     dated 2026-08-06, for the publisher's most recent named release and its
     declared new content. Embedded media was not opened or used.
+  - **[P4]** [Publisher v32 release notes](https://store.steampowered.com/news/posts/?appids=960090&enddate=1660176375&feed=steam_community_announcements),
+    actual article gid4598757090448664121 retrieved during P5 through official SteamNews
+    API; historical2022 boss AutoStart context, not ordinary Easy56-line proof.
 - Corroborating textual sources, accessed 2026-09-06:
   - **[S1]** [public SteamCMD info projection](https://api.steamcmd.net/v1/info/960090),
     for public branch build `24829026` and its 2026-08-20 timestamps. This
@@ -222,7 +251,10 @@ gene instances but do not enter the signature.
   `bloons.fandom.com` and count as one corroborating family, not five
   independent sources. That host refuses direct retrieval from this environment,
   so those pages were reached through search indexing. `S3` was retrieved in
-  full and does not document the income model at all.
+  full and does not document the income model at all. During P5, direct retrieval did not yield complete
+  wiki bodies (403). The old S3 guide was read through the public web reader
+  after direct HTTP429 during P5, remains player-authored with a removed/incompatible
+  notice and an unfinished Rounds section, and is not native build evidence.
 - Reproducible control: **[V1]** repository-side transition trace across
   `P1`–`P3` and `S1`–`S8` under the declared app, package, build, platform,
   input, difficulty, map, mode, clean profile, exclusions and terminal; rules
@@ -255,10 +287,13 @@ gene instances but do not enter the signature.
   hostiles inside their reach according to the current rule and their persistent
   class, without a player command for each shot. Factorio turrets are already a
   carrier of this boundary, so no new acquisition gene is required.
-- New `SYS-806`: damage removes a hostile's outermost layer and immediately
-  releases that layer's declared children at the same position.
-- New `SYS-807`: a hostile reaching the route's end is removed without ending
-  the attempt and debits the shared stock by the layers it still carried.
+- New `SYS-806`: damage resolves a target type's intrinsic local descendants,
+  not a scheduled initial wave. Terminal and branching types differ; a distinct
+  player hit or visible child frame per layer is not required. Exact offsets,
+  inherited state, carryover and native event order remain unverified.
+- New `SYS-807`: a hostile reaching the route's end is removed and debits the
+  shared stock by the layers it still carried; the attempt continues unless
+  that debit exhausts the stock.
 - New `SYS-808`: each destroyed layer credits the shared budget the defence is
   bought from.
   [`TAXONOMY_CHANGE_026`](../../../research/taxonomy-changes/TAXONOMY_CHANGE_026.md)
@@ -269,15 +304,19 @@ gene instances but do not enter the signature.
   then removed the affordability legality the same gene stated, because a rule
   about which commitments are legal is Constraint content and this packet's
   claims do not establish one.
-- New `SYS-809`: the authored schedule indexes waves by round and releases each
-  round's declared composition onto the same fixed route.
-- Resolution order: the schedule releases the current round's composition onto
-  the fixed route; placed defenders acquire eligible hostiles inside reach under
-  their current rule and attack on their cadence; each landed damage removes one
-  layer, releases its declared children and credits the budget; a hostile that
-  reaches the exit debits the stock by its remaining layers; the round closes
-  once the route is clear and the schedule advances; and the attempt ends when
-  the stock is exhausted or the final round closes. Claims: `BTD-008`–`BTD-014`.
+- New `SYS-809`: an authored finite round schedule releases initial
+  compositions under the recorded start control. Distinguish manual start,
+  enabled AutoStart, round resolution and UI index timing; no chosen ordinary
+  build 24829026 setting or immediate release on clear is certified.
+- Documentary composition, not a measured native event order: configured
+  release admits authored round entries; defenders acquire and attack under
+  current targeting. Damage resolves intrinsic local descendants and pop
+  credit; leaks debit stock. Full round resolution, flat round credit, UI
+  progress and next-round release must be distinguished, including pending
+  scheduled arrivals and surviving children. Manual/AutoStart configuration
+  remains to verify. Stock exhaustion fails; clearing round 40 with stock above
+  zero succeeds. TAXONOMY_CHANGE_026/029 remain intact; no affordability gate
+  or product-wide ban on sale/relocation is introduced.
 
 ### Constraint Genes
 
@@ -366,13 +405,13 @@ gene instances but do not enter the signature.
 | A defender is being positioned over legal ground | Inspect the preview, then commit | The drawn reach shows which stretch of the fixed route the position would cover, and commitment fixes it there | prospective coverage | `BTD-005` |
 | A placed defender has an eligible bloon inside its reach | Give no command | The defender selects a target under its current rule and attacks on its cadence | autonomous engagement | `BTD-008` |
 | A placed defender's rule is changed while bloons are in reach | Select another declared rule | Its subsequent target choices follow the new rule without any engagement being commanded | selection-policy edit | `BTD-007` |
-| A multi-layer bloon takes one damage | Resolve the hit | Its outermost layer is removed and that layer's declared children appear at the same position | layered composition | `BTD-009` |
+| Damage destroys one outer target layer | Resolve intrinsic composition | Resolve that type's local zero-or-more descendants; exact offsets, carryover and intermediate frames unverified | child resolution is not next-round release | `BTD-009` |
 | A layer is destroyed | Resolve the pop | The budget is credited by that layer's declared value, which is the only credit the player's own decisions can raise | destruction-funded budget | `BTD-011` |
-| The last bloon of round `n` is removed from the route | Let the round close | A flat credit of `$100 + n` is settled into the same budget regardless of how the round was played | unconditional schedule credit | `BTD-016` |
+| Round `n` is fully resolved, including its scheduled arrivals and descendants | Let the round close under its rules | A flat credit of `$100 + n` is settled into the same budget regardless of how the round was played | unconditional schedule credit | `BTD-016` |
 | A partly destroyed bloon reaches the exit | Let it leave | The stock is debited by the layers it still carried, which is less than an untouched bloon of the same type would cost | proportional leak cost | `BTD-010` |
-| A bloon reaches the exit while stock remains | Continue | The round is not failed and the attempt continues | conceded leak is not a loss | `BTD-014` |
+| A bloon's exit debit leaves stock above zero | Continue | The round is not failed and the attempt continues | conceded leak is not a loss | `BTD-014` |
 | One upgrade path has been raised past its middle tier | Attempt a high tier on a second path | The purchase is refused; the second path is capped at the middle tier and the third stays unbought | asymmetric path caps | `BTD-006` |
-| The current round's bloons have all left the route | Wait | The schedule advances to the next indexed round and releases its declared composition | round-indexed schedule | `BTD-012` |
+| Current round fully resolved under its rules; stock remains | Record AutoStart and actual start control | Manual mode may wait for start; enabled AutoStart follows its rule. No ordinary build 24829026 trace certifies choice or timing here | resolution versus release | `BTD-012`, native control verification pending |
 | The declared final round closes with stock remaining | Accept the result | The attempt records completion of the declared schedule | positive terminal | `BTD-014`, `BTD-015` |
 | The stock reaches zero before the final round | Continue | The attempt ends | negative terminal | `BTD-014` |
 
@@ -421,7 +460,8 @@ gene instances but do not enter the signature.
   static footprint legality, and its turrets are already a carrier of that
   acquisition boundary. Its placements serve a running production layout whose
   threat is generated by the player's own pollution; this packet's placements
-  answer an authored round schedule and are funded only by destroying it.
+  answer an authored round schedule with pop credits alongside flat
+  round-completion credits; no exclusive-income claim is retained.
 - Bad North: Jotunn Edition shares autonomous engagement and real-time
   resolution, but its defenders are directly commanded units that move between
   positions, and its objective is neutralising a finite assault force rather
@@ -553,7 +593,8 @@ gene instances but do not enter the signature.
   `SYS-807`, `SYS-808`, `SYS-809`, `CON-608`, `INF-322`, `INF-323`, `OBJ-159` —
   route-covering priced placement, the selection-policy edit, layer shedding
   with declared children, the proportional leak debit, the destruction-funded
-  sole budget, the round-indexed schedule, asymmetric path caps, the reach
+  shared budget alongside flat round credits, the round-indexed schedule,
+  asymmetric path caps, the reach
   disclosure, the combined budget/stock/schedule display and the
   survive-the-schedule objective.
 

@@ -1,5 +1,44 @@
 # Time Genes
 
+## TIM-034 — Resume an unsaved field level only from its boundary snapshot
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: ordinary quit and reload during a field level discard its unsaved progression and resume the retained state at that level's entry boundary rather than the latest live position; separately permitted home saves and abandonment-to-home remain distinct persistence paths.
+- Includes: Pacific Drive PC 1.4.0 Quit to Menu losing current-level progress and resuming from its start, contrasted with garage saving and Abandon, Save, Quit.
+- Excludes: A mid-field suspend continuation; continuous rewind to arbitrary moments; automatic return with an abandonment penalty; deleting the whole campaign; claiming the hidden recording options are proven.
+- Parameters: Current level, entry snapshot, unsaved progression, quit, reload, permitted home save and distinct abandonment path.
+- Evidence: [Pacific Drive decomposition](../games/m-r/pacific-drive.md), P2 official PC 1.4.0 Quit to Menu versus Abandon Save Quit; 2025 Suspend Run excluded. Source-specific limits remain in the claim ledger; no native execution or current-binary parity.
+- Novelty: first isolated for `GAME-0500`; counterexamples reviewed in [`TAXONOMY_CHANGE_237`](../../research/taxonomy-changes/TAXONOMY_CHANGE_237.md). No external novelty claim.
+
+## TIM-033 — Complete party planning before an interleaved automatic round
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: combat waits while the player inspects and assigns the eligible party’s commands; only after the complete batch is committed does one automatic interleaved allied/hostile round settle, returning to party planning if the encounter remains open.
+- Includes: original Golden Sun’s complete party command entry followed by agility-ordered resolution.
+- Excludes: an ATB gauge advancing during selection; one input followed by the whole resolution; freely executing a player phase before a separate hostile phase; a real-time deadline on menu deliberation.
+- Parameters: eligible party, command-entry sequence, commitment boundary, automatic round and next planning state.
+- Evidence: [Golden Sun decomposition](../games/g-l/golden-sun.md), original Nintendo booklet pp. 34–44; GS-001.
+- Novelty: first isolated for `GAME-0489`; command entry and action execution are separate without a live readiness clock.
+
+## TIM-032 — Suspend campaign time in live duels and prize selection but not sea battle
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: the campaign calendar advances during the live naval phase at its declared battle rate, but remains suspended during live captain duels and untimed prize menus; a frozen campaign calendar does not turn the duel into discrete turns.
+- Includes: original Windows Sid Meier's Pirates! ordinary sea encounter. Sea battle advances campaign time; fencing remains live while that calendar stops.
+- Excludes: A real-world calendar; one universal clock for all phases; a turn-based duel inferred from frozen campaign time; exact unmeasured conversion rates.
+- Parameters: phase, campaign calendar, naval rate, suspended phases, duel live time and menu time.
+- Evidence: [Sid Meier's Pirates! decomposition](../games/s-z/sid-meiers-pirates.md), publisher PC manual; claim PIR-013. Exact executable revision, timings and direct play remain uninspected.
+- Novelty: first isolated for `GAME-0487`; transfer tests in `TAXONOMY_CHANGE_224` preserve prior boundaries.
+
 ## TIM-001 — Discrete turn with automatic resolution
 
 - Lifecycle: `Active`
@@ -779,16 +818,17 @@
 - Evidence quality: `Direct`
 - Confidence: `High`
 - Definition: advance a persistent single-player world's date, clock, daylight
-  and calendar-dependent state from the host system's real-world time across
+  and calendar-dependent state from its configured real-world civil-time source across
   both active play and absence, without requiring player-authored turns.
-- Includes: ordinary no-time-travel island time in Animal Crossing: New Horizons.
-- Excludes: authored story dates; a server clock independent of the host;
+- Includes: ordinary no-time-travel island time in Animal Crossing: New Horizons;
+  the battery-backed Game Boy Color cartridge clock selecting original Pokémon Gold Version's time-of-day encounter eligibility.
+- Excludes: authored story dates; a remote server clock independent of the player's local civil time;
   elapsed-play timers; a configurable accelerated day/night cycle; manually
   changing system time to skip progression.
-- Parameters: host clock, time zone, date, time, hemisphere, active/absent
+- Parameters: configured host or cartridge clock, time zone, date, time, hemisphere, active/absent
   update, rollover, daylight, season and calendar-dependent systems.
 - Evidence: [Animal Crossing: New Horizons decomposition](../games/a-f/animal-crossing-new-horizons.md),
-  using Nintendo's product and beginner guidance.
+  using Nintendo's product and beginner guidance; [Pokémon Gold Version decomposition](../games/m-r/pokemon-gold-version.md), original manual and pinned Gold clock code.
 - Novelty: first isolated for `GAME-0320`; external civil time directly owns
   persistent world progression rather than merely labelling an authored day.
 

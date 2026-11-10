@@ -1,5 +1,290 @@
 # Objective Genes
 
+## OBJ-291 — Extract with a unique stolen item and aggregate valuables quota
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete a bounded theft mission by acquiring its designated unique item, accumulating at least the required value of other carried valuables, and reaching the designated extraction location while all mandatory conduct predicates remain satisfied; neither acquiring only the unique item nor reaching the exit alone settles success.
+- Includes: Expert Lord Bafford’s Manor requires the jeweled scepter, at least 700 other loot value, maintained no-kill eligibility and return to the city street.
+- Excludes: OBJ-001 producing one threshold-valued element; OBJ-025 contacting a room progress token; OBJ-026 arrival with no independent valuables quota; OBJ-124 a spatially secured loot bag at an extraction vehicle; maximising all optional loot as a mandatory objective.
+- Parameters: Mission, unique item, carried valuables total, minimum quota, extraction location, conduct predicates and conjunctive settlement.
+- Evidence: [Original Bafford Expert decomposition](../games/s-z/thief-the-dark-project.md), TH-001/008; P2 printed 59-68; S1 Expert objective list and complete street extraction. Native executable, coefficients, animal/failure timing and saved-state fidelity remain unverified; documentary qualifications stay explicit.
+- Novelty: first isolated for `GAME-0513`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_250`](../../research/taxonomy-changes/TAXONOMY_CHANGE_250.md). No external novelty claim.
+
+## OBJ-290 — Evaluate a wildlife-gathering round through retained observation, contribution and sale settlement
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete a declared ordinary wildlife-gathering round from preparation through capture, specimen disposition and a retained settlement record, evaluating separately the personally observed species, public contributions, owned specimens and money; no forced whole-product victory or researcher-invented catch quota follows from that evaluation boundary.
+- Includes: Original New Leaf home-town fishing with a standard rod, optional fish retention, release, donation or sale and completed saving.
+- Excludes: OBJ-187 first-island service invitation with five species and a site marker; completing every fish in the product; treating a catch animation alone as a settled round; requiring every round to include both sale and donation.
+- Parameters: Prepared starting town, tool, capture sequence, disposition, observed species, public contributions, retained stock, money and save boundary.
+- Evidence: [Original New Leaf fishing decomposition](../games/a-f/animal-crossing-new-leaf.md), NL-010; P1 sections 4/5/7/10/11; S1 ordinary fishing choices; analytical evaluation boundary under ADR-007. Exact native coefficients, installed regional/build parity and controlled save/reload remain unverified. Later community documentation remains qualified corroboration.
+- Novelty: first isolated for `GAME-0511`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_248`](../../research/taxonomy-changes/TAXONOMY_CHANGE_248.md). No external novelty claim.
+
+## OBJ-289 — Resolve police mission requirements and retain evaluated custody and personnel settlement
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: resolve the bounded police mission required order, civilian and named-person conditions, accept an enabled end and its categorized evaluation, and retain the operational-base return with personnel consequences and successor availability; optional proof and living custody improve evaluation but are not silently equated with every main-objective flag.
+- Includes: Ready or Not first Thank You, Come Again completion through mission report and first Commander roster settlement, stopping before the second deployment.
+- Excludes: Only killing every suspect; achieving a perfect grade merely by ending; a premature withdrawal counted as successful completion; OBJ-154 resolving a declared finite designated-target set without this population-wide police custody/reporting and personnel settlement; completing the full Commander campaign.
+- Parameters: Required conditions, named actors, civilian/order states, end permission, optional proof, custody quality, evaluation, base return and retained personnel.
+- Evidence: [Ready or Not decomposition](../games/m-r/ready-or-not.md), RON-013/014/015; R1 1150/1470/1490/1500/1550/1585; P1; S1/S7. No native execution, exact coefficients, original-launch binary checksum or bug-free implementation is claimed; dated source qualifications remain in the game ledger.
+- Novelty: first isolated for `GAME-0508`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_245`](../../research/taxonomy-changes/TAXONOMY_CHANGE_245.md). No external novelty claim.
+
+## OBJ-288 — Clear an authored flight boss and accept the successor episode handoff
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: survive the complete authored flight encounter route, defeat its terminal boss, accept its credited closeout and reach ordinary control in the next episode; destroying every optional enemy or reaching a fixed point score is not necessary for this terminal.
+- Includes: Original Panzer Dragoon complete Episode 1 through its warship, shot-down-ratio reward and Episode 2 control.
+- Excludes: Stopping when the boss first appears; treating the boss explosion alone as the complete packet; requiring all counted enemies; claiming the final campaign ending.
+- Parameters: Authored episode, surviving body, terminal boss, closeout, optional kill proportion and successor control.
+- Evidence: [Panzer Dragoon decomposition](../games/m-r/panzer-dragoon.md), PD-001/007/010; R1 and R2 complete route/closeout/successor samples. Native execution, exact coefficients and disc parity are not claimed.
+- Novelty: first isolated for `GAME-0505`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_242`](../../research/taxonomy-changes/TAXONOMY_CHANGE_242.md). No external novelty claim.
+
+## OBJ-287 — Complete capital preparation and establish the required incoming colony fuel rate
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: complete the authored capital-development, research, governing-vote and exploration prerequisites, establish the discovered fuel colony and its connection, then meet the required incoming fuel shipment rate at the surviving capital so the next chapter’s ordinary control begins.
+- Includes: Frostpunk 2 Chapter 1 concluding after its prerequisites and at least 75 Oil Output supplied from the Old Dreadnought to New London.
+- Excludes: Finding oil without establishing supply; possessing 75 units once with no incoming rate; completing only the first coal district; surviving the later whiteout as part of this chapter terminal.
+- Parameters: Prerequisite chapter flags, fuel site, colony and connection, incoming-rate threshold and continuing capital.
+- Evidence: [Frostpunk 2 decomposition](../games/a-f/frostpunk-2.md), FP2-001/016; S1; S6. Native execution, exact coefficients and current binary parity are not claimed.
+- Novelty: first isolated for `GAME-0504`; operational counterexamples reviewed in [`TAXONOMY_CHANGE_241`](../../research/taxonomy-changes/TAXONOMY_CHANGE_241.md). No external novelty claim.
+
+## OBJ-286 — Complete a staged transport mission with independent receiver quotas and optional credits
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: satisfy the authored freight and passenger progression through its final separate receiver-arrival predicates and settle the completed mission with the independently earned optional bonus credits; not every optional credit is required for ordinary main-mission success.
+- Includes: Complete launch-day Transport Fever 2 Mining Miracle with Carson City/Reno arrivals and optional Ponderosa, ride and beast medals.
+- Excludes: Only a first paid delivery; clearing every waiting passenger; one pooled arrival quota; compulsory all-medals success; unrestricted play after the result.
+- Parameters: Stage prerequisites, freight service, passenger service, receivers, separate quotas, optional tasks, earned credits and completed result.
+- Evidence: [Transport Fever 2 decomposition](../games/s-z/transport-fever-2.md),
+  complete dated Mining Miracle source/transition ledger; no native execution.
+- Novelty: first isolated for `GAME-0498`; no external novelty claim.
+
+## OBJ-285 — Trigger return authority and settle an entry-exit return with conditional successor access
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: activate the authored return switch and traverse back to the entry exit to settle the attempt; successor access requires bringing its key, while optional independently retained collection credits and score do not all have to be completed for ordinary return.
+- Includes: Complete Normal Palm Tree Paradise return in original Wario Land 4.
+- Excludes: Only reaching a forward finish; mandatory exhaustive collection; next-stage access without its key; whole-pyramid boss victory.
+- Parameters: Entry exit, return switch, route, key, settlement, optional credits and failure predicate.
+- Evidence: [Wario Land 4 decomposition](../games/s-z/wario-land-4.md),
+  preserved Nintendo booklet and bounded written/source ledger; no native play.
+- Novelty: first isolated for `GAME-0497`; no external novelty claim.
+
+## OBJ-284 — Launch a delivered mission device and retain control beyond a forced injury
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: complete the ordered acquisition, installation and survival-gated launch of the mission device, then pass the mandatory playable story loss and injury into the retained successor-control state.
+- Includes: The complete Space Marine 2 solo Rain of Terror prologue through first Battle Barge control.
+- Excludes: Stopping after device collection, installation or launch; defeating the final scripted opponent; ordinary arrival alone; whole-campaign completion.
+- Parameters: Device, collection, installation, charge gate, launch, injury transition and successor control.
+- Evidence: [Space Marine 2 decomposition](../games/s-z/warhammer-40000-space-marine-2.md),
+  its dated source ledger and qualitative transitions; no native execution.
+- Novelty: first isolated for `GAME-0496`; no external novelty claim.
+
+## OBJ-281 — Complete a self-financed cargo leg and evaluate retained sale proceeds
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: carry personally purchased cargo through a chosen space-trading
+  leg to the next station and settle its retained quantity against that
+  visit’s sale offer; the purpose is to grow the trader’s own capital under
+  travel risk, not fulfil an employer’s supplied manifest or trigger a
+  product-wide victory at an invented profit threshold.
+- Includes: Original Elite creator guide’s buy, travel, dock and sell loop,
+  bounded here to stock Jameson’s first departure and next docking.
+- Excludes: An employer-assigned delivery reward; a compulsory positive profit
+  condition; a fixed campaign ending; banking gross sale revenue as net profit
+  without acquisition costs.
+- Parameters: own capital, acquisition cost, cargo, chosen route, survival,
+  retained load, next docking, sale decision and balance
+- Evidence: [Elite decomposition](../games/a-f/elite.md),
+  claims EL-001, EL-014; pinned original _IB_DISC source reconstruction.
+- Novelty: first isolated for `GAME-0491`; complete a self-financed cargo leg and evaluate retained sale proceeds.
+
+## OBJ-274 — Complete a situated inquiry and its scripted encounters into a retained next lead
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: complete one declared investigative lead through eligible local information exchanges and required scripted physical encounters, then retain the named successor inquiry; this checkpoint does not solve the whole case or end the campaign.
+- Includes: original Shenmue's sailors-to-Charlie lead after both Heartbeats Quick Timer Events and bartender information.
+- Excludes: dialogue/attribute-only episode settlement; a courtroom verdict or arrest; a whole-campaign ending; one optional conversation with no required successor state.
+- Parameters: entry inquiry, local access, required exchanges, scripted encounters, successor fact and retained next control.
+- Evidence: [Shenmue decomposition](../games/s-z/shenmue.md), original-Dreamcast route accounts; claims SH-004–SH-006.
+- Novelty: first isolated for `GAME-0485`; successor information follows physically resolved gates, not only talking or a target-set elimination.
+
+## OBJ-273 — Assemble a fragmented password and enter its protected room before expiry
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `Medium`
+- Definition: acquire and correctly recognise every required fragmented password card, then reach and activate its protected control-room door before the shared mission deadline; collecting fragments or recalling the word alone does not satisfy completion.
+- Includes: Impossible Mission nine recognised cards followed by Elvin control-room entry.
+- Excludes: completing only one card; a known-word bypass; defeating a final combat boss; maximising score without mission completion.
+- Parameters: required cards, recognised letters, door authority, location and deadline.
+- Evidence: [Impossible Mission decomposition](../games/g-l/impossible-mission.md), licensed original-rule reproduction and written original-C64 play; claims IM-001–IM-010. No original executable or direct play was inspected.
+- Novelty: first isolated for `GAME-0484`; lower-ID transfer tests in `TAXONOMY_CHANGE_221` preserve earlier boundaries.
+
+## OBJ-272 — Complete an accepted bounty contract and return captures for settlement
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the player fulfils a currently accepted target contract and returns eligible recorded captures to its settlement recipient, balancing higher live payment against collection exposure and body recovery rather than treating killing alone as completion.
+- Includes: original unupgraded Filthy Hands Floyd contract through its first Bounty Store payout.
+- Excludes: whole-campaign victory or surgery; compulsory killing; payment for a target never collected.
+- Parameters: accepted target, required capture, additional captures, alive/dead value and return settlement.
+- Evidence: [Oddworld: Stranger's Wrath decomposition](../games/m-r/oddworld-strangers-wrath.md), original EA Xbox booklet and independently authored original-Xbox routes; claims SW-001–SW-012. No direct play, measured timing or exact executable is claimed.
+- Novelty: first isolated for `GAME-0483`; lower-ID transfer tests in `TAXONOMY_CHANGE_220` preserve earlier boundaries.
+
+## OBJ-271 — Maximise living population at the route finish
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: the player optionally seeks the largest living population at the route finish, independently of the lower population sufficient for ordinary completion.
+- Includes: LocoRoco’s optional twenty-individual first-stage result.
+- Excludes: rescuing a fixed supplied population to satisfy a minimum quota; abstract score alone; claiming twenty is compulsory.
+- Parameters: route finish, living population, ordinary minimum and optional maximum.
+- Evidence: [LocoRoco decomposition](../games/g-l/locoroco.md), original Sony PSP booklet, Sony launch announcement/creator interview and source-limited contemporary first-stage routes; claims LR-001–LR-009. No direct play or exact geometry is claimed.
+- Novelty: first isolated for `GAME-0482`; lower-ID transfer boundaries in `TAXONOMY_CHANGE_219` preserve previous definitions.
+
+## OBJ-270 — Reach one terminal of a checkpoint-timed branching drive
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: complete the authored sections along a live-chosen branching driving route and reach its selected terminal before the declared deadline fails, without requiring a ranked rival result or a performance-awarded extra course.
+- Includes: One original Out Run five-section credit choosing four forks to one of five goals.
+- Excludes: one isolated practice circuit; a points cup; a performance-unlocked bonus-course chain; merely reaching the first checkpoint; treating traffic as ranked opponents.
+- Parameters: section tree, live branch choices, ordered checkpoints, time additions, deadline and selected terminal.
+- Evidence: [Out Run decomposition](../games/m-r/out-run.md), original Sega upright manual and official retrospective, plus original-mode source at Cannonball commit `27493ebf62be3498dff93ed6a45e8e2db819bae1`; claims OR-001–OR-009. Rewrite transfer is not original-binary verification.
+- Novelty: first isolated for `GAME-0481`; lower-ID transfer tests in `TAXONOMY_CHANGE_218` preserve earlier definitions.
+
+## OBJ-269 — Return from a world circuit within a wager deadline
+
+- Lifecycle: `Active`
+- Claim status: `Confirmed`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete a world-circling chain of journeys and return to its declared origin by the wager's target time; a later return may still finish the journey but does not win that time-bound wager.
+- Includes: Fogg and Passepartout returning to London within eighty days in original iOS *80 Days*.
+- Excludes: treating the first onward city as final victory; one ordinary arrival at a destination; stopping all possible play exactly when the wager target passes; importing a precise end-hour not evidenced for the analysed build.
+- Parameters: origin, required world circuit, elapsed journey time, wager threshold, return event and outcome classification.
+- Evidence: [80 Days decomposition](../games/0-9/80-days.md), inkle's original press material and 2014 creator interview distinguishing an on-time from a late completed journey.
+- Novelty: first isolated for `GAME-0478`; completing the circuit and satisfying its time wager are separately evaluated.
+
+## OBJ-268 — Clear an early exercise course and its first Fit Battle
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: traverse the selected early authored Adventure course to its goal and defeat the first ordinary Fit Battle that follows in the same World, retaining the resulting map progression without needing to beat that World's boss.
+- Includes: the original *Ring Fit Adventure* World 1 path through Transient Temple and its following first ordinary Hoplin Fit Battle.
+- Excludes: clearing all World 1 courses or Dragaux; obtaining all hidden EXP medals; requiring a colour-match combat bonus unavailable until after World 2.
+- Parameters: course start, route goal, first ordinary encounter, enemy health, player hearts and post-battle progression flag.
+- Evidence: [Ring Fit Adventure decomposition](../games/m-r/ring-fit-adventure.md), Nintendo's Adventure progression description and corroborated World 1 course order.
+- Novelty: first isolated for `GAME-0476`; a bounded route and a subsequent exercise encounter jointly define this early progression terminal.
+
+## OBJ-267 — Complete a staged operation with a viable patient
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: finish all required exterior and inner treatment and final closure before the operation deadline while the treated patient remains viable, then receive operation success.
+- Includes: first original-DS Trauma Center operation's lacerations, outer and inner glass, incision and closing bandage.
+- Excludes: a high rank requirement; merely removing visible exterior shards; later campaign completion or real medical outcome.
+- Parameters: required treatment flags, closure, patient viability, deadline and success acknowledgement.
+- Evidence: [Trauma Center: Under the Knife decomposition](../games/s-z/trauma-center-under-the-knife.md), corroborated first-operation transcript and routes.
+- Novelty: first isolated for `GAME-0471`; staged patient care and closure together form the terminal condition.
+
+## OBJ-266 — Find the ally and establish a live Marine roster
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: complete the bounded Terran opening mission by finding the named allied hero, finishing a Barracks, then maintaining at least the required number of living controlled Marines while that hero survives; construction or cumulative training alone is insufficient.
+- Includes: original StarCraft's first Terran campaign mission Wasteland: find Jim Raynor, build a Barracks and control ten living Marines.
+- Excludes: defeating every enemy on the map, ten newly trained Marines in addition to survivors, Brood War or StarCraft II mission rules, or later campaign objectives.
+- Parameters: found-ally flag, ally survival, completed Barracks, currently controlled Marine count, threshold and mission terminal.
+- Evidence: [StarCraft decomposition](../games/s-z/starcraft.md), original-game walkthrough corroborated by Blizzard's Terran economy and production references.
+- Novelty: first isolated for `GAME-0469`; the ordered encounter, constructed production prerequisite and live force-count terminal are not a generic combat victory or economic score.
+
+## OBJ-265 — Clear a local threat and restore its neighbourhood service
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: complete a bounded chapter segment by first resolving its required hostile encounter, then gathering the local collectible threshold and explicitly reactivating a named neighbourhood service; neither combat victory nor collection alone is the terminal state.
+- Includes: the first Nevi fight followed by the ten-gem fountain restoration in original PS Vita Gravity Rush's Episode 2.
+- Excludes: all later story chapters, the optional fountain challenge, a required ability-upgrade purchase and a claim that every collected gem is spent.
+- Parameters: required hostile set, gem threshold, fountain state, activation and chapter-progress acknowledgement.
+- Evidence: [Gravity Rush decomposition](../games/g-l/gravity-rush.md), contemporary original-Vita chapter guides corroborated by PlayStation's traversal/combat account.
+- Novelty: first isolated for `GAME-0468`; the chapter's finite combat gate and explicit service repair form one ordered terminal, unlike a combat room alone (`OBJ-029`).
+
+## OBJ-264 — Survive one selected audio track to its result
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: complete one chosen external audio track's obstacle course while the current survival form remains viable, then receive the single-track result and score; an isolated miss does not invalidate completion but exhaustion of the lowest form does.
+- Includes: original PAL Vib-Ribbon `Play With Own Choice Of CD` → `Single Track` through the selected track's endpoint.
+- Excludes: `All Tracks` album completion; fixed-chart Rock Meter survival (`OBJ-215`); a required high-score rank; merely selecting or listening to a track without the playable ribbon; completing a built-in two-song course.
+- Parameters: selected audio track, endpoint, current form, early-failure predicate, result and optional score.
+- Evidence: [Vib-Ribbon decomposition](../games/s-z/vib-ribbon.md), contemporary English PAL guide and PlayStation's original-game retrospective.
+- Novelty: first isolated for `GAME-0467`; one external music track sets a finite survival course without a fixed chart or score threshold.
+
+## OBJ-262 — Defeat a guardian and collect its separately spawned progress token
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: reach and defeat a declared guardian under its encounter rules, then deliberately contact the distinct progress token it produces to complete the bounded stage and retain its credit.
+- Includes: defeating original N64 Big Bob-omb on the first summit and touching the spawned Power Star to end that Bob-omb Battlefield attempt with one retained Star.
+- Excludes: counting guardian defeat alone as collection; a freely placed token available before the fight; collecting every stage token; finishing the whole campaign or a later Bowser battle.
+- Parameters: guardian, encounter arena, reward token, contact range, retained progress and post-collection return.
+- Evidence: [Super Mario 64 decomposition](../games/s-z/super-mario-64.md), Nintendo's original N64 booklet, pinned original-game code and first-star guide.
+- Novelty: first isolated for `GAME-0460`; the staged terminal requires a separate player pickup after victory.
+
 ## OBJ-260 — Finish one finite checkpoint-timed driving chain
 
 - Lifecycle: `Active`
@@ -1560,13 +1845,16 @@
   final mission so the current campaign records a first ending.
 - Includes: a fresh Grand Theft Auto V Story Mode critical path from Prologue
   through the first completed The Third Way ending; a fresh Cyberpunk 2077
-  critical path through the first completed `Where Is My Mind?` ending.
+  critical path through the first completed `Where Is My Mind?` ending; a fresh
+  Baldur's Gate 3 custom-character critical path through the first
+  destroy-the-Netherbrain ending and epilogue.
 - Excludes: 100% checklist completion; optional side content or collectibles;
   online progression; replaying an alternate ending after first completion.
 - Parameters: required mission graph, heist branches, final option, terminal
   mission, surviving protagonists and completion flag.
 - Evidence: [Grand Theft Auto V decomposition](../games/g-l/grand-theft-auto-v.md) and
-  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md).
+  [Cyberpunk 2077 decomposition](../games/a-f/cyberpunk-2077.md), plus the
+  [Baldur's Gate 3 decomposition](../games/a-f/baldurs-gate-3.md).
 - Novelty: not assessed.
 
 ## OBJ-078 — Win one Convergence match by completing or denying the route
@@ -2157,7 +2445,7 @@
 - Evidence quality: `Corroborated`
 - Confidence: `High`
 - Definition: keep both scoped survivors alive and controllable through default Autumn and the complete first Winter, then reach the first transition into Spring beside a viable shared warm base.
-- Includes: both Wilson survivors beside a lit Fire Pit at a shared base containing an Alchemy Engine, Crock Pot and Chest when the world clock leaves Winter after day 35.
+- Includes: both Wilson survivors, each carrying a Thermal Stone or wearing an ordinary insulating item, alive and controllable beside a lit Fire Pit at a shared base containing an Alchemy Engine, Crock Pot and Chest when the world clock leaves Winter for Spring after day 35.
 - Excludes: a game-authored victory claim; defeating a seasonal boss; surviving indefinitely; completing Spring, Summer, caves or a quest arc.
 - Parameters: survivors, life state, default season lengths, transition clock, Fire Pit, fuel, warm item, Alchemy Engine, Crock Pot, Chest and shared-base position.
 - Evidence: [Don't Starve Together decomposition](../games/a-f/dont-starve-together.md).
@@ -2419,9 +2707,10 @@
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: as the defending team, prevent the attackers from completing
-  every ordered sector until their finite troop-force pool reaches zero and the
-  match declares defender victory.
+- Definition: as the defending team, prevent completion of the final required
+  sector and reach the explicit defender Victory result of the admitted
+  attacker-exhaustion branch; a zero troop-force readout without that declared
+  result is not by itself the bounded success state.
 - Includes: the defender-side Luna trace on Coliseum in the scoped Delta Force
   Attack and Defend match.
 - Excludes: winning by symmetric Conquest tickets; capturing the final sector as
@@ -2645,9 +2934,9 @@
   autonomous rivals, cross its valid finish in first place and reach a
   persistent event result with the disclosed completion reward retained.
 - Includes: the stock Honda Civic Si packet for Need for Speed Underground
-  Race 1 at Olympic Square, Easy, automatic transmission and `375` Bank; the
-  stock Supra packet for Forza Horizon 5's Horizon Mexico Circuit, Average
-  Drivatars and retained first-place result.
+  Race 1's two-lap Olympic Square Circuit, Easy, automatic transmission and
+  `375` Bank; the stock Supra packet for Forza Horizon 5's Horizon Mexico
+  Circuit, Average Drivatars and retained first-place result.
 - Excludes: a valid solo time-trial finish without a rival-victory predicate;
   a race where any classified place satisfies the packet; a championship or
   multi-event progression gate; a race whose result remains unsettled until a
@@ -3228,10 +3517,12 @@
 - Claim status: `Observation`
 - Evidence quality: `Limited`
 - Confidence: `Medium`
-- Definition: complete the attempt by bringing one bounded encounter to its
-  close entirely through non-damaging interactions and a release, with no
-  opponent defeated at any point in the run, then retain that state through a
-  persistence check that shows the defeat count still at zero.
+- Definition: complete the authored attempt by closing one ordinary encounter
+  through non-damaging interactions and committed release, with no monster
+  killed anywhere in the run, then verify retained position, health and run
+  state after save and reload. No initial visible KILLS=0 display is presumed:
+  no-kill continuity needs an adequate event/state record, with exact native
+  persistence evidence still outstanding.
 - Includes: closing one ordinary monster encounter through interaction and
   release, then saving and reloading with nothing defeated, in Undertale's
   bounded opening route.
@@ -5243,18 +5534,19 @@
 - Evidence: [Punch-Out!! decomposition](../games/m-r/punch-out.md), official Nintendo NES Classic manual pp. 5–7 and Nintendo's NES product description.
 - Novelty: first isolated for `GAME-0447`; several round-local boxing settlement routes lead to one bout victory.
 
-## OBJ-257 — Finish one downhill Single Event Race in first place
+## OBJ-257 — Finish one standalone rival race in first place
 
 - Lifecycle: `Active`
 - Claim status: `Observation`
 - Evidence quality: `Corroborated`
 - Confidence: `High`
-- Definition: complete one finite downhill race against a computer field and reach its classified finish in first place; lower place settles the event without satisfying the local win target.
-- Includes: original *SSX Tricky* Garibaldi Single Event Race.
-- Excludes: highest Showoff score; World Circuit medal; car race with retained currency or Cup points (`OBJ-134`, `OBJ-226`).
-- Parameters: course, rider, field, finish, classification and result.
-- Evidence: [SSX Tricky decomposition](../games/s-z/ssx-tricky.md), EA's original booklet and first-hand PS2 guide.
-- Novelty: first isolated for `GAME-0450`; one downhill descent evaluates rank without a progression reward.
+- Definition: complete one finite standalone race against a computer field and reach its classified finish in first place without requiring subsequent career reward or cup points; lower place settles the event without satisfying the local win target.
+- Includes: original *SSX Tricky* Garibaldi Single Event Race; original PlayStation *wipEout* Venom Altima VII three-lap Single Race.
+- Excludes: highest Showoff score; World Circuit medal; race with retained career currency or Cup points (`OBJ-134`, `OBJ-226`); lower place accepted only for progression.
+- Parameters: course topology, vehicle or rider, field, required laps, finish, classification and result.
+- Evidence: [SSX Tricky decomposition](../games/s-z/ssx-tricky.md), EA's original booklet and first-hand PS2 guide; [wipEout decomposition](../games/s-z/wipeout.md), original PlayStation booklet, claims WO-001 and WO-008.
+- Novelty: first isolated for `GAME-0450`; one standalone race evaluates rank without a required progression reward.
+- Change note: `TAXONOMY_CHANGE_225` removes downhill-only carrier parameters while preserving the same positive predicate and every prior signature.
 
 ## OBJ-261 — Collect the assigned hostile-proof quota and report to its recipient
 
@@ -5268,3 +5560,42 @@
 - Parameters: qualifying hostile, proof token, minimum accepted count, recipient, return route, report interaction and accepted mission flag.
 - Evidence: [Daxter decomposition](../games/a-f/daxter.md), independent original-PSP first-hotel routes by Larry Imgrund and Akiro, supported by the original PSP UCES-00044/ANZ manual's proof-collection rule (PDF leaf 7).
 - Novelty: first isolated for `GAME-0459`; no claim that exactly 25 enemies or every available gem is required.
+
+## OBJ-263 — Clear a tagged district and win the revealed rival challenge
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: complete every required marked surface in one authored street district, then follow the revealed rival through required contacts and win the ensuing challenge so the rival's declared alliance is retained before the next separate encounter begins.
+- Includes: original Xbox Jet Set Radio Future's Dogenzaka Hill Graffiti Challenge, repeated Beat meetings, City Rush win and Beat joining the GGs.
+- Excludes: ending at the last wall without confronting the rival; the subsequent Rokkaku Police battle or Shibuya Terminal; a score/rank threshold; the original Jet Set Radio's timed tag-only result (`OBJ-204`).
+- Parameters: district, required mark set, revealed rival, contact sequence, challenge, win, recruited ally and next-story boundary.
+- Evidence: [Jet Set Radio Future decomposition](../games/g-l/jet-set-radio-future.md), two contemporary original-Xbox Dogenzaka walkthroughs, with graffiti and battle grammar corroborated by the original Xbox manual.
+- Novelty: first isolated for `GAME-0464`; a completed territorial quota is a prerequisite to a pursued rival and recruitment result, not itself the positive terminal.
+
+## OBJ-282 — Win a fixed duel after required round awards and any threshold tiebreak
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: have the declared side awarded victory in one fixed-pair match by reaching its required round count and prevailing in any required simultaneous-threshold adjudication; merely reaching the count together with the opponent is not yet a won match.
+- Includes: Original Dreamcast Dead or Alive 2 Versus with two required sets and reduced-life sudden death on simultaneous qualification.
+- Excludes: Merely finishing a tournament ladder; maximising ranking or score; claiming that reaching the count first is the only possible winning path; treating every simultaneous threshold as a final draw.
+- Parameters: declared side, fixed opponent, required count, round awards, simultaneous qualification, tiebreak and final winner.
+- Evidence: [Dead or Alive 2 decomposition](../games/a-f/dead-or-alive-2.md), original USA Dreamcast booklet pp. 6, 11 and 15–16; source-derived, not native execution.
+- Novelty: first isolated for `GAME-0494`; boundary counterexamples are reviewed in [`TAXONOMY_CHANGE_231`](../../research/taxonomy-changes/TAXONOMY_CHANGE_231.md). No external novelty claim.
+
+## OBJ-283 — Clear an authored stage and optionally bank independent collection sets
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: traverse the selected authored stage and settle its final exit result to open the next map route; independently completed collectible sets may earn their own retained credits but are not required for that ordinary clear.
+- Includes: Original Wii Jungle Hijinxs ordinary Slot Machine Barrel clear, new route and independent K-O-N-G or puzzle-piece credits.
+- Excludes: Requiring every collectible for ordinary clear; literal selectable map doors; whole-world boss victory; entering the next stage; assisted clear treated as ordinary unassisted clear.
+- Parameters: stage, exit closeout, route reveal, independent sets and credits.
+- Evidence: [Donkey Kong Country Returns decomposition](../games/a-f/donkey-kong-country-returns.md), original USA Wii booklet pp. 9–22 and contemporary written first-stage routes and play testimony; retention limits are attributed separately there. No native execution.
+- Novelty: first isolated for `GAME-0495`; boundary counterexamples are reviewed in [`TAXONOMY_CHANGE_232`](../../research/taxonomy-changes/TAXONOMY_CHANGE_232.md). No external novelty claim.

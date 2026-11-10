@@ -87,10 +87,30 @@ gene_ids:
   named seasonal events, quests beyond incidental progress, Trials, Feats,
   Raider Decks, Projects, Expedition departure and reset, Nomadic Envoy vault,
   paid cosmetics and exhaustive maps, ARC types, weapons or recipes.
-- Direct-play status: no live paid-account raid was conducted. Current official
-  Help Center rules, product material and versioned patch notes directly
-  establish the scoped state transitions; exact numeric balance remains a
-  parameter and is not promoted into the genome.
+- Audit qualification: the checkpoint above remains the original Free Loadout,
+  ordinary solo Dam Battlegrounds, no-special-condition protocol and still
+  requires legal protected transfer plus matched extraction and knockout
+  outcomes. The actual 1.42.0 free-kit augment, protected-slot capacity and
+  item/use-state eligibility have not been observed. General Safe Pocket rules
+  do not provide that missing kit precondition. Neither an available slot nor
+  zero slots is certified, and no Custom Loadout or later patch is
+  substituted. The protected step and both terminal checks remain outstanding
+  rather than waived.
+- Direct-play status: No live paid-account raid, identified 1.42.0 client,
+  free-kit inventory, accepted protected transfer or matched
+  extraction/knockout trace was inspected. Official Help Center rules, product
+  material and versioned notes establish general conditional extraction,
+  unsecured loss and valid Safe Pocket retention, not the full selected Free
+  Loadout checkpoint. The equipped free-kit augment, protected-slot count,
+  item/use-state eligibility and both terminal allocations still require
+  version-identified evidence. P7 reread the first-raid and gearing guides and
+  the 1.18.0, 1.33.0 and 1.42.0 publisher pages; historical fixes and
+  pre-entry inventory-display descriptions do not certify the selected kit.
+  The original Free Loadout protocol and both terminal checks are retained
+  without a Custom Loadout or later-version substitution. Neither an
+  independent two-system factorisation nor absorption of SYS-350 is accepted.
+  Exact numeric balance remains a parameter and is not promoted into the
+  genome. No game media was played or paid account accessed.
 
 ## Claim ledger
 
@@ -246,8 +266,10 @@ gene_ids:
 - Long-term structure: repeated extraction turns volatile Topside possession
   into stash, recipes, stations, repaired gear and skills that reshape later
   risk budgets without removing knockout loss.
-- Common heuristics: stake Free Loadout while poor, protect the smallest
-  high-leverage item, search from cover, treat gunfire as information broadcast,
+- Common heuristics: stake Free Loadout while poor; only if the equipped
+  augment exposes an eligible free Safe Pocket slot, protect a small
+  high-leverage item. That capacity is unverified for the selected free kit.
+  Search from cover, treat gunfire as information broadcast,
   leave before every slot is perfect and spend extracted materials on a
   reproducible next kit rather than hoarding unusable value.
 - Failure attribution: visible loadout, inventory protection, local audio,

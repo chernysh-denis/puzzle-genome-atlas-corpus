@@ -2,8 +2,8 @@
 
 ## TIM-001
 
-- Назва: Один хід із повним виконанням команди
-- Переглянуто: `2026-08-24`
+- Назва: Дискретне виконання однієї команди
+- Переглянуто: `2026-10-02`
 
 ### Операційне визначення
 
@@ -11,7 +11,7 @@
 
 ### Включає
 
-Один напрямок у 2048 із наступними рухом, злиттями, нарахуванням очок і появою плитки; одне відкриття в Minesweeper з наступним розширенням нульової області; один хід Royal Match з наступними всіма ефектами збігів, підсилювачів, падіння, поповнення й каскадів; один вибір джерела й місця призначення у Water Sort з наступним максимальним переливанням; один напрямок у Baba Is You з наступними рухом і повторним обчисленням правил; один свайп Threes із наступними однокроковим зсувом, злиттям і введенням наступника; один розіграш або скидання в Balatro з наступними оцінюванням і поповненням руки; один стрибок Peg Solitaire з наступним вилученням проміжного кілка; одне розміщення плитки Dorfromantik із наступним розв’язанням країв, груп, завдань, рахунку й запасу; один рух або поворот у Stephen’s Sausage Roll із наступними контактом виделки, ковзанням чи коченням ковбаски, готуванням і перевірками поразки чи завершення; один рух у A Good Snowman Is Hard to Build із наступними витрачанням снігу, зростанням, перенесенням стосу й перевірками завершення; один крок голови Snakebird із наступними поширенням тіла, зростанням від фрукта, активацією виходу, падінням без опори й перевірками смерті чи завершення; одне бінарне твердження в Hexcells Infinite з наступними негайною перевіркою істинності, обробкою помилки й перевіркою завершення; одне витратне за хід переміщення, редагування черги чи активація черги в Shogun Showdown із наступним повним просуванням станів гравця й ворогів; одне штовхання в A Monster’s Expedition із наступними повним перекиданням або максимальним коченням колоди, укладанням мосту й перевіркою прибуття; одна команда Bonfire Peaks із наступними повним рухом форми предмета, який несе персонаж, знищенням у вогні й перевіркою завершення; одне підтвердження карти й напрямку в Golf Peaks із наступними повним поетапним рухом м’яча, реакцією рельєфу, усталенням і оцінюванням потрапляння в лунку; одне розміщення inbento з наступними перевіркою контуру, витрачанням запасу, перезаписом накритих клітинок і перевіркою точного рецепта; одне підтвердження початкової області та кольору в KAMI з наступними повним перефарбуванням компоненти, злиттям суміжних компонент одного класу, обліком ходів і оцінюванням усього поля; одне натискання тригера HOOK із наступним повним зв’язаним втягуванням, вилученням або оцінюванням зіткнення та скидання; один напрямок в Inertia з наступними повним прямолінійним ковзанням, збиранням під час проходження, зупиненням і перевірками міни чи завершення; один завершений хід персонажа або ворога у Clair Obscur: Expedition 33.
+Один напрямок у 2048 із наступними рухом, злиттями, нарахуванням очок і появою плитки; одне відкриття в Minesweeper з наступним розширенням нульової області; один хід Royal Match з наступними всіма ефектами збігів, підсилювачів, падіння, поповнення й каскадів; один вибір джерела й місця призначення у Water Sort з наступним максимальним переливанням; один напрямок у Baba Is You з наступними рухом і повторним обчисленням правил; один свайп Threes із наступними однокроковим зсувом, злиттям і введенням наступника; один розіграш або скидання в Balatro з наступними оцінюванням і поповненням руки; один стрибок Peg Solitaire з наступним вилученням проміжного кілка; одне розміщення плитки Dorfromantik із наступним розв’язанням країв, груп, завдань, рахунку й запасу; один рух або поворот у Stephen’s Sausage Roll із наступними контактом виделки, ковзанням чи коченням ковбаски, готуванням і перевірками поразки чи завершення; один рух у A Good Snowman Is Hard to Build із наступними витрачанням снігу, зростанням, перенесенням однієї відкритої кулі у стос або зі стосу й перевірками завершення; один крок голови Snakebird із наступними поширенням тіла, зростанням від фрукта, активацією виходу, падінням без опори й перевірками смерті чи завершення; одне бінарне твердження в Hexcells Infinite з наступними негайною перевіркою істинності, обробкою помилки й перевіркою завершення; одна команда в Shogun Showdown, яка витрачає хід (переміщення, редагування або активація черги) із наступним повним просуванням станів гравця й ворогів; одне штовхання в A Monster’s Expedition із наступними повним перекиданням або максимальним коченням колоди, укладанням мосту й перевіркою прибуття; одна команда Bonfire Peaks із наступними повним рухом форми предмета, який несе персонаж, знищенням у вогні й перевіркою завершення; одне підтвердження карти й напрямку в Golf Peaks із наступними повним поетапним рухом м’яча, реакцією рельєфу, усталенням і оцінюванням потрапляння в лунку; одне розміщення inbento з наступними перевіркою контуру, витрачанням запасу, перезаписом накритих клітинок і перевіркою точного рецепта; одне підтвердження початкової області та кольору в KAMI з наступними повним перефарбуванням компоненти, злиттям суміжних компонент одного класу, обліком ходів і оцінюванням усього поля; одне натискання тригера HOOK із наступним повним зв’язаним втягуванням, вилученням або оцінюванням зіткнення та скидання; один напрямок в Inertia з наступними повним прямолінійним ковзанням, збиранням під час проходження, зупиненням і перевірками міни чи завершення.
 
 ### Виключає
 
@@ -32,6 +32,7 @@
 - [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
 - [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
 - [`GAME-0020` — Dorfromantik](../games/a-f/dorfromantik.md)
+- [`GAME-0486` — Final Fantasy Tactics](../games/a-f/final-fantasy-tactics.md)
 - [`GAME-0057` — Golf Peaks](../games/g-l/golf-peaks.md)
 - [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)
 - [`GAME-0049` — Hexcells Infinite](../games/g-l/hexcells-infinite.md)
@@ -44,8 +45,10 @@
 - [`GAME-0449` — Paper Mario](../games/m-r/paper-mario.md)
 - [`GAME-0019` — Peg Solitaire](../games/m-r/peg-solitaire.md)
 - [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
+- [`GAME-0463` — "Pokémon Gold Version"](../games/m-r/pokemon-gold-version.md)
 - [`GAME-0336` — "Pokémon Red Version"](../games/m-r/pokemon-red-version.md)
 - [`GAME-0432` — Reigns](../games/m-r/reigns.md)
+- [`GAME-0476` — Ring Fit Adventure](../games/m-r/ring-fit-adventure.md)
 - [`GAME-0009` — Royal Match](../games/m-r/royal-match.md)
 - [`GAME-0050` — Shogun Showdown](../games/s-z/shogun-showdown.md)
 - [`GAME-0045` — Snakebird](../games/s-z/snakebird.md)
@@ -57,7 +60,7 @@
 ## TIM-002
 
 - Назва: Послідовні дії у власному темпі
-- Переглянуто: `2026-08-24`
+- Переглянуто: `2026-10-03`
 
 ### Операційне визначення
 
@@ -65,7 +68,7 @@
 
 ### Включає
 
-Розв’язання фізичного кубика Рубіка без таймера; розв’язання друкованого Sudoku без зовнішнього змагального таймера; класичний рівень Sokoban без таймера чи автоматичного руху; класичний FreeCell із ручним перенесенням карт; розв’язання друкованого Nonogram без зовнішнього таймера; дослідження корабля, огляд застиглих спогадів і редагування книги в Return of the Obra Dinn; звичайне дослідження видів, розділення шарів і компонування панелей Gorogoa; рух, штовхання й переходи між контейнерами в Patrick’s Parabox; прокреслення та редагування базової панелі The Witness без таймера; переставляння фрагментів мапи Carto й ходіння утвореним світом без примусового годинника; огляд, виділення термінів і редагування сувою події в The Case of the Golden Idol; малювання, відведення назад і повторне малювання маршрутів LYNE без примусового годинника чи часового кроку поля; призначення та редагування кількості цяток Hexologic без примусового годинника чи автоматичного кроку світу; огляд і вибір допустимої трійки з фіксованого пасьянсного поля SET без строку; завершення пропозицій Mastermind проти одного фіксованого коду без строку; введення спроб Wordle без строку для окремого рядка; натискання кнопок Lights Out без примусового годинника чи автономної зміни поля між натисканнями; призначення та редагування діагоналей Slant без строку; установлення та редагування позначок зайнятості Tents без примусового годинника; установлення та редагування пар Dominosa; циклічна зміна та редагування кратностей зв’язків Bridges; установлення та редагування ламп Light Up без автономної зміни чи строку; вибір і редагування ребер Loopy без примусового годинника чи часового кроку поля; призначення та редагування кольорів областей Map без автономного перебігу; малювання та редагування меж областей Galaxies без примусового годинника; призначення та редагування цифр Filling без строку; призначення та редагування цифр Keen без строку; обертання, фіксація та редагування плиток Net без примусового годинника чи автономної зміни мережі; зсув і редагування ліній Netslide без автоматичного перебігу між ходами; огляд і маніпулювання першим сейфом The Room без примусового годинника; повторне складання Josef на звалищі Machinarium без автономного перебігу між підтвердженими взаємодіями; передавання інгредієнтів батареї Red Edison у Day of the Tentacle без розпаду часткового набору чи строку; обертання мосту Chapter I в Monument Valley та вибір місця призначення Ida без строку чи незалежного перебігу світу між командами; анотування, зіставлення та редагування гіпотез щодо гліфів Chants of Sennaar, поки світ чекає наступної дискретної команди.
+Розв’язання фізичного кубика Рубіка без таймера; розв’язання друкованого Sudoku без зовнішнього змагального таймера; класичний рівень Sokoban без таймера чи автоматичного руху; класичний FreeCell із ручним перенесенням карт; розв’язання друкованого Nonogram без зовнішнього таймера; дослідження корабля, огляд застиглих спогадів і редагування книги в Return of the Obra Dinn; звичайне дослідження видів, розділення шарів і компонування панелей Gorogoa; рух, штовхання й переходи між контейнерами в Patrick’s Parabox; прокреслення та редагування базової панелі The Witness без таймера; переставляння фрагментів мапи Carto й ходіння утвореним світом без примусового годинника; вибір кімнат із пропозиції, їх огляд і проходження в Blue Prince без обмеження реального часу всередині кімнати; огляд, виділення термінів і редагування сувою події в The Case of the Golden Idol; малювання, відведення назад і повторне малювання маршрутів LYNE без примусового годинника чи часового кроку поля; призначення та редагування кількості цяток Hexologic без примусового годинника чи автоматичного кроку світу; огляд і вибір допустимої трійки з фіксованого пасьянсного поля SET без строку; завершення спроб у Mastermind для одного незмінного коду без кінцевого строку; введення спроб Wordle без строку для окремого рядка; натискання кнопок Lights Out без примусового годинника чи автономної зміни поля між натисканнями; призначення та редагування діагоналей Slant без строку; установлення та редагування позначок зайнятості Tents без примусового годинника; установлення та редагування пар Dominosa; циклічна зміна та редагування кратностей зв’язків Bridges; установлення та редагування ламп Light Up без автономної зміни чи строку; вибір і редагування ребер Loopy без примусового годинника чи часового кроку поля; призначення та редагування кольорів областей Map без автономного перебігу; малювання та редагування меж областей Galaxies без примусового годинника; призначення та редагування цифр Filling без строку; призначення та редагування цифр Keen без строку; обертання, фіксація та редагування плиток Net без примусового годинника чи автономної зміни мережі; зсув і редагування ліній Netslide без автоматичного перебігу між ходами; огляд і маніпулювання першим сейфом The Room без примусового годинника; повторне складання Josef на звалищі Machinarium без автономного перебігу між підтвердженими взаємодіями; передавання інгредієнтів батареї Red Edison у Day of the Tentacle без розпаду часткового набору чи строку; обертання мосту Chapter I в Monument Valley та вибір місця призначення Ida без строку чи незалежного перебігу світу між командами; анотування, зіставлення та редагування гіпотез щодо гліфів Chants of Sennaar, поки світ чекає наступної дискретної команди.
 
 ### Виключає
 
@@ -118,6 +121,7 @@
 - [`GAME-0002` — "Rubik’s Cube"](../games/m-r/rubiks-cube.md)
 - [`GAME-0063` — Rush Hour](../games/m-r/rush-hour.md)
 - [`GAME-0064` — SET](../games/s-z/set.md)
+- [`GAME-0487` — Sid Meier's Pirates!](../games/s-z/sid-meiers-pirates.md)
 - [`GAME-0082` — Signpost](../games/s-z/signpost.md)
 - [`GAME-0071` — Slant](../games/s-z/slant.md)
 - [`GAME-0006` — Sokoban](../games/s-z/sokoban.md)
@@ -138,7 +142,7 @@
 ## TIM-003
 
 - Назва: Давати команди, поки світ змінюється в реальному часі
-- Переглянуто: `2026-09-04`
+- Переглянуто: `2026-10-02`
 
 ### Операційне визначення
 
@@ -146,7 +150,7 @@
 
 ### Включає
 
-Переміщення, обертання або прискорення тетроміно NES Tetris, поки гравітація продовжує планувати падіння й остаточну фіксацію; розміщення елементів Pipe Dream, поки Flooz просувається побудованим трубопроводом; редагування мережі Mini Metro, поки станції, попит і транспорт змінюються за активним годинником симуляції; перерізання опор у Cut the Rope, поки цукерка продовжує гойдатися, падати й стикатися під дією живої фізики; компонування панелі Gorogoa під час єдиної рухомої задачі на точний момент, визначеної розробником; приєднання вузлів World of Goo, поки тривають гравітація, пружність, плавучість і рух вільних кульок; віддавання наказів загонам Bad North, поки просуваються транспортні судна, солдати й бій, зі сповільненням під час вибору як параметром; розміщення карт Loop Hero та заміна спорядження, поки просуваються герой, добовий цикл і сутички, з паузою як засобом планування; навігація й редагування випробування HUMANITY, поки ворота випускають людей і натовп рухається, із зупиненням часу та прискоренням; зміна положення маршрутних пристроїв Tin Hearts, поки солдатики йдуть і стикаються, з паузою та прискоренням як засобами зміни швидкості; рух і постріли порталами, поки триває фізика тіла в Portal; біг, стрибки або керування перемикачами, поки вороги й платформи Braid рухаються; відправлення й відкликання Pikmin, поки просуваються поверхневі роботи, перенесення, бій і добовий цикл; створення й обмін тілами The Swapper, поки тривають сповільнені гравітація та зіткнення; рух, стрибки й накладання зображень, поки фізика тіла Viewfinder лишається активною; складання й застосування рибальського пристрою The Longest Journey, поки його невиправлене надуте каченя продовжує втрачати повітря до замикання затискача; переміщення, прицілювання й відпускання шахової фігури Superliminal, поки лишаються активними оновлення положення предмета в руках та гравітація відпущеного тіла; зміна системи відліку гравітації Manifold Garden або керування періодичним падінням, поки триває фізика тіла; перенесення, опускання й перехід із рекурсивним ключем Maquette, поки лишаються активними положення ключа в руках, зіткнення й рух персонажа; розміщення, налаштування чи вилучення фабричних об’єктів Factorio, поки за активним годинником симуляції тривають видобування, перевезення, виробництво, дослідження, електропостачання, забруднення та дії ворогів; редагування доріг, зон, служб і політик SimCity 4 або Cities: Skylines, поки за активним годинником тривають забудова, рух і фінанси; навігація, прицілювання, бій, зламування й водіння в Cyberpunk 2077, поки персонажі світу й бій просуваються в реальному часі; рух, атаки, лікування, застосування здібностей і боротьба за ціль в Marvel Rivals, поки бій і годинники цілі лишаються активними; навігація, удари, застосування здібностей, зв’язування й ухилення в Hollow Knight: Silksong, поки вороги та небезпеки рухаються в реальному часі; пересування, застосування гака, керування перемикачами, пілотування й стрільба в Chapter 1 Split Fiction, поки небезпеки, транспорт і противники продовжують діяти в реальному часі; керування Farrah, поки потреби, настрій, автономні дії та спілкування тривають у режимі життя The Sims 4; рух, передачі, удари, перемикання й відбирання в EA SPORTS FC 26, поки м’яч, гравці, арбітр і годинник матчу продовжують діяти; коротке або тривале натискання єдиної вертикальної команди Geometry Dash, поки Stereo Madness продовжує автоматичний рух, фізику та заданий автором відлік рівня; рух, атаки, захист, кидки або витрачання Drive у Street Fighter 6, поки обидва бійці, снаряди, стани відновлення й годинник раунду лишаються активними; рух, спостереження, прорив, стрільба, застосування пристроїв, установлення чи вимкнення деактиватора в Rainbow Six Siege, поки відліки фаз й противники продовжують діяти; перегляд ролей, вказівок і замін Football Manager 26, поки автономний матч, стан гравців і годинник змінюються; кермування, стрибки, прискорення й контакт із м’ячем Rocket League, поки всі авто, фізика м’яча, можливості майданчиків і годинник матчу лишаються активними; кермування, гальмування, прискорення й тарани Need for Speed Payback, поки автовоз, Enforcers, дорожній рух, пошкодження й тиск місії продовжують діяти; кермування, гальмування й проходження контрольних точок у Trackmania, поки автомобіль рухається, а годинник заїзду не зупиняється; кермування й гальмування Need for Speed Underground, поки троє суперників, стан зіткнень і годинник вступного Circuit продовжують діяти.
+Переміщення, обертання або прискорення тетроміно NES Tetris, поки гравітація продовжує визначати спуск і подальшу фіксацію; розміщення елементів Pipe Dream, поки Flooz просувається побудованим трубопроводом; редагування мережі Mini Metro, поки станції, попит і транспорт змінюються за активним годинником симуляції; перерізання опор у Cut the Rope, поки цукерка продовжує гойдатися, падати й стикатися під дією фізики в реальному часі; компонування панелі Gorogoa під час єдиної рухомої задачі на точний момент, визначеної розробником; приєднання вузлів World of Goo, поки тривають гравітація, пружність, плавучість і рух вільних кульок; віддавання наказів загонам Bad North, поки просуваються транспортні судна, солдати й бій, зі сповільненням під час вибору як параметром; розміщення карт Loop Hero та заміна спорядження, поки просуваються герой, добовий цикл і сутички, з паузою як засобом планування; навігація й редагування випробування HUMANITY, поки ворота випускають людей і натовп рухається, із зупиненням часу та прискоренням; зміна положення маршрутних пристроїв Tin Hearts, поки солдатики йдуть і стикаються, з паузою та прискоренням як засобами зміни швидкості; рух і постріли порталами, поки триває фізика тіла в Portal; біг, стрибки або керування перемикачами, поки вороги й платформи Braid рухаються; відправлення й відкликання Pikmin, поки просуваються поверхневі роботи, перенесення, бій і добовий цикл; створення й обмін тілами The Swapper, поки тривають сповільнені гравітація та зіткнення; рух, стрибки й накладання зображень, поки фізика тіла Viewfinder лишається активною; складання й застосування рибальського пристрою The Longest Journey, поки його надута качечка без латки продовжує втрачати повітря до замикання затискача; переміщення, прицілювання й відпускання шахової фігури Superliminal, поки лишаються активними оновлення положення предмета в руках та гравітація відпущеного тіла; зміна системи відліку гравітації Manifold Garden або керування падінням крізь періодичну межу світу, поки триває фізика тіла; перенесення, опускання й перехід по рекурсивному ключу Maquette, поки лишаються активними положення ключа в руках, зіткнення й рух персонажа; розміщення, налаштування чи вилучення фабричних об’єктів Factorio, поки за активним годинником симуляції тривають видобування, перевезення, виробництво, дослідження, електропостачання, забруднення та дії ворогів; редагування доріг, зон, служб і політик SimCity 4 або Cities: Skylines, поки за активним годинником тривають забудова, рух і фінанси; навігація, прицілювання, бій, зламування й водіння в Cyberpunk 2077, поки персонажі світу й бій просуваються в реальному часі; рух, атаки, лікування, застосування здібностей і боротьба за ціль в Marvel Rivals, поки бій і годинники цілі лишаються активними; навігація, удари, застосування здібностей, зцілення дією Bind й ухилення в Hollow Knight: Silksong, поки вороги та небезпеки рухаються в реальному часі; пересування, застосування гака, керування перемикачами, пілотування й стрільба в Chapter 1 Split Fiction, поки небезпеки, транспорт і противники продовжують діяти в реальному часі; керування Farrah, поки потреби, настрій, автономні дії та спілкування тривають у режимі життя The Sims 4; рух, передачі, удари, перемикання й відбирання в EA SPORTS FC 26, поки м’яч, гравці, арбітр і годинник матчу продовжують діяти; коротке або тривале натискання єдиної вертикальної команди Geometry Dash, поки Stereo Madness продовжує автоматичний рух, фізику та заданий автором відлік рівня; рух, атаки, захист, кидки або витрачання Drive у Street Fighter 6, поки обидва бійці, снаряди, стани відновлення й годинник раунду лишаються активними; рух, спостереження, прорив, стрільба, застосування пристроїв, установлення чи вимкнення деактиватора в Rainbow Six Siege, поки відліки фаз й противники продовжують діяти; коригування ролей, вказівок і замін у Football Manager 26, поки автономний матч, стан гравців і годинник змінюються; кермування, стрибки, прискорення й контакт із м’ячем Rocket League, поки всі авто, фізика м’яча, можливості поповнення запасу прискорення на майданчиках і годинник матчу лишаються активними; кермування, гальмування, прискорення й тарани Need for Speed Payback, поки автовоз, Enforcers, дорожній рух, пошкодження й тиск місії продовжують діяти; кермування, гальмування й проходження контрольних точок у Trackmania, поки автомобіль рухається, а годинник заїзду не зупиняється; кермування й гальмування Need for Speed Underground, поки троє суперників, стан зіткнень і годинник вступного Circuit продовжують діяти. Кермування, заноси, використання предметів і збирання монет у Mario Kart 8 Deluxe, поки одинадцять комп’ютерних суперників, загрози предметів і положення на трасі продовжують змінюватися.
 
 ### Виключає
 
@@ -155,6 +159,7 @@
 ### Ігри-носії
 
 - [`GAME-0233` — 7 Days to Die](../games/0-9/7-days-to-die.md)
+- [`GAME-0478` — 80 Days](../games/0-9/80-days.md)
 - [`GAME-0228` — A Way Out](../games/a-f/a-way-out.md)
 - [`GAME-0124` — Against the Storm](../games/a-f/against-the-storm.md)
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
@@ -165,6 +170,7 @@
 - [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
 - [`GAME-0289` — American Truck Simulator](../games/a-f/american-truck-simulator.md)
 - [`GAME-0110` — Angry Birds Classic](../games/a-f/angry-birds-classic.md)
+- [`GAME-0511` — Animal Crossing: New Leaf](../games/a-f/animal-crossing-new-leaf.md)
 - [`GAME-0132` — Anno 1800](../games/a-f/anno-1800.md)
 - [`GAME-0097` — Antichamber](../games/a-f/antichamber.md)
 - [`GAME-0413` — Ape Escape](../games/a-f/ape-escape.md)
@@ -172,6 +178,7 @@
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
 - [`GAME-0312` — ASTRO BOT](../games/a-f/astro-bot.md)
+- [`GAME-0506` — Avowed](../games/a-f/avowed.md)
 - [`GAME-0027` — Bad North: Jotunn Edition](../games/a-f/bad-north.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
 - [`GAME-0423` — "Banjo-Kazooie: Nuts & Bolts"](../games/a-f/banjo-kazooie-nuts-and-bolts.md)
@@ -189,15 +196,19 @@
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
 - [`GAME-0308` — Bloodborne™](../games/a-f/bloodborne.md)
 - [`GAME-0265` — Bloons TD 6](../games/a-f/bloons-td-6.md)
+- [`GAME-0465` — Boom Blox](../games/a-f/boom-blox.md)
 - [`GAME-0034` — Braid, Anniversary Edition](../games/a-f/braid.md)
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
+- [`GAME-0470` — "Burnout 3: Takedown"](../games/a-f/burnout-3-takedown.md)
 - [`GAME-0374` — Burnout Paradise](../games/a-f/burnout-paradise.md)
 - [`GAME-0222` — "Call of Juarez: Gunslinger"](../games/a-f/call-of-juarez-gunslinger.md)
 - [`GAME-0135` — "Captain of Industry"](../games/a-f/captain-of-industry.md)
 - [`GAME-0302` — "Captain Toad: Treasure Tracker"](../games/a-f/captain-toad-treasure-tracker.md)
+- [`GAME-0477` — Catherine](../games/a-f/catherine.md)
 - [`GAME-0284` — "Cities: Skylines II"](../games/a-f/cities-skylines-ii.md)
 - [`GAME-0121` — "Cities: Skylines"](../games/a-f/cities-skylines.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
+- [`GAME-0490` — Comix Zone](../games/a-f/comix-zone.md)
 - [`GAME-0397` — 'Command & Conquer: Red Alert 2'](../games/a-f/command-and-conquer-red-alert-2.md)
 - [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0429` — Commandos: Behind Enemy Lines](../games/a-f/commandos-behind-enemy-lines.md)
@@ -215,6 +226,7 @@
 - [`GAME-0277` — Cuphead](../games/a-f/cuphead.md)
 - [`GAME-0021` — Cut the Rope](../games/a-f/cut-the-rope.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
+- [`GAME-0503` — Dance Central](../games/a-f/dance-central.md)
 - [`GAME-0406` — "DanceDanceRevolution"](../games/a-f/dancedancerevolution.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
@@ -223,6 +235,7 @@
 - [`GAME-0210` — DayZ](../games/a-f/dayz.md)
 - [`GAME-0161` — Dead by Daylight](../games/a-f/dead-by-daylight.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
+- [`GAME-0494` — Dead or Alive 2](../games/a-f/dead-or-alive-2.md)
 - [`GAME-0368` — Dead Rising](../games/a-f/dead-rising.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0310` — "DEATH STRANDING DIRECTOR’S CUT"](../games/a-f/death-stranding-directors-cut.md)
@@ -234,6 +247,7 @@
 - [`GAME-0322` — "Diablo II: Resurrected"](../games/a-f/diablo-ii-resurrected.md)
 - [`GAME-0437` — Diner Dash](../games/a-f/diner-dash.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
+- [`GAME-0495` — Donkey Kong Country Returns](../games/a-f/donkey-kong-country-returns.md)
 - [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0352` — DOOM (1993)](../games/a-f/doom-1993.md)
@@ -250,6 +264,8 @@
 - [`GAME-0433` — Ecco the Dolphin](../games/a-f/ecco-the-dolphin.md)
 - [`GAME-0092` — Echochrome](../games/a-f/echochrome.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
+- [`GAME-0491` — Elite](../games/a-f/elite.md)
+- [`GAME-0473` — "Eternal Darkness: Sanity's Requiem"](../games/a-f/eternal-darkness-sanitys-requiem.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
 - [`GAME-0384` — F-Zero GX](../games/a-f/f-zero-gx.md)
 - [`GAME-0405` — Fable II](../games/a-f/fable-ii.md)
@@ -260,12 +276,14 @@
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0196` — Farming Simulator 25](../games/a-f/farming-simulator-25.md)
+- [`GAME-0501` — F.E.A.R.](../games/a-f/fear.md)
 - [`GAME-0091` — Fez](../games/a-f/fez.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
 - [`GAME-0175` — Football Manager 26](../games/a-f/football-manager-26.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
 - [`GAME-0276` — Forza Horizon 5](../games/a-f/forza-horizon-5.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
+- [`GAME-0504` — Frostpunk 2](../games/a-f/frostpunk-2.md)
 - [`GAME-0130` — Frostpunk](../games/a-f/frostpunk.md)
 - [`GAME-0401` — "Fruit Ninja"](../games/a-f/fruit-ninja.md)
 - [`GAME-0418` — 'FTL: Faster Than Light'](../games/a-f/ftl-faster-than-light.md)
@@ -278,6 +296,7 @@
 - [`GAME-0316` — Gran Turismo](../games/g-l/gran-turismo.md)
 - [`GAME-0357` — "Grand Theft Auto: San Andreas"](../games/g-l/grand-theft-auto-san-andreas.md)
 - [`GAME-0145` — Grand Theft Auto V](../games/g-l/grand-theft-auto-v.md)
+- [`GAME-0468` — Gravity Rush](../games/g-l/gravity-rush.md)
 - [`GAME-0314` — Grounded](../games/g-l/grounded.md)
 - [`GAME-0372` — "Guitar Hero III: Legends of Rock"](../games/g-l/guitar-hero-iii-legends-of-rock.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
@@ -296,7 +315,10 @@
 - [`GAME-0029` — HUMANITY](../games/g-l/humanity.md)
 - [`GAME-0098` — Hyperbolica](../games/g-l/hyperbolica.md)
 - [`GAME-0399` — Ico](../games/g-l/ico.md)
+- [`GAME-0484` — Impossible Mission](../games/g-l/impossible-mission.md)
+- [`GAME-0510` — Indiana Jones and the Great Circle](../games/g-l/indiana-jones-and-the-great-circle.md)
 - [`GAME-0215` — It Takes Two](../games/g-l/it-takes-two.md)
+- [`GAME-0464` — "Jet Set Radio Future"](../games/g-l/jet-set-radio-future.md)
 - [`GAME-0350` — "Jet Set Radio"](../games/g-l/jet-set-radio.md)
 - [`GAME-0436` — Journey](../games/g-l/journey.md)
 - [`GAME-0376` — Katamari Damacy REROLL](../games/g-l/katamari-damacy-reroll.md)
@@ -311,6 +333,7 @@
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0394` — LittleBigPlanet 2](../games/g-l/littlebigplanet-2.md)
+- [`GAME-0482` — LocoRoco](../games/g-l/locoroco.md)
 - [`GAME-0028` — Loop Hero](../games/g-l/loop-hero.md)
 - [`GAME-0403` — "Luigi's Mansion"](../games/g-l/luigis-mansion.md)
 - [`GAME-0442` — 'Lumines: Puzzle Fusion'](../games/g-l/lumines-puzzle-fusion.md)
@@ -323,10 +346,13 @@
 - [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
+- [`GAME-0509` — MechAssault](../games/m-r/mechassault.md)
 - [`GAME-0389` — Mega Man 2](../games/m-r/mega-man-2.md)
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0339` — Metal Gear Solid](../games/m-r/metal-gear-solid.md)
+- [`GAME-0462` — Metal Slug 3](../games/m-r/metal-slug-3.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0474` — Metroid Fusion](../games/m-r/metroid-fusion.md)
 - [`GAME-0355` — Metroid Prime](../games/m-r/metroid-prime.md)
 - [`GAME-0180` — Microsoft Flight Simulator 2024](../games/m-r/microsoft-flight-simulator-2024.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
@@ -336,6 +362,7 @@
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
 - [`GAME-0393` — Mortal Kombat II](../games/m-r/mortal-kombat-ii.md)
+- [`GAME-0507` — MotorStorm](../games/m-r/motorstorm.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0241` — NBA 2K26](../games/m-r/nba-2k26.md)
@@ -351,16 +378,20 @@
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0229` — "No Man’s Sky"](../games/m-r/no-mans-sky.md)
 - [`GAME-0296` — Noita](../games/m-r/noita.md)
+- [`GAME-0483` — "Oddworld: Stranger's Wrath"](../games/m-r/oddworld-strangers-wrath.md)
 - [`GAME-0382` — Ōkami HD](../games/m-r/okami-hd.md)
 - [`GAME-0224` — Once Human](../games/m-r/once-human.md)
 - [`GAME-0431` — Ori and the Blind Forest](../games/m-r/ori-and-the-blind-forest.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
+- [`GAME-0481` — Out Run](../games/m-r/out-run.md)
 - [`GAME-0105` — Outer Wilds](../games/m-r/outer-wilds.md)
 - [`GAME-0300` — Overcooked! 2](../games/m-r/overcooked-2.md)
 - [`GAME-0181` — Overwatch](../games/m-r/overwatch.md)
 - [`GAME-0125` — Oxygen Not Included](../games/m-r/oxygen-not-included.md)
 - [`GAME-0342` — "PAC-MAN"](../games/m-r/pac-man.md)
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
+- [`GAME-0505` — Panzer Dragoon](../games/m-r/panzer-dragoon.md)
 - [`GAME-0396` — "PaRappa the Rapper Remastered"](../games/m-r/parappa-the-rapper-remastered.md)
 - [`GAME-0422` — Patapon](../games/m-r/patapon.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
@@ -370,10 +401,12 @@
 - [`GAME-0114` — Peggle Deluxe](../games/m-r/peggle-deluxe.md)
 - [`GAME-0035` — Pikmin 4](../games/m-r/pikmin-4.md)
 - [`GAME-0016` — Pipe Mania / Pipe Dream](../games/m-r/pipe-mania.md)
+- [`GAME-0479` — Pitfall!](../games/m-r/pitfall.md)
 - [`GAME-0298` — 'Planet Zoo: Console Edition'](../games/m-r/planet-zoo-console-edition.md)
 - [`GAME-0407` — Plants vs. Zombies](../games/m-r/plants-vs-zombies.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
 - [`GAME-0371` — Pokémon Snap](../games/m-r/pokemon-snap.md)
+- [`GAME-0480` — Populous](../games/m-r/populous.md)
 - [`GAME-0113` — Portal 2 — Cooperative Campaign](../games/m-r/portal-2-co-op.md)
 - [`GAME-0033` — Portal](../games/m-r/portal.md)
 - [`GAME-0279` — PowerWash Simulator](../games/m-r/powerwash-simulator.md)
@@ -388,10 +421,13 @@
 - [`GAME-0334` — Quake](../games/m-r/quake.md)
 - [`GAME-0446` — Railroad Tycoon II](../games/m-r/railroad-tycoon-ii.md)
 - [`GAME-0404` — Ratchet & Clank](../games/m-r/ratchet-and-clank.md)
+- [`GAME-0508` — Ready or Not](../games/m-r/ready-or-not.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0348` — "Resident Evil: Director’s Cut"](../games/m-r/resident-evil-directors-cut.md)
+- [`GAME-0512` — Resident Evil Requiem](../games/m-r/resident-evil-requiem.md)
+- [`GAME-0492` — "Resistance: Fall of Man"](../games/m-r/resistance-fall-of-man.md)
 - [`GAME-0454` — Rhythm Heaven](../games/m-r/rhythm-heaven.md)
 - [`GAME-0127` — RimWorld](../games/m-r/rimworld.md)
 - [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
@@ -406,6 +442,8 @@
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 - [`GAME-0356` — Shadow of the Colossus](../games/s-z/shadow-of-the-colossus.md)
 - [`GAME-0122` — shapez 2 - Factory](../games/s-z/shapez-2.md)
+- [`GAME-0485` — Shenmue](../games/s-z/shenmue.md)
+- [`GAME-0487` — Sid Meier's Pirates!](../games/s-z/sid-meiers-pirates.md)
 - [`GAME-0303` — Sifu](../games/s-z/sifu.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0430` — Silent Hill](../games/s-z/silent-hill.md)
@@ -413,9 +451,11 @@
 - [`GAME-0118` — SimCity 4 Deluxe Edition](../games/s-z/simcity-4-deluxe-edition.md)
 - [`GAME-0307` — Slime Rancher](../games/s-z/slime-rancher.md)
 - [`GAME-0417` — Sly Cooper and the Thievius Raccoonus](../games/s-z/sly-cooper-and-the-thievius-raccoonus.md)
+- [`GAME-0472` — Sonic Adventure](../games/s-z/sonic-adventure.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
+- [`GAME-0502` — South of Midnight](../games/s-z/south-of-midnight.md)
 - [`GAME-0360` — "Space Invaders"](../games/s-z/space-invaders.md)
 - [`GAME-0412` — Splatoon 3](../games/s-z/splatoon-3.md)
 - [`GAME-0157` — Split Fiction](../games/s-z/split-fiction.md)
@@ -427,12 +467,15 @@
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 - [`GAME-0225` — "STAR WARS: Squadrons"](../games/s-z/star-wars-squadrons.md)
 - [`GAME-0317` — StarCraft II](../games/s-z/starcraft-ii.md)
+- [`GAME-0469` — StarCraft](../games/s-z/starcraft.md)
 - [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 - [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
+- [`GAME-0466` — Streets of Rage 2](../games/s-z/streets-of-rage-2.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
 - [`GAME-0387` — Super Bomberman](../games/s-z/super-bomberman.md)
+- [`GAME-0460` — Super Mario 64](../games/s-z/super-mario-64.md)
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
 - [`GAME-0428` — Super Mario Maker](../games/s-z/super-mario-maker.md)
 - [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
@@ -451,6 +494,7 @@
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
+- [`GAME-0475` — The House of the Dead](../games/s-z/the-house-of-the-dead.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
 - [`GAME-0395` — "The Legend of Zelda: Majora’s Mask"](../games/s-z/the-legend-of-zelda-majoras-mask.md)
@@ -460,10 +504,12 @@
 - [`GAME-0087` — The Longest Journey](../games/s-z/the-longest-journey.md)
 - [`GAME-0383` — The Sims 2: Legacy Collection](../games/s-z/the-sims-2-legacy-collection.md)
 - [`GAME-0158` — The Sims 4](../games/s-z/the-sims-4.md)
+- [`GAME-0461` — The Sims](../games/s-z/the-sims.md)
 - [`GAME-0116` — The Stanley Parable: Ultra Deluxe](../games/s-z/the-stanley-parable-ultra-deluxe.md)
 - [`GAME-0038` — The Swapper](../games/s-z/the-swapper.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 - [`GAME-0370` — Theme Hospital](../games/s-z/theme-hospital.md)
+- [`GAME-0513` — Thief: The Dark Project](../games/s-z/thief-the-dark-project.md)
 - [`GAME-0133` — Timberborn](../games/s-z/timberborn.md)
 - [`GAME-0443` — Time Crisis](../games/s-z/time-crisis.md)
 - [`GAME-0030` — Tin Hearts](../games/s-z/tin-hearts.md)
@@ -475,20 +521,28 @@
 - [`GAME-0365` — Tony Hawk’s Pro Skater 1 + 2](../games/s-z/tony-hawks-pro-skater-1-plus-2.md)
 - [`GAME-0191` — "Total War: WARHAMMER III"](../games/s-z/total-war-warhammer-iii.md)
 - [`GAME-0216` — Trackmania](../games/s-z/trackmania.md)
+- [`GAME-0498` — Transport Fever 2](../games/s-z/transport-fever-2.md)
+- [`GAME-0471` — 'Trauma Center: Under the Knife'](../games/s-z/trauma-center-under-the-knife.md)
 - [`GAME-0409` — 'Twisted Metal: Black'](../games/s-z/twisted-metal-black.md)
 - [`GAME-0391` — "Uncharted 2: Among Thieves"](../games/s-z/uncharted-2-among-thieves.md)
 - [`GAME-0268` — Undertale](../games/s-z/undertale.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
+- [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 - [`GAME-0183` — Vampire Survivors](../games/s-z/vampire-survivors.md)
+- [`GAME-0467` — Vib-Ribbon](../games/s-z/vib-ribbon.md)
 - [`GAME-0041` — Viewfinder](../games/s-z/viewfinder.md)
 - [`GAME-0375` — Viva Piñata](../games/s-z/viva-pinata.md)
 - [`GAME-0184` — War Thunder](../games/s-z/war-thunder.md)
 - [`GAME-0328` — "Warcraft III: Reign of Chaos"](../games/s-z/warcraft-iii-reign-of-chaos.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
+- [`GAME-0496` — "Warhammer 40,000: Space Marine 2"](../games/s-z/warhammer-40000-space-marine-2.md)
+- [`GAME-0497` — Wario Land 4](../games/s-z/wario-land-4.md)
 - [`GAME-0398` — 'WarioWare, Inc.: Mega Microgame$!'](../games/s-z/warioware-inc-mega-microgame.md)
+- [`GAME-0493` — Where's My Water?](../games/s-z/wheres-my-water.md)
 - [`GAME-0439` — Wii Fit](../games/s-z/wii-fit.md)
 - [`GAME-0364` — Wii Sports](../games/s-z/wii-sports.md)
+- [`GAME-0488` — wipEout](../games/s-z/wipeout.md)
 - [`GAME-0134` — "Workers & Resources: Soviet Republic"](../games/s-z/workers-resources-soviet-republic.md)
 - [`GAME-0026` — World of Goo](../games/s-z/world-of-goo.md)
 - [`GAME-0211` — World of Tanks](../games/s-z/world-of-tanks.md)
@@ -547,20 +601,20 @@
 
 ## TIM-006
 
-- Назва: Редаговане проєктування перед скидним автоматичним запуском
+- Назва: Редагування конструкції перед автоматичним запуском із можливістю скидання
 - Переглянуто: `2026-08-24`
 
 ### Операційне визначення
 
-Гравець без тиску часу редагує постійну конструкцію машини та будь-який заданий автором розклад команд, а потім запускає детерміноване багатоциклове виконання, у якому редагування конструкції недоступне, доки виконання не зупиниться, не зазнає помилки, не завершиться або не буде скинуте.
+Гравець без тиску часу редагує постійну конструкцію машини та створений для неї розклад команд, якщо такий є. Потім запускає детерміноване виконання протягом багатьох циклів, під час якого редагування конструкції недоступне, доки виконання не зупиниться, не перерветься через помилку, не завершиться або не буде скинуте.
 
 ### Включає
 
-Повторюваний цикл побудови, програмування, тестування й перегляду Opus Magnum; редагування маршруту та символів SpaceChem без тиску часу з подальшими зафіксованими циклічними тестами реактора; компонування конвеєрів Infinifactory без тиску часу з подальшою зафіксованою симуляцією фабрики, яку можна призупинити, зупинити й скинути.
+Повторюваний цикл побудови, програмування, тестування й доопрацювання конструкції в Opus Magnum; редагування маршрутів і символів у SpaceChem без тиску часу з подальшим циклічним тестуванням реактора із зафіксованими маршрутами й символами; компонування конвеєрів в Infinifactory без тиску часу з подальшим виконанням зафіксованого компонування в симуляції фабрики, яку можна призупинити, зупинити або скинути.
 
 ### Виключає
 
-Редагування, поки активна симуляція триває; одну вхідну дію з однією завершеною автоматичною відповіддю; обмежену тактичну фазу планування з подальшим ворожим розв’язанням і ще однією фазою планування в межах місії.
+Редагування, поки симуляція продовжує працювати; одну дію гравця з однією повністю завершеною автоматичною відповіддю; обмежену тактичну фазу планування з подальшим виконанням дій супротивника й наступною фазою планування в межах тієї самої місії.
 
 ### Ігри-носії
 
@@ -572,15 +626,15 @@
 ## TIM-007
 
 - Назва: Завантажити попередній стан і створити інше продовження
-- Переглянуто: `2026-08-24`
+- Переглянуто: `2026-10-05`
 
 ### Операційне визначення
 
-Гра зберігає попередні стани світу, дозволяє відновити один із них і продовжити з новими діями; нове продовження не зобов’язане повторювати події, які сталися після початкового збереження.
+Система зберігає попередні стани світу протягом безперервного просування, дозволяє гравцеві відновити один із них і виконати нове втручання, продовження якого замінює раніше спостережене майбутнє.
 
 ### Включає
 
-Перемотування Tin Hearts до моменту перед падінням солдатика, переміщення маршрутного блока й продовження іншим шляхом; перемотування Timelie до моменту перед захопленням, зміну команди з часовою позначкою й пошук замінного майбутнього; перемотування вже прожитих станів Braid і відновлення з іншим локальним рухом, де позначені винятки для сутностей є параметром; відновлення збереженого кількома хвилинами раніше автозбереження Pikmin 4 і розігрування інших призначень завдань; перемотування Viewfinder до моменту перед падінням або руйнівним розміщенням фотографії та продовження з іншою позою; відновлення ручного або автоматичного збереження Cyberpunk 2077 і вибір інших бойових дій, реплік або маршруту.
+Перемотування Tin Hearts до моменту перед падінням солдатика, переміщення маршрутного блока й продовження іншим шляхом; перемотування Timelie до моменту перед захопленням, зміну команди з часовою позначкою й перехід на часовій шкалі до майбутнього, яке замінило попереднє; перемотування вже прожитих станів Braid і продовження з іншим локальним рухом, із позначеними винятками для сутностей як параметром; відновлення збереженого кількома хвилинами раніше автозбереження Pikmin 4 і повторну гру з іншими призначеннями завдань; перемотування Viewfinder до моменту перед падінням або руйнівним розміщенням фотографії та продовження з іншою позою; відновлення ручного або автоматичного збереження Cyberpunk 2077 і вибір інших бойових дій, реплік або маршруту.
 
 ### Виключає
 
@@ -590,6 +644,7 @@
 
 - [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
+- [`GAME-0506` — Avowed](../games/a-f/avowed.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
 - [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0034` — Braid, Anniversary Edition](../games/a-f/braid.md)
@@ -599,24 +654,30 @@
 - [`GAME-0353` — "Deus Ex: Game of the Year Edition"](../games/a-f/deus-ex-game-of-the-year-edition.md)
 - [`GAME-0231` — Fallout 4](../games/a-f/fallout-4.md)
 - [`GAME-0361` — Fallout: New Vegas](../games/a-f/fallout-new-vegas.md)
+- [`GAME-0501` — F.E.A.R.](../games/a-f/fear.md)
 - [`GAME-0314` — Grounded](../games/g-l/grounded.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0483` — "Oddworld: Stranger's Wrath"](../games/m-r/oddworld-strangers-wrath.md)
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 - [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
 - [`GAME-0035` — Pikmin 4](../games/m-r/pikmin-4.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0344` — "Prince of Persia: The Sands of Time"](../games/m-r/prince-of-persia-the-sands-of-time.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0348` — "Resident Evil: Director’s Cut"](../games/m-r/resident-evil-directors-cut.md)
+- [`GAME-0512` — Resident Evil Requiem](../games/m-r/resident-evil-requiem.md)
 - [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0362` — "The Elder Scrolls III: Morrowind"](../games/s-z/the-elder-scrolls-iii-morrowind.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
+- [`GAME-0513` — Thief: The Dark Project](../games/s-z/thief-the-dark-project.md)
 - [`GAME-0031` — Timelie](../games/s-z/timelie.md)
 - [`GAME-0030` — Tin Hearts](../games/s-z/tin-hearts.md)
 - [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
 - [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
+- [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
 - [`GAME-0041` — Viewfinder](../games/s-z/viewfinder.md)
 
 ## TIM-008
@@ -736,7 +797,7 @@ Simon показує світлову послідовність, чекає н�
 
 ### Включає
 
-Stardew Valley позначає `Boiler Room` завершеною після заповнення останнього пакета, показує нічний ремонт вагонеток Junimos і відкриває подорож вагонетками наступного дня.
+Позначення кімнати Boiler Room як завершеної в Stardew Valley після заповнення її останнього пакета, нічний ремонт вагонеток істотами Junimo та відкриття подорожей вагонетками наступного дня.
 
 ### Виключає
 
@@ -762,7 +823,7 @@ Stardew Valley позначає `Boiler Room` завершеною після з
 
 ### Виключає
 
-Остаточний крайній термін спроби; симуляцію живого світу, яка змінює поточну справу; зовнішній таймер швидкісного проходження; фіксовану кількість дій.
+Кінцевий строк усієї спроби; симуляцію світу в реальному часі, яка змінює поточну справу; зовнішній таймер швидкісного проходження; фіксовану кількість дій.
 
 ### Ігри-носії
 
@@ -779,7 +840,7 @@ Stardew Valley позначає `Boiler Room` завершеною після з
 
 ### Включає
 
-Надто довгу паузу між напрямками Святого Хреста в TUNIC із подальшим повторним початком коду дверей біля фонтану; «Допомога з послідовністю» усуває цю часову вимогу.
+Надто довгу паузу між напрямками Holy Cross у TUNIC із подальшим початком коду дверей біля фонтану заново; Sequence Assist усуває цю часову вимогу.
 
 ### Виключає
 
@@ -796,7 +857,7 @@ Stardew Valley позначає `Boiler Room` завершеною після з
 
 ### Операційне визначення
 
-Після початку повторюваної симуляції її світ продовжує змінюватися, а гравець — керувати ним, доки задана авторами кінцева подія фіксованої тривалості не завершить поточну ітерацію та не запустить наступну.
+Після початку повторюваної симуляції її світ продовжує змінюватися й введення гравця лишається доступним, доки задана авторами кінцева подія після фіксованого проміжку часу не завершить поточну ітерацію та не запустить наступну.
 
 ### Включає
 
@@ -817,11 +878,11 @@ Stardew Valley позначає `Boiler Room` завершеною після з
 
 ### Операційне визначення
 
-Спільний світ продовжує жити за серверним часом, поки гравець від’єднаний, тому витрати на утримання, руйнування, тіла від’єднаних гравців і ворожі дії можуть змінити його стан до повернення.
+Спільний світ продовжує змінюватися за серверним часом, поки один гравець від’єднаний, тому утримання, занепад, тіла від’єднаних гравців і ворожі дії можуть змінити стан, до якого цей гравець повернеться після під’єднання.
 
 ### Включає
 
-Збереження світу та рейди за відсутності власника в межах одного циклу Rust.
+Збереження стану й рейди в Rust, поки гравець від’єднаний, у межах циклу між плановими скиданнями світу.
 
 ### Виключає
 
@@ -834,19 +895,19 @@ Stardew Valley позначає `Boiler Room` завершеною після з
 ## TIM-018
 
 - Назва: Чергувати багатокомандні ходи цілих держав
-- Переглянуто: `2026-09-21`
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-Надавати кожній державі послідовний відкритий хід для допустимої підмножини наказів одиницям, героям, поселенням, економіці, дослідженню чи дипломатії; завершення передає керування, а спільний день або раунд підбивається після всіх держав.
+Лише одна держава за раз отримує відкритий проміжок для рішень, у якому може видати будь-яку допустиму підмножину команд одиницям, героям, поселенням, економіці, дослідженням чи дипломатії; End Turn передає право діяти наступній державі, а підсумок будь-якого спільного дня чи раунду настає після дій усіх держав.
 
 ### Включає
 
-Рим і його суперники у Civilization VI; королівства в межах дня кампанії Heroes III.
+Рим і його фіксованих суперників у Civilization VI; послідовні ходи королівств у межах дня кампанії Heroes of Might and Magic III.
 
 ### Виключає
 
-Одночасне виконання в реальному часі; чергування після кожної одиничної дії; багатокористувацький режим.
+Чергування ходів після кожної одиничної дії; одночасні приховані накази; ігровий світ, що продовжує змінюватися, поки гравець обмірковує рішення.
 
 ### Ігри-носії
 
@@ -862,15 +923,15 @@ Stardew Valley позначає `Boiler Room` завершеною після з
 
 ### Операційне визначення
 
-Гравці почергово отримують активний хід, але обидва можуть діяти у наданих вікнах пріоритету; послідовні відмови виконують об’єкт або просувають фазу.
+Гравці почергово володіють активним ходом, але обидва можуть діяти всередині цього ходу щоразу, коли правила надають їм пріоритет; послідовні передачі пріоритету без дії розв’язують один об’єкт стека або просувають поточну фазу чи крок.
 
 ### Включає
 
-Визначену партію MTG Arena для двох гравців із діями в головній фазі, оголошеннями в бою й миттєвими відповідями під час ходу будь-якого гравця.
+Досліджену партію MTG Arena для двох гравців із діями в головній фазі, бойовими оголошеннями й відповідями, які можна дати за правилами часу застосування миттєвих заклять, під час ходу будь-якого гравця.
 
 ### Виключає
 
-Чергування по одній дії; приховані накази; автономну ворожу фазу; реальний час.
+Чергування ходів по одній дії; одночасні приховані накази; планування одного гравця перед автономною ворожою фазою; необмежений реальний час.
 
 ### Ігри-носії
 
@@ -891,7 +952,7 @@ Stardew Valley позначає `Boiler Room` завершеною після з
 
 ### Виключає
 
-Пріоритет MTG і розв’язання одного верхнього об’єкта; одночасні приховані накази; фазу планування перед автоматичним ходом ворога.
+Пріоритет MTG і розв’язання одного об’єкта стека; одночасні приховані накази; одну фазу планування перед автономною ворожою фазою.
 
 ### Ігри-носії
 
@@ -925,7 +986,7 @@ Stardew Valley позначає `Boiler Room` завершеною після з
 
 ### Операційне визначення
 
-Завершення поточної обов’язкової сюжетної справи переводить кампанію до наступної авторської календарної дати або частини дня, а в межах цієї послідовності гравець ще не може вільно обирати розклад.
+Завершення поточної обов’язкової сюжетної справи переводить кампанію до наступної заданої авторами календарної дати або частини дня; у межах дослідженої послідовності немає вільного вибору розкладу.
 
 ### Включає
 
@@ -962,20 +1023,20 @@ Stardew Valley позначає `Boiler Room` завершеною після з
 
 ## TIM-024
 
-- Назва: Чергувати набори, а потім разом підрахувати стіни
-- Переглянуто: `2026-09-18`
+- Назва: Чергувати ходи набору плиток і спільно завершувати викладання стін
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-Гравці по черзі набирають плитки з відкритих джерел, поки майстерні й центр не спорожніють; лише тоді спільна фаза переносить повні рядки, рахує стіни та штрафи, перевіряє кінець гри й поновлює джерела.
+Гравці по черзі повністю виконують набір плиток із відкритих пропозицій, доки майстерні й центр не спорожніють. Лише тоді спільна фаза раунду переносить завершені ряди візерунка, підраховує очки за стіни та лінії підлоги, перевіряє умову завершення й поновлює пропозиції.
 
 ### Включає
 
-Раунди набору й викладання стіни в партії Azul на двох.
+Цикл набору плиток і викладання стін у базовій Azul на двох гравців.
 
 ### Виключає
 
-Підрахунок стіни після кожного набору; одночасний вибір плиток; дії в реальному часі.
+Підрахунок стіни після кожного набору; одночасний вибір плиток із відкритих пропозицій; інтервал відповіді в реальному часі або з обмеженням часу.
 
 ### Ігри-носії
 
@@ -984,28 +1045,30 @@ Stardew Valley позначає `Boiler Room` завершеною після з
 ## TIM-025
 
 - Назва: Синхронізувати сталий світ із реальним календарем
-- Переглянуто: `2026-09-20`
+- Переглянуто: `2026-10-01`
 
 ### Операційне визначення
 
-Просувати дату, годинник, освітлення й календарно залежний стан сталого однокористувацького світу за реальним часом системи під час гри та відсутності без ходів гравця.
+Просувати дату, годинник, освітлення й календарно залежний стан сталого однокористувацького світу за налаштованим джерелом реального місцевого часу під час гри та відсутності без ходів гравця.
 
 ### Включає
 
-Звичайний острівний час без подорожі в часі в Animal Crossing: New Horizons.
+Звичайний острівний час без подорожі в часі в Animal Crossing: New Horizons; годинник картриджа Game Boy Color із живленням від батарейки, який визначає допустимість зустрічей залежно від часу доби в оригінальній Pokémon Gold Version.
 
 ### Виключає
 
-Авторські сюжетні дати; незалежний серверний годинник; таймер зіграного часу; прискорений цикл дня; ручну зміну системного часу.
+Авторські сюжетні дати; віддалений серверний годинник, незалежний від місцевого часу гравця; таймер зіграного часу; прискорений цикл дня; ручну зміну системного часу.
 
 ### Ігри-носії
 
 - [`GAME-0320` — "Animal Crossing: New Horizons"](../games/a-f/animal-crossing-new-horizons.md)
+- [`GAME-0511` — Animal Crossing: New Leaf](../games/a-f/animal-crossing-new-leaf.md)
+- [`GAME-0463` — "Pokémon Gold Version"](../games/m-r/pokemon-gold-version.md)
 
 ## TIM-026
 
 - Назва: Наповнювати паралельні шкали готовності перед вибором команди
-- Переглянуто: `2026-09-21`
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
@@ -1017,7 +1080,7 @@ Stardew Valley позначає `Boiler Room` завершеною після з
 
 ### Виключає
 
-Суворе чергування сторін; сам вибір конкретної команди; шкалу Limit; точну внутрішню формулу швидкості; непідтверджену поведінку таймера місії в меню.
+Суворе чергування ходів; видиму фіксовану чергу майбутніх ходів; ходи з очками дій без незалежного просування готовності; бій із безпосереднім керуванням у реальному часі без готовності до команди.
 
 ### Ігри-носії
 
@@ -1031,36 +1094,37 @@ Stardew Valley позначає `Boiler Room` завершеною після з
 
 ### Операційне визначення
 
-Доки гравець утримує радіальне меню бойових наказів, звичайний час бою зупинено: можна оглянути цілі й обрати доступні здібності напарників або зброю; після закриття меню зафіксовані накази виконуються у живому бою.
+Доки гравець утримує радіальне меню тактичних наказів, звичайний час бою в реальному часі зупинено: гравець оглядає цілі й фіксує вибір доступних здібностей напарників або спорядження. Після закриття меню ці зафіксовані рішення виконуються в бою в реальному часі.
 
 ### Включає
 
-Меню здібностей і зброї Mass Effect 2 на станції «Лазар» і Freedom's Progress, зокрема по одній запланованій здібності для кожного придатного напарника.
+Меню здібностей і зброї Mass Effect 2 у межах досліджених сутичок на станції «Лазар» і в Freedom's Progress, зокрема постановку в чергу однієї здібності для кожного допустимого напарника, поки меню здібностей відкрите.
 
 ### Виключає
 
-Постійну заміну бою ходами; звичайну паузу без бойових наказів; відновлення здібності незалежно від часу бою; пересування чи стрільбу під час утримування меню.
+Постійну заміну бою ходами; меню паузи, яке не приймає тактичних наказів; час відновлення, що продовжує спливати незалежно від бою в реальному часі; пересування чи стрільбу, поки радіальне меню лишається відкритим.
 
 ### Ігри-носії
 
+- [`GAME-0506` — Avowed](../games/a-f/avowed.md)
 - [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 
 ## TIM-028
 
-- Назва: Чергувати ходи команд після завершення руху снарядів
+- Назва: Чергувати обмежені часом ходи команд після припинення фізичного руху
 - Переглянуто: `2026-09-24`
 
 ### Операційне визначення
 
-Команди отримують виняткові вікна керування по черзі, доки спливає час ходу; після пострілу або завершення часу фізичний рух має припинитися, перш ніж почнеться вікно іншої команди.
+Команди по черзі отримують виняткове право віддавати команди протягом вікна з поточним відліком часу ходу. Після пострілу або спливу часу фізичний рух має завершитися, перш ніж почнеться обмежене часом вікно керування наступної команди.
 
 ### Включає
 
-Локальні артилерійські ходи двох команд у Worms Armageddon.
+Артилерійські ходи двох команд у Worms Armageddon без мережевого з’єднання.
 
 ### Виключає
 
-Шаховий один дискретний хід за TIM-004, одночасне керування, рух обох команд у реальному часі й снаряд, що продовжує летіти під час рішення супротивника.
+Шахи з однією дискретною дією в кожному почерговому ході (TIM-004); одночасне введення команд; рух представників різних команд у реальному часі; снаряд, що ще рухається під час вікна прийняття рішення суперником.
 
 ### Ігри-носії
 
@@ -1073,7 +1137,7 @@ Stardew Valley позначає `Boiler Room` завершеною після з
 
 ### Операційне визначення
 
-У меню можна вирішувати без таймера, але рух, відпочинок, полювання, обмін, очікування й переправа просувають календар на один або кілька днів із щоденним оновленням стану.
+У меню подорожі гравець може обмірковувати рішення без поточного відліку часу. Після вибору подорожі, відпочинку, полювання, обміну, очікування чи переправи симуляція просувається на один або кілька днів і визначає щоденні стани перед наступним вибором.
 
 ### Включає
 
@@ -1081,7 +1145,7 @@ Stardew Valley позначає `Boiler Room` завершеною після з
 
 ### Виключає
 
-Безперервний реальний час у меню (`TIM-003`); дію головоломки без витрат часу (`TIM-002`); календар, синхронізований із реальним світом.
+Примусовий плин реального часу, поки меню відкрите (TIM-003); дії головоломки без плину часу (TIM-002); синхронізацію з реальним календарем.
 
 ### Ігри-носії
 
@@ -1090,11 +1154,11 @@ Stardew Valley позначає `Boiler Room` завершеною після з
 ## TIM-030
 
 - Назва: Призупиняти корабельний бій для наказів і відновлювати час
-- Переглянуто: `2026-09-27`
+- Переглянуто: `2026-10-13`
 
 ### Операційне визначення
 
-Керована пауза зупиняє перебіг корабельного бою, поки гравець оглядає стан і віддає доступні накази екіпажу, енергосистемам або зброї. Після відновлення часу розв’язуються постріли, рух людей, ремонт, небезпеки й заряджання двигуна.
+Зворотна пауза, керована гравцем, зупиняє поточну симуляцію корабельного бою, поки він оглядає стан і віддає допустимі накази екіпажу, енергосистемам або вибору цілей. Після зняття паузи відновлюються постріли, рух, ремонт, небезпеки й таймери заряджання.
 
 ### Включає
 
@@ -1102,7 +1166,7 @@ Stardew Valley позначає `Boiler Room` завершеною після з
 
 ### Виключає
 
-Черговість ходів; плин часу під час паузи; системне меню без бойових наказів; утримуване радіальне меню Mass Effect 2 з окремими здібностями напарників (`TIM-027`).
+Черговість ходів; плин часу під час паузи; неінтерактивне системне меню; утримуване радіальне меню Mass Effect 2 з окремими здібностями напарників (`TIM-027`).
 
 ### Ігри-носії
 
@@ -1128,3 +1192,66 @@ Stardew Valley позначає `Boiler Room` завершеною після з
 ### Ігри-носії
 
 - [`GAME-0444` — "Harvest Moon: Back to Nature"](../games/g-l/harvest-moon-back-to-nature.md)
+
+## TIM-032
+
+- Назва: Зупиняти час кампанії в живих дуелях і розподілі трофея, але не морському бою
+- Переглянуто: `2026-10-03`
+
+### Операційне визначення
+
+Календар кампанії рухається під час живої морської фази з визначеним темпом бою, але зупиняється під час живих дуелей капітанів і нетермінових трофейних меню; зупинений календар кампанії не перетворює дуель на дискретні ходи.
+
+### Включає
+
+Звичайна морська сутичка оригінальної Windows-гри Sid Meier's Pirates!. Морський бій рухає час кампанії; фехтування лишається живим, коли календар стоїть.
+
+### Виключає
+
+Реальний календар; єдиний годинник усіх фаз; покрокову дуель, виведену зі зупиненого часу кампанії; невиміряні точні коефіцієнти часу.
+
+### Ігри-носії
+
+- [`GAME-0487` — Sid Meier's Pirates!](../games/s-z/sid-meiers-pirates.md)
+
+## TIM-033
+
+- Назва: Завершувати планування всього загону перед автоматичним перемежованим раундом
+- Переглянуто: `2026-10-04`
+
+### Операційне визначення
+
+Бій очікує, поки гравець оглядає стан і задає команди доступному загону; лише після підтвердження повного набору виконується один автоматичний раунд із перемежованими діями союзників і ворогів, а незавершена сутичка повертається до планування.
+
+### Включає
+
+Повне введення команд загону з наступним виконанням за спритністю в оригінальній Golden Sun.
+
+### Виключає
+
+Шкалу ATB, що зростає під час вибору; одне введення з повним виконанням; вільне виконання фази гравця перед окремою ворожою фазою; живий строк на обдумування меню.
+
+### Ігри-носії
+
+- [`GAME-0489` — Golden Sun](../games/g-l/golden-sun.md)
+
+## TIM-034
+
+- Назва: Відновлювати незбережений польовий рівень лише зі стану на його межі
+- Переглянуто: `2026-10-05`
+
+### Операційне визначення
+
+Звичайний вихід і завантаження під час польового рівня відкидають його незбережений поступ та відновлюють збережений стан на межі входу до цього рівня, а не в останній поточній позиції; окремо дозволені збереження вдома й відмова з поверненням додому залишаються іншими шляхами збереження.
+
+### Включає
+
+Втрату поступу поточного рівня через Quit to Menu й відновлення з його початку в Pacific Drive PC 1.4.0, на відміну від збереження в гаражі та Abandon, Save, Quit.
+
+### Виключає
+
+Продовження призупиненого стану всередині польової локації; безперервне перемотування до довільних моментів; автоматичне повернення з покаранням відмови; видалення всієї кампанії; твердження про підтверджені приховані налаштування запису.
+
+### Ігри-носії
+
+- [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)

@@ -138,6 +138,14 @@ gene_ids:
 
 - Reused: autonomous movement, combat, production, power, extraction, errand
   routing, hauling, quality, personal need-memory outcomes and staffed research.
+- `SYS-197` is supported by quality-bearing crafted or built items: the
+  relevant pawn skill changes their finished quality, while Crafting level
+  does not set crafting speed. General labor speed and required work set the
+  latter; selected material and quality affect value where applicable.
+  [Skills](https://rimworldwiki.com/wiki/Crafting),
+  [quality](https://rimworldwiki.com/wiki/Quality) and
+  [market value](https://rimworldwiki.com/wiki/Market_Value) qualify these
+  separate outcomes.
 - New: `SYS-203`–`SYS-206`, `SYS-208` and `SYS-209` cover storyteller pressure,
   body capacities, relationships, recruitment, cover-sensitive wounds and map
   generation.
@@ -234,7 +242,7 @@ gene_ids:
 | Type | Active gene IDs | Candidate genes or parameters |
 |---|---|---|
 | Action | `ACT-006`, `ACT-120`, `ACT-144`, `ACT-145`, `ACT-147`–`ACT-152`, `ACT-155`–`ACT-158` | policy, draft, bill and caravan parameters |
-| System Behaviour | `SYS-004`, `SYS-045`, `SYS-051`, `SYS-156`, `SYS-158`, `SYS-161`, `SYS-186`, `SYS-196`–`SYS-198`, `SYS-203`–`SYS-209` | incident, health, relation and combat parameters |
+| System Behaviour | `SYS-004`, `SYS-045`, `SYS-051`, `SYS-156`, `SYS-158`, `SYS-161`, `SYS-186`, `SYS-194`, `SYS-196`, `SYS-197`, `SYS-198`, `SYS-203`, `SYS-204`, `SYS-205`, `SYS-206`, `SYS-208`, `SYS-209` | incident, health, relation and combat parameters |
 | Constraint | `CON-062`, `CON-172`, `CON-192`, `CON-193`, `CON-199`, `CON-200`, `CON-202`–`CON-205` | policy, caravan and ship gates |
 | Information | `INF-001`, `INF-002`, `INF-059`, `INF-071`, `INF-072` | panel and alert granularity |
 | Objective | `OBJ-062` | constructed-ship ending |

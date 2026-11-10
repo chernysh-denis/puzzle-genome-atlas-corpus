@@ -75,7 +75,17 @@ gene instances but do not enter the signature.
   registration; cup extra time and penalties; a multi-match form cycle.
 - Direct-play status: not conducted. Official Football Manager material fixes
   the setup, squad, dual-tactics and match-management interfaces; official
-  Premier League and IFAB material fixes the fixture and competition laws.
+  Premier League and IFAB material fixes the fixture and competition laws. P7
+  reread the official dual-tactics and match-day articles, the PC 26.3.1 staff
+  changelist and the earlier 26.2 Visualiser change. No identified 26.3.1
+  client/save or complete initial authoring, live editing, uncommitted
+  analysis, confirmation and first-eligible application trace was inspected.
+  These documents establish interface capabilities, not disjoint ownership of
+  every action predicate. Neither pre-match-only narrowing of ACT-304 nor
+  absorption of ACT-305 is accepted. The selected Liverpool Quick Start, dual
+  plans, live interventions and recorded fixture/table terminal remain
+  unchanged; no exact application tick or stoppage is invented. Existing
+  evidence metadata is retained, not upgraded.
 
 ## Claim ledger
 

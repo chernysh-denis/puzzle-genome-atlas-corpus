@@ -7961,7 +7961,7 @@
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
         "edition": "Windows Steam launch/base Standard Co-Op campaign",
-        "editionUk": "Стартова/базова кампанія Standard Co-Op для Windows у Steam",
+        "editionUk": "Кампанія Standard Co-Op базового видання для Windows у Steam на момент релізу",
         "version": "Portal 2 Steam app 620, original 18 April 2011 two-person cooperative campaign, bounded to one ordinary authored chamber played online by two separate Windows clients; local split-screen, Peer Review, Perpetual Testing Initiative and console editions are excluded.",
         "distribution": "Steam app 620 for Windows; two-client online Standard Co-Op",
         "evidenceUrl": "https://store.steampowered.com/app/620/Portal_2/",
@@ -7977,7 +7977,7 @@
           "releaseKey": "analysis-target",
           "platformId": "PLAT-WINDOWS-PC",
           "edition": "Windows Steam launch/base Standard Co-Op campaign",
-          "editionUk": "Стартова/базова кампанія Standard Co-Op для Windows у Steam",
+          "editionUk": "Кампанія Standard Co-Op базового видання для Windows у Steam на момент релізу",
           "region": "Steam region not separately constrained by source",
           "availability": "available-digital",
           "rulesetRelation": "analysis-target",
@@ -7989,7 +7989,7 @@
           "releaseKey": "linux",
           "platformId": "PLAT-LINUX",
           "edition": "Portal 2 — Cooperative Campaign — catalogue release",
-          "editionUk": "Portal 2 — Cooperative Campaign — реліз у каталозі",
+          "editionUk": "Portal 2 (кооперативна кампанія) — реліз у каталозі",
           "region": "not stated by catalogue",
           "availability": "unknown",
           "rulesetRelation": "unassessed",
@@ -8001,7 +8001,7 @@
           "releaseKey": "macos",
           "platformId": "PLAT-MACOS",
           "edition": "Portal 2 — Cooperative Campaign — catalogue release",
-          "editionUk": "Portal 2 — Cooperative Campaign — реліз у каталозі",
+          "editionUk": "Portal 2 (кооперативна кампанія) — реліз у каталозі",
           "region": "not stated by catalogue",
           "availability": "unknown",
           "rulesetRelation": "unassessed",
@@ -8013,7 +8013,7 @@
           "releaseKey": "playstation-3",
           "platformId": "PLAT-PLAYSTATION-3",
           "edition": "Portal 2 — Cooperative Campaign — catalogue release",
-          "editionUk": "Portal 2 — Cooperative Campaign — реліз у каталозі",
+          "editionUk": "Portal 2 (кооперативна кампанія) — реліз у каталозі",
           "region": "not stated by catalogue",
           "availability": "unknown",
           "rulesetRelation": "unassessed",
@@ -8025,7 +8025,7 @@
           "releaseKey": "xbox-360",
           "platformId": "PLAT-XBOX-360",
           "edition": "Portal 2 — Cooperative Campaign — catalogue release",
-          "editionUk": "Portal 2 — Cooperative Campaign — реліз у каталозі",
+          "editionUk": "Portal 2 (кооперативна кампанія) — реліз у каталозі",
           "region": "not stated by catalogue",
           "availability": "unknown",
           "rulesetRelation": "unassessed",
@@ -10318,8 +10318,8 @@
     "GAME-0142": {
       "analysisTarget": {
         "platformId": "PLAT-PC-UNSPECIFIED",
-        "edition": "Scoped cross-platform ruleset",
-        "editionUk": "Обмежений кросплатформний набір правил",
+        "edition": "Project Zomboid Stable 42.20.3 — unmodded solo Apocalypse (Lore Canon)",
+        "editionUk": "Project Zomboid Stable 42.20.3 — одиночна гра в режимі Apocalypse (Lore Canon) без модифікацій",
         "version": "public PC Stable Build 42.20.3; one fresh unmodded single-player Apocalypse (Lore Canon) life, starting in Muldraugh with a legal zero-net-point occupation and trait loadout, from character creation to that survivor's irreversible death.",
         "distribution": "PC release (operating system not specified by the analysis)",
         "evidenceUrl": "https://projectzomboid.com/blog/the-game/",
@@ -10334,8 +10334,8 @@
         {
           "releaseKey": "analysis-target",
           "platformId": "PLAT-PC-UNSPECIFIED",
-          "edition": "Scoped cross-platform ruleset",
-          "editionUk": "Обмежений кросплатформний набір правил",
+          "edition": "Project Zomboid Stable 42.20.3 — unmodded solo Apocalypse (Lore Canon)",
+          "editionUk": "Project Zomboid Stable 42.20.3 — одиночна гра в режимі Apocalypse (Lore Canon) без модифікацій",
           "region": "not separately stated by analysis source",
           "availability": "unknown",
           "rulesetRelation": "analysis-target",
@@ -10799,7 +10799,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PC-UNSPECIFIED",
         "edition": "Standard Edition scoped single-player ruleset",
-        "editionUk": "Обмежений однокористувацький набір правил Standard Edition",
+        "editionUk": "Набір правил Standard Edition у межах дослідженого однокористувацького сценарію",
         "version": "PC Standard Edition, Patch 8 at official Hotfix #36, version 4.1.1.7209685; one fresh single-player Balanced custom-character campaign from character creation through the first completed destroy-the-Netherbrain ending and epilogue.",
         "distribution": "PC release (operating system not specified by the analysis)",
         "evidenceUrl": "https://baldursgate3.game/news/hotfix-36-now-live_149",
@@ -10815,7 +10815,7 @@
           "releaseKey": "analysis-target",
           "platformId": "PLAT-PC-UNSPECIFIED",
           "edition": "Standard Edition scoped single-player ruleset",
-          "editionUk": "Обмежений однокористувацький набір правил Standard Edition",
+          "editionUk": "Набір правил Standard Edition у межах дослідженого однокористувацького сценарію",
           "region": "not separately stated by analysis source",
           "availability": "unknown",
           "rulesetRelation": "analysis-target",
@@ -11273,7 +11273,7 @@
       "analysisTarget": {
         "platformId": "PLAT-DESKTOP-CROSS-PLATFORM",
         "edition": "Desktop 1.4.5.8 scoped single-player ruleset",
-        "editionUk": "Обмежений однокористувацький набір правил Desktop 1.4.5.8",
+        "editionUk": "Версія 1.4.5.8 для настільних систем — набір правил у межах дослідженого однокористувацького сценарію",
         "version": "Desktop 1.4.5.8, single-player, one new Classic character in one new small Classic world with random Corruption/Crimson and no special world seeds. The route starts at character/world creation and ends after the first Eye of Cthulhu defeat and the eligible Dryad's arrival in a prepared vacant valid house.",
         "distribution": "Cross-platform desktop release",
         "evidenceUrl": "https://forums.terraria.org/index.php?threads/terraria-1-4-5-7-out-now-for-pc-console-mobile-soon.150939/",
@@ -11289,7 +11289,7 @@
           "releaseKey": "analysis-target",
           "platformId": "PLAT-DESKTOP-CROSS-PLATFORM",
           "edition": "Desktop 1.4.5.8 scoped single-player ruleset",
-          "editionUk": "Обмежений однокористувацький набір правил Desktop 1.4.5.8",
+          "editionUk": "Версія 1.4.5.8 для настільних систем — набір правил у межах дослідженого однокористувацького сценарію",
           "region": "not separately stated by analysis source",
           "availability": "unknown",
           "rulesetRelation": "analysis-target",
@@ -11759,7 +11759,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PC-UNSPECIFIED",
         "edition": "PC base-game 1.127.41.1030 New In Town ruleset",
-        "editionUk": "Базовий набір правил New In Town для ПК 1.127.41.1030",
+        "editionUk": "Набір правил сценарію New In Town у базовій грі для ПК версії 1.127.41.1030",
         "version": "current PC base game 1.127.41.1030, bounded to a fresh permanent New In Town Scenario with its supplied single-Sim household, Farrah Nouvel, from first Live Mode control through the first accepted scenario-completion banner and reward application.",
         "distribution": "PC release (operating system not specified by the analysis)",
         "evidenceUrl": "https://www.ea.com/pl/games/the-sims/the-sims-4/news/update-8-25-2026",
@@ -11775,7 +11775,7 @@
           "releaseKey": "analysis-target",
           "platformId": "PLAT-PC-UNSPECIFIED",
           "edition": "PC base-game 1.127.41.1030 New In Town ruleset",
-          "editionUk": "Базовий набір правил New In Town для ПК 1.127.41.1030",
+          "editionUk": "Набір правил сценарію New In Town у базовій грі для ПК версії 1.127.41.1030",
           "region": "not separately stated by analysis source",
           "availability": "unknown",
           "rulesetRelation": "analysis-target",
@@ -13696,8 +13696,8 @@
     "GAME-0179": {
       "analysisTarget": {
         "platformId": "PLAT-PC-UNSPECIFIED",
-        "edition": "Scoped cross-platform ruleset",
-        "editionUk": "Обмежений кросплатформний набір правил",
+        "edition": "Scoped PC Skirmish ruleset",
+        "editionUk": "Набір правил для дослідженої сутички Skirmish на ПК",
         "version": "official PC build 177723, the current live build found on 2026-08-28; vanilla single-player Skirmish, Random Map, Tiny Arabia, fixed seed 20260828179, player Britons (Blue) against one Standard AI Franks opponent (Red), Dark Age start, Standard resources, population limit 200, Normal speed, Normal map reveal and Conquest as the only victory condition.",
         "distribution": "PC release (operating system not specified by the analysis)",
         "evidenceUrl": "https://store.steampowered.com/app/813780/Age_of_Empires_II_Definitive_Edition/",
@@ -13712,8 +13712,8 @@
         {
           "releaseKey": "analysis-target",
           "platformId": "PLAT-PC-UNSPECIFIED",
-          "edition": "Scoped cross-platform ruleset",
-          "editionUk": "Обмежений кросплатформний набір правил",
+          "edition": "Scoped PC Skirmish ruleset",
+          "editionUk": "Набір правил для дослідженої сутички Skirmish на ПК",
           "region": "not separately stated by analysis source",
           "availability": "unknown",
           "rulesetRelation": "analysis-target",
@@ -17056,8 +17056,8 @@
     "GAME-0227": {
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
-        "edition": "Scoped PC ruleset",
-        "editionUk": "Обмежений набір правил для ПК",
+        "edition": "Fortnite v42.00 — Windows Battle Royale Zero Build Solo (unranked)",
+        "editionUk": "Fortnite v42.00 для Windows — нерейтинговий режим Battle Royale Zero Build Solo",
         "version": "Epic Games' public Windows client v42.00, Fortnite Chapter 7 Season 4: Override, observed 2026-09-02; one ordinary unranked Battle Royale Zero Build Solo match on the current Override island.",
         "distribution": "Windows PC release",
         "evidenceUrl": "https://www.fortnite.com/@epic/battle-royale?lang=en-US",
@@ -17072,8 +17072,8 @@
         {
           "releaseKey": "analysis-target",
           "platformId": "PLAT-WINDOWS-PC",
-          "edition": "Scoped PC ruleset",
-          "editionUk": "Обмежений набір правил для ПК",
+          "edition": "Fortnite v42.00 — Windows Battle Royale Zero Build Solo (unranked)",
+          "editionUk": "Fortnite v42.00 для Windows — нерейтинговий режим Battle Royale Zero Build Solo",
           "region": "not separately stated by analysis source",
           "availability": "unknown",
           "rulesetRelation": "analysis-target",
@@ -17249,7 +17249,7 @@
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
         "edition": "Windows Steam 6.45.1 Awakenings packet",
-        "editionUk": "Пакет Awakenings 6.45.1 для Windows Steam",
+        "editionUk": "Досліджений сценарій Awakenings у версії 6.45.1 для Windows у Steam",
         "version": "frozen reviewed unmodified English Windows Steam release, app 275850, official patch 6.45.1, public Build ID 24039799, built and published 2026-07-03, originally checked 2026-09-02; one new empty-slot single-player Normal preset with network multiplayer disabled and no post-start difficulty changes. Cosmos 7.0 superseded this live build on 2026-09-09 but is not silently substituted for the analysed packet.",
         "distribution": "Steam for Windows",
         "evidenceUrl": "https://www.nomanssky.com/2026/06/the-swarm-6-45-1/",
@@ -17265,7 +17265,7 @@
           "releaseKey": "analysis-target",
           "platformId": "PLAT-WINDOWS-PC",
           "edition": "Windows Steam 6.45.1 Awakenings packet",
-          "editionUk": "Пакет Awakenings 6.45.1 для Windows Steam",
+          "editionUk": "Досліджений сценарій Awakenings у версії 6.45.1 для Windows у Steam",
           "region": "not separately stated by analysis source",
           "availability": "unknown",
           "rulesetRelation": "analysis-target",
@@ -18724,8 +18724,8 @@
     "GAME-0249": {
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
-        "edition": "Gold Edition",
-        "editionUk": "Gold Edition",
+        "edition": "Resident Evil 4 (2023 remake) — base game (Steam package 794618)",
+        "editionUk": "Resident Evil 4 (ремейк 2023 року) — базова гра (пакет Steam 794618)",
         "version": "current unmodified English Windows Steam application 2050650, base-game package 794618, public branch Build ID 22377325, built 2026-03-17 and published 2026-03-31, checked 2026-09-05. The build identifier and dates are secondary distribution observations. Only Main Story → New Game → Standard → Chapter 1 is admitted. This is the 2023 remake, not Resident Evil 4 (2005), the 2014 PC release of that original, Gold Edition or another package.",
         "distribution": "Steam for Windows",
         "evidenceUrl": "https://store.steampowered.com/app/2050650/Resident_Evil_4/",
@@ -18740,8 +18740,8 @@
         {
           "releaseKey": "analysis-target",
           "platformId": "PLAT-WINDOWS-PC",
-          "edition": "Gold Edition",
-          "editionUk": "Gold Edition",
+          "edition": "Resident Evil 4 (2023 remake) — base game (Steam package 794618)",
+          "editionUk": "Resident Evil 4 (ремейк 2023 року) — базова гра (пакет Steam 794618)",
           "region": "not separately stated by analysis source",
           "availability": "unknown",
           "rulesetRelation": "analysis-target",
@@ -18753,7 +18753,7 @@
           "releaseKey": "ios",
           "platformId": "PLAT-IOS",
           "edition": "Resident Evil 4 (2023 remake) — catalogue release",
-          "editionUk": "Resident Evil 4 (2023 remake) — реліз у каталозі",
+          "editionUk": "Resident Evil 4 (ремейк 2023 року) — реліз у каталозі",
           "region": "not stated by catalogue",
           "availability": "unknown",
           "rulesetRelation": "unassessed",
@@ -18765,7 +18765,7 @@
           "releaseKey": "ipados",
           "platformId": "PLAT-IPADOS",
           "edition": "Resident Evil 4 (2023 remake) — catalogue release",
-          "editionUk": "Resident Evil 4 (2023 remake) — реліз у каталозі",
+          "editionUk": "Resident Evil 4 (ремейк 2023 року) — реліз у каталозі",
           "region": "not stated by catalogue",
           "availability": "unknown",
           "rulesetRelation": "unassessed",
@@ -18777,7 +18777,7 @@
           "releaseKey": "macos",
           "platformId": "PLAT-MACOS",
           "edition": "Resident Evil 4 (2023 remake) — catalogue release",
-          "editionUk": "Resident Evil 4 (2023 remake) — реліз у каталозі",
+          "editionUk": "Resident Evil 4 (ремейк 2023 року) — реліз у каталозі",
           "region": "not stated by catalogue",
           "availability": "unknown",
           "rulesetRelation": "unassessed",
@@ -18789,7 +18789,7 @@
           "releaseKey": "nintendo-switch-2",
           "platformId": "PLAT-NINTENDO-SWITCH-2",
           "edition": "Resident Evil 4 (2023 remake) — catalogue release",
-          "editionUk": "Resident Evil 4 (2023 remake) — реліз у каталозі",
+          "editionUk": "Resident Evil 4 (ремейк 2023 року) — реліз у каталозі",
           "region": "not stated by catalogue",
           "availability": "unknown",
           "rulesetRelation": "unassessed",
@@ -18801,7 +18801,7 @@
           "releaseKey": "playstation-4",
           "platformId": "PLAT-PLAYSTATION-4",
           "edition": "Resident Evil 4 (2023 remake) — catalogue release",
-          "editionUk": "Resident Evil 4 (2023 remake) — реліз у каталозі",
+          "editionUk": "Resident Evil 4 (ремейк 2023 року) — реліз у каталозі",
           "region": "not stated by catalogue",
           "availability": "unknown",
           "rulesetRelation": "unassessed",
@@ -18813,7 +18813,7 @@
           "releaseKey": "playstation-5",
           "platformId": "PLAT-PLAYSTATION-5",
           "edition": "Resident Evil 4 (2023 remake) — catalogue release",
-          "editionUk": "Resident Evil 4 (2023 remake) — реліз у каталозі",
+          "editionUk": "Resident Evil 4 (ремейк 2023 року) — реліз у каталозі",
           "region": "not stated by catalogue",
           "availability": "unknown",
           "rulesetRelation": "unassessed",
@@ -18825,7 +18825,7 @@
           "releaseKey": "xbox-series",
           "platformId": "PLAT-XBOX-SERIES",
           "edition": "Resident Evil 4 (2023 remake) — catalogue release",
-          "editionUk": "Resident Evil 4 (2023 remake) — реліз у каталозі",
+          "editionUk": "Resident Evil 4 (ремейк 2023 року) — реліз у каталозі",
           "region": "not stated by catalogue",
           "availability": "unknown",
           "rulesetRelation": "unassessed",
@@ -19192,8 +19192,8 @@
     "GAME-0255": {
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
-        "edition": "Year Edition",
-        "editionUk": "Year Edition",
+        "edition": "Game of the Year Edition",
+        "editionUk": "Game of the Year Edition",
         "version": "current unmodified English Windows Steam application 35140, sold through standalone package 4109, public Windows Build ID 597963, built and published 2015-04-22, checked 2026-09-05. The build and timestamp are secondary distribution observations, not an invented publisher semantic version. The current product title is exactly Batman: Arkham Asylum Game of the Year Edition.",
         "distribution": "Steam for Windows",
         "evidenceUrl": "https://store.steampowered.com/app/35140/Batman_Arkham_Asylum_Game_of_the_Year_Edition/",
@@ -19208,8 +19208,8 @@
         {
           "releaseKey": "analysis-target",
           "platformId": "PLAT-WINDOWS-PC",
-          "edition": "Year Edition",
-          "editionUk": "Year Edition",
+          "edition": "Game of the Year Edition",
+          "editionUk": "Game of the Year Edition",
           "region": "not separately stated by analysis source",
           "availability": "unknown",
           "rulesetRelation": "analysis-target",
@@ -19270,8 +19270,8 @@
     "GAME-0256": {
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
-        "edition": "Original release",
-        "editionUk": "Оригінальний реліз",
+      "edition": "BioShock Remastered — base game",
+      "editionUk": "BioShock Remastered — базова гра",
         "version": "current unmodified English Windows Steam application 409710, explicitly the remastered executable sold in package 451, public content Build ID 8552765, built 2022-04-13 and published 2022-08-31, plus 2K's current direct-launch state after complete launcher removal on 2024-11-25; checked 2026-09-05. Build identity and timestamps are secondary distribution observations, not an invented publisher semantic version. Package 451 also contains original BioShock app 7670; it is not analysed.",
         "distribution": "Steam for Windows",
         "evidenceUrl": "https://store.steampowered.com/app/409710/BioShock_Remastered/",
@@ -19286,8 +19286,8 @@
         {
           "releaseKey": "analysis-target",
           "platformId": "PLAT-WINDOWS-PC",
-          "edition": "Original release",
-          "editionUk": "Оригінальний реліз",
+      "edition": "BioShock Remastered — base game",
+      "editionUk": "BioShock Remastered — базова гра",
           "region": "not separately stated by analysis source",
           "availability": "unknown",
           "rulesetRelation": "analysis-target",
@@ -19300,8 +19300,8 @@
     "GAME-0257": {
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
-        "edition": "Scoped PC ruleset",
-        "editionUk": "Обмежений набір правил для ПК",
+        "edition": "Alien: Isolation — base Story Mode, Mission 5 on Hard",
+        "editionUk": "Alien: Isolation — базовий Story Mode, Mission 5 на Hard",
         "version": "current unmodified English Windows Steam application 214490, base package 51156, public branch content Build ID 4940658, built and published 2020-04-24; checked 2026-09-05. The later Steam metadata changenumber is not treated as a new executable build or publisher semantic version.",
         "distribution": "Steam for Windows",
         "evidenceUrl": "https://store.steampowered.com/app/214490/Alien_Isolation/",
@@ -19316,8 +19316,8 @@
         {
           "releaseKey": "analysis-target",
           "platformId": "PLAT-WINDOWS-PC",
-          "edition": "Scoped PC ruleset",
-          "editionUk": "Обмежений набір правил для ПК",
+          "edition": "Alien: Isolation — base Story Mode, Mission 5 on Hard",
+          "editionUk": "Alien: Isolation — базовий Story Mode, Mission 5 на Hard",
           "region": "not separately stated by analysis source",
           "availability": "unknown",
           "rulesetRelation": "analysis-target",
@@ -19438,8 +19438,8 @@
     "GAME-0258": {
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
-        "edition": "Scoped PC ruleset",
-        "editionUk": "Обмежений набір правил для ПК",
+        "edition": "Prey (2017) — base game",
+        "editionUk": "«Здобич» (2017) — базова гра",
         "version": "current unmodified English Windows Steam application 480490, one-app base package 107520, public branch Build ID 5297220, built 2020-07-16 and published 2020-07-23; checked 2026-09-05. The build ID is a secondary distribution observation, not a publisher semantic version.",
         "distribution": "Steam for Windows",
         "evidenceUrl": "https://store.steampowered.com/app/480490/Prey/",
@@ -19454,8 +19454,8 @@
         {
           "releaseKey": "analysis-target",
           "platformId": "PLAT-WINDOWS-PC",
-          "edition": "Scoped PC ruleset",
-          "editionUk": "Обмежений набір правил для ПК",
+          "edition": "Prey (2017) — base game",
+          "editionUk": "«Здобич» (2017) — базова гра",
           "region": "not separately stated by analysis source",
           "availability": "unknown",
           "rulesetRelation": "analysis-target",
@@ -19492,8 +19492,8 @@
     "GAME-0259": {
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
-        "edition": "Scoped PC ruleset",
-        "editionUk": "Обмежений набір правил для ПК",
+        "edition": "Dead Space (2023 remake) — base game",
+        "editionUk": "«Мертвий космос», римейк 2023 року — базова гра",
         "version": "current unmodified English Windows Steam application 1693980, one-app Standard package 805029, public Windows Build ID 10602756, built 2023-02-21 and published 2023-02-27; checked 2026-09-05. The build identifier and dates are secondary distribution observations, not a publisher semantic version. This is Motive's 2023 remake rebuilt in Frostbite, not Dead Space (2008), a sequel, another platform or a franchise union.",
         "distribution": "Steam for Windows",
         "evidenceUrl": "https://store.steampowered.com/app/1693980/Dead_Space/",
@@ -19508,8 +19508,8 @@
         {
           "releaseKey": "analysis-target",
           "platformId": "PLAT-WINDOWS-PC",
-          "edition": "Scoped PC ruleset",
-          "editionUk": "Обмежений набір правил для ПК",
+          "edition": "Dead Space (2023 remake) — base game",
+          "editionUk": "«Мертвий космос», римейк 2023 року — базова гра",
           "region": "not separately stated by analysis source",
           "availability": "unknown",
           "rulesetRelation": "analysis-target",
@@ -19521,7 +19521,7 @@
           "releaseKey": "playstation-5",
           "platformId": "PLAT-PLAYSTATION-5",
           "edition": "Dead Space (2023 remake) — catalogue release",
-          "editionUk": "Dead Space (2023 remake) — реліз у каталозі",
+          "editionUk": "Dead Space (ремейк 2023 року) — реліз у каталозі",
           "region": "not stated by catalogue",
           "availability": "unknown",
           "rulesetRelation": "unassessed",
@@ -19533,7 +19533,7 @@
           "releaseKey": "xbox-series",
           "platformId": "PLAT-XBOX-SERIES",
           "edition": "Dead Space (2023 remake) — catalogue release",
-          "editionUk": "Dead Space (2023 remake) — реліз у каталозі",
+          "editionUk": "Dead Space (ремейк 2023 року) — реліз у каталозі",
           "region": "not stated by catalogue",
           "availability": "unknown",
           "rulesetRelation": "unassessed",
@@ -19546,8 +19546,8 @@
     "GAME-0260": {
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
-        "edition": "Enhanced Edition",
-        "editionUk": "Enhanced Edition",
+        "edition": "Metro Exodus — base game",
+        "editionUk": "«Метро: Вихід» — базова гра",
         "version": "current unmodified English Windows Steam application 412020, one-app base package 298828, ordinary public Windows Build ID 6544595, built and published 2021-04-15; checked 2026-09-05. The build ID and timestamp are secondary distribution observations, not a publisher semantic version. The 2026-08-26 account/store-link update and its 2026-09-02 Enhanced Edition DLSS follow-up do not establish a different ordinary Windows content build or enter this mechanics packet.",
         "distribution": "Steam for Windows",
         "evidenceUrl": "https://store.steampowered.com/app/412020/Metro_Exodus/",
@@ -19562,8 +19562,8 @@
         {
           "releaseKey": "analysis-target",
           "platformId": "PLAT-WINDOWS-PC",
-          "edition": "Enhanced Edition",
-          "editionUk": "Enhanced Edition",
+          "edition": "Metro Exodus — base game",
+          "editionUk": "«Метро: Вихід» — базова гра",
           "region": "not separately stated by analysis source",
           "availability": "unknown",
           "rulesetRelation": "analysis-target",
@@ -19636,8 +19636,8 @@
     "GAME-0261": {
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
-        "edition": "Scoped PC ruleset",
-        "editionUk": "Обмежений набір правил для ПК",
+      "edition": "The Last of Us Part I — base game",
+      "editionUk": "«Останні з нас, частина I» — базова гра",
         "version": "current unmodified English Windows Steam application 1888930, one-app Standard package 829080, public Windows Build ID 18995818, built 2025-06-25 and published 2025-07-03, with official PC patch v1.1.5; checked 2026-09-05. The build identifier and timestamps are secondary distribution observations, while the semantic patch version and its performance/stability scope come from Naughty Dog.",
         "distribution": "Steam for Windows",
         "evidenceUrl": "https://store.steampowered.com/app/1888930/The_Last_of_Us_Part_I/",
@@ -19652,8 +19652,8 @@
         {
           "releaseKey": "analysis-target",
           "platformId": "PLAT-WINDOWS-PC",
-          "edition": "Scoped PC ruleset",
-          "editionUk": "Обмежений набір правил для ПК",
+      "edition": "The Last of Us Part I — base game",
+      "editionUk": "«Останні з нас, частина I» — базова гра",
           "region": "not separately stated by analysis source",
           "availability": "unknown",
           "rulesetRelation": "analysis-target",
@@ -21099,7 +21099,7 @@
           "releaseKey": "ios",
           "platformId": "PLAT-IOS",
           "edition": "Resident Evil 2 (2019 remake) — catalogue release",
-          "editionUk": "Resident Evil 2 (2019 remake) — реліз у каталозі",
+          "editionUk": "Resident Evil 2 (ремейк 2019 року) — реліз у каталозі",
           "region": "not stated by catalogue",
           "availability": "unknown",
           "rulesetRelation": "unassessed",
@@ -21111,7 +21111,7 @@
           "releaseKey": "ipados",
           "platformId": "PLAT-IPADOS",
           "edition": "Resident Evil 2 (2019 remake) — catalogue release",
-          "editionUk": "Resident Evil 2 (2019 remake) — реліз у каталозі",
+          "editionUk": "Resident Evil 2 (ремейк 2019 року) — реліз у каталозі",
           "region": "not stated by catalogue",
           "availability": "unknown",
           "rulesetRelation": "unassessed",
@@ -21123,7 +21123,7 @@
           "releaseKey": "macos",
           "platformId": "PLAT-MACOS",
           "edition": "Resident Evil 2 (2019 remake) — catalogue release",
-          "editionUk": "Resident Evil 2 (2019 remake) — реліз у каталозі",
+          "editionUk": "Resident Evil 2 (ремейк 2019 року) — реліз у каталозі",
           "region": "not stated by catalogue",
           "availability": "unknown",
           "rulesetRelation": "unassessed",
@@ -21135,7 +21135,7 @@
           "releaseKey": "playstation-4",
           "platformId": "PLAT-PLAYSTATION-4",
           "edition": "Resident Evil 2 (2019 remake) — catalogue release",
-          "editionUk": "Resident Evil 2 (2019 remake) — реліз у каталозі",
+          "editionUk": "Resident Evil 2 (ремейк 2019 року) — реліз у каталозі",
           "region": "not stated by catalogue",
           "availability": "unknown",
           "rulesetRelation": "unassessed",
@@ -21147,7 +21147,7 @@
           "releaseKey": "playstation-5",
           "platformId": "PLAT-PLAYSTATION-5",
           "edition": "Resident Evil 2 (2019 remake) — catalogue release",
-          "editionUk": "Resident Evil 2 (2019 remake) — реліз у каталозі",
+          "editionUk": "Resident Evil 2 (ремейк 2019 року) — реліз у каталозі",
           "region": "not stated by catalogue",
           "availability": "unknown",
           "rulesetRelation": "unassessed",
@@ -21159,7 +21159,7 @@
           "releaseKey": "xbox-one",
           "platformId": "PLAT-XBOX-ONE",
           "edition": "Resident Evil 2 (2019 remake) — catalogue release",
-          "editionUk": "Resident Evil 2 (2019 remake) — реліз у каталозі",
+          "editionUk": "Resident Evil 2 (ремейк 2019 року) — реліз у каталозі",
           "region": "not stated by catalogue",
           "availability": "unknown",
           "rulesetRelation": "unassessed",
@@ -21171,7 +21171,7 @@
           "releaseKey": "xbox-series",
           "platformId": "PLAT-XBOX-SERIES",
           "edition": "Resident Evil 2 (2019 remake) — catalogue release",
-          "editionUk": "Resident Evil 2 (2019 remake) — реліз у каталозі",
+          "editionUk": "Resident Evil 2 (ремейк 2019 року) — реліз у каталозі",
           "region": "not stated by catalogue",
           "availability": "unknown",
           "rulesetRelation": "unassessed",
@@ -21298,9 +21298,9 @@
     "GAME-0282": {
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
-        "edition": "Scoped PC ruleset",
-        "editionUk": "Обмежений набір правил для ПК",
-        "version": "current unmodified English Windows Steam application 588650, base package 152266 (containing only that application), default public branch Build ID 23762174 (built and published 2026-06-16), which Motion Twin's own patch-notes page labels Update 35.9 and its 2026-06-15 Steam announcement describes as a stability patch on top of Update 35: The End is Near; checked 2026-09-08. The Steam build identifier is a secondary distribution observation (DC-002a); the Update 35.9 label and its 2026-06-15 date are the publisher's own statement (DC-002b); that the two describe the same build rests on their adjacent dates alone (DC-002c). The public_alpha, public_beta and every archived v0.0 to v3.4 version branch are excluded.",
+        "edition": "Dead Cells base game — English Windows Steam public Build 23762174",
+        "editionUk": "Dead Cells, базова гра — англомовна публічна збірка 23762174 для Windows у Steam",
+        "version": "current unmodified English Windows Steam application 588650, base package 152266 (containing only that application), default public branch Build ID 23762174 (built and published 2026-06-16), while Motion Twin's own patch-notes page separately labels Update 35.9 and its 2026-06-15 Steam announcement describes that update as a stability patch on top of Update 35: The End is Near; checked 2026-09-08. The Steam build identifier is a secondary distribution observation (DC-002a); the Update 35.9 label and its 2026-06-15 date are the publisher's own statement (DC-002b); that the two describe the same build rests on their adjacent dates alone (DC-002c). The public_alpha, public_beta and every archived v0.0 to v3.4 version branch are excluded.",
         "distribution": "Steam for Windows",
         "evidenceUrl": "https://store.steampowered.com/app/588650/Dead_Cells/",
         "checked": "2026-09-10"
@@ -21314,8 +21314,8 @@
         {
           "releaseKey": "analysis-target",
           "platformId": "PLAT-WINDOWS-PC",
-          "edition": "Scoped PC ruleset",
-          "editionUk": "Обмежений набір правил для ПК",
+          "edition": "Dead Cells base game — English Windows Steam public Build 23762174",
+          "editionUk": "Dead Cells, базова гра — англомовна публічна збірка 23762174 для Windows у Steam",
           "region": "not separately stated by analysis source",
           "availability": "unknown",
           "rulesetRelation": "analysis-target",
@@ -22317,7 +22317,7 @@
       "analysisTarget": {
         "platformId": "PLAT-NINTENDO-SWITCH",
         "edition": "Overcooked! 2 — original Nintendo Switch base game",
-        "editionUk": "Overcooked! 2 — базова гра для оригінальної Nintendo Switch",
+        "editionUk": "Overcooked! 2 — оригінальна базова гра для Nintendo Switch",
         "version": "Original Nintendo Switch base product, released 2018-08-07; installed build and later update parity not observed; checked 2026-09-18",
         "distribution": "Nintendo eShop original Switch digital base product",
         "evidenceUrl": "https://www.nintendo.com/es-es/Juegos/Juegos-de-Nintendo-Switch/Overcooked-2-1388792.html",
@@ -22368,7 +22368,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PLAYSTATION-5",
         "edition": "Sifu, Standard Edition digital PS5 base story",
-        "editionUk": "Sifu — цифрове стандартне видання основної гри для PS5",
+        "editionUk": "Sifu — основна сюжетна кампанія цифрового видання Standard Edition для PS5",
         "version": "Disciple original difficulty in current PS5 Standard product; installed patch not observed; checked 2026-09-18",
         "distribution": "PlayStation Store Standard Edition PS4 & PS5 entitlement",
         "evidenceUrl": "https://store.playstation.com/en-us/product/UP2703-PPSA05132_00-7522931300249907/",
@@ -22402,7 +22402,7 @@
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
         "edition": "Sons Of The Forest, Windows Steam base game, fresh single-player Normal",
-        "editionUk": "Sons Of The Forest — базова гра Steam для Windows, нова одиночна гра на звичайній складності",
+        "editionUk": "Sons Of The Forest — базова гра для Windows у Steam, нова одиночна гра на складності Normal",
         "version": "Public branch Build ID 20228174 remotely projected 2026-09-18; installed build not observed",
         "distribution": "Official Windows Steam application 1326470",
         "evidenceUrl": "https://store.steampowered.com/app/1326470/Sons_Of_The_Forest/",
@@ -22436,7 +22436,7 @@
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
         "edition": "Slime Rancher original Windows Steam base game, fresh Adventure save",
-        "editionUk": "Оригінальна базова Slime Rancher для Windows у Steam, нове збереження Adventure",
+        "editionUk": "Slime Rancher — оригінальна базова гра для Windows у Steam, нове збереження в режимі Adventure",
         "version": "Official original-product rules checked 2026-09-19; installed build not observed",
         "distribution": "Windows Steam base product, not Slime Rancher 2 or DLC bundle",
         "evidenceUrl": "https://store.steampowered.com/app/433340/SlimeRancher?l=english",
@@ -22453,7 +22453,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PLAYSTATION-4",
         "edition": "Bloodborne original PS4 digital base product, fresh offline single-player game",
-        "editionUk": "Оригінальна цифрова базова Bloodborne для PS4, нова офлайнова одиночна гра",
+        "editionUk": "Bloodborne — оригінальна цифрова базова гра для PS4, нова одиночна гра без підключення до мережі",
         "version": "Official PS4 base-product rules checked 2026-09-19; installed patch not observed",
         "distribution": "PlayStation Store PS4 base product, not Complete Edition or The Old Hunters",
         "evidenceUrl": "https://www.playstation.com/en-us/games/bloodborne/",
@@ -22521,7 +22521,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PLAYSTATION-5",
         "edition": "ASTRO BOT PS5 Standard Edition base game, fresh offline single-player save",
-        "editionUk": "Базове Standard Edition ASTRO BOT для PS5, нове офлайнове одиночне збереження",
+        "editionUk": "ASTRO BOT — базова гра видання Standard Edition для PS5, нове одиночне збереження без підключення до мережі",
         "version": "Current official PS5 Standard Edition rules checked 2026-09-19; installed build and patch not observed",
         "distribution": "PlayStation Store PS5 Standard Edition, not Digital Deluxe cosmetics or post-launch challenge levels",
         "evidenceUrl": "https://www.playstation.com/en-us/games/astro-bot/",
@@ -22538,7 +22538,7 @@
       "analysisTarget": {
         "platformId": "PLAT-NINTENDO-ENTERTAINMENT-SYSTEM",
         "edition": "Yanshan Tank 1990 / Tank 28 family, one-player Tank A ordinary 1–14 group, Stage 1 rules reconstruction",
-        "editionUk": "Сім’я Yanshan Tank 1990 / Tank 28, режим одного гравця Tank A зі звичайної групи 1–14, реконструкція правил Stage 1",
+        "editionUk": "Сімейство Yanshan Tank 1990 / Tank 28, режим Tank A для одного гравця зі звичайної групи 1–14, реконструкція правил Stage 1",
         "version": "1990 family identity checked 2026-09-19; no exact physical multicart or clean dump verified, and MAME's separately catalogued regions are marked baddump",
         "distribution": "Famicom-compatible multicart family; no verified current licensed distribution or exact cartridge provenance claimed",
         "evidenceUrl": "https://github.com/mamedev/mame/blob/2f09f5e4f17912d3b58253067bec2430efbbedeb/hash/nes.xml",
@@ -22589,7 +22589,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PLAYSTATION",
         "edition": "Original North American Gran Turismo for PlayStation, SCUS-94194, B-1 licence test",
-        "editionUk": "Оригінальна північноамериканська Gran Turismo для PlayStation, SCUS-94194, ліцензійне випробування B-1",
+        "editionUk": "Оригінальне північноамериканське видання Gran Turismo для PlayStation, SCUS-94194, ліцензійне випробування B-1",
         "version": "1998-05-12 North American launch-content rules reconstructed from the original manual and period written guides; disc revision and installed binary not observed",
         "distribution": "Original PlayStation retail disc, not a later regional release, sequel, compilation or emulated edition",
         "evidenceUrl": "https://www.gran-turismo.com/us/news/02_0004970.html",
@@ -22606,7 +22606,7 @@
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
         "edition": "Current English Windows Battle.net StarCraft II, free Wings of Liberty campaign, fresh Normal Liberation Day",
-        "editionUk": "Поточний англомовний StarCraft II для Windows через Battle.net, безкоштовна кампанія Wings of Liberty, нова Liberation Day на Normal",
+        "editionUk": "Поточний англомовний StarCraft II для Windows через Battle.net, безкоштовна кампанія Wings of Liberty, нова кампанія на складності Normal, місія Liberation Day",
         "version": "StarCraft II 5.x client family checked 2026-09-20; no stable public installed-build identifier observed",
         "distribution": "Current Battle.net Windows application, not the 2010 launch binary, another campaign, Arcade, Co-op, Versus or custom content",
         "evidenceUrl": "https://news.blizzard.com/en-us/article/21173629/starcraft-ii-going-free-to-play-explained",
@@ -22623,7 +22623,7 @@
       "analysisTarget": {
         "platformId": "PLAT-NINTENDO-ENTERTAINMENT-SYSTEM",
         "edition": "Original North American English Battletoads for NES, NES-8T-USA, fresh one-player Ragnarok's Canyon",
-        "editionUk": "Оригінальна англомовна північноамериканська Battletoads для NES, NES-8T-USA, нова одиночна Ragnarok’s Canyon",
+        "editionUk": "Оригінальне північноамериканське англомовне видання Battletoads для NES, NES-8T-USA; нова гра для одного гравця на рівні Ragnarok’s Canyon",
         "version": "June 1991 North American cartridge rules reconstructed from the original manual and written NES guides; cartridge revision and executed binary not observed",
         "distribution": "Original licensed NES cartridge, not a port, sequel, crossover, reboot, compilation or Nintendo Classics wrapper",
         "evidenceUrl": "https://nesdir.github.io/279710DC_USA.html",
@@ -22640,7 +22640,7 @@
       "analysisTarget": {
         "platformId": "PLAT-XBOX-SERIES",
         "edition": "Current English Sea of Thieves Standard Edition for Xbox Series X|S, Season 21 High Seas, solo closed-crew Gold Hoarders Tutorial Voyage",
-        "editionUk": "Поточне англомовне Standard Edition Sea of Thieves для Xbox Series X|S, Season 21 High Seas, навчальна подорож Gold Hoarders у закритому екіпажі з одного гравця",
+        "editionUk": "Поточне англомовне видання Sea of Thieves Standard Edition для Xbox Series X|S, сезон 21 у режимі High Seas, навчальна подорож Gold Hoarders у закритому екіпажі з одного гравця",
         "version": "Live server version 3.9.0 released 2026-09-17; installed Xbox build and account session not observed",
         "distribution": "Current Xbox Series X|S Standard Edition live service, not Xbox One, Windows, PlayStation, Premium Edition, Safer Seas or Custom Seas",
         "evidenceUrl": "https://www.xbox.com/en-US/games/sea-of-thieves",
@@ -22657,7 +22657,7 @@
       "analysisTarget": {
         "platformId": "PLAT-NINTENDO-SWITCH",
         "edition": "Current English original Nintendo Switch Animal Crossing: New Horizons base game, fresh Northern Hemisphere solo island",
-        "editionUk": "Поточна англомовна оригінальна базова Animal Crossing: New Horizons для Nintendo Switch, свіжий одиночний острів Північної півкулі",
+        "editionUk": "Поточна англомовна версія оригінальної базової гри Animal Crossing: New Horizons для Nintendo Switch, новий острів у Північній півкулі для одного гравця",
         "version": "Version 3.0.3 released 2026-04-29; installed Switch build and island save not observed",
         "distribution": "Original Nintendo Switch digital base game, not Nintendo Switch 2 Edition, Happy Home Paradise or multiplayer",
         "evidenceUrl": "https://www.nintendo.com/us/store/products/animal-crossing-new-horizons-switch/",
@@ -22674,7 +22674,7 @@
       "analysisTarget": {
         "platformId": "PLAT-XBOX-360",
         "edition": "Original English North American Xbox 360 retail Gears of War, fresh solo Casual Training route",
-        "editionUk": "Оригінальна англомовна північноамериканська роздрібна Gears of War для Xbox 360, новий одиночний Training-маршрут на Casual",
+        "editionUk": "Оригінальна англомовна північноамериканська роздрібна Gears of War для Xbox 360, нова одиночна кампанія на Casual, маршрут Training",
         "version": "2006 launch-disc campaign rules reconstructed from the original manual and written routes; disc pressing, title update and executed binary not observed",
         "distribution": "Original licensed Xbox 360 retail base game, not Windows, Ultimate Edition, Reloaded, DLC, sequel or remaster",
         "evidenceUrl": "https://news.xbox.com/en-us/2006/08/03/gears-of-war-emergence-day-announced/",
@@ -22691,7 +22691,7 @@
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
         "edition": "English Windows Battle.net Diablo II: Resurrected launch base game, fresh offline Expansion Softcore Normal Barbarian",
-        "editionUk": "Англомовна стартова базова Diablo II: Resurrected для Windows Battle.net, новий офлайн-варвар у Expansion Softcore Normal",
+        "editionUk": "Англомовна базова гра Diablo II: Resurrected для Windows із Battle.net на момент релізу; новий офлайн-варвар із параметрами Expansion, Softcore і Normal",
         "version": "2021-09-23 launch/base-game rules reconstructed from official Blizzard material and written Resurrected routes; installed build not observed",
         "distribution": "Licensed Windows Battle.net digital base game, not current Infernal Edition, Reign of the Warlock, online, Ladder or console release",
         "evidenceUrl": "https://news.blizzard.com/en-us/article/23725471/diablo-ii-resurrectedtm-launch-guide",
@@ -22708,7 +22708,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PLAYSTATION-5",
         "edition": "English PS5 Marvel's Spider-Man 2 Standard Edition launch base game, fresh single-player Amazing save",
-        "editionUk": "Англомовна стартова базова Marvel's Spider-Man 2 Standard Edition для PS5, нове одиночне збереження на Amazing",
+        "editionUk": "Англомовна базова гра Marvel’s Spider-Man 2 Standard Edition для PS5 на момент релізу, нове збереження для одного гравця на складності Amazing",
         "version": "2023-10-20 launch/base-game rules reconstructed from official PlayStation material and written Surface Tension routes; installed build not observed",
         "distribution": "Licensed PS5 Standard Edition base game, not pre-order or Digital Deluxe bonuses, later updates, New Game+, PC release or sequel content",
         "evidenceUrl": "https://www.playstation.com/en-us/games/marvels-spider-man-2/",
@@ -22725,7 +22725,7 @@
       "analysisTarget": {
         "platformId": "PLAT-NINTENDO-ENTERTAINMENT-SYSTEM",
         "edition": "Original North American English Contra Force for NES, NES-CR-USA, fresh one-player Dewerdrye Warehouse",
-        "editionUk": "Оригінальна англомовна північноамериканська Contra Force для NES, NES-CR-USA, нова одиночна Dewerdrye Warehouse",
+        "editionUk": "Оригінальне північноамериканське англомовне видання Contra Force для NES, NES-CR-USA, нова гра для одного гравця на рівні Dewerdrye Warehouse",
         "version": "September 1992 North American cartridge rules reconstructed from the original manual and written NES routes; cartridge revision and executed binary not observed",
         "distribution": "Original licensed NES cartridge, not a prototype, fan translation, hack, port, compilation, browser emulator or another Contra title",
         "evidenceUrl": "https://nesdir.github.io/A94591B0_USA.html",
@@ -22742,7 +22742,7 @@
       "analysisTarget": {
         "platformId": "PLAT-NINTENDO-ENTERTAINMENT-SYSTEM",
         "edition": "Original North American English The Legend of Zelda for NES, NES-ZL-USA, fresh Quest 1 through Level-1 Eagle",
-        "editionUk": "Оригінальна англомовна північноамериканська The Legend of Zelda для NES, NES-ZL-USA, свіжа Quest 1 до завершення Level-1 Eagle",
+        "editionUk": "Оригінальна англомовна північноамериканська The Legend of Zelda для NES, NES-ZL-USA, новий початок Quest 1 до завершення Level-1 Eagle",
         "version": "1987 North American cartridge rules reconstructed from the original manual and written Level-1 routes; cartridge revision and executed binary not observed",
         "distribution": "Original licensed NES cartridge, not Famicom Disk System, port, remake, Virtual Console, Switch Online, randomizer or fan modification",
         "evidenceUrl": "https://nesdir.github.io/3FE272FB_USA.html",
@@ -22759,7 +22759,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PLAYSTATION",
         "edition": "Original North American English Crash Bandicoot for PlayStation, SCUS-94900, fresh one-player N. Sanity Beach",
-        "editionUk": "Оригінальна англомовна північноамериканська Crash Bandicoot для PlayStation, SCUS-94900, нова одиночна N. Sanity Beach",
+        "editionUk": "Оригінальне північноамериканське англомовне видання Crash Bandicoot для PlayStation, SCUS-94900, нова гра для одного гравця на рівні N. Sanity Beach",
         "version": "1996 North American original-disc rules reconstructed from the original manual and written first-level route; disc revision and executed binary not observed",
         "distribution": "Original licensed PlayStation disc, not a prototype, sequel, port, emulated wrapper, N. Sane Trilogy remake or fan modification",
         "evidenceUrl": "https://redump.org/discs/region/Am/quicksearch/crash-bandicoot/",
@@ -22793,7 +22793,7 @@
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
         "edition": "Original North American English Warcraft III: Reign of Chaos Windows retail base game, fresh Exodus of the Horde Chapter One: Chasing Visions",
-        "editionUk": "Оригінальна англомовна північноамериканська роздрібна базова Warcraft III: Reign of Chaos для Windows, новий Exodus of the Horde Chapter One: Chasing Visions",
+        "editionUk": "Оригінальна англомовна північноамериканська роздрібна базова гра Warcraft III: Reign of Chaos для Windows; нове проходження розділу Chapter One: Chasing Visions прологу Exodus of the Horde",
         "version": "2002 North American base-game rules reconstructed from Blizzard's original manual, classic command documentation and written tutorial routes; disc pressing, executable patch and installed binary not observed",
         "distribution": "Original licensed Windows retail base game, not The Frozen Throne, Reforged, a later balance ruleset, custom campaign, port, emulated wrapper or fan modification",
         "evidenceUrl": "https://ftp.blizzard.com/pub/misc/Warcraft%20III%20Manual.pdf",
@@ -22810,7 +22810,7 @@
       "analysisTarget": {
         "platformId": "PLAT-SUPER-NINTENDO",
         "edition": "Original North American English Donkey Kong Country Super NES retail cartridge product SNS-8X-USA, fresh one-player Jungle Hijinxs!",
-        "editionUk": "Оригінальний англомовний північноамериканський роздрібний картридж Donkey Kong Country для Super NES SNS-8X-USA, новий однокористувацький Jungle Hijinxs!",
+        "editionUk": "Оригінальний північноамериканський англомовний роздрібний картридж Donkey Kong Country для Super NES, SNS-8X-USA, нова гра для одного гравця на рівні Jungle Hijinxs!",
         "version": "1994 North American original-product rules reconstructed from Nintendo manual and written first-stage routes; cartridge pressing and mask-ROM revision not observed",
         "distribution": "Original licensed Super NES retail cartridge, not a Game Boy port, Virtual Console, SNES Classic, Nintendo Switch Online wrapper, sequel, emulated bundle or fan modification",
         "evidenceUrl": "https://www.nintendo.co.jp/clvs/manuals/common/pdf/CLV-P-SAALE.pdf",
@@ -22827,7 +22827,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PLAYSTATION-5",
         "edition": "North American English Silent Hill 2 (2024 remake) PlayStation 5 Standard Edition UP0101-PPSA08710_00-MAINGAME00000000, fresh New Game on Standard combat and puzzle challenge through Eastern South Vale",
-        "editionUk": "Англомовне північноамериканське Standard Edition ремейку Silent Hill 2 2024 року для PlayStation 5 UP0101-PPSA08710_00-MAINGAME00000000, нова гра зі складністю бою й головоломок Standard до завершення Східного South Vale",
+        "editionUk": "Північноамериканське англомовне видання Standard Edition ремейку Silent Hill 2 2024 року для PlayStation 5, UP0101-PPSA08710_00-MAINGAME00000000; початок із New Game на складності Standard для бою й головоломок, до завершення східної частини South Vale",
         "version": "2024-10-08 PS5 Standard Edition rules reconstructed from Konami and PlayStation product material plus written Eastern South Vale routes; installed patch and console firmware not observed",
         "distribution": "Licensed North American PlayStation 5 Standard Edition, not the 2001 original, Windows edition, Deluxe Edition, New Game Plus, later content bundle or fan modification",
         "evidenceUrl": "https://store.playstation.com/en-us/product/UP0101-PPSA08710_00-MAINGAME00000000",
@@ -22861,7 +22861,7 @@
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
         "edition": "Current official English GOG Windows Heroes of Might and Magic III: Complete, unmodded offline Restoration of Erathia Homecoming on fixed Easy with 14 Pikemen bonus",
-        "editionUk": "Поточний офіційний англомовний GOG Windows Heroes of Might and Magic III: Complete без модифікацій і мережі, Restoration of Erathia Homecoming на Easy з бонусом 14 Pikemen",
+        "editionUk": "Поточна офіційна англомовна Heroes of Might and Magic III: Complete із GOG для Windows, без модифікацій і мережевої гри; Homecoming у кампанії Restoration of Erathia на фіксованій складності Easy з початковим бонусом 14 Pikemen",
         "version": "1999 base-game rules in the current GOG Complete package reconstructed from the original New World Computing manual and written Homecoming records; installed GOG build, wrapper, OS revision and entitlement not observed",
         "distribution": "Licensed GOG Windows Complete product, scoped to original Restoration of Erathia content; not HD Edition, expansions, random maps, multiplayer, editor, HD Mod, Horn of the Abyss, VCMI or fan modification",
         "evidenceUrl": "https://www.gog.com/en/game/heroes_of_might_and_magic_3_complete_edition",
@@ -22878,7 +22878,7 @@
       "analysisTarget": {
         "platformId": "PLAT-SEGA-GENESIS",
         "edition": "Original North American English Sega Genesis launch cartridge, fresh one-player Green Hill Zone Act 1",
-        "editionUk": "Оригінальний стартовий північноамериканський англомовний картридж Sega Genesis, нова одиночна Green Hill Zone Act 1",
+        "editionUk": "Оригінальний північноамериканський англомовний картридж Sega Genesis на момент першого випуску, нова гра для одного гравця на етапі Green Hill Zone Act 1",
         "version": "Original REV00 retail behaviour reconstructed from SEGA's preserved manual and Sonic Retro disassembly commit 064e3c68 with Revision = 0 and FixBugs = 0",
         "distribution": "Original licensed physical Sega Genesis cartridge; not REV01, Master System, Game Gear, Genesis Mini wrapper, Sonic Origins, port, remake, sequel, emulator or save-state rules",
         "evidenceUrl": "https://manuals.sega.com/genesismini/pdf/SONIC_THE_HEDGEHOG.pdf",
@@ -22895,7 +22895,7 @@
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
         "edition": "Untouched Quake (Original) supplied in the current licensed English Steam package, fresh Medium E1M1: The Slipgate Complex",
-        "editionUk": "Незмінена Quake (Original) з поточного ліцензійного англомовного пакета Steam, нова E1M1: The Slipgate Complex на Medium",
+        "editionUk": "Незмінена версія Quake (Original) з поточного ліцензованого англомовного пакета Steam; нове проходження E1M1: The Slipgate Complex на складності Medium",
         "version": "Original rules reconstructed from the preserved manual, id Software base source, pinned QuakeC commit 634eefab and released E1M1 map text; installed Steam build not observed",
         "distribution": "Licensed Windows Steam package 2310 launching Quake (Original); not Enhanced, Quake 64, mission pack, mod, source port, console command or save-state rules",
         "evidenceUrl": "https://store.steampowered.com/app/2310/Quake/",
@@ -22912,7 +22912,7 @@
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
         "edition": "Current official English Steam RollerCoaster Tycoon: Deluxe application 285310, fresh base-game Forest Frontiers without tutorial automation",
-        "editionUk": "Поточний офіційний англомовний Steam-застосунок RollerCoaster Tycoon: Deluxe 285310, новий базовий Forest Frontiers без автоматизації навчання",
+        "editionUk": "Поточний офіційний англомовний застосунок RollerCoaster Tycoon: Deluxe у Steam, 285310; нове проходження сценарію Forest Frontiers у базовій грі без автоматизації навчання",
         "version": "Base-game Forest Frontiers rules reconstructed from the official Steam-hosted 2003 manual and current product record; installed Steam build, wrapper, OS revision and entitlement not observed",
         "distribution": "Licensed Windows Steam Deluxe package, scoped to original Forest Frontiers; not Corkscrew Follies, Loopy Landscapes, OpenRCT2, console/mobile port, later sequel, cheat or saved-game inheritance",
         "evidenceUrl": "https://store.steampowered.com/app/285310/RollerCoaster_Tycoon_Classic/",
@@ -22929,7 +22929,7 @@
       "analysisTarget": {
         "platformId": "PLAT-GAME-BOY",
         "edition": "Original North American English Pokémon Red Version Game Boy cartridge, fresh game through retained BoulderBadge",
-        "editionUk": "Оригінальний північноамериканський англомовний картридж Pokémon Red Version для Game Boy, нова гра до збереженого BoulderBadge",
+        "editionUk": "Оригінальний північноамериканський англомовний картридж Pokémon Red Version для Game Boy, нова гра до отримання й збереження BoulderBadge у стані гри",
         "version": "Pokemon Red (UE) [S][!].gb, SHA-1 ea9bcae617fdf159b045185467ae58b2e4a48b9a; rules reconstructed from the original Nintendo manual and pret/pokered commit a1a22aaf84d1675bcdbaeb194592379d586d838e",
         "distribution": "Original licensed physical Game Boy cartridge; not Japanese Red/Green, Blue, Yellow, later revision, regional translation, Virtual Console, Nintendo Switch Online, remake, sequel, emulator modification, glitch or save-state rules",
         "evidenceUrl": "https://www.nintendo.com/en-gb/Games/Game-Boy/Pokemon-Red-Version-266109.html",
@@ -22963,7 +22963,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PLAYSTATION",
         "edition": "Original North American English Final Fantasy VII PlayStation Disc 1 SCUS-94163, fresh New Game through first ordinary Sector 8 control",
-        "editionUk": "Оригінальний північноамериканський англомовний PlayStation Disc 1 Final Fantasy VII SCUS-94163, нова гра до першого звичайного керування в Sector 8",
+        "editionUk": "Оригінальний північноамериканський англомовний диск 1 видання Final Fantasy VII для PlayStation, SCUS-94163; початок із New Game до першого звичайного керування в Sector 8",
         "version": "Original rules reconstructed from Sony's English manual, ff7tools commit 6bf1fbcec2c88c1856cffd4a371719b406fee654 and documented field/encounter formats; disc image and installed build not observed",
         "distribution": "Original licensed North American three-disc PlayStation release, scoped to Disc 1 SCUS-94163; not Japanese or PAL, PC/mobile/modern wrapper, Final Fantasy VII Remake, mod, translation patch, randomiser, speedrun exploit or emulator-enhanced rules",
         "evidenceUrl": "https://www.playstation.com/en-us/playstation-history/1994-ps-one/",
@@ -23014,7 +23014,7 @@
       "analysisTarget": {
         "platformId": "PLAT-XBOX",
         "edition": "Original North American English Ninja Gaiden Black for Xbox, fresh Story Mode Normal through Chapter 1 Karma settlement and first Chapter 2 control",
-        "editionUk": "Оригінальна північноамериканська англомовна Ninja Gaiden Black для Xbox, нова Story Mode на Normal до підсумку Karma першого розділу й першого керування у Chapter 2",
+        "editionUk": "Оригінальна північноамериканська англомовна Ninja Gaiden Black для Xbox, нове проходження Story Mode на складності Normal до підсумку Karma у Chapter 1 і першого керування у Chapter 2.",
         "version": "2005-09-20 original-Xbox retail-disc rules reconstructed from Xbox product evidence, the inherited original manual and Black-specific written routes; disc and executable not observed",
         "distribution": "Original licensed Xbox retail game; not the 2004 original, Hurricane Pack, Sigma, Master Collection, sequel, port, emulated wrapper, cheat or mod",
         "evidenceUrl": "https://www.xbox.com/en-US/games/store/ninja-gaiden-black/C17KKS83S9GS",
@@ -23031,7 +23031,7 @@
       "analysisTarget": {
         "platformId": "PLAT-ARCADE-CABINET",
         "edition": "Original North American Midway-licensed 1980 PAC-MAN arcade program, one-player first maze with three starting lives and one bonus at 10,000 points",
-        "editionUk": "Оригінальна північноамериканська Midway-ліцензована аркадна PAC-MAN 1980 року, один гравець, перший лабіринт, три стартові життя й один бонус за 10 000 очок",
+        "editionUk": "Оригінальна північноамериканська аркадна програма PAC-MAN 1980 року за ліцензією Midway; один гравець, перший лабіринт, три початкові життя й одне бонусне життя за 10 000 очок",
         "version": "1980 North American original-board rules reconstructed from publisher history, Midway operator documentation and a code-informed technical dossier; PCB and verified program not observed",
         "distribution": "Original licensed coin-operated arcade game; not Puck Man, Ms. PAC-MAN, Pac-Man Plus, a port, compilation, wrapper, Rack Test, speed-up modification, bootleg or save-state run",
         "evidenceUrl": "https://pacman.holenet.info/pacman_opmanual.pdf",
@@ -23044,7 +23044,7 @@
       "analysisTarget": {
         "platformId": "PLAT-DOS",
         "edition": "Original English 1990 DOS EGA/16-colour floppy release, Treasure Huntery trial only",
-        "editionUk": "Оригінальний англомовний DOS EGA/16-кольоровий дискетний випуск 1990 року, лише випробування Treasure Huntery",
+        "editionUk": "Оригінальне англомовне видання 1990 року на дискетах для DOS, режим EGA з 16 кольорами; лише випробування Treasure Huntery",
         "version": "Original English EGA program-family rules reconstructed from Lucasfilm history, the original manual and corroborated written routes; executable and disks not observed",
         "distribution": "Original DOS floppy product; not VGA, CD-ROM, Special Edition, another platform, modern wrapper, unofficial talkie build, fan translation or modification",
         "evidenceUrl": "https://www.mocagh.org/lucasfilm/miuk-manual.pdf",
@@ -23057,20 +23057,24 @@
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
         "edition": "Current licensed English Steam app 13600, fresh unmodified single-player opening through first control with the acquired Dagger and Power of Revival",
-        "editionUk": "Поточний ліцензований англомовний Steam app 13600, новий немодифікований одиночний вступ до першого керування зі здобутими Dagger і Power of Revival",
+        "editionUk": "Поточний ліцензійний англомовний застосунок Steam 13600: нова немодифікована одиночна гра від початку до першого керування зі здобутим Dagger of Time і збереженою Power of Revival",
         "version": "Current storefront identity with base 2003 Windows rules reconstructed from the linked official English PC manual and corroborated written routes; installed depot and executable not observed",
         "distribution": "Licensed Windows Steam application 13600; not another PC package, original console build, remaster, remake, compatibility wrapper, cheat, glitch or modification",
         "evidenceUrl": "https://cdn.akamai.steamstatic.com/steam/apps/13600/manuals/manual_english.pdf",
         "checked": "2026-09-21"
       },
-      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
       "releases": []
     },
     "GAME-0345": {
       "analysisTarget": {
         "platformId": "PLAT-NINTENDO-ENTERTAINMENT-SYSTEM",
         "edition": "Original North American English Duck Hunt Game Pak, one-player Game A, first round with the NES Zapper and compatible CRT",
-        "editionUk": "Оригінальний північноамериканський англомовний картридж Duck Hunt, одиночна Game A, перший раунд із NES Zapper і сумісним CRT",
+        "editionUk": "Оригінальний північноамериканський англомовний картридж Duck Hunt; перший раунд Game A для одного гравця з NES Zapper і сумісним ЕПТ-дисплеєм",
         "version": "Original ©1985 Nintendo English instruction-booklet rules; cartridge program not dumped, executed or hashed",
         "distribution": "Original physical Nintendo Entertainment System Game Pak; not Famicom-specific hardware, VS. arcade, Wii U Virtual Console, emulator, adapter, clone gun or modification",
         "evidenceUrl": "https://www.nesfiles.com/NES/Duckhunt/Duckhunt.pdf",
@@ -23083,7 +23087,7 @@
       "analysisTarget": {
         "platformId": "PLAT-SUPER-NINTENDO",
         "edition": "Original North American English 1995 Chrono Trigger SNES Game Pak, fresh Wait-mode New Game through first ordinary control in 600 A.D. Truce Canyon",
-        "editionUk": "Оригінальний північноамериканський англомовний картридж Chrono Trigger для SNES 1995 року, свіжа New Game у режимі Wait до першого звичайного керування в Truce Canyon 600 A.D.",
+        "editionUk": "Оригінальний північноамериканський англомовний картридж Chrono Trigger для SNES 1995 року; початок із New Game у режимі Wait до першого звичайного керування в Truce Canyon 600 A.D.",
         "version": "Original Square Soft English instruction-booklet rules and corroborated original-SNES opening route; cartridge program not dumped, executed or hashed",
         "distribution": "Original physical North American Super Nintendo Entertainment System Game Pak; not Japanese, PlayStation, Nintendo DS, mobile, Steam, Wii wrapper, translation patch, randomiser, ROM hack or emulator enhancement",
         "evidenceUrl": "https://archive.org/download/SNESManuals/Chrono%20Trigger%20%28USA%29.pdf",
@@ -23100,7 +23104,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PLAYSTATION",
         "edition": "Original North American English 1997 PlayStation black-label SLUS-00067, fresh Alucard opening through first Marble Gallery control",
-        "editionUk": "Оригінальний північноамериканський англомовний black-label випуск SLUS-00067 для PlayStation 1997 року, свіжий вступ Alucard до першого керування в Marble Gallery",
+        "editionUk": "Оригінальне північноамериканське англомовне видання 1997 року для PlayStation з чорною етикеткою, SLUS-00067; нове проходження вступу за Alucard до першого керування в Marble Gallery",
         "version": "Original Konami English instruction-booklet rules and corroborated original-PlayStation opening route; disc program not dumped, executed or hashed",
         "distribution": "Original licensed North American PlayStation CD-ROM; not another region or revision, Greatest Hits, Sega Saturn, downloadable wrapper, later port, alternate mode, randomiser, cheat or modification",
         "evidenceUrl": "https://archive.org/details/castlevania-symphony-of-the-night_202203",
@@ -23113,7 +23117,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PLAYSTATION",
         "edition": "First North American English 1997 PlayStation Director's Cut game disc SLUS-00551, STANDARD (original version), fresh Chris route through three Sword Key locks and a reload-verified save",
-        "editionUk": "Перший північноамериканський англомовний диск Resident Evil: Director's Cut SLUS-00551 для PlayStation 1997 року, STANDARD (original version), свіжий маршрут Chris через три замки Sword Key та перевірене перезавантаженням збереження",
+        "editionUk": "Перший північноамериканський англомовний диск Resident Evil: Director's Cut SLUS-00551 для PlayStation 1997 року, STANDARD (original version), новий маршрут Кріса через три замки Sword Key та збереження, перевірене повторним завантаженням",
         "version": "Original Capcom English instruction-booklet rules and corroborated original-PlayStation Chris route; disc program not dumped, executed or hashed",
         "distribution": "Original licensed North American PlayStation game CD-ROM supplied beside the separate SLUS-90009 demo; not the SLUS-00747 Dual Shock Version, another region, mode, port, wrapper, remake, randomiser, cheat or modification",
         "evidenceUrl": "https://www.videogamemanual.com/ps1/Resident%20Evil%20-%20Director%27s%20Cut%20%28USA%29.pdf",
@@ -23126,7 +23130,7 @@
       "analysisTarget": {
         "platformId": "PLAT-XBOX",
         "edition": "First North American English original-Xbox retail release US-012, fresh Normal profile through Training Course, Police Station and reload-verified first Defense Ministry checkpoint",
-        "editionUk": "Перший північноамериканський англомовний роздрібний випуск US-012 для оригінального Xbox, свіжий профіль Normal через Training Course, Police Station і перевірений перезавантаженням перший checkpoint Defense Ministry",
+        "editionUk": "Перший північноамериканський англомовний роздрібний випуск US-012 для оригінального Xbox, новий профіль на складності Normal через Training Course, Police Station і першу контрольну точку Defense Ministry, перевірену повторним завантаженням",
         "version": "Original Ubisoft English Xbox instruction-booklet rules and corroborated original-Xbox Training/Police Station routes; disc program, title update and executable not dumped, executed or hashed",
         "distribution": "Original licensed North American Xbox base-game retail disc; not the downloadable mission packs, another platform or region, backward-compatible enhancement, later port, remake, sequel, cheat or modification",
         "evidenceUrl": "https://datassette.org/pt-br/manuais/microsoft/xbox-classico/jogos/us-estados-unidos/tom-clancys-splinter-cell",
@@ -23139,7 +23143,7 @@
       "analysisTarget": {
         "platformId": "PLAT-XBOX-360",
         "edition": "Licensed North American English Xbox Live Arcade Jet Set Radio, title ID 58411247, fresh New Game through Shibuya GG results and three successor choices",
-        "editionUk": "Ліцензований північноамериканський англомовний випуск Jet Set Radio для Xbox Live Arcade, title ID 58411247, свіжа New Game до підсумку Shibuya GG і трьох наступних варіантів",
+        "editionUk": "Ліцензований північноамериканський англомовний випуск Jet Set Radio для Xbox Live Arcade, ідентифікатор гри 58411247, свіжа New Game до підсумку Shibuya GG і трьох наступних варіантів",
         "version": "SEGA-published Blit hybrid HD port released 2012-09-19; package, executable and title update not downloaded, executed or hashed",
         "distribution": "Licensed digital Xbox 360 application; not the Dreamcast executable, another regional package, PlayStation/Windows/mobile port, Jet Set Radio Future, backward-compatible rendering claim, cheat or modification",
         "evidenceUrl": "https://news.xbox.com/en-us/2012/09/19/arcade-jet-set-radio/",
@@ -23152,7 +23156,7 @@
       "analysisTarget": {
         "platformId": "PLAT-ARCADE-CABINET",
         "edition": "Original North American English Capcom CPS-1 Street Fighter II: The World Warrior, World rev G program set sf2, one-player first CPU match at factory Normal difficulty",
-        "editionUk": "Оригінальна північноамериканська англомовна Capcom CPS-1 Street Fighter II: The World Warrior, програма World rev G set sf2, перший одиночний матч проти CPU на заводській складності Normal",
+        "editionUk": "Оригінальна північноамериканська англомовна Capcom CPS-1 Street Fighter II: The World Warrior, програмний набір sf2, World rev G, перший одиночний матч проти CPU на заводській складності Normal",
         "version": "World rev G program identity and 1991-05-22 build date from a code-lineage inventory; rules reconstructed from Capcom material, the original kit manual and corroborated written analysis; PCB and program not obtained or executed",
         "distribution": "Original licensed coin-operated CPS-1 arcade game; not Champion Edition, Hyper Fighting/Turbo, Super, Super Turbo, a home port, compilation, web implementation, emulator modification, bootleg or speed hack",
         "evidenceUrl": "https://www.arcade-museum.com/manuals-videogames/S/SFII.pdf",
@@ -23165,7 +23169,7 @@
       "analysisTarget": {
         "platformId": "PLAT-DOS",
         "edition": "Original English DOS The Ultimate DOOM v1.9, DOOM.WAD v1.9ud, fresh Hurt Me Plenty E1M1: Hangar",
-        "editionUk": "Оригінальна англомовна DOS The Ultimate DOOM v1.9, DOOM.WAD v1.9ud, нова E1M1: Hangar на Hurt Me Plenty",
+        "editionUk": "Оригінальне англомовне видання The Ultimate DOOM v1.9 для DOS, DOOM.WAD v1.9ud; нове проходження E1M1: Hangar на складності Hurt Me Plenty",
         "version": "DOOM.WAD size 12,408,292, MD5 c4fe9fd920207691a9f493668e0a2083, SHA-1 9b07b02ab3c275a6a7570c3f73cc20d63a0e3833; rules reconstructed from the preserved manual and pinned id Software Linux Doom source lineage; DOS executable and installed Steam depot not observed",
         "distribution": "Original DOS version available to owners through Steam app 2280 beta participation; not the current KEX-enhanced application, 2019 rerelease, source port, console port, add-on or mod",
         "evidenceUrl": "https://help.bethesda.net/app/answers/detail/a_id/66400",
@@ -23182,7 +23186,7 @@
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
         "edition": "Current unmodified English Windows Steam Deus Ex: Game of the Year Edition app 6910, public Build 251801, Training plus fresh Medium Mission 1 to reload-verified Battery Park control",
-        "editionUk": "Поточна незмінена англомовна Windows Steam Deus Ex: Game of the Year Edition, застосунок 6910, публічна збірка 251801, Training і свіжа Mission 1 на Medium до перевіреного перезавантаженням керування в Battery Park",
+        "editionUk": "Поточна немодифікована англомовна Deus Ex: Game of the Year Edition для Windows у Steam, застосунок 6910, публічна збірка 251801; Training і нове проходження першої місії на складності Medium до керування в Battery Park, перевіреного повторним завантаженням збереження",
         "version": "Steam public branch Build ID 251801 built 2014-05-01, content depot 6911; product rules reconstructed from the official manual and corroborated written routes; depot and executable not obtained, executed or hashed",
         "distribution": "Licensed English Windows Steam application; not a fan patch, renderer replacement, mod, macOS or PlayStation 2 port, later Deus Ex game, cheat or save edit",
         "evidenceUrl": "https://store.steampowered.com/app/6910/Deus_Ex_Game_of_the_Year_Edition/",
@@ -23199,7 +23203,7 @@
       "analysisTarget": {
         "platformId": "PLAT-SUPER-NINTENDO",
         "edition": "Original North American English Super NES Super Mario World internal revision 00, one-player fresh Yoshi's Island 2 through its ordinary Goal Tape",
-        "editionUk": "Оригінальний північноамериканський англомовний Super Mario World для Super NES, внутрішня ревізія 00, один гравець у свіжій Yoshi's Island 2 до звичайної Goal Tape",
+        "editionUk": "Оригінальний північноамериканський англомовний Super Mario World для Super NES, внутрішня ревізія 00; нова гра для одного гравця на рівні Yoshi’s Island 2 до звичайної фінішної стрічки Goal Tape",
         "version": "Original Nintendo instruction-booklet rules and pinned SMWDisX U revision-00 reconstruction at commit 30643c7595a7d097d731de69476f8059c7cf98c3; cartridge and ROM not obtained, executed or hashed",
         "distribution": "Original licensed North American Super NES cartridge ruleset; not a Japanese/PAL revision, Game Boy Advance version, Virtual Console, Classic Mini or Nintendo Switch Online wrapper, ROM hack, randomizer, cheat or later Mario game",
         "evidenceUrl": "https://www.nintendo.co.jp/clvs/soft/mario_world.html",
@@ -23216,7 +23220,7 @@
       "analysisTarget": {
         "platformId": "PLAT-NINTENDO-GAMECUBE",
         "edition": "Original North American English Nintendo GameCube Metroid Prime revision DOL-GM8E-0-00, fresh New Game from Frigate Orpheon docking through first Tallon Overworld control",
-        "editionUk": "Оригінальна північноамериканська англомовна Metroid Prime для Nintendo GameCube, ревізія DOL-GM8E-0-00, свіжа New Game від стикування з Frigate Orpheon до першого керування в Tallon Overworld",
+        "editionUk": "Оригінальне північноамериканське англомовне видання Metroid Prime для Nintendo GameCube, ревізія DOL-GM8E-0-00; початок із New Game від стикування з Frigate Orpheon до першого керування в Tallon Overworld",
         "version": "Original Nintendo English manual and product rules, pinned PrimeDecomp GM8E01_00 reconstruction at c6f63949ed08a08fbf1cec458479358a1721a9a0 and corroborated written Orpheon route; disc, image and executable not obtained, executed or hashed",
         "distribution": "Original licensed North American Nintendo GameCube optical-disc ruleset; not later 0-01/0-02, Japanese or PAL release, Trilogy, Remastered, randomizer, sequence break, cheat, modification or later Metroid title",
         "evidenceUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-GameCube/Metroid-Prime-268423.html",
@@ -23233,7 +23237,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PLAYSTATION-2",
         "edition": "Original North American English PlayStation 2 Shadow of the Colossus retail release SCUS-97472, fresh Normal game through first-colossus defeat and restored Shrine control",
-        "editionUk": "Оригінальний північноамериканський англомовний роздрібний Shadow of the Colossus для PlayStation 2, SCUS-97472, свіжа Normal до перемоги над першим колосом і відновленого керування у святині",
+        "editionUk": "Оригінальне північноамериканське англомовне роздрібне видання Shadow of the Colossus для PlayStation 2, SCUS-97472; нова гра на складності Normal до перемоги над першим колосом і відновленого керування у святині",
         "version": "Original Sony English instruction booklet and corroborated SCUS-97472 first-colossus route; disc, image and executable not obtained, executed or hashed",
         "distribution": "Original licensed North American PlayStation 2 DVD retail ruleset; not Japanese or PAL, PlayStation 3 HD, PlayStation 4 remake, Time Attack, Hard, New Game+, cheat, modification or later title",
         "evidenceUrl": "https://www.videogamemanual.com/PS2/Shadow%20of%20the%20Colossus%20%28USA%29.pdf",
@@ -23250,7 +23254,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PLAYSTATION-2",
         "edition": "Original North American English PlayStation 2 Grand Theft Auto: San Andreas black-label SLUS-20946 version 1.03, fresh New Game through Sweet & Kendl settlement",
-        "editionUk": "Оригінальний північноамериканський англомовний black-label Grand Theft Auto: San Andreas для PlayStation 2, SLUS-20946 версії 1.03, свіжа New Game до завершення Sweet & Kendl",
+        "editionUk": "Оригінальне північноамериканське англомовне видання Grand Theft Auto: San Andreas для PlayStation 2 (black-label), SLUS-20946 версії 1.03, нова гра (New Game) до завершення Sweet & Kendl",
         "version": "Original Rockstar English PlayStation 2 booklet, Redump and SerialStation SLUS-20946 version 1.03 identity, and corroborated opening route; disc, image and executable not obtained, executed or hashed",
         "distribution": "Original licensed North American PlayStation 2 DVD black-label ruleset; not version 3.00, Greatest Hits, Special Edition, The Trilogy, PC, mobile, later console port, Definitive Edition, cheat, modification or later title",
         "evidenceUrl": "https://media-rockstargames-com.akamaized.net/rockstargames-newsite/img/manuals/en_us/GTATrilogy_GTASA_PS2_Manual_M01.pdf",
@@ -23267,7 +23271,7 @@
       "analysisTarget": {
         "platformId": "PLAT-XBOX",
         "edition": "Original North American English Xbox Psychonauts retail release, Majesco UPC 096427013983 and title ID 0x4D4A0012, fresh New adventure through Basic Braining settlement",
-        "editionUk": "Оригінальний північноамериканський англомовний роздрібний Psychonauts для Xbox, Majesco UPC 096427013983 і title ID 0x4D4A0012, свіжа New adventure до завершення Basic Braining",
+        "editionUk": "Оригінальний північноамериканський англомовний роздрібний випуск Psychonauts для Xbox, код Majesco UPC 096427013983 та ідентифікатор гри 0x4D4A0012, нова пригода до завершення Basic Braining",
         "version": "Double Fine-hosted original English Xbox manual, Majesco UPC and Xbox title-ID identity, plus corroborated Basic Braining route; disc, image and executable not obtained, executed or hashed",
         "distribution": "Original licensed North American Xbox disc ruleset; not prototype, PlayStation 2, Windows, later Steam, macOS/Linux, PlayStation 4, backward-compatibility wrapper, cheat or modification",
         "evidenceUrl": "https://assets.doublefine.com/manuals/Psychonauts_Manual-Xbox.pdf",
@@ -23284,7 +23288,7 @@
       "analysisTarget": {
         "platformId": "PLAT-XBOX",
         "edition": "Original North American English Xbox Crimson Skies: High Road to Revenge retail release, Microsoft product P06-00001, UPC 805529097681 and title ID 0x4D530021 / MS-033, fresh campaign through The Morning After settlement",
-        "editionUk": "Оригінальний північноамериканський англомовний роздрібний Crimson Skies: High Road to Revenge для Xbox, Microsoft P06-00001, UPC 805529097681 і title ID 0x4D530021 / MS-033, свіжа кампанія до завершення The Morning After",
+        "editionUk": "Оригінальний північноамериканський англомовний роздрібний випуск Crimson Skies: High Road to Revenge для Xbox, продукт Microsoft P06-00001, UPC 805529097681 та ідентифікатор гри 0x4D530021 / MS-033, нова кампанія до завершення The Morning After",
         "version": "Preserved official Microsoft English Xbox manual, product/UPC/title-ID identity and corroborated The Morning After route; disc, image and executable not obtained, executed or hashed",
         "distribution": "Original licensed North American Xbox disc ruleset; not the PC predecessor, prototype, later regional release, backward-compatibility wrapper, Xbox Live mode, cheat, modification or completed save",
         "evidenceUrl": "https://download.microsoft.com/download/f/d/9/fd90191d-8010-4bc8-818c-a5d668ba796f/CrimsonSkies2_Manual_EN.pdf",
@@ -23318,7 +23322,7 @@
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
         "edition": "Current unmodified English Windows Steam base game, app 22380 public Build ID 1510068, Normal fresh character through Ghost Town Gunfight for Goodsprings and retained manual-save reload",
-        "editionUk": "Поточна немодифікована англомовна базова Windows-версія у Steam, app 22380 public Build ID 1510068, свіжий персонаж на Normal до завершення Ghost Town Gunfight за Goodsprings і перевірки ручним завантаженням",
+        "editionUk": "Поточна немодифікована англомовна базова Windows-версія у Steam, застосунок 22380, публічна збірка Build ID 1510068; новий персонаж на Normal до завершення Ghost Town Gunfight на боці Goodsprings і перевірки збереженого стану після ручного збереження та завантаження",
         "version": "Steam app 22380 public Build ID 1510068; base, English and executable depots distinguished from separately distributed DLC depots",
         "distribution": "Licensed Windows Steam base application; not Ultimate Edition, any DLC union, console release, Hardcore rules, mod, unofficial patch or completed save",
         "evidenceUrl": "https://steamdb.info/app/22380/depots/",
@@ -23335,7 +23339,7 @@
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
         "edition": "Current unmodified English Windows Steam Game of the Year Edition, app 22320 public Build ID 1510067, fresh Dunmer Warrior through Blades induction, Antabolis Informant and retained manual-save reload",
-        "editionUk": "Поточне немодифіковане англомовне Windows-видання Game of the Year Edition у Steam, app 22320 public Build ID 1510067, свіжий Dunmer Warrior до вступу в Blades, Antabolis Informant і перевірки ручним завантаженням",
+        "editionUk": "Поточне немодифіковане англомовне Windows-видання Game of the Year Edition у Steam, застосунок 22320, публічна збірка Build ID 1510067; новий Dunmer класу Warrior до вступу в Blades, активації Antabolis Informant і перевірки стану після ручного збереження та завантаження",
         "version": "Steam app 22320 public Build ID 1510067; base English GOTY content and executable depot distinguished from language depots; Tribunal and Bloodmoon included by product but inactive in scope",
         "distribution": "Licensed Windows Steam GOTY application; not original retail media, Xbox, another language, OpenMW, mod, unofficial patch, console-command run or expansion route",
         "evidenceUrl": "https://steamdb.info/app/22320/depots/",
@@ -23352,7 +23356,7 @@
       "analysisTarget": {
         "platformId": "PLAT-NINTENDO-SWITCH",
         "edition": "Original English 1998 Nintendo 64 Ocarina of Time rules in licensed Nintendo 64 Classics through Nintendo Switch Online + Expansion Pack; fresh Kokiri Forest file through Gohma and Kokiri's Emerald, before forest exit",
-        "editionUk": "Оригінальні англомовні правила Ocarina of Time 1998 року для Nintendo 64 у ліцензованій Nintendo 64 Classics через Nintendo Switch Online + Expansion Pack; новий файл у лісі Кокірі до Ґоми та Смарагда Кокірі, ще до виходу з лісу",
+        "editionUk": "Оригінальні англомовні правила Ocarina of Time 1998 року для Nintendo 64 у ліцензованій Nintendo 64 Classics через Nintendo Switch Online + Expansion Pack; нове збереження в лісі Кокірі до перемоги над Ґомою й отримання Смарагда Кокірі, ще до виходу з лісу",
         "version": "Original Nintendo 64 rules; Nintendo 64 Classics wrapper; no 3DS, Master Quest, emulation conveniences or future Switch 2 remake",
         "distribution": "Licensed Nintendo Switch Online + Expansion Pack N64 Classics application, not a cartridge analysis target or remake",
         "evidenceUrl": "https://www.nintendo.com/us/whatsnew/explore-some-of-links-earlier-adventures-available-now-with-nintendo-switch-online-and-nintendo-switch-online-expansion-pack/",
@@ -23369,7 +23373,7 @@
       "analysisTarget": {
         "platformId": "PLAT-NINTENDO-WII",
         "edition": "Original English 2006 North American Wii Sports physical disc; one stored-Mii single-player ten-frame Bowling game",
-        "editionUk": "Оригінальний англомовний фізичний диск Wii Sports для північноамериканської Wii 2006 року; одна десятифреймова партія в боулінг для одного збереженого Mii",
+        "editionUk": "Оригінальний північноамериканський англомовний диск Wii Sports 2006 року; одна партія в режимі Bowling із десяти фреймів для одного гравця зі збереженим Mii",
         "version": "Original Wii disc rules; no Wii Sports Resort, Wii Sports Club or Nintendo Switch Sports",
         "distribution": "Original retail Wii Game Disc",
         "evidenceUrl": "https://csassets.nintendo.com/noaext/image/private/t_KA_PDF/Wii_Wii_Sports?_a=DATAg1AAZAA0",
@@ -23420,7 +23424,7 @@
       "analysisTarget": {
         "platformId": "PLAT-XBOX-ONE",
         "edition": "English Xbox One Mass Effect Legendary Edition, Mass Effect 2 module, fresh no-import iconic male Soldier on Normal through Freedom's Progress and first Normandy SR-2 control",
-        "editionUk": "Англомовна Mass Effect Legendary Edition для Xbox One, модуль Mass Effect 2: нова гра без імпорту, стандартний чоловічий Шепард-солдат на звичайній складності до завершення Freedom's Progress і першого вільного керування Normandy SR-2",
+        "editionUk": "Англомовна Mass Effect Legendary Edition для Xbox One, модуль Mass Effect 2: нова гра без імпорту, стандартний чоловічий Шепард-солдат на звичайній складності до завершення Freedom's Progress і першого моменту, коли гравець керує Шепардом на борту Normandy SR-2",
         "version": "2021 Legendary Edition launch-era ruleset; no exact installed patch or executable hash claimed",
         "distribution": "Licensed Xbox One Legendary Edition collection, not original Xbox 360 release, a later campaign module or a separately installed DLC mission",
         "evidenceUrl": "https://www.ea.com/games/mass-effect/mass-effect-legendary-edition",
@@ -23437,7 +23441,7 @@
       "analysisTarget": {
         "platformId": "PLAT-XBOX-ONE",
         "edition": "Licensed English Xbox One Dead Rising 2016 re-release, fresh 72 Hour Mode from first Security Room control through closed Case 1-2 and a manual save",
-        "editionUk": "Ліцензоване англомовне перевидання Dead Rising для Xbox One 2016 року: новий режим «72 години» від першого керування в кімнаті охорони до завершення справи 1-2 і ручного збереження",
+        "editionUk": "Ліцензоване англомовне перевидання Dead Rising для Xbox One 2016 року: нова спроба в режимі 72 Hour Mode від першого керування в кімнаті охорони до завершення справи 1-2 і ручного збереження",
         "version": "2016-09-13 Xbox One release; exact installed patch and executable hash not inspected",
         "distribution": "Licensed Xbox One digital release, not the Xbox 360 original, a sequel or the 2024 Deluxe Remaster",
         "evidenceUrl": "https://www.xbox.com/en-US/games/store/dead-rising/BZV7W98B3XN4",
@@ -23471,7 +23475,7 @@
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
         "edition": "Original English Bullfrog/Electronic Arts PC First Game level-one rules, represented by the licensed GOG Windows listing; no installed build inspected",
-        "editionUk": "Оригінальні англомовні правила Bullfrog/Electronic Arts для першого рівня з навчанням; ліцензоване видання GOG для Windows, без перевірки встановленої збірки",
+        "editionUk": "Оригінальні англомовні правила Bullfrog/Electronic Arts для першого рівня режиму First Game на ПК за ліцензованою сторінкою GOG для Windows. Встановлену збірку не перевіряли",
         "version": "1997 original PC manual; current GOG listing checked 2026-09-23; exact GOG build and patch uninspected",
         "distribution": "Licensed Windows PC digital listing, not a claimed direct-play session or community reimplementation",
         "evidenceUrl": "https://www.gog.com/en/game/theme_hospital",
@@ -23488,7 +23492,7 @@
       "analysisTarget": {
         "platformId": "PLAT-NINTENDO-SWITCH",
         "edition": "Original English Nintendo 64 Pokémon Snap rules represented by licensed Nintendo Switch Online + Expansion Pack Nintendo 64 Classics, one Beach excursion from a staged Pokémon Food-unlocked Lab save through Oak's Pikachu photo check",
-        "editionUk": "Оригінальні англомовні правила Pokémon Snap для Nintendo 64 у ліцензованому застосунку Nintendo 64 Classics за підпискою Nintendo Switch Online + Expansion Pack: один маршрут Beach зі збереження, де вже відкрито Pokémon Food, до оцінювання фото Пікачу професором Оуком",
+        "editionUk": "Оригінальні англомовні правила Pokémon Snap для Nintendo 64 у ліцензованому застосунку Nintendo 64 Classics за підпискою Nintendo Switch Online + Expansion Pack: одна подорож Beach із попередньо підготовленого збереження в Lab, де вже відкрито Pokémon Food, до оцінювання фото Пікачу професором Оуком",
         "version": "1999 original N64 manual; Nintendo Switch Online availability checked 2026-09-23; installed app version and executable hash not inspected",
         "distribution": "Licensed Nintendo Switch Online + Expansion Pack N64 Classics, not an inspected original cartridge, New Pokémon Snap, a standalone Switch purchase or a claimed direct-play session",
         "evidenceUrl": "https://www.nintendo.com/us/whatsnew/nintendo-switch-online-expansion-pack-pokemon-snap-is-now-available/",
@@ -23505,7 +23509,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PLAYSTATION-3",
         "edition": "Original English PlayStation 3 retail-disc Guitar Hero III rules, one solo Easy Quick Play song with a compatible Les Paul guitar controller through its result or Rock Meter failure",
-        "editionUk": "Оригінальні англомовні правила Guitar Hero III для дискового видання PlayStation 3: одна пісня в одиночному Quick Play на Easy із сумісним гітарним контролером Les Paul до результату або поразки за Rock Meter",
+        "editionUk": "Оригінальні англомовні правила Guitar Hero III для дискового видання PlayStation 3: одна пісня в одиночному Quick Play на Easy із сумісним гітарним контролером Les Paul до підсумку пісні або дострокової поразки за показником Rock Meter",
         "version": "2007 original PS3 instruction booklet; disc revision, installed patch and executable hash not inspected",
         "distribution": "Original PlayStation 3 retail-disc rules, not an inspected disc, installed copy, direct-play trace or current purchase offer",
         "evidenceUrl": "https://www.yumpu.com/en/document/view/6266335/gh3-ps3-manual-cover-activision/7",
@@ -23522,7 +23526,7 @@
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
         "edition": "Original English Windows PC Spore base-game Cell stage, from fresh first control to retained first Creature-stage control",
-        "editionUk": "Оригінальна англомовна базова Spore для Windows PC: етап Cell від першого керування новою клітиною до першого збереженого керування на етапі Creature",
+        "editionUk": "Оригінальна англомовна базова Spore для Windows PC: від першого керування новою клітиною на етапі Cell до першого керування на етапі Creature зі збереженим поступом",
         "version": "2008 original PC instruction-manual rules; installed build, patch and executable hash not inspected",
         "distribution": "Original Windows PC base-game rules documented by the EA manual, not an inspected executable or direct-play trace",
         "evidenceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/17390/manuals/manual.pdf?t=1642702281",
@@ -23590,7 +23594,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PHYSICAL-TABLETOP",
         "edition": "CATAN English base-game rulebook hosted in 2020, four-player fixed beginner setup and separate roll/trade/build phases",
-        "editionUk": "Англомовні базові правила CATAN у PDF 2020 року: фіксована розкладка для чотирьох новачків та окремі фази кидка, обміну й будівництва",
+        "editionUk": "Англомовний посібник із базовими правилами CATAN, розміщений у 2020 році: фіксована початкова розкладка для чотирьох гравців і окремі фази кидка, обміну й будівництва",
         "version": "Fifth English-language base rules with a 2015 precedence note, hosted in the publisher's 2020 PDF; physical printing and complete match not inspected",
         "distribution": "Physical tabletop base game, not a digital adaptation or expansion",
         "evidenceUrl": "https://www.catan.com/sites/default/files/2021-06/catan_base_rules_2020_200707.pdf",
@@ -23671,7 +23675,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PLAYSTATION-4",
         "edition": "English-language 2017 Capcom PS4 Ōkami HD; fresh opening from first control at cursed Kamiki tree to fruit-cut village-landscape restoration",
-        "editionUk": "Англомовна Ōkami HD від Capcom для PlayStation 4 2017 року: початок від першого керування біля проклятого дерева Камікі до зрізання плоду й відновлення краєвиду села",
+        "editionUk": "Англомовна Ōkami HD від Capcom для PlayStation 4 2017 року: нове проходження від першого керування біля проклятого дерева Камікі до зрізання плоду й відновлення краєвиду села",
         "version": "PS4 release identity verified by publisher listing; installed binary and patch number not inspected; original PS2 manual used only for general rules corroborated by PS4 routes",
         "distribution": "Licensed PS4 product; no disc, install, direct-play trace or remaster-specific rule difference claimed",
         "evidenceUrl": "https://store.playstation.com/en-us/product/UP0102-CUSA08418_00-OKAMIHD000000001",
@@ -23684,7 +23688,7 @@
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
         "edition": "2025 English-language Windows 10/11 The Sims 2: Legacy Collection, two-adult occupied-home Live Mode day from 08:00 to the next 08:00",
-        "editionUk": "Англомовна The Sims 2: Legacy Collection 2025 року для Windows 10/11: день у житловому будинку з двома дорослими від 08:00 до наступної 08:00",
+        "editionUk": "Англомовна The Sims 2: Legacy Collection 2025 року для Windows 10/11: доба в режимі Live Mode у заселеному будинку з двома дорослими, від 08:00 до наступної 08:00",
         "version": "EA Legacy Collection reissue with bundled expansions; no installed binary, patch identity or direct-play trace inspected; original EA manual transferred only for common core Live Mode rules",
         "distribution": "Licensed EA Windows PC reissue; no pack-free executable or unchanged 2004 numeric tuning claimed",
         "evidenceUrl": "https://www.ea.com/en-au/games/the-sims/amp/news/the-birthday-bundle",
@@ -23697,7 +23701,7 @@
       "analysisTarget": {
         "platformId": "PLAT-NINTENDO-GAMECUBE",
         "edition": "Original English PAL GameCube F-Zero GX, offline Novice Ruby Cup, first Mute City: Twist Road race only",
-        "editionUk": "Оригінальна англомовна європейська F-Zero GX для GameCube: перший заїзд Mute City: Twist Road кубка Ruby на складності Novice",
+        "editionUk": "Оригінальна англомовна PAL-версія F-Zero GX для GameCube: лише перший заїзд Mute City: Twist Road кубка Ruby на складності Novice без підключення до мережі",
         "version": "Original 2003 PAL GameCube disc rules from Nintendo booklet; exact disc revision and direct-play trace not inspected",
         "distribution": "Original licensed GameCube disc; no emulated image, later rerelease or AX arcade transfer assessed",
         "evidenceUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-GameCube/F-Zero-GX-267972.html",
@@ -23749,7 +23753,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PLAYSTATION-4",
         "edition": "2017 North American English PlayStation 4 L.A. Noire, base-game Traffic case The Driver's Seat",
-        "editionUk": "Північноамериканське англомовне видання L.A. Noire 2017 року для PlayStation 4: базова справа дорожнього відділу The Driver's Seat",
+        "editionUk": "Північноамериканське англомовне видання L.A. Noire 2017 року для PlayStation 4: справа The Driver's Seat відділу Traffic у базовій грі",
         "version": "North American PS4 release identified by PlayStation Store; exact installed build and direct play not inspected",
         "distribution": "Licensed PS4 digital product; no disc or installed executable inspected",
         "evidenceUrl": "https://store.playstation.com/en-us/product/UP1004-CUSA09084_00-LANOIRE000000PS4",
@@ -23801,7 +23805,7 @@
       "analysisTarget": {
         "platformId": "PLAT-NINTENDO-SWITCH",
         "edition": "Original English Nintendo 64 Mario Party 2 Adventure Board rules represented by licensed Nintendo 64 – Nintendo Switch Online; Pirate Land LITE PLAY 20-turn four-human NO BONUS board contest",
-        "editionUk": "Правила оригінальної англомовної Mario Party 2 для Nintendo 64 у ліцензованій Nintendo 64 – Nintendo Switch Online: Pirate Land, чотири гравці, LITE PLAY на 20 ходів без бонусних зірок",
+        "editionUk": "Правила настільного режиму Adventure Board оригінальної англомовної Mario Party 2 для Nintendo 64 у ліцензованій Nintendo 64 – Nintendo Switch Online: партія чотирьох людей на Pirate Land, LITE PLAY на 20 ходів із налаштуванням NO BONUS",
         "version": "Original 1999–2000 Nintendo 64 instruction-booklet rules; exact cartridge revision, installed Switch wrapper and direct play not inspected",
         "distribution": "Licensed Nintendo Switch Online + Expansion Pack N64 Classics application; not an inspected cartridge, ROM, Switch wrapper build or later Mario Party remake",
         "evidenceUrl": "https://www.nintendo.com/us/whatsnew/nintendo-switch-online-expansion-pack-mario-party-and-mario-party-2-are-now-available/",
@@ -23827,7 +23831,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PLAYSTATION-3",
         "edition": "Original English North American PlayStation 3 LittleBigPlanet 2 Story Mode, solo post-level-link Grab and Swing route",
-        "editionUk": "Оригінальна англомовна LittleBigPlanet 2 для PlayStation 3: одиночний маршрут другої частини сюжетного рівня Grab and Swing після внутрішнього переходу",
+        "editionUk": "Оригінальна англомовна північноамериканська LittleBigPlanet 2 для PlayStation 3 у Story Mode: одиночний маршрут Grab and Swing після внутрішнього переходу рівня",
         "version": "2011 original PS3 Story rules reconstructed from publisher announcements and two written routes; exact disc revision and installed patch not inspected",
         "distribution": "Original PlayStation 3 release; demo, community levels and later editions are outside this analysis",
         "evidenceUrl": "https://blog.playstation.com/2010/09/23/littlebigplanet-2-now-launching-january-18-2011-in-north-america/",
@@ -23853,7 +23857,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PLAYSTATION-4",
         "edition": "2017 PlayStation 4 PaRappa the Rapper Remastered, Normal Stage 1 dojo performance through a Good-rated finish",
-        "editionUk": "PaRappa the Rapper Remastered для PlayStation 4 2017 року: перший ритмічний урок на звичайній складності до завершення з оцінкою Good",
+        "editionUk": "PaRappa the Rapper Remastered для PlayStation 4 2017 року: перший виступ у додзьо на складності Normal до завершення з оцінкою Good",
         "version": "PS4 remaster product rules, with original call-response detail reconstructed from Sony creator material and a written original-game guide; executable revision not inspected",
         "distribution": "Official PS4 digital remaster; original PlayStation disc and PS5 wrapper are not the analysis target",
         "evidenceUrl": "https://www.playstation.com/en-ca/games/parappa-the-rapper-remastered/",
@@ -23879,7 +23883,7 @@
       "analysisTarget": {
         "platformId": "PLAT-GAME-BOY-ADVANCE",
         "edition": "Original North American English Game Boy Advance Mega Microgame$! cartridge, first Wario introduction course through its tenth-slot boss",
-        "editionUk": "Оригінальний англомовний картридж Mega Microgame$! для Game Boy Advance, перший вступний курс Варіо до боса на десятому завданні",
+        "editionUk": "Оригінальний північноамериканський англомовний картридж Mega Microgame$! для Game Boy Advance: перший вступний курс Варіо до боса на десятому завданні",
         "version": "2003 North American AGB-AZWE-USA rules reconstructed from Nintendo's PAL booklet and two contemporary North American written guides; binary identity and exact cartridge revision not inspected",
         "distribution": "Original North American Game Boy Advance cartridge; European Minigame Mania booklet is a rules witness, not the analysis target",
         "evidenceUrl": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/game_boy_advance_8/Manual_GameBoyAdvance_WarioWareIncMinigameMania_EN_DE_FR_ES_IT.pdf",
@@ -23918,7 +23922,7 @@
       "analysisTarget": {
         "platformId": "PLAT-IOS",
         "edition": "Original paid iPhone Fruit Ninja version 1.2, unpowered Classic mode from fresh score run to bomb or missed-fruit terminal",
-        "editionUk": "Оригінальна платна Fruit Ninja версії 1.2 для iPhone: класичний режим без пізніших підсилень від початку забігу до бомби або вичерпання дозволених пропусків",
+        "editionUk": "Оригінальна платна Fruit Ninja версії 1.2 для iPhone: нова партія на рахунок у режимі Classic без підсилень, до бомби або вичерпання дозволених пропусків",
         "version": "May 2010 iPhone version-1.2 rule boundary reconstructed from Halfbrick's contemporary announcement, launch review and later cross-checks; exact executable not inspected",
         "distribution": "Original paid iPhone App Store release; later Free app, Arcade, Zen and power-up-equipped editions excluded",
         "evidenceUrl": "https://www.impulsegamer.com/wordpress/?p=6169",
@@ -23931,7 +23935,7 @@
       "analysisTarget": {
         "platformId": "PLAT-APPLE-II",
         "edition": "Original 1985 MECC Apple II school disk A-157, farmer's first Independence-to-Kansas River crossing interval",
-        "editionUk": "Оригінальний шкільний диск MECC A-157 для Apple II 1985 року: перший відрізок фермера від Індепенденса до переправи через Канзас",
+        "editionUk": "Оригінальний шкільний диск MECC A-157 для Apple II 1985 року: перший відрізок подорожі фермера від Індепенденса до переправи через річку Канзас",
         "version": "A-157 rules reconstructed from MECC's original instructional booklet and model appendix; executable revision not inspected",
         "distribution": "Original school Apple II disk A-157; home H-106, earlier text game and later ports/remakes excluded",
         "evidenceUrl": "https://mirrors.apple2.org.za/ftp.apple.asimov.net/images/educational/mecc/documentation/MECC-A157%20The%20Oregon%20Trail%20manual.pdf",
@@ -23944,7 +23948,7 @@
       "analysisTarget": {
         "platformId": "PLAT-NINTENDO-GAMECUBE",
         "edition": "Original 2001 North American English GameCube retail game, Standard controls, first post-training Parlor room through its key chest",
-        "editionUk": "Оригінальне англомовне північноамериканське видання для GameCube 2001 року зі звичайним керуванням: перша кімната після навчання до ключа зі скрині",
+        "editionUk": "Оригінальне англомовне північноамериканське дискове видання для GameCube 2001 року з керуванням Standard: перша кімната Parlor після навчання, до отримання ключа зі скрині",
         "version": "Original printed GameCube booklet and Nintendo product page; exact retail disc revision not inspected",
         "distribution": "North American retail Nintendo GameCube disc; Hidden Mansion, 2018 3DS remake and sequels excluded",
         "evidenceUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-GameCube/Luigi-s-Mansion-268236.html",
@@ -23957,7 +23961,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PLAYSTATION-2",
         "edition": "Original 2002 North American English PlayStation 2 retail game, first Novalis crater rescue through the Kerwan Infobot and courier-ship handoff",
-        "editionUk": "Оригінальне англомовне північноамериканське видання для PlayStation 2 2002 року: перший маршрут кратером Новаліса до інфобота Кервана й доступу до кур’єрського корабля",
+        "editionUk": "Оригінальне англомовне північноамериканське дискове видання для PlayStation 2 2002 року: перша рятувальна операція в кратері Новаліса до отримання інфобота Кервана й доступу до кур’єрського корабля",
         "version": "Sony's original PS2 announcement and two original-game written routes; exact disc revision not inspected",
         "distribution": "North American retail PlayStation 2 disc; PS4 reimagining, remasters and later games excluded",
         "evidenceUrl": "https://sony.mediaroom.com/2002-05-01-Ratchet-Clank-Revolutionizes-the-Action-Platform-Genre",
@@ -23970,7 +23974,7 @@
       "analysisTarget": {
         "platformId": "PLAT-XBOX-360",
         "edition": "Original 2008 English-language Xbox 360 retail base game, childhood Old Town five-gold music-box interval before the castle sequence",
-        "editionUk": "Оригінальне англомовне видання базової гри для Xbox 360 2008 року: дитячий епізод у Старому місті до купівлі й використання музичної скриньки, перед подіями в замку",
+        "editionUk": "Оригінальне англомовне роздрібне видання базової гри для Xbox 360 2008 року: дитячий епізод у Старому місті зі збиранням п’яти золотих, купівлею й використанням музичної скриньки перед подіями в замку",
         "version": "Original Xbox 360 booklet and two contemporary original-game written routes; exact disc revision not inspected",
         "distribution": "Original Xbox 360 retail base game; later compatibility packaging, Pub Games imports, DLC and sequels excluded",
         "evidenceUrl": "https://www.xbox.com/en-US/games/store/Fable-II/C2WKJJ9F5936",
@@ -23983,7 +23987,7 @@
       "analysisTarget": {
         "platformId": "PLAT-ARCADE-CABINET",
         "edition": "Konami GN845-UC four-panel arcade cabinet documented in its 1998 operator manual; one selected single-player music number at operator difficulty 4/Medium, one stage and Game Over During Song Off",
-        "editionUk": "Чотирипанельний аркадний автомат Konami GN845-UC за посібником 1998 року: одна обрана композиція для одного гравця; складність оператора 4/Medium, один етап, завершення при порожньому індикаторі ввімкнено",
+        "editionUk": "Чотирипанельний аркадний автомат Konami GN845-UC за посібником для оператора 1998 року: одна обрана композиція для одного гравця, складність 4/Medium, один етап, параметр Game Over During Song має значення Off",
         "version": "Original GN845-UC operator manual, copyright 1998; exact installed software-ROM revision and song inventory not inspected",
         "distribution": "Physical arcade cabinet; home dance mats, later series editions and multi-song credits excluded",
         "evidenceUrl": "https://www.hackmycab.com/downloads/manuals/Dance%20Dance%20Revolution%20(Operators%20Manual)%20(Model%20GN845-UC).pdf",
@@ -24009,7 +24013,7 @@
       "analysisTarget": {
         "platformId": "PLAT-NINTENDO-ENTERTAINMENT-SYSTEM",
         "edition": "Original 1993 North American English NES Kirby's Adventure Game Pak, first Vegetable Valley stage 1-1 through goal jump and expanded level map",
-        "editionUk": "Оригінальне англомовне північноамериканське видання Kirby's Adventure для NES 1993 року: перший етап 1-1 Долини овочів до стрибка після проходження й розширеної мапи рівня",
+        "editionUk": "Оригінальний північноамериканський англомовний картридж Game Pak з Kirby's Adventure для NES 1993 року: перший етап 1-1 у Долині овочів до фінішного стрибка й розширення мапи рівнів",
         "version": "Nintendo's original NES Game Pak instruction booklet and written original-NES Stage 1-1 route; exact cartridge ROM revision not inspected",
         "distribution": "North American NES cartridge; GBA remake, later series games and emulator-only features excluded",
         "evidenceUrl": "https://www.nintendo.co.jp/clv/manuals/en/pdf/CLV-P-NAAPE.pdf",
@@ -24061,7 +24065,7 @@
       "analysisTarget": {
         "platformId": "PLAT-NINTENDO-SWITCH",
         "edition": "Original 2022 Nintendo Switch Splatoon 3, launch version 1.1.0, one ordinary 4v4 Regular Battle Turf War",
-        "editionUk": "Оригінальна Splatoon 3 для Nintendo Switch 2022 року, стартова версія 1.1.0, один звичайний матч Turf War формату 4 на 4",
+        "editionUk": "Оригінальна Splatoon 3 для Nintendo Switch 2022 року, стартова версія 1.1.0: один звичайний матч Turf War формату 4 на 4 в режимі Regular Battle",
         "version": "Nintendo launch summary, official Turf War rules and update history; console build and network match not inspected",
         "distribution": "Nintendo Switch release; Splatfest, Tricolor, Anarchy and later balance patches excluded",
         "evidenceUrl": "https://splatoon.nintendo.com/en/news/catch-up-on-all-the-latest-from-the-splatoon-3-direct/",
@@ -24074,7 +24078,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PLAYSTATION",
         "edition": "Original 1999 North American PlayStation Ape Escape SCUS-94423, Normal Play first Fossil Field visit",
-        "editionUk": "Оригінальна північноамериканська Ape Escape для PlayStation 1999 року, SCUS-94423, перше проходження Fossil Field у звичайному режимі",
+        "editionUk": "Оригінальна північноамериканська Ape Escape для PlayStation 1999 року, SCUS-94423: перше відвідування Fossil Field у режимі Normal Play",
         "version": "Sony original-title history and product identity; original disc revision and direct play not inspected",
         "distribution": "Original PlayStation disc; later PlayStation conversion, PSP remake and Time Attack excluded",
         "evidenceUrl": "https://www.playstation.com/uk-ua/playstation-history/1994-ps-one/",
@@ -24087,7 +24091,7 @@
       "analysisTarget": {
         "platformId": "PLAT-XBOX-360",
         "edition": "Original 2010 North American English Xbox 360 Kinect Adventures!, one solo ordinary 20,000 Leaks activity",
-        "editionUk": "Оригінальна англомовна Kinect Adventures! для Xbox 360 2010 року, один звичайний одиночний раунд «20,000 Leaks»",
+        "editionUk": "Оригінальна північноамериканська англомовна Kinect Adventures! для Xbox 360 2010 року: один звичайний одиночний раунд «20,000 Leaks»",
         "version": "Microsoft original English manual; exact disc revision and named activity level not inspected",
         "distribution": "Original Xbox 360 disc with Kinect sensor; other activities and explicit time challenges excluded",
         "evidenceUrl": "https://download.microsoft.com/download/F/9/9/F99AB8F0-5191-4EDD-B312-7A9B9E4784FA/KinectAdventures_MNL_EN-US.pdf",
@@ -24113,7 +24117,7 @@
       "analysisTarget": {
         "platformId": "PLAT-GAME-BOY-ADVANCE",
         "edition": "Original 2001 North American English Game Boy Advance Advance Wars, Field Training mission 2 Terrain Intel",
-        "editionUk": "Оригінальна північноамериканська англомовна Advance Wars для Game Boy Advance 2001 року: друге навчальне завдання Terrain Intel",
+        "editionUk": "Оригінальна північноамериканська англомовна Advance Wars для Game Boy Advance 2001 року: друге завдання Field Training, Terrain Intel",
         "version": "European English Nintendo manual is a general rules witness; exact North American cartridge revision not inspected",
         "distribution": "Original Game Boy Advance cartridge; later Field Training lessons, campaign and remakes excluded",
         "evidenceUrl": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/game_boy_advance_8/Manual_GameBoyAdvance_AdvanceWars_EN_DE_FR_ES_IT.pdf",
@@ -24126,7 +24130,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PLAYSTATION-2",
         "edition": "Original 2002 North American English PlayStation 2 Sly Cooper and the Thievius Raccoonus SCUS-97198, first Tide of Terror stage A Stealthy Approach",
-        "editionUk": "Оригінальна північноамериканська англомовна Sly Cooper and the Thievius Raccoonus для PlayStation 2 2002 року, SCUS-97198, перший рівень Tide of Terror — A Stealthy Approach",
+        "editionUk": "Оригінальне північноамериканське англомовне видання Sly Cooper and the Thievius Raccoonus для PlayStation 2 2002 року, SCUS-97198; перший рівень A Stealthy Approach епізоду Tide of Terror",
         "version": "Original US instruction booklet and original-game written routes; exact disc revision and direct play not inspected",
         "distribution": "Original licensed North American PlayStation 2 retail disc; later HD remaster and PS4/PS5 conversion features excluded",
         "evidenceUrl": "https://www.videogamemanual.com/PS2/Sly%20Cooper%20and%20the%20Thievius%20Raccoonus%20%28USA%29.pdf",
@@ -24152,7 +24156,7 @@
       "analysisTarget": {
         "platformId": "PLAT-NINTENDO-DS",
         "edition": "Original 2005 North American English Nintendo DS Nintendogs: Labrador & Friends, first named puppy home tutorial",
-        "editionUk": "Оригінальна північноамериканська англомовна Nintendogs: Labrador & Friends для Nintendo DS 2005 року, перше домашнє навчання цуценяти",
+        "editionUk": "Оригінальна північноамериканська англомовна Nintendogs: Labrador & Friends для Nintendo DS 2005 року: перше домашнє навчання цуценяти з наданням йому імені",
         "version": "Original Nintendo of America shared instruction booklet; exact cartridge revision and direct play not inspected",
         "distribution": "Original North American Nintendo DS retail cartridge; later 3DS sequel and ports excluded",
         "evidenceUrl": "https://csassets.nintendo.com/noaext/image/private/t_KA_PDF/DS_Nintendogs?_a=DATC1RAAZAA0",
@@ -24165,7 +24169,7 @@
       "analysisTarget": {
         "platformId": "PLAT-XBOX",
         "edition": "Original 2003 English Xbox Project Gotham Racing 2, offline Kudos World Series Compact Sports first Duomo 2 Street Race",
-        "editionUk": "Оригінальна англомовна Project Gotham Racing 2 для Xbox 2003 року: перші вуличні перегони серії компактних спорткарів на трасі Duomo 2",
+        "editionUk": "Оригінальна англомовна Project Gotham Racing 2 для Xbox 2003 року: перші вуличні перегони Street Race на трасі Duomo 2 у класі Compact Sports серії Kudos World Series, без підключення до мережі",
         "version": "Original Microsoft/Bizarre retail manual; exact disc revision and direct play not inspected",
         "distribution": "Original Xbox retail disc; online, downloadable content, ports and sequels excluded",
         "evidenceUrl": "https://manualzz.com/doc/25186554/microsoft-project-gotham-racing-2-video-game-user-manual",
@@ -24230,7 +24234,7 @@
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
         "edition": "Original 2001 English Windows PC Black & White story game, Land 1 Guide's Aztec village after Sable's creature tutorial",
-        "editionUk": "Оригінальна англомовна Black & White для Windows PC 2001 року: поселення ацтеків провідника на першому острові після навчання з істотою",
+        "editionUk": "Оригінальна англомовна сюжетна кампанія Black & White для Windows PC 2001 року: поселення ацтеків провідника на першому острові після навчання з істотою під проводом Sable",
         "version": "Original Lionhead Windows manual and contemporary Land One guide; exact disc or patch revision and direct play not inspected",
         "distribution": "Original Windows PC single-player story release; later ports, Creature Isle and Black & White 2 excluded",
         "evidenceUrl": "https://d1.xp.myabandonware.com/f/lvlb/Black-White_Manual_Win_EN.pdf",
@@ -24256,7 +24260,7 @@
       "analysisTarget": {
         "platformId": "PLAT-XBOX-360",
         "edition": "Original 2010 Xbox 360 Alan Wake, Normal story Episode 1 Nightmare, first isolated Taken after the shooting tutorial",
-        "editionUk": "Оригінальна Alan Wake для Xbox 360 2010 року: звичайна складність, перший окремий Темний після навчання стрільби в розділі Nightmare",
+        "editionUk": "Оригінальна Alan Wake для Xbox 360 2010 року: сюжетний епізод 1 Nightmare на звичайній складності, перший поодинокий Темний після навчання стрільби",
         "version": "Original Microsoft/Remedy Xbox 360 manual and first-hand route; exact disc revision and direct play not inspected",
         "distribution": "Original Xbox 360 single-player release; later ports, remaster, American Nightmare and other encounters excluded",
         "evidenceUrl": "https://manuals.plus/m/3537e546dddabff38ce730c0e9cb1dcfdb522d89325690ea6ae65575ec6b36c8",
@@ -24269,7 +24273,7 @@
       "analysisTarget": {
         "platformId": "PLAT-NINTENDO-WII-U",
         "edition": "Original 2015 Wii U Super Mario Maker, launch-era course editor and historical upload clear proof, one short Super Mario Bros. style ground-theme course",
-        "editionUk": "Оригінальна Super Mario Maker для Wii U 2015 року: редактор курсів і історична перевірка проходження перед публікацією; один короткий наземний курс у стилі Super Mario Bros.",
+        "editionUk": "Оригінальна Super Mario Maker для Wii U 2015 року: редактор курсів на момент виходу гри й історична вимога пройти курс перед публікацією. Один короткий наземний курс у стилі Super Mario Bros.",
         "version": "Nintendo's original electronic manual; exact installed patch, player-created course and direct play not inspected",
         "distribution": "Original Wii U local course creation and Coursebot save; Nintendo course upload ended in 2021 and Wii U online communication in 2024",
         "evidenceUrl": "https://microsite.nintendo-europe.com/super-mario-maker-manual/enGB/page_01.html",
@@ -24295,7 +24299,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PLAYSTATION",
         "edition": "Original 1999 North American English PlayStation Silent Hill, early Old Silent Hill doghouse and three-key school route",
-        "editionUk": "Оригінальна англомовна Silent Hill для північноамериканської PlayStation 1999 року: ранній шлях Старим Сайлент-Гіллом через будинок із будкою та три ключі до школи",
+        "editionUk": "Оригінальна північноамериканська англомовна Silent Hill 1999 року для PlayStation: ранній шлях Старим Сайлент-Гіллом через будку, будинок і маршрут із трьома ключами до школи",
         "version": "Original Konami of America booklet and two early-route guides; exact disc revision, difficulty setting and direct play not inspected",
         "distribution": "Original PlayStation disc; later ports, sequels and remakes excluded",
         "evidenceUrl": "https://www.silenthillmemories.net/sh1/versions/silent_hill_ps1_us_manual.pdf",
@@ -24321,7 +24325,7 @@
       "analysisTarget": {
         "platformId": "PLAT-IOS",
         "edition": "Original English iOS Reigns, one ordinary advisor-card reign and successor boundary",
-        "editionUk": "Оригінальна англомовна Reigns для iOS: звичайні рішення за картками протягом одного правління й перехід до спадкоємця",
+        "editionUk": "Оригінальна англомовна Reigns для iOS: одне звичайне правління з рішеннями за картками радників до переходу до спадкоємця",
         "version": "August 2016 launch rules reconstructed from contemporary sources; exact binary not inspected; 2026 anniversary update excluded",
         "distribution": "Original paid iOS application; later updates and sequels excluded",
         "evidenceUrl": "https://apps.apple.com/us/app/reigns/id1114127463",
@@ -24347,7 +24351,7 @@
       "analysisTarget": {
         "platformId": "PLAT-NINTENDO-DS",
         "edition": "Original English Nintendo DS Cooking Mama, ordinary Let's Cook miso-soup recipe",
-        "editionUk": "Оригінальна англомовна Cooking Mama для Nintendo DS: звичайний рецепт місо-супу в режимі готування",
+        "editionUk": "Оригінальна англомовна Cooking Mama для Nintendo DS: звичайний рецепт місо-супу в режимі Let's Cook",
         "version": "Original 2006 Nintendo DS rules; US first-hand recipe route corroborated by official European game description; exact cartridge revision and regional step parity uninspected",
         "distribution": "Original Nintendo DS game card; sequels, Wii and mobile editions excluded",
         "evidenceUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-DS/Cooking-Mama-270330.html",
@@ -24425,7 +24429,7 @@
       "analysisTarget": {
         "platformId": "PLAT-NINTENDO-DS",
         "edition": "Original English North American 2009 Nintendo DS Scribblenauts, The Gardens Puzzle 1-5 Refresh Him",
-        "editionUk": "Оригінальна англомовна північноамериканська Scribblenauts 2009 року для Nintendo DS: пазл 1-5 садового світу з підказкою «Refresh Him»",
+        "editionUk": "Оригінальна англомовна північноамериканська Scribblenauts 2009 року для Nintendo DS: пазл 1-5 світу The Gardens із підказкою «Refresh Him»",
         "version": "Original Nintendo DS rules; exact cartridge revision not directly inspected; later sequels excluded",
         "distribution": "Original physical Nintendo DS cartridge; no later port or adjective-based sequel",
         "evidenceUrl": "https://db.hfsplay.fr/files/2020/07/14/Manual_AHhWSCb.pdf",
@@ -24438,7 +24442,7 @@
       "analysisTarget": {
         "platformId": "PLAT-ANDROID",
         "edition": "Original English US July 2016 Pokémon GO Android public-launch ordinary wild catch encounter",
-        "editionUk": "Оригінальна англомовна американська Pokémon GO для Android на час запуску в липні 2016 року: одне звичайне захоплення дикого покемона",
+        "editionUk": "Оригінальна англомовна версія Pokémon GO для Android у США на момент загальнодоступного запуску в липні 2016 року: одне звичайне захоплення дикого покемона",
         "version": "July 2016 public-launch rules reconstructed from dated sources; exact Android binary and original server not inspected; later features excluded",
         "distribution": "Original free Android smartphone application using device location and online service; iOS launch is historical context, not a second analysis target",
         "evidenceUrl": "https://pokemongo.com/news/launch",
@@ -24451,7 +24455,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PLAYSTATION-PORTABLE",
         "edition": "Original North American English 2005 PSP Lumines: Puzzle Fusion, solo Single Skin with the initially unlocked Shinin' skin",
-        "editionUk": "Оригінальна північноамериканська англомовна Lumines: Puzzle Fusion 2005 року для PSP: одиночний режим однієї теми з початковою музичною темою Shinin'",
+        "editionUk": "Оригінальна північноамериканська англомовна Lumines: Puzzle Fusion 2005 року для PSP: одиночний режим Single Skin із темою Shinin', доступною від початку",
         "version": "Original PSP Single Skin rules reconstructed from contemporary sources; exact UMD revision not inspected; later editions excluded",
         "distribution": "Original North American PSP UMD; no later remake or PS2 port in this analysis target",
         "evidenceUrl": "https://lumines.game/history/",
@@ -24490,7 +24494,7 @@
       "analysisTarget": {
         "platformId": "PLAT-SEGA-SATURN",
         "edition": "Original 1996 North American English Sega Saturn NiGHTS into Dreams, first Claris Spring Valley Mare",
-        "editionUk": "Оригінальна північноамериканська англомовна NiGHTS into Dreams 1996 року для Sega Saturn: перший маршрут Кларіс у Spring Valley",
+        "editionUk": "Оригінальна північноамериканська англомовна NiGHTS into Dreams 1996 року для Sega Saturn: перший відрізок Mare Кларіс у Spring Valley",
         "version": "Original Saturn rules reconstructed from the printed manual; exact disc revision not inspected",
         "distribution": "Original North American Saturn disc; later remaster and Christmas NiGHTS excluded",
         "evidenceUrl": "https://segaretro.org/images/e/e9/Nightsintodreams_sat_us_manual.pdf",
@@ -24503,7 +24507,7 @@
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
         "edition": "Original English 1998 Windows PC Railroad Tycoon II, first Tutorial railway-service loop",
-        "editionUk": "Оригінальна англомовна Railroad Tycoon II 1998 року для Windows: перша залізнична послуга вступного сценарію",
+        "editionUk": "Оригінальна англомовна Railroad Tycoon II 1998 року для Windows PC: перший цикл залізничних перевезень у вступному сценарії Tutorial",
         "version": "Original PC Tutorial rules reconstructed from the printed manual; exact CD-ROM revision not inspected",
         "distribution": "Original Windows PC CD-ROM rules; Platinum/Second Century additions and later ports excluded",
         "evidenceUrl": "https://manualzilla.com/doc/5757182/railroad-tycoon-ii%C2%A9",
@@ -24529,7 +24533,7 @@
       "analysisTarget": {
         "platformId": "PLAT-IOS",
         "edition": "Original August 2011 iPhone Temple Run, one fresh unassisted classic score run",
-        "editionUk": "Оригінальна Temple Run для iPhone від серпня 2011 року: одна нова партія без куплених поліпшень чи допомоги",
+        "editionUk": "Оригінальна Temple Run для iPhone від серпня 2011 року: одна нова класична спроба на рахунок без сторонньої допомоги та підсилень",
         "version": "Original launch-era rules reconstructed from creator and contemporary first-hand accounts; exact app build not inspected",
         "distribution": "Original iPhone App Store release; Temple Run 2, Temple Run+ and later live-service rules excluded",
         "evidenceUrl": "https://imangistudios.zendesk.com/hc/en-us/articles/4995833305747-About-Temple-Run",
@@ -24555,7 +24559,7 @@
       "analysisTarget": {
         "platformId": "PLAT-PLAYSTATION-2",
         "edition": "Original 2001 PlayStation 2 SSX Tricky, one Amateur Garibaldi Single Event Race",
-        "editionUk": "Оригінальна SSX Tricky 2001 року для PlayStation 2: один одиночний заїзд Race на Garibaldi проти суперників рівня Amateur",
+        "editionUk": "Оригінальна SSX Tricky 2001 року для PlayStation 2: один одиночний заїзд Single Event Race на Garibaldi проти суперників рівня Amateur",
         "version": "Original PS2 race rules reconstructed from EA's contemporary cross-platform Tricky booklet and a first-hand PS2 guide; exact disc revision uninspected",
         "distribution": "Original PlayStation 2 edition; first SSX, SSX 3, 2012 reboot, Showoff and World Circuit rules excluded",
         "evidenceUrl": "https://manualzz.com/doc/25168321/electronic-arts-ssx-tricky-video-game-instruction-booklet",
@@ -24585,7 +24589,7 @@
       "analysisTarget": {
         "platformId": "PLAT-NINTENDO-ENTERTAINMENT-SYSTEM",
         "edition": "Original English 1990 Dr. Mario for NES, one single-player bottle at virus level 5 and MED speed",
-        "editionUk": "Оригінальна англомовна Dr. Mario 1990 року для NES: одна пляшка одиночної гри, рівень вірусів 5 і середня швидкість",
+        "editionUk": "Оригінальна англомовна Dr. Mario 1990 року для NES: одна пляшка в одиночній грі, рівень вірусів 5 і швидкість MED",
         "version": "NES-VU-USA booklet rules corroborated by Nintendo's later manual and described capsule/virus embodiment; exact cartridge revision and NTSC timings uninspected",
         "distribution": "Original Nintendo Entertainment System cartridge; reissue documentation is corroboration, not a substituted analysed edition",
         "evidenceUrl": "https://www.gamingalexandria.com/highquality/NES/Dr.%20Mario/Dr.%20Mario%20-%20Manual.pdf",
@@ -24602,7 +24606,7 @@
       "analysisTarget": {
         "platformId": "PLAT-WINDOWS-PC",
         "edition": "Original English 2002 Windows Age of Mythology, one Zeus versus Zeus land Random Map Conquest on Savannah",
-        "editionUk": "Оригінальна англомовна Age of Mythology 2002 року для Windows: одна сухопутна одиночна партія на мапі Savannah, Зевс проти Зевса в режимі Conquest",
+        "editionUk": "Оригінальна англомовна Age of Mythology 2002 року для Windows: одна сухопутна одиночна партія Random Map Conquest на мапі Savannah, Зевс проти Зевса",
         "version": "2002 Microsoft manual rules; exact installation patch, AI difficulty and generated seed not inspected",
         "distribution": "Original Windows CD edition; archive manuals are evidence, not an offered game download",
         "evidenceUrl": "https://oldgamesdownload.com/wp-content/uploads/manuals/age-of-mythology_win_manual_en_d5b.pdf",
@@ -24709,6 +24713,908 @@
         "distribution": "Original PSP UMD target reconstructed from manufacturer booklet and original-PSP routes; no UMD or ROM acquisition",
         "evidenceUrl": "https://archive.org/download/SonyPSPManuals/Daxter%20%28USA%29.pdf",
         "checked": "2026-09-30"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0460": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-64",
+        "edition": "Original 1996 Super Mario 64, US first Bob-omb Battlefield Power Star code path",
+        "editionUk": "Оригінальна Super Mario 64 1996 року для Nintendo 64: кодовий маршрут першої зірки Bob-omb Battlefield американської версії",
+        "version": "Pinned original-US decompilation 9921382a68bb0c865e5e45eb594d9c64db59b1af; no cartridge execution or cross-region software parity asserted",
+        "distribution": "Original Nintendo 64 cartridge target reconstructed from pinned code and Nintendo manual; no ROM acquisition",
+        "evidenceUrl": "https://github.com/n64decomp/sm64/blob/9921382a68bb0c865e5e45eb594d9c64db59b1af/src/game/behaviors/king_bobomb.inc.c",
+        "checked": "2026-09-30"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0461": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Original 2000 English Windows PC base game, Newbie home at 7 Sim Lane",
+        "editionUk": "Оригінальна англомовна базова гра The Sims 2000 року для Windows: будинок родини Newbie за адресою 7 Sim Lane",
+        "version": "Original Maxis/EA manual rules; exact executable patch uninspected; no expansion or console goal mode",
+        "distribution": "Original Windows PC retail target reconstructed from its manual; no disc or executable acquired",
+        "evidenceUrl": "https://manualmachine.com/gamespc/thesims/1119640-user-manual/",
+        "checked": "2026-09-30"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0462": {
+      "analysisTarget": {
+        "platformId": "PLAT-NEO-GEO-MVS",
+        "edition": "Original 2000 Neo Geo MVS Metal Slug 3, one-player Mission 1 boat branch",
+        "editionUk": "Оригінальна Metal Slug 3 2000 року для Neo Geo MVS: човнова гілка першої місії для одного гравця",
+        "version": "Original SNK MVS operations, route and item pages; exact cabinet BIOS, difficulty and cartridge revision uninspected",
+        "distribution": "Original Neo Geo MVS arcade cartridge target reconstructed from archived SNK documentation; no ROM or cabinet access",
+        "evidenceUrl": "https://neogeo.freeplaytech.com/metal_slug/metal_slug3/operation/operation.htm",
+        "checked": "2026-10-01"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0463": {
+      "analysisTarget": {
+        "platformId": "PLAT-GAME-BOY-COLOR",
+        "edition": "Original North American English Pokémon Gold Version Game Boy Color cartridge, post-egg Route 29 night through retained ZephyrBadge",
+        "editionUk": "Оригінальний північноамериканський англомовний картридж Pokémon Gold Version для Game Boy Color, від нічної Route 29 після повернення яйця до збереженого ZephyrBadge",
+        "version": "Pokemon - Gold Version (UE) [C][!].gbc, SHA-1 d8b8a3600a465308c9953dfa04f0081c05bdcb94; original manual and pret/pokegold commit 62388c7204e5d13aa05b4231e220b6760584d1b5",
+        "distribution": "Original licensed physical Game Boy Color cartridge; not Silver, Crystal, HeartGold, Virtual Console, modern port, ROM hack or save-state rules",
+        "evidenceUrl": "https://www.nintendo.com/en-gb/Games/Game-Boy-Color/Pokemon-Gold-Version-266076.html",
+        "checked": "2026-10-01"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0464": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX",
+        "edition": "Original North American English Jet Set Radio Future original-Xbox retail disc, Dogenzaka Hill first-entry graffiti through Beat recruitment",
+        "editionUk": "Оригінальний північноамериканський англомовний диск Jet Set Radio Future для Xbox: перше входження в Dogenzaka Hill від графіті до приєднання Beat",
+        "version": "Original 2002 SEGA Xbox manual and contemporary original-Xbox route; exact disc revision and executable uninspected",
+        "distribution": "Original licensed Xbox retail disc; not Jet Set Radio for Dreamcast/Xbox 360, a later compatibility wrapper, emulator or modified build",
+        "evidenceUrl": "https://manuals.plus/m/1c07ef7ed2a0e9f88a3c92f577c36649612bf68466e795eafd7f891129c772a6.pdf",
+        "checked": "2026-10-01"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0465": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-WII",
+        "edition": "Original 2008 Boom Blox Wii retail game; single-player Explore Gem Blox Warrior puzzle after Training",
+        "editionUk": "Оригінальне роздрібне видання Boom Blox 2008 року для Wii: одиночний пазл Warrior у меню Explore → Gem Blox після Training",
+        "version": "Original Wii rules documented by publisher description and a contemporary original-Wii guide; exact disc revision uninspected",
+        "distribution": "Original licensed Wii Game Disc; not Boom Blox Bash Party, mobile adaptation, emulated or modified level",
+        "evidenceUrl": "https://www.nintendo.com/en-gb/Games/Wii/Boom-Blox-280682.html",
+        "checked": "2026-10-01"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0466": {
+      "analysisTarget": {
+        "platformId": "PLAT-SEGA-GENESIS",
+        "edition": "Original North American English Sega Genesis / Mega Drive cartridge; fresh one-player Normal Downtown Stage 1 with Axel",
+        "editionUk": "Оригінальний північноамериканський англомовний картридж Sega Genesis / Mega Drive; нове одиночне проходження Downtown Stage 1 на складності Normal за Axel.",
+        "version": "Original 1992 cartridge rules reconstructed from SEGA's preserved original manual; exact executable revision uninspected",
+        "distribution": "Original licensed physical Genesis cartridge; not Duel, alternate port, modern collection, emulator wrapper or save-state rules",
+        "evidenceUrl": "https://manuals.sega.com/genesismini/pdf/STREETS_OF_RAGE_2.pdf",
+        "checked": "2026-10-01"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0467": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION",
+        "edition": "Original English PAL PlayStation retail disc; Play With Own Choice Of CD, Single Track with one external audio-CD track",
+        "editionUk": "Оригінальний англомовний роздрібний PAL-диск для PlayStation: Play With Own Choice Of CD → Single Track з одним вибраним треком із зовнішнього аудіодиска",
+        "version": "Original PAL retail rules reconstructed from contemporary English guide and documented disc script; exact executable revision uninspected",
+        "distribution": "Original licensed physical PlayStation disc and user-supplied audio CD; not a built-in song, later PSN wrapper, port or emulator convenience feature",
+        "evidenceUrl": "https://blog.playstation.com/archive/2014/10/06/ps-one-classic-vib-ribbon-arrives-ps3-ps-vita-next-week",
+        "checked": "2026-10-01"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0468": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-VITA",
+        "edition": "Original English PS Vita release, Episode 2 Shadows Over the City from first Nevi fight through first fountain restoration",
+        "editionUk": "Оригінальний англомовний випуск для PS Vita: епізод 2 Shadows Over the City від першого бою з неві до відновлення першого фонтана",
+        "version": "Original 2012 Vita rules reconstructed from contemporary PlayStation descriptions and chapter guides; exact executable revision uninspected",
+        "distribution": "Original licensed PS Vita release; not the PS4 remaster, sequel, DLC or a later compatibility wrapper",
+        "evidenceUrl": "https://blog.playstation.com/2011/09/16/gravity-rush-for-ps-vita-everything-you-need-to-know/",
+        "checked": "2026-10-01"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0469": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Original English 1998 Windows base game; first Terran campaign mission Wasteland",
+        "editionUk": "Оригінальна англомовна базова гра 1998 року для Windows; перша місія терранської кампанії Wasteland",
+        "version": "Original Windows mission rules reconstructed from Blizzard's contemporary Terran references and written original-game routes; exact executable revision uninspected",
+        "distribution": "Original licensed Windows PC release; not Brood War, StarCraft II, Remastered, a later compatibility wrapper or modified mission",
+        "evidenceUrl": "https://classic.battle.net/scc/terran/basic.shtml",
+        "checked": "2026-10-01"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0470": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-2",
+        "edition": "Original English 2004 PlayStation 2 base game; first World Tour Silver Lake Race",
+        "editionUk": "Оригінальна англомовна базова гра 2004 року для PlayStation 2; перша гонка Silver Lake у World Tour",
+        "version": "Original PS2 race rules reconstructed from the EA instruction manual, Criterion history and contemporary written routes; exact disc revision uninspected",
+        "distribution": "Original licensed PS2 release; not the Xbox control mapping, Burnout Revenge, Burnout Paradise or a later compatibility wrapper",
+        "evidenceUrl": "https://manuals.plus/m/bc816e0d9c3ac412d64e9fb5376be34e519274dbdc88a0fe583820d8cc2d5c70",
+        "checked": "2026-10-01"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0471": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-DS",
+        "edition": "Original English Nintendo DS game; first Standard Procedure operation",
+        "editionUk": "Оригінальна англомовна гра для Nintendo DS: перша операція Standard Procedure",
+        "version": "Original DS first-operation rules reconstructed from Nintendo's overview and contemporary written routes; exact cartridge revision uninspected",
+        "distribution": "Original licensed Nintendo DS release; not Wii Second Opinion, Under the Knife 2 or a later port",
+        "evidenceUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-DS/Trauma-Center-Under-the-Knife-273476.html",
+        "checked": "2026-10-02"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0472": {
+      "analysisTarget": {
+        "platformId": "PLAT-DREAMCAST",
+        "edition": "Original English Dreamcast Sonic story; first Emerald Coast Action Stage",
+        "editionUk": "Оригінальна англомовна гра для Dreamcast; перший рівень Emerald Coast у сюжеті Соніка",
+        "version": "Original Dreamcast rules reconstructed from the North American instruction manual and contemporary written route; exact disc revision uninspected",
+        "distribution": "Original licensed Dreamcast disc; not Sonic Adventure DX, a later port or trial-mode replay",
+        "evidenceUrl": "https://www.digitpress.com/library/manuals/dreamcast/sonic_adventure.pdf",
+        "checked": "2026-10-02"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0473": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-GAMECUBE",
+        "edition": "Original English Nintendo GameCube, Ellia's second chapter in the Angkor Thom tomb",
+        "editionUk": "Оригінальна англомовна гра для Nintendo GameCube, другий розділ за Еллію в гробниці Ангкор-Тхома",
+        "version": "Original GameCube rules reconstructed from Nintendo's product overview and contemporary written routes; exact disc revision uninspected",
+        "distribution": "Original licensed Nintendo GameCube disc, not a later port or a campaign-wide ruleset",
+        "evidenceUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-GameCube/Eternal-Darkness-Sanity-s-Requiem-267961.html",
+        "checked": "2026-10-02"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0474": {
+      "analysisTarget": {
+        "platformId": "PLAT-GAME-BOY-ADVANCE",
+        "edition": "Original English Game Boy Advance, first BSL station mission through Morph Ball return",
+        "editionUk": "Оригінальна англомовна гра для Game Boy Advance, перше завдання на станції BSL до повернення зі здібністю Morph Ball",
+        "version": "Original GBA rules reconstructed from Nintendo's manual and corroborated written opening routes; exact cartridge revision uninspected",
+        "distribution": "Original licensed Game Boy Advance cartridge; not a Virtual Console, Switch Online or modified-rules wrapper",
+        "evidenceUrl": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/game_boy_advance_8/Manual_GameBoyAdvance_MetroidFusion_EN_DE_FR_ES_IT.pdf",
+        "checked": "2026-10-02"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0475": {
+      "analysisTarget": {
+        "platformId": "PLAT-ARCADE-CABINET",
+        "edition": "Original Sega Model 2 one-player upright arcade cabinet, first Tragedy chapter through Chariot defeat",
+        "editionUk": "Оригінальний вертикальний аркадний автомат Sega Model 2 для одного гравця: перший розділ Tragedy до перемоги над Chariot",
+        "version": "Original 1997 cabinet rules reconstructed from Sega's operator manual and corroborating original-game accounts; exact board ROM and operator settings uninspected",
+        "distribution": "Original Sega arcade installation with calibrated handgun; Saturn, Windows and remake versions excluded",
+        "evidenceUrl": "https://segaarcade.com/games/the-house-of-the-dead-1",
+        "checked": "2026-10-02"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0476": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH",
+        "edition": "Original 2019 Nintendo Switch Adventure Mode, default-jogging World 1 second course and first ordinary Fit Battle",
+        "editionUk": "Оригінальна Ring Fit Adventure 2019 року для Nintendo Switch: у режимі Adventure Mode друга траса першого світу зі стандартним біговим керуванням і перший звичайний бій Fit Battle",
+        "version": "Original Switch rules reconstructed from Nintendo support, product information and a Nintendo-hosted early-play guide; exact software revision and intensity uninspected",
+        "distribution": "Original Switch software with detachable original Joy-Con, Ring-Con and Leg Strap; later hardware and alternative exercise modes excluded",
+        "evidenceUrl": "https://www.nintendo.com/jp/ichikara/al3pa/02_en.html",
+        "checked": "2026-10-02"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0477": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-3",
+        "edition": "Original 2011 English-language PlayStation 3 Golden Playhouse, Normal, first Underground Cemetery Nightmare",
+        "editionUk": "Оригінальна англомовна Catherine 2011 року для PlayStation 3: режим Golden Playhouse, звичайна складність, перший кошмар Underground Cemetery",
+        "version": "Original PS3 rules reconstructed from the contemporary parallel-edition Atlus manual and original-PS3 stage accounts; exact disc revision and patch state uninspected",
+        "distribution": "Original PS3 retail game; Full Body, Remix, PC edition and later nightmare stages excluded",
+        "evidenceUrl": "https://www.atlus.co.jp/title-archive/cathy/",
+        "checked": "2026-10-02"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0478": {
+      "analysisTarget": {
+        "platformId": "PLAT-IOS",
+        "edition": "Original 31 July 2014 English-language iOS release, first Paris onward service",
+        "editionUk": "Оригінальне англомовне видання 80 Days для iOS від 31 липня 2014 року: перший подальший рейс із Парижа",
+        "version": "Launch-era iOS rules reconstructed from contemporary inkle descriptions; exact binary and device uninspected",
+        "distribution": "Original iPhone/iPad app; later iOS additions, Android, 2015 expanded desktop edition and Switch excluded",
+        "evidenceUrl": "https://www.inklestudios.com/press/80days/",
+        "checked": "2026-10-02"
+      },
+      "releaseAudit": {"status": "not-started", "methodVersion": null, "checked": null},
+      "releases": []
+    },
+    "GAME-0479": {
+      "analysisTarget": {
+        "platformId": "PLAT-ATARI-2600",
+        "edition": "Original 1982 English-language Atari 2600 cartridge, one-player score adventure",
+        "editionUk": "Оригінальний англомовний картридж Pitfall! 1982 року для Atari 2600: однокористувацька пригода на очки",
+        "version": "Original Activision AX-018-03 booklet rules; exact cartridge revision and PAL/NTSC timing uninspected",
+        "distribution": "Original Atari 2600 cartridge; Atari 5200, later ports, remakes and Pitfall II excluded",
+        "evidenceUrl": "https://atarionline.org/wp-content/uploads/2024/03/Pitfall-atari-2600-manual_compressed.pdf",
+        "checked": "2026-10-02"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0480": {
+      "analysisTarget": {
+        "platformId": "PLAT-AMIGA",
+        "edition": "Original 1989 English-language Amiga, one declared single-player Custom match",
+        "editionUk": "Оригінальна англомовна Populous 1989 року для Amiga: один однокористувацький матч із явно заданими власними правилами",
+        "version": "Original Electronic Arts / Bullfrog manual 345205; exact executable revision uninspected",
+        "distribution": "Original Amiga release; later ports, expansions, sequels and external save/restore excluded",
+        "evidenceUrl": "https://archive.org/details/populousmanual",
+        "checked": "2026-10-02"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0481": {
+      "analysisTarget": {
+        "platformId": "PLAT-ARCADE-CABINET",
+        "edition": "Original 1986 standalone upright arcade, one ordinary manual-gear credit",
+        "editionUk": "Оригінальний вертикальний аркадний автомат 1986 року: одна звичайна окрема спроба з ручними передачами",
+        "version": "Sega NV 420-5305-02 controls/settings; World Revision B reconstruction from pinned Cannonball source, original ROM uninspected",
+        "distribution": "Original Sega arcade cabinet; home ports and modern enhanced modes excluded",
+        "evidenceUrl": "https://www.arcade-museum.com/manuals-videogames/O/outrun_manual.pdf",
+        "checked": "2026-10-02"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0482": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-PORTABLE",
+        "edition": "Original 2006 English PSP UMD base game, first ordinary World 1-1 stage",
+        "editionUk": "Оригінальна англомовна PSP-гра 2006 року на UMD: перший звичайний рівень World 1-1",
+        "version": "Original retail booklet and contemporary PSP first-stage routes; exact UMD revision uninspected",
+        "distribution": "Original Sony PSP UMD base edition; demos, sequels and PS4 remaster excluded",
+        "evidenceUrl": "https://www.gamesdatabase.org/Media/SYSTEM/Sony_PSP/Manual/formated/LocoRoco_-_2006_-_Sony_Computer_Entertainment.pdf",
+        "checked": "2026-10-02"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0483": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX",
+        "edition": "Original English 2005 Xbox retail base game, unupgraded first Filthy Hands Floyd contract through its first store payout",
+        "editionUk": "Оригінальна англомовна Xbox-гра 2005 року на роздрібному диску: перший контракт Filthy Hands Floyd без поліпшень до першої виплати в крамниці",
+        "version": "Original EA Xbox booklet and contemporary original-Xbox routes; exact disc revision and executable uninspected",
+        "distribution": "Original licensed Xbox retail disc; not HD, a mobile port, modern remaster, emulator or modified executable",
+        "evidenceUrl": "https://db.hfsplay.fr/files/2020/06/19/Oddworld_Strangers_Wrath_-_2005_-_Electronic_Arts_W9VPeBR.pdf",
+        "checked": "2026-10-02"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0484": {
+      "analysisTarget": {
+        "platformId": "PLAT-COMMODORE-64",
+        "edition": "Original English 1984 Commodore 64 base game, one full timed password mission",
+        "editionUk": "Оригінальна англомовна гра 1984 року для Commodore 64: одна повна місія зі складанням пароля й обмеженим часом",
+        "version": "Licensed original-instruction reproduction; exact native disk/tape revision and PAL/NTSC binary uninspected",
+        "distribution": "Original Epyx Commodore 64 base edition; sequel, other-platform ports and modern launcher facilities excluded",
+        "evidenceUrl": "https://retrogames.biz/games/c64/impossible-mission/",
+        "checked": "2026-10-02"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0485": {
+      "analysisTarget": {
+        "platformId": "PLAT-DREAMCAST",
+        "edition": "Original English 2000 Dreamcast base game, Disc 1 sailors-to-Charlie inquiry",
+        "editionUk": "Оригінальна англомовна гра 2000 року для Dreamcast: розслідування від моряків до Чарлі на Disc 1",
+        "version": "Original Sega booklet and Dreamcast written routes; exact regional disc revision uninspected",
+        "distribution": "Original Dreamcast base edition; Shenmue II and 2018 re-release excluded; Area Jump OFF",
+        "evidenceUrl": "https://manualzz.com/doc/25127091/sega-shenmue-video-game-instruction-manual",
+        "checked": "2026-10-02"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0486": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION",
+        "edition": "Original North American English 1998 PlayStation base game, first Gariland Magic City battle",
+        "editionUk": "Оригінальна північноамериканська англомовна гра 1998 року для PlayStation: перший бій Gariland Magic City",
+        "version": "Original Square/Sony booklet and original-PS1 written guides; exact disc revision uninspected",
+        "distribution": "Original PlayStation base edition; The War of the Lions and The Ivalice Chronicles excluded",
+        "evidenceUrl": "https://manuals.plus/m/7c36efdfcdba17704ecdad21e92662edc18dda3837db9bcb534a5998d65b0a72",
+        "checked": "2026-10-02"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0487": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Original 2004 Windows product, complete ordinary unescorted merchant sea encounter",
+        "editionUk": "Оригінальна Windows-гра 2004 року: повна звичайна морська сутичка з торговим судном без ескорту",
+        "version": "Publisher-distributed PC booklet dated June 2005; exact launch executable and patch parity uninspected",
+        "distribution": "Original Windows single-player rules; Steam is a legal later destination, not proof of original-build parity",
+        "evidenceUrl": "https://cdn.akamai.steamstatic.com/steam/apps/3920/manuals/manual.pdf",
+        "checked": "2026-10-03"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0488": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION",
+        "edition": "Original 1995 English North American PlayStation product, one Venom Altima VII Single Race",
+        "editionUk": "Оригінальна англомовна PlayStation-гра 1995 року для Північної Америки: одиночний заїзд на Altima VII у класі Venom",
+        "version": "US longbox booklet rules; exact original disc revision and regional binary parity uninspected",
+        "distribution": "Original PlayStation single-player disc rules; no game copy downloaded or run",
+        "evidenceUrl": "https://www.videogamemanual.com/ps1/Wipeout%20%28LB%29%20%28USA%29.pdf",
+        "checked": "2026-10-03"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0489": {
+      "analysisTarget": {
+        "platformId": "PLAT-GAME-BOY-ADVANCE",
+        "edition": "Original English European Golden Sun GBA cartridge, first Vault inn-attic battle",
+        "editionUk": "Оригінальна англомовна європейська Golden Sun на картриджі GBA: перший бій на горищі заїзду Vault",
+        "version": "Original English booklet rules ©2001/2002; exact cartridge revision and regional binary parity uninspected",
+        "distribution": "Original Game Boy Advance cartridge rules; no game copy downloaded or executed",
+        "evidenceUrl": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/game_boy_advance_8/Manual_GameBoyAdvance_GoldenSun_EN_DE_FR_ES_IT.pdf",
+        "checked": "2026-10-04"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0490": {
+      "analysisTarget": {
+        "platformId": "PLAT-SEGA-GENESIS",
+        "edition": "Original English Mega Drive / Genesis cartridge; fresh first-episode Page 1 with default six-button BLOCK controls",
+        "editionUk": "Оригінальний англомовний картридж Mega Drive / Genesis; перша сторінка першого епізоду з нової гри й типове шестикнопкове керування BLOCK",
+        "version": "Original 1995 booklet rules; exact executable revision and regional parity uninspected",
+        "distribution": "Original licensed physical cartridge; not GBA, Windows, mobile, modern collection or emulator convenience rules",
+        "evidenceUrl": "https://manuals.sega.com/genesismini/pdf/COMIXZONE.pdf",
+        "checked": "2026-10-04"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0491": {
+      "analysisTarget": {
+        "platformId": "PLAT-BBC-MICRO",
+        "edition": "Original 1984 Acornsoft BBC Micro disc; stock Jameson first cargo leg",
+        "editionUk": "Оригінальний диск Acornsoft 1984 року для BBC Micro; перший торговий рейс стандартного Jameson",
+        "version": "Original _IB_DISC variant in Mark Moxon reconstruction 5af23a31c33ad159ff0b33c9f304741b4bc05fd6; no native binary parity claimed",
+        "distribution": "Original licensed Acornsoft physical disc; not cassette, Master, 6502 Second Processor, sideways RAM, Elite-A or modern ports",
+        "evidenceUrl": "https://elite.bbcelite.com/disc/releases.html",
+        "checked": "2026-10-04"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0492": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-3",
+        "edition": "Original 2006 PS3 single-player; fresh Normal complete A Lone Survivor",
+        "editionUk": "Оригінальна гра для PS3 2006 року в однокористувацькому режимі; нове повне проходження A Lone Survivor на складності Normal.",
+        "version": "Original launch-era written-rule packet; installed disc region and patch parity unverified",
+        "distribution": "Original licensed physical PS3 game; not a sequel, multiplayer or later collection",
+        "evidenceUrl": "https://blog.playstation.com/2012/11/20/resistance-collection-lands-on-ps3-december-5th/",
+        "checked": "2026-10-04"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0493": {
+      "analysisTarget": {
+        "platformId": "PLAT-IOS",
+        "edition": "Original paid 2011 iOS Swampy puzzle 1-3 Choose Wisely",
+        "editionUk": "Оригінальний платний рівень Swampy 1-3 Choose Wisely для iOS 2011 року",
+        "version": "September–October 2011 written-rule packet and reconciled level diagram; native build parity unverified",
+        "distribution": "Original authorised iPhone, iPad and iPod touch App Store release",
+        "evidenceUrl": "https://www.prnewswire.com/news-releases/disneys-first-original-character-for-mobile-splashes-onto-the-app-store-in-wheres-my-water-130342928.html",
+        "checked": "2026-10-04"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0494": {
+      "analysisTarget": {
+        "platformId": "PLAT-DREAMCAST",
+        "edition": "Original North American English 2000 Dead or Alive 2, ordinary Dreamcast Versus",
+        "editionUk": "Оригінальна англомовна американська Dead or Alive 2 2000 року, звичайний Versus на Dreamcast",
+        "version": "Original Tecmo USA booklet and first-hand North American review; exact regional disc hash and execution unverified",
+        "distribution": "Original authorised North American Tecmo Dreamcast GD-ROM release",
+        "evidenceUrl": "https://www.digitpress.com/library/manuals/dreamcast/dead_or_alive_2.pdf",
+        "checked": "2026-10-04"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0495": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-WII",
+        "edition": "Original North American English 2010 Wii Single Player, Jungle Hijinxs 1-1",
+        "editionUk": "Оригінальна англомовна американська Wii-версія 2010 року, Single Player, Jungle Hijinxs 1-1",
+        "version": "Original USA Nintendo booklet 72319A and contemporary Wii written routes; executable hash and native timing unverified",
+        "distribution": "Original authorised North American Nintendo Wii disc",
+        "evidenceUrl": "https://csassets.nintendo.com/noaext/image/private/t_KA_PDF/Wii_DKC_Returns?_a=DATAg1AAZAA0",
+        "checked": "2026-10-04"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0496": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "English Windows Steam base Campaign, solo Normal Rain of Terror",
+        "editionUk": "Англомовна базова кампанія Windows Steam, сольний пролог Rain of Terror на Normal",
+        "version": "Publisher patch 3.0 dated 2024-09-26, written reconstruction; executable and later-patch parity unverified",
+        "distribution": "Authorised Windows Steam application 2183900",
+        "evidenceUrl": "https://community.focus-entmt.com/focus-entertainment/space-marine-2/blogs/90-space-marine-2-patch-3",
+        "checked": "2026-10-04"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0497": {
+      "analysisTarget": {
+        "platformId": "PLAT-GAME-BOY-ADVANCE",
+        "edition": "Original European English Game Pak, Normal Palm Tree Paradise",
+        "editionUk": "Оригінальний європейський англомовний Game Pak, Palm Tree Paradise на Normal",
+        "version": "Original 2001 GBA rules, preserved AGB-P-AWAP-NEU6 booklet; source reconstruction, native cartridge unverified",
+        "distribution": "Original Nintendo European Game Boy Advance Game Pak",
+        "evidenceUrl": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/game_boy_advance_8/Manual_GameBoyAdvance_WarioLand4_EN_DE_FR_ES_IT.pdf",
+        "checked": "2026-10-04"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0498": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Original English PC base campaign, complete Mining Miracle",
+        "editionUk": "Оригінальна англомовна базова кампанія для ПК, повна Mining Miracle",
+        "version": "Rules reconstructed from recordings published 2019-12-11; native launch-day hotfix/build unverified",
+        "distribution": "Original Windows Steam base release, not Deluxe or console edition",
+        "evidenceUrl": "https://store.steampowered.com/app/1066780/Transport_Fever_2/",
+        "checked": "2026-10-05"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0499": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION",
+        "edition": "Original English full-game PlayStation physical retail, complete ordinary Wine Cellar",
+        "editionUk": "Оригінальна англомовна повна фізична гра PlayStation, весь звичайний Wine Cellar",
+        "version": "2000 retail rules reconstructed from SLUS-01040 USA instructions and official guide sample; Puzzle Mode OFF; native executable and recording region unverified",
+        "distribution": "Original English PlayStation retail full-game disc, not SLUS-90075 demonstration",
+        "evidenceUrl": "https://www.videogamemanual.com/ps1/Vagrant%20Story%20%28USA%29.pdf",
+        "checked": "2026-10-05"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0500": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Original English Windows full-release base game, initial garage and complete first Radio Station expedition",
+        "editionUk": "Оригінальний повний англомовний реліз базової гри для Windows: початковий гараж і весь перший виїзд до Radio Station",
+        "version": "2024 released base rules reconstructed with official PC 1.4.0 persistence and independently selected Lose Most Items penalties; recording binary/options and current parity unverified",
+        "distribution": "Released Windows Steam application 1458140, base game; later modes and DLC excluded",
+        "evidenceUrl": "https://store.steampowered.com/app/1458140/Pacific_Drive/",
+        "checked": "2026-10-05"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0501": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Original English Windows released base campaign, complete Interval 02 Initiation: First Encounter",
+        "editionUk": "Оригінальна англомовна випущена базова кампанія Windows, весь Interval 02 Initiation: First Encounter",
+        "version": "Original shipped 2005 rules, Moderate keyboard/mouse reconstruction; exact patch, recording inputs and current binary parity unverified",
+        "distribution": "Original released Windows base game; current lawful Steam product 21090 separately dated 2010; expansions excluded",
+        "evidenceUrl": "https://store.steampowered.com/app/21090/FEAR/",
+        "checked": "2026-10-05"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0502": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-SERIES",
+        "edition": "Original English Xbox Series released base campaign, complete Chapter 3 A Big Fish",
+        "editionUk": "Оригінальна англомовна базова кампанія релізної версії для Xbox Series: увесь третій розділ A Big Fish",
+        "version": "2025-04-08 full-release qualitative reconstruction, ordinary Weaver without skips or invincibility; installed patch, captured presets and current binary parity unverified",
+        "distribution": "Original released Xbox Series base game; Premium-period evidence qualified separately; later editions and ports excluded",
+        "evidenceUrl": "https://compulsiongames.com/games/south-of-midnight/",
+        "checked": "2026-10-05"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0503": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-360",
+        "edition": "Original English Xbox 360 Kinect base game, complete on-disc Poker Face Perform It! Easy",
+        "editionUk": "Оригінальна англомовна базова гра Xbox 360 Kinect, весь Poker Face з диска в Perform It! на Easy",
+        "version": "2010 Microsoft manual-qualified released ruleset; installed update, disc region, exact tracking coefficients and later executable parity unverified",
+        "distribution": "Original released Xbox 360 Kinect disc game; Flashcards on, Workout off, active-profile Autosave; sequel imports excluded",
+        "evidenceUrl": "https://nuangel.net/pcdownloads/xboxmanuals/DanceCentral_MNL_EN-US.pdf",
+        "checked": "2026-10-05"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0504": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Original English full-release Windows base Story, complete Chapter 1 New London to incoming colony oil",
+        "editionUk": "Початкова англомовна повністю випущена базова Story для Windows, весь перший розділ від New London до вхідної нафти колонії",
+        "version": "Publisher-guide-qualified original 2024-09-20 district-demand ruleset; installed build, captured preset and current executable parity unverified",
+        "distribution": "Released Windows base game; Officer reproduction preset, Survivor off, inherited prologue choice recorded; later heat redesign, DLC, Mac and consoles excluded",
+        "evidenceUrl": "https://www.youtube.com/watch?v=IAqJIRw9RHE",
+        "checked": "2026-10-06"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0505": {
+      "analysisTarget": {
+        "platformId": "PLAT-SEGA-SATURN",
+        "edition": "Original English North American Saturn base game, Normal complete Episode 1 to Episode 2 control",
+        "editionUk": "Оригінальна англомовна північноамериканська базова гра для Saturn: повне проходження Episode 1 на складності Normal до керування в Episode 2.",
+        "version": "Original 1995 instruction-qualified rules; exact disc revision and native executable unverified",
+        "distribution": "Original North American retail Saturn CD; Normal reproduction preset, European controls corroboration does not establish regional credit parity",
+        "evidenceUrl": "https://www.gamesdatabase.org/Media/SYSTEM/Sega_Saturn//Manual/formated/Panzer_Dragoon_-_1995_-_Sega.pdf",
+        "checked": "2026-10-06"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0506": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-SERIES",
+        "edition": "Original Xbox Series X|S base edition, complete On Strange Shores to ordinary Paradis dock control",
+        "editionUk": "Початкова базова версія Xbox Series X|S, повний On Strange Shores до звичайного керування на причалі Paradis",
+        "version": "February 2025 full-release tutorial rules reconstructed from publisher instructions and recording published 2025-02-21; exact binary patch and captured difficulty unverified",
+        "distribution": "Official Xbox Series X|S base release, full public launch 2025-02-18; recording author attribution is not independent captured-executable proof",
+        "evidenceUrl": "https://news.xbox.com/en-us/2025/02/18/avowed-available-now-your-journey-awaits/",
+        "checked": "2026-10-06"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0507": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-3",
+        "edition": "Original English PlayStation 3 retail base edition, first Grizzly Festival ticket",
+        "editionUk": "Початкова англомовна базова версія PlayStation 3 на диску, перший квиток Festival на Grizzly",
+        "version": "Original 2007 English Festival rules reconstructed from the Sony US booklet printed 2007-01-18 and attributed PS3 recording published 2019-06-02; exact captured patch and disc region unverified",
+        "distribution": "Original PlayStation 3 retail disc; Sony announces North American release 2007-03-06; no disc image or unauthorised executable used",
+        "evidenceUrl": "https://sony.mediaroom.com/2007-03-06-MotorStorm-Delivers-the-Ultimate-Brutal-Off-Road-Racing-Experience-for-PLAYSTATION-3-System",
+        "checked": "2026-10-06"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0508": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "English Windows Steam base release, ordinary non-Ironman Commander first gas-station deployment",
+        "editionUk": "Англомовний базовий реліз Windows Steam, перший виїзд звичайного Commander без Ironman на заправку",
+        "version": "Original full-release 1.0 rules dated 2023-12-13; recorded label 39903 DEC 13, 2023, not a verified distribution Build ID or native binary",
+        "distribution": "Official Windows Steam application 1144200; no executable, unauthorised copy or screenshot distributed",
+        "evidenceUrl": "https://store.steampowered.com/news/app/1144200/view/3859085878636601509",
+        "checked": "2026-10-06"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0509": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX",
+        "edition": "Original English Xbox retail base campaign, complete Going Down Hard first mission",
+        "editionUk": "Початкова англомовна базова кампанія Xbox на диску, повна перша місія Going Down Hard",
+        "version": "Original 2002 base campaign reconstructed from booklet X09-46559 printed 0103, licensed guide copyright 2004 and attributed recording published 2016-12-16; exact disc, patch, region and captured difficulty unverified",
+        "distribution": "Original Xbox retail disc; Microsoft announces in-store availability 2002-11-12; no disc image or unauthorised executable used",
+        "evidenceUrl": "https://news.microsoft.com/source/2002/11/12/mechassault-offers-xbox-players-the-ultimate-action-experience/",
+        "checked": "2026-10-06"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0510": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-SERIES",
+        "edition": "English full-release base single-player story, complete The Golden Idol and The Break-In",
+        "editionUk": "Англомовна базова одиночна історія повного релізу, повні The Golden Idol і The Break-In",
+        "version": "Full release 2024-12-09, reconstructed from attributed Xbox Series X-labelled recording published that day; installed patch/checksum and captured Action/Adventure presets unverified",
+        "distribution": "Xbox Series official retail/Game Pass full release; no native executable or unauthorised copy used",
+        "evidenceUrl": "https://news.xbox.com/en-us/2024/08/20/indiana-jones-and-the-great-circle-new-gameplay/",
+        "checked": "2026-10-06"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0511": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-3DS",
+        "edition": "Original English Nintendo 3DS release; home-town fishing, not Welcome amiibo",
+        "editionUk": "Оригінальна англомовна версія для Nintendo 3DS; риболовля у власному містечку, не Welcome amiibo",
+        "version": "2013 release-period original rules; exact recorded patch/build unverified",
+        "distribution": "Original Nintendo 3DS released product; no executable obtained or run",
+        "evidenceUrl": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_3ds_2/animal_crossing_new_leaf_2/ElectronicManual_Nintendo3DS_AnimalCrossingNewLeaf_EN.pdf",
+        "checked": "2026-10-06"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0512": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-5",
+        "edition": "Released English PS5 base product; first Grace care-centre episode, Standard (Modern)",
+        "editionUk": "Англомовний повний реліз базової гри PS5; перший епізод Ґрейс у корпусі, Standard (Modern)",
+        "version": "Release-period recording published 2026-02-27; exact installed patch/build unverified",
+        "distribution": "Official PS5 full product; no executable obtained or run",
+        "evidenceUrl": "https://www.playstation.com/en-us/games/resident-evil-requiem/",
+        "checked": "2026-10-06"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0513": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Original released English Windows edition; complete Lord Bafford’s Manor, Expert",
+        "editionUk": "Оригінальний англомовний реліз Windows; повна Lord Bafford’s Manor, Expert",
+        "version": "Documentary original v1.33; installed binary and patch provenance unverified",
+        "distribution": "Original Looking Glass/Eidos Windows release; no executable obtained or run; not current Gold store parity",
+        "evidenceUrl": "https://www.gamedeveloper.com/design/postmortem-i-thief-the-dark-project-i-",
+        "checked": "2026-10-06"
       },
       "releaseAudit": {
         "status": "not-started",

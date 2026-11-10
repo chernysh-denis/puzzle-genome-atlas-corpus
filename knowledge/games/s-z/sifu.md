@@ -165,7 +165,7 @@ amounts and moves are parameters, not new gene labels.
   `ACT-223` for timed parry/dodge/avoid, `ACT-383` for held guard and
   `ACT-419` for a prompted close takedown after an opening. `ACT-462` commits
   a Focus-charged targeted technique; `ACT-463` confirms pendant revival from
-  the defeat interval. Neither is a weapon-specific God of War Focus Strike
+  the defeat interval. Neither is a weapon-specific Monster Hunter Wilds Focus Strike
   or Sekiro's charge-paid Resurrection.
 
 ### System behaviours and constraints
