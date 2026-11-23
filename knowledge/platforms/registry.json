@@ -464,6 +464,17 @@
       "infoUrl": "https://en.wikipedia.org/wiki/MeeGo"
     },
     {
+      "id": "PLAT-META-QUEST",
+      "slug": "meta-quest",
+      "nameEn": "Meta Quest",
+      "kind": "console",
+      "ecosystem": "meta",
+      "generation": "Standalone virtual reality headsets, 2019 onward",
+      "legacy": false,
+      "iconPath": "/platform-icons/meta-quest.svg",
+      "infoUrl": "https://www.meta.com/quest/"
+    },
+    {
       "id": "PLAT-MOBILE-CROSS-PLATFORM",
       "slug": "mobile-cross-platform",
       "nameEn": "Cross-platform mobile",

@@ -1,5 +1,1136 @@
 # Constraint Genes
 
+## CON-881 — Require contact with a prepared cap from a reachable shelf
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: An ordinary movement input can use a mushroom crossing only where a ready cap lies on a reachable approach with a suitable far landing. A dormant cap, a mark on nearby scenery and an unrelated prepared fixture do not satisfy this local route.
+- Includes: Approaching the painted lower cap leftward from the right shelf to reach the opposite shelf in the first Supper Woods clearing.
+- Excludes: Any painted terrain becoming traversable, auto-crossing from a remote cursor position, a freely aimed ordinary jump, or a permanent unlock that guarantees every approach.
+- Parameters: Current foothold, eligible cap, ready state, side of approach and supported landing.
+- Evidence: [Chicory: A Colorful Tale decomposition](../games/a-f/chicory-a-colorful-tale.md), CHIC-003–CHIC-005. The Xbox Series-attributed trace and the Xbox route guide establish this local boundary. Controller telemetry and the installed build were not verified.
+- Novelty: first isolated for `GAME-0666`. See [TAXONOMY_CHANGE_412](../../research/taxonomy-changes/TAXONOMY_CHANGE_412.md). No external novelty claim.
+
+## CON-880 — Remap the same football buttons by the marked player’s ball context
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Resolve a shared command button as a different legal action depending on whether the directly controlled footballer carries the ball, defends without it or is a goalkeeper holding it.
+- Includes: A as shot or slide by possession, and B as pass, shoulder challenge or near distribution by a holding keeper.
+- Excludes: Switching controller presets, choosing a camera, and grading the timing of an already-selected kick.
+- Parameters: current holder, controlled role, handling state, button and applicable restart.
+- Evidence: [Sega Worldwide Soccer '97 decomposition](../games/s-z/sega-worldwide-soccer-97.md), WWS-003, WWS-005. The North American instruction manual and the separately scoped trace establish the available boundary. Exact pad inputs were not measured.
+- Novelty: first isolated for `GAME-0665`. See [TAXONOMY_CHANGE_411](../../research/taxonomy-changes/TAXONOMY_CHANGE_411.md). No external novelty claim.
+
+## CON-879 — Renew independent equipment-use limits at the owner’s next turn
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: During one owner phase, disallow a piece of equipment after it reaches its allowed use count even if a legal die remains, and renew its uses on the owner’s next turn.
+- Includes: One Sword, Battle Axe or Bump activation per turn, as compared with reusable Matchstick and Combat Roll’s own three uses.
+- Excludes: A shared use count, an elapsed cooldown, consumables permanently lost after use and value predicates on dice.
+- Parameters: equipment-specific ceiling or reuse, ownership, refresh boundary and visibility of exhausted cards.
+- Evidence: [Dicey Dungeons decomposition](../games/a-f/dicey-dungeons.md), DD-003, DD-004. Mobile reference footage and the cited equipment, status or progression evidence support this boundary. The exact Android executable was not measured.
+- Novelty: first isolated for `GAME-0664`. See [TAXONOMY_CHANGE_410](../../research/taxonomy-changes/TAXONOMY_CHANGE_410.md). No external novelty claim.
+
+## CON-878 — Require an equipment-specific numerical predicate on the selected die
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Accept the selected rolled die only when its current value satisfies the declared predicate for that equipment socket.
+- Includes: An upper bound of four on Battle Axe, even faces on Matchstick and Fireball, odd faces on Snowball, and no face restriction on Sword.
+- Excludes: Checking a total across an entire pool, choosing a compatible equipment category and limiting the number of times a socket can be used.
+- Parameters: face, predicate, separate use allowance and rejected input boundary.
+- Evidence: [Dicey Dungeons decomposition](../games/a-f/dicey-dungeons.md), DD-002, DD-005. Mobile reference footage and the cited equipment, status or progression evidence support this boundary. The exact Android executable was not measured.
+- Novelty: first isolated for `GAME-0664`. See [TAXONOMY_CHANGE_410](../../research/taxonomy-changes/TAXONOMY_CHANGE_410.md). No external novelty claim.
+
+## CON-877 — Require symbol identity only in the defensive phase of a shared control scheme
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The phase sets the eligibility relation for the same set of face buttons. One of them can serve as the strum for an aligned phrase, but a defensive symbol accepts its own face-button identity within its time window.
+- Includes: The Type-A Gitaroo Man scheme accepts any one of the four face buttons for a played phrase. Guard requires the specific icon at the centre.
+- Excludes: Changing controller presets between phases, allowing a generic button to guard every icon, or requiring each phrase orientation to use its own face button.
+- Parameters: Phase, controller preset, face-button set, symbol identity, timing and eligible input.
+- Evidence: [Gitaroo Man decomposition](../games/g-l/gitaroo-man.md), GM-002, GM-003, GM-005. The printed North American booklet and two recorded PS2 routes support this boundary. Exact controller sampling and executable revision were not measured.
+- Novelty: first isolated for `GAME-0663`. See [TAXONOMY_CHANGE_409](../../research/taxonomy-changes/TAXONOMY_CHANGE_409.md). No external novelty claim.
+
+## CON-876 — Limit relative-card fields to separate supplied and sourced candidate pools
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Each field on a relative card accepts candidates only from its own selector. Names and occupations are supplied as separate lists, while portraits become eligible by registration from evidence. Occupations need not be unique across cards.
+- Includes: Use a listed name, a listed occupation and a registered face for one Roottree sibling. Model is available for more than one accepted sibling.
+- Excludes: Unrestricted answer text, a single vocabulary extracted entirely from evidence, role metadata attached permanently to a name and a uniqueness requirement for occupations.
+- Parameters: Candidate source, field class, portrait registration, list filtering and occupation reuse.
+- Evidence: [The Roottrees are Dead decomposition](../games/s-z/the-roottrees-are-dead.md), RT-002, RT-004, RT-005. The commercial listing, publisher context and attributed recordings support the bounded route. The exact installed depot was unverified.
+- Novelty: first isolated for `GAME-0660`. See [TAXONOMY_CHANGE_406](../../research/taxonomy-changes/TAXONOMY_CHANGE_406.md). No external novelty claim.
+
+## CON-875 — Accept a rigid picture fragment only in its compatible gap and orientation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Each loose fragment belongs to a fixed part of the target image. A placement fills that gap only when both the addressed position and the allowed rigid orientation match. All outstanding gaps must be filled to finish the picture.
+- Includes: Rotate and drag each of the five available stairway jigsaw pieces to restore the missing parts of the illustration.
+- Excludes: An arbitrary gapless tessellation with interchangeable pieces, a complete picture made only by reordering whole panels, or filling a scalar piece count regardless of pose.
+- Parameters: Fragment identity, target gap, placement orientation, remaining pieces and accepted coverage.
+- Evidence: [Hotel Dusk: Room 215 decomposition](../games/g-l/hotel-dusk-room-215.md), HD-004. The original Nintendo documentation and two attributed DS recordings corroborate this scope. Physical inputs and binary identity were unverified.
+- Novelty: first isolated for `GAME-0654`. See [TAXONOMY_CHANGE_400](../../research/taxonomy-changes/TAXONOMY_CHANGE_400.md). No external novelty claim.
+
+## CON-874 — Restrict ordinary orthogonal movement to panels owned by the acting side
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Ordinary steps are confined to the acting side’s currently owned panels of a finite grid. Opposing ownership limits movement independently of whether an attack can cross the boundary.
+- Includes: In the classroom encounter MegaMan moves among the left three columns and his buster crosses to an enemy panel on the same row.
+- Excludes: Treating the entire grid as shared ground, an attack-range limit that also blocks traversal of friendly panels or an edge inferred from a decorative camera crop.
+- Parameters: Side, panel ownership, legal orthogonal steps, boundary and independent attack reach.
+- Evidence: [Mega Man Battle Network decomposition](../games/m-r/mega-man-battle-network.md), BN1-004. The original Game Boy Advance manual and attributed cartridge-era recordings support the scoped sequence.
+- Novelty: first isolated for `GAME-0652`. See [TAXONOMY_CHANGE_398](../../research/taxonomy-changes/TAXONOMY_CHANGE_398.md). No external novelty claim.
+
+## CON-873 — Admit a bounded group whose combat chips share one name or code
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Sending more than one option requires the selected group to share a declared name or an identifier code. The transfer has its own bounded entry count even when more options are visible.
+- Includes: Group Cannon chips by their name, or different Battle Chips by one identical letter code, within the five-chip transmission limit.
+- Excludes: Any arbitrary subset of the visible offer, eligibility based only on damage or element, or treating the widened offer as a larger transfer capacity.
+- Parameters: Names, codes, visible options, compatible group, and separate send capacity.
+- Evidence: [Mega Man Battle Network decomposition](../games/m-r/mega-man-battle-network.md), BN1-002, BN1-005. The original Game Boy Advance manual and attributed cartridge-era recordings support the scoped sequence.
+- Novelty: first isolated for `GAME-0652`. See [TAXONOMY_CHANGE_398](../../research/taxonomy-changes/TAXONOMY_CHANGE_398.md). No external novelty claim.
+
+## CON-872 — Limit changes of plane to the active portals of the exposed spread
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Crossing between the represented page and the physical exterior is legal at an active authored portal in that open spread. Exterior movement can connect different portal positions on the same spread. Arbitrary paper contact does not select an arrival point.
+- Includes: Leave through the left spiral and re-enter at the right one, beyond a route barrier in the illustrated terrain.
+- Excludes: Free switching of display mode, placing an arbitrary endpoint, remote arrival selected on a map or turning the page without reaching a portal.
+- Parameters: Open spread, active authored portal, represented position, physical position and reachable destination portal.
+- Evidence: [The Plucky Squire decomposition](../games/s-z/the-plucky-squire.md), PLUCK-002, PLUCK-003. The developer material and attributed PS5 footage support the scoped sequence.
+- Novelty: first isolated for `GAME-0651`. See [TAXONOMY_CHANGE_397](../../research/taxonomy-changes/TAXONOMY_CHANGE_397.md). No external novelty claim.
+
+## CON-871 — Limit recoverable armament to two live weapon channels without duplicate types
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The aircraft admits up to two recovered weapon types across its active channels. Recovering a type already fitted serves the existing weapon instead of creating another copy or spare channel.
+- Includes: Astraea carries Vulcan and Spreader separately. A recovered matching type feeds its existing instance.
+- Excludes: A spare inventory outside the two live mounts, unrestricted stacking of duplicate instances or combining the two entries into one weapon.
+- Parameters: Channel count, current weapon types, same-type eligibility and available mount.
+- Evidence: [Einhänder decomposition](../games/a-f/einhander.md), EIN-004, EIN-005. The printed manual and attributed PlayStation footage support the scoped sequence.
+- Novelty: first isolated for `GAME-0650`. See [TAXONOMY_CHANGE_396](../../research/taxonomy-changes/TAXONOMY_CHANGE_396.md). No external novelty claim.
+
+## CON-870 — Bound the active work path to the current lateral pass
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The tool is directed along its current crosswise working path. Forward access to later working paths depends on advancing through the preceding passes rather than selecting any path directly.
+- Includes: Move across the current band of the mowing scene and continue across successive bands before the mower reaches the flowers.
+- Excludes: Unrestricted planar steering on the entire area, rotating the camera to change available targets, or assuming the exact motor or input boundary from these recordings.
+- Parameters: Current path, eligible lateral motion, order of paths and final target access.
+- Evidence: [Thank Goodness You're Here! decomposition](../games/s-z/thank-goodness-youre-here.md), TGY-003, TGY-004. The Nintendo Switch store and two attributed captures support the scoped encounter.
+- Novelty: first isolated for `GAME-0648`. See [TAXONOMY_CHANGE_394](../../research/taxonomy-changes/TAXONOMY_CHANGE_394.md). No external novelty claim.
+
+## CON-869 — Require full held charge before a rocket release
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A release qualifies for the directional or local rocket action only after the held charge reaches the full mark. The player can use ordinary attack without meeting this gate.
+- Includes: Wait for the energy gauge to fill before releasing into a rocket ascent through the castle.
+- Excludes: Every release producing a lower strength rocket, a quantity of separately banked uses or a cooldown that refills without holding the attack input.
+- Parameters: Current held charge, full mark, release event and branch eligibility.
+- Evidence: [Rocket Knight Adventures decomposition](../games/m-r/rocket-knight-adventures.md), RK-003. The North American manual and attributed captures delimit the scope.
+- Novelty: first isolated for `GAME-0643`. See [TAXONOMY_CHANGE_389](../../research/taxonomy-changes/TAXONOMY_CHANGE_389.md). No external novelty claim.
+
+## CON-868 — Cook the upper racks only when their arrangement lets steam pass
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The stacked cooking arrangement must leave steam paths available to upper layers for those layers to cook. A stack can be inserted and heated even when its configuration is unsuitable for full completion.
+- Includes: The first idli attempt can cook the bottom plate only. Rearranging the racks during loading can allow a later attempt to cook the full stack.
+- Excludes: Rejecting every incorrect placement at the moment of insertion, matching a visible colour alone, a single mandatory order for otherwise independent preparation steps or certifying an exact angle from one accepted run.
+- Parameters: Stack order, rack orientations, moulds and vents, reachable upper layers and cook outcome.
+- Evidence: [Venba decomposition](../games/s-z/venba.md), VB-004 and VB-005. The Xbox release listing, developer interview and attributed captures delimit the scope.
+- Novelty: first isolated for `GAME-0642`. See [TAXONOMY_CHANGE_388](../../research/taxonomy-changes/TAXONOMY_CHANGE_388.md). No external novelty claim.
+
+## CON-867 — Block further shots at empty magazine while the live attempt continues
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A fired shot spends the current weapon’s bounded round stock, and zero rounds blocks further fire. The player retains other actions and can bring the same weapon back into use in the current attempt.
+- Includes: Dual Pistols showing the empty warning in Rollerdrome while skating and tricks remain available and can restore the spent rounds.
+- Excludes: An unrecoverable empty firearm, shared exhaustion that terminates an attempt, or a separately carried stock that delays current fire only during a routine magazine swap.
+- Parameters: Current count, finite cap, fired action, no-ammo condition, retained actions and recovery eligibility.
+- Evidence: [Rollerdrome decomposition](../games/m-r/rollerdrome.md), DROME-003. The Roll7 description and attributed PS4 captures delimit the scope.
+- Novelty: first isolated for `GAME-0639`. See [TAXONOMY_CHANGE_385](../../research/taxonomy-changes/TAXONOMY_CHANGE_385.md). No external novelty claim.
+
+## CON-866 — Limit traversal to the experiencer’s available remembered spaces
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A destination can exist in the school’s geography yet remain unavailable in the active remembered period when the memory supplies none of the experiencer’s experience of it. Access depends on the memory state.
+- Includes: The gym entrance reached during Temperature Days that Secretary says the current memory cannot supply.
+- Excludes: A conventional key or inventory lock, a dialogue promise that itself opens the destination, and assuming that the same room is unavailable in every period.
+- Parameters: Memory experiencer, current remembered period, destination and its available contents.
+- Evidence: [1000xRESIST decomposition](../games/0-9/1000xresist.md), RES-002. The publisher, developer and two attributed Nintendo Switch recordings support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0635`. See [TAXONOMY_CHANGE_381](../../research/taxonomy-changes/TAXONOMY_CHANGE_381.md). No external novelty claim.
+
+## CON-865 — Select a player height reference for judging shaker positions
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Before play, select the active player’s height bracket. Position judgements for their tracked shakers depend on a suitable height reference.
+- Includes: The per-player Height Select in the Dreamcast Maracas controls.
+- Excludes: An abstract difficulty setting, display scaling, controller button remapping or a measured sensor calibration formula.
+- Parameters: Player, height selection and correct detection of each vertical band.
+- Evidence: [Samba de Amigo decomposition](../games/s-z/samba-de-amigo.md), SAM-002. The Sega Dreamcast manual and attributed maraca footage support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0634`. See [TAXONOMY_CHANGE_380](../../research/taxonomy-changes/TAXONOMY_CHANGE_380.md). No external novelty claim.
+
+## CON-864 — Require the target creature family’s recovered whistle before charm
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The player must have the recovered whistle assigned to the target family to start a charm attempt. Observing and identifying a member can precede that unlock. Eligibility is family-specific and does not itself grade the song.
+- Includes: Recovering the Bewl whistle before initiating charm with the known Basking Bewl in Flock.
+- Excludes: A whistle consumed on each use, one universal permission for every animal, a species guide entry on its own, or a rank threshold that applies to all targets.
+- Parameters: Creature family, tool identity, recovered status, eligible interaction and existing observation.
+- Evidence: [Flock decomposition](../games/a-f/flock.md), FLK-002, FLK-003. The documented Xbox release and its attributed gameplay traces support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0633`. See [TAXONOMY_CHANGE_379](../../research/taxonomy-changes/TAXONOMY_CHANGE_379.md). No external novelty claim.
+
+## CON-863 — Prevent terrain-floor contact while retaining collisions with protruding obstacles
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The ordinary flight control law bounds descent above the local ground surface, even when further descent is requested. Terrain features or objects that rise into the allowed flight space can still collide with the controlled craft.
+- Includes: Blue Lightning’s flight computer prevents flight into the ground but does not prevent collision with raised terrain or discrete obstacles.
+- Excludes: Full terrain collision immunity, a manual brake or landing command, a lower invisible screen edge without a terrain relation, or a separate scripted landing.
+- Parameters: Local ground, flight floor, descent request, object height, solid contact and override phase.
+- Evidence: [Blue Lightning decomposition](../games/a-f/blue-lightning.md), BL-005. The Atari instructions and Lynx traces support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0623`; see [TAXONOMY_CHANGE_369](../../research/taxonomy-changes/TAXONOMY_CHANGE_369.md). No external novelty claim.
+
+## CON-862 — Admit powered in-plane traversal only through designated drillable material
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: A body with the active drilling movement mode can occupy and cross eligible material in the current play plane. Ordinary movement cannot use those in-material paths, and the drilling mode does not make fixed surrounding rock permeable.
+- Includes: The distinct soft-ground pockets and outcrops are drill routes through the Lost Claim section; ordinary rocky walls bound those routes.
+- Excludes: A wall removed permanently for later traffic, a separate underground plane entered at a valid tile, material harvested for inventory or universal passage through all solid geometry.
+- Parameters: Local material class, movement mode, contiguous eligible route and boundary with fixed collision.
+- Evidence: [Pepper Grinder decomposition](../games/m-r/pepper-grinder.md), PG-002. The Devolver booklet and Switch traces support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0622`; see [TAXONOMY_CHANGE_368](../../research/taxonomy-changes/TAXONOMY_CHANGE_368.md). No external novelty claim.
+
+## CON-861 — Reserve the live course-branch choice to the racer leading at the gate
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: Only the participant occupying first place at the designated opening-lap decision is entitled to choose between its two offered course branches. Other participants follow the shared outcome regardless of their own subsequent rank.
+- Includes: A racer in first place settles the Travel Ring branch in an ordinary Sonic Racing: CrossWorlds Grand Prix round.
+- Excludes: Each racer independently choosing a gate, a vote, the later race winner retroactively selecting the route, or a fixed next track with no choice.
+- Parameters: Live rank, decision instant, branching gate availability, designated chooser and following field.
+- Evidence: [Sonic Racing: CrossWorlds decomposition](../games/s-z/sonic-racing-crossworlds.md), SRC-003, SRC-004. The Sega rules and the post-launch race traces support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0621`; see [TAXONOMY_CHANGE_367](../../research/taxonomy-changes/TAXONOMY_CHANGE_367.md). No external novelty claim.
+
+## CON-860 — Prepare four separately selectable weapon slots with duplicate types allowed
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: Before entering live combat, the player fills a fixed kit of four separately selectable weapon slots from the declared types. A type can be selected repeatedly and occupying one slot does not merge it with another.
+- Includes: Four prepared Force slots in Alien Soldier may contain repeated Flame or Lancer entries.
+- Excludes: A two-component combination system, a shared weapon pool, requiring four distinct types, or replacing the live setup in the selection overlay.
+- Parameters: Number of prepared slots, allowed types, duplicates, selected slot and separate reserve identity.
+- Evidence: [Alien Soldier decomposition](../games/a-f/alien-soldier.md), ALS-002, ALS-003. The Japanese Sega manual and the opening combat traces support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0620`; see [TAXONOMY_CHANGE_366](../../research/taxonomy-changes/TAXONOMY_CHANGE_366.md). No external novelty claim.
+
+## CON-859 — Limit excavation to the struck volume and its material response
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: An excavation strike affects only its local reachable impact volume. Material response limits how much opens per strike, and the character still needs connected clearance through the solids that remain.
+- Includes: Dirt gives way beneath downward punches, while the stone hiding the Ancient Cave gem takes direct excavation. Nintendo documents differing material responses and stronger punches reducing work on tougher terrain.
+- Excludes: A fixed puzzle-wide ground mask, a single addressed tile eligible for tool-based harvest, a lock code or universal removal regardless of material.
+- Parameters: Impact reach and direction, affected volume, material response, remaining solid volume and body clearance.
+- Evidence: [Donkey Kong Bananza decomposition](../games/a-f/donkey-kong-bananza.md), DKB-002, DKB-003, DKB-006. Nintendo’s rules and the English Switch 2 route traces support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0619`; see [TAXONOMY_CHANGE_365](../../research/taxonomy-changes/TAXONOMY_CHANGE_365.md). No external novelty claim.
+
+## CON-858 — Confirm the move stage before committing an individual battle command
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: An active unit first chooses a reachable final position or stays on its current cell. A tentative position can still be reconsidered before resolving a battle command. The move-stage decision precedes one committed command or pass, which completes the activation.
+- Includes: In the first Shining Force III encounter, confirm a cell for Masqurin, then choose a legal spell. The North American manual allows cancelling the battle menu back to movement before commitment.
+- Excludes: Moving after a settled ordinary attack, a freely interleaved squad phase, one shared action-point budget, or skipping targeting rules because a position is reachable on foot.
+- Parameters: Scheduled actor, reachable squares, tentative position, confirmation, command availability, resolution and pass.
+- Evidence: [Shining Force III decomposition](../games/s-z/shining-force-iii.md), SF3-002, SF3-003. The North American Sega manual and the English battle traces support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0618`; see [TAXONOMY_CHANGE_364](../../research/taxonomy-changes/TAXONOMY_CHANGE_364.md). No external novelty claim.
+
+## CON-857 — Reject damage to the guardian while its temporary attack shield is active
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: A guardian can make itself temporarily immune to damage during a visible protective attack state. A damaging action must resolve outside that interval to reduce its vitality.
+- Includes: In the first Silent Bomber mission, the four-legged weapon briefly encloses itself in a visible shield and is vulnerable again when it disappears.
+- Excludes: An always-active armour statistic, a guard that drains its own finite hit points, a one-time story transformation with no repeated vulnerability, or a shield used by the player.
+- Parameters: Guardian, shield state, attack-resolution instant and damage eligibility.
+- Evidence: [Silent Bomber decomposition](../games/s-z/silent-bomber.md), SBOM-006. The North American manual and game traces support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0616`; see [TAXONOMY_CHANGE_362](../../research/taxonomy-changes/TAXONOMY_CHANGE_362.md). No external novelty claim.
+
+## CON-856 — Require the taught trick at the addressed practice mark
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The marked practice target changes state only when the rider executes the designated trick in its eligible local area. The identical move away from the mark, or passing through the area on the ground without the move, does not supply that target’s credit.
+- Includes: After learning The Ollie, perform it at a glowing crest in the first Skate Story plaza; ordinary practice ollies elsewhere leave that crest active.
+- Excludes: An ordinary pressure switch activated by standing on it, a minimum global score, an arbitrary jump anywhere, a grind on an unmarked rail, or a requirement to aim the board at one unverified angle.
+- Parameters: Required trick family, initial availability, active mark, spatial acceptance area and qualifying move event.
+- Evidence: [Skate Story decomposition](../games/s-z/skate-story.md), SKST-002–SKST-004. The PS5 release traces and first-party materials support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0615`; see [TAXONOMY_CHANGE_361](../../research/taxonomy-changes/TAXONOMY_CHANGE_361.md). No external novelty claim.
+
+## CON-855 — Use aligned surface and underground positions with separate terrain legality
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The surface and underground layers share local coordinates but have different obstructions. The avatar can switch only where the adjacent layer accepts the transition. A reachable point in one layer does not make the corresponding point in the other layer passable or allow the black ball to follow the avatar.
+- Includes: Level 1 soft positions admit digging, while hard ground and the underground rock layout bound repositioning. The needed ball remains a surface object.
+- Excludes: Free teleportation between marked cells, deleting an entire wall with the dig command, using a fixed ladder to bypass multiple scenes, or switching only the rendering of unchanged geometry.
+- Parameters: Layer position, diggable surface, underground rock, emergence eligibility and independent prop layer.
+- Evidence: [Mole Mania decomposition](../games/m-r/mole-mania.md), MM-002, MM-003. Nintendo instruction booklet DMG-AMOE-USA and the original-English room traces support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0614`; see [TAXONOMY_CHANGE_360](../../research/taxonomy-changes/TAXONOMY_CHANGE_360.md). No external novelty claim.
+
+## CON-854 — Require solid supported footing at the end of an ordinary gap jump
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: An ordinary jump can skip an unsupported portion of a local route within its reach. It can end on a compatible dry landing or a deployed support; unsupported water alone cannot serve as the destination for that action.
+- Includes: Pippit can jump between tunnel ledges, then uses the deployed bridge for the larger uninterrupted pool.
+- Excludes: Swimming, flight without support, sustained travel over liquid after acquiring another trick, or requiring a bridge where a valid ledge jump would suffice.
+- Parameters: Takeoff position, jump reach, dry ledge, active support and unsupported surface.
+- Evidence: [Pipistrello and the Cursed Yoyo decomposition](../games/m-r/pipistrello-and-the-cursed-yoyo.md), PY-002, PY-003, PY-005. The Nintendo listing, commercial Switch v1.1 frames and independent Switch route account support the scoped rules as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0612`; see [TAXONOMY_CHANGE_358](../../research/taxonomy-changes/TAXONOMY_CHANGE_358.md). No external novelty claim.
+
+## CON-853 — Reserve a post-move commitment for a summon or a single eligible territory operation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: An ordinary landing grants a single post-movement commitment. A player may settle one legal summon or use one eligible owned-territory operation but cannot combine those alternatives in that opportunity.
+- Includes: After a Dunnan roll, selecting a land upgrade leaves no further ordinary summon that turn. Combat items resolve inside an accepted invasion.
+- Excludes: The separate pre-roll spell window, merely inspecting the board, paying a forced toll or responding with an item within combat.
+- Parameters: Phase, current action entitlement, summon, territory selection and committed option.
+- Evidence: [Culdcept decomposition](../games/a-f/culdcept.md), CUL-003, CUL-006. The North American instructions, English commercial match frames and firsthand route evidence support the scoped rules as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0611`; see [TAXONOMY_CHANGE_357](../../research/taxonomy-changes/TAXONOMY_CHANGE_357.md). No external novelty claim.
+
+## CON-852 — Require clearance for the full rotating span throughout a passage
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: A passage is safe only while the current centre pose and the collision-bearing span at its changing angle remain clear of the walls. A valid centre position alone does not establish clearance.
+- Includes: For the bends and narrow passages of Grasslands 3, a long rotor can fit lengthwise at one angle and hit the wall at another.
+- Excludes: Testing only the central body, a discrete held-object sweep with commanded turns, passage unlocked by a key, or a rotor whose tips are decorative.
+- Parameters: Centre path, span, orientation, wall position, crossing duration and refuge protection.
+- Evidence: [Kuru Kuru Kururin decomposition](../games/g-l/kuru-kuru-kururin.md), KK-002, KK-004, KK-006. The Nintendo booklet, commercial EU GBA stills and firsthand route analyses support the scoped rules as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0609`; see [TAXONOMY_CHANGE_355](../../research/taxonomy-changes/TAXONOMY_CHANGE_355.md). No external novelty claim.
+
+## CON-851 — Require a fixed base and item or category matches for a requested dish
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: A requested dish is eligible only when its named base and designated exact-item and category slots are satisfied. Category slots permit substitutions that still satisfy the order, while mismatched slots cannot count toward it.
+- Includes: The Port Zest noodle request specifies a rice-noodle base, seasoning, tomato and lemon entries, and a spicy special component.
+- Excludes: An exact physical ingredient arrangement, an unrestricted experimental meal satisfying any request, or a cooking score substituting for the required ingredient type.
+- Parameters: Request, base, fixed item, accepted category, selected ingredient, special flavour and eligible dish.
+- Evidence: [Dosa Divas decomposition](../games/a-f/dosa-divas.md), DD-008, DD-009, DD-012. The PlayStation listing, commercial PS5 frames and firsthand PS5 route report support the scoped rules as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0608`; see [TAXONOMY_CHANGE_354](../../research/taxonomy-changes/TAXONOMY_CHANGE_354.md). No external novelty claim.
+
+## CON-850 — Departure fuel threshold depends on current assembled mass
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the departure control requires available fuel to meet a cost derived from the assembled transport’s current mass. A heavier layout can raise the required reserve for the same journey.
+- Includes: Check Organics against Journey Cost after adding facilities to the mobile base.
+- Excludes: A fixed one-unit jump cost, hiring a larger vehicle, launch availability inferred only from engine condition or an exact formula deduced from one displayed threshold.
+- Parameters: Assembled mass, fuel reserve, journey cost, requested departure and other readiness conditions.
+- Evidence: [The Alters decomposition](../games/s-z/the-alters.md), TA-007, TA-008. The publisher account, walkthroughs and static commercial Xbox frames support these boundaries as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0604`; see [TAXONOMY_CHANGE_350](../../research/taxonomy-changes/TAXONOMY_CHANGE_350.md). No external novelty claim.
+
+## CON-849 — A surveyed extractor requires a connected relay path to the base
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: an installed extraction station serves the base only when a continuous permitted chain of local relay links connects the station endpoint to the base endpoint.
+- Includes: Place relays across the approach until the first Organics Mining Outpost is connected to the mobile base.
+- Excludes: An isolated refinery that needs only stocked input, a continuous mechanical drive shaft, an abstract regional trade rate or extraction straight to carried inventory.
+- Parameters: Station endpoint, base endpoint, relay sites, legal link distances and connection completeness.
+- Evidence: [The Alters decomposition](../games/s-z/the-alters.md), TA-002. The publisher account, walkthroughs and static commercial Xbox frames support these boundaries as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0604`; see [TAXONOMY_CHANGE_350](../../research/taxonomy-changes/TAXONOMY_CHANGE_350.md). No external novelty claim.
+
+## CON-848 — Fit one compatible bicycle part per typed position
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: each declared position of the active bicycle takes one owned compatible part at a time. Installing a component changes that position while leaving the other positions independently fitted.
+- Includes: Replace the rusty rear wheel with the offered Commuter Wheel while the front wheel, frame and bars stay fitted.
+- Excludes: Consuming a global slot budget, wearing two alternatives in the same position or applying an item directly to the live rider during the race.
+- Parameters: Position, part type, owned alternatives, currently fitted component and other positions.
+- Evidence: [Wheel World decomposition](../games/s-z/wheel-world.md), WW-003, WW-004. The creative director’s notes and still frames from the two early PC traces support these boundaries.
+- Novelty: first isolated for `GAME-0603`; see [TAXONOMY_CHANGE_349](../../research/taxonomy-changes/TAXONOMY_CHANGE_349.md). No external novelty claim.
+
+## CON-847 — Distinguish a controlled pad landing from early or unsafe contact
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a scored glider landing depends on hitting the designated surface and arriving in a controllable contact state. Route credit alone cannot substitute for contact, and reaching the ground outside the pad is a different outcome.
+- Includes: Reach the red-and-white landing pad under a held flare while controlling both the approach and descent. An early flare can bring the pilot down short even after all rings.
+- Excludes: An airborne pass through a final ring, a specific speed reading that by itself guarantees success or a wheeled runway stopping condition.
+- Parameters: Target surface, point of ground contact, progress of flare, approach velocity, descent and resulting landing state.
+- Evidence: [Pilotwings 64 decomposition](../games/m-r/pilotwings-64.md), PW-003, PW-006, PW-008. The original manual, flight stills and independent player accounts support the boundaries. The record distinguishes observed results from supplementary code paths.
+- Novelty: first isolated for `GAME-0602`; see [TAXONOMY_CHANGE_348](../../research/taxonomy-changes/TAXONOMY_CHANGE_348.md). No external novelty claim.
+
+## CON-846 — Protect the actively recorded target from defeat until the recording check
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: during the pending recording window the designated target remains a live opponent despite damage that would otherwise defeat it. This protection attaches only during the eligible attempt and does not keep the original alive after its recording check.
+- Includes: While a person is actively recording a Dominoth, the documented system will keep the target alive to evaluate the ongoing recording. Continue attacking after resolution to finish the encounter.
+- Excludes: Invulnerability to all damage, an immortal target for the entire battle, not starting the recording yet, or removal of the hostile when the tape is created.
+- Parameters: Target, active recording window, incoming damage, nonterminal health floor and check boundary.
+- Evidence: [Cassette Beasts decomposition](../games/a-f/cassette-beasts.md), CB-004, CB-009. Developer-authored rules, in-game tutorial stills and independent mobile traces support the boundaries. Unobserved edge cases are identified in the record.
+- Novelty: first isolated for `GAME-0601`; see [TAXONOMY_CHANGE_347](../../research/taxonomy-changes/TAXONOMY_CHANGE_347.md). No external novelty claim.
+
+## CON-845 — Lose possession on expiry of the configured attempt clock
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a live attacking possession is constrained by a selected attempt-clock duration. Reaching expiry without an accepted attempt results in a violation and terminates that offensive possession.
+- Includes: With the 24-second shot-clock setting, an attack that runs down the countdown without attempting a basket loses possession.
+- Excludes: A full-match timer, a special-shot opportunity countdown, a timed score target or a specific release-and-rim reset rule.
+- Parameters: Clock option, attacking side, live interval, remaining time and violation result.
+- Evidence: [NBA Street Vol. 2 decomposition](../games/m-r/nba-street-vol-2.md), NS-003. Printed PlayStation 2 instructions and independent captures or firsthand accounts support the rule boundaries. Not every branch was visible in the sampled frames.
+- Novelty: first isolated for `GAME-0600`; see [TAXONOMY_CHANGE_346](../../research/taxonomy-changes/TAXONOMY_CHANGE_346.md). No external novelty claim.
+
+## CON-844 — Require a distinct replenishing evasion reserve for repeated dodge rolls
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: an otherwise legal dodge consumes its dedicated recoverable reserve. At exhaustion another roll is unavailable until recovery, while ordinary attacks and spell resource rules remain separate.
+- Includes: rolling repeatedly against the Miner’s Widow and its accompanying enemies, seeing Out of Stamina, and using other legal movement or attacks until another roll becomes available.
+- Excludes: a common attack, sprint and dodge stamina pool; a one-per-airborne-session reset condition (CON-458); the magic reserve that pays placed spells; an unconditional repeatable roll.
+- Parameters: evade command, dedicated supply, debit, zero predicate and recovery rate
+- Evidence: [Dungeons of Hinterberg decomposition](../games/a-f/dungeons-of-hinterberg.md), DH-008. Launch-window Xbox Series X stills and independent route accounts establish these boundaries. Patch and internal values are not measured.
+- Novelty: first isolated for `GAME-0592`; see [TAXONOMY_CHANGE_338](../../research/taxonomy-changes/TAXONOMY_CHANGE_338.md). No external novelty claim.
+
+## CON-843 — Gate an on-road duel by an eligible close approach from behind
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the moving-world challenge is available only when the selected rival is eligible and the initiating vehicle occupies a qualifying nearby trailing approach. The initiation input outside that window does not start the selected duel.
+- Includes: closing behind Timid Challenger and flashing headlights when the first in-road challenge is available.
+- Excludes: an arena or menu event chosen without a spatial approach; an opponent automatically engaging on sight; a persistent character-attribute check (CON-337); a contest begun by any passing traffic regardless of its current state.
+- Parameters: initiator vehicle, rival identity, eligibility state, relative position, challenge range and command
+- Evidence: [Tokyo Xtreme Racer decomposition](../games/s-z/tokyo-xtreme-racer.md), TXR-003. Genki and dated 1.0.0 stills establish the scoped released behavior, with corroborating independent play accounts. Exact coefficients are unmeasured.
+- Novelty: first isolated for `GAME-0590`; see [TAXONOMY_CHANGE_336](../../research/taxonomy-changes/TAXONOMY_CHANGE_336.md). No external novelty claim.
+
+## CON-842 — Cap concurrent deployed bombs by their owner’s capacity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: admit a fresh ordinary bomb only if the number of that contestant’s outstanding bombs is below their current concurrent placement capacity; removal frees the occupied capacity.
+- Includes: capacity in the Saturn Bomberman Battle Game, including an ordinary bomb pickup admitting additional simultaneous placements.
+- Excludes: a stock of irrecoverable consumables; the component that increases capacity; abuse of a bomb’s physical blocking without an owner budget.
+- Parameters: owner, already-deployed bomb count, current cap, release of a resolved bomb
+- Evidence: [Saturn Bomberman decomposition](../games/s-z/saturn-bomberman.md), SB-003 and SB-005. The English Sega manual and static original-release battle captures establish the scoped rule. Exact timings and internal values are not measured.
+- Novelty: first isolated for `GAME-0584`; see [TAXONOMY_CHANGE_330](../../research/taxonomy-changes/TAXONOMY_CHANGE_330.md). No external novelty claim.
+
+## CON-841 — Require overlapping live fixture flames at a route gate
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: A route gate evaluates a declared set of separately ignitable fixtures. It opens when every required fixture is simultaneously burning. Earlier ignitions that went out cease to satisfy the gate, so sequential actions must still overlap in their effects.
+- Includes: All four cellar pillars must be lit together to open the final passage in Joe the Hero Stage 2.
+- Excludes: Counting ever-lit fixtures; keeping a plate continuously occupied; a single torch ignition; changing the source of the fire.
+- Parameters: Required fixture set, independent ignition windows, expiry and gate evaluation.
+- Evidence: [Viewtiful Joe decomposition](../games/s-z/viewtiful-joe.md), VJ-008. Capcom’s GameCube manual and corroborating route evidence establish the conditional transition. Exact timings and internal values are not measured.
+- Novelty: first isolated for `GAME-0580`; see [TAXONOMY_CHANGE_326](../../research/taxonomy-changes/TAXONOMY_CHANGE_326.md). No external novelty claim.
+
+## CON-840 — Require an onboard place for every current passenger before departure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The departure confirmation is available after every passenger in the current waiting wave is assigned a legal onboard seat or standing spot. Existing riders occupy places, and unresolved personal preferences do not forbid departure.
+- Includes: Barcelona Level 4 makes Confirm available for a fully placed bus even while complaints remain.
+- Excludes: Require all seats to be occupied; reject every unhappy arrangement; settle the quality score; select which passengers ride.
+- Parameters: Current waiting roster, boardable places, retained passengers, confirmation and visible unmet preferences.
+- Evidence: [Is This Seat Taken? decomposition](../games/g-l/is-this-seat-taken.md), ST-005. The developer’s stated placement and satisfaction rules, Android stills and the documented four-stop solution establish this transition. Exact event order within an animation is unmeasured.
+- Novelty: first isolated for `GAME-0579`; see [TAXONOMY_CHANGE_325](../../research/taxonomy-changes/TAXONOMY_CHANGE_325.md). No external novelty claim.
+
+## CON-839 — A requested remedy needs the exact item and the recipient’s recoverable case
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: To settle a threatened patient’s remedy request, the carried object must match the required treatment while the patient is still in a recoverable state in the current world iteration.
+- Includes: Lucretia can use the Silphium Resin to save Iulia while the poisoning can still be treated. Retaining the item alone does not treat her.
+- Excludes: Handing over any item of the same category, restoring a patient merely by possessing the cure or assuming that the treatment persists through all subsequent resets.
+- Parameters: Treatment identity, holder, authorised recipient, patient state and intervention opportunity.
+- Evidence: [The Forgotten City decomposition](../games/s-z/the-forgotten-city.md), TFC-003, TFC-007. Creator interviews and independently documented title-release play establish the scoped transitions. Console build limits are qualified in the game record.
+- Novelty: first isolated for `GAME-0576`; see [TAXONOMY_CHANGE_322](../../research/taxonomy-changes/TAXONOMY_CHANGE_322.md). No external novelty claim.
+
+## CON-838 — Limit ordinary card commitments per activation independently of their costs
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: Limit the current actor to a fixed number of ordinary card commitments in its ordinary activation. Each commitment spends one slot irrespective of its numeric Cost. The ordinary allocation renews at the actor’s next activation.
+- Includes: Snake’s ordinary turn starts at REST 2/2. A costly attack and a cheap move consume one slot each, and a voluntary End can leave slots unused.
+- Excludes: One attack plus an independent movement allowance, one action for every unit of energy, and specialised cards that explicitly increase the ordinary allowance.
+- Parameters: Current actor, per-turn slot cap, spent and remaining slots, optional early End.
+- Evidence: [Metal Gear Acid decomposition](../games/m-r/metal-gear-acid.md), MGA-003, MGA-004. The original manual and launch-period PSP play accounts establish the scoped transitions. Region and runtime limits are qualified in the game record.
+- Novelty: first isolated for `GAME-0575`; see [TAXONOMY_CHANGE_321](../../research/taxonomy-changes/TAXONOMY_CHANGE_321.md). No external novelty claim.
+
+## CON-837 — A reply fragment counts only at its compatible position in the current silhouette
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: A placement contributes to the current reply only where the fragment fits its compatible unfilled location in the authored target. Completion requires all current fragments to form the whole outline together.
+- Includes: Set a curved speech fragment in the region of Florence’s balloon that matches its edges, then fill the rest.
+- Excludes: Matching speech by text or topic, using any part to spend a scalar quota, collecting parts from prior scenes or accepting an unfinished outline as a reply.
+- Parameters: Current target contour, fragment geometry, accepted pose, unfilled area and complete coverage.
+- Evidence: [Florence decomposition](../games/a-f/florence.md), FLO-002, FLO-003. Launch-period touch accounts and attributed chapter walkthroughs establish the scoped transitions. Later figure analysis and original-runtime limits are qualified in the game record.
+- Novelty: first isolated for `GAME-0574`; see [TAXONOMY_CHANGE_320](../../research/taxonomy-changes/TAXONOMY_CHANGE_320.md). No external novelty claim.
+
+## CON-836 — A room tile requires unlocked type, claimed floor and available gold
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: A functional room tile may be built only when its type is currently available, its target is suitable unbuilt claimed floor and the Keeper can pay that tile price.
+- Includes: Build a Treasure Room, Lair or Hatchery tile on dry claimed land in Eversmile.
+- Excludes: Painting neutral territory, merely marking rock to dig, an unpaid abstract room label or paying to provision an existing room.
+- Parameters: Room type availability, floor ownership and suitability, occupancy and per-tile gold price.
+- Evidence: [Dungeon Keeper decomposition](../games/a-f/dungeon-keeper.md), DKE-002, DKE-003. The PC CD-ROM manual and attributed full-campaign play accounts establish the scoped transitions. Exact script constants from secondary sources are qualified in the game record.
+- Novelty: first isolated for `GAME-0573`; see [TAXONOMY_CHANGE_319](../../research/taxonomy-changes/TAXONOMY_CHANGE_319.md). No external novelty claim.
+
+## CON-835 — Two distinct weapon-card types and three copies of a type may be held
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The held ordinary card inventory permits at most two distinct types at once, each with at most three held copies. Copies retain their shared card type for capacity accounting. The reusable base weapon is outside this ordinary-card capacity.
+- Includes: Neon White’s carried weapon-card types and per-type stacks, including the Elevate copies acquired along the route.
+- Excludes: Three total slots shared across all types, a reserve-ammunition limit, or a deck construction rule applied before the stage.
+- Parameters: Distinct type count, copies per type, active type and base weapon exception.
+- Evidence: [Neon White decomposition](../games/m-r/neon-white.md), NW-004. Director descriptions and contemporary Switch and stage accounts support the scoped transitions. The specific demon count uses the attributed later stage inventory.
+- Novelty: first isolated for `GAME-0572`; see [TAXONOMY_CHANGE_318](../../research/taxonomy-changes/TAXONOMY_CHANGE_318.md). No external novelty claim.
+
+## CON-834 — Require inducted home population to unlock an expedition gate
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: An unopened expedition entrance becomes eligible only when the persistent home has the displayed minimum number of inducted residents. Pending rescues are not inducted labour and are not counted toward this precondition.
+- Includes: The first Darkwood gate shows a one-follower requirement, met after the first settlement induction in Cult of the Lamb.
+- Excludes: Taking the required residents on the expedition; consuming a counted follower to pay the gate; checking whether the arriving player can defeat the boss; unlocking every region with one follower.
+- Parameters: Gate identity, displayed minimum, inducted roster and first-open state.
+- Evidence: [Cult of the Lamb decomposition](../games/a-f/cult-of-the-lamb.md), CL-002. Developer material and 2022 play accounts support this scoped launch rule. Exact PS5 package and coefficients were not established.
+- Novelty: first isolated for `GAME-0570`; see [TAXONOMY_CHANGE_316](../../research/taxonomy-changes/TAXONOMY_CHANGE_316.md). No external novelty claim.
+
+## CON-833 — Spend a physical gun’s finite unreloadable shots without consuming its prop utility
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: A held physical firearm can emit its next shot only while its own remaining supply permits it. This scoped rule offers neither an ammunition refill pickup nor a manual reload; exhaustion disables further shooting from that gun but leaves the same physical object eligible for holding, blocking or throwing.
+- Includes: Original SUPERHOT VR ordinary campaign guns, replaced by taking another physical weapon rather than replenishing an abstract compatible reserve.
+- Excludes: A magazine-plus-reserve reload loop; ammunition drops; an empty gun vanishing or automatically becoming incapable of blocking; exact undocumented shot capacities.
+- Parameters: Physical gun, remaining supply, trigger request, last shot, empty state, replacement and retained prop uses.
+- Evidence: [SUPERHOT VR decomposition](../games/s-z/superhot-vr.md), SHV-005. Official Quest launch material, developer statements and qualified released-version accounts support the common rules; no native Quest binary, exact time floor or recovery coefficient was measured.
+- Novelty: first isolated for `GAME-0567`; see [TAXONOMY_CHANGE_313](../../research/taxonomy-changes/TAXONOMY_CHANGE_313.md). No external novelty claim.
+
+## CON-832 — Gate pre-battle gadget overcharge by its unlock, water and local station
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: A primary gadget’s manual overcharge is legal only after its enabling upgrade, at its reachable local station, outside the active assault and with the declared water payment available. Buying the enabling node does not itself activate the coming-wave enhancement.
+- Includes: The original Dome Keeper Shield overcharge is requested at the left-side generator between attacks after buying its node; the launch-day developer-acknowledged explanation specifies one water per activation.
+- Excludes: Paying water merely to run the basic shield; activating the ordinary laser at its weapon console; assuming a post-2024 overcharge rule or automatic overcharge supplement; activation while the assault is active.
+- Parameters: Primary gadget, enabling node, keeper reach, station, active phase, water bank, accepted payment and overcharge state.
+- Evidence: [Dome Keeper decomposition](../games/a-f/dome-keeper.md), DK-008. No direct play, executable checksum or frame-perfect native reproduction is claimed; the launch-era source and observation limits remain in the game record.
+- Novelty: first isolated for `GAME-0565`; see [TAXONOMY_CHANGE_311](../../research/taxonomy-changes/TAXONOMY_CHANGE_311.md). No external novelty claim.
+
+## CON-831 — Require the keeper to occupy dome weapon control for manual defence
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: Manual aim and fire require the keeper to enter the reachable dome weapon station; while the station owns weapon input, the keeper cannot simultaneously navigate and mine elsewhere. Leaving control returns personal movement rather than making the starting laser autonomous.
+- Includes: Dome Keeper requires returning from the shaft and selecting battle control at the dome console before manually sweeping the laser.
+- Excludes: A remotely commanded autonomous turret; two separately present operators; physically mining and manually firing the dome weapon at the same time; substituting later cooperative control.
+- Parameters: Keeper position, station reach, console choice, occupied weapon control, legal input set and exit event.
+- Evidence: [Dome Keeper decomposition](../games/a-f/dome-keeper.md), DK-006. No direct play, executable checksum or frame-perfect native reproduction is claimed; the launch-era source and observation limits remain in the game record.
+- Novelty: first isolated for `GAME-0565`; see [TAXONOMY_CHANGE_311](../../research/taxonomy-changes/TAXONOMY_CHANGE_311.md). No external novelty claim.
+
+## CON-830 — Terminate the attempt when the defended dome loses all integrity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The protected dome must remain above its destruction threshold; exhausting its integrity ends the attempt even when the keeper is still elsewhere in the mine. A healthy or unthreatened operator does not substitute for the survival of the defended structure.
+- Includes: Dome Keeper can be lost while an overloaded keeper is returning with unbanked resources; the dome, not an independent miner-health bar, owns this terminal boundary.
+- Excludes: A living controlled actor’s personal health ending a multi-node route; a recoverable spare-life stock; treating each small shield hit as immediate defeat; end-of-run relic victory.
+- Parameters: Defended dome, current integrity, destruction threshold, shield interception, eligible repair and terminal event.
+- Evidence: [Dome Keeper decomposition](../games/a-f/dome-keeper.md), DK-007. No direct play, executable checksum or frame-perfect native reproduction is claimed; the launch-era source and observation limits remain in the game record.
+- Novelty: first isolated for `GAME-0565`; see [TAXONOMY_CHANGE_311](../../research/taxonomy-changes/TAXONOMY_CHANGE_311.md). No external novelty claim.
+
+## CON-829 — Prevent voluntary court relocation while holding the contest disc
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: Holding the contest disc disables ordinary voluntary locomotion until the disc is released; directional input selects delivery orientation instead. This restriction does not guarantee immunity to forced displacement caused by the incoming reception.
+- Includes: Windjammers requires the current holder to throw from the receiving location instead of carrying the disc toward the net, while a powerful catch can still push that holder backwards.
+- Excludes: Basketball dribbling; movement slowed only by weight or fatigue; treating the holder as physically immovable under all effects; stopping the match clock while aiming.
+- Parameters: Held possession, movement availability, aiming interpretation, release, receiving position and forced-displacement exception.
+- Evidence: [Windjammers decomposition](../games/s-z/windjammers.md), WJ-002, WJ-003. No native MVS execution, exact timing windows, threshold-margin rule or complete per-frame contact audit is claimed; source limits remain in the game record.
+- Novelty: first isolated for `GAME-0564`; see [TAXONOMY_CHANGE_310](../../research/taxonomy-changes/TAXONOMY_CHANGE_310.md). No external novelty claim.
+
+## CON-828 — Confine each disc athlete to its own half while the shared disc can cross the net
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: Each athlete’s legal locomotion remains inside its assigned half of the bounded court, while the shared disc may cross the separating net and interact with the court’s declared rebound walls and scored end boundaries. A player cannot follow the disc into the rival’s half to seize it there.
+- Includes: Windjammers Beach keeps player one on the left and player two on the right; upper/lower walls rebound the disc and left/right ends contain scoring sections.
+- Excludes: Football touchlines with throw-ins, unrestricted shared-floor melee, mandatory alternating movement turns or allowing an athlete to run through the center net.
+- Parameters: Side assignment, half bounds, center separation, athlete clearance, disc traversal, rebound walls and end zones.
+- Evidence: [Windjammers decomposition](../games/s-z/windjammers.md), WJ-002, WJ-003. No native MVS execution, exact timing windows, threshold-margin rule or complete per-frame contact audit is claimed; source limits remain in the game record.
+- Novelty: first isolated for `GAME-0564`; see [TAXONOMY_CHANGE_310](../../research/taxonomy-changes/TAXONOMY_CHANGE_310.md). No external novelty claim.
+
+## CON-827 — Orient fixed lock tiles so their dark borders form the required digit glyphs
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The embedded lock accepts only an orientation arrangement in which the addressed fixed-position blocks’ dark border segments form the required ordered digit glyphs. A verbally equivalent numeral is insufficient when its segment placement does not match the accepted glyph form; blocks are rotated locally rather than freely rearranged into a new board.
+- Includes: The reception cabinet’s clue yields the current letter’s adjacent year, and the block lock must actually draw those four digits; a left-sided imitation of a right-sided 1 can fail.
+- Excludes: Merely entering a numeric value on an ordinary keypad; permuting whole blocks between positions; an articulated carried key; arbitrary artistic resemblance; claiming every hand-drawn alternative representation is accepted.
+- Parameters: Fixed block positions, local orientations, dark segments, ordered digit glyphs, clue-derived target and accepted glyph convention.
+- Evidence: [Lorelei and the Laser Eyes decomposition](../games/g-l/lorelei-and-the-laser-eyes.md), LLE-004. No native Switch execution, exact RNG seed, calculator precision or complete save-field audit is claimed; source limits remain in the game record.
+- Novelty: first isolated for `GAME-0563`; see [TAXONOMY_CHANGE_309](../../research/taxonomy-changes/TAXONOMY_CHANGE_309.md). No external novelty claim.
+
+## CON-826 — Choose one candidate from each independent number selector to meet an exact sum
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: A local mechanism accepts the current choice only when one value from each of its independently selectable finite number banks contributes to an exact displayed target sum. Choices remain revisable before confirmation; there is no requirement that the selected values be distinct or that they satisfy other overlapping line equations.
+- Includes: The gatehouse cabinet’s three number selectors must contribute a total of 2014 before its confirmation opens the garden gate; the current run’s numbers must be read rather than copied from an unrelated guide example.
+- Excludes: Keen arithmetic cages with shared all-different grid assignments; intersecting line-sum constraints; matching a prewritten four-digit passcode; a score summed after an already valid move; requiring every candidate in each bank to be used.
+- Parameters: Independent banks, one selected candidate per bank, displayed values, target total, revision, confirmation and success predicate.
+- Evidence: [Lorelei and the Laser Eyes decomposition](../games/g-l/lorelei-and-the-laser-eyes.md), LLE-003. No native Switch execution, exact RNG seed, calculator precision or complete save-field audit is claimed; source limits remain in the game record.
+- Novelty: first isolated for `GAME-0563`; see [TAXONOMY_CHANGE_309](../../research/taxonomy-changes/TAXONOMY_CHANGE_309.md). No external novelty claim.
+
+## CON-825 — Retain at most two independently selectable weapon components with duplicate types allowed
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The current weapon inventory admits no more than two component entries; the same base type may occupy both, and a new claimed weapon must use a vacant entry or replace existing ownership according to the current selection instead of creating a third carried channel.
+- Includes: Gunstar may carry two Fire entries or Force plus Fire, but cannot add Chaser as a third simultaneously retained component.
+- Excludes: One entry per weapon-wheel class with finite ammunition; ingredients consumed by composition; one weapon of each type allowed only once; two human players required.
+- Parameters: Capacity, component types, vacant entry, active single or combined selection and replacement.
+- Evidence: [Gunstar Heroes decomposition](../games/g-l/gunstar-heroes.md), GH-003. No native Genesis execution, exact damage, recovery timing or saved fields are claimed; source limits remain in the game record.
+- Novelty: first isolated for `GAME-0560`; see [TAXONOMY_CHANGE_306](../../research/taxonomy-changes/TAXONOMY_CHANGE_306.md). No external novelty claim.
+
+## CON-824 — Limit tracked scenery handling to authored targets and their motion envelopes
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Reader manipulation accepts a scenery target only when its authored interactive region is addressed by an eligible tracked grip, and the accepted target remains bounded by its own permitted motion. Unmarked terrain does not become movable merely because Quill needs a path.
+- Includes: Marked Clearing stones move through their authored travel, the gate accepts its pull and the wheel accepts its specific braking grip; nearby walls and village buildings are not freely lifted.
+- Excludes: Gravity Gun mass and loose-physics trace permissions; a ragdoll’s body-leverage grip; a rule that the Reader may pick up Quill and carry her over every gap; exact hardware tracking tolerances.
+- Parameters: Target flags, addressed region, tracked grip, permitted motion and fixed blocking geometry.
+- Evidence: [Moss decomposition](../games/m-r/moss.md), MOS-002, MOS-003, MOS-005. Native tracking, exact rates and field-by-field checkpoint persistence are not reproduced; source limits remain in the game record.
+- Novelty: first isolated for `GAME-0558`; see [TAXONOMY_CHANGE_304](../../research/taxonomy-changes/TAXONOMY_CHANGE_304.md). No external novelty claim.
+
+## CON-823 — A purification activation requires current external light rather than stored ammunition
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The declared purification device cannot start its ordinary purification while the physical solar sensor reports zero light; a full portable weapon reserve or stored station charge does not satisfy that independent live-input predicate.
+- Includes: Fog Castle’s first Pile Driver refusing ordinary start at zero Solar Gauge.
+- Excludes: Claiming all dungeon movement needs sunlight; a weapon battery alone funding purification; the final battle’s separately documented exception; an exact zero-light mid-phase escape sequence not measured in the scoped target.
+- Parameters: Purification device, current sensor input, positive-light threshold and independent stored energy.
+- Evidence: [Boktai decomposition](../games/a-f/boktai-the-sun-is-in-your-hand.md), BOK-002, BOK-007. Native sensor, exact coefficients and field-by-field persistence are not reproduced; source limits remain in the game record.
+- Novelty: first isolated for `GAME-0557`; see [TAXONOMY_CHANGE_303](../../research/taxonomy-changes/TAXONOMY_CHANGE_303.md). No external novelty claim.
+
+## CON-822 — An attached dragged burden blocks running and attacks until release
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: While the actor maintains a close held drag connection to the declared world burden, running and ordinary attacks are unavailable; releasing the command or taking a qualifying hit drops the burden back into the world and restores unattached action eligibility.
+- Includes: The Fog Castle coffin dragged with held A and the Control Pad.
+- Excludes: A treasure held aloft with sidearm access; an unconscious person on the shoulder; passive backpack encumbrance; deleting the burden on release.
+- Parameters: Burden, adjacent grip, held command, movement, blocked attack, incoming hit and drop.
+- Evidence: [Boktai decomposition](../games/a-f/boktai-the-sun-is-in-your-hand.md), BOK-006. Native sensor, exact coefficients and field-by-field persistence are not reproduced; source limits remain in the game record.
+- Novelty: first isolated for `GAME-0557`; see [TAXONOMY_CHANGE_303](../../research/taxonomy-changes/TAXONOMY_CHANGE_303.md). No external novelty claim.
+
+## CON-821 — Require the current botanical request’s accepted specimen identity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A pending recipient is satisfied only by a specimen accepted by that request’s authored identity predicate. A similar silhouette, a player-written name or possession of a relevant reference page is insufficient; the next ordinary visitor remains gated by resolution of the current script.
+- Includes: Faye’s request still needs the actual Forest Camphry, while Nora’s mushroom is Wandering Bue even if another pot is labelled with that name.
+- Excludes: A time-limited restaurant wait; exact transcription of a specimen label; a requirement to consume the entire unique plant; later story branches that explicitly accept alternative plants.
+- Parameters: Pending recipient, specimen identity, request predicate, label independence and next-visitor gate.
+- Evidence: [Strange Horticulture decomposition](../games/s-z/strange-horticulture.md), SH-002, SH-003, SH-004.
+- Novelty: first isolated for `GAME-0554`; see [TAXONOMY_CHANGE_300](../../research/taxonomy-changes/TAXONOMY_CHANGE_300.md).
+
+## CON-820 — Bind innate traversal and tool verbs to the current persistent actor identity
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A directly controlled member may execute only the innate movement and equipment verbs assigned to that persistent actor. Switching control changes which fixed verb set is available without moving the other bodies or transferring their abilities; shared consumable permissions remain separate.
+- Includes: Only Erik has the ordinary jump and running wall ram, Baleog has the sword/bow, and Olaf has the two shield orientations in the declared Lost Vikings level.
+- Excludes: Assigning a new role to a Lemming; a human communication role; borrowing another member’s jump through an item transfer; an acquired metroidvania capability gate; claiming that only one member can use every consumable.
+- Parameters: Persistent actor identity, innate verb set, selected actor, fixed tool, legal input, retained other bodies and consumable exception.
+- Evidence: [The Lost Vikings decomposition](../games/s-z/the-lost-vikings.md), LV-002, LV-003.
+- Novelty: first isolated for `GAME-0553`; see [TAXONOMY_CHANGE_299](../../research/taxonomy-changes/TAXONOMY_CHANGE_299.md).
+
+## CON-819 — Bound connected climbing reach by finite available rope payout
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A connected climbing route cannot extend beyond the available safety-line payout from its effective anchor. Reeling, returning to support or establishing a new legal attachment must change the tether geometry before further out-of-range movement becomes possible.
+- Includes: Jusant’s finite rope while climbing, descending and choosing a wall swing.
+- Excludes: A universal numeric rope length; unrestricted flight; accepting an unreachable anchor; stamina capacity by itself; ordinary terrain collision without a tether.
+- Parameters: Effective anchor, connected line, current and maximum payout, body position, reel command and reattachment.
+- Evidence: [Jusant decomposition](../games/g-l/jusant.md), JUS-005.
+- Novelty: first isolated for `GAME-0552`; see [TAXONOMY_CHANGE_298](../../research/taxonomy-changes/TAXONOMY_CHANGE_298.md).
+
+## CON-818 — Gate each next qualifying race by its preceding classified place
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The next race in an authored qualifying sequence is available only after the immediately preceding race is completed within its declared qualifying-place set before its failure deadline. An excellent earlier result cannot compensate for a later nonqualifying finish.
+- Includes: Each first-heat R4 race requires third or better before the next race or stage is released.
+- Excludes: A cumulative-points cup that can absorb one poor result; a first-place-only rule for every race; success from elapsed time alone; an accumulated generic progression currency.
+- Parameters: Ordered race index, valid finish, accepted places, deadline, retry eligibility and successor availability.
+- Evidence: [Ridge Racer Type 4 decomposition](../games/m-r/ridge-racer-type-4.md), RR4-004.
+- Novelty: first isolated for `GAME-0551`; see [TAXONOMY_CHANGE_297](../../research/taxonomy-changes/TAXONOMY_CHANGE_297.md).
+
+## CON-817 — Confine ordinary locomotion to the current connected inner boundary
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Ordinary directional travel may place the controlled body only along the current arena’s connected inner surface. The open interior is not a freely walkable movement plane; crossing it needs the declared dash traversal and a valid landing boundary.
+- Includes: Roto Force’s left/right movement follows the square or nest rim, while an aimed dash crosses to another inner wall.
+- Excludes: Free twin-stick movement anywhere in the arena, permanently flying through the interior, walking through a solid obstacle, and treating a following camera rotation as a new traversable surface.
+- Parameters: Current arena, connected boundary, accepted foothold, ordinary travel, dash crossing, landing and blocked surface.
+- Evidence: [Roto Force decomposition](../games/m-r/roto-force.md), RF-002.
+- Novelty: first isolated for `GAME-0549`; see [TAXONOMY_CHANGE_296](../../research/taxonomy-changes/TAXONOMY_CHANGE_296.md).
+
+## CON-816 — Require a local deactivated eligible body for ordinary occupation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Ordinary processor takeover is permitted only for an eligible deactivated body within the local occupation boundary. A living visible animal is not a valid replacement merely because the transfer control is pressed; leaving without a close replacement can instead expose the processor.
+- Includes: Deactivate a Smashing Start sheep with the dog before R can occupy it. Exact native distance and transfer grace remain unmeasured.
+- Excludes: Any living or visible actor as an unconditional target, a remote consciousness beam, cosmetic transformation without a target shell and inferring exact range from inactive reconstruction code.
+- Parameters: Processor state, target species, deactivation, local distance, transfer control, exposed fallback and excluded host classes.
+- Evidence: [Space Station Silicon Valley decomposition](../games/s-z/space-station-silicon-valley.md), SSV-002, SSV-003.
+- Novelty: first isolated for `GAME-0548`; see [TAXONOMY_CHANGE_295](../../research/taxonomy-changes/TAXONOMY_CHANGE_295.md).
+
+## CON-815 — Require the selected enabling control for tracked putter contact
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: With a hold-to-enable putter setting selected, the club head can affect the ball only while the designated activating control is held. Passing a disabled head through the ball is rehearsal rather than a committed stroke.
+- Includes: With Grip to Putt on, current Quest support instructs the player to hold the trigger to activate the Walkabout Mini Golf putter head.
+- Excludes: A button-release launch, charging a strength meter, a finite stock cost and assuming that every historical controller uses the same physical button.
+- Parameters: Selected setting, enabled state, designated control, held interval, contact and rehearsal.
+- Evidence: [Walkabout Mini Golf decomposition](../games/s-z/walkabout-mini-golf.md), WMG-002.
+- Novelty: first isolated for `GAME-0547`; see [TAXONOMY_CHANGE_294](../../research/taxonomy-changes/TAXONOMY_CHANGE_294.md).
+
+## CON-814 — Require separate location registration before archive selection
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The player must register a location in a separate catalogue before the address composer offers it as a selectable location. Knowing the code does not itself make the location selectable.
+- Includes: Enter QU on the Display so Quail Lane becomes available in the machine’s location selector.
+- Excludes: Revealing a map label on sight, submitting the final scene address and automatically including every location mentioned by a transcript.
+- Parameters: Registration field, eligible location codes and the separate selector.
+- Evidence: [The Incident at Galley House decomposition](../games/s-z/the-incident-at-galley-house.md), IGH-002, IGH-003, IGH-006.
+- Novelty: first isolated for `GAME-0541`; see [TAXONOMY_CHANGE_288](../../research/taxonomy-changes/TAXONOMY_CHANGE_288.md).
+
+## CON-813 — Allow only one newly assigned allied command in each turn column
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The draft reserves an eligible time slot when a player command is placed there. The same slot cannot be chosen by another allied actor, regardless of remaining command supply.
+- Includes: After putting Vyse’s fire in the opening, assign Drachma’s next command to another available column.
+- Excludes: One command per actor without a separate time-slot capacity, automatic initiative collisions, or a claim about when prior projectiles may arrive.
+- Parameters: Current-turn columns, ownership by one drafted command, actor availability and occupied-slot rejection.
+- Evidence: [Skies of Arcadia decomposition](../games/s-z/skies-of-arcadia.md), SOA-002.
+- Novelty: first isolated for `GAME-0535`; see [TAXONOMY_CHANGE_282](../../research/taxonomy-changes/TAXONOMY_CHANGE_282.md).
+
+## CON-812 — Restrict a carried access aid to indicated valid placement sites
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A portable access aid can be carried separately from use. It can be set into its usable position only at a site the task accepts for that aid and exposes as eligible.
+- Includes: Carry the ladder to an indicated Removals Van placement site and use the resulting height to reach the roof.
+- Excludes: Freely dropping a prop anywhere onto a solid surface, moving the player up a permanent ladder, or snapping decorative furniture to a general grid.
+- Parameters: Aid type, carrying state, eligible site, placement cue and access angle.
+- Evidence: [PowerWash Simulator 2 decomposition](../games/m-r/powerwash-simulator-2.md), PW2-004.
+- Novelty: first isolated for `GAME-0534`; see [TAXONOMY_CHANGE_281](../../research/taxonomy-changes/TAXONOMY_CHANGE_281.md).
+
+## CON-811 — Limit host transfer to an eligible core within range of the presently occupied core
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A host transfer is legal only if its destination has a possessable core within the current host’s local transfer radius. Intermediate hosts and motion can change the next reachable set.
+- Includes: Move from the extended ladder to the streetlamp and ball before selecting the claw rather than trying to leap directly from the bicycle.
+- Excludes: Free flight, movement to a non-core point, or unrestricted teleportation to any object presently visible.
+- Parameters: Occupied core, target permission, current distance and intermediate hosts.
+- Evidence: [Ghost Trick decomposition](../games/g-l/ghost-trick-phantom-detective.md), GT-003, GT-005, GT-007.
+- Novelty: first isolated for `GAME-0533`; see [TAXONOMY_CHANGE_280](../../research/taxonomy-changes/TAXONOMY_CHANGE_280.md).
+
+## CON-810 — Require a held vessel and a live flow window for fixture intake
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The local collection action requires both a compatible held vessel and an active temporary flow. The local actuator can start flow only while its remote supply is enabled.
+- Includes: Bring the Hall beaker, start the fed floor pedal and collect before water stops flowing.
+- Excludes: Having only the beaker, an unsupplied floor control, an already expired flow or unlimited fluid collection from a static source.
+- Parameters: Held vessel, remote source flag, local actuator, flow interval and accepted intake.
+- Evidence: [The Neverhood decomposition](../games/s-z/the-neverhood.md), NH-006.
+- Novelty: first isolated for `GAME-0528`; see [TAXONOMY_CHANGE_275](../../research/taxonomy-changes/TAXONOMY_CHANGE_275.md).
+
+## CON-809 — Require a positive charge stock and cap a base held blast’s spend
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: An ability needs at least one stored charge to start. The completed base blast draws on the charges available at detonation, up to its style cap. No exact interrupt or miss accounting follows from the successful-spend rule.
+- Includes: Start the base Qi Blast with positive Qi and spend no more than three available charges when it completes.
+- Excludes: An ability with one fixed cost regardless of stock, a zero-charge ordinary slash, or a later spell style allowing a different spend.
+- Parameters: Current stock, eligibility minimum, style cap, completion and spend.
+- Evidence: [Nine Sols decomposition](../games/m-r/nine-sols.md), NS-005.
+- Novelty: first isolated for `GAME-0527`; see [TAXONOMY_CHANGE_274](../../research/taxonomy-changes/TAXONOMY_CHANGE_274.md).
+
+## CON-808 — Restrict targetable perspective by the current flight phase
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: A prescribed flight exposes targets within the current phase’s allowed aiming panorama. The player may reorient the view within that envelope without controlling the body’s path or using camera motion to dodge a collision.
+- Includes: Aim within the smaller corridor view in Rez and use the wider view during the firewall phase.
+- Excludes: Quarter-turn sector steps, camera distance alone, or direct lateral placement of the player body.
+- Parameters: Flight phase, orientation envelope, current view, target access and fixed body route.
+- Evidence: [Rez decomposition](../games/m-r/rez.md), RZ-002.
+- Novelty: first isolated for `GAME-0526`; see [TAXONOMY_CHANGE_273](../../research/taxonomy-changes/TAXONOMY_CHANGE_273.md).
+
+## CON-807 — Require road continuity and reachable storage for site logistics
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: An eligible production site must join the settlement road network and have a reachable inventory depot within its permitted road reach. Network membership does not by itself guarantee practical storage reach. A trading post can serve as the depot.
+- Includes: Connect a Spinner to the port network and secure a warehouse within the highlighted road reach.
+- Excludes: A global stockpile with no transport path, a straight-line service aura or the absence of labour or input stock.
+- Parameters: Site attachment, founded network, path reach, local depot and stock exchange.
+- Evidence: [Anno 117: Pax Romana decomposition](../games/a-f/anno-117-pax-romana.md), A117-002, A117-003.
+- Novelty: first isolated for `GAME-0525`; see [TAXONOMY_CHANGE_272](../../research/taxonomy-changes/TAXONOMY_CHANGE_272.md).
+
+## CON-806 — Admit oblique corner frontage as a valid road attachment
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A supported diagonal road can attach to a building at an eligible corner angle as well as ordinary edge contacts. Apparent adjacency at a corner does not give the same connection when the required orientation is absent.
+- Includes: Attach a Latium building by a 45-degree corner link and observe its live connector.
+- Excludes: Allowing every geometric corner touch, connecting two road lanes across elevations, or drawing a purely decorative path.
+- Parameters: Grid, footprint corner, allowed road heading and network adjacency.
+- Evidence: [Anno 117: Pax Romana decomposition](../games/a-f/anno-117-pax-romana.md), A117-009.
+- Novelty: first isolated for `GAME-0525`; see [TAXONOMY_CHANGE_272](../../research/taxonomy-changes/TAXONOMY_CHANGE_272.md).
+
+## CON-805 — Require each independent need category before residence conversion
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The residence upgrade checks a minimum supply value within every declared need category and requires the construction material for commitment. Eligible supplies can substitute within a category but its excess cannot satisfy another category.
+- Includes: Supply sardines or porridge for Food, a Market or Tavern for Public Service, and tunics or a hat for Fashion when advancing Liberti housing.
+- Excludes: An all-goods checklist, a single aggregate welfare threshold, or automatically advancing when any one category alone is ready.
+- Parameters: Residence tier, categories, per-need weights, minima, material cost and commitment.
+- Evidence: [Anno 117: Pax Romana decomposition](../games/a-f/anno-117-pax-romana.md), A117-004, A117-005, A117-008.
+- Novelty: first isolated for `GAME-0525`; see [TAXONOMY_CHANGE_272](../../research/taxonomy-changes/TAXONOMY_CHANGE_272.md).
+
+## CON-804 — Require return inside the race perimeter before a local grace counter expires
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Crossing the declared outer boundary starts a live grace countdown. Re-entering in time permits the active attempt to continue. Expiry retires the driver independently of route-miss accumulation.
+- Includes: Come back inside the pink course markers within the Course Out five-count window.
+- Excludes: Instant invalidation on leaving the route, a reset to last checkpoint, or the overall race or stunt timer.
+- Parameters: Outer boundary, exit, current grace, re-entry and retirement.
+- Evidence: [Wave Race 64 decomposition](../games/s-z/wave-race-64.md), WR-006.
+- Novelty: first isolated for `GAME-0524`; see [TAXONOMY_CHANGE_271](../../research/taxonomy-changes/TAXONOMY_CHANGE_271.md).
+
+## CON-803 — Disqualify on a race-wide ceiling of missed directional markers
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Every counted missed or wrong-side route marker consumes the same finite race allowance. Correct passes and lap changes leave the miss total intact. Reaching the ceiling disqualifies.
+- Includes: Miss a fifth buoy across the three Sunny Beach laps even if accepted passes intervened.
+- Excludes: A consecutive-failure streak, a missing hard checkpoint invalidating every finish, or a time limit after leaving the race perimeter.
+- Parameters: Route marker, miss event, cumulative total, ceiling and disqualification.
+- Evidence: [Wave Race 64 decomposition](../games/s-z/wave-race-64.md), WR-004, WR-005.
+- Novelty: first isolated for `GAME-0524`; see [TAXONOMY_CHANGE_271](../../research/taxonomy-changes/TAXONOMY_CHANGE_271.md).
+
+## CON-802 — Limit competing activities to one commitment in each eligible named phase
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: An authored calendar phase offers currently eligible alternatives. Completing a phase-spending activity leaves that phase and rules out competing activities that consume the same occurrence. Free exploration can precede the commitment.
+- Includes: Choose one eligible household for the current dinner, ending that dinner phase when the visit is complete.
+- Excludes: Per-conversation minute increments without a phase boundary, one universal cooldown, or repeated free actions performed within the phase.
+- Parameters: Phase identity, eligibility, alternative set, completion, free actions and cut-off.
+- Evidence: [Pentiment decomposition](../games/m-r/pentiment.md), PEN-002, PEN-003, PEN-008.
+- Novelty: first isolated for `GAME-0523`; see [TAXONOMY_CHANGE_270](../../research/taxonomy-changes/TAXONOMY_CHANGE_270.md).
+
+## CON-801 — Limit the live loadout to one replaceable held firearm
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The active loadout holds at most one usable firearm instance. Accepting another firearm replaces the current one, without granting a carried reserve gun for immediate switching.
+- Includes: Take a suitable weapon drop in Returnal and relinquish the current sidearm slot.
+- Excludes: A multigun inventory with only one currently selected, a second weapon stored on a mount, or two firing modes of the same gun counted separately.
+- Parameters: Current instance, accepted replacement, capacity and relinquished slot.
+- Evidence: [Returnal decomposition](../games/m-r/returnal.md), RET-003.
+- Novelty: first isolated for `GAME-0522`; see [TAXONOMY_CHANGE_269](../../research/taxonomy-changes/TAXONOMY_CHANGE_269.md).
+
+## CON-800 — Bound an unfinished hole by its counted-delivery ceiling
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Limited`
+- Confidence: `Medium`
+- Definition: The rule set has an upper limit on the counted deliveries for an unfinished hole. Reaching the terminal boundary can end the hole without placing the payload in its target.
+- Includes: Nintendo documents an unfinished Frisbee Golf hole stopping after excessive counted throws. The exact threshold in the analysed disc edition is unverified.
+- Excludes: An optional par rating, a shot clock, or a finite total ammunition inventory.
+- Parameters: Hole, counted deliveries, ceiling and unsuccessful settlement.
+- Evidence: [Wii Sports Resort decomposition](../games/s-z/wii-sports-resort.md), WSR-008.
+- Novelty: first isolated for `GAME-0521`; see [TAXONOMY_CHANGE_268](../../research/taxonomy-changes/TAXONOMY_CHANGE_268.md).
+
+## CON-799 — Cap one carried consumable type independently of other inventory
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The carried count of an identified consumable type cannot exceed its current cap. Items of another type do not occupy space in that cap.
+- Includes: In Animal Well opening play, carry at most three firecrackers even while holding a separate match.
+- Excludes: One pool of shared consumable slots, cumulative purchases limited only by money, or a global bound on deployed objects.
+- Parameters: Consumable type, current count, type-specific capacity and admitted pickup.
+- Evidence: [Animal Well decomposition](../games/a-f/animal-well.md), AW-005, AW-008.
+- Novelty: first isolated for `GAME-0520`; see [TAXONOMY_CHANGE_267](../../research/taxonomy-changes/TAXONOMY_CHANGE_267.md).
+
+## CON-798 — Gate scenery handling by fixture, reach and fighter capability
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A scenery interaction is available only when the fixture is in reach and supports that action for the fighter capability in the current form. One fixture may admit different operations for different fighters.
+- Includes: Falcon can swing from a Londo pole. A sufficiently strong fighter can lift the removable prop.
+- Excludes: Static decoration, free handling of every object, or a move whose eligibility ignores the arena feature.
+- Parameters: Scenery class, interaction range, fighter class or form, admitted operation and availability.
+- Evidence: [Power Stone decomposition](../games/m-r/power-stone.md), PS-004.
+- Novelty: first isolated for `GAME-0519`; see [TAXONOMY_CHANGE_266](../../research/taxonomy-changes/TAXONOMY_CHANGE_266.md).
+
+## CON-797 — Require a local scenery recipe and vacancy for a small habitat
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The local arrangement of eligible scenery defines a habitat class through its required objects and spatial relation. A new arrival needs an available recognised site with room for it.
+- Includes: Use four joined living tall-grass patches in a two-by-two arrangement and keep the intended new site vacant.
+- Excludes: Scattered scenery without a valid pattern, a room boundary alone, or an already occupied site with no free place.
+- Parameters: Habitat class, eligible scenery, relative arrangement, recognition and available resident place.
+- Evidence: [Pokémon Pokopia decomposition](../games/m-r/pokemon-pokopia.md), PP-002, PP-004, PP-007.
+- Novelty: first isolated for `GAME-0518`; see [TAXONOMY_CHANGE_265](../../research/taxonomy-changes/TAXONOMY_CHANGE_265.md).
+
+## CON-796 — Require field use of a designated method as well as clearing the assigned targets
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: An exercise clear requires both exhaustion of its designated group and evidence that an eligible participant used the specified tactical setting during engagement.
+- Includes: In the first Homeworld formation drill, attack with a qualifying formation and eliminate the target drones.
+- Excludes: Counting the clear regardless of method, choosing a setting without using it, or checking only that a setting is currently selected.
+- Parameters: Target group, allowable settings, eligible participants, qualifying engagement and depletion.
+- Evidence: [Homeworld decomposition](../games/g-l/homeworld.md), HW-005.
+- Novelty: first isolated for `GAME-0517`; see [TAXONOMY_CHANGE_264](../../research/taxonomy-changes/TAXONOMY_CHANGE_264.md).
+
+## CON-795 — Limit ordinary move and attack separately but allow affordable casts
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: One actor’s turn allows at most one ordinary movement and one basic attack in either order. A legal additional ability spends its separate casting resource without consuming either ordinary use, and may be repeated while affordable and otherwise eligible.
+- Includes: The ranged cat combines a basic move, a paid Roll and a basic shot. The melee cat can cast Spit twice if it has sufficient mana.
+- Excludes: One shared action-point budget, a universal cap of one action of any kind, or free repetition of basic moves and attacks. A scripted training retry is an exception.
+- Parameters: Ordinary move use, basic attack use, cast resource, ability cost and eligibility.
+- Evidence: [Mewgenics first battle](../games/m-r/mewgenics.md), MG-002/004. Documentary launch-day scope; no direct play or exact binary.
+- Novelty: first isolated for `GAME-0514`; see [TAXONOMY_CHANGE_261](../../research/taxonomy-changes/TAXONOMY_CHANGE_261.md). No external novelty claim.
+
 ## CON-792 — Taking a worn object from a living owner requires reachable unawareness
 
 - Lifecycle: `Active`

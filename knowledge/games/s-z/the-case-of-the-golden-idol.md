@@ -289,9 +289,10 @@ No pre-migration reviewed selected-neighbour table row exists for: `GAME-0023`.
 
 ## Combination record
 
-- Registered recurring `COMB-0046` — self-paced immutable evidence
-  inspection, supported exhaustively by Return of the Obra Dinn and The Case of
-  the Golden Idol.
+- Registered recurring [`COMB-0046`](../../combinations/COMB-0046.md) — self-paced
+  immutable evidence inspection. Its original supporters were Return of the
+  Obra Dinn and The Case of the Golden Idol. The combination record lists all
+  current supporters.
 - `COMB-0023` remains supported only by Return of the Obra Dinn. Golden Idol
   lacks all eight required genes except `TIM-002`, so thematic similarity does
   not weaken its batched dossier boundary.

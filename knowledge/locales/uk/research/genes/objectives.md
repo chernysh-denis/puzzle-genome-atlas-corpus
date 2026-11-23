@@ -44,6 +44,7 @@
 - [`GAME-0110` — Angry Birds Classic](../games/a-f/angry-birds-classic.md)
 - [`GAME-0304` — Azul](../games/a-f/azul.md)
 - [`GAME-0411` — Bejeweled 3](../games/a-f/bejeweled-3.md)
+- [`GAME-0623` — "Blue Lightning"](../games/a-f/blue-lightning.md)
 - [`GAME-0369` — Carcassonne](../games/a-f/carcassonne.md)
 - [`GAME-0415` — Crazy Taxi](../games/a-f/crazy-taxi.md)
 - [`GAME-0021` — Cut the Rope](../games/a-f/cut-the-rope.md)
@@ -51,9 +52,11 @@
 - [`GAME-0020` — Dorfromantik](../games/a-f/dorfromantik.md)
 - [`GAME-0452` — Dr. Mario](../games/a-f/dr-mario.md)
 - [`GAME-0345` — "Duck Hunt"](../games/a-f/duck-hunt.md)
+- [`GAME-0650` — Einhänder](../games/a-f/einhander.md)
 - [`GAME-0052` — Freeways](../games/a-f/freeways.md)
 - [`GAME-0401` — "Fruit Ninja"](../games/a-f/fruit-ninja.md)
 - [`GAME-0400` — "Geometry Wars: Retro Evolved"](../games/g-l/geometry-wars-retro-evolved.md)
+- [`GAME-0581` — "Hardspace: Shipbreaker"](../games/g-l/hardspace-shipbreaker.md)
 - [`GAME-0049` — Hexcells Infinite](../games/g-l/hexcells-infinite.md)
 - [`GAME-0099` — HyperRogue](../games/g-l/hyperrogue.md)
 - [`GAME-0484` — Impossible Mission](../games/g-l/impossible-mission.md)
@@ -64,21 +67,26 @@
 - [`GAME-0051` — Mini Motorways](../games/m-r/mini-motorways.md)
 - [`GAME-0445` — "NiGHTS into Dreams"](../games/m-r/nights-into-dreams.md)
 - [`GAME-0481` — Out Run](../games/m-r/out-run.md)
+- [`GAME-0578` — OutRun 2](../games/m-r/outrun-2.md)
 - [`GAME-0342` — "PAC-MAN"](../games/m-r/pac-man.md)
+- [`GAME-0587` — Panzer Dragoon II Zwei](../games/m-r/panzer-dragoon-ii-zwei.md)
 - [`GAME-0505` — Panzer Dragoon](../games/m-r/panzer-dragoon.md)
 - [`GAME-0114` — Peggle Deluxe](../games/m-r/peggle-deluxe.md)
 - [`GAME-0016` — Pipe Mania / Pipe Dream](../games/m-r/pipe-mania.md)
 - [`GAME-0479` — Pitfall!](../games/m-r/pitfall.md)
+- [`GAME-0556` — Sayonara Wild Hearts](../games/s-z/sayonara-wild-hearts.md)
 - [`GAME-0067` — Simon](../games/s-z/simon.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0360` — "Space Invaders"](../games/s-z/space-invaders.md)
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
 - [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 - [`GAME-0448` — Temple Run](../games/s-z/temple-run.md)
+- [`GAME-0529` — Tetris Effect](../games/s-z/tetris-effect.md)
 - [`GAME-0004` — Tetris](../games/s-z/tetris.md)
 - [`GAME-0015` — Threes](../games/s-z/threes.md)
 - [`GAME-0365` — Tony Hawk’s Pro Skater 1 + 2](../games/s-z/tony-hawks-pro-skater-1-plus-2.md)
 - [`GAME-0467` — Vib-Ribbon](../games/s-z/vib-ribbon.md)
+- [`GAME-0580` — Viewtiful Joe](../games/s-z/viewtiful-joe.md)
 - [`GAME-0497` — Wario Land 4](../games/s-z/wario-land-4.md)
 - [`GAME-0493` — Where's My Water?](../games/s-z/wheres-my-water.md)
 - [`GAME-0364` — Wii Sports](../games/s-z/wii-sports.md)
@@ -107,6 +115,7 @@
 - [`GAME-0020` — Dorfromantik](../games/a-f/dorfromantik.md)
 - [`GAME-0099` — HyperRogue](../games/g-l/hyperrogue.md)
 - [`GAME-0442` — 'Lumines: Puzzle Fusion'](../games/g-l/lumines-puzzle-fusion.md)
+- [`GAME-0529` — Tetris Effect](../games/s-z/tetris-effect.md)
 - [`GAME-0004` — Tetris](../games/s-z/tetris.md)
 - [`GAME-0015` — Threes](../games/s-z/threes.md)
 
@@ -131,6 +140,7 @@
 
 - [`GAME-0044` — A Good Snowman Is Hard to Build](../games/a-f/a-good-snowman-is-hard-to-build.md)
 - [`GAME-0053` — Can of Wormholes](../games/a-f/can-of-wormholes.md)
+- [`GAME-0515` — Dino Crisis](../games/a-f/dino-crisis.md)
 - [`GAME-0007` — FreeCell](../games/a-f/freecell.md)
 - [`GAME-0058` — inbento](../games/g-l/inbento.md)
 - [`GAME-0069` — Lights Out](../games/g-l/lights-out.md)
@@ -139,6 +149,7 @@
 - [`GAME-0438` — Q*bert](../games/m-r/qbert.md)
 - [`GAME-0002` — "Rubik’s Cube"](../games/m-r/rubiks-cube.md)
 - [`GAME-0006` — Sokoban](../games/s-z/sokoban.md)
+- [`GAME-0554` — Strange Horticulture](../games/s-z/strange-horticulture.md)
 
 ## OBJ-005
 
@@ -186,6 +197,7 @@
 - [`GAME-0012` — Flow Free](../games/a-f/flow-free.md)
 - [`GAME-0078` — Galaxies](../games/g-l/galaxies.md)
 - [`GAME-0062` — Hexologic](../games/g-l/hexologic.md)
+- [`GAME-0579` — Is This Seat Taken?](../games/g-l/is-this-seat-taken.md)
 - [`GAME-0080` — Keen](../games/g-l/keen.md)
 - [`GAME-0075` — Light Up](../games/g-l/light-up.md)
 - [`GAME-0076` — Loopy](../games/g-l/loopy.md)
@@ -231,7 +243,9 @@
 - [`GAME-0114` — Peggle Deluxe](../games/m-r/peggle-deluxe.md)
 - [`GAME-0009` — Royal Match](../games/m-r/royal-match.md)
 - [`GAME-0045` — Snakebird](../games/s-z/snakebird.md)
+- [`GAME-0657` — "Spire Blast"](../games/s-z/spire-blast.md)
 - [`GAME-0387` — Super Bomberman](../games/s-z/super-bomberman.md)
+- [`GAME-0529` — Tetris Effect](../games/s-z/tetris-effect.md)
 
 ## OBJ-008
 
@@ -385,8 +399,11 @@
 - [`GAME-0021` — Cut the Rope](../games/a-f/cut-the-rope.md)
 - [`GAME-0310` — "DEATH STRANDING DIRECTOR’S CUT"](../games/a-f/death-stranding-directors-cut.md)
 - [`GAME-0057` — Golf Peaks](../games/g-l/golf-peaks.md)
+- [`GAME-0585` — Into the Radius](../games/g-l/into-the-radius.md)
 - [`GAME-0421` — The Incredible Machine](../games/s-z/the-incredible-machine.md)
+- [`GAME-0547` — Walkabout Mini Golf](../games/s-z/walkabout-mini-golf.md)
 - [`GAME-0493` — Where's My Water?](../games/s-z/wheres-my-water.md)
+- [`GAME-0521` — Wii Sports Resort](../games/s-z/wii-sports-resort.md)
 
 ## OBJ-015
 
@@ -454,8 +471,12 @@
 
 ### Ігри-носії
 
+- [`GAME-0597` — "Duck Detective: The Ghost of Glamping"](../games/a-f/duck-detective-the-ghost-of-glamping.md)
 - [`GAME-0023` — Return of the Obra Dinn](../games/m-r/return-of-the-obra-dinn.md)
 - [`GAME-0046` — The Case of the Golden Idol](../games/s-z/the-case-of-the-golden-idol.md)
+- [`GAME-0538` — The Rise of the Golden Idol](../games/s-z/the-rise-of-the-golden-idol.md)
+- [`GAME-0660` — "The Roottrees are Dead"](../games/s-z/the-roottrees-are-dead.md)
+- [`GAME-0606` — "The Séance of Blake Manor"](../games/s-z/the-seance-of-blake-manor.md)
 
 ## OBJ-018
 
@@ -500,6 +521,7 @@
 ### Ігри-носії
 
 - [`GAME-0029` — HUMANITY](../games/g-l/humanity.md)
+- [`GAME-0638` — "Lemmings 2: The Tribes"](../games/g-l/lemmings-2-the-tribes.md)
 - [`GAME-0025` — Lemmings](../games/g-l/lemmings.md)
 - [`GAME-0030` — Tin Hearts](../games/s-z/tin-hearts.md)
 - [`GAME-0026` — World of Goo](../games/s-z/world-of-goo.md)
@@ -524,6 +546,7 @@
 ### Ігри-носії
 
 - [`GAME-0027` — Bad North: Jotunn Edition](../games/a-f/bad-north.md)
+- [`GAME-0565` — Dome Keeper](../games/a-f/dome-keeper.md)
 - [`GAME-0407` — Plants vs. Zombies](../games/m-r/plants-vs-zombies.md)
 - [`GAME-0313` — Tank 1990](../games/s-z/tank-1990.md)
 
@@ -574,6 +597,7 @@
 - [`GAME-0033` — Portal](../games/m-r/portal.md)
 - [`GAME-0045` — Snakebird](../games/s-z/snakebird.md)
 - [`GAME-0094` — Superliminal](../games/s-z/superliminal.md)
+- [`GAME-0553` — The Lost Vikings](../games/s-z/the-lost-vikings.md)
 - [`GAME-0031` — Timelie](../games/s-z/timelie.md)
 - [`GAME-0041` — Viewfinder](../games/s-z/viewfinder.md)
 
@@ -618,6 +642,7 @@
 ### Ігри-носії
 
 - [`GAME-0037` — Cosmic Express](../games/a-f/cosmic-express.md)
+- [`GAME-0586` — Spooky Express](../games/s-z/spooky-express.md)
 
 ## OBJ-025
 
@@ -667,18 +692,23 @@
 - [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
 - [`GAME-0097` — Antichamber](../games/a-f/antichamber.md)
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
+- [`GAME-0594` — "Bionic Bay"](../games/a-f/bionic-bay.md)
 - [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0173` — Blue Prince](../games/a-f/blue-prince.md)
+- [`GAME-0646` — Cairn](../games/a-f/cairn.md)
 - [`GAME-0040` — Carto](../games/a-f/carto.md)
 - [`GAME-0101` — Chants of Sennaar](../games/a-f/chants-of-sennaar.md)
+- [`GAME-0666` — "Chicory: A Colorful Tale"](../games/a-f/chicory-a-colorful-tale.md)
 - [`GAME-0108` — Cocoon](../games/a-f/cocoon.md)
 - [`GAME-0490` — Comix Zone](../games/a-f/comix-zone.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
+- [`GAME-0515` — Dino Crisis](../games/a-f/dino-crisis.md)
 - [`GAME-0352` — DOOM (1993)](../games/a-f/doom-1993.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
+- [`GAME-0656` — "Ecco the Dolphin: Defender of the Future"](../games/a-f/ecco-the-dolphin-defender-of-the-future.md)
 - [`GAME-0433` — Ecco the Dolphin](../games/a-f/ecco-the-dolphin.md)
 - [`GAME-0501` — F.E.A.R.](../games/a-f/fear.md)
 - [`GAME-0091` — Fez](../games/a-f/fez.md)
@@ -687,10 +717,16 @@
 - [`GAME-0112` — Human: Fall Flat](../games/g-l/human-fall-flat.md)
 - [`GAME-0098` — Hyperbolica](../games/g-l/hyperbolica.md)
 - [`GAME-0436` — Journey](../games/g-l/journey.md)
+- [`GAME-0552` — Jusant](../games/g-l/jusant.md)
+- [`GAME-0543` — Keeper](../games/g-l/keeper.md)
+- [`GAME-0609` — "Kuru Kuru Kururin"](../games/g-l/kuru-kuru-kururin.md)
 - [`GAME-0394` — LittleBigPlanet 2](../games/g-l/littlebigplanet-2.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
+- [`GAME-0575` — Metal Gear Acid](../games/m-r/metal-gear-acid.md)
 - [`GAME-0339` — Metal Gear Solid](../games/m-r/metal-gear-solid.md)
+- [`GAME-0614` — "Mole Mania"](../games/m-r/mole-mania.md)
 - [`GAME-0093` — Monument Valley](../games/m-r/monument-valley.md)
+- [`GAME-0558` — Moss](../games/m-r/moss.md)
 - [`GAME-0296` — Noita](../games/m-r/noita.md)
 - [`GAME-0117` — OneShot](../games/m-r/oneshot.md)
 - [`GAME-0431` — Ori and the Blind Forest](../games/m-r/ori-and-the-blind-forest.md)
@@ -702,18 +738,29 @@
 - [`GAME-0348` — "Resident Evil: Director’s Cut"](../games/m-r/resident-evil-directors-cut.md)
 - [`GAME-0512` — Resident Evil Requiem](../games/m-r/resident-evil-requiem.md)
 - [`GAME-0492` — "Resistance: Fall of Man"](../games/m-r/resistance-fall-of-man.md)
+- [`GAME-0522` — Returnal](../games/m-r/returnal.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0430` — Silent Hill](../games/s-z/silent-hill.md)
+- [`GAME-0615` — "Skate Story"](../games/s-z/skate-story.md)
 - [`GAME-0417` — Sly Cooper and the Thievius Raccoonus](../games/s-z/sly-cooper-and-the-thievius-raccoonus.md)
+- [`GAME-0548` — Space Station Silicon Valley](../games/s-z/space-station-silicon-valley.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
+- [`GAME-0599` — "Sword of the Sea"](../games/s-z/sword-of-the-sea.md)
 - [`GAME-0426` — Tearaway](../games/s-z/tearaway.md)
+- [`GAME-0613` — "The Drifter"](../games/s-z/the-drifter.md)
+- [`GAME-0559` — The Last Guardian](../games/s-z/the-last-guardian.md)
+- [`GAME-0593` — "The Legend of Zelda: The Minish Cap"](../games/s-z/the-legend-of-zelda-the-minish-cap.md)
+- [`GAME-0531` — The Midnight Walk](../games/s-z/the-midnight-walk.md)
+- [`GAME-0528` — The Neverhood](../games/s-z/the-neverhood.md)
 - [`GAME-0107` — The Pedestrian](../games/s-z/the-pedestrian.md)
+- [`GAME-0651` — The Plucky Squire](../games/s-z/the-plucky-squire.md)
 - [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
 - [`GAME-0104` — TUNIC](../games/s-z/tunic.md)
 - [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
+- [`GAME-0580` — Viewtiful Joe](../games/s-z/viewtiful-joe.md)
 
 ## OBJ-027
 
@@ -757,23 +804,44 @@
 
 - [`GAME-0416` — Advance Wars](../games/a-f/advance-wars.md)
 - [`GAME-0427` — Alan Wake](../games/a-f/alan-wake.md)
+- [`GAME-0620` — Alien Soldier](../games/a-f/alien-soldier.md)
 - [`GAME-0110` — Angry Birds Classic](../games/a-f/angry-birds-classic.md)
+- [`GAME-0601` — "Cassette Beasts"](../games/a-f/cassette-beasts.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
 - [`GAME-0277` — Cuphead](../games/a-f/cuphead.md)
 - [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
+- [`GAME-0664` — "Dicey Dungeons"](../games/a-f/dicey-dungeons.md)
+- [`GAME-0608` — "Dosa Divas"](../games/a-f/dosa-divas.md)
+- [`GAME-0649` — Drop Duchy](../games/a-f/drop-duchy.md)
 - [`GAME-0047` — Fights in Tight Spaces](../games/a-f/fights-in-tight-spaces.md)
 - [`GAME-0486` — Final Fantasy Tactics](../games/a-f/final-fantasy-tactics.md)
+- [`GAME-0626` — "Fuga: Melodies of Steel"](../games/a-f/fuga-melodies-of-steel.md)
+- [`GAME-0550` — Ghost of Yōtei](../games/g-l/ghost-of-yotei.md)
 - [`GAME-0489` — Golden Sun](../games/g-l/golden-sun.md)
 - [`GAME-0468` — Gravity Rush](../games/g-l/gravity-rush.md)
+- [`GAME-0516` — Hi-Fi RUSH](../games/g-l/hi-fi-rush.md)
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
+- [`GAME-0517` — Homeworld](../games/g-l/homeworld.md)
+- [`GAME-0627` — "Killer7"](../games/g-l/killer7.md)
+- [`GAME-0530` — Lost Odyssey](../games/g-l/lost-odyssey.md)
+- [`GAME-0652` — Mega Man Battle Network](../games/m-r/mega-man-battle-network.md)
+- [`GAME-0514` — Mewgenics](../games/m-r/mewgenics.md)
+- [`GAME-0647` — Panzer Dragoon Saga](../games/m-r/panzer-dragoon-saga.md)
 - [`GAME-0449` — Paper Mario](../games/m-r/paper-mario.md)
+- [`GAME-0577` — People of Note](../games/m-r/people-of-note.md)
+- [`GAME-0536` — PRAGMATA](../games/m-r/pragmata.md)
+- [`GAME-0549` — Roto Force](../games/m-r/roto-force.md)
+- [`GAME-0618` — Shining Force III](../games/s-z/shining-force-iii.md)
 - [`GAME-0050` — Shogun Showdown](../games/s-z/shogun-showdown.md)
 - [`GAME-0487` — Sid Meier's Pirates!](../games/s-z/sid-meiers-pirates.md)
+- [`GAME-0535` — Skies of Arcadia](../games/s-z/skies-of-arcadia.md)
 - [`GAME-0155` — Slay the Spire 2](../games/s-z/slay-the-spire-2.md)
 - [`GAME-0120` — Slay the Spire](../games/s-z/slay-the-spire.md)
 - [`GAME-0360` — "Space Invaders"](../games/s-z/space-invaders.md)
+- [`GAME-0567` — SUPERHOT VR](../games/s-z/superhot-vr.md)
 - [`GAME-0048` — Tactical Breach Wizards](../games/s-z/tactical-breach-wizards.md)
 - [`GAME-0443` — Time Crisis](../games/s-z/time-crisis.md)
+- [`GAME-0580` — Viewtiful Joe](../games/s-z/viewtiful-joe.md)
 - [`GAME-0176` — XCOM 2](../games/s-z/xcom-2.md)
 
 ## OBJ-030
@@ -817,6 +885,7 @@
 ### Ігри-носії
 
 - [`GAME-0100` — Keep Talking and Nobody Explodes](../games/g-l/keep-talking-and-nobody-explodes.md)
+- [`GAME-0563` — Lorelei and the Laser Eyes](../games/g-l/lorelei-and-the-laser-eyes.md)
 - [`GAME-0403` — "Luigi's Mansion"](../games/g-l/luigis-mansion.md)
 - [`GAME-0048` — Tactical Breach Wizards](../games/s-z/tactical-breach-wizards.md)
 
@@ -1807,13 +1876,20 @@ Winner Winner Chicken Dinner у PUBG Normal Solo.
 - [`GAME-0324` — Contra Force](../games/a-f/contra-force.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
+- [`GAME-0592` — Dungeons of Hinterberg](../games/a-f/dungeons-of-hinterberg.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
+- [`GAME-0591` — Fatal Frame](../games/a-f/fatal-frame.md)
+- [`GAME-0532` — Hades II](../games/g-l/hades-ii.md)
+- [`GAME-0516` — Hi-Fi RUSH](../games/g-l/hi-fi-rush.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0462` — Metal Slug 3](../games/m-r/metal-slug-3.md)
+- [`GAME-0588` — Neva](../games/m-r/neva.md)
+- [`GAME-0527` — Nine Sols](../games/m-r/nine-sols.md)
 - [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
+- [`GAME-0612` — "Pipistrello and the Cursed Yoyo"](../games/m-r/pipistrello-and-the-cursed-yoyo.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0303` — Sifu](../games/s-z/sifu.md)
 - [`GAME-0466` — Streets of Rage 2](../games/s-z/streets-of-rage-2.md)
@@ -2010,6 +2086,7 @@ Winner Winner Chicken Dinner у PUBG Normal Solo.
 
 - [`GAME-0163` — EA SPORTS FC 26](../games/a-f/ea-sports-fc-26.md)
 - [`GAME-0175` — Football Manager 26](../games/a-f/football-manager-26.md)
+- [`GAME-0665` — "Sega Worldwide Soccer '97"](../games/s-z/sega-worldwide-soccer-97.md)
 
 ## OBJ-091
 
@@ -2200,6 +2277,7 @@ Winner Winner Chicken Dinner у PUBG Normal Solo.
 ### Ігри-носії
 
 - [`GAME-0393` — Mortal Kombat II](../games/m-r/mortal-kombat-ii.md)
+- [`GAME-0519` — Power Stone](../games/m-r/power-stone.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
 - [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
@@ -2925,6 +3003,7 @@ Shopping Spree, втечу від поліції Lakeshore й зарахуван
 ### Ігри-носії
 
 - [`GAME-0216` — Trackmania](../games/s-z/trackmania.md)
+- [`GAME-0644` — "WHAT THE CAR?"](../games/s-z/what-the-car.md)
 
 ## OBJ-134
 
@@ -2950,6 +3029,7 @@ Shopping Spree, втечу від поліції Lakeshore й зарахуван
 - [`GAME-0276` — Forza Horizon 5](../games/a-f/forza-horizon-5.md)
 - [`GAME-0217` — "Need for Speed Underground"](../games/m-r/need-for-speed-underground.md)
 - [`GAME-0420` — Project Gotham Racing 2](../games/m-r/project-gotham-racing-2.md)
+- [`GAME-0603` — "Wheel World"](../games/s-z/wheel-world.md)
 
 ## OBJ-135
 
@@ -3287,6 +3367,8 @@ Stage 1 West Coast у Need for Speed: The Run від 211-го місця чер�
 
 - [`GAME-0242` — "Asphalt Legends"](../games/a-f/asphalt-legends.md)
 - [`GAME-0507` — MotorStorm](../games/m-r/motorstorm.md)
+- [`GAME-0632` — "Star Wars Episode I: Racer"](../games/s-z/star-wars-episode-i-racer.md)
+- [`GAME-0524` — Wave Race 64](../games/s-z/wave-race-64.md)
 
 ## OBJ-151
 
@@ -3371,6 +3453,7 @@ Stage 1 West Coast у Need for Speed: The Run від 211-го місця чер�
 ### Ігри-носії
 
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
+- [`GAME-0616` — Silent Bomber](../games/s-z/silent-bomber.md)
 
 ## OBJ-155
 
@@ -3391,6 +3474,7 @@ Stage 1 West Coast у Need for Speed: The Run від 211-го місця чер�
 
 ### Ігри-носії
 
+- [`GAME-0653` — "A Quiet Place: The Road Ahead"](../games/a-f/a-quiet-place-the-road-ahead.md)
 - [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0368` — Dead Rising](../games/a-f/dead-rising.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
@@ -3402,6 +3486,8 @@ Stage 1 West Coast у Need for Speed: The Run від 211-го місця чер�
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
+- [`GAME-0562` — Parasite Eve](../games/m-r/parasite-eve.md)
+- [`GAME-0561` — Psychonauts 2](../games/m-r/psychonauts-2.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0502` — South of Midnight](../games/s-z/south-of-midnight.md)
 - [`GAME-0331` — Starfield](../games/s-z/starfield.md)
@@ -3600,6 +3686,7 @@ Stage 1 West Coast у Need for Speed: The Run від 211-го місця чер�
 
 - [`GAME-0473` — "Eternal Darkness: Sanity's Requiem"](../games/a-f/eternal-darkness-sanitys-requiem.md)
 - [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
+- [`GAME-0659` — "Ristar"](../games/m-r/ristar.md)
 - [`GAME-0472` — Sonic Adventure](../games/s-z/sonic-adventure.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0387` — Super Bomberman](../games/s-z/super-bomberman.md)
@@ -3690,6 +3777,7 @@ Stage 1 West Coast у Need for Speed: The Run від 211-го місця чер�
 
 ### Ігри-носії
 
+- [`GAME-0534` — PowerWash Simulator 2](../games/m-r/powerwash-simulator-2.md)
 - [`GAME-0279` — PowerWash Simulator](../games/m-r/powerwash-simulator.md)
 
 ## OBJ-169
@@ -3965,8 +4053,10 @@ MONSTER HUNTER RISE від Back to Basics через два зафіксован
 ### Ігри-носії
 
 - [`GAME-0312` — ASTRO BOT](../games/a-f/astro-bot.md)
+- [`GAME-0539` — Blast Corps](../games/a-f/blast-corps.md)
 - [`GAME-0482` — LocoRoco](../games/g-l/locoroco.md)
 - [`GAME-0422` — Patapon](../games/m-r/patapon.md)
+- [`GAME-0556` — Sayonara Wild Hearts](../games/s-z/sayonara-wild-hearts.md)
 
 ## OBJ-182
 
@@ -4791,6 +4881,7 @@ Surface Tension у Marvel’s Spider-Man 2 від першого керуван�
 
 ### Ігри-носії
 
+- [`GAME-0537` — Kirby Tilt 'n' Tumble](../games/g-l/kirby-tilt-n-tumble.md)
 - [`GAME-0378` — Super Monkey Ball 2](../games/s-z/super-monkey-ball-2.md)
 
 ## OBJ-221
@@ -5402,6 +5493,7 @@ Surface Tension у Marvel’s Spider-Man 2 від першого керуван�
 ### Ігри-носії
 
 - [`GAME-0434` — Cooking Mama](../games/a-f/cooking-mama.md)
+- [`GAME-0608` — "Dosa Divas"](../games/a-f/dosa-divas.md)
 
 ## OBJ-250
 
@@ -5569,6 +5661,7 @@ Single Event Race на Garibaldi в оригінальній SSX Tricky; три�
 
 ### Ігри-носії
 
+- [`GAME-0655` — "Kirby Air Riders"](../games/g-l/kirby-air-riders.md)
 - [`GAME-0450` — SSX Tricky](../games/s-z/ssx-tricky.md)
 - [`GAME-0488` — wipEout](../games/s-z/wipeout.md)
 
@@ -5591,6 +5684,7 @@ Single Event Race на Garibaldi в оригінальній SSX Tricky; три�
 
 ### Ігри-носії
 
+- [`GAME-0595` — "Rhythm Doctor"](../games/m-r/rhythm-doctor.md)
 - [`GAME-0454` — Rhythm Heaven](../games/m-r/rhythm-heaven.md)
 
 ## OBJ-259
@@ -5844,6 +5938,7 @@ Single Event Race на Garibaldi в оригінальній SSX Tricky; три�
 ### Ігри-носії
 
 - [`GAME-0481` — Out Run](../games/m-r/out-run.md)
+- [`GAME-0578` — OutRun 2](../games/m-r/outrun-2.md)
 
 ## OBJ-271
 
@@ -5971,6 +6066,7 @@ Versus до двох виграних раундів із раптовою см�
 ### Ігри-носії
 
 - [`GAME-0494` — Dead or Alive 2](../games/a-f/dead-or-alive-2.md)
+- [`GAME-0564` — Windjammers](../games/s-z/windjammers.md)
 
 ## OBJ-283
 
@@ -5992,6 +6088,7 @@ Versus до двох виграних раундів із раптовою см�
 ### Ігри-носії
 
 - [`GAME-0495` — Donkey Kong Country Returns](../games/a-f/donkey-kong-country-returns.md)
+- [`GAME-0622` — "Pepper Grinder"](../games/m-r/pepper-grinder.md)
 
 ## OBJ-284
 
@@ -6096,6 +6193,8 @@ Versus до двох виграних раундів із раптовою см�
 
 ### Ігри-носії
 
+- [`GAME-0650` — Einhänder](../games/a-f/einhander.md)
+- [`GAME-0587` — Panzer Dragoon II Zwei](../games/m-r/panzer-dragoon-ii-zwei.md)
 - [`GAME-0505` — Panzer Dragoon](../games/m-r/panzer-dragoon.md)
 
 ## OBJ-289
@@ -6160,3 +6259,1289 @@ Versus до двох виграних раундів із раптовою см�
 ### Ігри-носії
 
 - [`GAME-0513` — Thief: The Dark Project](../games/s-z/thief-the-dark-project.md)
+
+## OBJ-292
+
+- Назва: Пройти визначені практичні випробування й підтвердити відліт
+- Переглянуто: `2026-11-16`
+
+### Операційне визначення
+
+Виконати заданий набір окремих практичних випробувань у реальному часі. Коли всі обов’язкові умови дозволять відліт, підтвердити перехід до наступного етапу.
+
+### Включає
+
+У першій місії Homeworld доставити ресурси, збудувати дослідницький корабель, пройти випробування строю й тактики, доставити дрон і підтвердити гіперстрибок.
+
+### Виключає
+
+Одне визначене знищення, обов’язкове завершення необов’язкового дослідження, окреме навчальне меню або перехід без команди на відліт.
+
+### Ігри-носії
+
+- [`GAME-0517` — Homeworld](../games/g-l/homeworld.md)
+
+## OBJ-293
+
+- Назва: Відновлювати потрібну місцеву функцію пристроєм і сумісним помічником
+- Переглянуто: `2026-11-16`
+
+### Операційне визначення
+
+Гравець виконує задану місцеву потребу: встановлює потрібний пристрій, знаходить сумісного помічника й використовує його вміння на місці. Умову зараховують після фактичного результату.
+
+### Включає
+
+Змайструвати й поставити перше вогнище, а тоді привести Чармандера, щоб він запалив його й завершився вступний день.
+
+### Виключає
+
+Саме виготовлення пристрою, залучення помічника без застосування його вміння або загальний показник розвитку поселення.
+
+### Ігри-носії
+
+- [`GAME-0518` — Pokémon Pokopia](../games/m-r/pokemon-pokopia.md)
+
+## OBJ-294
+
+- Назва: Мінімізувати кидки зі штрафами відносно нормативу лунки
+- Переглянуто: `2026-11-16`
+
+### Операційне визначення
+
+Для завершеної лунки від кількості зарахованих кидків зі штрафами віднімають визначений норматив. Серед завершених результатів кращий той, де менше зарахованих кидків.
+
+### Включає
+
+За нормативу в чотири кидки завершення за три дає мінус один, а за п’ять — плюс один.
+
+### Виключає
+
+Лише двійкова умова завершення, максимізація кількості зібраних предметів або мінімізація витраченого часу.
+
+### Ігри-носії
+
+- [`GAME-0547` — Walkabout Mini Golf](../games/s-z/walkabout-mini-golf.md)
+- [`GAME-0521` — Wii Sports Resort](../games/s-z/wii-sports-resort.md)
+
+## OBJ-295
+
+- Назва: Завершувати окреме розслідування оголошеним вироком уповноваженої особи
+- Переглянуто: `2026-11-17`
+
+### Операційне визначення
+
+Гравець готує й викладає справу на призначеному слуханні, щоб відвести загрозу вироку від обвинуваченої людини, яку захищає. Межа такого розслідування — офіційне оголошення рішення, навіть якщо істина лишилася невідомою.
+
+### Включає
+
+Запропонувати обґрунтовану альтернативу звинуваченню П’єро й дочекатися пізнішого дня суду.
+
+### Виключає
+
+Загадка з доказами, що приймає лише справжнього винуватця, фізичне затримання підозрюваного, зупинка перед входом на слухання або завершення всіх наступних справ.
+
+### Ігри-носії
+
+- [`GAME-0523` — Pentiment](../games/m-r/pentiment.md)
+
+## OBJ-296
+
+- Назва: Поліпшити перше забезпечене житло й зберегти початкове виробництво
+- Переглянуто: `2026-11-17`
+
+### Операційне визначення
+
+Гравець налагоджує місцеве постачання й послуги, власноруч переводить одну придатну оселю на наступний рівень і перевіряє склад робочої сили. Нижчий рівень має й далі забезпечувати достатньо працівників для початкового виробництва.
+
+### Включає
+
+Виготовити й постачати туніки, забезпечити інші категорії потреб і поліпшити одну оселю вільновідпущеників, зберігши інші оселі першого рівня з працівниками.
+
+### Виключає
+
+Автоматичне зростання населення, вимога поліпшити певну кількість будинків у місті або завершення пізнішого виробництва, кампанії чи монумента.
+
+### Ігри-носії
+
+- [`GAME-0525` — "Anno 117: Pax Romana"](../games/a-f/anno-117-pax-romana.md)
+
+## OBJ-297
+
+- Назва: Перемогти брандмауер на заданому маршруті й відкрити вибір наступної зони
+- Переглянуто: `2026-11-17`
+
+### Операційне визначення
+
+Пройти відрізок проникнення, власними атаками перемогти підсумковий брандмауер і після підсумку отримати доступ до визначеної наступної зони. Для цього місцевого результату не потрібен повний аналіз усіх шлюзів.
+
+### Включає
+
+Перемогти Землю й після підсумку першої зони отримати доступ до другої у списку підсистем.
+
+### Виключає
+
+Лише дістатися до боса, вимога повного аналізу, витрачання кредитів на повтор або автоматичний початок наступного польоту.
+
+### Ігри-носії
+
+- [`GAME-0526` — Rez](../games/m-r/rez.md)
+
+## OBJ-298
+
+- Назва: Відвертати визначену смерть і повертатися в теперішнє, де жертва вижила
+- Переглянуто: `2026-11-17`
+
+### Операційне визначення
+
+У межах втручання перед смертю треба змінити перебіг подій і повернутися в змінене теперішнє, в якому ця людина жива.
+
+### Включає
+
+Завершити обидва втручання на звалищі й повернутися в теперішнє, де Лінн жива.
+
+### Виключає
+
+Саме відтермінування смерті, проміжна контрольна точка, оживлення в незміненому перебігу подій або розгадка всієї історії.
+
+### Ігри-носії
+
+- [`GAME-0533` — "Ghost Trick: Phantom Detective"](../games/g-l/ghost-trick-phantom-detective.md)
+
+## OBJ-299
+
+- Назва: Прибирати кожну перешкоду раніше, ніж до неї доїде вантажівка
+- Переглянуто: `2026-11-17`
+
+### Операційне визначення
+
+Щоб завершити місію, прибери всі перешкоди на шляху вантажівки, поки вона не дісталася до них. Коли весь маршрут вільний, можна дочекатися її прибуття або скористатися передбаченим достроковим виходом.
+
+### Включає
+
+Розчистити коридор Simian Acres, доки вантажівка не дісталася до перешкод. Потім дочекатися її прибуття або сісти в доступну службову машину.
+
+### Виключає
+
+Пряме керування вантажівкою, усунення всіх ворогів для ескорту, знесення всіх будівель лише заради очок або гонка вже проїзним маршрутом.
+
+### Ігри-носії
+
+- [`GAME-0539` — Blast Corps](../games/a-f/blast-corps.md)
+
+## OBJ-300
+
+- Назва: Завершити заїзд із трюками та набрати потрібну кількість зірок
+- Переглянуто: `2026-11-18`
+
+### Операційне визначення
+
+Заверши потрібні кола до спливу часу й набери щонайменше встановлену для траси кількість зірок після зарахування винагороди за місце.
+
+### Включає
+
+Пройди два кола Greenhorn Gulch на складності Excite за три хвилини й набери щонайменше 70 зірок загалом.
+
+### Виключає
+
+Досягнення потрібної кількості зірок без фінішу, обов’язкове перше місце незалежно від очок і проходження всіх трас кубка.
+
+### Ігри-носії
+
+- [`GAME-0542` — Excite Truck](../games/a-f/excite-truck.md)
+
+## OBJ-301
+
+- Назва: Завершити ритмічний репортаж із мінімальним рейтингом і невичерпаними запасами сутичок
+- Переглянуто: `2026-11-19`
+
+### Операційне визначення
+
+Дійди до заданого кінця одного танцювально-стрілецького репортажу разом із босом, не допускаючи поразки через поточний рейтинг або застосовний запас сердець сутички. Потім досягни числового мінімуму аудиторії репортажу для переходу до наступного.
+
+### Включає
+
+Пройди перший звичайний репортаж у космопорту разом із Coco Tapioca з рейтингом аудиторії щонайменше 15 відсотків.
+
+### Виключає
+
+Саме виживання з додатним рейтингом нижче мінімуму, вимога врятувати всіх або виконати все бездоганно й завершення всієї кампанії.
+
+### Ігри-носії
+
+- [`GAME-0544` — Space Channel 5](../games/s-z/space-channel-5.md)
+
+## OBJ-302
+
+- Назва: Завершити скінченну диспетчерську зміну й зберегти оцінені результати викликів
+- Переглянуто: `2026-11-19`
+
+### Операційне визначення
+
+Розв’яжи доступні виклики обмеженої зміни та обов’язкове завершальне втручання, доки підсумкова оцінка не передасть керування наступній сцені. Невдалі чи пропущені звичайні виклики лишаються записаними результатами, а не автоматичною вимогою почати знову або пройти зміну бездоганно.
+
+### Включає
+
+Заверши першу зміну Z-Team у Dispatch через втручання в Granny’s Donuts та оцінку роботи перед розмовою в кімнаті відпочинку.
+
+### Виключає
+
+Досягнення за всі успішні виклики як обов’язкова умова, завершення перед заданим останнім викликом і проходження всієї епізодичної кампанії.
+
+### Ігри-носії
+
+- [`GAME-0545` — Dispatch](../games/a-f/dispatch.md)
+
+## OBJ-303
+
+- Назва: Завершити рятувальну місію на об’єкті через боса й зберегти оцінений перехід далі
+- Переглянуто: `2026-11-19`
+
+### Операційне визначення
+
+Пройди заданий рятувальний об’єкт, розв’яжи обов’язкові маршрутні механізми й здолай фінальну загрозу. Потім прийми багатоскладовий результат місії та збережи доступ до наступної. Кількість урятованих і використання ресурсів впливають на оцінку, але бездоганний ранг не є звичайною умовою завершення.
+
+### Включає
+
+Заверши Fallen Memory в оригінальній Burning Rangers через Anemoth, переглянь Mission Result і повернися до Mission Select із доступною Silent Blue.
+
+### Виключає
+
+Зупинка після першої телепортації, вимога врятувати всіх необов’язкових уцілілих або отримати ранг S і завершення всієї кампанії з чотирьох місій.
+
+### Ігри-носії
+
+- [`GAME-0546` — Burning Rangers](../games/a-f/burning-rangers.md)
+
+## OBJ-304
+
+- Назва: Пройти кожну гонку визначеного кваліфікаційного етапу й отримати наступне призначення
+- Переглянуто: `2026-11-19`
+
+### Операційне визначення
+
+Заверши по черзі всі гонки одного визначеного кваліфікаційного етапу, виконай окремі вимоги до місця й часу кожної та прийми підсумок етапу, який призначає наступний етап. Увесь чемпіонат може лишатися незавершеним.
+
+### Включає
+
+Heat 1 гри R4 через обидві гонки по два кола й передачу машини менеджером для Heat 2.
+
+### Виключає
+
+Одна окрема гонка з підсумковим місцем; перемога в усьому Grand Prix; кубок із сумою очок; зниження рангу кампанії через вуличні події; зупинка до переходу між етапами.
+
+### Ігри-носії
+
+- [`GAME-0551` — "R4: Ridge Racer Type 4"](../games/m-r/ridge-racer-type-4.md)
+
+## OBJ-305
+
+- Назва: Завершувати фіксований день ботанічних запитів і приймати підказку наступного дня
+- Переглянуто: `2026-11-19`
+
+### Операційне визначення
+
+Виконай обов’язкові запити рослин і прийми передбачене листування обраного дня, досягни зачиненої крамниці, а потім прийми нічний перехід і наступну підказку. Одна правильна рослина, необов’язкова поїздка чи визначення всього гербарію гри не є цією умовою завершення.
+
+### Включає
+
+Заверши п’ятничну послідовність Вікторії, листоноші, Ґілберта, Фей та Нори до першої нічної картки, не починаючи живі запити суботи.
+
+### Виключає
+
+Ціль грошового прибутку; оцінка справ за часом; усі кінцівки кампанії; перетворення кожного необов’язкового відкриття першого дня на справжню умову зачинення.
+
+### Ігри-носії
+
+- [`GAME-0554` — Strange Horticulture](../games/s-z/strange-horticulture.md)
+
+## OBJ-306
+
+- Назва: Здобувати щастя прибиранням протягом періоду й зараховувати домашній ранг
+- Переглянуто: `2026-11-19`
+
+### Операційне визначення
+
+Використай обмежений період у будинку для здобуття щастя допустимою допомогою, збережи зараховані результати під час автоматичного повернення наприкінці періоду й прийми оновлення домашнього рейтингу до наступного живого періоду. Ця тема не має справжньої вимоги прибрати кожну пляму, досягти визначеної суми грошей або завершити всю кампанію.
+
+### Включає
+
+Прибирання вітальні першої ночі в оригінальній Chibi-Robo! для GameCube — від виходу після дня народження до світанкового рейтингу та переходу далі.
+
+### Виключає
+
+Один рух щітки як завершення всього періоду; всі завдання будинку; перший ранг як кінець цієї теми; друга діяльність, що витрачає здобуте в подорожі за OBJ-167.
+
+### Ігри-носії
+
+- [`GAME-0555` — Chibi-Robo!](../games/a-f/chibi-robo.md)
+
+## OBJ-307
+
+- Назва: Винеси замкненого полоненого й заверши окреме сонячне очищення
+- Переглянуто: `2026-11-19`
+
+### Операційне визначення
+
+Заверши визначене підземелля: отримай доступ до замкненого полоненого, перевези збережений вантаж до зовнішнього приймача, виконай окремо активоване сонячне очищення та прийми оцінену нагороду й перехід далі; лише перемоги над охороною чи доставки труни недостатньо.
+
+### Включає
+
+Кажани Fog Castle, труна приманки, Pile Driver, карта блазня й повернення до Road of Encounter.
+
+### Виключає
+
+Перемога над справжнім Графом у Bloodrust Mansion; обов’язковий найкращий ранг; завершення всієї кампанії; звичайна доставка нерухомого вантажу без другого процесу.
+
+### Ігри-носії
+
+- [`GAME-0557` — "Boktai: The Sun Is in Your Hand"](../games/a-f/boktai-the-sun-is-in-your-hand.md)
+
+## OBJ-308
+
+- Назва: Пройти обраний етап з обов’язковим босом і зберегти його самоцвіт поступу на екрані вибору етапів
+- Переглянуто: `2026-11-19`
+
+### Операційне визначення
+
+Пройди обраний авторський бойовий етап, переможи його обов’язкового фінального охоронця та зарахуй самоцвіт поступу й стан проходження на екрані решти етапів; сам прихід до боса, підбирання місцевого постачання чи початок іншого етапу не задовольняють цієї кінцевої умови.
+
+### Включає
+
+Завершити Ancient Ruins через Pinky Roader й отримання Blue Gem зі зупинкою перед грою на другому етапі.
+
+### Виключає
+
+Фінальний порятунок усієї кампанії; отримання зброї Robot Master; вихід з етапу без боса, який відкриває нові двері; збирання всього необов’язкового постачання.
+
+### Ігри-носії
+
+- [`GAME-0610` — "BALL x PIT"](../games/a-f/ball-x-pit.md)
+- [`GAME-0560` — Gunstar Heroes](../games/g-l/gunstar-heroes.md)
+
+## OBJ-309
+
+- Назва: Пройти повне сенсорне ритмічне завдання зі збереженим запасом і допустимим станом наприкінці
+- Переглянуто: `2026-11-20`
+
+### Операційне визначення
+
+Виконай усе обране готове музичне завдання, уникни вичерпання поточного запасу й досягни кінця пісні із запасом виконання, достатнім для заданого успішного підсумку завдання. Саме лише досягнення проміжної частини історії чи додатний, але неприйнятний кінцевий запас не є умовою успіху; бездоганна серія чи найвища оцінка необов’язкові.
+
+### Включає
+
+Одиночна Makes No Difference на Cruisin в Elite Beat Agents: повна остання подія, підсумок історії й результати, а не перша успішна частина. Початковий посібник вимагає достатньо заповненої шкали наприкінці; невиміряного числового порога не стверджують.
+
+### Виключає
+
+Лише ціль загальної кількості очок; вимога O в кожній частині для звичайного проходження; завершення кампанії; обертальна квота як мета всієї пісні; перенесення зіркової оцінки Guitar Hero чи умови лише ненульової шкали танцювального автомата.
+
+### Ігри-носії
+
+- [`GAME-0566` — Elite Beat Agents](../games/a-f/elite-beat-agents.md)
+
+## OBJ-310
+
+- Назва: Зібрати скінченний набір окремих прикріплених цілей і дістатися визначеного виходу до спливу часу
+- Переглянуто: `2026-11-20`
+
+### Операційне визначення
+
+Уся спроба успішна, коли набір потрібних цілей зараховано після їхнього підбирання в місцях розташування, а гравець досягає визначеного виходу, поки ще є спільний запас часу. Самого підбирання останньої цілі недостатньо. Для кожної зарахованої цілі не потрібно окремо здавати фізичний вантаж.
+
+### Включає
+
+Місія The Login Devices у Teardown: зібрати три різні зчитувачі й дістатися фургона, яким гравець прибув, до завершення відліку тривоги.
+
+### Виключає
+
+Виживання до нуля на таймері; необов’язкова нагорода на час після успіху; повторне підбирання тієї самої цілі заради потрібної кількості; вимога здавати перенесені сумки; оцінювання лише завданої спорудам шкоди.
+
+### Ігри-носії
+
+- [`GAME-0568` — Teardown](../games/s-z/teardown.md)
+
+## OBJ-311
+
+- Назва: Зарахувати скінченний набір предметів і дістатися верхньої межі живим персонажем
+- Переглянуто: `2026-11-20`
+
+### Операційне визначення
+
+Спроба переходить далі, коли в заданому наборі вже немає незарахованих предметів і живий персонаж дістається верхньої межі. Самого обнулення лічильника недостатньо. Передбачене вилучення може зарахувати предмет до стану цілі без підбирання гравцем.
+
+### Включає
+
+Рівень 001 у Lode Runner зазвичай відкриває вихідну драбину після зарахування шести скринь і переходить далі, коли персонаж дістається верху.
+
+### Виключає
+
+Поріг очок; миттєве завершення на останньому підбиранні; обов’язкове підбирання кожного початкового предмета, навіть якщо допустиме вилучення його зарахувало; успіх на верхній межі з незарахованим золотом.
+
+### Ігри-носії
+
+- [`GAME-0569` — Lode Runner](../games/g-l/lode-runner.md)
+
+## OBJ-312
+
+- Назва: Завершувати перший цикл походу й розвитку поселення проповіддю, що дає нові можливості
+- Переглянуто: `2026-11-20`
+
+### Операційне визначення
+
+Заверши визначений перший похід через перемогу над босом і повернення. Прийми врятованого новачка та виконай кроки розвитку й збирання матеріалів у поселенні, щоб провести першу проповідь, яка дає нові можливості. Здобич із походу, відкриття кресленика, зведення споруди й проповідь лишаються окремими потрібними кроками.
+
+### Включає
+
+Перше проходження Темнолісся, посвята Амдусіаса, молитви біля святилища, відкриття й зведення храму, а тоді перша проповідь у Cult of the Lamb.
+
+### Виключає
+
+Завершення на самому босі підземелля; ототожнення відкритої споруди з уже збудованою; перемога над усіма босами регіону; вимога провести пізнішу доктрину чи ритуал.
+
+### Ігри-носії
+
+- [`GAME-0570` — Cult of the Lamb](../games/a-f/cult-of-the-lamb.md)
+
+## OBJ-313
+
+- Назва: Виграти задану кількість завершених тенісних геймів у показовому матчі
+- Переглянуто: `2026-11-20`
+
+### Операційне визначення
+
+Заверши поточний показовий матч, вигравши задану кількість геймів раніше, ніж суперник досягне своєї кінцевої умови. Після допустимого результату гейму зараховується підсумок матчу.
+
+### Включає
+
+Показовий режим Virtua Tennis з одним потрібним геймом і ввімкненим правилом рівності. Перемога в першому завершеному геймі дає підсумок усього матчу.
+
+### Виключає
+
+Перемога в окремому розіграші; вимога аркадного продовження з відліком; ціль кар’єри чи рейтингу; більша кількість геймів за правилами повного сету.
+
+### Ігри-носії
+
+- [`GAME-0571` — Virtua Tennis](../games/s-z/virtua-tennis.md)
+
+## OBJ-314
+
+- Назва: Завершити рівень, знищивши всіх обов’язкових ворогів і діставшись виходу
+- Переглянуто: `2026-11-20`
+
+### Операційне визначення
+
+Спочатку усунь усіх визначених ворогів, а потім дістанься відкритого виходу. Знищення ворогів відкриває доступ. Дотик до виходу зараховує повне проходження й передає час для оцінки.
+
+### Включає
+
+На рівні Elevate у Neon White знищ двох жабоподібних і трьох прикріплених демонів, а потім дістанься виходу.
+
+### Виключає
+
+Локальні двері перед наступними обов’язковими кімнатами, виживання впродовж заданого часу, фініш одразу після останнього ворога або вимога часу конкретної медалі для проходження.
+
+### Ігри-носії
+
+- [`GAME-0572` — Neon White](../games/m-r/neon-white.md)
+
+## OBJ-315
+
+- Назва: Відбити висланих героїв, зберігши Серце підземелля
+- Переглянуто: `2026-11-20`
+
+### Операційне визначення
+
+Хранитель перемагає в поточному краї, коли з’явилася визначена остання група героїв і знищено всіх обов’язкових ворогів нападу. Власне Серце підземелля має вціліти до підсумку. Поразка першої хвилі просуває сценарій без перемоги в краї.
+
+### Включає
+
+У Eversmile здолай підкопувачів, а потім Володаря краю, поки Серце підземелля стоїть.
+
+### Виключає
+
+Відкритий прохід до появи фінальної групи, знищення лише першої групи, перемога за виживання впродовж сталого часу або руйнування Серця іншого хранителя.
+
+### Ігри-носії
+
+- [`GAME-0573` — Dungeon Keeper](../games/a-f/dungeon-keeper.md)
+
+## OBJ-316
+
+- Назва: Завершувати задану послідовність реплік до переходу в наступний розділ
+- Переглянуто: `2026-11-20`
+
+### Операційне визначення
+
+Пройди впорядковану послідовність обов’язкових візуальних відповідей і проміжних сцен до останньої заданої репліки. Фінальна сцена завершує цей розділ і відкриває початок наступного.
+
+### Включає
+
+Склади всі вісім реплік у «Перших побаченнях» у Florence, зокрема останню з одного фрагмента, і дістанься кінця розділу та початку «Мрій».
+
+### Виключає
+
+Завершення однієї проміжної репліки, перемога в суперечці на час, вибір підсумку стосунків або збирання постійних ключів від проходу.
+
+### Ігри-носії
+
+- [`GAME-0574` — Florence](../games/a-f/florence.md)
+
+## OBJ-317
+
+- Назва: Завершувати окремий квест лікування одужанням пацієнта
+- Переглянуто: `2026-11-20`
+
+### Операційне визначення
+
+Заверши заданий квест лікування, коли правильні ліки отримує визначений лікар, а пацієнт одужує. З пацієнтом після одужання можна окремо взаємодіяти далі.
+
+### Включає
+
+Передай Лукреції смолу сильфію, щоб урятувати Юлію, і перевір її одужання та доступність нових свідчень.
+
+### Виключає
+
+Володіння ліками, прохід крізь портал повернення, прийняття іншої зачіпки або завершення всієї сюжетної петлі.
+
+### Ігри-носії
+
+- [`GAME-0576` — The Forgotten City](../games/s-z/the-forgotten-city.md)
+
+## OBJ-318
+
+- Назва: Взяти перенаправлене замовлення й дійти до зустрічі з новою клієнткою
+- Переглянуто: `2026-11-20`
+
+### Операційне визначення
+
+Пройди передбачений маршрут, щоб працівник отримав перенаправлений запит і дійшов до зустрічі з клієнткою. Отримання дозволу або поява перехопленої заявки є проміжними кроками.
+
+### Включає
+
+Від непідписаного наряду й першого виклику дійти до заявки Доміно та зустрічі з Мерседес Коломар у кабінеті Менні.
+
+### Виключає
+
+Саме отримання наряду, лише перешкоджання повідомленню, виконання пізніших умов обслуговування чи всього розділу або непідтверджена перевірка повторного завантаження.
+
+### Ігри-носії
+
+- [`GAME-0582` — Grim Fandango](../games/g-l/grim-fandango.md)
+
+## OBJ-319
+
+- Назва: Захистити мандрівницю, доки вона не зможе очистити кінцеву браму
+- Переглянуто: `2026-11-20`
+
+### Операційне визначення
+
+Збережи життя мандрівниці під час нападів, проклади придатний шлях до кінцевої брами й виконай там доступне очищення. Виживання протягом одного відрізка лише повертає підготовку, якщо кінцеву дію ще не виконано.
+
+### Включає
+
+Пережити першу ніч на перевалі Мьоко, завершити шлях на світанку й очистити останню браму торії, щоб закінчити етап.
+
+### Виключає
+
+Потрібна кількість убивств, перемога на самому першому світанку, додаткові лічильники очищення або завершення наступного бою з босом.
+
+### Ігри-носії
+
+- [`GAME-0583` — "Kunitsu-Gami: Path of the Goddess"](../games/g-l/kunitsu-gami-path-of-the-goddess.md)
+
+## OBJ-320
+
+- Назва: Зараховувати раунд єдиному вцілілому учасникові
+- Переглянуто: `2026-11-20`
+
+### Операційне визначення
+
+Окремий раунд, у якому кожен грає за себе, виграє єдиний учасник, що лишився в строю на арені. Йому зараховується одна перемога в поточному матчі.
+
+### Включає
+
+Останній учасник Battle Game після вибування решти. Для перемоги в усьому матчі потрібна окремо задана кількість виграних раундів.
+
+### Виключає
+
+Перемога за кількістю усунень, порівняння здоров’я в дуелі, перемога цілої команди й досягнення межі перемог у всьому матчі.
+
+### Ігри-носії
+
+- [`GAME-0584` — Saturn Bomberman](../games/s-z/saturn-bomberman.md)
+
+## OBJ-321
+
+- Назва: Урятувати всіх підопічних і не пустити ворогів до виходу
+- Переглянуто: `2026-11-20`
+
+### Операційне визначення
+
+Заверши спробу, доправивши до виходу всіх підопічних, які рухаються самостійно. Спроба провалюється, якщо хтось із них гине або ворог потрапляє до виходу до завершення.
+
+### Включає
+
+Доправити єдину мишу десятого пазла до ракети, не втративши її й не впустивши туди кота.
+
+### Виключає
+
+Евакуація персонажів під прямим керуванням (OBJ-022), порятунок лише потрібної кількості з допустимими втратами (OBJ-019) і вихід окремого транспорту після доставки пасажирів (OBJ-024).
+
+### Ігри-носії
+
+- [`GAME-0589` — ChuChu Rocket!](../games/a-f/chuchu-rocket.md)
+
+## OBJ-322
+
+- Назва: Перемагати в дорожній дуелі, першим вичерпавши запас суперника
+- Переглянуто: `2026-11-21`
+
+### Операційне визначення
+
+У дуелі двох авто перемагає водій, у якого ще є запас, коли запас суперника падає до нуля. Для цієї перемоги не потрібно долати задану відстань, завершувати коло чи фінішувати в певній позиції.
+
+### Включає
+
+Побачити WIN на дорозі після того, як Timid Challenger утратив усі очки духу.
+
+### Виключає
+
+Перемога за перетином фінішу першим (OBJ-134), досягнення контрольної точки до завершення часу, знищення машин суперника і перемога за кількістю раундів із можливістю вибити суперника за межі арени (OBJ-259).
+
+### Ігри-носії
+
+- [`GAME-0590` — Tokyo Xtreme Racer](../games/s-z/tokyo-xtreme-racer.md)
+
+## OBJ-323
+
+- Назва: Виграти один сюжетний двобій, вичерпавши здоров’я суперника або зберігши перевагу до кінця часу
+- Переглянуто: `2026-11-21`
+
+### Операційне визначення
+
+Гравець виграє один безперервний сюжетний бій із визначеним суперником, якщо вичерпує його здоров’я або якщо в момент завершення часу має строго більший залишок здоров’я. Лише перемога відкриває подальший шлях. Однаковий залишок здоров’я не задовольняє умову.
+
+### Включає
+
+Перше протистояння Ray 01 проти Splendor у сюжеті Custom Robo для Nintendo GameCube.
+
+### Виключає
+
+Накопичення перемог у раундах, перше місце серед кількох бійців, тимчасове збиття з ніг, зарахування нічиєї та здобуття деталі як окрема умова.
+
+### Ігри-носії
+
+- [`GAME-0596` — "Custom Robo"](../games/a-f/custom-robo.md)
+
+## OBJ-324
+
+- Назва: Набрати потрібну сумарну вагу улову до завершення відліку
+- Переглянуто: `2026-11-21`
+
+### Операційне визначення
+
+Спробу пройдено, щойно зараховані улови досягають потрібної місцевої ваги до завершення відліку. Може вистачити однієї риби, або ж вагу кількох уловів підсумовують. Зачеплена риба нічого не додає, доки її не витягнули.
+
+### Включає
+
+Ділянка Lodge в аркадному режимі завершується, коли Total Weight досягає або перевищує показану норму. У записі з американської Dreamcast вистачає одного окуня, а в окремому записі з диска GD-ROM норму набрано кількома уловами.
+
+### Виключає
+
+Кількість різних істот, турнір лише за місцем у таблиці, рекорд ваги однієї риби або підсічка без завершеного улову.
+
+### Ігри-носії
+
+- [`GAME-0598` — "Sega Bass Fishing"](../games/s-z/sega-bass-fishing.md)
+
+## OBJ-325
+
+- Назва: Виграти гонку до заданого рахунку з потрібною перевагою
+- Переглянуто: `2026-11-21`
+
+### Операційне визначення
+
+Команда виграє матч до заданої кількості очок, коли набирає щонайменше цю кількість і випереджає суперника на потрібну величину. Досягнення цілі без достатнього відриву не завершує матч.
+
+### Включає
+
+За звичайного аркадного рахунку набери щонайменше 21 очко й випереди суперника щонайменше на два, щоб виграти матч Pick Up Game.
+
+### Виключає
+
+Найвищий рахунок після спливу ігрового часу, перемога за очками за трюки, перший особливий кидок незалежно від рахунку або досягнення цілі без перевірки відриву.
+
+### Ігри-носії
+
+- [`GAME-0600` — "NBA Street Vol. 2"](../games/m-r/nba-street-vol-2.md)
+
+## OBJ-326
+
+- Назва: Здобути відзнаку за оцінений політ і посадку
+- Переглянуто: `2026-11-21`
+
+### Операційне визначення
+
+Заверши окреме льотне випробування, у якому за маршрут і посадку нараховують очки. Встановлені пороги визначають, яку з відзнак за це випробування зарахує гра.
+
+### Включає
+
+Заверши «Гніздо альбатроса». Задокументована спроба на 96 очок перевищує поріг у 90 для золотої відзнаки, яка з’являється в таблиці початкового класу.
+
+### Виключає
+
+Прибуття без оцінки, медаль лише за час перегонів, набір очок без завершеної спроби або відкриття всього наступного класу за одну відзнаку.
+
+### Ігри-носії
+
+- [`GAME-0602` — "Pilotwings 64"](../games/m-r/pilotwings-64.md)
+
+## OBJ-327
+
+- Назва: Залишити небезпечне місце після створення потрібного для ремонту фахівця
+- Переглянуто: `2026-11-21`
+
+### Операційне визначення
+
+Щоб завершити початкову втечу, створи й розбуди потрібного фахівця, віднови транспорт за його допомогою, підготуй достатні запаси й почни перший переїзд до спливу часу.
+
+### Включає
+
+Коли Технік допоможе з несправним механізмом, виконай умови від’їзду, підтвердь початок подорожі й дочекайся, коли база рушить.
+
+### Виключає
+
+Лише збирання пального, зупинка після другої невдалої спроби, створення персонажа без спільного ремонту або наступне завдання після від’їзду.
+
+### Ігри-носії
+
+- [`GAME-0604` — "The Alters"](../games/s-z/the-alters.md)
+
+## OBJ-328
+
+- Назва: Зібрати всі предмети місії до спливу часу й завершити її останнім збором
+- Переглянуто: `2026-11-21`
+
+### Операційне визначення
+
+Збери кожен предмет із визначеного набору до спливу часу тієї самої спроби. Останній зарахований предмет одразу завершує її успішно, тож додатковий вихід не потрібен.
+
+### Включає
+
+Збери всі три медалі в першій місії для новачків до спливу 30 секунд і звір підсумок.
+
+### Виключає
+
+Менша за повний набір квота, очікування спливу часу, мінімальна сума очок із незбираними предметами або окремий вихід після повного збору.
+
+### Ігри-носії
+
+- [`GAME-0605` — "Outtrigger"](../games/m-r/outtrigger.md)
+
+## OBJ-329
+
+- Назва: Завершити рівень перемогою над супротивником
+- Переглянуто: `2026-11-21`
+
+### Операційне визначення
+
+Переможи потрібного супротивника на арені. Його поразка завершує рівень без окремого предмета чи воріт для виходу.
+
+### Включає
+
+Перемога над черв’яком відкриває результат рівня і пропозицію перейти далі. Золотий самоцвіт можна здобути окремо.
+
+### Виключає
+
+Обов’язкове підбирання предмета, що з’явився після перемоги, очікування кінця відліку або перехід далі до зарахування результату.
+
+### Ігри-носії
+
+- [`GAME-0641` — "Bushido Blade"](../games/a-f/bushido-blade.md)
+- [`GAME-0607` — "Mischief Makers"](../games/m-r/mischief-makers.md)
+- [`GAME-0643` — "Rocket Knight Adventures"](../games/m-r/rocket-knight-adventures.md)
+- [`GAME-0658` — "Unicorn Overlord"](../games/s-z/unicorn-overlord.md)
+
+## OBJ-330
+
+- Назва: Виграти матч, повернувшись до замку з потрібною магією
+- Переглянуто: `2026-11-21`
+
+### Операційне визначення
+
+Перемагає учасник, який першим дістається визначеної точки повернення чи проходить її, маючи потрібну загальну магію. Сам поріг поза цією точкою лише дає право на перемогу.
+
+### Включає
+
+У першому матчі в Даннані потрібно мати щонайменше 5 000 G загальної магії й повернутися до замку.
+
+### Виключає
+
+Найбільший рахунок за таймером, негайна перемога від самого порога, перемога в одному бою або сплата порогової суми за доступ.
+
+### Ігри-носії
+
+- [`GAME-0611` — "Culdcept"](../games/a-f/culdcept.md)
+
+## OBJ-331
+
+- Назва: Виконувати запит на визначення предмета й отримувати новий запис довідника
+- Переглянуто: `2026-11-21`
+
+### Операційне визначення
+
+Запропонуй предмет, який відповідає активному запиту відвідувача, і дочекайся підтвердження його ідентифікації. Новий запис довідника стає доступним до початку наступного запиту. Сам вибір предмета або напис на особистій етикетці запит не виконує.
+
+### Включає
+
+Запропонуй окремий зуб Томасу Поупу на його перший запит про Дар мисливця. Після підтвердження дістань сторінку про Місячний тотем до обслуговування наступного відвідувача.
+
+### Виключає
+
+Оплата товару, завершення всього дня запитів, запропонована назва на особистій етикетці, вже наявний запис довідника або збирання всіх записів.
+
+### Ігри-носії
+
+- [`GAME-0617` — Strange Antiquities](../games/s-z/strange-antiquities.md)
+
+## OBJ-332
+
+- Назва: Прокласти шлях крізь породу й здобути закладену знахідку
+- Переглянуто: `2026-11-21`
+
+### Операційне визначення
+
+Заверши місцевий маршрут: усунь породу, що перекриває шлях, дістанься заздалегідь розміщеної прихованої знахідки та дочекайся її зарахування під назвою. Для цього результату не потрібно завершувати весь ярус або повертатися з предметом.
+
+### Включає
+
+Потрапити до Давньої печери крізь пробитий ґрунт і здобути «Відкопаний перекус» із каменя біля першої контрольної точки під час першого відвідання Острова Злитків.
+
+### Виключає
+
+Лише відкрити ціль, дійти до контрольної точки, виміряти кількість золота, підбити підсумок усього ярусу чи віднести здобутий предмет одержувачеві.
+
+### Ігри-носії
+
+- [`GAME-0619` — Donkey Kong Bananza](../games/a-f/donkey-kong-bananza.md)
+
+## OBJ-333
+
+- Назва: Зарахувати одну гонку кубка й перенести очки за будь-яке дійсне місце
+- Переглянуто: `2026-11-21`
+
+### Операційне визначення
+
+Заверши гонку в кубку з кількох заїздів. Гра визначає фактичне підсумкове місце й зараховує оголошені очки до встановлення переможця всього кубка. Гонка завершується й за нижчого місця.
+
+### Включає
+
+Друге місце та 12 очок у першій гонці на Е-стадіоні в Donpa Grand Prix у Sonic Racing: CrossWorlds.
+
+### Виключає
+
+Вимога першого місця для зарахування гонки, підрахунок недійсного поступу трасою, оцінювання окремої гонки без очок кубка або вручення кубка за повну серію гонок.
+
+### Ігри-носії
+
+- [`GAME-0621` — "Sonic Racing: CrossWorlds"](../games/s-z/sonic-racing-crossworlds.md)
+
+## OBJ-334
+
+- Назва: Завершити виліт до автоматичної посадки й одержати код наступної місії
+- Переглянуто: `2026-11-21`
+
+### Операційне визначення
+
+Виконай завдання в повітрі й протримайся, доки гра не перебере керування для повернення та посадки. Після зарахування вильоту відкривається новий брифінг із кодом входу. Поточну кампанію можна продовжити одразу, а код дає змогу почати з цієї місії в новому сеансі.
+
+### Включає
+
+Після завершення Dog Fight у Blue Lightning починається автоматична посадка, а брифінг Bombing Run показує код PLAN.
+
+### Виключає
+
+Вимога перемогти фінального боса, ручна посадка, звичайна контрольна точка всередині рівня, непідтверджений поріг очок або автоматичний постійний запис прогресу.
+
+### Ігри-носії
+
+- [`GAME-0623` — "Blue Lightning"](../games/a-f/blue-lightning.md)
+
+## OBJ-335
+
+- Назва: Прийняти початкові матеріали справи й повернутися до самостійного розслідування
+- Переглянуто: `2026-11-21`
+
+### Операційне визначення
+
+Заверши перший брифінг у справі, щоб гра зареєструвала матеріал для звірки й хронологію та повернула звичайне керування. Завдання виконано, коли матеріали отримано й можна продовжувати пошуки у відкритій справі.
+
+### Включає
+
+Завершення першого брифінгу Судді в суді Paradise Killer дає зразок крові та записи в Starlight, після чого розслідування можна продовжити.
+
+### Виключає
+
+Читання однієї окремої нотатки, вирок, перевірка повної реконструкції або проходження обов’язкового ланцюга подій із наперед визначеним розв’язком.
+
+### Ігри-носії
+
+- [`GAME-0624` — "Paradise Killer"](../games/m-r/paradise-killer.md)
+
+## OBJ-336
+
+- Назва: Перейти від спарингу до маршруту без обов’язкової перемоги
+- Переглянуто: `2026-11-21`
+
+### Операційне визначення
+
+Пройди вступний спаринг до сюжетного переходу, після якого можна знову керувати персонажем на маршруті. Для цього не потрібно перемагати наставника чи здобувати перемогу за підсумком поєдинку.
+
+### Включає
+
+Після першого двобою з Рю в Ninja Gaiden Dragon Sword гравець знову керує Моміджі на лісовій стежці.
+
+### Виключає
+
+Перемога за очками, знищення охоронця проходу, виконання обов’язкової кількості дій або повтор невдалої вправи з початку.
+
+### Ігри-носії
+
+- [`GAME-0625` — "Ninja Gaiden Dragon Sword"](../games/m-r/ninja-gaiden-dragon-sword.md)
+
+## OBJ-337
+
+- Назва: Прибрати всі загрози дорожньої події й продовжити поїздку
+- Переглянуто: `2026-11-21`
+
+### Операційне визначення
+
+Поточна дорожня подія завершується після усунення останньої потрібної загрози. Її інтерфейс закривається, а справне авто продовжує поїздку звичайним маршрутом.
+
+### Включає
+
+Після завершення першої події з трактором у Keep Driving седан їде далі, а на панель повертаються дані поїздки.
+
+### Виключає
+
+Фізичне знищення супротивника, очікування завершення таймера, вибір пункту без руху, прибуття до кінцевої мети або підтвердження збереженої нагороди.
+
+### Ігри-носії
+
+- [`GAME-0628` — "Keep Driving"](../games/g-l/keep-driving.md)
+
+## OBJ-338
+
+- Назва: Відновлювати знайдену деталь у розміщеній і доступній споруді поселення
+- Переглянуто: `2026-11-21`
+
+### Операційне визначення
+
+Цикл відновлення завершується, коли названу деталь із зони дослідження встановлено у відповідне гніздо розміщеної споруди, доступної у звичайному режимі руху.
+
+### Включає
+
+У Dark Cloud гравець знаходить колесо на першому поверсі печери, розміщує будинок Пейдж і встановлює збережене колесо в Норуні.
+
+### Виключає
+
+Збирання без установлення, попередній перегляд без розміщення, вставляння деталі в недоступне креслення або зарахування повного відновлення поселення чи виконання всіх прохань мешканців.
+
+### Ігри-носії
+
+- [`GAME-0629` — "Dark Cloud"](../games/a-f/dark-cloud.md)
+
+## OBJ-339
+
+- Назва: Здобувати перемогу екіпажу після відсторонення останнього прихованого супротивника
+- Переглянуто: `2026-11-22`
+
+### Операційне визначення
+
+Коли гравець на боці екіпажу, перемога настає після відсторонення останнього учасника з ворожою роллю. Підсумок прямо підтверджує перемогу екіпажу й показує розподіл ролей.
+
+### Включає
+
+У першій петлі Gnosia для японської PlayStation Vita перемогу зараховано другого дня після кріосну SQ.
+
+### Виключає
+
+Правильний здогад без відсторонення, відсторонення одного супротивника за наявності інших, зарахування окремого голосу як підсумку або завершення всієї гри.
+
+### Ігри-носії
+
+- [`GAME-0630` — "Gnosia"](../games/g-l/gnosia.md)
+
+## OBJ-340
+
+- Назва: Приручити одну дику істоту й додати її до активної зграї
+- Переглянуто: `2026-11-22`
+
+### Операційне визначення
+
+Заверши доступне приручення й досягни стану, коли ця істота справді летить разом із гравцем як учасник зграї. Сам огляд, запис у довіднику, початок приручення чи проміжна оцінка цього ще не підтверджують.
+
+### Включає
+
+У Flock перший Basking Bewl після успішного приручення летить позаду птаха гравця, коли той продовжує політ.
+
+### Виключає
+
+Відкриття виду в довіднику, набір очок, отримання другої такої істоти, припущення про збереження після перезавантаження або приєднання другого гравця.
+
+### Ігри-носії
+
+- [`GAME-0633` — "Flock"](../games/a-f/flock.md)
+
+## OBJ-341
+
+- Назва: Завершити трек із прохідним рангом і перейти до вибору наступного
+- Переглянуто: `2026-11-22`
+
+### Операційне визначення
+
+Заверши перший трек із поточним рангом на рівні прохідного або вищим. Після підтвердження успіху відкриється вибір наступного треку. Сам кінець пісні без прохідного рангу переходу не забезпечує.
+
+### Включає
+
+Перший етап Arcade на Normal в оригінальному виданні Samba de Amigo для Dreamcast, де проходять із рангу C. У записі для двох гравців видно окремі ранги й спільний перехід.
+
+### Виключає
+
+Ціль лише за очками, однаковий ранг для обох результатів, проходження всієї сесії та вимога вищого рангу заради розширеного списку для звичайного переходу.
+
+### Ігри-носії
+
+- [`GAME-0634` — "Samba de Amigo"](../games/s-z/samba-de-amigo.md)
+
+## OBJ-342
+
+- Назва: Відкрити наступний ігровий період спогаду через сюжетну зустріч
+- Переглянуто: `2026-11-22`
+
+### Операційне визначення
+
+Скористайся новою підказкою маршруту, дійди до потрібної розмови й перейди в раніший період школи, де можна рухатися й видно нові завдання. Сам прихід до першої, недоступної цілі не завершує цей крок.
+
+### Включає
+
+Перша розмова з образом Цзяо на даху в періоді 00 переносить Спостерігачку в період −02 й відкриває три місця пошуку Цзяо.
+
+### Виключає
+
+Завершення всього Причастя, виконання всіх трьох завдань, вибір розділу в меню та зміна вмісту минулої події.
+
+### Ігри-носії
+
+- [`GAME-0635` — "1000xRESIST"](../games/0-9/1000xresist.md)
+
+## OBJ-343
+
+- Назва: Підготувати дві ділянки й доповісти, щоб відкрити наступну сцену
+- Переглянуто: `2026-11-22`
+
+### Операційне визначення
+
+Підготуй обидві названі ділянки й доведи кожну до стану готовності. Потім заверши спільне завдання доповіддю екіпажу. Крок зараховано, коли на зміненому астероїді стає доступним новий прохід.
+
+### Включає
+
+Перший епізод The Dig на поверхні: від контейнера зі спорядженням до готовності обох ділянок, доповіді після повернення й відкриття проходу.
+
+### Виключає
+
+Завершення лише однієї ділянки, сам збір спорядження, припущення про зворотний відлік і розв’язання механізмів усередині астероїда.
+
+### Ігри-носії
+
+- [`GAME-0636` — "The Dig"](../games/s-z/the-dig.md)
+
+## OBJ-344
+
+- Назва: Усунути всіх обов’язкових суперників і дійти до підсумку арени
+- Переглянуто: `2026-11-22`
+
+### Операційне визначення
+
+Поки триває спроба, гравець має усунути всіх обов’язкових суперників на арені. Останній із них запускає підсумок. Додаткові завдання враховуються окремо, і для завершення арени не потрібно шукати вихід.
+
+### Включає
+
+Перемога на першій арені Matterhorn у Rollerdrome. У звіті зараховано всіх 22 суперників, хоча частина додаткових завдань лишилася невиконаною.
+
+### Виключає
+
+Дуель з одним суперником, виживання до відліку незалежно від суперників, лише поріг очок або окремий обов’язковий предмет чи фізичний вихід для завершення арени.
+
+### Ігри-носії
+
+- [`GAME-0639` — "Rollerdrome"](../games/m-r/rollerdrome.md)
+
+## OBJ-345
+
+- Назва: Запустити повернення й завершити рівень із рангом через початкові двері
+- Переглянуто: `2026-11-22`
+
+### Операційне визначення
+
+Дістанься об’єкта, що запускає відлік на зворотному шляху, і повернися крізь початкові двері, щоб завершити рівень із рангом. Для цього достатньо першого повернення: додаткове коло можна пропустити.
+
+### Включає
+
+У John Gutter Пеппіно руйнує Pillar John, повертається через відкриті початкові двері й отримує ранг A або B без другого кола.
+
+### Виключає
+
+Фініш у звичайному виході попереду, саме лише досягнення пускового об’єкта, пошук довільного маршруту або вимога ключа від наступного рівня для зарахування поточного.
+
+### Ігри-носії
+
+- [`GAME-0640` — "Pizza Tower"](../games/m-r/pizza-tower.md)
+
+## OBJ-346
+
+- Назва: Завершити потрібну страву й перейти до сімейної сцени
+- Переглянуто: `2026-11-22`
+
+### Операційне визначення
+
+Підготуй страву за потрібними умовами, перевір готовий результат і перейди до наступної сюжетної взаємодії після подачі.
+
+### Включає
+
+Доведи ідлі до готовності, побач їх у коробці для обіду й перейди до розмови з Пааваланом за столом.
+
+### Виключає
+
+Медаль за час, повторні замовлення клієнтів, сам запуск пароварки або завершення всіх подальших страв у сюжеті.
+
+### Ігри-носії
+
+- [`GAME-0642` — "Venba"](../games/s-z/venba.md)
+
+## OBJ-347
+
+- Назва: Здобути один скарб зі скрині відповідного кольору
+- Переглянуто: `2026-11-22`
+
+### Операційне визначення
+
+Щоб завершити відвідування рівня, підбери доступний ключ, дістанься скрині того самого кольору й отримай її скарб.
+
+### Включає
+
+Підбери сірий ключ на лісовому виступі й дістанься сірої скрині, щоб отримати сокиру.
+
+### Виключає
+
+Саме лише підбирання ключа, збирання певної кількості додаткових монет, перемога над визначеним суперником або отримання іншої нагороди, що відкриває маршрут.
+
+### Ігри-носії
+
+- [`GAME-0645` — Wario Land 3](../games/s-z/wario-land-3.md)
+
+## OBJ-348
+
+- Назва: Завершити доручення з косіння кінцевим контактом і повернутися до дослідження
+- Переглянуто: `2026-11-22`
+
+### Операційне визначення
+
+Виконати доручення з косіння, керуючи наданою косаркою, доки вона не досягне заданого кінцевого контакту. Успішний результат включає завершення сцени та повернення до керованого руху на ділянці.
+
+### Включає
+
+Взяти доручення Герберта, пройти смугами до помаранчевої квітки й після сцени знову пройтися парком.
+
+### Виключає
+
+Сам запуск косарки, набір очок, зрізання всіх рослин, здобуття відзнаки або твердження, що саме це доручення відкриває новий район.
+
+### Ігри-носії
+
+- [`GAME-0648` — Thank Goodness You're Here!](../games/s-z/thank-goodness-youre-here.md)
+
+## OBJ-349
+
+- Назва: Завершити допомогу, забрати позначену підказку й повернутися до руху
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Для успіху в цій гілці треба розв’язати задачу співрозмовника, забрати окремо відкриту підказку з видимою позначкою й повернутися до звичайного пересування. Сам прохід маршрутом не дає того самого результату.
+
+### Включає
+
+Скласти пазл на сходах, підняти загублену дівчинкою деталь, помітити чорну лінію на звороті й знову рухатися коридором угорі.
+
+### Виключає
+
+Просто пройти повз сцену, відкрити обов’язкові двері повним замощенням, відповісти на пізніші запитання про докази або прийняти неповну позначку за остаточне пояснення.
+
+### Ігри-носії
+
+- [`GAME-0654` — "Hotel Dusk: Room 215"](../games/g-l/hotel-dusk-room-215.md)
+
+## OBJ-350
+
+- Назва: Завершити оцінювану посадку повною зупинкою
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Після заходу на посадку торкнися смуги, прокотися нею під контролем і повністю зупинися. Гра фіксує оцінку польоту й повертає до варіантів уроку. Подальший допуск має окремі умови.
+
+### Включає
+
+Зупинка легкого літака на смузі дає підтвердження посадки й окрему оцінку. Далі урок показує, скільки балів ще потрібно за друге завдання.
+
+### Виключає
+
+Проліт над смугою, саме лише торкання колесами, завершення всього уроку з двох завдань або запис польоту лише після паркування й вимкнення двигуна.
+
+### Ігри-носії
+
+- [`GAME-0661` — "Pilotwings"](../games/m-r/pilotwings.md)
+
+## OBJ-351
+
+- Назва: Здолати охорону й звільнити місцеву групу заручників для наступного завдання
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Здолай задану групу охорони, виконай окрему дію для звільнення її заручників і отримай наступне завдання, лишаючись у доступній для гри зоні. Перемога в сутичці й звільнення є двома різними обов’язковими результатами.
+
+### Включає
+
+Здолай чотирьох «Щурів», звільни двох поліцейських дією зі спільною мотузкою й отримай завдання знайти Петтіта й Маркса.
+
+### Виключає
+
+Завершення на підсумку бою, порятунок усіх у повній місії, автоматичне відкриття проходу без заручників або посадка в окремий евакуаційний транспорт.
+
+### Ігри-носії
+
+- [`GAME-0662` — "Batman: Arkham Shadow"](../games/a-f/batman-arkham-shadow.md)
+
+## OBJ-352
+
+- Назва: Виграти ритмічний двобій із двома шкалами сили й перейти далі
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Заверши скінченний ритмічний двобій із переможеним супротивником і збережи власний запас сили. Дочекайся зарахованого результату пісні й перейди до визначеного наступного етапу. Ранг окремо оцінює якість гри.
+
+### Включає
+
+У двобої Twisted Reality в одиночному режимі Normal послаб Панпеуса, зіграй заключний відрізок із запасом сили й підтвердь перемогу перед наступним етапом із Флаїнґ-О.
+
+### Виключає
+
+Сольна пісня, де досить вижити, перемога над супротивником без підсумку партитури, обов’язковий найвищий ранг, завершення всієї кампанії або окремий перехід до наступної пісні.
+
+### Ігри-носії
+
+- [`GAME-0663` — "Gitaroo Man"](../games/g-l/gitaroo-man.md)

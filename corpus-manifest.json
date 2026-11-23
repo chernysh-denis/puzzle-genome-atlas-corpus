@@ -1,16 +1,16 @@
 {
   "schemaVersion": "atlas-public-export-v3",
-  "corpusRevision": "r000025",
-  "contentSha256": "db3f06efe9df1c4179f923ed9ea588ded66d5adf5278cc762c59f53e06a06ebf",
-  "generatedAt": "2026-11-10T10:49:05+02:00",
+  "corpusRevision": "r000026",
+  "contentSha256": "bb9f8b717793ff6daf736171bbc43f6cdd3b27e2c73c5231f0658d95b90e6b57",
+  "generatedAt": "2026-11-23T17:07:31+02:00",
   "counts": {
-    "games": 513,
-    "genes": 3711,
+    "games": 666,
+    "genes": 4627,
     "combinations": 274
   },
   "sourceProvenance": {
-    "privateCommit": "9062f2c4724e2560fc52c8d4b8debc6a195acf54",
-    "projectionCommit": "db6951ad4c44416ef6152e27cd9e838826224612"
+    "privateCommit": "1f39a8e32b6b8a5d1cfd12664c65772dd89ea71c",
+    "projectionCommit": "1f39a8e32b6b8a5d1cfd12664c65772dd89ea71c"
   },
   "files": [
     {
@@ -20,7 +20,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "3407e4ae1561afe2ae4278d2b981c68e59b66ba1454c79b08967e0b82e4337d4",
+      "sha256": "9bb2b645b82a385c47b77b6877d6da3f3943a8336f2ab629b149bdd7d7b3dd37",
       "bytes": 1252
     },
     {
@@ -75,8 +75,8 @@
     },
     {
       "path": "knowledge/combinations/COMB-0004.md",
-      "sha256": "1419d5d417653a5acd8afd9f7f569ba1115375def52a808ea1f2ccc523ba9bf1",
-      "bytes": 1482
+      "sha256": "a078d0457d2b44103e863573fb280993b87b4a9c3e43bb94fa4b9c22053b6628",
+      "bytes": 1589
     },
     {
       "path": "knowledge/combinations/COMB-0005.md",
@@ -180,8 +180,8 @@
     },
     {
       "path": "knowledge/combinations/COMB-0025.md",
-      "sha256": "57671ea9acb17af2314ed6ba9b5809c9bc252156451324b2f67d4a397ae98d26",
-      "bytes": 1679
+      "sha256": "c2f896ecdcdaa95377eab74d05673fb2009fe77b117207500b4640e0221f42a6",
+      "bytes": 1761
     },
     {
       "path": "knowledge/combinations/COMB-0026.md",
@@ -285,8 +285,8 @@
     },
     {
       "path": "knowledge/combinations/COMB-0046.md",
-      "sha256": "e20824bb76dda7318a76c4ec36422214ad51bb84acd41c50774f7b22fb970933",
-      "bytes": 1731
+      "sha256": "32e1b901c691e6dc73032b3959002fa361babc64406ca5cf55159451f2619463",
+      "bytes": 1829
     },
     {
       "path": "knowledge/combinations/COMB-0047.md",
@@ -1405,13 +1405,13 @@
     },
     {
       "path": "knowledge/combinations/COMB-0270.md",
-      "sha256": "c081db6d1e3b6066b9c6bde26bb4e2af0c705a5ad42d5368b47d9f5643b43a9f",
-      "bytes": 2998
+      "sha256": "ba22381874b6655842d33ef1e46c4ef144d3b7bad8bcf573298869a680619f55",
+      "bytes": 3711
     },
     {
       "path": "knowledge/combinations/COMB-0271.md",
-      "sha256": "e25e80904a2ca615dd9a6f37ade77103e057ee498986738f2667a36946f5f104",
-      "bytes": 3116
+      "sha256": "5d20cfbe266553f9bc1269c600864ee8cec0d7257b0b13bed6116b261b4e82f9",
+      "bytes": 3272
     },
     {
       "path": "knowledge/combinations/COMB-0272.md",
@@ -1430,8 +1430,8 @@
     },
     {
       "path": "knowledge/combinations/INDEX.md",
-      "sha256": "f3d9fc045f9f4bcda6ce85b43c186c6a63c0897b639144ade348061c3e1b84cc",
-      "bytes": 57075
+      "sha256": "f6b0b72e53691b7ecb3ba6b6b6ad50b898bacc9f1c606c458e98ea91aa6d01c2",
+      "bytes": 57153
     },
     {
       "path": "knowledge/combinations/README.md",
@@ -1445,8 +1445,13 @@
     },
     {
       "path": "knowledge/families/registry.json",
-      "sha256": "7a80e39ff8c1ad2873e639b959ade8c00ef1d81105c349b678d728fff365b169",
-      "bytes": 38166
+      "sha256": "32483f8abbe897ef96852d1d65c4181bd3c2e6510529c82b7192d4c622f54965",
+      "bytes": 43524
+    },
+    {
+      "path": "knowledge/games/0-9/1000xresist.md",
+      "sha256": "8b8336d28da43f10048d7b9db7c59471ad5a49872a8520a0cf17dccb6a3acb6e",
+      "bytes": 13140
     },
     {
       "path": "knowledge/games/0-9/2048.md",
@@ -1465,13 +1470,13 @@
     },
     {
       "path": "knowledge/games/INDEX.md",
-      "sha256": "8ac6ae2eba27c7c6b9f6a12c113eeb46e9fde637e11725c7988db06fb23bb928",
-      "bytes": 206959
+      "sha256": "b18e0b9f72d2736c560ce726801c49c40ce65c306e7ea4dabc3499bc36d7a11c",
+      "bytes": 264541
     },
     {
       "path": "knowledge/games/README.md",
-      "sha256": "e18a6591f1fbc3099c5dc2f06943f1756b950ca96f72287975760c20be3e1471",
-      "bytes": 32469
+      "sha256": "bea575999396b66a991ccad131bccdd93f9a4c3cc76056f0bc96a242355453ef",
+      "bytes": 41657
     },
     {
       "path": "knowledge/games/a-f/a-good-snowman-is-hard-to-build.md",
@@ -1484,6 +1489,11 @@
       "bytes": 16743
     },
     {
+      "path": "knowledge/games/a-f/a-quiet-place-the-road-ahead.md",
+      "sha256": "6f560e339b8f96fd972fd1228259be231bcd13a55aee0f5882d0cd2c92cc34ad",
+      "bytes": 16874
+    },
+    {
       "path": "knowledge/games/a-f/a-way-out.md",
       "sha256": "43d89d3eb616dd56dd01cb04a6882c5642d62a089f79c91e20e8155b272e4c15",
       "bytes": 20898
@@ -1492,6 +1502,11 @@
       "path": "knowledge/games/a-f/advance-wars.md",
       "sha256": "81de672829226bd74be000d9e5fb696b5b96a0672443b029700fed7acdd4b120",
       "bytes": 18545
+    },
+    {
+      "path": "knowledge/games/a-f/afterplace.md",
+      "sha256": "bfef10dc1b091ab970691a89f318f48ea3c2be433b954ac1ea4315846f2f6c18",
+      "bytes": 15895
     },
     {
       "path": "knowledge/games/a-f/against-the-storm.md",
@@ -1524,6 +1539,11 @@
       "bytes": 34224
     },
     {
+      "path": "knowledge/games/a-f/alien-soldier.md",
+      "sha256": "98b0c4bcb81045ba8f4e489bc3ca2bfe8d6f5191f06f0d1f1f234149dfe28e7e",
+      "bytes": 18586
+    },
+    {
       "path": "knowledge/games/a-f/alone-in-the-dark.md",
       "sha256": "6fd6e7bd9dc2a28cb1854529d31192b48f83193038c2b6f7ff410d279b49f99f",
       "bytes": 22240
@@ -1547,6 +1567,16 @@
       "path": "knowledge/games/a-f/animal-crossing-new-leaf.md",
       "sha256": "87aed25ea43d001b3582e70d9fc65c54b14a4dfb54191bbd51afde98bac668e3",
       "bytes": 25428
+    },
+    {
+      "path": "knowledge/games/a-f/animal-well.md",
+      "sha256": "f30a3888f692a43a4b97178eecb8c744fa54a5946d5bb895f61f86cf9bd0c7f7",
+      "bytes": 17548
+    },
+    {
+      "path": "knowledge/games/a-f/anno-117-pax-romana.md",
+      "sha256": "9f875186f93191c324b002488d77e632b0fc45703aa5f9bf5537408a1a03a666",
+      "bytes": 17966
     },
     {
       "path": "knowledge/games/a-f/anno-1800.md",
@@ -1614,6 +1644,11 @@
       "bytes": 20361
     },
     {
+      "path": "knowledge/games/a-f/ball-x-pit.md",
+      "sha256": "380ea54692ca782d2606a2dbb81cd1265044c5166cbd19bcc5d33c331ecf42a1",
+      "bytes": 21479
+    },
+    {
       "path": "knowledge/games/a-f/banjo-kazooie-nuts-and-bolts.md",
       "sha256": "dcf83f524a67f4d46954466afca432a7d90f31c9da12c2e5621a043359ed821f",
       "bytes": 18334
@@ -1627,6 +1662,11 @@
       "path": "knowledge/games/a-f/batman-arkham-asylum-game-of-the-year-edition.md",
       "sha256": "eeb588ebb5d3946a585523dbc1e90be1752f608258737c478d2118b177175182",
       "bytes": 34088
+    },
+    {
+      "path": "knowledge/games/a-f/batman-arkham-shadow.md",
+      "sha256": "3549b9baf6f86607cbbfc6041af6ef90ef1e0babd7ed9048479aac020427292a",
+      "bytes": 19533
     },
     {
       "path": "knowledge/games/a-f/battlefield-2042.md",
@@ -1664,6 +1704,11 @@
       "bytes": 19118
     },
     {
+      "path": "knowledge/games/a-f/bionic-bay.md",
+      "sha256": "6db1fe092f5347d109dd5c3461171e4a518a629ed8edc44a95f9ea6340126ea1",
+      "bytes": 17285
+    },
+    {
       "path": "knowledge/games/a-f/bioshock-remastered.md",
       "sha256": "1206b8d9944931e989b28c5cf65c9dd4db109b9977024ca125eb7b29290a6e08",
       "bytes": 30028
@@ -1684,6 +1729,11 @@
       "bytes": 24502
     },
     {
+      "path": "knowledge/games/a-f/blast-corps.md",
+      "sha256": "8b1d7aac998363d61caa42bdebe3ed11e8d824f527427c5cd264c8f894433f46",
+      "bytes": 15369
+    },
+    {
       "path": "knowledge/games/a-f/bloodborne.md",
       "sha256": "fee95756fec5322ba148269915d04334f4f64a028a8976d502c6413e313e9fd5",
       "bytes": 22600
@@ -1694,9 +1744,19 @@
       "bytes": 43131
     },
     {
+      "path": "knowledge/games/a-f/blue-lightning.md",
+      "sha256": "23964b8f7f7cbeb0c6a100c2e578c361a9b457985e148a06a76d71bd352b6a9f",
+      "bytes": 13399
+    },
+    {
       "path": "knowledge/games/a-f/blue-prince.md",
       "sha256": "49175418d9836fbcf311c117aa6036fd22b25d9c48323407f89a46bb348b8a44",
       "bytes": 16408
+    },
+    {
+      "path": "knowledge/games/a-f/boktai-the-sun-is-in-your-hand.md",
+      "sha256": "b3651c4deed52d68aec894b0217ee119e49aff96d9494dbf327f668beb1d96e1",
+      "bytes": 30444
     },
     {
       "path": "knowledge/games/a-f/bonfire-peaks.md",
@@ -1724,6 +1784,11 @@
       "bytes": 13176
     },
     {
+      "path": "knowledge/games/a-f/burning-rangers.md",
+      "sha256": "4fb55f8d8ac3f9e7da2cffc2ad819adf57c51cf8bdea83dbf0c43a0f234b776c",
+      "bytes": 20508
+    },
+    {
       "path": "knowledge/games/a-f/burnout-3-takedown.md",
       "sha256": "b79292ddac712cf99c4401c888986ee5ac6362265002bd1b97bb92200199de93",
       "bytes": 17793
@@ -1732,6 +1797,16 @@
       "path": "knowledge/games/a-f/burnout-paradise.md",
       "sha256": "18313b1bc74b7c50e424012272cf518483211ef5efab63a83954a11e211021fc",
       "bytes": 17069
+    },
+    {
+      "path": "knowledge/games/a-f/bushido-blade.md",
+      "sha256": "c9bb277e58f756b9c85fc7df6f30b29a18d287198648e5ba4ccba08a22181bc9",
+      "bytes": 14602
+    },
+    {
+      "path": "knowledge/games/a-f/cairn.md",
+      "sha256": "09851f4b61f22ebe72664d0400f96cabc3ed8989eb392a7c287d5d75388536c0",
+      "bytes": 14323
     },
     {
       "path": "knowledge/games/a-f/call-of-juarez-gunslinger.md",
@@ -1769,6 +1844,11 @@
       "bytes": 16614
     },
     {
+      "path": "knowledge/games/a-f/cassette-beasts.md",
+      "sha256": "4bbea61945572a883ffffdd3d3b6eeaacf60c4b59b0ab733580b4344a5bc6465",
+      "bytes": 21815
+    },
+    {
       "path": "knowledge/games/a-f/castlevania-symphony-of-the-night.md",
       "sha256": "cc30d4e75b1e7df0818308133f992bd9b24f79fb594860c2ae2188d9ad052d48",
       "bytes": 18070
@@ -1794,9 +1874,24 @@
       "bytes": 16055
     },
     {
+      "path": "knowledge/games/a-f/chibi-robo.md",
+      "sha256": "7fef06558078ec909353bf67167d0d7f12d451fd785c49b1f637889f18b2431f",
+      "bytes": 21989
+    },
+    {
+      "path": "knowledge/games/a-f/chicory-a-colorful-tale.md",
+      "sha256": "ca4318949e051ec5715915dc3f96942a22bad7db8e8c443cdc52dc64e2a9a56a",
+      "bytes": 14438
+    },
+    {
       "path": "knowledge/games/a-f/chrono-trigger.md",
       "sha256": "ccf1377d5d0b647f8814e992b2c691487fe0b40f2f80de5e661cb315d2769545",
       "bytes": 25552
+    },
+    {
+      "path": "knowledge/games/a-f/chuchu-rocket.md",
+      "sha256": "454b27c77071bf4e0686fb547fd5db5fc8da2cc7dd07eafe777071610c3cf9c6",
+      "bytes": 15708
     },
     {
       "path": "knowledge/games/a-f/cities-skylines-ii.md",
@@ -1899,9 +1994,24 @@
       "bytes": 28834
     },
     {
+      "path": "knowledge/games/a-f/culdcept.md",
+      "sha256": "fbecab698243964b2868d645e43c88c9e15ca30f308753fd78062f40a226f27f",
+      "bytes": 21961
+    },
+    {
+      "path": "knowledge/games/a-f/cult-of-the-lamb.md",
+      "sha256": "48cf980858c6019acb35a99fe568d00c5ab801ebfe1190edc3eaa0fb679e461b",
+      "bytes": 18758
+    },
+    {
       "path": "knowledge/games/a-f/cuphead.md",
       "sha256": "02196f4f3df182115d7565accc42e390896457968c2eeafe41742e49156aae37",
       "bytes": 24517
+    },
+    {
+      "path": "knowledge/games/a-f/custom-robo.md",
+      "sha256": "577e4c8cb2952e2fecbf689ae0eed37a2759fcfdfe1f5f5b8cd5e48c71be8b4b",
+      "bytes": 19017
     },
     {
       "path": "knowledge/games/a-f/cut-the-rope.md",
@@ -1922,6 +2032,11 @@
       "path": "knowledge/games/a-f/dancedancerevolution.md",
       "sha256": "b29a216c4bd553ea465ce78d28bd3901986838aa63353043877af3b53a10c2d6",
       "bytes": 15608
+    },
+    {
+      "path": "knowledge/games/a-f/dark-cloud.md",
+      "sha256": "25913597b30aa2cb3009087712c09b67092c1c3a2966919a6ce780cc7be46dbf",
+      "bytes": 14153
     },
     {
       "path": "knowledge/games/a-f/dark-souls-iii.md",
@@ -1999,6 +2114,11 @@
       "bytes": 24596
     },
     {
+      "path": "knowledge/games/a-f/despelote.md",
+      "sha256": "f89a8bfc1d860202233a5599ee0a46623e88f507ff68ad0055a208983dbca35c",
+      "bytes": 13191
+    },
+    {
       "path": "knowledge/games/a-f/destiny-2.md",
       "sha256": "6544e6c8df6b0c68f83d11a050d79f7dc2ac9f5f25199e4f4f63111cb930d049",
       "bytes": 21769
@@ -2019,9 +2139,19 @@
       "bytes": 26230
     },
     {
+      "path": "knowledge/games/a-f/dicey-dungeons.md",
+      "sha256": "4d029c79b90f7f3bc5f87067603ed3cbb872ba7f95e24a7c7236255fde5ccf02",
+      "bytes": 21405
+    },
+    {
       "path": "knowledge/games/a-f/diner-dash.md",
       "sha256": "eff5efc9797ca5088e08d428b07b77a1853d9e8b83e3af2129aa65556a5cf4b7",
       "bytes": 17206
+    },
+    {
+      "path": "knowledge/games/a-f/dino-crisis.md",
+      "sha256": "c110544dd641f01ea5c54845dba2c631340d080d08085bb83546ffa39664e917",
+      "bytes": 14365
     },
     {
       "path": "knowledge/games/a-f/disco-elysium-the-final-cut.md",
@@ -2034,14 +2164,29 @@
       "bytes": 28563
     },
     {
+      "path": "knowledge/games/a-f/dispatch.md",
+      "sha256": "c3b87c636e557a4e1d6685423af0375e40d6a37de22a3d5067f096d401966613",
+      "bytes": 20048
+    },
+    {
       "path": "knowledge/games/a-f/divinity-original-sin-2-definitive-edition.md",
       "sha256": "a751ec01334760dd7502dafa6d91e6b1db54130e11b03d2d0c81ea52b9f246e6",
       "bytes": 18289
     },
     {
+      "path": "knowledge/games/a-f/dome-keeper.md",
+      "sha256": "803f9cd73451eb8eee86e36cbc5c6be98bcd16f79725c9b1c97b03f8f8a25eaf",
+      "bytes": 26195
+    },
+    {
       "path": "knowledge/games/a-f/dominosa.md",
       "sha256": "cf5e00d71a7bc0d90d5e56318d45fd3fbac7e3afdbddedb1a3c72bbdf3bfdf2d",
       "bytes": 11787
+    },
+    {
+      "path": "knowledge/games/a-f/donkey-kong-bananza.md",
+      "sha256": "d7bc95b4850461528a814db04d0243b8a4620bc473d8f08e11f408be4287f243",
+      "bytes": 14855
     },
     {
       "path": "knowledge/games/a-f/donkey-kong-country-returns.md",
@@ -2079,6 +2224,11 @@
       "bytes": 18056
     },
     {
+      "path": "knowledge/games/a-f/dosa-divas.md",
+      "sha256": "196f781609e4e6c0dc9bb041c5c88b1b2dc0cf89f17184c101cedb3dff6d56a9",
+      "bytes": 20486
+    },
+    {
       "path": "knowledge/games/a-f/dota-2.md",
       "sha256": "122cb013c2a5b70c92744c3f143ebe7defd25aa5ced853acff5d719187feb51f",
       "bytes": 15773
@@ -2094,9 +2244,29 @@
       "bytes": 38219
     },
     {
+      "path": "knowledge/games/a-f/drop-duchy.md",
+      "sha256": "2410c9f2fdc0b3482adcbb57948b4fec825fd5ef889114bc360e9800a89766c5",
+      "bytes": 15698
+    },
+    {
+      "path": "knowledge/games/a-f/duck-detective-the-ghost-of-glamping.md",
+      "sha256": "84eaa8070433cdd9dc1d225a30ad968eaf2139ca2952646723ff829ee7589b95",
+      "bytes": 17887
+    },
+    {
       "path": "knowledge/games/a-f/duck-hunt.md",
       "sha256": "6a146eccd335788c38014888b01c382da503386e8012ececbf08836cbcad11fe",
       "bytes": 22764
+    },
+    {
+      "path": "knowledge/games/a-f/dungeon-keeper.md",
+      "sha256": "a96b007d7b9af0d7c7eb27bbd10d4a60ad18e25a2a2c56f168574596d8c72171",
+      "bytes": 18817
+    },
+    {
+      "path": "knowledge/games/a-f/dungeons-of-hinterberg.md",
+      "sha256": "afd3d1d8815ecd3d2a021c4d0c4ddded13b23724e5b979e1a8188448bd33bc4f",
+      "bytes": 21869
     },
     {
       "path": "knowledge/games/a-f/dwarf-fortress.md",
@@ -2119,6 +2289,11 @@
       "bytes": 18137
     },
     {
+      "path": "knowledge/games/a-f/ecco-the-dolphin-defender-of-the-future.md",
+      "sha256": "aa216d93e1ace19996b781fb5c2f4c01747726310db9d3cddc94b9606230fb62",
+      "bytes": 16064
+    },
+    {
       "path": "knowledge/games/a-f/ecco-the-dolphin.md",
       "sha256": "ee8be9ae6652159fa2067ceca988dd7611cdc70a06de0baef4b3f47e99c61334",
       "bytes": 13335
@@ -2129,9 +2304,19 @@
       "bytes": 18928
     },
     {
+      "path": "knowledge/games/a-f/einhander.md",
+      "sha256": "7886f4f44a595928253996a58aaf6e35dc79361eca5cd63e2c39c4cf61ed54b0",
+      "bytes": 16740
+    },
+    {
       "path": "knowledge/games/a-f/elden-ring.md",
       "sha256": "11a19dfc9f1afe0ed48dca972a7600619db8228b30691fbd3dba936cf6b49e2d",
       "bytes": 15369
+    },
+    {
+      "path": "knowledge/games/a-f/elite-beat-agents.md",
+      "sha256": "4fda60ca4a33d0d39a7d914decd82b6d5ef973319d8cd02d1aa4aaf94b4b4a47",
+      "bytes": 23634
     },
     {
       "path": "knowledge/games/a-f/elite.md",
@@ -2147,6 +2332,11 @@
       "path": "knowledge/games/a-f/euro-truck-simulator-2.md",
       "sha256": "54aa50dea1516160066c79ad20bc3869dee6e53469504a97bca9ed46a03f6dd9",
       "bytes": 20195
+    },
+    {
+      "path": "knowledge/games/a-f/excite-truck.md",
+      "sha256": "735c9bbbf25621d1330a3e34aaf0fe77da8c3b07748f4253513a7d7c64be342f",
+      "bytes": 17946
     },
     {
       "path": "knowledge/games/a-f/f-zero-gx.md",
@@ -2194,6 +2384,11 @@
       "bytes": 22975
     },
     {
+      "path": "knowledge/games/a-f/fatal-frame.md",
+      "sha256": "7cc1a01c7c2bddfa54e4bf3ae7640fc4e7fce68bc9e5e26cd352866e4fdc73a2",
+      "bytes": 17552
+    },
+    {
       "path": "knowledge/games/a-f/fear.md",
       "sha256": "c97a852c4cbf0c24c81f13727f643c16b01e845fc6ce79c053490e9508d5f455",
       "bytes": 32300
@@ -2227,6 +2422,16 @@
       "path": "knowledge/games/a-f/final-fantasy-xiv-online.md",
       "sha256": "9ee17ba6072df31f5550e8847a0170af215de6bba3249acacbba6481909b7055",
       "bytes": 23500
+    },
+    {
+      "path": "knowledge/games/a-f/flock.md",
+      "sha256": "85591990a389ae0554e42e39e26b4ff1f9918b621cdac2c6007df1deb876c707",
+      "bytes": 12975
+    },
+    {
+      "path": "knowledge/games/a-f/florence.md",
+      "sha256": "1f11ec47d78ef66e3c0c0b4ea31be0be3133744cf7970fda1bd1ec1908d026d4",
+      "bytes": 15675
     },
     {
       "path": "knowledge/games/a-f/flow-free.md",
@@ -2284,6 +2489,11 @@
       "bytes": 20663
     },
     {
+      "path": "knowledge/games/a-f/fuga-melodies-of-steel.md",
+      "sha256": "cadc3a59275158bbd7e79bfdf409c2d25383f6a0adf862c3af8f5c68f4a0f66c",
+      "bytes": 14686
+    },
+    {
       "path": "knowledge/games/g-l/galaxies.md",
       "sha256": "f0cbeb2c5e640b63877ff6d24a966721bb8e0ed99af2ff67661ae78928201882",
       "bytes": 11652
@@ -2302,6 +2512,26 @@
       "path": "knowledge/games/g-l/geometry-wars-retro-evolved.md",
       "sha256": "7aa5ab15b5de480d68c6e29412ae6e21ade647e6f89c5490d406fe0431e9d8f0",
       "bytes": 19862
+    },
+    {
+      "path": "knowledge/games/g-l/ghost-of-yotei.md",
+      "sha256": "f11c918a695b5f597fe7ddeb12809ba73c74dbe3291bc30405ecc1442b998b0a",
+      "bytes": 18190
+    },
+    {
+      "path": "knowledge/games/g-l/ghost-trick-phantom-detective.md",
+      "sha256": "c8208fa42ddfd5bf39b28070f168e9a2f3580d8461b63ac0880a492a5cf9f18a",
+      "bytes": 17962
+    },
+    {
+      "path": "knowledge/games/g-l/gitaroo-man.md",
+      "sha256": "62018b94acd4f57f7091bf00b3f887e171afffccf1dcfd46bcbdcff5a78b5a62",
+      "bytes": 18114
+    },
+    {
+      "path": "knowledge/games/g-l/gnosia.md",
+      "sha256": "9c22e84d38de961241b5cbbd46763115e2ad8942498559cde1884925a73c65fc",
+      "bytes": 13392
     },
     {
       "path": "knowledge/games/g-l/god-of-war.md",
@@ -2349,6 +2579,11 @@
       "bytes": 16740
     },
     {
+      "path": "knowledge/games/g-l/grim-fandango.md",
+      "sha256": "e1b4d86b5b4ac2234444221e09cef08f204e5cecd1bf5b5c380484e0dea9ddc4",
+      "bytes": 16755
+    },
+    {
       "path": "knowledge/games/g-l/grounded.md",
       "sha256": "791df3faaa9e55243b246e78f296af6c45349234d61ec51154896ff38a917d4e",
       "bytes": 26140
@@ -2357,6 +2592,16 @@
       "path": "knowledge/games/g-l/guitar-hero-iii-legends-of-rock.md",
       "sha256": "06b3feb5c2cdfe48935d7b40bec29f435d24e256100a27d6c751c673fe8b5dd1",
       "bytes": 14460
+    },
+    {
+      "path": "knowledge/games/g-l/gunstar-heroes.md",
+      "sha256": "ad09e771aa5c2a6426444052c77c8f6cd371e470f20ab02c9412258608967c75",
+      "bytes": 25269
+    },
+    {
+      "path": "knowledge/games/g-l/hades-ii.md",
+      "sha256": "7c0b6e1e1c213629a057154cec0cfe8a772c2e0a75d037b991d5cc07ab93336c",
+      "bytes": 19866
     },
     {
       "path": "knowledge/games/g-l/hades.md",
@@ -2387,6 +2632,11 @@
       "path": "knowledge/games/g-l/halo-wars.md",
       "sha256": "fc9ca41d7cee720edfb16e102fca69c5125367e7036601d8dae44d9dbfce1a31",
       "bytes": 17264
+    },
+    {
+      "path": "knowledge/games/g-l/hardspace-shipbreaker.md",
+      "sha256": "b53b3d100da117c3ae17861b75b294db6a938995f368bb0452ab6c1656b28a74",
+      "bytes": 17339
     },
     {
       "path": "knowledge/games/g-l/harvest-moon-back-to-nature.md",
@@ -2424,6 +2674,11 @@
       "bytes": 16584
     },
     {
+      "path": "knowledge/games/g-l/hi-fi-rush.md",
+      "sha256": "66349a8dd731bdc3917a875b94b47ecd169d3ee44f178913a228e5d7ed638926",
+      "bytes": 22381
+    },
+    {
       "path": "knowledge/games/g-l/hitman-world-of-assassination.md",
       "sha256": "030af0c3b29e4392a2488f0f8c0ee99f1bc654be122ed673b4ee900f1cd0007b",
       "bytes": 29980
@@ -2439,9 +2694,19 @@
       "bytes": 24646
     },
     {
+      "path": "knowledge/games/g-l/homeworld.md",
+      "sha256": "34b6337811ed928246e78ee2e296c1348fd4f5b3e10f0d500fbdd5e291fb6227",
+      "bytes": 21285
+    },
+    {
       "path": "knowledge/games/g-l/hook.md",
       "sha256": "7af1052afded4c957763de32b7d3a469022685c65fe5b6e3e1fe951edf445b6b",
       "bytes": 15388
+    },
+    {
+      "path": "knowledge/games/g-l/hotel-dusk-room-215.md",
+      "sha256": "c1c46903e4741714c65b5e9bf6c0ac90ba7bc8bd67f29b548ad7f81548e4d82f",
+      "bytes": 16803
     },
     {
       "path": "knowledge/games/g-l/human-fall-flat.md",
@@ -2504,6 +2769,16 @@
       "bytes": 15696
     },
     {
+      "path": "knowledge/games/g-l/into-the-radius.md",
+      "sha256": "d566b2b664152f69e70c0bac08d1728064fa76aff8c1e57d105437ecd400f67c",
+      "bytes": 17547
+    },
+    {
+      "path": "knowledge/games/g-l/is-this-seat-taken.md",
+      "sha256": "364fae0bc0d48110db60822e19bb4859388fa7648f7e3b5d26edf5f1e2283bd5",
+      "bytes": 17162
+    },
+    {
       "path": "knowledge/games/g-l/it-takes-two.md",
       "sha256": "83a8a0252cc9f39d7e3148ed0e3aa4a0e52958d9cb359482bdfecf84620c3fd6",
       "bytes": 19120
@@ -2524,6 +2799,11 @@
       "bytes": 15012
     },
     {
+      "path": "knowledge/games/g-l/jusant.md",
+      "sha256": "e60a7cddff1cb582ce3274581cca7941b3a2f18955a7a3bfe3f0eaf6b9554cb5",
+      "bytes": 20702
+    },
+    {
       "path": "knowledge/games/g-l/kami.md",
       "sha256": "d87e978ee9833cf417c262cea11bddf81ec4fd30a86569468c3721e5bc71e1b1",
       "bytes": 15571
@@ -2539,14 +2819,29 @@
       "bytes": 10632
     },
     {
+      "path": "knowledge/games/g-l/keep-driving.md",
+      "sha256": "8871942a7c39f09b1564a2e6cc304ba939306cfa30f8184f529d8c53bf8542fb",
+      "bytes": 13458
+    },
+    {
       "path": "knowledge/games/g-l/keep-talking-and-nobody-explodes.md",
       "sha256": "af0c354ab5dcf7d791796f36e07bbaa99c3e2029b12fa8040630c15a63bd6177",
       "bytes": 13078
     },
     {
+      "path": "knowledge/games/g-l/keeper.md",
+      "sha256": "19c04fe40cba413056ada8d837bf8b873821e1791f26542b1e38bd3caac0097d",
+      "bytes": 15339
+    },
+    {
       "path": "knowledge/games/g-l/kerbal-space-program.md",
       "sha256": "04e6bba99637ffdbefac79e30d24e0eeba8d63a077eb0d65a5e3b0bf394eeeb6",
       "bytes": 42235
+    },
+    {
+      "path": "knowledge/games/g-l/killer7.md",
+      "sha256": "d066b3ffec9ee8aeba36aa83e6e8bb87307baccaad4be715939c17185de2b516",
+      "bytes": 14718
     },
     {
       "path": "knowledge/games/g-l/kinect-adventures.md",
@@ -2559,9 +2854,29 @@
       "bytes": 19096
     },
     {
+      "path": "knowledge/games/g-l/kirby-air-riders.md",
+      "sha256": "0a61df3816d074aa9524a164828e5ad110ebf3948b6610afa2dd66662d2cf790",
+      "bytes": 14919
+    },
+    {
+      "path": "knowledge/games/g-l/kirby-tilt-n-tumble.md",
+      "sha256": "b2544d3682398fdc168d4cd9746fa7117c2d471a28ff2d3bcef1ec935f51e5bc",
+      "bytes": 18011
+    },
+    {
       "path": "knowledge/games/g-l/kirbys-adventure.md",
       "sha256": "0b413a3a04e5306589e5ed26b4fc09404d77b5198daebc791dfb7d2dd4af0f73",
       "bytes": 18847
+    },
+    {
+      "path": "knowledge/games/g-l/kunitsu-gami-path-of-the-goddess.md",
+      "sha256": "474f374fd9c2fbd93ef9a7526e6aa90ddab16b596178b694d13bf4e27d51a32d",
+      "bytes": 18820
+    },
+    {
+      "path": "knowledge/games/g-l/kuru-kuru-kururin.md",
+      "sha256": "965f0e4b72a7f6b455c12cefeb673b68824c6aa309a64d5fbcf25c58e8bae669",
+      "bytes": 18362
     },
     {
       "path": "knowledge/games/g-l/la-noire.md",
@@ -2572,6 +2887,11 @@
       "path": "knowledge/games/g-l/left-4-dead-2.md",
       "sha256": "a6f601d33680dd50322dd75ccc11b53d94608110f7fd1927343d6fb9b01aba2b",
       "bytes": 24876
+    },
+    {
+      "path": "knowledge/games/g-l/lemmings-2-the-tribes.md",
+      "sha256": "16ad727191df79e3a1129c5d588a7fc0cb76c636139d21604871f2fa57a4d128",
+      "bytes": 14599
     },
     {
       "path": "knowledge/games/g-l/lemmings.md",
@@ -2609,6 +2929,11 @@
       "bytes": 21055
     },
     {
+      "path": "knowledge/games/g-l/lode-runner.md",
+      "sha256": "ea95e4537b0cd724db8de49d58e5d2327ab5b7534316caf99f66c921dfc6c0f6",
+      "bytes": 14934
+    },
+    {
       "path": "knowledge/games/g-l/loop-hero.md",
       "sha256": "fbd389d4432cae6c2dbdcc3e877f2a276e7dfe26a866d42adbbce03a7ebde086",
       "bytes": 18727
@@ -2617,6 +2942,16 @@
       "path": "knowledge/games/g-l/loopy.md",
       "sha256": "ded387d82934903156f5099ea100c97f22bab23be227cd2371c400da2a7b49d6",
       "bytes": 10994
+    },
+    {
+      "path": "knowledge/games/g-l/lorelei-and-the-laser-eyes.md",
+      "sha256": "ecc80eec004e96fbcf40ba6d244c9a9ea24c0dfa5f99ace88ced9b863f36f4e6",
+      "bytes": 25200
+    },
+    {
+      "path": "knowledge/games/g-l/lost-odyssey.md",
+      "sha256": "7f4a36f20ef37195319e0b8b016c4c68ba7d1e68739728db1503597e185c6f5d",
+      "bytes": 19688
     },
     {
       "path": "knowledge/games/g-l/luigis-mansion.md",
@@ -2635,8 +2970,8 @@
     },
     {
       "path": "knowledge/games/index-metadata.json",
-      "sha256": "990042d30fe8bbc4a308acb58f37ee0c38341b08aa1daff4e6ed8ba1be7045df",
-      "bytes": 65173
+      "sha256": "54103987e8e765604a843a8f4fa329133ef4c8f45bec5f7137328a229b03329b",
+      "bytes": 90312
     },
     {
       "path": "knowledge/games/m-r/machinarium.md",
@@ -2719,6 +3054,16 @@
       "bytes": 17921
     },
     {
+      "path": "knowledge/games/m-r/mega-man-battle-network.md",
+      "sha256": "04e5c3270f05be353020eb57c66f73b1eb219ae2b335d5c425a073abeaa85449",
+      "bytes": 17015
+    },
+    {
+      "path": "knowledge/games/m-r/metal-gear-acid.md",
+      "sha256": "5b9344c556919584fa1f55a671964c93616b9bbaf3136968e5b704bde69fbba9",
+      "bytes": 20229
+    },
+    {
       "path": "knowledge/games/m-r/metal-gear-solid-v-the-phantom-pain.md",
       "sha256": "717da39907c28778a1ed1a9322563318512df53698583a461d2070c62c85b519",
       "bytes": 26779
@@ -2749,6 +3094,11 @@
       "bytes": 29286
     },
     {
+      "path": "knowledge/games/m-r/mewgenics.md",
+      "sha256": "dd809b66e4b05dec639ec5e1badb52cbee924f7d25cffc4b363bae34eb2989c6",
+      "bytes": 14014
+    },
+    {
       "path": "knowledge/games/m-r/microsoft-flight-simulator-2024.md",
       "sha256": "156807b449b5cdfea27c2375944681648d8e4793d1c8665b1174335c2973e4e3",
       "bytes": 24650
@@ -2772,6 +3122,16 @@
       "path": "knowledge/games/m-r/mini-motorways.md",
       "sha256": "1cdbc3d03b242b08e234dc0a73e5f0d6cfa4abb1da98238fa0693b0944e5faae",
       "bytes": 14664
+    },
+    {
+      "path": "knowledge/games/m-r/mischief-makers.md",
+      "sha256": "31ecd7daf8883c2d10e16c3325a6313eca5f76f02d73efa24f78d4d629a55818",
+      "bytes": 16073
+    },
+    {
+      "path": "knowledge/games/m-r/mole-mania.md",
+      "sha256": "6c3f9a992c2a5f9f8abcbd594c7a43326095f861b29a0f518c3997bf36148624",
+      "bytes": 16722
     },
     {
       "path": "knowledge/games/m-r/monster-hunter-rise.md",
@@ -2799,6 +3159,11 @@
       "bytes": 17262
     },
     {
+      "path": "knowledge/games/m-r/moss.md",
+      "sha256": "0aa914e9210143c6434a83b6355916cae7de66d3778099764c848b62d472171c",
+      "bytes": 22386
+    },
+    {
       "path": "knowledge/games/m-r/motorstorm.md",
       "sha256": "c6f5d455dd455ea0e9c8445215993cd9529afbade9cb097cb402859ecd3c2199",
       "bytes": 29610
@@ -2822,6 +3187,11 @@
       "path": "knowledge/games/m-r/nba-2k26.md",
       "sha256": "cdc6b674722e7e0335a84629692ed01584c38e062a8369c7f67032bcf139bf23",
       "bytes": 22299
+    },
+    {
+      "path": "knowledge/games/m-r/nba-street-vol-2.md",
+      "sha256": "8de9bf31e77980ad9f3bbe5bac9c7d6f86e9ce25a1c46c560dfd0960c2749c15",
+      "bytes": 22571
     },
     {
       "path": "knowledge/games/m-r/need-for-speed-heat.md",
@@ -2854,6 +3224,11 @@
       "bytes": 20178
     },
     {
+      "path": "knowledge/games/m-r/neon-white.md",
+      "sha256": "b600064ccc646f48d37289ee69e1a43827651d79123817598bafe41b920cf835",
+      "bytes": 16017
+    },
+    {
       "path": "knowledge/games/m-r/net.md",
       "sha256": "a0c6b89643168b5a0de076049c2208cb69813c8f4bf950a5e9786ec029e83d06",
       "bytes": 13164
@@ -2864,14 +3239,29 @@
       "bytes": 14166
     },
     {
+      "path": "knowledge/games/m-r/neva.md",
+      "sha256": "61b1088679f6730921df408b5913c030a74d1a066094bde6fb7b5863e01aa538",
+      "bytes": 21573
+    },
+    {
       "path": "knowledge/games/m-r/nights-into-dreams.md",
       "sha256": "6f79130a57a8aec586ebcb55b4ef4f9e3bc49085fb3d01e039650c5b8fe45805",
       "bytes": 16467
     },
     {
+      "path": "knowledge/games/m-r/nine-sols.md",
+      "sha256": "3a7344a5deb4b903f7ac7cf261d919de5d2effa356d69d6e7fff02a49d04993d",
+      "bytes": 17364
+    },
+    {
       "path": "knowledge/games/m-r/ninja-gaiden-black.md",
       "sha256": "8738caa1ff65992c6dc28d61393a8aa95a259c136c86c1ce637c29e3f33ccbbb",
       "bytes": 25907
+    },
+    {
+      "path": "knowledge/games/m-r/ninja-gaiden-dragon-sword.md",
+      "sha256": "d5d4689f124654978109f41b72d8e3e43c7eeaa2ff8f931caff102bedbece296",
+      "bytes": 13037
     },
     {
       "path": "knowledge/games/m-r/nintendogs.md",
@@ -2944,6 +3334,16 @@
       "bytes": 12087
     },
     {
+      "path": "knowledge/games/m-r/outrun-2.md",
+      "sha256": "2d86210284d32d05df9606a1ad918789f643bf014489b6bff9bea6f14cdda2b7",
+      "bytes": 15893
+    },
+    {
+      "path": "knowledge/games/m-r/outtrigger.md",
+      "sha256": "ca86b03b92688562988c1cfc5e8d3941ae0a081b42b7b50922121dd8515c6780",
+      "bytes": 17096
+    },
+    {
       "path": "knowledge/games/m-r/overcooked-2.md",
       "sha256": "73865a1dd78aefc7056ce8434f4e19650918931a621082e58832b9709695d61d",
       "bytes": 17371
@@ -2974,6 +3374,16 @@
       "bytes": 17953
     },
     {
+      "path": "knowledge/games/m-r/panzer-dragoon-ii-zwei.md",
+      "sha256": "b2ae3302f31070d8d85299b247207b7ab6926ad512e7a39da77992406a560b51",
+      "bytes": 19125
+    },
+    {
+      "path": "knowledge/games/m-r/panzer-dragoon-saga.md",
+      "sha256": "589b4f5d8f074fb9df0bbb2e01a6c8402ea4d85ec9b750ae88b43fafe820d611",
+      "bytes": 14872
+    },
+    {
       "path": "knowledge/games/m-r/panzer-dragoon.md",
       "sha256": "ce58e0ca6b95501eec41f86a359de96a9ac35a2fb53fec20aa540a676d125ee2",
       "bytes": 26731
@@ -2989,9 +3399,19 @@
       "bytes": 12248
     },
     {
+      "path": "knowledge/games/m-r/paradise-killer.md",
+      "sha256": "415ae0d1480445b17e3c98d82bc0870cae659fa26cf3be1da8306ec63a83cb62",
+      "bytes": 12724
+    },
+    {
       "path": "knowledge/games/m-r/parappa-the-rapper-remastered.md",
       "sha256": "d1ebe2d776fdb75e793a0939d0e4e0a2761de3987ff0705cea07eb5c548ac9e2",
       "bytes": 14376
+    },
+    {
+      "path": "knowledge/games/m-r/parasite-eve.md",
+      "sha256": "7bf8f3e081d2529f0608dca9659767e206e14d3f002014ede85b6dcb50c140f6",
+      "bytes": 25439
     },
     {
       "path": "knowledge/games/m-r/patapon.md",
@@ -3039,6 +3459,21 @@
       "bytes": 5596
     },
     {
+      "path": "knowledge/games/m-r/pentiment.md",
+      "sha256": "53f76feda1ced4ded6f9acb2434d7aa65a65b5c14179e2083eb8e460c97747e5",
+      "bytes": 17684
+    },
+    {
+      "path": "knowledge/games/m-r/people-of-note.md",
+      "sha256": "46eb805ea5fa0c0abc5149eab93c0d927eafca2ae47d2a3f180eb3e231d301ef",
+      "bytes": 19228
+    },
+    {
+      "path": "knowledge/games/m-r/pepper-grinder.md",
+      "sha256": "9386380ca141209e7870cf80363d345da6e5ece1e0ec5915fde1b48377f25e4b",
+      "bytes": 14074
+    },
+    {
       "path": "knowledge/games/m-r/persona-5-royal.md",
       "sha256": "41fbfdc4e71e2254498fe422ec58bccd702facd6ce69e9a16a1921ee01e745d1",
       "bytes": 26017
@@ -3054,14 +3489,34 @@
       "bytes": 21015
     },
     {
+      "path": "knowledge/games/m-r/pilotwings-64.md",
+      "sha256": "549fdeb1f504e4dee2c376f0c58c29c200c95a73f3dca9d58f538c2fb5537132",
+      "bytes": 17698
+    },
+    {
+      "path": "knowledge/games/m-r/pilotwings.md",
+      "sha256": "e019bb5904c6fbebc4436108660f17dd2c7e2b5849e9dbc8ad2c882b745f131c",
+      "bytes": 16694
+    },
+    {
       "path": "knowledge/games/m-r/pipe-mania.md",
       "sha256": "a74d47880962ddc2ddaed82ea2ac6f2c343a394ebe5f8d6bffc1b4ce10eae88c",
       "bytes": 15415
     },
     {
+      "path": "knowledge/games/m-r/pipistrello-and-the-cursed-yoyo.md",
+      "sha256": "48f62894ae11d73ce84d880668f84252b092737190fab6edf15a9c247ecfe01a",
+      "bytes": 18407
+    },
+    {
       "path": "knowledge/games/m-r/pitfall.md",
       "sha256": "3703279f2abb94cc969fc4eee7759ca153a0f3790a19d9785f1d4a4be6f8b8d9",
       "bytes": 17172
+    },
+    {
+      "path": "knowledge/games/m-r/pizza-tower.md",
+      "sha256": "50400452799aa52dff15175f03240877810c850f0ef4ac335cbb0f2a5ad29e39",
+      "bytes": 13725
     },
     {
       "path": "knowledge/games/m-r/planet-zoo-console-edition.md",
@@ -3089,6 +3544,11 @@
       "bytes": 20613
     },
     {
+      "path": "knowledge/games/m-r/pokemon-pokopia.md",
+      "sha256": "e8add54bd2f2d1417e806c379c37443d76069b2c82b9c21db998b79bdd869d2c",
+      "bytes": 17443
+    },
+    {
       "path": "knowledge/games/m-r/pokemon-red-version.md",
       "sha256": "ced0e77fd01734232bdd83009c462c132ed1d65d62c70c21e78f3240317ad3a3",
       "bytes": 26069
@@ -3114,9 +3574,24 @@
       "bytes": 18755
     },
     {
+      "path": "knowledge/games/m-r/power-stone.md",
+      "sha256": "8e829d29b43c9ccb3f6aab9e53bb318788aa00a80cbc9339028ec0f132d333f4",
+      "bytes": 17372
+    },
+    {
+      "path": "knowledge/games/m-r/powerwash-simulator-2.md",
+      "sha256": "868546bb422c5742996e8ffa2146be6468d58d5cdf3e6eaa57158e6a4e6ad51e",
+      "bytes": 17543
+    },
+    {
       "path": "knowledge/games/m-r/powerwash-simulator.md",
       "sha256": "5c25b2ff5899408c33b81ae88a98090d60d61426cb4c0f8beb00b9c19d8b6d8c",
       "bytes": 25194
+    },
+    {
+      "path": "knowledge/games/m-r/pragmata.md",
+      "sha256": "f407ce926474fba87077ca139823f2681131305804d9464fe94f6e5cb9499f92",
+      "bytes": 18502
     },
     {
       "path": "knowledge/games/m-r/prey-2017.md",
@@ -3142,6 +3617,11 @@
       "path": "knowledge/games/m-r/project-zomboid.md",
       "sha256": "dd845fc67a2ba5d3bf2f6e9dfedeee347628622cc0581206ea6cbc2716502cef",
       "bytes": 18028
+    },
+    {
+      "path": "knowledge/games/m-r/psychonauts-2.md",
+      "sha256": "8815180fd6025b0e6edbd476dd06fc61448e7575b00494fa2e0906e34e254720",
+      "bytes": 26829
     },
     {
       "path": "knowledge/games/m-r/psychonauts.md",
@@ -3229,9 +3709,29 @@
       "bytes": 20076
     },
     {
+      "path": "knowledge/games/m-r/returnal.md",
+      "sha256": "0d63cdec471604bcf8a425f081ec89236ca4a356195585fb94745d9fad75618a",
+      "bytes": 20608
+    },
+    {
+      "path": "knowledge/games/m-r/rez.md",
+      "sha256": "bf6798f5b67a37af8e9edec7d21a68fc33ec5fa7d083aa5824a292091b16f538",
+      "bytes": 18520
+    },
+    {
+      "path": "knowledge/games/m-r/rhythm-doctor.md",
+      "sha256": "67e02dbceeb3add71869130d1eea6242cfb0133358fc9e41eebd029fe1d9ce7c",
+      "bytes": 16905
+    },
+    {
       "path": "knowledge/games/m-r/rhythm-heaven.md",
       "sha256": "9b91e2ce08a1e0e00cd2d3a4d7bb9d9856dad9e4eb23796961133d6f0328e4d8",
       "bytes": 19211
+    },
+    {
+      "path": "knowledge/games/m-r/ridge-racer-type-4.md",
+      "sha256": "cf60256ea0426d150a20be6771411652f49ab01a9805196b2a907c06cc494120",
+      "bytes": 22027
     },
     {
       "path": "knowledge/games/m-r/rimworld.md",
@@ -3249,6 +3749,16 @@
       "bytes": 38319
     },
     {
+      "path": "knowledge/games/m-r/ristar.md",
+      "sha256": "897746d7e38032b5f158ca918bf632563545a1824f202119f611b9c7d06dbc02",
+      "bytes": 16139
+    },
+    {
+      "path": "knowledge/games/m-r/rocket-knight-adventures.md",
+      "sha256": "3d85b5813fe490864e87c8f3fe8e78cc02b644a937927a6ac0b72c41b2c0fc3d",
+      "bytes": 16042
+    },
+    {
       "path": "knowledge/games/m-r/rocket-league.md",
       "sha256": "3dbf3f301039abb450aa767f9a5acf565f668aaf65a0ca2b35b8eae719bb2d05",
       "bytes": 17993
@@ -3257,6 +3767,16 @@
       "path": "knowledge/games/m-r/rollercoaster-tycoon-deluxe.md",
       "sha256": "f4ca1b0d9e0e2c9f781eb7a00e8e71d84611b86aa8f07f1f390f5378f1e67091",
       "bytes": 21766
+    },
+    {
+      "path": "knowledge/games/m-r/rollerdrome.md",
+      "sha256": "f568dd9e2dee3fae86abd626bdb8abd1b297ff468affde5de614fe31fc953751",
+      "bytes": 14749
+    },
+    {
+      "path": "knowledge/games/m-r/roto-force.md",
+      "sha256": "f1e9f8fb7f119e2f8e4a37206ff8cc7d34f0c77e2791d971eabd5e156784a49e",
+      "bytes": 24220
     },
     {
       "path": "knowledge/games/m-r/royal-match.md",
@@ -3279,9 +3799,24 @@
       "bytes": 18254
     },
     {
+      "path": "knowledge/games/s-z/samba-de-amigo.md",
+      "sha256": "ee02dafc86fcce4d1f20d185451d49f748d8ed57f3e502a53473a317e1ccf615",
+      "bytes": 13190
+    },
+    {
       "path": "knowledge/games/s-z/satisfactory.md",
       "sha256": "e98e25b9855405845ceb142c3108594c9cfc0fae2cfdb83c08940cdf5bd74ed9",
       "bytes": 16893
+    },
+    {
+      "path": "knowledge/games/s-z/saturn-bomberman.md",
+      "sha256": "adff638003bbbf6e5f62828babb8243d13fb5e8d0689a61a10fd029a2457060b",
+      "bytes": 15642
+    },
+    {
+      "path": "knowledge/games/s-z/sayonara-wild-hearts.md",
+      "sha256": "25d9cb5d64d1295f504e8ffef5c6ee0bcddd9691ac8faed9f5e3cef0968be250",
+      "bytes": 23883
     },
     {
       "path": "knowledge/games/s-z/scribblenauts.md",
@@ -3294,9 +3829,19 @@
       "bytes": 25010
     },
     {
+      "path": "knowledge/games/s-z/sega-bass-fishing.md",
+      "sha256": "8e151e3c2d7a5a354460d7cda711d0bb7b91a325d0997edb493fbc0980673746",
+      "bytes": 19156
+    },
+    {
       "path": "knowledge/games/s-z/sega-rally-championship.md",
       "sha256": "e7753b6ff959c25479d96132386e296450f752061e5c394104d14fedd6f3119d",
       "bytes": 17984
+    },
+    {
+      "path": "knowledge/games/s-z/sega-worldwide-soccer-97.md",
+      "sha256": "3364e6dcc5c1ca76ce38511953597e6e57e840447c7e869e4cb8623c9022eeff",
+      "bytes": 21082
     },
     {
       "path": "knowledge/games/s-z/sekiro-shadows-die-twice.md",
@@ -3334,6 +3879,11 @@
       "bytes": 21566
     },
     {
+      "path": "knowledge/games/s-z/shining-force-iii.md",
+      "sha256": "06e27865722ae49aae450283dc1efa63f9c86e26ff083f29b489194914b31cc1",
+      "bytes": 17956
+    },
+    {
       "path": "knowledge/games/s-z/shogun-showdown.md",
       "sha256": "472130baaa6bfb9171abd060b6965a915d18f9fbf6f2e4759309fb1d5edccb9a",
       "bytes": 17327
@@ -3359,6 +3909,11 @@
       "bytes": 12600
     },
     {
+      "path": "knowledge/games/s-z/silent-bomber.md",
+      "sha256": "64ca0450d40f11308fe518935c66985630cac068e77984863982b1b5b3b404d3",
+      "bytes": 18357
+    },
+    {
       "path": "knowledge/games/s-z/silent-hill-2-2024.md",
       "sha256": "d4f1b116d297587bcd60867a67a6fc477510763c9ebc03a5863386c904adbd3b",
       "bytes": 22995
@@ -3382,6 +3937,16 @@
       "path": "knowledge/games/s-z/simon.md",
       "sha256": "f6cd4e176cc485d2d7453b97f3e4bc05ce1b42c7170e2383591a800d54876fc6",
       "bytes": 16069
+    },
+    {
+      "path": "knowledge/games/s-z/skate-story.md",
+      "sha256": "cf7d11ffe77d93dc0a868d903b8c1f2744992be1dc5a1139df29011bf7044a0e",
+      "bytes": 15516
+    },
+    {
+      "path": "knowledge/games/s-z/skies-of-arcadia.md",
+      "sha256": "3d5a03ef4fef8c0579472da38eb04a73f021efb608f52363de769a6ed43be167",
+      "bytes": 17984
     },
     {
       "path": "knowledge/games/s-z/slant.md",
@@ -3424,6 +3989,11 @@
       "bytes": 20217
     },
     {
+      "path": "knowledge/games/s-z/sonic-racing-crossworlds.md",
+      "sha256": "3cfa1db7758be2de87e53515e4ea854201e025bde6920ac52ba5f9c8542aff8f",
+      "bytes": 17606
+    },
+    {
       "path": "knowledge/games/s-z/sonic-the-hedgehog.md",
       "sha256": "b2fbd4cc7cf99b6f8ac70550e3fae20c5b665f5fb937fcf7ab2531c757be9e8f",
       "bytes": 21402
@@ -3444,14 +4014,29 @@
       "bytes": 28646
     },
     {
+      "path": "knowledge/games/s-z/space-channel-5.md",
+      "sha256": "bf1eed3ecde55f3112e123452c943fcb52c4d329f9a08bffd38f33f86fc1fb26",
+      "bytes": 17222
+    },
+    {
       "path": "knowledge/games/s-z/space-invaders.md",
       "sha256": "d72d22a2471df6261005277b08fd723d056fc7a8f381a865cf09144ff1d74415",
       "bytes": 25477
     },
     {
+      "path": "knowledge/games/s-z/space-station-silicon-valley.md",
+      "sha256": "273fb538f2879e2a8836e16452edd45249db17cb645b4abb8c7a927eff899adc",
+      "bytes": 21813
+    },
+    {
       "path": "knowledge/games/s-z/spacechem.md",
       "sha256": "b460e9fc74f36a0aae596ff8a5a53870cac423a3b5d7ea7d81956349b90a3db2",
       "bytes": 17665
+    },
+    {
+      "path": "knowledge/games/s-z/spire-blast.md",
+      "sha256": "9fdff92444330cbefa124740602a7c090becff522358e0887c07eaf2f5daa279",
+      "bytes": 14568
     },
     {
       "path": "knowledge/games/s-z/splatoon-3.md",
@@ -3462,6 +4047,11 @@
       "path": "knowledge/games/s-z/split-fiction.md",
       "sha256": "ed4b637dbc896bf4e85982c081c1f528099bc085acf461b6cfdf8445d9045c78",
       "bytes": 12899
+    },
+    {
+      "path": "knowledge/games/s-z/spooky-express.md",
+      "sha256": "722ae1573b1d3b7b49f9b6ffe14b2587b0bc67e00b300b7371dae69601feef0b",
+      "bytes": 14518
     },
     {
       "path": "knowledge/games/s-z/spore.md",
@@ -3487,6 +4077,11 @@
       "path": "knowledge/games/s-z/star-wars-battlefront-ii-2017.md",
       "sha256": "b4642ff892cc894e537b5674a1e6fd705f98d673d99e7c4656f2a01a870b5290",
       "bytes": 23240
+    },
+    {
+      "path": "knowledge/games/s-z/star-wars-episode-i-racer.md",
+      "sha256": "e17989db95d30ad61376f11d61a679de3805996ac8f9946951f96386dd77721e",
+      "bytes": 13576
     },
     {
       "path": "knowledge/games/s-z/star-wars-jedi-fallen-order.md",
@@ -3532,6 +4127,16 @@
       "path": "knowledge/games/s-z/strands.md",
       "sha256": "28c8cd4b95a9b45e72c5e979abb6c4195cee4a8a92966fa1923a912b27eb8657",
       "bytes": 23358
+    },
+    {
+      "path": "knowledge/games/s-z/strange-antiquities.md",
+      "sha256": "64446bfafc2a0a32358169ccd8727e4d7c4eb3636f8b9a8487711c7e9b74b648",
+      "bytes": 16197
+    },
+    {
+      "path": "knowledge/games/s-z/strange-horticulture.md",
+      "sha256": "3f34905a16fbddbff583077c7f8b75817072a4120830bc4ed175fdb16d2c4fad",
+      "bytes": 22437
     },
     {
       "path": "knowledge/games/s-z/street-fighter-6.md",
@@ -3594,6 +4199,11 @@
       "bytes": 17043
     },
     {
+      "path": "knowledge/games/s-z/superhot-vr.md",
+      "sha256": "8de86074407212f9765d07e2d71bd0645215b82008bab0e350016b27663bbd82",
+      "bytes": 24474
+    },
+    {
       "path": "knowledge/games/s-z/superliminal.md",
       "sha256": "7f70cc62b09163619521892b27022ac94d7d8f25daf8089020adf4c291d955fe",
       "bytes": 20097
@@ -3602,6 +4212,11 @@
       "path": "knowledge/games/s-z/surviving-mars.md",
       "sha256": "a1b96d2c19311f07cf0fbccc17e19c0c378aedb602e8de466015758a198462ce",
       "bytes": 18076
+    },
+    {
+      "path": "knowledge/games/s-z/sword-of-the-sea.md",
+      "sha256": "61556cdc19299e503258f568f25ad2943373512b9df67940c6e42a78a708cf14",
+      "bytes": 17489
     },
     {
       "path": "knowledge/games/s-z/tactical-breach-wizards.md",
@@ -3622,6 +4237,11 @@
       "path": "knowledge/games/s-z/tearaway.md",
       "sha256": "b1018b2faccb6ae818ad70fdb6630b5ca2b99c40bfd2ae32f5ef0629cb11b8d4",
       "bytes": 15284
+    },
+    {
+      "path": "knowledge/games/s-z/teardown.md",
+      "sha256": "c4e0b6125426a88b17056f0105b19681ccd3605073bc0eba69363fed85448102",
+      "bytes": 20216
     },
     {
       "path": "knowledge/games/s-z/tekken-3.md",
@@ -3649,9 +4269,24 @@
       "bytes": 22458
     },
     {
+      "path": "knowledge/games/s-z/tetris-effect.md",
+      "sha256": "912e86908d8b8dbd1fe59949641dbd86d9a8f7b619d5a4b829a3a8b89a861cfd",
+      "bytes": 19283
+    },
+    {
       "path": "knowledge/games/s-z/tetris.md",
       "sha256": "b9dff42e38cbf9591603034828ae2c3a9f857436987a8081edafa7ccdacc0c1e",
       "bytes": 18497
+    },
+    {
+      "path": "knowledge/games/s-z/thank-goodness-youre-here.md",
+      "sha256": "e87f8c4eb1f6f503cc54e98b7633e0b35848049ba6fe9d9a771ca6619e810f57",
+      "bytes": 15216
+    },
+    {
+      "path": "knowledge/games/s-z/the-alters.md",
+      "sha256": "3adeebb660d814bebdf268ddac6523915abd19f828135bddcfbf7b602a991ff9",
+      "bytes": 20862
     },
     {
       "path": "knowledge/games/s-z/the-binding-of-isaac-rebirth.md",
@@ -3660,8 +4295,18 @@
     },
     {
       "path": "knowledge/games/s-z/the-case-of-the-golden-idol.md",
-      "sha256": "98006fdb862e17081d9d35869b2f12718b3610bb558ce89db3379432ff53ff33",
-      "bytes": 19326
+      "sha256": "b7ce86637f7f156adc7df0c791409dd5398a1665d9a9fba4cf22c449fc4c97b8",
+      "bytes": 19419
+    },
+    {
+      "path": "knowledge/games/s-z/the-dig.md",
+      "sha256": "d3f8c3f0f420df92e36e5e2baa2d3aef9f209d7163ac02879bb6f173bc70a7be",
+      "bytes": 13072
+    },
+    {
+      "path": "knowledge/games/s-z/the-drifter.md",
+      "sha256": "e5c3b8346c561f113468d2cbdc3196e557492d4fb6c3dd40d8a4ea20bbc9d5fc",
+      "bytes": 17673
     },
     {
       "path": "knowledge/games/s-z/the-elder-scrolls-iii-morrowind.md",
@@ -3679,14 +4324,29 @@
       "bytes": 26812
     },
     {
+      "path": "knowledge/games/s-z/the-forgotten-city.md",
+      "sha256": "7bd012cac14fead16f48f2bd7abdde32de6e648ecfd90f60c37dd5f28cbdca88",
+      "bytes": 17882
+    },
+    {
       "path": "knowledge/games/s-z/the-house-of-the-dead.md",
       "sha256": "96128e8ef35f3b2cab5ef826d5bc5a2be886267fa50b92353361ea99d59261bd",
       "bytes": 20069
     },
     {
+      "path": "knowledge/games/s-z/the-incident-at-galley-house.md",
+      "sha256": "48c75afc6ecdb32193011a00d76b32a82dcfefb4c3aae619d7632ab50ec5cbe4",
+      "bytes": 12146
+    },
+    {
       "path": "knowledge/games/s-z/the-incredible-machine.md",
       "sha256": "b375f5696469d63167104c1163c5cff0c0b651e31d371d46b8dbabc53ee0ff26",
       "bytes": 15266
+    },
+    {
+      "path": "knowledge/games/s-z/the-last-guardian.md",
+      "sha256": "8a857b3f7fd69653f2f0950a1e3d04f5a21df1b940393a7f2413664513d3ea58",
+      "bytes": 22077
     },
     {
       "path": "knowledge/games/s-z/the-last-of-us-part-i.md",
@@ -3709,6 +4369,11 @@
       "bytes": 25811
     },
     {
+      "path": "knowledge/games/s-z/the-legend-of-zelda-the-minish-cap.md",
+      "sha256": "26a2c952e8f194c3787ecceb29083e7587d2f968fc7dbf78df35f580610634c2",
+      "bytes": 19477
+    },
+    {
       "path": "knowledge/games/s-z/the-legend-of-zelda.md",
       "sha256": "b644ca4d1759768b1d6674c9f8d5d7a2361807c89de296742f559e4170e3a51a",
       "bytes": 24065
@@ -3722,6 +4387,21 @@
       "path": "knowledge/games/s-z/the-longest-journey.md",
       "sha256": "855e76637e9caa0be474b1568982287b6628c9277c742574c34c7079edc68593",
       "bytes": 13288
+    },
+    {
+      "path": "knowledge/games/s-z/the-lost-vikings.md",
+      "sha256": "21a51ea7f7b44144ca764b46e629e3c9f513711ee6f4089cb67c5a03ffc8fa86",
+      "bytes": 24476
+    },
+    {
+      "path": "knowledge/games/s-z/the-midnight-walk.md",
+      "sha256": "8d64fec52fea0af435d594b02943e13fb61de14d3082f967ec4f9590097e1697",
+      "bytes": 18499
+    },
+    {
+      "path": "knowledge/games/s-z/the-neverhood.md",
+      "sha256": "fd9e214cae6c604ed6b33ecabfc8f82f9011f928765955a370906c9293911b1c",
+      "bytes": 18083
     },
     {
       "path": "knowledge/games/s-z/the-oregon-trail.md",
@@ -3739,9 +4419,29 @@
       "bytes": 13773
     },
     {
+      "path": "knowledge/games/s-z/the-plucky-squire.md",
+      "sha256": "e8b9e9c6441dd6f518f3b3e2a99b9af21877aad8ba79de88a138cc941f1ca8f9",
+      "bytes": 16677
+    },
+    {
+      "path": "knowledge/games/s-z/the-rise-of-the-golden-idol.md",
+      "sha256": "67777d9e35060e9a2cfb9590b96dfe4a0cded877b9e610fe20eb5122d7bc84bc",
+      "bytes": 15041
+    },
+    {
       "path": "knowledge/games/s-z/the-room.md",
       "sha256": "68f4d2ea3d9d8a5b5a222ae722106ac51240833594c822431d68b407708ba977",
       "bytes": 14039
+    },
+    {
+      "path": "knowledge/games/s-z/the-roottrees-are-dead.md",
+      "sha256": "39b2675f5a305365b6d1d2d013ba3a90fc25c984280a9be4a5f4be264de7797d",
+      "bytes": 16944
+    },
+    {
+      "path": "knowledge/games/s-z/the-seance-of-blake-manor.md",
+      "sha256": "8a6aa791bac9f186226c197ecbf2a242c6e368c0dd14a82911a74f8dfa4485f4",
+      "bytes": 20592
     },
     {
       "path": "knowledge/games/s-z/the-secret-of-monkey-island.md",
@@ -3824,9 +4524,19 @@
       "bytes": 17477
     },
     {
+      "path": "knowledge/games/s-z/tiny-glade.md",
+      "sha256": "a79703ee1760984aa93b0ecf773d22be9e45ad1e1082ed5ce73815a274a4efe0",
+      "bytes": 13316
+    },
+    {
       "path": "knowledge/games/s-z/titanfall-2.md",
       "sha256": "c07808b2a1a1ad157d09d9715fc49f363f47e95c0240f64f61bb68df640de30e",
       "bytes": 28423
+    },
+    {
+      "path": "knowledge/games/s-z/tokyo-xtreme-racer.md",
+      "sha256": "edfa3d8580d54d766034abe21ebbc5dbe08141a95ba66a95fd07a1dd55b25879",
+      "bytes": 16859
     },
     {
       "path": "knowledge/games/s-z/tom-clancys-rainbow-six-siege.md",
@@ -3894,6 +4604,11 @@
       "bytes": 38525
     },
     {
+      "path": "knowledge/games/s-z/unicorn-overlord.md",
+      "sha256": "3598f3077b273174e72b6d49b9c819dce174e8f5ef9dc313cbf24dc839b1a056",
+      "bytes": 18531
+    },
+    {
       "path": "knowledge/games/s-z/unpacking.md",
       "sha256": "6e542cfb3f9549d8297fa52c4c21433b4ae5ccd861b2e32806f7b39e0f03b607",
       "bytes": 6239
@@ -3919,6 +4634,11 @@
       "bytes": 21159
     },
     {
+      "path": "knowledge/games/s-z/venba.md",
+      "sha256": "76687f6b92d82c778f25ff650a793d8d5ec3a992f2d1255bd395c0e723f0fcf8",
+      "bytes": 14042
+    },
+    {
       "path": "knowledge/games/s-z/vib-ribbon.md",
       "sha256": "035615542bf341d0fc5ef47bbf380a74b8be6a4ecfee24935b536fb3a12abfca",
       "bytes": 17604
@@ -3929,9 +4649,24 @@
       "bytes": 20678
     },
     {
+      "path": "knowledge/games/s-z/viewtiful-joe.md",
+      "sha256": "dd4dbfa906e4f14cc8127b54e49233bb9cc341a5acc453d538b83ef78f6cfbb0",
+      "bytes": 18831
+    },
+    {
+      "path": "knowledge/games/s-z/virtua-tennis.md",
+      "sha256": "9c2dbca041141de9453e7e52949a931e93a9ec37af8ddd38a96763f0276b679c",
+      "bytes": 16336
+    },
+    {
       "path": "knowledge/games/s-z/viva-pinata.md",
       "sha256": "8e639c07edbd9df23993a7a2529801856ed37a2042373f92042b417edc5dbf70",
       "bytes": 14497
+    },
+    {
+      "path": "knowledge/games/s-z/walkabout-mini-golf.md",
+      "sha256": "e328e6300ab317e26380d9d261170e0f07f19b8a9317a691f633c56cb039439f",
+      "bytes": 21107
     },
     {
       "path": "knowledge/games/s-z/war-thunder.md",
@@ -3954,6 +4689,11 @@
       "bytes": 24385
     },
     {
+      "path": "knowledge/games/s-z/wario-land-3.md",
+      "sha256": "8140010859f6bad754d779c7abb6b957d1533f5921cbc7a62c13ccd67af1bb2e",
+      "bytes": 13166
+    },
+    {
       "path": "knowledge/games/s-z/wario-land-4.md",
       "sha256": "7e04b75678c32ceb62deb76ce67aec7655ee350938ce10e1c0826c2459d6f4ba",
       "bytes": 19679
@@ -3969,6 +4709,21 @@
       "bytes": 14216
     },
     {
+      "path": "knowledge/games/s-z/wave-race-64.md",
+      "sha256": "660a4ca13b0c892a16b6dffad6a1445a3ee6298a324ca70419f764c92c5311b8",
+      "bytes": 16148
+    },
+    {
+      "path": "knowledge/games/s-z/what-the-car.md",
+      "sha256": "7205d9d0ce7d9afc3e5feec502115006eab43c4d6ca39fc073eb0813fffda7e5",
+      "bytes": 14998
+    },
+    {
+      "path": "knowledge/games/s-z/wheel-world.md",
+      "sha256": "ed7a72bc4d70938a10945664dbf1ac96a19b456c283b24944d3eace9543799e6",
+      "bytes": 19551
+    },
+    {
       "path": "knowledge/games/s-z/wheres-my-water.md",
       "sha256": "6fac0e77d7e510fedc5e0b6bc768e71e43ce5c71fd7558c70c6de04063d2f2bb",
       "bytes": 15867
@@ -3979,9 +4734,19 @@
       "bytes": 16886
     },
     {
+      "path": "knowledge/games/s-z/wii-sports-resort.md",
+      "sha256": "c724dd72c289cd2a02c13da2e5b3f267e5569dee1c9373139fe6b4558ee6e0fd",
+      "bytes": 17563
+    },
+    {
       "path": "knowledge/games/s-z/wii-sports.md",
       "sha256": "9cd565d38266b6231e7395896c743370ed6ce4c65b6dbd37c8d701bdb6a32755",
       "bytes": 18129
+    },
+    {
+      "path": "knowledge/games/s-z/windjammers.md",
+      "sha256": "a38d66d75e7ef4170fec8d39d3ff80fce453fbb7dd835c3c7544452ed8e38840",
+      "bytes": 25666
     },
     {
       "path": "knowledge/games/s-z/wipeout.md",
@@ -4035,33 +4800,33 @@
     },
     {
       "path": "knowledge/genes/actions.md",
-      "sha256": "c11abf2343ce34e05afadf3d3c2ce25a20056c23c86fa7489172ac0f79dbef75",
-      "bytes": 761710
+      "sha256": "8e7d697efe3d5690fe2f7abc0f26653f210233f6fa0e38ce9bf893e918c047e3",
+      "bytes": 965574
     },
     {
       "path": "knowledge/genes/constraints.md",
-      "sha256": "24ad49db448d7444d85dd744fa01080db381820356015f66979c2fab8472767b",
-      "bytes": 798553
+      "sha256": "706949869257ccb744db54c291930085c38525d2fc96a15e1cb7c6b1e09de86e",
+      "bytes": 900537
     },
     {
       "path": "knowledge/genes/information.md",
-      "sha256": "e451c13fb4187c3f6609b705e521b13c78e78177228b014726b18af604696329",
-      "bytes": 545786
+      "sha256": "75e76472475cd308daea9ce25b9c5e37a9735abf721ef90180051f326f3b68ed",
+      "bytes": 680502
     },
     {
       "path": "knowledge/genes/objectives.md",
-      "sha256": "524922829a27b9110ae839c89d9c4428b8d728a9e0dbd711a19ed4935d5f4977",
-      "bytes": 321690
+      "sha256": "7139a8b342125424af4083a610ea0ca5b4a961eb1e6325039fa1d2b91d1b3ed5",
+      "bytes": 395169
     },
     {
       "path": "knowledge/genes/system-behaviours.md",
-      "sha256": "80c271062149d3c645078f85da49a150c36b250810e3f775870a1c55d0e24372",
-      "bytes": 1613087
+      "sha256": "fdf8151fb7564ef6359f0df166e7302467bed2a8bcd4978a44773840b0d4f816",
+      "bytes": 2168168
     },
     {
       "path": "knowledge/genes/time.md",
-      "sha256": "3ab9c20744786001a2bbf3aa708efc2e4468aaff90eeaea20ae6a8f9f0a8d268",
-      "bytes": 58613
+      "sha256": "dc9834868bdc0aea41140d2a6442f0585bbf5f09bad053885b2e78b7bd47eeac",
+      "bytes": 75084
     },
     {
       "path": "knowledge/locales/uk/GAMES.md",
@@ -4080,18 +4845,18 @@
     },
     {
       "path": "knowledge/locales/uk/games.json",
-      "sha256": "bdafd97e0acd51bc38aed28cc3468ec520905f0584a422e7f8c0ed658245ee34",
-      "bytes": 3234555
+      "sha256": "a41490c1d7023b08e8543c2faae46f387d603252194007131468141b270ec029",
+      "bytes": 4015584
     },
     {
       "path": "knowledge/locales/uk/genes.json",
-      "sha256": "ff47ec7429fba7fa26210e9a43b181e341cb0171bfcc4e9fba28563d4f05c820",
-      "bytes": 4424541
+      "sha256": "9f1b8fbf8e3fcd6355cf194ad4e83ca2ae870a29588313de2666d377b9e3de4b",
+      "bytes": 5490483
     },
     {
       "path": "knowledge/locales/uk/platforms.json",
-      "sha256": "7bab4e457658d601971e06b66aea83f595e2cb764370d5a52cf63fe535d002a0",
-      "bytes": 9210
+      "sha256": "b7b36257714b8063943d229ad75386992e5eabac206249610fcfd52d7ef39e89",
+      "bytes": 9297
     },
     {
       "path": "knowledge/locales/uk/research/README.md",
@@ -4115,8 +4880,8 @@
     },
     {
       "path": "knowledge/locales/uk/research/combinations/COMB-0004.md",
-      "sha256": "2f282e0e40e9b491bf0e651cb6b3f4299e20a6e3edb5de5cf7a84b5b593f4f06",
-      "bytes": 2344
+      "sha256": "f2b1fa2808774e67107957319fb64a0deb9c95b923cca4d98a120b88694568a0",
+      "bytes": 2409
     },
     {
       "path": "knowledge/locales/uk/research/combinations/COMB-0005.md",
@@ -4220,8 +4985,8 @@
     },
     {
       "path": "knowledge/locales/uk/research/combinations/COMB-0025.md",
-      "sha256": "94bc71c958176577bf64a1e8f65eb5406ff020dab859611339f997453ec27614",
-      "bytes": 2563
+      "sha256": "c9163c50f3bf5d0a6f3ad3be4e60ee45a0c63d28a3a980b84c4373f6babe52b0",
+      "bytes": 2647
     },
     {
       "path": "knowledge/locales/uk/research/combinations/COMB-0026.md",
@@ -4325,8 +5090,8 @@
     },
     {
       "path": "knowledge/locales/uk/research/combinations/COMB-0046.md",
-      "sha256": "7f4623407c7009b02c2820c9aad419d47171a7a2b53d3908b8c755719b38aab4",
-      "bytes": 1805
+      "sha256": "cabcb100348f101aaa071bca192eddb88eebf382d7faf4f53342c3fd38e7de00",
+      "bytes": 1898
     },
     {
       "path": "knowledge/locales/uk/research/combinations/COMB-0047.md",
@@ -5445,13 +6210,13 @@
     },
     {
       "path": "knowledge/locales/uk/research/combinations/COMB-0270.md",
-      "sha256": "af3ce8597bdeb2647e486a8716177198d12659d94bfdda554f780d989d1aa1dc",
-      "bytes": 1914
+      "sha256": "9c098aa41cbe957261355133a7335dbe53b831a40add7cab58bb979c272b4542",
+      "bytes": 2050
     },
     {
       "path": "knowledge/locales/uk/research/combinations/COMB-0271.md",
-      "sha256": "9f87323af548b9e28934a8f16e281d0a19baf9e6b2892049e88de4f42039b5e0",
-      "bytes": 2426
+      "sha256": "e11be207692da3ebdd6b800f13aca9d7eeb5c338200c244ccb29bcf474878c15",
+      "bytes": 2507
     },
     {
       "path": "knowledge/locales/uk/research/combinations/COMB-0272.md",
@@ -5474,6 +6239,11 @@
       "bytes": 45950
     },
     {
+      "path": "knowledge/locales/uk/research/games/0-9/1000xresist.md",
+      "sha256": "7b89b0fb36427440a2719cb5cf0ea03483a4683d2dd0098e57ea9166d3cba9fd",
+      "bytes": 5382
+    },
+    {
       "path": "knowledge/locales/uk/research/games/0-9/2048.md",
       "sha256": "611904721c6bb3d3d0a0444d1803be66352e783033855d2eae802b5aa94b253d",
       "bytes": 3897
@@ -5490,8 +6260,8 @@
     },
     {
       "path": "knowledge/locales/uk/research/games/INDEX.md",
-      "sha256": "872b8a5e95ffd77e4bb84c0f6968e210252ecec9d6449c9b67f82c011aa2f546",
-      "bytes": 31365
+      "sha256": "38becd9822d551e67d816aa85c7620848d863111a14163a16c0ceab7811e10df",
+      "bytes": 40687
     },
     {
       "path": "knowledge/locales/uk/research/games/a-f/a-good-snowman-is-hard-to-build.md",
@@ -5504,6 +6274,11 @@
       "bytes": 7468
     },
     {
+      "path": "knowledge/locales/uk/research/games/a-f/a-quiet-place-the-road-ahead.md",
+      "sha256": "1eac6719e2d5c38cb5360d52121bdc021a53547a4c1500c1f3b4c359b3da4849",
+      "bytes": 6811
+    },
+    {
       "path": "knowledge/locales/uk/research/games/a-f/a-way-out.md",
       "sha256": "c97c4dba49720ccd2ac314010b7e1ec934bd49a98a1ece188f0a313691f1abcd",
       "bytes": 12005
@@ -5512,6 +6287,11 @@
       "path": "knowledge/locales/uk/research/games/a-f/advance-wars.md",
       "sha256": "d4df7bee8ff914b6f66819e53e7df48b6cb20075535aff0027c5ed920a8bf685",
       "bytes": 8173
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/a-f/afterplace.md",
+      "sha256": "ebf90c7788fd508a0a0071cb453f9d3e1d2553eec49a17a41d8d9abe913ddf8f",
+      "bytes": 5794
     },
     {
       "path": "knowledge/locales/uk/research/games/a-f/against-the-storm.md",
@@ -5544,6 +6324,11 @@
       "bytes": 19536
     },
     {
+      "path": "knowledge/locales/uk/research/games/a-f/alien-soldier.md",
+      "sha256": "77bbc0fdae5b0799a3cf55905f4447f7caed63924e931c56b3336e08dedf0f76",
+      "bytes": 8811
+    },
+    {
       "path": "knowledge/locales/uk/research/games/a-f/alone-in-the-dark.md",
       "sha256": "cdcbd467c68661c9292eb73f9f92e50f852d9e981279a8bab68b44934e451fa4",
       "bytes": 11737
@@ -5567,6 +6352,16 @@
       "path": "knowledge/locales/uk/research/games/a-f/animal-crossing-new-leaf.md",
       "sha256": "a7c3b2ca9355a0390ddfed8e2deaddd23d36f97b8b3adef0e169c19749877ee4",
       "bytes": 16568
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/a-f/animal-well.md",
+      "sha256": "3c4bda5fb5a22a7553367069a49dbcd3b87c480139727e057dd71af79ae3588c",
+      "bytes": 7734
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/a-f/anno-117-pax-romana.md",
+      "sha256": "f1756ae6633de9ad6821981533c343e3a42d96c705ece1624cc00203150ef1a0",
+      "bytes": 8840
     },
     {
       "path": "knowledge/locales/uk/research/games/a-f/anno-1800.md",
@@ -5634,6 +6429,11 @@
       "bytes": 13886
     },
     {
+      "path": "knowledge/locales/uk/research/games/a-f/ball-x-pit.md",
+      "sha256": "9f52db746512081b69a1f630b6d797e5d67b0c8241fb5a8a76c3716305e056c7",
+      "bytes": 9461
+    },
+    {
       "path": "knowledge/locales/uk/research/games/a-f/banjo-kazooie-nuts-and-bolts.md",
       "sha256": "4a870dec0f879d8dc3b565ae033ce9f1684c79a1ec41a282ff7414c936bcd946",
       "bytes": 8474
@@ -5647,6 +6447,11 @@
       "path": "knowledge/locales/uk/research/games/a-f/batman-arkham-asylum-game-of-the-year-edition.md",
       "sha256": "3cb453cd47b0e5f8c4d4af269d4e486b747a418e0a8bad40055f0705f461b1cf",
       "bytes": 20028
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/a-f/batman-arkham-shadow.md",
+      "sha256": "86b314781530311c5844a4fe3e57e622ac31e82f6979de5bf6582ceb0f58f7ce",
+      "bytes": 8241
     },
     {
       "path": "knowledge/locales/uk/research/games/a-f/battlefield-2042.md",
@@ -5684,6 +6489,11 @@
       "bytes": 10323
     },
     {
+      "path": "knowledge/locales/uk/research/games/a-f/bionic-bay.md",
+      "sha256": "172a5ca9dc6c0012c024142983162830d13622c66e19888a5a3315ec60a22574",
+      "bytes": 9574
+    },
+    {
       "path": "knowledge/locales/uk/research/games/a-f/bioshock-remastered.md",
       "sha256": "da6067bb382c05664cec35367ecf3e57e7ca88a843fef74742b561458b87ccb9",
       "bytes": 18167
@@ -5704,6 +6514,11 @@
       "bytes": 12065
     },
     {
+      "path": "knowledge/locales/uk/research/games/a-f/blast-corps.md",
+      "sha256": "3505c16ead4f1267ea00b480862710fa8fa8bcc242bd5e93770cd95cd395b31f",
+      "bytes": 5438
+    },
+    {
       "path": "knowledge/locales/uk/research/games/a-f/bloodborne.md",
       "sha256": "1d383c9ee7b49d7fbad9218cc958018fd7a6efcb2f98cd0fbafc29d523aeabef",
       "bytes": 16293
@@ -5714,9 +6529,19 @@
       "bytes": 19459
     },
     {
+      "path": "knowledge/locales/uk/research/games/a-f/blue-lightning.md",
+      "sha256": "82baebacb4f95b31761ea0fe668015926a9c570a4333c76d1e2bcc61215f68c8",
+      "bytes": 6884
+    },
+    {
       "path": "knowledge/locales/uk/research/games/a-f/blue-prince.md",
       "sha256": "c644fda02d5cdf492187b4880c5841731ff1606ee12044003e74bc0a14199e66",
       "bytes": 9994
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/a-f/boktai-the-sun-is-in-your-hand.md",
+      "sha256": "c49b0d62585482784344a24631824306aa8b42a46aea5f176d5f56e3526919df",
+      "bytes": 17178
     },
     {
       "path": "knowledge/locales/uk/research/games/a-f/bonfire-peaks.md",
@@ -5744,6 +6569,11 @@
       "bytes": 5880
     },
     {
+      "path": "knowledge/locales/uk/research/games/a-f/burning-rangers.md",
+      "sha256": "c39315bd8720ff47371623f3b7edf660e0646b01a13a71b202e1636e12651f18",
+      "bytes": 11837
+    },
+    {
       "path": "knowledge/locales/uk/research/games/a-f/burnout-3-takedown.md",
       "sha256": "4c86cd8f1aa650f526b2f75e8645589ed3f576d29669882fe60423d6afefec63",
       "bytes": 11742
@@ -5752,6 +6582,16 @@
       "path": "knowledge/locales/uk/research/games/a-f/burnout-paradise.md",
       "sha256": "8eeec060aba9706dd11854fa1c188fcb7c5bcbf4b82effeacdcf46655f34e079",
       "bytes": 10676
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/a-f/bushido-blade.md",
+      "sha256": "6b510c71d8c68d5b695cc541f5f987fbdc9068dbb014d712d8ea017bf3762883",
+      "bytes": 6190
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/a-f/cairn.md",
+      "sha256": "6ac64a10615ccb5be4ec44c6b13a569a129173716c0bdf95f1686510f5fe0a1e",
+      "bytes": 6057
     },
     {
       "path": "knowledge/locales/uk/research/games/a-f/call-of-juarez-gunslinger.md",
@@ -5789,6 +6629,11 @@
       "bytes": 6467
     },
     {
+      "path": "knowledge/locales/uk/research/games/a-f/cassette-beasts.md",
+      "sha256": "223c065639869a6c9bf214e93df80ea7917f7fb4f0d4f84d807afaadcec7bccd",
+      "bytes": 10297
+    },
+    {
       "path": "knowledge/locales/uk/research/games/a-f/castlevania-symphony-of-the-night.md",
       "sha256": "2cf4ab9e9bbd038e7050cf0bb2bc68945fc6e0290fb3d2a285552936802baf45",
       "bytes": 12524
@@ -5814,9 +6659,24 @@
       "bytes": 4784
     },
     {
+      "path": "knowledge/locales/uk/research/games/a-f/chibi-robo.md",
+      "sha256": "7d8c6409b8df2486e0810f7a0c2a413742fced03c46bfb2bab9369344be62e11",
+      "bytes": 12386
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/a-f/chicory-a-colorful-tale.md",
+      "sha256": "53000ee774b32f4523fc53d1a0d57b128a3638b73c1c5ae7a1036a05b318ac36",
+      "bytes": 5285
+    },
+    {
       "path": "knowledge/locales/uk/research/games/a-f/chrono-trigger.md",
       "sha256": "d0595ab77583138529336f0728804fb462541de6dd143141a1278f1470159a33",
       "bytes": 13299
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/a-f/chuchu-rocket.md",
+      "sha256": "655d486c33e1aca08544298b9aac81807cc3b35d4600400ef80c2e60afce848f",
+      "bytes": 6854
     },
     {
       "path": "knowledge/locales/uk/research/games/a-f/cities-skylines-ii.md",
@@ -5919,9 +6779,24 @@
       "bytes": 15701
     },
     {
+      "path": "knowledge/locales/uk/research/games/a-f/culdcept.md",
+      "sha256": "a79c480e447869d69285a1bc65a9bb22a7f762c53b7afac6ff2f2366f9ca3ec2",
+      "bytes": 10137
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/a-f/cult-of-the-lamb.md",
+      "sha256": "1fc7615770f9aa46cb9df155d902278e56522fa74688873571f9c36dd1f88f26",
+      "bytes": 12508
+    },
+    {
       "path": "knowledge/locales/uk/research/games/a-f/cuphead.md",
       "sha256": "01be5696b3df07832b3ab35062d1bc017885f5b7edf50f2476254e2aff61cfd8",
       "bytes": 12597
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/a-f/custom-robo.md",
+      "sha256": "d63cfd338d3128e2967baa059c9ca84148d9a8cc9bd034b3bd55d9b18aac79da",
+      "bytes": 10118
     },
     {
       "path": "knowledge/locales/uk/research/games/a-f/cut-the-rope.md",
@@ -5942,6 +6817,11 @@
       "path": "knowledge/locales/uk/research/games/a-f/dancedancerevolution.md",
       "sha256": "e93f16024be22e14b7f8fd233555fe6ea82546dee651d22d81654527e074a0c6",
       "bytes": 8145
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/a-f/dark-cloud.md",
+      "sha256": "2ab12f576dae64fdf06eb475b080bce4b51ef7e9ec8275406e763510cfcb106b",
+      "bytes": 6492
     },
     {
       "path": "knowledge/locales/uk/research/games/a-f/dark-souls-iii.md",
@@ -6019,6 +6899,11 @@
       "bytes": 18804
     },
     {
+      "path": "knowledge/locales/uk/research/games/a-f/despelote.md",
+      "sha256": "2ffa9702b9ccef89114c20d0e4954ff9ded7ad5a98c8d446a13a4c16d504793c",
+      "bytes": 5139
+    },
+    {
       "path": "knowledge/locales/uk/research/games/a-f/destiny-2.md",
       "sha256": "511bf58fd5242b8062188ab80c285c3c56ba789ddb1601785120edf59fee8793",
       "bytes": 12004
@@ -6039,9 +6924,19 @@
       "bytes": 13864
     },
     {
+      "path": "knowledge/locales/uk/research/games/a-f/dicey-dungeons.md",
+      "sha256": "71d71ecbbeeab4bfae1a68d931498b9a2f273a36e9ba02584902b8a2e559f52a",
+      "bytes": 9269
+    },
+    {
       "path": "knowledge/locales/uk/research/games/a-f/diner-dash.md",
       "sha256": "8bd0dbcf24a1ff4c055f820090dc8e0437797d0ba338df554598a39c735288f9",
       "bytes": 10718
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/a-f/dino-crisis.md",
+      "sha256": "d32bf784507d13cae08f83fbe3d4df794022d4577a998a06d84779b190aac474",
+      "bytes": 7124
     },
     {
       "path": "knowledge/locales/uk/research/games/a-f/disco-elysium-the-final-cut.md",
@@ -6054,14 +6949,29 @@
       "bytes": 16991
     },
     {
+      "path": "knowledge/locales/uk/research/games/a-f/dispatch.md",
+      "sha256": "2474b804fed2515dcb50d555527e7e46ca8906411e4e2ef79a0d1cde827e69ea",
+      "bytes": 10147
+    },
+    {
       "path": "knowledge/locales/uk/research/games/a-f/divinity-original-sin-2-definitive-edition.md",
       "sha256": "76a68f6dd29337212429e64180759f92b8c7e760eef0628af51daa862e12eef6",
       "bytes": 10756
     },
     {
+      "path": "knowledge/locales/uk/research/games/a-f/dome-keeper.md",
+      "sha256": "0817037bc4d13f8150b28b467a29e9703f0817a73edde4e013112c52e8f2d919",
+      "bytes": 17553
+    },
+    {
       "path": "knowledge/locales/uk/research/games/a-f/dominosa.md",
       "sha256": "a83ae94d75006815e55db629480e6b10219035bb1227a6b82325eb79ebbe2bd1",
       "bytes": 5684
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/a-f/donkey-kong-bananza.md",
+      "sha256": "dafdf275172fd05334b061c674a57bf31b17a81aec2f28baff81ec3342283bb6",
+      "bytes": 6636
     },
     {
       "path": "knowledge/locales/uk/research/games/a-f/donkey-kong-country-returns.md",
@@ -6099,6 +7009,11 @@
       "bytes": 5338
     },
     {
+      "path": "knowledge/locales/uk/research/games/a-f/dosa-divas.md",
+      "sha256": "072b1c6f0f86fb1c951bd90fda62cf448019d25387434a8940893db8012a54be",
+      "bytes": 9762
+    },
+    {
       "path": "knowledge/locales/uk/research/games/a-f/dota-2.md",
       "sha256": "0120b30a0447aa72086d503b7688dfa1b3171aff199421eb4ef0385c2d466fe1",
       "bytes": 10431
@@ -6114,9 +7029,29 @@
       "bytes": 18288
     },
     {
+      "path": "knowledge/locales/uk/research/games/a-f/drop-duchy.md",
+      "sha256": "59d9f37184b810d884715fb5a9c22912168d1b792d22209b2f0bf0521ef9dfc9",
+      "bytes": 6955
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/a-f/duck-detective-the-ghost-of-glamping.md",
+      "sha256": "e0e29b18f54a985f642c08148df1e56b0798c1a27c505a566b5925bd971b2548",
+      "bytes": 8382
+    },
+    {
       "path": "knowledge/locales/uk/research/games/a-f/duck-hunt.md",
       "sha256": "69217fa7d41da0f46c29919a552fba7a08c1f6492e231810664c1f974edf3593",
       "bytes": 11981
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/a-f/dungeon-keeper.md",
+      "sha256": "581cfb52f9069b82db89ddb75504063441a2bcbbbc1cdc9d6d969a9f9bf8ec6d",
+      "bytes": 8196
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/a-f/dungeons-of-hinterberg.md",
+      "sha256": "a9e2d6d6e002200d51131d3d78a245b945eb809dc3d6ac3d783f5d7c905769f0",
+      "bytes": 11233
     },
     {
       "path": "knowledge/locales/uk/research/games/a-f/dwarf-fortress.md",
@@ -6139,6 +7074,11 @@
       "bytes": 10854
     },
     {
+      "path": "knowledge/locales/uk/research/games/a-f/ecco-the-dolphin-defender-of-the-future.md",
+      "sha256": "c086f901f6fd638f4de35bea0168bd6887f89d22eed588e3eea1ebf43472be24",
+      "bytes": 5991
+    },
+    {
       "path": "knowledge/locales/uk/research/games/a-f/ecco-the-dolphin.md",
       "sha256": "50c23637b96bb2771d491c26629aaf588a81b2e36183120989c35fef0d7a6a94",
       "bytes": 8679
@@ -6149,9 +7089,19 @@
       "bytes": 6597
     },
     {
+      "path": "knowledge/locales/uk/research/games/a-f/einhander.md",
+      "sha256": "bc60f390becc22a94b4a203143ac79cd18a7cd0458cc6b547f86db03307540ab",
+      "bytes": 7270
+    },
+    {
       "path": "knowledge/locales/uk/research/games/a-f/elden-ring.md",
       "sha256": "f5b2a211820af828717caacbffa4fd34458fb672d83bf3dfff2c04777df8a89a",
       "bytes": 13419
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/a-f/elite-beat-agents.md",
+      "sha256": "87c578250fd4eb5bc97d91ef39a00dc9f9c31cc07499f075d4cf97921f42fcfb",
+      "bytes": 13568
     },
     {
       "path": "knowledge/locales/uk/research/games/a-f/elite.md",
@@ -6167,6 +7117,11 @@
       "path": "knowledge/locales/uk/research/games/a-f/euro-truck-simulator-2.md",
       "sha256": "ed87ff3baeb85cb847b946172ccb0b49dfc26e6812217dc500372c97ba5d0c0f",
       "bytes": 12599
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/a-f/excite-truck.md",
+      "sha256": "aafa0dbdb1cdd7d49593492195bc52b3d29892f7c2e319ebb0e56b14e84a450c",
+      "bytes": 8536
     },
     {
       "path": "knowledge/locales/uk/research/games/a-f/f-zero-gx.md",
@@ -6214,6 +7169,11 @@
       "bytes": 11891
     },
     {
+      "path": "knowledge/locales/uk/research/games/a-f/fatal-frame.md",
+      "sha256": "d94cd1466c77574d0a1dae284b853877fb83911777a902aca22ef65dd8508bc2",
+      "bytes": 8592
+    },
+    {
       "path": "knowledge/locales/uk/research/games/a-f/fear.md",
       "sha256": "929bb17ed7e62ea5b52c5ee030b416165e72d01236041c2935ffd34a24b60dc5",
       "bytes": 18125
@@ -6247,6 +7207,16 @@
       "path": "knowledge/locales/uk/research/games/a-f/final-fantasy-xiv-online.md",
       "sha256": "b29e558ded714acf40ab36ffd7ebf58053f84b8dc4f066e203caba6b095eed2b",
       "bytes": 13028
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/a-f/flock.md",
+      "sha256": "44b974be64358258d5b860203febbf5237bf7cbd213e40322888af655c928e62",
+      "bytes": 5059
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/a-f/florence.md",
+      "sha256": "4e009b115fe2ba83c257f6b261c522f90dcb97722255d9e932725157906aa4ab",
+      "bytes": 6887
     },
     {
       "path": "knowledge/locales/uk/research/games/a-f/flow-free.md",
@@ -6304,6 +7274,11 @@
       "bytes": 10487
     },
     {
+      "path": "knowledge/locales/uk/research/games/a-f/fuga-melodies-of-steel.md",
+      "sha256": "349bdbe377a49842f023145fbb00fd1d9a0d5f9ccdedeb6d4a0888c856511a46",
+      "bytes": 5744
+    },
+    {
       "path": "knowledge/locales/uk/research/games/g-l/galaxies.md",
       "sha256": "cd5efd18832ab3c211e19c5692c91eb11ca1d3d917cbc9f498fd0bad01be0d8e",
       "bytes": 5477
@@ -6322,6 +7297,26 @@
       "path": "knowledge/locales/uk/research/games/g-l/geometry-wars-retro-evolved.md",
       "sha256": "945f6707e5eaf073918b22712c164386845da89387155016c081ca12d6c48048",
       "bytes": 11018
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/g-l/ghost-of-yotei.md",
+      "sha256": "df3f9b5b77bf5af39a64ae902463eb7e7bf8ecbcfa7cd9843f4d4107e26935aa",
+      "bytes": 8264
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/g-l/ghost-trick-phantom-detective.md",
+      "sha256": "1b879f0bc6ec8388c0ec87318bc5c2638151d8f09ca19d6a0b15ae814809c66e",
+      "bytes": 7037
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/g-l/gitaroo-man.md",
+      "sha256": "e5683307111c63e7c23b5bbeb163a0249e0f6d00cc45b0183ea8f7a865831dcc",
+      "bytes": 7716
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/g-l/gnosia.md",
+      "sha256": "d05931b137a92186564a4f127ebe47792060eadd27874eed7658966be787872f",
+      "bytes": 5543
     },
     {
       "path": "knowledge/locales/uk/research/games/g-l/god-of-war.md",
@@ -6369,6 +7364,11 @@
       "bytes": 9362
     },
     {
+      "path": "knowledge/locales/uk/research/games/g-l/grim-fandango.md",
+      "sha256": "20d6d82c7ae51dc97d9643bfeb1651400e426dd4e802fe5292c97442e878bdef",
+      "bytes": 8350
+    },
+    {
       "path": "knowledge/locales/uk/research/games/g-l/grounded.md",
       "sha256": "e217d32ac359c4a3b6b56567d460f72be1a1ec905e3eb8e7007d3639c4beaae4",
       "bytes": 13410
@@ -6377,6 +7377,16 @@
       "path": "knowledge/locales/uk/research/games/g-l/guitar-hero-iii-legends-of-rock.md",
       "sha256": "788273a56f84e6490dc167e7b5513445fc648f0d42f8ef646104afe7b8688fa4",
       "bytes": 8315
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/g-l/gunstar-heroes.md",
+      "sha256": "6dbbfbf4922fd83ff9d9d3502cf47f5d97b9ee80c2bedccb2439de5e2e1f1c6f",
+      "bytes": 15339
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/g-l/hades-ii.md",
+      "sha256": "dd3074d00e56053e371fcf5ee660183dcad6913e701765b58aa27cfcc7f704ac",
+      "bytes": 8494
     },
     {
       "path": "knowledge/locales/uk/research/games/g-l/hades.md",
@@ -6407,6 +7417,11 @@
       "path": "knowledge/locales/uk/research/games/g-l/halo-wars.md",
       "sha256": "e4dab7ec6440f212bce9bd74e4495e5e8cde26d920b61695c7eba1eba3bff2bc",
       "bytes": 10543
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/g-l/hardspace-shipbreaker.md",
+      "sha256": "722b5418999fde8f1a4a9e1969a504b3bff8e4e621990f69ed6f7d358a434475",
+      "bytes": 9545
     },
     {
       "path": "knowledge/locales/uk/research/games/g-l/harvest-moon-back-to-nature.md",
@@ -6444,6 +7459,11 @@
       "bytes": 6448
     },
     {
+      "path": "knowledge/locales/uk/research/games/g-l/hi-fi-rush.md",
+      "sha256": "9b0f1b9d1e5062e0d68e8ce2a631e7e4003b55c701b7706151e7b313a78baca9",
+      "bytes": 11230
+    },
+    {
       "path": "knowledge/locales/uk/research/games/g-l/hitman-world-of-assassination.md",
       "sha256": "2ce86fc6b6a68991002800df489392973b915861b713a1470e2b3a32dccd3aa7",
       "bytes": 18506
@@ -6459,9 +7479,19 @@
       "bytes": 12309
     },
     {
+      "path": "knowledge/locales/uk/research/games/g-l/homeworld.md",
+      "sha256": "3151a9b8db2129271ab0bc8d1f7dd0336040f78f616cc9971f9d4432ffb1b1d0",
+      "bytes": 9101
+    },
+    {
       "path": "knowledge/locales/uk/research/games/g-l/hook.md",
       "sha256": "1a8ff6e0922debc103893c47690e1de61ff5e1f1bf36add2084aaaf70ac02d6d",
       "bytes": 6276
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/g-l/hotel-dusk-room-215.md",
+      "sha256": "d9d007bf9543d3b64bfd28bf3cd34681cb6efd56e9328fcec4523175bbff0866",
+      "bytes": 6751
     },
     {
       "path": "knowledge/locales/uk/research/games/g-l/human-fall-flat.md",
@@ -6524,6 +7554,16 @@
       "bytes": 5701
     },
     {
+      "path": "knowledge/locales/uk/research/games/g-l/into-the-radius.md",
+      "sha256": "d65909a73b3a1bf5638218aa9fd497486f9425c2d50837f733b36ae5bfe84744",
+      "bytes": 8479
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/g-l/is-this-seat-taken.md",
+      "sha256": "2a2562337ccc4c00e15bdbe7936c44302c791c3ae490952f0b0912862f2d9b0e",
+      "bytes": 7789
+    },
+    {
       "path": "knowledge/locales/uk/research/games/g-l/it-takes-two.md",
       "sha256": "ea5f02588299b2a8262d3d5477da4ce993710a2de7317fa4ffa421e3a3aa2398",
       "bytes": 12352
@@ -6544,6 +7584,11 @@
       "bytes": 9178
     },
     {
+      "path": "knowledge/locales/uk/research/games/g-l/jusant.md",
+      "sha256": "56b67c755cdd842b51ae637283508fa1fbc26d34a373a1ce1ae726e041fe4b1e",
+      "bytes": 13728
+    },
+    {
       "path": "knowledge/locales/uk/research/games/g-l/kami.md",
       "sha256": "7a11ff4f0b75cd66ad7a29187ae40f18ba55e45cc7983e219d6d587c9ab2641b",
       "bytes": 6346
@@ -6559,14 +7604,29 @@
       "bytes": 4728
     },
     {
+      "path": "knowledge/locales/uk/research/games/g-l/keep-driving.md",
+      "sha256": "6a10347f2771778d286ae769f404ef151b45940fddf63852959ce91450255751",
+      "bytes": 5598
+    },
+    {
       "path": "knowledge/locales/uk/research/games/g-l/keep-talking-and-nobody-explodes.md",
       "sha256": "144389d6c209d7e41e50eb4ae8647ce8585024ab66b35f59429caffb63b89f81",
       "bytes": 6597
     },
     {
+      "path": "knowledge/locales/uk/research/games/g-l/keeper.md",
+      "sha256": "e3ca452a9bbc29b0d8486b2fc5601571d624c3d48f92a377b391e5d1ad7e3176",
+      "bytes": 6428
+    },
+    {
       "path": "knowledge/locales/uk/research/games/g-l/kerbal-space-program.md",
       "sha256": "55c7e48611e43cd50acfa7c7625ad1eecec5555a88f4160b2e5bac419d422a97",
       "bytes": 17499
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/g-l/killer7.md",
+      "sha256": "80f1daacc4f7999b5c2772d3dd5bee5a68cb82da32d16f33a7bf61d8dc9e0529",
+      "bytes": 6535
     },
     {
       "path": "knowledge/locales/uk/research/games/g-l/kinect-adventures.md",
@@ -6579,9 +7639,29 @@
       "bytes": 13181
     },
     {
+      "path": "knowledge/locales/uk/research/games/g-l/kirby-air-riders.md",
+      "sha256": "b979e72ec386197727ef5046ff44444e6c2f4a6cc51f24a639de12c83c2af79f",
+      "bytes": 5506
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/g-l/kirby-tilt-n-tumble.md",
+      "sha256": "056f358dc0b5d3b45adeb3a37f2bc632446b86e3b8c96863cea897705d086121",
+      "bytes": 8406
+    },
+    {
       "path": "knowledge/locales/uk/research/games/g-l/kirbys-adventure.md",
       "sha256": "42bcf182b3129c5724f142bf8f88f864db7716ee64f1f98af49ab4e47d673b9d",
       "bytes": 11950
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/g-l/kunitsu-gami-path-of-the-goddess.md",
+      "sha256": "d84386a916134dac616e4bd2c705295c1308fd8d674c1403b59170be5651c6ce",
+      "bytes": 10053
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/g-l/kuru-kuru-kururin.md",
+      "sha256": "22214e3e1dc0e5110d99f49479f8a3ee11e213e349bb5ad0eb844e315b7b14c0",
+      "bytes": 7531
     },
     {
       "path": "knowledge/locales/uk/research/games/g-l/la-noire.md",
@@ -6592,6 +7672,11 @@
       "path": "knowledge/locales/uk/research/games/g-l/left-4-dead-2.md",
       "sha256": "beb4d3cccd8dd46883038d2f4be71e7ad1caa5c869d50b411c9ba75cb4468aad",
       "bytes": 13673
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/g-l/lemmings-2-the-tribes.md",
+      "sha256": "c52f6ffa8e0aac802d4266f8a4e4728fdbc711debe75e99b37a9f891c39ba08a",
+      "bytes": 6405
     },
     {
       "path": "knowledge/locales/uk/research/games/g-l/lemmings.md",
@@ -6629,6 +7714,11 @@
       "bytes": 11828
     },
     {
+      "path": "knowledge/locales/uk/research/games/g-l/lode-runner.md",
+      "sha256": "b177a9af5bfbb99e5c600a242fcc6b64a89839a4cd99154f1e326bb7a7bf4231",
+      "bytes": 9562
+    },
+    {
       "path": "knowledge/locales/uk/research/games/g-l/loop-hero.md",
       "sha256": "c2701baa82dce418047b06104afd0914263d19b4cf257aed76cc430ddcf43fb5",
       "bytes": 6352
@@ -6637,6 +7727,16 @@
       "path": "knowledge/locales/uk/research/games/g-l/loopy.md",
       "sha256": "b5c65aa1290b7c1a8c9b96058fa4fa7f35a488125f4598b20854dfb45094f9da",
       "bytes": 5145
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/g-l/lorelei-and-the-laser-eyes.md",
+      "sha256": "0ce5c1a774186be0eb31275f320d1f102cc3ad68ae31d57080552d7853d150fb",
+      "bytes": 16702
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/g-l/lost-odyssey.md",
+      "sha256": "a9ac267ef8191d9c3c6b40bd07443606b561b71f8fdc85c47e511d3ebbfd45a6",
+      "bytes": 7983
     },
     {
       "path": "knowledge/locales/uk/research/games/g-l/luigis-mansion.md",
@@ -6734,6 +7834,16 @@
       "bytes": 10406
     },
     {
+      "path": "knowledge/locales/uk/research/games/m-r/mega-man-battle-network.md",
+      "sha256": "f27cb864edb9b504ed94be97f58ca3b7b5b19e49f10c6e871d815cafa40c241a",
+      "bytes": 7052
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/m-r/metal-gear-acid.md",
+      "sha256": "19dd19f2358a10dad0b84c3fd11645fd73869e882f9e71ec6131ec6d293c66b5",
+      "bytes": 8887
+    },
+    {
       "path": "knowledge/locales/uk/research/games/m-r/metal-gear-solid-v-the-phantom-pain.md",
       "sha256": "dd8fbf3ae4bd5fe20fbfdeef3258bbbac9d0a188084293073dc80192b111f736",
       "bytes": 16033
@@ -6764,6 +7874,11 @@
       "bytes": 13522
     },
     {
+      "path": "knowledge/locales/uk/research/games/m-r/mewgenics.md",
+      "sha256": "57a05b913a1a45fbd8784e921ce6af81a89f9c2639a7fc7d5443e18019e2945c",
+      "bytes": 7703
+    },
+    {
       "path": "knowledge/locales/uk/research/games/m-r/microsoft-flight-simulator-2024.md",
       "sha256": "287dfc7319042bde3f891127ea63700b046143513e9e73b9da3a806dd0cca9b4",
       "bytes": 13720
@@ -6787,6 +7902,16 @@
       "path": "knowledge/locales/uk/research/games/m-r/mini-motorways.md",
       "sha256": "494d082ab1844115f3440b4bec406f980712538fc676c2e1535ca0a13ad7dfe5",
       "bytes": 8102
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/m-r/mischief-makers.md",
+      "sha256": "012f909fab0eee0f701625a6dd47df3bec7e646a15ab0b7cfab04c2729310513",
+      "bytes": 6208
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/m-r/mole-mania.md",
+      "sha256": "fe037a7f4a97c7256ab7e50c333bca550bea70b8c0205152f20debda17f55b9a",
+      "bytes": 7016
     },
     {
       "path": "knowledge/locales/uk/research/games/m-r/monster-hunter-rise.md",
@@ -6814,6 +7939,11 @@
       "bytes": 10861
     },
     {
+      "path": "knowledge/locales/uk/research/games/m-r/moss.md",
+      "sha256": "0a0e5f518e2387fe477d194ae197763b5079f6aea85063f8c71950b7f5ec5eb4",
+      "bytes": 12736
+    },
+    {
       "path": "knowledge/locales/uk/research/games/m-r/motorstorm.md",
       "sha256": "659637137d3807326f2461bf8f6dcd429f9c391d6a61e5e24b876b7a88a4504f",
       "bytes": 17393
@@ -6837,6 +7967,11 @@
       "path": "knowledge/locales/uk/research/games/m-r/nba-2k26.md",
       "sha256": "8f52ddff5b953a430e3238da8820e35500d17daafd5c50e5fb2f73274272e47f",
       "bytes": 14208
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/m-r/nba-street-vol-2.md",
+      "sha256": "03252ed3eb6f938afedb1b4df0ba0d3adc5855f9868caa08e7b154fa965784c4",
+      "bytes": 11951
     },
     {
       "path": "knowledge/locales/uk/research/games/m-r/need-for-speed-heat.md",
@@ -6869,6 +8004,11 @@
       "bytes": 12085
     },
     {
+      "path": "knowledge/locales/uk/research/games/m-r/neon-white.md",
+      "sha256": "5b1a9d6e5c197f314e2a8fee261a06e354af078e9e36cac54bdb511794315604",
+      "bytes": 8132
+    },
+    {
       "path": "knowledge/locales/uk/research/games/m-r/net.md",
       "sha256": "5812ac1ac02e83551912e22e9190a4efc24c41fbf4d49d1546527a98c919fd61",
       "bytes": 5296
@@ -6879,14 +8019,29 @@
       "bytes": 5624
     },
     {
+      "path": "knowledge/locales/uk/research/games/m-r/neva.md",
+      "sha256": "60fd895f231e2e1dbb9ca0b785974c66d2e5003b9aff915ddff1e654c4987eb8",
+      "bytes": 10218
+    },
+    {
       "path": "knowledge/locales/uk/research/games/m-r/nights-into-dreams.md",
       "sha256": "67793eb096d533790fd3659bda102e959937395cad010e09d402ea299e9ee8a5",
       "bytes": 10767
     },
     {
+      "path": "knowledge/locales/uk/research/games/m-r/nine-sols.md",
+      "sha256": "0d660d6b7af57c65a13ea60a903790783ba30774fc45a82de1c6daddad2e2001",
+      "bytes": 8517
+    },
+    {
       "path": "knowledge/locales/uk/research/games/m-r/ninja-gaiden-black.md",
       "sha256": "5c3639718be6710f59a4e5d1efb3f19166b3123f0192b2a57ae0b8e63ccda7db",
       "bytes": 14151
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/m-r/ninja-gaiden-dragon-sword.md",
+      "sha256": "c8c4050ac11c86fdd494eb0550f194af5b4bed514c893ba2008d557fa7252b9a",
+      "bytes": 5382
     },
     {
       "path": "knowledge/locales/uk/research/games/m-r/nintendogs.md",
@@ -6959,6 +8114,16 @@
       "bytes": 6712
     },
     {
+      "path": "knowledge/locales/uk/research/games/m-r/outrun-2.md",
+      "sha256": "463062cac000c2a555a603dc1b2b7d9e2c12ae9c727a0e2d4416587c4e4f1832",
+      "bytes": 6980
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/m-r/outtrigger.md",
+      "sha256": "05504a5748a076617e799303810e3b8ba4f148aa731fa7e1df83126d38ba2346",
+      "bytes": 6749
+    },
+    {
       "path": "knowledge/locales/uk/research/games/m-r/overcooked-2.md",
       "sha256": "e95c9d717b4b9ff6479e406c2684d893ec49c74bd6ffec5cd59631af16e1921a",
       "bytes": 9956
@@ -6989,6 +8154,16 @@
       "bytes": 13571
     },
     {
+      "path": "knowledge/locales/uk/research/games/m-r/panzer-dragoon-ii-zwei.md",
+      "sha256": "21e9fde7bbf3525f6576f05d4ac7348bacb75225b9311fe42cee2a37d7c4b2a8",
+      "bytes": 8598
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/m-r/panzer-dragoon-saga.md",
+      "sha256": "92ff2489eba57043641c7b6b786819eb821fc7782e3baf36cfc3a28f394b5386",
+      "bytes": 5608
+    },
+    {
       "path": "knowledge/locales/uk/research/games/m-r/panzer-dragoon.md",
       "sha256": "5008fe0bd86c836d5e8db776ede15174f6d5f193bdc9b2ca018dd690c80b1aa6",
       "bytes": 14490
@@ -7004,9 +8179,19 @@
       "bytes": 6282
     },
     {
+      "path": "knowledge/locales/uk/research/games/m-r/paradise-killer.md",
+      "sha256": "0bd7d79b413a960127d044cc2b000ae4c4c13b8271eb091982daaf20d7398715",
+      "bytes": 5900
+    },
+    {
       "path": "knowledge/locales/uk/research/games/m-r/parappa-the-rapper-remastered.md",
       "sha256": "2bb91eca3aad6923b9317b7a2e9d59e9d6acc065af0bb738c69e2152a08ba435",
       "bytes": 9187
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/m-r/parasite-eve.md",
+      "sha256": "fe51c11987c403d1ed08a1d20f77932919fe50662a0e1f00fdd8c30db3e94d76",
+      "bytes": 16535
     },
     {
       "path": "knowledge/locales/uk/research/games/m-r/patapon.md",
@@ -7054,6 +8239,21 @@
       "bytes": 3904
     },
     {
+      "path": "knowledge/locales/uk/research/games/m-r/pentiment.md",
+      "sha256": "4ed7a5935008f83a5e1af0340858d9dd11fcd177c289417c96f5a816a3219539",
+      "bytes": 8152
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/m-r/people-of-note.md",
+      "sha256": "f75170a6d0a96d3b32ee06d78b9ddb652dc3c7fee106fe5a9c7da4ae0cb318da",
+      "bytes": 8817
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/m-r/pepper-grinder.md",
+      "sha256": "c685048d9962d4d677824b7b9edecfbeb24e6bed06b7a603ff4a184142e435b1",
+      "bytes": 7299
+    },
+    {
       "path": "knowledge/locales/uk/research/games/m-r/persona-5-royal.md",
       "sha256": "b8a72366ec99aee6915a0b91240d6fb87d2dc5854b624475907aac661cd3f047",
       "bytes": 16875
@@ -7069,14 +8269,34 @@
       "bytes": 8531
     },
     {
+      "path": "knowledge/locales/uk/research/games/m-r/pilotwings-64.md",
+      "sha256": "661b7d2a876b0bbbfe426e056db83cadb62bc069833fafdbc546415402be5ac9",
+      "bytes": 8428
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/m-r/pilotwings.md",
+      "sha256": "5b6fae3bee1a9f15a24688a3b6654ebad503707348337f3868868af04483f69d",
+      "bytes": 6135
+    },
+    {
       "path": "knowledge/locales/uk/research/games/m-r/pipe-mania.md",
       "sha256": "e5fcbf06acc5701c23e8406e33125c11b2156301914826f078eb1a92977ead37",
       "bytes": 5501
     },
     {
+      "path": "knowledge/locales/uk/research/games/m-r/pipistrello-and-the-cursed-yoyo.md",
+      "sha256": "db6a2025087dbfb780590ef951e81f17e42531f0032cc5332920a927fcde0518",
+      "bytes": 8205
+    },
+    {
       "path": "knowledge/locales/uk/research/games/m-r/pitfall.md",
       "sha256": "076da1b60cdb72888a2e1754a8d19045eb0e459744aa66869b5c1cecc230ad95",
       "bytes": 9182
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/m-r/pizza-tower.md",
+      "sha256": "af385a7b9fb2adeebe2df0d0314cb6aaeb4aabe705b86193077f1a55a2f55511",
+      "bytes": 5873
     },
     {
       "path": "knowledge/locales/uk/research/games/m-r/planet-zoo-console-edition.md",
@@ -7104,6 +8324,11 @@
       "bytes": 12686
     },
     {
+      "path": "knowledge/locales/uk/research/games/m-r/pokemon-pokopia.md",
+      "sha256": "3f4fcf436c0f78e73d6c9a01bb188bb2ec8aa43b627d3ba7ca4fdd5d301e3888",
+      "bytes": 7987
+    },
+    {
       "path": "knowledge/locales/uk/research/games/m-r/pokemon-red-version.md",
       "sha256": "fa26173c6557a04cddd14dcddd34f6b959064bbb69d481076c2bf937536372ac",
       "bytes": 14156
@@ -7129,9 +8354,24 @@
       "bytes": 6276
     },
     {
+      "path": "knowledge/locales/uk/research/games/m-r/power-stone.md",
+      "sha256": "4d5ffafdac9a6092f9e0d0793ec1507ce421d6f835ec070030d4e7e6f26cce11",
+      "bytes": 8208
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/m-r/powerwash-simulator-2.md",
+      "sha256": "32c6462ebe62306ec290e652567a5d8977983f040fc0e69a6ea126a45de345d4",
+      "bytes": 7113
+    },
+    {
       "path": "knowledge/locales/uk/research/games/m-r/powerwash-simulator.md",
       "sha256": "f1e874ddbe0932d71527025d17eb1b3cfdb002befa4a2861692754b56a2335d6",
       "bytes": 12029
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/m-r/pragmata.md",
+      "sha256": "e3fdca5c6404742ee1024b53b7e16b5f4194d3bc285840f313e807ab3170070a",
+      "bytes": 8938
     },
     {
       "path": "knowledge/locales/uk/research/games/m-r/prey-2017.md",
@@ -7157,6 +8397,11 @@
       "path": "knowledge/locales/uk/research/games/m-r/project-zomboid.md",
       "sha256": "202a9532c1e4ec7bcb06e9d280f21d2e02eca3d9be32357a0d970b7bece97968",
       "bytes": 13885
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/m-r/psychonauts-2.md",
+      "sha256": "4288076f162c12d4b388d37c1d8d3de749e2fd57a2bb7c2c363bcdff821d890b",
+      "bytes": 16546
     },
     {
       "path": "knowledge/locales/uk/research/games/m-r/psychonauts.md",
@@ -7244,9 +8489,29 @@
       "bytes": 5809
     },
     {
+      "path": "knowledge/locales/uk/research/games/m-r/returnal.md",
+      "sha256": "51f4161cd5f6c4984b913f84ee06257c5d271a7419c31cb70f261ce1f2a0d67f",
+      "bytes": 10575
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/m-r/rez.md",
+      "sha256": "1ab4d18ec7f9da85b8dc9096f34e4b67582bf909002d4181e15ea2596a6110c6",
+      "bytes": 7633
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/m-r/rhythm-doctor.md",
+      "sha256": "4cde38c47b234c2635b591c0621ff0705faf12eeb8ac8bd678821d2d1848fc7d",
+      "bytes": 7378
+    },
+    {
       "path": "knowledge/locales/uk/research/games/m-r/rhythm-heaven.md",
       "sha256": "9851cedfcfcfd560f7d45613127781d470223a6b72466bc46ff58eb145142a4f",
       "bytes": 8709
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/m-r/ridge-racer-type-4.md",
+      "sha256": "0902295d7833b25e824820bc8f3df63774708b541130580a05f1bbcd2b0ef341",
+      "bytes": 11210
     },
     {
       "path": "knowledge/locales/uk/research/games/m-r/rimworld.md",
@@ -7264,6 +8529,16 @@
       "bytes": 18777
     },
     {
+      "path": "knowledge/locales/uk/research/games/m-r/ristar.md",
+      "sha256": "9380cacae0267cf88e3cf3ec5a857da3e00b2e52ee9fc67e0037a79123d4a061",
+      "bytes": 7098
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/m-r/rocket-knight-adventures.md",
+      "sha256": "5b078d89bb4e68b460cc99359ef07cf51bcf0c03016674760d44cdf194170460",
+      "bytes": 7337
+    },
+    {
       "path": "knowledge/locales/uk/research/games/m-r/rocket-league.md",
       "sha256": "7e9c046d36d5132927a2b3750140af037776bd9f72b239f6633c876115627b1d",
       "bytes": 11035
@@ -7272,6 +8547,16 @@
       "path": "knowledge/locales/uk/research/games/m-r/rollercoaster-tycoon-deluxe.md",
       "sha256": "4f0cdc77f4b86f16d3069b1e735e29035c5748102219a2af211eae4dd2ed1d43",
       "bytes": 10930
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/m-r/rollerdrome.md",
+      "sha256": "31d5da7fa6007eed1b42d4ec9306f62c6066874dbc2dc1aa5d8bb70f8ce0e207",
+      "bytes": 6568
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/m-r/roto-force.md",
+      "sha256": "1e7d1c994081a28f07c03a9d8d74a00075d8e0240bac999d5e2686f049ffc869",
+      "bytes": 12121
     },
     {
       "path": "knowledge/locales/uk/research/games/m-r/royal-match.md",
@@ -7294,9 +8579,24 @@
       "bytes": 14664
     },
     {
+      "path": "knowledge/locales/uk/research/games/s-z/samba-de-amigo.md",
+      "sha256": "4a876fd2296a1f620079774a6a1f5a1e1e1f702215d7d58d1e5d812c7a3d4cf2",
+      "bytes": 5577
+    },
+    {
       "path": "knowledge/locales/uk/research/games/s-z/satisfactory.md",
       "sha256": "d621b193f76bbf7c7b9a5609a46b46c314c730848dfb389c82858ef6d4d3c0f8",
       "bytes": 7668
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/saturn-bomberman.md",
+      "sha256": "082d4a4ad15955433e337d1dc058b26c114994a8e10eebaf00cfc35f2a3d9f9b",
+      "bytes": 8288
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/sayonara-wild-hearts.md",
+      "sha256": "fc2da3cfdeb802c4521f158f63fb420d91a06a345ea6706f4aa2c5330ac5321c",
+      "bytes": 12656
     },
     {
       "path": "knowledge/locales/uk/research/games/s-z/scribblenauts.md",
@@ -7309,9 +8609,19 @@
       "bytes": 11652
     },
     {
+      "path": "knowledge/locales/uk/research/games/s-z/sega-bass-fishing.md",
+      "sha256": "2436902b078136abb5ebe30d932377a2bb80870e6daee23661b0b5addb27a702",
+      "bytes": 8726
+    },
+    {
       "path": "knowledge/locales/uk/research/games/s-z/sega-rally-championship.md",
       "sha256": "06b0c8a0cc646c810c64feb922451eaf6d37381e72b176d0ec63ca2425d5a404",
       "bytes": 10153
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/sega-worldwide-soccer-97.md",
+      "sha256": "e607b3d04002169557c8420ee6c28e3e17cba4134c8db23d6a3898bf99fbe924",
+      "bytes": 10339
     },
     {
       "path": "knowledge/locales/uk/research/games/s-z/sekiro-shadows-die-twice.md",
@@ -7349,6 +8659,11 @@
       "bytes": 10496
     },
     {
+      "path": "knowledge/locales/uk/research/games/s-z/shining-force-iii.md",
+      "sha256": "a5ff82807db09c4b166315a64d836bda52bbf203a070a5185dd4bbd71cb7b817",
+      "bytes": 8544
+    },
+    {
       "path": "knowledge/locales/uk/research/games/s-z/shogun-showdown.md",
       "sha256": "60f78e70e1a76ca61db8ea105d6f75502cd27f4e59785c8353b7b40caf3da4fa",
       "bytes": 9326
@@ -7374,6 +8689,11 @@
       "bytes": 5133
     },
     {
+      "path": "knowledge/locales/uk/research/games/s-z/silent-bomber.md",
+      "sha256": "e8aecb672f1c37cbb17d2c54c9304703336b60f84f47b8314871197373124f61",
+      "bytes": 8891
+    },
+    {
       "path": "knowledge/locales/uk/research/games/s-z/silent-hill-2-2024.md",
       "sha256": "3edc237f40aeb4fb1f6a4e123a79fa5b61411d1808b0b42a8326d078ab1ff799",
       "bytes": 13556
@@ -7397,6 +8717,16 @@
       "path": "knowledge/locales/uk/research/games/s-z/simon.md",
       "sha256": "3880fded8b6d6c724766f6f6f3bc97014539c9fca228ab0065d9362852c3d4b2",
       "bytes": 6359
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/skate-story.md",
+      "sha256": "2c7fc1866c0951c70e42a6d7762fd3c43becb357f48d580a50e34a7b47808fb6",
+      "bytes": 6272
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/skies-of-arcadia.md",
+      "sha256": "87af3361d29d1d96b8ba3985651d722948c0ba9b6db686be148bfe504ef93c37",
+      "bytes": 7827
     },
     {
       "path": "knowledge/locales/uk/research/games/s-z/slant.md",
@@ -7439,6 +8769,11 @@
       "bytes": 10859
     },
     {
+      "path": "knowledge/locales/uk/research/games/s-z/sonic-racing-crossworlds.md",
+      "sha256": "50aa30c9fa07d94238a4c4f9581550d9d872ffbcf0778209d36e2f937e2bdb7b",
+      "bytes": 9693
+    },
+    {
       "path": "knowledge/locales/uk/research/games/s-z/sonic-the-hedgehog.md",
       "sha256": "6cf476ba5936097e5ddde09b34fbcde4f5b2491370ad0344647e16fc27f1e3bf",
       "bytes": 11628
@@ -7459,14 +8794,29 @@
       "bytes": 18390
     },
     {
+      "path": "knowledge/locales/uk/research/games/s-z/space-channel-5.md",
+      "sha256": "e2e7b7f02821c74f9b2752036441d34842c190dfdaf98cedf31300add60e903c",
+      "bytes": 7537
+    },
+    {
       "path": "knowledge/locales/uk/research/games/s-z/space-invaders.md",
       "sha256": "21ac83d0707c70a7849fbdbf809dfee80055fb53b15b7b9de713517a9965251c",
       "bytes": 12402
     },
     {
+      "path": "knowledge/locales/uk/research/games/s-z/space-station-silicon-valley.md",
+      "sha256": "af66f898fa94aa823680f3a36d4ff171320d86b9073088a9157af70dff1dc923",
+      "bytes": 9698
+    },
+    {
       "path": "knowledge/locales/uk/research/games/s-z/spacechem.md",
       "sha256": "63bafce71c2eb175934970be89bcd45bf97978a18257f7abe4aa4dc77c5540e3",
       "bytes": 6626
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/spire-blast.md",
+      "sha256": "2e0d5901a9bafe503c8e56364f3f8b4f1cf682c33361e0c7682cdb07e075217c",
+      "bytes": 5570
     },
     {
       "path": "knowledge/locales/uk/research/games/s-z/splatoon-3.md",
@@ -7477,6 +8827,11 @@
       "path": "knowledge/locales/uk/research/games/s-z/split-fiction.md",
       "sha256": "3bdd0100160011c8243b3df88206d40e4a82e7c3b813d404fe0a50ae1d148eaf",
       "bytes": 9153
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/spooky-express.md",
+      "sha256": "1b4f7e3c1c18fb8e6e7575038983d6091826ac63324e1665d32cd737a398ae82",
+      "bytes": 6659
     },
     {
       "path": "knowledge/locales/uk/research/games/s-z/spore.md",
@@ -7502,6 +8857,11 @@
       "path": "knowledge/locales/uk/research/games/s-z/star-wars-battlefront-ii-2017.md",
       "sha256": "fa8df9030bfb04a535a21b9988dca9da87dc7c2cb40ca3fa210d5f20f8b0d00a",
       "bytes": 13692
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/star-wars-episode-i-racer.md",
+      "sha256": "0b75ffc875fa3909bc9fa43f403db7a4b342696b4691fbb8bb78b998134281b4",
+      "bytes": 5888
     },
     {
       "path": "knowledge/locales/uk/research/games/s-z/star-wars-jedi-fallen-order.md",
@@ -7547,6 +8907,16 @@
       "path": "knowledge/locales/uk/research/games/s-z/strands.md",
       "sha256": "f743e2f2f9a129fe4728317626e3ea925e3c900f93dd8c3c562d5bfe07785546",
       "bytes": 8769
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/strange-antiquities.md",
+      "sha256": "a16e9366681b5634ec626af9d9ab205a6fe61e3cdfeddc15990429be9330d997",
+      "bytes": 7283
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/strange-horticulture.md",
+      "sha256": "695be0e599fbb09042f047b0adaf28ec5da450b0dfac7a393dfe7728d12c2127",
+      "bytes": 12928
     },
     {
       "path": "knowledge/locales/uk/research/games/s-z/street-fighter-6.md",
@@ -7609,6 +8979,11 @@
       "bytes": 8304
     },
     {
+      "path": "knowledge/locales/uk/research/games/s-z/superhot-vr.md",
+      "sha256": "bf15a0d911056dec6b4b5f293bf43fb10cf3897ed26fad66131709d780491be1",
+      "bytes": 14233
+    },
+    {
       "path": "knowledge/locales/uk/research/games/s-z/superliminal.md",
       "sha256": "8aa431b411cc6d29924ea9c3928ec855b9c111efb04d8bc7bced0f317ce2a107",
       "bytes": 7275
@@ -7617,6 +8992,11 @@
       "path": "knowledge/locales/uk/research/games/s-z/surviving-mars.md",
       "sha256": "89b858b4ca459d201162ed27c585053526e2b32d835b06f44801396ece472be2",
       "bytes": 14867
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/sword-of-the-sea.md",
+      "sha256": "059b93e0cdd891537c0bc36505e745807f501d6764cabd21d914e41e38ca1422",
+      "bytes": 7878
     },
     {
       "path": "knowledge/locales/uk/research/games/s-z/tactical-breach-wizards.md",
@@ -7637,6 +9017,11 @@
       "path": "knowledge/locales/uk/research/games/s-z/tearaway.md",
       "sha256": "1e9b789438c241c2085db88e91b1a39acf4ff88331bea49c836cf780993cb0e2",
       "bytes": 7570
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/teardown.md",
+      "sha256": "487785aa362cddc3e6bea653cd229c81ac961270e0d29fb33760a209e3750665",
+      "bytes": 12417
     },
     {
       "path": "knowledge/locales/uk/research/games/s-z/tekken-3.md",
@@ -7664,9 +9049,24 @@
       "bytes": 13034
     },
     {
+      "path": "knowledge/locales/uk/research/games/s-z/tetris-effect.md",
+      "sha256": "447d67f8239cbb09e6a504ff19b1f6e68acd2583b219e670185523042bf5e12e",
+      "bytes": 7788
+    },
+    {
       "path": "knowledge/locales/uk/research/games/s-z/tetris.md",
       "sha256": "5e50b64da8692693b3d930efc7ad92c2e308d0e1c84576dc2d3147f1e5dfed8a",
       "bytes": 5458
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/thank-goodness-youre-here.md",
+      "sha256": "bbf91a1d9acb4481a2db7cc617caa1e9fa7d8c5950653214ff8f002cdb2e637c",
+      "bytes": 5491
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/the-alters.md",
+      "sha256": "d7e2c0e1eedc2a9fccb07c6df7aefb93d26561254c068c55e10e005a5c853286",
+      "bytes": 8592
     },
     {
       "path": "knowledge/locales/uk/research/games/s-z/the-binding-of-isaac-rebirth.md",
@@ -7677,6 +9077,16 @@
       "path": "knowledge/locales/uk/research/games/s-z/the-case-of-the-golden-idol.md",
       "sha256": "c03ff3dde5dd199f521aa2447fd09e90dbeba99194ec8a1026fc777dea4731be",
       "bytes": 7527
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/the-dig.md",
+      "sha256": "816e544bfd68aa37d66f0b51c74d0bf7c8ca7a1922cace69613e732a7d32d6dc",
+      "bytes": 5546
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/the-drifter.md",
+      "sha256": "6867246025dae5d26a56bae92060eb9556dd8acd4ee6a28fe4aa3ad76bc970ac",
+      "bytes": 6958
     },
     {
       "path": "knowledge/locales/uk/research/games/s-z/the-elder-scrolls-iii-morrowind.md",
@@ -7694,14 +9104,29 @@
       "bytes": 17436
     },
     {
+      "path": "knowledge/locales/uk/research/games/s-z/the-forgotten-city.md",
+      "sha256": "e2ac04f0f8645197121b3d69d32748a05931d000b0e22b670ef6b239afa5dbf4",
+      "bytes": 8120
+    },
+    {
       "path": "knowledge/locales/uk/research/games/s-z/the-house-of-the-dead.md",
       "sha256": "5ef3f38f71a7ffd8740cffe91bc4bef3bb945aab49aec64d546bb6d6273f0c03",
       "bytes": 12387
     },
     {
+      "path": "knowledge/locales/uk/research/games/s-z/the-incident-at-galley-house.md",
+      "sha256": "bf5cb2fbf87a01d79b15d51f8893f7a1142c2dd47058cf567b7c3280dbe672ea",
+      "bytes": 4812
+    },
+    {
       "path": "knowledge/locales/uk/research/games/s-z/the-incredible-machine.md",
       "sha256": "30de08c71cec92e4be279cc3c2e29f9a72e675e55a6f0f5ff1c5218cd9b9ed2e",
       "bytes": 6834
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/the-last-guardian.md",
+      "sha256": "e333e5389efacc41513bbc7acafa0e78618d6ee942a38eb02687b5953c85abaf",
+      "bytes": 13113
     },
     {
       "path": "knowledge/locales/uk/research/games/s-z/the-last-of-us-part-i.md",
@@ -7724,6 +9149,11 @@
       "bytes": 12868
     },
     {
+      "path": "knowledge/locales/uk/research/games/s-z/the-legend-of-zelda-the-minish-cap.md",
+      "sha256": "d1bb6604dcb8d34078c3fac71c779b80963c40da523920a27abb18de88f924f9",
+      "bytes": 10087
+    },
+    {
       "path": "knowledge/locales/uk/research/games/s-z/the-legend-of-zelda.md",
       "sha256": "2f9f67fc1c775514226fb63bf26c0ac09a331f52432c055f3e0aed58404b5980",
       "bytes": 12288
@@ -7737,6 +9167,21 @@
       "path": "knowledge/locales/uk/research/games/s-z/the-longest-journey.md",
       "sha256": "4b151968355af16cef66428849c6f42005736a5ccae2bd8584b150e339ebc54a",
       "bytes": 6345
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/the-lost-vikings.md",
+      "sha256": "6b93055acb0e0ab33371affa02f28f6b5dbaac2e5e3928ad806c77d2ade2754f",
+      "bytes": 15686
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/the-midnight-walk.md",
+      "sha256": "7c9f67e007f907ae3a2d761551f6946d648731fb04750539505d214a2dc17219",
+      "bytes": 7624
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/the-neverhood.md",
+      "sha256": "601af7f0018a75182b4a4a49b99979f21992c039e96300b455c96bae026ff842",
+      "bytes": 7433
     },
     {
       "path": "knowledge/locales/uk/research/games/s-z/the-oregon-trail.md",
@@ -7754,9 +9199,29 @@
       "bytes": 5947
     },
     {
+      "path": "knowledge/locales/uk/research/games/s-z/the-plucky-squire.md",
+      "sha256": "16186c1b8ab1cabdd01846273475fa788e1622a01f77b20402822916a945040f",
+      "bytes": 6648
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/the-rise-of-the-golden-idol.md",
+      "sha256": "9c45501f7e602dbc84c4209780fe45ec86aae1962ca67fa3d55ff84abc0de5e5",
+      "bytes": 5052
+    },
+    {
       "path": "knowledge/locales/uk/research/games/s-z/the-room.md",
       "sha256": "cd9044e261a2916b3dc44b0d76ec62fc1aca33e15c68758b9cb749150db77135",
       "bytes": 6501
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/the-roottrees-are-dead.md",
+      "sha256": "2fa6af789c18146100a09363ed14b1a33ea8b24d3b35c3a22bc99d0eb7f43a8d",
+      "bytes": 7379
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/the-seance-of-blake-manor.md",
+      "sha256": "d7fe6378c8e2e23d8a0a708400dc05f1bd032f74870a31c52144b3bce14ffa35",
+      "bytes": 8909
     },
     {
       "path": "knowledge/locales/uk/research/games/s-z/the-secret-of-monkey-island.md",
@@ -7839,9 +9304,19 @@
       "bytes": 6784
     },
     {
+      "path": "knowledge/locales/uk/research/games/s-z/tiny-glade.md",
+      "sha256": "442a418f30eee34166fd1c2d6be3e3d3e61b7438f0b4e2002f42a0da26afe1e8",
+      "bytes": 4769
+    },
+    {
       "path": "knowledge/locales/uk/research/games/s-z/titanfall-2.md",
       "sha256": "31177b16af7d0e099ae90767fe0dc821a338f6d2751dbebe5169b54bb85559f9",
       "bytes": 17055
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/tokyo-xtreme-racer.md",
+      "sha256": "71a48bb6401788dfb45d2eb0a2a208d137da7d3d1b1c8a03e6958a3845977191",
+      "bytes": 7546
     },
     {
       "path": "knowledge/locales/uk/research/games/s-z/tom-clancys-rainbow-six-siege.md",
@@ -7909,6 +9384,11 @@
       "bytes": 17441
     },
     {
+      "path": "knowledge/locales/uk/research/games/s-z/unicorn-overlord.md",
+      "sha256": "44ec681f8215e3b29ba2ce1a5d0f30a5a51b2d8dc8acead73b2e86a59d9e8f06",
+      "bytes": 7579
+    },
+    {
       "path": "knowledge/locales/uk/research/games/s-z/unpacking.md",
       "sha256": "6283d6ec144e85ec108a193446dd498a6c8e174e7a8cb6bfd0752117dc727067",
       "bytes": 3790
@@ -7934,6 +9414,11 @@
       "bytes": 11154
     },
     {
+      "path": "knowledge/locales/uk/research/games/s-z/venba.md",
+      "sha256": "0a1981bf6a866b8316029c4df105319a006c876a1f6bbc5821e4a83e1d725d77",
+      "bytes": 5398
+    },
+    {
       "path": "knowledge/locales/uk/research/games/s-z/vib-ribbon.md",
       "sha256": "9daeb8b3a3d5ceeb283a135c524d755ccc8d6b7d6b29e99afac305cf5ff787e2",
       "bytes": 9331
@@ -7944,9 +9429,24 @@
       "bytes": 7519
     },
     {
+      "path": "knowledge/locales/uk/research/games/s-z/viewtiful-joe.md",
+      "sha256": "f677114267105720f9260523dcda0f886f3213a35c0e30578394a57c38cb2618",
+      "bytes": 9765
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/virtua-tennis.md",
+      "sha256": "dc193eced76a7d46dcdd23eba938eccf3c22b613ca92e9069f400a90759107e0",
+      "bytes": 9077
+    },
+    {
       "path": "knowledge/locales/uk/research/games/s-z/viva-pinata.md",
       "sha256": "cf1be3c7987868f8f8e2583cf71a1709d8bf94a37bedcb6e499de3d5d385eacf",
       "bytes": 7401
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/walkabout-mini-golf.md",
+      "sha256": "35668382efe889d622c2af809d25a793cca363ce8c58578cd482ad6b5c15b019",
+      "bytes": 8697
     },
     {
       "path": "knowledge/locales/uk/research/games/s-z/war-thunder.md",
@@ -7969,6 +9469,11 @@
       "bytes": 14827
     },
     {
+      "path": "knowledge/locales/uk/research/games/s-z/wario-land-3.md",
+      "sha256": "430bc074527abd4c4d0bb48802539ad7be2bb285d9c69933ccbe05157cdd7615",
+      "bytes": 5007
+    },
+    {
       "path": "knowledge/locales/uk/research/games/s-z/wario-land-4.md",
       "sha256": "b3dfa027f7d6936b2f1eb04ac54c3fe14de6f1ee5aa06e52c2093e2c1136e164",
       "bytes": 11725
@@ -7984,6 +9489,21 @@
       "bytes": 5065
     },
     {
+      "path": "knowledge/locales/uk/research/games/s-z/wave-race-64.md",
+      "sha256": "931b9263b9e44f089342addbd1cd83e88ce23e480c2e126c7b1087f1c126e382",
+      "bytes": 7550
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/what-the-car.md",
+      "sha256": "8034ad769a12a09c258cef389629782efc83e4558385ea44e1a93bfaf742ad65",
+      "bytes": 6148
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/wheel-world.md",
+      "sha256": "bbeede9022021b1f1d2212bc1644ae0688c8b641da0b912732a8a5e4311fd7a8",
+      "bytes": 8758
+    },
+    {
       "path": "knowledge/locales/uk/research/games/s-z/wheres-my-water.md",
       "sha256": "78bf75f6a5eb85063e9313186a8ce788ef620c845e76fc887f0eab68cc82b3f3",
       "bytes": 6911
@@ -7994,9 +9514,19 @@
       "bytes": 9282
     },
     {
+      "path": "knowledge/locales/uk/research/games/s-z/wii-sports-resort.md",
+      "sha256": "2580bd9efd03900466fcde775cfc42696848aa85368ae97fa22cc47d97f879bb",
+      "bytes": 7647
+    },
+    {
       "path": "knowledge/locales/uk/research/games/s-z/wii-sports.md",
       "sha256": "3e08843f66f21db2db0344bba6bbefb0399d0cf3f5a25406831724ff6e942829",
       "bytes": 10627
+    },
+    {
+      "path": "knowledge/locales/uk/research/games/s-z/windjammers.md",
+      "sha256": "24f99a7ffc46170ebc891b051337f2252719c64cc170c54ef067ec967da62d82",
+      "bytes": 17628
     },
     {
       "path": "knowledge/locales/uk/research/games/s-z/wipeout.md",
@@ -8050,33 +9580,33 @@
     },
     {
       "path": "knowledge/locales/uk/research/genes/actions.md",
-      "sha256": "b4ac643afca43f68f7fd269a3853103d17b5c7d16e481e745723cd91e09323bd",
-      "bytes": 1002773
+      "sha256": "ea3a4ea75110886780ef735d7bc535b7e4e59ccc709aebefbc29e4d4183fd10e",
+      "bytes": 1245473
     },
     {
       "path": "knowledge/locales/uk/research/genes/constraints.md",
-      "sha256": "8072d065b816064da0b8d82e10c3d1938a2594c00e48ef1c1e351638f65634ad",
-      "bytes": 1047355
+      "sha256": "53c2f753cfca5689a622e7c4a14dca261714ade67d78c1850a98fafd142458a6",
+      "bytes": 1166729
     },
     {
       "path": "knowledge/locales/uk/research/genes/information.md",
-      "sha256": "37f48e75fe735839631a7d452926b86c1ac15e022e1f57df1f255cc30185bcc5",
-      "bytes": 706017
+      "sha256": "e6e342b9c4aaf796f8004d7f8ac94dd62640779b9a9dc5044129924a64fb6fbb",
+      "bytes": 860478
     },
     {
       "path": "knowledge/locales/uk/research/genes/objectives.md",
-      "sha256": "e2cc4e9ea2b138b9e74e13881aed18369cfc50340a4330932de617e2065a0f0e",
-      "bytes": 395675
+      "sha256": "5e39d227bd8a9978b67e83710849ec8a9bb33eacd0cc36e523b4267f74c60430",
+      "bytes": 479511
     },
     {
       "path": "knowledge/locales/uk/research/genes/system-behaviours.md",
-      "sha256": "2548e15c9e7b2302a5f5d682ae2e6e628ca135da3d7c24324b178f4b47239a2d",
-      "bytes": 2041653
+      "sha256": "a0badc77910067068e327438ce6b5a90b908d36364edb2ab3bd6be80eb68d712",
+      "bytes": 2668508
     },
     {
       "path": "knowledge/locales/uk/research/genes/time.md",
-      "sha256": "9e40138d54bdab7e5b4a897368964fae1e3cd2a95efe5611bd1fc4b6d016f5de",
-      "bytes": 102519
+      "sha256": "92c4fc8480f87003079a56139ab6058a30fc8437c9c7e71e0ca4b0f3c66dbacd",
+      "bytes": 130090
     },
     {
       "path": "knowledge/plain-language/README.md",
@@ -8085,8 +9615,8 @@
     },
     {
       "path": "knowledge/plain-language/pilot.json",
-      "sha256": "42e95f415bcca097df6e4e68138191ba826edd8dff11c4998f73064daf77efc8",
-      "bytes": 8059320
+      "sha256": "098faf800e40bebbeb4d639ff381524c1e0443e3eb89d4768adc9d051b0b41f3",
+      "bytes": 9748293
     },
     {
       "path": "knowledge/platforms/README.md",
@@ -8095,13 +9625,13 @@
     },
     {
       "path": "knowledge/platforms/games.json",
-      "sha256": "d6b62e0b0445c29e3abf0413c5ebef78f521a5b4c0377b7f01df0060eb01ebdb",
-      "bytes": 1228123
+      "sha256": "6f361d08f431e56a36829f57a6f5aac81048ded543fcb68c9fff7380a5430882",
+      "bytes": 1360067
     },
     {
       "path": "knowledge/platforms/registry.json",
-      "sha256": "de30b80356ec443c1ebeedd8f2fa1cc88c4975d56d2b2dd18230a8daaefd5fca",
-      "bytes": 32628
+      "sha256": "c784c47e4e560d468a54fbca80b7d8b043632417b0a135dd16414ddf3c120caf",
+      "bytes": 32976
     },
     {
       "path": "knowledge/platforms/variants.json",
@@ -8115,8 +9645,8 @@
     },
     {
       "path": "knowledge/presentation/games.json",
-      "sha256": "d1c25b847fc3c1bb7a28bec0d76578636b64992652c75a8b3d0a4293e61f818c",
-      "bytes": 1104414
+      "sha256": "e22a1ac2c8d808e21787c68430d698a84fe9448c403370a0a3541942574d8aa2",
+      "bytes": 1229386
     },
     {
       "path": "knowledge/salience/README.md",
@@ -8125,8 +9655,8 @@
     },
     {
       "path": "knowledge/salience/pilot.json",
-      "sha256": "8bfc29dda401f0bbfc1bed39783026345a21118fb66c01335c29097843ccfef1",
-      "bytes": 809225
+      "sha256": "249f2fd8d83bac5b967a3379e5f34fd6b2a9d9ee21f1a4f3b5453e9d463c5b5f",
+      "bytes": 976737
     },
     {
       "path": "research/negative-results/NEGATIVE_RESULT_002.md",
@@ -9439,6 +10969,766 @@
       "bytes": 4045
     },
     {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_261.md",
+      "sha256": "f02ab376ed1dc4c6b2e14fd00caa95b69ad9718216264612a8208a99c5f9a854",
+      "bytes": 2246
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_262.md",
+      "sha256": "6ed2de1ee826f0ac24fcb0e86e085995364b7918dd0e6e794e172d20511ca5f5",
+      "bytes": 1675
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_263.md",
+      "sha256": "38690f28b5a71e6a27e2322f9259c78d79e61b62d3373446d3f2fde13b6e45d8",
+      "bytes": 3031
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_264.md",
+      "sha256": "b6e06b49ce4f690f562f999212fdb59a3a0b2fa275fa75e3991b003fc0bcf617",
+      "bytes": 2803
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_265.md",
+      "sha256": "32bb17f4479ba36634e456213c248e3e782fe19a4ed3f2c34292a5a9bc64ab2a",
+      "bytes": 2515
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_266.md",
+      "sha256": "30671926e6eeaf2a5d91503651be2402b08cf15187d1e5ebf055d8c748619baa",
+      "bytes": 2714
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_267.md",
+      "sha256": "307053262dca81f7bcba1bfe3ada2e8fc2898f2dd718599c016bd76d8b1528ef",
+      "bytes": 2238
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_268.md",
+      "sha256": "fe5411371b61330896fd48a7564a5b0956159733f8739c31350de8c8df8a5105",
+      "bytes": 2514
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_269.md",
+      "sha256": "059134b84ab344093f0df0a1c31007a69a5da53c91bfa9d4e5153e25f36c919c",
+      "bytes": 2344
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_270.md",
+      "sha256": "560822832c53e73a26ecc89aff5cb67bf0f7ee9d2b4147b72fcb157a34eed196",
+      "bytes": 1688
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_271.md",
+      "sha256": "e0af5c6741ad83d8bf6bfd6b4035bd730140e155de80d2d69a4baf7309312e66",
+      "bytes": 1981
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_272.md",
+      "sha256": "47d2089d2b2faa5abbf27d71e6904dcfbeffc23c35fd04e168b9eea14e656060",
+      "bytes": 2004
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_273.md",
+      "sha256": "72e4a013bb5301d2e42b2c6e28b9e3034472f6c15296d0a8b54c4f2e0d81cfe0",
+      "bytes": 2462
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_274.md",
+      "sha256": "b441cde38660f450a0629d3da6de4a4c2c98b94fb71d6873941291bf4119677a",
+      "bytes": 1823
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_275.md",
+      "sha256": "ce70215123fde053cd0c9daefd392b276d0fc04d322b3a8cfcdd65c05fde10c9",
+      "bytes": 2057
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_276.md",
+      "sha256": "8918bd5c53853ac22b8e9d758023b77594143d7ea44a8735cafad6da9599ffa3",
+      "bytes": 2107
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_277.md",
+      "sha256": "258db6f74bee35bf3c5d1eaaf9cf2ed4e8e7136eb2ad25649eaec2e55b9a03cb",
+      "bytes": 2141
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_278.md",
+      "sha256": "25d9d56a9a6d0682bdff53f036e75a7d45f42d478cb5c2099ee61b78ab96cff7",
+      "bytes": 2307
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_279.md",
+      "sha256": "a197bb91579bf80c3abf7f6f5526d3ecb74556de25717a3852e935c1500d9050",
+      "bytes": 1941
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_280.md",
+      "sha256": "bad227b66335ac93251bf1b37ce503893ea115276a8e498bab551c0f637332a6",
+      "bytes": 2484
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_281.md",
+      "sha256": "914fed4bf84c3a9ec648f927d75706d457378194d57cf6271b637993e8f5c2f2",
+      "bytes": 1436
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_282.md",
+      "sha256": "9c11cddd4cc000443e19aad55e51a2fd58e908296f6f56d76186730e927231e4",
+      "bytes": 1871
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_283.md",
+      "sha256": "9db77358ef7b49f3b3d1072207ee9e9444ca3375cf328c37f551a6b4bd8f71d7",
+      "bytes": 1889
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_284.md",
+      "sha256": "a0d9fcdce2ed4afdb3281e6cf30f3d4cf2fb8f6ecb6da29a9707371578d6f7d7",
+      "bytes": 2052
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_285.md",
+      "sha256": "eca935f4106f2d899f47c7ee4736e2d6764d9077e02935cbd280ee9440cb8879",
+      "bytes": 1454
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_286.md",
+      "sha256": "e44c42328b2e11eac29cc87177a14a90bb2ae11ac28781183292466f1bfc217b",
+      "bytes": 1359
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_287.md",
+      "sha256": "0f9f719558f44af75db203a9ea86a662394704c64ce2cbe96367fe3895ddb716",
+      "bytes": 1399
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_288.md",
+      "sha256": "1295a0695b1388494ec1374e7c3418bd26181ad2c638bccda94ce794f99f7728",
+      "bytes": 889
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_289.md",
+      "sha256": "ca92c89d00b30687dc77e3cccc4b5317595c5d209366e4395b29b73106f7e4f2",
+      "bytes": 2028
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_290.md",
+      "sha256": "f657738d9dccb5dffff18c2f828abadbde9e643439d70f27ca8c76e7a92e7a87",
+      "bytes": 1441
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_291.md",
+      "sha256": "0c0924ae86369370f15c4db6cec534271eb48edaf22f6b7c64c500f4fb3e9188",
+      "bytes": 2054
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_292.md",
+      "sha256": "fea0e738f80a4c696a63ad02e2acafc22ceb64cdeaed237ed1ef95ce6e473350",
+      "bytes": 2351
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_293.md",
+      "sha256": "842901cd7a0fe03df1c8c672efc94eb0615bca7f7d976fb9cf76c5e53fd92a48",
+      "bytes": 2681
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_294.md",
+      "sha256": "f0a6574148e0cfeb7251fbe7a74203dcf892f0b01f655451924a33e908376014",
+      "bytes": 2635
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_295.md",
+      "sha256": "72c13ad78c3584bfe2464cfa2676f6cde951bbd4c57521445cc50764c84abe53",
+      "bytes": 2591
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_296.md",
+      "sha256": "be9bccc1beb9c0280ed4acd69f9021112553387231a073328e22113f3d8ed45e",
+      "bytes": 3113
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_297.md",
+      "sha256": "cdb0d9997fc4cf45396d3ed572a802458ba2cffc9f35d9cdb8739ff86f17c7f2",
+      "bytes": 2609
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_298.md",
+      "sha256": "18fd8f1571e1432a39f742dc980049b71939c264ed66144b709c63f570b91b15",
+      "bytes": 3020
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_299.md",
+      "sha256": "e1a50d42588fcb0edc70be6174e2992d1b384714076e5979702873c64b76c4ea",
+      "bytes": 3190
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_300.md",
+      "sha256": "92d265ed17ed5ccfa6fb4d22ec32e0488a10232b6ce8f7f31e4095538288493a",
+      "bytes": 3746
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_301.md",
+      "sha256": "1022313d91ae7b8d90bc6a36c9d1a34c2b61d5943b74abc9e5f37a316f7d1f6f",
+      "bytes": 3265
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_302.md",
+      "sha256": "8e72572f111e680612dd5ffcdd986f1f43bcdc9c9112107bc6f0390bd47b2d87",
+      "bytes": 3818
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_303.md",
+      "sha256": "57378345c9351ffaece071f60318fdf7f99d836d43a95bc5452a1bc17d6b4f40",
+      "bytes": 6526
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_304.md",
+      "sha256": "8c567e95eb0fe1418550bb9dc83dab27e4f1e800315e70559abd2f7b6170c6ee",
+      "bytes": 3647
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_305.md",
+      "sha256": "13d2f4befed3fe70791aa7942642d8af28311e82427f4dbd9570afe11e00fddb",
+      "bytes": 3143
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_306.md",
+      "sha256": "ad6ffa7a167faae72151e2129662f962d659092341f5a69e93d5ca0bff2c0334",
+      "bytes": 3957
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_307.md",
+      "sha256": "5c5c412a29f081926d3e4062a19bbadc189ec29c30a9339eafce7dbd274a21f7",
+      "bytes": 2413
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_308.md",
+      "sha256": "89861c6227b78a1052cb6fc71636c11e33b44d7b827739cf150323d88b123ca0",
+      "bytes": 3082
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_309.md",
+      "sha256": "e74872a52bcf2605d4f2e895762f2d54cf59c66beee28618bfaaa0c7a1702119",
+      "bytes": 3233
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_310.md",
+      "sha256": "e3efa3bca6afdcc3031e54d4dea04557b52b3c8368d14d0f02bc0321ecaaae86",
+      "bytes": 4716
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_311.md",
+      "sha256": "edb5872ab204333217d1e8d8683cf4d09fcfc21ea9a70e2403308ee52cc63768",
+      "bytes": 4367
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_312.md",
+      "sha256": "ee2555935fec6fb2a8c78f354dce5910e6cce6b4435bec7d039409a370b7035c",
+      "bytes": 4189
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_313.md",
+      "sha256": "a61c5ec17c891ac6feb02bb0f69a65ae722e9402cbb41eb5964549bb5b9ad15c",
+      "bytes": 3932
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_314.md",
+      "sha256": "e9acd0c657bd285ef84540b294ed8d3deac20ae481e44959558e759f1f4c6bc4",
+      "bytes": 2220
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_315.md",
+      "sha256": "ef3b2f61e957f9e4563c48a130ce7a889ba49e8dbc4e23f2091a712f48712dad",
+      "bytes": 2634
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_316.md",
+      "sha256": "61993b93ec1f8e106d72cdcf82bfc58aff829312efd9564be9f4b606f9c51e08",
+      "bytes": 2817
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_317.md",
+      "sha256": "79797522bdeb40c87227f4e0786eeaabff740a68439d17a8287e66311944be06",
+      "bytes": 2835
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_318.md",
+      "sha256": "e5efd7cb9fa1f06d1a99ddfe7d3d1b258a83a2672fb2da2323ade1dc4b5fa319",
+      "bytes": 1962
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_319.md",
+      "sha256": "acf1afa86a944ff59725ef052e2f1ff065dadaacc9c9c23095011db42aa4460b",
+      "bytes": 3104
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_320.md",
+      "sha256": "f56de1d41b9c04b563ea6758b45ee2c77776950252b1105f9a7e932c178d236e",
+      "bytes": 2203
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_321.md",
+      "sha256": "741eb448c989dc16437b43054948b61d74c1db9769378eef7f2ae038df57a991",
+      "bytes": 3014
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_322.md",
+      "sha256": "cc51ba20624f0bc24a82ac175592744fc5a5340f2cc3246a87c3d53f523cc5d7",
+      "bytes": 2564
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_323.md",
+      "sha256": "8f939db425d3b9e75d1740a0ab9f38fe64ca03b20c14ece1cc0adc8260e03bbe",
+      "bytes": 2240
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_324.md",
+      "sha256": "6cb4f85dcd930f95dd2296bdbd06e9feeeadb52bc12a663064964c73e6828fa4",
+      "bytes": 1515
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_325.md",
+      "sha256": "0b1cefa5bddad97c51d61c93582a5137d921547a40fb0949727d35aa9d7a7a7e",
+      "bytes": 2171
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_326.md",
+      "sha256": "6992cac147d10174f788c417cfe9cdab9e17fd7cd63d79da37c7cdeb043688ee",
+      "bytes": 2652
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_327.md",
+      "sha256": "009a3b0be32ecbe20be6fe966413fc4a356a53c4786f6ee1c16ecee29bcefc86",
+      "bytes": 2693
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_328.md",
+      "sha256": "4579a2fa18f5213ec6d89eb67cc0686ebc497773b7b1196c37613b15f0ee0038",
+      "bytes": 1947
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_329.md",
+      "sha256": "b7ec019df6a825b063eebeae23bcca29069a6fbd75f0fe3fb4e2966f5c368aea",
+      "bytes": 2810
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_330.md",
+      "sha256": "f7a8c614cefdbbf536071d8f7390ae404301bf0678215214edceb3d4da5ec5e8",
+      "bytes": 2265
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_331.md",
+      "sha256": "5f90928ee93ee853b64ac488af1a66e28bdf0163ded49773465d0b5a2464864c",
+      "bytes": 2018
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_332.md",
+      "sha256": "8aa5d4605973f85b59c827ed43182191be88e716bb96ab742f1ea3f2bb14aa07",
+      "bytes": 1223
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_333.md",
+      "sha256": "3587ec174f5717b5d41b8cd5ce199e2124934252cef7f32ab35dd9ed83a49a53",
+      "bytes": 1449
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_334.md",
+      "sha256": "07805da0efcbeebdd4eaf152156a0bdcc8213d3d3e888ffcc25fb0b8395d071e",
+      "bytes": 1757
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_335.md",
+      "sha256": "05b859dad61b757c2699b0cc515134ab384732208ae9633810013b67bdda4cc4",
+      "bytes": 1489
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_336.md",
+      "sha256": "ce176403f747ebff4b478e1e0b41b1d16947430a5d398b05761fe918b4013417",
+      "bytes": 1914
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_337.md",
+      "sha256": "1b91e3b674ab236a4126a0877662d9b7bf5de8f0f351bc5f0e6ccc9e1fe25146",
+      "bytes": 2005
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_338.md",
+      "sha256": "24eeb4b14a9a0b9a8abcf23f633a6b23812a910092fe12f3a119b3702c770249",
+      "bytes": 2400
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_339.md",
+      "sha256": "2131c6cab8be168cb4714f61dcbdf40af8c8f60d019e534827c9e466604ff5ca",
+      "bytes": 1718
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_340.md",
+      "sha256": "9986c10ce75c0a06a0ff9d3ce97735abc9dda1794bf5fcced97b4bc04372e8ec",
+      "bytes": 1872
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_341.md",
+      "sha256": "207aae4ee6fc00859f370ce9949608919c3212683823304a270048a4b55ba205",
+      "bytes": 1460
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_342.md",
+      "sha256": "7c0eb8eb9fb7a1fc291f24977a9b72ceab953a2cffd1ec73a81fb1aec63f1b22",
+      "bytes": 1912
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_343.md",
+      "sha256": "07aa6e0ba80073d7837f1d3eb9add9c399abd2da70f2045c14b97c76a6c84064",
+      "bytes": 1085
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_344.md",
+      "sha256": "9813c6034293df588b01baf4314980e04343e2f39fc009781c19769f634dc830",
+      "bytes": 1628
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_345.md",
+      "sha256": "ea2c8ad33353cb8da032eb6109597db8a26ecb13d600d2bbeecbad435c7c4a8d",
+      "bytes": 1320
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_346.md",
+      "sha256": "7e80d770de8a6291986e0c48f6bf570fd2a60be8dc2dc6037c766663cf331aa4",
+      "bytes": 1956
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_347.md",
+      "sha256": "d6f3164b9e85e59401d02fa8fd6244f0e7fc74e6d9df4592fba34ba232fa384b",
+      "bytes": 1750
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_348.md",
+      "sha256": "bef280a0cc6321eb76b9ae9401127dff27d78c222126c0b3e6cae240a60bb71f",
+      "bytes": 1752
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_349.md",
+      "sha256": "13157accf9ccfe2a0319516d447e2b4698c7d62bb7da36e27cefd7954fff66e9",
+      "bytes": 1590
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_350.md",
+      "sha256": "1187bdfc8d505bfcc9a11d944cd382a4f3c400b20f91cb62f3fc0696a937dc43",
+      "bytes": 1622
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_351.md",
+      "sha256": "a6908ec39aebcfcdb8c0b4acbb18ac2a9dbe7801d1807ae29406a40663f0c661",
+      "bytes": 1361
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_352.md",
+      "sha256": "3d4aa348875ed2efe735514d1c68590b839c79d11be9db0288c0f9f16a9194be",
+      "bytes": 1511
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_353.md",
+      "sha256": "d5b1e91f62e9d6bcc88b8d36f3190cd6bc36e12898d9a1bf6cc5672767fad735",
+      "bytes": 1421
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_354.md",
+      "sha256": "0d0ae8b95880d2d04569a27a7672859799c442dbdae0297d7e88c608839b66b0",
+      "bytes": 1563
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_355.md",
+      "sha256": "405ba9f7338e52f209bc3a53033a3b1d2abe823ff8f82f4d6af3a25184446efe",
+      "bytes": 1306
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_356.md",
+      "sha256": "0f3762115d6483b4f9ace892b684bc777dcc17fa947a851d62dc8e5b06d9a822",
+      "bytes": 1595
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_357.md",
+      "sha256": "459a363b20a080977177c80b0d48391412e6ac7848149e778eb1e23f6d07eacf",
+      "bytes": 1716
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_358.md",
+      "sha256": "06d9904ca8cc8dd039e8fdbde371916839688141ce1a271ea55eaa592e1ad805",
+      "bytes": 1437
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_359.md",
+      "sha256": "f0264e7ca57fbd42d2bff5efbd4d0e12664cfafce7b3a76889b255bc62a86d51",
+      "bytes": 1449
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_360.md",
+      "sha256": "6048b2254cb9ac0d96031525707c0026a9dc41956615811cf790fc8fdaa886a7",
+      "bytes": 1449
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_361.md",
+      "sha256": "7d7c863006cc74574525cd0ac94d525dcb3981d19c21a4476aa89560652624ea",
+      "bytes": 1398
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_362.md",
+      "sha256": "fab70252304ee62efc8e55579793b124d15f42ea0ae70ef9c0a2ebb47cefeeed",
+      "bytes": 1556
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_363.md",
+      "sha256": "942e0e0aec4203a9ce80507da54f331f0d6222cb698e0d1c8afd30ea03293222",
+      "bytes": 1732
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_364.md",
+      "sha256": "9bbe1485dd91359831bc0025c236fafa9b449aa71506d515e32a65b361ed97be",
+      "bytes": 1705
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_365.md",
+      "sha256": "eb044cc63502b8a3352f55ec848049137a04de3b6f5804ccbd179e0afa694394",
+      "bytes": 1871
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_366.md",
+      "sha256": "c28e418d130b7470f6aade2f237257bf3bd6f698d4f39cfec60ba2c01aa3704e",
+      "bytes": 2044
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_367.md",
+      "sha256": "f1dec21a3749807420d4be7f87de5973fef2670f420543271a72a922c74de8a2",
+      "bytes": 1702
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_368.md",
+      "sha256": "f80f1f5d527e30b4627d5bfcf96e239cecfb56cf95e31152f4b6c08d27319013",
+      "bytes": 1655
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_369.md",
+      "sha256": "10c0f39833822a3a863b7dfb0bcf021e06f16e36f2e0c873517ea735f8c9894e",
+      "bytes": 1617
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_370.md",
+      "sha256": "820c3e3d57eecc15314e264eaf7f36a4bbe1ae9b06326721b04efa1d4f09c34d",
+      "bytes": 1538
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_371.md",
+      "sha256": "690e90c76eaaeb82ce9921e2da8b2374159e26d5b7feeaf0a247787e4935e46e",
+      "bytes": 1670
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_372.md",
+      "sha256": "004698cf3a5ee03bb5a836760a7122690041e8048a42466aafa1307d3ab5e770",
+      "bytes": 1536
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_373.md",
+      "sha256": "62bf85803cfdac910da70c02930dd623f27066fe67386449551609c1c23e016e",
+      "bytes": 1867
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_374.md",
+      "sha256": "ffee0f3821f4c03fb67bef55a461af785a4839851381cd6dd332743c192ae0aa",
+      "bytes": 1865
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_375.md",
+      "sha256": "61e2e5a7f659a5b3c62bcc796365c60beea39f7930ddeb4c136147edb2b0083c",
+      "bytes": 1779
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_376.md",
+      "sha256": "d50ded9126f3368525f27768caa598512ea7d8de9af11c010cd053fb1b866b48",
+      "bytes": 1430
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_377.md",
+      "sha256": "b24f463ee50786ce02f612aa8bb032fec17b711724221511a99becf4cccc22a6",
+      "bytes": 1315
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_378.md",
+      "sha256": "fc47dce27c24f7677d6801d68fe79f9903a3c337e85a69395c02edf717d5b558",
+      "bytes": 1476
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_379.md",
+      "sha256": "7f4936915e1d1e807f2ca73e7d13596ab90679ded200b41be6d65969edb315fc",
+      "bytes": 1490
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_380.md",
+      "sha256": "432a1f49c77fe42957c9a3ab2667656b0ce48f106a85113e5f09510aa6bb6b89",
+      "bytes": 1637
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_381.md",
+      "sha256": "9e6b491cb51d7ce9d1d64abe0efa692a7e3d55ab3ab1b3a03f590ba150175e2c",
+      "bytes": 1415
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_382.md",
+      "sha256": "8dd7db97074a15cf37a1be315d4071dc73e3080d04f064e9f9239f2f2022ad83",
+      "bytes": 1359
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_383.md",
+      "sha256": "264da135e830c114d9b76d7e02189111176715eb2455f0350c7b7d8709307070",
+      "bytes": 1162
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_384.md",
+      "sha256": "41a08dd08ad933f4008538b1e8016ee798ae9b971619d5fedb6b330461989af4",
+      "bytes": 1392
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_385.md",
+      "sha256": "da331717ec2bdd72a6025fc210a83e3ff7b6d0ba79c27289002f19811416410e",
+      "bytes": 1685
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_386.md",
+      "sha256": "fa323aeb22957ee0e114c3f80efa2aab8306ff69f310b19120afb56ae826a7c7",
+      "bytes": 1821
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_387.md",
+      "sha256": "e2bd878ac76dd877b4255c2ec833cbe1bcbe42b642c1bade1baa3a1aedcac460",
+      "bytes": 1614
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_388.md",
+      "sha256": "1ebc3d9cec7562e5a5b1e08a9b972c39d0ba01472fd9df28ce6c7c396ea55e25",
+      "bytes": 2268
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_389.md",
+      "sha256": "10dc019fcc28d1db4f0df2c2e9ecd3289e629729fd8d3955c426c83a0bca6060",
+      "bytes": 2362
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_390.md",
+      "sha256": "99ce979f540e8a870d32a5f7fe533d8b25ebfb2b11c0dc53c656f521e8efecfc",
+      "bytes": 2250
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_391.md",
+      "sha256": "863dc39ec069919513cb2d33932c4d0ef7bf11989b2dc8f14359c58c63642f96",
+      "bytes": 1593
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_392.md",
+      "sha256": "0ee789b76a323d9c11ba22ac3eb173f61084b1466a414a4d6da1d841e17b49fc",
+      "bytes": 1716
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_393.md",
+      "sha256": "fbcd9c70f1870e656639d1362dac19cba9d96c7fbf5c3415cff29e54c7c05c9d",
+      "bytes": 1590
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_394.md",
+      "sha256": "bd43c689c6b77d781af3de9949b2f0185d8a16e59c629044c2afd392b75c6eb9",
+      "bytes": 1392
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_395.md",
+      "sha256": "8761c22fdf2742495b055d29cb071cc12def73e2cf6bc5c1aa9d2a21ba196999",
+      "bytes": 1401
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_396.md",
+      "sha256": "41f354e41a1605595a863459f3f3d1d907f633c1a8055e4819ebdbcf3cef6554",
+      "bytes": 1828
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_397.md",
+      "sha256": "12c1d405bbc559c670a460cd23e36bb3178d1dcb8312f4028150d1d38f051626",
+      "bytes": 1579
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_398.md",
+      "sha256": "69293cd1defd747d0919a3fff25ba29de28c9c2d6c7fae28ba0c85df18dba0ce",
+      "bytes": 1478
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_399.md",
+      "sha256": "5d62fca37c1052fe34d9103b6045f9de91aaa0e93afcc4d303a954157075d8cd",
+      "bytes": 1244
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_400.md",
+      "sha256": "ca638f2272b9fb8cb5a47d5b1aef9459c5e4e09130aaa3015d96baebedf04b51",
+      "bytes": 1511
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_401.md",
+      "sha256": "e48bcb00b2f39d0b283ab2241aac7853860c194a211c146f452c0b6583694bf2",
+      "bytes": 1268
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_402.md",
+      "sha256": "79441f88cc9e2abcb1b70554216f32c3b3908cf0953980d19ea01259fada2ebb",
+      "bytes": 1401
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_403.md",
+      "sha256": "ca889636b5ab4c2adfbbccc085d43095802090798afbed3f3247aea4ddee0d51",
+      "bytes": 1168
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_404.md",
+      "sha256": "30a84e3e24ceddb84d0706a44998fcc9cb4486a86bff4a4640cbd99ffc5d63b3",
+      "bytes": 1932
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_405.md",
+      "sha256": "de772a5b7f440afd6523d29ca83fd60f6fdcc79fca7792fd0c04b260fb3fd302",
+      "bytes": 1728
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_406.md",
+      "sha256": "ad3834c94a27d58bc4b0a8d3caeea6eb6122876a628be9981dcf58d368e40955",
+      "bytes": 1903
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_407.md",
+      "sha256": "3d18fd0cc27beb40e1047d91d1c5a6dfadfe62ec9f1ee9ef4f0c27ff9e3f563c",
+      "bytes": 1621
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_408.md",
+      "sha256": "5586f2cb0041fa5530e495ac3e7aa8be82dde40a3b2189b8a6a9b03f431c1ab3",
+      "bytes": 2035
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_409.md",
+      "sha256": "6b57a71ae76030026b76436965bdc6081a3fca47c8a32c89d079c317ad208d10",
+      "bytes": 2051
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_410.md",
+      "sha256": "690bf07a6371562a54301593c576571c0876bebbea194052aa44ddf1a6d756d9",
+      "bytes": 2536
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_411.md",
+      "sha256": "17c6a45c8b03c6850c43d61f73eb245906c888bf8a632128dd19347201635b78",
+      "bytes": 1918
+    },
+    {
+      "path": "research/taxonomy-changes/TAXONOMY_CHANGE_412.md",
+      "sha256": "7518c5702bf9bea8d2ebe6acba48ef3e678764eb77f39639f95c4e5981d79ee0",
+      "bytes": 1637
+    },
+    {
       "path": "scripts/verify_antichamber_control.py",
       "sha256": "08a3ad0b8980507af10b27ab32f8af66f664df66169308f7eadb01acab33e35e",
       "bytes": 3442
@@ -9799,5 +12089,5 @@
       "bytes": 1195
     }
   ],
-  "payloadSha256": "4a0509f81cf3cf113016b3455dc5807ef9ac6e066d29db33a10daca01bfd1f08"
+  "payloadSha256": "d588108c75a9da1cd8b71cc912abb7b03217680890a01d9b010cbfd466f29efd"
 }

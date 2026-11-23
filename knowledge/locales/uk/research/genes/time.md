@@ -30,9 +30,11 @@
 - [`GAME-0109` — Candy Crush Saga](../games/a-f/candy-crush-saga.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
 - [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
+- [`GAME-0515` — Dino Crisis](../games/a-f/dino-crisis.md)
 - [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
 - [`GAME-0020` — Dorfromantik](../games/a-f/dorfromantik.md)
 - [`GAME-0486` — Final Fantasy Tactics](../games/a-f/final-fantasy-tactics.md)
+- [`GAME-0626` — "Fuga: Melodies of Steel"](../games/a-f/fuga-melodies-of-steel.md)
 - [`GAME-0057` — Golf Peaks](../games/g-l/golf-peaks.md)
 - [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)
 - [`GAME-0049` — Hexcells Infinite](../games/g-l/hexcells-infinite.md)
@@ -41,6 +43,7 @@
 - [`GAME-0058` — inbento](../games/g-l/inbento.md)
 - [`GAME-0070` — Inertia](../games/g-l/inertia.md)
 - [`GAME-0059` — KAMI](../games/g-l/kami.md)
+- [`GAME-0514` — Mewgenics](../games/m-r/mewgenics.md)
 - [`GAME-0003` — Minesweeper](../games/m-r/minesweeper.md)
 - [`GAME-0449` — Paper Mario](../games/m-r/paper-mario.md)
 - [`GAME-0019` — Peg Solitaire](../games/m-r/peg-solitaire.md)
@@ -50,12 +53,14 @@
 - [`GAME-0432` — Reigns](../games/m-r/reigns.md)
 - [`GAME-0476` — Ring Fit Adventure](../games/m-r/ring-fit-adventure.md)
 - [`GAME-0009` — Royal Match](../games/m-r/royal-match.md)
+- [`GAME-0618` — Shining Force III](../games/s-z/shining-force-iii.md)
 - [`GAME-0050` — Shogun Showdown](../games/s-z/shogun-showdown.md)
 - [`GAME-0045` — Snakebird](../games/s-z/snakebird.md)
 - [`GAME-0043` — Stephen’s Sausage Roll](../games/s-z/stephens-sausage-roll.md)
 - [`GAME-0015` — Threes](../games/s-z/threes.md)
 - [`GAME-0268` — Undertale](../games/s-z/undertale.md)
 - [`GAME-0010` — Water Sort](../games/s-z/water-sort.md)
+- [`GAME-0521` — Wii Sports Resort](../games/s-z/wii-sports-resort.md)
 
 ## TIM-002
 
@@ -76,6 +81,7 @@
 
 ### Ігри-носії
 
+- [`GAME-0635` — "1000xRESIST"](../games/0-9/1000xresist.md)
 - [`GAME-0066` — Black Box](../games/a-f/black-box.md)
 - [`GAME-0173` — Blue Prince](../games/a-f/blue-prince.md)
 - [`GAME-0074` — Bridges](../games/a-f/bridges.md)
@@ -88,20 +94,26 @@
 - [`GAME-0264` — Disco Elysium - The Final Cut](../games/a-f/disco-elysium-the-final-cut.md)
 - [`GAME-0073` — Dominosa](../games/a-f/dominosa.md)
 - [`GAME-0269` — DREDGE](../games/a-f/dredge.md)
+- [`GAME-0597` — "Duck Detective: The Ghost of Glamping"](../games/a-f/duck-detective-the-ghost-of-glamping.md)
 - [`GAME-0079` — Filling](../games/a-f/filling.md)
+- [`GAME-0574` — Florence](../games/a-f/florence.md)
 - [`GAME-0012` — Flow Free](../games/a-f/flow-free.md)
 - [`GAME-0007` — FreeCell](../games/a-f/freecell.md)
 - [`GAME-0078` — Galaxies](../games/g-l/galaxies.md)
 - [`GAME-0024` — Gorogoa](../games/g-l/gorogoa.md)
+- [`GAME-0582` — Grim Fandango](../games/g-l/grim-fandango.md)
 - [`GAME-0106` — Her Story](../games/g-l/her-story.md)
 - [`GAME-0062` — Hexologic](../games/g-l/hexologic.md)
+- [`GAME-0654` — "Hotel Dusk: Room 215"](../games/g-l/hotel-dusk-room-215.md)
 - [`GAME-0123` — Inscryption](../games/g-l/inscryption.md)
+- [`GAME-0579` — Is This Seat Taken?](../games/g-l/is-this-seat-taken.md)
 - [`GAME-0080` — Keen](../games/g-l/keen.md)
 - [`GAME-0267` — Kerbal Space Program](../games/g-l/kerbal-space-program.md)
 - [`GAME-0388` — L.A. Noire](../games/g-l/la-noire.md)
 - [`GAME-0075` — Light Up](../games/g-l/light-up.md)
 - [`GAME-0069` — Lights Out](../games/g-l/lights-out.md)
 - [`GAME-0076` — Loopy](../games/g-l/loopy.md)
+- [`GAME-0563` — Lorelei and the Laser Eyes](../games/g-l/lorelei-and-the-laser-eyes.md)
 - [`GAME-0061` — LYNE](../games/g-l/lyne.md)
 - [`GAME-0086` — Machinarium](../games/m-r/machinarium.md)
 - [`GAME-0077` — Map](../games/m-r/map.md)
@@ -112,8 +124,10 @@
 - [`GAME-0084` — Netslide](../games/m-r/netslide.md)
 - [`GAME-0008` — Nonogram](../games/m-r/nonogram.md)
 - [`GAME-0117` — OneShot](../games/m-r/oneshot.md)
+- [`GAME-0624` — "Paradise Killer"](../games/m-r/paradise-killer.md)
 - [`GAME-0036` — "Patrick’s Parabox"](../games/m-r/patricks-parabox.md)
 - [`GAME-0081` — Pearl](../games/m-r/pearl.md)
+- [`GAME-0523` — Pentiment](../games/m-r/pentiment.md)
 - [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
 - [`GAME-0385` — 'Phoenix Wright: Ace Attorney'](../games/m-r/phoenix-wright-ace-attorney.md)
 - [`GAME-0380` — Professor Layton and the Curious Village](../games/m-r/professor-layton-and-the-curious-village.md)
@@ -125,18 +139,29 @@
 - [`GAME-0082` — Signpost](../games/s-z/signpost.md)
 - [`GAME-0071` — Slant](../games/s-z/slant.md)
 - [`GAME-0006` — Sokoban](../games/s-z/sokoban.md)
+- [`GAME-0586` — Spooky Express](../games/s-z/spooky-express.md)
 - [`GAME-0156` — Strands](../games/s-z/strands.md)
+- [`GAME-0617` — Strange Antiquities](../games/s-z/strange-antiquities.md)
+- [`GAME-0554` — Strange Horticulture](../games/s-z/strange-horticulture.md)
 - [`GAME-0005` — Sudoku](../games/s-z/sudoku.md)
 - [`GAME-0428` — Super Mario Maker](../games/s-z/super-mario-maker.md)
 - [`GAME-0072` — Tents](../games/s-z/tents.md)
 - [`GAME-0046` — The Case of the Golden Idol](../games/s-z/the-case-of-the-golden-idol.md)
+- [`GAME-0636` — "The Dig"](../games/s-z/the-dig.md)
+- [`GAME-0613` — "The Drifter"](../games/s-z/the-drifter.md)
+- [`GAME-0541` — The Incident at Galley House](../games/s-z/the-incident-at-galley-house.md)
+- [`GAME-0528` — The Neverhood](../games/s-z/the-neverhood.md)
 - [`GAME-0102` — The Password Game](../games/s-z/the-password-game.md)
 - [`GAME-0107` — The Pedestrian](../games/s-z/the-pedestrian.md)
+- [`GAME-0538` — The Rise of the Golden Idol](../games/s-z/the-rise-of-the-golden-idol.md)
 - [`GAME-0085` — The Room](../games/s-z/the-room.md)
+- [`GAME-0660` — "The Roottrees are Dead"](../games/s-z/the-roottrees-are-dead.md)
 - [`GAME-0343` — The Secret of Monkey Island](../games/s-z/the-secret-of-monkey-island.md)
 - [`GAME-0090` — The Talos Principle](../games/s-z/the-talos-principle.md)
 - [`GAME-0039` — The Witness](../games/s-z/the-witness.md)
+- [`GAME-0637` — "Tiny Glade"](../games/s-z/tiny-glade.md)
 - [`GAME-0115` — Unpacking](../games/s-z/unpacking.md)
+- [`GAME-0642` — "Venba"](../games/s-z/venba.md)
 - [`GAME-0068` — Wordle](../games/s-z/wordle.md)
 
 ## TIM-003
@@ -160,17 +185,22 @@
 
 - [`GAME-0233` — 7 Days to Die](../games/0-9/7-days-to-die.md)
 - [`GAME-0478` — 80 Days](../games/0-9/80-days.md)
+- [`GAME-0653` — "A Quiet Place: The Road Ahead"](../games/a-f/a-quiet-place-the-road-ahead.md)
 - [`GAME-0228` — A Way Out](../games/a-f/a-way-out.md)
+- [`GAME-0540` — Afterplace](../games/a-f/afterplace.md)
 - [`GAME-0124` — Against the Storm](../games/a-f/against-the-storm.md)
 - [`GAME-0179` — Age of Empires II: Definitive Edition](../games/a-f/age-of-empires-ii-definitive-edition.md)
 - [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0223` — Aion Classic](../games/a-f/aion-classic.md)
 - [`GAME-0427` — Alan Wake](../games/a-f/alan-wake.md)
 - [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
+- [`GAME-0620` — Alien Soldier](../games/a-f/alien-soldier.md)
 - [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
 - [`GAME-0289` — American Truck Simulator](../games/a-f/american-truck-simulator.md)
 - [`GAME-0110` — Angry Birds Classic](../games/a-f/angry-birds-classic.md)
 - [`GAME-0511` — Animal Crossing: New Leaf](../games/a-f/animal-crossing-new-leaf.md)
+- [`GAME-0520` — Animal Well](../games/a-f/animal-well.md)
+- [`GAME-0525` — "Anno 117: Pax Romana"](../games/a-f/anno-117-pax-romana.md)
 - [`GAME-0132` — Anno 1800](../games/a-f/anno-1800.md)
 - [`GAME-0097` — Antichamber](../games/a-f/antichamber.md)
 - [`GAME-0413` — Ape Escape](../games/a-f/ape-escape.md)
@@ -181,9 +211,11 @@
 - [`GAME-0506` — Avowed](../games/a-f/avowed.md)
 - [`GAME-0027` — Bad North: Jotunn Edition](../games/a-f/bad-north.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
+- [`GAME-0610` — "BALL x PIT"](../games/a-f/ball-x-pit.md)
 - [`GAME-0423` — "Banjo-Kazooie: Nuts & Bolts"](../games/a-f/banjo-kazooie-nuts-and-bolts.md)
 - [`GAME-0386` — Banjo-Kazooie](../games/a-f/banjo-kazooie.md)
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
+- [`GAME-0662` — "Batman: Arkham Shadow"](../games/a-f/batman-arkham-shadow.md)
 - [`GAME-0234` — Battlefield 2042](../games/a-f/battlefield-2042.md)
 - [`GAME-0149` — Battlefield 6](../games/a-f/battlefield-6.md)
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
@@ -191,20 +223,28 @@
 - [`GAME-0318` — Battletoads](../games/a-f/battletoads.md)
 - [`GAME-0195` — BeamNG.drive](../games/a-f/beamng-drive.md)
 - [`GAME-0411` — Bejeweled 3](../games/a-f/bejeweled-3.md)
+- [`GAME-0594` — "Bionic Bay"](../games/a-f/bionic-bay.md)
 - [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0425` — "Black & White"](../games/a-f/black-and-white.md)
 - [`GAME-0189` — "Black Myth: Wukong"](../games/a-f/black-myth-wukong.md)
+- [`GAME-0539` — Blast Corps](../games/a-f/blast-corps.md)
 - [`GAME-0308` — Bloodborne™](../games/a-f/bloodborne.md)
 - [`GAME-0265` — Bloons TD 6](../games/a-f/bloons-td-6.md)
+- [`GAME-0623` — "Blue Lightning"](../games/a-f/blue-lightning.md)
+- [`GAME-0557` — "Boktai: The Sun Is in Your Hand"](../games/a-f/boktai-the-sun-is-in-your-hand.md)
 - [`GAME-0465` — Boom Blox](../games/a-f/boom-blox.md)
 - [`GAME-0034` — Braid, Anniversary Edition](../games/a-f/braid.md)
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
+- [`GAME-0546` — Burning Rangers](../games/a-f/burning-rangers.md)
 - [`GAME-0470` — "Burnout 3: Takedown"](../games/a-f/burnout-3-takedown.md)
 - [`GAME-0374` — Burnout Paradise](../games/a-f/burnout-paradise.md)
+- [`GAME-0641` — "Bushido Blade"](../games/a-f/bushido-blade.md)
+- [`GAME-0646` — Cairn](../games/a-f/cairn.md)
 - [`GAME-0222` — "Call of Juarez: Gunslinger"](../games/a-f/call-of-juarez-gunslinger.md)
 - [`GAME-0135` — "Captain of Industry"](../games/a-f/captain-of-industry.md)
 - [`GAME-0302` — "Captain Toad: Treasure Tracker"](../games/a-f/captain-toad-treasure-tracker.md)
 - [`GAME-0477` — Catherine](../games/a-f/catherine.md)
+- [`GAME-0555` — Chibi-Robo!](../games/a-f/chibi-robo.md)
 - [`GAME-0284` — "Cities: Skylines II"](../games/a-f/cities-skylines-ii.md)
 - [`GAME-0121` — "Cities: Skylines"](../games/a-f/cities-skylines.md)
 - [`GAME-0144` — Clair Obscur: Expedition 33](../games/a-f/clair-obscur-expedition-33.md)
@@ -223,7 +263,9 @@
 - [`GAME-0359` — "Crimson Skies: High Road to Revenge"](../games/a-f/crimson-skies-high-road-to-revenge.md)
 - [`GAME-0204` — "Crusader Kings III"](../games/a-f/crusader-kings-iii.md)
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
+- [`GAME-0570` — Cult of the Lamb](../games/a-f/cult-of-the-lamb.md)
 - [`GAME-0277` — Cuphead](../games/a-f/cuphead.md)
+- [`GAME-0596` — "Custom Robo"](../games/a-f/custom-robo.md)
 - [`GAME-0021` — Cut the Rope](../games/a-f/cut-the-rope.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
 - [`GAME-0503` — Dance Central](../games/a-f/dance-central.md)
@@ -241,32 +283,43 @@
 - [`GAME-0310` — "DEATH STRANDING DIRECTOR’S CUT"](../games/a-f/death-stranding-directors-cut.md)
 - [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
 - [`GAME-0200` — Delta Force](../games/a-f/delta-force.md)
+- [`GAME-0631` — "despelote"](../games/a-f/despelote.md)
 - [`GAME-0193` — Destiny 2](../games/a-f/destiny-2.md)
 - [`GAME-0252` — "Detroit: Become Human"](../games/a-f/detroit-become-human.md)
 - [`GAME-0353` — "Deus Ex: Game of the Year Edition"](../games/a-f/deus-ex-game-of-the-year-edition.md)
 - [`GAME-0322` — "Diablo II: Resurrected"](../games/a-f/diablo-ii-resurrected.md)
 - [`GAME-0437` — Diner Dash](../games/a-f/diner-dash.md)
+- [`GAME-0515` — Dino Crisis](../games/a-f/dino-crisis.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
+- [`GAME-0545` — Dispatch](../games/a-f/dispatch.md)
+- [`GAME-0565` — Dome Keeper](../games/a-f/dome-keeper.md)
 - [`GAME-0495` — Donkey Kong Country Returns](../games/a-f/donkey-kong-country-returns.md)
 - [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
 - [`GAME-0352` — DOOM (1993)](../games/a-f/doom-1993.md)
 - [`GAME-0245` — DOOM (2016)](../games/a-f/doom-2016.md)
 - [`GAME-0286` — DOOM Eternal](../games/a-f/doom-eternal.md)
+- [`GAME-0608` — "Dosa Divas"](../games/a-f/dosa-divas.md)
 - [`GAME-0138` — Dota 2](../games/a-f/dota-2.md)
 - [`GAME-0452` — Dr. Mario](../games/a-f/dr-mario.md)
 - [`GAME-0269` — DREDGE](../games/a-f/dredge.md)
 - [`GAME-0345` — "Duck Hunt"](../games/a-f/duck-hunt.md)
+- [`GAME-0573` — Dungeon Keeper](../games/a-f/dungeon-keeper.md)
+- [`GAME-0592` — Dungeons of Hinterberg](../games/a-f/dungeons-of-hinterberg.md)
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
 - [`GAME-0131` — Dyson Sphere Program](../games/a-f/dyson-sphere-program.md)
 - [`GAME-0163` — EA SPORTS FC 26](../games/a-f/ea-sports-fc-26.md)
 - [`GAME-0435` — EarthBound](../games/a-f/earthbound.md)
+- [`GAME-0656` — "Ecco the Dolphin: Defender of the Future"](../games/a-f/ecco-the-dolphin-defender-of-the-future.md)
 - [`GAME-0433` — Ecco the Dolphin](../games/a-f/ecco-the-dolphin.md)
 - [`GAME-0092` — Echochrome](../games/a-f/echochrome.md)
+- [`GAME-0650` — Einhänder](../games/a-f/einhander.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
+- [`GAME-0566` — Elite Beat Agents](../games/a-f/elite-beat-agents.md)
 - [`GAME-0491` — Elite](../games/a-f/elite.md)
 - [`GAME-0473` — "Eternal Darkness: Sanity's Requiem"](../games/a-f/eternal-darkness-sanitys-requiem.md)
 - [`GAME-0169` — Euro Truck Simulator 2](../games/a-f/euro-truck-simulator-2.md)
+- [`GAME-0542` — Excite Truck](../games/a-f/excite-truck.md)
 - [`GAME-0384` — F-Zero GX](../games/a-f/f-zero-gx.md)
 - [`GAME-0405` — Fable II](../games/a-f/fable-ii.md)
 - [`GAME-0327` — Fable](../games/a-f/fable.md)
@@ -276,9 +329,11 @@
 - [`GAME-0236` — Far Cry 3](../games/a-f/far-cry-3.md)
 - [`GAME-0271` — Far Cry 5](../games/a-f/far-cry-5.md)
 - [`GAME-0196` — Farming Simulator 25](../games/a-f/farming-simulator-25.md)
+- [`GAME-0591` — Fatal Frame](../games/a-f/fatal-frame.md)
 - [`GAME-0501` — F.E.A.R.](../games/a-f/fear.md)
 - [`GAME-0091` — Fez](../games/a-f/fez.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
+- [`GAME-0633` — "Flock"](../games/a-f/flock.md)
 - [`GAME-0175` — Football Manager 26](../games/a-f/football-manager-26.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
 - [`GAME-0276` — Forza Horizon 5](../games/a-f/forza-horizon-5.md)
@@ -290,6 +345,9 @@
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0167` — Geometry Dash](../games/g-l/geometry-dash.md)
 - [`GAME-0400` — "Geometry Wars: Retro Evolved"](../games/g-l/geometry-wars-retro-evolved.md)
+- [`GAME-0550` — Ghost of Yōtei](../games/g-l/ghost-of-yotei.md)
+- [`GAME-0533` — "Ghost Trick: Phantom Detective"](../games/g-l/ghost-trick-phantom-detective.md)
+- [`GAME-0663` — "Gitaroo Man"](../games/g-l/gitaroo-man.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
 - [`GAME-0381` — GoldenEye 007](../games/g-l/goldeneye-007.md)
 - [`GAME-0024` — Gorogoa](../games/g-l/gorogoa.md)
@@ -299,42 +357,58 @@
 - [`GAME-0468` — Gravity Rush](../games/g-l/gravity-rush.md)
 - [`GAME-0314` — Grounded](../games/g-l/grounded.md)
 - [`GAME-0372` — "Guitar Hero III: Legends of Rock"](../games/g-l/guitar-hero-iii-legends-of-rock.md)
+- [`GAME-0560` — Gunstar Heroes](../games/g-l/gunstar-heroes.md)
+- [`GAME-0532` — Hades II](../games/g-l/hades-ii.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
 - [`GAME-0315` — Halo 3](../games/g-l/halo-3.md)
 - [`GAME-0340` — "Halo: Combat Evolved Anniversary"](../games/g-l/halo-combat-evolved-anniversary.md)
 - [`GAME-0410` — Halo Wars](../games/g-l/halo-wars.md)
+- [`GAME-0581` — "Hardspace: Shipbreaker"](../games/g-l/hardspace-shipbreaker.md)
 - [`GAME-0444` — "Harvest Moon: Back to Nature"](../games/g-l/harvest-moon-back-to-nature.md)
 - [`GAME-0182` — Hearts of Iron IV](../games/g-l/hearts-of-iron-iv.md)
 - [`GAME-0159` — Helldivers 2](../games/g-l/helldivers-2.md)
+- [`GAME-0516` — Hi-Fi RUSH](../games/g-l/hi-fi-rush.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
+- [`GAME-0517` — Homeworld](../games/g-l/homeworld.md)
 - [`GAME-0112` — Human: Fall Flat](../games/g-l/human-fall-flat.md)
 - [`GAME-0029` — HUMANITY](../games/g-l/humanity.md)
 - [`GAME-0098` — Hyperbolica](../games/g-l/hyperbolica.md)
 - [`GAME-0399` — Ico](../games/g-l/ico.md)
 - [`GAME-0484` — Impossible Mission](../games/g-l/impossible-mission.md)
 - [`GAME-0510` — Indiana Jones and the Great Circle](../games/g-l/indiana-jones-and-the-great-circle.md)
+- [`GAME-0585` — Into the Radius](../games/g-l/into-the-radius.md)
 - [`GAME-0215` — It Takes Two](../games/g-l/it-takes-two.md)
 - [`GAME-0464` — "Jet Set Radio Future"](../games/g-l/jet-set-radio-future.md)
 - [`GAME-0350` — "Jet Set Radio"](../games/g-l/jet-set-radio.md)
 - [`GAME-0436` — Journey](../games/g-l/journey.md)
+- [`GAME-0552` — Jusant](../games/g-l/jusant.md)
 - [`GAME-0376` — Katamari Damacy REROLL](../games/g-l/katamari-damacy-reroll.md)
 - [`GAME-0100` — Keep Talking and Nobody Explodes](../games/g-l/keep-talking-and-nobody-explodes.md)
+- [`GAME-0543` — Keeper](../games/g-l/keeper.md)
 - [`GAME-0267` — Kerbal Space Program](../games/g-l/kerbal-space-program.md)
+- [`GAME-0627` — "Killer7"](../games/g-l/killer7.md)
 - [`GAME-0414` — Kinect Adventures!](../games/g-l/kinect-adventures.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
+- [`GAME-0655` — "Kirby Air Riders"](../games/g-l/kirby-air-riders.md)
+- [`GAME-0537` — Kirby Tilt 'n' Tumble](../games/g-l/kirby-tilt-n-tumble.md)
 - [`GAME-0408` — Kirby's Adventure](../games/g-l/kirbys-adventure.md)
+- [`GAME-0583` — "Kunitsu-Gami: Path of the Goddess"](../games/g-l/kunitsu-gami-path-of-the-goddess.md)
+- [`GAME-0609` — "Kuru Kuru Kururin"](../games/g-l/kuru-kuru-kururin.md)
 - [`GAME-0388` — L.A. Noire](../games/g-l/la-noire.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
+- [`GAME-0638` — "Lemmings 2: The Tribes"](../games/g-l/lemmings-2-the-tribes.md)
 - [`GAME-0025` — Lemmings](../games/g-l/lemmings.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0394` — LittleBigPlanet 2](../games/g-l/littlebigplanet-2.md)
 - [`GAME-0482` — LocoRoco](../games/g-l/locoroco.md)
+- [`GAME-0569` — Lode Runner](../games/g-l/lode-runner.md)
 - [`GAME-0028` — Loop Hero](../games/g-l/loop-hero.md)
+- [`GAME-0530` — Lost Odyssey](../games/g-l/lost-odyssey.md)
 - [`GAME-0403` — "Luigi's Mansion"](../games/g-l/luigis-mansion.md)
 - [`GAME-0442` — 'Lumines: Puzzle Fusion'](../games/g-l/lumines-puzzle-fusion.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
@@ -358,22 +432,30 @@
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0018` — Mini Metro](../games/m-r/mini-metro.md)
 - [`GAME-0051` — Mini Motorways](../games/m-r/mini-motorways.md)
+- [`GAME-0607` — "Mischief Makers"](../games/m-r/mischief-makers.md)
+- [`GAME-0614` — "Mole Mania"](../games/m-r/mole-mania.md)
 - [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
 - [`GAME-0393` — Mortal Kombat II](../games/m-r/mortal-kombat-ii.md)
+- [`GAME-0558` — Moss](../games/m-r/moss.md)
 - [`GAME-0507` — MotorStorm](../games/m-r/motorstorm.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0202` — "NARAKA: BLADEPOINT"](../games/m-r/naraka-bladepoint.md)
 - [`GAME-0241` — NBA 2K26](../games/m-r/nba-2k26.md)
+- [`GAME-0600` — "NBA Street Vol. 2"](../games/m-r/nba-street-vol-2.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0226` — "Need for Speed: Most Wanted (2005)"](../games/m-r/need-for-speed-most-wanted-2005.md)
 - [`GAME-0208` — 'Need for Speed Payback'](../games/m-r/need-for-speed-payback.md)
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 - [`GAME-0217` — "Need for Speed Underground"](../games/m-r/need-for-speed-underground.md)
+- [`GAME-0572` — Neon White](../games/m-r/neon-white.md)
+- [`GAME-0588` — Neva](../games/m-r/neva.md)
 - [`GAME-0445` — "NiGHTS into Dreams"](../games/m-r/nights-into-dreams.md)
+- [`GAME-0527` — Nine Sols](../games/m-r/nine-sols.md)
 - [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
+- [`GAME-0625` — "Ninja Gaiden Dragon Sword"](../games/m-r/ninja-gaiden-dragon-sword.md)
 - [`GAME-0419` — Nintendogs](../games/m-r/nintendogs.md)
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
 - [`GAME-0229` — "No Man’s Sky"](../games/m-r/no-mans-sky.md)
@@ -385,23 +467,33 @@
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0481` — Out Run](../games/m-r/out-run.md)
 - [`GAME-0105` — Outer Wilds](../games/m-r/outer-wilds.md)
+- [`GAME-0578` — OutRun 2](../games/m-r/outrun-2.md)
+- [`GAME-0605` — "Outtrigger"](../games/m-r/outtrigger.md)
 - [`GAME-0300` — Overcooked! 2](../games/m-r/overcooked-2.md)
 - [`GAME-0181` — Overwatch](../games/m-r/overwatch.md)
 - [`GAME-0125` — Oxygen Not Included](../games/m-r/oxygen-not-included.md)
 - [`GAME-0342` — "PAC-MAN"](../games/m-r/pac-man.md)
 - [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
+- [`GAME-0587` — Panzer Dragoon II Zwei](../games/m-r/panzer-dragoon-ii-zwei.md)
+- [`GAME-0647` — Panzer Dragoon Saga](../games/m-r/panzer-dragoon-saga.md)
 - [`GAME-0505` — Panzer Dragoon](../games/m-r/panzer-dragoon.md)
 - [`GAME-0396` — "PaRappa the Rapper Remastered"](../games/m-r/parappa-the-rapper-remastered.md)
+- [`GAME-0562` — Parasite Eve](../games/m-r/parasite-eve.md)
 - [`GAME-0422` — Patapon](../games/m-r/patapon.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
 - [`GAME-0203` — "PEAK"](../games/m-r/peak.md)
 - [`GAME-0114` — Peggle Deluxe](../games/m-r/peggle-deluxe.md)
+- [`GAME-0622` — "Pepper Grinder"](../games/m-r/pepper-grinder.md)
 - [`GAME-0035` — Pikmin 4](../games/m-r/pikmin-4.md)
+- [`GAME-0602` — "Pilotwings 64"](../games/m-r/pilotwings-64.md)
+- [`GAME-0661` — "Pilotwings"](../games/m-r/pilotwings.md)
 - [`GAME-0016` — Pipe Mania / Pipe Dream](../games/m-r/pipe-mania.md)
+- [`GAME-0612` — "Pipistrello and the Cursed Yoyo"](../games/m-r/pipistrello-and-the-cursed-yoyo.md)
 - [`GAME-0479` — Pitfall!](../games/m-r/pitfall.md)
+- [`GAME-0640` — "Pizza Tower"](../games/m-r/pizza-tower.md)
 - [`GAME-0298` — 'Planet Zoo: Console Edition'](../games/m-r/planet-zoo-console-edition.md)
 - [`GAME-0407` — Plants vs. Zombies](../games/m-r/plants-vs-zombies.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
@@ -409,11 +501,15 @@
 - [`GAME-0480` — Populous](../games/m-r/populous.md)
 - [`GAME-0113` — Portal 2 — Cooperative Campaign](../games/m-r/portal-2-co-op.md)
 - [`GAME-0033` — Portal](../games/m-r/portal.md)
+- [`GAME-0519` — Power Stone](../games/m-r/power-stone.md)
+- [`GAME-0534` — PowerWash Simulator 2](../games/m-r/powerwash-simulator-2.md)
 - [`GAME-0279` — PowerWash Simulator](../games/m-r/powerwash-simulator.md)
+- [`GAME-0536` — PRAGMATA](../games/m-r/pragmata.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0344` — "Prince of Persia: The Sands of Time"](../games/m-r/prince-of-persia-the-sands-of-time.md)
 - [`GAME-0420` — Project Gotham Racing 2](../games/m-r/project-gotham-racing-2.md)
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
+- [`GAME-0561` — Psychonauts 2](../games/m-r/psychonauts-2.md)
 - [`GAME-0358` — Psychonauts](../games/m-r/psychonauts.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0447` — Punch-Out!!](../games/m-r/punch-out.md)
@@ -428,15 +524,28 @@
 - [`GAME-0348` — "Resident Evil: Director’s Cut"](../games/m-r/resident-evil-directors-cut.md)
 - [`GAME-0512` — Resident Evil Requiem](../games/m-r/resident-evil-requiem.md)
 - [`GAME-0492` — "Resistance: Fall of Man"](../games/m-r/resistance-fall-of-man.md)
+- [`GAME-0522` — Returnal](../games/m-r/returnal.md)
+- [`GAME-0526` — Rez](../games/m-r/rez.md)
+- [`GAME-0595` — "Rhythm Doctor"](../games/m-r/rhythm-doctor.md)
 - [`GAME-0454` — Rhythm Heaven](../games/m-r/rhythm-heaven.md)
+- [`GAME-0551` — "R4: Ridge Racer Type 4"](../games/m-r/ridge-racer-type-4.md)
 - [`GAME-0127` — RimWorld](../games/m-r/rimworld.md)
 - [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
+- [`GAME-0659` — "Ristar"](../games/m-r/ristar.md)
+- [`GAME-0643` — "Rocket Knight Adventures"](../games/m-r/rocket-knight-adventures.md)
 - [`GAME-0177` — Rocket League](../games/m-r/rocket-league.md)
 - [`GAME-0335` — RollerCoaster Tycoon Deluxe](../games/m-r/rollercoaster-tycoon-deluxe.md)
+- [`GAME-0639` — "Rollerdrome"](../games/m-r/rollerdrome.md)
+- [`GAME-0549` — Roto Force](../games/m-r/roto-force.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0634` — "Samba de Amigo"](../games/s-z/samba-de-amigo.md)
 - [`GAME-0128` — Satisfactory](../games/s-z/satisfactory.md)
+- [`GAME-0584` — Saturn Bomberman](../games/s-z/saturn-bomberman.md)
+- [`GAME-0556` — Sayonara Wild Hearts](../games/s-z/sayonara-wild-hearts.md)
 - [`GAME-0319` — Sea of Thieves](../games/s-z/sea-of-thieves.md)
+- [`GAME-0598` — "Sega Bass Fishing"](../games/s-z/sega-bass-fishing.md)
 - [`GAME-0457` — Sega Rally Championship](../games/s-z/sega-rally-championship.md)
+- [`GAME-0665` — "Sega Worldwide Soccer '97"](../games/s-z/sega-worldwide-soccer-97.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
@@ -445,18 +554,23 @@
 - [`GAME-0485` — Shenmue](../games/s-z/shenmue.md)
 - [`GAME-0487` — Sid Meier's Pirates!](../games/s-z/sid-meiers-pirates.md)
 - [`GAME-0303` — Sifu](../games/s-z/sifu.md)
+- [`GAME-0616` — Silent Bomber](../games/s-z/silent-bomber.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0430` — Silent Hill](../games/s-z/silent-hill.md)
 - [`GAME-0390` — SimCity 2000](../games/s-z/simcity-2000.md)
 - [`GAME-0118` — SimCity 4 Deluxe Edition](../games/s-z/simcity-4-deluxe-edition.md)
+- [`GAME-0615` — "Skate Story"](../games/s-z/skate-story.md)
 - [`GAME-0307` — Slime Rancher](../games/s-z/slime-rancher.md)
 - [`GAME-0417` — Sly Cooper and the Thievius Raccoonus](../games/s-z/sly-cooper-and-the-thievius-raccoonus.md)
 - [`GAME-0472` — Sonic Adventure](../games/s-z/sonic-adventure.md)
+- [`GAME-0621` — "Sonic Racing: CrossWorlds"](../games/s-z/sonic-racing-crossworlds.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
 - [`GAME-0502` — South of Midnight](../games/s-z/south-of-midnight.md)
+- [`GAME-0544` — Space Channel 5](../games/s-z/space-channel-5.md)
 - [`GAME-0360` — "Space Invaders"](../games/s-z/space-invaders.md)
+- [`GAME-0548` — Space Station Silicon Valley](../games/s-z/space-station-silicon-valley.md)
 - [`GAME-0412` — Splatoon 3](../games/s-z/splatoon-3.md)
 - [`GAME-0157` — Split Fiction](../games/s-z/split-fiction.md)
 - [`GAME-0373` — Spore](../games/s-z/spore.md)
@@ -464,12 +578,14 @@
 - [`GAME-0170` — "S.T.A.L.K.E.R. 2: Heart of Chornobyl"](../games/s-z/stalker-2-heart-of-chornobyl.md)
 - [`GAME-0424` — "Star Fox 64"](../games/s-z/star-fox-64.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
+- [`GAME-0632` — "Star Wars Episode I: Racer"](../games/s-z/star-wars-episode-i-racer.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
 - [`GAME-0225` — "STAR WARS: Squadrons"](../games/s-z/star-wars-squadrons.md)
 - [`GAME-0317` — StarCraft II](../games/s-z/starcraft-ii.md)
 - [`GAME-0469` — StarCraft](../games/s-z/starcraft.md)
 - [`GAME-0331` — Starfield](../games/s-z/starfield.md)
 - [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
+- [`GAME-0554` — Strange Horticulture](../games/s-z/strange-horticulture.md)
 - [`GAME-0172` — Street Fighter 6](../games/s-z/street-fighter-6.md)
 - [`GAME-0351` — "Street Fighter II: The World Warrior"](../games/s-z/street-fighter-ii-the-world-warrior.md)
 - [`GAME-0466` — Streets of Rage 2](../games/s-z/streets-of-rage-2.md)
@@ -483,25 +599,35 @@
 - [`GAME-0378` — Super Monkey Ball 2](../games/s-z/super-monkey-ball-2.md)
 - [`GAME-0094` — Superliminal](../games/s-z/superliminal.md)
 - [`GAME-0136` — "Surviving Mars: Relaunched"](../games/s-z/surviving-mars.md)
+- [`GAME-0599` — "Sword of the Sea"](../games/s-z/sword-of-the-sea.md)
 - [`GAME-0313` — Tank 1990](../games/s-z/tank-1990.md)
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
 - [`GAME-0426` — Tearaway](../games/s-z/tearaway.md)
+- [`GAME-0568` — Teardown](../games/s-z/teardown.md)
 - [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
 - [`GAME-0448` — Temple Run](../games/s-z/temple-run.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
+- [`GAME-0529` — Tetris Effect](../games/s-z/tetris-effect.md)
 - [`GAME-0004` — Tetris](../games/s-z/tetris.md)
+- [`GAME-0604` — "The Alters"](../games/s-z/the-alters.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
+- [`GAME-0576` — The Forgotten City](../games/s-z/the-forgotten-city.md)
 - [`GAME-0475` — The House of the Dead](../games/s-z/the-house-of-the-dead.md)
+- [`GAME-0559` — The Last Guardian](../games/s-z/the-last-guardian.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
 - [`GAME-0395` — "The Legend of Zelda: Majora’s Mask"](../games/s-z/the-legend-of-zelda-majoras-mask.md)
 - [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
+- [`GAME-0593` — "The Legend of Zelda: The Minish Cap"](../games/s-z/the-legend-of-zelda-the-minish-cap.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 - [`GAME-0087` — The Longest Journey](../games/s-z/the-longest-journey.md)
+- [`GAME-0553` — The Lost Vikings](../games/s-z/the-lost-vikings.md)
+- [`GAME-0531` — The Midnight Walk](../games/s-z/the-midnight-walk.md)
+- [`GAME-0528` — The Neverhood](../games/s-z/the-neverhood.md)
 - [`GAME-0383` — The Sims 2: Legacy Collection](../games/s-z/the-sims-2-legacy-collection.md)
 - [`GAME-0158` — The Sims 4](../games/s-z/the-sims-4.md)
 - [`GAME-0461` — The Sims](../games/s-z/the-sims.md)
@@ -514,6 +640,7 @@
 - [`GAME-0443` — Time Crisis](../games/s-z/time-crisis.md)
 - [`GAME-0030` — Tin Hearts](../games/s-z/tin-hearts.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
+- [`GAME-0590` — Tokyo Xtreme Racer](../games/s-z/tokyo-xtreme-racer.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
 - [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
 - [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
@@ -526,22 +653,31 @@
 - [`GAME-0409` — 'Twisted Metal: Black'](../games/s-z/twisted-metal-black.md)
 - [`GAME-0391` — "Uncharted 2: Among Thieves"](../games/s-z/uncharted-2-among-thieves.md)
 - [`GAME-0268` — Undertale](../games/s-z/undertale.md)
+- [`GAME-0658` — "Unicorn Overlord"](../games/s-z/unicorn-overlord.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
 - [`GAME-0183` — Vampire Survivors](../games/s-z/vampire-survivors.md)
 - [`GAME-0467` — Vib-Ribbon](../games/s-z/vib-ribbon.md)
 - [`GAME-0041` — Viewfinder](../games/s-z/viewfinder.md)
+- [`GAME-0580` — Viewtiful Joe](../games/s-z/viewtiful-joe.md)
+- [`GAME-0571` — Virtua Tennis](../games/s-z/virtua-tennis.md)
 - [`GAME-0375` — Viva Piñata](../games/s-z/viva-pinata.md)
+- [`GAME-0547` — Walkabout Mini Golf](../games/s-z/walkabout-mini-golf.md)
 - [`GAME-0184` — War Thunder](../games/s-z/war-thunder.md)
 - [`GAME-0328` — "Warcraft III: Reign of Chaos"](../games/s-z/warcraft-iii-reign-of-chaos.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
 - [`GAME-0496` — "Warhammer 40,000: Space Marine 2"](../games/s-z/warhammer-40000-space-marine-2.md)
+- [`GAME-0645` — Wario Land 3](../games/s-z/wario-land-3.md)
 - [`GAME-0497` — Wario Land 4](../games/s-z/wario-land-4.md)
 - [`GAME-0398` — 'WarioWare, Inc.: Mega Microgame$!'](../games/s-z/warioware-inc-mega-microgame.md)
+- [`GAME-0524` — Wave Race 64](../games/s-z/wave-race-64.md)
+- [`GAME-0644` — "WHAT THE CAR?"](../games/s-z/what-the-car.md)
+- [`GAME-0603` — "Wheel World"](../games/s-z/wheel-world.md)
 - [`GAME-0493` — Where's My Water?](../games/s-z/wheres-my-water.md)
 - [`GAME-0439` — Wii Fit](../games/s-z/wii-fit.md)
 - [`GAME-0364` — Wii Sports](../games/s-z/wii-sports.md)
+- [`GAME-0564` — Windjammers](../games/s-z/windjammers.md)
 - [`GAME-0488` — wipEout](../games/s-z/wipeout.md)
 - [`GAME-0134` — "Workers & Resources: Soviet Republic"](../games/s-z/workers-resources-soviet-republic.md)
 - [`GAME-0026` — World of Goo](../games/s-z/world-of-goo.md)
@@ -571,6 +707,7 @@
 - [`GAME-0369` — Carcassonne](../games/a-f/carcassonne.md)
 - [`GAME-0377` — CATAN](../games/a-f/catan.md)
 - [`GAME-0011` — Chess](../games/a-f/chess.md)
+- [`GAME-0611` — "Culdcept"](../games/a-f/culdcept.md)
 - [`GAME-0392` — Mario Party 2](../games/m-r/mario-party-2.md)
 
 ## TIM-005
@@ -720,6 +857,7 @@
 
 ### Ігри-носії
 
+- [`GAME-0589` — ChuChu Rocket!](../games/a-f/chuchu-rocket.md)
 - [`GAME-0037` — Cosmic Express](../games/a-f/cosmic-express.md)
 - [`GAME-0056` — Railbound](../games/m-r/railbound.md)
 
@@ -999,6 +1137,7 @@ Simon показує світлову послідовність, чекає н�
 ### Ігри-носії
 
 - [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
+- [`GAME-0518` — Pokémon Pokopia](../games/m-r/pokemon-pokopia.md)
 
 ## TIM-023
 
@@ -1063,7 +1202,9 @@ Simon показує світлову послідовність, чекає н�
 
 - [`GAME-0320` — "Animal Crossing: New Horizons"](../games/a-f/animal-crossing-new-horizons.md)
 - [`GAME-0511` — Animal Crossing: New Leaf](../games/a-f/animal-crossing-new-leaf.md)
+- [`GAME-0557` — "Boktai: The Sun Is in Your Hand"](../games/a-f/boktai-the-sun-is-in-your-hand.md)
 - [`GAME-0463` — "Pokémon Gold Version"](../games/m-r/pokemon-gold-version.md)
+- [`GAME-0518` — Pokémon Pokopia](../games/m-r/pokemon-pokopia.md)
 
 ## TIM-026
 
@@ -1086,6 +1227,7 @@ Simon показує світлову послідовність, чекає н�
 
 - [`GAME-0346` — Chrono Trigger](../games/a-f/chrono-trigger.md)
 - [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
+- [`GAME-0562` — Parasite Eve](../games/m-r/parasite-eve.md)
 
 ## TIM-027
 
@@ -1233,7 +1375,10 @@ Simon показує світлову послідовність, чекає н�
 
 ### Ігри-носії
 
+- [`GAME-0601` — "Cassette Beasts"](../games/a-f/cassette-beasts.md)
 - [`GAME-0489` — Golden Sun](../games/g-l/golden-sun.md)
+- [`GAME-0530` — Lost Odyssey](../games/g-l/lost-odyssey.md)
+- [`GAME-0535` — Skies of Arcadia](../games/s-z/skies-of-arcadia.md)
 
 ## TIM-034
 
@@ -1255,3 +1400,277 @@ Simon показує світлову послідовність, чекає н�
 ### Ігри-носії
 
 - [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
+
+## TIM-035
+
+- Назва: Зупиняти відлік для переходів між предметами й поновлювати його для дій
+- Переглянуто: `2026-11-17`
+
+### Операційне визначення
+
+Гравець перемикається між зупиненим часом для огляду й переходів між близькими предметами та плином часу для дій і їхніх наслідків. Перехід між ядрами не витрачає час на порятунок.
+
+### Включає
+
+У світі привидів дістатися вентилятора, повернутися до світу живих, щоб увімкнути його, і зупинити час знову, щоб перейти до прапорця.
+
+### Виключає
+
+Пауза без можливості переміщення, черга бойових прийомів у сторонньому меню або редагування кадрів із минулого.
+
+### Ігри-носії
+
+- [`GAME-0533` — "Ghost Trick: Phantom Detective"](../games/g-l/ghost-trick-phantom-detective.md)
+
+## TIM-036
+
+- Назва: Ручне збереження утримує стан входу, а не живу позицію
+- Переглянуто: `2026-11-19`
+
+### Операційне визначення
+
+Дозволена команда ручного збереження під час проходження записує стан входу в поточну ділянку замість останньої живої позиції та поступу; тому пізніше продовження не можна вважати точним призупиненням миті, коли обрано збереження.
+
+### Включає
+
+Правило збереження на вході в ділянку з посібника оригінальної Boktai поряд із явними винятками під час подій і правилом продовження від входу.
+
+### Виключає
+
+Безперервне збереження живої позиції; одноразове точне призупинення; обернений час на вибір гравця; твердження про відновлення кожного поля чи власний дослід збереження, якого не виконували.
+
+### Ігри-носії
+
+- [`GAME-0557` — "Boktai: The Sun Is in Your Hand"](../games/a-f/boktai-the-sun-is-in-your-hand.md)
+
+## TIM-037
+
+- Назва: Масштабувати плин активного світу відстежуваним рухом гравця
+- Переглянуто: `2026-11-20`
+
+### Операційне визначення
+
+Під час поточної втіленої гри відстежуваний рух гравця керує швидкістю просування симуляції ворогів і снарядів. Нерухомість сильно сповільнює цей поступ; рух для прицілювання, дотягування чи ухилення просуває світ разом зі зміною положення гравця. Це ані фіксований незалежний час дій, ані дискретне чергування ходів гравця й ворога.
+
+### Включає
+
+Сповільнений час початкової SUPERHOT VR, пов’язаний із рухом. З гасла про час, що рухається лише разом із гравцем, не виводять точного нижнього рівня плину за нерухомості, ваг окремих каналів положення, початкової частоти зчитування чи універсального порога повороту голови.
+
+### Виключає
+
+Ручна пауза; необов’язкова кнопка сповільнення з витратним запасом; ухилення фіксованої тривалості; припущення, що кожне дрібне тремтіння відстеження однаково просуває час або що нерухомість гарантує цілком нульовий поступ.
+
+### Ігри-носії
+
+- [`GAME-0567` — SUPERHOT VR](../games/s-z/superhot-vr.md)
+
+## TIM-038
+
+- Назва: Просувати спільний покроковий відлік до нульової затримки виконавця
+- Переглянуто: `2026-11-20`
+
+### Операційне визначення
+
+Після завершення поточного ходу просувай спільний тактичний відлік, доки затримка одного з придатних виконавців не досягне нуля. Він може ходити раніше за тих, у кого ще лишилась затримка.
+
+### Включає
+
+За затримок 8, 3 і 5 просунь відлік на три одиниці. Ходить виконавець із нульовою затримкою, а в інших лишаються 5 і 2.
+
+### Виключає
+
+Фіксоване чергування раундів, шкали, що заповнюються в реальному часі під час вибору, або припущення про невідомий пріоритет за однакових затримок.
+
+### Ігри-носії
+
+- [`GAME-0575` — Metal Gear Acid](../games/m-r/metal-gear-acid.md)
+
+## TIM-039
+
+- Назва: Завершувати дію в поточному такті перед вибором дії в наступному
+- Переглянуто: `2026-11-20`
+
+### Операційне визначення
+
+Бій просувається за показаною послідовністю тактів дії. У доступному союзному такті гравець обирає й виконує поточну дію разом із доступним вікном ритмічного вводу. Лише потім обирає дію для пізнішого такту. Заплановані такти супротивника виконуються у своїй черзі.
+
+### Включає
+
+Виконай атаку Кейденс із ритмічним натисканням, перевір очки й здоров’я після дії, а тоді обери придатного виконавця та команду для наступного союзного такту.
+
+### Виключає
+
+Вибір усіх союзних команд до виконання першої, шкала ініціативи, що зростає в реальному часі під час читання меню, або сталий автоматичний раунд з одним вводом.
+
+### Ігри-носії
+
+- [`GAME-0577` — People of Note](../games/m-r/people-of-note.md)
+
+## TIM-040
+
+- Назва: Окремо змінювати темп сцени й героя утримуваними ефектами
+- Переглянуто: `2026-11-20`
+
+### Операційне визначення
+
+Коли гравець утримує один ефект, сцена триває повільніше, а дії все ще доступні. Другий вивчений ефект прискорює рух і удари героя. Поєднання може лишити сцену сповільненою й водночас зменшити сповільнення руху героя. Гра не переходить до ходів.
+
+### Включає
+
+Утримувати Slow для краплі або влучання, Mach Speed для швидкого пересування, а обидва ефекти разом — для руху під час Slow.
+
+### Виключає
+
+Керування часом через власний рух, пауза, перемотування виконаних дій, лише блокування вводу, твердження про точний темп чи кількість кадрів.
+
+### Ігри-носії
+
+- [`GAME-0580` — Viewtiful Joe](../games/s-z/viewtiful-joe.md)
+
+## TIM-041
+
+- Назва: Чергувати підготовку й захист за розкладом до завершення етапу
+- Переглянуто: `2026-11-20`
+
+### Операційне визначення
+
+Під час етапу денна підготовка та нічний захист чергуються за розкладом. Удень гравець може прискорити час. Уночі нападники йдуть до особи під захистом, доки не настане день. Виживання до світанку повертає підготовку зі збереженим поступом на тому самому етапі.
+
+### Включає
+
+Підготуватися на перевалі Мьоко вдень, захищати Йошіро після заходу сонця й продовжити прокладання збереженого шляху на світанку.
+
+### Виключає
+
+Лише візуальний цикл, хвилі з ручним запуском поза відліком, завершення тільки після останнього ворога або точна тривалість, виведена з відеозапису.
+
+### Ігри-носії
+
+- [`GAME-0583` — "Kunitsu-Gami: Path of the Goddess"](../games/g-l/kunitsu-gami-path-of-the-goddess.md)
+
+## TIM-042
+
+- Назва: Призупинити час для розстановки окремих захисників і повернутися до бою
+- Переглянуто: `2026-11-20`
+
+### Операційне визначення
+
+Тактичний екран призупиняє етап, поки гравець перемикається між доступними захисниками й задає їм позиції в межах огляду. Після виходу з екрана час фази, звичайний рух і бій відновлюються.
+
+### Включає
+
+Відкрити екран команд для селян на перевалі Мьоко, задати дроворубу нову позицію й повернутися до Со.
+
+### Виключає
+
+Системна пауза без наказів, лише вибір атакувальної здібності, розстановка по всій мапі без обмежень або перетворення всього бою на ходи.
+
+### Ігри-носії
+
+- [`GAME-0583` — "Kunitsu-Gami: Path of the Goddess"](../games/g-l/kunitsu-gami-path-of-the-goddess.md)
+
+## TIM-043
+
+- Назва: Просувати годинник справи під час окремих дій із витратою часу
+- Переглянуто: `2026-11-21`
+
+### Операційне визначення
+
+Годинник розслідування переходить на заданий проміжок після підтвердження дії, що має вартість у часі. Пересування в межах дослідженого маршруту й перегляд уже відкритого порівняння самі собою не витрачають час безперервно. Це дає змогу розподілити його між діями до граничного строку.
+
+### Включає
+
+Відкриття позначеного огляду може коштувати ігрову хвилину. Деталі відкритого порівняння й висновок можна переглядати, поки показані хвилини не спливають безперервно.
+
+### Виключає
+
+Безперервний відлік у реальному часі, зсув годинника за будь-яку дію, час без наслідків для строку або припущення, що всі паузи й приміщення підпорядковані одному правилу.
+
+### Ігри-носії
+
+- [`GAME-0606` — "The Séance of Blake Manor"](../games/s-z/the-seance-of-blake-manor.md)
+
+## TIM-044
+
+- Назва: Давати один додатковий хід за точне суміщення у фазі гравця
+- Переглянуто: `2026-11-21`
+
+### Операційне визначення
+
+Точне суміщення, яке гра зарахувала як ідеальне, дає ще один хід у поточній фазі гравця. Якщо ідеальним буде вже додатковий хід, третього ходу в цій фазі не буде.
+
+### Включає
+
+Перше ідеальне суміщення в події з трактором у Keep Driving дає додатковий хід. Після другого гра переходить до фази дороги.
+
+### Виключає
+
+Дві дії без умови, нескінченний ланцюг дій, повернення вартості навички або гарантований хід за частковий збіг.
+
+### Ігри-носії
+
+- [`GAME-0628` — "Keep Driving"](../games/g-l/keep-driving.md)
+
+## TIM-045
+
+- Назва: Завершувати скінченні раунди обговорення перед окремим голосуванням
+- Переглянуто: `2026-11-22`
+
+### Операційне визначення
+
+Система проводить обговорення через видиму скінченну кількість раундів. У раунді можна почути репліку й відповісти або мовчки перейти далі. Після обговорення відкривається окреме голосування зі своїм керуванням і підрахунком голосів.
+
+### Включає
+
+У Gnosia після п’яти пронумерованих раундів обговорення другого дня першої петлі відкривається окреме голосування.
+
+### Виключає
+
+Обмеження обговорення таймером реального часу, вільне повторне відкриття завершеного голосування, голосування під час кожної репліки або припущення про однакову кількість раундів у всіх майбутніх обговореннях.
+
+### Ігри-носії
+
+- [`GAME-0630` — "Gnosia"](../games/g-l/gnosia.md)
+
+## TIM-046
+
+- Назва: Зупиняти бій і заповнення шкали, поки гравець вибирає команду
+- Переглянуто: `2026-11-22`
+
+### Операційне визначення
+
+Відкриття меню команд зупиняє дії обох сторін і заповнення спільної шкали. Гравець може переглянути команди й обрати дію, на яку вистачає поділок. Після вибору або скасування бій знову триває в реальному часі.
+
+### Включає
+
+Відкрий меню й вибери постріл. Шкала почне заповнюватися знову лише після повернення до бою за відповідних умов.
+
+### Виключає
+
+Пауза без можливості віддати команду, меню, у якому ворог діє або шкала заповнюється далі, чи автоматичне чергування ходів.
+
+### Ігри-носії
+
+- [`GAME-0652` — Mega Man Battle Network](../games/m-r/mega-man-battle-network.md)
+- [`GAME-0647` — Panzer Dragoon Saga](../games/m-r/panzer-dragoon-saga.md)
+
+## TIM-047
+
+- Назва: Чергувати цілі фази бою з новим кидком після передачі ходу
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Розв’язувати дії поточної сторони в момент їх виконання. Якщо обидві сторони ще в бою, передати хід і дати наступній стороні її власний новий кидок перед вибором дій.
+
+### Включає
+
+Дії спорядження Воїна, передача ходу й окремий кидок Маршмелоу перед його самостійною відповіддю.
+
+### Виключає
+
+Одночасне заявлення дій, виконання вже вибраного до передачі ходу удару ворога та чергування окремих дій за порядком готовності.
+
+### Ігри-носії
+
+- [`GAME-0664` — "Dicey Dungeons"](../games/a-f/dicey-dungeons.md)

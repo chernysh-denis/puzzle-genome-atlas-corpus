@@ -4071,6 +4071,1224 @@
       "playUrl": "https://www.gamedeveloper.com/design/postmortem-i-thief-the-dark-project-i-",
       "linkLabelEn": "Read the original developer’s account",
       "linkLabelUk": "Прочитати огляд оригінального розробника"
+    },
+    "GAME-0514": {
+      "titleUk": "Mewgenics",
+      "summaryUk": "У першому навчальному бою один кіт підходить до пацюка впритул, а другий витрачає ману на перекат, щоб дістати пострілом Tom Tom. Кожен кіт може один раз переміститися і один раз атакувати за свій хід. Закляття можна повторювати, поки вистачає мани.",
+      "summaryEn": "In the first tutorial battle, the melee cat approaches the rat and the ranged cat spends mana on a roll to get a shot at Tom Tom. Each cat gets one ordinary move and attack per turn and can repeat spells while it has the mana.",
+      "playUrl": "https://store.steampowered.com/app/686060/Mewgenics/",
+      "linkLabelUk": "Відкрити Mewgenics у Steam",
+      "linkLabelEn": "View Mewgenics on Steam"
+    },
+    "GAME-0515": {
+      "titleUk": "Криза динозаврів",
+      "summaryUk": "Регіна відновлює живлення, впорядкувавши чотири кольорові елементи генератора, і тікає від раптора через два двори. Нижча огорожа його не зупиняє. Щоб дістатися до Ріка, треба пройти далі й спуститися через вентиляцію.",
+      "summaryEn": "Regina restores power by putting four coloured conductors in order, then flees a raptor across two yards. The lower fence does not stop it. The route to Rick continues through a ventilation passage.",
+      "playUrl": "https://store.playstation.com/en-us/product/UP0102-PPSA07831_00-CLASSICDINO00001",
+      "linkLabelUk": "Відкрити перевидання в PlayStation Store",
+      "linkLabelEn": "View the reissue on PlayStation Store"
+    },
+    "GAME-0516": {
+      "titleUk": "Hi-Fi RUSH",
+      "summaryEn": "Chai clears eight factory encounters by choosing attack strings and timing their follow-ups. Ordinary hits sync to the beat even when input is off beat. Against QA-1MIL, dodge the slam and strike while its hand is stuck.",
+      "summaryUk": "Чай проходить вісім заводських сутичок, обираючи серії атак і вчасно натискаючи для завершальних ударів. Звичайні удари влучають у такт навіть після неточного натискання. У бою з QA-1MIL треба ухилитися від удару кулаком і атакувати, поки рука застрягла в підлозі.",
+      "playUrl": "https://www.xbox.com/en-US/games/store/hi-fi-rush/9nftc552k3gj",
+      "linkLabelUk": "Відкрити Hi-Fi RUSH у крамниці Xbox",
+      "linkLabelEn": "View Hi-Fi RUSH on the Xbox Store"
+    },
+    "GAME-0517": {
+      "titleUk": "Homeworld",
+      "summaryEn": "Order collectors and Scouts through the first Kushan fleet trials. Clear the practice groups using the required formation and tactics, then tow the last drone to the Mothership and commit the jump.",
+      "summaryUk": "Керуй збирачами й розвідниками в перших випробуваннях флоту кушанів. Здолай навчальні групи в потрібному строю й із потрібною тактикою, відбуксируй останній дрон до корабля-матки й підтвердь гіперстрибок.",
+      "playUrl": "https://store.steampowered.com/app/244160/Homeworld_Remastered_Collection/",
+      "linkLabelUk": "Відкрити збірку з класичною Homeworld у Steam",
+      "linkLabelEn": "View the Steam collection with Homeworld Classic"
+    },
+    "GAME-0518": {
+      "titleUk": "Покемон Покопія",
+      "summaryEn": "Restore dry grass and grow new habitats to meet Pokémon and learn moves. On the first evening, craft a campfire and lead Charmander close enough to light it.",
+      "summaryUk": "Відновлюй суху траву й облаштовуй нові оселища, щоб зустрічати покемонів та вивчати прийоми. Першого вечора змайструй вогнище й приведи Чармандера, щоб він його запалив.",
+      "playUrl": "https://www.nintendo.com/us/store/products/70010000107421/",
+      "linkLabelUk": "Відкрити Pokémon Pokopia в крамниці Nintendo",
+      "linkLabelEn": "View Pokémon Pokopia on the Nintendo Store"
+    },
+    "GAME-0519": {
+      "titleUk": "Камінь сили",
+      "summaryEn": "Race for loose stones, use arena props, and knock a stone free from the other fighter. Collect all three to transform, then spend power on repeated attacks or one finisher before the stones scatter.",
+      "summaryUk": "Наввипередки підбирай вільні камені, використовуй предмети арени й вибивай камінь у суперника. Збери всі три для перетворення, а тоді витрачай силу на кілька атак або один завершальний прийом, перш ніж камені розлетяться.",
+      "playUrl": "https://news.capcomusa.com/2025/05/16/capcom-fighting-collection-2-is-available-now/",
+      "linkLabelUk": "Переглянути пізнішу збірку з Power Stone на сайті Capcom",
+      "linkLabelEn": "View the later collection with Power Stone at Capcom"
+    },
+    "GAME-0520": {
+      "titleUk": "Колодязь тварин",
+      "summaryEn": "Ride a moving support and turn cranks to reach three yellow buttons. Collect firecrackers and find a hidden match. A flash briefly lights the room and disperses a ghost. The lit candle keeps that room bright and prevents the ghost from spawning again.",
+      "summaryUk": "Скористайся рухомою платформою й обертай рукоятки, щоб дістатися трьох жовтих кнопок. Підбери петарди й знайди схований сірник. Спалах ненадовго освітлює кімнату й розсіює привида. Запалена свічка дає тривале світло й не дає привидові з’явитися знову.",
+      "playUrl": "https://www.nintendo.com/us/store/products/animal-well-switch/",
+      "linkLabelUk": "Переглянути Animal Well на сайті Nintendo",
+      "linkLabelEn": "View Animal Well on Nintendo"
+    },
+    "GAME-0521": {
+      "titleUk": "Спортивний курорт Wii",
+      "summaryEn": "Choose a disc for the distance and release B during a Wii MotionPlus swing. Wind and the surface shape where the disc stops. Continue from a legal stop, or take a penalty and use the designated fallback. Reach the glowing target in as few counted throws as possible.",
+      "summaryUk": "Обери диск за дальністю та відпусти кнопку B під час замаху з Wii MotionPlus. Вітер і поверхня впливають на місце зупинки диска. Після допустимої зупинки продовжуй із цієї точки, а після штрафу — із визначеного місця. Спрямуй диск у світлову ціль за якомога менше зарахованих кидків.",
+      "playUrl": "https://www.nintendo.com/en-gb/Games/Wii/Wii-Sports-Resort-283982.html",
+      "linkLabelUk": "Переглянути Wii Sports Resort на сайті Nintendo",
+      "linkLabelEn": "View Wii Sports Resort on Nintendo"
+    },
+    "GAME-0522": {
+      "titleUk": "Повернення",
+      "summaryEn": "Dash through eligible projectiles and time a quick primary recharge. Install the Atropian Weapon Charger to unlock an alternate shot on eligible weapons. After a true death, the new cycle keeps that capability but resets the current weapon and temporary resources.",
+      "summaryUk": "Ухиляйся від снарядів і проходь ривком крізь ті, від яких він захищає. Вчасно натискай кнопку для швидкого заряджання. Встанови атропійський зарядний модуль, щоб відкрити альтернативний постріл на придатній зброї. Після остаточної загибелі новий цикл зберігає цю здатність, а поточна зброя й тимчасові ресурси скидаються.",
+      "playUrl": "https://www.playstation.com/en-us/games/returnal/",
+      "linkLabelUk": "Переглянути Returnal на сайті PlayStation",
+      "linkLabelEn": "View Returnal on PlayStation"
+    },
+    "GAME-0523": {
+      "titleUk": "Пентимент",
+      "summaryEn": "Spend work periods and meals on different leads in the first murder inquiry. Decide what evidence to give the archdeacon. He announces one verdict after the hearing, while the case can leave guilt unresolved.",
+      "summaryUk": "Витрачай робочі години й трапези на різні зачіпки в першій справі про вбивство. Виріши, які докази викласти архідияконові. Після слухання він оголосить один вирок, хоча справжня вина може лишитися невідомою.",
+      "playUrl": "https://www.xbox.com/en-US/games/store/pentiment/9nx6k9hn4f4k",
+      "linkLabelUk": "Переглянути Pentiment на сайті Xbox",
+      "linkLabelEn": "View Pentiment on Xbox"
+    },
+    "GAME-0524": {
+      "titleUk": "Перегони на хвилях 64",
+      "summaryEn": "Hold your line over moving water on Sunny Beach. Gain one power level from each correct-side buoy pass, lose all levels on a miss, and finish with enough points to advance.",
+      "summaryUk": "Утримуй траєкторію на рухомих хвилях Санні-Біч. Кожен правильно пройдений буй додає рівень потужності, а пропуск скидає її до нуля. Фінішуй з достатньою кількістю очок для переходу далі.",
+      "playUrl": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/nintendo_8/Manual_Nintendo64_WaveRace64_EN.pdf",
+      "linkLabelUk": "Відкрити посібник Wave Race 64 від Nintendo",
+      "linkLabelEn": "Open the Nintendo manual for Wave Race 64"
+    },
+    "GAME-0525": {
+      "titleUk": "Римський мир",
+      "summaryEn": "Turn hemp into tunics and use sardines and a market to meet the other needs in Latium. Upgrade one Liberti residence while keeping enough first-tier workers for the original supply chains.",
+      "summaryUk": "Перетвори коноплі на туніки, а інші потреби в Лації забезпеч сардинами й ринком. Поліпши одну оселю вільновідпущеників і залиш достатньо працівників першого рівня для початкових виробничих ланцюжків.",
+      "playUrl": "https://www.anno-union.com/getting-started-in-anno-117-pax-romana/",
+      "linkLabelUk": "Відкрити посібник Anno 117: Pax Romana від Ubisoft",
+      "linkLabelEn": "Open the Ubisoft starter guide for Anno 117: Pax Romana"
+    },
+    "GAME-0526": {
+      "summaryEn": "Sweep the reticle to queue a volley along a fixed rail. Shoot exposed network openings and support nodes, preserve your form and defeat Earth to unlock Area 2.",
+      "summaryUk": "Захоплюй цілі прицілом і випускай залпи, доки триває політ заданим маршрутом. Уражай відкриті мережеві шлюзи й вузли підтримки, зберігай форму та переможи Землю, щоб відкрити другу зону.",
+      "playUrl": "https://device.report/m/9edd46a2fe33c5dbe8b346b33dbb108e7f3369200e41f8e9ce079166b9aa4f1c",
+      "linkLabelUk": "Відкрити інструкцію Sega до Rez для PlayStation 2",
+      "linkLabelEn": "Open Sega’s PlayStation 2 instruction booklet for Rez"
+    },
+    "GAME-0527": {
+      "titleUk": "Дев’ять Солів",
+      "summaryEn": "Parry Baichang’s normal swings to earn Qi and dodge his crimson leap. Finish charging a talisman to make internal damage permanent, then take the lift to Central Hall.",
+      "summaryUk": "Парируй звичайні удари Байчана, щоб накопичити ци, й ухиляйся від багряного стрибка. Заверши заряджання талісмана, щоб закріпити внутрішню шкоду, а після перемоги скористайся ліфтом до центральної зали.",
+      "playUrl": "https://www.nintendo.com/us/store/products/nine-sols-switch/",
+      "linkLabelUk": "Переглянути Nine Sols на сайті Nintendo",
+      "linkLabelEn": "View Nine Sols on Nintendo’s site"
+    },
+    "GAME-0528": {
+      "titleUk": "Небувальщина",
+      "summaryEn": "Set the plant beneath the fourth ring and work through the H board and musical pipes. Three distant switches let you release the cave bolts and reach the bridge.",
+      "summaryUk": "Постав рослину під четвертим кільцем, склади літеру H і налаштуй музичні труби. Три віддалені перемикачі дадуть змогу відсунути засуви печери й вийти на міст.",
+      "playUrl": "https://www.scummvm.org/compatibility/2.9.1/neverhood:neverhood/",
+      "linkLabelUk": "Перевірити сумісність The Neverhood зі ScummVM",
+      "linkLabelEn": "Check The Neverhood compatibility with ScummVM"
+    },
+    "GAME-0529": {
+      "titleUk": "Ефект тетріса",
+      "summaryEn": "Clear 36 ordinary lines in The Deep. Charge Zone and choose when to stop automatic descent. Completed rows wait at the bottom until Zone ends, adding score without advancing the stage quota.",
+      "summaryUk": "Заверши 36 звичайних ліній у The Deep. Заряди Зону й вибери мить, щоб зупинити автоматичне падіння. Заповнені ряди залишаються внизу до кінця Зони й дають очки без поступу до цілі етапу.",
+      "playUrl": "https://www.tetriseffect.game/2018/11/09/tetris-effect-now-available-on-playstation4-worldwide/",
+      "linkLabelUk": "Відкрити оголошення про випуск Tetris Effect для PS4",
+      "linkLabelEn": "Open the Tetris Effect PS4 release announcement"
+    },
+    "GAME-0530": {
+      "titleUk": "Втрачена одіссея",
+      "summaryEn": "Plan one full round against Grilgan. Release the trigger as the rings align to enhance a chosen sword attack, and keep the front line strong enough to protect Jansen’s fire magic.",
+      "summaryUk": "Сплануй цілий раунд проти Ґрілґана. Відпусти курок, коли кільця збігаються, щоб посилити обраний удар мечем. Бережи передній ряд, щоб Янсен міг чаклувати з тилу.",
+      "playUrl": "https://www.xbox.com/en-US/games/store/lost-odyssey/bzb4s8fs8t5b",
+      "linkLabelUk": "Переглянути Lost Odyssey у Xbox Store",
+      "linkLabelEn": "View Lost Odyssey in the Xbox Store"
+    },
+    "GAME-0531": {
+      "titleUk": "Опівнічна прогулянка",
+      "summaryEn": "Wake Potboy with a match and earn his trust with coal. Send him through the pipe or to a candle, close your eyes at blue markers, and leave the wardrobe while a separate flame draws a creature away.",
+      "summaryUk": "Розбуди Потбоя сірником і здобудь його довіру, давши вугілля. Спрямовуй його в трубу або до свічки, заплющуй очі перед синіми позначками й виходь із шафи, поки окремий вогонь відволікає істоту.",
+      "playUrl": "https://store.playstation.com/en-us/concept/10009390",
+      "linkLabelUk": "Переглянути The Midnight Walk у PlayStation Store",
+      "linkLabelEn": "View The Midnight Walk in the PlayStation Store"
+    },
+    "GAME-0532": {
+      "titleUk": "Аїд II",
+      "summaryEn": "Dash through Hecate’s moving ring, choose when to spend Magick on a channeled move, and defeat her summoned witches to drop the ward before heading to Oceanus.",
+      "summaryUk": "Проскочи ривком крізь рухоме кільце Гекати, обери мить, щоб витратити магію на посилений прийом, і здолай викликаних відьом, щоб зняти щит перед переходом до Океану.",
+      "playUrl": "https://www.nintendo.com/us/store/products/hades-ii-nintendo-switch-2-edition-switch-2/",
+      "linkLabelUk": "Переглянути Hades II у Nintendo eShop",
+      "linkLabelEn": "View Hades II on the Nintendo eShop"
+    },
+    "GAME-0533": {
+      "titleUk": "Трюк привида: детектив-фантом",
+      "summaryEn": "Freeze time to move between props. Start the fan and blender to ride the flag, then use two live interventions to keep Lynne alive.",
+      "summaryUk": "Зупиняй час, щоб переходити між предметами. Увімкни вентилятор і блендер, щоб піднятися на прапорці, а потім двічі втрутися у світі живих, щоб Лінн вижила.",
+      "playUrl": "https://www.nintendo.com/en-gb/News/2011/In-shops-now-Ghost-Trick-Phantom-Detective-for-Nintendo-DS--253025.html",
+      "linkLabelUk": "Переглянути оригінальний випуск на сайті Nintendo",
+      "linkLabelEn": "View the original release on Nintendo’s website"
+    },
+    "GAME-0534": {
+      "titleUk": "Миття під тиском 2",
+      "summaryEn": "Wash the first van inside and out. Choose a nozzle, soften stubborn dirt with optional foam, and highlight unfinished parts before closing the job.",
+      "summaryUk": "Вимий перший фургон зовні й усередині. Добери насадку, за потреби розм’якши стійкий бруд піною й підсвіти недомиті деталі перед завершенням замовлення.",
+      "playUrl": "https://www.xbox.com/en-US/games/store/powerwash-simulator-2/9p45ggdtfnsm",
+      "linkLabelUk": "Переглянути PowerWash Simulator 2 в магазині Xbox",
+      "linkLabelEn": "View PowerWash Simulator 2 on the Xbox store"
+    },
+    "GAME-0535": {
+      "titleUk": "Небеса Аркадії",
+      "summaryEn": "Schedule three separate crew commands and spend shared Spirit on the right shots. Choose the rear approach to change the Little Jack’s next openings against the Blackbeard.",
+      "summaryUk": "Признач три команди екіпажу на різні етапи й витрать спільні очки духу на вдалі постріли. Зайди за корму Blackbeard, щоб змінити наступні нагоди для Little Jack.",
+      "playUrl": "https://social.sega.com/articles/how-time-flies-skies-of-arcadia-set-sail-for-american/",
+      "linkLabelUk": "Переглянути випуск для Dreamcast на сайті Sega",
+      "linkLabelEn": "View the original Dreamcast release on Sega’s site"
+    },
+    "GAME-0536": {
+      "titleUk": "Прагмата",
+      "summaryEn": "Route Diana’s hack while SectorGuard is still attacking. Complete it to expose the rear fuel tank, then take the shot before the armor closes.",
+      "summaryUk": "Проклади маршрут злому Діани, поки SectorGuard атакує. Заверши злом, щоб відкрити паливний бак на його спині, і встигни влучити до закриття броні.",
+      "playUrl": "https://store.playstation.com/en-us/product/UP0102-PPSA02530_00-PRAGMATA00000000/",
+      "linkLabelUk": "Переглянути повну версію в PlayStation Store",
+      "linkLabelEn": "View the full PS5 release on PlayStation Store"
+    },
+    "GAME-0537": {
+      "titleUk": "Кірбі: нахиляй і коти",
+      "summaryEn": "Tilt to roll Kirby across the first course. Flick for an ordinary jump, use A in a directed hole, and reach the pad before the countdown ends.",
+      "summaryUk": "Нахиляй консоль, щоб котити Кірбі. Різким рухом підкидай його, а з лунки вилітай кнопкою A за стрілкою. Дістанься фінішної мішені до завершення відліку.",
+      "playUrl": "https://www.nintendo.com/en-ca/whatsnew/june-update-see-which-game-boy-super-nes-and-nes-games-were-added-for-nintendo-switch-online-members/",
+      "linkLabelUk": "Переглянути видання для Switch на сайті Nintendo",
+      "linkLabelEn": "View the Switch re-release on Nintendo’s site"
+    },
+    "GAME-0538": {
+      "titleUk": "Піднесення золотого ідола",
+      "summaryEn": "Match a room and a rounds record to identify a portrait. Reuse the collected words in two independently checked panels.",
+      "summaryUk": "Зістав номер палати із записом чергового, щоб підписати портрет. Використовуй зібрані слова в панелях імен і подій, які гра перевіряє окремо.",
+      "playUrl": "https://store.steampowered.com/app/2716400/The_Rise_of_the_Golden_Idol/",
+      "linkLabelUk": "Переглянути гру в Steam",
+      "linkLabelEn": "View the game on Steam"
+    },
+    "GAME-0539": {
+      "titleUk": "Корпус підривників",
+      "summaryEn": "Drive the bulldozer ahead of the carrier. Clear its marked obstructions before collision, then take the service truck or let the carrier arrive.",
+      "summaryUk": "Веди бульдозер попереду вантажівки й прибери позначені перешкоди до зіткнення. Потім дочекайся її прибуття або заверши місію через службовий тягач.",
+      "playUrl": "https://www.nintendo.com/en-ca/whatsnew/feb-update-see-what-games-were-added-to-the-nintendo-64-super-nes-and-nes-collections/",
+      "linkLabelUk": "Переглянути видання для Switch на сайті Nintendo",
+      "linkLabelEn": "View the Switch re-release on Nintendo’s site"
+    },
+    "GAME-0540": {
+      "titleUk": "Afterplace",
+      "summaryEn": "Drag to move Yu through the forest and tap to cut a shrub or strike a nearby slime. Follow the local paths past the vending machine to the stream.",
+      "summaryUk": "Веди Ю пальцем, а коротким дотиком зрізай кущі чи бий слизнів поруч. Знайди стежку повз торговельний автомат до струмка.",
+      "playUrl": "https://apps.apple.com/us/app/afterplace/id1539778232",
+      "linkLabelUk": "Переглянути гру в App Store",
+      "linkLabelEn": "View the game on the App Store"
+    },
+    "GAME-0541": {
+      "titleUk": "Інцидент у маєтку Ґеллі",
+      "summaryEn": "Read the machine’s instructions, register Quail Lane, and set the scene number and two participants. Pull the lever to recover the first conversation and consult its transcript.",
+      "summaryUk": "Прочитай інструкцію до приладу, зареєструй алею Квейл і вистав номер сцени та двох учасників. Потягни важіль, щоб відновити першу розмову й переглянути її текстовий запис.",
+      "playUrl": "https://store.steampowered.com/app/3641000/The_Incident_at_Galley_House/",
+      "linkLabelUk": "Переглянути гру в Steam",
+      "linkLabelEn": "View the game on Steam"
+    },
+    "GAME-0542": {
+      "titleUk": "Екстремальні перегони вантажівок",
+      "summaryEn": "Tilt the Wii Remote to steer Boulder over Greenhorn Gulch. Trigger hills, aim for rings and land on four wheels while earning enough stunt stars to pass the race.",
+      "summaryUk": "Керуй Boulder нахилом пульта Wii на трасі Greenhorn Gulch. Підіймай пагорби, пролітай крізь кільця й приземляйся на чотири колеса, набираючи потрібні для проходження зірки.",
+      "playUrl": "https://www.nintendo.com/en-gb/Games/Wii/Excite-Truck-281122.html",
+      "linkLabelUk": "Переглянути гру на сайті Nintendo",
+      "linkLabelEn": "View the game on Nintendo’s website"
+    },
+    "GAME-0543": {
+      "titleUk": "Хранитель",
+      "summaryEn": "Guide a walking lighthouse through Radiant Grove. Send Twig to intertwined roots, dash through smaller branches and focus light on two plants to grow the bridge you must then cross.",
+      "summaryUk": "Проведи крокуючий маяк крізь Radiant Grove. Відправ Twig до переплетеного коріння, прорвися ривком крізь дрібніші гілки й сфокусуй світло на двох рослинах, щоб виростити міст, який потім треба перейти.",
+      "playUrl": "https://www.doublefine.com/games/keeper",
+      "linkLabelUk": "Переглянути гру на сайті Double Fine",
+      "linkLabelEn": "View the game on Double Fine’s website"
+    },
+    "GAME-0544": {
+      "titleUk": "Космічний канал 5",
+      "summaryEn": "Watch a dance call, then answer with its rhythm. Rescue humans with B and attack aliens with A while protecting your audience rating and the first boss’s heart allowance.",
+      "summaryUk": "Подивися танцювальний виклик, а потім відтвори його ритм. Рятуй людей кнопкою B й атакуй прибульців кнопкою A, зберігаючи рейтинг аудиторії та запас сердець у сутичці з першим босом.",
+      "playUrl": "https://ch5.sega.jp/SpaceChannel5/index.html",
+      "linkLabelUk": "Переглянути гру на сайті Sega",
+      "linkLabelEn": "View the game on Sega’s website"
+    },
+    "GAME-0545": {
+      "titleUk": "Диспетчер",
+      "summaryEn": "Choose which heroes answer each emergency while the others return or rest. Match their strengths, handle injuries and help through decisions or network hacks before the first shift ends.",
+      "summaryUk": "Обирай героїв для кожного виклику, поки інші повертаються чи відпочивають. Враховуй їхні сильні сторони й травми та допомагай рішеннями або зламом мережі до завершення першої зміни.",
+      "playUrl": "https://www.playstation.com/en-us/games/dispatch/",
+      "linkLabelUk": "Переглянути гру на сайті PlayStation",
+      "linkLabelEn": "View the game on PlayStation’s website"
+    },
+    "GAME-0546": {
+      "titleUk": "Вогняні рейнджери",
+      "summaryEn": "A quick pulse leaves crystals; a charged laser clears danger but destroys that yield. Gather the same crystals that shield you and pay for survivor transport, then follow the first mission through its boss.",
+      "summaryUk": "Швидкий імпульс лишає кристали, а заряджений лазер прибирає небезпеку, знищуючи цю винагороду. Збирай кристали для власного захисту й телепортації вцілілих та пройди першу місію до боса.",
+      "playUrl": "https://burningranger.sega.jp/",
+      "linkLabelUk": "Переглянути гру на сайті Sega",
+      "linkLabelEn": "View the game on Sega’s website"
+    },
+    "GAME-0547": {
+      "titleUk": "Мінігольф із прогулянками",
+      "summaryEn": "Finish Tourist Trap’s first easy hole with a tracked putter. Rehearse without touching the ball, enable a physical stroke, then read the roll and continue from its resting lie; a viewing teleport leaves that lie unchanged.",
+      "summaryUk": "Заверши першу легку лунку Tourist Trap відстежуваною ключкою. Репетируй без дотику до м’яча, увімкни фізичний удар, прочитай результат кочення й продовжуй із місця зупинки; телепортація огляду його не змінює.",
+      "playUrl": "https://www.mightycoconut.com/minigolf/",
+      "linkLabelUk": "Переглянути гру на сайті розробника",
+      "linkLabelEn": "View the game on the developer’s website"
+    },
+    "GAME-0548": {
+      "titleUk": "Космічна станція «Кремнієва долина»",
+      "summaryEn": "Leave the dog and inhabit a deactivated sheep to gain floating and a flock call. Evo keeps the same condition across bodies, so exposed travel costs survival; energy and sheep occupation activate Smashing Start’s exit.",
+      "summaryUk": "Залиш пса й вселися в деактивовану вівцю, щоб отримати зависання та поклик стада. Стан Evo зберігається між тілами, тому відкритий рух коштує запасу виживання; енергія та вселення активують вихід Smashing Start.",
+      "playUrl": "https://github.com/mkst/sssv",
+      "linkLabelUk": "Переглянути відкритий проєкт реконструкції",
+      "linkLabelEn": "View the open reconstruction project"
+    },
+    "GAME-0549": {
+      "titleUk": "Загін «Рото»",
+      "summaryEn": "Clear the whole first Roto Jungle mission by moving along its inner rim and dashing across the arena. Dash contact opens bubbles, while surplus hearts fund stronger attacks; checkpoint weapon choices and retries lead through the final boss to Stage Clear.",
+      "summaryUk": "Заверши всю першу місію Roto Jungle, рухаючись внутрішнім обводом і перетинаючи арену ривком. Контакт ривка відкриває бульбашки, а надлишкові серця живлять сильніші атаки; вибір зброї та повтори від контрольних точок ведуть крізь фінального боса до Stage Clear.",
+      "playUrl": "https://accidentlyawesome.com/roto-force-presskit/",
+      "linkLabelUk": "Переглянути матеріали гри від розробника",
+      "linkLabelEn": "View the developer’s game materials"
+    },
+    "GAME-0550": {
+      "titleUk": "Привид Йотею",
+      "summaryEn": "Face the Snake in the first single-katana duel. Hold block through his sword sequence, release it to attack the opening, and finish the encounter through its scripted interruptions before horseback travel.",
+      "summaryUk": "Зійдися зі Змієм у першій дуелі з однією катаною. Тримай блок під час його серії ударів, відпусти його для атаки у проміжку й заверши сутичку крізь сюжетні переривання до подорожі верхи.",
+      "playUrl": "https://www.playstation.com/en-us/games/ghost-of-yotei/characters-and-combat/",
+      "linkLabelUk": "Переглянути офіційні матеріали про персонажів і бій",
+      "linkLabelEn": "View official characters and combat materials"
+    },
+    "GAME-0551": {
+      "summaryEn": "Drive the first two Grand Prix races with a supplied Assoluto. Lift the throttle, turn in and reapply it to slide; qualify in each race before timeout, then accept the manager’s performance-based machine for Heat 2.",
+      "summaryUk": "Пройди перші дві гонки Grand Prix на наданій Assoluto. Відпусти газ, поверни у віраж і знову розганяйся для заносу; пройди кваліфікацію в кожній гонці до спливу часу, потім прийми машину для Heat 2, обрану менеджером за результатами.",
+      "playUrl": "https://secure.cdn.us.playstation.com/manuals/classic/games/r4-ridge-racer-type-4-manual-en.pdf",
+      "linkLabelUk": "Прочитати інструкцію на офіційному сервері PlayStation",
+      "linkLabelEn": "Read the manual on PlayStation’s official server"
+    },
+    "GAME-0552": {
+      "summaryEn": "Climb Daymark one handhold at a time. Jumps shrink your recoverable stamina, wall rests refill only to the reduced ceiling, and stable ground restores capacity and temporary pitons. Adjust your safety rope to swing across gaps and reach the first tower’s horn.",
+      "summaryUk": "Підіймайся Daymark від зачепу до зачепу. Стрибки зменшують відновлювану витривалість, перепочинок на стіні поповнює лише до зниженої межі, а тверда опора повертає місткість і тимчасові гаки. Змінюй довжину страховки для розгойдування через провалля й дістанься рогу першої вежі.",
+      "playUrl": "https://dont-nod.com/en/games/jusant/",
+      "linkLabelUk": "Відкрити офіційну сторінку Jusant",
+      "linkLabelEn": "Visit the official Jusant page"
+    },
+    "GAME-0553": {
+      "titleUk": "Загублені вікінги",
+      "summaryEn": "Guide all three Vikings through TLPT alive. Erik breaks walls and jumps from Olaf’s raised shield, Baleog shoots barrier buttons, and Olaf glides to a key. Keep their positions, swap items nearby, use the transport pads and reunite at EXIT.",
+      "summaryUk": "Проведи всіх трьох вікінгів живими крізь TLPT. Ерік пробиває стіни й стрибає зі щита Олафа, Балеоґ влучає в кнопки перепон, а Олаф планерує до ключа. Зберігай їхні позиції, передавай предмети поблизу, користуйся телепортами й збери трійцю біля EXIT.",
+      "playUrl": "https://news.blizzard.com/en-us/article/23609765/the-lost-vikings-and-how-we-learned-to-love-multiplayer-puzzles",
+      "linkLabelUk": "Прочитати розповідь Blizzard про The Lost Vikings",
+      "linkLabelEn": "Read Blizzard’s account of The Lost Vikings"
+    },
+    "GAME-0554": {
+      "titleUk": "Дивне садівництво",
+      "summaryEn": "Run the first Friday by matching requests to actual plants. Compare partial book entries with close-up traits, keep revisable labels, and follow letters to map squares. Water or wait for exploration readiness; mistakes can interrupt work with a restorative plate puzzle.",
+      "summaryUk": "Пройди першу п’ятницю, добираючи справжні рослини до запитів. Зіставляй неповні записи книги з ознаками зблизька, змінюй власні етикетки та шукай клітинки карти за листами. Поливай або чекай, щоб відновити готовність до дослідження; помилки можуть перервати роботу відновлювальним складанням тарілки.",
+      "playUrl": "https://www.strangehorticulture.com/",
+      "linkLabelUk": "Відкрити офіційну сторінку Strange Horticulture",
+      "linkLabelEn": "Visit the official Strange Horticulture site"
+    },
+    "GAME-0555": {
+      "titleUk": "Чібі-Робо",
+      "summaryEn": "Clean the giant living room through the first night as a tiny robot. Scrub floor marks with a toothbrush, deliver litter for happiness and money, and carry your plug to an outlet before charge runs out. Dawn returns you home to retain progress and update rank.",
+      "summaryUk": "Прибирай величезну вітальню маленьким роботом протягом першої ночі. Чисть сліди зубною щіткою, здавай сміття за щастя й гроші та неси власну вилку до розетки, поки заряд не вичерпався. На світанку повернися додому зі збереженим поступом і онови ранг.",
+      "playUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-GameCube/Chibi-Robo--267829.html",
+      "linkLabelUk": "Переглянути офіційну сторінку Chibi-Robo! у Nintendo",
+      "linkLabelEn": "Visit Nintendo’s official Chibi-Robo! page"
+    },
+    "GAME-0556": {
+      "titleUk": "Прощавайте, дикі серця",
+      "summaryEn": "Steer through the first motorbike city song, following heart lines and choosing safe gaps near traffic. Collectibles have separate growing values; Slide and Risky add independent style points. Retry short sections or accept offered help, then compare ordinary clear with the final rank.",
+      "summaryUk": "Пройди перший мотоциклетний рівень у місті, прямуючи вздовж сердець та обираючи безпечні проміжки біля транспорту. Цінність видів предметів зростає окремо; ковзання й ризик додають незалежні очки стилю. Повторюй короткі відрізки чи приймай запропоновану допомогу, а потім відрізняй звичайне завершення від остаточного рангу.",
+      "playUrl": "https://simogo.com/work/sayonara-wild-hearts/",
+      "linkLabelUk": "Переглянути сторінку Sayonara Wild Hearts від Simogo",
+      "linkLabelEn": "Visit Simogo’s Sayonara Wild Hearts page"
+    },
+    "GAME-0557": {
+      "titleUk": "Сонце у твоїй руці",
+      "summaryEn": "Enter Fog Castle, divert patrols and manage gun energy separately from real sunlight. Drag the sealed decoy back, releasing the coffin before attacking. Prime two generators, restore weakened beams and finish the separate solar purification before accepting its rank and reward.",
+      "summaryUk": "Увійди до Fog Castle, відвертай патрулі й керуй зарядом зброї окремо від справжнього сонячного світла. Виволочи замкнену приманку назад, відпускаючи труну перед атакою. Підготуй два генератори, відновлюй ослаблені промені й заверши окреме сонячне очищення, а потім прийми ранг і нагороду.",
+      "playUrl": "https://www.nintendoworldreport.com/news/8983/boktai-can-now-be-in-your-hand",
+      "linkLabelUk": "Прочитати збережене оголошення Konami про вихід Boktai",
+      "linkLabelEn": "Read Konami’s preserved Boktai launch announcement"
+    },
+    "GAME-0558": {
+      "titleUk": "Мох",
+      "summaryEn": "Guide Quill home through The Clearing while your tracked Reader hands reshape her route. Move marked stones without carrying them freely, slow a waterwheel that keeps turning, reach the bridge lever and cross back before the chapter returns to its book.",
+      "summaryUk": "Проведи Quill додому через The Clearing, змінюючи її шлях відстежуваними руками Читача. Пересувай позначені камені без вільного перенесення, сповільнюй водяне колесо, що далі обертається, дістанься важеля мосту й повернися через нього до завершення розділу в книзі.",
+      "playUrl": "https://www.polyarcgames.com/games/moss",
+      "linkLabelUk": "Переглянути офіційну сторінку Moss",
+      "linkLabelEn": "Visit the official Moss page"
+    },
+    "GAME-0559": {
+      "titleUk": "Останній охоронець",
+      "summaryEn": "Escape the complete opening cave by helping an autonomous giant companion. Feed and free Trico, climb him to retrieve the mirror, mark barriers for his tail discharge and lure him into the flooded chamber for the final ascent.",
+      "summaryUk": "Вийди з усієї початкової печери, допомагаючи автономному велетенському супутникові. Нагодуй і звільни Trico, видерись на нього по дзеркало, позначай перепони для його хвостового розряду й заманюй його в затоплену залу для фінального підйому.",
+      "playUrl": "https://store.playstation.com/en-gb/concept/204826",
+      "linkLabelUk": "Переглянути офіційну сторінку The Last Guardian",
+      "linkLabelEn": "Visit the official The Last Guardian page"
+    },
+    "GAME-0560": {
+      "titleUk": "Зоряні герої",
+      "summaryEn": "Clear the full Ancient Ruins stage by pairing two retained weapons without consuming either. Run and fire with Free Shot, claim supplies manually, throw eligible enemies, guard against compatible attacks and defeat Pinky Roader before the Blue Gem handoff.",
+      "summaryUk": "Пройди весь Ancient Ruins, поєднуючи дві збережені зброї без витрачання жодної. Біжи й стріляй із Free Shot, підбирай постачання вручну, кидай допустимих ворогів, захищайся від сумісних атак і переможи Pinky Roader до отримання Blue Gem.",
+      "playUrl": "https://manuals.sega.com/genesismini/manuals/gunstarheroes/index.html",
+      "linkLabelUk": "Переглянути офіційну інструкцію Gunstar Heroes",
+      "linkLabelEn": "Read the official Gunstar Heroes manual"
+    },
+    "GAME-0561": {
+      "titleUk": "Психонавти 2",
+      "summaryEn": "Finish the first mind by moving teeth, pulling zippers, burning covers and choosing PSI attacks for each threat. Cross gaps with short balloon floats and updrafts, roll through the drain and return from the complete Loboto’s Labyrinth.",
+      "summaryUk": "Заверши перший розум: пересувай зуби, відкривай блискавки, спалюй прикриття й обирай психічні атаки відповідно до загрози. Перетинай розриви коротким ширянням на повітряній кулі та висхідними потоками, прокотися стоком і повернися після повного проходження Loboto’s Labyrinth.",
+      "playUrl": "https://www.doublefine.com/games/psychonauts-2",
+      "linkLabelUk": "Переглянути офіційну сторінку Psychonauts 2",
+      "linkLabelEn": "Visit the official Psychonauts 2 page"
+    },
+    "GAME-0562": {
+      "titleUk": "Паразит Єва",
+      "summaryEn": "Move while AT charges, then pause to choose a shot, healing or item. Find the backstage keys, manage bullets and PE, and defeat the alligator’s separate targets to close the complete first day.",
+      "summaryUk": "Рухайся, доки заряджається AT, потім призупиняй бій для вибору пострілу, лікування чи предмета. Знайди закулісні ключі, бережи набої й PE та здолай окремі цілі алігатора, щоб завершити весь перший день.",
+      "playUrl": "https://support.na.square-enix.com/faqarticle.php?id=2041&kid=58072&la=1&ret=main",
+      "linkLabelUk": "Переглянути офіційні відомості Square Enix про Parasite Eve",
+      "linkLabelEn": "Read the official Square Enix Parasite Eve product notice"
+    },
+    "GAME-0563": {
+      "titleUk": "Лорелей і лазерні очі",
+      "summaryEn": "Read letters and architect sketches, calculate with the current clues and set the hotel’s locks. Open Room 2014, match five map tubes to their sketches and save the acquired floor plans at a computer.",
+      "summaryUk": "Читай листи й креслення архітекторів, обчислюй за поточними підказками й налаштовуй замки готелю. Відкрий кімнату 2014, зістав п’ять тубусів мап із кресленнями й збережи отримані плани через комп’ютер.",
+      "playUrl": "https://simogo.com/work/loreleiandthelasereyes/",
+      "linkLabelUk": "Переглянути офіційну сторінку Lorelei and the Laser Eyes",
+      "linkLabelEn": "Read the official Lorelei and the Laser Eyes page"
+    },
+    "GAME-0564": {
+      "summaryEn": "Play the complete original Beach duel: intercept, bank or lob the disc, turn a timed toss into temporary charged throws and protect your goal from receiving pushback. Set draws can lead to a bounded first-score tiebreak.",
+      "summaryUk": "Увесь оригінальний двобій на Beach: перехоплюй диск, відбивай від стінки чи кидай навісом, перетворюй вчасне підкидання на тимчасові посилені кидки й захищай ворота від відтиснення під час прийому. Нічиї сетів можуть привести до обмеженого додаткового сету до першого нарахування очок.",
+      "playUrl": "https://www.flyingpowerdisc.com/game/",
+      "linkLabelEn": "Read the official Windjammers game page",
+      "linkLabelUk": "Переглянути офіційну сторінку Windjammers"
+    },
+    "GAME-0565": {
+      "titleUk": "Доглядач купола",
+      "summaryEn": "The complete opening mining-to-defence cycle: drill, drag loose minerals home, buy only what the bank can fund and return to the console before the first assault destroys the dome. Clear the whole wave and resume mining; final relic extraction is outside this packet.",
+      "summaryUk": "Повний початковий цикл від видобутку до оборони: бури, тягни окремі мінерали додому, купуй лише доступне за запасом і повертайся до консолі, поки перший напад не зруйнував купол. Відбий усю хвилю й повернися до видобутку; фінальне здобуття реліквії поза цим пакетом.",
+      "playUrl": "https://www.domekeeper.com/",
+      "linkLabelEn": "Visit the official Dome Keeper website",
+      "linkLabelUk": "Відкрити офіційний сайт Dome Keeper"
+    },
+    "GAME-0566": {
+      "titleUk": "Елітні агенти ритму",
+      "summaryEn": "One complete Cruisin’ Makes No Difference performance: tap closing rings, follow phrase balls and fill timed spinners while the song reserve drains. Clear the whole mission, inspect the hit categories and grade, and retain its result; comic sections are not retry checkpoints.",
+      "summaryUk": "Одне повне виконання Makes No Difference на Cruisin’: натискай у момент змикання кілець, веди стилус за кульками фраз і заповнюй обертальні мітки за відведений час, поки запас пісні спадає. Пройди все завдання, перевір категорії влучань та оцінку й збережи результат; частини коміксу не є контрольними точками повтору.",
+      "playUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-DS/Elite-Beat-Agents-270660.html",
+      "linkLabelEn": "Read Nintendo’s official Elite Beat Agents page",
+      "linkLabelUk": "Відкрити офіційну сторінку Elite Beat Agents від Nintendo"
+    },
+    "GAME-0567": {
+      "titleUk": "Надгаряча віртуальна реальність",
+      "summaryEn": "Your body dodges while your hands grab, fire, punch or block—and movement also advances enemy time. Clear the complete original Quest Airport fight group using finite physical guns; an empty gun can still block or be thrown, and the next scene aligns around you.",
+      "summaryUk": "Тіло ухиляється, руки захоплюють, стріляють, б’ють чи блокують — а рух також просуває час ворогів. Очисти повну групу боїв Airport початкового Quest зі скінченними набоями фізичної зброї; порожній пістолет ще може блокувати чи бути кинутим, а наступна сцена вирівнюється навколо тебе.",
+      "playUrl": "https://www.oculus.com/experiences/quest/1921533091289407/",
+      "linkLabelEn": "Open the official SUPERHOT VR Quest product page",
+      "linkLabelUk": "Відкрити офіційну сторінку SUPERHOT VR для Quest"
+    },
+    "GAME-0568": {
+      "titleUk": "Знесення",
+      "summaryEn": "In The Login Devices, reshape the voxel route while the alarm clock is inactive. Once it starts, collect all three readers and reach the van before time expires. Quickload can restore your prepared passages.",
+      "summaryUk": "У The Login Devices зміни воксельний маршрут, поки відлік тривоги неактивний. Після його запуску збери всі три зчитувачі й дістанься фургона до спливу часу. Швидке завантаження може повернути підготовлені проходи.",
+      "playUrl": "https://store.steampowered.com/app/1167630/Teardown/",
+      "linkLabelEn": "Open the official Teardown page on Steam",
+      "linkLabelUk": "Відкрити офіційну сторінку Teardown у Steam"
+    },
+    "GAME-0569": {
+      "summaryEn": "Dig through a brick to change the route, and cross over a trapped guard before it escapes. Guards can hide gold by carrying it. Resolve the outstanding gold and reach the top to clear the level.",
+      "summaryUk": "Викопай цеглину, щоб змінити маршрут, і перейди над спійманим охоронцем, поки він не виліз. Охоронці можуть ховати золото, несучи його. Подбай про все незараховане золото й дістанься верху, щоб завершити рівень.",
+      "playUrl": "https://global.tozaigames.com/loderunner/history",
+      "linkLabelEn": "Read the official Lode Runner release history at Tozai",
+      "linkLabelUk": "Прочитати офіційну історію видань Lode Runner на сайті Tozai"
+    },
+    "GAME-0570": {
+      "titleUk": "Культ ягняти",
+      "summaryEn": "Finish the first Darkwood expedition, bring Amdusias and supplies home, then put followers to work or worship. Collect Shrine Devotion to unlock the Temple and give the first sermon.",
+      "summaryUk": "Заверши перший похід у Темнолісся, приведи Амдусіаса й принеси припаси до поселення, а тоді доручи послідовникам роботу або молитву. Забери відданість зі святилища, щоб відкрити храм і виголосити першу проповідь.",
+      "playUrl": "https://www.playstation.com/en-us/games/cult-of-the-lamb/",
+      "linkLabelEn": "Open the official Cult of the Lamb page on PlayStation",
+      "linkLabelUk": "Відкрити офіційну сторінку Cult of the Lamb на PlayStation"
+    },
+    "GAME-0571": {
+      "titleUk": "Віртуальний теніс",
+      "summaryEn": "Toss and time the serve, reach the incoming ball early, and aim a normal shot or lob before contact. In this single-game Exhibition, the deuce rule can extend the match.",
+      "summaryUk": "Підкинь м’яч і вибери мить подачі, завчасно займи позицію й спрямуй звичайний удар або свічку до контакту. У цьому показовому матчі з одного гейму правило рівності може додати розіграші.",
+      "playUrl": "https://www.digitpress.com/library/manuals/dreamcast/virtua_tennis.pdf",
+      "linkLabelEn": "Read the original Dreamcast Virtua Tennis manual (PDF)",
+      "linkLabelUk": "Прочитати оригінальний посібник Virtua Tennis для Dreamcast (PDF)"
+    },
+    "GAME-0572": {
+      "titleUk": "Neon White",
+      "summaryEn": "Shoot with an Elevate card, or spend the whole copy for extra height. Clear all five demons and reach the exit of Rebirth’s fifth stage to earn a time medal.",
+      "summaryUk": "Стріляй із карти Elevate або витрать цілу копію, щоб піднятися вище. Знищ усіх п’ятьох демонів і дістанься виходу п’ятого рівня Rebirth, щоб отримати медаль за час.",
+      "playUrl": "https://www.nintendo.com/us/store/products/neon-white-switch/",
+      "linkLabelEn": "View Neon White for Nintendo Switch",
+      "linkLabelUk": "Переглянути Neon White для Nintendo Switch"
+    },
+    "GAME-0573": {
+      "titleUk": "Хранитель підземелля",
+      "summaryEn": "Build a Treasury, Lair and Hatchery, then claim the Portal. Pick up your creatures and drop them on owned floor to repel both Eversmile assaults while the Dungeon Heart survives.",
+      "summaryUk": "Збудуй скарбницю, лігво й пташник та захопи портал. Бери істот рукою й опускай на власну підлогу, щоб відбити обидва напади в Eversmile та зберегти Серце підземелля.",
+      "playUrl": "https://www.ea.com/games/dungeon-keeper/dungeon-keeper",
+      "linkLabelEn": "View Dungeon Keeper at Electronic Arts",
+      "linkLabelUk": "Переглянути Dungeon Keeper на сайті Electronic Arts"
+    },
+    "GAME-0574": {
+      "titleUk": "Флоренс",
+      "summaryEn": "Fit loose pieces into Florence’s wordless speech balloons. The eight replies in First Dates grow simpler, from an eight-piece opening to one last drag before Dreams.",
+      "summaryUk": "Розміщуй фрагменти в мовних хмаринках Флоренс без слів. Вісім реплік у «Перших побаченнях» поступово спрощуються, від восьми фрагментів на початку до одного руху перед «Мріями».",
+      "playUrl": "https://apps.apple.com/us/app/florence/id1297430468",
+      "linkLabelEn": "View Florence on the App Store",
+      "linkLabelUk": "Переглянути Florence в App Store"
+    },
+    "GAME-0575": {
+      "titleUk": "Metal Gear Acid",
+      "summaryEn": "Use a card to move or play its effect. The cost of your actions sets how long you wait for your next turn. Reach the North Gate while guards take turns of their own.",
+      "summaryUk": "Витрать карту на рух або застосуй її дію. Вартість дій визначає, скільки чекати до твого наступного ходу. Дістанься північної брами, поки охоронці ходять у своїй черзі.",
+      "playUrl": "https://www.konami.com/mg/archive/mga/english/introduction.html",
+      "linkLabelEn": "View Metal Gear Acid on Konami’s site",
+      "linkLabelUk": "Переглянути Metal Gear Acid на сайті Konami"
+    },
+    "GAME-0576": {
+      "titleUk": "Забуте місто",
+      "summaryEn": "Taking the remedy breaks the Golden Rule. Reach the return portal alive and carry the medicine into the restored day, when Lucretia can still save Iulia.",
+      "summaryUk": "Крадіжка ліків порушує Золоте правило. Дістанься живим до порталу й перенеси ліки в новий цикл дня, коли Лукреція ще може врятувати Юлію.",
+      "playUrl": "https://www.xbox.com/en-us/games/store/The-Forgotten-City/9NJ4R763M7TH",
+      "linkLabelEn": "View The Forgotten City on Xbox",
+      "linkLabelUk": "Переглянути The Forgotten City на Xbox"
+    },
+    "GAME-0577": {
+      "titleUk": "People of Note",
+      "summaryEn": "Take turns with Cadence and Cerrin, rest to recover skill points, and match the attack cue. As the fight goes on, Crescendo makes Yuna Verse stronger.",
+      "summaryUk": "Дій Кейденс і Серріном по черзі, відновлюй очки вмінь відпочинком і влучай у ритм під час атаки. Що довше триває бій, то більше «Крещендо» посилює Юну Верс.",
+      "playUrl": "https://www.nintendo.com/us/store/products/70010000111667/",
+      "linkLabelEn": "View People of Note on Nintendo",
+      "linkLabelUk": "Переглянути People of Note на сайті Nintendo"
+    },
+    "GAME-0578": {
+      "titleUk": "OutRun 2",
+      "summaryEn": "Take each fork at driving speed. Use braking drifts where they help, find a clear line through traffic, and reach the next checkpoint before time runs out.",
+      "summaryUk": "Обирай шлях на ходу. Використовуй занос там, де він допомагає, оминай інші машини й діставайся контрольних точок, перш ніж спливе час.",
+      "playUrl": "https://www.manualslib.com/manual/379177/Games-Microsoft-Xbox-Out-Run-2.html",
+      "linkLabelEn": "Read the original Xbox manual",
+      "linkLabelUk": "Прочитати оригінальний посібник для Xbox"
+    },
+    "GAME-0579": {
+      "titleUk": "Це місце зайняте?",
+      "summaryEn": "Give every rider a place on the Barcelona bus. Keep incompatible neighbours apart and rethink the layout at each stop as some riders leave and others board.",
+      "summaryUk": "Знайди місце кожному в барселонському автобусі. Розсаджуй окремо тих, хто заважає одне одному, й переглядай розсадку на зупинках, коли одні пасажири виходять, а інші заходять.",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.PotiPoti.IsThisSeatTaken",
+      "linkLabelEn": "View Is This Seat Taken? on Google Play",
+      "linkLabelUk": "Переглянути гру в Google Play"
+    },
+    "GAME-0580": {
+      "titleUk": "Viewtiful Joe",
+      "summaryEn": "In the cellar, Slow enlarges the falling drop enough to trigger the plate. Learn Mach Speed, slip under the raised barrel and get all four pillar flames burning together.",
+      "summaryUk": "У підвалі Slow збільшує краплю, і вона натискає плиту. Опануй Mach Speed, пробіжи під піднятою бочкою й зроби так, щоб усі чотири жаровні горіли одночасно.",
+      "playUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-GameCube/Viewtiful-Joe-269292.html",
+      "linkLabelEn": "View the original GameCube game on Nintendo",
+      "linkLabelUk": "Переглянути оригінальну гру для GameCube на сайті Nintendo"
+    },
+    "GAME-0581": {
+      "titleUk": "Hardspace: Shipbreaker",
+      "summaryEn": "Melt the joints, pull a free panel away from the Mackerel and aim it at the right receiver. Only accepted salvage advances the ship’s recovery goals.",
+      "summaryUk": "Розплав кріплення, відтягни від Mackerel відокремлену панель і спрямуй її в потрібний приймач. До порогів вартості наближають лише зараховані деталі.",
+      "playUrl": "https://www.xbox.com/en-US/games/store/hardspace-shipbreaker/9nd8c4314zzg",
+      "linkLabelEn": "View the Xbox Series X|S version on Xbox",
+      "linkLabelUk": "Переглянути версію для Xbox Series X|S у магазині Xbox"
+    },
+    "GAME-0582": {
+      "titleUk": "Похмуре фанданго",
+      "summaryEn": "Change the boss’s recorded reply so Eva can sign your work order. Later, jam the sorter and use a hole-punched card at Domino’s red tube to intercept the assignment.",
+      "summaryUk": "Зміни записану відповідь керівника, щоб Єва підписала наряд. Потім заблокуй сортувальник і встав пробиту карту в червону трубу Доміно, щоб перехопити його заявку.",
+      "playUrl": "https://www.doublefine.com/games/grim-fandango-remastered/making",
+      "linkLabelEn": "Read the history of the original on Double Fine",
+      "linkLabelUk": "Прочитати історію оригіналу на сайті Double Fine"
+    },
+    "GAME-0583": {
+      "titleUk": "Куніцу-ґамі: Шлях богині",
+      "summaryEn": "Free the villagers, split your crystals between the Spirit Path and Woodcutters, and keep Yoshiro alive until she can purify the far gate.",
+      "summaryUk": "Звільни селян, розподіли кристали між Шляхом духів і ролями дроворубів та захисти Йошіро, доки вона не зможе очистити останню браму.",
+      "playUrl": "https://store.playstation.com/en-us/product/UP0102-PPSA19576_00-KUNITSUGAMI00000",
+      "linkLabelEn": "View the full game on PlayStation Store",
+      "linkLabelUk": "Переглянути повну гру в PlayStation Store"
+    },
+    "GAME-0584": {
+      "titleUk": "Бомбермен для Saturn",
+      "summaryEn": "Plant a timed bomb, retreat into an open lane, and be the last left when heavy blocks close the arena.",
+      "summaryUk": "Встанови бомбу з ґнотом, відступи відкритим проходом і залишся останнім, поки важкі блоки перекривають арену.",
+      "playUrl": "https://segaretro.org/images/a/ae/Saturnbomberman_sat_us_manual.pdf",
+      "linkLabelEn": "Read the original Sega Saturn manual",
+      "linkLabelUk": "Прочитати оригінальний посібник Sega Saturn"
+    },
+    "GAME-0585": {
+      "titleUk": "У Радіус",
+      "summaryEn": "Reach the blockhouse, pack the explorer’s watch, and return alive to hand it in at Vanno’s mission terminal.",
+      "summaryUk": "Дістанься блокгауза, поклади годинник дослідника в рюкзак і повернися живим, щоб здати його на терміналі Ванно.",
+      "playUrl": "https://www.meta.com/experiences/into-the-radius/5817243991680545/",
+      "linkLabelEn": "View the full game on Meta Quest Store",
+      "linkLabelUk": "Переглянути повну гру в Meta Quest Store"
+    },
+    "GAME-0586": {
+      "titleUk": "Моторошний експрес",
+      "summaryEn": "Draw a route that serves the vampire and zombie in turn, then guide the single-car train out of Ghoulish Graveyard 7.",
+      "summaryUk": "Проклади колію, щоб по черзі відвезти вампіра й зомбі та вивести одновагонний поїзд із сьомої головоломки цвинтаря.",
+      "playUrl": "https://apps.apple.com/us/app/spooky-express/id6738424828",
+      "linkLabelEn": "View Spooky Express on the App Store",
+      "linkLabelUk": "Переглянути Spooky Express в App Store"
+    },
+    "GAME-0587": {
+      "summaryEn": "Take the cliff route into the air or stay low through the outpost. Both routes lead to the same transport, but they offer different fights and progression points.",
+      "summaryUk": "Злети з уступу або пройди низом через укріплення. Обидва шляхи ведуть до того самого корабля, але бої й очки розвитку різняться.",
+      "playUrl": "https://archive.org/details/Panzer_Dragoon_II_Zwei_1996_Sega_US",
+      "linkLabelEn": "Read the original Sega Saturn manual",
+      "linkLabelUk": "Прочитати оригінальний посібник Sega Saturn"
+    },
+    "GAME-0588": {
+      "titleUk": "Нева",
+      "summaryEn": "Guide the cub through Summer. Dodge through the thorns, remove their source so she can follow, then reunite and defeat the pursuer.",
+      "summaryUk": "Проведи вовченя крізь літо. Пройди терни ривком і знищ їхнє джерело, щоб Нева могла піти за тобою. Після погоні знайди Неву й здолай переслідувача.",
+      "playUrl": "https://www.nintendo.com/us/store/products/neva-switch/",
+      "linkLabelEn": "View Neva on Nintendo eShop",
+      "linkLabelUk": "Переглянути Neva в Nintendo eShop"
+    },
+    "GAME-0589": {
+      "titleUk": "Ракета ЧуЧу!",
+      "summaryEn": "Place an Up arrow before the trial. The cats and mouse move on their own, so divert the danger before the mouse reaches its rocket.",
+      "summaryUk": "Постав стрілку вгору перед запуском. Коти й миша рухаються самостійно, тому спрямуй котів в інший бік, щоб миша дісталася ракети.",
+      "playUrl": "https://dreamcastlive.net/files/manuals/ccr_manual.pdf",
+      "linkLabelEn": "Read the original Dreamcast manual",
+      "linkLabelUk": "Прочитати оригінальну інструкцію Dreamcast"
+    },
+    "GAME-0590": {
+      "titleUk": "Токійські екстремальні перегони",
+      "summaryEn": "Flash your headlights to challenge Timid Challenger on the C1 Inner Loop. Open a gap and avoid contact until the rival’s Spirit Points run out.",
+      "summaryUk": "Блимни фарами, щоб викликати Timid Challenger на внутрішньому кільці C1. Утримуй відрив і уникай зіткнень, поки суперник не втратить усі очки духу.",
+      "playUrl": "https://store.steampowered.com/app/2634950/Tokyo_Xtreme_Racer/",
+      "linkLabelEn": "View Tokyo Xtreme Racer on Steam",
+      "linkLabelUk": "Переглянути Tokyo Xtreme Racer у Steam"
+    },
+    "GAME-0591": {
+      "titleUk": "Фатальний кадр",
+      "summaryEn": "Raise Camera Obscura and keep the ghost inside the capture circle to charge each exposure. Defeat Bound Man and return through the reopened door.",
+      "summaryUk": "Підніми Camera Obscura й утримуй привида в колі захоплення, щоб зарядити знімок. Здолай Bound Man і повернися через відчинені двері.",
+      "playUrl": "https://manualmachine.com/gamesps2/fatalframe/1116589-user-manual/",
+      "linkLabelEn": "Read the original Fatal Frame manual",
+      "linkLabelUk": "Прочитати оригінальний посібник Fatal Frame"
+    },
+    "GAME-0592": {
+      "titleUk": "Підземелля Гінтерберґа",
+      "summaryEn": "Weight three plates with two carts and an intact summoned ball. Align the rails, defeat the Miner’s Widow and stamp the completed mine.",
+      "summaryUk": "Притисни три плити двома вагонетками й цілою викликаною кулею. Сумісти рейки, здолай Вдову шахтаря й постав штамп про проходження шахти.",
+      "playUrl": "https://www.xbox.com/en-US/games/store/dungeons-of-hinterberg/9PGX472J0RJP/0010",
+      "linkLabelEn": "View Dungeons of Hinterberg on Xbox",
+      "linkLabelUk": "Переглянути Dungeons of Hinterberg на Xbox"
+    },
+    "GAME-0593": {
+      "titleUk": "Легенда про Зельду: Шапка мінішів",
+      "summaryEn": "Shrink at the stump, ride a moving lily pad and eat the Jabber Nut. Hear Gentari’s briefing, then ask Festari to open the route to Deepwood Shrine.",
+      "summaryUk": "Зменшся біля пенька, переправся на листку латаття й з’їж Горіх мови. Вислухай Джентарі, а тоді попроси Фестарі відкрити шлях до Храму в гущавині.",
+      "playUrl": "https://www.nintendo.com/en-ca/explore/characters/zelda/history/",
+      "linkLabelEn": "View The Minish Cap in Nintendo’s release history",
+      "linkLabelUk": "Переглянути The Minish Cap в історії релізів Nintendo"
+    },
+    "GAME-0594": {
+      "titleUk": "Біонічна бухта",
+      "summaryEn": "Mark a crate, trade places to keep the pressure platform loaded, then use moved bodies to block beams and escape the crushing structures.",
+      "summaryUk": "Познач ящик і поміняйся з ним місцями, щоб він притиснув вагову платформу. Переставляй предмети, щоб перекривати промені й уникати падіння конструкцій.",
+      "playUrl": "https://store.playstation.com/en-us/product/EP7579-PPSA23767_00-BBAY000000000PS5",
+      "linkLabelEn": "View Bionic Bay on PlayStation",
+      "linkLabelUk": "Переглянути Bionic Bay у крамниці PlayStation"
+    },
+    "GAME-0595": {
+      "titleUk": "Лікар ритму",
+      "summaryEn": "Count six lead pulses and press on the seventh. Follow the changing rhythm, then earn a passing grade in Samurai Techno to treat the next patient.",
+      "summaryUk": "Відлічи шість вступних імпульсів і натисни на сьомій долі. Стеж за змінами ритму й отримай прохідну оцінку в Samurai Techno, щоб перейти до наступного пацієнта.",
+      "playUrl": "https://www.xbox.com/en-US/games/store/Rhythm-Doctor/9PHVMW9R92FX",
+      "linkLabelEn": "View Rhythm Doctor on Xbox",
+      "linkLabelUk": "Переглянути Rhythm Doctor на Xbox"
+    },
+    "GAME-0596": {
+      "titleUk": "Робот власної збірки",
+      "summaryEn": "Register Ray 01, aim its cube and unfold sooner with repeated inputs. Use the barriers, the gun and indirect attacks to beat Splendor and return to the lab.",
+      "summaryUk": "Зареєструй Ray 01, наведи його куб і прискор розгортання повторними натисками. Використовуй укриття, гармату й непрямі атаки, щоб здолати Splendor і повернутися до лабораторії.",
+      "playUrl": "https://www.nintendoworldreport.com/news/9569/custom-robo-hits-stores-monday",
+      "linkLabelEn": "Read Nintendo’s Custom Robo launch announcement",
+      "linkLabelUk": "Прочитати оголошення Nintendo про випуск Custom Robo"
+    },
+    "GAME-0597": {
+      "titleUk": "Качур-детектив: Привид глемпінгу",
+      "summaryEn": "Inspect the laptop and the camping flyer, confirm the crocodile’s name and fill the notebook account to reach Sunny Lakeside.",
+      "summaryUk": "Оглянь ноутбук і листівку про кемпінг, підтвердь ім’я крокодила й доповни висновок у записнику, щоб дістатися Sunny Lakeside.",
+      "playUrl": "https://www.nintendo.com/us/store/products/duck-detective-the-ghost-of-glamping-switch/",
+      "linkLabelEn": "View the game on Nintendo Switch",
+      "linkLabelUk": "Переглянути гру для Nintendo Switch"
+    },
+    "GAME-0598": {
+      "titleUk": "Ловля великоротого окуня",
+      "summaryEn": "Work a lure beside the lodge, hook a bass and land enough total weight before the Arcade timer runs out.",
+      "summaryUk": "Веди принаду біля будиночка, підсікай окуня й набери потрібну сумарну вагу улову до завершення аркадного відліку.",
+      "playUrl": "https://manualzz.com/doc/24682270/sega-bass-fishing-instruction-manual",
+      "linkLabelEn": "Read the original Sega Dreamcast manual",
+      "linkLabelUk": "Прочитати оригінальний посібник Sega для Dreamcast"
+    },
+    "GAME-0599": {
+      "titleUk": "Меч моря",
+      "summaryEn": "Learn the Hoversword’s high jump, resonate at the first red pillar and follow the restored water toward the temple.",
+      "summaryUk": "Навчися високо стрибати на мечі-дошці, виклич резонанс біля першого червоного стовпа й руш відновленою водою до храму.",
+      "playUrl": "https://store.playstation.com/en-us/concept/10011227",
+      "linkLabelEn": "View the game in PlayStation Store",
+      "linkLabelUk": "Переглянути гру в PlayStation Store"
+    },
+    "GAME-0600": {
+      "titleUk": "Вуличний баскетбол NBA 2",
+      "summaryEn": "Play three-on-three to 21. Use varied attacks to earn Gamebreakers, then spend the chance now or pocket it for a greater score swing.",
+      "summaryUk": "Зіграй три на три до 21 очка. Різноманітні атаки дають нагоду для Gamebreaker: використай її зараз або відклади заради більшого впливу на рахунок.",
+      "playUrl": "https://www.nintendoworldreport.com/pr/8180/nba-street-part-deux",
+      "linkLabelEn": "Read the original EA announcement",
+      "linkLabelUk": "Прочитати оригінальне оголошення EA"
+    },
+    "GAME-0601": {
+      "titleUk": "Касетні звірі",
+      "summaryEn": "Record a wild Dominoth onto a cassette, play its form in the same battle and earn Mothwing Glide after defeating the original.",
+      "summaryUk": "Запиши форму дикого Домінота на касету, відтвори її в тому самому бою й отримай крила для планерування після перемоги над оригіналом.",
+      "playUrl": "https://play.google.com/store/apps/details?hl=en-US&id=com.RawFury.CassetteBeasts",
+      "linkLabelEn": "View the game on Google Play",
+      "linkLabelUk": "Переглянути гру в Google Play"
+    },
+    "GAME-0602": {
+      "titleUk": "Крила пілота 64",
+      "summaryEn": "Trade speed for height, clear the weighted rings and flare onto the pad. The test scores the route, accuracy and impact separately.",
+      "summaryUk": "Обмінюй швидкість на висоту, пройди кільця й загальмуй перед посадкою. Гра окремо оцінить маршрут, точність і м’якість приземлення.",
+      "playUrl": "https://www.nintendo.com/us/whatsnew/nintendo-switch-online-expansion-pack-pilotwings-64-is-now-available/",
+      "linkLabelEn": "Read the Nintendo overview",
+      "linkLabelUk": "Переглянути огляд Nintendo"
+    },
+    "GAME-0603": {
+      "titleUk": "Світ на колесах",
+      "summaryEn": "Equip the beach wheel, follow rivals to build boost and spend it to overtake. Win two laps to earn the first reputation point.",
+      "summaryUk": "Установи колесо з пляжу, накопичуй прискорення за суперниками й витрачай його на обгін. Виграй гонку на два кола, щоб отримати перше очко репутації.",
+      "playUrl": "https://store.steampowered.com/app/1497460/Wheel_World/",
+      "linkLabelEn": "View the game on Steam",
+      "linkLabelUk": "Переглянути гру в Steam"
+    },
+    "GAME-0604": {
+      "titleUk": "Альтери",
+      "summaryEn": "Find Rapidium and fuel before sunrise. Create the Technician, repair the base with his help and begin the first journey.",
+      "summaryUk": "Знайди рапідій і пальне до світанку. Створи Техніка, відремонтуй базу за його допомогою та вируш у першу подорож.",
+      "playUrl": "https://www.xbox.com/en-us/games/store/the-alters/9N0P25WJHM8C",
+      "linkLabelEn": "View the game on Xbox",
+      "linkLabelUk": "Переглянути гру в Xbox Store"
+    },
+    "GAME-0605": {
+      "titleUk": "Ауттригер",
+      "summaryEn": "Run across the station to collect three medals in 30 seconds. Clear at the last pickup and earn extra points for the time left.",
+      "summaryUk": "Пробіжи станцією та збери три медалі за 30 секунд. Остання медаль завершує місію, а залишок часу дає додаткові очки.",
+      "playUrl": "https://www.digitpress.com/library/manuals/dreamcast/out_trigger.pdf",
+      "linkLabelEn": "Read the Sega manual",
+      "linkLabelUk": "Прочитати інструкцію Sega"
+    },
+    "GAME-0606": {
+      "titleUk": "Сеанс у маєтку Блейків",
+      "summaryEn": "Repair the telegraph to reach the office, compare two signatures and use the evidence to settle Miss Deane’s Departure.",
+      "summaryUk": "Відремонтуй телеграф, щоб потрапити до кабінету, порівняй два підписи й розкрий справу про від’їзд панни Дін.",
+      "playUrl": "https://store.steampowered.com/app/1395520/The_Seance_of_Blake_Manor/",
+      "linkLabelEn": "View the game on Steam",
+      "linkLabelUk": "Переглянути гру в Steam"
+    },
+    "GAME-0607": {
+      "titleUk": "Бешкетники",
+      "summaryEn": "Shake the held worm for an optional gem, then throw it against the arena to clear the stage.",
+      "summaryUk": "Струси схопленого черв’яка заради самоцвіту й кидай об поверхні арени, щоб пройти рівень.",
+      "playUrl": "https://device.report/m/ed59b8cfef6fe83e7df982148f70d4d3c3b2257bb5b68784cf7d151d4f3477b8.pdf",
+      "linkLabelEn": "Read the Nintendo manual",
+      "linkLabelUk": "Прочитати інструкцію Nintendo"
+    },
+    "GAME-0608": {
+      "titleUk": "Діви доси",
+      "summaryEn": "Break craving shields, cook the ordered spicy noodles and deliver a portion to help advance Port Zest’s rank.",
+      "summaryUk": "Пробий захист атаками потрібних смаків, приготуй замовлену гостру локшину й віднеси порцію, щоб підвищити ранг Порт-Зесту.",
+      "playUrl": "https://store.playstation.com/en-us/product/UP4063-PPSA31534_00-0194121456613142",
+      "linkLabelEn": "View in PlayStation Store",
+      "linkLabelUk": "Переглянути в PlayStation Store"
+    },
+    "GAME-0609": {
+      "titleUk": "Крутися, Куруріне!",
+      "summaryEn": "Time the rotating rotor through Grasslands 3, pass the Heart Zone and see your time and misses at the goal.",
+      "summaryUk": "Проведи ротор крізь вузькі проходи, минь зону відновлення й звір час і помилки на фініші «Grasslands 3».",
+      "playUrl": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/game_boy_advance_8/Manual_GameBoyAdvance_KuruKuruKururin_EN_DE_FR_ES_IT.pdf",
+      "linkLabelEn": "Read the Nintendo manual",
+      "linkLabelUk": "Прочитати інструкцію Nintendo"
+    },
+    "GAME-0610": {
+      "titleUk": "Куля й безодня",
+      "summaryEn": "Bank shots into the advancing ranks, draft a stronger build and defeat the Skeleton King to bring a gear back to town.",
+      "summaryUk": "Спрямовуй рикошети у ворожі ряди, поліпшуй спорядження й переможи Короля скелетів, щоб принести шестерню до міста.",
+      "playUrl": "https://apps.apple.com/us/app/ball-x-pit/id6738703497",
+      "linkLabelEn": "View in the App Store",
+      "linkLabelUk": "Переглянути в App Store"
+    },
+    "GAME-0611": {
+      "titleUk": "Калдсепт",
+      "summaryEn": "Build wealth from claims, land chains and tolls, then beat Ryvern back to the Castle with at least 5,000 G total magic.",
+      "summaryUk": "Захоплюй землі, складай ланцюги й отримуй мито. Повернися до замку раніше за Райверна зі щонайменше 5 000 G загальної магії.",
+      "playUrl": "https://www.culdcept.com/information/announcement/news20031208/",
+      "linkLabelEn": "Read the release announcement",
+      "linkLabelUk": "Прочитати оголошення про випуск"
+    },
+    "GAME-0612": {
+      "titleUk": "Піпістрелло та прокляте йо-йо",
+      "summaryEn": "Throw the yo-yo off its string to reach bridge switches, clear the sealed tunnel fight and enter the Safe House.",
+      "summaryUk": "Кидай йо-йо без шнурка, щоб дістати перемикачі мостів. Здолай ворогів у замкненій кімнаті й увійди до сховку.",
+      "playUrl": "https://www.nintendo.com/us/store/products/pipistrello-and-the-cursed-yoyo-switch/",
+      "linkLabelEn": "View on Nintendo eShop",
+      "linkLabelUk": "Переглянути в Nintendo eShop"
+    },
+    "GAME-0613": {
+      "titleUk": "Волоцюга",
+      "summaryEn": "Use the tarp to free the rebar, open the freight-car door and cross to the high hatch.",
+      "summaryUk": "Вивільни прут за допомогою брезенту, відчини двері вантажного вагона й дістанься верхнього люка.",
+      "playUrl": "https://store.steampowered.com/app/1170570/The_Drifter/",
+      "linkLabelEn": "View on Steam",
+      "linkLabelUk": "Переглянути в Steam"
+    },
+    "GAME-0614": {
+      "titleUk": "Кротяча манія",
+      "summaryEn": "Dig around the surface obstacles, throw the black ball into the east wall and cross the cleared edge.",
+      "summaryUk": "Прокопайся під перешкодами, кинь чорну кулю в східну перепону й перейди крізь відкритий прохід.",
+      "playUrl": "https://www.nintendo.com/en-gb/Games/Game-Boy/Mole-Mania-641354.html",
+      "linkLabelEn": "Read on Nintendo",
+      "linkLabelUk": "Прочитати на сайті Nintendo"
+    },
+    "GAME-0615": {
+      "titleUk": "Історія скейтера",
+      "summaryEn": "Do an Ollie at each of the four crests to break the obelisk and ride through the portal.",
+      "summaryUk": "Виконай оллі біля кожної з чотирьох міток, розбий обеліск і проїдь крізь портал.",
+      "playUrl": "https://store.playstation.com/en-us/product/UP3643-PPSA28801_00-0903988917779220/",
+      "linkLabelEn": "View on PlayStation Store",
+      "linkLabelUk": "Переглянути в PlayStation Store"
+    },
+    "GAME-0616": {
+      "titleUk": "Тихий підривник",
+      "summaryEn": "Clear the marked batteries, time the trigger around the guardian’s shield and reach the exit to finish Mission 01.",
+      "summaryUk": "Знищ позначені батареї, підривай заряди, коли щит охоронця зникає, і дістанься виходу, щоб завершити першу місію.",
+      "playUrl": "https://www.cc2.co.jp/silentbomber/",
+      "linkLabelEn": "Read on CyberConnect2",
+      "linkLabelUk": "Прочитати на сайті CyberConnect2"
+    },
+    "GAME-0617": {
+      "titleUk": "Дивні старожитності",
+      "summaryEn": "Compare the tooth with the Hunter’s Boon clues, offer it to Thomas Pope and receive the Selenic Totem page.",
+      "summaryUk": "Зістав зуб із підказками про Дар мисливця, запропонуй його Томасу Поупу й отримай сторінку про Місячний тотем.",
+      "playUrl": "https://www.nintendo.com/us/store/products/strange-antiquities-switch/",
+      "linkLabelEn": "View on Nintendo eShop",
+      "linkLabelUk": "Переглянути в Nintendo eShop"
+    },
+    "GAME-0618": {
+      "titleUk": "Сили світла III",
+      "summaryEn": "Confirm each active ally’s position before acting, defeat every required monk and resume town movement after the first Saraband battle.",
+      "summaryUk": "Підтвердь позицію активного союзника перед дією, здолай усіх потрібних ченців і повернися до руху містом після першого бою в Сарабанді.",
+      "playUrl": "https://bdjogos.com.br/manuais/420-shining-force-iii-sega-saturn-manual-usa.pdf",
+      "linkLabelEn": "Read the Sega manual",
+      "linkLabelUk": "Прочитати посібник Sega"
+    },
+    "GAME-0619": {
+      "titleUk": "Донкі Конґ Бананза",
+      "summaryEn": "Punch through the mine floor, descend into Ancient Cave and unearth and break the third gem on the first Ingot Isle visit.",
+      "summaryUk": "Пробий підлогу шахти, спустися до Давньої печери й розкопай та розбий третій самоцвіт першого відвідання Острова Злитків.",
+      "playUrl": "https://www.nintendo.com/us/store/products/donkey-kong-bananza-switch-2/",
+      "linkLabelEn": "View on Nintendo eShop",
+      "linkLabelUk": "Переглянути в Nintendo eShop"
+    },
+    "GAME-0620": {
+      "titleUk": "Інопланетний солдат",
+      "summaryEn": "Switch between separately recovering weapons and line up a shot or a health-powered dash to defeat Jetsripper in Stage 01.",
+      "summaryUk": "Перемикай зброю з окремим відновленням запасів і вибирай напрямок пострілу чи ривка за рахунок здоров’я, щоб здолати Джетсріпера на етапі 01.",
+      "playUrl": "https://www.sega.jp/mdmini2/assets/manual/pdf/JP_Alien-Soldier.pdf",
+      "linkLabelEn": "Read the Japanese Sega manual",
+      "linkLabelUk": "Прочитати японський посібник Sega"
+    },
+    "GAME-0621": {
+      "titleUk": "Перегони Соніка: між світами",
+      "summaryEn": "Follow the leading racer’s portal into Dinosaur Jungle, finish the altered E-Stadium return and collect points for your place.",
+      "summaryUk": "Проїдь крізь обраний лідером портал до Джунглів динозаврів, заверши змінене коло Е-стадіону й отримай очки за своє місце.",
+      "playUrl": "https://www.xbox.com/en-US/games/store/p/9NJZSFP2ZNVK",
+      "linkLabelEn": "View on the Xbox Store",
+      "linkLabelUk": "Переглянути в крамниці Xbox"
+    },
+    "GAME-0622": {
+      "titleUk": "Бур Пеппер",
+      "summaryEn": "Drill through soft ground, boost before emerging across a gap and raise the finish flag in Lost Claim to unlock Wellspring Canyon.",
+      "summaryUk": "Пробури м’який ґрунт, прискорся перед вильотом через розрив і підніми прапор на Втраченій ділянці, щоб відкрити Каньйон джерел.",
+      "playUrl": "https://www.nintendo.com/us/store/products/pepper-grinder-switch/",
+      "linkLabelEn": "View on Nintendo eShop",
+      "linkLabelUk": "Переглянути в Nintendo eShop"
+    },
+    "GAME-0623": {
+      "titleUk": "Синя блискавка",
+      "summaryEn": "Steer through Dog Fight, time the afterburner and finish the automatic landing to reveal the PLAN code.",
+      "summaryUk": "Керуй літаком у Повітряному бою, вчасно вмикай форсаж і дочекайся автоматичної посадки, щоб побачити код PLAN.",
+      "playUrl": "https://atariage.com/manual_html_page.php?SoftwareID=2411&SystemID=LYNX&itemTypeID=HTMLMANUAL",
+      "linkLabelEn": "Read the Atari manual",
+      "linkLabelUk": "Прочитати інструкцію Atari"
+    },
+    "GAME-0624": {
+      "titleUk": "Вбивця раю",
+      "summaryEn": "Receive Henry’s reference sample separately from the dated account in Starlight, then continue the open investigation.",
+      "summaryUk": "Отримай зразок крові Генрі, окремо прочитай хронологію у Starlight і продовж розслідування.",
+      "playUrl": "https://store.playstation.com/en-gb/product/EP5661-PPSA04459_00-5766379953570371",
+      "linkLabelEn": "View on PlayStation Store",
+      "linkLabelUk": "Переглянути в PlayStation Store"
+    },
+    "GAME-0625": {
+      "titleUk": "Ніндзя Ґайден: Меч дракона",
+      "summaryEn": "Use the stylus for movement and sword strokes in the opening spar. When the story ends the bout, proceed along the forest path.",
+      "summaryUk": "Керуй рухом і ударами меча за допомогою стилуса. Коли спаринг завершиться сюжетною сценою, продовж шлях лісом.",
+      "playUrl": "https://www.nintendoworldreport.com/pr/15608/tecmo-ships-ninja-gaiden-dragon-sword-for-ds",
+      "linkLabelEn": "Read Tecmo’s release announcement",
+      "linkLabelUk": "Прочитати повідомлення Tecmo про вихід гри"
+    },
+    "GAME-0626": {
+      "titleUk": "Фуга: Мелодії сталі",
+      "summaryEn": "Read the turn order and match the active weapon to the enemy’s exposed mark. Clear the first tank battle, read its graded result and continue to the route.",
+      "summaryUk": "Звір чергу ходів і влуч зброєю, що відповідає позначці вразливості ворога. Заверши перший бій, переглянь оцінку й продовж рух маршрутом.",
+      "playUrl": "https://www.xbox.com/en-us/games/store/Fuga-Melodies-of-Steel/9NLX3GWW0HF1",
+      "linkLabelEn": "View on Xbox Store",
+      "linkLabelUk": "Переглянути в крамниці Xbox"
+    },
+    "GAME-0627": {
+      "titleUk": "Сімка вбивць",
+      "summaryEn": "Follow the path, stop to reveal the first concealed enemy and resume corridor movement after resolving the encounter.",
+      "summaryUk": "Іди коридором, зупинися, щоб виявити першого замаскованого ворога, і рушай далі після сутички.",
+      "playUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-GameCube/Killer-7-268203.html",
+      "linkLabelEn": "See the GameCube edition on Nintendo",
+      "linkLabelUk": "Переглянути видання для GameCube на сайті Nintendo"
+    },
+    "GAME-0628": {
+      "titleUk": "Їдь далі",
+      "summaryEn": "Align skill symbols with the threats behind the first tractor, then resume travel once the strip is clear.",
+      "summaryUk": "Сумісти символи навичок із загрозами в першій події з трактором. Прибери їх усі й продовж поїздку.",
+      "playUrl": "https://store.steampowered.com/app/2756920/Keep_Driving/",
+      "linkLabelEn": "View the Windows edition on Steam",
+      "linkLabelUk": "Переглянути версію для Windows у Steam"
+    },
+    "GAME-0629": {
+      "titleUk": "Темна хмара",
+      "summaryEn": "Open an Atla below ground, then place Paige’s House and fit the recovered wheel in Norune’s Georama.",
+      "summaryUk": "Відкрий Атлу в печері. У Георамі Норуна розмісти будинок Пейдж і встанови знайдене колесо.",
+      "playUrl": "https://sony.mediaroom.com/index.php?item=125695&s=2429",
+      "linkLabelEn": "Read Sony’s original PlayStation 2 announcement",
+      "linkLabelUk": "Переглянути анонс Sony для PlayStation 2"
+    },
+    "GAME-0630": {
+      "titleUk": "Гносія",
+      "summaryEn": "Read the first shipboard debate, cast your ballot and check which roles the Day 2 report reveals.",
+      "summaryUk": "Простеж перше обговорення на кораблі, подай голос і перевір, чиї ролі розкриває підсумок другого дня.",
+      "playUrl": "https://blog.ja.playstation.com/2019/06/21/20190621-new-soft/",
+      "linkLabelEn": "Read the Japanese PS Vita release listing",
+      "linkLabelUk": "Переглянути японський випуск для PlayStation Vita"
+    },
+    "GAME-0631": {
+      "titleUk": "Футбольна метушня",
+      "summaryEn": "Kick the loose ball around the schoolyard, take a return pass and see how recess gives way to the trip home.",
+      "summaryUk": "Відбий м’яч на шкільному подвір’ї, прийми пас у відповідь і простеж, як після перерви починається поїздка додому.",
+      "playUrl": "https://store.playstation.com/en-us/product/UP3971-PPSA15428_00-0434180303206305",
+      "linkLabelEn": "View the PlayStation 5 edition",
+      "linkLabelUk": "Переглянути видання для PlayStation 5"
+    },
+    "GAME-0632": {
+      "titleUk": "Зоряні війни. Епізод I: Перегони на болідах",
+      "summaryEn": "Arm boost, watch engine heat and finish The Boonta Training Course high enough to open Mon Gazza Speedway.",
+      "summaryUk": "Підготуй форсаж, стеж за перегрівом і фінішуй на The Boonta Training Course не нижче четвертого місця, щоб відкрити Mon Gazza Speedway.",
+      "playUrl": "https://www.starwars.com/news/star-wars-episode-i-racer-legacy",
+      "linkLabelEn": "Read Lucasfilm’s history of the Nintendo 64 original",
+      "linkLabelUk": "Прочитати історію оригіналу для Nintendo 64 від Lucasfilm"
+    },
+    "GAME-0633": {
+      "titleUk": "Зграя",
+      "summaryEn": "Identify your first Basking Bewl, find the right whistle and sing at the marked distance to add it to your flock.",
+      "summaryUk": "Упізнай першого Basking Bewl, знайди потрібний свисток і заспівай на позначеній відстані, щоб він приєднався до зграї.",
+      "playUrl": "https://www.xbox.com/en-US/games/store/flock/9n6dgnbpnrnn",
+      "linkLabelEn": "View the Xbox Series X|S edition",
+      "linkLabelUk": "Переглянути видання для Xbox Series X|S"
+    },
+    "GAME-0634": {
+      "titleUk": "Самба де Аміґо",
+      "summaryEn": "Match shakes to arriving cues and hold the shown poses to carry a passing rank into the next song.",
+      "summaryUk": "Струшуй маракаси за позначками й утримуй показані пози, щоб із прохідним рангом перейти до наступного треку.",
+      "playUrl": "https://www.digitpress.com/library/manuals/dreamcast/samba_de_amigo.pdf",
+      "linkLabelEn": "Read the original Dreamcast manual",
+      "linkLabelUk": "Прочитати оригінальну інструкцію для Dreamcast"
+    },
+    "GAME-0635": {
+      "titleUk": "Опір ×1000",
+      "summaryEn": "Find the rooftop memory that opens an earlier school period, then switch between both views of the school.",
+      "summaryUk": "Знайди на даху спогад, що відкриє раніший період школи, а потім переходь між двома її станами.",
+      "playUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/1000xRESIST-2561116.html?nsuid=70010000059157",
+      "linkLabelEn": "View the Nintendo Switch edition",
+      "linkLabelUk": "Переглянути видання для Nintendo Switch"
+    },
+    "GAME-0636": {
+      "titleUk": "Розкопки",
+      "summaryEn": "Prepare two sites on Attila using inventory items, then report to the crew and verify the new passage.",
+      "summaryUk": "Підготуй дві ділянки на Аттілі предметами з інвентарю, доповіж екіпажу й перевір, чи відкрився новий прохід.",
+      "playUrl": "https://retrotecharchive.omeka.net/items/show/4",
+      "linkLabelEn": "View the original DOS edition record",
+      "linkLabelUk": "Переглянути запис про оригінальне видання для DOS"
+    },
+    "GAME-0637": {
+      "titleUk": "Маленька галявина",
+      "summaryEn": "Draw a wall and paint a path across its base to open it. Edit the path footprint to change the arch.",
+      "summaryUk": "Проведи стіну й проклади стежку крізь її основу, щоб утворити прохід. Зміни ділянку стежки, щоб змінити арку.",
+      "playUrl": "https://store.steampowered.com/app/2198150/Tiny_Glade/",
+      "linkLabelEn": "View the Windows Steam edition",
+      "linkLabelUk": "Переглянути видання для Windows у Steam"
+    },
+    "GAME-0638": {
+      "titleUk": "Лемінги 2: Племена",
+      "summaryEn": "Assign timed skills to a moving crowd, turn an aimed rope into a shared route and take the rescued lemmings into the next level.",
+      "summaryUk": "Призначай навички лемінгам на ходу, проклади спільний перехід мотузкою й переведи врятованих на наступний рівень.",
+      "playUrl": "https://www.computinghistory.org.uk/det/53284/Lemmings-2-The-Tribes/",
+      "linkLabelEn": "View the original Amiga edition record",
+      "linkLabelUk": "Переглянути запис про оригінальне видання для Amiga"
+    },
+    "GAME-0639": {
+      "titleUk": "Ролердром",
+      "summaryEn": "Run the pistols dry, refill them with tricks and clear Matterhorn Arena before skating into Pike’s Canyon.",
+      "summaryUk": "Витрать набої й поповни їх трюками, заверши арену Matterhorn і в’їдь у Пайкс-Каньйон.",
+      "playUrl": "https://store.playstation.com/en-gb/product/EP4829-CUSA34254_00-ROLLERDROME00000",
+      "linkLabelEn": "View the PlayStation 4 edition",
+      "linkLabelUk": "Переглянути видання для PlayStation 4"
+    },
+    "GAME-0640": {
+      "titleUk": "Вежа піци",
+      "summaryEn": "Build speed through John Gutter, break Pillar John and race back through changed passages to the original entrance. Your points give you a letter rank when you get out.",
+      "summaryUk": "Розженися в John Gutter, зруйнуй колону Pillar John і біжи зміненими проходами до початкових дверей. На виході набрані очки визначать літерний ранг.",
+      "playUrl": "https://store.steampowered.com/app/2231450/Pizza_Tower/",
+      "linkLabelEn": "View the Windows Steam edition",
+      "linkLabelUk": "Переглянути видання для Windows у Steam"
+    },
+    "GAME-0641": {
+      "titleUk": "Клинок бусідо",
+      "summaryEn": "Choose Utsusemi and his weapon, then read stance and weapon contact against Tatsumi. A decisive hit settles the bout and leads to a new opponent.",
+      "summaryUk": "Обери Уцусемі та його зброю. У двобої з Тацумі стеж за стійкою та зіткненнями зброї. Вирішальне влучання завершує двобій, після чого з’являється інша суперниця.",
+      "playUrl": "https://psxdatacenter.com/games/U/B/SCUS-94180.html",
+      "linkLabelEn": "View the original PlayStation edition record",
+      "linkLabelUk": "Переглянути запис про оригінальне видання для PlayStation"
+    },
+    "GAME-0642": {
+      "titleUk": "Венба",
+      "summaryEn": "Use a damaged recipe to prepare and turn the idli plates so steam reaches the upper layers. Open the cooker to check the result. The successful dish leads to a family conversation.",
+      "summaryUk": "За пошкодженим рецептом підготуй і поверни форми для ідлі, щоб пара дісталася верхніх ярусів. Відкрий пароварку й перевір результат. Після вдалої спроби почнеться сімейна розмова.",
+      "playUrl": "https://www.xbox.com/en-ca/games/store/venba/9p5p55s7hb9s",
+      "linkLabelEn": "View the Xbox Series X|S edition",
+      "linkLabelUk": "Переглянути видання для Xbox Series X|S"
+    },
+    "GAME-0643": {
+      "titleUk": "Пригоди ракетного лицаря",
+      "summaryEn": "Charge the rocket pack and choose a direction when you release attack. Rebound up castle shafts, strike the boss when its head appears and read the two bonuses before the mountain stage.",
+      "summaryUk": "Заряди ракетний ранець і спрямуй ривок, коли відпускаєш кнопку атаки. Піднімайся шахтами замку, відбиваючись від стін, і бий боса, коли з’являється його голова. Перед гірським етапом гра підрахує два бонуси.",
+      "playUrl": "https://www.cgcvideogames.com/en-US/cert-lookup/results?certNumber=1012535007",
+      "linkLabelEn": "View the original Genesis edition record",
+      "linkLabelUk": "Переглянути запис про оригінальне видання для Sega Genesis"
+    },
+    "GAME-0644": {
+      "titleUk": "Що за машина?",
+      "summaryEn": "Steer a running car and time the spring jump from the speed pads to the far deck. Finish to see your crown and return to the map for the next race.",
+      "summaryUk": "Кермуй машиною, що біжить, і вчасно стрибни зі смуги розгону на дальню ділянку дороги. На фініші отримай корону й повернися на мапу, щоб обрати наступний заїзд.",
+      "playUrl": "https://apps.apple.com/gb/app/what-the-car/id1534708672",
+      "linkLabelEn": "View the iPhone Apple Arcade edition",
+      "linkLabelUk": "Переглянути видання для iPhone в Apple Arcade"
+    },
+    "GAME-0645": {
+      "titleUk": "Країна Варіо 3",
+      "summaryEn": "Climb to the gray key and take it to the matching chest. The axe clears a tree from the map and opens two new stages.",
+      "summaryUk": "Дістанься сірого ключа й відкрий ним відповідну скриню. Знайдена сокира прибирає дерево з мапи та відкриває два нові рівні.",
+      "playUrl": "https://gbhwdb.gekkio.fi/cartridges/CGB-AW8A-0/comrade-claire-1.html",
+      "linkLabelEn": "View the original Game Boy Color cartridge record",
+      "linkLabelUk": "Переглянути запис про оригінальний картридж Game Boy Color"
+    },
+    "GAME-0646": {
+      "titleUk": "Кам’яний тур",
+      "summaryEn": "Place one hand or foot at a time on the fractured gray wall. Time a piton press, then reach the upper terrace and keep walking.",
+      "summaryUk": "Переставляй по одній руці або нозі на розколотій сірій стіні. Вчасно встанови гак, виберися на верхню терасу й рушай далі пішки.",
+      "playUrl": "https://store.playstation.com/en-us/product/EP0771-PPSA28769_00-CAIRNGAMESTNOV25/",
+      "linkLabelEn": "View the PS5 Standard Edition in PlayStation Store",
+      "linkLabelUk": "Переглянути стандартне видання для PS5 у PlayStation Store"
+    },
+    "GAME-0647": {
+      "titleUk": "Панцер Драгун: Сага",
+      "summaryEn": "Choose a sector around the Pattergo formation. Hold position to charge an attack, then clear the fight and resume flight.",
+      "summaryUk": "Обери сектор навколо групи Pattergo. Утримуй позицію, щоб зарядити атаку, а після перемоги продовж політ.",
+      "playUrl": "https://redump.info/disc/20344",
+      "linkLabelEn": "View the original North American Sega Saturn disc record",
+      "linkLabelUk": "Переглянути запис про оригінальний північноамериканський диск Sega Saturn"
+    },
+    "GAME-0648": {
+      "titleUk": "Добре, що ти тут!",
+      "summaryEn": "Slap the red mower to start. Mow across the lawn in passes that move closer to the flowers, then return to exploring the park.",
+      "summaryUk": "Дай ляпаса червоній косарці, щоб почати. Коси газон смугами, з кожним проходом наближайся до квіток, а тоді знову досліджуй парк.",
+      "playUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Thank-Goodness-You-re-Here--2604294.html",
+      "linkLabelEn": "View the Nintendo Switch release in Nintendo eShop",
+      "linkLabelUk": "Переглянути видання для Nintendo Switch у Nintendo eShop"
+    },
+    "GAME-0649": {
+      "titleUk": "Герцогство з блоків",
+      "summaryEn": "Drop buildings beside the right terrain to raise troops. Fill rows for resources, then choose how both sides enter the fight.",
+      "summaryUk": "Скидай будівлі поруч із потрібною місцевістю, щоб набрати військо. Заповнюй ряди заради ресурсів, а тоді обери, у якому порядку загони обох сторін увійдуть у бій.",
+      "playUrl": "https://store.steampowered.com/app/2525310/Drop_Duchy/",
+      "linkLabelEn": "View the Windows release on Steam",
+      "linkLabelUk": "Переглянути видання для Windows у Steam"
+    },
+    "GAME-0650": {
+      "titleUk": "Одноручник",
+      "summaryEn": "Line up a shot on the carrier’s core, keep its weapon intact, then fit it in flight. Read each gunpod’s reserve as you fire through the city.",
+      "summaryUk": "Поціль у ядро носія, збережи його зброю цілою і встанови її просто в польоті. Стеж за боєзапасом кожного модуля в боях над містом.",
+      "playUrl": "https://www.videogamemanual.com/ps1/Einhaender%20%28USA%29.pdf",
+      "linkLabelEn": "Read the original PlayStation manual",
+      "linkLabelUk": "Прочитати оригінальну інструкцію для PlayStation"
+    },
+    "GAME-0651": {
+      "titleUk": "Хоробрий зброєносець",
+      "summaryEn": "Take one word out of the book and bring it back through another portal. Fill the moat to reach the lever, then drain it to find the word that opens the gate.",
+      "summaryUk": "Винеси слово з книжки й повернися з ним крізь інший портал. Наповни рів, щоб дістатися важеля, а тоді осуши його, щоб знайти слово, яке відчиняє браму.",
+      "playUrl": "https://www.playstation.com/en-us/games/the-plucky-squire/",
+      "linkLabelEn": "View the PlayStation 5 release",
+      "linkLabelUk": "Переглянути видання для PlayStation 5"
+    },
+    "GAME-0652": {
+      "titleUk": "Мегамен: Бойова мережа",
+      "summaryEn": "Give up the first chip choice and fight with the Buster until the gauge refills. Pick from ten chips, then use the one you sent while you dodge across your own panels.",
+      "summaryUk": "Відклади перший вибір чипів і бийся з бластером, поки заповнюється шкала. Обери з десяти чипів і застосуй переданий чип, ухиляючись на клітинах свого боку.",
+      "playUrl": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/game_boy_advance_8/Manual_GameBoyAdvance_MegaManBattleNetwork_EN_DE_FR_ES_IT.pdf",
+      "linkLabelEn": "Read the original European Game Boy Advance manual",
+      "linkLabelUk": "Прочитати оригінальну європейську інструкцію для Game Boy Advance"
+    },
+    "GAME-0653": {
+      "titleUk": "Тихе місце: Дорога вперед",
+      "summaryEn": "Watch the creature pass between the parked cars. Pick quieter footing, use the inhaler if needed, and head for the green-lit door to reach the woods.",
+      "summaryUk": "Пропусти істоту між припаркованими автівками. Іди там, де кроки тихіші, за потреби скористайся інгалятором і рушай до дверей під зеленим світлом. За ними шлях до лісу.",
+      "playUrl": "https://www.xbox.com/en-US/games/store/a-quiet-place-the-road-ahead/9nzlpg7p5kss",
+      "linkLabelEn": "View the Xbox Series X|S release",
+      "linkLabelUk": "Переглянути видання для Xbox Series X|S"
+    },
+    "GAME-0654": {
+      "titleUk": "Готель «Сутінки»: номер 215",
+      "summaryEn": "Follow up with the girl on the stairs, rotate the five loose pieces into place, then take the fragment she drops and examine its marked reverse.",
+      "summaryUk": "Постав дівчинці на сходах уточнювальне запитання. Поверни й встав п’ять вільних деталей. Потім підніми загублену деталь і роздивись позначку на звороті.",
+      "playUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-DS/Hotel-Dusk-Room-215-271089.html",
+      "linkLabelEn": "View the original Nintendo DS release",
+      "linkLabelUk": "Переглянути оригінальне видання для Nintendo DS"
+    },
+    "GAME-0655": {
+      "titleUk": "Кірбі: Повітряні перегони",
+      "summaryEn": "Steer a self-propelled Warp Star around Floria Fields. Hold the brake to charge your burst, release at the turn exit, and race five rivals to the end of lap three.",
+      "summaryUk": "Спрямуй Warp Star трасою Floria Fields. Утримуй гальмо для заряду й відпусти на виході з повороту. Змагайся з п’ятьма суперниками до кінця третього кола.",
+      "playUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Kirby-Air-Riders-2785805.html",
+      "linkLabelEn": "View the Nintendo Switch 2 release",
+      "linkLabelUk": "Переглянути видання для Nintendo Switch 2"
+    },
+    "GAME-0656": {
+      "titleUk": "Дельфін Екко: Захисник майбутнього",
+      "summaryEn": "Surface for air, use sonar to find the trapped calf, and lead two dolphins to the rockfall. Return to the mother so she can open the passage under the waterfall.",
+      "summaryUk": "Спливи по повітря, знайди китеня за допомогою сонара й приведи до завалу двох дельфінів. Повернися до матері, щоб вона відкрила прохід під водоспадом.",
+      "playUrl": "https://www.sega.jp/fb/album/11_ecco/story.html",
+      "linkLabelEn": "View Sega’s series history",
+      "linkLabelUk": "Переглянути історію серії від Sega"
+    },
+    "GAME-0657": {
+      "titleUk": "Підрив веж",
+      "summaryEn": "Rotate the view, swap blue for yellow and shoot the yellow patch on Level 2. The falling blocks expose new targets. Clear the stack to open Level 3.",
+      "summaryUk": "Поверни огляд, поміняй синю кулю з жовтою й влуч у жовті блоки другого рівня. Після падіння відкриються нові цілі. Розбери вежу, щоб перейти до третього рівня.",
+      "playUrl": "https://apps.apple.com/us/app/spire-blast/id1532717034",
+      "linkLabelEn": "View Spire Blast on the App Store",
+      "linkLabelUk": "Переглянути Spire Blast в App Store"
+    },
+    "GAME-0658": {
+      "titleUk": "Володар єдинорогів",
+      "summaryEn": "Form front and back rows and send your units toward Ouvrir Harbor. Read predicted damage before you choose who fights, then defeat Aubin to clear the stage.",
+      "summaryUk": "Розстав бійців у передньому й задньому рядах і спрямуй загони до гавані Уврір (Ouvrir Harbor). Перевір прогноз шкоди перед вибором загону для бою. Здолай О́біна, щоб завершити етап.",
+      "playUrl": "https://www.nintendo.com/us/store/products/unicorn-overlord-switch/",
+      "linkLabelEn": "View the Nintendo Switch release",
+      "linkLabelUk": "Переглянути видання для Nintendo Switch"
+    },
+    "GAME-0659": {
+      "titleUk": "Рістар",
+      "summaryEn": "Grab overhead rungs and the snake’s exposed head in Flora. Spin on the ordinary exit handle, release for a height bonus and continue into Dark Woods.",
+      "summaryUk": "На Флорі хапайся за перекладини над героєм і лови змію за голову, коли вона показується з отвору. Розкрутися на звичайній вихідній рукоятці, відпусти її, отримай бонус за висоту й вирушай до Темного лісу.",
+      "playUrl": "https://www.sega.jp/genesismini2/assets/manual/pdf/US_Ristar.pdf",
+      "linkLabelEn": "Read the original Sega Genesis booklet",
+      "linkLabelUk": "Читати оригінальну інструкцію Sega Genesis"
+    },
+    "GAME-0660": {
+      "titleUk": "Руттрі мертві",
+      "summaryEn": "Take portraits from one group photo and search the fictional web for clues. Match each sister’s name, job and face to her place in the tree. The first three correct cards lock together.",
+      "summaryUk": "Додай портрети з групової світлини й пошукай підказки у вигаданому інтернеті. Зістав ім’я, заняття й обличчя кожної сестри з її місцем у дереві. Перші три правильні картки підтвердяться разом.",
+      "playUrl": "https://store.steampowered.com/app/2754380/The_Roottrees_are_Dead/",
+      "linkLabelEn": "Open the Windows Steam release",
+      "linkLabelUk": "Відкрити видання для Windows у Steam"
+    },
+    "GAME-0661": {
+      "titleUk": "Крила пілота",
+      "summaryEn": "Follow a green guide toward the runway. After the wheels touch, brake to a full stop. The game scores where you touch down and where you stop.",
+      "summaryUk": "Заходь на посадку за зеленим променем. Коли колеса торкнуться смуги, загальмуй до повної зупинки. Гра оцінює, де ти торкнувся смуги й де зупинився.",
+      "playUrl": "https://www.nintendo.com/us/store/products/super-nintendo-entertainment-system-nintendo-classics-switch/",
+      "linkLabelEn": "Find Pilotwings in Nintendo Classics",
+      "linkLabelUk": "Знайти Pilotwings у каталозі Nintendo Classics"
+    },
+    "GAME-0662": {
+      "titleUk": "Бетмен: Тінь Аркгема",
+      "summaryEn": "Enter the first hostage room from above. Follow the current target’s strike prompts and react to incoming attacks. After the fight, cut one rope to free both officers.",
+      "summaryUk": "Спустися згори в перший зал із заручниками. Виконуй підказані удари по поточній цілі й реагуй на вхідні атаки. Після бою переріж одну мотузку, щоб звільнити обох поліцейських.",
+      "playUrl": "https://www.meta.com/experiences/batman-arkham-shadow/3551691271620960/",
+      "linkLabelEn": "Open the Meta Horizon Store release",
+      "linkLabelUk": "Відкрити гру в Meta Horizon Store"
+    },
+    "GAME-0663": {
+      "titleUk": "Гітару-мен",
+      "summaryEn": "Follow the line with the stick and time your strum. Switch to matching the symbols in Guard. Beat Panpeus while keeping your power to reach the next song.",
+      "summaryUk": "Веди стіком за лінією й вчасно грай фрази. У захисті натискай кнопки за символами. Переможи Панпеуса й збережи запас сили, щоб перейти до наступної пісні.",
+      "playUrl": "https://store.playstation.com/en-us/product/JP0106-PPSA34548_00-GITAROOMAN000000",
+      "linkLabelEn": "See the PS4 and PS5 port",
+      "linkLabelUk": "Переглянути порт для PS4 і PS5"
+    },
+    "GAME-0664": {
+      "titleUk": "Підземелля кубиків",
+      "summaryEn": "Put each rolled die into equipment that accepts its value. Turn a three into a four to power the axe, then defeat Marshmallow and choose a level reward.",
+      "summaryUk": "Вкладай кубики у спорядження, якому підходить їхнє значення. Перетвори трійку на четвірку для сокири, переможи Маршмелоу й вибери нагороду за рівень.",
+      "playUrl": "https://play.google.com/store/apps/details?id=com.terrycavanaghgames.diceydungeons",
+      "linkLabelEn": "Get it on Google Play",
+      "linkLabelUk": "Переглянути в Google Play"
+    },
+    "GAME-0665": {
+      "titleUk": "Світовий футбол Sega ’97",
+      "summaryEn": "Move the marked footballer and choose a pass, shot or challenge as possession changes. Play both halves and decide what to keep for the next match.",
+      "summaryUk": "Керуй позначеним футболістом і обирай передачу, удар чи відбір залежно від володіння м’ячем. Зіграй обидва тайми й виріши, які налаштування перенести в наступний матч.",
+      "playUrl": "https://archive.org/download/SEGASaturnManuals_201812/Sega%20Worldwide%20Soccer%20%2797%20%28USA%29.pdf",
+      "linkLabelEn": "Read the North American manual",
+      "linkLabelUk": "Читати північноамериканську інструкцію"
+    },
+    "GAME-0666": {
+      "titleUk": "Чікорі: Барвиста історія",
+      "summaryEn": "Paint the lower mushroom from the right shelf. Step into the grown cap, land on the left and walk into the next clearing.",
+      "summaryUk": "Зафарбуй нижній гриб із правого уступу. Ступи на збільшену шапинку, приземлися ліворуч і вийди на наступну галявину.",
+      "playUrl": "https://www.xbox.com/en-US/games/store/p/9PFGQGC0XWLV",
+      "linkLabelEn": "View on the Xbox Store",
+      "linkLabelUk": "Переглянути в крамниці Xbox"
     }
   }
 }

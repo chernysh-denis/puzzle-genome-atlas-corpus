@@ -169,6 +169,10 @@
       "name": "MeeGo",
       "shortName": "MeeGo"
     },
+    "PLAT-META-QUEST": {
+      "name": "Meta Quest",
+      "shortName": "Quest"
+    },
     "PLAT-MOBILE-CROSS-PLATFORM": {
       "name": "Кросплатформна мобільна система",
       "shortName": "Мобільна система"

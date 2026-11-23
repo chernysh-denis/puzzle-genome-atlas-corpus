@@ -1,5 +1,1487 @@
 # Information Genes
 
+## INF-612 — Expose current dice, equipment predicates and live combat states
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Present the available rolled faces beside socket predicates, effects and remaining uses, and show current health and status on each side to inform the next allocation.
+- Includes: Reading the current even and upper-bound requirements, remaining rerolls, the marked die and the two health indicators.
+- Excludes: Previewing unknown future rolls, exposing a guaranteed enemy command before its roll, and showing a final numeric combat report alone.
+- Parameters: exposed faces, visible card predicates and counts, marked dice, both health readings and device layout.
+- Evidence: [Dicey Dungeons decomposition](../games/a-f/dicey-dungeons.md), DD-002–DD-005. Mobile reference footage and the cited equipment, status or progression evidence support this boundary. The exact Android executable was not measured.
+- Novelty: first isolated for `GAME-0664`. See [TAXONOMY_CHANGE_410](../../research/taxonomy-changes/TAXONOMY_CHANGE_410.md). No external novelty claim.
+
+## INF-611 — Show a shared timing point with phase-specific angular and symbolic cues
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: One interface marks the current chart role and a common judgement point. Phrase play exposes an analog sector and trace with timed bars, while Guard exposes distinct approaching symbols. Two gauges show current player and opponent power.
+- Includes: Read the central blue point, angular sector and phrase bars in Charge, then the converging face-button symbols in Guard without losing sight of the two gauges.
+- Excludes: A fixed set of parallel fret lanes, an audio-only beat cue, a tutorial disconnected from live events, or a terminal accuracy summary.
+- Parameters: Current role indicator, judgement point, trace, analog sector, guard symbols, approach directions and two gauges.
+- Evidence: [Gitaroo Man decomposition](../games/g-l/gitaroo-man.md), GM-002, GM-003, GM-005. The printed North American booklet and two recorded PS2 routes support this boundary. Exact controller sampling and executable revision were not measured.
+- Novelty: first isolated for `GAME-0663`. See [TAXONOMY_CHANGE_409](../../research/taxonomy-changes/TAXONOMY_CHANGE_409.md). No external novelty claim.
+
+## INF-610 — Show the required next strike pattern on the active opponent
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The in-world cue marks the active opponent with a direction or remaining count for the next part of a gesture string. Updating the cue makes accepted local progress visible without identifying future threats outside the current target.
+- Includes: Follow the chevrons or the numbered circles over a sewer opponent. A remaining count can decrement as strikes are accepted.
+- Excludes: A global longest-combo counter, a counter warning from another attacker, an unlinked tutorial instruction or a permanent target tag.
+- Parameters: Active opponent, displayed direction or count, cue location, acceptance and visual update.
+- Evidence: [Batman: Arkham Shadow decomposition](../games/a-f/batman-arkham-shadow.md), AS-004, AS-005. The attributed commercial recordings and Camouflaj design material support the recorded boundary. The headset binaries and exact controller telemetry were not verified.
+- Novelty: first isolated for `GAME-0662`. See [TAXONOMY_CHANGE_408](../../research/taxonomy-changes/TAXONOMY_CHANGE_408.md). No external novelty claim.
+
+## INF-609 — Show a world-space glide path and enlarge the final height scale
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The approach view marks a suggested descent toward the runway in world space. As the aircraft gets low, a ground-relative height scale appears and changes magnification near touchdown without controlling the aircraft.
+- Includes: Follow the green guide in Flight Area 1. Below the documented display thresholds, check first the ordinary and then the enlarged scale at the right edge.
+- Excludes: A compulsory ring sequence, a landing radar without suggested approach geometry, a fixed altitude readout and an automatic glide-slope controller.
+- Parameters: Suggested path, world-space marker, runway, scale visibility threshold, scale change threshold and aircraft height.
+- Evidence: [Pilotwings decomposition](../games/m-r/pilotwings.md), PL-003, PL-005. The original US booklet and two attributed traces support the rule. Neither recorded cartridge was independently matched to a revision.
+- Novelty: first isolated for `GAME-0661`. See [TAXONOMY_CHANGE_407](../../research/taxonomy-changes/TAXONOMY_CHANGE_407.md). No external novelty claim.
+
+## INF-608 — Expose sibling birth rank before sibling identities are established
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Display sibling slots in a declared oldest-to-youngest order while their occupants remain to be identified. Position contributes a relation that evidence can constrain without disclosing a name or portrait for that position.
+- Includes: The opening board labels the three unidentified Roottree sisters’ positions from oldest on the left to youngest on the right.
+- Excludes: Alphabetically sorted named records, a chart that already links each name to a portrait, a chronological result list or unrestricted placement on a blank canvas.
+- Parameters: Sibling group, slot order, age comparison, unknown occupant and evidence clue.
+- Evidence: [The Roottrees are Dead decomposition](../games/s-z/the-roottrees-are-dead.md), RT-003, RT-004. The commercial listing, publisher context and attributed recordings support the bounded route. The exact installed depot was unverified.
+- Novelty: first isolated for `GAME-0660`. See [TAXONOMY_CHANGE_406](../../research/taxonomy-changes/TAXONOMY_CHANGE_406.md). No external novelty claim.
+
+## INF-607 — Preview both sides’ damage before an automatic exchange
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Identify one prospective matchup and expose predicted damage for both sides of its full automatic exchange while the player can still reconsider the order or the eligible combatant.
+- Includes: The proposed bridge contact in Call to Action shows 21 damage on one side and 1 on the other before combat.
+- Excludes: A single strike’s hit chance, remaining health alone, predictions visible only after commitment, an exact random-state promise or the action of replacing one party.
+- Parameters: Prospective pairing, predicted damage per side, time of disclosure and commitment.
+- Evidence: [Unicorn Overlord decomposition](../games/s-z/unicorn-overlord.md), UO-005. ATLUS and SEGA supply the rules, and attributed Switch footage supports the route. The exact capture binaries were unverified.
+- Novelty: first isolated for `GAME-0658`. See [TAXONOMY_CHANGE_404](../../research/taxonomy-changes/TAXONOMY_CHANGE_404.md). No external novelty claim.
+
+## INF-606 — Pair the current world view with a touch map and replace the pair for local interaction
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: During exploration two adjacent views simultaneously expose the current visible surroundings and a touch-sensitive local map with the avatar’s position and heading. A contextual interaction hands the display pair over to the conversation or object task instead.
+- Includes: Guide Kyle by the plan while watching the staircase. In the right-handed arrangement, the selected jigsaw is operated on the right while Kyle is shown on the left.
+- Excludes: An overview map that replaces the world view, two independently controlled avatars, or duplicating the same view on two displays.
+- Parameters: Display pair, layout, surroundings, local pose, active touch surface and interaction state.
+- Evidence: [Hotel Dusk: Room 215 decomposition](../games/g-l/hotel-dusk-room-215.md), HD-002, HD-004, HD-005. The original Nintendo documentation and two attributed DS recordings corroborate this scope. Physical inputs and binary identity were unverified.
+- Novelty: first isolated for `GAME-0654`. See [TAXONOMY_CHANGE_400](../../research/taxonomy-changes/TAXONOMY_CHANGE_400.md). No external novelty claim.
+
+## INF-605 — Compare emitted sound and ambient sound in a handheld display
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Two contemporaneous readings on one carried tool expose the amount of nearby ambient sound and the sound the controlled actor is making. Their relative heights indicate an opportunity to act with less acoustic exposure.
+- Includes: Read the environment on the left phonometer column and Alex’s current sound on the right. Watch the two while changing pace or picking a route.
+- Excludes: A single suspicion indicator, a map of hostile positions, a raw display of any one audio amplitude, or a numerical distance or immunity guarantee.
+- Parameters: Tool, current background, current emission, two simultaneous readings and relative height.
+- Evidence: [A Quiet Place: The Road Ahead decomposition](../games/a-f/a-quiet-place-the-road-ahead.md), AQP-003. The Xbox Series X capture, publisher captioned diaries and the independent garage capture support the scoped rules. Exact sound coefficients are unmeasured.
+- Novelty: first isolated for `GAME-0653`. See [TAXONOMY_CHANGE_399](../../research/taxonomy-changes/TAXONOMY_CHANGE_399.md). No external novelty claim.
+
+## INF-604 — Expose chip compatibility and the active queue head in distinct combat views
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The preparation view shows the visible offer and selected order with item codes or names. During live action the interface shows the ready item, remaining entries, recharge status and combatants’ current health and positions.
+- Includes: Read ten options with codes and their current selection in the paused view. After transmission read MiniBomb at the head, then watch its indicator disappear on use.
+- Excludes: Showing only a trait catalogue outside combat, listing every future draw or displaying a readiness meter without its paired preparation or live item status.
+- Parameters: Offered names and codes, selection order, next usable item, remaining count, recharge, health and field position.
+- Evidence: [Mega Man Battle Network decomposition](../games/m-r/mega-man-battle-network.md), BN1-002, BN1-005, BN1-006. The original Game Boy Advance manual and attributed cartridge-era recordings support the scoped sequence.
+- Novelty: first isolated for `GAME-0652`. See [TAXONOMY_CHANGE_398](../../research/taxonomy-changes/TAXONOMY_CHANGE_398.md). No external novelty claim.
+
+## INF-603 — Distinguish movable story words, vacant slots and nearby portal actions in place
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The scene keeps sentence wording at its local referent and distinguishes editable words or vacant positions. The held word remains identifiable, and a visible spiral and contextual prompt mark an available page transfer.
+- Includes: Read FULL at its source, see the vacancy left there, carry the word to the moat sentence and use the green spiral prompts to change plane.
+- Excludes: An abstract vocabulary list without spatial referents, decorative printed flavour text alone or a portal preview of an otherwise unseen destination.
+- Parameters: Sentence text, editable marking, vacancy, held word, portal mark and prompt.
+- Evidence: [The Plucky Squire decomposition](../games/s-z/the-plucky-squire.md), PLUCK-002, PLUCK-003, PLUCK-004. The developer material and attributed PS5 footage support the scoped sequence.
+- Novelty: first isolated for `GAME-0651`. See [TAXONOMY_CHANGE_397](../../research/taxonomy-changes/TAXONOMY_CHANGE_397.md). No external novelty claim.
+
+## INF-602 — Expose individual mounted weapon readiness and the hit gauge
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The live view identifies available enemy weapon salvage and each fitted weapon type, reserve and damage condition. It also reports the current hit gauge, multiplier and score while the player can still act.
+- Includes: Read Vulcan over the disabled carrier and then inspect its type, ammo and colour in the weapon window.
+- Excludes: A shop-only weapon catalogue, unlabelled scenery effects, a single unstated shared weapon reserve or a result with no live feedback.
+- Parameters: Salvage label, mounted type, reserve, condition, hit gauge, multiplier and score.
+- Evidence: [Einhänder decomposition](../games/a-f/einhander.md), EIN-003, EIN-005, EIN-006. The printed manual and attributed PlayStation footage support the scoped sequence.
+- Novelty: first isolated for `GAME-0650`. See [TAXONOMY_CHANGE_396](../../research/taxonomy-changes/TAXONOMY_CHANGE_396.md). No external novelty claim.
+
+## INF-601 — Show work progress through relative depth and visible instrument scale
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The work scene keeps its target visible while showing successive paths at changing depths. The implement grows in apparent size as it approaches the target, communicating practical proximity to the terminal interaction.
+- Includes: See the mower small against the skyline on an early pass and large next to the two foreground flowers near the end.
+- Excludes: A numerical progress bar, a cosmetic camera zoom with no corresponding effective approach, or an exact hidden pass counter inferred from apparent size.
+- Parameters: Fixed target view, visible work path, implement scale and approximate relative depth.
+- Evidence: [Thank Goodness You're Here! decomposition](../games/s-z/thank-goodness-youre-here.md), TGY-004, TGY-005. The Nintendo Switch store and two attributed captures support the scoped encounter.
+- Novelty: first isolated for `GAME-0648`. See [TAXONOMY_CHANGE_394](../../research/taxonomy-changes/TAXONOMY_CHANGE_394.md). No external novelty claim.
+
+## INF-600 — Show enemy-relative sector danger and the combatant’s current quadrant
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A four-sector battle indicator displays the combatant’s position about the enemy formation and labels the sectors by their current threat, so a player can choose where to wait or attack.
+- Includes: Read the dragon marker against the green safe sector, neutral ordinary sector and red high-danger sector.
+- Excludes: An exploration radar for the chance of starting a battle, a reticle displaying pending locks, fixed direction markers with no danger classification or exact damage estimates.
+- Parameters: Enemy formation, combatant position, four sectors, danger classes and current attack potential.
+- Evidence: [Panzer Dragoon Saga decomposition](../games/m-r/panzer-dragoon-saga.md), PDS-003 and PDS-005. The original Sega booklet and attributed disc 1 recordings delimit the scope.
+- Novelty: first isolated for `GAME-0647`. See [TAXONOMY_CHANGE_393](../../research/taxonomy-changes/TAXONOMY_CHANGE_393.md). No external novelty claim.
+
+## INF-599 — Highlight and name each newly opened world-map destination
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: When an event opens map nodes, the display temporarily singles out their positions and names before returning the player to node selection.
+- Includes: Read the title of the newly opened village and then the title of the newly opened plain on the same map.
+- Excludes: A generic success message without destination positions, revealing one mandatory next objective, or assuming every hidden destination is disclosed.
+- Parameters: Opened node position, title label, highlight cue and return to map selection.
+- Evidence: [Wario Land 3 decomposition](../games/s-z/wario-land-3.md), WL-005 and WL-006. The original Nintendo booklet and both attributed cartridge-era traces delimit the scope.
+- Novelty: first isolated for `GAME-0645`. See [TAXONOMY_CHANGE_391](../../research/taxonomy-changes/TAXONOMY_CHANGE_391.md). No external novelty claim.
+
+## INF-598 — Expose the spring state separately from the elapsed result and crown bands
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A live spring control and its nearby filling indicator show a varying local action state. Once the finish is settled, a distinct gauge shows elapsed time, its rating bands and the resulting crown.
+- Includes: Watch the spring indicator while approaching a gap and read the displayed time and crown after the checkered finish.
+- Excludes: Treating the spring indicator as an elapsed timer, displaying only a leaderboard placement, or claiming a precise spring refill rate from sampled video.
+- Parameters: On-course spring cue, local action indicator, finished elapsed time, labelled crown and rating bands.
+- Evidence: [WHAT THE CAR? decomposition](../games/s-z/what-the-car.md), WC-003 and WC-006. The Apple and Triband sources and attributed touch captures delimit the scope.
+- Novelty: first isolated for `GAME-0644`. See [TAXONOMY_CHANGE_390](../../research/taxonomy-changes/TAXONOMY_CHANGE_390.md). No external novelty claim.
+
+## INF-597 — Display rocket readiness beside present vitality and run stock
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The play view shows a visibly filling rocket-energy gauge apart from current vitality, score and remaining player stock. The charge display lets the player choose when to release while live terrain and threats remain in view.
+- Includes: Read the changing charge indicator before the vertical castle passage and distinguish it from the red vitality icons and REST counter.
+- Excludes: Inferring charge solely from elapsed time, a score bar masquerading as readiness, a single shared depletion pool or a paired fighter HUD with a round timer.
+- Parameters: Charge fill, full cue, vitality icons, score, stock and simultaneous play view.
+- Evidence: [Rocket Knight Adventures decomposition](../games/m-r/rocket-knight-adventures.md), RK-003 and RK-005. The North American manual and attributed captures delimit the scope.
+- Novelty: first isolated for `GAME-0643`. See [TAXONOMY_CHANGE_389](../../research/taxonomy-changes/TAXONOMY_CHANGE_389.md). No external novelty claim.
+
+## INF-596 — Consult a damaged recipe with partial text and geometric instructions
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Open an authored recipe at the workstation. It exposes tools, ingredients and spatial diagrams while damaged text leaves at least one preparation or arrangement relationship to infer.
+- Includes: The idli recipe shows the perforated plates and an illustrated path for steam. A damaged part of the text leaves the player to interpret how the plate is lined and stacked.
+- Excludes: A complete menu-selected recipe, a generated dependency tree, a fully hidden rule with no symbolic clue or entering a recovered written answer as a key.
+- Parameters: Recipe page, damaged span, visible supplies, spatial diagram and remaining inference.
+- Evidence: [Venba decomposition](../games/s-z/venba.md), VB-002. The Xbox release listing, developer interview and attributed captures delimit the scope.
+- Novelty: first isolated for `GAME-0642`. See [TAXONOMY_CHANGE_388](../../research/taxonomy-changes/TAXONOMY_CHANGE_388.md). No external novelty claim.
+
+## INF-595 — Read live weapon contact and body outcomes through distinct flashes and poses
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Weapon and body feedback distinguish defence, weapon collision, nonterminal injury and decisive contact through local visual effects and body posture. The live duel has no displayed health bar or round timer.
+- Includes: The booklet distinguishes the contact colours. The combat view shows differing weapon heights and a flash before both participants continue; the terminal effect leads into a fall and replay.
+- Excludes: An external split timer, a numerical health estimate, proof of a particular input from a pose, or a scored match statistics screen.
+- Parameters: Contact cue, stance, animation, incapacitation, terminal cue and visible HUD.
+- Evidence: [Bushido Blade decomposition](../games/a-f/bushido-blade.md), BB-004 through BB-007. The North American disc material and attributed captures delimit the scope.
+- Novelty: first isolated for `GAME-0641`. See [TAXONOMY_CHANGE_387](../../research/taxonomy-changes/TAXONOMY_CHANGE_387.md). No external novelty claim.
+
+## INF-594 — Show live points and rank beside the combo and conditional escape clock
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The running interface displays accumulated points and their current letter tier separately from the current combo indicator. It adds a remaining-time display when the escape phase begins.
+- Includes: In John Gutter, the upper HUD shows points, tier and combo. After Pillar John breaks, a separate clock appears below the route.
+- Excludes: A results-only leaderboard, a timer that starts with the first step, complete point-formula disclosure or a combo counter treated as the final rank.
+- Parameters: Current points, letter tier, combo count and meter, return phase and remaining time.
+- Evidence: [Pizza Tower decomposition](../games/m-r/pizza-tower.md), PT-004 through PT-006. The Steam listing and attributed release-era recordings delimit the scope.
+- Novelty: first isolated for `GAME-0640`. See [TAXONOMY_CHANGE_386](../../research/taxonomy-changes/TAXONOMY_CHANGE_386.md). No external novelty claim.
+
+## INF-593 — Expose ammunition, vitality, elapsed time and the live score chain
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: During the arena, separate displays disclose current ammunition and its warning, player vitality, elapsed time and the active score-chain multiplier and value.
+- Includes: The Rollerdrome Matterhorn Arena display, with Dual Pistols changing between an empty warning and usable rounds, a separate health panel and live combo feedback.
+- Excludes: Only a settled rank or score, an invisible enemy wave count, an exact predictive damage report or a time display that alone establishes a terminal deadline.
+- Parameters: Ammunition count and warning, vitality, elapsed time, live multiplier and chain value.
+- Evidence: [Rollerdrome decomposition](../games/m-r/rollerdrome.md), DROME-003 and DROME-005. The Roll7 description and attributed PS4 captures delimit the scope.
+- Novelty: first isolated for `GAME-0639`. See [TAXONOMY_CHANGE_385](../../research/taxonomy-changes/TAXONOMY_CHANGE_385.md). No external novelty claim.
+
+## INF-592 — Separate rescue accounting, time and per-skill stock in a live panel
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: While a population rescue runs, a control panel shows the surviving tribe headcount and the credited rescued subset separately, along with the remaining level time and uses of each local skill.
+- Includes: The original Amiga Lemmings 2 Beach 1 panel with a retained tribe count, an increasing rescue count, a decreasing clock and separately decrementing role stocks.
+- Excludes: A single kill or progress total, end-of-level results only, level-wide terrain visibility, and an undisclosed exact medal threshold.
+- Parameters: Population counters, remaining time, discrete skill types, per-skill remaining uses and refresh after events.
+- Evidence: [Lemmings 2: The Tribes decomposition](../games/g-l/lemmings-2-the-tribes.md), TRIBES-002 and TRIBES-005. The Amiga manual and attributed gameplay delimit the scope.
+- Novelty: first isolated for `GAME-0638`. See [TAXONOMY_CHANGE_384](../../research/taxonomy-changes/TAXONOMY_CHANGE_384.md). No external novelty claim.
+
+## INF-591 — Show the active surface brush footprint on the terrain
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A cursor-local outline drawn on the edit surface shows the reach of the currently selected adjustable brush before or during its stroke, letting the player target the covered area.
+- Includes: The circle projected onto the glade while the path tool is aimed and dragged in Tiny Glade.
+- Excludes: A point cursor without size information, a preview of the exact finished arch, a combat reticle or a whole-level placement legality map.
+- Parameters: Active brush, centre, displayed footprint, size adjustment and world surface.
+- Evidence: [Tiny Glade decomposition](../games/s-z/tiny-glade.md), GLADE-003 and GLADE-004. The release-window play trace and illustrated player guide define the observed scope.
+- Novelty: first isolated for `GAME-0637`. See [TAXONOMY_CHANGE_383](../../research/taxonomy-changes/TAXONOMY_CHANGE_383.md). No external novelty claim.
+
+## INF-590 — Show the addressed hotspot and pending inventory-to-target command
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: When the pointer addresses an interactive object, show its label. While an inventory item is selected, represent it at the cursor and display the proposed item-to-target command before it resolves.
+- Includes: The Dig labels for the asteroid sites and the pending Use command joining a carried item and a world target.
+- Excludes: A guarantee that the proposed pairing will succeed, an all-hotspots minimap, an already settled operation and a permanent general interaction hint.
+- Parameters: Cursor context, target label, selected item, pending pair description and resolution timing.
+- Evidence: [The Dig decomposition](../games/s-z/the-dig.md), DIG-002–DIG-004. The LucasArts documentation and attributed DOS captures support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0636`. See [TAXONOMY_CHANGE_382](../../research/taxonomy-changes/TAXONOMY_CHANGE_382.md). No external novelty claim.
+
+## INF-589 — Expose the current remembered period and the direction of a possible jump
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Identify the active memory with its period number and label, distinguish another available period, and expose the directional hold prompt. The player can read which school manifestation is active and which chronological jump is offered.
+- Includes: The numbered Temperature Days and Day of the Dance view and the past or future prompts once both are available.
+- Excludes: A linear level number, complete knowledge of all periods, an exact route map and a replay menu used outside Communion.
+- Parameters: Current period index, descriptive label, displayed date where known, neighbouring period and jump prompt.
+- Evidence: [1000xRESIST decomposition](../games/0-9/1000xresist.md), RES-004–RES-006. The publisher, developer and two attributed Nintendo Switch recordings support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0635`. See [TAXONOMY_CHANGE_381](../../research/taxonomy-changes/TAXONOMY_CHANGE_381.md). No external novelty claim.
+
+## INF-588 — Show outward-moving cues and their position or pose target
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Show incoming cues travelling from the centre to a fixed array of paired coloured targets, with an explicit prompt for rapid shakes or a pose silhouette. Show the immediate judgement alongside the live rank and gauge.
+- Includes: The six-circle playfield, ordinary Rhythm Balls, rapid-shake prompts, Pose Marks and the local result or performance display.
+- Excludes: A full track chart available before play, measured sensor altitude, scrolling fret lanes or direction-only dance arrows.
+- Parameters: Visible cue horizon, circle colour and height, silhouette, judgement, live rank and gauge.
+- Evidence: [Samba de Amigo decomposition](../games/s-z/samba-de-amigo.md), SAM-003–SAM-005. The Sega Dreamcast manual and attributed maraca footage support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0634`. See [TAXONOMY_CHANGE_380](../../research/taxonomy-changes/TAXONOMY_CHANGE_380.md). No external novelty claim.
+
+## INF-587 — Show target charm distance, own live range and progress separately
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: During charm the display exposes a target’s reference pair of wave brackets, a second pair that changes with the player’s relative position, and a separate charm progress indication. The player can adjust alignment before singing and read feedback after.
+- Includes: The fixed and moving wave markers, graded label and vertical charm marker over a Basking Bewl in Flock.
+- Excludes: A single proximity button without spatial feedback, an authored musical timeline independent of flight, or exact numeric thresholds that the interface does not reveal.
+- Parameters: Target wave marks, own wave marks, relative distance, per-attempt feedback and charm progress.
+- Evidence: [Flock decomposition](../games/a-f/flock.md), FLK-004, FLK-005. The documented Xbox release and its attributed gameplay traces support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0633`. See [TAXONOMY_CHANGE_379](../../research/taxonomy-changes/TAXONOMY_CHANGE_379.md). No external novelty claim.
+
+## INF-586 — Read recurring boost readiness alongside separate engine warnings and condition
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The live view displays recurring thrust readiness and active boost near speed, separately from a temperature warning and damage condition on the vehicle. The player can distinguish preparing or using boost from a reason to cancel it, and can read whether vehicle repair is needed.
+- Includes: Reading the thrust lamp, heat warning and two engine condition diagrams during the first Nintendo 64 race in Star Wars Episode I: Racer.
+- Excludes: A visible stored fuel gauge, a single meter used for both vehicle vitality and boost, a one-off start warm-up, or exact hidden temperature values.
+- Parameters: Current speed, thrust readiness, active boost, temperature warning and per-engine condition.
+- Evidence: [Star Wars Episode I: Racer decomposition](../games/s-z/star-wars-episode-i-racer.md), RAC-003, RAC-004. The PAL manual and attributed Nintendo 64 gameplay support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0632`. See [TAXONOMY_CHANGE_378](../../research/taxonomy-changes/TAXONOMY_CHANGE_378.md). No external novelty claim.
+
+## INF-585 — Expose participation before settlement and reveal true roles in the result
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: During the scenario the player sees their own assigned role and a named roster with participation state, without a complete true allegiance mapping. Public statements and recorded ballots can inform inference. The terminal report discloses the actual roles of the full original roster, including removed participants.
+- Includes: The crew player and five profiles during Gnosia’s opening, then the final report showing which one was really Gnosia.
+- Excludes: Showing every true role during discussion, treating allegations or tallies as proven allegiance, or an unknown identity pool that only appears at settlement.
+- Parameters: Own role, known participant identity, current availability, visible statements and votes, and terminal role reveal.
+- Evidence: [Gnosia decomposition](../games/g-l/gnosia.md), GN-002, GN-004–GN-006. The launch notices and attributed Japanese PlayStation Vita traces support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0630`. See [TAXONOMY_CHANGE_376](../../research/taxonomy-changes/TAXONOMY_CHANGE_376.md). No external novelty claim.
+
+## INF-584 — Show recovered structures and loose parts with resident-revealed slot identities
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The part panel distinguishes recovered foundations, their placement and installed state, and the available loose components. Some required sockets remain unknown until the relevant resident reveals the kind of part required.
+- Includes: Paige’s House has an unknown slot before Pike describes the wheel, and its revealed slot can be inspected separately from the loose wheel in Dark Cloud.
+- Excludes: A full recipe list known from the start, knowledge inferred solely by trying every part, current placement geometry alone, or treating spoken wishes as already installed parts.
+- Parameters: Foundation entry, available component stock, slot identity, information source and installed state.
+- Evidence: [Dark Cloud decomposition](../games/a-f/dark-cloud.md), DCL-004–DCL-007. The original manual and US PlayStation 2 trace support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0629`. See [TAXONOMY_CHANGE_375](../../research/taxonomy-changes/TAXONOMY_CHANGE_375.md). No external novelty claim.
+
+## INF-583 — Expose an ordered threat strip alongside pending warnings and usable skill patterns
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The road-event display pairs a fixed-order line of resource threat icons with pending attack warnings, and shows the ordered pattern, remaining uses and applicable costs of each visible skill. The player can assess a placement and its likely resource trade before applying it.
+- Includes: Reading the durability icon under the gap of Relax and the one-Energy Have a Go in the first Keep Driving Tractor event.
+- Excludes: A general hazard warning, an enemy damage number with no placement strip, a resource gauge alone, or a guarantee that all future threats are visible.
+- Parameters: Threat order and types, warning state, displayed pattern, remaining uses, activation cost and relevant resource stock.
+- Evidence: [Keep Driving decomposition](../games/g-l/keep-driving.md), KD-002–KD-004. The retail-period Windows openings support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0628`. See [TAXONOMY_CHANGE_374](../../research/taxonomy-changes/TAXONOMY_CHANGE_374.md). No external novelty claim.
+
+## INF-582 — Signal a nearby concealed hostile with its characteristic sound before revelation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: A nearby concealed opponent emits a recognisable sound during ordinary traversal. The cue is actionable evidence that a threat is present before the player can see its full body or choose a precise aim point.
+- Includes: The reported Heaven Smile laugh cues a player to stop and reveal the nearby hostile in Killer7.
+- Excludes: A persistent exact enemy icon, a graded suspicion display, a sound-only input test, a musical hit cue, or assuming the warning discloses exact position or a weak point.
+- Parameters: Eligible concealed hostile, recognisable cue, current vicinity, ordinary traversal and information absent before the reveal.
+- Evidence: [Killer7 decomposition](../games/g-l/killer7.md), K7-004. The original manual and GameCube opening traces support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0627`; see [TAXONOMY_CHANGE_373](../../research/taxonomy-changes/TAXONOMY_CHANGE_373.md). No external novelty claim.
+
+## INF-581 — Show the active weapon category and the target’s exposed weakness marker before commitment
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: Before the player commits an attack, the combat view identifies the current operator’s weapon class and presents an exposed target weakness as a typed marker separate from health. The player can compare these presented classes without first spending a scan or an attack.
+- Includes: The opening Taranis battle in Fuga: Melodies of Steel presents the acting gunner’s category and the enemy’s yellow weakness marker before the matching attack.
+- Excludes: A weakness inferred only from previous damage, paid or learned scan results, a forecast showing turn order without weapon compatibility, or a single health bar whose colour indicates only depletion.
+- Parameters: Acting operator, weapon category, visible target, weakness class and exposure state, health display and pre-commit availability.
+- Evidence: [Fuga: Melodies of Steel decomposition](../games/a-f/fuga-melodies-of-steel.md), FUG-002, FUG-003. The Xbox opening traces and developer battle guide support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0626`; see [TAXONOMY_CHANGE_372](../../research/taxonomy-changes/TAXONOMY_CHANGE_372.md). No external novelty claim.
+
+## INF-580 — Expose aerial acquisition and flight readiness beside separate finite stocks
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: A pursuit view marks an acquired aircraft and changes the cue when a missile obtains its lock. A separate boost lamp shows current readiness or activity, distinct from the remaining guided shots, replacement craft and score.
+- Includes: Blue Lightning’s targeting square and red lock indication alongside afterburner lamp, missile stock, remaining jets and points.
+- Excludes: A radar map of all contacts, a timed acquisition-progress bar, a cockpit power-allocation interface or progress inferred solely from points.
+- Parameters: Labeled target, acquisition and missile-lock cues, ready and active lamp, missile count, reserve aircraft and score.
+- Evidence: [Blue Lightning decomposition](../games/a-f/blue-lightning.md), BL-003, BL-004. The Atari instructions and Lynx traces support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0623`; see [TAXONOMY_CHANGE_369](../../research/taxonomy-changes/TAXONOMY_CHANGE_369.md). No external novelty claim.
+
+## INF-579 — Preview candidate routes and mark the committed shared gateway
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: At a live shared-course decision, the road-visible gates supply a preview or identity cue for the offered route. After commitment, the selected gateway visibly indicates the path the remaining racers can use.
+- Includes: The candidate imagery and chosen Travel Ring into Dinosaur Jungle in Sonic Racing: CrossWorlds.
+- Excludes: An item-slot icon, a fully exposed future track map, a menu outside the race or a promise that every candidate exposes its exact destination.
+- Parameters: Gate cue, candidate route, preview coverage, visibility after commitment and follower view.
+- Evidence: [Sonic Racing: CrossWorlds decomposition](../games/s-z/sonic-racing-crossworlds.md), SRC-003, SRC-004. The Sega rules and the post-launch race traces support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0621`; see [TAXONOMY_CHANGE_367](../../research/taxonomy-changes/TAXONOMY_CHANGE_367.md). No external novelty claim.
+
+## INF-578 — Reveal a boss weak-point reticle subject to firing and weapon state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: A weak-point reticle marks a local boss target after sufficient time without firing for eligible weapons. A homing weapon can keep the cue visible while attacking, while specified other types suppress the ordinary cue.
+- Includes: Eagle Eye in Alien Soldier marks a boss target when firing stops or Homing Force sustains the cue. Sword Force and Lancer Force are the documented exceptions.
+- Excludes: A universal health bar, a start-of-fight reveal for every weapon, a target lock that guarantees a hit, a revealed hitbox formula, or a permanent learned target record.
+- Parameters: Boss part, idle period, selected weapon, visibility exception and marker appearance.
+- Evidence: [Alien Soldier decomposition](../games/a-f/alien-soldier.md), ALS-007. The Japanese Sega manual and the opening combat traces support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0620`; see [TAXONOMY_CHANGE_366](../../research/taxonomy-changes/TAXONOMY_CHANGE_366.md). No external novelty claim.
+
+## INF-577 — Expose active-unit reach and local target properties before committing its command
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The tactical display identifies the current unit and highlights currently reachable cells. A field cursor reveals an addressed unit and its known local statistics; the battle display separates the current cell’s defensive terrain value and a favourable weapon relation from eligibility to attack.
+- Includes: In Saraband, the active panel shows name, class, HP, MP and LE; the target panel shows the addressed monk, and the North American booklet explains the cursor and exclamation cue.
+- Excludes: An authored future hostile move, a complete visible initiative sequence, movement highlights guaranteeing attack range, or inferring a nonzero terrain bonus from a city reading of zero.
+- Parameters: Active actor, highlighted cells, cursor target, local statistics, terrain value and weapon relation cue.
+- Evidence: [Shining Force III decomposition](../games/s-z/shining-force-iii.md), SF3-003, SF3-005. The North American Sega manual and the English battle traces support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0618`; see [TAXONOMY_CHANGE_364](../../research/taxonomy-changes/TAXONOMY_CHANGE_364.md). No external novelty claim.
+
+## INF-576 — Expose different authored artefact traits by inspection channel alongside a reference entry
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: An authored reference supplies name and property clues for the requested identity. A selected artefact exposes different fixed readouts through separately selected sensory channels. The player connects the clues and readouts without receiving a validated name from a single inspection.
+- Includes: The Hunter’s Boon entry describes a predator trophy. In the tooth’s inspection, appearance and Inner Perception offer distinct evidence channels. The accepted name appears after the offer, not on opening inspection.
+- Excludes: One unchanging detail panel, a literal reference picture of every specimen, a tracking signal that conveys proximity alone, or a handwritten label treated as identification evidence.
+- Parameters: Identity entry, diagnostic channels, fixed readouts, visible shape and withheld confirmed name.
+- Evidence: [Strange Antiquities decomposition](../games/s-z/strange-antiquities.md), SAQ-003, SAQ-004. The Switch captures and contemporary route support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0617`; see [TAXONOMY_CHANGE_363](../../research/taxonomy-changes/TAXONOMY_CHANGE_363.md). No external novelty claim.
+
+## INF-575 — Mark required targets and expose their resolved count while control continues
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The live view identifies visible members of the required target set as such and reports the number resolved against the fixed total. It does not reveal the positions of all remaining objects.
+- Includes: Silent Bomber Mission 01 shows TARGET tags on the marked fixtures and a live count out of eleven. An ordinary enemy without the mark need not increment it.
+- Excludes: A list of all hidden target coordinates, a counter of physical proof items collected after a defeat, an ordinary score total or one guardian’s remaining health.
+- Parameters: Visible target identity, finite required set, resolved count and total count.
+- Evidence: [Silent Bomber decomposition](../games/s-z/silent-bomber.md), SBOM-005. The North American manual and game traces support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0616`; see [TAXONOMY_CHANGE_362](../../research/taxonomy-changes/TAXONOMY_CHANGE_362.md). No external novelty claim.
+
+## INF-574 — Expose owned plot data and current match ledgers alongside inspected card and combat totals
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The interface provides the current spendable and qualifying totals, position and checkpoint state, and allows inspection of plot ownership, attribute, level and toll. The current cards and proposed combat contributions can be inspected before commitment.
+- Includes: Dunnan separates both G values, exposes land data and displays attainable combat strength and vitality before paid item selection.
+- Excludes: Showing only final rank, exposing a future random draw or roll, or promising the predicted combat outcome regardless of the opponent’s item.
+- Parameters: Spendable and qualifying total, route position, checkpoint, inspectable land and cards, pre-commit combat contributions.
+- Evidence: [Culdcept decomposition](../games/a-f/culdcept.md), CUL-002, CUL-003, CUL-007, CUL-008. The North American instructions, English commercial match frames and firsthand route evidence support the scoped rules as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0611`; see [TAXONOMY_CHANGE_357](../../research/taxonomy-changes/TAXONOMY_CHANGE_357.md). No external novelty claim.
+
+## INF-573 — Show known and unknown cravings beside the remaining enemy shield
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The encounter display puts a target’s remaining shield near type clues for its vulnerabilities. The display distinguishes known types from unconfirmed slots and signals when the shielded state changes.
+- Includes: Dosa Divas shows flavour symbols, question marks and remaining shield values beneath goons, and exposes the Stuffed state after a shield break.
+- Excludes: A separate scan action as the only means of viewing the target, exact next enemy commands or displaying health alone.
+- Parameters: Target, remaining shield, known flavour, unknown slot and incapacitation indicator.
+- Evidence: [Dosa Divas decomposition](../games/a-f/dosa-divas.md), DD-003, DD-004. The PlayStation listing, commercial PS5 frames and firsthand PS5 route report support the scoped rules as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0608`; see [TAXONOMY_CHANGE_354](../../research/taxonomy-changes/TAXONOMY_CHANGE_354.md). No external novelty claim.
+
+## INF-572 — Show a stage letter grade and elapsed result beside the earlier time
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: After clearing an authored stage, the result view exposes the letter grade, the completed elapsed time and a separately identified previous time when one exists.
+- Includes: Mischief Makers reports rank, current time and the earlier stage time in the console result view; cleared stages also have rank marks in stage selection.
+- Excludes: A live stamina or timer gauge, a single race leaderboard placement, undisclosed grade thresholds, automatic retention of every secondary pickup.
+- Parameters: Stage, grade, current elapsed time, previous time or empty placeholder, result display.
+- Evidence: [Mischief Makers decomposition](../games/m-r/mischief-makers.md), MM-006, MM-007. The Nintendo booklet, commercial N64 frames and firsthand route reports support the scoped rules as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0607`; see [TAXONOMY_CHANGE_353](../../research/taxonomy-changes/TAXONOMY_CHANGE_353.md). No external novelty claim.
+
+## INF-571 — Show an authored investigation graph with recorded evidence and unresolved lead nodes
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the open case displays a connected map of named leads, people and evidence traces. Recorded and unfinished entries are visually distinguishable, and relevant evidence can be inspected again before synthesis.
+- Includes: Follow Miss Deane’s Departure from the reception lead to the registered document comparison on its mind map.
+- Excludes: A fully populated answer key, an unstructured note list, an external guide or a physical map of the building alone.
+- Parameters: Case, named node, authored dependency links, known status, revisitable evidence and hypothesis readiness.
+- Evidence: [The Séance of Blake Manor decomposition](../games/s-z/the-seance-of-blake-manor.md), BM-002, BM-003, BM-007, BM-008. The commercial Steam capture and firsthand route report support the scoped rules as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0606`; see [TAXONOMY_CHANGE_352](../../research/taxonomy-changes/TAXONOMY_CHANGE_352.md). No external novelty claim.
+
+## INF-570 — Separate attempt scoring from the selected challenge’s retained completion mark
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a settled attempt exposes distinguishable stage and remaining-time score components, and the challenge selection shows a separate completion mark on the corresponding challenge. A score display therefore does not substitute for checking which challenge is recorded as cleared.
+- Includes: Read Stage Score and Time Bonus for Novice Mission 1, then return to the grid and locate the emblem under 1.
+- Excludes: An in-progress counter, a single badge that encodes undisclosed scoring factors or a save/reload claim inferred from visiting the selection screen.
+- Parameters: Challenge identity, score components, terminal result, completion mark and selection screen.
+- Evidence: [Outtrigger decomposition](../games/m-r/outtrigger.md), OT-006, OT-007. The original US manual and independently recorded Dreamcast frames support the scoped rules as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0605`; see [TAXONOMY_CHANGE_351](../../research/taxonomy-changes/TAXONOMY_CHANGE_351.md). No external novelty claim.
+
+## INF-569 — Expose timed full-collection instructions with a live clock and local pickup guidance
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the challenge discloses that all designated pickups are required and shows the remaining time during the attempt, along with a local visible cue at an eligible pickup.
+- Includes: Follow the Get it! cue to a medal while the separate countdown is still running. Follow the cue to the pickup rather than treating it as a completion signal.
+- Excludes: A static full route, a total shown only on the result screen, an enemy-count signal or an exact catalogue of every off-screen position.
+- Parameters: Briefed collection objective, local cue, current allowance and refresh point.
+- Evidence: [Outtrigger decomposition](../games/m-r/outtrigger.md), OT-002–OT-004. The original US manual and independently recorded Dreamcast frames support the scoped rules as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0605`; see [TAXONOMY_CHANGE_351](../../research/taxonomy-changes/TAXONOMY_CHANGE_351.md). No external novelty claim.
+
+## INF-568 — Expose stocked departure fuel alongside the current mass-derived requirement
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the base and departure interfaces distinguish usable fuel stock, current assembled mass and the journey’s required cost before commitment, allowing the player to detect a shortfall independently of the repair objective.
+- Includes: On the command terminal, compare the current Organics with the Journey Cost before starting the first Journey.
+- Excludes: A distance-only route preview, a generic ready light, the tutorial collection target by itself or the entire future cost schedule.
+- Parameters: Current mass, displayed cost, stored fuel and departure confirmation state.
+- Evidence: [The Alters decomposition](../games/s-z/the-alters.md), TA-006–TA-008. The publisher account, walkthroughs and static commercial Xbox frames support these boundaries as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0604`; see [TAXONOMY_CHANGE_350](../../research/taxonomy-changes/TAXONOMY_CHANGE_350.md). No external novelty claim.
+
+## INF-567 — Preview past decision alternatives with their crew-role consequences
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the timeline exposes a character’s recorded life path and an actionable supplied alternative together with the prospective crew role before the player confirms the branch.
+- Includes: Read the original Going Away line and inspect Staying Behind with the Technician role.
+- Excludes: A calendar, a future travel map, a generic party class menu with no link to an earlier life decision or discovering the role only after waking the crew member.
+- Parameters: Life timeline, historical decision, available alternative, role disclosure and confirmation surface.
+- Evidence: [The Alters decomposition](../games/s-z/the-alters.md), TA-004, TA-005. The publisher account, walkthroughs and static commercial Xbox frames support these boundaries as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0604`; see [TAXONOMY_CHANGE_350](../../research/taxonomy-changes/TAXONOMY_CHANGE_350.md). No external novelty claim.
+
+## INF-566 — Distinguish stored cycling boost from its active spending
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the riding interface displays the current acceleration reserve and visibly indicates when the rider is actively spending it for a boost. The information is available during the same steering decisions that use it.
+- Includes: Read the segmented reserve, then notice the active indication when Kat accelerates along the first lap.
+- Excludes: The current place alone, a physical speed pickup, shared vehicle survival energy or an exact future boost duration.
+- Parameters: Available reserve, charge display, current spend indication, riding state and tutorial briefing.
+- Evidence: [Wheel World decomposition](../games/s-z/wheel-world.md), WW-005, WW-006. The creative director’s notes and still frames from the two early PC traces support these boundaries.
+- Novelty: first isolated for `GAME-0603`; see [TAXONOMY_CHANGE_349](../../research/taxonomy-changes/TAXONOMY_CHANGE_349.md). No external novelty claim.
+
+## INF-565 — Expose local flight energy and target bearing on live instruments
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the flight interface shows current speed and height beside a radar that reports target directions and relative target height. It identifies areas of local lift and acknowledges eligible ring passage.
+- Includes: Check speed before flaring, compare the glider height with target markers, and use the orange thermal region alongside the world view.
+- Excludes: An out-of-game annotated map, a guarantee that a marked thermal is reachable at the current height or a scripted future route that steers the craft.
+- Parameters: Speed, altitude indicators, relative bearings and height, thermal locations and ring-clear notification.
+- Evidence: [Pilotwings 64 decomposition](../games/m-r/pilotwings-64.md), PW-004, PW-005. The original manual, flight stills and independent player accounts support the boundaries. The record distinguishes observed results from supplementary code paths.
+- Novelty: first isolated for `GAME-0602`; see [TAXONOMY_CHANGE_348](../../research/taxonomy-changes/TAXONOMY_CHANGE_348.md). No external novelty claim.
+
+## INF-564 — Expose active body health, personal move points and tape move details in combat
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the turn-combat interface shows participants, current body or tape condition, personal action-resource markers and each inspected sticker move’s price and action details, so the player can judge an affordable command before commitment.
+- Includes: Read the different health states while one actor is human, the orange action-point markers and the price and range on the sticker card.
+- Excludes: A visible future enemy command, an explicit initiative forecast, a use counter separately tracked for each move or an out-of-game form reference.
+- Parameters: Active people and forms, health, current reserve, selectable move, price and target details.
+- Evidence: [Cassette Beasts decomposition](../games/a-f/cassette-beasts.md), CB-002, CB-004, CB-007. Developer-authored rules, in-game tutorial stills and independent mobile traces support the boundaries. Unobserved edge cases are identified in the record.
+- Novelty: first isolated for `GAME-0601`; see [TAXONOMY_CHANGE_347](../../research/taxonomy-changes/TAXONOMY_CHANGE_347.md). No external novelty claim.
+
+## INF-563 — Expose the live recording link, changing odds and settlement
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: while a creature’s form is being recorded, the screen identifies the active recorder and target via a visible link, shows the current chance of creating a record and then communicates the outcome through results or new tape state.
+- Includes: Read the percentage over the wild Dominoth while the human holds the cassette player, then check the new recording and its bestiary entry.
+- Excludes: Only a probability before a turn, a hidden future random number, a health bar without recording state or a notification that the creature has been removed.
+- Parameters: Recording actor, target, visible link, current probability and successful or failed settlement.
+- Evidence: [Cassette Beasts decomposition](../games/a-f/cassette-beasts.md), CB-004, CB-005. Developer-authored rules, in-game tutorial stills and independent mobile traces support the boundaries. Unobserved edge cases are identified in the record.
+- Novelty: first isolated for `GAME-0601`; see [TAXONOMY_CHANGE_347](../../research/taxonomy-changes/TAXONOMY_CHANGE_347.md). No external novelty claim.
+
+## INF-562 — Expose scoring, team style readiness and personal boost as distinct signals
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the live interface exposes ordinary match score, separate style points, the team’s filling or ready special meter and its stored-charge indication, and the eligible player’s boost. Readiness and storage are distinguishable from scoring a basket.
+- Includes: Read the score, Trick Points, the Gamebreaker indicator and Turbo reserve separately before deciding to shoot, pocket or wait.
+- Excludes: A score-only scoreboard, one undifferentiated progress gauge, or hidden readiness without a visible signal.
+- Parameters: Match score, style points, team gauge and stored state, personal gauge and current possession.
+- Evidence: [NBA Street Vol. 2 decomposition](../games/m-r/nba-street-vol-2.md), NS-004, NS-005, NS-006. Printed PlayStation 2 instructions and independent captures or firsthand accounts support the rule boundaries. Not every branch was visible in the sampled frames.
+- Novelty: first isolated for `GAME-0600`; see [TAXONOMY_CHANGE_346](../../research/taxonomy-changes/TAXONOMY_CHANGE_346.md). No external novelty claim.
+
+## INF-561 — Expose line out and recoverable strain separately during tethered retrieval
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the interface distinguishes a line-length reading from a live strain indicator, shows the moving hooked target and signals when steering or reel intervention is needed. This makes shortening the line legible separately from keeping it intact.
+- Includes: The Lodge display shows Line Out in feet, a hooked bass in the water and the right-side line-tension bar, with a red danger state and contextual rod-direction commands.
+- Excludes: A lone progress bar, an undisclosed native threshold, a whole-lake fish locator or one shared bar that sums all catches.
+- Parameters: Payout distance, strain channel, target motion, danger display and contextual commands.
+- Evidence: [Sega Bass Fishing decomposition](../games/s-z/sega-bass-fishing.md), BF-002, BF-005. The 1999 Sega Dreamcast booklet and independent Dreamcast captures support the described rule. Internal coefficients and native input were not tested.
+- Novelty: first isolated for `GAME-0598`; see [TAXONOMY_CHANGE_344](../../research/taxonomy-changes/TAXONOMY_CHANGE_344.md). No external novelty claim.
+
+## INF-560 — Expose the staged launch and both combatants’ health and knockdown state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the live arena presents the scheduled launch and each landed body’s unfolding countdown. During combat it presents the shared match clock and both participants’ remaining vitality and knockdown readiness or condition separately.
+- Includes: The launch and cube indicators, paired HP and knockdown gauges and condition labels of the first Basic Arena duel.
+- Excludes: Round wins tallied across a set, hidden bot choices, exact unmeasured hit values, or preview of an unchosen later loadout.
+- Parameters: Launch cue, unfolding timer, match clock, participant, HP, knockdown bar and status.
+- Evidence: [Custom Robo decomposition](../games/a-f/custom-robo.md), CR-004, CR-007, CR-008. The North American Nintendo booklet and independent English GameCube route traces support these boundaries. Exact hit and timing coefficients remain unknown.
+- Novelty: first isolated for `GAME-0596`; see [TAXONOMY_CHANGE_342](../../research/taxonomy-changes/TAXONOMY_CHANGE_342.md). No external novelty claim.
+
+## INF-559 — Cue a beat group and show its local treatment result
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: rhythmic lead pulses and a moving trace along a row identify the current group and its target. The interface distinguishes the outcome of the local response, with explicit counting help available in the guided introduction and removed before ordinary performance.
+- Includes: The seven-beat teaching row and the solo Samurai Techno heart row, with a visible timing flash and a changing heart response.
+- Excludes: A full preview chart, a stream of individually playable fret notes, instructor alternation with copied inputs, an independent survival reserve or exact cutoff values presented by the interface.
+- Parameters: Cue channels, target row and rhythm, instruction state, feedback signal and target appearance.
+- Evidence: [Rhythm Doctor decomposition](../games/m-r/rhythm-doctor.md), RD-003–RD-005. Xbox product and controller evidence plus independent first-case release-window traces support these boundaries. Exact console timing windows remain unknown.
+- Novelty: first isolated for `GAME-0595`; see [TAXONOMY_CHANGE_341](../../research/taxonomy-changes/TAXONOMY_CHANGE_341.md). No external novelty claim.
+
+## INF-558 — Expose framing, held charge, remaining film and both sides’ condition in a battle finder
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: an active photographic battle finder shows a subject acquisition opportunity and current shot charge together with the available film and remaining physical condition of the player and currently fought spirit. These readouts allow the player to distinguish a viable frame from enough charge to commit the exposure.
+- Includes: the Fatal Frame finder pairing Capture Circle and Lock Circle with current Spirit Power, film, Mafuyu’s strength and Bound Man’s remaining power.
+- Excludes: photo subject identification and roll count without combat state (INF-378); a rechargeable battery and post-processing indicator (INF-376); predicting exact future attack frames or damage before all conditions are known.
+- Parameters: capture region, target acquisition, charge gauge, exposures, player vitality and target vitality
+- Evidence: [Fatal Frame decomposition](../games/a-f/fatal-frame.md), FF-005 and FF-006. Tecmo’s booklet, the introductory tutorial and written and visual records of the PlayStation 2 route establish these boundaries. Exact timing and coefficients are unmeasured.
+- Novelty: first isolated for `GAME-0591`; see [TAXONOMY_CHANGE_337](../../research/taxonomy-changes/TAXONOMY_CHANGE_337.md). No external novelty claim.
+
+## INF-557 — Indicate nearby supernatural stimulus type and bearing before framing
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: a qualitative detector reacts to nearby supernatural subjects or clues during ordinary movement or finder use. Signal class distinguishes broad stimulus types and strength responds to proximity or facing. The cue alone does not resolve exact identity, intent or a valid exposure.
+- Includes: the Filament glowing blue toward a clue or hidden spirit, or amber near a moving ghost, before the spirit enters the capture circle.
+- Excludes: a target already acquired in the viewfinder; precise world coordinates; an exact hostile-intent preview; assuming every amber cue means an ongoing attack.
+- Parameters: stimulus type, proximity, heading, relative cue strength, field mode and finder mode
+- Evidence: [Fatal Frame decomposition](../games/a-f/fatal-frame.md), FF-003. Tecmo’s booklet, the introductory tutorial and written and visual records of the PlayStation 2 route establish these boundaries. Exact timing and coefficients are unmeasured.
+- Novelty: first isolated for `GAME-0591`; see [TAXONOMY_CHANGE_337](../../research/taxonomy-changes/TAXONOMY_CHANGE_337.md). No external novelty claim.
+
+## INF-556 — Show both drivers’ remaining duel reserves and relative separation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: show the two competitors’ current remaining reserves together with an identified relative gap or lead cue during a live driving duel, so current attrition can be read separately from speed, gear and course progress.
+- Includes: the two Spirit Point bars, Timid Challenger marker and relative distance cue during an active SP Battle.
+- Excludes: a race place and lap counter with no remaining duel reserve; a single player health bar; an end-of-bout score screen; a hidden exact coefficient for applying damage.
+- Parameters: reserve display for each competitor, identity, separation cue, current duel and refresh
+- Evidence: [Tokyo Xtreme Racer decomposition](../games/s-z/tokyo-xtreme-racer.md), TXR-006. Genki and dated 1.0.0 stills establish the scoped released behavior, with corroborating independent play accounts. Exact coefficients are unmeasured.
+- Novelty: first isolated for `GAME-0590`; see [TAXONOMY_CHANGE_336](../../research/taxonomy-changes/TAXONOMY_CHANGE_336.md). No external novelty claim.
+
+## INF-555 — Expose the live round clock and individual bout tally
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: show remaining round time and a separate accumulated bout-win count for each contestant during the current match so the time pressure and progress toward overall victory are jointly readable.
+- Includes: the Battle Game header pairing the practical countdown with each visible character’s wins.
+- Excludes: a post-match-only scoreboard; a feed that reports recent knockouts without standings; a single overall progress bar; complete knowledge of hidden pickup locations or fuse lengths.
+- Parameters: visible clock, participant identification, individual win tally and display interval
+- Evidence: [Saturn Bomberman decomposition](../games/s-z/saturn-bomberman.md), SB-002 and SB-007. The English Sega manual and static original-release battle captures establish the scoped rule. Exact timings and internal values are not measured.
+- Novelty: first isolated for `GAME-0584`; see [TAXONOMY_CHANGE_330](../../research/taxonomy-changes/TAXONOMY_CHANGE_330.md). No external novelty claim.
+
+## INF-554 — Show the day-to-night gauge and whether the route can reach the gate in time
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The display shows current time until a phase change and marks the prepared route tip according to whether the protected follower can currently reach the final gate for purification before nightfall.
+- Includes: Read the water-basin display and the white or blue spirit image at the Spirit Path tip.
+- Excludes: Only showing direction to the gate, disclosing the full future spawn sequence, or guaranteeing survival along a route.
+- Parameters: Remaining time, current phase, guide position, route tip, terminal reachability and cue state.
+- Evidence: [Kunitsu-Gami decomposition](../games/g-l/kunitsu-gami-path-of-the-goddess.md), KG-003, KG-005. The full-release Capcom manual and corroborating PS5 and release-game evidence establish the conditional transition. Exact timings and internal values are not measured.
+- Novelty: first isolated for `GAME-0583`; see [TAXONOMY_CHANGE_329](../../research/taxonomy-changes/TAXONOMY_CHANGE_329.md). No external novelty claim.
+
+## INF-553 — Indicate a nearby interaction target through the avatar’s head direction
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: A controllable character turns the head toward a noticed person or object before the player confirms an interaction. Moving or turning can change which target is indicated without adding a cursor or disclosing the effect of using an item.
+- Includes: Look for Manny’s head movement as he approaches the cards, Eva or an interactable tube fixture.
+- Excludes: A verb wheel that names the action, a mouse hotspot cursor, a target marker shown after confirmation, or revealing the hidden prerequisite.
+- Parameters: Avatar position and facing, noticed target, cue direction, contextual reach and target change.
+- Evidence: [Grim Fandango decomposition](../games/g-l/grim-fandango.md), GF-002. The LucasArts manual and corroborating original-release walkthroughs and frames establish the conditional transition. Exact timings and internal values are not measured.
+- Novelty: first isolated for `GAME-0582`; see [TAXONOMY_CHANGE_328](../../research/taxonomy-changes/TAXONOMY_CHANGE_328.md). No external novelty claim.
+
+## INF-552 — Show recovered and lost ship value against ordered salvage milestones
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: A live work indicator presents credited recovery, recorded losses and milestone positions on the same ship-scale progress display. The shift-end report presents the settled results without requiring the worker to infer them from remaining geometry.
+- Includes: Compare the yellow accepted share and red losses against the next target marker above the Mackerel, then read the shift summary.
+- Excludes: An unlabelled count of loose pieces, a single score that hides losses, or displaying an exact route for all remaining material.
+- Parameters: Current ship, credited amount, lost amount, milestone positions and settlement report.
+- Evidence: [Hardspace: Shipbreaker decomposition](../games/g-l/hardspace-shipbreaker.md), HS-005, HS-006. Blackbird’s Xbox guide and corroborating released-game evidence establish the conditional transition. Exact timings and internal values are not measured.
+- Novelty: first isolated for `GAME-0581`; see [TAXONOMY_CHANGE_327](../../research/taxonomy-changes/TAXONOMY_CHANGE_327.md). No external novelty claim.
+
+## INF-551 — Expose hidden structural cut points and the targeted salvage destination
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The worker can inspect a ship to see structural cut points obscured by its casing. When aiming at a part, tool feedback identifies its material or assigned destination, informing the choice to cut, detach or route it.
+- Includes: Highlight the yellow joints through the Mackerel with the scanner and check the selected panel’s Processor destination before moving it.
+- Excludes: A prediction of the exact resulting trajectory, automatic salvage credit, and binding one fixed destination to an entire hull.
+- Parameters: Scan mode, view, highlighted link, targeted object and destination indication.
+- Evidence: [Hardspace: Shipbreaker decomposition](../games/g-l/hardspace-shipbreaker.md), HS-003, HS-005. Blackbird’s Xbox guide and corroborating released-game evidence establish the conditional transition. Exact timings and internal values are not measured.
+- Novelty: first isolated for `GAME-0581`; see [TAXONOMY_CHANGE_327](../../research/taxonomy-changes/TAXONOMY_CHANGE_327.md). No external novelty claim.
+
+## INF-550 — Expose both sides’ measures, scheduled hostile actions and a visible escalation meter
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: A pre-command combat score shows the current action allocations and the relative placement of upcoming opposing moves. A visible escalation meter shows how far the current boss has progressed toward further power.
+- Includes: Inspect the staff before selecting Cadence or Cerrin. Read the separate Crescendo meter when deciding how long to spend preparing.
+- Excludes: A hidden enemy queue, promising exact damage and target for every future enemy action or using the musical score purely as decoration.
+- Parameters: Allied measure count, hostile measure count, forecast action indicator, current position and visible escalation.
+- Evidence: [People of Note decomposition](../games/m-r/people-of-note.md), PON-002, PON-007. Developer accounts, Switch 2 release reviews and source-attributed battle stills establish the scoped transitions. Exact console build and timing limits are qualified in the game record.
+- Novelty: first isolated for `GAME-0577`; see [TAXONOMY_CHANGE_323](../../research/taxonomy-changes/TAXONOMY_CHANGE_323.md). No external novelty claim.
+
+## INF-549 — Expose an authored lead and request current route guidance from it
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The journal records an authored lead and lets the player select it for destination guidance. Requesting help shows a route cue toward the currently available objective or escape destination without completing the step.
+- Includes: Track Dying Gasp to find the required contacts. After the violation, request the butterfly guidance toward the return shrine.
+- Excludes: Revealing an entire solution, following a permanent out-of-game route or automatically moving the avatar to the tracked destination.
+- Parameters: Lead identity, journal, tracking option, current route and guidance request.
+- Evidence: [The Forgotten City decomposition](../games/s-z/the-forgotten-city.md), TFC-003, TFC-004, TFC-007. Creator interviews and independently documented title-release play establish the scoped transitions. Console build limits are qualified in the game record.
+- Novelty: first isolated for `GAME-0576`; see [TAXONOMY_CHANGE_322](../../research/taxonomy-changes/TAXONOMY_CHANGE_322.md). No external novelty claim.
+
+## INF-548 — Expose current card legality, remaining slots and relative turn readiness
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: Expose the available hand and command details with the actor’s remaining slots and relative turn order on the current map. Inspection can show legal reach and directed hostile vision before committing.
+- Includes: Read REST and Cost separately, inspect highlighted cells and facing in Aerial view, and check the action order before confirming a card.
+- Excludes: Revealing the future draw order, authoring a guaranteed replay of every guard decision, or allowing the camera to change the rules of reach.
+- Parameters: Hand, card details, movement shading, sight region, remaining slots and readiness order.
+- Evidence: [Metal Gear Acid decomposition](../games/m-r/metal-gear-acid.md), MGA-003, MGA-004, MGA-006. The original manual and launch-period PSP play accounts establish the scoped transitions. Region and runtime limits are qualified in the game record.
+- Novelty: first isolated for `GAME-0575`; see [TAXONOMY_CHANGE_321](../../research/taxonomy-changes/TAXONOMY_CHANGE_321.md). No external novelty claim.
+
+## INF-547 — Show the visible reply outline, loose fragments and the speaker transition
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The current vignette visibly distinguishes the other character’s authored speech from the reply the player can assemble, exposes the target outline and outstanding fragments, and signals the completed reply by its visual presentation.
+- Includes: See Krish’s balloon and match Florence’s visible fragments to the indicated reply contour without reading words.
+- Excludes: Choosing from a written list of topics, matching an invisible receptacle, or relying on hidden relationship scores.
+- Parameters: Speaker, current speech balloon, loose fragments, visible boundary, placed coverage and completion feedback.
+- Evidence: [Florence decomposition](../games/a-f/florence.md), FLO-002, FLO-003. Launch-period touch accounts and attributed chapter walkthroughs establish the scoped transitions. Later figure analysis and original-runtime limits are qualified in the game record.
+- Novelty: first isolated for `GAME-0574`; see [TAXONOMY_CHANGE_320](../../research/taxonomy-changes/TAXONOMY_CHANGE_320.md). No external novelty claim.
+
+## INF-546 — Show milestone notices, room service state and live creature encounters
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The dungeon interface discloses new orders and capabilities as scenario states change, presents visible gold, room capacity and efficiency, and signals active encounters and creature status without exposing the complete hidden map.
+- Includes: Use Eversmile’s objective marker, flashing room or spell button, overhead map and battle view to adjust construction or creature placement.
+- Excludes: A complete enemy map before exploration, a purely cosmetic room label or silent automatic advancement with no current cue.
+- Parameters: Objective notice, availability cue, gold, room indicators, revealed map and battle status.
+- Evidence: [Dungeon Keeper decomposition](../games/a-f/dungeon-keeper.md), DKE-003, DKE-009. The PC CD-ROM manual and attributed full-campaign play accounts establish the scoped transitions. Exact script constants from secondary sources are qualified in the game record.
+- Novelty: first isolated for `GAME-0573`; see [TAXONOMY_CHANGE_319](../../research/taxonomy-changes/TAXONOMY_CHANGE_319.md). No external novelty claim.
+
+## INF-545 — Expose live weapon-card availability, remaining enemies and elapsed time
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The active run view communicates the held weapon-card state and firing stock alongside remaining required enemies and elapsed time. This allows the player to plan a spend before reaching the finish.
+- Includes: Read the current card and ammunition alongside the demon counter and timer while crossing Elevate.
+- Excludes: An advance prediction of optimal route, hidden later pickups, or displaying only the final medal.
+- Parameters: Held cards, firing stock, live enemy count and run timer.
+- Evidence: [Neon White decomposition](../games/m-r/neon-white.md), NW-005, NW-007. Director descriptions and contemporary Switch and stage accounts support the scoped transitions. The specific demon count uses the attributed later stage inventory.
+- Novelty: first isolated for `GAME-0572`; see [TAXONOMY_CHANGE_318](../../research/taxonomy-changes/TAXONOMY_CHANGE_318.md). No external novelty claim.
+
+## INF-544 — Show the service timing gauge and separate fault, point and game feedback
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The court view exposes the current ball and opponents. During service it presents a live timing gauge and distinguishes the attempt. A completed delivery or resolution can disclose speed, fault state and point and game scores at their respective stages.
+- Includes: The Virtua Tennis Serve Gauge, serve count, speed, point score and games in the Dreamcast display.
+- Excludes: An exact advance prediction of every rally bounce; hidden CPU preferences; showing only the terminal winner.
+- Parameters: Ball and athlete view, server, gauge, attempt, speed, adjudication and current scores.
+- Evidence: [Virtua Tennis decomposition](../games/s-z/virtua-tennis.md), VT-003, VT-008. The original booklet and attributed contemporary play accounts support the controls and settings. Implementation-only branches are qualified to the pinned reconstruction.
+- Novelty: first isolated for `GAME-0571`; see [TAXONOMY_CHANGE_317](../../research/taxonomy-changes/TAXONOMY_CHANGE_317.md). No external novelty claim.
+
+## INF-543 — Read embodied combat state from coloured bodies, visible trajectories and hand readiness
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The scene distinguishes hostile bodies, usable objects and architecture through contrasting visual classes and shows local attack motion, bullets and the player’s hands in spatial relation. A glitched hand signals unavailable defence. These cues reveal immediate geometry and readiness without disclosing a complete future spawn script, exact ammunition counter or numeric recovery timer.
+- Includes: SUPERHOT VR red hostiles, dark interactive props, pale environment, visible bullet paths and hand glitch; occluded threats remain occluded.
+- Excludes: An omniscient whole-board state; a numeric health or reload HUD; assuming colour alone guarantees every object’s material rule; exposing all later scenes.
+- Parameters: Visible body classes, local geometry, trajectory, occlusion, held object, hand state and feedback.
+- Evidence: [SUPERHOT VR decomposition](../games/s-z/superhot-vr.md), SHV-002, SHV-006. Official Quest launch material, developer statements and qualified released-version accounts support the common rules; no native Quest binary, exact time floor or recovery coefficient was measured.
+- Novelty: first isolated for `GAME-0567`; see [TAXONOMY_CHANGE_313](../../research/taxonomy-changes/TAXONOMY_CHANGE_313.md). No external novelty claim.
+
+## INF-542 — Expose local numbered approach cues and distinct song-survival and spin meters
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The live interface reveals the currently approaching numbered and coloured touch targets, shrinking timing rings, phrase route/ball and any reversal cue, together with current score, combo and the song performance reserve. During a spin event its local fill meter is separately readable; story O/X feedback does not replace either meter or disclose the complete future chart.
+- Includes: Elite Beat Agents lower-screen chart and Elite-o-Meter, local spinner fill and upper-screen section outcome. Exact hidden hit windows, drain coefficients and the whole future chart are not revealed.
+- Excludes: An omniscient chart before play; instructor/player turn ownership; conflating spinner fill with the remaining song reserve; a terminal category report being the live preview.
+- Parameters: Visible targets, number, colour, ring phase, phrase geometry, ball, reversal, score, combo, reserve, spin fill and section outcome.
+- Evidence: [Elite Beat Agents decomposition](../games/a-f/elite-beat-agents.md), EBA-002, EBA-003, EBA-004, EBA-007. Official documentation and qualified first-hand accounts support the common rules; no native European cartridge, exact hit window or scoring coefficient was measured.
+- Novelty: first isolated for `GAME-0566`; see [TAXONOMY_CHANGE_312](../../research/taxonomy-changes/TAXONOMY_CHANGE_312.md). No external novelty claim.
+
+## INF-541 — Reveal live dome-cycle measurements through their separately purchased instruments
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: Each acquired basic instrument adds its declared persistent measurement to the live display, such as dome integrity, banked resources or remaining mining time before the next assault. The underlying dome, stock and wave clock already exist before the corresponding instrument is bought; buying one does not reveal every other measurement.
+- Includes: The original Dome Keeper console offers separate health, inventory and hostile-proximity instruments. Their presence is not presumed at fresh landing, and the ordinary warning cue is not an exact future spawn/composition list.
+- Excludes: Treating every readout as free starting information; changing the underlying countdown by displaying it; exact future hostile health, composition or arrival frames; a later early-warning/exit-route upgrade being assumed in 2022.
+- Parameters: Instrument node, acquired state, measurement kind, live value, visibility, basic warning and run persistence.
+- Evidence: [Dome Keeper decomposition](../games/a-f/dome-keeper.md), DK-009. No direct play, executable checksum or frame-perfect native reproduction is claimed; the launch-era source and observation limits remain in the game record.
+- Novelty: first isolated for `GAME-0565`; see [TAXONOMY_CHANGE_311](../../research/taxonomy-changes/TAXONOMY_CHANGE_311.md). No external novelty claim.
+
+## INF-540 — Expose the locally revealed mine and material cues without the whole hidden map
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The mining view exposes nearby excavated passages, the keeper, loose bodies and locally revealed rock/resource cues, while deeper unobserved terrain and chambers remain undisclosed. Visible mineral-bearing rock can guide a drilling choice before its material becomes a delivered bank resource.
+- Includes: Dome Keeper reveals short-range rock hardness and exposed iron, water or cobalt cues along the excavation frontier; the opening route is not an omniscient world map.
+- Excludes: A purchased prospecting gadget locating resources at distance; a fully visible random board; an acquired authored floor plan; the dome battle view proving the locations of hidden underground chambers.
+- Parameters: Keeper position, camera, local reveal range, remembered excavation, hardness cue, material cue, loose body and hidden terrain.
+- Evidence: [Dome Keeper decomposition](../games/a-f/dome-keeper.md), DK-002. No direct play, executable checksum or frame-perfect native reproduction is claimed; the launch-era source and observation limits remain in the game record.
+- Novelty: first isolated for `GAME-0565`; see [TAXONOMY_CHANGE_311](../../research/taxonomy-changes/TAXONOMY_CHANGE_311.md). No external novelty claim.
+
+## INF-539 — Mark an airborne contest disc’s landing opportunity and temporary receiver charge
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: While a contest disc is aloft, a visible ground marker discloses its current intended landing opportunity, and the athlete’s local pose or charge cue distinguishes preparation from sufficient powered readiness before reception. The display supports positioning without certifying an exact future opponent response or native frame count.
+- Includes: Windjammers marks the landing point after a toss or lob and shows the receiver concentrating or surrounded by a ready-charge ring.
+- Excludes: A complete predicted shot route; hidden opponent inputs; an independently spendable permanent super meter; merely showing the present disc position with no landing marker.
+- Parameters: Airborne state, current landing marker, receiver position, preparation pose, ready cue, display timing and remaining uncertainty.
+- Evidence: [Windjammers decomposition](../games/s-z/windjammers.md), WJ-005. No native MVS execution, exact timing windows, threshold-margin rule or complete per-frame contact audit is claimed; source limits remain in the game record.
+- Novelty: first isolated for `GAME-0564`; see [TAXONOMY_CHANGE_310](../../research/taxonomy-changes/TAXONOMY_CHANGE_310.md). No external novelty claim.
+
+## INF-538 — Reveal a selected enemy’s available health and weakness information through a learned scan
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: A legal learned scan command reveals the addressed enemy’s disclosed HP and weakness information where that target permits it; the information is earned by the selected ability rather than assumed present in every ordinary battle view.
+- Includes: After the early level unlock, Aya may spend the ready command and required PE on Scan to inspect a compatible enemy before choosing later attacks.
+- Excludes: A complete omniscient enemy ledger; guaranteed disclosure for every boss; a quickhack installation menu; a passive range globe; a held visor scan that requires a separate exploration mode.
+- Parameters: Learned ability, command readiness, energy cost, selected target, disclosed HP, weakness and disclosure exception.
+- Evidence: [Parasite Eve decomposition](../games/m-r/parasite-eve.md), PEV-006. No native PlayStation execution, exact hit formula, status duration or complete save-field audit is claimed; source limits remain in the game record.
+- Novelty: first isolated for `GAME-0562`; see [TAXONOMY_CHANGE_308](../../research/taxonomy-changes/TAXONOMY_CHANGE_308.md). No external novelty claim.
+
+## INF-537 — Display the current weapon’s effective volume and selected command target
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: Attack selection exposes a spatial wireframe of the current weapon’s effective range around the controlled actor, its loaded ammunition and selected enemy or target part; this information supports positioning and selection but does not guarantee a hit or reveal every hidden combat value.
+- Includes: Aya checks the range globe and changes the selected alligator target between tail and head before committing a ready command.
+- Excludes: A hard prohibition on every out-of-range target; an exact probabilistic damage forecast; a complete enemy-health display without Scan; an omniscient world map.
+- Parameters: Weapon range, actor position, wireframe volume, loaded bullets, selected enemy/part and commitment.
+- Evidence: [Parasite Eve decomposition](../games/m-r/parasite-eve.md), PEV-003. No native PlayStation execution, exact hit formula, status duration or complete save-field audit is claimed; source limits remain in the game record.
+- Novelty: first isolated for `GAME-0562`; see [TAXONOMY_CHANGE_308](../../research/taxonomy-changes/TAXONOMY_CHANGE_308.md). No external novelty claim.
+
+## INF-536 — Read companion attention and readiness from nonverbal local behaviour
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The companion’s gaze, eye appearance, posture, approach, refusal and feeding response disclose its current attention and readiness without exposing a numerical obedience score, a complete future route or a guarantee that repeating the same request will be accepted immediately.
+- Includes: Trico looks toward food, initially refuses close feeding, rests and changes posture before helping the boy reach a ledge.
+- Excludes: A full solved route overlay; a visible exact trust meter; reading hidden AI variables; treating every animation as a new command or a fixed response deadline.
+- Parameters: Companion, visible cue, local stimulus, attention, readiness and unresolved response delay.
+- Evidence: [The Last Guardian decomposition](../games/s-z/the-last-guardian.md), TLG-004, TLG-005. Native execution, exact AI timing, installed patch and checkpoint fields are unverified; source limits remain in the game record.
+- Novelty: first isolated for `GAME-0559`; see [TAXONOMY_CHANGE_305](../../research/taxonomy-changes/TAXONOMY_CHANGE_305.md). No external novelty claim.
+
+## INF-535 — Inspect a locally occluded diorama with authored traversal cues and companion advice
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The current scene exposes Quill, local supports, fixture markings and motion feedback from the Reader’s tracked viewpoint; occluded details can be inspected by changing that viewpoint, and authored companion gestures or local instructions can suggest the next operation without revealing all later rooms or an exact future trajectory.
+- Includes: Clearing scratch-marked edges, patterned interactive stones, visible wheel phase, contextual prompts and Quill’s authored communicative response.
+- Excludes: Simultaneous omniscience of the whole chapter; a solved-route overlay; a guaranteed future landing preview; every friendly gesture being a progress requirement.
+- Parameters: Scene boundary, occlusion, head pose, visible edge and fixture cues, authored prompts and advice availability.
+- Evidence: [Moss decomposition](../games/m-r/moss.md), MOS-002, MOS-007. Native tracking, exact rates and field-by-field checkpoint persistence are not reproduced; source limits remain in the game record.
+- Novelty: first isolated for `GAME-0558`; see [TAXONOMY_CHANGE_304](../../research/taxonomy-changes/TAXONOMY_CHANGE_304.md). No external novelty claim.
+
+## INF-534 — Distinguish live solar input from stored gun energy and purification resistance
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The interface separately shows current sensed sunlight, the weapon’s remaining energy, life, eligible item effects and an overheat warning, while purification exposes the captive’s Darkness Gauge and beam weakening; settlement discloses time, discoveries, continues, charged energy and rank without exposing exact hidden scoring or lens-experience formulas.
+- Includes: The Solar Gauge and Gun Gauge in Fog Castle, two generator beams and the post-purification results screen.
+- Excludes: One merged sun/ammunition meter; a visible exact lens EXP counter; certifying every hidden coefficient from a coarse recording.
+- Parameters: Sensor gauge, stored energy, life, item effect, darkness, beam appearance and graded result.
+- Evidence: [Boktai decomposition](../games/a-f/boktai-the-sun-is-in-your-hand.md), BOK-002, BOK-007, BOK-008, BOK-010, BOK-013. Native sensor, exact coefficients and field-by-field persistence are not reproduced; source limits remain in the game record.
+- Novelty: first isolated for `GAME-0557`; see [TAXONOMY_CHANGE_303](../../research/taxonomy-changes/TAXONOMY_CHANGE_303.md). No external novelty claim.
+
+## INF-533 — Expose song score, style feedback and retained rank without a full multiplier readout
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The running presentation shows accumulated points and immediate named style feedback, while the song card exposes best score, rank and credited square coins. The hidden per-class pickup counters are not thereby revealed as a complete explicit multiplier HUD.
+- Includes: Read Slide or Risky feedback during Doki Doki Rush, then distinguish its final grade from the persistent square-coin row.
+- Excludes: A declared x-multiplier display inferred from score changes; a health gauge; per-note timing grades during a stage with no such prompts; a preview of every future collectible.
+- Parameters: Live score, feedback event, song card, rank, best score, square row and undisclosed counters.
+- Evidence: [Sayonara Wild Hearts decomposition](../games/s-z/sayonara-wild-hearts.md), SWH-005, SWH-007, SWH-008.
+- Novelty: first isolated for `GAME-0556`; see [TAXONOMY_CHANGE_302](../../research/taxonomy-changes/TAXONOMY_CHANGE_302.md).
+
+## INF-532 — Distinguish live battery, household period, happiness and money before the next chore
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The interface separately discloses current personal charge, the day/night period clock, earned happiness and money, while the base exposes robot rank. These measures serve different decisions and are not interchangeable currencies or a single completion percentage.
+- Includes: Read low charge before another toothbrush pass; compare remaining night time with a nearby outlet and later inspect the home rank.
+- Excludes: A hidden exact drain equation; a whole-house cleanliness percentage; cash substituting for battery; a complete advance schedule of every toy quest.
+- Parameters: Charge, clock and phase icon, happiness, money, base rank and update timing.
+- Evidence: [Chibi-Robo! decomposition](../games/a-f/chibi-robo.md), CHR-004, CHR-007, CHR-008.
+- Novelty: first isolated for `GAME-0555`; see [TAXONOMY_CHANGE_301](../../research/taxonomy-changes/TAXONOMY_CHANGE_301.md).
+
+## INF-531 — Read named grid topography alongside retained relational location clues
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The map exposes labelled places, terrain features and row-column addresses; retained correspondence supplies absolute or relative location clues. Selecting a square reveals its authored encounter rather than guaranteeing a useful new specimen at every named place.
+- Includes: Use Ambleside’s town label, Backbarrow’s northeast hills and the wood south of Gosforth to locate C20, M21 and G5.
+- Excludes: An automatically plotted optimal route; a fully revealed plant-location catalogue; a physical walkable world whose navigation topology changes when the paper is rearranged.
+- Parameters: Named place, grid address, woodland or hill geometry, retained letter, relative relation and encounter text.
+- Evidence: [Strange Horticulture decomposition](../games/s-z/strange-horticulture.md), SH-005, SH-006.
+- Novelty: first isolated for `GAME-0554`; see [TAXONOMY_CHANGE_300](../../research/taxonomy-changes/TAXONOMY_CHANGE_300.md).
+
+## INF-530 — Cross-read a growing botanical reference against inspected specimen traits
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: An inspectable botanical reference retains acquired entries with names, partial illustrations and properties, while close inspection exposes the selected specimen’s authored visual and descriptive traits. The player must reconcile these sources; having an entry does not grant the specimen or automatically identify every shelf object.
+- Includes: Ambleside adds Gilded Dendra and Wandering Bue entries; inspect a shelf specimen’s texture, scent or shape against the relevant entry rather than matching only an incomplete sketch.
+- Excludes: INF-054’s fixed page-pair manual boundary; a complete authoritative shelf-name overlay; labels being validated as evidence; copying botanical effects into real-world advice.
+- Parameters: Acquired entry, fictional name, illustration crop, property text, specimen focus, inspection description and ownership separation.
+- Evidence: [Strange Horticulture decomposition](../games/s-z/strange-horticulture.md), SH-001, SH-002, SH-004.
+- Novelty: first isolated for `GAME-0554`; see [TAXONOMY_CHANGE_300](../../research/taxonomy-changes/TAXONOMY_CHANGE_300.md).
+
+## INF-529 — Expose host identity, condition, skill readiness and mission credits
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The current host presentation and information surfaces expose body identity, controlled condition, opponent energy, separate active-skill readiness and the current mission’s objective credits. Briefing or terminal data explain the body and tasks without revealing a guaranteed future route.
+- Includes: Read the dog or sheep, green condition, blue opponent bar, A/B power and the first level’s energy and occupation objectives before using its exit.
+- Excludes: An exact future trajectory, a new permission to occupy an otherwise ineligible body, merging optional Power Cells with healing energy, and a complete unseen world-state disclosure.
+- Parameters: Host identity, controlled condition, opponent energy, skill channels, briefing, terminal, objective credit and display state.
+- Evidence: [Space Station Silicon Valley decomposition](../games/s-z/space-station-silicon-valley.md), SSV-006, SSV-007.
+- Novelty: first isolated for `GAME-0548`; see [TAXONOMY_CHANGE_295](../../research/taxonomy-changes/TAXONOMY_CHANGE_295.md).
+
+## INF-528 — Expose tracked putting geometry together with hole and stroke feedback
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The player can inspect the current club head, ball lie, course banks and cup in spatial perspective, while wrist or scorecard fields expose the current hole, counted strokes and par-relative result. This supports alignment and pace choice without forecasting an exact future path.
+- Includes: Inspect Tourist Trap’s narrow neck and wider cup area, align the visible putter face, and read the par-two hole’s retained stroke result.
+- Excludes: A recommended disc or wind readout, an exact predicted trajectory, hidden sensor coefficients and treating par as a required maximum.
+- Parameters: Head pose, ball lie, banks, cup, current hole, par, counted strokes, signed result and display surface.
+- Evidence: [Walkabout Mini Golf decomposition](../games/s-z/walkabout-mini-golf.md), WMG-003, WMG-004, WMG-006.
+- Novelty: first isolated for `GAME-0547`; see [TAXONOMY_CHANGE_294](../../research/taxonomy-changes/TAXONOMY_CHANGE_294.md).
+
+## INF-527 — Expose protection stock, shot charge, local danger interval and voiced guidance without a full map
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The mission surface exposes held crystalline protection, shot charge, current location, applicable ID-card state and separate overall-danger and next-burst indicators. Automatic or requested voice navigation supplies local directions without a complete persistent map.
+- Includes: Read the crystal count and charge gauge, distinguish the danger percentage from the shrinking next-boundary bar, and ask Chris for the current route in Burning Rangers.
+- Excludes: A health bar independent of the shared crystals, complete map omniscience, and confusing a grade at settlement with current danger.
+- Parameters: Held crystals, charge gauge, room name, ID-card icon, danger graph, interval bar, voice instruction and concealed routes.
+- Evidence: [Burning Rangers decomposition](../games/a-f/burning-rangers.md), BR-008.
+- Novelty: first isolated for `GAME-0546`; see [TAXONOMY_CHANGE_293](../../research/taxonomy-changes/TAXONOMY_CHANGE_293.md).
+
+## INF-526 — Show live incidents and proposed attribute fit alongside responder availability
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The dispatch surface exposes current incident markers, call details, allowed team slots and a five-axis comparison of the proposed group against call needs, while roster cards distinguish available, busy, returning and resting responders. It does not expose all future calls or the exact hidden outcome formula.
+- Includes: Inspect a Dispatch call and its proposed suitability while noticing that an otherwise suitable hero is still Resting.
+- Excludes: An omniscient future schedule, a guaranteed success promise from a chart, and a world map with no assignment or readiness information.
+- Parameters: Map marker, current call, slot count, five attributes, proposed group, readiness label and outcome feedback.
+- Evidence: [Dispatch decomposition](../games/a-f/dispatch.md), DIS-002, DIS-003, DIS-009.
+- Novelty: first isolated for `GAME-0545`; see [TAXONOMY_CHANGE_292](../../research/taxonomy-changes/TAXONOMY_CHANGE_292.md).
+
+## INF-525 — Expose call ownership, target identity, numeric ratings and local mistake hearts
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The presentation distinguishes demonstration from the player’s response, reveals dance directions or target appearance order and human/enemy identity, and exposes the live audience percentage and applicable local mistake hearts.
+- Includes: Use the turn marker and spoken/animated call, distinguish people from Morolians, and inspect the rating and boss hearts.
+- Excludes: A persistent full-song note highway, an omniscient future chart, ordinal rap grades alone, and disclosed exact timing thresholds.
+- Parameters: Turn icon, audiovisual cue, target type and direction, current percentage, heart display and feedback.
+- Evidence: [Space Channel 5 decomposition](../games/s-z/space-channel-5.md), SC-002–SC-004, SC-007.
+- Novelty: first isolated for `GAME-0544`; see [TAXONOMY_CHANGE_291](../../research/taxonomy-changes/TAXONOMY_CHANGE_291.md).
+
+## INF-524 — Expose live stunt credit, passing-star target and engine temperature
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The racing display separates the stars already earned, the course passing target, current feat credit and current engine temperature so a player can weigh scoring opportunities against boost heat.
+- Includes: Read the earned-star and required-star values alongside the temporary stunt counter and temperature gauge.
+- Excludes: A hidden cumulative vehicle-unlock tally, future stunt credit, and a nitro fuel reserve.
+- Parameters: Earned stars, target, live stunt credit, temperature and warning.
+- Evidence: [Excite Truck decomposition](../games/a-f/excite-truck.md), ET-009.
+- Novelty: first isolated for `GAME-0542`; see [TAXONOMY_CHANGE_289](../../research/taxonomy-changes/TAXONOMY_CHANGE_289.md).
+
+## INF-523 — Mark obstructions that intersect the protected actor’s route
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Local world markers identify still-relevant obstacles because their obstruction lies in a protected unit’s authored travel corridor. Eligible objects elsewhere can remain unmarked and can still matter for a separate cleanup.
+- Includes: Prioritise the Simian Acres sheds with flashing route arrows and leave remote demolition targets for a later visit.
+- Excludes: Marking an exit bearing, showing every destructible target regardless of route, or a complete prospective simulation of mutable paths.
+- Parameters: Route intersection, eligible obstructions, marker, outstanding obstruction state and optional targets.
+- Evidence: [Blast Corps decomposition](../games/a-f/blast-corps.md), BC-003, BC-005.
+- Novelty: first isolated for `GAME-0539`; see [TAXONOMY_CHANGE_286](../../research/taxonomy-changes/TAXONOMY_CHANGE_286.md).
+
+## INF-522 — Show separate coverage for discovered evidence spots and case words
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The interface reports visited evidence spots and collected vocabulary terms in two separate found-over-total counts for the same case. Neither count reports correctness of an answer.
+- Includes: Use the Constriction toolbar to read 9 evidence spots and 25 words as separate totals and find which discovery track remains incomplete.
+- Excludes: A single clue tally, an answer correctness indicator, a required number of solutions or a combined progress percentage.
+- Parameters: Spot tally and authored total, term tally and authored total.
+- Evidence: [The Rise of the Golden Idol decomposition](../games/s-z/the-rise-of-the-golden-idol.md), RGI-002, RGI-007.
+- Novelty: first isolated for `GAME-0538`; see [TAXONOMY_CHANGE_285](../../research/taxonomy-changes/TAXONOMY_CHANGE_285.md).
+
+## INF-521 — Pan the rolling course separately from steering and inspect live course resources
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The live view shows nearby supports and hazards, with score, vitality, ordinary pickup tally and the attempt clock. Separate directional inputs pan the map without changing the steering command.
+- Includes: Use the Control Pad to look beyond the rolling view, then read time and vitality before the next crossing.
+- Excludes: The Control Pad moving the avatar, a solved route overlay, a final-only result or a claim that every hidden course object is revealed.
+- Parameters: Panned area, avatar view, geometry, score, vitality, pickup tally and running time.
+- Evidence: [Kirby Tilt 'n' Tumble decomposition](../games/g-l/kirby-tilt-n-tumble.md), KTT-002, KTT-006.
+- Novelty: first isolated for `GAME-0537`; see [TAXONOMY_CHANGE_284](../../research/taxonomy-changes/TAXONOMY_CHANGE_284.md).
+
+## INF-520 — Expose the aimed hack route, predicted result and active armor opening
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A target-linked grid displays the current ordered trace, terminal and typed cells alongside projected hack damage. An independent enemy indicator and exposed component mark the resolved temporary Open state.
+- Includes: Check the path and projected damage while aiming, then recognize the active opening at the enemy.
+- Excludes: A static route diagram without draft feedback, a boss health bar alone, unconditional firing permission, or an exact preview of damage from later free aim.
+- Parameters: Target, grid, draft, node markers, projected harm and resolved window cue.
+- Evidence: [PRAGMATA decomposition](../games/m-r/pragmata.md), PRA-002, PRA-003, PRA-005.
+- Novelty: first isolated for `GAME-0536`; see [TAXONOMY_CHANGE_283](../../research/taxonomy-changes/TAXONOMY_CHANGE_283.md).
+
+## INF-519 — Expose shared reserve and drafted spend alongside hull state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The combat planner shows the shared reserve available before resolution and the amount assigned to costs by the current draft, together with vessel hull information for evaluating attack and recovery options.
+- Includes: Read the available and assigned Spirit in the top gauge while checking the Little Jack’s hull before adding another command.
+- Excludes: A personal MP meter only, a single remaining value with no draft commitment, or a result score after all commands resolve.
+- Parameters: Shared reserve, assigned cost, current draft, own and opposing hull status.
+- Evidence: [Skies of Arcadia decomposition](../games/s-z/skies-of-arcadia.md), SOA-003, SOA-007.
+- Novelty: first isolated for `GAME-0535`; see [TAXONOMY_CHANGE_282](../../research/taxonomy-changes/TAXONOMY_CHANGE_282.md).
+
+## INF-518 — Preview danger and a separate attack opportunity for each time slot
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A timeline marks upcoming time slots with categorical incoming danger and separate favourable attack openings. A provisional next-turn forecast can change when the current plan or an authored tactical branch changes the encounter.
+- Includes: Read the coloured band above the Little Jack’s slots and compare its independent Chance markers before and after the maneuver.
+- Excludes: A complete preview of exact damage, a committed attack icon with no time slot, a guarantee of a hit, or colour as an unconditional action permission.
+- Parameters: Current slots, categorical danger, chance marker, provisional future and branch.
+- Evidence: [Skies of Arcadia decomposition](../games/s-z/skies-of-arcadia.md), SOA-004, SOA-005.
+- Novelty: first isolated for `GAME-0535`; see [TAXONOMY_CHANGE_282](../../research/taxonomy-changes/TAXONOMY_CHANGE_282.md).
+
+## INF-517 — Mark possessable cores and disclose the occupied host’s command status separately
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The stopped traversal view marks cores that can host the spirit. The display identifies the currently occupied object and gives separate feedback about whether a live command is available on it.
+- Includes: Follow the cores toward the crane and use the interface to distinguish the ball as a relay from the operable claw.
+- Excludes: A general scenery outline, a highlight that grants a trick to every marked prop, or a full preview of the solved chain.
+- Parameters: World mode, visible core, current host, interaction label and command availability.
+- Evidence: [Ghost Trick decomposition](../games/g-l/ghost-trick-phantom-detective.md), GT-003, GT-007.
+- Novelty: first isolated for `GAME-0533`; see [TAXONOMY_CHANGE_280](../../research/taxonomy-changes/TAXONOMY_CHANGE_280.md).
+
+## INF-516 — Replace ordinary sight with focused local sound and proximity cues
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: While the avatar’s eyes are closed, ordinary visual access is withheld. Relevant nearby sounds become easier to notice, and compatible controller feedback can indicate proximity to specified nearby objects.
+- Includes: On flat-screen PS5, close the eyes to emphasise local sound and use the applicable DualSense vibration without seeing an ordinary scene.
+- Excludes: An overlay preserving full sight, an omniscient position list, or a marked barrier changing state by itself.
+- Parameters: Eye state, local audio source, salience, controller proximity feedback and loss of ordinary view.
+- Evidence: [The Midnight Walk decomposition](../games/s-z/the-midnight-walk.md), MW-005.
+- Novelty: first isolated for `GAME-0531`; see [TAXONOMY_CHANGE_278](../../research/taxonomy-changes/TAXONOMY_CHANGE_278.md).
+
+## INF-515 — Expose formation guard and the remaining committed action order
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A dedicated guard meter shows formation protection separately from personal HP. The execution view reveals the remaining committed action order and pending casts’ time in turns after the party batch starts, without specifying the next enemy command during planning.
+- Includes: Read party Guard Condition separately from each member’s health and watch the execution icons after locking in the Grilgan round.
+- Excludes: A pre-commit forecast of all enemy abilities, an exact personal HP bar in lieu of a guard reserve or a real-time action-readiness meter.
+- Parameters: Displayed guard, personal HP, committed resolution phase, remaining order and pending-cast counter.
+- Evidence: [Lost Odyssey decomposition](../games/g-l/lost-odyssey.md), LO-002, LO-004, LO-006.
+- Novelty: first isolated for `GAME-0530`; see [TAXONOMY_CHANGE_277](../../research/taxonomy-changes/TAXONOMY_CHANGE_277.md).
+
+## INF-514 — Project the last legal straight-drop pose of the active piece
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A nonoccupying outline shows the last reachable pose along the active piece’s gravity axis at its current lateral position and orientation. It updates with the pose or blocking occupancy.
+- Includes: Move a horizontal I piece and use its landing outline to see which columns will be occupied after a hard drop.
+- Excludes: An ordered successor preview, a prediction of a sequence of placements, or an already landed piece with occupancy.
+- Parameters: Active pose, collision geometry, descent axis and displayed target footprint.
+- Evidence: [Tetris Effect decomposition](../games/s-z/tetris-effect.md), TE-002, TE-003.
+- Novelty: first isolated for `GAME-0529`; see [TAXONOMY_CHANGE_276](../../research/taxonomy-changes/TAXONOMY_CHANGE_276.md).
+
+## INF-513 — Play reference tones and current indexed responses in the same order
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: An addressed playback action exposes the target sequence and current response sequence in matching position order. The sound of each current position corresponds to that position’s set state and can guide correction.
+- Includes: Listen to the reference five-pipe series and then the pitches produced by the entered levels.
+- Excludes: A written password, a song that only accompanies play, or a hidden evaluation that discloses neither indexed sequence.
+- Parameters: Reference tones, current tones, playback order, indexed positions and pitch mapping.
+- Evidence: [The Neverhood decomposition](../games/s-z/the-neverhood.md), NH-007.
+- Novelty: first isolated for `GAME-0528`; see [TAXONOMY_CHANGE_275](../../research/taxonomy-changes/TAXONOMY_CHANGE_275.md).
+
+## INF-512 — Distinguish recoverable internal damage from lasting health loss on the same bar
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The health surface separately exposes provisional internal damage and already lost health. The difference lets the player judge whether to wait for recovery or finish an eligible damage conversion.
+- Includes: Read the recoverable segment on Yi’s health bar after an early parry and the provisional segment on the enemy bar after marking it.
+- Excludes: A single undifferentiated health reading, a separate resource gauge, or an exact future recovery time inferred from the overlay alone.
+- Parameters: Health bar, recoverable segment, lasting loss and visible change at recovery or conversion.
+- Evidence: [Nine Sols decomposition](../games/m-r/nine-sols.md), NS-006, NS-009.
+- Novelty: first isolated for `GAME-0527`; see [TAXONOMY_CHANGE_274](../../research/taxonomy-changes/TAXONOMY_CHANGE_274.md).
+
+## INF-511 — Report three separate layer, destruction and support coverage proportions
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: The area result displays separate proportions for opened layers, destroyed counted threats and collected support items. Improving one measure does not make the other measures complete.
+- Includes: Read Analyzation, Shot Down and Support Item on the subsystem screen after an Area 1 clear.
+- Excludes: An optional points score, a single undifferentiated grade, or estimates of hidden future targets.
+- Parameters: Layer total, counted enemies, support items, individual result ratios and presentation.
+- Evidence: [Rez decomposition](../games/m-r/rez.md), RZ-009.
+- Novelty: first isolated for `GAME-0526`; see [TAXONOMY_CHANGE_273](../../research/taxonomy-changes/TAXONOMY_CHANGE_273.md).
+
+## INF-510 — Disclose pending locks, evolution progress and special charges independently
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: The live display distinguishes the shots queued on the current reticle from progress toward the next form and from available special-attack charges.
+- Includes: Read a pending lock count at the reticle, and consult two separate gauges before deciding whether to use Overdrive.
+- Excludes: A threat-bearing radar, a single health number, or post-stage completion ratios.
+- Parameters: Pending lock count, progress gauge, visible avatar form and charge gauge.
+- Evidence: [Rez decomposition](../games/m-r/rez.md), RZ-009.
+- Novelty: first isolated for `GAME-0526`; see [TAXONOMY_CHANGE_273](../../research/taxonomy-changes/TAXONOMY_CHANGE_273.md).
+
+## INF-509 — Display need-category readiness separately from individual attribute effects
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The residence panel exposes current fulfilment under each category, the upgrade minima, and optional or individual attribute gains. A player can distinguish an unfilled category from a supplied alternative with a different return.
+- Includes: Inspect a Latium home’s Food, Public Service and Fashion bars and hover over sardines and porridge to compare their effects.
+- Excludes: A single happiness score, recipe ratios without residence state or an undisclosed eligibility threshold.
+- Parameters: Residence, supply bars, categories, selected need, attributes and upgrade cue.
+- Evidence: [Anno 117: Pax Romana decomposition](../games/a-f/anno-117-pax-romana.md), A117-005, A117-006, A117-010.
+- Novelty: first isolated for `GAME-0525`; see [TAXONOMY_CHANGE_272](../../research/taxonomy-changes/TAXONOMY_CHANGE_272.md).
+
+## INF-508 — Expose independent engine tier and race-miss count
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Two race displays reveal the current cumulative engine tier and race-wide recorded mistakes independently, so a rise in one does not imply recovery of the other.
+- Includes: Watch the power arrows rise again after a correct buoy while the earlier miss cross remains.
+- Excludes: A single boost gauge, inferred previous mistakes, or a shared meter that fills by consuming penalty charges.
+- Parameters: Power arrows, cap signal, miss marks and concurrent presentation.
+- Evidence: [Wave Race 64 decomposition](../games/s-z/wave-race-64.md), WR-004, WR-005, WR-008.
+- Novelty: first isolated for `GAME-0524`; see [TAXONOMY_CHANGE_271](../../research/taxonomy-changes/TAXONOMY_CHANGE_271.md).
+
+## INF-507 — Show the required passing side separately from the perimeter return cue
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Visible route markers distinguish the required passing side for individual encounters. Outer perimeter markers and a directional warning communicate returning to the course as a separate navigation problem.
+- Includes: Pass to the right of a red route buoy. Read the pink perimeter and the return arrow when approaching the outer edge.
+- Excludes: A neutral marker valid from either side, a single GPS route recommendation, or inferring the correct side only from a failure message.
+- Parameters: Marker meaning, visible side, boundary, warning direction and player view.
+- Evidence: [Wave Race 64 decomposition](../games/s-z/wave-race-64.md), WR-004, WR-006, WR-008.
+- Novelty: first isolated for `GAME-0524`; see [TAXONOMY_CHANGE_271](../../research/taxonomy-changes/TAXONOMY_CHANGE_271.md).
+
+## INF-506 — Show the current calendar phase and warn before spending it
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The interface identifies the current named time phase and signals before commitment that an offered activity will consume time. The warning lets the player distinguish a phase-spending choice from free movement and inspection.
+- Includes: Read the named hour and an investigation warning before committing to Florian’s substantial examination.
+- Excludes: An uninterrupted countdown, an exact future verdict forecast, or performing the phase advance itself.
+- Parameters: Named phase, date, offered activity, spending signal and free-action contrast.
+- Evidence: [Pentiment decomposition](../games/m-r/pentiment.md), PEN-002, PEN-003.
+- Novelty: first isolated for `GAME-0523`; see [TAXONOMY_CHANGE_270](../../research/taxonomy-changes/TAXONOMY_CHANGE_270.md).
+
+## INF-505 — Expose current lie, throw direction, wind, disc recommendation and count
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: Before delivery the player can see the current lie and route, directional aim, prevailing wind, suggested disc and current count. The displayed information helps prepare a shot without promising its exact landing.
+- Includes: Read the wind and recommendation before choosing a disc for a shorter approach to the glowing goal.
+- Excludes: An exact future trajectory, undisclosed wind generation, a swing algorithm or an enforced disc assignment.
+- Parameters: Lie, aim, wind, suggested class, counted deliveries and feedback.
+- Evidence: [Wii Sports Resort decomposition](../games/s-z/wii-sports-resort.md), WSR-002, WSR-009.
+- Novelty: first isolated for `GAME-0521`; see [TAXONOMY_CHANGE_268](../../research/taxonomy-changes/TAXONOMY_CHANGE_268.md).
+
+## INF-504 — Indicate the approximate region of a loose contested resource
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A locator shows the broad arena region of a loose resource as it appears or returns. The cue supports routing without disclosing an exact traversal path.
+- Includes: Read the bottom locator when a Power Stone appears on the arena floor.
+- Excludes: Only showing the stone count, an exact shortest-path preview, or showing only an already visible pickup in the world.
+- Parameters: Resource, loose position, locator region, display timing and route uncertainty.
+- Evidence: [Power Stone decomposition](../games/m-r/power-stone.md), PS-009.
+- Novelty: first isolated for `GAME-0519`; see [TAXONOMY_CHANGE_266](../../research/taxonomy-changes/TAXONOMY_CHANGE_266.md).
+
+## INF-503 — Expose a local disturbance for a pending habitat encounter
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A local visible disturbance marks the habitat whose pending arrival can be investigated. It directs the player to the site before the encounter is revealed in the world.
+- Includes: Notice shaking tall grass and inspect it to meet the waiting Pokémon.
+- Excludes: A fully visible wandering actor, a generic quest marker with no site-specific arrival, or battle telegraph timing.
+- Parameters: Marked habitat, visible disturbance, pending encounter and inspection prompt.
+- Evidence: [Pokémon Pokopia decomposition](../games/m-r/pokemon-pokopia.md), PP-002, PP-004, PP-007.
+- Novelty: first isolated for `GAME-0518`; see [TAXONOMY_CHANGE_265](../../research/taxonomy-changes/TAXONOMY_CHANGE_265.md).
+
+## INF-502 — Disclose coarse and detailed regions in a sensor overview
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: An overview distinguishes locations where current sensor coverage supports detailed information from regions represented coarsely. It can mark scripted objectives outside the selected local view.
+- Includes: Switch to the Homeworld sensor view to see objective pings and distinguish areas with current fleet sensor coverage.
+- Excludes: A uniformly detailed world map, a local-only unit pane, or the simulation rule deciding what is observable irrespective of this view.
+- Parameters: Overview scale, coverage-dependent detail and objective markers.
+- Evidence: [Homeworld decomposition](../games/g-l/homeworld.md), HW-002.
+- Novelty: first isolated for `GAME-0517`; see [TAXONOMY_CHANGE_264](../../research/taxonomy-changes/TAXONOMY_CHANGE_264.md).
+
+## INF-501 — Expose the beat phase used by freely selected live actions
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Sound or synchronized visual motion discloses the recurring phase shared by multiple optional live actions. The player can consult that phase when choosing and timing a command without being given an authored list of required next notes.
+- Includes: Track the musical pulse, motion and optional beat guide while freely choosing attacks in Hi-Fi RUSH.
+- Excludes: An authored sequence of notes to match, a telegraph only for one incoming strike, a purely cosmetic loop with no command relation, or reporting timing only after the attempt.
+- Parameters: Beat reference, visible or audible channel, timing phase and aligned action classes.
+- Evidence: [Hi-Fi RUSH decomposition](../games/g-l/hi-fi-rush.md), HR-008.
+- Novelty: first isolated for `GAME-0516`; see [TAXONOMY_CHANGE_263](../../research/taxonomy-changes/TAXONOMY_CHANGE_263.md).
+
+## INF-500 — Read injury and bleeding from body feedback without a numeric meter
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Current injury severity is disclosed through changes in the controlled avatar’s posture, gait or animation. A distinct visible bodily sign discloses ongoing bleeding without giving a numeric health value.
+- Includes: Regina guards an injured arm or struggles to walk. A blood trail identifies ongoing bleeding and the need to stop it.
+- Excludes: Numerical health bars, a body-part treatment selection panel, a cosmetic stain that does not disclose current injury, or a prompt that reports an exact depletion rate.
+- Parameters: Current injury, condition animation, distinct ongoing bleed cue and unavailable exact numeric health.
+- Evidence: [Original Dino Crisis route](../games/a-f/dino-crisis.md), DC-005. Documentary evidence from the scoped North American release.
+- Novelty: first isolated for `GAME-0515`; see [TAXONOMY_CHANGE_262](../../research/taxonomy-changes/TAXONOMY_CHANGE_262.md).
+
+## INF-499 — Show the basic attack footprint while choosing movement
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: When the active combatant is choosing an ordinary move, the interface distinguishes the displayed reach of its ordinary attack from the set of available movement destinations. The attack footprint helps the player judge whether positional movement will enable a strike.
+- Includes: The ranged cat’s movement interface shows attack reach in red as the player decides how to approach Tom Tom.
+- Excludes: A list of movement destinations alone, an identified next enemy action, a guarantee of hitting the shown cell or a predicted random result.
+- Parameters: Active actor, move selection, reachable tiles, basic attack footprint and highlight.
+- Evidence: [Mewgenics first battle](../games/m-r/mewgenics.md), MG-003/008. Documentary launch-day scope; no direct play or exact binary.
+- Novelty: first isolated for `GAME-0514`; see [TAXONOMY_CHANGE_261](../../research/taxonomy-changes/TAXONOMY_CHANGE_261.md). No external novelty claim.
+
 ## INF-498 — Consult an incomplete authored map with independent compass orientation
 
 - Lifecycle: `Active`

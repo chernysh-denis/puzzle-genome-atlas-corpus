@@ -25622,6 +25622,2607 @@
         "checked": null
       },
       "releases": []
+    },
+    "GAME-0514": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Released English Windows Steam base product; first battle of The Path",
+        "editionUk": "Англомовний реліз базової гри для Windows у Steam; перший бій у The Path",
+        "version": "Documented launch-day ruleset of 2026-02-10; exact build unverified",
+        "distribution": "Steam app 686060; documentary account only",
+        "evidenceUrl": "https://store.steampowered.com/app/686060/Mewgenics/",
+        "checked": "2026-11-15"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0515": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION",
+        "edition": "Original North American English PlayStation disc; first surface-power route on Normal",
+        "editionUk": "Оригінальний англомовний диск для PlayStation у Північній Америці; перший маршрут відновлення живлення на звичайній складності",
+        "version": "SLUS-00922 (1999); original rules reconstructed from documents; binary revision unverified",
+        "distribution": "Original retail PlayStation CD-ROM; documentary analysis",
+        "evidenceUrl": "https://www.scribd.com/document/862305768/Dino-Crisis-1999-Capcom-Co-Ltd",
+        "checked": "2026-11-16"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0516": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-SERIES",
+        "edition": "Released English Xbox Series X|S base campaign, fresh Normal Track 1 A Fresh Start",
+        "editionUk": "Релізна англомовна базова кампанія для Xbox Series X|S, нова гра на звичайній складності, перший трек A Fresh Start",
+        "version": "2023-01-25 release reference, Xbox product 9NFTC552K3GJ; installed binary and exact tuning unverified",
+        "distribution": "Released digital Xbox Series base game; no DLC or replay equipment",
+        "evidenceUrl": "https://www.xbox.com/en-US/games/store/hi-fi-rush/9nftc552k3gj",
+        "checked": "2026-11-16"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0517": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Original English Windows retail base campaign, fresh Kushan Mission 01 Kharak System",
+        "editionUk": "Оригінальна англомовна роздрібна базова кампанія для Windows, нова гра за кушанів, місія 01 Kharak System",
+        "version": "1999 retail reference; exact patch and installed binary unverified",
+        "distribution": "Original English Sierra Windows retail CD-ROM",
+        "evidenceUrl": "https://sierrachest.com/gfx/games/Homeworld/box/manual.pdf",
+        "checked": "2026-11-16"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0518": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH-2",
+        "edition": "Released English Nintendo Switch 2 base game, fresh single-player Withered Wasteland first day",
+        "editionUk": "Релізна англомовна базова гра для Nintendo Switch 2, перший день нової одиночної історії у Withered Wasteland",
+        "version": "2026-03-05 release rules reference; pre-launch update 1.0.1 listed; exact installed build unverified",
+        "distribution": "Official Nintendo Switch 2 base-game distribution; no DLC or seasonal mode",
+        "evidenceUrl": "https://www.nintendo.com/us/store/products/70010000107421/",
+        "checked": "2026-11-16"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0519": {
+      "analysisTarget": {
+        "platformId": "PLAT-DREAMCAST",
+        "edition": "Original North American English Dreamcast retail local Versus, Falcon vs Gunrock in Londo",
+        "editionUk": "Оригінальний північноамериканський випуск для Dreamcast англійською, локальний двобій Фалкона й Ґанрока на Londo",
+        "version": "1999 retail T-1201N; default three-stone, 99-second, first-to-two rules; exact disc binary unverified",
+        "distribution": "Capcom, original North American Dreamcast GD-ROM",
+        "evidenceUrl": "https://gamefaqs.gamespot.com/dreamcast/198332-power-stone/data",
+        "checked": "2026-11-16"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0520": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH",
+        "edition": "North American English Nintendo Switch base game, fresh solo opening through the first lit candle",
+        "editionUk": "Англомовна північноамериканська базова гра для Nintendo Switch, сольний початок із нового збереження до запалення першої свічки",
+        "version": "May 9, 2024 release-era base rules; exact installed build unverified",
+        "distribution": "Bigmode, Nintendo eShop North America",
+        "evidenceUrl": "https://www.nintendo.com/us/store/products/animal-well-switch/",
+        "checked": "2026-11-16"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0521": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-WII",
+        "edition": "North American English Nintendo Wii retail, solo manual Frisbee Golf, Classic A hole 1",
+        "editionUk": "Північноамериканське дискове видання Nintendo Wii англійською, сольний диск-гольф із ручним керуванням, перша лунка Classic A",
+        "version": "July 26, 2009 retail RVL-RZTE-USA; calibrated Wii MotionPlus; right-handed manual release; exact executable unverified",
+        "distribution": "Nintendo, North American Wii optical disc",
+        "evidenceUrl": "https://gamefaqs.gamespot.com/wii/950923-wii-sports-resort/data",
+        "checked": "2026-11-16"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0522": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-5",
+        "edition": "English PlayStation 5 launch-era base campaign, first opening reset after the Atropian Weapon Charger",
+        "editionUk": "Англомовна базова кампанія PlayStation 5 періоду виходу, перше скидання після встановлення атропійського зарядного модуля",
+        "version": "April 30, 2021 launch-era rules; default DualSense; offline solo; exact installed patch unverified",
+        "distribution": "Sony Interactive Entertainment, native PlayStation 5 game",
+        "evidenceUrl": "https://www.playstation.com/en-us/games/returnal/",
+        "checked": "2026-11-17"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0523": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-SERIES",
+        "edition": "English Xbox Series X|S single-player base game, Act I murder inquiry",
+        "editionUk": "Англомовна базова гра Xbox Series X|S для одного гравця, розслідування вбивства в першому акті",
+        "version": "November 15, 2022 release-era rules; exact installed patch unverified",
+        "distribution": "Xbox Game Studios, native Xbox Series X|S game",
+        "evidenceUrl": "https://news.xbox.com/en-us/2022/08/24/pentiment-releasing-on-november-15/",
+        "checked": "2026-11-17"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0524": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-64",
+        "edition": "Original North American English Nintendo 64 cartridge, solo Normal Championship Round 01 Sunny Beach",
+        "editionUk": "Оригінальний англомовний північноамериканський картридж Nintendo 64, перший сольний заїзд чемпіонату на звичайній складності, траса Санні-Біч",
+        "version": "November 1996 release-era rules, NUS-NWRE-USA; exact ROM revision unverified",
+        "distribution": "Nintendo, original Nintendo 64 Game Pak",
+        "evidenceUrl": "https://www.manualslib.com/manual/4366169/Nintendo-Wave-Race-64.html",
+        "checked": "2026-11-17"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0525": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "English Windows PC base game, solo Endless Latium opening through first Liberti residence upgrade",
+        "editionUk": "Англомовна базова гра для Windows, початок сольного нескінченного режиму в Лації до першого поліпшення оселі вільновідпущеників",
+        "version": "November 13, 2025 Windows release, launch patch 1.2; exact executable unverified",
+        "distribution": "Ubisoft Windows base digital release",
+        "evidenceUrl": "https://www.anno-union.com/anno-117-pax-romana-its-launch-day/",
+        "checked": "2026-11-17"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0526": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-2",
+        "edition": "Original English North American PlayStation 2 disc, fresh-profile Play Mode Area 1",
+        "editionUk": "Оригінальний англомовний північноамериканський диск для PlayStation 2, перша зона режиму проходження з нового профілю",
+        "version": "January 2002 North American release, SLUS-20344; exact disc revision unverified",
+        "distribution": "Sega of America retail PlayStation 2 disc",
+        "evidenceUrl": "https://gamefaqs.gamespot.com/ps2/517868-rez/data/1000",
+        "checked": "2026-11-17"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0527": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH",
+        "edition": "North American English Nintendo Switch eShop base game, Standard Mode, first Baichang encounter",
+        "editionUk": "Англомовна північноамериканська базова гра Nintendo eShop для Nintendo Switch, перша сутичка з Байчаном у стандартному режимі",
+        "version": "November 26, 2024 Nintendo Switch release rules; exact installed build unverified",
+        "distribution": "North American Nintendo eShop digital release",
+        "evidenceUrl": "https://www.nintendo.com/us/store/products/nine-sols-switch/",
+        "checked": "2026-11-17"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0528": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Original 1996 English full Windows 95 CD, new game to first bridge access",
+        "editionUk": "Оригінальний англомовний диск для Windows 95, 1996 рік, від нової гри до першого виходу на міст",
+        "version": "1996 Windows 95 release rules; exact disc revision unverified",
+        "distribution": "DreamWorks Interactive retail CD-ROM",
+        "evidenceUrl": "https://smetisteher.cz/manualy/neverhood_manual.pdf",
+        "checked": "2026-11-17"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0529": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-4",
+        "edition": "Original 2018 North American English PlayStation 4 release, first Normal Journey stage",
+        "editionUk": "Оригінальний англомовний реліз PlayStation 4 для Північної Америки 2018 року, перший етап Journey на Normal",
+        "version": "2018 PlayStation 4 release rules before the Connected update; exact installed patch unverified",
+        "distribution": "Enhance North American PlayStation Store CUSA13594 or original retail disc",
+        "evidenceUrl": "https://www.tetriseffect.game/2018/11/09/tetris-effect-now-available-on-playstation4-worldwide/",
+        "checked": "2026-11-17"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0530": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-360",
+        "edition": "Original 2008 North American English Xbox 360 retail Disc 1, Ipsilon Peak Grilgan encounter",
+        "editionUk": "Оригінальний англомовний диск 1 для Xbox 360 у Північній Америці, 2008 рік, бій із Ґрілґаном на вершині Іпсілону",
+        "version": "2008 Xbox 360 retail rules; exact installed title update unverified",
+        "distribution": "Microsoft Game Studios four-disc North American retail edition",
+        "evidenceUrl": "https://rfgeneration.com/cgi-bin/getinfo.pl?ID=U-115-S-02660-A",
+        "checked": "2026-11-17"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0531": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-5",
+        "edition": "May 2025 English PS5 base game, flat-screen first chapter from dormant Potboy through the first candle diversion",
+        "editionUk": "Англомовна базова гра PS5, травень 2025 року, звичайний екран, перший розділ від пробудження Потбоя до першого відволікання свічкою",
+        "version": "May 2025 PS5 base-game rules; exact installed patch unverified",
+        "distribution": "Fast Travel Games PlayStation Store release",
+        "evidenceUrl": "https://store.playstation.com/en-us/concept/10009390",
+        "checked": "2026-11-17"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0532": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH-2",
+        "edition": "English Nintendo Switch 2 Edition, digital v1.0, standard first Erebus guardian",
+        "editionUk": "Англомовне цифрове видання Nintendo Switch 2 Edition v1.0, звичайний бій із першою вартовою Еребу",
+        "version": "September 2025 v1.0 launch rules; exact installed console patch unverified",
+        "distribution": "Supergiant Games native Nintendo eShop release",
+        "evidenceUrl": "https://www.nintendo.com/us/store/products/hades-ii-nintendo-switch-2-edition-switch-2/",
+        "checked": "2026-11-17"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0533": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-DS",
+        "edition": "Original English European DS cartridge, first Chapter 1 rewind and rescue",
+        "editionUk": "Оригінальний англомовний європейський картридж для Nintendo DS, перше відмотування й порятунок у першому розділі",
+        "version": "14 January 2011 European release rules; exact cartridge revision unverified",
+        "distribution": "Capcom cartridge distributed by Nintendo of Europe",
+        "evidenceUrl": "https://www.nintendo.com/en-gb/News/2011/In-shops-now-Ghost-Trick-Phantom-Detective-for-Nintendo-DS--253025.html",
+        "checked": "2026-11-17"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0534": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-SERIES",
+        "edition": "English digital Xbox Series X|S base game, solo first Career job Removals Van",
+        "editionUk": "Англомовна цифрова базова гра для Xbox Series X|S, перше одиночне замовлення кар’єри Removals Van",
+        "version": "October 2025 full-release rules; exact installed console patch unverified",
+        "distribution": "FuturLab Xbox digital release, product 9P45GGDTFNSM",
+        "evidenceUrl": "https://www.xbox.com/en-US/games/store/powerwash-simulator-2/9p45ggdtfnsm",
+        "checked": "2026-11-17"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0535": {
+      "analysisTarget": {
+        "platformId": "PLAT-DREAMCAST",
+        "edition": "Original North American English Dreamcast retail release, Disc 1, Little Jack versus Blackbeard",
+        "editionUk": "Оригінальне англомовне північноамериканське видання Dreamcast, перший диск, Little Jack проти Blackbeard",
+        "version": "November 2000 North American release rules; exact disc mastering unverified",
+        "distribution": "Sega original two-disc North American Dreamcast retail edition",
+        "evidenceUrl": "https://social.sega.com/articles/how-time-flies-skies-of-arcadia-set-sail-for-american/",
+        "checked": "2026-11-17"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0536": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-5",
+        "edition": "US English PS5 Standard Edition full release, SectorGuard on Standard",
+        "editionUk": "Повне англомовне видання для PS5, американський PlayStation Store, бій із SectorGuard на стандартній складності",
+        "version": "April 17, 2026 full-release campaign rules; installed patch unverified",
+        "distribution": "US PlayStation Store Standard Edition, UP0102-PPSA02530_00-PRAGMATA00000000",
+        "evidenceUrl": "https://store.playstation.com/en-us/product/UP0102-PPSA02530_00-PRAGMATA00000000/",
+        "checked": "2026-11-17"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0537": {
+      "analysisTarget": {
+        "platformId": "PLAT-GAME-BOY-COLOR",
+        "edition": "Original English North American Game Boy Color cartridge CGB-KTNE-USA, Normal course 1-1",
+        "editionUk": "Оригінальний англомовний північноамериканський картридж Game Boy Color CGB-KTNE-USA, звичайна траса 1-1",
+        "version": "April 2001 North American retail rules; installed cartridge ROM revision unverified",
+        "distribution": "Original Nintendo CGB-KTNE-USA sensor cartridge",
+        "evidenceUrl": "https://iwataasks.nintendo.com/interviews/wii/kirby-dream-land/0/3/",
+        "checked": "2026-11-17"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0538": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Full Steam base game for Windows, English, Prologue: Constriction",
+        "editionUk": "Повна базова гра для Windows у Steam, англійська мова, пролог «Удушення»",
+        "version": "2024-11-12 release-era base rules; installed build ID unverified",
+        "distribution": "Steam app 2716400",
+        "evidenceUrl": "https://store.steampowered.com/app/2716400/The_Rise_of_the_Golden_Idol/",
+        "checked": "2026-11-17"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0539": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-64",
+        "edition": "Original North American English Nintendo 64 cartridge NUS-NBCE-USA, first Simian Acres carrier mission",
+        "editionUk": "Оригінальний англомовний північноамериканський картридж Nintendo 64 NUS-NBCE-USA, перша місія супроводу «Мавпячі угіддя»",
+        "version": "1997 North American retail rules; exact cartridge revision unverified",
+        "distribution": "Nintendo 64 Game Pak NUS-NBCE-USA",
+        "evidenceUrl": "https://www.videogamemanual.com/n64/Blast%20Corps%20(USA).pdf",
+        "checked": "2026-11-17"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0540": {
+      "analysisTarget": {
+        "platformId": "PLAT-IOS",
+        "edition": "Full English iPhone App Store release 1539778232, portrait touch opening",
+        "editionUk": "Повна англомовна гра для iPhone в App Store, вертикальне сенсорне керування на початку",
+        "version": "December 2022 initial public release rules; captured build unverified",
+        "distribution": "Apple App Store, com.kice.afterplace, 1539778232",
+        "evidenceUrl": "https://apps.apple.com/us/app/afterplace/id1539778232",
+        "checked": "2026-11-17"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0541": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Full English Windows Steam base game app 3641000, first reconstruction after calibration",
+        "editionUk": "Повна англомовна гра для Windows у Steam, перша відновлена сцена після калібрування",
+        "version": "July 2026 launch-period retail rules; exact sampled build unverified",
+        "distribution": "Steam app 3641000, Windows base game",
+        "evidenceUrl": "https://store.steampowered.com/app/3641000/The_Incident_at_Galley_House/",
+        "checked": "2026-11-18"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0542": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-WII",
+        "edition": "Original English North American Wii disc, Excite Race, Excite, Bronze Mexico Greenhorn Gulch with Boulder",
+        "editionUk": "Оригінальний англомовний диск Wii для Північної Америки, Excite Race, складність Excite, Greenhorn Gulch із Boulder",
+        "version": "November 2006 North American retail rules; exact disc revision unverified",
+        "distribution": "Nintendo Wii North American retail disc, English single-player rules",
+        "evidenceUrl": "https://csassets.nintendo.com/noaext/image/private/t_KA_PDF/Wii_Excite_Truck?_a=BATCtdAA0",
+        "checked": "2026-11-18"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0543": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-SERIES",
+        "edition": "Full English Xbox Series X|S release, Radiant Grove main route, default controller bindings",
+        "editionUk": "Повний англомовний реліз Xbox Series X|S, основний маршрут Radiant Grove, стандартне керування",
+        "version": "Released story rules, 17 October 2025; exact installed patch unverified",
+        "distribution": "Xbox Series X|S full released game",
+        "evidenceUrl": "https://news.xbox.com/en-us/2025/10/17/keeper-launch-day-note-from-creator/",
+        "checked": "2026-11-18"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0544": {
+      "analysisTarget": {
+        "platformId": "PLAT-DREAMCAST",
+        "edition": "Original English North American Dreamcast release, ordinary first playthrough, Report 1 Spaceport",
+        "editionUk": "Оригінальний англомовний північноамериканський реліз Dreamcast, звичайне перше проходження, Report 1 Spaceport",
+        "version": "2000 North American retail rules; exact disc revision unverified",
+        "distribution": "Sega Dreamcast North American retail GD-ROM, English",
+        "evidenceUrl": "https://www.digitpress.com/library/manuals/dreamcast/space_channel_5.pdf",
+        "checked": "2026-11-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0545": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-5",
+        "edition": "Full English PS5 release, original 2025 season rules, Episode 2 first Z-Team shift",
+        "editionUk": "Повний англомовний реліз PS5, правила оригінального сезону 2025 року, перша зміна Z-Team у другому епізоді",
+        "version": "Original 2025 standard dispatch and timed hacking; exact installed patch unverified",
+        "distribution": "AdHoc Studio PlayStation Store full PS5 release, English",
+        "evidenceUrl": "https://www.playstation.com/en-us/games/dispatch/",
+        "checked": "2026-11-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0546": {
+      "analysisTarget": {
+        "platformId": "PLAT-SEGA-SATURN",
+        "edition": "Original English North American Saturn retail, Tillis, first-clear Fallen Memory",
+        "editionUk": "Оригінальний англомовний північноамериканський реліз Saturn, Tillis, перше проходження Fallen Memory",
+        "version": "1998 US retail booklet rules; exact disc revision unverified",
+        "distribution": "Sega Saturn North American retail CD-ROM, English",
+        "evidenceUrl": "https://archive.org/details/Burning_Rangers_1998_U",
+        "checked": "2026-11-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0547": {
+      "analysisTarget": {
+        "platformId": "PLAT-META-QUEST",
+        "edition": "Full standalone Quest 2 game, solo Standard Tourist Trap Easy hole 1",
+        "editionUk": "Повна автономна гра Quest 2, одиночний Standard, перша лунка Tourist Trap Easy",
+        "version": "Developer-documented full-release rules checked 2026-11-19; exact installed patch unverified",
+        "distribution": "Meta Quest Store standalone full game, English, one Touch controller",
+        "evidenceUrl": "https://www.meta.com/experiences/walkabout-mini-golf/2462678267173943/",
+        "checked": "2026-11-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0548": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-64",
+        "edition": "Original North American retail, Smashing Start ordinary first clear",
+        "editionUk": "Оригінальний північноамериканський картридж, звичайне перше завершення Smashing Start",
+        "version": "US 1.0 target; no native binary checksum or input capture",
+        "distribution": "Original English Nintendo 64 cartridge, 1998",
+        "evidenceUrl": "https://www.world-of-nintendo.com/manuals/nintendo_64/space_station_silicon_v.shtml",
+        "checked": "2026-11-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0549": {
+      "analysisTarget": {
+        "platformId": "PLAT-ANDROID",
+        "edition": "Original PID Android full-release rules, first complete Roto Jungle mission",
+        "editionUk": "Оригінальні правила повного Android-релізу PID, повна перша місія Roto Jungle",
+        "version": "Launch-window July 2023 rules; exact native APK/build unverified",
+        "distribution": "Original English com.pid.rotoforce with full unlock prescribed; now delisted",
+        "evidenceUrl": "https://accidentlyawesome.com/roto-force-presskit/",
+        "checked": "2026-11-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0550": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-5",
+        "edition": "Original PS5 campaign release, first complete Snake duel",
+        "editionUk": "Оригінальний PS5-реліз кампанії, повна перша дуель зі Змієм",
+        "version": "October 2025 campaign rules; exact installed patch unverified",
+        "distribution": "Original full English PS5 campaign, ordinary New Game",
+        "evidenceUrl": "https://sonyinteractive.com/en/press-releases/2025/journey-across-the-northern-edge-of-17th-century-japan-in-ghost-of-yotei-out-now-on-playstation-5/",
+        "checked": "2026-11-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0551": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION",
+        "edition": "Original English North American PlayStation main disc, first complete Grand Prix qualifying heat",
+        "editionUk": "Оригінальний англомовний основний диск PlayStation для Північної Америки, повний перший кваліфікаційний етап Grand Prix",
+        "version": "1999 SLUS-00797 catalogue target; exact native revision/checksum unverified",
+        "distribution": "Original Namco Hometek North American retail main disc; no bonus disc or modern wrapper",
+        "evidenceUrl": "https://secure.cdn.us.playstation.com/manuals/classic/games/r4-ridge-racer-type-4-manual-en.pdf",
+        "checked": "2026-11-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0552": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-SERIES",
+        "edition": "Original Xbox Series X|S full campaign, complete Chapter 1 Daymark, default controller and stamina",
+        "editionUk": "Оригінальна повністю випущена кампанія Xbox Series X|S, повний перший розділ Daymark, типове керування й витривалість",
+        "version": "October 2023 launch-rules profile; exact installed package and checksum unverified",
+        "distribution": "Original released Xbox digital campaign; no demo, PC/PS5 substitution or cloud session",
+        "evidenceUrl": "https://news.xbox.com/en-us/2023/10/31/jusant-climbing-tips/",
+        "checked": "2026-11-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0553": {
+      "analysisTarget": {
+        "platformId": "PLAT-SUPER-NINTENDO",
+        "edition": "Original English North American SNES, one-player complete TLPT level",
+        "editionUk": "Оригінальна англомовна SNES для Північної Америки, повний рівень TLPT для одного гравця",
+        "version": "SNS-LV-USA catalogue target; 1992/1993 dating qualified; exact ROM revision/checksum unverified",
+        "distribution": "Original Interplay retail rules, not Genesis, DOS, GBA or Arcade Collection Definitive Edition",
+        "evidenceUrl": "https://news.blizzard.com/en-us/article/23609765/the-lost-vikings-and-how-we-learned-to-love-multiplayer-puzzles",
+        "checked": "2026-11-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0554": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Full English Windows Steam release, complete Day 1 Friday and first optional recovery",
+        "editionUk": "Повний англомовний випуск Steam для Windows, весь перший день п’ятниці та перше необов’язкове відновлення",
+        "version": "Released retail rules; exact installed build/checksum unverified",
+        "distribution": "Steam app 1574580, full release from 21 January 2022, not demo or console/mobile input parity",
+        "evidenceUrl": "https://store.steampowered.com/app/1574580/Strange_Horticulture/",
+        "checked": "2026-11-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0555": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-GAMECUBE",
+        "edition": "Original English European retail, complete first-night living-room housekeeping",
+        "editionUk": "Оригінальний англомовний європейський випуск, увесь період прибирання вітальні першої ночі",
+        "version": "EU release identity; US manual/recording corroboration, exact PAL revision unverified",
+        "distribution": "European Nintendo GameCube retail, 26 May 2006; no DS, Wii or Switch 2 control parity",
+        "evidenceUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-GameCube/Chibi-Robo--267829.html",
+        "checked": "2026-11-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0556": {
+      "analysisTarget": {
+        "platformId": "PLAT-IOS",
+        "edition": "Original English Apple Arcade iOS release, complete Doki Doki Rush with touch steering",
+        "editionUk": "Оригінальний англомовний випуск Apple Arcade для iOS, увесь Doki Doki Rush із сенсорним керуванням",
+        "version": "Historical released 2019 rules; installed iOS build/checksum unverified",
+        "distribution": "Apple Arcade iOS, original 19 September 2019 release; removed 15 August 2024, not a current-access promise",
+        "evidenceUrl": "https://simogo.com/work/sayonara-wild-hearts/",
+        "checked": "2026-11-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0557": {
+      "analysisTarget": {
+        "platformId": "PLAT-GAME-BOY-ADVANCE",
+        "edition": "Original English North American GBA retail release, Normal 2, complete Fog Castle and first decoy purification",
+        "editionUk": "Оригінальний англомовний північноамериканський випуск GBA, Normal 2, увесь Fog Castle та перше очищення приманки",
+        "version": "Released 2003 cartridge rules with physical solar sensor and clock; native build/checksum unverified",
+        "distribution": "Original US Game Boy Advance cartridge, shipped 16 September 2003; historical target, no present download claim",
+        "evidenceUrl": "https://www.nintendoworldreport.com/news/8983/boktai-can-now-be-in-your-hand",
+        "checked": "2026-11-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0558": {
+      "analysisTarget": {
+        "platformId": "PLAT-META-QUEST",
+        "edition": "Original English standalone Oculus Quest release, solo Book I, complete The Clearing through home and book closeout",
+        "editionUk": "Оригінальний англомовний автономний випуск Oculus Quest, перша книга наодинці, увесь The Clearing до дому й завершення в книзі",
+        "version": "Released 2019 Quest rules before the 2024 Quest 3/3S update; exact installed build unverified",
+        "distribution": "Original standalone Oculus Quest store release, 21 May 2019; current official product page is not a version-locked download",
+        "evidenceUrl": "https://www.polyarcgames.com/games/moss",
+        "checked": "2026-11-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0559": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-4",
+        "edition": "Original English European PS4 campaign, complete opening cave escape through the first sunlit exterior reunion",
+        "editionUk": "Оригінальна англомовна європейська кампанія PS4, повна втеча з початкової печери до першого возз’єднання надворі під сонцем",
+        "version": "Full December 2016 release rules; exact installed patch and regional executable unverified",
+        "distribution": "Original European PlayStation 4 disc/store release, 7 December 2016; current official store record is not a version-locked download",
+        "evidenceUrl": "https://store.playstation.com/en-gb/concept/204826",
+        "checked": "2026-11-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0560": {
+      "analysisTarget": {
+        "platformId": "PLAT-SEGA-GENESIS",
+        "edition": "Original English North American Genesis cartridge, Normal solo Free Shot, complete Ancient Ruins through Blue Gem and selector return",
+        "editionUk": "Оригінальний англомовний північноамериканський картридж Genesis, Normal наодинці з Free Shot, увесь Ancient Ruins до Blue Gem і повернення до вибору",
+        "version": "Full 1993 cartridge rules; no owned binary or regional checksum inspected",
+        "distribution": "Original North American licensed Genesis cartridge; original booklet preserved by SEGA, not a claim of current cartridge availability",
+        "evidenceUrl": "https://manuals.sega.com/genesismini/manuals/gunstarheroes/index.html",
+        "checked": "2026-11-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0561": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-SERIES",
+        "edition": "Original English native Xbox Series X|S full campaign, fresh complete Loboto’s Labyrinth, base powers and assists disabled",
+        "editionUk": "Оригінальна англомовна повністю випущена кампанія версії для Xbox Series X|S, новий повний Loboto’s Labyrinth, початкові здібності й вимкнені допоміжні налаштування",
+        "version": "August 2021 launch-rules profile; exact installed package, binary and patch unverified",
+        "distribution": "Original released Xbox digital campaign; no preview, Windows/cloud substitution or completion save",
+        "evidenceUrl": "https://www.doublefine.com/news/psychonauts-2-is-here",
+        "checked": "2026-11-19"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0562": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION",
+        "edition": "Original English North American PlayStation fresh New Game, complete Day 1 Resonance and saved successor boundary",
+        "editionUk": "Оригінальна англомовна північноамериканська нова гра PlayStation, увесь Day 1 Resonance і збережена межа наступного дня",
+        "version": "1998 original release rules; Disc 1 SLUS-00662, Disc 2 SLUS-00668; exact binary and hardware execution unverified",
+        "distribution": "Original retail two-disc release; Disc 1 packet, no PSN wrapper, EX profile or sequel substitution",
+        "evidenceUrl": "https://impzone.club/pdf/parasiteeve.pdf",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0563": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH",
+        "edition": "Original English US Nintendo Switch fresh New Game, hotel admission, Room 2014 and all five hotel floor plans",
+        "editionUk": "Оригінальна англомовна американська нова гра Nintendo Switch, допуск до готелю, кімната 2014 й усі п’ять планів поверхів",
+        "version": "16 May 2024 original released rules profile; exact package, patch and native execution unverified",
+        "distribution": "Original US Nintendo eShop release; no Switch 2 upgrade, PlayStation port or development prototype substitution",
+        "evidenceUrl": "https://www.nintendo.com/us/store/products/lorelei-and-the-laser-eyes-switch/",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0564": {
+      "analysisTarget": {
+        "platformId": "PLAT-NEO-GEO-MVS",
+        "edition": "Original English international Neo Geo MVS local two-player Mita versus Wessel match on Beach",
+        "editionUk": "Оригінальний англомовний міжнародний місцевий матч Neo Geo MVS двох гравців, Mita проти Wessel на Beach",
+        "version": "1994 released rules; displayed twelve-point/thirty-second profile; exact BIOS, ROM, operator settings and native execution unverified",
+        "distribution": "Original arcade cartridge rules; no AES/CD options, modern port online layer or sequel substitution",
+        "evidenceUrl": "https://flyers.arcade-museum.com/videogames/show/1301",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0565": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Original English Windows Steam full release; Relic Hunt Normal Small, Engineer, Laser Dome and Shield",
+        "editionUk": "Початковий англомовний повний реліз Steam для Windows; Relic Hunt на Normal і Small, Engineer, Laser Dome та Shield",
+        "version": "27 September 2022 release rules; exact executable/depot checksum and original native reproduction unverified",
+        "distribution": "Steam full release; no Dome Romantik prototype, prerelease demo, later multiplayer or DLC substitution",
+        "evidenceUrl": "https://store.steampowered.com/app/1637320/Dome_Keeper/",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0566": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-DS",
+        "edition": "Original English European Nintendo DS retail release; single-player Makes No Difference on Cruisin",
+        "editionUk": "Початковий англомовний європейський картриджний реліз для Nintendo DS; одиночна Makes No Difference на Cruisin",
+        "version": "13 July 2007 European release; original US manual 61310A supports common rules, not an inspected EU ROM or exact regional timing parity",
+        "distribution": "Original Nintendo DS cartridge; supporting official documentation is not a game download, fan beatmap or emulator certification",
+        "evidenceUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-DS/Elite-Beat-Agents-270660.html",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0567": {
+      "analysisTarget": {
+        "platformId": "PLAT-META-QUEST",
+        "edition": "Original standalone Oculus Quest full retail release; ordinary solo campaign, complete Airport checkpoint group, default pyramidless flow",
+        "editionUk": "Початковий повний автономний роздрібний реліз Oculus Quest; звичайна одиночна кампанія, повна група контрольної точки Airport, стандартний перебіг без пірамід",
+        "version": "Released 2019 Quest rules, launch 21 May 2019, before later v1.111 Airport adjustment; exact installed binary and intervening patch parity unverified",
+        "distribution": "Original standalone Oculus Quest store product 1921533091289407; current store page is not a version-locked historical download or the separate demo",
+        "evidenceUrl": "https://www.youtube.com/watch?v=Q9qNP5EPFEE",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0568": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Base Windows Steam 1.0 full release, single-player campaign, complete The Login Devices at Lee Chemicals",
+        "editionUk": "Базова повна версія 1.0 для Windows у Steam, одиночна кампанія, уся місія The Login Devices у Lee Chemicals",
+        "version": "21 April 2022 version 1.0 default 60-second alarm; launch depot and exact native parity unverified",
+        "distribution": "Steam App 1167630 full release; current storefront does not supply a version-locked launch executable",
+        "evidenceUrl": "https://store.steampowered.com/app/1167630/Teardown/",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0569": {
+      "analysisTarget": {
+        "platformId": "PLAT-APPLE-II",
+        "edition": "Original English Brøderbund Apple II disk, fresh solo level 001 through level 002 entry",
+        "editionUk": "Оригінальний англомовний диск Brøderbund для Apple II, нова одиночна гра від рівня 001 до входу на рівень 002",
+        "version": "1983 Apple II disk rules from original manual and pinned archive reconstruction; exact retail disk parity unverified",
+        "distribution": "Original Brøderbund Apple II disk; other platforms, arcade and later editions excluded",
+        "evidenceUrl": "https://mirrors.apple2.org.za/ftp.apple.asimov.net/documentation/applications/misc/Broderbund_Lode_Runner_manual.pdf",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0570": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-5",
+        "edition": "Original English North American PS5 base release, Normal solo, first Darkwood crusade through first Temple sermon",
+        "editionUk": "Оригінальний англомовний базовий реліз PS5 для Північної Америки, одиночна гра на рівні Normal, від першого походу в Темнолісся до першої проповіді в храмі",
+        "version": "11 August 2022 native PS5 full-release rules reconstructed from launch-period sources; exact console build unverified",
+        "distribution": "Sony PlayStation Store base release; current add-ons and subsequent updates excluded",
+        "evidenceUrl": "https://www.playstation.com/en-us/games/cult-of-the-lamb/",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0571": {
+      "analysisTarget": {
+        "platformId": "PLAT-DREAMCAST",
+        "edition": "Original English North American Dreamcast disc, single-game Exhibition singles, deuce on, Normal COM on Australia Challenge",
+        "editionUk": "Оригінальний англомовний диск Dreamcast для Північної Америки, одиночний показовий матч з одного гейму, правило рівності ввімкнено, звичайний комп’ютерний суперник на Australia Challenge",
+        "version": "2000 North American MK-51054 V1.001 Dreamcast rules, original manual and pinned reconstruction; exact native timing unmeasured",
+        "distribution": "Sega Sports North American commercial Dreamcast GD-ROM; arcade, sequel and other ports excluded",
+        "evidenceUrl": "https://www.digitpress.com/library/manuals/dreamcast/virtua_tennis.pdf",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0572": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH",
+        "edition": "Full English North American Nintendo Switch eShop release, first clear of Rebirth 1-5 Elevate",
+        "editionUk": "Повний англомовний реліз Nintendo Switch у північноамериканському eShop, перше проходження рівня 1-5 Elevate розділу Rebirth",
+        "version": "June 16, 2022 native Switch release rule boundary; exact installed build unverified",
+        "distribution": "Original commercial North American Nintendo Switch eShop download; no PS or PC release",
+        "evidenceUrl": "https://www.nintendo.com/us/store/products/neon-white-switch/",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0573": {
+      "analysisTarget": {
+        "platformId": "PLAT-DOS",
+        "edition": "Original English 1997 DOS PC CD-ROM base game, Eversmile in the full single-player campaign",
+        "editionUk": "Оригінальна англомовна базова гра 1997 року для DOS на PC CD-ROM, край Eversmile у повній одиночній кампанії",
+        "version": "Original 1997 commercial DOS campaign rules; retail executable and exact native ticks unverified",
+        "distribution": "Bullfrog / Electronic Arts commercial PC CD-ROM DOS executable; demo, Gold extras and KeeperFX excluded",
+        "evidenceUrl": "https://www.computinghistory.org.uk/det/30723/Dungeon-Keeper/",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0574": {
+      "analysisTarget": {
+        "platformId": "PLAT-IOS",
+        "edition": "Launch-period English US iPhone App Store edition, Act 2 Chapter 5 First Dates",
+        "editionUk": "Англомовний реліз для iPhone в американському App Store, дія 2, розділ 5 «Перші побачення»",
+        "version": "February 2018 native iPhone launch-period touch rules, App Store 1297430468; exact installed build unverified",
+        "distribution": "Commercial US App Store iPhone release, no Android, PC or console ports",
+        "evidenceUrl": "https://apps.apple.com/us/app/florence/id1297430468",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0575": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-PORTABLE",
+        "edition": "March 2005 English North American PSP UMD, Normal solo story, Stage 01 Outside Gate",
+        "editionUk": "Англомовний північноамериканський диск для PSP, березень 2005 року, звичайна складність, одиночна місія 01 «Перед брамою»",
+        "version": "North American launch-period rules, reported ULUS-10006; exact executable unverified",
+        "distribution": "Commercial North American PSP UMD, no sequel or other regional release",
+        "evidenceUrl": "https://www.konami.com/mg/archive/mga/english/news.html",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0576": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-SERIES",
+        "edition": "July 2021 English Xbox Series X|S standalone commercial base game, Dying Gasp",
+        "editionUk": "Самостійна англомовна базова гра для Xbox Series X|S, липень 2021 року, квест «Останній подих»",
+        "version": "July 2021 standalone launch rules, Xbox product 9NJ4R763M7TH; exact installed binary unverified",
+        "distribution": "Commercial Xbox base game release for Xbox Series X|S; separate Xbox One version and Skyrim mod excluded",
+        "evidenceUrl": "https://www.xbox.com/en-us/games/store/The-Forgotten-City/9NJ4R763M7TH",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0577": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH-2",
+        "edition": "April 2026 English Nintendo Switch 2 retail digital base game, first encounter with Yuna Verse",
+        "editionUk": "Англомовна базова цифрова гра для Nintendo Switch 2, квітень 2026 року, перший бій із Юною Верс",
+        "version": "Commercial release 7 April 2026, Nintendo product 70010000111667; installed version unverified",
+        "distribution": "US Nintendo eShop full release, solo Rising Talent, no demo or other console",
+        "evidenceUrl": "https://www.nintendo.com/us/store/products/70010000111667/",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0578": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX",
+        "edition": "North American English original Xbox retail disc, solo OutRun Arcade / OutRun Mode",
+        "editionUk": "Північноамериканський англомовний диск для першої Xbox, одиночний OutRun Mode в OutRun Arcade",
+        "version": "25 October 2004 North American release; executable revision unverified",
+        "distribution": "Commercial retail disc, ordinary local settings, automatic transmission",
+        "evidenceUrl": "https://worthplaying.com/article/2004/10/27/news/20176-outrun-2-xbox-in-stores-now/",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0579": {
+      "analysisTarget": {
+        "platformId": "PLAT-ANDROID",
+        "edition": "English paid Android base game, Barcelona Level 4 bus, four stops",
+        "editionUk": "Англомовна платна базова гра для Android, четвертий рівень Барселони, чотири автобусні зупинки",
+        "version": "7 August 2025 full release, package com.PotiPoti.IsThisSeatTaken; installed version unverified",
+        "distribution": "Google Play standalone paid game, English display, ordinary untimed puzzle",
+        "evidenceUrl": "https://play.google.com/store/apps/details?id=com.PotiPoti.IsThisSeatTaken",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0580": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-GAMECUBE",
+        "edition": "North American GameCube retail disc, Adults, Joe the Hero Stage 2",
+        "editionUk": "Північноамериканський диск для GameCube, складність Adults, другий етап «Joe the Hero»",
+        "version": "7 October 2003, DOL-GVJE-USA; exact executable revision unverified",
+        "distribution": "Commercial English GameCube release, ordinary first run, no purchased modifiers",
+        "evidenceUrl": "https://www.gamespot.com/articles/viewtiful-joe-ships/1100-6076468/",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0581": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-SERIES",
+        "edition": "US Xbox Series X|S console release, Standard Career, early Mackerel training salvage shift",
+        "editionUk": "Американський реліз для Xbox Series X|S, звичайна кар’єра, рання навчальна зміна на Mackerel",
+        "version": "20 September 2022, Xbox product 9ND8C4314ZZG; installed patch unverified",
+        "distribution": "Commercial English Xbox Series X|S digital release",
+        "evidenceUrl": "https://www.xbox.com/en-US/games/store/hardspace-shipbreaker/9nd8c4314zzg",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0582": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Original LucasArts English Windows CD-ROM release, Year One: first assignment through the Meche intake",
+        "editionUk": "Оригінальний англомовний реліз LucasArts для Windows на компакт-дисках, перший рік: від першого виклику до зустрічі з Мече",
+        "version": "1998 commercial release; installed executable revision unverified",
+        "distribution": "Commercial English Windows 95/98 CD-ROM edition",
+        "evidenceUrl": "https://mocagh.org/lucasfilm/grimfandango-manual.pdf",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0583": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-5",
+        "edition": "Native PS5 commercial digital base game, first campaign visit to Myoko Pass",
+        "editionUk": "Комерційна цифрова базова гра для PS5, перше проходження перевалу Мьоко в кампанії",
+        "version": "19 July 2024 US digital release, UP0102-PPSA19576_00-KUNITSUGAMI00000; installed patch unverified",
+        "distribution": "US PlayStation Store full game, native PS5 download",
+        "evidenceUrl": "https://store.playstation.com/en-us/product/UP0102-PPSA19576_00-KUNITSUGAMI00000",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0584": {
+      "analysisTarget": {
+        "platformId": "PLAT-SEGA-SATURN",
+        "edition": "North American commercial Sega Saturn disc, first local Path to Glory Battle Game round",
+        "editionUk": "Північноамериканський комерційний диск для Sega Saturn, перший локальний раунд на арені «Шлях до слави»",
+        "version": "1997 North American English retail, code 81070; capture disc revision unverified",
+        "distribution": "North American Sega Saturn commercial physical disc 81070",
+        "evidenceUrl": "https://www.satakore.com/sega-saturn-game%2C%2C81070%2C%2CSaturn-Bomberman-USA.html",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0585": {
+      "analysisTarget": {
+        "platformId": "PLAT-META-QUEST",
+        "edition": "Native Meta Quest 2 commercial base game, first retrieval mission",
+        "editionUk": "Комерційна базова гра для Meta Quest 2, перша вилазка за предметом",
+        "version": "September 8, 2022 standalone Quest 2 release, 5817243991680545; exact binary unverified",
+        "distribution": "Meta Quest Store standalone Quest 2 download",
+        "evidenceUrl": "https://www.meta.com/experiences/into-the-radius/5817243991680545/",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0586": {
+      "analysisTarget": {
+        "platformId": "PLAT-IOS",
+        "edition": "Commercial iPhone base game, Ghoulish Graveyard 7",
+        "editionUk": "Комерційна базова гра для iPhone, сьома головоломка цвинтаря",
+        "version": "October 2025 iOS commercial release, App Store 6738424828; exact capture patch unverified",
+        "distribution": "App Store iPhone release with one-time full-game unlock",
+        "evidenceUrl": "https://apps.apple.com/us/app/spooky-express/id6738424828",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0587": {
+      "analysisTarget": {
+        "platformId": "PLAT-SEGA-SATURN",
+        "edition": "Original North American English base game, Episode 2",
+        "editionUk": "Оригінальна англомовна базова гра для Північної Америки, другий епізод",
+        "version": "1996 Sega Saturn retail disc 81022; exact revision unverified",
+        "distribution": "North American Sega Saturn retail disc",
+        "evidenceUrl": "https://www.vgcollect.com/item/8059",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0588": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH",
+        "edition": "Original Nintendo Switch digital base game, Adventure Mode Summer",
+        "editionUk": "Оригінальна цифрова базова гра для Nintendo Switch, розділ «Літо» в режимі пригод",
+        "version": "October 2024 commercial Nintendo Switch launch rules; exact capture revision unverified",
+        "distribution": "Nintendo eShop North American base game",
+        "evidenceUrl": "https://www.nintendo.com/us/store/products/neva-switch/",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0589": {
+      "analysisTarget": {
+        "platformId": "PLAT-DREAMCAST",
+        "edition": "North American retail Dreamcast base game MK-51049, Puzzle Mode Normal Stage 10",
+        "editionUk": "Північноамериканська роздрібна базова гра для Dreamcast MK-51049, режим пазлів, Normal, етап 10",
+        "version": "2000 retail rules; exact capture revision unverified",
+        "distribution": "North American Sega Dreamcast retail disc MK-51049",
+        "evidenceUrl": "https://dreamcastlive.net/files/manuals/ccr_manual.pdf",
+        "checked": "2026-11-20"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0590": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Original Windows Steam full base game, first Timid Challenger SP Battle",
+        "editionUk": "Перший повний базовий реліз для Windows у Steam, перша дуель за очками духу з Timid Challenger",
+        "version": "Ver.1.0.0, September 2025 full release, Steam app 2634950",
+        "distribution": "Steam",
+        "evidenceUrl": "https://tokyoxtremeracer-us.genki.co.jp/news/release-notes_1_0_0.html",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0591": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-2",
+        "edition": "North American retail base game SLUS-20388; complete Himuro intro",
+        "editionUk": "Північноамериканська роздрібна базова гра SLUS-20388, повний пролог у маєтку Хімуро",
+        "version": "March 2002 English North American retail rules; capture revision unverified",
+        "distribution": "Tecmo PlayStation 2 NTSC-U/C retail disc",
+        "evidenceUrl": "https://crimson-ceremony.net/lostreleases/item.php?id=pzgame_pz1-ps2-usa1",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0592": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-SERIES",
+        "edition": "Xbox Series X|S launch digital base game, Day 2 Abandoned Mineshaft",
+        "editionUk": "Цифрова базова гра для Xbox Series X|S на час релізу, Покинута шахта другого дня",
+        "version": "July 2024 full commercial release; exact recording build unverified",
+        "distribution": "Xbox North American digital game 9PGX472J0RJP",
+        "evidenceUrl": "https://www.xbox.com/en-US/games/store/dungeons-of-hinterberg/9PGX472J0RJP/0010",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0593": {
+      "analysisTarget": {
+        "platformId": "PLAT-GAME-BOY-ADVANCE",
+        "edition": "North American Game Boy Advance retail AGB-BZME-USA, first Minish Woods to Deepwood Shrine entry",
+        "editionUk": "Північноамериканський картридж Game Boy Advance AGB-BZME-USA, від першого входу в Ліс мінішів до Храму в гущавині",
+        "version": "English retail release of 10 January 2005; exact recording revision unverified",
+        "distribution": "Nintendo North American Game Pak AGB-BZME-USA",
+        "evidenceUrl": "https://www.nintendo.com/en-ca/explore/characters/zelda/history/",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0594": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-5",
+        "edition": "PlayStation 5 digital base game, chapter 2 Swap through Beam entry",
+        "editionUk": "Цифрова базова гра для PlayStation 5, від розділу «Обмін» до входу в Beam",
+        "version": "17 April 2025 commercial release; exact recording builds unverified",
+        "distribution": "PlayStation Store EP7579-PPSA23767_00-BBAY000000000PS5",
+        "evidenceUrl": "https://store.playstation.com/en-us/product/EP7579-PPSA23767_00-BBAY000000000PS5",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0595": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-SERIES",
+        "edition": "Xbox Series X|S paid English base game, first solo Day Shift 1-1 Samurai Techno",
+        "editionUk": "Платна англомовна версія для Xbox Series X|S, перше одиночне завдання денної зміни Samurai Techno (1-1)",
+        "version": "18 December 2025 Xbox release; exact installed update unverified",
+        "distribution": "Microsoft Store digital product 9PHVMW9R92FX",
+        "evidenceUrl": "https://www.xbox.com/en-US/games/store/Rhythm-Doctor/9PHVMW9R92FX",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0596": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-GAMECUBE",
+        "edition": "North American GameCube retail DOL-GXCE-USA, first solo Basic Arena duel and lab return",
+        "editionUk": "Північноамериканський диск GameCube DOL-GXCE-USA, перший одиночний двобій на Basic Arena й повернення в лабораторію",
+        "version": "English retail release of May 10, 2004; exact disc revision unverified",
+        "distribution": "Nintendo North American GameCube disc DOL-GXCE-USA",
+        "evidenceUrl": "https://www.nintendoworldreport.com/news/9569/custom-robo-hits-stores-monday",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0597": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH",
+        "edition": "North American digital Nintendo Switch base game, Holiday in American-English Sleuth Mode",
+        "editionUk": "Північноамериканська цифрова версія для Nintendo Switch, висновок Holiday в англомовному режимі розслідування",
+        "version": "Full release May 22, 2025; exact installed software revision unverified",
+        "distribution": "Nintendo of America eShop digital base game",
+        "evidenceUrl": "https://www.nintendo.com/us/store/products/duck-detective-the-ghost-of-glamping-switch/",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0598": {
+      "analysisTarget": {
+        "platformId": "PLAT-DREAMCAST",
+        "edition": "Original North American Dreamcast retail GD-ROM 51006, first Arcade Mode area Lodge",
+        "editionUk": "Північноамериканське дискове видання Dreamcast 51006, перша ділянка Lodge в аркадному режимі",
+        "version": "1999 full release; exact disc revision and release day unverified",
+        "distribution": "Sega of America retail GD-ROM product 51006",
+        "evidenceUrl": "https://segaretro.org/images/archive/9/9b/20241126204842%21SegaBassFishing_DC_US_Manual.pdf",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0599": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-5",
+        "edition": "PS5 English digital base game, opening hall to first Veiled Sea restoration and temple approach",
+        "editionUk": "Англомовна цифрова гра для PS5, від вступної зали до першого відновлення Прихованого моря й входу до храму",
+        "version": "Full release 19 August 2025; exact installed patch unverified",
+        "distribution": "PlayStation Store US concept 10011227, PS5 digital base game",
+        "evidenceUrl": "https://store.playstation.com/en-us/concept/10011227",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0600": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-2",
+        "edition": "North American English PS2 retail base game, one standard three-on-three Pick Up Game to 21",
+        "editionUk": "Північноамериканське англомовне видання PS2, один стандартний товариський матч три на три до 21 очка",
+        "version": "Original retail disc SLUS-20651, preservation record v1.00, April 2003; capture revisions unverified",
+        "distribution": "Original North American PlayStation 2 retail disc SLUS-20651",
+        "evidenceUrl": "https://www.vgcollect.com/item/1942",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0601": {
+      "analysisTarget": {
+        "platformId": "PLAT-ANDROID",
+        "edition": "Full English Android base game, first authored Dominoth recording battle and field ability grant",
+        "editionUk": "Повна англомовна базова гра для Android, перший навчальний бій із записом Домінота й відкриттям здатності пересування",
+        "version": "2025 commercial Android release; individual capture build and exact Play restoration date unverified",
+        "distribution": "Google Play package com.RawFury.CassetteBeasts with one-time full-game unlock",
+        "evidenceUrl": "https://play.google.com/store/apps/details?hl=en-US&id=com.RawFury.CassetteBeasts",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0602": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-64",
+        "edition": "North American English Nintendo 64 original, Hang Glider Beginner Class Albatross Nest",
+        "editionUk": "Північноамериканська англомовна версія для Nintendo 64, «Гніздо альбатроса» в початковому класі дельтаплана",
+        "version": "US cartridge catalogue: 1996-09-29, NUS-NPWE-USA, v1.0; capture revision unverified",
+        "distribution": "Original Nintendo 64 retail cartridge",
+        "evidenceUrl": "https://www.nintendo64ever.com/Nintendo-64-Game,644,Pilotwings-64.html",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0603": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Full English Windows Steam base game, first Lunardo Hill Boys race",
+        "editionUk": "Повна англомовна базова гра для Windows у Steam, перша гонка проти команди Лунардо",
+        "version": "2025-07-23 commercial release; August PC traces, installed build unverified",
+        "distribution": "Steam app 1497460, Windows base game",
+        "evidenceUrl": "https://store.steampowered.com/app/1497460/Wheel_World/",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0604": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-SERIES",
+        "edition": "Commercial English Xbox Series X|S base game, first Technician and prologue departure",
+        "editionUk": "Повна англомовна базова гра для Xbox Series X|S, перший Технік і від’їзд у пролозі",
+        "version": "2025-06-13 commercial release; Xbox Series X launch-day trace; installed build unverified",
+        "distribution": "Xbox Store 9N0P25WJHM8C digital base game",
+        "evidenceUrl": "https://www.xbox.com/en-us/games/store/the-alters/9N0P25WJHM8C",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0605": {
+      "analysisTarget": {
+        "platformId": "PLAT-DREAMCAST",
+        "edition": "North American English Dreamcast commercial disc, offline Novice Mission 1",
+        "editionUk": "Північноамериканський англомовний диск Dreamcast, перша офлайнова місія для новачків",
+        "version": "2001-07-24 commercial release; exact media revision unverified",
+        "distribution": "Sega 51102, North American Dreamcast retail disc",
+        "evidenceUrl": "https://www.digitpress.com/library/manuals/dreamcast/out_trigger.pdf",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0606": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Commercial English Windows Steam base game, Miss Deane’s Departure",
+        "editionUk": "Повна англомовна базова гра для Windows у Steam, справа про від’їзд панни Дін",
+        "version": "2025-10-27 commercial release, November Steam trace, exact installed build unverified",
+        "distribution": "Steam app 1395520, Windows base game",
+        "evidenceUrl": "https://store.steampowered.com/app/1395520/The_Seance_of_Blake_Manor/",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0607": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-64",
+        "edition": "North American English Game Pak, Wormin’ Up!! stage 1-7",
+        "editionUk": "Північноамериканський англомовний картридж, рівень 1-7 «Wormin’ Up!!»",
+        "version": "1997-10-01 US commercial release family, exact recorded revision unverified",
+        "distribution": "Nintendo 64 retail Game Pak NUS-NTME-USA",
+        "evidenceUrl": "https://www.nintendo64ever.com/Nintendo-64-Game-Data-Sheet,1677,Mischief-Makers.html",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0608": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-5",
+        "edition": "Commercial English PS5 base game, Port Zest fight and noodle order",
+        "editionUk": "Повна англомовна гра для PS5, бій і замовлення локшини в Порт-Зесті",
+        "version": "2026-04-14 launch-period trace, exact installed build unverified",
+        "distribution": "PlayStation Store digital PS5 product UP4063-PPSA31534_00-0194121456613142",
+        "evidenceUrl": "https://store.playstation.com/en-us/product/UP4063-PPSA31534_00-0194121456613142",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0609": {
+      "analysisTarget": {
+        "platformId": "PLAT-GAME-BOY-ADVANCE",
+        "edition": "European English Game Pak, Normal Adventure Grasslands 3",
+        "editionUk": "Європейський англомовний картридж, «Grasslands 3» у режимі пригоди на звичайній складності",
+        "version": "2001-06-22 European original commercial release, exact recording revision unverified",
+        "distribution": "European Game Boy Advance cartridge AGB-AKRP-EUR",
+        "evidenceUrl": "https://gamefaqs.gamespot.com/gba/445177-kuru-kuru-kururin/data",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0610": {
+      "analysisTarget": {
+        "platformId": "PLAT-IOS",
+        "edition": "Paid App Store base game, The Warrior’s The BONExYARD descent",
+        "editionUk": "Повна платна версія App Store, спуск Воїна в Кістяний двір",
+        "version": "2026-03-12 commercial Apple release; exact capture build not established",
+        "distribution": "Apple App Store app 6738703497, Full Game unlock",
+        "evidenceUrl": "https://apps.apple.com/us/app/ball-x-pit/id6738703497",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0611": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-2",
+        "edition": "North American English original disc, first Dunnan Story match against Ryvern",
+        "editionUk": "Північноамериканський англомовний диск, перший сюжетний матч у Даннані проти Райверна",
+        "version": "December 2003 North American commercial release; exact recording revision unverified",
+        "distribution": "North American PlayStation 2 disc SLUS-20774",
+        "evidenceUrl": "https://www.culdcept.com/information/announcement/news20031208/",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0612": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH",
+        "edition": "Original Switch commercial eShop game, English Abandoned Tunnels to Safe House",
+        "editionUk": "Комерційне видання для оригінальної Switch, англомовний маршрут із Покинутих тунелів до сховку",
+        "version": "2025-05-28 original commercial release; v1.1 stated by the docked original Switch capture",
+        "distribution": "Nintendo Switch eShop full game, Pocket Trap and PM Studios",
+        "evidenceUrl": "https://www.nintendo.com/us/store/products/pipistrello-and-the-cursed-yoyo-switch/",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0613": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "Commercial English Windows Steam base game, railcar prologue to Chapter 1",
+        "editionUk": "Повна англомовна гра для Windows у Steam, від прологу у вагоні до першого розділу",
+        "version": "2025-07-17 commercial release; exact build of July 2025 PC captures unverified",
+        "distribution": "Steam app 1170570, Windows base game",
+        "evidenceUrl": "https://store.steampowered.com/app/1170570/The_Drifter/",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0614": {
+      "analysisTarget": {
+        "platformId": "PLAT-GAME-BOY",
+        "edition": "North American English Game Boy Quest Mode, Level 1 D3",
+        "editionUk": "Північноамериканське англомовне видання Game Boy, режим пригод, кімната D3 першого рівня",
+        "version": "February 1997 English commercial release; exact capture cartridge not established",
+        "distribution": "North American Game Boy cartridge DMG-AMOE-USA",
+        "evidenceUrl": "https://www.game-boy-database.com/game-AMOE-1286-USA.html",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0615": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-5",
+        "edition": "Commercial English PS5 base game, first Ollie obelisk and portal",
+        "editionUk": "Повна англомовна гра для PlayStation 5, перший обеліск оллі та портал",
+        "version": "2025-12-08 commercial PS5 base release; exact capture patches unverified",
+        "distribution": "PlayStation Store UP3643-PPSA28801_00-0903988917779220",
+        "evidenceUrl": "https://store.playstation.com/en-us/product/UP3643-PPSA28801_00-0903988917779220/",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0616": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION",
+        "edition": "North American English retail PlayStation disc, first battery mission",
+        "editionUk": "Північноамериканський англомовний диск для PlayStation, перша місія із зенітними батареями",
+        "version": "2000 North American release; captured disc revisions unverified",
+        "distribution": "Bandai America PlayStation CD SLUS-00902",
+        "evidenceUrl": "https://www.videogamemanual.com/ps1/Silent%20Bomber%20%28USA%29.pdf",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0617": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH",
+        "edition": "Original Nintendo Switch digital base game, opening Hunter’s Boon request",
+        "editionUk": "Повна цифрова гра для оригінальної Nintendo Switch, перший запит про Дар мисливця",
+        "version": "2025-09-17 commercial Switch release; 1.0.12 disclosed by prerelease English capture; installed public patch unverified",
+        "distribution": "Nintendo eShop digital base game",
+        "evidenceUrl": "https://www.nintendo.com/us/store/products/strange-antiquities-switch/",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0618": {
+      "analysisTarget": {
+        "platformId": "PLAT-SEGA-SATURN",
+        "edition": "English North American retail disc, Western Scenario 1 first Saraband street battle",
+        "editionUk": "Північноамериканський англомовний диск, перший міський бій у Сарабанді в західному виданні першого сценарію",
+        "version": "1998 commercial North American retail MK-81383; exact capture media unverified",
+        "distribution": "Sega of America Saturn CD MK-81383",
+        "evidenceUrl": "https://bdjogos.com.br/manuais/420-shining-force-iii-sega-saturn-manual-usa.pdf",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0619": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH-2",
+        "edition": "English commercial base game, solo initial Ingot Isle Sublayer 1 route",
+        "editionUk": "Англомовна повна базова гра, одиночний маршрут першого відвідання Острова Злитків на під’ярусі 1",
+        "version": "Commercial release, July 17, 2025; recording build numbers unverified",
+        "distribution": "Nintendo Switch 2 commercial base game",
+        "evidenceUrl": "https://www.nintendo.com/us/store/products/donkey-kong-bananza-switch-2/",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0620": {
+      "analysisTarget": {
+        "platformId": "PLAT-SEGA-GENESIS",
+        "edition": "Japanese commercial G-4130 cartridge, single-player SUPERHARD Stage 01",
+        "editionUk": "Японський роздрібний картридж G-4130, одиночний етап 01 на складності SUPERHARD",
+        "version": "February 24, 1995 commercial Japanese release; exact capture media unverified",
+        "distribution": "Sega Mega Drive Japanese cartridge G-4130",
+        "evidenceUrl": "https://www.sega.jp/mdmini2/assets/manual/pdf/JP_Alien-Soldier.pdf",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0621": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-SERIES",
+        "edition": "English Xbox Series X|S Standard Edition, first Donpa Grand Prix High Speed race",
+        "editionUk": "Англомовне стандартне видання для Xbox Series X|S, перша гонка Кубка Донпа у швидкісному класі High Speed",
+        "version": "Commercial launch, September 25, 2025; exact recording patch unverified",
+        "distribution": "Xbox Store base product 9NJZSFP2ZNVK",
+        "evidenceUrl": "https://www.xbox.com/en-US/games/store/p/9NJZSFP2ZNVK",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0622": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH",
+        "edition": "English original Nintendo Switch digital base game, 1-1 Lost Claim",
+        "editionUk": "Англомовне базове цифрове видання для першої Nintendo Switch, рівень 1-1 «Втрачена ділянка»",
+        "version": "Commercial release, March 28, 2024; exact recording patch unverified",
+        "distribution": "Nintendo eShop digital download",
+        "evidenceUrl": "https://www.nintendo.com/us/store/products/pepper-grinder-switch/",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0623": {
+      "analysisTarget": {
+        "platformId": "PLAT-ATARI-LYNX",
+        "edition": "English original Atari Lynx commercial card PA2020, Mission 1 Dog Fight",
+        "editionUk": "Англомовна комерційна картка Atari Lynx PA2020, місія 1 «Повітряний бій»",
+        "version": "Original 1989 Lynx release; exact recording hardware and revision unverified",
+        "distribution": "Atari Lynx retail game card PA2020",
+        "evidenceUrl": "https://www.computinghistory.org.uk/det/70860/Blue-Lightning/",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0624": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-5",
+        "edition": "English commercial PS5 digital edition, first Courthouse briefing",
+        "editionUk": "Англомовне комерційне цифрове видання для PS5, перший брифінг у будівлі суду",
+        "version": "2022 PS5 release; exact recording patch and region unverified",
+        "distribution": "PlayStation Store digital product EP5661-PPSA04459_00-5766379953570371",
+        "evidenceUrl": "https://store.playstation.com/en-gb/product/EP5661-PPSA04459_00-5766379953570371",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0625": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-DS",
+        "edition": "English North American retail Nintendo DS game, opening spar",
+        "editionUk": "Англомовне північноамериканське видання для Nintendo DS, вступний спаринг",
+        "version": "March 25, 2008 North American retail release; exact capture revision unverified",
+        "distribution": "Tecmo Nintendo DS Game Card NTR-YNGE-USA",
+        "evidenceUrl": "https://www.nintendoworldreport.com/pr/15608/tecmo-ships-ninja-gaiden-dragon-sword-for-ds",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0626": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-SERIES",
+        "edition": "English Xbox Series X|S commercial Standard Edition, first ordinary Taranis battle",
+        "editionUk": "Англомовне комерційне стандартне видання для Xbox Series X|S, перший звичайний бій «Тараніса»",
+        "version": "July 29, 2021 Xbox release; exact capture patches unverified",
+        "distribution": "Xbox Store digital base-game product 9NLX3GWW0HF1",
+        "evidenceUrl": "https://www.xbox.com/en-us/games/store/Fuga-Melodies-of-Steel/9NLX3GWW0HF1",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0627": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-GAMECUBE",
+        "edition": "English North American Nintendo GameCube retail discs, New Game on Deadly",
+        "editionUk": "Англомовне північноамериканське видання для Nintendo GameCube на дисках, нова гра на складності Deadly",
+        "version": "July 7, 2005 North American release; exact capture disc revision unverified",
+        "distribution": "Capcom retail two-disc set DOL-GK7E-USA",
+        "evidenceUrl": "https://gamefaqs.gamespot.com/gamecube/562551-killer7/data",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0628": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "English commercial Windows Steam release, February 2025 opening",
+        "editionUk": "Англомовна комерційна версія для Windows у Steam, вступ у лютневих записах 2025 року",
+        "version": "February 6, 2025 release; exact build in February traces unverified",
+        "distribution": "Steam commercial app 2756920",
+        "evidenceUrl": "https://store.steampowered.com/app/2756920/Keep_Driving/",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0629": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-2",
+        "edition": "English North American PlayStation 2 retail disc, SCUS-97111",
+        "editionUk": "Англомовне північноамериканське комерційне видання для PlayStation 2, диск SCUS-97111",
+        "version": "2001 North American commercial release; recording disc pressing unverified",
+        "distribution": "Sony Computer Entertainment America retail disc",
+        "evidenceUrl": "https://www.videogamemanual.com/PS2/Dark%20Cloud%20%28USA%29.pdf",
+        "checked": "2026-11-21"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0630": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-VITA",
+        "edition": "Japanese commercial PlayStation Vita digital edition, PCSG-01277",
+        "editionUk": "Японське комерційне цифрове видання для PlayStation Vita, PCSG-01277",
+        "version": "June 20, 2019 original release; exact capture patches unverified",
+        "distribution": "Mebius PlayStation Store download JP0188-PCSG01277_00-GNOSIAORIGINALED",
+        "evidenceUrl": "https://gamefaqs.gamespot.com/vita/209659-gnosia/data",
+        "checked": "2026-11-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0631": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-5",
+        "edition": "Native commercial PlayStation 5 digital edition, PPSA15428",
+        "editionUk": "Комерційне цифрове видання для PlayStation 5, PPSA15428",
+        "version": "May 1, 2025 release rules; exact capture patch and region unverified",
+        "distribution": "Panic PlayStation Store download UP3971-PPSA15428_00-0434180303206305",
+        "evidenceUrl": "https://store.playstation.com/en-us/product/UP3971-PPSA15428_00-0434180303206305",
+        "checked": "2026-11-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0632": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-64",
+        "edition": "Original European PAL Nintendo 64 cartridge, NUS-NEPP-EUR",
+        "editionUk": "Оригінальний європейський PAL-картридж для Nintendo 64, NUS-NEPP-EUR",
+        "version": "1999 commercial PAL rules, English text, capture checksum unverified",
+        "distribution": "LucasArts retail NUS-NEPP-EUR cartridge",
+        "evidenceUrl": "https://emulation64.fr/pdf/N64%20-%20Star%20Wars%20Episode%20I%20-%20Racer%20%28Francais%29.pdf",
+        "checked": "2026-11-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0633": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-SERIES",
+        "edition": "Commercial English Xbox Series X|S digital release, Xbox product 9N6DGNBPNRNN",
+        "editionUk": "Комерційне цифрове англомовне видання для Xbox Series X|S, товар 9N6DGNBPNRNN",
+        "version": "July 16, 2024 release rules, exact launch-week capture builds unverified",
+        "distribution": "Annapurna Interactive Xbox Store digital distribution 9N6DGNBPNRNN",
+        "evidenceUrl": "https://www.xbox.com/en-US/games/store/flock/9n6dgnbpnrnn",
+        "checked": "2026-11-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0634": {
+      "analysisTarget": {
+        "platformId": "PLAT-DREAMCAST",
+        "edition": "Original English North American retail Dreamcast release, Sega part 51092",
+        "editionUk": "Оригінальне англомовне північноамериканське видання для Dreamcast, номер Sega 51092",
+        "version": "2000 commercial launch rules, Arcade Normal with Maracas; binary revision of the capture unverified",
+        "distribution": "North American retail Dreamcast GD-ROM distributed by Sega, part 51092",
+        "evidenceUrl": "https://www.rfgeneration.com/cgi-bin/getinfo.pl?ID=U-071-S-01830-A",
+        "checked": "2026-11-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0635": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH",
+        "edition": "Commercial English Nintendo Switch eShop release, product 70010000059157",
+        "editionUk": "Комерційне англомовне видання Nintendo Switch, товар 70010000059157",
+        "version": "May 9, 2024 launch rules, observed again in a Switch 1 capture attributed to 1.0.7",
+        "distribution": "Fellow Traveller Nintendo eShop digital release, product 70010000059157",
+        "evidenceUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/1000xRESIST-2561116.html?nsuid=70010000059157",
+        "checked": "2026-11-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0636": {
+      "analysisTarget": {
+        "platformId": "PLAT-DOS",
+        "edition": "Original English North American LucasArts IBM PC CD-ROM, catalogue 01-031, DOS execution",
+        "editionUk": "Оригінальне північноамериканське англомовне видання LucasArts на CD-ROM для IBM PC, номер 01-031, запуск під DOS",
+        "version": "1995 commercial disc rules, exact disc or executable revision of the DOS captures unverified",
+        "distribution": "LucasArts North American IBM PC retail CD-ROM, company-store catalogue item 01-031",
+        "evidenceUrl": "https://retrotecharchive.omeka.net/items/show/4",
+        "checked": "2026-11-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0637": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "English commercial Pounce Light Windows Steam release, App 2198150",
+        "editionUk": "Англомовне комерційне видання Pounce Light для Windows у Steam, застосунок 2198150",
+        "version": "September 2024 release-era rules, corroborated by a guide marked 1.8.1; exact capture build and operating system unverified",
+        "distribution": "Pounce Light commercial Steam application 2198150",
+        "evidenceUrl": "https://store.steampowered.com/app/2198150/Tiny_Glade/",
+        "checked": "2026-11-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0638": {
+      "analysisTarget": {
+        "platformId": "PLAT-AMIGA",
+        "edition": "Original English Psygnosis Commodore Amiga retail edition on 3.5-inch floppy disks",
+        "editionUk": "Оригінальне англомовне видання Psygnosis для Commodore Amiga на 3,5-дюймових дискетах",
+        "version": "1993 three-disk commercial rules; exact pressing and capture environment unverified",
+        "distribution": "Psygnosis retail Amiga floppy-disk edition",
+        "evidenceUrl": "https://www.computinghistory.org.uk/det/53284/Lemmings-2-The-Tribes/",
+        "checked": "2026-11-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0639": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-4",
+        "edition": "Native English commercial PlayStation 4 digital release, UK product CUSA34254",
+        "editionUk": "Англомовне комерційне цифрове видання для PlayStation 4, британський продукт CUSA34254",
+        "version": "2022 release rules; PS4 1.02 documented separately; capture patches and regions unverified",
+        "distribution": "Private Division launch download on PlayStation Store, currently listed by 2K",
+        "evidenceUrl": "https://store.playstation.com/en-gb/product/EP4829-CUSA34254_00-ROLLERDROME00000",
+        "checked": "2026-11-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0640": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "English commercial Tour De Pizza Windows Steam release, App 2231450",
+        "editionUk": "Англомовне комерційне видання Tour De Pizza для Windows у Steam, застосунок 2231450",
+        "version": "2023 commercial release rules following the 26 January launch; exact capture builds unverified",
+        "distribution": "Tour De Pizza commercial Steam application 2231450",
+        "evidenceUrl": "https://store.steampowered.com/app/2231450/Pizza_Tower/",
+        "checked": "2026-11-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0641": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION",
+        "edition": "English North American PlayStation retail disc SCUS-94180, 1997",
+        "editionUk": "Англомовний північноамериканський роздрібний диск PlayStation SCUS-94180, 1997 рік",
+        "version": "Original NTSC-U/C PlayStation commercial disc rules; captured disc hashes unverified",
+        "distribution": "Sony Computer Entertainment America commercial PlayStation CD-ROM, SCUS-94180",
+        "evidenceUrl": "https://psxdatacenter.com/games/U/B/SCUS-94180.html",
+        "checked": "2026-11-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0642": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-SERIES",
+        "edition": "Commercial English Xbox Series X|S release, Xbox product 9P5P55S7HB9S, 31 July 2023",
+        "editionUk": "Англомовний повний реліз для Xbox Series X|S, продукт 9P5P55S7HB9S, 31 липня 2023 року",
+        "version": "Native Xbox Series X|S commercial base game; release capture on Series X, exact program build unverified",
+        "distribution": "Visai Games Inc. commercial digital Xbox product 9P5P55S7HB9S",
+        "evidenceUrl": "https://www.xbox.com/en-ca/games/store/venba/9p5p55s7hb9s",
+        "checked": "2026-11-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0643": {
+      "analysisTarget": {
+        "platformId": "PLAT-SEGA-GENESIS",
+        "edition": "English North American Sega Genesis cartridge T-95046, Konami, 1993",
+        "editionUk": "Англомовний північноамериканський картридж Sega Genesis T-95046, Konami, 1993 рік",
+        "version": "Original NTSC-U commercial cartridge rules, Easy primary trace on JVC X’Eye, exact executable unverified",
+        "distribution": "Konami (America) commercial Sega Genesis 16-bit cartridge, T-95046",
+        "evidenceUrl": "https://www.cgcvideogames.com/en-US/cert-lookup/results?certNumber=1012535007",
+        "checked": "2026-11-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0644": {
+      "analysisTarget": {
+        "platformId": "PLAT-IOS",
+        "edition": "English iPhone Apple Arcade launch edition, App Store ID 1534708672, 4 May 2023",
+        "editionUk": "Англомовне видання для iPhone в Apple Arcade, App Store 1534708672, 4 травня 2023 року",
+        "version": "Commercial iPhone touch rules from the launch-era Episode 1 trace. Exact app build and iPhone model unverified.",
+        "distribution": "Triband commercial Apple Arcade subscription release, App Store 1534708672",
+        "evidenceUrl": "https://apps.apple.com/gb/app/what-the-car/id1534708672",
+        "checked": "2026-11-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0645": {
+      "analysisTarget": {
+        "platformId": "PLAT-GAME-BOY-COLOR",
+        "edition": "Original North American Game Boy Color cartridge CGB-AW8A-USA, 2000, English selected",
+        "editionUk": "Оригінальний північноамериканський картридж Game Boy Color CGB-AW8A-USA, 2000 рік, вибрано англійську мову",
+        "version": "CGB-AW8A-0 shared program markings on the documented cartridge. The attributed recordings do not identify their ROM checksums.",
+        "distribution": "Nintendo of America original full retail Game Boy Color cartridge",
+        "evidenceUrl": "https://gbhwdb.gekkio.fi/cartridges/CGB-AW8A-0/comrade-claire-1.html",
+        "checked": "2026-11-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0646": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-5",
+        "edition": "English native PlayStation 5 Standard Edition, 29 January 2026, EP0771-PPSA28769_00-CAIRNGAMESTNOV25",
+        "editionUk": "Англомовне стандартне видання для PlayStation 5 від 29 січня 2026 року, EP0771-PPSA28769_00-CAIRNGAMESTNOV25",
+        "version": "Commercial launch-window PS5 build. The exact installed revision and full assist settings are not shown.",
+        "distribution": "The Game Bakers commercial PS5 base game, PlayStation Store",
+        "evidenceUrl": "https://store.playstation.com/en-us/product/EP0771-PPSA28769_00-CAIRNGAMESTNOV25/",
+        "checked": "2026-11-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0647": {
+      "analysisTarget": {
+        "platformId": "PLAT-SEGA-SATURN",
+        "edition": "Original North American English Sega Saturn retail disc 1, 1998, 81307, MK-81307 V1.000",
+        "editionUk": "Оригінальний англомовний північноамериканський диск 1 для Sega Saturn, 1998 рік, 81307, MK-81307 V1.000",
+        "version": "Documented retail program MK-81307 V1.000. The recordings do not authenticate the disc hash or capture hardware.",
+        "distribution": "Sega North American Sega Saturn retail set, disc 1, product 81307",
+        "evidenceUrl": "https://redump.info/disc/20344",
+        "checked": "2026-11-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0648": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH",
+        "edition": "English presentation of the original commercial Nintendo Switch eShop release, 1 August 2024",
+        "editionUk": "Оригінальне комерційне видання для Nintendo Switch у Nintendo eShop в англомовному оформленні, 1 серпня 2024 року",
+        "version": "Launch-day Nintendo Switch capture corroborated by a later Switch recording. Neither shows the exact installed version.",
+        "distribution": "Panic commercial Nintendo Switch base game, Nintendo eShop",
+        "evidenceUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Thank-Goodness-You-re-Here--2604294.html",
+        "checked": "2026-11-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0649": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "English commercial Windows Steam base game, app 2525310, 5 May 2025",
+        "editionUk": "Англомовна комерційна базова гра для Windows у Steam, застосунок 2525310, 5 травня 2025 року",
+        "version": "Launch-week ordinary Classic Normal run with corroboration from a different full-release run. Depot identity is unverified.",
+        "distribution": "Commercial Windows base game on Steam, app 2525310",
+        "evidenceUrl": "https://store.steampowered.com/app/2525310/Drop_Duchy/",
+        "checked": "2026-11-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0650": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION",
+        "edition": "Original English North American commercial PlayStation disc SCUS-94243 (1998)",
+        "editionUk": "Оригінальний англомовний комерційний диск PlayStation для Північної Америки, SCUS-94243 (1998 рік)",
+        "version": "Stage 1 on Normal with Astraea FGA Mk. I and default opening weapons. Disc checksum unverified.",
+        "distribution": "Commercial North American PlayStation disc, SCUS-94243",
+        "evidenceUrl": "https://www.psxdatacenter.com/games/U/E/SCUS-94243.html",
+        "checked": "2026-11-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0651": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-5",
+        "edition": "Native English commercial PS5 base game, released 17 September 2024",
+        "editionUk": "Англомовна комерційна базова гра для PlayStation 5, випущена 17 вересня 2024 року",
+        "version": "Release-period ordinary Chapter 4, A Treacherous Trail. Exact PS5 build unverified.",
+        "distribution": "Commercial native PlayStation 5 base game, PS Store concept 10007954",
+        "evidenceUrl": "https://www.playstation.com/en-us/games/the-plucky-squire/",
+        "checked": "2026-11-22"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0652": {
+      "analysisTarget": {
+        "platformId": "PLAT-GAME-BOY-ADVANCE",
+        "edition": "Original English North American commercial Game Boy Advance cartridge, AGB-AREE-USA (2001)",
+        "editionUk": "Оригінальний англомовний комерційний картридж Game Boy Advance для Північної Америки, AGB-AREE-USA (2001 рік)",
+        "version": "Third classroom battle of the original 2001 game. Exact cartridge-image checksum unverified.",
+        "distribution": "Commercial original North American Game Boy Advance cartridge, AGB-AREE-USA",
+        "evidenceUrl": "https://www.vgcollect.com/item/2660",
+        "checked": "2026-11-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0653": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-SERIES",
+        "edition": "Native English commercial Xbox Series X|S base game, Microsoft Store 9NZLPG7P5KSS (2024)",
+        "editionUk": "Англомовна комерційна базова гра для Xbox Series X|S, продукт 9NZLPG7P5KSS у крамниці Microsoft (2024 рік)",
+        "version": "Commercial Hospital garage escape on Xbox Series X. Exact installed build and preset unverified.",
+        "distribution": "Microsoft Store commercial base game for Xbox Series X|S",
+        "evidenceUrl": "https://www.xbox.com/en-US/games/store/a-quiet-place-the-road-ahead/9nzlpg7p5kss",
+        "checked": "2026-11-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0654": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-DS",
+        "edition": "Original European commercial Nintendo DS Game Card, English mode, NTR-AWIP-EUR (2007)",
+        "editionUk": "Оригінальний комерційний європейський картридж Nintendo DS, англомовний режим, NTR-AWIP-EUR (2007 рік)",
+        "version": "Chapter 1 stairway encounter in the original European release. Exact cartridge checksum and revision unverified.",
+        "distribution": "Original commercial European Nintendo DS Game Card",
+        "evidenceUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-DS/Hotel-Dusk-Room-215-271089.html",
+        "checked": "2026-11-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0655": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH-2",
+        "edition": "Original commercial English Nintendo Switch 2 base release (2025)",
+        "editionUk": "Оригінальне комерційне англомовне базове видання для Nintendo Switch 2 (2025 рік)",
+        "version": "Commercial native Nintendo Switch 2 release. Exact capture patch and build unverified.",
+        "distribution": "Original commercial base game for Nintendo Switch 2",
+        "evidenceUrl": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Kirby-Air-Riders-2785805.html",
+        "checked": "2026-11-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0656": {
+      "analysisTarget": {
+        "platformId": "PLAT-DREAMCAST",
+        "edition": "Original commercial North American Dreamcast GD-ROM, English, Sega 51033 (2000)",
+        "editionUk": "Оригінальний комерційний північноамериканський диск GD-ROM для Dreamcast, англійська, Sega 51033 (2000 рік)",
+        "version": "Original Dreamcast Aquamarine Bay rules. Exact capture-region, disc revision and checksum unverified.",
+        "distribution": "North American commercial Dreamcast GD-ROM",
+        "evidenceUrl": "https://www.digitpress.com/library/manuals/dreamcast/ecco.pdf",
+        "checked": "2026-11-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0657": {
+      "analysisTarget": {
+        "platformId": "PLAT-IOS",
+        "edition": "Original commercial iPhone Apple Arcade launch rules, English, app 1532717034 (2021)",
+        "editionUk": "Оригінальне комерційне англомовне видання Apple Arcade для iPhone, застосунок 1532717034 (2021 рік)",
+        "version": "Launch-day portrait Level 2 trace, 22 January 2021. Exact captured app build and iPhone model unverified.",
+        "distribution": "Apple Arcade on the iPhone App Store",
+        "evidenceUrl": "https://apps.apple.com/us/app/spire-blast/id1532717034",
+        "checked": "2026-11-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0658": {
+      "analysisTarget": {
+        "platformId": "PLAT-NINTENDO-SWITCH",
+        "edition": "Native English commercial Nintendo Switch base game (2024)",
+        "editionUk": "Нативна комерційна базова гра для Nintendo Switch, англійською (2024 рік)",
+        "version": "The Call to Action rules seen in English Nintendo Switch captures. Exact capture build and difficulty unverified.",
+        "distribution": "Nintendo Switch commercial eShop or cartridge base release",
+        "evidenceUrl": "https://www.nintendo.com/us/store/products/unicorn-overlord-switch/",
+        "checked": "2026-11-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0659": {
+      "analysisTarget": {
+        "platformId": "PLAT-SEGA-GENESIS",
+        "edition": "Original North American commercial Sega Genesis cartridge, English, Sega 1555 (1995)",
+        "editionUk": "Оригінальний комерційний північноамериканський картридж Sega Genesis, англійською, Sega 1555 (1995 рік)",
+        "version": "First Flora area in the original Genesis rules. The exact release-media revision and capture-system hardware were unverified.",
+        "distribution": "North American commercial Sega Genesis cartridge",
+        "evidenceUrl": "https://www.sega.jp/genesismini2/assets/manual/pdf/US_Ristar.pdf",
+        "checked": "2026-11-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0660": {
+      "analysisTarget": {
+        "platformId": "PLAT-WINDOWS-PC",
+        "edition": "English commercial Windows Steam remake, app 2754380 (2025)",
+        "editionUk": "Англомовний комерційний ремейк для Windows у Steam, застосунок 2754380 (2025 рік)",
+        "version": "Launch-period English base-game first tutorial. Exact installed Steam build and save behavior were unverified.",
+        "distribution": "Steam commercial Windows game, app 2754380",
+        "evidenceUrl": "https://store.steampowered.com/app/2754380/The_Roottrees_are_Dead/",
+        "checked": "2026-11-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0661": {
+      "analysisTarget": {
+        "platformId": "PLAT-SUPER-NINTENDO",
+        "edition": "Original English North American Super Nintendo Game Pak SNS-PW-USA (1991)",
+        "editionUk": "Оригінальний англомовний північноамериканський картридж для Super Nintendo, SNS-PW-USA (1991 рік)",
+        "version": "Original commercial English Flight Area 1, Lesson 1 Light Plane. Neither recording was matched to a cartridge ROM revision.",
+        "distribution": "1991 physical North American Super Nintendo release. The Nintendo Classics edition is a separate legal access option.",
+        "evidenceUrl": "https://snescentral.com/article.php?id=0005",
+        "checked": "2026-11-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0662": {
+      "analysisTarget": {
+        "platformId": "PLAT-META-QUEST",
+        "edition": "English native Meta Quest 3 base game, app 3551691271620960 (2024)",
+        "editionUk": "Англомовна базова гра для Meta Quest 3, застосунок 3551691271620960 (2024 рік)",
+        "version": "Launch-period commercial story, Hard, Immersive VR and tracked controllers. The Quest 3S trace corroborates shared observations. The numeric capture build was not verified.",
+        "distribution": "Meta Horizon Store full release, product 3551691271620960",
+        "evidenceUrl": "https://www.meta.com/experiences/batman-arkham-shadow/3551691271620960/",
+        "checked": "2026-11-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0663": {
+      "analysisTarget": {
+        "platformId": "PLAT-PLAYSTATION-2",
+        "edition": "Original English North American PlayStation 2 disc SLUS-20294 (2002)",
+        "editionUk": "Оригінальний англомовний північноамериканський диск PlayStation 2, SLUS-20294 (2002 рік)",
+        "version": "Original English North American Normal Single Play with default Type-A. No exact executable or controller measurement.",
+        "distribution": "2002 North American commercial PS2 DVD SLUS-20294. The Sony store link describes the separate modern port.",
+        "evidenceUrl": "https://psxdatacenter.com/psx2/games2/SLUS-20294.html",
+        "checked": "2026-11-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0664": {
+      "analysisTarget": {
+        "platformId": "PLAT-ANDROID",
+        "edition": "Full English Google Play Android release (2022), base Warrior episode",
+        "editionUk": "Повна англомовна версія для Android у Google Play (2022 рік), перший епізод Воїна в основній грі",
+        "version": "English commercial Android base episode The Warrior’s Welcome. Exact installed build and seed were not verified.",
+        "distribution": "Authorised paid Android package com.terrycavanaghgames.diceydungeons, first released 7 July 2022.",
+        "evidenceUrl": "https://play.google.com/store/apps/details?id=com.terrycavanaghgames.diceydungeons",
+        "checked": "2026-11-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0665": {
+      "analysisTarget": {
+        "platformId": "PLAT-SEGA-SATURN",
+        "edition": "Original North American English Sega Saturn CD, product 81112 (1996)",
+        "editionUk": "Оригінальний англомовний північноамериканський диск Sega Saturn, артикул 81112 (1996 рік)",
+        "version": "Commercial North American Sega Saturn, one-player Exhibition under printed standard controls. Exact captured binaries are unverified.",
+        "distribution": "Sega of America commercial Saturn CD 81112, catalogued UPC 010086811124.",
+        "evidenceUrl": "https://www.satakore.com/sega-saturn-game%2C%2C81112%2C%2CSega-Worldwide-Soccer-97-USA.html",
+        "checked": "2026-11-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
+    },
+    "GAME-0666": {
+      "analysisTarget": {
+        "platformId": "PLAT-XBOX-SERIES",
+        "edition": "Native English commercial Xbox Series X|S base game, Microsoft Store 9PFGQGC0XWLV (2023)",
+        "editionUk": "Англомовна комерційна базова гра для Xbox Series X|S, продукт 9PFGQGC0XWLV у крамниці Microsoft (2023 рік)",
+        "version": "Xbox Series-attributed single-player Chapter 1 crossing. Exact installed build, console model and reaction-speed setting remain unverified.",
+        "distribution": "Microsoft Store commercial base game, Optimized for Xbox Series X|S and Smart Delivery.",
+        "evidenceUrl": "https://www.xbox.com/en-US/games/store/p/9PFGQGC0XWLV",
+        "checked": "2026-11-23"
+      },
+      "releaseAudit": {
+        "status": "not-started",
+        "methodVersion": null,
+        "checked": null
+      },
+      "releases": []
     }
   }
 }

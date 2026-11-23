@@ -1,5 +1,174 @@
 # Time Genes
 
+## TIM-047 — Alternate complete combat phases with a fresh opposing roll after handoff
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Resolve the current side’s selected actions as they are committed. If both sides survive, hand off control and obtain the next side’s own newly rolled supply before it chooses actions.
+- Includes: Warrior equipment actions followed by End Turn and the autonomous Marshmallow’s rolled reply.
+- Excludes: Simultaneous commitment, a preselected enemy move simply executed on handoff, and interleaved readiness-ordered turns.
+- Parameters: side order, refresh event, turn transfer and defeat interrupt.
+- Evidence: [Dicey Dungeons decomposition](../games/a-f/dicey-dungeons.md), DD-004, DD-006, DD-007. Mobile reference footage and the cited equipment, status or progression evidence support this boundary. The exact Android executable was not measured.
+- Novelty: first isolated for `GAME-0664`. See [TAXONOMY_CHANGE_410](../../research/taxonomy-changes/TAXONOMY_CHANGE_410.md). No external novelty claim.
+
+## TIM-046 — Suspend both combatants and shared readiness while choosing an encounter command
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Opening the combat command window freezes hostile and player combat progression and the acting unit’s shared readiness accrual. The player may inspect or choose an affordable command. Commitment or cancellation returns control to live combat.
+- Includes: Check the cost and select the gun with the command window open. No readiness accrues until the live battle resumes.
+- Excludes: A pause with no orders, a menu that allows the enemy or gauge to keep advancing, or automatic alternation of turns.
+- Parameters: Live encounter, paused command interface, player and enemy progression, shared gauge and commitment or cancellation.
+- Evidence: [Panzer Dragoon Saga decomposition](../games/m-r/panzer-dragoon-saga.md), PDS-004 and PDS-005. The original Sega booklet and attributed disc 1 recordings delimit the scope.
+- Novelty: first isolated for `GAME-0647`. See [TAXONOMY_CHANGE_393](../../research/taxonomy-changes/TAXONOMY_CHANGE_393.md). No external novelty claim.
+
+## TIM-045 — Complete bounded discussion rounds before opening a separate ballot
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The system advances a staged discussion through a finite visible round count. Each round may contain a statement and responses or a silent continuation. The ballot and its settlement follow that discussion phase, with their own controls rather than a running discussion clock.
+- Includes: Five visibly numbered Day 2 discussion rounds before the dedicated first-loop ballot in Gnosia.
+- Excludes: Real-time debate timeout, freely reopening a settled ballot, voting during every statement or assuming an exact rule for all future debates.
+- Parameters: Discussion round, admissible response opportunities, final round, ballot entry and settlement.
+- Evidence: [Gnosia decomposition](../games/g-l/gnosia.md), GN-003, GN-004. The launch notices and attributed Japanese PlayStation Vita traces support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0630`. See [TAXONOMY_CHANGE_376](../../research/taxonomy-changes/TAXONOMY_CHANGE_376.md). No external novelty claim.
+
+## TIM-044 — Allow one bonus action per player phase after a perfect pattern placement
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: A skill placement that meets the perfect-hit predicate grants a bonus action within the current player phase. A second perfect placement during that bonus action does not make another bonus available in the same phase.
+- Includes: Perfect Hit granting Extra Turn in the first Keep Driving Tractor event, followed by a further perfect hit and the Road Phase.
+- Excludes: An unconditional two-action turn, an unlimited combo chain, a refund of the skill’s activation cost, or a guaranteed bonus for partial alignment.
+- Parameters: Current player phase, qualifying placement, bonus availability, extra action and next road resolution.
+- Evidence: [Keep Driving decomposition](../games/g-l/keep-driving.md), KD-003–KD-006. The retail-period Windows openings support the scoped behavior as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0628`. See [TAXONOMY_CHANGE_374](../../research/taxonomy-changes/TAXONOMY_CHANGE_374.md). No external novelty claim.
+
+## TIM-043 — Advance the case clock on selected time-priced interactions
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: the investigation calendar advances in declared time increments when a time-priced interaction is committed. The player can move between relevant positions or review a currently open comparison without continuously consuming that clock, letting action choice budget time before the case deadline.
+- Includes: Opening a marked examination can spend an in-game minute. Select evidence details inside the open comparison and read the deduction without the displayed minutes continuously decreasing.
+- Excludes: A continuous real-time timer, a clock advanced once per input regardless of type, a duration that has no deadline implications or claiming all pauses and rooms share identical time rules.
+- Parameters: Case clock, priced interaction, time increment, free inspection phase, route context and due time.
+- Evidence: [The Séance of Blake Manor decomposition](../games/s-z/the-seance-of-blake-manor.md), BM-002, BM-003, BM-010. The commercial Steam capture and firsthand route report support the scoped rules as specified in the claim ledger.
+- Novelty: first isolated for `GAME-0606`; see [TAXONOMY_CHANGE_352](../../research/taxonomy-changes/TAXONOMY_CHANGE_352.md). No external novelty claim.
+
+## TIM-042 — Suspend local real time to place individual defenders and resume combat
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: A tactical command view pauses the active stage while the player cycles the available defenders and issues positional orders within the view. Leaving the view resumes the phase clock and ordinary movement and combat.
+- Includes: Open the villager Command Screen during Myoko Pass, assign a new Woodcutter position and return to Soh.
+- Excludes: The system pause menu without orders, attack-power selection alone, global omniscient placement, or switching the whole battle to discrete turns.
+- Parameters: Command view, paused stage clock, selected defender, target location, eligible range and resume event.
+- Evidence: [Kunitsu-Gami decomposition](../games/g-l/kunitsu-gami-path-of-the-goddess.md), KG-004, KG-006. The full-release Capcom manual and corroborating PS5 and release-game evidence establish the conditional transition. Exact timings and internal values are not measured.
+- Novelty: first isolated for `GAME-0583`; see [TAXONOMY_CHANGE_329](../../research/taxonomy-changes/TAXONOMY_CHANGE_329.md). No external novelty claim.
+
+## TIM-041 — Alternate timed preparation and defence until the stage operation completes
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: A live stage alternates daytime preparation and night defence at phase boundaries. During preparation the player can accelerate time, while night releases attackers toward the protected actor until day returns. Surviving dawn restores preparation with the same stage progress.
+- Includes: Prepare Myoko Pass by day, defend Yoshiro after dusk, and extend the preserved route again at dawn.
+- Excludes: An ecological cosmetic cycle, fixed manually started waves independent of a clock, clearing solely by defeating the last hostile, or exact elapsed seconds inferred from recordings.
+- Parameters: Current phase, remaining phase time, optional daytime acceleration, hostile release, preserved progress and stage terminal.
+- Evidence: [Kunitsu-Gami decomposition](../games/g-l/kunitsu-gami-path-of-the-goddess.md), KG-005, KG-006, KG-008. The full-release Capcom manual and corroborating PS5 and release-game evidence establish the conditional transition. Exact timings and internal values are not measured.
+- Novelty: first isolated for `GAME-0583`; see [TAXONOMY_CHANGE_329](../../research/taxonomy-changes/TAXONOMY_CHANGE_329.md). No external novelty claim.
+
+## TIM-040 — Alter live scene and avatar tempos with independently held effects
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: A player-held effect reduces the ongoing scene’s rate while interactions remain live. A second learned effect can accelerate the avatar’s movement and attacks. Their overlap can preserve world slowdown while mitigating the player’s movement slowdown, without converting the sequence to discrete turns.
+- Includes: Hold Slow for a falling drop or strike window, use Mach Speed for accelerated movement, and hold both for movement during active Slow.
+- Excludes: Moving to control global time; pausing; rewinding solved actions; merely disabling input; assigning a fixed rate or frame data.
+- Parameters: Mode availability, held inputs, affected scene and actor processes, overlap, release and shared readiness.
+- Evidence: [Viewtiful Joe decomposition](../games/s-z/viewtiful-joe.md), VJ-002, VJ-005, VJ-006. Capcom’s GameCube manual and corroborating route evidence establish the conditional transition. Exact timings and internal values are not measured.
+- Novelty: first isolated for `GAME-0580`; see [TAXONOMY_CHANGE_326](../../research/taxonomy-changes/TAXONOMY_CHANGE_326.md). No external novelty claim.
+
+## TIM-039 — Resolve each reached measure before committing a later measure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The battle progresses through a shown sequence of action measures. At a selectable allied measure the player chooses and resolves the current action, including its eligible live timing window, before choosing a later measure. Scheduled hostile measures resolve when reached.
+- Includes: Resolve a timed Cadence attack, inspect the changed BP and health, then choose the eligible actor and command for the next allied measure.
+- Excludes: Batching all allied commands before any resolution, a real-time readiness gauge racing during menu reading, or a fixed single-input automatic round.
+- Parameters: Current measure, eligible actor, chosen command, live resolution, hostile slot and next decision state.
+- Evidence: [People of Note decomposition](../games/m-r/people-of-note.md), PON-002, PON-003, PON-006. Developer accounts, Switch 2 release reviews and source-attributed battle stills establish the scoped transitions. Exact console build and timing limits are qualified in the game record.
+- Novelty: first isolated for `GAME-0577`; see [TAXONOMY_CHANGE_323](../../research/taxonomy-changes/TAXONOMY_CHANGE_323.md). No external novelty claim.
+
+## TIM-038 — Advance a shared discrete clock until an actor’s delay reaches zero
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: When the current activation ends, advance the shared tactical clock through pending delays until an eligible actor reaches zero. That actor can activate before others whose delays remain positive.
+- Includes: With pending delays 8, 3 and 5, advance three units. The actor at zero becomes ready while the others still have delays 5 and 2.
+- Excludes: Fixed alternating rounds, real-time filling gauges during input or assuming an undocumented priority for simultaneous equal delays.
+- Parameters: Pending per-actor delays, common discrete clock, zero threshold and eligible actor.
+- Evidence: [Metal Gear Acid decomposition](../games/m-r/metal-gear-acid.md), MGA-003. The original manual and launch-period PSP play accounts establish the scoped transitions. Region and runtime limits are qualified in the game record.
+- Novelty: first isolated for `GAME-0575`; see [TAXONOMY_CHANGE_321](../../research/taxonomy-changes/TAXONOMY_CHANGE_321.md). No external novelty claim.
+
+## TIM-037 — Scale active world progression with tracked player movement
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: During live embodied play, tracked player movement controls how quickly the hostile and projectile simulation progresses. Remaining still strongly slows that progression; moving to aim, reach or evade advances the world as well as changing the player pose. This is neither a fixed independent action clock nor a discrete player/enemy turn exchange.
+- Includes: Original SUPERHOT VR movement-linked slow time. No exact zero-motion floor, pose-channel weighting, native sampling or universal head-turn threshold is inferred from the slogan about time moving only when the player moves.
+- Excludes: A manual pause; an optional consumable slow-time button; a fixed-duration dodge; assuming every tiny tracking twitch advances time equally or that stillness guarantees perfect zero progression.
+- Parameters: Tracked movement, active simulation interval, movement-to-time relation, stillness floor, projectile/hostile progression and pose.
+- Evidence: [SUPERHOT VR decomposition](../games/s-z/superhot-vr.md), SHV-002. Official Quest launch material, developer statements and qualified released-version accounts support the common rules; no native Quest binary, exact time floor or recovery coefficient was measured.
+- Novelty: first isolated for `GAME-0567`; see [TAXONOMY_CHANGE_313](../../research/taxonomy-changes/TAXONOMY_CHANGE_313.md). No external novelty claim.
+
+## TIM-036 — A manual field save retains the area-entry snapshot instead of the live position
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: An allowed manual save request during field play records the state from entry into the current area rather than the latest live position and progression; later continuation therefore cannot be treated as exact suspension of the moment when Save was requested.
+- Includes: The original Boktai manual’s area-entry saving rule, alongside its explicit event exceptions and area-entry Continue rule.
+- Excludes: A continuous live-position save; a one-use exact suspend; player-selectable reversible time; asserting per-field rollback or a native save experiment not performed.
+- Parameters: Current area, entry snapshot, save request, restricted event, persisted record and resumed boundary.
+- Evidence: [Boktai decomposition](../games/a-f/boktai-the-sun-is-in-your-hand.md), BOK-011. Native sensor, exact coefficients and field-by-field persistence are not reproduced; source limits remain in the game record.
+- Novelty: first isolated for `GAME-0557`; see [TAXONOMY_CHANGE_303](../../research/taxonomy-changes/TAXONOMY_CHANGE_303.md). No external novelty claim.
+
+## TIM-035 — Stop the rescue clock for host transfers and resume it for live object tricks
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The player switches between a frozen phase for inspection and transfers between nearby hosts and a running phase for object commands and their consequences. Transfers can complete without advancing the rescue clock.
+- Includes: Enter Ghost World to reach the fan, return to the live scene to start it, and stop time again to switch to the flag.
+- Excludes: A pause with no traversing input, queueing powers while an unrelated combat radial is open, or editing historical event frames.
+- Parameters: Mode, clock progression, location transfer, live command and world event settlement.
+- Evidence: [Ghost Trick decomposition](../games/g-l/ghost-trick-phantom-detective.md), GT-003–GT-007.
+- Novelty: first isolated for `GAME-0533`; see [TAXONOMY_CHANGE_280](../../research/taxonomy-changes/TAXONOMY_CHANGE_280.md).
+
 ## TIM-034 — Resume an unsaved field level only from its boundary snapshot
 
 - Lifecycle: `Active`

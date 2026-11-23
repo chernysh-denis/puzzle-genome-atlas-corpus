@@ -11534,6 +11534,4055 @@
       ],
       "noteEn": "The complete 43-gene mission is manually partitioned: perceptual stealth, finite light control and conjunctive nonlethal extraction, with traversal, optional stock and manual recovery retained. Roles do not weight Jaccard or follow rarity.",
       "noteUk": "Повну місію з 43 генів розподілено вручну: прихованість за сприйняттям, обмежене керування світлом і сукупний нелетальний вихід зі збереженням руху, необов’язкового запасу й ручного відновлення. Ролі не зважують Жаккар і не виводяться з рідкісності."
+    },
+    "GAME-0514": {
+      "reviewed": "2026-11-15",
+      "defining": [
+        "CON-795",
+        "SYS-1453",
+        "SYS-1455",
+        "INF-499"
+      ],
+      "structural": [
+        "ACT-014",
+        "ACT-019",
+        "ACT-652",
+        "SYS-1289",
+        "SYS-1456",
+        "CON-001",
+        "CON-269",
+        "OBJ-029",
+        "TIM-001"
+      ],
+      "supporting": [
+        "SYS-004",
+        "SYS-1454",
+        "INF-002",
+        "INF-043",
+        "INF-119"
+      ],
+      "noteEn": "Separate ordinary uses and mana, movement-mode attack reach and early retry exceptions distinguish this encounter. Individual turns and clearance structure the fight. Random stat gains and personal readouts support those choices. The roles do not change Jaccard.",
+      "noteUk": "Рух і атака мають окремі обмеження, а на закляття витрачається мана. Під час вибору клітинки видно зону атаки, а на початку навчання деякі дії можна повторити. Учасники ходять по одному, і для перемоги треба знешкодити обох ворогів. Випадкові посилення й відомості про стан котів допомагають вибрати дію. Ці ролі не змінюють коефіцієнт Жаккара."
+    },
+    "GAME-0515": {
+      "reviewed": "2026-11-16",
+      "defining": [
+        "ACT-011",
+        "SYS-1457",
+        "SYS-1458",
+        "INF-500",
+        "OBJ-026"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-089",
+        "ACT-341",
+        "SYS-578",
+        "CON-282",
+        "CON-296",
+        "INF-001",
+        "OBJ-004",
+        "TIM-001",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-009",
+        "ACT-131",
+        "ACT-161",
+        "SYS-215",
+        "SYS-1429",
+        "CON-285",
+        "INF-115"
+      ],
+      "noteEn": "The first surface-power route is defined by the conductor exchanges, separate activation, pursuit across unequal boundaries, embodied injury cues and reaching Rick. Other roles cover progression, real-time control and optional supplies or combat.",
+      "noteUk": "Вступний маршрут визначають перестановка провідників, окремий вимикач, погоня через нерівнозначні межі, тілесні ознаки поранення та зустріч із Ріком. Решта ролей описує доступ до маршруту, керування в реальному часі, необов’язкові запаси й бій."
+    },
+    "GAME-0516": {
+      "reviewed": "2026-11-16",
+      "defining": [
+        "ACT-709",
+        "SYS-1459",
+        "SYS-1460",
+        "SYS-1461",
+        "SYS-1462",
+        "SYS-822",
+        "INF-501"
+      ],
+      "structural": [
+        "ACT-161",
+        "ACT-223",
+        "SYS-215",
+        "SYS-799",
+        "SYS-1463",
+        "SYS-1464",
+        "CON-402",
+        "INF-142",
+        "OBJ-029",
+        "OBJ-080",
+        "TIM-003",
+        "SYS-1465",
+        "SYS-1466"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-341",
+        "ACT-356",
+        "SYS-369",
+        "SYS-409",
+        "SYS-578",
+        "SYS-736",
+        "SYS-1386",
+        "CON-282",
+        "INF-334"
+      ],
+      "noteEn": "This review partitions the 30-gene Track 1 signature. The defining roles separate shared beat information, impact alignment, input accuracy, attack strings, prompted finishers, temporary boss exposure and graded encounter results.",
+      "noteUk": "Огляд охоплює всі 30 генів першого треку. Визначальні ролі розрізняють спільний ритм, час влучання, точність натискання, серії атак, завершальні удари, тимчасову вразливість боса й оцінювання сутичок."
+    },
+    "GAME-0517": {
+      "reviewed": "2026-11-16",
+      "defining": [
+        "ACT-710",
+        "ACT-711",
+        "SYS-1467",
+        "SYS-1468",
+        "SYS-1470",
+        "CON-796",
+        "OBJ-292"
+      ],
+      "structural": [
+        "ACT-189",
+        "ACT-316",
+        "ACT-317",
+        "ACT-318",
+        "SYS-297",
+        "SYS-549",
+        "SYS-551",
+        "SYS-554",
+        "SYS-1469",
+        "CON-282",
+        "INF-502",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-121",
+        "SYS-215",
+        "SYS-305",
+        "SYS-1471",
+        "CON-467",
+        "CON-469",
+        "INF-224",
+        "OBJ-029"
+      ],
+      "noteEn": "This review partitions the 27-gene first mission signature. The defining roles separate three-dimensional movement, capture, delivery, retry, qualifying clears and a committed fleet handoff.",
+      "noteUk": "Огляд охоплює всі 27 генів першої місії. Визначальні ролі розрізняють тривимірний рух, захоплення, доставку, повтор вправи, виконання бойових умов і перехід флоту після підтвердження."
+    },
+    "GAME-0518": {
+      "reviewed": "2026-11-16",
+      "defining": [
+        "SYS-1472",
+        "SYS-1473",
+        "SYS-1474",
+        "SYS-1475",
+        "CON-797",
+        "INF-503",
+        "OBJ-293"
+      ],
+      "structural": [
+        "ACT-123",
+        "ACT-162",
+        "ACT-408",
+        "ACT-712",
+        "ACT-713",
+        "SYS-353",
+        "SYS-752",
+        "SYS-1476",
+        "CON-282",
+        "CON-297",
+        "TIM-022"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-089",
+        "ACT-131",
+        "ACT-341",
+        "TIM-025"
+      ],
+      "noteEn": "This review partitions the 23-gene opening signature. The defining roles separate restoring vegetation, growing new habitats, arrival and teaching, and lighting the installed campfire with a local specialist.",
+      "noteUk": "Огляд охоплює всі 23 гени вступу. Визначальні ролі розрізняють відновлення рослин, облаштування нових оселищ, появу мешканців і навчання, а також запалювання встановленого вогнища за допомогою мешканця з потрібним умінням."
+    },
+    "GAME-0519": {
+      "reviewed": "2026-11-16",
+      "defining": [
+        "SYS-1477",
+        "SYS-1478",
+        "SYS-1479",
+        "SYS-1480",
+        "SYS-1481",
+        "CON-798",
+        "INF-504"
+      ],
+      "structural": [
+        "ACT-048",
+        "ACT-161",
+        "ACT-223",
+        "ACT-355",
+        "ACT-714",
+        "SYS-037",
+        "SYS-215",
+        "SYS-1482",
+        "SYS-1483",
+        "OBJ-099"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-294",
+        "ACT-297",
+        "SYS-522",
+        "CON-446",
+        "INF-210",
+        "TIM-003"
+      ],
+      "noteEn": "This review partitions the 24-gene Londo Versus signature. The defining roles distinguish scenery attacks, fighter-specific handling, contested drops and location cues, form entry, gauge budgeting and return of the set.",
+      "noteUk": "Огляд охоплює всі 24 гени двобою на Londo. Визначальні ролі розрізняють атаки за допомогою оточення, дії залежно від бійця, вибивання й пошук каменів, активацію форми, витрату її запасу та повернення набору."
+    },
+    "GAME-0520": {
+      "reviewed": "2026-11-16",
+      "defining": [
+        "SYS-1484",
+        "SYS-1485",
+        "SYS-1486",
+        "SYS-1487",
+        "INF-003"
+      ],
+      "structural": [
+        "ACT-341",
+        "ACT-715",
+        "SYS-1363",
+        "SYS-1488",
+        "CON-799"
+      ],
+      "supporting": [
+        "ACT-008",
+        "SYS-037",
+        "SYS-369",
+        "INF-179",
+        "TIM-003"
+      ],
+      "noteEn": "This review partitions the 15 genes of the opening cave route. The defining roles distinguish access, concealed supply, momentary light and durable room safety.",
+      "noteUk": "Огляд охоплює всі 15 генів початкового маршруту печерою. Визначальні ролі розрізняють відкриття шляху, схований запас, короткий спалах і тривалу безпеку в кімнаті."
+    },
+    "GAME-0521": {
+      "reviewed": "2026-11-16",
+      "defining": [
+        "ACT-716",
+        "ACT-718",
+        "SYS-1490",
+        "SYS-1492",
+        "OBJ-294"
+      ],
+      "structural": [
+        "ACT-717",
+        "SYS-1033",
+        "SYS-1489",
+        "SYS-1491"
+      ],
+      "supporting": [
+        "CON-800",
+        "INF-505",
+        "OBJ-014",
+        "TIM-001"
+      ],
+      "noteEn": "This review partitions the 13 genes of the first Classic A hole. The defining roles separate disc choice, manual release, legal lie, volumetric capture and the penalty-adjusted par.",
+      "noteUk": "Огляд охоплює всі 13 генів першої лунки Classic A. Визначальні ролі розрізняють вибір диска, ручне відпускання, допустиме місце кидка, вхід в об’ємну ціль і рахунок зі штрафами відносно нормативу."
+    },
+    "GAME-0522": {
+      "reviewed": "2026-11-17",
+      "defining": [
+        "ACT-719",
+        "SYS-1493",
+        "SYS-1494",
+        "SYS-1498",
+        "SYS-469"
+      ],
+      "structural": [
+        "ACT-161",
+        "ACT-199",
+        "SYS-215",
+        "SYS-456",
+        "SYS-464",
+        "SYS-1495",
+        "SYS-1496",
+        "SYS-1497",
+        "CON-349",
+        "CON-801"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-341",
+        "SYS-037",
+        "SYS-578",
+        "INF-119",
+        "INF-180",
+        "OBJ-026",
+        "TIM-003"
+      ],
+      "noteEn": "The 23-gene opening separates quick primary recharge, alternate readiness, lasting function authority and rebuilding the temporary kit after death.",
+      "noteUk": "Огляд охоплює 23 гени початку гри. Він розрізняє швидке заряджання основних пострілів, готовність альтернативного вогню, збережений доступ до функції та повторне збирання тимчасового спорядження після загибелі."
+    },
+    "GAME-0523": {
+      "reviewed": "2026-11-17",
+      "defining": [
+        "SYS-804",
+        "CON-802",
+        "SYS-1500",
+        "OBJ-295"
+      ],
+      "structural": [
+        "ACT-107",
+        "ACT-232",
+        "ACT-341",
+        "SYS-680",
+        "SYS-783",
+        "SYS-1499",
+        "INF-148",
+        "INF-393",
+        "INF-506"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-650",
+        "SYS-1282",
+        "TIM-002"
+      ],
+      "noteEn": "The inquiry depends on voluntarily spending named phases and on the verdict that follows selective disclosure.",
+      "noteUk": "Розслідування залежить від вибору, на що витратити визначені періоди, і від вироку після вибіркового подання доказів."
+    },
+    "GAME-0524": {
+      "reviewed": "2026-11-17",
+      "defining": [
+        "SYS-1501",
+        "SYS-1502",
+        "CON-803",
+        "CON-804"
+      ],
+      "structural": [
+        "ACT-290",
+        "ACT-720",
+        "SYS-1503",
+        "SYS-1504",
+        "INF-507",
+        "INF-508",
+        "OBJ-150"
+      ],
+      "supporting": [
+        "SYS-515",
+        "INF-205",
+        "INF-208",
+        "TIM-003"
+      ],
+      "noteEn": "Moving water and correct buoy passes define the line. Engine power, accumulated misses and the perimeter countdown remain separate.",
+      "noteUk": "Рух води й правильний бік проходу буїв визначають траєкторію. Потужність двигуна, накопичені пропуски й відлік поза трасою діють окремо."
+    },
+    "GAME-0525": {
+      "reviewed": "2026-11-17",
+      "defining": [
+        "CON-805",
+        "CON-807",
+        "SYS-1505",
+        "OBJ-296"
+      ],
+      "structural": [
+        "ACT-068",
+        "ACT-139",
+        "ACT-172",
+        "SYS-153",
+        "SYS-156",
+        "SYS-157",
+        "SYS-245",
+        "SYS-1506",
+        "INF-509"
+      ],
+      "supporting": [
+        "SYS-154",
+        "CON-062",
+        "CON-172",
+        "CON-173",
+        "CON-184",
+        "CON-806",
+        "INF-060",
+        "INF-086",
+        "INF-087",
+        "TIM-003"
+      ],
+      "noteEn": "Road-reached storage, distinct needs groups and the first paid conversion shape the early settlement.",
+      "noteUk": "Початкове поселення залежить від складів у межах дорожньої досяжності, окремих категорій потреб і першого платного поліпшення оселі."
+    },
+    "GAME-0526": {
+      "reviewed": "2026-11-17",
+      "defining": [
+        "ACT-691",
+        "SYS-1507",
+        "SYS-1509",
+        "OBJ-297"
+      ],
+      "structural": [
+        "ACT-161",
+        "SYS-1410",
+        "SYS-1411",
+        "SYS-1508",
+        "SYS-1510",
+        "SYS-1511",
+        "CON-782",
+        "CON-808"
+      ],
+      "supporting": [
+        "ACT-190",
+        "SYS-215",
+        "INF-510",
+        "INF-511",
+        "TIM-003"
+      ],
+      "noteEn": "A single held volley can hit several threats or concentrate on a gate. Shooting support maintains the form ladder before the first firewall.",
+      "noteUk": "Один залп може уразити кілька загроз або зосередити постріли в шлюзі. Збирай вузли пострілами, щоб підвищити форму перед першим брандмауером."
+    },
+    "GAME-0527": {
+      "reviewed": "2026-11-17",
+      "defining": [
+        "SYS-1512",
+        "SYS-1513",
+        "SYS-1514",
+        "CON-617"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-190",
+        "ACT-223",
+        "CON-809",
+        "INF-310",
+        "INF-512",
+        "OBJ-080"
+      ],
+      "supporting": [
+        "ACT-341",
+        "SYS-215",
+        "SYS-369",
+        "SYS-578",
+        "INF-119",
+        "TIM-003"
+      ],
+      "noteEn": "The first duel ties each defence to its timing grade, the Qi earned and the next opportunity to finish a talisman.",
+      "noteUk": "У першому двобої наслідок захисту залежить від точності парирування, накопиченого ци й наступної нагоди довести талісман до вибуху."
+    },
+    "GAME-0528": {
+      "reviewed": "2026-11-17",
+      "defining": [
+        "SYS-1515",
+        "ACT-721",
+        "SYS-1517",
+        "SYS-1518"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-049",
+        "ACT-089",
+        "ACT-341",
+        "SYS-1516",
+        "SYS-1519",
+        "CON-810",
+        "INF-513",
+        "OBJ-026"
+      ],
+      "supporting": [
+        "SYS-065",
+        "SYS-1431",
+        "CON-001",
+        "INF-001",
+        "TIM-002",
+        "TIM-003"
+      ],
+      "noteEn": "The plant sustains a local mechanism, while switches and a carried vessel contribute separate dependencies before the bridge.",
+      "noteUk": "Рослина утримує місцевий механізм. Перемикачі й склянка в інвентарі виконують окремі умови на шляху до мосту."
+    },
+    "GAME-0529": {
+      "reviewed": "2026-11-17",
+      "defining": [
+        "ACT-723",
+        "ACT-724",
+        "SYS-1520",
+        "SYS-1521",
+        "CON-440",
+        "OBJ-007"
+      ],
+      "structural": [
+        "ACT-005",
+        "ACT-006",
+        "ACT-722",
+        "SYS-004",
+        "SYS-006",
+        "SYS-007",
+        "SYS-008",
+        "SYS-009",
+        "SYS-1522",
+        "CON-001",
+        "CON-007",
+        "CON-008",
+        "INF-005",
+        "INF-514",
+        "TIM-003"
+      ],
+      "supporting": [
+        "INF-001",
+        "OBJ-002",
+        "OBJ-003"
+      ],
+      "noteEn": "Ordinary clears advance the stage. Zone gives back placement time and settles completed rows separately for score.",
+      "noteUk": "Звичайні лінії просувають етап. Зона дає час на розміщення, а накопичені в ній ряди дають очки окремо."
+    },
+    "GAME-0530": {
+      "reviewed": "2026-11-17",
+      "defining": [
+        "ACT-222",
+        "SYS-358",
+        "SYS-1524",
+        "TIM-033"
+      ],
+      "structural": [
+        "ACT-019",
+        "ACT-131",
+        "ACT-199",
+        "ACT-725",
+        "SYS-854",
+        "SYS-1307",
+        "SYS-1523",
+        "SYS-1525",
+        "SYS-1526",
+        "SYS-1527",
+        "CON-269",
+        "CON-756",
+        "INF-142",
+        "INF-515",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-362",
+        "INF-119",
+        "OBJ-029"
+      ],
+      "noteEn": "Menu choices build the round. Aim Ring grades one executing attack, while the guard reserve responds separately to front-row losses.",
+      "noteUk": "Вибір у меню задає дії на раунд. Кільце оцінює один удар під час виконання, а запас захисту окремо реагує на втрати переднього ряду."
+    },
+    "GAME-0531": {
+      "reviewed": "2026-11-17",
+      "defining": [
+        "ACT-726",
+        "ACT-727",
+        "SYS-1528",
+        "SYS-1530",
+        "SYS-1531"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-341",
+        "ACT-433",
+        "SYS-057",
+        "SYS-1375",
+        "SYS-1529",
+        "SYS-1532",
+        "SYS-1533",
+        "CON-076",
+        "CON-379",
+        "INF-516",
+        "TIM-003"
+      ],
+      "supporting": [
+        "INF-115",
+        "INF-179",
+        "OBJ-026"
+      ],
+      "noteEn": "Potboy’s flame, marked barriers and the hostile’s lure open separate parts of the same authored route.",
+      "noteUk": "Полум’я Потбоя, позначені перешкоди й свічка для відволікання визначають різні ділянки того самого маршруту."
+    },
+    "GAME-0532": {
+      "reviewed": "2026-11-17",
+      "defining": [
+        "ACT-728",
+        "SYS-1534",
+        "SYS-1535",
+        "SYS-1536",
+        "SYS-1537",
+        "SYS-1538",
+        "SYS-1539"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-190",
+        "ACT-356",
+        "SYS-215",
+        "SYS-456",
+        "SYS-578",
+        "CON-269",
+        "CON-402",
+        "INF-142",
+        "OBJ-080",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-341",
+        "SYS-362",
+        "INF-119",
+        "INF-179"
+      ],
+      "noteEn": "The shared Magick budget, summoned witches, decoys and the curse change the next legal or useful action in one guardian encounter.",
+      "noteUk": "Спільна магія, викликані відьми, двійники й прокляття визначають, яку дію можна або варто виконати далі в одному бою з Гекатою."
+    },
+    "GAME-0533": {
+      "reviewed": "2026-11-17",
+      "defining": [
+        "ACT-729",
+        "ACT-730",
+        "SYS-1540",
+        "SYS-1541",
+        "SYS-1542",
+        "SYS-1543",
+        "TIM-035"
+      ],
+      "structural": [
+        "ACT-049",
+        "ACT-341",
+        "SYS-369",
+        "CON-068",
+        "CON-811",
+        "INF-517",
+        "OBJ-298"
+      ],
+      "supporting": [
+        "INF-179",
+        "TIM-003"
+      ],
+      "noteEn": "The corpse rewind, stopped host transfers and live interventions separate the entry, routing and rescue decisions.",
+      "noteUk": "Відмотування через тіло, переходи між предметами із зупиненим часом і дії у світі живих визначають початок, шлях і результат порятунку."
+    },
+    "GAME-0534": {
+      "reviewed": "2026-11-17",
+      "defining": [
+        "ACT-731",
+        "SYS-630",
+        "SYS-1544",
+        "SYS-1545",
+        "CON-516"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-048",
+        "ACT-202",
+        "ACT-446",
+        "CON-812",
+        "INF-331",
+        "OBJ-168"
+      ],
+      "supporting": [
+        "INF-329",
+        "TIM-003"
+      ],
+      "noteEn": "Nozzle geometry and ladder placement change access; foam is optional preparation, and accepted water coverage settles the job.",
+      "noteUk": "Форма струменя й положення драбини змінюють доступ до поверхонь. Піна лише готує бруд, а замовлення завершується за зарахованим покриттям водою."
+    },
+    "GAME-0535": {
+      "reviewed": "2026-11-17",
+      "defining": [
+        "ACT-732",
+        "SYS-1546",
+        "SYS-1547",
+        "SYS-1548",
+        "CON-813",
+        "INF-518"
+      ],
+      "structural": [
+        "ACT-019",
+        "ACT-140",
+        "SYS-1307",
+        "CON-269",
+        "CON-756",
+        "INF-519",
+        "OBJ-029",
+        "TIM-033"
+      ],
+      "supporting": [
+        "ACT-131",
+        "SYS-362",
+        "SYS-578",
+        "INF-119"
+      ],
+      "noteEn": "Assign a command and a time slot to each crew member, then use the forecast and the shared Spirit reserve to plan fire and protection.",
+      "noteUk": "Признач кожному персонажеві команду й часову комірку. Прогноз і спільний запас очок духу допоможуть спланувати вогонь та захист."
+    },
+    "GAME-0536": {
+      "reviewed": "2026-11-17",
+      "defining": [
+        "ACT-733",
+        "SYS-1549",
+        "SYS-1550",
+        "SYS-1551",
+        "TIM-003"
+      ],
+      "structural": [
+        "ACT-161",
+        "ACT-223",
+        "ACT-419",
+        "SYS-409",
+        "SYS-1552",
+        "SYS-1553",
+        "CON-029",
+        "INF-142",
+        "INF-520",
+        "OBJ-029"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-131",
+        "SYS-362",
+        "SYS-578",
+        "CON-269",
+        "CON-578",
+        "CON-589",
+        "INF-119",
+        "INF-295",
+        "INF-318"
+      ],
+      "noteEn": "The manual grid runs inside the live encounter. Choosing intermediate nodes changes the temporary opening, but hitting the exposed tank still requires position and aim.",
+      "noteUk": "Ручний злом відбувається під час бою. Проміжні вузли змінюють вікно вразливості, а для влучання у відкритий бак і далі потрібні позиція й приціл."
+    },
+    "GAME-0537": {
+      "reviewed": "2026-11-17",
+      "defining": [
+        "ACT-519",
+        "ACT-734",
+        "ACT-735",
+        "SYS-1028",
+        "SYS-1554"
+      ],
+      "structural": [
+        "ACT-668",
+        "SYS-933",
+        "SYS-1363",
+        "SYS-1555",
+        "SYS-1556",
+        "SYS-1557",
+        "SYS-1558",
+        "CON-068",
+        "CON-685",
+        "OBJ-220",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-037",
+        "SYS-578",
+        "SYS-911",
+        "SYS-935",
+        "CON-183",
+        "INF-317",
+        "INF-521"
+      ],
+      "noteEn": "Continuous tilt steers Kirby, a sharp flick jumps and changes local items, and an occupied hole or cloud adds a separate timed launch.",
+      "noteUk": "Плавний нахил керує коченням. Різкий рух підкидає Кірбі й змінює предмети поруч. У лунці або на хмарі момент стрибка визначає натискання A."
+    },
+    "GAME-0538": {
+      "reviewed": "2026-11-17",
+      "defining": [
+        "ACT-030",
+        "ACT-060",
+        "ACT-736",
+        "SYS-086",
+        "SYS-1559",
+        "INF-024",
+        "OBJ-017"
+      ],
+      "structural": [
+        "CON-064",
+        "CON-093"
+      ],
+      "supporting": [
+        "INF-001",
+        "TIM-002",
+        "INF-522"
+      ],
+      "noteEn": "Inspection acquires terms automatically. Repositionable panels share the bank and independently validate the identities and event.",
+      "noteUk": "Огляд автоматично поповнює словник. Панелі можна пересувати й заповнювати спільними словами, а гра окремо перевіряє імена й перебіг події."
+    },
+    "GAME-0539": {
+      "reviewed": "2026-11-17",
+      "defining": [
+        "ACT-201",
+        "SYS-386",
+        "SYS-1560",
+        "INF-523",
+        "OBJ-299"
+      ],
+      "structural": [
+        "CON-426",
+        "TIM-003",
+        "OBJ-181"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-610",
+        "SYS-037"
+      ],
+      "noteEn": "Ramdozer opens the route while the carrier advances on its own. A clear corridor enables safe arrival or early departure independently of cleanup.",
+      "noteUk": "Бульдозер розчищає маршрут, поки вантажівка їде сама. Вільним шляхом вона може прибути до кінця, або гравець може достроково завершити місію через тягач."
+    },
+    "GAME-0540": {
+      "reviewed": "2026-11-17",
+      "defining": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-737",
+        "SYS-1561",
+        "INF-179"
+      ],
+      "structural": [
+        "SYS-045",
+        "SYS-386",
+        "SYS-578",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-037",
+        "SYS-1562"
+      ],
+      "noteEn": "A flexible drag or tap controls Yu while local paths and mobile threats change what is useful. Repeat the slash near the crow and use a second touch to split the controls.",
+      "noteUk": "Веди Ю пальцем або торкайся екрана, щоб діяти. Зважай на місцеві переходи й рух ворогів. Повтори удар поруч із вороном і розділи рух та удар другим дотиком."
+    },
+    "GAME-0541": {
+      "reviewed": "2026-11-18",
+      "defining": [
+        "ACT-738",
+        "SYS-1563"
+      ],
+      "structural": [
+        "CON-814"
+      ],
+      "supporting": [
+        "ACT-030",
+        "INF-012",
+        "TIM-002"
+      ],
+      "noteEn": "The machine needs a registered place, a scene number and a selected set of participants. The lever turns that draft into a lookup.",
+      "noteUk": "Для пошуку потрібні зареєстроване місце, номер сцени й набір учасників. Важелем надішли складену адресу."
+    },
+    "GAME-0542": {
+      "reviewed": "2026-11-18",
+      "defining": [
+        "ACT-739",
+        "SYS-1564",
+        "SYS-1565",
+        "SYS-1566",
+        "SYS-1567",
+        "SYS-1568",
+        "SYS-1570",
+        "OBJ-300"
+      ],
+      "structural": [
+        "CON-068",
+        "SYS-516",
+        "INF-524"
+      ],
+      "supporting": [
+        "ACT-290",
+        "ACT-308",
+        "ACT-379",
+        "ACT-740",
+        "SYS-320",
+        "SYS-515",
+        "SYS-1569",
+        "INF-205",
+        "INF-206",
+        "INF-208",
+        "TIM-003"
+      ],
+      "noteEn": "Terrain triggers and heat management change the racing line. Stunt stars and the finish bonus jointly determine whether the two-lap attempt passes.",
+      "noteUk": "Тригери рельєфу й нагрівання змінюють вибір траєкторії. Зірки за трюки та винагорода за місце разом визначають проходження двох кіл."
+    },
+    "GAME-0543": {
+      "reviewed": "2026-11-18",
+      "defining": [
+        "ACT-741",
+        "SYS-1571",
+        "ACT-726"
+      ],
+      "structural": [
+        "SYS-066",
+        "SYS-1572",
+        "OBJ-026"
+      ],
+      "supporting": [
+        "ACT-008",
+        "SYS-407",
+        "INF-372",
+        "TIM-003"
+      ],
+      "noteEn": "The lower plants grow support for an upper crossing. Twig, body dash and focused light solve different obstructions before the lighthouse can reach the far opening.",
+      "noteUk": "Нижні рослини вирощують опору для верхньої переправи. Twig, ривок тіла й сфокусоване світло долають різні перешкоди, перш ніж маяк зможе дістатися отвору на іншому боці."
+    },
+    "GAME-0544": {
+      "reviewed": "2026-11-19",
+      "defining": [
+        "ACT-533",
+        "ACT-742",
+        "SYS-1575"
+      ],
+      "structural": [
+        "SYS-1058",
+        "SYS-1573",
+        "SYS-1574",
+        "SYS-1576",
+        "OBJ-301"
+      ],
+      "supporting": [
+        "INF-525",
+        "SYS-369",
+        "TIM-003"
+      ],
+      "noteEn": "Remember both the call’s order and rhythm. Typed shooting adds a target choice, while audience percentage and boss hearts impose separate failure channels.",
+      "noteUk": "Запам’ятовуй і порядок, і ритм виклику. Стрілецька відповідь додає вибір за типом цілі, а відсоток аудиторії й серця боса задають окремі умови поразки."
+    },
+    "GAME-0545": {
+      "reviewed": "2026-11-19",
+      "defining": [
+        "ACT-743",
+        "SYS-1577",
+        "SYS-1578"
+      ],
+      "structural": [
+        "SYS-1579",
+        "SYS-1580",
+        "SYS-1581",
+        "ACT-106",
+        "SYS-139",
+        "CON-597",
+        "CON-068",
+        "SYS-299",
+        "ACT-191",
+        "OBJ-302"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-232",
+        "SYS-773",
+        "INF-123",
+        "INF-148",
+        "INF-526",
+        "TIM-003"
+      ],
+      "noteEn": "Dispatch ties together group fit, temporary availability and injury. Hacking adds route changes and learned directional codes before the shift review.",
+      "noteUk": "Призначення поєднує відповідність групи, тимчасову доступність і травми. Злам додає зміну маршрутів та вивчені напрямні коди перед підсумком зміни."
+    },
+    "GAME-0546": {
+      "reviewed": "2026-11-19",
+      "defining": [
+        "ACT-744",
+        "SYS-1582",
+        "SYS-1584"
+      ],
+      "structural": [
+        "SYS-948",
+        "SYS-1585",
+        "ACT-745",
+        "SYS-1583",
+        "ACT-746",
+        "SYS-605",
+        "SYS-215",
+        "OBJ-303"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-223",
+        "ACT-341",
+        "ACT-605",
+        "ACT-610",
+        "SYS-037",
+        "SYS-369",
+        "SYS-755",
+        "SYS-773",
+        "CON-183",
+        "INF-142",
+        "INF-527",
+        "TIM-003"
+      ],
+      "noteEn": "Pulse yield, transport and hit protection share the same crystals. Keep that resource tradeoff separate from danger bursts and the final mission grade.",
+      "noteUk": "Кристали після імпульсів, телепортація й захист від ударів використовують спільний запас. Розрізняй цей вибір ресурсів, серії вибухів небезпеки та підсумковий ранг місії."
+    },
+    "GAME-0547": {
+      "reviewed": "2026-11-19",
+      "defining": [
+        "ACT-747",
+        "SYS-1586",
+        "CON-815"
+      ],
+      "structural": [
+        "ACT-748",
+        "SYS-1490",
+        "SYS-1587",
+        "OBJ-014",
+        "OBJ-294"
+      ],
+      "supporting": [
+        "INF-528",
+        "TIM-003"
+      ],
+      "noteEn": "Tracked contact chooses line and pace. Viewing teleports preserve the ball, and the completed hole has a stroke result rather than a mandatory par ceiling.",
+      "noteUk": "Відстежуваний контакт задає напрям і силу. Телепортація огляду зберігає м’яч, а завершена лунка має результат ударів замість обов’язкової верхньої межі нормативу."
+    },
+    "GAME-0548": {
+      "reviewed": "2026-11-19",
+      "defining": [
+        "ACT-052",
+        "SYS-1588",
+        "SYS-1589",
+        "CON-816"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-190",
+        "ACT-680",
+        "SYS-037",
+        "SYS-085",
+        "SYS-755",
+        "SYS-788",
+        "SYS-1590",
+        "CON-426",
+        "OBJ-026"
+      ],
+      "supporting": [
+        "ACT-610",
+        "INF-529",
+        "TIM-003"
+      ],
+      "noteEn": "One processor adopts a deactivated body’s capabilities without healing. The energy and occupation credits activate a separately reached exit; purple collection is optional.",
+      "noteUk": "Єдиний процесор переймає можливості деактивованого тіла без лікування. Зараховані енергія та вселення активують вихід, до якого ще треба дістатися; фіолетове збирання необов’язкове."
+    },
+    "GAME-0549": {
+      "reviewed": "2026-11-19",
+      "defining": [
+        "ACT-749",
+        "SYS-1591",
+        "SYS-1592",
+        "SYS-1593",
+        "CON-817"
+      ],
+      "structural": [
+        "ACT-161",
+        "ACT-215",
+        "ACT-341",
+        "SYS-037",
+        "SYS-215",
+        "SYS-369",
+        "SYS-749",
+        "SYS-1594",
+        "CON-773",
+        "CON-801",
+        "OBJ-029"
+      ],
+      "supporting": [
+        "ACT-008",
+        "INF-119",
+        "INF-235",
+        "TIM-003"
+      ],
+      "noteEn": "Boundary travel sets the shot angle; a crossing dash must match both hazard class and landing. Surplus-funded contact attacks and checkpoint weapon choices serve the complete first mission.",
+      "noteUk": "Рух межею задає кут пострілу; перетин ривком має враховувати клас небезпеки та приземлення. Контактні атаки за надлишок і вибір зброї на контрольних точках служать повній першій місії."
+    },
+    "GAME-0550": {
+      "reviewed": "2026-11-19",
+      "defining": [
+        "ACT-437",
+        "ACT-161"
+      ],
+      "structural": [
+        "ACT-008",
+        "SYS-215",
+        "OBJ-029"
+      ],
+      "supporting": [
+        "INF-119",
+        "INF-235",
+        "INF-318",
+        "TIM-003"
+      ],
+      "noteEn": "The named GAME-0550 review partitions the complete nine-gene tutorial: held block and light attack define its taught choice; local movement, live resolution and the finite goal structure it, while condition, scene information and timing support it. Cinematic memory supplies no rewind gene.",
+      "noteUk": "Іменований перегляд GAME-0550 розподіляє повний навчальний геном із дев’яти генів: утримуваний блок і легка атака визначають засвоюваний вибір; місцевий рух, живе розв’язання й скінченна ціль його структурують, а стан, відомості сцени та час підтримують. Кінематографічний спогад не додає гена перемотування."
+    },
+    "GAME-0551": {
+      "reviewed": "2026-11-19",
+      "defining": [
+        "SYS-1595",
+        "SYS-1596",
+        "CON-818",
+        "OBJ-304",
+        "ACT-290"
+      ],
+      "structural": [
+        "ACT-608",
+        "SYS-320",
+        "SYS-369",
+        "SYS-515",
+        "SYS-516",
+        "CON-068",
+        "CON-183",
+        "CON-438"
+      ],
+      "supporting": [
+        "ACT-609",
+        "INF-204",
+        "INF-205",
+        "INF-206",
+        "INF-208",
+        "TIM-003"
+      ],
+      "noteEn": "The named GAME-0551 review partitions all nineteen genes without weights. Throttle-return drift, individual race cuts and performance-based stage assignment define the first heat; vehicle, race and retry rules structure it, while the fixed view and disclosed current state support decisions.",
+      "noteUk": "Іменований перегляд GAME-0551 розподіляє всі дев’ятнадцять генів без ваг. Занос після повернення газу, окремі прохідні вимоги гонок і призначення машини за результатами визначають перший етап; правила машини, гонки й повтору його структурують, а заданий огляд і відкритий поточний стан підтримують рішення."
+    },
+    "GAME-0552": {
+      "reviewed": "2026-11-19",
+      "defining": [
+        "ACT-114",
+        "SYS-1597",
+        "SYS-1598",
+        "SYS-1599",
+        "SYS-1055"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-341",
+        "ACT-363",
+        "ACT-531",
+        "ACT-750",
+        "SYS-036",
+        "SYS-112",
+        "SYS-661",
+        "SYS-665",
+        "CON-534",
+        "CON-536",
+        "CON-693",
+        "CON-819"
+      ],
+      "supporting": [
+        "ACT-610",
+        "INF-073",
+        "INF-075",
+        "INF-258",
+        "OBJ-026",
+        "TIM-003"
+      ],
+      "noteEn": "The named GAME-0552 review partitions all twenty-four admitted genes without weights. Independent hands, two-layer exertion, live safety recovery, renewed temporary anchors and adjustable swings define Daymark; route interactions and legality carry the climb, with camera, meters, visible holds and completion feedback supporting decisions.",
+      "noteUk": "Іменований перегляд GAME-0552 розподіляє всі двадцять чотири допущені гени без ваг. Незалежні руки, два рівні витривалості, відновлення на чинній страховці, поновлювані тимчасові кріплення й кероване розгойдування визначають Daymark; взаємодії та допустимість підтримують сходження, а камера, показники, видимі зачепи й умова завершення допомагають обирати дії."
+    },
+    "GAME-0553": {
+      "reviewed": "2026-11-19",
+      "defining": [
+        "ACT-052",
+        "CON-820",
+        "SYS-1600",
+        "SYS-1601",
+        "SYS-1602"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-087",
+        "ACT-131",
+        "ACT-161",
+        "ACT-164",
+        "ACT-190",
+        "ACT-199",
+        "ACT-341",
+        "SYS-036",
+        "ACT-648",
+        "SYS-112",
+        "SYS-215",
+        "SYS-222",
+        "SYS-369",
+        "SYS-755",
+        "SYS-932",
+        "CON-175",
+        "CON-210"
+      ],
+      "supporting": [
+        "INF-073",
+        "INF-124",
+        "INF-179",
+        "INF-317",
+        "OBJ-022",
+        "TIM-003"
+      ],
+      "noteEn": "The named GAME-0553 review partitions all twenty-nine genes without weights. Persistent control handoffs, fixed innate verbs, overhead support, shield descent and pad occupancy define TLPT; inventory, fixtures, combat and survival structure the route, while local displays, placed hints and the all-three objective support planning.",
+      "noteUk": "Іменований перегляд GAME-0553 розподіляє всі двадцять дев’ять генів без ваг. Перемикання між збереженими героями, фіксовані вроджені дії, верхня опора, спуск зі щитом і присутність у телепорті визначають TLPT; інвентар, механізми, бій та виживання формують маршрут, а місцеві показники, розміщені підказки й мета виходу трьох підтримують планування."
+    },
+    "GAME-0554": {
+      "reviewed": "2026-11-19",
+      "defining": [
+        "ACT-751",
+        "ACT-752",
+        "INF-530",
+        "SYS-1603"
+      ],
+      "structural": [
+        "ACT-753",
+        "SYS-1605",
+        "CON-821",
+        "INF-531",
+        "SYS-1604",
+        "ACT-070",
+        "ACT-087"
+      ],
+      "supporting": [
+        "ACT-089",
+        "ACT-107",
+        "INF-003",
+        "OBJ-004",
+        "OBJ-305",
+        "TIM-002",
+        "TIM-003"
+      ],
+      "noteEn": "The named GAME-0554 review partitions all eighteen admitted genes without weights. Retained specimen offers, revisable labels, botanical evidence and request settlement define the first day. Grid visits, renewable readiness, recipient predicates and first restorative assembly structure it; collection, dialogue, concealed facts, conditional objectives and separate untimed/beneficial-recharge processes support the loop.",
+      "noteUk": "Іменований перегляд GAME-0554 розподіляє всі вісімнадцять допущених генів без ваг. Пропозиції збережених рослин, змінювані етикетки, ботанічні докази й виконання запитів визначають перший день. Клітинки відвідань, відновлювана готовність, умови адресатів і перше відновлювальне складання формують його; збирання, розмови, приховані факти, умовні цілі й окремі процеси без строку та корисного поповнення підтримують цикл."
+    },
+    "GAME-0555": {
+      "reviewed": "2026-11-19",
+      "defining": [
+        "ACT-754",
+        "ACT-755",
+        "SYS-1606",
+        "SYS-1609"
+      ],
+      "structural": [
+        "SYS-630",
+        "SYS-1607",
+        "CON-799",
+        "SYS-1608",
+        "INF-532",
+        "OBJ-306"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-089",
+        "ACT-199",
+        "ACT-219",
+        "SYS-1352",
+        "INF-073",
+        "INF-179",
+        "TIM-003"
+      ],
+      "noteEn": "The named GAME-0555 review partitions all eighteen admitted genes without weights. Contact cleaning, the attached plug, personal charge and home-only rank define the first-night loop. Persistent floor work, chosen refuse accounting, per-type caps, retained dawn return, distinct HUD measures and the complete period objective structure it. Traversal, collection, equipment, deliberate disposal, declared rewards, inventory, visible room and live-time progression support it.",
+      "noteUk": "Іменований перегляд GAME-0555 розподіляє всі вісімнадцять допущених генів без ваг. Контактне чищення, власна вилка, особистий заряд і лише домашній ранг визначають цикл першої ночі. Збережена обробка підлоги, облік обраного сміття, межі видів, світанкове повернення, різні показники та ціль повного періоду формують його. Пересування, збирання, спорядження, свідоме викидання, передбачені винагороди, інвентар, видима кімната й живий плин часу підтримують цикл."
+    },
+    "GAME-0556": {
+      "reviewed": "2026-11-19",
+      "defining": [
+        "ACT-008",
+        "SYS-1610",
+        "SYS-496"
+      ],
+      "structural": [
+        "SYS-1611",
+        "SYS-1612",
+        "CON-113",
+        "SYS-369",
+        "SYS-1614",
+        "SYS-1613",
+        "OBJ-181"
+      ],
+      "supporting": [
+        "ACT-232",
+        "SYS-037",
+        "INF-179",
+        "INF-194",
+        "INF-533",
+        "OBJ-002",
+        "TIM-003"
+      ],
+      "noteEn": "The named GAME-0556 review partitions all seventeen admitted genes without weights. Local lateral placement, separate pickup sequences and the common authored song clock define the route. Independent slide/near-pass credit, collision, retry, optional help, score settlement and ordinary clear structure it. Helper responses, contact collection, current route/cadence, disclosed results, score maximisation and live time support it; no universal note-chart or health gauge is invented.",
+      "noteUk": "Іменований перегляд GAME-0556 розподіляє всі сімнадцять допущених генів без ваг. Локальне бічне розміщення, окремі послідовності предметів і спільний авторський годинник композиції визначають маршрут. Окремі очки ковзання й близького проїзду, зіткнення, повтор, необов’язкова допомога, підсумок рахунку й звичайне завершення формують його. Відповіді помічникові, контактне збирання, поточний маршрут і музична послідовність, відкриті результати, збільшення очок і живий час підтримують цикл; універсальної нотної послідовності чи шкали здоров’я не вигадується."
+    },
+    "GAME-0557": {
+      "reviewed": "2026-11-19",
+      "defining": [
+        "ACT-756",
+        "SYS-1615",
+        "SYS-1618",
+        "OBJ-307"
+      ],
+      "structural": [
+        "CON-578",
+        "ACT-048",
+        "CON-822",
+        "SYS-1617",
+        "CON-823",
+        "ACT-489",
+        "SYS-057",
+        "CON-077",
+        "SYS-1616",
+        "ACT-757",
+        "SYS-605",
+        "SYS-1619",
+        "TIM-036",
+        "SYS-1622",
+        "CON-571"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-131",
+        "ACT-161",
+        "ACT-199",
+        "ACT-202",
+        "ACT-341",
+        "SYS-215",
+        "SYS-369",
+        "SYS-578",
+        "SYS-1344",
+        "SYS-1620",
+        "SYS-1621",
+        "CON-629",
+        "INF-125",
+        "INF-179",
+        "INF-534",
+        "TIM-003",
+        "TIM-025"
+      ],
+      "noteEn": "The named GAME-0557 review partitions all thirty-seven admitted genes without weights. Physical exposure, the two-store solar protocol and supported purification define the joined extraction mission. The retained coffin, restricted drag, agitation, live-sun gate, finite-ammunition and thermal legality, external overheat response, patrol diversion, sight, skylight, requested charging, authored route, graded settlement and area-entry saving structure it. Ordinary movement, items, equipment, posture, fixtures, combat, retry, life, local refill, lens experience, typed crystals, save legality, current/map/gauge information and the two independent time inputs support it. No true Count duel, four-generator fight, native execution or exact coefficient parity is invented.",
+      "noteUk": "Іменований перегляд GAME-0557 розподіляє всі тридцять сім допущених генів без ваг. Фізичне освітлення, сонячний обмін із двома запасами та підтримуване очищення визначають спільне завдання винесення. Збережена труна, обмежене волочіння, збудження, умова поточного сонця, допустимість за скінченного боєзапасу й температурою, реакція перегрівання від зовнішнього світла, відвернення патрулів, зір, світлова пляма, кероване заряджання, авторський маршрут, оцінений підсумок і збереження стану входу формують його. Звичайний рух, предмети, спорядження, положення тіла, пристрої, бій, повтор, життя, місцеве поповнення, досвід лінзи, типізовані кристали, допустимість збереження, поточні, картографічні й числові відомості та два незалежні часові входи підтримують цикл. Двобій справжнього Графа, бій із чотирма генераторами, виконання на оригінальному пристрої чи точна відповідність коефіцієнтів не вигадуються."
+    },
+    "GAME-0558": {
+      "reviewed": "2026-11-19",
+      "defining": [
+        "ACT-758",
+        "SYS-1623",
+        "SYS-1624"
+      ],
+      "structural": [
+        "CON-824",
+        "ACT-759",
+        "SYS-1363",
+        "ACT-341",
+        "OBJ-026",
+        "ACT-760",
+        "INF-535"
+      ],
+      "supporting": [
+        "ACT-008",
+        "SYS-036",
+        "ACT-161",
+        "SYS-755",
+        "SYS-037",
+        "SYS-369",
+        "INF-271",
+        "TIM-003"
+      ],
+      "noteEn": "The named GAME-0558 review partitions all eighteen admitted genes without weights. Independent tracked grip, constrained stone response and wheel braking define the two-role traversal. Target legality, automatic ledge control, paddle support, bridge interaction, home arrival and tracked local inspection structure it. Ordinary movement, gravity, breakable strikes/destruction, fragments, local retry, grip feedback and live time support it. No later combat, enemy possession, sequel equipment or modern combat skip is inherited.",
+      "noteUk": "Іменований перегляд GAME-0558 розподіляє всі вісімнадцять допущених генів без ваг. Незалежний відстежуваний захват, обмежений відгук каменя й гальмування колеса визначають проходження з двома ролями. Допустимість цілі, керування після автоматичного зачеплення за уступ, опора на лопаті, взаємодія з мостом, прихід додому й відстежуваний місцевий огляд формують цикл. Звичайний рух, тяжіння, удари й руйнування предметів, фрагменти, місцевий повтор, відгук захвату та поточний час підтримують його. Пізніший бій, керування ворогами, спорядження продовження чи сучасний пропуск боїв не успадковуються."
+    },
+    "GAME-0559": {
+      "reviewed": "2026-11-19",
+      "defining": [
+        "ACT-761",
+        "SYS-1625",
+        "ACT-762",
+        "SYS-1626"
+      ],
+      "structural": [
+        "INF-536",
+        "SYS-407",
+        "ACT-535",
+        "CON-746",
+        "ACT-341",
+        "ACT-048",
+        "ACT-706",
+        "SYS-755",
+        "OBJ-026"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-202",
+        "ACT-759",
+        "SYS-036",
+        "SYS-369",
+        "INF-258",
+        "INF-268",
+        "INF-372",
+        "TIM-003"
+      ],
+      "noteEn": "The named GAME-0559 review partitions all twenty-two admitted genes without weights. Automatic surface climbing, food-mediated readiness and the two-sided marker/discharge define this cave cooperation. Companion attention and autonomy, addressed call, body clearance, contextual dependencies, food handling, crate push, destruction and exterior arrival structure the route. Ordinary navigation/posture, ledge control, physics, local retry, terrain/instruction/context feedback and live time support it. No later combat, learned gesture orders, numeric affection or direct mount steering is inherited.",
+      "noteUk": "Іменований перегляд GAME-0559 розподіляє всі двадцять два допущені гени без ваг. Лазіння з автоматичним утриманням, готовність через їжу та двосторонні позначення й розряд визначають співпрацю в цій печері. Увага й автономність супутника, адресований поклик, просвіт тіла, контекстні залежності, поводження з їжею, поштовх ящика, руйнування та прихід надвір формують маршрут. Звичайні рух і поза, керування уступом, фізика, місцевий повтор, підказки місцевості, вказівок і контексту та поточний час підтримують його. Пізніший бій, вивчені жестові накази, числова прихильність чи пряме керування верховою істотою не успадковуються."
+    },
+    "GAME-0560": {
+      "reviewed": "2026-11-19",
+      "defining": [
+        "ACT-763",
+        "SYS-1627",
+        "CON-825"
+      ],
+      "structural": [
+        "ACT-764",
+        "SYS-1628",
+        "SYS-1629",
+        "SYS-1630",
+        "OBJ-308",
+        "ACT-341",
+        "ACT-611",
+        "ACT-295",
+        "SYS-578",
+        "SYS-915",
+        "SYS-369"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-048",
+        "ACT-161",
+        "ACT-202",
+        "ACT-759",
+        "SYS-036",
+        "SYS-045",
+        "SYS-051",
+        "SYS-215",
+        "SYS-755",
+        "CON-442",
+        "INF-073",
+        "INF-119",
+        "INF-192",
+        "INF-235",
+        "INF-318",
+        "TIM-003"
+      ],
+      "noteEn": "The named GAME-0560 review partitions all thirty-one admitted genes without weights. Two-entry capacity, reversible selection and pair behaviour define the weapon proposition. Bodily guard, live dispenser output, guardian recovery, gem/continuation settlement, manual supply claim, opponent throws, character attacks, Vitality, required clearance and stage retry structure the complete route. Ordinary movement, inert props, shots, posture/ledge state, physics, enemy response, combat/breakage, action gates, local and HUD feedback and real time support it. Indexed replacement and vitality wording limits remain explicit; no finite life stock, ammunition economy, shield or later stage is inherited.",
+      "noteUk": "Іменований перегляд GAME-0560 розподіляє повний набір із тридцяти одного допущеного гена без ваг. Місткість двох компонентів, оборотний вибір і поведінка пари визначають задум зброї. Захист тілом, поточний вихід роздавача, відновлення охоронця, зарахування самоцвіту й продовження, ручне підбирання постачання, кидки ворогів, атаки персонажа, Vitality, обов’язкове очищення й повтор етапу формують увесь маршрут. Звичайні рух, неживі предмети, постріли, поза й уступ, фізика, відгук ворогів, бій і руйнування, допустимість дій, місцеві й інтерфейсні підказки та поточний час підтримують його. Обмеження пошукових витягів про заміну та формулювань життєвої сили залишаються явними; скінченний запас життів, господарювання боєприпасами, щит чи подальший етап не успадковуються."
+    },
+    "GAME-0561": {
+      "reviewed": "2026-11-19",
+      "defining": [
+        "ACT-190",
+        "SYS-1631",
+        "CON-349"
+      ],
+      "structural": [
+        "ACT-048",
+        "ACT-295",
+        "ACT-341",
+        "ACT-356",
+        "ACT-438",
+        "SYS-380",
+        "SYS-398",
+        "SYS-578",
+        "SYS-369",
+        "SYS-1632",
+        "CON-661",
+        "OBJ-155"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-680",
+        "SYS-036",
+        "SYS-037",
+        "SYS-045",
+        "SYS-051",
+        "SYS-215",
+        "SYS-755",
+        "SYS-1049",
+        "SYS-1363",
+        "SYS-1386",
+        "CON-269",
+        "CON-282",
+        "CON-556",
+        "INF-115",
+        "INF-119",
+        "INF-268",
+        "INF-271",
+        "TIM-003"
+      ],
+      "noteEn": "The named GAME-0561 review partitions all thirty-four admitted genes without weights. Active target-dependent powers, limited balloon/updraft traversal and taught capability gates define the complete first mind. Retained props, direct PSI attacks, compatible dodge/lock, power effects, ability retention, mental health, full retry, surviving crossing recovery, typed baggage and the chapter return structure it. Ordinary navigation, airborne steering, live bodies and enemies, contact pickup, breakage, moving/failing supports, one extra jump, prerequisites, local/HUD/instruction/held-object feedback and real time support it. No finite astral stock, shared mana, complete rank economy, mass-scaled prop impact or later powers are inherited.",
+      "noteUk": "Іменований перегляд GAME-0561 розподіляє повний набір із тридцяти чотирьох допущених генів без ваг. Активні здібності з вибором цілі, обмежене ширяння з висхідними потоками й умови доступності показаних здібностей визначають увесь перший розум. Утримувані предмети, прямі психічні атаки, допустимі ухиляння й фіксація цілі, ефекти й збереження здібностей, розумове здоров’я, повний повтор, повернення після невдалого переходу без смерті, типізований багаж і повернення після розділу формують його структуру. Звичайне проходження, керування в повітрі, поточні тіла й вороги, підбирання дотиком, руйнування, рухомі й нестійкі опори, один додатковий стрибок, передумови, місцеві показники та відгуки ресурсів, вказівок і предметів, а також поточний час його підтримують. Скінченний запас астральних шарів, спільна мана, повне господарювання рангами, шкода предмета залежно від маси та пізніші здібності не успадковуються."
+    },
+    "GAME-0562": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "TIM-026",
+        "SYS-1633",
+        "CON-136"
+      ],
+      "structural": [
+        "SYS-1365",
+        "SYS-1636",
+        "SYS-794",
+        "SYS-1634",
+        "SYS-1635",
+        "CON-210",
+        "CON-621",
+        "OBJ-155"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-019",
+        "ACT-089",
+        "ACT-131",
+        "ACT-183",
+        "ACT-191",
+        "ACT-199",
+        "ACT-341",
+        "SYS-299",
+        "SYS-362",
+        "SYS-453",
+        "SYS-578",
+        "SYS-954",
+        "SYS-1271",
+        "CON-175",
+        "CON-269",
+        "INF-119",
+        "INF-179",
+        "INF-537",
+        "INF-538",
+        "TIM-003"
+      ],
+      "noteEn": "The named GAME-0562 review partitions all thirty-two admitted genes without weights. Concurrent command readiness, spatial range effectiveness and persistent key prerequisites define the first-day route. PE recovery/protection, tail capability removal, retained BP investment, battle afflictions, carrying capacity, fixture saves and whole-day successor control structure it. Direct movement and commands, inspection, items, reload preparation, point spending, equipment, rewards, progression, health, encounters, downtime, survival/resource prerequisites, current room/HUD/range/Scan information and the live clock support it. No later tuning, EX carryover, hard out-of-range prohibition or exact native probability is inherited.",
+      "noteUk": "Іменований перегляд GAME-0562 розподіляє всі тридцять два допущені гени без ваг. Одночасна готовність команд, просторова дієвість дальності й збережені передумови ключів визначають маршрут першого дня. Відновлення й захист PE, усунення можливості хвоста, збережене вкладення BP, бойові недуги, місткість перенесення, збереження через пристрої й керування наступником після всього дня формують його структуру. Прямий рух і команди, огляд, предмети, підготовка перезаряджання, витрата очок, спорядження, нагороди, розвиток, здоров’я, сутички, затримки, передумови виживання й ресурсів, поточні дані кімнати, показників, дальності й Scan та поточний час його підтримують. Пізніше налаштування, перенесення EX, сувора заборона поза дальністю чи точна ймовірність оригінальної версії не успадковуються."
+    },
+    "GAME-0563": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "SYS-1637",
+        "SYS-1638",
+        "CON-136"
+      ],
+      "structural": [
+        "CON-826",
+        "CON-827",
+        "SYS-680",
+        "SYS-1639",
+        "INF-496",
+        "CON-621",
+        "OBJ-031"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-072",
+        "ACT-073",
+        "ACT-083",
+        "ACT-085",
+        "ACT-087",
+        "ACT-089",
+        "ACT-107",
+        "ACT-341",
+        "SYS-112",
+        "INF-003",
+        "INF-179",
+        "INF-393",
+        "TIM-002"
+      ],
+      "noteEn": "The named GAME-0563 review partitions all twenty-four admitted genes without numeric weights. Per-playthrough authored clue parameters, retained raw records and persistent access dependencies define the packet. Exact independent sums, fixed-block glyph acceptance, interpreted leads, separate auxiliary arithmetic, acquired floor plans, fixture saves and the whole cartography conjunction structure it. Movement, input verbs, collection, dialogue, contextual inspection, mechanism consequences, concealed answers, local view, notebook disclosure and self-paced reasoning support it. No minimal Renzo flag conjunction, native RNG formula, full-game finale or red-maze failure is inherited.",
+      "noteUk": "Іменований перегляд GAME-0563 розподіляє всі двадцять чотири допущені гени без числових ваг. Параметри авторських підказок окремого проходження, збережені початкові записи й залежності збереженого доступу визначають цикл. Точні незалежні суми, прийняття знаків нерухомих блоків, витлумачені зачіпки, окрема допоміжна арифметика, отримані плани, збереження через пристрої й повна сукупність картографічних задач формують його структуру. Рух, дії введення, збирання, діалог, контекстний огляд, наслідки пристроїв, приховані відповіді, місцевий огляд, дані записника й міркування у власному темпі його підтримують. Мінімальна сукупність прапорців Renzo, формула власного генератора, фінал усієї гри чи невдача червоного лабіринту не успадковуються."
+    },
+    "GAME-0564": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "SYS-1641",
+        "SYS-1644",
+        "CON-828"
+      ],
+      "structural": [
+        "CON-829",
+        "SYS-1640",
+        "SYS-1642",
+        "SYS-1643",
+        "SYS-1645",
+        "SYS-1646",
+        "SYS-1647",
+        "OBJ-282"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-223",
+        "ACT-765",
+        "INF-116",
+        "INF-178",
+        "INF-539",
+        "TIM-003"
+      ],
+      "noteEn": "The named GAME-0564 review partitions all eighteen admitted genes without numeric weights. Automatic but potentially unsafe reception, catch-to-release performance and separate court halves define the duel. Holding immobilisation, flight families, timed upward toss, automatic landing charge, family-restricted reversals, weighted point/serve settlement, complete set/draw scheduling and the fixed-pair match objective structure it. Movement/slide, timed response, directed release, score/phase disclosure, the playing view, landing/charge cues and the live clock support it. Unknown exact target margin, whistle ordering and score-sensitive frame constants are not silently certified; no AI ladder, bonus game, other court or sequel verb is inherited.",
+      "noteUk": "Іменований перегляд GAME-0564 розподіляє всі вісімнадцять допущених генів без числових ваг. Автоматичний, але потенційно небезпечний прийом, дієвість від ловіння до випуску й окремі половини майданчика визначають двобій. Нерухомість під час утримання, різновиди польоту, вчасне підкидання, автоматичний заряд приземлення, обмежені різновидом контркидки, очки різної вартості й подача, повний розклад сетів та нічиїх і мета матчу сталої пари формують його структуру. Рух і ковзання, вчасна відповідь, напрямлений випуск, показ рахунку й фази, ігровий огляд, підказки приземлення й заряду та поточний час його підтримують. Невідомі точні запас переваги біля порога, порядок свистка й залежні від рахунку сталі кадрів не засвідчуються приховано; комп’ютерна драбина, бонусна гра, інший майданчик чи дія продовження не успадковуються."
+    },
+    "GAME-0565": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "SYS-1648",
+        "CON-304",
+        "SYS-1650"
+      ],
+      "structural": [
+        "SYS-1649",
+        "SYS-1651",
+        "SYS-1652",
+        "CON-830",
+        "CON-831",
+        "CON-832",
+        "INF-541",
+        "SYS-1653",
+        "OBJ-020"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-159",
+        "ACT-048",
+        "ACT-130",
+        "ACT-341",
+        "ACT-161",
+        "ACT-190",
+        "SYS-212",
+        "SYS-213",
+        "SYS-1285",
+        "CON-206",
+        "CON-136",
+        "INF-540",
+        "INF-235",
+        "INF-117",
+        "TIM-003"
+      ],
+      "noteEn": "The named GAME-0565 review manually partitions the complete twenty-eight-gene opening-cycle genome without weights. Physical bank delivery, load-sensitive return and unattended-capable assault timing define the trade-off. Run-local investment, slew/contact defence, shield/hull separation, base survival, console authority, prepared-overcharge eligibility, conditional acquired Shield battle effects, paid telemetry and finite-assault completion structure it. Direct movement, drilling, carrying/release, purchases, fixture use and firing, available ability activation, mutable terrain/generation, repair, reach/dependency checks and local/transaction/battle views support the live loop. Final relic extraction, later secondary gadgets and post-launch content are not inherited.",
+      "noteUk": "Іменований перегляд GAME-0565 вручну розподіляє повний геном початкового циклу з двадцяти восьми генів без ваг. Фізичне здавання до запасу, залежне від вантажу повернення й час нападу незалежно від присутності доглядача визначають вибір. Вкладення в межах забігу, оборона з часом наведення й контакту, розділення щита та оболонки, виживання бази, повноваження консолі, допустимість підготовленого надзаряджання, умовні придбані бойові ефекти Shield, платні вимірювання й завершення скінченного нападу формують структуру. Безпосередні рух, буріння, перенесення й відпускання, купівля, використання пристроїв і вогонь, активація доступної здібності, змінювана порода та генерація, ремонт, перевірки досяжності й залежностей і місцевий, операційний та бойовий огляди підтримують поточний цикл. Фінальне здобуття реліквії, пізніші додаткові пристрої та вміст після релізу не успадковуються."
+    },
+    "GAME-0566": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "ACT-766",
+        "ACT-767",
+        "ACT-768",
+        "SYS-1654",
+        "SYS-1655"
+      ],
+      "structural": [
+        "SYS-1656",
+        "SYS-1657",
+        "SYS-1011",
+        "OBJ-309",
+        "SYS-1013"
+      ],
+      "supporting": [
+        "SYS-822",
+        "SYS-1658",
+        "SYS-369",
+        "INF-299",
+        "INF-542",
+        "TIM-003"
+      ],
+      "noteEn": "The named GAME-0566 review manually partitions the complete sixteen-gene mission without weights. Spatial timed tap, paced retained contact, circular input, authored judgement and an independently draining reserve define it. Response-driven gauge updates, group refill, local spin quota, score streak and the whole-mission terminal structure it. Aggregate grade, saved record, explicit full retry, result report, local preview and real-time progression support the loop. No agent body movement, missing first-song phrase or later multiplayer rules are inherited.",
+      "noteUk": "Іменований перегляд GAME-0566 вручну розподіляє повне завдання з шістнадцяти генів без ваг. Просторове своєчасне натискання, контакт у заданому темпі, кругове введення, готове оцінювання й незалежно спадний запас визначають його. Зміни шкали за відповідями, поповнення за групу, місцева квота обертання, серія для очок і кінцева умова всього завдання формують структуру. Сукупна оцінка, збережений запис, явний повний повтор, звіт результату, місцевий показ наближення й поточний рух часу підтримують цикл. Рух тіла агента, відсутню в першій пісні фразу чи пізніші багатокористувацькі правила не успадковано."
+    },
+    "GAME-0567": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "ACT-769",
+        "TIM-037",
+        "ACT-048",
+        "ACT-770",
+        "SYS-1661"
+      ],
+      "structural": [
+        "ACT-771",
+        "ACT-714",
+        "CON-833",
+        "SYS-1660",
+        "SYS-1659",
+        "OBJ-029"
+      ],
+      "supporting": [
+        "ACT-161",
+        "SYS-036",
+        "SYS-215",
+        "SYS-369",
+        "SYS-706",
+        "SYS-755",
+        "CON-773",
+        "INF-142",
+        "INF-543"
+      ],
+      "noteEn": "The named GAME-0567 review manually partitions all twenty scoped genes without weights. Physical exposure, motion-linked time, held props, tracked punches and actual-volume interception define the embodied loop. Direct disarm/catch, finite gun shots, ready-hand recovery, automatic Quest scene alignment and whole-group clearance structure it. The other direct attack, physics, combat, retry, impact, fragile destruction, vitality and two local information boundaries support it. Neither an independent fixed clock nor later MindWave is inherited.",
+      "noteUk": "Іменований перегляд GAME-0567 вручну розподіляє всі двадцять генів меж аналізу без ваг. Фізична вразливість, час від руху, утримувані предмети, відстежувані удари й перехоплення фактичним об’ємом визначають втілений цикл. Пряме роззброєння й ловіння, скінченні постріли, відновлення готової руки, автоматичне вирівнювання сцени Quest та очищення всієї групи формують його структуру. Інша пряма атака, фізика, бій, повтор, удар предмета, руйнування крихких предметів, життєздатність і дві межі місцевої інформації підтримують його. Незалежного фіксованого часу чи пізнішої MindWave не успадковано."
+    },
+    "GAME-0568": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "ACT-303",
+        "SYS-1662",
+        "SYS-1663",
+        "SYS-1664",
+        "OBJ-310"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-201",
+        "ACT-341",
+        "SYS-147",
+        "CON-068",
+        "INF-125"
+      ],
+      "supporting": [
+        "ACT-202",
+        "ACT-048",
+        "ACT-446",
+        "SYS-036",
+        "SYS-369",
+        "SYS-862",
+        "INF-256",
+        "TIM-003"
+      ],
+      "noteEn": "Named GAME-0568 review partitions the complete nineteen-gene mission without weights. Breach, partial voxel removal, clock activation, prepared-state restoration and full escape define the loop. Navigation, vehicle use, target interaction, support loss, deadline and map structure it. Posture, props, continuous tools, live physics, restart, fire, live mission cues and time support it.",
+      "noteUk": "Перегляд GAME-0568 розподіляє всі дев’ятнадцять генів місії без ваг. Пробивання, часткове видалення вокселів, запуск відліку, відновлення підготовленого стану й повна втеча визначають цикл. Рух, транспорт, взаємодія з ціллю, втрата опори, обмеження часу й мапа формують його структуру. Поза, предмети, знаряддя тривалої дії, фізика, перезапуск, вогонь, поточні підказки та плин часу підтримують цикл."
+    },
+    "GAME-0569": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "ACT-772",
+        "SYS-1665",
+        "SYS-1666",
+        "SYS-1668",
+        "OBJ-311"
+      ],
+      "structural": [
+        "ACT-008",
+        "SYS-1667",
+        "SYS-1669",
+        "SYS-911",
+        "CON-183"
+      ],
+      "supporting": [
+        "SYS-037",
+        "SYS-369",
+        "TIM-003"
+      ],
+      "noteEn": "Named GAME-0569 review partitions all thirteen genes without weights. Digging, restoration, trap crossing, carried gold and complete clearance define the loop. Movement, pursuit, ladder activation, body return and finite lives structure it. Contact pickup, board restoration and live time support it.",
+      "noteUk": "Іменний перегляд GAME-0569 розподіляє всі тринадцять генів без ваг. Копання, відновлення цеглини, перехід над пасткою, золото в носія й повне завершення визначають цикл. Рух, переслідування, поява драбини, повернення персонажа й скінченні життя формують його структуру. Підбирання дотиком, відновлення поля й плин часу підтримують цикл."
+    },
+    "GAME-0570": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "SYS-1670",
+        "SYS-1671",
+        "SYS-1672",
+        "SYS-1673",
+        "ACT-773",
+        "OBJ-312"
+      ],
+      "structural": [
+        "ACT-127",
+        "ACT-148",
+        "ACT-161",
+        "ACT-223",
+        "ACT-318",
+        "ACT-598",
+        "SYS-168",
+        "SYS-550",
+        "CON-834",
+        "CON-175",
+        "CON-176",
+        "CON-402",
+        "INF-062"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-140",
+        "ACT-341",
+        "SYS-037",
+        "SYS-467",
+        "SYS-591",
+        "INF-126",
+        "TIM-003"
+      ],
+      "noteEn": "Named GAME-0570 review partitions all twenty-seven genes without weights. Recruitment, settlement, devotion, building unlock, sermon and the composed exit define the loop. Combat, route structure, entry, assignment and construction structure it. Direct steering, reward choice, interactions, pickups, run effects, local resources, home displays and time support it.",
+      "noteUk": "Іменний перегляд GAME-0570 розподіляє всі двадцять сім генів без ваг. Вербування, підсумок походу, відданість, відкриття споруди, проповідь і сукупна умова завершення визначають цикл. Бій, будова маршруту, вхід, призначення й будівництво формують його структуру. Безпосередній рух, вибір нагороди, взаємодії, підбирання, ефекти походу, місцеві ресурси, показники поселення й плин часу підтримують цикл."
+    },
+    "GAME-0571": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "ACT-774",
+        "ACT-775",
+        "SYS-1674",
+        "SYS-1675",
+        "OBJ-313"
+      ],
+      "structural": [
+        "ACT-008",
+        "SYS-1676",
+        "SYS-1677",
+        "SYS-1678"
+      ],
+      "supporting": [
+        "SYS-146",
+        "INF-544",
+        "TIM-003"
+      ],
+      "noteEn": "Named GAME-0571 review partitions twelve genes without weights. Service, intended return, sampled speed, prepared contact and the complete match are defining. Movement, legal rally settlement, service decisions and game scoring structure the match. Ball flight, display and live timing support it.",
+      "noteUk": "Іменний перегляд GAME-0571 розподіляє дванадцять генів без ваг. Подача, задуманий удар у відповідь, швидкість за показником шкали, підготовлений контакт і повний матч визначають цикл. Рух, підсумок допустимого розіграшу, рішення щодо подачі й рахунок геймів формують його структуру. Політ м’яча, відображення стану й плин часу підтримують матч."
+    },
+    "GAME-0572": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "ACT-776",
+        "SYS-1679",
+        "SYS-1680",
+        "CON-835",
+        "OBJ-314"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-161",
+        "CON-402",
+        "SYS-037",
+        "SYS-711"
+      ],
+      "supporting": [
+        "INF-545",
+        "SYS-369",
+        "TIM-003"
+      ],
+      "noteEn": "Named GAME-0572 review partitions thirteen genes without weights. Card spend, upward reach, the fixed card drop, carried capacity and whole-stage terminal define the route. Movement, attacks, clearance lock, pickup and medal structure it. Display, restart and continuous timing support it.",
+      "noteUk": "Перегляд GAME-0572 розподіляє тринадцять генів без ваг. Витрачання карти, набір висоти, поява заданої карти після сутички, місткість запасу й фініш повного рівня визначають маршрут. Рух, атаки, блокування виходу, підбирання та медаль формують його структуру. Інтерфейс, перезапуск і безперервний час підтримують цикл."
+    },
+    "GAME-0573": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "ACT-777",
+        "ACT-778",
+        "SYS-1681",
+        "SYS-1682",
+        "SYS-1684",
+        "OBJ-315"
+      ],
+      "structural": [
+        "ACT-152",
+        "CON-836",
+        "SYS-549",
+        "SYS-1683",
+        "SYS-051"
+      ],
+      "supporting": [
+        "ACT-779",
+        "INF-546",
+        "TIM-003"
+      ],
+      "noteEn": "Named GAME-0573 review partitions fourteen genes without weights. Dig marks, creature redeployment, claiming, Portal arrivals, assault eligibility and surviving the realm define it. Rooms, payment, mining, needs and autonomous fights structure it. Worker creation, display and live timing support it.",
+      "noteUk": "Перегляд GAME-0573 розподіляє чотирнадцять генів без ваг. Позначки розкопок, перенесення істот, захоплення, прибуття через портал, умови нападів і перемога в краї визначають цикл. Кімнати, оплата, видобуток, потреби й самостійний бій формують його структуру. Створення працівників, інтерфейс і безперервний час підтримують цикл."
+    },
+    "GAME-0574": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "ACT-780",
+        "SYS-1685",
+        "OBJ-316"
+      ],
+      "structural": [
+        "CON-837",
+        "INF-547"
+      ],
+      "supporting": [
+        "ACT-781",
+        "TIM-002"
+      ],
+      "noteEn": "Named GAME-0574 review partitions seven genes without weights. Fragment drag, scripted reply and chapter settlement define play. Geometric fit and visible cues structure it. Panel motion and untimed spacing support it.",
+      "noteUk": "Перегляд GAME-0574 розподіляє сім генів без ваг. Перетягування фрагмента, відтворення репліки й завершення розділу визначають цикл. Відповідність форм і видимі підказки формують його структуру. Рух панелей і розміщення без часової межі підтримують цикл."
+    },
+    "GAME-0575": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "ACT-782",
+        "SYS-1686",
+        "CON-838",
+        "OBJ-026",
+        "TIM-038"
+      ],
+      "structural": [
+        "ACT-489",
+        "SYS-057",
+        "SYS-588",
+        "SYS-1687",
+        "SYS-1688",
+        "CON-077",
+        "CON-330",
+        "INF-548"
+      ],
+      "supporting": [
+        "ACT-202",
+        "ACT-654",
+        "SYS-1689",
+        "SYS-1690"
+      ],
+      "noteEn": "Named GAME-0575 review. Card commitment, available action slots, effective cost, shared readiness and reaching the gate define the packet. Guard response, card routing, hand refill, alarm, viability and tactical cues structure it. Posture, view, damage and the final report support it.",
+      "noteUk": "Іменний перегляд GAME-0575. Вибір дії карти, доступні дії, фактична вартість, спільний відлік і досягнення брами визначають місію. Реакція охорони, рух карт, добір, тривога, життєздатність і тактичні підказки формують її структуру. Пози, камера, шкода й підсумковий звіт підтримують цикл."
+    },
+    "GAME-0576": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "ACT-783",
+        "SYS-1691",
+        "SYS-1692",
+        "OBJ-317"
+      ],
+      "structural": [
+        "ACT-091",
+        "ACT-107",
+        "ACT-232",
+        "CON-839",
+        "INF-055",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008",
+        "SYS-1693",
+        "INF-549"
+      ],
+      "noteEn": "Named GAME-0576 review. The unauthorised take, shared danger, carried-state exception and patient recovery define this packet. Dialogue, handover, the treatment condition, retained facts and active time structure it. Navigation, a downhill route and lead guidance support it.",
+      "noteUk": "Іменний перегляд GAME-0576. Крадіжка, спільна небезпека, збереження речей і знань після скидання та одужання пацієнтки визначають цей квест. Розмови, передача ліків, умова лікування, відомі факти й перебіг часу формують його структуру. Рух, спуск тросом і підказки маршруту допомагають у проходженні."
+    },
+    "GAME-0577": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "ACT-222",
+        "SYS-1694",
+        "SYS-1696",
+        "SYS-1697",
+        "TIM-039"
+      ],
+      "structural": [
+        "ACT-019",
+        "ACT-223",
+        "SYS-358",
+        "SYS-1695",
+        "CON-269",
+        "CON-756",
+        "OBJ-029"
+      ],
+      "supporting": [
+        "INF-119",
+        "INF-142",
+        "INF-550"
+      ],
+      "noteEn": "Named GAME-0577 review. The measure order and counts, placed support, live offensive timing and Crescendo define the first Yuna encounter. Ordinary commands and defence, BP, eligibility, grade and battle settlement structure it. Visible resources, cues and schedule support it.",
+      "noteUk": "Іменний перегляд GAME-0577. Порядок і запас тактів, підтримка для вибраного такту, ритм атаки й «Крещендо» визначають перший бій з Юною. Звичайні команди й захист, очки вмінь, доступність дії, оцінка виконання й завершення бою формують його структуру. Видимі ресурси, підказки й черга допомагають ухвалювати рішення."
+    },
+    "GAME-0578": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "SYS-1204",
+        "SYS-1256",
+        "SYS-1698",
+        "OBJ-270"
+      ],
+      "structural": [
+        "ACT-290",
+        "SYS-045",
+        "SYS-320",
+        "CON-068",
+        "TIM-003"
+      ],
+      "supporting": [
+        "INF-204",
+        "INF-456",
+        "OBJ-002"
+      ],
+      "noteEn": "Named GAME-0578 review. Live branch commitment, checkpoint allowance, braking drift and the branch-selected finish define this case. Steering, moving traffic, contact, expiry and forced progression structure it. Telemetry, route feedback and score support route decisions.",
+      "noteUk": "Окремий перегляд GAME-0578. Гру визначають вибір шляху на ходу, додавання часу на контрольних точках, занос через гальмування й фініш на вибраному маршруті. Керування, рух інших машин, контакт, сплив часу й неперервний рух формують перебіг заїзду. Прилади, показ маршруту й рахунок допомагають ухвалювати рішення."
+    },
+    "GAME-0579": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "CON-840",
+        "SYS-1699",
+        "SYS-1700",
+        "SYS-1701"
+      ],
+      "structural": [
+        "ACT-784",
+        "CON-001",
+        "SYS-135",
+        "OBJ-006"
+      ],
+      "supporting": [
+        "INF-001",
+        "INF-030",
+        "TIM-002"
+      ],
+      "noteEn": "Named GAME-0579 review. The full-roster departure rule, relocatable influences, continuing riders and accumulated approval define this trip. Individual assignment, fixed places, repeated preference checks and the perfect objective structure it. Current clues, local feedback and untimed choice support the edits.",
+      "noteUk": "Окремий перегляд GAME-0579. Поїздку визначають розміщення всіх перед відправленням, рухомі джерела впливу, пасажири, які їдуть далі, та підсумок схвалень. Розміщення окремих пасажирів, фіксовані місця, повторна перевірка побажань і мета ідеального результату формують задачу. Підказки, реакції окремих пасажирів і відсутність відліку допомагають переглядати розсадку."
+    },
+    "GAME-0580": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "SYS-1702",
+        "SYS-1703",
+        "SYS-1704",
+        "SYS-398",
+        "CON-841",
+        "TIM-040"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-223",
+        "ACT-229",
+        "ACT-295",
+        "SYS-020",
+        "SYS-112",
+        "SYS-368",
+        "SYS-578",
+        "SYS-1705",
+        "OBJ-026",
+        "OBJ-029",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-369",
+        "SYS-1706",
+        "SYS-1707",
+        "CON-183",
+        "INF-119",
+        "INF-319",
+        "OBJ-002"
+      ],
+      "noteEn": "Named GAME-0580 review. The cellar is defined by its altered object and actor tempos, recovery form, acquired acceleration and overlapping fire. Continuous combat, traversal and live fixtures structure the route. Scoring, reserve capacity, feedback and retry information support decisions.",
+      "noteUk": "Окремий перегляд GAME-0580. Підвал визначають зміна темпу сцени, героя й об’єктів, втрата героїчної форми на порожній шкалі, вивчене прискорення й одночасне горіння жаровень. Безперервний бій, рух і механізми формують маршрут. Рахунок, місткість шкали, підказки та можливість повтору допомагають вирішувати, що робити далі."
+    },
+    "GAME-0581": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "ACT-785",
+        "SYS-1708",
+        "SYS-1709",
+        "SYS-1710",
+        "SYS-1711",
+        "SYS-1712"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-048",
+        "SYS-1713",
+        "SYS-1714",
+        "CON-060",
+        "CON-556",
+        "INF-551",
+        "OBJ-002",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-341",
+        "INF-119",
+        "INF-271",
+        "INF-552"
+      ],
+      "noteEn": "The work is defined by cutting a structural joint, separating and steering live parts, routing by material, and settling recovered value. Tool readiness, motion, suit reserves and the live bay decide which routes remain viable. The interfaces support those actions.",
+      "noteUk": "Розбір визначають розрізання кріплень, відокремлення й рух деталей, сортування за матеріалом та підбиття підсумку вартості. Справність інструментів, рух, запаси скафандра й робота доку визначають доступні дії. Підказки й звіт допомагають їх обрати."
+    },
+    "GAME-0582": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "SYS-1715",
+        "SYS-1716",
+        "SYS-1717",
+        "SYS-1718",
+        "OBJ-318"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-049",
+        "ACT-087",
+        "ACT-089",
+        "ACT-091",
+        "ACT-232",
+        "SYS-700",
+        "CON-136",
+        "TIM-002"
+      ],
+      "supporting": [
+        "ACT-107",
+        "SYS-112",
+        "INF-553"
+      ],
+      "noteEn": "Two linked jobs turn on delegated signing, separate packets that jam the sorter, retaining access, and intercepting another agent’s dispatch. Contextual actions, item preparation and lasting prerequisites enable those steps. Target and dialogue information aid execution.",
+      "noteUk": "Два пов’язані завдання залежать від дозволу на підпис, окремих посилок, які блокують сортувальник, можливості знову його відкрити та перехоплення чужої заявки. Контекстні дії, підготовка предметів і збережені передумови дають виконати ці кроки. Поворот голови й розмови допомагають знаходити цілі."
+    },
+    "GAME-0583": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "ACT-786",
+        "SYS-1719",
+        "SYS-1722",
+        "OBJ-319",
+        "TIM-041",
+        "TIM-042"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-036",
+        "ACT-161",
+        "ACT-189",
+        "ACT-341",
+        "SYS-045",
+        "SYS-046",
+        "SYS-1720",
+        "SYS-1721",
+        "CON-136",
+        "CON-330",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-223",
+        "SYS-112",
+        "SYS-215",
+        "SYS-578",
+        "INF-119",
+        "INF-554"
+      ],
+      "noteEn": "The shared role and travel budget, paid guide route, alternating phases and paused guard placement define this first stage. Direct combat and designated traveller survival sustain those decisions. Status and route information aid them.",
+      "noteUk": "Перший етап визначають спільний запас для ролей і шляху, прокладання за кристали, чергування фаз і розстановка захисників під час паузи. Безпосередній бій і виживання Йошіро дають продовжити маршрут. Інформація про стан і шлях допомагає ухвалювати рішення."
+    },
+    "GAME-0584": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "ACT-270",
+        "SYS-1045",
+        "SYS-1723",
+        "CON-842",
+        "OBJ-320"
+      ],
+      "structural": [
+        "ACT-008",
+        "SYS-470",
+        "SYS-755",
+        "SYS-1724",
+        "CON-263",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-037",
+        "SYS-045",
+        "INF-179",
+        "INF-555"
+      ],
+      "noteEn": "Placement, blast lanes, concurrent capacity, falling blocks and sole-survivor credit shape the round. Movement, impact, breakable terrain, upgrades and elimination sustain those decisions. The visible arena and clock help judge them.",
+      "noteUk": "Раунд визначають встановлення бомб, напрямки вибуху, межа одночасних бомб, падіння блоків і перемога єдиного вцілілого. Рух, наслідки вибуху, крихкі блоки, поліпшення й вибування забезпечують ці рішення. Видиме поле й таймер допомагають їх ухвалювати."
+    },
+    "GAME-0585": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "ACT-787",
+        "SYS-1725",
+        "SYS-1727",
+        "OBJ-014"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-341",
+        "ACT-788",
+        "SYS-210",
+        "SYS-1726",
+        "CON-136",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-161",
+        "SYS-045",
+        "SYS-215",
+        "SYS-578",
+        "INF-119",
+        "INF-130",
+        "INF-179"
+      ],
+      "noteEn": "Tracked handling, a loose pack, the field crossing and the physical hand-in define this expedition. The terminal, core recovery and separate equipment help explain its preparation and risk. Live condition and route cues help decide how to proceed.",
+      "noteUk": "Цю вилазку визначають рухи відстежуваних рук, вільне розміщення речей у рюкзаку, перехід між ділянками й здача фізичного предмета. Термінал, відновлення з осердя й окреме спорядження пояснюють підготовку та ризик. Показники стану й маршруту допомагають вирішити, куди йти далі."
+    },
+    "GAME-0586": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "ACT-016",
+        "SYS-1728",
+        "SYS-1729",
+        "OBJ-024"
+      ],
+      "structural": [
+        "CON-029",
+        "CON-050",
+        "CON-051",
+        "TIM-002"
+      ],
+      "supporting": [
+        "CON-001",
+        "INF-001"
+      ],
+      "noteEn": "Drawing, serving, reversible effects and the final exit define this route. Tile continuity, capacity, matching and self-paced timing govern the choices. The fixed board and visible state support planning.",
+      "noteUk": "Цей маршрут визначають прокладання, посадка й висадка, можливість повернути попередній стан та виїзд. Рішення залежать від суміжності клітинок, одного місця у вагоні, відповідності зупинок і відсутності таймера. Незмінне поле й видимий стан допомагають планувати."
+    },
+    "GAME-0587": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "ACT-613",
+        "ACT-690",
+        "ACT-691",
+        "SYS-1730",
+        "SYS-1731",
+        "OBJ-288"
+      ],
+      "structural": [
+        "ACT-562",
+        "SYS-707",
+        "SYS-1410",
+        "SYS-1411",
+        "CON-773",
+        "INF-489",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-161",
+        "SYS-215",
+        "INF-299",
+        "OBJ-002"
+      ],
+      "noteEn": "The physical fork, rotating attack view, held locks, Berserk and retained form shape how the episode clears. The moving corridor, radar, life and special reserves constrain decisions during the fight.",
+      "noteUk": "Розвилка, зміна сектора атаки, захоплення цілей, шалена атака й наступна форма визначають проходження. Під час бою рішення залежать від безперервного руху, радара та запасів життя й особливої атаки."
+    },
+    "GAME-0588": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "ACT-535",
+        "SYS-1064",
+        "SYS-1732",
+        "SYS-1733",
+        "SYS-1734",
+        "SYS-1735",
+        "OBJ-080"
+      ],
+      "structural": [
+        "ACT-161",
+        "ACT-223",
+        "SYS-456",
+        "SYS-1049",
+        "SYS-1386",
+        "SYS-1388",
+        "CON-076",
+        "CON-773",
+        "INF-142",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-341",
+        "SYS-215",
+        "SYS-369",
+        "SYS-407",
+        "SYS-578",
+        "SYS-799",
+        "INF-536"
+      ],
+      "noteEn": "Calls, different crossing abilities, linked thorns, healing hits, reassurance and the stair switch define the Summer route. Combat, chase and vitality determine how Alba can handle its setbacks.",
+      "noteUk": "Шлях крізь літо визначають поклик, різні можливості переходу, пов’язані з істотами терни, лікувальна серія ударів, заспокоєння Неви й перемикання сходів. Бій, погоня й запас здоров’я впливають на те, як Альба долає небезпеку."
+    },
+    "GAME-0589": {
+      "reviewed": "2026-11-20",
+      "defining": [
+        "ACT-042",
+        "SYS-1736",
+        "SYS-1737",
+        "OBJ-321",
+        "TIM-009"
+      ],
+      "structural": [
+        "SYS-045",
+        "SYS-055",
+        "CON-047",
+        "INF-001"
+      ],
+      "supporting": [
+        "ACT-006",
+        "SYS-048",
+        "CON-001"
+      ],
+      "noteEn": "One placed command, right turns, opposed cat wear and locked traversal determine whether the mouse reaches safety.",
+      "noteUk": "Розміщення однієї стрілки, повороти праворуч і зношування від зустрічних котів визначають, чи миша дістанеться ракети після запуску без можливості змінити маршрут."
+    },
+    "GAME-0590": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "SYS-1738",
+        "SYS-1739",
+        "CON-843",
+        "INF-556",
+        "OBJ-322"
+      ],
+      "structural": [
+        "ACT-290",
+        "ACT-341",
+        "SYS-045",
+        "TIM-003"
+      ],
+      "supporting": [
+        "INF-179",
+        "INF-204"
+      ],
+      "noteEn": "The eligible approach, gap loss, collision loss, visible duel reserves and zero-SP outcome distinguish the first challenge.",
+      "noteUk": "Перший виклик визначають наближення до готового суперника, втрата очок від відставання та зіткнень, видимі запаси водіїв і поразка, коли очки духу закінчуються."
+    },
+    "GAME-0591": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-789",
+        "SYS-1740",
+        "SYS-1741",
+        "INF-557",
+        "INF-558",
+        "OBJ-080"
+      ],
+      "structural": [
+        "ACT-502",
+        "SYS-215",
+        "CON-402",
+        "CON-578",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-341",
+        "SYS-045",
+        "INF-142"
+      ],
+      "noteEn": "The finder, sustained framing, lunge timing and proximity feedback make the notebook encounter, and the reopened passage concludes the introduction.",
+      "noteUk": "Сутичку після знахідки записника визначають видошукач, утримання привида в кадрі, мить його ривка й сигнали наближення. Пролог завершується переходом через знову доступний прохід."
+    },
+    "GAME-0592": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "SYS-061",
+        "SYS-1742",
+        "SYS-1743",
+        "SYS-1744",
+        "SYS-1745",
+        "OBJ-080"
+      ],
+      "structural": [
+        "ACT-049",
+        "ACT-190",
+        "ACT-223",
+        "SYS-1746",
+        "SYS-1747",
+        "CON-402",
+        "CON-844",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-009",
+        "ACT-161",
+        "ACT-341",
+        "SYS-215",
+        "SYS-578",
+        "CON-773",
+        "INF-142",
+        "INF-179"
+      ],
+      "noteEn": "Three occupied plates, two purposes of the ball and independent changes to cart and track form the route. The magic and stamina constraints determine whether Luisa can clear and stamp it.",
+      "noteUk": "Маршрут визначають три притиснуті плити, два способи застосування кулі й окремі зміни положення вагонетки та рейок. Запаси магії й витривалості впливають на те, чи Луїза переможе й поставить штамп."
+    },
+    "GAME-0593": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "SYS-1748",
+        "CON-746",
+        "SYS-1363",
+        "SYS-1749",
+        "OBJ-026"
+      ],
+      "structural": [
+        "ACT-009",
+        "ACT-107",
+        "ACT-161",
+        "ACT-202",
+        "ACT-341",
+        "SYS-1750",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008",
+        "SYS-215",
+        "SYS-578",
+        "CON-773",
+        "INF-119",
+        "INF-179"
+      ],
+      "noteEn": "Retained small size and the moving pad make the village reachable. The nut permits intelligible dialogue, but the shrine route still needs the briefing and gatekeeper.",
+      "noteUk": "Малий розмір і рухомий листок латаття дають змогу дістатися села. Завдяки горіху розмови стають зрозумілими, але для проходу до храму ще потрібні пояснення старійшини й дозвіл Фестарі."
+    },
+    "GAME-0594": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-790",
+        "SYS-1751",
+        "SYS-1752",
+        "SYS-061",
+        "SYS-1753",
+        "OBJ-026"
+      ],
+      "structural": [
+        "ACT-190",
+        "ACT-759",
+        "SYS-036",
+        "SYS-1754",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008",
+        "SYS-369",
+        "CON-113",
+        "INF-179"
+      ],
+      "noteEn": "Marking, following and exchanging set the two positions. Occupied supports and blocked hazards decide whether the changed route is safe to use.",
+      "noteUk": "Позначення, чинний зв’язок і обмін визначають два місця. Вантаж на опорі та перекриття небезпеки визначають, чи можна безпечно скористатися новим шляхом."
+    },
+    "GAME-0595": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-791",
+        "SYS-1755",
+        "OBJ-258"
+      ],
+      "structural": [
+        "SYS-736",
+        "INF-559",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-822",
+        "SYS-1455"
+      ],
+      "noteEn": "One press follows each lead-in; judgement follows the current phase and the terminal grade decides ordinary case progress.",
+      "noteUk": "Після кожного вступу потрібен один натиск. Гра оцінює його за фазою поточної групи, а підсумкова оцінка визначає доступ до наступного завдання."
+    },
+    "GAME-0596": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-792",
+        "SYS-1756",
+        "SYS-1757",
+        "OBJ-323"
+      ],
+      "structural": [
+        "ACT-793",
+        "SYS-036",
+        "SYS-215",
+        "SYS-453",
+        "INF-560",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-341",
+        "SYS-369",
+        "INF-179"
+      ],
+      "noteEn": "Launch aim determines the opening position. The unfolding countdown controls readiness; knockdown and the HP result are separate after deployment.",
+      "noteUk": "Наведення визначає початкову позицію. Відлік визначає момент розгортання. Після запуску збиття з ніг і підсумок за здоров’ям залишаються окремими станами."
+    },
+    "GAME-0597": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "SYS-1559",
+        "SYS-1758",
+        "ACT-060",
+        "OBJ-017"
+      ],
+      "structural": [
+        "ACT-030",
+        "SYS-086",
+        "CON-093",
+        "INF-024"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-341",
+        "INF-179",
+        "TIM-002"
+      ],
+      "noteEn": "Collect vocabulary from physical details, identify an inspected subject separately and settle the five-slot trip account.",
+      "noteUk": "Збери слова з оглянутих деталей, окремо підтвердь особу персонажа й заповни п’ять пропусків у висновку про поїздку."
+    },
+    "GAME-0598": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-795",
+        "ACT-796",
+        "SYS-1760",
+        "OBJ-324"
+      ],
+      "structural": [
+        "ACT-794",
+        "SYS-1759",
+        "SYS-1761",
+        "CON-068"
+      ],
+      "supporting": [
+        "ACT-199",
+        "INF-561",
+        "TIM-003"
+      ],
+      "noteEn": "Strike separately from reeling, control line tension and land enough cumulative weight under the extendable Arcade deadline.",
+      "noteUk": "Підсікай окремо від підмотування, контролюй натяг волосіні й набери потрібну сумарну вагу улову за час, який можна подовжити надбавками."
+    },
+    "GAME-0599": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-797",
+        "SYS-1762",
+        "SYS-1763",
+        "OBJ-026"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-341",
+        "SYS-1431"
+      ],
+      "supporting": [
+        "CON-788",
+        "INF-179",
+        "TIM-003"
+      ],
+      "noteEn": "Prepare a supported high jump, resonate at two fixtures with different results, then use the restored route on the same board.",
+      "noteUk": "Підготуй високий стрибок з опори, виклич резонанс у двох місцях із різними наслідками й проїдь відновленим шляхом на тій самій дошці."
+    },
+    "GAME-0600": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-799",
+        "ACT-800",
+        "SYS-1764",
+        "SYS-1765",
+        "SYS-1766",
+        "SYS-1767",
+        "OBJ-325"
+      ],
+      "structural": [
+        "ACT-052",
+        "ACT-412",
+        "ACT-414",
+        "ACT-798",
+        "SYS-459",
+        "SYS-762",
+        "SYS-1768",
+        "CON-845",
+        "INF-562"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-411",
+        "SYS-757",
+        "SYS-760",
+        "CON-398",
+        "INF-178",
+        "INF-291",
+        "TIM-003"
+      ],
+      "noteEn": "Salience review of one Pick Up Game: distinguish stylistic credit, charge handling and the actual winning score.",
+      "noteUk": "Огляд ролей генів одного товариського матчу: окремо очки за трюки, використання заряду й рахунок, що визначає перемогу."
+    },
+    "GAME-0601": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-801",
+        "ACT-802",
+        "SYS-1769",
+        "SYS-1771",
+        "OBJ-029"
+      ],
+      "structural": [
+        "ACT-019",
+        "SYS-608",
+        "SYS-1523",
+        "SYS-1770",
+        "CON-756",
+        "CON-846",
+        "TIM-033"
+      ],
+      "supporting": [
+        "ACT-008",
+        "SYS-398",
+        "INF-563",
+        "INF-564"
+      ],
+      "noteEn": "First Dominoth lesson salience review. Start the recording, play the copy and win the battle before the separate movement grant.",
+      "noteUk": "Огляд ролей генів першого навчального бою з Домінотом. Почни запис, відтвори копію й виграй бій. Здатність пересування відкриється окремо."
+    },
+    "GAME-0602": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-803",
+        "SYS-1772",
+        "SYS-1773",
+        "OBJ-326"
+      ],
+      "structural": [
+        "SYS-1774",
+        "CON-847",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008",
+        "INF-565"
+      ],
+      "noteEn": "Albatross Nest salience review. Glide through each weighted ring, then flare into a distinct landing and settle the graded test.",
+      "noteUk": "Ролі генів «Гнізда альбатроса». Пройди кожне кільце, вчасно загальмуй для посадки й доведи випробування до підсумкової оцінки."
+    },
+    "GAME-0603": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-804",
+        "SYS-765",
+        "ACT-309",
+        "OBJ-134"
+      ],
+      "structural": [
+        "SYS-516",
+        "SYS-691",
+        "SYS-1775",
+        "SYS-1776",
+        "CON-438",
+        "CON-848",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-341",
+        "INF-205",
+        "INF-208",
+        "INF-566"
+      ],
+      "noteEn": "First Lunardo Hill Boys race salience review. Fit the beach wheel, charge and spend boost and retain the first-place reward.",
+      "noteUk": "Ролі генів першої гонки проти команди Лунардо. Установи колесо з пляжу, накопичуй і витрачай прискорення та отримай винагороду за перемогу."
+    },
+    "GAME-0604": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-805",
+        "SYS-1777",
+        "CON-136",
+        "OBJ-327"
+      ],
+      "structural": [
+        "SYS-312",
+        "SYS-1778",
+        "CON-849",
+        "CON-850",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-123",
+        "ACT-245",
+        "ACT-341",
+        "INF-567",
+        "INF-568"
+      ],
+      "noteEn": "First Technician and prologue departure salience review. Commission, wake and obtain the specialist’s help before the time-limited journey.",
+      "noteUk": "Ролі генів створення першого Техніка й від’їзду в пролозі. Створи й розбуди фахівця, скористайся його допомогою та вируш до світанку."
+    },
+    "GAME-0605": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "OBJ-328",
+        "CON-068",
+        "SYS-1029"
+      ],
+      "structural": [
+        "SYS-037",
+        "SYS-1779",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008",
+        "INF-569",
+        "INF-570"
+      ],
+      "noteEn": "Novice Mission 1 salience review. Collect the required medals before expiry, then settle the attempt and verify its completion mark.",
+      "noteUk": "Ролі генів першої місії для новачків. Збери потрібні медалі до спливу часу, переглянь підсумок і звір позначку виконання."
+    },
+    "GAME-0606": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-806",
+        "OBJ-017",
+        "SYS-1781",
+        "TIM-043"
+      ],
+      "structural": [
+        "ACT-060",
+        "ACT-232",
+        "SYS-680",
+        "SYS-1559",
+        "SYS-1780",
+        "CON-093",
+        "CON-136"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-341",
+        "INF-024",
+        "INF-571"
+      ],
+      "noteEn": "First departure investigation salience review. Compare two signatures, settle the supported statement and obtain the first new clue about the writer.",
+      "noteUk": "Ролі генів першої справи про від’їзд. Порівняй два підписи, підтвердь висновок на основі доказів і отримай першу нову ознаку автора листа."
+    },
+    "GAME-0607": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-611",
+        "ACT-807",
+        "SYS-1782",
+        "SYS-1783",
+        "OBJ-329"
+      ],
+      "structural": [
+        "SYS-037",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008",
+        "INF-572"
+      ],
+      "noteEn": "Garden encounter roles. While a live opponent is held, a shake exposes the optional reward and a directed throw advances the required fight.",
+      "noteUk": "Ролі генів у бою в саду. Струшування схопленого черв’яка відкриває необов’язковий самоцвіт, а спрямовані кидки допомагають перемогти."
+    },
+    "GAME-0608": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "SYS-1784",
+        "SYS-1785",
+        "SYS-1786",
+        "SYS-1787",
+        "CON-851",
+        "ACT-808"
+      ],
+      "structural": [
+        "ACT-019",
+        "ACT-091",
+        "ACT-123",
+        "ACT-222",
+        "ACT-223",
+        "SYS-358",
+        "SYS-1138",
+        "INF-573",
+        "OBJ-029",
+        "OBJ-249"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-341",
+        "SYS-362",
+        "CON-710",
+        "INF-142",
+        "TIM-003"
+      ],
+      "noteEn": "Port Zest route roles. Craving matches and timed blocks settle the fight. Ingredient matching and scored preparation enable delivery and local standing.",
+      "noteUk": "Ролі генів у Порт-Зесті. Атаки потрібних смаків і точні блоки допомагають виграти бій. Добір складників і приготування дають змогу доставити страву й підвищити місцеву репутацію."
+    },
+    "GAME-0609": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "SYS-1788",
+        "CON-852",
+        "ACT-809",
+        "SYS-1789",
+        "SYS-1790",
+        "SYS-1791"
+      ],
+      "structural": [
+        "OBJ-026",
+        "CON-773",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008",
+        "SYS-037",
+        "INF-251"
+      ],
+      "noteEn": "Grasslands 3 approach. Translation and rotation are separate. Preserve clearance, use recovery if needed and check the separate clean-clear condition.",
+      "noteUk": "Ролі генів у «Grasslands 3». Переміщення й обертання відбуваються окремо. Звіряй просвіт, відновлюй серця за потреби й пам’ятай про умови зірки."
+    },
+    "GAME-0610": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-810",
+        "SYS-1792",
+        "SYS-1793",
+        "SYS-1794",
+        "SYS-575",
+        "SYS-1796",
+        "OBJ-308"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-140",
+        "SYS-469",
+        "SYS-574",
+        "SYS-576",
+        "SYS-1795",
+        "CON-188",
+        "CON-773",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-004",
+        "INF-002",
+        "INF-119",
+        "INF-235"
+      ],
+      "noteEn": "The BONExYARD focuses on directing and recovering balls, choosing a build under pressure and settling a first-clear gear.",
+      "noteUk": "У Кістяному дворі важливо спрямовувати й повертати кулі, поліпшувати спорядження під натиском ворогів і забрати шестерню за перше проходження."
+    },
+    "GAME-0611": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-811",
+        "SYS-1798",
+        "SYS-1800",
+        "SYS-1801",
+        "SYS-1802",
+        "SYS-1803",
+        "OBJ-330"
+      ],
+      "structural": [
+        "ACT-125",
+        "ACT-812",
+        "SYS-1050",
+        "SYS-1051",
+        "SYS-1797",
+        "SYS-1799",
+        "CON-174",
+        "CON-853",
+        "TIM-004"
+      ],
+      "supporting": [
+        "SYS-004",
+        "SYS-1804",
+        "INF-002",
+        "INF-574"
+      ],
+      "noteEn": "The Dunnan route turns a landing into a claim or toll, converts holdings to total magic and checks the target at the Castle.",
+      "noteUk": "У Даннані зупинка може дати ділянку або коштувати мита. Власні землі збільшують загальну магію, а умову перемоги гра перевіряє біля замку."
+    },
+    "GAME-0612": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-813",
+        "SYS-398",
+        "SYS-1805",
+        "SYS-1735",
+        "SYS-1806",
+        "OBJ-080"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-161",
+        "CON-349",
+        "CON-854",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-037",
+        "INF-179"
+      ],
+      "noteEn": "A learned detached shot reaches the switch, bridge layouts change the route, and clearing the final encounter allows entry to the Safe House.",
+      "noteUk": "Вивчений кидок дістає перемикач, секції мостів змінюють шлях, а перемога в останньому бою відкриває вхід до сховку."
+    },
+    "GAME-0613": {
+      "reviewed": "2026-11-21",
+      "noteEn": "Covering the holder releases the rebar for pickup. The door opens a way across the interior to the exit hatch.",
+      "noteUk": "Якщо накрити пасажира, він випускає прут. Відчинені двері дають змогу перейти на інший бік вагона й дістатися люка.",
+      "defining": [
+        "ACT-814",
+        "SYS-1807",
+        "ACT-087",
+        "CON-136",
+        "OBJ-026"
+      ],
+      "structural": [
+        "ACT-089",
+        "SYS-112",
+        "INF-372"
+      ],
+      "supporting": [
+        "ACT-341",
+        "INF-179",
+        "TIM-002"
+      ]
+    },
+    "GAME-0614": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-815",
+        "CON-855",
+        "ACT-816",
+        "SYS-1808",
+        "OBJ-026"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-009",
+        "SYS-1809"
+      ],
+      "supporting": [
+        "INF-179",
+        "TIM-003"
+      ],
+      "noteEn": "Change sides below the room while keeping the black ball above. A stone wall breaks on the ball’s impact, and you cross that edge separately.",
+      "noteUk": "Під землею зайди з іншого боку кулі, яка лишається на поверхні. Удар кулі прибирає перепону, після чого ти окремо проходиш до сусідньої кімнати."
+    },
+    "GAME-0615": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-797",
+        "CON-856",
+        "SYS-1810",
+        "OBJ-026"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-341",
+        "SYS-398"
+      ],
+      "supporting": [
+        "INF-179",
+        "TIM-003"
+      ],
+      "noteEn": "A held and released Ollie must succeed at each distinct crest. The opened portal is crossed separately.",
+      "noteUk": "Оллі з утриманням і відпусканням кнопки зараховується біля кожної мітки окремо. Через відкритий портал треба проїхати."
+    },
+    "GAME-0616": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-817",
+        "ACT-818",
+        "SYS-1811",
+        "CON-857",
+        "OBJ-154"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-223",
+        "SYS-799",
+        "SYS-1812",
+        "SYS-1813",
+        "CON-767",
+        "CON-842",
+        "INF-575"
+      ],
+      "supporting": [
+        "SYS-037",
+        "INF-179",
+        "INF-318",
+        "TIM-003"
+      ],
+      "noteEn": "Charge placement and resolution are separate decisions. Clear the required batteries and shielded guardian, then reach the scored evacuation.",
+      "noteUk": "Розміщення заряду й підрив — окремі рішення. Знищ обов’язкові батареї, здолай охоронця зі щитом і дістанься виходу, щоб отримати підсумок."
+    },
+    "GAME-0617": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-819",
+        "INF-576",
+        "SYS-1603",
+        "OBJ-331"
+      ],
+      "structural": [
+        "ACT-341",
+        "CON-821",
+        "INF-003"
+      ],
+      "supporting": [
+        "ACT-752",
+        "TIM-002"
+      ],
+      "noteEn": "Inspect one shelf object through separate senses, then commit it to a named request and receive the next reference entry. The label is optional.",
+      "noteUk": "Оглянь один предмет з полиці різними способами, потім запропонуй його на конкретний запит і отримай новий запис довідника. Етикетка необов’язкова."
+    },
+    "GAME-0618": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "SYS-1814",
+        "CON-858",
+        "SYS-1815",
+        "OBJ-029"
+      ],
+      "structural": [
+        "ACT-014",
+        "ACT-019",
+        "ACT-161",
+        "ACT-652",
+        "CON-001",
+        "CON-011",
+        "CON-269"
+      ],
+      "supporting": [
+        "INF-119",
+        "INF-577",
+        "SYS-299",
+        "TIM-001"
+      ],
+      "noteEn": "Successive individual turns confirm a position before a command. The complete required monk set must fall before this encounter settles.",
+      "noteUk": "Під час кожного окремого ходу спершу підтвердь позицію, а потім виконай команду. Щоб завершити цей бій, здолай усіх потрібних ченців."
+    },
+    "GAME-0619": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-820",
+        "SYS-863",
+        "OBJ-332"
+      ],
+      "structural": [
+        "ACT-008",
+        "SYS-1816",
+        "CON-859"
+      ],
+      "supporting": [
+        "ACT-821",
+        "SYS-735",
+        "INF-540"
+      ],
+      "noteEn": "Local strikes change what space can be entered. The scoped result is the distinct buried gem, while a survey pulse and loose items can aid the search.",
+      "noteUk": "Удари змінюють простір, яким можна пройти. Результат маршруту — зарахування окремого прихованого самоцвіту. Позначки після удару долонями й вільні предмети можуть допомогти в пошуку."
+    },
+    "GAME-0620": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "SYS-1817",
+        "SYS-1818",
+        "OBJ-029",
+        "CON-068"
+      ],
+      "structural": [
+        "ACT-161",
+        "ACT-822",
+        "ACT-823",
+        "ACT-824",
+        "ACT-825",
+        "ACT-826",
+        "SYS-1308",
+        "SYS-1819",
+        "CON-860",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008",
+        "INF-119",
+        "INF-318",
+        "INF-578"
+      ],
+      "noteEn": "Separate weapon reserves and current life change which sustained attack or dash branch is available before the deadline. The named boss defeat must lead to the next stage.",
+      "noteUk": "Окремі запаси зброї й поточне здоров’я визначають, яку тривалу атаку чи різновид ривка можна застосувати до кінця відліку. Після поразки саме цього боса має початися наступний етап."
+    },
+    "GAME-0621": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-827",
+        "CON-861",
+        "SYS-1820",
+        "SYS-1821",
+        "OBJ-333"
+      ],
+      "structural": [
+        "ACT-290",
+        "ACT-468",
+        "SYS-892",
+        "SYS-1822",
+        "SYS-1823",
+        "CON-438",
+        "INF-579"
+      ],
+      "supporting": [
+        "ACT-131",
+        "ACT-828",
+        "SYS-891",
+        "SYS-1301",
+        "SYS-1302",
+        "INF-205",
+        "INF-344",
+        "TIM-003"
+      ],
+      "noteEn": "The leader determines the shared second lap, but later rank remains contestable. The changed final lap ends in a classified round and retained points.",
+      "noteUk": "Лідер визначає спільне друге коло, але місця після вибору ще можуть змінитися. Змінене останнє коло завершується підсумковим місцем і зарахуванням очок."
+    },
+    "GAME-0622": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-829",
+        "ACT-830",
+        "CON-862",
+        "OBJ-283"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-341",
+        "SYS-369",
+        "INF-179",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-037",
+        "INF-119",
+        "INF-317"
+      ],
+      "noteEn": "Material limits the powered path and the exit sets the air crossing. The finish and the optional collection credit are independent.",
+      "noteUk": "Тип ґрунту обмежує місця для буріння, а напрямок виходу визначає політ. Завершення рівня й залік необов’язкових монет відбуваються незалежно."
+    },
+    "GAME-0623": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-562",
+        "SYS-1824",
+        "CON-863",
+        "OBJ-334"
+      ],
+      "structural": [
+        "ACT-161",
+        "ACT-496",
+        "SYS-987",
+        "INF-580",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-911",
+        "INF-179",
+        "OBJ-002"
+      ],
+      "noteEn": "A moving flight route and a committed boost shape decisions. Automatic landing settles the sortie and reveals a separate access code.",
+      "noteUk": "Рішення залежать від руху маршрутом і фіксованого часу форсажу. Автоматична посадка завершує виліт і відкриває окремий код входу."
+    },
+    "GAME-0624": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "SYS-1825",
+        "INF-393",
+        "OBJ-335"
+      ],
+      "structural": [
+        "ACT-107",
+        "TIM-002"
+      ],
+      "supporting": [
+        "ACT-008",
+        "INF-179"
+      ],
+      "noteEn": "The received comparison reference, dated report and remaining open inquiry are three different states.",
+      "noteUk": "Отриманий зразок, хронологія з брифінгу й відкрите розслідування — три окремі стани."
+    },
+    "GAME-0625": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-831",
+        "SYS-1826",
+        "OBJ-336"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-437",
+        "TIM-003"
+      ],
+      "supporting": [
+        "INF-179"
+      ],
+      "noteEn": "The crossing gesture is an attack request. The exercise hands back ordinary control without demanding victory.",
+      "noteUk": "Рух стилусом через супротивника задає удар. Після вправи гра повертає звичайне керування без вимоги перемогти."
+    },
+    "GAME-0626": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "SYS-1827",
+        "INF-581",
+        "SYS-356"
+      ],
+      "structural": [
+        "ACT-019",
+        "OBJ-029",
+        "TIM-001"
+      ],
+      "supporting": [
+        "SYS-822"
+      ],
+      "noteEn": "The visible match postpones a living enemy. A graded report follows victory and precedes the onward route.",
+      "noteUk": "Влучання зброєю потрібного типу відкладає хід уцілілого ворога. Після перемоги з’являється звіт з оцінкою, а потім відкривається маршрут."
+    },
+    "GAME-0627": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-832",
+        "ACT-833",
+        "SYS-1828"
+      ],
+      "structural": [
+        "ACT-161",
+        "ACT-834",
+        "INF-582",
+        "TIM-003"
+      ],
+      "supporting": [
+        "INF-179",
+        "OBJ-029"
+      ],
+      "noteEn": "The held stance changes route control to aiming. A separate scan makes the active hidden enemy visible and the player can resume traversal afterward.",
+      "noteUk": "Утримання кнопки бойової стійки перемикає рух на прицілювання. Окреме сканування показує вже наявного прихованого ворога. Після сутички можна рушати далі."
+    },
+    "GAME-0628": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-835",
+        "TIM-044",
+        "OBJ-337"
+      ],
+      "structural": [
+        "SYS-1829",
+        "INF-583"
+      ],
+      "supporting": [
+        "SYS-736",
+        "INF-268"
+      ],
+      "noteEn": "The match between a skill and the ordered threats can earn one extra action. Clearing the final threat returns the sedan to its trip.",
+      "noteUk": "Збіг символів навички з рядом загроз може дати один додатковий хід. Щойно остання загроза зникає, седан продовжує поїздку."
+    },
+    "GAME-0629": {
+      "reviewed": "2026-11-21",
+      "defining": [
+        "ACT-836",
+        "SYS-1830",
+        "OBJ-338"
+      ],
+      "structural": [
+        "ACT-139",
+        "ACT-341",
+        "SYS-1831",
+        "INF-584"
+      ],
+      "supporting": [
+        "ACT-008",
+        "INF-372"
+      ],
+      "noteEn": "The part survives the trip out of the cave and becomes an installed component of a house already reachable in the village.",
+      "noteUk": "Знахідка зберігається після виходу з печери й стає деталлю будинку, до якого вже можна дійти в селі."
+    },
+    "GAME-0630": {
+      "reviewed": "2026-11-22",
+      "defining": [
+        "ACT-837",
+        "ACT-838",
+        "SYS-1832",
+        "OBJ-339"
+      ],
+      "structural": [
+        "INF-585",
+        "TIM-045"
+      ],
+      "supporting": [
+        "INF-268"
+      ],
+      "noteEn": "Debate stances enter as public information, ballots remove a participant, and the result separately reveals the underlying roles.",
+      "noteUk": "Репліки видно під час обговорення, голосування відсторонює учасника, а справжні ролі розкриває окремий підсумок."
+    },
+    "GAME-0631": {
+      "reviewed": "2026-11-22",
+      "defining": [
+        "ACT-839",
+        "SYS-457",
+        "SYS-1833"
+      ],
+      "structural": [
+        "ACT-008",
+        "TIM-003"
+      ],
+      "supporting": [
+        "INF-268"
+      ],
+      "noteEn": "A directional kick sends the physical football into free motion. Peers can return it while the recess scene has its own end.",
+      "noteUk": "Удар спрямовує м’яч у вільний рух. Однокласники можуть відпасувати його, поки триває перерва."
+    },
+    "GAME-0632": {
+      "reviewed": "2026-11-22",
+      "defining": [
+        "ACT-840",
+        "ACT-841",
+        "SYS-1421",
+        "OBJ-150"
+      ],
+      "structural": [
+        "ACT-290",
+        "SYS-320",
+        "SYS-516",
+        "INF-586",
+        "TIM-003"
+      ],
+      "supporting": [
+        "INF-205",
+        "INF-208"
+      ],
+      "noteEn": "The player decides when to boost or give up speed to repair inside a live race with a qualifying finish threshold.",
+      "noteUk": "Гравець обирає, коли вмикати форсаж, а коли поступитися швидкістю заради ремонту. Для проходження гонки треба фінішувати на одному з прохідних місць."
+    },
+    "GAME-0633": {
+      "reviewed": "2026-11-22",
+      "defining": [
+        "ACT-843",
+        "SYS-1834",
+        "OBJ-340"
+      ],
+      "structural": [
+        "ACT-842",
+        "CON-864",
+        "INF-587",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008"
+      ],
+      "noteEn": "Identification and the family whistle prepare the encounter. Position and singing resolve it, and continued flight proves membership.",
+      "noteUk": "Для спроби спершу впізнай істоту й знайди свисток її родини. Відстань і спів визначають результат, а політ за птахом підтверджує приєднання."
+    },
+    "GAME-0634": {
+      "reviewed": "2026-11-22",
+      "defining": [
+        "ACT-844",
+        "ACT-845",
+        "SYS-1835",
+        "SYS-1836",
+        "OBJ-341"
+      ],
+      "structural": [
+        "CON-865",
+        "INF-588",
+        "TIM-003"
+      ],
+      "supporting": [
+        "INF-299"
+      ],
+      "noteEn": "Timed shakes and held poses affect the rank that gates progression. Height sets the reference, and the results show separate grades.",
+      "noteUk": "Своєчасні струшування й утримані пози впливають на ранг, від якого залежить перехід. Зріст задає орієнтир для положень, а підсумок показує окремі ранги."
+    },
+    "GAME-0635": {
+      "reviewed": "2026-11-22",
+      "defining": [
+        "ACT-846",
+        "SYS-1837",
+        "SYS-1838",
+        "OBJ-342"
+      ],
+      "structural": [
+        "ACT-107",
+        "CON-866",
+        "INF-589",
+        "TIM-002"
+      ],
+      "supporting": [
+        "ACT-008"
+      ],
+      "noteEn": "A remembered scene blocks the direct route. The rooftop conversation opens an earlier period, and each subsequent jump is a distinct player input.",
+      "noteUk": "Активний спогад обмежує прямий маршрут. Розмова на даху відкриває раніший період, а кожен подальший перехід запускає сам гравець."
+    },
+    "GAME-0636": {
+      "reviewed": "2026-11-22",
+      "defining": [
+        "ACT-087",
+        "ACT-847",
+        "SYS-1839",
+        "OBJ-343"
+      ],
+      "structural": [
+        "ACT-089",
+        "CON-136",
+        "INF-590",
+        "SYS-112",
+        "TIM-002"
+      ],
+      "supporting": [
+        "ACT-008"
+      ],
+      "noteEn": "A correct inventory use prepares each site, while the joint report opens the witnessed successor passage.",
+      "noteUk": "Відповідний предмет готує кожну ділянку. Спільна доповідь відкриває прохід, у який далі входить експедиція."
+    },
+    "GAME-0637": {
+      "reviewed": "2026-11-22",
+      "defining": [
+        "ACT-849",
+        "SYS-1840"
+      ],
+      "structural": [
+        "ACT-848",
+        "INF-591"
+      ],
+      "supporting": [
+        "TIM-002"
+      ],
+      "noteEn": "The player edits wall and path separately. Their intersection creates the arch, and revising the path changes it.",
+      "noteUk": "Стіна й стежка редагуються окремо. На їхньому перетині утворюється арка. Зміна стежки змінює і арку."
+    },
+    "GAME-0638": {
+      "reviewed": "2026-11-22",
+      "defining": [
+        "ACT-036",
+        "ACT-850",
+        "SYS-1841",
+        "SYS-1842",
+        "OBJ-019"
+      ],
+      "structural": [
+        "SYS-047",
+        "SYS-048",
+        "CON-067",
+        "CON-068",
+        "INF-592",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-006",
+        "SYS-045",
+        "SYS-046"
+      ],
+      "noteEn": "A specialist places a route that later walkers can use. Rescued lemmings determine the next stage’s population.",
+      "noteUk": "Один лемінг створює перехід, яким ідуть інші. Кількість урятованих визначає чисельність племені на наступному рівні."
+    },
+    "GAME-0639": {
+      "reviewed": "2026-11-22",
+      "defining": [
+        "ACT-851",
+        "SYS-1843",
+        "OBJ-344"
+      ],
+      "structural": [
+        "ACT-161",
+        "CON-867",
+        "SYS-1844",
+        "SYS-1845",
+        "INF-593",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-223",
+        "SYS-822",
+        "SYS-974"
+      ],
+      "noteEn": "A timed skating move restores the attack resource in the same arena. The fight then settles separately from optional goals.",
+      "noteUk": "Трюк на роликах поповнює набої в тій самій сутичці. Підсумок арени й додаткові завдання гра рахує окремо."
+    },
+    "GAME-0640": {
+      "reviewed": "2026-11-22",
+      "defining": [
+        "ACT-852",
+        "SYS-1846",
+        "SYS-1847",
+        "SYS-1848",
+        "OBJ-345"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-295",
+        "SYS-1849",
+        "INF-594",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-037",
+        "INF-192"
+      ],
+      "noteEn": "Running speed clears blocks on the way out. The pillar changes the route and makes the return a timed race to the original entrance.",
+      "noteUk": "На шляху до колони розгін допомагає пробивати блоки. Після удару по колоні проходи змінюються, а до початкових дверей треба бігти під відлік."
+    },
+    "GAME-0641": {
+      "reviewed": "2026-11-22",
+      "defining": [
+        "ACT-459",
+        "SYS-1850",
+        "SYS-1851",
+        "SYS-1852",
+        "OBJ-329"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-223",
+        "ACT-295",
+        "SYS-868",
+        "SYS-1853",
+        "INF-595"
+      ],
+      "supporting": [
+        "ACT-853",
+        "TIM-003"
+      ],
+      "noteEn": "Stance and spacing change the exchange. A weapon clash, a local wound and a decisive hit leave different actions available.",
+      "noteUk": "Стійка й відстань змінюють перебіг двобою. Після зіткнення зброї чи поранення доступні різні дії, а вирішальне влучання завершує двобій."
+    },
+    "GAME-0642": {
+      "reviewed": "2026-11-22",
+      "defining": [
+        "ACT-855",
+        "CON-868",
+        "INF-596",
+        "OBJ-346"
+      ],
+      "structural": [
+        "ACT-854",
+        "SYS-1854",
+        "SYS-1855"
+      ],
+      "supporting": [
+        "TIM-002"
+      ],
+      "noteEn": "Interpret the damaged recipe and orient the plates. The next scene follows once the steam reaches the full stack and you check the dish.",
+      "noteUk": "Розбери пошкоджений рецепт і поверни форми. Коли пара дістанеться всіх ярусів і ти перевіриш страву, почнеться наступна сцена."
+    },
+    "GAME-0643": {
+      "reviewed": "2026-11-22",
+      "defining": [
+        "ACT-856",
+        "CON-869",
+        "SYS-1856",
+        "SYS-1859"
+      ],
+      "structural": [
+        "ACT-295",
+        "SYS-1857",
+        "SYS-1858",
+        "INF-597",
+        "OBJ-329"
+      ],
+      "supporting": [
+        "ACT-008",
+        "SYS-215",
+        "SYS-910",
+        "TIM-003"
+      ],
+      "noteEn": "Commit the charged lunge according to the geometry ahead. Beating the castle boss settles two bonuses before control resumes in the mountains.",
+      "noteUk": "Спрямовуй заряджений ривок з урахуванням перешкод попереду. Після перемоги над замковим босом гра нараховує два бонуси, а керування повертається на гірському етапі."
+    },
+    "GAME-0644": {
+      "reviewed": "2026-11-22",
+      "defining": [
+        "ACT-857",
+        "ACT-858",
+        "SYS-1860",
+        "OBJ-133"
+      ],
+      "structural": [
+        "CON-854",
+        "SYS-711",
+        "SYS-1861",
+        "SYS-1862"
+      ],
+      "supporting": [
+        "ACT-008",
+        "INF-598",
+        "TIM-003"
+      ],
+      "noteEn": "Choose a running line and spring toward a reachable deck. A valid timed crown returns you to the island map for another course.",
+      "noteUk": "Вибери напрямок розбігу й стрибни на досяжну ділянку дороги. Підтвердь отриману корону, щоб повернутися на мапу острова до іншої траси."
+    },
+    "GAME-0645": {
+      "reviewed": "2026-11-22",
+      "defining": [
+        "SYS-1863",
+        "SYS-1864",
+        "OBJ-347"
+      ],
+      "structural": [
+        "ACT-008",
+        "INF-599"
+      ],
+      "supporting": [
+        "ACT-295",
+        "INF-192",
+        "TIM-003"
+      ],
+      "noteEn": "Take the gray key to the matching chest. The settled axe opens two new choices on the North map.",
+      "noteUk": "Відкрий сіру скриню відповідним ключем. Отримана сокира відкриє два нові рівні на північній мапі."
+    },
+    "GAME-0646": {
+      "reviewed": "2026-11-22",
+      "defining": [
+        "ACT-859",
+        "SYS-1865",
+        "OBJ-026"
+      ],
+      "structural": [
+        "ACT-363",
+        "SYS-661",
+        "SYS-665",
+        "SYS-1866",
+        "CON-534"
+      ],
+      "supporting": [
+        "ACT-008",
+        "SYS-662",
+        "CON-536",
+        "INF-258",
+        "TIM-003"
+      ],
+      "noteEn": "Change one contact at a time and find a line that keeps you supported. Reach the upper grass and walk onward.",
+      "noteUk": "Змінюй по одній точці опори й шукай стійку лінію підйому. Виберися на верхню терасу та рушай далі пішки."
+    },
+    "GAME-0647": {
+      "reviewed": "2026-11-22",
+      "defining": [
+        "ACT-860",
+        "SYS-1867",
+        "SYS-1868",
+        "TIM-046"
+      ],
+      "structural": [
+        "CON-634",
+        "INF-600",
+        "OBJ-029",
+        "SYS-822"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-161",
+        "SYS-1869",
+        "TIM-003"
+      ],
+      "noteEn": "Balance position and readiness: step into safety, charge in place and spend a segment when the formation is within reach.",
+      "noteUk": "Зважай на позицію й заряд: перейди в безпечний сектор, дочекайся заряду й витрать його, коли групу можна вразити."
+    },
+    "GAME-0648": {
+      "reviewed": "2026-11-22",
+      "defining": [
+        "ACT-341",
+        "SYS-1870",
+        "OBJ-348"
+      ],
+      "structural": [
+        "CON-870",
+        "SYS-1871"
+      ],
+      "supporting": [
+        "ACT-008",
+        "INF-601"
+      ],
+      "noteEn": "The same slap that interacts with town objects starts the mower. The passes carry it closer until it reaches the flower.",
+      "noteUk": "Той самий ляпас, яким ти взаємодієш із предметами в місті, запускає косарку. З кожним проходом вона наближається, аж поки дістанеться квітки."
+    },
+    "GAME-0649": {
+      "reviewed": "2026-11-22",
+      "defining": [
+        "ACT-861",
+        "SYS-1872",
+        "SYS-1873"
+      ],
+      "structural": [
+        "ACT-005",
+        "ACT-021",
+        "SYS-1874",
+        "SYS-1875",
+        "CON-001",
+        "CON-007",
+        "OBJ-029"
+      ],
+      "supporting": [
+        "ACT-127",
+        "ACT-722",
+        "SYS-1876",
+        "INF-005"
+      ],
+      "noteEn": "The same piece can complete a resource row and change which troops are ready. Order the resulting groups only after building ends.",
+      "noteUk": "Та сама фігура може заповнити ряд заради ресурсів і змінити склад війська. Порядок загонів визначаєш після завершення будівництва."
+    },
+    "GAME-0650": {
+      "reviewed": "2026-11-22",
+      "defining": [
+        "ACT-862",
+        "ACT-863",
+        "SYS-1877",
+        "SYS-1879"
+      ],
+      "structural": [
+        "ACT-161",
+        "ACT-562",
+        "SYS-215",
+        "SYS-1410",
+        "CON-871",
+        "OBJ-288",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-1878",
+        "SYS-1880",
+        "INF-602",
+        "OBJ-002"
+      ],
+      "noteEn": "The part you choose to hit determines whether the carrier leaves a weapon you can mount. Two fitted gunpods then give separate choices during flight.",
+      "noteUk": "Від вибору цілі залежить, чи залишиться у носія зброя, яку можна встановити. Два встановлені модулі дають окремий вибір зброї під час польоту."
+    },
+    "GAME-0651": {
+      "reviewed": "2026-11-22",
+      "defining": [
+        "ACT-864",
+        "SYS-220",
+        "SYS-1881",
+        "SYS-1882"
+      ],
+      "structural": [
+        "ACT-048",
+        "ACT-049",
+        "CON-872",
+        "INF-603",
+        "OBJ-026"
+      ],
+      "supporting": [
+        "ACT-008",
+        "SYS-036"
+      ],
+      "noteEn": "Words are portable between the page and desk. The moat gives access to its lever and its lower text under two different conditions.",
+      "noteUk": "Слова можна переносити між сторінкою і столом. Наповнений рів дає дістатися важеля, а осушений — напису внизу."
+    },
+    "GAME-0652": {
+      "reviewed": "2026-11-23",
+      "defining": [
+        "ACT-865",
+        "SYS-1883",
+        "SYS-1884",
+        "SYS-1885"
+      ],
+      "structural": [
+        "ACT-021",
+        "SYS-215",
+        "CON-873",
+        "CON-874",
+        "TIM-046"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-161",
+        "INF-604",
+        "OBJ-029"
+      ],
+      "noteEn": "A broader future chip choice costs one live interval without a prepared attack. Ready chips then resolve on demand and in order.",
+      "noteUk": "За ширший наступний вибір доводиться провести відрізок бою без підготовленого чипа. Передані чипи далі застосовуються по одному в обраному порядку."
+    },
+    "GAME-0653": {
+      "reviewed": "2026-11-23",
+      "defining": [
+        "SYS-1452",
+        "SYS-1886",
+        "SYS-1887",
+        "INF-605"
+      ],
+      "structural": [
+        "ACT-341",
+        "SYS-057",
+        "OBJ-155",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008",
+        "INF-119",
+        "INF-268"
+      ],
+      "noteEn": "Footing and pace change emitted sound. The player compares it with the ambient level, keeps distance from the moving creature and treats a warning if needed.",
+      "noteUk": "Покриття й темп змінюють шум кроків. Гравець порівнює його з фоном, тримає відстань від істоти й за потреби користується інгалятором."
+    },
+    "GAME-0654": {
+      "reviewed": "2026-11-23",
+      "defining": [
+        "ACT-866",
+        "SYS-1888",
+        "CON-875",
+        "INF-606",
+        "OBJ-349"
+      ],
+      "structural": [
+        "ACT-070",
+        "ACT-232",
+        "ACT-341"
+      ],
+      "supporting": [
+        "ACT-008",
+        "INF-148",
+        "TIM-002"
+      ],
+      "noteEn": "A follow-up makes the jigsaw available. Solving it changes the exchange and exposes a separate piece, whose marked reverse is the clue.",
+      "noteUk": "Уточнювальна репліка відкриває пазл. Після складання розмова змінюється й можна підібрати окрему деталь із підказкою на звороті."
+    },
+    "GAME-0655": {
+      "reviewed": "2026-11-23",
+      "defining": [
+        "ACT-867",
+        "SYS-1889",
+        "SYS-1890",
+        "OBJ-257"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-308",
+        "INF-205",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-1090"
+      ],
+      "noteEn": "The craft propels itself while you choose the racing line. The held brake builds charge, and its release creates the exit burst within the live three-lap race.",
+      "noteUk": "Машина сама рухається вперед, а ти обираєш траєкторію. Утримання гальма накопичує заряд. Відпусти кнопку, щоб рвонути на виході з повороту під час заїзду на три кола."
+    },
+    "GAME-0656": {
+      "reviewed": "2026-11-23",
+      "defining": [
+        "SYS-1891",
+        "SYS-1892",
+        "SYS-1893",
+        "OBJ-026"
+      ],
+      "structural": [
+        "ACT-571",
+        "CON-460",
+        "SYS-543",
+        "INF-075"
+      ],
+      "supporting": [
+        "ACT-008",
+        "TIM-003"
+      ],
+      "noteEn": "Sonar and movement draw on the same air reserve. Then the helpers release the calf, and the mother separately opens the onward route.",
+      "noteUk": "Сонар і плавання витрачають той самий запас повітря. Помічники звільняють китеня, а мати після цього відкриває прохід далі."
+    },
+    "GAME-0657": {
+      "reviewed": "2026-11-23",
+      "defining": [
+        "ACT-868",
+        "SYS-1894",
+        "SYS-036",
+        "OBJ-007"
+      ],
+      "structural": [
+        "ACT-616",
+        "ACT-869",
+        "CON-164",
+        "SYS-1895"
+      ],
+      "supporting": [
+        "INF-005"
+      ],
+      "noteEn": "The preview can become the active shot without losing the previous one. A matching hit removes local support and lets other colors fall, changing what you can target.",
+      "noteUk": "Наступну кулю можна зарядити, зберігши попередню. Влучання в блоки того самого кольору прибирає опору. Блоки інших кольорів падають і відкривають нові цілі."
+    },
+    "GAME-0658": {
+      "reviewed": "2026-11-23",
+      "defining": [
+        "ACT-870",
+        "ACT-871",
+        "SYS-1897",
+        "INF-607"
+      ],
+      "structural": [
+        "ACT-189",
+        "SYS-1896",
+        "SYS-1898",
+        "OBJ-329"
+      ],
+      "supporting": [
+        "CON-068",
+        "TIM-003"
+      ],
+      "noteEn": "Arrange fighters before deploying, then choose which nearby formation fights after you see the damage forecast. Inside the encounter, preset tactics use separate active and reaction points.",
+      "noteUk": "Розстав бійців перед виходом на поле. Перевір прогноз шкоди й обери, який загін поблизу вступить у сутичку. У бою заздалегідь налаштовані тактики витрачають окремі очки для дій і реакцій."
+    },
+    "GAME-0659": {
+      "reviewed": "2026-11-23",
+      "defining": [
+        "ACT-872",
+        "ACT-873",
+        "SYS-1899",
+        "SYS-1900"
+      ],
+      "structural": [
+        "CON-402",
+        "CON-693",
+        "OBJ-164"
+      ],
+      "supporting": [
+        "ACT-008",
+        "INF-075",
+        "TIM-003"
+      ],
+      "noteEn": "A directed grab can support movement or close into an attack. The last fixed handle adds a distinct spin and release, with a height bonus before Dark Woods.",
+      "noteUk": "Спрямоване захоплення дає опору для руху або підтягує героя до ворога для удару. На останній нерухомій рукоятці можна розкрутитися й відпустити її, щоб отримати бонус за висоту перед Темним лісом."
+    },
+    "GAME-0660": {
+      "reviewed": "2026-11-23",
+      "defining": [
+        "ACT-874",
+        "ACT-875",
+        "SYS-042",
+        "INF-608"
+      ],
+      "structural": [
+        "ACT-108",
+        "SYS-1901",
+        "CON-876",
+        "OBJ-017"
+      ],
+      "supporting": [
+        "ACT-030",
+        "INF-012",
+        "TIM-002"
+      ],
+      "noteEn": "Register faces, use birth order and written leads to place them with names and jobs, and watch the three complete correct cards lock together.",
+      "noteUk": "Додай обличчя до портретів. За порядком народження й текстовими підказками розмісти їх разом з іменами й заняттями. Три заповнені правильні картки підтвердяться разом."
+    },
+    "GAME-0661": {
+      "reviewed": "2026-11-23",
+      "defining": [
+        "ACT-876",
+        "SYS-1902",
+        "INF-609",
+        "OBJ-350"
+      ],
+      "structural": [
+        "SYS-556",
+        "CON-472"
+      ],
+      "supporting": [
+        "ACT-008",
+        "TIM-003"
+      ],
+      "noteEn": "Use the green path and ground-relative scale to aim for the centreline. Brake after contact and come to rest before comparing the four separate scores.",
+      "noteUk": "Виходь на осьову за зеленим променем і стеж за шкалою висоти. Після торкання загальмуй до повної зупинки, а тоді звір чотири окремі оцінки."
+    },
+    "GAME-0662": {
+      "reviewed": "2026-11-23",
+      "defining": [
+        "ACT-877",
+        "SYS-1903",
+        "SYS-1904",
+        "OBJ-351"
+      ],
+      "structural": [
+        "ACT-429",
+        "ACT-878",
+        "SYS-789",
+        "CON-282",
+        "INF-310",
+        "INF-610"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-161",
+        "SYS-215",
+        "INF-309",
+        "TIM-003"
+      ],
+      "noteEn": "Tracked approach, the current target’s strike cues and the separate incoming alert drive the encounter. The XP receipt settles the fight. Cut the shared rope afterward to advance the objective.",
+      "noteUk": "Сутичку визначають наближення відстеженим жестом, підказки поточної цілі й окремий сигнал вхідної атаки. Підсумок досвіду завершує бій. Після нього переріж спільну мотузку, щоб перейти до наступного завдання."
+    },
+    "GAME-0663": {
+      "reviewed": "2026-11-23",
+      "defining": [
+        "ACT-879",
+        "ACT-880",
+        "SYS-1906",
+        "CON-877"
+      ],
+      "structural": [
+        "SYS-1905",
+        "INF-611",
+        "OBJ-352"
+      ],
+      "supporting": [
+        "SYS-578",
+        "SYS-822",
+        "INF-299",
+        "TIM-003"
+      ],
+      "noteEn": "Line alignment and a timed press play phrases. Specific symbols govern Guard. The phase changes what an accepted action does to the power gauges.",
+      "noteUk": "Щоб зіграти фразу, сумісти сектор із лінією й натисни вчасно. У захисті кнопки визначають символи. Від фази залежить, як зарахована дія вплине на шкали сили."
+    },
+    "GAME-0664": {
+      "reviewed": "2026-11-23",
+      "defining": [
+        "ACT-881",
+        "SYS-1907",
+        "CON-878",
+        "SYS-1908"
+      ],
+      "structural": [
+        "ACT-126",
+        "SYS-1909",
+        "CON-879",
+        "INF-612",
+        "OBJ-029",
+        "TIM-047"
+      ],
+      "supporting": [
+        "ACT-882",
+        "SYS-004",
+        "SYS-299",
+        "SYS-362",
+        "SYS-1910",
+        "SYS-1911",
+        "INF-002"
+      ],
+      "noteEn": "Spend a visible die in a value-gated socket. A transformation can produce a stronger or legal input before the turn passes.",
+      "noteUk": "Вкладай видимий кубик у гніздо, якому підходить його значення. До передачі ходу можна змінити значення, щоб одержати сильніший або допустимий кубик."
+    },
+    "GAME-0665": {
+      "reviewed": "2026-11-23",
+      "defining": [
+        "ACT-052",
+        "ACT-267",
+        "ACT-269",
+        "CON-880",
+        "SYS-1912"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-268",
+        "ACT-883",
+        "ACT-884",
+        "ACT-886",
+        "SYS-457",
+        "SYS-459",
+        "SYS-460",
+        "SYS-462",
+        "SYS-463",
+        "CON-398",
+        "OBJ-090",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-885",
+        "SYS-461",
+        "CON-399",
+        "CON-400",
+        "CON-401",
+        "INF-116",
+        "INF-178",
+        "INF-291"
+      ],
+      "noteEn": "The control marker moves among live footballers while ball possession changes what the same buttons do.",
+      "noteUk": "Позначка керування переходить між футболістами, а від володіння м’ячем залежить дія тих самих кнопок."
+    },
+    "GAME-0666": {
+      "reviewed": "2026-11-23",
+      "defining": [
+        "ACT-887",
+        "SYS-1913",
+        "SYS-1914"
+      ],
+      "structural": [
+        "ACT-008",
+        "CON-881",
+        "OBJ-026"
+      ],
+      "supporting": [
+        "INF-001"
+      ],
+      "noteEn": "The separate paint input prepares one launch, and the movement input spends it.",
+      "noteUk": "Мазок готує один підскок, а крок на шапинку його запускає."
     }
   }
 }
