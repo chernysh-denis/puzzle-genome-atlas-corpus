@@ -194,6 +194,7 @@
 - [`GAME-0077` — Map](../games/m-r/map.md)
 - [`GAME-0008` — Nonogram](../games/m-r/nonogram.md)
 - [`GAME-0071` — Slant](../games/s-z/slant.md)
+- [`GAME-0685` — "Squeakross: Home Squeak Home"](../games/s-z/squeakross-home-squeak-home.md)
 - [`GAME-0005` — Sudoku](../games/s-z/sudoku.md)
 - [`GAME-0072` — Tents](../games/s-z/tents.md)
 
@@ -218,7 +219,9 @@
 
 - [`GAME-0635` — "1000xRESIST"](../games/0-9/1000xresist.md)
 - [`GAME-0233` — 7 Days to Die](../games/0-9/7-days-to-die.md)
+- [`GAME-0694` — "A Game About Digging A Hole"](../games/a-f/a-game-about-digging-a-hole.md)
 - [`GAME-0044` — A Good Snowman Is Hard to Build](../games/a-f/a-good-snowman-is-hard-to-build.md)
+- [`GAME-0718` — "A Highland Song"](../games/a-f/a-highland-song.md)
 - [`GAME-0054` — A Monster’s Expedition](../games/a-f/a-monsters-expedition.md)
 - [`GAME-0653` — "A Quiet Place: The Road Ahead"](../games/a-f/a-quiet-place-the-road-ahead.md)
 - [`GAME-0228` — A Way Out](../games/a-f/a-way-out.md)
@@ -227,6 +230,7 @@
 - [`GAME-0427` — Alan Wake](../games/a-f/alan-wake.md)
 - [`GAME-0257` — "Alien: Isolation"](../games/a-f/alien-isolation.md)
 - [`GAME-0620` — Alien Soldier](../games/a-f/alien-soldier.md)
+- [`GAME-0719` — "Alisia Dragoon"](../games/a-f/alisia-dragoon.md)
 - [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
 - [`GAME-0320` — "Animal Crossing: New Horizons"](../games/a-f/animal-crossing-new-horizons.md)
 - [`GAME-0511` — Animal Crossing: New Leaf](../games/a-f/animal-crossing-new-leaf.md)
@@ -237,6 +241,7 @@
 - [`GAME-0143` — ARC Raiders](../games/a-f/arc-raiders.md)
 - [`GAME-0312` — ASTRO BOT](../games/a-f/astro-bot.md)
 - [`GAME-0506` — Avowed](../games/a-f/avowed.md)
+- [`GAME-0709` — "Baby Steps"](../games/a-f/baby-steps.md)
 - [`GAME-0148` — Baldur’s Gate 3](../games/a-f/baldurs-gate-3.md)
 - [`GAME-0610` — "BALL x PIT"](../games/a-f/ball-x-pit.md)
 - [`GAME-0386` — Banjo-Kazooie](../games/a-f/banjo-kazooie.md)
@@ -254,6 +259,7 @@
 - [`GAME-0308` — Bloodborne™](../games/a-f/bloodborne.md)
 - [`GAME-0173` — Blue Prince](../games/a-f/blue-prince.md)
 - [`GAME-0557` — "Boktai: The Sun Is in Your Hand"](../games/a-f/boktai-the-sun-is-in-your-hand.md)
+- [`GAME-0736` — "Bomb Rush Cyberfunk"](../games/a-f/bomb-rush-cyberfunk.md)
 - [`GAME-0055` — Bonfire Peaks](../games/a-f/bonfire-peaks.md)
 - [`GAME-0034` — Braid, Anniversary Edition](../games/a-f/braid.md)
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
@@ -274,10 +280,12 @@
 - [`GAME-0108` — Cocoon](../games/a-f/cocoon.md)
 - [`GAME-0490` — Comix Zone](../games/a-f/comix-zone.md)
 - [`GAME-0324` — Contra Force](../games/a-f/contra-force.md)
+- [`GAME-0705` — "Contraband Police"](../games/a-f/contraband-police.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0137` — Counter-Strike 2](../games/a-f/counter-strike-2.md)
 - [`GAME-0218` — Counter-Strike](../games/a-f/counter-strike.md)
 - [`GAME-0326` — Crash Bandicoot](../games/a-f/crash-bandicoot.md)
+- [`GAME-0725` — "Crypt Custodian"](../games/a-f/crypt-custodian.md)
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0570` — Cult of the Lamb](../games/a-f/cult-of-the-lamb.md)
 - [`GAME-0277` — Cuphead](../games/a-f/cuphead.md)
@@ -317,6 +325,7 @@
 - [`GAME-0608` — "Dosa Divas"](../games/a-f/dosa-divas.md)
 - [`GAME-0269` — DREDGE](../games/a-f/dredge.md)
 - [`GAME-0597` — "Duck Detective: The Ghost of Glamping"](../games/a-f/duck-detective-the-ghost-of-glamping.md)
+- [`GAME-0699` — "Dungeon Master"](../games/a-f/dungeon-master.md)
 - [`GAME-0592` — Dungeons of Hinterberg](../games/a-f/dungeons-of-hinterberg.md)
 - [`GAME-0131` — Dyson Sphere Program](../games/a-f/dyson-sphere-program.md)
 - [`GAME-0163` — EA SPORTS FC 26](../games/a-f/ea-sports-fc-26.md)
@@ -325,6 +334,7 @@
 - [`GAME-0433` — Ecco the Dolphin](../games/a-f/ecco-the-dolphin.md)
 - [`GAME-0152` — Elden Ring](../games/a-f/elden-ring.md)
 - [`GAME-0491` — Elite](../games/a-f/elite.md)
+- [`GAME-0702` — "Escaping Wonderland"](../games/a-f/escaping-wonderland.md)
 - [`GAME-0473` — "Eternal Darkness: Sanity's Requiem"](../games/a-f/eternal-darkness-sanitys-requiem.md)
 - [`GAME-0405` — Fable II](../games/a-f/fable-ii.md)
 - [`GAME-0327` — Fable](../games/a-f/fable.md)
@@ -337,8 +347,10 @@
 - [`GAME-0091` — Fez](../games/a-f/fez.md)
 - [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
+- [`GAME-0713` — "Firestriker"](../games/a-f/firestriker.md)
 - [`GAME-0633` — "Flock"](../games/a-f/flock.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
+- [`GAME-0724` — "Frequency"](../games/a-f/frequency.md)
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0400` — "Geometry Wars: Retro Evolved"](../games/g-l/geometry-wars-retro-evolved.md)
 - [`GAME-0550` — Ghost of Yōtei](../games/g-l/ghost-of-yotei.md)
@@ -378,13 +390,17 @@
 - [`GAME-0436` — Journey](../games/g-l/journey.md)
 - [`GAME-0552` — Jusant](../games/g-l/jusant.md)
 - [`GAME-0376` — Katamari Damacy REROLL](../games/g-l/katamari-damacy-reroll.md)
+- [`GAME-0720` — "Kaze and the Wild Masks"](../games/g-l/kaze-and-the-wild-masks.md)
 - [`GAME-0543` — Keeper](../games/g-l/keeper.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0655` — "Kirby Air Riders"](../games/g-l/kirby-air-riders.md)
 - [`GAME-0408` — Kirby's Adventure](../games/g-l/kirbys-adventure.md)
+- [`GAME-0692` — "Klonoa 2: Lunatea's Veil"](../games/g-l/klonoa-2-lunateas-veil.md)
+- [`GAME-0706` — "Kula World"](../games/g-l/kula-world.md)
 - [`GAME-0583` — "Kunitsu-Gami: Path of the Goddess"](../games/g-l/kunitsu-gami-path-of-the-goddess.md)
 - [`GAME-0609` — "Kuru Kuru Kururin"](../games/g-l/kuru-kuru-kururin.md)
 - [`GAME-0388` — L.A. Noire](../games/g-l/la-noire.md)
+- [`GAME-0683` — "Last Window: The Secret of Cape West"](../games/g-l/last-window-the-secret-of-cape-west.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
@@ -406,11 +422,14 @@
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0339` — Metal Gear Solid](../games/m-r/metal-gear-solid.md)
 - [`GAME-0462` — Metal Slug 3](../games/m-r/metal-slug-3.md)
+- [`GAME-0728` — "Metal Warriors"](../games/m-r/metal-warriors.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0474` — Metroid Fusion](../games/m-r/metroid-fusion.md)
+- [`GAME-0678` — "Metroid Prime 4: Beyond"](../games/m-r/metroid-prime-4-beyond.md)
 - [`GAME-0355` — Metroid Prime](../games/m-r/metroid-prime.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0607` — "Mischief Makers"](../games/m-r/mischief-makers.md)
+- [`GAME-0676` — "Mixtape"](../games/m-r/mixtape.md)
 - [`GAME-0614` — "Mole Mania"](../games/m-r/mole-mania.md)
 - [`GAME-0297` — 'MONSTER HUNTER RISE'](../games/m-r/monster-hunter-rise.md)
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
@@ -424,6 +443,7 @@
 - [`GAME-0600` — "NBA Street Vol. 2"](../games/m-r/nba-street-vol-2.md)
 - [`GAME-0572` — Neon White](../games/m-r/neon-white.md)
 - [`GAME-0588` — Neva](../games/m-r/neva.md)
+- [`GAME-0734` — "Nex Machina"](../games/m-r/nex-machina.md)
 - [`GAME-0445` — "NiGHTS into Dreams"](../games/m-r/nights-into-dreams.md)
 - [`GAME-0527` — Nine Sols](../games/m-r/nine-sols.md)
 - [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
@@ -447,26 +467,31 @@
 - [`GAME-0647` — Panzer Dragoon Saga](../games/m-r/panzer-dragoon-saga.md)
 - [`GAME-0624` — "Paradise Killer"](../games/m-r/paradise-killer.md)
 - [`GAME-0562` — Parasite Eve](../games/m-r/parasite-eve.md)
+- [`GAME-0703` — "Part Time UFO"](../games/m-r/part-time-ufo.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 - [`GAME-0036` — "Patrick’s Parabox"](../games/m-r/patricks-parabox.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
 - [`GAME-0203` — "PEAK"](../games/m-r/peak.md)
+- [`GAME-0731` — "Pengo"](../games/m-r/pengo.md)
 - [`GAME-0523` — Pentiment](../games/m-r/pentiment.md)
 - [`GAME-0622` — "Pepper Grinder"](../games/m-r/pepper-grinder.md)
 - [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
+- [`GAME-0670` — "Phantom Dust"](../games/m-r/phantom-dust.md)
 - [`GAME-0035` — Pikmin 4](../games/m-r/pikmin-4.md)
 - [`GAME-0602` — "Pilotwings 64"](../games/m-r/pilotwings-64.md)
 - [`GAME-0661` — "Pilotwings"](../games/m-r/pilotwings.md)
 - [`GAME-0612` — "Pipistrello and the Cursed Yoyo"](../games/m-r/pipistrello-and-the-cursed-yoyo.md)
 - [`GAME-0479` — Pitfall!](../games/m-r/pitfall.md)
 - [`GAME-0640` — "Pizza Tower"](../games/m-r/pizza-tower.md)
+- [`GAME-0700` — "Planet of Lana II: Children of the Leaf"](../games/m-r/planet-of-lana-ii.md)
 - [`GAME-0463` — "Pokémon Gold Version"](../games/m-r/pokemon-gold-version.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
 - [`GAME-0518` — Pokémon Pokopia](../games/m-r/pokemon-pokopia.md)
 - [`GAME-0336` — "Pokémon Red Version"](../games/m-r/pokemon-red-version.md)
 - [`GAME-0113` — Portal 2 — Cooperative Campaign](../games/m-r/portal-2-co-op.md)
 - [`GAME-0033` — Portal](../games/m-r/portal.md)
+- [`GAME-0681` — "Power Stone 2"](../games/m-r/power-stone-2.md)
 - [`GAME-0519` — Power Stone](../games/m-r/power-stone.md)
 - [`GAME-0534` — PowerWash Simulator 2](../games/m-r/powerwash-simulator-2.md)
 - [`GAME-0279` — PowerWash Simulator](../games/m-r/powerwash-simulator.md)
@@ -477,11 +502,16 @@
 - [`GAME-0561` — Psychonauts 2](../games/m-r/psychonauts-2.md)
 - [`GAME-0358` — Psychonauts](../games/m-r/psychonauts.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
+- [`GAME-0737` — "Pullblox"](../games/m-r/pullblox.md)
+- [`GAME-0715` — "Pushover"](../games/m-r/pushover.md)
 - [`GAME-0438` — Q*bert](../games/m-r/qbert.md)
+- [`GAME-0722` — "QuackShot Starring Donald Duck"](../games/m-r/quackshot-starring-donald-duck.md)
 - [`GAME-0334` — Quake](../games/m-r/quake.md)
 - [`GAME-0404` — Ratchet & Clank](../games/m-r/ratchet-and-clank.md)
 - [`GAME-0508` — Ready or Not](../games/m-r/ready-or-not.md)
+- [`GAME-0684` — "REANIMAL"](../games/m-r/reanimal.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0691` — "REPLACED"](../games/m-r/replaced.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0348` — "Resident Evil: Director’s Cut"](../games/m-r/resident-evil-directors-cut.md)
@@ -493,6 +523,7 @@
 - [`GAME-0643` — "Rocket Knight Adventures"](../games/m-r/rocket-knight-adventures.md)
 - [`GAME-0549` — Roto Force](../games/m-r/roto-force.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0667` — "SAROS"](../games/s-z/saros.md)
 - [`GAME-0584` — Saturn Bomberman](../games/s-z/saturn-bomberman.md)
 - [`GAME-0556` — Sayonara Wild Hearts](../games/s-z/sayonara-wild-hearts.md)
 - [`GAME-0440` — Scribblenauts](../games/s-z/scribblenauts.md)
@@ -514,7 +545,10 @@
 - [`GAME-0417` — Sly Cooper and the Thievius Raccoonus](../games/s-z/sly-cooper-and-the-thievius-raccoonus.md)
 - [`GAME-0045` — Snakebird](../games/s-z/snakebird.md)
 - [`GAME-0006` — Sokoban](../games/s-z/sokoban.md)
+- [`GAME-0733` — "Solomon's Key"](../games/s-z/solomons-key.md)
+- [`GAME-0690` — "Sonic Advance"](../games/s-z/sonic-advance.md)
 - [`GAME-0472` — Sonic Adventure](../games/s-z/sonic-adventure.md)
+- [`GAME-0682` — "Sonic Dream Team"](../games/s-z/sonic-dream-team.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
@@ -548,6 +582,7 @@
 - [`GAME-0568` — Teardown](../games/s-z/teardown.md)
 - [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
+- [`GAME-0695` — "Terranigma"](../games/s-z/terranigma.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0648` — Thank Goodness You're Here!](../games/s-z/thank-goodness-youre-here.md)
 - [`GAME-0604` — "The Alters"](../games/s-z/the-alters.md)
@@ -557,6 +592,8 @@
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 - [`GAME-0576` — The Forgotten City](../games/s-z/the-forgotten-city.md)
+- [`GAME-0707` — "The Gunk"](../games/s-z/the-gunk.md)
+- [`GAME-0729` — "The Last Campfire"](../games/s-z/the-last-campfire.md)
 - [`GAME-0559` — The Last Guardian](../games/s-z/the-last-guardian.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
@@ -576,11 +613,15 @@
 - [`GAME-0090` — The Talos Principle](../games/s-z/the-talos-principle.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
 - [`GAME-0513` — Thief: The Dark Project](../games/s-z/thief-the-dark-project.md)
+- [`GAME-0696` — "Tides of Tomorrow"](../games/s-z/tides-of-tomorrow.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
+- [`GAME-0732` — "TOEM"](../games/s-z/toem.md)
+- [`GAME-0735` — "Toki Tori"](../games/s-z/toki-tori.md)
 - [`GAME-0174` — Tom Clancy’s Rainbow Six Siege](../games/s-z/tom-clancys-rainbow-six-siege.md)
 - [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
 - [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
+- [`GAME-0668` — "Tomba!"](../games/s-z/tomba.md)
 - [`GAME-0365` — Tony Hawk’s Pro Skater 1 + 2](../games/s-z/tony-hawks-pro-skater-1-plus-2.md)
 - [`GAME-0104` — TUNIC](../games/s-z/tunic.md)
 - [`GAME-0391` — "Uncharted 2: Among Thieves"](../games/s-z/uncharted-2-among-thieves.md)
@@ -592,15 +633,18 @@
 - [`GAME-0041` — Viewfinder](../games/s-z/viewfinder.md)
 - [`GAME-0580` — Viewtiful Joe](../games/s-z/viewtiful-joe.md)
 - [`GAME-0571` — Virtua Tennis](../games/s-z/virtua-tennis.md)
+- [`GAME-0693` — "Void Stranger"](../games/s-z/void-stranger.md)
 - [`GAME-0168` — Warframe](../games/s-z/warframe.md)
 - [`GAME-0496` — "Warhammer 40,000: Space Marine 2"](../games/s-z/warhammer-40000-space-marine-2.md)
 - [`GAME-0645` — Wario Land 3](../games/s-z/wario-land-3.md)
 - [`GAME-0497` — Wario Land 4](../games/s-z/wario-land-4.md)
 - [`GAME-0644` — "WHAT THE CAR?"](../games/s-z/what-the-car.md)
 - [`GAME-0603` — "Wheel World"](../games/s-z/wheel-world.md)
+- [`GAME-0669` — "Wilmot Works It Out"](../games/s-z/wilmot-works-it-out.md)
 - [`GAME-0564` — Windjammers](../games/s-z/windjammers.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
 - [`GAME-0379` — Worms Armageddon](../games/s-z/worms-armageddon.md)
+- [`GAME-0671` — "Yoshi and the Mysterious Book"](../games/s-z/yoshi-and-the-mysterious-book.md)
 
 ## ACT-009
 
@@ -636,6 +680,7 @@
 - [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
 - [`GAME-0593` — "The Legend of Zelda: The Minish Cap"](../games/s-z/the-legend-of-zelda-the-minish-cap.md)
 - [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
+- [`GAME-0669` — "Wilmot Works It Out"](../games/s-z/wilmot-works-it-out.md)
 
 ## ACT-010
 
@@ -748,8 +793,10 @@
 - [`GAME-0416` — Advance Wars](../games/a-f/advance-wars.md)
 - [`GAME-0027` — Bad North: Jotunn Edition](../games/a-f/bad-north.md)
 - [`GAME-0011` — Chess](../games/a-f/chess.md)
+- [`GAME-0711` — "ELOH"](../games/a-f/eloh.md)
 - [`GAME-0486` — Final Fantasy Tactics](../games/a-f/final-fantasy-tactics.md)
 - [`GAME-0014` — Into the Breach](../games/g-l/into-the-breach.md)
+- [`GAME-0679` — "Jeanne d'Arc"](../games/g-l/jeanne-darc.md)
 - [`GAME-0514` — Mewgenics](../games/m-r/mewgenics.md)
 - [`GAME-0019` — Peg Solitaire](../games/m-r/peg-solitaire.md)
 - [`GAME-0063` — Rush Hour](../games/m-r/rush-hour.md)
@@ -883,7 +930,9 @@
 - [`GAME-0626` — "Fuga: Melodies of Steel"](../games/a-f/fuga-melodies-of-steel.md)
 - [`GAME-0489` — Golden Sun](../games/g-l/golden-sun.md)
 - [`GAME-0014` — Into the Breach](../games/g-l/into-the-breach.md)
+- [`GAME-0679` — "Jeanne d'Arc"](../games/g-l/jeanne-darc.md)
 - [`GAME-0530` — Lost Odyssey](../games/g-l/lost-odyssey.md)
+- [`GAME-0688` — "Lunar: Silver Star Story Complete"](../games/g-l/lunar-silver-star-story-complete.md)
 - [`GAME-0514` — Mewgenics](../games/m-r/mewgenics.md)
 - [`GAME-0449` — Paper Mario](../games/m-r/paper-mario.md)
 - [`GAME-0562` — Parasite Eve](../games/m-r/parasite-eve.md)
@@ -1055,6 +1104,7 @@
 
 - [`GAME-0369` — Carcassonne](../games/a-f/carcassonne.md)
 - [`GAME-0020` — Dorfromantik](../games/a-f/dorfromantik.md)
+- [`GAME-0708` — "Rampart"](../games/m-r/rampart.md)
 
 ## ACT-027
 
@@ -1100,6 +1150,7 @@
 - [`GAME-0267` — Kerbal Space Program](../games/g-l/kerbal-space-program.md)
 - [`GAME-0022` — Opus Magnum](../games/m-r/opus-magnum.md)
 - [`GAME-0056` — Railbound](../games/m-r/railbound.md)
+- [`GAME-0675` — "Teeny Tiny Trains"](../games/s-z/teeny-tiny-trains.md)
 - [`GAME-0421` — The Incredible Machine](../games/s-z/the-incredible-machine.md)
 
 ## ACT-029
@@ -1564,27 +1615,33 @@
 - [`GAME-0095` — Manifold Garden](../games/m-r/manifold-garden.md)
 - [`GAME-0096` — Maquette](../games/m-r/maquette.md)
 - [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
+- [`GAME-0727` — "Miniatures"](../games/m-r/miniatures.md)
 - [`GAME-0300` — Overcooked! 2](../games/m-r/overcooked-2.md)
 - [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
+- [`GAME-0703` — "Part Time UFO"](../games/m-r/part-time-ufo.md)
 - [`GAME-0203` — "PEAK"](../games/m-r/peak.md)
 - [`GAME-0113` — Portal 2 — Cooperative Campaign](../games/m-r/portal-2-co-op.md)
 - [`GAME-0033` — Portal](../games/m-r/portal.md)
+- [`GAME-0681` — "Power Stone 2"](../games/m-r/power-stone-2.md)
 - [`GAME-0519` — Power Stone](../games/m-r/power-stone.md)
 - [`GAME-0534` — PowerWash Simulator 2](../games/m-r/powerwash-simulator-2.md)
 - [`GAME-0279` — PowerWash Simulator](../games/m-r/powerwash-simulator.md)
 - [`GAME-0561` — Psychonauts 2](../games/m-r/psychonauts-2.md)
+- [`GAME-0715` — "Pushover"](../games/m-r/pushover.md)
 - [`GAME-0319` — Sea of Thieves](../games/s-z/sea-of-thieves.md)
 - [`GAME-0466` — Streets of Rage 2](../games/s-z/streets-of-rage-2.md)
 - [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 - [`GAME-0567` — SUPERHOT VR](../games/s-z/superhot-vr.md)
 - [`GAME-0094` — Superliminal](../games/s-z/superliminal.md)
 - [`GAME-0568` — Teardown](../games/s-z/teardown.md)
+- [`GAME-0729` — "The Last Campfire"](../games/s-z/the-last-campfire.md)
 - [`GAME-0559` — The Last Guardian](../games/s-z/the-last-guardian.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0651` — The Plucky Squire](../games/s-z/the-plucky-squire.md)
 - [`GAME-0115` — Unpacking](../games/s-z/unpacking.md)
 - [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
 - [`GAME-0497` — Wario Land 4](../games/s-z/wario-land-4.md)
+- [`GAME-0669` — "Wilmot Works It Out"](../games/s-z/wilmot-works-it-out.md)
 
 ## ACT-049
 
@@ -2091,9 +2148,15 @@
 
 ### Ігри-носії
 
+- [`GAME-0705` — "Contraband Police"](../games/a-f/contraband-police.md)
+- [`GAME-0699` — "Dungeon Master"](../games/a-f/dungeon-master.md)
+- [`GAME-0711` — "ELOH"](../games/a-f/eloh.md)
+- [`GAME-0702` — "Escaping Wonderland"](../games/a-f/escaping-wonderland.md)
+- [`GAME-0680` — "Ghost Town"](../games/g-l/ghost-town.md)
 - [`GAME-0060` — HOOK](../games/g-l/hook.md)
 - [`GAME-0563` — Lorelei and the Laser Eyes](../games/g-l/lorelei-and-the-laser-eyes.md)
 - [`GAME-0105` — Outer Wilds](../games/m-r/outer-wilds.md)
+- [`GAME-0698` — "Song of Bloom"](../games/s-z/song-of-bloom.md)
 - [`GAME-0085` — The Room](../games/s-z/the-room.md)
 
 ## ACT-073
@@ -2372,6 +2435,7 @@
 
 ### Ігри-носії
 
+- [`GAME-0680` — "Ghost Town"](../games/g-l/ghost-town.md)
 - [`GAME-0123` — Inscryption](../games/g-l/inscryption.md)
 - [`GAME-0563` — Lorelei and the Laser Eyes](../games/g-l/lorelei-and-the-laser-eyes.md)
 - [`GAME-0086` — Machinarium](../games/m-r/machinarium.md)
@@ -2422,10 +2486,12 @@
 - [`GAME-0173` — Blue Prince](../games/a-f/blue-prince.md)
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
 - [`GAME-0186` — "Don’t Starve Together"](../games/a-f/dont-starve-together.md)
+- [`GAME-0680` — "Ghost Town"](../games/g-l/ghost-town.md)
 - [`GAME-0582` — Grim Fandango](../games/g-l/grim-fandango.md)
 - [`GAME-0123` — Inscryption](../games/g-l/inscryption.md)
 - [`GAME-0563` — Lorelei and the Laser Eyes](../games/g-l/lorelei-and-the-laser-eyes.md)
 - [`GAME-0086` — Machinarium](../games/m-r/machinarium.md)
+- [`GAME-0686` — "Maniac Mansion"](../games/m-r/maniac-mansion.md)
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
@@ -2489,11 +2555,13 @@
 - [`GAME-0088` — Day of the Tentacle](../games/a-f/day-of-the-tentacle.md)
 - [`GAME-0515` — Dino Crisis](../games/a-f/dino-crisis.md)
 - [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
+- [`GAME-0699` — "Dungeon Master"](../games/a-f/dungeon-master.md)
 - [`GAME-0405` — Fable II](../games/a-f/fable-ii.md)
 - [`GAME-0582` — Grim Fandango](../games/g-l/grim-fandango.md)
 - [`GAME-0510` — Indiana Jones and the Great Circle](../games/g-l/indiana-jones-and-the-great-circle.md)
 - [`GAME-0563` — Lorelei and the Laser Eyes](../games/g-l/lorelei-and-the-laser-eyes.md)
 - [`GAME-0086` — Machinarium](../games/m-r/machinarium.md)
+- [`GAME-0686` — "Maniac Mansion"](../games/m-r/maniac-mansion.md)
 - [`GAME-0431` — Ori and the Blind Forest](../games/m-r/ori-and-the-blind-forest.md)
 - [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 - [`GAME-0562` — Parasite Eve](../games/m-r/parasite-eve.md)
@@ -2677,7 +2745,9 @@
 - [`GAME-0132` — Anno 1800](../games/a-f/anno-1800.md)
 - [`GAME-0135` — "Captain of Industry"](../games/a-f/captain-of-industry.md)
 - [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
+- [`GAME-0686` — "Maniac Mansion"](../games/m-r/maniac-mansion.md)
 - [`GAME-0093` — Monument Valley](../games/m-r/monument-valley.md)
+- [`GAME-0722` — "QuackShot Starring Donald Duck"](../games/m-r/quackshot-starring-donald-duck.md)
 - [`GAME-0166` — Sid Meier’s Civilization VI](../games/s-z/sid-meiers-civilization-vi.md)
 - [`GAME-0136` — "Surviving Mars: Relaunched"](../games/s-z/surviving-mars.md)
 - [`GAME-0343` — The Secret of Monkey Island](../games/s-z/the-secret-of-monkey-island.md)
@@ -2849,6 +2919,7 @@
 
 ### Ігри-носії
 
+- [`GAME-0705` — "Contraband Police"](../games/a-f/contraband-police.md)
 - [`GAME-0103` — Papers, Please](../games/m-r/papers-please.md)
 
 ## ACT-105
@@ -2870,6 +2941,7 @@
 
 ### Ігри-носії
 
+- [`GAME-0705` — "Contraband Police"](../games/a-f/contraband-police.md)
 - [`GAME-0103` — Papers, Please](../games/m-r/papers-please.md)
 
 ## ACT-106
@@ -3152,6 +3224,7 @@
 - [`GAME-0121` — "Cities: Skylines"](../games/a-f/cities-skylines.md)
 - [`GAME-0390` — SimCity 2000](../games/s-z/simcity-2000.md)
 - [`GAME-0118` — SimCity 4 Deluxe Edition](../games/s-z/simcity-4-deluxe-edition.md)
+- [`GAME-0716` — "Terra Nil"](../games/s-z/terra-nil.md)
 - [`GAME-0134` — "Workers & Resources: Soviet Republic"](../games/s-z/workers-resources-soviet-republic.md)
 
 ## ACT-118
@@ -3505,6 +3578,7 @@
 
 ### Ігри-носії
 
+- [`GAME-0694` — "A Game About Digging A Hole"](../games/a-f/a-game-about-digging-a-hole.md)
 - [`GAME-0124` — Against the Storm](../games/a-f/against-the-storm.md)
 - [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0511` — Animal Crossing: New Leaf](../games/a-f/animal-crossing-new-leaf.md)
@@ -3613,6 +3687,7 @@
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
 - [`GAME-0553` — The Lost Vikings](../games/s-z/the-lost-vikings.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
+- [`GAME-0696` — "Tides of Tomorrow"](../games/s-z/tides-of-tomorrow.md)
 - [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
 - [`GAME-0268` — Undertale](../games/s-z/undertale.md)
 - [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
@@ -3803,6 +3878,7 @@
 - [`GAME-0370` — Theme Hospital](../games/s-z/theme-hospital.md)
 - [`GAME-0133` — Timberborn](../games/s-z/timberborn.md)
 - [`GAME-0498` — Transport Fever 2](../games/s-z/transport-fever-2.md)
+- [`GAME-0701` — "Warcraft II: Tides of Darkness"](../games/s-z/warcraft-ii-tides-of-darkness.md)
 - [`GAME-0134` — "Workers & Resources: Soviet Republic"](../games/s-z/workers-resources-soviet-republic.md)
 
 ## ACT-140
@@ -4349,11 +4425,13 @@
 - [`GAME-0137` — Counter-Strike 2](../games/a-f/counter-strike-2.md)
 - [`GAME-0218` — Counter-Strike](../games/a-f/counter-strike.md)
 - [`GAME-0359` — "Crimson Skies: High Road to Revenge"](../games/a-f/crimson-skies-high-road-to-revenge.md)
+- [`GAME-0725` — "Crypt Custodian"](../games/a-f/crypt-custodian.md)
 - [`GAME-0246` — Crysis Remastered](../games/a-f/crysis-remastered.md)
 - [`GAME-0570` — Cult of the Lamb](../games/a-f/cult-of-the-lamb.md)
 - [`GAME-0277` — Cuphead](../games/a-f/cuphead.md)
 - [`GAME-0596` — "Custom Robo"](../games/a-f/custom-robo.md)
 - [`GAME-0146` — Cyberpunk 2077](../games/a-f/cyberpunk-2077.md)
+- [`GAME-0738` — "Dandara: Trials of Fear Edition"](../games/a-f/dandara-trials-of-fear-edition.md)
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0459` — Daxter](../games/a-f/daxter.md)
@@ -4426,6 +4504,7 @@
 - [`GAME-0306` — METAL GEAR SOLID V: THE PHANTOM PAIN](../games/m-r/metal-gear-solid-v-the-phantom-pain.md)
 - [`GAME-0339` — Metal Gear Solid](../games/m-r/metal-gear-solid.md)
 - [`GAME-0462` — Metal Slug 3](../games/m-r/metal-slug-3.md)
+- [`GAME-0728` — "Metal Warriors"](../games/m-r/metal-warriors.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
 - [`GAME-0474` — Metroid Fusion](../games/m-r/metroid-fusion.md)
 - [`GAME-0355` — Metroid Prime](../games/m-r/metroid-prime.md)
@@ -4457,7 +4536,9 @@
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
 - [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
+- [`GAME-0670` — "Phantom Dust"](../games/m-r/phantom-dust.md)
 - [`GAME-0612` — "Pipistrello and the Cursed Yoyo"](../games/m-r/pipistrello-and-the-cursed-yoyo.md)
+- [`GAME-0681` — "Power Stone 2"](../games/m-r/power-stone-2.md)
 - [`GAME-0519` — Power Stone](../games/m-r/power-stone.md)
 - [`GAME-0536` — PRAGMATA](../games/m-r/pragmata.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
@@ -4466,6 +4547,8 @@
 - [`GAME-0358` — Psychonauts](../games/m-r/psychonauts.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0334` — Quake](../games/m-r/quake.md)
+- [`GAME-0697` — "Radiant Silvergun"](../games/m-r/radiant-silvergun.md)
+- [`GAME-0708` — "Rampart"](../games/m-r/rampart.md)
 - [`GAME-0404` — Ratchet & Clank](../games/m-r/ratchet-and-clank.md)
 - [`GAME-0508` — Ready or Not](../games/m-r/ready-or-not.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
@@ -4478,6 +4561,7 @@
 - [`GAME-0639` — "Rollerdrome"](../games/m-r/rollerdrome.md)
 - [`GAME-0549` — Roto Force](../games/m-r/roto-force.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0667` — "SAROS"](../games/s-z/saros.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
 - [`GAME-0237` — "Serious Sam HD: The First Encounter"](../games/s-z/serious-sam-hd-the-first-encounter.md)
@@ -4505,6 +4589,7 @@
 - [`GAME-0567` — SUPERHOT VR](../games/s-z/superhot-vr.md)
 - [`GAME-0313` — Tank 1990](../games/s-z/tank-1990.md)
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
+- [`GAME-0695` — "Terranigma"](../games/s-z/terranigma.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 - [`GAME-0190` — "The Elder Scrolls V: Skyrim Special Edition"](../games/s-z/the-elder-scrolls-v-skyrim-special-edition.md)
@@ -4554,6 +4639,7 @@
 - [`GAME-0129` — Minecraft](../games/m-r/minecraft.md)
 - [`GAME-0518` — Pokémon Pokopia](../games/m-r/pokemon-pokopia.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
+- [`GAME-0693` — "Void Stranger"](../games/s-z/void-stranger.md)
 
 ## ACT-163
 
@@ -5324,6 +5410,7 @@
 - [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
 - [`GAME-0191` — "Total War: WARHAMMER III"](../games/s-z/total-war-warhammer-iii.md)
 - [`GAME-0658` — "Unicorn Overlord"](../games/s-z/unicorn-overlord.md)
+- [`GAME-0701` — "Warcraft II: Tides of Darkness"](../games/s-z/warcraft-ii-tides-of-darkness.md)
 - [`GAME-0328` — "Warcraft III: Reign of Chaos"](../games/s-z/warcraft-iii-reign-of-chaos.md)
 
 ## ACT-190
@@ -5828,6 +5915,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 - [`GAME-0534` — PowerWash Simulator 2](../games/m-r/powerwash-simulator-2.md)
 - [`GAME-0279` — PowerWash Simulator](../games/m-r/powerwash-simulator.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
+- [`GAME-0722` — "QuackShot Starring Donald Duck"](../games/m-r/quackshot-starring-donald-duck.md)
 - [`GAME-0508` — Ready or Not](../games/m-r/ready-or-not.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0512` — Resident Evil Requiem](../games/m-r/resident-evil-requiem.md)
@@ -6297,6 +6385,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 - [`GAME-0530` — Lost Odyssey](../games/g-l/lost-odyssey.md)
 - [`GAME-0449` — Paper Mario](../games/m-r/paper-mario.md)
 - [`GAME-0577` — People of Note](../games/m-r/people-of-note.md)
+- [`GAME-0714` — "Thirsty Suitors"](../games/s-z/thirsty-suitors.md)
 
 ## ACT-223
 
@@ -6341,7 +6430,9 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 - [`GAME-0577` — People of Note](../games/m-r/people-of-note.md)
 - [`GAME-0519` — Power Stone](../games/m-r/power-stone.md)
 - [`GAME-0536` — PRAGMATA](../games/m-r/pragmata.md)
+- [`GAME-0691` — "REPLACED"](../games/m-r/replaced.md)
 - [`GAME-0639` — "Rollerdrome"](../games/m-r/rollerdrome.md)
+- [`GAME-0667` — "SAROS"](../games/s-z/saros.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0303` — Sifu](../games/s-z/sifu.md)
 - [`GAME-0616` — Silent Bomber](../games/s-z/silent-bomber.md)
@@ -6600,6 +6691,7 @@ Bandages, First Aid Kits, Med Kits, Energy Drinks, Painkillers і Adrenaline Syr
 - [`GAME-0606` — "The Séance of Blake Manor"](../games/s-z/the-seance-of-blake-manor.md)
 - [`GAME-0343` — The Secret of Monkey Island](../games/s-z/the-secret-of-monkey-island.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
+- [`GAME-0696` — "Tides of Tomorrow"](../games/s-z/tides-of-tomorrow.md)
 - [`GAME-0498` — Transport Fever 2](../games/s-z/transport-fever-2.md)
 
 ## ACT-233
@@ -7830,6 +7922,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 - [`GAME-0276` — Forza Horizon 5](../games/a-f/forza-horizon-5.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
 - [`GAME-0316` — Gran Turismo](../games/g-l/gran-turismo.md)
+- [`GAME-0712` — "JellyCar Worlds"](../games/g-l/jellycar-worlds.md)
 - [`GAME-0309` — "Mario Kart 8 Deluxe"](../games/m-r/mario-kart-8-deluxe.md)
 - [`GAME-0507` — MotorStorm](../games/m-r/motorstorm.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
@@ -7841,16 +7934,19 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 - [`GAME-0481` — Out Run](../games/m-r/out-run.md)
 - [`GAME-0578` — OutRun 2](../games/m-r/outrun-2.md)
 - [`GAME-0420` — Project Gotham Racing 2](../games/m-r/project-gotham-racing-2.md)
+- [`GAME-0710` — "Racing Destruction Set"](../games/m-r/racing-destruction-set.md)
 - [`GAME-0551` — "R4: Ridge Racer Type 4"](../games/m-r/ridge-racer-type-4.md)
 - [`GAME-0177` — Rocket League](../games/m-r/rocket-league.md)
 - [`GAME-0457` — Sega Rally Championship](../games/s-z/sega-rally-championship.md)
 - [`GAME-0621` — "Sonic Racing: CrossWorlds"](../games/s-z/sonic-racing-crossworlds.md)
 - [`GAME-0632` — "Star Wars Episode I: Racer"](../games/s-z/star-wars-episode-i-racer.md)
+- [`GAME-0677` — "Stunt Car Racer"](../games/s-z/stunt-car-racer.md)
 - [`GAME-0590` — Tokyo Xtreme Racer](../games/s-z/tokyo-xtreme-racer.md)
 - [`GAME-0216` — Trackmania](../games/s-z/trackmania.md)
 - [`GAME-0409` — 'Twisted Metal: Black'](../games/s-z/twisted-metal-black.md)
 - [`GAME-0184` — War Thunder](../games/s-z/war-thunder.md)
 - [`GAME-0524` — Wave Race 64](../games/s-z/wave-race-64.md)
+- [`GAME-0674` — "Wave Race: Blue Storm"](../games/s-z/wave-race-blue-storm.md)
 - [`GAME-0488` — wipEout](../games/s-z/wipeout.md)
 - [`GAME-0211` — World of Tanks](../games/s-z/world-of-tanks.md)
 
@@ -7986,6 +8082,7 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 
 ### Ігри-носії
 
+- [`GAME-0719` — "Alisia Dragoon"](../games/a-f/alisia-dragoon.md)
 - [`GAME-0456` — Alone in the Dark](../games/a-f/alone-in-the-dark.md)
 - [`GAME-0318` — Battletoads](../games/a-f/battletoads.md)
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
@@ -7998,12 +8095,16 @@ Focus Strikes у Monster Hunter Wilds, спрямовані на відкрит�
 - [`GAME-0501` — F.E.A.R.](../games/a-f/fear.md)
 - [`GAME-0468` — Gravity Rush](../games/g-l/gravity-rush.md)
 - [`GAME-0560` — Gunstar Heroes](../games/g-l/gunstar-heroes.md)
+- [`GAME-0720` — "Kaze and the Wild Masks"](../games/g-l/kaze-and-the-wild-masks.md)
 - [`GAME-0393` — Mortal Kombat II](../games/m-r/mortal-kombat-ii.md)
 - [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 - [`GAME-0640` — "Pizza Tower"](../games/m-r/pizza-tower.md)
 - [`GAME-0561` — Psychonauts 2](../games/m-r/psychonauts-2.md)
 - [`GAME-0447` — Punch-Out!!](../games/m-r/punch-out.md)
+- [`GAME-0722` — "QuackShot Starring Donald Duck"](../games/m-r/quackshot-starring-donald-duck.md)
+- [`GAME-0691` — "REPLACED"](../games/m-r/replaced.md)
 - [`GAME-0643` — "Rocket Knight Adventures"](../games/m-r/rocket-knight-adventures.md)
+- [`GAME-0690` — "Sonic Advance"](../games/s-z/sonic-advance.md)
 - [`GAME-0472` — Sonic Adventure](../games/s-z/sonic-adventure.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
@@ -8308,6 +8409,7 @@ Call it a Day у Blue Prince.
 ### Ігри-носії
 
 - [`GAME-0542` — Excite Truck](../games/a-f/excite-truck.md)
+- [`GAME-0712` — "JellyCar Worlds"](../games/g-l/jellycar-worlds.md)
 - [`GAME-0655` — "Kirby Air Riders"](../games/g-l/kirby-air-riders.md)
 - [`GAME-0507` — MotorStorm](../games/m-r/motorstorm.md)
 - [`GAME-0177` — Rocket League](../games/m-r/rocket-league.md)
@@ -8341,6 +8443,7 @@ Call it a Day у Blue Prince.
 - [`GAME-0235` — "Need for Speed: The Run"](../games/m-r/need-for-speed-the-run.md)
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 - [`GAME-0177` — Rocket League](../games/m-r/rocket-league.md)
+- [`GAME-0677` — "Stunt Car Racer"](../games/s-z/stunt-car-racer.md)
 - [`GAME-0409` — 'Twisted Metal: Black'](../games/s-z/twisted-metal-black.md)
 - [`GAME-0603` — "Wheel World"](../games/s-z/wheel-world.md)
 
@@ -8429,6 +8532,7 @@ Call it a Day у Blue Prince.
 ### Ігри-носії
 
 - [`GAME-0243` — Battlefield Hardline](../games/a-f/battlefield-hardline.md)
+- [`GAME-0678` — "Metroid Prime 4: Beyond"](../games/m-r/metroid-prime-4-beyond.md)
 - [`GAME-0355` — Metroid Prime](../games/m-r/metroid-prime.md)
 - [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 - [`GAME-0178` — Subnautica](../games/s-z/subnautica.md)
@@ -8504,6 +8608,7 @@ Call it a Day у Blue Prince.
 - [`GAME-0517` — Homeworld](../games/g-l/homeworld.md)
 - [`GAME-0469` — StarCraft](../games/s-z/starcraft.md)
 - [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
+- [`GAME-0701` — "Warcraft II: Tides of Darkness"](../games/s-z/warcraft-ii-tides-of-darkness.md)
 
 ## ACT-317
 
@@ -8556,6 +8661,7 @@ Call it a Day у Blue Prince.
 - [`GAME-0570` — Cult of the Lamb](../games/a-f/cult-of-the-lamb.md)
 - [`GAME-0517` — Homeworld](../games/g-l/homeworld.md)
 - [`GAME-0469` — StarCraft](../games/s-z/starcraft.md)
+- [`GAME-0701` — "Warcraft II: Tides of Darkness"](../games/s-z/warcraft-ii-tides-of-darkness.md)
 
 ## ACT-319
 
@@ -9039,6 +9145,7 @@ Call it a Day у Blue Prince.
 
 ### Ігри-носії
 
+- [`GAME-0718` — "A Highland Song"](../games/a-f/a-highland-song.md)
 - [`GAME-0653` — "A Quiet Place: The Road Ahead"](../games/a-f/a-quiet-place-the-road-ahead.md)
 - [`GAME-0228` — A Way Out](../games/a-f/a-way-out.md)
 - [`GAME-0223` — Aion Classic](../games/a-f/aion-classic.md)
@@ -9052,6 +9159,7 @@ Call it a Day у Blue Prince.
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0256` — "BioShock™ Remastered"](../games/a-f/bioshock-remastered.md)
 - [`GAME-0557` — "Boktai: The Sun Is in Your Hand"](../games/a-f/boktai-the-sun-is-in-your-hand.md)
+- [`GAME-0736` — "Bomb Rush Cyberfunk"](../games/a-f/bomb-rush-cyberfunk.md)
 - [`GAME-0546` — Burning Rangers](../games/a-f/burning-rangers.md)
 - [`GAME-0347` — "Castlevania: Symphony of the Night"](../games/a-f/castlevania-symphony-of-the-night.md)
 - [`GAME-0346` — Chrono Trigger](../games/a-f/chrono-trigger.md)
@@ -9059,8 +9167,10 @@ Call it a Day у Blue Prince.
 - [`GAME-0429` — Commandos: Behind Enemy Lines](../games/a-f/commandos-behind-enemy-lines.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0359` — "Crimson Skies: High Road to Revenge"](../games/a-f/crimson-skies-high-road-to-revenge.md)
+- [`GAME-0725` — "Crypt Custodian"](../games/a-f/crypt-custodian.md)
 - [`GAME-0570` — Cult of the Lamb](../games/a-f/cult-of-the-lamb.md)
 - [`GAME-0596` — "Custom Robo"](../games/a-f/custom-robo.md)
+- [`GAME-0738` — "Dandara: Trials of Fear Edition"](../games/a-f/dandara-trials-of-fear-edition.md)
 - [`GAME-0629` — "Dark Cloud"](../games/a-f/dark-cloud.md)
 - [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
 - [`GAME-0459` — Daxter](../games/a-f/daxter.md)
@@ -9115,15 +9225,18 @@ Call it a Day у Blue Prince.
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0583` — "Kunitsu-Gami: Path of the Goddess"](../games/g-l/kunitsu-gami-path-of-the-goddess.md)
 - [`GAME-0388` — L.A. Noire](../games/g-l/la-noire.md)
+- [`GAME-0683` — "Last Window: The Secret of Cape West"](../games/g-l/last-window-the-secret-of-cape-west.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0394` — LittleBigPlanet 2](../games/g-l/littlebigplanet-2.md)
 - [`GAME-0563` — Lorelei and the Laser Eyes](../games/g-l/lorelei-and-the-laser-eyes.md)
 - [`GAME-0403` — "Luigi's Mansion"](../games/g-l/luigis-mansion.md)
+- [`GAME-0686` — "Maniac Mansion"](../games/m-r/maniac-mansion.md)
 - [`GAME-0367` — Mass Effect 2 (Legendary Edition)](../games/m-r/mass-effect-2-legendary-edition.md)
 - [`GAME-0238` — "Max Payne (2001)"](../games/m-r/max-payne-2001.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
 - [`GAME-0339` — Metal Gear Solid](../games/m-r/metal-gear-solid.md)
 - [`GAME-0260` — Metro Exodus](../games/m-r/metro-exodus.md)
+- [`GAME-0727` — "Miniatures"](../games/m-r/miniatures.md)
 - [`GAME-0558` — Moss](../games/m-r/moss.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0588` — Neva](../games/m-r/neva.md)
@@ -9138,6 +9251,7 @@ Call it a Day у Blue Prince.
 - [`GAME-0562` — Parasite Eve](../games/m-r/parasite-eve.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
+- [`GAME-0731` — "Pengo"](../games/m-r/pengo.md)
 - [`GAME-0523` — Pentiment](../games/m-r/pentiment.md)
 - [`GAME-0622` — "Pepper Grinder"](../games/m-r/pepper-grinder.md)
 - [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
@@ -9146,8 +9260,10 @@ Call it a Day у Blue Prince.
 - [`GAME-0344` — "Prince of Persia: The Sands of Time"](../games/m-r/prince-of-persia-the-sands-of-time.md)
 - [`GAME-0561` — Psychonauts 2](../games/m-r/psychonauts-2.md)
 - [`GAME-0358` — Psychonauts](../games/m-r/psychonauts.md)
+- [`GAME-0722` — "QuackShot Starring Donald Duck"](../games/m-r/quackshot-starring-donald-duck.md)
 - [`GAME-0404` — Ratchet & Clank](../games/m-r/ratchet-and-clank.md)
 - [`GAME-0508` — Ready or Not](../games/m-r/ready-or-not.md)
+- [`GAME-0684` — "REANIMAL"](../games/m-r/reanimal.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0348` — "Resident Evil: Director’s Cut"](../games/m-r/resident-evil-directors-cut.md)
@@ -9155,6 +9271,7 @@ Call it a Day у Blue Prince.
 - [`GAME-0522` — Returnal](../games/m-r/returnal.md)
 - [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
 - [`GAME-0549` — Roto Force](../games/m-r/roto-force.md)
+- [`GAME-0667` — "SAROS"](../games/s-z/saros.md)
 - [`GAME-0440` — Scribblenauts](../games/s-z/scribblenauts.md)
 - [`GAME-0319` — Sea of Thieves](../games/s-z/sea-of-thieves.md)
 - [`GAME-0485` — Shenmue](../games/s-z/shenmue.md)
@@ -9169,11 +9286,13 @@ Call it a Day у Blue Prince.
 - [`GAME-0617` — Strange Antiquities](../games/s-z/strange-antiquities.md)
 - [`GAME-0599` — "Sword of the Sea"](../games/s-z/sword-of-the-sea.md)
 - [`GAME-0568` — Teardown](../games/s-z/teardown.md)
+- [`GAME-0695` — "Terranigma"](../games/s-z/terranigma.md)
 - [`GAME-0648` — Thank Goodness You're Here!](../games/s-z/thank-goodness-youre-here.md)
 - [`GAME-0604` — "The Alters"](../games/s-z/the-alters.md)
 - [`GAME-0613` — "The Drifter"](../games/s-z/the-drifter.md)
 - [`GAME-0362` — "The Elder Scrolls III: Morrowind"](../games/s-z/the-elder-scrolls-iii-morrowind.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
+- [`GAME-0729` — "The Last Campfire"](../games/s-z/the-last-campfire.md)
 - [`GAME-0559` — The Last Guardian](../games/s-z/the-last-guardian.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
@@ -9185,17 +9304,21 @@ Call it a Day у Blue Prince.
 - [`GAME-0528` — The Neverhood](../games/s-z/the-neverhood.md)
 - [`GAME-0606` — "The Séance of Blake Manor"](../games/s-z/the-seance-of-blake-manor.md)
 - [`GAME-0513` — Thief: The Dark Project](../games/s-z/thief-the-dark-project.md)
+- [`GAME-0696` — "Tides of Tomorrow"](../games/s-z/tides-of-tomorrow.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
+- [`GAME-0732` — "TOEM"](../games/s-z/toem.md)
 - [`GAME-0590` — Tokyo Xtreme Racer](../games/s-z/tokyo-xtreme-racer.md)
 - [`GAME-0349` — "Tom Clancy’s Splinter Cell"](../games/s-z/tom-clancys-splinter-cell.md)
 - [`GAME-0451` — Tomb Raider (1996)](../games/s-z/tomb-raider-1996.md)
 - [`GAME-0250` — Tomb Raider (2013)](../games/s-z/tomb-raider-2013.md)
+- [`GAME-0668` — "Tomba!"](../games/s-z/tomba.md)
 - [`GAME-0498` — Transport Fever 2](../games/s-z/transport-fever-2.md)
 - [`GAME-0268` — Undertale](../games/s-z/undertale.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
 - [`GAME-0496` — "Warhammer 40,000: Space Marine 2"](../games/s-z/warhammer-40000-space-marine-2.md)
 - [`GAME-0603` — "Wheel World"](../games/s-z/wheel-world.md)
+- [`GAME-0669` — "Wilmot Works It Out"](../games/s-z/wilmot-works-it-out.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
 
 ## ACT-342
@@ -9501,6 +9624,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 ### Ігри-носії
 
 - [`GAME-0198` — Brawlhalla](../games/a-f/brawlhalla.md)
+- [`GAME-0681` — "Power Stone 2"](../games/m-r/power-stone-2.md)
 - [`GAME-0519` — Power Stone](../games/m-r/power-stone.md)
 
 ## ACT-356
@@ -10638,6 +10762,7 @@ Reignite the Sparks у Black Myth: Wukong для одного вузла, гіл
 ### Ігри-носії
 
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
+- [`GAME-0700` — "Planet of Lana II: Children of the Leaf"](../games/m-r/planet-of-lana-ii.md)
 - [`GAME-0518` — Pokémon Pokopia](../games/m-r/pokemon-pokopia.md)
 
 ## ACT-409
@@ -10938,6 +11063,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 ### Ігри-носії
 
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
+- [`GAME-0735` — "Toki Tori"](../games/s-z/toki-tori.md)
 
 ## ACT-422
 
@@ -11098,6 +11224,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 - [`GAME-0255` — "Batman: Arkham Asylum Game of the Year Edition"](../games/a-f/batman-arkham-asylum-game-of-the-year-edition.md)
 - [`GAME-0662` — "Batman: Arkham Shadow"](../games/a-f/batman-arkham-shadow.md)
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
+- [`GAME-0691` — "REPLACED"](../games/m-r/replaced.md)
 
 ## ACT-430
 
@@ -11310,6 +11437,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 - [`GAME-0327` — Fable](../games/a-f/fable.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0299` — Nioh 2](../games/m-r/nioh-2.md)
+- [`GAME-0670` — "Phantom Dust"](../games/m-r/phantom-dust.md)
 - [`GAME-0561` — Psychonauts 2](../games/m-r/psychonauts-2.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0502` — South of Midnight](../games/s-z/south-of-midnight.md)
@@ -11397,6 +11525,7 @@ Glory Kill у DOOM (2016) і DOOM Eternal; наземне добивання у 
 
 ### Ігри-носії
 
+- [`GAME-0694` — "A Game About Digging A Hole"](../games/a-f/a-game-about-digging-a-hole.md)
 - [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
 
 ## ACT-444
@@ -12621,6 +12750,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 
 ### Ігри-носії
 
+- [`GAME-0687` — "Denshattack!"](../games/a-f/denshattack.md)
 - [`GAME-0365` — Tony Hawk’s Pro Skater 1 + 2](../games/s-z/tony-hawks-pro-skater-1-plus-2.md)
 
 ## ACT-501
@@ -12666,6 +12796,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 - [`GAME-0368` — Dead Rising](../games/a-f/dead-rising.md)
 - [`GAME-0591` — Fatal Frame](../games/a-f/fatal-frame.md)
 - [`GAME-0371` — Pokémon Snap](../games/m-r/pokemon-snap.md)
+- [`GAME-0732` — "TOEM"](../games/s-z/toem.md)
 
 ## ACT-503
 
@@ -13024,6 +13155,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 ### Ігри-носії
 
 - [`GAME-0537` — Kirby Tilt 'n' Tumble](../games/g-l/kirby-tilt-n-tumble.md)
+- [`GAME-0717` — "LocoRoco 2"](../games/g-l/locoroco-2.md)
 - [`GAME-0482` — LocoRoco](../games/g-l/locoroco.md)
 - [`GAME-0378` — Super Monkey Ball 2](../games/s-z/super-monkey-ball-2.md)
 
@@ -13514,6 +13646,7 @@ Sam Fisher підіймає непритомного охоронця, пере�
 ### Ігри-носії
 
 - [`GAME-0403` — "Luigi's Mansion"](../games/g-l/luigis-mansion.md)
+- [`GAME-0707` — "The Gunk"](../games/s-z/the-gunk.md)
 
 ## ACT-543
 
@@ -13938,6 +14071,7 @@ PATA PATA PATA PON наказує марширувати, а PON PON PATA PON �
 - [`GAME-0650` — Einhänder](../games/a-f/einhander.md)
 - [`GAME-0587` — Panzer Dragoon II Zwei](../games/m-r/panzer-dragoon-ii-zwei.md)
 - [`GAME-0505` — Panzer Dragoon](../games/m-r/panzer-dragoon.md)
+- [`GAME-0697` — "Radiant Silvergun"](../games/m-r/radiant-silvergun.md)
 - [`GAME-0424` — "Star Fox 64"](../games/s-z/star-fox-64.md)
 
 ## ACT-563
@@ -14571,6 +14705,7 @@ PATA PATA PATA PON наказує марширувати, а PON PON PATA PON �
 ### Ігри-носії
 
 - [`GAME-0449` — Paper Mario](../games/m-r/paper-mario.md)
+- [`GAME-0714` — "Thirsty Suitors"](../games/s-z/thirsty-suitors.md)
 
 ## ACT-593
 
@@ -15539,6 +15674,7 @@ Homing Attack Соніка проти близького робота під ч�
 
 ### Ігри-носії
 
+- [`GAME-0717` — "LocoRoco 2"](../games/g-l/locoroco-2.md)
 - [`GAME-0482` — LocoRoco](../games/g-l/locoroco.md)
 
 ## ACT-638
@@ -15560,6 +15696,7 @@ Homing Attack Соніка проти близького робота під ч�
 
 ### Ігри-носії
 
+- [`GAME-0717` — "LocoRoco 2"](../games/g-l/locoroco-2.md)
 - [`GAME-0482` — LocoRoco](../games/g-l/locoroco.md)
 
 ## ACT-639
@@ -17279,6 +17416,7 @@ Hazel розгортає сплетені крила й керує між зад
 ### Ігри-носії
 
 - [`GAME-0522` — Returnal](../games/m-r/returnal.md)
+- [`GAME-0667` — "SAROS"](../games/s-z/saros.md)
 
 ## ACT-720
 
@@ -17300,6 +17438,7 @@ Hazel розгортає сплетені крила й керує між зад
 ### Ігри-носії
 
 - [`GAME-0524` — Wave Race 64](../games/s-z/wave-race-64.md)
+- [`GAME-0674` — "Wave Race: Blue Storm"](../games/s-z/wave-race-blue-storm.md)
 
 ## ACT-721
 
@@ -17427,6 +17566,7 @@ Hazel розгортає сплетені крила й керує між зад
 ### Ігри-носії
 
 - [`GAME-0543` — Keeper](../games/g-l/keeper.md)
+- [`GAME-0684` — "REANIMAL"](../games/m-r/reanimal.md)
 - [`GAME-0531` — The Midnight Walk](../games/s-z/the-midnight-walk.md)
 
 ## ACT-727
@@ -18587,6 +18727,7 @@ SUPERHOT VR на початковому Quest: переміщення втіле
 ### Ігри-носії
 
 - [`GAME-0574` — Florence](../games/a-f/florence.md)
+- [`GAME-0698` — "Song of Bloom"](../games/s-z/song-of-bloom.md)
 
 ## ACT-782
 
@@ -18712,7 +18853,10 @@ SUPERHOT VR на початковому Quest: переміщення втіле
 
 ### Ігри-носії
 
+- [`GAME-0702` — "Escaping Wonderland"](../games/a-f/escaping-wonderland.md)
+- [`GAME-0680` — "Ghost Town"](../games/g-l/ghost-town.md)
 - [`GAME-0585` — Into the Radius](../games/g-l/into-the-radius.md)
+- [`GAME-0689` — "Shadow Point"](../games/s-z/shadow-point.md)
 
 ## ACT-788
 
@@ -18755,6 +18899,7 @@ SUPERHOT VR на початковому Quest: переміщення втіле
 ### Ігри-носії
 
 - [`GAME-0591` — Fatal Frame](../games/a-f/fatal-frame.md)
+- [`GAME-0732` — "TOEM"](../games/s-z/toem.md)
 
 ## ACT-790
 
@@ -18922,6 +19067,7 @@ SUPERHOT VR на початковому Quest: переміщення втіле
 
 ### Ігри-носії
 
+- [`GAME-0687` — "Denshattack!"](../games/a-f/denshattack.md)
 - [`GAME-0615` — "Skate Story"](../games/s-z/skate-story.md)
 - [`GAME-0599` — "Sword of the Sea"](../games/s-z/sword-of-the-sea.md)
 
@@ -19197,6 +19343,7 @@ SUPERHOT VR на початковому Quest: переміщення втіле
 ### Ігри-носії
 
 - [`GAME-0610` — "BALL x PIT"](../games/a-f/ball-x-pit.md)
+- [`GAME-0734` — "Nex Machina"](../games/m-r/nex-machina.md)
 
 ## ACT-811
 
@@ -20814,3 +20961,1349 @@ SUPERHOT VR на початковому Quest: переміщення втіле
 ### Ігри-носії
 
 - [`GAME-0666` — "Chicory: A Colorful Tale"](../games/a-f/chicory-a-colorful-tale.md)
+
+## ACT-888
+
+- Назва: Утримувати й опускати енергетичний щит навколо тіла
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Гравець утримує окрему кнопку захисту, щоб оточити керованого персонажа енергетичним полем, і відпускає її, щоб прибрати поле. Поки вистачає енергії, персонаж може рухатися з піднятим щитом.
+
+### Включає
+
+Утримувати R1 під час синього залпу Prophet і рухатися зі щитом Солтарі, а потім опустити його для атаки.
+
+### Виключає
+
+Спрямований фронтальний блок зброєю, пасивна броня, миттєве парирування або окремо поставлена стіна, що лишається на місці після руху персонажа.
+
+### Ігри-носії
+
+- [`GAME-0667` — "SAROS"](../games/s-z/saros.md)
+
+## ACT-889
+
+- Назва: Стрибок між переднім і заднім планами
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+У визначеній точці переходу гравець поєднує стрибок із напрямком углиб або назовні, щоб приземлитися на окремому шляху переднього чи заднього плану.
+
+### Включає
+
+Доступний стрибок на задній план до початкової хатини й поштової скриньки в Tomba!.
+
+### Виключає
+
+Стрибок уздовж того самого шляху, вільний рух площиною та перемикання видимого шару без переміщення персонажа.
+
+### Ігри-носії
+
+- [`GAME-0668` — "Tomba!"](../games/s-z/tomba.md)
+
+## ACT-890
+
+- Назва: Випуск вибраного предмета події в поточну сцену
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Гравець вибирає здобутий предмет події в інвентарі та окремою командою випускає його в поточній сцені, без окремого наведення на механізм чи отримувача.
+
+### Включає
+
+Вибір і підтвердження Лютого вихору (Furious Tornado) в меню Use Item біля туману в Tomba!.
+
+### Виключає
+
+Підбирання предмета, застосування ключа до окремо вибраного замка, передавання предмета отримувачеві та автоматичне застосування при вході.
+
+### Ігри-носії
+
+- [`GAME-0668` — "Tomba!"](../games/s-z/tomba.md)
+
+## ACT-891
+
+- Назва: Поворот позицій утримуваних плиток навколо персонажа
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Гравець повертає позиції утримуваних плиток відносно персонажа, а зображення на їхніх поверхнях зберігають початковий напрямок.
+
+### Включає
+
+Переміщення останньої деталі картини «Бреберн» із позиції над Вілмотом праворуч від нього перед з’єднанням.
+
+### Виключає
+
+Поворот самої деталі картини, поворот камери та переміщення плитки, яку персонаж не утримує.
+
+### Ігри-носії
+
+- [`GAME-0669` — "Wilmot Works It Out"](../games/s-z/wilmot-works-it-out.md)
+
+## ACT-892
+
+- Назва: Вибір і підтвердження місця на стіні для готової картини
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Після того як гра прийме складену на підлозі картину, гравець переходить в окремий режим розміщення на стіні, вибирає місце й підтверджує, де вона висітиме.
+
+### Включає
+
+Перенесення готової картини «Бреберн» до стіни галереї та підтвердження місця поруч із першою картиною або під нею.
+
+### Виключає
+
+Переміщення окремих плиток, завершення складання через розміщення на стіні, автоматичне розміщення й вибір орієнтації куплених меблів.
+
+### Ігри-носії
+
+- [`GAME-0669` — "Wilmot Works It Out"](../games/s-z/wilmot-works-it-out.md)
+
+## ACT-893
+
+- Назва: Підбирання навички з прив’язкою до вибраної бойової кнопки
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Гравець підходить до доступної капсули й натискає бойову кнопку, до якої хоче одразу прив’язати її навичку. Можна вибрати вже зайняту кнопку, замінивши попередню навичку.
+
+### Включає
+
+Підійти до капсули Laser, Flash Barrier або Vacuum Slash на Highway і призначити навичку на потрібну кнопку в Phantom Dust.
+
+### Виключає
+
+Автоматичне підбирання, вибір готової навички з інвентарю й редагування арсеналу між боями.
+
+### Ігри-носії
+
+- [`GAME-0670` — "Phantom Dust"](../games/m-r/phantom-dust.md)
+
+## ACT-894
+
+- Назва: Посадити доступну живу істоту на спину персонажа
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Гравець виконує дію поруч із придатною живою істотою й садовить її на спину свого персонажа. Істота пересувається разом із ним і лишається доступною для наступної взаємодії.
+
+### Включає
+
+Підхопити Glubbit хвостом, посадити його на спину Йоші й піднести до сусідньої гілки з яблуками.
+
+### Виключає
+
+Ковтання істоти для створення боєприпасів, перенесення неживого ключа чи ящика, їзду верхи або звичайне ведення супутника поруч.
+
+### Ігри-носії
+
+- [`GAME-0671` — "Yoshi and the Mysterious Book"](../games/s-z/yoshi-and-the-mysterious-book.md)
+
+## ACT-895
+
+- Назва: Підбити рухому кулю фліпером з потрібного боку
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Гравець приводить у рух закріплений фліпер вибраного боку, поки куля вже рухається. Контакт у потрібний момент змінює її напрямок залежно від траєкторії наближення й руху фліпера.
+
+### Включає
+
+Натиснути лівий або правий фліпер, коли куля при падінні досягає фліпера. Вибрати момент, щоб відправити її назад до голів.
+
+### Виключає
+
+Пуск кулі зі стартового жолоба, пряме керування кулею, пасивний відскок від борту або дистанційний удар без контакту з важелем.
+
+### Ігри-носії
+
+- [`GAME-0704` — "Alien Crush"](../games/a-f/alien-crush.md)
+- [`GAME-0672` — "Devil's Crush"](../games/a-f/devils-crush.md)
+
+## ACT-896
+
+- Назва: Коротко штовхнути стіл, щоб змістити рухому кулю
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Гравець робить окремий поштовх столу, який може відхилити вільну кулю без контакту з фліпером.
+
+### Включає
+
+Натиснути описану в посібнику кнопку II, щоб штовхнути стіл і змінити хід кулі.
+
+### Виключає
+
+Тривале нахиляння для безперервного керування тілом, рух фліпера, зміну загальної осі тяжіння або наведення окремого запуску.
+
+### Ігри-носії
+
+- [`GAME-0704` — "Alien Crush"](../games/a-f/alien-crush.md)
+- [`GAME-0672` — "Devil's Crush"](../games/a-f/devils-crush.md)
+
+## ACT-897
+
+- Назва: Закріпити один наявний кубик персонажа за дією з перевіркою навички
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Гравець вибирає наявний кубик конкретного персонажа з відомим значенням, призначає його дії з перевіркою навички й підтверджує вибір.
+
+### Включає
+
+Покласти один із наявних кубиків Серафіна в комірку дії «Зробити отвір» і підтвердити дію.
+
+### Виключає
+
+Запит на загальний кидок без розподілу, спорядження предмета в комірці або вибір завдання без призначення відомого кубика.
+
+### Ігри-носії
+
+- [`GAME-0673` — "Citizen Sleeper 2: Starward Vector"](../games/a-f/citizen-sleeper-2-starward-vector.md)
+
+## ACT-898
+
+- Назва: Підтвердити екіпаж контракту з обов’язковими й необов’язковими учасниками
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Перед вильотом на контракт гравець підтверджує склад щонайменше з одним обов’язковим учасником і може додати доступних супутників із власними кубиками дій і навичками.
+
+### Включає
+
+Залишити обов’язкового Серафіна в екіпажі й вирішити, чи брати доступну Нію на завдання «Сигнал Конвея».
+
+### Виключає
+
+Суто візуальний вибір команди, однакові взаємозамінні місця або найм учасника без власних дій.
+
+### Ігри-носії
+
+- [`GAME-0673` — "Citizen Sleeper 2: Starward Vector"](../games/a-f/citizen-sleeper-2-starward-vector.md)
+
+## ACT-899
+
+- Назва: Ввести команду трюку на воді або під час стрибка
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Гравець у заданому порядку рухає стік, іноді з натиснутою кнопкою, щоб виконати окремий трюк на воді, на трампліні або в повітрі.
+
+### Включає
+
+Ввести команду сальто під час з’їзду з трампліна або окрему команду стійки на руках, рухаючись по воді.
+
+### Виключає
+
+Звичайне кермування чи пригинання, лише повітряний трюк заради прискорення або нарахування за трюк від самого входження в кільце.
+
+### Ігри-носії
+
+- [`GAME-0674` — "Wave Race: Blue Storm"](../games/s-z/wave-race-blue-storm.md)
+
+## ACT-900
+
+- Назва: Задати початковий напрямок стрілки під час планування
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+До запуску гравець змінює позначений початковий напрямок на вже прокладеному розгалуженні, зберігаючи його геометрію.
+
+### Включає
+
+Торкнутися позначки стрілки перед станціями, щоб перший поїзд зі спільної колії рушив до червоної станції.
+
+### Виключає
+
+Малювання чи заміну самої колії, переведення стрілки під поїздом під час руху або її автоматичне перемикання після проїзду.
+
+### Ігри-носії
+
+- [`GAME-0675` — "Teeny Tiny Trains"](../games/s-z/teeny-tiny-trains.md)
+
+## ACT-901
+
+- Назва: Додати поштовх під час руху накатом
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Під час руху гравець може відштовхнутися, щоб додати ходу. Для звичайного руху накатом не потрібно утримувати кнопку прискорення.
+
+### Включає
+
+На спуску натиснути Y, щоб відштовхнутися. Для кермування й трюків є окремі команди.
+
+### Виключає
+
+Зміну темпу всієї симуляції, витрату запасу нітро, утримання звичайного акселератора або вибір напрямку.
+
+### Ігри-носії
+
+- [`GAME-0676` — "Mixtape"](../games/m-r/mixtape.md)
+
+## ACT-902
+
+- Назва: Обрати окремий трюк на скейтборді під час руху
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Під час руху гравець вибирає команду трюку. Окремі команди запускають звичайний стрибок, обертання дошки чи захват. Після трюку можна далі їхати.
+
+### Включає
+
+Зробити оллі кнопкою A, коли наближається авто, або на вільній ділянці обрати окрему команду фліпу чи ґребу.
+
+### Виключає
+
+Кермування й поштовх, автоматичний трюк біля декорації, тривалий баланс на колесах або розворот дошки для продовження серії з підрахунком очок.
+
+### Ігри-носії
+
+- [`GAME-0676` — "Mixtape"](../games/m-r/mixtape.md)
+
+## ACT-903
+
+- Назва: Захопити енергетичний ключ на відстані й спрямувати його в гніздо
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+У відповідному режимі огляду гравець здобутим знаряддям захоплює доступний енергетичний ключ. Утримуючи його на відстані, гравець наводиться й відпускає ключ у бік вибраного гнізда.
+
+### Включає
+
+У психічному візорі затиснути ZL, щоб захопити енергетичну сферу, навестися на сумісне гніздо й відпустити сферу в його бік.
+
+### Виключає
+
+Піднести ключ до замка упритул, завершити утримуване сканування, перемістити закріплений вузол напрямною або керувати вже випущеним променем.
+
+### Ігри-носії
+
+- [`GAME-0678` — "Metroid Prime 4: Beyond"](../games/m-r/metroid-prime-4-beyond.md)
+
+## ACT-904
+
+- Назва: Утримувати прискорення на підході до придатної поверхні
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Безпосередньо керуючи персонажем, гравець утримує кнопку прискорення на підході до придатної вигнутої чи крутої поверхні. Команду можна подати під час руху в обраному напрямку.
+
+### Включає
+
+Утримувати прискорення на підході до вигнутої рампи, щоб Сонік набрав швидкість для проходження дугою.
+
+### Виключає
+
+Автоматичне прискорення від контакту з трасою, звичайний стрибок, прискорення машини залежно від нагріву двигуна чи твердження про точний час утримання.
+
+### Ігри-носії
+
+- [`GAME-0682` — "Sonic Dream Team"](../games/s-z/sonic-dream-team.md)
+
+## ACT-905
+
+- Назва: Повертати диск у вибраному напрямку до цифри під покажчиком
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+У наближеному вигляді механізму веди стилусом по колу, щоб повернути диск у вибраному напрямку й підвести цифру під нерухомий покажчик. Якщо потрібен ще один оберт, продовжуй рух повз ті самі позначки.
+
+### Включає
+
+Оберни диск поштової скриньки проти годинникової стрілки від першого суміщення із сімкою, доки сімка знову не опиниться під покажчиком.
+
+### Виключає
+
+Введення числа, натискання окремих кнопок, поворот ключа чи вільне обертання окремої деталі для суміщення з її місцем.
+
+### Ігри-носії
+
+- [`GAME-0683` — "Last Window: The Secret of Cape West"](../games/g-l/last-window-the-secret-of-cape-west.md)
+
+## ACT-906
+
+- Назва: Розмістити здобуті меблі з колекції в режимі редагування
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Вибери вже здобутий предмет із колекції меблів і постав його в кімнаті. У режимі редагування можна взяти й пересунути предмет, перш ніж повернутися до звичайного керування в кімнаті.
+
+### Включає
+
+Вибери простий стілець, отриманий за першу сітку, постав його на підлогу, а потім візьми й пересунь на іншу клітинку в режимі редагування.
+
+### Виключає
+
+Купівля й розміщення меблів за плату, автоматичне встановлення сюжетного предмета, використання стільця поза режимом редагування або попередній перегляд без фактичного розміщення.
+
+### Ігри-носії
+
+- [`GAME-0685` — "Squeakross: Home Squeak Home"](../games/s-z/squeakross-home-squeak-home.md)
+
+## ACT-907
+
+- Назва: Скласти й виконати команду з дієслова та назв предметів
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Вибери показане дієслово й додай до підготовленої команди потрібні назви об’єктів зі сцени або спорядження. Підтвердь готову команду, щоб її виконати. Службові слова, наприклад прийменник для знаряддя, підставляє інтерфейс.
+
+### Включає
+
+Вибери команду відмикання, вкажи на вхідні двері, додай ключ зі спорядження й підтвердь готову команду.
+
+### Виключає
+
+Введення довільного тексту, тривале утримання одного режиму інструмента, негайне виконання однієї команди з меню або саме лише наведення на названий предмет.
+
+### Ігри-носії
+
+- [`GAME-0686` — "Maniac Mansion"](../games/m-r/maniac-mansion.md)
+
+## ACT-908
+
+- Назва: Перестрибнути на сусідню колію
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Поки керований вагон у повітрі, вибери доступну сусідню колію збоку й спрямуй вагон до неї перед приземленням. Після вдалого переходу вагон їде далі новою колією.
+
+### Включає
+
+Стрибни між коліями в ущелині, спрямуй вагон до сусідньої колії й приземлися на неї.
+
+### Виключає
+
+Вибір гілки на розвилці під час руху рейками, зміна колії без відриву коліс, саме лише обертання вагона в повітрі або автоматичний проїзд без вибору сусідньої колії.
+
+### Ігри-носії
+
+- [`GAME-0687` — "Denshattack!"](../games/a-f/denshattack.md)
+
+## ACT-909
+
+- Назва: Вчасно почати занос на позначеному повороті колії
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Коли вагон наближається до позначеного повороту, увімкни занос для цього повороту. За вдалий момент початку гра може окремо зарахувати чистий занос, поки вагон проходить вигин своєю колією.
+
+### Включає
+
+На позначеному повороті виконай занос і перевір позначку вдалого виконання або поступ додаткового завдання.
+
+### Виключає
+
+Вільне кермування на дорожньому повороті, накопичення ступенів заряду з винагородою після відпускання, зміна колії або утримання вагона на одній парі коліс після стрибка.
+
+### Ігри-носії
+
+- [`GAME-0687` — "Denshattack!"](../games/a-f/denshattack.md)
+
+## ACT-910
+
+- Назва: Накопичити обертання на місці й відпустити для ривка
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Поки персонаж стоїть на опорі, утримуй напрямок присідання й натисни кнопку обертання. Персонаж готує обертання на місці. Коли відпустиш напрямок присідання, персонаж різко покотиться в бік, куди повернений.
+
+### Включає
+
+За звичайного керування Соніком утримуй «вниз» і натисни A, щоб підготувати ривок з обертанням на місці. Відпусти «вниз», щоб покотитися з цієї точки.
+
+### Виключає
+
+Перехід у перекат із уже набраною швидкістю, стрибок із місця, відпускання кнопки стрибка, автоматичний підкид пружиною або приписування точної швидкості певній кількості обертань.
+
+### Ігри-носії
+
+- [`GAME-0690` — "Sonic Advance"](../games/s-z/sonic-advance.md)
+
+## ACT-911
+
+- Назва: Захопити придатного ворога прямим влучанням короткого імпульсу
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Спрямуй короткий імпульс у придатного активного ворога. Після прямого влучання ворог переходить у стан захоплення: персонаж несе його із собою й може відпустити окремою дією.
+
+### Включає
+
+У Klonoa 2 вітряний снаряд надуває звичайного Му й підіймає його над Клоноа біля першого навчального уступу.
+
+### Виключає
+
+Підбирання нерухомого предмета дотиком, захоплення істоти до постійного складу, прив’язування скопійованої сили до кнопки або удар, що усуває ворога без захоплення.
+
+### Ігри-носії
+
+- [`GAME-0692` — "Klonoa 2: Lunatea's Veil"](../games/g-l/klonoa-2-lunateas-veil.md)
+
+## ACT-912
+
+- Назва: Підняти плитку попереду в порожній жезл
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Перебуваючи на твердій підлозі, спрямуй порожній жезл на досяжну звичайну плитку попереду й підніми її. Тепер її можна перенести на інше місце.
+
+### Включає
+
+На поверсі B002 у Void Stranger Ґрей піднімає звичайну плитку безпосередньо перед собою за допомогою початкового Жезла Порожнечі.
+
+### Виключає
+
+Видобування матеріалу з блоку, збирання вільного предмета, зсування плитки безпосередньо в сусідню порожню клітинку або укладання вже захопленої плитки.
+
+### Ігри-носії
+
+- [`GAME-0693` — "Void Stranger"](../games/s-z/void-stranger.md)
+
+## ACT-913
+
+- Назва: Підтвердити продаж усієї партії руди за показаною ціною
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+На придатному пункті збуту гравець одним підтвердженням продає показану партію. Кількість проданої руди списується з рюкзака, а до балансу додається загальна сума за всіма видами.
+
+### Включає
+
+Комп’ютер у майстерні в A Game About Digging A Hole об’єднує два камені й одну одиницю вугілля в один продаж на чотири долари.
+
+### Виключає
+
+Продаж одного окремо вибраного предмета, автоматичне зарахування вільного мінералу при дотику до приймача або автоматична оплата за руду під час виходу на поверхню.
+
+### Ігри-носії
+
+- [`GAME-0694` — "A Game About Digging A Hole"](../games/a-f/a-game-about-digging-a-hole.md)
+
+## ACT-914
+
+- Назва: Обрати форму удару розбігом і стрибком
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Гравець натискає звичайну кнопку атаки, рухаючись зі спорядженою зброєю ближнього бою. Розбіг, стрибок або їх поєднання дають різні удари, які відрізняються від удару з місця переміщенням і зоною дії.
+
+### Включає
+
+У Terranigma Арк тією самою командою атаки й тим самим списом завдає удару з розбігу, обертового удару в стрибку або ковзного удару після стрибка з розбігу.
+
+### Виключає
+
+Заміна спорядження, перехід в окрему бойову стійку, автоматичне наведення на ціль або стрибок, який не визначає форму удару.
+
+### Ігри-носії
+
+- [`GAME-0695` — "Terranigma"](../games/s-z/terranigma.md)
+
+## ACT-915
+
+- Назва: Обрати попереднє проходження джерелом умов поточної сцени
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Коли гра пропонує вибрати, за ким іти, гравець обирає придатний збережений запис проходження й підтверджує його як джерело успадкованих умов сцени. Обране джерело можна розпізнати під час дій у новому проходженні.
+
+### Включає
+
+Перед першою сценою порятунку з Нахе в Tides of Tomorrow меню вибору дає змогу підтвердити запис іншого завершеного або ще незавершеного проходження.
+
+### Виключає
+
+Вибір анонімного початкового коду місцевості, приєднання до спільної гри в реальному часі, завантаження власної контрольної точки або отримання випадкового запису без вибору.
+
+### Ігри-носії
+
+- [`GAME-0696` — "Tides of Tomorrow"](../games/s-z/tides-of-tomorrow.md)
+
+## ACT-916
+
+- Назва: Відкрити місцевий відгомін обраного попередника
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+За відповідної підказки в поточній сцені гравець сам вмикає режим спостереження. Він показує дії з обраного попереднього проходження. Роль і запаси поточного гравця зберігаються.
+
+### Включає
+
+На човні Нахе в Tides of Tomorrow команда припливів часу показує попереднього мандрівника в місці, яке згодом може зайняти теперішній герой.
+
+### Виключає
+
+Керування попереднім персонажем, обернення часу поточного проходження, автоматичний рух героя маршрутом або письмовий переказ, якого не можна переглянути на місці.
+
+### Ігри-носії
+
+- [`GAME-0696` — "Tides of Tomorrow"](../games/s-z/tides-of-tomorrow.md)
+
+## ACT-917
+
+- Назва: Викликати атаку комбінацією базових кнопок
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Під час польоту гравець натискає одну кнопку вогню, визначене поєднання кнопок або окрему кнопку, що його замінює. Команда одразу викликає відповідну атаку, без попереднього вибору спорядження.
+
+### Включає
+
+У Radiant Silvergun поєднання двох із трьох кнопок вогню може дати самонавідну плазму, віяло назад із пострілом уперед або атаку по кількох цілях. Усі три разом викликають меч.
+
+### Виключає
+
+Прокручування списку зброї, постріл після зміни спорядження в меню, вибір режиму за контекстною підказкою або одночасний вогонь із двох незалежних гармат.
+
+### Ігри-носії
+
+- [`GAME-0697` — "Radiant Silvergun"](../games/m-r/radiant-silvergun.md)
+
+## ACT-918
+
+- Назва: Намалювати позначку на відповідній ілюстрації сюжету
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Гравець відтворює підказану позначку на відповідному зображенні в сюжеті. Жест стосується конкретної деталі зображення. Коли гра його розпізнає, відкривається пов’язана інтерактивна сцена без окремої команди підтвердження.
+
+### Включає
+
+У Song of Bloom відтвори червоне коло з підказки бутона на вершині крейдяної гори, щоб перейти до пейзажу.
+
+### Виключає
+
+Обведення відповіді з окремим підтвердженням, пересування окремої деталі, декоративне малювання або застосування вивченого засобу зміни світу в іншому режимі.
+
+### Ігри-носії
+
+- [`GAME-0698` — "Song of Bloom"](../games/s-z/song-of-bloom.md)
+
+## ACT-919
+
+- Назва: Утримувати вузол поступу, щоб переглянути його підказку
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Гравець торкається вузла на спільному екрані поступу й утримує дотик, щоб переглянути підказку для пов’язаного маршруту. Перегляд не зараховує проходження вузла.
+
+### Включає
+
+У Song of Bloom утримання першого бутона показує гору з червоною позначкою до того, як цей бутон розквітне.
+
+### Виключає
+
+Оплата нового рівня підказки, підбирання підказки до запасу, обертання фізичного доказу або активація вузла для завершення маршруту.
+
+### Ігри-носії
+
+- [`GAME-0698` — "Song of Bloom"](../games/s-z/song-of-bloom.md)
+
+## ACT-920
+
+- Назва: Оглянути кандидата у світі й вибрати спосіб прийняття до загону
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Гравець взаємодіє з місцем, де перебуває конкретний кандидат, і відкриває його картку. Можна вибрати один із доступних способів прийняття цього кандидата або закрити картку, залишивши місце в загоні вільним.
+
+### Включає
+
+У Dungeon Master натисни на дзеркало чемпіона й вибери воскресіння або перевтілення. Огляд можна скасувати й продовжити пошук.
+
+### Виключає
+
+Загальний редактор складу, купівля взаємозамінного бійця, перенесення вже активного персонажа або вибір репліки, що не змінює склад загону.
+
+### Ігри-носії
+
+- [`GAME-0699` — "Dungeon Master"](../games/a-f/dungeon-master.md)
+
+## ACT-921
+
+- Назва: Задати силу запуску кулі, утримуючи кнопку пружинного плунжера
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Поки куля чекає в пусковій доріжці, утримуй кнопку плунжера. Це визначає стиск пружини й силу початкового поштовху. Після запуску куля рухається столом і відскакує від перешкод.
+
+### Включає
+
+В Alien Crush утримання кнопки I на TurboPad стискає пружину для запуску з правої доріжки нижньої частини столу.
+
+### Виключає
+
+Удар фліпером по кулі в русі, пряме керування кулею після запуску, вибір готового типу подачі або заряджання атаки без підготовленої кулі й пружини.
+
+### Ігри-носії
+
+- [`GAME-0704` — "Alien Crush"](../games/a-f/alien-crush.md)
+
+## ACT-922
+
+- Назва: Позначити категорію розбіжності в акті незавершеної перевірки
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+До рішення у справі гравець позначає ймовірну розбіжність у відповідній категорії окремого акта. Позначка існує окремо від результату звіряння двох фактів і від остаточного рішення.
+
+### Включає
+
+У Contraband Police познач ймовірну проблему зі строком дії або фотографією в акті перевірки, перш ніж поставити штамп у паспорті.
+
+### Виключає
+
+Виділення двох фактів, позначення відповідних деталей безпосередньо на обох документах, автоматична позначка після звіряння або остаточний штамп.
+
+### Ігри-носії
+
+- [`GAME-0705` — "Contraband Police"](../games/a-f/contraband-police.md)
+
+## ACT-923
+
+- Назва: Повернути напрям руху на чверть оберту на місці
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+На поточній опорі гравець повертає напрям руху ліворуч або праворуч на 90 градусів і лишається на тій самій клітинці. Наступна команда руху вперед використовує цей напрям у площині опори.
+
+### Включає
+
+У Kula World зроби один поворот на кам’яній грані, щоб спрямувати наступний перекат або підкотитися до стінки.
+
+### Виключає
+
+Рух боком незалежно від напряму, миттєвий крок у вибраний бік, окрема команда розвороту на 180 градусів, поворот лише камери або поворот із закріпленим інструментом, який при цьому зачіпає предмети.
+
+### Ігри-носії
+
+- [`GAME-0706` — "Kula World"](../games/g-l/kula-world.md)
+
+## ACT-924
+
+- Назва: Поставити виділену нерухому зброю всередині визнаного укріплення
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Під час окремої фази розміщення гравець обирає дозволене місце всередині вже визнаного укріплення й ставить туди одну виділену нерухому одиницю зброї. Вона лишається на цьому місці в наступному бою.
+
+### Включає
+
+У Rampart гравець ставить одну з виділених гармат на вільне місце всередині синьої ділянки перед боєм.
+
+### Виключає
+
+Наказ рухатися вже розгорнутому бійцю, укладання частини муру, підбирання переносної зброї або вибір нової споруди з меню покупок.
+
+### Ігри-носії
+
+- [`GAME-0708` — "Rampart"](../games/m-r/rampart.md)
+
+## ACT-925
+
+- Назва: Окремо підняти, спрямувати й опустити обрану стопу
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Гравець утримує кнопку підйому обраної стопи, спрямовує підняту стопу й відпускає кнопку, щоб опустити її. Друга стопа може лишатися на землі, поки гравець обирає нову опору.
+
+### Включає
+
+У Baby Steps на PS5 утримуй L2 для лівої стопи або R2 для правої, скоригуй положення піднятої стопи лівим стіком і відпусти відповідний курок.
+
+### Виключає
+
+Автоматичний крок лише за напрямом руху, одночасний стрибок двома ногами або вибір кінцівки, щоб ухопитися за виступ під час лазіння.
+
+### Ігри-носії
+
+- [`GAME-0709` — "Baby Steps"](../games/a-f/baby-steps.md)
+
+## ACT-926
+
+- Назва: Задати гравітацію й кількість кіл для наступного заїзду
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Перед стартом на поточній трасі гравець обирає гравітацію для всього заїзду й потрібну кількість кіл. Обидва параметри діють у наступному заїзді без редагування окремих секцій дороги.
+
+### Включає
+
+У Racing Destruction Set у меню видно земну гравітацію, а перед зафіксованим одиночним заїздом кількість кіл змінюється з двох до трьох.
+
+### Виключає
+
+Зміна напряму гравітації під час гри, збільшення ліміту часу, заміна двигуна автомобіля або задання ухилу одній секції траси.
+
+### Ігри-носії
+
+- [`GAME-0710` — "Racing Destruction Set"](../games/m-r/racing-destruction-set.md)
+
+## ACT-927
+
+- Назва: Поставити або змінити багаторазову секцію дороги в редакторі
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+У редакторі гравець обирає доступну секцію для певного місця на мапі, може змінити дозволений профіль чи покриття та ставить її на поточній трасі або замінює наявну секцію.
+
+### Включає
+
+У Racing Destruction Set обери трамплін із набору деталей, за потреби скоригуй його висоту й ширину та постав поруч із сусідніми секціями.
+
+### Виключає
+
+Витрачання унікальних деталей з обмеженого запасу, малювання дороги суцільною лінією, водіння на вже готовій секції або купівля цілої траси.
+
+### Ігри-носії
+
+- [`GAME-0710` — "Racing Destruction Set"](../games/m-r/racing-destruction-set.md)
+
+## ACT-928
+
+- Назва: Ударом задати напрям кулі, яка вже в грі
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Рухомий боєць наближається до кулі, яка вже в грі. Під час удару він задає їй вихідний напрям. Та сама куля продовжує рух.
+
+### Включає
+
+У Firestriker Слейдер підходить до Тріалайта, утримує потрібний напрям і натискає A або B, щоб спрямувати кулю через трав’яну арену.
+
+### Виключає
+
+Випускання нового снаряда, вибір кута на нерухомому пусковому пристрої, пасивний контакт із відбивачем або натискання закріпленої лапки пінболу.
+
+### Ігри-носії
+
+- [`GAME-0713` — "Firestriker"](../games/a-f/firestriker.md)
+
+## ACT-929
+
+- Назва: Рухати нижнього захисника окремо від основного бійця
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Під час одиночної гри окремі команди пересувають захисника нижньою лінією. Гравець при цьому зберігає керування основним бійцем. Команда руху сама по собі не відбиває кулю.
+
+### Включає
+
+У Firestriker кнопка L рухає Вейна ліворуч, а R — праворуч уздовж нижньої перепони незалежно від Слейдера.
+
+### Виключає
+
+Перемикання активного персонажа, поворот нерухомої лапки пінболу, рух єдиного відбивача або безпосереднє наведення кулі захисником.
+
+### Ігри-носії
+
+- [`GAME-0713` — "Firestriker"](../games/a-f/firestriker.md)
+
+## ACT-930
+
+- Назва: Обрати платну провокацію для певного настрою суперника
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Обери команду з указаним настроєм і застосуй її до доступного суперника за вказану витрату бойового ресурсу. Під час виконання провокація намагається викликати цей настрій. Результат залежить від вразливості цілі.
+
+### Включає
+
+У Thirsty Suitors Джала обирає провокацію, що викликає жагу, проти Серджіо в закусочній. У його внутрішньому світі вона обирає провокацію, що викликає лють.
+
+### Виключає
+
+Вибір репліки сам по собі, зміна власної стійки нападника, перетягування уваги ворога захисною провокацією або настрій як побічний ефект удару.
+
+### Ігри-носії
+
+- [`GAME-0714` — "Thirsty Suitors"](../games/s-z/thirsty-suitors.md)
+
+## ACT-931
+
+- Назва: Запустити падіння ряду спрямованим поштовхом
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Підведи героя в позицію для поштовху між вертикальними кісточками або поруч із ними. Задай напрям поштовху, щоб повалити сусідню кісточку.
+
+### Включає
+
+На першій платформі Pushover мураха займає позицію на лівому кінці готового ряду й штовхає першу звичайну кісточку праворуч.
+
+### Виключає
+
+Зіткнення з кісточкою під час ходьби, пересування вертикального предмета на одну клітинку, перенесення кісточки або окреме повалення кожної наступної кісточки.
+
+### Ігри-носії
+
+- [`GAME-0715` — "Pushover"](../games/m-r/pushover.md)
+
+## ACT-932
+
+- Назва: Повернути зону дії споруди перед встановленням
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Зміни напрям зони дії споруди, поки її встановлення ще не підтверджено. У тому самому місці споруда може охопити інші ділянки місцевості.
+
+### Включає
+
+У Terra Nil під час наведення зрошувача на очищений ґрунт видно команду повороту й спрямовану зону дії.
+
+### Виключає
+
+Поворот камери, поворот твердої деталі для вміщення в ємність, рух курсора без зміни напряму або поворот ручного розпилювача.
+
+### Ігри-носії
+
+- [`GAME-0716` — "Terra Nil"](../games/s-z/terra-nil.md)
+
+## ACT-933
+
+- Назва: Вчасно натискати одну кнопку під час місцевого хору
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Коли почнеться місцевий хор, натискай ту саму кнопку за наступними підказками. Кожне нове натискання відповідає на одну підказку без вибору напряму, смуги нот чи іншої дії.
+
+### Включає
+
+У Franzea 1 муймуй підказує натискати «Коло» вчасно, поки символи нот рухаються навколо сцени.
+
+### Виключає
+
+Очікування початку співу, натискання для поділу на маршруті, вибір між кількома кнопками інструмента або одне натискання наприкінці вступу.
+
+### Ігри-носії
+
+- [`GAME-0717` — "LocoRoco 2"](../games/g-l/locoroco-2.md)
+
+## ACT-934
+
+- Назва: Позначити ймовірне місце за ескізом маршруту з вершини
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+З доступної оглядової точки обери уривок мапи, наведися на ймовірне місце й постав, перенеси або прибери його позначку. Так ти записуєш здогад перед тим, як іти до місця.
+
+### Включає
+
+На вершині The Bald Edge в A Highland Song обери ескіз східного берега, впізнай скелю у формі зуба й познач місце поруч із нею.
+
+### Виключає
+
+Ланцюжок сполучених позначок, поворот фрагмента для з’єднання мапи, вибір місця автоматичного переходу або підтвердження уривка безпосередньо на місці.
+
+### Ігри-носії
+
+- [`GAME-0718` — "A Highland Song"](../games/a-f/a-highland-song.md)
+
+## ACT-935
+
+- Назва: Обрати або відкликати самостійного супутника під час проходження
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Під час проходження відкрий вибір супутника. Переглянь доступних істот або варіант без супутника й підтвердь вибір. Потім знову керуй основним персонажем із вибраною підтримкою.
+
+### Включає
+
+У лісі в Alisia Dragoon меню дає змінити Дракона Фрая на Громового крука. Гравець і далі керує Алісією.
+
+### Виключає
+
+Вимушена заміна бійця під прямими командами, наказ супутнику виконати конкретну атаку, кидок супутника в обрану точку або перемикання між персонажами під прямим керуванням.
+
+### Ігри-носії
+
+- [`GAME-0719` — "Alisia Dragoon"](../games/a-f/alisia-dragoon.md)
+
+## ACT-936
+
+- Назва: Утримувати кнопку, щоб прискорити плавання в новій формі
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Під водою утримуй призначену кнопку прискорення, коли активна форма підтримує вільне плавання. Під час прискорення можна й далі обирати напрям.
+
+### Включає
+
+У затоці Бобів Кадзе в масці акули пливе під кам’яним виступом. У записі з позначкою Xbox підказка пропонує утримувати A для прискорення.
+
+### Виключає
+
+Окремий ривок-атака, короткий поштовх течії, зміна форми від перетину поверхні води або запас кисню.
+
+### Ігри-носії
+
+- [`GAME-0720` — "Kaze and the Wild Masks"](../games/g-l/kaze-and-the-wild-masks.md)
+
+## ACT-937
+
+- Назва: Повернути всю модель, щоб оглянути її з іншого боку
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Коли вибрано весь предмет, поверни його цілком. Розташування, поворот і розмір частин відносно одна одної зберігаються. Потім можна знову вибрати окрему частину.
+
+### Включає
+
+У The Shape of Things поверни розібраний компас цілком, а потім кнопкою вибору перейди до окремої частини.
+
+### Виключає
+
+Поворот однієї частини відносно сусідніх, зміна допустимості дій через ракурс або перетворення зображення на фізичний об’єкт.
+
+### Ігри-носії
+
+- [`GAME-0721` — "The Shape of Things"](../games/s-z/the-shape-of-things.md)
+
+## ACT-938
+
+- Назва: Змінити вибрану частину способом, заданим головоломкою
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Вибери одну частину поточного предмета й змінюй її окремо від сусідніх. Від головоломки залежить, чи команда повертає частину, зсуває її або змінює розмір.
+
+### Включає
+
+У The Shape of Things частини компаса повертаються, частини шишки зсуваються, а частини рюкзака змінюють розмір. Рух праворуч або ліворуч діє на вибрану частину.
+
+### Виключає
+
+Довільне розміщення вільних деталей, поворот усього предмета для огляду, вибір будь-якого способу з меню або одночасне застосування всіх перетворень.
+
+### Ігри-носії
+
+- [`GAME-0721` — "The Shape of Things"](../games/s-z/the-shape-of-things.md)
+
+## ACT-939
+
+- Назва: Прицілитися й випустити залп із поточної точки вгорі шахти
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Гравець веде пальцем, щоб вибрати напрям від поточної точки пуску вгорі шахти. Коли він відпускає палець, усі кульки цього залпу вилітають в обраному напрямку. Кількість кульок у залпі й запас залпів рахуються окремо.
+
+### Включає
+
+У holedown наведи лінію на бічну стіну та відпусти палець. Усі кульки залпу летять у вибраному напрямку, навіть якщо на початку доступна лише одна.
+
+### Виключає
+
+Керування відбивною платформою, окремий напрям для кожної кульки, керування кулькою в польоті або вибір сили пострілу з рогатки.
+
+### Ігри-носії
+
+- [`GAME-0723` — "holedown"](../games/g-l/holedown.md)
+
+## ACT-940
+
+- Назва: Натискати кнопку вчасно за позицією ноти на вибраній доріжці
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Коли нота на вибраній доріжці доходить до лінії зчитування, гравець натискає кнопку для її позиції. Перехід на іншу доріжку змінює доступні ноти, а пісня продовжує йти в тому самому темпі.
+
+### Включає
+
+У Frequency використовуй L1, R1, R2 або відповідні кнопки на лицьовій панелі для лівої, середньої й правої нот. Щоб зіграти ноти іншого інструмента, спочатку перейди на його доріжку.
+
+### Виключає
+
+Окреме затискання ладу й удар по струнах, натискання для ноти на іншій доріжці або вільна гра без заданого моменту.
+
+### Ігри-носії
+
+- [`GAME-0724` — "Frequency"](../games/a-f/frequency.md)
+
+## ACT-941
+
+- Назва: Замкнути контур і створити захисну оболонку навколо вантажу
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+У режимі малювання обведи придатний вантаж замкненим контуром. Після замикання з’явиться рухома оболонка з умістом, яку можна спрямовувати окремо.
+
+### Включає
+
+Утримуй кнопку малювання й обведи сімох духів біля першого небесного каменя у Tir Tairngire в Soul Bubbles.
+
+### Виключає
+
+Вибір наявного носія, прокладання дороги для іншого персонажа, обведення цілей без створення нового тіла й захоплення бульбашкою, яка сама піднімається після дотику.
+
+### Ігри-носії
+
+- [`GAME-0726` — "Soul Bubbles"](../games/s-z/soul-bubbles.md)
+
+## ACT-942
+
+- Назва: Провести крізь бульбашку, щоб спрямувати на неї потік повітря
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Проведи стилусом крізь бульбашку в потрібний бік. Довший рух штовхне сильніше, а бульбашка далі рухатиметься під дією потоку.
+
+### Включає
+
+Звичайними рухами стилуса штовхай бульбашку з духами лісовим проходом Tir Tairngire до Куба-брами в Soul Bubbles.
+
+### Виключає
+
+Перетягування за вказівником, поштовх на фіксованій сітці, постійний вітер у середовищі й керування видихом у мікрофон.
+
+### Ігри-носії
+
+- [`GAME-0726` — "Soul Bubbles"](../games/s-z/soul-bubbles.md)
+
+## ACT-943
+
+- Назва: Розділити бульбашку чи з’єднати дотичні бульбашки рухом стилуса
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Утримуй той самий режим редагування. Розітни одну бульбашку рухом упоперек або проведи від центра однієї дотичної бульбашки до центра іншої, щоб з’єднати їх. Отримані бульбашки далі можна спрямовувати.
+
+### Включає
+
+Підказка маски тигра й окремі бульбашки після розрізу біля тісного проходу в Tir Tairngire 1.
+
+### Виключає
+
+Звичайний потік повітря, перерізання нерухомої мотузки, автоматичне злиття при дотику й копіювання без поділу наявної оболонки.
+
+### Ігри-носії
+
+- [`GAME-0726` — "Soul Bubbles"](../games/s-z/soul-bubbles.md)
+
+## ACT-944
+
+- Назва: Утримувати дотик у режимі здування, щоб зменшити бульбашку
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Увімкни режим здування й утримуй стилус усередині бульбашки. Відпусти, щоб зупинитися на потрібному розмірі. Якщо тримати далі, оболонка лусне.
+
+### Включає
+
+У першій вправі зі здування в Tir Tairngire маска слона допомагає зменшити бульбашку з духами, щоб провести її крізь вузький прохід.
+
+### Виключає
+
+Пасивне розтягування об стіну, поділ оболонки, перемикання між готовими розмірами та зменшення через пряме пошкодження вмісту.
+
+### Ігри-носії
+
+- [`GAME-0726` — "Soul Bubbles"](../games/s-z/soul-bubbles.md)
+
+## ACT-945
+
+- Назва: Затягнути наживлений гвинт окремим ручним інструментом
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Приклади викрутку до наживленого гвинта. Користуйся нею, доки гвинт не заглибиться в кріплення. Самого встановлення гвинта в отвір для цього замало.
+
+### Включає
+
+У Familiar з Miniatures встав два гвинти в отвори кріпильної планки й затягни їх викруткою врівень із поверхнею.
+
+### Виключає
+
+Перетягування гвинта одразу в остаточне положення, забивання штифта, повертання всієї конструкції й декоративне знаряддя, яке не застосовують до кріплення.
+
+### Ігри-носії
+
+- [`GAME-0727` — "Miniatures"](../games/m-r/miniatures.md)
+
+## ACT-946
+
+- Назва: Утримувати тягу й спрямовувати мех у польоті
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Утримуй кнопку польоту, щоб рушії підіймали мех, і спрямовуй його вбік у межах проходу. За потреби відпусти кнопку й натисни знову, щоб змінити підйом і пройти між перешкодами.
+
+### Включає
+
+У Rescue at Axis 5 утримуй B, щоб підняти Nitro шахтою станції. Відпускай і натискай кнопку знову, коли треба скоригувати політ між платформами.
+
+### Виключає
+
+Окремий стрибок або короткий ривок, вибір точки призначення, перемикання постійного режиму польоту й припущення, що всі мехи літають однаково.
+
+### Ігри-носії
+
+- [`GAME-0728` — "Metal Warriors"](../games/m-r/metal-warriors.md)
+
+## ACT-947
+
+- Назва: Перетягнути предмет на інше місце в упорядкованому ряду
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Вибери рухомий предмет, перетягни його з поточного місця до проміжку між іншими предметами ряду й постав. Предмети між старим і новим місцем посунуться без окремої дії для кожного.
+
+### Включає
+
+У головоломці з першою полицею перетягни найвищу книжку із середини на лівий край. Книжки між цими місцями посунуться, зберігаючи відносний порядок.
+
+### Виключає
+
+Обмін двох предметів місцями, зміна текстового значення у фіксованій позиції, переміщення всього ряду разом і вільне розміщення предмета без вибору його місця в порядку.
+
+### Ігри-носії
+
+- [`GAME-0730` — "A Little to the Left"](../games/a-f/a-little-to-the-left.md)
+
+## ACT-948
+
+- Назва: Спрямовувати заклинання на клітинку за напрямком і позою
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Скеруй заклинання на клітинку, до якої можна дістати на певній відстані від керованого персонажа. Напрямок визначає бік, а поза змінює розташування цілі. Під час стрибка в межі дії може потрапити інша клітинка.
+
+### Включає
+
+У Solomon’s Key кнопка A спрямовує заклинання вперед, коли Дана стоїть, або нижче, коли він присідає. Під час стрибка можна дістати клітинку на іншій висоті.
+
+### Виключає
+
+Довільний вибір віддаленої клітинки, взаємодія лише з наявним перемикачем, рух проходом або сама зміна заповненості цільової клітинки.
+
+### Ігри-носії
+
+- [`GAME-0733` — "Solomon's Key"](../games/s-z/solomons-key.md)
+
+## ACT-949
+
+- Назва: Вибирати малюнок порядком напрямків у графіті
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Під час роботи з позначеною поверхнею гравець веде вказівник через допустимі точки у вибраному порядку. Прийнята послідовність визначає новий малюнок. Різні допустимі послідовності можуть давати різні малюнки в тому самому місці.
+
+### Включає
+
+На першій стіні пагорба Версум з’єднай показані точки стіком Xbox. Під час повторної спроби вибери інший порядок, щоб нанести на цю стіну інший малюнок.
+
+### Виключає
+
+Виконання єдиної заданої послідовності для перевірки вводу, нанесення заздалегідь вибраної наліпки однією кнопкою, довільне малювання пікселів і повторне зарахування репутації за місце.
+
+### Ігри-носії
+
+- [`GAME-0736` — "Bomb Rush Cyberfunk"](../games/a-f/bomb-rush-cyberfunk.md)
+
+## ACT-950
+
+- Назва: Братися за грань блока й змінювати глибину висування
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Гравець береться за доступну грань блока й штовхає чи тягне його вздовж сталої осі. Кожне завершене зміщення переводить той самий блок у сусіднє положення за глибиною. Висота й форма блока зберігаються.
+
+### Включає
+
+В уроці 3 Pullblox візьмися за нижній помаранчевий блок і кілька разів відступи з ним. Потім стрибни на відкриту сходинку, щоб дістатися наступного блока.
+
+### Виключає
+
+Вільне пересування ящика за двома осями, зміна ракурсу незмінної стіни, видовження одного краю без зміщення передньої грані й підйом нерухомими сходами.
+
+### Ігри-носії
+
+- [`GAME-0737` — "Pullblox"](../games/m-r/pullblox.md)
+
+## ACT-951
+
+- Назва: Спрямовувати й виконувати стрибок між придатними опорами
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Закріпившись на придатній опорі, гравець наводиться на допустиму точку приземлення на іншій поверхні й відпускає керування рухом, щоб стрибнути. Так можна цілитися в доступну опору на підлозі, стелі чи стіні.
+
+### Включає
+
+У Порожнечі в Dandara наведися керуванням стрибка з початкової смуги на підлозі на смугу на стелі й відпусти. З нової опори спрямуй наступний стрибок униз, до іншої смуги на підлозі.
+
+### Виключає
+
+Вільний стрибок у довільну точку, безперервне керування в польоті, телепорт без перетину проміжного простору й окремий рух, що потребує заряджання.
+
+### Ігри-носії
+
+- [`GAME-0738` — "Dandara: Trials of Fear Edition"](../games/a-f/dandara-trials-of-fear-edition.md)

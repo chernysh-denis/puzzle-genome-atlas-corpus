@@ -1,5 +1,356 @@
 # Objective Genes
 
+## OBJ-379 — Complete an initial rival-owned mark to open a local encounter
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The current encounter requires an initial settled overpaint at the designated rival-owned surface. Completion opens a local response from that rival, settles the immediate lure objective and returns ordinary route control after the encounter.
+- Includes: Paint the Franks mural by the plaza sculpture in Bomb Rush Cyberfunk. The first accepted paint brings out a Frank for a short exchange, then Red can skate again.
+- Excludes: Painting every marked site in the district, exceeding an aggregate reputation threshold, spoken acceptance of a crew challenge, winning the later score battle and replaying the same already settled meeting by repainting.
+- Parameters: Opening objective, designated wall, initial paint, scripted local response and return of control
+- Evidence: [Bomb Rush Cyberfunk decomposition](../games/a-f/bomb-rush-cyberfunk.md), BRC-002, BRC-005, BRC-006. The attributed Xbox Series X and PC captures and product documentation support the bounded behaviour.
+- Novelty: first isolated for `GAME-0736`. See [TAXONOMY_CHANGE_482](../../research/taxonomy-changes/TAXONOMY_CHANGE_482.md). No external novelty claim.
+
+## OBJ-378 — Free the addressed captive inside its local puzzle and settle back at the entry scene
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Address the trapped subject on the world route to enter a bounded puzzle. Inside, make the same captive accessible and commit its release. That interaction settles the puzzle and restores the world route at the entry scene with the captive freed.
+- Includes: Reach and interact with the caged blue flame in The Guiding Light after aligning the ascent. Control returns to the Forest approach where Ember first addressed the captive.
+- Excludes: A rescue that leaves a separate manual extraction step in the same scene; entering an unrelated room for a generic collectible; finishing the entire hub by rescuing several interchangeable subjects; requiring the later campfire interaction as part of the same completion.
+- Parameters: Entry subject, bounded challenge, access geometry, release interaction, restored entry scene and persistent rescue flag
+- Evidence: [The Last Campfire decomposition](../games/s-z/the-last-campfire.md), LC-002 and LC-006. The attributed PlayStation 4 trace, an independent puzzle trace and the player walkthrough corroborate the scoped transitions. Exact capture hardware and revision are unverified.
+- Novelty: first isolated for `GAME-0729`. See [TAXONOMY_CHANGE_475](../../research/taxonomy-changes/TAXONOMY_CHANGE_475.md). No external novelty claim.
+
+## OBJ-377 — Credit a designated rescue and reach the exit in the same live mission
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: In one live sortie, reach the designated rescue subject and obtain the mission’s rescue acknowledgement. The attempt then requires the controlled rescuer to traverse the remaining route to an extraction boundary before it can settle successfully.
+- Includes: Find Marissa in Rescue at Axis 5, then move Nitro left through the opened block corridor until Mission Complete appears.
+- Excludes: A hostage interaction that immediately ends the stage, carrying the subject into a separately boarded vehicle, a required boss kill and a quota of interchangeable evacuees.
+- Parameters: Declared subject, rescue acknowledgement, retained mission state, exit path and settlement boundary
+- Evidence: [Metal Warriors decomposition](../games/m-r/metal-warriors.md), MW-005 and MW-006. Konami’s original booklet and the documented rescue route corroborate the bounded effects. Hardware and exact cartridge bytes are unverified.
+- Novelty: first isolated for `GAME-0728`. See [TAXONOMY_CHANGE_474](../../research/taxonomy-changes/TAXONOMY_CHANGE_474.md). No external novelty claim.
+
+## OBJ-376 — Finish one multi-track song with energy and receive its phrase capture report
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Reach the authored end of one song with the live energy reserve above failure. Settlement shows separate values for song completion, captured-phrase accuracy, longest error-free track streak and score.
+- Includes: In Frequency, completing The Winner at 100% song length can produce a clear with less than 100% phrase capture accuracy. Continue from the completed result to the song selection.
+- Excludes: A requirement to perfect every phrase, an arbitrary score target, receipt of a grade alone, or a surviving result before the chart reaches its end.
+- Parameters: Selected song, skill, energy failure boundary, song endpoint, phrase capture accuracy, longest track streak and score
+- Evidence: [Frequency decomposition](../games/a-f/frequency.md), FQ-007 and FQ-008. The North American instruction booklet and silent PS2 frame evidence support the stated boundary. Executable revision and exact judgement windows are unverified.
+- Novelty: first isolated for `GAME-0724`. See [TAXONOMY_CHANGE_470](../../research/taxonomy-changes/TAXONOMY_CHANGE_470.md). No external novelty claim.
+
+## OBJ-375 — Reach a measured vegetation quota to open the next local restoration phase
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Raise committed vegetation coverage to the displayed regional target. Reaching or exceeding the quota opens the next phase and capability group on the same landscape while the broader restoration remains active.
+- Includes: In Terra Nil the River Valley reaches its greenery target by placing an Irrigator, then opens the biome diversity phase with some barren land still visible.
+- Excludes: Covering every map cell, spending enough leaves alone, merely previewing a qualifying placement, or finishing the entire region and departing.
+- Parameters: Qualified vegetation, coverage quota, committed state, phase transition and retained landscape
+- Evidence: [Terra Nil decomposition](../games/s-z/terra-nil.md), TN-007. The release listing, in-game handbook and two post-release recordings are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0716`. See [TAXONOMY_CHANGE_462](../../research/taxonomy-changes/TAXONOMY_CHANGE_462.md). No external novelty claim.
+
+## OBJ-374 — Topple every required block before the designated last block and take the opened exit
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Cause all required members other than the designated terminal piece to topple before the designated terminal piece. Toppling that piece last authorizes a separate open door. Navigate the avatar to that door and enter it to settle the puzzle.
+- Includes: Pushover opens the left door after the row finishes at the striped Trigger on the right. The ant still walks to the door and enters it.
+- Excludes: Toppling the terminal piece early, immediately clearing a level from the last fall alone, or knocking down inert pieces excluded by the rules.
+- Parameters: Required set, designated last-fall piece, trigger order, door eligibility and avatar entry
+- Evidence: [Pushover decomposition](../games/m-r/pushover.md), PU-004–PU-005. The Amiga manual, contemporary sources and two recordings are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0715`. See [TAXONOMY_CHANGE_461](../../research/taxonomy-changes/TAXONOMY_CHANGE_461.md). No external novelty claim.
+
+## OBJ-373 — Open a reconciliation command by defeating the rival and choose it to settle the duel
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: In an authored conversation battle, the system opens an explicit reconciliation interaction after defeating the rival. Confirm that interaction to proceed to the conversation settlement and battle result.
+- Includes: At the end of Sergio’s duel in Thirsty Suitors a separate Make Up prompt follows combat defeat, and Jala accepts it before the results appear.
+- Excludes: Automatic stage clear on the last hit alone, a pacifist dialogue clear without first defeating the target, collecting a dropped exit item, or choosing a conversation answer during regular combat.
+- Parameters: Required rival, combat defeat, eligible settlement, confirmation and result transition
+- Evidence: [Thirsty Suitors decomposition](../games/s-z/thirsty-suitors.md), TS-007. The PlayStation release listing and corroborating traces are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0714`. See [TAXONOMY_CHANGE_460](../../research/taxonomy-changes/TAXONOMY_CHANGE_460.md). No external novelty claim.
+
+## OBJ-372 — Clear a separately selected same-course replay within its declared elapsed time
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: After an ordinary route clear, the player selects a separate replay challenge on the same authored course. Its condition requires reaching the ordinary finish at or below an expressly displayed elapsed-time ceiling.
+- Includes: JellyCar Worlds offers Beat the Clock for Level 1-1 after an ordinary finish. That retry uses the same stop sign and awards separate challenge completion after arrival at or below 35 seconds.
+- Excludes: A universal deadline for ordinary success, competing with an opponent or ghost, scoring a medal on every finish, or merely recording an elapsed time with no qualifying target.
+- Parameters: Ordinary completion, replay selection, course and finish identity, inclusive elapsed threshold and challenge credit
+- Evidence: [JellyCar Worlds decomposition](../games/g-l/jellycar-worlds.md), JCW-004, JCW-006. Walaber’s technical account and the Switch-attributed footage are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0712`. See [TAXONOMY_CHANGE_458](../../research/taxonomy-changes/TAXONOMY_CHANGE_458.md). No external novelty claim.
+
+## OBJ-371 — Keep at least one eligible landmark enclosed at the repair deadline
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Finish or preserve valid wall boundaries around the required number of eligible landmarks and have those enclosures accepted when the repair interval ends. Extra walls or destruction score cannot substitute for the required enclosures.
+- Includes: In the scoped solo Rampart cycle, at least one castle must be inside a complete wall when the repair time ends for play to proceed to another placement.
+- Excludes: Protecting a health bar through a wave, enclosing empty ground without a qualifying landmark, keeping only a high destruction score or opening a fixed enclosure by unlocking it.
+- Parameters: Eligible landmark type, minimum enclosed count, accepted perimeter and deadline
+- Evidence: [Rampart decomposition](../games/m-r/rampart.md), RAM-005–RAM-007. The Atari operator manual and attributed trackball-ruleset captures are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0708`. See [TAXONOMY_CHANGE_454](../../research/taxonomy-changes/TAXONOMY_CHANGE_454.md). No external novelty claim.
+
+## OBJ-370 — Close one assigned inspection case with a warranted terminal decision
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Resolve one assigned case by committing the verdict justified by its governing requirements and seeing it recognized after case departure. The target is the correct decision on that case even if separate report marks are graded differently.
+- Includes: In Contraband Police, get a justified refusal for the assigned training visitor with an expired required document.
+- Excludes: Maximising correctly processed cases over a work shift, merely opening an audit, correcting every report category as an independent scoring goal, or selecting facts without a final disposition.
+- Parameters: Assigned case, governing requirements, permitted outcome classes, terminal commitment and warranted result
+- Evidence: [Contraband Police decomposition](../games/a-f/contraband-police.md), CP-003, CP-005–CP-006. The publisher announcements and the two attributed Windows witnesses are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0705`. See [TAXONOMY_CHANGE_451](../../research/taxonomy-changes/TAXONOMY_CHANGE_451.md). No external novelty claim.
+
+## OBJ-369 — Complete a marked-cargo quota at one fixed physical receiver
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Complete a loading attempt by placing the required number of marked, individually movable objects into the same fixed receiver, where their placement is accepted. Optional objects may occupy the receiver or yield extra credit without satisfying that quota.
+- Includes: The first Part Time UFO job requires both blinking orange crates in the truck bed. The basket and loose fruit can be left partly unloaded.
+- Excludes: Delivering a single compulsory object, matching each object to its own receiver, or requiring every optional cargo item for a clear.
+- Parameters: Required object identities and count, shared receiver, accepted placement and separate optional cargo
+- Evidence: [Part Time UFO decomposition](../games/m-r/part-time-ufo.md), PTU-003, PTU-005–PTU-007. The retail materials and the two timed Nintendo Switch witnesses are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0703`. See [TAXONOMY_CHANGE_449](../../research/taxonomy-changes/TAXONOMY_CHANGE_449.md). No external novelty claim.
+
+## OBJ-368 — Complete the required counts of owned structure types to win a scenario
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Reach the minimum number of completed owned structures in every specified type. Already completed eligible starting structures contribute, pending foundations do not, and the scenario can settle without defeating opposing units.
+- Includes: In Warcraft II Hillsbrad, reach four completed Farms including the one present at entry, and one completed Barracks. Either requirement can finish last.
+- Excludes: Reaching only a population or material total, filling construction orders without finishing them, clearing a required enemy roster, or meeting the building requirements merely to unlock the next attack wave.
+- Parameters: Scenario, owner, required structure type and count, starting completed stock, live foundation, completion and terminal settlement
+- Evidence: [Warcraft II: Tides of Darkness decomposition](../games/s-z/warcraft-ii-tides-of-darkness.md), WCT-002, WCT-007–WCT-008. The briefing and the two DOS mission outcomes are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0701`. See [TAXONOMY_CHANGE_447](../../research/taxonomy-changes/TAXONOMY_CHANGE_447.md). No external novelty claim.
+
+## OBJ-367 — Claim one revealed scene marker to credit a story fragment
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Reveal and deliberately activate the scene’s designated terminal mark. Success includes the awarded fragment and the associated completed node in the overview rather than only gaining access to the scene.
+- Includes: In Song of Bloom, reveal and tap the tower’s asterisk, then verify the fragment and corresponding flower on the tree.
+- Excludes: Touching a collectible through an embodied actor, opening the scene without triggering its terminal, manually checking an answer without a retained fragment, or completing the entire story.
+- Parameters: Scene, terminal mark, activation, fragment, progression node and verification boundary
+- Evidence: [Song of Bloom decomposition](../games/s-z/song-of-bloom.md), BLM-004–BLM-006. The developer materials and iPhone witnesses are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0698`. See [TAXONOMY_CHANGE_444](../../research/taxonomy-changes/TAXONOMY_CHANGE_444.md). No external novelty claim.
+
+## OBJ-366 — Enter the cleared trial chamber to restore a world region
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Finish the mandatory local guardian trial to release the onward gate, then physically enter the chamber beyond it. That entry settles a named region’s restoration in the campaign state and returns control to the continuing world.
+- Includes: Tower 1 in Terranigma releases the final door after four red Huballs and restores Eurasia when Ark enters the chamber beyond it.
+- Excludes: Ending at the last defeated hostile, collecting an additional repair currency, ordinary travel into the next combat region or a victory screen without a world change.
+- Parameters: required trial, released forward gate, chamber boundary, restored region and continuing control
+- Evidence: [Terranigma decomposition](../games/s-z/terranigma.md), TER-002, TER-007. The European printed and captured evidence is bounded in the claim ledger.
+- Novelty: first isolated for `GAME-0695`. See [TAXONOMY_CHANGE_441](../../research/taxonomy-changes/TAXONOMY_CHANGE_441.md). No external novelty claim.
+
+## OBJ-365 — Complete the required shadow matches and take the admitted route
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Complete one bounded fixture by obtaining a settled silhouette match at each required receiving panel. Then use the linked passage made available by the completed set. Optional panels with unrelated rewards do not substitute for a required match.
+- Includes: Reuse the blue cube on the courtyard’s three square-compatible target panels, then enter the revealed route to the warm hall.
+- Excludes: A simultaneous occupancy test across the panels, finishing a single optional shadow compartment, inserting a token into the exit, or solving the first puzzle in the next room.
+- Parameters: Required panel set, individually credited matches, linked entry and bounded next room.
+- Evidence: [Shadow Point decomposition](../games/s-z/shadow-point.md), SP-004, SP-005. The attributed original Quest captures and the original launch materials support the scoped rules.
+- Novelty: first isolated for `GAME-0689`. See [TAXONOMY_CHANGE_435](../../research/taxonomy-changes/TAXONOMY_CHANGE_435.md). No external novelty claim.
+
+## OBJ-364 — Reach a marked rail-course finish under the stated time and score requirements
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Complete the authored live route by reaching its marked finish while meeting the course briefing’s stated time and minimum score conditions. The cleared course gives a separate completion report; optional task completion is independent of reaching that report.
+- Includes: Complete Adventure awaits! through the finish arch and read the Track Cleared report. A cleared run can report fewer than seven optional checks.
+- Excludes: An endless trick park, contest placement against an opponent, completing the optional list, a timed record achieved without a separate score reading, or an exact inferred failure cutoff.
+- Parameters: Authored starting line, marked finish, briefing conditions, settled score, completed time and optional task results.
+- Evidence: [Denshattack! decomposition](../games/a-f/denshattack.md), DA-001, DA-005. The attributed PlayStation captures and the platform release materials support the scoped rules.
+- Novelty: first isolated for `GAME-0687`. See [TAXONOMY_CHANGE_433](../../research/taxonomy-changes/TAXONOMY_CHANGE_433.md). No external novelty claim.
+
+## OBJ-363 — Complete a furniture grid and return to the room with its object placed
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Close the bounded onboarding sequence by solving the assigned picture grid, placing its own awarded object and returning to ordinary room control with the object present where the player left it.
+- Includes: Unlock the Basic Chair, set it in the room with Edit Mode, leave the editor and see the chair in the room at the selected spot.
+- Excludes: Solving the grid without placing its reward, placing a previously owned item instead, leaving a ghost preview, or proving persistence after restarting the software.
+- Parameters: Assigned puzzle, credited furnishing, committed room position and restored ordinary room controls.
+- Evidence: [Squeakross decomposition](../games/s-z/squeakross-home-squeak-home.md), SQH-003–SQH-005. Launch-window Switch footage and Alblune's gameplay overview support the scoped rules.
+- Novelty: first isolated for `GAME-0685`. See [TAXONOMY_CHANGE_431](../../research/taxonomy-changes/TAXONOMY_CHANGE_431.md). No external novelty claim.
+
+## OBJ-362 — Cross with the partner holding a stop, reunite and enter the next controllable room
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Success in the bounded crossing requires the controlled actor to travel across temporarily stopped support, make a different crossing available to the holder and reach the next ordinary movement space with both characters present.
+- Includes: Cross the tube with the sister at the lever, lower the separate bridge and enter the locker room together.
+- Excludes: Merely stopping the tube, arriving without the holder, acquiring an optional locker reward, or reaching a cinematic without resumed control.
+- Parameters: Initial pair, temporary stop, traveller, second span, reunited actors and playable successor room.
+- Evidence: [REANIMAL decomposition](../games/m-r/reanimal.md), RA-003–RA-005. Release-window PC footage and independent route descriptions corroborate the scoped rules.
+- Novelty: first isolated for `GAME-0684`. See [TAXONOMY_CHANGE_430](../../research/taxonomy-changes/TAXONOMY_CHANGE_430.md). No external novelty claim.
+
+## OBJ-361 — Release a local mail bundle, inspect its distinct documents and regain navigation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The scoped investigative result requires releasing the addressed mail bundle, reading the named notice and retrieving a different information document. Ordinary local navigation resumes after the separate document interactions.
+- Includes: Open mailbox 202, read the eviction notice among the fallen papers and take the useful-information flyer before returning to the lobby.
+- Excludes: Reaching a terminal dial mark without opening the box, spilling mail without reading the notice, answering a later chapter quiz, or acquiring a different letter at the apartment door.
+- Parameters: Addressed mail container, release, designated notice, separate flyer, document state and resumed local control.
+- Evidence: [Last Window decomposition](../games/g-l/last-window-the-secret-of-cape-west.md), LW-004–LW-005. Nintendo’s Chapter 1 guide and the two recorded English routes support the scoped rules.
+- Novelty: first isolated for `GAME-0683`. See [TAXONOMY_CHANGE_429](../../research/taxonomy-changes/TAXONOMY_CHANGE_429.md). No external novelty claim.
+
+## OBJ-360 — Reach a distinct goal portal to credit a mission award and expose a successor in the same act
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Entering the designated terminal portal closes the current route mission. Its award remains credited after returning to the act selector, where a different mission on the same act becomes selectable.
+- Includes: Reach the first Scrambled Shores portal. Read Complete and the additional Dream Orb, then return to the act selector and verify the updated total and the next mission.
+- Excludes: A mid-route barrier, an automatic act transition without a mission award, a separate bonus collectible, or proof of retention after quitting the application.
+- Parameters: Named mission, terminal portal, completion, award total, act selector and next selectable mission.
+- Evidence: [Sonic Dream Team decomposition](../games/s-z/sonic-dream-team.md), SDT-005. The release materials and the two launch-window routes support the scoped rules.
+- Novelty: first isolated for `GAME-0682`. See [TAXONOMY_CHANGE_428](../../research/taxonomy-changes/TAXONOMY_CHANGE_428.md). No external novelty claim.
+
+## OBJ-359 — Qualify among two survivors of one four-contestant elimination bout
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Resolve a scored four-contestant bout when two fighters have been eliminated. Both remaining contestants qualify for the successor stage, including the controlled fighter if they are still active. Further elimination of the other survivor is unnecessary.
+- Includes: In the Dreamcast Arcade Blue Sky bout, the second red elimination mark is followed by the player’s first win credit and two survivors on Next Stage.
+- Excludes: A last-fighter-standing result, a two-player best-of-three match, a whole team’s score, or merely reaching the landing arena without an elimination result.
+- Parameters: Four contestants, two eliminations, survivor set, win credit and successor handoff.
+- Evidence: [Power Stone 2 decomposition](../games/m-r/power-stone-2.md), PS2-006–PS2-007. The original Dreamcast manual and the two recorded Arcade runs support the scoped rule.
+- Novelty: first isolated for `GAME-0681`. See [TAXONOMY_CHANGE_427](../../research/taxonomy-changes/TAXONOMY_CHANGE_427.md). No external novelty claim.
+
+## OBJ-358 — Restore a beacon by servicing its lamp and deliberately starting it
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Complete the local repair by transferring an intact replacement into the beacon, putting its housing and rotation in their ready states and operating the separate power control. Completion is visible light output.
+- Includes: Replace the broken crystal-like bulb, confirm the three green rows and operate Light Power. Stop after the lighthouse light visibly comes on.
+- Excludes: Stopping at room power or a green readiness panel, collecting the spare without installing it, unlocking a box as the terminal result or proceeding to an unrelated later investigation.
+- Parameters: Broken bulb, compatible replacement, housing and rotation checks, readiness panel, power command and lit beacon.
+- Evidence: [Ghost Town decomposition](../games/g-l/ghost-town.md), GHT-002–GHT-006. The native Quest walkthrough and independent released-game capture show the fixture state.
+- Novelty: first isolated for `GAME-0680`. See [TAXONOMY_CHANGE_426](../../research/taxonomy-changes/TAXONOMY_CHANGE_426.md). No external novelty claim.
+
+## OBJ-357 — Learn a retained transfer tool on a local exit and reopen an earlier gate
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The route requires acquiring a persistent remote-transfer capability, using it on the pickup room’s own exit and applying that same capability again at the earlier barrier before traversing the newly opened space.
+- Includes: Take the Psychic Glove, open the chapel exit with one mote and return to the earlier gate to seat two separate motes and enter the recess.
+- Excludes: Acquiring a power and stopping there, clearing a fight to open its exit, collecting an optional container reward or progressing to a different later power.
+- Parameters: Capability acquisition, local demonstration receiver, earlier barrier, repeated transfer and traversed terminal.
+- Evidence: [Metroid Prime 4: Beyond decomposition](../games/m-r/metroid-prime-4-beyond.md), MPB-003–MPB-006. Nintendo and the two Switch 2 recordings support the scoped boundary.
+- Novelty: first isolated for `GAME-0678`. See [TAXONOMY_CHANGE_424](../../research/taxonomy-changes/TAXONOMY_CHANGE_424.md). No external novelty claim.
+
+## OBJ-356 — Reach the scripted handoff of a free-trick route leg
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The ordinary route advances into an authored story scene at the end of a particular controlled leg. A mid-route trick award can be pursued independently of that transition.
+- Includes: Follow the opening downhill leg through the title and first car scene with no award prerequisite shown.
+- Excludes: A ranked finish, accumulated trick points, a required achievement, deciding the order of authored scenes or finishing the whole story.
+- Parameters: Current route leg, authored transition, optional progress receipt and successor scene.
+- Evidence: [Mixtape decomposition](../games/m-r/mixtape.md), MX-004, MX-005. The launch-window Xbox trace and the applicable author and player evidence support the scoped boundary.
+- Novelty: first isolated for `GAME-0676`. See [TAXONOMY_CHANGE_422](../../research/taxonomy-changes/TAXONOMY_CHANGE_422.md). No external novelty claim.
+
+## OBJ-355 — Deliver every required locomotive to its own matched destination in one safe run
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A configured route solves the level only after all required locomotives arrive at their separate eligible endpoints during one collision-free execution.
+- Includes: Schedule red and blue through the shared stem and observe a solved result after both matching arrivals.
+- Excludes: Completing one train’s journey alone, geometrically connecting endpoints without running the trains or ordered assembly at one common receiver.
+- Parameters: Required locomotives, typed destinations, safe simultaneous schedule, final arrival and success.
+- Evidence: [Teeny Tiny Trains decomposition](../games/s-z/teeny-tiny-trains.md), TTT-004, TTT-006. The launch-window iOS trace, in-game tutorial and creator sources support the scoped boundaries.
+- Novelty: first isolated for `GAME-0675`. See [TAXONOMY_CHANGE_421](../../research/taxonomy-changes/TAXONOMY_CHANGE_421.md). No external novelty claim.
+
+## OBJ-354 — Close all required contract tasks and return for settlement
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A contracted visit succeeds by completing the required on-site tasks and confirming the closed exit. The contracted compensation is credited upon the return.
+- Includes: Disable the core and array, confirm departure and verify the 200 cryo after docking at Hexport.
+- Excludes: Reaching the job site, seeing the advertised payout, completing only one independent task or scoring an immediate local pickup.
+- Parameters: Required tasks, concluded state, departure commitment, destination and final compensation.
+- Evidence: [Citizen Sleeper 2 decomposition](../games/a-f/citizen-sleeper-2-starward-vector.md), CS2-005, CS2-008. The official product documentation and recorded contract traces support the boundary described in the game record.
+- Novelty: first isolated for `GAME-0673`. See [TAXONOMY_CHANGE_419](../../research/taxonomy-changes/TAXONOMY_CHANGE_419.md). No external novelty claim.
+
+## OBJ-353 — Demonstrate one previously unrecorded creature property and verify its credited discovery
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A scoped experiment succeeds when the player causes the qualifying effect of one creature and can verify the corresponding credited fact in the game’s record. Other optional facts and the surrounding episode’s own clear may remain incomplete.
+- Includes: Produce the larger apple-conditioned bubble and verify its separate one-star Glubbit entry.
+- Excludes: Finding only the creature, collecting an ordinary item, reading an unearned hint, defeating an opponent or requiring all facts before any individual fact counts.
+- Parameters: Creature, target property, qualifying outcome, registered fact, credit and episode boundary.
+- Evidence: [Yoshi and the Mysterious Book decomposition](../games/s-z/yoshi-and-the-mysterious-book.md), YMB-004, YMB-005. Nintendo's action guide and multiple retail traces support the scoped boundaries. Exact thresholds and restore behaviour remain unmeasured.
+- Novelty: first isolated for `GAME-0671`. See [TAXONOMY_CHANGE_417](../../research/taxonomy-changes/TAXONOMY_CHANGE_417.md). No external novelty claim.
+
 ## OBJ-352 — Win an authored two-power rhythm duel and reach its successor stage
 
 - Lifecycle: `Active`

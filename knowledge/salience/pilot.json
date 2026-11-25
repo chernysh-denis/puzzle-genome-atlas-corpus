@@ -15583,6 +15583,1558 @@
       ],
       "noteEn": "The separate paint input prepares one launch, and the movement input spends it.",
       "noteUk": "Мазок готує один підскок, а крок на шапинку його запускає."
+    },
+    "GAME-0667": {
+      "reviewed": "2026-11-23",
+      "defining": [
+        "ACT-888",
+        "SYS-1915",
+        "SYS-1916",
+        "CON-882"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-223",
+        "ACT-719",
+        "SYS-215",
+        "SYS-456",
+        "SYS-578",
+        "INF-613",
+        "OBJ-080",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-341",
+        "INF-119"
+      ],
+      "noteEn": "Absorption yields Power for a separate attack while the eye’s damage gate determines when to spend it.",
+      "noteUk": "Поглинання дає енергію для окремого пострілу, а вразливість ока визначає, коли її варто витратити."
+    },
+    "GAME-0668": {
+      "reviewed": "2026-11-23",
+      "defining": [
+        "ACT-890",
+        "CON-883",
+        "SYS-1917"
+      ],
+      "structural": [
+        "ACT-341",
+        "ACT-889",
+        "INF-425",
+        "INF-614",
+        "OBJ-026"
+      ],
+      "supporting": [
+        "ACT-008"
+      ],
+      "noteEn": "The held tornado is useful only at its authored activation position, where its release visibly clears the route.",
+      "noteUk": "Вихор можна випустити лише у визначеному місці. Там він розвіює туман і відкриває шлях."
+    },
+    "GAME-0669": {
+      "reviewed": "2026-11-23",
+      "defining": [
+        "CON-884",
+        "SYS-1918",
+        "SYS-1919",
+        "INF-615"
+      ],
+      "structural": [
+        "ACT-009",
+        "ACT-048",
+        "ACT-891",
+        "ACT-892",
+        "OBJ-004"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-341"
+      ],
+      "noteEn": "True neighbours join anywhere on the floor. Displaying the finished picture preserves the unrelated fragments.",
+      "noteUk": "Сусідні плитки з’єднуються в будь-якій вільній частині підлоги. Коли готову картину вішають, сторонні плитки залишаються."
+    },
+    "GAME-0670": {
+      "reviewed": "2026-11-23",
+      "defining": [
+        "ACT-893",
+        "SYS-1920",
+        "SYS-1921",
+        "INF-616",
+        "INF-617"
+      ],
+      "structural": [
+        "ACT-161",
+        "ACT-438",
+        "SYS-215",
+        "CON-068",
+        "CON-351",
+        "OBJ-029",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008",
+        "INF-119"
+      ],
+      "noteEn": "Capture creates a binding. Distance and Aura inform when to use it, and a recovered reserve does not restore a spent skill.",
+      "noteUk": "Підбирання призначає навичку на кнопку. Відстань і запас аури підказують, коли її застосувати. Відновлення аури не повертає вичерпану навичку."
+    },
+    "GAME-0671": {
+      "reviewed": "2026-11-23",
+      "defining": [
+        "ACT-894",
+        "SYS-1923",
+        "SYS-1924",
+        "INF-618",
+        "OBJ-353"
+      ],
+      "structural": [
+        "SYS-1922",
+        "SYS-1925",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008"
+      ],
+      "noteEn": "Back carry brings the producer to the apple. The next output lets the player observe the change, and the book records the credit.",
+      "noteUk": "Перенесення на спині дає змогу піднести істоту до яблука. Наступна бульбашка показує зміну, а книга фіксує зараховане відкриття."
+    },
+    "GAME-0672": {
+      "reviewed": "2026-11-23",
+      "defining": [
+        "ACT-895",
+        "CON-885",
+        "SYS-1926",
+        "SYS-1927",
+        "OBJ-029"
+      ],
+      "structural": [
+        "SYS-146",
+        "SYS-1928",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-896",
+        "INF-619"
+      ],
+      "noteEn": "The open mouth supplies entry. Timed flippers and temporary egg gaps expose the five targets. The bonus awards return with the live ball.",
+      "noteUk": "Відкрита паща дає вхід. Вчасні удари фліперами й тимчасові просвіти між яйцями відкривають шлях до п’яти цілей. Після повернення кулі зароблені очки лишаються в загальному рахунку."
+    },
+    "GAME-0673": {
+      "reviewed": "2026-11-23",
+      "defining": [
+        "ACT-897",
+        "SYS-1929",
+        "SYS-1930",
+        "SYS-1931",
+        "OBJ-354"
+      ],
+      "structural": [
+        "ACT-898",
+        "CON-886",
+        "SYS-1932",
+        "SYS-1933",
+        "SYS-1934"
+      ],
+      "supporting": [
+        "INF-620",
+        "TIM-002"
+      ],
+      "noteEn": "Crew dice and skills drive two separate access and shutdown branches. Renew under supply and stress constraints, then return for payment.",
+      "noteUk": "Кубики й навички екіпажу рухають дві окремі гілки доступу та вимкнення. Враховуй припаси й стрес під час оновлення циклу, потім повернися по оплату."
+    },
+    "GAME-0674": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-899",
+        "CON-887",
+        "SYS-1935",
+        "SYS-1936",
+        "SYS-1937",
+        "OBJ-002"
+      ],
+      "structural": [
+        "ACT-290",
+        "SYS-1501",
+        "SYS-1938",
+        "SYS-1939",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-720",
+        "INF-621",
+        "INF-208"
+      ],
+      "noteEn": "A valid lap balances a consecutive ring line, executed stunts and each arch’s timing. Use the moving surface and the turbo rings to link the route.",
+      "noteUk": "За залікове коло можна отримати очки за серії кілець, виконані трюки й залишок часу на кожній арці. Враховуй хвилі й турбокільця, щоб поєднувати ці можливості."
+    },
+    "GAME-0675": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-028",
+        "ACT-900",
+        "SYS-1941",
+        "CON-102",
+        "OBJ-355"
+      ],
+      "structural": [
+        "CON-001",
+        "CON-888",
+        "SYS-1940",
+        "SYS-1943",
+        "TIM-009"
+      ],
+      "supporting": [
+        "INF-001",
+        "INF-622",
+        "SYS-1942"
+      ],
+      "noteEn": "Build a safe schedule into the geometry. The delay loop gives red room to clear the shared track and change the fork before blue arrives.",
+      "noteUk": "Безпечний порядок руху залежить від прокладеної колії. Петля затримує синій поїзд, даючи червоному час звільнити спільну ділянку й перевести стрілку."
+    },
+    "GAME-0676": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-902",
+        "SYS-1944",
+        "SYS-1945",
+        "OBJ-356"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-901",
+        "TIM-003"
+      ],
+      "supporting": [
+        "INF-623"
+      ],
+      "noteEn": "The opening descent allows steering and tricks while the course keeps moving. The car-ollie award is separate from the scripted handoff.",
+      "noteUk": "Під час першого спуску можна кермувати й виконувати трюки, поки рух триває. Нагорода за оллі через авто зараховується окремо від сюжетного переходу."
+    },
+    "GAME-0677": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-309",
+        "SYS-036",
+        "SYS-1948",
+        "SYS-1949",
+        "OBJ-226"
+      ],
+      "structural": [
+        "ACT-290",
+        "SYS-1946",
+        "SYS-1947",
+        "TIM-003"
+      ],
+      "supporting": [
+        "INF-208",
+        "INF-624"
+      ],
+      "noteEn": "Spend speed where the raised road still offers a good landing. The finish and fastest lap independently affect the division.",
+      "noteUk": "Набирай швидкість там, де піднята траса дає змогу добре приземлитися. Перемога й найшвидше коло окремо впливають на таблицю дивізіону."
+    },
+    "GAME-0678": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-903",
+        "CON-889",
+        "SYS-398",
+        "OBJ-357"
+      ],
+      "structural": [
+        "ACT-313",
+        "SYS-112",
+        "SYS-982"
+      ],
+      "supporting": [
+        "ACT-008",
+        "INF-368"
+      ],
+      "noteEn": "The chapel’s single receiver teaches remote transfer before the earlier gate asks for two complete placements.",
+      "noteUk": "Одне гніздо в каплиці навчає перенесення на відстані. Біля раніше зустрінутої брами треба заповнити вже два гнізда."
+    },
+    "GAME-0679": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "SYS-1950",
+        "SYS-1951",
+        "INF-625",
+        "OBJ-029"
+      ],
+      "structural": [
+        "ACT-014",
+        "ACT-019",
+        "SYS-004",
+        "CON-001",
+        "CON-011",
+        "TIM-018"
+      ],
+      "supporting": [
+        "SYS-299",
+        "SYS-362",
+        "SYS-1285",
+        "INF-119"
+      ],
+      "noteEn": "Read the counter forecast and choose where a defeat will leave Jeanne for the next Godspeed move.",
+      "noteUk": "Звір прогноз контратаки й обери, де Жанна опиниться після перемоги над ворогом і звідки зможе знову рушити завдяки «Стрімкості»."
+    },
+    "GAME-0680": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "SYS-1952",
+        "ACT-087",
+        "INF-626",
+        "OBJ-358"
+      ],
+      "structural": [
+        "ACT-072",
+        "ACT-085",
+        "ACT-787",
+        "SYS-112",
+        "CON-136"
+      ],
+      "supporting": [
+        "INF-003",
+        "TIM-002"
+      ],
+      "noteEn": "Service access lets you change the bulb. Raise it again and read the readiness panel before commanding the light.",
+      "noteUk": "Коли патрон доступний, заміни лампу. Підніми корпус і звір індикатори, перш ніж увімкнути світло."
+    },
+    "GAME-0681": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "SYS-1953",
+        "SYS-317",
+        "SYS-1954",
+        "OBJ-359"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-048",
+        "ACT-161",
+        "ACT-355",
+        "SYS-037",
+        "SYS-215",
+        "SYS-1478",
+        "CON-263",
+        "INF-627"
+      ],
+      "supporting": [
+        "INF-628",
+        "TIM-003"
+      ],
+      "noteEn": "If the stage keeps going, contend with the fall and keep enough vitality to be one of the last two.",
+      "noteUk": "Якщо бій триває після руйнування дирижабля, подбай про приземлення й збережи достатньо здоров’я, щоб лишитися серед двох уцілілих."
+    },
+    "GAME-0682": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "SYS-1955",
+        "SYS-1956",
+        "OBJ-360"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-904",
+        "SYS-037",
+        "SYS-974",
+        "INF-441"
+      ],
+      "supporting": [
+        "SYS-036",
+        "TIM-003"
+      ],
+      "noteEn": "A movement choice reaches the keys, three keys open the passage, and the later portal gives the retained mission award.",
+      "noteUk": "Рух допомагає дістатися ключів. Три ключі відкривають прохід, а біля кінцевого порталу гра зараховує нагороду за завдання."
+    },
+    "GAME-0683": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "INF-629",
+        "SYS-1957",
+        "OBJ-361"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-341",
+        "ACT-905"
+      ],
+      "supporting": [
+        "TIM-002"
+      ],
+      "noteEn": "Follow the arrows as well as the numbers to release the post. Then read the notice and take the flyer separately.",
+      "noteUk": "Щоб дістати пошту, звір і цифри, і стрілки. Потім окремо прочитай повідомлення й забери листок із підказками."
+    },
+    "GAME-0684": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "SYS-1958",
+        "SYS-1959",
+        "OBJ-362"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-341",
+        "ACT-726",
+        "SYS-407"
+      ],
+      "supporting": [
+        "INF-630",
+        "TIM-002"
+      ],
+      "noteEn": "The sister keeps the first support stopped. The boy lowers a different crossing for her after getting across.",
+      "noteUk": "Сестра утримує першу опору нерухомою. Коли хлопець перейде, він опускає для неї окремий місток."
+    },
+    "GAME-0685": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "SYS-1960",
+        "ACT-906",
+        "OBJ-363"
+      ],
+      "structural": [
+        "ACT-007",
+        "CON-018",
+        "INF-006",
+        "OBJ-006"
+      ],
+      "supporting": [
+        "CON-001",
+        "INF-001",
+        "TIM-002"
+      ],
+      "noteEn": "The completed grid grants the particular object you can then arrange in your room.",
+      "noteUk": "Розв’язана сітка дає саме той предмет, який потім можна поставити в кімнаті."
+    },
+    "GAME-0686": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-907",
+        "INF-631",
+        "SYS-112"
+      ],
+      "structural": [
+        "ACT-087",
+        "ACT-089",
+        "ACT-341",
+        "CON-136",
+        "SYS-1431",
+        "OBJ-026"
+      ],
+      "supporting": [
+        "ACT-096",
+        "INF-003"
+      ],
+      "noteEn": "Read the unfinished command, uncover the missing object and add it before using the doorway.",
+      "noteUk": "Прочитай незавершену команду, знайди й підбери потрібний предмет, а потім додай його до команди, щоб пройти у двері."
+    },
+    "GAME-0687": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-908",
+        "SYS-1961",
+        "SYS-1962",
+        "OBJ-364"
+      ],
+      "structural": [
+        "ACT-500",
+        "ACT-797",
+        "ACT-909"
+      ],
+      "supporting": [
+        "INF-632",
+        "TIM-003"
+      ],
+      "noteEn": "Choose a rail while airborne, keep the score line going through contact and read the independent measures after the finish.",
+      "noteUk": "Вибери колію в повітрі, продовж серію трюків після приземлення й на фініші звір окремі підсумки."
+    },
+    "GAME-0688": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "SYS-1963",
+        "CON-756",
+        "TIM-033"
+      ],
+      "structural": [
+        "ACT-019",
+        "SYS-362",
+        "OBJ-029"
+      ],
+      "supporting": [
+        "SYS-299",
+        "INF-119"
+      ],
+      "noteEn": "Complete the party’s command batch, then watch the melee advances change the positions available next round.",
+      "noteUk": "Признач команди всьому загонові й простеж, як зближення перед ударами змінює розташування бійців на наступний хід."
+    },
+    "GAME-0689": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "SYS-1964",
+        "SYS-1965",
+        "OBJ-365"
+      ],
+      "structural": [
+        "ACT-787"
+      ],
+      "supporting": [
+        "INF-633"
+      ],
+      "noteEn": "Move one box, read the live projection and carry the box past each independently credited result to the opened passage.",
+      "noteUk": "Посувай коробку, звіряй її тінь і перенось коробку далі після кожного окремо зарахованого збігу, доки не відкриється прохід."
+    },
+    "GAME-0690": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-910",
+        "SYS-947",
+        "SYS-948",
+        "SYS-905",
+        "OBJ-164"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-295",
+        "SYS-036",
+        "SYS-037",
+        "SYS-215",
+        "SYS-755",
+        "SYS-902",
+        "SYS-933",
+        "SYS-935",
+        "SYS-1056",
+        "CON-068"
+      ],
+      "supporting": [
+        "SYS-045",
+        "SYS-911",
+        "INF-192",
+        "INF-347",
+        "OBJ-002",
+        "TIM-003"
+      ],
+      "noteEn": "Launch a prepared roll, carry speed through the curved route and take the time and ring bonuses at the signpost.",
+      "noteUk": "Підготуй ривок з обертанням, збережи швидкість на вигинах і зарахуй бонуси за час і кільця на фініші."
+    },
+    "GAME-0691": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-223",
+        "ACT-429",
+        "CON-617",
+        "INF-634",
+        "SYS-736"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-295",
+        "SYS-215",
+        "OBJ-029"
+      ],
+      "supporting": [
+        "SYS-045",
+        "INF-268",
+        "TIM-003"
+      ],
+      "noteEn": "Distinguish which response the attacker’s marker allows, complete the practice requirements and apply them in the group fight.",
+      "noteUk": "Розпізнай допустиму захисну дію за позначкою нападника, заверши вправи й застосуй вивчене в груповій сутичці."
+    },
+    "GAME-0692": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-911",
+        "SYS-1966",
+        "OBJ-026"
+      ],
+      "structural": [
+        "ACT-008",
+        "SYS-036",
+        "SYS-045",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-037",
+        "INF-192"
+      ],
+      "noteEn": "Acquire the Moo with the short pulse, retain it through takeoff and spend it in midair to attain the ledge.",
+      "noteUk": "Захопи Му коротким імпульсом, утримай його під час першого стрибка й скинь у повітрі, щоб дістатися уступу."
+    },
+    "GAME-0693": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-912",
+        "SYS-1967",
+        "OBJ-164"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-162",
+        "CON-001",
+        "CON-208"
+      ],
+      "supporting": [
+        "INF-001",
+        "TIM-002"
+      ],
+      "noteEn": "Lift one spare tile and keep the approach to the gap intact. Replace the missing support and descend the reachable stair.",
+      "noteUk": "Підніми зайву плитку й збережи підхід до прогалини. Віднови опору й зійди доступними сходами."
+    },
+    "GAME-0694": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-443",
+        "ACT-913",
+        "SYS-1968"
+      ],
+      "structural": [
+        "ACT-130",
+        "SYS-1649",
+        "SYS-1969",
+        "CON-890"
+      ],
+      "supporting": [
+        "ACT-008",
+        "INF-119"
+      ],
+      "noteEn": "The cut produces ore. Bank the load before losing it and decide how much to spend on charge before buying the first shovel tier.",
+      "noteUk": "Копання дає руду. Продай її до розрядження й виріши, скільки можна витратити на заряджання перед покупкою більшої лопати."
+    },
+    "GAME-0695": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-914",
+        "SYS-1970",
+        "OBJ-366"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-161",
+        "ACT-341",
+        "SYS-1971",
+        "CON-402",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-037",
+        "SYS-299",
+        "INF-119",
+        "INF-179"
+      ],
+      "noteEn": "Read the rolling path and choose the attack through movement. After all four opponents are down, enter the restored passage to settle the continent.",
+      "noteUk": "Звір траєкторію котіння й обери удар рухом. Коли всіх чотирьох ворогів переможено, зайди у відкритий прохід, щоб відновити Євразію."
+    },
+    "GAME-0696": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-915",
+        "SYS-1972",
+        "CON-891",
+        "INF-635"
+      ],
+      "structural": [
+        "ACT-232",
+        "ACT-916",
+        "ACT-131",
+        "SYS-1973"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-341",
+        "INF-119"
+      ],
+      "noteEn": "Follow a recorded choice into the offer, then take the dose or preserve it for the next player. Use an acquired unit separately.",
+      "noteUk": "Звір записаний вибір попередника й виріши, забрати дозу чи зберегти її для наступника. Використання отриманої дози — окрема дія."
+    },
+    "GAME-0697": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-917",
+        "SYS-1974",
+        "SYS-1975",
+        "SYS-1977"
+      ],
+      "structural": [
+        "ACT-161",
+        "ACT-562",
+        "SYS-1410",
+        "SYS-1976",
+        "OBJ-288",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-215",
+        "SYS-911",
+        "INF-235",
+        "INF-636",
+        "OBJ-002"
+      ],
+      "noteEn": "Choose a firing line for an ordered chain. Direct weapon growth with the selected attack, then settle the boss core and its parts separately.",
+      "noteUk": "Добери лінію вогню для серії. Обрана атака визначить, яка зброя отримає досвід, а за ядро боса й за повноту руйнування гра нарахує окремі бонуси."
+    },
+    "GAME-0698": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-918",
+        "INF-637",
+        "SYS-1978"
+      ],
+      "structural": [
+        "ACT-781",
+        "OBJ-367"
+      ],
+      "supporting": [
+        "ACT-072",
+        "ACT-919"
+      ],
+      "noteEn": "Copy the bud’s mark onto the matching story image. Advance the landscape and tap the tower’s separate completion mark to grow the first flower.",
+      "noteUk": "Перенеси позначку з підказки бутона на відповідний малюнок. Гортай пейзаж і торкнися окремої завершальної позначки на вежі, щоб розквітла перша квітка."
+    },
+    "GAME-0699": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-920",
+        "SYS-1979",
+        "SYS-112"
+      ],
+      "structural": [
+        "INF-638",
+        "CON-892",
+        "OBJ-026"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-072",
+        "ACT-089"
+      ],
+      "noteEn": "Inspect before filling the party. Step on the plate with the recruited group, then reach the first descending stair.",
+      "noteUk": "Оглянь кандидатів, поки є вільне місце. Зібраним загоном стань на плиту й дістанься перших сходів униз."
+    },
+    "GAME-0700": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-408",
+        "SYS-061"
+      ],
+      "structural": [
+        "ACT-008",
+        "OBJ-026"
+      ],
+      "supporting": [
+        "INF-639"
+      ],
+      "noteEn": "Leave Mui on the plate to keep the foothold available. Let Lana reach the fixed top before restoring Follow.",
+      "noteUk": "Залиш Муї на плиті, щоб уступ лишався розгорнутим. Поклич Муї, коли Лана дістанеться нерухомого майданчика."
+    },
+    "GAME-0701": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "OBJ-368",
+        "SYS-550",
+        "SYS-553",
+        "SYS-549",
+        "ACT-318"
+      ],
+      "structural": [
+        "ACT-139",
+        "ACT-316",
+        "SYS-551",
+        "CON-292",
+        "CON-467",
+        "CON-469",
+        "INF-224"
+      ],
+      "supporting": [
+        "ACT-189",
+        "INF-131",
+        "INF-225",
+        "TIM-003"
+      ],
+      "noteEn": "Assign workers to gather and build. Victory requires four completed Farms including the starting one, and a finished Barracks.",
+      "noteUk": "Доручи селянам збирати ресурси й будувати. Для перемоги потрібні чотири готові ферми разом із початковою та добудовані казарми."
+    },
+    "GAME-0702": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "CON-893",
+        "SYS-1980",
+        "SYS-112"
+      ],
+      "structural": [
+        "ACT-787",
+        "INF-640",
+        "OBJ-026"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-072"
+      ],
+      "noteEn": "Repair the marked routes with your hands. Then guide Molly through the opened passage from the restored diorama view.",
+      "noteUk": "З’єднай позначені пари труб руками. Коли повернеться вид на діораму, проведи Моллі крізь відкритий прохід."
+    },
+    "GAME-0703": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-048",
+        "OBJ-369",
+        "SYS-1982"
+      ],
+      "structural": [
+        "SYS-036",
+        "SYS-1981",
+        "CON-556",
+        "INF-641",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008"
+      ],
+      "noteEn": "Grip and release the required boxes onto the truck. Arrange any extra cargo before the last required delivery closes the job.",
+      "noteUk": "Схопи обов’язкові ящики й відпусти їх над кузовом. Розмісти додатковий вантаж до зарахування останнього ящика."
+    },
+    "GAME-0704": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-895",
+        "CON-894",
+        "SYS-1983"
+      ],
+      "structural": [
+        "ACT-921",
+        "SYS-146",
+        "INF-642",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-896",
+        "OBJ-002"
+      ],
+      "noteEn": "Keep the moving ball in reach, light every upper gate and shoot it into the separate open lock.",
+      "noteUk": "Утримуй кулю в грі, засвіти всі верхні лампи та спрямуй кулю в окрему відкриту пастку."
+    },
+    "GAME-0705": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-104",
+        "ACT-922",
+        "ACT-105",
+        "SYS-1984"
+      ],
+      "structural": [
+        "SYS-137",
+        "SYS-138",
+        "CON-157",
+        "OBJ-370"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-072",
+        "INF-299"
+      ],
+      "noteEn": "Compare the dates, mark the grounds, stamp the decision and check the two results.",
+      "noteUk": "Звір дати, познач причину, постав штамп і переглянь рішення та оцінку перевірки."
+    },
+    "GAME-0706": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-923",
+        "SYS-1985",
+        "SYS-085"
+      ],
+      "structural": [
+        "ACT-008",
+        "SYS-037",
+        "CON-068",
+        "OBJ-164"
+      ],
+      "supporting": [
+        "INF-643",
+        "TIM-003"
+      ],
+      "noteEn": "Turn in place, roll onto the new face, collect the key and return before the hourglass runs out.",
+      "noteUk": "Повернися на місці, перекоти кулю на нову грань, підбери ключ і повернися до виходу, поки є час."
+    },
+    "GAME-0707": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-542",
+        "SYS-1986",
+        "SYS-1987"
+      ],
+      "structural": [
+        "ACT-008",
+        "OBJ-026"
+      ],
+      "supporting": [
+        "INF-644"
+      ],
+      "noteEn": "Sweep the suction over what remains, confirm regrowth and walk through the exposed stone route.",
+      "noteUk": "Спрямуй рукавицю на залишки, дочекайся відновлення рослин і пройди відкритим кам’яним шляхом."
+    },
+    "GAME-0708": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "SYS-1988",
+        "ACT-026",
+        "SYS-1989",
+        "OBJ-371"
+      ],
+      "structural": [
+        "ACT-924",
+        "ACT-161",
+        "CON-001",
+        "CON-068",
+        "TIM-003"
+      ],
+      "supporting": [
+        "INF-645"
+      ],
+      "noteEn": "Choose cannon sites, repair the surviving walls with the current pieces and keep a castle enclosed at expiry.",
+      "noteUk": "Обери позиції гармат, відбудуй уцілілі мури запропонованими фрагментами й залиши хоча б один замок за суцільним муром до кінця відліку."
+    },
+    "GAME-0709": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-925",
+        "SYS-1990",
+        "SYS-1991"
+      ],
+      "structural": [
+        "ACT-008",
+        "SYS-036",
+        "OBJ-026",
+        "TIM-003"
+      ],
+      "supporting": [
+        "INF-258"
+      ],
+      "noteEn": "Choose a foothold, shift support onto it and recover on the same slope if the stance gives way.",
+      "noteUk": "Обери опору для стопи, перенеси на неї вагу й продовжуй на тому самому схилі, якщо втратиш рівновагу."
+    },
+    "GAME-0710": {
+      "reviewed": "2026-11-24",
+      "defining": [
+        "ACT-926",
+        "ACT-927",
+        "CON-895",
+        "SYS-1992",
+        "SYS-1993",
+        "SYS-1994"
+      ],
+      "structural": [
+        "ACT-290",
+        "SYS-036",
+        "SYS-515",
+        "OBJ-257",
+        "TIM-003"
+      ],
+      "supporting": [
+        "INF-131",
+        "INF-208"
+      ],
+      "noteEn": "Fit the course before racing it, then manage contact and complete the configured laps before the rival.",
+      "noteUk": "З’єднай секції до старту, під час заїзду зважай на зчеплення й пройди задані кола раніше за суперника."
+    },
+    "GAME-0711": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "CON-896",
+        "SYS-1995",
+        "SYS-1996",
+        "OBJ-014"
+      ],
+      "structural": [
+        "ACT-014",
+        "ACT-072",
+        "INF-646"
+      ],
+      "supporting": [
+        "INF-001"
+      ],
+      "noteEn": "The marked berth determines where a live diagonal turns. Read the receiver pulse and continue once the arrow appears.",
+      "noteUk": "Від позиції блока залежить, де кулька відскочить від нього. Стеж за пульсацією приймача й переходь далі, коли з’явиться стрілка."
+    },
+    "GAME-0712": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "SYS-1997",
+        "SYS-1998",
+        "OBJ-026",
+        "OBJ-372"
+      ],
+      "structural": [
+        "ACT-290",
+        "ACT-308",
+        "SYS-036",
+        "TIM-003"
+      ],
+      "supporting": [
+        "INF-208",
+        "INF-317"
+      ],
+      "noteEn": "Keep the soft car moving through narrow contact and finish at the stop sign. An optional timed replay retains its own condition through a restart.",
+      "noteUk": "Проведи пружну машину крізь вузькі проходи до знака «Стоп». Якщо обереш випробування на час, його умова збережеться після перезапуску."
+    },
+    "GAME-0713": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "ACT-928",
+        "ACT-929",
+        "CON-897",
+        "SYS-1999",
+        "SYS-2000",
+        "OBJ-014"
+      ],
+      "structural": [
+        "ACT-008",
+        "SYS-036",
+        "TIM-003"
+      ],
+      "supporting": [
+        "INF-119",
+        "SYS-037"
+      ],
+      "noteEn": "Aim one existing orb, cover the lower gap with Wain and route it through the north exit.",
+      "noteUk": "Задавай напрям тій самій кулі, прикривай нижній пролом Вейном і спрямуй кулю у верхній прохід."
+    },
+    "GAME-0714": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "ACT-930",
+        "SYS-2001",
+        "SYS-2002",
+        "INF-647",
+        "OBJ-373"
+      ],
+      "structural": [
+        "ACT-222",
+        "ACT-592",
+        "SYS-358",
+        "SYS-1180",
+        "CON-351"
+      ],
+      "supporting": [
+        "INF-119",
+        "INF-142"
+      ],
+      "noteEn": "Induce a mood, use the resulting bonus turn to exploit that mood, and choose reconciliation after defeat.",
+      "noteUk": "Виклич настрій, використай додатковий хід для відповідного вміння й обери примирення після перемоги."
+    },
+    "GAME-0715": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "ACT-931",
+        "CON-898",
+        "CON-899",
+        "SYS-2003",
+        "OBJ-374"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-048",
+        "SYS-2004",
+        "TIM-003"
+      ],
+      "supporting": [
+        "INF-001"
+      ],
+      "noteEn": "Repair the gap, start one fall, let the fixed striped piece fall last and enter the door.",
+      "noteUk": "Заповни прогалину, запусти падіння одним поштовхом, дочекайся останнього падіння смугастої кісточки й увійди у двері."
+    },
+    "GAME-0716": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "ACT-932",
+        "SYS-2005",
+        "SYS-2006",
+        "SYS-2007",
+        "INF-648",
+        "OBJ-375"
+      ],
+      "structural": [
+        "ACT-117",
+        "SYS-153",
+        "SYS-2008",
+        "CON-229",
+        "CON-240",
+        "CON-292",
+        "CON-440"
+      ],
+      "supporting": [
+        "INF-067",
+        "TIM-002"
+      ],
+      "noteEn": "Supply the soil treatment, choose a profitable irrigation footprint, and meet the regional greenery quota.",
+      "noteUk": "Подай живлення на очищувачі ґрунту, обери вигідну зону зрошення й досягни цілі озеленення долини."
+    },
+    "GAME-0717": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "ACT-519",
+        "ACT-638",
+        "ACT-933",
+        "SYS-2009",
+        "CON-746",
+        "INF-649"
+      ],
+      "structural": [
+        "ACT-637",
+        "SYS-036",
+        "SYS-1259",
+        "SYS-1260",
+        "SYS-1262",
+        "CON-747",
+        "OBJ-181",
+        "TIM-003"
+      ],
+      "supporting": [
+        "SYS-037",
+        "SYS-1261",
+        "INF-192",
+        "INF-268",
+        "INF-457",
+        "OBJ-271"
+      ],
+      "noteEn": "Choose the group’s form for the terrain, then answer the local chorus for optional notes.",
+      "noteUk": "Обери форму групи для проходу, а під час місцевого хору відповідай на підказки, щоб зібрати додаткові ноти."
+    },
+    "GAME-0718": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "ACT-934",
+        "SYS-2010",
+        "SYS-2011",
+        "CON-900",
+        "INF-650"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-341",
+        "OBJ-026"
+      ],
+      "supporting": [
+        "INF-192",
+        "INF-268",
+        "TIM-003"
+      ],
+      "noteEn": "Interpret a sketch from the summit, check its landmark on foot, then decide whether to take the offered crossing.",
+      "noteUk": "Зістав ескіз із краєвидом, перевір орієнтир на місці й виріши, чи скористатися переходом."
+    },
+    "GAME-0719": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "ACT-935",
+        "SYS-1365",
+        "SYS-2012",
+        "SYS-2013",
+        "INF-651"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-295",
+        "SYS-407",
+        "CON-901",
+        "OBJ-029",
+        "TIM-046"
+      ],
+      "supporting": [
+        "SYS-037",
+        "INF-192",
+        "TIM-003"
+      ],
+      "noteEn": "Turn toward targets, choose between brief casts and a charged sweep, and pick a helper with an independent reserve.",
+      "noteUk": "Повернися до цілей, обери між короткою атакою й круговим розрядом та врахуй окремий заряд супутника."
+    },
+    "GAME-0720": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "ACT-936",
+        "SYS-2014",
+        "SYS-2015",
+        "OBJ-283"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-295",
+        "SYS-369",
+        "INF-652"
+      ],
+      "supporting": [
+        "SYS-037",
+        "INF-192",
+        "TIM-003"
+      ],
+      "noteEn": "Take the fixed shark form, accelerate beneath the water, and decide which crystals to collect before the ordinary portal.",
+      "noteUk": "Візьми маску акули біля вівтаря, прискорся під водою й виріши, які кристали підібрати перед звичайним виходом."
+    },
+    "GAME-0721": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "ACT-937",
+        "ACT-938",
+        "OBJ-004"
+      ],
+      "structural": [
+        "SYS-2016",
+        "SYS-2017"
+      ],
+      "supporting": [
+        "INF-001"
+      ],
+      "noteEn": "Inspect without changing the seams, edit one band at a time and verify the separate coin and capsule events.",
+      "noteUk": "Оглянь стики, не змінюючи їх. Редагуй по одній частині й розрізняй винагороду за предмет та обмін монет на капсулу."
+    },
+    "GAME-0722": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "SYS-2018",
+        "SYS-2019",
+        "SYS-2020",
+        "CON-902"
+      ],
+      "structural": [
+        "ACT-096",
+        "ACT-202",
+        "ACT-295",
+        "ACT-341",
+        "SYS-398",
+        "CON-296",
+        "OBJ-026"
+      ],
+      "supporting": [
+        "ACT-008",
+        "INF-192",
+        "INF-425",
+        "INF-653",
+        "TIM-003"
+      ],
+      "noteEn": "Use the flag to carry the key and upgraded shot to the correct obstacle. Time the stun and position wall supports separately.",
+      "noteUk": "Викликай літак біля прапорців, щоб доставити ключ і нові присоски до відповідних перешкод. Окремо розраховуй момент проходу повз ворога й висоту опор."
+    },
+    "GAME-0723": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "ACT-939",
+        "SYS-2021",
+        "SYS-2022",
+        "SYS-2023"
+      ],
+      "structural": [
+        "SYS-2024",
+        "CON-020",
+        "INF-654"
+      ],
+      "supporting": [
+        "INF-002"
+      ],
+      "noteEn": "Choose a bank angle and decide whether to hit blocks directly or remove their support. Read the resulting shaft before spending the next shot.",
+      "noteUk": "Вибери кут відскоку й виріши, чи бити в блоки напряму, чи вибити їхню опору. Оглянь шахту після зсуву перед наступним залпом."
+    },
+    "GAME-0724": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "ACT-940",
+        "SYS-2025",
+        "SYS-2026",
+        "SYS-1655"
+      ],
+      "structural": [
+        "ACT-008",
+        "SYS-2027",
+        "OBJ-376"
+      ],
+      "supporting": [
+        "INF-655",
+        "TIM-003"
+      ],
+      "noteEn": "Switch to a track with an eligible phrase. Keeping parts playing through clean captures sustains energy and raises the scoring streak.",
+      "noteUk": "Переходь на доріжку з доступною фразою. Активуй партії без пропусків, щоб відновити енергію й продовжити серію."
+    },
+    "GAME-0725": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "ACT-161",
+        "SYS-398",
+        "SYS-755",
+        "SYS-2029"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-341",
+        "SYS-2028",
+        "OBJ-026"
+      ],
+      "supporting": [
+        "INF-656",
+        "TIM-003"
+      ],
+      "noteEn": "Return to the obstruction with the broom. The strike clears a physical path; Kendra’s review opens a separate exit.",
+      "noteUk": "Повернися до перешкоди з мітлою. Удар розчищає шлях, а після розмови з Кендрою відкривається окремий вихід."
+    },
+    "GAME-0726": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "ACT-941",
+        "ACT-942",
+        "SYS-2030",
+        "OBJ-014"
+      ],
+      "structural": [
+        "ACT-943",
+        "ACT-944",
+        "SYS-036",
+        "INF-657"
+      ],
+      "supporting": [
+        "SYS-037",
+        "TIM-003"
+      ],
+      "noteEn": "Draw the carrier, steer it with airflow and use its changing shape to keep the spirits safe on the route to the cube.",
+      "noteUk": "Створи бульбашку, спрямовуй її потоком повітря й використовуй зміну форми, щоб безпечно довести духів до куба."
+    },
+    "GAME-0727": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "CON-903",
+        "ACT-945",
+        "CON-282",
+        "OBJ-052"
+      ],
+      "structural": [
+        "ACT-048",
+        "ACT-341",
+        "SYS-1439"
+      ],
+      "supporting": [
+        "INF-658",
+        "TIM-002"
+      ],
+      "noteEn": "The selected tale advances through sorting, placing and separately fastening the pieces. Its cabinet scene closes the story.",
+      "noteUk": "Історія просувається, коли ти сортуєш, установлюєш і затягуєш деталі. Остання сцена зі шафкою завершує розповідь."
+    },
+    "GAME-0728": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "ACT-946",
+        "SYS-755",
+        "OBJ-377"
+      ],
+      "structural": [
+        "ACT-008",
+        "ACT-161",
+        "INF-659"
+      ],
+      "supporting": [
+        "TIM-003"
+      ],
+      "noteEn": "Held thrust lets Nitro reach another level. Breaking the lattice allows the left-hand escape after the rescue.",
+      "noteUk": "Тяга допомагає Nitro перейти на інший рівень станції. Після порятунку зруйнована решітка відкриває вихід ліворуч."
+    },
+    "GAME-0729": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "SYS-061",
+        "SYS-065",
+        "SYS-2031",
+        "OBJ-378"
+      ],
+      "structural": [
+        "ACT-048",
+        "ACT-341"
+      ],
+      "supporting": [
+        "ACT-008",
+        "TIM-002"
+      ],
+      "noteEn": "The post controls its own section only while weighted. The chain stays available after reweighting and makes the next approach possible.",
+      "noteUk": "Плита утримує свою ділянку, поки на ній стоїть противага. Спущений ланцюг лишається доступним і після перенесення противаги, тому можна піднятися іншим шляхом."
+    },
+    "GAME-0730": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "ACT-947",
+        "SYS-2032",
+        "CON-904"
+      ],
+      "structural": [
+        "INF-001",
+        "OBJ-006"
+      ],
+      "supporting": [
+        "TIM-002"
+      ],
+      "noteEn": "One insertion reorders the shelf for the comparison you chose. The other valid comparison is credited separately when you replay.",
+      "noteUk": "Перетягування змінює місце книжки в ряду відповідно до обраної ознаки. Після повторного проходження можна отримати окрему зірку за іншу ознаку."
+    },
+    "GAME-0731": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "SYS-2033",
+        "SYS-2034",
+        "SYS-2035",
+        "SYS-2037",
+        "OBJ-007"
+      ],
+      "structural": [
+        "ACT-341",
+        "SYS-2036",
+        "INF-660"
+      ],
+      "supporting": [
+        "ACT-008",
+        "SYS-045",
+        "SYS-2038",
+        "INF-179",
+        "TIM-003"
+      ],
+      "noteEn": "The same facing input edits ice and threatens enemies. The optional diamond line briefly changes which enemy contacts are safe.",
+      "noteUk": "Тією самою кнопкою можна змінювати крижані проходи й атакувати ворогів. Необов’язковий ряд із ромбів ненадовго робить дотик до оглушених ворогів безпечним."
+    },
+    "GAME-0732": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "SYS-2039",
+        "SYS-2040",
+        "SYS-2041",
+        "OBJ-164"
+      ],
+      "structural": [
+        "ACT-502",
+        "ACT-789",
+        "INF-661"
+      ],
+      "supporting": [
+        "ACT-008",
+        "ACT-341",
+        "TIM-002"
+      ],
+      "noteEn": "Keeping a photo creates evidence. Showing it settles the task, and the attendant separately grants the ride.",
+      "noteUk": "Збережене фото стає доказом. Нана зараховує завдання, а працівник зупинки окремо відкриває поїздку."
+    },
+    "GAME-0733": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "ACT-948",
+        "SYS-2042",
+        "SYS-085",
+        "OBJ-164"
+      ],
+      "structural": [
+        "SYS-036",
+        "CON-068",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008",
+        "SYS-1029",
+        "INF-179"
+      ],
+      "noteEn": "The same spell adds footing or removes an obstruction. The key releases the door, leaving an active route to the exit.",
+      "noteUk": "Тим самим заклинанням можна створити опору або прибрати перешкоду. Ключ відчиняє двері, до яких іще треба дістатися."
+    },
+    "GAME-0734": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "ACT-810",
+        "SYS-037",
+        "SYS-2043",
+        "OBJ-007"
+      ],
+      "structural": [
+        "INF-662",
+        "SYS-2044",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008",
+        "SYS-045",
+        "SYS-2045",
+        "INF-179"
+      ],
+      "noteEn": "Leave the final marked robot active until you have decided whether to rescue the exposed human. Clear the arena and time the separate dash award.",
+      "noteUk": "Залиш останнього підсвіченого робота, поки вирішуєш, чи рятувати людину. Зачисть арену й зроби вчасний ривок заради окремих очок."
+    },
+    "GAME-0735": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "SYS-772",
+        "SYS-2046",
+        "CON-905",
+        "OBJ-328"
+      ],
+      "structural": [
+        "ACT-421",
+        "CON-068",
+        "INF-663"
+      ],
+      "supporting": [
+        "ACT-008",
+        "SYS-037",
+        "INF-179",
+        "TIM-003"
+      ],
+      "noteEn": "Use the warp for the vertical climb and the two builds for horizontal gaps. Collect the upper egg before the final drop.",
+      "noteUk": "Телепортуйся для підйому, а два мости проклади через розриви. Візьми верхнє яйце перед останнім спуском."
+    },
+    "GAME-0736": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "SYS-974",
+        "ACT-949",
+        "SYS-2047",
+        "OBJ-379"
+      ],
+      "structural": [
+        "SYS-036",
+        "ACT-341",
+        "INF-664",
+        "TIM-003"
+      ],
+      "supporting": [
+        "ACT-008",
+        "INF-179"
+      ],
+      "noteEn": "Follow the rail to the marked wall. The trace chooses the design, while reputation and the Frank encounter depend on the first paint at that site.",
+      "noteUk": "Проковзни поручнем до позначеної стіни. Порядок точок визначає малюнок, а репутація й зустріч із Френком залежать від першого графіті на цій стіні."
+    },
+    "GAME-0737": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "ACT-950",
+        "SYS-2048",
+        "CON-906",
+        "OBJ-026"
+      ],
+      "structural": [
+        "INF-665",
+        "SYS-036",
+        "TIM-002"
+      ],
+      "supporting": [
+        "ACT-008",
+        "INF-179"
+      ],
+      "noteEn": "Let each lower slab project farther than the one above. Climb each exposed surface before reaching the child at the top.",
+      "noteUk": "Висунь кожен нижчий блок далі за блок над ним. Піднімайся відкритими сходинками до дитини нагорі."
+    },
+    "GAME-0738": {
+      "reviewed": "2026-11-25",
+      "defining": [
+        "ACT-951",
+        "SYS-2049",
+        "CON-907",
+        "SYS-2050"
+      ],
+      "structural": [
+        "ACT-161",
+        "INF-666",
+        "OBJ-026"
+      ],
+      "supporting": [
+        "ACT-341",
+        "INF-179",
+        "TIM-003"
+      ],
+      "noteEn": "Read the accepted landing, then use the new support to aim the next leap or shot. Destroy the target before making the separate doorway leap.",
+      "noteUk": "Звір точку приземлення. З нової опори спрямуй наступний стрибок або постріл. Знищ мішень, перш ніж окремо стрибнути до дверей."
     }
   }
 }

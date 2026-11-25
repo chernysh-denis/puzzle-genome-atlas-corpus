@@ -1,5 +1,1773 @@
 # System Behaviour Genes
 
+## SYS-2050 — Enable the linked doorway after a distinct target is hit
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A successful projectile hit resolves a separate authored target. The linked doorway becomes available for approach and crossing, but the hit does not move the player through it. The player still has to reach and use the doorway.
+- Includes: In Dandara’s Void, an upward shot destroys the orange target above the final floor strip. The player then takes a separate leap to the wall doorway and enters the Crib of Creation.
+- Excludes: Shooting the door itself open, gaining a carryable key, tracking a hostile clearance quota and automatically transferring on the projectile hit.
+- Parameters: Target identity, projectile hit, linked door eligibility, separate approach and crossing
+- Evidence: [Dandara: Trials of Fear Edition decomposition](../games/a-f/dandara-trials-of-fear-edition.md), DF-005, DF-006. The official release documentation and the attributed opening captures delimit this rule.
+- Novelty: first isolated for `GAME-0738`. See [TAXONOMY_CHANGE_484](../../research/taxonomy-changes/TAXONOMY_CHANGE_484.md). No external novelty claim.
+
+## SYS-2049 — Attach to the landing surface and reorient the supported body
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A committed leap travels across the intervening space. On meeting the accepted landing band, the body attaches feet-first and reorients to the supporting face. The new floor, ceiling or wall stance is the origin of the next action.
+- Includes: Dandara stays upright on the first salt band, hangs from the underside after the upward leap and later takes a sideways stance on the door’s salt strip.
+- Excludes: Crossing a joined corner without leaving support, rolling after gravity rotates the room, free walking up any wall and turning the view without changing body support.
+- Parameters: In-flight body, receiving band, support normal, settled orientation and subsequent origin
+- Evidence: [Dandara: Trials of Fear Edition decomposition](../games/a-f/dandara-trials-of-fear-edition.md), DF-002, DF-004, DF-006. The official release documentation and the attributed opening captures delimit this rule.
+- Novelty: first isolated for `GAME-0738`. See [TAXONOMY_CHANGE_484](../../research/taxonomy-changes/TAXONOMY_CHANGE_484.md). No external novelty claim.
+
+## SYS-2048 — Expose step footing through the relative extension of fixed-height slabs
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A lower grippable slab can project farther than the slab above it. The difference exposes a landing tread at the lower height while retaining both shapes. Successive offsets let the avatar jump from the exposed surface and work on the next tier.
+- Includes: Pullblox Lesson 3 settles the bottom, middle and top slabs three, two and one steps out. The two exposed intermediate treads allow the jumps needed to reach the goal slab.
+- Excludes: Inventing blocks in empty space, telescoping the edge of a shape on both axes, rotating a perspective bridge and arranging steps with falling pieces.
+- Parameters: Adjacent height tiers, extension depth per slab, exposed landing tread, reach and repeated climb
+- Evidence: [Pullblox decomposition](../games/m-r/pullblox.md), PB-004, PB-005. The original game manual, attributed Lesson 3 captures and paired release documentation support the bounded behaviour.
+- Novelty: first isolated for `GAME-0737`. See [TAXONOMY_CHANGE_483](../../research/taxonomy-changes/TAXONOMY_CHANGE_483.md). No external novelty claim.
+
+## SYS-2047 — Award district reputation once per repaintable site
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The first accepted overpaint of an eligible site records its identity and adds its declared reputation to the local total. Later accepted painting still changes that surface, while its previously recorded identity prevents a second grant.
+- Includes: The first completed Versum Hill plaza mural in Bomb Rush Cyberfunk registers six reputation. A later paint of that wall changes the image and leaves the distinct-site credit spent.
+- Excludes: Points on every repaint, an unmarked surface that can never be repainted, spray stock depletion and a reward for completing every site for a separate objective.
+- Parameters: Local district, marked surface identity, accepted paint, prior credit, reputation and repeatable design change
+- Evidence: [Bomb Rush Cyberfunk decomposition](../games/a-f/bomb-rush-cyberfunk.md), BRC-005–BRC-007. The attributed Xbox Series X and PC captures and product documentation support the bounded behaviour.
+- Novelty: first isolated for `GAME-0736`. See [TAXONOMY_CHANGE_482](../../research/taxonomy-changes/TAXONOMY_CHANGE_482.md). No external novelty claim.
+
+## SYS-2046 — Extend traversable bridge footing sideways from the current ledge
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Activating a bridge-building tool places a horizontal section of walkable footing ahead at the current tier. The placed section remains usable while the player moves away or switches tools. A second section can be placed at another gap from the new ledge.
+- Includes: In Toki Tori Forest Falls Level 5, activate Bridge Builder after the upward warp to cross the first gap. Place a second bridge from the central ledge and use the new footing to reach the upper egg.
+- Excludes: A pre-existing bridge raised by a remote switch, a jump across an open gap, direct relocation and a separate block that can be formed before being carried to the gap.
+- Parameters: Builder position and facing, eligible gap, horizontal placed footing, passage and persistence
+- Evidence: [Toki Tori decomposition](../games/s-z/toki-tori.md), TT-004, TT-005. The original US cartridge replay and original-version guides support the bounded behaviour.
+- Novelty: first isolated for `GAME-0735`. See [TAXONOMY_CHANGE_481](../../research/taxonomy-changes/TAXONOMY_CHANGE_481.md). No external novelty claim.
+
+## SYS-2045 — Pay a separate score award for clearing the arena without dying
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: At successful arena settlement, check whether the controlled body died during that arena. A deathless clear adds its own score credit independently of optional rescue or transition-input awards.
+- Includes: After clearing Nex Machina 1-1 without a death, the game adds the observed 10,000 points. The same award appears when the end dash is not credited.
+- Excludes: A reward for ending with full health, a bonus for never taking damage, a clear predicate that forbids retrying and a separate reward for successfully timing the exit dash.
+- Parameters: Arena boundary, death history, successful clear, separate award and accumulated score
+- Evidence: [Nex Machina decomposition](../games/m-r/nex-machina.md), NM-006. Housemarque’s published v1.05 rules and annotated opening captures establish the bounded behaviour.
+- Novelty: first isolated for `GAME-0734`. See [TAXONOMY_CHANGE_480](../../research/taxonomy-changes/TAXONOMY_CHANGE_480.md). No external novelty claim.
+
+## SYS-2044 — Judge an optional dash at ring coincidence during the automatic handoff
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: After the combat clear, a moving outer ring approaches a smaller target ring at the player. A dash timed to their coincidence adds a separate score reward. Missing that window still allows the already triggered handoff.
+- Includes: In Nex Machina, take the end dash when the rings meet. The Experienced opening replay credits 1,000 points and proceeds to 1-2.
+- Excludes: A dash required to finish the hostile clear, ordinary invulnerability on a combat dash, accruing points merely from a faster clear and a timing miss that blocks progress.
+- Parameters: Clear trigger, moving prompt, fixed target ring, input window, dash result, points and independent transition
+- Evidence: [Nex Machina decomposition](../games/m-r/nex-machina.md), NM-005. Housemarque’s published v1.05 rules and annotated opening captures establish the bounded behaviour.
+- Novelty: first isolated for `GAME-0734`. See [TAXONOMY_CHANGE_480](../../research/taxonomy-changes/TAXONOMY_CHANGE_480.md). No external novelty claim.
+
+## SYS-2043 — Expose an uncredited rescue subject by destroying its authored cover
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A destructible environment object conceals a particular rescue subject. Removing the cover makes that subject available in the local encounter. Rescue credit still requires reaching the independently exposed subject before the encounter advances.
+- Includes: In Nex Machina Techno Forest 1-1, fire destroys the relevant northeast foliage and exposes a hidden human. Contact then records the secret rescue.
+- Excludes: A prop that already awards the rescue when it breaks, a collectible produced by defeating an enemy, a required escort to a separate exit and a cosmetic change in foliage.
+- Parameters: Local cover, destruction predicate, hidden subject, exposed position, independent contact and transition cutoff
+- Evidence: [Nex Machina decomposition](../games/m-r/nex-machina.md), NM-003. Housemarque’s published v1.05 rules and annotated opening captures establish the bounded behaviour.
+- Novelty: first isolated for `GAME-0734`. See [TAXONOMY_CHANGE_480](../../research/taxonomy-changes/TAXONOMY_CHANGE_480.md). No external novelty claim.
+
+## SYS-2042 — Toggle a local editable cell between empty and solid footing
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: An eligible cast into an empty tile creates a persistent solid block at that tile. The same effect removes an existing mutable block. Fixed geometry remains intact. The resulting occupancy is available to ordinary support and collision rules immediately after resolution.
+- Includes: A brown block created in Solomon’s Key can serve as a step. The same spell removes a brown block to reopen the space while the white masonry stays fixed.
+- Excludes: Pushing an existing block, replacing a whole matching group, removing stone without a corresponding creation rule and materialising temporary platforms at pre-authored locations.
+- Parameters: Addressed tile, mutable occupancy, fixed geometry, completed edit and subsequent support
+- Evidence: [Solomon’s Key decomposition](../games/s-z/solomons-key.md), SK-004. The North American cartridge manual and recorded NES routes establish the scoped sequence.
+- Novelty: first isolated for `GAME-0733`. See [TAXONOMY_CHANGE_479](../../research/taxonomy-changes/TAXONOMY_CHANGE_479.md). No external novelty claim.
+
+## SYS-2041 — Grant travel separately at a local stamp threshold and retain the credited stamps
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: An addressed travel attendant checks the current region’s credited stamps against its ride requirement. A qualifying check grants travel entitlement while preserving the stamp count. Choosing to travel is a later action.
+- Includes: The Homelanda attendant grants a free ride once the card holds one stamp. The player can then choose Oaklaville.
+- Excludes: Immediate transport on task completion, a ticket exchange that subtracts the task credits, an always-available route and a requirement to finish every local task.
+- Parameters: Region, stamp count, required count, attendant, entitlement, destination and departure choice
+- Evidence: [TOEM decomposition](../games/s-z/toem.md), TE-005, TE-006. The developer’s account and recorded PS5 play establish the scoped sequence.
+- Novelty: first isolated for `GAME-0732`. See [TAXONOMY_CHANGE_478](../../research/taxonomy-changes/TAXONOMY_CHANGE_478.md). No external novelty claim.
+
+## SYS-2040 — Accept a selected stored photograph for an addressed request and settle its stamp
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A pending request checks one saved photograph selected for its recipient. When the photo satisfies the request, the task can settle and record its one-time stamp on the community card.
+- Includes: Show Nana her saved portrait from the album in TOEM. Her acceptance leads to stamping the card for the completed request.
+- Excludes: A reward at the shutter, replacing a species high-score record, automatic collection without a recipient and spending the stamp to open a door.
+- Parameters: Recipient, open request, saved entry, subject acceptance, completion and stamp credit
+- Evidence: [TOEM decomposition](../games/s-z/toem.md), TE-004, TE-005. The developer’s account and recorded PS5 play establish the scoped sequence.
+- Novelty: first isolated for `GAME-0732`. See [TAXONOMY_CHANGE_478](../../research/taxonomy-changes/TAXONOMY_CHANGE_478.md). No external novelty claim.
+
+## SYS-2039 — Commit a reviewed exposure to the album on explicit save confirmation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A completed camera exposure becomes a pending preview. Confirming the save inserts it into the retained album as a selectable photograph. The shutter alone does not make that preview a saved entry.
+- Includes: In TOEM, photograph Nana and accept the album prompt to retain the image for later selection.
+- Excludes: Automatic archive insertion, relinquishing an already saved entry, approving the merit of a photograph for a quest and game-external screenshots.
+- Parameters: Exposure, pending preview, save choice, retained entry and later selection
+- Evidence: [TOEM decomposition](../games/s-z/toem.md), TE-003, TE-004. The developer’s account and recorded PS5 play establish the scoped sequence.
+- Novelty: first isolated for `GAME-0732`. See [TAXONOMY_CHANGE_478](../../research/taxonomy-changes/TAXONOMY_CHANGE_478.md). No external novelty claim.
+
+## SYS-2038 — Pay a discrete elapsed-time bracket after clearing an arena
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: When the live arena has settled, classify the elapsed play time in an explicit table of contiguous award brackets. Add the corresponding award to the accumulated score. A settled round outside the rewarded brackets still advances with zero time credit.
+- Includes: Pengo Round 1 reports 48 seconds and adds 500 points for the 40–49 second bracket after the maze is cleared.
+- Excludes: A continuously computed remaining-time score at a physical finish, a timed failure that disallows settlement and a medal recorded without an additive point credit.
+- Parameters: Round clearance, measured elapsed time, inclusive award intervals, displayed result, cumulative score and zero-credit bracket
+- Evidence: [Pengo decomposition](../games/m-r/pengo.md), PE-007. SEGA’s cabinet manual and recorded arcade play constrain the accepted rules. Exact capture hardware and revision are unverified.
+- Novelty: first isolated for `GAME-0731`. See [TAXONOMY_CHANGE_477](../../research/taxonomy-changes/TAXONOMY_CHANGE_477.md). No external novelty claim.
+
+## SYS-2037 — Convert a contiguous special-object line into a position-dependent bonus and global stun
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A contiguous straight alignment of all designated movable specials triggers a bonus selected by the line’s relation to a boundary. The bonus settlement pauses movement and grants the controlled actor a limited window in which all surviving active hostiles are disabled.
+- Includes: Line up all three diamond blocks horizontally or vertically. The interior line credits 10,000 points, and the cabinet rules credit 5,000 for a line along a wall. After the award count, Pengo can reach temporarily stunned Sno-Bees.
+- Excludes: Matching identical ordinary blocks to remove them, actor-contact stun along just one wall, a terminal win for alignment and a score award that leaves the hostile state unchanged.
+- Parameters: Designated objects, contiguous row or column, boundary relation, score tiers, settlement pause and global stun duration
+- Evidence: [Pengo decomposition](../games/m-r/pengo.md), PE-006. SEGA’s cabinet manual and recorded arcade play constrain the accepted rules. Exact capture hardware and revision are unverified.
+- Novelty: first isolated for `GAME-0731`. See [TAXONOMY_CHANGE_477](../../research/taxonomy-changes/TAXONOMY_CHANGE_477.md). No external novelty claim.
+
+## SYS-2036 — Hatch hostile reserves from destructible hosts and cancel a spawn by breaking its host
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A live arena holds reserve hostiles inside particular destructible objects. Each eligible intact host can release its occupant when the game triggers a hatch. Destroying an occupied object before hatching removes that reserve and prevents its later arrival.
+- Includes: An ordinary ice block containing a Sno-Bee egg can hatch into another pursuer. Break the egg-bearing block before it opens to deny the reinforcement.
+- Excludes: A global wave queue unaffected by the destruction of local objects, blocking a doorway after spawn, escorting friendly hatchlings and destroying an empty block to cancel a different object’s reserve.
+- Parameters: Host identity, egg-bearing state, hatch trigger, destructibility, active hostile and reserve depletion
+- Evidence: [Pengo decomposition](../games/m-r/pengo.md), PE-005. SEGA’s cabinet manual and recorded arcade play constrain the accepted rules. Exact capture hardware and revision are unverified.
+- Novelty: first isolated for `GAME-0731`. See [TAXONOMY_CHANGE_477](../../research/taxonomy-changes/TAXONOMY_CHANGE_477.md). No external novelty claim.
+
+## SYS-2035 — Pulse one side to make its wall-contact hostiles temporarily defeatable by touch
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A player interaction directed at an arena boundary sends a local pulse along that side. A hostile touching that same side is immobilised temporarily. Reaching it before recovery defeats it on contact, while ordinary unstunned hostile contact is lethal to the controlled body.
+- Includes: Hit a perimeter side when a Sno-Bee is against it, then reach the disabled Sno-Bee before it resumes pursuit.
+- Excludes: A pulse that clears enemies immediately, a weapon hit with no shared boundary, stunning nearby enemies away from the addressed side and granting the player general contact immunity.
+- Parameters: Addressed side, qualifying wall contact, stun window, vulnerable encounter and recovery
+- Evidence: [Pengo decomposition](../games/m-r/pengo.md), PE-004. SEGA’s cabinet manual and recorded arcade play constrain the accepted rules. Exact capture hardware and revision are unverified.
+- Novelty: first isolated for `GAME-0731`. See [TAXONOMY_CHANGE_477](../../research/taxonomy-changes/TAXONOMY_CHANGE_477.md). No external novelty claim.
+
+## SYS-2034 — Carry hostiles with a sliding block and crush them at its solid stop
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: An independently sliding block sweeps eligible hostiles along its travel axis. At the solid stop it resolves the captured bodies together, with score credit for the number crushed in that one displacement.
+- Includes: In the first Pengo maze, an ice block catches a Sno-Bee in its lane and eliminates it at the terminal ice block or wall. The cabinet rules pay a larger fixed award for two caught with the same block.
+- Excludes: Direct weapon strikes, damage applied only at the first collision, blocks that stop upon touching one hostile and clearing a stunned hostile through player contact.
+- Parameters: Sliding body, sweep range, captured-hostile set, terminal solid geometry and count-dependent score
+- Evidence: [Pengo decomposition](../games/m-r/pengo.md), PE-003. SEGA’s cabinet manual and recorded arcade play constrain the accepted rules. Exact capture hardware and revision are unverified.
+- Novelty: first isolated for `GAME-0731`. See [TAXONOMY_CHANGE_477](../../research/taxonomy-changes/TAXONOMY_CHANGE_477.md). No external novelty claim.
+
+## SYS-2033 — Slide a free facing block to a stop or break the obstructed ordinary block
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: An adjacent facing interaction branches on the block and the space immediately beyond it. An unblocked block travels straight until a solid stop. An obstructed ordinary block breaks in place. An eligible permanent block can travel when free and remains intact under the obstructed interaction.
+- Includes: Press the arcade action button facing a single ice block with clearance behind it to send it across the lane. If the facing block has a solid stop immediately beyond it, an ordinary block breaks and a diamond block stays intact.
+- Excludes: A one-cell crate push, moving an entire connected chain, damage accumulation and selecting the break mode independently of the forward geometry.
+- Parameters: Facing, adjacent block type, immediately following space, solid stop, destructive eligibility and travel direction
+- Evidence: [Pengo decomposition](../games/m-r/pengo.md), PE-002. SEGA’s cabinet manual and recorded arcade play constrain the accepted rules. Exact capture hardware and revision are unverified.
+- Novelty: first isolated for `GAME-0731`. See [TAXONOMY_CHANGE_477](../../research/taxonomy-changes/TAXONOMY_CHANGE_477.md). No external novelty claim.
+
+## SYS-2032 — Retain separate completion credit for distinct accepted ordering rules
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Completing a shared puzzle layout credits the satisfied authored ordering rule and permits ordinary progress after one valid solution. Reopening the puzzle restores the starting arrangement while preserving the credited rules. A distinct accepted ordering can fill another credit slot on a subsequent solve.
+- Includes: The first bookshelf puzzle credits an order by height or an order by spine thickness. A first accepted arrangement can advance, while replay allows the other star to be earned for the same set of books.
+- Excludes: A best-score grade that overwrites the previous result, separate credit for repeatedly earning the same solution, mandatory completion of every alternate rule before ordinary progress and replacing a predicate with a menu-selected difficulty.
+- Parameters: Puzzle identity, layout on replay, credited predicates, visible result slots and progression after at least one credit
+- Evidence: [A Little to the Left decomposition](../games/a-f/a-little-to-the-left.md), AL-004 and AL-005. The released puzzle traces and independent player guide corroborate the scoped transitions. Exact capture hardware and revision are unverified.
+- Novelty: first isolated for `GAME-0730`. See [TAXONOMY_CHANGE_476](../../research/taxonomy-changes/TAXONOMY_CHANGE_476.md). No external novelty claim.
+
+## SYS-2031 — Keep a deployed descent available after linked access geometry changes
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: From the upper end of an authored vertical connection, deploy a previously stowed climbable segment into reach of the lower floor. The deployed connection permits a new ascent from that floor and remains registered while a separate nearby route mechanism is reconfigured.
+- Includes: In The Guiding Light, lower the coiled chain from the upper ledge, descend to move the counterweight to the other pressure post, and ascend the same chain afterwards.
+- Excludes: An already usable ladder; climbing the mechanism that was raised by the pressure post; an attached safety line that only arrests a fall; a route available solely while its own plate remains occupied.
+- Parameters: Upper release point, lower intercept, stowed and deployed states, traversal directions, independent mechanism occupancy and persistence boundary
+- Evidence: [The Last Campfire decomposition](../games/s-z/the-last-campfire.md), LC-004 and LC-005. The attributed PlayStation 4 trace, an independent puzzle trace and the player walkthrough corroborate the scoped transitions. Exact capture hardware and revision are unverified.
+- Novelty: first isolated for `GAME-0729`. See [TAXONOMY_CHANGE_475](../../research/taxonomy-changes/TAXONOMY_CHANGE_475.md). No external novelty claim.
+
+## SYS-2030 — Deform a moving membrane against geometry without losing its contents
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A floating carrier’s membrane conforms to constraining surfaces under movement while keeping the same enclosed payload. After clearance it can round out again, preserving the live carrier and its payload.
+- Includes: The occupied carrier stretches along the narrow wind channel of Tir Tairngire 1 and becomes rounder again beyond the constriction while the seven-spirit indicator stays unchanged.
+- Excludes: An explicit deflate command, cutting and joining, a cosmetic wobble with fixed clearance and openly stuffing cargo through an impassable wall.
+- Parameters: Membrane compliance, pressure, clearance geometry, enclosed payload and post-contact shape recovery
+- Evidence: [Soul Bubbles decomposition](../games/s-z/soul-bubbles.md), SB-006. The official booklet and recorded Nintendo DS route support the stated boundary. The captured cartridge region and revision are unverified.
+- Novelty: first isolated for `GAME-0726`. See [TAXONOMY_CHANGE_472](../../research/taxonomy-changes/TAXONOMY_CHANGE_472.md). No external novelty claim.
+
+## SYS-2029 — Revise the announced admission after reviewing a record of a recent route action
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A gatekeeper announces a prospective admission from existing evidence, then reads a newly presented record of an action taken along the opening route. On the witnessed route the gatekeeper reverses the announced result and enables the other exit while the acquired capability remains available.
+- Includes: In Crypt Custodian’s ordinary Palace route, Kendra sees a newly presented page about broken statues, withdraws the announced Palace admission and opens the exit toward Weeping Wastes while Pluto keeps the broom.
+- Excludes: A freely selected ending, a direct credential consumed at a door, a tally proven to vary the destination, and treating the dialogue variant as proof of a different accessible region.
+- Parameters: Gatekeeper, initial announcement, recently recorded act, reviewed evidence, enabled exit and retained capability
+- Evidence: [Crypt Custodian decomposition](../games/a-f/crypt-custodian.md), CC-005 and CC-006. Xbox-attributed footage and the written opening account support the stated boundary. The exact installed build and broader path variants are unverified.
+- Novelty: first isolated for `GAME-0725`. See [TAXONOMY_CHANGE_471](../../research/taxonomy-changes/TAXONOMY_CHANGE_471.md). No external novelty claim.
+
+## SYS-2028 — Return a missed ordinary jump to its near ledge at a health cost
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Falling below the usable surface on an ordinary crossing returns the current protagonist to the near ledge with a nonterminal health loss. The route remains live and a new jump or detour is immediately available.
+- Includes: In Crypt Custodian’s Palace opening, falling into the gap near the large statue returns Pluto to the same side with one fewer visible health unit. He can walk away without restarting the opening sequence.
+- Excludes: A lethal checkpoint retry, a deliberate rewind, a boss-arena fall that resets an encounter, and treating every ledge or hazard as having the same cost.
+- Parameters: Usable ledge, fall boundary, nearby return position, visible health debit and resumed route
+- Evidence: [Crypt Custodian decomposition](../games/a-f/crypt-custodian.md), CC-002. Xbox-attributed footage and the written opening account support the stated boundary. The exact installed build and broader path variants are unverified.
+- Novelty: first isolated for `GAME-0725`. See [TAXONOMY_CHANGE_471](../../research/taxonomy-changes/TAXONOMY_CHANGE_471.md). No external novelty claim.
+
+## SYS-2027 — Store one earned chart item and deploy its type-specific effect
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Capturing the marked notes in an eligible bar grants its typed song item to a one-item inventory. A separate live command deploys the item, which either resolves the free notes on the addressed panel or amplifies score over a bounded span of the song.
+- Includes: In Frequency, earn and deploy Auto-catcher on a free-note panel. A stored Multiplier instead doubles subsequently earned score for the next eight bars.
+- Excludes: An ordinary clean-track streak, automatic deployment on acquisition, continuous meter charge collection and holding an inventory of concurrently usable items.
+- Parameters: Marked bar, one stored item, deployment command, free-note panel, scoring factor and span
+- Evidence: [Frequency decomposition](../games/a-f/frequency.md), FQ-006. The North American instruction booklet and silent PS2 frame evidence support the stated boundary. Executable revision and exact judgement windows are unverified.
+- Novelty: first isolated for `GAME-0724`. See [TAXONOMY_CHANGE_470](../../research/taxonomy-changes/TAXONOMY_CHANGE_470.md). No external novelty claim.
+
+## SYS-2026 — Increase capture scoring through consecutive clean instrument-track activations
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Successive instrument-track captures without an intervening error build a score multiplier across tracks. The credited streak unit is a captured track rather than one successful note, and the game tracks the longest such streak.
+- Includes: In Frequency, activate a part, shift to another track and capture its phrase cleanly to extend the track streak and its bonus.
+- Excludes: The note-by-note multiplier of a single instrument chart, a permanently purchased scoring upgrade, and Frequency’s separate time-limited Multiplier item.
+- Parameters: Capture award, previous clean captures, intervening mistake, streak multiplier and best track streak
+- Evidence: [Frequency decomposition](../games/a-f/frequency.md), FQ-005 and FQ-008. The North American instruction booklet and silent PS2 frame evidence support the stated boundary. Executable revision and exact judgement windows are unverified.
+- Novelty: first isolated for `GAME-0724`. See [TAXONOMY_CHANGE_470](../../research/taxonomy-changes/TAXONOMY_CHANGE_470.md). No external novelty claim.
+
+## SYS-2025 — Activate one instrument part by completing its eligible phrase without a miss
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A successful error-free capture of the eligible phrase activates its instrument part for the rest of the current song section. That part continues automatically while the player addresses a different track. A miss closes the current capture window, leaving later eligible phrases available.
+- Includes: In Frequency, hit the notes of the eligible two-bar phrase. The track activates, the Energy Meter gains charge and the player can move while the captured part continues.
+- Excludes: Granting automatic playback for a single correct note, keeping the part captured into the next song section, and merely awarding a note streak without changing playback.
+- Parameters: Eligible phrase, required notes, failure boundary, current section, automatic part and capture reward
+- Evidence: [Frequency decomposition](../games/a-f/frequency.md), FQ-003 and FQ-004. The North American instruction booklet and silent PS2 frame evidence support the stated boundary. Executable revision and exact judgement windows are unverified.
+- Novelty: first isolated for `GAME-0724`. See [TAXONOMY_CHANGE_470](../../research/taxonomy-changes/TAXONOMY_CHANGE_470.md). No external novelty claim.
+
+## SYS-2024 — Retain mined crystals after a dig ends and expose eligible upgrades on return
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: After a bounded dig ends, carried crystals appear in its result and remain available on returning to the surface. The surface exposes priced improvements for subsequent digs, independent of the depth reached in a failed attempt.
+- Includes: In holedown, exhausting the first dig’s shots can still leave crystals and mark a surface upgrade offer available. One witnessed offer raises the allowance from 20 to 30 shots for two crystals.
+- Excludes: Keeping the mine at its last depth, immediate in-flight power-ups, paying cash for an upgrade, or treating an available offer as a completed purchase.
+- Parameters: Attempt ending, carried crystals, return to surface, available offer and next-attempt capacity
+- Evidence: [holedown decomposition](../games/g-l/holedown.md), HD-006, HD-007. Developer material, original Android reporting and silent frame review support the stated boundary. Exact Android build and numerical physics are unverified.
+- Novelty: first isolated for `GAME-0723`. See [TAXONOMY_CHANGE_469](../../research/taxonomy-changes/TAXONOMY_CHANGE_469.md). No external novelty claim.
+
+## SYS-2023 — Advance the shaft after all active balls finish the volley
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Finishing the committed flight of all balls advances the shaft between aiming opportunities. Surviving blocks rise toward the upper boundary and deeper layout can enter view before the next launch becomes ready.
+- Includes: In holedown, blocks shift upward after the final live ball returns or leaves play. Clearing blocks during flight changes the layout that is shifted at the end.
+- Excludes: Independently timed continuous scrolling, a row advance on each individual hit, or a new shot fired while other balls are still resolving.
+- Parameters: Live balls, final return, surviving layout, shaft advancement and next aiming state
+- Evidence: [holedown decomposition](../games/g-l/holedown.md), HD-005. Developer material, original Android reporting and silent frame review support the stated boundary. Exact Android build and numerical physics are unverified.
+- Novelty: first isolated for `GAME-0723`. See [TAXONOMY_CHANGE_469](../../research/taxonomy-changes/TAXONOMY_CHANGE_469.md). No external novelty claim.
+
+## SYS-2022 — Release supported destructible blocks while preserving wall-fixed blocks
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Breaking a lower supporting block can release dependent blocks even when they still have remaining hit counts. A marked wall-fixed block stays in the shaft independently of that support and requires its own counted hits.
+- Includes: In holedown, breaking a lower ordinary block can clear a group above it, while a marked wall-fixed block survives the loss of neighbouring blocks.
+- Excludes: All blocks falling regardless of anchorage, ordinary sliding rows after a turn, and a tower where the falling piece is kept as a new climbable foothold.
+- Parameters: Lower supporting block, supported ordinary blocks, wall-fixed marker and independent removal requirement
+- Evidence: [holedown decomposition](../games/g-l/holedown.md), HD-004. Developer material, original Android reporting and silent frame review support the stated boundary. Exact Android build and numerical physics are unverified.
+- Novelty: first isolated for `GAME-0723`. See [TAXONOMY_CHANGE_469](../../research/taxonomy-changes/TAXONOMY_CHANGE_469.md). No external novelty claim.
+
+## SYS-2021 — Rebound balls and count repeated hits against each numbered block
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A launched ball rebounds from solid shaft walls and block faces. Every eligible collision with a numbered block reduces that block’s remaining hit count. The block can survive earlier impacts and is removed on its final required hit.
+- Includes: In holedown, a ball can cross the shaft after the wall rebound and contribute repeated hits to blocks during the same launch. A block’s live number decreases between impacts.
+- Excludes: Removing every target at the first touch, merely registering a hit score without changing the target, or spending another shot for every rebound.
+- Parameters: Wall boundary, contacted block face, reflected travel, per-block remaining hits and removal
+- Evidence: [holedown decomposition](../games/g-l/holedown.md), HD-003. Developer material, original Android reporting and silent frame review support the stated boundary. Exact Android build and numerical physics are unverified.
+- Novelty: first isolated for `GAME-0723`. See [TAXONOMY_CHANGE_469](../../research/taxonomy-changes/TAXONOMY_CHANGE_469.md). No external novelty claim.
+
+## SYS-2020 — Resolve selected regional arrival to entry or latest recorded marker
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A committed transfer brings the avatar to the selected region’s authored entry on the first visit, or to that region’s latest reached travel marker on a later visit. The transported inventory and acquired capabilities remain with the avatar.
+- Includes: QuackShot’s first flight into Mexico lands at its start. A later flight carrying the Hero Key arrives beside the checkpoint flag, by the locked ruins.
+- Excludes: A death retry, a manually set save-state, arbitrary fast travel coordinates, or selecting a separately named landing point by its marker.
+- Parameters: Chosen region, reached marker, initial entry, resolved landing point and carried state
+- Evidence: [QuackShot Starring Donald Duck decomposition](../games/m-r/quackshot-starring-donald-duck.md), QS-004 through QS-008. The North American retail instructions and two Genesis route recordings support the stated boundary. Exact cartridge revision and numerical timing are unverified.
+- Novelty: first isolated for `GAME-0722`. See [TAXONOMY_CHANGE_468](../../research/taxonomy-changes/TAXONOMY_CHANGE_468.md). No external novelty claim.
+
+## SYS-2019 — Turn an aimed wall impact into a jumpable step
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: An eligible projectile hitting a compatible vertical face attaches at the impact height and temporarily provides a small landing surface. Successive shots at different heights can form a climb the player traverses by jumping.
+- Includes: In QuackShot, red plungers stick to the tall Duckburg wall and Donald climbs by jumping onto them. The earlier yellow shot only supplies hostile control in this route.
+- Excludes: An avatar clinging directly to the wall, a permanently placed ladder, a grapple that pulls the avatar, and an authored bridge activated as a single pre-existing structure.
+- Parameters: Projectile kind, eligible face, actual impact height, attached support, jump reach and local lifetime
+- Evidence: [QuackShot Starring Donald Duck decomposition](../games/m-r/quackshot-starring-donald-duck.md), QS-007 and QS-008. The North American retail instructions and two Genesis route recordings support the stated boundary. Exact cartridge revision and numerical timing are unverified.
+- Novelty: first isolated for `GAME-0722`. See [TAXONOMY_CHANGE_468](../../research/taxonomy-changes/TAXONOMY_CHANGE_468.md). No external novelty claim.
+
+## SYS-2018 — Temporarily stop an ordinary hostile with a non-finishing projectile
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A compatible projectile impact makes an ordinary hostile temporarily inactive without removing it. The player can move past while it is stopped, and the threat can resume ordinary behaviour after recovery.
+- Includes: QuackShot’s yellow plunger briefly disables an eligible Duckburg opponent so Donald can go past. The red upgrade retains this use.
+- Excludes: Reducing a health bar without interrupting action, permanently eliminating the hostile, and exposing a compulsory contextual finishing attack.
+- Parameters: Compatible shot, susceptible target, stopped state, passage opportunity and return to regular behaviour
+- Evidence: [QuackShot Starring Donald Duck decomposition](../games/m-r/quackshot-starring-donald-duck.md), QS-002. The North American retail instructions and two Genesis route recordings support the stated boundary. Exact cartridge revision and numerical timing are unverified.
+- Novelty: first isolated for `GAME-0722`. See [TAXONOMY_CHANGE_468](../../research/taxonomy-changes/TAXONOMY_CHANGE_468.md). No external novelty claim.
+
+## SYS-2017 — Exchange a displayed coin price for a newly selectable puzzle world
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: At an authored capsule dispenser, accept the displayed coin exchange. On success the spend reduces the balance and the delivered capsule makes its puzzle world available in the world selector.
+- Includes: In The Shape of Things, the opening exchange spends seven G-Coins and awards the woodland capsule, which can then be selected by the shelf to open its puzzle set.
+- Excludes: A cosmetic-only capsule, a bag opened from carried stock, a direct coin-to-hint purchase, and assumptions about the order or probabilities of subsequent draws.
+- Parameters: Dispenser, displayed price, confirmed exchange, balance, delivered capsule and selectable world
+- Evidence: [The Shape of Things decomposition](../games/s-z/the-shape-of-things.md), ST-001 and ST-002. Nintendo store rules and independent recorded Switch and Steam routes support the bounded transitions. Exact acceptance intervals and build identity remain unverified.
+- Novelty: first isolated for `GAME-0721`. See [TAXONOMY_CHANGE_467](../../research/taxonomy-changes/TAXONOMY_CHANGE_467.md). No external novelty claim.
+
+## SYS-2016 — Settle an accepted object reconstruction into a coin and the next puzzle
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: When the current object is accepted in its restored configuration, the game emits a local solution cue, credits the currency reward and advances the sequence to the next object while remaining in the same set.
+- Includes: The Shape of Things shows success effects and one additional G-Coin after the compass, pine cone and backpack. The next object enters the same woodland setting.
+- Excludes: Confirming the final object in a separate menu, buying another capsule, crediting partial progress, and choosing the next puzzle manually after every solution.
+- Parameters: Current object, accepted configuration, completion cue, credited coin, sequence position and next object
+- Evidence: [The Shape of Things decomposition](../games/s-z/the-shape-of-things.md), ST-004 and ST-005. Nintendo store rules and independent recorded Switch and Steam routes support the bounded transitions. Exact acceptance intervals and build identity remain unverified.
+- Novelty: first isolated for `GAME-0721`. See [TAXONOMY_CHANGE_467](../../research/taxonomy-changes/TAXONOMY_CHANGE_467.md). No external novelty claim.
+
+## SYS-2015 — Credit a threshold of ordinary pickups at a successful clear
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Count the eligible pickups collected for the current stage attempt. Reaching the declared count enables a distinct collection award when the ordinary exit settles; lower totals still permit the exit.
+- Includes: In Bean Bay, an attempt with 104 red crystals unlocks the pink crystal award on the clear screen while the four-letter set remains incomplete.
+- Excludes: A count required to open the exit, turning every block of pickups into an extra life during the route, a requirement to collect every available pickup, or the banked identities of a distinct letter set.
+- Parameters: Current eligible pickup total, threshold, ordinary clear and separate collection award
+- Evidence: [Kaze and the Wild Masks decomposition](../games/g-l/kaze-and-the-wild-masks.md), KZ-006 and KZ-007. The Xbox-labelled recording, launch sources and the independent route or documentation support the bounded rule. Exact rates and Xbox build were unverified.
+- Novelty: first isolated for `GAME-0720`. See [TAXONOMY_CHANGE_466](../../research/taxonomy-changes/TAXONOMY_CHANGE_466.md). No external novelty claim.
+
+## SYS-2014 — Apply a traversal form at its route altar
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: On reaching an eligible fixed altar, the route applies its designated traversal form to the same controlled avatar and restores control with that form’s movement commands within the same stage attempt.
+- Includes: The shark altar partway through Bean Bay changes Kaze’s form and exposes a distinct fast-swimming command in the water below.
+- Excludes: Selecting a form from an inventory, applying a cosmetic mask, teleporting to a different level or switching to another persistent character. Generic mode portals and fixtures that change only body scale have separate entries.
+- Parameters: Fixed altar, addressed form, entry interaction, unchanged stage and available movement commands
+- Evidence: [Kaze and the Wild Masks decomposition](../games/g-l/kaze-and-the-wild-masks.md), KZ-003 and KZ-004. The Xbox-labelled recording, launch sources and the independent route or documentation support the bounded rule. Exact rates and Xbox build were unverified.
+- Novelty: first isolated for `GAME-0720`. See [TAXONOMY_CHANGE_466](../../research/taxonomy-changes/TAXONOMY_CHANGE_466.md). No external novelty claim.
+
+## SYS-2013 — Resolve the same attack command as a surrounding sweep at full reserve
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: At maximum attack reserve, the ordinary attack command resolves a surrounding sweep that can affect eligible enemies on both sides of the controlled body. A partial reserve still supports the regular directional attack.
+- Includes: In Alisia Dragoon a flashing full Thunder Power gauge signals the rolling bolt, which reaches behind Alisia as well as in front of her.
+- Excludes: A second dedicated super button, a bar that must fill before any attack is permitted, a precise damage multiplier, or a sweep automatically emitted on reaching capacity.
+- Parameters: Full reserve predicate, ordinary input, directional fallback, sweep coverage and eligible enemies
+- Evidence: [Alisia Dragoon decomposition](../games/a-f/alisia-dragoon.md), AD-002 through AD-004. The retail instruction booklets and two attributed Genesis recordings corroborate the boundary. Exact ranges, rates and ROM revision were not measured.
+- Novelty: first isolated for `GAME-0719`. See [TAXONOMY_CHANGE_465](../../research/taxonomy-changes/TAXONOMY_CHANGE_465.md). No external novelty claim.
+
+## SYS-2012 — Acquire forward eligible targets for ongoing lightning without a manual aim
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: While the directional lightning attack is active, the game bends the discharge toward eligible targets within reach on the facing side. The player chooses facing and casting, while local target acquisition and the bent trajectory are resolved automatically.
+- Includes: The forest sequence in Alisia Dragoon shows a right-facing cast bending upward toward airborne targets with no separate aim action.
+- Excludes: A manually steered projectile, an assigned target held through lost alignment, an omnidirectional full-reserve burst, and an automatic weapon that fires without the cast input.
+- Parameters: Current facing, cast state, eligible targets, usable range and resolved discharge
+- Evidence: [Alisia Dragoon decomposition](../games/a-f/alisia-dragoon.md), AD-002. The retail instruction booklets and two attributed Genesis recordings corroborate the boundary. Exact ranges, rates and ROM revision were not measured.
+- Novelty: first isolated for `GAME-0719`. See [TAXONOMY_CHANGE_465](../../research/taxonomy-changes/TAXONOMY_CHANGE_465.md). No external novelty claim.
+
+## SYS-2011 — Settle a field-verified route sketch and expose its separate passage choice
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: When the player examines a route sketch at its matching world location, the sketch becomes confirmed and its authored onward route becomes available as a local choice. Confirming the sketch does not perform that traversal.
+- Includes: At the east-loch site in A Highland Song, the green check on the sketch is followed by a separately offered Go or Don’t go choice. Choosing Go takes Moira to a different walkable ridge.
+- Excludes: Ordinary wayfinding to an always-visible exit, transporting the avatar when a marker is placed, physically reshaping terrain, or collecting an item without a route choice.
+- Parameters: Carried sketch, local verification, confirmed state, linked route offer, separate acceptance and successor area
+- Evidence: [A Highland Song decomposition](../games/a-f/a-highland-song.md), AHS-006, AHS-007. The inkle navigation notes and two commercial release-window records corroborate the boundary. Exact builds and confirmation radius were not measured.
+- Novelty: first isolated for `GAME-0718`. See [TAXONOMY_CHANGE_464](../../research/taxonomy-changes/TAXONOMY_CHANGE_464.md). No external novelty claim.
+
+## SYS-2010 — Carry a tentative sketch assignment into local navigation
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A candidate chosen in the distant survey persists in the ordinary terrain view as local guidance linked to the selected clue. Reaching that guide and settling the sketch remain separate events.
+- Includes: On the approach to the Giant’s Tooth in A Highland Song, the preliminary east-loch marker becomes a light column at the shoreline alongside the associated sketch.
+- Excludes: A solved route highlighted automatically, a mandatory exact survey coordinate, a single static checkpoint icon, and immediate travel to a remote point.
+- Parameters: Selected survey site, associated sketch, tentative state, retained guidance and later examination
+- Evidence: [A Highland Song decomposition](../games/a-f/a-highland-song.md), AHS-004, AHS-005. The inkle navigation notes and two commercial release-window records corroborate the boundary. Exact builds and confirmation radius were not measured.
+- Novelty: first isolated for `GAME-0718`. See [TAXONOMY_CHANGE_464](../../research/taxonomy-changes/TAXONOMY_CHANGE_464.md). No external novelty claim.
+
+## SYS-2009 — Release collectible note rewards from well-timed chorus replies
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: During an eligible local chorus, timely replies produce additional collectible note rewards. The rewards feed optional progress within the stage, distinct from starting the chorus or reaching the stage exit.
+- Includes: At the Franzea 1 chorus, the guide links timely Circle presses to more coloured notes. The run produces coloured note sprites and continues traversal with notes credited.
+- Excludes: A decorative music layer, a reply yielding only an accuracy grade, mandatory rhythm inputs that reactivate a blocked route, and a global population quota.
+- Parameters: Eligible chorus, reply timing, emitted note reward and optional credit
+- Evidence: [LocoRoco 2 decomposition](../games/g-l/locoroco-2.md), LR2-006. The original publisher overview, Franzea 1 route and scoped English PSP frames corroborate the result. Exact judgment windows were not measured.
+- Novelty: first isolated for `GAME-0717`. See [TAXONOMY_CHANGE_463](../../research/taxonomy-changes/TAXONOMY_CHANGE_463.md). No external novelty claim.
+
+## SYS-2008 — Fill an eligible dry river route from a placed powered pump
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A powered pump placed on compatible dry channel terrain supplies water along the connected bed within its effective reach, and the resulting water cleans adjacent banks. Placement height can change reach.
+- Includes: In Terra Nil the newly placed Water Pump fills the connected channel and the restored bank tiles are visible along the course.
+- Excludes: A decorative splash, a wholly authored trigger activating a fixed basin, a barge carrying water, or measured conservation of a free-flowing three-dimensional volume.
+- Parameters: Pump, supply connection, channel adjacency, placement elevation, wet reach and bank response
+- Evidence: [Terra Nil decomposition](../games/s-z/terra-nil.md), TN-006. The release listing, in-game handbook and two post-release recordings are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0716`. See [TAXONOMY_CHANGE_462](../../research/taxonomy-changes/TAXONOMY_CHANGE_462.md). No external novelty claim.
+
+## SYS-2007 — Return spendable resources according to the newly vegetated footprint
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: After paying the quoted facility cost, credit the same construction reserve for newly covered eligible vegetation tiles. The credited amount depends on the effective result, so differing placements with the same initial price can yield different net returns.
+- Includes: In Terra Nil the irrigation footprint determines the projected leaf return before committing an Irrigator. Confirming a profitable placement debits its price and then credits its new greenery.
+- Excludes: Recurring upkeep and salary, a fixed bonus per building regardless of coverage, a refunded purchase with no terrain change, or score that cannot fund later construction.
+- Parameters: Current leaf reserve, construction cost, eligible newly green tiles, credit and net balance
+- Evidence: [Terra Nil decomposition](../games/s-z/terra-nil.md), TN-005. The release listing, in-game handbook and two post-release recordings are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0716`. See [TAXONOMY_CHANGE_462](../../research/taxonomy-changes/TAXONOMY_CHANGE_462.md). No external novelty claim.
+
+## SYS-2006 — Convert the prepared ground inside an oriented irrigation footprint into greenery
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A placed irrigation facility establishes vegetation on eligible clean tiles inside its current oriented reach. The effective coverage is clipped by incompatible or already converted terrain.
+- Includes: In Terra Nil an Irrigator grows greenery over a broad selected footprint of clean soil. Barren dirt visible outside or within unqualified parts remains unchanged.
+- Excludes: Creating clean soil, manual single-tile seeding, crop growth on an independent day clock, and depositing water in a riverbed.
+- Parameters: Facility orientation, clean-soil mask, occupied tiles, prior greenery and resulting vegetation
+- Evidence: [Terra Nil decomposition](../games/s-z/terra-nil.md), TN-004. The release listing, in-game handbook and two post-release recordings are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0716`. See [TAXONOMY_CHANGE_462](../../research/taxonomy-changes/TAXONOMY_CHANGE_462.md). No external novelty claim.
+
+## SYS-2005 — Treat barren tiles within the powered cleaner’s reach into eligible soil
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A legally placed and powered cleaning facility changes eligible contaminated terrain within its local operating footprint into clean soil that can support a later conversion. This state change precedes planting.
+- Includes: A Toxin Scrubber in Terra Nil changes nearby cracked barren tiles into a separate brown fertile-soil state while the greenery indicator stays at zero.
+- Excludes: An already green terrain tile, clearing contamination and immediately restoring plants, purely cosmetic treatment, or counting the whole footprint regardless of eligibility.
+- Parameters: Power, target terrain, local treatment mask, untreated exclusion and clean state
+- Evidence: [Terra Nil decomposition](../games/s-z/terra-nil.md), TN-003. The release listing, in-game handbook and two post-release recordings are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0716`. See [TAXONOMY_CHANGE_462](../../research/taxonomy-changes/TAXONOMY_CHANGE_462.md). No external novelty claim.
+
+## SYS-2004 — Award a reusable token when a solved layout is exited within the limit
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The clock continues from arrangement through physical exit. A qualified on-time completion grants one reusable token. The manual describes spending that reserve to advance after a structurally solved but late attempt or to restore a pre-push arrangement and its clock after another failure.
+- Includes: Both opening Pushover traces show a positive remaining time when the ant enters the opened door and the result awards one token.
+- Excludes: A deadline that immediately erases the attempt, reward on layout validity alone, or automatic free stage reset.
+- Parameters: Running countdown, solved-layout gate, exit time, token credit and documented optional spends
+- Evidence: [Pushover decomposition](../games/m-r/pushover.md), PU-006. The Amiga manual, contemporary sources and two recordings are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0715`. See [TAXONOMY_CHANGE_461](../../research/taxonomy-changes/TAXONOMY_CHANGE_461.md). No external novelty claim.
+
+## SYS-2003 — Propagate one committed fall through adjacent upright blocks
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A falling block tips its reachable upright neighbor by contact, and that neighbor in turn becomes the next falling cause. An unbridged gap can interrupt the propagation. Previously toppled pieces remain down.
+- Includes: In Pushover a single rightward push travels through the repaired yellow row and to the striped Trigger without additional manual pushes.
+- Excludes: A translational push of a contiguous chain, instant region clearing, arbitrary triggers with no contact, or unrelated blocks falling on an elapsed timer.
+- Parameters: Initiating toppling, piece reach, floor geometry, local contact, gap and fall order
+- Evidence: [Pushover decomposition](../games/m-r/pushover.md), PU-004. The Amiga manual, contemporary sources and two recordings are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0715`. See [TAXONOMY_CHANGE_461](../../research/taxonomy-changes/TAXONOMY_CHANGE_461.md). No external novelty claim.
+
+## SYS-2002 — Increase skill damage by matching the rival’s current induced mood
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Resolve a damage skill against the target’s active mood. The skill is independently selectable with sufficient reserve and gains its stated damage bonus when the induced mood matches.
+- Includes: Thirsty Suitors marks Suitor Slam effective against a Thirsty Sergio and describes its larger damage. In the Inner World a rage-linked skill is directed at Raging Sergio.
+- Excludes: An immutable elemental affinity, the timed execution modifier itself, a skill usable exclusively in one mood, or an attack type that merely applies a new mood.
+- Parameters: Selected skill, mood dependency, target’s active mood, duration, base damage and mood bonus
+- Evidence: [Thirsty Suitors decomposition](../games/s-z/thirsty-suitors.md), TS-005 and TS-006. The PlayStation release listing and corroborating traces are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0714`. See [TAXONOMY_CHANGE_460](../../research/taxonomy-changes/TAXONOMY_CHANGE_460.md). No external novelty claim.
+
+## SYS-2001 — Grant an immediate follow-up action when a susceptible rival takes the taunted mood
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: When the resolved taunt puts a susceptible rival into the selected mood, persist that mood for its displayed turn span and hand the acting side a bonus action before the rival can answer.
+- Includes: In Thirsty Suitors the diner tutorial shows Thirsty for three turns and awards Bonus Turn immediately after the corresponding taunt, before Jala chooses Suitor Slam.
+- Excludes: A follow-up granted by physical weakness knockdown, a free repeat of the same taunt, a stagger that grants no action, or a full additional round.
+- Parameters: Resolved taunt, susceptible target, active mood, duration, bonus action and normal handoff
+- Evidence: [Thirsty Suitors decomposition](../games/s-z/thirsty-suitors.md), TS-004. The PlayStation release listing and corroborating traces are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0714`. See [TAXONOMY_CHANGE_460](../../research/taxonomy-changes/TAXONOMY_CHANGE_460.md). No external novelty claim.
+
+## SYS-2000 — Remove compatible obstacles and enemies by contacts from the same live orb
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Eligible impacts of the redirected live orb can remove breakable blocks and defeat enemies. Removing a block changes the reachable route for subsequent orb motion. The direct swing used to redirect the orb has a separate effect on other objects.
+- Includes: In Firestriker Slader sends the Trialight into the green enemies and into pale blocks. Some impacts clear targets; gaps remain open during later rebounds.
+- Excludes: Damage dealt by the swing itself, a colour match or a global clear that removes all targets without individual impacts.
+- Parameters: Orb motion, target class, eligible impact, remaining target state, changed clearance and ordinary strike boundary
+- Evidence: [Firestriker decomposition](../games/a-f/firestriker.md), FST-002–FST-003. The DTMC instruction booklet and both SNES traces are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0713`. See [TAXONOMY_CHANGE_459](../../research/taxonomy-changes/TAXONOMY_CHANGE_459.md). No external novelty claim.
+
+## SYS-1999 — Automatically return a nearby live orb from the positioned lower defender
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A live orb entering the separate defender’s local reach triggers an automatic return toward the field. Positioning the defender changes the covered part of the lower line independently of the main striker.
+- Includes: In Firestriker the solo Sorcerer raises his arms and sends a nearby Trialight into the field while Slader stands to his right.
+- Excludes: Pressing a flipper at a chosen moment, automatic horizontal wall ricochet, a new ball serve after a drain or simple automatic pickup.
+- Parameters: Defender position, orb reach, contact and outgoing return
+- Evidence: [Firestriker decomposition](../games/a-f/firestriker.md), FST-004. The DTMC instruction booklet and both SNES traces are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0713`. See [TAXONOMY_CHANGE_459](../../research/taxonomy-changes/TAXONOMY_CHANGE_459.md). No external novelty claim.
+
+## SYS-1998 — Restart the live course while retaining its selected challenge rule
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A restart requested during an active authored course discards the current vehicle placement and elapsed attempt, restores the course opening and starts a fresh clock under the same selected challenge condition.
+- Includes: In JellyCar Worlds pause a Beat the Clock retry of Level 1-1 and choose Restart. The car drops at the original ledge with a fresh elapsed clock and the selected time objective still on the screen.
+- Excludes: Loading a checkpoint at a later course position, arbitrary historical rewind, returning to challenge selection from settlement, or discarding the selected challenge when restarting.
+- Parameters: Live or paused state, current challenge identity, authored start, restored terrain state and elapsed clock reset
+- Evidence: [JellyCar Worlds decomposition](../games/g-l/jellycar-worlds.md), JCW-005. Walaber’s technical account and the Switch-attributed footage are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0712`. See [TAXONOMY_CHANGE_458](../../research/taxonomy-changes/TAXONOMY_CHANGE_458.md). No external novelty claim.
+
+## SYS-1997 — Resolve elastic vehicle shape during contact and rebound after unloading
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The directly driven vehicle has a deformable chassis and connected compliant wheels. Sustained contact can change the occupied shape and clearance without severing these assemblies. As contact pressure eases, they recover enough shape to continue driving.
+- Includes: In JellyCar Worlds the car visibly flattens while crossing the moving block passage, passes the constricted roller bend and continues with its original connected wheels after release.
+- Excludes: Cosmetic suspension wobble with fixed collision clearance, selecting a new fixed car size, a permanent damage threshold or deformation solely applied to terrain.
+- Parameters: Body and tyre compliance, local contact geometry, compression, retained attachment and return toward prior shape
+- Evidence: [JellyCar Worlds decomposition](../games/g-l/jellycar-worlds.md), JCW-003. Walaber’s technical account and the Switch-attributed footage are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0712`. See [TAXONOMY_CHANGE_458](../../research/taxonomy-changes/TAXONOMY_CHANGE_458.md). No external novelty claim.
+
+## SYS-1996 — Turn a diagonal projectile onto a perpendicular diagonal at a square deflector
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: When a projectile travelling diagonally contacts an eligible square deflector, the contacted side determines its perpendicular outgoing diagonal. The projectile continues from the point of contact and may reach another deflector or a receiver.
+- Includes: In ELOH moving the Level 1 square block changes where the ball turns from up-right to down-right. On Level 2 the same response occurs in succession at the right and left blocks.
+- Excludes: Symbolic steering commands at cells, rotation of the emitter itself, angle changes from a mobile avatar swing or generic platform collision of an autonomous walker.
+- Parameters: Incoming diagonal, contacted block side, chosen berth, outgoing diagonal and partner device
+- Evidence: [ELOH decomposition](../games/a-f/eloh.md), ELH-004, ELH-007. The Google Play video and Android-attributed footage are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0711`. See [TAXONOMY_CHANGE_457](../../research/taxonomy-changes/TAXONOMY_CHANGE_457.md). No external novelty claim.
+
+## SYS-1995 — Emit a recurring fixed-heading projectile stream while its source is enabled
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: An addressed source produces successive separate projectiles along its authored heading while enabled. Emission can stop or resume independently of the retained layout through which the shots travel.
+- Includes: In ELOH one tap starts successive diagonal balls. Later shots test a newly occupied berth during the same emission. Level 2 also shows stopping and restarting the same source with the arrangement retained.
+- Excludes: One launcher input per shot, setting a new aim angle on release, one active beam with no separate projectiles or rebuilding the arrangement to restart every test.
+- Parameters: Source shape and position, enabled state, recurrent output, authored heading and retained placements
+- Evidence: [ELOH decomposition](../games/a-f/eloh.md), ELH-003, ELH-007. The Google Play video and Android-attributed footage are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0711`. See [TAXONOMY_CHANGE_457](../../research/taxonomy-changes/TAXONOMY_CHANGE_457.md). No external novelty claim.
+
+## SYS-1994 — Count each racer’s remaining laps and settle the head-to-head race after the normal finishes
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Each racer starts with the configured lap target and has a separate remaining count. Its eligible crossing of a start and finish section reduces that count. A racer can finish while its rival is still driving. After both ordinary finishes the race reports who won and records their times.
+- Includes: In the scoped three-lap Racing Destruction Set race, the red car stops after finishing, yellow continues, and the result reports a red win with separate red and yellow times.
+- Excludes: An ordered checkpoint chain, a fixed time limit, an immediate cup award when the first racer finishes, or the exceptional finish after a disabled opponent.
+- Parameters: Lap target, start and finish crossing, per-racer count, first finish, second finish and classified result
+- Evidence: [Racing Destruction Set decomposition](../games/m-r/racing-destruction-set.md), RDS-007–RDS-008. The Electronic Arts manual and the C64-attributed footage are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0710`. See [TAXONOMY_CHANGE_456](../../research/taxonomy-changes/TAXONOMY_CHANGE_456.md). No external novelty claim.
+
+## SYS-1993 — Resolve guided racing lanes through speed, surface and ramp contact
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A guided vehicle normally follows its current road lane when the player steers straight. Excess approach speed, geometry or contact can disrupt that lane, while pavement-dependent traction and the race-wide gravity setting influence responses across loose or slick surfaces and jumps.
+- Includes: In Racing Destruction Set cars follow the banked circuit, can run wide on bends and traverse the contrasting terrain panels. The manual describes how surface grip and gravity change the result of a jump onto a lower section.
+- Excludes: An imposed rail path that cannot be lost, a cosmetic scenery palette, manually selecting a network branch before the race, or a measured universal grip or jump formula.
+- Parameters: Current lane, steer and approach speed, local geometry, surface traction, gravity and contact shift
+- Evidence: [Racing Destruction Set decomposition](../games/m-r/racing-destruction-set.md), RDS-005–RDS-006. The Electronic Arts manual and the C64-attributed footage are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0710`. See [TAXONOMY_CHANGE_456](../../research/taxonomy-changes/TAXONOMY_CHANGE_456.md). No external novelty claim.
+
+## SYS-1992 — Prepare the accepted section layout as the drivable circuit before starting
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: On race start the game processes the retained editable section layout into the active course. Its turns, joins and height or surface changes then constrain the live vehicles on the prepared route.
+- Includes: In Racing Destruction Set the custom layout is built section by section between Start Race and the split-view driving stage. The next run follows its shaped roads.
+- Excludes: Drawing only a cosmetic road preview, switching the race to a different shipped track, dynamically rebuilding the course on every lap, or regenerating the layout randomly.
+- Parameters: Accepted layout, preparation step, retained course geometry, launch and drivable surface
+- Evidence: [Racing Destruction Set decomposition](../games/m-r/racing-destruction-set.md), RDS-003–RDS-004. The Electronic Arts manual and the C64-attributed footage are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0710`. See [TAXONOMY_CHANGE_456](../../research/taxonomy-changes/TAXONOMY_CHANGE_456.md). No external novelty claim.
+
+## SYS-1991 — Return to upright foot control from an in-place fall on the route
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A loss of balance can send the avatar into a tumbling or sliding body state on the active terrain. When upright foot control resumes, the next attempt starts from the resulting local position without resetting the route.
+- Includes: In the opening Baby Steps ascent, Nate falls amid the moss and stones, rises on that same slope and can take another controlled step there.
+- Excludes: Teleporting to a fixed checkpoint, a fall that spends a life and resets the attempt, merely playing a stumble animation while the gait is still active or prescribing a particular recovery button.
+- Parameters: Loss of support, course geometry, fallen and settling states, local rest position and resumed upright movement
+- Evidence: [Baby Steps decomposition](../games/a-f/baby-steps.md), BS-005–BS-007. The PlayStation control descriptions and separately attributed PS5 captures are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0709`. See [TAXONOMY_CHANGE_455](../../research/taxonomy-changes/TAXONOMY_CHANGE_455.md). No external novelty claim.
+
+## SYS-1990 — Convert a placed walking foot into support for the next weight transfer
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: When a guided walking foot makes viable ground contact, the body can shift onto that foothold and free the other foot for the next stride. A pose that loses viable support can tip before or after the next foot touches down.
+- Includes: On the opening slope in Baby Steps, short sequential placements let the body advance uphill, while an overstretched or obstructed stance can lose balance.
+- Excludes: A walk cycle that advances regardless of individual contact, a hand grip that anchors the body, or a cosmetic wobble that cannot interrupt movement.
+- Parameters: Ground contact, supporting foot, local terrain, body weight transfer and supported or tipping pose
+- Evidence: [Baby Steps decomposition](../games/a-f/baby-steps.md), BS-003–BS-006. The PlayStation control descriptions and separately attributed PS5 captures are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0709`. See [TAXONOMY_CHANGE_455](../../research/taxonomy-changes/TAXONOMY_CHANGE_455.md). No external novelty claim.
+
+## SYS-1989 — Credit a closed castle perimeter as territory for the next deployment
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Completing a valid wall perimeter around an eligible landmark grants control of its enclosed interior during rebuilding. At repair settlement, an accepted enclosure permits another deployment on the retained territory.
+- Includes: In Rampart closing the wall around a castle changes the interior to blue, and a completed enclosure at zero permits the next cannon allotment after the tally.
+- Excludes: Claiming a predefined region with a core, resolving a tile pattern for points only, adding a new cannon immediately on each placement, or resuming after defeat by buying a continuation.
+- Parameters: Eligible landmark, wall continuity, marked interior, repair expiry and next deployment rights
+- Evidence: [Rampart decomposition](../games/m-r/rampart.md), RAM-005–RAM-007. The Atari operator manual and attributed trackball-ruleset captures are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0708`. See [TAXONOMY_CHANGE_454](../../research/taxonomy-changes/TAXONOMY_CHANGE_454.md). No external novelty claim.
+
+## SYS-1988 — Carry emplacement and structural damage from battle into timed repair
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A scheduled cycle opens deployment, live bombardment and then repair on a shared board. Surviving emplacements retain their locations and breaches left during the battle become the starting geometry for the next build interval.
+- Includes: In Rampart the cannons still occupy their sites and the broken fortress walls remain when the repair view replaces the battle view.
+- Excludes: Restoring the original authored map at the end of a round, conducting construction and combat continuously with no phase boundary, or keeping score alone between boards.
+- Parameters: Phase order, shared board, occupied emplacement locations, breaches and repair starting geometry
+- Evidence: [Rampart decomposition](../games/m-r/rampart.md), RAM-002–RAM-004. The Atari operator manual and attributed trackball-ruleset captures are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0708`. See [TAXONOMY_CHANGE_454](../../research/taxonomy-changes/TAXONOMY_CHANGE_454.md). No external novelty claim.
+
+## SYS-1987 — Restore a contaminated site and its route after completing local removal
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: When the remaining attached contamination of a bounded site is removed, the system settles the site as restored, visibly revives its environment and leaves an addressed route traversable. Partial removal can leave the broader site contaminated.
+- Includes: In The Gunk the ridge shelf regains vegetation after the last visible black residue clears and the rock opening can be crossed under ordinary control.
+- Excludes: A cosmetic plant bloom after any partial work, seeds grown separately in a socket, direct light activation of a plant bridge, or lifting a combat barrier with no habitat restoration.
+- Parameters: Bounded site, contamination remainder, completion response, recovered vegetation and opened passage
+- Evidence: [The Gunk decomposition](../games/s-z/the-gunk.md), TG-005–TG-006. The Xbox listing, publisher account and two attributed Series captures are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0707`. See [TAXONOMY_CHANGE_453](../../research/taxonomy-changes/TAXONOMY_CHANGE_453.md). No external novelty claim.
+
+## SYS-1986 — Resolve aimed suction into progressive local removal from an attached deposit
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A sustained suction action pulls material off the part of an attached deposit it currently engages. The deposit can lose individual portions while other portions remain anchored for further aiming or repositioning.
+- Includes: In The Gunk the gauntlet progressively removes visible sections of the black growth around the ridge passage as the player adjusts its direction.
+- Excludes: Collecting a whole loose prop into inventory, removing one fixture by a single context press, dealing ordinary health damage, or applying the site-wide result after the remaining deposit is gone.
+- Parameters: Attached deposit, engaged portion, confirmed contact, persistent residue, holding and retargeting
+- Evidence: [The Gunk decomposition](../games/s-z/the-gunk.md), TG-003–TG-005. The Xbox listing, publisher account and two attributed Series captures are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0707`. See [TAXONOMY_CHANGE_453](../../research/taxonomy-changes/TAXONOMY_CHANGE_453.md). No external novelty claim.
+
+## SYS-1985 — Rebase supported movement by rolling onto a connected perpendicular face
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: When a supported body advances into an eligible perpendicular face joined to its current surface, contact transfers the body to that face and reorients the local down and forward frame. The body stays on the connected structure and subsequent ordinary movement uses the new plane.
+- Includes: In Kula World Level 3 the advancing ball rolls onto the upright column and its inward face becomes the floor for reaching the raised key strip.
+- Excludes: An aimed gravity fall or explicit gravity setter, a rotation that changes only the view, a portal transfer, or an airborne jump onto a disconnected platform.
+- Parameters: Current and receiving support normals, shared edge, approach heading, contact and next movement plane
+- Evidence: [Kula World decomposition](../games/g-l/kula-world.md), KW-002–KW-003. The museum record, disc-derived reference and two attributed PlayStation witnesses are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0706`. See [TAXONOMY_CHANGE_452](../../research/taxonomy-changes/TAXONOMY_CHANGE_452.md). No external novelty claim.
+
+## SYS-1984 — Grade the grounds for a warranted case verdict separately from the verdict
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: After a committed case decision, the system can retain a warranted verdict while grading the player’s recorded inspection categories separately. Warranted verdicts of the same class can therefore yield different review grades or rewards.
+- Includes: Contraband Police can report a justified refusal alongside either a visible category error and a lower award or a perfect inspection and a higher award.
+- Excludes: Checking only whether the terminal stamp is correct, displaying report rows without a distinct assessment, grading the speed of a correct case, or inferring a fixed cost per missed field from unrelated cases.
+- Parameters: Case verdict class, report marks, adjudicated categories, grade and paid award
+- Evidence: [Contraband Police decomposition](../games/a-f/contraband-police.md), CP-005–CP-007. The publisher announcements and the two attributed Windows witnesses are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0705`. See [TAXONOMY_CHANGE_451](../../research/taxonomy-changes/TAXONOMY_CHANGE_451.md). No external novelty claim.
+
+## SYS-1983 — Settle a qualified lock award and resume the live ball on the same table
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: When the receiver captures an eligible ball, score the local award in the current table region, reset the qualifying indicators and resume ordinary physical ball movement there without a new serve or a separate bonus board.
+- Includes: In Alien Crush the upper Tentacloid Lock settles a bonus, clears the upper lamps and returns the silver ball to moving play under the same running score.
+- Excludes: Settling a separate bonus-room visit, draining and serving a replacement ball, or instantly awarding passive contact points without a captured-ball and resume state.
+- Parameters: Qualifying state, capture, local award display, retained aggregate, reset indicators and live release
+- Evidence: [Alien Crush decomposition](../games/a-f/alien-crush.md), ALC-005–ALC-006. The original English booklet and the two attributed TurboGrafx-16 witnesses are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0704`. See [TAXONOMY_CHANGE_450](../../research/taxonomy-changes/TAXONOMY_CHANGE_450.md). No external novelty claim.
+
+## SYS-1982 — Settle load pay, retained time and separately credited placement medals
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: After the mandatory loading quota closes, settle the cargo amount, the retained reward time and eligible discrete medals as independent additions to the job payout. Physical arrangements inside the same receiving area can earn their own medals without blocking an ordinary clear.
+- Includes: In Part Time UFO the farm result itemizes the loaded freight, time multiplied by five, separate shaped-load medals and a clock medal.
+- Excludes: Combining all outcomes into an opaque grade, requiring all medals to complete the job, or paying one bonus based solely on elapsed time.
+- Parameters: Cleared quota, accrued cargo amount, frozen time, time multiplier, arrangement predicates, medal values and total
+- Evidence: [Part Time UFO decomposition](../games/m-r/part-time-ufo.md), PTU-005–PTU-007. The retail materials and the two timed Nintendo Switch witnesses are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0703`. See [TAXONOMY_CHANGE_449](../../research/taxonomy-changes/TAXONOMY_CHANGE_449.md). No external novelty claim.
+
+## SYS-1981 — Credit an interim required cargo receipt into the live reward clock
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Before the required cargo quota completes, acceptance of the designated interim payload adds a local time credit to the existing reward-clock remainder while work continues. The clock governs a timed contribution separately from the ordinary receiver quota.
+- Includes: In Part Time UFO the first orange crate reduces the remaining required count to one and credits +20. The displayed remainder can rise above its starting value.
+- Excludes: A route checkpoint that renews an expiring race deadline, resetting the clock to its initial value, or paying a time score without changing the live remainder.
+- Parameters: Interim cargo acceptance, previous remainder, credited increment and remaining quota
+- Evidence: [Part Time UFO decomposition](../games/m-r/part-time-ufo.md), PTU-003–PTU-004. The retail materials and the two timed Nintendo Switch witnesses are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0703`. See [TAXONOMY_CHANGE_449](../../research/taxonomy-changes/TAXONOMY_CHANGE_449.md). No external novelty claim.
+
+## SYS-1980 — Resolve a local diorama challenge through a close-up hand mode and restore avatar control
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Addressing an eligible local challenge suspends the separate avatar view and opens a stationary first-person task with tracked hand manipulation. Accepted resolution restores command of the avatar at the challenge site, ready to use the changed local route.
+- Includes: Escaping Wonderland moves from Molly at the steam panel to hand-scale pipe assembly and back to Molly beside the repaired panel.
+- Excludes: A decorative camera zoom preserving the same authority, an arbitrary global perspective toggle, controller use by a second player, or a scene that never returns control after the manipulation.
+- Parameters: Avatar position, addressed challenge, perspective and authority change, tracked hand controls, accepted state and return site
+- Evidence: [Escaping Wonderland decomposition](../games/a-f/escaping-wonderland.md), EW-002, EW-005. The retail materials and the two timed Quest route witnesses are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0702`. See [TAXONOMY_CHANGE_448](../../research/taxonomy-changes/TAXONOMY_CHANGE_448.md). No external novelty claim.
+
+## SYS-1979 — Resolve alternative roster entry into retained skills or a renamed initial build
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: On recruitment of the same authored candidate, one mode restores the prior name and developed proficiencies. The alternative removes those proficiencies, raises base attributes and requires a confirmed new name before placing the candidate in the party.
+- Includes: Resurrection retains Halk’s identity and skills in Dungeon Master. For reincarnation the manual documents loss of prior skills, greater physical attributes and mandatory renaming.
+- Excludes: Defining a new avatar without a prior authored build, reviving an already admitted party member, or spending incremental points while preserving the same skills.
+- Parameters: Candidate, recruitment mode, identity, original proficiencies, initial attributes, name confirmation and admitted member
+- Evidence: [Dungeon Master decomposition](../games/a-f/dungeon-master.md), DM-003. The manual, contemporary account and Atari ST witnesses are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0699`. See [TAXONOMY_CHANGE_445](../../research/taxonomy-changes/TAXONOMY_CHANGE_445.md). No external novelty claim.
+
+## SYS-1978 — Settle a scene claim into a fragment and a changed overview node
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: An addressed scene-completion mark registers that vignette. The system presents its associated authored content and changes the corresponding overview node from unresolved to credited. Merely entering the scene does not apply either outcome.
+- Includes: In Song of Bloom, activating the tower’s asterisk opens a short fragment card and the tree subsequently shows a flower on the corresponding branch.
+- Excludes: An entrance that also automatically credits completion, collecting ordinary inventory, award of score alone, or indiscriminately marking all overview nodes complete.
+- Parameters: Resolved scene, claim event, authored fragment, associated node, completion presentation and return
+- Evidence: [Song of Bloom decomposition](../games/s-z/song-of-bloom.md), BLM-005–BLM-006. The developer materials and iPhone witnesses are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0698`. See [TAXONOMY_CHANGE_444](../../research/taxonomy-changes/TAXONOMY_CHANGE_444.md). No external novelty claim.
+
+## SYS-1977 — Settle core defeat and boss part completion as separate score awards
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: When the encounter closes, a direct defeat of the main component qualifies for a destruction award. A separate award uses the fraction of the multipart target destroyed before closure. Removing peripheral components first can increase the latter without changing the terminal target.
+- Includes: Radiant Silvergun reports 5,000 for directly defeating AKA-O and 100,000 separately for its perfect destruction rate before Stage 3B.
+- Excludes: One flat boss reward, a general stage kill percentage, destroying every component as a mandatory door key, or using a surviving body part as claimed equipment.
+- Parameters: Core, separately counted parts, closure cause, defeat award, completeness and successor state
+- Evidence: [Radiant Silvergun decomposition](../games/m-r/radiant-silvergun.md), RSG-007–RSG-008. The Saturn booklet and recorded witnesses are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0697`. See [TAXONOMY_CHANGE_443](../../research/taxonomy-changes/TAXONOMY_CHANGE_443.md). No external novelty claim.
+
+## SYS-1976 — Absorb an eligible hostile shot to convert the next full-charge blade attack
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The ordinary contact blade cancels designated hostile projectiles and fills a separate gauge. On full charge the same intentional attack invokes a stronger temporary blade state and consumes that reserve. Ordinary hostile shots outside the eligible class do not provide this charge.
+- Includes: The Radiant Sword in Radiant Silvergun absorbs eligible pink projectiles. At maximum gauge the same command triggers the Hyper Sword.
+- Excludes: Contact grazing without projectile removal, converting all projectiles without a charge condition, a time-refilled super move, or a manually selected new weapon slot.
+- Parameters: Eligible projectile class, blade contact, charge capacity, same attack input, consumption and temporary effect
+- Evidence: [Radiant Silvergun decomposition](../games/m-r/radiant-silvergun.md), RSG-005. The Saturn booklet and recorded witnesses are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0697`. See [TAXONOMY_CHANGE_443](../../research/taxonomy-changes/TAXONOMY_CHANGE_443.md). No external novelty claim.
+
+## SYS-1975 — Assign combat experience to the contributing base weapons
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A defeat credits experience to its producing base weapon. A combined attack distributes the experience among its contributing base weapon channels. At sufficient credited experience, the affected channel grows without an external pickup or upgrade selection.
+- Includes: Radiant Silvergun independently develops the three base weapon types. The manual states that weapon combinations split experience among the pressed inputs.
+- Excludes: A global character level that strengthens every weapon alike, an upgrade bought from a common pool, salvage replacing a weapon, or levelling only the combined form as a fourth independent channel.
+- Parameters: Credited defeat, base weapon, constituent inputs, distribution and per-weapon progression threshold
+- Evidence: [Radiant Silvergun decomposition](../games/m-r/radiant-silvergun.md), RSG-005. The Saturn booklet and recorded witnesses are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0697`. See [TAXONOMY_CHANGE_443](../../research/taxonomy-changes/TAXONOMY_CHANGE_443.md). No external novelty claim.
+
+## SYS-1974 — Credit ordered same-colour destruction groups and recognise a distinct chain entry
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: The sequence of destroyed target colours is scored in consecutive same-colour groups. Continued qualifying groups raise successive awards. A separately defined cross-colour entry can seed a new high-value sequence, while other incompatible kills interrupt ordinary continuation.
+- Includes: Radiant Silvergun credits three red ships in succession independently of the shot that removed them. Its original rules also recognise the documented red-to-one-blue-to-yellow entry and credit further yellow groups.
+- Excludes: An increasing kill multiplier independent of enemy class, the geometric adjacency of items, a same-colour contact streak without destruction, or a bonus awarded only at the end of a stage.
+- Parameters: Destruction order, target colour, qualifying group size, continuation rule, exceptional entry and award curve
+- Evidence: [Radiant Silvergun decomposition](../games/m-r/radiant-silvergun.md), RSG-004. The Saturn booklet and recorded witnesses are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0697`. See [TAXONOMY_CHANGE_443](../../research/taxonomy-changes/TAXONOMY_CHANGE_443.md). No external novelty claim.
+
+## SYS-1973 — Record a response as a behavioural trait in a selectable run
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: A classified story response updates its applicable behaviour trait. The game discloses that update and makes dominant recorded traits available as summaries of prior play for prospective followers.
+- Includes: Taking the first Ozen in Tides of Tomorrow displays a Survivalist increase. Leaving it is the reported Cooperative alternative. Follow cards expose dominant traits of earlier runs.
+- Excludes: A personal health or resource gain, an unconditional good-or-evil verdict, collective live reputation or a claim that one dominant trait predicts every decision in the record.
+- Parameters: story response, trait category, event feedback, run record, selection summary and repeatability
+- Evidence: [Tides of Tomorrow decomposition](../games/s-z/tides-of-tomorrow.md), TOT-002, TOT-005, TOT-007. The PS5 Pro traces and developer evidence are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0696`. See [TAXONOMY_CHANGE_442](../../research/taxonomy-changes/TAXONOMY_CHANGE_442.md). No external novelty claim.
+
+## SYS-1972 — Derive local supply from a chosen earlier run and retain the outgoing choice
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: At a corresponding scene the system resolves whether the selected predecessor’s recorded use or reservation left a local supply available. The current response then becomes the outgoing recorded condition for a later run that chooses this one as its predecessor.
+- Includes: In the Tides of Tomorrow prologue an earlier Tidewalker can leave an Ozen for Nahe to offer. A subsequent taking response grants it locally and reports that Nahe’s supply will be absent for that run’s followers.
+- Excludes: A live shared inventory, a seed that only randomizes world geometry, state retained solely within one personal retry, or assuming a specific backend publication time.
+- Parameters: earlier record, local supply identity, prior disposition, current disposition, scene boundary and follower relation
+- Evidence: [Tides of Tomorrow decomposition](../games/s-z/tides-of-tomorrow.md), TOT-004–TOT-005, TOT-007. The PS5 Pro traces and developer evidence are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0696`. See [TAXONOMY_CHANGE_442](../../research/taxonomy-changes/TAXONOMY_CHANGE_442.md). No external novelty claim.
+
+## SYS-1971 — Gradually recover life from a retained weapon in its eligible region
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `Medium`
+- Definition: An equipped weapon that carries the declared recovery effect gradually restores missing personal life during an eligible live region. Restoration does not spend an item or require landing a blow. Unequipping or leaving the eligible region removes the basis for this effect.
+- Includes: The Crystal Spear gradually restores Ark’s missing life in the Underworld summit fixture of Terranigma, including while the attack interval remains live.
+- Excludes: Healing by a carried item, a hit that transfers life, a checkpoint refill, universal automatic healing after a quiet delay or a claim of a measured native interval.
+- Parameters: weapon, equipped state, region eligibility, missing life, current maximum and observed recovery interval
+- Evidence: [Terranigma decomposition](../games/s-z/terranigma.md), TER-005. The European printed and captured evidence is bounded in the claim ledger.
+- Novelty: first isolated for `GAME-0695`. See [TAXONOMY_CHANGE_441](../../research/taxonomy-changes/TAXONOMY_CHANGE_441.md). No external novelty claim.
+
+## SYS-1970 — Alternate a hostile walker with a compact rolling contact threat
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A live hostile can leave its legged approach and curl into a compact body that travels faster along the available floor before returning to its walking form. The changing contact path pressures the player to adjust local position while both actors remain in play.
+- Includes: The summoned red Huballs in the Terranigma first summit trial walk on the stone floor and then roll as compact red spheres into the chamber or the adjoining passage.
+- Excludes: A projectile detached from its caster, the player temporarily becoming a ball, an inert thrown body, and any inference that the rolled form is universally immune.
+- Parameters: hostile state, posture, direction, travel speed, floor, adjacent passage and contact outcome
+- Evidence: [Terranigma decomposition](../games/s-z/terranigma.md), TER-004. The European printed and captured evidence is bounded in the claim ledger.
+- Novelty: first isolated for `GAME-0695`. See [TAXONOMY_CHANGE_441](../../research/taxonomy-changes/TAXONOMY_CHANGE_441.md). No external novelty claim.
+
+## SYS-1969 — Return above ground on tool exhaustion and lose unbanked ore
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Direct`
+- Confidence: `High`
+- Definition: Reaching zero excavation power interrupts ordinary control and returns the avatar to the surface. Unsold carried ore is cleared, while money credited from earlier sales and the excavated terrain persist.
+- Includes: The early exhaustion in A Game About Digging A Hole returns the player above ground beside the same pit with the credited five-dollar balance.
+- Excludes: A health-depletion trigger, loss of all progress, automatic deletion of terrain, cancelling the entire run, and a fixed free restoration amount.
+- Parameters: exhausted power, return position, unbanked ore, retained wallet and retained cut
+- Evidence: [A Game About Digging A Hole decomposition](../games/a-f/a-game-about-digging-a-hole.md), DIG-006. The selected Windows observations and their limits are documented in the claim ledger.
+- Novelty: first isolated for `GAME-0694`. See [TAXONOMY_CHANGE_440](../../research/taxonomy-changes/TAXONOMY_CHANGE_440.md). No external novelty claim.
+
+## SYS-1968 — Spend tool charge while excavating and pay locally to restore it
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Accepted excavation draws down the displayed battery. A chosen paid service at a compatible local station debits the retained wallet and restores the same reserve so excavation can resume.
+- Includes: Early trowel use and the one-dollar charge at the workshop in A Game About Digging A Hole.
+- Excludes: Free recharge by waiting or plugging in; consuming a carried spare battery; a permanent battery-capacity upgrade; loss and recovery caused by exhaustion.
+- Parameters: powered use, remaining charge, eligible station, quoted refill cost, wallet and replenished reserve
+- Evidence: [A Game About Digging A Hole decomposition](../games/a-f/a-game-about-digging-a-hole.md), DIG-005. The selected Windows observations and their limits are documented in the claim ledger.
+- Novelty: first isolated for `GAME-0694`. See [TAXONOMY_CHANGE_440](../../research/taxonomy-changes/TAXONOMY_CHANGE_440.md). No external novelty claim.
+
+## SYS-1967 — Keep one portable floor unit across removal and renewed support
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Taking an ordinary floor tile turns its former position into a gap and fills a one-tile hold. The same unit can become solid footing at a compatible gap, clearing the hold while leaving the donor hole until it is separately filled.
+- Includes: B002 in Void Stranger, where one ordinary tile is removed from the right bank and placed in the crossing before the player steps on it.
+- Excludes: Creating extra tiles from inventory materials; leaving the original support in place; carrying a rigid prop over an unchanged floor; or pushing a tile along the board with no held state.
+- Parameters: donor, recipient, current held state, capacity, removed support, new support and resulting reachability
+- Evidence: [Void Stranger decomposition](../games/s-z/void-stranger.md), claims VST-003–VST-005. The two floor traces and an independent PC route account support the pickup, hold and restored-support transitions.
+- Novelty: first isolated for `GAME-0693`. See [TAXONOMY_CHANGE_439](../../research/taxonomy-changes/TAXONOMY_CHANGE_439.md). No external novelty claim.
+
+## SYS-1966 — Spend one carried enemy on an airborne lift or a directed throw
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A captured enemy supplies one temporary held body. A jump command while airborne expels it below and gives the player upward movement. The distinct throw command releases the same held body along the directed line, without that jump effect. Either release clears the same hold.
+- Includes: Below the first Sea of Tears ledge, Klonoa releases the ordinary Moo downward for added height. The booklet also specifies the available directed throw for the same held state.
+- Excludes: An extra jump that resets on landing without object expenditure; an automatic bounce off an uncaptured enemy; a held creature that supplies continuous lift; or a straight throw with no competing movement use.
+- Parameters: held body, ground or air state, distinct release inputs, release direction, upward movement and empty carry state
+- Evidence: [Klonoa 2: Lunatea's Veil decomposition](../games/g-l/klonoa-2-lunateas-veil.md), claims KLV-003–KLV-005. The original North American booklet and both PS2 captures support the separate held and released states.
+- Novelty: first isolated for `GAME-0692`. See [TAXONOMY_CHANGE_438](../../research/taxonomy-changes/TAXONOMY_CHANGE_438.md). No external novelty claim.
+
+## SYS-1965 — Keep a panel accepted after its matching cast shadow leaves
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: When a projected silhouette satisfies a panel’s authored match, the system sets an accepted state on that panel. Moving the source prop out of the matching pose leaves the accepted panel credited and allows the same prop to serve later panels.
+- Includes: After the first square match flashes, lower the cube. The matching patch remains displayed separately from the now displaced dark silhouette. Carry the cube to the next screen.
+- Excludes: Requiring simultaneous active shapes on every panel, keeping a weight on a pressure plate, consuming the matched prop, inferring exact match tolerance or confirming persistence across a save reload.
+- Parameters: Panel, match event, credited state, source prop posture, local persistence and prop reuse.
+- Evidence: [Shadow Point decomposition](../games/s-z/shadow-point.md), SP-003. The attributed original Quest captures and the original launch materials support the scoped rules.
+- Novelty: first isolated for `GAME-0689`. See [TAXONOMY_CHANGE_435](../../research/taxonomy-changes/TAXONOMY_CHANGE_435.md). No external novelty claim.
+
+## SYS-1964 — Update a held solid’s cast silhouette on a fixed receiving screen
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Moving or rotating a portable solid in the panel’s lit region changes its projected silhouette on the same fixed receiving screen before the solid is released. The player can change projected placement and shape by changing the held pose.
+- Includes: Move the blue cube from below the first square target until its shadow lies over the outline, or turn the cube and observe the angled silhouette.
+- Excludes: Moving the target with the viewer’s gaze, placing a world object into a matching socket, projecting a camera image into new solid geometry, or assuming an exact light-source or rasterization model.
+- Parameters: Portable solid, held pose, lit region, receiving plane, projected outline and position.
+- Evidence: [Shadow Point decomposition](../games/s-z/shadow-point.md), SP-002. The attributed original Quest captures and the original launch materials support the scoped rules.
+- Novelty: first isolated for `GAME-0689`. See [TAXONOMY_CHANGE_435](../../research/taxonomy-changes/TAXONOMY_CHANGE_435.md). No external novelty claim.
+
+## SYS-1963 — Advance toward the target while resolving a committed melee attack
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: When an ordinary close attack resolves, the game can move the acting combatant toward its preselected opponent and then strike if the movement brings it within weapon reach. The new position remains part of the battlefield when control returns to command selection.
+- Includes: Commit an ordinary attack against a slime across the cave floor. Watch the fighter advance from the original formation before striking, then compare the fighter's position at the next command menu.
+- Excludes: Choosing a separate move destination, refusing an attack input simply because it starts outside weapon reach, moving the actor only for animation and immediately resetting its position, and inferring an exact range or lost-strike formula.
+- Parameters: Committed attack, selected opponent, starting positions, permitted advance, attack reach and retained battle position.
+- Evidence: [Lunar: Silver Star Story Complete decomposition](../games/g-l/lunar-silver-star-story-complete.md), LU-003. The attributed PlayStation captures and the original-edition reports support the scoped rules.
+- Novelty: first isolated for `GAME-0688`. See [TAXONOMY_CHANGE_434](../../research/taxonomy-changes/TAXONOMY_CHANGE_434.md). No external novelty claim.
+
+## SYS-1962 — Report a cleared rail course with separate score, finish time and optional dare results
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: After the accepted route finish, settle a report that displays the final score, elapsed time and optional dare outcomes as separate measures. Optional dare credit can be incomplete while the course clears. The score and time can be graded independently.
+- Includes: Compare a clear with 44,592 points, 1:45 and seven of seven with a second clear with 15,033 points, 1:53 and six of seven.
+- Excludes: A fixed single weighted rank, a race-place bonus added to stunt stars, completion requiring every optional dare, or an assumption that repeated runs combine their best measures.
+- Parameters: Clear event, settled score, elapsed time, separate grade indicators and credited optional checks.
+- Evidence: [Denshattack! decomposition](../games/a-f/denshattack.md), DA-005. The attributed PlayStation captures and the platform release materials support the scoped rules.
+- Novelty: first isolated for `GAME-0687`. See [TAXONOMY_CHANGE_433](../../research/taxonomy-changes/TAXONOMY_CHANGE_433.md). No external novelty claim.
+
+## SYS-1961 — Carry a pending trick chain over rail contacts and settle it into the run score
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Successful linked tricks and transfers contribute to a pending chain separately from the already credited run score. A compatible manual can preserve that pending chain after rail contact. A normal end credits the chain into the run total. A crash can instead discard the pending sequence and return to checkpointed score.
+- Includes: Use an airborne trick followed by a manual and continue through a transfer while the white score stays unchanged. A clean closure later raises the credited total.
+- Excludes: Granting points immediately for every hit, assuming every contact always banks the score, preserving every point earned after the last checkpoint, or calculating an exact multiplier formula from a label.
+- Parameters: Trick recognition, pending score, chain marker, manual, transfer, settlement and checkpointed total.
+- Evidence: [Denshattack! decomposition](../games/a-f/denshattack.md), DA-004, DA-006. The attributed PlayStation captures and the platform release materials support the scoped rules.
+- Novelty: first isolated for `GAME-0687`. See [TAXONOMY_CHANGE_433](../../research/taxonomy-changes/TAXONOMY_CHANGE_433.md). No external novelty claim.
+
+## SYS-1960 — Turn an accepted picture grid into its corresponding room object
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: When the current picture grid reaches the accepted assignment, the game grants the corresponding furniture object. The specific reward becomes available in the room editor collection where it can be selected for placement.
+- Includes: Finish the catalogue grid shaped like a chair, continue from the Basic Chair award, and find that chair in the furniture collection.
+- Excludes: A solved picture with no placeable object, a random prize, paying a separate purchase price, or merely stamping a collectible record.
+- Parameters: Accepted binary grid, associated reward identity, catalogue entry, furniture collection and placement availability.
+- Evidence: [Squeakross decomposition](../games/s-z/squeakross-home-squeak-home.md), SQH-003–SQH-004. Launch-window Switch footage and Alblune's gameplay overview support the scoped rules.
+- Novelty: first isolated for `GAME-0685`. See [TAXONOMY_CHANGE_431](../../research/taxonomy-changes/TAXONOMY_CHANGE_431.md). No external novelty claim.
+
+## SYS-1959 — Lower a separate far-side span to reunite the previous control holder
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: After traversing a separated route, the far-side actor operates a raised connection piece. It becomes a supported crossing for the other actor, who was left at the earlier control. The newly usable span is separate from the original crossing.
+- Includes: From the upper walkway, lower the hinged metal span so the sister can leave the tube stop and join the boy.
+- Excludes: Holding the previous stop indefinitely, pulling the helper directly up a ledge, a helper-only passage that opens a bridge for the player, or both characters crossing the first route together.
+- Parameters: Far-side actor, raised connector, operative side, previous hold, alternate crossing and reunion.
+- Evidence: [REANIMAL decomposition](../games/m-r/reanimal.md), RA-004. Release-window PC footage and independent route descriptions corroborate the scoped rules.
+- Novelty: first isolated for `GAME-0684`. See [TAXONOMY_CHANGE_430](../../research/taxonomy-changes/TAXONOMY_CHANGE_430.md). No external novelty claim.
+
+## SYS-1958 — Keep a rotating traversal surface stopped while a separate actor holds its control
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A reachable stop control arrests the linked rotating surface while an actor physically holds it. Another actor can use the stopped surface as support without occupying the control position. Letting go can restore the powered motion.
+- Includes: Have the sister hold the tube stop while the boy moves from the control platform along a supported part of the tube.
+- Excludes: A permanent power cut, a timed stop that continues after release, a platform carrying its rider along a path on its own, or placing a weight rather than occupying the control.
+- Parameters: Rotating support, held stop, assigned holder, release, supported landing and independent traveller.
+- Evidence: [REANIMAL decomposition](../games/m-r/reanimal.md), RA-002–RA-003. Release-window PC footage and independent route descriptions corroborate the scoped rules.
+- Novelty: first isolated for `GAME-0684`. See [TAXONOMY_CHANGE_430](../../research/taxonomy-changes/TAXONOMY_CHANGE_430.md). No external novelty claim.
+
+## SYS-1957 — Release a fixture after a direction-sensitive sequence of dial arrivals
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The fixture accepts directed dial travel to indexed marks in a prescribed order. A repeated target can require another arrival from the instructed direction. The full trace releases the fixture and exposes its contents for separate interaction.
+- Includes: Reach 7 twice counterclockwise on the mailbox dial, then reach 1 clockwise. The letters spill and are individually selectable.
+- Excludes: Checking only the final dial position, entering a button sequence, spending a carried key, assuming an exact tolerance for missed marks, or automatically inspecting the contents.
+- Parameters: Active fixture, ordered target marks, required directions, repeated arrival, accumulated sequence step, release and revealed contents.
+- Evidence: [Last Window decomposition](../games/g-l/last-window-the-secret-of-cape-west.md), LW-003–LW-004. Nintendo’s Chapter 1 guide and the two recorded English routes support the scoped rules.
+- Novelty: first isolated for `GAME-0683`. See [TAXONOMY_CHANGE_429](../../research/taxonomy-changes/TAXONOMY_CHANGE_429.md). No external novelty claim.
+
+## SYS-1956 — Release a local barrier once the required key set is credited
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Collecting the finite required set of local keys releases the linked barrier and lets the same live mission continue. The collected-set state matters independently of ordinary pickup totals.
+- Includes: Gather all three keys in the first Scrambled Shores mission, then travel through the opened barrier toward the later Dream Portal.
+- Excludes: Spending a selected inventory key at a door, optional collectible scoring, opening a barrier by holding a switch down, or ending the mission at the barrier.
+- Parameters: Linked barrier, key set, current credit, preceding route, release and continuing mission.
+- Evidence: [Sonic Dream Team decomposition](../games/s-z/sonic-dream-team.md), SDT-004. The release materials and the two launch-window routes support the scoped rules.
+- Novelty: first isolated for `GAME-0682`. See [TAXONOMY_CHANGE_428](../../research/taxonomy-changes/TAXONOMY_CHANGE_428.md). No external novelty claim.
+
+## SYS-1955 — Use held boost to traverse a compatible steep surface and carry movement into its exit
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A held boost with available reserve supports running along compatible steep or curved surfaces. At an authored launch edge, the movement continues into the following airborne path.
+- Includes: Sonic boosts through a curved ramp and leaves its support into the next piece of route. The tutorial distinguishes boost refills and quarter-pipe use from ordinary grounded movement.
+- Excludes: An ordinary grounded speed increase alone, a collision-triggered spring, automatic attachment to a separate rail, freely toggled gravity, or an assumed minimum boost amount.
+- Parameters: Boost state and reserve, entry direction, surface geometry, authored exit and airborne continuation.
+- Evidence: [Sonic Dream Team decomposition](../games/s-z/sonic-dream-team.md), SDT-002. The release materials and the two launch-window routes support the scoped rules.
+- Novelty: first isolated for `GAME-0682`. See [TAXONOMY_CHANGE_428](../../research/taxonomy-changes/TAXONOMY_CHANGE_428.md). No external novelty claim.
+
+## SYS-1954 — Activate a fighter’s powered form at a personal stone threshold while opponents retain theirs
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: When a contestant reaches its own count of three stones, the game automatically changes its form and replaces its stone slots with a running power gauge. Powered attacks spend power. Other contestants may still hold stones at the same time.
+- Includes: Falcon’s third pickup changes his model and gauge in the lower arena while Ryoma still displays two stones.
+- Excludes: Taking exclusive possession of the whole arena supply, manually spending a charge to start the form, gaining a permanent ability, or a claim that each stronger attack must empty the gauge.
+- Parameters: Fighter, carried count, threshold, substituted move set, power gauge and other contestants’ holdings.
+- Evidence: [Power Stone 2 decomposition](../games/m-r/power-stone-2.md), PS2-005. The original Dreamcast manual and the two recorded Arcade runs support the scoped rule.
+- Novelty: first isolated for `GAME-0681`. See [TAXONOMY_CHANGE_427](../../research/taxonomy-changes/TAXONOMY_CHANGE_427.md). No external novelty claim.
+
+## SYS-1953 — Replace a collapsing support with playable descent and a new arena inside one bout
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: An authored arena hazard removes the shared support while a bout is still active. It transfers the remaining contestants and their live vitality into a controllable airborne segment and then a new fighting surface without counting a fresh round.
+- Includes: As the Blue Sky airship finally breaks, the same four contestants fall and steer among chests. They land in the lower courtyard with the same battle and prior damage still in effect.
+- Excludes: A decisive ring-out, rebuilding the same arena between rounds, one defender pushed down an individual stage edge, or a cutscene that skips all falling decisions.
+- Parameters: Support, warning, collapse, currently live fighters, carried state, playable fall and landing surface.
+- Evidence: [Power Stone 2 decomposition](../games/m-r/power-stone-2.md), PS2-003–PS2-004. The original Dreamcast manual and the two recorded Arcade runs support the scoped rule.
+- Novelty: first isolated for `GAME-0681`. See [TAXONOMY_CHANGE_427](../../research/taxonomy-changes/TAXONOMY_CHANGE_427.md). No external novelty claim.
+
+## SYS-1952 — Move a captive assembly between service access and operating position
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: An addressed control moves one attached assembly along its authored guide between an accessible service position and an operating position. The lowered state allows the player to exchange the attached part. Returning it to operation keeps the installed part in place.
+- Includes: Lower the lighthouse bulb housing to remove and replace the bulb. Raise the same housing again with the replacement already seated.
+- Excludes: Carrying the entire machine, opening a cosmetic lid with no operating alternative, installing a part directly in its normal operating position or discarding the replacement when the frame moves.
+- Parameters: Control, guided assembly, lowered service position, exchangeable part, raised operating position and retained installation.
+- Evidence: [Ghost Town decomposition](../games/g-l/ghost-town.md), GHT-003–GHT-005. The native Quest walkthrough and independent released-game capture show the fixture state.
+- Novelty: first isolated for `GAME-0680`. See [TAXONOMY_CHANGE_426](../../research/taxonomy-changes/TAXONOMY_CHANGE_426.md). No external novelty claim.
+
+## SYS-1951 — Reactivate the armoured actor after a defeat in the same phase
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: When the currently transformed actor defeats an enemy, it receives a fresh opportunity to move and act inside the current player phase. Each further qualifying defeat can renew that opportunity without advancing the battle turn or extending the form duration.
+- Includes: After a defeat in turn 3, read the Godspeed notice, select Jeanne’s available movement and confirm another eligible attack. The turn and two-turn armour indicator stay the same.
+- Excludes: An extra round for the whole side, a counterattack, a permanent action allowance, a hit that leaves the target standing or ordinary-form kills.
+- Parameters: Active form, acting unit, defeated target, refreshed movement and action, current phase, duration and chain continuation.
+- Evidence: [Jeanne d'Arc decomposition](../games/g-l/jeanne-darc.md), JDA-005, JDA-006. The released PSP recordings and the contemporary rules sources support the scoped boundary.
+- Novelty: first isolated for `GAME-0679`. See [TAXONOMY_CHANGE_425](../../research/taxonomy-changes/TAXONOMY_CHANGE_425.md). No external novelty claim.
+
+## SYS-1950 — Equip a temporary armlet form for a stated number of battle turns
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A qualifying armlet event transforms the same tactical unit on the board, changing its combat state and enabling form-specific commands for a displayed number of battle turns. The unit continues in its ordinary form when that count expires.
+- Includes: The scripted Stage 2 event grants Jeanne Holy Armor in player turn 3. The remaining count visibly drops to one on turn 4, and she reverts for turn 5.
+- Excludes: A permanent class change, equipping cosmetic armour, control of a second summoned unit or renewal of the duration with every opposing unit defeated.
+- Parameters: Eligible unit, armlet event, transformed state, form-specific commands, turns remaining and ordinary form.
+- Evidence: [Jeanne d'Arc decomposition](../games/g-l/jeanne-darc.md), JDA-004, JDA-006. The released PSP recordings and the contemporary rules sources support the scoped boundary.
+- Novelty: first isolated for `GAME-0679`. See [TAXONOMY_CHANGE_425](../../research/taxonomy-changes/TAXONOMY_CHANGE_425.md). No external novelty claim.
+
+## SYS-1949 — Award race victory and fastest lap as independent league credits
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: One fixture assigns the victory credit and the fastest-lap credit independently. A driver who retires or wrecks before finishing forfeits both under the ordinary rule.
+- Includes: Check two race points and one best-lap point independently. The same driver can earn both, as in the observed Little Ramp race.
+- Excludes: Awarding every place a fixed share, scoring tricks during a lap, counting only total race time or settling the whole league.
+- Parameters: Rival pair, finish order, quickest lap, two awards and retirement handling.
+- Evidence: [Stunt Car Racer decomposition](../games/s-z/stunt-car-racer.md), SCR-007, SCR-008. The Amiga-attributed trace and original operating instructions support the scoped boundary.
+- Novelty: first isolated for `GAME-0677`. See [TAXONOMY_CHANGE_423](../../research/taxonomy-changes/TAXONOMY_CHANGE_423.md). No external novelty claim.
+
+## SYS-1948 — Grow a race-local chassis crack faster through retained structural holes
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Harsh stress advances a chassis crack whose full span wrecks the car. Severe impacts can form persistent holes. The crack advances faster when it meets a hole, and the ordinary crack is repaired after the fixture.
+- Includes: Avoid harsh lands and cornering when the crossbar has a growing crack. Holes from severe impacts can make the crack grow faster on later passes.
+- Excludes: Elapsed time as damage, a single health meter that fully resets, a fuel reserve or tyre grip wear without a retained chassis defect.
+- Parameters: Impact severity, crack position, hole positions, retirement boundary and repair timing.
+- Evidence: [Stunt Car Racer decomposition](../games/s-z/stunt-car-racer.md), SCR-005, SCR-008. The Amiga-attributed trace and original operating instructions support the scoped boundary.
+- Novelty: first isolated for `GAME-0677`. See [TAXONOMY_CHANGE_423](../../research/taxonomy-changes/TAXONOMY_CHANGE_423.md). No external novelty claim.
+
+## SYS-1947 — Crane-place and release the car onto a valid course section
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A crane suspends and repositions the car before releasing it. The start places it on the launch road. A fall can trigger return to a nearby suitable course section, costing race time.
+- Includes: Wait for the starting drop. After a nonterminal fall, the manual describes another hoist and placement above suitable nearby road.
+- Excludes: Teleporting to the beginning of the race, buying a repair, consuming an extra life or turning all off-road exits into terminal failure.
+- Parameters: Vehicle, lifted state, legal target section, timed release and elapsed time.
+- Evidence: [Stunt Car Racer decomposition](../games/s-z/stunt-car-racer.md), SCR-003. The Amiga-attributed trace and original operating instructions support the scoped boundary.
+- Novelty: first isolated for `GAME-0677`. See [TAXONOMY_CHANGE_423](../../research/taxonomy-changes/TAXONOMY_CHANGE_423.md). No external novelty claim.
+
+## SYS-1946 — Keep normal acceleration engaged until braking cancels it
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: One acceleration input selects continued forward drive. Returning the input to neutral keeps ordinary acceleration active until braking cancels it. Boost has its own activation.
+- Includes: After nudging the joystick forward, return it to centre to steer while the car keeps accelerating. Pull back to cancel forward acceleration.
+- Excludes: Automatic drive from entering the race, merely retaining inertia without drive, and holding boost to sustain ordinary acceleration.
+- Parameters: Initiating command, active throttle state, neutral input, brake and separate boost activation.
+- Evidence: [Stunt Car Racer decomposition](../games/s-z/stunt-car-racer.md), SCR-002. The Amiga-attributed trace and original operating instructions support the scoped boundary.
+- Novelty: first isolated for `GAME-0677`. See [TAXONOMY_CHANGE_423](../../research/taxonomy-changes/TAXONOMY_CHANGE_423.md). No external novelty claim.
+
+## SYS-1945 — Credit an eligible vehicle clearance independently of the route
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A qualifying airborne pass over a road vehicle earns an optional platform award while active route traversal continues.
+- Includes: Time an ollie over the oncoming car and observe the Xbox notification after rolling resumes.
+- Excludes: Giving points for every trick, collecting a score multiplier, clearing the stage by beating a rival or awarding progress merely for passing next to a car.
+- Parameters: Traffic object, timed airborne interaction, receipt and ongoing route.
+- Evidence: [Mixtape decomposition](../games/m-r/mixtape.md), MX-004, MX-005. The launch-window Xbox trace and the applicable author and player evidence support the scoped boundary.
+- Novelty: first isolated for `GAME-0676`. See [TAXONOMY_CHANGE_422](../../research/taxonomy-changes/TAXONOMY_CHANGE_422.md). No external novelty claim.
+
+## SYS-1944 — Advance a ground rider along a prescribed course with local steering
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The ride supplies continuing progress down a prescribed ground course, retaining the player’s local rider movement and trick choices during that travel.
+- Includes: The board continues through the bends, bridge and tunnel while the rider can move across the road markings and perform tricks.
+- Excludes: A view-only ride, directing a vehicle to arbitrary destinations, a free-heading race craft that generates thrust and accepts braking, or selecting a route in a menu.
+- Parameters: Course, steering region, moving rider, forward progress and current input phase.
+- Evidence: [Mixtape decomposition](../games/m-r/mixtape.md), MX-002, MX-003. The launch-window Xbox trace and the applicable author and player evidence support the scoped boundary.
+- Novelty: first isolated for `GAME-0676`. See [TAXONOMY_CHANGE_422](../../research/taxonomy-changes/TAXONOMY_CHANGE_422.md). No external novelty claim.
+
+## SYS-1943 — Settle a completed route against its aggregate journey-distance benchmark
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A valid multi-train run totals travel across its locomotives and resolves the ticket result against the level’s displayed journey benchmark.
+- Includes: Finish both arrivals at Journey 28 and receive the gold ticket, then repeat the same result at a faster simulation speed.
+- Excludes: Judging by runtime seconds, counting placed track tiles only, or awarding the benchmark ticket before a safe finish.
+- Parameters: Travel increments, combined total, benchmark, safe result and awarded ticket.
+- Evidence: [Teeny Tiny Trains decomposition](../games/s-z/teeny-tiny-trains.md), TTT-006–TTT-008. The launch-window iOS trace, in-game tutorial and creator sources support the scoped boundaries.
+- Novelty: first isolated for `GAME-0675`. See [TAXONOMY_CHANGE_421](../../research/taxonomy-changes/TAXONOMY_CHANGE_421.md). No external novelty claim.
+
+## SYS-1942 — Restore the authored route and initial switches for a fresh replay
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Replaying the settled result restores the same prepared track and initial switch directions, returning every locomotive and transient journey state to the initial run configuration.
+- Includes: Choose Replay after the gold result, see the same tracks and initial markers, then start again with both locomotives at their sheds.
+- Excludes: Deleting the entire track plan, resuming from the last passed switch or restoring its final rather than starting state.
+- Parameters: Settled attempt, unchanged plan geometry, initial alignments, reset locomotives, run count and replay.
+- Evidence: [Teeny Tiny Trains decomposition](../games/s-z/teeny-tiny-trains.md), TTT-007. The launch-window iOS trace, in-game tutorial and creator sources support the scoped boundaries.
+- Novelty: first isolated for `GAME-0675`. See [TAXONOMY_CHANGE_421](../../research/taxonomy-changes/TAXONOMY_CHANGE_421.md). No external novelty claim.
+
+## SYS-1941 — Flip the selected continuation after a train traverses a marked junction
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Passage through a designated junction changes the local switch alignment, affecting later traversal of the same geometry.
+- Includes: After the first train goes to the red branch, the junction’s changed orientation lets the next train take the blue branch.
+- Excludes: A fixed fork chosen once for the entire run, a timed or manual live toggle, or deleting the branch after use.
+- Parameters: Marked junction, current continuation, traversing train, passage event and following direction.
+- Evidence: [Teeny Tiny Trains decomposition](../games/s-z/teeny-tiny-trains.md), TTT-003, TTT-004. The launch-window iOS trace, in-game tutorial and creator sources support the scoped boundaries.
+- Novelty: first isolated for `GAME-0675`. See [TAXONOMY_CHANGE_421](../../research/taxonomy-changes/TAXONOMY_CHANGE_421.md). No external novelty claim.
+
+## SYS-1940 — Dispatch multiple locomotives to separate destination sheds on one configured layout
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: One start command releases multiple locomotives from their assigned origins. They traverse the laid rail with shared execution timing, following the current switch continuations and leaving active traversal on accepted arrival.
+- Includes: Press Play once and watch both engines travel, use the shared trunk at different times and enter their coloured destinations.
+- Excludes: Individually steering each train, recurrent scheduled passenger service, or coupling every numbered carriage behind one locomotive.
+- Parameters: Origins, shared motion, current route and switch state, destination acceptance and completion of each train.
+- Evidence: [Teeny Tiny Trains decomposition](../games/s-z/teeny-tiny-trains.md), TTT-004, TTT-006. The launch-window iOS trace, in-game tutorial and creator sources support the scoped boundaries.
+- Novelty: first isolated for `GAME-0675`. See [TAXONOMY_CHANGE_421](../../research/taxonomy-changes/TAXONOMY_CHANGE_421.md). No external novelty claim.
+
+## SYS-1939 — Activate a temporary speed burst by crossing a Turbo Ring
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Physical passage through the marked turbo ring activates a temporary craft speed burst immediately, without first storing and manually spending that effect.
+- Includes: Take the yellow-orange Turbo Ring before the late wooden ramp and use the current speed to approach the jump.
+- Excludes: An ordinary scoring ring alone, a turbo reserve that needs a later input, or a surface speed pad requiring wheel contact.
+- Parameters: Ring trigger, vehicle passage, immediate active boost and expiry.
+- Evidence: [Wave Race: Blue Storm decomposition](../games/s-z/wave-race-blue-storm.md), WBS-006. The North American booklet and the two scoped attempt traces support the boundary described in the game record.
+- Novelty: first isolated for `GAME-0674`. See [TAXONOMY_CHANGE_420](../../research/taxonomy-changes/TAXONOMY_CHANGE_420.md). No external novelty claim.
+
+## SYS-1938 — Reduce repeated surface-stunt credit inside one timed block
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The score system distinguishes a first running stunt of a kind in a timed block from repeats of that same kind. Subsequent repeats in the block earn markedly less.
+- Includes: Vary a water-surface handstand with a different recognised running stunt before the next checkpoint.
+- Excludes: A general chain multiplier, damage for repeating a move, exact unmeasured coefficients or a penalty across all later laps or attempts.
+- Parameters: Current timed block, running stunt kind, prior same-kind recognition and reduced credit.
+- Evidence: [Wave Race: Blue Storm decomposition](../games/s-z/wave-race-blue-storm.md), WBS-005. The North American booklet and the two scoped attempt traces support the boundary described in the game record.
+- Novelty: first isolated for `GAME-0674`. See [TAXONOMY_CHANGE_420](../../research/taxonomy-changes/TAXONOMY_CHANGE_420.md). No external novelty claim.
+
+## SYS-1937 — Award watercraft stunt points by execution and stunt class
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A recognised successfully executed watercraft stunt produces an additive score whose amount depends on the selected trick kind and execution quality.
+- Includes: Complete the opening ramp stunt and verify the distinct 1,857-point credit.
+- Excludes: A score for merely pressing the command, points based only on finish place, or a boost-only landing effect.
+- Parameters: Context, recognised stunt, success, execution quality and credited points.
+- Evidence: [Wave Race: Blue Storm decomposition](../games/s-z/wave-race-blue-storm.md), WBS-005, WBS-007. The North American booklet and the two scoped attempt traces support the boundary described in the game record.
+- Novelty: first isolated for `GAME-0674`. See [TAXONOMY_CHANGE_420](../../research/taxonomy-changes/TAXONOMY_CHANGE_420.md). No external novelty claim.
+
+## SYS-1936 — Credit remaining block time on gate passage and renew the clock
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Valid passage through a timed checkpoint converts the block’s remaining time to points and renews the running allowance for the next part of the attempt.
+- Includes: Cross the first arch in time, see its separate 375-point time credit and continue on the renewed countdown.
+- Excludes: A bonus calculated only once at the finish, collecting time without scoring, a pause or restarting the checkpoint from failure.
+- Parameters: Gate crossing, remaining time, conversion rate, awarded points and next allowance.
+- Evidence: [Wave Race: Blue Storm decomposition](../games/s-z/wave-race-blue-storm.md), WBS-004. The North American booklet and the two scoped attempt traces support the boundary described in the game record.
+- Novelty: first isolated for `GAME-0674`. See [TAXONOMY_CHANGE_420](../../research/taxonomy-changes/TAXONOMY_CHANGE_420.md). No external novelty claim.
+
+## SYS-1935 — Add a growing contiguous-pass bonus to each scored ring
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Each recognised ring passage adds the ring’s base denomination and a bonus based on immediately preceding consecutive passages. Missing a ring clears the future sequence bonus while keeping previously credited points.
+- Includes: Collect the first 50-point ring, then line up successive rings to grow their bonus. After a miss the next ring starts a new chain.
+- Excludes: Unordered fixed-value ring pickups, a multiplicative duration bonus, or forfeiting all accrued chain points on a miss.
+- Parameters: Ring order, base denomination, flat increment, previous consecutive count, miss and retained score.
+- Evidence: [Wave Race: Blue Storm decomposition](../games/s-z/wave-race-blue-storm.md), WBS-003. The North American booklet and the two scoped attempt traces support the boundary described in the game record.
+- Novelty: first isolated for `GAME-0674`. See [TAXONOMY_CHANGE_420](../../research/taxonomy-changes/TAXONOMY_CHANGE_420.md). No external novelty claim.
+
+## SYS-1934 — Let personal stress wear die integrity during renewal
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Personal stress can damage individual die slots during a subsequent cycle refresh. That integrity loss is separate from spending a currently usable die on an action.
+- Includes: Watch the Sleeper’s die integrity when rolling into a new cycle under personal stress.
+- Excludes: Ordinary die spending, the crew member stress availability cutoff, or an unverified exact damage and repair formula.
+- Parameters: Personal stress, cycle renewal, die identity, integrity and later usability.
+- Evidence: [Citizen Sleeper 2 decomposition](../games/a-f/citizen-sleeper-2-starward-vector.md), CS2-006, CS2-007. The official product documentation and recorded contract traces support the boundary described in the game record.
+- Novelty: first isolated for `GAME-0673`. See [TAXONOMY_CHANGE_419](../../research/taxonomy-changes/TAXONOMY_CHANGE_419.md). No external novelty claim.
+
+## SYS-1933 — Make a crew member unavailable at their individual stress limit
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Each crew member tracks their own stress. Reaching the member’s limit removes their available contribution to the current contract.
+- Includes: Track Serafin’s stress after renewal without supplies. If his track fills, his actions become unavailable.
+- Excludes: A single shared crew stress pool, merely worsening the odds of actions, the Sleeper’s die integrity or inferring a permanent departure.
+- Parameters: Crew member, individual stress, increments, capacity and availability.
+- Evidence: [Citizen Sleeper 2 decomposition](../games/a-f/citizen-sleeper-2-starward-vector.md), CS2-006. The official product documentation and recorded contract traces support the boundary described in the game record.
+- Novelty: first isolated for `GAME-0673`. See [TAXONOMY_CHANGE_419](../../research/taxonomy-changes/TAXONOMY_CHANGE_419.md). No external novelty claim.
+
+## SYS-1932 — Escalate an outcome-driven contract hazard alongside a separate cycle clock
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: An adverse action result can advance a contract hazard that threatens the ongoing visit. A distinct recorded countermeasure clock responds to cycle advancement.
+- Includes: A failed Release the Hatch raises Drone Stress while Drone Countermeasure is displayed separately during later cycles.
+- Excludes: Personal condition, a hazard determined solely by elapsed cycles or an asserted exact interaction between the two limits.
+- Parameters: Adverse result, hazard track, failure boundary, cycle and separate countermeasure clock.
+- Evidence: [Citizen Sleeper 2 decomposition](../games/a-f/citizen-sleeper-2-starward-vector.md), CS2-004, CS2-007. The official product documentation and recorded contract traces support the boundary described in the game record.
+- Novelty: first isolated for `GAME-0673`. See [TAXONOMY_CHANGE_419](../../research/taxonomy-changes/TAXONOMY_CHANGE_419.md). No external novelty claim.
+
+## SYS-1931 — Unlock parallel successor clocks and require both terminal results
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Completing each independent access clock exposes its own subsequent task. Success waits for all required terminal progress clocks in the branches.
+- Includes: Finish hatch Access for Disconnect Backup, and broadcast Access for Hack Broadcast. Then disable both the core and array.
+- Excludes: A single progress track shared by all actions, any-one-branch success, or assuming a threshold on one branch completes another branch.
+- Parameters: Distinct access clocks, access thresholds, successor tasks, terminal clocks and conjunction.
+- Evidence: [Citizen Sleeper 2 decomposition](../games/a-f/citizen-sleeper-2-starward-vector.md), CS2-005, CS2-008. The official product documentation and recorded contract traces support the boundary described in the game record.
+- Novelty: first isolated for `GAME-0673`. See [TAXONOMY_CHANGE_419](../../research/taxonomy-changes/TAXONOMY_CHANGE_419.md). No external novelty claim.
+
+## SYS-1930 — Refresh participant dice on a supply-conditioned contract cycle
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Advancing the contract cycle renews usable dice for the active roster. An available supply supports the cycle. When supplies run out the participants accrue stress instead.
+- Includes: Return to the Rig and reset the cycle. Check the supply debit or the documented one stress per participant on a depleted cycle.
+- Excludes: A refill on each individual placement, denying departure when supplies are empty or declaring the job over as soon as the supply stock reaches zero.
+- Parameters: Cycle advance, active roster, usable dice, supply stock and per-participant shortage cost.
+- Evidence: [Citizen Sleeper 2 decomposition](../games/a-f/citizen-sleeper-2-starward-vector.md), CS2-006. The official product documentation and recorded contract traces support the boundary described in the game record.
+- Novelty: first isolated for `GAME-0673`. See [TAXONOMY_CHANGE_419](../../research/taxonomy-changes/TAXONOMY_CHANGE_419.md). No external novelty claim.
+
+## SYS-1929 — Spend the committed die and resolve a skill-dependent outcome class
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A committed actor-owned die is spent. Its face and the skill relation inform positive, neutral and negative outcomes with different progress or adverse effects.
+- Includes: A neutral Disconnect Backup can progress Core Disabled, while a failed hatch action can raise Drone Stress.
+- Excludes: Deterministically adding the visible face to progress, resolving a fresh independent throw or asserting an unmeasured probability formula.
+- Parameters: Committed face, actor skill modifier, result class, affected clock and die depletion.
+- Evidence: [Citizen Sleeper 2 decomposition](../games/a-f/citizen-sleeper-2-starward-vector.md), CS2-004. The official product documentation and recorded contract traces support the boundary described in the game record.
+- Novelty: first isolated for `GAME-0673`. See [TAXONOMY_CHANGE_419](../../research/taxonomy-changes/TAXONOMY_CHANGE_419.md). No external novelty claim.
+
+## SYS-1928 — Carry a perfect-clear temporary ball state that multiplies later points
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A perfect local clear can enable a visible temporary state on the continuing moving ball. While that state is active, the scoring system multiplies later eligible point awards.
+- Includes: The original pinball booklet links a perfect bonus clear to Blue Ball, which multiplies scoring fourfold while active.
+- Excludes: A fixed one-time perfect bonus alone, increasing the number of balls, changing physical ball size or claiming the exact refresh or expiry duration.
+- Parameters: Clear qualification, live ball state, visible indicator, score factor, eligible awards and expiry condition.
+- Evidence: [Devil's Crush decomposition](../games/a-f/devils-crush.md), DCR-005, DCR-006. The original booklet or the cross-checked retail-rules traces support the boundary described in the game record.
+- Novelty: first isolated for `GAME-0672`. See [TAXONOMY_CHANGE_418](../../research/taxonomy-changes/TAXONOMY_CHANGE_418.md). No external novelty claim.
+
+## SYS-1927 — Renew a breakable intercepting shield while target progress remains
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A contact can deflect the moving body and temporarily remove a breakable shield. The shield can return during the same attempt while separate targets already defeated remain removed.
+- Includes: A hit breaks a blue egg in the five-head chamber. Later the egg can cover that line again while destroyed heads remain absent.
+- Excludes: An indestructible bumper, permanently removing both the shield and its target together, resetting the entire target set or asserting a universal reset delay.
+- Parameters: Shield location, contact, deflection, removal, renewal condition and independent target state.
+- Evidence: [Devil's Crush decomposition](../games/a-f/devils-crush.md), DCR-004. The original booklet or the cross-checked retail-rules traces support the boundary described in the game record.
+- Novelty: first isolated for `GAME-0672`. See [TAXONOMY_CHANGE_418](../../research/taxonomy-changes/TAXONOMY_CHANGE_418.md). No external novelty claim.
+
+## SYS-1926 — Settle a live bonus visit into the parent table and resume the same run
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A settled bonus playfield credits its local earned points and any separately qualified perfect award to the parent score. On successful return, ordinary play resumes with the live ball on the parent table and the unused ball stock retained.
+- Includes: After all five heads fall in Bonus Stage 1, the two awards enter the run total and play resumes in the lower main field with the same displayed reserve.
+- Excludes: A new run with reset score, collecting a discovery marker for later completion, a transient on-table combo or assuming all failed bonus visits preserve the same state.
+- Parameters: Parent route, local tally, perfect predicate, payout order, retained reserve and returned ball state.
+- Evidence: [Devil's Crush decomposition](../games/a-f/devils-crush.md), DCR-005–DCR-007. The original booklet or the cross-checked retail-rules traces support the boundary described in the game record.
+- Novelty: first isolated for `GAME-0672`. See [TAXONOMY_CHANGE_418](../../research/taxonomy-changes/TAXONOMY_CHANGE_418.md). No external novelty claim.
+
+## SYS-1925 — Enclose an eligible contact and lift it inside a rising loose bubble
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A free buoyant bubble continues rising independently of its creator. A compatible body contacting the bubble may become enclosed and move upward with it.
+- Includes: Yoshi intersects an already released ordinary bubble and rides upward inside it.
+- Excludes: Standing on a solid moving platform, using a personal jump boost, pulling the actor on a tether or transforming the rider into the bubble itself.
+- Parameters: Bubble position and rise, contact eligibility, containment, attachment interval and release.
+- Evidence: [Yoshi and the Mysterious Book decomposition](../games/s-z/yoshi-and-the-mysterious-book.md), YMB-003. Nintendo's action guide and multiple retail traces support the scoped boundaries. Exact thresholds and restore behaviour remain unmeasured.
+- Novelty: first isolated for `GAME-0671`. See [TAXONOMY_CHANGE_417](../../research/taxonomy-changes/TAXONOMY_CHANGE_417.md). No external novelty claim.
+
+## SYS-1924 — Register an enacted creature effect as a distinct retained discovery
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The game recognizes a qualifying creature interaction and its manifested result as an authored fact. It adds that distinct fact to the creature’s retained record for later inspection.
+- Includes: Producing the apple-conditioned bubble adds one illustrated Glubbit discovery to the book, independently of clearing the surrounding expedition.
+- Excludes: Collecting a prewritten evidence pickup, acquiring a specimen solely by looking at it, freely typing a note or revealing every property at the first encounter.
+- Parameters: Creature and fact identity, eligibility predicate, observed result, registration and retention boundary.
+- Evidence: [Yoshi and the Mysterious Book decomposition](../games/s-z/yoshi-and-the-mysterious-book.md), YMB-004, YMB-005. Nintendo's action guide and multiple retail traces support the scoped boundaries. Exact thresholds and restore behaviour remain unmeasured.
+- Novelty: first isolated for `GAME-0671`. See [TAXONOMY_CHANGE_417](../../research/taxonomy-changes/TAXONOMY_CHANGE_417.md). No external novelty claim.
+
+## SYS-1923 — Change a creature’s subsequent emitted output through consumed food
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: When an eligible creature eats compatible food, its producer state changes and the next otherwise eligible emissions use altered properties. The food does not retroactively change output that has already left the producer.
+- Includes: Glubbit turns orange after eating an apple and releases larger yellow bubbles under the usual movement trigger.
+- Excludes: Giving food for a fixed one-off production drop, feeding to build affection only, a player health refill or replacing objects already in flight.
+- Parameters: Food class, producer state, modified properties, normal emission trigger and state duration.
+- Evidence: [Yoshi and the Mysterious Book decomposition](../games/s-z/yoshi-and-the-mysterious-book.md), YMB-003, YMB-004. Nintendo's action guide and multiple retail traces support the scoped boundaries. Exact thresholds and restore behaviour remain unmeasured.
+- Novelty: first isolated for `GAME-0671`. See [TAXONOMY_CHANGE_417](../../research/taxonomy-changes/TAXONOMY_CHANGE_417.md). No external novelty claim.
+
+## SYS-1922 — Emit separate objects from a retained passenger during sustained movement
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: When the carrier sustains eligible movement, the attached passenger can emit separate objects into the live world. Each output proceeds independently while the passenger remains carried.
+- Includes: Running with Glubbit releases a trail of rising bubbles while it stays on Yoshi’s back.
+- Excludes: Throwing the passenger itself, an automatic stationary timer alone, output requiring a separate firing press for each emission or a purely cosmetic trail.
+- Parameters: Passenger, movement threshold, emission cadence, output class, initial position and retained attachment.
+- Evidence: [Yoshi and the Mysterious Book decomposition](../games/s-z/yoshi-and-the-mysterious-book.md), YMB-002. Nintendo's action guide and multiple retail traces support the scoped boundaries. Exact thresholds and restore behaviour remain unmeasured.
+- Novelty: first isolated for `GAME-0671`. See [TAXONOMY_CHANGE_417](../../research/taxonomy-changes/TAXONOMY_CHANGE_417.md). No external novelty claim.
+
+## SYS-1921 — Exhaust a limited bound skill independently from the rechargeable reserve
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A bound ability with a declared finite number of uses disappears from its button after the last committed use, while unlimited skills stay assigned and recovery of the shared reserve does not restore the exhausted binding.
+- Includes: The one-use Vacuum Slash disappears after the attack, while the Laser and Flash Barrier bindings remain.
+- Excludes: A temporary cooldown, a reloadable magazine, replacing an ability only by player choice, and depletion of current Aura alone.
+- Parameters: Bound skill, use limit, remaining uses, consumed final use and vacant binding.
+- Evidence: [Phantom Dust decomposition](../games/m-r/phantom-dust.md), PHD-003, PHD-005. The English Xbox manual and original-rules recordings support the stated boundaries. Exact runtime hit and refill timings remain unmeasured.
+- Novelty: first isolated for `GAME-0670`. See [TAXONOMY_CHANGE_416](../../research/taxonomy-changes/TAXONOMY_CHANGE_416.md). No external novelty claim.
+
+## SYS-1920 — Regenerate a spent skill reserve up to its separately displayed level
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A current real-time skill reserve recovers automatically up to its current Level ceiling. Spending on a skill reduces its usable balance without itself lowering the Level, and the same ceiling governs subsequent recovery.
+- Includes: In Watchful Eye the Aura restores to the authored Level 5 after ordinary paid skill use; 5 current Aura can pay a cost of 3 and leave 2.
+- Excludes: Recharging each skill charge independently, spending a finite unrecoverable encounter pool, or raising the recovery ceiling merely by casting.
+- Parameters: Current balance, displayed Level, automatic recharge and price of one use.
+- Evidence: [Phantom Dust decomposition](../games/m-r/phantom-dust.md), PHD-003, PHD-005. The English Xbox manual and original-rules recordings support the stated boundaries. Exact runtime hit and refill timings remain unmeasured.
+- Novelty: first isolated for `GAME-0670`. See [TAXONOMY_CHANGE_416](../../research/taxonomy-changes/TAXONOMY_CHANGE_416.md). No external novelty claim.
+
+## SYS-1919 — Settle a complete picture selectively out of the mixed workspace
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Once all required fragments of an authored picture are present in its connected correct layout, the game recognises that picture and enables display. Confirming its wall placement removes that picture from the floor while fragments outside its set remain available for later assembly.
+- Includes: Braeburn receives its own named completion and moves to the gallery wall, leaving surplus squares on the floor.
+- Excludes: Clearing all pieces in the room, consuming the entire delivery, accepting a subset as a complete image and accepting every displayed object as a parcel successor.
+- Parameters: Required complete tile set, named recognition, mounted result, retained unused fragments and floor control.
+- Evidence: [Wilmot Works It Out decomposition](../games/s-z/wilmot-works-it-out.md), WWO-005, WWO-006. Publisher documentation, the creator interview and the released-game traces support the stated boundaries. The traces are cross-platform corroboration for the macOS target.
+- Novelty: first isolated for `GAME-0669`. See [TAXONOMY_CHANGE_415](../../research/taxonomy-changes/TAXONOMY_CHANGE_415.md). No external novelty claim.
+
+## SYS-1918 — Bond accepted edge neighbours into a movable picture group
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: When loose picture pieces or existing groups reach an eligible matching edge adjacency, the game attaches them and exposes a joined group that can be carried without losing its internal arrangement.
+- Includes: Bring the upper Braeburn fragments into their exact adjacency, then move connected pieces while the rest of the floor remains loose.
+- Excludes: Proximity without a persistent bond, overlays, combining into a new single ranked tile and dragging independent pieces together without enforcing internal offsets.
+- Parameters: Admitted adjacency, joined components, group membership and retained internal offsets.
+- Evidence: [Wilmot Works It Out decomposition](../games/s-z/wilmot-works-it-out.md), WWO-003, WWO-004. Publisher documentation, the creator interview and the released-game traces support the stated boundaries. The traces are cross-platform corroboration for the macOS target.
+- Novelty: first isolated for `GAME-0669`. See [TAXONOMY_CHANGE_415](../../research/taxonomy-changes/TAXONOMY_CHANGE_415.md). No external novelty claim.
+
+## SYS-1917 — Resolve an authorised event-item release into removal of a traversal blocker
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A context-valid release of an acquired event item resolves a scripted effect that removes its assigned environmental traversal obstruction and opens ordinary movement through the previously blocked route.
+- Includes: The Furious Tornado disperses the fog blocking the ordinary forest route after use from the eligible roof in Tomba!.
+- Excludes: A cosmetic visibility improvement, an attack against a guardian, an explosive contact made by a physically pushed prop and a nearby recipient manually opening the exit.
+- Parameters: Event item, use location, mapped obstruction, scripted effect and opened route.
+- Evidence: [Tomba! decomposition](../games/s-z/tomba.md), TOM-004–TOM-006. The North American manual and recorded retail play support the boundary in the claim ledger. Physical button telemetry and flags in executable memory were unavailable.
+- Novelty: first isolated for `GAME-0668`. See [TAXONOMY_CHANGE_414](../../research/taxonomy-changes/TAXONOMY_CHANGE_414.md). No external novelty claim.
+
+## SYS-1916 — Draw both held defence and a committed attack from the same Power reserve
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Maintaining the raised shield and firing the selected Power Weapon both debit one personal reserve. With insufficient Power the shield cannot be sustained or the special shot cannot be committed at its cost. Credit from eligible contact may replenish the shared reserve.
+- Includes: The ordinary Soltari Shield consumes Power while held and a fully selected Carcosan Power Weapon draws from that pool again on firing. Ordinary fire uses its separate weapon state.
+- Excludes: An independent cooldown on alternate fire, a shield maintained for free under a modifier, magazine ammunition as the shield reserve, or passive stored hull plating.
+- Parameters: Power available, hold duration, shot debit, contact credit and separate primary weapon state.
+- Evidence: [SAROS decomposition](../games/s-z/saros.md), SAR-002–SAR-004. Housemarque’s control notes and the PS5-attributed combat traces support the scope indicated in the ledger. Exact runtime coefficients were not measured.
+- Novelty: first isolated for `GAME-0667`. See [TAXONOMY_CHANGE_413](../../research/taxonomy-changes/TAXONOMY_CHANGE_413.md). No external novelty claim.
+
+## SYS-1915 — Convert shielded eligible projectiles into spendable Power
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: An eligible hostile projectile contacting the raised personal shield is removed from the incoming attack and credits the defender with Power. The captured value is pooled and can fund a later separately aimed attack.
+- Includes: Absorbing the blue volley with the Soltari Shield before turning the accumulated Power into a Carcosan Power Weapon discharge.
+- Excludes: Reflecting the same projectile back, gaining readiness by taking unblocked damage or dealing damage, and absorbing an attack that contributes no spendable energy.
+- Parameters: Incoming attack class, active shield, contact, Power credit and later stock expenditure.
+- Evidence: [SAROS decomposition](../games/s-z/saros.md), SAR-002–SAR-004. Housemarque’s control notes and the PS5-attributed combat traces support the scope indicated in the ledger. Exact runtime coefficients were not measured.
+- Novelty: first isolated for `GAME-0667`. See [TAXONOMY_CHANGE_413](../../research/taxonomy-changes/TAXONOMY_CHANGE_413.md). No external novelty claim.
+
 ## SYS-1914 — Launch on enlarged-cap contact and consume its prepared state
 
 - Lifecycle: `Active`

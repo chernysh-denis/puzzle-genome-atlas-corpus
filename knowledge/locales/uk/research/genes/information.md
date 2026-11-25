@@ -21,6 +21,7 @@
 
 - [`GAME-0001` — "2048"](../games/0-9/2048.md)
 - [`GAME-0044` — A Good Snowman Is Hard to Build](../games/a-f/a-good-snowman-is-hard-to-build.md)
+- [`GAME-0730` — "A Little to the Left"](../games/a-f/a-little-to-the-left.md)
 - [`GAME-0054` — A Monster’s Expedition](../games/a-f/a-monsters-expedition.md)
 - [`GAME-0228` — A Way Out](../games/a-f/a-way-out.md)
 - [`GAME-0124` — Against the Storm](../games/a-f/against-the-storm.md)
@@ -55,6 +56,7 @@
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
 - [`GAME-0131` — Dyson Sphere Program](../games/a-f/dyson-sphere-program.md)
 - [`GAME-0092` — Echochrome](../games/a-f/echochrome.md)
+- [`GAME-0711` — "ELOH"](../games/a-f/eloh.md)
 - [`GAME-0119` — Factorio](../games/a-f/factorio.md)
 - [`GAME-0091` — Fez](../games/a-f/fez.md)
 - [`GAME-0047` — Fights in Tight Spaces](../games/a-f/fights-in-tight-spaces.md)
@@ -111,6 +113,7 @@
 - [`GAME-0016` — Pipe Mania / Pipe Dream](../games/m-r/pipe-mania.md)
 - [`GAME-0113` — Portal 2 — Cooperative Campaign](../games/m-r/portal-2-co-op.md)
 - [`GAME-0033` — Portal](../games/m-r/portal.md)
+- [`GAME-0715` — "Pushover"](../games/m-r/pushover.md)
 - [`GAME-0438` — Q*bert](../games/m-r/qbert.md)
 - [`GAME-0056` — Railbound](../games/m-r/railbound.md)
 - [`GAME-0127` — RimWorld](../games/m-r/rimworld.md)
@@ -129,6 +132,7 @@
 - [`GAME-0032` — SpaceChem](../games/s-z/spacechem.md)
 - [`GAME-0157` — Split Fiction](../games/s-z/split-fiction.md)
 - [`GAME-0586` — Spooky Express](../games/s-z/spooky-express.md)
+- [`GAME-0685` — "Squeakross: Home Squeak Home"](../games/s-z/squeakross-home-squeak-home.md)
 - [`GAME-0089` — Stardew Valley](../games/s-z/stardew-valley.md)
 - [`GAME-0043` — Stephen’s Sausage Roll](../games/s-z/stephens-sausage-roll.md)
 - [`GAME-0005` — Sudoku](../games/s-z/sudoku.md)
@@ -136,6 +140,7 @@
 - [`GAME-0094` — Superliminal](../games/s-z/superliminal.md)
 - [`GAME-0136` — "Surviving Mars: Relaunched"](../games/s-z/surviving-mars.md)
 - [`GAME-0048` — Tactical Breach Wizards](../games/s-z/tactical-breach-wizards.md)
+- [`GAME-0675` — "Teeny Tiny Trains"](../games/s-z/teeny-tiny-trains.md)
 - [`GAME-0072` — Tents](../games/s-z/tents.md)
 - [`GAME-0529` — Tetris Effect](../games/s-z/tetris-effect.md)
 - [`GAME-0004` — Tetris](../games/s-z/tetris.md)
@@ -146,6 +151,7 @@
 - [`GAME-0107` — The Pedestrian](../games/s-z/the-pedestrian.md)
 - [`GAME-0538` — The Rise of the Golden Idol](../games/s-z/the-rise-of-the-golden-idol.md)
 - [`GAME-0343` — The Secret of Monkey Island](../games/s-z/the-secret-of-monkey-island.md)
+- [`GAME-0721` — "The Shape of Things"](../games/s-z/the-shape-of-things.md)
 - [`GAME-0116` — The Stanley Parable: Ultra Deluxe](../games/s-z/the-stanley-parable-ultra-deluxe.md)
 - [`GAME-0038` — The Swapper](../games/s-z/the-swapper.md)
 - [`GAME-0090` — The Talos Principle](../games/s-z/the-talos-principle.md)
@@ -157,6 +163,7 @@
 - [`GAME-0104` — TUNIC](../games/s-z/tunic.md)
 - [`GAME-0115` — Unpacking](../games/s-z/unpacking.md)
 - [`GAME-0041` — Viewfinder](../games/s-z/viewfinder.md)
+- [`GAME-0693` — "Void Stranger"](../games/s-z/void-stranger.md)
 - [`GAME-0010` — Water Sort](../games/s-z/water-sort.md)
 - [`GAME-0493` — Where's My Water?](../games/s-z/wheres-my-water.md)
 - [`GAME-0134` — "Workers & Resources: Soviet Republic"](../games/s-z/workers-resources-soviet-republic.md)
@@ -196,6 +203,7 @@
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
 - [`GAME-0130` — Frostpunk](../games/a-f/frostpunk.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
+- [`GAME-0723` — "holedown"](../games/g-l/holedown.md)
 - [`GAME-0123` — Inscryption](../games/g-l/inscryption.md)
 - [`GAME-0028` — Loop Hero](../games/g-l/loop-hero.md)
 - [`GAME-0392` — Mario Party 2](../games/m-r/mario-party-2.md)
@@ -241,11 +249,13 @@
 - [`GAME-0281` — Darkest Dungeon](../games/a-f/darkest-dungeon.md)
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
 - [`GAME-0047` — Fights in Tight Spaces](../games/a-f/fights-in-tight-spaces.md)
+- [`GAME-0680` — "Ghost Town"](../games/g-l/ghost-town.md)
 - [`GAME-0049` — Hexcells Infinite](../games/g-l/hexcells-infinite.md)
 - [`GAME-0484` — Impossible Mission](../games/g-l/impossible-mission.md)
 - [`GAME-0123` — Inscryption](../games/g-l/inscryption.md)
 - [`GAME-0563` — Lorelei and the Laser Eyes](../games/g-l/lorelei-and-the-laser-eyes.md)
 - [`GAME-0185` — "Magic: The Gathering Arena"](../games/m-r/magic-the-gathering-arena.md)
+- [`GAME-0686` — "Maniac Mansion"](../games/m-r/maniac-mansion.md)
 - [`GAME-0065` — Mastermind](../games/m-r/mastermind.md)
 - [`GAME-0003` — Minesweeper](../games/m-r/minesweeper.md)
 - [`GAME-0125` — Oxygen Not Included](../games/m-r/oxygen-not-included.md)
@@ -328,6 +338,7 @@
 ### Ігри-носії
 
 - [`GAME-0008` — Nonogram](../games/m-r/nonogram.md)
+- [`GAME-0685` — "Squeakross: Home Squeak Home"](../games/s-z/squeakross-home-squeak-home.md)
 
 ## INF-007
 
@@ -1673,6 +1684,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0196` — Farming Simulator 25](../games/a-f/farming-simulator-25.md)
 - [`GAME-0504` — Frostpunk 2](../games/a-f/frostpunk-2.md)
 - [`GAME-0130` — Frostpunk](../games/a-f/frostpunk.md)
+- [`GAME-0716` — "Terra Nil"](../games/s-z/terra-nil.md)
 - [`GAME-0285` — "The Long Dark"](../games/s-z/the-long-dark.md)
 - [`GAME-0158` — The Sims 4](../games/s-z/the-sims-4.md)
 - [`GAME-0498` — Transport Fever 2](../games/s-z/transport-fever-2.md)
@@ -3053,6 +3065,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 
 ### Ігри-носії
 
+- [`GAME-0694` — "A Game About Digging A Hole"](../games/a-f/a-game-about-digging-a-hole.md)
 - [`GAME-0653` — "A Quiet Place: The Road Ahead"](../games/a-f/a-quiet-place-the-road-ahead.md)
 - [`GAME-0223` — Aion Classic](../games/a-f/aion-classic.md)
 - [`GAME-0427` — Alan Wake](../games/a-f/alan-wake.md)
@@ -3111,6 +3124,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0486` — Final Fantasy Tactics](../games/a-f/final-fantasy-tactics.md)
 - [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
 - [`GAME-0188` — FINAL FANTASY XIV Online](../games/a-f/final-fantasy-xiv-online.md)
+- [`GAME-0713` — "Firestriker"](../games/a-f/firestriker.md)
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
 - [`GAME-0550` — Ghost of Yōtei](../games/g-l/ghost-of-yotei.md)
 - [`GAME-0263` — God of War](../games/g-l/god-of-war.md)
@@ -3133,11 +3147,13 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
 - [`GAME-0510` — Indiana Jones and the Great Circle](../games/g-l/indiana-jones-and-the-great-circle.md)
 - [`GAME-0585` — Into the Radius](../games/g-l/into-the-radius.md)
+- [`GAME-0679` — "Jeanne d'Arc"](../games/g-l/jeanne-darc.md)
 - [`GAME-0583` — "Kunitsu-Gami: Path of the Goddess"](../games/g-l/kunitsu-gami-path-of-the-goddess.md)
 - [`GAME-0192` — Left 4 Dead 2](../games/g-l/left-4-dead-2.md)
 - [`GAME-0290` — Lies of P](../games/g-l/lies-of-p.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0530` — Lost Odyssey](../games/g-l/lost-odyssey.md)
+- [`GAME-0688` — "Lunar: Silver Star Story Complete"](../games/g-l/lunar-silver-star-story-complete.md)
 - [`GAME-0214` — "Mafia (2002)"](../games/m-r/mafia-2002.md)
 - [`GAME-0147` — Marvel Rivals](../games/m-r/marvel-rivals.md)
 - [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
@@ -3172,6 +3188,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0577` — People of Note](../games/m-r/people-of-note.md)
 - [`GAME-0622` — "Pepper Grinder"](../games/m-r/pepper-grinder.md)
 - [`GAME-0291` — Persona 5 Royal](../games/m-r/persona-5-royal.md)
+- [`GAME-0670` — "Phantom Dust"](../games/m-r/phantom-dust.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
 - [`GAME-0536` — PRAGMATA](../games/m-r/pragmata.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
@@ -3187,6 +3204,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0522` — Returnal](../games/m-r/returnal.md)
 - [`GAME-0476` — Ring Fit Adventure](../games/m-r/ring-fit-adventure.md)
 - [`GAME-0549` — Roto Force](../games/m-r/roto-force.md)
+- [`GAME-0667` — "SAROS"](../games/s-z/saros.md)
 - [`GAME-0319` — Sea of Thieves](../games/s-z/sea-of-thieves.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
@@ -3203,6 +3221,7 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0460` — Super Mario 64](../games/s-z/super-mario-64.md)
 - [`GAME-0337` — Super Metroid](../games/s-z/super-metroid.md)
 - [`GAME-0187` — Team Fortress 2](../games/s-z/team-fortress-2.md)
+- [`GAME-0695` — "Terranigma"](../games/s-z/terranigma.md)
 - [`GAME-0153` — Terraria](../games/s-z/terraria.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 - [`GAME-0362` — "The Elder Scrolls III: Morrowind"](../games/s-z/the-elder-scrolls-iii-morrowind.md)
@@ -3211,6 +3230,8 @@ Outer Wilds і далі показує позначки кодів запуск�
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
 - [`GAME-0593` — "The Legend of Zelda: The Minish Cap"](../games/s-z/the-legend-of-zelda-the-minish-cap.md)
 - [`GAME-0205` — "The Witcher 3: Wild Hunt"](../games/s-z/the-witcher-3-wild-hunt.md)
+- [`GAME-0714` — "Thirsty Suitors"](../games/s-z/thirsty-suitors.md)
+- [`GAME-0696` — "Tides of Tomorrow"](../games/s-z/tides-of-tomorrow.md)
 - [`GAME-0253` — "Titanfall 2"](../games/s-z/titanfall-2.md)
 - [`GAME-0268` — Undertale](../games/s-z/undertale.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
@@ -3623,11 +3644,13 @@ Palbox, Monitoring Stand, сховища й екрани стану бази в 
 - [`GAME-0265` — Bloons TD 6](../games/a-f/bloons-td-6.md)
 - [`GAME-0275` — Command & Conquer Remastered Collection](../games/a-f/command-and-conquer-remastered-collection.md)
 - [`GAME-0314` — Grounded](../games/g-l/grounded.md)
+- [`GAME-0710` — "Racing Destruction Set"](../games/m-r/racing-destruction-set.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
 - [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0292` — The Forest](../games/s-z/the-forest.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
+- [`GAME-0701` — "Warcraft II: Tides of Darkness"](../games/s-z/warcraft-ii-tides-of-darkness.md)
 
 ## INF-132
 
@@ -3912,6 +3935,7 @@ Palbox, Monitoring Stand, сховища й екрани стану бази в 
 - [`GAME-0567` — SUPERHOT VR](../games/s-z/superhot-vr.md)
 - [`GAME-0366` — Tekken 3](../games/s-z/tekken-3.md)
 - [`GAME-0283` — TEKKEN 8](../games/s-z/tekken-8.md)
+- [`GAME-0714` — "Thirsty Suitors"](../games/s-z/thirsty-suitors.md)
 - [`GAME-0294` — V Rising](../games/s-z/v-rising.md)
 - [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
 - [`GAME-0197` — Valheim](../games/s-z/valheim.md)
@@ -4715,10 +4739,12 @@ Today's Theme («Сьогоднішня тема»), збережені шлях
 - [`GAME-0594` — "Bionic Bay"](../games/a-f/bionic-bay.md)
 - [`GAME-0623` — "Blue Lightning"](../games/a-f/blue-lightning.md)
 - [`GAME-0557` — "Boktai: The Sun Is in Your Hand"](../games/a-f/boktai-the-sun-is-in-your-hand.md)
+- [`GAME-0736` — "Bomb Rush Cyberfunk"](../games/a-f/bomb-rush-cyberfunk.md)
 - [`GAME-0347` — "Castlevania: Symphony of the Night"](../games/a-f/castlevania-symphony-of-the-night.md)
 - [`GAME-0555` — Chibi-Robo!](../games/a-f/chibi-robo.md)
 - [`GAME-0346` — Chrono Trigger](../games/a-f/chrono-trigger.md)
 - [`GAME-0596` — "Custom Robo"](../games/a-f/custom-robo.md)
+- [`GAME-0738` — "Dandara: Trials of Fear Edition"](../games/a-f/dandara-trials-of-fear-edition.md)
 - [`GAME-0459` — Daxter](../games/a-f/daxter.md)
 - [`GAME-0597` — "Duck Detective: The Ghost of Glamping"](../games/a-f/duck-detective-the-ghost-of-glamping.md)
 - [`GAME-0592` — Dungeons of Hinterberg](../games/a-f/dungeons-of-hinterberg.md)
@@ -4733,20 +4759,25 @@ Today's Theme («Сьогоднішня тема»), збережені шлях
 - [`GAME-0394` — LittleBigPlanet 2](../games/g-l/littlebigplanet-2.md)
 - [`GAME-0563` — Lorelei and the Laser Eyes](../games/g-l/lorelei-and-the-laser-eyes.md)
 - [`GAME-0614` — "Mole Mania"](../games/m-r/mole-mania.md)
+- [`GAME-0734` — "Nex Machina"](../games/m-r/nex-machina.md)
 - [`GAME-0625` — "Ninja Gaiden Dragon Sword"](../games/m-r/ninja-gaiden-dragon-sword.md)
 - [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 - [`GAME-0624` — "Paradise Killer"](../games/m-r/paradise-killer.md)
 - [`GAME-0562` — Parasite Eve](../games/m-r/parasite-eve.md)
+- [`GAME-0731` — "Pengo"](../games/m-r/pengo.md)
 - [`GAME-0622` — "Pepper Grinder"](../games/m-r/pepper-grinder.md)
 - [`GAME-0612` — "Pipistrello and the Cursed Yoyo"](../games/m-r/pipistrello-and-the-cursed-yoyo.md)
+- [`GAME-0737` — "Pullblox"](../games/m-r/pullblox.md)
 - [`GAME-0584` — Saturn Bomberman](../games/s-z/saturn-bomberman.md)
 - [`GAME-0556` — Sayonara Wild Hearts](../games/s-z/sayonara-wild-hearts.md)
 - [`GAME-0485` — Shenmue](../games/s-z/shenmue.md)
 - [`GAME-0616` — Silent Bomber](../games/s-z/silent-bomber.md)
 - [`GAME-0615` — "Skate Story"](../games/s-z/skate-story.md)
+- [`GAME-0733` — "Solomon's Key"](../games/s-z/solomons-key.md)
 - [`GAME-0387` — Super Bomberman](../games/s-z/super-bomberman.md)
 - [`GAME-0460` — Super Mario 64](../games/s-z/super-mario-64.md)
 - [`GAME-0599` — "Sword of the Sea"](../games/s-z/sword-of-the-sea.md)
+- [`GAME-0695` — "Terranigma"](../games/s-z/terranigma.md)
 - [`GAME-0164` — "The Binding of Isaac: Rebirth"](../games/s-z/the-binding-of-isaac-rebirth.md)
 - [`GAME-0613` — "The Drifter"](../games/s-z/the-drifter.md)
 - [`GAME-0475` — The House of the Dead](../games/s-z/the-house-of-the-dead.md)
@@ -4758,6 +4789,7 @@ Today's Theme («Сьогоднішня тема»), збережені шлях
 - [`GAME-0553` — The Lost Vikings](../games/s-z/the-lost-vikings.md)
 - [`GAME-0531` — The Midnight Walk](../games/s-z/the-midnight-walk.md)
 - [`GAME-0443` — Time Crisis](../games/s-z/time-crisis.md)
+- [`GAME-0735` — "Toki Tori"](../games/s-z/toki-tori.md)
 - [`GAME-0590` — Tokyo Xtreme Racer](../games/s-z/tokyo-xtreme-racer.md)
 - [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
 
@@ -5039,18 +5071,25 @@ Today's Theme («Сьогоднішня тема»), збережені шлях
 
 ### Ігри-носії
 
+- [`GAME-0718` — "A Highland Song"](../games/a-f/a-highland-song.md)
+- [`GAME-0719` — "Alisia Dragoon"](../games/a-f/alisia-dragoon.md)
 - [`GAME-0312` — ASTRO BOT](../games/a-f/astro-bot.md)
 - [`GAME-0318` — Battletoads](../games/a-f/battletoads.md)
 - [`GAME-0490` — Comix Zone](../games/a-f/comix-zone.md)
 - [`GAME-0324` — Contra Force](../games/a-f/contra-force.md)
 - [`GAME-0167` — Geometry Dash](../games/g-l/geometry-dash.md)
 - [`GAME-0560` — Gunstar Heroes](../games/g-l/gunstar-heroes.md)
+- [`GAME-0720` — "Kaze and the Wild Masks"](../games/g-l/kaze-and-the-wild-masks.md)
 - [`GAME-0408` — Kirby's Adventure](../games/g-l/kirbys-adventure.md)
+- [`GAME-0692` — "Klonoa 2: Lunatea's Veil"](../games/g-l/klonoa-2-lunateas-veil.md)
+- [`GAME-0717` — "LocoRoco 2"](../games/g-l/locoroco-2.md)
 - [`GAME-0482` — LocoRoco](../games/g-l/locoroco.md)
 - [`GAME-0389` — Mega Man 2](../games/m-r/mega-man-2.md)
 - [`GAME-0462` — Metal Slug 3](../games/m-r/metal-slug-3.md)
 - [`GAME-0479` — Pitfall!](../games/m-r/pitfall.md)
 - [`GAME-0640` — "Pizza Tower"](../games/m-r/pizza-tower.md)
+- [`GAME-0722` — "QuackShot Starring Donald Duck"](../games/m-r/quackshot-starring-donald-duck.md)
+- [`GAME-0690` — "Sonic Advance"](../games/s-z/sonic-advance.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0466` — Streets of Rage 2](../games/s-z/streets-of-rage-2.md)
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
@@ -5461,6 +5500,7 @@ Today's Theme («Сьогоднішня тема»), збережені шлях
 - [`GAME-0384` — F-Zero GX](../games/a-f/f-zero-gx.md)
 - [`GAME-0276` — Forza Horizon 5](../games/a-f/forza-horizon-5.md)
 - [`GAME-0171` — Forza Horizon 6](../games/a-f/forza-horizon-6.md)
+- [`GAME-0712` — "JellyCar Worlds"](../games/g-l/jellycar-worlds.md)
 - [`GAME-0309` — "Mario Kart 8 Deluxe"](../games/m-r/mario-kart-8-deluxe.md)
 - [`GAME-0507` — MotorStorm](../games/m-r/motorstorm.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
@@ -5469,9 +5509,12 @@ Today's Theme («Сьогоднішня тема»), збережені шлях
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 - [`GAME-0217` — "Need for Speed Underground"](../games/m-r/need-for-speed-underground.md)
 - [`GAME-0420` — Project Gotham Racing 2](../games/m-r/project-gotham-racing-2.md)
+- [`GAME-0710` — "Racing Destruction Set"](../games/m-r/racing-destruction-set.md)
 - [`GAME-0551` — "R4: Ridge Racer Type 4"](../games/m-r/ridge-racer-type-4.md)
 - [`GAME-0632` — "Star Wars Episode I: Racer"](../games/s-z/star-wars-episode-i-racer.md)
+- [`GAME-0677` — "Stunt Car Racer"](../games/s-z/stunt-car-racer.md)
 - [`GAME-0524` — Wave Race 64](../games/s-z/wave-race-64.md)
+- [`GAME-0674` — "Wave Race: Blue Storm"](../games/s-z/wave-race-blue-storm.md)
 - [`GAME-0603` — "Wheel World"](../games/s-z/wheel-world.md)
 
 ## INF-209
@@ -5833,6 +5876,7 @@ Match Overview, xG і поради тренерського штабу у Footba
 - [`GAME-0317` — StarCraft II](../games/s-z/starcraft-ii.md)
 - [`GAME-0469` — StarCraft](../games/s-z/starcraft.md)
 - [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
+- [`GAME-0701` — "Warcraft II: Tides of Darkness"](../games/s-z/warcraft-ii-tides-of-darkness.md)
 - [`GAME-0328` — "Warcraft III: Reign of Chaos"](../games/s-z/warcraft-iii-reign-of-chaos.md)
 
 ## INF-225
@@ -5859,6 +5903,7 @@ Match Overview, xG і поради тренерського штабу у Footba
 - [`GAME-0410` — Halo Wars](../games/g-l/halo-wars.md)
 - [`GAME-0317` — StarCraft II](../games/s-z/starcraft-ii.md)
 - [`GAME-0469` — StarCraft](../games/s-z/starcraft.md)
+- [`GAME-0701` — "Warcraft II: Tides of Darkness"](../games/s-z/warcraft-ii-tides-of-darkness.md)
 - [`GAME-0328` — "Warcraft III: Reign of Chaos"](../games/s-z/warcraft-iii-reign-of-chaos.md)
 
 ## INF-226
@@ -6077,6 +6122,7 @@ PFD, екран параметрів двигуна й сигналізацію 
 - [`GAME-0560` — Gunstar Heroes](../games/g-l/gunstar-heroes.md)
 - [`GAME-0462` — Metal Slug 3](../games/m-r/metal-slug-3.md)
 - [`GAME-0296` — Noita](../games/m-r/noita.md)
+- [`GAME-0697` — "Radiant Silvergun"](../games/m-r/radiant-silvergun.md)
 - [`GAME-0549` — Roto Force](../games/m-r/roto-force.md)
 - [`GAME-0466` — Streets of Rage 2](../games/s-z/streets-of-rage-2.md)
 - [`GAME-0183` — Vampire Survivors](../games/s-z/vampire-survivors.md)
@@ -6572,6 +6618,7 @@ Burst Nitrous, рівень уваги, погоня, пошук і стан г�
 
 ### Ігри-носії
 
+- [`GAME-0709` — "Baby Steps"](../games/a-f/baby-steps.md)
 - [`GAME-0646` — Cairn](../games/a-f/cairn.md)
 - [`GAME-0310` — "DEATH STRANDING DIRECTOR’S CUT"](../games/a-f/death-stranding-directors-cut.md)
 - [`GAME-0552` — Jusant](../games/g-l/jusant.md)
@@ -6787,6 +6834,7 @@ Burst Nitrous, рівень уваги, погоня, пошук і стан г�
 
 ### Ігри-носії
 
+- [`GAME-0718` — "A Highland Song"](../games/a-f/a-highland-song.md)
 - [`GAME-0653` — "A Quiet Place: The Road Ahead"](../games/a-f/a-quiet-place-the-road-ahead.md)
 - [`GAME-0223` — Aion Classic](../games/a-f/aion-classic.md)
 - [`GAME-0386` — Banjo-Kazooie](../games/a-f/banjo-kazooie.md)
@@ -6807,6 +6855,7 @@ Burst Nitrous, рівень уваги, погоня, пошук і стан г�
 - [`GAME-0340` — "Halo: Combat Evolved Anniversary"](../games/g-l/halo-combat-evolved-anniversary.md)
 - [`GAME-0350` — "Jet Set Radio"](../games/g-l/jet-set-radio.md)
 - [`GAME-0628` — "Keep Driving"](../games/g-l/keep-driving.md)
+- [`GAME-0717` — "LocoRoco 2"](../games/g-l/locoroco-2.md)
 - [`GAME-0482` — LocoRoco](../games/g-l/locoroco.md)
 - [`GAME-0323` — "Marvel’s Spider-Man 2"](../games/m-r/marvels-spider-man-2.md)
 - [`GAME-0273` — Max Payne 3](../games/m-r/max-payne-3.md)
@@ -6816,6 +6865,7 @@ Burst Nitrous, рівень уваги, погоня, пошук і стан г�
 - [`GAME-0344` — "Prince of Persia: The Sands of Time"](../games/m-r/prince-of-persia-the-sands-of-time.md)
 - [`GAME-0561` — Psychonauts 2](../games/m-r/psychonauts-2.md)
 - [`GAME-0358` — Psychonauts](../games/m-r/psychonauts.md)
+- [`GAME-0691` — "REPLACED"](../games/m-r/replaced.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0225` — "STAR WARS: Squadrons"](../games/s-z/star-wars-squadrons.md)
 - [`GAME-0559` — The Last Guardian](../games/s-z/the-last-guardian.md)
@@ -7481,6 +7531,7 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 
 ### Ігри-носії
 
+- [`GAME-0705` — "Contraband Police"](../games/a-f/contraband-police.md)
 - [`GAME-0277` — Cuphead](../games/a-f/cuphead.md)
 - [`GAME-0503` — Dance Central](../games/a-f/dance-central.md)
 - [`GAME-0406` — "DanceDanceRevolution"](../games/a-f/dancedancerevolution.md)
@@ -7867,6 +7918,7 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 - [`GAME-0262` — DARK SOULS™ III](../games/a-f/dark-souls-iii.md)
 - [`GAME-0295` — DARK SOULS™: REMASTERED](../games/a-f/dark-souls-remastered.md)
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
+- [`GAME-0712` — "JellyCar Worlds"](../games/g-l/jellycar-worlds.md)
 - [`GAME-0537` — Kirby Tilt 'n' Tumble](../games/g-l/kirby-tilt-n-tumble.md)
 - [`GAME-0622` — "Pepper Grinder"](../games/m-r/pepper-grinder.md)
 - [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
@@ -8506,6 +8558,7 @@ Checkpoint Resets, ціль гонки та поступ від 211-го до 19
 ### Ігри-носії
 
 - [`GAME-0462` — Metal Slug 3](../games/m-r/metal-slug-3.md)
+- [`GAME-0690` — "Sonic Advance"](../games/s-z/sonic-advance.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0466` — Streets of Rage 2](../games/s-z/streets-of-rage-2.md)
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
@@ -8956,6 +9009,7 @@ Scan Visor протягом обмеженого вступу на Frigate Orphe
 
 ### Ігри-носії
 
+- [`GAME-0678` — "Metroid Prime 4: Beyond"](../games/m-r/metroid-prime-4-beyond.md)
 - [`GAME-0355` — Metroid Prime](../games/m-r/metroid-prime.md)
 - [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 
@@ -10167,7 +10221,9 @@ Scan Visor протягом обмеженого вступу на Frigate Orphe
 
 ### Ігри-носії
 
+- [`GAME-0722` — "QuackShot Starring Donald Duck"](../games/m-r/quackshot-starring-donald-duck.md)
 - [`GAME-0440` — Scribblenauts](../games/s-z/scribblenauts.md)
+- [`GAME-0668` — "Tomba!"](../games/s-z/tomba.md)
 
 ## INF-426
 
@@ -10504,6 +10560,7 @@ Scan Visor протягом обмеженого вступу на Frigate Orphe
 ### Ігри-носії
 
 - [`GAME-0459` — Daxter](../games/a-f/daxter.md)
+- [`GAME-0682` — "Sonic Dream Team"](../games/s-z/sonic-dream-team.md)
 
 ## INF-442
 
@@ -10840,6 +10897,7 @@ Scan Visor протягом обмеженого вступу на Frigate Orphe
 
 ### Ігри-носії
 
+- [`GAME-0717` — "LocoRoco 2"](../games/g-l/locoroco-2.md)
 - [`GAME-0482` — LocoRoco](../games/g-l/locoroco.md)
 
 ## INF-458
@@ -14105,3 +14163,1137 @@ Dome Keeper розкриває близькі ознаки твердості п
 ### Ігри-носії
 
 - [`GAME-0664` — "Dicey Dungeons"](../games/a-f/dicey-dungeons.md)
+
+## INF-613
+
+- Назва: Розрізняти снаряди й бачити, коли вартовому можна завдати шкоди
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Помітні типи снарядів підказують різні способи захисту, а окремий сигнал показує, чи вартовий зараз отримує пряму шкоду. За цими ознаками гравець обирає поглинання, ухилення або атаку.
+
+### Включає
+
+Розпізнати синій залп і жовті хвилі та перевірити, чи око Prophet закрите, а його шкала розбита на сегменти. Потім помітити відкрите око й суцільну шкалу.
+
+### Виключає
+
+Встановлення вразливості лише за числом шкоди, правило влучання лише своїм кольором, шкала стану без ознаки захисту або незмінна шкала здоров’я.
+
+### Ігри-носії
+
+- [`GAME-0667` — "SAROS"](../games/s-z/saros.md)
+
+## INF-614
+
+- Назва: Окремі позначки відкриття й завершення тієї самої події
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Інтерфейс показує назву й підказку відкритої авторської події, розрізняє її незавершений і завершений стани та повідомляє про відповідні зміни стану.
+
+### Включає
+
+Гра Tomba! окремо показує відкриття події Clear the Fog і її завершення (CLEAR). За кожен перехід нараховує очки пригод, а екран подій розрізняє обидва стани.
+
+### Виключає
+
+Незмінна підказка, проста позначка поточної цілі, лічильник без назви події та список доступних нагород без позначки відкритої незавершеної події.
+
+### Ігри-носії
+
+- [`GAME-0668` — "Tomba!"](../games/s-z/tomba.md)
+
+## INF-615
+
+- Назва: Малюнки на змішаних квадратних плитках без зразка картини
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Гравець бачить малюнки на наявних змішаних квадратних плитках. Однакова форма не вказує, до якої картини належить плитка, а готовий зразок під час звичайного складання не показують.
+
+### Включає
+
+Відокремлення помаранчевих, жовтих і зелених плиток «Бреберна» від плиток подібного розміру та кольору на тій самій підлозі.
+
+### Виключає
+
+Готове зображення-зразок, виступи різної форми для підбору деталей, нерухомий силует для заповнення й показ наступного випадкового предмета.
+
+### Ігри-носії
+
+- [`GAME-0669` — "Wilmot Works It Out"](../games/s-z/wilmot-works-it-out.md)
+
+## INF-616
+
+- Назва: Позначка захопленої цілі показує діапазон відстані
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Поки ціль захоплено, прицільна позначка змінює колір або форму відповідно до поточного діапазону відстані. Гравець може звірити його з рекомендованою дальністю призначеної атаки.
+
+### Включає
+
+У Phantom Dust зелена позначка далекого Ommato підказує Laser, а помаранчева позначка зблизька — Vacuum Slash.
+
+### Виключає
+
+Позначка лише з назвою цілі, незмінний показник точності й оцінка відстані тільки за видимим розміром противника.
+
+### Ігри-носії
+
+- [`GAME-0670` — "Phantom Dust"](../games/m-r/phantom-dust.md)
+
+## INF-617
+
+- Назва: Підказка про доступну навичку до її призначення
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Коли гравець підходить до доступної капсули, видно її тип і картку з назвою, вартістю застосування, силою ефекту, дальністю та обмеженням кількості застосувань. Лише після цього гравець вирішує, чи призначати її на кнопку й на яку.
+
+### Включає
+
+Перед підбиранням на Highway можна переглянути картку синьої захисної навички Flash Barrier або картки атак Laser і Vacuum Slash.
+
+### Виключає
+
+Підказка лише після призначення, невідомий наступний предмет і проста позначка без відомостей про навичку до підбирання.
+
+### Ігри-носії
+
+- [`GAME-0670` — "Phantom Dust"](../games/m-r/phantom-dust.md)
+
+## INF-618
+
+- Назва: Показати перевірену властивість істоти під час дії та в збереженому записі
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Коли властивість істоти зафіксовано, інтерфейс одразу повідомляє, який результат отримано. Після зникнення сповіщення ту саму властивість можна прочитати в записі про істоту.
+
+### Включає
+
+Після бульбашки від яблука одразу з’являється позначка відкриття, а далі доступна ілюстрована нотатка з однією зіркою в розділі про Glubbit.
+
+### Виключає
+
+Лише загальну кількість зірок, лише репліку без доступного запису, початковий повний список властивостей або показ самої назви істоти.
+
+### Ігри-носії
+
+- [`GAME-0671` — "Yoshi and the Mysterious Book"](../games/s-z/yoshi-and-the-mysterious-book.md)
+
+## INF-619
+
+- Назва: Показати звичайний бонус і окрему нагороду за повне зачищення поряд із поточним рахунком
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Під час підрахунку гра окремо показує очки, зароблені на бонусному столі, й додаткову нагороду за повне зачищення. Поточний загальний рахунок і залишок куль теж видно.
+
+### Включає
+
+Спочатку прочитати звичайний бонус, далі окрему нагороду за повне зачищення та звірити загальний рахунок після обох нарахувань.
+
+### Виключає
+
+Єдиний підсумок без складників, таблицю рекордів без розбивки зароблених очок або поточний рахунок без окремого результату повного зачищення.
+
+### Ігри-носії
+
+- [`GAME-0672` — "Devil's Crush"](../games/a-f/devils-crush.md)
+
+## INF-620
+
+- Назва: Показати кубики персонажів, відповідність навичок, прогноз і зміну лічильників
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Панель дії показує, чиї поточні кубики можна використати, наскільки персонаж відповідає потрібній навичці, які результати можливі та скільки є поступу або загрози. Після виконання видно фактичний наслідок.
+
+### Включає
+
+Зіставити кубики Сплячого й Серафіна для роботи з люком. Після підтвердження звірити поступ або рівень загрози дрона.
+
+### Виключає
+
+Загальну оцінку складності без доступних кубиків персонажа, прихований тип результату або шкалу поступу без пояснення поточної дії.
+
+### Ігри-носії
+
+- [`GAME-0673` — "Citizen Sleeper 2: Starward Vector"](../games/a-f/citizen-sleeper-2-starward-vector.md)
+
+## INF-621
+
+- Назва: Показати очки за кільця, трюки й залишок часу під час заїзду
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Поки гідроцикл рухається, видно швидкість, час відрізка й поточні очки. Під час проїзду крізь кільце, виконання трюку чи перетину контрольної арки відповідні очки показуються окремо.
+
+### Включає
+
+Побачити 50 очок за кільце, далі очки за трюк і окреме нарахування за час поряд із рахунком і таймером.
+
+### Виключає
+
+Лише підсумкову таблицю, простий поріг успішного трюку або повідомлення про контрольну арку без показу набраних очок.
+
+### Ігри-носії
+
+- [`GAME-0674` — "Wave Race: Blue Storm"](../games/s-z/wave-race-blue-storm.md)
+
+## INF-622
+
+- Назва: Показувати цільову відстань, поточний шлях і підсумковий квиток
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Під час планування видно цільову відстань. Поки поїзди рухаються, гра показує пройдену відстань, а після завершення — підсумок і здобутий квиток.
+
+### Включає
+
+Побачити ціль 28 на порожній карті, простежити за зростанням лічильника та звірити 28 біля золотого квитка.
+
+### Виключає
+
+Лише секундомір, запас деталей колії або результат, що приховує пройдену відстань.
+
+### Ігри-носії
+
+- [`GAME-0675` — "Teeny Tiny Trains"](../games/s-z/teeny-tiny-trains.md)
+
+## INF-623
+
+- Назва: Послідовно показувати підказки керування під час руху
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Поки триває проїзд ділянкою, на екрані одна за одною з’являються різні пари доступних команд.
+
+### Включає
+
+Спершу побачити підказки для поштовху й оллі, а далі дорогою — фліпу й ґребу.
+
+### Виключає
+
+Постійний список керування, навчальне меню з паузою, приціл або послідовність команд, які треба ввести за відведений час.
+
+### Ігри-носії
+
+- [`GAME-0676` — "Mixtape"](../games/m-r/mixtape.md)
+
+## INF-624
+
+- Назва: Показувати відстань до суперника й два часи кола поруч зі станом машини
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Під час заїзду в кабіні видно номер кола, залишок прискорення, відстань до суперника зі знаком, швидкість, час поточного й найшвидшого кола, окремі індикатори лідерства й стан рами.
+
+### Включає
+
+Перед трампліном перевірити, хто попереду, за ким найшвидше коло й скільки ще лишилося прискорення та запасу міцності.
+
+### Виключає
+
+Таблицю після заїзду, відлік до поразки, лише мінімапу або абсолютне положення машини без порівняння.
+
+### Ігри-носії
+
+- [`GAME-0677` — "Stunt Car Racer"](../games/s-z/stunt-car-racer.md)
+
+## INF-625
+
+- Назва: Переглянути окремо прогноз атаки й можливої контратаки
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Перед підтвердженням допустимої тактичної атаки інтерфейс показує прогнозовану шкоду й імовірність влучання. Поряд із поточними запасами обох бійців окремо видно шкоду й імовірність можливої контратаки захисника.
+
+### Включає
+
+Коли Жанна або Роже цілиться в англійського офіцера, прочитати два рядки прогнозу. Змінити допустиму позицію для атаки й порівняти обмін ударами.
+
+### Виключає
+
+Стале число шкоди без імовірності, результат уже завданого удару, однобічний прогноз атаки або окремий вибір дії захисником.
+
+### Ігри-носії
+
+- [`GAME-0679` — "Jeanne d'Arc"](../games/g-l/jeanne-darc.md)
+
+## INF-626
+
+- Назва: Бачити готовність кожної умови запуску на окремому індикаторі
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Панель пристрою окремо показує, чи виконано кожну позначену умову налаштування або справності. Перед запуском за цими показниками можна визначити, що ще треба зробити.
+
+### Включає
+
+Звірити три рядки на маяку: обертання ввімкнено, корпус лампи піднято й перевірку лампи пройдено. Індикатор піднятого корпусу може бути зеленим, поки перевірка лампи ще червона.
+
+### Виключає
+
+Один спільний індикатор живлення, перелік завершених завдань, сам кінцевий результат або лічильник розподілу обмеженої потужності.
+
+### Ігри-носії
+
+- [`GAME-0680` — "Ghost Town"](../games/g-l/ghost-town.md)
+
+## INF-627
+
+- Назва: Бачити висоту, що лишилася до приземлення під час бою в падінні
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Коли бій триває в падінні, інтерфейс показує відстань до приземлення, а гравець усе ще може керувати рухом і змагатися за предмети. Показана відстань зменшується незалежно від здоров’я бійців.
+
+### Включає
+
+На арені «Блакитне небо» стежити, як зменшується показник метрів до подвір’я, і вирішити, чи ще можна дістатися парасолі.
+
+### Виключає
+
+Час раунду, загальний висотомір без рішення про приземлення, напис у сюжетній сцені або прогноз точної точки приземлення.
+
+### Ігри-носії
+
+- [`GAME-0681` — "Power Stone 2"](../games/m-r/power-stone-2.md)
+
+## INF-628
+
+- Назва: Бачити здоров’я, камені або запас сили й вибуття кожного бійця окремо
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Арена відводить кожному бійцю окрему панель. Здоров’я видно протягом бою. У посиленій формі шкала сили замінює показник каменів, а позначка вибуття показує, хто вже вибув із бою.
+
+### Включає
+
+Під час падіння звірити чотири підписані панелі. Після приземлення портрет Піта перекреслюється, а заповнені комірки каменів Фалкона змінюються на шкалу сили.
+
+### Виключає
+
+Спільний показник здоров’я або кількості вцілілих, лише рахунок двох гравців, покажчик місця предмета чи інтерфейс без запасів окремих учасників.
+
+### Ігри-носії
+
+- [`GAME-0681` — "Power Stone 2"](../games/m-r/power-stone-2.md)
+
+## INF-629
+
+- Назва: Бачити цільову цифру й напрямок обертання для кожного кроку
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+У записі можна прочитати, у якому напрямку повертати диск до кожної наступної цифри. Якщо цифра повторюється, для неї є окрема вказівка. Так видно і потрібний рух, і його кінцеву позначку.
+
+### Включає
+
+Прочитай останню сторінку записника поруч із диском скриньки. Обидві сімки мають стрілки ліворуч, а одиниця — праворуч.
+
+### Виключає
+
+Простий список цифр, зовнішній посібник, вказівки для переходів між місцями чи автоматичне введення комбінації.
+
+### Ігри-носії
+
+- [`GAME-0683` — "Last Window: The Secret of Cape West"](../games/g-l/last-window-the-secret-of-cape-west.md)
+
+## INF-630
+
+- Назва: Бачити команду допомоги біля придатного механізму
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Біля механізму з’являється підказка, якою командою попросити самостійного напарника попрацювати з ним. Підказка розрізняє доручення і безпосередню дію керованого персонажа.
+
+### Включає
+
+Біля важеля зупинки прочитай, як покликати сестру керувати важелем, перш ніж рушити до труби.
+
+### Виключає
+
+Загальні вказівки про рух, перелік навчальних завдань, автоматичне доручення без підказки або опис усього маршруту.
+
+### Ігри-носії
+
+- [`GAME-0684` — "REANIMAL"](../games/m-r/reanimal.md)
+
+## INF-631
+
+- Назва: Бачити підготовлену команду й незаповнену частину перед виконанням
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+В окремому рядку словами показано вибране дієслово й назви вказаних об’єктів. Якщо команді потрібен другий предмет, підставлений прийменник підказує, що його ще треба вказати. Відповідь після виконання може з’явитися в іншому рядку.
+
+### Включає
+
+Прочитай незавершену команду відмикання до підбирання ключа. Після вибору ключа в спорядженні прочитай повну команду. Повідомлення про замкнені двері під час попередньої спроби з’являється окремо.
+
+### Виключає
+
+Піктограма предмета біля вказівника без редагованої команди, прихований буфер вводу, саме лише меню доступних дій або гарантія успіху будь-якої повної команди.
+
+### Ігри-носії
+
+- [`GAME-0686` — "Maniac Mansion"](../games/m-r/maniac-mansion.md)
+
+## INF-632
+
+- Назва: Бачити окремо час, зараховані очки та поточну серію трюків
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Під час руху трасою окремо видно витрачений час, уже зараховані очки, додані очки поточної серії, позначку множника й назви останніх трюків. Повідомлення про поступ додаткового завдання може з’явитися без завершення заїзду.
+
+### Включає
+
+Звір нульовий білий підсумок із жовтими очками активної серії. У тому ж заїзді перевір лічильник вдалих заносів.
+
+### Виключає
+
+Сам лише зворотний відлік у парку трюків, непідтверджена формула обмеження очок, підсумкова картка або завчасний показ прихованих гілок колії.
+
+### Ігри-носії
+
+- [`GAME-0687` — "Denshattack!"](../games/a-f/denshattack.md)
+
+## INF-633
+
+- Назва: Показувати контур, поточну тінь і зарахований збіг на екрані
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+На одному екрані видно задані лінії та окрему поточну тінь від предмета в руці. Після зарахування екран змінюється, тож можна відрізнити неповний збіг від уже виконаної умови.
+
+### Включає
+
+Порівняй темну тінь із першим квадратним контуром. Після зарахування звір світлу позначку або рамку, навіть коли куб уже змістився.
+
+### Виключає
+
+Показ точних значень відстані чи кута, попередній показ майбутнього розміщеного предмета, пряма підказка потрібного руху або припущення про приховані предмети за відсутніми лініями контуру.
+
+### Ігри-носії
+
+- [`GAME-0689` — "Shadow Point"](../games/s-z/shadow-point.md)
+
+## INF-634
+
+- Назва: Розрізняти захисні дії за позначкою ворожої атаки
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Коротка позначка над нападником показує, хто атакує і яка захисна дія допустима. Одна позначка вимагає ухилитися, інша показує, що атаку можна перервати контратакою.
+
+### Включає
+
+Червоні позначки для ухилення й жовті позначки для можливої контратаки в першій сутичці в Терміт-Дейлі у REPLACED.
+
+### Виключає
+
+Загальне попередження без розрізнення захисних дій, постійне підсвічування вразливості, навчальний текст про позначку або точний розклад майбутніх атак.
+
+### Ігри-носії
+
+- [`GAME-0691` — "REPLACED"](../games/m-r/replaced.md)
+
+## INF-635
+
+- Назва: Позначати відповідь обраного попередника серед поточних варіантів
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+У поточному списку відповідей гра окремо позначає доступний варіант, який уже вибрали в обраному сторонньому проходженні. Позначка показує попередній вибір, а поточний гравець може відповісти самостійно.
+
+### Включає
+
+На човні Нахе в Tides of Tomorrow позначка попередника стоїть біля варіанта залишити дозу. Поточний гравець може її забрати.
+
+### Виключає
+
+Поточний вказівник чи варіант за замовчуванням, позначка з гарантованим наслідком для риси, історія розмов самого гравця або примусове повторення варіанта.
+
+### Ігри-носії
+
+- [`GAME-0696` — "Tides of Tomorrow"](../games/s-z/tides-of-tomorrow.md)
+
+## INF-636
+
+- Назва: Розрізняти разову нагороду, стан зброї та запас кораблів
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Окрема позначка біля знищеної цілі показує разову нагороду. Панель стану й далі показує загальний рахунок, рівень зброї, заряд посиленої атаки та запасні кораблі.
+
+### Включає
+
+У Radiant Silvergun повідомлення про серію або секретний бонус з’являється біля цілі. Рахунок, рівень зброї, шкала меча й запас кораблів залишаються у верхній частині екрана.
+
+### Виключає
+
+Приховане накопичення без позначки події, єдиний нерозкладений підсумок, сам показ боєприпасів або звіт, який з’являється тільки після бою.
+
+### Ігри-носії
+
+- [`GAME-0697` — "Radiant Silvergun"](../games/m-r/radiant-silvergun.md)
+
+## INF-637
+
+- Назва: Показувати зразок із позначкою, яку треба перенести на відповідне зображення
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Підказка поєднує впізнаване зображення й виразну позначку поверх нього. Зображення вказує, де шукати відповідну сцену. Позначка показує форму зміни та її місце відносно деталі.
+
+### Включає
+
+У Song of Bloom підказка з бутона показує червоне коло на вершині білої гори. Та сама вершина в крейдяній оповіді спершу не обведена.
+
+### Виключає
+
+Письмова відповідь без прив’язки до місця, точні координати екрана, контур на самому полотні відповіді або зразок без позначки потрібної дії.
+
+### Ігри-носії
+
+- [`GAME-0698` — "Song of Bloom"](../games/s-z/song-of-bloom.md)
+
+## INF-638
+
+- Назва: Показувати спорядження й відкривати навички кандидата до прийняття
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+У картці кандидата видно спорядження та поточні й максимальні значення ресурсів. Окрема дія в цій картці показує навички й характеристики, поки гравець ще може вийти без прийняття кандидата до загону.
+
+### Включає
+
+Під час огляду дзеркала в Dungeon Master видно спорядження, здоров’я, витривалість і ману. Утримуй вказівник з порожньою рукою на позначці ока, щоб побачити навички й характеристики до вибору способу прийняття.
+
+### Виключає
+
+Лише портрет, показники, доступні вже після прийняття, або зведення про чинний загін без окремої картки кандидата.
+
+### Ігри-носії
+
+- [`GAME-0699` — "Dungeon Master"](../games/a-f/dungeon-master.md)
+
+## INF-639
+
+- Назва: Розрізняти команди чекати й іти слідом через підказки натискання й утримання
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Під час гри видно дві команди одному супутникові на тій самій кнопці. Коротке натискання наказує чекати на поточному місці, а утримання — іти слідом за гравцем. Підказка показує обидва варіанти до вибору.
+
+### Включає
+
+У першій спільній сцені з плитою в Planet of Lana II для Switch 2 підказка показує натискання A для команди «Чекати» й утримання A для команди «Іти слідом».
+
+### Виключає
+
+Показ лише однієї контекстної дії за раз, указування віддаленого місця призначення, показ уже вибраного стану супутника без інструкцій або підказка з різними кнопками для цих двох команд.
+
+### Ігри-носії
+
+- [`GAME-0700` — "Planet of Lana II: Children of the Leaf"](../games/m-r/planet-of-lana-ii.md)
+
+## INF-640
+
+- Назва: Показувати пари труб і частковий ремонт позначеннями та манометрами
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Гравець може оглянути позначення, які пов’язують відкриті кінці однієї ділянки, і звірити її манометр. Стрілка може перейти в сектор успіху, поки інші ділянки ще не добудовано й завдання загалом триває.
+
+### Включає
+
+У Escaping Wonderland сполучення синіх смугастих труб і стрілка в зеленому секторі позначають одну відновлену ділянку ще до завершення решти з’єднань.
+
+### Виключає
+
+Лише загальне повідомлення про завершення, декоративний прилад без показань, приховане моделювання тиску або підказка, що вказує тільки на вхід до кімнати.
+
+### Ігри-носії
+
+- [`GAME-0702` — "Escaping Wonderland"](../games/a-f/escaping-wonderland.md)
+
+## INF-641
+
+- Назва: Розрізняти позначений вантаж, решту обов’язкових предметів і час для доплати
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Для одного завдання з фізичним завантаженням познач предмети, які зараховуються до обов’язкового вантажу. Показуй, скільки їх іще треба завантажити, окремо від часу, що залишився для доплати. Вантаж без позначки можна переносити, але він не зараховується до обов’язкової кількості.
+
+### Включає
+
+На першій фермі Part Time UFO ящики з апельсинами блимають, лічильник починається з двох, а час показано окремо. Кошик дає оплату, поки ще бракує одного обов’язкового ящика.
+
+### Виключає
+
+Єдиний лічильник усіх завантажених предметів, лише потрібна форма готового вантажу або таймер доплати без окремих позначень обов’язкового вантажу.
+
+### Ігри-носії
+
+- [`GAME-0703` — "Part Time UFO"](../games/m-r/part-time-ufo.md)
+
+## INF-642
+
+- Назва: Окремо показувати лампи проходів, стан пастки, підготовлений бонус і загальний рахунок
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+На фізичному столі окремо видно лампи кожного проходу, стан пастки й підготовлений бонус. Загальний рахунок показано окремо. Так гравець може відрізнити виконану умову проходів, готовність пастки прийняти кулю та вже нараховані очки.
+
+### Включає
+
+В Alien Crush чотири верхні лампи, видимий стан пастки Tentacloid і верхній лічильник бонусу — різні підказки. Під час нарахування окремо показано місцевий бонус і загальний рахунок.
+
+### Виключає
+
+Лише підсумковий рахунок, одна спільна лампа готовності без окремих станів проходів або звіт лише про зачистку бонусної кімнати й нагороду за бездоганний результат.
+
+### Ігри-носії
+
+- [`GAME-0704` — "Alien Crush"](../games/a-f/alien-crush.md)
+
+## INF-643
+
+- Назва: Окремо показувати зібрані ключі й готовність виходу
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Поки триває рівень, інтерфейс показує, які потрібні ключі вже зібрано. Вихід має окрему видиму позначку, що розрізняє закритий і відкритий стани. Таймер показує, що маршрут іще треба завершити в межах спроби.
+
+### Включає
+
+На третьому рівні Kula World сірий значок ключа стає золотим, червона позначка виходу зеленіє, а пісковий годинник видно до завершення спроби.
+
+### Виключає
+
+Лічильник необов’язкових предметів, таймер без стану ключів або виходу, вихід, видимий лише після завершення, або підказка з повним маршрутом до всіх потрібних предметів.
+
+### Ігри-носії
+
+- [`GAME-0706` — "Kula World"](../games/g-l/kula-world.md)
+
+## INF-644
+
+- Назва: Відрізнити активне всмоктування від слизу, що ще тримається
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Коли інструмент всмоктує матеріал, натягнуті нитки або частинки показують, яку його частину зараз тягне до отвору. Решту матеріалу видно на поверхні, тож гравець може змінити напрям усмоктування до повного очищення.
+
+### Включає
+
+У The Gunk яскрава нитка й частинки тягнуться до рукавиці, а темний слиз із червоними прожилками ще тримається довкола проходу.
+
+### Виключає
+
+Звичайна прицільна позначка без ознак контакту, точна дальність у цифрах, лічильник запасів або анімація відновлення лише після очищення.
+
+### Ігри-носії
+
+- [`GAME-0707` — "The Gunk"](../games/s-z/the-gunk.md)
+
+## INF-645
+
+- Назва: Показувати зараховану територію та час, що лишився на відбудову
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Доки мур іще можна змінювати, проломи та вигляд землі на полі дають відрізнити зараховану територію від відкритої. Таймер показує, скільки часу лишилося на зміну цього стану.
+
+### Включає
+
+У Rampart ділянка навколо основного замку з проломом лишається зеленою. Після замикання муру вона стає синьою, а відлік триває.
+
+### Виключає
+
+Загальний таймер без ознак замкненості, позначка лише допустимості поточного фрагмента або показ належності території тільки після завершення відбудови.
+
+### Ігри-носії
+
+- [`GAME-0708` — "Rampart"](../games/m-r/rampart.md)
+
+## INF-646
+
+- Назва: Окремо показувати відскок, влучання й готовність до переходу
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+На полі видно рух кульок, окрему реакцію відбивача при контакті й реакцію приймача при влучанні. Коли виконано умову проходження, з’являється окрема кнопка переходу далі.
+
+### Включає
+
+В ELOH ударний блок реагує на зіткнення. Якщо відскок приводить кульку в ціль, приймач пульсує, а після зарахування проходження внизу з’являється стрілка.
+
+### Виключає
+
+Попередня лінія без відгуку на контакт, зарахування реакції блока як влучання в ціль, неперевірений суто звуковий сигнал або автоматична зміна поля без дії гравця.
+
+### Ігри-носії
+
+- [`GAME-0711` — "ELOH"](../games/a-f/eloh.md)
+
+## INF-647
+
+- Назва: Показати настрій суперника й дієвість уміння до підтвердження
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Під час бою видно поточний настрій цілі й кількість ходів до його завершення. Під час вибору вміння інтерфейс позначає його відповідність цьому настрою до того, як гравець підтвердить ціль.
+
+### Включає
+
+У Thirsty Suitors біля Серджіо видно жагу й три ходи. Біля удару по залицяльнику та вибраної цілі з’являється позначка дієвості.
+
+### Виключає
+
+Лише припущення про приховану вразливість, напис після завданої шкоди, постійна риса персонажа або опис уміння без позначки біля поточної цілі.
+
+### Ігри-носії
+
+- [`GAME-0714` — "Thirsty Suitors"](../games/s-z/thirsty-suitors.md)
+
+## INF-648
+
+- Назва: Показати придатні клітинки й очікуваний приріст ресурсу до встановлення
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+До підтвердження споруди гра показує, на які клітинки вона подіє та як зміниться запас ресурсу. Пересування чи поворот можуть змінити охоплення й приріст за тієї самої ціни споруди.
+
+### Включає
+
+У Terra Nil під час наведення зрошувача зелене позначення відрізняє придатні клітинки від виключених. Поруч зі спорудою показано очікуваний приріст листків.
+
+### Виключає
+
+Загальне коло досяжності без урахування місцевості, повідомлення після дії, незмінний перелік рецептів або позначення лише дозволу на встановлення.
+
+### Ігри-носії
+
+- [`GAME-0716` — "Terra Nil"](../games/s-z/terra-nil.md)
+
+## INF-649
+
+- Назва: Показувати наближення нот і момент відповіді під час хору
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Під час місцевого хору рухомі символи нот показують наступні можливості відповісти. Виразний видимий сигнал підказує момент натискання. Ця сама сцена може показувати отримані ноти без точного допуску в часі.
+
+### Включає
+
+У Franzea 1 місцевість залишається в кадрі. Контури нот рухаються навколо неї, а кольорова підказка позначає момент відповіді.
+
+### Виключає
+
+Підказка лише звуком, нерухомий лічильник зібраного, багатосмугова схема нот або підсумкова оцінка точності.
+
+### Ігри-носії
+
+- [`GAME-0717` — "LocoRoco 2"](../games/g-l/locoroco-2.md)
+
+## INF-650
+
+- Назва: Зіставляти ескіз із краєвидом і бачити стан підтвердження
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Гра показує уривок мапи з намальованими орієнтирами поруч із краєвидом, який можна рухати й наближати. Імовірну точку під час огляду й підтверджений уривок позначено по-різному.
+
+### Включає
+
+На ескізі східного берега видно скелю Зуб велета. Під час огляду точку позначено знаком питання, а після звірки на березі на ескізі з’являється зелена галочка.
+
+### Виключає
+
+Автоматично розв’язана ціль на мінімапі, точне накладання повної мапи з усіма стежками, зміна геометрії місцевості за допомогою схеми або реальна геолокація.
+
+### Ігри-носії
+
+- [`GAME-0718` — "A Highland Song"](../games/a-f/a-highland-song.md)
+
+## INF-651
+
+- Назва: Показувати здоров’я, рівень і заряд героїні та супутника окремо
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Під час бою видно, кого обрано супутником, а здоров’я, рівень і запас атаки головного персонажа й супутника показано окремо. Шкала головного персонажа також указує на готовність кругового розряду.
+
+### Включає
+
+У грі Alisia Dragoon окремі панелі Алісії та її супутника показують портрет, очки здоров’я, рівень і заряд. Повна шкала Алісії може миготіти до атаки.
+
+### Виключає
+
+Спільне здоров’я чи запас для двох персонажів, фіксація прицілу на ворогові, екран спорядження або прихована умова надпотужної атаки.
+
+### Ігри-носії
+
+- [`GAME-0719` — "Alisia Dragoon"](../games/a-f/alisia-dragoon.md)
+
+## INF-652
+
+- Назва: Показувати поточний лічильник і окремі відзнаки після виходу
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Під час проходження видно лічильник звичайних предметів, а підбір літери позначається окремо. Підсумок і вибір рівня показують відзнаки за повний набір літер, бонусні завдання й потрібну кількість кристалів.
+
+### Включає
+
+У затоці Бобів під час плавання видно лічильник червоних кристалів. За порталом виходу окремо показано літери, смарагд і відзнаку за кристали.
+
+### Виключає
+
+Один загальний рахунок, медаль без пояснення категорій, результат секундоміра або твердження про збереження після перезапуску гри.
+
+### Ігри-носії
+
+- [`GAME-0720` — "Kaze and the Wild Masks"](../games/g-l/kaze-and-the-wild-masks.md)
+
+## INF-653
+
+- Назва: Показувати, коли біля прапорця можна викликати транспорт
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Значок під час гри сповіщає, що персонаж достатньо близько до досягнутого прапорця. Доступність виклику видно ще до відкриття команди перельоту.
+
+### Включає
+
+У QuackShot значок прапорця блимає біля місця, з якого можна викликати літак через меню предметів.
+
+### Виключає
+
+Позначка місця призначення на мапі, значок збереження, лічильник предметів або курсор вибору місцевості.
+
+### Ігри-носії
+
+- [`GAME-0722` — "QuackShot Starring Donald Duck"](../games/m-r/quackshot-starring-donald-duck.md)
+
+## INF-654
+
+- Назва: Показувати лінію прицілу, міцність блоків і два окремі лічильники
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Під час вибору напряму видно лінію прицілу. Число на кожному видимому блоці показує, скільки влучань іще потрібно. Лічильники окремо показують доступні залпи й кульки в одному залпі.
+
+### Включає
+
+Перед залпом у holedown звір лінію прицілу з відкритим краєм блока. Його число, запас залпів і кількість кульок допомагають оцінити різні частини рішення.
+
+### Виключає
+
+Гарантований прогноз усіх відскоків, лише напрямок цілі без лінії прицілу або єдиний лічильник, який не розрізняє залпи та кульки.
+
+### Ігри-носії
+
+- [`GAME-0723` — "holedown"](../games/g-l/holedown.md)
+
+## INF-655
+
+- Назва: Показувати наступну доступну фразу, доріжку, хід пісні та енергію
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Під час гри видно вибрану доріжку, позиції наступних нот і позначку на наступних двох тактах, які ще можна зіграти для активації. Окремі показники відображають запас енергії, поточну секцію пісні, очки й збережений бонус.
+
+### Включає
+
+У Frequency після пропуску шукай наступну зелену пару тактів або перейди на іншу доріжку. Запас енергії й позицію в пісні можна прочитати окремо.
+
+### Виключає
+
+Попередній показ усієї пісні, звіт про точність після гри, ритм без видимої поточної доріжки або локальна підказка без показника енергії.
+
+### Ігри-носії
+
+- [`GAME-0724` — "Frequency"](../games/a-f/frequency.md)
+
+## INF-656
+
+- Назва: Помітити тріщини на перешкоді й дізнатися, як застосувати знаряддя
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+На перешкоді видно тріщини ще до того, як її можна розбити. Пізніше підказка під час отримання знаряддя показує відповідну кнопку. Тоді можна повернутися й прибрати перешкоду.
+
+### Включає
+
+На початку Crypt Custodian тріснуті статуї позначають предмети, які можна розбити. Після отримання мітли підказка показує, як нею вдарити.
+
+### Виключає
+
+Картинка замкнених дверей без відповідної дії, декоративна тріщина, показ повністю готового маршруту або підказка про знаряддя без раніше видимої перешкоди.
+
+### Ігри-носії
+
+- [`GAME-0725` — "Crypt Custodian"](../games/a-f/crypt-custodian.md)
+
+## INF-657
+
+- Назва: Бачити відкритий маршрут на карті й пересувати огляд окремо від вантажу
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Поруч з ігровим полем видно карту з відкритими проходами й поточною позицією. Тимчасово перенеси карту на сенсорний екран і торкнися ділянки, щоб оглянути її, залишивши бульбашку на місці.
+
+### Включає
+
+Карта Nintendo DS поповнюється, поки бульбашка з духами рухається. Утримання кнопки карти в Soul Bubbles дає змогу оглянути вибрану ділянку й повернутися до місцевого керування.
+
+### Виключає
+
+Наказ вантажу вирушити в точку на мінікарті, готовий повний план і карта, з якої неможливо вибрати місце огляду.
+
+### Ігри-носії
+
+- [`GAME-0726` — "Soul Bubbles"](../games/s-z/soul-bubbles.md)
+
+## INF-658
+
+- Назва: Підказати наступне розміщення жестом руки
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Під час роботи інший персонаж указує рукою на потрібну деталь чи місце для неї. Гравець сам виконує або виправляє дію, щоб просунутися далі.
+
+### Включає
+
+У Familiar одна рука вказує на баночку, поки деталі ще лежать на столі. Пізніше інша рука вказує на одну з панелей під час стикування.
+
+### Виключає
+
+Стороння підказка, постійний контур без участі іншого персонажа, репліка без підказки до дії й автоматичне встановлення деталі іншим персонажем.
+
+### Ігри-носії
+
+- [`GAME-0727` — "Miniatures"](../games/m-r/miniatures.md)
+
+## INF-659
+
+- Назва: Читати стан пошкодженого меха за виглядом корпусу
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Пошкодження поступово змінюють вигляд керованого меха. Зміна кольору, вм’ятини й іскри дають змогу оцінити його стан без шкали здоров’я.
+
+### Включає
+
+У першій місії Metal Warriors корпус Nitro темнішає, а керування зберігається. Посібник також описує вм’ятини й іскри як ознаки пошкодження.
+
+### Виключає
+
+Миттєвий спалах від удару, числова шкала, окремі показники пошкоджень частин тіла ворога й визначення точного запасу міцності лише за кольором.
+
+### Ігри-носії
+
+- [`GAME-0728` — "Metal Warriors"](../games/m-r/metal-warriors.md)
+
+## INF-660
+
+- Назва: Ненадовго показувати блоки з резервними ворогами спалахом
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Гра ненадовго виділяє предмети з прихованими ворогами серед зовні звичайних перешкод. На них можна націлитися, поки ворог усередині, але позначка може зникнути ще до дії гравця.
+
+### Включає
+
+На початку лабіринту Pengo спалахи позначають блоки з яйцями снігових бджіл. Запам’ятай їхнє розташування, щоб спробувати розбити блоки до вилуплення.
+
+### Виключає
+
+Постійно відмінний вигляд усіх руйнівних перешкод, загальний лічильник без розташування ворогів, показ лише вже активного ворога й підказка з часом усіх майбутніх вилуплень.
+
+### Ігри-носії
+
+- [`GAME-0731` — "Pengo"](../games/m-r/pengo.md)
+
+## INF-661
+
+- Назва: Показувати зараховані штампи відносно загальної кількості й потреби для поїздки
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Картка показує ту саму кількість місцевих штампів відносно всіх можливих штампів і відносно меншої кількості, потрібної для поїздки. Так видно, коли вже можна вирушати, хоча частина завдань ще доступна.
+
+### Включає
+
+Після завдання Нани на картці Гоумленди в TOEM показано один із трьох можливих штампів і один з одного потрібного для автобуса.
+
+### Виключає
+
+Єдина обов’язкова квота завдання, лічильники різних ресурсів, перелік усіх невиконаних завдань і показ поїздки без кількості штампів, потрібної для неї.
+
+### Ігри-носії
+
+- [`GAME-0732` — "TOEM"](../games/s-z/toem.md)
+
+## INF-662
+
+- Назва: Позначати останнього обов’язкового ворога до завершення арени
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Коли на арені лишається один обов’язковий ворог, гра виділяє саме його. Позначка показує, чия поразка завершить зачистку, поки ще можна виконати необов’язкові дії.
+
+### Включає
+
+Останній робот на першій арені Nex Machina підсвічується пурпуровим, перш ніж його знищення запустить перехід.
+
+### Виключає
+
+Однакові обриси всіх ворогів, лічильник без позначення конкретного ворога й повідомлення після завершення зачистки.
+
+### Ігри-носії
+
+- [`GAME-0734` — "Nex Machina"](../games/m-r/nex-machina.md)
+
+## INF-663
+
+- Назва: Показувати запас вибраного інструмента, решту знахідок і час
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Під час спроби на екрані видно вибраний інструмент і решту його застосувань, а окремо — кількість предметів, які ще треба зібрати, і залишок часу. Перемикання інструмента змінює показаний запас, а кількість потрібних предметів лишається тією самою.
+
+### Включає
+
+На рівні 5 «Лісових водоспадів» у Toki Tori залишок мостів або телепортів видно вгорі ліворуч. Унизу окремо показані решта яєць і відлік часу.
+
+### Виключає
+
+Загальний запас усіх інструментів, лічильник уже зібраних предметів, показ лише в інвентарі й екран результату після спроби.
+
+### Ігри-носії
+
+- [`GAME-0735` — "Toki Tori"](../games/s-z/toki-tori.md)
+
+## INF-664
+
+- Назва: Показувати дію графіті й позначати вже пройдені точки
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Поряд із придатною стіною з’являється підказка про можливість нанести графіті. Під час малювання інтерфейс відрізняє вже пройдені точки напрямків від доступних, показує лінії між пройденими точками й місцевий запас часу.
+
+### Включає
+
+Підійди до стіни пагорба Версум, щоб побачити балончик і підказку RB. Під час малювання жовті точки й лінії позначають пройдені напрямки, а темні точки ще доступні.
+
+### Виключає
+
+Повний маршрут з єдиною обов’язковою послідовністю, статичний показ готового малюнка, загальний список усіх стін району й показ інвентарю чи валюти.
+
+### Ігри-носії
+
+- [`GAME-0736` — "Bomb Rush Cyberfunk"](../games/a-f/bomb-rush-cyberfunk.md)
+
+## INF-665
+
+- Назва: Поєднувати глибину блоків із пласкою схемою та позначками цілі
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Один вид показує стіну з блоками на поточній глибині. Окрема пласка схема зберігає початкове розташування граней і позначає ціль та місце персонажа. За видом стіни можна прочитати відкриті сходинки, а за схемою — знайти ціль у розкладці.
+
+### Включає
+
+Верхній екран в уроці 3 Pullblox показує відкриті ряди. Нижній екран зберігає схему з трьох смуг, прапорець цілі й окрему позначку Малло.
+
+### Виключає
+
+Карта з точним об’ємом кожного виступу, підказка готового маршруту, зміна ландшафту ракурсом камери й декоративне прев’ю без позначок цілі чи персонажа.
+
+### Ігри-носії
+
+- [`GAME-0737` — "Pullblox"](../games/m-r/pullblox.md)
+
+## INF-666
+
+- Назва: Показувати допустиме приземлення окремо від напрямку вводу
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Під час наведення стрибка інтерфейс показує напрямок до вибраної допустимої точки на придатній поверхні. До виконання стрибка ця підказка може відрізнятися від лінії початкового вводу.
+
+### Включає
+
+На початку Dandara яскрава лінія зі стрілкою веде до точки на соляній смузі. Тьмяна лінія вводу може бути спрямована трохи вбік.
+
+### Виключає
+
+Стрілка руху без перевірки опори, маршрут через усі наступні точки, позначка мішені для пострілу й підказка лише після приземлення.
+
+### Ігри-носії
+
+- [`GAME-0738` — "Dandara: Trials of Fear Edition"](../games/a-f/dandara-trials-of-fear-edition.md)

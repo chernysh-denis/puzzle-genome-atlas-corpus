@@ -112,6 +112,7 @@
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0484` — Impossible Mission](../games/g-l/impossible-mission.md)
 - [`GAME-0123` — Inscryption](../games/g-l/inscryption.md)
+- [`GAME-0679` — "Jeanne d'Arc"](../games/g-l/jeanne-darc.md)
 - [`GAME-0028` — Loop Hero](../games/g-l/loop-hero.md)
 - [`GAME-0442` — 'Lumines: Puzzle Fusion'](../games/g-l/lumines-puzzle-fusion.md)
 - [`GAME-0185` — "Magic: The Gathering Arena"](../games/m-r/magic-the-gathering-arena.md)
@@ -868,9 +869,11 @@ Dorfromantik додає плитки до стосу за завершені з�
 ### Ігри-носії
 
 - [`GAME-0312` — ASTRO BOT](../games/a-f/astro-bot.md)
+- [`GAME-0709` — "Baby Steps"](../games/a-f/baby-steps.md)
 - [`GAME-0423` — "Banjo-Kazooie: Nuts & Bolts"](../games/a-f/banjo-kazooie-nuts-and-bolts.md)
 - [`GAME-0386` — Banjo-Kazooie](../games/a-f/banjo-kazooie.md)
 - [`GAME-0594` — "Bionic Bay"](../games/a-f/bionic-bay.md)
+- [`GAME-0736` — "Bomb Rush Cyberfunk"](../games/a-f/bomb-rush-cyberfunk.md)
 - [`GAME-0465` — Boom Blox](../games/a-f/boom-blox.md)
 - [`GAME-0490` — Comix Zone](../games/a-f/comix-zone.md)
 - [`GAME-0326` — Crash Bandicoot](../games/a-f/crash-bandicoot.md)
@@ -880,16 +883,20 @@ Dorfromantik додає плитки до стосу за завершені з�
 - [`GAME-0495` — Donkey Kong Country Returns](../games/a-f/donkey-kong-country-returns.md)
 - [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
 - [`GAME-0091` — Fez](../games/a-f/fez.md)
+- [`GAME-0713` — "Firestriker"](../games/a-f/firestriker.md)
 - [`GAME-0167` — Geometry Dash](../games/g-l/geometry-dash.md)
 - [`GAME-0468` — Gravity Rush](../games/g-l/gravity-rush.md)
 - [`GAME-0560` — Gunstar Heroes](../games/g-l/gunstar-heroes.md)
 - [`GAME-0112` — Human: Fall Flat](../games/g-l/human-fall-flat.md)
 - [`GAME-0215` — It Takes Two](../games/g-l/it-takes-two.md)
+- [`GAME-0712` — "JellyCar Worlds"](../games/g-l/jellycar-worlds.md)
 - [`GAME-0464` — "Jet Set Radio Future"](../games/g-l/jet-set-radio-future.md)
 - [`GAME-0350` — "Jet Set Radio"](../games/g-l/jet-set-radio.md)
 - [`GAME-0552` — Jusant](../games/g-l/jusant.md)
 - [`GAME-0267` — Kerbal Space Program](../games/g-l/kerbal-space-program.md)
 - [`GAME-0408` — Kirby's Adventure](../games/g-l/kirbys-adventure.md)
+- [`GAME-0692` — "Klonoa 2: Lunatea's Veil"](../games/g-l/klonoa-2-lunateas-veil.md)
+- [`GAME-0717` — "LocoRoco 2"](../games/g-l/locoroco-2.md)
 - [`GAME-0482` — LocoRoco](../games/g-l/locoroco.md)
 - [`GAME-0095` — Manifold Garden](../games/m-r/manifold-garden.md)
 - [`GAME-0096` — Maquette](../games/m-r/maquette.md)
@@ -898,15 +905,23 @@ Dorfromantik додає плитки до стосу за завершені з�
 - [`GAME-0558` — Moss](../games/m-r/moss.md)
 - [`GAME-0507` — MotorStorm](../games/m-r/motorstorm.md)
 - [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
+- [`GAME-0703` — "Part Time UFO"](../games/m-r/part-time-ufo.md)
 - [`GAME-0203` — "PEAK"](../games/m-r/peak.md)
 - [`GAME-0113` — Portal 2 — Cooperative Campaign](../games/m-r/portal-2-co-op.md)
 - [`GAME-0033` — Portal](../games/m-r/portal.md)
 - [`GAME-0561` — Psychonauts 2](../games/m-r/psychonauts-2.md)
 - [`GAME-0358` — Psychonauts](../games/m-r/psychonauts.md)
+- [`GAME-0737` — "Pullblox"](../games/m-r/pullblox.md)
+- [`GAME-0710` — "Racing Destruction Set"](../games/m-r/racing-destruction-set.md)
+- [`GAME-0733` — "Solomon's Key"](../games/s-z/solomons-key.md)
+- [`GAME-0690` — "Sonic Advance"](../games/s-z/sonic-advance.md)
 - [`GAME-0472` — Sonic Adventure](../games/s-z/sonic-adventure.md)
+- [`GAME-0682` — "Sonic Dream Team"](../games/s-z/sonic-dream-team.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
+- [`GAME-0726` — "Soul Bubbles"](../games/s-z/soul-bubbles.md)
 - [`GAME-0657` — "Spire Blast"](../games/s-z/spire-blast.md)
 - [`GAME-0157` — Split Fiction](../games/s-z/split-fiction.md)
+- [`GAME-0677` — "Stunt Car Racer"](../games/s-z/stunt-car-racer.md)
 - [`GAME-0460` — Super Mario 64](../games/s-z/super-mario-64.md)
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
 - [`GAME-0428` — Super Mario Maker](../games/s-z/super-mario-maker.md)
@@ -946,6 +961,7 @@ Dorfromantik додає плитки до стосу за завершені з�
 ### Ігри-носії
 
 - [`GAME-0540` — Afterplace](../games/a-f/afterplace.md)
+- [`GAME-0719` — "Alisia Dragoon"](../games/a-f/alisia-dragoon.md)
 - [`GAME-0520` — Animal Well](../games/a-f/animal-well.md)
 - [`GAME-0312` — ASTRO BOT](../games/a-f/astro-bot.md)
 - [`GAME-0386` — Banjo-Kazooie](../games/a-f/banjo-kazooie.md)
@@ -959,18 +975,24 @@ Dorfromantik додає плитки до стосу за завершені з�
 - [`GAME-0495` — Donkey Kong Country Returns](../games/a-f/donkey-kong-country-returns.md)
 - [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
 - [`GAME-0092` — Echochrome](../games/a-f/echochrome.md)
+- [`GAME-0713` — "Firestriker"](../games/a-f/firestriker.md)
 - [`GAME-0167` — Geometry Dash](../games/g-l/geometry-dash.md)
 - [`GAME-0468` — Gravity Rush](../games/g-l/gravity-rush.md)
 - [`GAME-0070` — Inertia](../games/g-l/inertia.md)
+- [`GAME-0720` — "Kaze and the Wild Masks"](../games/g-l/kaze-and-the-wild-masks.md)
 - [`GAME-0537` — Kirby Tilt 'n' Tumble](../games/g-l/kirby-tilt-n-tumble.md)
+- [`GAME-0692` — "Klonoa 2: Lunatea's Veil"](../games/g-l/klonoa-2-lunateas-veil.md)
+- [`GAME-0706` — "Kula World"](../games/g-l/kula-world.md)
 - [`GAME-0609` — "Kuru Kuru Kururin"](../games/g-l/kuru-kuru-kururin.md)
 - [`GAME-0394` — LittleBigPlanet 2](../games/g-l/littlebigplanet-2.md)
+- [`GAME-0717` — "LocoRoco 2"](../games/g-l/locoroco-2.md)
 - [`GAME-0482` — LocoRoco](../games/g-l/locoroco.md)
 - [`GAME-0569` — Lode Runner](../games/g-l/lode-runner.md)
 - [`GAME-0389` — Mega Man 2](../games/m-r/mega-man-2.md)
 - [`GAME-0607` — "Mischief Makers"](../games/m-r/mischief-makers.md)
 - [`GAME-0558` — Moss](../games/m-r/moss.md)
 - [`GAME-0572` — Neon White](../games/m-r/neon-white.md)
+- [`GAME-0734` — "Nex Machina"](../games/m-r/nex-machina.md)
 - [`GAME-0445` — "NiGHTS into Dreams"](../games/m-r/nights-into-dreams.md)
 - [`GAME-0483` — "Oddworld: Stranger's Wrath"](../games/m-r/oddworld-strangers-wrath.md)
 - [`GAME-0605` — "Outtrigger"](../games/m-r/outtrigger.md)
@@ -979,6 +1001,7 @@ Dorfromantik додає плитки до стосу за завершені з�
 - [`GAME-0612` — "Pipistrello and the Cursed Yoyo"](../games/m-r/pipistrello-and-the-cursed-yoyo.md)
 - [`GAME-0479` — Pitfall!](../games/m-r/pitfall.md)
 - [`GAME-0640` — "Pizza Tower"](../games/m-r/pizza-tower.md)
+- [`GAME-0681` — "Power Stone 2"](../games/m-r/power-stone-2.md)
 - [`GAME-0519` — Power Stone](../games/m-r/power-stone.md)
 - [`GAME-0561` — Psychonauts 2](../games/m-r/psychonauts-2.md)
 - [`GAME-0358` — Psychonauts](../games/m-r/psychonauts.md)
@@ -989,8 +1012,11 @@ Dorfromantik додає плитки до стосу за завершені з�
 - [`GAME-0487` — Sid Meier's Pirates!](../games/s-z/sid-meiers-pirates.md)
 - [`GAME-0616` — Silent Bomber](../games/s-z/silent-bomber.md)
 - [`GAME-0045` — Snakebird](../games/s-z/snakebird.md)
+- [`GAME-0690` — "Sonic Advance"](../games/s-z/sonic-advance.md)
 - [`GAME-0472` — Sonic Adventure](../games/s-z/sonic-adventure.md)
+- [`GAME-0682` — "Sonic Dream Team"](../games/s-z/sonic-dream-team.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
+- [`GAME-0726` — "Soul Bubbles"](../games/s-z/soul-bubbles.md)
 - [`GAME-0548` — Space Station Silicon Valley](../games/s-z/space-station-silicon-valley.md)
 - [`GAME-0387` — Super Bomberman](../games/s-z/super-bomberman.md)
 - [`GAME-0460` — Super Mario 64](../games/s-z/super-mario-64.md)
@@ -998,12 +1024,14 @@ Dorfromantik додає плитки до стосу за завершені з�
 - [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
 - [`GAME-0378` — Super Monkey Ball 2](../games/s-z/super-monkey-ball-2.md)
 - [`GAME-0448` — Temple Run](../games/s-z/temple-run.md)
+- [`GAME-0695` — "Terranigma"](../games/s-z/terranigma.md)
 - [`GAME-0458` — The Legend of Zelda: Link's Awakening](../games/s-z/the-legend-of-zelda-links-awakening.md)
 - [`GAME-0395` — "The Legend of Zelda: Majora’s Mask"](../games/s-z/the-legend-of-zelda-majoras-mask.md)
 - [`GAME-0363` — "The Legend of Zelda: Ocarina of Time"](../games/s-z/the-legend-of-zelda-ocarina-of-time.md)
 - [`GAME-0325` — The Legend of Zelda](../games/s-z/the-legend-of-zelda.md)
 - [`GAME-0038` — The Swapper](../games/s-z/the-swapper.md)
 - [`GAME-0090` — The Talos Principle](../games/s-z/the-talos-principle.md)
+- [`GAME-0735` — "Toki Tori"](../games/s-z/toki-tori.md)
 - [`GAME-0104` — TUNIC](../games/s-z/tunic.md)
 - [`GAME-0497` — Wario Land 4](../games/s-z/wario-land-4.md)
 
@@ -1208,6 +1236,7 @@ Walker у Lemmings іде вперед, повертає біля блокува
 - [`GAME-0510` — Indiana Jones and the Great Circle](../games/g-l/indiana-jones-and-the-great-circle.md)
 - [`GAME-0585` — Into the Radius](../games/g-l/into-the-radius.md)
 - [`GAME-0408` — Kirby's Adventure](../games/g-l/kirbys-adventure.md)
+- [`GAME-0692` — "Klonoa 2: Lunatea's Veil"](../games/g-l/klonoa-2-lunateas-veil.md)
 - [`GAME-0583` — "Kunitsu-Gami: Path of the Goddess"](../games/g-l/kunitsu-gami-path-of-the-goddess.md)
 - [`GAME-0638` — "Lemmings 2: The Tribes"](../games/g-l/lemmings-2-the-tribes.md)
 - [`GAME-0025` — Lemmings](../games/g-l/lemmings.md)
@@ -1216,6 +1245,7 @@ Walker у Lemmings іде вперед, повертає біля блокува
 - [`GAME-0389` — Mega Man 2](../games/m-r/mega-man-2.md)
 - [`GAME-0462` — Metal Slug 3](../games/m-r/metal-slug-3.md)
 - [`GAME-0474` — Metroid Fusion](../games/m-r/metroid-fusion.md)
+- [`GAME-0734` — "Nex Machina"](../games/m-r/nex-machina.md)
 - [`GAME-0445` — "NiGHTS into Dreams"](../games/m-r/nights-into-dreams.md)
 - [`GAME-0483` — "Oddworld: Stranger's Wrath"](../games/m-r/oddworld-strangers-wrath.md)
 - [`GAME-0481` — Out Run](../games/m-r/out-run.md)
@@ -1223,12 +1253,14 @@ Walker у Lemmings іде вперед, повертає біля блокува
 - [`GAME-0125` — Oxygen Not Included](../games/m-r/oxygen-not-included.md)
 - [`GAME-0342` — "PAC-MAN"](../games/m-r/pac-man.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
+- [`GAME-0731` — "Pengo"](../games/m-r/pengo.md)
 - [`GAME-0035` — Pikmin 4](../games/m-r/pikmin-4.md)
 - [`GAME-0479` — Pitfall!](../games/m-r/pitfall.md)
 - [`GAME-0371` — Pokémon Snap](../games/m-r/pokemon-snap.md)
 - [`GAME-0480` — Populous](../games/m-r/populous.md)
 - [`GAME-0561` — Psychonauts 2](../games/m-r/psychonauts-2.md)
 - [`GAME-0438` — Q*bert](../games/m-r/qbert.md)
+- [`GAME-0691` — "REPLACED"](../games/m-r/replaced.md)
 - [`GAME-0492` — "Resistance: Fall of Man"](../games/m-r/resistance-fall-of-man.md)
 - [`GAME-0127` — RimWorld](../games/m-r/rimworld.md)
 - [`GAME-0335` — RollerCoaster Tycoon Deluxe](../games/m-r/rollercoaster-tycoon-deluxe.md)
@@ -1236,6 +1268,7 @@ Walker у Lemmings іде вперед, повертає біля блокува
 - [`GAME-0485` — Shenmue](../games/s-z/shenmue.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0430` — Silent Hill](../games/s-z/silent-hill.md)
+- [`GAME-0690` — "Sonic Advance"](../games/s-z/sonic-advance.md)
 - [`GAME-0472` — Sonic Adventure](../games/s-z/sonic-adventure.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0373` — Spore](../games/s-z/spore.md)
@@ -1671,9 +1704,11 @@ Chell або Weighted Storage Cube утримують натиснутою пі�
 - [`GAME-0594` — "Bionic Bay"](../games/a-f/bionic-bay.md)
 - [`GAME-0301` — "Divinity: Original Sin 2 - Definitive Edition"](../games/a-f/divinity-original-sin-2-definitive-edition.md)
 - [`GAME-0592` — Dungeons of Hinterberg](../games/a-f/dungeons-of-hinterberg.md)
+- [`GAME-0700` — "Planet of Lana II: Children of the Leaf"](../games/m-r/planet-of-lana-ii.md)
 - [`GAME-0113` — Portal 2 — Cooperative Campaign](../games/m-r/portal-2-co-op.md)
 - [`GAME-0033` — Portal](../games/m-r/portal.md)
 - [`GAME-0094` — Superliminal](../games/s-z/superliminal.md)
+- [`GAME-0729` — "The Last Campfire"](../games/s-z/the-last-campfire.md)
 - [`GAME-0038` — The Swapper](../games/s-z/the-swapper.md)
 
 ## SYS-062
@@ -1776,6 +1811,7 @@ Tim розчавлює monstar у Braid стрибком згори, але за
 - [`GAME-0215` — It Takes Two](../games/g-l/it-takes-two.md)
 - [`GAME-0334` — Quake](../games/m-r/quake.md)
 - [`GAME-0157` — Split Fiction](../games/s-z/split-fiction.md)
+- [`GAME-0729` — "The Last Campfire"](../games/s-z/the-last-campfire.md)
 - [`GAME-0528` — The Neverhood](../games/s-z/the-neverhood.md)
 
 ## SYS-066
@@ -2198,7 +2234,9 @@ Snakebird з’їдає один фрукт і отримує один пост�
 
 ### Ігри-носії
 
+- [`GAME-0706` — "Kula World"](../games/g-l/kula-world.md)
 - [`GAME-0045` — Snakebird](../games/s-z/snakebird.md)
+- [`GAME-0733` — "Solomon's Key"](../games/s-z/solomons-key.md)
 - [`GAME-0548` — Space Station Silicon Valley](../games/s-z/space-station-silicon-valley.md)
 
 ## SYS-086
@@ -3197,6 +3235,7 @@ Hexcells Infinite приймає правильну класифікацію к�
 - [`GAME-0445` — "NiGHTS into Dreams"](../games/m-r/nights-into-dreams.md)
 - [`GAME-0481` — Out Run](../games/m-r/out-run.md)
 - [`GAME-0605` — "Outtrigger"](../games/m-r/outtrigger.md)
+- [`GAME-0733` — "Solomon's Key"](../games/s-z/solomons-key.md)
 - [`GAME-0378` — Super Monkey Ball 2](../games/s-z/super-monkey-ball-2.md)
 
 ## SYS-103
@@ -3839,6 +3878,7 @@ Black Box розв’язує випадки негайного або внут�
 - [`GAME-0459` — Daxter](../games/a-f/daxter.md)
 - [`GAME-0495` — Donkey Kong Country Returns](../games/a-f/donkey-kong-country-returns.md)
 - [`GAME-0394` — LittleBigPlanet 2](../games/g-l/littlebigplanet-2.md)
+- [`GAME-0690` — "Sonic Advance"](../games/s-z/sonic-advance.md)
 - [`GAME-0472` — Sonic Adventure](../games/s-z/sonic-adventure.md)
 
 ## SYS-1057
@@ -5323,7 +5363,10 @@ The Room відкриває особливий ключ, металеву пла
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0495` — Donkey Kong Country Returns](../games/a-f/donkey-kong-country-returns.md)
+- [`GAME-0699` — "Dungeon Master"](../games/a-f/dungeon-master.md)
+- [`GAME-0702` — "Escaping Wonderland"](../games/a-f/escaping-wonderland.md)
 - [`GAME-0501` — F.E.A.R.](../games/a-f/fear.md)
+- [`GAME-0680` — "Ghost Town"](../games/g-l/ghost-town.md)
 - [`GAME-0582` — Grim Fandango](../games/g-l/grim-fandango.md)
 - [`GAME-0510` — Indiana Jones and the Great Circle](../games/g-l/indiana-jones-and-the-great-circle.md)
 - [`GAME-0123` — Inscryption](../games/g-l/inscryption.md)
@@ -5331,6 +5374,8 @@ The Room відкриває особливий ключ, металеву пла
 - [`GAME-0583` — "Kunitsu-Gami: Path of the Goddess"](../games/g-l/kunitsu-gami-path-of-the-goddess.md)
 - [`GAME-0563` — Lorelei and the Laser Eyes](../games/g-l/lorelei-and-the-laser-eyes.md)
 - [`GAME-0086` — Machinarium](../games/m-r/machinarium.md)
+- [`GAME-0686` — "Maniac Mansion"](../games/m-r/maniac-mansion.md)
+- [`GAME-0678` — "Metroid Prime 4: Beyond"](../games/m-r/metroid-prime-4-beyond.md)
 - [`GAME-0111` — Myst](../games/m-r/myst.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0334` — Quake](../games/m-r/quake.md)
@@ -6751,6 +6796,7 @@ The Talos Principle зараховує кожен зелений сигіл L, J
 ### Ігри-носії
 
 - [`GAME-0449` — Paper Mario](../games/m-r/paper-mario.md)
+- [`GAME-0714` — "Thirsty Suitors"](../games/s-z/thirsty-suitors.md)
 
 ## SYS-1181
 
@@ -8563,6 +8609,7 @@ Manifold Garden переходить від гравітації синьої п
 
 ### Ігри-носії
 
+- [`GAME-0717` — "LocoRoco 2"](../games/g-l/locoroco-2.md)
 - [`GAME-0482` — LocoRoco](../games/g-l/locoroco.md)
 
 ## SYS-126
@@ -8605,6 +8652,7 @@ Manifold Garden переходить від гравітації синьої п
 
 ### Ігри-носії
 
+- [`GAME-0717` — "LocoRoco 2"](../games/g-l/locoroco-2.md)
 - [`GAME-0482` — LocoRoco](../games/g-l/locoroco.md)
 
 ## SYS-1261
@@ -8626,6 +8674,7 @@ Manifold Garden переходить від гравітації синьої п
 
 ### Ігри-носії
 
+- [`GAME-0717` — "LocoRoco 2"](../games/g-l/locoroco-2.md)
 - [`GAME-0482` — LocoRoco](../games/g-l/locoroco.md)
 
 ## SYS-1262
@@ -8647,6 +8696,7 @@ Manifold Garden переходить від гравітації синьої п
 
 ### Ігри-носії
 
+- [`GAME-0717` — "LocoRoco 2"](../games/g-l/locoroco-2.md)
 - [`GAME-0482` — LocoRoco](../games/g-l/locoroco.md)
 
 ## SYS-1263
@@ -9178,6 +9228,7 @@ CT оригінальної Final Fantasy Tactics із меншим віднім
 
 - [`GAME-0565` — Dome Keeper](../games/a-f/dome-keeper.md)
 - [`GAME-0486` — Final Fantasy Tactics](../games/a-f/final-fantasy-tactics.md)
+- [`GAME-0679` — "Jeanne d'Arc"](../games/g-l/jeanne-darc.md)
 
 ## SYS-1286
 
@@ -11040,6 +11091,7 @@ MP у Wine Cellar, які витрачаються на вивчені закл�
 
 ### Ігри-носії
 
+- [`GAME-0719` — "Alisia Dragoon"](../games/a-f/alisia-dragoon.md)
 - [`GAME-0562` — Parasite Eve](../games/m-r/parasite-eve.md)
 - [`GAME-0499` — Vagrant Story](../games/s-z/vagrant-story.md)
 
@@ -11146,6 +11198,7 @@ Containers у Wine Cellar із доступом до однакового збе
 
 ### Ігри-носії
 
+- [`GAME-0705` — "Contraband Police"](../games/a-f/contraband-police.md)
 - [`GAME-0103` — Papers, Please](../games/m-r/papers-please.md)
 
 ## SYS-1370
@@ -11378,6 +11431,7 @@ Papers, Please видає повідомлення про порушення п�
 
 ### Ігри-носії
 
+- [`GAME-0705` — "Contraband Police"](../games/a-f/contraband-police.md)
 - [`GAME-0103` — Papers, Please](../games/m-r/papers-please.md)
 
 ## SYS-1380
@@ -12101,6 +12155,7 @@ Hazel застосовує вивчену здатність Wall Run на за�
 - [`GAME-0650` — Einhänder](../games/a-f/einhander.md)
 - [`GAME-0587` — Panzer Dragoon II Zwei](../games/m-r/panzer-dragoon-ii-zwei.md)
 - [`GAME-0505` — Panzer Dragoon](../games/m-r/panzer-dragoon.md)
+- [`GAME-0697` — "Radiant Silvergun"](../games/m-r/radiant-silvergun.md)
 - [`GAME-0526` — Rez](../games/m-r/rez.md)
 
 ## SYS-1411
@@ -12588,6 +12643,7 @@ Hazel застосовує вивчену здатність Wall Run на за�
 
 ### Ігри-носії
 
+- [`GAME-0686` — "Maniac Mansion"](../games/m-r/maniac-mansion.md)
 - [`GAME-0508` — Ready or Not](../games/m-r/ready-or-not.md)
 - [`GAME-0599` — "Sword of the Sea"](../games/s-z/sword-of-the-sea.md)
 - [`GAME-0528` — The Neverhood](../games/s-z/the-neverhood.md)
@@ -12759,6 +12815,7 @@ Hazel застосовує вивчену здатність Wall Run на за�
 ### Ігри-носії
 
 - [`GAME-0510` — Indiana Jones and the Great Circle](../games/g-l/indiana-jones-and-the-great-circle.md)
+- [`GAME-0727` — "Miniatures"](../games/m-r/miniatures.md)
 
 ## SYS-144
 
@@ -13243,8 +13300,10 @@ Hazel застосовує вивчену здатність Wall Run на за�
 
 ### Ігри-носії
 
+- [`GAME-0704` — "Alien Crush"](../games/a-f/alien-crush.md)
 - [`GAME-0110` — Angry Birds Classic](../games/a-f/angry-birds-classic.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
+- [`GAME-0672` — "Devil's Crush"](../games/a-f/devils-crush.md)
 - [`GAME-0212` — Half-Life 2](../games/g-l/half-life-2.md)
 - [`GAME-0114` — Peggle Deluxe](../games/m-r/peggle-deluxe.md)
 - [`GAME-0571` — Virtua Tennis](../games/s-z/virtua-tennis.md)
@@ -13669,6 +13728,7 @@ Hazel застосовує вивчену здатність Wall Run на за�
 
 ### Ігри-носії
 
+- [`GAME-0681` — "Power Stone 2"](../games/m-r/power-stone-2.md)
 - [`GAME-0519` — Power Stone](../games/m-r/power-stone.md)
 
 ## SYS-1479
@@ -14217,6 +14277,7 @@ Hazel застосовує вивчену здатність Wall Run на за�
 ### Ігри-носії
 
 - [`GAME-0524` — Wave Race 64](../games/s-z/wave-race-64.md)
+- [`GAME-0674` — "Wave Race: Blue Storm"](../games/s-z/wave-race-blue-storm.md)
 
 ## SYS-1502
 
@@ -14880,6 +14941,7 @@ Hazel застосовує вивчену здатність Wall Run на за�
 - [`GAME-0121` — "Cities: Skylines"](../games/a-f/cities-skylines.md)
 - [`GAME-0390` — SimCity 2000](../games/s-z/simcity-2000.md)
 - [`GAME-0118` — SimCity 4 Deluxe Edition](../games/s-z/simcity-4-deluxe-edition.md)
+- [`GAME-0716` — "Terra Nil"](../games/s-z/terra-nil.md)
 
 ## SYS-1530
 
@@ -17695,6 +17757,7 @@ Dome Keeper приймає доставлені залізо, воду чи ко
 
 ### Ігри-носії
 
+- [`GAME-0694` — "A Game About Digging A Hole"](../games/a-f/a-game-about-digging-a-hole.md)
 - [`GAME-0565` — Dome Keeper](../games/a-f/dome-keeper.md)
 
 ## SYS-165
@@ -17844,6 +17907,7 @@ Dome Keeper приймає доставлені залізо, воду чи ко
 ### Ігри-носії
 
 - [`GAME-0566` — Elite Beat Agents](../games/a-f/elite-beat-agents.md)
+- [`GAME-0724` — "Frequency"](../games/a-f/frequency.md)
 
 ## SYS-1656
 
@@ -23852,6 +23916,111 @@ Warp Star може набрати заряд прискорення на пря�
 
 - [`GAME-0666` — "Chicory: A Colorful Tale"](../games/a-f/chicory-a-colorful-tale.md)
 
+## SYS-1915
+
+- Назва: Перетворювати придатні снаряди на запас енергії під час поглинання щитом
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Коли придатний ворожий снаряд стикається з піднятим особистим щитом, він зникає, а захисник отримує енергію. Ця енергія накопичується в загальному запасі й може піти на пізніший окремо спрямований постріл.
+
+### Включає
+
+Поглинути синій залп щитом Солтарі, а згодом витратити накопичену енергію на постріл каркозької силової зброї.
+
+### Виключає
+
+Відбиття того самого снаряда, накопичення заряду за отриману без захисту або завдану шкоду чи поглинання без поповнення придатного до витрати запасу.
+
+### Ігри-носії
+
+- [`GAME-0667` — "SAROS"](../games/s-z/saros.md)
+
+## SYS-1916
+
+- Назва: Витрачати спільний запас енергії на тривалий захист і силовий постріл
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Утримання піднятого щита й постріл з обраної силової зброї витрачають один особистий запас. Коли енергії бракує, щит не вдається утримувати або запасу не вистачає на силовий постріл. Поглинання придатного снаряда може поповнити запас.
+
+### Включає
+
+Звичайний щит Солтарі споживає енергію, поки піднятий. Каркозька силова зброя витрачає енергію з того самого запасу під час пострілу. Звичайна стрільба має окремий стан зброї.
+
+### Виключає
+
+Незалежне відновлення альтернативного пострілу з плином часу, безкоштовне утримання щита завдяки модифікатору, магазин як запас щита або пасивна броня.
+
+### Ігри-носії
+
+- [`GAME-0667` — "SAROS"](../games/s-z/saros.md)
+
+## SYS-1917
+
+- Назва: Застосування предмета події прибирає перешкоду на шляху
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Застосування здобутого предмета події у дозволеному місці запускає заданий ефект, який прибирає пов’язану з ним перешкоду й дає змогу звичайним рухом пройти раніше перекритим шляхом.
+
+### Включає
+
+У Tomba! Лютий вихор, застосований із визначеного уступу даху, розвіює туман і відкриває звичайний шлях до лісу.
+
+### Виключає
+
+Суто візуальне поліпшення видимості, атака на вартового, вибух від зіткнення підштовхнутого об’єкта та ручне відкриття виходу отримувачем предмета.
+
+### Ігри-носії
+
+- [`GAME-0668` — "Tomba!"](../games/s-z/tomba.md)
+
+## SYS-1918
+
+- Назва: Об’єднання сумісних сусідніх плиток у рухому групу
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Коли окремі плитки або наявні групи сумістяться відповідними краями, гра з’єднує їх. Отриману групу можна переносити, зберігаючи взаємне розташування плиток.
+
+### Включає
+
+Зближення верхніх плиток «Бреберна» у правильному положенні й перенесення з’єднаних деталей, поки решта плиток лишається окремою.
+
+### Виключає
+
+Близькість без стійкого з’єднання, накладання, злиття в одну плитку нового рангу й одночасне перетягування незалежних плиток без збереження взаємних позицій.
+
+### Ігри-носії
+
+- [`GAME-0669` — "Wilmot Works It Out"](../games/s-z/wilmot-works-it-out.md)
+
+## SYS-1919
+
+- Назва: Завершення однієї картини зі збереженням сторонніх плиток
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Коли всі потрібні плитки авторської картини правильно з’єднано, гра розпізнає її й дозволяє повісити. Підтвердження місця на стіні прибирає з підлоги лише цю картину. Сторонні плитки залишаються доступними для подальшого складання.
+
+### Включає
+
+Гра окремо повідомляє про завершення «Бреберна» й переносить картину на стіну галереї, залишаючи зайві плитки на підлозі.
+
+### Виключає
+
+Очищення всієї кімнати, витрата всього вмісту доставки, визнання неповного набору готовою картиною та прирівнювання будь-якого предмета на стіні до наступної доставки.
+
+### Ігри-носії
+
+- [`GAME-0669` — "Wilmot Works It Out"](../games/s-z/wilmot-works-it-out.md)
+
 ## SYS-192
 
 - Назва: Перетворювати сигнали автоматизації на робочий стан цілі
@@ -23875,6 +24044,216 @@ Warp Star може набрати заряд прискорення на пря�
 - [`GAME-0125` — Oxygen Not Included](../games/m-r/oxygen-not-included.md)
 - [`GAME-0133` — Timberborn](../games/s-z/timberborn.md)
 
+## SYS-1920
+
+- Назва: Відновлення запасу для навичок до окремо показаного рівня
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Поточний запас енергії для навичок автоматично відновлюється до межі, яку задає рівень. Застосування навички зменшує доступний запас, але саме по собі не знижує рівень. Відновлення відбувається до тієї самої межі.
+
+### Включає
+
+У Watchful Eye аура відновлюється до заданого 5-го рівня. За запасу 5 застосування навички вартістю 3 залишає 2.
+
+### Виключає
+
+Відновлення зарядів кожної навички окремо, витрата невідновлюваного запасу на бій і підвищення межі відновлення самим застосуванням навички.
+
+### Ігри-носії
+
+- [`GAME-0670` — "Phantom Dust"](../games/m-r/phantom-dust.md)
+
+## SYS-1921
+
+- Назва: Обмежена навичка вичерпується незалежно від відновлюваного запасу
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Призначена навичка зі скінченною кількістю застосувань зникає з кнопки після останнього застосування. Необмежені навички залишаються призначеними, а відновлення спільного запасу не повертає вичерпану навичку.
+
+### Включає
+
+Одноразова Vacuum Slash зникає після атаки, а Laser і Flash Barrier залишаються призначеними.
+
+### Виключає
+
+Тимчасове очікування, перезаряджуваний магазин, заміна навички лише за рішенням гравця та саме лише вичерпання поточної аури.
+
+### Ігри-носії
+
+- [`GAME-0670` — "Phantom Dust"](../games/m-r/phantom-dust.md)
+
+## SYS-1922
+
+- Назва: Випускати окремі об’єкти від пасажира під час тривалого руху
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Коли носій продовжує рух, придатний для цієї дії, пасажир на його спині може випускати окремі об’єкти в ігровий світ. Кожен із них рухається далі самостійно, а пасажир лишається на спині.
+
+### Включає
+
+Під час бігу з Glubbit за Йоші з’являється низка бульбашок, які здіймаються вгору. Сам Glubbit лишається на спині.
+
+### Виключає
+
+Кидок самим пасажиром, автоматичне спрацьовування лише за таймером на місці, окреме натискання для кожного випуску або суто декоративний слід.
+
+### Ігри-носії
+
+- [`GAME-0671` — "Yoshi and the Mysterious Book"](../games/s-z/yoshi-and-the-mysterious-book.md)
+
+## SYS-1923
+
+- Назва: Змінити властивості випущених об’єктів після годування істоти
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Коли придатна істота з’їдає сумісну їжу, її стан змінюється. Об’єкти, які вона випускає згодом за звичайних умов, мають змінені властивості. Їжа не змінює об’єкти, які вже відокремилися від істоти.
+
+### Включає
+
+З’ївши яблуко, Glubbit стає помаранчевим і за звичайної умови руху випускає більші жовті бульбашки.
+
+### Виключає
+
+Годування заради одноразового предмета, годування лише для прихильності, відновлення здоров’я гравця або заміну об’єктів, які вже летять.
+
+### Ігри-носії
+
+- [`GAME-0671` — "Yoshi and the Mysterious Book"](../games/s-z/yoshi-and-the-mysterious-book.md)
+
+## SYS-1924
+
+- Назва: Записати виявлений ефект істоти як окреме відкриття
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Гра розпізнає допустиму взаємодію з істотою та її видимий результат як визначений правилами факт. Вона додає цей факт до запису про істоту, де його можна переглянути згодом.
+
+### Включає
+
+Випуск бульбашки після яблука додає до книги одне ілюстроване відкриття про Glubbit незалежно від завершення самої вилазки.
+
+### Виключає
+
+Підбирання готового запису-доказу, отримання зразка лише поглядом на нього, довільне введення нотатки або розкриття всіх властивостей під час першої зустрічі.
+
+### Ігри-носії
+
+- [`GAME-0671` — "Yoshi and the Mysterious Book"](../games/s-z/yoshi-and-the-mysterious-book.md)
+
+## SYS-1925
+
+- Назва: Захопити придатне тіло й підняти його всередині вільної бульбашки
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Вільна бульбашка продовжує здійматися незалежно від того, хто її випустив. Сумісне тіло при контакті може опинитися всередині й піднятися разом із нею.
+
+### Включає
+
+Йоші перетинає шлях уже випущеної звичайної бульбашки й здіймається всередині неї.
+
+### Виключає
+
+Стояння на твердій рухомій платформі, підсилення власного стрибка, підтягування на тросі або перетворення самого пасажира на бульбашку.
+
+### Ігри-носії
+
+- [`GAME-0671` — "Yoshi and the Mysterious Book"](../games/s-z/yoshi-and-the-mysterious-book.md)
+
+## SYS-1926
+
+- Назва: Зарахувати результат бонусного столу й продовжити ту саму партію
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Після завершення гри на бонусному столі зароблені там очки й окремо здобута нагорода за повне зачищення додаються до загального рахунку. Після успішного повернення основна гра триває з рухомою кулею та збереженим запасом невикористаних куль.
+
+### Включає
+
+Після знищення всіх п’яти голів на бонусному столі 1 обидві нагороди додаються до загального рахунку. Гра знову триває в нижній частині основного столу з тим самим показаним запасом.
+
+### Виключає
+
+Нову партію зі скинутим рахунком, підбирання позначки відкриття для пізнішого завершення, коротке комбо на столі або припущення, що після всіх невдалих візитів стан лишається тим самим.
+
+### Ігри-носії
+
+- [`GAME-0672` — "Devil's Crush"](../games/a-f/devils-crush.md)
+
+## SYS-1927
+
+- Назва: Відновити зруйновану перешкоду, зберігши вже збиті цілі
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Від контакту рухоме тіло може відскочити, а ламка перешкода тимчасово зникнути. Вона може з’явитися знову в тій самій спробі, тоді як окремі вже збиті цілі лишаються прибраними.
+
+### Включає
+
+Влучання розбиває блакитне яйце на столі з п’ятьма головами. Згодом яйце може знову загородити цей хід, а збиті голови не повертаються.
+
+### Виключає
+
+Незламний відбійник, остаточне прибирання і перешкоди, і її цілі разом, відновлення всього набору цілей або припущення про єдину затримку відновлення.
+
+### Ігри-носії
+
+- [`GAME-0672` — "Devil's Crush"](../games/a-f/devils-crush.md)
+
+## SYS-1928
+
+- Назва: Перенести тимчасовий стан кулі, що множить очки після повного зачищення
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Повне зачищення окремого столу може ввімкнути видимий тимчасовий стан кулі, яка лишається в грі. Поки цей стан діє, система множить наступні очки, на які він поширюється.
+
+### Включає
+
+Оригінальний посібник пов’язує повне зачищення бонусного столу з блакитною кулею, що дає вчетверо більше очок, поки діє цей стан.
+
+### Виключає
+
+Лише разову фіксовану нагороду за повне зачищення, збільшення кількості куль, зміну розміру кулі або твердження про точний спосіб поновлення чи тривалість стану.
+
+### Ігри-носії
+
+- [`GAME-0672` — "Devil's Crush"](../games/a-f/devils-crush.md)
+
+## SYS-1929
+
+- Назва: Витратити призначений кубик і визначити результат з урахуванням навички
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Призначений кубик персонажа витрачається. Його значення й відповідність навички впливають на позитивний, нейтральний чи негативний результат. Від результату залежить поступ або побічний наслідок.
+
+### Включає
+
+Нейтральний результат від’єднання резерву може наблизити вимкнення ядра. Невдача біля люка може підвищити загрозу дрона.
+
+### Виключає
+
+Гарантоване додавання значення кубика до поступу, новий незалежний кидок або твердження про неперевірену формулу ймовірностей.
+
+### Ігри-носії
+
+- [`GAME-0673` — "Citizen Sleeper 2: Starward Vector"](../games/a-f/citizen-sleeper-2-starward-vector.md)
+
 ## SYS-193
 
 - Назва: Оновлювати обмежену пропозицію Printing Pod
@@ -23895,6 +24274,216 @@ Warp Star може набрати заряд прискорення на пря�
 ### Ігри-носії
 
 - [`GAME-0125` — Oxygen Not Included](../games/m-r/oxygen-not-included.md)
+
+## SYS-1930
+
+- Назва: Оновити кубики учасників у циклі контракту з урахуванням припасів
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Просування циклу контракту відновлює доступні кубики чинного екіпажу. За наявності цикл витрачає припаси. Коли вони вичерпуються, учасники натомість отримують стрес.
+
+### Включає
+
+Повернутися на корабель і почати новий цикл. Звірити витрату припасу або описане нарахування одиниці стресу кожному учаснику без припасів.
+
+### Виключає
+
+Поповнення після кожного призначення кубика, заборону вильоту без припасів або завершення контракту відразу після вичерпання запасу.
+
+### Ігри-носії
+
+- [`GAME-0673` — "Citizen Sleeper 2: Starward Vector"](../games/a-f/citizen-sleeper-2-starward-vector.md)
+
+## SYS-1931
+
+- Назва: Відкрити наступні лічильники в окремих гілках і вимагати обидва кінцеві результати
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Завершення кожного незалежного лічильника доступу відкриває наступне завдання своєї гілки. Успіх настає, коли заповнено всі потрібні кінцеві лічильники.
+
+### Включає
+
+Отримати доступ через люк, щоб від’єднати резерв, і доступ до передавача, щоб його зламати. Потім вимкнути і ядро, і антену.
+
+### Виключає
+
+Єдиний лічильник для всіх дій, успіх після будь-якої однієї гілки або припущення, що поріг однієї гілки закриває іншу.
+
+### Ігри-носії
+
+- [`GAME-0673` — "Citizen Sleeper 2: Starward Vector"](../games/a-f/citizen-sleeper-2-starward-vector.md)
+
+## SYS-1932
+
+- Назва: Підвищити загрозу контракту через результат дії окремо від лічильника циклів
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Негативний результат дії може просунути лічильник загрози для поточного контракту. Окремий лічильник контрзаходу реагує на просування циклів.
+
+### Включає
+
+Невдача під час відкриття люка підвищує загрозу дрона. У наступних циклах контрзахід дрона показано на іншому лічильнику.
+
+### Виключає
+
+Стан окремого персонажа, загрозу лише від кількості циклів або твердження про точну взаємодію двох меж.
+
+### Ігри-носії
+
+- [`GAME-0673` — "Citizen Sleeper 2: Starward Vector"](../games/a-f/citizen-sleeper-2-starward-vector.md)
+
+## SYS-1933
+
+- Назва: Прибрати доступ до дій члена екіпажу на його межі стресу
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Кожен член екіпажу має власний лічильник стресу. Досягнення його межі вимикає доступні дії цього учасника в поточному контракті.
+
+### Включає
+
+Стежити за стресом Серафіна після початку циклу без припасів. Якщо його лічильник заповниться, його дії стануть недоступними.
+
+### Виключає
+
+Спільний запас стресу екіпажу, лише погіршення шансів дій, пошкодження кубиків Сплячого або висновок про остаточний вихід з екіпажу.
+
+### Ігри-носії
+
+- [`GAME-0673` — "Citizen Sleeper 2: Starward Vector"](../games/a-f/citizen-sleeper-2-starward-vector.md)
+
+## SYS-1934
+
+- Назва: Пошкодити окремі кубики через особистий стрес під час оновлення
+- Переглянуто: `2026-11-23`
+
+### Операційне визначення
+
+Особистий стрес може пошкодити окремі комірки кубиків під час оновлення в наступному циклі. Таке пошкодження відрізняється від витрати придатного кубика на дію.
+
+### Включає
+
+Перевірити цілісність кубиків Сплячого під час нового кидка за особистого стресу.
+
+### Виключає
+
+Звичайну витрату кубика, вимкнення дій члена екіпажу на межі стресу або неперевірену точну формулу пошкодження й ремонту.
+
+### Ігри-носії
+
+- [`GAME-0673` — "Citizen Sleeper 2: Starward Vector"](../games/a-f/citizen-sleeper-2-starward-vector.md)
+
+## SYS-1935
+
+- Назва: Додати зростаючий бонус за послідовний проїзд крізь кільця
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+За проїзд крізь кільце додаються його базові очки та бонус за кільця, пройдені поспіль до нього. Пропуск скидає бонус для наступних кілець, а вже зараховані очки лишаються.
+
+### Включає
+
+Взяти перше кільце за 50 очок і вибудувати траєкторію через наступні, щоб збільшувати бонус. Після пропуску наступне кільце починає нову серію.
+
+### Виключає
+
+Невпорядковані кільця з фіксованими очками, множник за тривалість або втрату всіх зароблених очок після пропуску.
+
+### Ігри-носії
+
+- [`GAME-0674` — "Wave Race: Blue Storm"](../games/s-z/wave-race-blue-storm.md)
+
+## SYS-1936
+
+- Назва: Зарахувати очки за залишок часу на арці й оновити відлік
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Вчасний проїзд крізь контрольну арку перетворює залишок часу відрізка на очки й поновлює відлік для наступної частини спроби.
+
+### Включає
+
+Вчасно перетнути першу арку, побачити окреме нарахування 375 очок за час і продовжити з поновленим відліком.
+
+### Виключає
+
+Нарахування лише на фініші, додавання часу без очок, паузу або відновлення на контрольній точці після невдачі.
+
+### Ігри-носії
+
+- [`GAME-0674` — "Wave Race: Blue Storm"](../games/s-z/wave-race-blue-storm.md)
+
+## SYS-1937
+
+- Назва: Нарахувати очки за вид і якість виконання трюку на гідроциклі
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+За успішно виконаний і розпізнаний трюк на гідроциклі додаються очки, кількість яких залежить від виду та якості виконання.
+
+### Включає
+
+Завершити перший трюк із трампліна й звірити окреме нарахування 1 857 очок.
+
+### Виключає
+
+Очки за саме введення команди, очки лише за місце на фініші або приземлення, що дає тільки прискорення.
+
+### Ігри-носії
+
+- [`GAME-0674` — "Wave Race: Blue Storm"](../games/s-z/wave-race-blue-storm.md)
+
+## SYS-1938
+
+- Назва: Зменшити очки за повторення трюку на воді в одному відрізку
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Система рахунку відрізняє перший трюк певного виду на воді в межах відрізка від його повторень. За повторення в тому самому відрізку дається значно менше очок.
+
+### Включає
+
+Після стійки на руках виконати інший розпізнаний трюк на воді до наступної арки.
+
+### Виключає
+
+Загальний множник серії, пошкодження за повтор руху, точний неперевірений коефіцієнт або штраф у всіх наступних спробах.
+
+### Ігри-носії
+
+- [`GAME-0674` — "Wave Race: Blue Storm"](../games/s-z/wave-race-blue-storm.md)
+
+## SYS-1939
+
+- Назва: Увімкнути коротке прискорення проїздом крізь турбокільце
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Проїзд крізь позначене турбокільце відразу прискорює гідроцикл на короткий час. Для цього ефекту не треба накопичувати запас і витрачати його окремою кнопкою.
+
+### Включає
+
+Проїхати крізь жовтогаряче турбокільце перед дальнім дерев’яним трампліном і використати швидкість для заходу на стрибок.
+
+### Виключає
+
+Лише звичайне очкове кільце, запас турбо з окремою кнопкою використання або смугу прискорення, що потребує контакту коліс.
+
+### Ігри-носії
+
+- [`GAME-0674` — "Wave Race: Blue Storm"](../games/s-z/wave-race-blue-storm.md)
 
 ## SYS-194
 
@@ -23921,6 +24510,216 @@ Warp Star може набрати заряд прискорення на пря�
 - [`GAME-0127` — RimWorld](../games/m-r/rimworld.md)
 - [`GAME-0134` — "Workers & Resources: Soviet Republic"](../games/s-z/workers-resources-soviet-republic.md)
 
+## SYS-1940
+
+- Назва: Одним запуском відправити кілька локомотивів прокладеними коліями до окремих станцій
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Одна команда випускає кілька локомотивів із заданих місць старту. Вони їдуть прокладеною колією у спільному часі, йдуть за поточним положенням стрілок і припиняють рух після зарахованого прибуття.
+
+### Включає
+
+Запустити обидва поїзди однією кнопкою. Вони в різний час проходять спільну колію й заїжджають до станцій своїх кольорів.
+
+### Виключає
+
+Окреме кермування кожним поїздом, регулярне перевезення пасажирів за розкладом або причеплення всіх вагонів до одного локомотива.
+
+### Ігри-носії
+
+- [`GAME-0675` — "Teeny Tiny Trains"](../games/s-z/teeny-tiny-trains.md)
+
+## SYS-1941
+
+- Назва: Змінювати напрямок стрілки після проїзду поїзда
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Після проїзду крізь позначене розгалуження стрілка змінює положення. Це впливає на шлях наступного поїзда тією самою колією.
+
+### Включає
+
+Коли перший поїзд рушить червоною гілкою, новий напрямок стрілки дасть наступному поїзду шлях до синьої станції.
+
+### Виключає
+
+Незмінну розвилку на весь запуск, перемикання за таймером чи вручну під час руху або видалення гілки після проїзду.
+
+### Ігри-носії
+
+- [`GAME-0675` — "Teeny Tiny Trains"](../games/s-z/teeny-tiny-trains.md)
+
+## SYS-1942
+
+- Назва: Відновити прокладену колію й початкові стрілки для повтору
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Коли гравець вибирає повтор завершеної спроби, гра зберігає прокладену колію й відновлює початкові напрямки стрілок. Локомотиви та поточний лічильник повертаються до стану перед запуском.
+
+### Включає
+
+Після золотого квитка вибрати повтор, побачити ті самі колії та початкові позначки й знову запустити поїзди з їхніх станцій.
+
+### Виключає
+
+Видалення всієї колії, продовження з останньої пройденої стрілки або відновлення кінцевого положення стрілок замість початкового.
+
+### Ігри-носії
+
+- [`GAME-0675` — "Teeny Tiny Trains"](../games/s-z/teeny-tiny-trains.md)
+
+## SYS-1943
+
+- Назва: Визначати квиток за сумарною відстанню завершеного маршруту
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Після правильного запуску гра підсумовує шлях усіх локомотивів і визначає квиток за цільовою відстанню рівня.
+
+### Включає
+
+Довести обидва поїзди до станцій із відстанню 28, отримати золотий квиток і повторити результат за швидшого руху.
+
+### Виключає
+
+Оцінку за секундами, підрахунок лише покладених деталей колії або видачу квитка за досягнення цілі до безпечного завершення.
+
+### Ігри-носії
+
+- [`GAME-0675` — "Teeny Tiny Trains"](../games/s-z/teeny-tiny-trains.md)
+
+## SYS-1944
+
+- Назва: Просувати скейтбордиста заданим шляхом і дозволяти локальне кермування
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Гра підтримує поступальний рух заданим наземним маршрутом. Під час руху гравець може змінювати положення скейтбордиста й виконувати трюки.
+
+### Включає
+
+Дошка їде через повороти, міст і тунель. Гравець може зміщуватися відносно дорожньої розмітки й виконувати трюки.
+
+### Виключає
+
+Поїздку лише для спостереження, довільний вибір пункту призначення, гоночний апарат із вільним курсом, власною тягою та гальмом або вибір маршруту в меню.
+
+### Ігри-носії
+
+- [`GAME-0676` — "Mixtape"](../games/m-r/mixtape.md)
+
+## SYS-1945
+
+- Назва: Окремо зарахувати стрибок через придатний автомобіль
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Зарахований стрибок через автомобіль дає необов’язкове досягнення платформи. Рух маршрутом триває.
+
+### Включає
+
+Вчасно зробити оллі через зустрічне авто й побачити сповіщення Xbox після повернення на дорогу.
+
+### Виключає
+
+Очки за кожен трюк, множник очок, завершення етапу перемогою над суперником або нагороду лише за проїзд поряд з авто.
+
+### Ігри-носії
+
+- [`GAME-0676` — "Mixtape"](../games/m-r/mixtape.md)
+
+## SYS-1946
+
+- Назва: Зберігати розгін, доки гравець не загальмує
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Одна команда вмикає тягу вперед. Повернення джойстика в нейтральне положення зберігає звичайний розгін, доки гальмування його не скасує. Прискорення із запасу має окрему команду.
+
+### Включає
+
+Коротко подати джойстик уперед і повернути його в центр. Машина далі розганяється. Відвести джойстик назад, щоб скасувати розгін.
+
+### Виключає
+
+Тягу, що вмикається сама на початку заїзду, рух за інерцією без тяги або утримання кнопки прискорення із запасу, щоб підтримати звичайний розгін.
+
+### Ігри-носії
+
+- [`GAME-0677` — "Stunt Car Racer"](../games/s-z/stunt-car-racer.md)
+
+## SYS-1947
+
+- Назва: Переносити машину краном і опускати на придатну ділянку траси
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Кран підвішує й переносить машину, а тоді відпускає її. На старті машина потрапляє на початкову ділянку. Після падіння кран може повернути її на придатну ділянку поблизу, на що йде час заїзду.
+
+### Включає
+
+Дочекатися опускання на старті. Після падіння, яке не завершило заїзд, посібник описує повторний підйом і опускання над найближчою придатною ділянкою.
+
+### Виключає
+
+Перенесення на початок заїзду, купівлю ремонту, витрату додаткового життя або завершення заїзду через будь-який виїзд за межі дороги.
+
+### Ігри-носії
+
+- [`GAME-0677` — "Stunt Car Racer"](../games/s-z/stunt-car-racer.md)
+
+## SYS-1948
+
+- Назва: Прискорювати поширення тріщини рами в місцях постійних пробоїн
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Сильне навантаження подовжує тріщину рами. Коли тріщина проходить усю раму, машина вибуває. Сильний удар може лишити постійну пробоїну. Коли тріщина доходить до пробоїни, вона поширюється швидше. Після заїзду звичайну тріщину ремонтують.
+
+### Включає
+
+Уникати жорстких приземлень і різких поворотів, якщо тріщина росте. Пробоїна від сильного удару може пришвидшити її поширення в наступному заїзді.
+
+### Виключає
+
+Пошкодження від самого плину часу, єдину шкалу міцності, що скидається повністю, запас пального або знос шин без постійної вади рами.
+
+### Ігри-носії
+
+- [`GAME-0677` — "Stunt Car Racer"](../games/s-z/stunt-car-racer.md)
+
+## SYS-1949
+
+- Назва: Окремо нараховувати очки ліги за перемогу й найшвидше коло
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Кожен заїзд окремо дає очки за перемогу й за найшвидше коло. Якщо водій вибув або розбив машину до фінішу, за звичайним правилом обидві нагороди одержує суперник.
+
+### Включає
+
+Окремо звірити два очки за перемогу й одне за найшвидше коло. Обидві нагороди може отримати той самий водій, як у заїзді на Малому трампліні.
+
+### Виключає
+
+Фіксовані очки за кожне місце, очки за трюки протягом кола, підрахунок лише загального часу або підбиття підсумку всієї ліги.
+
+### Ігри-носії
+
+- [`GAME-0677` — "Stunt Car Racer"](../games/s-z/stunt-car-racer.md)
+
 ## SYS-195
 
 - Назва: Генерувати постійний історичний світ і приховану ділянку фортеці
@@ -23941,6 +24740,216 @@ Warp Star може набрати заряд прискорення на пря�
 ### Ігри-носії
 
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
+
+## SYS-1950
+
+- Назва: Отримати тимчасову форму браслета на визначену кількість бойових ходів
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+За відповідної події браслет перетворює того самого бійця на полі, змінює його бойовий стан і відкриває дії цієї форми на показану кількість бойових ходів. Коли відлік спливає, боєць повертається до звичайної форми.
+
+### Включає
+
+Сюжетна подія другого етапу дає Жанні священні обладунки на третьому ході. На четвертому лишається один хід, а на п’ятому Жанна повертається до звичайної форми.
+
+### Виключає
+
+Постійна зміна класу, суто декоративні обладунки, керування окремим прикликаним бійцем або поновлення тривалості за кожного переможеного супротивника.
+
+### Ігри-носії
+
+- [`GAME-0679` — "Jeanne d'Arc"](../games/g-l/jeanne-darc.md)
+
+## SYS-1951
+
+- Назва: Повернути бійцю в обладунках рух і дію за перемогу в тій самій фазі
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Коли перетворений боєць перемагає супротивника, він знову може рухатися й діяти в поточній фазі гравця. Кожна наступна така перемога може знову відкрити ці можливості без переходу до нового бойового ходу чи подовження форми.
+
+### Включає
+
+Після перемоги на третьому ході прочитати сповіщення «Стрімкість» (Godspeed), знову перемістити Жанну й підтвердити ще одну допустиму атаку. Номер ходу й показник двох ходів у обладунках не змінюються.
+
+### Виключає
+
+Додатковий хід усієї сторони, контратака, постійна додаткова дія, удар без перемоги над ціллю або перемога у звичайній формі.
+
+### Ігри-носії
+
+- [`GAME-0679` — "Jeanne d'Arc"](../games/g-l/jeanne-darc.md)
+
+## SYS-1952
+
+- Назва: Перемістити закріплений вузол між положенням для ремонту й робочим положенням
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Окремий орган керування переміщує закріплений вузол заданою напрямною між доступним положенням для ремонту й робочим положенням. В опущеному стані гравець може замінити деталь. Після повернення в робоче положення встановлена деталь лишається на місці.
+
+### Включає
+
+Опустити корпус лампи маяка, щоб вийняти пошкоджену лампу й установити нову. Підняти той самий корпус із уже вставленою лампою.
+
+### Виключає
+
+Перенесення всього пристрою, відкриття декоративної кришки, встановлення деталі безпосередньо в робочому положенні або втрата встановленої деталі під час руху вузла.
+
+### Ігри-носії
+
+- [`GAME-0680` — "Ghost Town"](../games/g-l/ghost-town.md)
+
+## SYS-1953
+
+- Назва: Продовжити бій у керованому падінні й на новій арені після руйнування опори
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Передбачена правилами подія руйнує спільну опору, поки бій триває. Решта учасників переходять у кероване падіння зі своїм поточним здоров’ям, а потім на нову поверхню без початку нового раунду.
+
+### Включає
+
+Коли дирижабль арени «Блакитне небо» остаточно руйнується, ті самі четверо падають і маневрують між скринями. У нижньому подвір’ї триває той самий бій із уже отриманою шкодою.
+
+### Виключає
+
+Вибуття за межі арени, відбудова тієї самої арени між раундами, падіння одного бійця з краю або сюжетна сцена без рішень під час падіння.
+
+### Ігри-носії
+
+- [`GAME-0681` — "Power Stone 2"](../games/m-r/power-stone-2.md)
+
+## SYS-1954
+
+- Назва: Увійти в посилену форму за власним порогом каменів, поки інші зберігають свої
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Коли боєць збирає три камені, гра автоматично змінює його форму й замінює комірки каменів шкалою сили, яка зменшується. Посилені атаки витрачають силу. Інші учасники водночас можуть мати свої камені.
+
+### Включає
+
+Третій підібраний камінь змінює вигляд і шкалу Фалкона в нижній частині арени, поки в Рьоми видно два камені.
+
+### Виключає
+
+Захоплення всіх каменів арени, ручне витрачання заряду для початку форми, постійна здібність або правило, за яким кожна сильніша атака повністю спустошує шкалу.
+
+### Ігри-носії
+
+- [`GAME-0681` — "Power Stone 2"](../games/m-r/power-stone-2.md)
+
+## SYS-1955
+
+- Назва: Долати придатну круту поверхню з прискоренням і продовжувати рух на виході
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Утримуване прискорення за наявності запасу дає змогу бігти придатними крутими або вигнутими поверхнями. З передбаченого маршрутом краю рух переходить у політ до наступної ділянки.
+
+### Включає
+
+Сонік із прискоренням проходить вигнуту рампу й відривається від неї в напрямку наступної ділянки. Навчання окремо показує поповнення запасу й рух по рампі з прискоренням.
+
+### Виключає
+
+Лише пришвидшення на рівній землі, поштовх пружини від контакту, автоматичне закріплення на окремій рейці, довільна зміна гравітації чи припущення про мінімальний потрібний запас.
+
+### Ігри-носії
+
+- [`GAME-0682` — "Sonic Dream Team"](../games/s-z/sonic-dream-team.md)
+
+## SYS-1956
+
+- Назва: Відкрити місцевий бар’єр, щойно зібрано всі потрібні ключі
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Коли зібрано весь потрібний набір місцевих ключів, пов’язаний бар’єр відкривається й те саме завдання триває. Гра відстежує цей набір окремо від звичайних предметів.
+
+### Включає
+
+У першому завданні «Переплутаних берегів» зібрати всі три ключі й пройти крізь відкритий бар’єр далі до Порталу снів.
+
+### Виключає
+
+Витрачання вибраного ключа з інвентарю біля дверей, зарахування необов’язкових предметів, відкриття бар’єра утриманням перемикача або завершення завдання біля бар’єра.
+
+### Ігри-носії
+
+- [`GAME-0682` — "Sonic Dream Team"](../games/s-z/sonic-dream-team.md)
+
+## SYS-1957
+
+- Назва: Відкрити замок після послідовних поворотів диска в потрібних напрямках
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Замок приймає повороти до позначок у заданій черзі й у потрібних напрямках. Для повтореної цифри може знадобитися ще раз підвести її з потрібного боку. Повна послідовність відкриває замок, а з вмістом можна взаємодіяти окремо.
+
+### Включає
+
+Двічі підведи сімку проти годинникової стрілки, тоді одиницю за годинниковою. Листи випадуть і кожен можна буде вибрати окремо.
+
+### Виключає
+
+Перевірка лише останньої позиції диска, послідовне натискання кнопок, витрачання ключа, припущення про точний допуск пропущеної цифри чи автоматичний огляд вмісту.
+
+### Ігри-носії
+
+- [`GAME-0683` — "Last Window: The Secret of Cape West"](../games/g-l/last-window-the-secret-of-cape-west.md)
+
+## SYS-1958
+
+- Назва: Утримувати обертову опору нерухомою, поки інший персонаж тримає важіль
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Важіль зупиняє пов’язану обертову поверхню, поки один персонаж тримає його. Інший може скористатися нерухомою поверхнею як опорою без доступу до важеля. Після відпускання рух може поновитися.
+
+### Включає
+
+Доручи сестрі тримати важіль зупинки, поки хлопець переходить із майданчика по суцільній частині труби.
+
+### Виключає
+
+Постійне вимкнення живлення, зупинка на певний час після відпускання, автоматична платформа, що везе персонажа, або вантаж замість того, хто тримає важіль.
+
+### Ігри-носії
+
+- [`GAME-0684` — "REANIMAL"](../games/m-r/reanimal.md)
+
+## SYS-1959
+
+- Назва: Опустити окремий місток із дальнього боку, щоб напарник міг приєднатися
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Персонаж, який дістався дальнього боку іншим шляхом, опускає підняту переправу. Вона стає опорою для того, хто лишився біля попереднього важеля. Це окремий шлях від першої переправи.
+
+### Включає
+
+З верхнього помосту опусти металевий місток на шарнірі, щоб сестра могла відпустити важіль зупинки й приєднатися до хлопця.
+
+### Виключає
+
+Безперервне утримання попереднього важеля, підтягування напарника прямо на уступ, хід лише для напарника, який відкриває міст для гравця, або спільний перехід першою переправою.
+
+### Ігри-носії
+
+- [`GAME-0684` — "REANIMAL"](../games/m-r/reanimal.md)
 
 ## SYS-196
 
@@ -23967,6 +24976,216 @@ Warp Star може набрати заряд прискорення на пря�
 - [`GAME-0136` — "Surviving Mars: Relaunched"](../games/s-z/surviving-mars.md)
 - [`GAME-0133` — Timberborn](../games/s-z/timberborn.md)
 
+## SYS-1960
+
+- Назва: Перетворити розв’язану сітку на відповідний предмет для кімнати
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Коли гра приймає розв’язок поточної сітки, вона видає відповідний предмет меблів. Саме цей предмет з’являється в колекції, звідки його можна взяти й поставити в кімнаті.
+
+### Включає
+
+Заверши сітку із зображенням стільця в каталозі, закрий екран нагороди й знайди простий стілець у колекції меблів.
+
+### Виключає
+
+Розгадане зображення без предмета для кімнати, випадкова нагорода, окрема плата за меблі або сама лише позначка в колекції.
+
+### Ігри-носії
+
+- [`GAME-0685` — "Squeakross: Home Squeak Home"](../games/s-z/squeakross-home-squeak-home.md)
+
+## SYS-1961
+
+- Назва: Продовжити серію трюків після контакту з рейками й зарахувати її очки
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Вдало поєднані трюки та переходи поповнюють поточну серію окремо від уже зарахованих очок. Після контакту з рейками серію можна зберегти рухом на одній парі коліс. Після звичайного завершення серії її очки додаються до підсумку заїзду. Аварія може скасувати незавершену серію й повернути очки до значення з контрольної точки.
+
+### Включає
+
+Виконай повітряний трюк, приземлися на одну пару коліс і перейди на сусідню колію. Зараховані очки не зміняться, доки триває серія, а після чистого завершення зростуть.
+
+### Виключає
+
+Негайне нарахування очок за кожну дію, автоматичне завершення серії при кожному контакті, збереження всіх очок після останньої контрольної точки або виведення точної формули множника з позначки на екрані.
+
+### Ігри-носії
+
+- [`GAME-0687` — "Denshattack!"](../games/a-f/denshattack.md)
+
+## SYS-1962
+
+- Назва: Показати окремо очки, час і додаткові завдання після фінішу
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Після зарахованого фінішу звіт окремо показує підсумкові очки, витрачений час і виконані додаткові завдання. Трасу можна пройти, навіть якщо частина додаткових завдань лишилася. Очки й час можуть мати різні оцінки.
+
+### Включає
+
+Порівняй проїзд із 44 592 очками за 1:45 і сімома завданнями із семи з проїздом із 15 033 очками за 1:53 і шістьма із семи.
+
+### Виключає
+
+Єдиний зважений ранг, додавання бонусу за місце до очок за трюки, обов’язкове виконання всіх додаткових завдань або припущення, що після повторних заїздів найкращі показники об’єднуються.
+
+### Ігри-носії
+
+- [`GAME-0687` — "Denshattack!"](../games/a-f/denshattack.md)
+
+## SYS-1963
+
+- Назва: Наблизитися до цілі під час виконання атаки зблизька
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Під час виконання звичайної атаки зблизька боєць може автоматично наблизитися до заздалегідь обраного супротивника. Якщо після переміщення зброя дістає до супротивника, боєць завдає удару. На початку наступного вибору команд боєць лишається на новій позиції.
+
+### Включає
+
+Признач звичайну атаку на слизня по той бік печери. Простеж, як боєць рушає зі свого місця в строю перед ударом, і звір його позицію, коли знову з’явиться меню команд.
+
+### Виключає
+
+Вибір окремої точки переміщення, відмова приймати команду атаки лише через початкову відстань до цілі, рух суто для анімації з негайним поверненням на вихідне місце або виведення точної формули дальності чи пропуску удару.
+
+### Ігри-носії
+
+- [`GAME-0688` — "Lunar: Silver Star Story Complete"](../games/g-l/lunar-silver-star-story-complete.md)
+
+## SYS-1964
+
+- Назва: Оновлювати тінь предмета на нерухомому екрані
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Переміщення або поворот твердого предмета в освітленій ділянці змінює його тінь на нерухомому екрані, поки предмет іще в руці. Зміною положення й повороту предмета можна змінювати місце та форму тіні.
+
+### Включає
+
+Посунь синій куб знизу, щоб його тінь накрила перший квадратний контур. Поверни куб і простеж, як змінилася форма тіні.
+
+### Виключає
+
+Рух цілі слідом за поглядом, вставляння предмета у відповідне гніздо, перетворення зображення камери на новий твердий об’єкт або припущення про точну модель джерела світла чи побудови тіні.
+
+### Ігри-носії
+
+- [`GAME-0689` — "Shadow Point"](../games/s-z/shadow-point.md)
+
+## SYS-1965
+
+- Назва: Зберігати зарахований збіг після зміщення тіні
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Коли тінь відповідає заданому контуру, гра зараховує збіг на цьому екрані. Якщо посунути предмет і змістити тінь, збіг лишається зарахованим. Тим самим предметом можна розв’язати інші екрани.
+
+### Включає
+
+Коли перший збіг засвітиться, опусти куб. Позначка збігу лишиться на екрані окремо від зміщеної темної тіні. Понеси куб до наступного екрана.
+
+### Виключає
+
+Вимога одночасно тримати відповідні тіні на всіх екранах, утримання вантажу на натискній плиті, витрата предмета після збігу, припущення про точний допуск або збереження після перезавантаження.
+
+### Ігри-носії
+
+- [`GAME-0689` — "Shadow Point"](../games/s-z/shadow-point.md)
+
+## SYS-1966
+
+- Назва: Витратити захопленого ворога на підйом у повітрі або кидок
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Персонаж тимчасово несе одного захопленого ворога. Команда стрибка в повітрі скидає ворога донизу й підкидає персонажа вгору. Окрема команда кидка відпускає того самого ворога в обраному напрямку без додаткового стрибка. Після будь-якої з цих дій персонаж більше не несе ворога.
+
+### Включає
+
+Під першим уступом Моря сліз Клоноа скидає звичайного Му й піднімається вище. Посібник також описує кидок із того самого стану захоплення.
+
+### Виключає
+
+Додатковий стрибок, що відновлюється від приземлення без витрати предмета, відскок від вільного ворога, тривалий підйом завдяки утримуваній істоті або кидок без альтернативного використання для руху.
+
+### Ігри-носії
+
+- [`GAME-0692` — "Klonoa 2: Lunatea's Veil"](../games/g-l/klonoa-2-lunateas-veil.md)
+
+## SYS-1967
+
+- Назва: Перенести одну плитку підлоги й відновити опору в іншій клітинці
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Підняття звичайної плитки лишає прогалину й заповнює єдине місце в жезлі. Цю плитку можна вкласти в придатну прогалину, відновивши там опору й звільнивши жезл. Початкове місце лишається порожнім, доки його не заповнять окремо.
+
+### Включає
+
+На поверсі B002 у Void Stranger Ґрей бере одну звичайну плитку з правого майданчика й укладає її в розрив перед тим, як перейти.
+
+### Виключає
+
+Створення нових плиток із матеріалів, збереження початкової опори після підняття, перенесення предмета над незмінною підлогою або зсування плитки без утримання.
+
+### Ігри-носії
+
+- [`GAME-0693` — "Void Stranger"](../games/s-z/void-stranger.md)
+
+## SYS-1968
+
+- Назва: Витрачати заряд під час копання й платити за його поповнення
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Копання витрачає заряд, показаний на шкалі. Вибрана платна послуга в придатному місці списує кошти з балансу й поповнює той самий запас, щоб можна було копати далі.
+
+### Включає
+
+Початкове копання лопаткою й заряджання за один долар у майстерні в A Game About Digging A Hole.
+
+### Виключає
+
+Безкоштовне заряджання від очікування чи підключення, витрачання запасної батареї, постійне збільшення її місткості або наслідки повного розрядження.
+
+### Ігри-носії
+
+- [`GAME-0694` — "A Game About Digging A Hole"](../games/a-f/a-game-about-digging-a-hole.md)
+
+## SYS-1969
+
+- Назва: Повернутися на поверхню без непроданої руди після розрядження
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Коли заряд для копання закінчується, гра перериває керування й повертає персонажа на поверхню. Непродана руда зникає, а гроші від попередніх продажів і викопана яма зберігаються.
+
+### Включає
+
+Після раннього розрядження в A Game About Digging A Hole персонаж опиняється біля тієї самої ями, а на балансі лишається п’ять доларів від продажу.
+
+### Виключає
+
+Втрата здоров’я як причина, скидання всього поступу, автоматичне відновлення ґрунту, завершення всієї спроби або фіксоване безкоштовне поповнення заряду.
+
+### Ігри-носії
+
+- [`GAME-0694` — "A Game About Digging A Hole"](../games/a-f/a-game-about-digging-a-hole.md)
+
 ## SYS-197
 
 - Назва: Змінювати темп виробництва або якість результату залежно від здібності працівника
@@ -23989,6 +25208,216 @@ Warp Star може набрати заряд прискорення на пря�
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
 - [`GAME-0127` — RimWorld](../games/m-r/rimworld.md)
+
+## SYS-1970
+
+- Назва: Чергувати ходу ворога зі швидким котінням згорнутого тіла
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Живий ворог може згорнутися в кулю й покотитися доступною підлогою швидше, ніж ішов, а потім знову розпрямитися. Коли траєкторія зіткнення змінюється, гравець може змінити позицію, поки обидва персонажі лишаються в дії.
+
+### Включає
+
+У першій вежі Terranigma викликані червоні Губалли йдуть кам’яною підлогою, згортаються в червоні кулі й котяться залою або прилеглим проходом.
+
+### Виключає
+
+Снаряд, що відокремився від нападника, перетворення гравця на кулю, кинутий пасивний предмет або припущення про повну невразливість згорнутого ворога.
+
+### Ігри-носії
+
+- [`GAME-0695` — "Terranigma"](../games/s-z/terranigma.md)
+
+## SYS-1971
+
+- Назва: Поступово відновлювати здоров’я спорядженою зброєю в дозволеній області
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Споряджена зброя з властивістю відновлення поступово повертає втрачене здоров’я у відповідній області, поки гра триває. Для цього не треба витрачати предмет чи влучати у ворога. Якщо зняти зброю або покинути дозволену область, підстава для відновлення зникає.
+
+### Включає
+
+На вершині першої вежі Підземного світу в Terranigma Кришталевий спис поволі відновлює втрачене здоров’я Арка навіть під час бою.
+
+### Виключає
+
+Лікування предметом із запасу, передавання здоров’я влучанням, поповнення біля контрольної точки, загальне відновлення після паузи без ушкоджень або твердження про виміряний інтервал на оригінальній консолі.
+
+### Ігри-носії
+
+- [`GAME-0695` — "Terranigma"](../games/s-z/terranigma.md)
+
+## SYS-1972
+
+- Назва: Успадковувати місцевий запас із вибраного проходження й зберігати власне рішення
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+У відповідній сцені гра визначає, чи лишився місцевий запас після використання або збереження в записі обраного попередника. Поточне рішення стає записаною умовою для тих, хто згодом обере це проходження.
+
+### Включає
+
+У пролозі Tides of Tomorrow попередній мандрівник може залишити озен, щоб Нахе запропонувала його далі. Якщо поточний гравець забирає дозу, вона надходить до його запасу, а гра повідомляє, що його наступникам Нахе її не запропонує.
+
+### Виключає
+
+Спільний запас у реальному часі, початковий код лише для випадкової геометрії, збереження стану тільки у власній повторній спробі або припущення про точний момент публікації запису на сервері.
+
+### Ігри-носії
+
+- [`GAME-0696` — "Tides of Tomorrow"](../games/s-z/tides-of-tomorrow.md)
+
+## SYS-1973
+
+- Назва: Зараховувати відповідь до поведінкової риси проходження
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Класифікована сюжетна відповідь змінює відповідну рису поведінки. Гра показує цю зміну й подає провідні записані риси як підсумок гри попередника для тих, хто може його обрати.
+
+### Включає
+
+Якщо забрати перший озен у Tides of Tomorrow, гра показує зростання риси самозбереження. За описом іншої гілки збереження дози підвищує рису співпраці. Картки попередників показують їхні провідні риси.
+
+### Виключає
+
+Зростання особистого здоров’я чи запасу, безумовна оцінка добра або зла, спільна репутація в реальному часі або твердження, ніби одна провідна риса передбачає всі рішення в записі.
+
+### Ігри-носії
+
+- [`GAME-0696` — "Tides of Tomorrow"](../games/s-z/tides-of-tomorrow.md)
+
+## SYS-1974
+
+- Назва: Зараховувати послідовні знищення одного кольору й розпізнавати особливий початок серії
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Гра враховує порядок знищення цілей. Щоразу, коли поспіль знищено визначену кількість цілей одного кольору, нараховується бонус. Наступні відповідні групи збільшують бонус. Окрема послідовність різних кольорів може започаткувати нову дорожчу серію. Інші невідповідні знищення переривають звичайну серію.
+
+### Включає
+
+У Radiant Silvergun три червоні кораблі поспіль дають бонус незалежно від виду пострілу. Початкові правила також розпізнають перехід від червоних через один синій до жовтого й нараховують бонуси за подальші жовті групи.
+
+### Виключає
+
+Множник за будь-які знищення без урахування кольору, геометрична суміжність предметів, простий дотик до цілей одного кольору або нагорода лише наприкінці етапу.
+
+### Ігри-носії
+
+- [`GAME-0697` — "Radiant Silvergun"](../games/m-r/radiant-silvergun.md)
+
+## SYS-1975
+
+- Назва: Розподіляти бойовий досвід між базовими видами зброї, якими виконано атаку
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Досвід за знищення отримує базова зброя, якою його виконано. Спільна атака розподіляє досвід між базовими видами зброї, що її утворюють. Коли окремий вид накопичує достатньо досвіду, він посилюється без підбирання предмета чи вибору поліпшення.
+
+### Включає
+
+У Radiant Silvergun кожен із трьох базових видів зброї розвивається окремо. Інструкція пояснює, що за спільну атаку досвід ділиться між видами, чиї кнопки натиснуто.
+
+### Виключає
+
+Єдиний рівень персонажа, який однаково посилює всю зброю, купівля поліпшень зі спільного запасу, заміна зброї трофеєм або окремий четвертий рівень для спільної атаки.
+
+### Ігри-носії
+
+- [`GAME-0697` — "Radiant Silvergun"](../games/m-r/radiant-silvergun.md)
+
+## SYS-1976
+
+- Назва: Поглинати придатні снаряди й посилювати наступну атаку мечем за повного заряду
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Звичайний меч гасить визначені ворожі снаряди при дотику й наповнює окрему шкалу. За повного заряду та сама команда витрачає запас і тимчасово викликає сильніший удар мечем. Ворожі снаряди інших видів шкалу не наповнюють.
+
+### Включає
+
+У Radiant Silvergun звичайний меч поглинає придатні рожеві снаряди. За повної шкали та сама команда викликає гіпермеч.
+
+### Виключає
+
+Проліт упритул без знищення снаряда, поглинання всіх видів снарядів без умови заряду, автоматичне відновлення посиленої атаки з часом або вибір іншої комірки зброї.
+
+### Ігри-носії
+
+- [`GAME-0697` — "Radiant Silvergun"](../games/m-r/radiant-silvergun.md)
+
+## SYS-1977
+
+- Назва: Нараховувати окремі бонуси за ядро боса й повноту руйнування
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Після бою пряме знищення головної частини дає бонус за перемогу. Розмір окремого бонусу залежить від того, яку частку деталей цілі знищено до кінця бою. Якщо спершу розібрати бічні частини, другий бонус може зрости, хоча завершальною ціллю лишається ядро.
+
+### Включає
+
+У Radiant Silvergun звіт перед етапом 3B показує 5 000 за пряме знищення AKA-O й окремі 100 000 за повне руйнування.
+
+### Виключає
+
+Одна стала нагорода за боса, загальна частка знищених ворогів на рівні, обов’язкове знищення всіх частин для відчинення дверей або захоплення вцілілої деталі як зброї.
+
+### Ігри-носії
+
+- [`GAME-0697` — "Radiant Silvergun"](../games/m-r/radiant-silvergun.md)
+
+## SYS-1978
+
+- Назва: Зараховувати завершену сцену фрагментом і змінювати її вузол поступу
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Активація завершальної позначки зараховує проходження цієї сцени. Гра показує пов’язаний фрагмент і змінює стан відповідного вузла на завершений. Сам вхід до сцени не веде до жодного з цих наслідків.
+
+### Включає
+
+У Song of Bloom дотик до зірочки на вежі відкриває картку фрагмента. Після повернення на дереві видно квітку на відповідній гілці.
+
+### Виключає
+
+Вхід з автоматичним зарахуванням завершення, звичайне підбирання предмета, самі бали або одночасне завершення всіх вузлів.
+
+### Ігри-носії
+
+- [`GAME-0698` — "Song of Bloom"](../games/s-z/song-of-bloom.md)
+
+## SYS-1979
+
+- Назва: Відновлювати навички або змінювати початкові характеристики й ім’я під час набору
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Для того самого кандидата один спосіб набору відновлює колишнє ім’я й набуті навички. Другий прибирає ці навички, підвищує базові характеристики й додає кандидата до загону після підтвердження нового імені.
+
+### Включає
+
+Воскресіння в Dungeon Master зберігає ім’я й навички Галка. Для перевтілення посібник описує втрату колишніх навичок, кращі фізичні характеристики й обов’язкове нове ім’я.
+
+### Виключає
+
+Створення героя без початкового авторського набору навичок, оживлення вже прийнятого учасника загону або поступове витрачання балів зі збереженням навичок.
+
+### Ігри-носії
+
+- [`GAME-0699` — "Dungeon Master"](../games/a-f/dungeon-master.md)
 
 ## SYS-198
 
@@ -24014,6 +25443,216 @@ Warp Star може набрати заряд прискорення на пря�
 - [`GAME-0335` — RollerCoaster Tycoon Deluxe](../games/m-r/rollercoaster-tycoon-deluxe.md)
 - [`GAME-0370` — Theme Hospital](../games/s-z/theme-hospital.md)
 
+## SYS-1980
+
+- Назва: Розв’язувати місцеву головоломку зблизька й повертати керування персонажем
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Взаємодія з доступною головоломкою тимчасово прибирає окремий вид на персонажа й відкриває нерухому сцену від першої особи з відстеженням рухів рук. Після прийняття розв’язку гравець знову керує персонажем біля головоломки й може скористатися зміненим маршрутом.
+
+### Включає
+
+У Escaping Wonderland гра переносить погляд від Моллі біля парової панелі до труб, які можна складати руками, а потім повертає керування Моллі біля відремонтованої панелі.
+
+### Виключає
+
+Декоративне наближення зі збереженням тих самих дій, довільне перемикання перспективи, керування руками другим гравцем або сцена, після якої керування персонажем не повертається.
+
+### Ігри-носії
+
+- [`GAME-0702` — "Escaping Wonderland"](../games/a-f/escaping-wonderland.md)
+
+## SYS-1981
+
+- Назва: Додавати час для доплати після першої частини обов’язкової доставки
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Поки обов’язковий вантаж ще не зібрано, зарахування визначеного предмета додає час до поточного залишку, а робота триває. Годинник визначає доплату за швидкість окремо від обов’язкової кількості вантажу.
+
+### Включає
+
+У Part Time UFO перший ящик з апельсинами змінює залишок обов’язкових ящиків на один і додає 20 одиниць часу. Показник може перевищити початкове значення.
+
+### Виключає
+
+Контрольна точка, що подовжує строк перегонів, скидання годинника до початкового значення або нарахування доплати за час без зміни залишку.
+
+### Ігри-носії
+
+- [`GAME-0703` — "Part Time UFO"](../games/m-r/part-time-ufo.md)
+
+## SYS-1982
+
+- Назва: Окремо нараховувати оплату за вантаж, залишок часу й медалі за розміщення
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Після виконання обов’язкової доставки окремо додай до оплати суму за вантаж, доплату за залишок часу та вартість здобутих медалей. Окремі способи розміщення предметів у тому самому місці можуть дати медалі, але звичайне завершення від них не залежить.
+
+### Включає
+
+У Part Time UFO звіт першої ферми показує оплату за вантаж, час із множником п’ять, медалі за розміщення вантажу й окрему медаль за час.
+
+### Виключає
+
+Одна непрозора оцінка за весь результат, вимога отримати всі медалі для завершення або єдина доплата, що залежить лише від часу.
+
+### Ігри-носії
+
+- [`GAME-0703` — "Part Time UFO"](../games/m-r/part-time-ufo.md)
+
+## SYS-1983
+
+- Назва: Нарахувати бонус пастки й повернути кулю в рух на тому самому столі
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Коли пастка приймає кулю за виконаної умови, нарахуй місцевий бонус і скинь сигнальні лампи. Куля знову рухається в тій самій частині столу без нового запуску чи переходу на окреме бонусне поле.
+
+### Включає
+
+В Alien Crush верхня пастка Tentacloid нараховує бонус, гасить верхні лампи й повертає срібну кулю в рух зі збереженим загальним рахунком.
+
+### Виключає
+
+Підсумок окремої бонусної кімнати, втрата кулі й запуск наступної або миттєві очки за дотик без окремого захоплення та повернення кулі в рух.
+
+### Ігри-носії
+
+- [`GAME-0704` — "Alien Crush"](../games/a-f/alien-crush.md)
+
+## SYS-1984
+
+- Назва: Оцінити підстави обґрунтованого рішення окремо від самого рішення
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Після остаточного рішення система може визнати його обґрунтованим і окремо оцінити позначені гравцем категорії перевірки. Однакові за типом обґрунтовані рішення можуть мати різні оцінки чи винагороди.
+
+### Включає
+
+У Contraband Police обґрунтована відмова може супроводжуватися видимою помилкою в категорії та меншою виплатою або бездоганною перевіркою й більшою виплатою.
+
+### Виключає
+
+Перевірка лише правильності штампа, показ рядків акта без окремої оцінки, оцінювання швидкості правильної перевірки або визначення фіксованої ціни помилки за двома різними справами.
+
+### Ігри-носії
+
+- [`GAME-0705` — "Contraband Police"](../games/a-f/contraband-police.md)
+
+## SYS-1985
+
+- Назва: Змінити площину руху, перекотившись на суміжну перпендикулярну грань
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Коли тіло рухається вздовж опорної поверхні й торкається придатної перпендикулярної грані на стику, воно переходить на неї. Ця грань визначає новий низ і напрям уперед. Тіло залишається на з’єднаній конструкції, а далі рухається в новій площині.
+
+### Включає
+
+На третьому рівні Kula World куля перекочується на стійку. Внутрішня грань стає підлогою, якою можна дістатися до смуги з ключем.
+
+### Виключає
+
+Прицільне падіння або окрема команда зміни тяжіння, поворот лише ракурсу, перенесення порталом або стрибок на відокремлену платформу.
+
+### Ігри-носії
+
+- [`GAME-0706` — "Kula World"](../games/g-l/kula-world.md)
+
+## SYS-1986
+
+- Назва: Поступово знімати спрямованим усмоктуванням частини налиплого відкладу
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Тривале всмоктування відриває матеріал із тієї частини відкладу, яку зараз захоплює інструмент. Інші частини можуть лишатися на поверхні, доки гравець не спрямує інструмент на них або не змінить позицію.
+
+### Включає
+
+У The Gunk рукавиця поступово знімає частини чорного слизу довкола проходу, коли гравець переводить її з однієї ділянки на іншу.
+
+### Виключає
+
+Підбирання цілого рухомого предмета до інвентарю, зняття об’єкта одним натисканням, звичайне завдання шкоди або відновлення всієї ділянки після усунення залишків.
+
+### Ігри-носії
+
+- [`GAME-0707` — "The Gunk"](../games/s-z/the-gunk.md)
+
+## SYS-1987
+
+- Назва: Відновити забруднену ділянку та її прохід після повного очищення
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Коли гравець усуває залишки налиплого забруднення в межах ділянки, середовище помітно відновлюється, а відповідним проходом можна скористатися. Після часткового очищення решта ділянки може лишатися забрудненою.
+
+### Включає
+
+У The Gunk рослинність повертається на кам’яну полицю після зникнення останніх видимих залишків слизу. Крізь отвір у скелі можна пройти звичайним рухом.
+
+### Виключає
+
+Декоративне цвітіння після будь-якого часткового очищення, окреме висаджування насіння, пряме освітлення рослини для вирощування мосту або зняття бойової перепони без відновлення середовища.
+
+### Ігри-носії
+
+- [`GAME-0707` — "The Gunk"](../games/s-z/the-gunk.md)
+
+## SYS-1988
+
+- Назва: Перенести позиції гармат і проломи з бою у фазу відбудови
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Цикл послідовно відкриває розміщення, обстріл у реальному часі та відбудову на одному полі. Уціліла зброя лишається на своїх позиціях, а проломи після бою визначають початковий стан мурів для наступної фази.
+
+### Включає
+
+У Rampart на початку відбудови гармати ще займають свої місця, а в мурах залишаються проломи після бою.
+
+### Виключає
+
+Повернення мапи до початкової конфігурації після раунду, одночасний бій і будівництво без окремих фаз або перенесення між полями лише рахунку.
+
+### Ігри-носії
+
+- [`GAME-0708` — "Rampart"](../games/m-r/rampart.md)
+
+## SYS-1989
+
+- Назва: Зарахувати замкнений мур навколо замку як територію для наступного розміщення
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Коли гравець замикає допустимий мур навколо потрібного об’єкта, гра вже під час відбудови зараховує охоплену ділянку. Якщо на момент підбиття підсумків така ділянка є, на збереженій території починається наступне розміщення.
+
+### Включає
+
+У Rampart ділянка всередині замкненого муру довкола замку стає синьою. Якщо мур замкнений на нулі, після підрахунку можна ставити наступні гармати.
+
+### Виключає
+
+Захоплення заздалегідь окресленої території центральним об’єктом, нарахування балів за візерунок, видача гармати після кожної укладеної частини муру або платне продовження після поразки.
+
+### Ігри-носії
+
+- [`GAME-0708` — "Rampart"](../games/m-r/rampart.md)
+
 ## SYS-199
 
 - Назва: Приваблювати мігрантів і підвищувати ранг фортеці
@@ -24034,6 +25673,216 @@ Warp Star може набрати заряд прискорення на пря�
 ### Ігри-носії
 
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
+
+## SYS-1990
+
+- Назва: Перенести вагу на поставлену стопу й звільнити другу для наступного кроку
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Коли спрямована стопа знаходить стійку опору на землі, тіло може перенести на неї вагу й звільнити другу стопу для наступного кроку. Якщо стійкої опори бракує, тіло може перехилитися до або після наступного контакту із землею.
+
+### Включає
+
+На початковому схилі Baby Steps послідовні короткі кроки дають змогу підійматися. Надто широкий крок або перешкода під ногою можуть призвести до втрати рівноваги.
+
+### Виключає
+
+Цикл ходьби, що просуває тіло незалежно від опори кожної стопи, хват рукою, який утримує тіло, або декоративне похитування, що не впливає на рух.
+
+### Ігри-носії
+
+- [`GAME-0709` — "Baby Steps"](../games/a-f/baby-steps.md)
+
+## SYS-1991
+
+- Назва: Відновити ходьбу з місця, де тіло зупинилося після падіння
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Після втрати рівноваги тіло може перекинутися або зісковзнути по поточній ділянці. Коли персонаж знову стає на ноги й керування стопами повертається, наступна спроба починається з місця після падіння.
+
+### Включає
+
+На початковому підйомі в Baby Steps Нейт падає серед моху й каміння, встає на тому самому схилі та може зробити наступний керований крок.
+
+### Виключає
+
+Телепортація до сталої контрольної точки, втрата життя з початком спроби заново, суто декоративна анімація спотикання або обов’язкова команда відновлення, якої джерела не підтверджують.
+
+### Ігри-носії
+
+- [`GAME-0709` — "Baby Steps"](../games/a-f/baby-steps.md)
+
+## SYS-1992
+
+- Назва: Підготувати прийняту схему секцій як трасу для заїзду
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Після команди старту гра обробляє збережену в редакторі схему секцій і готує трасу. Повороти, стики, зміни висоти й типу покриття визначають рух машин під час заїзду.
+
+### Включає
+
+У Racing Destruction Set між командою старту й появою двох вікон заїзду гра готує створену трасу секцію за секцією. Далі машини їдуть її поворотами й прямими.
+
+### Виключає
+
+Лише декоративний попередній перегляд, перехід на іншу готову трасу, перебудова траси під час кожного кола або випадкове створення схеми.
+
+### Ігри-носії
+
+- [`GAME-0710` — "Racing Destruction Set"](../games/m-r/racing-destruction-set.md)
+
+## SYS-1993
+
+- Назва: Визначати рух смугою за швидкістю, покриттям і контактом із трампліном
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Якщо гравець тримає напрям прямо, машина зазвичай їде поточною смугою. Надмірна швидкість на під’їзді, форма ділянки чи зіткнення можуть вибити її зі смуги. Зчеплення залежить від покриття, а обрана гравітація впливає на стрибки.
+
+### Включає
+
+У Racing Destruction Set машини йдуть похилими поворотами й ділянками з різним покриттям та можуть вийти на ширшу траєкторію. Посібник пояснює, як покриття й гравітація змінюють приземлення після трампліна.
+
+### Виключає
+
+Рух жорстко заданою колією, з якої неможливо зійти, зміна кольору тла, вибір гілки маршруту до старту або універсальна формула зчеплення чи стрибка.
+
+### Ігри-носії
+
+- [`GAME-0710` — "Racing Destruction Set"](../games/m-r/racing-destruction-set.md)
+
+## SYS-1994
+
+- Назва: Рахувати кола кожної машини й підбивати підсумок після обох фінішів
+- Переглянуто: `2026-11-24`
+
+### Операційне визначення
+
+Кожен учасник починає із заданою кількістю кіл і має окремий лічильник. Зарахований перетин секції старту й фінішу зменшує цей лічильник. Один учасник може фінішувати, поки другий ще їде. Після обох звичайних фінішів гра називає переможця й показує час кожного.
+
+### Включає
+
+У триколовому заїзді Racing Destruction Set червона машина вже фінішувала й стоїть, жовта продовжує їхати, а на екрані результатів видно перемогу червоної та окремий час обох.
+
+### Виключає
+
+Послідовність контрольних точок, фіксований ліміт часу, негайне вручення кубка першому учаснику або винятковий фініш після поломки суперника.
+
+### Ігри-носії
+
+- [`GAME-0710` — "Racing Destruction Set"](../games/m-r/racing-destruction-set.md)
+
+## SYS-1995
+
+- Назва: Поки джерело ввімкнене, випускати кульки в заданому напрямі
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Увімкнене джерело послідовно випускає окремі кульки в заданому напрямі. Стріляння можна зупинити й відновити без зміни розташування блоків на їхньому шляху.
+
+### Включає
+
+В ELOH один дотик запускає послідовність кульок по діагоналі. Наступні кульки перевіряють нову позицію блока під час того самого запуску. На другому рівні джерело також можна вимкнути й увімкнути зі збереженням позицій.
+
+### Виключає
+
+Окремий дотик для кожного пострілу, вибір нового кута під час пострілу, суцільний промінь замість окремих кульок або перебудова схеми для кожної нової спроби.
+
+### Ігри-носії
+
+- [`GAME-0711` — "ELOH"](../games/a-f/eloh.md)
+
+## SYS-1996
+
+- Назва: Відбити кульку від квадратного блока на перпендикулярну діагональ
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Коли кулька рухається по діагоналі й торкається квадратного відбивача, сторона контакту визначає перпендикулярну вихідну діагональ. Кулька продовжує рух від місця дотику до іншого блока, приймача або за його межі.
+
+### Включає
+
+В ELOH переміщення блока на першому рівні змінює точку, де кулька переходить із руху вгору праворуч на рух униз праворуч. На другому рівні кулька послідовно відбивається від правого й лівого блоків.
+
+### Виключає
+
+Команда повороту у клітинці, зміна напряму самого джерела, удар рухомого персонажа або звичайне зіткнення персонажа з краєм платформи.
+
+### Ігри-носії
+
+- [`GAME-0711` — "ELOH"](../games/a-f/eloh.md)
+
+## SYS-1997
+
+- Назва: Під час контакту деформувати машину й відновлювати форму після звільнення
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Кузов керованої машини й приєднані до нього колеса можуть деформуватися. Тривалий контакт змінює форму машини й те, у який просвіт вона поміщається. Коли тиск спадає, кузов і колеса відновлюють форму настільки, щоб далі їхати.
+
+### Включає
+
+У JellyCar Worlds машина сплющується в проході з рухомими блоками, огинає ролик у вузькому просвіті й продовжує рух після звільнення з тими самими приєднаними колесами.
+
+### Виключає
+
+Декоративне хитання підвіски за незмінного просвіту, вибір іншого фіксованого розміру машини, поріг незворотного пошкодження або деформація лише поверхні.
+
+### Ігри-носії
+
+- [`GAME-0712` — "JellyCar Worlds"](../games/g-l/jellycar-worlds.md)
+
+## SYS-1998
+
+- Назва: Почати трасу заново зі збереженням умови обраного випробування
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Якщо перезапустити поточну спробу на заданій трасі, машина повертається до початку, а відлік часу починається заново. Умова обраного випробування діє й далі.
+
+### Включає
+
+У JellyCar Worlds постав на паузу спробу на час на рівні 1-1 й обери перезапуск. Машина знову падає на початковий уступ. Час відраховується заново, а умова випробування лишається на екрані.
+
+### Виключає
+
+Завантаження контрольної точки далі на трасі, довільне перемотування, повернення з екрана результату до вибору випробування або скидання обраної умови під час перезапуску.
+
+### Ігри-носії
+
+- [`GAME-0712` — "JellyCar Worlds"](../games/g-l/jellycar-worlds.md)
+
+## SYS-1999
+
+- Назва: Автоматично відбивати кулю, коли вона наближається до нижнього захисника
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Коли куля входить у зону досяжності окремого захисника, той автоматично відправляє її назад у поле. Його положення змінює прикриту частину нижньої лінії незалежно від основного бійця.
+
+### Включає
+
+В одиночній грі Firestriker чаклун піднімає руки й відбиває Тріалайт назад у поле, поки Слейдер стоїть праворуч від нього.
+
+### Виключає
+
+Натискання лапки пінболу в обраний момент, звичайний відскок від стіни, запуск нової кулі після втрати або автоматичний підбір предмета.
+
+### Ігри-носії
+
+- [`GAME-0713` — "Firestriker"](../games/a-f/firestriker.md)
 
 ## SYS-200
 
@@ -24056,6 +25905,216 @@ Warp Star може набрати заряд прискорення на пря�
 
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
 
+## SYS-2000
+
+- Назва: Прибирати сумісні блоки й ворогів зіткненнями з тією самою кулею
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Зараховані зіткнення перенаправленої кулі можуть руйнувати блоки й знищувати ворогів. Коли блок зникає, відкривається шлях для наступних відскоків кулі. Замах, яким відбивають кулю, діє на решту об’єктів окремо.
+
+### Включає
+
+У Firestriker Слейдер спрямовує Тріалайт у зелених ворогів і світлі блоки. Деякі влучання прибирають цілі. Проломи лишаються відкритими для наступних відскоків.
+
+### Виключає
+
+Пошкодження від самого замаху, зіставлення за кольором або одночасне очищення поля без окремих зіткнень.
+
+### Ігри-носії
+
+- [`GAME-0713` — "Firestriker"](../games/a-f/firestriker.md)
+
+## SYS-2001
+
+- Назва: Отримати негайну додаткову дію після успішної провокації
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Якщо провокація викликає обраний настрій у вразливого суперника, цей настрій діє вказану кількість ходів. Сторона, що виконала провокацію, отримує додаткову дію до відповіді суперника.
+
+### Включає
+
+У навчальному бою Thirsty Suitors Серджіо відчуває жагу протягом трьох ходів. Джала відразу отримує додатковий хід і може обрати удар по залицяльнику.
+
+### Виключає
+
+Додаткова дія після збивання з ніг влучанням у слабке місце, безплатне повторення тієї самої провокації, приголомшення без додаткової дії або цілий додатковий раунд.
+
+### Ігри-носії
+
+- [`GAME-0714` — "Thirsty Suitors"](../games/s-z/thirsty-suitors.md)
+
+## SYS-2002
+
+- Назва: Посилити удар умінням, що відповідає поточному настрою суперника
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Під час удару вмінням враховується поточний настрій цілі. Вміння можна обрати за достатнього запасу ресурсу. Воно завдає більше шкоди, якщо відповідає викликаному настрою.
+
+### Включає
+
+У Thirsty Suitors удар по залицяльнику позначено дієвим, коли Серджіо відчуває жагу. У його внутрішньому світі Джала обирає проти розлюченого Серджіо вміння, що використовує лють.
+
+### Виключає
+
+Незмінна вразливість до стихії, поправка за вчасне натискання, уміння, доступне лише в одному настрої, або атака, яка лише викликає новий настрій.
+
+### Ігри-носії
+
+- [`GAME-0714` — "Thirsty Suitors"](../games/s-z/thirsty-suitors.md)
+
+## SYS-2003
+
+- Назва: Передати падіння сусіднім вертикальним кісточкам
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Кісточка, що падає, торкається сусідньої вертикальної кісточки в межах досяжності й повалює її. Вона повторює те саме з наступною. Прогалина може перервати ланцюжок. Кісточки, що впали, залишаються лежати.
+
+### Включає
+
+У Pushover один поштовх праворуч повалює виправлений жовтий ряд і смугасту кінцеву кісточку.
+
+### Виключає
+
+Пересування суцільного ряду вбік, миттєве очищення всієї ділянки, запуск без зіткнення або незалежне падіння кісточок після відліку часу.
+
+### Ігри-носії
+
+- [`GAME-0715` — "Pushover"](../games/m-r/pushover.md)
+
+## SYS-2004
+
+- Назва: Отримати жетон за вчасний вихід із розв’язаної головоломки
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Відлік триває від розстановки кісточок до входу у двері. Вчасний вихід після розв’язання дає жетон. За посібником жетон можна витратити, щоб перейти далі після запізнення або повернути розстановку й час до поштовху після іншої невдалої спроби.
+
+### Включає
+
+В обох записах першого рівня Pushover мураха входить у відчинені двері до завершення відліку й отримує жетон.
+
+### Виключає
+
+Миттєве скидання спроби після спливу часу, нагорода за саму розстановку або безплатний автоматичний перезапуск.
+
+### Ігри-носії
+
+- [`GAME-0715` — "Pushover"](../games/m-r/pushover.md)
+
+## SYS-2005
+
+- Назва: Очистити забруднені клітинки в зоні дії підключеної споруди
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Споруда для очищення, встановлена в дозволеному місці й підключена до живлення, перетворює сумісні забруднені клітинки на чистий ґрунт. Рослинність можна відновити окремою дією.
+
+### Включає
+
+У Terra Nil очищувач ґрунту змінює потріскані клітинки на коричневий родючий ґрунт, а показник озеленення залишається на нулі.
+
+### Виключає
+
+Уже озеленена клітинка, миттєве відновлення рослинності від очищення, декоративна зміна або зарахування всієї зони без урахування стану ґрунту.
+
+### Ігри-носії
+
+- [`GAME-0716` — "Terra Nil"](../games/s-z/terra-nil.md)
+
+## SYS-2006
+
+- Назва: Озеленити очищений ґрунт у спрямованій зоні зрошення
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Після встановлення зрошувача рослинність з’являється на придатних очищених клітинках у межах його зони дії. Несумісні й уже озеленені клітинки не дають нового покриття.
+
+### Включає
+
+У Terra Nil зрошувач озеленює велику ділянку очищеного ґрунту. Позначені непридатні клітинки лишаються без змін.
+
+### Виключає
+
+Очищення ґрунту, ручне засівання по одній клітинці, ріст культур за календарем або наповнення русла водою.
+
+### Ігри-носії
+
+- [`GAME-0716` — "Terra Nil"](../games/s-z/terra-nil.md)
+
+## SYS-2007
+
+- Назва: Поповнити запас для будівництва за нову рослинність
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Після сплати вказаної вартості запас для будівництва поповнюється за придатні клітинки, що отримали рослинність. Споруди з однаковою ціною можуть давати різний чистий приріст залежно від місця.
+
+### Включає
+
+У Terra Nil до встановлення зрошувача видно очікуваний приріст листків. Після підтвердження гра стягує вартість і нараховує листки за нову рослинність.
+
+### Виключає
+
+Періодичні витрати й зарплати, однакова премія за кожну споруду, повернення витрат без зміни місцевості або рахунок, який не можна витратити на будівництво.
+
+### Ігри-носії
+
+- [`GAME-0716` — "Terra Nil"](../games/s-z/terra-nil.md)
+
+## SYS-2008
+
+- Назва: Наповнити сухе русло водою від підключеної помпи
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Підключена помпа на придатній ділянці сухого русла подає воду вздовж з’єднаних ділянок у межах досяжності. Вода очищає сусідні береги. Висота встановлення може змінити дальність.
+
+### Включає
+
+У Terra Nil встановлена водяна помпа наповнює з’єднане русло. Уздовж води стають помітними відновлені ділянки берега.
+
+### Виключає
+
+Декоративні бризки, заданий перемикач нерухомого басейну, перевезення води судном або вимірювання збереження об’єму в тривимірній рідині.
+
+### Ігри-носії
+
+- [`GAME-0716` — "Terra Nil"](../games/s-z/terra-nil.md)
+
+## SYS-2009
+
+- Назва: Отримувати ноти за вчасні відповіді під час хору
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Під час місцевого хору вчасні натискання дають додаткові ноти, які можна зібрати. Вони зараховуються до необов’язкового поступу на рівні окремо від початку співу та досягнення виходу.
+
+### Включає
+
+Під час хору у Franzea 1 муймуй пояснює, що вчасні натискання «Кола» дають більше кольорових нот. У записі ноти з’являються, а рух рівнем триває з уже зарахованими нотами.
+
+### Виключає
+
+Декоративний музичний шар, відповідь лише з оцінкою точності, обов’язкові ритмічні натискання для відновлення проходу або вимога зібрати все населення.
+
+### Ігри-носії
+
+- [`GAME-0717` — "LocoRoco 2"](../games/g-l/locoroco-2.md)
+
 ## SYS-201
 
 - Назва: Планувати караван цивілізації й розв’язувати бартер
@@ -24076,6 +26135,216 @@ Warp Star може набрати заряд прискорення на пря�
 ### Ігри-носії
 
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
+
+## SYS-2010
+
+- Назва: Перенести попередню позначку з огляду на місцевість
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Місце, вибране під час огляду здалеку, лишається підказкою на місцевості й пов’язане з відповідним уривком мапи. До підказки треба дійти, а уривок підтвердити окремо.
+
+### Включає
+
+На підході до скелі Зуб велета в A Highland Song попередню позначку видно як стовп світла, а поруч показано ескіз східного берега.
+
+### Виключає
+
+Автоматичне підсвічування вже знайденого маршруту, вимога влучити в точну координату під час огляду, нерухомий значок контрольної точки або миттєвий перехід до віддаленого місця.
+
+### Ігри-носії
+
+- [`GAME-0718` — "A Highland Song"](../games/a-f/a-highland-song.md)
+
+## SYS-2011
+
+- Назва: Підтвердити уривок на місці й відкрити окремий вибір переходу
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Коли гравець звіряє уривок мапи з відповідним місцем, гра позначає його підтвердженим і пропонує пов’язану стежку. Скористатися нею можна окремою дією.
+
+### Включає
+
+У грі A Highland Song після зеленої галочки на ескізі східного берега з’являється вибір піти стежкою чи залишитися. Якщо піти, Мойра дістається іншого хребта.
+
+### Виключає
+
+Пошук відразу видимого виходу, перенесення персонажа після встановлення позначки, фізична зміна місцевості або отримання предмета без вибору маршруту.
+
+### Ігри-носії
+
+- [`GAME-0718` — "A Highland Song"](../games/a-f/a-highland-song.md)
+
+## SYS-2012
+
+- Назва: Автоматично наводити тривалу блискавку на досяжні цілі попереду
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Під час спрямованої атаки розряд вигинається до досяжних цілей з боку, в який повернутий персонаж. Гравець обирає напрям і момент атаки, а гра визначає цілі й траєкторію.
+
+### Включає
+
+У лісі в Alisia Dragoon блискавка Алісії, повернутої праворуч, вигинається вгору до повітряних цілей без окремого наведення.
+
+### Виключає
+
+Ручне спрямування снаряда, утримання призначеної цілі після втрати наведення, круговий розряд за повного заряду або атака, що спрацьовує без команди гравця.
+
+### Ігри-носії
+
+- [`GAME-0719` — "Alisia Dragoon"](../games/a-f/alisia-dragoon.md)
+
+## SYS-2013
+
+- Назва: За повного заряду виконувати круговий розряд тією самою командою
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Коли запас атаки повний, звичайна команда дає круговий розряд, здатний зачепити цілі з обох боків персонажа. З неповним запасом доступна звичайна спрямована атака.
+
+### Включає
+
+У грі Alisia Dragoon миготіння повної шкали блискавки вказує на готовність кругового розряду, який сягає й позаду Алісії.
+
+### Виключає
+
+Окрема кнопка надпотужної атаки, вимога заповнити шкалу для будь-якої атаки, точний множник шкоди або круговий розряд, що спрацьовує сам під час заповнення шкали.
+
+### Ігри-носії
+
+- [`GAME-0719` — "Alisia Dragoon"](../games/a-f/alisia-dragoon.md)
+
+## SYS-2014
+
+- Назва: Набути форми для пересування біля вівтаря на маршруті
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Біля відповідного вівтаря персонаж набуває призначеної форми. Керування повертається в тому самому проходженні рівня, тепер із діями пересування нової форми.
+
+### Включає
+
+Вівтар акули посеред затоки Бобів змінює форму Кадзе. У воді під вівтарем з’являється команда для швидшого плавання.
+
+### Виключає
+
+Вибір форми в інвентарі, декоративна маска, перенесення на інший рівень або керування іншим персонажем. Загальні портали зміни режиму та пристрої, що змінюють лише розмір тіла, описано окремо.
+
+### Ігри-носії
+
+- [`GAME-0720` — "Kaze and the Wild Masks"](../games/g-l/kaze-and-the-wild-masks.md)
+
+## SYS-2015
+
+- Назва: Зарахувати нагороду за потрібну кількість предметів після виходу
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Гра рахує відповідні предмети за поточне проходження. Якщо зібрано потрібну кількість, звичайне завершення дає окрему нагороду. З меншою кількістю рівень також можна пройти.
+
+### Включає
+
+У затоці Бобів 104 червоні кристали дають рожеву відзнаку після проходження. Набір із чотирьох літер при цьому неповний.
+
+### Виключає
+
+Кількість, обов’язкова для відкриття виходу, додаткове життя за кожну порцію предметів під час проходження, вимога зібрати всі предмети або збереження окремих літер набору.
+
+### Ігри-носії
+
+- [`GAME-0720` — "Kaze and the Wild Masks"](../games/g-l/kaze-and-the-wild-masks.md)
+
+## SYS-2016
+
+- Назва: Зарахувати монету за зібраний предмет і перейти до наступного
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Коли гра приймає відновлену форму поточного предмета, вона показує ознаку успіху, додає монету й подає наступний предмет із того самого набору.
+
+### Включає
+
+У The Shape of Things після компаса, шишки й рюкзака видно підтвердження успіху й додаткову монету. Наступний предмет з’являється в тій самій лісовій сцені.
+
+### Виключає
+
+Окреме підтвердження в меню, придбання нової капсули, зарахування неповної форми або ручний вибір наступної головоломки після кожного успіху.
+
+### Ігри-носії
+
+- [`GAME-0721` — "The Shape of Things"](../games/s-z/the-shape-of-things.md)
+
+## SYS-2017
+
+- Назва: Обміняти показану кількість монет на новий світ головоломок
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Біля автомата з капсулами підтвердь показаний обмін. Після успішної операції гра списує монети, а світ з отриманої капсули стає доступним у виборі світів.
+
+### Включає
+
+У The Shape of Things перший обмін коштує сім монет і дає лісову капсулу. Вибери її біля полиці, щоб відкрити набір головоломок.
+
+### Виключає
+
+Суто декоративна капсула, відкриття пакунка з інвентарю, купівля підказки за монети або припущення про порядок і ймовірності наступних видач.
+
+### Ігри-носії
+
+- [`GAME-0721` — "The Shape of Things"](../games/s-z/the-shape-of-things.md)
+
+## SYS-2018
+
+- Назва: Ненадовго зупинити ворога пострілом і залишити його на маршруті
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Влучний постріл ненадовго зупиняє вразливого ворога. Поки той нерухомий, гравець може пройти повз. Після оговтання ворог може знову діяти.
+
+### Включає
+
+У QuackShot жовта присоска ненадовго зупиняє ворога в Дакбурзі, щоб Дональд пройшов повз. Червона присоска зберігає цю дію.
+
+### Виключає
+
+Зменшення здоров’я без переривання дії, остаточне усунення ворога або відкриття окремої обов’язкової добивальної атаки.
+
+### Ігри-носії
+
+- [`GAME-0722` — "QuackShot Starring Donald Duck"](../games/m-r/quackshot-starring-donald-duck.md)
+
+## SYS-2019
+
+- Назва: Утворити опору для стрибка в місці влучання в стіну
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Відповідний снаряд кріпиться до придатної вертикальної поверхні на висоті влучання. На нього можна ненадовго стати. З кількох влучань на різній висоті можна скласти шлях для стрибків.
+
+### Включає
+
+У QuackShot червоні присоски кріпляться до високої стіни в Дакбурзі. Дональд піднімається, стрибаючи по них. Жовта присоска на цьому маршруті зупиняє ворогів.
+
+### Виключає
+
+Зачепитися персонажем одразу за стіну, назавжди поставити драбину, підтягнутися гаком або ввімкнути готовий міст як єдину опору.
+
+### Ігри-носії
+
+- [`GAME-0722` — "QuackShot Starring Donald Duck"](../games/m-r/quackshot-starring-donald-duck.md)
 
 ## SYS-202
 
@@ -24098,6 +26367,216 @@ Warp Star може набрати заряд прискорення на пря�
 
 - [`GAME-0126` — Dwarf Fortress](../games/a-f/dwarf-fortress.md)
 
+## SYS-2020
+
+- Назва: Прибути на початок місцевості або до останнього позначеного прапорця
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Під час першого перельоту гра висаджує персонажа на початку вибраної місцевості. Під час повернення він з’являється біля останнього досягнутого прапорця. Предмети й набуті можливості лишаються з ним.
+
+### Включає
+
+У QuackShot перший переліт до Мексики закінчується на початку маршруту. Повернувшись із Ключем героя, Дональд опиняється біля прапорця поруч із замкненим входом до руїн.
+
+### Виключає
+
+Поновлення після поразки, завантаження стану емулятора, довільна точка швидкого переміщення або ручний вибір окремої точки посадки за її прапорцем.
+
+### Ігри-носії
+
+- [`GAME-0722` — "QuackShot Starring Donald Duck"](../games/m-r/quackshot-starring-donald-duck.md)
+
+## SYS-2021
+
+- Назва: Відбивати кульки й віднімати влучання від числа на блоці
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Випущена кулька відскакує від стінок шахти й поверхонь блоків. Кожне зараховане влучання зменшує число ударів, потрібних для відповідного блока. Блок зникає після останнього потрібного влучання.
+
+### Включає
+
+У holedown кулька після відскоку від стіни може не раз влучити в блоки за один залп. Число на блоці зменшується між влучаннями.
+
+### Виключає
+
+Знищення кожної цілі з першого дотику, нарахування очок без зміни цілі або витрата нового залпу за кожен відскок.
+
+### Ігри-носії
+
+- [`GAME-0723` — "holedown"](../games/g-l/holedown.md)
+
+## SYS-2022
+
+- Назва: Прибрати блоки без опори й утримати закріплені в стіні
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Коли нижній блок зруйновано, звичайні блоки над ним можуть упасти й зникнути, хоча в них іще лишалися влучання. Блок із позначкою кріплення лишається в шахті й потребує власних влучань.
+
+### Включає
+
+У holedown можна зруйнувати нижній звичайний блок і прибрати групу вище. Позначений закріплений блок переживе зникнення сусідів.
+
+### Виключає
+
+Падіння всіх блоків незалежно від кріплення, звичайний зсув рядів після залпу або падіння блока, що лишає нову опору для підйому.
+
+### Ігри-носії
+
+- [`GAME-0723` — "holedown"](../games/g-l/holedown.md)
+
+## SYS-2023
+
+- Назва: Просунути шахту після завершення польоту всіх кульок
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Коли всі кульки завершують політ, шахта просувається. Уцілілі блоки наближаються до верхньої межі. Перш ніж можна буде прицілитися знову, у кадрі може з’явитися глибша ділянка.
+
+### Включає
+
+У holedown блоки зсуваються вгору після повернення або виходу останньої кульки. Якщо блок зник під час польоту, наприкінці залпу він уже не зсувається.
+
+### Виключає
+
+Безперервне прокручування за таймером, зсув на кожному окремому влучанні або новий залп під час польоту попередніх кульок.
+
+### Ігри-носії
+
+- [`GAME-0723` — "holedown"](../games/g-l/holedown.md)
+
+## SYS-2024
+
+- Назва: Зберегти здобуті кристали й показати доступні поліпшення на поверхні
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Коли спроба завершується, здобуті кристали видно в результаті й ними можна скористатися після повернення на поверхню. У меню є поліпшення для нових спроб, навіть якщо в попередній не вдалося дістатися ядра.
+
+### Включає
+
+У holedown після вичерпання залпів можна повернутися з кристалами. В одному записі меню пропонує збільшити запас із 20 до 30 залпів за два кристали.
+
+### Виключає
+
+Продовження з досягнутої глибини, миттєвий бонус у польоті, оплата поліпшення грошима або зарахування самої пропозиції як купівлі.
+
+### Ігри-носії
+
+- [`GAME-0723` — "holedown"](../games/g-l/holedown.md)
+
+## SYS-2025
+
+- Назва: Активувати партію інструмента безпомилковою фразою
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Якщо гравець зіграє доступну фразу без пропусків, партія інструмента зазвучить до кінця поточної секції. Вона триває й після переходу на іншу доріжку. Пропуск закриває поточну фразу для активації, але далі будуть нові нагоди.
+
+### Включає
+
+У Frequency зіграй усі ноти доступної двотактової фрази. Доріжка активується й додає енергію. Можна перейти на іншу доріжку, поки активована партія звучить.
+
+### Виключає
+
+Автоматичне відтворення від однієї ноти, збереження активації в наступній секції пісні або нарахування серії влучань без зміни звучання.
+
+### Ігри-носії
+
+- [`GAME-0724` — "Frequency"](../games/a-f/frequency.md)
+
+## SYS-2026
+
+- Назва: Підвищувати множник очок серією активованих доріжок
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Послідовна активація доріжок без помилок підвищує множник очок. У серії рахуються активовані доріжки. Гра окремо запам’ятовує її найбільшу довжину.
+
+### Включає
+
+У Frequency активуй партію, перейди на наступну доріжку й зіграй її фразу без помилок, щоб продовжити серію й отримати більший бонус.
+
+### Виключає
+
+Множник за окремі ноти в партії одного інструмента, постійно куплене поліпшення або окремий тимчасовий бонус Multiplier у Frequency.
+
+### Ігри-носії
+
+- [`GAME-0724` — "Frequency"](../games/a-f/frequency.md)
+
+## SYS-2027
+
+- Назва: Зберігати один бонус за ноти й застосовувати його окремою командою
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Якщо гравець влучить у всі позначені ноти придатного такту, він отримає відповідний бонус. Є місце лише для одного. Окрема команда під час пісні застосовує його, щоб зарахувати ноти на вибраній ділянці або тимчасово збільшити очки.
+
+### Включає
+
+У Frequency застосуй Auto-catcher на ділянці з доступними нотами, щоб зібрати їх автоматично. Multiplier натомість подвоїть очки, здобуті протягом наступних восьми тактів.
+
+### Виключає
+
+Звичайна серія активованих доріжок, автоматичне спрацювання під час отримання, поступове заповнення шкали або кілька одночасно доступних бонусів.
+
+### Ігри-носії
+
+- [`GAME-0724` — "Frequency"](../games/a-f/frequency.md)
+
+## SYS-2028
+
+- Назва: Повернутися на ближній край після падіння ціною здоров’я
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Якщо персонаж не долетить до опори під час звичайного стрибка, гра поверне його на ближній край і відніме частину здоров’я. Можна одразу стрибнути ще раз або піти в обхід.
+
+### Включає
+
+На початку Crypt Custodian Плуто падає в проміжок біля великого пам’ятника й повертається на той самий бік із на одну позначку меншим запасом здоров’я. Він може піти далі без перезапуску вступу.
+
+### Виключає
+
+Повтор із контрольної точки після загибелі, свідоме перемотування, падіння з арени зі скиданням бою або припущення, що всі падіння коштують однаково.
+
+### Ігри-носії
+
+- [`GAME-0725` — "Crypt Custodian"](../games/a-f/crypt-custodian.md)
+
+## SYS-2029
+
+- Назва: Переглянути допуск після нового запису про дію на маршруті
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Спершу вартова оголошує попереднє рішення за вже відомими подіями. Потім він читає новий запис про дію на вступному маршруті. У перевіреному проходженні вартова змінює рішення, відкриває інший вихід, а персонаж зберігає набуте знаряддя.
+
+### Включає
+
+У Crypt Custodian Кендра бачить нову сторінку про розбиті статуї, скасовує допуск до Палацу й відкриває вихід до Weeping Wastes. Мітла залишається в Плуто.
+
+### Виключає
+
+Вільний вибір кінцівки, витрата ключа біля дверей, непідтверджений лічильник розбитих статуй або висновок про інший маршрут лише зі зміни репліки.
+
+### Ігри-носії
+
+- [`GAME-0725` — "Crypt Custodian"](../games/a-f/crypt-custodian.md)
+
 ## SYS-203
 
 - Назва: Планувати подію оповідача за тиском на колонію
@@ -24118,6 +26597,216 @@ Warp Star може набрати заряд прискорення на пря�
 ### Ігри-носії
 
 - [`GAME-0127` — RimWorld](../games/m-r/rimworld.md)
+
+## SYS-2030
+
+- Назва: Змінити форму рухомої оболонки під час проходу й зберегти вміст
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Рухома оболонка підлаштовується під стінки, а вміст лишається всередині. За вузькою ділянкою бульбашка знову округлюється.
+
+### Включає
+
+У вітровому каналі Tir Tairngire 1 бульбашка витягується між стінками й округлюється на виході. Лічильник і далі показує сімох духів.
+
+### Виключає
+
+Дія здування, розрізання чи з’єднання, декоративне тремтіння без зміни габаритів і проходження вантажу крізь суцільну стіну.
+
+### Ігри-носії
+
+- [`GAME-0726` — "Soul Bubbles"](../games/s-z/soul-bubbles.md)
+
+## SYS-2031
+
+- Назва: Зберігати спущений шлях для підйому після зміни сусіднього проходу
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+З верхнього краю спусти складену ділянку для лазіння так, щоб її можна було дістати знизу. Після цього нею можна піднятися навіть тоді, коли ти переналаштуєш сусідній механізм проходу.
+
+### Включає
+
+У «Провідному світлі» спусти з уступу згорнутий ланцюг, зійди ним, перестав противагу на іншу натискну плиту й знову піднімися тим самим ланцюгом.
+
+### Виключає
+
+Драбина, доступна від початку, підйом рухомою частиною, яку тримає натискна плита, страхувальна линва для зупинення падіння й прохід, доступний лише доти, доки зайнято його власну плиту.
+
+### Ігри-носії
+
+- [`GAME-0729` — "The Last Campfire"](../games/s-z/the-last-campfire.md)
+
+## SYS-2032
+
+- Назва: Зберігати окреме зарахування за різні допустимі правила впорядкування
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Після розв’язання спільної головоломки гра зараховує те правило впорядкування, яке виконано. Одного правильного розв’язку досить, щоб пройти далі. Повторний запуск відновлює початкове розташування й зберігає вже зараховані правила. Інший допустимий порядок може заповнити ще одну позначку результату.
+
+### Включає
+
+На першій полиці можна впорядкувати книжки за висотою або за товщиною корінця. Після першого правильного порядку можна пройти далі або повернутися й отримати іншу зірку за ті самі книжки.
+
+### Виключає
+
+Заміна попереднього результату кращою оцінкою, нове зарахування за повтор тієї самої відповіді, вимога виконати всі альтернативні правила перед переходом далі й заміна умови через вибір складності в меню.
+
+### Ігри-носії
+
+- [`GAME-0730` — "A Little to the Left"](../games/a-f/a-little-to-the-left.md)
+
+## SYS-2033
+
+- Назва: Зсувати вільний блок до упору або ламати заблокований звичайний блок
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Взаємодія із сусіднім блоком попереду залежить від його типу й місця одразу за ним. Вільний блок ковзає прямо до твердої перешкоди. Заблокований звичайний блок розсипається на місці. Міцний блок ковзає, коли за ним вільно, і лишається цілим, коли за ним є перешкода.
+
+### Включає
+
+Натисни кнопку дії перед крижаним блоком, за яким вільно, щоб він проковзнув проходом. Якщо одразу за ним є тверда перешкода, звичайний блок розсиплеться, а ромбовий лишиться цілим.
+
+### Виключає
+
+Зсув ящика на одну клітинку, рух усього ланцюга блоків, накопичення пошкоджень і вибір руйнування незалежно від того, що є попереду.
+
+### Ігри-носії
+
+- [`GAME-0731` — "Pengo"](../games/m-r/pengo.md)
+
+## SYS-2034
+
+- Назва: Захоплювати ворогів ковзним блоком і розчавлювати їх біля упору
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Блок, який сам ковзає, підхоплює допустимих ворогів уздовж свого руху. Біля твердої перешкоди він розчавлює всіх захоплених ворогів, а очки нараховуються за їхню кількість за один зсув.
+
+### Включає
+
+У першому лабіринті Pengo крижаний блок підхоплює снігову бджолу в проході й усуває її біля іншого блока або стіни. Правила автомата дають більшу встановлену винагороду за двох ворогів, захоплених тим самим блоком.
+
+### Виключає
+
+Прямий удар зброєю, пошкодження лише в мить першого зіткнення, зупинка блока після дотику до одного ворога й усунення оглушеного ворога дотиком персонажа.
+
+### Ігри-носії
+
+- [`GAME-0731` — "Pengo"](../games/m-r/pengo.md)
+
+## SYS-2035
+
+- Назва: Оглушувати ворогів біля обраної стіни й усувати їх дотиком
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Взаємодія з межею арени посилає поштовх уздовж обраної стіни. Ворог, який торкається цієї стіни, ненадовго завмирає. Дотик до нього до відновлення усуває його. Звичайний дотик неоглушеного ворога призводить до загибелі керованого персонажа.
+
+### Включає
+
+Штовхни зовнішню стіну, якої торкається снігова бджола, й дістанься до неї, перш ніж вона відновить переслідування.
+
+### Виключає
+
+Поштовх, що одразу усуває ворогів, удар зброєю без спільної стіни, оглушення ворогів поза обраною стіною й загальна невразливість персонажа до дотику.
+
+### Ігри-носії
+
+- [`GAME-0731` — "Pengo"](../games/m-r/pengo.md)
+
+## SYS-2036
+
+- Назва: Виводити резервних ворогів із блока й скасовувати появу руйнуванням блока
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+В окремих руйнівних предметах на арені приховано резервних ворогів. Коли настає умова вилуплення, цілий предмет випускає свого ворога. Руйнування зайнятого предмета до вилуплення усуває цього ворога з резерву.
+
+### Включає
+
+Зі звичайного крижаного блока з яйцем може вилупитися ще одна снігова бджола. Розбий такий блок до її появи, щоб не дати їй долучитися до переслідування.
+
+### Виключає
+
+Загальна черга хвиль, на яку не впливає руйнування предметів, перекриття проходу після появи ворога, супровід дружніх істот і скасування резерву іншого блока руйнуванням порожнього.
+
+### Ігри-носії
+
+- [`GAME-0731` — "Pengo"](../games/m-r/pengo.md)
+
+## SYS-2037
+
+- Назва: Зараховувати бонус за суцільний ряд особливих блоків і оглушувати всіх ворогів
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Суцільний прямий ряд з усіх визначених рухомих блоків дає бонус залежно від розташування відносно межі. Під час зарахування рух призупиняється. Потім персонаж отримує короткий проміжок, коли всі активні вороги, що лишилися, оглушені.
+
+### Включає
+
+Склади прямий горизонтальний або вертикальний ряд із трьох ромбових блоків. За ряд усередині поля дають 10 000 очок, а за ряд уздовж стіни посібник вказує 5 000. Після нарахування Пенго може дістатися до тимчасово оглушених снігових бджіл.
+
+### Виключає
+
+Вилучення звичайних блоків після збігу, оглушення дотиком лише вздовж однієї стіни, завершення раунду самим вирівнюванням і бонус, який не змінює стану ворогів.
+
+### Ігри-носії
+
+- [`GAME-0731` — "Pengo"](../games/m-r/pengo.md)
+
+## SYS-2038
+
+- Назва: Додавати очки за інтервал часу після зачищення арени
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Після завершення бою на арені гра визначає за таблицею, до якого з послідовних інтервалів належить витрачений час. Відповідну винагороду додає до поточного рахунку. Якщо час завершеного раунду не потрапляє до жодного інтервалу з винагородою, гра переходить далі без очок за час.
+
+### Включає
+
+Після зачищення першого лабіринту Pengo відображає 48 секунд і додає 500 очок за інтервал 40–49 секунд.
+
+### Виключає
+
+Безперервно обчислювана винагорода за залишок часу на фізичному фініші, поразка за часом, яка унеможливлює зарахування, і медаль без додавання очок.
+
+### Ігри-носії
+
+- [`GAME-0731` — "Pengo"](../games/m-r/pengo.md)
+
+## SYS-2039
+
+- Назва: Зберігати переглянутий знімок до фотоальбому після підтвердження
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Після спрацювання затвора з’являється попередній перегляд. Підтвердження збереження додає знімок до фотоальбому, де його можна вибрати. Саме спрацювання затвора ще не додає знімок до альбому.
+
+### Включає
+
+У TOEM сфотографуй бабусю Нану й підтвердь збереження, щоб згодом вибрати цей знімок.
+
+### Виключає
+
+Автоматичне додавання до архіву, видалення вже збереженого знімка, оцінювання придатності фото для завдання та знімки екрана поза грою.
+
+### Ігри-носії
+
+- [`GAME-0732` — "TOEM"](../games/s-z/toem.md)
 
 ## SYS-204
 
@@ -24140,6 +26829,216 @@ Warp Star може набрати заряд прискорення на пря�
 
 - [`GAME-0142` — Project Zomboid](../games/m-r/project-zomboid.md)
 - [`GAME-0127` — RimWorld](../games/m-r/rimworld.md)
+
+## SYS-2040
+
+- Назва: Зараховувати вибраний знімок для конкретного завдання й ставити штамп
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Отримувач перевіряє один вибраний збережений знімок для активного завдання. Якщо фото відповідає умові, завдання можна завершити й одноразово поставити штамп на картці громади.
+
+### Включає
+
+У TOEM покажи бабусі Нані її портрет з альбому. Після схвалення знімка можна поставити штамп за виконане завдання.
+
+### Виключає
+
+Винагорода в мить спрацювання затвора, заміна найкращого знімка певного виду, автоматичне збирання без отримувача й витрачання штампа, щоб відчинити двері.
+
+### Ігри-носії
+
+- [`GAME-0732` — "TOEM"](../games/s-z/toem.md)
+
+## SYS-2041
+
+- Назва: Окремо відкривати поїздку за потрібну кількість штампів, зберігаючи їх
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Працівник зупинки перевіряє кількість зарахованих штампів поточної області. Коли їх досить, він відкриває поїздку, а кількість штампів зберігається. Гравець вирушає окремою дією.
+
+### Включає
+
+Працівник зупинки в Гоумленді пропонує безплатну поїздку, щойно на картці є один штамп. Тоді гравець може обрати Оклавіль.
+
+### Виключає
+
+Перевезення одразу після виконання завдання, обмін на квиток зі зменшенням зарахованих штампів, завжди доступний маршрут і вимога виконати всі місцеві завдання.
+
+### Ігри-носії
+
+- [`GAME-0732` — "TOEM"](../games/s-z/toem.md)
+
+## SYS-2042
+
+- Назва: Створювати або прибирати тверду опору в одній змінній клітинці
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Допустиме заклинання в порожній клітинці створює твердий блок, який там залишається. Те саме заклинання прибирає наявний змінний блок. Незмінні стіни й підлога лишаються цілими. Після дії опора й зіткнення визначаються вже новим станом клітинки.
+
+### Включає
+
+Створений у Solomon’s Key коричневий блок слугує сходинкою. Те саме заклинання прибирає коричневий блок, звільняючи клітинку, а біла кладка лишається на місці.
+
+### Виключає
+
+Зсув наявного блока, одночасна заміна цілої групи схожих блоків, руйнування каменю без можливості створення й тимчасова поява платформ лише в заздалегідь визначених місцях.
+
+### Ігри-носії
+
+- [`GAME-0733` — "Solomon's Key"](../games/s-z/solomons-key.md)
+
+## SYS-2043
+
+- Назва: Відкривати приховану людину для порятунку, руйнуючи її укриття
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Руйнівний предмет оточення приховує людину, яку можна врятувати. Після руйнування укриття вона стає доступною на поточній арені. Щоб зарахувати порятунок, треба окремо дістатися до неї до переходу далі.
+
+### Включає
+
+У першій арені Nex Machina стрілянина руйнує кущі в північно-східній частині поля й відкриває приховану людину. Дотик до неї окремо зараховує порятунок.
+
+### Виключає
+
+Предмет, руйнування якого одразу зараховує порятунок, здобич із переможеного ворога, обов’язковий супровід до окремого виходу й суто візуальна зміна рослинності.
+
+### Ігри-носії
+
+- [`GAME-0734` — "Nex Machina"](../games/m-r/nex-machina.md)
+
+## SYS-2044
+
+- Назва: Зараховувати необов’язковий ривок у мить збігу кілець під час переходу
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Після зачистки зовнішнє кільце наближається до меншого кільця навколо персонажа. Ривок у мить їх збігу дає окремі очки. Якщо пропустити цю мить, перехід усе одно відбудеться.
+
+### Включає
+
+У Nex Machina зроби ривок, коли кільця зійдуться. У записі початку на складності «Досвідчений» гра додає 1 000 очок і переходить до 1-2.
+
+### Виключає
+
+Ривок, обов’язковий для зачистки, звичайна невразливість під час бойового ривка, очки лише за швидкість і промах у часі, що блокує перехід.
+
+### Ігри-носії
+
+- [`GAME-0734` — "Nex Machina"](../games/m-r/nex-machina.md)
+
+## SYS-2045
+
+- Назва: Додавати окремі очки за зачистку арени без загибелі
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Під час завершення арени гра перевіряє, чи гинув на ній керований персонаж. Зачистка без загибелі дає власні очки незалежно від порятунку людей чи ривка під час переходу.
+
+### Включає
+
+Після зачистки 1-1 у Nex Machina без загибелі гра додає 10 000 очок у переглянутих записах. Бонус з’являється й тоді, коли ривок не зараховано.
+
+### Виключає
+
+Винагорода за повне здоров’я на виході, бонус за відсутність пошкоджень, заборона повторної спроби й окремі очки за вчасний ривок.
+
+### Ігри-носії
+
+- [`GAME-0734` — "Nex Machina"](../games/m-r/nex-machina.md)
+
+## SYS-2046
+
+- Назва: Добудовувати прохідний міст убік від поточного уступу
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Інструмент будує попереду горизонтальну ділянку мосту на висоті поточного уступу. Нею можна користуватися після того, як персонаж відійде або змінить інструмент. З нового уступу можна прокласти ще один міст через інший розрив.
+
+### Включає
+
+На рівні 5 «Лісових водоспадів» у Toki Tori після телепорту вгору збудуй міст через перший розрив. Із центрального уступу проклади другий міст, щоб дістатися верхнього яйця.
+
+### Виключає
+
+Готовий міст, який підіймає віддалений перемикач, стрибок через розрив, пряме переміщення телепортом і окремий блок, який можна створити, а потім перенести до розриву.
+
+### Ігри-носії
+
+- [`GAME-0735` — "Toki Tori"](../games/s-z/toki-tori.md)
+
+## SYS-2047
+
+- Назва: Зараховувати репутацію лише раз за кожне місце графіті
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Перше прийняте графіті в допустимому місці фіксує це місце й додає належні очки до репутації району. Повторне графіті все ще змінює поверхню, але вже зараховане місце не дає тих самих очок удруге.
+
+### Включає
+
+Перше завершене графіті на площі пагорба Версум у Bomb Rush Cyberfunk дає шість очок репутації. Повторне графіті змінює малюнок, а репутація за це місце лишається зарахованою лише раз.
+
+### Виключає
+
+Очки за кожне перефарбування, непозначена поверхня без можливості перефарбування, витрачання запасу фарби й окрема винагорода за всі позначені місця.
+
+### Ігри-носії
+
+- [`GAME-0736` — "Bomb Rush Cyberfunk"](../games/a-f/bomb-rush-cyberfunk.md)
+
+## SYS-2048
+
+- Назва: Відкривати сходинки різною глибиною висування блоків
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Нижній блок може виступати далі за той, що над ним. Різниця відкриває поверхню для приземлення на висоті нижнього блока й зберігає форми обох. Послідовні виступи дають персонажу змогу перестрибувати на них і діставатися наступного ярусу.
+
+### Включає
+
+В уроці 3 Pullblox нижній, середній і верхній блоки висунуті на три, два й один крок відповідно. Дві відкриті проміжні сходинки дають змогу дострибати до блока з ціллю.
+
+### Виключає
+
+Створення блока в порожньому місці, видовження краю фігури за двома осями, обертання перспективного мосту й будівництво сходів з елементів, що падають.
+
+### Ігри-носії
+
+- [`GAME-0737` — "Pullblox"](../games/m-r/pullblox.md)
+
+## SYS-2049
+
+- Назва: Закріплюватися після стрибка й розвертатися відповідно до опори
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Після запуску стрибка тіло рухається через проміжний простір. На допустимій смузі воно закріплюється ногами й розвертається відповідно до її грані. Нова позиція на підлозі, стелі чи стіні стає початком наступної дії.
+
+### Включає
+
+Дандара стоїть на першій соляній смузі, після стрибка вгору тримається за її нижню поверхню на стелі, а біля дверей закріплюється боком на вертикальній смузі.
+
+### Виключає
+
+Перехід через суміжний кут без відриву від опори, кочення після повороту тяжіння в кімнаті, вільна ходьба по будь-якій стіні й поворот камери без зміни опори.
+
+### Ігри-носії
+
+- [`GAME-0738` — "Dandara: Trials of Fear Edition"](../games/a-f/dandara-trials-of-fear-edition.md)
 
 ## SYS-205
 
@@ -24165,6 +27064,27 @@ Warp Star може набрати заряд прискорення на пря�
 - [`GAME-0383` — The Sims 2: Legacy Collection](../games/s-z/the-sims-2-legacy-collection.md)
 - [`GAME-0158` — The Sims 4](../games/s-z/the-sims-4.md)
 - [`GAME-0461` — The Sims](../games/s-z/the-sims.md)
+
+## SYS-2050
+
+- Назва: Відкривати пов’язані двері влучанням в окрему мішень
+- Переглянуто: `2026-11-25`
+
+### Операційне визначення
+
+Влучання снарядом знищує окрему мішень, задану в рівні. Пов’язані двері стають доступними, але саме влучання не переносить персонажа за них. До дверей ще потрібно дістатися й увійти.
+
+### Включає
+
+У Порожнечі Дандара стріляє вгору й знищує помаранчеву мішень над останньою смугою на підлозі. Потім окремим стрибком дістається дверей на стіні та входить до Колиски творення.
+
+### Виключає
+
+Відкриття дверей пострілом у самі двері, отримання ключа в інвентар, виконання квоти перемог над ворогами й автоматичний перехід від самого влучання.
+
+### Ігри-носії
+
+- [`GAME-0738` — "Dandara: Trials of Fear Edition"](../games/a-f/dandara-trials-of-fear-edition.md)
 
 ## SYS-206
 
@@ -24553,7 +27473,9 @@ Warp Star може набрати заряд прискорення на пря�
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 - [`GAME-0201` — PAYDAY 2](../games/m-r/payday-2.md)
 - [`GAME-0232` — PAYDAY 3](../games/m-r/payday-3.md)
+- [`GAME-0670` — "Phantom Dust"](../games/m-r/phantom-dust.md)
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
+- [`GAME-0681` — "Power Stone 2"](../games/m-r/power-stone-2.md)
 - [`GAME-0519` — Power Stone](../games/m-r/power-stone.md)
 - [`GAME-0258` — "Prey (2017)"](../games/m-r/prey-2017.md)
 - [`GAME-0344` — "Prince of Persia: The Sands of Time"](../games/m-r/prince-of-persia-the-sands-of-time.md)
@@ -24562,9 +27484,11 @@ Warp Star може набрати заряд прискорення на пря�
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 - [`GAME-0447` — Punch-Out!!](../games/m-r/punch-out.md)
 - [`GAME-0334` — Quake](../games/m-r/quake.md)
+- [`GAME-0697` — "Radiant Silvergun"](../games/m-r/radiant-silvergun.md)
 - [`GAME-0404` — Ratchet & Clank](../games/m-r/ratchet-and-clank.md)
 - [`GAME-0508` — Ready or Not](../games/m-r/ready-or-not.md)
 - [`GAME-0165` — Red Dead Redemption 2](../games/m-r/red-dead-redemption-2.md)
+- [`GAME-0691` — "REPLACED"](../games/m-r/replaced.md)
 - [`GAME-0280` — Resident Evil 2 (2019 remake)](../games/m-r/resident-evil-2-2019.md)
 - [`GAME-0249` — Resident Evil 4 (2023 remake)](../games/m-r/resident-evil-4-2023.md)
 - [`GAME-0348` — "Resident Evil: Director’s Cut"](../games/m-r/resident-evil-directors-cut.md)
@@ -24575,6 +27499,7 @@ Warp Star може набрати заряд прискорення на пря�
 - [`GAME-0643` — "Rocket Knight Adventures"](../games/m-r/rocket-knight-adventures.md)
 - [`GAME-0549` — Roto Force](../games/m-r/roto-force.md)
 - [`GAME-0141` — Rust](../games/m-r/rust.md)
+- [`GAME-0667` — "SAROS"](../games/s-z/saros.md)
 - [`GAME-0319` — Sea of Thieves](../games/s-z/sea-of-thieves.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
@@ -24584,6 +27509,7 @@ Warp Star може набрати заряд прискорення на пря�
 - [`GAME-0303` — Sifu](../games/s-z/sifu.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0430` — Silent Hill](../games/s-z/silent-hill.md)
+- [`GAME-0690` — "Sonic Advance"](../games/s-z/sonic-advance.md)
 - [`GAME-0472` — Sonic Adventure](../games/s-z/sonic-adventure.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0455` — Soulcalibur](../games/s-z/soulcalibur.md)
@@ -26465,7 +29391,9 @@ Warp Star може набрати заряд прискорення на пря�
 - [`GAME-0338` — Final Fantasy VII](../games/a-f/final-fantasy-vii.md)
 - [`GAME-0489` — Golden Sun](../games/g-l/golden-sun.md)
 - [`GAME-0332` — "Heroes of Might and Magic III: Complete"](../games/g-l/heroes-of-might-and-magic-iii-complete.md)
+- [`GAME-0679` — "Jeanne d'Arc"](../games/g-l/jeanne-darc.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
+- [`GAME-0688` — "Lunar: Silver Star Story Complete"](../games/g-l/lunar-silver-star-story-complete.md)
 - [`GAME-0244` — "Need for Speed Heat"](../games/m-r/need-for-speed-heat.md)
 - [`GAME-0181` — Overwatch](../games/m-r/overwatch.md)
 - [`GAME-0139` — Palworld](../games/m-r/palworld.md)
@@ -26475,6 +29403,7 @@ Warp Star може набрати заряд прискорення на пря�
 - [`GAME-0160` — "Pokémon Legends: Z-A"](../games/m-r/pokemon-legends-z-a.md)
 - [`GAME-0336` — "Pokémon Red Version"](../games/m-r/pokemon-red-version.md)
 - [`GAME-0618` — Shining Force III](../games/s-z/shining-force-iii.md)
+- [`GAME-0695` — "Terranigma"](../games/s-z/terranigma.md)
 - [`GAME-0183` — Vampire Survivors](../games/s-z/vampire-survivors.md)
 - [`GAME-0328` — "Warcraft III: Reign of Chaos"](../games/s-z/warcraft-iii-reign-of-chaos.md)
 - [`GAME-0221` — World of Warcraft](../games/s-z/world-of-warcraft.md)
@@ -26840,6 +29769,7 @@ Warp Star може набрати заряд прискорення на пря�
 
 - [`GAME-0154` — Apex Legends](../games/a-f/apex-legends.md)
 - [`GAME-0227` — Fortnite](../games/a-f/fortnite.md)
+- [`GAME-0681` — "Power Stone 2"](../games/m-r/power-stone-2.md)
 - [`GAME-0140` — "PUBG: BATTLEGROUNDS"](../games/m-r/pubg-battlegrounds.md)
 
 ## SYS-318
@@ -27801,6 +30731,7 @@ Wasps, Snitches, Leapers, Bastions та інші машини ARC на Пове�
 - [`GAME-0530` — Lost Odyssey](../games/g-l/lost-odyssey.md)
 - [`GAME-0449` — Paper Mario](../games/m-r/paper-mario.md)
 - [`GAME-0577` — People of Note](../games/m-r/people-of-note.md)
+- [`GAME-0714` — "Thirsty Suitors"](../games/s-z/thirsty-suitors.md)
 
 ## SYS-359
 
@@ -27900,8 +30831,10 @@ Overcharge персонажа Gustave, Stains персонажа Lune і сті�
 - [`GAME-0532` — Hades II](../games/g-l/hades-ii.md)
 - [`GAME-0251` — Hades](../games/g-l/hades.md)
 - [`GAME-0274` — Hollow Knight](../games/g-l/hollow-knight.md)
+- [`GAME-0679` — "Jeanne d'Arc"](../games/g-l/jeanne-darc.md)
 - [`GAME-0219` — Lineage II](../games/g-l/lineage-ii.md)
 - [`GAME-0530` — Lost Odyssey](../games/g-l/lost-odyssey.md)
+- [`GAME-0688` — "Lunar: Silver Star Story Complete"](../games/g-l/lunar-silver-star-story-complete.md)
 - [`GAME-0194` — "Mount & Blade II: Bannerlord"](../games/m-r/mount-and-blade-ii-bannerlord.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0562` — Parasite Eve](../games/m-r/parasite-eve.md)
@@ -28131,6 +31064,7 @@ Overcharge персонажа Gustave, Stains персонажа Lune і сті�
 - [`GAME-0340` — "Halo: Combat Evolved Anniversary"](../games/g-l/halo-combat-evolved-anniversary.md)
 - [`GAME-0516` — Hi-Fi RUSH](../games/g-l/hi-fi-rush.md)
 - [`GAME-0248` — HITMAN World of Assassination](../games/g-l/hitman-world-of-assassination.md)
+- [`GAME-0720` — "Kaze and the Wild Masks"](../games/g-l/kaze-and-the-wild-masks.md)
 - [`GAME-0240` — "Kingdom Come: Deliverance II"](../games/g-l/kingdom-come-deliverance-ii.md)
 - [`GAME-0394` — LittleBigPlanet 2](../games/g-l/littlebigplanet-2.md)
 - [`GAME-0569` — Lode Runner](../games/g-l/lode-runner.md)
@@ -28857,14 +31791,17 @@ Silk від ударів Needle, Bind із повною котушкою та в
 - [`GAME-0601` — "Cassette Beasts"](../games/a-f/cassette-beasts.md)
 - [`GAME-0347` — "Castlevania: Symphony of the Night"](../games/a-f/castlevania-symphony-of-the-night.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
+- [`GAME-0725` — "Crypt Custodian"](../games/a-f/crypt-custodian.md)
 - [`GAME-0150` — "Hollow Knight: Silksong"](../games/g-l/hollow-knight-silksong.md)
 - [`GAME-0394` — LittleBigPlanet 2](../games/g-l/littlebigplanet-2.md)
 - [`GAME-0474` — Metroid Fusion](../games/m-r/metroid-fusion.md)
+- [`GAME-0678` — "Metroid Prime 4: Beyond"](../games/m-r/metroid-prime-4-beyond.md)
 - [`GAME-0431` — Ori and the Blind Forest](../games/m-r/ori-and-the-blind-forest.md)
 - [`GAME-0293` — Ori and the Will of the Wisps](../games/m-r/ori-and-the-will-of-the-wisps.md)
 - [`GAME-0612` — "Pipistrello and the Cursed Yoyo"](../games/m-r/pipistrello-and-the-cursed-yoyo.md)
 - [`GAME-0344` — "Prince of Persia: The Sands of Time"](../games/m-r/prince-of-persia-the-sands-of-time.md)
 - [`GAME-0561` — Psychonauts 2](../games/m-r/psychonauts-2.md)
+- [`GAME-0722` — "QuackShot Starring Donald Duck"](../games/m-r/quackshot-starring-donald-duck.md)
 - [`GAME-0615` — "Skate Story"](../games/s-z/skate-story.md)
 - [`GAME-0502` — South of Midnight](../games/s-z/south-of-midnight.md)
 - [`GAME-0213` — "STAR WARS Jedi: Fallen Order"](../games/s-z/star-wars-jedi-fallen-order.md)
@@ -29074,6 +32011,7 @@ Silk від ударів Needle, Bind із повною котушкою та в
 
 ### Ігри-носії
 
+- [`GAME-0719` — "Alisia Dragoon"](../games/a-f/alisia-dragoon.md)
 - [`GAME-0506` — Avowed](../games/a-f/avowed.md)
 - [`GAME-0266` — Deep Rock Galactic](../games/a-f/deep-rock-galactic.md)
 - [`GAME-0321` — Gears of War](../games/g-l/gears-of-war.md)
@@ -29083,6 +32021,7 @@ Silk від ударів Needle, Bind із повною котушкою та в
 - [`GAME-0151` — Monster Hunter Wilds](../games/m-r/monster-hunter-wilds.md)
 - [`GAME-0207` — 'Monster Hunter: World'](../games/m-r/monster-hunter-world.md)
 - [`GAME-0588` — Neva](../games/m-r/neva.md)
+- [`GAME-0684` — "REANIMAL"](../games/m-r/reanimal.md)
 - [`GAME-0305` — Sons Of The Forest](../games/s-z/sons-of-the-forest.md)
 - [`GAME-0559` — The Last Guardian](../games/s-z/the-last-guardian.md)
 - [`GAME-0261` — The Last of Us Part I](../games/s-z/the-last-of-us-part-i.md)
@@ -30110,6 +33049,7 @@ Eye of Cthulhu спочатку викликає слуг, зависає й р�
 - [`GAME-0588` — Neva](../games/m-r/neva.md)
 - [`GAME-0162` — Path of Exile 2](../games/m-r/path-of-exile-2.md)
 - [`GAME-0522` — Returnal](../games/m-r/returnal.md)
+- [`GAME-0667` — "SAROS"](../games/s-z/saros.md)
 
 ## SYS-457
 
@@ -31403,6 +34343,7 @@ Rest State і десятигодинне обмеження керування, 
 - [`GAME-0199` — "Need for Speed Unbound"](../games/m-r/need-for-speed-unbound.md)
 - [`GAME-0217` — "Need for Speed Underground"](../games/m-r/need-for-speed-underground.md)
 - [`GAME-0420` — Project Gotham Racing 2](../games/m-r/project-gotham-racing-2.md)
+- [`GAME-0710` — "Racing Destruction Set"](../games/m-r/racing-destruction-set.md)
 - [`GAME-0551` — "R4: Ridge Racer Type 4"](../games/m-r/ridge-racer-type-4.md)
 - [`GAME-0457` — Sega Rally Championship](../games/s-z/sega-rally-championship.md)
 - [`GAME-0524` — Wave Race 64](../games/s-z/wave-race-64.md)
@@ -32171,6 +35112,7 @@ Rest State і десятигодинне обмеження керування, 
 - [`GAME-0573` — Dungeon Keeper](../games/a-f/dungeon-keeper.md)
 - [`GAME-0517` — Homeworld](../games/g-l/homeworld.md)
 - [`GAME-0469` — StarCraft](../games/s-z/starcraft.md)
+- [`GAME-0701` — "Warcraft II: Tides of Darkness"](../games/s-z/warcraft-ii-tides-of-darkness.md)
 
 ## SYS-550
 
@@ -32196,6 +35138,7 @@ Rest State і десятигодинне обмеження керування, 
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
 - [`GAME-0570` — Cult of the Lamb](../games/a-f/cult-of-the-lamb.md)
 - [`GAME-0469` — StarCraft](../games/s-z/starcraft.md)
+- [`GAME-0701` — "Warcraft II: Tides of Darkness"](../games/s-z/warcraft-ii-tides-of-darkness.md)
 
 ## SYS-551
 
@@ -32225,6 +35168,7 @@ Rest State і десятигодинне обмеження керування, 
 - [`GAME-0517` — Homeworld](../games/g-l/homeworld.md)
 - [`GAME-0469` — StarCraft](../games/s-z/starcraft.md)
 - [`GAME-0287` — Stellaris](../games/s-z/stellaris.md)
+- [`GAME-0701` — "Warcraft II: Tides of Darkness"](../games/s-z/warcraft-ii-tides-of-darkness.md)
 
 ## SYS-552
 
@@ -32272,6 +35216,7 @@ Rest State і десятигодинне обмеження керування, 
 - [`GAME-0453` — Age of Mythology](../games/a-f/age-of-mythology.md)
 - [`GAME-0209` — Cossacks 3](../games/a-f/cossacks-3.md)
 - [`GAME-0469` — StarCraft](../games/s-z/starcraft.md)
+- [`GAME-0701` — "Warcraft II: Tides of Darkness"](../games/s-z/warcraft-ii-tides-of-darkness.md)
 
 ## SYS-554
 
@@ -32882,6 +35827,7 @@ Rest State і десятигодинне обмеження керування, 
 - [`GAME-0522` — Returnal](../games/m-r/returnal.md)
 - [`GAME-0476` — Ring Fit Adventure](../games/m-r/ring-fit-adventure.md)
 - [`GAME-0270` — Risk of Rain 2](../games/m-r/risk-of-rain-2.md)
+- [`GAME-0667` — "SAROS"](../games/s-z/saros.md)
 - [`GAME-0319` — Sea of Thieves](../games/s-z/sea-of-thieves.md)
 - [`GAME-0288` — "Sekiro™: Shadows Die Twice - GOTY Edition"](../games/s-z/sekiro-shadows-die-twice.md)
 - [`GAME-0272` — Serious Sam 4](../games/s-z/serious-sam-4.md)
@@ -36257,6 +39203,7 @@ Overshield у Fortnite Zero Build над звичайним щитом і здо
 - [`GAME-0229` — "No Man’s Sky"](../games/m-r/no-mans-sky.md)
 - [`GAME-0298` — 'Planet Zoo: Console Edition'](../games/m-r/planet-zoo-console-edition.md)
 - [`GAME-0358` — Psychonauts](../games/m-r/psychonauts.md)
+- [`GAME-0691` — "REPLACED"](../games/m-r/replaced.md)
 - [`GAME-0595` — "Rhythm Doctor"](../games/m-r/rhythm-doctor.md)
 - [`GAME-0230` — "STAR WARS Battlefront II (2017)"](../games/s-z/star-wars-battlefront-ii-2017.md)
 - [`GAME-0331` — Starfield](../games/s-z/starfield.md)
@@ -36675,6 +39622,7 @@ Checkpoint Resets у межах дослідженого етапу Stage 1 гр
 - [`GAME-0324` — Contra Force](../games/a-f/contra-force.md)
 - [`GAME-0254` — CONTROL Ultimate Edition](../games/a-f/control-ultimate-edition.md)
 - [`GAME-0326` — Crash Bandicoot](../games/a-f/crash-bandicoot.md)
+- [`GAME-0725` — "Crypt Custodian"](../games/a-f/crypt-custodian.md)
 - [`GAME-0282` — Dead Cells](../games/a-f/dead-cells.md)
 - [`GAME-0259` — "Dead Space (2023 remake)"](../games/a-f/dead-space-2023.md)
 - [`GAME-0495` — Donkey Kong Country Returns](../games/a-f/donkey-kong-country-returns.md)
@@ -36686,6 +39634,7 @@ Checkpoint Resets у межах дослідженого етапу Stage 1 гр
 - [`GAME-0239` — Half-Life (1998)](../games/g-l/half-life-1998.md)
 - [`GAME-0410` — Halo Wars](../games/g-l/halo-wars.md)
 - [`GAME-0509` — MechAssault](../games/m-r/mechassault.md)
+- [`GAME-0728` — "Metal Warriors"](../games/m-r/metal-warriors.md)
 - [`GAME-0558` — Moss](../games/m-r/moss.md)
 - [`GAME-0341` — "Ninja Gaiden Black"](../games/m-r/ninja-gaiden-black.md)
 - [`GAME-0483` — "Oddworld: Stranger's Wrath"](../games/m-r/oddworld-strangers-wrath.md)
@@ -36699,6 +39648,7 @@ Checkpoint Resets у межах дослідженого етапу Stage 1 гр
 - [`GAME-0584` — Saturn Bomberman](../games/s-z/saturn-bomberman.md)
 - [`GAME-0330` — Silent Hill 2 (2024 remake)](../games/s-z/silent-hill-2-2024.md)
 - [`GAME-0417` — Sly Cooper and the Thievius Raccoonus](../games/s-z/sly-cooper-and-the-thievius-raccoonus.md)
+- [`GAME-0690` — "Sonic Advance"](../games/s-z/sonic-advance.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0502` — South of Midnight](../games/s-z/south-of-midnight.md)
 - [`GAME-0548` — Space Station Silicon Valley](../games/s-z/space-station-silicon-valley.md)
@@ -37057,6 +40007,7 @@ Checkpoint Resets у межах дослідженого етапу Stage 1 гр
 ### Ігри-носії
 
 - [`GAME-0247` — Dishonored (2012)](../games/a-f/dishonored-2012.md)
+- [`GAME-0735` — "Toki Tori"](../games/s-z/toki-tori.md)
 
 ## SYS-773
 
@@ -39766,6 +42717,7 @@ Delivery Results для вступного замовлення в дослід�
 
 ### Ігри-носії
 
+- [`GAME-0690` — "Sonic Advance"](../games/s-z/sonic-advance.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
 - [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
@@ -39831,6 +42783,7 @@ Delivery Results для вступного замовлення в дослід�
 
 ### Ігри-носії
 
+- [`GAME-0690` — "Sonic Advance"](../games/s-z/sonic-advance.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0311` — Super Mario Bros.](../games/s-z/super-mario-bros.md)
 - [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
@@ -39977,7 +42930,9 @@ Delivery Results для вступного замовлення в дослід�
 - [`GAME-0462` — Metal Slug 3](../games/m-r/metal-slug-3.md)
 - [`GAME-0342` — "PAC-MAN"](../games/m-r/pac-man.md)
 - [`GAME-0479` — Pitfall!](../games/m-r/pitfall.md)
+- [`GAME-0697` — "Radiant Silvergun"](../games/m-r/radiant-silvergun.md)
 - [`GAME-0417` — Sly Cooper and the Thievius Raccoonus](../games/s-z/sly-cooper-and-the-thievius-raccoonus.md)
+- [`GAME-0690` — "Sonic Advance"](../games/s-z/sonic-advance.md)
 - [`GAME-0472` — Sonic Adventure](../games/s-z/sonic-adventure.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0360` — "Space Invaders"](../games/s-z/space-invaders.md)
@@ -40465,6 +43420,7 @@ Front Cover, Back Cover, Round Cover, Front Keep, Back Keep і Assist Cover із
 - [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
 - [`GAME-0537` — Kirby Tilt 'n' Tumble](../games/g-l/kirby-tilt-n-tumble.md)
 - [`GAME-0417` — Sly Cooper and the Thievius Raccoonus](../games/s-z/sly-cooper-and-the-thievius-raccoonus.md)
+- [`GAME-0690` — "Sonic Advance"](../games/s-z/sonic-advance.md)
 - [`GAME-0472` — Sonic Adventure](../games/s-z/sonic-adventure.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
@@ -40513,6 +43469,7 @@ Front Cover, Back Cover, Round Cover, Front Keep, Back Keep і Assist Cover із
 - [`GAME-0495` — Donkey Kong Country Returns](../games/a-f/donkey-kong-country-returns.md)
 - [`GAME-0329` — "Donkey Kong Country"](../games/a-f/donkey-kong-country.md)
 - [`GAME-0537` — Kirby Tilt 'n' Tumble](../games/g-l/kirby-tilt-n-tumble.md)
+- [`GAME-0690` — "Sonic Advance"](../games/s-z/sonic-advance.md)
 - [`GAME-0472` — Sonic Adventure](../games/s-z/sonic-adventure.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 - [`GAME-0354` — Super Mario World](../games/s-z/super-mario-world.md)
@@ -40767,6 +43724,7 @@ Front Cover, Back Cover, Round Cover, Front Keep, Back Keep і Assist Cover із
 
 ### Ігри-носії
 
+- [`GAME-0690` — "Sonic Advance"](../games/s-z/sonic-advance.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 
 ## SYS-948
@@ -40789,6 +43747,7 @@ Front Cover, Back Cover, Round Cover, Front Keep, Back Keep і Assist Cover із
 ### Ігри-носії
 
 - [`GAME-0546` — Burning Rangers](../games/a-f/burning-rangers.md)
+- [`GAME-0690` — "Sonic Advance"](../games/s-z/sonic-advance.md)
 - [`GAME-0472` — Sonic Adventure](../games/s-z/sonic-adventure.md)
 - [`GAME-0333` — "Sonic the Hedgehog"](../games/s-z/sonic-the-hedgehog.md)
 
@@ -41346,9 +44305,11 @@ Death прибирає початкові предмети рук, броню й
 
 ### Ігри-носії
 
+- [`GAME-0736` — "Bomb Rush Cyberfunk"](../games/a-f/bomb-rush-cyberfunk.md)
 - [`GAME-0464` — "Jet Set Radio Future"](../games/g-l/jet-set-radio-future.md)
 - [`GAME-0350` — "Jet Set Radio"](../games/g-l/jet-set-radio.md)
 - [`GAME-0639` — "Rollerdrome"](../games/m-r/rollerdrome.md)
+- [`GAME-0682` — "Sonic Dream Team"](../games/s-z/sonic-dream-team.md)
 - [`GAME-0365` — Tony Hawk’s Pro Skater 1 + 2](../games/s-z/tony-hawks-pro-skater-1-plus-2.md)
 
 ## SYS-975
@@ -41520,6 +44481,7 @@ P-Switch перетворює пізні монети Yoshi's Island 2 на ти
 
 ### Ігри-носії
 
+- [`GAME-0678` — "Metroid Prime 4: Beyond"](../games/m-r/metroid-prime-4-beyond.md)
 - [`GAME-0355` — Metroid Prime](../games/m-r/metroid-prime.md)
 - [`GAME-0500` — Pacific Drive](../games/m-r/pacific-drive.md)
 

@@ -1,5 +1,837 @@
 # Action Genes
 
+## ACT-951 — Aim and release a leap from one eligible foothold to another
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: While attached to a valid foothold, the player aims toward an accepted landing point on another eligible surface and releases the movement control to commit one bodily leap. The same action can aim toward a floor, ceiling, or wall foothold as its available landing.
+- Includes: In Dandara’s Void, use the Leap control to aim from the starting floor band to the ceiling band and release. From the new foothold, aim back down toward the next floor band.
+- Excludes: A free jump into arbitrary space, continuous steering during flight, a teleport without travel through the intervening space and a separately charged movement branch.
+- Parameters: Attached origin, aim input, accepted surface point, release, bodily travel and next foothold
+- Evidence: [Dandara: Trials of Fear Edition decomposition](../games/a-f/dandara-trials-of-fear-edition.md), DF-002–DF-004. The official release documentation and the attributed opening captures delimit this rule.
+- Novelty: first isolated for `GAME-0738`. See [TAXONOMY_CHANGE_484](../../research/taxonomy-changes/TAXONOMY_CHANGE_484.md). No external novelty claim.
+
+## ACT-950 — Grip a reachable wall slab to change its extrusion depth
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The player grips the reachable face of an authored slab and directs it inward or outward along its fixed axis. Each completed displacement changes the same slab to a neighbouring depth position while retaining its height and silhouette.
+- Includes: In Pullblox Lesson 3, hold the grip at the bottom orange slab and step back repeatedly before jumping onto the exposed tread and reaching the next slab.
+- Excludes: Free two-axis crate placement, moving the viewpoint to reproject an unchanged wall, telescoping only one edge while retaining the slab face in place and climbing an entirely fixed stair.
+- Parameters: Reachable slab face, grip, direction, fixed axis, settled depth, height and shape
+- Evidence: [Pullblox decomposition](../games/m-r/pullblox.md), PB-002–PB-004. The original game manual, attributed Lesson 3 captures and paired release documentation support the bounded behaviour.
+- Novelty: first isolated for `GAME-0737`. See [TAXONOMY_CHANGE_483](../../research/taxonomy-changes/TAXONOMY_CHANGE_483.md). No external novelty claim.
+
+## ACT-949 — Choose an overpaint design by ordering directional nodes
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: During an active marked-surface interaction, the player directs a cursor through eligible nodes in a chosen order. The accepted sequence selects the painted design for that surface. Different allowed sequences can settle into different designs at the same site.
+- Includes: At the first Versum Hill mural, connect the displayed directional nodes on the Xbox stick. The repeat trace selects a different order to paint a different design on the same wall.
+- Excludes: Tracing a single prescribed sequence to pass an input test, pressing one button to apply a preselected decal, freehand drawing the pixels of the design and earning another first-site credit.
+- Parameters: Marked surface, active trace, directional node order, available designs and settled design
+- Evidence: [Bomb Rush Cyberfunk decomposition](../games/a-f/bomb-rush-cyberfunk.md), BRC-004–BRC-006. The attributed Xbox Series X and PC captures and product documentation support the bounded behaviour.
+- Novelty: first isolated for `GAME-0736`. See [TAXONOMY_CHANGE_482](../../research/taxonomy-changes/TAXONOMY_CHANGE_482.md). No external novelty claim.
+
+## ACT-948 — Cast a tile edit at a local offset selected by facing and stance
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Commit a local editing cast toward a tile reached at an offset from the controlled body. Facing selects the side and posture changes the offset. Airborne position can bring another tile into that reach.
+- Includes: In Solomon’s Key, the A input is cast ahead of a standing Dana, or lower with Dana crouching. The spell can also be aimed from a new height during a jump.
+- Excludes: Pointing to an arbitrary remote grid cell, interacting only with a pre-existing switch, moving along the path, or the resulting change in the target tile’s occupancy.
+- Parameters: Origin, facing, stance, airborne position, allowed offset and addressed tile
+- Evidence: [Solomon’s Key decomposition](../games/s-z/solomons-key.md), SK-003. The North American cartridge manual and recorded NES routes establish the scoped sequence.
+- Novelty: first isolated for `GAME-0733`. See [TAXONOMY_CHANGE_479](../../research/taxonomy-changes/TAXONOMY_CHANGE_479.md). No external novelty claim.
+
+## ACT-947 — Drag one existing object to a new index in an ordered row
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Select and drag one movable member out of its current position into a gap among the remaining row members. Commit the insertion at the new index. Objects between the two positions reflow without a separate move for each one.
+- Includes: In the first bookshelf puzzle, drag the tallest book from the middle to the left end. The intervening spines shift to make room and retain their relative order.
+- Excludes: An exchange of exactly two objects, changing the text value of a fixed position, shifting a whole row together and freely placing an object without selecting its rank among the others.
+- Parameters: Existing member, source index, target gap, relative order, affected span and insertion commit
+- Evidence: [A Little to the Left decomposition](../games/a-f/a-little-to-the-left.md), AL-002. The released puzzle traces and independent player guide corroborate the scoped transitions. Exact capture hardware and revision are unverified.
+- Novelty: first isolated for `GAME-0730`. See [TAXONOMY_CHANGE_476](../../research/taxonomy-changes/TAXONOMY_CHANGE_476.md). No external novelty claim.
+
+## ACT-946 — Keep powered lift active with a held input while steering through a passage
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Hold a dedicated flight control to power upward motion of the controlled chassis and steer it laterally under live geometry. Release and reapply the input as needed to stop driving the ascent and regulate the crossing.
+- Includes: In Rescue at Axis 5, keep Nitro’s flight pack active while directing it along the station shaft. Release and reapply B to adjust the route between platforms.
+- Excludes: A discrete jump or single directional burst, clicking an aerial destination, maintaining altitude by a separate flight toggle, and claiming every chassis can sustain the same flight.
+- Parameters: Current chassis, held thrust input, lateral steering, passage clearance, release and reapplication
+- Evidence: [Metal Warriors decomposition](../games/m-r/metal-warriors.md), MW-002. Konami’s original booklet and the documented rescue route corroborate the bounded effects. Hardware and exact cartridge bytes are unverified.
+- Novelty: first isolated for `GAME-0728`. See [TAXONOMY_CHANGE_474](../../research/taxonomy-changes/TAXONOMY_CHANGE_474.md). No external novelty claim.
+
+## ACT-945 — Drive a seated threaded fastener with a separate hand tool
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Bring the available hand driver to a partially seated threaded fastener. Operate the aligned tool until the fastener seats deeper in the receiving fixture. Positioning the loose fastener alone does not complete the operation.
+- Includes: Fit the two screws in the small connector plate and drive them flush with the separate screwdriver in Miniatures: Familiar.
+- Excludes: Dragging a screw straight into a finished placement, using a hammer on a pin, rotating the whole assembly and accepting a decorative tool without applying it to a fastener.
+- Parameters: Threaded fastener, receiving hole, initial seating, aligned driver and visible final seating
+- Evidence: [Miniatures decomposition](../games/m-r/miniatures.md), MT-003. Released gameplay records support the local interactions. Capture host and executable revision are unverified.
+- Novelty: first isolated for `GAME-0727`. See [TAXONOMY_CHANGE_473](../../research/taxonomy-changes/TAXONOMY_CHANGE_473.md). No external novelty claim.
+
+## ACT-944 — Hold contact in deflate mode to reduce a membrane’s clearance footprint
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: With the deflate mode held, maintain contact inside a live carrier to make its membrane smaller. Release to keep an intermediate size, or continue until the membrane pops.
+- Includes: The first Tir Tairngire deflate exercise reduces the occupied bubble to fit a narrow passage after the Elephant Mask instructions.
+- Excludes: Passive stretching at a wall, splitting the carrier, a preset discrete size switch and applying physical damage to the contents as the shrinking input.
+- Parameters: Deflate mode, interior contact, duration, reduced extent and continued-contact pop
+- Evidence: [Soul Bubbles decomposition](../games/s-z/soul-bubbles.md), SB-004. The official booklet and recorded Nintendo DS route support the stated boundary. The captured cartridge region and revision are unverified.
+- Novelty: first isolated for `GAME-0726`. See [TAXONOMY_CHANGE_472](../../research/taxonomy-changes/TAXONOMY_CHANGE_472.md). No external novelty claim.
+
+## ACT-943 — Split a carrier or join touching carriers with a contextual stroke
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: With the same edit mode held, stroke across one live membrane to split it into two carriers, or trace from the centre of one touching carrier to the other to join them. Each output remains available for steering.
+- Includes: The Tiger Mask edit help and the separate carrier bodies produced beside a narrow passage in Tir Tairngire 1.
+- Excludes: Ordinary airflow, cutting a fixed tether, meshes that merge automatically on contact and duplicate independent units created without subdividing an existing carrier.
+- Parameters: Edit mode, stroke endpoints, membrane contact, partition or union and resulting carriable contents
+- Evidence: [Soul Bubbles decomposition](../games/s-z/soul-bubbles.md), SB-005. The official booklet and recorded Nintendo DS route support the stated boundary. The captured cartridge region and revision are unverified.
+- Novelty: first isolated for `GAME-0726`. See [TAXONOMY_CHANGE_472](../../research/taxonomy-changes/TAXONOMY_CHANGE_472.md). No external novelty claim.
+
+## ACT-942 — Stroke through a loose membrane to apply directed airflow
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: While a loose membrane is reachable on the touch surface, drag through it in the intended direction to apply local airflow. Stroke length changes push strength and the body remains free to move under the resulting force.
+- Includes: Use ordinary touch strokes to push the spirit carrier through the opening Tir Tairngire passage and later into the receiver in Soul Bubbles.
+- Excludes: Dragging a body to match the cursor, commanding a fixed-grid shove, always-on environmental airflow and using a real microphone as the steering input.
+- Parameters: Touch start, stroke direction and length, reachable membrane, airflow and resulting impulse
+- Evidence: [Soul Bubbles decomposition](../games/s-z/soul-bubbles.md), SB-003 and SB-008. The official booklet and recorded Nintendo DS route support the stated boundary. The captured cartridge region and revision are unverified.
+- Novelty: first isolated for `GAME-0726`. See [TAXONOMY_CHANGE_472](../../research/taxonomy-changes/TAXONOMY_CHANGE_472.md). No external novelty claim.
+
+## ACT-941 — Trace a closed contour to create a protective carrier around eligible contents
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: In the active draw mode, trace a closed contour around eligible loose contents. Closing the contour creates a mobile membrane that contains them and can be steered independently.
+- Includes: Holding Draw and completing a loop around the seven spirits at the first Tir Tairngire Celestial Stone in Soul Bubbles.
+- Excludes: Selecting an existing carrier, drawing a route for a separate follower, lassoing targets without creating a body and trapping objects in a bubble that automatically rises on contact.
+- Parameters: Draw mode, closed contour, enclosed payload, created membrane and subsequent steering
+- Evidence: [Soul Bubbles decomposition](../games/s-z/soul-bubbles.md), SB-002. The official booklet and recorded Nintendo DS route support the stated boundary. The captured cartridge region and revision are unverified.
+- Novelty: first isolated for `GAME-0726`. See [TAXONOMY_CHANGE_472](../../research/taxonomy-changes/TAXONOMY_CHANGE_472.md). No external novelty claim.
+
+## ACT-940 — Press the timed input for a note position on the selected instrument track
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The player answers a scheduled note by pressing the input assigned to its position as it crosses the judgement line on the currently selected instrument track. Switching tracks changes which chart is addressed while the song clock remains shared.
+- Includes: In Frequency, play a left, centre or right note on the current track with L1, R1 or R2, or the corresponding face button. Move to a different track before judging its notes.
+- Excludes: A separate fret-and-strum pair, input against notes on an unselected track, and freely chosen notes without an authored timing event.
+- Parameters: Current instrument track, three local note positions, input map, judgement point and live song position
+- Evidence: [Frequency decomposition](../games/a-f/frequency.md), FQ-002. The North American instruction booklet and silent PS2 frame evidence support the stated boundary. Executable revision and exact judgement windows are unverified.
+- Novelty: first isolated for `GAME-0724`. See [TAXONOMY_CHANGE_470](../../research/taxonomy-changes/TAXONOMY_CHANGE_470.md). No external novelty claim.
+
+## ACT-939 — Aim and release one volley from the current upper launch point
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The player drags to set a continuous direction from the ready point at the top of a shaft and releases to commit one launch containing the current allocation of balls. The allocation belongs to the shot, independent of the number of shots left.
+- Includes: In holedown, lift a finger after aiming at a side wall. All balls allocated to that shot follow the chosen opening line, even when a starting allocation supplies only one ball.
+- Excludes: Controlling a paddle, issuing separate aim commands per ball, steering a ball during flight, or setting the strength of a single slingshot projectile.
+- Parameters: Ready origin, drag direction, release, current balls per launch and remaining paid launches
+- Evidence: [holedown decomposition](../games/g-l/holedown.md), HD-002, HD-005. Developer material, original Android reporting and silent frame review support the stated boundary. Exact Android build and numerical physics are unverified.
+- Novelty: first isolated for `GAME-0723`. See [TAXONOMY_CHANGE_469](../../research/taxonomy-changes/TAXONOMY_CHANGE_469.md). No external novelty claim.
+
+## ACT-938 — Edit one addressed band by the puzzle’s assigned transform
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Select one retained band of the current object and vary its designated transform parameter independently of its neighbours. The current puzzle defines whether the command turns, slides or scales the selected geometry.
+- Includes: The Shape of Things teaches the operation with compass rotation, pine-cone translation and backpack scaling in order. The same lateral adjustment addresses the selected band.
+- Excludes: Free placement of loose pieces into any slot, turning the entire model for inspection, a menu choice offering an arbitrary transform, or applying all transforms with one command.
+- Parameters: Band identity, band selection, operation type and relative transform parameter
+- Evidence: [The Shape of Things decomposition](../games/s-z/the-shape-of-things.md), ST-003 and ST-004. Nintendo store rules and independent recorded Switch and Steam routes support the bounded transitions. Exact acceptance intervals and build identity remain unverified.
+- Novelty: first isolated for `GAME-0721`. See [TAXONOMY_CHANGE_467](../../research/taxonomy-changes/TAXONOMY_CHANGE_467.md). No external novelty claim.
+
+## ACT-937 — Turn the whole assembled-or-fragmented model to inspect it
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: With the entire object addressed, rotate its displayed orientation as a whole while every fragment retains its relative transform. The player can inspect another side and then return to addressing a fragment.
+- Includes: In The Shape of Things, rotate the complete fractured compass in the whole-model control context before using the shoulder selection to edit one band.
+- Excludes: Turning one band relative to its neighbours, a camera orientation that changes puzzle legality, and converting a captured view into physical geometry.
+- Parameters: Whole-model focus, view orientation, retained relative part transforms and individual part focus
+- Evidence: [The Shape of Things decomposition](../games/s-z/the-shape-of-things.md), ST-003. Nintendo store rules and independent recorded Switch and Steam routes support the bounded transitions. Exact acceptance intervals and build identity remain unverified.
+- Novelty: first isolated for `GAME-0721`. See [TAXONOMY_CHANGE_467](../../research/taxonomy-changes/TAXONOMY_CHANGE_467.md). No external novelty claim.
+
+## ACT-936 — Hold the transformed swimmer’s acceleration command
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: While a traversal form can swim freely underwater, hold its mapped acceleration command to increase normal swimming speed as player steering continues.
+- Includes: In Bean Bay, the Shark Mask swimmer remains under the submerged rock shelf while the Xbox-labelled route shows a hold-to-accelerate prompt with the A glyph.
+- Excludes: A one-shot attack dash, a short-lived push from a current, changing forms by crossing the waterline, or an oxygen reserve.
+- Parameters: Active traversal form, underwater movement, held command, speed and steering direction
+- Evidence: [Kaze and the Wild Masks decomposition](../games/g-l/kaze-and-the-wild-masks.md), KZ-004. The Xbox-labelled recording, launch sources and the independent route or documentation support the bounded rule. Exact rates and Xbox build were unverified.
+- Novelty: first isolated for `GAME-0720`. See [TAXONOMY_CHANGE_466](../../research/taxonomy-changes/TAXONOMY_CHANGE_466.md). No external novelty claim.
+
+## ACT-935 — Choose or withdraw the active autonomous helper in a field selector
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: During a live route, enter the support selector, cycle the available helper identities or the empty choice, and commit the selected state. Ordinary avatar control then resumes with that support state.
+- Includes: In the forest in Alisia Dragoon, the selection overlay permits exchanging Dragon Frye for Thunder Raven while the main avatar remains Alisia.
+- Excludes: Forced replacement of a commanded battler, issuing a particular helper attack, throwing a companion to an aimed world position, and switching between directly controlled protagonists.
+- Parameters: Field selector, candidate identity, eligibility, empty choice, confirm input and resumed control
+- Evidence: [Alisia Dragoon decomposition](../games/a-f/alisia-dragoon.md), AD-005 and AD-006. The retail instruction booklets and two attributed Genesis recordings corroborate the boundary. Exact ranges, rates and ROM revision were not measured.
+- Novelty: first isolated for `GAME-0719`. See [TAXONOMY_CHANGE_465](../../research/taxonomy-changes/TAXONOMY_CHANGE_465.md). No external novelty claim.
+
+## ACT-934 — Assign a sketched route clue to a tentative spot in a summit panorama
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: From an eligible elevated survey, pick a carried route sketch, aim at a candidate location in the visible landscape and place, move or remove its provisional marker. The input records an interpretation before the avatar walks there.
+- Includes: At the Bald Edge in A Highland Song, select the east-loch sketch, visually match the tooth-shaped outcrop and mark the shore beside it.
+- Excludes: A breadcrumb route formed from linked markers, a tile rotated into a new map connection, selection of an automatic travel destination, or confirming the clue on foot.
+- Parameters: Eligible survey, selected sketch, targetable world locations, provisional marker and edit command
+- Evidence: [A Highland Song decomposition](../games/a-f/a-highland-song.md), AHS-003, AHS-004. The inkle navigation notes and two commercial release-window records corroborate the boundary. Exact builds and confirmation radius were not measured.
+- Novelty: first isolated for `GAME-0718`. See [TAXONOMY_CHANGE_464](../../research/taxonomy-changes/TAXONOMY_CHANGE_464.md). No external novelty claim.
+
+## ACT-933 — Time repeated single-button replies during a local chorus
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: After a situated chorus starts, press the shared reply button at successive prompted times. A new press answers one timing cue without selecting a direction, a note lane or a different action.
+- Includes: The Franzea 1 MuiMui prompt shows Circle as the timed response while note symbols move around the local scene.
+- Excludes: Waiting to start singing, tapping to divide while traversing, matching several charted instrument buttons, and a single terminal pulse after a lead-in.
+- Parameters: Local chorus state, reply button, successive cue times and discrete presses
+- Evidence: [LocoRoco 2 decomposition](../games/g-l/locoroco-2.md), LR2-005 and LR2-006. The original publisher overview, Franzea 1 route and scoped English PSP frames corroborate the result. Exact judgment windows were not measured.
+- Novelty: first isolated for `GAME-0717`. See [TAXONOMY_CHANGE_463](../../research/taxonomy-changes/TAXONOMY_CHANGE_463.md). No external novelty claim.
+
+## ACT-932 — Rotate an independently aimed facility effect before confirming placement
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Change the orientation of the pending facility’s output footprint while its placement remains uncommitted. The changed orientation alters which terrain the same building position can affect.
+- Includes: Terra Nil shows a rotate control and a directional coverage pattern while previewing an Irrigator on clean soil.
+- Excludes: Rotating the camera, rotating a fixed solid piece to fit a container, moving the cursor without changing orientation, or reorienting a held handheld spray tool.
+- Parameters: Pending facility, anchor, allowed orientation, effect footprint and confirmation
+- Evidence: [Terra Nil decomposition](../games/s-z/terra-nil.md), TN-004. The release listing, in-game handbook and two post-release recordings are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0716`. See [TAXONOMY_CHANGE_462](../../research/taxonomy-changes/TAXONOMY_CHANGE_462.md). No external novelty claim.
+
+## ACT-931 — Begin a toppling chain with a directional push from inside the row
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The avatar enters the local push posture between or beside upright pieces, then chooses a neighboring upright piece and a lateral toppling direction using a directional push input.
+- Includes: On the first Pushover platform, the ant steps into push position by the left end of the completed row and pushes the first ordinary block to the right.
+- Excludes: Walking into a block, sliding an upright object one cell, lifting and relocating a piece, or directly knocking over every later member of the chain.
+- Parameters: Local push posture, adjacent upright piece, push direction and valid contact
+- Evidence: [Pushover decomposition](../games/m-r/pushover.md), PU-003. The Amiga manual, contemporary sources and two recordings are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0715`. See [TAXONOMY_CHANGE_461](../../research/taxonomy-changes/TAXONOMY_CHANGE_461.md). No external novelty claim.
+
+## ACT-930 — Choose a paid taunt that attempts to induce a specified opponent mood
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Select one command with a declared desired mood and commit it to an eligible opponent for a listed combat-resource cost. The selected mood is attempted in execution and depends on target susceptibility.
+- Includes: In Thirsty Suitors, Jala selects Thirsty Taunt against Sergio in the diner and later selects Raging Taunt in his Inner World.
+- Excludes: Dialogue choices alone, switching the attacker’s own stance, generating threat with a defensive taunt, or applying a mood incidentally through a damage skill.
+- Parameters: Selected taunt, targeted opponent, mood, listed cost, execution and target susceptibility
+- Evidence: [Thirsty Suitors decomposition](../games/s-z/thirsty-suitors.md), TS-004 and TS-006. The PlayStation release listing and corroborating traces are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0714`. See [TAXONOMY_CHANGE_460](../../research/taxonomy-changes/TAXONOMY_CHANGE_460.md). No external novelty claim.
+
+## ACT-929 — Shift a separate lower defender without giving up striker control
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: During solo play the player uses independent inputs to shift the lower defender along its lane while continuing to control the primary mobile striker. The placement command does not itself perform a return.
+- Includes: In Firestriker L moves Wain to the left and R moves him to the right along the lower barrier, independently of Slader.
+- Excludes: Switching the active character, rotating one anchored flipper, moving the sole paddle or aiming the orb directly with the defender.
+- Parameters: Role assignment, independent left and right controls, bounded lower lane and retained main control
+- Evidence: [Firestriker decomposition](../games/a-f/firestriker.md), FST-004. The DTMC instruction booklet and both SNES traces are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0713`. See [TAXONOMY_CHANGE_459](../../research/taxonomy-changes/TAXONOMY_CHANGE_459.md). No external novelty claim.
+
+## ACT-928 — Choose the outgoing direction when striking an existing live orb
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: A freely moving striker comes into reach of the already live orb. A strike coupled with a held direction commits the orb to that outgoing direction. It remains in play as the same object.
+- Includes: In Firestriker Slader approaches the Trialight, then holds the intended direction while pressing A or B to send the orb across the grassy field.
+- Excludes: Firing a new projectile, selecting a launch angle at a fixed launcher, passive paddle contact or toggling a side-specific anchored flipper.
+- Parameters: Striker location, live orb reach, strike gesture and selected direction
+- Evidence: [Firestriker decomposition](../games/a-f/firestriker.md), FST-002. The DTMC instruction booklet and both SNES traces are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0713`. See [TAXONOMY_CHANGE_459](../../research/taxonomy-changes/TAXONOMY_CHANGE_459.md). No external novelty claim.
+
+## ACT-927 — Place or reshape a reusable road section in an editable circuit
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: In a course editor the player chooses an available reusable section for an addressed map position, can change its supported profile or surface settings and places or replaces it in the current circuit.
+- Includes: In Racing Destruction Set select a jump from the parts box, edit height and width where supported and place it against neighbouring road sections.
+- Excludes: Consuming a uniquely owned stock of puzzle pieces, painting a road stroke continuously, steering through an existing segment, or buying a complete circuit.
+- Parameters: Piece type, map position, accepted parameters, rotation variant, placement and replacement
+- Evidence: [Racing Destruction Set decomposition](../games/m-r/racing-destruction-set.md), RDS-003–RDS-004. The Electronic Arts manual and the C64-attributed footage are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0710`. See [TAXONOMY_CHANGE_456](../../research/taxonomy-changes/TAXONOMY_CHANGE_456.md). No external novelty claim.
+
+## ACT-926 — Set the gravity and lap target of the next circuit race
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Before starting a race on the active layout, the player selects a race-wide gravity setting and a required lap count. Both apply to the next race without editing its individual road pieces.
+- Includes: In Racing Destruction Set the race options expose Earth gravity and the lap count changes from two to three before the witnessed solo race.
+- Excludes: Changing the gravity direction during play, increasing a timer, changing the vehicle engine, or baking a slope into one track piece.
+- Parameters: Active layout, selected gravity, lap target and race start
+- Evidence: [Racing Destruction Set decomposition](../games/m-r/racing-destruction-set.md), RDS-002, RDS-005. The Electronic Arts manual and the C64-attributed footage are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0710`. See [TAXONOMY_CHANGE_456](../../research/taxonomy-changes/TAXONOMY_CHANGE_456.md). No external novelty claim.
+
+## ACT-925 — Lift, guide and lower either walking foot through its dedicated control
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The player holds the selected foot’s own lift input, guides that raised foot using directional input and releases the lift control to lower the foot. The other foot can remain planted while the player sets the next contact.
+- Includes: In Baby Steps on PS5, hold L2 for the left foot or R2 for the right, adjust the raised foot with the left stick and release the selected trigger.
+- Excludes: An automatic stride from movement direction alone, a simultaneous jump with both feet, or selecting a limb to grip a climbing hold.
+- Parameters: Foot identity, dedicated lift channel, held state, directional input, release and requested foothold
+- Evidence: [Baby Steps decomposition](../games/a-f/baby-steps.md), BS-002–BS-003. The PlayStation control descriptions and separately attributed PS5 captures are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0709`. See [TAXONOMY_CHANGE_455](../../research/taxonomy-changes/TAXONOMY_CHANGE_455.md). No external novelty claim.
+
+## ACT-924 — Place one allotted fixed weapon inside a credited enclosure
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: During a dedicated placement phase, the player selects a legal footprint inside an already credited fortified enclosure and commits an allotted stationary weapon that remains at that site for the ensuing battle.
+- Includes: In Rampart the player sets one of the allotted cannons onto a free point inside the blue walls before battle.
+- Excludes: Issuing movement orders to a deployed combatant, placing fort wall pieces, gathering a portable weapon or selecting a new construction from a purchase menu.
+- Parameters: Placement phase, available allotment, credited enclosure, compatible footprint and committed weapon site
+- Evidence: [Rampart decomposition](../games/m-r/rampart.md), RAM-002–RAM-003. The Atari operator manual and attributed trackball-ruleset captures are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0708`. See [TAXONOMY_CHANGE_454](../../research/taxonomy-changes/TAXONOMY_CHANGE_454.md). No external novelty claim.
+
+## ACT-923 — Pivot the support-relative advance heading in place
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: On the current support, the player chooses a left or right quarter-turn while remaining in the same movement cell. A later forward command uses that heading in the plane of the current support.
+- Includes: In Kula World turn once on a stone face to line up the next forward roll or the approach to the wall.
+- Excludes: Free independent strafing, an immediate step into the chosen direction, a 180-degree reversal command, a camera-only turn, or sweeping an attached collision tool.
+- Parameters: Support face, local heading, turn direction, pivot cell and subsequent forward command
+- Evidence: [Kula World decomposition](../games/g-l/kula-world.md), KW-003. The museum record, disc-derived reference and two attributed PlayStation witnesses are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0706`. See [TAXONOMY_CHANGE_452](../../research/taxonomy-changes/TAXONOMY_CHANGE_452.md). No external novelty claim.
+
+## ACT-922 — Record an independent category mark on a pending inspection report
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: While an inspected case awaits a verdict, the player explicitly marks a named discrepancy category on a separate report. The reported reason is separable from the result of any fact comparator and from the final case verdict.
+- Includes: In Contraband Police, mark the suspected expiration or photo discrepancy on the Inspection Report before stamping the passport.
+- Excludes: Highlighting a pair of facts, marking corresponding visual features directly on both records, automatic annotation by the comparator, or issuing the terminal stamp.
+- Parameters: Pending case, report category, player-entered mark, comparison result and committed verdict
+- Evidence: [Contraband Police decomposition](../games/a-f/contraband-police.md), CP-004–CP-005. The publisher announcements and the two attributed Windows witnesses are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0705`. See [TAXONOMY_CHANGE_451](../../research/taxonomy-changes/TAXONOMY_CHANGE_451.md). No external novelty claim.
+
+## ACT-921 — Set a staged pinball serve with a hold-dependent spring plunger
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: While the ball waits in its dedicated launch lane, the player holds a plunger command to set spring compression and thus the initial physical serve strength. The launched body continues through subsequent table collisions.
+- Includes: In Alien Crush the TurboPad Button I hold sets plunger compression for the lower right-lane serve.
+- Excludes: Flipping an already live body, directly steering the ball after release, choosing from fixed serve types, or a charged attack with no staged ball and spring.
+- Parameters: Ready ball, spring compression, hold duration, launch lane and initial impulse
+- Evidence: [Alien Crush decomposition](../games/a-f/alien-crush.md), ALC-002–ALC-003. The original English booklet and the two attributed TurboGrafx-16 witnesses are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0704`. See [TAXONOMY_CHANGE_450](../../research/taxonomy-changes/TAXONOMY_CHANGE_450.md). No external novelty claim.
+
+## ACT-920 — Inspect a world-bound roster candidate and choose its intake mode
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Address a particular candidate fixture in the traversable world to open its own review. Select one of the offered conversion modes to induct that inspected candidate, or exit the review without committing a slot.
+- Includes: In Dungeon Master, address a champion’s mirror, then choose resurrection or reincarnation, or cancel to keep looking.
+- Excludes: A global roster editor, purchasing an interchangeable unit, directly transferring an already active character, or a dialogue choice with no persistent roster consequence.
+- Parameters: Candidate fixture, local access, offered modes, confirmation, cancellation and party slot
+- Evidence: [Dungeon Master decomposition](../games/a-f/dungeon-master.md), DM-002–DM-004. The manual, contemporary account and Atari ST witnesses are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0699`. See [TAXONOMY_CHANGE_445](../../research/taxonomy-changes/TAXONOMY_CHANGE_445.md). No external novelty claim.
+
+## ACT-919 — Hold a progression node to peek at its puzzle hint
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The player holds contact on a progression node in the shared overview to inspect a clue for its associated route. The preview leaves the node’s disclosed completion state intact.
+- Includes: In Song of Bloom, holding the first bud reveals a mountain image with a red mark before that bud has been completed.
+- Excludes: Paying for a new hint tier, collecting a clue as an inventory item, rotating a physical evidence object, or activating the node to resolve the route.
+- Parameters: Progression overview, node, hold gesture, previewed clue, release and independent completion
+- Evidence: [Song of Bloom decomposition](../games/s-z/song-of-bloom.md), BLM-002, BLM-006. The developer materials and iPhone witnesses are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0698`. See [TAXONOMY_CHANGE_444](../../research/taxonomy-changes/TAXONOMY_CHANGE_444.md). No external novelty claim.
+
+## ACT-918 — Draw a scene-relative mark directly on a matching story frame
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The player traces an indicated mark on a matching image within an authored presentation. The action addresses the depicted feature itself and opens the linked interactive scene when recognized, without a separate answer-submission control.
+- Includes: In Song of Bloom, redraw the bud’s red ring over the chalk mountain’s summit to enter the landscape.
+- Excludes: Circling an answer and submitting it separately, placing an independently movable puzzle tile, painting for decoration, or invoking a learned world-editing tool in a separate mode.
+- Parameters: Current story frame, compatible feature, gesture shape and position, recognition and linked scene
+- Evidence: [Song of Bloom decomposition](../games/s-z/song-of-bloom.md), BLM-002–BLM-003. The developer materials and iPhone witnesses are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0698`. See [TAXONOMY_CHANGE_444](../../research/taxonomy-changes/TAXONOMY_CHANGE_444.md). No external novelty claim.
+
+## ACT-917 — Fire an attack directly from a combination of base weapon inputs
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: While holding live control, the player uses an individual firing input, a defined simultaneous combination, or a shortcut equivalent to that combination. The command immediately produces the corresponding attack pattern without first selecting a retained equipment slot.
+- Includes: Radiant Silvergun uses three base firing inputs. Two together can fire searching plasma, a backward spread with a forward shot, or a multi-target attack. The triple invokes the sword.
+- Excludes: Cycling a selected weapon, firing a held weapon after a menu change, using a proximity prompt to pick one attack mode, or firing two independent weapons in parallel.
+- Parameters: Base input, compatible combination, shortcut mapping, distinct resulting attack and live pressure
+- Evidence: [Radiant Silvergun decomposition](../games/m-r/radiant-silvergun.md), RSG-002. The Saturn booklet and recorded witnesses are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0697`. See [TAXONOMY_CHANGE_443](../../research/taxonomy-changes/TAXONOMY_CHANGE_443.md). No external novelty claim.
+
+## ACT-916 — Activate a local echo of the selected predecessor
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: From the present scene the player deliberately enters a local observation view at a compatible cue. The view displays action of the selected earlier play record while preserving the current player’s role and resource state.
+- Includes: On Nahe’s boat in Tides of Tomorrow the local Tides of Time input reveals an earlier Tidewalker at a position the observer can later occupy.
+- Excludes: Playing the earlier actor, rewinding the current run, automatically moving the current avatar along a route, or a written summary that cannot be viewed in place.
+- Parameters: present actor, selected earlier record, local cue, prior event, observation view and return state
+- Evidence: [Tides of Tomorrow decomposition](../games/s-z/tides-of-tomorrow.md), TOT-003. The PS5 Pro traces and developer evidence are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0696`. See [TAXONOMY_CHANGE_442](../../research/taxonomy-changes/TAXONOMY_CHANGE_442.md). No external novelty claim.
+
+## ACT-915 — Bind one prior play record as the source for the current scene
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: At a follower selection boundary the player chooses an eligible stored play record and confirms it as the source of local inherited conditions. The acquired source remains identifiable while the player acts in the new session.
+- Includes: The Follow menu in Tides of Tomorrow lets the player select another completed or progressing play record before the first rescue scene with Nahe.
+- Excludes: Choosing an anonymous terrain seed, joining a live player lobby, loading the current player’s own checkpoint, or passively receiving a random prior record without a selection.
+- Parameters: current run, eligible earlier records, selected source, confirmation and scene boundary
+- Evidence: [Tides of Tomorrow decomposition](../games/s-z/tides-of-tomorrow.md), TOT-002. The PS5 Pro traces and developer evidence are delimited in the claim ledger.
+- Novelty: first isolated for `GAME-0696`. See [TAXONOMY_CHANGE_442](../../research/taxonomy-changes/TAXONOMY_CHANGE_442.md). No external novelty claim.
+
+## ACT-914 — Choose the equipped strike through its run and jump state
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The player commits the ordinary attack input while moving with the equipped melee weapon. Running, jumping, or combining both selects distinct strike forms with different travel and coverage from the standing strike.
+- Includes: Terranigma lets Ark produce a running attack, a jumping spinner or a running jump slider with the same equipped spear and attack command.
+- Excludes: Switching equipment, entering an exclusive combat stance, automatic target tracking, or a jump that does not select an attack form.
+- Parameters: attack input, current weapon, grounded or jumping state, running state, attack form, footprint and travel
+- Evidence: [Terranigma decomposition](../games/s-z/terranigma.md), TER-003. The European printed and captured evidence is bounded in the claim ledger.
+- Novelty: first isolated for `GAME-0695`. See [TAXONOMY_CHANGE_441](../../research/taxonomy-changes/TAXONOMY_CHANGE_441.md). No external novelty claim.
+
+## ACT-913 — Confirm a local sale of the entire quoted carried ore basket
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: At an eligible local sale station, the player confirms one disclosed basket quote. The sale clears the included carried ore quantities and credits the total computed across their distinct types.
+- Includes: The workshop computer in A Game About Digging A Hole combines two stones and one coal into one four-dollar sale.
+- Excludes: Selling one individually selected item; automatically banking a loose mineral on physical contact with an intake; an automatic inventory payout when reaching the surface.
+- Parameters: station, ore counts, unit prices, total, confirmation and current balance
+- Evidence: [A Game About Digging A Hole decomposition](../games/a-f/a-game-about-digging-a-hole.md), DIG-004. The selected Windows observations and their limits are documented in the claim ledger.
+- Novelty: first isolated for `GAME-0694`. See [TAXONOMY_CHANGE_440](../../research/taxonomy-changes/TAXONOMY_CHANGE_440.md). No external novelty claim.
+
+## ACT-912 — Lift the faced floor tile into an empty tool hold
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: From stable support the player addresses one reachable ordinary floor cell ahead and uses an empty tile tool to lift that floor unit as a single held tile. The input selects existing support for relocation.
+- Includes: Gray, standing on B002 in Void Stranger, lifting the ordinary tile directly in front with the base Void Rod.
+- Excludes: Mining material from a resource block; collecting a loose solid body; sliding a tile directly into an adjacent vacancy; or placing an already held tile.
+- Parameters: actor support, facing, reach, target floor state, tool capacity and empty hold
+- Evidence: [Void Stranger decomposition](../games/s-z/void-stranger.md), claims VST-002–VST-003. The two floor traces and an independent PC route account support the pickup, hold and restored-support transitions.
+- Novelty: first isolated for `GAME-0693`. See [TAXONOMY_CHANGE_439](../../research/taxonomy-changes/TAXONOMY_CHANGE_439.md). No external novelty claim.
+
+## ACT-911 — Catch an eligible live enemy into carry by striking it with a short pulse
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The player launches a local directed pulse. Direct contact with a compatible active enemy converts that body into a single physical load following the player’s body, ready for a later release input.
+- Includes: Klonoa’s Wind Bullet inflating and pulling an ordinary Moo into the overhead hold below the first taught ledge.
+- Excludes: Touch pickup of an inert loose object; aimed capture into a persistent creature roster; binding a copied power directly to a combat button; or a strike that removes the enemy without leaving it carried.
+- Parameters: facing, pulse reach, target compatibility, impact and temporary carry state
+- Evidence: [Klonoa 2: Lunatea's Veil decomposition](../games/g-l/klonoa-2-lunateas-veil.md), claims KLV-002–KLV-003. The original North American booklet and both PS2 captures support the separate held and released states.
+- Novelty: first isolated for `GAME-0692`. See [TAXONOMY_CHANGE_438](../../research/taxonomy-changes/TAXONOMY_CHANGE_438.md). No external novelty claim.
+
+## ACT-910 — Charge a stationary ground spin and release it as a rolling dash
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: With the avatar supported on the ground, the player holds the crouch direction and issues the spin input. The avatar prepares its spin in place. Releasing the crouch direction converts the prepared state into a fast rolling launch along the facing direction.
+- Includes: Under Sonic’s normal controls, hold Down and press A to start the stationary Spin Dash. Release Down to roll from the preparation point.
+- Excludes: Entering a moving roll at already acquired speed, jumping from a standstill, releasing a held jump button, an automatic spring launch, or assigning an exact speed to a given number of revs.
+- Parameters: Supported stance, spin input, held direction, stationary preparation, release, facing and launched roll.
+- Evidence: [Sonic Advance decomposition](../games/s-z/sonic-advance.md), SAD-002. The original controls and supplementary launch sequence support the scoped action.
+- Novelty: first isolated for `GAME-0690`. See [TAXONOMY_CHANGE_436](../../research/taxonomy-changes/TAXONOMY_CHANGE_436.md). No external novelty claim.
+
+## ACT-909 — Time a rail drift against a marked curve
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: As the moving rail vehicle approaches a signposted bend, engage the drift input for that curve. The timing of the request can earn a separately recognized clean drift while the vehicle follows its current curved track.
+- Includes: At a warned bend on the approach, use the drift input and read the Perfect result or the corresponding optional objective credit.
+- Excludes: Free steering around a road corner, building charge tiers that pay out on release, choosing a different rail, or keeping a manual after a jump.
+- Parameters: Curve sign, approaching vehicle, drift command timing, bend and recognition.
+- Evidence: [Denshattack! decomposition](../games/a-f/denshattack.md), DA-002. The attributed PlayStation captures and the platform release materials support the scoped rules.
+- Novelty: first isolated for `GAME-0687`. See [TAXONOMY_CHANGE_433](../../research/taxonomy-changes/TAXONOMY_CHANGE_433.md). No external novelty claim.
+
+## ACT-908 — Switch to an adjacent railway track during a jump
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: While the controlled rail vehicle is airborne, the player selects a neighboring eligible track laterally and directs the vehicle toward it before contact. A successful transfer resumes forward travel on the new track.
+- Includes: Jump between the adjacent routes in the gorge, steer the transfer toward the other rail and regain support there.
+- Excludes: Choosing an authored junction while already on the rail, changing tracks with the wheels still supported, merely turning the vehicle in midair, or automatic travel without a chosen neighbor.
+- Parameters: Airborne window, origin track, adjacent target track, lateral choice, contact and resumed travel.
+- Evidence: [Denshattack! decomposition](../games/a-f/denshattack.md), DA-003. The attributed PlayStation captures and the platform release materials support the scoped rules.
+- Novelty: first isolated for `GAME-0687`. See [TAXONOMY_CHANGE_433](../../research/taxonomy-changes/TAXONOMY_CHANGE_433.md). No external novelty claim.
+
+## ACT-907 — Build and execute a verb-and-object sentence from selected words
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The player selects a displayed verb and adds its required operands from the scene or inventory to a pending sentence. A final confirmation executes the assembled command. A connective such as with is supplied by the interface.
+- Includes: Select Unlock, address the front door, choose the carried key as the final operand and confirm the complete command.
+- Excludes: Typing a command into a free-text parser, holding a selected tool mode across repeated uses, committing a single contextual menu option immediately, or merely pointing at a named object.
+- Parameters: Selected verb, scene operand, optional inventory operand, supplied connective and dispatch input.
+- Evidence: [Maniac Mansion decomposition](../games/m-r/maniac-mansion.md), MM-002, MM-005. The Lucasfilm manual and retail floppy capture corroborate the scoped rules.
+- Novelty: first isolated for `GAME-0686`. See [TAXONOMY_CHANGE_432](../../research/taxonomy-changes/TAXONOMY_CHANGE_432.md). No external novelty claim.
+
+## ACT-906 — Position earned furniture from a room editor collection
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Select one furniture object already earned from the room editor collection and put it into a room position. The editor lets the player grab and relocate the object before returning to ordinary room control.
+- Includes: Choose the Basic Chair awarded by the first grid, place it on the floor, then grab and move it to a different square during Edit Mode.
+- Excludes: Buying and positioning a paid furnishing, automatically placing a story object, using the chair from ordinary room control, or presenting a placement preview without committing the object.
+- Parameters: Earned item, furniture collection, placement mode, selected floor position, grab and release.
+- Evidence: [Squeakross decomposition](../games/s-z/squeakross-home-squeak-home.md), SQH-004. Launch-window Switch footage and Alblune's gameplay overview support the scoped rules.
+- Novelty: first isolated for `GAME-0685`. See [TAXONOMY_CHANGE_431](../../research/taxonomy-changes/TAXONOMY_CHANGE_431.md). No external novelty claim.
+
+## ACT-905 — Drag a numbered dial in a chosen direction to an indexed mark
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: While the fixture is in a close view, drag around its rotary dial in a chosen direction to bring a numbered mark under the fixed reference. Continue past the same marks when the chosen instruction requires another revolution.
+- Includes: Use the stylus to turn the mailbox dial counterclockwise from an initial 7 alignment until 7 reaches the fixed indicator again.
+- Excludes: Typing a value, tapping independent buttons, turning a key or freely rotating a loose object to fit a footprint.
+- Parameters: Touch gesture, current dial angle, fixed index, desired mark, direction and travel.
+- Evidence: [Last Window decomposition](../games/g-l/last-window-the-secret-of-cape-west.md), LW-003. Nintendo’s Chapter 1 guide and the two recorded English routes support the scoped rules.
+- Novelty: first isolated for `GAME-0683`. See [TAXONOMY_CHANGE_429](../../research/taxonomy-changes/TAXONOMY_CHANGE_429.md). No external novelty claim.
+
+## ACT-904 — Hold a traversal boost to accelerate into a compatible surface
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: While directly steering an avatar, hold the boost input to request acceleration along the approach into eligible curved or steep traversal geometry. The command can be applied while directional movement is already active.
+- Includes: Hold boost through a quarter-pipe approach so Sonic continues quickly enough to use the curved route.
+- Excludes: Automatic acceleration on course contact, an ordinary jump without boost, a vehicle booster metered by engine heat, or evidence of an exact input duration.
+- Parameters: Held input, directional approach, available boost and surface eligibility.
+- Evidence: [Sonic Dream Team decomposition](../games/s-z/sonic-dream-team.md), SDT-002. The release materials and the two launch-window routes support the scoped rules.
+- Novelty: first isolated for `GAME-0682`. See [TAXONOMY_CHANGE_428](../../research/taxonomy-changes/TAXONOMY_CHANGE_428.md). No external novelty claim.
+
+## ACT-903 — Grasp a remote energy key and direct its release at a socket
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Using the acquired manipulation tool in the eligible view, the player grasps one reachable energy key, holds it remotely while aiming and releases it toward an addressed receiver.
+- Includes: In the Psychic Visor, hold ZL to grasp a Psychic Mote, aim at the compatible socket and release it toward that socket.
+- Excludes: Walking a carried key into physical contact, completing a held sensor scan, moving a captive node along a fixed guide or steering a fired Control Beam.
+- Parameters: Eligible view, acquired tool, source, grasp command, held mote, aim and selected receiver.
+- Evidence: [Metroid Prime 4: Beyond decomposition](../games/m-r/metroid-prime-4-beyond.md), MPB-003–MPB-005. Nintendo and the two Switch 2 recordings support the scoped boundary.
+- Novelty: first isolated for `GAME-0678`. See [TAXONOMY_CHANGE_424](../../research/taxonomy-changes/TAXONOMY_CHANGE_424.md). No external novelty claim.
+
+## ACT-902 — Choose a discrete board trick during the ride
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The player picks a dedicated trick command during active board travel. Distinct inputs select the ordinary jump, a flip or a grab and allow a return to rolling.
+- Includes: Choose the A ollie for a car approach or use a separate flip or grab command on a free stretch.
+- Excludes: Steering or pushing, automatic scenery stunts, a sustained manual or a revert used to maintain a connected scoring chain.
+- Parameters: Board, trick input, current travel state, approach timing and airborne motion.
+- Evidence: [Mixtape decomposition](../games/m-r/mixtape.md), MX-003, MX-004. The launch-window Xbox trace and the applicable author and player evidence support the scoped boundary.
+- Novelty: first isolated for `GAME-0676`. See [TAXONOMY_CHANGE_422](../../research/taxonomy-changes/TAXONOMY_CHANGE_422.md). No external novelty claim.
+
+## ACT-901 — Add an active push to a coasting rider
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: During ongoing ground travel, the player commands the rider to push and add forward drive without needing to hold an accelerator to keep riding.
+- Includes: Use the Y Push command during the downhill skate leg, separately from steering and the tricks.
+- Excludes: Selecting a simulation time multiplier, paying a nitro reserve, holding a conventional throttle or choosing a direction.
+- Parameters: Rider, board, current route phase and the push input.
+- Evidence: [Mixtape decomposition](../games/m-r/mixtape.md), MX-002, MX-003. The launch-window Xbox trace and the applicable author and player evidence support the scoped boundary.
+- Novelty: first isolated for `GAME-0676`. See [TAXONOMY_CHANGE_422](../../research/taxonomy-changes/TAXONOMY_CHANGE_422.md). No external novelty claim.
+
+## ACT-900 — Set an addressed rail switch’s initial routing state during planning
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Before dispatch, the player changes the marked initial direction of an existing switching track without changing its branch geometry.
+- Includes: Tap the destination fork’s Flip Flop sticker so the first arrival along the shared stem goes to red.
+- Excludes: Drawing or replacing the physical track, throwing a switch under a running train or the automatic flip on passage.
+- Parameters: Addressed switch, visible marker, starting direction, unchanged geometry and planning phase.
+- Evidence: [Teeny Tiny Trains decomposition](../games/s-z/teeny-tiny-trains.md), TTT-003. The launch-window iOS trace, in-game tutorial and creator sources support the scoped boundaries.
+- Novelty: first isolated for `GAME-0675`. See [TAXONOMY_CHANGE_421](../../research/taxonomy-changes/TAXONOMY_CHANGE_421.md). No external novelty claim.
+
+## ACT-899 — Enter a water-surface or ramp stunt command
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The player enters an ordered stick gesture, sometimes with a button modifier, to choose a distinct watercraft stunt in the current surface, ramp or airborne context.
+- Includes: Use the prescribed ramp input for an airborne flip or the separate surface command for a running handstand.
+- Excludes: Normal steering or crouching, an exclusively airborne boost trick, or a stunt paid merely by entering a ring.
+- Parameters: Current movement context, ordered direction changes or rotation, modifier and recognised stunt.
+- Evidence: [Wave Race: Blue Storm decomposition](../games/s-z/wave-race-blue-storm.md), WBS-005. The North American booklet and the two scoped attempt traces support the boundary described in the game record.
+- Novelty: first isolated for `GAME-0674`. See [TAXONOMY_CHANGE_420](../../research/taxonomy-changes/TAXONOMY_CHANGE_420.md). No external novelty claim.
+
+## ACT-898 — Confirm a contract crew from locked and optional members
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Before a contracted visit the player confirms a roster with at least one fixed member and can add eligible optional members who bring separate action pools and skills.
+- Includes: Keep the locked Serafin aboard and choose whether to bring available Nia before leaving for Conway Signal.
+- Excludes: Purely cosmetic crew selection, equally fungible generic slots or hiring a participant who does not get their own actions.
+- Parameters: Fixed members, optional eligibility, roster confirmation, actor dice and skill profile.
+- Evidence: [Citizen Sleeper 2 decomposition](../games/a-f/citizen-sleeper-2-starward-vector.md), CS2-002, CS2-003. The official product documentation and recorded contract traces support the boundary described in the game record.
+- Novelty: first isolated for `GAME-0673`. See [TAXONOMY_CHANGE_419](../../research/taxonomy-changes/TAXONOMY_CHANGE_419.md). No external novelty claim.
+
+## ACT-897 — Commit one available actor-owned die to a skill action
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The player chooses a known available die belonging to a particular actor, assigns it to an addressed skill action and confirms the commitment.
+- Includes: Put one of Serafin’s current dice into Create Opening and confirm the action.
+- Excludes: Asking for an unallocated generic roll, equipping an item in a socket or selecting a task without allocating a known die.
+- Parameters: Actor, current die face, eligible socket, target skill and commit step.
+- Evidence: [Citizen Sleeper 2 decomposition](../games/a-f/citizen-sleeper-2-starward-vector.md), CS2-003, CS2-004. The official product documentation and recorded contract traces support the boundary described in the game record.
+- Novelty: first isolated for `GAME-0673`. See [TAXONOMY_CHANGE_419](../../research/taxonomy-changes/TAXONOMY_CHANGE_419.md). No external novelty claim.
+
+## ACT-896 — Nudge the table once to perturb a live free ball
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The player makes a discrete table nudge that can perturb the trajectory of the free ball without requiring a flipper contact.
+- Includes: Use the documented Button II table nudge to disturb the rolling pinball’s path.
+- Excludes: Sustaining a directional tilt to guide a body continuously, flipping a paddle, selecting a new global gravity axis or aiming a separate launch.
+- Parameters: Nudge axis or preset, impulse, ball state, timing and permitted recovery.
+- Evidence: [Devil's Crush decomposition](../games/a-f/devils-crush.md), DCR-003. The original booklet or the cross-checked retail-rules traces support the boundary described in the game record.
+- Novelty: first isolated for `GAME-0672`. See [TAXONOMY_CHANGE_418](../../research/taxonomy-changes/TAXONOMY_CHANGE_418.md). No external novelty claim.
+
+## ACT-895 — Time a side-specific pivoting flipper against the live ball
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The player activates a selected side’s anchored flipper while a ball is already moving. A coincident contact redirects the ball according to the local approach and the flipper swing.
+- Includes: Press the left or right flipper as the descending pinball comes into reach, using timing to send it back toward the heads.
+- Excludes: A stored-serve launcher, direct ball steering, passive cushion reflection or a remote strike that does not require contact with the paddle.
+- Parameters: Side control, local pivot, approach, swing phase, contact point and outgoing path.
+- Evidence: [Devil's Crush decomposition](../games/a-f/devils-crush.md), DCR-003, DCR-004. The original booklet or the cross-checked retail-rules traces support the boundary described in the game record.
+- Novelty: first isolated for `GAME-0672`. See [TAXONOMY_CHANGE_418](../../research/taxonomy-changes/TAXONOMY_CHANGE_418.md). No external novelty claim.
+
+## ACT-894 — Load a reachable live creature onto the moving actor’s back
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The player uses a local bodily carry action to place an eligible living creature onto their actor’s back. The creature travels with the actor and remains available for a subsequent interaction.
+- Includes: Tail Flick a Glubbit onto Yoshi’s back and move it to a nearby apple branch.
+- Excludes: Swallowing the creature to create ammunition, carrying an inert key or crate, riding a mount, or merely leading a nearby follower.
+- Parameters: Reach, target eligibility, carrier, attachment point, movement and live passenger state.
+- Evidence: [Yoshi and the Mysterious Book decomposition](../games/s-z/yoshi-and-the-mysterious-book.md), YMB-002, YMB-004. Nintendo's action guide and multiple retail traces support the scoped boundaries. Exact thresholds and restore behaviour remain unmeasured.
+- Novelty: first isolated for `GAME-0671`. See [TAXONOMY_CHANGE_417](../../research/taxonomy-changes/TAXONOMY_CHANGE_417.md). No external novelty claim.
+
+## ACT-893 — Capture a nearby skill directly into a chosen combat button
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The player approaches an eligible field capsule and uses a destination combat button to take its skill directly into that binding. Occupied bindings are legal choices and their previous skill is replaced.
+- Includes: Approach Laser, Flash Barrier or Vacuum Slash on the Highway and commit the desired face-button binding in Phantom Dust.
+- Excludes: Automatic pickup, picking a ready skill from stored inventory, or editing an arsenal between encounters.
+- Parameters: Nearby capsule, captured identity, chosen button, previous binding and resulting quick access.
+- Evidence: [Phantom Dust decomposition](../games/m-r/phantom-dust.md), PHD-002, PHD-003. The English Xbox manual and original-rules recordings support the stated boundaries. Exact runtime hit and refill timings remain unmeasured.
+- Novelty: first isolated for `GAME-0670`. See [TAXONOMY_CHANGE_416](../../research/taxonomy-changes/TAXONOMY_CHANGE_416.md). No external novelty claim.
+
+## ACT-892 — Choose and confirm a wall position for an accepted picture
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: After the floor assembly is accepted, the player switches to a separate wall placement view, chooses a position for the completed picture and confirms its display there.
+- Includes: Taking the completed Braeburn picture to the gallery wall and confirming a position beside or below the first picture.
+- Excludes: Moving loose fragments, completing the image by hanging it, auto-placement and assigning an orientation to a purchased furnishing.
+- Parameters: Accepted picture, wall view, selected position, other pictures and placement confirmation.
+- Evidence: [Wilmot Works It Out decomposition](../games/s-z/wilmot-works-it-out.md), WWO-006. Publisher documentation, the creator interview and the released-game traces support the stated boundaries. The traces are cross-platform corroboration for the macOS target.
+- Novelty: first isolated for `GAME-0669`. See [TAXONOMY_CHANGE_415](../../research/taxonomy-changes/TAXONOMY_CHANGE_415.md). No external novelty claim.
+
+## ACT-891 — Rotate held tile positions around the carrier
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The player commands a turn of the relative attachment positions of held tiles around the carrying avatar while keeping the tile artwork facing its original reading direction.
+- Includes: Moving the held last Braeburn fragment from above Wilmot to his right before the final join.
+- Excludes: Turning a picture fragment in place, rotating the room view and moving an unheld tile.
+- Parameters: Carrier, held positions, turn direction and fixed artwork axes.
+- Evidence: [Wilmot Works It Out decomposition](../games/s-z/wilmot-works-it-out.md), WWO-003. Publisher documentation, the creator interview and the released-game traces support the stated boundaries. The traces are cross-platform corroboration for the macOS target.
+- Novelty: first isolated for `GAME-0669`. See [TAXONOMY_CHANGE_415](../../research/taxonomy-changes/TAXONOMY_CHANGE_415.md). No external novelty claim.
+
+## ACT-890 — Release one selected event item into the local scene
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The player chooses an acquired event item in the inventory and explicitly releases it into the current scene without separately pointing it at a fixture or recipient.
+- Includes: Confirming the Furious Tornado from Use Item at the fog in Tomba!.
+- Excludes: Picking up the item, using a key on a separately addressed lock, handing an object to a recipient and passive use on entry.
+- Parameters: Inventory, event item, confirm command and current scene.
+- Evidence: [Tomba! decomposition](../games/s-z/tomba.md), TOM-004. The North American manual and recorded retail play support the boundary in the claim ledger. Physical button telemetry and flags in executable memory were unavailable.
+- Novelty: first isolated for `GAME-0668`. See [TAXONOMY_CHANGE_414](../../research/taxonomy-changes/TAXONOMY_CHANGE_414.md). No external novelty claim.
+
+## ACT-889 — Jump between authored traversal depths
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: The player combines a jump with a depth-direction input at an authored transfer position to land on a separately traversable foreground or background track.
+- Includes: Taking the eligible background jump toward the starting hut and mailbox in Tomba!.
+- Excludes: Jumping along the same track, unrestricted ground-plane steering and switching the displayed layer without moving the avatar.
+- Parameters: Source track, transfer position, jump command, depth direction and landing track.
+- Evidence: [Tomba! decomposition](../games/s-z/tomba.md), TOM-002. The North American manual and recorded retail play support the boundary in the claim ledger. Physical button telemetry and flags in executable memory were unavailable.
+- Novelty: first isolated for `GAME-0668`. See [TAXONOMY_CHANGE_414](../../research/taxonomy-changes/TAXONOMY_CHANGE_414.md). No external novelty claim.
+
+## ACT-888 — Hold and release a body-enclosing energy shield
+
+- Lifecycle: `Active`
+- Claim status: `Observation`
+- Evidence quality: `Corroborated`
+- Confidence: `High`
+- Definition: Hold a dedicated guard input to surround the controllable avatar with a sustained energy field, then release it to remove the field. The avatar can still change location with the field raised while its enabling resource lasts.
+- Includes: Holding R1 in a blue volley from Prophet and walking with the Soltari Shield surrounding the avatar, then lowering it to attack.
+- Excludes: A frontal directional weapon guard, a passive armour layer, a one-instant parry, or a separately aimed wall that stays behind when the avatar moves.
+- Parameters: Hold request, avatar location, field shape, available Power and release.
+- Evidence: [SAROS decomposition](../games/s-z/saros.md), SAR-002, SAR-004. Housemarque’s control notes and the PS5-attributed combat traces support the scope indicated in the ledger. Exact runtime coefficients were not measured.
+- Novelty: first isolated for `GAME-0667`. See [TAXONOMY_CHANGE_413](../../research/taxonomy-changes/TAXONOMY_CHANGE_413.md). No external novelty claim.
+
 ## ACT-887 — Apply a local brush mark at an independently aimed cursor
 
 - Lifecycle: `Active`
